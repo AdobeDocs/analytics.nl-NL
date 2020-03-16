@@ -1,0 +1,30 @@
+---
+description: Veldbeschrijvingen voor Algemene accountinstellingen van rapportsuite in Admin.
+title: Algemene accountinstellingen
+topic: Admin tools
+uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
+translation-type: tm+mt
+source-git-commit: fde56828eafad8b7668a854170cd9ee3a8c7ed6b
+
+---
+
+
+# Algemene accountinstellingen
+
+Veldbeschrijvingen voor de algemene accountinstellingen van een rapportsuite in Admin.
+
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**
+
+Deze montages bevatten het uitgeven opties voor de functionaliteit van de basisrapportreeks, zoals naam en tijdzone.
+
+| Option | Beschrijving |
+|--- |--- |
+| Titel site | Identificeert uw site. Geef elke rapportsuite een unieke titel voor de site. |
+| Basis-URL | Geeft de hoofdwebsite van de rapportsuite aan. De basis-URL heeft geen invloed op het filteren van referenties. Gebruik in plaats hiervan [interne URL-filters](/help/admin/admin/internal-url-filter-admin.md) . |
+| Tijdzone | Bepaalt de datum en de tijd verbonden aan uw rapportgegevens.  Het veranderen van de tijdzone voor een levende rapportreeks leidt of tot een spiek of hiaat in rapportgegevens. Adobe raadt u aan de tijdzones tijdens niet-piekuren te wijzigen om het scheeftrekken van gegevens te voorkomen.  Als u bijvoorbeeld de tijdzone van de rapportsuite wijzigt van Central naar Pacific om 15.00 uur, wordt de huidige tijd van de rapportsuite ingesteld op 13.00 uur. Omdat het melden reeds gegevens voor 1:00 uur heeft verzameld, tonen de rapporten een verkeerspiek tussen 1:00pm en 3:00pm.  Alternatief, als u de tijdzone van de rapportreeks van Centraal in Oost om 15:00pm verandert, wordt de huidige tijd van de rapportreeks 4:00pm. Rapporten geven geen gegevens weer tussen 15.00 en 16.00 uur op de dag van de tijdwijziging. |
+| Standaardpagina | Als uw [!UICONTROL Most Popular Pages] rapport geen paginanamen maar URL&#39;s bevat, voorkomt u met deze instelling dat meerdere URL&#39;s dezelfde pagina vertegenwoordigen. De URL&#39;s `https://mysite.com` en `https://mysite.com/index.html` zijn bijvoorbeeld doorgaans dezelfde pagina. U kunt standaardbestandsnamen verwijderen, zodat deze twee URL&#39;s beide worden weergegeven als `https://mysite.com`.  Indien leeg gelaten, worden de volgende bestandsnamen verwijderd uit de URL&#39;s:  index.htm, index.html, index.cgi, index.asp, default.htm, default.html, default.cgi, default.asp, home.htm, home.html, home.cgi en home.asp.  Als u het verwijderen van bestandsnamen wilt uitschakelen, voert u een waarde in die nooit voorkomt in de URL&#39;s. |
+| Vervang het laatste octet van IP adressen met 0 | Het verwijderen van het laatste octet wordt gedaan vóór IP het filtreren. Als dusdanig, wordt het laatste octet vervangen met 0, en IP de uitsluitingsregels zouden moeten worden bijgewerkt om IP adressen met nul op het eind aan te passen. Overeenkomende * moet overeenkomen met 0. Als u deze optie inschakelt, wordt het IP-adres gewijzigd voordat het wordt verwerkt. Bijvoorbeeld, wordt het IP adres 134.123.567.780 veranderd in 134.123.567.0. Geosegmentatiegegevens zullen niet zo precies zijn als wanneer het volledige IP adres wordt gebruikt. Meer in het bijzonder zal de nauwkeurigheid van de stad meer worden beïnvloed dan de nauwkeurigheid van het land of de regio. Zowel worden de regels van Bot als de regels van VISTA beïnvloed omdat het volledige IP adres niet aan hen beschikbaar is. Bovendien worden om het even welke verwerkingsregels die IP gebaseerd zijn, met inbegrip van de regels van het marketingkanaal en de regels van de rapportreeksverwerking, beïnvloed door dit het plaatsen.<br>**Opmerking **: Deze instelling wordt standaard ingeschakeld voor alle nieuwe rapportsuites die na januari 2019 in het London Data Center worden gemaakt, maar alleen als de instellingen voor die rapportsuites worden gekopieerd van een sjabloon die in de beheerconsole wordt vermeld. De reeksen van het rapport waarvan de montages van andere rapportreeksen worden gedupliceerd zullen alle montages van de geselecteerde rapportreeks erven. |
+| IP Obfuscatie | Zet IP adressen in niet-herkenbare koorden, hoofdzakelijk verwijderend hen uit de gegevensopslag van Adobe. Wanneer IP de Verduistering wordt toegelaten, worden de originele IP adressen permanent verloren.<br>**Opmerking **: De IP adressen worden overal in Analytics, met inbegrip van het Pakhuis van Gegevens verduisterd. Nochtans, wordt IP die in Doel plaatst gecontroleerd afzonderlijk, zodat heeft dit het plaatsen geen effect op Doel.<br>Als IP de verwarring wordt toegelaten, gebeurt IP de uitsluiting alvorens het IP adres wordt verduisterd, zodat te hoeven de klanten om het even wat niet te veranderen wanneer zij IP verduistering toelaten.<br>Als u** Uitgeschakeld **inschakelt, blijft het IP-adres in de gegevens staan.<br>Als u het IP-adres** van **Obfuscate inschakelt, verandert de IP in een gehashte waarde (bijvoorbeeld 234abc6493872038).<br>Als u Controleren op IP-adres****verwijderen inschakelt, wordt het IP-adres na geo-lookup vervangen door x.x.x.x in de gegevens.<br>**Opmerking**: Deze instelling kan wijzigingen in aangepaste [bot-regels](/help/admin/admin/bot-removal/bot-rules.md) of [IP-uitsluitingen](/help/admin/admin/exclude-ip.md)vereisen. |
+| Opslag van transactie-id | Hiermee kunt u gegevensbronnen voor [transactie-id](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md) gebruiken. |
+| Ad hoc analyse activeren | Geeft aan of de rapportsuite in kwestie wordt weergegeven als een beschikbare rapportsuite in ad-hocanalyse. Gebruik deze instelling om te beperken welke rapportsuites worden weergegeven als optie voor ad-hocanalyse. Bijvoorbeeld, kunt u Ad hoc Analyse voor ontwikkeling en QA- rapportreeksen onbruikbaar maken. |
+| Data Warehouse inschakelen | Hiermee schakelt u de interface van het Data Warehouse in via Analytics > Tools > Data Warehouse. |
