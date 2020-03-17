@@ -1,0 +1,103 @@
+---
+description: Veelgestelde vragen over het volgen van koppelingen in de Kaart van de Activiteit.
+title: Veelgestelde vragen over het bijhouden van koppelingen
+topic: Activity map
+uuid: 10172073-b98b-4950-8397-67a18b37b3b4
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+
+---
+
+
+# Veelgestelde vragen over het bijhouden van koppelingen
+
+Veelgestelde vragen over het volgen van koppelingen in de Kaart van de Activiteit.
+
+>[!CAUTION]
+>
+>Door Activiteitenkaarten bijhouden in te schakelen, verzamelt **u mogelijk PII-gegevens (Personal Identified Information).** Deze gegevens kunnen op zichzelf of met andere informatie worden gebruikt om één persoon te identificeren, contact op te nemen of te vinden, of om een persoon in context te identificeren.
+
+Hier zijn een aantal bekende gevallen waarin PII-gegevens kunnen worden verzameld met behulp van Activiteitenkaarten bijhouden:
+
+* `Mailto` koppelingen. Een mailto-koppeling is een type HTML-koppeling waarmee de standaardmailclient op de computer wordt geactiveerd voor het verzenden van een e-mail.
+* `User ID` koppelingen die worden weergegeven in de kop- of voettekst van een website nadat de gebruiker zich heeft aangemeld.
+* Voor financiële instellingen kan het rekeningnummer als link worden weergegeven. Als u erop klikt, wordt de tekst van de koppeling verzameld.
+* Op websites voor gezondheidszorg kunnen ook PII-gegevens als koppelingen worden weergegeven. Als u op deze koppelingen klikt, wordt de tekst van de koppeling verzameld en worden er dus PII-gegevens verzameld.
+
+<table id="table_0951EAC617344156BAE43000CCD838AF"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <b>V: Wanneer vindt het bijhouden van koppelingen plaats?</b> <p> </p> </td> 
+   <td colname="col2"> A: De koppeling Activiteitenkaart en regio-identificatie vinden plaats wanneer gebruikers op een pagina klikken. </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <b>V: Wat wordt standaard bijgehouden?</b> <p> </p> </td> 
+   <td colname="col2"> A: Als een klikgebeurtenis op een element voorkomt, moet het element sommige controles overgaan om te bepalen als AppMeasurement het als verbinding zal behandelen. Dit zijn de controles: 
+    <ul id="ul_81B9A5A7F8534E71AEF68F2199A154F0"> 
+     <li id="li_49F6DDD9DC124AE5846EC5B7D7BEA20E">Is dit een &lt;A&gt;- of &lt;AREA&gt;-tag met een HREF-eigenschap? </li> 
+     <li id="li_77828D24D54343E5B9A1FF7345221781">Is er een on-click attribuut dat een s_objectID variabele plaatst? </li> 
+     <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">Is dit een INPUT-tag of een SUBMIT-knop met een waarde of onderliggende tekst? </li> 
+     <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">Is dit een INPUT-tag met het type IMAGE en een src-eigenschap? </li> 
+     <li id="li_F34A0C986E8040109A1DDF88C26E56D5">Is dit een &lt;Button&gt;? </li> 
+    </ul> <p>Als het antwoord <b>ja</b> op om het even welke bovenstaande vragen is, dan wordt het element behandeld als verbinding en zal worden gevolgd. </p> <p>Belangrijk:  Knoplabels met het kenmerktype="button" worden door AppMeasurement niet als koppelingen beschouwd. U kunt in plaats hiervan ‘type='button'' op de knoptags verwijderen en rol="button" of submit="button" toevoegen. </p> <p>Belangrijk: Een ankertag met een href die begint met "#" wordt door AppMeasurement beschouwd als een interne doellocatie, niet als een koppeling (omdat u de pagina niet verlaat). Door gebrek, volgt de Kaart van de Activiteit deze interne doelplaatsen niet. Er worden alleen koppelingen bijgehouden waarmee de gebruiker naar een nieuwe pagina navigeert.</p></td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <b>V: Hoe volgt Activity Map andere visuele HTML-elementen?</b> </td> 
+   <td colname="col2"> 
+    <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via de <code> s.tl() </code> functie</b> <p>Als de klik via een s.tl- aanroeping voorkwam, dan zal de Kaart van de Activiteit deze klikgebeurtenis ook ontvangen en zal bepalen als een linkName koordvariabele werd gevonden. Tijdens uitvoering s.tl, zal dat linkName als identiteitskaart van de Verbinding van de Kaart van de Activiteit worden geplaatst. Het aangeklikte element dat de aanroep s.tl() heeft veroorzaakt, wordt gebruikt om het gebied te bepalen. Voorbeeld: </p> <p> 
+       <code>
+         &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
+       </code> </p> </li> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Via de <code> s_objectID </code> variabele</b> <p>Voorbeeld: </p> <p> 
+       <code>
+         &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
+       </code> </p> <p>Belangrijk:  Merk op dat een volgpuntkomma (;) wordt vereist wanneer het gebruiken van s_objectID in de Kaart van de Activiteit. </p> </li> 
+    </ol> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <b>V: Kunt u mij enkele voorbeelden geven van koppelingen die worden bijgehouden?</b> </td> 
+   <td colname="col2"> 
+    <ol id="ol_697E5CE0B84D4A309DD80670697A02BA"> 
+     <li id="li_2C511EFD10F14F438B1F3A1BAB4B45E0"> 
+      <code>
+        &lt;a&amp;nbsp;href="/home"&gt;Home&lt;/a&gt; 
+      </code> </li> 
+     <li id="li_76F3DB36ED734132A2386871E6EB4929"> 
+      <code>
+        &lt;input&amp;nbsp;type="submit"&amp;nbsp;value="Submit"/&gt; 
+      </code> </li> 
+     <li id="li_10CF9EDA224645169E7CDF74956DB98B"> 
+      <code>
+        &lt;input&amp;nbsp;type="image"&amp;nbsp;src="submit-button.png"/&gt; 
+      </code> </li> 
+     <li id="li_9FA171D7F49547E798DE21869F73A402"> 
+      <code>
+        &lt;p&nbsp;onclick="var&nbsp;s_objectID='custom&nbsp;link&nbsp;id';"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/p&gt;
+      </code> </li> 
+     <li id="li_C5D77589006E4514AA6F3AEB509A0BAF"> 
+      <code>
+        &lt;div&nbsp;onclick="s.tl(true,'o','custom&nbsp;link&nbsp;id')"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/div&gt;
+      </code> </li> 
+    </ol> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <b>V: Kunt u mij enkele voorbeelden geven van koppelingen die NIET worden bijgehouden?</b> </td> 
+   <td colname="col2"> 
+    <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547"> 
+     <li id="li_99372060646B43EF94C13A9C682CE693">Reden: Ankertag heeft geen geldige href <code>
+        &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
+      </code> </li> 
+     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Reden: Geen <code> s_ObjectID </code> noch <code> s.tl() </code> aanwezig <code>
+        &lt;p&nbsp;onclick="showPanel('market&nbsp;rates')"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/p&gt;
+      </code> </li> 
+     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Reden: Geen <code> s_ObjectID </code> noch <code> s.tl() </code> aanwezig <code>
+        &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="A"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="B"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="C"/&gt;
+      </code> </li> 
+     <li id="li_9EBFCC58F3A94F30BA62156F14B15D55">Reden: in de eigenschap src ontbreekt een formulierinvoerelement <code>
+        &lt;input&amp;nbsp;type="image"/&gt; 
+      </code> </li> 
+    </ol> </td> 
+  </tr> 
+ </tbody> 
+</table>
