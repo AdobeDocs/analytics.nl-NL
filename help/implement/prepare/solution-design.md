@@ -2,7 +2,7 @@
 title: Een document voor het ontwerp van een oplossing maken
 description: Leer wat een document van het oplossingsontwerp is, en hoe u het in uw organisatie kunt gebruiken.
 translation-type: tm+mt
-source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
+source-git-commit: ''
 
 ---
 
