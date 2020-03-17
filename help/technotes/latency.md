@@ -13,7 +13,7 @@ source-git-commit: a4a4d9e6e2d3e3ed88b4ef66e9da3b05865a9b79
 
 # Beschikbaarheid van gegevens en latentie in Adobe Analytics
 
-Doorgaans kunt u volledige gegevens in rapporten zien 2 uur nadat gegevens zijn verzameld. De volgende informatie kan helpen problemen met de latentie van de rapportsuite in analysegegevens oplossen.
+Doorgaans kunt u verwachten dat volledige gegevens in rapporten worden weergegeven twee uur nadat gegevens zijn verzameld. De volgende informatie kan helpen problemen met de latentie van de rapportsuite in analysegegevens oplossen.
 
 ## Gegevensbatchverwerking
 
