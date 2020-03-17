@@ -6,7 +6,7 @@ title: Referentie gegevenskolom
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: e9158f4c1ea2fc338116df34d6c6edf93ff7050e
+source-git-commit: ''
 
 ---
 
@@ -151,7 +151,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `page_event_var3` | Niet meer gebruikt. Bevat gegevens van de module Enquête en Media. Bevolkt verouderde videorapporten in vorige versies van Adobe Analytics. | text |
 | `page_type` | Wordt gebruikt om de afmetingen voor de pagina&#39;s Niet gevonden te vullen. Deze wordt exclusief gebruikt voor 404 pagina&#39;s. Deze variabele moet leeg zijn of &quot;ErrorPage&quot; bevatten. | teken(20) |
 | `page_url` | De URL van de hit. Niet gebruikt in aanvragen voor het bijhouden van koppelingen. | varchar(255) |
-| `pagename` | Wordt gebruikt om de afmetingen Pagina&#39;s te vullen. Als de variabele pagename leeg is, gebruikt Analytics in plaats daarvan page_url. | varchar(100) |
+| `pagename` | Wordt gebruikt om de afmetingen Pagina&#39;s te vullen. Als de paginaaandsnaamvariabele leeg is, gebruikt Analytics in plaats daarvan page_url. | varchar(100) |
 | `paid_search` | Markering die wordt ingesteld als de treffer overeenkomt met de detectie van betaalde zoekopdrachten. | tinyint zonder teken |
 | `partner_plugins` | Niet gebruikt. Een deel van een gesloopt onderdeel vele jaren geleden. | varchar(255) |
 | `persistent_cookie` | Gebruikt door de Persistent afmeting van de Steun van het Koekje. Geeft aan of de bezoeker cookies ondersteunt die na elke hit niet worden verwijderd. | teken(1) |
