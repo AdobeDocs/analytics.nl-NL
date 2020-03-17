@@ -5,12 +5,21 @@ title: Nieuwe functies in de analysewerkruimte
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
+source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
 
 ---
 
 
 # Nieuwe functies in de analysewerkruimte
+
+## maart 2020
+
+Nieuwe functies uitgebracht op 12 maart 2020.
+
+| Functie | Beschrijving |
+|--- |--- |
+| Ondersteuning voor meerdere rapportsuite in Workspace | U kunt gegevens van veelvoudige rapportreeksen in één enkel project nu brengen om zij aan zij te bekijken. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| Sjabloon voor trainingszelfstudie | Dit nieuwe standaardmalplaatje begeleidt u door gemeenschappelijke terminologie en stappen voor het bouwen van uw eerste analyse in Werkruimte. Het is beschikbaar als standaardmalplaatje in Nieuw Project modaal en vervangt het steekproefproject dat vandaag voor nieuwe gebruikers bestaat die geen andere projecten in hun lijst hebben. [Meer informatie...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## februari 2020
 
@@ -18,7 +27,6 @@ Nieuwe functies uitgebracht op 20 februari 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| Ondersteuning voor meerdere rapportsuite in Workspace | U kunt gegevens van veelvoudige rapportreeksen in één enkel project nu brengen om zij aan zij te bekijken. Vanaf 20 februari 2020 zal de functie in de loop van enkele weken worden geïmplementeerd voor alle klanten. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | Nieuwe werkruimtemalplaatje voor organisaties die Apparaatanalyse gebruiken | In deze sjabloon ziet u hoe effectief CDA is bij het samenvoegen van bezoeken en leert u over exclusieve CDA-dimensies en metriek. Er is een rapportenpakket met CDA vereist. Zie [Apparaatanalyse](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) instellen voor meer informatie. |
 | Nieuwe sneltoetsen in Workspace | <ul><li>Alle deelvensters samenvouwen/uitvouwen: `alt + m`</li><li>Actief deelvenster samenvouwen/uitvouwen: `alt + ctrl + m`</li><li>Linkerspoor zoeken: `ctrl + /`</li><li>Naar volgend deelvenster gaan: `alt + Right Key`</li><li>Naar vorig deelvenster gaan: `alt + Left Key`</li></ul>[Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Andere werkruimtesamenhogingen | <ul><li>Wanneer een deelvenster of visualisatie in Workspace wordt neergezet, wordt automatisch overgeschakeld naar componenten voor een naadloze workflow.</li><li>Sjablooncomponenten kunnen nu worden geactiveerd (bijvoorbeeld gelabeld, geprivilegieerd, goedgekeurd).</li><li>De gefilterde metrische lijst en de segmentlijsten bieden + knoop aan om een nieuwe component toe te voegen als u niet vindt wat u nodig hebt.</li></ul> |
