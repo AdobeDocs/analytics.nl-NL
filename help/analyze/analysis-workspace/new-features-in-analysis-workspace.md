@@ -47,7 +47,7 @@ Verbeteringen die zijn uitgebracht op 10 oktober 2019.
 | Verbetering | Beschrijving |
 |--- |--- |
 | Totalen van tabellen voor vrije vorm bijwerken | Vrije-vormtabellen bevatten nu twee totalen, a **[!UICONTROL Table total]** en a **[!UICONTROL Grand total]**. De tabel totaal rijrekeningen voor toegepaste [rapportfilters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) . Voorheen beïnvloedde alleen de segmentatie de totalen. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>Daarnaast zijn **[!UICONTROL Show Totals]** en **[!UICONTROL Show Grand Total]** opties toegevoegd aan **[!UICONTROL Column Settings]**.<br/>Met deze wijziging in de totalen van Freeform worden afhankelijke visualisaties bijgewerkt (bijv. gekoppelde **[!UICONTROL Summary Number]** visualisaties) en worden geëxporteerde CSV- en PDF-gegevens. |
-| Optie voor het verwijderen van Niet-opgegeven/Geen | De mogelijkheid om &quot;Niet gespecificeerd (niets)&quot; gemakkelijk te verwijderen is toegevoegd als optie om filters te melden. |
+| Optie om Niet-opgegeven/Geen te verwijderen | De mogelijkheid om &quot;Niet gespecificeerd (niets)&quot; gemakkelijk te verwijderen is toegevoegd als optie om filters te melden. |
 | Afwijking van componenten van paarse korreligheid | De componenten voor de paarse korreligheid (Minuut, Uur, Dag, Week, Maand, Kwart, Jaar) zijn afgekeurd. De componenten voor paarse tijd hebben zich altijd precies gedragen als hun tegenhangers voor oranje dimensies, zodat deze verandering de ervaring zal vereenvoudigen. **Er hoeft geen actie** te worden ondernomen als u eerder een van de paarse tijdcomponenten hebt gebruikt.<br/>Door deze wijziging is de naam van de paarse **[!UICONTROL Time]** sectie ook gewijzigd in **[!UICONTROL Date Ranges]**. |
 
 ## augustus 2019
@@ -640,7 +640,7 @@ Nieuwe functies uitgebracht op 17 augustus 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md"  > De kolom van markeringen in de pagina van de projectlijst </a> </p> </td> 
-   <td colname="col2"> <p>Een kolom van <span class="wintitle"> Codes </span> aan de pagina van de het projectlijst van de Werkruimte toegevoegd. Deze kolom toont de markeringen voor elk project. </p> </td> 
+   <td colname="col2"> <p>Een <span class="wintitle"> kolom van Codes toegevoegd </span> aan de de projectlijstpagina van de Werkruimte. Deze kolom toont de markeringen voor elk project. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > Stroomvisualisaties exporteren als CSV-bestanden </a> </p> </td> 
