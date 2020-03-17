@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
+source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
 
 ---
 
@@ -150,6 +150,8 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
    + [Een eigenschap Analytics maken](launch/create-analytics-property.md)
    + [Distribueren naar een ontwikkelomgeving](launch/deploy-dev.md)
    + [Valideren en publiceren naar profiel](launch/validate-publish-prod.md)
+   + [Gegevenslaagobjecten toewijzen aan gegevenselementen](launch/layer-to-elements.md)
+   + [Gegevenselementen van start toewijzen aan analytische variabelen](launch/elements-to-variable.md)
 + Analyses implementeren op andere platforms {#other}
    + [Analyses implementeren met behulp van hardwarematige afbeeldingsaanvragen](other/hardcoded.md)
    + Analyses implementeren met DTM {#dtm}
