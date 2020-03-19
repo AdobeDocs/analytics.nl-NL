@@ -3,7 +3,7 @@ title: Overzicht van variabelen, functies, methoden en plug-ins
 description: Leer welke variabelen u kunt opnemen in de gegevens die u naar Adobe verzendt om de rapportage te verbeteren.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -26,7 +26,7 @@ AppMeasurement-bibliotheken die door Adobe Analytics worden gepubliceerd, hebben
 
 1. Als uw site een gegevenslaag gebruikt, moet u ervoor zorgen dat eerst alle toepasselijke variabelen worden ingevuld. Zie [Gegevenslaag](../prepare/data-layer.md) voor meer informatie.
 2. Gebruik de gegevenslaag om analytische variabelen te vullen. Als u Lancering gebruikt, wordt deze taak gemakkelijk verwezenlijkt door gegevenselementen te gebruiken, dan toewijzend het gegevenselement aan een variabele. Zie [Gegevenselementen](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html) in de gebruikershandleiding bij Starten.
-3. Roep de functie tracking aan. De meeste AppMeasurement-bibliotheken gebruiken de `t()` functie, maar het gebruik van sommige mobiele SDK&#39;s `track()`. Wanneer de functie voor bijhouden wordt aangeroepen, worden alle ondersteunde variabelen die in het object Analytics zijn gedefinieerd, naar Adobe verzonden in de vorm van een afbeeldingsaanvraag.
+3. Roep de functie tracking aan. De meeste AppMeasurement-bibliotheken gebruiken de `t()` methode, maar sommige mobiele SDK gebruiken deze `track()`. Wanneer de functie voor bijhouden wordt aangeroepen, worden alle ondersteunde variabelen die in het object Analytics zijn gedefinieerd, naar Adobe verzonden in de vorm van een afbeeldingsaanvraag.
 
 ## Ongeldige tekens
 
