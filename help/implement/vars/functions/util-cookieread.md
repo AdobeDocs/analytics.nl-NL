@@ -2,14 +2,14 @@
 title: Util.cookieRead
 description: Hiermee wordt de waarde voor een cookie opgehaald.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Util.cookieRead
 
-Met cookies kunt u informatie opslaan en ophalen op meerdere pagina&#39;s in hetzelfde domein. Gebruik de `Util.cookieRead` methode om een waarde van een cookie op te halen.
+Met cookies kunt u informatie opslaan en ophalen op meerdere pagina&#39;s in hetzelfde domein. Gebruik de `Util.cookieRead()` methode om een waarde van een cookie op te halen.
 
 ## Cookies lezen in Adobe Experience Platform Launch
 
