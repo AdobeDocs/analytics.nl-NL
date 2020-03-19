@@ -2,7 +2,7 @@
 title: afbreken
 description: De variabele Afbreken is een Booleaanse waarde die voorkomt dat een hit wordt verzonden naar Adobe-servers voor gegevensverzameling.
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,7 +19,7 @@ Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de d
 
 De `abort` variabele is een booleaanse waarde. De standaardwaarde is `false`.
 
-* Indien ingesteld op `true`, worden bij de volgende aanroep (`t()` of `tl()`) geen gegevens naar Adobe verzonden.
+* Indien ingesteld op `true`, worden bij de volgende aanroep ([`t()`](../functions/t-method.md) of [`tl()`](../functions/tl-method.md)) geen gegevens naar Adobe verzonden.
 * Indien ingesteld op `false` of niet gedefinieerd, heeft deze variabele geen effect.
 
 ```js
@@ -30,7 +30,7 @@ s.abort = true;
 
 ## Voorbeeld
 
-De `abort` variabele kan in de `doPlugins()` functie worden ingesteld. Dit is de laatste functie die moet worden uitgevoerd voordat een afbeeldingsaanvraag naar Adobe wordt verzonden.
+De `abort` variabele kan in de [`doPlugins()`](../functions/doplugins.md) functie worden ingesteld. Dit is de laatste functie die moet worden uitgevoerd voordat een afbeeldingsaanvraag naar Adobe wordt verzonden.
 
 ```js
 s.doPlugins = function(s) {
