@@ -2,14 +2,14 @@
 title: t
 description: Verzend een pagina mening het volgen vraag naar Adobe.
 translation-type: tm+mt
-source-git-commit: 8494e8bb08b45006b357dd114e6bf9507f0cd54a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# t
+# t()
 
-De `t` methode is een belangrijk basisonderdeel van Adobe Analytics. Alle analytische variabelen die op de pagina zijn gedefinieerd, worden gecompileerd tot een verzoek om een afbeelding en die gegevens worden naar Adobe-servers voor gegevensverzameling verzonden.
+De `t()` methode is een belangrijk basisonderdeel van Adobe Analytics. Alle analytische variabelen die op de pagina zijn gedefinieerd, worden gecompileerd tot een verzoek om een afbeelding en die gegevens worden naar Adobe-servers voor gegevensverzameling verzonden.
 
 Neem bijvoorbeeld de volgende JavaScript-code:
 
@@ -25,7 +25,7 @@ s.eVar1 = "Example dimension value";
 s.t();
 ```
 
-Bij het uitvoeren van de `t` methode worden alle gedefinieerde analytische variabelen gebruikt en wordt op basis van deze variabelen een URL gemaakt. Sommige variabelen van de Analyse bepalen URL van het beeld, terwijl andere variabelen vraagkoordparameterwaarden bepalen.
+Bij het uitvoeren van de `t()` methode worden alle gedefinieerde analytische variabelen gebruikt en wordt op basis van deze variabelen een URL gemaakt. Sommige variabelen van de Analyse bepalen URL van het beeld, terwijl andere variabelen vraagkoordparameterwaarden bepalen.
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
