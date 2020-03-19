@@ -4,26 +4,26 @@ title: De methode s.tl() gebruiken
 topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
 translation-type: tm+mt
-source-git-commit: 290526ecc1b040f93d0734a5deaf2d79ab1bde10
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# De `tl` methode gebruiken
+# De `tl()` methode gebruiken
 
-U kunt de `tl` methode gebruiken om aangepaste elementen bij te houden en bedekking renderen voor dynamische inhoud te configureren.
+U kunt de `tl()` methode gebruiken om aangepaste elementen bij te houden en bedekking renderen voor dynamische inhoud te configureren.
 
 ## Aangepaste elementen bijhouden {#section_5D6688DFFFC241718249A9A0C632E465}
 
-Met de [`tl` methode](/help/implement/vars/functions/tl-method.md) als onderdeel van de Activity Map AppMeasurement-module kunt u elk object volgen waarop wordt geklikt, zelfs objecten die geen ankerlabels of afbeeldingselementen zijn. Met s.tl kunt u aangepaste elementen bijhouden die niet resulteren in het laden van een pagina.
+Met de [`tl()` methode](/help/implement/vars/functions/tl-method.md) als onderdeel van de Activity Map AppMeasurement-module kunt u elk object volgen waarop wordt geklikt, zelfs objecten die geen ankerlabels of afbeeldingselementen zijn. Met s.tl kunt u aangepaste elementen bijhouden die niet resulteren in het laden van een pagina.
 
-In de `tl` methode, de `linkName` parameter die momenteel wordt gebruikt om de uitgangsverbindingen, douaneverbindingen, enz. te identificeren. wordt nu ook gebruikt om identiteitskaart van de Verbinding voor de variabele van de Kaart van de Activiteit te identificeren.
+In de `tl()` methode, de `linkName` parameter die momenteel wordt gebruikt om de uitgangsverbindingen, douaneverbindingen, enz. te identificeren. wordt nu ook gebruikt om identiteitskaart van de Verbinding voor de variabele van de Kaart van de Activiteit te identificeren.
 
 ```js
 s.tl(this,linkType,linkName,variableOverrides)
 ```
 
-Met andere woorden, als u gebruikt `s.tl` om uw douaneelementen te volgen, wordt identiteitskaart getrokken van de waarde die als derde parameter (linkName) in de `s.tl` methode wordt overgegaan. Het wordt niet getrokken uit het standaardkoppelingsvolgalgoritme dat voor [gebrek het volgen](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) in de Kaart van de Activiteit wordt gebruikt.
+Met andere woorden, als u gebruikt `s.tl()` om uw douaneelementen te volgen, wordt identiteitskaart getrokken van de waarde die als derde parameter (linkName) in de `s.tl()` methode wordt overgegaan. Het wordt niet getrokken uit het standaardkoppelingsvolgalgoritme dat voor [gebrek het volgen](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) in de Kaart van de Activiteit wordt gebruikt.
 
 ## Bedekking renderen voor dynamische inhoud {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
@@ -33,9 +33,9 @@ Wanneer de functie s.tl() rechtstreeks wordt aangeroepen vanuit de klikgebeurten
 <div onclick="s.tl(this,'o','Example custom link')">Example link text</a>
 ```
 
-Wanneer webpagina-inhoud na het laden van de eerste pagina aan de pagina wordt toegevoegd, wordt de `tl` methode onrechtstreeks aangeroepen en kunnen er alleen overlays voor die nieuwe inhoud worden weergegeven als deze expliciet wordt geactiveerd/geklikt. Dan wordt een nieuw proces van de verbindingsinzameling teweeggebracht van de Kaart van de Activiteit.
+Wanneer webpagina-inhoud na het laden van de eerste pagina aan de pagina wordt toegevoegd, wordt de `tl()` methode onrechtstreeks aangeroepen en kunnen er alleen overlays voor die nieuwe inhoud worden weergegeven als deze expliciet wordt geactiveerd/geklikt. Dan wordt een nieuw proces van de verbindingsinzameling teweeggebracht van de Kaart van de Activiteit.
 
-Wanneer de `tl` methode niet rechtstreeks wordt aangeroepen vanuit de klikgebeurtenis van het HTML-element, kan de Activiteitenkaart alleen bedekking weergeven als de gebruiker op dat element heeft geklikt. Hier volgt een voorbeeld waarin de `tl` methode indirect wordt aangeroepen:
+Wanneer de `tl()` methode niet rechtstreeks wordt aangeroepen vanuit de klikgebeurtenis van het HTML-element, kan de Activiteitenkaart alleen overlay weergeven als de gebruiker op dat element heeft geklikt. Hier volgt een voorbeeld waarin de `tl()` methode indirect wordt aangeroepen:
 
 ```html
 <div onclick="someFn(event)"></div>
