@@ -2,7 +2,7 @@
 title: linkURL
 description: Overschrijf het automatisch gegenereerde gebruik van de koppeling-URL AppMeasurement in koppelingsvolgaanroepen.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -23,4 +23,4 @@ De `s.linkURL` variabele is een tekenreeks die de URL bevat van de browser toen 
 s.linkURL = "https://example.com";
 ```
 
-Als de `linkName` variabele niet voor een verbinding het volgen vraag wordt geplaatst, wordt de `linkURL` variabele in plaats daarvan gebruikt.
+Als de [`linkName`](linkname.md) variabele niet voor een verbinding het volgen vraag wordt geplaatst, wordt de `linkURL` variabele in plaats daarvan gebruikt.
