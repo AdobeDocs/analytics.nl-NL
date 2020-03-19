@@ -2,16 +2,16 @@
 title: trackDownloadLinks
 description: Schakel het automatisch bijhouden van koppelingen voor downloadkoppelingen in of uit.
 translation-type: tm+mt
-source-git-commit: 04b97e93a95691132680d4da197dc62eb2b9fdd1
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # trackDownLoadLinks
 
-Adobe biedt de mogelijkheid downloadkoppelingen bij te houden zonder de functie voor elke downloadkoppeling handmatig in te stellen. `tl()` Schakel deze variabele in als u koppelingen automatisch wilt bijhouden voor downloadkoppelingen.
+Adobe biedt de mogelijkheid downloadkoppelingen bij te houden zonder handmatig de [`tl()`](../functions/tl-method.md) methode voor elke downloadkoppeling in te stellen. Schakel deze variabele in als u koppelingen automatisch wilt bijhouden voor downloadkoppelingen.
 
-Wanneer deze optie is ingeschakeld, vergelijkt AppMeasurement elke aangeklikte koppeling-URL met waarden in `downloadLinkFileTypes`. Als er een overeenkomst is, wordt automatisch een aanroep voor het bijhouden van de downloadkoppeling geactiveerd.
+Wanneer deze optie is ingeschakeld, vergelijkt AppMeasurement elke aangeklikte koppeling-URL met waarden in [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Als er een overeenkomst is, wordt automatisch een aanroep voor het bijhouden van de downloadkoppeling geactiveerd.
 
 ## Download-koppelingen bijhouden in Adobe Experience Platform Launch
 
@@ -26,7 +26,7 @@ Klik op het selectievakje om het automatisch bijhouden van downloadkoppelingen i
 
 ## s.trackDownloadLinks in AppMeasurement en Launch, aangepaste code-editor
 
-Het `s.trackDownloadLinks` is een Booleaanse waarde die het automatisch bijhouden van downloadkoppelingen in- of uitschakelt. Als u downloadkoppelingen niet wilt bijhouden of liever handmatig de functie aanroepen om downloads bij te houden, stelt u deze variabele in op `tl()` `false`.
+Het `s.trackDownloadLinks` is een Booleaanse waarde die het automatisch bijhouden van downloadkoppelingen in- of uitschakelt. Als u downloadkoppelingen niet wilt bijhouden of liever handmatig de `tl()` methode aanroepen om downloads bij te houden, stelt u deze variabele in op `false`.
 
 ```js
 s.trackDownloadLinks = true;
