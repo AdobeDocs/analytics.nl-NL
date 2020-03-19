@@ -4,7 +4,7 @@ title: Paginaweergaven
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 707b61d853a8ec68b3f77a35a1aa5f0c7dd8a1fd
 
 ---
 
@@ -15,17 +15,16 @@ Een uitgelijnd rapport waarin het aantal keer wordt weergegeven dat uw websitepa
 
 Een [paginaweergave](/help/components/c-variables/c-metrics/metrics-page-view.md) is een aanvraag voor een volledig paginadocument in plaats van een element van een pagina, zoals een afbeelding of video. Als bijvoorbeeld één bezoeker tijdens een bezoek 15 pagina&#39;s weergeeft, worden weergaven van 15 pagina&#39;s geteld. Als een bezoeker tijdens een bezoek drie keer dezelfde pagina weergeeft, worden drie paginaweergaven geteld.
 
-**Rapporteigenschappen**
+## Rapporteigenschappen
 
-* Dit rapport verwijst naar het aantal keren dat de functie [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) op uw site is aangeroepen.
-* Aangepaste aanroepen voor het bijhouden van [koppelingen](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) (zoals aangepaste koppelingen, het downloaden van bestanden en afsluitkoppelingen) gebruiken de [!DNL s.tl()] functie en worden niet meegeteld in dit rapport.
-
+* Dit rapport verwijst naar het aantal keren dat de [`t()`](/help/implement/vars/functions/t-method.md) methode op uw site wordt aangeroepen.
+* De het volgen van verbinding vraag die de [`tl()`](/help/implement/vars/functions/tl-method.md) methode gebruikt wordt niet geteld in dit rapport.
 * Omdat afbeeldingsaanvragen worden verzonden wanneer de gebruiker de pagina vernieuwt of op de knop Vorige klikt, bevat dit rapport ook deze handelingen.
 * Uuruitsplitsingen zijn gebaseerd op de tijdzone van de rapportsuite.
 * Dit rapport bevat geen regelitems. Als dusdanig, kan het rapport slechts in trended formaat worden bekeken.
 * De korreligheid van uur, dag, week, maand, kwartaal, en jaar kan worden toegepast. Die granulariteit is beschikbaar afhankelijk van het rapporteringsdatumbereik.
 
-**Productspecifieke informatie**
+## Productspecifieke informatie
 
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 
