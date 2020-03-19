@@ -2,17 +2,17 @@
 title: doPlugins
 description: Configureer logica vlak voordat een hit wordt gecompileerd en naar Adobe verzonden.
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # doPlugins
 
-De `doPlugins` variabele fungeert als een &#39;laatste aanroep&#39; om waarden in te stellen in uw implementatie. Als `usePlugins` `true`dit het geval is, loopt het automatisch vlak voordat om het even welk type beeldverzoek wordt gecompileerd en verzonden naar Adobe, met inbegrip van:
+De `doPlugins` variabele fungeert als een &#39;laatste aanroep&#39; om waarden in te stellen in uw implementatie. Als [`usePlugins`](../config-vars/useplugins.md) deze optie is ingeschakeld, wordt deze automatisch uitgevoerd vlak voordat een type afbeeldingsaanvraag wordt gecompileerd en naar Adobe verzonden, zoals:
 
-* Alle aanroepen in de paginaweergave (`t`)
-* Alle verbindingen het volgen (`tl`) vraag, met inbegrip van automatische downloadverbindingen en uitgangsverbindingen
+* Alle aanroepen in de paginaweergave ([`t()`](t-method.md))
+* Alle verbindingen het volgen ([`tl()`](tl-method.md)) vraag, met inbegrip van automatische downloadverbindingen en uitgangsverbindingen
 
 Gebruik de `doPlugins` variabele om insteekcode aan te roepen en de uiteindelijke waarden van de variabelen in te stellen vlak voordat een afbeeldingsaanvraag wordt gecompileerd en naar Adobe verzonden.
 
