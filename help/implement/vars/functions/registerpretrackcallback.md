@@ -2,7 +2,7 @@
 title: registerPreTrackCallback
 description: Maak callback-functies voordat u een hit naar Adobe verzendt.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: ''
 
 Met de `registerPreTrackCallback` variabele kan uw organisatie een JavaScript-functie koppelen nadat een URL voor een afbeeldingsaanvraag is gecompileerd, maar voordat deze wordt verzonden. U kunt deze variabele gebruiken om gegevens te verzenden die door AppMeasurement aan een partner of interne infrastructuur worden verzameld.
 
-> [!IMPORTANT] Roep geen volgende functies zoals `t` of `tl` binnen de `registerPostTrackCallback` variabele aan. De volgende functies in deze variabele veroorzaken een oneindige lijn van beeldverzoeken!
+> [!IMPORTANT] Roep geen het volgen vraag zoals [`t()`](t-method.md) of [`tl()`](tl-method.md) binnen de [`registerPostTrackCallback`](registerposttrackcallback.md) variabele. De volgende functies in deze variabele veroorzaken een oneindige lijn van beeldverzoeken!
 
 Elke keer dat u de `registerPreTrackCallback` variabele aanroept, koppelt u die functie om te worden uitgevoerd telkens wanneer een afbeeldingsaanvraag-URL wordt gecompileerd. Registreer dezelfde functie niet meerdere keren tijdens het laden van dezelfde pagina.
 
@@ -37,7 +37,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-De functie kan extra argumenten bevatten, die in de genestelde functie kunnen worden gebruikt: `s.registerPreTrackCallback`
+U kunt aanvullende argumenten in de functie opnemen, die in de geneste functie kan worden gebruikt: `s.registerPreTrackCallback`
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
@@ -48,4 +48,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-> [!NOTE] Het instellen van paginariabelen of het wijzigen van de `requestUrl` tekenreeks binnen deze functie heeft *geen* invloed op de afbeeldingsaanvraag die kort na deze functieaanroep wordt verzonden.
+> [!NOTE] Het instellen van paginariabelen of het wijzigen van de `requestUrl` tekenreeks binnen deze functie heeft **geen** invloed op de afbeeldingsaanvraag die kort na deze functieaanroep wordt verzonden. Gebruik in plaats hiervan de [`doPlugins()`](doplugins.md) variabele.
