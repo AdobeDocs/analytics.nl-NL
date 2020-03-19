@@ -2,14 +2,14 @@
 title: Aankoopgebeurtenis
 description: Gebruik de aankoopgebeurtenis om gegevens te verzamelen voor de metriek 'Bestellingen', 'Eenheden' en 'Opbrengst'.
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Aankoopgebeurtenis
 
-De aankoopgebeurtenis is een waarde in de `events` variabele. Deze waarde is nuttig voor organisaties die gegevens willen verzamelen rond de opbrengst die hun plaats produceert. Zij is sterk afhankelijk van de `products` en de `purchaseID` variabelen.
+De aankoopgebeurtenis is een waarde in de `events` variabele. Deze waarde is nuttig voor organisaties die gegevens willen verzamelen rond de opbrengst die hun plaats produceert. Zij is sterk afhankelijk van de [`products`](../products.md) en de [`purchaseID`](../purchaseid.md) variabelen.
 
 Wanneer u een aankoopgebeurtenis instelt, heeft dit invloed op de volgende metriek:
 
@@ -26,7 +26,7 @@ Wanneer u een aankoopgebeurtenis instelt, heeft dit invloed op de volgende metri
 5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en stel het [!UICONTROL Action Type] in op [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL Events] sectie en stel het vervolgkeuzemenu voor gebeurtenissen in op [!UICONTROL purchase].
 
-Andere afhankelijke variabelen zoals `products` en `purchaseID` hebben geen specifieke velden in Launch. Gebruik de aangepaste code-editor die volgt op de syntaxis AppMeasurement voor deze variabelen.
+Andere afhankelijke variabelen zoals `products` en `purchaseID` hebben geen specifieke velden in Launch. Gebruik de douane code redacteur na syntaxis AppMeasurement voor deze variabelen.
 
 ## Stel de aankoopgebeurtenis in in de aangepaste code-editor van AppMeasurement en Launch
 
