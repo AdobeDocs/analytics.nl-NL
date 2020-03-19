@@ -2,14 +2,14 @@
 title: linkLeaveQueryString
 description: Staat het behoud van vraagkoorden in verbinding het volgen dimensies toe.
 translation-type: tm+mt
-source-git-commit: e500332fe16887fa004858b07b59644837e183aa
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkLeaveQueryString
 
-AppMeasurement strips vraagt tekenreeksen van verbinding het volgen URLs door gebrek. Gebruik de variabele linkLeaveQueryString om vraagkoorden in verbinding het volgen dimensies te bewaren.
+AppMeasurement strips vraagt tekenreeksen van verbinding het volgen URLs door gebrek. Gebruik de `linkLeaveQueryString` variabele om vraagkoorden in verbinding het volgen dimensies te bewaren.
 
 Bij sommige afsluitkoppelingen en downloadkoppelingen kan het belangrijke gedeelte van de URL zich in de queryreeks bevinden. Een downloadkoppeling zoals `https://example.com/download.asp?filename=myfile.exe` bevat bijvoorbeeld belangrijke koppelingsgegevens in de queryreeks.
 
@@ -43,7 +43,7 @@ s.linkLeaveQueryString = true;
 
 ## Voorbeeld
 
-Wees voorzichtig wanneer u deze variabele instelt op true, aangezien dit invloed kan hebben op koppelingsvolgfilters zoals `linkInternalFilters`, `linkExternalFilters`en `linkDownloadFiletypes`.
+Wees voorzichtig wanneer u deze variabele instelt op true, aangezien dit invloed kan hebben op koppelingsvolgfilters zoals [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md)en [`linkDownloadFiletypes`](linkdownloadfiletypes.md).
 
 Bekijk het volgende voorbeeld alsof het op `adobe.com`:
 
