@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 Voor plaatsen die handel gebruiken, is de opbrengst en de munt een belangrijk deel van Analytics. Veel sites, vooral sites die meerdere landen beslaan, gebruiken verschillende valuta&#39;s. Gebruik de `currencyCode` variabele om opbrengstattributen aan de correcte munt te verzekeren.
 
-Indien `currencyCode` niet gedefinieerd, worden monetaire waarden die de `products` variabele en valutamarkten definiëren, behandeld alsof ze dezelfde zijn als de valuta van de rapportsuite. Zie [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md) in de gebruikershandleiding voor Admin om de valuta van de rapportsuite te bekijken.
+Indien `currencyCode` niet gedefinieerd, worden monetaire waarden die de [`products`](../page-vars/products.md) variabele en valutamarkten definiëren, behandeld alsof ze dezelfde zijn als de valuta van de rapportsuite. Zie [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md) in de gebruikershandleiding voor Admin om de valuta van de rapportsuite te bekijken.
 
 Als `currencyCode` is gedefinieerd en overeenkomt met de valuta van de rapportsuite, wordt geen valutaomrekening toegepast.
 
