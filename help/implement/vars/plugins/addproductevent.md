@@ -2,7 +2,7 @@
 title: addProductEvent
 description: Voegt aangepaste gebeurtenissen toe aan de variabele producten en gebeurtenissen.
 translation-type: tm+mt
-source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
 
 > [!IMPORTANT] Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde te krijgen van Adobe Analytics. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `addProductEvent` insteekmodule wordt een numerieke gebeurtenis of valutagebeurtenis aan de `products` variabele toegevoegd. Adobe raadt u aan deze plug-in te gebruiken als u een numerieke of valutagebeurtenis aan de `products` variabele wilt toevoegen zonder dat u zich zorgen hoeft te maken over de indeling van de productreeks. Deze insteekmodule is niet nodig als u geen numerieke of valutagebeurtenissen in de `products` variabele gebruikt.
+Met de `addProductEvent` insteekmodule wordt een numerieke gebeurtenis of valutagebeurtenis aan de [`products`](../page-vars/products.md) variabele toegevoegd. Adobe raadt u aan deze plug-in te gebruiken als u een numerieke of valutagebeurtenis aan de `products` variabele wilt toevoegen zonder dat u zich zorgen hoeft te maken over de indeling van de productreeks. Deze insteekmodule is niet nodig als u geen numerieke of valutagebeurtenissen in de `products` variabele gebruikt.
 
 ## De plug-in installeren met de Adobe Experience Platform Launch-extensie
 
@@ -42,7 +42,7 @@ Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-
 
 ## De plug-in installeren met AppMeturement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met `s_gi`). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -65,7 +65,7 @@ De `addProductEvent` methode gebruikt de volgende argumenten:
 * **`ev`** (vereist, tekenreeks): De waarde die is toegewezen aan de gebeurtenis numeric of currency in het `en` argument.  Wordt standaard ingesteld `1` wanneer niet ingesteld.
 * **`ap`** (optioneel, Booleaans): Als de productvariabele momenteel meer dan één productvermelding bevat, voegt een waarde van `true` (of `1`) de gebeurtenis aan alle productvermeldingen toe.  Wordt standaard ingesteld `false` wanneer niet ingesteld.
 
-De `addProductEvent` geeft niets. In plaats daarvan worden de gebeurtenis en de waarde ervan toegevoegd aan de `products` variabele. De insteekmodule voegt de gebeurtenis ook automatisch toe aan de `events` variabele, omdat deze daar ook verplicht is.
+De `addProductEvent` geeft niets. In plaats daarvan worden de gebeurtenis en de waarde ervan toegevoegd aan de `products` variabele. De insteekmodule voegt de gebeurtenis ook automatisch toe aan de [`events`](../page-vars/events/events-overview.md) variabele, aangezien deze daar ook verplicht is.
 
 ## Cookies
 
