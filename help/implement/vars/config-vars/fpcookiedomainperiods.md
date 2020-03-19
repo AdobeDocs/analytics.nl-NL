@@ -2,14 +2,14 @@
 title: cookieDomainPeriods
 description: Help AppMeasurement weet welk domein cookies moeten worden opgeslagen als het achtervoegsel van uw domein een punt bevat.
 translation-type: tm+mt
-source-git-commit: 04b97e93a95691132680d4da197dc62eb2b9fdd1
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # fpCookieDomainPeriods
 
-Met de `fpCookieDomainPeriods` variabele kan AppMeasurement bepalen waar Analytics-cookies worden ingesteld door aan te roepen dat het domeinachtervoegsel een extra punt bevat. Met deze variabele kan AppMeasurement de extra periode in het domeinachtervoegsel aanpassen en cookies instellen op de juiste locatie. Het erft de waarde van, maar is nog steeds een beste praktijk om te plaatsen als u een implementatie van het eerste-partijkoekje gebruikt. `cookieDomainPeriods`
+Met de `fpCookieDomainPeriods` variabele kan AppMeasurement bepalen waar Analytics-cookies worden ingesteld door aan te roepen dat het domeinachtervoegsel een extra punt bevat. Met deze variabele kan AppMeasurement de extra periode in het domeinachtervoegsel aanpassen en cookies instellen op de juiste locatie. Het erft de waarde van, maar is nog steeds een beste praktijk om te plaatsen als u een implementatie van het eerste-partijkoekje gebruikt. [`cookieDomainPeriods`](cookiedomainperiods.md)
 
 * Voor domeinen zoals `example.com` of `www.example.com`, te hoeven deze variabele niet worden geplaatst. Indien nodig, kunt u deze variabele plaatsen aan `"2"`.
 * Voor domeinen zoals `example.co.uk` of `www.example.co.jp`, plaats deze variabele aan `"3"`.
