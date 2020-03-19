@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Maak callback-functies nadat u een hit naar Adobe hebt verzonden.
 translation-type: tm+mt
-source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,11 +11,11 @@ source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
 
 Met de `registerPostTrackCallback` variabele kan uw organisatie een JavaScript-functie direct koppelen nadat een hit naar Adobe is verzonden. Als een volgende aanroep mislukt, wordt deze functie niet uitgevoerd. U kunt deze variabele gebruiken om gegevens te verzenden die door AppMeasurement aan een partner of interne infrastructuur worden verzameld, of veranderlijke waarden in enig-paginatoepassingen op te schonen.
 
-> [!IMPORTANT] Roep geen volgende functies zoals `t` of `tl` binnen de `registerPostTrackCallback` variabele aan. De volgende functies in deze variabele veroorzaken een oneindige lijn van beeldverzoeken!
+> [!IMPORTANT] Roep geen het volgen vraag zoals [`t()`](t-method.md) of [`tl()`](tl-method.md) binnen de `registerPostTrackCallback` variabele. De volgende functies in deze variabele veroorzaken een oneindige lijn van beeldverzoeken!
 
 Telkens wanneer u de `registerPostTrackCallback` variabele aanroept, koppelt u die functie om onmiddellijk te lopen nadat een beeldverzoek met succes wordt verzonden. Registreer dezelfde functie niet meerdere keren tijdens het laden van dezelfde pagina.
 
-> [!NOTE] De timing en de volgorde van de functies die tussen `registerPreTrackCallback` en `registerPostTrackCallback` worden uitgevoerd, zijn niet gegarandeerd. Vermijd afhankelijkheden tussen deze twee functies.
+> [!NOTE] De timing en de volgorde van de functies die tussen [`registerPreTrackCallback`](registerpretrackcallback.md) en `registerPostTrackCallback` worden uitgevoerd, zijn niet gegarandeerd. Vermijd afhankelijkheden tussen deze twee functies.
 
 ## Callback achteraf registreren bij starten van Adobe Experience Platform
 
@@ -50,7 +50,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## Voorbeeld van hoofdletters gebruiken
 
-Registreren van de `clearVars()` functie in de callback achteraf kan nuttig zijn voor toepassingen van één pagina. Telkens wanneer u een hit naar Adobe verzendt, wordt de `clearVars()` functie uitgevoerd. Uw implementatie kan vervolgens opnieuw variabelen definiëren zonder dat u zich zorgen hoeft te maken over onjuist blijvende waarden.
+Registreren van de [`clearVars()`](clearvars.md) functie in de callback achteraf kan nuttig zijn voor toepassingen van één pagina. Telkens wanneer u een hit naar Adobe verzendt, wordt de `clearVars()` functie uitgevoerd. Uw implementatie kan vervolgens opnieuw variabelen definiëren zonder dat u zich zorgen hoeft te maken over onjuist blijvende waarden.
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});
