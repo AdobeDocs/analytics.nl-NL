@@ -2,7 +2,7 @@
 title: gebeurtenissen
 description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw site beheert.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -42,7 +42,7 @@ De `s.events` variabele is een tekenreeks die een door komma&#39;s gescheiden li
 * `scView`: Verhoogt metrisch met de optie Wisselende weergaven.
 * `scCheckout`: Verhoogt metrisch &quot;Checkouts&quot;.
 
-> [!TIP] Deze variabele is hoofdlettergevoelig. Vermijd het gebruik van onjuiste hoofdletters voor gebeurteniswaarden om een nauwkeurige gegevensverzameling te garanderen.
+> [!NOTE] Deze variabele is hoofdlettergevoelig. Vermijd het gebruik van onjuiste hoofdletters voor gebeurteniswaarden om een nauwkeurige gegevensverzameling te garanderen.
 
 ```js
 // Set the events variable to a single value
