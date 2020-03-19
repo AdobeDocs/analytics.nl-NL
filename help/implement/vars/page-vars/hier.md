@@ -2,7 +2,7 @@
 title: kassier
 description: Hiërarchievariabelen implementeren in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,41 +11,24 @@ source-git-commit: ''
 
 Hiërarchievariabelen zijn aangepaste variabelen waarmee u de structuur van een site kunt zien.
 
-Deze variabele is vooral handig voor sites met meer dan drie niveaus in de sitestructuur. Een mediasite kan bijvoorbeeld 4 niveaus bevatten voor de sectie Sport: Sport, Lokale Sport, Baseball en Red Sox. Als iemand de Baseball-pagina, Sport, Lokale Sport en Baseball bezoekt, weerspiegelen alle niveaus dat bezoek.
+> [!TIP] Deze variabele kwam vaker voor in eerdere versies van Adobe Analytics. Adobe raadt u aan [Vars](evar.md) en classificaties te gebruiken.
 
-Er zijn vijf [!UICONTROL hierarchy] variabelen beschikbaar die door de klantenservice van Adobe moeten worden ingeschakeld. Op het moment dat de hiërarchie is ingeschakeld, moet u een scheidingsteken voor de variabele en het maximumaantal niveaus voor de hiërarchie instellen. Als het scheidingsteken bijvoorbeeld een komma is, kan de sporthiërarchie als volgt worden weergegeven.
+Deze variabele is handig voor sites met meer dan drie niveaus in hun sitestructuur. Een mediasite kan bijvoorbeeld 4 niveaus bevatten voor de sectie Sport: `Sports`, `Local Sports`, `Baseball`en `Team name`. Als iemand de Baseball-pagina, Sport, Lokale Sport en Baseball bezoekt, weerspiegelen alle niveaus dat bezoek.
 
-```js
-s.hier1="Sports,Local Sports,Baseball"
-```
-
-Zorg ervoor dat geen van uw sectienamen het scheidingsteken heeft. Als een van uw secties bijvoorbeeld &#39;Coach Griffin, Jim&#39; heet, moet u een ander scheidingsteken kiezen dan een komma. Elke hiërarchische sectie is beperkt tot 255 bytes, terwijl de totale veranderlijke grens 255 bytes is. Nadat een scheidingsteken is gekozen (op het moment dat de hiërarchie wordt gemaakt), wordt het niet gemakkelijk gewijzigd.
-
-Neem contact op met de klantenservice van Adobe als u het scheidingsteken voor een bestaande hiërarchie wilt wijzigen. Scheidingstekens kunnen ook uit meerdere tekens bestaan, zoals|| of /|\, die minder waarschijnlijk in een hiërarchiesectie zullen verschijnen.
-
-## Syntaxis en mogelijke waarden
-
-Plaats geen spatie tussen elk scheidingsteken. In de volgende voorbeeldsyntaxis, is N een aantal tussen één en vijf.
+Adobe ondersteunt maximaal vijf hiërarchische variabelen in uw implementatie. Op het moment dat de hiërarchie is ingeschakeld, bepaalt u een scheidingsteken voor de variabele en het maximumaantal niveaus voor de hiërarchie. Als het scheidingsteken bijvoorbeeld een komma is, ziet de hiërarchie er als volgt uit:
 
 ```js
-s.hierN="Level 1[<delimiter>Level 2[<delimiter>Level 3[...]]]"
+s.hier1 = "Sports,Local Sports,Baseball";
 ```
 
-Gebruik het scheidingsteken alleen om de niveaus van de hiërarchie te scheiden. Het scheidingsteken kan een willekeurig teken of tekens zijn.
+Zorg ervoor dat geen van uw sectienamen het scheidingsteken heeft. Als een van uw secties bijvoorbeeld wordt aangeroepen `Coach Griffin, Jim`, kiest u een ander scheidingsteken dan een komma. De totale variabelelimiet is 255 bytes. Scheidingstekens kunnen bestaan uit meerdere tekens, zoals `||` of `/|\`, die minder vaak voorkomen in variabele waarden.
 
 ## Voorbeelden
 
 ```js
-s.hier1="Toys|Boys 6+|Legos|Super Block Tub"
+s.hier1="Toys|Boys 6+|Legos|Super Block Tub";
 ```
 
 ```js
-s.hier4="Sports/Local Sports/Baseball"
+s.hier4="Sports/Local Sports/Baseball";
 ```
-
-## Punten, vragen en tips
-
-* Het scheidingsteken kan niet worden gewijzigd nadat de hiërarchie is ingesteld. Neem contact op met de klantenservice van Adobe als het scheidingsteken voor uw hiërarchie moet worden gewijzigd.
-* Het aantal niveaus kan niet worden gewijzigd nadat de hiërarchie is ingesteld.
-
-> [!NOTE] Wijzigingen in hiërarchieën kunnen servicekosten tot gevolg hebben.
