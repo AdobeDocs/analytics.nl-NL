@@ -2,7 +2,7 @@
 title: getAndPersistValue
 description: Sla een waarde op die later kan worden opgehaald.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -42,7 +42,7 @@ Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-
 
 ## De plug-in installeren met AppMeturement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met `s_gi`). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -59,7 +59,7 @@ De `getAndPersist` methode gebruikt de volgende argumenten:
 * **`cn`** (optioneel): De naam van het cookie waarin de waarde wordt opgeslagen. Als dit argument niet is ingesteld, krijgt het cookie de naam `"s_gapv"`
 * **`ex`** (optioneel): Het aantal dagen voordat de cookie vervalt. Als dit argument is `0` of niet is ingesteld, verloopt het cookie aan het einde van het bezoek (30 minuten inactiviteit).
 
-Als de variabele in het `vtp` argument is ingesteld, stelt de plug-in het cookie in en retourneert deze de waarde van het cookie. Als de variabele in het `vtp` argument niet is ingesteld, retourneert de plug-in alleen de waarde van het cookie.
+Als de variabele in het `vtp` argument is ingesteld, wordt de cookie door de insteekmodule geretourneerd. Als de variabele in het `vtp` argument niet is ingesteld, retourneert de plug-in alleen de waarde van het cookie.
 
 ## Voorbeelden
 
