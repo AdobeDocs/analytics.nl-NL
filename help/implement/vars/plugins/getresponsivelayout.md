@@ -2,7 +2,7 @@
 title: getResponsiveLayout
 description: Bepaal welke lay-out van een website momenteel wordt weergegeven.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -42,7 +42,7 @@ Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-
 
 ## De plug-in installeren met AppMeturement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met `s_gi`). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
