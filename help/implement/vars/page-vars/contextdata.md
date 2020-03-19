@@ -2,7 +2,7 @@
 title: contextData
 description: Met contextgegevensvariabelen kunt u aangepaste variabelen definiëren op elke pagina die door verwerkingsregels kan worden gelezen.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -44,7 +44,7 @@ De verwerkingsregels worden onmiddellijk van kracht nadat ze zijn opgeslagen. Zi
 
 ## Contextgegevens verzenden in een koppelingsvraag
 
-De variabele met contextgegevens opnemen als een eigenschap van `contextData` in `s.linkTrackVars`:
+De variabele met contextgegevens opnemen als een eigenschap van `contextData` in [`s.linkTrackVars`](../config-vars/linktrackvars.md):
 
 ```js
 s.contextData["example_variable"] = "Example value";
