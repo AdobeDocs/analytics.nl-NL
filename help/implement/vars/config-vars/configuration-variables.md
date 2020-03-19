@@ -2,7 +2,7 @@
 title: Configuratievariabelen
 description: Gebruik configuratievariabelen om te bepalen hoe gegevens worden verzameld.
 translation-type: tm+mt
-source-git-commit: e9a876a1f562333056387d63de46a9cfe3fb3939
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,4 +21,4 @@ Bij implementaties die gebruikmaken van het Adobe Experience Platform Launch, wo
 2. Klik op de eigenschap die u wilt bewerken.
 3. Klik op het [!UICONTROL Extensions] tabblad en klik vervolgens [!UICONTROL Configure] onder Adobe Analytics.
 
-> [!IMPORTANT] Zorg ervoor dat alle configuratievariabelen zijn ingesteld voordat u een trackfunctie (`t()` of `tl()`) aanroept. Stel geen configuratievariabelen in de `doPlugins()` functie in.
+> [!IMPORTANT] Zorg ervoor alle configuratievariabelen worden geplaatst alvorens een het volgen methode ([`t()`](../functions/t-method.md) of [`tl()`](../functions/tl-method.md)) te roepen. Stel geen configuratievariabelen in de [`doPlugins()`](../functions/doplugins.md) functie in.
