@@ -2,7 +2,7 @@
 title: getQueryParam
 description: Haal de waarde van de parameter van het vraagkoord van een URL uit.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 Met de `getQueryParam` insteekmodule kunt u de waarde extraheren van elke querytekenreeksparameter in een URL. Het is nuttig om campagnecodes, zowel intern als extern, uit het landen van pagina URLs te halen. Het is ook nuttig wanneer het halen van onderzoekstermijnen of andere parameters van het vraagkoord.
 
-Deze plug-in biedt robuuste functies voor het parseren van complexe URL&#39;s, waaronder hashes en URL&#39;s die meerdere parameters voor queryreeksen bevatten. Als u alleen eenvoudige parametervereisten voor de queryreeks hebt, raadt Adobe u aan de URL-parameterfuncties in Launch of de `Util.getQueryParam` methode in AppMeasurement te gebruiken.
+Deze plug-in biedt robuuste functies voor het parseren van complexe URL&#39;s, waaronder hashes en URL&#39;s die meerdere parameters voor queryreeksen bevatten. Als u alleen eenvoudige parametervereisten voor de queryreeks hebt, raadt Adobe u aan de URL-parameterfuncties in Launch of de [`Util.getQueryParam()`](../functions/util-getqueryparam.md) methode in AppMeasurement te gebruiken.
 
 ## De plug-in installeren met de Adobe Experience Platform Launch-extensie
 
