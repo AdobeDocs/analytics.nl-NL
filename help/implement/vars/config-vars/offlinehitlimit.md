@@ -2,7 +2,7 @@
 title: offlineHitLimit
 description: Bepaal het maximumaantal controles aan rij voor off-line het volgen.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 Offline bijhouden is een optionele manier om gegevens te verzamelen in Adobe Analytics. Als een bezoeker de verbinding met internet verbreekt maar door uw site blijft bladeren, worden treffers opgeslagen in een offline wachtrij totdat het apparaat opnieuw verbinding maakt met internet. Offlinetracering wordt meestal gebruikt voor mobiele toepassingen.
 
-Met de `offlineHitLimit` variabele wordt een uiteinde geplaatst op het aantal hits in de lokale opslagruimte. Deze variabele werkt alleen als `trackOffline` dit `true`het geval is.
+Met de `offlineHitLimit` variabele wordt een uiteinde geplaatst op het aantal hits in de lokale opslagruimte. Deze variabele werkt alleen als deze [`trackOffline`](trackoffline.md) is ingeschakeld.
 
 ## Limiet offlinehit in Adobe Experience Platform gestart
 
