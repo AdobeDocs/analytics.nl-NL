@@ -2,16 +2,16 @@
 title: linkTrackEvents
 description: Bepaal welke gebeurtenissen moeten worden opgenomen in aanvragen voor het bijhouden van koppelingen.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkTrackEvents
 
-Sommige implementaties willen niet alle variabelen in alle verbinding het volgen beeldverzoeken omvatten. Gebruik de `linkTrackVars` en de `linkTrackEvents` variabelen om afmetingen en metriek in `tl()` vraag selectief te omvatten.
+Sommige implementaties willen niet alle variabelen in alle verbinding het volgen beeldverzoeken omvatten. Gebruik de [`linkTrackVars`](linktrackvars.md) en de `linkTrackEvents` variabelen om afmetingen en metriek in [`tl()`](../functions/tl-method.md) vraag selectief te omvatten.
 
-Deze variabele wordt niet gebruikt voor paginaweergaveaanroepen (`t()` functie).
+Deze variabele wordt niet gebruikt voor de vraag van de paginamening ([`t()`](../functions/t-method.md) methode).
 
 ## Gebeurtenissen in koppelingencontrole voor aanroepen met Adobe Experience Platform Launch
 
@@ -21,9 +21,9 @@ Start detecteert automatisch gebeurtenissen die in de interface zijn gedefinieer
 
 ## s.linkTrackEvents in AppMeasurement en Launch, aangepaste code-editor
 
-De `s.linkTrackEvents` variabele is een tekenreeks met een door komma&#39;s gescheiden lijst met gebeurtenissen die u wilt opnemen in aanvragen voor het bijhouden van koppelingen (`tl()` functie). Aan de volgende drie criteria moet worden voldaan om meetgegevens op te nemen in treffers voor het bijhouden van koppelingen:
+De `s.linkTrackEvents` variabele is een tekenreeks die een door komma&#39;s gescheiden lijst met gebeurtenissen bevat die u wilt opnemen in aanvragen voor het bijhouden van koppelingen (`tl()` methode). Aan de volgende drie criteria moet worden voldaan om meetgegevens op te nemen in treffers voor het bijhouden van koppelingen:
 
-* Stel de gewenste gebeurtenis in de `events` variabele in. Bijvoorbeeld, `s.events = "event1";`.
+* Stel de gewenste gebeurtenis in de [`events`](../page-vars/events/events-overview.md) variabele in. Bijvoorbeeld, `s.events = "event1";`.
 * Stel de `events` variabele in `linkTrackVars`. Bijvoorbeeld, `s.linkTrackVars = "events";`.
 * Stel de gewenste gebeurtenis in de `linkTrackEvents` variabele in. Bijvoorbeeld, `s.linkTrackEvents = "event1";`.
 
