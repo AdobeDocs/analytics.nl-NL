@@ -2,16 +2,16 @@
 title: tl
 description: Stuur een koppelingenvolgvraag naar Adobe.
 translation-type: tm+mt
-source-git-commit: 8494e8bb08b45006b357dd114e6bf9507f0cd54a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # tl
 
-De `tl` methode is een belangrijk basisonderdeel van Adobe Analytics. Alle analytische variabelen die op de pagina zijn gedefinieerd, worden gecompileerd tot een verzoek om een afbeelding en die gegevens worden naar Adobe-servers voor gegevensverzameling verzonden. De methode werkt op dezelfde manier als de `t` methode, maar met deze methode worden de paginaweergaven niet vergroot. Het is handig voor het bijhouden van koppelingen en andere elementen die niet als een volledige pagina worden geladen.
+De `tl()` methode is een belangrijk basisonderdeel van Adobe Analytics. Alle analytische variabelen die op de pagina zijn gedefinieerd, worden gecompileerd tot een verzoek om een afbeelding en die gegevens worden naar Adobe-servers voor gegevensverzameling verzonden. De methode werkt op dezelfde manier als de [`t()`](t-method.md) methode, maar met deze methode worden de paginaweergaven niet vergroot. Het is handig voor het bijhouden van koppelingen en andere elementen die niet als een volledige pagina worden geladen.
 
-Als `trackDownloadLinks` of `trackExternalLinks` worden toegelaten, roept AppMeasurement automatisch de `tl` methode om downloadverbinding te verzenden en verbinding het volgen gegevens weg te gaan. Als uw organisatie er de voorkeur aan geeft meer controle te hebben over de koppelingen en hun gedrag, kunt u de `tl` methode handmatig aanroepen. Aangepaste koppelingen kunnen alleen handmatig worden bijgehouden.
+Als [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) of [`trackExternalLinks`](../config-vars/trackexternallinks.md) worden toegelaten, roept AppMeasurement automatisch de `tl()` methode om downloadverbinding te verzenden en verbinding het volgen gegevens weg te gaan. Als uw organisatie er de voorkeur aan geeft meer controle te hebben over de koppelingen en hun gedrag, kunt u de `tl()` methode handmatig aanroepen. Aangepaste koppelingen kunnen alleen handmatig worden bijgehouden.
 
 ## Aanroep voor het bijhouden van koppelingen in Adobe Experience Platform Starten
 
@@ -44,7 +44,7 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 Het argument voor het koppelingsobject bepaalt of de browser tot 500 ms wacht voordat er vanaf de pagina wordt genavigeerd. Als een verzoek om een afbeelding eerder dan 500 ms wordt verzonden, navigeert de pagina direct naar de aangeklikte koppeling.
 
-> [!NOTE] AppMeasurement laat automatisch de `useBeacon` variabele voor uitgangsverbindingen toe, die dit argument maken niet meer nodig in moderne browsers. Dit argument werd vaker gebruikt in vorige versies van AppMeasurement.
+> [!NOTE] AppMeasurement laat automatisch de [`useBeacon`](../config-vars/usebeacon.md) variabele voor uitgangsverbindingen toe, die dit argument maken niet meer nodig in moderne browsers. Dit argument werd vaker gebruikt in vorige versies van AppMeasurement.
 
 * `this`: Wacht tot maximaal 500 ms om AppMeasurement tijd te geven om een verzoek om een afbeelding te verzenden. Standaardwaarde.
 * `true`: Wacht niet.
@@ -59,7 +59,7 @@ s.tl(true);
 
 ### Type koppeling
 
-Het koppelingstype argument is een single-letter koord dat het type van verbinding het volgen vraag bepaalt. Dit is hetzelfde als het instellen van de `linkType` variabele.
+Het koppelingstype argument is een single-letter koord dat het type van verbinding het volgen vraag bepaalt. Dit is hetzelfde als het instellen van de [`linkType`](../config-vars/linktype.md) variabele.
 
 ```js
 // Send a custom link
@@ -74,7 +74,7 @@ s.tl(true,"e");
 
 ### Koppelingsnaam
 
-Het argument van de verbindingsnaam is een koord dat de de afmetingswaarde van de verbinding het volgen bepaalt. Dit is hetzelfde als het instellen van de `linkName` variabele.
+Het argument van de verbindingsnaam is een koord dat de de afmetingswaarde van de verbinding het volgen bepaalt. Dit is hetzelfde als het instellen van de [`linkName`](../config-vars/linkname.md) variabele.
 
 ```js
 s.tl(true,"d","Example download link");
