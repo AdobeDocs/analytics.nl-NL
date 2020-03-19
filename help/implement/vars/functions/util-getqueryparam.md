@@ -2,14 +2,14 @@
 title: Util.getQueryParam
 description: Retourneert de waarde van een querytekenreeksparameter.
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Util.getQueryParam
 
-Parameters van queryreeksen in een browser-URL bevatten vaak belangrijke gegevens voor Analytics. Gebruik de `Util.getQueryParam` methode om gegevens van het vraagkoord terug te winnen.
+Parameters van queryreeksen in een browser-URL bevatten vaak belangrijke gegevens voor Analytics. Gebruik de `Util.getQueryParam()` methode om gegevens van het vraagkoord terug te winnen.
 
 ## Gegevens over querytekenreeksparameters ophalen in Adobe Experience Platform Launch
 
@@ -50,4 +50,4 @@ var customString = "https://example.com?q1=value1;q2=value2;q3=value3";
 s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 ```
 
-> [!NOTE] In eerdere versies van AppMeasurement was een insteekmodule met naam `s.getQueryParam` beschikbaar. Deze plug-in is niet meer nodig, omdat deze nu standaard in AppMeasurement is opgenomen.
+> [!TIP] Er [`s.getQueryParam`](../plugins/getqueryparam.md) is een vergelijkbare plug-in beschikbaar. Deze plug-in bevat meer geavanceerde functies, maar is ook complexer en wordt standaard niet in AppMeasurement opgenomen.
