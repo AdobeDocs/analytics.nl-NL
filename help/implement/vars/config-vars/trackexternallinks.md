@@ -2,16 +2,16 @@
 title: trackExternalLinks
 description: Automatisch koppelen bijhouden in- of uitschakelen voor afsluitkoppelingen.
 translation-type: tm+mt
-source-git-commit: 04b97e93a95691132680d4da197dc62eb2b9fdd1
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # trackExternalLinks
 
-Adobe biedt de mogelijkheid om uitgaande koppelingen bij te houden zonder de functie voor elke afsluitkoppeling handmatig in te stellen. `tl()` Schakel deze variabele in als u koppelingen automatisch wilt bijhouden voor afsluitkoppelingen.
+Adobe biedt de mogelijkheid om uitgaande koppelingen bij te houden zonder handmatig de [`tl()`](../functions/tl-method.md) methode voor elke afsluitkoppeling in te stellen. Schakel deze variabele in als u koppelingen automatisch wilt bijhouden voor afsluitkoppelingen.
 
-Wanneer deze optie is ingeschakeld, vergelijkt AppMeasurement elke aangeklikte koppeling-URL met waarden in `linkInternalFilters` en `linkExternalFilters`. Als er een gelijke is, brand automatisch een verbinding van de uitgangsverbinding die vraag volgt.
+Wanneer deze optie is ingeschakeld, vergelijkt AppMeasurement elke aangeklikte koppeling-URL met waarden in [`linkInternalFilters`](linkinternalfilters.md) en [`linkExternalFilters`](linkexternalfilters.md). Als er een gelijke is, brand automatisch een verbinding van de uitgangsverbinding die vraag volgt.
 
 ## Uitgaande koppelingen bijhouden in Adobe Experience Platform Launch
 
@@ -26,7 +26,7 @@ Klik op het selectievakje om automatische tracering van afsluitkoppelingen in te
 
 ## s.trackExternalLinks in AppMeasurement en Launch, aangepaste code-editor
 
-Het `s.trackExternalLinks` is een Booleaanse waarde die het automatisch bijhouden van afsluitkoppelingen in- of uitschakelt. Als u uitgaande verbindingen niet wilt volgen, of zou verkiezen de `tl()` functie manueel te roepen om uitgangsverbindingen te volgen, plaats deze variabele aan `false`.
+Het `s.trackExternalLinks` is een Booleaanse waarde die het automatisch bijhouden van afsluitkoppelingen in- of uitschakelt. Als u uitgaande verbindingen niet wilt volgen, of zou verkiezen de `tl()` methode manueel te roepen om uitgangsverbindingen te volgen, plaats deze variabele aan `false`.
 
 ```js
 s.trackDownloadLinks = true;
