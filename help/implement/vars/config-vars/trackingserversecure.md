@@ -2,7 +2,7 @@
 title: trackingServerSecure
 description: Bepaal de locatie waar afbeeldingsaanvragen worden verzonden op HTTPS-pagina's.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -22,7 +22,7 @@ Adobe verzamelt gegevens op uw site door een afbeeldingsaanvraag te ontvangen di
 3. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder Adobe Analytics.
 4. Breid de accordeon uit, die het [!UICONTROL General] [!UICONTROL SSL Tracking Server] veld onthult.
 
-Als dit veld niet wordt ingevuld, wordt standaard de waarde in de `trackingServer` variabele gebruikt.
+Als dit veld niet wordt ingevuld, wordt standaard de waarde in de [`trackingServer`](trackingserver.md) variabele gebruikt.
 
 ## s.trackingServerSecure in de aangepaste code-editor van AppMeasurement en Launch
 
