@@ -2,7 +2,7 @@
 title: referentie
 description: Overschrijf de automatisch verzamelde verwijzer voor een klap.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -36,7 +36,7 @@ Stel deze variabele niet in op niet-URL-waarden.
 
 ## Voorbeeld
 
-Veel organisaties werken met implementaties rond omleidingen. U kunt het [`getQueryParam`](../functions/util-getqueryparam.md) hulpprogramma gebruiken om een verwijzing op te halen via de URL als uw site daar ruimte voor biedt. Zorg ervoor dat u URL codeert om het even welke waarden inbegrepen in het vraagkoord.
+Veel organisaties werken met implementaties rond omleidingen. U kunt het [`Util.getQueryParam()`](../functions/util-getqueryparam.md) hulpprogramma gebruiken om een verwijzing op te halen via de URL als uw site daar ruimte voor biedt. Zorg ervoor dat u URL codeert om het even welke waarden inbegrepen in het vraagkoord.
 
 ```js
 // Example if the URL is https://example.com?r=https%3A%2F%2Fexample.org
