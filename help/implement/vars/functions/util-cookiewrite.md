@@ -2,14 +2,14 @@
 title: Util.cookieWrite
 description: Schrijft een waarde voor een cookie.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Util.cookieWrite
 
-Met cookies kunt u informatie opslaan en ophalen op meerdere pagina&#39;s in hetzelfde domein. Gebruik de `Util.cookieWrite` methode om een waarde in te stellen op een cookie. U kunt de `Util.cookieRead` methode gebruiken om waarden terug te winnen die gebruikend worden geplaatst `Util.cookieWrite`.
+Met cookies kunt u informatie opslaan en ophalen op meerdere pagina&#39;s in hetzelfde domein. Gebruik de `Util.cookieWrite()` methode om een waarde in te stellen op een cookie. U kunt de [`Util.cookieRead()`](util-cookieread.md) methode gebruiken om waarden terug te winnen die gebruikend worden geplaatst `Util.cookieWrite()`.
 
 ## Cookies instellen in Adobe Experience Platform Launch
 
