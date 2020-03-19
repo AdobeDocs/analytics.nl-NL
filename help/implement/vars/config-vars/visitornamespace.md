@@ -2,16 +2,16 @@
 title: bezoekerNameSpace
 description: Variabele in ruste die het cookie domein heeft bepaald.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # bezoekerNamespace
 
-> [!IMPORTANT] Deze variabele wordt uitgeschakeld. Gebruik `trackingServer` in plaats hiervan.
+> [!IMPORTANT] Deze variabele wordt uitgeschakeld. Gebruik [`trackingServer`](trackingserver.md) in plaats hiervan.
 
-In eerdere versies van Adobe Analytics gebruikte AppMeasurement de `visitorNameSpace` variabele om het subdomein te bepalen van `2o7.net` waar bezoekerscookies worden opgeslagen. De toenemende privacy praktijken in moderne browsers maken derdekoekjes minder betrouwbaar. Met de invoering van de `trackingServer` en de `trackingServerSecure` variabelen is `visitorNameSpace` het niet langer nodig.
+In eerdere versies van Adobe Analytics gebruikte AppMeasurement de `visitorNameSpace` variabele om het subdomein te bepalen van `2o7.net` waar bezoekerscookies worden opgeslagen. De toenemende privacy praktijken in moderne browsers maken derdekoekjes minder betrouwbaar. Met de invoering van de `trackingServer` en de [`trackingServerSecure`](trackingserversecure.md) variabelen is `visitorNameSpace` het niet langer nodig.
 
 > [!TIP] Adobe raadt u aan cookies van de eerste fabrikant op uw site te gebruiken. First-party cookies gebruiken deze variabele niet.
 
