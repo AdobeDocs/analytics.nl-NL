@@ -2,7 +2,7 @@
 title: linkType
 description: Gebruik de variabele linkType om te bepalen tot welke afmeting het verbinden behoort.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -15,7 +15,7 @@ Een van de volgende drie dimensies kan worden gevuld door treffers voor het bijh
 * Koppelingen afsluiten
 * Koppelingen downloaden
 
-Gebruik de `linkType` variabele om te bepalen welke afmeting u wilt bevolken wanneer het runnen van de volgende `tl()` functie.
+Gebruik de `linkType` variabele om te bepalen welke afmeting u wilt bevolken wanneer het runnen van de volgende [`tl()`](../functions/tl-method.md) functie.
 
 ## Koppelingstype in Adobe Experience Platform Launch
 
@@ -32,13 +32,13 @@ U kunt deze vervolgkeuzelijst instellen op [!UICONTROL Custom Link], [!UICONTROL
 
 ## s.linkType in AppMeasurement en Launch, aangepaste code-editor
 
-De `s.linkType` variabele is een tekenreeks die een van de drie waarden van één teken accepteert: `o`, `d`, of `e`. Als een `tl()` functie wordt aangeroepen zonder een koppelingstype, wordt standaard een aangepaste koppeling gebruikt.
+De `s.linkType` variabele is een tekenreeks die een van de drie waarden van één teken accepteert: `o`, `d`, of `e`. Als een `tl()` methode zonder een verbindingstype wordt geroepen, blijft het aan de verbinding van de Douane in gebreke.
 
 * `o` - Aangepaste koppelingen
 * `d` - Koppelingen downloaden
 * `e` - Koppelingen afsluiten
 
-> [!TIP] Deze variabele is de tweede parameter van de `tl()` functie en hoeft gewoonlijk niet als een zelfstandige variabele te worden ingesteld. U kunt de `linkType` variabele echter wel gebruiken als u geen waarden als argumenten in de `tl()` functie wilt instellen.
+> [!TIP] Deze variabele is de tweede parameter van de `tl()` methode en hoeft gewoonlijk niet als een zelfstandige variabele te worden ingesteld. U kunt de `linkType` variabele echter wel gebruiken als u geen waarden als argumenten in de `tl()` methode wilt instellen.
 
 ```js
 s.linkType = "e";
