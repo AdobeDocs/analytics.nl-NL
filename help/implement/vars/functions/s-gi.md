@@ -2,7 +2,7 @@
 title: s_gi()
 description: Creeer en spoor instanties van AppMeasurement.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -36,7 +36,7 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!WARNING] De volgende secties en voorbeelden bevatten complexe implementatieonderwerpen. Test uw implementatie grondig en traceer belangrijke aanpassingen in het document [van het de](../../prepare/solution-design.md)oplossingsontwerp van uw organisatie.
+> [!CAUTION] De volgende secties en voorbeelden bevatten complexe implementatieonderwerpen. Test uw implementatie grondig en traceer belangrijke aanpassingen in het document [van het de](../../prepare/solution-design.md)oplossingsontwerp van uw organisatie.
 
 ## Meerdere implementaties beheren met verschillende trackingobjecten
 
