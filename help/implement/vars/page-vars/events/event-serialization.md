@@ -2,7 +2,7 @@
 title: Serienummering voor gebeurtenissen
 description: Help metrische gegevens op uw site te dupliceren.
 translation-type: tm+mt
-source-git-commit: c5a60bc9756af2742740dbc6a26a081f55ee3235
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -15,7 +15,7 @@ De rangschikking van gebeurtenissen is het proces om maatregelen uit te voeren o
 
 ## Gebeurtenisserienummering instellen
 
-U moet een gebeurtenis eerst instellen [!UICONTROL Unique Event Recording] op [!UICONTROL Use Event ID] de instellingen van de rapportsuite. Zie Gebeurtenissen [geslaagd](../../../../admin/admin/c-success-events/success-event.md) in de gebruikershandleiding voor Admin.
+U moet een gebeurtenis eerst instellen [!UICONTROL Unique Event Recording] op [!UICONTROL Use Event ID] de instellingen van de rapportsuite. Zie Gebeurtenissen [geslaagd](/help/admin/admin/c-success-events/success-event.md) in de gebruikershandleiding voor Admin.
 
 Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niveaus:
 
@@ -23,7 +23,7 @@ Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niv
 * De-duplicatie gebeurt wereldwijd voor alle bezoekers. Als bezoeker A `event1:ABC` dan ook bezoeker B verzendt `event1:ABC`, negeert Adobe het tweede exemplaar van bezoeker B.
 * De-duplicatie verloopt niet. Als een bezoeker `event1:ABC` dan twee jaar later terugkomt en `event1:ABC` opnieuw verzendt, negeert Adobe het tweede exemplaar.
 
-> [!TIP] Als u de duplicatie van de `purchase` gebeurtenis wilt opheffen, gebruikt u de `purchaseID` variabele.
+> [!TIP] Als u de duplicatie van de [`purchase`](event-purchase.md) gebeurtenis wilt opheffen, gebruikt u de [`purchaseID`](../purchaseid.md) variabele.
 
 ## Gebeurtenis-id&#39;s gebruiken in Adobe Experience Platform Starten
 
