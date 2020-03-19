@@ -2,14 +2,14 @@
 title: usePlugins
 description: Schakel de functie doPlugins() in of uit.
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # usePlugins
 
-Als `usePlugins` deze optie is ingeschakeld, wordt de `doPlugins()` functie uitgevoerd vlak voordat AppMeasurement wordt gecompileerd en wordt een hit naar Adobe verzonden. Schakel deze variabele in als u de `doPlugins()` functie gebruikt.
+Als `usePlugins` deze optie is ingeschakeld, wordt de [`doPlugins()`](../functions/doplugins.md) functie uitgevoerd vlak voordat AppMeasurement wordt gecompileerd en wordt een hit naar Adobe verzonden. Schakel deze variabele in als u de `doPlugins()` functie gebruikt.
 
 ## Plug-ins gebruiken in Adobe Experience Platform Launch
 
