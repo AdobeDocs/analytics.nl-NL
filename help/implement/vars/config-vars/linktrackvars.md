@@ -2,16 +2,16 @@
 title: linkTrackVars
 description: Geef op welke variabelen u wilt opnemen in aanvragen voor het bijhouden van koppelingen.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkTrackVars
 
-Sommige implementaties willen niet alle variabelen in alle verbinding het volgen beeldverzoeken omvatten. Gebruik de `linkTrackVars` en de `linkTrackEvents` variabelen om afmetingen en metriek in `tl()` vraag selectief te omvatten.
+Sommige implementaties willen niet alle variabelen in alle verbinding het volgen beeldverzoeken omvatten. Gebruik de `linkTrackVars` en de [`linkTrackEvents`](linktrackevents.md) variabelen om afmetingen en metriek in [`tl()`](../functions/tl-method.md) vraag selectief te omvatten.
 
-Deze variabele wordt niet gebruikt voor paginaweergaveaanroepen (`t()` functie).
+Deze variabele wordt niet gebruikt voor de vraag van de paginamening (`t()` methode).
 
 ## Variabelen in koppelingsreeksopvragen met Adobe Experience Platform Launch
 
@@ -21,7 +21,7 @@ Start vult deze variabele automatisch op de achtergrond in op basis van variabel
 
 ## s.linkTrackVars in AppMeasurement en Launch, aangepaste code-editor
 
-De `s.linkTrackVars` variabele is een tekenreeks met een door komma&#39;s gescheiden lijst met variabelen die u wilt opnemen in aanvragen voor het bijhouden van koppelingen (`tl()` functie). Aan beide volgende criteria moet worden voldaan om afmetingen op te nemen in het volgen van koppelingen:
+De `s.linkTrackVars` variabele is een tekenreeks met een door komma&#39;s gescheiden lijst met variabelen die u wilt opnemen in aanvragen voor het bijhouden van koppelingen (`tl()` methode). Aan beide volgende criteria moet worden voldaan om afmetingen op te nemen in het volgen van koppelingen:
 
 * Stel de gewenste variabelewaarde in. Bijvoorbeeld, `s.eVar1 = "Example value";`.
 * Stel de gewenste variabele in de `linkTrackVars` variabele in. Bijvoorbeeld, `s.linkTrackEvents = "eVar1";`.
