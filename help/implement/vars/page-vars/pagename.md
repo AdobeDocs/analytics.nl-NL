@@ -2,7 +2,7 @@
 title: pageName
 description: De naam van de pagina op uw site.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,7 +13,7 @@ In de `pageName` variabele wordt doorgaans de naam van een bepaalde pagina opges
 
 > [!NOTE] Deze dimensie wordt altijd gestript van verbinding het volgen vraag. Als u de paginanaam wilt zien waar een verbinding werd gevolgd, overweeg het kopiëren van deze variabele in een eVar.
 
-Als deze variabele niet op een bepaalde pagina het volgen vraag wordt bepaald, wordt de `pageURL` variabele in plaats daarvan gebruikt.
+Als deze variabele niet op een bepaalde pagina het volgen vraag wordt bepaald, wordt de [`pageURL`](pageurl.md) variabele in plaats daarvan gebruikt.
 
 ## Paginanaam in Adobe Experience Platform Launch
 
