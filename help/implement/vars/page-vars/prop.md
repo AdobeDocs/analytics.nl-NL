@@ -2,7 +2,7 @@
 title: prop
 description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 translation-type: tm+mt
-source-git-commit: ddab63a4fe3b8f1a3187893eba1ac3a1eda3bc41
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -56,3 +56,5 @@ s.prop1 = "value1,value2,value3";
 ```
 
 > [!IMPORTANT] Voor lijstprofielen geldt nog steeds de maximumlengte van 100 bytes. Lijstprofielen zijn eenvoudiger om deze limiet te bereiken en te worden afgekapt, omdat ze meerdere waarden kunnen bevatten. U kunt afkortingen of verkorte waarden gebruiken als deze limiet van 100 bytes wordt bereikt.
+
+Als u dezelfde waarde meerdere keren instelt in een lijst-eigenschap, wordt de duplicatie ongedaan gemaakt in de rapportage. De Werkruimte van de Analyse telt het aantal treffers waar een waarde wordt gezien, en niet het aantal tijden een waarde in gegevens bestaat.
