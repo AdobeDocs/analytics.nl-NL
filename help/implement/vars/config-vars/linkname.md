@@ -2,16 +2,16 @@
 title: linkName
 description: Stel de naam in van de aangepaste koppelingshit.
 translation-type: tm+mt
-source-git-commit: e500332fe16887fa004858b07b59644837e183aa
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkName
 
-Gebruik de `linkName` variabele om de waarde van de afmeting van douaneverbindingen te bepalen, downloadverbindingen, of uitgangsverbindingen wanneer het runnen van de volgende `tl()` functie.
+Gebruik de `linkName` variabele om de afmetingswaarde van douaneverbindingen, downloadverbindingen, of uitgangsverbindingen te bepalen wanneer het runnen van de volgende [`tl()`](../functions/tl-method.md) methode.
 
-Als deze variabele leeg is, keert AppMeasurement aan de `linkURL` variabele terug.
+Als deze variabele leeg is, keert AppMeasurement aan de [`linkURL`](linkurl.md) variabele terug.
 
 ## Koppelingsnaam in Adobe Experience Platform Launch
 
@@ -26,9 +26,9 @@ U kunt het gebied van de verbindingsnaam plaatsen wanneer het vormen van een reg
 
 ## s.linkName in AppMeasurement en Launch, aangepaste code-editor
 
-De `s.linkName` variabele is een tekenreeks die de waarde van de afmetingen voor aangepaste koppelingen, downloadkoppelingen of afsluitkoppelingen bepaalt (afhankelijk van wat `s.linkType` is). Het kan tot 100 bytes bevatten.
+De `s.linkName` variabele is een tekenreeks die de waarde van de afmetingen voor aangepaste koppelingen, downloadkoppelingen of afsluitkoppelingen bepaalt (afhankelijk van wat [`s.linkType`](linktype.md) is). Het kan tot 100 bytes bevatten.
 
-> [!TIP] Deze variabele is de derde parameter van de `tl()` functie en hoeft gewoonlijk niet als een standalone variabele te worden ingesteld. U kunt de `linkName` variabele echter wel gebruiken als u geen waarden als argumenten in de `tl()` functie wilt instellen.
+> [!TIP] Deze variabele is de derde parameter van de `tl()` methode en hoeft gewoonlijk niet als een zelfstandige variabele te worden ingesteld. U kunt de `linkName` variabele echter wel gebruiken als u geen waarden als argumenten in de `tl()` methode wilt instellen.
 
 ```js
 s.linkName = "Example custom link";
