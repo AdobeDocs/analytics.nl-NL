@@ -2,14 +2,14 @@
 title: sa
 description: Wijzig de rapportsuite op elk gewenst moment in de implementatie.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # sa
 
-Met de `sa` methode kunt u een rapportsuite op elk gewenst moment op de pagina dynamisch wijzigen. Als u gegevens naar verschillende rapportreeksen wilt verzenden zonder dat de pagina opnieuw wordt geladen, kunt u deze methode gebruiken.
+Met de `sa()` methode kunt u een rapportsuite op elk gewenst moment op de pagina dynamisch wijzigen. Als u gegevens naar verschillende rapportreeksen wilt verzenden zonder dat de pagina opnieuw wordt geladen, kunt u deze methode gebruiken.
 
 ## De sa-methode gebruiken in Adobe Experience Platform Launch
 
