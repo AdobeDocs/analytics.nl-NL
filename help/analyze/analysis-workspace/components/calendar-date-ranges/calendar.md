@@ -3,7 +3,7 @@ description: In de kalender kunt u datums en datumbereiken opgeven of een voorin
 title: Overzicht van kalender- en datumbereiken
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
@@ -12,16 +12,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 In de kalender kunt u datums en datumbereiken opgeven of een voorinstelling selecteren.
 
-De kalenderselecties zijn van toepassing op paneelniveau, maar u hebt de optie om hen op alle panelen toe te passen. Standaard wordt in de werkruimtekalender de huidige maand en vorige maand weergegeven.
+De kalenderselecties zijn van toepassing op paneelniveau, maar u hebt de optie om hen op alle panelen toe te passen. Wanneer u in Workspace op een datumbereik klikt, worden de huidige kalendermaand en de vorige kalendermaand in de interface weergegeven. U kunt deze twee kalenders aanpassen door op de rechter- en linkerpijlen in elke respectievelijke bovenhoek te klikken.
 
-Met de eerste klik begint u een datumbereikselectie. Markeer vervolgens het bereik in beide richtingen tot de tweede klik, waarmee het einde van het datumbereik wordt geselecteerd. Als u de `Shift` toets ingedrukt houdt (of met de rechtermuisknop klikt) terwijl u op de eerste datum klikt, wordt deze aan het bereik toegevoegd.
+![Kalender](assets/aw_calendar.png)
+
+Met de eerste klik op een kalender wordt een datumbereikselectie gestart. Met de tweede klik voltooit u een datumbereikselectie die wordt gemarkeerd. Als u de `Shift` toets ingedrukt houdt (of met de rechtermuisknop klikt), wordt deze toegevoegd aan het momenteel geselecteerde bereik.
 
 U kunt ook datums (en tijdafmetingen) naar een Workspace-project slepen. U kunt specifieke dagen, weken, maanden, jaren of een roldatum selecteren.
 
-![](assets/aw_calendar.png)
-
 [Datumbereik en -kalender gebruiken in de analysewerkruimte op YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
-
 
 | Instelling | Beschrijving |
 |--- |--- |
