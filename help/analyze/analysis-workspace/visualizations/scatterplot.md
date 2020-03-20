@@ -1,20 +1,20 @@
 ---
-description: Toont geserveerde indrukken en hoeveel unieke gebruikers die indrukken hebben gezien.
 title: Scatterplot
-uuid: 470b3142-3a0a-4cd8-8919-7b64044188c8
+description: Een visualisatie die de relatie tussen maximaal drie metriek toont.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
 
 # Scatterplot
 
-Toont geserveerde indrukken en hoeveel unieke gebruikers die indrukken hebben gezien.
+De scatterplot visualisatie toont het verband tussen afmetingswaarden en tot drie metriek. Hiervoor zijn drie componenten nodig en ondersteuning voor het visualiseren van maximaal vier componenten.
 
-De grootte van elk gegevenspunt geeft een visuele indicatie over het gemiddelde aantal keren dat een viewer aan een advertentie is blootgesteld. De grootte en gegevens variëren afhankelijk van de afmetingen, datumbereiken en filters die u selecteert.
+* De rijcomponent (doorgaans een dimensie) vertegenwoordigt elk punt in de grafiek. Verschillende rijen worden weergegeven als verschillende gekleurde stippen.
+* In de kolom uiterst links (meestal metrisch) wordt de positie van de punt op de Y-as (verticaal) aangegeven.
+* In de tweede kolom wordt de positie van de stip op de X-as (horizontaal) in kaart gebracht.
+* De derde kolom bepaalt de straal van de stip.
+* Alle volgende kolommen in een vrije-vormlijst worden genegeerd door de scatterplot visualisatie.
 
-![](assets/scatter.png)
-
-> [!NOTE] Voor een tabel die is gekoppeld aan een Scatterplot-diagram zijn ten minste twee kolommen vereist. De eerste kolom definieert de X-as en de tweede kolom definieert de Y-as. Als er een derde kolom beschikbaar is, gebruikt de grafiek van het Scatterplot het om de straal van de punt te bepalen. Met andere woorden, de kolommen *1*, *2* en *3* zijn toegewezen aan *X*, *Y*** en de  puntstraal.
-
+![Scatterplot](assets/scatter.png)
