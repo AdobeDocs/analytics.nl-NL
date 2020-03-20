@@ -2,7 +2,7 @@
 title: campagne
 description: Vul de dimensie 'Code bijhouden' in.
 translation-type: tm+mt
-source-git-commit: c5a60bc9756af2742740dbc6a26a081f55ee3235
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
@@ -28,7 +28,7 @@ U kunt campagne aan een waarde of een parameter van het vraagkoord plaatsen.
 
 ## s.campagne in de redacteur van de douanecode van AppMeasurement en van de Lancering
 
-De `s.campaign` variabele is een tekenreeks die doorgaans een trackingcode bevat die wordt gebruikt bij marketingactiviteiten. De maximale lengte is 255 bytes. Als waarden langer zijn dan 100 bytes, worden deze automatisch afgekapt wanneer ze naar Adobe worden verzonden.
+De `s.campaign` variabele is een tekenreeks die doorgaans een trackingcode bevat die wordt gebruikt bij marketingactiviteiten. De maximale lengte is 255 bytes. Als waarden langer zijn dan 255 bytes, worden deze automatisch afgekapt wanneer ze naar Adobe worden verzonden.
 
 ```js
 // Set the campaign variable to a static value
