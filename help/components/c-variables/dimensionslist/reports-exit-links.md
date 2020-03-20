@@ -1,37 +1,24 @@
 ---
-description: Toont de gemeenschappelijkste verbindingen mensen op klikken die tot plaatsen buiten uw plaats leiden. Deze verbindingen richten typisch aan partner of verwante plaatsen. Ze kunnen echter elke locatie zijn waar u een externe koppeling hebt geïmplementeerd. U kunt dit rapport gebruiken om de populairste partnerverbindingen te bekijken, of bij het bevestigen van het aantal verwijzingen te helpen die de staat van uw partners u verstrekt.
 title: Koppelingen afsluiten
-topic: Reports
-uuid: e1452f04-389d-4aa3-8763-732880284302
+description: Rapport over de meest gebruikte koppelingen waarop mensen klikken om uw site te verlaten.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: be4c3ec95b9e93dda7603c0bdb178c0a54d800a0
 
 ---
 
 
 # Koppelingen afsluiten
 
-Toont de gemeenschappelijkste verbindingen mensen op klikken die tot plaatsen buiten uw plaats leiden. Deze verbindingen richten typisch aan partner of verwante plaatsen. Ze kunnen echter elke locatie zijn waar u een externe koppeling hebt geïmplementeerd. U kunt dit rapport gebruiken om de populairste partnerverbindingen te bekijken, of bij het bevestigen van het aantal verwijzingen te helpen die de staat van uw partners u verstrekt.
+Toont de gemeenschappelijkste verbindingen mensen zijn klikken om uw plaats te verlaten. Deze verbindingen richten typisch aan partner of verwante plaatsen; ze kunnen echter elke locatie zijn waar u een externe koppeling hebt. U kunt dit rapport gebruiken om de populairste partnerverbindingen te bekijken, of bij het bevestigen van het aantal verwijzingen te helpen die de staat van uw partners u verstrekt.
 
 Deze pagina kan alleen correct worden ingevuld als aan verschillende vereisten is voldaan:
-
-* Als het gebruiken van het handspoor van de douaneverbinding, een *`s.tl()`* verzoek moet met de middelste parameter worden in brand gestoken die aan *e* wordt geplaatst.
-
+* Als het gebruiken van het handspoor van de douanekoppeling, moet een `tl()` verzoek met de middenparameter worden in brand gestoken die aan wordt geplaatst `e`.
 * Als u automatische aangepaste koppelingencontrole gebruikt, moet aan alle vereisten worden voldaan:
-* 
-
-   * [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackexlinks.html) moet zijn ingesteld op *true*.
-
-   * De koppeling waarop de gebruiker heeft geklikt, mag niet overeenkomen met waarden binnen de variabele [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html) .
-   * Als [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html) wordt uitgevoerd, moet de externe verbinding minstens één van de waarden aanpassen die in deze variabele worden geplaatst.
-
-* Als aan een van de bovenstaande voorwaarden niet wordt voldaan, wordt dit rapport niet ingevuld.
-
-* 
-* Net als bij alle aangepaste resultaten bij het bijhouden van koppelingen, wordt de variabele [s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) uit de afbeeldingsaanvraag verwijderd om inflatie in de paginaweergave te voorkomen.
+   * De variabele [trackExternalLinks](/help/implement/vars/config-vars/trackexternallinks.md) moet zijn ingeschakeld.
+   * De koppeling waarop de gebruiker heeft geklikt, mag niet overeenkomen met waarden binnen de variabele [linkInternalFilters](/help/implement/vars/config-vars/linkinternalfilters.md) .
+   * Als de variabele [linkExternalFilters](/help/implement/vars/config-vars/linkexternalfilters.md) bestaat, moet de externe koppeling overeenkomen met ten minste een van de waarden die in deze variabele zijn ingesteld.
+* Als aan een van de bovenstaande voorwaarden niet wordt voldaan, vult de treffer dit rapport niet in.
+* Net als bij alle aangepaste resultaten voor het bijhouden van koppelingen, wordt de variabele [pageName](/help/implement/vars/page-vars/pagename.md) uit de afbeeldingsaanvraag verwijderd om te voorkomen dat de pagina wordt opgevuld met metrische informatie.
 * U kunt dit rapport weergeven in een georiënteerde en gerangschikte indeling.
 * Dit rapport kan een onderzoeksfilter gebruiken om van specifieke lijnpunten de plaats te bepalen.
-* U kunt [onderverdelingen](/help/analyze/reports-analytics/reports-customize/breakdowns.md) maken met elke andere variabele via Admin Tools.
-* [De instanties](/help/components/c-variables/c-metrics/metrics-instance.md) zijn de enige metriek beschikbaar door gebrek binnen dit rapport, tellend het aantal tijden de uitgangsverbinding in brand gestoken.
-* Voor dit rapport kunnen dagelijkse, wekelijkse, maandelijkse en driemaandelijkse bezoekers worden ingeschakeld. Alleen een vertegenwoordiger van Adobe kan dit echter tegen extra kosten inschakelen. Het toelaten van unieke bezoekers voor om het even welke variabelen van het douanecontracten verhoogt zeer latentie voor de rapportreeks.
-
+* U kunt [onderverdelingen](/help/analyze/reports-analytics/reports-customize/breakdowns.md) maken met elke andere variabele.
