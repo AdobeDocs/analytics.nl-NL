@@ -4,7 +4,7 @@ title: Veelgestelde vragen over activiteitenoverzicht
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 Veelgestelde vragen over het instellen, configureren en gebruiken van functies in Activiteitenkaart.
 
-## Implementatie en meting van toepassing {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
+## Implementatie en meting van toepassing
 
 **V: Wat zijn de implementatiestappen voor het toelaten van de nieuwe Activiteitenkaart?**
 
@@ -39,15 +39,29 @@ A: AppMeasurement wordt uitgevoerd op het rapport-reeks niveau. Het rapport-reek
 
 A: Nee. De functionaliteit Activiteitenkaart is niet afhankelijk van de VisitorAPI.
 
-## Activiteitenkaarttoepassing {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Activiteitenkaarttoepassing
+
+**V: Hoe steunt de Kaart van de Activiteit de Toepassingen van de enig-Pagina (SPA)?**
+
+A:
+
+* Om de paar seconden wordt de webpagina gescand op Activiteitenkaart, waarbij naar wijzigingen in de pagina wordt gezocht. ActivityMap zoekt naar nieuwe inhoud op de pagina zonder dat een nieuwe pagina moet worden geladen, maar deze nieuwe inhoud wordt altijd toegewezen aan de eerste pageName die wordt gevonden wanneer de pagina is geladen.
+
+* Activiteitenkaart controleert of de zichtbaarheid van koppelingen die het kent, is gewijzigd. Als een wijziging in de zichtbaarheid wordt gevonden, wordt de kolom [Koppelingen op pagina](/help/analyze/activity-map/activitymap-links-report.md) in de tabel Huidig voor die koppeling bijgewerkt met **[!UICONTROL Displayed]** of **[!UICONTROL Hidden]**.
+
+* Wanneer gebruikersinteractie tot nieuwe inhoud leidt, zullen om het even welke nieuwe elementen die door AppMeasurement om een verbinding worden gevonden worden toegevoegd aan de **[!UICONTROL Links On Page]** lijst. De Kaart van de activiteit verzendt een nieuw gegevensverzoek dat deze nieuwe verbindingen omvat. De nieuwe verbindingen zouden in de **[!UICONTROL Links On Page]** lijst moeten verschijnen wanneer het gegevensverzoek door UI wordt behandeld.
+
+**V: Biedt Activity Map gegevens over &quot;weergaven&quot;?**
+
+A: Nee, als u alle koppelingen bijhoudt die worden weergegeven bij elke pagina die wordt geladen, moeten we nog veel meer gegevens verzamelen. Als gratis add-on biedt Activity Map deze functionaliteit niet.
 
 **V: Kan ik Activiteitenkaart gebruiken als ik eerder geen Visitor ClickMap op mijn website gebruikte?**
 
-A: De oudere versie, die nu alleen ClickMap wordt genoemd, is geen voorwaarde voor de implementatie van de nieuwe versie. Adobe zal de oudere versie gedurende een beperkte periode blijven ondersteunen.
+A: De oudere versie - nu gewoon ClickMap genoemd - is niet een voorwaarde voor de implementatie van de nieuwe versie. Adobe zal de oudere versie gedurende een beperkte periode blijven ondersteunen.
 
 **V: Welke browsers en versies worden ondersteund door Activity Map?**
 
-A: Wij ondersteunen alleen de nieuwste versie van de vier belangrijkste browsers (Chrome, Firefox, Safari en IE).
+A: Wij ondersteunen de nieuwste versie van de vier belangrijkste browsers (Chrome, Firefox, Safari en IE).
 
 **V: Wat zijn de standaardbedekkingsinstellingen?**
 
@@ -68,12 +82,6 @@ A: Sommige gerangschikte koppelingen worden mogelijk verborgen op de pagina (bij
 
 A: Tijdens het gebruik van Activiteitenkaart worden koppelingsklikgegevens niet verzameld door de tag Analytics. Dit gedrag volgt het gedrag van de stop ClickMap.
 
-**V: Waarom maakt de metrische drop-down lijst de zelfde metrische veelvoudige tijden?**
-
-A: De Kaart van de activiteit maakt een lijst van metriek voor alle rapportreeksen. Dientengevolge, kunt u dubbel verwachten als het bedrijf niet door een [metrisch consolidatieproces](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html)is gegaan.
-
-Met de vervolgkeuzelijst Metrisch kunt u de lijst met berekende metriek beperken tot de waarden die zijn toegewezen aan de rapportsuite van de bezochte pagina.
-
 **V: Hoe verhoudt de Activiteitenkaart Alle Verbindingen Rapport met Rapporten &amp; de rapportage van de Activiteitenkaart van de Analyse?**
 
 A: Om het Alle Rapport van Verbindingen in de Kaart van de Activiteit te trekken, leiden wij tot een verdelingsverzoek als volgt: Pagina Activiteitenkaart = &quot;Bezochte pagina&quot;, uitgesplitst naar Activiteitenkaartkoppeling&amp;regio in `<list of link&regions present in the page at rendering time>`.
@@ -84,9 +92,7 @@ Het is echter van belang op te merken dat in het verkregen rapport in O&amp;O al
 
 **V: Hoe werkt Activiteitenkaart met pagina&#39;s die veelvoudige markeringen bevatten die van veelvoudige rapportreeksen een lijst maken?**
 
-A: Door gebrek, gebruikt de Kaart van de Activiteit de rapportreeks die met de eerste markering wordt geassocieerd die door de pagina wordt verzonden.
-
-U kunt een andere gelabelde rapportsuite selecteren via het tabblad Instellingen activiteitenkaart > Overige.
+A: Door gebrek, gebruikt de Kaart van de Activiteit de rapportreeks die met de eerste markering wordt geassocieerd die door de pagina wordt verzonden. U kunt een andere gelabelde rapportsuite selecteren via het tabblad Instellingen activiteitenkaart > Overige.
 
 **V: Hoe lang wordt de Activity Map gescand op de Analytics-tag?**
 
@@ -116,27 +122,27 @@ Onder de werkbalk wordt een waarschuwingsbericht weergegeven waarin wordt aangeg
 
 *Web-pagina met incompatibele Analytics-tag (AppMeasurement v1.5 of eerder)*
 
-Er wordt een waarschuwingsbericht weergegeven waarin wordt aangegeven dat u (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) de paginacode moet bijwerken naar v1.6.
+Er wordt een waarschuwingsbericht weergegeven waarin wordt aangegeven dat u de paginacode moet bijwerken naar v1.6 of meer.
 
 *Web-pagina met compatibele Analytics-tag (AppMeasurement v1.6 of hoger), maar Activity Map-rapportage is niet ingeschakeld in Admin Tools*
 
 Er wordt een waarschuwingsbericht weergegeven waarin wordt aangegeven dat u de beheerder moet vragen om \[Het rapport Activiteitenkaart inschakelen\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;).
 
-**V: Kan ik de gegevens van de Kaart van de Activiteit (contextData) via de[Gegevensvoer](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)van Analytics uitvoeren?**
+**V: Kan ik de gegevens van de Kaart van de Activiteit (contextData) via de[Gegevensvoer](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-overview.html)van Analytics uitvoeren?**
 
 A: Nee.
 
-## Segmentering in activiteitenoverzicht {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
+## Segmentering in activiteitenoverzicht
 
-**V: Zijn de segmenten verbonden aan de individuele gebruikerssegmenten? Of zijn gedeelde Admin-vlakke segmenten beschikbaar in de Kaart van de Activiteit?**
+**V: Zijn de segmenten verbonden aan de individuele gebruikerssegmenten? Zijn de gedeelde segmenten beschikbaar in de Kaart van de Activiteit?**
 
-A: De Kaart van de activiteit erft uw Admin-vlakke segmenten (het melden van segmenten) van Analytics.
+A: De Kaart van de activiteit erft uw rapporterende segmenten van Analytics.
 
 **V: Werken segmenten in de live modus?**
 
 A: Nee, segmenten werken niet in de live modus. De functionaliteit is gelijk aan die van rapportering in real time in Rapporten &amp; Analytics.
 
-## Virtuele rapportsuites {#section_BDB0CA9E732F478EAC349A79753A78DB}
+## Virtuele rapportsuites
 
 **V: Is de Kaart van de Activiteit compatibel met virtuele rapportsuites?**
 
