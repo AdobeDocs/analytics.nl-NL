@@ -3,7 +3,7 @@ description: 'null'
 title: Overzicht van het deelvenster Kenmerken
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
+source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
 
 ---
 
@@ -96,3 +96,5 @@ Attributie wordt altijd uitgevoerd vóór segmentatie en segmentatie wordt uitge
 Als u bijvoorbeeld een VRS maakt met een toegepast segment &quot;Weergaveits&quot;, kunt u andere kanalen in een tabel zien met behulp van bepaalde attributiemodellen.
 
 ![Virtuele rapportsuite met alleen weergave](assets/vrs-aiq-example.png)
+
+> [!NOTE] Als een segment klappen onderdrukt die uw metrisch bevatten, zullen die metrische instanties niet aan om het even welke afmeting worden toegeschreven. Nochtans, zal een gelijkaardig rapportfilter eenvoudig sommige afmetingswaarden verbergen, zonder enige invloed op metriek die per het attributiemodel wordt verwerkt. Als gevolg hiervan kunnen een segment en filter met vergelijkbare definities soms lagere waarden voor het segment retourneren.
