@@ -4,15 +4,18 @@ title: Overzicht van activiteitenoverzicht
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: 59e1bc7644a02c6cafbb7d7833d1cc9bd157b9d1
+source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
 
 ---
 
 
 # Overzicht van activiteitenoverzicht
 
+>[!Nofferte]
+>Leer hoe de Kaart van de Activiteit de Toepassingen van de Enige-Pagina (SPA) op onze pagina van [Veelgestelde vragen](/help/analyze/activity-map/activitymap-faq.md) steunt.
+
 >[!IMPORTANT]
->Op 16 januari 2020 gaat Adobe Analytics naar een nieuw domein - https://experience.adobe.com/analytics. Deze verandering kan de Kaart van de Activiteit veroorzaken om te ophouden werkend voor sommige klanten in specifieke gevallen. Zoals u weet, wordt de Kaart van de Activiteit ingespoten in de klantenpagina in iframe (één iframe voor de toolbar van de Kaart van de Activiteit en één iframe voor het Onderste Comité van de Kaart van de Activiteit). Mogelijk hebt u op uw webpagina een Content Security Policy-instructie ingesteld voor &quot;frame-src&quot; die &quot;.adobe.com&quot; niet bevat. In dit geval werkt de Activity Map niet meer aan een dergelijke webpagina.
+>Op 16 januari 2020 is Adobe Analytics naar een nieuw domein gegaan: https://experience.adobe.com/analytics. Deze verandering kan de Kaart van de Activiteit veroorzaken om te ophouden werkend voor sommige klanten in specifieke gevallen. Zoals u weet, wordt de Kaart van de Activiteit ingespoten in de klantenpagina in iframe (één iframe voor de toolbar van de Kaart van de Activiteit en één iframe voor het Onderste Comité van de Kaart van de Activiteit). Mogelijk hebt u op uw webpagina een Content Security Policy-instructie ingesteld voor &quot;frame-src&quot; die &quot;.adobe.com&quot; niet bevat. In dit geval werkt de Activity Map niet meer aan een dergelijke webpagina.
 
 Activiteitenkaart is een Adobe Analytics-toepassing die is ontworpen om linkactiviteiten met behulp van visuele overlays te rangschikken en die een dashboard van realtime analyses biedt om de betrokkenheid van het publiek van uw webpagina&#39;s te controleren.
 
