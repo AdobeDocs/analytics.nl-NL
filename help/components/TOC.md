@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -107,7 +107,7 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
       + [Classificatiereeksen](c-classifications2/crb/classification-rule-set.md)
       + [Classificatieregels](c-classifications2/crb/classification-quickstart-rules.md)
       + [Classificatieregels - definities](c-classifications2/crb/classification-rule-definitions.md)
-      + [Subclassificaties en de Bouwer van de Regel - gebruiksgeval](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [Subclassificaties en de Bouwer van de Regel](c-classifications2/crb/sub-classification-rule-builder.md)
    + Numerieke 2 classificaties {#numeric2-classification}
       + [Overzicht van numerieke 2 classificaties](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [Numerieke 2 classificaties maken](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
