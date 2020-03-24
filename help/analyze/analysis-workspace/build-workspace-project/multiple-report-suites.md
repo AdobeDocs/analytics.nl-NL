@@ -2,7 +2,7 @@
 title: Meerdere rapportsuites in Workspace
 description: Leer hoe en waarom u projecten maakt in Workspace met meerdere rapportsuite
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
 
@@ -16,6 +16,12 @@ Deze mogelijkheid is handig als u bijvoorbeeld
 * Vergelijk gegevens uit twee verschillende gebieden en de gegevens bevinden zich in twee verschillende rapportsuites. U kunt tabellen en visualisaties maken om de gegevens naast elkaar te vergelijken.
 
 * Bouw een dashboard van metriek en visualisaties om uit te melden aan andere organisaties. U kunt nu gegevens van diverse rapportsuites in het zelfde project trekken.
+
+## Rapportsuite toepassen op alle deelvensters
+
+U kunt een rapportsuite op alle deelvensters tegelijk toepassen door met de rechtermuisknop op de koptekst van een deelvenster te klikken en te selecteren **[!UICONTROL Apply Report Suite to All Panels]**.
+
+![](assets/apply-rs-all-panels.png)
 
 ## Actief deelvenster
 
