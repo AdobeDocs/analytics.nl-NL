@@ -5,7 +5,7 @@ title: Subclassificaties
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -15,18 +15,6 @@ source-git-commit: ''
 Adobe Analytics ondersteunt classificatiemodellen op één niveau en die op meerdere niveaus. Met een classificatiehiërarchie kunt u een classificatie toepassen op een classificatie.
 
 > [!NOTE] Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] toepassing voor het maken van [!UICONTROL Hierarchy] rapporten. Zie [Classificatiehiërarchieën](classification-hierarchies.md)voor meer informatie over classificatiehiërarchieën.
-
-<!-- 
-
-<p>Removed sub-classifications in rule builder. Preserve subclass files in project for future reference. </p>
-
- -->
-
-<!-- 
-
-c_single-level_classifications.xml
-
- -->
 
 Bijvoorbeeld:
 
@@ -40,12 +28,6 @@ Elke classificatie in dit model is onafhankelijk en komt overeen met een nieuw s
 | 456 | DEF | C3D4 |
 
 Zie [Classificatiegegevensbestanden](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)voor meer informatie over het gegevensbestand.
-
-<!-- 
-
-c_multiple-level_classifications.xml
-
- -->
 
 Classificaties op meerdere niveaus bestaan uit ouder- en onderliggende classificaties. Bijvoorbeeld:
 
@@ -74,11 +56,7 @@ Hoewel het dossiermalplaatje voor een classificatie op meerdere niveaus complexe
 
 Zie [Gemeenschappelijke classificatie uploadt Kwesties](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues) voor het oplossen van problemenhulp.
 
-<!-- 
-
-c_classifications_example.xml
-
- -->
+## Voorbeelden
 
 ![](assets/sample-product-classifications.png)
 
@@ -86,7 +64,7 @@ c_classifications_example.xml
 
 Wanneer u gegevensbestanden uploadt voor deze productclassificatie, kunt u de classificatiegegevens uploaden als één bestand of als meerdere bestanden (zie hieronder). Door de kleurcode in bestand 1 en de kleurnaam in bestand 2 te scheiden, hoeven de gegevens over de kleurnaam (die mogelijk slechts een paar rijen zijn) alleen te worden bijgewerkt wanneer nieuwe kleurcodes worden gemaakt. Hiermee verwijdert u het veld Kleurnaam (CODE&amp;Hoed;COLOR) uit het vaker bijgewerkte bestand 1 en verkleint u de bestandsgrootte en complexiteit bij het genereren van het gegevensbestand.
 
-## Productclassificatie - Eén bestand {#section_E8C5E031869C449F9B636F5EB3BFEC17}
+### Productclassificatie - Eén bestand {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
 | SLEUTEL | PRODUCTNAAM | PRODUCTGEGEVENS | GENDER | GROOTTE | CODE | CODE&amp;Hoed;KLEUR |
 |---|---|---|---|---|---|---|
@@ -94,7 +72,7 @@ Wanneer u gegevensbestanden uploadt voor deze productclassificatie, kunt u de cl
 | 410390014 | Polo-SS | Polo Shirt, korte hoes (L,03) voor heren | M | L | 03 | Heather |
 | 410390015 | Polo-LS | Polo Shirt, lange hoes (S,23) | F | S | 23 | Aqua |
 
-## Productclassificatie - Meerdere bestanden (bestand 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### Productclassificatie - Meerdere bestanden (bestand 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | SLEUTEL | PRODUCTNAAM | PRODUCTGEGEVENS | GENDER | GROOTTE | CODE |
 |---|---|---|---|---|---|
@@ -102,7 +80,7 @@ Wanneer u gegevensbestanden uploadt voor deze productclassificatie, kunt u de cl
 | 410390014 | Polo-SS | Polo Shirt, korte hoes (L,03) voor heren | M | L | 03 |
 | 410390015 | Polo-LS | Polo Shirt, lange hoes (S,23) | F | S | 23 |
 
-## Productclassificatie - Meerdere bestanden (bestand 2) {#section_19ED95C33B174A9687E81714568D56A3}
+### Productclassificatie - Meerdere bestanden (bestand 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
 | SLEUTEL | CODE | CODE&amp;Hoed;KLEUR |
 |---|---|---|
