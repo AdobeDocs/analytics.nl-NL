@@ -1,26 +1,21 @@
 ---
-description: U kunt de Classification Rule Builder combineren met subclassificaties om het classificatiebeheer te vereenvoudigen en het aantal vereiste regels te verminderen. Dit kan handig zijn als uw code voor bijhouden bestaat uit codes die u afzonderlijk wilt classificeren.
-subtopic: Classifications
-title: Subclassificaties en de Bouwer van de Regel - gebruiksgeval
-topic: Admin tools
-uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
+description: U kunt de Classification Rule Builder niet combineren met subclassificaties.
+title: Subclassificaties en de Bouwer van de Regel
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
 
-# Subclassificaties en de Bouwer van de Regel - gebruiksgeval
+# Subclassificaties en de Bouwer van de Regel
 
-U kunt de Classification Rule Builder combineren met subclassificaties om het classificatiebeheer te vereenvoudigen en het aantal vereiste regels te verminderen. Dit kan handig zijn als uw code voor bijhouden bestaat uit codes die u afzonderlijk wilt classificeren.
+U kunt de Bouwer van de Regel van de Classificatie met sub-classificaties combineren als u ervoor zorgt dat elke subclassificatie een ouderwaarde heeft.
 
-## Subclassificaties en de Bouwer van de Regel - gebruiksgeval {#concept_6C8672C242544D7487E82886BBFABE6E}
-
-U kunt de Classification Rule Builder combineren met subclassificaties om het classificatiebeheer te vereenvoudigen en het aantal vereiste regels te verminderen. Dit kan handig zijn als uw code voor bijhouden bestaat uit codes die u afzonderlijk wilt classificeren.
+Het combineren van de functie voor classificatieregel met subclassificaties kan het beheer van classificaties vereenvoudigen en het aantal vereiste regels verminderen. Dit kan handig zijn als uw code voor bijhouden bestaat uit codes die u afzonderlijk wilt classificeren.
 
 Zie [Subclassificaties](/help/components/c-classifications2/c-sub-classifications.md) voor conceptuele informatie over subclassificaties.
 
-**Voorbeeld**
+## Voorbeeld
 
 Stel de volgende code in:
 
@@ -35,12 +30,6 @@ Nadat u deze structuur op zijn plaats hebt, kunt u de Bouwer [van de Regel van](
 De volgende taak beschrijft hoe te om dit te verwezenlijken.
 
 ## Subclassificaties instellen met de Rule Builder{#task_2D9016D8B4E84DBDAF88555E5369546F}
-
-<!-- 
-
-t_rule_builder_subclass.xml
-
- -->
 
 De stappen van het voorbeeld die beschrijven hoe u sub-classificaties kunt uploaden gebruikend de Bouwer van de Regel.
 
@@ -82,4 +71,4 @@ De stappen van het voorbeeld die beschrijven hoe u sub-classificaties kunt uploa
 
    U kunt dit bestand bijvoorbeeld uploaden wanneer er een nieuwe toepassing *`Broad Campaign code`* wordt geïntroduceerd. Dit bestand is van toepassing op eerder geclassificeerde waarden. En als u een nieuwe subclassificatie maakt (zoals *`Creative Theme`* een subclassificatie van *`Creative code`*), uploadt u alleen het bestand voor subclassificatie in plaats van het volledige classificatiebestand.
 
-   Voor de rapportage van deze subclassificaties werken deze precies op de bovenste classificaties. Dit vermindert de beheerslast die nodig is om ze te gebruiken.
+   Voor de rapportage van deze subclassificaties werken deze precies op de bovenste classificaties. Dit vermindert de beheerslast die nodig is om ze te gebruiken.-->
