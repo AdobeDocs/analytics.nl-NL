@@ -4,7 +4,7 @@ title: Veelgestelde vragen over activiteitenoverzicht
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
+source-git-commit: 5a8ff1c81644c12f7d00ef147db197f54c48f60c
 
 ---
 
@@ -41,19 +41,19 @@ A: Nee. De functionaliteit Activiteitenkaart is niet afhankelijk van de VisitorA
 
 ## Activiteitenkaarttoepassing
 
-**V: Hoe steunt de Kaart van de Activiteit de Toepassingen van de enig-Pagina (SPA)?**
+<!--**Q: How does Activity Map support Single-Page Applications (SPA)?**
 
-A:
+A: 
 
-* Om de paar seconden wordt de webpagina gescand op Activiteitenkaart, waarbij naar wijzigingen in de pagina wordt gezocht. ActivityMap zoekt naar nieuwe inhoud op de pagina zonder dat een nieuwe pagina moet worden geladen, maar deze nieuwe inhoud wordt altijd toegewezen aan de eerste pageName die wordt gevonden wanneer de pagina is geladen.
+* Every few seconds, Activity Map scans the web page, looking for changes to the page. ActivityMap finds new content on the page without needing a new page load, but this new content is always attributed to the first pageName found when the page loaded.
 
-* Activiteitenkaart controleert of de zichtbaarheid van koppelingen die het kent, is gewijzigd. Als een wijziging in de zichtbaarheid wordt gevonden, wordt de kolom [Koppelingen op pagina](/help/analyze/activity-map/activitymap-links-report.md) in de tabel Huidig voor die koppeling bijgewerkt met **[!UICONTROL Displayed]** of **[!UICONTROL Hidden]**.
+* Activity Map checks to see if the visibility of links that it knows about has changed. If a change in visibility is found, then the [Links On Page](/help/analyze/activity-map/activitymap-links-report.md) table's Present column for that link updates with **[!UICONTROL Displayed]** or **[!UICONTROL Hidden]**.
 
-* Wanneer gebruikersinteractie tot nieuwe inhoud leidt, zullen om het even welke nieuwe elementen die door AppMeasurement om een verbinding worden gevonden worden toegevoegd aan de **[!UICONTROL Links On Page]** lijst. De Kaart van de activiteit verzendt een nieuw gegevensverzoek dat deze nieuwe verbindingen omvat. De nieuwe verbindingen zouden in de **[!UICONTROL Links On Page]** lijst moeten verschijnen wanneer het gegevensverzoek door UI wordt behandeld.
+* When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
 
 **V: Biedt Activity Map gegevens over &quot;weergaven&quot;?**
 
-A: Nee, als u alle koppelingen bijhoudt die worden weergegeven bij elke pagina die wordt geladen, moeten we nog veel meer gegevens verzamelen. Als gratis add-on biedt Activity Map deze functionaliteit niet.
+A: Nee, Adobe houdt de weergegeven koppelingen niet bij.
 
 **V: Kan ik Activiteitenkaart gebruiken als ik eerder geen Visitor ClickMap op mijn website gebruikte?**
 
