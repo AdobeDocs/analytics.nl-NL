@@ -5,7 +5,7 @@ title: Classificatiereeksen
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -56,12 +56,6 @@ De volgende velden en opties zijn beschikbaar op de [!UICONTROL Classifications 
 </table>
 
 ## Een set classificatieregel maken {#create-classification-rule-set}
-
-<!-- 
-
-t_classification_rule_set.xml
-
- -->
 
 Geef de classificatieregel een naam, pas de variabele toe en geef instellingen voor overschrijven op.
 
