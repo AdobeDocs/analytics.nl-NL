@@ -4,7 +4,7 @@ title: Wat is cohortanalyse?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
 
 ---
 
@@ -22,8 +22,6 @@ Voorbeelden van wat u kunt doen met Cohort Analyse:
 * Herken wanneer een proefversie of een aanbieding moet worden beëindigd om de waarde te maximaliseren.
 * Verbeter ideeën voor het testen A/B op gebieden zoals tarifering, verbeteringspad, etc.
 * Bekijk een rapport van de Analyse van de Cohort binnen een Geleide Rapport van de Analyse.
-* Herken wanneer een proefversie of een aanbieding moet worden beëindigd om de waarde te maximaliseren.
-* Verbeter ideeën voor het testen A/B op gebieden zoals tarifering, verbeteringspad, etc.
 
 Cohortanalyse is beschikbaar voor alle klanten van Analytics met toegangsrechten tot de Werkruimte van de Analyse.
 
