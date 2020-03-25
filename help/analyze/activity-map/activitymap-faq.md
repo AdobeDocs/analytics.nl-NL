@@ -4,7 +4,7 @@ title: Veelgestelde vragen over activiteitenoverzicht
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 5a8ff1c81644c12f7d00ef147db197f54c48f60c
+source-git-commit: 0e125be6e1710c65effa0adc8097e8916c8a3290
 
 ---
 
@@ -53,11 +53,11 @@ A:
 
 **V: Biedt Activity Map gegevens over &quot;weergaven&quot;?**
 
-A: Nee, Adobe houdt de weergegeven koppelingen niet bij.
+A: Nee, Adobe houdt geen koppelingen bij die zijn weergegeven.
 
 **V: Kan ik Activiteitenkaart gebruiken als ik eerder geen Visitor ClickMap op mijn website gebruikte?**
 
-A: De oudere versie - nu gewoon ClickMap genoemd - is niet een voorwaarde voor de implementatie van de nieuwe versie. Adobe zal de oudere versie gedurende een beperkte periode blijven ondersteunen.
+A: De oudere versie, die nu alleen ClickMap wordt genoemd, is geen voorwaarde voor de implementatie van de nieuwe versie. Adobe zal de oudere versie gedurende een beperkte periode blijven ondersteunen.
 
 **V: Welke browsers en versies worden ondersteund door Activity Map?**
 
