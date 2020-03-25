@@ -3,14 +3,12 @@ description: 'null'
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
+source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
 
 ---
 
 
 # Sjablonen
-
-## Sjablonen {#topic_40932F09E18A467983AFBB29908E1CB8}
 
 U kunt kiezen of u een project wilt maken van:
 
@@ -48,7 +46,7 @@ Gebruikers met beheerdersrechten kunnen elk project dat ze maken, omzetten in ee
 | Sjabloonbeschrijving wijzigen | Open de sjabloon en ga naar Project > Projectinfo &amp; -instellingen. Dubbelklik op de beschrijving en bewerk deze. |
 
 
-## Standaardsjablonen {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
+## Standaardsjablonen
 
 Wanneer u een Workspace voor het eerst opent, zijn sjablonen beschikbaar in de linkertrack. De Malplaatjes van de Werkruimte van de analyse behandelen gemeenschappelijke gebruiksgevallen. Zij worden gegroepeerd door verticaal zij tot behoren en met verschillende afmetingen, segmenten, metriek en visualisaties, afhankelijk van de rapportreeks bevolkt zijn u hebt geselecteerd.
 
@@ -58,6 +56,8 @@ U kunt deze vooraf ingevulde sjablonen ongewijzigd gebruiken of deze aan uw beho
 
 Hier zijn beschikbare sjablonen en de vragen die elke sjabloon kan beantwoorden.
 
+### Training
+
 * **Lesbestand**: Dit standaardmalplaatje begeleidt u door gemeenschappelijke terminologie en stappen voor het bouwen van uw eerste analyse in Werkruimte. Het is beschikbaar als standaardmalplaatje in Nieuw Project modaal en vervangt het steekproefproject dat vandaag voor nieuwe gebruikers bestaat die geen andere projecten in hun lijst hebben.
 
 ### Reclame
@@ -66,7 +66,7 @@ Hier zijn beschikbare sjablonen en de vragen die elke sjabloon kan beantwoorden.
 >
 >Advertentiesjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor Advertising Cloud.
 
-* **Motoren voor betaald zoeken**: In deze sjabloon worden onder andere de advertentietrends, advertentieplatoren, trefwoorden, accounts, campagnes en nog veel meer onderverdeeld.
+* **Motoren voor betaald zoeken**: In deze sjabloon worden onder andere de advertentietrends, advertentieplatoren, trefwoorden, accounts, campagnes en meer afgebroken.
 
 ### Handel
 
