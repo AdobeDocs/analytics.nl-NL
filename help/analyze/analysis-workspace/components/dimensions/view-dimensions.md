@@ -3,14 +3,12 @@ description: 'null'
 title: Voorvertoningsafmetingen
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 ---
 
 
 # Voorvertoningsafmetingen
-
-## Voorvertoning van afmeting {#section_13D5A69AE6194715A721BC87D283F6F2}
 
 Houd de muisaanwijzer boven het informatiepictogram (i) naast een dimensie. Dit toont de hoogste 5 waarden voor niet-tijdafmetingen (en 15 voor tijddimensies). We hielden die waarden altijd statisch (de 5 gekozen waarden zijn dus nooit gewijzigd).
 
@@ -24,7 +22,7 @@ Nu, door gebrek, tonen wij dynamische waarden in plaats van statische degenen, m
 
 ![](assets/dimension_static.png)
 
-## Dimensie-items tonen {#section_A074B3A984634AC7B1362889088E0A42}
+## Dimensie-items tonen
 
 Wanneer u de cursor boven een dimensie houdt en op de grijze pijl-rechts naast de dimensie klikt, wordt een lijst met de bijbehorende dimensie-items weergegeven. Een lijst met dimensie-items toont doorgaans de bovenste items voor de laatste 30 dagen.
 
