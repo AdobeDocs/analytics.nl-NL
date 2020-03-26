@@ -2,14 +2,14 @@
 title: PWA's voor analyse
 description: Progressieve webtoepassingen voor Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 ---
 
 
 # PWA&#39;s voor analyse
 
-In deze handleiding wordt beschreven hoe u Adobe Analytics kunt gebruiken met Progressive Web Apps (PWA&#39;s).
+Op deze pagina wordt beschreven hoe u Adobe Analytics met Progressive Web Apps (PWA&#39;s) kunt gebruiken.
 
 ## Inleiding
 
@@ -17,7 +17,7 @@ PWA&#39;s kunnen een native app-ervaring en offlinemogelijkheden bieden voor een
 
 Adobe Analytics werkt net zo naadloos met PWAs als met traditionele websites. Hoewel PWA&#39;s nog een paar vereisten hebben om zich geleidelijk in en van zichzelf te gedragen, creëren ze geen belemmeringen of beperkingen voor de manier waarop Analytics gegevens van hen verzamelt of rapporteert op een andere manier dan traditionele websites. Omdat Analytics al mogelijkheden voor offline bijhouden bevat, kunnen PWA&#39;s u helpen deze ingebouwde functie eenvoudiger te gebruiken dan met traditionele websites.
 
-## Uw PWA-analysegegevens ophalen
+## PWA-analysegegevens ophalen
 
 Als u uw PWA-gegevens wilt verzamelen en analyseren met Analytics, hoeft u geen configuratiewijzigingen aan te brengen. Analyses bieden automatisch dezelfde functionaliteit en functies als bij een traditionele website.
 
@@ -40,10 +40,8 @@ s.linkLeaveQueryString=false
 s.linkTrackVars="None" 
 s.linkTrackEvents="None" 
 s.trackOffline=true
-***
-    
+*** 
 ```
-
 
 Zie Code [invoegen in het bestand](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)AppMeasurement.js voor meer informatie over het bewerken van het bestand AppMeasurement.js.
 
