@@ -2,12 +2,14 @@
 title: eVar
 description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 translation-type: tm+mt
-source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
 
 # eVar
+
+*Deze Help-pagina beschrijft hoe eVars moet worden geïmplementeerd. Voor informatie over hoe eVars als afmeting werkt, zie[Vars](../../../components/c-variables/dimensionslist/reports-conversion.md)in de de gebruikersgids van Componenten.*
 
 Variabelen zijn aangepaste variabelen die u kunt gebruiken zoals u dat wilt.
 
