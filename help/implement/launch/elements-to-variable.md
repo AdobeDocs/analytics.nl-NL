@@ -2,7 +2,7 @@
 title: Gegevenselementen van start toewijzen aan analytische variabelen
 description: Wijs gegevenselementen aan de variabelen van de Analyse toe zodat u hen als afmetingen in de Werkruimte van de Analyse kunt gebruiken.
 translation-type: tm+mt
-source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
+source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
 
 ---
 
@@ -39,7 +39,7 @@ Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op el
 1. Klik op het [!UICONTROL Rules] tabblad en klik vervolgens op de gewenste regel (of maak een regel).
 1. Klik op de [!UICONTROL Add] knop onder [!UICONTROL Actions].
 1. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en stel de optie Variabelen [!UICONTROL Action Type] in.
-1. Klik op het pictogram van het [!Dgegevenselement](assets/data-element.png) rechts van de gewenste variabele Analytics. Het document [van het de](../prepare/solution-design.md) oplossingsontwerp van uw organisatie dicteert welke variabele Analytics aan gebruik.
+1. Klik op het pictogram van het element ![](assets/data-element.png) Gegevens rechts van de gewenste variabele Analytics. Het document [van het de](../prepare/solution-design.md) oplossingsontwerp van uw organisatie dicteert welke variabele Analytics aan gebruik.
 1. Selecteer het gewenste gegevenselement in het modale venster. Klik op [!UICONTROL Select].
 1. De naam van het gegevenselement wordt toegevoegd aan het tekstveld met `%` tekens. Als u bijvoorbeeld het gegevenselement &quot;Paginanaam&quot; een naam geeft, wordt de tekenreeks weergegeven `%Page name%` wanneer u een gegevenselement aan een variabele toewijst.
 
