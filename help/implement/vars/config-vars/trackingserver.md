@@ -2,7 +2,7 @@
 title: trackingServer
 description: Bepaal de locatie waarnaar verzoeken voor de afbeelding worden verzonden.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
@@ -57,3 +57,5 @@ s.trackingServer = "example.sc.omtrdc.net";
 ```
 
 Kies een subdomein dat uniek is voor uw organisatie en dat waarschijnlijk niet door een andere organisatie wordt gekozen die Adobe Analytics gebruikt. Zorg ervoor dat alle implementaties in uw organisatie dezelfde trackingserver gebruiken. Het kan nuttig zijn om deze informatie in een document [van het](../../prepare/solution-design.md)oplossingsontwerp te handhaven.
+
+> [!NOTE] Gebruik geen subdomeinen die dieper zijn dan `example.sc.omtrdc.net`. Is bijvoorbeeld `custom.example.sc.omtrdc.net` geen geldige trackingserver.
