@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
+source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
 
 ---
 
@@ -13,8 +13,8 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 + [Handleiding Analysehulpmiddelen](home.md)
 + Werkruimte Analyse {#analysis-workspace}
-   + [Help bij analysewerkruimte](analysis-workspace/home.md)
    + [Functies van de analysewerkruimte](analysis-workspace/analysis-workspace-features.md)
+   + [Help bij analysewerkruimte](analysis-workspace/home.md)
    + [Gebruiksscenario&#39;s van analysewerkruimte](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Nieuwe functies in de analysewerkruimte](analysis-workspace/new-features-in-analysis-workspace.md)
    + Een werkruimteproject maken {#build-workspace-project}
@@ -95,11 +95,6 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
       + [Projectbestanden delen en plannen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Bestand verzenden - een project plannen voor levering](analysis-workspace/curate-share/t-schedule-report.md)
       + [Geplande projectmanager](analysis-workspace/curate-share/schedule-projects.md)
-   + [Veelgestelde vragen](analysis-workspace/faq.md)
-   + [Administratieve vereisten](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Prestaties van analysewerkruimte optimaliseren](analysis-workspace/optimizing-performance.md)
-   + [Analyse van werkruimte in vergelijking met ad-hocanalyse](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-   + [Beperkingen van de analysewerkruimte](analysis-workspace/aw-limitations.md)
    + [Attributie-IQ](analysis-workspace/attribution-iq.md)
    + [Segment-IQ](analysis-workspace/segment-iq.md)
    + Virtuele analyse {#virtual-analyst}
@@ -118,6 +113,12 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
          + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Waarschuwingsbeheer](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Intelligente waarschuwingen - gebruiksgevallen](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + Veelgestelde vragen over werkruimte {#workspace-faq}
+      + [Veelgestelde vragen](analysis-workspace/workspace-faqs/faq.md)
+      + [Prestaties van analysewerkruimte optimaliseren](analysis-workspace/workspace-faqs/optimizing-performance.md)
+      + [Analyse van werkruimte in vergelijking met ad-hocanalyse](analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)
+      + [Beperkingen van de analysewerkruimte](analysis-workspace/workspace-faqs/aw-limitations.md)
+      + [Administratieve vereisten](analysis-workspace/workspace-faqs/frequently-asked-questions-analysis-workspace.md)
 + Report Builder {#report-builder}
    + [Help bij Adobe Report Builder](report-builder/home.md)
    + [Nieuw in de Bouwer van het Rapport](report-builder/whats-new-arb.md)
@@ -296,7 +297,7 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
    + [Veelgestelde vragen](reports-analytics/frequently-asked-questions.md)
 + Ad hoc-analyse {#ad-hoc-analysis}
    + Ad hoc-analyseproject converteren {#aha-project-converter}
-      + [Overzicht van ad-hocanalyseprojecten converteren](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
+      + [Overzicht van ad-hocanalyse projectconversie](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Uw projecten omzetten in ad-hocanalyse](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
       + [Omgezette projecten weergeven in de analysewerkruimte](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
       + [Veelgestelde vragen over projectconversie](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
