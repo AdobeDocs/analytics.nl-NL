@@ -2,10 +2,8 @@
 description: Aan de slag met Adobe Analytics.
 keywords: Analysis Workspace
 title: Aan de slag-handleiding
-topic: Reports and analytics
-uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
 
 ---
 
@@ -89,17 +87,16 @@ Er zijn veel richtingen om uw begrip van de Werkruimte van de Analyse te verdiep
 ### Voor eindgebruikers die kennis willen uitbreiden over het gebruik van de analysewerkruimte
 
 * [Gegevens over de interface](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)van de werkruimte: Nu u een basisrapport hebt gecreeerd, wordt vertrouwd met de rest van de interface.
-* [Visualisaties in werkruimte](visualizations/freeform-analysis-visualizations.md): De lijsten van de vrije vorm zijn slechts één type van visualisatie in de Werkruimte van de Analyse. Leer hoe u andere visualisaties gebruikt, zoals lijngrafieken, staafgrafieken en geo-overzichten.
+* [Visualisaties in werkruimte](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): De lijsten van de vrije vorm zijn slechts één type van visualisatie in de Werkruimte van de Analyse. Leer hoe u andere visualisaties gebruikt, zoals lijngrafieken, staafgrafieken en geo-overzichten.
 * [Afmetingen in werkruimte](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): Meer weten over welke afmetingen en hoe u deze kunt gebruiken in meer dan alleen gerangschikte rapporten?
 * [Metrische gegevens in werkruimte](/help/analyze/analysis-workspace/components/apply-create-metrics.md): Leer meer over welke metriek zijn en hoe te om hen in andere delen van vrije vormlijsten te gebruiken.
 * [Inleiding tot segmentatie](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md): Leer over welke segmenten zijn en trek een basisrapport gebruikend een segment.
 * [Datumbereiken in werkruimte](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): Leer over relatieve en roldata, en gebruik hen in werkruimteprojecten.
 * Projecten delen in Workspace: Toon uw collega het fantastische project van de Werkruimte u creeerde.
-* [(Geavanceerd) Deelvensters in werkruimte](c-panels/panels.md): Geavanceerde functies in Workspace gebruiken, zoals Attribution and Segment Comparison.
+* [(Geavanceerd) Deelvensters in werkruimte](/help/analyze/analysis-workspace/c-panels/panels.md): Geavanceerde functies in Workspace gebruiken, zoals Attribution and Segment Comparison.
 
 ### Voor analisten en beheerders die de kwaliteit van de werkruimte in hun organisatie willen verbeteren
 
 * [Machtigingen voor](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)analysewerkruimte: Wijs gebruikersmachtigingen toe aan Workspace via de Adobe Admin Console.
-* [Maak een document](/help/implement/prepare/solution-design.md)voor het ontwerp van een oplossing: Begin te plannen hoe uw organisatie extra dimensies of metriek specifiek voor uw plaats verzamelt.
 * [Sjablonen in werkruimte](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Creeer malplaatjes zodat kunnen uw collega&#39;s met een projectruimte beginnen die aan hun behoeften wordt aangepast.
-* [Werkruimte krommen](curate-share/curate.md): Maak een project dat beschikbare componenten beperkt, waardoor de werkruimte toegankelijker wordt voor minder bekende gebruikers
+* [Werkruimte krommen](/help/analyze/analysis-workspace/curate-share/curate.md): Maak een project dat beschikbare componenten beperkt, waardoor de werkruimte toegankelijker wordt voor minder bekende gebruikers
