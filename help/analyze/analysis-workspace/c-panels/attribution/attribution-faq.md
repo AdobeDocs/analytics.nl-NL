@@ -2,7 +2,7 @@
 title: Veelgestelde vragen over kenmerken
 description: Antwoorden op veelgestelde vragen over attributie.
 translation-type: tm+mt
-source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
+source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 **Wat is het regelitem &quot;Geen&quot; wanneer u een kenmerk gebruikt?**
 
-Het regelitem Geen is een &#39;catch-all&#39; die alle omzettingen vertegenwoordigt die zonder aanraakpunten in het terugzoekvenster zijn uitgevoerd. Probeer een langer tijdbereik op te nemen in het rapportvenster.
+Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt die zonder aanraakpunten in het terugzoekvenster zijn uitgevoerd. Probeer een langer tijdbereik op te nemen in het rapportvenster.
 
 **Waarom zie ik soms data buiten mijn rapporteringsvenster wanneer het gebruiken van attributiemodellen?**
 
