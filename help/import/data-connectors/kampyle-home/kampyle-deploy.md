@@ -3,44 +3,42 @@ description: 'null'
 title: De integratie implementeren
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
 
 ---
 
 
 # De integratie implementeren{#deploying-the-integration}
 
-Het implementeren van deze integratie is een eenvoudig proces waarbij de wizard Adobe Integration wordt voltooid, de insteekmodulecode (javascript) wordt geïmplementeerd en de integratie wordt gecontroleerd.
+Het implementeren van deze integratie is een eenvoudig proces waarbij de wizard Adobe Integration wordt voltooid, de insteekmodule code (JavaScript) wordt geïmplementeerd en de integratie wordt gecontroleerd.
 
 ## De wizard Adobe Integration voltooien{#complete-the-adobe-integration-wizard}
 
-Om de integratie te activeren, moet u de configuratietovenaar binnen de interface van Verbindingen van Gegevens voltooien.
+Om de integratie te activeren, voltooi de configuratietovenaar in de interface van Verbindingen van Gegevens.
 
 1. Meld u aan bij Adobe Experience Cloud.
-1. Navigeer naar **[!UICONTROL Data Connectors]** (voorheen Genesis).
+1. Ga naar **[!UICONTROL Data Connectors]**.
 1. Start de integratiewizard van Kampyle.
 1. Selecteer de gewenste rapportsuite en geef een naam op voor de integratie.
 1. Configureer de volgende items:
-   1. **[!UICONTROL Email address]** - het e-mailadres van de primaire contactpersoon.
-   1. **[!UICONTROL Description]** - (facultatief) beschrijving voor deze integratieopstelling.
-   1. **[!UICONTROL Kampyle Key]** - Zoek deze sleutel in de Kampyle-toepassing onder **[!UICONTROL Feedback Form]** > **[!UICONTROL Feedback Form Customization]**.
-   1. **[!UICONTROL Tracking Server]** - de instelling voor de trackingserver (domein) waarmee u de gegevens van Adobe Analytics kunt bijhouden.
-   1. **[!UICONTROL Tracking Server Secure]** - Als uw trackingserver anders is voor beveiligd/https-verkeer, moet u die instelling hier opgeven.
+   1. **[!UICONTROL Email address]**: Het e-mailadres van de primaire contactpersoon.
+   1. **[!UICONTROL Description]** (optioneel): Beschrijving voor deze integratie-instelling.
+   1. **[!UICONTROL Kampyle Key]**: Zoek deze sleutel in de Kampyle-toepassing onder **[!UICONTROL Feedback Form]** > **[!UICONTROL Feedback Form Customization]**.
+   1. **[!UICONTROL Tracking Server]**: De waarde van de trackingserver die u gebruikt om Adobe Analytics-gegevens bij te houden.
+   1. **[!UICONTROL Tracking Server Secure]**: Als uw volgende server voor veilig/https verkeer verschillend is, dan verstrek die het plaatsen hier.
 1. Configureer de volgende **[!UICONTROL Variable Mappings]** items:
-   1. **[!UICONTROL Kampyle Feedback ID]** -Selecteer een beschikbare eVar variabele van uw rapportreeks
-   1. **[!UICONTROL Feedback Grade]** - Selecteer een beschikbare succesgebeurtenis (type &quot;teller&quot;) in uw rapportsuite.
-   1. **[!UICONTROL Feedback Items]** - Selecteer een beschikbare succesgebeurtenis (type &quot;teller&quot;) in uw rapportsuite.
-   1. **[!UICONTROL Feedback with Grade]** - Selecteer een beschikbare succesgebeurtenis (type &quot;teller&quot;) in uw rapportsuite.
+   1. **[!UICONTROL Kampyle Feedback ID]**: Selecteer een beschikbare eVar variabele van uw rapportreeks
+   1. **[!UICONTROL Feedback Grade]**: Selecteer een beschikbare succesgebeurtenis (type &quot;teller&quot;) in uw rapportsuite.
+   1. **[!UICONTROL Feedback Items]**: Selecteer een beschikbare succesgebeurtenis (type &quot;teller&quot;) in uw rapportsuite.
+   1. **[!UICONTROL Feedback with Grade]**: Selecteer een beschikbare succesgebeurtenis (type &quot;teller&quot;) in uw rapportsuite.
 1. Schakel het selectievakje in om het Kampyle Integration-dashboard automatisch voor u te maken (aanbevolen).
 1. Controleer alle configuratiepunten en klik **[!UICONTROL Activate Now]**.
 
 ## Implementeer het Configuration-object Integratie{#deploy-the-integration-configuration-object}
 
-Na de voltooiing van de integratietovenaar, moet u het voorwerp van de integratieconfiguratie aan uw Webbezit opstellen.
+Nadat u de integratietovenaar hebt voltooid, implementeert u het integratieconfiguratieobject in uw webeigenschap. In veel gevallen is het opnemen van het integratieconfiguratieobject in de implementatiecode van Adobe Analytics de eenvoudigste manier om dit te implementeren.
 
-In veel gevallen is het opnemen van het integratieconfiguratieobject in de implementatiecode van Adobe Analytics de eenvoudigste manier om dit te implementeren.
-
-> [!NOTE] Als u Adobe TagManager of Dynamic Tag Management gebruikt om Adobe Analytics te implementeren, kunt u het integratieconfiguratieobject eenvoudig toevoegen met dat hulpprogramma.
+> [!NOTE] Als u Adobe Experience Platform Launch gebruikt, kunt u het integratieconfiguratieobject eenvoudig toevoegen met dat gereedschap.
 
 1. Navigeer naar het tabblad **[!UICONTROL Resources]** **[!UICONTROL Support]** > van de integratie.
 1. Download en sla de **[!UICONTROL Kampyle Integration Code (JS)]** bron op. De code ziet er ongeveer als volgt uit:
@@ -51,19 +49,21 @@ In veel gevallen is het opnemen van het integratieconfiguratieobject in de imple
    ```
 
 1. Implementeer de code met een van de volgende methoden:
-| **U gebruikt Adobe TagManager of Dynamisch tagbeheer.** | Gebruik de interface voor tagbeheer om de code toe te voegen. ||—|—|| **In alle andere gevallen** | Lever de code aan de organisatiebron die verantwoordelijk is voor het bijwerken van de implementatiecode van Adobe Analytics.  |
+
+   * Adobe Experience Platform Launch gebruiken.
+   * Lever de code aan de organisatorische bron die uw plaatsing van de Analyse van Adobe handhaaft.
 
 ## De integratie controleren{#verify-the-integration}
 
-Valideer dat de integratie gegevens overbrengt door een paar controles te voltooien.
+Valideer dat de integratie gegevens met succes overbrengt door een paar controles te voltooien.
 
 ### Integratieactiviteitenlog {#section-0472df9180db4f218db5f6040cab07af}
 
 Ga naar **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Onder het **[!UICONTROL Data In]** tabblad ziet u vermeldingen die aangeven dat classificatiegegevens zijn geïmporteerd.
 
-> [!NOTE] Logboekinvoer moet binnen 24 uur na de succesvolle implementatie worden weergegeven.
+> [!NOTE] Logboekinvoer wordt meestal binnen 24 uur na een geslaagde implementatie weergegeven.
 
-![](assets/integration_activity_log.png)
+![Logboek voor integratieactiviteiten](assets/integration_activity_log.png)
 
 ### Adobe-rapportgegevens {#section-1ae9f0a5e6bc40988478ff55aefd56ac}
 
@@ -71,5 +71,4 @@ Bekijk uw Kampyle-feedbackrapporten met Adobe Analytics door naar de Kampyle-rap
 
 > [!NOTE] Gegevens moeten binnen 24-48 uur na een geslaagde implementatie worden gerapporteerd, ervan uitgaande dat de geïntegreerde feedbackformulieren actief inzendingen ontvangen.
 
-![](assets/adobe_reporting_data.png)
-
+![Rapportgegevens van Adobe](assets/adobe_reporting_data.png)
