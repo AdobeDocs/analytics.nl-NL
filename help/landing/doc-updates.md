@@ -3,7 +3,7 @@ title: Technische documentatie voor updates voor Adobe Analytics
 description: Opmerkelijke updates van de documentatieopslagplaats van Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -43,7 +43,7 @@ Updates van de inhoud voor de documentatieset van Adobe Analytics die zijn inges
 | 10 juni 2019 | Nieuw artikel over [regionale gegevensverzameling (RDC) voor China](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) |
 | 4 juni 2019 | Nieuwe handleiding, getiteld [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | 30 mei 2019 | Herzie aan de Verwijzing [van de Kolom van de](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)Gegevensvoer. |
-| 11 april 2019 | Updates voor het [optimaliseren van de prestaties](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md)van de werkruimte. |
+| 11 april 2019 | Updates voor het [optimaliseren van de prestaties](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)van de werkruimte. |
 | 14 maart 2019 | Belangrijke update voor [regionale gegevensverzameling](/help/technotes/rdc/regional-data-collection.md). |
 | 7 februari 2019 | Kleine update aan &quot;vervangt het laatste octet van IP adressen met 0&quot;en de montages van de &quot;IP Verduistering&quot;in de Montages [van de](/help/admin/admin/general-acct-settings-admin.md)Algemene Rekening. |
 | 1 februari 2019 | Belangrijke update van de plug-in [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) voor implementatie. |
