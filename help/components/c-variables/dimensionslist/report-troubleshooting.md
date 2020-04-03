@@ -5,7 +5,7 @@ title: Beste praktijken en het Oplossen van problemen melden
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: dca5bac72a2cf5f5ded5072e1867676392a7850e
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Analytics biedt een flexibele rapportinterface waarmee u diverse complexe 
 
 >[!Nofferte]
 >Deze aanbevelingen zijn op Rapporten &amp; Analytics, Ad hoc Analyse, en de Bouwer van het Rapport van toepassing.
->Zij zijn niet van toepassing op de Werkruimte van de Analyse, die zijn eigen reeks [beste praktijken](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md)heeft. Zij zijn ook niet >van toepassing op [beste praktijken](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)van Data Warehouse. Een extra set van
+>Zij zijn niet van toepassing op de Werkruimte van de Analyse, die zijn eigen reeks [beste praktijken](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)heeft. Zij zijn ook niet >van toepassing op [beste praktijken](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)van Data Warehouse. Een extra set van
 >[De API voor rapportage van Adobe Analytics biedt tips en trucs](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) .
 
 ## Time-outs en aanvraagwachtrij rapporteren {#section_A42AD7E487C749B7B879BAFA814FFEF9}
