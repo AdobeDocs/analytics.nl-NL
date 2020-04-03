@@ -297,7 +297,7 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
    + [Veelgestelde vragen](reports-analytics/frequently-asked-questions.md)
 + Ad hoc-analyse {#ad-hoc-analysis}
    + Ad hoc-analyseproject converteren {#aha-project-converter}
-      + [Overzicht van ad-hocanalyse projectconversie](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
+      + [Overzicht van ad-hocanalyseprojecten converteren](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Uw projecten omzetten in ad-hocanalyse](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
       + [Omgezette projecten weergeven in de analysewerkruimte](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
       + [Veelgestelde vragen over projectconversie](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
