@@ -4,7 +4,7 @@ title: Een gegevensaanvraag plannen
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,9 +17,9 @@ U kunt bijvoorbeeld plannen dat werkboeken direct of volgens een terugkerend sch
 
 Bovendien, nadat u een werkboekprogramma in de Bouwer van het Rapport creeert, kunt u het programma in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** bekijken en uitgeven. (Zie [Rapportschema en Distributie](/help/analyze/reports-analytics/scheduling.md) in de Help Rapporten en Analytics.)
 
-> [!NOTE] U moet Excel 2007 of het verenigbaarheidspak hebben geïnstalleerd om een werkboek te plannen. U kunt maximaal 10 geplande werkboeken per licentie van de Bouwer van het Rapport hebben. U kunt dit aantal echter verhogen door andere licenties af te trekken. Ga hiertoe naar **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**. Een werkboek dat is gepland (of geupload aan de Bibliotheek van het Werkboek) en niet (bijgewerkt, vervangen) in meer dan 28 maanden is aangeraakt zal worden geschrapt.
+>[!NOTE] U moet Excel 2007 of het verenigbaarheidspak hebben geïnstalleerd om een werkboek te plannen. U kunt maximaal 10 geplande werkboeken per licentie van de Bouwer van het Rapport hebben. U kunt dit aantal echter verhogen door andere licenties af te trekken. Ga hiertoe naar **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**. Een werkboek dat is gepland (of geupload aan de Bibliotheek van het Werkboek) en niet (bijgewerkt, vervangen) in meer dan 28 maanden is aangeraakt zal worden geschrapt.
 
-> [!NOTE] De &quot;Tijd van de Levering&quot;/&quot;Tijd van Dag&quot;ingegaan door de gebruiker specificeert de tijd dat het werkboek met verwerking zou moeten beginnen, niet de tijd dat het eigenlijk zal worden geleverd. De daadwerkelijke tijd dat het werkboek zal worden geleverd is hoofdzakelijk gebaseerd op hoe lang het aan proces (de complexe en grote werkboeken nemen langer aan proces dan de eenvoudigere werkboeken) vergt. Bijvoorbeeld, als een werkboek 15 minuten aan proces vergt, dan zal de daadwerkelijke leveringstijd minstens 15 minuten voorbij de oorspronkelijk gespecificeerde &quot;Tijd van de Levering&quot;/&quot;Tijd van Dag zijn.
+>[!NOTE] De &quot;Tijd van de Levering&quot;/&quot;Tijd van Dag&quot;ingegaan door de gebruiker specificeert de tijd dat het werkboek met verwerking zou moeten beginnen, niet de tijd dat het eigenlijk zal worden geleverd. De daadwerkelijke tijd dat het werkboek zal worden geleverd is hoofdzakelijk gebaseerd op hoe lang het aan proces (de complexe en grote werkboeken nemen langer aan proces dan de eenvoudigere werkboeken) vergt. Bijvoorbeeld, als een werkboek 15 minuten aan proces vergt, dan zal de daadwerkelijke leveringstijd minstens 15 minuten voorbij de oorspronkelijk gespecificeerde &quot;Tijd van de Levering&quot;/&quot;Tijd van Dag zijn.
 >Bovendien zijn er een aantal andere factoren die de vertraging kunnen verder verhogen alvorens het werkboek eigenlijk wordt geleverd:
 >
 > * **Als u veel verschillende schema&#39;s van hetzelfde type tegelijk** uitvoert, kan het systeem worden overbelast. Het plannende systeem staat slechts een paar (5-10) werkboeken van één type toe om gelijktijdig te lopen, zodat wanneer meer dan 5-10 allen in één keer gepland zijn, zullen sommigen in lijn op andere werkboeken moeten wachten alvorens zij met verwerking kunnen beginnen. Dit probleem kan worden verholpen door de werkboeken van een bedrijf op gestaffelde tijden door de dag of het uur te plannen, eerder dan gelijktijdig.
