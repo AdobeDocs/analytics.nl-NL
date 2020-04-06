@@ -2,7 +2,7 @@
 title: producten
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 De `products` variabele houdt producten en eigenschappen bij die aan hen worden gebonden. Deze variabele wordt doorgaans ingesteld op afzonderlijke productpagina&#39;s, winkelwagenpagina&#39;s en pagina&#39;s met aankoopbevestiging. Dit is een variabele met meerdere waarden. Dit betekent dat u meerdere producten in dezelfde hit kunt verzenden en dat Adobe de waarde parseert in afzonderlijke waarden voor dimensies.
 
-> [!NOTE] Als deze variabele in een hit zonder een winkelwagentgebeurtenis in de [`events`](events/events-overview.md) variabele wordt geplaatst, metrische verhogingen van de &quot;Weergaven van het Product&quot;met 1. Zorg ervoor dat u bij elke treffer de juiste winkelwagentgebeurtenis instelt.
+>[!NOTE] Als deze variabele in een hit zonder een winkelwagentgebeurtenis in de [`events`](events/events-overview.md) variabele wordt geplaatst, metrische verhogingen van de &quot;Weergaven van het Product&quot;met 1. Zorg ervoor dat u bij elke treffer de juiste winkelwagentgebeurtenis instelt.
 
 ## Producten in Adobe Experience Platform Launch
 
@@ -47,7 +47,7 @@ Deze variabele ondersteunt meerdere producten in dezelfde hit. Het is waardevol 
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Strip alle puntkomma&#39;s, komma&#39;s en pijpen van productnamen, categorieën en merchandising eVar-waarden. Als een productnaam een komma bevat, parseert AppMeasurement deze als het begin van een nieuw product. Door deze onjuiste parsering wordt de rest van de productreeks verwijderd, waardoor onjuiste gegevens in afmetingen en rapporten ontstaan.
+>[!IMPORTANT] Strip alle puntkomma&#39;s, komma&#39;s en pijpen van productnamen, categorieën en merchandising eVar-waarden. Als een productnaam een komma bevat, parseert AppMeasurement deze als het begin van een nieuw product. Door deze onjuiste parsering wordt de rest van de productreeks verwijderd, waardoor onjuiste gegevens in afmetingen en rapporten ontstaan.
 
 ## Voorbeelden
 
