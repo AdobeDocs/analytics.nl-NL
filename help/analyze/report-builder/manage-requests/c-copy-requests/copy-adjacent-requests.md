@@ -4,7 +4,7 @@ title: Aangrenzende aanvragen kopiëren
 topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,7 +15,7 @@ Net zoals u aanvragen kopieert en plakt, kunt u aanvragen ook verplaatsen naar e
 
 Als u een aanvraag knipt, wordt deze van de oorspronkelijke locatie verwijderd en op de nieuwe locatie geplaatst nadat u deze hebt geselecteerd [!UICONTROL Paste Request]. Als u uw mening na het snijden van een bepaald verzoek verandert en besluit om een verschillend verzoek van een andere cel te kopiëren of te snijden, verlaat de Bouwer van het Rapport het eerste verzoek in zijn originele cel en slechts (of exemplaren of besnoeiingen) de tweede handelt.
 
-> [!NOTE] De bouwer van het rapport steunt Excel niet ongedaan maakt bevel voor het knippen of het kleven verzoeken. Wees daarom voorzichtig wanneer u verzoeken knipt.
+>[!NOTE] De bouwer van het rapport steunt Excel niet ongedaan maakt bevel voor het knippen of het kleven verzoeken. Wees daarom voorzichtig wanneer u verzoeken knipt.
 
 U bent niet beperkt tot het kopiëren en plakken in het zelfde blad van het werkboek. U kunt een verzoek in één blad kopiëren en aan een plaats in een ander blad van het zelfde werkboek kleven.
 
