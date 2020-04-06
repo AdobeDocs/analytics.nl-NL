@@ -4,7 +4,7 @@ title: Tijd besteed per bezoek
 topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -37,6 +37,6 @@ De tijd die per bezoek wordt doorgebracht, meet de totale verstreken tijd tijden
    * 10-15 uur
    * 15+ uur
 
-> [!NOTE] De [bezoeken](../c-metrics/metrics-visit.md) eindigen gewoonlijk na 12 uur activiteit. Bezoeken kunnen echter meer dan 12 uur duren als gebruik wordt gemaakt van tijdstempels of gegevensbronnen.
+>[!NOTE] De [bezoeken](../c-metrics/metrics-visit.md) eindigen gewoonlijk na 12 uur activiteit. Bezoeken kunnen echter meer dan 12 uur duren als gebruik wordt gemaakt van tijdstempels of gegevensbronnen.
 
 Deze dimensie is gebaseerd op bezoeken. Vergelijk deze dimensie met [Tijd besteed aan pagina](reports-time-spent-on-page.md), die een op hit-Gebaseerde dimensie is.
