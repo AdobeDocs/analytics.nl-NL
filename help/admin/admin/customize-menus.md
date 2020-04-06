@@ -4,7 +4,7 @@ title: Menu aanpassen
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,7 +15,7 @@ Met deze functie kunt u de rapportmenu&#39;s aanpassen die een gebruiker in Rapp
 
 De menuwijzigingen gelden voor alle gebruikers die toegang krijgen tot de rapportsuite. Nochtans, kunnen de gebruikers de standaardconfiguratie van een menu herstellen terwijl het gebruiken van de rapportreeks.
 
-> [!NOTE] Elke wijziging in de menustructuur heeft geen invloed op de Analyse van de Rapport Builder en Ad hoc. Het anders noemen van een rapport, echter, zal in beide hulpmiddelen worden weerspiegeld.
+>[!NOTE] Elke wijziging in de menustructuur heeft geen invloed op de Analyse van de Rapport Builder en Ad hoc. Het anders noemen van een rapport, echter, zal in beide hulpmiddelen worden weerspiegeld.
 
 ## Aanpassingsbeschrijvingen menu {#section_B0D224DACB914A378902A4E0E1234889}
 
