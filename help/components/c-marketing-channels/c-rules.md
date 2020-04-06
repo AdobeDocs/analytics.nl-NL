@@ -2,7 +2,7 @@
 title: Verwerkingsregels voor distributiekanalen
 description: De de verwerkingsregels van het Kanaal van de marketing bepalen als een bezoeker voldoet aan de criteria die aan een kanaal worden toegewezen. De regels verwerken elke hit die een bezoeker op uw site aanbrengt. Wanneer een regel niet aan de criteria voor een kanaal voldoet, of als de regels niet correct worden gevormd, wijst het systeem de slag aan Geen Geïdentificeerd Kanaal toe.
 translation-type: tm+mt
-source-git-commit: c10a12781a8fe52b7b897cd337dc686aa0bbb240
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -18,7 +18,7 @@ Hier volgen belangrijke richtlijnen voor het maken van regels:
 
    Zie [Geen kanaal geïdentificeerd.](/help/components/c-marketing-channels/c-faq.md)
 
-> [!NOTE] Hoewel deze regels geen invloed hebben op de rapportage buiten verkoopkanalen, hebben ze wel invloed op de verzameling van gegevens over marketingkanalen. De gegevens die met deze regels worden verzameld, zijn 100% permanent en regels die worden gewijzigd nadat gegevens zijn verzameld, zijn niet met terugwerkende kracht. Het wordt ten zeerste aanbevolen alle omstandigheden te evalueren en in overweging te nemen voordat u gegevens opslaat [!UICONTROL Marketing Channel Processing Rules] om te voorkomen dat gegevens op onjuiste kanalen worden verzameld.
+>[!NOTE] Hoewel deze regels geen invloed hebben op de rapportage buiten verkoopkanalen, hebben ze wel invloed op de verzameling van gegevens over marketingkanalen. De gegevens die met deze regels worden verzameld, zijn 100% permanent en regels die worden gewijzigd nadat gegevens zijn verzameld, zijn niet met terugwerkende kracht. Het wordt ten zeerste aanbevolen alle omstandigheden te evalueren en in overweging te nemen voordat u gegevens opslaat [!UICONTROL Marketing Channel Processing Rules] om te voorkomen dat gegevens op onjuiste kanalen worden verzameld.
 
 ## Vereisten
 
