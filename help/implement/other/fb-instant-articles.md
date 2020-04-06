@@ -2,7 +2,7 @@
 title: Meteen artikelen implementeren met Facebook
 description: Implementeer Adobe Analytics op Facebook Instant Article-pagina's.
 translation-type: tm+mt
-source-git-commit: 9d2007bead6a4963022f8ea884169802b1c002ff
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -83,7 +83,7 @@ In het volgende voorbeeld worden verschillende aangepaste variabelen in een quer
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
 ```
 
-> [!NOTE] De dimensie Referrer wordt niet automatisch bijgehouden vanwege de aard van iframes. Zorg ervoor dat u deze dimensie als deel van uw vraagkoord opneemt als u het wilt volgen.
+>[!NOTE] De dimensie Referrer wordt niet automatisch bijgehouden vanwege de aard van iframes. Zorg ervoor dat u deze dimensie als deel van uw vraagkoord opneemt als u het wilt volgen.
 
 ## Meteen artikelen en privacy op Facebook
 
