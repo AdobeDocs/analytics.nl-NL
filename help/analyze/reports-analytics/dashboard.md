@@ -5,7 +5,7 @@ title: Dashboards en rapporten
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -31,7 +31,7 @@ Houd er rekening mee dat bepaalde vaak weergegeven rapporten niet kunnen worden 
 * Real-time rapporten
 * Andere dashboards
 
-> [!NOTE] Het **[!UICONTROL Site Overview]** dashboard wordt niet meer vermeld in Rapporten en Analytics. Er zijn echter nog een paar omstandigheden waarin u enkele of alle verslagen zult zien.
+>[!NOTE] Het **[!UICONTROL Site Overview]** dashboard wordt niet meer vermeld in Rapporten en Analytics. Er zijn echter nog een paar omstandigheden waarin u enkele of alle verslagen zult zien.
 
 * Als u bijvoorbeeld slechts drie vaak bekeken rapporten hebt, nemen Rapporten en Analytics twee rapporten van het dashboard van het Overzicht van de Plaats om het **[!UICONTROL My Recommended Reports]** dashboard te voltooien.
 * Nieuwe de rapportreeksen van het merk zullen ook aanvankelijk nog de rapporten van het Overzicht van de Plaats omvatten, tot zij door uw vaak bekeken rapporten worden vervangen. Toch zal het dashboard nu worden genoemd **[!UICONTROL My Recommended Reports]**.
