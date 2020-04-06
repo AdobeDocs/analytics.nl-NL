@@ -4,7 +4,7 @@ title: Nieuwe rapportsuite - instellingen
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,7 +15,7 @@ U kunt een nieuwe rapportreeks tot stand brengen door een vooraf bepaalde malpla
 
 Beschrijvingen van de elementen die bij het [creëren van een rapportreeks](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)worden gebruikt.
 
-> [!NOTE] De documentatie [van de](/help/components/vrs/c-workflow-vrs/vrs-create.md) Virtuele Reeks van het Rapport toont u hoe te om virtuele rapportreeksen tot stand te brengen.
+>[!NOTE] De documentatie [van de](/help/components/vrs/c-workflow-vrs/vrs-create.md) Virtuele Reeks van het Rapport toont u hoe te om virtuele rapportreeksen tot stand te brengen.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
