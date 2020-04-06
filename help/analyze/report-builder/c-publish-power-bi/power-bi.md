@@ -3,7 +3,7 @@ description: 'null'
 title: Publiceren naar Power BI - Overzicht
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -61,7 +61,7 @@ Geplande werkboeken zijn opgemaakte Excel-werkbladen die zijn gevuld met gegeven
 
 ## Publiceer alle geformatteerde lijsten in het werkboek als de datasetlijsten van Power BI {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
-> [!NOTE] Als het werkboek een macro bevat, zal &quot;publiceren Alle Formatted Lijsten in het Werkboek als de Lijsten van de Dataset van de Macht BI&quot;worden onbruikbaar gemaakt.
+>[!NOTE] Als het werkboek een macro bevat, zal &quot;publiceren Alle Formatted Lijsten in het Werkboek als de Lijsten van de Dataset van de Macht BI&quot;worden onbruikbaar gemaakt.
 
 In plaats van het invoeren van het volledige werkboek, kunt u slechts de inhoud van alle geformatteerde lijsten binnen het werkboek invoeren.
 
