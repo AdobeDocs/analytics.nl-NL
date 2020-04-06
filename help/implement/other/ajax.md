@@ -2,7 +2,7 @@
 title: Implementeren met AJAX
 description: Leer hoe u Adobe Analytics implementeert op een site met AJAX.
 translation-type: tm+mt
-source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,17 +24,17 @@ Aangezien pagina&#39;s die AJAX gebruiken doorgaans niet opnieuw worden geladen,
 * Als het antwoord **ja** is, overweeg het gebruiken van een pagina mening het volgen vraag (`s.t()`).
 * Als het antwoord **neen** is, overweeg het volgen van die interactie gebruikend een verbinding het volgen vraag (`s.tl()`).
 
-> [!NOTE] Niet alle interactie of klikken hoeven te worden geregistreerd. Overweeg zorgvuldig welke handelingen het belangrijkste zijn om te volgen en stuur gegevens naar Adobe.
+>[!NOTE] Niet alle interactie of klikken hoeven te worden geregistreerd. Overweeg zorgvuldig welke handelingen het belangrijkste zijn om te volgen en stuur gegevens naar Adobe.
 
 ## Variabelen op elke pagina wissen
 
 Variabele waarden blijven aanwezig op pagina&#39;s die AJAX gebruiken, omdat de pagina niet opnieuw wordt geladen. Daarom is speciale accommodatie vereist om variabelewaarden te wissen, zodat deze niet onjuist blijven bestaan in verschillende hits. Adobe biedt de [`clearVars`](../vars/functions/clearvars.md) functie om variabele waarden gemakkelijk te wissen. Zorg ervoor dat u deze functie gebruikt nadat u elke hit naar Adobe hebt verzonden en voordat u waarden voor variabelen instelt voor de volgende hit.
 
-> [!TIP] De `clearVars()` functie is niet beschikbaar in H Code. Als u niet hebt bijgewerkt naar AppMeasurement, stelt elke waarde van de variabele Analytics in op een lege tekenreeks.
+>[!TIP] De `clearVars()` functie is niet beschikbaar in H Code. Als u niet hebt bijgewerkt naar AppMeasurement, stelt elke waarde van de variabele Analytics in op een lege tekenreeks.
 
 ## Voorbeelden
 
-In het volgende voorbeeld wordt gebruikgemaakt van eenvoudige JavaScript om bestaande variabelewaarden te wissen, nieuwe waarden in te stellen en vervolgens een verzoek om een afbeelding naar Adobe te verzenden:
+In het volgende voorbeeld wordt gebruikgemaakt van eenvoudige JavaScript om bestaande variabelewaarden te wissen, nieuwe waarden in te stellen en vervolgens een aanvraag voor een afbeelding naar Adobe te verzenden:
 
 ```js
 s.clearVars();
