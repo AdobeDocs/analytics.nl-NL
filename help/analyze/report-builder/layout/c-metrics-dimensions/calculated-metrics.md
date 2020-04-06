@@ -3,7 +3,7 @@ description: Report Builder 5.2 biedt ondersteuning voor Adobe Analytics Unified
 title: Berekende cijfers
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: ''
 
 Report Builder 5.2 biedt ondersteuning voor Adobe Analytics Unified Calculated Metrics. Onder andere innovaties, hebben alle berekende metriek nu een globale identiteitskaart - zij zijn niet meer beperkt tot één rapportreeks.
 
-> [!NOTE] De bestaande werkboeken zouden aan verzoeken met erfenis metrische IDs kunnen richten. Wanneer u Bouwer 5.2 van het Rapport gebruikt, zullen deze erfenis metrische IDs in nieuwe globale identiteitskaart worden omgezet. Als u dit werkboek met een gebruiker van de Bouwer van het Rapport v5.1 of vroeger deelt, zal die gebruiker niet de berekende metriek kunnen zien.
+>[!NOTE] De bestaande werkboeken zouden aan verzoeken met erfenis metrische IDs kunnen richten. Wanneer u Bouwer 5.2 van het Rapport gebruikt, zullen deze erfenis metrische IDs in nieuwe globale identiteitskaart worden omgezet. Als u dit werkboek met een gebruiker van de Bouwer van het Rapport v5.1 of vroeger deelt, zal die gebruiker niet de berekende metriek kunnen zien.
 
 Meer over om berekende metriek met de nieuwe Berekende Metrische Bouwer en Manager tot stand te brengen en te beheren, verwijs naar de [Berekende Gids van Metriek](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics) .
 
