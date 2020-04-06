@@ -2,7 +2,7 @@
 title: Componentondersteuning in Data Warehouse
 description: Leer welke extra afmetingen en metriek beschikbaar in het Warehouse van Gegevens zijn en wat niet wordt gesteund.
 translation-type: tm+mt
-source-git-commit: 00d4d59cb4c922b54a97ef7000e294ef3bf61f20
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -31,7 +31,7 @@ Sommige dimensies en metriek kunnen worden gebruikt in Data Warehouse, maar zijn
 
 Sommige dimensies en metriek worden niet ondersteund in Data Warehouse.
 
-> [!NOTE] Als een afmeting of metrisch niet in het Pakhuis van Gegevens wordt gesteund, worden de segmenten die deze componenten gebruiken ook niet gesteund. Controleer altijd de productcompatibiliteit wanneer u een segment maakt of bewerkt.
+>[!NOTE] Als een afmeting of metrisch niet in het Pakhuis van Gegevens wordt gesteund, worden de segmenten die deze componenten gebruiken ook niet gesteund. Controleer altijd de productcompatibiliteit wanneer u een segment maakt of bewerkt.
 
 ### Afmetingen niet ondersteund
 
