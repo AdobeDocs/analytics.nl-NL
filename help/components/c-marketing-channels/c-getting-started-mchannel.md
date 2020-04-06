@@ -2,7 +2,7 @@
 title: Aan de slag met marketingkanalen
 description: Leer over het werkschema van de Kanalen van de Marketing, de automatische opstelling, en hoe te om de montages van de reeks van het malplaatjerapport op veelvoudige rapportreeksen toe te passen.
 translation-type: tm+mt
-source-git-commit: 21f4b9df688776f7a1db96f76e258031ae3abb3d
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -74,7 +74,7 @@ Hoe te om de automatische opstelling van de Kanalen van de Marketing in werking 
 
 Hoe te om een hoofdrapportreeks als malplaatje te gebruiken voor het testen van uw configuratie van het marketingkanaal. Om tijd te besparen, kunt u dit malplaatje op één of meerdere reeksen van het productierapport in een massaupdate toepassen. U voert deze taak voor kanalen en regelreeksen afzonderlijk uit.
 
-> [!NOTE] Pas kanalen van een malplaatje toe alvorens u regelreeksen toepast. Uw kanalen moeten voor alle rapportsuites het zelfde zijn wanneer het uitvoeren van deze procedure.
+>[!NOTE] Pas kanalen van een malplaatje toe alvorens u regelreeksen toepast. Uw kanalen moeten voor alle rapportsuites het zelfde zijn wanneer het uitvoeren van deze procedure.
 
 1. Zorg ervoor dat het Rapport van het Kanaal van de Marketing voor geselecteerde rapportreeksen wordt toegelaten. Deze stap wordt uitgevoerd door uw accountmanager.
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
