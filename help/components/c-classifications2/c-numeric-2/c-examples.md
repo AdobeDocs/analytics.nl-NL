@@ -5,7 +5,7 @@ title: Voorbeelden
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -167,7 +167,7 @@ Rapport: Producten
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
-> [!NOTE] Geavanceerde gebruikers kunnen deze functie gebruiken om de waarden te benaderen. De resulterende informatie mag niet worden behandeld als exacte waarden.
+>[!NOTE] Geavanceerde gebruikers kunnen deze functie gebruiken om de waarden te benaderen. De resulterende informatie mag niet worden behandeld als exacte waarden.
 
 <!-- 
 
