@@ -2,7 +2,7 @@
 title: s_objectID
 description: De Activiteitenkaart van de hulp identificeert unieke verbindingen op uw plaats.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -27,7 +27,7 @@ Deze variabele wordt doorgaans ingesteld in het `onClick` geval van een HTML-kop
 <a href="https://example.com" onClick="s_objectID='Example identifier';">Example link</a>
 ```
 
-> [!NOTE] Neem altijd de puntkomma op die een JavaScript-instructie voltooit. De puntkomma is vereist voor Activity Map aan functie.
+>[!NOTE] Neem altijd de puntkomma op die een JavaScript-instructie voltooit. De puntkomma is vereist voor Activity Map aan functie.
 
 ## Gebruik hoofdletters
 
