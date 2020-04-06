@@ -2,7 +2,7 @@
 description: Importeer volggegevens van toepassingen van derden naar Analytics.
 title: Aan de slag met de gegevensconnectors van Analytics
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -77,7 +77,7 @@ Voor een geslaagde implementatie van hermarketingsegmenten moet aan de volgende 
    * Aankopen: `purchase` gebeurtenis
    * Productweergaven: `prodView` gebeurtenis
 
-> [!NOTE] Als het product zonder een bijbehorende gebeurtenis wordt gedefinieerd, wordt de gebeurtenis prodView automatisch geactiveerd.
+>[!NOTE] Als het product zonder een bijbehorende gebeurtenis wordt gedefinieerd, wordt de gebeurtenis prodView automatisch geactiveerd.
 Indien niet aan de bovenstaande vereisten wordt voldaan, worden de corresponderende hermarketingsegmenten niet correct gerapporteerd.
 
 [!UICONTROL Cart Abandonment]: branden nadat de gebruiker een product aan het winkelwagentje heeft toegevoegd :
@@ -104,4 +104,4 @@ s.events="purchase";
 | De dossiers van het opmerkingssegment worden niet ontvangen. | Als u uw dossiers niet ontvangt, hebben één van de gesteunde gebruikers van uw organisatie contact ClientCare om de oorzaak van rapporten te onderzoeken die niet met succes worden ontvangen. |
 
 
-> [!IMPORTANT] Het is gebruikelijk voor consultants om ook een verzoek voor een gegevenspaket in te stellen als een dagelijks gepland rapport naast het standaardbestand voor het remarketingsegment van de gegevensconnectors-integratie. Dit verzoek van het gegevenspakhuis zou gegevensconnectorvariabelen evenals niet-gegevens connectorvariabelen omvatten, en het verzoek kan worden gepland gebaseerd slechts op het specifieke verzoek van uw organisatie. Om verwarring te verhinderen wanneer het oplossen van problemen, specificeer of het dossier in kwestie het daadwerkelijke remarketing segmentdossier is, of een verzoek van het gegevenspakhuis dat niet-genese variabelen bevat.
+>[!IMPORTANT] Het is gebruikelijk voor consultants om ook een verzoek voor een gegevenspaket in te stellen als een dagelijks gepland rapport naast het standaardbestand voor het remarketingsegment van de gegevensconnectors-integratie. Dit verzoek van het gegevenspakhuis zou gegevensconnectorvariabelen evenals niet-gegevens connectorvariabelen omvatten, en het verzoek kan worden gepland gebaseerd slechts op het specifieke verzoek van uw organisatie. Om verwarring te verhinderen wanneer het oplossen van problemen, specificeer of het dossier in kwestie het daadwerkelijke remarketing segmentdossier is, of een verzoek van het gegevenspakhuis dat niet-genese variabelen bevat.
