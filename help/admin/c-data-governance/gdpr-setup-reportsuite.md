@@ -3,7 +3,7 @@ description: De gegevens van de het rapportreeks van het etiketteren betekent da
 title: Gegevens uit de labelrapportsuite
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 De gegevens van de het rapportreeks van het etiketteren betekent dat u identiteit, gevoeligheid, en de etiketten van het gegevensbeheer aan elke variabele in een bepaalde rapportreeks toewijst. Zorg ervoor dat u zich eerst vertrouwd maakt met de labels en de bijbehorende definities.
 
-> [!NOTE] Herinner dat het Etiketteren moet worden herzien telkens als een nieuwe rapportreeks wordt gecreeerd of wanneer een nieuwe variabele binnen een bestaande rapportreeks wordt toegelaten. Het kan ook nodig zijn om de labeling te herzien wanneer integratie van nieuwe oplossingen is ingeschakeld, omdat deze nieuwe variabelen toegankelijk kunnen maken waarvoor een label nodig kan zijn. Een nieuwe implementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, wat ook updates van labels kan vereisen.
+>[!NOTE] Herinner dat het Etiketteren moet worden herzien telkens als een nieuwe rapportreeks wordt gecreeerd of wanneer een nieuwe variabele binnen een bestaande rapportreeks wordt toegelaten. Het kan ook nodig zijn om de labeling te herzien wanneer integratie van nieuwe oplossingen is ingeschakeld, omdat deze nieuwe variabelen toegankelijk kunnen maken waarvoor een label nodig kan zijn. Een nieuwe implementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, wat ook updates van labels kan vereisen.
 
 ## Rapportsuite-labels toewijzen of bewerken {#section_39F829F35A274EACA532E2F6FF392996}
 
