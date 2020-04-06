@@ -3,7 +3,7 @@ description: De virtuele rapportsuites kunnen worden gebogen om component.in de 
 title: Virtual Report Suite Component Curation
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 De virtuele rapportsuites kunnen worden gebogen om component.in de Werkruimte van de Analyse te omvatten en uit te sluiten.
 
-> [!NOTE] Er zijn wijzigingen aangebracht in welke componentbeheerders en niet-beheerders kunnen zien in samengevoegde Workspace-projecten en beheerde virtuele rapporten (VRS&#39;s). Eerder kon iedereen niet-gekromde componenten zien door te klikken **[!UICONTROL Show all Components]**. Met de [bijgewerkte curvaring](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) kunt u nauwkeuriger bepalen welke componenten zichtbaar zijn.
+>[!NOTE] Er zijn wijzigingen aangebracht in welke componentbeheerders en niet-beheerders kunnen zien in samengevoegde Workspace-projecten en beheerde virtuele rapporten (VRS&#39;s). Eerder kon iedereen niet-gekromde componenten zien door te klikken **[!UICONTROL Show all Components]**. Met de [bijgewerkte curvaring](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) kunt u nauwkeuriger bepalen welke componenten zichtbaar zijn.
 
 U kunt als volgt componentcuratie inschakelen:
 
@@ -40,7 +40,7 @@ U kunt als volgt componentcuratie inschakelen:
    * Datumbereik
    >[!NOTE]
    >
-   >Het is niet nodig om gekromde componenten (segmenten, berekende metriek, datumwaaiers) te *delen* . Zij zullen altijd zichtbaar in de Werkruimte van de Analyse als zij voor de virtuele rapportreeks worden beheerd, zelfs als zij niet worden gedeeld.
+   >Het is niet nodig om gekromde componenten (segmenten, berekende metriek, datumwaaiers) te *delen* . Zij zullen altijd zichtbaar in de Werkruimte van de Analyse zijn als zij voor de virtuele rapportreeks worden beheerd, zelfs als zij niet worden gedeeld.
 
 1. Bovendien kunt u de componenten filteren of doorzoeken en de volledige gefilterde selectie aan de inbegrepen kolom toevoegen door te klikken **[!UICONTROL Add All]**.
 
