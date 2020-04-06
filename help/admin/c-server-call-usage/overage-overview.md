@@ -3,7 +3,7 @@ description: 'null'
 title: Overzicht van serveroproepgebruik
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -82,7 +82,7 @@ Hier is een korte inleiding op essentiële terminologie voor het Gebruik van de 
 
 De toestemming van het Gebruik van de Vraag van de Server wordt automatisch verleend aan Analytics Admins. Gebruikers kunnen het dashboard bekijken en waarschuwingen voor serveroproepen maken. Beheerders kunnen deze machtiging aan niet-beheerders verlenen.
 
-> [!NOTE] Uw bedrijf kan kiezen welke login bedrijven toegang tot het Gebruik van de Vraag van de Server hebben.
+>[!NOTE] Uw bedrijf kan kiezen welke login bedrijven toegang tot het Gebruik van de Vraag van de Server hebben.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
