@@ -2,7 +2,7 @@
 title: Pakketanalysatoren
 description: Met pakketanalysatoren kunt u de gegevens weergeven die door uw implementatie naar Adobe-servers voor gegevensverzameling worden verzonden.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -22,7 +22,7 @@ In zeer zeldzame gevallen rapporteert de debugger een aanvraag voor een image, h
 
 Hoewel Adobe geen officiële pakketmonitor biedt, zijn er een groot aantal van deze monitoren beschikbaar op internet. Hier volgen enkele voorbeelden van pakketmonitoren die anderen nuttig hebben gevonden.
 
-> [!NOTE] Deze lijsten zijn niet bedoeld als volledig, maar als informatie over veelgebruikte monitoren. Als u een pakketmonitor hebt die u met succes gebruikt en nuttig vindt, voelt u vrij om terugkoppelen te verstrekken gebruikend de [!UICONTROL Feedback] knoop op de rechterkant van dit venster.
+>[!NOTE] Deze lijsten zijn niet bedoeld als volledig, maar als informatie over veelgebruikte monitoren. Als u een pakketmonitor hebt die u met succes gebruikt en nuttig vindt, voelt u vrij om terugkoppelen te verstrekken gebruikend de [!UICONTROL Feedback] knoop op de rechterkant van dit venster.
 
 | Firefox | Internet Explorer | Chroom | Zelfstandige programma&#39;s |
 |---|---|---|---|
@@ -32,7 +32,7 @@ Hoewel Adobe geen officiële pakketmonitor biedt, zijn er een groot aantal van d
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
-> [!NOTE] Adobe biedt geen ondersteuning voor problemen die zich bij deze pakketmonitoren kunnen voordoen, of lost deze problemen niet op. Raadpleeg in plaats daarvan de bronlocatie van de pakketmonitor voor hulp.
+>[!NOTE] Adobe biedt geen ondersteuning voor problemen die zich bij deze pakketmonitoren kunnen voordoen, of lost deze problemen niet op. Raadpleeg in plaats daarvan de bronlocatie van de pakketmonitor voor hulp.
 
 ## NS_BINDING_ABORTED in responscodes
 
