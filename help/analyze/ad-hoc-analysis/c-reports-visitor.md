@@ -4,7 +4,7 @@ title: Bezoekersrapporten
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -60,7 +60,7 @@ U kunt dit rapport onderverdelen door een ander rapport of een variabele om te b
 * Hoeveel bezoeken neemt het typisch een gebruiker die door campagne XYZ klikte om een aankoop te maken.
 * Of gebruikers in Tokio bijvoorbeeld meer bezoeken maken voordat ze een lead genereren dan gebruikers in Londen.
 
-> [!NOTE] Als dezelfde bezoeker uw website meerdere keren in dezelfde periode bezoekt, wordt elk opgegeven bezoeknummer verhoogd voor elk bezoek.
+>[!NOTE] Als dezelfde bezoeker uw website meerdere keren in dezelfde periode bezoekt, wordt elk opgegeven bezoeknummer verhoogd voor elk bezoek.
 
 Dit rapport is gebaseerd op de gegevens van de bezoeker-id die bij elke treffer van bezoekers worden doorgegeven aan Adobe. Terwijl deze gegevens worden ontvangen, vergelijkt Adobe deze met de gegevens van de historische bezoeker-id om te bepalen of de hit is:
 
@@ -68,7 +68,7 @@ Dit rapport is gebaseerd op de gegevens van de bezoeker-id die bij elke treffer 
 * Een vorige bezoeker die doorgaat met een bezoek (bezoeknummer wordt niet verhoogd).
 * Een vorige bezoeker die een nieuw bezoek brengt (het Aantal van het Bezoek wordt verhoogd met één).
 
-> [!NOTE] Elke Analytics-bezoeker-id is gekoppeld aan een bezoekersprofiel op Adobe-servers. Bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
+>[!NOTE] Elke Analytics-bezoeker-id is gekoppeld aan een bezoekersprofiel op Adobe-servers. Bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
 
 ## Loyalty van klant {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -87,7 +87,7 @@ Het [!UICONTROL Customer Loyalty] rapport toont aankooppatronen van klanten die 
 * **Klanten** terugsturen: Bezoekers die 2 aankopen hebben gedaan
 * **Klanten** met logo&#39;s:bezoekers die meer dan 3 aankopen hebben gedaan
 
-> [!NOTE] Wanneer u deze maatstaven gebruikt, worden alle bezoeken van gebruikers (of alle bezoekers) in dit rapport weergegeven, ongeacht of het bezoek (of de bezoeker) een aankoop bevatte.
+>[!NOTE] Wanneer u deze maatstaven gebruikt, worden alle bezoeken van gebruikers (of alle bezoekers) in dit rapport weergegeven, ongeacht of het bezoek (of de bezoeker) een aankoop bevatte.
 
 De status van de loyaliteit verandert na het einde van het bezoek waar een aankoopgebeurtenis plaatsvindt. Een nieuwe klant (1 aankoop) doet bijvoorbeeld een aankoop en registreert zich vervolgens voor een nieuwsbrief na die aankoop tijdens hetzelfde bezoek. De gebeurtenis voor de registratie van nieuwsbrieven wordt nog steeds beschouwd als een interactie van de Nieuwe klant, omdat de status van de klantenservice van de bezoeker pas bij het volgende bezoek verandert.
 
