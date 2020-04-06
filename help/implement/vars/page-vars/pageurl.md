@@ -2,7 +2,7 @@
 title: pageURL
 description: Hef de automatisch verzamelde pagina-URL op uw site op.
 translation-type: tm+mt
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 AppMeasurement verzamelt automatisch de pagina-URL in elke hit. Als u de pagina-URL wilt overschrijven die automatisch wordt verzameld door AppMeasurement, kunt u deze variabele gebruiken. In de meeste gevallen hoeft u deze variabele niet in te stellen.
 
-> [!NOTE] Deze variabele is geen beschikbare dimensie in de Werkruimte van de Analyse. Het is alleen beschikbaar in Data Warehouse en Data Feeds. Als u pagina URL als afmeting in de Werkruimte van de Analyse zou willen gebruiken, denk overgaand de `pageURL` variabele in een eVar op elke slag.
+>[!NOTE] Deze variabele is geen beschikbare dimensie in de Werkruimte van de Analyse. Het is alleen beschikbaar in Data Warehouse en Data Feeds. Als u pagina URL als afmeting in de Werkruimte van de Analyse zou willen gebruiken, denk overgaand de `pageURL` variabele in een eVar op elke slag.
 
 Soms zijn URL&#39;s langer dan 255 bytes. AppMeasurement gebruikt de parameter van het `g` vraagkoord voor de eerste 255 bytes van URL in beeldverzoeken. Als een URL langer is dan 255 bytes, wordt de rest van URL opgeslagen in de parameter van het `-g` vraagkoord. Protocol- en querytekenreeksen in de URL worden opgenomen in deze variabele.
 
