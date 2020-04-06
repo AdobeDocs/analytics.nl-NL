@@ -5,7 +5,7 @@ title: Bezoek
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Een reeks paginaweergaven in een vergadering. Metrische bezoeken worden algemeen gebruikt in rapporten die het aantal gebruikerszittingen binnen de geselecteerde tijdspanne tonen.
 
-> [!NOTE] Voor informatie over hoe bezoeken en mobiele toepassingslanceringen worden berekend, zie Bezoeken en Mobiele Lanceringen [van de Toepassing van de](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) Vergelijking in de Kennisbank.
+>[!NOTE] Voor informatie over hoe bezoeken en mobiele toepassingslanceringen worden berekend, zie Bezoeken en Mobiele Lanceringen [van de Toepassing van de](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) Vergelijking in de Kennisbank.
 
 De meting van het bezoek wordt altijd geassocieerd met een tijdsperiode, zodat u weet of om een nieuw bezoek te tellen als de zelfde bezoeker aan uw plaats terugkeert. Een sessie begint wanneer de gebruiker voor het eerst op uw site arriveert en eindigt onder een van de volgende scenario&#39;s:
 
@@ -23,7 +23,7 @@ De meting van het bezoek wordt altijd geassocieerd met een tijdsperiode, zodat u
 * **2500 hits:** Als een gebruiker een groot aantal hits genereert zonder een nieuwe sessie te starten, wordt een nieuw bezoek geteld na 2500 afbeeldingsverzoeken.
 * **100 hits in 100 seconden**: Als een bezoek uit meer dan 100 hits bestaat die in minder dan 100 seconden voorkomen, beëindigt het bezoek automatisch. Dit gedrag geeft typisch beide activiteit aan, en deze beperking wordt afgedwongen om deze verwerkings-intensieve bezoeken te verhinderen latentie te verhogen en de tijd te verhogen het vergt om rapporten te produceren.
 
-> [!NOTE] De definitie van een bezoek kan voor een rapportreeks worden verkort indien specifiek gevraagd, maar het kan niet worden verlengd. Zorg ervoor dat een van de ondersteunde gebruikers van uw organisatie contact opneemt met de klantenservice om deze wijziging aan te vragen.
+>[!NOTE] De definitie van een bezoek kan voor een rapportreeks worden verkort indien specifiek gevraagd, maar het kan niet worden verlengd. Zorg ervoor dat een van de ondersteunde gebruikers van uw organisatie contact opneemt met de klantenservice om deze wijziging aan te vragen.
 
 De volgende scenario&#39;s beginnen geen nieuw bezoek:
 
@@ -34,7 +34,7 @@ Een bezoek komt niet altijd overeen met een browsersessie. Als een bezoeker bijv
 
 Wanneer een bezoek eindigt, zijn alle variabelen met een bezoekafloop verlopen en blijven niet meer bestaan. De meting van het bezoeknummer wordt verhoogd bij het volgende bezoek voor deze bezoeker.
 
-> [!NOTE] Als u Analytics gebruikt als rapportagebron voor Adobe Target, raadpleegt u het [minimaliseren van het aantal opgeblazen bezoekers en bezoekers in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in de [!DNL Target] documentatie.
+>[!NOTE] Als u Analytics gebruikt als rapportagebron voor Adobe Target, raadpleegt u het [minimaliseren van het aantal opgeblazen bezoekers en bezoekers in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in de [!DNL Target] documentatie.
 
 Raadpleeg de handleiding voor de implementatie van Adobe Analytics voor meer informatie [Unieke bezoekers](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) identificeren.
 
