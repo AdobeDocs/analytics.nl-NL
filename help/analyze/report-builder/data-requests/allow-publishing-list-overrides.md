@@ -4,7 +4,7 @@ title: Overschrijvingen van publicatielijsten toestaan
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -23,5 +23,5 @@ Als u deze optie inschakelt, vervangt de rapportsuite die aan elke ontvanger in 
 
 Deze optie is niet beschikbaar voor rapportsuites die u van cellen selecteert.
 
-> [!NOTE] Als u het geplande rapport naar veelvoudige het publiceren lijsten verzendt, loopt het rapport één keer voor elke lijst. De variabele rapportreeksen worden vervangen door de rapportreeks die aan de het publiceren lijst wordt toegewezen.
+>[!NOTE] Als u het geplande rapport naar veelvoudige het publiceren lijsten verzendt, loopt het rapport één keer voor elke lijst. De variabele rapportreeksen worden vervangen door de rapportreeks die aan de het publiceren lijst wordt toegewezen.
 
