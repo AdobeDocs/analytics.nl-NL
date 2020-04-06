@@ -2,7 +2,7 @@
 title: Gegevenselementen van start toewijzen aan analytische variabelen
 description: Wijs gegevenselementen aan de variabelen van de Analyse toe zodat u hen als afmetingen in de Werkruimte van de Analyse kunt gebruiken.
 translation-type: tm+mt
-source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -43,7 +43,7 @@ Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op el
 1. Selecteer het gewenste gegevenselement in het modale venster. Klik op [!UICONTROL Select].
 1. De naam van het gegevenselement wordt toegevoegd aan het tekstveld met `%` tekens. Als u bijvoorbeeld het gegevenselement &quot;Paginanaam&quot; een naam geeft, wordt de tekenreeks weergegeven `%Page name%` wanneer u een gegevenselement aan een variabele toewijst.
 
-> [!TIP] U kunt gegevenselementen in dezelfde variabele samenvoegen. Als u bijvoorbeeld een gegevenselement &#39;Hostname&#39; en een gegevenselement &#39;Pathname&#39; hebt, kunt u beide elementen combineren in één variabele `%Hostname%%Pathname%`.
+>[!TIP] U kunt gegevenselementen in dezelfde variabele samenvoegen. Als u bijvoorbeeld een gegevenselement &#39;Hostname&#39; en een gegevenselement &#39;Pathname&#39; hebt, kunt u beide elementen combineren in één variabele `%Hostname%%Pathname%`.
 
 ## Volgende stappen
 
