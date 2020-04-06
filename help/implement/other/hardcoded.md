@@ -2,7 +2,7 @@
 title: Implementeren met hardwarematige verzoeken voor afbeeldingen
 description: Adobe Analytics implementeren met een HTML-afbeeldingstag (aanvraag voor een gecodeerde afbeelding)
 translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ In de door Adobe verschafte meetbibliotheken voor toepassingen worden de variabe
 
 Deze implementatiemethode kan worden gebruikt op elk platform waarop afbeeldingen van externe bronnen worden weergegeven. Er wordt helemaal geen gebruik gemaakt van JavaScript.
 
-> [!NOTE] Terwijl de hard-gecodeerde beeldverzoeken gemakkelijk aan opstelling zijn, zijn zij moeilijk om, over grotere projecten te zuiveren te handhaven en te schrapen. Zorg ervoor dat de verzoeken om een gehard beeld de beste optie voor u zijn alvorens te werk te gaan.
+>[!NOTE] Terwijl de hard-gecodeerde beeldverzoeken gemakkelijk aan opstelling zijn, zijn zij moeilijk om, over grotere projecten te zuiveren te handhaven en te schrapen. Zorg ervoor dat de verzoeken om een gehard beeld de beste optie voor u zijn alvorens te werk te gaan.
 
 ## Syntaxis verzoek afbeelding
 
