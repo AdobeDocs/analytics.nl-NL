@@ -2,7 +2,7 @@
 title: gebeurtenissen
 description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw site beheert.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -42,7 +42,7 @@ De `s.events` variabele is een tekenreeks die een door komma&#39;s gescheiden li
 * `scView`: Verhoogt metrisch met de optie Wisselende weergaven.
 * `scCheckout`: Verhoogt metrisch &quot;Checkouts&quot;.
 
-> [!NOTE] Deze variabele is hoofdlettergevoelig. Vermijd het gebruik van onjuiste hoofdletters voor gebeurteniswaarden om een nauwkeurige gegevensverzameling te garanderen.
+>[!NOTE] Deze variabele is hoofdlettergevoelig. Vermijd het gebruik van onjuiste hoofdletters voor gebeurteniswaarden om een nauwkeurige gegevensverzameling te garanderen.
 
 ```js
 // Set the events variable to a single value
@@ -64,7 +64,7 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
-> [!NOTE] Tegengebeurtenissen ondersteunen geen valuta- of decimale waarden. Gebruik valutagebeurtenissen voor valuta, of numerieke gebeurtenissen voor decimale waarden.
+>[!NOTE] Tegengebeurtenissen ondersteunen geen valuta- of decimale waarden. Gebruik valutagebeurtenissen voor valuta, of numerieke gebeurtenissen voor decimale waarden.
 
 ### Valutagebeurten gebruiken
 
@@ -81,7 +81,7 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
-> [!NOTE] Als u een valutawaarde instelt in zowel de `events` variabele als de `products` variabele, wordt de valutawaarde in `events` gebruikt. Stel geen valutawaarden in zowel de `events` variabelen als de `products` variabelen in.
+>[!NOTE] Als u een valutawaarde instelt in zowel de `events` variabele als de `products` variabele, wordt de valutawaarde in `events` gebruikt. Stel geen valutawaarden in zowel de `events` variabelen als de `products` variabelen in.
 
 ### Numerieke gebeurtenissen gebruiken
 
@@ -96,4 +96,4 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
-> [!NOTE] Als u een numerieke waarde instelt in zowel de `events` variabele als de `products` variabele, wordt de numerieke waarde in `events` gebruikt. Stel geen numerieke waarden in zowel de `events` variabelen als de `products` variabelen in.
+>[!NOTE] Als u een numerieke waarde instelt in zowel de `events` variabele als de `products` variabele, wordt de numerieke waarde in `events` gebruikt. Stel geen numerieke waarden in zowel de `events` variabelen als de `products` variabelen in.
