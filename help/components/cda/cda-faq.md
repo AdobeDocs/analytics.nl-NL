@@ -2,14 +2,14 @@
 title: Veelgestelde vragen over cross-device analyse
 description: Veelgestelde vragen over apparaatanalyse
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Veelgestelde vragen
 
-> [!NOTE] De documentatie van de Analyse van verschillende apparaten kan worden gewijzigd aangezien de eigenschap verder wordt ontwikkeld. Controleer regelmatig of er updates zijn.
+>[!NOTE] De documentatie van de Analyse van verschillende apparaten kan worden gewijzigd aangezien de eigenschap verder wordt ontwikkeld. Controleer regelmatig of er updates zijn.
 
 **Hoe kan ik CDA gebruiken om te zien hoe mensen zich van één apparatentype aan een ander bewegen?**
 
@@ -22,7 +22,7 @@ U kunt een stroomvisualisatie gebruiken met de dimensie Mobiel apparaattype.
 
 **Kan ik zien hoe mensen schakelen tussen verschillende gebruikerservaringen (bijvoorbeeld desktopbrowser versus mobiele browser versus mobiele app)?**
 
-Als u het type mobiel apparaat gebruikt, zoals hierboven is geïllustreerd, kunt u zien hoe mensen van het ene type mobiel apparaat naar het andere bewegen. U kunt echter desktopbrowsers onderscheiden van mobiele browsers. Dit kunt u onder andere doen door een eVar te maken waarin wordt vastgelegd of de ervaring is opgedaan in een desktopbrowser, mobiele browser of mobiele app. Maak vervolgens een Stroomdiagram zoals hierboven beschreven, met uw &quot;ervaring&quot;-eVar in plaats van de dimensie Mobiel apparaattype. Dit geeft een iets andere weergave op gedrag tussen apparaten.
+Als u het type mobiel apparaat gebruikt, zoals hierboven is geïllustreerd, kunt u zien hoe mensen van het ene type mobiel apparaat naar het andere bewegen. U kunt echter desktopbrowsers onderscheiden van mobiele browsers. Dit kunt u onder andere doen door een eVar te maken waarin wordt vastgelegd of de ervaring is opgedaan in een desktopbrowser, mobiele browser of mobiele app. Maak vervolgens een Stroomdiagram zoals hierboven beschreven, met uw &quot;ervaring&quot;-eVar in plaats van de dimensie Mobiel apparaattype. Dit geeft een iets andere weergave van gedrag tussen apparaten.
 
 **Hoe ver gaat de CDA bezoekers verstikken?**
 
