@@ -4,7 +4,7 @@ title: Real-time rapporten
 topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Hiermee geeft u webpaginaverkeer weer en geeft u paginaweergaven in real-time weer. Verstrekt activeerbare gegevens om uw bedrijfsbesluiten op te baseren.
 
-> [!NOTE] Voor het Real-Time Report is geen aanvullende implementatie of codering vereist. Het gebruikt uw bestaande implementatie van Adobe Analytics. Om rapporten in real time te vormen, zie de Configuratie [van](/help/admin/admin/realtime/t-realtime-admin.md)Echt - tijdRapporten.
+>[!NOTE] Voor het Real-Time Report is geen aanvullende implementatie of codering vereist. Het gebruikt uw bestaande implementatie van Adobe Analytics. Om rapporten in real time te vormen, zie de Configuratie [van](/help/admin/admin/realtime/t-realtime-admin.md)Echt - tijdRapporten.
 
 **[!UICONTROL Site Metrics]** > **[!UICONTROL Real-Time]**
 
@@ -45,7 +45,7 @@ De vestiging en het bekijken van rapporten in real time is beperkt tot Admins of
 
 ## De Latentie van gegevens als resultaat van Configuratie A4T {#section_806CE36354FC4C539A0DED9266A5C704}
 
-Nadat de integratie van A4T in Adobe Target is ingeschakeld, duurt het nog 5 tot 10 minuten langer voordat Adobe Analytics is geïnstalleerd. Door deze latentieverhoging kunnen gegevens van Analytics en Target op dezelfde hit worden opgeslagen, zodat u tests kunt onderbreken op pagina en sitesectie.
+Nadat de integratie van A4T in Adobe Target is ingeschakeld, duurt het nog 5-10 minuten langer voordat Adobe Analytics is geïnstalleerd. Door deze latentieverhoging kunnen gegevens van Analytics en Target op dezelfde hit worden opgeslagen, zodat u tests kunt onderbreken op pagina en sitesectie.
 
 Deze toename wordt weerspiegeld in alle Adobe Analytics-services en -hulpprogramma&#39;s, inclusief de live stream en realtime rapportage, en is van toepassing in de volgende scenario&#39;s:
 
