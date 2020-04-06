@@ -2,7 +2,7 @@
 title: Implementatiemodel
 description: Leer meer over de eerste gebruikerservaring voor het implementeren van de implementatie van Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -27,7 +27,7 @@ Open het modaal om een rapportreeks tot stand te brengen gebruikend de volgende 
 2. Klik op het pictogram met het 9-raster bovenaan en klik op [!UICONTROL Adobe Analytics].
 3. Als u nog geen rapportsuite hebt gemaakt, wordt de modaal automatisch weergegeven. Als er een rapportsuite voor dit aanmeldingsbedrijf bestaat, klikt u rechtsboven op het pictogram Help en klikt u op [!UICONTROL Welcome to Adobe Analytics].
 
-> [!NOTE] De [!UICONTROL Welcome to Adobe Analytics] optie wordt alleen weergegeven als u zich aanmeldt via de Adobe Experience Cloud. Als u zich aanmeldt via verouderde domeinen, is het modaal niet beschikbaar.
+>[!NOTE] De [!UICONTROL Welcome to Adobe Analytics] optie wordt alleen weergegeven als u zich aanmeldt via de Adobe Experience Cloud. Als u zich aanmeldt via verouderde domeinen, is het modaal niet beschikbaar.
 
 ## Een rapportsuite maken
 
@@ -67,7 +67,7 @@ Schatting hoeveel verkeer uw website of app per dag krijgt. Met deze informatie 
 
 Bepaal in welke valuta de rapportsuite monetaire waarden opslaat.
 
-> [!IMPORTANT] Zorg ervoor dat u de juiste valuta opgeeft, vooral als u rapportagevereisten hebt met betrekking tot inkomsten. Het is moeilijk om de basisvaluta te wijzigen nadat de gegevensverzameling is gestart.
+>[!IMPORTANT] Zorg ervoor dat u de juiste valuta opgeeft, vooral als u rapportagevereisten hebt met betrekking tot inkomsten. Het is moeilijk om de basisvaluta te wijzigen nadat de gegevensverzameling is gestart.
 
 ## Implementatiebronnen
 
