@@ -2,7 +2,7 @@
 title: registerPreTrackCallback
 description: Maak callback-functies voordat u een hit naar Adobe verzendt.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,11 +11,11 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 Met de `registerPreTrackCallback` variabele kan uw organisatie een JavaScript-functie koppelen nadat een URL voor een afbeeldingsaanvraag is gecompileerd, maar voordat deze wordt verzonden. U kunt deze variabele gebruiken om gegevens te verzenden die door AppMeasurement aan een partner of interne infrastructuur worden verzameld.
 
-> [!IMPORTANT] Roep geen het volgen vraag zoals [`t()`](t-method.md) of [`tl()`](tl-method.md) binnen de [`registerPostTrackCallback`](registerposttrackcallback.md) variabele. De volgende functies in deze variabele veroorzaken een oneindige lijn van beeldverzoeken!
+>[!IMPORTANT] Roep geen het volgen vraag zoals [`t()`](t-method.md) of [`tl()`](tl-method.md) binnen de [`registerPostTrackCallback`](registerposttrackcallback.md) variabele. De volgende functies in deze variabele veroorzaken een oneindige lijn van beeldverzoeken!
 
 Elke keer dat u de `registerPreTrackCallback` variabele aanroept, koppelt u die functie om te worden uitgevoerd telkens wanneer een afbeeldingsaanvraag-URL wordt gecompileerd. Registreer dezelfde functie niet meerdere keren tijdens het laden van dezelfde pagina.
 
-> [!NOTE] De timing en de volgorde van de functies die tussen `registerPreTrackCallback` en `registerPostTrackCallback` worden uitgevoerd, zijn niet gegarandeerd. Vermijd afhankelijkheden tussen deze twee functies.
+>[!NOTE] De timing en de volgorde van de functies die tussen `registerPreTrackCallback` en `registerPostTrackCallback` worden uitgevoerd, zijn niet gegarandeerd. Vermijd afhankelijkheden tussen deze twee functies.
 
 ## Back-up voor track registreren bij starten van Adobe Experience Platform
 
@@ -48,4 +48,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-> [!NOTE] Het instellen van paginariabelen of het wijzigen van de `requestUrl` tekenreeks binnen deze functie heeft **geen** invloed op de afbeeldingsaanvraag die kort na deze functieaanroep wordt verzonden. Gebruik in plaats hiervan de [`doPlugins()`](doplugins.md) variabele.
+>[!NOTE] Het instellen van paginariabelen of het wijzigen van de `requestUrl` tekenreeks binnen deze functie heeft **geen** invloed op de afbeeldingsaanvraag die kort na deze functieaanroep wordt verzonden. Gebruik in plaats hiervan de [`doPlugins()`](doplugins.md) variabele.
