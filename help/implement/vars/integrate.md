@@ -2,7 +2,7 @@
 title: Module integreren
 description: Met de module Integrate kunnen Adobe-partners hun inspanningen voor gegevensverzameling integreren met uw organisatie.
 translation-type: tm+mt
-source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,14 +11,14 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 Met de module Integrate kunnen Adobe-partners hun inspanningen voor gegevensverzameling integreren met uw organisatie. Deze integratie biedt de mogelijkheid voor een gegevensverbinding in twee richtingen. Doorgaans wordt het gebruik van de module Integrate aangestuurd door een Adobe-partner.
 
-> [!NOTE] Door partnergegevens in uw implementatie aan te vragen, kan de laadtijd tussen de pagina en de gegevens die naar Adobe-servers voor gegevensverzameling worden verzonden toenemen. Als een bezoeker een nieuwe pagina laadt voordat gegevens worden verzonden, wordt die pagina niet opgenomen.
+>[!NOTE] Door partnergegevens in uw implementatie aan te vragen, kan de laadtijd tussen de pagina en de gegevens die naar Adobe-servers voor gegevensverzameling worden verzonden toenemen. Als een bezoeker een nieuwe pagina laadt voordat gegevens worden verzonden, wordt die pagina niet opgenomen.
 
 ## Workflow voor geïntegreerde module
 
 1. Een bezoeker van uw site laadt een pagina die een `get` aanvraag voor partnergegevens initieert.
 2. De Adobe-partner ontvangt de `get` aanvraag en verpakt de juiste variabelen in een JSON-object. Het JSON-object wordt geretourneerd.
-3. Uw site ontvangt het JSON-object en roept op de informatie in het JSON-object toe `setVars` te wijzen aan Adobe Analytics-variabelen
-4. Er wordt een verzoek om een afbeelding verzonden naar Adobe-servers voor gegevensverzameling.
+3. Uw site ontvangt het JSON-object en roept `setVars` op de informatie in het JSON-object toe te wijzen aan Adobe Analytics-variabelen
+4. Er wordt een verzoek om een afbeelding verzonden naar Adobe-gegevensverzamelingsservers.
 
 ## Integrate Module-implementatie
 
