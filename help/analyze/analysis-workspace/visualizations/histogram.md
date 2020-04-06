@@ -3,7 +3,7 @@ description: Een histogram is een nieuw visualisatietype in de Werkruimte van de
 title: Histogram
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -22,7 +22,7 @@ Een histogram maken:
 
 ![](assets/histogram.png)
 
-> [!NOTE] Histogrammen ondersteunen alleen standaardmeetwaarden, geen berekende meetwaarden.
+>[!NOTE] Histogrammen ondersteunen alleen standaardmeetwaarden, geen berekende meetwaarden.
 
 Hier hebben we de metagegevens voor paginaweergaven gebruikt voor unieke bezoekers. Het eerste (linker) emmertje komt overeen met een paginaweergave per unieke bezoeker, het tweede emmertje met twee paginaweergaven, enzovoort.
 
