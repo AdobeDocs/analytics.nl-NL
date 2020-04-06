@@ -3,7 +3,7 @@ description: Details over het malplaatje van de Werkruimte van de Analyse, en he
 title: Rapport over advertentiegegevens in Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: ''
 
 Details over het malplaatje van de Werkruimte van de Analyse, en het melden in Rapporten &amp; Analytics en de Bouwer van het Rapport.
 
-> [!NOTE] U moet ten minste 24 uur wachten voordat de zoekprogrammagegevens worden ingevuld in de analyserapporten. Bij Analytics-rapportage worden geen gegevens voor korreligheid per uur geretourneerd, omdat de AMO-gegevens geen ondersteuning bieden voor korreligheid per uur.
+>[!NOTE] U moet ten minste 24 uur wachten voordat de zoekprogrammagegevens worden ingevuld in de analyserapporten. Bij Analytics-rapportage worden geen gegevens voor korreligheid per uur geretourneerd, omdat de AMO-gegevens geen ondersteuning bieden voor korreligheid per uur.
 
 ## Analyse van werkruimte: Zoekmachines {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
