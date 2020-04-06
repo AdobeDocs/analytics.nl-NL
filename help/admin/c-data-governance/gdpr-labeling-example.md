@@ -3,7 +3,7 @@ description: 'null'
 title: Voorbeeld van labeling
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -65,7 +65,7 @@ Met een verwijderaanvraag waarbij de API-waarden in de eerste rij van de tabel w
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
-> [!NOTE] Alleen cellen op rijen met AID = 77 en een DEL-DEVICE-label worden beïnvloed.
+>[!NOTE] Alleen cellen op rijen met AID = 77 en een DEL-DEVICE-label worden beïnvloed.
 
 | user=<br>MaryexpandIDs=false | user=<br>MaryexpandIDs=false | user=<br>MaryexpandIDs=false | user=<br>MaryexpandIDs=false | user=<br>MaryexpandIDs=false |
 |--- |---|---|---|---|
@@ -79,7 +79,7 @@ Met een verwijderaanvraag waarbij de API-waarden in de eerste rij van de tabel w
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
-> [!NOTE] Alleen cellen op rijen met user=Mary en een DEL-PERSON-label worden beïnvloed. Ook, in de praktijk zou de variabele die A_ID bevat waarschijnlijk een steun of eVar zijn en zijn vervangingswaarde zou een koord zijn dat met &quot;Privacy-&quot;begint, door een willekeurig aantal (GUID) wordt gevolgd, eerder dan het vervangen van de numerieke waarde met een verschillende, willekeurige numerieke waarde die.
+>[!NOTE] Alleen cellen op rijen met user=Mary en een DEL-PERSON-label worden beïnvloed. Ook, in de praktijk zou de variabele die A_ID bevat waarschijnlijk een steun of eVar zijn en zijn vervangingswaarde zou een koord zijn dat met &quot;Privacy-&quot;begint, door een willekeurig aantal (GUID) wordt gevolgd, eerder dan het vervangen van de numerieke waarde met een verschillende, willekeurige numerieke waarde die.
 
 | user=<br>MaryexpandIDs=true | user=<br>MaryexpandIDs=true | user=<br>MaryexpandIDs=true | user=<br>MaryexpandIDs=true | user=<br>MaryexpandIDs=true |
 |--- |---|---|---|---|
