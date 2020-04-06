@@ -2,18 +2,18 @@
 title: Apparaatanalyse instellen
 description: Leer hoe u Cross-Device Analytics instelt als u aan de voorwaarden voldoet.
 translation-type: tm+mt
-source-git-commit: 2faec7513624be207a6cf01545702a977a84d5fc
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Apparaatanalyse instellen
 
-> [!NOTE] De documentatie van de Analyse van verschillende apparaten kan worden gewijzigd aangezien de eigenschap verder wordt ontwikkeld. Controleer regelmatig of er updates zijn.
+>[!NOTE] De documentatie van de Analyse van verschillende apparaten kan worden gewijzigd aangezien de eigenschap verder wordt ontwikkeld. Controleer regelmatig of er updates zijn.
 
 Als aan alle voorwaarden is voldaan, voert u de volgende stappen uit om Apparaatanalyse op andere apparaten in te schakelen. U dient deel uit te maken van een groep met productprofielbeheer of over beheerdersrechten in Adobe Analytics te beschikken om deze stappen te kunnen uitvoeren.
 
-> [!IMPORTANT] Aan alle voorwaarden moet worden voldaan voordat u deze stappen uitvoert. Als niet aan alle voorwaarden wordt voldaan, is de functie niet beschikbaar of werkt deze niet. Zie [Apparaatanalyse](cda-home.md) voor vereisten en beperkingen.
+>[!IMPORTANT] Aan alle voorwaarden moet worden voldaan voordat u deze stappen uitvoert. Als niet aan alle voorwaarden wordt voldaan, is de functie niet beschikbaar of werkt deze niet. Zie [Apparaatanalyse](cda-home.md) voor vereisten en beperkingen.
 
 ## Kies de rapportsuite voor alle apparaten die wordt ingeschakeld voor CDA
 
