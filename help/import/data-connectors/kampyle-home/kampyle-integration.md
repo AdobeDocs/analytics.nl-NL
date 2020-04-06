@@ -3,7 +3,7 @@ description: 'null'
 title: De integratie gebruiken
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Zodra opgesteld, kunt u beginnen gebruikend de extra mogelijkheden die deze integratie verstrekt. Hieronder vindt u een aantal acties die u kunt ondernemen om meerwaarde te krijgen van deze integratie vanuit Adobe Analytics.
 
-> [!NOTE] Het kan 24 tot 48 uur duren voordat de responsgegevens van Kampyle in uw Adobe Analytics-rapport worden weergegeven.
+>[!NOTE] Het kan 24 tot 48 uur duren voordat de responsgegevens van Kampyle in uw Adobe Analytics-rapport worden weergegeven.
 
 ## Feedback en gegevens Onsite gedrag combineren{#mix-feedback-and-onsite-behavior-data}
 
