@@ -2,7 +2,7 @@
 title: prop
 description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 Props zijn aangepaste variabelen die u op de gewenste manier kunt gebruiken.
 
-> [!TIP] Adobe raadt u in de meeste gevallen aan eVars te gebruiken. In eerdere versies van Adobe Analytics hadden props en eVars voor- en nadelen voor elkaar. Adobe heeft echter verbeteringen aangebracht in Vars waarin vrijwel alle gevallen van gebruik voor props zijn opgenomen. Zie [Vars](evar.md) voor een eigenschapvergelijking tussen deze twee types van douanevariabele.
+>[!TIP] Adobe raadt u in de meeste gevallen aan eVars te gebruiken. In eerdere versies van Adobe Analytics hadden props en eVars voor- en nadelen voor elkaar. Adobe heeft echter verbeteringen aangebracht in Vars waarin vrijwel alle gevallen van gebruik voor props zijn opgenomen. Zie [Vars](evar.md) voor een eigenschapvergelijking tussen deze twee types van douanevariabele.
 
 Als uw organisatie steunt gebruikt, zorg ervoor u hun gebruik en logica in uw document [van het](../../prepare/solution-design.md)oplossingsontwerp registreert.
 
@@ -44,7 +44,7 @@ Keuzerondjes in de lijst zijn een instelling die wordt toegepast op profielen wa
 
 Schakel lijsteigenschappen in de instellingen van de rapportsuite in. Zie [Verkeersvariabelen](/help/admin/admin/c-traffic-variables/traffic-var.md) in de gebruikershandleiding Admin. Zorg ervoor dat het gewenste scheidingsteken correct wordt gevormd. Adobe heeft geen standaardscheidingsteken.
 
-> [!TIP] In implementaties worden veel gebruikte scheidingstekens gevormd door een komma (`,`), een dubbele punt (`:`), een puntkomma (`;`) of een pipe (`|`). U kunt elk scheidingsteken gebruiken dat het beste bij uw implementatie past.
+>[!TIP] In implementaties worden veel gebruikte scheidingstekens gevormd door een komma (`,`), een dubbele punt (`:`), een puntkomma (`;`) of een pipe (`|`). U kunt elk scheidingsteken gebruiken dat het beste bij uw implementatie past.
 
 ### Lijsteigenschappen instellen
 
@@ -55,6 +55,6 @@ Zodra u lijststeunen in de montages van de rapportreeks met het gewenste scheidi
 s.prop1 = "value1,value2,value3";
 ```
 
-> [!IMPORTANT] Voor lijstprofielen geldt nog steeds de maximumlengte van 100 bytes. Lijstprofielen zijn eenvoudiger om deze limiet te bereiken en te worden afgekapt, omdat ze meerdere waarden kunnen bevatten. U kunt afkortingen of verkorte waarden gebruiken als deze limiet van 100 bytes wordt bereikt.
+>[!IMPORTANT] Voor lijstprofielen geldt nog steeds de maximumlengte van 100 bytes. Lijstprofielen zijn eenvoudiger om deze limiet te bereiken en te worden afgekapt, omdat ze meerdere waarden kunnen bevatten. U kunt afkortingen of verkorte waarden gebruiken als deze limiet van 100 bytes wordt bereikt.
 
 Als u dezelfde waarde meerdere keren instelt in een lijst-eigenschap, wordt de duplicatie ongedaan gemaakt in de rapportage. De Werkruimte van de Analyse telt het aantal treffers waar een waarde wordt gezien, en niet het aantal tijden een waarde in gegevens bestaat.
