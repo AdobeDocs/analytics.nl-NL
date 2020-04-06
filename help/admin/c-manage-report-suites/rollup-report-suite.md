@@ -4,7 +4,7 @@ title: Rollup- en algemene rapportensuites
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -20,7 +20,7 @@ Rollup-rapport bestaat uit geaggregeerde gegevens van meerdere groepen met kinde
 **Rollup-rapportenpakket**: Gemaakt met beheerfuncties. Neemt de som van elke metrisch aan het eind van elke dag.
 
 * Rollups zijn vrij te gebruiken en verhogen het gebruik van serveroproepen niet.
-* Rollups verschaffen totale gegevens, maar rapporteren geen afzonderlijke waarden in rapporten. Zo worden eVar1-waarden niet opgenomen, maar het totale totaal kan wel.
+* Rollups verschaffen totale gegevens, maar rapporteren geen afzonderlijke waarden in rapporten. Zo worden eVar1-waarden niet opgenomen, maar kan het totale totaal wel zijn.
 * De gegevens worden niet gededupliceerd wanneer het combineren van gegevens over rapportreeksen.
 * Rollups worden elke avond uitgevoerd.
 * Wanneer u een rapportsuite toevoegt aan een bestaande rollup, worden historische gegevens niet opgenomen in de rollup.
@@ -34,7 +34,7 @@ Rollup-rapport bestaat uit geaggregeerde gegevens van meerdere groepen met kinde
 
 **Secundaire serveraanroepen**: Rollups doen geen extra serveraanroepen meer dan een enkele rapportsuite verzamelt. Als uw organisatie multi-suite markering gebruikt, worden secundaire serveraanroepen gedaan voor elke extra rapportsuite die in een beeldverzoek is opgenomen.
 
-> [!TIP] Als u slechts een globale rapportreeks met [virtuele rapportreeksen](../../components/vrs/vrs-considerations.md)gebruikt, zijn geen secundaire servervraag nodig.
+>[!TIP] Als u slechts een globale rapportreeks met [virtuele rapportreeksen](../../components/vrs/vrs-considerations.md)gebruikt, zijn geen secundaire servervraag nodig.
 
 **Wijzigingen** in implementatie: Rollups vereisen geen implementatiewijzigingen, terwijl voor algemene rapportsuites de id van de algemene rapportsuite in uw implementatie moet worden opgenomen.
 
