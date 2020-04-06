@@ -2,7 +2,7 @@
 title: linkName
 description: Stel de naam in van de aangepaste koppelingshit.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -28,7 +28,7 @@ U kunt het gebied van de verbindingsnaam plaatsen wanneer het vormen van een reg
 
 De `s.linkName` variabele is een tekenreeks die de waarde van de afmetingen voor aangepaste koppelingen, downloadkoppelingen of afsluitkoppelingen bepaalt (afhankelijk van wat [`s.linkType`](linktype.md) is). Het kan tot 100 bytes bevatten.
 
-> [!TIP] Deze variabele is de derde parameter van de `tl()` methode en hoeft gewoonlijk niet als een zelfstandige variabele te worden ingesteld. U kunt de `linkName` variabele echter wel gebruiken als u geen waarden als argumenten in de `tl()` methode wilt instellen.
+>[!TIP] Deze variabele is de derde parameter van de `tl()` methode en hoeft gewoonlijk niet als een zelfstandige variabele te worden ingesteld. U kunt de `linkName` variabele echter wel gebruiken als u geen waarden als argumenten in de `tl()` methode wilt instellen.
 
 ```js
 s.linkName = "Example custom link";
