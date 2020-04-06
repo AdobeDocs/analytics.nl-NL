@@ -5,7 +5,7 @@ title: Integratiefuncties
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -20,7 +20,7 @@ Nadat de DFA-integratie van gegevensconnectors is geactiveerd, kunt u de volgend
 * (optioneel) DFA-kostengegevens
 * (optioneel) DFA-query-fouten, time-outs
 
-> [!NOTE] Deze integratie biedt geen ondersteuning voor het klikken op trackers (klik eerder op opdrachten). Klik trackers worden gebruikt om het aantal kliks op tekstverbindingen, verbindingen in e-mailberichten, of op andere elementen te registreren die hard-gecodeerd op een Website zijn.
+>[!NOTE] Deze integratie biedt geen ondersteuning voor het klikken op trackers (klik eerder op opdrachten). Klik trackers worden gebruikt om het aantal kliks op tekstverbindingen, verbindingen in e-mailberichten, of op andere elementen te registreren die hard-gecodeerd op een Website zijn.
 
 De integratie van DFA van de Verbindingen van Gegevens construeert automatisch DFA het volgen codes van de gegevens die door DFA zijn teruggekeerd. Deze volgcodes zijn zo samengesteld dat ze een advertentie identificeren, samen met de bijbehorende Plaatsing en Creatief. In het volgende voorbeeld wordt de structuur van de trackingcode beschreven, afhankelijk van de versie van de integratie. Versie 1.5 ziet er als volgt uit:
 
@@ -55,5 +55,5 @@ Als **[!UICONTROL SearchCenter]** **[!UICONTROL DFA deduplication]** > in de wiz
 
 * In het geval van een DFA mening-door, zal de integratie het koord &quot;DFA Bekijken&quot;aan SCM eVar bevolken.
 
-> [!NOTE] Als SearchCenter > DFA de-duplicatie wordt toegelaten en de parameter van het de vraagkoord SearchCenter wordt geplaatst, zal het bezoek niet voor verwerking DFA in overweging worden genomen. Dit betekent dat de parameter van het de vraagkoord SearchCenter van de DFA klik-door parameter zou moeten verschillend zijn, en geen advertenties van de Vertoning zouden de parameter van het vraagkoord moeten plaatsen SearchCenter.
+>[!NOTE] Als SearchCenter > DFA de-duplicatie wordt toegelaten en de parameter van het de vraagkoord SearchCenter wordt geplaatst, zal het bezoek niet voor verwerking DFA in overweging worden genomen. Dit betekent dat de parameter van het de vraagkoord SearchCenter van de DFA klik-door parameter zou moeten verschillend zijn, en geen advertenties van de Vertoning zouden de parameter van het vraagkoord moeten plaatsen SearchCenter.
 
