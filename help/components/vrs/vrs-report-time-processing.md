@@ -3,7 +3,7 @@ description: De tijdverwerking van het rapport is een virtuele het rapportreeks 
 title: Tijdverwerking rapporteren
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 De tijdverwerking van het rapport is een virtuele het rapportreeks plaatsen die gegevens om op een niet destructieve, retroactieve manier toelaat worden verwerkt.
 
-> [!NOTE] De Verwerking van de Tijd van het rapport is beschikbaar slechts voor de Werkruimte van de Analyse.
+>[!NOTE] De Verwerking van de Tijd van het rapport is beschikbaar slechts voor de Werkruimte van de Analyse.
 
 De Verwerking van de Tijd van het rapport beïnvloedt slechts de gegevens in de virtuele rapportreeks en beïnvloedt geen gegevens of gegevensinzameling in de reeks van het basisrapport. Het verschil tussen de Verwerking van de Tijd van het Rapport en de traditionele verwerking van Analytics wordt het best begrepen gebruikend het volgende diagram:
 
