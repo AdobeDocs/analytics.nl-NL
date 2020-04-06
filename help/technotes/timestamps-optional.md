@@ -5,7 +5,7 @@ title: Tijdstempels optioneel gebruiken
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -20,7 +20,7 @@ Tijdstempels optioneel is de standaardinstelling voor alle nieuwe rapportsuites.
 * Verzend tijdstempelgegevens van een mobiele app naar een algemene rapportsuite.
 * Upgrade apps om tijdstempels te gebruiken zonder dat u een nieuwe rapportsuite hoeft te maken.
 
-> [!NOTE] Tijdstempels Optioneel is de standaardinstelling voor alle nieuwe rapportsuites die worden gegenereerd op basis van een sjabloon. De nieuwe rapportreeksen die van een bestaande rapportreeks worden gekopieerd zullen montages van origineel erven.
+>[!NOTE] Tijdstempels Optioneel is de standaardinstelling voor alle nieuwe rapportsuites die worden gegenereerd op basis van een sjabloon. De nieuwe rapportreeksen die van een bestaande rapportreeks worden gekopieerd zullen montages van origineel erven.
 
 Zie [Tijdstempels Optioneel](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html) voor aanvullende instellingsinformatie.
 
@@ -52,7 +52,7 @@ Met Tijdstempels optioneel kunt u meerdere rapportsuites integreren en rapporter
 
 Het combineren van gegevens in een globale rapportreeks kan op veelvoudige manieren, met inbegrip van multi-suite het etiketteren, de regels van Vista, en ingevoerde partijdossiers uit off-line bronnen worden gedaan.
 
-> [!IMPORTANT] Plan zorgvuldig het ontwerp voor elke reeks componentengegevens zodat de combinatie in een globale rapportreeks steek houdt.
+>[!IMPORTANT] Plan zorgvuldig het ontwerp voor elke reeks componentengegevens zodat de combinatie in een globale rapportreeks steek houdt.
 
 ## Aanbevolen procedures bij gebruik van tijdstempels {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -60,7 +60,7 @@ Hieronder vindt u best practices en een aantal vereisten en beperkingen die u in
 
 * Over het algemeen moeten tijdstempels voor een bepaalde bezoeker of een bepaald bezoek in chronologische volgorde bij Adobe aankomen.
 
-   Gegevens die niet op volgorde staan, kunnen gegevens bevatten die te laat aankomen bij het verzamelen van offlinegegevens en laat aankomen, of uit-of-synchronisatieklokken op mobiele offlineapparaten. Buiten-de-ordegegevens kunnen tijdberekeningen (zoals tijd bestede waarden), attributie (de persistentie van Var), het aantal van het bezoek/bezoek tellingen, en het kleven rapporten negatief beïnvloeden.
+   Gegevens die niet op volgorde staan, kunnen gegevens bevatten die te laat aankomen bij het verzamelen van offlinegegevens en laat aankomen, of uit-of-synchronisatieklokken op mobiele offlineapparaten. Gegevens die buiten de bestelling vallen, kunnen een negatief effect hebben op tijdberekeningen (zoals gebruikte waarden voor de tijd), attributie (persistentie van de eVar), het aantal bezoekers/bezoekers en tekenrapporten.
 
 * Het wordt niet aanbevolen tijdstempels te gebruiken wanneer u een [s.bezoekerID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) instelt. Dit kan leiden tot gegevens die niet op volgorde staan.
 
