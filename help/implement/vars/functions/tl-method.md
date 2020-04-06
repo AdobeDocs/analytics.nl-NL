@@ -2,7 +2,7 @@
 title: tl
 description: Stuur een koppelingenvolgvraag naar Adobe.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -44,7 +44,7 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 Het argument voor het koppelingsobject bepaalt of de browser tot 500 ms wacht voordat er vanaf de pagina wordt genavigeerd. Als een verzoek om een afbeelding eerder dan 500 ms wordt verzonden, navigeert de pagina direct naar de aangeklikte koppeling.
 
-> [!NOTE] AppMeasurement laat automatisch de [`useBeacon`](../config-vars/usebeacon.md) variabele voor uitgangsverbindingen toe, die dit argument maken niet meer nodig in moderne browsers. Dit argument werd vaker gebruikt in vorige versies van AppMeasurement.
+>[!NOTE] AppMeasurement laat automatisch de [`useBeacon`](../config-vars/usebeacon.md) variabele voor uitgangsverbindingen toe, die dit argument maken niet meer nodig in moderne browsers. Dit argument werd vaker gebruikt in vorige versies van AppMeasurement.
 
 * `this`: Wacht tot maximaal 500 ms om AppMeasurement tijd te geven om een verzoek om een afbeelding te verzenden. Standaardwaarde.
 * `true`: Wacht niet.
