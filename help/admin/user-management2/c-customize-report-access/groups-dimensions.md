@@ -6,20 +6,20 @@ title: Dimensie-machtigingen aanpassen
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Dimensie-machtigingen aanpassen
 
-> [!IMPORTANT] Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>[!IMPORTANT] Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
 
 Pas gebruikerstoegang op een korrelig niveau, met inbegrip van eVars, verkeersrapporten, oplossingsrapporten, en het kleven rapporten aan.
 
 **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Dimensions]** > **[!UICONTROL Customize]**
 
-> [!IMPORTANT] Sommige dimensies zijn momenteel niet toegestaan. Deze afmetingen zijn: Lengte mobiele bladwijzer; nummer mobiele apparatuur; mobiele DRM; Mobiele informatiediensten; Mobile Java VM; Decoratie van mobiele post; Mobiele netprotocollen; mobiel besturingssysteem; Mobiele druk om te praten.
+>[!IMPORTANT] Sommige dimensies zijn momenteel niet toegestaan. Deze afmetingen zijn: Lengte mobiele bladwijzer; nummer mobiele apparatuur; mobiele DRM; Mobiele informatiediensten; Mobile Java VM; Decoratie van mobiele post; Mobiele netprotocollen; mobiel besturingssysteem; Mobiele druk om te praten.
 >
 >Deze afmetingen zijn beschikbaar voor alle gebruikers, ongeacht andere toestemmingen.
 
