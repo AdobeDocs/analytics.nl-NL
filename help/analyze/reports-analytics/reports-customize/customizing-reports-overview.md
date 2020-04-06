@@ -4,7 +4,7 @@ title: Overzicht van rapporten aanpassen
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -81,7 +81,7 @@ t_reports_comparing_dates.xml
 
 U kunt geen datums vergelijken tussen trended-rapporten.
 
-> [!NOTE] Als u een datumvergelijking op zeer belangrijke metriek in een dashboard wilt uitvoeren, kunt u de gegevens in de Bouwer [van het](https://marketing.adobe.com/resources/help/en_US/arb/) Rapport trekken gebruikend twee afzonderlijke verzoeken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
+>[!NOTE] Als u een datumvergelijking op zeer belangrijke metriek in een dashboard wilt uitvoeren, kunt u de gegevens in de Bouwer [van het](https://marketing.adobe.com/resources/help/en_US/arb/) Rapport trekken gebruikend twee afzonderlijke verzoeken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
 
 Datums vergelijken tussen gerangschikte rapporten in rapporten en analyses:
 
