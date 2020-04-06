@@ -2,7 +2,7 @@
 description: Instructies voor het uitvoeren van ad-hocanalyse met Java 11.
 title: Ad hoc-analyse uitvoeren met Java 11
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -27,7 +27,7 @@ Werk samen met uw IT-team om ervoor te zorgen dat het volgende is ingesteld:
 1. **Voer het geselecteerde bestand** uit. Voor pc: Dubbelklik op het .bat-bestand. Voor Mac: Klik met de rechtermuisknop op het .sh-bestand en selecteer **[!UICONTROL Open With > Other... > Utilities > (Enable all applications) > select Terminal > Open]**.
 1. Meld u aan bij ad-hocanalyse.
 
-> [!NOTE] De verificatiemethoden van de federatieve en Enterprise-id zijn niet compatibel met de Java 11-versie van Ad Hoc Analysis.
+>[!NOTE] De verificatiemethoden van de federatieve en Enterprise-id zijn niet compatibel met de Java 11-versie van Ad Hoc Analysis.
 
 ## Niet-ondersteunde functies in ad-hocanalyse (Java 11)
 
