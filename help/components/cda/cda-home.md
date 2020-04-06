@@ -2,14 +2,14 @@
 title: Apparaatanalyse
 description: Analytics voor verschillende apparaten wijzigt uw gegevens van apparaatfocus naar persoonlijke focus door apparaatgegevens aan elkaar te hechten.
 translation-type: tm+mt
-source-git-commit: 3e821ce7b045647c09d9548659834ffc2170163d
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Apparaatanalyse
 
-> [!NOTE] De documentatie van de Analyse van verschillende apparaten kan worden gewijzigd aangezien de eigenschap verder wordt ontwikkeld. Controleer regelmatig of er updates zijn.
+>[!NOTE] De documentatie van de Analyse van verschillende apparaten kan worden gewijzigd aangezien de eigenschap verder wordt ontwikkeld. Controleer regelmatig of er updates zijn.
 
 Apparaatanalyse is een functie waarmee analyses worden getransformeerd van een apparaatgecentreerde weergave naar een persoonlijke weergave. Deze functie gebruikt de Adobe Experience Platform Identity Service Co-op Graph of Private Graph om te bepalen welke apparaten bij personen horen en ze aan elkaar te koppelen. Dit heeft tot gevolg dat analisten begrip hebben voor het gedrag van gebruikers in browsers, apparaten of apps. U kunt CDA gebruiken om vragen zoals:
 
@@ -27,7 +27,7 @@ Zie [Reis IQ: De pagina](http://adobe.ly/aacda) van de Vonk van de Analyse van d
 
 Vanaf september 2019 vereist Cross-Device Analytics het volgende. Werk met teams binnen uw organisatie en uw accountmanager van Adobe om ervoor te zorgen dat u aan alle volgende voorwaarden voldoet.
 
-> [!IMPORTANT] Als niet aan alle voorwaarden wordt voldaan, kan het zijn dat u Cross-Device Analytics of slechte resultaten niet kunt inschakelen bij het koppelen van gegevens.
+>[!IMPORTANT] Als niet aan alle voorwaarden wordt voldaan, kan het zijn dat u Cross-Device Analytics of slechte resultaten niet kunt inschakelen bij het koppelen van gegevens.
 
 * De gegevens van uw organisatie moeten zich in het datacenter van het Pacific Northwest van Adobe bevinden. Er is voorzien in steun voor datacentra in andere regio&#39;s van de wereld.
 * Neem contact op met de accountmanager van uw organisatie om de volgende belangrijke punten vast te stellen:
