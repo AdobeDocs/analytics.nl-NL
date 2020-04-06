@@ -2,20 +2,20 @@
 title: Koppelingen uitschakelen
 description: Leer hoe u de optie om te weigeren koppelingen maakt voor bezoekers van uw site.
 translation-type: tm+mt
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Optie-outkoppelingen implementeren
 
-> [!IMPORTANT] Adobe raadt u aan de aanmeldingsservice te gebruiken, vooral voor organisaties die zich bezighouden met GDPR-regels. Zie [Inschakelen-serviceoverzicht](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) in de gebruikershandleiding van Experience Cloud Identity Service.
+>[!IMPORTANT] Adobe raadt u aan de aanmeldingsservice te gebruiken, vooral voor organisaties die zich bezighouden met GDPR-regels. Zie [Inschakelen-serviceoverzicht](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) in de gebruikershandleiding van Experience Cloud Identity Service.
 
 Sommige bezoekers van uw website hebben liever geen informatie over het bladeren in uw gegevensset. Adobe biedt de mogelijkheid om bezoekers van uw website de mogelijkheid te bieden zich af te melden van de gegevens die worden verzameld. Aan alle implementatietypen wordt tegemoetgekomen; uw organisatie is verantwoordelijk voor uw eigen privacybeleid en voor het naleven van uw ondertekende voorwaarden.
 
 Wanneer een bezoeker een opt-out-URL bereikt, wordt hem gevraagd een uitschakelcookie te installeren. Als een gebruiker ervoor kiest om niet te worden gevolgd en een uitschakelcookie wordt ingesteld, worden gegevens nog steeds naar Adobe-servers verzonden door het JavaScript-bestand. Deze gegevens worden echter niet verwerkt of opgenomen in rapporten.
 
-> [!TIP] Adobe biedt ook privacy-instellingen per rapportsuite. Zie [Privacy-instellingen](../../admin/admin/privacy-settings.md) in de gebruikershandleiding voor Admin.
+>[!TIP] Adobe biedt ook privacy-instellingen per rapportsuite. Zie [Privacy-instellingen](../../admin/admin/privacy-settings.md) in de gebruikershandleiding voor Admin.
 
 ## URL uitschakelen
 
@@ -73,7 +73,7 @@ Schakel automatisch de taal van de opt-out-pagina uit door de parameter voor de 
 
 Hiermee wordt bijvoorbeeld de pagina om te weigeren in het Koreaans geladen. `https://example.sc.omtrdc.net/optout.html?locale=ko_KR`
 
-> [!TIP] De waarde van de `en_US` querytekenreeks is niet vereist, omdat de pagina standaard in het Engels wordt geladen.
+>[!TIP] De waarde van de `en_US` querytekenreeks is niet vereist, omdat de pagina standaard in het Engels wordt geladen.
 
 ### Popup
 
@@ -81,7 +81,7 @@ Hiermee voegt u een knop Venster sluiten aan de pagina toe, zodat de optiepagina
 
 Laadt bijvoorbeeld de pagina met de optie Weigeren met de knop Venster sluiten. `https://example.sc.omtrdc.net/optout.html?popup=1`
 
-> [!NOTE] Historisch forceerde deze parameter van het vraagkoord een popup venster. De meeste moderne browsers geven echter controle over popups aan de eindgebruiker.
+>[!NOTE] Historisch forceerde deze parameter van het vraagkoord een popup venster. De meeste moderne browsers geven echter controle over popups aan de eindgebruiker.
 
 ### Weigeren met één klik
 
