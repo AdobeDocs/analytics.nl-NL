@@ -2,7 +2,7 @@
 title: kassier
 description: Hiërarchievariabelen implementeren in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 Hiërarchievariabelen zijn aangepaste variabelen waarmee u de structuur van een site kunt zien.
 
-> [!TIP] Deze variabele kwam vaker voor in eerdere versies van Adobe Analytics. Adobe raadt u aan [Vars](evar.md) en classificaties te gebruiken.
+>[!TIP] Deze variabele kwam vaker voor in eerdere versies van Adobe Analytics. Adobe raadt u aan [Vars](evar.md) en classificaties te gebruiken.
 
 Deze variabele is handig voor sites met meer dan drie niveaus in hun sitestructuur. Een mediasite kan bijvoorbeeld 4 niveaus bevatten voor de sectie Sport: `Sports`, `Local Sports`, `Baseball`en `Team name`. Als iemand de Baseball-pagina, Sport, Lokale Sport en Baseball bezoekt, weerspiegelen alle niveaus dat bezoek.
 
