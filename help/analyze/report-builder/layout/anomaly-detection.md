@@ -4,7 +4,7 @@ title: Anomaly Detection
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -22,7 +22,7 @@ Voorbeelden van anomalieën die u kunt onderzoeken zijn:
 * Spaties in videobuffergebeurtenissen
 * Spikes in lage videobitsnelheden
 
-> [!NOTE] Anomaly-detectie is alleen beschikbaar wanneer u de granulariteit Dag selecteert.
+>[!NOTE] Anomaly-detectie is alleen beschikbaar wanneer u de granulariteit Dag selecteert.
 
 <p class="head"> <b>Metrische gegevens voor anomalge detectie</b> </p>
 
