@@ -3,7 +3,7 @@ description: Zodra de integratie wordt opgesteld, kunt u beginnen gebruikend de 
 title: De integratie gebruiken
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Zodra de integratie wordt opgesteld, kunt u beginnen gebruikend de extra mogelijkheden die het verstrekt.
 
-> [!NOTE] Het kan 24-48 uur duren voordat u een aantal van de gegevens in de Demandbase-indeling ziet in de rapportage voor Adobe Analytics.
+>[!NOTE] Het kan 24-48 uur duren voordat u een aantal van de gegevens in de Demandbase-indeling ziet in de rapportage voor Adobe Analytics.
 
 Hier volgen enkele acties die u kunt uitvoeren om meerwaarde te krijgen van deze integratie vanuit Adobe Analytics:
 
