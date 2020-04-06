@@ -3,7 +3,7 @@ description: Een overzicht van het menu Rapporten in Rapporten & Analytics.
 title: Menu Rapporten
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -37,7 +37,7 @@ Het menu Rapporten biedt een verbeterde zoekervaring. Klik **[!UICONTROL View Al
 
 Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. Druk op de toets Escape om de zoekopdracht te sluiten zonder het huidige rapport te wijzigen of druk op Enter om het geselecteerde rapport te laden.
 
-> [!NOTE] U kunt de rapportlijst ook doorzoeken op basis van een verwijzing, eVar en het gebeurtenisnummer. Voer op de zoekbalk de eigenschap Prop, Var of het gebeurtenisnummer in.
+>[!NOTE] U kunt de rapportlijst ook doorzoeken op basis van een verwijzing, eVar en het gebeurtenisnummer. Voer op de zoekbalk de eigenschap Prop, Var of het gebeurtenisnummer in.
 
 ## Overzicht van navigatie {#section_A6A0A369207149BABE504753B48A42D7}
 
