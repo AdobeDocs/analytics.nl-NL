@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ Als `currencyCode` is gedefinieerd en overeenkomt met de valuta van de rapportsu
 
 Als deze `currencyCode` is gedefinieerd en afwijkt van de valuta van de rapportsuite, past Adobe een valutaomrekening toe op basis van de wisselkoers van de huidige dag. Adobe werkt samen met [XE](https://xe.com) om valuta elke dag om te zetten. Alle waarden die in gegevensverzamelingsservers worden opgeslagen, worden uiteindelijk opgeslagen in de valuta van de rapportsuite.
 
-> [!IMPORTANT] Als `currencyCode` er een ongeldige waarde is, wordt de hele hit genegeerd, waardoor gegevens verloren gaan. Zorg ervoor dat deze variabele correct is gedefinieerd als u deze in uw implementatie gebruikt.
+>[!IMPORTANT] Als `currencyCode` er een ongeldige waarde is, wordt de hele hit genegeerd, waardoor gegevens verloren gaan. Zorg ervoor dat deze variabele correct is gedefinieerd als u deze in uw implementatie gebruikt.
 
 Deze variabele blijft niet bestaan tussen treffers. Zorg ervoor dat deze variabele op elke pagina wordt bepaald die opbrengst of muntgebeurtenissen impliceert.
 
