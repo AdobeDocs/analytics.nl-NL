@@ -4,7 +4,7 @@ title: Segmenten publiceren naar de Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,7 +15,7 @@ Als u een segment publiceert naar de Experience Cloud, kunt u het segment gebrui
 
 Nu, kan de verwerking tot 8 uren vergen, maar afhankelijk van ander verkeer en op de segmentgrootte, kan de verwerking zelfs sneller zijn. (Wij hebben momenteel echter geen manier om u te informeren wanneer het segment beschikbaar is, zodat zult u manueel moeten controleren.) We hebben ook het maximumaantal te publiceren segmenten verhoogd tot 75 (van 20). U kunt gepubliceerde segmenten weergeven in Componenten > Segmenten.
 
-> [!NOTE] De campagne van Adobe (Klassiek en Norm) gedraagt zich anders in die zin dat het een extra latentie van 24 uur bovenop de latentie van 8 uur voorkomt.
+>[!NOTE] De campagne van Adobe (Klassiek en Norm) gedraagt zich anders in die zin dat het een extra latentie van 24 uur bovenop de latentie van 8 uur voorkomt.
 
 
 ## Vereisten
@@ -68,7 +68,7 @@ Nu, kan de verwerking tot 8 uren vergen, maar afhankelijk van ander verkeer en o
 
 Als u een segment wilt verwijderen dat is gepubliceerd naar de Experience Cloud, moet u eerst de publicatie ongedaan maken. Als u de publicatie van een segment ongedaan wilt maken, **klikt** u gewoon op het selectievakje waarmee u het segment hebt gepubliceerd.
 
-> [!NOTE] U **kunt de publicatie van een segment dat momenteel wordt gebruikt door een van de volgende Adobe-oplossingen niet** ongedaan maken: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (voor [!DNL Core Service] &amp; [!DNL Audience Manager] klanten) en alle andere externe partners (voor [!DNL Audience Manager] klanten). U **kunt** de publicatie ongedaan maken van een segment dat door wordt gebruikt [!DNL Target].
+>[!NOTE] U **kunt de publicatie van een segment dat momenteel wordt gebruikt door een van de volgende Adobe-oplossingen niet** ongedaan maken: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (voor [!DNL Core Service] &amp; [!DNL Audience Manager] klanten) en alle andere externe partners (voor [!DNL Audience Manager] klanten). U **kunt** de publicatie ongedaan maken van een segment dat door wordt gebruikt [!DNL Target].
 
 ## Publicatiestatus segment weergeven in het dialoogvenster [!UICONTROL Segment Manager]
 
