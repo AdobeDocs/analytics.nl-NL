@@ -2,7 +2,7 @@
 title: zip
 description: Vul handmatig de dimensie 'Postcode' in als de instellingen van de rapportsuite dit toestaan.
 translation-type: tm+mt
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 Met de `zip` [!UICONTROL Zip Option] variabele kunt u de dimensie &#39;Postcode&#39; handmatig vullen als de instellingen van de rapportsuite dit toestaan. In eerdere versies van Adobe Analytics kon deze variabele alleen handmatig worden ingesteld, meestal bij het invoeren van verzendgegevens op een handelssite. Dankzij de verbeteringen in Adobe Analytics kan deze variabele automatisch worden ingesteld met behulp van geo-locatiegegevens. Deze variabele blijft niet behouden na de hit die is ingesteld.
 
-> [!IMPORTANT] Zorg ervoor [!UICONTROL Zip Option] in de montages van de rapportreeks aan de gewenste waarde wordt geplaatst. U kunt deze variabele niet gebruiken als deze altijd [!UICONTROL geo zip] wordt gebruikt. Zie [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md) in de gebruikershandleiding voor beheerders voor meer informatie.
+>[!IMPORTANT] Zorg ervoor [!UICONTROL Zip Option] in de montages van de rapportreeks aan de gewenste waarde wordt geplaatst. U kunt deze variabele niet gebruiken als deze altijd [!UICONTROL geo zip] wordt gebruikt. Zie [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md) in de gebruikershandleiding voor beheerders voor meer informatie.
 
 ## Ga naar Adobe Experience Platform Launch
 
