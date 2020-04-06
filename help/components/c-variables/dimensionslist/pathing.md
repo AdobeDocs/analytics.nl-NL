@@ -4,7 +4,7 @@ title: Plakken
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,11 +15,11 @@ Een groep rapporten die op weganalyse wordt gebaseerd. Technisch gezien betekent
 
 Gebruik [Analyse Workspace Flow](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) voor flexibelere tekenopties.
 
-> [!NOTE] Ga naar **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]** om plakken mogelijk te maken. Neem contact op met de klantenservice om het plakken in de Site-sectie en de serverrapporten mogelijk te maken.
+>[!NOTE] Ga naar **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]** om plakken mogelijk te maken. Neem contact op met de klantenservice om het plakken in de Site-sectie en de serverrapporten mogelijk te maken.
 
 Als u de orde moet weten waarin de waarden worden verzameld, dan moet u het kleven voor de variabele toelaten die die waarden verzamelt. Paden is standaard ingeschakeld voor pagina&#39;s. Pathing is niet standaard ingeschakeld voor props, omdat dit alleen in bepaalde gevallen van toepassing is. Neem contact op met de klantenservice om het plakken op een prop in te schakelen.
 
-> [!NOTE] Wanneer u in Ad hoc Analyse classificaties inschakelt op een proxy, worden de maatstaven voor het tekenen beschikbaar voor alle classificaties die zijn ingesteld voor de ingeschakelde proxy.
+>[!NOTE] Wanneer u in Ad hoc Analyse classificaties inschakelt op een proxy, worden de maatstaven voor het tekenen beschikbaar voor alle classificaties die zijn ingesteld voor de ingeschakelde proxy.
 
 **Voorbeeld - Tekenen op sitesecties**
 
@@ -47,5 +47,5 @@ s.prop19=s.prop18 + ":" + s.pageName;
 
 Schakel vervolgens de optie voor plakken in *`s.prop19`* om te zien hoe leden pagina&#39;s doorlopen.
 
-> [!NOTE] Als u ad hoc analyse uitvoert, kunt u paginaden segmenteren zonder de behoefte om segmentwaarden samen te voegen, en om het even welk segment op het kleven rapporten toepassen.
+>[!NOTE] Als u ad hoc analyse uitvoert, kunt u paginaden segmenteren zonder de behoefte om segmentwaarden samen te voegen, en om het even welk segment op het kleven rapporten toepassen.
 
