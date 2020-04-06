@@ -3,7 +3,7 @@ description: In dit document wordt beschreven wat u moet doen in Adobe Analytics
 title: Adobe Analytics en GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ In dit document wordt beschreven wat u moet doen in Adobe Analytics om de toegan
 
 ## Overzicht van Adobe {#section_E582A1D77583410EBB790BB646854A2C}
 
-> [!IMPORTANT] De inhoud van dit document is geen juridisch advies en is niet bedoeld ter vervanging van juridisch advies. Raadpleeg de juridische afdeling van uw bedrijf voor advies over GDPR.
+>[!IMPORTANT] De inhoud van dit document is geen juridisch advies en is niet bedoeld ter vervanging van juridisch advies. Raadpleeg de juridische afdeling van uw bedrijf voor advies over GDPR.
 
 Op 25 mei 2018 is de algemene gegevensbeschermingsverordening (GDPR) van de Europese Unie van kracht geworden. Raadpleeg [GDPR en Your Business voor meer informatie over de reactie van Adobe en wat dit voor u als Adobe-klant betekent.](https://www.adobe.com/privacy/general-data-protection-regulation.html)
 
