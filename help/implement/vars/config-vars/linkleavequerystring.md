@@ -2,7 +2,7 @@
 title: linkLeaveQueryString
 description: Staat het behoud van vraagkoorden in verbinding het volgen dimensies toe.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ Als de informatie van het verbinden niet in URLs op uw plaats is, is het gebruik
 
 Inschakelen is van toepassing `linkLeaveQueryString` op alle afmetingen voor het bijhouden van koppelingen (inclusief aangepaste koppelingen, afsluitkoppelingen en downloadkoppelingen).
 
-> [!TIP] Deze variabele heeft geen invloed op afmetingen buiten het bijhouden van koppelingen. Het beïnvloedt slechts douaneverbindingen, uitgangsverbindingen, en downloadverbindingen.
+>[!TIP] Deze variabele heeft geen invloed op afmetingen buiten het bijhouden van koppelingen. Het beïnvloedt slechts douaneverbindingen, uitgangsverbindingen, en downloadverbindingen.
 
 ## URL-parameters behouden in Adobe Experience Platform Launch
 
