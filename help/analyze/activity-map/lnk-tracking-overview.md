@@ -4,7 +4,7 @@ title: Robuuste koppeling bijhouden
 topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -20,7 +20,7 @@ Ga [hier](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-
 
 ## Hoe de verbinding van de Kaart van de Activiteit het volgen PII Gegevens kan verzamelen {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
-> [!CAUTION] Als u Activiteitenkaarten bijhouden inschakelt, verzamelt u mogelijk PII-gegevens (Persoonlijk identificeerbare gegevens). Deze gegevens kunnen op zichzelf of met andere informatie worden gebruikt om één persoon te identificeren, contact op te nemen of te vinden, of om een persoon in context te identificeren.
+>[!CAUTION] Als u Activiteitenkaarten bijhouden inschakelt, verzamelt u mogelijk PII-gegevens (Persoonlijk identificeerbare gegevens). Deze gegevens kunnen op zichzelf of met andere informatie worden gebruikt om één persoon te identificeren, contact op te nemen of te vinden, of om een persoon in context te identificeren.
 
 Hier zijn een aantal bekende gevallen waarin PII-gegevens kunnen worden verzameld met behulp van Activiteitenkaarten bijhouden:
 
