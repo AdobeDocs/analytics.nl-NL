@@ -3,7 +3,7 @@ title: Overzicht van het vergelijkingspaneel voor segmenten
 description: Leer hoe te om het paneel van de segmentvergelijking, deel van SegmentIQ in de Werkruimte van de Analyse te gebruiken.
 keywords: Analysis Workspace;Segment IQ
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -74,7 +74,7 @@ Geeft de statistisch meest significante cijfers weer tussen de twee segmenten. E
 
 Deze visualisatie is gelijkaardig aan vrije vormlijsten in de Werkruimte van de Analyse. Als u een diepgaande analyse van een bepaalde metrische waarde wilt uitvoeren, plaatst u de muisaanwijzer boven een regelitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om die specifieke metrische waarde te analyseren. Als metrisch voor uw analyse irrelevant is, houd over het lijnpunt en klik &quot;X&quot;om het te verwijderen.
 
-> [!NOTE] De metriek die aan deze lijst wordt toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
+>[!NOTE] De metriek die aan deze lijst wordt toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
 
 ![Metrische gegevens bovenaan](assets/top-metrics.png)
 
@@ -90,7 +90,7 @@ Toont de statistisch meest significante afmetingswaarden over al uw dimensies. E
 
 Deze visualisatie is gelijkaardig aan vrije vormlijsten in de Werkruimte van de Analyse. Als u een diepgaande analyse van een specifieke afmetingswaarde wilt uitvoeren, plaatst u de muisaanwijzer boven een regelitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om die specifieke waarde voor de dimensie te analyseren. Als een afmetingswaarde irrelevant voor uw analyse is, beweegt zich over het lijnpunt en klikt &quot;X&quot;om het te verwijderen.
 
-> [!NOTE] De waarden van de afmeting die aan deze lijst worden toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
+>[!NOTE] De waarden van de afmeting die aan deze lijst worden toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
 
 ![Bovenste afmetingen](assets/top-dimension-item1.png)
 
@@ -106,7 +106,7 @@ Geeft aan welke andere segmenten (behalve de twee segmenten die ter vergelijking
 
 Deze visualisatie is gelijkaardig aan vrije vormlijsten in de Werkruimte van de Analyse. Als u een diepgaande analyse van een specifiek segment wilt uitvoeren, plaatst u de muisaanwijzer boven een lijstitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om dat specifieke segment te analyseren. Als een segment irrelevant voor uw analyse is, beweegt u de muisaanwijzer over het lijstitem en klikt u op de X om het te verwijderen.
 
-> [!NOTE] De segmenten die aan deze lijst worden toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
+>[!NOTE] De segmenten die aan deze lijst worden toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
 
 ![Bovenste segmenten](assets/top-segments.png)
 
