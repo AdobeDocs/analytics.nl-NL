@@ -2,14 +2,14 @@
 title: getTimeSinceLastVisit
 description: Meet de hoeveelheid tijd die tussen twee bezoeken is verstreken.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe-insteekmodule: getTimeSinceLastVisit
 
-> [!IMPORTANT] Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde te krijgen van Adobe Analytics. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>[!IMPORTANT] Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde te krijgen van Adobe Analytics. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 Met de `getTimeSinceLastVisit` insteekmodule kunt u bijhouden hoelang een bezoeker na zijn laatste bezoek naar uw site is teruggekeerd.
 
@@ -66,7 +66,7 @@ De `getTimeSinceLastVisit` methode gebruikt geen argumenten. Het retourneert de 
 * Tijd langer dan een dag wordt afgerond naar de dichtstbijzijnde dagbenchmark. Bijvoorbeeld, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
 * Als een bezoeker niet eerder is bezocht of de verstreken tijd langer is dan twee jaar, wordt de waarde ingesteld op `"New Visitor"`.
 
-> [!NOTE] Deze insteekmodule retourneert alleen een waarde bij de eerste aanraking van een bezoek.
+>[!NOTE] Deze insteekmodule retourneert alleen een waarde bij de eerste aanraking van een bezoek.
 
 Deze plug-in maakt een cookie van de eerste partij die wordt aangeroepen `"s_tslv"` op een Unix-tijdstempel van de huidige tijd. Het cookie verloopt na twee jaar inactiviteit.
 
