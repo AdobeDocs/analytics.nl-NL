@@ -6,7 +6,7 @@ title: Machtigingen voor Analytics Tools aanpassen
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,13 +15,13 @@ source-git-commit: ''
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer is verplaatst naar de [beheerconsole](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer is verplaatst naar de [beheerconsole](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** ingetrokken.
 
 Laat gebruikerstoestemmingen voor Algemene punten (het factureren, logboeken, enz.), het Beheer van het Bedrijf, Hulpmiddelen, de Toegang van de Dienst van het Web, de Bouwer van het Rapport, en de integratie van de Verbindingen van Gegevens toe.
 
 **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL All Report Access]** > **[!UICONTROL Analytics Tools]** > **[!UICONTROL Customize]**
 
-> [!NOTE] De release van 2016 (20 oktober) bracht wijzigingen in groepsbeheer. Zie [Administratieve Veranderingen - Herfst 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) voor een samenvatting van veranderingen.
+>[!NOTE] De release van 2016 (20 oktober) bracht wijzigingen in groepsbeheer. Zie [Administratieve Veranderingen - Herfst 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) voor een samenvatting van veranderingen.
 
 ## Rapporttoegang - Analysefuncties
 
