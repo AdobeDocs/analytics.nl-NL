@@ -5,7 +5,7 @@ title: DFA-integratie
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -93,7 +93,7 @@ De configuratiepagina&#39;s bieden een overzicht van de integratie, samen met nu
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> Weergavedoorvoer </td> 
-   <td colname="col3"> De gebeurtenis van de Douane die DFA mening-door metrische gegevens ontvangt. Gebruik de mening-door gebeurtenis met de Beeld-door Variabele om te zien welke campagnes geen directe doorklikken-door beïnvloedden, maar een rol in het drijven van verkeer aan de plaats in één of andere verdere tijd kunnen hebben gespeeld. <p>Gegevensconnectors wijzigen de naam van de geselecteerde aangepaste gebeurtenis in 'Doorheen kijken'. </p> </td> 
+   <td colname="col3"> De gebeurtenis van de Douane die DFA mening-door metrische gegevens ontvangt. Gebruik de mening-door gebeurtenis met de Beeld-door Variabele om te zien welke campagnes geen directe doorklikken-door beïnvloedden, maar een rol in het drijven van verkeer aan de plaats in één of andere verdere tijd kunnen hebben gespeeld. <p>Gegevensconnectors wijzigen de naam van de geselecteerde aangepaste gebeurtenis in "Doorheen tonen". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 6 </td> 
@@ -138,7 +138,7 @@ Om te begrijpen wanneer om mening-door en klikgegevens van DFA gegevens voor uw 
 
 De integratie van Genesis voor DFA maakt gebruik van de DFA Floodlight Configuration ID (dfa_SPOTID), die de consistentie van rapporten tussen DFA en het systeem van de de gegevensinzameling van Adobe verbetert.
 
-> [!NOTE] In een recente release van Google DFA werd de term Spotlight gewijzigd in Floodlight. De JavaScript-parameter `dfa_SPOTID` is benoemd op basis van de Spotlight-terminologie, maar wordt voor beide versies gebruikt.
+>[!NOTE] In een recente release van Google DFA werd de term Spotlight gewijzigd in Floodlight. De JavaScript-parameter `dfa_SPOTID` is benoemd op basis van de Spotlight-terminologie, maar wordt voor beide versies gebruikt.
 
 Om de integratie DFA op uw Website toe te laten, moet u uw code van de gegevensinzameling JavaScript bijwerken door het volgende toe te voegen:
 
@@ -199,7 +199,7 @@ Het DFA Integate Instellingenblok stelt variabelen in die vereist zijn voor de D
 
 **requestURL**: De externe DFA-host waarop kan worden gezocht naar advertentiegegevens. Wijzig deze waarde alleen in opdracht van Adobe.
 
-**maxDelay**: Hier geeft u op hoe lang de JavaScript-code voor gegevensverzameling wacht op een reactie van de DFA Floodlight-server, in milliseconden. Adobe raadt u aan met deze waarde te experimenteren om de optimale waarde te vinden op basis van het verkeer van uw site. Als u deze waarde verhoogt, worden over het algemeen meer DFA-gegevens verzameld, maar neemt het risico toe dat de gegevens van de basisbezoeker verloren gaan als de bezoeker de site verlaat tijdens de vertragingsperiode. Als u deze waarde verlaagt, loopt u minder risico dat raakgegevens verloren gaan, maar wordt minder DFA-gegevens verzonden met de raakgegevens van Adobe.
+**maxDelay**: Hiermee geeft u op hoe lang de JavaScript-code voor gegevensverzameling wacht op een reactie van de DFA Floodlight-server, in milliseconden. Adobe raadt u aan met deze waarde te experimenteren om de optimale waarde te vinden op basis van het verkeer van uw site. Als u deze waarde verhoogt, worden over het algemeen meer DFA-gegevens verzameld, maar neemt het risico toe dat de gegevens van de basisbezoeker verloren gaan als de bezoeker de site verlaat tijdens de vertragingsperiode. Als u deze waarde verlaagt, loopt u minder risico dat raakgegevens verloren gaan, maar wordt minder DFA-gegevens verzonden met de raakgegevens van Adobe.
 
 **visitCookie**: De naam van het cookie dat wordt gebruikt om DFA-aanroepen te beperken tot eenmaal per bezoek.
 
