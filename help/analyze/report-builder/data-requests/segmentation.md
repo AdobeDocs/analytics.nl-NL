@@ -4,7 +4,7 @@ title: Segmenten beheren
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,7 +19,7 @@ De Bouwer van het rapport kenmerkt een segmentatiepaneel in Stap 1 van de Tovena
 
 ## Segmenten toevoegen of bewerken {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
-> [!NOTE] Om segmenten toe te voegen of uit te geven, lanceert de het segmentinterface van de Bouwer van het Rapport de het segmentbouwer van Analytics in een venster van Microsoft Internet Explorer. Uw rapportbuildersessie blijft actief. Andere browsers dan Internet Explorer worden niet ondersteund voor deze bewerking.
+>[!NOTE] Om segmenten toe te voegen of uit te geven, lanceert de het segmentinterface van de Bouwer van het Rapport de het segmentbouwer van Analytics in een venster van Microsoft Internet Explorer. Uw rapportbuildersessie blijft actief. Andere browsers dan Internet Explorer worden niet ondersteund voor deze bewerking.
 
 1. Klik in het segmentpaneel van Stap 1 van de wizard Verzoek op **[!UICONTROL Add]**.
 1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Raadpleeg [https://marketing.adobe.com/resources/help/en_US/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)voor informatie over het samenstellen van segmenten.
@@ -58,7 +58,7 @@ U kunt één of veelvoudige segmenten op om het even welk bepaald verzoek toepas
 
 1. Controleer welk segment of welke segmenten u wilt toepassen.
 
-> [!NOTE] Of u Admin of een niet-Admin bent, in de Bouwer van het Rapport kunt u slechts die segmenten zien die u bezit en die die met u zijn gedeeld. (In de gebruikersinterface Marketing Reports &amp; Analytics kan de Admin alle segmenten in de organisatie zien.)
+>[!NOTE] Of u Admin of een niet-Admin bent, in de Bouwer van het Rapport kunt u slechts die segmenten zien die u bezit en die die met u zijn gedeeld. (In de gebruikersinterface Marketing Reports &amp; Analytics kan de Admin alle segmenten in de organisatie zien.)
 
 ## Filtersegmenten {#section_376E986D3E684999A7CDB08E53854159}
 
