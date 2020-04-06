@@ -3,7 +3,7 @@ description: Deze pagina maakt een lijst van alle variabelen van de Partner in d
 title: Data Privacy en Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,7 +16,7 @@ Met deze informatie kunt u direct identificeerbare gegevens identificeren of ind
 
 Als u een integratie van om het even welke hieronder schakelaars gebruikt, kunt u eenvoudig controleren welke partnervariabelen/classificaties in uw integratie potentieel identificeerbare gegevens of indirect identificeerbare gegevens bevatten.
 
-> [!NOTE] Deze informatie wordt verstrekt om u te helpen variabelen identificeren die moeten worden [geëtiketteerd](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), maar het is uw verantwoordelijkheid als gegevenscontrolemechanisme om de aangewezen etiketten toe te passen of andere acties voor de gereedheid [van de Privacy van](/help/admin/c-data-governance/an-gdpr-overview.md) Gegevens uit te voeren (het bijwerken van classificaties, etc.).
+>[!NOTE] Deze informatie wordt verstrekt om u te helpen variabelen identificeren die moeten worden [geëtiketteerd](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), maar het is uw verantwoordelijkheid als gegevenscontrolemechanisme om de aangewezen etiketten toe te passen of andere acties voor de gereedheid [van de Privacy van](/help/admin/c-data-governance/an-gdpr-overview.md) Gegevens uit te voeren (het bijwerken van classificaties, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
