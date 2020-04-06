@@ -3,14 +3,14 @@ description: 'null'
 title: Aanbevolen werkwijzen labelen
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Aanbevolen werkwijzen labelen
 
-> [!NOTE] Herinner dat het Etiketteren moet worden herzien telkens als een nieuwe rapportreeks wordt gecreeerd of wanneer de nieuwe variabele binnen een bestaande rapportreeks wordt toegelaten. Het kan ook nodig zijn om de labeling te herzien wanneer integratie van nieuwe oplossingen is ingeschakeld, omdat deze nieuwe variabelen toegankelijk kunnen maken waarvoor een label nodig kan zijn. Een nieuwe implementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, wat ook updates van labels kan vereisen.
+>[!NOTE] Herinner dat het Etiketteren moet worden herzien telkens als een nieuwe rapportreeks wordt gecreeerd of wanneer de nieuwe variabele binnen een bestaande rapportreeks wordt toegelaten. Het kan ook nodig zijn om de labeling te herzien wanneer integratie van nieuwe oplossingen is ingeschakeld, omdat deze nieuwe variabelen toegankelijk kunnen maken waarvoor een label nodig kan zijn. Een nieuwe implementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, wat ook updates van labels kan vereisen.
 
 ## Direct vs. indirect identificeerbare id&#39;s {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -66,7 +66,7 @@ Gebruik deze tabel om de typen id&#39;s te bepalen die u gebruikt wanneer u priv
 
 ## Aanbevolen procedures voor het instellen van labels voor verwijderen {#section_08166C99B48E49218392FAC18922C10E}
 
-> [!NOTE] Props zijn altijd niet hoofdlettergevoelig. Vars zijn standaard niet hoofdlettergevoelig, maar kunnen via de klantenservice van Adobe worden geconfigureerd om hoofdlettergevoelig te zijn. Als u een hoofdlettergevoelige eVar hebt die een identiteitskaart bevat, is het uw verantwoordelijkheid om het juiste geval te gebruiken wanneer het voorleggen van een verzoek van de Privacy van Gegevens zodat de geval die in het verzoek wordt gebruikt het geval aanpast dat in treffers wordt gebruikt die deze IDs bevatten.
+>[!NOTE] Props zijn altijd niet hoofdlettergevoelig. Vars zijn standaard niet hoofdlettergevoelig, maar kunnen via de klantenservice van Adobe worden geconfigureerd om hoofdlettergevoelig te zijn. Als u een hoofdlettergevoelige eVar hebt die een identiteitskaart bevat, is het uw verantwoordelijkheid om het juiste geval te gebruiken wanneer het voorleggen van een verzoek van de Privacy van Gegevens zodat de geval die in het verzoek wordt gebruikt het geval aanpast dat in treffers wordt gebruikt die deze IDs bevatten.
 
 De verwijderlabels DEL-DEVICE en DEL-PERSON moeten spaarzaam worden gebruikt. Wanneer toegepast op een variabele die geen identiteitskaart bevat die als deel van het verzoek van de Privacy van Gegevens werd gebruikt, zullen de tellingen (metriek) in historische rapporten van de Analyse bijna altijd veranderen.
 
