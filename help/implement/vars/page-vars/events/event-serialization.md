@@ -2,7 +2,7 @@
 title: Serienummering voor gebeurtenissen
 description: Help metrische gegevens op uw site te dupliceren.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 De rangschikking van gebeurtenissen is het proces om maatregelen uit te voeren om dubbele gebeurtenissen te verhinderen in Analytics rapportering in te gaan. Het dupliceren van gebeurtenissen is belangrijk in gevallen waarin bezoekers de pagina niet willen laten opblazen door maateenheden.
 
-> [!NOTE] Gegevensbronnen ondersteunen geen serialisatie van gebeurtenissen of deduplicatie.
+>[!NOTE] Gegevensbronnen ondersteunen geen serialisatie van gebeurtenissen of deduplicatie.
 
 ## Gebeurtenisserienummering instellen
 
@@ -23,7 +23,7 @@ Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niv
 * De-duplicatie gebeurt wereldwijd voor alle bezoekers. Als bezoeker A `event1:ABC` dan ook bezoeker B verzendt `event1:ABC`, negeert Adobe het tweede exemplaar van bezoeker B.
 * De-duplicatie verloopt niet. Als een bezoeker `event1:ABC` dan twee jaar later terugkomt en `event1:ABC` opnieuw verzendt, negeert Adobe het tweede exemplaar.
 
-> [!TIP] Als u de duplicatie van de [`purchase`](event-purchase.md) gebeurtenis wilt opheffen, gebruikt u de [`purchaseID`](../purchaseid.md) variabele.
+>[!TIP] Als u de duplicatie van de [`purchase`](event-purchase.md) gebeurtenis wilt opheffen, gebruikt u de [`purchaseID`](../purchaseid.md) variabele.
 
 ## Gebeurtenis-id&#39;s gebruiken in Adobe Experience Platform Starten
 
