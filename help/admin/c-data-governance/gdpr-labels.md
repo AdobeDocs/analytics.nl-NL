@@ -3,7 +3,7 @@ description: 'null'
 title: Data Privacy Labels voor analytische variabelen
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -22,7 +22,7 @@ De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels
 
 ## DULE Labels {#section_B2E78130957647338495EF37DE21D6BC}
 
-> [!NOTE] Het Data Usage Labeling &amp; Enforcement (DULE) Framework is ontworpen om een uniforme manier te bieden voor alle Adobe Solutions/Services/Platforms om metagegevens over gegevens in de Adobe Experience Cloud vast te leggen, te communiceren en te gebruiken. De meta-gegevens helpen gegevenscontrolemechanismen wijzen op welke gegevens persoonlijke informatie is, welke gegevens gevoelige gegevens zijn, en welke contractbeperkingen met gegevens worden geassocieerd. In deze eerste versie stelt Analytics alleen de DULE-labels beschikbaar die relevant zijn voor Data Privacy. Aangezien andere producten van Adobe steun voor de etiketten van DULE uitvoeren, zullen de toekomstige versies extra gevoelige gegevensetiketten, evenals contractetiketten introduceren, die zullen helpen ervoor zorgen dat de gegevens die tussen producten worden gedeeld slechts op wettelijk toegestane manieren worden gebruikt.
+>[!NOTE] Het Data Usage Labeling &amp; Enforcement (DULE) Framework is ontworpen om een uniforme manier te bieden voor alle Adobe Solutions/Services/Platforms om metagegevens over gegevens in de Adobe Experience Cloud vast te leggen, te communiceren en te gebruiken. De meta-gegevens helpen gegevenscontrolemechanismen wijzen op welke gegevens persoonlijke informatie is, welke gegevens gevoelige gegevens zijn, en welke contractbeperkingen met gegevens worden geassocieerd. In deze eerste versie stelt Analytics alleen de DULE-labels beschikbaar die relevant zijn voor Data Privacy. Aangezien andere producten van Adobe steun voor de etiketten van DULE uitvoeren, zullen de toekomstige versies extra gevoelige gegevensetiketten, evenals contractetiketten introduceren, die zullen helpen ervoor zorgen dat de gegevens die tussen producten worden gedeeld slechts op wettelijk toegestane manieren worden gebruikt.
 
 ## Identiteitsgegevenslabels (DULE) {#identity-data-labels}
 
@@ -240,7 +240,7 @@ Het is aanvaardbaar om zelfde namespace voor verschillende variabelen binnen de 
 
 Als een ander voorbeeld, zou u een identiteitskaart van CRM kunnen hebben die soms via eVar1 wordt verzonden en soms via prop7 wordt verzonden. Vervolgens hebt u een verwerkingsregel die de waarde van Var1, indien aanwezig, naar Var3 kopieert. Anders wordt de waarde van prop7 gekopieerd naar eVar3. In dit scenario, zal eVar3 altijd identiteitskaart van CRM bevatten als het gekend is, zodat slechts eVar3 een ID-PERSON etiket vereist.
 
-> [!CAUTION] De naamruimten &quot;bezoekerId&quot; en &quot;customVisitorId&quot; zijn gereserveerd voor het identificeren van het verouderde cookie voor bijhouden van analysemogelijkheden en de bezoeker-id van de Analytics-klant. Gebruik deze naamruimten niet voor variabelen voor aangepast verkeer of conversie.
+>[!CAUTION] De naamruimten &quot;bezoekerId&quot; en &quot;customVisitorId&quot; zijn gereserveerd voor het identificeren van het verouderde cookie voor bijhouden van analysemogelijkheden en de bezoeker-id van de Analytics-klant. Gebruik deze naamruimten niet voor variabelen voor aangepast verkeer of conversie.
 
 ## De Types van Variabelen en de Etiketten van Gegevens Privacy/DULE die zij steunen {#section_CE7C3EDE1344466A98BC45E394B40762}
 
