@@ -4,7 +4,7 @@ title: Het oplossen van problemen en beste praktijken voor de Bouwer van het Rap
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -104,7 +104,7 @@ Alle geplande rapporttijden na vier uur. Het systeem probeert nog drie keer te p
 
 Een lijst met foutberichten die soms kunnen optreden terwijl u Report Builder gebruikt.
 
-> [!NOTE] Dit is slechts een selectie van foutberichten en geen uitputtende lijst. Neem contact op met de beheerder voor meer informatie over het oplossen van fouten.
+>[!NOTE] Dit is slechts een selectie van foutberichten en geen uitputtende lijst. Neem contact op met de beheerder voor meer informatie over het oplossen van fouten.
 
 **Deze eigenschap kan slechts op een open werkboek worden toegepast.**
 
