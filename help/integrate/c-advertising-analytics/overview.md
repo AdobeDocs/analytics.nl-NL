@@ -3,7 +3,7 @@ description: 'null'
 title: Overzicht van Advertising Analytics
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Met Advertising Analytics kunt u al uw gegevens van Google en Bing Paid Search naast elkaar weergeven, in Adobe Analytics. Eerder moesten alle gegevens van Google AdWords/DFA of Microsoft Bing Ads worden weergegeven in Adobe Advertising Cloud (AMO) of in Google/Bing. De volgende gegevens worden nu opgehaald in Adobe Analytics: Impressies, klikken, Kosten, Kwaliteitsscore en Gemiddelde positie rechtstreeks vanuit de zoekprogramma&#39;s en via een AMO ID-instantie (klik op Instanties).
 
-> [!NOTE] Yahoo Gemini werd door Microsoft Bing geabsorbeerd op 31 maart 2019. Als gevolg hiervan is de optie Yahoo Gemini-advertentieaccount niet meer beschikbaar.
+>[!NOTE] Yahoo Gemini werd door Microsoft Bing geabsorbeerd op 31 maart 2019. Als gevolg hiervan is de optie Yahoo Gemini-advertentieaccount niet meer beschikbaar.
 
 Door de gegevens van deze zoekprogramma&#39;s samen te brengen in Adobe Analytics, kunt u dezelfde gegevens analyseren met de mogelijkheden van de Analyse Workspace. Deze analyse wordt vergemakkelijkt door een nieuwe sjabloon voor [betaalde zoekprestaties](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) in Workspace.
 
@@ -87,7 +87,7 @@ Advertising Analytics voegt de volgende dimensies en metriek toe aan de Analyse 
 | Advertentie (AMO-ID) | De beschrijving voor Advertentie en Advertentie die op je advertentie wordt gebruikt. |
 | Trefwoord (AMO-id) | De trefwoordwaarde van uw zoekprogrammaaccount |
 | Type overeenkomst (AMO-id) | Het type van Gelijke van het Sleutelwoord dat aan uw sleutelwoord wordt toegewezen. De waarden zijn doorgaans breed, woordelijk, exact of geen waarde als het type Advertentie geen overeenkomend type heeft. |
-| Advertentietype (AMO-id) | Het type advertentie dat wordt aangeboden. Dit is doorgaans &#39;&#39;Text Ad&#39;&#39;. |
+| Advertentietype (AMO-id) | Het type advertentie dat wordt aangeboden. Dit is doorgaans &quot;Tekst toevoegen&quot;. |
 | Advertentitel (AMO-ID) | Het object Title dat in de advertentie wordt gebruikt. |
 | Advertentiebeschrijving (AMO-id) | Het object Advertentiebeschrijving dat in de advertentie wordt gebruikt. |
 | URL voor advertentieweergave (AMO-id) | Het object URL van advertentieweergave toevoegen dat in de advertentie wordt gebruikt. |
