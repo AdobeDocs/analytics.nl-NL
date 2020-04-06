@@ -3,7 +3,7 @@ description: Voordat u deze integratie activeert, moet u de volgende items contr
 title: Voordat u deze integratie activeert
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -34,7 +34,7 @@ Bekijk de volgende informatie over deze integratie van de Verbinding van Gegeven
 * **Geldig Silverpop-account:** Als u de integratie van de e-mailgegevens van gegevensconnectors wilt gebruiken, moet een client een actieve Silverpop-account hebben waarvoor e-mail is ingeschakeld en moet de client over actieve gebruikersgegevens beschikken.
 * **Neem contact op met uw Silverpop-vertegenwoordiger**. Deze integratie wordt niet automatisch ingeschakeld door Silverpop. U moet contact opnemen met uw Silverpop-vertegenwoordiger om de Silverpop-installatie te starten voordat gegevens uit Analytics worden geïmporteerd of geëxporteerd.
 
-> [!NOTE] Deze integratie werkt alleen met Engage-organisaties (niet Transact).
+>[!NOTE] Deze integratie werkt alleen met Engage-organisaties (niet Transact).
 
 ## Prijzen{#pricing}
 
