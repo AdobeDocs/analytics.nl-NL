@@ -2,14 +2,14 @@
 title: Oudere Adobe Experience Cloud Debugger
 description: Installeer de verouderde foutopsporing voor Adobe Experience Cloud. Dit foutopsporingsprogramma controleert tags voor Analytics, Target, Advertising Cloud, Identity Service, DTM en Launch.
 translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Oudere Adobe Experience Cloud Debugger
 
-> [!IMPORTANT] Dit foutopsporingsprogramma wordt niet meer onderhouden. Adobe raadt u aan in plaats daarvan de [Adobe Experience Cloud Debugger Chrome Extension](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)te gebruiken.
+>[!IMPORTANT] Dit foutopsporingsprogramma wordt niet meer onderhouden. Adobe raadt u aan in plaats daarvan de [Adobe Experience Cloud Debugger Chrome Extension](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)te gebruiken.
 
 De [!UICONTROL Legacy Debugger] controletags voor de meeste Adobe Experience Cloud-services. Met het foutopsporingsprogramma kunt u zien welke gegevens op een bepaalde pagina op uw site naar Adobe worden verzonden. U kunt deze informatie gebruiken om de implementatie van uw organisatie problemen op te lossen of te bevestigen.
 
@@ -68,7 +68,7 @@ Safari kan niet handmatig een bladwijzer maken, maar een URL van een bladwijzer 
 
 Navigeer naar de gewenste pagina op uw site en klik vervolgens op de bladwijzer. Er wordt een pop-upvenster weergegeven met de gegevens die naar Adobe zijn verzonden.
 
-> [!NOTE] Bepaalde insteekmodules voor het blokkeren van advertenties en pop-upblokkeringen kunnen het laden van het foutopsporingsvenster beïnvloeden. Controleer op geblokkeerde pop-ups in uw browser en sta deze toe zodat de foutopsporing correct werkt.
+>[!NOTE] Bepaalde insteekmodules voor het blokkeren van advertenties en pop-upblokkeringen kunnen het laden van het foutopsporingsvenster beïnvloeden. Controleer op geblokkeerde pop-ups in uw browser en sta deze toe zodat de foutopsporing correct werkt.
 
 Debugger heeft verscheidene beschikbare opties, die allen aanpassen hoe het gegeven wordt getoond. Geen van deze opties is van invloed op de gegevensverzameling.
 
