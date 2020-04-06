@@ -2,7 +2,7 @@
 title: doPlugins
 description: Configureer logica vlak voordat een hit wordt gecompileerd en naar Adobe verzonden.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -28,7 +28,7 @@ Stel de `s.doPlugins` variabele in op een functie die de gewenste code bevat. De
 s.doPlugins = function() {/* Desired code */};
 ```
 
-> [!NOTE] Stel een functie slechts eenmaal in de implementatie in op de `doPlugins` variabele. Als u de `doPlugins` variabele meerdere keren instelt, wordt alleen de meest recente code gebruikt.
+>[!NOTE] Stel een functie slechts eenmaal in de implementatie in op de `doPlugins` variabele. Als u de `doPlugins` variabele meerdere keren instelt, wordt alleen de meest recente code gebruikt.
 
 ## Voorbeelden
 
@@ -44,4 +44,4 @@ s.doPlugins = function() {
 }
 ```
 
-> [!NOTE] Eerdere versies van AppMeasurement hadden iets verschillende `doPlugins()` code. Adobe raadt u aan bovenstaande indeling als beste praktijk te gebruiken.
+>[!NOTE] Eerdere versies van AppMeasurement hadden iets verschillende `doPlugins()` code. Adobe raadt u aan bovenstaande indeling als beste praktijk te gebruiken.
