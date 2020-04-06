@@ -2,7 +2,7 @@
 title: cookieDomainPeriods
 description: Help AppMeasurement weet welk domein cookies moeten worden opgeslagen als het achtervoegsel van uw domein een punt bevat.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ Met de `fpCookieDomainPeriods` variabele kan AppMeasurement bepalen waar Analyti
 * Voor domeinen zoals `example.com` of `www.example.com`, te hoeven deze variabele niet worden geplaatst. Indien nodig, kunt u deze variabele plaatsen aan `"2"`.
 * Voor domeinen zoals `example.co.uk` of `www.example.co.jp`, plaats deze variabele aan `"3"`.
 
-> [!IMPORTANT] Houd geen rekening met subdomeinen voor deze variabele. Stel bijvoorbeeld niet in `fpCookieDomainPeriods` de voorbeeld-URL `store.toys.example.com`. AppMeasurement herkent standaard dat cookies moeten worden opgeslagen op `example.com`, zelfs op URL&#39;s met veel subdomeinen.
+>[!IMPORTANT] Houd geen rekening met subdomeinen voor deze variabele. Stel bijvoorbeeld niet in `fpCookieDomainPeriods` de voorbeeld-URL `store.toys.example.com`. AppMeasurement herkent standaard dat cookies moeten worden opgeslagen op `example.com`, zelfs op URL&#39;s met veel subdomeinen.
 
 ## Domeinperioden van de eerste partij in het opstarten van het Adobe Experience Platform
 
