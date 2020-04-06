@@ -5,7 +5,7 @@ title: Dashboardbeheer
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 92eaaeafdd587febcfe7fe60f696baca0691b4bc
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -70,11 +70,11 @@ Stappen die beschrijven hoe de gedeelde opties voor dashboardbeheer worden gebru
 
 Bestaande oude oude dashboards worden verder uitgevoerd en u kunt ze nog steeds bewerken, downloaden en plannen; u kunt echter geen nieuwe oude dashboards meer maken. U wordt ten zeerste aangeraden bestaande oudere dashboards te upgraden naar de nieuwere dashboardindeling.
 
-> [!NOTE] Voorwaarts beweegt, overweeg het gebruiken van de projecten [van de Werkruimte van de](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) Analyse en hun capaciteit om worden gedownload en worden gepland.
+>[!NOTE] Voorwaarts beweegt, overweeg het gebruiken van de projecten [van de Werkruimte van de](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) Analyse en hun capaciteit om worden gedownload en worden gepland.
 
 Wanneer u het verouderde dashboard kopieert, opent het systeem het verouderde dashboard voor bewerking, waar u verouderde inhoud of nieuwe inhoud kunt toevoegen. Wanneer u een verouderd dashboard kopieert, blijft het origineel behouden in de lijst met verouderde dashboards.
 
-> [!NOTE] Wanneer u verouderde inhoud toevoegt aan een dashboard, wordt een dashboard gemaakt op basis van de meest recente dashboardfunctionaliteit. Nochtans, zou het erfenisrapport gegevens kunnen bevatten die op het vorige gegevensplatform gebaseerd zijn.
+>[!NOTE] Wanneer u verouderde inhoud toevoegt aan een dashboard, wordt een dashboard gemaakt op basis van de meest recente dashboardfunctionaliteit. Nochtans, zou het erfenisrapport gegevens kunnen bevatten die op het vorige gegevensplatform gebaseerd zijn.
 
 **Een verouderd dashboard van versie 14.x migreren**
 
@@ -108,7 +108,7 @@ In [!UICONTROL Dashboard Manager], kunt u zien of een dashboard voor levering ge
 
 ## Een dashboard archiveren
 
-> [!NOTE] Deze functionaliteit is niet meer beschikbaar in januari 2020.
+>[!NOTE] Deze functionaliteit is niet meer beschikbaar in januari 2020.
 
 Stappen die beschrijven hoe u verzonden dashboard als PDF-bestand archiveert. Het systeem slaat het gearchiveerde dossier twee jaar op, of tot u een maximumgrens van 4 GB van gearchiveerde rapporten bereikt, welke eerst komt.
 
