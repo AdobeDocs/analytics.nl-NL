@@ -4,7 +4,7 @@ title: Overzicht van Data Warehouse
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,7 +19,7 @@ In Data Warehouse worden bestanden die groter zijn dan 1 MB automatisch gecompri
 
 Het Pakhuis van gegevens kan een onbeperkt aantal rijen in één enkel verzoek voor individuele geplande en gedownloade rapporten verwerken.
 
-> [!NOTE] Data Warehouse rapporteert de eerste waarde die in de rapportageperiode is aangetroffen.
+>[!NOTE] Data Warehouse rapporteert de eerste waarde die in de rapportageperiode is aangetroffen.
 
 >[!IMPORTANT]
 >
