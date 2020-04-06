@@ -5,7 +5,7 @@ title: Classificaties
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -28,7 +28,7 @@ Zodra geclassificeerd, kan om het even welk rapport dat u het gebruiken van de z
 >
 >De mogelijkheid om classificaties met numerieke waarden 2 en datum in te voeren is uit de codebase verwijderd. Deze wijziging wordt van kracht met ingang van het onderhoudscontract van juni 2019. Als u Numerieke of Datum-Toegelaten kolommen in uw de invoerdossier hebt, zullen die cellen stil worden genegeerd, en om het even welke andere gegevens binnen dat dossier zullen worden ingevoerd als normaal. Bestaande classificaties kunnen nog steeds worden geëxporteerd via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage.
 
-> [!NOTE] In de versie Analytics Maintenance van 10 mei 2018, heeft Adobe de functionaliteit van voor datums geschikte en numerieke classificaties beperkt. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. Er kunnen geen nieuwe datums en numerieke classificaties worden toegevoegd. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage.
+>[!NOTE] In de versie Analytics Maintenance van 10 mei 2018, heeft Adobe de functionaliteit van voor datums geschikte en numerieke classificaties beperkt. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. Er kunnen geen nieuwe datums en numerieke classificaties worden toegevoegd. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage.
 
 Nadat u de classificaties hebt gemaakt, kunt u de nieuwe gegevenskenmerken in Adobe Analytics gebruiken.
 
