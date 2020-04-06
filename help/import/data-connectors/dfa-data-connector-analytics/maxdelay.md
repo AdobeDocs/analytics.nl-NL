@@ -2,7 +2,7 @@
 title: maxDelay
 description: Bepaal de maximumhoeveelheid tijd die AppMeasurement op een reactie van DFA wacht alvorens een beeldverzoek te verzenden.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -31,4 +31,4 @@ s.maxDelay = 750;
 * Het verminderen van wachttijd vermindert het risico van het verliezen van Analytics klapgegevens, maar kan de hoeveelheid DFA gegevens verminderen die met klapgegevens worden verzonden.
 * Het verliezen van DFA integratiegegevens gebeurt wanneer de `s.maxDelay` periode niet genoeg tijd voor de gastheer DFA aanpast om te antwoorden.
 
-> [!NOTE] Adobe heeft geen controle over de responstijd van DFA. Raadpleeg de DFA-accountbeheerder van uw organisatie als u consistente problemen ziet, zelfs nadat u de maximale vertragingsperiode binnen een redelijk tijdsbestek hebt gebracht.
+>[!NOTE] Adobe heeft geen controle over de responstijd van DFA. Raadpleeg de DFA-accountbeheerder van uw organisatie als u consistente problemen ziet, zelfs nadat u de maximale vertragingsperiode binnen een redelijk tijdsbestek hebt gebracht.
