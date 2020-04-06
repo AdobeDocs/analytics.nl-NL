@@ -3,7 +3,7 @@ description: Beschrijft het driestappenplaatsingsproces.
 title: De integratie implementeren
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -72,7 +72,7 @@ Stappen om te controleren of de integratie met Lyris/Adobe Analytics is gelukt.
 
 Zodra alle plaatsingsstappen zijn voltooid, kunt u bevestigen dat de integratie met succes gegevens overbrengt.
 
-> [!NOTE] Het duurt een paar dagen voordat de gegevensuitwisseling begint. Neem contact op met Lyris nadat u de integratie hebt geactiveerd.
+>[!NOTE] Het duurt een paar dagen voordat de gegevensuitwisseling begint. Neem contact op met Lyris nadat u de integratie hebt geactiveerd.
 
 1. Navigeer naar uw Lyris-integratie binnen gegevensconnectors. Onder **[!UICONTROL Support]** tab > **[!UICONTROL Integration Activity Log]** ziet u bijvoorbeeld gebeurtenissen als **[!UICONTROL Metric data imported successfully]** en/of **[!UICONTROL Classification data imported successfully]**:
 
@@ -86,7 +86,7 @@ Zodra alle plaatsingsstappen zijn voltooid, kunt u bevestigen dat de integratie 
 
 Hiermee wordt de insteekcode van de insteekmodule Lyris weergegeven die moet worden gebruikt met Adobe Analytics.
 
-> [!NOTE] Controleer of u de benodigde eVars hebt gereserveerd in het Admin Tool of Adobe Analytics voordat u met de onderstaande code gaat werken. Als u weet welke eVars u hebt gereserveerd, vervangt u eVarN door de betreffende eVar. bv. eVar10.
+>[!NOTE] Controleer of u de benodigde eVars hebt gereserveerd in het Admin Tool of Adobe Analytics voordat u met de onderstaande code gaat werken. Als u weet welke eVars u hebt gereserveerd, vervangt u eVarN door de betreffende eVar. bv. eVar10.
 
 ```
 /* 
