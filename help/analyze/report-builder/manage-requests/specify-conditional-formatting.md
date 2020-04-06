@@ -4,7 +4,7 @@ title: Voorwaardelijke opmaak opgeven
 topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,5 +19,5 @@ Met voorwaardelijke opmaak kunt u cellen identificeren die resultaten of waarden
 
 Om veiligheidsredenen, zijn de macro&#39;s u voor het werkboek schrijft gebruikend Visual Basic van Excel voor de taal van Toepassingen (VBA) gehandicapt.
 
-> [!NOTE] Voorwaardelijke opmaak is een Excel-functie. Voor informatie over het creëren van het formatteren regels, zie de documentatie van Excel.
+>[!NOTE] Voorwaardelijke opmaak is een Excel-functie. Voor informatie over het creëren van het formatteren regels, zie de documentatie van Excel.
 
