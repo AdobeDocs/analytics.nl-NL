@@ -5,7 +5,7 @@ title: Classificatieregels
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -51,7 +51,7 @@ about_classification_rules.xml
 * [Wanneer classificeren de regels sleutels niet?](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [Info over Prioriteit regel](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
-> [!NOTE] Numerieke 2-classificaties worden [!UICONTROL Rule Builder] niet ondersteund.
+>[!NOTE] Numerieke 2-classificaties worden [!UICONTROL Rule Builder] niet ondersteund.
 
 ## Belangrijke informatie over regels
 
@@ -105,11 +105,11 @@ regex_classification_rules.xml
 * [Reguliere expressies - voorbeeld &quot;Bevat niet&quot;](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [Reguliere expressies - referentietabel](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
-> [!NOTE] Reguliere expressies zijn het meest geschikt voor het bijhouden van codes die gebruikmaken van scheidingstekens.
+>[!NOTE] Reguliere expressies zijn het meest geschikt voor het bijhouden van codes die gebruikmaken van scheidingstekens.
 
 ## Reguliere expressie - voorbeeld van code bijhouden {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
-> [!NOTE] Als het volgen code URL gecodeerd is, zal het **niet** door de Bouwer van Regels worden geclassificeerd.
+>[!NOTE] Als het volgen code URL gecodeerd is, zal het **niet** door de Bouwer van Regels worden geclassificeerd.
 
 In dit voorbeeld, veronderstel u volgende campagne-identiteitskaart wilt classificeren:
 
