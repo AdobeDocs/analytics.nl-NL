@@ -3,7 +3,7 @@ description: Hier volgt een overzicht van de instructies waarmee u uw account-id
 title: Account-id's zoeken
 uuid: 34f9bb8d-84b4-4890-9200-c926d0abb1d6
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -26,6 +26,6 @@ Klik op het accountpictogram rechtsboven om het accountnummer van AdWords (Custo
 
 Zowel de account-id als de klant-id zijn vereist. Deze worden weergegeven op het tabblad Accounts.
 
-> [!NOTE] Het rekeningnummer is niet hetzelfde als de account-id.
+>[!NOTE] Het rekeningnummer is niet hetzelfde als de account-id.
 
 ![](assets/bing_id.png)
