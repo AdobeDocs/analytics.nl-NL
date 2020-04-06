@@ -4,7 +4,7 @@ title: Overzicht van de analysewerkruimte
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -67,7 +67,7 @@ In combinatie met de [rijke mogelijkheden voor tekstbewerking](/help/analyze/ana
 
 Als u deelvensters of visualisaties hebt samengevouwen in uw project, kunt u door op een koppeling te klikken het deelvenster/de visualisatie uitvouwen, zodat gebruikers het kunnen zien.
 
-> [!NOTE] U kunt deze functie ook gebruiken met de **[!UICONTROL Edit Description]** rechtermuisknop.
+>[!NOTE] U kunt deze functie ook gebruiken met de **[!UICONTROL Edit Description]** rechtermuisknop.
 
 ## Koppeling naar andere projecten {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
