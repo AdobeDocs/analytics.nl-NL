@@ -4,7 +4,7 @@ title: Aanpasbare overlays
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -47,7 +47,7 @@ Bubbelbedekkingen worden weergegeven wanneer u deze bedekking selecteert in Over
 
 ![](assets/bubble_overlay.png)
 
-> [!NOTE] Bubble-overlays voor submenu&#39;s worden alleen weergegeven wanneer u het submenu weergeeft:
+>[!NOTE] Bubble-overlays voor submenu&#39;s worden alleen weergegeven wanneer u het submenu weergeeft:
 >
 >![](assets/bubbles_submenu.png)>
 
