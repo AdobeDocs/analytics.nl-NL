@@ -3,7 +3,7 @@ description: De componenten in de Werkruimte van de Analyse bestaan uit metriek,
 title: Overzicht van componenten
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -22,7 +22,7 @@ Zie [Creeer een freeform analyseproject](/help/analyze/analysis-workspace/build-
 
 U kunt componenten (afzonderlijk of door meer dan één te selecteren) op verschillende manieren beheren. Klik met de rechtermuisknop op een component of klik **[!UICONTROL Actions]** boven aan de lijst met componenten.
 
-> [!NOTE] Deze handelingen zijn niet van toepassing op tijdcomponenten.
+>[!NOTE] Deze handelingen zijn niet van toepassing op tijdcomponenten.
 
 | Componentactie | Beschrijving |
 |--- |--- |
@@ -32,4 +32,4 @@ U kunt componenten (afzonderlijk of door meer dan één te selecteren) op versch
 | Delen | Alleen van toepassing op segmenten. |
 | Verwijderen | Alleen van toepassing op segmenten. |
 
-[Metriek, segmenten en datums maken op YouTube](https://www.youtube.com/watch?v=XXJuNAte8E8&index=25&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:51)
+[Metriek, segmenten en datums maken op YouTube](https://www.youtube.com/watch?v=XXJuNAte8E8&amp;index=25&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:51)
