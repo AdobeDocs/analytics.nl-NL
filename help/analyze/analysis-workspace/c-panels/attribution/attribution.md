@@ -3,7 +3,7 @@ description: 'null'
 title: Overzicht van het deelvenster Kenmerken
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ Het attributiepaneel is een [Attribution IQ](../../attribution-iq.md) -functie w
 | ![Tijdverlies](assets/time_decay.png) | Verval | Volgt en exponentieel verval met een aangepaste parameter voor de halfwaardetijd, waarbij de standaardwaarde 7 dagen is. Het gewicht van elk kanaal is afhankelijk van de hoeveelheid tijd die is verstreken tussen het starten van het aanraakpunt en de uiteindelijke conversie. De formule die wordt gebruikt om krediet te bepalen is `2^(-t/halflife)`, waarbij `t` de hoeveelheid tijd tussen een aanraakpunt en een conversie is. Alle aanraakpunten worden vervolgens genormaliseerd tot 100%. | Ideaal voor teams die regelmatig videoreclame of -markten uitvoeren tegen evenementen met een vooraf bepaalde datum. Hoe langer een conversie plaatsvindt na een marketinggebeurtenis, hoe minder krediet wordt gegeven. |
 | ![Deelname](assets/participation.png) | Deelname | Biedt 100% krediet aan alle unieke aanraakpunten. Het totale aantal omzettingen wordt opgevoerd in vergelijking met andere attributiemodellen. De participatie dedupliceert kanalen die veelvoudige tijden worden gezien. | Uitstekend om te begrijpen wie vaak klanten worden blootgesteld aan een bepaalde interactie. Mediaorganisaties gebruiken dit model vaak om de snelheid van de inhoud te berekenen. De detailhandelorganisaties gebruiken vaak dit model om te begrijpen welke delen van hun plaats aan omzetting kritiek zijn. |
 
-> [!NOTE] Het volgende algoritmische toewijzingsmodel is momenteel beschikbaar in [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) en zal uiteindelijk deel uitmaken van een algemene release.
+>[!NOTE] Het volgende algoritmische toewijzingsmodel is momenteel beschikbaar in [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) en zal uiteindelijk deel uitmaken van een algemene release.
 
 | UI-pictogram | Attributiemodel | Definitie | Wanneer gebruiken |
 | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ Afhankelijk van het terugkijkvenster en het attributiemodel, ontvangen de kanale
       * Sociaal: 18,6%, krijgt $ 9,32
       * Betaalde zoekopdracht: 13,8%, met $ 6,92
 
-> [!TIP] Andere conversiegebeurtenissen, zoals orders of aangepaste gebeurtenissen, worden ook verdeeld als de kredieten tot meer dan één kanaal behoren. Als twee kanalen bijvoorbeeld via een lineair toewijzingsmodel een bijdrage leveren aan een aangepaste gebeurtenis, krijgen beide kanalen 0,5 van de aangepaste gebeurtenis. Deze gebeurtenisfracties worden bij alle bezoeken opgeteld en vervolgens afgerond naar het dichtstbijzijnde gehele getal voor rapportage.
+>[!TIP] Andere conversiegebeurtenissen, zoals orders of aangepaste gebeurtenissen, worden ook verdeeld als de kredieten tot meer dan één kanaal behoren. Als twee kanalen bijvoorbeeld via een lineair toewijzingsmodel een bijdrage leveren aan een aangepaste gebeurtenis, krijgen beide kanalen 0,5 van de aangepaste gebeurtenis. Deze gebeurtenisfracties worden bij alle bezoeken opgeteld en vervolgens afgerond naar het dichtstbijzijnde gehele getal voor rapportage.
 
 ## Kenmerken gebruiken met marketingkanalen
 
@@ -97,4 +97,4 @@ Als u bijvoorbeeld een VRS maakt met een toegepast segment &quot;Weergaveits&quo
 
 ![Virtuele rapportsuite met alleen weergave](assets/vrs-aiq-example.png)
 
-> [!NOTE] Als een segment klappen onderdrukt die uw metrisch bevatten, zullen die metrische instanties niet aan om het even welke afmeting worden toegeschreven. Nochtans, zal een gelijkaardig rapportfilter eenvoudig sommige afmetingswaarden verbergen, zonder enige invloed op metriek die per het attributiemodel wordt verwerkt. Als gevolg hiervan kunnen een segment en filter met vergelijkbare definities soms lagere waarden voor het segment retourneren.
+>[!NOTE] Als een segment klappen onderdrukt die uw metrisch bevatten, zullen die metrische instanties niet aan om het even welke afmeting worden toegeschreven. Nochtans, zal een gelijkaardig rapportfilter eenvoudig sommige afmetingswaarden verbergen, zonder enige invloed op metriek die per het attributiemodel wordt verwerkt. Als gevolg hiervan kunnen een segment en filter met vergelijkbare definities soms lagere waarden voor het segment retourneren.
