@@ -2,7 +2,7 @@
 title: contextData
 description: Met contextgegevensvariabelen kunt u aangepaste variabelen definiëren op elke pagina die door verwerkingsregels kan worden gelezen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## De verwerkingsregels van het gebruik om analysevariabelen te bevolken
 
-> [!IMPORTANT] Contextgegevensvariabelen worden verwijderd nadat de verwerkingsregels zijn uitgevoerd. Als u geen verwerkingsregels hebt die waarden in variabelen plaatsen, worden die gegevens permanent verloren!
+>[!IMPORTANT] Contextgegevensvariabelen worden verwijderd nadat de verwerkingsregels zijn uitgevoerd. Als u geen verwerkingsregels hebt die waarden in variabelen plaatsen, worden die gegevens permanent verloren!
 
 1. Werk uw implementatie bij om namen en waarden voor de variabele van de contextgegevens in te stellen.
 2. Meld u aan bij Adobe Analytics en ga naar Admin > Report Suites.
