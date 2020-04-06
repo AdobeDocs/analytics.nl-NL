@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Handelingen instellen voor activeren van voorwaarde
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -20,7 +20,7 @@ Naast geïntegreerde hulpmiddelen zoals [!DNL Adobe Analytics] en Google Analyti
 
 Elke regel kan zoveel scripts of HTML-injecties activeren als u wilt.
 
-> [!NOTE] Omdat DTM u toestaat om douanecode in uw pagina te injecteren, gelieve te letten op niet om cross-site scripting (XSS) kwetsbaarheid (zie de gids [van](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) OWASP voor meer informatie) tot stand te brengen. Het gebruik van gegevenselementen in een script vereist bijzondere aandacht. Ga er altijd van uit dat gegevenselementwaarden afkomstig kunnen zijn van een niet-vertrouwde bron.
+>[!NOTE] Omdat DTM u toestaat om douanecode in uw pagina te injecteren, gelieve te letten op niet om cross-site scripting (XSS) kwetsbaarheid (zie de gids [van](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) OWASP voor meer informatie) tot stand te brengen. Het gebruik van gegevenselementen in een script vereist bijzondere aandacht. Ga er altijd van uit dat gegevenselementwaarden afkomstig kunnen zijn van een niet-vertrouwde bron.
 
 **Handelingen instellen voor activeren van voorwaarde**
 
