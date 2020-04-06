@@ -2,14 +2,14 @@
 title: getAndPersistValue
 description: Sla een waarde op die later kan worden opgehaald.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe-insteekmodule: getAndPersistValue
 
-> [!IMPORTANT] Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde te krijgen van Adobe Analytics. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>[!IMPORTANT] Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde te krijgen van Adobe Analytics. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 Met de `getAndPersistValue` insteekmodule kunt u een waarde opslaan in een cookie die later tijdens een bezoek kan worden opgehaald. Deze rol komt overeen met de functie [!UICONTROL Storage duration] in Adobe Experience Platform Launch. Adobe raadt u aan deze plug-in te gebruiken als u na het instellen van de variabele automatisch een analysevariabele tot dezelfde waarde wilt behouden. Deze insteekmodule is niet nodig als de [!UICONTROL Storage duration] functie Starten voldoende is of als u variabelen niet op dezelfde waarde hoeft in te stellen en te behouden bij volgende treffers. Voor de ingebouwde persistentie van eVars is het gebruik van deze plug-in niet vereist, aangezien deze variabelen door Adobe op de server blijven staan.
 
