@@ -2,14 +2,14 @@
 title: getGeoCoordinates
 description: De geoLocation van een bezoeker volgen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe-insteekmodule: getGeoCoordinates
 
-> [!IMPORTANT] Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde te krijgen van Adobe Analytics. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>[!IMPORTANT] Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde te krijgen van Adobe Analytics. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 Met de `getGeoCoordinates` insteekmodule kunt u de breedte en lengte van bezoekersapparaten vastleggen. Adobe raadt u aan deze plug-in te gebruiken als u geo-locatiegegevens wilt vastleggen in variabelen van Analytics.
 
@@ -59,7 +59,7 @@ De `getGeoCoordinates` methode gebruikt geen argumenten. Deze geeft een van de v
 * `"error retrieving geo coordinates"`: Wanneer de plug-in fouten aantreft bij het ophalen van de locatie van het apparaat
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: waarbij [LATITUDE]/[LONGITUDE] respectievelijk de breedte en lengte zijn
 
-> [!NOTE] Coördinaatwaarden worden afgerond tot op het dichtstbijzijnde vierde decimaal. De waarde van `"40.438635333"` is bijvoorbeeld afgerond op `"40.4386"` om het aantal unieke waarden te beperken dat moet worden vastgelegd. De waarden zijn dicht genoeg om de exacte locatie van het apparaat binnen ongeveer 10 meter te bepalen.
+>[!NOTE] Coördinaatwaarden worden afgerond tot op het dichtstbijzijnde vierde decimaal. De waarde van `"40.438635333"` is bijvoorbeeld afgerond op `"40.4386"` om het aantal unieke waarden te beperken dat moet worden vastgelegd. De waarden zijn dicht genoeg om de exacte locatie van het apparaat binnen ongeveer 10 meter te bepalen.
 
 Deze plug-in gebruikt een cookie met de naam `"s_ggc"` om indien nodig coördinaten tussen treffers op te slaan.
 
