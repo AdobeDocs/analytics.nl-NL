@@ -4,7 +4,7 @@ title: Planningsbeheer
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ U kunt het leveringsschema voor rapporten aanpassen. U kunt de levering op een b
 
 U kunt het leveringsschema voor rapporten aanpassen. U kunt de levering op een bepaald ogenblik tegenhouden, of het aantal tijden specificeren u een rapport wilt verzenden. De nieuwe programma&#39;s gebruiken de datumwaaier die in het rapport wordt bepaald. Als u bijvoorbeeld een rapport maakt voor de laatste 90 dagen en het dagelijks laat uitvoeren, ontvangt u elke dag een rapport voor de laatste 90 dagen. Als u een rapport met een statische datumwaaier van de kalender creeert, zult u het zelfde rapport zien telkens als het wordt verzonden.
 
-> [!NOTE] Wanneer een gebruikersaccount is uitgeschakeld, worden alle geplande rapportleveringen die door die gebruiker zijn gemaakt, opgeschort.
+>[!NOTE] Wanneer een gebruikersaccount is uitgeschakeld, worden alle geplande rapportleveringen die door die gebruiker zijn gemaakt, opgeschort.
 
 Om ervoor te zorgen dat de lijnpunten in een verdeling in bewaarde en geplande rapporten blijvend zijn, gebruik de **[!UICONTROL Edit Items]** eigenschap in de Bouwer [van de](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) Lijst om vaste afmetingslijsten in onderverdelingen tot stand te brengen.
 
