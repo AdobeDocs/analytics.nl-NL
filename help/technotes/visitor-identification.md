@@ -6,7 +6,7 @@ title: Unieke bezoekers identificeren
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics biedt verschillende methoden om bezoekers te identificeren. In d
 
 In veel scenario&#39;s zou u 2 of 3 verschillende IDs op een vraag kunnen zien, maar de Analytics zal eerste identiteitskaart van de vorige lijst als officiële bezoekersidentiteitskaart gebruiken. Als u bijvoorbeeld een aangepaste bezoeker-id instelt (opgenomen in de query-parameter &quot;vid&quot;), wordt die id gebruikt vóór andere id&#39;s die op dezelfde hit aanwezig kunnen zijn.
 
-> [!NOTE] Elke Analytics-bezoeker-id is gekoppeld aan een bezoekersprofiel op Adobe-servers. Bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
+>[!NOTE] Elke Analytics-bezoeker-id is gekoppeld aan een bezoekersprofiel op Adobe-servers. Bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
 
 ## Aangepaste bezoeker-id
 
