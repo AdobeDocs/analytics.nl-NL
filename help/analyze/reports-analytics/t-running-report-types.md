@@ -4,7 +4,7 @@ title: Verschillende rapporttypen uitvoeren
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -148,7 +148,7 @@ Bekijk de nieuwe functies [Anomaly Detection and Contribution Analysis](https://
 
 **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
 
-> [!NOTE] U kunt ook Anomaly Detection van binnen de projecten van de Werkruimte van de Analyse in werking stellen. [Meer...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+>[!NOTE] U kunt ook Anomaly Detection van binnen de projecten van de Werkruimte van de Analyse in werking stellen. [Meer...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 Raadpleeg de [naslaggids](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection)voor meer informatie over het instellen van Anomaly Detection.
 
@@ -294,7 +294,7 @@ Zie de handleiding [](https://marketing.adobe.com/resources/help/en_US/reference
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Primair rapport</strong></td> 
-   <td class="chdesc stentry"> Rapport voor de primaire dimensie van het rapport in real time en voor zijn metrisch. Geeft een trendlijn voor dat element voor de geselecteerde tijdwaaier aan. Het metrische totaal vertegenwoordigt de som voor de volledige trendlijn. De pijl geeft aan of het item sterk wint, opraakt, plat is, verloren is of sterk verloren is. </td> 
+   <td class="chdesc stentry"> Rapport voor de primaire dimensie van het rapport in real time en voor zijn metrisch. Geeft een trendlijn voor dat element voor de geselecteerde tijdwaaier aan. Het metrische totaal vertegenwoordigt de som voor de volledige trendlijn. De pijl geeft aan of het item sterk wint, opraakt, plat, verloren of sterk verliest. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Dialoogvenster Zoeken</strong></td> 
