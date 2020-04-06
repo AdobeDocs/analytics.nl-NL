@@ -3,7 +3,7 @@ description: Met de Calculated Metrics Builder kunt u statistische en wiskundige
 title: Referentie van basisfuncties
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toe
 
 Hier volgt een alfabetische lijst van de functies en hun definities.
 
-> [!NOTE] Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere uitdrukkingen van metriek ook toegestaan. Zo kunt u [!DNL MAXV(metrics)] ook [!DNL MAXV(PageViews + Visits).]
+>[!NOTE] Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere uitdrukkingen van metriek ook toegestaan. Zo kunt u [!DNL MAXV(metrics)] ook [!DNL MAXV(PageViews + Visits).]
 
 ## Tabelfuncties versus rijfuncties {#section_8977BE40A47E4ED79EB543A9703A4905}
 
