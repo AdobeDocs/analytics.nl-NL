@@ -2,7 +2,7 @@
 title: list
 description: Aangepaste variabelen die meerdere waarden in dezelfde hit bevatten.
 translation-type: tm+mt
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ De variabelen van de lijst zijn douanevariabelen die u kunt gebruiken hoe u zou 
 
 Zorg ervoor u registreert hoe u elke lijstvariabele en hun logica in uw document [van het](../../prepare/solution-design.md)oplossingsontwerp gebruikt.
 
-> [!NOTE] In lijstvariabelen worden de meest recente 250 waarden per bezoeker opgeslagen. Als er voor een bepaalde bezoeker meer dan 250 unieke waarden zijn, worden de oudste waarden niet aan metriek toegewezen.
+>[!NOTE] In lijstvariabelen worden de meest recente 250 waarden per bezoeker opgeslagen. Als er voor een bepaalde bezoeker meer dan 250 unieke waarden zijn, worden de oudste waarden niet aan metriek toegewezen.
 
 ## Lijstvariabelen instellen in de instellingen van de rapportsuite
 
@@ -32,7 +32,7 @@ Elke lijstvariabele is een koord dat douanewaarden specifiek voor uw organisatie
 s.list1 = "Example value 1,Example value 2,Example value 3";
 ```
 
-> [!TIP] Als u dubbele waarden instelt in dezelfde hit, worden alle instanties van deze waarden gedupliceerd door Adobe. Als u bijvoorbeeld instelt `s.list1 = "Example,Example";`, wordt één exemplaar geteld in rapporten.
+>[!TIP] Als u dubbele waarden instelt in dezelfde hit, worden alle instanties van deze waarden gedupliceerd door Adobe. Als u bijvoorbeeld instelt `s.list1 = "Example,Example";`, wordt één exemplaar geteld in rapporten.
 
 ## Lijsproeven met lijstvariabelen vergelijken
 
