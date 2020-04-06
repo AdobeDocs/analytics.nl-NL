@@ -2,7 +2,7 @@
 title: Sessies in Adobe Analytics oplossen
 description: Leer hoe u problemen kunt oplossen wanneer u zich afmeldt bij Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -25,7 +25,7 @@ Adobe gebruikt een machtigingsheader wanneer het aanvragen bij Adobe indient. So
 
 Om dit probleem op te lossen, raadt Adobe aan samen te werken met het IT-team van uw organisatie om de header van de autorisatie toe te staan via de proxy van uw organisatie.
 
-> [!NOTE] Hoewel leden van de gemeenschap Analytics de volgende koppelingen nuttig hebben gevonden, zijn ze niet in het bezit van Adobe. Houd rekening met deze opmerking wanneer u de inhoud ervan bekijkt.
+>[!NOTE] Hoewel leden van de gemeenschap Analytics de volgende koppelingen nuttig hebben gevonden, zijn ze niet in het bezit van Adobe. Houd rekening met deze opmerking wanneer u de inhoud ervan bekijkt.
 
 Hier vindt u informatie over Symantec-proxy&#39;s en verificatieheaders:
 
