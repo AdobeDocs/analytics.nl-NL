@@ -3,7 +3,7 @@ description: Migreer gebruikers van het verouderde Analytics-gebruikersbeheersys
 title: Analytische gebruikersaccounts migreren voor Adobe-id's
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,7 +16,7 @@ Migreer gebruikers van het verouderde Analytics-gebruikersbeheersysteem naar de 
 
 Migreer gebruikers van het verouderde Analytics-gebruikersbeheersysteem naar de Admin Console.
 
-> [!NOTE] Als een beheerder die niet via de Experience Cloud is aangemeld, toegang probeert te krijgen tot het migratiehulpprogramma voor gebruikers-id, wordt hij of zij omgeleid naar de aanmeldingspagina van Experience Cloud.
+>[!NOTE] Als een beheerder die niet via de Experience Cloud is aangemeld, toegang probeert te krijgen tot het migratiehulpprogramma voor gebruikers-id, wordt hij of zij omgeleid naar de aanmeldingspagina van Experience Cloud.
 
 **Gebruikers van Analyses migreren**
 
