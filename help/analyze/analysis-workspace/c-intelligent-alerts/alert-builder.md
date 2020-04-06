@@ -3,7 +3,7 @@ description: 'null'
 title: Alert Builder
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -41,7 +41,7 @@ Geef een naam op voor de waarschuwing. De waakzame naam zou de naam van het rapp
 
 Geef op wanneer u de metrische waarde wilt controleren: Uur, Dagelijks, Wekelijks, of Maandelijks.
 
-> [!NOTE] Voor rapportsuites met een aangepaste kalender ondersteunen we geen maandelijkse granulariteit in de Waarschuwingsbouwer.
+>[!NOTE] Voor rapportsuites met een aangepaste kalender ondersteunen we geen maandelijkse granulariteit in de Waarschuwingsbouwer.
 
 **Ontvangers**
 
