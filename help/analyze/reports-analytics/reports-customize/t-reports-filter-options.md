@@ -4,7 +4,7 @@ title: Rapportgegevens filteren
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -45,7 +45,7 @@ Met geavanceerde filters kunt u het bereik van de zoekopdracht bepalen aan de ha
 
 Komt overeen als de termijn overal in het lijnpunt wordt gevonden. Dit werkt hetzelfde als het eenvoudige filter.
 
-> [!NOTE] Spaties kunnen niet worden gebruikt in filters, omdat spaties scheidingstekens zijn in zoekopdrachten
+>[!NOTE] Spaties kunnen niet worden gebruikt in filters, omdat spaties scheidingstekens zijn in zoekopdrachten
 
 **Bevat niet**
 
