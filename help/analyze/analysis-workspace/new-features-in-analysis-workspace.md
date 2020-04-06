@@ -5,7 +5,7 @@ title: Nieuwe functies in de analysewerkruimte
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -47,7 +47,7 @@ Verbeteringen die zijn uitgebracht op 10 oktober 2019.
 | Verbetering | Beschrijving |
 |--- |--- |
 | Totalen van tabellen voor vrije vorm bijwerken | Vrije-vormtabellen bevatten nu twee totalen, a **[!UICONTROL Table total]** en a **[!UICONTROL Grand total]**. De tabel totaal rijrekeningen voor toegepaste [rapportfilters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) . Voorheen beïnvloedde alleen de segmentatie de totalen. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>Daarnaast zijn **[!UICONTROL Show Totals]** en **[!UICONTROL Show Grand Total]** opties toegevoegd aan **[!UICONTROL Column Settings]**.<br/>Met deze wijziging in de totalen van Freeform worden afhankelijke visualisaties bijgewerkt (bijv. gekoppelde **[!UICONTROL Summary Number]** visualisaties) en worden geëxporteerde CSV- en PDF-gegevens. |
-| Optie om Niet-opgegeven/Geen te verwijderen | De mogelijkheid om &quot;Niet gespecificeerd (niets)&quot; gemakkelijk te verwijderen is toegevoegd als optie om filters te melden. |
+| Optie voor het verwijderen van Niet-opgegeven/Geen | De mogelijkheid om &quot;Niet gespecificeerd (niets)&quot; gemakkelijk te verwijderen is toegevoegd als optie om filters te melden. |
 | Afwijking van componenten van paarse korreligheid | De componenten voor de paarse korreligheid (Minuut, Uur, Dag, Week, Maand, Kwart, Jaar) zijn afgekeurd. De componenten voor paarse tijd hebben zich altijd precies gedragen als hun tegenhangers voor oranje dimensies, zodat deze verandering de ervaring zal vereenvoudigen. **Er hoeft geen actie** te worden ondernomen als u eerder een van de paarse tijdcomponenten hebt gebruikt.<br/>Door deze wijziging is de naam van de paarse **[!UICONTROL Time]** sectie ook gewijzigd in **[!UICONTROL Date Ranges]**. |
 
 ## augustus 2019
@@ -1049,7 +1049,7 @@ In een project, klik **[!UICONTROL Link to This Project]** van het menu van Acti
 
 ![](assets/link-to-this-project.png)
 
-> [!NOTE] Het delen van rapportkoppelingen is niet beschikbaar als uw bedrijf gebruikmaakt van Single Sign-On (zowel het oude Single Sign-On als het aanmelden via de Experience Cloud).
+>[!NOTE] Het delen van rapportkoppelingen is niet beschikbaar als uw bedrijf gebruikmaakt van Single Sign-On (zowel het oude Single Sign-On als het aanmelden via de Experience Cloud).
 
 ## Bullet Graph, Scatterplot en Treemap Visualizations {#section_B19EA50EBF5546E99D3A142827153FD6}
 
@@ -1069,7 +1069,7 @@ De grafiek van het opsommingsteken bevat één enkele, primaire maatregel (bijvo
 
 Toont geserveerde indrukken en hoeveel unieke gebruikers die indrukken hebben gezien. De grootte van elk gegevenspunt geeft een visuele indicatie over het gemiddelde aantal keren dat een viewer aan een advertentie is blootgesteld. De grootte en gegevens variëren afhankelijk van de afmetingen, datumbereiken en filters die u selecteert.
 
-> [!NOTE] Voor een tabel die is gekoppeld aan een Scatterplot-diagram zijn ten minste twee kolommen vereist. De eerste kolom definieert de X-as en de tweede kolom definieert de Y-as. Als er een derde kolom beschikbaar is, gebruikt de grafiek van het Scatterplot het om de straal van de punt te bepalen. Met andere woorden, de kolommen *1*, *2* en *3* zijn toegewezen aan *X*, *Y*** en de  puntstraal.
+>[!NOTE] Voor een tabel die is gekoppeld aan een Scatterplot-diagram zijn ten minste twee kolommen vereist. De eerste kolom definieert de X-as en de tweede kolom definieert de Y-as. Als er een derde kolom beschikbaar is, gebruikt de grafiek van het Scatterplot het om de straal van de punt te bepalen. Met andere woorden, de kolommen *1*, *2* en *3* zijn toegewezen aan *X*, *Y*** en de  puntstraal.
 
 **Treemap**
 
