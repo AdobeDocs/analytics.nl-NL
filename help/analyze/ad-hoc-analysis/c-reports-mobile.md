@@ -3,7 +3,7 @@ description: Hier wordt informatie weergegeven over websites die toegang hebben 
 title: Mobiele rapporten
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -18,7 +18,7 @@ Hier wordt informatie weergegeven over websites die toegang hebben vanaf een mob
 
 Om bezoekersidentificatie voor mobiele apparaten te verbeteren, moet u op de lijst van de drager (witte lijst) voor het verzenden van abonnee IDs aan een domein zijn. (U kunt de provider weergeven in het rapport **[!UICONTROL Visitor Profile]** > **[!UICONTROL Domains]** .)
 
-> [!NOTE] Meld u aan bij de [Experience Cloud](https://login.experiencecloud.adobe.com)om rapporten weer te geven over een mobiel apparaat.
+>[!NOTE] Meld u aan bij de [Experience Cloud](https://login.experiencecloud.adobe.com)om rapporten weer te geven over een mobiel apparaat.
 
 Raadpleeg de site [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) voor meer informatie over het bijhouden van mobiele apparaten.
 
