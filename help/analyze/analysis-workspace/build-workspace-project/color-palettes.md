@@ -3,7 +3,7 @@ description: 'null'
 title: Kleurenpaletten
 uuid: 18252889-8dc0-48fa-820f-df534156c22f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 U kunt het kleurenpalet voor visualisatie dat in Workspace wordt gebruikt, wijzigen door een ander kleurenpalet te kiezen of door uw eigen palet op te geven dat geschikt kan zijn voor de brandingkleuren van uw bedrijf. Deze eigenschap beïnvloedt de meeste visualisaties in Werkruimte, maar het beïnvloedt **geen** Summiere Verandering, voorwaardelijke het formatteren in de lijsten van de Vrije vorm, en de visualisatie van de Kaart.
 
-> [!NOTE] Ondersteuning van kleurenpaletten is niet ingeschakeld voor Internet Explorer 11.
+>[!NOTE] Ondersteuning van kleurenpaletten is niet ingeschakeld voor Internet Explorer 11.
 
 ![](assets/color_palettes.png)
 
