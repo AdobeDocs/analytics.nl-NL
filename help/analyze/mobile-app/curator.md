@@ -2,7 +2,7 @@
 description: Instructies voor het instellen van de scorecards voor mobiele apps.
 title: Adobe Analytics Mobile App Curator Guide
 translation-type: tm+mt
-source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
+source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
 
 ---
 
@@ -106,7 +106,7 @@ Het scorebordsjabloon implementeren:
    Wanneer u op een tegel in de Scorecard Builder klikt, toont het rechtse spoor de eigenschappen en de kenmerken verbonden aan die tegel. In dit spoor, kunt u een nieuwe **Titel** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
 
 
-   Als u op tegels klikt, wordt in een dynamische pop-up ook weergegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen dimensie is toegepast op de tegel, is de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
+   Als u op tegels klikt, wordt bovendien een dynamische pop-up weergegeven waarin wordt aangegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen dimensie is toegepast op de tegel, is de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
 
    ![Onderverdeling_weergave](assets/break_view.png)
 
@@ -188,7 +188,6 @@ Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wi
    3. Nadat u de testflight-app hebt geïnstalleerd, zoekt en installeert u de Adobe Analytics Mobile-app vanuit Testflight, zoals hieronder wordt weergegeven:
 
       ![Testvluchtscherm](assets/testflight2.png)
-
    **Voor uitvoerende gebruikers op Android:**
 
    1. Tik op de koppeling Play Store op het apparaat van de gebruiker (Deze is ook beschikbaar in Analytics onder **Extra** > **Mobile App**):
@@ -199,6 +198,7 @@ Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wi
       ![Winkelscherm afspelen](assets/play.png)
 
    2. Tik op de link Google Play **om deze te** downloaden op het volgende scherm:
+
       ![Koppeling downloaden](assets/playnext.png)
 
    3. Download en installeer de app.
