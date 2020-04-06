@@ -2,7 +2,7 @@
 title: Dynamische variabelen
 description: Variabelen kopiëren zonder de lengte van de afbeeldingsaanvraag te verhogen.
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ Dynamische variabelen ondersteunen parameters van queryreeksen of HTTP-headers i
 
 Wanneer Adobe een dynamisch veranderlijk voorvoegsel herkent, kopieert het automatisch het vraagkoord of de kopbalwaarde van HTTP in uw rapportreeks. Deze actie vindt plaats vóór enige andere verwerking, met inbegrip van verwerkingsregels en VISTA-regels.
 
-> [!TIP] Houd rekening met de maximale tekenlimiet bij het kopiëren van variabelen. Bijvoorbeeld, als het kopiëren `eVar1` aan `prop1`, `prop1` kan een afgekapte waarde hebben aangezien het een grens 100 byte heeft (terwijl `eVar1` een grens van 255 byte heeft).
+>[!TIP] Houd rekening met de maximale tekenlimiet bij het kopiëren van variabelen. Bijvoorbeeld, als het kopiëren `eVar1` aan `prop1`, `prop1` kan een afgekapte waarde hebben aangezien het een grens 100 byte heeft (terwijl `eVar1` een grens van 255 byte heeft).
 
 ## Dynamische variabelen in Adobe Experience Platform Launch
 
@@ -48,4 +48,4 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
-> [!NOTE] Dynamische variabelen worden als tekenreeksen weergegeven tijdens foutopsporing in uw implementatie. Waarden worden via de server gekopieerd door Adobe-servers voor gegevensverzameling.
+>[!NOTE] Dynamische variabelen worden als tekenreeksen weergegeven tijdens foutopsporing in uw implementatie. Waarden worden via de server gekopieerd door Adobe-servers voor gegevensverzameling.
