@@ -4,7 +4,7 @@ title: Conversietrechter
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,5 +32,5 @@ Dit rapport is ook aanpasbaar, zodat u Aangepaste conversiegebeurtenissen kunt t
 
 De rapportlijst toont statistieken voor gemiddelde verkoop per klik-door, en gemiddelde eenheden verkocht per klik-door. U kunt metriek en douanegebeurtenissen van andere rapporteringsgroepen aan deze rapporten toevoegen. Deze kanalen hebben veel gelijkenissen, maar zijn gebaseerd op verschillende variabelen en gebeurtenissen. U kunt deze rapporten gebruiken om te zien welke percentages en algemene tendensen van gebruikers specifieke gebeurtenissen in brand steken u specificeert. U kunt zien waar de gebruikers niet door aan gebeurtenissen volgen, die inzicht aan dat specifieke punt in het omzettingsproces verstrekken.
 
-> [!NOTE] Instanties in het kader van deze verslagen komen overeen met het totale aantal bezoeken waar een Var of evenement is gedefinieerd.
+>[!NOTE] Instanties in het kader van deze verslagen komen overeen met het totale aantal bezoeken waar een Var of evenement is gedefinieerd.
 
