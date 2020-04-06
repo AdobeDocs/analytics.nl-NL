@@ -2,7 +2,7 @@
 title: cookieLifetime
 description: Overschrijf de vervaldatum voor cookies die door AppMeasurement worden gemaakt.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 Cookies die door AppMeasurement worden ingesteld, hebben doorgaans een vervaldatum van 2 jaar. Gebruik de `cookieLifetime` variabele om de vervaldatum voor koekjes met voeten te treden die door AppMeasurement worden geplaatst.
 
-> [!NOTE] Deze variabele is van invloed op unieke aantallen bezoekers en attributie. Wees voorzichtig wanneer u deze variabele instelt.
+>[!NOTE] Deze variabele is van invloed op unieke aantallen bezoekers en attributie. Wees voorzichtig wanneer u deze variabele instelt.
 
 ## Cookie Lifetime in Adobe Experience Platform Launch
 
