@@ -4,7 +4,7 @@ title: Verzoeken beheren - definities
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,7 +19,7 @@ De beschrijvingen van het gebied voor Manage Verzoeken in de Bouwer van het Rapp
 
 De [!UICONTROL Request Manager] vertoningen wanneer u klikt **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in de toolbar van de Bouwer van het Rapport.
 
-> [!NOTE] Adobe Report Builder dwingt aanvraagafhankelijkheden alleen af binnen hetzelfde werkblad, niet tussen werkbladen. Het beperken tot gebiedsdelen binnen één enkel aantekenvel verzekert tijdigheid van uitvoering.
+>[!NOTE] Adobe Report Builder dwingt aanvraagafhankelijkheden alleen af binnen hetzelfde werkblad, niet tussen werkbladen. Het beperken tot gebiedsdelen binnen één enkel aantekenvel verzekert tijdigheid van uitvoering.
 
 ## Definities {#section_FD29D8614DE74F32A0027FA130F40304}
 
