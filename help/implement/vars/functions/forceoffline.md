@@ -2,7 +2,7 @@
 title: forceOffline
 description: Handmatig de onlinestatus van AppMeasurement instellen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 Met de `forceOffline()` methode kunt u de automatisch gedetecteerde status van AppMeasurement overschrijven.
 
-> [!IMPORTANT] Gebruik deze functie alleen als deze [`trackOffline`](../config-vars/trackoffline.md) is ingeschakeld. Het gebruik van deze functie buiten het offline bijhouden van gegevens kan gegevensverlies veroorzaken.
+>[!IMPORTANT] Gebruik deze functie alleen als deze [`trackOffline`](../config-vars/trackoffline.md) is ingeschakeld. Het gebruik van deze functie buiten het offline bijhouden van gegevens kan gegevensverlies veroorzaken.
 
 AppMeasurement detecteert automatisch de onlinestatus van het apparaat. U kunt de `forceOffline()` methode gebruiken om AppMeasurement te dwingen om hits te behandelen alsof het apparaat offline was. Deze methode heeft geen argumenten en retourneert geen waarde. Het enige doel is het overschrijven van de onlinestatus in AppMeasurement.
 
