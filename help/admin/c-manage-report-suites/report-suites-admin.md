@@ -4,7 +4,7 @@ title: Report Suite Manager
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,7 +15,7 @@ Een rapportsuite definieert de volledige, onafhankelijke rapportage op een gekoz
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
 
-> [!NOTE] Virtuele rapportsets worden beheerd via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Raadpleeg de documentatie bij de [Virtual Report Suite](/help/components/vrs/vrs-about.md).
+>[!NOTE] Virtuele rapportsets worden beheerd via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Raadpleeg de documentatie bij de [Virtual Report Suite](/help/components/vrs/vrs-about.md).
 
 ## Beschrijvingen van rapportmanager {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
