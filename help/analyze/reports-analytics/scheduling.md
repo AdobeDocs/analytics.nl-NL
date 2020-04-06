@@ -5,7 +5,7 @@ title: Rapportschema en distributie
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,7 +24,7 @@ Vanwege verschillen in verwerkingsmechanismen en platforms hebben de verschillen
 
 Deze beperkingen gelden voor afzonderlijke geplande en gedownloade rapporten; dashboards zijn beperkt tot de hoeveelheid ruimte beschikbaar binnen een rapport.
 
-> [!NOTE] De &quot;Tijd van de Levering&quot;/&quot;Tijd van Dag&quot;ingegaan door de gebruiker specificeert de tijd dat het rapport met verwerking zou moeten beginnen, niet de tijd dat het daadwerkelijk zal worden geleverd. De werkelijke tijd die het verslag zal krijgen, is in de eerste plaats gebaseerd op de tijd die het kost om het te verwerken (complexe en grote verslagen duren langer om dan eenvoudigere verslagen te verwerken). Bijvoorbeeld, als een rapport 15 minuten aan verwerking vergt, dan zal de daadwerkelijke leveringstijd minstens 15 minuten voorbij de oorspronkelijk gespecificeerde &quot;Tijd van de Levering&quot;/&quot;Tijd van Dag zijn.
+>[!NOTE] De &quot;Tijd van de Levering&quot;/&quot;Tijd van Dag&quot;ingegaan door de gebruiker specificeert de tijd dat het rapport met verwerking zou moeten beginnen, niet de tijd dat het daadwerkelijk zal worden geleverd. De werkelijke tijd die het verslag zal krijgen, is in de eerste plaats gebaseerd op de tijd die het kost om het te verwerken (complexe en grote verslagen duren langer om dan eenvoudigere verslagen te verwerken). Bijvoorbeeld, als een rapport 15 minuten aan verwerking vergt, dan zal de daadwerkelijke leveringstijd minstens 15 minuten voorbij de oorspronkelijk gespecificeerde &quot;Tijd van de Levering&quot;/&quot;Tijd van Dag zijn.
 >Bovendien zijn er een aantal andere factoren die de vertraging nog kunnen vergroten voordat het verslag daadwerkelijk wordt uitgebracht:
 >
 > * **Veel verschillende schema&#39;s van hetzelfde type tegelijk** uitvoeren (bijvoorbeeld veel dashboards enz.) kan het systeem overladen. Het plannende systeem staat slechts een paar (5-10) rapporten van om het even welk één type toe om gelijktijdig te lopen, zodat wanneer meer dan 5-10 allen tegelijkertijd gepland zijn, zullen sommigen in lijn op andere rapporten moeten wachten te beëindigen alvorens zij met verwerking kunnen beginnen. Deze kwestie kan worden verlicht door de rapporten van een bedrijf op gestaffelde tijden door dag of uur, eerder dan gelijktijdig te plannen.
