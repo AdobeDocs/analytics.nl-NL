@@ -4,7 +4,7 @@ title: Exclusief door IP Adres
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,7 +15,7 @@ U kunt gegevens van specifieke IP adressen, zoals interne website activiteiten, 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclude by IP]**
 
-> [!NOTE] Hits die door IP adres worden uitgesloten worden gefactureerd als [servervraag](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>[!NOTE] Hits die door IP adres worden uitgesloten worden gefactureerd als [servervraag](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
 
 ## Uitsluiten op cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -25,9 +25,9 @@ Met deze functie kunnen u en uw collega&#39;s uw site bezoeken zonder uw verkeer
 
 | Element | Beschrijving |
 |--- |--- |
-| [!UICONTROL Add CNAME] | Hiermee genereert u een uitschakelkoppeling waarmee u uw domein kunt uitsluiten. Neem voor hulp contact op met de ondersteunde gebruikers van uw bedrijf. <br>Uw verkeer kan van het melden in uw rapportreeksen worden uitgesloten door de optieoutpagina van uw bedrijf te bezoeken en uw browser van meting uit te sluiten. <br>Als uw implementatie cookies van derden gebruikt, is de pagina die u niet wilt gebruiken [hier](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true). |
+| [!UICONTROL Add CNAME] | Hiermee genereert u een uitschakelkoppeling waarmee u uw domein kunt uitsluiten. Neem voor hulp contact op met de ondersteunde gebruikers van uw bedrijf. <br>Uw verkeer kan van het melden in uw rapportreeksen worden uitgesloten door de optieoutpagina van uw bedrijf te bezoeken en uw browser van meting uit te sluiten. <br>Als uw implementatie cookies van derden gebruikt, is de pagina die u niet wilt gebruiken [hier](https://democorp.112.2o7.net/optout.html?locale=en_US&amp;popup=true). |
 
-> [!NOTE] Uitsluiting door computer werkt alleen als:
+>[!NOTE] Uitsluiting door computer werkt alleen als:
 >
 > * Via hetzelfde werkstation hebt u toegang tot uw website.
 > * De cookies worden ingeschakeld in de browser die u gebruikt.
