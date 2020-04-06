@@ -5,7 +5,7 @@ title: Instanties van variabelen voor handelsdoeleinden
 topic: Developer and implementation
 uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -47,5 +47,5 @@ s.products=";Fernie Snow Goggles"
 
 De toewijzing aan &quot;niets&quot;komt voor als u een waarde voor een eVar op een pagina plaatst waar geen bindende gebeurtenis voorkomt, of als u de waarde van Var in het productkoord zonder een bindende gebeurtenis plaatst.
 
-> [!NOTE] De huidige functionaliteit voor het tellen van instanties op handelswisselende variabelen wordt herzien en zal in een komende versie veranderen.
+>[!NOTE] De huidige functionaliteit voor het tellen van instanties op handelswisselende variabelen wordt herzien en zal in een komende versie veranderen.
 
