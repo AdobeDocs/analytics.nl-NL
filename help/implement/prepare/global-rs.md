@@ -2,7 +2,7 @@
 title: Algemene rapportsuite in Adobe Analytics
 description: Begrijp de voordelen en de vereisten aan het gebruiken van een globale rapportreeks.
 translation-type: tm+mt
-source-git-commit: d7c4412feb85f4381d8811b29fc23c9c85d23555
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -23,7 +23,7 @@ Adobe raadt u in de meeste gevallen aan een algemene rapportsuite te implementer
 * **Nauwkeuriger kenmerk tussen verschillende merken:** Als een bezoek op één plaats dan aan een andere van uw eigen plaatsen alvorens een succesgebeurtenis begint te teweegbrengen, wordt de attributie correct verzameld. Een bezoeker klikt bijvoorbeeld op een betaalde zoekkoppeling en landt op site A. Vervolgens klikken ze op een koppeling naar site B en kopen ze deze. Een algemene rapportsuite kenmerkt zich correct die wordt aangeschaft voor een betaalde zoekopdracht.
 * **Vereenvoudigde implementatie:** Aangezien alle merken/sites gegevens naar dezelfde rapportsuite verzenden, worden de implementaties voor elke site uitgelijnd. Dit gedwongen bestuur verzekert een specifieke dimensie of metrisch wordt bewaard in zelfde eVar of gebeurtenis. Beheerders, testers, eigenaars van tagbeheer en analisten profiteren van deze vereenvoudiging.
 
-> [!NOTE] Het coördineren van een globale implementatie van de rapportreeks is een groot project. Adobe raadt u aan om samen met een consultant de problemen en complicaties te verhelpen.
+>[!NOTE] Het coördineren van een globale implementatie van de rapportreeks is een groot project. Adobe raadt u aan om samen met een consultant de problemen en complicaties te verhelpen.
 
 ## Nieuwe implementatie starten met een algemene rapportsuite
 
