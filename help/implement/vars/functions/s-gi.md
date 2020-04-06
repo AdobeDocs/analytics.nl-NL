@@ -2,7 +2,7 @@
 title: s_gi()
 description: Creeer en spoor instanties van AppMeasurement.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -26,7 +26,7 @@ In het tekstveld voor algemene variabelen kunt u een aangepast tekstobject bijho
 
 Roep de `s_gi()` functie aan om een volgend object te instantiëren. Zijn enige argument bevat een komma-afgebakende koord van rapportreeks IDs. Het argument van ID van de rapportsuite is vereist.
 
-> [!TIP] Adobe raadt u aan de `s` variabele te gebruiken als een tekstspatiëringsobject. Adobe gebruikt `s` in de documentatie, implementatievoorbeelden en plug-ins. U kunt echter elke variabele gebruiken zolang u op de hele site consistent bent.
+>[!TIP] Adobe raadt u aan de `s` variabele te gebruiken als een tekstspatiëringsobject. Adobe gebruikt `s` de documentatie, implementatievoorbeelden en plug-ins. U kunt echter elke variabele gebruiken zolang u op de hele site consistent bent.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,7 +36,7 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!CAUTION] De volgende secties en voorbeelden bevatten complexe implementatieonderwerpen. Test uw implementatie grondig en traceer belangrijke aanpassingen in het document [van het de](../../prepare/solution-design.md)oplossingsontwerp van uw organisatie.
+>[!CAUTION] De volgende secties en voorbeelden bevatten complexe implementatieonderwerpen. Test uw implementatie grondig en traceer belangrijke aanpassingen in het document [van het de](../../prepare/solution-design.md)oplossingsontwerp van uw organisatie.
 
 ## Meerdere implementaties beheren met verschillende trackingobjecten
 
