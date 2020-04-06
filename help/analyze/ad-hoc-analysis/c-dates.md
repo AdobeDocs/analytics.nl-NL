@@ -3,7 +3,7 @@ description: In de kalender kunt u datums en datumbereiken opgeven of een voorin
 title: Datums en datumbereiken
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,7 +24,7 @@ Wanneer het selecteren van een datumwaaier terwijl het creëren van een project,
 
 ![](assets/daterange.jpeg)
 
-> [!NOTE] Neem contact op met uw accountmanager als u hulp nodig hebt bij het uitvoeren van verouderde rapporten.
+>[!NOTE] Neem contact op met uw accountmanager als u hulp nodig hebt bij het uitvoeren van verouderde rapporten.
 
 ## Oudere datumsegmenten {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -41,5 +41,5 @@ c_legacy_data.xml
 1. [Maak](/help/analyze/ad-hoc-analysis/c-getting-started.md) of open een project.
 1. Open de [kalender](/help/analyze/ad-hoc-analysis/c-dates.md)en selecteer **[!UICONTROL Quarter]** of **[!UICONTROL Year]**.
 
-> [!NOTE] Historische datumsegmenten liggen binnen kwartaal- en jaarbeperkingen. U kunt geen gegevens bekijken die de grens tussen erfenissegmenten en het nieuwe verwerkingsplatform overschrijden. Datumbereiken die beide waarden omspannen, resulteren in een fout. Bovendien zijn de datumbereiken alleen van toepassing op de Gregoriaanse kalender en niet op de Aangepaste kalender.
+>[!NOTE] Historische datumsegmenten liggen binnen kwartaal- en jaarbeperkingen. U kunt geen gegevens bekijken die de grens tussen erfenissegmenten en het nieuwe verwerkingsplatform overschrijden. Datumbereiken die beide waarden omspannen, resulteren in een fout. Bovendien zijn de datumbereiken alleen van toepassing op de Gregoriaanse kalender en niet op de Aangepaste kalender.
 
