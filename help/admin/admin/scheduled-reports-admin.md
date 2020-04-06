@@ -4,7 +4,7 @@ title: Wachtrij voor geplande rapporten
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -26,7 +26,7 @@ De functies op beheerniveau in het Geplande Manager van Rapporten omvatten:
 
 Op het **[!UICONTROL Report List]** lusje, kunt u **[!UICONTROL Show All Scheduled Reports]** in uw organisatie, naast degenen die u persoonlijk plande.
 
-> [!NOTE] De **[!UICONTROL Report Name]** kolom toont de naam van het rapport dat wordt gepland en de **[!UICONTROL File Name]** kolom toont om het even welke die naam van het douanedossier door u in Geavanceerde Opties van de Levering wordt geplaatst. Dientengevolge, als u veelvoudige rapporten van het zelfde rapporttype plant en u aangepaste namen voor elk specificeert, zou de Geplande Manager van Rapporten veelvoudige ingangen met de zelfde Naam van het Rapport maar met verschillende dossiernamen tonen. Dit is omdat het achterste eindrapport dat wordt gepland het zelfde is, zodat zou de kolom van de Naam van het Rapport de zelfde rapportnamen voor alle behalve aangepaste dossiernamen (zoals reeks) hebben.
+>[!NOTE] De **[!UICONTROL Report Name]** kolom toont de naam van het rapport dat wordt gepland en de **[!UICONTROL File Name]** kolom toont om het even welke die naam van het douanedossier door u in Geavanceerde Opties van de Levering wordt geplaatst. Dientengevolge, als u veelvoudige rapporten van het zelfde rapporttype plant en u aangepaste namen voor elk specificeert, zou de Geplande Manager van Rapporten veelvoudige ingangen met de zelfde Naam van het Rapport maar met verschillende dossiernamen tonen. Dit is omdat het achterste eindrapport dat wordt gepland het zelfde is, zodat zou de kolom van de Naam van het Rapport de zelfde rapportnamen voor alle behalve aangepaste dossiernamen (zoals reeks) hebben.
 
 ![](assets/show_all_scheduled_reports.png)
 
