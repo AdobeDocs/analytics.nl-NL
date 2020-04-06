@@ -5,7 +5,7 @@ solution: Experience Cloud,Dynamic Tag Management
 title: Bibliotheekbeheer
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,7 +16,7 @@ Beschrijvingen van de gebieden en de opties in de montages van het Beheer van de
 
 **[!UICONTROL  *`Property`*]** > ![](assets/settings_gear.png) **[!UICONTROL Edit Tool]** > **[!UICONTROL Library Management]**
 
-> [!NOTE] Als er meerdere Adobe Analytics-programma&#39;s worden gebruikt in één webeigenschap, moet elke tool een unieke naam hebben voor de variabele tracker. Dubbele namen van objectvariabelen tussen Adobe Analytics-programma&#39;s binnen één webeigenschap veroorzaken conflicten.
+>[!NOTE] Als er meerdere Adobe Analytics-programma&#39;s worden gebruikt in één webeigenschap, moet elke tool een unieke naam hebben voor de variabele tracker. Dubbele namen van objectvariabelen tussen Adobe Analytics-programma&#39;s binnen één webeigenschap veroorzaken conflicten.
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
