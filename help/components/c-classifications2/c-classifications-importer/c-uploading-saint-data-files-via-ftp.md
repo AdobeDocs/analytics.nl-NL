@@ -5,7 +5,7 @@ title: FTP importeren
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -33,7 +33,7 @@ Elke nieuwe sleutelwaarde die u uploadt, telt mee voor uw unieke waarden voor di
 
 Als u uw uniques voor de maand hebt overschreden, zult u de overeenkomstige classificatiegegevens voor de uniques niet zien overschrijden waarden in rapportering. U kunt die classificaties in of gegevenspakhuis of ad hoc analyse zien.
 
-> [!NOTE] De tijd die nodig is om een bestand met classificatiegegevens te verwerken, is afhankelijk van de grootte van het bestand en het huidige aantal bestanden dat al door de servers van Adobe wordt verwerkt. De verwerking van gegevensbestanden duurt gewoonlijk niet langer dan 72 uur.
+>[!NOTE] De tijd die nodig is om een bestand met classificatiegegevens te verwerken, is afhankelijk van de grootte van het bestand en het huidige aantal bestanden dat al door de servers van Adobe wordt verwerkt. De verwerking van gegevensbestanden duurt gewoonlijk niet langer dan 72 uur.
 
 Maak een FTP-account voordat u gegevens uploadt via FTP. Zie [Een FTP-account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)maken voor meer informatie.
 
