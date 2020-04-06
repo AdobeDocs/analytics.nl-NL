@@ -2,7 +2,7 @@
 title: linkDownloadFileTypes
 description: Bestandsextensies bepalen die automatisch worden bijgehouden als downloadkoppelingen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Wanneer [`trackDownloadLinks`](trackdownloadlinks.md) deze optie is ingeschakeld
 
 Gebruik deze optie `linkDownloadFileTypes` om aan te passen welke bestandsextensies u wilt tellen als downloadkoppelingen.
 
-> [!NOTE] Alleen de werkelijke klikken worden automatisch bijgehouden. De volgende typen koppelingen worden niet automatisch bijgehouden:
+>[!NOTE] Alleen de werkelijke klikken worden automatisch bijgehouden. De volgende typen koppelingen worden niet automatisch bijgehouden:
 >
 > * Het bestand wordt automatisch gedownload wanneer een pagina wordt geladen
 > * Downloads die na een omleiding teweegbrengen
