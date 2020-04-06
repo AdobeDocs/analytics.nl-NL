@@ -4,7 +4,7 @@ solution: Audience Manager
 title: Server-kant door:sturen overzicht
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -66,5 +66,5 @@ Ga naar **Analytics** > **Admin** > **Report Suites** > (selecteer **report suit
 * **Uitgeschakeld**: U hebt niet de nieuwe server-kant het door:sturen aangezet. Lees de inhoud op de pagina en ga verder met het inschakelen van de functie.
 * **Ingeschakeld**: U wordt provisioned voor nieuwe server-kant door:sturen. U kunt ook deze integratie voor Audience Analytics instellen.
 
-> [!NOTE] Gegevens worden pas weergegeven in andere Experience Cloud-oplossingen, zoals [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) of [Publiek](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) , als alle drie de stappen zijn voltooid. Nadat deze instellingen zijn ingeschakeld, duurt het enkele uren voordat deze instellingen van kracht worden.
+>[!NOTE] Gegevens worden pas weergegeven in andere Experience Cloud-oplossingen, zoals [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) of [Publiek](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) , als alle drie de stappen zijn voltooid. Nadat deze instellingen zijn ingeschakeld, duurt het enkele uren voordat deze instellingen van kracht worden.
 
