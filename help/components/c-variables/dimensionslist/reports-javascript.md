@@ -4,7 +4,7 @@ title: JavaScript-ondersteuning
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Hiermee worden metrische gegevens weergegeven op basis van het feit of JavaScript voor het apparaat is ingeschakeld, uitgeschakeld of als &quot;niet-geïdentificeerd&quot; wordt geteld.
 
-> [!NOTE] Begin november 2016 zijn we van plan de beperking te verwijderen, waarbij JavaScript altijd wordt vermeld als *`disabled / unidentified`* voor mobiele apparaten.
+>[!NOTE] Begin november 2016 zijn we van plan de beperking te verwijderen, waarbij JavaScript altijd wordt vermeld als *`disabled / unidentified`* voor mobiele apparaten.
 
 Het JavaScript-rapport komt overeen met de kolom javascript in de onbewerkte gegevens.
 
