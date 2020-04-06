@@ -4,7 +4,7 @@ title: Tijdstempels optioneel
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,9 +19,9 @@ Met Tijdstempels optioneel kunt u:
 * Verzend tijdstempelgegevens van een mobiele app naar een algemene rapportsuite.
 * Voer een upgrade uit voor apps die offline tracering gebruiken zonder dat u een nieuwe rapportsuite hoeft te maken.
 
-> [!IMPORTANT] Als u Tijdstempels optioneel gebruikt, moet u [s.bezoekorID](/help/implement/vars/config-vars/visitorid.md) niet instellen voor gegevens die al een tijdstempel hebben. Dit kan leiden tot gegevens buiten de bestelling en een negatief effect hebben op tijdberekeningen (zoals waarden voor de tijd die is besteed), attributie (persistentie van de eVar), het aantal bezoeken/bezoek en tekenrapporten.
+>[!IMPORTANT] Als u Tijdstempels optioneel gebruikt, moet u [s.bezoekorID](/help/implement/vars/config-vars/visitorid.md) niet instellen voor gegevens die al een tijdstempel hebben. Dit kan leiden tot gegevens buiten de bestelling en een negatief effect hebben op tijdberekeningen (zoals waarden voor de tijd die is besteed), attributie (persistentie van de eVar), het aantal bezoeken/bezoek en tekenrapporten.
 
-> [!NOTE] Sessiegegevens waarvoor tijdstempels zijn ingeschakeld, worden maximaal 92 dagen bewaard. Dit betekent dat een bezoek/sessie 92 dagen &#39;open&#39; wordt gehouden, terwijl een extra hit - dat wil zeggen niet 30 minuten na de vorige hit (in de aanraaktijd) - nog steeds in hetzelfde bezoek/dezelfde sessie kan worden opgenomen. Alle &quot;oude&quot; treffers die buiten de bestelling worden ontvangen, zullen &quot;onbekende&quot; resultaten opleveren, aangezien een aantal factoren (segmentatie, toewijzing, vervaldatum, enz.) of deze treffers al dan niet in de rapportage worden opgenomen.
+>[!NOTE] Sessiegegevens waarvoor tijdstempels zijn ingeschakeld, worden maximaal 92 dagen bewaard. Dit betekent dat een bezoek/sessie 92 dagen &#39;open&#39; wordt gehouden, terwijl een extra hit - dat wil zeggen niet 30 minuten na de vorige hit (in de aanraaktijd) - nog steeds in hetzelfde bezoek/dezelfde sessie kan worden opgenomen. Alle &quot;oude&quot; treffers die buiten de bestelling worden ontvangen, zullen &quot;onbekende&quot; resultaten opleveren, aangezien een aantal factoren (segmentatie, toewijzing, vervaldatum, enz.) of deze treffers al dan niet in de rapportage worden opgenomen.
 
 ## Nieuwe rapportsets {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -41,5 +41,5 @@ Met Tijdstempels optioneel kunt u:
 
    Hiermee wijzigt u uw rapportsuite in Tijdstempels optioneel.
 
-> [!NOTE] Als een rapportsuite is ingesteld op **Tijdstempels optioneel**, neemt u contact op met de klantenservice van Adobe om deze instelling te wijzigen in een andere instelling.
+>[!NOTE] Als een rapportsuite is ingesteld op **Tijdstempels optioneel**, neemt u contact op met de klantenservice van Adobe om deze instelling te wijzigen in een andere instelling.
 
