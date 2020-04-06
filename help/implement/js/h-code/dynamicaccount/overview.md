@@ -2,18 +2,18 @@
 title: Overzicht van dynamische accounts
 description: Leer de workflow voor het dynamisch selecteren van een rapportsuite met H Code.
 translation-type: tm+mt
-source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Overzicht van dynamische accounts
 
-> [!IMPORTANT] Dynamische accounts worden alleen ondersteund met behulp van verouderde JavaScript-implementaties (H Code). Deze variabelen worden niet ondersteund in de huidige AppMeasurement-bibliotheken of Adobe Experience Platform Launch.
+>[!IMPORTANT] Dynamische accounts worden alleen ondersteund met behulp van verouderde JavaScript-implementaties (H Code). Deze variabelen worden niet ondersteund in de huidige AppMeasurement-bibliotheken of Adobe Experience Platform Launch.
 
 Dynamische accounts zijn een implementatiefunctie waarmee u kunt bepalen welke rapportsuite moet worden gebruikt op basis van criteria die u definieert. Als uw organisatie meer dan één rapportreeks maar de zelfde implementatie tussen uw plaatsen vereist, is de dynamische rekeningen een goede oplossing.
 
-> [!TIP] Adobe raadt u aan gegevens naar één rapportsuite te verzenden en deze vervolgens zo nodig met virtuele rapportsuites te scheiden. Zie [Globale rapportenreeks overwegingen](../../../prepare/global-rs.md) voor meer informatie.
+>[!TIP] Adobe raadt u aan gegevens naar één rapportsuite te verzenden en deze vervolgens zo nodig met virtuele rapportsuites te scheiden. Zie [Globale rapportenreeks overwegingen](../../../prepare/global-rs.md) voor meer informatie.
 
 3 variabelen worden gebruikt om een rapportreeks dynamisch te selecteren.
 
