@@ -2,7 +2,7 @@
 title: tijdstempel
 description: Stel handmatig de tijdstempel van de hit in.
 translation-type: tm+mt
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 De `timestamp` variabele plaatst manueel timestamp van de klap voor timestamp-Toegelaten rapportreeksen.
 
-> [!WARNING] Gebruik deze variabele niet als uw rapportsuite niet expliciet is geconfigureerd voor het accepteren van treffers met een tijdstempel. AppMeasurement stelt automatisch de tijd van een hit voor rapportsuites in die timestamped klappen niet steunen. Als u een hit met deze variabele naar een rapportsuite verzendt die geen tijdstempels ondersteunt, gaan die gegevens permanent verloren.
+>[!WARNING] Gebruik deze variabele niet als uw rapportsuite niet expliciet is geconfigureerd voor het accepteren van treffers met een tijdstempel. AppMeasurement stelt automatisch de tijd van een hit voor rapportsuites in die timestamped klappen niet steunen. Als u een hit met deze variabele naar een rapportsuite verzendt die geen tijdstempels ondersteunt, gaan die gegevens permanent verloren.
 
 ## Tijdstempel bij starten van Adobe Experience Platform
 
