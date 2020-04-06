@@ -2,7 +2,7 @@
 title: purchaseID
 description: Gededupliceerde hits op basis van een unieke aankoop-id.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -29,4 +29,4 @@ Deze variabele kan maximaal 20 bytes opslaan; waarden langer dan 20 bytes zijn a
 s.purchaseID = "ABC123";
 ```
 
-> [!NOTE] Gebruik geen randomisatiefunctie om een aankoop-id te genereren. Adobe raadt u aan een [gegevenslaag](../../prepare/data-layer.md) te gebruiken om een bepaalde aankoop-id op te slaan.
+>[!NOTE] Gebruik geen randomisatiefunctie om een aankoop-id te genereren. Adobe raadt u aan een [gegevenslaag](../../prepare/data-layer.md) te gebruiken om een bepaalde aankoop-id op te slaan.
