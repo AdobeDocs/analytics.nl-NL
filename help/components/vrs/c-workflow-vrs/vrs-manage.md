@@ -5,7 +5,7 @@ title: Virtuele rapportsuites beheren
 topic: Reports and analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -18,7 +18,7 @@ Met de Virtual Report Suite Manager kunnen beheerders virtuele rapportsuites bew
 
 ![](assets/vrs-manage.png)
 
-> [!NOTE] In de Virtuele Manager van de Reeks van het Rapport, kunt u slechts uw eigen virtuele rapportreeksen zien. Je moet klikken **[!UICONTROL Show All]** om iedereen te zien.
+>[!NOTE] In de Virtuele Manager van de Reeks van het Rapport, kunt u slechts uw eigen virtuele rapportreeksen zien. Je moet klikken **[!UICONTROL Show All]** om iedereen te zien.
 
 | Taak | Beschrijving |
 |--- |--- |
