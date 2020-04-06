@@ -5,7 +5,7 @@ title: Gereedschap Adobe Analytics toevoegen
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Implementeer Adobe Analytics met Dynamisch tagbeheer door het hulpprogramma Adobe Analytics te maken en de paginacode automatisch of handmatig te configureren. De automatische methode wordt aanbevolen voor de meeste gebruikers.
 
-> [!NOTE] Voor betere bezoekerscontrole, adviseren wij sterk dat u de Dienst [van de](https://marketing.adobe.com/resources/help/en_US/mcvid/)Identiteit toelaat.
+>[!NOTE] Voor betere bezoekerscontrole, adviseren wij sterk dat u de Dienst [van de](https://marketing.adobe.com/resources/help/en_US/mcvid/)Identiteit toelaat.
 
 ## Add an Adobe Analytics Tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
