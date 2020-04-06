@@ -3,7 +3,7 @@ description: Voordat u deze integratie activeert, moet u de volgende items contr
 title: Voordat u deze integratie activeert
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -56,7 +56,7 @@ In de volgende tabel worden de variabelen Analytics beschreven die automatisch z
 
 ### Vereiste variabelen {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
-> [!NOTE] Deze integratie gebruikt specifieke variabelen voor gegevens van de toepassingsopslag, zodat te hoeven u om geen variabelen en gebeurtenissen van de douanehandel toe te wijzen.
+>[!NOTE] Deze integratie gebruikt specifieke variabelen voor gegevens van de toepassingsopslag, zodat te hoeven u om geen variabelen en gebeurtenissen van de douanehandel toe te wijzen.
 
 | Type variabele | Naam | Populatiemethode | Beschrijving |
 |---|---|---|---|
