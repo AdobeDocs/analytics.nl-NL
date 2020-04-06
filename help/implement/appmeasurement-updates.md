@@ -3,7 +3,7 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -102,7 +102,7 @@ Deze versie zorgt ervoor dat de [!DNL AppMeasurement] bibliotheek cookies correc
 
 Releasedatum: 24 **mei 2018**
 
-> [!NOTE] Bezoeker-API 3.0 of hoger is vereist voor klanten die de [!DNL Experience Cloud] id-service gebruiken. Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van de Visitor API wanneer gekoppelde codebibliotheken worden bijgewerkt ( [!DNL at.js], [!DNL AppMeasurement.js]enzovoort).
+>[!NOTE] Bezoeker-API 3.0 of hoger is vereist voor klanten die de [!DNL Experience Cloud] id-service gebruiken. Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van de Visitor API wanneer gekoppelde codebibliotheken worden bijgewerkt ( [!DNL at.js], [!DNL AppMeasurement.js]enzovoort).
 
 * Bijgewerkt om de bijgewerkte interface van de Bezoeker te gebruiken voor het aanvragen van id&#39;s. [!DNL AppMeasurement] (AN-151483)
 * Probleem verholpen waarbij de functie voor het bijhouden van koppelingen steeds wordt weggeschreven nadat het bijhouden van koppelingen is uitgeschakeld. (AN-156332)
@@ -216,7 +216,7 @@ Bijgewerkt: 18 **augustus 2016**
 * Bijgewerkt [!DNL AppMeasurement] voor het lezen en schrijven van AMCV-cookies. (AN-127098)
 * Opname van de Bezoeker-API 1.7.0.
 
-> [!NOTE] Zie ook de volgende releaseopmerkingen voor [!DNL JavaScript] versie 1.6.3, die bijgewerkte vereisten voor de service Experience Cloud ID bevat.
+>[!NOTE] Zie ook de volgende releaseopmerkingen voor [!DNL JavaScript] versie 1.6.3, die bijgewerkte vereisten voor de service Experience Cloud ID bevat.
 
 ## Versie 1.6.3
 
@@ -293,7 +293,7 @@ Releasedatum: 21 **mei 2015**
 * Opname van de Bezoeker-API 1.4.
 * Bijgewerkte module PubliekManagement voor het gebruik van DIL versie 6.0.
 
-> [!NOTE] **Bekend probleem**: In de integratie van de API/ [!DNL AppMeasurement] [!DNL Audience Manager] Module van de Bezoeker zijn er twee iFrame-aanvragen voor het publiceren van de bestemming gemaakt in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` en `//fast.<subdomain>.demdex.net/dest4.html`. Het juiste gedrag, zoals in andere browsers, is alleen laden `//fast.<subdomain>.demdex.net/dest5.html`.
+>[!NOTE] **Bekend probleem**: In de integratie van de API/ [!DNL AppMeasurement] [!DNL Audience Manager] Module van de Bezoeker zijn er twee iFrame-aanvragen voor het publiceren van de bestemming gemaakt in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` en `//fast.<subdomain>.demdex.net/dest4.html`. Het juiste gedrag, zoals in andere browsers, is alleen laden `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Versie 1.4.4
 
@@ -349,7 +349,7 @@ Releasedatum: 21 **augustus 2014**
 * Toevoeging van de **[!UICONTROL AudienceManagement]** Module in het gecomprimeerde bestand.
 * Extra ondersteuning voor extra eVars (76 - 250) en evenementen (101-1000).
 
-> [!NOTE] H-Code biedt geen ondersteuning voor de extra gebeurtenissen en gebeurtenissen.
+>[!NOTE] H-Code biedt geen ondersteuning voor de extra gebeurtenissen en gebeurtenissen.
 
 ## Versie 1.3.2
 
