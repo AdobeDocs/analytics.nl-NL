@@ -2,7 +2,7 @@
 title: eVar
 description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 translation-type: tm+mt
-source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 Variabelen zijn aangepaste variabelen die u kunt gebruiken zoals u dat wilt.
 
-> [!TIP] Adobe raadt u in de meeste gevallen aan eVars over props te gebruiken. In eerdere versies van Adobe Analytics hadden props en eVars voor- en nadelen voor elkaar. Adobe heeft echter verbeteringen aangebracht in Vars waarin vrijwel alle gevallen van gebruik voor props zijn opgenomen.
+>[!TIP] Adobe raadt u in de meeste gevallen aan eVars over props te gebruiken. In eerdere versies van Adobe Analytics hadden props en eVars voor- en nadelen voor elkaar. Adobe heeft echter verbeteringen aangebracht in Vars waarin vrijwel alle gevallen van gebruik voor props zijn opgenomen.
 
 Zorg ervoor u registreert hoe u elk eVar en hun logica in uw document [van het](../../prepare/solution-design.md)oplossingsontwerp gebruikt.
 
@@ -56,7 +56,7 @@ s.eVar1 = "+12.49";
 
 Als er meer dan twee decimalen zijn opgegeven, wordt de teller afgerond tot twee decimalen. Een eVar teller kan geen negatieve aantallen bevatten.
 
-> [!IMPORTANT] U moet eVars eerst configureren naar &#39;Counter&#39; in de beheerconsole voordat u tellervariabelen kunt gebruiken. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de handleiding Admin.
+>[!IMPORTANT] U moet eVars eerst configureren naar &#39;Counter&#39; in de beheerconsole voordat u tellervariabelen kunt gebruiken. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de handleiding Admin.
 
 ## Exclusieve voordelen voor props of eVars
 
