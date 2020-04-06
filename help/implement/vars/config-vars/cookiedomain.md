@@ -2,14 +2,14 @@
 title: cookieDomain
 description: De cookieDomain-variabele helpt het domein te bepalen waarop cookies moeten worden ingesteld.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # cookieDomain
 
-> [!IMPORTANT] Deze variabele wordt uitgeschakeld. Gebruik [`trackingServer`](trackingserver.md) in plaats hiervan.
+>[!IMPORTANT] Deze variabele wordt uitgeschakeld. Gebruik [`trackingServer`](trackingserver.md) in plaats hiervan.
 
 De `cookieDomain` variabele bepaalt het domein waar AppMeturement koekjes plaatst. U kunt deze variabele gebruiken om het cookiedomein uitdrukkelijk te plaatsen in plaats van het gebruiken van de [`cookieDomainPeriods`](cookiedomainperiods.md) variabele.
 
