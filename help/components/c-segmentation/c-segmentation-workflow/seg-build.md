@@ -4,7 +4,7 @@ title: Segmenten maken
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -81,7 +81,7 @@ De segmenten met ingebedde datumwaaiers blijven verschillend in de Werkruimte va
 
 **[!UICONTROL Publish to Experience Cloud (for `<report suite name>`)]**: (Niet weergegeven op scherm) Deze optie wordt alleen weergegeven als de rapportsuite waarin u dit segment opslaat, is [ingeschakeld voor de Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Door een segment naar de Experience Cloud te publiceren, kunt u het segment gebruiken voor marketingactiviteiten in de [!UICONTROL Audience Library], [!DNL Target]en [!DNL Audience Manager]. Een segmenttitel en beschrijving zijn vereist.
 
-> [!NOTE] In Analytics, kunt u een gepubliceerd segment uitgeven of schrappen. Als het segment in gebruik is, wordt een waarschuwingsbericht uitgegeven wanneer u een segment uitgeeft. U kunt geen gepubliceerd segment verwijderen dat door Adobe wordt gebruikt [!DNL Target].
+>[!NOTE] In Analytics, kunt u een gepubliceerd segment uitgeven of schrappen. Als het segment in gebruik is, wordt een waarschuwingsbericht uitgegeven wanneer u een segment uitgeeft. U kunt geen gepubliceerd segment verwijderen dat door Adobe wordt gebruikt [!DNL Target].
 
 ![](assets/segment_publish_to_mac_copy.png)
 
@@ -157,7 +157,7 @@ Door segment het stapelen te gebruiken, kunt u uw segmentaantal tot 22 verminder
 * één segment voor tabletgebruikers
 * 20 segmenten voor de verschillende geografische gebieden
 
-> [!NOTE] Wanneer het stapelen van twee segmenten, worden zij door gebrek verbonden door een EN verklaring. Dit kan niet in een OF verklaring worden veranderd.
+>[!NOTE] Wanneer het stapelen van twee segmenten, worden zij door gebrek verbonden door een EN verklaring. Dit kan niet in een OF verklaring worden veranderd.
 
 1. Ga naar de Segment Builder.
 1. Geef een titel en een beschrijving voor het segment op.
