@@ -3,7 +3,7 @@ description: Met de Berekende Metrische bouwer, kan iedereen een participatie me
 title: Deelnamemetrisch
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Hier volgt een eenvoudig gebruiksgeval: U bent eigenaar van inhoud en u wilt zien welke pagina&#39;s zijn toegevoegd aan (d.w.z. deelnemen aan) bezoeken die een bestelling bevatten. Hieronder wordt beschreven hoe:
 
-> [!NOTE] Vroeger moest u dit doen via de beheerprogramma&#39;s. U kunt participatiemetriek in de Hulpmiddelen van Admin nog toelaten, maar slechts voor douanegebeurtenissen 1 - 100.
+>[!NOTE] Vroeger moest u dit doen via de beheerprogramma&#39;s. U kunt participatiemetriek in de Hulpmiddelen van Admin nog toelaten, maar slechts voor douanegebeurtenissen 1 - 100.
 
 Hier volgen enkele voorbeelden van eenvoudig gebruik: U bent eigenaar van inhoud en u wilt zien welke pagina&#39;s zijn toegevoegd aan (deelgenomen aan) bezoeken die een e-mailaanmelding bevatten. Hieronder wordt beschreven hoe:
 
