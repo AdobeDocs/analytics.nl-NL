@@ -4,7 +4,7 @@ title: Facturering
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: ''
 
 De het Factureren pagina laat u tot factureringsinformatie, met inbegrip van verkeersdetails voor elke rapportreeks toegang hebben. Alleen een geautoriseerde beheerder heeft toegang tot deze pagina.
 
-> [!NOTE] Neem contact op met uw accountmanager als de toegang tot het tabblad Facturering voor uw bedrijf is uitgeschakeld.
+>[!NOTE] Neem contact op met uw accountmanager als de toegang tot het tabblad Facturering voor uw bedrijf is uitgeschakeld.
 
 De gegevens van het verkeersoverzicht van de factureringspagina laten u paginameningsgegevens in rapporten met factureerbare servervraag op uw factuur correleren. Op de [!UICONTROL Billing] pagina kunt u het volgende doen:
 
@@ -39,7 +39,7 @@ Het resulterende [!UICONTROL Monthly Invoice] rapport bevat de volgende informat
 | Aangepaste koppelingen | De verbindingstotalen van de douane voor elke rapportreeks. U kunt de waarden voor aangepaste koppelingen bevestigen in Site-inhoud > Koppelingen > Aangepaste koppelingen. |
 | Koppelingen afsluiten | De verbindingstotalen van de uitgang voor elke rapportreeks. U kunt de waarden voor de afsluitkoppelingen bevestigen in Site Content > Links > Koppelingen afsluiten. |
 
-> [!NOTE] Om een werkend exemplaar van het [!UICONTROL Monthly Invoice] rapport te verkrijgen, kopieer het op uw klembord, dan kleef het in een spreadsheetprogramma zoals Microsoft Excel*.
+>[!NOTE] Om een werkend exemplaar van het [!UICONTROL Monthly Invoice] rapport te verkrijgen, kopieer het op uw klembord, dan kleef het in een spreadsheetprogramma zoals Microsoft Excel*.
 
 ## Datum van rapportage versus datum van verwerking {#section_51A48C2F223F4904BE1407C13333C457}
 
