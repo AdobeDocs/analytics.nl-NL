@@ -3,7 +3,7 @@ description: 'null'
 title: Beperkingen en specificaties
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Publicatiebeperkingen voor Power BI {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
-> [!NOTE] Deze beperkingen zijn alleen van toepassing op de optie &quot;Publish Report Builder Requests as Power BI Dataset Tables&quot;.
+>[!NOTE] Deze beperkingen zijn alleen van toepassing op de optie &quot;Publish Report Builder Requests as Power BI Dataset Tables&quot;.
 
 * Een maximum van 100 verzoeken van de Bouwer van het Rapport kan naar Power BI per werkboek worden uitgevoerd.
 * Het planningsproces zal ophouden exporterende verzoeken wanneer het 101e verzoek wordt bereikt.
@@ -20,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Een aanvraag voor een Report Builder bewerken na publicatie naar Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
-> [!NOTE] Deze specificatie is van toepassing op de opties &quot;Alle verzoeken van de Bouwer van het Rapport als de Lijsten van de Dataset van de Macht BI&quot;en &quot;publiceren Alle Formatted Lijsten in het Werkboek als de Lijsten van de Dataset van de Macht BI&quot;publiceren.
+>[!NOTE] Deze specificatie is van toepassing op de opties &quot;Alle verzoeken van de Bouwer van het Rapport als de Lijsten van de Dataset van de Macht BI&quot;en &quot;publiceren Alle Formatted Lijsten in het Werkboek als de Lijsten van de Dataset van de Macht BI&quot;publiceren.
 
 Het uitgeven van een verzoek van de Bouwer van het Rapport na het publiceren van het aan Power BI kan problemen veroorzaken.
 
