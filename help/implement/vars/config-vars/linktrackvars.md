@@ -2,7 +2,7 @@
 title: linkTrackVars
 description: Geef op welke variabelen u wilt opnemen in aanvragen voor het bijhouden van koppelingen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ Deze variabele wordt niet gebruikt voor de vraag van de paginamening (`t()` meth
 
 Start vult deze variabele automatisch op de achtergrond in op basis van variabelen die in de interface zijn ingesteld. Deze variabele wordt daarom altijd ingesteld in implementaties die Launch gebruiken.
 
-> [!IMPORTANT] Als u variabelen in Lancering gebruikend de redacteur van de douanecode plaatst, moet u de variabele in het `linkTrackVars` gebruiken van douanecode ook omvatten.
+>[!IMPORTANT] Als u variabelen in Lancering gebruikend de redacteur van de douanecode plaatst, moet u de variabele in het `linkTrackVars` gebruiken van douanecode ook omvatten.
 
 ## s.linkTrackVars in AppMeasurement en Launch, aangepaste code-editor
 
@@ -35,7 +35,7 @@ De standaardwaarde voor deze variabele is een lege tekenreeks. Adobe heeft echte
 * Als deze variabele niet is gedefinieerd of op een lege tekenreeks is ingesteld, worden *alle* variabelen opgenomen in aanvragen voor het bijhouden van koppelingen.
 * Als deze variabele is ingesteld op `"None"`, worden *geen* variabelen opgenomen in aanvragen voor het bijhouden van koppelingen.
 
-> [!TIP] Vermijd het gebruik van de object-id (`s.`) voor Analytics wanneer u variabelen in deze variabele opgeeft. De waarde `s.linkTrackVars = "eVar1";` is bijvoorbeeld correct, maar `s.linkTrackVars = "s.eVar1";` is onjuist.
+>[!TIP] Vermijd het gebruik van de object-id (`s.`) voor Analytics wanneer u variabelen in deze variabele opgeeft. De waarde `s.linkTrackVars = "eVar1";` is bijvoorbeeld correct, maar `s.linkTrackVars = "s.eVar1";` is onjuist.
 
 ## Voorbeeld
 
