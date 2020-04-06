@@ -4,7 +4,7 @@ title: Aanmelden bij de rapportontwikkelaar
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -47,5 +47,5 @@ Met de aanmeldingsgegevens voor Experience Cloud kunt u uw Enterprise-id (e-mail
 
 ![](assets/adobe_id_login.png)
 
-> [!NOTE] De aanmeldingsgegevens voor de Experience Cloud zijn gebaseerd op sessies en het token verloopt na 30 dagen.
+>[!NOTE] De aanmeldingsgegevens voor de Experience Cloud zijn gebaseerd op sessies en het token verloopt na 30 dagen.
 
