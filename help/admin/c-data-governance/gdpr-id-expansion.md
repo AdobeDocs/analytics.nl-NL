@@ -3,7 +3,7 @@ description: 'De id''s die u verzendt, hebben niet altijd betrekking op alle raa
 title: ID-uitbreiding
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -56,7 +56,7 @@ In de toekomst ondersteunt de &quot;analyticsDeleteMethod&quot; mogelijk een waa
 
 Naast zijn standaardwaarde, steunt het prioritaire gebied ook een waarde van &quot;laag&quot;. U moet deze waarde opgeven voor verzoeken die niet het resultaat zijn van een verzoek van de betrokkene en dus niet de wettelijke verplichting hebben om binnen 30 dagen te worden ingevuld. Adobe raadt het gebruik van de API voor de privacyservice af om andere redenen dan het indienen van aanvragen door de betrokkene. De API van de Privacy Service is geen geschikt instrument voor het opschonen of repareren van gegevens en zal onbedoelde gevolgen hebben.
 
-> [!NOTE] De API [van de](https://www.adobe.io/apis/experienceplatform/gdpr.html) Privacy Service is verstrekt om u te helpen verzoeken van de Privacy van Gegevens vervullen, die tijdgevoelig zijn. Het gebruik van deze API voor andere doeleinden wordt niet ondersteund door Adobe en kan van invloed zijn op het vermogen van Adobe om snel door de gebruiker geïnitieerde verzoeken om gegevensprivacy met hoge prioriteit aan te bieden voor andere Adobe-klanten. We vragen u de API voor privacyservice niet te gebruiken voor andere doeleinden, zoals het wissen van gegevens die per ongeluk zijn verzonden door grote groepen bezoekers.
+>[!NOTE] De API [van de](https://www.adobe.io/apis/experienceplatform/gdpr.html) Privacy Service is verstrekt om u te helpen verzoeken van de Privacy van Gegevens vervullen, die tijdgevoelig zijn. Het gebruik van deze API voor andere doeleinden wordt niet ondersteund door Adobe en kan van invloed zijn op het vermogen van Adobe om snel door de gebruiker geïnitieerde verzoeken om gegevensprivacy met hoge prioriteit aan te bieden voor andere Adobe-klanten. We vragen u de API voor privacyservice niet te gebruiken voor andere doeleinden, zoals het wissen van gegevens die per ongeluk zijn verzonden door grote groepen bezoekers.
 
 U moet er ook op letten dat bezoekers die een hit hebben verwijderd (bijgewerkt of geanonimiseerd) als gevolg van een aanvraag voor het verwijderen van gegevensprivacy, hun statusgegevens opnieuw kunnen instellen. De volgende keer dat de bezoeker terugkeert naar uw website, wordt hij of zij een nieuwe bezoeker. Alle eVar-toewijzing wordt opnieuw gestart, evenals informatie zoals bezoeknummers, referenties, bezochte eerste pagina, enz. Deze bijwerking is ongewenst in situaties waarin u gegevensvelden wilt wissen en benadrukt één reden waarom de API voor de privacyservice niet geschikt is voor dit gebruik.
 
