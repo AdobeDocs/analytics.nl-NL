@@ -3,7 +3,7 @@ description: 'null'
 title: Bijdrageanalyse uitvoeren
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -49,7 +49,7 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
    * [Waarschuwingen maken.](/help/components/c-alerts/intellligent-alerts.md)
    * [Segmenten maken of vergelijken.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-> [!NOTE] We benadrukken de anomalie die wordt geanalyseerd met een blauwe stip in de bijdrageanalyse en de projecten voor intelligente waarschuwingen die eraan gekoppeld zijn. Dit geeft een duidelijkere indicatie van de anomalie die wordt geanalyseerd.
+>[!NOTE] We benadrukken de anomalie die wordt geanalyseerd met een blauwe stip in de bijdrageanalyse en de projecten voor intelligente waarschuwingen die eraan gekoppeld zijn. Dit geeft een duidelijkere indicatie van de anomalie die wordt geanalyseerd.
 
 ## Afmetingen uitsluiten van bijdrageanalyse {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
