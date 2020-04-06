@@ -2,7 +2,7 @@
 title: linkType
 description: Gebruik de variabele linkType om te bepalen tot welke afmeting het verbinden behoort.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -38,7 +38,7 @@ De `s.linkType` variabele is een tekenreeks die een van de drie waarden van éé
 * `d` - Koppelingen downloaden
 * `e` - Koppelingen afsluiten
 
-> [!TIP] Deze variabele is de tweede parameter van de `tl()` methode en hoeft gewoonlijk niet als een zelfstandige variabele te worden ingesteld. U kunt de `linkType` variabele echter wel gebruiken als u geen waarden als argumenten in de `tl()` methode wilt instellen.
+>[!TIP] Deze variabele is de tweede parameter van de `tl()` methode en hoeft gewoonlijk niet als een zelfstandige variabele te worden ingesteld. U kunt de `linkType` variabele echter wel gebruiken als u geen waarden als argumenten in de `tl()` methode wilt instellen.
 
 ```js
 s.linkType = "e";
