@@ -5,7 +5,7 @@ title: Verkoopkanalen beheren
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -25,7 +25,7 @@ Het toevoegen van kanalen aan de [!UICONTROL Marketing Channels] pagina wordt ge
 
 Voeg marketingkanalen toe in de Marketing Channel Manager.
 
-> [!NOTE] U kunt een kanaal niet verwijderen. Als u geen kanaal wilt gebruiken, kunt u het onbruikbaar maken of anders noemen, en het bewaren voor later gebruik.
+>[!NOTE] U kunt een kanaal niet verwijderen. Als u geen kanaal wilt gebruiken, kunt u het onbruikbaar maken of anders noemen, en het bewaren voor later gebruik.
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Selecteer een rapportsuite op de [!UICONTROL Report Suite Manager] pagina.
