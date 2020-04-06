@@ -2,7 +2,7 @@
 title: Classificaties in marketingkanalen
 description: Gebruik classificaties om waarden in verwante groepen te categoriseren en op groepsniveau te rapporteren. U kunt bijvoorbeeld alle campagnes voor betaald zoeken classificeren in een categorie zoals videokaarten. Dan kunt u over het succes van die categorie met betrekking tot metriek zoals Instanties (of klik-door) rapporteren.
 translation-type: tm+mt
-source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Gebruik classificaties om waarden in verwante groepen te categoriseren en op gro
 
 Indelingen die u in deze procedure toevoegt, worden in het [!UICONTROL Marketing Channel Overview] rapport weergegeven als [!UICONTROL Channel Values]. Kanaalwaarden zijn niet-geclassificeerde waarden in de kanaaldetails.
 
-> [!NOTE] Zorg ervoor dat u bekend bent met het maken van classificaties in [classificaties](/help/components/c-classifications2/c-classifications.md).
+>[!NOTE] Zorg ervoor dat u bekend bent met het maken van classificaties in [classificaties](/help/components/c-classifications2/c-classifications.md).
 
 >[!IMPORTANT]
 >
