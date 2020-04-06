@@ -2,7 +2,7 @@
 title: afbreken
 description: De variabele Afbreken is een Booleaanse waarde die voorkomt dat een hit wordt verzonden naar Adobe-servers voor gegevensverzameling.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -26,7 +26,7 @@ De `abort` variabele is een booleaanse waarde. De standaardwaarde is `false`.
 s.abort = true;
 ```
 
-> [!NOTE] De `abort` variabele herstelt aan `false` na elke volgende vraag. Als u verdere het volgen vraag op de zelfde pagina moet afbreken, reeks `abort` aan `true` opnieuw.
+>[!NOTE] De `abort` variabele herstelt aan `false` na elke volgende vraag. Als u verdere het volgen vraag op de zelfde pagina moet afbreken, reeks `abort` aan `true` opnieuw.
 
 ## Voorbeeld
 
