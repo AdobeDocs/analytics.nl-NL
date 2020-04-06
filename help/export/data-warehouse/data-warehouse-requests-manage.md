@@ -4,7 +4,7 @@ title: Verzoeken in Data Warehouse beheren
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -28,5 +28,5 @@ Door te werken op dit tabblad kunt u
 * Geef opnieuw prioriteit aan rapporten door hen aan een nieuwe plaats binnen de rij te slepen en te laten vallen.
 * Als u wilt zien wanneer een aanvraag wordt verwerkt, klikt u op een geplande aanvraag-id en controleert u de pop-up die wordt geopend.
 
-> [!NOTE] Voer de volgende stappen [uit om een verzoek van een Data Warehouse te annuleren](https://helpx.adobe.com/analytics/kb/cancel-data-warehouse-requests.html).
+>[!NOTE] Voer de volgende stappen [uit om een verzoek van een Data Warehouse te annuleren](https://helpx.adobe.com/analytics/kb/cancel-data-warehouse-requests.html).
 
