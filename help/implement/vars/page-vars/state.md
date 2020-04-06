@@ -2,14 +2,14 @@
 title: Staat
 description: Vul het "Bezoekersrapport" in Rapporten en Analyse.
 translation-type: tm+mt
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # state
 
-> [!IMPORTANT] Deze variabele wordt gepensioneerd en geen beschikbare dimensie in de Werkruimte van de Analyse. Gebruik in plaats hiervan de dimensie &#39;US States&#39;, die AppMeasurement automatisch verzamelt op basis van de locatie van de bezoeker.
+>[!IMPORTANT] Deze variabele wordt gepensioneerd en geen beschikbare dimensie in de Werkruimte van de Analyse. Gebruik in plaats hiervan de dimensie &#39;US States&#39;, die AppMeasurement automatisch verzamelt op basis van de locatie van de bezoeker.
 
 In eerdere versies van Adobe Analytics werd de `state` variabele gebruikt toen bezoekers verzendgegevens op winkelsites invulden. Deze is functioneel identiek aan een proxy, maar is niet beschikbaar in de analysewerkruimte.
 
