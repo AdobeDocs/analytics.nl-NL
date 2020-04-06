@@ -2,7 +2,7 @@
 title: linkTrackEvents
 description: Bepaal welke gebeurtenissen moeten worden opgenomen in aanvragen voor het bijhouden van koppelingen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ Deze variabele wordt niet gebruikt voor de vraag van de paginamening ([`t()`](..
 
 Start detecteert automatisch gebeurtenissen die in de interface zijn gedefinieerd en neemt deze op in resultaten voor het bijhouden van koppelingen.
 
-> [!IMPORTANT] Als u gebeurtenissen in Lancering plaatst gebruikend de redacteur van de douanecode, moet u de gebeurtenis ook omvatten in het `linkTrackEvents` gebruiken van douanecode.
+>[!IMPORTANT] Als u gebeurtenissen in Lancering plaatst gebruikend de redacteur van de douanecode, moet u de gebeurtenis ook omvatten in het `linkTrackEvents` gebruiken van douanecode.
 
 ## s.linkTrackEvents in AppMeasurement en Launch, aangepaste code-editor
 
@@ -33,7 +33,7 @@ s.linkTrackEvents = "event1,event2,event3,purchase";
 
 De standaardwaarde voor deze variabele is een lege tekenreeks. Als deze variabele niet is gedefinieerd, worden alle gebeurtenissen opgenomen in aanvragen voor het bijhouden van koppelingen. Merk op dat de Lancering automatisch deze variabele bevolkt die op gebeurtenissen in de interface wordt geplaatst, zodat wordt het altijd geplaatst in implementaties gebruikend Lancering.
 
-> [!TIP] Vermijd het gebruik van de object-id (`s.`) voor Analytics wanneer u gebeurtenissen in deze variabele opgeeft. De waarde `s.linkTrackEvents = "event1";` is bijvoorbeeld correct, maar `s.linkTrackEvents = "s.event1";` is onjuist.
+>[!TIP] Vermijd het gebruik van de object-id (`s.`) voor Analytics wanneer u gebeurtenissen in deze variabele opgeeft. De waarde `s.linkTrackEvents = "event1";` is bijvoorbeeld correct, maar `s.linkTrackEvents = "s.event1";` is onjuist.
 
 ## Voorbeeld
 
