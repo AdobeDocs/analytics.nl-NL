@@ -3,7 +3,7 @@ description: Deze wijzigingen in de manier waarop berekende metriek werkt in Ana
 title: Veelgestelde vragen
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -75,9 +75,9 @@ U zou een aantal berekende metriek met de zelfde naam (maar gecreeerd in verschi
 
 Overweeg het consolideren van berekende metriek met gelijkaardige namen en definities maar oefen voorzichtigheid wanneer het doen van dit uit. U kunt de rapportreeks voor berekende metrisch in Berekende Metrische Manager controleren om zijn originele rapportreeks te verifiëren. U moet ook de definities van metriek controleren wanneer het schrappen van potentiële duplicaten om ervoor te zorgen dat u correct metriek consolideert.
 
-> [!NOTE] Alhoewel de berekende metriek niet meer aan een specifieke rapportreeks verbindend zijn en over om het even welke rapportreeks kunnen worden gebruikt die aan het login bedrijf zichtbaar is, is de rapportreeks waaronder berekende metrisch werd gecreeerd of het laatst werd bewaard nog zichtbaar in de Berekende Metrische Manager.
+>[!NOTE] Alhoewel de berekende metriek niet meer aan een specifieke rapportreeks verbindend zijn en over om het even welke rapportreeks kunnen worden gebruikt die aan het login bedrijf zichtbaar is, is de rapportreeks waaronder berekende metrisch werd gecreeerd of het laatst werd bewaard nog zichtbaar in de Berekende Metrische Manager.
 
-> [!NOTE] Zelfs als Berekende Metrisch wordt geschrapt, om het even welke referenties of dashboard meldt die die metrisch verwijzen nog zullen functioneren.
+>[!NOTE] Zelfs als Berekende Metrisch wordt geschrapt, om het even welke referenties of dashboard meldt die die metrisch verwijzen nog zullen functioneren.
 
 ## Wat is er gebeurd met mijn Global Calculated Metrics? {#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
@@ -89,7 +89,7 @@ De algemene berekende metriek zijn nu eigendom van de eerste gebruiker Admin in 
 
 Niets. Nochtans, zou de nieuwe eigenaar Admin voorzichtigheid moeten betrachten wanneer het wijzigen van of het schrappen van deze berekende metriek - zij kunnen in een aantal bookmarked rapporten en dashboards worden gebruikt.
 
-> [!NOTE] Zelfs als Berekende Metrisch wordt geschrapt, om het even welke referenties of dashboard meldt die die metrisch verwijzen nog zullen functioneren.
+>[!NOTE] Zelfs als Berekende Metrisch wordt geschrapt, om het even welke referenties of dashboard meldt die die metrisch verwijzen nog zullen functioneren.
 
 ## Wat gebeurde er met Global Calculated Metrics die werden gedeeld door Login Companies? {#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
@@ -101,7 +101,7 @@ De globale berekende metriek kunnen niet meer over login bedrijven worden gedeel
 * Standaard naar &quot;gedeeld met iedereen&quot;.
 * Er worden kopieën gemaakt die onafhankelijk zijn van alle andere aanmeldingsbedrijven.
 
-> [!NOTE] Als berekende metrisch in een referentie, dashboard, alarm, of gepland rapport werd gebruikt, zal het uitgeven van het nieuwe exemplaar NIET oude blijvend berekende metrisch beïnvloeden.
+>[!NOTE] Als berekende metrisch in een referentie, dashboard, alarm, of gepland rapport werd gebruikt, zal het uitgeven van het nieuwe exemplaar NIET oude blijvend berekende metrisch beïnvloeden.
 
 ## Wat is er gebeurd met Berekende cijfers met een numerieke of Numeric2-classificatie? {#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
