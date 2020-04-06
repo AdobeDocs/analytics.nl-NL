@@ -2,7 +2,7 @@
 title: Een advertentieaccount instellen
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -108,5 +108,5 @@ Vul de **[!UICONTROL Tracking Settings]** volgende richtlijnen in:
 
    U wordt nu doorgestuurd naar de gebruikersinterface [voor](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)beheer van advertentierekeningen, waar uw nieuwe account moet worden vermeld.
 
-> [!NOTE] U moet ten minste 24 uur wachten voordat de zoekprogrammagegevens de analyserapporten invullen.
+>[!NOTE] U moet ten minste 24 uur wachten voordat de zoekprogrammagegevens de analyserapporten invullen.
 
