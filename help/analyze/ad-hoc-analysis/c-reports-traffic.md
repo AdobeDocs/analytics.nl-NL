@@ -4,7 +4,7 @@ title: Verkeersbronnen
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -96,7 +96,7 @@ Domeinen of URL&#39;s die geen deel uitmaken van die gedefinieerde domeinen en U
 
 Zie [Interne URL-filters](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) in de [!DNL Admin Console] Help voor meer informatie.
 
-> [!NOTE] Marketingrapporten en analyses registreren een verwijzend domein als e-mail wanneer bezoekers op een e-mailberichtenkoppeling met het protocol klikken [!DNL imap://] of [!DNL mail://] op uw site aankomen. Alles die bijvoorbeeld afkomstig [!DNL https://mail.yahoo.com] is, wordt niet als een e-mailreferentie geteld omdat het protocol [!DNL https://]is. E-mails van Outlook worden gerapporteerd in de regel Typed/Bookmarked, terwijl elke referentie met een HTTP-protocol waarbij het domein een bekende zoekmachine is, wordt gerapporteerd in de regel Zoekmachine.
+>[!NOTE] Marketingrapporten en analyses registreren een verwijzend domein als e-mail wanneer bezoekers op een e-mailberichtenkoppeling met het protocol klikken [!DNL imap://] of [!DNL mail://] op uw site aankomen. Alles die bijvoorbeeld afkomstig [!DNL https://mail.yahoo.com] is, wordt niet als een e-mailreferentie geteld omdat het protocol [!DNL https://]is. E-mails van Outlook worden gerapporteerd in de regel Typed/Bookmarked, terwijl elke referentie met een HTTP-protocol waarbij het domein een bekende zoekmachine is, wordt gerapporteerd in de regel Zoekmachine.
 
 ## Type referentie {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -129,5 +129,5 @@ De volgende lijnpunten zouden kunnen tonen wanneer het runnen van dit rapport:
 
 **USENET (nieuwsgroep)**: Dit betekent dat de URL van een referentie is gestart met `news://`. De verwijzende koppeling is daarom op een nieuwsgroep van Usenet geplaatst in plaats van op een webpagina.
 
-> [!NOTE] De logica van het Type van referentie past andere verkeersbronrapporten (zoals [!UICONTROL Referrers] en [!UICONTROL Referring Domains]) aan. Hierdoor worden de exemplaren van de items van de regel Binnen uw site en Geen JavaScript-regelitems in het [!UICONTROL Referrer Type] rapport verkleind of verwijderd.
+>[!NOTE] De logica van het Type van referentie past andere verkeersbronrapporten (zoals [!UICONTROL Referrers] en [!UICONTROL Referring Domains]) aan. Hierdoor worden de exemplaren van de items van de regel Binnen uw site en Geen JavaScript-regelitems in het [!UICONTROL Referrer Type] rapport verkleind of verwijderd.
 
