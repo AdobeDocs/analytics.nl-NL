@@ -6,7 +6,7 @@ title: Wijzigingen in machtigingen voor gebruikers en groepen
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,13 +15,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
 
 ## Wat is er veranderd? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
 **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**
 
-> [!NOTE] Vanwege het grote aantal mogelijke machtigingscombinaties dat beschikbaar is, kunnen we geen documentatie verschaffen met een beschrijving van alle API-methoden die in elke machtigingscombinatie kunnen worden gebruikt. Over het algemeen, zullen niet-beheerders die de toegang van de Diensten van het Web worden verleend slechts Gelezen toegang tot API methodes hebben. Zij zullen geen Schrijftoegang tot methodes hebben.
+>[!NOTE] Vanwege het grote aantal mogelijke machtigingscombinaties dat beschikbaar is, kunnen we geen documentatie verschaffen met een beschrijving van alle API-methoden die in elke machtigingscombinatie kunnen worden gebruikt. Over het algemeen, zullen niet-beheerders die de toegang van de Diensten van het Web worden verleend slechts Gelezen toegang tot API methodes hebben. Zij zullen geen Schrijftoegang tot methodes hebben.
 
 Omdat de API en de interface hetzelfde machtigingssysteem gebruiken, zijn alle machtigingen die een bepaalde niet-beheerder in de interface (Adobe Admin Console) heeft verleend, dezelfde machtigingen als die de gebruiker in de API heeft.
 
@@ -123,7 +123,7 @@ Hier is belangrijke nieuwe informatie over nieuwe en geplande updates en hoe zij
 
 De volgende tabel bevat een overzicht van taken en de plaats waar deze kunnen plaatsvinden (afhankelijk van de status van een bedrijf).
 
-> [!NOTE] Een voorbeeld *`migrated user`* en *`Experience Cloud user`* raadpleeg gebruikers die een e-mailuitnodiging hebben geaccepteerd om deel te nemen aan de Experience Cloud. Als de e-mailuitnodiging niet wordt geaccepteerd, zijn gebruikers nog steeds Analytische gebruikers en kunnen ze niet worden beheerd in de beheerconsole. (De uitzondering is als de migratie [onderneming of gefedereerde IDs](https://helpx.adobe.com/enterprise/using/set-up-identity.html)gebruikt. In dit geval wordt de gebruiker gemigreerd wanneer de beheerder gebruikers op een gebruiker-door-gebruiker basis migreert.)
+>[!NOTE] Een voorbeeld *`migrated user`* en *`Experience Cloud user`* raadpleeg gebruikers die een e-mailuitnodiging hebben geaccepteerd om deel te nemen aan de Experience Cloud. Als de e-mailuitnodiging niet wordt geaccepteerd, zijn gebruikers nog steeds Analytische gebruikers en kunnen ze niet worden beheerd in de beheerconsole. (De uitzondering is als de migratie [onderneming of gefedereerde IDs](https://helpx.adobe.com/enterprise/using/set-up-identity.html)gebruikt. In dit geval wordt de gebruiker gemigreerd wanneer de beheerder gebruikers op een gebruiker-door-gebruiker basis migreert.)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
