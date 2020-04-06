@@ -5,7 +5,7 @@ title: Virtuele rapportreeksen en tagging met meerdere suite-overwegingen
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -52,7 +52,7 @@ De verschillende plaats heeft verschillende implementatiebehoeften. Sommige dime
 
 Zorg ervoor dat het aantal unieke dimensies en metriek in één enkele globale rapportreeks kan passen. Als u vindt dat er teveel unieke dimensies of metriek zijn, herzie elke dimensie binnen elke implementatie. Er zijn waarschijnlijk overlappingen en dimensies die niet essentieel zijn voor het succes van het bedrijf. Overweeg ook [classificaties](/help/components/c-classifications2/c-classifications.md) te gebruiken. In plaats van &#39;Productnaam&#39; op te nemen in eVar5, maakt u bijvoorbeeld een &#39;Productnaam&#39; op basis van de &#39;Productdimensie&#39;. De classificaties in een bronrapportreeks zijn automatisch beschikbaar aan om het even welke afhankelijke virtuele rapportreeksen.
 
-> [!TIP] Met de introductie van [kromming](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), kunt u de naam van een bepaalde afmeting of metrisch op een per-VRS basis veranderen.
+>[!TIP] Met de introductie van [kromming](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), kunt u de naam van een bepaalde afmeting of metrisch op een per-VRS basis veranderen.
 
 ### Segmenteringsnuances
 
@@ -82,7 +82,7 @@ Zo is per rapportsuite slechts één Google DCM toegestaan. Veel bedrijven hebbe
 
 Met behulp van samenvattingsgegevensbronnen kunt u samengevoegde metriek op rapportniveau importeren in Adobe Analytics. Aangezien samenvattingsgegevensbronuploads geaggregeerde metriek bevatten, kunnen ze niet worden gesegmenteerd. Aangezien het VRS gebruikend segmentatie werkt, zijn alle gegevens die gebruikend summiere gegevensbronnen worden ingevoerd niet beschikbaar in virtuele rapportreeksen. De summiere gegevensbronnen zijn slechts zichtbaar in de bron rapportreeks.
 
-> [!TIP] De volledige bronnen van verwerkingsgegevens steunen segmentatie, en kunnen in virtuele rapportreeksen worden gebruikt.
+>[!TIP] De volledige bronnen van verwerkingsgegevens steunen segmentatie, en kunnen in virtuele rapportreeksen worden gebruikt.
 
 ## Stappen volgen als u hebt besloten VRS te gebruiken
 
@@ -92,7 +92,7 @@ Als u ervoor kiest om secundaire servervraag ten gunste van virtuele rapportsuit
    * Als u van een bestaande multi-suite geëtiketteerde implementatie migreert, vergelijk de segmenten van de virtuele rapportreeks met uw bestaande reeksen van het kindrapport. U wilt ervoor zorgen dat de gegevens vergelijkbaar zijn voordat u gebruikers naar de virtuele rapportsuite verplaatst.
    * Als beste praktijken, denk na gebruikend [segment het stapelen](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) zodat kunt u een segment in één plaats uitgeven en het hebben op alle afhankelijke virtuele rapportreeksen van toepassing zijn.
    * Gebruik raakcontainers als u virtuele rapportsuites wederzijds wilt uitsluiten.
-2. Nadat u hebt bevestigd dat de virtuele rapportreeksen correct opstelling zijn, verwijder de secundaire identiteitskaart van de rapportreeks uit uw implementatie. Secundaire rapportsuites verwijderen:
+2. Nadat u hebt bevestigd dat de virtuele rapportreeksen correct opstelling zijn, verwijder de secundaire identiteitskaart van de rapportreeks van uw implementatie. Secundaire rapportsuites verwijderen:
    * In de Lancering van het Platform van de Ervaring van Adobe, klik &quot;x&quot;naast om het even welke rapportsuites die u niet meer wilt gebruiken.
    * Zoek in DTM de eigenschap en het hulpprogramma Analytics. Verwijder de namen van de rapportsuite-id&#39;s die u niet meer wilt gebruiken in de velden Productieaccount-id en Staging Account ID.
    * Zoek in verouderde JavaScript-implementaties de `s.account` variabele op en verwijder de id&#39;s van de rapportsuite die u niet meer wilt gebruiken.
