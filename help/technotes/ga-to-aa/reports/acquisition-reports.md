@@ -2,7 +2,7 @@
 title: Overnamerapporten in Adobe Analytics
 description: Leer hoe u aanschafrapporten maakt met gebruik van de analysewerkruimte.
 translation-type: tm+mt
-source-git-commit: 2e3896501a036e20f9f392c325e0c8ff1d586fba
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ In overnamerapporten ziet u hoe u bezoekers van uw site ontvangt.
 
 In Adobe Analytics worden deze rapporten **marketingkanalen** genoemd. Zij vereisen wat basis aanvankelijke opstelling, maar staan een veel meer aangepaste mening van kanalen toe.
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
 > Opstelling uw de verwerkingsregels van het Kanaal van de Marketing om deze rapporten te gebruiken. Zie Aan de [slag met de Kanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) van de Marketing voor informatie over hoe te om de Kanalen van de Marketing in uw organisatie het best te vormen.
 
