@@ -2,7 +2,7 @@
 title: Real-time rapporten in Adobe Analytics
 description: Leer hoe u real-time rapporten kunt genereren in Adobe Analytics, gericht op gebruikers die meer vertrouwd zijn met Google Analytics.
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -65,7 +65,7 @@ In real time inhoud vertelt u welke pagina&#39;s uw bezoekers momenteel bekijken
 
 Gebeurtenissen in real time vertellen u welke gebeurtenissen het meest op uw plaats gebeuren. In Google Analytics legt een gebeurtenis vast hoe vaak een specifieke actie (meestal een actie die geen verband houdt met een paginaweergave) is uitgevoerd. GA-gebeurtenissen worden verzonden met een categorie, label en handeling. In Adobe Analytics zijn aangepaste gebeurtenissen metriek met vriendelijke namen in de beheerconsole die naast elke gewenste dimensie kan worden geanalyseerd. Als u op zoek bent naar een dimensie in Adobe Analytics die vergelijkbaar is met Google Analytics-gebeurtenissen, kunt u de dimensie Aangepaste koppeling toepassen. Deze wordt vaak gebruikt als een &#39;catch-all&#39; voor het verzamelen van gegevens die geen verband houden met paginaweergaven (naast Koppelingen afsluiten - voor Afsluiten - en Koppelingen downloaden - voor Downloads).
 
-> [!NOTE] Wanneer het gebruiken van douanegebeurtenissen in rapporten in real time, moet de afmetingswaarde in de zelfde klap worden bepaald zoals de douanegebeurtenis. Als u bijvoorbeeld een aangepaste gebeurtenis &#39;Registrations&#39; weergeeft voor de dimensie &#39;Referring Domain&#39;, worden er geen gegevens geretourneerd zonder aanvullende implementatie. Aangezien het verwijzende domein slechts op de eerste slag verschijnt, en een douanegebeurtenis typisch later in het bezoek zou verschijnen, kunnen de gegevens niet in rapporten in real time worden geassocieerd. Deze gegevens zijn beschikbaar met Analyse-werkruimte met standaardverwerkingslatentie (doorgaans 30-90 minuten).
+>[!NOTE] Wanneer het gebruiken van douanegebeurtenissen in rapporten in real time, moet de afmetingswaarde in de zelfde klap worden bepaald zoals de douanegebeurtenis. Als u bijvoorbeeld een aangepaste gebeurtenis &#39;Registrations&#39; weergeeft voor de dimensie &#39;Referring Domain&#39;, worden er geen gegevens geretourneerd zonder aanvullende implementatie. Aangezien het verwijzende domein slechts op de eerste slag verschijnt, en een douanegebeurtenis typisch later in het bezoek zou verschijnen, kunnen de gegevens niet in rapporten in real time worden geassocieerd. Deze gegevens zijn beschikbaar met Analyse-werkruimte met standaardverwerkingslatentie (doorgaans 30-90 minuten).
 
 ## Conversies in realtime
 
@@ -79,4 +79,4 @@ In real time omzettingen presenteren gegevens verschillend tussen platforms. De 
    * Voor de twee secundaire dimensies, gebruik de aangewezen extra gegevens die u voor dit verkeer wilt zien. Secundaire afmetingen hoeven niet specifiek te zijn voor conversies.
 3. Klik op [!UICONTROL Save and View Report].
 
-> [!NOTE] Als het gebruiken van gebeurtenissen buiten Instanties, zoals Orders, zorg ervoor dat uw implementatie de dimensie en de gebeurtenis op de zelfde klap bepaalt. Als de afmetingen en de gebeurtenissen niet op de zelfde klap in brand steken, zijn die gegevens beschikbaar in de Werkruimte van de Analyse gebruikend standaardverwerkingslatentie, die typisch 30-90 minuten is.
+>[!NOTE] Als het gebruiken van gebeurtenissen buiten Instanties, zoals Orders, zorg ervoor dat uw implementatie de dimensie en de gebeurtenis op de zelfde klap bepaalt. Als de afmetingen en de gebeurtenissen niet op de zelfde klap in brand steken, zijn die gegevens beschikbaar in de Werkruimte van de Analyse gebruikend standaardverwerkingslatentie, die typisch 30-90 minuten is.
