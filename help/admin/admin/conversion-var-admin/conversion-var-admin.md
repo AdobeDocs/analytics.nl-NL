@@ -5,7 +5,7 @@ title: Conversievariabelen (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 76613290f4496a400ba9c16171cef7e161a29cf3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,7 +24,7 @@ Vars kunnen het beste worden gebruikt om oorzaak en effect te meten, zoals:
 
 Als verkeersmeting of het kleven gewenst is, wordt het gebruiken van verkeersvariabelen geadviseerd.
 
-> [!NOTE] Er kan slechts één waarde in een eVar in een afbeeldingsaanvraag worden opgeslagen. Als er meerdere waarden in een eVar-waarde zijn gewenst, raden we u aan [Lijstvariabelen (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)te implementeren.
+>[!NOTE] Er kan slechts één waarde in een eVar in een afbeeldingsaanvraag worden opgeslagen. Als er meerdere waarden in een eVar-waarde zijn gewenst, raden we u aan [Lijstvariabelen (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)te implementeren.
 
 ## Conversievariabelen - beschrijvingen {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
