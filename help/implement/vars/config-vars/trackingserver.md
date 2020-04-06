@@ -2,7 +2,7 @@
 title: trackingServer
 description: Bepaal de locatie waarnaar verzoeken voor de afbeelding worden verzonden.
 translation-type: tm+mt
-source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 Adobe verzamelt gegevens op uw site door een afbeeldingsaanvraag te ontvangen die door de bezoeker is gegenereerd. De `trackingServer` variabele bepaalt de locatie die een afbeeldingsaanvraag wordt verzonden. Als deze variabele niet correct wordt gedefinieerd, kan uw implementatie gegevensverlies ervaren.
 
-> [!IMPORTANT] Als u deze waarde wijzigt, zoekt AppMeasurement naar cookies op een andere locatie. Het unieke aantal bezoekers kan tijdelijk in de rapportage springen, omdat bezoekerscookies op de nieuwe locatie worden ingesteld.
+>[!IMPORTANT] Als u deze waarde wijzigt, zoekt AppMeasurement naar cookies op een andere locatie. Het unieke aantal bezoekers kan tijdelijk in de rapportage springen, omdat bezoekerscookies op de nieuwe locatie worden ingesteld.
 
 ## Trackingserver in Adobe Experience Platform Launch
 
@@ -28,7 +28,7 @@ Als dit veld niet wordt ingevuld, wordt standaard ingesteld op `[rsid].112.2o7.n
 
 De `s.trackingServer` variabele is een tekenreeks die de locatie bevat waar gegevens moeten worden verzonden.
 
-> [!TIP] Sommige implementaties wijzen gegevens aan `2o7.net`. Hoewel dit een geldig domein voor gegevensverzameling is, wordt geen regionale gegevensverzameling gebruikt. Implementaties die gebruikmaken van `2o7.net` zie iets hogere responstijden voor verzoeken om afbeeldingen.
+>[!TIP] Sommige implementaties wijzen gegevens aan `2o7.net`. Hoewel dit een geldig domein voor gegevensverzameling is, wordt geen regionale gegevensverzameling gebruikt. Implementaties die gebruikmaken van `2o7.net` zie iets hogere responstijden voor verzoeken om afbeeldingen.
 
 ## De waarde voor trackingServer bepalen
 
@@ -48,7 +48,7 @@ CNAME-records zijn meestal al ingesteld en wijzen ernaar `sc.omtrdc.net`. Het do
 
 ### Cookies van andere bedrijven
 
-> [!TIP] De toenemende privacy praktijken in moderne browsers maken derdekoekjes minder betrouwbaar. Adobe raadt u aan de cookie-workflow van de eerste fabrikant te volgen.
+>[!TIP] De toenemende privacy praktijken in moderne browsers maken derdekoekjes minder betrouwbaar. Adobe raadt u aan de cookie-workflow van de eerste fabrikant te volgen.
 
 Als u een cookie-implementatie van een andere fabrikant gebruikt, `trackingServer` is de waarde voor een subdomein van `sc.omtrdc.net`. Bijvoorbeeld:
 
@@ -58,4 +58,4 @@ s.trackingServer = "example.sc.omtrdc.net";
 
 Kies een subdomein dat uniek is voor uw organisatie en dat waarschijnlijk niet door een andere organisatie wordt gekozen die Adobe Analytics gebruikt. Zorg ervoor dat alle implementaties in uw organisatie dezelfde trackingserver gebruiken. Het kan nuttig zijn om deze informatie in een document [van het](../../prepare/solution-design.md)oplossingsontwerp te handhaven.
 
-> [!NOTE] Gebruik geen subdomeinen die dieper zijn dan `example.sc.omtrdc.net`. Is bijvoorbeeld `custom.example.sc.omtrdc.net` geen geldige trackingserver.
+>[!NOTE] Gebruik geen subdomeinen die dieper zijn dan `example.sc.omtrdc.net`. Is bijvoorbeeld `custom.example.sc.omtrdc.net` geen geldige trackingserver.
