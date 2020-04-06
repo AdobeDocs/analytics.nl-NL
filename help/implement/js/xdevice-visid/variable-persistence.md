@@ -5,14 +5,14 @@ title: Toewijzing en persistentie
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Toewijzing en persistentie
 
-> [!IMPORTANT] Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie [Apparaatanalyse](/help/components/cda/cda-home.md) in de gebruikershandleiding voor componenten.
+>[!IMPORTANT] Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie [Apparaatanalyse](/help/components/cda/cda-home.md) in de gebruikershandleiding voor componenten.
 
 Wanneer bezoekersprofielen worden samengevoegd nadat ze zijn gekoppeld aan dezelfde variabele voor de bezoekersidentiteitskaart, wordt de toewijzing niet gewijzigd in de historische gegevensset.
 
@@ -40,7 +40,7 @@ Bij de eerste gegevensverbinding met een eerder niet-herkende `s.visitorID` waar
 * Waarden die door andere maatregelen vervallen, worden naar het geverifieerde profiel gekopieerd. De waarde `apple` blijft bestaan.
 * Voor de eVars die worden voortgeduurd, wordt geen metrische instantie geregistreerd. Dit betekent wanneer het gebruiken van de identificatie van de dwars-apparatenbezoeker, het mogelijk is om rapporten te zien waar de Unieke metrische Bezoek voor een waarde eVar groter is dan metrisch van de Instantie.
 
-> [!NOTE] Als een gebruiker nieuw is voor uw site (nog niet eerder op dit apparaat is bezocht) en binnen ongeveer 3 minuten na aankomst wordt geverifieerd, blijven er geen waarden over voor het geverifieerde profiel.
+>[!NOTE] Als een gebruiker nieuw is voor uw site (nog niet eerder op dit apparaat is bezocht) en binnen ongeveer 3 minuten na aankomst wordt geverifieerd, blijven er geen waarden over voor het geverifieerde profiel.
 
 ## Voorbeeld 2
 
