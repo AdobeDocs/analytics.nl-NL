@@ -2,18 +2,18 @@
 title: H Code JavaScript-implementatieoverzicht
 description: Leer de workflow voor het implementeren van H-code op uw site.
 translation-type: tm+mt
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # H Code JavaScript-implementatieoverzicht
 
-> [!IMPORTANT] Deze versie van gegevensverzameling wordt niet meer ondersteund. Voer een upgrade uit naar [Adobe Experience Platform Launch](../../launch/overview.md) of [AppMeasurement voor JavaScript](../overview.md).
+>[!IMPORTANT] Deze versie van gegevensverzameling wordt niet meer ondersteund. Voer een upgrade uit naar [Adobe Experience Platform Launch](../../launch/overview.md) of [AppMeasurement voor JavaScript](../overview.md).
 
 U moet toegang hebben tot uw hostservers om een pagina met code te kunnen implementeren voor het verzamelen van gegevens. De volgende stappen lopen u door een basisimplementatie van de Code van Analytics H.
 
-> [!NOTE] U moet al over een bestaand exemplaar van beschikken om deze instructies `s_code.js` te kunnen volgen. Adobe biedt niet langer een optie om H-code te downloaden in Codebeheer.
+>[!NOTE] U moet al over een bestaand exemplaar van beschikken om deze instructies `s_code.js` te kunnen volgen. Adobe biedt niet langer een optie om H-code te downloaden in Codebeheer.
 
 1. **Core JS-bestandsvariabelen** bijwerken: Bewerk het `s_code.js` bestand en controleer of de volgende variabelen zijn bijgewerkt:
    * `s_account` bevat de rapportsuite-id waarnaar u gegevens wilt verzenden. Zie
