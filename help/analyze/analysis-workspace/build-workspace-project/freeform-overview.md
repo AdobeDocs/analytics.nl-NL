@@ -5,7 +5,7 @@ title: Project maken - overzicht
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -33,7 +33,7 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 | Projectsjablonen [](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | U kunt deze vooraf ingevulde projectmalplaatjes gebruiken aangezien zij zijn of hen aanpassen aan uw behoeften (door metriek of visualisaties toe te voegen of te vervangen, bijvoorbeeld) en hen te bewaren onder een nieuwe naam. |
 | [Nieuw project maken](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Klik op deze koppeling om een geheel nieuw project te starten. |
 | Projecten beheren | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), waar al uw projecten worden vermeld en waarmee u projecten kunt labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
-| Zelfstudies weergeven | Hiermee gaat u naar de video&#39;s [van de](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)Analyse Workspace YouTube. |
+| Zelfstudies weergeven | Hiermee gaat u naar de [YouTube-video](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)van de Analyse Workspace. |
 | Naam | Naam van het project van de Werkruimte. |
 | Gemaakt door | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
 | Tags | Tags die op het project zijn toegepast, in Projectcomponentbeheer of onder **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
@@ -66,7 +66,7 @@ Het bovenste menu Projecten ziet er als volgt uit:
 
 De submenu&#39;s bevatten de volgende opties.
 
-> [!NOTE] Opties gemarkeerd met een sterretje (*) worden alleen weergegeven met **opgeslagen** projecten.
+>[!NOTE] Opties gemarkeerd met een sterretje (*) worden alleen weergegeven met **opgeslagen** projecten.
 
 | Project | Bewerken | Invoegen | Componenten | Delen | Help |
 |---|---|---|---|---|---|
