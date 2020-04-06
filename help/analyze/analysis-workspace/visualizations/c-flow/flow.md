@@ -3,7 +3,7 @@ description: 'null'
 title: Overzicht van stroom
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -18,9 +18,9 @@ Hiermee kunt u:
 * Analyseren waar klanten voor en na opgegeven controlepunten gaan, zoals ingang, een specifieke afmeting, of uitgang
 * Segmenten maken door een specifiek punt op te geven in een gekozen pad
 
-> [!NOTE] Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen de Werkruimte van de Analyse en Rapporten &amp; Analytics/Ad hoc Analyse zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>[!NOTE] Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen de Werkruimte van de Analyse en Rapporten &amp; Analytics/Ad hoc Analyse zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Stroomvisualisatie op YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
+[Stroomvisualisatie op YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
 ## Inter-dimensionale stromen {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
