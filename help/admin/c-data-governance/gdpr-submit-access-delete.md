@@ -3,7 +3,7 @@ description: 'null'
 title: Toegang verzenden en verzoeken verwijderen
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 604f9b896b843f68b23949fe77502a6d22a06509
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -33,7 +33,7 @@ Elk bestand combineert gegevens uit al uw rapportsuites en verwijdert automatisc
 
 U kunt toegang tot gegevensprivacy verzenden en aanvragen verwijderen via onze interface-portal [voor](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) gegevensprivacy of via onze API voor [gegevensprivacy.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
-> [!NOTE] De Data Privacy API ondersteunt batchverzendingen voor meerdere gebruikers in één aanvraag. De momenteel ondersteunde limiet is 1000 aparte gebruikers (kan meerdere id&#39;s per gebruiker hebben) in één JSON-aanvraagbestand.
+>[!NOTE] De Data Privacy API ondersteunt batchverzendingen voor meerdere gebruikers in één aanvraag. De momenteel ondersteunde limiet is 1000 aparte gebruikers (kan meerdere id&#39;s per gebruiker hebben) in één JSON-aanvraagbestand.
 
 ## Voorbeeld-JSON-aanvraag {#sample-json-request}
 
