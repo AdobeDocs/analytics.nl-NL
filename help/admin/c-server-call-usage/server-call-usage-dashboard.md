@@ -3,7 +3,7 @@ description: 'null'
 title: Huidig serveroproepgebruik weergeven
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Current Usage]**
 
-> [!IMPORTANT] Om het even welk gebruik en verplichtingsaantallen u ziet zijn cumulatief over al uw login bedrijven en rapportsuites.
+>[!IMPORTANT] Om het even welk gebruik en verplichtingsaantallen u ziet zijn cumulatief over al uw login bedrijven en rapportsuites.
 
 Het huidige verbruiksdashboard
 
