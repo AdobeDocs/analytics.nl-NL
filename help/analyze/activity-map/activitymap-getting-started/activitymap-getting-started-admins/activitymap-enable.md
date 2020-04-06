@@ -4,7 +4,7 @@ title: Activiteitenoverzicht inschakelen
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -55,4 +55,4 @@ Eerst, moet u de rapporten van de Kaart van de Activiteit op een rapport-reeks n
 
 1. Hierdoor kunnen uw Admin-gebruikers de Activity Map downloaden van **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** .
 
-> [!NOTE] Als u niet-admin gebruikers de Kaart van de Activiteit wilt downloaden, creeer een nieuwe gebruikersgroep die toestemmingen aan &quot;Hulpmiddelen&quot;en &quot;Oudere Installatie ClickMap van de Verouderde verleent. Dit niveau van toestemming die met de Toegang van de Kaart van de Activiteit wordt gecombineerd verleent toestemmingen om het hulpmiddel te downloaden en te gebruiken.
+>[!NOTE] Als u niet-admin gebruikers de Kaart van de Activiteit wilt downloaden, creeer een nieuwe gebruikersgroep die toestemmingen aan &quot;Hulpmiddelen&quot;en &quot;Oudere Installatie ClickMap van de Verouderde verleent. Dit niveau van toestemming die met de Toegang van de Kaart van de Activiteit wordt gecombineerd verleent toestemmingen om het hulpmiddel te downloaden en te gebruiken.
