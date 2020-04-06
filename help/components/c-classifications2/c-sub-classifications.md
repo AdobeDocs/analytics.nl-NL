@@ -5,7 +5,7 @@ title: Subclassificaties
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 Adobe Analytics ondersteunt classificatiemodellen op één niveau en die op meerdere niveaus. Met een classificatiehiërarchie kunt u een classificatie toepassen op een classificatie.
 
-> [!NOTE] Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] toepassing voor het maken van [!UICONTROL Hierarchy] rapporten. Zie [Classificatiehiërarchieën](classification-hierarchies.md)voor meer informatie over classificatiehiërarchieën.
+>[!NOTE] Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] toepassing voor het maken van [!UICONTROL Hierarchy] rapporten. Zie [Classificatiehiërarchieën](classification-hierarchies.md)voor meer informatie over classificatiehiërarchieën.
 
 Bijvoorbeeld:
 
@@ -52,7 +52,7 @@ Bijvoorbeeld:
 
 Hoewel het dossiermalplaatje voor een classificatie op meerdere niveaus complexer is, is de macht van classificaties op meerdere niveaus dat de afzonderlijke niveaus als afzonderlijke dossiers kunnen worden geupload. Deze benadering kan worden gebruikt om de hoeveelheid gegevens te minimaliseren die periodiek (dagelijks, wekelijks, etc.) moet worden geupload door gegevens in classificatieniveaus te groeperen die in tijd tegenover die veranderen die niet.
 
-> [!NOTE] Als de [!UICONTROL Key] kolom in een gegevensbestand leeg is, genereert Adobe automatisch unieke sleutels voor elke gegevensrij. U voorkomt mogelijke bestandsbeschadiging wanneer u een gegevensbestand uploadt met classificatiegegevens van het tweede niveau of hoger niveau door elke rij van de [!UICONTROL Key] kolom te vullen met een asterisk (*).
+>[!NOTE] Als de [!UICONTROL Key] kolom in een gegevensbestand leeg is, genereert Adobe automatisch unieke sleutels voor elke gegevensrij. U voorkomt mogelijke bestandsbeschadiging wanneer u een gegevensbestand uploadt met classificatiegegevens van het tweede niveau of hoger niveau door elke rij van de [!UICONTROL Key] kolom te vullen met een sterretje (*).
 
 Zie [Gemeenschappelijke classificatie uploadt Kwesties](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues) voor het oplossen van problemenhulp.
 
