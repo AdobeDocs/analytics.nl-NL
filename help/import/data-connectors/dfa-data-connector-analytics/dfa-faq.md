@@ -5,7 +5,7 @@ title: Veelgestelde vragen
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,7 +24,7 @@ Als het meer dan 3 dagen is geweest en u niet opstellings-e-mail hebt ontvangen 
 
 Bijvoorbeeld, zeg er een integratie in Reeks A van het Rapport met Advertiser identiteitskaart Z is die toegewezen CSID krijgt. Als een andere integratie later opstelling in Reeks B van het Rapport met Advertiser Z is, zal deze nieuwere integratie NIET opnieuw toegewezen CSID worden. Hiervoor is een Google-ticket nodig. Anderzijds, neem het voorbeeld van een integratie in Report Suite A, met Advertiser ID Z, en later een andere integratie in Report Suite A, wordt Advertiser Z opstelling. Alleen de eerste integratie zal gegevens voor de integratie ontvangen; in dit geval kan de eerste integratie echter worden gedeactiveerd en zullen de gegevens naar de tweede integratie gaan .
 
-> [!NOTE] CSIDs wordt niet gebruikt in versie 2.0 van de integratie en zo is het onderhandelingsproces van CSID niet van toepassing.
+>[!NOTE] CSIDs wordt niet gebruikt in versie 2.0 van de integratie en zo is het onderhandelingsproces van CSID niet van toepassing.
 
 ## Ik gebruik versie 2.0 van de integratie en de kostenmetriek verschijnen niet voor mijn DFA advertenties. Waarom zou dat zo zijn? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
