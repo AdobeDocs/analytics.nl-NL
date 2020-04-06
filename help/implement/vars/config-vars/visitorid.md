@@ -2,7 +2,7 @@
 title: bezoekerID
 description: Gebruik een aangepaste bezoeker-id.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 Adobe gebruikt verschillende methoden om bezoekers op uw site te identificeren. De `visitorID` variabele negeert alle andere methoden voor bezoekersidentificatie.
 
-> [!IMPORTANT] Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan de [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
+>[!IMPORTANT] Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan de [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
 
 ## Bezoeker-id in Adobe Experience Platform Launch
 
@@ -28,7 +28,7 @@ Wijs dit veld toe aan het gegevenselement dat uw aangepaste bezoeker-id bevat. S
 
 De `s.visitorID` variabele is een tekenreeks die een aangepaste unieke id voor de bezoeker bevat. Geldige waarden zijn alfanumerieke tekens tot 100 bytes. Gebruik geen streepjes, spaties, onderstrepingstekens of symbolen in deze variabele.
 
-> [!WARNING] Als u de variabele `visitorID` partway door een bezoek plaatst, resultaten de gegevens in twee afzonderlijke unieke bezoekers.
+>[!WARNING] Als u de variabele `visitorID` partway door een bezoek plaatst, resultaten de gegevens in twee afzonderlijke unieke bezoekers.
 
 ```js
 s.visitorID = "abc123";
