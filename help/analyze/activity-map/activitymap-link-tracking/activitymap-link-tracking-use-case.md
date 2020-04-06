@@ -4,7 +4,7 @@ title: Verschillende koppelingen die verwijzen naar dezelfde koppelings-id en -r
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -44,7 +44,7 @@ Als voorbeeld, laten wij zeggen u veelvoudige &quot;Kopen&quot;verbindingen hebt
  </tbody> 
 </table>
 
-Hoe kunt u uw webpagina en tags aanpassen om de waarden van deze koppelingen te onderscheiden? U hebt drie opties: U kunt de identiteitskaart van de Verbinding aanpassen, of het gebied aanpassen, of het dossier van de Module AppMeasurement ActivityMap aanpassen.
+Hoe kunt u de webpagina en de codering aanpassen om de waarden van deze koppelingen te onderscheiden? U hebt drie opties: U kunt de identiteitskaart van de Verbinding aanpassen, of het gebied aanpassen, of het dossier van de Module AppMeasurement ActivityMap aanpassen.
 
 ## Koppelings-id aanpassen met s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
@@ -87,7 +87,7 @@ Door een unieke object-id te maken voor een koppeling of koppelingslocatie op ee
 
 U kunt de regio aanpassen door ervoor te zorgen dat voor elke &quot;koop&quot;verbinding een eigen Gebied wordt bepaald. Hiervoor voegt u een parameter &quot;id&quot; toe aan een van de bovenliggende elementen van elke ankertag &quot;Buy&quot;.
 
-> [!NOTE] U bent niet strikt beperkt tot de parameter &quot;id&quot; als regio-id. U kunt ook uw eigen id instellen met de JavaScript-variabele &quot;s.ActivityMap.regionIDAattribute&quot;.
+>[!NOTE] U bent niet strikt beperkt tot de parameter &quot;id&quot; als regio-id. U kunt ook uw eigen id instellen met de JavaScript-variabele &quot;s.ActivityMap.regionIDAattribute&quot;.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
