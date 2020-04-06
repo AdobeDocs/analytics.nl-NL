@@ -2,7 +2,7 @@
 title: Conversierapporten in Adobe Analytics
 description: Leer hoe u conversierapporten gebruikt in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -45,7 +45,7 @@ Zowel in Google Analytics als in productrapporten in Adobe Analytics zijn aangep
 
 Taalrapporten met meerdere kanalen bieden extra marketingkanaalgegevens die verder gaan dan de verzamelingsrapporten. In deze rapporten wordt vooral aandacht besteed aan de manier waarop bezoekers converteren, in plaats van aan de manier waarop bezoekers uw site bereiken.
 
-> [!NOTE]
+>[!NOTE]
 >
 > Het gebruik van multikanaalrapporten in Adobe Analytics vereist zowel de opstelling van de Kanalen van de Marketing als een douaneimplementatie om de productvariabele en aankoopgebeurtenis aan te passen. Adobe raadt u aan samen te werken met een implementatieconsultant als deze functies nog niet zijn geconfigureerd voor uw rapportsuite.
 
