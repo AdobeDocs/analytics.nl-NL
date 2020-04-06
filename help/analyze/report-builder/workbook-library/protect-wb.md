@@ -4,7 +4,7 @@ title: Werkboeken vergrendelen/ontgrendelen
 topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -28,7 +28,7 @@ U kunt een gesloten werkboek ontgrendelen als u één van de volgende toestemmin
 * U bent een beheerder, of
 * U bent de persoon die aanvankelijk het werkboek gesloten. In dit geval hoeft u geen beheerder te zijn.
 
-> [!NOTE] U kunt geen verzoek aan een beschermd werkboek toevoegen tenzij u de toestemmingen hebt om het werkboek te ontgrendelen.
+>[!NOTE] U kunt geen verzoek aan een beschermd werkboek toevoegen tenzij u de toestemmingen hebt om het werkboek te ontgrendelen.
 
 Wanneer een werkboek tegen verzoek het uitgeven wordt gesloten,
 
