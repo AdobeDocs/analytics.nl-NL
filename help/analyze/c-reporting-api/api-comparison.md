@@ -3,7 +3,7 @@ description: Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen 
 title: Analytics Reporting API Comparison
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de ondersteunende documentatie worden gegeven.
 
-> [!NOTE] Wat latentie betreft, combineert Analytics for Target (A4T) Analytics en Target-gegevens op dezelfde hit voor geïntegreerde rapportage. Omdat de Analytics en de vraag van het Doel in verschillende tijden voorkomen, worden de klappen opgeslagen alvorens om het even welke verwerking voorkomt om gegevens van beide oplossingen te verzamelen. Hierbij wordt **een extra wachttijd van 7 tot 10 minuten** toegevoegd aan alle controlepunten.
+>[!NOTE] Wat latentie betreft, combineert Analytics for Target (A4T) Analytics en Target-gegevens op dezelfde hit voor geïntegreerde rapportage. Omdat de Analytics en de vraag van het Doel in verschillende tijden voorkomen, worden de klappen opgeslagen alvorens om het even welke verwerking voorkomt om gegevens van beide oplossingen te verzamelen. Hierbij wordt **een extra wachttijd van 7 tot 10 minuten** toegevoegd aan alle controlepunten.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
