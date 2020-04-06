@@ -2,7 +2,7 @@
 title: pageName
 description: De naam van de pagina op uw site.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 In de `pageName` variabele wordt doorgaans de naam van een bepaalde pagina opgeslagen. Het is handig om te bepalen welke afzonderlijke pagina&#39;s het populairst zijn. Deze variabele vult de dimensie &#39;Paginanaam&#39;.
 
-> [!NOTE] Deze dimensie wordt altijd gestript van verbinding het volgen vraag. Als u de paginanaam wilt zien waar een verbinding werd gevolgd, overweeg het kopiëren van deze variabele in een eVar.
+>[!NOTE] Deze dimensie wordt altijd gestript van verbinding het volgen vraag. Als u de paginanaam wilt zien waar een verbinding werd gevolgd, overweeg het kopiëren van deze variabele in een eVar.
 
 Als deze variabele niet op een bepaalde pagina het volgen vraag wordt bepaald, wordt de [`pageURL`](pageurl.md) variabele in plaats daarvan gebruikt.
 
