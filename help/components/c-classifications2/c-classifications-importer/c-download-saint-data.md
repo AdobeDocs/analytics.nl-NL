@@ -5,7 +5,7 @@ title: Indelingssjabloon
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: ''
 
 De template bevat de momenteel gedefinieerde classificaties (kolomkoppen) van een specifieke gegevensset zonder de gegevens die aan elke classificatie zijn gekoppeld, op te nemen.
 
-> [!NOTE] De methode van het Malplaatje beperkt uw download van classificatiegegevens tot één enkele rapportreeks.
+>[!NOTE] De methode van het Malplaatje beperkt uw download van classificatiegegevens tot één enkele rapportreeks.
 
 Zie [Informatie over classificatiegegevensbestanden](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)voor meer informatie over de structuur van het gegevensbestand.
 
@@ -38,7 +38,7 @@ Zie [Informatie over classificatiegegevensbestanden](/help/components/c-classifi
 
 De sjabloon biedt de bestandsindeling die u voor classificaties moet volgen.
 
-> [!NOTE] De methode van het Malplaatje beperkt uw gegevensdownload tot één enkele rapportreeks.
+>[!NOTE] De methode van het Malplaatje beperkt uw gegevensdownload tot één enkele rapportreeks.
 
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Geef op het **[!UICONTROL Download Template]** tabblad de configuratie [van de](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)gegevenssjabloon op.
