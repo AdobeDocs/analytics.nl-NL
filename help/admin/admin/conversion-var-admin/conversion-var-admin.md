@@ -5,7 +5,7 @@ title: Conversievariabelen (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: 76613290f4496a400ba9c16171cef7e161a29cf3
 
 ---
 
@@ -100,9 +100,11 @@ Beschrijvingen van velden die worden gebruikt bij het [bewerken van conversievar
 Er zijn twee manieren om een eVar te verlopen:
 
 * U kunt de variabele instellen op verlopen na een opgegeven tijdsperiode of gebeurtenis.
-* U kunt de vervaldatum van een eVar forceren, wat nuttig is bij het opnieuw gebruiken van een variabele.
+* U kunt de vervaldatum van een eVar forceren door het opnieuw in te stellen, wat nuttig is wanneer het opnieuw gebruiken van een variabele.
 
-Als een eVar in Mei wordt gebruikt om interne bevorderingen te weerspiegelen en na 21 dagen verloopt, en in juni het wordt gebruikt om interne onderzoekssleutelwoorden te vangen, dan zou u op 1 Juni de afloop van, of het terugstellen van, de variabele moeten dwingen. Als u dat doet, blijven de interne promotiewaarden buiten de verslagen van juni.
+Als u bijvoorbeeld de vervaldatum van een eVar wijzigt van 30 tot 90 dagen, blijven de verzamelde eVar-waarden behouden gedurende de nieuwe vervaldatum (in dit geval 90 dagen). Het systeem bekijkt eenvoudig de huidige die vervalbepaling en laatste vastgestelde timestamp van de waarde eVar wordt verzameld om afloop te bepalen. Alleen de **[!UICONTROL Reset]** optie vervalt waarden en doet dit onmiddellijk.
+
+Een ander voorbeeld: Als een eVar in Mei wordt gebruikt om interne bevorderingen te weerspiegelen en na 21 dagen verloopt, en in juni het wordt gebruikt om interne onderzoekssleutelwoorden te vangen, dan zou u op 1 Juni de afloop van, of het terugstellen van, de variabele moeten dwingen. Als u dat doet, blijven de interne promotiewaarden buiten de verslagen van juni.
 
 **Hoofdlettergevoeligheid**
 
