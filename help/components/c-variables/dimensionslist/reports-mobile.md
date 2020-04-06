@@ -4,7 +4,7 @@ title: Mobiel
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ Hiermee geeft u informatie weer over de toegang van websites vanaf een mobiel ap
 
 Hiermee geeft u informatie weer over de toegang van websites vanaf een mobiel apparaat. Mobiele rapporten verbeteren de identificatie van bezoekers door gegevens te verzamelen over mobiele apparaten die worden gebruikt om uw site weer te geven. In mobiele rapporten kunnen de fabrikant en de mogelijkheden van een apparaat worden geïdentificeerd, zoals schermformaten, video, audio, ondersteuning voor cookies en andere meetgegevens. Mobiele rapporten zijn beschikbaar voor alle rapportsuites.
 
-> [!NOTE] In Mobiele rapporten wordt alleen mobiel webverkeer weergegeven. Gegevens over mobiele apps die zijn verzameld met de native iOS-, Android- en andere SDK&#39;s, worden weergegeven in de rapporten voor mobiele apps en worden alleen weergegeven als deze zijn ingeschakeld in de beheerprogramma&#39;s.
+>[!NOTE] In Mobiele rapporten wordt alleen mobiel webverkeer weergegeven. Gegevens over mobiele apps die zijn verzameld met de native iOS-, Android- en andere SDK&#39;s, worden weergegeven in de rapporten voor mobiele apps en worden alleen weergegeven als deze zijn ingeschakeld in de beheerprogramma&#39;s.
 
 De volgende mobiele rapporten zijn beschikbaar:
 
