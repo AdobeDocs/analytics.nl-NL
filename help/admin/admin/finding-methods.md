@@ -1,17 +1,17 @@
 ---
-description: Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over zoekmethoden kredieten ontvangen voor conversiesuccesgebeurtenissen op uw site. Als een zoekmachine bijvoorbeeld een bezoeker doorverwijst naar uw site die een aankoop doet, kunt u met Methoden zoeken opgeven hoe het zoekprogramma krediet voor de doorverwijzing ontvangt.
+description: Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over zoekmethoden kredieten ontvangen voor conversiesuccesgebeurtenissen op uw site. Als een zoekmachine bijvoorbeeld een bezoeker doorverwijst naar uw site die een aankoop doet, kunt u met Methoden zoeken opgeven hoe de zoekfunctie de verwijzingsvergoeding ontvangt.
 title: Methoden zoeken
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Methoden zoeken
 
-Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over zoekmethoden kredieten ontvangen voor conversiesuccesgebeurtenissen op uw site. Als een zoekmachine bijvoorbeeld een bezoeker doorverwijst naar uw site die een aankoop doet, kunt u met Methoden zoeken opgeven hoe het zoekprogramma krediet voor de doorverwijzing ontvangt.
+Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over zoekmethoden kredieten ontvangen voor conversiesuccesgebeurtenissen op uw site. Als een zoekmachine bijvoorbeeld een bezoeker doorverwijst naar uw site die een aankoop doet, kunt u met Methoden zoeken opgeven hoe de zoekfunctie de verwijzingsvergoeding ontvangt.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**.
 
@@ -52,5 +52,5 @@ Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over z
  </tbody> 
 </table>
 
-> [!NOTE] Alle zoekmethoden verlopen wanneer het bezoek eindigt. Als u ervoor kiest om te vervallen na een andere gebeurtenis (bijvoorbeeld Afhandeling starten), verloopt de zoekmethode wanneer Afhandeling starten plaatsvindt tijdens het bezoek. Als er tijdens het bezoek geen uitchecken van winkelwagentjes plaatsvindt, verloopt de zoekmethode nog steeds wanneer het bezoek afloopt.
+>[!NOTE] Alle zoekmethoden verlopen wanneer het bezoek eindigt. Als u ervoor kiest om te vervallen na een andere gebeurtenis (bijvoorbeeld Afhandeling starten), verloopt de zoekmethode wanneer Afhandeling starten plaatsvindt tijdens het bezoek. Als er tijdens het bezoek geen uitchecken van winkelwagentjes plaatsvindt, verloopt de zoekmethode nog steeds wanneer het bezoek afloopt.
 
