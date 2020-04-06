@@ -4,7 +4,7 @@ title: Klantsegmentering
 topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Hiermee kunt u een filter met meerdere segmenten toepassen binnen Activiteitenkaart.
 
-> [!NOTE] Het besturingselement Segment is alleen beschikbaar in de standaardmodus, omdat het Adobe Analytics-platform geen ondersteuning biedt voor het segmenteren van realtime-gegevens.
+>[!NOTE] Het besturingselement Segment is alleen beschikbaar in de standaardmodus, omdat het Adobe Analytics-platform geen ondersteuning biedt voor het segmenteren van realtime-gegevens.
 
 U kunt een of meerdere segmenten selecteren in het onderstaande **[!UICONTROL Segments]** keuzemenu. De vermelde segmenten zijn gelijk aan de segmenten die u hebt of die met u via Rapporten &amp; Analytics zijn gedeeld, voor de geselecteerde rapportsuite.
 
