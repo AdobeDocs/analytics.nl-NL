@@ -5,7 +5,7 @@ title: Metrische gegevens berekenen
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Beschrijft hoe te om gemeenschappelijke metriek te berekenen gebruikend gegevensvoer.
 
-> [!IMPORTANT] Deze normaal gesproken niet opgenomen in Adobe Analytics, worden opgenomen in gegevensfeeds. Gebruik deze optie `exclude_hit > 0` om uitgesloten hits te verwijderen van query&#39;s op onbewerkte gegevens. Gegevensbronnen worden ook opgenomen in gegevensfeeds. Als u gegevensbronnen wilt uitsluiten, sluit u alle rijen met `hit_source = 5,7,8,9`.
+>[!IMPORTANT] Deze normaal gesproken niet opgenomen in Adobe Analytics, worden opgenomen in gegevensfeeds. Gebruik deze optie `exclude_hit > 0` om uitgesloten hits te verwijderen van query&#39;s op onbewerkte gegevens. Gegevensbronnen worden ook opgenomen in gegevensfeeds. Als u gegevensbronnen wilt uitsluiten, sluit u alle rijen met `hit_source = 5,7,8,9`.
 
 ## Paginaweergaven
 
@@ -25,7 +25,7 @@ Beschrijft hoe te om gemeenschappelijke metriek te berekenen gebruikend gegevens
 1. Samenvoegen `post_visid_high`, `post_visid_low`, `visit_num`en `visit_start_time_gmt`.
 1. Telt het unieke aantal waarden.
 
-> [!NOTE] Onregelmatigheden op internet, systeemonregelmatigheden of het gebruik van aangepaste bezoeker-id&#39;s kunnen zelden dezelfde `visit_num` waarden gebruiken voor verschillende bezoeken. Gebruik deze optie `visit_start_time_gmt` bij het tellen van bezoeken om ervoor te zorgen dat deze bezoeken worden geteld.
+>[!NOTE] Onregelmatigheden op internet, systeemonregelmatigheden of het gebruik van aangepaste bezoeker-id&#39;s kunnen zelden dezelfde `visit_num` waarden gebruiken voor verschillende bezoeken. Gebruik deze optie `visit_start_time_gmt` bij het tellen van bezoeken om ervoor te zorgen dat deze bezoeken worden geteld.
 
 ## Bezoekers
 
