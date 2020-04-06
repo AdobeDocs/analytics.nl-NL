@@ -2,7 +2,7 @@
 title: Een rapportsuite maken
 description: Maak een basiscontainer voor gegevensverzameling in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,7 +19,7 @@ Dit artikel is ontworpen voor systeembeheerders of analytische beheerders ter vo
 
 ## Een rapportsuite maken
 
-> [!NOTE] Er is ook een manier om een rapportsuite te maken in Adobe Analytics met behulp van de verouderde beheerder. Adobe raadt u aan de instellingwizard van de rapportsuite te gebruiken die hier wordt beschreven.
+>[!NOTE] Er is ook een manier om een rapportsuite te maken in Adobe Analytics met behulp van de verouderde beheerder. Adobe raadt u aan de instellingwizard van de rapportsuite te gebruiken die hier wordt beschreven.
 
 1. Meld u met uw Adobe-id aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) .
 1. Klik op het pictogram van 9 vierkante pixels rechtsboven en klik vervolgens op het gekleurde Analytics-logo.
