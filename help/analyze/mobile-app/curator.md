@@ -106,7 +106,7 @@ Het scorebordsjabloon implementeren:
    Wanneer u op een tegel in de Scorecard Builder klikt, toont het rechtse spoor de eigenschappen en de kenmerken verbonden aan die tegel. In dit spoor, kunt u een nieuwe **Titel** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
 
 
-   Als u op tegels klikt, wordt bovendien een dynamische pop-up weergegeven waarin wordt aangegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen dimensie is toegepast op de tegel, is de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
+   Als u op tegels klikt, wordt in een dynamische pop-up ook weergegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen dimensie is toegepast op de tegel, is de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
 
    ![Onderverdeling_weergave](assets/break_view.png)
 
