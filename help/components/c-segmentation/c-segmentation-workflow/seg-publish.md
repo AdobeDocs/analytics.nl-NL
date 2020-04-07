@@ -4,7 +4,7 @@ title: Segmenten publiceren naar de Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: a2b76a0e2fbe2ec598fffea64def771a2ddc0121
 
 ---
 
@@ -41,6 +41,9 @@ Nu, kan de verwerking tot 8 uren vergen, maar afhankelijk van ander verkeer en o
 | Nuttig segment met lidmaatschap | ~ 8 uur na publicatie | Bezoekerprofiel Viewer in [!DNL Audience Manager] |
 | Treinen en lidmaatschapspopulatie | Binnen 24-48 uur | [!DNL Audience Manager] |
 
+>[!NOTE]
+>Eenmaal per week worden alle gegevens volledig gesynchroniseerd om rekening te houden met eventuele delta&#39;s of discrepanties die in de voorgaande week niet zijn vastgelegd.
+
 ## Segmenten publiceren in [!UICONTROL Segment Builder]
 
 1. Ga naar **[!UICONTROL Analytics > Workspace > Components > Segments]> +**
@@ -51,7 +54,6 @@ Nu, kan de verwerking tot 8 uren vergen, maar afhankelijk van ander verkeer en o
 ![](assets/publish-ec.png)
 
 >[!IMPORTANT]
->
 >Gebruik &quot;Bezoekers met Experience Cloud ID&quot; wanneer u segmentvoorvertoningen bekijkt in Analytics in plaats van de totale segmentvoorvertoning &quot;unieke bezoekers&quot; wanneer u de Adobe Analytics-nummers vergelijkt met de Audience Manager-nummers:
 >
 >![](assets/seg-vis-ecid.png)
