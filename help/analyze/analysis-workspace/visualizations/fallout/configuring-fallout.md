@@ -3,7 +3,7 @@ description: 'null'
 title: Een fallout-visualisatie configureren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
 
 ---
 
@@ -71,6 +71,6 @@ Wanneer u met de **rechtermuisknop op een aanraakpunt** klikt, worden de volgend
 | Trend touchpoint | Zie trendgegevens voor een aanraakpunt in een lijngrafiek, met sommige vooraf gebouwde anomaliedetectiegegevens. |
 | Trend touchpoint (%) | Hiermee wordt het totale uitvalpercentage verhoogd. |
 | Alle aanraakpunten trenderen (%) | Trends all the touchpoint percentages in the fallout (behalve &quot;All Visits&quot;, if it is included), on the same chart. |
-| De uitsplitsing wordt doorlopen bij dit aanraakpunt | Bekijk wat bezoekers deden tussen twee aanraakpunten als ze doorgingen naar het volgende aanraakpunt. Hiermee maakt u een vrije-vormtabel waarin de afmetingen worden weergegeven. U kunt afmetingen en andere elementen van de tabel vervangen. |
-| Brainstormfallout bij dit aanraakpunt | Bekijk wat mensen die het niet door de trechter maakten onmiddellijk na de geselecteerde stap deden. |
+| Doorslag bij dit aanraakpunt | Bekijk wat bezoekers deden tussen twee aanraakpunten (dit aanraakpunt en het volgende aanraakpunt) als ze doorgingen naar het volgende aanraakpunt. Hiermee maakt u een vrije-vormtabel waarin de afmetingen worden weergegeven. U kunt afmetingen en andere elementen van de tabel vervangen. |
+| Uitval onderbreken bij dit aanraakpunt | Bekijk wat mensen die het niet door de trechter maakten onmiddellijk na de geselecteerde stap deden. |
 | Segment maken van aanraakpunt | Maak een nieuw segment van het geselecteerde aanraakpunt. |
