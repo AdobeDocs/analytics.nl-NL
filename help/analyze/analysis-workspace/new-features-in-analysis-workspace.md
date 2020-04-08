@@ -5,7 +5,7 @@ title: Nieuwe functies in de analysewerkruimte
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
 
 ---
 
@@ -307,8 +307,8 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 12 april 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Instelling voor 100% gestapelde visualisatie </a> </p> </td> 
-   <td colname="col2"> <p>Met een nieuwe visualisatie-instelling op een gebied met gestapelde/gestapelde/horizontale staafgestapelde visualisatie wordt het diagram omgezet in een '100% gestapelde' visualisatie, zodat u relatieve verhoudingen kunt meten. </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>Met een nieuwe visualisatie-instelling op een gebied met gestapelde/gestapelde/horizontale staafgestapelde visualisatie wordt het diagram omgezet in een '100% gestapelde' visualisatie, zodat u relatieve verhoudingen kunt meten. </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > Analyse van de Anomaly Detection and Contribution </a> nu beschikbaar slechts via de Werkruimte van de Analyse </p> </td> 
    <td colname="col2"> <p>Analyse van de Anomaly Detection and Contribution is verwijderd uit de set met functies Rapporten &amp; Analytics en is nu alleen beschikbaar via de Analyse Workspace. </p> <p>Klanten van Adobe Analytics Select en Adobe Analytics Foundation hebben alleen toegang tot Anomaly Detection in Workspace. </p> </td> 
