@@ -2,7 +2,7 @@
 title: Gebruikershandleiding voor labels
 description: Voorproef prototypeprojecten voor de Analyse van Adobe
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
 
 ---
 
@@ -58,7 +58,7 @@ Een prototype starten en evalueren:
 
 1. Als u een ander prototype wilt proberen of de prototypeomgeving wilt afsluiten, klikt u op de knop Prototype **** behouden rechtsboven in het scherm en voltooit u de korte enquête voor het prototype. Eventuele wijzigingen die in een prototypeproject worden aangebracht, gaan verloren wanneer de prototypeomgeving wordt verlaten.
 
-   ![nieuw feedbackvak](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+   ![nieuw feedbackvak](assets/short-survey.png)
 
 1. Klik op **Verzenden** om terug te keren naar de hoofdportal Voorvertoningen.
 
