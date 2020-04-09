@@ -4,7 +4,7 @@ title: Overzicht van de analysewerkruimte
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5161ccaf333908525c261b73419899918554b91c
 
 ---
 
@@ -15,9 +15,9 @@ De Werkruimte van de analyse verwijdert alle typische beperkingen van één enke
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-## Video overzicht {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## Video overzicht
 
->[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
 Volledige YouTube-afspeellijst beschikbaar [hier](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
@@ -25,7 +25,7 @@ Volledige YouTube-afspeellijst beschikbaar [hier](https://www.youtube.com/playli
 >
 >Zie [Nieuw in de Werkruimte](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) Analyse voor updates over functies.
 
-## Volledige controle over projectelementen en componenten {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## Volledige controle over projectelementen en componenten
 
 De analysewerkruimte biedt vrijheid en flexibiliteit:
 
@@ -37,7 +37,7 @@ De analysewerkruimte biedt vrijheid en flexibiliteit:
 
 Zie [Creeer een project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) van de Werkruimte van de Analyse voor meer informatie.
 
-## Meerdere visualisaties in een project {#section_B7670740C2D44130B21DAF0873280DA5}
+## Meerdere visualisaties in een project
 
 Sleep zoveel visualisaties naar een project als u wilt.
 
@@ -49,7 +49,7 @@ Creeer een project dat het percentage van verandering toont, met veelvoudige vis
 
 Zie [Creeer een project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) van de Werkruimte van de Analyse voor meer informatie.
 
-## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
+## Intra-linking to panels and visualizations
 
 In combinatie met de [rijke mogelijkheden voor tekstbewerking](/help/analyze/analysis-workspace/visualizations/text.md) van de Werkruimte van de Analyse, kunt u aan specifieke panelen en visualisaties binnen een project van een tekstvakje, zoals neer verbinden om de inhoudstafel van een project tot stand te brengen. U kunt deze koppelingen delen, zoals u een projectkoppeling deelt, om iemand naar een specifieke visualisatie of een bepaald deelvenster binnen een project te sturen. De nieuwe met de rechtermuisknop aangeklikte opties genoemd &quot;krijgen de Verbinding van het Comité&quot;en &quot;krijgen Visualisatiekoppeling&quot;zijn toegevoegd. Om intra-linking aan uw project toe te voegen:
 
@@ -69,17 +69,17 @@ Als u deelvensters of visualisaties hebt samengevouwen in uw project, kunt u doo
 
 >[!NOTE] U kunt deze functie ook gebruiken met de **[!UICONTROL Edit Description]** rechtermuisknop.
 
-## Koppeling naar andere projecten {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## Koppeling naar andere projecten
 
 U kunt gebruikers aan andere projecten verbinden die voor hen van belang kunnen zijn door naar **[!UICONTROL Share]** > te gaan **[!UICONTROL Get Project Link]** en deze verbinding in projectbeschrijvingen in te bedden, bijvoorbeeld.
 
-## Dynamische visualisatie van geselecteerde cellen {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## Dynamische visualisatie van geselecteerde cellen
 
 Selecteer individuele cellen en zie de visualisaties dynamisch veranderen. [Synchroniseer en vergrendel](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) een visualisatie met geselecteerde cellen.
 
 ![](assets/visualize-selected-cells.png)
 
-## Geselecteerde items of posities vergrendelen {#section_9D66A001586F49CEB0C565581E44957C}
+## Geselecteerde items of posities vergrendelen
 
 Door visualisaties te vergrendelen, kunt u bepalen welke bronnen van de vrije-vormgegevens overeenkomen met visualisaties.
 
@@ -87,7 +87,7 @@ Door visualisaties te vergrendelen, kunt u bepalen welke bronnen van de vrije-vo
 
 Zie [Gegevensbronnen](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)beheren.
 
-## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## Trend visualizations from selected cells
 
 Maak een visualisatie van geselecteerde cellen. (Klik met de rechtermuisknop > **[!UICONTROL Trend Selection]**.)
 
@@ -97,7 +97,7 @@ De selecties van de trend worden nu **verbonden** aan de lijst hieronder, zodat 
 
 ![](assets/trend-selection2.png)
 
-## Afmetingen en uitsplitsingen naar dimensie-items {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## Afmetingen en uitsplitsingen naar dimensie-items
 
 Als detailhandelaar, kunt u dieper dan ooit in uw campagnes duiken om te begrijpen hoe te om uw klanten beter in dienst te nemen. U kunt uw gegevens op onbeperkte wijze onderverdelen voor uw specifieke behoeften; bouwt vragen gebruikend relevante metriek, dimensies, segmenten, tijdlijnen, en andere waarden van de analyseonderbreking.
 
@@ -105,7 +105,7 @@ Als detailhandelaar, kunt u dieper dan ooit in uw campagnes duiken om te begrijp
 
 Zie [Afmetingen](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)onderbreken.
 
-## Segmenten uit tabelselecties {#section_73BC3688089B426D969B3D5B606DA970}
+## Segmenten uit tabelselecties
 
 Selecteer cellen in de vrije-vormlijst en creeer een segment van de selectie.
 
@@ -119,7 +119,7 @@ Zet een segment neer in het deelvenster Vrije vorm op projectniveau en het segme
 
 Zie [Segmenten](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 
-## Labels voor project en component {#section_F54D688132A541F2982326D5E022B90D}
+## Labels voor project en component
 
 U kunt markeringen op projecten en componenten in de Werkruimte van de Analyse toepassen:
 
@@ -128,7 +128,7 @@ U kunt markeringen op projecten en componenten in de Werkruimte van de Analyse t
 * Klik met de rechtermuisknop op componenten om tags aan te brengen (of tags te maken) in het deelvenster Componenten.
 * Gebruik # in het veld Zoeken om tags te zoeken.
 
-## Componenthandelingen {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## Componenthandelingen
 
 Voer componentenvlakke acties van het menu van Acties bij de bovenkant van de component linker spoorstaaf uit. Selecteer een component en klik **[!UICONTROL Actions]** om de handelingen weer te geven.
 
@@ -142,7 +142,7 @@ Voer componentenvlakke acties van het menu van Acties bij de bovenkant van de co
 
 Zie [Visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) voor meer informatie.
 
-## Aanvullende functiebeschrijvingen {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## Aanvullende functiebeschrijvingen
 
 **Wat u kunt slepen en stapelen**
 
@@ -187,4 +187,4 @@ Een standaardsegment uniek aan de Werkruimte van de Analyse. *`All Visits`* geef
 
 Gebruik berekeningen op dezelfde manier als standaardmeetwaarden.
 
-Zie [Berekende waarden](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+Zie [Berekende waarden](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html).
