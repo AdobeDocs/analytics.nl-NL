@@ -3,7 +3,7 @@ description: Adobe Analytics biedt verschillende maatstaven en dimensies voor Ti
 title: Tijd besteed
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8df1fdfb048dd69b4926b7b812ec5dfea4a97b89
 
 ---
 
@@ -83,6 +83,17 @@ A: Het verschil is de noemer in metrisch:
 * [!UICONTROL Average time spent on site] gebruikt de opeenvolgingen die een afmetingspunt omvatten.
 
 * [!UICONTROL Time spent per visit] gebruikt het aantal bezoeken
+
+Dit heeft tot gevolg dat deze meetgegevens bij een bezoek vergelijkbare resultaten opleveren, maar dat ze bij een treffer anders zijn.
+
+**V5: Waarom komen de uitsplitsingstotalen met[!UICONTROL Average Time Spent on Site]niet overeen met het bovenliggende regelitem?**
+
+A: Omdat [!UICONTROL Average Time Spent on Site] van ongebroken opeenvolgingen van een afmeting afhangt, en het binnenrapport niet van het buitenrapport afhangt wanneer het berekenen van deze looppas.
+
+Neem bijvoorbeeld het volgende bezoek.
+|hit#|1|2|3||—|—|—|—||**Seconden besteed**|30|100|10||**Paginanaam**|Home|Product|Home||**datum**|1 jan|1 jan|1 jan 1|
+
+Bij het berekenen van de tijdsduur voor de Homepage zou deze (30+10)/2=20 zijn, maar het onderbreken van die tijdsduur per dag zou geven (30+10)/1=40 aangezien de dag één enkele ononderbroken looppas van 1 Januari heeft.
 
 Dit heeft tot gevolg dat deze meetgegevens bij een bezoek vergelijkbare resultaten opleveren, maar dat ze bij een treffer anders zijn.
 
