@@ -1,44 +1,44 @@
 ---
-description: Instructies voor het instellen van de scorecards voor mobiele apps.
-title: Adobe Analytics Mobile App Curator Guide
+description: Instructies voor het instellen van de dashboards scorecards.
+title: Adobe Analytics-handleiding voor dashboards
 translation-type: tm+mt
-source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
+source-git-commit: 84c2d3534828b4c8d84d18de9168a46317a8b372
 
 ---
 
 
 
-# BETA: Curatorhandleiding voor Analytics Mobile App
+# BETA: Curatorhandleiding voor Adobe Analytics-dashboards
 
 
 ## Inleiding
 
-De Adobe Analytics Mobile-app biedt altijd en overal inzichten van Adobe Analytics.   Met de app kunnen gebruikers op mobiele apparaten toegang krijgen tot intuïtieve scorecards die u maakt en deelt via de gebruikersinterface van het bureaublad van Adobe Analytics. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. U kunt Scorecards op maat maken op basis van de gegevens die voor u het belangrijkst zijn. De mobiele app wordt ondersteund op zowel iOS- als Android-besturingssystemen.
+Adobe Analytics-dashboards bieden altijd en overal inzichten van Adobe Analytics. Met de app kunnen gebruikers op mobiele apparaten toegang krijgen tot intuïtieve scorecards die u maakt en deelt via de gebruikersinterface van het bureaublad van Adobe Analytics. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. U kunt Scorecards op maat maken op basis van de gegevens die voor u het belangrijkst zijn. Analytische dashboards worden ondersteund op zowel iOS- als Android-besturingssystemen.
 
 ## Over deze handleiding
 
-Deze handleiding is bedoeld om curatoren van Adobe Analytics-gegevens te helpen bij het configureren van Scorecards voor hun uitvoerende gebruikers in de mobiele app Analytics. Curatoren kunnen organisatiebeheerders of personen in andere functies zijn die verantwoordelijk zijn voor het instellen van toepassingsscoreborden, waarmee uitvoerende gebruikers een brede weergave van belangrijke samenvattingsgegevens snel en eenvoudig op hun eigen mobiele apparaten kunnen bekijken. Hoewel uitvoerende gebruikers de eindgebruikers zijn voor de mobiele app Analytics, helpt deze handleiding bij het effectief instellen van de app voor deze gebruikers.
+Deze handleiding is bedoeld om curatoren van Adobe Analytics-gegevens te helpen bij het configureren van Scorecards voor hun uitvoerende gebruikers op de dashboards van Analytics. Curatoren kunnen organisatiebeheerders of personen in andere functies zijn die verantwoordelijk zijn voor het instellen van toepassingsscoreborden, waarmee uitvoerende gebruikers een brede weergave van belangrijke samenvattingsgegevens snel en eenvoudig op hun eigen mobiele apparaten kunnen bekijken. Hoewel uitvoerende gebruikers de eindgebruiker voor de dashboards van Analytics zijn, zal deze gids gegevenscuratoren helpen om app voor die gebruikers effectief op te zetten.
 
 
 ## Verklarende woordenlijst
 
-In de volgende tabel staan de voorwaarden voor het begrijpen van het publiek, de functies en de werking van de Analytics Mobile-app.
+In de volgende tabel staan de voorwaarden voor het begrijpen van het publiek, de functies en de werking van de dashboards van Analytics.
 
 | Term | Definitie |
 |--- |--- |
 | Consumenten | Executive-medewerkers bekijken belangrijke metriek en inzichten van Analytics op een mobiel apparaat |
 | Curator | Personeel dat gegevens leest en inzichten van Analytics verspreidt en de Scorecards configureert die door de consument moeten worden bekeken |
-| Kromming | Het creëren of bewerken van een mobiele scorecard met relevante meetgegevens, afmetingen en andere componenten voor de consument |
-| Scorecard | Een mobiele App-weergave met een of meer tegels |
+| Kromming | Het maken of bewerken van een mobiel scorebord met relevante meetgegevens, afmetingen en andere componenten voor de consument |
+| Scorecard | Een dashboardweergave met een of meer tegels |
 | Tegel | Een rendering voor metrische gegevens in een scorebordweergave |
 | Uitsplitsing | Een secundaire weergave die toegankelijk is door te tikken op een tegel in het scorebord. Deze mening breidt metrisch uit die op de tegel wordt getoond en naar keuze rapporten over extra verdelingsafmetingen. |
-| Datumbereik | Het primaire datumbereik voor rapportage via Mobile App |
+| Datumbereik | Het primaire datumbereik voor dashboardrapportage |
 | Vergelijkingsdatumbereik | Het datumbereik dat wordt vergeleken met het primaire datumbereik |
 
  
 ## Een scorebord maken voor uitvoerende gebruikers
 
-Op een mobiel scorebord worden de belangrijkste gegevensvisualisaties voor uitvoerende gebruikers naast elkaar weergegeven, zoals hieronder wordt getoond:
+In een scorebord worden de belangrijkste gegevensvisualisaties voor uitvoerende gebruikers naast elkaar weergegeven, zoals hieronder wordt getoond:
 
 
 ![Voorbeeldscorecard](assets/intro_scorecard.png)
@@ -79,7 +79,7 @@ Klik in het scherm **Projecten** onder het tabblad **Componenten** op de knop **
 
 **Analyseprogramma&#39;s gebruiken**
 
-Klik in Analytics op het menu **Tools** en selecteer **Mobile App**. Klik in het volgende scherm op de knop **Scorecard** maken.
+Klik in Analytics op het menu **Tools** en selecteer **dashboards**. Klik in het volgende scherm op de knop **Scorecard** maken.
 
 ### Het scorebord configureren met gegevens en opslaan
 
@@ -106,7 +106,7 @@ Het scorebordsjabloon implementeren:
    Wanneer u op een tegel in de Scorecard Builder klikt, toont het rechtse spoor de eigenschappen en de kenmerken verbonden aan die tegel. In dit spoor, kunt u een nieuwe **Titel** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
 
 
-   Als u op tegels klikt, wordt in een dynamische pop-up ook weergegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen dimensie is toegepast op de tegel, is de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
+   Als u op tegels klikt, wordt bovendien een dynamische pop-up weergegeven waarin wordt aangegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen dimensie is toegepast op de tegel, is de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
 
    ![Onderverdeling_weergave](assets/break_view.png)
 
@@ -149,7 +149,7 @@ U kunt als volgt het scorebord delen met een Executive-gebruiker:
 ![Share_Scorecards](assets/new_share.png)
 
 
-Nadat u een scorebord hebt gedeeld, kunnen uw ontvangers tot het op hun Analytics Mobile App toegang hebben. Als u daarna veranderingen in het Scorecard in de Scorecard Bouwer aanbrengt, zullen zij automatisch in het gedeelde Scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het Scorecard op hun app verfrist.
+Nadat u een scorebord hebt gedeeld, kunnen uw ontvangers tot het op hun dashboards van Analytics toegang hebben. Als u daarna veranderingen in het Scorecard in de Scorecard Bouwer aanbrengt, zullen zij automatisch in het gedeelde Scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het Scorecard op hun app verfrist.
 
 *Opmerking: Als u het Scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u de scorecard opnieuw willen delen (en de optie **Automatisch ingebedde componenten met ontvangers**delen) om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.*
 
@@ -175,7 +175,7 @@ Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wi
 
    **Voor uitvoerende gebruikers op iOS:**
 
-   1. Klik op de volgende openbare koppeling (deze is ook beschikbaar in Analytics onder **Extra** > **Mobiele app**):
+   1. Klik op de volgende openbare koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**):
 
       [iOS-koppeling](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -185,13 +185,12 @@ Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wi
 
    2. Tik op de koppeling **Weergeven in App Store** op het scherm om de testflight-app te downloaden.
 
-   3. Nadat u de testflight-app hebt geïnstalleerd, zoekt en installeert u de Adobe Analytics Mobile-app vanuit Testflight, zoals hieronder wordt weergegeven:
+   3. Nadat u de testflight-app hebt geïnstalleerd, zoekt en installeert u de Adobe Analytics-dashboards vanuit Testflight, zoals hieronder wordt weergegeven:
 
       ![Testvluchtscherm](assets/testflight2.png)
-
    **Voor uitvoerende gebruikers op Android:**
 
-   1. Tik op de koppeling Play Store op het apparaat van de gebruiker (Deze is ook beschikbaar in Analytics onder **Extra** > **Mobile App**):
+   1. Tik op de koppeling Play Store op het apparaat van de gebruiker (Deze is ook beschikbaar in Analytics onder **Extra** > **dashboards**):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Tik op de koppeling om een ester te worden op het volgende scherm nadat u op deze koppeling hebt getikt:
