@@ -1,9 +1,9 @@
 ---
-description: Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het metrische type en het attributiemodel opgeven.
+description: 'Meer informatie over '
 title: Metrisch type en kenmerk
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
+source-git-commit: 7a791dda238b04fbee2773c60668eb45db0a1fd0
 
 ---
 
@@ -16,7 +16,7 @@ Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het me
 * [Model kolomkenmerk](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
 * [Hoe Lineaire toewijzing werkt (vanaf 19 juli 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
-## Metrisch type {#section_34A86FB402F94E988724232283BF18B7}
+## Metrisch type
 
 ![](assets/cm_type_alloc.png)
 
@@ -25,7 +25,7 @@ Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het me
 | Standaard | Deze metriek zijn de zelfde metriek die in standaard [!DNL Analytics] rapportering wordt gebruikt. Als een formule uit één enkele norm bestond, toont het identieke gegevens aan zijn niet-berekende-metrische tegenhanger. Standaardmetriek zijn handig voor het maken van berekende metriek die specifiek is voor elk afzonderlijk regelitem. Bijvoorbeeld, neemt de [Orders] / [Bezoekingen] orden voor dat specifieke lijnpunt en verdeelt het door het aantal bezoeken voor dat specifieke lijnpunt. |
 | Totaal | Gebruik het totaal voor de rapportageperiode in elke post. Als een formule uit één enkel totaal metrisch bestond, toont het het zelfde totale aantal op elk lijnpunt. De totale metriek zijn nuttig om berekende metriek tot stand te brengen die met plaats totale gegevens vergelijkt. Bijvoorbeeld, tonen de [Orders] / [Totale Bezoekingen] het aandeel van orden tegen ALLE bezoeken aan uw plaats, niet alleen de bezoeken aan het specifieke lijnpunt. |
 
-## Model kolomkenmerk {#section_F9690FD1943B403AB28E2FAC54EFE032}
+## Model kolomkenmerk
 
 >[!IMPORTANT]
 >
@@ -38,70 +38,27 @@ Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het me
 
 
 
-## Hoe Lineaire toewijzing werkt (vanaf 19 juli 2018)
+## Hoe de lineaire toewijzing werkt (vanaf 19 juli 2018)
 
-In juli 2018 heeft Adobe de rapportage van lineaire toewijzing voor Berekende waarden gewijzigd. Deze verandering beïnvloedt de Werkruimte van de Analyse, Ad hoc Analyse, Rapporten &amp; Analyse, de Bouwer van het Rapport, de Kaart van de Activiteit, en de Rapporterende APIs. De verandering zal vooral invloed hebben op eVars en andere dimensies die hardnekkig zijn. Merk op dat deze veranderingen slechts op berekende metriek zullen van toepassing zijn en geen andere rapporten gebruikend lineaire toewijzing zullen beïnvloeden (zoals het rapport van Pagina&#39;s in Rapporten &amp; Analytics). Andere verslagen die gebruikmaken van lineaire allocatie zullen de bestaande lineaire toewijzingsmethode blijven gebruiken.
+In juli 2018 heeft Adobe de rapportage van lineaire toewijzing voor Berekende waarden gewijzigd. Deze verandering beïnvloedt de Werkruimte van de Analyse, Ad hoc Analyse, Rapporten &amp; Analyse, de Bouwer van het Rapport, de Kaart van de Activiteit, en de Rapporterende APIs. De wijziging heeft hoofdzakelijk invloed op eVars en andere dimensies die persistentie hebben. Merk op dat deze veranderingen slechts op berekende metriek van toepassing zijn en andere rapporten niet gebruikend lineaire toewijzing (zoals het rapport van Pagina&#39;s in Rapporten &amp; Analytics) beïnvloeden. Andere verslagen die gebruikmaken van lineaire allocatie zullen de bestaande lineaire toewijzingsmethode blijven gebruiken.
 
 In het volgende voorbeeld wordt getoond hoe berekende metriek met lineaire toewijzing wordt gewijzigd in de rapportage:
 
-<table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Hit 1 </th> 
-   <th colname="col3" class="entry"> Hit 2 </th> 
-   <th colname="col4" class="entry"> Hit 3 </th> 
-   <th colname="col5" class="entry"> Hit 4 </th> 
-   <th colname="col6" class="entry"> Actief 5 </th> 
-   <th colname="col7" class="entry"> Hit 6 </th> 
-   <th colname="col8" class="entry"> Hit 7 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Gegevens verzonden in </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Laatste Touch Var </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> PROMO B </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Eerste Touch Var </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO A </td> 
-   <td colname="col6"> PROMO A </td> 
-   <td colname="col7"> PROMO A </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Voorbeeld </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 | Hit 6 | Hit 7 |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+| Gegevens verzonden in | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
+| Laatste Touch Var | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
+| Eerste Touch Var | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
+| Voorbeeld | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
 
 In dit voorbeeld werden de waarden A, B, en C naar een variabele gestuurd bij hits 1, 3, 4 en 6 voordat een aankoop van 10 dollar werd gedaan bij hit 7. In de tweede rij blijven deze waarden bij alle treffers op een laatste aanraakbezoek aanwezig. De derde rij illustreert de persistentie van een eerste aanraakbezoek. Tot slot illustreert de laatste rij hoe gegevens zouden worden geregistreerd voor een eigenschap die niet persistentie heeft.
+
+## Verschillen in hoe lineaire toewijzing werkt in Rapporten &amp; Analytics versus Werkruimte
+
+Er zijn enkele verschillen in de manier waarop lineaire toewijzing werkt tussen deze twee gereedschappen:
+
+* In Rapporten &amp; Analytics, (verwerkte) lineaire attributie is altijd bezoek gebaseerd, terwijl in Werkruimte, het bezoek of bezoeker kan zijn gebaseerd.
+* Als in Rapporten &amp; Analytics geen waarde werd doorgegeven bij de eerste treffer van een bezoek, blijft de (initiële) waarde behouden bij het vorige bezoek. Dit is NIET het geval in Workspace (Attribution IQ). Als er geen waarde wordt doorgegeven bij de eerste aanraking van een bezoek, is Geen de beginwaarde.
 
 ## Hoe lineaire toewijzing werkte vóór juli 2018
 
