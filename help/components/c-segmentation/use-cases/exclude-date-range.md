@@ -1,0 +1,81 @@
+---
+title: Specifieke data in de analyse uitsluiten
+description: Tips voor het uitsluiten van datums of datumbereiken als u deze niet wilt opnemen in rapporten.
+translation-type: tm+mt
+source-git-commit: 2515a3357b5cf3b0d5f49a9c109070c528d7f9d4
+
+---
+
+
+# Specifieke data in de analyse uitsluiten
+
+Soms bevat een datumbereik gegevens die u niet wilt analyseren. Een bot verstuurt bijvoorbeeld een treffer die een onjuiste inkomstenwaarde bevat, waardoor de meting drastisch wordt opgeblazen. Als uw site problemen met de implementatie of andere leemten in de gegevens heeft ondervonden, kunt u deze uitsluiten van rapportage en voorkomen dat u beslissingen neemt over onvolledige gegevens.
+
+U kunt een segment gebruiken om het even welke datumwaaiers uit te sluiten die u niet in uw rapporten wilt omvatten.
+
+## Betrokken dagen isoleren
+
+Maak een segment dat de betrokken dag of het betrokken datumbereik isoleert. Dit segment is handig als u zich alleen wilt richten op de probleemdagen om meer informatie over de impact ervan te zien.
+
+1. Open de segmentbuilder door naar **[!UICONTROL Components]** > te gaan **[!UICONTROL Segments]**, en dan te klikken **[!UICONTROL Add]**.
+2. Sleep de dimensie &#39;Dag&#39; naar het definitiekanvas en stel deze in op de dag die u wilt isoleren.
+3. Herhaal bovenstaande stap voor elke dag die u in uw rapport wilt isoleren.
+
+![Betrokken segment dagen](../assets/affected_days.jpg)
+
+Adobe raadt u aan de dimensie van de oranje dimensie te gebruiken in plaats van de componenten van het paarse datumbereik. Als u componenten van het paarse datumbereik gebruikt, overschrijven deze het kalenderbereik van het project:
+
+![Segmenttype uitsluiten](../assets/exclude_segment_day_type.jpg)
+
+## Betrokken dagen uitsluiten
+
+Maak een segment dat de betrokken dag of het betrokken datumbereik uitsluit. Dit segment is handig als u de dagen wilt uitsluiten waarop problemen zijn opgetreden om het effect op de algehele rapportage te minimaliseren.
+
+1. Open de segmentbuilder door naar **[!UICONTROL Components]** > te gaan **[!UICONTROL Segments]**, en dan te klikken **[!UICONTROL Add]**.
+2. Klik in de rechterbovenhoek van het canvas voor segmentdefinitie op **[!UICONTROL Options]** > **[!UICONTROL Exclude]**.
+3. Sleep de dimensie &#39;Dag&#39; naar het definitiekanvas en stel deze in op de dag die u wilt verwijderen.
+4. Herhaal bovenstaande stap voor elke dag die u in uw rapport wilt verwijderen.
+
+![Betrokken dagen uitsluiten](../assets/exclude_affected_days.jpg)
+
+## Deze segmenten gebruiken in rapporten
+
+Zodra u hebt gemaakt exclusief segment, kunt u het precies gebruiken aangezien u andere segmenten zou gebruiken.
+
+### Vergelijk segmenten in een trended rapport
+
+U kunt het segment &#39;Betrokken dagen&#39; en het segment &#39;Betrokken dagen uitsluiten&#39; in een rapport toepassen om ze naast elkaar te vergelijken. Sleep beide segmenten boven of onder een metrische waarde om ze te vergelijken:
+
+![Beide segmenten](../assets/affected_and_exclude.png)
+
+### Pas het uitsluitingssegment op een project toe
+
+U kunt het segment &#39;Betrokken dagen uitsluiten&#39; toepassen op een Workspace-project. Sleep het uitsluitingssegment naar de sectie Workspace canvas met het label *Slagsegment hier*.
+
+>[!TIP] Neem een notitie over uitgesloten gegevens op in de beschrijving van het deelvenster om gebruikers te helpen het rapport weer te geven. Klik met de rechtermuisknop op de titel van een deelvenster en klik vervolgens op **[!UICONTROL Edit description]**.
+
+![Segment dat is toegepast op een deelvenster](../assets/exclude_segment_panel.jpg)
+
+### Gebruik het sluit segment in een virtuele rapportreeks uit
+
+U kunt het segment in een [Virtuele rapportreeks](../../vrs/vrs-about.md) gebruiken om de gegevens geschikter uit te sluiten. Deze optie is ideaal in zoverre dat u niet moet herinneren om het segment voor elk rapport toe te passen dat de beïnvloede datumwaaier omvat. Als u reeds virtuele rapportreeksen als uw primaire bron van gegevens gebruikt, kunt u het segment aan bestaande VRS toevoegen.
+
+1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
+2. Klik op **[!UICONTROL Add]**.
+3. Voer de gewenste naam en beschrijving in voor de virtuele rapportsuite.
+4. Sleep het uitsluitingssegment naar het gebied met het label **[!UICONTROL Add segment]**.
+5. Klik **[!UICONTROL Continue]** in het hogere recht, dan klik **[!UICONTROL Save]**.
+
+![Segment toegepast op VRS](../assets/exclude_segment_vrs.png)
+
+## Alternatieven in andere gereedschappen
+
+Als u Rapporten &amp; Analytics gebruikt, kunt u een [kalendergebeurtenis](../../t-calendar-event.md) gebruiken om beïnvloede dagen in om het even welk verlengd rapport te benadrukken.
+
+>[!NOTE] Deze methode is niet van toepassing op de werkruimte Analyse.
+
+1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
+2. Voer de gewenste titel, het gewenste datumbereik en de notitietekst in.
+3. Klik op **[!UICONTROL Save]**.
+
+![Agenda, gebeurtenis](../assets/exclude_calendar_event.jpg)
