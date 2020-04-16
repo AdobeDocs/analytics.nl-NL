@@ -4,16 +4,16 @@ title: Segmenten publiceren naar de Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: a2b76a0e2fbe2ec598fffea64def771a2ddc0121
+source-git-commit: f516be8395f7e7c0398f1ebb1d1e019e905d67ee
 
 ---
 
 
 # Segmenten publiceren naar de Experience Cloud
 
-Als u een segment publiceert naar de Experience Cloud, kunt u het segment gebruiken voor marketingactiviteiten in de [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud]en [!DNL Campaign]. Recente updates hebben de publicatieworkflow aanzienlijk geoptimaliseerd. Eerder duurde het publiceren van een bruikbaar segment ongeveer 48 uur.
+Als u een Adobe Analytics-segment publiceert naar de Experience Cloud, kunt u het segment gebruiken voor marketingactiviteiten in de [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud]en [!DNL Campaign]. Recente updates hebben de publicatieworkflow aanzienlijk geoptimaliseerd. U kunt Analytics-segmenten nu binnen 8 uur publiceren naar Experience Cloud. Gebruik deze segmenten om het publiek in de Manager van het Publiek aan alle stroomafwaartse bestemmingen te activeren.
 
-Nu, kan de verwerking tot 8 uren vergen, maar afhankelijk van ander verkeer en op de segmentgrootte, kan de verwerking zelfs sneller zijn. (Wij hebben momenteel echter geen manier om u te informeren wanneer het segment beschikbaar is, zodat zult u manueel moeten controleren.) We hebben ook het maximumaantal te publiceren segmenten verhoogd tot 75 (van 20). U kunt gepubliceerde segmenten weergeven in Componenten > Segmenten.
+Het maximumaantal publiceerbare Adobe Analytics-segmenten is verhoogd naar 75 (van 20). U kunt gepubliceerde segmenten weergeven in [!UICONTROL Analytics > Components > Segments].
 
 >[!NOTE] De campagne van Adobe (Klassiek en Norm) gedraagt zich anders in die zin dat het een extra latentie van 24 uur bovenop de latentie van 8 uur voorkomt.
 
@@ -29,7 +29,7 @@ Nu, kan de verwerking tot 8 uren vergen, maar afhankelijk van ander verkeer en o
 ## Overwegingen
 
 * **Limieten** voor rapportsuite: U kunt tot 75 segmenten per rapportreeks publiceren. Deze limiet geldt. Als u al 75 gepubliceerde segmenten hebt, kunt u geen extra segmenten publiceren tot u unpublish genoeg segmenten om onder de 75-segmentdrempel te krijgen.
-* **Lidmaatschapgrenzen**: Het publiek dat via Analytics aan de [!DNL Experience Cloud] Commissie wordt gedeeld, mag niet meer dan 20 miljoen unieke leden tellen.
+* **Lidmaatschapgrenzen**: Het publiek dat via Adobe Analytics aan de [!DNL Experience Cloud] website wordt gedeeld, mag niet meer dan 20 miljoen unieke leden tellen.
 * **Gegevensprivacy**: Het publiek wordt niet gefilterd op basis van de verificatiestatus van een bezoeker. Als een bezoeker in een niet-geverifieerde en geverifieerde status door uw site kan bladeren, kan een bezoeker door handelingen die plaatsvinden wanneer een bezoeker niet-geverifieerd is, toch worden opgenomen in een publiek. Bekijk de privacy [van](https://www.adobe.com/privacy/experience-cloud.html) Adobe Experience Cloud om inzicht te krijgen in de volledige implicaties voor privacy bij het delen van publiek.
 * Voor een bespreking over de **verschillen tussen segmenten in[!DNL Adobe Analytics]en[!DNL Audience Manager]**, ga[hier](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
