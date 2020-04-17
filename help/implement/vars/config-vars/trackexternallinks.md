@@ -2,7 +2,7 @@
 title: trackExternalLinks
 description: Automatisch koppelen bijhouden in- of uitschakelen voor afsluitkoppelingen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
 
 ---
 
@@ -29,5 +29,5 @@ Klik op het selectievakje om automatische tracering van afsluitkoppelingen in te
 Het `s.trackExternalLinks` is een Booleaanse waarde die het automatisch bijhouden van afsluitkoppelingen in- of uitschakelt. Als u uitgaande verbindingen niet wilt volgen, of zou verkiezen de `tl()` methode manueel te roepen om uitgangsverbindingen te volgen, plaats deze variabele aan `false`.
 
 ```js
-s.trackDownloadLinks = true;
+s.trackExternalLinks = true;
 ```
