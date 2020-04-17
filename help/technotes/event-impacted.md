@@ -2,7 +2,7 @@
 title: Gegevens analyseren die door gebeurtenissen worden beïnvloed
 description: Begrijp hoe de gegevens die door een gebeurtenis worden beïnvloed tot algemene gegevenskwaliteit bijdragen.
 translation-type: tm+mt
-source-git-commit: e3360e15de14f594e62b4be6316f8b095091ec1f
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -13,7 +13,7 @@ Soms kan een gebeurtenis de gegevenskwaliteit in uw organisatie beïnvloeden. Vo
 
 * Een bot die uitstraalgegevens verzendt, zoals miljoenen dollars aan inkomsten
 * Uw organisatie heeft een update naar uw website uitgevoerd die een negatief effect heeft op uw analytische implementatie
-* Punten die van invloed zijn op de kwaliteit van de server, aan het einde van uw organisatie of aan het einde van Adobe
+* Andere kwesties die de gegevenskwaliteit of volledigheid beïnvloeden
 
 Als op uw site problemen met de gegevenskwaliteit, implementatiekwesties of andere leemten in de gegevens zijn opgetreden, kunt u het beter niet opnemen in de rapportage om te voorkomen dat u beslissingen neemt over onvolledige gegevens. Gebruik deze secties om het effect van de gebeurtenis op uw gegevens te meten, en te bepalen hoe u wilt te werk gaan.
 
