@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analysehulpmiddelen
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 26942a0f346cc646d2ab11a1bc86550fe7c2e2b2
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -44,6 +44,7 @@ source-git-commit: 26942a0f346cc646d2ab11a1bc86550fe7c2e2b2
          + [Overzicht van kalender- en datumbereiken](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Aangepaste datumbereiken maken](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Datumvergelijking](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [Datums vergelijken die door een gebeurtenis worden beïnvloed](analysis-workspace/components/calendar-date-ranges/compare-event.md)
    + Visualisaties {#visualizations}
       + [Overzicht van visualisaties](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gegevensbronnen beheren](analysis-workspace/visualizations/t-sync-visualization.md)
