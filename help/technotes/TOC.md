@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics tech notes
+user-guide-title: Technische notities voor Analytics
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -26,6 +26,7 @@ source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
       + [Conversies](ga-to-aa/reports/conversions-reports.md)
    + [Veelgestelde vragen](ga-to-aa/faq.md)
    + [Verschillen tussen platforms verwerken](ga-to-aa/processing-differences.md)
++ [Gegevens analyseren die door gebeurtenissen worden beïnvloed](event-impacted.md)
 + [Browsercookies](cookies.md)
 + [Bewaren van gegevens](data-retention.md)
 + [Latentie](latency.md)
