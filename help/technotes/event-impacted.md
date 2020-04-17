@@ -2,7 +2,7 @@
 title: Gegevens analyseren die door gebeurtenissen worden beïnvloed
 description: Begrijp hoe de gegevens die door een gebeurtenis worden beïnvloed tot algemene gegevenskwaliteit bijdragen.
 translation-type: tm+mt
-source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -24,6 +24,10 @@ Adobe Analytics biedt een eenvoudige en robuuste manier om zich op gegevens te c
 ## Een gebeurtenis vergelijken met vorige datumbereiken
 
 Als u meer wilt weten over hoeveel invloed een gebeurtenis op uw gegevens in de loop van de tijd wordt gemaakt, kunt u datumvergelijking in de Werkruimte van de Analyse gebruiken. Met deze functie kunt u gegevens dag voor dag, week voor week of maand vergelijken om te zien hoe deze zich verhoudt tot vorige bereiken. Vervolgens kunt u met deze vergelijking bepalen in hoeverre een gebeurtenis trends beïnvloedt. Zie Datums [vergelijken die door een gebeurtenis aan vorige waaiers](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) in de Analyze gebruikersgids worden beïnvloed.
+
+## Getrapte gegevens corrigeren met berekende meetwaarden
+
+Nadat u segmenten hebt gemaakt en datumvergelijking hebt gebruikt, kunt u beide concepten combineren om trendgegevens te corrigeren aan de hand van berekende meetwaarden. Neem de segmenten op in een berekende metrische waarde en vermenigvuldig de betrokken dagen met de verschuiving die wordt gevonden bij het vergelijken van datums. Zie [Afgeleide gegevens die door gebeurtenissen](/help/components/c-calcmetrics/cm-events.md) in de de gebruikersgids van Componenten worden beïnvloed.
 
 ## Een agendagebeurtenis gebruiken in Rapporten en Analyses
 
