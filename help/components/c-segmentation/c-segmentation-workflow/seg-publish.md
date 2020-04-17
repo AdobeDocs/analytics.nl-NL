@@ -4,14 +4,14 @@ title: Segmenten publiceren naar de Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: f516be8395f7e7c0398f1ebb1d1e019e905d67ee
+source-git-commit: 3b7e79cf26c8dccd9c8090df48a556419995ebd7
 
 ---
 
 
 # Segmenten publiceren naar de Experience Cloud
 
-Als u een Adobe Analytics-segment publiceert naar de Experience Cloud, kunt u het segment gebruiken voor marketingactiviteiten in de [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud]en [!DNL Campaign]. Recente updates hebben de publicatieworkflow aanzienlijk geoptimaliseerd. U kunt Analytics-segmenten nu binnen 8 uur publiceren naar Experience Cloud. Gebruik deze segmenten om het publiek in de Manager van het Publiek aan alle stroomafwaartse bestemmingen te activeren.
+Als u een Adobe Analytics-segment publiceert naar de Experience Cloud, kunt u het segment gebruiken voor marketingactiviteiten in [!DNL Audience Manager] en in andere activeringskanalen, waaronder die van Adobe [!DNL Advertising Cloud], [!DNL Target] en [!DNL Campaign]. Recente updates hebben de publicatieworkflow aanzienlijk geoptimaliseerd. U kunt Analytics-segmenten nu binnen 8 uur publiceren naar Experience Cloud. Gebruik deze segmenten om het publiek in de Manager van het Publiek aan alle stroomafwaartse bestemmingen te activeren.
 
 Het maximumaantal publiceerbare Adobe Analytics-segmenten is verhoogd naar 75 (van 20). U kunt gepubliceerde segmenten weergeven in [!UICONTROL Analytics > Components > Segments].
 
