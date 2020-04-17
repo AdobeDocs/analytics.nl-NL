@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analytics Components
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -38,12 +38,10 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
    + Gebruik hoofdletters {#use-cases}
       + [Specifieke datums uitsluiten](c-segmentation/use-cases/exclude-date-range.md)
    + [Veelgestelde vragen](c-segmentation/seg-transition.md)
-   + [Nieuw in Analytics Segmentation](c-segmentation/whats-new-segmentation.md)
+   + [Nieuwe functies in segmentatie van analysemogelijkheden](c-segmentation/whats-new-segmentation.md)
    + [Overgangshandleiding voor ad-hocanalyse](c-segmentation/seg-transition-ad-hoc.md)
 + Berekende cijfers {#calculated-metrics}
-   + [Berekende en Geavanceerde berekende (Afgeleide) Metriek](c-calcmetrics/cm-overview.md)
-   + [Veelgestelde vragen](c-calcmetrics/cm-transition.md)
-   + [Hoe kan ik-video&#39;s](c-calcmetrics/cm-videos.md)
+   + [Berekende en geavanceerde berekende (afgeleide) meetwaarden](c-calcmetrics/cm-overview.md)
    + Workflow voor berekende statistieken {#calcmetric-workflow}
       + [Workflow voor berekende metriek](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Metrische gegevens zoeken](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -66,6 +64,9 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
       + [Metrische compatibiliteit](c-calcmetrics/cm-compatibility.md)
       + [Berekende cijfers: op rol gebaseerde rechten](c-calcmetrics/cm-role-based-rights.md)
       + [Berekende totalen van metriek](c-calcmetrics/cm-totals.md)
+   + [Afleiden van gegevens die door gebeurtenissen worden beïnvloed](c-calcmetrics/cm-events.md)
+   + [Veelgestelde vragen](c-calcmetrics/cm-transition.md)
+   + [Hoe kan ik-video&#39;s](c-calcmetrics/cm-videos.md)
 + Virtuele rapportsets {#virtual-report-suites}
    + [Overzicht van virtuele-rapportsuites](vrs/vrs-about.md)
    + [Virtual Report Suite Component Curation](vrs/vrs-components.md)
