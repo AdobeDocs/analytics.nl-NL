@@ -2,16 +2,14 @@
 title: Specifieke data in de analyse uitsluiten
 description: Tips voor het uitsluiten van datums of datumbereiken als u deze niet wilt opnemen in rapporten.
 translation-type: tm+mt
-source-git-commit: 2515a3357b5cf3b0d5f49a9c109070c528d7f9d4
+source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 ---
 
 
 # Specifieke data in de analyse uitsluiten
 
-Soms bevat een datumbereik gegevens die u niet wilt analyseren. Een bot verstuurt bijvoorbeeld een treffer die een onjuiste inkomstenwaarde bevat, waardoor de meting drastisch wordt opgeblazen. Als uw site problemen met de implementatie of andere leemten in de gegevens heeft ondervonden, kunt u deze uitsluiten van rapportage en voorkomen dat u beslissingen neemt over onvolledige gegevens.
-
-U kunt een segment gebruiken om het even welke datumwaaiers uit te sluiten die u niet in uw rapporten wilt omvatten.
+Als u gegevens hebt [die door een gebeurtenis](/help/technotes/event-impacted.md)worden beïnvloed, kunt u een segment gebruiken om het even welke datumwaaiers uit te sluiten die u niet in uw rapporten wilt omvatten. Door datums met invloed op gebeurtenissen te segmenteren, kan uw organisatie er beter van worden weerhouden beslissingen te nemen over onvolledige gegevens.
 
 ## Betrokken dagen isoleren
 
@@ -67,15 +65,3 @@ U kunt het segment in een [Virtuele rapportreeks](../../vrs/vrs-about.md) gebrui
 5. Klik **[!UICONTROL Continue]** in het hogere recht, dan klik **[!UICONTROL Save]**.
 
 ![Segment toegepast op VRS](../assets/exclude_segment_vrs.png)
-
-## Alternatieven in andere gereedschappen
-
-Als u Rapporten &amp; Analytics gebruikt, kunt u een [kalendergebeurtenis](../../t-calendar-event.md) gebruiken om beïnvloede dagen in om het even welk verlengd rapport te benadrukken.
-
->[!NOTE] Deze methode is niet van toepassing op de werkruimte Analyse.
-
-1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
-2. Voer de gewenste titel, het gewenste datumbereik en de notitietekst in.
-3. Klik op **[!UICONTROL Save]**.
-
-![Agenda, gebeurtenis](../assets/exclude_calendar_event.jpg)
