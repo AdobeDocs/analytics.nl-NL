@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Technische notities voor Analytics
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
+source-git-commit: ea1927827c0615b085a440bc86116b438594e448
 
 ---
 
@@ -27,6 +27,8 @@ source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
    + [Veelgestelde vragen](ga-to-aa/faq.md)
    + [Verschillen tussen platforms verwerken](ga-to-aa/processing-differences.md)
 + [Gegevens analyseren die door gebeurtenissen worden beïnvloed](event-impacted.md)
++ Gegevens analyseren die door gebeurtenissen worden beïnvloed {#event}
+   + [Communiceren met gevolgen voor gebruikers](event/event-communicate.md)
 + [Browsercookies](cookies.md)
 + [Bewaren van gegevens](data-retention.md)
 + [Latentie](latency.md)
@@ -34,7 +36,7 @@ source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 + [Privacyoverzicht](privacy-overview.md)
 + [Omleiding en aliassen](redirects.md)
 + [Ondersteuning voor meerdere valuta&#39;s](multicurrency.md)
-+ Regionale gegevensverzameling {rdc}
++ Regionale gegevensverzameling {#rdc}
    + [Hulp bij regionale gegevensverzameling](rdc/regional-data-collection.md)
    + [SSL-certificering](rdc/ssl-cert-licensing.md)
 + [Beveiligingsbronnen](security.md)
