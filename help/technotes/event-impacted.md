@@ -2,7 +2,7 @@
 title: Gegevens analyseren die door gebeurtenissen worden beïnvloed
 description: Begrijp hoe de gegevens die door een gebeurtenis worden beïnvloed tot algemene gegevenskwaliteit bijdragen.
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
 
 ---
 
@@ -25,16 +25,10 @@ Adobe Analytics biedt een eenvoudige en robuuste manier om zich op gegevens te c
 
 Als u meer wilt weten over hoeveel invloed een gebeurtenis op uw gegevens in de loop van de tijd wordt gemaakt, kunt u datumvergelijking in de Werkruimte van de Analyse gebruiken. Met deze functie kunt u gegevens dag voor dag, week voor week of maand vergelijken om te zien hoe deze zich verhoudt tot vorige bereiken. Vervolgens kunt u met deze vergelijking bepalen in hoeverre een gebeurtenis trends beïnvloedt. Zie Datums [vergelijken die door een gebeurtenis aan vorige waaiers](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) in de Analyze gebruikersgids worden beïnvloed.
 
-## Getrapte gegevens corrigeren met berekende meetwaarden
+## Gegevens op basis van berekende meetwaarden
 
 Nadat u segmenten hebt gemaakt en datumvergelijking hebt gebruikt, kunt u beide concepten combineren om trendgegevens te corrigeren aan de hand van berekende meetwaarden. Neem de segmenten op in een berekende metrische waarde en vermenigvuldig de betrokken dagen met de verschuiving die wordt gevonden bij het vergelijken van datums. Zie [Afgeleide gegevens die door gebeurtenissen](/help/components/c-calcmetrics/cm-events.md) in de de gebruikersgids van Componenten worden beïnvloed.
 
-## Een agendagebeurtenis gebruiken in Rapporten en Analyses
+## Communiceer gevolgen aan gebruikers in uw organisatie
 
-Als u Rapporten &amp; Analytics gebruikt, kunt u een [kalendergebeurtenis](/help/components/t-calendar-event.md) gebruiken om beïnvloede dagen in om het even welk verlengd rapport te benadrukken. Deze methode is niet van toepassing op de werkruimte Analyse.
-
-1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
-2. Voer de gewenste titel, het gewenste datumbereik en de notitietekst in.
-3. Klik op **[!UICONTROL Save]**.
-
-![Agenda, gebeurtenis](assets/exclude_calendar_event.jpg)
+Zodra u bent voorbereid met hoe u van plan bent om een gebeurtenis te behandelen, kunt u aan gebruikers in uw organisatie [](event/event-communicate.md)communiceren. Adobe biedt verschillende locaties in Analytics waar u tekst kunt plaatsen om met gebruikers te communiceren wat er is gebeurd en welke componenten zij kunnen gebruiken.
