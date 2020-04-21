@@ -5,7 +5,7 @@ title: Gebruikersaccountitems overdragen
 topic: Admin tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
 
 ---
 
@@ -14,13 +14,14 @@ source-git-commit: ''
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
 
 Stappen die beschrijven hoe te om de punten van de gebruikersrekening (dashboards, berekende metriek, kalendergebeurtenissen, alarm, referenties, segmenten, de projecten van de Werkruimte van de Analyse, en geplande projecten) van één gebruikersrekening aan dat van een andere gebruiker toe te wijzen.
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Klik op **[!UICONTROL Edit Users]**.
-1. Klik **[!UICONTROL Transfer]** in de rij van de gebruikersrekening u wilt overbrengen.
+1. Zoek de gebruiker waarvan u elementen wilt overbrengen en schakel het selectievakje naast de rij van deze gebruiker in.
+1. Selecteer **[!UICONTROL Transfer Assets]** in de actiebalk boven in het scherm.
 1. Selecteer op de **[!UICONTROL Transfer]** pagina de gebruikersaccount die de accountitems van deze gebruiker moet ontvangen.
 1. Selecteer de accountitems die u wilt overdragen en klik op **[!UICONTROL Transfer]**.
 1. Klik **[!UICONTROL OK]** om te bevestigen dat u de geselecteerde accountbronnen wilt overdragen.
