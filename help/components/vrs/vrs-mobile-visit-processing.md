@@ -3,22 +3,22 @@ description: Contextbewuste sessies in virtuele-rapportsuites veranderen hoe Ado
 title: Contextbewuste sessies
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
 
 ---
 
 
 # Contextbewuste sessies
 
-Contextbewuste sessies in virtuele-rapportsuites veranderen hoe Adobe Analytics mobiele bezoeken berekent. In dit artikel worden de verwerkingsimplicaties beschreven van achtergrondopdrachten en startgebeurtenissen van apps (beide ingesteld door de SDK van mobiele apparaten) voor de definitie van mobiele bezoeken.
+Contextbewuste sessies in virtuele-rapportsuites veranderen hoe Adobe Analytics bezoeken van elk apparaat berekent. In dit artikel worden ook de verwerkingsimplicaties beschreven van achtergrondopdrachten en startgebeurtenissen van apps (beide ingesteld door de SDK van mobiele apparaten) voor de definitie van mobiele bezoeken.
 
-U kunt een bezoek op elke gewenste manier definiëren zonder de onderliggende gegevens te wijzigen, zodat deze overeenkomen met de manier waarop bezoekers communiceren met uw mobiele apps.
+U kunt een bezoek op elke gewenste manier definiëren zonder de onderliggende gegevens te wijzigen, zodat deze overeenkomen met de manier waarop bezoekers met uw digitale ervaringen werken.
 
-## URL-parameter voor klantperspectief {#section_8B298006362341E3AC16A148422D1F65}
+## URL-parameter voor klantperspectief
 
 Met het gegevensverzamelingsproces van Adobe Analytics kunt u een querytekenreeksparameter instellen die het perspectief van de klant opgeeft (aangeduid als de &quot;cp&quot;-parameter voor queryreeksen). In dit veld wordt de status van de digitale toepassing van de eindgebruiker aangegeven. Zo kunt u zien of een hit is gegenereerd terwijl een mobiele app zich in de achtergrondstatus bevond.
 
-## Achtergrondbewerking {#section_D47B3161B7E145B6A32AB06E9AA03FA3}
+## Achtergrondbewerking
 
 Een hit op de achtergrond is een type hit dat vanuit Adobe Mobile SDK versie 4.13.6 en hoger naar Analytics wordt verzonden wanneer de toepassing een aanvraag voor bijhouden indient terwijl de toepassing zich in de achtergrondstatus bevindt. Voorbeelden hiervan zijn:
 
@@ -115,15 +115,15 @@ Op dezelfde manier geldt dat als een reeks achtergrondresultaten plaatsvindt voo
 
 Achtergrondhits gedragen zich op deze manier om eventuele attributie-effecten van Vars of andere variabelen die tijdens achtergrondtreffers zijn ingesteld, te behouden. Hierdoor kunnen downstream-voorgrondconversiegebeurtenissen worden toegewezen aan handelingen die zijn uitgevoerd terwijl een app zich in de achtergrondstatus bevond. Het staat ook een container van het bezoekensegment toe om achtergrondklappen te omvatten die in een stroomafwaartse voorgrondzitting resulteerden die nuttig is om de doeltreffendheid van het duwbericht te meten.
 
-## Metrisch gedrag bezoeken {#section_50B82618A39B454493B33B1450CCBD3E}
+## Metrisch gedrag bezoeken
 
 Het aantal bezoeken is uitsluitend gebaseerd op het aantal bezoeken dat ten minste één foreground hit omvat. Dit betekent dat zwevende achtergrondopdrachten of &quot;achtergrondbezoeken&quot; niet meetellen voor de meting Visit.
 
-## Tijd besteed per bezoek metrisch gedrag {#section_0A149ABB3E034B97BD0B3A7F3EB67383}
+## Tijd besteed per bezoek metrisch gedrag
 
 De tijd die wordt doorgebracht wordt nog berekend op een analoge manier aan hoe het zonder achtergrondklappen gebruikend de tijd tussen klappen is. Hoewel bij een bezoek achtergrondopdrachten worden opgenomen (omdat deze direct genoeg optraden voor voorgrondhits), worden deze hits opgenomen in de berekening van de tijd die u per bezoek hebt doorgebracht, alsof het een voorgrondhit betreft.
 
-## Instellingen voor verwerking achtergrondkleur {#section_C8B1D38C06FF4ABAAFA78CE9550C0F4B}
+## Instellingen voor verwerking achtergrondkleur
 
 Omdat achtergrondhit-verwerking alleen beschikbaar is voor virtuele rapportsuites met behulp van Report Time Processing, biedt Adobe Analytics ondersteuning voor twee manieren om achtergrondresultaten te verwerken en zo de aantallen bezoekers te behouden in de set met basisrapporten waarin geen gebruik wordt gemaakt van Report Time Processing. Als u deze instelling wilt openen, navigeert u naar de Adobe Analytics Admin Console, gaat u naar de instellingen van de toepasselijke basisrapportsuite, navigeert u naar het menu &quot;Mobiel beheer&quot; en vervolgens naar het submenu &quot;Rapportering mobiele toepassing&quot;.
 
@@ -134,6 +134,6 @@ Omdat achtergrondhit-verwerking alleen beschikbaar is voor virtuele rapportsuite
 
 In beide gevallen worden achtergrondopdrachten tegen dezelfde kosten in rekening gebracht als andere resultaten die naar Analytics worden verzonden.
 
-## Nieuwe bezoeken starten bij elke keer dat de app wordt gestart {#section_9DA9A8B9758248A6B311EFBA06AECA80}
+## Nieuwe bezoeken starten bij elke keer dat de app wordt gestart
 
 Naast de hitteverwerking op de achtergrond kunnen virtuele rapportsuites een nieuw bezoek afdwingen om te beginnen wanneer de mobiele SDK een app-startgebeurtenis verzendt. Als deze instelling is ingeschakeld, wordt telkens wanneer een gebeurtenis App Launch vanuit de SDK wordt verzonden, een nieuw bezoek afgedwongen, ongeacht of een open bezoek de time-out heeft bereikt. De hit met de startgebeurtenis van de app wordt opgenomen als de eerste hit tijdens het volgende bezoek en verhoogt het aantal bezoeken en maakt een aparte container voor segmentatie.
