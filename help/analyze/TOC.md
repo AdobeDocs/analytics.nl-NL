@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analysehulpmiddelen
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 77b126b2add78113c266265f413240f27f89bced
+source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
 
 ---
 
@@ -79,7 +79,7 @@ source-git-commit: 77b126b2add78113c266265f413240f27f89bced
    + Deelvensters {#panels}
       + [Overzicht van deelvensters](analysis-workspace/c-panels/panels.md)
       + [Leeg deelvenster](analysis-workspace/c-panels/blank-panel.md)
-      + [Quick Insights Builder](analysis-workspace/c-panels/quickinsight.md)
+      + [Quick Insights builder](analysis-workspace/c-panels/quickinsight.md)
       + Attributie {#attribution}
          + [Overzicht van kenmerken](analysis-workspace/c-panels/attribution/attribution.md)
          + [Het deelvenster Kenmerken gebruiken](analysis-workspace/c-panels/attribution/use-attribution.md)
