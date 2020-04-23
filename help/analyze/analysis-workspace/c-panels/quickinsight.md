@@ -1,8 +1,8 @@
 ---
-description: 'null'
+description: De snelle Bouwer van Inzichten is een hulpmiddel voor nieuwe gebruikers van de Werkruimte die hen in de bouw van gegevenslijsten en visualisaties begeleiden
 title: Quick Insights builder
 translation-type: tm+mt
-source-git-commit: 718de88664e9d27ed5973f5269a324ffbc3b5414
+source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
 
