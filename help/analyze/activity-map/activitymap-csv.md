@@ -4,7 +4,7 @@ title: Exporteren naar CSV-bestand
 topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: ee5489798f8c82c563b49b6c96acd1e63a0aa920
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 In de Standaardmodus exporteert u de analysegegevens van Activity Map naar een CSV-bestand (door komma&#39;s gescheiden waarden).
 
-Als gebruiker, kunt u verbindingsklikgegevens met andere gegevensbronnen moeten samenvoegen of andere analyse (b.v. in Excel) uitvoeren. Met CSV-export kunt u al uw Activiteitenkaartgegevens voor een bepaalde pagina in een gebruiksvriendelijke indeling verkrijgen. Hiermee kunt u de analysegegevens die voor een pagina zijn gegenereerd, opslaan in een standaard CSV-bestand, zodat u het paginarapport, het rapport [over de](/help/analyze/activity-map/activitymap-page-flow.md)paginastroom en de [koppelingen op de paginagegevens](/help/analyze/activity-map/activitymap-links-report.md) kunt exporteren. U kunt de gegevens vervolgens als spreadsheet of tekstbestand bekijken of in een ander systeem importeren.
+Als gebruiker, kunt u verbindingsklikgegevens met andere gegevensbronnen moeten samenvoegen of andere analyse (b.v. in Excel) uitvoeren. Met CSV-export kunt u al uw Activiteitenkaartgegevens voor een bepaalde pagina in een gebruiksvriendelijke indeling verkrijgen. Hiermee kunt u de analysegegevens die voor een pagina zijn gegenereerd, opslaan in een standaard CSV-bestand, zodat u het paginarapport, het rapport [over de](/help/analyze/activity-map/activitymap-page-flow.md)paginastroom en de [koppelingen naar paginagegevens](/help/analyze/activity-map/activitymap-links-report.md) kunt exporteren. U kunt de gegevens vervolgens als spreadsheet of tekstbestand bekijken of in een ander systeem importeren.
 
 Klik op het pictogram Exporteren op de werkbalk Activiteitenkaart.
 
