@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Referenties en campagnes
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
 
@@ -26,11 +26,11 @@ Veldbeschrijvingen in [!UICONTROL Dynamic Tag Management] voor referentie- en ca
  <tbody>
   <tr>
    <td colname="col1"> Referrer overschrijven </td>
-   <td colname="col2"> <p>Overschrijft de waarde die is ingesteld in de variabele <span class="varname"> s.reference</span> , die gewoonlijk wordt gevuld door de verwijzersset in de browser. </p> <p>Zie [referentie](../../../vars/page-vars/referrer.md). </p> </td>
+   <td colname="col2"> <p>Overschrijft de waarde die is ingesteld in de variabele <span class="varname"> s.reference</span> , die gewoonlijk wordt gevuld door de verwijzersset in de browser. </p> <p>Zie <a href="../../../vars/page-vars/referrer.md">referentie</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Campagne </td>
-   <td colname="col2"> <p>Een variabele die marketingcampagnes identificeert die worden gebruikt om bezoekers naar uw site te brengen. De waarde van campagne wordt gewoonlijk genomen van een parameter van het vraagkoord. </p> <p>Zie [campagne](../../../vars/page-vars/campaign.md). </p> </td>
+   <td colname="col2"> <p>Een variabele die marketingcampagnes identificeert die worden gebruikt om bezoekers naar uw site te brengen. De waarde van campagne wordt gewoonlijk genomen van een parameter van het vraagkoord. </p> <p>Zie <a href="../../../vars/page-vars/campaign.md">campagne</a>. </p> </td>
   </tr>
  </tbody>
 </table>
