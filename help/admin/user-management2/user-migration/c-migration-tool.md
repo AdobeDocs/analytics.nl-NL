@@ -3,7 +3,7 @@ description: Wat u moet weten over de migratie van gebruikers-id's voor Analytic
 title: Analyseer gebruikersmigratie naar de beheerconsole
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
+source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
 
@@ -95,7 +95,7 @@ Antwoorden op vragen die u vóór de migratie hebt.
      <li id="li_418476105FE341229CE146E730AAB33D">Uw bestaande machtigingengroepen in Analytics worden automatisch gerepliceerd in de Admin Console als Productprofielen, met inbegrip van hun beschrijving en korrelige toestemmingen over rapportsuites, metriek, dimensies, Analytics, en de Hulpmiddelen van de Reeks van het Rapport. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">Als een van uw huidige Analytics-gebruikers is gemaakt in de beheerconsole (wat betekent dat ze een gekoppelde Adobe/Enterprise-id hebben), worden ze toegevoegd aan de desbetreffende productprofielen in de beheerconsole. </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">De sectie Gebruikersbeheer onder het tabblad Beheer in Analytics wordt ingesteld op alleen- <span class="term"> lezen</span>. U kunt hier geen nieuwe gebruikers of machtigingsgroepen meer maken en u moet beide functies in de beheerconsole uitvoeren. Raadpleeg de <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56"> niet-ondersteunde analysefuncties in de beheerconsole</a> voor meer informatie. </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">Als beheerder krijgt u toegang tot het [Hulpprogramma voor migratie van gebruikers-id] (https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html). Daarnaast wordt een melding in het product weergegeven met de einddatum van de migratie (doorgaans 60 dagen in de toekomst), naast koppelingen voor Help-inhoud en veelgestelde vragen. </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">Als beheerder krijgt u toegang tot het migratiehulpprogramma <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">voor</a>gebruikersnamen. Daarnaast wordt een melding in het product weergegeven met de einddatum van de migratie (doorgaans 60 dagen in de toekomst), naast koppelingen voor Help-inhoud en veelgestelde vragen. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">U krijgt toegang tot het tabblad Machtigingen in de beheerconsole waarmee u productprofielen kunt maken met alle korrelige opties die u kent op het gebied van Analyse. </li> 
     </ul> </td> 
   </tr> 
