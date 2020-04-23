@@ -2,7 +2,7 @@
 description: 'null'
 title: Quick Insights builder
 translation-type: tm+mt
-source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
+source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 
 ---
 
@@ -59,7 +59,6 @@ Hier volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst besta
 
    * Een tabel met vrije vorm met de afmetingen (hier, Amerikaanse staten) verticaal en de metrische waarde (hier, Visit) horizontaal boven. Bekijk deze tabel:
    ![](assets/qibuilder3.png)
-
 
    * Een bijbehorende visualisatie, in dit geval een [staafdiagram](/help/analyze/analysis-workspace/visualizations/bar.md). De gegenereerde visualisatie is gebaseerd op het type gegevens dat u aan de tabel hebt toegevoegd. U kunt het type visualisatie wijzigen door op de vervolgkeuzepijl naast **[!UICONTROL Bar]** te klikken.
 
