@@ -2,19 +2,38 @@
 description: Leer over visualisatie en visualisatie montages in de Werkruimte van de Analyse.
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
-topic: Reports and analytics
-uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
 
 
 # Overzicht van visualisaties
 
-Leer over visualisatie en visualisatie montages in de Werkruimte van de Analyse.
+De werkruimte biedt een aantal visualisaties die u visuele vertegenwoordiging van uw gegevens, zoals bar grafieken, donut grafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen, en anderen laten produceren. Elke visualisatie heeft eigen instellingen die u kunt beheren. Klik op de naam van de visualisatie voor meer informatie.
 
-[Visualisatietypen in de analysewerkruimte op YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+YouTube-video: Typen [visualisatie in de werkruimte](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) Analyse (2:57)
+
+| Visualisatienaam | Beschrijving |
+|---|---|
+| [Gebied](/help/analyze/analysis-workspace/visualizations/area.md) | als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Gebruik een vlakgrafiek als u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer meetgegevens. |
+| [Balk](/help/analyze/analysis-workspace/visualizations/bar.md) | Geeft verticale balken weer die diverse waarden vertegenwoordigen over een of meer metriek. |
+| [Bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Toont hoe een waarde u in vergelijkt met of maatregelen tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
+| [Cohortingtabel](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | A *`cohort`* is een groep mensen die gemeenschappelijke kenmerken over een bepaalde periode delen. Cohortanalyse is bijvoorbeeld handig als u wilt weten hoe een cohort werkt met een merk. U kunt gemakkelijk veranderingen in tendensen waarnemen, dan dienovereenkomstig antwoorden. |
+| [Donut](/help/analyze/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. |
+| [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen). |
+| [Stroom](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Kies deze optie om klantpaden weer te geven via uw websites en apps. |
+| [Vrije-vormentabel](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Een tabel met vrije vorm is niet alleen een gegevenstabel, maar ook een interactieve visualisatie. |
+| [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md) | Een histogram lijkt op een staafdiagram, maar het groepeert getallen in bereiken (emmers). |
+| [Horizontale balk](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Hiermee geeft u horizontale balken weer die verschillende waarden voor een of meer metriek vertegenwoordigen. |
+| [Lijn](/help/analyze/analysis-workspace/visualizations/line.md) | Vertegenwoordigt metriek die een lijn gebruiken om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt. |
+| [Kaart](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Hiermee kunt u een visuele kaart van elke metrische waarde (inclusief berekende metriek) maken. |
+| [Scatterplot](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Toont het verband tussen afmetingswaarden en tot drie metriek. |
+| [Samenvattingsnummer](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Afhankelijk van de cel die is geselecteerd, worden bij deze visualisatie totalen en samenvattingen weergegeven. |
+| [Samenvattingswijziging](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Afhankelijk van de cellen die zijn geselecteerd, worden cellen met elkaar vergeleken met deze visualisatie. |
+| [Tekst](/help/analyze/analysis-workspace/visualizations/text.md) | Hiermee kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw werkruimte. |
+| [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | Hiermee worden hiërarchische gegevens (met structuur van structuur) weergegeven als een set geneste rechthoeken. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Hiermee kunt u maximaal drie segmenten (van Componenten) en één metrisch slepen om een Venn-diagram te maken. |
 
 ## Deelvenster Visualisaties {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -34,48 +53,16 @@ Als u toegang wilt krijgen [!UICONTROL Visualization Settings], sleept u een vis
 
 ![](assets/visualization_settings.png)
 
-<table id="table_E0695243886046979EE609FAE5D6EA00"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Instelling </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Percentage </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u waarden weer in percentages. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>100% gestapeld </p> </td> 
-   <td colname="col2"> <p>Met deze instelling op een gestapeld gebied of een gestapelde of horizontale balk wordt het diagram omgezet in een '100% gestapelde' visualisatie. Voorbeeld: </p> <p><img  src="assets/stacked_100_percent.png" placement="break" width="400px" id="image_1B60D53F7EB84571B1580BC3A1E603EE" /> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Legenda zichtbaar </p> </td> 
-   <td colname="col2"> <p>Hiermee kunt u de tekst met filterdetails voor de visualisatie Samenvattingsnummer/Samenvattingswijziging verbergen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Max. items beperken </p> </td> 
-   <td colname="col2"> <p>Hiermee kunt u het aantal items beperken dat in een visualisatie wordt weergegeven. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Y-as verankeren op nul </p> </td> 
-   <td colname="col2"> <p> Als alle waarden die in het diagram worden uitgezet aanzienlijk boven nul liggen, wordt de onderkant van de y-as NON-ZERO ingesteld als de standaardinstelling van het diagram. Als u dit vakje inschakelt, wordt de y-as gedwongen tot nul (en wordt het diagram opnieuw getekend). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Normalisatie </p> </td> 
-   <td colname="col2"> <p>Dwingt metriek tot gelijke verhoudingen. Zie <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalisatie</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dual Axis weergeven </p> </td> 
-   <td colname="col2"> <p>Is slechts van toepassing als u twee metriek hebt - u kunt een y-as op de linkerzijde (voor één metrisch) en op het recht (voor andere metrisch) hebben. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Anomalies tonen </p> </td> 
-   <td colname="col2"> <p>Verbetert lijngrafieken en vrije-vormlijsten om gegevensanomalieën te tonen. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Instelling | Beschrijving |
+|--- |--- |
+| Percentage | Hiermee geeft u waarden weer in percentages. |
+| 100% gestapeld | Met deze instelling op een gestapeld gebied of een gestapelde of horizontale balk wordt het diagram omgezet in een &#39;100% gestapelde&#39; visualisatie. Voorbeeld: ![](assets/stacked_100_percent.png) |
+| Legenda zichtbaar | Hiermee kunt u de tekst met filterdetails voor de visualisatie Samenvattingsnummer/Samenvattingswijziging verbergen. |
+| Max. items beperken | Hiermee kunt u het aantal items beperken dat in een visualisatie wordt weergegeven. |
+| Y-as verankeren op nul | Als alle waarden die in het diagram worden uitgezet aanzienlijk boven nul liggen, wordt de onderkant van de y-as NON-ZERO ingesteld als de standaardinstelling van het diagram. Als u dit vakje inschakelt, wordt de y-as gedwongen tot nul (en wordt het diagram opnieuw getekend). |
+| Normalisatie | Dwingt metriek tot gelijke verhoudingen. |
+| Dual Axis weergeven | Is slechts van toepassing als u twee metriek hebt - u kunt een y-as op de linkerzijde (voor één metrisch) en op het recht (voor andere metrisch) hebben. |
+| Anomalies tonen | Verbetert lijngrafieken en vrije-vormlijsten om gegevensanomalieën te tonen. |
 
 ## Visueel pictogram maken {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
@@ -119,4 +106,4 @@ Als u bijvoorbeeld een legenda-label in een lijndiagram wilt bewerken,
 1. Voer de nieuwe labeltekst in.
 1. Druk op **[!UICONTROL Enter]** om op te slaan.
 
-Hier volgt een [koppeling naar een video](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) over dit onderwerp.
+Hier volgt een [koppeling naar een video](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) over dit onderwerp.
