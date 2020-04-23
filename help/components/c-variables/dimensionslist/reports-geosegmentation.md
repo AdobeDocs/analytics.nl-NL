@@ -4,7 +4,7 @@ title: GeoSegmentation
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
 
@@ -45,7 +45,7 @@ Alle metriek die elders aan u in Rapporten &amp; Analytics beschikbaar zijn zijn
   </tr> 
   <tr> 
    <td colname="col1"> Nauwkeurigheid van rapport </td> 
-   <td colname="col2"> <p>Adobe heeft samengewerkt met Digital Envoy, een toonaangevende leverancier van IP-oplossingen voor intelligentie en verificatie, om GeoSegmentation aan te bieden, een geografische meetmogelijkheid die is gebaseerd op IP-adressen van eindgebruikers. Hoewel de nauwkeurigheid op basis van individuele gegevenssets kan variëren, biedt Digital Envoy doorgaans meer dan 99% nauwkeurigheid op landniveau, meer dan 97% nauwkeurigheid op regionaal niveau en meer dan 90% nauwkeurigheid op stadsniveau. </p> <p>Opmerking: Deze aantallen veronderstellen dat [het plaatsen] (/help/admin/admin/general-acct-settings-admin.md) om het laatste octet van het IP adres te verwijderen NIET wordt toegelaten. </p> <p>IP de adressen worden in kaart gebracht aan postcodes, en elke stad wordt bepaald door de postcodes die de "lokale autoriteit"als deel van die stad bepaalt. Zo vallen de voorsteden van Berlijn niet onder de definitie van Berlijn, maar wordt elke stad afzonderlijk vermeld, ervan uitgaande dat de IP-adressen nauwkeurig kunnen worden toegewezen aan een postcode in een van deze steden. </p> <p>Enkele factoren die invloed kunnen hebben op GeoSegmentation-gegevens zijn: </p> 
+   <td colname="col2"> <p>Adobe heeft samengewerkt met Digital Envoy, een toonaangevende leverancier van IP-oplossingen voor intelligentie en verificatie, om GeoSegmentation aan te bieden, een geografische meetmogelijkheid die is gebaseerd op IP-adressen van eindgebruikers. Hoewel de nauwkeurigheid op basis van individuele gegevenssets kan variëren, biedt Digital Envoy doorgaans meer dan 99% nauwkeurigheid op landniveau, meer dan 97% nauwkeurigheid op regionaal niveau en meer dan 90% nauwkeurigheid op stadsniveau. </p> <p>Opmerking: Deze aantallen veronderstellen dat <a href="/help/admin/admin/general-acct-settings-admin.md">het plaatsen</a> om het laatste octet van het IP adres te verwijderen NIET wordt toegelaten. </p> <p>IP de adressen worden in kaart gebracht aan postcodes, en elke stad wordt bepaald door de postcodes die de "lokale autoriteit"als deel van die stad bepaalt. Zo vallen de voorsteden van Berlijn niet onder de definitie van Berlijn, maar wordt elke stad afzonderlijk vermeld, ervan uitgaande dat de IP-adressen nauwkeurig kunnen worden toegewezen aan een postcode in een van deze steden. </p> <p>Enkele factoren die invloed kunnen hebben op GeoSegmentation-gegevens zijn: </p> 
     <ul id="ul_1B05024AD5174232A8DB8145753FB09B"> 
      <li id="li_C3A21E7C1186490EB9A236634DB45E7F">IP adressen die collectieve volmachten vertegenwoordigen. Deze kunnen als verkeer verschijnen dat door het collectieve netwerk van de gebruiker komt, dat eigenlijk een verschillende plaats kan zijn als de gebruiker ver werkt. </li> 
      <li id="li_56FC36B3598C420F9246D4E8772822A7">Mobiele IP-adressen. Het mobiele IP richten werkt op variërende niveaus afhankelijk van de plaats en het netwerk. Een aantal vervoerders backhaul IP verkeer door gecentraliseerde of regionale POPs. </li> 
