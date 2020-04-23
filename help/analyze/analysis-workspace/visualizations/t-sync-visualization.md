@@ -2,10 +2,8 @@
 description: Door visualisatie te synchroniseren kunt u bepalen welke datatabel of gegevensbron overeenkomt met een visualisatie.
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: Gegevensbronnen beheren
-topic: Reports and analytics
-uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
 
