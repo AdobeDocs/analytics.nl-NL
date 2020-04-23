@@ -5,7 +5,7 @@ title: Bezoekersmigratie
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
+source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
 
@@ -48,11 +48,11 @@ In de volgende tabel worden de taken weergegeven die zijn vereist voor bezoekers
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6+ uur na configuratiewijziging</b>: Werk de <code> s.trackingServer</code> en de <code> s.trackingServerSecure</code> variabelen in uw code van JavaScript van Analytics bij om de nieuwe servers van de gegevensinzameling te gebruiken. </p> </td> 
-   <td colname="col3"> <p>Nadat u deze verandering aanbrengt, gebruik [pakketmonitor] (../implement/validate/packet-monitor.md) om te verifiëren dat het Analtyics beeldverzoek naar de bijgewerkte server van de gegevensinzameling gaat. </p> </td> 
+   <td colname="col3"> <p>Nadat u deze verandering aanbrengt, gebruik een <a href="../implement/validate/packet-monitor.md"> pakketmonitor</a> om te verifiëren dat het Analtyics beeldverzoek naar de bijgewerkte server van de gegevensinzameling gaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Onmiddellijk na het bijwerken van uw Analysecode</b>: Test uw plaats om te verifiëren dat redirect aan het vorige domein van de gegevensinzameling voorkomt. </p> </td> 
-   <td colname="col3"> <p>Gebruik een [pakketmonitor] (../implement/validate/packet-monitor.md) om te verifiëren dat wanneer u tot uw plaats voor het eerst toegang hebt, of na het ontruimen van koekjes, u twee 302 (omleiding) statuscodes van HTTP vóór de 200 (O.K.) statuscode van HTTP ziet. Als een van deze omleidingen mislukt, neemt u onmiddellijk contact op met de klantenservice om ervoor te zorgen dat de migratie correct is geconfigureerd. </p> </td> 
+   <td colname="col3"> <p>Gebruik een <a href="../implement/validate/packet-monitor.md"> pakketmonitor</a> om te verifiëren dat wanneer u tot uw plaats voor het eerst toegang hebt, of na het ontruimen van koekjes, u twee 302 (omleiding) statuscodes van HTTP vóór de 200 (O.K.) statuscode van HTTP ziet. Als een van deze omleidingen mislukt, neemt u onmiddellijk contact op met de klantenservice om ervoor te zorgen dat de migratie correct is geconfigureerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Voor de gehele migratieperiode</b>: Houd het DNS verslag voor vorige hostname actief. </p> </td> 
