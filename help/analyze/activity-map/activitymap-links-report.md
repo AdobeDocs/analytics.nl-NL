@@ -4,7 +4,7 @@ title: Koppelingsrapport
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
 
 ---
 
@@ -37,7 +37,7 @@ In de standaardmodus worden in het rapport &quot;Koppelingen op pagina&quot; kop
   </tr> 
   <tr> 
    <td colname="col1"> Koppelings-id </td> 
-   <td colname="col2">De primaire id van de koppeling (voor meer informatie over hoe de primaire id wordt gedefinieerd door de [methode voor het bijhouden van nieuwe koppelingen] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
+   <td colname="col2">De primaire id van de koppeling (voor meer informatie over de manier waarop de primaire id wordt gedefinieerd door de <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">methode</a>Nieuwe koppeling bijhouden) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Klikken </td> 
@@ -82,7 +82,7 @@ In Live modus worden in het rapport Koppelingen op pagina trendgegevens weergege
   </tr> 
   <tr> 
    <td colname="col1"> Koppelings-id </td> 
-   <td colname="col2">De primaire id van de koppeling. Voor meer informatie over hoe primaire identiteitskaart door de Nieuwe [Methodologie van het Volgen van de Verbinding] (/help/analyze/activity-map/activity-map-link-tracking/activity-map-)inkt-tracking-method.md) wordt bepaald. </td> 
+   <td colname="col2">De primaire id van de koppeling. Voor meer informatie over hoe primaire identiteitskaart door de Nieuwe Methodologie <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> van het Volgen van de</a>Verbinding wordt bepaald. </td>
   </tr> 
   <tr> 
    <td colname="col1"> Koppelingsklikken </td> 
