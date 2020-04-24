@@ -60,6 +60,6 @@ Elke baan toont verscheidene kolommen die informatie over het verstrekken. Klik 
    * Voltooid: De taak is voltooid zonder problemen.
    * Mislukt: De taak is niet voltooid. Zie [Problemen met taken](jobs-troubleshooting.md) oplossen om de oorzaak van fouten te achterhalen.
    * Wachten op exporteren: De gegevens voor het rapportagevenster zijn nog niet volledig verwerkt.
-   * Geen gegevens: Er zijn geen gegevens in de rapportsuite voor het gewenste rapportvenster.
+   * Geen gegevens: Er zijn geen gegevens in de rapportsuite voor het gevraagde rapportvenster.
 * **Voltooiingstijd**: De tijd waarop de taak is voltooid. Datum en tijd worden getoond in de de tijdzone van de rapportreeks met GMT compensatie.
 * **Aangevraagde datum**: Het rapportvenster van het bestand. De dagelijkse voer toont typisch 00:00 - 23:59 met een compensatie van GMT, die op een volledige dag wijst die op de tijdzone van de rapportreeks wordt gebaseerd. Uurfeeds laten het individuele uur zien waarvoor de baan is bedoeld.
