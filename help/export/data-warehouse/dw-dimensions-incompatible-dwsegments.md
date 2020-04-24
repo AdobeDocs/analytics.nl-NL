@@ -3,7 +3,7 @@ description: 'null'
 title: Dimensies die niet compatibel zijn met Data Warehouse-segmenten
 uuid: ce772b7a-6a30-454a-a38f-d2bb2521f0fb
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
