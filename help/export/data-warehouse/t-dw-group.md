@@ -4,7 +4,7 @@ title: Gebruikersgroep Data Warehouse toevoegen
 topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
