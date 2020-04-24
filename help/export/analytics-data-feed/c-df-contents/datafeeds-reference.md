@@ -15,7 +15,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste implementaties gebruiken niet elke kolom, zodat kan deze pagina worden van verwijzingen voorzien wanneer het bepalen van welke kolommen in de uitvoer van een gegevensvoer te omvatten.
 
->[!IMPORTANT] Voor elke bepaalde kolom (bijvoorbeeld een kolom die is gedefinieerd als 255 tekens) kan een gegevensfeed extra tekens verzenden als gevolg van de toevoeging van tekens die aan waarden ontsnappen in een tekenreeks. Houd rekening met deze mogelijke extra tekens als uw implementatie regelmatig waarden verzendt die de tekenlimiet overschrijden.
+>[!IMPORTANT] Voor elke bepaalde kolom (bijvoorbeeld een kolom die is gedefinieerd als 255 tekens) kan een gegevensfeed extra tekens verzenden als gevolg van de toevoeging van tekens die aan waarden ontsnappen in een tekenreeks. Houd rekening met deze mogelijke extra tekens als uw implementatie regelmatig waarden verzendt die tekenlimieten overschrijden.
 
 ## Kolommen, beschrijvingen en gegevenstypen
 
@@ -95,7 +95,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `latlon1` | Locatie (tot 10 km) | varchar(255) |
 | `latlon23` | Locatie (tot 100 m) | varchar(255) |
 | `latlon45` | Locatie (tot 1 m) | varchar(255) |
-| `mc_audiences` | Lijst van het segmentIDs van de Manager van de Publiek dat de bezoeker tot behoort. | text |
+| `mc_audiences` | Lijst van het segmentIDs van de Manager van de Publiek tot de bezoeker behoort. | text |
 | `mcvisid` | Ervaar de Cloud Visitor-id. 128-bits getal dat bestaat uit twee samengevoegde 64-bits getallen opgevuld tot 19 cijfers. | varchar(255) |
 | `mobile_id` | Als de gebruiker een mobiel apparaat gebruikt, is dit de numerieke id van het apparaat. | int |
 | `mobileaction` | Mobiele handeling. Automatisch verzameld wanneer trackAction wordt geroepen in de Mobiele Diensten. Hiermee kunt u in de app automatisch tekenen met handelingen. | varchar(100) |
