@@ -2,7 +2,7 @@
 title: Gegevens analyseren die door gebeurtenissen worden beïnvloed
 description: Begrijp hoe de gegevens die door een gebeurtenis worden beïnvloed tot algemene gegevenskwaliteit bijdragen.
 translation-type: tm+mt
-source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
+source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ---
 
@@ -32,3 +32,9 @@ Nadat u segmenten hebt gemaakt en datumvergelijking hebt gebruikt, kunt u beide 
 ## Communiceer gevolgen aan gebruikers in uw organisatie
 
 Zodra u bent voorbereid met hoe u van plan bent om een gebeurtenis te behandelen, kunt u aan gebruikers in uw organisatie [](event/event-communicate.md)communiceren. Adobe biedt verschillende locaties in Analytics waar u tekst kunt plaatsen om met gebruikers te communiceren wat er is gebeurd en welke componenten zij kunnen gebruiken.
+
+## Video
+
+Deze video doorloopt elk van de bovenstaande stappen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
