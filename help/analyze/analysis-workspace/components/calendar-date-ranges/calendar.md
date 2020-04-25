@@ -20,7 +20,7 @@ Met de eerste klik op een kalender wordt een datumbereikselectie gestart. Met de
 
 U kunt ook datums (en tijdafmetingen) naar een Workspace-project slepen. U kunt specifieke dagen, weken, maanden, jaren of een roldatum selecteren.
 
-[Datumbereik en -kalender gebruiken in de analysewerkruimte op YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
+[Datumbereik en -kalender gebruiken in de analysewerkruimte op YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28) (4:07)
 
 | Instelling | Beschrijving |
 |--- |--- |
