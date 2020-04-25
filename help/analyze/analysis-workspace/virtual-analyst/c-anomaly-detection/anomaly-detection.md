@@ -12,9 +12,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 U kunt gegevensanomalieën contextueel bekijken en analyseren binnen de Werkruimte van de Analyse.
 
-[Anomaly Detection on YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
+[Anomaly Detection on YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&amp;index=63&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
 
-[Bijdrage-analyse op YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
+[Bijdrage-analyse op YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&amp;index=64&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
 >[!IMPORTANT] Anomaly Detection is verwijderd uit de de eigenschapreeks van Rapporten &amp; van Analyse en is nu beschikbaar slechts via de Werkruimte van de Analyse. Klanten van Adobe Analytics Select en Adobe Analytics Foundation hebben alleen toegang tot Anomaly Detection in Workspace. Zie [Anomaly Detection and Contribution Analysis Entitlements](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)voor meer informatie.
 
