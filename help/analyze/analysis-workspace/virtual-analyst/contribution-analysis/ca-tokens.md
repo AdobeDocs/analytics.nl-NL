@@ -3,7 +3,7 @@ description: 'null'
 title: Overzicht van de bijdrageanalyse
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -55,7 +55,7 @@ Het aantal uitvoeringen per bedrijf wordt beperkt door maandelijkse tokens die w
    <td colname="col2"> <p>De bijdrageanalyse is een van de meest responsieve mogelijkheden in Adobe Analytics sinds de release in 2015. Als u een klein aantal "volledige" runnen per maand hebt (in plaats van slechts 3 dimensies voor sommige analyseproducten), kunt u beter zien wat de onbeperkte volledige Analyse van de Bijdrage voor u kan doen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Hoe werkt het tokeren in bijdrageanalyse? Zijn de kosten een token om een project te laden met een bestaande bijdrageanalyse, of slechts wanneer een gloednieuwe wordt uitgevoerd?</b> </p> </td> 
+   <td colname="col1"> <p><b>Hoe werkt het tokeren in bijdrageanalyse? Kosten het een token om een project te laden met een bestaande bijdrageanalyse, of alleen wanneer een gloednieuwe wordt uitgevoerd?</b> </p> </td> 
    <td colname="col2"> <p>Elk login bedrijf (niet elke gebruiker) krijgt een bepaald aantal tokens per maand, die u toestaan om "volledige"Analyse van de Bijdrage in de Werkruimte van de Analyse in werking te stellen. </p> <p>Elke keer dat u een nieuwe bijdrageanalyse genereert, betaalt u één token. Het laden van projecten met vooraf uitgevoerde Analyses van de Bijdrage kost geen teken. </p> </td> 
   </tr> 
   <tr> 
