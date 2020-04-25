@@ -3,7 +3,7 @@ description: Hiermee worden hiërarchische gegevens (met structuur van structuur
 title: Treemap
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
