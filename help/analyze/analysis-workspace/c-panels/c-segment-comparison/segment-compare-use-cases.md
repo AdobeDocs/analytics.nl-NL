@@ -3,7 +3,7 @@ title: Gebruiksgevallen voor vergelijking van segmenten
 description: Leer praktijkvoorbeelden over hoe het paneel van de segmentvergelijking kan worden gebruikt om inzicht in de marketing strategie te krijgen.
 keywords: Segment IQ
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
