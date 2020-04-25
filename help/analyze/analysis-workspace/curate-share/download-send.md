@@ -3,7 +3,7 @@ description: U kunt opgeslagen en niet-opgeslagen projecten downloaden in PDF- e
 title: PDF- of CSV-bestanden downloaden
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
 
 ---
 
