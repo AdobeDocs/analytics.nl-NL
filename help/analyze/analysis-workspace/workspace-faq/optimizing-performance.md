@@ -25,7 +25,7 @@ De ingewikkelde segmenten kunnen een significante invloed op projectprestaties h
 
 **Aanbevolen procedures voor logische complexiteit**
 
-Hoewel sommige van de complexiteitsfactoren niet kunnen worden voorkomen, denk over mogelijkheden om de ingewikkeldheid van uw segmenten te verminderen. Over het algemeen geldt dat hoe specifieker u kunt zijn bij de criteria van uw segment, des te beter. Bijvoorbeeld:
+Hoewel sommige van de complexiteitsfactoren niet kunnen worden verhinderd, denk over mogelijkheden om de ingewikkeldheid van uw segmenten te verminderen. Over het algemeen geldt dat hoe specifieker u kunt zijn bij de criteria van uw segment, des te beter. Bijvoorbeeld:
 
 * Bij containers is het gebruik van één container boven aan het segment sneller dan een reeks geneste containers.
 * Met operatoren is &#39;equals&#39; sneller dan &#39;contains&#39; en is &#39;equals any of&#39; sneller dan &#39;contains any of&#39;.
