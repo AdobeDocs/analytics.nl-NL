@@ -82,7 +82,7 @@ Verbetering uitgebracht op 13 juni 2019.
 
 | Verbetering | Beschrijving |
 |--- |--- |
-| Nieuwe filters buiten de box | Added new out-of-the-box filters to the left rail search. Beyond what you see today (Dimensions, Metrics, Approved, etc.), new filters such as Calculated Metrics, Customer Attributes, eVars, Props, Video, etc. zijn toegevoegd om het gemakkelijker te maken om de gewenste componenten te vinden. |
+| Nieuwe filters buiten de box | Nieuwe filters uit de doos aan de linkerspooronderzoek toegevoegd. Buiten wat u vandaag ziet (Afmetingen, Metriek, Goedgekeurd, enz.), nieuwe filters zoals Berekende Metriek, Klantkenmerken, Vars, Props, Video, enz. zijn toegevoegd om het gemakkelijker te maken om de gewenste componenten te vinden. |
 
 ## Mei 2019
 
@@ -106,9 +106,9 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 17 januari 2019.
 
 | Functie | Beschrijving |
 |--- |--- |
-| [Cohortanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Met de belangrijkste verbeteringen in Cohort Analysis kunt u:<ul><li>Pas afzonderlijk een segmentopname en retourcijfers toe. </li><li>Churn weergeven in plaats van retentie.</li><li>Latentietabellen tonen (tijd die is verstreken voor en na een insluitingsgebeurtenis).</li><li>Pas de cohortdimensie aan (om bezoekers te groeperen op basis van een eVar en niet alleen de tijd).</li><li>Een rolcohortberekening uitvoeren: de retentie/keten berekenen op basis van de voorafgaande periode, niet op basis van de oorspronkelijke cohort. </li><li>Voeg in veelvoudige metriek in opname &amp; terugkeergebieden toe, evenals pas segmenten toe. (Calculated metrics are not supported)</li></ul> |
+| [Cohortanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Met de belangrijkste verbeteringen in Cohort Analysis kunt u:<ul><li>Pas afzonderlijk een segmentopname en retourcijfers toe. </li><li>Churn weergeven in plaats van retentie.</li><li>Latentietabellen tonen (tijd die is verstreken voor en na een insluitingsgebeurtenis).</li><li>Pas de cohortdimensie aan (om bezoekers te groeperen op basis van een eVar en niet alleen de tijd).</li><li>Een rolcohortberekening uitvoeren: de retentie/keten berekenen op basis van de voorafgaande periode, niet op basis van de oorspronkelijke cohort. </li><li>Voeg in veelvoudige metriek in opname &amp; terugkeergebieden toe, evenals pas segmenten toe. (Berekende meetgegevens worden niet ondersteund)</li></ul> |
 | [Dichtheid weergeven](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Met deze nieuwe instelling kunt u meer gegevens op één scherm zien door de verticale opvulling van de linkerspoorstaaf, vrije-vormtabellen en cohortabellen te verminderen. Toegankelijk via Project > Projectinfo en -instellingen. |
-| [Ondersteuning voor gemultiwaardeerde variabelen in Attribution IQ](attribution-iq.md) | Sommige afmetingen in Analytics kunnen veelvoudige waarden op één enkele klap, zoals listVars, de productvariabele, lijstuitdrukkingen, of koopvaardijeVars bevatten. Analysis Workspace lets you apply Attribution IQ to any of these types of variables at the hit level. |
+| [Ondersteuning voor gemultiwaardeerde variabelen in Attribution IQ](attribution-iq.md) | Sommige afmetingen in Analytics kunnen veelvoudige waarden op één enkele klap, zoals listVars, de productvariabele, lijstuitdrukkingen, of koopvaardijeVars bevatten. Met de analysewerkruimte kunt u kenmerk IQ op elk van deze typen variabelen op aanraakniveau toepassen. |
 | Prestatieverbeteringen | De verbeteringen van de snelheid aan het breken visualisaties - de projecten met veel onderbrekingen zullen sneller laden. |
 
 ## november 2018
@@ -187,7 +187,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 9 augustus 2018.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Hulplijnen voor neerzetzone</b> </p> </td> 
-   <td colname="col2"> <p>Deze hulplijnen geven u gemakkelijker inzicht in de handelingen voor slepen en neerzetten. Als u de cursor bijvoorbeeld op een kolom plaatst, worden bijvoorbeeld de volgende zaken weergegeven: Toevoegen, Vervangen, Filteren op en Onderverdeling. </p> <p>We also added yellow/red guides that alert you when you are taking an action that is not recommended or prohibited, such as stacking two metrics on top of one another (which leads to invalid data). </p> </td> 
+   <td colname="col2"> <p>Deze hulplijnen geven u gemakkelijker inzicht in de handelingen voor slepen en neerzetten. Als u de cursor bijvoorbeeld op een kolom plaatst, worden bijvoorbeeld de volgende zaken weergegeven: Toevoegen, Vervangen, Filteren op en Onderverdeling. </p> <p>Er zijn ook gele/rode hulplijnen toegevoegd die u waarschuwen wanneer u een handeling uitvoert die niet wordt aanbevolen of verboden, zoals het boven elkaar plaatsen van twee metriek (wat leidt tot ongeldige gegevens). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Optie Leeg deelvenster toevoegen</b> </p> </td> 
@@ -214,7 +214,7 @@ Nieuwe en verbeterde functies die zijn uitgebracht op 19 juli 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> Verbeteringen aan het linkerspoor </b> </p> </td> 
-   <td colname="col2"> <p>Made improvements to the left rail to make it more intuitive and easy to use: </p> 
+   <td colname="col2"> <p>Verbeterde links spoorstaaf om het intuïtiever en gebruiksvriendelijker te maken: </p> 
     <ul id="ul_087BEDF4338946DA857CD82CB69F98C2"> 
      <li id="li_C751AACAC60442DC93118F0819F8EEA7"> De functie Maken (+) voor componenten (metriek, segmenten, datums) is in overeenstemming met de kopteksten. </li> 
      <li id="li_DE2EB184A02D4CE58C23F518DB85EFDD"> ‘+ Alles bekijken’ toegevoegd onder aan elke sectielijst om duidelijk te maken dat er meer dan vijf opties zijn. </li> 
@@ -228,7 +228,7 @@ Nieuwe en verbeterde functies die zijn uitgebracht op 19 juli 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Nieuwe <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > datumbereikvoorinstelling </a></b> </p> </td> 
-   <td colname="col2"> <p>Added 'Last 13 full weeks' to the date range presets in Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>'Laatste 13 volledige weken' toegevoegd aan de voorinstellingen voor het datumbereik in de analysewerkruimte. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -348,7 +348,7 @@ Nieuwe en verbeterde functies die zijn uitgebracht op 8 maart 2018.
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Verbeterde visualisatie toewijzen </a> </p> </td> 
    <td colname="col2"> <p>Om periode-over-periode (zoals jaar-over-jaar) vergelijkingen in de visualisatie van de Kaart te kunnen tonen, hebben wij deze verhogingen toegevoegd: </p> 
     <ul id="ul_F570E6AB174C45788620CF50E2742A08"> 
-     <li id="li_746E329037764644A9CCF79161C26350">De Kaartweergave kan nu negatieve getallen tonen. For example, if you are plotting a year-over-year metric, the map can show -33% over New York. </li> 
+     <li id="li_746E329037764644A9CCF79161C26350">De Kaartweergave kan nu negatieve getallen tonen. Als u bijvoorbeeld een metrische waarde uitzet die elk jaar wordt overschreden, kan de kaart -33% weergeven ten opzichte van New York. </li> 
      <li id="li_E05F0380627044E6A4E8A60C98494BF7">Met metriek die van type "percenten"zijn, groepert zich het gemiddelde van de percentages samen. </li> 
      <li id="li_44C04306EA1B413E91B8256B340D5296">Een nieuw kleurenschema: Positief/negatief (groen/rood) </li> 
     </ul> </td> 
@@ -432,7 +432,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
      <li id="li_2AB564F917844F82839A91949D0B684A">Bevat een term </li> 
      <li id="li_16C7938EDC8F422EA006FB63F2881EF1">Bevat de woordgroep </li> 
      <li id="li_5130EBE9A7A54CCFA313F3C3C268B367">Bevat geen term </li> 
-     <li id="li_861825154EDC49EBA57514FD0A2AE462">Does not contain the phrase </li> 
+     <li id="li_861825154EDC49EBA57514FD0A2AE462">Bevat niet de uitdrukking </li> 
      <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">Gelijk </li> 
      <li id="li_1EBF3119B6364842A35D39BAD645F4AF">Is niet gelijk aan </li> 
      <li id="li_487886E0A6EC4245A0E85D2E8B4A20FB">Begint met </li> 
@@ -648,7 +648,7 @@ Nieuwe functies uitgebracht op 17 augustus 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md"  > De kolom van markeringen in de pagina van de projectlijst </a> </p> </td> 
-   <td colname="col2"> <p>Een <span class="wintitle"> kolom van Codes toegevoegd </span> aan de de projectlijstpagina van de Werkruimte. Deze kolom toont de markeringen voor elk project. </p> </td> 
+   <td colname="col2"> <p>Een kolom van <span class="wintitle"> Codes </span> aan de pagina van de het projectlijst van de Werkruimte toegevoegd. Deze kolom toont de markeringen voor elk project. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > Stroomvisualisaties exporteren als CSV-bestanden </a> </p> </td> 
