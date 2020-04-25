@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics Documentation
+user-guide-title: Analytische documentatie
 user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
 source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
@@ -25,7 +25,7 @@ source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 * [Handleiding Gegevenswerkbank](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
 * [Klantreisanalyse](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
 * [Documentatieupdates](doc-updates.md)
-* [Opmerkingen bij de release](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+* [Release-opmerkingen](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
 
 <!--
 + Analytics Guides{#analytics-guides}
