@@ -25,7 +25,7 @@ Voorbeelden van wat u kunt doen met Cohort Analyse:
 
 Cohortanalyse is beschikbaar voor alle klanten van Analytics met toegangsrechten tot de Werkruimte van de Analyse.
 
-[Cohortanalyse op YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Cohortanalyse op YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
