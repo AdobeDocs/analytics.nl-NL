@@ -188,7 +188,6 @@ Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wi
    3. Nadat u de testflight-app hebt geïnstalleerd, zoekt en installeert u de Adobe Analytics-dashboards vanuit Testflight, zoals hieronder wordt weergegeven:
 
       ![Testvluchtscherm](assets/testflight2.png)
-   
    **Voor uitvoerende gebruikers op Android:**
 
    1. Tik op de koppeling Play Store op het apparaat van de gebruiker (Deze is ook beschikbaar in Analytics onder **Extra** > **dashboards**):
@@ -204,7 +203,6 @@ Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wi
 
    3. Download en installeer de app.
 Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-gegevens. Wij ondersteunen zowel Adobe als Enterprise-/federatieve id&#39;s.
-   
    ![Welkomstscherm van app](assets/welcome.png)
 
 2. Help hen tot uw Scorecard toegang te hebben. Nadat uitvoerende gebruikers zich in app ondertekenen, verschijnt het **Choose een bedrijfscherm** . Dit scherm maakt een lijst van de login bedrijven waartot de uitvoerende gebruiker behoort. Om hen te helpen bij de Scorecard:
