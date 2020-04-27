@@ -2,14 +2,14 @@
 title: Afleiden van gegevens die door gebeurtenissen worden beïnvloed
 description: Gebruik berekende metriek om trended gegevens te corrigeren die door een gebeurtenis worden beïnvloed.
 translation-type: tm+mt
-source-git-commit: 1ffbd728aba893d7f7a4ecf027c479fc753e371a
+source-git-commit: 8d1a67f0c05afb66b6a961059101f5c889b52790
 
 ---
 
 
 # Afleiden van gegevens die door gebeurtenissen worden beïnvloed
 
-Als u gegevens hebt [die door een gebeurtenis](/help/technotes/event-impacted.md)worden beïnvloed, kunt u berekende metriek gebruiken om trended waarden voor de duur van de gebeurtenis af te leiden. Bijvoorbeeld, als u een gebeurtenis had die een daling van 25% in gegevens veroorzaakte, kunt u dat als vermenigvuldiger in berekende metrisch gebruiken. Deze methode is handig als u niet de tijd of bronnen hebt om gegevens in Adobe Analytics in te voegen met behulp van [gegevensbronnen](/help/import/c-data-sources/datasrc-home.md) of de API [voor het invoegen van](/help/import/c-data-insertion-api/c-data-insertion-api.md)gegevens.
+Als u gegevens hebt [die door een gebeurtenis](/help/technotes/event-impacted.md)worden beïnvloed, kunt u berekende metriek gebruiken om trended waarden voor de duur van de gebeurtenis af te leiden. Bijvoorbeeld, als u een gebeurtenis had die een daling van 25% in gegevens veroorzaakte, kunt u dat als vermenigvuldiger in berekende metrisch gebruiken.
 
 >[!NOTE] Deze stappen werken het beste wanneer u het effect van een gebeurtenis begrijpt, zowel vanuit het perspectief van segmentatie als datumvergelijking. Zorg ervoor dat u de datums die door een gebeurtenis worden beïnvloed, [vergelijkt met vorige bereiken](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) en dat u specifieke datums in de analyse [](../c-segmentation/use-cases/exclude-date-range.md) Uitsluiten voordat u deze pagina volgt.
 
