@@ -4,7 +4,7 @@ title: Meer dan één kopie van een aanvraag maken
 topic: Report builder
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
