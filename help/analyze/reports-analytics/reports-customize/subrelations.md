@@ -33,7 +33,7 @@ Als u een eVar1 rapport trok, zou u het volgende zien:
 
 ![](assets/subrel_2.png)
 
-Als u het rapport van de Campagne door eVar1 subrelated, zou u het volgende krijgen:
+Als u het campagnerapport door eVar1 subrelated, zou u het volgende krijgen:
 
 ![](assets/subrel_3.png)
 
