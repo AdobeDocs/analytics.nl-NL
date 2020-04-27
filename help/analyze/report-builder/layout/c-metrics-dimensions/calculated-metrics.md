@@ -1,6 +1,6 @@
 ---
 description: Report Builder 5.2 biedt ondersteuning voor Adobe Analytics Unified Calculated Metrics. Onder andere innovaties, hebben alle berekende metriek nu een globale identiteitskaart - zij zijn niet meer beperkt tot één rapportreeks.
-title: Berekende cijfers
+title: Berekende statistieken
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
 source-git-commit: 96ddfa863fae6044131e27a6d1cddd62d50223eb
@@ -8,7 +8,7 @@ source-git-commit: 96ddfa863fae6044131e27a6d1cddd62d50223eb
 ---
 
 
-# Berekende cijfers
+# Berekende statistieken
 
 Report Builder 5.2 biedt ondersteuning voor Adobe Analytics Unified Calculated Metrics. Onder andere innovaties, hebben alle berekende metriek nu een globale identiteitskaart - zij zijn niet meer beperkt tot één rapportreeks.
 
