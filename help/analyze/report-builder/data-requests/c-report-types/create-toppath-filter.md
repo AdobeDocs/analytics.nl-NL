@@ -4,7 +4,7 @@ title: Padrapporten filteren door afhankelijke verzoeken toe te voegen
 topic: Report builder
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
