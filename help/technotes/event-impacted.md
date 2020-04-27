@@ -2,7 +2,7 @@
 title: Gegevens analyseren die door gebeurtenissen worden beïnvloed
 description: Begrijp hoe de gegevens die door een gebeurtenis worden beïnvloed tot algemene gegevenskwaliteit bijdragen.
 translation-type: tm+mt
-source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
+source-git-commit: 65f5fad547558cc9dc481f0eca72873815c9d13a
 
 ---
 
@@ -38,3 +38,8 @@ Zodra u bent voorbereid met hoe u van plan bent om een gebeurtenis te behandelen
 Deze video doorloopt elk van de bovenstaande stappen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+
+* **0:27**: Gegevens uitsluiten met behulp van segmentatie
+* **2:55**: Een gebeurtenis vergelijken met vorige bereiken
+* **8:42**: Gegevens op basis van berekende meetwaarden
+* **11:46**: Communiceren met gevolgen voor gebruikers
