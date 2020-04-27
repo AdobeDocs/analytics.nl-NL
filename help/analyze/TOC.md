@@ -170,10 +170,10 @@ source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
       + [Interactieve besturingselementen](report-builder/data-requests/interactive-controls.md)
    + Layout - Wizard Verzoek, stap 2 {#layout}
       + [Overzicht van layout](report-builder/layout/layout.md)
-      + Metriek en afmetingen {#metrics-dimension}
+      + Metrics and dimensions {#metrics-dimension}
          + [Overzicht van statistieken en afmetingen](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
          + [Metriek en afmetingen toevoegen](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
-         + [Berekende cijfers](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
+         + [Berekende statistieken](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
          + [Combineer verkeer en handelsmetriek in het zelfde verzoek](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
          + [Toegangsrechten van gebruikers voor afmetingen en metriek](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
          + [Metriek wijzigen - velddefinities](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
