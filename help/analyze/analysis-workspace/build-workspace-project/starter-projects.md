@@ -3,7 +3,7 @@ description: 'null'
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
 
 ---
 
@@ -58,7 +58,11 @@ Hier zijn beschikbare sjablonen en de vragen die elke sjabloon kan beantwoorden.
 
 ### Training
 
-* **Lesbestand**: Dit standaardmalplaatje begeleidt u door gemeenschappelijke terminologie en stappen voor het bouwen van uw eerste analyse in Werkruimte. Het is beschikbaar als standaardmalplaatje in Nieuw Project modaal en vervangt het steekproefproject dat vandaag voor nieuwe gebruikers bestaat die geen andere projecten in hun lijst hebben.
+Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappen voor het bouwen van uw eerste analyse in Werkruimte. Zij zijn beschikbaar als standaardmalplaatje in Nieuw Project modaal en vervangen het steekproefproject dat vandaag voor nieuwe gebruikers bestaat die geen andere projecten in hun lijst hebben.
+
+* **Lesbestand training - Interne zoekanalyse**: Met de zelfstudie Intern zoeken kunt u begrijpen wat uw bezoekers zoeken op de website of de app, maar niet vinden. Door dit type gegevens te analyseren, kunt u optimalisatiemogelijkheden voor de oppervlakkigheid van inhoud bieden.
+
+* **Lesbestand training - Marketinganalyse**: Deze zelfstudie laat u zien hoe u een marketinganalyse kunt maken voor uw managers, inclusief welke aangepaste afmetingen en metriek belangrijk zijn.
 
 ### Reclame
 
