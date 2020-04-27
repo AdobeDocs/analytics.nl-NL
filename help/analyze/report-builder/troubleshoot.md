@@ -25,7 +25,7 @@ U zult het volgende neveneffect ervaren wanneer het openen van een werkboek ARB 
 * Als u een ARB- verzoek met classificatie met de rechtermuisknop aanklikt, zullen de de contextmenu&#39;s van de Bouwer van het Rapport (geef verzoek uit, voeg afhankelijk verzoek toe...) niet verschijnen.
 * Als u Vernieuwen allen uitvoert, door de derde knoop te klikken, of door een reeks verzoeken van de vorm van de Manager van het Verzoek te verfrissen, zal het classificatieverzoek zonder fout uitvoeren. De classificatiewaarden worden echter niet opgemaakt.
 * U kunt het verzoek nog uitgeven door de Manager van het Verzoek te openen, dan die van rij aan rij gaat, tot het de juiste verzoek bereikt.
-* Als u de aanvraag bewerkt en alle parameters ongewijzigd laat en vervolgens op Voltooien klikt, wordt de reactie op de juiste wijze weggeschreven. Als u het verzoek bewerkt, wordt het probleem opgelost omdat de parameters voor de indeling van reacties opnieuw worden geserialiseerd. Er is dus een tijdelijke oplossing, hoewel het tijdrovend is.
+* Als u de aanvraag bewerkt en alle parameters ongewijzigd laat en vervolgens op Voltooien klikt, wordt de reactie op de juiste wijze weggeschreven. Als u het verzoek bewerkt, wordt het probleem opgelost wanneer de parameters voor de indeling van de respons opnieuw worden geserialiseerd. Er is dus een tijdelijke oplossing, hoewel het tijdrovend is.
 
 ## Verificatiekwesties in Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
 
