@@ -2,7 +2,7 @@
 title: Specifieke data in de analyse uitsluiten
 description: Tips voor het uitsluiten van datums of datumbereiken als u deze niet wilt opnemen in rapporten.
 translation-type: tm+mt
-source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
+source-git-commit: 29f6b302fecd18a9be70c2246c0d1227af82d00f
 
 ---
 
@@ -45,6 +45,10 @@ Zodra u hebt gemaakt exclusief segment, kunt u het precies gebruiken aangezien u
 U kunt het segment &#39;Betrokken dagen&#39; en het segment &#39;Betrokken dagen uitsluiten&#39; in een rapport toepassen om ze naast elkaar te vergelijken. Sleep beide segmenten boven of onder een metrische waarde om ze te vergelijken:
 
 ![Beide segmenten](../assets/affected_and_exclude.png)
+
+Als u geen nul in uw lijst of visualisaties (veroorzakend dips) wilt tonen, laat **[!UICONTROL Interpret zero as no value]** onder kolommontages toe.
+
+![Voorvertoning nul](../assets/interpret_zero.jpg)
 
 ### Pas het uitsluitingssegment op een project toe
 
