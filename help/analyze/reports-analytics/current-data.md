@@ -40,7 +40,7 @@ Metrische gegevens worden in een van de volgende drie tijdframes weergegeven. Kl
 
 Omdat sommige gegevens die op de huidige gegevensmening worden getoond niet volledig zijn verwerkt, kunt u een verschil tussen waarden zien die op de huidige gegevensmening en de gefinaliseerde mening worden gemeld. Bij trended-rapporten ligt het gegevensverschil doorgaans binnen 1%.
 
-## Berekende cijfers
+## Berekende statistieken
 
 Aangezien berekende metriek kunnen worden tot stand gebracht gebruikend metriek die verschillende latentie hebben, zouden sommige recente waarden kunnen worden berekend gebruikend onvolledige gegevens in de huidige gegevensmening.
 
