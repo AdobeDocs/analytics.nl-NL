@@ -4,7 +4,7 @@ title: De werkbalk Report Builder
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
