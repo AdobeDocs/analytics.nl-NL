@@ -3,7 +3,7 @@ description: Vermeldt de huidige en vorige releases en de bijbehorende functies.
 title: Nieuw in de Bouwer van het Rapport
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
