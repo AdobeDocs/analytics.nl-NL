@@ -4,7 +4,7 @@ title: Upgrade Report Builder
 topic: Report builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
