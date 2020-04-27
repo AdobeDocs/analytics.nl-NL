@@ -294,7 +294,7 @@ Zie de handleiding [](https://marketing.adobe.com/resources/help/en_US/reference
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Primair rapport</strong></td> 
-   <td class="chdesc stentry"> Rapport voor de primaire dimensie van het rapport in real time en voor zijn metrisch. Geeft een trendlijn voor dat element voor de geselecteerde tijdwaaier aan. Het metrische totaal vertegenwoordigt de som voor de volledige trendlijn. De pijl geeft aan of het item sterk wint, opraakt, plat, verloren of sterk verliest. </td> 
+   <td class="chdesc stentry"> Rapport voor de primaire dimensie van het rapport in real time en voor zijn metrisch. Geeft een trendlijn voor dat element voor de geselecteerde tijdwaaier aan. Het metrische totaal vertegenwoordigt de som voor de volledige trendlijn. De pijl geeft aan of het item sterk wint, opraakt, plat is, verloren is of sterk verloren is. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Dialoogvenster Zoeken</strong></td> 
