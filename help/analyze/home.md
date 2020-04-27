@@ -33,7 +33,7 @@ Deze handleiding bevat productdocumentatie en zelfhulp voor de volgende rapporta
 
 ## Belangrijke bronnen voor analyse
 
-* [Contact opnemen met de klantenservice](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contact opnemen met de klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html)
 * [Analysereforum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
