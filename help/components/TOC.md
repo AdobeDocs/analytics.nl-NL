@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analytics Components
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
    + [Veelgestelde vragen](c-segmentation/seg-transition.md)
    + [Nieuwe functies in segmentatie van analysemogelijkheden](c-segmentation/whats-new-segmentation.md)
    + [Overgangshandleiding voor ad-hocanalyse](c-segmentation/seg-transition-ad-hoc.md)
-+ Berekende cijfers {#calculated-metrics}
++ Berekende statistieken {#calculated-metrics}
    + [Berekende en geavanceerde berekende (afgeleide) meetwaarden](c-calcmetrics/cm-overview.md)
    + Workflow voor berekende statistieken {#calcmetric-workflow}
       + [Workflow voor berekende metriek](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
@@ -66,7 +66,7 @@ source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
       + [Berekende totalen van metriek](c-calcmetrics/cm-totals.md)
    + [Afleiden van gegevens die door gebeurtenissen worden beïnvloed](c-calcmetrics/cm-events.md)
    + [Veelgestelde vragen](c-calcmetrics/cm-transition.md)
-   + [Hoe kan ik-video&#39;s](c-calcmetrics/cm-videos.md)
+   + [Instructievideo&#39;s](c-calcmetrics/cm-videos.md)
 + Virtuele rapportsets {#virtual-report-suites}
    + [Overzicht van virtuele-rapportsuites](vrs/vrs-about.md)
    + [Virtual Report Suite Component Curation](vrs/vrs-components.md)
@@ -288,6 +288,7 @@ source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
       + [Kleuraweergaven](c-variables/c-metrics/metrics-cart-views.md)
       + [Afbeeldingen](c-variables/c-metrics/metrics-checkouts.md)
       + [Doorklikken](c-variables/c-metrics/metrics-click-throughs.md)
+      + [Inhoudssnelheid](c-variables/c-metrics/metrics-content-velocity.md)
       + [Aangepaste afmetingen](c-variables/c-metrics/metrics-custom.md)
       + [Dagelijkse unieke bezoekers](c-variables/c-metrics/metrics-daily-unique-visitors.md)
       + [Berichten](c-variables/c-metrics/metrics-entries.md)
