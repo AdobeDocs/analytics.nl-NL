@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Handleiding voor analytische implementatie
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
+source-git-commit: 31efa43043120b68de90e817a7980addbe2ded39
 
 ---
 
@@ -197,3 +197,5 @@ source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
    + [Pakketmonitoren](validate/packet-monitor.md)
    + [Hash-botsingen](validate/hash-collisions.md)
 + [Veelgestelde vragen](faq.md)
++ XDM-gegevens gebruiken met Analytics {#aep-edge}
+   + [AEP Web SDK gebruiken](aep-edge/xdmoverview.md)
