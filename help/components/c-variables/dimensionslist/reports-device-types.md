@@ -4,7 +4,7 @@ title: Apparaattypen
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,5 +21,5 @@ Deze dimensie gebruikt dynamische apparatengegevens die voortdurend worden bijge
 
 De gegevens voor dit rapport worden gevuld met de userAgent-tekenreeks van de bezoeker.
 
->[!Nofferte]
+>[!NOTE]
 >Alleen wijzigingen die zijn aangebracht in een bestaande mobiele id, worden met terugwerkende kracht doorgevoerd. Als het apparaat nieuw is en nog geen mobiele id heeft, beginnen de enige gegevens die aan dit apparaat worden gekoppeld op de datum waarop een id aan de apparaatdatabase wordt toegevoegd.
