@@ -3,7 +3,7 @@ description: Het lusje van het Gebruik van de Reeks van het Rapport verstrekt de
 title: Gebruik van rapportsuite weergeven
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,7 +16,7 @@ Het lusje van het Gebruik van de Reeks van het Rapport verstrekt de gegevens van
 
 >[!IMPORTANT]
 >
->Als een rapportsuite niet is [gekoppeld aan een Experience Cloud Organisation](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html), worden de gebruiksgegevens niet weergegeven in dit dashboard. Een factureringsid kan ook worden gekoppeld aan meerdere Experience Cloud Orgs. er is niet altijd een 1:1-relatie tussen een org en een facturerings-id.
+>Als een rapportsuite niet is [gekoppeld aan een Experience Cloud Organisation](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html), worden de gebruiksgegevens niet weergegeven in dit dashboard. Een factureringsid kan ook worden gekoppeld aan meerdere Experience Cloud Orgs. er is niet altijd een 1:1-relatie tussen een org en een facturerings-id.
 
 Het dashboard Gebruik rapportsuite
 
