@@ -3,7 +3,7 @@ description: In dit document wordt beschreven wat u in Adobe Analytics moet doen
 title: Adobe Analytics en CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -38,8 +38,8 @@ Zie Rapportsuite-gegevens [voor](/help//admin/c-data-governance/gdpr-setup-repor
 ## Vereisten
 
 * Verken uzelf met [GDPR-terminologie.](/help/admin/c-data-governance/gdpr-terminology.md)
-* Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)
-* Wijs een Adobe Analytics-rapportsuite die u wilt instellen voor gegevensbeheer toe aan [uw Experience Cloud-organisatie.](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)
+* Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)
+* Wijs een Adobe Analytics-rapportsuite die u wilt instellen voor gegevensbeheer toe aan [uw Experience Cloud-organisatie.](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)
 * Plaats een beleid van het gegevensbehoud voor elke rapportreeks zodat de Schrapping CCPA en de verzoeken van de Toegang kunnen worden geëerd.
 
    Adobe Analytics kan u niet helpen bij het verwerken van verzoeken naar de API Privacy Services, dat wil zeggen, het verwerken van verzoeken om toegang of verwijdering die u van uw eindgebruikers ontvangt, als de bewaarperiode voor gegevens niet is ingesteld in Adobe Analytics. Neem contact op met de succesmanager van de klant om de periode voor het bewaren van gegevens in te stellen.
