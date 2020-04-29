@@ -3,7 +3,7 @@ description: Vergelijkt Ad hoc de terminologie en de taken van de Analyse aan de
 title: Analyse van werkruimte in vergelijking met ad-hocanalyse
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ Vergelijkt Ad hoc de terminologie en de taken van de Analyse aan de Werkruimte v
 
 De Werkruimte van de analyse brengt veel van de Ad hoc functionaliteit van de Analyse in het browser werkschema. Hoewel sommige terminologie en eigenschappen het zelfde tussen de producten blijven, zijn er sommige nieuwe termijnen en benaderingen aan analyse die in de Werkruimte van de Analyse worden geïntroduceerd.
 
-Voor een technische vergelijking van de belangrijkste kenmerken en systeemvereisten tussen deze twee producten, ga [hier](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html).
+Voor een technische vergelijking van de belangrijkste kenmerken en systeemvereisten tussen deze twee producten, ga [hier](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html).
 
 ## Vergelijking van sleutelterminologie {#section_6109406B83B043A18E46D38F130B1D2E}
 
