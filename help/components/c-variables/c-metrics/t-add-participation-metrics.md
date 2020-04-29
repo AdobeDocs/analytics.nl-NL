@@ -4,7 +4,7 @@ title: Metrische gegevens voor deelname toevoegen
 topic: Metrics
 uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,7 +15,7 @@ Stappen die beschrijven hoe u participatiemetriek kunt toevoegen.
 
 Deelname moet zijn [ingeschakeld](/help/components/c-variables/c-metrics/metrics-participation.md) voor gebeurtenissen (1-100) in de beheerfuncties voordat u deze aan een rapport kunt toevoegen.
 
-U kunt participatiemetriek in de [Berekende Bouwer van Metriek](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) ook tot stand brengen.
+U kunt participatiemetriek in de [Berekende Bouwer van Metriek](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/participation-metric.html) ook tot stand brengen.
 
 1. Meld u aan en navigeer naar conversierapporten of verkeersrapporten waarop u participatiemetriek hebt aangevraagd.
 1. Klik op **[!UICONTROL Add Metrics]**.
