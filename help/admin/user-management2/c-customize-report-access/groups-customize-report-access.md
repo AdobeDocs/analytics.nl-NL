@@ -6,7 +6,7 @@ title: Toegang tot rapporten aanpassen - overzicht
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: ''
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
 
 U kunt groepsmachtigingen aanpassen aan Analytics-programma&#39;s, rapportsuite-gereedschappen, meetgegevens en dimensies.
 
@@ -59,12 +59,12 @@ U kunt bijvoorbeeld een groep maken met toegang tot meerdere analyseprogramma&#3
    <td colname="col2"> <p>U kunt machtigingen aanpassen om toegang tot afmetingen op te nemen of uit te sluiten (naast metriek). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Alle huidige afmetingen en metriek binnen aangepaste groepen zijn automatisch gemigreerd naar de nieuwe categorieën. Als metriek is ingeschakeld voor een bestaande groep, krijgt deze standaard alle nieuw toegestane afmetingen (eVars en inhoud behouden) en maatstaven. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Machtigingen van de importmodule voor classificaties (voorheen SAINT): Toegang tot classificaties wordt bepaald door toegang tot de <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html"> variabele</a> waarop de classificatie is gebaseerd. </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Machtigingen van de importmodule voor classificaties (voorheen SAINT): Toegang tot classificaties wordt bepaald door toegang tot de <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html"> variabele</a> waarop de classificatie is gebaseerd. </li> 
     </ul> <p>Zie <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Dimensie-machtigingen</a>aanpassen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Wordt alleen aanbevolen voor nieuwe klanten of klanten met bedrijven <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html"> die zijn ingericht in de Experience Cloud</a>. Er is een migratie gepland voor bestaande klanten van <span class="keyword"> Analytics</span> naar het <span class="keyword"> Experience Cloud</span> -systeem voor identiteitsbeheer. </p> <p>Meer informatie is beschikbaar in de Migratie van gebruikers van de Analyse aan de Console <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"></a>Admin. </p> </td> 
+   <td colname="col1"> <p><a href="https://helpx.adobe.com/nl/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
+   <td colname="col2"> <p>Wordt alleen aanbevolen voor nieuwe klanten of klanten met bedrijven <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html"> die zijn ingericht in de Experience Cloud</a>. Er is een migratie gepland voor bestaande klanten van <span class="keyword"> Analytics</span> naar het <span class="keyword"> Experience Cloud</span> -systeem voor identiteitsbeheer. </p> <p>Meer informatie is beschikbaar in de Migratie van gebruikers van de Analyse aan de Console <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"></a>Admin. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inhoud behouden </p> </td> 
