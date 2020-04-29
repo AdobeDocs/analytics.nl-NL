@@ -3,7 +3,7 @@ description: De virtuele rapportsuites kunnen worden gebogen om component.in de 
 title: Virtual Report Suite Component Curation
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 De virtuele rapportsuites kunnen worden gebogen om component.in de Werkruimte van de Analyse te omvatten en uit te sluiten.
 
->[!NOTE] Er zijn wijzigingen aangebracht in welke componentbeheerders en niet-beheerders kunnen zien in samengevoegde Workspace-projecten en beheerde virtuele rapporten (VRS&#39;s). Eerder kon iedereen niet-gekromde componenten zien door te klikken **[!UICONTROL Show all Components]**. Met de [bijgewerkte curvaring](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) kunt u nauwkeuriger bepalen welke componenten zichtbaar zijn.
+>[!NOTE] Er zijn wijzigingen aangebracht in welke componentbeheerders en niet-beheerders kunnen zien in samengevoegde Workspace-projecten en beheerde virtuele rapporten (VRS&#39;s). Eerder kon iedereen niet-gekromde componenten zien door te klikken **[!UICONTROL Show all Components]**. Met de [bijgewerkte curvaring](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) kunt u nauwkeuriger bepalen welke componenten zichtbaar zijn.
 
 U kunt als volgt componentcuratie inschakelen:
 
@@ -64,4 +64,4 @@ Gebruik componentengroepen om bulkcomponenttoevoegingen aan uw virtuele rapportr
 
 ## Werking werkruimte {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Voor meer informatie over kromming in de Werkruimte van de Analyse, zie [Kromme en deel een Project](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html).
+Voor meer informatie over kromming in de Werkruimte van de Analyse, zie [Kromme en deel een Project](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html).
