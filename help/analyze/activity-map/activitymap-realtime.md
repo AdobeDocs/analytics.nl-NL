@@ -3,7 +3,7 @@ description: Met analyses van realtime pagina's (Live Mode) kunt u resultaten be
 title: Analyse van real-time (Live) pagina
 topic: Activity map
 translation-type: tm+mt
-source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -39,6 +39,6 @@ Deze toename wordt weerspiegeld in alle Adobe Analytics-services en -hulpprogram
 * Voor live stream, real-time rapporten en API-aanvragen en huidige gegevens voor verkeersvariabelen worden alleen hits met een aanvullende gegevens-id vertraagd.
 * Voor huidige gegevens over conversiemetriek, voltooide gegevens, en gegevensvoer, worden alle klappen een extra 5-7 minuten vertraagd.
 
-Houd er rekening mee dat de latentieverhoging begint nadat u de [identiteitsservice](https://marketing.adobe.com/resources/help/en_US/mcvid/)hebt geïmplementeerd, zelfs als u deze integratie niet volledig hebt geïmplementeerd.
+Houd er rekening mee dat de latentieverhoging begint nadat u de [identiteitsservice](https://docs.adobe.com/content/help/en/id-service/using/home.html)hebt geïmplementeerd, zelfs als u deze integratie niet volledig hebt geïmplementeerd.
 
 Meer informatie [hier](/help/analyze/activity-map/activitymap-standard-live.md).
