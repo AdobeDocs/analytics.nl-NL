@@ -5,7 +5,7 @@ title: Virtuele rapportsuites maken
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -59,7 +59,7 @@ Voordat u virtuele rapportsuites gaat maken, moet u rekening houden met een aant
   </tr> 
   <tr> 
    <td colname="col1"> Segmenten </td> 
-   <td colname="col2"> <p>U kunt slechts één segment toevoegen of segmenten <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  ></a>stapelen. </p> <p> <p>Opmerking:  Wanneer het stapelen van twee segmenten, worden zij aangesloten bij door EN verklaring. Dit kan niet in een OF verklaring worden veranderd. </p> </p> <p>Wanneer u probeert om een segment te schrappen of te wijzigen dat momenteel in een virtuele rapportreeks wordt gebruikt, toont een waarschuwing. </p> </td> 
+   <td colname="col2"> <p>U kunt slechts één segment toevoegen of segmenten <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html"  ></a>stapelen. </p> <p> <p>Opmerking:  Wanneer het stapelen van twee segmenten, worden zij aangesloten bij door EN verklaring. Dit kan niet in een OF verklaring worden veranderd. </p> </p> <p>Wanneer u probeert om een segment te schrappen of te wijzigen dat momenteel in een virtuele rapportreeks wordt gebruikt, toont een waarschuwing. </p> </td> 
   </tr> 
  </tbody> 
 </table>
