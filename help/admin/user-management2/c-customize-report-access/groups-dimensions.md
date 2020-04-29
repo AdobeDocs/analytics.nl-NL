@@ -6,7 +6,7 @@ title: Dimensie-machtigingen aanpassen
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,9 +34,9 @@ Lees de volgende informatie over de categorie Dimensie voor machtigingen.
 * Video- en mobiele rapporten zijn dimensies en andere rapporten over analysemogelijkheden (Experience Manager, Advertising Cloud, Social, enzovoort.)
 * Er zijn plakrapporten beschikbaar als een gebruiker toegang heeft tot de bovenliggende dimensie.
 * Alle huidige afmetingen en metriek binnen aangepaste groepen zijn automatisch gemigreerd naar de nieuwe categorieën. Als metriek is ingeschakeld voor een bestaande groep, krijgt deze standaard alle nieuw toegestane afmetingen (eVars en inhoud behouden) en maatstaven.
-* Machtigingen van de importmodule voor classificaties (voorheen SAINT): De toegang tot classificaties wordt bepaald door toegang tot de [variabele](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html) waarop de classificatie is gebaseerd.
+* Machtigingen van de importmodule voor classificaties (voorheen SAINT): De toegang tot classificaties wordt bepaald door toegang tot de [variabele](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) waarop de classificatie is gebaseerd.
 
-Voor meer informatie, zie [Veelgestelde Vragen over de Veranderingen](https://marketing.adobe.com/resources/help/en_US/reference/permissions_faq.html)van de Toestemming.
+Voor meer informatie, zie de toestemmingsveranderingen [van de](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/permissions-changes.html)Gebruiker en van de Groep.
 
 **Afmetingen aanpassen**
 
@@ -55,15 +55,15 @@ De volgende items zijn dimensies die u kunt toestaan.
    <td colname="col2"> <p>eVars 1-250 zijn afzonderlijk toegestaan. Vars zijn aangepaste conversievariabelen die u gebruikt om de succeswaarden van de segmentconversie in aangepaste rapporten te segmenteren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html"> Props </a> </p> </td> 
-   <td colname="col2"> <p>Props zijn variabelen voor aangepast verkeer. </p> <p>Zie <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html"> Verkeersprofielen en conversie-eVars </a> in Analytics Implementation. </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html"> Props </a> </p> </td> 
+   <td colname="col2"> <p>Props zijn variabelen voor aangepast verkeer. </p> <p>Zie <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html"> Verkeersprofielen en conversie-eVars </a> in Analytics Implementation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/hierN.html"> Hiërarchie </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Hiërarchie </a> </p> </td> 
    <td colname="col2"> <p> De hiërarchische variabele (hierN) bepaalt de locatie van een pagina in de hiërarchie of de paginastructuur van uw site. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> Net als bij de werking van List Props staan lijstvariabelen meerdere waarden binnen dezelfde afbeeldingsaanvraag toe. </p> </td> 
   </tr> 
   <tr> 
@@ -71,19 +71,19 @@ De volgende items zijn dimensies die u kunt toestaan.
    <td colname="col2"> <p>Verwijst naar standaardafmetingen (out-of-the-box) in Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/"> AEM </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://helpx.adobe.com/support/experience-manager.html"> AEM </a> </p> </td> 
    <td colname="col2"> <p>Adobe Experience Manager </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/media-optimizer/"> AMO </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://helpx.adobe.com/support/advertising-cloud.html"> AMO </a> </p> </td> 
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/"> Activiteitenkaart </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html"> Activiteitenkaart </a> </p> </td> 
    <td colname="col2"> <p> Rapportageafmetingen activiteitenoverzicht: Pagina Activiteitenkaart; Koppeling naar activiteitenoverzicht; Activiteitenkaartgebied; Koppeling activiteitenoverzicht per regio; Activiteitenkaart XY </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/"> Mobiel </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Mobiel </a> </p> </td> 
    <td colname="col2"> <p>Adobe Mobile Services </p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ De volgende items zijn dimensies die u kunt toestaan.
    <td colname="col2"> <p>Deze partnerintegratie is niet meer actief. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html"> Nielsen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>Deze partnerintegratie is niet meer actief. </p> </td> 
   </tr> 
   <tr> 
