@@ -4,7 +4,7 @@ title: Secties site
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,14 +13,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Hiermee geeft u de gebieden van uw site weer die het meest door uw bezoekers worden geopend. Sitesecties kunnen groepen producten bevatten, vergelijkbaar met categorieën die u definieert. U hebt bijvoorbeeld een groep Camera&#39;s pagina&#39;s, een groep Computers, enzovoort. De gegevens voor het Rapport van de Secties van de Plaats van de Omzetting worden ingevoerd van het Rapport van de Sectie van de Plaats in de groep van het Verkeer, die zijn informatie van de kanaalvariabele in het volgen code ontvangt. U kunt dit rapport gebruiken om de grootste invloed op sitestatistieken van items in verschillende sitesecties te identificeren.
 
-* Dit rapport verwijst rechtstreeks naar gegevens van de variabele [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) die op uw website is geïmplementeerd.
+* Dit rapport verwijst rechtstreeks naar gegevens van de variabele [s.channel](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/channel.html) die op uw website is geïmplementeerd.
 * Dit rapport kan zowel in trended- als gerangschikte notaties worden weergegeven.
 * Dit rapport kan een onderzoeksfilter gebruiken om van specifieke lijnpunten de plaats te bepalen.
 * classificaties kunnen in dit rapport worden gebruikt, zodat u de naam van lijnitems kunt wijzigen en lijnitems kunt consolideren.
 * Correlaties kunnen worden gemaakt met elke andere verkeersvariabele via Admin Tools.
 * Dit rapport kan de volgende metriek gebruiken:
 
-   * **Pageviews**: het aantal keren dat de [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) -variabele of URL is gedefinieerd (ingesteld als standaard-metrisch)
+   * **Pageviews**: het aantal keren dat de [pageName](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagename.html) -variabele of URL is gedefinieerd (ingesteld als standaard-metrisch)
 
    * **Alle maateenheden** voor plakken: Bezoeken, Gemiddelde pagina Diepte, Gemiddelde Tijd die op Pagina wordt besteed, Ingangen, Uitgangen, Opnieuw laden en Enige Toegang
    * Afhankelijk van de instellingen van uw organisatie en rapportenpakket: Voor dit rapport kunnen dagelijkse, wekelijkse, maandelijkse en driemaandelijkse unieke bezoekers worden ingeschakeld.
