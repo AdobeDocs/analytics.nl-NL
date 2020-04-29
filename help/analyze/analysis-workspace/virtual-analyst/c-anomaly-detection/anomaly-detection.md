@@ -3,7 +3,7 @@ description: U kunt gegevensanomalieën contextafhankelijk weergeven en analyser
 title: Overzicht van anomalische detectie
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -31,7 +31,7 @@ Voorbeelden van anomalieën die u kunt onderzoeken zijn:
 * Spikes in videobuffergebeurtenissen
 * Spikes in lage videobitsnelheden
 
-Zowel Anomaly Detection als [Contribution Analysis](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html) zijn kernwerkstromen in de Werkruimte van de Analyse. U kunt de Analyse van de Bijdrage tegen om het even welke dagelijkse anomalie in werking stellen en het resultaat in uw project van de Werkruimte van de Analyse inbedden.
+Zowel Anomaly Detection als [Contribution Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) zijn kernwerkstromen in de Werkruimte van de Analyse. U kunt de Analyse van de Bijdrage tegen om het even welke dagelijkse anomalie in werking stellen en het resultaat in uw project van de Werkruimte van de Analyse inbedden.
 
 Het algoritme voor de detectie van anomalieën in de analysewerkruimte omvat
 
