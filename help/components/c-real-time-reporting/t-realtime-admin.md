@@ -4,7 +4,7 @@ title: Rapporten in real time configureren
 topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -34,7 +34,7 @@ Het opzetten van rapporten in real time binnen [!UICONTROL Reports & Analytics] 
 
    ![](assets/real_time_admin.png)
 
-   Zie [Ondersteunde metriek en afmetingen](/help/components/c-real-time-reporting/realtime-metrics.md)voor informatie over ondersteunde realtime metriek en afmetingen.
+   Zie [Ondersteunde metriek en afmetingen](/help/components/c-real-time-reporting/realtime-metrics.md)voor informatie over ondersteunde real-time metriek en afmetingen.
 
    Als u classificaties hebt gemaakt, worden deze ingesprongen weergegeven onder de dimensie waarvoor ze zijn gedefinieerd:
 
@@ -54,6 +54,6 @@ Het opzetten van rapporten in real time binnen [!UICONTROL Reports & Analytics] 
 
 1. Klik **[!UICONTROL Save]** of **[!UICONTROL Save and View Report]**.
 
-   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van rapporten in real time, zie [Looppas een Rapport](https://marketing.adobe.com/resources/help/en_US/sc/user/reports_realtime.html)in real time.
+   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van rapporten in real time, zie [Looppas een Rapport](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html)in real time.
 
 1. Door gebrek, hebben alle gebruikers toegang tot Echt - tijd rapporten.
