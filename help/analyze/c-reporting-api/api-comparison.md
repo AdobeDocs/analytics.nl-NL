@@ -3,7 +3,7 @@ description: Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen 
 title: Analytics Reporting API Comparison
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de onder
    <td colname="col5"> Volledig verwerkte, afgeronde gegevens die worden gebruikt om grote gegevensuitvoer te trekken. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > Latentie</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > Latentie</a> </p> </td> 
    <td colname="col2"> 30-90 minuten </td> 
    <td colname="col3"> * Seconden -10 minuten </td> 
    <td colname="col4"> Seconden -10 minuten </td> 
@@ -47,7 +47,7 @@ Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de onder
    <td colname="col5"> Volledig </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > Rapportageinterfaces</a> </td> 
+   <td colname="col1"> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html"  > Rapportageinterfaces</a> </td> 
    <td colname="col2"> Rapporten en analyses, Report Builder, API </td> 
    <td colname="col3"> Rapport in realtime in Rapporten &amp; Analytics, Report Builder, API </td> 
    <td colname="col4"> Alleen API </td> 
@@ -86,7 +86,7 @@ Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de onder
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Webservices</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Real-Time rapporten</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Overzicht van Livestream</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
