@@ -4,7 +4,7 @@ title: Deelname
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -20,7 +20,7 @@ De metriek van de participatie heeft twee montages per omzettingsgebeurtenis:
 * **Uitgeschakeld**: De standaardstatus van elke conversiegebeurtenis. Deelnamegegevens worden niet verzameld voor deze gebeurtenis.
 * **Ingeschakeld**: Deelnamegegevens worden verzameld voor deze gebeurtenis.
 
->[!NOTE] U kunt deelname inschakelen voor maximaal 100 aangepaste gebeurtenissen. Buiten dat, kunt u deelnemingsmetriek in de [Berekende Bouwer van Metriek](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) tot stand brengen.
+>[!NOTE] U kunt deelname inschakelen voor maximaal 100 aangepaste gebeurtenissen. Buiten dat, kunt u deelnemingsmetriek in de [Berekende Bouwer van Metriek](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/participation-metric.html) tot stand brengen.
 
 Wanneer deze optie is ingeschakeld, zijn deelnamemetriek automatisch beschikbaar in alle conversierapporten. Nochtans, kunnen de metriek van de participatie ook in specifieke verkeersrapporten op uw verzoek worden bekeken. U kunt naar keuze om deelnemingsmetriek verzoeken beschikbaar in bepaalde rapporten van het douaneverkeer zijn.
 
