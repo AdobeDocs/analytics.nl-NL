@@ -3,7 +3,7 @@ description: 'null'
 title: API's die door de migratie worden beïnvloed
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,19 +19,19 @@ Adobe migreert alle aanmeldingsbedrijven voor Analytics op een manier van [!DNL 
 De volgende API-methoden in versie 1.3 en v1.4 van de Admin API worden niet meer ondersteund wanneer u begint met de migratie van gebruikers:
 
 * Company.GetLoginKey
-* Machtigingen.AddLogin
-* Machtigingen.Verifiëren
-* Machtigingen.DeleteGroup
-* Machtigingen.Aanmelding verwijderen
-* Machtigingen.GetGroup
-* Machtigingen.GetGroup
-* Machtigingen.GetLogin
-* Machtigingen.GetLogins
-* Machtigingen.GetReportSuitegroups
-* Machtigingen.RemoveLoginSegment
-* Machtigingen.SaveGroup
-* Machtigingen.Aanmelding opslaan
-* Machtigingen.GetLoginSegment
+* Permissions.AddLogin
+* Permissions.Authenticate
+* Permissions.DeleteGroup
+* Permissions.DeleteLogin
+* Permissions.GetGroup
+* Permissions.GetGroups
+* Permissions.GetLogin
+* Permissions.GetLogins
+* Permissions.GetReportSuiteGroups
+* Permissions.RemoveLoginSegment
+* Permissions.SaveGroup
+* Permissions.SaveLogin
+* Permissions.GetLoginSegment
 
 ## Acties die u kunt uitvoeren {#section-8b0b89a862614f729ebdbe092ce99027}
 
@@ -44,5 +44,5 @@ Voor aanvullende informatie:
 * [Algemene informatie over gebruikersbeheer](https://helpx.adobe.com/enterprise/help/users.html)
 * [Gebruikerbeheer-API&#39;s via adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [Gebruikersbeheer-API-forum](https://forums.adobe.com/community/umapi/overview)
-* [Migratie van toegang en beheer van analysegebruikers naar de cloud](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+* [Migratie van toegang en beheer van analysegebruikers naar de cloud](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
