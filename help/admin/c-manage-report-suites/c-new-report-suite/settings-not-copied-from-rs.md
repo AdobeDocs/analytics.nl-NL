@@ -4,7 +4,7 @@ title: Instellingen die niet uit een bronrapportsuite zijn gekopieerd
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,7 +25,7 @@ De volgende montages worden niet gekopieerd van malplaatje of gedupliceerde rapp
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Indelingsgegevens (classificatiestructuur wordt gekopieerd) </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html"> Documentatie van importmodule voor classificaties (geüpload)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> Documentatie van importmodule voor classificaties (geüpload)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opname van transactie-id inschakelen </p> </td> 
@@ -68,7 +68,7 @@ De volgende montages worden niet gekopieerd van malplaatje of gedupliceerde rapp
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bezoekerskaartbeheer </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html"> Upgrade naar activiteitenoverzicht</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Upgrade naar activiteitenoverzicht</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA-regels </p> </td> 
