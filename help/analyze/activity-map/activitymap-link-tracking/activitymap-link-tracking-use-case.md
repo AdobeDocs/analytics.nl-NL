@@ -4,7 +4,7 @@ title: Verschillende koppelingen die verwijzen naar dezelfde koppelings-id en -r
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -44,11 +44,11 @@ Als voorbeeld, laten wij zeggen u veelvoudige &quot;Kopen&quot;verbindingen hebt
  </tbody> 
 </table>
 
-Hoe kunt u de webpagina en de codering aanpassen om de waarden van deze koppelingen te onderscheiden? U hebt drie opties: U kunt de identiteitskaart van de Verbinding aanpassen, of het gebied aanpassen, of het dossier van de Module AppMeasurement ActivityMap aanpassen.
+Hoe kunt u uw webpagina en tags aanpassen om de waarden van deze koppelingen te onderscheiden? U hebt drie opties: U kunt de identiteitskaart van de Verbinding aanpassen, of het gebied aanpassen, of het dossier van de Module AppMeasurement ActivityMap aanpassen.
 
 ## Koppelings-id aanpassen met s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Door een unieke object-id te maken voor een koppeling of koppelingslocatie op een pagina, kunt u de activiteitstoewijzing verbeteren of Activiteitenkaart gebruiken om te rapporteren over een koppelingstype of -locatie, in plaats van de koppelings-URL. Klik [hier](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) voor meer informatie over de variabele s_objectID.
+Door een unieke object-id te maken voor een koppeling of koppelingslocatie op een pagina, kunt u de activiteitstoewijzing verbeteren of Activiteitenkaart gebruiken om te rapporteren over een koppelingstype of -locatie, in plaats van de koppelings-URL. Klik [hier](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) voor meer informatie over de variabele s_objectID.
 
 >[!IMPORTANT]
 >
