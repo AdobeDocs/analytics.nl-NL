@@ -2,18 +2,12 @@
 title: Analyses implementeren voor digitale assistenten
 description: Adobe-analysemogelijkheden implementeren op digitale assistenten, zoals Amazon Alexa of Google Home.
 translation-type: tm+mt
-source-git-commit: d970f2428e24c0747ae9cac9b832d506a0b13854
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Analyses implementeren voor digitale assistenten
-
-<!-- 
-https://wiki.corp.adobe.com/display/mobileanalytics/Analytics+for+Digital+Assistants+Whitepaper
-https://marketing.adobe.com/resources/help/en_US/sc/implement/digital-assistants-white-paper.html
-Ticket: https://jira.corp.adobe.com/browse/AN-157750
--->
 
 Met de recente ontwikkelingen op het gebied van cloud computing, machinaal leren en de verwerking van natuurlijke talen maken digitale assistenten deel uit van het dagelijks leven. Consumenten beginnen met hun apparaten te praten en verwachten dat ze op een mensachtige manier begrijpen en reageren. Naarmate deze platforms meer ingang vinden, kunnen merken hun diensten op dezelfde realistische en levensechte manieren aan consumenten aanbieden. De consument kan bijvoorbeeld vragen stellen:
 
