@@ -4,7 +4,7 @@ title: Verkeersbronnen
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -94,7 +94,7 @@ Als een bezoeker bijvoorbeeld op een koppeling van Site A klikt en op uw site ar
 
 Domeinen of URL&#39;s die geen deel uitmaken van die gedefinieerde domeinen en URL&#39;s, worden als referentie beschouwd. Webpagina A en webpagina B worden bijvoorbeeld toegevoegd aan het interne URL-filter, maar webpagina C niet. In dit geval wordt webpagina C beschouwd als een referentie.
 
-Zie [Interne URL-filters](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) in de [!DNL Admin Console] Help voor meer informatie.
+Zie [Interne URL-filters](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/internal-url-filter-admin.html) in de [!DNL Admin Console] Help voor meer informatie.
 
 >[!NOTE] Marketingrapporten en analyses registreren een verwijzend domein als e-mail wanneer bezoekers op een e-mailberichtenkoppeling met het protocol klikken [!DNL imap://] of [!DNL mail://] op uw site aankomen. Alles die bijvoorbeeld afkomstig [!DNL https://mail.yahoo.com] is, wordt niet als een e-mailreferentie geteld omdat het protocol [!DNL https://]is. E-mails van Outlook worden gerapporteerd in de regel Typed/Bookmarked, terwijl elke referentie met een HTTP-protocol waarbij het domein een bekende zoekmachine is, wordt gerapporteerd in de regel Zoekmachine.
 
