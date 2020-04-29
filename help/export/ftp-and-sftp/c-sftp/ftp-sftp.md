@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: Secure File Transfer Protocol - overzicht
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -17,7 +17,7 @@ SFTP is een veilig protocol voor het overbrengen van gegevens dat ervoor zorgt d
 
 Dit betekent dat de servers van Adobe het bestand naar uw servers &quot;duwen&quot;. In wezen leveren we het aan uw eindpunt.
 
-[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) en [Analytics Data Feed](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html) kan gegevens via SFTP duwen.
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) en [Analytics Data Feed](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-overview.html) kan gegevens via SFTP duwen.
 
 De volgende analysehulpmiddelen **kunnen geen** gegevens via SFTP duwen:
 
