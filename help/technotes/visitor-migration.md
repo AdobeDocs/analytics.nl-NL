@@ -5,7 +5,7 @@ title: Bezoekersmigratie
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,11 +16,11 @@ Bezoekersmigratie is een proces waarbij het cookie van de bezoeker-id van het en
 
 Met de migratie van bezoekers kunt u de identificatie-cookies van bezoekers behouden wanneer u domeinen voor gegevensverzameling wijzigt. Domeinen voor gegevensverzameling kunnen om de volgende redenen worden gewijzigd:
 
-* Overstappen van `2o7.net` naar `omtrdc.net` ( [regionale gegevensverzameling](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)).
+* Overstappen van `2o7.net` naar `omtrdc.net` ( [regionale gegevensverzameling](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
 
-* U implementeert de [dienst](https://marketing.adobe.com/resources/help/en_US/mcvid/) van identiteitskaart van de Bezoeker van de Wolk van de Ervaring en gaat van een CNAME/het domein van de eerste-partijgegevensinzameling aan `2o7.net` of `omtrdc.net` (de [Regionale Inzameling](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)van Gegevens)
+* U implementeert de [dienst](https://docs.adobe.com/content/help/en/id-service/using/home.html) van identiteitskaart van de Bezoeker van de Wolk van de Ervaring en gaat van een CNAME/het domein van de eerste-partijgegevensinzameling aan `2o7.net` of `omtrdc.net` (de [Regionale Inzameling](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)van Gegevens)
 
-* Bewegend van `2o7.net` of `omtrdc.net` aan een naam/de inzameling van de eerste-partijgegevens ( [Eerste Koekjes)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/).
+* Bewegend van `2o7.net` of `omtrdc.net` aan een naam/de inzameling van de eerste-partijgegevens ( [Eerste Koekjes)](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Het bewegen van één CNAME aan een andere (veranderende domeinen).
 
