@@ -3,7 +3,7 @@ description: Gebruik de configuratiewizard van Adobe Data Connectors om de integ
 title: De integratie activeren
 uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Gebruik de configuratiewizard van Adobe Data Connectors om de integratie in te stellen.
 
-1. Start [Gegevensconnectors](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) en klik **[!UICONTROL + Add New]** om een nieuwe integratie [toe te](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html)voegen.
+1. Start [Gegevensconnectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) en klik **[!UICONTROL + Add New]** om een nieuwe integratie [toe te](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html)voegen.
 1. Selecteer in de **[!UICONTROL Show]** lijst de integratie van de **[!UICONTROL By Name]** Partner [!DNL ~~] en sleep deze naar een lege plug-in.
 1. Voltooi de Tovenaar van de Integratie gebruikend de informatie in de volgende lijst:
 
