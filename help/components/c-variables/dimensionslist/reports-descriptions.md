@@ -4,7 +4,7 @@ title: Dimensiebeschrijvingen
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -45,7 +45,7 @@ De afmetingen zijn beschrijvingen of eigenschappen van metrische gegevens die, k
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Workbench </p> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html"  > Uitgebreide afmetingen</a> </td> 
+   <td colname="col2"><a href="https://docs.adobe.com/content/help/en/data-workbench/using/dataset/extended-dimensions/c-abt-ex-dim.html"  > Uitgebreide afmetingen</a> </td> 
   </tr> 
  </tbody> 
 </table>
