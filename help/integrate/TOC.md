@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Integration Guide
+user-guide-title: Handleiding voor analytische integratie
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
-source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
       + [Reclameaccounts beheren](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Reclameanalyse problemen oplossen](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Veelgestelde vragen](c-advertising-analytics/aa-faq.md)
-+ [Analyses voor doel - A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
++ [Analyses voor doel - A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 + [Adobe-campagnerapportage](adobe-campaign.md)
 + [AEM Assets Reporting](aem-assets-reporting.md)
 + [Rapportage van activiteitenoverzicht](activitmap-reporting.md)
