@@ -4,7 +4,7 @@ title: Categorieën rapporteren
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -24,7 +24,7 @@ Een Rapport van Producten is een voorbeeld van een trended rapport. U kunt zien 
 Een Totals-rapport is een rapport op uitvoerend niveau dat cijfers van onderaf toont. Het bevat gegevens voor totale opbrengst, paginameningen, en orden. U kunt het rapport segmenteren en extra metriek toevoegen om extra gegevens te bekijken.
 De stroom toont de gemeenschappelijkste wegen die gebruikers over pagina&#39;s, plaatssecties, en servers nemen.
 
-Voor informatie over hoe de Stroom in de Werkruimte van de Analyse werkt, zie de Reis van de [Klant - Stroom](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html).
+Voor informatie over hoe de Stroom in de Werkruimte van de Analyse werkt, zie de Reis van de [Klant - Stroom](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 **Volgende stroom**
 
@@ -33,4 +33,4 @@ De volgende het rapportgroep van de Stroom heeft drie rapporten: Volgende pagina
 **Vorige stroom**
 
 Eerdere stroomrapporten zijn vergelijkbaar met de rapporten Volgende stroom, behalve dat u ziet waar bezoekers na een geselecteerde pagina naartoe zijn gegaan en waar bezoekers zijn geweest voordat ze een opgegeven pagina bezoeken. De controles voor het gebruiken van het rapport zijn identiek aan de controles voor de Volgende rapporten van de Stroom.
-Vallout-visualisaties bieden meer opties voor het samenstellen van uw uitvalrapporten. Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen). Voor meer informatie, zie [Uitval](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) in de Werkruimte van de Analyse.
+Vallout-visualisaties bieden meer opties voor het samenstellen van uw uitvalrapporten. Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen). Voor meer informatie, zie [Uitval](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in de Werkruimte van de Analyse.
