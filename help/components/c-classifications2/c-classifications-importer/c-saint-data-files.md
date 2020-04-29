@@ -5,7 +5,7 @@ title: Classificatiegegevensbestanden
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -159,7 +159,7 @@ Deze tekens hebben een speciale betekenis in een gegevensbestand. Gebruik deze w
 
 Campagnedatums zijn doorgaans bereiken (begin- en einddatum) die aan afzonderlijke campagnes zijn gekoppeld. Datums moeten worden weergegeven in de notatie JJJJ/MM/DD. Bijvoorbeeld 2013/06/15-2013/06/30.
 
-Zie [Conversie-classificaties](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications)voor meer informatie.
+Zie [Conversie-classificaties](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)voor meer informatie.
 
 >[!NOTE] In de [!DNL Analytics] onderhoudrelease van 10 mei 2018 is Adobe begonnen de functionaliteit van datums en numerieke classificaties te beperken. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. Er kunnen geen nieuwe datums en numerieke classificaties worden toegevoegd. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage.
 
