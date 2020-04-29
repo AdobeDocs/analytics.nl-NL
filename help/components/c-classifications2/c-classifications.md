@@ -5,7 +5,7 @@ title: Classificaties
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -38,7 +38,7 @@ Veronderstel dat in plaats van het bekijken van campagnes enkel door het volgen 
 
 De rapportage en de analyse omvatten vooraf bepaalde classificaties voor de volgende codevariabele, die op classificatie-gebaseerde rapporten genoemd Creative Elementen en Campagnes aanbiedt. U moet classificaties voor alle andere omzettings en verkeersvariabelen manueel vormen.
 
-Zie [Verkeersclassificaties](/help/admin/admin/c-traffic-variables/traffic-classifications.md) en [conversie-classificaties](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html).
+Zie [Verkeersclassificaties](/help/admin/admin/c-traffic-variables/traffic-classifications.md) en [conversie-classificaties](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 In de volgende tabel worden de verschillende typen classificaties beschreven die beschikbaar zijn, en de typen variabelen die deze ondersteunen. Controleer de informatie in de [algemene bestandsstructuur](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) voordat u gegevensbestanden uploadt.
 
@@ -57,7 +57,7 @@ In de volgende tabel worden de verschillende typen classificaties beschreven die
    <td colname="col3"> <p>Tekstclassificaties definiëren een categorie waarmee u variabele gegevens kunt groeperen voor rapportagedoeleinden. </p> <p>Als u bijvoorbeeld overhemden verkoopt, kunt u de hemdverkopen (conversies) indelen op kleur, grootte en stijl, zodat u rapporten kunt genereren waarin de hemdverkopen worden weergegeven die door deze categorieën worden georganiseerd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Tekst met datumnotatie</span> </p> <p>Opmerking:  In de versie Analytics Maintenance van 10 mei 2018, die door Adobe is uitgebracht, werd de functionaliteit van klasseringen met datuminstellingen beperkt. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. U kunt geen nieuwe klasseringen voor datums toevoegen. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage. </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> Tekst met datumnotatie</span> </p> <p>Opmerking:  In de versie Analytics Maintenance van 10 mei 2018, heeft Adobe de functionaliteit van classificaties waarvoor datumgegevens zijn ingeschakeld, beperkt. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. U kunt geen nieuwe klasseringen voor datums toevoegen. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage. </p> </td> 
    <td colname="col2"> <p>Conversievariabelen </p> </td> 
    <td colname="col3"> <p>Met een tekstclassificatie voor datums kunt u datumbereiken toewijzen aan een tekstclassificatie. Dit wordt typisch gebruikt met campagneclassificaties zodat u uit de grafiekmening van Gantt in het rapport van Campagnes <span class="wintitle"></span> kunt voordeel halen. </p> <p>U kunt de daadwerkelijke campagnecedata in het gegevensbestand opnemen dat de classificatiegegevens bevolkt. </p> <p>Rapporten &amp; Analytics verzamelt de codes voor het bijhouden van de campagne, zelfs als de einddatum van de campagne al voorbij is, maar de campagnegegevens die na de einddatum van de campagne worden verzameld, zijn niet gekoppeld aan de campagne. </p> </td> 
   </tr> 
