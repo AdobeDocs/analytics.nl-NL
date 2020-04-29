@@ -1,9 +1,9 @@
 ---
 description: 'null'
-title: Overzicht van ad-hocanalyseprojecten converteren
+title: Overzicht van ad-hocanalyse projectconversie
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,8 +21,8 @@ Met de projectconverter ad hoc analyse kunt u naadloos al uw ad-hocprojecten con
 
 Projectomzetting heeft aanzienlijke voordelen:
 
-* Het zet uw projecten in ons meest geavanceerde Analytics rapporteringshulpmiddel, de Werkruimte [van de](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)Analyse om, die constant met nieuwe visualisaties en andere hoogst behandelde eigenschappen wordt verbeterd.
-* U kunt profiteren van alle coole functies die in de Analyse Workspace worden aangeboden: [Welke Analytics-tool ik moet gebruiken](https://marketing.adobe.com/resources/help/en_US/reference/which_analytics_tool.html).
+* Het zet uw projecten in ons meest geavanceerde Analytics rapporteringshulpmiddel, de Werkruimte [van de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html)Analyse om, die constant met nieuwe visualisaties en andere hoogst behandelde eigenschappen wordt verbeterd.
+* U kunt profiteren van alle coole functies die in de Analyse Workspace worden aangeboden: [Welke Analytics-tool ik moet gebruiken](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html).
 * U kunt uw projecten in bulk omzetten zonder de behoefte om hen manueel in de Werkruimte van de Analyse te herbouwen.
 * Hoewel ad hoc Analyse al vele jaren een zeer nuttig hulpmiddel is, is het nu in onderhoudswijze zonder nieuwe eigenschappen die aan het worden toegevoegd.
 
