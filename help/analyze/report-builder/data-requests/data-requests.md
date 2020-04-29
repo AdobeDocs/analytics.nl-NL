@@ -3,7 +3,7 @@ description: 'null'
 title: Gegevensverzoeken - stap 1 van de wizard Verzoek
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -18,7 +18,7 @@ Op de wizard Verzoek: Stap 1 vorm, selecteert u de rapportreeks, rapporttype, se
 
 1. **Bereik selecteren**: Hiermee kunt u een rapportsuite-id selecteren in een cel in Excel. Zie [Rapportsets](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)selecteren.
 
-1. **Segment**: De segmenten zijn douanesubsets van gegevens, of gegevens die door regels worden gefilterd die u creeert. Segmenten zijn gebaseerd op hits, bezoeken en bezoekers. Zie de gids [van de Segmentatie van de](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) Analyse voor meer informatie over segmenten.
+1. **Segment**: De segmenten zijn douanesubsets van gegevens, of gegevens die door regels worden gefilterd die u creeert. Segmenten zijn gebaseerd op hits, bezoeken en bezoekers. Zie de gids [van de Segmentatie van de](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) Analyse voor meer informatie over segmenten.
 
    U kunt bijvoorbeeld een segment uitvoeren [!UICONTROL Pages Report]en vervolgens een segment voor het eerst bezoeken toepassen.
 
