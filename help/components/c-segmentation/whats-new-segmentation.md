@@ -3,7 +3,7 @@ description: Nieuwe functies in Adobe Analytics Segmentation.
 title: Nieuw in Analytics Segmentation
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,18 +12,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Nieuwe functies in Adobe Analytics Segmentation.
 
-* [november 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [November 2016](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Oktober 2016](/help/components/c-segmentation/whats-new-segmentation.md)
-* [september 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [September 2016](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Juni 2016](/help/components/c-segmentation/whats-new-segmentation.md)
-* [januari 2016](/help/components/c-segmentation/whats-new-segmentation.md)
-* [november 2015](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Januari 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [November 2015](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Oktober 2015](/help/components/c-segmentation/whats-new-segmentation.md)
-* [september 2015](/help/components/c-segmentation/whats-new-segmentation.md)
+* [September 2015](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Oktober 2014](/help/components/c-segmentation/whats-new-segmentation.md)
-* [september 2014](/help/components/c-segmentation/whats-new-segmentation.md)
-* [augustus 2014](/help/components/c-segmentation/whats-new-segmentation.md)
-* [juli 2014](/help/components/c-segmentation/whats-new-segmentation.md)
+* [September 2014](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Augustus 2014](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Juli 2014](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Mei 2014](/help/components/c-segmentation/whats-new-segmentation.md)
 
 <table id="table_BA0B0E5013D944F59A2BF3C33CD8E684"> 
@@ -73,7 +73,7 @@ Nieuwe functies in Adobe Analytics Segmentation.
    <td colname="col2"> <p>In een "binnen"clausule, binnen tussen VEREN verklaringen, kunt u, bijvoorbeeld, "binnen 1 onderzoek sleutelwoordinstantie"toevoegen, "binnen 1 eVar 47 instantie". Dit beperkt het segment tot binnen één instantie van een dimensie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analyse van werkruimte: Segmenten <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"  > gebruiken in valutanalyse </a> </p> </td> 
+   <td colname="col1"> <p>Analyse van werkruimte: Segmenten <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"  > gebruiken in valutanalyse </a> </p> </td> 
    <td colname="col2"> <p>U kunt segmenten van een aanraakpunt tot stand brengen, segmenten toevoegen als aanraakpunten, en zeer belangrijke werkschema's over diverse segmenten in de Werkruimte van de Analyse vergelijken. </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Nieuwe functies in Adobe Analytics Segmentation.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analyse van werkruimte &gt; Segmentvergelijking </p> </td> 
-   <td colname="col2"> <p> Met het deelvenster <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html"  > Segmentvergelijking</a> (Segment IQ) in de analysewerkruimte kunnen klanten snel twee analysesegmenten vergelijken om de belangrijkste verschillen tussen deze segmenten op alle gegevenspunten te vinden. </p> </td> 
+   <td colname="col2"> <p> Met het deelvenster <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html"  > Segmentvergelijking</a> (Segment IQ) in de analysewerkruimte kunnen klanten snel twee analysesegmenten vergelijken om de belangrijkste verschillen tussen deze segmenten op alle gegevenspunten te vinden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Nieuwe functies in Adobe Analytics Segmentation.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Segmentmachtiging</span> maken </p> </td> 
-   <td colname="col2"> <p>Als de gebruikers niet de <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > Create toestemming</a>van het Segment hebben, kunnen zij niet meer tot de Bouwer van het Segment toegang hebben. </p> </td> 
+   <td colname="col2"> <p>Als de gebruikers niet de <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html"  > Create toestemming</a>van het Segment hebben, kunnen zij niet meer tot de Bouwer van het Segment toegang hebben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Nieuwe functies in Adobe Analytics Segmentation.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Wijzigingen in machtigingen in Segment Builder </p> </td> 
-   <td colname="col2"> <p>De Admin-gebruiker kan beperken welke gebruikers nieuwe segmenten kunnen maken. Standaard kunnen alle gebruikers segmenten maken. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > Meer...</a> </p> </td> 
+   <td colname="col2"> <p>De Admin-gebruiker kan beperken welke gebruikers nieuwe segmenten kunnen maken. Standaard kunnen alle gebruikers segmenten maken. <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html"  > Meer...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
