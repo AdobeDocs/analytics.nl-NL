@@ -5,7 +5,7 @@ title: Veelgestelde vragen
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,9 +18,9 @@ Beantwoord frequente vragen over segmentatiefuncties, toegang, machtigingen, bes
 
 * Segmentering in analysewerkruimte:
 
-   * U kunt segmenten [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)vergelijken.
-   * Gebruik [segmenten als afmetingen](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) in een vergelijking.
-   * Gebruik segmenten in [uitvalanalyse](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
+   * U kunt segmenten [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)vergelijken.
+   * Gebruik [segmenten als afmetingen](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) in een vergelijking.
+   * Gebruik segmenten in [uitvalanalyse](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * U kunt veelvoudige segmenten [toepassen op een rapport of een project](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 * De segmenten zijn universeel aan alle rapportseries.
@@ -74,7 +74,7 @@ De vervolgkeuzelijst met rapportsuite is verplaatst naast de datumkiezer in de r
 
 **Welke rechten en voorrechten moet ik gebruiken, creëren, en segmenten beheren?**
 
-Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen de Beheerders beslissen wie [toestemmingen zou moeten hebben om segmenten](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) tot stand te brengen en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
+Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen de Beheerders beslissen wie [toestemmingen zou moeten hebben om segmenten](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) tot stand te brengen en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
 
 Beheerders kunnen elk segment bewerken en segmenten delen met groepen en met iedereen in de organisatie. [Meer...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
