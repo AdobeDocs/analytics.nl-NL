@@ -3,7 +3,7 @@ title: Help bij Adobe Report Builder
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 >
 >Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
 >
->See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
+>See [Analytics User Migration to the Admin Console](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) for migration information.
 
 >[!IMPORTANT]
 >
@@ -40,15 +40,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 ## Bronnen voor Experience Cloud
 
 * [Adobe Analytics Community](https://helpx.adobe.com/marketing-cloud/analytics.html)
-* [Opmerkingen bij de release Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes)
-* [Introductiepagina van productdocumentatie](https://marketing.adobe.com/resources/help/en_US/home/index.html)
-* [Ontwikkelaar](https://marketing.adobe.com/resources/help/en_US/home/index.html#Developer)
+* [Releaseopmerkingen bij Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+* [Introductiepagina van productdocumentatie](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)
+* [Ontwikkelaar](https://www.adobe.io/apis/experiencecloud.html)
 * [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
 * [Adobe Training en zelfstudies](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 * [Aanbevolen Oplossingscentrum](https://www.omniture.com/en/products/online_business_optimization)
 
+<!--Meike Russ Replace the omniture links above?-->
+
 ## Help voor rapporten en analyses
 
-* [Help bij analysewerkruimte](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
-* [Help voor rapporten en analyses](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
-* [Help bij Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html) op Admin Tools, Reports en metrics.
+* [Help bij analysewerkruimte](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html)
+* [Help voor rapporten en analyses](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html)
+* [Help bij Analytics Reference](https://docs.adobe.com/content/help/en/analytics/landing/home.html) op Admin Tools, Reports en metrics.
