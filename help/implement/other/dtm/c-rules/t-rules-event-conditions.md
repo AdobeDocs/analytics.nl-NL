@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Voorwaarden maken voor op gebeurtenissen gebaseerde regels
 uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,7 +18,7 @@ De voorwaarden bepalen wanneer een op gebeurtenis-gebaseerde regel wordt teweegg
 
    ![](assets/condition-event-based.png)
 
-   Zie [Gebeurtenistypen](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html) in de productdocumentatie van Adobe Tagbeheer voor meer informatie.
+   Zie [Gebeurtenistypen](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/t-rules-event-conditions.html) in de productdocumentatie van Adobe Tagbeheer voor meer informatie.
 
 1. Schakel indien nodig de volgende opties in:
 
@@ -35,7 +35,7 @@ De voorwaarden bepalen wanneer een op gebeurtenis-gebaseerde regel wordt teweegg
 
    ![](assets/condition-event-based2.png)
 
-   Zie [De CSS-kiezer](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html) gebruiken in de productdocumentatie voor dynamisch tagbeheer voor informatie over het zoeken naar de juiste elementtag.
+   Zie [De CSS-kiezer](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/t-rules-event-conditions.html#concept_DDF500DCB8214658AEDECDE69ED1D4AF) gebruiken in de productdocumentatie voor dynamisch tagbeheer voor informatie over het zoeken naar de juiste elementtag.
 
 1. Selecteer en stel extra criteria of voorwaardetypes in u aan de regel wilt binden.
 
