@@ -6,7 +6,7 @@ title: Unieke bezoekers identificeren
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -58,7 +58,7 @@ Wanneer een aanvraag naar de Adobe-gegevensverzamelingsserver wordt verzonden, w
 
 Sommige browsers, zoals Apple Safari, slaan geen cookies meer op die zijn ingesteld in de HTTP-header vanuit domeinen die niet overeenkomen met het domein van de huidige website (dit is een cookie die wordt gebruikt in een context van derden of een cookie van derden). Bijvoorbeeld, als u bent `mysite.com` en uw server van de gegevensinzameling is `mysite.omtrdc.net`, zou het koekje dat in de kopbal van HTTP van is teruggekeerd door browser `mysite.omtrdc.net` kunnen worden verworpen.
 
-Om dit te vermijden, hebben vele klanten CNAME verslagen voor hun servers van de gegevensinzameling als deel van een [eerste-partijkoekjesimplementatie](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)uitgevoerd. Als een CNAME-record is geconfigureerd om een hostnaam op het domein van de klant toe te wijzen aan de server voor gegevensverzameling (bijvoorbeeld toewijzing `metrics.mysite.com` aan `mysite.omtrdc.net`), wordt het cookie van de bezoeker-id opgeslagen omdat het domein van de gegevensverzameling nu overeenkomt met het domein van de website. Dit verhoogt de waarschijnlijkheid dat het koekje van bezoekersidentiteitskaart zal worden opgeslagen, maar het introduceert wat overheadkosten aangezien u CNAME- verslagen moet vormen en SSL certificaten voor de servers van de gegevensinzameling handhaven.
+Om dit te vermijden, hebben vele klanten CNAME verslagen voor hun servers van de gegevensinzameling als deel van een [eerste-partijkoekjesimplementatie](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html)uitgevoerd. Als een CNAME-record is geconfigureerd om een hostnaam op het domein van de klant toe te wijzen aan de server voor gegevensverzameling (bijvoorbeeld toewijzing `metrics.mysite.com` aan `mysite.omtrdc.net`), wordt het cookie van de bezoeker-id opgeslagen omdat het domein van de gegevensverzameling nu overeenkomt met het domein van de website. Dit verhoogt de waarschijnlijkheid dat het koekje van bezoekersidentiteitskaart zal worden opgeslagen, maar het introduceert wat overheadkosten aangezien u CNAME- verslagen moet vormen en SSL certificaten voor de servers van de gegevensinzameling handhaven.
 
 ### Cookies op mobiele apparaten {#section_7D05AE259E024F73A95C48BD1E419851}
 
@@ -68,7 +68,7 @@ Wanneer mobiele apparaten met behulp van cookies worden bijgehouden, kunt u bepa
 
 De Identity Service vervangt het oude mechanisme voor de ID van de bezoeker van Analytics en wordt vereist door [!UICONTROL Heartbeat] videometingen, Analytics voor Target en toekomstige Experience Cloud core-services en -integratie.
 
-Zie [Identiteitsservice](https://marketing.adobe.com/resources/help/en_US/mcvid/) voor productdocumentatie over deze service.
+Zie [Identiteitsservice](https://docs.adobe.com/content/help/en/id-service/using/home.html) voor productdocumentatie over deze service.
 
 ## Mobiele apparaten identificeren
 
