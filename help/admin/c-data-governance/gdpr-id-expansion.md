@@ -3,7 +3,7 @@ description: 'De id''s die u verzendt, hebben niet altijd betrekking op alle raa
 title: ID-uitbreiding
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -28,7 +28,7 @@ Zie het [Voorbeeld JSON Verzoek](/help/admin/c-data-governance/gdpr-submit-acces
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Expansie Cookie-id </p> </td> 
-   <td colname="col2"> <p>Veel klanten van Analytics gebruikten oorspronkelijk de (Verouderde) <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html"> Analytics Cookie </a>, maar gebruiken nu de <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/"> Identiteitsdienst (ECID) </a>, die vroeger als de Dienst van identiteitskaart van de Marketing Cloud (MCID) wordt bekend. Voor hun websitebezoekers die voor het eerst na de overgang zijn bezocht, bestaat alleen de ECID. Voor degenen die voor het eerst een bezoek hebben gebracht toen alleen de Oudere Koek beschikbaar was, maar die sindsdien een bezoek hebben gebracht: Sommige gegevens hebben beide cookies, maar de oudere gegevens hebben alleen de Analytics Cookie en in zeldzame gevallen hebben de nieuwste gegevens alleen een ECID. </p> <p>U wilt ervoor zorgen dat alle gegevens voor een bezoeker worden gevonden die via een Analytics-cookie (Visitor ID) of ECID zijn geïdentificeerd. Daarom als u momenteel ECID gebruikt en eerder Analytics Cookie gebruikte, wanneer u een verzoek indient gebruikend één van beide type van identiteitskaart, zou u beide IDs in het verzoek moeten omvatten, of de expandIds optie specificeren. Wanneer u expandIds opgeeft, controleert Adobe op andere ECID's of Analytics Cookies die overeenkomen met cookies die u opgeeft. De aanvraag wordt automatisch uitgebreid met deze zojuist geïdentificeerde cookie-id's. </p> </td> 
+   <td colname="col2"> <p>Veel klanten van Analytics gebruikten oorspronkelijk de (Verouderde) <a href="https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-privacy.html"> Analytics Cookie </a>, maar gebruiken nu de <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html"> Identiteitsdienst (ECID) </a>, die vroeger als de Dienst van identiteitskaart van de Marketing Cloud (MCID) wordt bekend. Voor hun websitebezoekers die voor het eerst na de overgang zijn bezocht, bestaat alleen de ECID. Voor degenen die voor het eerst een bezoek hebben gebracht toen alleen de Oudere Koek beschikbaar was, maar die sindsdien een bezoek hebben gebracht: Sommige gegevens hebben beide cookies, maar de oudere gegevens hebben alleen de Analytics Cookie en in zeldzame gevallen hebben de nieuwste gegevens alleen een ECID. </p> <p>U wilt ervoor zorgen dat alle gegevens voor een bezoeker worden gevonden die via een Analytics-cookie (Visitor ID) of ECID zijn geïdentificeerd. Daarom als u momenteel ECID gebruikt en eerder Analytics Cookie gebruikte, wanneer u een verzoek indient gebruikend één van beide type van identiteitskaart, zou u beide IDs in het verzoek moeten omvatten, of de expandIds optie specificeren. Wanneer u expandIds opgeeft, controleert Adobe op andere ECID's of Analytics Cookies die overeenkomen met cookies die u opgeeft. De aanvraag wordt automatisch uitgebreid met deze zojuist geïdentificeerde cookie-id's. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aangepaste id voor uitbreiding van cookie-id </p> </td> 
@@ -60,5 +60,5 @@ Naast zijn standaardwaarde, steunt het prioritaire gebied ook een waarde van &qu
 
 U moet er ook op letten dat bezoekers die een hit hebben verwijderd (bijgewerkt of geanonimiseerd) als gevolg van een aanvraag voor het verwijderen van gegevensprivacy, hun statusgegevens opnieuw kunnen instellen. De volgende keer dat de bezoeker terugkeert naar uw website, wordt hij of zij een nieuwe bezoeker. Alle eVar-toewijzing wordt opnieuw gestart, evenals informatie zoals bezoeknummers, referenties, bezochte eerste pagina, enz. Deze bijwerking is ongewenst in situaties waarin u gegevensvelden wilt wissen en benadrukt één reden waarom de API voor de privacyservice niet geschikt is voor dit gebruik.
 
-Neem contact op met uw accountmanager (CSM) om samen te werken met ons consultatieteam van de Engineering Architect voor verdere controle en om de moeite te nemen om eventuele problemen met PII&#39;s of gegevens te verwijderen.
+Neem contact op met uw accountmanager (CSM) om samen te werken met ons consultatieteam van de Engineering Architect voor verdere controle en om de moeite te nemen om eventuele PII- of gegevensproblemen te verwijderen.
 
