@@ -4,7 +4,7 @@ title: Gegevensbronnen
 topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -21,4 +21,4 @@ Gegevensbronnen gebruiken om:
 
 Wanneer de Gegevensbronnen op een rapportreeks worden geactiveerd, wordt een plaats van FTP verstrekt zodat kunt u dossiers uploaden die in rapportering moeten worden geïntegreerd. Zodra geüpload, verwerken de servers van Adobe automatisch de gegevens en integreren het in uw rapportreeks.
 
-Zie [Gegevensbronnen Help](https://marketing.adobe.com/resources/help/en_US/sc/datasources/).
+Zie [Gegevensbronnen Help](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html).
