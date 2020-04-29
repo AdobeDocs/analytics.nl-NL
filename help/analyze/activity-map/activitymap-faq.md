@@ -4,7 +4,7 @@ title: Veelgestelde vragen over activiteitenoverzicht
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 0e125be6e1710c65effa0adc8097e8916c8a3290
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,7 +25,7 @@ A: Klanten van Adobe SiteCatalyst hebben geen toegang tot de pagina Activity Map
 
 **V: Kan de nieuwe code AppMeasurement via Dynamic Tag Management (DTM) worden geconfigureerd?**
 
-A: Ja, u kunt de nieuwe code [manueel uitvoeren](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) AppMeasurement.
+A: Ja, u kunt de nieuwe code [manueel uitvoeren](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) AppMeasurement.
 
 **V: Wat zijn de grote veranderingen in de bibliotheek AppMeasurement v1.6?**
 
@@ -57,7 +57,7 @@ A: Nee, Adobe houdt geen koppelingen bij die zijn weergegeven.
 
 **V: Kan ik Activiteitenkaart gebruiken als ik eerder geen Visitor ClickMap op mijn website gebruikte?**
 
-A: De oudere versie, die nu alleen ClickMap wordt genoemd, is geen voorwaarde voor de implementatie van de nieuwe versie. Adobe zal de oudere versie gedurende een beperkte periode blijven ondersteunen.
+A: De oudere versie - nu gewoon ClickMap genoemd - is niet een voorwaarde voor de implementatie van de nieuwe versie. Adobe zal de oudere versie gedurende een beperkte periode blijven ondersteunen.
 
 **V: Welke browsers en versies worden ondersteund door Activity Map?**
 
