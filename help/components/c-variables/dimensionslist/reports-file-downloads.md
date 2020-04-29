@@ -4,7 +4,7 @@ title: Bestanden downloaden
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,8 +33,8 @@ Marketingsrapporten bevatten informatie over bestanden die zijn gedownload van e
 
 1. Zoek op uw site het algemene JavaScript-bestand. Dit wordt vaak genoemd [!DNL s_code.js], maar kan anders genoemd zijn. Als de naam van de JavaScript-code is gewijzigd, kunt u de JavaScript-bestanden op uw site zoeken naar de waarde *`s.account`*, die deel uitmaakt van de JavaScript-code.
 
-1. Zoek in het bestand de variabele [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html) . Zorg ervoor dat deze is ingesteld op *true*
+1. Zoek in het bestand de variabele [s.trackDownloadLinks](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackdownloadlinks.html) . Zorg ervoor dat deze is ingesteld op *true*
 
-1. Zoek de variabele [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html) . Controleer of alle gewenste bestandsextensies in deze lijst voorkomen. Voeg zo nodig ontbrekende extensies toe, zoals [!DNL .zip], [!DNL .pdf]enzovoort.)
+1. Zoek de variabele [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/linkdownloadfiletypes.html) . Controleer of alle gewenste bestandsextensies in deze lijst voorkomen. Voeg zo nodig ontbrekende extensies toe, zoals [!DNL .zip], [!DNL .pdf]enzovoort.)
 
 Als deze variabelen correct lijken te zijn geconfigureerd, maar de gegevens [!UICONTROL File Downloads Report] nog steeds niet worden ontvangen, moeten de ondersteunde gebruikers van uw organisatie contact opnemen met de klantenservice.
