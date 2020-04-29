@@ -3,7 +3,7 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk hulppro
 title: Welk hulpprogramma van Adobe Analytics moet ik gebruiken?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -76,7 +76,7 @@ Ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-compariso
 
 * Wanneer u verbinding maakt met een externe provider die een ondersteunde verbinding heeft gemaakt met Adobe Analytics. Gegevensconnectors gebruiken doorgaans permanent en automatisch samenvattingsgegevens in Adobe Analytics, op terugkerende basis.
 
-**[De API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**voor gegevensinvoeging moet worden gebruikt:
+**[De API](/help/import/c-data-insertion-api/c-data-insertion-api.md)**voor gegevensinvoeging moet worden gebruikt:
 
 * Wanneer u gegevens moet uploaden naar Adobe Analytics en u kunt de Adobe AppMeasurement- of mobiele SDK-code niet gebruiken.
 
@@ -114,7 +114,7 @@ Ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-compariso
 * Als de client Adobe-gegevens wil opslaan in een clientdatabase, kunnen we deze gegevens op het meest granulaire niveau verzenden.
 * Als de client een Business Intelligence-hulpprogramma (BI) wil ontwikkelen of Adobe-gegevens op hit-niveau wil invoeren in een hulpprogramma van derden.
 
-**[Het melden van APIs](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**zou moeten worden gebruikt wanneer de andere visualisatieopties niet aan uw behoeften voldoen. De drie API-opties zijn:
+**[Het melden van APIs](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)**zou moeten worden gebruikt wanneer de andere visualisatieopties niet aan uw behoeften voldoen. De drie API-opties zijn:
 
 * **Volledig verwerkt**: wanneer u eigenschap-rijke gegevens (met inbegrip van bezoeken, bezoekers, en segmenten) wilt. Dit zijn standaard samengevatte gegevens uit de analysefunctie, beschikbaar binnen ~30-90 minuten. Kan door de Bouwer van het Rapport worden gebruikt.
 * **Real-time**: wanneer u een paar metriek en afmetingen met seconden van latentie wilt bekijken. Dit zijn beperkte, gedeeltelijk verwerkte, samengevatte gegevens die binnen ~30 seconden beschikbaar zijn. Omvat unieke algoritmen van populairste, aannemers, en verliezers. Kan door de Bouwer van het Rapport worden gebruikt.
