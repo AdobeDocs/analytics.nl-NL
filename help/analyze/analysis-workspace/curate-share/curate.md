@@ -5,7 +5,7 @@ title: Overzicht van Kromming/delen
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -24,7 +24,7 @@ Met Curatie kunt u de componenten beperken voordat u een project deelt. U kunt e
 
 1. Geef machtigingen op om projecten te maken en te beheren.
 
-   Alvorens tot stand te brengen of een project van de Werkruimte van de Analyse te leiden, moeten de beheerders u aan een [groep](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) met de toegelaten **[!UICONTROL Analysis Workspace Access]** toestemming, of aan de **[!UICONTROL All Report Access]** gebruikersgroep toevoegen. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**).
+   Alvorens tot stand te brengen of een project van de Werkruimte van de Analyse te leiden, moeten de beheerders u aan een [groep](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) met de toegelaten **[!UICONTROL Analysis Workspace Access]** toestemming, of aan de **[!UICONTROL All Report Access]** gebruikersgroep toevoegen. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**).
 
 1. [Maak en sla](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) een project op en klik vervolgens op **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 1. Sleep componenten die u wilt delen van de sleepbare componentenstapel op de linkerzijde aan het **[!UICONTROL Curated Components]** gebied.
