@@ -5,7 +5,7 @@ title: Volledige verwerking
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -64,7 +64,7 @@ Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example
   <tr> 
    <td colname="col1"> <p>gebeurtenissen </p> </td> 
    <td colname="col2"> <p>gebeurtenissen </p> </td> 
-   <td colname="col3"> <p>De koord van gebeurtenissen, geformatteerd gebruikend de zelfde syntaxis zoals de <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  > s.events </a> variabele. </p> <p>Bijvoorbeeld: </p> 
+   <td colname="col3"> <p>De koord van gebeurtenissen, geformatteerd gebruikend de zelfde syntaxis zoals de <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variabele. </p> <p>Bijvoorbeeld: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -167,7 +167,7 @@ De volgende tabel bevat verkeersvariabelen die automatisch worden ingevuld wanne
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>De ondersteunde tekenset voor uw website. Bijvoorbeeld UTF-8, ISO-8859-1 enzovoort. </p> <p>Zie de whitepaper over <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html"  > Multi-Byte Character Sets </a> (Internationalization) voor een volledige lijst. </p> </td> 
+   <td colname="col2"> <p>De ondersteunde tekenset voor uw website. Bijvoorbeeld UTF-8, ISO-8859-1 enzovoort. </p> <p>Zie de whitepaper over <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  > Multi-Byte Character Sets </a> (Internationalization) voor een volledige lijst. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
