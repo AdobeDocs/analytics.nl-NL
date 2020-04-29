@@ -4,7 +4,7 @@ keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Berekende en Geavanceerde berekende (Afgeleide) Metriek
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,7 +15,7 @@ Berekende en Geavanceerde Berekende (of Afgeleide) Metriek zijn douanemetriek di
 
 >[!IMPORTANT]
 >
->In juli 2018 heeft Adobe [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html)geïntroduceerd, die de manier waarop toewijzingsmodellen in berekende metriek worden geëvalueerd, heeft herzien. In het kader van deze wijziging zijn berekende maatstaven die een niet-standaard toewijzingsmodel gebruiken, gemigreerd naar nieuwe, verbeterde toewijzingsmodellen:
+>In juli 2018 heeft Adobe [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)geïntroduceerd, die de manier waarop toewijzingsmodellen in berekende metriek worden geëvalueerd, heeft herzien. In het kader van deze wijziging zijn berekende maatstaven die een niet-standaard toewijzingsmodel gebruiken, gemigreerd naar nieuwe, verbeterde toewijzingsmodellen:
 >
 >* De toewijzingsmodellen &quot;Marketing Channel Last Touch&quot; en &quot;Marketing Channel First Touch&quot; zijn gemigreerd naar de nieuwe toewijzingsmodellen &quot;Last Touch&quot; en &quot;First Touch&quot; (Opmerking: De &quot;Kanalen van de Marketing&quot;is niet afgekeurd - slechts de twee toewijzingsmodellen die in berekende metriek verschijnen zijn geweest).
 >* Bovendien hebben we de manier gecorrigeerd waarop de lineaire toewijzing wordt berekend. Voor klanten die berekende metriek met &quot;Lineaire&quot;toewijzingsmodellen gebruiken, kunnen de rapporten lichtjes veranderen om het nieuwe, gecorrigeerde attributiemodel te weerspiegelen. Deze verandering in berekende metriek wordt weerspiegeld in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], de Rapporterende API, de Bouwer van het Rapport, en Ad hoc Analyse. Zie [Hoe lineaire toewijzing werkt per 19 juli 2018 voor meer informatie](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
@@ -30,7 +30,7 @@ Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijz
 
 Hier volgt een vergelijking van de mogelijkheden Berekende meetwaarden en Geavanceerde berekende meetwaarden:
 
-| Builder-opties | Berekende cijfers | Geavanceerde berekende (Afgeleide) Metriek |
+| Builder-opties | Berekende statistieken | Geavanceerde berekende (Afgeleide) Metriek |
 |---|---|---|
 | [Indelingstypen (decimaal, tijd, percentage, valuta)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Ja | Ja |
 | [Wijzigingen in het kenmerk (standaard, lineair, deelname, enz.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Ja | Ja |
