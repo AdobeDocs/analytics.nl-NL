@@ -3,7 +3,7 @@ description: Wat u moet weten over de migratie van gebruikers-id's voor Analytic
 title: Analyseer gebruikersmigratie naar de beheerconsole
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -73,7 +73,7 @@ Antwoorden op vragen die u vóór de migratie hebt.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder bijwerken </p> </td> 
-   <td colname="col2"> <p> <p>Belangrijk: Werk uw installatie van <a href="https://marketing.adobe.com/resources/help/en_US/arb/t_install_arb.html"> de Bouwer</a> van het Rapport aan de recentste versie bij. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Belangrijk: Werk uw installatie van <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html"> de Bouwer</a> van het Rapport aan de recentste versie bij. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wanneer begint de migratie? </p> </td> 
@@ -95,7 +95,7 @@ Antwoorden op vragen die u vóór de migratie hebt.
      <li id="li_418476105FE341229CE146E730AAB33D">Uw bestaande machtigingengroepen in Analytics worden automatisch gerepliceerd in de Admin Console als Productprofielen, met inbegrip van hun beschrijving en korrelige toestemmingen over rapportsuites, metriek, dimensies, Analytics, en de Hulpmiddelen van de Reeks van het Rapport. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">Als een van uw huidige Analytics-gebruikers is gemaakt in de beheerconsole (wat betekent dat ze een gekoppelde Adobe/Enterprise-id hebben), worden ze toegevoegd aan de desbetreffende productprofielen in de beheerconsole. </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">De sectie Gebruikersbeheer onder het tabblad Beheer in Analytics wordt ingesteld op alleen- <span class="term"> lezen</span>. U kunt hier geen nieuwe gebruikers of machtigingsgroepen meer maken en u moet beide functies in de beheerconsole uitvoeren. Raadpleeg de <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56"> niet-ondersteunde analysefuncties in de beheerconsole</a> voor meer informatie. </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">Als beheerder krijgt u toegang tot het migratiehulpprogramma <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">voor</a>gebruikersnamen. Daarnaast wordt een melding in het product weergegeven met de einddatum van de migratie (doorgaans 60 dagen in de toekomst), naast koppelingen voor Help-inhoud en veelgestelde vragen. </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">Als beheerder krijgt u toegang tot het migratiehulpprogramma <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">voor</a>gebruikersnamen. Daarnaast wordt een melding in het product weergegeven met de einddatum van de migratie (doorgaans 60 dagen in de toekomst), naast koppelingen voor Help-inhoud en veelgestelde vragen. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">U krijgt toegang tot het tabblad Machtigingen in de beheerconsole waarmee u productprofielen kunt maken met alle korrelige opties die u kent op het gebied van Analyse. </li> 
     </ul> </td> 
   </tr> 
@@ -314,7 +314,7 @@ Belangrijke informatie over het migratieproces en de invloed ervan op het huidig
 
 U kunt dit migratieplan proactief aan uw huidige gebruikers willen meedelen. Hier volgt een sjabloon die u kunt aanpassen om al uw huidige gebruikers van Analytics te verzenden:
 
-Als u een e-mail wilt sturen naar alle gebruikers, navigeert u naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Gebruikers](https://marketing.adobe.com/resources/help/en_US/reference/t_email_users.html)e-mailen.
+Als u een e-mail wilt sturen naar alle gebruikers, navigeert u naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Gebruikers](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)e-mailen.
 
 **Betreft:** Binnenkort verkrijgbaar - Een nieuwe manier om u aan te melden bij Adobe Analytics en Adobe Experience Cloud.
 
@@ -326,9 +326,7 @@ Ons bedrijf zal alle Adobe Analytics-accounts migreren van [!DNL https://my.omni
 
 **Nuttige bronnen:**
 
-[Meld u aan en beheer uw profielinstellingen](https://marketing.adobe.com/resources/help/en_US/mcloud/getting-started-experience-cloud.html).
-
-[Clouds, Core Services en oplossingen](https://marketing.adobe.com/resources/help/en_US/mcloud/solutions_capability_names.html) in de Experience Cloud
+[Meld u aan en beheer uw profielinstellingen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
 
 Neem contact op met uw analysebeheerders als u vragen of problemen hebt.
 
