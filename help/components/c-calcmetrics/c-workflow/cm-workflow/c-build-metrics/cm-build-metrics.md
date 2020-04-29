@@ -3,7 +3,7 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen,
 title: Metrische gegevens samenstellen
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -85,7 +85,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Productcompatibiliteit </span> </td> 
-   <td colname="col3"> <p>De verenigbaarheid van het product toont u of metrisch met <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  > Huidige Gegevens </a>, met volledig Verwerkte Gegevens, of slechts met de rapporten van het Kanaal van de Marketing (first-touch toewijzing) compatibel is. <p>Opmerking:  De huidige Gegevens steunen niet alle metriek. Metriek die segmenten of functies bevatten, is niet compatibel met de huidige gegevens. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Meer... </a> </p> </p> </td> 
+   <td colname="col3"> <p>De verenigbaarheid van het product toont u of metrisch met <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  > Huidige Gegevens </a>, met volledig Verwerkte Gegevens, of slechts met de rapporten van het Kanaal van de Marketing (first-touch toewijzing) compatibel is. <p>Opmerking:  De huidige Gegevens steunen niet alle metriek. Metriek die segmenten of functies bevatten, is niet compatibel met de huidige gegevens. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Meer... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Toevoegen </span> </td> 
@@ -102,7 +102,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + Nieuw </span> </td> 
-   <td colname="col3"> <p>Hiermee kunt u een nieuwe component maken, zoals een nieuw segment (dat u naar de <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  > Segment Builder </a>.) </p> </td> 
+   <td colname="col3"> <p>Hiermee kunt u een nieuwe component maken, zoals een nieuw segment (dat u naar de <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  > Segment Builder </a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Componenten zoeken </p> </td> 
@@ -117,7 +117,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
    <td colname="col3"> <p>De cijfers zijn ingedeeld in drie categorieën: </p> 
     <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
      <li id="li_90F2312927A6499CA1CE04F8FFC912CF">Standaardwaarden ( <img placement="inline"  src="assets/met_icon.png" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
-     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">Berekende cijfers ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
+     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">Calculated metrics ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
      <li id="li_8735E76637ED4C3F983731A66E04C93E">Metrische sjablonen ( <img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />) - onder aan de lijst. </li> 
     </ul> <p>Wanneer u de muisaanwijzer boven een metrische waarde houdt, ziet u het pictogram Info rechts ervan: <img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Als u op dit pictogram klikt, krijgt u de volgende informatie: </p> 
     <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
@@ -128,7 +128,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lijst met segmenten </p> </td> 
-   <td colname="col3"> <p>(Alleen Geavanceerde berekende metriek) Als beheerder worden in deze lijst alle segmenten weergegeven die in uw aanmeldingsbedrijf zijn gemaakt. Als u een gebruiker niet-Admin bent, toont deze lijst segmenten u bezit en die met u worden gedeeld. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html"  > Meer... </a> </p> </td> 
+   <td colname="col3"> <p>(Alleen Geavanceerde berekende metriek) Als beheerder worden in deze lijst alle segmenten weergegeven die in uw aanmeldingsbedrijf zijn gemaakt. Als u een gebruiker niet-Admin bent, toont deze lijst segmenten u bezit en die met u worden gedeeld. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html"  > Meer... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lijst met functies </p> </td> 
