@@ -4,7 +4,7 @@ title: Segmenten maken
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -23,7 +23,7 @@ Er zijn verscheidene manieren om tot de Bouwer van het Segment toegang te hebben
 * **[!UICONTROL Analysis Workspace]**: Klik **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open een project en klik **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
 * **[!UICONTROL Reports & Analytics]**: Klik **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open een bestaand rapport en klik het pictogram van Segmenten ![](assets/segment_icon.png) in de linkernavigatie, dan klik **[!UICONTROL Add]**.
 * **[!UICONTROL Ad Hoc Analysis]**: Segmenten [maken in ad hoc analyse](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
-* **[!UICONTROL Report Builder]**: [Voeg of geef segmenten in de Bouwer](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html)van het Rapport toe uit.
+* **[!UICONTROL Report Builder]**: [Voeg of geef segmenten in de Bouwer](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html)van het Rapport toe uit.
 
 ## Gebruikersinterface van Segment Builder {#concept_643F2DF74C544796B58F4656ABC5F726}
 
