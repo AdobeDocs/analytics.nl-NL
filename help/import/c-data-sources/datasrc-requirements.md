@@ -5,7 +5,7 @@ title: Vereisten en uploadlimieten
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -57,7 +57,7 @@ Gegevensbronnen ondersteunen multibyte-codering. De Bronnen van gegevens probere
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Ondersteund. De rapportreeks die met Gegevensbronnen wordt gebruikt moet toegelaten multibyte karaktersteun hebben. </p> <p>Zie <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html"  > Nieuwe rapportsuite</a> in Help </p> </td> 
+   <td colname="col2"> <p>Ondersteund. De rapportreeks die met Gegevensbronnen wordt gebruikt moet toegelaten multibyte karaktersteun hebben. </p> <p>Zie <a href="https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  > Nieuwe rapportsuite</a> in Help </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 met Byte Order Mark (EF BB BF) </td> 
