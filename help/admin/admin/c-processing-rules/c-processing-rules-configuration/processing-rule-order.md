@@ -5,7 +5,7 @@ title: Verwerkingsvolgorde
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -34,7 +34,7 @@ In de volgende tabellen worden de gegevens weergegeven die doorgaans beschikbaar
 | Door VISTA toegevoegde gegevens | Verwerkingsregels worden toegepast vóór VISTA. |
 | Bezoek het paginanummer | Als algemene regel, zijn de verwerkingsregels zich bewust van de gegevens die in de huidige slechts treffer zijn. Het paginanummer van de bezoekpagina wordt gecompileerd nadat de verwerkingsregels worden toegepast. |
 | Clean URL wordt toegevoegd als paginanaam als deze niet is ingesteld. | Nadat de verwerkingsregels en VISTA worden toegepast, wordt schone URL toegevoegd als paginanaam als er geen plaatste paginanaam is. Aangezien dit voorkomt nadat de verwerkingsregels worden toegepast, adviseren wij toevoegend een voorwaarde om te controleren als de paginanaam leeg is.  Als u Site Content > Pages Report uitvoert en u https://-waarden ziet voor paginanamen, is de paginanaam waarschijnlijk leeg en wordt de URL gebruikt.  U kunt een voorwaarde instellen om te testen op de naam van een lege pagina of om te testen of de paginanaam of de pagina-URL een specifieke waarde bevat. De paginanaam kan vervolgens naar wens worden ingesteld. |
-| Verwerkingsregels voor marketingkanalen | U kunt verwerkingsregels gebruiken om gegevens voor te bereiden voor verwerking door de Verwerkingsregels [van het Kanaal van de](https://marketing.adobe.com/resources/help/en_US/mchannel/c_rules.html)Marketing. |
+| Verwerkingsregels voor marketingkanalen | U kunt verwerkingsregels gebruiken om gegevens voor te bereiden voor verwerking door de Verwerkingsregels [van het Kanaal van de](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-rules.html)Marketing. |
 | GEO-opzoekhandeling | Hieronder vallen ook de waarden van de postcode voor de bezoekerstatus en de bezoeker. |
 | Persistentie | Vars die zich in een vorige hit bevonden, blijven niet bij elke hit tijdens de regelverwerking behouden. Alleen eVars die zijn ingesteld op de huidige hit die wordt verwerkt, zijn beschikbaar. |
 
