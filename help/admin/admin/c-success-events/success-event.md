@@ -5,7 +5,7 @@ title: Overzicht van succesgebeurtenissen
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -32,7 +32,7 @@ Afhankelijk van het type website zijn er vele soorten succesgebeurtenissen. Enke
 * **Hoge Tech**: Whitepaper downloaden, RFP, formuliervoltooiing, supportaanvragen
 * **Automobielindustrie**: Indiening van leads, aanvragen voor een prijsopgave, downloaden via brochure
 
-De variabele [s.events](https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html) definieert een succesgebeurtenis.
+De variabele [s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) definieert een succesgebeurtenis.
 
 ## Pagina Gebeurtenissen geslaagd - beschrijvingen {#section_681ECEC981694CABBDBF00E18165B447}
 
