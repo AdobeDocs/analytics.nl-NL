@@ -5,7 +5,7 @@ title: Tijdstempels optioneel gebruiken
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Tijdstempels optioneel is de standaardinstelling voor alle nieuwe rapportsuites.
 
 >[!NOTE] Tijdstempels Optioneel is de standaardinstelling voor alle nieuwe rapportsuites die worden gegenereerd op basis van een sjabloon. De nieuwe rapportreeksen die van een bestaande rapportreeks worden gekopieerd zullen montages van origineel erven.
 
-Zie [Tijdstempels Optioneel](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html) voor aanvullende instellingsinformatie.
+Zie [Tijdstempels Optioneel](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/timestamp-optional.html) voor aanvullende instellingsinformatie.
 
 ## Tijdstempels optioneel: Gegevens met tijdstempel en zonder tijdstempel integreren {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -62,7 +62,7 @@ Hieronder vindt u best practices en een aantal vereisten en beperkingen die u in
 
    Gegevens die niet op volgorde staan, kunnen gegevens bevatten die te laat aankomen bij het verzamelen van offlinegegevens en laat aankomen, of uit-of-synchronisatieklokken op mobiele offlineapparaten. Gegevens die buiten de bestelling vallen, kunnen een negatief effect hebben op tijdberekeningen (zoals gebruikte waarden voor de tijd), attributie (persistentie van de eVar), het aantal bezoekers/bezoekers en tekenrapporten.
 
-* Het wordt niet aanbevolen tijdstempels te gebruiken wanneer u een [s.bezoekerID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) instelt. Dit kan leiden tot gegevens die niet op volgorde staan.
+* Het wordt niet aanbevolen tijdstempels te gebruiken wanneer u een [s.bezoekerID](https://docs.adobe.com/content/help/en/analytics/technotes/visitor-identification.html) instelt. Dit kan leiden tot gegevens die niet op volgorde staan.
 
 * Hybride apps die bestaan uit een app (tijdstempeling, offlinegegevens) die een webbrowser opent (niet-tijdstempels, live gegevens), mogen geen tijdstempels gebruiken. Dit leidt tot een onjuiste rapportage van de sessie.
 
