@@ -4,7 +4,7 @@ title: Adobe-doel
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,4 +25,4 @@ Voorbeelden zijn:
 
 Door gegevens in Rapporten en Analytics te gebruiken, kunt u in uw Ontvangers van het Doel boor gebruikend onderverdelingen en high-performance segmenten ontdekken die voor toekomstige tests en potentieel gerichte campagnes ideaal zijn. In het rapport Rapporten en Analytics worden conversiegegevens weergegeven in plaats van de conversiegegevens van Target.
 
-Raadpleeg het Help-systeem van [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/) voor meer informatie.
+Raadpleeg het Help-systeem van [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html) voor meer informatie.
