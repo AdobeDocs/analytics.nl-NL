@@ -3,7 +3,7 @@ description: 'null'
 title: Waarschuwingsbeheer
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-Waarschuwingsbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is zeer gestructureerd zoals [Segmentbeheer](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) en [Berekend metrisch beheer](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_manager.html) en stelt u in staat om
+Waarschuwingsbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is zeer gestructureerd zoals [Segmentbeheer](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) en [Berekend metrisch beheer](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) en stelt u in staat om
 
 ![](assets/alert-manager-tasks.png)
 
