@@ -5,7 +5,7 @@ title: Webeigenschap maken
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Een webeigenschap kan elke groepering van een of meer domeinen en subdomeinen met een bibliotheek met regels zijn, die in één ingesloten code is opgenomen.
 
->[!NOTE] Alleen gebruikers met beheerdersrechten kunnen een eigenschap maken. Zie Groepen [maken en beheren in DTM](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) in de documentatie over producten voor dynamisch tagbeheer voor meer informatie over rollen.
+>[!NOTE] Alleen gebruikers met beheerdersrechten kunnen een eigenschap maken. Zie Groepen [maken en beheren in DTM](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html) in de documentatie over producten voor dynamisch tagbeheer voor meer informatie over rollen.
 
 U kunt deze middelen beheren en bijhouden met DTM. Stel dat u meerdere websites hebt die op één sjabloon zijn gebaseerd en u dezelfde elementen op al deze websites wilt bijhouden. U kunt één webeigenschap op meerdere domeinen toepassen.
 
-Voor algemene informatie over Web eigenschappen en beste praktijken, zie de Eigenschappen [van het](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) Web in de Dynamische Documentatie van het Product van het Beheer van de Markering.
+Voor algemene informatie over Web eigenschappen en beste praktijken, zie de Eigenschappen [van het](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html) Web in de Dynamische Documentatie van het Product van het Beheer van de Markering.
 
 1. Navigeer naar de bedrijfspagina en klik op **[!UICONTROL Add Property]**.
 
