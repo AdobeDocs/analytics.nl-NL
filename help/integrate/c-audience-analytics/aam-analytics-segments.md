@@ -3,7 +3,7 @@ description: Analytics en Audience Manager gebruiken beide segmenten. Nochtans, 
 title: Begrijp segmenten in Analytics en de Manager van de Publiek
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,7 +25,7 @@ Het segmentlidmaatschap van Audience Manager is dynamisch. Gebruikers kunnen een
 
 Een segment van de Manager van de Publiek wordt vermeld als publiek in Analytics.
 
-Voor meer informatie, verwijs naar de Gegevens van de Bevolking van het [Spoor en van het Segment in de Bouwer](https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html) van het Segment en [Signalen, Verrichtingen, en Segmenten](https://marketing.adobe.com/resources/help/en_US/aam/c_signal_trait_segment.html).
+Voor meer informatie, verwijs naar de Gegevens van de Bevolking van het [Spoor en van het Segment in de Bouwer](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html) van het Segment en [Signalen, Verrichtingen, en Segmenten](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Analysesegmenten {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
@@ -42,4 +42,4 @@ Een segment van Analytics is een het filtreren mechanisme voor gegevens in uw ra
 
    In Analytics daarentegen worden bezoekers opgenomen in of uitgesloten van een segment dat is gebaseerd op het bereik van de rapportdatum. Eén bezoeker heeft bijvoorbeeld vorige maand een aankoop gedaan. In AAM, zou die bezoeker in een &quot;koper&quot;segment, ongeacht de datumwaaier worden omvat. In Analytics, zou een rapport dat op deze maand wordt gebaseerd de bezoeker in het segment niet omvatten. Nochtans, zou een rapport dat op deze maand &amp; vorige maand wordt gebaseerd de bezoeker in het segment omvatten.
 
-Zie de [handleiding](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) Analytics Segmentation voor meer informatie.
+Zie de [handleiding](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) Analytics Segmentation voor meer informatie.
