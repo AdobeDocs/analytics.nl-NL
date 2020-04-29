@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: De publieksgegevens in Analytics gebruiken
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -24,7 +24,7 @@ In de Werkruimte van de Analyse, verschijnen de segmenten AAM als twee dimensies
 
 ## Segmentvergelijking {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
-[De Vergelijking](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html) van het segment ontdekt de statistisch meest significante verschillen tussen twee segmenten. De gegevens van het publiek kunnen in de Vergelijking van het Segment op twee manieren worden gebruikt: 1) als de twee segmenten die worden vergeleken, en 2) als items in de tabel &quot;Top Dimension Items&quot;.
+[De Vergelijking](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) van het segment ontdekt de statistisch meest significante verschillen tussen twee segmenten. De gegevens van het publiek kunnen in de Vergelijking van het Segment op twee manieren worden gebruikt: 1) als de twee segmenten die worden vergeleken, en 2) als items in de tabel &quot;Top Dimension Items&quot;.
 
 1. Ga naar **[!UICONTROL Workspace]** en selecteer het **[!UICONTROL Segment Comparison]** paneel van de linkerspoorstaaf.
 
@@ -41,21 +41,21 @@ In de Werkruimte van de Analyse, verschijnen de segmenten AAM als twee dimensies
 
 ## Klantenreis (stroom) in analysewerkruimte {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM-segmentgegevens worden via hit-by-hit doorgegeven aan Analytics en vertegenwoordigen het publiekslidmaatschap voor een bezoeker op dat moment. Dit betekent dat een bezoeker in één segment kan vallen (bijvoorbeeld &quot;Bewustmaking&quot;), en later in aanmerking komen voor een meer gekwalificeerd segment (bv. &quot;Overweging&quot;). U kunt [stroom](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) in de Werkruimte van de Analyse gebruiken om de reis visualiseren een bezoeker tussen publiek neemt.
+AAM-segmentgegevens worden via hit-by-hit doorgegeven aan Analytics en vertegenwoordigen het publiekslidmaatschap voor een bezoeker op dat moment. Dit betekent dat een bezoeker in één segment kan vallen (bijvoorbeeld &quot;Bewustmaking&quot;), en later in aanmerking komen voor een meer gekwalificeerd segment (bv. &quot;Overweging&quot;). U kunt [stroom](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in de Werkruimte van de Analyse gebruiken om de reis visualiseren een bezoeker tussen publiek neemt.
 
 1. Ga naar **[!UICONTROL Workspace]** en selecteer de **[!UICONTROL Flow]** visualisatie in de linkerrails.
 
 1. Sleep de [!UICONTROL Audience Name] dimensie naar de Flow Builder.
 1. Klik op **[!UICONTROL Build]**.
-1. (Optioneel): Sleep een andere dimensie naar de stroomvisualisatie om een [interdimensionale stroom](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/multi-dimensional-flow.html)te maken.
+1. (Optioneel): Sleep een andere dimensie naar de stroomvisualisatie om een [interdimensionale stroom](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html)te maken.
 
 ![](assets/flow-aamaudiences.png)
 
-Soorten publiek kan ook worden gebruikt in [uitvalvisualisaties](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html).
+Soorten publiek kan ook worden gebruikt in [uitvalvisualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 ## Venn Visualisatie in de werkruimte Analyse {#section_E78AB764FB5047148B51DC1526B0DF89}
 
-[In de Venn-visualisaties](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/venn.html) wordt de overlapping tussen maximaal 3 segmenten weergegeven.
+[In de Venn-visualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/venn.html) wordt de overlapping tussen maximaal 3 segmenten weergegeven.
 
 1. Ga naar **[!UICONTROL Workspace]** en selecteer de **[!UICONTROL Venn]** visualisatie in de linkerrails.
 
@@ -69,7 +69,7 @@ Soorten publiek kan ook worden gebruikt in [uitvalvisualisaties](https://marketi
 
 ## Segment Builder {#section_2AA81852A1404AB894472CA8959461B6}
 
-U kunt de dimensies van het publiek in de Bouwer [](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)van het Segment van de Analyse, samen met de gedragsinformatie opnemen die de Analytics verzamelt.
+U kunt de dimensies van het publiek in de Bouwer [](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)van het Segment van de Analyse, samen met de gedragsinformatie opnemen die de Analytics verzamelt.
 
 1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Segments]** .
 1. Klik **[!UICONTROL Add]** om een nieuw segment te maken.
