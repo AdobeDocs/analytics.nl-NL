@@ -4,7 +4,7 @@ title: Segmenten maken
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,14 +13,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 De ad hoc Analyse integreert met de milieu van de Segmentatie van Analytics, die u toestaat om bezoekerssegmenten over de producten van Adobe te bouwen, te delen, te beheren en toe te passen. De ad hoc Analyse verstrekt een op Java-Gebaseerde gebruikersinterface voor zijn de Bouwer van het Segment en Manager van het Segment identiek aan de web-based hulpmiddelen die door andere hulpmiddelen van Analytics worden gebruikt, passende servervraag en het verstrekken van de zelfde eigenschappen en functionaliteit van een op Java-Gebaseerde console.
 
-De ad hoc Analyse omvat vertrouwde eigenschappen voor de bouw van segmenten, plus nieuwe eigenschapverbeteringen zoals de Manager [van het](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) Segment die aan opstelling wordt gebruikt een [werkschema](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html)van het segmentbeheer. Zoals altijd, kunt u segmenten in de Bouwer [van het](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html) Segment bouwen en bewaren of segmenten van een rapport [van de Vallout van de ad hoc analysenconsole](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_fallout.html) produceren, en dan de nieuwe of uitgebreide segmenten aan de publieksbibliotheek voor algemene toegang en toepassing bewaren. ![](assets/seg__overview_ad_hoc.png)
+De ad hoc Analyse omvat vertrouwde eigenschappen voor de bouw van segmenten, plus nieuwe eigenschapverbeteringen zoals de Manager [van het](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) Segment die aan opstelling wordt gebruikt een [werkschema](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)van het segmentbeheer. Zoals altijd, kunt u segmenten in de Bouwer [van het](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) Segment bouwen en bewaren of segmenten van een rapport [van de Vallout van de ad hoc analysenconsole](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) produceren, en dan de nieuwe of uitgebreide segmenten aan de publieksbibliotheek voor algemene toegang en toepassing bewaren. ![](assets/seg__overview_ad_hoc.png)
 
 ## Unified Segmentation in ad-hocanalyse {#section_5FA03A06DE054448AD519CE30C39E294}
 
-Voor informatie en instructies op de bouw van en het leiden van segmenten in het Verenigde milieu van de Segmentatie met inbegrip van ad hoc de analyseeigenschappen, zie de [Verenigde documentatie van de Segmentatie](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html) .
+Voor informatie en instructies op de bouw van en het leiden van segmenten in het Verenigde milieu van de Segmentatie met inbegrip van ad hoc de analyseeigenschappen, zie de [Verenigde documentatie van de Segmentatie](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) .
 
 * [Nieuwe functies](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
-* [Wijzigingen in segmentdefinitie](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
 * [Wat gebeurde er met mijn bestaande segmenten?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
 * [Wat gebeurde er met mijn bestaande segmentmappen?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
 * [Kan ik alle segmenten van Analytics in de Manager van het Segment beheren?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
@@ -33,28 +32,25 @@ Voor informatie en instructies op de bouw van en het leiden van segmenten in het
 
 ## Functies {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
-* [De segmenten](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_overview.html) zijn universeel aan alle rapportseries. Eerder, waren de segmenten rapport-reeks specifiek.
-* Met [Segmentbeheer](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) kunt u [workflows](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html) instellen met functies voor het delen van segmenten, codering, verificatie en goedkeuring.
+* [De segmenten](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) zijn universeel aan alle rapportseries. Eerder, waren de segmenten rapport-reeks specifiek.
+* Met [Segmentbeheer](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) kunt u [workflows](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) instellen met functies voor het delen van segmenten, codering, verificatie en goedkeuring.
+* De [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) is bijgewerkt om het maken van segmenten te vereenvoudigen.
+* U kunt segmenten [](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html) labelen om ze later te ordenen en te doorzoeken in plaats van mappen te gebruiken. Eerder hebt u mappen (in [!DNL ad hoc analysis]) gebruikt om uw segmenten te ordenen.
+* U kunt [Opeenvolgende Segmenten](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html) buiten Ad hoc Analyse tot stand brengen.
 
-* De [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html) is bijgewerkt om het maken van segmenten te vereenvoudigen.
-* U kunt segmenten [](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html) labelen om ze later te ordenen en te doorzoeken in plaats van mappen te gebruiken. Eerder hebt u mappen (in [!DNL ad hoc analysis]) gebruikt om uw segmenten te ordenen.
-
-* U kunt [Opeenvolgende Segmenten](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_sequential.html) buiten Ad hoc Analyse tot stand brengen.
-* 
-
->[!NOTE]
->
->In Ad hoc Analyse, kunt u geen datumwaaiers aan segmenten toevoegen. Deze functie is beschikbaar in de analysewerkruimte. U kunt ook niet Alleen Voor/Alleen Na opeenvolging gebruiken in Ad hoc-analyse.
+   >[!NOTE]
+   >
+   >In Ad hoc Analyse, kunt u geen datumwaaiers aan segmenten toevoegen. Deze functie is beschikbaar in de analysewerkruimte. U kunt ook niet Alleen Voor/Alleen Na opeenvolging gebruiken in Ad hoc-analyse.
 
 ## Wat gebeurde er met mijn bestaande segmenten? {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
 Uw bestaande segmenten zullen blijven werken zoals zij vóór de introductie van de Segmentatie van Analytics deden. Om het even welke rapporten die deze toegepaste segmenten hebben zullen blijven correct werken.
 
-De meeste vroegere vooraf bepaalde en reekssegmenten zullen over als [segmentmalplaatjes](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html) in de segmentbouwer worden gemigreerd. Segmentsjablonen worden gebruikt om snel aangepaste segmenten te maken met een veel voorkomend publiek. De malplaatjes van het segment kunnen niet rechtstreeks op een rapport worden toegepast, maar zij kunnen gemakkelijk aan een douanesegment worden bewaard.
+De meeste vroegere vooraf bepaalde en reekssegmenten zullen over als segmentmalplaatjes in de segmentbouwer worden gemigreerd. Segmentsjablonen worden gebruikt om snel aangepaste segmenten te maken met een veel voorkomend publiek. De malplaatjes van het segment kunnen niet rechtstreeks op een rapport worden toegepast, maar zij kunnen gemakkelijk aan een douanesegment worden bewaard.
 
 ## Wat gebeurde er met mijn bestaande segmentmappen? {#section_FB04DCF775694E69B761DCA53F301C30}
 
-In plaats van mappen voor ad hoc analyse gebruikt Segmentbeheer [tags](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html). De mapnamen worden automatisch omgezet in tags en deze tags worden toegepast op de respectievelijke segmenten.
+In plaats van mappen voor ad hoc analyse gebruikt Segmentbeheer [tags](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html). De mapnamen worden automatisch omgezet in tags en deze tags worden toegepast op de respectievelijke segmenten.
 
 ## Kan ik alle segmenten Analytics in de Manager van het Segment beheren? {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
@@ -70,7 +66,7 @@ Merk op dat er geen verandering in de manier was deze container werkt, het eenvo
 
 Alle gebruikers kunnen persoonlijke segmenten maken en bewerken. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
 
-Beheerders kunnen elk segment bewerken en segmenten [met groepen](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_share.html) delen en rechten [](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html) instellen voor toegang tot segmenten voor de organisatie.
+Beheerders kunnen elk segment bewerken en segmenten [met groepen](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) delen en rechten [](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html) instellen voor toegang tot segmenten voor de organisatie.
 
 ## Wat zou ik met dubbele segmenten moeten doen die de zelfde naam hebben maar verschillende definities kunnen hebben? {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -89,7 +85,7 @@ Aangezien de segmenten in veelvoudige rapportreeksen werken, zou u kunnen vinden
 
 ## Waarom kan ik dit segment niet verwijderen? {#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
-Als het segment is [gepubliceerd naar de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html), kunt u het niet verwijderen of bewerken. U kunt de gekopieerde versie echter wel kopiëren en bewerken.
+Als het segment is [gepubliceerd naar de Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html), kunt u het niet verwijderen of bewerken. U kunt de gekopieerde versie echter wel kopiëren en bewerken.
 
 ## Meer informatie over wat er met uw bestaande segmenten gebeurt {#section_83ACAB256F394DCD8B424D8920BDD853}
 
@@ -114,7 +110,7 @@ Als het segment is [gepubliceerd naar de Experience Cloud](https://marketing.ado
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Bezoeken van Betaalde zoekopdracht </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Bezoeken met cookie van bezoeker-id </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Deze segmenten zullen over als <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  > segmentmalplaatjes</a> in de segmentbouwer worden gemigreerd. </p> <p>Bestaande rapporten waarop deze segmenten zijn toegepast, blijven correct werken. </p> </td> 
+   <td colname="col2"> <p>Deze segmenten zullen over als segmentmalplaatjes in de segmentbouwer worden gemigreerd. </p> <p>Bestaande rapporten waarop deze segmenten zijn toegepast, blijven correct werken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Experience Cloud (Suite)-segmenten: 
@@ -127,7 +123,7 @@ Als het segment is [gepubliceerd naar de Experience Cloud](https://marketing.ado
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Bezoeken met 5+ vorige bezoeken* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Bezoeken van Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> De meeste van deze segmenten (met uitzondering van de segmenten die met een asterisk * zijn gemarkeerd) worden als <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  > segmentsjablonen</a> gemigreerd naar de segmentbuilder. Bovendien zijn verscheidene nieuwe segmentmalplaatjes toegevoegd. </p> <p>Bestaande rapporten waarop deze segmenten zijn toegepast, blijven correct werken. </p> </td> 
+   <td colname="col2"> <p> De meeste van deze segmenten (met uitzondering van de segmenten die met een asterisk * zijn gemarkeerd) worden als segmentsjablonen gemigreerd naar de segmentbuilder. Bovendien zijn verscheidene nieuwe segmentmalplaatjes toegevoegd. </p> <p>Bestaande rapporten waarop deze segmenten zijn toegepast, blijven correct werken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Admin-segmenten <p>(ook wel "algemene" segmenten genoemd) </p> </td> 
