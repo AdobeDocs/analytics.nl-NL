@@ -3,7 +3,7 @@ description: Hiermee kunt u het succes van campagnes in Adobe Analytics op dezel
 title: Doel Optillen en vertrouwen
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ Hiermee kunt u het succes van campagnes in Adobe Analytics op dezelfde manier be
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL Analytics for Target]** > **[!UICONTROL Target Activities]** .
 
-De documentatie van Adobe Target bevat meer informatie over [Optillen](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html) en [Vertrouwen](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html).
+De documentatie van Adobe Target bevat meer informatie over [Optillen](https://docs.adobe.com/content/help/en/target/using/administer/preferences/estimating-lift-in-revenue.html) en [Vertrouwen](https://docs.adobe.com/help/en/target/using/reports/settings/average-lift-bounds-and-confidence-interval.html).
 
 Om Lift en Vertrouwen te berekenen:
 
