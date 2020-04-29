@@ -5,7 +5,7 @@ title: Waarschuwingen
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -23,7 +23,7 @@ Met Intelligente waarschuwingen kunt u, als het nieuwe waarschuwingssysteem voor
 
 U kunt dit nieuwe waarschuwingssysteem openen vanuit **[!UICONTROL More]** > **[!UICONTROL Alerts]** in elk rapport in Rapporten en Analyse.
 
-Voor meer informatie, ga naar de documentatie van de Werkruimte van de Analyse over [Intelligente Alarm](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html).
+Voor meer informatie, ga naar de documentatie van de Werkruimte van de Analyse over [Intelligente Alarm](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
 
 ## Een waarschuwing toevoegen {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -39,13 +39,13 @@ Navigeer naar de nieuwe waarschuwingsfunctie in het menu **[!UICONTROL Analytics
 
 1. Open in Rapporten en Analytics het rapport waarin u een waarschuwing wilt instellen.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
-1. Hiermee gaat u naar de [nieuwe waarschuwingsBuilder](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-builder.html).
+1. Hiermee gaat u naar de [nieuwe waarschuwingsBuilder](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html).
 
 ## Bestaande waarschuwingen weergeven of bewerken {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Taakcontext
 
-1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Hiermee gaat u naar het nieuwe [waarschuwingsbeheer](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html).
+1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Hiermee gaat u naar het nieuwe [waarschuwingsbeheer](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
 
 ## Migratie van verouderde waarschuwingen {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -100,17 +100,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Waarschuwingen met een ASI-sleuf als rapportsuite </p> </td> 
-   <td colname="col2"> <p>U kunt geen ASI-sleuven meer <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  > maken of bewerken </a> en deze zijn niet beschikbaar voor gebruik in de analysewerkruimte. Daarom worden zij niet ondersteund door de nieuwe waarschuwingen. </p> <p> </p> </td> 
+   <td colname="col2"> <p>U kunt geen ASI-sleuven meer maken of bewerken en deze zijn niet beschikbaar voor gebruik in de analysewerkruimte. Daarom worden zij niet ondersteund door de nieuwe waarschuwingen. </p> <p> </p> </td> 
    <td colname="col3"> <p>Niet beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Waarschuwingen die gebruikmaken van participatiemetingen </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  > De metriek van de participatie </a> is beschikbaar in Rapporten &amp; Analytics, maar is momenteel niet beschikbaar in het nieuwe alarminstallatiesysteem in de Werkruimte van de Analyse. </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-participation.html"  > De metriek van de participatie </a> is beschikbaar in Rapporten &amp; Analytics, maar is momenteel niet beschikbaar in het nieuwe alarminstallatiesysteem in de Werkruimte van de Analyse. </p> <p> </p> </td> 
    <td colname="col3"> <p>Niet beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Maandelijkse waarschuwingen voor aangepaste kalenderrapporten </p> </td> 
-   <td colname="col2"> <p>Dit is alleen van toepassing op klanten met waarschuwingen die zijn ingesteld voor rapportsuites met <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  > aangepaste begindatums voor de maand </a> (nationale detailhandel/NRF en aangepaste kalendertypen). </p> <p>Het heeft geen invloed op waarschuwingen over Gregoriaanse of Gewijzigde Gregoriaanse kalenderrapportsuites. Eerder werden deze waarschuwingen verzonden op de eerste dag van de Gregoriaanse maand (bijvoorbeeld 1 januari, 1 februari enz.). Dit werkt niet met het nieuwe onderdeel Anomaly Detection van waarschuwingen, dat bij het opsporen van anomalieën rekening houdt met gegevens van vorige maanden. In de toekomst, zullen wij steun aan ons het plannen systeem voor douanecalendars toevoegen zodat zowel Alarm als Geplande Projecten kunnen worden gepland om op de eerste dag van de maand van de douanekalender in plaats van enkel de eerste dag van de Gregoriaanse maand te verzenden. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Dit is alleen van toepassing op klanten met waarschuwingen die zijn ingesteld voor rapportsuites met <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > aangepaste begindatums voor de maand </a> (nationale detailhandel/NRF en aangepaste kalendertypen). </p> <p>Het heeft geen invloed op waarschuwingen over Gregoriaanse of Gewijzigde Gregoriaanse kalenderrapportsuites. Eerder werden deze waarschuwingen verzonden op de eerste dag van de Gregoriaanse maand (bijvoorbeeld 1 januari, 1 februari enz.). Dit werkt niet met het nieuwe onderdeel Anomaly Detection van waarschuwingen, dat bij het opsporen van anomalieën rekening houdt met gegevens van vorige maanden. In de toekomst, zullen wij steun aan ons het plannen systeem voor douanecalendars toevoegen zodat zowel Alarm als Geplande Projecten kunnen worden gepland om op de eerste dag van de maand van de douanekalender in plaats van enkel de eerste dag van de Gregoriaanse maand te verzenden. </p> <p> </p> </td> 
    <td colname="col3"> <p>Nog niet beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
   </tr> 
   <tr> 
