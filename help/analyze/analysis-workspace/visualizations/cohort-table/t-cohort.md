@@ -5,7 +5,7 @@ title: Een cohortanalyserapport uitvoeren
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -43,7 +43,7 @@ Creeer een cohort en stel een rapport van de cohortanalyse in de Werkruimte van 
 
    Selecteer cellen (aangrenzend of niet aangrenzend) en klik vervolgens met de rechtermuisknop > **[!UICONTROL Create Segment From Selection]**.
 
-1. In de Bouwer [van het](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)Segment, geef verder het segment uit, dan klik **[!UICONTROL Save]**.
+1. In de Bouwer [van het](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)Segment, geef verder het segment uit, dan klik **[!UICONTROL Save]**.
 
    Het opgeslagen segment is beschikbaar voor gebruik in het [!UICONTROL Segment] deelvenster in de analysewerkruimte.
 1. Geef uw cohortproject een naam en sla het op.
