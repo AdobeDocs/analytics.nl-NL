@@ -6,7 +6,7 @@ title: Machtigingen voor Analytics Tools aanpassen
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -48,19 +48,19 @@ De instellingen op deze pagina hebben betrekking op de rapportsuites die op de [
 | [Beveiliging](/help/admin/company/security-manager.md) | Verleent toestemming aan de pagina van de Manager van de Veiligheid om toegang tot het melden van gegevens te controleren. De opties omvatten sterke wachtwoorden, wachtwoordafloop, IP login beperkingen, en e-maildomeinbeperkingen. |
 | Ondersteuningsinformatie | Verleent toestemming aan de Informatie van de Steun in de Montages van het Bedrijf. |
 | [Webservices](/help/admin/company/web-services-admin.md) | Hiermee krijgt u toegang tot de pagina Webservices in de interface Admin Tools ([!UICONTROL Company Settings] > [!UICONTROL Web Services]).<br>De API van de Diensten van het Web verleent programmatic toegang tot de diensten van de Analytics van Adobe die u dubbel en verhogingsfunctionaliteit beschikbaar door het gebruikersinterface laten. |
-| Single Sign-On (verouderd) | Hiermee krijgt u toegang tot de eenmalige aanmeldingspagina in Admin Tools.<br>**Opmerking:**Single Sign-On in de Adobe Experience Cloud wordt geïmplementeerd met behulp van een[account die een koppeling](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)maakt tussen de Experience Cloud en oplossingen. |
+| Single Sign-On (verouderd) | Hiermee krijgt u toegang tot de eenmalige aanmeldingspagina in Admin Tools.<br>**Opmerking:**Single Sign-On in de Adobe Experience Cloud wordt geïmplementeerd met behulp van een[account die een koppeling](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)maakt tussen de Experience Cloud en oplossingen. |
 | [Handelingen in behandeling](/help/admin/company/pending-actions-admin.md) | Hiermee geeft u toestemming voor het beheren van lopende handelingen in [!UICONTROL Company Settings]. |
 | [Co-branding](/help/admin/company/co-branding-admin.md) | Hiermee geeft u toestemming voor co-brand Analytics. |
 | [Voorkeuren](/help/admin/admin/preferences-manager.md) | Hiermee geeft u de gebruiker toestemming [!UICONTROL Preference Manager]. |
 | [Rapportageopties verbergen](/help/admin/company/c-hide-report-suites.md) | Hiermee geeft u toestemming om rapportsuites te verbergen in de gebruikersinterface van Adobe Analytics. |
 | **Gereedschappen** | Deze montages verlenen toegang tot de hulpmiddelen van de Analyse (interfaces en toepassingen) en geavanceerde mogelijkheden zoals segmentatie en berekende metriek. |
-| [Huidige gegevens](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) | Hiermee geeft u toestemming om de functie Huidige gegevens te gebruiken bij rapportage. |
-| [Ad-hocanalyse](https://marketing.adobe.com/resources/help/en_US/dsc/) van licentieconstanten | Hiermee krijgt u toegang [!UICONTROL Ad Hoc Analysis]. |
+| [Huidige gegevens](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html) | Hiermee geeft u toestemming om de functie Huidige gegevens te gebruiken bij rapportage. |
+| [Ad-hocanalyse](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) van licentieconstanten | Hiermee krijgt u toegang [!UICONTROL Ad Hoc Analysis]. |
 | Webservicetoegang | Laat de toegang van de Diensten van het Web voor niet-beheerders toe. Genereert de geloofsbrieven van de Dienst van het Web. |
-| [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/setup.html) | Leden van deze groep krijgen toegang tot [!UICONTROL Report Builder] licenties. |
-| [Toegang tot](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) analysewerkruimte | Biedt gebruikers toegang tot de Werkruimte van de Analyse, de geadviseerde rapporteringsinterface voor [!DNL Adobe Analytics]. |
-| [Rapporten en analyses](https://marketing.adobe.com/resources/help/en_US/sc/user/) | Hiermee geeft u gebruikers toegang tot rapporten en analyses. |
-| [Berekend metrisch ontwerp](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) | Hiermee geeft u gebruikers toestemming om berekende metriek te maken. |
-| [Segment maken](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) | Hiermee geeft u gebruikers toestemming om segmenten te maken. |
+| [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Leden van deze groep krijgen toegang tot [!UICONTROL Report Builder] licenties. |
+| [Toegang tot](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) analysewerkruimte | Biedt gebruikers toegang tot de Werkruimte van de Analyse, de geadviseerde rapporteringsinterface voor [!DNL Adobe Analytics]. |
+| [Rapporten en analyses](https://docs.adobe.com/content/help/en/analytics/landing/an-key-concepts.html) | Hiermee geeft u gebruikers toegang tot rapporten en analyses. |
+| [Berekend metrisch ontwerp](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) | Hiermee geeft u gebruikers toestemming om berekende metriek te maken. |
+| [Segment maken](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) | Hiermee geeft u gebruikers toestemming om segmenten te maken. |
 | **Gegevensconnectors** |  |
 | Integraties (maken, bijwerken of verwijderen) | Verleent toestemming om, de integratie van de Verbinding van Gegevens tot stand te brengen bij te werken en te schrappen. |
