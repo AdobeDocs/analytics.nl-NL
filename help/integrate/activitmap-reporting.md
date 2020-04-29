@@ -4,7 +4,7 @@ title: Rapportage van activiteitenoverzicht
 topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -27,4 +27,4 @@ Laat Analytics toe om gebruikersactiviteit te verzamelen die bij de Kaart van de
    | Koppelingen activiteitstoewijzing | Hiermee geeft u alle verzamelde koppelingen op de hele website weer. |
    | Koppelingen en regio activiteitenoverzicht | Hiermee geeft u alle verzamelde koppelingen met hun regio op de hele website weer. |
 
-Voor gegevens die moeten worden ingevuld, raadpleegt u de documentatie [van het](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/) Activiteitenoverzicht voor volledige implementatieinstructies.
+Voor gegevens die moeten worden ingevuld, raadpleegt u de documentatie [van het](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html) Activiteitenoverzicht voor volledige implementatieinstructies.
