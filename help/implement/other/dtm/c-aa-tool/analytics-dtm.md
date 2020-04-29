@@ -5,7 +5,7 @@ title: Gereedschap Adobe Analytics toevoegen
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Implementeer Adobe Analytics met Dynamisch tagbeheer door het hulpprogramma Adobe Analytics te maken en de paginacode automatisch of handmatig te configureren. De automatische methode wordt aanbevolen voor de meeste gebruikers.
 
->[!NOTE] Voor betere bezoekerscontrole, adviseren wij sterk dat u de Dienst [van de](https://marketing.adobe.com/resources/help/en_US/mcvid/)Identiteit toelaat.
+>[!NOTE] Voor betere bezoekerscontrole, adviseren wij sterk dat u de Dienst [van de](https://docs.adobe.com/content/help/en/id-service/using/home.html)Identiteit toelaat.
 
 ## Add an Adobe Analytics Tool {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
@@ -49,7 +49,7 @@ Implementeer Adobe Analytics met Dynamisch tagbeheer door het hulpprogramma Adob
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Handmatig</b>: Beheer manueel de code AppMeasurement. You can download the <span class="keyword"> Analytics</span><span class="keyword"> AppMeasurement</span> code from <span class="ignoretag"><span class="uicontrol"> Admin Tools</span> &gt; <span class="uicontrol"> Code Manager</span></span>. </p> <p>Klik op <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html"> JavaScript (nieuw)</a> voor informatie over het lokaal downloaden van de code om deze te kopiëren en plakken in het veld <span class="wintitle"> Code</span> bewerken in <a href="/help/implement/other/dtm/c-aa-tool/library-management.md"> Bibliotheekbeheer</a>. </p> <p>Vul de gebieden in specifiek voor een handconfiguratie: </p> 
+   <td colname="col2"> <p> <b>Handmatig</b>: Beheer manueel de code AppMeasurement. You can download the <span class="keyword"> Analytics</span><span class="keyword"> AppMeasurement</span> code from <span class="ignoretag"><span class="uicontrol"> Admin Tools</span> &gt; <span class="uicontrol"> Code Manager</span></span>. </p> <p>Klik op <a href="https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html"> JavaScript (nieuw)</a> voor informatie over het lokaal downloaden van de code om deze te kopiëren en plakken in het veld <span class="wintitle"> Code</span> bewerken in <a href="/help/implement/other/dtm/c-aa-tool/library-management.md"> Bibliotheekbeheer</a>. </p> <p>Vul de gebieden in specifiek voor een handconfiguratie: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>Productieaccount-id: </b>(Vereist) Uw productieaccount voor gegevensverzameling. Voor Analytics is dit uw rapportsuite-id. Met Dynamic Tag Management wordt automatisch het juiste account geïnstalleerd in de productie- en staging omgeving. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>Staging account-id: </b>(Vereist) Wordt gebruikt in uw ontwikkelings- of testomgeving. Voor Analytics is dit uw rapportsuite-id. Een staging account houdt uw testdata gescheiden van de productie. </p> </li> 
