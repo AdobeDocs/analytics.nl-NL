@@ -3,7 +3,7 @@ description: Een histogram is een nieuw visualisatietype in de Werkruimte van de
 title: Histogram
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -37,7 +37,9 @@ Als u uw histogram-instellingen wilt aanpassen, klikt u op het pictogram Instell
 | Emmertje starten | Hiermee bepaalt u met welk emmertje het histogram begint. &quot;1&quot; is de standaardwaarde. U kunt begingetallen instellen van 0 tot oneindig (geen negatieve getallen). |
 | Metrische emmertjes | Hiermee kunt u het aantal gegevensbereiken (emmers) vergroten/verkleinen. Het maximumaantal emmers is 50. |
 | Grootte van metrisch emmertje | Hiermee kunt u de grootte van elk emmertje instellen. U kunt bijvoorbeeld de emmergrootte wijzigen van de paginaweergave 1 in de weergave van 2 pagina&#39;s. |
-| Telmethode | Hiermee kunt u kiezen uit [Bezoeker](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Bezoek](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html)of [Actief](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). Paginaweergaven per bezoek of pagina per bezoeker of pagina worden bijvoorbeeld weergegeven per hit. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel. |
+| Telmethode | Hier kunt u kiezen uit [Bezoeker](/help/components/c-variables/c-metrics/visitors.md), [Bezoek](/help/components/c-variables/c-metrics/metrics-visit.md)of [Type](/help/components/c-variables/dimensionslist/report-hit-type.md)Actief. Paginaweergaven per bezoek of pagina per bezoeker of pagina worden bijvoorbeeld weergegeven per hit. Bij Actief wordt &quot;Voorvallen&quot; gebruikt als de metrische y-as in een vrije-vormtabel. |
+
+<!--Russ or Meike - Check Hit Type link above. -->
 
 **Voorbeelden**:
 
@@ -54,4 +56,4 @@ Vooraf gebouwde segmenten die in de lijst verschijnen zijn interne segmenten en 
 
 ![](assets/prebuilt_segments.png)
 
-Ga [hier](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform-analysis-visualizations.html)naar meer manieren om gegevenstabellen voor vrije vorm en andere visualisaties te beheren, zoals het uitvoeren van gegevensuitsplitsingen.
+Ga [hier](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)naar meer manieren om gegevenstabellen voor vrije vorm en andere visualisaties te beheren, zoals het uitvoeren van gegevensuitsplitsingen.
