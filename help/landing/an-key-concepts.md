@@ -2,7 +2,7 @@
 description: Deze sectie bevat de belangrijkste concepten voor de Analyse van Adobe, een korte beschrijving van het concept, en een specifieke documentatieverbinding met extra detail over het onderwerp.
 title: Adobe Analytics - Belangrijkste concepten
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -19,7 +19,7 @@ Deze sectie bevat de belangrijkste concepten voor de Analyse van Adobe, een kort
 | Rapporten en analyses (voorheen SiteCatalyst) | Browseroplossing voor rapportage en analyse. Starter in het pakket Analytics. | [Thuis voor rapporten en analyses](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | De toe:voegen-binnen van Excel die u aangepaste verzoeken van de gegevens van de Analyse van Adobe kunt bouwen, en hen visualiseren gebruikend Microsoft Excel. | [Introductie van Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
 | Ad hoc analyse (voorheen Detecteren) | Java-gebaseerd hulpmiddel voor geavanceerde digitale analyse. | [Ad-hocanalyse, startpunt](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
-| Data Workbench (voorheen Insight) | Ontworpen om gegevens van zowel online als offline klanteninteractie over meerdere kanalen te verzamelen, te verwerken, te analyseren en te visualiseren. | [Data Workbench-client](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
+| Data Workbench (voorheen Insight) | Ontworpen om gegevens van zowel online als offline klanteninteractie over meerdere kanalen te verzamelen, te verwerken, te analyseren en te visualiseren. | [Data Workbench-client](https://docs.adobe.com/content/help/en/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | Onbewerkte gegevens voor opslag en aangepaste rapporten, die u kunt uitvoeren door de gegevens te filteren. Niveau niet bereikt. | [Thuis van Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | Biedt mobiele marketingmogelijkheden voor mobiele toepassingen uit de gehele Adobe Experience Cloud, zodat u de betrokkenheid van gebruikers met uw toepassingen kunt begrijpen en verbeteren. | [Woonplaats mobiele services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors (voorheen Genesis) | Importeer trackinggegevens van toepassingen van derden naar Analytics, zodat de prestaties op één centrale locatie volledig zichtbaar zijn. | [Thuis gegevensconnectors](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
@@ -48,7 +48,7 @@ Klik [hier](https://docs.adobe.com/content/help/en/analytics/technotes/terms.htm
 
 | Rapport | Beschrijving | Documentatiekoppeling |
 |--- |--- |--- |
-| Lijst met volledige afmetingen/rapporten | Definitie van alle afmetingen/rapporten die beschikbaar zijn in Adobe Analytics. | [Afmetingen](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html) |
+| Lijst met volledige afmetingen/rapporten | Definitie van alle afmetingen/rapporten die beschikbaar zijn in Adobe Analytics. | [Afmetingen](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html) |
 | Advertising Analytics | Analyseer al uw Google- en Bing Paid Search-gegevens naast elkaar in Adobe Analytics. Tot de afmetingen die door de integratie worden gemaakt, behoren: Advertentieforum, Trefwoord, Type afstemmen, enz. De gecreeerde metriek zijn de impressies van AMO, klikken AMO, Kosten AMO, Avg. Positie en Gem. Kwaliteitsscore. | [Advertising Analytics](https://docs.adobe.com/help/en/analytics/integration/advertising-analytics/overview.html) |
 | Analyse van publiek | Verrijk binnenkomende Analytics klappen met het publiekslidmaatschap van een gebruiker in AAM. u kunt AAM-publieksgegevens zoals demografische informatie (bv. geslacht of inkomensniveau), psychografische informatie (bv. interesses en hobby&#39;s), CRM-gegevens en gegevens over het toevoegen van de indruk in een analyseworkflow opnemen. Dimensies die door deze integratie worden gemaakt, zijn Audience ID &amp; Audience Name. | [Analyse van publiek](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html) |
 | Attributie-IQ | Laat u toe om te begrijpen hoe de zinvolle betrokkenheid over de klantenreis plaatsvindt, intelligent identificerend buigpunten die klanten tot doelresultaten leiden, effectief optimaliserend marketing initiatieven. De modellen omvatten eerst, laatste, lineair, participatie, j-vormig, inverse j-vormig, u-vorm, zelfde aanraking, douane en tijdverval. | [Attributie-IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) |
@@ -81,8 +81,8 @@ Klik [hier](https://docs.adobe.com/content/help/en/analytics/technotes/terms.htm
 
 | Option | Beschrijving | Documentatiekoppeling |
 |---|---|---|
-| Classificatieimportmodule | Metagegevens importeren tegen vastgelegde afmetingen via browser of FTP-upload. Handmatige methode vergeleken met Rule Builder. | [Classificatieimportmodule](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) |
-| Rule Builder | Creëer automatisch meta-gegevensclassificaties van dimensies die op user-defined regels worden gebaseerd. | [Classification Rule Builder](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) |
+| Classificatieimportmodule | Metagegevens importeren tegen vastgelegde afmetingen via browser of FTP-upload. Handmatige methode vergeleken met Rule Builder. | [Classificatieimportmodule](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) |
+| Rule Builder | Creëer automatisch meta-gegevensclassificaties van dimensies die op user-defined regels worden gebaseerd. | [Classification Rule Builder](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) |
 | Klantkenmerken | CRM-gegevens die naar de Experience Cloud zijn geüpload voor gebruik in Adobe Analytics en Adobe Target. | [Klantkenmerken](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) |
 | Gegevensbronnen | Offline metriek in Analytics tegen afmetingen of eenvoudig door dag invoeren. | [Gegevensbronnen](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html) |
 | Adobe Exchange-gegevensverbindingen | Zie [Analysegereedschappen](/help/landing/an-key-concepts.md) |  |
@@ -107,7 +107,7 @@ Klik [hier](https://docs.adobe.com/content/help/en/analytics/technotes/terms.htm
 | Meting van app (s_code) | Globaal variabel beheer | [AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) |
 | App SDK&#39;s | Aangepast pakket met een vooraf ingevulde versie van het configuratiebestand voor Apps. | <ul><li>[iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | DTM en Adobe Launch | Zie Analysehulpmiddelen. |  |
-| VISTA | Hiermee kunt u serverlogica toepassen om gegevens te wijzigen of te segmenteren terwijl deze worden verzameld. | [VISTA-regels](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html) |
+| VISTA | Hiermee kunt u serverlogica toepassen om gegevens te wijzigen of te segmenteren terwijl deze worden verzameld. | [VISTA-regels](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/processing-rule-order.html) |
 | Verwerkingsregels | Mogelijkheid om variabelen in te stellen, te wijzigen en te kopiëren in de interface Analytics om de verzamelde gegevens te wijzigen. | [Verwerkingsregels](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) |
 | Foutopsporingsopties | Er zijn verschillende foutopsporing- en pakketsniffers beschikbaar om uw implementatie te helpen valideren, waaronder de foutopsporing in Adobe Experience Cloud. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |
 | API voor gegevensinvoer | De API voor het invoegen van gegevens biedt een mechanisme voor gegevensverzameling op de server en verzending naar Experience Cloud-servers. In plaats van JavaScript-bakens op elke webpagina te gebruiken voor het verzenden van bezoekersgegevens naar Experience Cloud-servers, verzamelt de gegevensverzameling aan de serverzijde alleen gegevens op basis van webbrowserverzoeken en webserverreacties. | [Stappen voor het implementeren van de API voor het invoegen van gegevens in Adobe Analytics met POST](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
