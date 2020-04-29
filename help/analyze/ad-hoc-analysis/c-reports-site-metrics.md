@@ -4,7 +4,7 @@ title: Metrische rapporten site
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -73,7 +73,7 @@ De totale waarde die onder aan de tabel wordt weergegeven, is de som van alle be
 
 ## Tijd besteed per bezoekrapport {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
 
-Hiermee geeft u aan hoe lang bezoekers uw site tijdens elk bezoek moeten bekijken. Het heeft ook een gemiddelde Tijd die op de statistiek van de Plaats wordt uitgegeven die de gemiddelde tijd toont dat de bezoekers doorbrachten het bekijken van uw plaats.
+Hiermee geeft u aan hoe lang bezoekers uw site tijdens elk bezoek moeten bekijken. Het heeft ook een gemiddelde Tijd die op de statistiek van de Plaats wordt uitgegeven die de gemiddelde tijd toont dat de bezoekers het bekijken van uw plaats besteedden.
 
 <!-- 
 
@@ -163,4 +163,4 @@ c_reports_marketing_channel.xml
 
 **[!UICONTROL First or Last Touch Channel Detail Reports]**: De details van vertoningen zoals paginanamen en verwijzingen, die van de kanaalwaarden worden genomen u opstelling in de [!UICONTROL Set the channel's value to] optie wanneer het vormen van regels. De de detailrapporten van het kanaal laten u de waarden van de kanaaldetails van het overzichtsrapport nauwkeurig onderzoeken.
 
-Voor meer diepgaande informatie over het vormen van het Kanaal van de Marketing in marketing rapporten en analyses, zie het systeem van de Hulp [van het Kanaal van de](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) Marketing.
+Voor meer diepgaande informatie over het vormen van het Kanaal van de Marketing in marketing rapporten en analyses, zie het systeem van de Hulp [van het Kanaal van de](/help/components/c-marketing-channels/analyze-mc.md) Marketing.
