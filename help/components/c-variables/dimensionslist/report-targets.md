@@ -3,7 +3,7 @@ description: Met doelrapporten kunt u de prestaties van uw website meten en de v
 title: Doelen
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,7 +18,7 @@ Met doelrapporten kunt u de prestaties van uw website meten en de voortgang afst
 
 Ga voor toegang tot uw doelrapporten naar **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Targets]** > **[!UICONTROL[uw doelnaam]]**
 
-Wanneer u doelen [](https://marketing.adobe.com/resources/help/en_US/sc/user/targets.html)maakt, selecteert u welke maateenheden voor kenmerken of variabelen u wilt meten of u kunt ervoor kiezen de gehele site te meten aan de hand van de geselecteerde maatstaf.
+Wanneer u doelen [](hhttps://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/targets.html)maakt, selecteert u welke maateenheden voor kenmerken of variabelen u wilt meten of u kunt ervoor kiezen de gehele site te meten aan de hand van de geselecteerde maatstaf.
 
 Het rapport toont het cumulatieve totaal van metrisch u specificeerde en het verschil tussen dat totaal en het doel u plaatste toen u het rapport vormde.
 
