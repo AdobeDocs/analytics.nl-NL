@@ -5,7 +5,7 @@ title: Gebruikersgroepinstellingen
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
 
 Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
 
@@ -114,7 +114,7 @@ Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (All Access, Customize, No Access) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Machtigingen worden ondersteund voor klanten met actieve <span class="keyword"> Tagbeheer</span> -containers. Niet beschikbaar voor nieuwe gebruikers. </p> <p>Adobe raadt u aan om dynamisch tagbeheer <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html"></a> toe te passen. </p> </td> 
+   <td colname="col2"> <p>Machtigingen worden ondersteund voor klanten met actieve <span class="keyword"> Tagbeheer</span> -containers. Niet beschikbaar voor nieuwe gebruikers. </p> <p>Adobe raadt u aan om dynamisch tagbeheer <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html"></a> toe te passen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Gebruikersaanmeldingen toewijzen</b> </td> 
