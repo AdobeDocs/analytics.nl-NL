@@ -3,7 +3,7 @@ description: De dialoog van het Beheer van Gegevens in de Hulpmiddelen Admin ver
 title: De instellingen voor gegevensbeheer van de rapportsuite weergeven/beheren
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -36,7 +36,7 @@ De dialoog van het Beheer van Gegevens in de Hulpmiddelen Admin verstrekt een ov
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Toegewezen</b>: Deze rapportsuite is al toegewezen aan dezelfde Experience Cloud-organisatie als het aanmeldingsbedrijf voor Analytics waarvoor u bent aangemeld. Alleen rapportsuites met deze instelling kunnen worden gelabeld. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Map Report Suite</b>: Als u op deze koppeling klikt, kunt u een rapportenpakket <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html"> toewijzen </a> aan een Experience Cloud-organisatie. <p>Dit betekent dat u wordt omgeleid naar de pagina Admin-beheer voor het rapporteren van de hyperlinks van de Experience Cloud Organisation - Rapport Suite Mapping waar u de rapportsuite moet vinden en toewijzen aan de juiste organisatie. Zodra dat wordt gedaan, navigeer terug naar deze UI van het Beleid van Gegevens. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Map Report Suite</b>: Als u op deze koppeling klikt, kunt u een rapportenpakket <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"> toewijzen </a> aan een Experience Cloud-organisatie. <p>Dit betekent dat u wordt omgeleid naar de pagina Admin-beheer voor het rapporteren van de hyperlinks van de Experience Cloud Organization - waar u de rapportsuite moet vinden en toewijzen aan de juiste organisatie. Zodra dat wordt gedaan, navigeer terug naar deze UI van het Beleid van Gegevens. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Toegewezen aan een andere organisatie</b>: Een andere Experience Cloud-organisatie heeft deze rapportsuite al toegewezen aan hun organisatie. </li> 
     </ul> </td> 
   </tr> 
