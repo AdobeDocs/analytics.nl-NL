@@ -4,7 +4,7 @@ title: Segmenten verwijderen
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -24,6 +24,6 @@ Wanneer u een segment verwijdert,
 
 ## Ingesloten verwijderde segmenten bewerken in ad-hocanalyse {#section_976D601DBD2244E38B0A0222E31D2610}
 
-Met Ad hoc-analyse kunt u nu ingesloten verwijderde segmenten bewerken in de [Berekende metrische Builder](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) en kunt u de bewerking &quot;Opslaan als&quot; op dat segment uitvoeren.
+Met Ad hoc-analyse kunt u nu ingesloten verwijderde segmenten bewerken in de [Berekende metrische Builder](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) en kunt u de bewerking &quot;Opslaan als&quot; op dat segment uitvoeren.
 
 Alle andere verwijderde segmenten die naar het verwijderde segment verwijzen, blijven echter ongewijzigd.
