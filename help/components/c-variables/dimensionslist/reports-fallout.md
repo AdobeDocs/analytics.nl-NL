@@ -4,7 +4,7 @@ title: Fallout
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,14 +21,14 @@ Dit rapport is nuttig om te analyseren:
 
 **Werkruimte Analyse**
 
-Zie [Klantenreis - Fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html).
+Zie [Klantenreis - Fallout](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 **Rapporten en analyses**
 
-Zie Een [Rapport](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html) van de Vallout in Hulp voor configuratieinformatie in werking stellen.
+Zie Een [Rapport](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html) van de Vallout in Hulp voor configuratieinformatie in werking stellen.
 
 **Ad hoc-analyse**
 
 Analyseer uitvalgegevens op bezoekersniveau. U kunt ook een gedraaid pad zien waarin u een grafiek van uw uitval over een bepaalde periode ziet. U kunt één of groepen pagina&#39;s plaatsen als rapportcontrolepunten, of om het even welke afmeting of metrisch in om het even welke combinatie of opeenvolging toevoegen. U kunt categorieën ook gebruiken die u in marketing rapporten als controlepunten in dit rapport vormt.
 
-Zie [het Rapport](https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_fallout.html) van de Vallout in Hulp voor configuratieinformatie.
+Zie [het Rapport](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-reports-paths.html) van de Vallout in Hulp voor configuratieinformatie.
