@@ -3,7 +3,7 @@ description: Met een interdimensionale stroom kunt u gebruikerspaden in verschil
 title: Interdimensionale stromen
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
 
 ---
 
@@ -59,5 +59,3 @@ Sleep de dimensie van de Naam van de Campagne in een nieuwe stroom:
 Nu wil ik zien aan welke pagina&#39;s die campagnes verkeer drijven, zodat sleep ik de dimensie van de Pagina rechts van de stroomresultaten om op visualisatie toe te voegen:
 
 ![](assets/multi-dimensional-flow9.png)
-
-U kunt dit resultaat vervolgens onderverdelen op basis van andere dimensies of maatstaven, zoals inkomsten, bezoeken, enz.
