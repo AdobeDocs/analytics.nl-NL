@@ -4,7 +4,7 @@ title: Overzicht van rapporten
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -58,7 +58,7 @@ c_reports_campaigns.xml
 
  -->
 
-Deze rapporten zijn gewoonlijk aangepast en dus verschillend voor elke analist. Zie [Campagnebeheer](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) in de [!DNL Admin Console] Help voor meer informatie.
+Deze rapporten zijn gewoonlijk aangepast en dus verschillend voor elke analist. Raadpleeg de Help bij [de](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) beheerconsole voor meer informatie.
 
 ## Statistische berekeningen {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -108,7 +108,7 @@ De functie Gemiddeld wordt berekend op dezelfde manier als kolommen met gegevens
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p>Juni 2013 </p> <p>juli 2013 </p> <p>augustus 2013 </p> </td> 
+   <td colname="col1"> <p>Juni 2013 </p> <p>Juli 2013 </p> <p>augustus 2013 </p> </td> 
    <td colname="col2" align="center"> <p>344 </p> <p>297 </p> <p>41 </p> </td> 
    <td colname="col3" align="center"> <p>1000 </p> <p>1000 </p> <p>1000 </p> </td> 
    <td colname="col4" align="center"> <p>34.4% </p> <p>29.7% </p> <p>41.0% </p> </td> 
