@@ -5,7 +5,7 @@ title: Voorbereiden op het gebruik van gegevensbronnen
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Het is belangrijk om de metriek of de metingen te begrijpen die in uw gegevensbr
 
 Nadat u aangewezen metrisch-aan-gebeurtenis afbeeldingen voor de gegevens van Gegevensbronnen bepaalt, noem de gebeurtenissen met beschrijvende namen aangewezen voor de bijbehorende Metrische Gegevensbronnen anders.
 
-Zie Gebeurtenissen [met succes](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) in de Help voor beheerprogramma&#39;s.
+Zie Gebeurtenissen [met succes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in de Help voor beheerprogramma&#39;s.
 
 >[!NOTE] Adobe raadt u ten zeerste aan nieuwe, lege gebeurtenissen met gegevensbrongegevens te gebruiken, maar in zeldzame gevallen is het verstandig om een bestaande gebeurtenis te gebruiken.
 
@@ -44,7 +44,7 @@ Nadat u de gegevensafmetingen bepaalt om met een gegevensbron te gebruiken, inte
 
 Wanneer u Vars gebruikt, kunt u bestaande of nieuwe Vars gebruiken als gegevensafmetingen. Nadat het selecteren van eVar om een gegevensdimensie van Gegevensbronnen te ontvangen, zorg ervoor u hen geschikt noemt.
 
-Zie Gebeurtenissen [met succes](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) in de Help bij Analytics.
+Zie Gebeurtenissen [met succes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in de Help bij Analytics.
 
 ## Code bijhouden campagne {#section_468222796FF449ABAA90D88EB3264CB1}
 
