@@ -5,7 +5,7 @@ title: Nieuwe functies in de analysewerkruimte
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -20,7 +20,7 @@ Nieuwe functie uitgebracht op 16 april 2020.
 |--- |--- |
 | Automatisch samenstellen [!UICONTROL Freeform Tables] vanuit een leeg frame | Eerder kon u componenten niet direct in een leeg project of leeg paneel laten vallen; u moest eerst een vrije vormlijst toevoegen. U kunt componenten nu rechtstreeks in een leeg project of deelvenster neerzetten. Een vrije-vormtabel wordt automatisch voor u gemaakt in een aanbevolen indeling. Bovendien zijn verbeteringen aangebracht in de manier waarop gemengde componenttypen (zoals afmetingen en metriek) worden verwerkt wanneer deze samen in een lege component worden neergezet [!UICONTROL Freeform Table] . |
 
-## maart 2020
+## Maart 2020
 
 Nieuwe functies uitgebracht op 12 maart 2020.
 
@@ -29,7 +29,7 @@ Nieuwe functies uitgebracht op 12 maart 2020.
 | Ondersteuning voor meerdere rapportsuite in Workspace | U kunt gegevens van veelvoudige rapportreeksen in één enkel project nu brengen om zij aan zij te bekijken. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | Sjabloon voor trainingszelfstudie | Dit nieuwe standaardmalplaatje begeleidt u door gemeenschappelijke terminologie en stappen voor het bouwen van uw eerste analyse in Werkruimte. Het is beschikbaar als standaardmalplaatje in Nieuw Project modaal en vervangt het steekproefproject dat vandaag voor nieuwe gebruikers bestaat die geen andere projecten in hun lijst hebben. [Meer informatie...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
-## februari 2020
+## Februari 2020
 
 Nieuwe functies uitgebracht op 20 februari 2020.
 
@@ -40,7 +40,7 @@ Nieuwe functies uitgebracht op 20 februari 2020.
 | Andere werkruimtesamenhogingen | <ul><li>Wanneer een deelvenster of visualisatie in Workspace wordt neergezet, wordt automatisch overgeschakeld naar componenten voor een naadloze workflow.</li><li>Sjablooncomponenten kunnen nu worden geactiveerd (bijvoorbeeld gelabeld, geprivilegieerd, goedgekeurd).</li><li>De gefilterde metrische lijst en de segmentlijsten bieden + knoop aan om een nieuwe component toe te voegen als u niet vindt wat u nodig hebt.</li></ul> |
 | Foutopsporing werkruimte | Foutopsporing van de Werkruimte is toegevoegd aan het menu van de Hulp, die u een naadloze manier geeft om het voor het zuiveren van de verzoeken van de Werkruimte toe te laten. [Meer informatie...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
-## januari 2020
+## Januari 2020
 
 Nieuwe functie uitgebracht op 16 januari 2020.
 
@@ -58,7 +58,7 @@ Verbeteringen die zijn uitgebracht op 10 oktober 2019.
 | Optie voor het verwijderen van Niet-opgegeven/Geen | De mogelijkheid om &quot;Niet gespecificeerd (niets)&quot; gemakkelijk te verwijderen is toegevoegd als optie om filters te melden. |
 | Afwijking van componenten van paarse korreligheid | De componenten voor de paarse korreligheid (Minuut, Uur, Dag, Week, Maand, Kwart, Jaar) zijn afgekeurd. De componenten voor paarse tijd hebben zich altijd precies gedragen als hun tegenhangers voor oranje dimensies, zodat deze verandering de ervaring zal vereenvoudigen. **Er hoeft geen actie** te worden ondernomen als u eerder een van de paarse tijdcomponenten hebt gebruikt.<br/>Door deze wijziging is de naam van de paarse **[!UICONTROL Time]** sectie ook gewijzigd in **[!UICONTROL Date Ranges]**. |
 
-## augustus 2019
+## Augustus 2019
 
 Verbetering uitgebracht op 8 augustus 2019.
 
@@ -66,7 +66,7 @@ Verbetering uitgebracht op 8 augustus 2019.
 |--- |--- |
 | De itemlimiet voor het vervolgkeuzemenu verhogen van 50 naar 200 | De limiet voor items die in een vervolgkeuzelijst kunnen worden geplaatst, is verhoogd van 50 naar 200. Deze verbetering past een groot aantal gebruiksgevallen aan, zoals het toevoegen van alle landen (195) aan een filter, of alle staten en provincies in de VS (52). |
 
-## juli 2019
+## Juli 2019
 
 Verbeteringen die zijn uitgebracht op 18 juli 2019.
 
@@ -100,7 +100,7 @@ Verbetering uitgebracht op 11 april 2019.
 |--- |--- |
 | Verbeteringen voor optimale werkwijzen | [Prestaties optimaliseren](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 
-## januari 2019
+## Januari 2019
 
 Nieuwe functies en verbeteringen die zijn uitgebracht op 17 januari 2019.
 
@@ -111,7 +111,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 17 januari 2019.
 | [Ondersteuning voor gemultiwaardeerde variabelen in Attribution IQ](attribution-iq.md) | Sommige afmetingen in Analytics kunnen veelvoudige waarden op één enkele klap, zoals listVars, de productvariabele, lijstuitdrukkingen, of koopvaardijeVars bevatten. Met de analysewerkruimte kunt u kenmerk IQ op elk van deze typen variabelen op aanraakniveau toepassen. |
 | Prestatieverbeteringen | De verbeteringen van de snelheid aan het breken visualisaties - de projecten met veel onderbrekingen zullen sneller laden. |
 
-## november 2018
+## November2018
 
 Nieuwe functies en verbeteringen die zijn uitgebracht op 1 november 2018.
 
@@ -147,7 +147,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 11 oktober 2018.
  </tbody> 
 </table>
 
-## september 2018
+## September 2018
 
 Nieuwe en verbeterde functies die zijn uitgebracht op 13 september 2018.
 
@@ -169,11 +169,11 @@ Nieuwe en verbeterde functies die zijn uitgebracht op 13 september 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Nieuwe sjabloon: Audioverbruik</b> </p> </td> 
-   <td colname="col2"> <p>Zie <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html"  > Audio Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>Zie <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-templates.html"  > Audio Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-## augustus 2018
+## Augustus 2018
 
 Nieuwe functies en verbeteringen die zijn uitgebracht op 9 augustus 2018.
 
@@ -196,7 +196,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 9 augustus 2018.
  </tbody> 
 </table>
 
-## juli 2018
+## Juli 2018
 
 Nieuwe en verbeterde functies die zijn uitgebracht op 19 juli 2018.
 
@@ -324,7 +324,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 12 april 2018.
  </tbody> 
 </table>
 
-## maart 2018
+## Maart 2018
 
 Nieuwe en verbeterde functies die zijn uitgebracht op 8 maart 2018.
 
@@ -364,7 +364,7 @@ Nieuwe en verbeterde functies die zijn uitgebracht op 8 maart 2018.
  </tbody> 
 </table>
 
-## februari 2018
+## Februari 2018
 
 Nieuwe functie en verbeteringen uitgebracht op 8 februari 2018.
 
@@ -412,7 +412,7 @@ Nieuwe functie en verbeteringen uitgebracht op 8 februari 2018.
  </tbody> 
 </table>
 
-## januari 2018
+## Januari 2018
 
 Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
 
@@ -468,7 +468,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
    <td colname="col2"> <p>Eerder, toen u een project kopieerde of "sparen als"deed, richten alle intra-verbindingen bewaard in het project op het originele project, niet het gekopieerde project. </p> <p>De intra-verbindingen zijn nu met betrekking tot het project zij binnen leven, nadat u kopieert/sparen-as. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Bijdrage-analyse: Melding <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  > token </a> </p> </td> 
+   <td colname="col1"> <p>Bijdrage-analyse: Melding <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > token </a> </p> </td> 
    <td colname="col2"> <p>Als uw bedrijf een beperkt aantal tokens van de Analyse van de Bijdrage heeft, toont UI van de Werkruimte van de Analyse nu een bericht wanneer u een teken verbruikt. Het laat je weten hoeveel tokens je nog hebt.&amp;nbsp; </p> <p>(Admin-gebruikers: u kunt beperken wie deze tokens kan gebruiken, door de groepstoestemming uit te geven. De toestemming wordt genoemd "Anomaly Detection and Contribution Analysis" onder <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> User Management </span>&gt; <span class="uicontrol"> Edit groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> <span class="uicontrol"> </span> <span class="uicontrol"> </span>&gt; Customize Report Suite Tools &amp; Reports. ) </p> </td> 
   </tr> 
   <tr> 
@@ -486,7 +486,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
  </tbody> 
 </table>
 
-## november 2017
+## November 2017
 
 Nieuwe functie uitgebracht op 9 november 2017.
 
@@ -569,7 +569,7 @@ Nieuwe functies uitgebracht op 26 oktober 2017.
  </tbody> 
 </table>
 
-## september 2017
+## September 2017
 
 Nieuwe functies uitgebracht op 21 september 2017.
 
@@ -630,7 +630,7 @@ Nieuwe functies uitgebracht op 21 september 2017.
  </tbody> 
 </table>
 
-## augustus 2017
+## Augustus 2017
 
 Nieuwe functies uitgebracht op 17 augustus 2017.
 
@@ -665,7 +665,7 @@ Nieuwe functies uitgebracht op 17 augustus 2017.
  </tbody> 
 </table>
 
-## juli 2017
+## Juli 2017
 
 Nieuwe functies uitgebracht op 20 juli 2017.
 
@@ -803,7 +803,7 @@ Nieuwe functies uitgebracht op 20 april 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Personensjabloon </a> </p> </td> 
-   <td colname="col2"> <p>Opmerking:  De sjabloon Personen en de bijbehorende maatstaf Personen zijn alleen beschikbaar voor gebruik als onderdeel van de Adobe Experience Cloud Device Co-op <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html"  > </a>. </p> <p>Het malplaatje is gebaseerd op metrisch van Mensen, die een de-gedupliceerde versie van de Unieke metrische Bezoekers is. Met de maatstaf Mensen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. </p> </td> 
+   <td colname="col2"> <p>Opmerking:  De sjabloon Personen en de bijbehorende maatstaf Personen zijn alleen beschikbaar voor gebruik als onderdeel van de Adobe Experience Cloud Device Co-op <a href="https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html"  > </a>. </p> <p>Het malplaatje is gebaseerd op metrisch van Mensen, die een de-gedupliceerde versie van de Unieke metrische Bezoekers is. Met de maatstaf Mensen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>De optie Verbeteringen voor Ongedaan maken/Opnieuw </p> </td> 
@@ -812,7 +812,7 @@ Nieuwe functies uitgebracht op 20 april 2017.
  </tbody> 
 </table>
 
-## februari 2017
+## Februari 2017
 
 Nieuwe functie uitgebracht op 16 februari 2017:
 
@@ -831,7 +831,7 @@ Nieuwe functie uitgebracht op 16 februari 2017:
  </tbody> 
 </table>
 
-## januari 2017
+## Januari 2017
 
 Nieuwe functie uitgebracht op 19 januari 2017:
 
@@ -866,7 +866,7 @@ Nieuwe functie uitgebracht op 19 januari 2017:
  </tbody> 
 </table>
 
-## november 2016
+## November 2016
 
 Nieuwe functie uitgebracht op 10 november 2016:
 
@@ -973,7 +973,7 @@ Nieuwe functies uitgebracht op 20 oktober 2016:
 
 Nieuwe functies uitgebracht op 16 juni 2016:
 
-* [Nieuwe groepsmachtigingen](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) waarmee beheerders toegang tot het tabblad **[!UICONTROL Analytics]** **[!UICONTROL Workspace]** > voor gebruikers kunnen toestaan of weigeren. Vanaf 16 juni 2016 hebben alle gebruikers toegang tot dit tabblad. Om toegang te ontkennen, verwijder enkel gebruikers uit de groep van de Toegang van de Werkruimte van de Analyse.
+* [Nieuwe groepsmachtigingen](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) waarmee beheerders toegang tot het tabblad **[!UICONTROL Analytics]** **[!UICONTROL Workspace]** > voor gebruikers kunnen toestaan of weigeren. Vanaf 16 juni 2016 hebben alle gebruikers toegang tot dit tabblad. Om toegang te ontkennen, verwijder enkel gebruikers uit de groep van de Toegang van de Werkruimte van de Analyse.
 * Het [paneel van de Vergelijking van het Segment](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)ontdekt de statistisch meest significante verschillen tussen om het even welke twee segmenten door een geautomatiseerde analyse van elke enige metrisch en afmeting u toegang tot hebt.
 * [De nieuwe structuur](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) van het Menu van Projecten die het hoogste menu opnieuw schikt en het uitbreidbaarder maakt. Als u bijvoorbeeld een **nieuw deelvenster** Cohort maakt, maakt u een leeg deelvenster en sleept u in de visualisatie van een kleurentabel.
 * [Nieuwe linkerspoorstaaf](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Deelvensters, visualisaties, componenten
@@ -1011,7 +1011,7 @@ Nieuwe functies uitgebracht op 21 april 2016:
  </tbody> 
 </table>
 
-## januari 2016
+## Januari 2016
 
 Nieuwe functies uitgebracht op 21 januari 2016.
 
