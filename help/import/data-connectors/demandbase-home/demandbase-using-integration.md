@@ -3,7 +3,7 @@ description: Zodra de integratie wordt opgesteld, kunt u beginnen gebruikend de 
 title: De integratie gebruiken
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -32,6 +32,6 @@ Bijvoorbeeld, kunt u een segment bouwen dat slechts Visits van de organisaties v
 
 Publiek is gelijk aan SMB.
 
-Raadpleeg de [handleiding](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)Analytics Segmentation voor meer informatie over het samenstellen van segmenten.
+Raadpleeg de [handleiding](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)Analytics Segmentation voor meer informatie over het samenstellen van segmenten.
 
 Dit segment kan vervolgens worden toegepast op vrijwel elk rapport, zoals bijvoorbeeld het Time Spent per Visit Report dat hier wordt getoond: ![](assets/segment_applied_report.png)
