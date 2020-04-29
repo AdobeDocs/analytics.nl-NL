@@ -4,7 +4,7 @@ title: Rapportage van activiteitstoewijzingen in Analyses
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -23,7 +23,7 @@ Voordat gebruikers de dimensies Activity Map kunnen melden, moet u als beheerder
 
 ## Afmetingen analytische activiteitsoverzicht {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-U kunt gebruikerstoegang tot afmetingen [op korrelig niveau](https://marketing.adobe.com/resources/help/en_US/reference/groups-dimensions.html) aanpassen. Hier zijn de dimensies van de Kaart van de Activiteit beschikbaar in Analytics:
+U kunt gebruikerstoegang tot afmetingen [op korrelig niveau](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html) aanpassen. Hier zijn de dimensies van de Kaart van de Activiteit beschikbaar in Analytics:
 
 | Dimensie | Beschrijving |
 |---|---|
