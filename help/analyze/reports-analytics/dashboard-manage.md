@@ -5,7 +5,7 @@ title: Dashboardbeheer
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -70,7 +70,7 @@ Stappen die beschrijven hoe de gedeelde opties voor dashboardbeheer worden gebru
 
 Bestaande oude oude dashboards worden verder uitgevoerd en u kunt ze nog steeds bewerken, downloaden en plannen; u kunt echter geen nieuwe oude dashboards meer maken. U wordt ten zeerste aangeraden bestaande oudere dashboards te upgraden naar de nieuwere dashboardindeling.
 
->[!NOTE] Voorwaarts beweegt, overweeg het gebruiken van de projecten [van de Werkruimte van de](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) Analyse en hun capaciteit om worden gedownload en worden gepland.
+>[!NOTE] Voorwaarts beweegt, overweeg het gebruiken van de projecten [van de Werkruimte van de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) Analyse en hun capaciteit om worden gedownload en worden gepland.
 
 Wanneer u het verouderde dashboard kopieert, opent het systeem het verouderde dashboard voor bewerking, waar u verouderde inhoud of nieuwe inhoud kunt toevoegen. Wanneer u een verouderd dashboard kopieert, blijft het origineel behouden in de lijst met verouderde dashboards.
 
