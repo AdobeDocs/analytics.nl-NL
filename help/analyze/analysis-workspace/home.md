@@ -3,7 +3,7 @@ description: Aan de slag met Adobe Analytics.
 keywords: Analysis Workspace
 title: Aan de slag-handleiding
 translation-type: tm+mt
-source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -97,6 +97,6 @@ Er zijn veel richtingen om uw begrip van de Werkruimte van de Analyse te verdiep
 
 ### Voor analisten en beheerders die de kwaliteit van de werkruimte in hun organisatie willen verbeteren
 
-* [Machtigingen voor](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)analysewerkruimte: Wijs gebruikersmachtigingen toe aan Workspace via de Adobe Admin Console.
+* [Machtigingen voor](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)analysewerkruimte: Wijs gebruikersmachtigingen toe aan Workspace via de Adobe Admin Console.
 * [Sjablonen in werkruimte](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Creeer malplaatjes zodat kunnen uw collega&#39;s met een projectruimte beginnen die aan hun behoeften wordt aangepast.
 * [Werkruimte krommen](/help/analyze/analysis-workspace/curate-share/curate.md): Maak een project dat beschikbare componenten beperkt, waardoor de werkruimte toegankelijker wordt voor minder bekende gebruikers
