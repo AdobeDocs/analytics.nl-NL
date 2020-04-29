@@ -2,7 +2,7 @@
 title: Een advertentieaccount instellen
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -46,7 +46,7 @@ Beheerders kunnen ook toegang [verlenen tot niet-beheerders](/help/integrate/c-a
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Geef een Google-account-id op. </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Geef de Bing-account-id en de Bing-klant-id op. </li> 
-        </ul> <p>Raadpleeg <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Account-ID</a> zoeken voor meer informatie over deze id's. </p> <p>Zodra u met succes het programma hebt geopend, zal het OAuth Symbolische gebied tonen 
+        </ul> <p>Raadpleeg <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Account-ID</a> zoeken voor meer informatie over deze id's. </p> <p>Nadat u zich hebt aangemeld, wordt het veld OAuth Token weergegeven 
         <systemoutput>
           Opgehaald
         </systemoutput>. </p> </td> 
@@ -84,7 +84,7 @@ Vul de **[!UICONTROL Tracking Settings]** volgende richtlijnen in:
 
    >[!IMPORTANT]
    >
-   >Alleen rapportsuites die zijn [toegewezen aan een Experience Cloud-organisatie](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html) , zijn beschikbaar voor selectie. Raadpleeg [Problemen met advertentieanalyse](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)oplossen als uw rapportsuite niet wordt weergegeven.
+   >Alleen rapportsuites die zijn [toegewezen aan een Experience Cloud-organisatie](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html) , zijn beschikbaar voor selectie. Raadpleeg [Problemen met advertentieanalyse](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)oplossen als uw rapportsuite niet wordt weergegeven.
 
    Voor de **[!UICONTROL Mapping Settings]** volgende richtsnoeren:
 
@@ -98,7 +98,7 @@ Vul de **[!UICONTROL Tracking Settings]** volgende richtlijnen in:
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Toewijzing van rapportsuite </p> </td> 
-      <td colname="col2"> <p>De rapportsuite-toewijzing bepaalt de rapportsuite die wordt gekoppeld aan dit zoekprogrammaaccount. Met andere woorden, het bepaalt in welke rapportsuite(s) de gegevens van de zoekmachine worden verzonden. </p> <p>Als uw rapportsuite niet wordt weergegeven, kunt u deze tool gebruiken om uw rapportenpakket toe te <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  > wijzen aan een Experience Cloud-organisatie</a> . </p> </td> 
+      <td colname="col2"> <p>De rapportsuite-toewijzing bepaalt de rapportsuite die wordt gekoppeld aan dit zoekprogrammaaccount. Met andere woorden, het bepaalt in welke rapportsuite(s) de gegevens van de zoekmachine worden verzonden. </p> <p>Als uw rapportsuite niet wordt weergegeven, kunt u deze tool gebruiken om uw rapportenpakket toe te <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  > wijzen aan een Experience Cloud-organisatie</a> . </p> </td> 
       </tr> 
     </tbody> 
     </table>
