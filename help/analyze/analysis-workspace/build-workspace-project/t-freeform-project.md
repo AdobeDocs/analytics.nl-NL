@@ -5,7 +5,7 @@ title: Een werkruimteproject maken
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -20,7 +20,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van de Werkruimte van de An
 
 1. Specificeer gebruikerstoestemming om projecten tot stand te brengen en te leiden.
 
-   Alvorens tot stand te brengen of een project van de Werkruimte van de Analyse te leiden, moeten de beheerders u aan een groep toevoegen met de toegelaten **[!UICONTROL Create / Curate Projects in Analysis Workspace]** toestemming, of aan de **[!UICONTROL All Report Access]** gebruikersgroep. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groepen](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   Alvorens tot stand te brengen of een project van de Werkruimte van de Analyse te leiden, moeten de beheerders u aan een groep toevoegen met de toegelaten **[!UICONTROL Create / Curate Projects in Analysis Workspace]** toestemming, of aan de **[!UICONTROL All Report Access]** gebruikersgroep. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groepen](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)).
 
 1. Klik in het [!DNL Experience Cloud]deelvenster op **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
