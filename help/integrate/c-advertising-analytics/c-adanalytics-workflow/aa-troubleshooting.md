@@ -3,7 +3,7 @@ description: 'null'
 title: Reclameanalyse problemen oplossen
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -27,7 +27,7 @@ U probeert een nieuwe advertentieaccount [in te](/help/integrate/c-advertising-a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. De rapportsuite wordt niet toegewezen aan de Experience Cloud Org-id van de aanmeldende gebruiker. </p> </td> 
-   <td colname="col2"> <p>Raadpleeg <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  > Kaarten voor rapporten naar een organisatie</a> voor instructies. </p> </td> 
+   <td colname="col2"> <p>Raadpleeg <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  > Kaarten voor rapporten naar een organisatie</a> voor instructies. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. De rapportsuite is niet beschikbaar voor rapportage van Advertising Analytics. </p> </td> 
