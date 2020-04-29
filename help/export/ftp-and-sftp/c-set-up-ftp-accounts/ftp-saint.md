@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: Classificaties
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 De FTP-optie voor classificaties biedt meer flexibiliteit bij het uploaden van grote sets met classificatiegegevens, zoals de mogelijkheid om gegevens te uploaden naar meerdere rapportsets en gegevenssets te uploaden die groter zijn dan 50.000 rijen.
 
-Zie [classificaties](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) voor stappen over het downloaden van classificatiegegevens via FTP en het uploaden van gegevensbestanden via FTP (inclusief de stappen om een FTP-account te maken).
+Zie [classificaties](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) voor stappen over het downloaden van classificatiegegevens via FTP en het uploaden van gegevensbestanden via FTP (inclusief de stappen om een FTP-account te maken).
 
 De tijd die het systeem nodig heeft om deze bestanden te importeren, varieert op basis van een aantal factoren. Als er na zes uur nog een geüpload bestand aanwezig is op de FTP-server, kunt u contact opnemen met de door uw organisatie ondersteunde gebruikers voor de klantenservice van Adobe.
 
