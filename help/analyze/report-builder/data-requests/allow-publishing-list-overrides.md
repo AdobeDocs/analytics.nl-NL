@@ -4,7 +4,7 @@ title: Overschrijvingen van publicatielijsten toestaan
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ Wanneer u een rapport plant, kunt u een het publiceren lijst kiezen voor distrib
 
 Publicatielijsten worden ingesteld in Analytics Admin-programma&#39;s.
 
-Zie [Publicatielijstbeheer](https://marketing.adobe.com/resources/help/en_US/reference/publishing_list.html) in de naslaggids voor analysemogelijkheden.
+Zie [Publicatielijstbeheer](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html) in de naslaggids voor analysemogelijkheden.
 
 Navigeer naar het [!UICONTROL Request Wizard: Step 1] venster om deze functie in te schakelen.
 
