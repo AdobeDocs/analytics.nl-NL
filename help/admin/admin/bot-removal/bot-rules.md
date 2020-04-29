@@ -5,7 +5,7 @@ title: Bot Rules - overzicht
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -37,7 +37,7 @@ Adobe kan de gedetailleerde IAB-bonenlijst niet aan klanten aanbieden, maar u ku
 
 ## Aangepaste botregels
 
->[!NOpmerking] in de gebruikersinterface kunnen 500 regels handmatig worden gedefinieerd. Nadat deze limiet is bereikt, moeten de regels bulksgewijs worden beheerd via de opties voor het importeren van bestanden en het exporteren van regels.
+>[!NOTE] In de gebruikersinterface kunnen 500 regels handmatig worden gedefinieerd. Nadat deze limiet is bereikt, moeten de regels bulksgewijs worden beheerd via de opties voor het importeren van bestanden en het exporteren van regels.
 
 Met aangepaste botregels kunt u op verkeer gebaseerde voorwaarden die u definieert, filteren.
 
