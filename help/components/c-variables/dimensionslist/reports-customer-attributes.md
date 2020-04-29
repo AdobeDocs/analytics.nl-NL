@@ -4,7 +4,7 @@ solution: Experience Cloud,Analytics
 title: Klantkenmerken
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -20,7 +20,7 @@ Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relati
 * [Kenmerken van de klant en rapporteringsmetriek in Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [Veelgestelde vragen - Klantkenmerken in analyse](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-Raadpleeg [Klantkenmerken](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) in de Help van Experience Cloud voor meer informatie over het uploaden van klantkenmerkgegevens.
+Raadpleeg [Klantkenmerken](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in de Help van Experience Cloud voor meer informatie over het uploaden van klantkenmerkgegevens.
 
 ## Kenmerken van de klant en rapporteringsmetriek in Analytics {#section_EF343662146B460A882D3DF772ADD86D}
 
@@ -40,7 +40,7 @@ Als u een tekenreeks opgeeft als *`age`*, maakt het systeem de volgende metriek 
 * Metrische leeftijd: Metrisch kunt u aan een rapport, zoals een Uniek rapport van Bezoekers toevoegen.
 * Aantal metrische leeftijdscijfers: Hiermee kunt u begrijpen, bijvoorbeeld, of bezoekers een *`age`* waarde op een formulier hebben opgegeven.
 
-Omdat de metriek sommen in een rapportlijst zijn, zou u berekende metrisch [moeten](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) creëren die u de gemiddelde leeftijd vertelt. De formule voor deze metrische waarde is `Age / Count of Age`.
+Omdat de metriek sommen in een rapportlijst zijn, zou u berekende metrisch [moeten](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) creëren die u de gemiddelde leeftijd vertelt. De formule voor deze metrische waarde is `Age / Count of Age`.
 
 ## Veelgestelde vragen - Klantkenmerken in analyse {#section_E29641D1F3D649C1AC9EA5231921F038}
 
