@@ -3,7 +3,7 @@ description: 'null'
 title: Een fallout-visualisatie configureren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,7 +16,7 @@ U kunt zelfs segmenten binnen een aanraakpunt toevoegen. U kunt bijvoorbeeld seg
 
 Er geldt geen beperking voor het aantal stappen dat u kunt toevoegen of het aantal gebruikte dimensies.
 
-U kunt tekenen op eVars, met inbegrip van het verhandelen van eVars en [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variabelen die veelvoudige waarden per slag kunnen hebben, zoals producten, listVars, het verhandelen van eVars en lijststeunen). Stel dat iemand bijvoorbeeld naar schoenen kijkt, naar shirt op de ene pagina, en op de volgende pagina die ze bekijken, naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
+U kunt tekenen op eVars, met inbegrip van het verhandelen van eVars en [listVars](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) (variabelen die veelvoudige waarden per slag kunnen hebben, zoals producten, listVars, het verhandelen van eVars en lijststeunen). Stel dat iemand bijvoorbeeld naar schoenen kijkt, naar shirt op de ene pagina, en op de volgende pagina die ze bekijken, naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
 
 1. Sleep een [!UICONTROL Fallout] visualisatie van de drop-down Visualisaties in een [!UICONTROL Freeform Table].
 
