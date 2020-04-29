@@ -2,7 +2,7 @@
 description: U kunt de Classification Rule Builder niet combineren met subclassificaties.
 title: Subclassificaties en de Bouwer van de Regel
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -37,7 +37,7 @@ De stappen van het voorbeeld die beschrijven hoe u sub-classificaties kunt uploa
 >
 >Deze stappen beschrijven hoe te om het gebruiksgeval te verwezenlijken dat in [Subclassificaties en de Bouwer](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)van de Regel wordt beschreven.
 
-1. Classificaties en subclassificaties maken in het [classificatiebeheer](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
+1. Classificaties en subclassificaties maken in het [classificatiebeheer](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html).
 
    Voorbeeld:
 
