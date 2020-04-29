@@ -4,7 +4,7 @@ title: Real-time rapporten
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ U kunt:
 * Gebruik een aangepaste gebeurtenis, winkelwagentje of een andere instantie.
 * Bekijk tot 20 uur historische gegevens in real time.
 
-In real time eerbiedigt toestemmingen voor gebruikers en groepen. Bijvoorbeeld, als u geen rechten hebt om opbrengst te zien, kunt u geen rapport in real time bekijken dat opbrengstgegevens omvat. eVars (conversiemetriek) worden niet ondersteund. Real-Time toestemmingen worden toegelaten in de Hulpmiddelen [](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html)Admin.
+In real time eerbiedigt toestemmingen voor gebruikers en groepen. Bijvoorbeeld, als u geen rechten hebt om opbrengst te zien, kunt u geen rapport in real time bekijken dat opbrengstgegevens omvat. eVars (conversiemetriek) worden niet ondersteund. Real-Time toestemmingen worden toegelaten in de Hulpmiddelen [](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)Admin.
 
->[!NOTE] [!UICONTROL Real-Time Reports] zijn niet het zelfde als de [Include Huidige die eigenschap van Gegevens](https://marketing.adobe.com/resources/help/en_US/arb/options.html) (de Recentie van Gegevens) eerder wordt vrijgegeven, die latentie voor standaard het melden verminderden, door gegevens te tonen alvorens het wordt gebeëindigd.
+>[!NOTE] [!UICONTROL Real-Time Reports] zijn niet het zelfde als de [Include Huidige die eigenschap van Gegevens](hhttps://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) (de Recentie van Gegevens) eerder wordt vrijgegeven, die latentie voor standaard het melden verminderden, door gegevens te tonen alvorens het wordt gebeëindigd.
 
