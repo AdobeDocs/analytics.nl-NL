@@ -4,7 +4,7 @@ title: Trackingcodes
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -45,7 +45,7 @@ Hiermee wordt gemeten welke invloed verschillende volgcodes voor advertenties he
 
 * Klik op **[!UICONTROL Conversion]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** om dit rapport te zoeken, tenzij het menu is aangepast.
 
-* Dit rapport kan ook door alle Variabelen [van de](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)Lijst worden verdeeld.
+* Dit rapport kan ook door alle Variabelen [van de](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/list-var-admin.html)Lijst worden verdeeld.
 * Paginaweergaven, bezoeken en unieke bezoekers zijn beschikbaar als maateenheden.
 * Dit rapport kan van segmenten gebruik maken.
 
