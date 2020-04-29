@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Een gegevenselement maken
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -33,7 +33,7 @@ Maak een gegevenselement in Dynamisch tagbeheer.
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Type</strong></td> 
-      <td class="chdesc stentry"> <p> Hiermee geeft u aan waaruit de gegevens worden opgehaald, zoals JS-object, CSS-kiezer, Cookie, URL-parameter of Aangepast script. </p> <p>Afhankelijk van het type dat u selecteert, worden verschillende opties weergegeven. Zie <a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html"> Typen gegevenselementen</a> in de productdocumentatie voor dynamisch tagbeheer voor meer informatie en voorbeelden. </p> </td> 
+      <td class="chdesc stentry"> <p> Hiermee geeft u aan waaruit de gegevens worden opgehaald, zoals JS-object, CSS-kiezer, Cookie, URL-parameter of Aangepast script. </p> <p>Afhankelijk van het type dat u selecteert, worden verschillende opties weergegeven. Zie <a href="https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html"> Typen gegevenselementen</a> in de productdocumentatie voor dynamisch tagbeheer voor meer informatie en voorbeelden. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Standaardwaarde</strong></td> 
@@ -54,5 +54,5 @@ Maak een gegevenselement in Dynamisch tagbeheer.
     </tr> 
    </table>
 
-   Zie [Gegevenselementen](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html) in de productdocumentatie van het Beheer van de Markering van Adobe voor meer informatie over hoe te om gegevenselementen te gebruiken.
+   Zie [Gegevenselementen](https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html) in de productdocumentatie van het Beheer van de Markering van Adobe voor meer informatie over hoe te om gegevenselementen te gebruiken.
 1. Klik op **[!UICONTROL Save Data Element]**.
