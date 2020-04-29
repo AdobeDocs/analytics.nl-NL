@@ -4,7 +4,7 @@ title: Methode voor het bijhouden van koppelingen
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,7 +15,7 @@ Deze sectie is bedoeld voor Adobe Analytics-beheerders. Het concentreert zich op
 
 >[!IMPORTANT]
 >
->Elke koppeling waarbij de tekst (niet de href) PII (Persoonlijk Identificeerbare informatie) kan bevatten, moet expliciet worden geïmplementeerd met [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) of door de ActivityMap-linkverzameling met [s.ActivityMap.linkExclusions of s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars)uit te sluiten. Voor meer informatie over hoe de Kaart van de Activiteit PII gegevens kan verzamelen, ga [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Elke koppeling waarbij de tekst (niet de href) PII (Persoonlijk Identificeerbare informatie) kan bevatten, moet expliciet worden geïmplementeerd met [s_objectID](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) of door de ActivityMap-linkverzameling met [s.ActivityMap.linkExclusions of s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars)uit te sluiten. Voor meer informatie over hoe de Kaart van de Activiteit PII gegevens kan verzamelen, ga [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 De kaart van de activiteit baseert zijn verbinding het volgen op deze twee IDs:
 
@@ -126,7 +126,7 @@ Deze variabelen worden alleen ter referentie vermeld. De Kaart van de activiteit
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> s.ActivityMap.regionIDAtribute </td> 
+   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
    <td colname="col2"> Wordt standaard ingesteld op de parameter "id". U kunt dit instellen op een andere parameter. </td> 
    <td colname="col3"> Tekenreeks die het tagkenmerk identificeert dat moet worden gebruikt als regio-id van een bovenliggend element (parent, parent.parent, ...) van s.linkObject, dat wil zeggen <b>het element waarop is geklikt</b>. </td> 
   </tr> 
