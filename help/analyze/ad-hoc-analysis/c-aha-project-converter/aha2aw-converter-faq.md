@@ -3,7 +3,7 @@ description: 'null'
 title: Veelgestelde vragen over projectconversie
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -50,9 +50,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>A: Grafieken en grafieken worden in Workspace 'visualisaties' genoemd. </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>Instellingen</b>: Visualisatie-instellingen zoals "Aantal items" of "Aantal balken" worden niet ondersteund in Workspace. </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Cirkeldiagram</b>: Geëxporteerd als een <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/donut.html"  > Donut</a> -visualisatie. Deze visualisatie in Workspace is beperkt tot 19 secties. </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Bubbeldiagram</b>: Geëxporteerd als een <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/scatterplot.html"  > verstrooiingsperceel</a> . Standaard tekent het beelddiagram de eerste metrische waarde op de x-as en de tweede metrische waarde op de y-as. Als er slechts één metrische waarde is, zullen de borstelgrafieken in de visualisaties van de Lijn worden omgezet. </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogram</b>: Ondersteunt een andere logica voor bitsgewijze analyse in Workspace ten opzichte van ad-hocanalyse. Daarom wordt het omgezet in een <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/bar.html"  > Bar</a> visualisatie. </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Cirkeldiagram</b>: Geëxporteerd als een <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/donut.html"  > Donut</a> -visualisatie. Deze visualisatie in Workspace is beperkt tot 19 secties. </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Bubbeldiagram</b>: Geëxporteerd als een <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  > verstrooiingsperceel</a> . Standaard tekent het beelddiagram de eerste metrische waarde op de x-as en de tweede metrische waarde op de y-as. Als er slechts één metrische waarde is, zullen de borstelgrafieken in de visualisaties van de Lijn worden omgezet. </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogram</b>: Ondersteunt een andere logica voor bitsgewijze analyse in Workspace ten opzichte van ad-hocanalyse. Daarom wordt het omgezet in een <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/bar.html"  > Bar</a> visualisatie. </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Spreidingsperceel</b>: In uitgevoerde projecten in de Werkruimte van de Analyse, wordt de y-as geplaatst als eerste kolom, x-as is de tweede kolom, en de diameter is de derde kolom. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Uitvaltabellen</b>: Als u doorhalings- of uitvaltabellen wilt weergeven, klikt u met de rechtermuisknop op het controlepunt en selecteert u een uitsplitsingsoptie. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Datumbereiken</b>op rapportniveau: De aangepaste waaiers van de rapportdatum zijn niet toegepast op de visualisaties van de Uitval. </li> 
@@ -68,7 +68,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">De ad hoc de werkruimte-vlakke segmenten van de Analyse worden toegepast op het project/werkruimteniveau in Werkruimte. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">De ad hoc analyse rapport-vlakke segmenten worden toegepast op het niveau van de lijstkolom in Werkruimte. </li> 
      <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">De ad hoc de lijstsegmenten van de Analyse worden toegepast op het kolomniveau in Werkruimte. </li> 
-    </ul> <p>U kunt segmenten bewerken in de <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  > Segment Builder</a>. </p> </td> 
+    </ul> <p>U kunt segmenten bewerken in de <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  > Segment Builder</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Hoe worden datumbereiken geconverteerd?</b> </p> </td> 
@@ -86,7 +86,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <li id="li_010572F793F54680ABE64117DAB7E800">De berekende metriek zijn intern aan het uitgevoerde project (niet openbaar). U kunt ervoor kiezen om ze openbaar te maken door met de rechtermuisknop op de metrische waarde te klikken en op Openbaar <span class="uicontrol"></span>maken te klikken. <p><img placement="inline"  src="assets/calc_metric_internal.png" id="image_EA19BA55B161499CBDB9275A5C94BA90" width="200px" /> </p> </li> 
      <li id="li_930546EC8FEB432C8810FAF93556FC9A">Alle soorten berekende metriek worden gesteund voor de uitvoer. </li> 
      <li id="li_DFF7C6F8BB2344928D49194DA0F6EC38"><b>Toewijzingstypen</b>: Hoewel de Werkruimte van de Analyse niet het toewijzingstype van berekende metrisch uitdrukkelijk toont, leidt de uitvoer tot en past het toewijzingstype aan dat in Ad hoc Analyse aanwezig was. </li> 
-    </ul> <p>U kunt het toewijzingstype in de <a href="https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/"  > Berekende Metrische Bouwer</a> uitgeven door het Edit (potlood) pictogram te klikken. </p> </td> 
+    </ul> <p>U kunt het toewijzingstype in de <a href="https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html"  > Berekende Metrische Bouwer</a> uitgeven door het Edit (potlood) pictogram te klikken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Hoe worden de Globale Montages van Gegevens in Ad Hoc toegepast op omgezette projecten?</b> </p> </td> 
@@ -99,10 +99,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   <tr> 
    <td colname="col1"> <p><b>V: Als mijn Ad hoc project van de Analyse gepland is, zal het programma in de Werkruimte van de Analyse worden omgezet?</b> </p> </td> 
    <td colname="col2"> <p>Nee, schema's worden niet omgezet. In de Werkruimte van de Analyse, open het project u zou willen plannen en ga naar <span class="uicontrol"> Aandeel</span> &gt; het Dossier van de Verzending op Programma <span class="uicontrol"></span> aan opstelling een nieuw programma. Ben zeker om uw gepland project in Ad hoc Analyse te annuleren. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>V: Zijn er naamgevingsverschillen tussen de twee gereedschappen?</b> </p> </td> 
-   <td colname="col2"> <p>A: Ja. Zie <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html"  > Vergelijking van Zeer belangrijke Terminologie </a>in de documentatie van de Werkruimte van de Analyse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
