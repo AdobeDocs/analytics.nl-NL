@@ -4,7 +4,7 @@ title: Pagina's niet gevonden
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ Hiermee kunt u pagina&#39;s identificeren die verbroken koppelingen bevatten en 
 
 **Eigenschappen**
 
-* Dit rapport verwijst rechtstreeks naar gegevens uit de [pageType](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagetype.html) -variabele die op uw website is geïmplementeerd.
+* Dit rapport verwijst rechtstreeks naar gegevens uit de [pageType](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagetype.html) -variabele die op uw website is geïmplementeerd.
 * Dit rapport kan zowel in trended- als gerangschikte notaties worden weergegeven.
 * Als u op het vergrootglaspictogram klikt, ziet u de bovenste verwijzingen naar die specifieke pagina.
 
