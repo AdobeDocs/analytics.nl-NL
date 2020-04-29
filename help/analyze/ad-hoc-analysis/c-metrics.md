@@ -3,7 +3,7 @@ description: De metriek zijn kwantitatieve informatie over bezoekersactiviteit, 
 title: Metrisch
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Standaardmeetwaarden zijn:
 * **Conversie**: Gegevens over succesgebeurtenissen op uw website weergeven. Tot succesvolle gebeurtenissen behoren onder andere aankopen, downloads of andere handelingen die gebruikers op uw website moeten uitvoeren.
 * **Berekend**: Aanpasbare metriek die door andere metriek wordt gecreeerd te combineren. Bijvoorbeeld, kon u metrisch tot stand brengen die de sleutelwoordkosten en de kosten van goederen van de opbrengst aftrekt om netto opbrengst te krijgen. Vervolgens zou u dit bedrag kunnen delen door het totale aantal bestellingen om de gemiddelde netto-inkomsten per bestelling te verkrijgen.
 
-Zie [Metrische definities](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) in de *Referentie* van de Analyse voor informatie over hoe de metriek in [!DNL Experience Cloud].
+Zie [Metrische definities](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metricslist.html) in de *Referentie* van de Analyse voor informatie over hoe de metriek in [!DNL Experience Cloud].
 
 Met het [!UICONTROL Organize Metrics] gereedschap kunt u nieuwe mappen voor uw metriek maken. U kunt metriek dan groeperen om het even welke manier u wilt. Met de Organizer kunt u bestaande metrische gegevens naar uw aangepaste mappen kopiëren met behulp van slepen en neerzetten.
 
@@ -80,7 +80,7 @@ c_calc_metric_builder.xml
 
  -->
 
-Zie de [Berekende metrische handleiding](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)voor meer informatie over hoe Berekende metriek worden gebouwd en beheerd.
+Zie de [Berekende metrische handleiding](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html)voor meer informatie over hoe Berekende metriek worden gebouwd en beheerd.
 
 Hieronder ziet u hoe u de Berekende metrische Bouwer in Ad hoc Analyse opent:
 
