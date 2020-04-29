@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Overzicht van Audience Analytics
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -44,7 +44,7 @@ Zorg ervoor dat aan de volgende voorwaarden is voldaan:
 * U bent een klant van zowel Audience Manager als de Analytics van Adobe.
 * U bent beheerder van Audience Manager.
 * U gebruikt identiteitsservice v1.5 of hoger.
-* AAM en Adobe Analytics-rapportreeksen zijn [toegewezen aan dezelfde Experience Cloud-organisatie](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
-* U gebruikt [server-zijdoor:sturen](/help/admin/admin/c-server-side-forwarding/ssf.md) en hebt de module [van het Beheer van de](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) Publiek (geen code DIL) - AppMeasurement 1.5 of later uitgevoerd.
+* AAM en Adobe Analytics-rapportreeksen zijn [toegewezen aan dezelfde Experience Cloud-organisatie](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
+* U gebruikt [server-zijdoor:sturen](/help/admin/admin/c-server-side-forwarding/ssf.md) en hebt de module [van het Beheer van de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) Publiek (geen code DIL) - AppMeasurement 1.5 of later uitgevoerd.
 
 Deze voorwaarden worden beschreven in de Workflow [van de Analyse van de](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)Publiek.
