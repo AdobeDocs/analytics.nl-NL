@@ -4,7 +4,7 @@ title: Segmenten beheren
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ De Bouwer van het rapport kenmerkt een segmentatiepaneel in Stap 1 van de Tovena
 >[!NOTE] Om segmenten toe te voegen of uit te geven, lanceert de het segmentinterface van de Bouwer van het Rapport de het segmentbouwer van Analytics in een venster van Microsoft Internet Explorer. Uw rapportbuildersessie blijft actief. Andere browsers dan Internet Explorer worden niet ondersteund voor deze bewerking.
 
 1. Klik in het segmentpaneel van Stap 1 van de wizard Verzoek op **[!UICONTROL Add]**.
-1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Raadpleeg [https://marketing.adobe.com/resources/help/en_US/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)voor informatie over het samenstellen van segmenten.
+1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Voor informatie over hoe te om segmenten te bouwen, verwijs naar [de segmentatie](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)van Analytics.
 1. Nadat u het segment hebt bepaald en bewaard, ga terug naar de Tovenaar van het Verzoek.
 1. Klik op het pictogram Vernieuwen om de segmentlijst te vernieuwen.
 
@@ -39,7 +39,7 @@ U kunt specifieke combinaties rapportafmetingen hebben die u in een segment zou 
 
    ![](assets/seg_in_context.png)
 
-   Zie de [segmentatiegids](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)voor meer informatie over containers.
+   Zie de [segmentatiegids](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)voor meer informatie over containers.
 
 1. De gebruikersinterface van Segment Builder wordt nu in Internet Explorer gestart. De UI van de Bouwer van het Segment zal met de container en de filter worden geïnitialiseerd u specificeerde.
 1. Nadat u een naam en een beschrijving aan het segment hebt toegevoegd, sparen het.
