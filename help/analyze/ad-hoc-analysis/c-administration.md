@@ -3,7 +3,7 @@ description: Configureer gebruikers en leer meer over gegevenssampling.
 title: Beheer
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Configureer gebruikers en leer meer over gegevenssampling.
 
-Zie de [!DNL Admin Console] Analytics Reference [voor](https://marketing.adobe.com/resources/help/en_US/reference/index.html)hulp.
+Zie de [!DNL Admin Console] Analytics Reference [voor](https://docs.adobe.com/content/help/en/analytics/landing/home.html)hulp.
 
 ## Gebruikerslicenties {#concept_C1440741C77C471EB38A243B013EA620}
 
