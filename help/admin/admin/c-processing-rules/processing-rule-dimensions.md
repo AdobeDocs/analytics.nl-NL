@@ -5,7 +5,7 @@ title: Beschikbare afmetingen voor verwerkingsregels
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -38,7 +38,7 @@ De afmetingen die u kunt lezen en schrijven (tenzij anders vermeld) gebruikend v
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contextgegevensvariabelen </p> </td> 
-   <td colname="col2"> <p>Benoemde variabelen die met een hit worden verzonden. </p> <p>Opmerking:  Om het even welke gegevens in een Variabele van de Gegevens van de Context moeten aan een rapporteringsvariabele worden gekopieerd om in een rapport te verschijnen. De Variabelen van de Gegevens van de context zijn niet viewable in om het even welke rapporteringsinterface, met inbegrip van de Gegevensvoer ClickStream. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Kopieer een variabelen voor contextgegevens naar een eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Een gebeurtenis instellen met een Context Data-variabele </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> Contextgegevensvariabelen</a> </p> </td> 
+   <td colname="col2"> <p>Benoemde variabelen die met een hit worden verzonden. </p> <p>Opmerking:  Om het even welke gegevens in een Variabele van de Gegevens van de Context moeten aan een rapporteringsvariabele worden gekopieerd om in een rapport te verschijnen. De Variabelen van de Gegevens van de context zijn niet viewable in om het even welke rapporteringsinterface, met inbegrip van de Gegevensvoer ClickStream. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Kopieer een variabelen voor contextgegevens naar een eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Een gebeurtenis instellen met een Context Data-variabele </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Contextgegevensvariabelen</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
