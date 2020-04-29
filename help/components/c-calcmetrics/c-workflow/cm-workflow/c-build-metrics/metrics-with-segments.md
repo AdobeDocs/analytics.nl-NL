@@ -3,7 +3,7 @@ description: Het segmenteren op individuele metriek staat u toe om metrische ver
 title: Gesegmenteerde metriek
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -28,7 +28,7 @@ Laten we de eerste vraag nader onderzoeken: Hoe vergelijk het gedrag van bladere
 
    >[!NOTE]
    >
-   >U kunt dit ook doen in de Bouwer [van het](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)Segment, maar wij hebben het werkschema vereenvoudigd door dimensies ter beschikking te stellen in Berekende Metrische Bouwer.
+   >U kunt dit ook doen in de Bouwer [van het](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)Segment, maar wij hebben het werkschema vereenvoudigd door dimensies ter beschikking te stellen in Berekende Metrische Bouwer.
 
    >[!NOTE]
    >
