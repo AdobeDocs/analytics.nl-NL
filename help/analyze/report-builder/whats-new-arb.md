@@ -3,7 +3,7 @@ description: Vermeldt de huidige en vorige releases en de bijbehorende functies.
 title: Nieuw in de Bouwer van het Rapport
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -44,15 +44,15 @@ Het combineren van het rapport-generatie vermogen van de Bouwer van het Rapport 
 
 ## Report Builder 5.3{#rb-5-3-section}
 
-* [Virtuele rapportsets](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)
-* [Ervaar het Cloud-publiek in Analytics](https://marketing.adobe.com/resources/help/en_US/mcloud/mc-audiences-aam.html)
-* [AEM Assets Reporting](https://marketing.adobe.com/resources/help/en_US/reference/aem-assets-reporting.html)
+* [Virtuele rapportsets](https://docs.adobe.com/help/en/analytics/components/virtual-report-suites/vrs-about.html)
+* [Ervaar het Cloud-publiek in Analytics](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* [AEM Assets Reporting](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
 
 ## Report Builder 5.2{#rb-5-2-section}
 
 * **Berekende Bouwer van het Rapport van Metriek** 5.2 steunt de Analyse van Adobe [Verenigde Berekende Metriek](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md). Onder andere innovaties, hebben alle berekende metriek nu een globale identiteitskaart - zij zijn niet meer beperkt tot één rapportreeks.
 
-* **Verbeterd zoeken naar rapporten en metriek** Met meer [eVars en gebeurtenissen](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) die aan de Analytics van Adobe worden toegevoegd, neemt het aantal rapporten en metriek beduidend toe die in de Bouwer van het Rapport van Adobe worden aangeboden. Om het onderzoek te vereenvoudigen, zijn een paar nieuwe onderzoeksbars toegevoegd aan de Tovenaar van het Verzoek: één voor [rapportonderzoek](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) en één om [metriek](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)te zoeken.
+* **Verbeterd zoeken naar rapporten en metriek** Met meer [eVars en gebeurtenissen](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) die aan de Analytics van Adobe worden toegevoegd, neemt het aantal rapporten en metriek beduidend toe die in de Bouwer van het Rapport van Adobe worden aangeboden. Om het onderzoek te vereenvoudigen, zijn een paar nieuwe onderzoeksbars toegevoegd aan de Tovenaar van het Verzoek: één voor [rapportonderzoek](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) en één om [metriek](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)te zoeken.
 
-* **De attributen** van de Klant van Attributen van de klant worden opgeslagen in nieuw type van element genoemd VisAttr, dat als dimensie of metrisch kan worden gevormd. Raadpleeg de Help bij [Experience Cloud voor meer informatie over het uploaden van klantkenmerken](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html).
+* **De attributen** van de Klant van Attributen van de klant worden opgeslagen in nieuw type van element genoemd VisAttr, dat als dimensie of metrisch kan worden gevormd. Raadpleeg de Help bij [Experience Cloud voor meer informatie over het uploaden van klantkenmerken](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html).
 
