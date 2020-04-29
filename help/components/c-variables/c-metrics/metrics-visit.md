@@ -5,7 +5,7 @@ title: Bezoek
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,9 +34,9 @@ Een bezoek komt niet altijd overeen met een browsersessie. Als een bezoeker bijv
 
 Wanneer een bezoek eindigt, zijn alle variabelen met een bezoekafloop verlopen en blijven niet meer bestaan. De meting van het bezoeknummer wordt verhoogd bij het volgende bezoek voor deze bezoeker.
 
->[!NOTE] Als u Analytics gebruikt als rapportagebron voor Adobe Target, raadpleegt u het [minimaliseren van het aantal opgeblazen bezoekers en bezoekers in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in de [!DNL Target] documentatie.
+>[!NOTE] Als u Analytics gebruikt als rapportagebron voor Adobe Target, raadpleegt u het [minimaliseren van het aantal opgeblazen bezoekers en bezoekers in A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/troubleshoot-a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in de [!DNL Target] documentatie.
 
-Raadpleeg de handleiding voor de implementatie van Adobe Analytics voor meer informatie [Unieke bezoekers](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) identificeren.
+Raadpleeg de handleiding voor de implementatie van Adobe Analytics voor meer informatie [Unieke bezoekers](https://docs.adobe.com/content/help/en/analytics/technotes/visitor-identification.html) identificeren.
 
 **Tijdvakken**
 
