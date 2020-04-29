@@ -3,7 +3,7 @@ description: Een uitvoerige lijst en beschrijvingen van de configuratievariabele
 title: Server-kant die gegevens en codeverwijzing door:sturen
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -14,7 +14,7 @@ Een uitvoerige lijst en beschrijvingen van de configuratievariabelen, de kopball
 
 ## Configuratievariabelen {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameters die vooraf zijn ingesteld met `d_*` identificatie van speciale sleutelwaardeparen op systeemniveau die worden gebruikt door onze [gegevensverzamelingsservers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS). Zie ook [Ondersteunde kenmerken voor DCS API-aanroepen](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
+Parameters die vooraf zijn ingesteld met `d_*` identificatie van speciale sleutelwaardeparen op systeemniveau die worden gebruikt door onze [gegevensverzamelingsservers](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Zie ook [Ondersteunde kenmerken voor DCS API-aanroepen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Parameter | Beschrijving |
 |--- |--- |
@@ -40,7 +40,7 @@ Deze kopballen zijn gebieden bevatten informatie zoals verzoeken om gegevens en 
 
 ## Door de klant gedefinieerde signalen {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-De parameters prefixed met `c_` identificeren klant-bepaalde variabelen. Zie ook [Gesteunde Attributen voor Vraag](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)DCS API.
+De parameters prefixed met `c_` identificeren klant-bepaalde variabelen. Zie ook [Gesteunde Attributen voor Vraag](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)DCS API.
 
 | Signaal | Beschrijving |
 |--- |--- |
