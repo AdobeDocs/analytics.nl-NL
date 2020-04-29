@@ -4,7 +4,7 @@ title: Ontvangsten
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -40,7 +40,7 @@ Met Revenue kunt u het algemene succes en de trend van uw site bekijken. U kunt 
 
 * [!UICONTROL Revenue] het totale bedrag voor een tijdsperiode wordt afgerond op de dichtstbijzijnde valutawaarde. Het rondt niet elk afzonderlijk product of hit.
 * Omdat Analytics elke dag naar de dichtstbijzijnde hele valuta afrondt, is het vergelijken van de som van elke dag met het maandelijkse totaal met een zeer klein bedrag. Dit is omdat het maandtotaal niet de som is van elke afgeronde dag, het is de absolute som afgerond op de dichtstbijzijnde hele valuta.
-* U kunt een rapport maken dat geen inkomsten naar de dichtstbijzijnde gehele valuta afrondt met een [berekende maatstaf](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+* U kunt een rapport maken dat geen inkomsten naar de dichtstbijzijnde gehele valuta afrondt met een [berekende maatstaf](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html).
 * Tenzij de `purchaseID` variabele wordt gebruikt, kunnen gebruikers die de pagina vernieuwen inkomsten verhogen wanneer deze gegevens meerdere keren naar Adobe worden verzonden.
 * Uuruitsplitsingen zijn gebaseerd op de tijdzone van de rapportsuite.
 * Dit rapport bevat geen regelitems. Deze kan alleen in trended-indeling worden weergegeven.
