@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Niet-gepubliceerde regels voor Akamai-hosting testen
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 Test niet-gepubliceerde regels vanaf uw console als u Akamai-hosting gebruikt.
 
-De insteekmodule van de Schakelaar is vaak de gemakkelijkste manier om te testen. Zie [Zoeken in insteekmodules](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) in de documentatie bij producten voor dynamisch tagbeheer voor meer informatie.
+De insteekmodule van de Schakelaar is vaak de gemakkelijkste manier om te testen. Zie [Zoeken in insteekmodules](https://docs.adobe.com/content/help/en/dtm/using/resources/plugins/search-discovery-plugins.html) in de documentatie bij producten voor dynamisch tagbeheer voor meer informatie.
 
 De volgende stappen tonen hoe te om te testen zonder de elektrisch toestel van de Schakelaar te gebruiken:
 
