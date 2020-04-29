@@ -4,7 +4,7 @@ keywords: privacy
 title: Privacyoverzicht
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Analytics verzamelt de volgende gegevens:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe heeft het plaatsen IP-Obfuscation toegelaten: Ingeschakeld - IP Verwijderd (x.x.x.x) standaard voor alle klanten met een rapportsuite ingesteld in EMEA. Met dit het plaatsen, zal het IP adres volledig met de waarde (x.x.x.x) na geolookup worden vervangen en is niet meer beschikbaar als gegevenspunt. <p>Deze basisvervangingsmethode kan niet worden omgekeerd-gebouwd terug naar een uniek, specifiek IP Adres. De klant en Adobe hebben geen toegang tot het IP-adres. het is onomkeerbaar geanonimiseerd . Voor meer informatie over andere IP verduisteringsmontages, verwijs naar </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe heeft het plaatsen IP-Obfuscation toegelaten: Ingeschakeld - IP Verwijderd (x.x.x.x) standaard voor alle klanten met een rapportsuite ingesteld in EMEA. Met dit het plaatsen, zal het IP adres volledig met de waarde (x.x.x.x) na geolookup worden vervangen en is niet meer beschikbaar als gegevenspunt. <p>Deze basisvervangingsmethode kan niet worden omgekeerd-gebouwd terug naar een uniek, specifiek IP Adres. De klant en Adobe hebben geen toegang tot het IP-adres. het is onomkeerbaar geanonimiseerd . Voor meer informatie over andere IP verduisteringsmontages, verwijs naar </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Algemeen </td> 
