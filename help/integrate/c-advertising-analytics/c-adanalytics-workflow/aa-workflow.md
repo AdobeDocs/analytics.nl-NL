@@ -3,7 +3,7 @@ description: 'null'
 title: Workflowoverzicht
 uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/step1_icon.png) Wijs een Analytics-rapportenpakket toe waar u de zoekgegevens van Google/Bing wilt weergeven aan uw Experience Cloud-organisatie.
 
-Zie [het rapportreeksen van de Kaart aan een organisatie](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
+Zie [het rapportreeksen van de Kaart aan een organisatie](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) Rapportage voor advertentieanalyse per rapportsuite [inschakelen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
