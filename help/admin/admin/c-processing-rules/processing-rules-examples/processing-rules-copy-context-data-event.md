@@ -5,7 +5,7 @@ title: Een gebeurtenis instellen met een variabele van een contextgegevens
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -35,4 +35,4 @@ Bijvoorbeeld:
 
 ![](assets/processing_rule_set_event.png)
 
-Zie [Contextgegevensvariabelen](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) in de Help bij Implementatie.
+Zie [Contextgegevensvariabelen](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) in de Help bij Implementatie.
