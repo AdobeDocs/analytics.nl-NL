@@ -3,7 +3,7 @@ description: Voeg of beheer server alle gebruiksalarm toe. Wanneer u opstelling 
 title: Gebruikswaarschuwingen voor serveroproep
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,7 +14,7 @@ Wanneer u opstelling een alarm, het op alle rapportsuites in alle login bedrijve
 
 ## Overzicht
 
-Een nieuwe waakzame geroepen categorie **[!UICONTROL Server Calls Usage Alert]** is een deel van het bestaande [Waakzame Beheer](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) gebruikersinterface.
+Een nieuwe waakzame geroepen categorie **[!UICONTROL Server Calls Usage Alert]** is een deel van het bestaande [Waakzame Beheer](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) gebruikersinterface.
 
 Het is pre-bevolkt met **1 standaardalarm** dat binnen om het even welk login bedrijf verschijnt dat toegang tot de eigenschap van het Gebruik van de Vraag van de Server heeft. Dit alarm brengt een bericht teweeg dat aan alle beheerders van het login bedrijf wordt gericht als één van de volgende criteria wordt voldaan:
 
@@ -71,6 +71,6 @@ Waarschuwingen beheren:
    | Naam wijzigen | U kunt de naam van alle waarschuwingen wijzigen, behalve standaardwaarschuwingen. |
    | Goedkeuren | Waarschuwingen goedkeuren om ze &quot;officieel&quot; te maken. |
    | In-/uitschakelen | U kunt alle waarschuwingen in- of uitschakelen, ook de standaardwaarschuwingen. |
-   | Vernieuwen | Wanneer een of meer waarschuwingen zijn geselecteerd, kunnen deze worden vernieuwd. Hierdoor worden de vervaldatums verlengd tot één jaar vanaf de dag waarop [!UICONTROL Renew] is geklikt, ongeacht de oorspronkelijke vervaldatum. |
+   | Vernieuwen | Wanneer een of meer waarschuwingen zijn geselecteerd, kunnen deze worden vernieuwd. Hierdoor worden de vervaldatums verlengd tot één jaar vanaf de dag waarop [!UICONTROL Renew] werd geklikt, ongeacht de oorspronkelijke vervaldatum. |
    | Exporteren naar CSV | Zie Rapport [downloadverbruik](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
