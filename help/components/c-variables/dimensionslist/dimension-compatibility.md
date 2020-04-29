@@ -2,7 +2,7 @@
 title: Compatibiliteit met analytische afmetingen
 description: Referentie voor analytische afmetingen en rapporten.
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -203,9 +203,9 @@ Rapporten &amp; Analytics bevat veelvoudige pre-gevormde rapporten die of niet a
 * Java-versie
 * Talen
 * Langste paden
-* Mediagelijktijdige viewers
-* Media Daypart
-* Details media
+* Gelijktijdige mediaviewers
+* Media-daypart
+* Details van media
 * Overzicht van media
 * Monitorresoluties
 * Netto protocollen
@@ -369,7 +369,7 @@ Rapporten &amp; Analytics bevat veelvoudige pre-gevormde rapporten die of niet a
 
 ### Nielsen Integration
 
-Zie [Nielsen-partnerschap](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html)voor meer informatie over hoe u deze integratie kunt implementeren.
+Zie [Nielsen-partnerschap](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)voor meer informatie over hoe u deze integratie kunt implementeren.
 
 | Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
