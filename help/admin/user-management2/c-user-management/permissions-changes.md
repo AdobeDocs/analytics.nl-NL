@@ -6,7 +6,7 @@ title: Wijzigingen in machtigingen voor gebruikers en groepen
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -61,12 +61,12 @@ Omdat de API en de interface hetzelfde machtigingssysteem gebruiken, zijn alle m
    <td colname="col2"> <p>U kunt machtigingen aanpassen om toegang tot afmetingen op te nemen of uit te sluiten (naast metriek). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Alle huidige afmetingen en metriek binnen aangepaste groepen zijn automatisch gemigreerd naar de nieuwe categorieën. Als metriek is ingeschakeld voor een bestaande groep, krijgt deze standaard alle nieuw toegestane afmetingen (eVars en inhoud behouden) en maatstaven. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Machtigingen van de importmodule voor classificaties (voorheen SAINT): Toegang tot classificaties wordt bepaald door toegang tot de <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html"> variabele</a> waarop de classificatie is gebaseerd. </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Machtigingen van de importmodule voor classificaties (voorheen SAINT): Toegang tot classificaties wordt bepaald door toegang tot de <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html"> variabele</a> waarop de classificatie is gebaseerd. </li> 
     </ul> <p>Zie <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Dimensie-machtigingen</a>aanpassen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>Wordt alleen aanbevolen voor nieuwe klanten of klanten met bedrijven <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html"> die zijn ingericht in de Experience Cloud</a>. Er is een migratie gepland voor bestaande klanten van <span class="keyword"> Analytics</span> naar het <span class="keyword"> Experience Cloud</span> -systeem voor identiteitsbeheer. </p> <p>Meer informatie vindt u in <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html"> Productmachtigingen beheren in de beheerconsole</a>. </p> </td> 
+   <td colname="col2"> <p>Wordt alleen aanbevolen voor nieuwe klanten of klanten met bedrijven <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html"> die zijn ingericht in de Experience Cloud</a>. Er is een migratie gepland voor bestaande klanten van <span class="keyword"> Analytics</span> naar het <span class="keyword"> Experience Cloud</span> -systeem voor identiteitsbeheer. </p> <p>Meer informatie vindt u in <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html"> Productmachtigingen beheren in de beheerconsole</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,7 +137,7 @@ De volgende tabel bevat een overzicht van taken en de plaats waar deze kunnen pl
  <tbody> 
   <tr> 
    <td colname="col1"> Een gebruiker maken </td> 
-   <td colname="col2"> <p>Admin Console (het creëren van een gebruiker en het toevoegen van hem of haar aan een het <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> productconfiguratie</a> van de Analyse leidt ook tot de gebruikersrekening in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Admin Tools</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console (het creëren van een gebruiker en het toevoegen van hem of haar aan een het <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"> productconfiguratie</a> van de Analyse leidt ook tot de gebruikersrekening in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Admin Tools</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
   </tr> 
@@ -162,8 +162,8 @@ De volgende tabel bevat een overzicht van taken en de plaats waar deze kunnen pl
   <tr> 
    <td colname="col1"> Een groep maken </td> 
    <td colname="col2"> <p>Admin Console - Wanneer een groep in Admin Console wordt gecreeerd, zal een in kaart gebrachte groep in Analytics in de Hulpmiddelen Admin verschijnen, maar deze in kaart gebrachte groep kan zijn naam niet hebben veranderd van Hulpmiddelen Admin, of uit Hulpmiddelen Admin worden geschrapt. </p> <p>Hulpmiddelen Admin. </p> </td> 
-   <td colname="col3"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> productconfiguratie</a>maken) </p> </td> 
-   <td colname="col4"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> productconfiguratie</a>maken) </p> </td> 
+   <td colname="col3"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"> productconfiguratie</a>maken) </p> </td> 
+   <td colname="col4"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"> productconfiguratie</a>maken) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Gebruikers in een groep bewerken </td> 
