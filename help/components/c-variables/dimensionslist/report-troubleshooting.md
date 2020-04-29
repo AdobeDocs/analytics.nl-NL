@@ -5,7 +5,7 @@ title: Beste praktijken en het Oplossen van problemen melden
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,10 +14,10 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 Adobe Analytics biedt een flexibele rapportinterface waarmee u diverse complexe rapporten kunt genereren. Terwijl de meeste rapporten zeer snel produceren, zou u rapporten kunnen ontmoeten die onderbreking of er niet in slagen om met succes te produceren. Om de mislukkingen van de rapportgeneratie te helpen vermijden, verklaart deze sectie vele factoren die de snelheid van de rapportgeneratie beïnvloeden. Kennis van deze informatie kan u helpen rapporten te structureren, zodat het waarschijnlijker is dat deze met succes worden gegenereerd.
 
->[!Nofferte]
+>[!NOTE]
 >Deze aanbevelingen zijn op Rapporten &amp; Analytics, Ad hoc Analyse, en de Bouwer van het Rapport van toepassing.
->Zij zijn niet van toepassing op de Werkruimte van de Analyse, die zijn eigen reeks [beste praktijken](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)heeft. Zij zijn ook niet >van toepassing op [beste praktijken](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)van Data Warehouse. Een extra set van
->[De API voor rapportage van Adobe Analytics biedt tips en trucs](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) .
+>Zij zijn niet van toepassing op de Werkruimte van de Analyse, die zijn eigen reeks [beste praktijken](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)heeft. Zij zijn ook niet >van toepassing op [beste praktijken](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)van Data Warehouse. Een extra set van
+>[De API voor rapportage van Adobe Analytics biedt tips en trucs](https://www.adobe.io) .
 
 ## Time-outs en aanvraagwachtrij rapporteren {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
