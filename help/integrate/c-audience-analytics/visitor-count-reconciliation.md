@@ -3,7 +3,7 @@ description: Adobe Analytics en Adobe Audience Manager bevatten statistieken voo
 title: Verschillen in aantal bezoekers
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -23,11 +23,11 @@ De cijfers voor de bezoeker zijn:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM: Totale segmentpopulatie</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Totale segmentpopulatie</a> </p> </td> 
    <td colname="col3"> <p>Aantal apparaten (de Identiteitskaart van de Wolk van de Ervaring) die een lid van uw segment tijdens de raadplegingsperiode waren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM: Realtime segmentpopulatie</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Realtime segmentpopulatie</a> </p> </td> 
    <td colname="col3"> <p>Aantal apparaten (geledingen van de Wolk van de Ervaring) die een lid van uw segment waren en uw eigenschappen tijdens de raadplegingsperiode bereikten. </p> </td> 
   </tr> 
   <tr> 
