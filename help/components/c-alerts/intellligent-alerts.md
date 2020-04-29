@@ -3,7 +3,7 @@ description: Het nieuwe systeem voor intelligente waarschuwingen biedt meer gede
 title: Intelligente waarschuwingen
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,7 +25,7 @@ De nieuwe Waarschuwingsbouwer en de Manager van de Waarschuwing vervangen de bes
 * Verzend alarm door e-mail of SMS met verbindingen naar auto-geproduceerde projecten van de Werkruimte van de Analyse.
 * Maak &#39;gestapelde&#39; waarschuwingen die meerdere meetgegevens vastleggen in één waarschuwing.
 
-Onderdelen van het nieuwe waarschuwingssysteem zijn: Alert Builder, Alert Manager, Alert Voorproef, en betere in-context toegang tot het creëren van alarm. De oude gebruikersinterface van het waarschuwingssysteem is niet meer beschikbaar, maar de waarschuwingen worden gemigreerd. Sommige oude waarschuwingsfuncties [zijn niet meer beschikbaar](https://marketing.adobe.com/resources/help/en_US/sc/user/deprecated_alerts.html).
+Onderdelen van het nieuwe waarschuwingssysteem zijn: Alert Builder, Alert Manager, Alert Voorproef, en betere in-context toegang tot het creëren van alarm. De oude gebruikersinterface van het waarschuwingssysteem is niet meer beschikbaar, maar de waarschuwingen worden gemigreerd. Sommige oude waarschuwingsfuncties [zijn niet meer beschikbaar](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/alerts.html).
 
 Er zijn vier manieren om naar de Waarschuwingsbouwer te gaan:
 
@@ -73,7 +73,7 @@ De procentuele drempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Kan ik een tabel krijgen van de "verwachte waarden" die de stippellijn vormen, of een soort output van wat die waarden zijn? </b> </p> </td> 
-   <td colname="col2"> <p>Niet in Werkruimte, maar u kunt in de Bouwer van het Rapport (zie deze video over <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  > Anomaly Detection in de Bouwer van het Rapport </a>). </p> <p>Houd in mening dat de Bouwer van het Rapport minder geavanceerde anomalieopsporingsmethodes gebruikt. Het gebruikt een vaste trainingsperiode van 30 dagen, een vaste periode van 95% en is vergelijkbaar met het opsporen van anomalieën in <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html"  > rapporten en analyses <span class="uicontrol"></span> </a>. </p> </td> 
+   <td colname="col2"> <p>Niet in Werkruimte, maar u kunt in de Bouwer van het Rapport (zie deze video over <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  > Anomaly Detection in de Bouwer van het Rapport </a>). </p> <p>Houd in mening dat de Bouwer van het Rapport minder geavanceerde anomalieopsporingsmethodes gebruikt. Het gebruikt een vaste trainingsperiode van 30 dagen, een vaste periode van 95% en is vergelijkbaar met het opsporen van anomalieën in <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  > rapporten en analyses <span class="uicontrol"></span> </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
