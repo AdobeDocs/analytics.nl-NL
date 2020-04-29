@@ -3,7 +3,7 @@ description: 'null'
 title: Toegang verzenden en verzoeken verwijderen
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,7 +19,7 @@ Mogelijk wilt u er ook voor zorgen dat uw mobiele apps en websites relevante pop
 
 ## Consumentengoedkeuring beheren {#section_3012015E7E8942519FB9279CF7057EAB}
 
-U bent als gegevenscontroller verantwoordelijk voor het verkrijgen van uitdrukkelijke toestemming van de betrokkenen voordat u gegevens over de betrokkenen verzamelt (mogelijk met inbegrip van gegevens van Adobe Analytics) en voor het [implementeren van een opt-outmechanisme](https://marketing.adobe.com/resources/help/en_US/dtm/opt-in.html) op uw website. Hierdoor kunnen betrokkenen zich afmelden voor toekomstige gegevensverzameling in Adobe Experience Cloud.
+U bent als gegevenscontroller verantwoordelijk voor het verkrijgen van uitdrukkelijke toestemming van de betrokkenen voordat u gegevens over de betrokkenen verzamelt (mogelijk met inbegrip van gegevens van Adobe Analytics) en voor het [implementeren van een opt-outmechanisme](https://docs.adobe.com/content/help/en/dtm/using/tools/opt-in.html) op uw website. Hierdoor kunnen betrokkenen zich afmelden voor toekomstige gegevensverzameling in Adobe Experience Cloud.
 
 ## Gebruikers en hun gegevens valideren {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
