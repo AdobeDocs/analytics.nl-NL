@@ -5,7 +5,7 @@ title: Administratieve vereisten
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -34,7 +34,7 @@ Systeemvereisten voor analysewerkruimte.
   </tr> 
   <tr> 
    <td colname="col1"> Gebruikers </td> 
-   <td colname="col2"> <p>Beheerders moeten gebruikers toevoegen aan de groep Toegang tot <span class="uicontrol"> werkruimte</span> analyse in <span class="uicontrol"> Beheer</span> &gt; <span class="uicontrol"> Gebruikersbeheer</span> &gt;<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > Groepen</a>om toegang tot het tabblad Werkruimte in Analytics in te schakelen. </p> </td> 
+   <td colname="col2"> <p>Beheerders moeten gebruikers toevoegen aan de groep Toegang tot <span class="uicontrol"> werkruimte</span> analyse in <span class="uicontrol"> Beheer</span> &gt; <span class="uicontrol"> Gebruikersbeheer</span> &gt;<a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html"  > Groepen</a>om toegang tot het tabblad Werkruimte in Analytics in te schakelen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Overdracht van projecten </td> 
