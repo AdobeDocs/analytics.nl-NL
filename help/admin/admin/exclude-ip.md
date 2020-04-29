@@ -4,7 +4,7 @@ title: Exclusief door IP Adres
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -15,7 +15,7 @@ U kunt gegevens van specifieke IP adressen, zoals interne website activiteiten, 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclude by IP]**
 
->[!NOTE] Hits die door IP adres worden uitgesloten worden gefactureerd als [servervraag](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>[!NOTE] Hits die door IP adres worden uitgesloten worden gefactureerd als [servervraag](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html).
 
 ## Uitsluiten op cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -46,7 +46,7 @@ U kunt jokertekenindicatoren (*) gebruiken om een bereik van adressen uit te slu
 
 U kunt gegevensinzameling van specifieke IP adressen via een firewall ook blokkeren.
 
-Zie de [IP Adressen die in het artikel van de Wolk](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-adobe-ip-addresses) van de Ervaring worden gebruikt.
+Zie de [IP Adressen die in het artikel van de Wolk](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) van de Ervaring worden gebruikt.
 
 ## Gevolgen van IP Obfuscation {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
