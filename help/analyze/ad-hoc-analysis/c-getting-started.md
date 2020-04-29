@@ -3,7 +3,7 @@ description: Ga aan de slag met ad-hocanalyse.
 title: Aan de slag
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 # Aan de slag met ad-hocanalyse{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
 >[!Ibelangrijk]
->Op 6 augustus 2018 kondigde Adobe aan dat het de bedoeling was om ad-hocanalyse te beëindigen. Een einddatum wordt gedeeld zodra deze beschikbaar is. Ga voor meer informatie, waaronder de versies van Java die tijdens deze periode compatibel zijn, naar [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>Op 6 augustus 2018 kondigde Adobe aan dat het de bedoeling was om ad-hocanalyse te beëindigen. De einddatum wordt gedeeld zodra deze beschikbaar is. Ga voor meer informatie, waaronder de versies van Java die tijdens deze periode compatibel zijn, naar [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 U kunt ogenblikkelijke, geavanceerde analyse op websiteactiviteit uitvoeren. U kunt veelvoudige rapporten gelijktijdig bekijken en segmenten over veelvoudige afmetingen toepassen. U kunt de gegevens vanuit zowel micro- als macroperspectieven analyseren om hun effect op uw belangrijke bedrijfsmetriek te bekijken.
 
@@ -27,7 +27,7 @@ Met deze functies kunt u vragen beantwoorden over siteverkeer, demografie van be
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Meld u aan bij Adobe <span class="keyword"> Analytics</span>. </p> </td> 
-   <td colname="col2"> <p>Ga naar <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>en meld u aan met de gegevens voor Adobe Analytics. </p> </td> 
+   <td colname="col2"> <p>Ga naar <a href="https://experiencecloud.adobe.com"  > marketing.adobe.com </a>en meld u aan met de gegevens voor Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Ad hoc analyse starten. </p> </td> 
