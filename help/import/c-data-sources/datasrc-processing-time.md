@@ -3,14 +3,14 @@ description: 'null'
 title: Verwerkingstijd gegevensbronnen
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Verwerkingstijd gegevensbronnen
 
->[!Nofferte]
+>[!NOTE]
 >Eventuele termijnen voor gegevensverwerking moeten als benaderend worden beschouwd en vormen geen SLA (Service Level Agreement).
 
 De verwerkingstijd van de gegevens varieert volgens de volgende richtlijnen:
