@@ -3,7 +3,7 @@ description: 'null'
 title: Samenvattingsnummer en Samenvattingswijziging
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 * Als een bereik cellen is geselecteerd, wordt het eerste veld vergeleken met de laatste cellen in het bereik.
 * Als de kolom wordt geselecteerd, vergelijkt het de eerste waarde met zich, die een verandering van 0 toont.
 * De groene en rode kleur van de summiere verandering kan door worden gecontroleerd:
-   * [Aangepaste gebeurtenispolariteit](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html).
-   * De berekende metrische [tonen de Naar boven gerichte Tendens als](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_build_metrics.html) optie.
+   * [Aangepaste gebeurtenispolariteit](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html).
+   * De berekende metrische [tonen de Naar boven gerichte Tendens als](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) optie.
 
 ## Instellingen Samenvattingswijziging {#section_2581AC0107634FB4990AB8347E5897AA}
 
