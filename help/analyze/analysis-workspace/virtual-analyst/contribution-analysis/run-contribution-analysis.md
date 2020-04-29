@@ -3,7 +3,7 @@ description: 'null'
 title: Bijdrageanalyse uitvoeren
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,9 +35,9 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 
    * Een visualisatie die het aantal **bezoeken** op die dag toont.
    * Een maandelijkse **Bezoek Tendelijn** voor context.
-   * **Top Items** die tot deze anomalie hebben bijgedragen, gesorteerd op de [bijdragescore](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_contribution_score.html), plus de metrische waarde in kwestie, en een Unique Visitors (Unieke bezoekers) die metrische informatie in context vanuit een grootteperspectief plaatsen.
+   * **Top Items** die tot deze anomalie hebben bijgedragen, gesorteerd op de [bijdragescore](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), plus de metrische waarde in kwestie, en een Unique Visitors (Unieke bezoekers) die metrische informatie in context vanuit een grootteperspectief plaatsen.
 
-   * In de tabel [Gegenereerde segmenten](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_workflow_premium.html) (bovenste itemclusters) worden koppelingen van topitems aangegeven op basis van de bijdragingsscore, anomalieën en het totale percentage dat bijdraagt aan de afwijkende maatstaf. Dit wordt vervolgens vastgelegd als een publiekssegment (bijdragesegment 1, bijdragesegment 2, enz.). Als u op de knop &quot;i&quot; (info) klikt, krijgt u een weergave van de definitie van elk automatisch segment, inclusief de items die er bovenaan staan:
+   * In de tabel [Gegenereerde segmenten](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) (bovenste itemclusters) worden koppelingen van topitems aangegeven op basis van de bijdragingsscore, anomalieën en het totale percentage dat bijdraagt aan de afwijkende maatstaf. Dit wordt vervolgens vastgelegd als een publiekssegment (bijdragesegment 1, bijdragesegment 2, enz.). Als u op de knop &quot;i&quot; (info) klikt, krijgt u een weergave van de definitie van elk automatisch segment, inclusief de items die er bovenaan staan:
 
       ![](assets/auto_segment.png)
 
