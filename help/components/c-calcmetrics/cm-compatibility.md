@@ -3,7 +3,7 @@ description: Verklaart de drie opties van de Verenigbaarheid van het Product.
 title: Metrische compatibiliteit
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -24,7 +24,7 @@ Wanneer u berekende of geavanceerde berekende metriek in Berekende Metrische Bou
  <tbody> 
   <tr> 
    <td colname="col1"> Huidige gegevens </td> 
-   <td colname="col2"> <p>Met de optie Huidige gegevens opnemen in Analytics kunt u de meest recente analysegegevens weergeven, vaak voordat de gegevens volledig zijn verwerkt en voltooid. <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  > Met de huidige gegevens</a> worden de meeste metriek binnen enkele minuten weergegeven, zodat u over actiemotionele gegevens beschikt voor snelle besluitvorming. </p> <p>De huidige Gegevens steunen berekende slechts metriek (die die vermenigvuldiging, afdeling, toevoeging, en aftrekking omvatten.) De huidige Gegevens steunen geen geavanceerde berekende metriek (die segmenten of functies bevatten). </p> </td> 
+   <td colname="col2"> <p>Met de optie Huidige gegevens opnemen in Analytics kunt u de meest recente analysegegevens weergeven, vaak voordat de gegevens volledig zijn verwerkt en voltooid. <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  > Met de huidige gegevens</a> worden de meeste metriek binnen enkele minuten weergegeven, zodat u over actiemotionele gegevens beschikt voor snelle besluitvorming. </p> <p>De huidige Gegevens steunen berekende slechts metriek (die die vermenigvuldiging, afdeling, toevoeging, en aftrekking omvatten.) De huidige Gegevens steunen geen geavanceerde berekende metriek (die segmenten of functies bevatten). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Volledig verwerkte gegevens </td> 
