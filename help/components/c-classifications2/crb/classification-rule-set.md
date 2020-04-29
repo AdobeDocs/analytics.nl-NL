@@ -5,7 +5,7 @@ title: Classificatiereeksen
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -61,7 +61,7 @@ Geef de classificatieregel een naam, pas de variabele toe en geef instellingen v
 
 1. (Vereiste) Definieer de classificatiestructuur in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-   (Zie [Classificaties](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Admin Tools voor hulp bij het toevoegen van classificaties.)
+   (Zie [Classificaties](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in Admin Tools voor hulp bij het toevoegen van classificaties.)
 
    Variabelen worden pas in het [!UICONTROL New Rule Set] deelvenster weergegeven nadat voor die variabele ten minste één classificatie is gedefinieerd.
 
