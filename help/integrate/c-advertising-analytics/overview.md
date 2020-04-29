@@ -3,7 +3,7 @@ description: 'null'
 title: Overzicht van Advertising Analytics
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -29,7 +29,7 @@ Deze integratie is gericht op het volgende publiek:
 
 * Deze functionaliteit is beschikbaar voor klanten die geen advertenties maken met de cloud of met een andere indeling dan AMO.
 * U moet een Adobe Analytics-beheerder zijn om toegang te hebben tot Advertising Analytics. Vervolgens kunt u toegangsmachtigingen [](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) verlenen aan niet-beheerders.
-* Elke analytische rapportsuite waarin u de zoekgegevens van Google/Bing wilt bekijken, moet worden [toegewezen aan uw Experience Cloud-organisatie](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
+* Elke analytische rapportsuite waarin u de zoekgegevens van Google/Bing wilt bekijken, moet worden [toegewezen aan uw Experience Cloud-organisatie](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
 * Voor elke rapportsuite waarin u de zoekgegevens van Google/Bing wilt weergeven, moet u deze rapportsuite(s) [inschakelen voor Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 
 * U hebt aanmeldingsgegevens nodig voor een gebruiker met bewerkingsmachtigingen voor de zoekaccount(s) die u wilt integreren met Adobe Analytics, zoals een Google-account-id en wachtwoord.
@@ -87,7 +87,7 @@ Advertising Analytics voegt de volgende dimensies en metriek toe aan de Analyse 
 | Advertentie (AMO-ID) | De beschrijving voor Advertentie en Advertentie die op je advertentie wordt gebruikt. |
 | Trefwoord (AMO-id) | De trefwoordwaarde van uw zoekprogrammaaccount |
 | Type overeenkomst (AMO-id) | Het type van Gelijke van het Sleutelwoord dat aan uw sleutelwoord wordt toegewezen. De waarden zijn doorgaans breed, woordelijk, exact of geen waarde als het type Advertentie geen overeenkomend type heeft. |
-| Advertentietype (AMO-id) | Het type advertentie dat wordt aangeboden. Dit is doorgaans &quot;Tekst toevoegen&quot;. |
+| Advertentietype (AMO-id) | Het type advertentie dat wordt aangeboden. Dit is doorgaans &#39;&#39;Text Ad&#39;&#39;. |
 | Advertentitel (AMO-ID) | Het object Title dat in de advertentie wordt gebruikt. |
 | Advertentiebeschrijving (AMO-id) | Het object Advertentiebeschrijving dat in de advertentie wordt gebruikt. |
 | URL voor advertentieweergave (AMO-id) | Het object URL van advertentieweergave toevoegen dat in de advertentie wordt gebruikt. |
