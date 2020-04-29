@@ -4,7 +4,7 @@ title: Succesgebeurtenissen configureren
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -38,7 +38,7 @@ Stappen die beschrijven hoe te om succesgebeurtenissen te vormen.
 
    >[!NOTE]
    >
-   >U kunt deelname inschakelen voor maximaal 100 aangepaste gebeurtenissen. Buiten dat, kunt u deelnemingsmetriek in de [Berekende Bouwer van Metriek](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) tot stand brengen.
+   >U kunt deelname inschakelen voor maximaal 100 aangepaste gebeurtenissen. Buiten dat, kunt u deelnemingsmetriek in de [Berekende Bouwer van Metriek](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/participation-metric.html) tot stand brengen.
 
 1. Klik op **[!UICONTROL Save]**.
 
