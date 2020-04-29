@@ -3,7 +3,7 @@ description: Toont hoe te om een eenvoudige metrische "de Mening van de Pagina p
 title: Een eenvoudige metrische "paginaweergaven per bezoek" maken
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Hieronder wordt beschreven hoe u een eenvoudige metrische &quot;Paginaweergaven 
 1. Voor deze metrische waarde sleept u eerst Paginaweergaven naar het canvas en sleept u Bezoeken onder (wacht tot de blauwe lijn verschijnt om deze te neerzetten).
 1. Selecteer de operator voor Splitsen. (Splitsen is de standaardoperator.)
 1. Je ziet nu een **[!UICONTROL Preview]** van die metrische waarden terwijl je het bouwt, rechtsboven.
-1. De verenigbaarheid van het product toont u of metrisch met [Huidige Gegevens](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) of slechts met volledig Bewerkte Gegevens compatibel is.
+1. De verenigbaarheid van het product toont u of metrisch met [Huidige Gegevens](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html) of slechts met volledig Bewerkte Gegevens compatibel is.
 1. Klik op **[!UICONTROL Save]**.
 1. U ziet dat de **[!UICONTROL Summary]** formule op elk moment wordt bijgewerkt wanneer u een wijziging aanbrengt in de definitie van de metrische waarde.
 1. U wordt nu automatisch naar de [Berekende Metrische Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)gebracht, die aan de Manager van het Segment gelijkaardig is. Hiermee kunt u metriek delen, goedkeuren, (re-)labelen, hernoemen of verwijderen.
