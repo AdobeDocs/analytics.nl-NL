@@ -3,7 +3,7 @@ description: Meer informatie over segmentatiefuncties vindt u in de analysewerkr
 title: Segmenteringsfuncties in de werkruimte Analyse
 uuid: ed1d95e2-bd32-4f03-a007-1d3e4ca08a5b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -12,6 +12,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Meer informatie over segmentatiefuncties vindt u in de analysewerkruimte.
 
-[Segmentvergelijking (segment-IQ)](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)
+[Segmentvergelijking (segment-IQ)](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)
 
-[Segmenten toepassen in Fallout-analyse](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/compare-segments-fallout.html)
+[Segmenten toepassen in Fallout-analyse](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)
