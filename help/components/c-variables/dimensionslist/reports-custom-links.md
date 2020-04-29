@@ -4,7 +4,7 @@ title: Aangepaste koppeling
 topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ U kunt het volgende gebruiken [!UICONTROL Custom Links Report] :
 
 ## Mobiele SDK-koppelingsnamen {#section_70C91FE794104B5FBF289B19CC02EA8E}
 
-De [mobiele SDK&#39;s](https://marketing.adobe.com/resources/help/en_US/mobile/home.html) gebruiken aangepaste koppelingen om handelingen en levenscyclusmetriek bij te houden. In rapportsuites die worden gebruikt om mobiele apps te meten, zou u de volgende verbindingsnamen kunnen zien die door SDK worden geplaatst:
+De [mobiele SDK&#39;s](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) gebruiken aangepaste koppelingen om handelingen en levenscyclusmetriek bij te houden. In rapportsuites die worden gebruikt om mobiele apps te meten, zou u de volgende verbindingsnamen kunnen zien die door SDK worden geplaatst:
 
 | ADBINTERN:levenscyclus | Verzonden door de levenscyclusvraag in 4.x SDKs. |
 |---|---|
