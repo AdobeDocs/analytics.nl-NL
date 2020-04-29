@@ -3,7 +3,7 @@ description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervo
 title: Verwijzing naar geavanceerde functies
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -65,7 +65,7 @@ Dit is hoe &quot;Benadert Klanten&quot;metrisch zou kunnen worden gebruikt in he
 
 ## Uniques Exceeded {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Net als Count() en RowCount(), geldt bij benadering de limiet voor Distinct() voor tellen die wordt overschreden voor [&#39;unicques&#39;s](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html). Als de limiet voor &quot;oneven overschreden&quot; binnen een bepaalde maand voor een dimensie wordt bereikt, wordt de waarde geteld als 1 dimensie-item.
+Net als Count() en RowCount(), geldt bij benadering de limiet voor Distinct() voor tellen die wordt overschreden voor [&#39;unicques&#39;s](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html). Als de limiet voor &quot;oneven overschreden&quot; binnen een bepaalde maand voor een dimensie wordt bereikt, wordt de waarde geteld als 1 dimensie-item.
 
 ## Telfuncties vergelijken {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
