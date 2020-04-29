@@ -4,7 +4,7 @@ title: Overzicht van rapporten aanpassen
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,7 +35,7 @@ Alleen beheerders kunnen een aangepast rapport maken. Wanneer u een douanerappor
 
 >[!MORELIKETHIS]
 >
->* [Menu aanpassen](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
+>* [Menu aanpassen](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## Selecteer een datum of een datumbereik {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -81,7 +81,7 @@ t_reports_comparing_dates.xml
 
 U kunt geen datums vergelijken tussen trended-rapporten.
 
->[!NOTE] Als u een datumvergelijking op zeer belangrijke metriek in een dashboard wilt uitvoeren, kunt u de gegevens in de Bouwer [van het](https://marketing.adobe.com/resources/help/en_US/arb/) Rapport trekken gebruikend twee afzonderlijke verzoeken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
+>[!NOTE] Als u een datumvergelijking op zeer belangrijke metriek in een dashboard wilt uitvoeren, kunt u de gegevens in de Bouwer [van het](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) Rapport trekken gebruikend twee afzonderlijke verzoeken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
 
 Datums vergelijken tussen gerangschikte rapporten in rapporten en analyses:
 
@@ -218,4 +218,4 @@ De meeste rapporten in Rapporten &amp; Analytics omvatten nu een knoop &quot;van
 
 De knop is momenteel alleen beschikbaar als uw gebruikersnaam volledige rechten heeft voor de analysewerkruimte.
 
-Voor meer informatie over alle manieren kunt u uw rapport aanpassen, zie de gids van de Werkruimte [van de](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) Analyse.
+Voor meer informatie over alle manieren kunt u uw rapport aanpassen, zie de gids van de Werkruimte [van de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) Analyse.
