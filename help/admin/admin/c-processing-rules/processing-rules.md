@@ -5,7 +5,7 @@ title: Overzicht van verwerkingsregels
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ Nu, hebben de beheerders rechten om verwerkingsregels **door gebrek** te gebruik
 
 1. Als u dit nog niet hebt gedaan, [creeert u een groep](/help/admin/user-management2/c-user-groups/groups.md) die slechts die niet-beheerders omvat die toestemming zouden moeten hebben om verwerkingsregels te gebruiken.
 1. [Voeg de niet-beheerders toe aan die groep](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Ga vervolgens naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL-[groepsnaam]]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** **[!UICONTROL Report Suite Tools]** **[!UICONTROL Customize]** **[!UICONTROL Report Suite Management]**>  > .
+1. Ga vervolgens naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** > **[!UICONTROL Report Suite Management]**.
 1. Schakel het selectievakje naast [!UICONTROL Processing Rules] en klik op **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)
@@ -48,7 +48,7 @@ Contextgegevensvariabelen zijn een nieuw type variabele dat alleen beschikbaar i
 
 ![](assets/evar-context-map.png)
 
-Zie [Contextgegevensvariabelen](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) in de Help bij Implementatie.
+Zie [Contextgegevensvariabelen](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) in de Help bij Implementatie.
 
 ## Verwerkingsregels gebruiken om Actief-gegevens- en Triggergebeurtenissen te transformeren {#section_8284E72E999244E091CD7FB1A22342B6}
 
