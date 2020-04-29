@@ -4,7 +4,7 @@ title: Activiteitenoverzicht inschakelen
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -19,7 +19,7 @@ De module Activiteitenkaart maakt deel uit van het bestand AppMeasurement.js (da
 
 De gegevens van de Kaart van de activiteit kunnen niet worden verzameld tenzij u aan deze versie (of hoger) van AppMeasurement bijwerkt.
 
-1. Download de nieuwste AppMeasurement-code (AppMeasurement_Javascript-1.6.zip) door naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]** te gaan en deze [te](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html)implementeren.
+1. Download de nieuwste AppMeasurement-code (AppMeasurement_Javascript-1.6.zip) door naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]** te gaan en deze [te](https://docs.adobe.com/content/help/en/analytics/implementation/js/overview.html)implementeren.
 
    We hebben code [voor](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) voorbeeldimplementatie opgenomen om u te helpen de wijzigingen die in de code zijn aangebracht, zichtbaar te maken door de module Activiteitenkaart op te nemen.
 
@@ -51,7 +51,7 @@ Eerst, moet u de rapporten van de Kaart van de Activiteit op een rapport-reeks n
 
    Hiermee gaat u naar de pagina voor groepsbeheer in de beheerconsole.
 
-1. [Voeg gebruikers toe aan deze groep](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) en **[!UICONTROL Save Group]**.
+1. [Voeg gebruikers toe aan deze groep](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) en **[!UICONTROL Save Group]**.
 
 1. Hierdoor kunnen uw Admin-gebruikers de Activity Map downloaden van **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** .
 
