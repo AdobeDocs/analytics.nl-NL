@@ -6,7 +6,7 @@ title: Omleiding en aliassen
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -147,7 +147,7 @@ redirects_verify_referrer.xml
 
 Voer een test uit om te controleren of de verwijzende, voortkomende URL ( *`s_server`*) en campagnevariabelen worden vastgelegd.
 
-Deze variabelen worden als de volgende parameters weergegeven in Foutopsporing voor [Experience Cloud](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
+Deze variabelen worden als de volgende parameters weergegeven in Foutopsporing voor [Experience Cloud](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
