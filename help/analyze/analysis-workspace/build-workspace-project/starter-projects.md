@@ -3,7 +3,7 @@ description: 'null'
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -110,7 +110,7 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 
 ### Mensen
 
->[!NOTE] De sjabloon Personen en de bijbehorende maatstaf Personen zijn alleen beschikbaar voor gebruik als onderdeel van de [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+>[!NOTE] De sjabloon Personen en de bijbehorende maatstaf Personen zijn alleen beschikbaar voor gebruik als onderdeel van de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html).
 
 Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde versie van de Unieke metrische Bezoekers is. Met de maatstaf Mensen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. Met de sjabloon kunt u
 
