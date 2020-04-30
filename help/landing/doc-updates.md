@@ -3,7 +3,7 @@ title: Technische documentatie voor updates voor Adobe Analytics
 description: Opmerkelijke updates van de documentatieopslagplaats van Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
 
 ---
 
@@ -20,13 +20,14 @@ Updates van de inhoud voor de documentatieset van Adobe Analytics die zijn inges
 
 | Datum | Beschrijving |
 |---|---|
+| 27 februari 2020 | Extra documentatie voor [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). |
 | 25 februari 2020 | Toegevoegde [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) variabele. |
 | 18 februari 2020 | Toegevoegde [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) variabele. |
 | 12 februari 2020 | Updates aan en reorganisatie van de documentatie van de Kanalen van de [Marketing](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) . |
 | 7 februari 2020 | Updates voor het [instellen van apparaatanalyse](../components/cda/cda-setup.md) en [veelgestelde vragen](../components/cda/cda-faq.md) |
 | 4 februari 2020 | Volledige herschrijving van de gebruikershandleiding voor [Implementatie](../implement/home.md). |
-| 22 januari 2020 | De bijgewerkte pagina van de Lijst van de Vrije Vorm die informatie over de nieuwe Bouwer [van de Lijst van de](/help/analyze/analysis-workspace/visualizations/freeform-table.md)Vrije vorm omvat. |
-| 13 januari 2020 | Adobe Analytics en [browsercookies](../technotes/cookies.md)toegevoegd. |
+| donderdag 22 januari 2020 | De bijgewerkte pagina van de Lijst van de Vrije Vorm die informatie over de nieuwe Bouwer [van de Lijst van de](/help/analyze/analysis-workspace/visualizations/freeform-table.md)Vrije vorm omvat. |
+| donderdag 13 januari 2020 | Adobe Analytics en [browsercookies](../technotes/cookies.md)toegevoegd. |
 | 29 november 2019 | Herziening van de [gegevensdoorvoerdocumentatie](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 25 november 2019 | Nieuw onderwerp op [Eind-van-leven voor de Inloggen van de Afdwingen IP beperkingen](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 25 november 2019 | Nieuw onderwerp op [Intern (zitting verfrist zich) marketing kanaal](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
