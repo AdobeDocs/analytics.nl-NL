@@ -2,7 +2,7 @@
 description: De snelle Bouwer van Inzichten is een hulpmiddel voor nieuwe gebruikers van de Werkruimte die hen in de bouw van gegevenslijsten en visualisaties begeleiden
 title: Quick Insights builder
 translation-type: tm+mt
-source-git-commit: d339a1171d1d71a1074c5fbf81d6002de4955628
+source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: d339a1171d1d71a1074c5fbf81d6002de4955628
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** wordt momenteel getest met bèta en is nog niet algemeen beschikbaar voor alle klanten van Adobe Analytics.
+>**[!UICONTROL Quick Insights]** wordt momenteel beperkt getest en is nog niet algemeen beschikbaar voor alle klanten van Adobe Analytics.
 
 [!UICONTROL Quick Insights] biedt begeleiding voor niet-analisten en nieuwe gebruikers van [!UICONTROL Analysis Workspace] om te leren hoe u bedrijfsvragen snel en gemakkelijk kunt beantwoorden. Het is ook een geweldig hulpmiddel voor geavanceerde gebruikers die snel een eenvoudige vraag willen beantwoorden zonder zelf een tabel te hoeven maken.
 
@@ -32,7 +32,7 @@ Hier volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst besta
 
 | Bouwsteen (component) | Definitie |
 |---|---|
-| [!UICONTROL Dimension] | Dimensies zijn beschrijvingen of kenmerken van metrische gegevens die in een project kunnen worden bekeken, uitgesplitst en vergeleken. Het zijn niet-numerieke waarden en datums die worden opgesplitst in dimensie-items. &#39;browser&#39; of &#39;pagina&#39; zijn bijvoorbeeld afmetingen. |
+| [!UICONTROL Dimension] | Dimensies zijn beschrijvingen of kenmerken van metrische gegevens die in een project kunnen worden bekeken, uitgesplitst en vergeleken. Het zijn niet-numerieke waarden en datums die worden opgesplitst in dimensie-items. Bijvoorbeeld &#39;browser&#39; of &#39;pagina&#39; zijn afmetingen. |
 | [!UICONTROL Dimension item] | Dimensie-items zijn afzonderlijke waarden voor een dimensie. Dimensie-items voor de afmetingen van de browser zijn bijvoorbeeld &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;, enzovoort. |
 | [!UICONTROL Metric] | De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc. |
 | [!UICONTROL Visualization] | De werkruimte biedt [een aantal visualisaties](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) om visuele vertegenwoordiging van uw gegevens, zoals bar grafieken, donut grafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen, en anderen te bouwen. |
