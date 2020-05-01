@@ -2,7 +2,7 @@
 title: Specifieke data in de analyse uitsluiten
 description: Tips voor het uitsluiten van datums of datumbereiken als u deze niet wilt opnemen in rapporten.
 translation-type: tm+mt
-source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
+source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
 
 ---
 
@@ -52,7 +52,7 @@ Als u geen nul in uw lijst of visualisaties (veroorzakend dips) wilt tonen, laat
 
 Als u geen nul in uw lijst of visualisaties (veroorzakend dips) wilt tonen, laat **[!UICONTROL Interpret zero as no value]** onder kolommontages toe.
 
-![Voorvertoning nul](../assets/interpret_zero.png)
+![Voorvertoning nul](assets/interpret_zero.png)
 
 ### Pas het uitsluitingssegment op een project toe
 
