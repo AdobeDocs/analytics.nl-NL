@@ -3,7 +3,7 @@ title: Technische documentatie voor updates voor Adobe Analytics
 description: Opmerkelijke updates van de documentatieopslagplaats van Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
+source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 ---
 
@@ -12,7 +12,8 @@ source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
 
 Updates van de inhoud voor de documentatieset van Adobe Analytics die zijn ingesteld sinds januari 2019.
 
-* Raadpleeg de meest recente Opmerkingen bij de release van de [Experience Cloud voor een uitgebreide lijst met nieuwe functies, Admin-berichten en opgeloste problemen](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+* Voor informatie over [!UICONTROL Customer Journey Analytics], ga [hier](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html).
+* Raadpleeg de meest recente Opmerkingen bij de release [Experience Cloud voor een uitgebreide lijst met nieuwe functies, Admin notices en bug fixes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)voor Adobe Analytics.
 * Voor details rond nieuwe eigenschappen, zie [Nieuwe eigenschappen in de Werkruimte](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) van de Analyse in de de gebruikersgids van Hulpmiddelen.
 * Zie Audio en video [meten in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)voor informatie over Adobe Analytics voor Audio en Video.
 
@@ -20,13 +21,16 @@ Updates van de inhoud voor de documentatieset van Adobe Analytics die zijn inges
 
 | Datum | Beschrijving |
 |---|---|
+| dinsdag 28 april 2020 | Toegevoegde documentatie voor metrische [inhoudssnelheid](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-content-velocity.html) . |
+| vrijdag 12 maart 2020 | Updates voor [publicatiesegmenten zijn toegevoegd aan de Experience Cloud](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html). |
+| vrijdag 12 maart 2020 | Updates voor CDA stitching latency. |
 | 27 februari 2020 | Extra documentatie voor [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). |
 | 25 februari 2020 | Toegevoegde [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) variabele. |
 | 18 februari 2020 | Toegevoegde [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) variabele. |
 | 12 februari 2020 | Updates aan en reorganisatie van de documentatie van de Kanalen van de [Marketing](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) . |
 | 7 februari 2020 | Updates voor het [instellen van apparaatanalyse](../components/cda/cda-setup.md) en [veelgestelde vragen](../components/cda/cda-faq.md) |
 | 4 februari 2020 | Volledige herschrijving van de gebruikershandleiding voor [Implementatie](../implement/home.md). |
-| donderdag 22 januari 2020 | De bijgewerkte pagina van de Lijst van de Vrije Vorm die informatie over de nieuwe Bouwer [van de Lijst van de](/help/analyze/analysis-workspace/visualizations/freeform-table.md)Vrije vorm omvat. |
+| donderdag 22 januari 2020 | De bijgewerkte pagina van de Lijst van de Vrije Vorm om informatie over de nieuwe Bouwer [van de Lijst van de](/help/analyze/analysis-workspace/visualizations/freeform-table.md)Vrije vorm te omvatten. |
 | donderdag 13 januari 2020 | Adobe Analytics en [browsercookies](../technotes/cookies.md)toegevoegd. |
 | 29 november 2019 | Herziening van de [gegevensdoorvoerdocumentatie](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 25 november 2019 | Nieuw onderwerp op [Eind-van-leven voor de Inloggen van de Afdwingen IP beperkingen](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
