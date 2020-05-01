@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analytics Components
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
+source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 ---
 
@@ -35,8 +35,6 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
       + [Verenigbaarheid van gegevensopslagsegment](c-segmentation/seg-reference/seg-compatibility.md)
       + [Segmentrechten op rol](c-segmentation/seg-reference/seg-rights.md)
       + [Problemen oplossen](c-segmentation/seg-reference/c-troubleshooting.md)
-   + Gebruik hoofdletters {#use-cases}
-      + [Specifieke datums uitsluiten](c-segmentation/use-cases/exclude-date-range.md)
    + [Veelgestelde vragen](c-segmentation/seg-transition.md)
    + [Nieuwe functies in segmentatie van analysemogelijkheden](c-segmentation/whats-new-segmentation.md)
    + [Overgangshandleiding voor ad-hocanalyse](c-segmentation/seg-transition-ad-hoc.md)
@@ -64,7 +62,6 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
       + [Metrische compatibiliteit](c-calcmetrics/cm-compatibility.md)
       + [Berekende cijfers: op rol gebaseerde rechten](c-calcmetrics/cm-role-based-rights.md)
       + [Berekende totalen van metriek](c-calcmetrics/cm-totals.md)
-   + [Afleiden van gegevens die door gebeurtenissen worden beïnvloed](c-calcmetrics/cm-events.md)
    + [Veelgestelde vragen](c-calcmetrics/cm-transition.md)
    + [Instructievideo&#39;s](c-calcmetrics/cm-videos.md)
 + Virtuele rapportsets {#virtual-report-suites}
