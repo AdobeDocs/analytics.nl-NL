@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analysehulpmiddelen
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
+source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
 
 ---
 
@@ -13,8 +13,7 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 + [Handleiding Analysehulpmiddelen](home.md)
 + Werkruimte Analyse {#analysis-workspace}
-   + [Functies van de analysewerkruimte](analysis-workspace/analysis-workspace-features.md)
-   + [Help bij analysewerkruimte](analysis-workspace/home.md)
+   + [Overzicht van de analysewerkruimte](analysis-workspace/home.md)
    + [Gebruiksscenario&#39;s van analysewerkruimte](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Nieuwe functies in de analysewerkruimte](analysis-workspace/new-features-in-analysis-workspace.md)
    + Een werkruimteproject maken {#build-workspace-project}
