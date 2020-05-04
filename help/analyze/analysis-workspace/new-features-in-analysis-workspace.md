@@ -5,7 +5,7 @@ title: Nieuwe functies in de analysewerkruimte
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -209,7 +209,7 @@ Nieuwe en verbeterde functies die zijn uitgebracht op 19 juli 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > Attributie-IQ </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > Attributie-IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>Met Attribution IQ kunt u geavanceerde en intelligente analyses uitvoeren op het gebied van marketingprestaties. De nieuwe attributiemodellen kunnen op metriek in de Werkruimte van de Analyse (op om het even welke lijst of op om het even welke verdeling) en in berekende metriek worden gebruikt. Een nieuw deelvenster Kenmerken biedt een betere visualisatie en vergelijking. </p> </td> 
   </tr> 
   <tr> 
@@ -246,7 +246,7 @@ Nieuwe en verbeterde functies die zijn uitgebracht op 14 juni 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> Kolommen <a href="/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md"  > van dynamische afmeting </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md"  > Kolommen voor dynamische afmeting </a> </b> </p> </td> 
    <td colname="col2"> <p>Eerder, toen een afmeting op een kolom werd gelaten vallen, toonden wij de top 5 waarden voor niet-tijddimensies (en 15 voor tijddimensies) en hielden die waarden statisch (d.w.z., de 5 gekozen waarden onveranderd). </p> <p>Van nu toe, door gebrek, tonen wij dynamische waarden in plaats van statische degenen, met de optie om hen in statische waarden te veranderen. Andere zaken om op te merken: </p> 
     <ul id="ul_C802BC32CB084E30B4E58E9E90B9A63D"> 
      <li id="li_452466AB416F4737B532849C604BD4CC">Klik op i) voor de dynamische dimensie en u ziet de rangschikking (boven 1 van 5) en het type dimensie. </li> 
@@ -468,8 +468,8 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
    <td colname="col2"> <p>Eerder, toen u een project kopieerde of "sparen als"deed, richten alle intra-verbindingen bewaard in het project op het originele project, niet het gekopieerde project. </p> <p>De intra-verbindingen zijn nu met betrekking tot het project zij binnen leven, nadat u kopieert/sparen-as. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Bijdrage-analyse: Melding <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > token </a> </p> </td> 
-   <td colname="col2"> <p>Als uw bedrijf een beperkt aantal tokens van de Analyse van de Bijdrage heeft, toont UI van de Werkruimte van de Analyse nu een bericht wanneer u een teken verbruikt. Het laat je weten hoeveel tokens je nog hebt.&amp;nbsp; </p> <p>(Admin-gebruikers: u kunt beperken wie deze tokens kan gebruiken, door de groepstoestemming uit te geven. De toestemming wordt genoemd "Anomaly Detection and Contribution Analysis" onder <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> User Management </span>&gt; <span class="uicontrol"> Edit groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> <span class="uicontrol"> </span> <span class="uicontrol"> </span>&gt; Customize Report Suite Tools &amp; Reports. ) </p> </td> 
+   <td colname="col1"> <p>Bijdrage-analyse: <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > Melding token </a> </p> </td> 
+   <td colname="col2"> <p>Als uw bedrijf een beperkt aantal tokens van de Analyse van de Bijdrage heeft, toont UI van de Werkruimte van de Analyse nu een bericht wanneer u een teken verbruikt. Het laat je weten hoeveel tokens je nog hebt.&amp;nbsp; </p> <p>(Admin-gebruikers: u kunt beperken wie deze tokens kan gebruiken, door de groepstoestemming uit te geven. De toestemming wordt genoemd "Anomaly Detection and Contribution Analysis" onder <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> User Management </span>&gt; <span class="uicontrol"> Edit groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> <span class="uicontrol"> </span> <span class="uicontrol"> </span>&gt; Customize Report Suite Tools &amp; Reports. )  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV-bestanden met tekens van meerdere afstanden </p> </td> 
@@ -648,7 +648,7 @@ Nieuwe functies uitgebracht op 17 augustus 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md"  > De kolom van markeringen in de pagina van de projectlijst </a> </p> </td> 
-   <td colname="col2"> <p>Een kolom van <span class="wintitle"> Codes </span> aan de pagina van de het projectlijst van de Werkruimte toegevoegd. Deze kolom toont de markeringen voor elk project. </p> </td> 
+   <td colname="col2"> <p>Een <span class="wintitle"> kolom van Codes toegevoegd </span> aan de de projectlijstpagina van de Werkruimte. Deze kolom toont de markeringen voor elk project. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > Stroomvisualisaties exporteren als CSV-bestanden </a> </p> </td> 
@@ -682,7 +682,7 @@ Nieuwe functies uitgebracht op 20 juli 2017.
    <td colname="col2"> <p>Hiermee kunt u de lettertype-instellingen (vet, cursief, enzovoort) en de hyperlink in het tekstvak visualisaties en in de deelvenster-/visualisatiebeschrijvingen wijzigen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intra-linking (snelkoppelingen visualiseren) </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intra-linking (snelkoppelingen visualiseren) </a></b> </p> </td> 
    <td colname="col2"> <p><b>Met Intra-linking</b> kunt u vanuit een tekstvak een koppeling maken naar specifieke deelvensters en visualisaties in een project, bijvoorbeeld om een inhoudsopgave van een project te maken. U kunt deze koppelingen delen, zoals u een projectkoppeling deelt, om iemand naar een specifieke visualisatie of een bepaald deelvenster binnen een project te sturen. De nieuwe met de rechtermuisknop aangeklikte opties genoemd "krijgen de Verbinding van het Comité"en "krijgen Visualisatiekoppeling"zijn toegevoegd. </p> </td> 
   </tr> 
   <tr> 
@@ -702,7 +702,7 @@ Nieuwe functies uitgebracht op 20 juli 2017.
    <td colname="col2"> <p>Als u zich eerder hebt aangemeld met uw Experience Cloud-gebruikersgegevens en naar Analytics hebt genavigeerd, kunt u de functie <span class="ignoretag"> Delen <span class="uicontrol"> &gt; </span> Projectkoppeling ophalen niet gebruiken <span class="uicontrol"> </span> </span> . We hebben dit probleem opgelost. U moet het project nog bewaren alvorens deze optie klikbaar wordt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> Het <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > filter "Verlopen Projecten"in Geplande Projectmanager </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > Het filter "Verlopen Projecten"in Geplande Projectmanager </a></b> </p> </td> 
    <td colname="col2"> <p>U kunt verlopen projecten in de Geplande projectmanager nu filtreren. U kunt dan besluiten of deze projecten opnieuw te beginnen of te schrappen. </p> </td> 
   </tr> 
  </tbody> 
@@ -721,7 +721,7 @@ Nieuwe functies uitgebracht op 8 juni 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> Verbeterde <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > uitvalfunctie </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > Verbeterde </a></b> uitval </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">Onbeperkte segmenten ter vergelijking </li> 
@@ -732,7 +732,7 @@ Nieuwe functies uitgebracht op 8 juni 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>Stroomverbeteringen</b> </a> </td> 
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>Verbeterde stroom</b></a> </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Er is een nieuwe visualisatie-instelling toegevoegd met de naam <span class="wintitle"> Labelafkapping uitschakelen </span> (standaard = uitgeschakeld). </li> 
@@ -755,7 +755,7 @@ Nieuwe functies uitgebracht op 8 juni 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> Selectievakje <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Percentagelimieten gebruiken </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Selectievakje Percentagelimieten gebruiken </a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> Selectievakje toegevoegd om percentagecijfers aan te geven, vooral voor op percentage-gebaseerde metriek (werkt ook met op niet-percent gebaseerde metriek). </li> 
@@ -769,7 +769,7 @@ Nieuwe functies uitgebracht op 8 juni 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md"  > Waarschuwingenbeheer </a> </b>verbeterd </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md"  > Verbeteringen </a> </b>in Waarschuwingsbeheer </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">De mogelijkheid toegevoegd om waarschuwingen in of uit te schakelen. </li> 
@@ -898,7 +898,7 @@ Nieuwe functies uitgebracht op 20 oktober 2016:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  > Fallout Analyse </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  > Falloutanalyse </a></b> </td> 
    <td colname="col2"> <p>De nieuwe reserveeigenschap zal de functionaliteit van de handelingstunnel aan de Werkruimte van de Analyse brengen. Met een trechter kunt u bepalen waar klanten een marketingcampagne verlaten of van een gedefinieerd conversiepad afwijken tijdens het werken met uw website- of kanaalcampagne. De Analyse van de reserve staat u toe om robuuste trechters met nieuwe visualisaties en de inherente flexibiliteit te bouwen die de Werkruimte van de Analyse verstrekt om omzetting voor zeer belangrijke succesmetriek te identificeren. De Analyse van de val laat u </p> <p> </p> 
     <ul id="ul_E7C8255BA5D84F74ABBC6CC0E148DFB0"> 
      <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">Taalstappen slepen, neerzetten en opnieuw rangschikken (aanraakpunten) </li> 
@@ -926,7 +926,7 @@ Nieuwe functies uitgebracht op 20 oktober 2016:
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > Analyse van anomalische detectie en bijdrage </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > Analyse van anomaly-detectie en -bijdrage </a></b> </td> 
    <td colname="col2"> <p>Hiermee kunt u zien of een wijziging in trendgegevens significant is en wat de oorzaak is. </p> <p>Zowel Anomaly Detection als de Analyse van de Bijdrage zijn nu kernwerkschema's in de Werkruimte van de Analyse. </p> <p>Belangrijk:  De analyse van de bijdrage is beschikbaar slechts aan klanten van de Premie van de Analyse van Adobe. </p> <p>U kunt: </p> <p> </p> 
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6"> 
      <li id="li_787236BB5EA545B8833B311C06C24337">Detecteer automatisch statistisch significante gegevensanomalieën in uw gegevens. </li> 
@@ -942,7 +942,7 @@ Nieuwe functies uitgebracht op 20 oktober 2016:
     </ul> <p><img placement="break"  src="assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> Visualisatie <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"> histogram </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"> Histogram visualiseren </a></b> </td> 
    <td colname="col2"> <p>Met histogrammen kunnen gebruikers distributies van gebruikers zien over elke succesgebeurtenis. U kunt de emmers en de emmergrootte aanpassen om het even welke distributie aan te passen en high-value en laag-waardegebruikers te identificeren. </p> <p><img placement="break"  src="assets/histogram3.png" width="500px" id="image_E3277073B50140E0A3FD7C1601CF9661" /> </p> </td> 
   </tr> 
   <tr> 
@@ -978,7 +978,7 @@ Nieuwe functies uitgebracht op 16 juni 2016:
 * [De nieuwe structuur](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) van het Menu van Projecten die het hoogste menu opnieuw schikt en het uitbreidbaarder maakt. Als u bijvoorbeeld een **nieuw deelvenster** Cohort maakt, maakt u een leeg deelvenster en sleept u in de visualisatie van een kleurentabel.
 * [Nieuwe linkerspoorstaaf](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Deelvensters, visualisaties, componenten
 * Een nieuw visualisatietype [van](/help/analyze/analysis-workspace/visualizations/venn.md) Venn dat u in maximaal 3 segmenten en metrisch laat slepen en een diagram van de Venn bouwt.
-* [Trend Selection](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (regeldiagram) op een gerangschikte tabel is nu gekoppeld.
+* [Trend Selection](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (regeldiagram) op een gerangschikte tabel is nu gekoppeld.
 * [Pictogram](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)&#39;Zichtbaar maken&#39;: als u op dit pictogram klikt, wordt er een intelligente gok weergegeven bij de volgende handeling (staafdiagram, venn...).
 * Uitgebreide functionaliteit [Handmatige rijen](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
 * [Segment](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) neerzetzone toevoegen
