@@ -1,102 +1,190 @@
 ---
-description: Aan de slag met Adobe Analytics.
 keywords: Analysis Workspace
-title: Aan de slag-handleiding
+title: Overzicht van de analysewerkruimte
+topic: Reports and analytics
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: efbbf94882a406e95791e38e80f86691285986a6
 
 ---
 
 
-# Werkruimte Analyse
+# Overzicht van de analysewerkruimte
 
-De analysewerkruimte is een van de vlaggenschipprogramma&#39;s van Adobe voor het nemen van op gegevens gebaseerde beslissingen voor uw organisatie. De gemeenschappelijkste visualisatie, de vrije vormlijst, laat u gemakkelijk aangepaste rapporten creëren gebruikend afmetingen, metriek, segmenten, en datumwaaiers.
+De Werkruimte van de analyse verwijdert alle typische beperkingen van één enkel rapport Analytics. Het verstrekt een robuust, flexibel canvas voor de bouw van projecten van de douaneanalyse. Sleep een willekeurig aantal gegevenstabellen, visualisaties en componenten (afmetingen, metriek, segmenten en tijdgranulariteit) naar een project. Creëer meteen onderverdelingen en segmenten, creeer cohorts voor analyse, creeer alarm, vergelijk segmenten, stroom en reserveanalyse, en curate en planningsrapporten voor het delen met iedereen in uw zaken.
 
-## Vereisten
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-[Gegevens naar Adobe Analytics verzenden met Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md): Het gebruiken van de Werkruimte van de Analyse vereist een werkende implementatie. Zorg ervoor dat uw organisatie gegevens naar Adobe verzendt voordat u het hulpprogramma gebruikt. Andere implementaties, zoals DTM of oudere handmatige implementaties, kunnen ook werken.
+## Video overzicht
 
-## Een rapport met een standaardpositie in Workspace samenstellen
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
-Trek een basis gerangschikt rapport gebruikend de Werkruimte van de Analyse. Een gerangschikt rapport geeft een geaggregeerde totaalweergave van elke waarde van de dimensie weer, waarbij eerst de grootste waarden worden weergegeven. Deze typen rapporten zijn handig om te zien welke componenten van uw site het meest effectief zijn, zoals welke pagina&#39;s het meeste verkeer krijgen of welke producten het meest verkopen.
+Volledige YouTube-afspeellijst beschikbaar [hier](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
-1. Meld u met uw Adobe-id aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) .
-2. Klik op het pictogram van 9 vierkante pixels rechtsboven en klik vervolgens op het gekleurde Analytics-logo.
-3. Klik in de bovenste navigatiebalk op Werkruimte.
-4. Klik op de knop Nieuw project maken.
-5. Controleer of Leeg project is geselecteerd in het modaal pop-upmenu en klik vervolgens op Maken.
-6. Links ziet u een lijst met dimensies, metriek, segmenten en datumbereiken. Zoek de pagina-afmetingen (oranje gekleurd) en sleep deze naar het canvas waar de tekst &#39;Een dimensie hier neerzetten&#39; staat.
-7. Merk op dat als de rapportreeks gegevens heeft, een rapport dat de hoogste pagina&#39;s voor deze maand toont kan worden gezien. De Werkruimte van de analyse bevolkte automatisch het rapport met metrische [Voorvallen](/help/components/c-variables/c-metrics/metrics-occurrences.md) .
-8. Zoek de metrische (gekleurde groene) bezoekerslijst en sleep deze **boven** of **naast** de metrische koptekst Voorkomt (en plaats deze niet boven de metrische koptekst). Als u metrisch van Bezoekingen bovenop Voorkomen sleept, wordt metrisch vervangen in rapportering. Als u metrisch van Bezoekingen naast Voorkomen sleept, worden beide metriek getoond zij aan zij.
-9. Als u uw project wilt bewaren, klik *[!UICONTROL Project][!UICONTROL Save]*> in het hogere linkermenu.
+>[!NOTE]
+>
+>Zie [Nieuw in de Werkruimte](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) Analyse voor updates over functies.
 
-## Trek een fundamenteel trendrapport in Werkruimte
+## Volledige controle over projectelementen en componenten
 
-Trek een fundamenteel trended rapport gebruikend de Werkruimte van de Analyse. Een trended-rapport toont een weergave van metrische gegevens die de geselecteerde datumreeks gebruiken in de tijd. Deze types van rapporten zijn nuttig om tendensen in tijd te identificeren, en kunnen worden gebruikt om succes of mislukking van bedrijfsbesluiten te meten die worden genomen. Bijvoorbeeld, kon u een rapport bekijken van de paginameningen dat in tijd wordt trended om te zien of hielp een plaatsherontwerp verkeer verhogen of verminderen.
+De analysewerkruimte biedt vrijheid en flexibiliteit:
 
-1. Meld u met uw Adobe-id aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) .
-2. Klik op het pictogram van 9 vierkante pixels rechtsboven en klik vervolgens op het gekleurde Analytics-logo.
-3. Klik in de bovenste navigatiebalk op Werkruimte.
-4. Klik op de knop Nieuw project maken.
-5. Controleer of Leeg project is geselecteerd in het modaal pop-upmenu en klik vervolgens op Maken.
-6. Links ziet u een lijst met dimensies, metriek, segmenten en datumbereiken. Zoek de afmetingen voor de paginaweergaven en sleep deze naar de kleine ruimte op het canvas met de naam &#39;Hier een metrische waarde neerzetten&#39;. Vermijd het weglaten in de ruimte die is gereserveerd voor afmetingen (tenminste voor deze oefening).
-7. Merk op dat als de rapportreeks gegevens heeft, u een rapport van de basispaginameningen over de huidige maand trended zou moeten zien. De Werkruimte van de analyse wordt automatisch gebracht in de de datumwaaier van &quot;Dag&quot;zodat kunt u de trend van paginameningen voor de huidige maand zien.
-8. Zoek het datumbereik van de week (paars gekleurd) in de lijst met componenten voor het datumbereik aan de linkerkant. Klik op de titel van het datumbereik om alle componenten van het datumbereik uit te vouwen en weer te geven, of gebruik de zoekbalk.
-9. Sleep het datumbereik van de week boven op de kop van het datumbereik van Dag op het canvas om het te vervangen.
-10. Let op: uw trended-rapport wordt nu geaggregeerd per week in plaats van per dag.
-11. Als u uw project wilt bewaren, klik *[!UICONTROL Project][!UICONTROL Save]*> in het hogere linkermenu.
+* Componenten slepen en neerzetten (afmetingen, metriek, segmenten en tijdkorreligheid)
+* Meerdere visualisaties naar het project slepen en neerzetten
+* Visualisaties verplaatsen, vergroten, verkleinen en stapelen waar u wilt in een project
 
-## Experimenteren met het gereedschap
+![](assets/fa_project_new.png)
 
-Aangezien de Werkruimte van de Analyse een rapporteringshulpmiddel is, heeft het geen invloed op gegevensinzameling. Er zijn geen gevolgen om zonder onderscheid componenten naar een project te slepen om te zien wat werkt. Sleep verschillende combinaties van dimensies en metriek in uw werkruimteproject om te zien wat beschikbaar aan u is.
+Zie [Creeer een project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) van de Werkruimte van de Analyse voor meer informatie.
 
-Als u per ongeluk een ongeldige component naar uw werkruimteproject sleept of een stap wilt terugkeren, drukt u op ctrl+Z (Windows) of cmd+Z (Mac) om de laatste uitgevoerde actie ongedaan te maken. U kunt ook met een schone lei beginnen door op *[!UICONTROL Project][!UICONTROL New]*> in het menu linksboven te klikken.
+## Meerdere visualisaties in een project
 
-## Problemen oplossen
+Sleep zoveel visualisaties naar een project als u wilt.
 
-**Wanneer ik metrisch over sleep, zegt het &quot;Ongeldige gegevens&quot;.**
+![](assets/visualizations-multiple.png)
 
-Ongeldige gegevens betekenen dat Adobe geen gegevens kan retourneren met de combinatie van afmetingen en metriek die in het rapport wordt gebruikt. Twee metriek die bijvoorbeeld boven op elkaar zijn gestapeld, kunnen niet als gegevens worden geretourneerd, omdat er geen manier is om twee metriek op die manier weer te geven. Plaats de metriek in plaats daarvan naast elkaar.
+Creeer een project dat het percentage van verandering toont, met veelvoudige visualisaties die aan cellen in een vrije lijst van gegevensgegevens beantwoorden.
 
-**Wanneer ik metrisch over sleep, zie ik geen daadwerkelijke gegevens - enkel nul.**
+![](assets/visualizations-multiple02.png)
 
-Als u met succes een werkruimterapport creeert maar er geen gegevens zijn, kunt u een paar dingen controleren:
+Zie [Creeer een project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) van de Werkruimte van de Analyse voor meer informatie.
 
-* Controleer de rapportsuite en zorg ervoor dat deze is gevuld met gegevens.
-* Als u een segment in uw rapport gebruikt, zouden de segmentcriteria geen gegevens kunnen aanpassen. Probeer het segment te verwijderen of de segmentdefinitie aan te passen.
-* Controleer de datumwaaier in hoger recht en zorg ervoor het aan een waarde wordt geplaatst die u zou verwachten.
-* Navigeer naar uw website en gebruik Foutopsporing om te controleren of er gegevens worden verzameld.
+## Intra-linking to panels and visualizations
 
-## Aanvullende bronnen
+In combinatie met de [rijke mogelijkheden voor tekstbewerking](/help/analyze/analysis-workspace/visualizations/text.md) van de Werkruimte van de Analyse, kunt u aan specifieke panelen en visualisaties binnen een project van een tekstvakje, zoals neer verbinden om de inhoudstafel van een project tot stand te brengen. U kunt deze koppelingen delen, zoals u een projectkoppeling deelt, om iemand naar een specifieke visualisatie of een bepaald deelvenster binnen een project te sturen. De nieuwe met de rechtermuisknop aangeklikte opties genoemd &quot;krijgen de Verbinding van het Comité&quot;en &quot;krijgen Visualisatiekoppeling&quot;zijn toegevoegd. Om intra-linking aan uw project toe te voegen:
 
-* [Opmerkingen](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)bij de release Analyse Workspace: Lees meer over de nieuwste functies die in het gereedschap zijn geïntroduceerd.
-* [Analyse van werkruimte op YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): Leer hoe u de meeste functies in de analysewerkruimte kunt gebruiken via deze uitgebreide afspeellijst.
-* Tips voor producten: Tips van de dag worden samen met korte video&#39;s af en toe weergegeven in de rechterbenedenhoek van de analysewerkruimte. Als deze uiteinden worden genegeerd, kunnen ze op elk gewenst moment via *[!UICONTROL Help]>[!UICONTROL Tips]*worden bereikt.
-* [Werkruimte](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)voor analyse: Bespreek de Werkruimte van de Analyse met medegebruikers, en stem over eigenschappen u in het hulpmiddel wilt zien.
-* Blogberichten:
-   * [Organisaties meer mogelijkheden bieden met slimmere analyse](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
-   * [Nieuwe Adobe Analytics-mogelijkheden maken krachtige inzichten toegankelijker](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/)
-   * [5 tips om uw productiviteit te maximaliseren met analysewerkruimte](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/)
-   * [Snellere inzichten met analysewerkruimte](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/)
-   * [Waarom u de werkruimte Analyse moet gebruiken](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/)
+1. Sleep een tekstvisualisatie in een project, misschien naast een visualisatie of een lijst die één of andere context vereist.
+1. Vul het tekstvak met bijvoorbeeld een inhoudsopgave en markeer een item dat u wilt koppelen aan een deelvenster of visualisatie, bijvoorbeeld Metrische gegevens succes.
 
-## Volgende stappen
+   ![](assets/intra-linking1.png)
 
-Er zijn veel richtingen om uw begrip van de Werkruimte van de Analyse te verdiepen. Hier volgen enkele basisbeginselen die door Adobe worden aanbevolen:
+1. Blader naar dat deelvenster of naar de visualisatie en klik met de rechtermuisknop op de koptekst van het deelvenster.
+1. Omlaag schuiven en selecteren **[!UICONTROL Get Panel Link]** of **[!UICONTROL Get Visualization Link]**:
 
-### Voor eindgebruikers die kennis willen uitbreiden over het gebruik van de analysewerkruimte
+   ![](assets/intra-linking2.png)
 
-* [Gegevens over de interface](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)van de werkruimte: Nu u een basisrapport hebt gecreeerd, wordt vertrouwd met de rest van de interface.
-* [Visualisaties in werkruimte](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): De lijsten van de vrije vorm zijn slechts één type van visualisatie in de Werkruimte van de Analyse. Leer hoe u andere visualisaties gebruikt, zoals lijngrafieken, staafgrafieken en geo-overzichten.
-* [Afmetingen in werkruimte](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): Meer weten over welke afmetingen en hoe u deze kunt gebruiken in meer dan alleen gerangschikte rapporten?
-* [Metrische gegevens in werkruimte](/help/analyze/analysis-workspace/components/apply-create-metrics.md): Leer meer over welke metriek zijn en hoe te om hen in andere delen van vrije vormlijsten te gebruiken.
-* [Inleiding tot segmentatie](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md): Leer over welke segmenten zijn en trek een basisrapport gebruikend een segment.
-* [Datumbereiken in werkruimte](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): Leer over relatieve en roldata, en gebruik hen in werkruimteprojecten.
-* Projecten delen in Workspace: Toon uw collega het fantastische project van de Werkruimte u creeerde.
-* [(Geavanceerd) Deelvensters in werkruimte](/help/analyze/analysis-workspace/c-panels/panels.md): Geavanceerde functies in Workspace gebruiken, zoals Attribution and Segment Comparison.
+1. Kopieer die koppeling en voeg deze toe aan de hyperlink Metrische gegevens succes in de tekstvisualisatie. Klik op het vinkje om de tekst op te slaan.
 
-### Voor analisten en beheerders die de kwaliteit van de werkruimte in hun organisatie willen verbeteren
+Als u deelvensters of visualisaties hebt samengevouwen in uw project, kunt u door op een koppeling te klikken het deelvenster/de visualisatie uitvouwen, zodat gebruikers het kunnen zien.
 
-* [Machtigingen voor](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)analysewerkruimte: Wijs gebruikersmachtigingen toe aan Workspace via de Adobe Admin Console.
-* [Sjablonen in werkruimte](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Creeer malplaatjes zodat kunnen uw collega&#39;s met een projectruimte beginnen die aan hun behoeften wordt aangepast.
-* [Werkruimte krommen](/help/analyze/analysis-workspace/curate-share/curate.md): Maak een project dat beschikbare componenten beperkt, waardoor de werkruimte toegankelijker wordt voor minder bekende gebruikers
+>[!NOTE] U kunt deze functie ook gebruiken met de **[!UICONTROL Edit Description]** rechtermuisknop.
+
+## Koppeling naar andere projecten
+
+U kunt gebruikers aan andere projecten verbinden die voor hen van belang kunnen zijn door naar **[!UICONTROL Share]** > te gaan **[!UICONTROL Get Project Link]** en deze verbinding in projectbeschrijvingen in te bedden, bijvoorbeeld.
+
+## Dynamische visualisatie van geselecteerde cellen
+
+Selecteer individuele cellen en zie de visualisaties dynamisch veranderen. Synchroniseer en vergrendel een visualisatie met geselecteerde cellen.
+
+![](assets/visualize-selected-cells.png)
+
+## Geselecteerde items of posities vergrendelen
+
+Door visualisaties te vergrendelen, kunt u bepalen welke bronnen van de vrije-vormgegevens overeenkomen met visualisaties.
+
+![](assets/manage-data-source.png)
+
+Zie [Gegevensbronnen](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)beheren.
+
+## Trend visualizations from selected cells
+
+Maak een visualisatie van geselecteerde cellen. (Klik met de rechtermuisknop > **[!UICONTROL Trend Selection]**.)
+
+![](assets/trend-selection.png)
+
+De selecties van de trend worden nu **verbonden** aan de lijst hieronder, zodat als u een verschillende rij in de lijst selecteert, zal de trendgrafiek op die rij wijzen.
+
+![](assets/trend-selection2.png)
+
+## Afmetingen en uitsplitsingen naar dimensie-items
+
+Als detailhandelaar, kunt u dieper dan ooit in uw campagnes duiken om te begrijpen hoe te om uw klanten beter in dienst te nemen. U kunt uw gegevens op onbeperkte wijze onderverdelen voor uw specifieke behoeften; bouwt vragen gebruikend relevante metriek, dimensies, segmenten, tijdlijnen, en andere waarden van de analyseonderbreking.
+
+![Stap resultaat](assets/fa_data_table_actions.png)
+
+Zie [Afmetingen](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)onderbreken.
+
+## Segmenten uit tabelselecties
+
+Selecteer cellen in de vrije-vormlijst en creeer een segment van de selectie.
+
+Vergelijk meerdere segmenten en maak en pas direct segmenten toe. U kunt veelvoudige segmenten toepassen om zich op specifieke klanten te concentreren die op gedrag en interactie worden gebaseerd en dan vergelijken en contrast.
+
+![](assets/segment_inline.png)
+
+Zet een segment neer in het deelvenster Vrije vorm op projectniveau en het segment wordt toegepast op het gehele project.
+
+![](assets/segment-panel.png)
+
+Zie [Segmenten](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
+
+## Labels voor project en component
+
+U kunt markeringen op projecten en componenten in de Werkruimte van de Analyse toepassen:
+
+* U kunt labels op projectniveau toepassen of maken in het deelvenster Informatie. (  ![](assets/information_icon.png)
+
+* Klik met de rechtermuisknop op componenten om tags aan te brengen (of tags te maken) in het deelvenster Componenten.
+* Gebruik # in het veld Zoeken om tags te zoeken.
+
+## Componenthandelingen
+
+Voer componentenvlakke acties van het menu van Acties bij de bovenkant van de component linker spoorstaaf uit. Selecteer een component en klik **[!UICONTROL Actions]** om de handelingen weer te geven.
+
+| Componentactie | Beschrijving |
+|--- |--- |
+| Tag | U kunt componenten ordenen of beheren door er tags op toe te passen. Deze wordt vervolgens weergegeven in de respectievelijke componentmanager, zoals Analytics > Components > Segments, of Analytics > Components > Projecten |
+| Favoriet | Voeg de component toe aan de lijst met favorieten. Deze wordt vervolgens weergegeven in de respectievelijke componentmanager, zoals Analytics > Components > Segments, of Analytics > Components > Projecten. |
+| Goedkeuren | Goedkeuren van de component om deze canonicaal te maken. Deze wordt vervolgens weergegeven in de respectievelijke componentmanager, zoals Analytics > Components > Segments, of Analytics > Components > Projecten |
+| Delen | Alleen van toepassing op segmenten. |
+| Verwijderen | Alleen van toepassing op segmenten. |
+
+Zie [Visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) voor meer informatie.
+
+## Aanvullende functiebeschrijvingen
+
+**Wat u kunt slepen en stapelen**
+
+Componenten
+
+* Afmetingen
+* Segmenten
+* Metrisch
+* Datumbereiken
+* Tijdgranulariteit (Uur, Dag, Week, enzovoort).
+
+**Meerdere vrije-vormlijsten en meerdere visualisaties**
+
+Er is geen technische limiet voor het aantal vrije-vormtabellen en -visualisaties dat u aan het deelvenster kunt toevoegen. Ook, kunt u een nieuwe visualisatie (of uitvoer naar CSV) in werking stellen elke vrije lijst of geselecteerde rijen van een lijst.
+
+**Kolommen rangschikken, sorteren en kopiëren**
+
+* Voorinstellingen voor het datumbereik sorteren (bevat geen aangepaste datumbereiken).
+* Met CTRL (of Command) + klikken en slepen wordt de kolom gekopieerd. Wanneer u de kopie sleept, wordt deze op de nieuwe positie in de tabel geplakt.
+
+Zie [Hotkeys Beschikbaar in de Werkruimte](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) van de Analyse voor meer informatie.
+
+**Selecties en acties**
+
+U kunt rijen en kolommen selecteren die vergelijkbaar zijn met de manier waarop u ze in Excel kunt selecteren. Vervolgens kunt u actie ondernemen met betrekking tot deze selecties. Bijvoorbeeld:
+
+* Visualisaties maken van selecties
+* Kopiëren naar klembord (CTRL of Command + C)
+* Hiermee splitst u meerdere geselecteerde rijen. Selecteer de rijen en sleep een dimensie naar de selectie. U kunt ook met de rechtermuisknop op de selectie klikken en het menu Indeling gebruiken.
+
+**Wijzigingen automatisch opslaan en niet-opslaan**
+
+Als u probeert de browser te sluiten (of de knop Terug gebruikt) en het project niet is opgeslagen, wordt u gevraagd de wijzigingen op te slaan. Als uw systeem vastloopt, ontvangt u een waarschuwing om de vorige projectstatus te herstellen wanneer u het project laadt.
+
+Bestaande (niet nieuwe) projecten worden alleen automatisch opgeslagen wanneer de browser vastloopt of onder andere omstandigheden wanneer u geen kans hebt gekregen om ze op te slaan.
+
+**Alle bezoeken**
+
+Een standaardsegment uniek aan de Werkruimte van de Analyse. *`All Visits`* geeft totalen weer voor de componenten die u aan de tabel toevoegt.
+
+**Berekende cijfers**
+
+Gebruik berekeningen op dezelfde manier als standaardmeetwaarden.
+
+Zie [Berekende waarden](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html).
