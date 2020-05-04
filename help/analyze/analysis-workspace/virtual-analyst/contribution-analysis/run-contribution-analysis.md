@@ -3,7 +3,7 @@ description: 'null'
 title: Bijdrageanalyse uitvoeren
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -44,7 +44,7 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 1. Aangezien de bijdrageanalyse nu deel van de Werkruimte van de Analyse uitmaakt, kunt u uit een aantal van zijn eigenschappen van het de klikmenu van een lijst van de met de rechtermuisknop aanklikken gebruiken om uw analyse nog betekenisvoller te maken, zoals:
 
    * [Elk afmetingsitem omlaag splitsen op een andere afmeting.](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [Een of meer rijen Trending.](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [Een of meer rijen Trending.](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [Nieuwe visualisaties toevoegen.](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [Waarschuwingen maken.](/help/components/c-alerts/intellligent-alerts.md)
    * [Segmenten maken of vergelijken.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
