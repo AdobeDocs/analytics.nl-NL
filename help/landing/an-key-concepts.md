@@ -2,7 +2,7 @@
 description: Deze sectie bevat de belangrijkste concepten voor de Analyse van Adobe, een korte beschrijving van het concept, en een specifieke documentatieverbinding met extra detail over het onderwerp.
 title: Adobe Analytics - Belangrijkste concepten
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -15,7 +15,7 @@ Deze sectie bevat de belangrijkste concepten voor de Analyse van Adobe, een kort
 
 | Product | Beschrijving | Documentatiekoppeling |
 |--- |--- |--- |
-| Werkruimte Analyse | Browser oplossing voor het bouwen van robuuste, aangepaste analyseprojecten en het democratiseren van inzichten. Biedt meer rapportflexibiliteit dan Rapporten &amp; Analytics | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
+| Werkruimte Analyse | Browser oplossing voor het bouwen van robuuste, aangepaste analyseprojecten en het democratiseren van inzichten. Biedt meer rapportflexibiliteit dan Rapporten &amp; Analytics | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) |
 | Rapporten en analyses (voorheen SiteCatalyst) | Browseroplossing voor rapportage en analyse. Starter in het pakket Analytics. | [Thuis voor rapporten en analyses](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | De toe:voegen-binnen van Excel die u aangepaste verzoeken van de gegevens van de Analyse van Adobe kunt bouwen, en hen visualiseren gebruikend Microsoft Excel. | [Introductie van Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
 | Ad hoc analyse (voorheen Detecteren) | Java-gebaseerd hulpmiddel voor geavanceerde digitale analyse. | [Ad-hocanalyse, startpunt](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
