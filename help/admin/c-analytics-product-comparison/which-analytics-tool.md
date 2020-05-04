@@ -3,7 +3,7 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk hulppro
 title: Welk hulpprogramma van Adobe Analytics moet ik gebruiken?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -16,7 +16,7 @@ Ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-compariso
 
 ## Adobe Analytics Reporting User Interfaces {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
-**[De Werkruimte](/help/analyze/analysis-workspace/analysis-workspace-features.md)**van de analyse zou de go-aan gebruikersinterface voor al uw rapportering en analysebehoeften moeten zijn. Adobe blijft in dit product investeren en maandelijks updates uitbrengen. Als er een taak is u niet in de Werkruimte van de Analyse kunt doen, overweeg de andere hieronder interfaces.**
+**[De Werkruimte](/help/analyze/analysis-workspace/home.md)**van de analyse zou de go-aan gebruikersinterface voor al uw rapportering en analysebehoeften moeten zijn. Adobe blijft in dit product investeren en maandelijks updates uitbrengen. Als er een taak is u niet in de Werkruimte van de Analyse kunt doen, overweeg de andere hieronder interfaces.**
 
 **[Rapporten en analyses](/help/analyze/reports-analytics/overview/report-overview.md)**moeten worden gebruikt:
 
