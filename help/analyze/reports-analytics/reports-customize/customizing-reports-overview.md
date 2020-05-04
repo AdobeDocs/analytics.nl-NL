@@ -4,7 +4,7 @@ title: Overzicht van rapporten aanpassen
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -218,4 +218,4 @@ De meeste rapporten in Rapporten &amp; Analytics omvatten nu een knoop &quot;van
 
 De knop is momenteel alleen beschikbaar als uw gebruikersnaam volledige rechten heeft voor de analysewerkruimte.
 
-Voor meer informatie over alle manieren kunt u uw rapport aanpassen, zie de gids van de Werkruimte [van de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) Analyse.
+Voor meer informatie over alle manieren kunt u uw rapport aanpassen, zie de gids van de Werkruimte [van de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) Analyse.
