@@ -6,7 +6,7 @@ title: Machtigingen voor Analytics Tools aanpassen
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -58,7 +58,7 @@ De instellingen op deze pagina hebben betrekking op de rapportsuites die op de [
 | [Ad-hocanalyse](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) van licentieconstanten | Hiermee krijgt u toegang [!UICONTROL Ad Hoc Analysis]. |
 | Webservicetoegang | Laat de toegang van de Diensten van het Web voor niet-beheerders toe. Genereert de geloofsbrieven van de Dienst van het Web. |
 | [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Leden van deze groep krijgen toegang tot [!UICONTROL Report Builder] licenties. |
-| [Toegang tot](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) analysewerkruimte | Biedt gebruikers toegang tot de Werkruimte van de Analyse, de geadviseerde rapporteringsinterface voor [!DNL Adobe Analytics]. |
+| [Toegang tot](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) analysewerkruimte | Biedt gebruikers toegang tot de Werkruimte van de Analyse, de geadviseerde rapporteringsinterface voor [!DNL Adobe Analytics]. |
 | [Rapporten en analyses](https://docs.adobe.com/content/help/en/analytics/landing/an-key-concepts.html) | Hiermee geeft u gebruikers toegang tot rapporten en analyses. |
 | [Berekend metrisch ontwerp](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) | Hiermee geeft u gebruikers toestemming om berekende metriek te maken. |
 | [Segment maken](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) | Hiermee geeft u gebruikers toestemming om segmenten te maken. |
