@@ -3,7 +3,7 @@ title: Help bij Adobe Report Builder
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -51,6 +51,6 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## Help voor rapporten en analyses
 
-* [Help bij analysewerkruimte](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html)
+* [Help bij analysewerkruimte](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
 * [Help voor rapporten en analyses](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html)
 * [Help bij Analytics Reference](https://docs.adobe.com/content/help/en/analytics/landing/home.html) op Admin Tools, Reports en metrics.
