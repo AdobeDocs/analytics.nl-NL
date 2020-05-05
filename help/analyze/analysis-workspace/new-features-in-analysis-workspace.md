@@ -2,10 +2,8 @@
 description: Nieuwe functies in de analysewerkruimte.
 keywords: Analysis Workspace
 title: Nieuwe functies in de analysewerkruimte
-topic: Reports and analytics
-uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 ---
 
@@ -55,7 +53,7 @@ Verbeteringen die zijn uitgebracht op 10 oktober 2019.
 | Verbetering | Beschrijving |
 |--- |--- |
 | Totalen van tabellen voor vrije vorm bijwerken | Vrije-vormtabellen bevatten nu twee totalen, a **[!UICONTROL Table total]** en a **[!UICONTROL Grand total]**. De tabel totaal rijrekeningen voor toegepaste [rapportfilters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) . Voorheen beïnvloedde alleen de segmentatie de totalen. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>Daarnaast zijn **[!UICONTROL Show Totals]** en **[!UICONTROL Show Grand Total]** opties toegevoegd aan **[!UICONTROL Column Settings]**.<br/>Met deze wijziging in de totalen van Freeform worden afhankelijke visualisaties bijgewerkt (bijv. gekoppelde **[!UICONTROL Summary Number]** visualisaties) en worden geëxporteerde CSV- en PDF-gegevens. |
-| Optie voor het verwijderen van Niet-opgegeven/Geen | De mogelijkheid om &quot;Niet gespecificeerd (niets)&quot; gemakkelijk te verwijderen is toegevoegd als optie om filters te melden. |
+| Optie om Niet-opgegeven/Geen te verwijderen | De mogelijkheid om &quot;Niet gespecificeerd (niets)&quot; gemakkelijk te verwijderen is toegevoegd als optie om filters te melden. |
 | Afwijking van componenten van paarse korreligheid | De componenten voor de paarse korreligheid (Minuut, Uur, Dag, Week, Maand, Kwart, Jaar) zijn afgekeurd. De componenten voor paarse tijd hebben zich altijd precies gedragen als hun tegenhangers voor oranje dimensies, zodat deze verandering de ervaring zal vereenvoudigen. **Er hoeft geen actie** te worden ondernomen als u eerder een van de paarse tijdcomponenten hebt gebruikt.<br/>Door deze wijziging is de naam van de paarse **[!UICONTROL Time]** sectie ook gewijzigd in **[!UICONTROL Date Ranges]**. |
 
 ## Augustus 2019
@@ -1126,7 +1124,7 @@ In Kolominstellingen kunt u voorwaardelijke opmaak toepassen op celgegevens.
      <li id="li_88874B4250224DE781C03E4A5931D6A2">Groen: hoge waarden </li> 
      <li id="li_B4863F967C7544D7AA2847696FB85525">Geel: middenpuntwaarden </li> 
      <li id="li_5B06D7CD0C39437898DA55EA653A1124">Rood: lage waarden </li> 
-    </ul> <p>Als u een dimensie in de tabel vervangt, worden de limieten voor voorwaardelijke opmaak opnieuw ingesteld. Wanneer u een metrische waarde vervangt, worden de grenswaarden voor die kolom opnieuw berekend (wanneer een metrische waarde zich op de X-as bevindt en een afmeting zich op de Y-as bevindt). </p> </td> 
+    </ul> <p>Als u een dimensie in de tabel vervangt, worden de limieten voor voorwaardelijke opmaak opnieuw ingesteld. Wanneer u een metrische waarde vervangt, worden de grenswaarden voor die kolom opnieuw berekend (wanneer een metrische waarde zich op de X-as bevindt en een dimensie zich op de Y-as bevindt). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Automatisch gegenereerd </td> 
