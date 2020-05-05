@@ -2,12 +2,16 @@
 description: Instructies voor het gebruik van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboards
 translation-type: tm+mt
-source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
 # Adobe Analytics-dashboards: Handleiding voor snel starten van gebruikers
+
+>[!IMPORTANT]
+>
+>Adobe Analytics-dashboards worden niet vrijgegeven en zijn alleen beschikbaar voor bètatests onder uitgenodigde klanten. Deze documentatie is >alleen bedoeld voor bètagebruikers en vertegenwoordigt niet de volledige functionaliteit van de functie. Neem contact op met Ashok Gorrepati (gorrepati@adobe.com) als u een bètagebruiker van deze >functie wilt worden.
 
 ## Inleiding
 
