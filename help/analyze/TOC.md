@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analysehulpmiddelen
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
@@ -327,8 +327,8 @@ source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
    + [Tijd](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Overzicht van labs](tech-previews/overview.md)
-+ dashboards {#mobapp}
-   + [overzicht van dashboards](mobile-app/home.md)
++ Adobe Analytics-dashboards {#mobapp}
+   + [Overzicht van Adobe Analytics-dashboards](mobile-app/home.md)
    + [Curatorhulplijn](mobile-app/curator.md)
    + [Snelle handleiding voor gebruikers](mobile-app/executive.md)
 + Progressieve webapps {#pwa}
