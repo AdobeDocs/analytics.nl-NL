@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analysehulpmiddelen
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 ---
 
@@ -297,7 +297,7 @@ source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
    + [Veelgestelde vragen](reports-analytics/frequently-asked-questions.md)
 + Ad hoc-analyse {#ad-hoc-analysis}
    + Ad hoc-analyseproject converteren {#aha-project-converter}
-      + [Overzicht van ad-hocanalyseprojecten converteren](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
+      + [Overzicht van ad-hocanalyse projectconversie](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Uw projecten omzetten in ad-hocanalyse](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
       + [Omgezette projecten weergeven in de analysewerkruimte](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
       + [Veelgestelde vragen over projectconversie](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
@@ -328,7 +328,7 @@ source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 + Labs {#tech-previews}
    + [Overzicht van labs](tech-previews/overview.md)
 + Adobe Analytics-dashboards {#mobapp}
-   + [Overzicht van Adobe Analytics-dashboards](mobile-app/home.md)
+   + [Adobe Analytics-dashboards - Overzicht](mobile-app/home.md)
    + [Curatorhulplijn](mobile-app/curator.md)
    + [Snelle handleiding voor gebruikers](mobile-app/executive.md)
 + Progressieve webapps {#pwa}
