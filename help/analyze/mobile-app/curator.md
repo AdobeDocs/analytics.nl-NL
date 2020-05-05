@@ -2,14 +2,17 @@
 description: Instructies voor het instellen van de dashboards scorecards.
 title: Adobe Analytics-handleiding voor dashboards
 translation-type: tm+mt
-source-git-commit: 84c2d3534828b4c8d84d18de9168a46317a8b372
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
 
-# BETA: Curatorhandleiding voor Adobe Analytics-dashboards
+# Curatorhandleiding voor Adobe Analytics-dashboards
 
+>[!IMPORTANT]
+>
+>Adobe Analytics-dashboards worden niet vrijgegeven en zijn alleen beschikbaar voor bètatests onder uitgenodigde klanten. Deze documentatie is >alleen bedoeld voor bètagebruikers en vertegenwoordigt niet de volledige functionaliteit van de functie. Neem contact op met Ashok Gorrepati (gorrepati@adobe.com) als u een bètagebruiker van deze >functie wilt worden.
 
 ## Inleiding
 
@@ -106,7 +109,7 @@ Het scorebordsjabloon implementeren:
    Wanneer u op een tegel in de Scorecard Builder klikt, toont het rechtse spoor de eigenschappen en de kenmerken verbonden aan die tegel. In dit spoor, kunt u een nieuwe **Titel** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
 
 
-   Als u op tegels klikt, wordt bovendien een dynamische pop-up weergegeven waarin wordt aangegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen dimensie is toegepast op de tegel, is de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
+   Als u op tegels klikt, wordt in een dynamische pop-up ook weergegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen dimensie is toegepast op de tegel, is de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
 
    ![Onderverdeling_weergave](assets/break_view.png)
 
@@ -188,7 +191,6 @@ Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wi
    3. Nadat u de testflight-app hebt geïnstalleerd, zoekt en installeert u de Adobe Analytics-dashboards vanuit Testflight, zoals hieronder wordt weergegeven:
 
       ![Testvluchtscherm](assets/testflight2.png)
-
    **Voor uitvoerende gebruikers op Android:**
 
    1. Tik op de koppeling Play Store op het apparaat van de gebruiker (Deze is ook beschikbaar in Analytics onder **Extra** > **dashboards**):
@@ -204,7 +206,6 @@ Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wi
 
    3. Download en installeer de app.
 Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-gegevens. Wij ondersteunen zowel Adobe als Enterprise-/federatieve id&#39;s.
-
    ![Welkomstscherm van app](assets/welcome.png)
 
 2. Help hen tot uw Scorecard toegang te hebben. Nadat uitvoerende gebruikers zich in app ondertekenen, verschijnt het **Choose een bedrijfscherm** . Dit scherm maakt een lijst van de login bedrijven waartot de uitvoerende gebruiker behoort. Om hen te helpen bij de Scorecard:
@@ -212,7 +213,6 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich a
    * Tik op de naam van het aanmeldingsbedrijf of de Experience Cloud Org die van toepassing is op het scorebord dat u hebt gedeeld. De Scorecard lijst toont dan alle Scorecards die met het uitvoerend onder dat login bedrijf zijn gedeeld.
    * Help ze deze lijst te sorteren op **Laatst gewijzigd**, indien van toepassing.
    * Tik op de naam van het scorebord om het weer te geven.
-
    ![Kies een bedrijf](assets/accesscard.png)
 
    Opmerking: Als de uitvoerende gebruiker zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld:
@@ -221,12 +221,12 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich a
    * Het scorebord is mogelijk niet gedeeld met de uitvoerende gebruiker
 
       ![Niets gedeeld](assets/nothing.png)
-
    Verifieer dat de uitvoerende gebruiker zich in de juiste instantie van Analytics kan aanmelden en dat Scorecard is gedeeld.
 
 3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt.
 
    ![Stijlen verklaren](assets/newexplain.png)
+
 
    Aanvullende informatie over tegels:
 
