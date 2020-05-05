@@ -1,13 +1,13 @@
 ---
-title: overzicht van dashboards
+title: Adobe Analytics-dashboards - Overzicht
 description: Productdocumentatie en zelfhulp voor Adobe Analytics-dashboards
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: 7c1f35d92bfaccaf4d2bb7e16e93314d739545d3
 
 ---
 
 
-# Overzicht van Adobe Analytics-dashboards
+# Adobe Analytics-dashboards - Overzicht
 
 >[!IMPORTANT]
 >
