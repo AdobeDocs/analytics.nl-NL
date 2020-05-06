@@ -4,7 +4,10 @@ title: Wat is cohortanalyse?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ Cohortanalyse is beschikbaar voor alle klanten van Analytics met toegangsrechten
 
 >[!IMPORTANT]
 >
->De Analyse van de Cohort steunt geen berekende metriek.
+>De Analyse van het Cohort steunt niet-segmentable metriek, zoals berekende metriek, non-integer metriek, of [!UICONTROL Occurrences]. Slechts kunnen de metriek die in segmenten kan worden gebruikt in de Analyse van de Cohort worden gebruikt, en zij kunnen slechts met 1 tegelijkertijd worden verhoogd.
 
 ## Cohortanalyse-mogelijkheden
 
