@@ -2,12 +2,15 @@
 title: PWA's voor analyse
 description: Progressieve webtoepassingen voor Adobe Analytics
 translation-type: tm+mt
-source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
+source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
 
-# PWA&#39;s voor analyse
+# PWA&#39;s voor Adobe Analytics
 
 Op deze pagina wordt beschreven hoe u Adobe Analytics met Progressive Web Apps (PWA&#39;s) kunt gebruiken.
 
@@ -19,11 +22,11 @@ Adobe Analytics werkt net zo naadloos met PWAs als met traditionele websites. Ho
 
 ## PWA-analysegegevens ophalen
 
-Als u uw PWA-gegevens wilt verzamelen en analyseren met Analytics, hoeft u geen configuratiewijzigingen aan te brengen. Analyses bieden automatisch dezelfde functionaliteit en functies als bij een traditionele website.
+Als u uw PWA-gegevens wilt verzamelen en analyseren met [!UICONTROL Analytics], hoeft u geen configuratiewijzigingen aan te brengen. [!UICONTROL Analytics] biedt automatisch dezelfde functionaliteit en functies als bij een traditionele website.
 
 ## Offline bijhouden toevoegen om de PWA-effectiviteit te verhogen
 
-U kunt de doeltreffendheid van uw PWA verhogen door Analytics [off-line het volgen mogelijkheden](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) met het te gebruiken. Deze functie is standaard uitgeschakeld, maar u kunt de volgende eigenschap toevoegen aan het bestand AppMeasurement.js om deze in te schakelen: `s.trackOffline=true;`.
+U kunt de effectiviteit van uw PWA verhogen door Adobe Analytics [offline volgmogelijkheden](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) met het te gebruiken. Deze functie is standaard uitgeschakeld, maar u kunt de volgende eigenschap toevoegen aan het bestand AppMeasurement.js om deze in te schakelen: `s.trackOffline=true;`.
 
 In het volgende bestand AppMeturement.js wordt de eigenschap bijvoorbeeld toegevoegd aan het einde van het bestand `CONFIG SECTION`:
 
