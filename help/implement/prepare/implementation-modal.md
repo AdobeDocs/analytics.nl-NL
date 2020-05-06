@@ -2,76 +2,81 @@
 title: Implementatiemodel
 description: Leer meer over de eerste gebruikerservaring voor het implementeren van de implementatie van Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '30'
+ht-degree: 0%
 
 ---
 
 
 # Implementatiemodel
 
-<!-- https://activation.adobedtm.com/index.php?redirected=1 -->
+Zie [Een rapportsuite](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)maken.
 
-Het modale venster Welkom bij Adobe Analytics biedt een vereenvoudigde workflow voor het maken van een rapportsuite. Adobe raadt u aan deze workflow te gebruiken als uw organisatie meer rapportsuite nodig heeft.
+<!-- https://activation.adobedtm.com/index.php?redirected=1 
+
+The 'Welcome to Adobe Analytics' modal window provides a simplified workflow to create a report suite. Adobe recommends using this workflow whenever more report suites are needed in your organization.
 
 ![Modal screenshot](assets/implementation-modal.png)
 
-## Vereisten
+## Prerequisites
 
-Uw Adobe-id moet toegang hebben tot zowel Adobe Analytics als Adobe Experience Platform Launch. Als u geen toegang tot Lancering hebt, kunt u in een authentificatielijn worden geplaatst waar het vraagt om uw geloofsbrieven voor onbepaalde tijd te verifiëren. Bespreek met systeemadmin in uw organisatie om toegang tot Lancering te verkrijgen.
+Your Adobe ID must have access to both Adobe Analytics and Adobe Experience Platform Launch. If you do not have access to Launch, you can be placed into an authentication loop where it asks to verify your credentials indefinitely. Talk to a system admin in your organization to obtain access to Launch.
 
-## Toegang tot het modaal
+## Access the modal
 
-Open het modaal om een rapportreeks tot stand te brengen gebruikend de volgende stappen.
+Access the modal to create a report suite using the following steps.
 
-1. Meld u met uw Adobe-id aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) .
-2. Klik op het pictogram met het 9-raster bovenaan en klik op [!UICONTROL Adobe Analytics].
-3. Als u nog geen rapportsuite hebt gemaakt, wordt de modaal automatisch weergegeven. Als er een rapportsuite voor dit aanmeldingsbedrijf bestaat, klikt u rechtsboven op het pictogram Help en klikt u op [!UICONTROL Welcome to Adobe Analytics].
+1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
+2. Click the 9-grid icon at the top, then click [!UICONTROL Adobe Analytics].
+3. If you have not yet created a report suite, the modal automatically appears. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
->[!NOTE] De [!UICONTROL Welcome to Adobe Analytics] optie wordt alleen weergegeven als u zich aanmeldt via de Adobe Experience Cloud. Als u zich aanmeldt via verouderde domeinen, is het modaal niet beschikbaar.
+>[!NOTE] The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
 
-## Een rapportsuite maken
+## Create a report suite
 
-Klik op de [!UICONTROL Start Setup] knop om de workflow voor het maken van de rapportsuite te starten.
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
-![RS-wizard](assets/analytics-implementation-rs-wizard.png)
+![RS wizard](assets/analytics-implementation-rs-wizard.png)
 
-### Type eigenschap
+### Property type
 
-Met behulp van het type eigenschap kan Adobe bepaalde instellingen voor de achtergrond bepalen op basis van de locatie waar u Analytics wilt implementeren.
+Property type helps Adobe determine some backend settings based on where you intend to implement Analytics.
 
-* **Website**: Als u Adobe Analytics alleen voor een website wilt implementeren.
-* **Systeemeigen mobiele toepassing**: Als u Adobe Analytics alleen voor een mobiele app wilt implementeren.
-* **Beide**: Als deze rapportsuite gegevens bevat voor zowel een website als een mobiele app.
+* **Website**: If you intend to implement Adobe Analytics just for a website.
+* **Native Mobile App**: If you intend to implement Adobe Analytics just for a mobile app.
+* **Both**: If this report suite contains data for both a website and a mobile app.
 
-### Industrie
+### Industries
 
-Geef uw primaire bedrijfsmodel op. Met deze instelling kan Adobe bepaalde variabelenamen en -instellingen vooraf configureren op basis van uw primaire bedrijfsmodel.
+Specify your primary business model. This setting helps Adobe pre-configure some variable names and settings based on your primary business model.
 
-### Gegevenslaag
+### Data layer
 
-Een [gegevenslaag](data-layer.md) is een JavaScript-object dat alle variabelen die in de implementatie worden gebruikt, op één nuttige locatie ordent. Zie [Gegevenslagen](data-layer.md) voor meer informatie.
+A [Data layer](data-layer.md) is a JavaScript object that organizes all variables used in your implementation into a single helpful location. See [Data layers](data-layer.md) for more information.
 
-### Gegevensopslagplaats
+### Data repository
 
-Geef uw rapportsuite een vriendelijke naam. Uw identiteitskaart van de rapportreeks (RSID) produceert automatisch gebaseerd op de vriendschappelijke naam en login bedrijf.
+Give your report suite a friendly name. Your report suite ID (RSID) automatically generates based on the friendly name and login company.
 
-### Tijdzone
+### Time zone
 
-Controleer of Adobe de juiste tijdzone voor de rapportsuite heeft gedetecteerd.
+Verify that Adobe detected the correct time zone for the report suite.
 
-### Geschatte paginaweergaven per dag
+### Estimated page views per day
 
-Schatting hoeveel verkeer uw website of app per dag krijgt. Met deze informatie kan Adobe de juiste hoeveelheid verwerkingsbronnen toewijzen aan uw rapportsuite.
+Estimate how much traffic your website or app gets per day. This information allows Adobe to allocate the correct amount of processing resources to your report suite.
 
-### Basisvaluta
+### Base currency
 
-Bepaal in welke valuta de rapportsuite monetaire waarden opslaat.
+Determine what currency the report suite stores monetary values in.
 
->[!IMPORTANT] Zorg ervoor dat u de juiste valuta opgeeft, vooral als u rapportagevereisten hebt met betrekking tot inkomsten. Het is moeilijk om de basisvaluta te wijzigen nadat de gegevensverzameling is gestart.
+>[!IMPORTANT] Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
 
-## Implementatiebronnen
+## Implementation resources
 
-Nadat de rapportsuite is gemaakt, kunt u verdergaan met de implementatie:
+After the report suite is created, you have one of two options to proceed with your implementation:
 
-* **Ga naar Adobe Experience Platform Launch**: Koppelingen naar [launch.adobe.com](https://launch.adobe.com) om uw implementatie te configureren en implementatiecode te downloaden. Zie [Implementeren met starten](../launch/overview.md). Adobe raadt u in de meeste gevallen aan Launch te gebruiken.
-* **Implementatiecode** downloaden: Bevat een directe koppeling waarmee u JavaScript-bestanden kunt downloaden voor een handmatige JavaScript-implementatie. Zie [AppMeasurement voor JavaScript](../js/overview.md).
+* **Go to Adobe Experience Platform Launch**: Links you to [launch.adobe.com](https://launch.adobe.com) to configure your implementation and download deploy code. See [Implement with Launch](../launch/overview.md). Adobe recommends using Launch in most cases.
+* **Download implementation code**: Provides a direct link to download JavaScript files for a manual JavaScript implementation. See [AppMeasurement for JavaScript](../js/overview.md). -->
