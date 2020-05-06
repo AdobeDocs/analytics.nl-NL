@@ -2,7 +2,10 @@
 description: De snelle Bouwer van Inzichten is een hulpmiddel voor nieuwe gebruikers van de Werkruimte die hen in de bouw van gegevenslijsten en visualisaties begeleiden
 title: Quick Insights builder
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '967'
+ht-degree: 0%
 
 ---
 
@@ -42,9 +45,11 @@ Hier volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst besta
 ## Aan de slag met Quick Insights
 
 1. Meld u aan bij Adobe Analytics met de aanmeldingsgegevens die u hebt ontvangen.
-1. Ga naar [!UICONTROL Workspace] en klik **[!UICONTROL Create New Project]** en klik vervolgens **[!UICONTROL Quick Insights]**.
+1. Ga naar [!UICONTROL Workspace] en klik **[!UICONTROL Create New Project]** en klik vervolgens **[!UICONTROL Quick Insights]**. (U kunt dit deelvenster ook openen via het **[!UICONTROL Panel]** menu in de linkertrack.)
 
    ![](assets/qibuilder.png)
+
+   ![](assets/qi-panel.png)
 
 1. Wanneer u begint, doorloopt u de korte zelfstudie die u een aantal van de [!UICONTROL Quick Insights panel] basisbeginselen leert. Of klik om te **[!UICONTROL Skip Tutorial]**.
 1. Selecteer uw bouwstenen (ook wel componenten genoemd): afmetingen (oranje), metriek (groen), segmenten (blauw), of datumwaaiers (paars) U moet minstens één afmeting en één metrisch selecteren voor een lijst die automatisch moet worden gebouwd.
@@ -66,13 +71,15 @@ Hier volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst besta
 
 1. (Optioneel) U kunt de dimensies uitvouwen en elementen van de dimensie bekijken door op de pijl-rechts naast de dimensie te klikken.
 
-1. Voeg meer verfijningen toe, zoals hieronder beschreven onder &quot;Andere nuttige opties&quot;.
+1. Voeg meer verfijningen toe zoals hieronder beschreven onder &quot;Meer tips.&quot;
 
-## Andere nuttige opties
+1. Sla uw project op door op **[!UICONTROL Project > Save]** te klikken.
+
+## Meer tips
 
 Er verschijnen andere handige tips in de [!UICONTROL Quick Insights Builder]afbeelding, waarvan sommige afhankelijk zijn van de laatste handeling.
 
-* Voltooi eerst de **[!UICONTROL More tips]** zelfstudie: Via de Help (?) naast de [!UICONTROL Quick Insights Panel] titel.
+* Voltooi eerst de **[!UICONTROL More tips]** zelfstudie: Via de Help (?) naast de [!UICONTROL Quick Insights] titel. Dit leerprogramma toont omhoog 24 uren nadat u een project met minstens één afmeting en één metrisch hebt gecreeerd.
 
    ![](assets/qibuilder4.png)
 
@@ -87,6 +94,10 @@ Er verschijnen andere handige tips in de [!UICONTROL Quick Insights Builder]afbe
 * **Meer segmenten** toevoegen: U kunt maximaal twee segmenten toevoegen door de operatoren AND of OR te gebruiken om ze aan de tabel toe te voegen. Kijk wat er met de tabel gebeurt wanneer u mobiele gebruikers OF koninklijke bezoekers toevoegt. Ze zijn naast elkaar, boven de metriek. Als u Mobiele Gebruikers EN Weergavebezoekers toevoegt, ziet u de resultaten van beide segmenten samen en worden deze op elkaar gestapeld in de tabel.
 
    ![](assets/qibuilder7.png)
+
+## Een Quick Insights-project openen/laden
+
+
 
 ## Bekende beperkingen
 
