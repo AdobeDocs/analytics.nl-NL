@@ -2,7 +2,10 @@
 title: Overstappen van een extern analyseplatform naar Adobe Analytics
 description: Leer de belangrijkste concepten om rapporten te verkrijgen, gericht op gebruikers die vertrouwd zijn met andere platforms, zoals Google Analytics.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ In Adobe Analytics kunt u op twee manieren basisrapporten genereren nadat u zich
 * **Rapporten en analyse** is de historische methode om basisrapporten te trekken. Het linkermenu verstrekt een lijst van geprefabriceerde rapporten, en staat de gebruiker toe om aan een rapport te navigeren zij willen en gegevens krijgen. Segmenten en metriek kunnen extra aanpassingen opleveren. Gebruikers die ervaring hebben met Google Analytics-rapporten, kunnen deze lay-out waarschijnlijk vertrouwd vinden.
 * **De Werkruimte** van de analyse is de huidige geadviseerde methode om de meeste rapporten te trekken. In het linkermenu kan de gebruiker componenten slepen en neerzetten om een eigen rapport te maken. Het biedt veel meer vrijheid om aan de exacte rapportagebehoeften te voldoen. Gebruikers die ervaring hebben met het maken van Google Analytics-dashboards en aangepaste rapporten, kunnen deze lay-out vertrouwd vinden.
 
-De meeste rapporten kunnen in zowel Rapporten &amp; Analytics als de Werkruimte van de Analyse worden gecreeerd. Sommige rapporten kunnen echter alleen met het ene of het andere platform worden samengesteld. In de meeste gevallen raadt Adobe u aan de Analyse-werkruimte te gebruiken, tenzij een specifieke functie alleen beschikbaar is in Rapporten en Analyse.
+De meeste rapporten kunnen in zowel [!UICONTROL Reports & Analytics] als [!UICONTROL Analysis Workspace]. worden gecreeerd Sommige rapporten kunnen echter alleen met het ene of het andere platform worden samengesteld. In de meeste gevallen raadt Adobe u aan een functie te gebruiken [!UICONTROL Analysis Workspace], tenzij een specifieke functie alleen beschikbaar is in [!UICONTROL Reports & Analytics].
 
 ## Aanbevolen leerpad
 
@@ -26,7 +29,7 @@ Adobe raadt u aan om te beginnen met de basisbeginselen van het ophalen van rapp
 
 * [Een basisrapport maken in de analysewerkruimte voor GA-gebruikers](reports/create-report.md)
 
-Zodra u met componenten in de Werkruimte van de Analyse vertrouwd bent, kunt u leren hoe te om de meeste rapporten opnieuw te creëren gebruikend de juiste componenten.
+Zodra u met componenten binnen vertrouwd bent, kunt u leren hoe te om de meeste rapporten opnieuw te creëren gebruikend de juiste componenten. [!UICONTROL Analysis Workspace]
 
 * [Real-Time rapporten maken in Adobe Analytics](reports/realtime-reports.md)
 * [Poortrapporten maken in Adobe Analytics](reports/audience-reports.md)
