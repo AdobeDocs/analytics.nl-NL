@@ -2,7 +2,7 @@
 title: Adobe Analytics-dashboards - Overzicht
 description: Productdocumentatie en zelfhulp voor Adobe Analytics-dashboards
 translation-type: tm+mt
-source-git-commit: b3772b96e02f6e3c6fb4f6c4a9f5df04512491e3
+source-git-commit: d4073fcfaabda669d0705e0adf2c911e8029b846
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Analytics-dashboards worden niet vrijgegeven en zijn alleen beschikbaar voor bètatests onder uitgenodigde klanten. Deze documentatie is alleen bedoeld voor bètagebruikers en vertegenwoordigt niet de volledige functionaliteit van de functie. Neem contact op met Ashok Gorrepati (gorrepati@adobe.com) als u een bètagebruiker voor deze functie wilt worden.
+>Adobe Analytics-dashboards worden niet vrijgegeven en zijn alleen beschikbaar voor bètatests onder uitgenodigde klanten. Deze documentatie is alleen bedoeld voor bètagebruikers en vertegenwoordigt niet de volledige functionaliteit van de functie. Neem contact op met Ashok Gorrepati (gorrepat@adobe.com) als u een bètagebruiker voor deze functie wilt worden.
 
 **[!UICONTROL Adobe Analytics dashboards]** u kunt altijd en overal inzichten bieden van Adobe Analytics. Met de app hebben gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. De mobiele app wordt ondersteund op zowel iOS- als Android-besturingssystemen.
 
