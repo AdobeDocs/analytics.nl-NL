@@ -2,7 +2,10 @@
 title: Apparaatanalyse
 description: Analytics voor verschillende apparaten wijzigt uw gegevens van apparaatfocus naar persoonlijke focus door apparaatgegevens aan elkaar te hechten.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 40d4dae0c54b8a71325846ae7f1c02947f9d36ea
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +59,7 @@ Cross-Device Analytics is een baanbrekende en robuuste functie, maar heeft beper
 * Analytics voor verschillende apparaten maakt gebruik van een virtuele rapportsuite en de verwerking van de rapporttijd, die hun eigen beperkingen hebben. Zie [Virtuele rapportsuites](../vrs/vrs-about.md) en de tijdverwerking [van het](../vrs/vrs-report-time-processing.md) Rapport voor meer informatie over deze beperkingen.
 * De 1.4-API wordt niet ondersteund. Power BI-connectors en Report Builder vertrouwen beide op de 1.4-API en zijn daarom niet compatibel met CDA.
 * Als uw organisatie de Privé Grafiek gebruikt, nemen de nieuwe apparaten tot 24 uren om worden vastgemaakt.
-* Nieuwe apparaten die uw site bezoeken, kunnen maximaal twee weken duren voordat ze door de Co-op grafiek worden verwerkt. De mate van stitching in CDA voor de meest recente twee weken is doorgaans lager dan voor datumbereiken die ouder zijn dan twee weken. Adobe is van plan om de Co-op-grafiek in de toekomst te verbeteren tot een dagelijks vernieuwde grafiek.
+* Nieuwe apparaten die uw site bezoeken, kunnen maximaal twee weken duren voordat ze door de Co-op grafiek worden verwerkt. De mate van stitching in CDA voor de meest recente twee weken is doorgaans lager dan voor datumbereiken die ouder zijn dan twee weken.
 * Historische gegevens in de virtuele rapportsuite veranderen op basis van het herkennen en aansluiten van apparaten door Adobe. De gegevens in de bronrapportsuite veranderen niet.
 
 Als uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u [Apparaatanalyse](cda-setup.md)instellen.
