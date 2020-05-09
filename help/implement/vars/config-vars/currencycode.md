@@ -2,7 +2,10 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +32,16 @@ Valutacode is een veld onder de [!UICONTROL General] accordeon tijdens het confi
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder Adobe Analytics.
 4. Breid de accordeon uit, die het [!UICONTROL General] [!UICONTROL Currency Code] veld onthult.
+
+U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. Als u een aangepaste valutacode gebruikt, moet u controleren of de code geldig is.
+
+## Valutacode in Adobe Experience Platform Mobile SDK
+
+De valutacode wordt doorgegeven aan de Adobe Experience Platform Mobile SDK&#39;s via contextgegevensvariabelen in de Adobe Analytics-extensie.
+
+1. Stel de valutacode in een contextgegevensvariabele tijdens `trackState` of `trackAction`.
+2. Maak een verwerkingsregel in de beheerconsole van Adobe Analytics voor de rapportsuite. Stel de regel in om de variabele Valutacode te overschrijven.
+3. Geef de valutacode door aan de `products` variabele in uw vraag aan `trackState` of `trackAction`.
 
 U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. Als u een aangepaste valutacode gebruikt, moet u controleren of de code geldig is.
 
