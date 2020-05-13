@@ -2,7 +2,10 @@
 title: Veelgestelde vragen over kenmerken
 description: Antwoorden op veelgestelde vragen over attributie.
 translation-type: tm+mt
-source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
+source-git-commit: 06b9ac8ddbfb0398341a2ab5656237e3520a8612
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 0%
 
 ---
 
@@ -16,10 +19,6 @@ Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt di
 **Waarom zie ik soms data buiten mijn rapporteringsvenster wanneer het gebruiken van attributiemodellen?**
 
 Deze extra datums zijn het gevolg van het terugzoekvenster van de bezoeker. Zie [Gegevens die buiten het rapporteringsvenster](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) in KB van Analytics voor meer informatie verschijnen. Adobe is van plan deze extra rijen in een volgende release uit te filteren.
-
-**Kan ik een aangepast terugkijkvenster met mijn attributiemodellen gebruiken?**
-
-Attributiemodellen vertrouwen momenteel op een bezoeker of een venster voor het terugzoeken van bezoekers. Één van beiden van deze raadplegingsvensters is aanpasbaar door of de rapporteringsdatumwaaier (voor bezoekersraadpleging) te veranderen of door een definitie van het douanebezoek als deel van virtuele rapportreeksen te gebruiken. Zie Tijdverwerking [van](../../../../components/vrs/vrs-report-time-processing.md) rapport voor meer informatie.
 
 **Wanneer moet ik een terugzoekopdracht voor bezoekerskenmerk gebruiken?**
 
