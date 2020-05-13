@@ -3,9 +3,9 @@ description: 'null'
 title: Overzicht van het deelvenster Kenmerken
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 06b9ac8ddbfb0398341a2ab5656237e3520a8612
+source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1805'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Het attributiepaneel is een [Attribution IQ](../../attribution-iq.md) -functie w
 | ![Aangepast](assets/custom.png) | Aangepast | Hiermee kunt u de gewichten opgeven die u wilt geven aan de eerste aanraakpunten, de laatste aanraakpunten en de tussenliggende aanraakpunten. De opgegeven waarden worden genormaliseerd naar 100%, zelfs als de ingevoerde aangepaste getallen niet bij 100 komen te liggen. Voor conversies met één aanraakpunt wordt 100% krediet gegeven. Voor interactie met twee aanraakpunten wordt de middelste parameter genegeerd. De eerste en laatste aanraakpunten worden vervolgens genormaliseerd tot 100% en de kredieten worden dienovereenkomstig toegewezen. | Dit model is ideaal voor diegenen die volledige controle over hun attributiemodel willen en specifieke behoeften hebben die andere attributiemodellen niet vervullen. |
 | ![Tijdverlies](assets/time_decay.png) | Verval | Volgt en exponentieel verval met een aangepaste parameter voor de halfwaardetijd, waarbij de standaardwaarde 7 dagen is. Het gewicht van elk kanaal is afhankelijk van de hoeveelheid tijd die is verstreken tussen het starten van het aanraakpunt en de uiteindelijke conversie. De formule die wordt gebruikt om krediet te bepalen is `2^(-t/halflife)`, waarbij `t` de hoeveelheid tijd tussen een aanraakpunt en een conversie is. Alle aanraakpunten worden vervolgens genormaliseerd tot 100%. | Ideaal voor teams die regelmatig videoreclame of -markten uitvoeren tegen evenementen met een vooraf bepaalde datum. Hoe langer een conversie plaatsvindt na een marketinggebeurtenis, hoe minder krediet wordt gegeven. |
 | ![Deelname](assets/participation.png) | Deelname | Biedt 100% krediet aan alle unieke aanraakpunten. Het totale aantal omzettingen wordt opgevoerd in vergelijking met andere attributiemodellen. De participatie dedupliceert kanalen die veelvoudige tijden worden gezien. | Uitstekend om te begrijpen wie vaak klanten worden blootgesteld aan een bepaalde interactie. Mediaorganisaties gebruiken dit model vaak om de snelheid van de inhoud te berekenen. De detailhandelorganisaties gebruiken vaak dit model om te begrijpen welke delen van hun plaats aan omzetting kritiek zijn. |
-| ![Algorithmic](assets/algorithmic.png) | [Algorithmic](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Gebruikt statistische technieken om dynamisch de optimale allocatie van krediet voor de geselecteerde maatstaf vast te stellen. | Nuttig om guesswork of heuristiek te voorkomen wanneer u het juiste toewijzingsmodel voor uw bedrijf kiest. |
+| ![Algorithmic](assets/algorithmic.png) | [Algorithmic](/help/analyze/analysis-workspace/c-panels/attribution/algorithmic.md) | (Opmerking: Algorithmic attribute is momenteel in limited testing.) Gebruikt statistische technieken om dynamisch de optimale allocatie van krediet voor de geselecteerde maatstaf vast te stellen. | Nuttig om guesswork of heuristiek te voorkomen wanneer u het juiste toewijzingsmodel voor uw bedrijf kiest. |
 
 ## Venster opzoeken
 
@@ -44,7 +44,7 @@ Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken o
 
 * **Het terugkijkvenster van de bezoeker:** Kijkt naar alle bezoeken terug tot de eerste van de maand van de huidige datumwaaier. De terugkijkvensters van de bezoeker zijn breed, aangezien zij vele bezoeken kunnen overspannen. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de terugzoekdatum van de bezoeker 1 september tot en met 30 september.
 
-* **Aangepast terugzoekvenster:** Hiermee kunt u het toewijzingvenster uitvouwen tot maximaal 90 dagen na het bereik van de rapportdatum. Aangepaste terugzoekvensters worden geëvalueerd bij elke conversie in de rapportageperiode. Voor een conversie die bijvoorbeeld op 20 februari plaatsvindt, zou een terugkijkvenster van 10 dagen alle afmetingsaanraakpunten van 10 tot 20 februari in het attributiemodel evalueren.
+* **Aangepast terugzoekvenster:** (Opmerking: Het venster Aangepast terugzoeken wordt momenteel beperkt getest.) Hiermee kunt u het toewijzingvenster uitvouwen tot maximaal 90 dagen na het bereik van de rapportdatum. Aangepaste terugzoekvensters worden geëvalueerd bij elke conversie in de rapportageperiode. Voor een conversie die bijvoorbeeld op 20 februari plaatsvindt, zou een terugkijkvenster van 10 dagen alle afmetingsaanraakpunten van 10 tot 20 februari in het attributiemodel evalueren.
 
 ## Voorbeeld
 
