@@ -1,24 +1,24 @@
 ---
 description: Verklaart de nieuwe ononderbroken eigenschaprelease strategie voor de Analytics van Adobe
-title: Adobe Analytics - releasestrategie
+title: Adobe Analytics-functiereleases
 translation-type: tm+mt
-source-git-commit: 0b00405e9e27a427a85b0f4a0d970671ada4aa67
+source-git-commit: dcca8559c9e730c9e04981d69068786878062561
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Analytics - releasestrategie
+# Adobe Analytics-functiereleases
 
-In het verleden volgden de Adobe Analytics-functies een vast maandelijks schema. Vanaf april 2020 gaat Adobe Analytics over naar een doorlopend leveringsmodel dat een meer schaalbare, gefaseerde benadering van eigenschapplaatsing toestaat.
+In het verleden volgden de Adobe Analytics-functies een vast maandelijks schema. Vanaf april 2020 is Adobe Analytics overgestapt op een doorlopend leveringsmodel dat een meer schaalbare, gefaseerde aanpak van de implementatie van functies mogelijk maakt.
 
 ## Releasestrategie
 
 [!UICONTROL Analysis Workspace] maakt gebruik van functiemarkeringen (ook wel &#39;&#39;schakelingen&#39;&#39; genoemd) om de zichtbaarheid van nieuwe functies te bepalen, zodat tests op gecontroleerde schaal vóór volledige release mogelijk zijn. Deze releasestrategie omvat de volgende fasen:
 
-* **Vrijgave voor productie (RTP)**: De code wordt vrijgegeven aan productie, met eigenschapzicht uitgezet in de Werkruimte van de Analyse. **Opmerking**: Op dit moment is de functie mogelijk beschikbaar in de 2.0 Analytics-API.
+* **Vrijgave voor productie (RTP)**: De code wordt vrijgegeven aan productie, met eigenschapzicht uitgezet in de Werkruimte van de Analyse. **Opmerking**: Bij RTP, kan de eigenschap in 2.0 Analytics API beschikbaar zijn.
 
 * **Beperkte tests**: Een gefaseerde release begint met testen door interne Adobe-gebruikers. De release wordt vervolgens in de loop van een paar maanden geschaald van 0% naar 100% beschikbaarheid. De gefaseerde uitrol gebeurt op het niveau van de organisatie van de Ervaring Cloud, zodat ontvangen alle gemachtigde gebruikers in een organisatie de zelfde ervaring.
 
