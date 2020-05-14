@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Handleiding voor analytische implementatie
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: b46b7968d94975be3335d5c2749b9468dcc91543
+source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%
@@ -202,4 +202,4 @@ ht-degree: 2%
 + [Veelgestelde vragen](faq.md)
 + XDM-gegevens gebruiken met Analytics {#aep-edge}
    + [AEP Web SDK gebruiken](aep-edge/xdmoverview.md)
-   + [XDM-gegevens handmatig toewijzen aan Analyse](aep-edge/xdmoverview.md)
+   + [XDM-gegevens handmatig toewijzen aan Analyse](aep-edge/xdm-manual.md)
