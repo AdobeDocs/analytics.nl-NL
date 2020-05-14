@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Documentatie voor Adobe Analytics
 user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: aaeeeeb2598359f5e4c0e2323ae5f9344edb0f8d
+source-git-commit: dcca8559c9e730c9e04981d69068786878062561
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 1%
 * [Handleiding voor de analyse van reizen van klanten](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
 * [Updates van de documentatie voor analyse](doc-updates.md)
 * [Release-opmerkingen](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
-* [Adobe Analytics - releasestrategie](an-releases.md)
+* [Adobe Analytics-functiereleases](an-releases.md)
