@@ -1,19 +1,22 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytische documentatie
+user-guide-title: Documentatie voor Adobe Analytics
 user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
+source-git-commit: aaeeeeb2598359f5e4c0e2323ae5f9344edb0f8d
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 1%
 
 ---
 
 
-# Analytische documentatie {#landing}
+# Documentatie voor Adobe Analytics {#landing}
 
 * [Home](home.md)
-* [Belangrijke concepten voor analyse](an-key-concepts.md)
-* [Handleiding voor analysegereedschappen](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
+* [Belangrijke concepten van Adobe Analytics](an-key-concepts.md)
+* [Hulplijn voor gereedschappen](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
 * [Beheerdershandleiding](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
 * [Hulplijn voor componenten](https://docs.adobe.com/content/help/en/analytics/components/home.html)
 * [Hulplijn exporteren](https://docs.adobe.com/content/help/en/analytics/export/home.html)
@@ -23,17 +26,7 @@ source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 * [Handleiding voor technische notities](https://docs.adobe.com/content/help/en/analytics/technotes/home.html)
 * [Handleiding voor media-analyse](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [Handleiding Gegevenswerkbank](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
-* [Klantreisanalyse](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
-* [Documentatieupdates](doc-updates.md)
+* [Handleiding voor de analyse van reizen van klanten](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
+* [Updates van de documentatie voor analyse](doc-updates.md)
 * [Release-opmerkingen](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
-
-<!--
-+ Analytics Guides{#analytics-guides}
-  * [Analytics Analyze Guide](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
-  * [Admin Guide](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
-  * [Components Guide](https://docs.adobe.com/content/help/en/analytics/components/home.html)
-  * [Export Guide](https://docs.adobe.com/content/help/en/analytics/export/home.html)
-  * [Implementation Guide](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
-  * [Import Guide](https://docs.adobe.com/content/help/en/analytics/import/home.html)
-  * [Integration Guide](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
--->
+* [Adobe Analytics - releasestrategie](an-releases.md)
