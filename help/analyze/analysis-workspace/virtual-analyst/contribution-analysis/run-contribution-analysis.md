@@ -3,7 +3,10 @@ description: 'null'
 title: Bijdrageanalyse uitvoeren
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 
    ![](assets/contribution-analysis.png)
 
-1. (Optioneel) Nadat u in het regeldiagram of een tabel hebt geklikt, kunt u het bereik van de analyse (en dus de analyse versnellen) beperken door de afmetingen **[!UICONTROL Run Contribution Analysis]** uit te sluiten [](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (Optioneel) Nadat u in het regeldiagram of een tabel hebt geklikt, kunt u het bereik van de analyse (en dus de analyse versnellen) beperken door de afmetingen **[!UICONTROL Run Contribution Analysis]** uit te sluiten [](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
 1. Wacht terwijl de analyse van uw bijdrage wordt geladen. Dit kan veel tijd in beslag nemen, afhankelijk van de grootte van uw rapportenpakket en het aantal dimensies. De analyse van de bijdrage voert analyse op de hoogste 50.000 punten per dimensie uit.
 1. De Werkruimte van de analyse laadt dan een nieuw paneel van de Analyse van de Bijdrage direct binnen dit project. U zult veel vertrouwde panelen opmerken als u Analyse van de Bijdrage in Rapporten &amp; Analytics eerder hebt gebruikt:
