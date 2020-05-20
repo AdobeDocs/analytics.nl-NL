@@ -2,22 +2,24 @@
 description: Instructies voor het gebruik van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboards
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 0%
 
 ---
 
 
 # Adobe Analytics-dashboards: Handleiding voor snel starten van gebruikers
 
->[!IMPORTANT]
->
->Adobe Analytics-dashboards worden niet vrijgegeven en zijn alleen beschikbaar voor bètatests onder uitgenodigde klanten. Deze documentatie is >alleen bedoeld voor bètagebruikers en vertegenwoordigt niet de volledige functionaliteit van de functie. Neem contact op met Ashok Gorrepati (gorrepati@adobe.com) als u een bètagebruiker van deze >functie wilt worden.
+De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards.
+
 
 ## Inleiding
 
 Adobe Analytics-dashboards bieden altijd en overal inzichten van Adobe Analytics.  Met de app hebben gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. Dashboards worden ondersteund op zowel iOS- als Android-besturingssystemen.
 
-## Over deze handleiding
+## Meer informatie over deze handleiding
 
 Deze handleiding is bedoeld om uitvoerende gebruikers te helpen bij het lezen en interpreteren van scoreborden op analytische dashboards. Met de app kunnen uitvoerende gebruikers snel en gemakkelijk een brede weergave van belangrijke samenvattingsgegevens op hun eigen mobiele apparaten bekijken.
 
@@ -27,7 +29,7 @@ Deze handleiding is bedoeld om uitvoerende gebruikers te helpen bij het lezen en
 |--- |--- |
 | Consumenten | Executive-medewerkers bekijken belangrijke metriek en inzichten van Analytics op een mobiel apparaat |
 | Curator | Personeel dat gegevens leest en inzichten van Analytics verspreidt en de Scorecards configureert die door de consument moeten worden bekeken |
-| Kromming | Het creëren of bewerken van een mobiele scorecard met relevante meetgegevens, afmetingen en andere componenten voor de consument |
+| Curation | Het creëren of bewerken van een mobiele scorecard met relevante meetgegevens, afmetingen en andere componenten voor de consument |
 | Scorecard | Een dashboardweergave met een of meer tegels |
 | Tegel | Een rendering voor metrische gegevens in een scorebordweergave |
 | Uitsplitsing | Een secundaire weergave die toegankelijk is door te tikken op een tegel in het scorebord. Deze mening breidt metrisch uit die op de tegel wordt getoond en naar keuze rapporten over extra verdelingsafmetingen. |
