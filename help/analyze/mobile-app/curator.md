@@ -192,6 +192,7 @@ Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wi
    3. Nadat u de testflight-app hebt geïnstalleerd, zoekt en installeert u de Adobe Analytics-dashboards vanuit Testflight, zoals hieronder wordt weergegeven:
 
       ![Testvluchtscherm](assets/testflight2.png)
+
    **Voor uitvoerende gebruikers op Android:**
 
    1. Tik op de koppeling Play Store op het apparaat van de gebruiker (Deze is ook beschikbaar in Analytics onder **Extra** > **dashboards**):
@@ -207,6 +208,7 @@ Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wi
 
    3. Download en installeer de app.
 Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-gegevens. Wij ondersteunen zowel Adobe als Enterprise-/federatieve id&#39;s.
+
    ![Welkomstscherm van app](assets/welcome.png)
 
 2. Help hen tot uw Scorecard toegang te hebben. Nadat uitvoerende gebruikers zich in app ondertekenen, verschijnt het **Choose een bedrijfscherm** . Dit scherm maakt een lijst van de login bedrijven waartot de uitvoerende gebruiker behoort. Om hen te helpen bij de Scorecard:
@@ -214,6 +216,7 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich a
    * Tik op de naam van het aanmeldingsbedrijf of de Experience Cloud Org die van toepassing is op het scorebord dat u hebt gedeeld. De Scorecard lijst toont dan alle Scorecards die met het uitvoerend onder dat login bedrijf zijn gedeeld.
    * Help ze deze lijst te sorteren op **Laatst gewijzigd**, indien van toepassing.
    * Tik op de naam van het scorebord om het weer te geven.
+
    ![Kies een bedrijf](assets/accesscard.png)
 
    Opmerking: Als de uitvoerende gebruiker zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld:
@@ -222,6 +225,7 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich a
    * Het scorebord is mogelijk niet gedeeld met de uitvoerende gebruiker
 
       ![Niets gedeeld](assets/nothing.png)
+
    Verifieer dat de uitvoerende gebruiker zich in de juiste instantie van Analytics kan aanmelden en dat Scorecard is gedeeld.
 
 3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt.
@@ -257,6 +261,7 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich a
    1. Tik op het gebruikerspictogram rechtsboven in het toepassingsscherm.
    2. Tik in het scherm **Mijn account** op de optie **Feedback** .
    3. Tik om de opties voor het geven van feedback weer te geven.
+
    ![Feedback geven](assets/feedback.png)
    ![Feedbackopties](assets/feedback_option.png)
 
