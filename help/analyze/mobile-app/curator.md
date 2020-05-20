@@ -2,7 +2,10 @@
 description: Instructies voor het instellen van de dashboards scorecards.
 title: Adobe Analytics-handleiding voor dashboards
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+workflow-type: tm+mt
+source-wordcount: '2286'
+ht-degree: 0%
 
 ---
 
@@ -10,15 +13,13 @@ source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 # Curatorhandleiding voor Adobe Analytics-dashboards
 
->[!IMPORTANT]
->
->Adobe Analytics-dashboards worden niet vrijgegeven en zijn alleen beschikbaar voor bètatests onder uitgenodigde klanten. Deze documentatie is >alleen bedoeld voor bètagebruikers en vertegenwoordigt niet de volledige functionaliteit van de functie. Neem contact op met Ashok Gorrepati (gorrepati@adobe.com) als u een bètagebruiker van deze >functie wilt worden.
+De volgende informatie instrueert curatoren van de gegevens van de Analytics van Adobe over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren.
 
 ## Inleiding
 
 Adobe Analytics-dashboards bieden altijd en overal inzichten van Adobe Analytics. Met de app kunnen gebruikers op mobiele apparaten toegang krijgen tot intuïtieve scorecards die u maakt en deelt via de gebruikersinterface van het bureaublad van Adobe Analytics. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. U kunt Scorecards op maat maken op basis van de gegevens die voor u het belangrijkst zijn. Analytische dashboards worden ondersteund op zowel iOS- als Android-besturingssystemen.
 
-## Over deze handleiding
+## Meer informatie over deze handleiding
 
 Deze handleiding is bedoeld om curatoren van Adobe Analytics-gegevens te helpen bij het configureren van Scorecards voor hun uitvoerende gebruikers op de dashboards van Analytics. Curatoren kunnen organisatiebeheerders of personen in andere functies zijn die verantwoordelijk zijn voor het instellen van toepassingsscoreborden, waarmee uitvoerende gebruikers een brede weergave van belangrijke samenvattingsgegevens snel en eenvoudig op hun eigen mobiele apparaten kunnen bekijken. Hoewel uitvoerende gebruikers de eindgebruiker voor de dashboards van Analytics zijn, zal deze gids gegevenscuratoren helpen om app voor die gebruikers effectief op te zetten.
 
@@ -31,7 +32,7 @@ In de volgende tabel staan de voorwaarden voor het begrijpen van het publiek, de
 |--- |--- |
 | Consumenten | Executive-medewerkers bekijken belangrijke metriek en inzichten van Analytics op een mobiel apparaat |
 | Curator | Personeel dat gegevens leest en inzichten van Analytics verspreidt en de Scorecards configureert die door de consument moeten worden bekeken |
-| Kromming | Het maken of bewerken van een mobiel scorebord met relevante meetgegevens, afmetingen en andere componenten voor de consument |
+| Curation | Het maken of bewerken van een mobiel scorebord met relevante meetgegevens, afmetingen en andere componenten voor de consument |
 | Scorecard | Een dashboardweergave met een of meer tegels |
 | Tegel | Een rendering voor metrische gegevens in een scorebordweergave |
 | Uitsplitsing | Een secundaire weergave die toegankelijk is door te tikken op een tegel in het scorebord. Deze mening breidt metrisch uit die op de tegel wordt getoond en naar keuze rapporten over extra verdelingsafmetingen. |
@@ -191,7 +192,6 @@ Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wi
    3. Nadat u de testflight-app hebt geïnstalleerd, zoekt en installeert u de Adobe Analytics-dashboards vanuit Testflight, zoals hieronder wordt weergegeven:
 
       ![Testvluchtscherm](assets/testflight2.png)
-
    **Voor uitvoerende gebruikers op Android:**
 
    1. Tik op de koppeling Play Store op het apparaat van de gebruiker (Deze is ook beschikbaar in Analytics onder **Extra** > **dashboards**):
@@ -207,7 +207,6 @@ Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wi
 
    3. Download en installeer de app.
 Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-gegevens. Wij ondersteunen zowel Adobe als Enterprise-/federatieve id&#39;s.
-
    ![Welkomstscherm van app](assets/welcome.png)
 
 2. Help hen tot uw Scorecard toegang te hebben. Nadat uitvoerende gebruikers zich in app ondertekenen, verschijnt het **Choose een bedrijfscherm** . Dit scherm maakt een lijst van de login bedrijven waartot de uitvoerende gebruiker behoort. Om hen te helpen bij de Scorecard:
@@ -215,7 +214,6 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich a
    * Tik op de naam van het aanmeldingsbedrijf of de Experience Cloud Org die van toepassing is op het scorebord dat u hebt gedeeld. De Scorecard lijst toont dan alle Scorecards die met het uitvoerend onder dat login bedrijf zijn gedeeld.
    * Help ze deze lijst te sorteren op **Laatst gewijzigd**, indien van toepassing.
    * Tik op de naam van het scorebord om het weer te geven.
-
    ![Kies een bedrijf](assets/accesscard.png)
 
    Opmerking: Als de uitvoerende gebruiker zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld:
@@ -224,7 +222,6 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich a
    * Het scorebord is mogelijk niet gedeeld met de uitvoerende gebruiker
 
       ![Niets gedeeld](assets/nothing.png)
-
    Verifieer dat de uitvoerende gebruiker zich in de juiste instantie van Analytics kan aanmelden en dat Scorecard is gedeeld.
 
 3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt.
@@ -260,7 +257,6 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich a
    1. Tik op het gebruikerspictogram rechtsboven in het toepassingsscherm.
    2. Tik in het scherm **Mijn account** op de optie **Feedback** .
    3. Tik om de opties voor het geven van feedback weer te geven.
-
    ![Feedback geven](assets/feedback.png)
    ![Feedbackopties](assets/feedback_option.png)
 
