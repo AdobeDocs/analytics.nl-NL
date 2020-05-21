@@ -3,7 +3,10 @@ description: 'null'
 title: Overzicht van de bijdrageanalyse
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Met de functie Analyse van bijdrage kunt u uw gegevens direct evalueren om te be
 
 De Analyse van de bijdrage helpt u een verhaal ontwikkelen om te beschrijven waarom een anomalie voorkwam en hoe te om aan het te antwoorden, die relevante metriek vangen en verborgen punten identificeren die u een algemene reden voor publieksinteractie en trending klantenbelangen geven. Soms is een anomalie gemakkelijk te zien en te corrigeren, zoals een foutorder voor 2.000 kajaks. Soms is het complex, zoals het identificeren van een opkomende trend over een tijdsperiode in een regio die alleen reageert op een specifieke gerichte campagne. Door bijdragende items voor verschillende afmetingen en hun koppelingen te bundelen, krijgt u een algemeen idee van de interacties van uw publiek en kunt u context bieden voor afwijkende gegevenspunten.
 
-Hier volgen enkele ideeën:
+Hier volgen enkele gebruiksgevallen:
 
-* Identificatiehermarketingpotentieel door veranderingen in de vraag naar producten te controleren.
+* Identificeer hermarketingpotentieel door veranderingen in de productvraag te controleren.
 * Verbeter klantenervaring door op specifieke publieksbelangen te antwoorden.
 * Identificeer frauduleuze bestellingen in een vroeg stadium als buiten-de-grenzenrapport.
 * Bescherm uzelf tegen bedrijfsspionage door hoog gebruik en downloads te identificeren.
@@ -52,7 +55,7 @@ Het aantal uitvoeringen per bedrijf wordt beperkt door maandelijkse tokens die w
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Waarom introduceerde Adobe tokens? </b> </p> </td> 
-   <td colname="col2"> <p>De bijdrageanalyse is een van de meest responsieve mogelijkheden in Adobe Analytics sinds de release in 2015. Als u een klein aantal "volledige" runnen per maand hebt (in plaats van slechts 3 dimensies voor sommige analyseproducten), kunt u beter zien wat de onbeperkte volledige Analyse van de Bijdrage voor u kan doen. </p> </td> 
+   <td colname="col2"> <p>De bijdrageanalyse is een van de meest responsieve mogelijkheden in Adobe Analytics. Als u een klein aantal "volledige" runnen per maand hebt (in plaats van slechts 3 dimensies voor sommige analyseproducten), kunt u beter zien wat de onbeperkte volledige Analyse van de Bijdrage voor u kan doen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Hoe werkt het tokeren in bijdrageanalyse? Kosten het een token om een project te laden met een bestaande bijdrageanalyse, of alleen wanneer een gloednieuwe wordt uitgevoerd?</b> </p> </td> 
@@ -90,8 +93,8 @@ Hieronder vindt u een lijst met de gedetailleerde rechten voor analyse van de An
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Adobe Analytics Entitlement </th> 
-   <th colname="col2" class="entry"> Anomaly Detection </th> 
-   <th colname="col3" class="entry"> Bijdrage-analyse </th> 
+   <th colname="col2" class="entry"> Anomaliedetectie </th> 
+   <th colname="col3" class="entry"> Contributieanalyse </th> 
   </tr>
  </thead>
  <tbody> 
