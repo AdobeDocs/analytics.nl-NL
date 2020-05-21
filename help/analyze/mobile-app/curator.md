@@ -2,9 +2,9 @@
 description: Instructies voor het instellen van de dashboards scorecards.
 title: Adobe Analytics-handleiding voor dashboards
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
 workflow-type: tm+mt
-source-wordcount: '2286'
+source-wordcount: '2323'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Curatorhandleiding voor Adobe Analytics-dashboards
 
-De volgende informatie instrueert curatoren van de gegevens van de Analytics van Adobe over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren.
+De volgende informatie instrueert curatoren van de gegevens van de Analytics van Adobe over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Zie [Adobe Analytics-dashboards in-app Experience](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)voor een video waarin deze informatie wordt gedemonstreerd.
 
 ## Inleiding
 
@@ -71,10 +71,6 @@ U kunt tot het Lege Mobiele malplaatje van het Scorecard op één van de volgend
 
 ![Scorecard-sjabloon](assets/new_template.png)
 
-
-*Opmerking: Als u de Lege sjabloon voor het mobiele scorebord niet ziet, zoals hieronder wordt weergegeven, is uw bedrijf nog niet geactiveerd voor bèta. Neem contact op met uw Customer Service Manager.*
-
-
 **Een project toevoegen**
 
 Klik in het scherm **Projecten** onder het tabblad **Componenten** op de knop **Toevoegen** en selecteer **Mobiel scorebord**.
@@ -105,18 +101,17 @@ Het scorebordsjabloon implementeren:
 
    ![Afmetingen toevoegen](assets/layer_dimensions.png)
 
-   *Opmerking: U kunt ook een dimensie aan alle tegels toevoegen door deze op het Scorecard-canvas te neerzetten.*
+   U kunt ook een dimensie aan alle tegels toevoegen door deze op het Scorecard-canvas te neerzetten.
 
    Wanneer u op een tegel in de Scorecard Builder klikt, toont het rechtse spoor de eigenschappen en de kenmerken verbonden aan die tegel. In dit spoor, kunt u een nieuwe **Titel** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
-
 
    Als u op tegels klikt, wordt in een dynamische pop-up ook weergegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen dimensie is toegepast op de tegel, is de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
 
    ![Onderverdeling_weergave](assets/break_view.png)
 
-   *Let erop dat elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.*
+   Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
 
-4. Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer. Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de tegel bovenop scorecard.
+4. Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer. Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [configureert en past filters voor uw Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) op dezelfde manier toe als in de Adobe Analytics-werkruimte.
 
 5. Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door **x** te klikken die verschijnt wanneer u over de component, zoals hieronder voor het **Mobiele segment van Klanten** getoond:
 
@@ -155,7 +150,7 @@ U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
 Nadat u een scorebord hebt gedeeld, kunnen uw ontvangers tot het op hun dashboards van Analytics toegang hebben. Als u daarna veranderingen in het Scorecard in de Scorecard Bouwer aanbrengt, zullen zij automatisch in het gedeelde Scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het Scorecard op hun app verfrist.
 
-*Opmerking: Als u het Scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u de scorecard opnieuw willen delen (en de optie **Automatisch ingebedde componenten met ontvangers**delen) om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.*
+Als u het Scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u de scorecard opnieuw willen delen (en de optie **Automatisch ingebedde componenten met ontvangers** delen) om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.
 
 ## Uitvoerende gebruikers instellen met de app
 
@@ -171,43 +166,23 @@ Om uitvoerende gebruikers te helpen tot uw Scorecards op app toegang hebben, zor
 * Zij hebben toegang tot de Werkruimte van de Analyse en de rapportreeks die Scorecard gebaseerd is op
 * Zij hebben toegang tot de Componenten die het Scorecard omvat. Opmerking: U kunt een optie selecteren wanneer het delen van uw Scorecards om ingebedde componenten met ontvangers **** automatisch te delen.
 
-### Help-gebruikers de app te gebruiken
+### Help uitvoerende gebruikers met de app
 
-Tijdens de bètafase en voordat de app openbaar wordt gemaakt, kunt u bepalen wie toegang heeft tot de app.
+Zo helpt u uitvoerende gebruikers:
 
-1. Help uitvoerende gebruikers de app te downloaden en installeren. Hiervoor voert u de volgende stappen uit om de toegang uit te breiden tot uw gebruikers, afhankelijk van het feit of ze een iOS- of Android-apparaat gebruiken.
+1. Help ze de app te downloaden en installeren. Hiervoor voert u de volgende stappen uit om de toegang uit te breiden tot uw gebruikers, afhankelijk van het feit of ze een iOS- of Android-apparaat gebruiken.
 
    **Voor uitvoerende gebruikers op iOS:**
 
-   1. Klik op de volgende openbare koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**):
+   1. Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
 
-      [iOS-koppeling](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
-
-      Nadat u op de koppeling hebt geklikt, wordt het volgende scherm Testflight weergegeven:
-
-      ![Testvluchtscherm](assets/testflight1.png)
-
-   2. Tik op de koppeling **Weergeven in App Store** op het scherm om de testflight-app te downloaden.
-
-   3. Nadat u de testflight-app hebt geïnstalleerd, zoekt en installeert u de Adobe Analytics-dashboards vanuit Testflight, zoals hieronder wordt weergegeven:
-
-      ![Testvluchtscherm](assets/testflight2.png)
-
+      [iOS-koppeling](https://apple.co/2zXq0aN)
    **Voor uitvoerende gebruikers op Android:**
 
-   1. Tik op de koppeling Play Store op het apparaat van de gebruiker (Deze is ook beschikbaar in Analytics onder **Extra** > **dashboards**):
-      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+   1. Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
 
-      Tik op de koppeling om een ester te worden op het volgende scherm nadat u op deze koppeling hebt getikt:
-
-      ![Winkelscherm afspelen](assets/play.png)
-
-   2. Tik op de link Google Play **om deze te** downloaden op het volgende scherm:
-
-      ![Koppeling downloaden](assets/playnext.png)
-
-   3. Download en installeer de app.
-Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-gegevens. Wij ondersteunen zowel Adobe als Enterprise-/federatieve id&#39;s.
+      [Android](https://bit.ly/2LM38Oo)
+   Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-gegevens. Wij ondersteunen zowel Adobe als Enterprise-/federatieve id&#39;s.
 
    ![Welkomstscherm van app](assets/welcome.png)
 
@@ -216,19 +191,15 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich a
    * Tik op de naam van het aanmeldingsbedrijf of de Experience Cloud Org die van toepassing is op het scorebord dat u hebt gedeeld. De Scorecard lijst toont dan alle Scorecards die met het uitvoerend onder dat login bedrijf zijn gedeeld.
    * Help ze deze lijst te sorteren op **Laatst gewijzigd**, indien van toepassing.
    * Tik op de naam van het scorebord om het weer te geven.
-
    ![Kies een bedrijf](assets/accesscard.png)
 
-   Opmerking: Als de uitvoerende gebruiker zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld:
+   Als de uitvoerende gebruiker zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld:
 
    * De uitvoerende gebruiker heeft mogelijk de verkeerde instantie Analytics geselecteerd
    * Het scorebord is mogelijk niet gedeeld met de uitvoerende gebruiker
-
-      ![Niets gedeeld](assets/nothing.png)
-
    Verifieer dat de uitvoerende gebruiker zich in de juiste instantie van Analytics kan aanmelden en dat Scorecard is gedeeld.
 
-3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt.
+3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt (Scorecard hieronder wordt geplaatst op donkere wijze, die in **Voorkeur** wordt geplaatst, zoals die in een volgende stap wordt verklaard):
 
    ![Stijlen verklaren](assets/newexplain.png)
 
@@ -247,24 +218,30 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich a
 
    ![Onderscheidingsweergave](assets/sparkline.png)
 
+   * Tik op een willekeurig punt op een dunne lijn om de gegevens weer te geven die aan dat punt op de lijn zijn gekoppeld.
+
+   * Er wordt een tabel opgenomen waarin de aan de tegel toegevoegde afmetingen worden weergegeven. Tik op de pijl omlaag om de afmetingen te selecteren. Als er geen dimensie aan de tegel is toegevoegd, worden de diagramgegevens weergegeven in de tabel.
+
 
 5. U wijzigt de datumbereiken voor uw scorebord als volgt:
 
    ![Datums wijzigen](assets/changedate.png)
 
-   *Opmerking: U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.*
+   U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
 
    Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumwaaier-of de huidige tijdsspanne of onmiddellijk voorafgaand aan het. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **VERGELIJKEN MET** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik op **Gereed** in de rechterbovenhoek van het scherm. Het veld **Datumbereik** en de scorebordtegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe bereiken die u hebt geselecteerd.
 
 6. Feedback geven op deze app:
 
-   1. Tik op het gebruikerspictogram rechtsboven in het toepassingsscherm.
-   2. Tik in het scherm **Mijn account** op de optie **Feedback** .
+   1. Tik op het instellingenpictogram rechtsboven in het toepassingsscherm.
+   2. Tik in het scherm **Instellingen** op de optie **Feedback** .
    3. Tik om de opties voor het geven van feedback weer te geven.
 
-   ![Feedback geven](assets/feedback.png)
-   ![Feedbackopties](assets/feedback_option.png)
+      ![Instellingenscherm](assets/settings.png)
 
+7. Tik op de bovenstaande optie **Voorkeuren** om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
+
+   ![Donkere modus](assets/darkmode.png)
 
 **Een fout** rapporteren:
 
