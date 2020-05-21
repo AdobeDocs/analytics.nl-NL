@@ -2,9 +2,9 @@
 description: Instructies voor het instellen van de dashboards scorecards.
 title: Adobe Analytics-handleiding voor dashboards
 translation-type: tm+mt
-source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
+source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2328'
 ht-degree: 0%
 
 ---
@@ -113,6 +113,8 @@ Het scorebordsjabloon implementeren:
 
 4. Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer. Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [configureert en past filters voor uw Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) op dezelfde manier toe als in de Adobe Analytics-werkruimte.
 
+   ![Segmenten maken voor filter](assets/segment_ui.png)
+
 5. Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door **x** te klikken die verschijnt wanneer u over de component, zoals hieronder voor het **Mobiele segment van Klanten** getoond:
 
    ![Remove_components](assets/new_remove.png)
@@ -174,14 +176,14 @@ Zo helpt u uitvoerende gebruikers:
 
    **Voor uitvoerende gebruikers op iOS:**
 
-   1. Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
+   * Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
 
       [iOS-koppeling](https://apple.co/2zXq0aN)
    **Voor uitvoerende gebruikers op Android:**
 
-   1. Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
+   * Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
 
-      [Android](https://bit.ly/2LM38Oo)
+      [Android-koppeling](https://bit.ly/2LM38Oo)
    Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-gegevens. Wij ondersteunen zowel Adobe als Enterprise-/federatieve id&#39;s.
 
    ![Welkomstscherm van app](assets/welcome.png)
