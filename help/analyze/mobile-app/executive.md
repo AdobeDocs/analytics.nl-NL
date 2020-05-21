@@ -2,9 +2,9 @@
 description: Instructies voor het gebruik van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboards
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -51,36 +51,21 @@ Als u toegang wilt tot scoreborden op dashboards, moet u ervoor zorgen dat:
 
 Voer de stappen uit volgens het besturingssysteem op uw apparaat om de app te downloaden en installeren.
 
-**Voor iOS-apparaten:**
+**Voor uitvoerende gebruikers op iOS:**
 
-1. Klik op de volgende openbare koppeling (Deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**):
+* Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
 
-   [iOS-koppeling](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
+   [iOS-koppeling](https://apple.co/2zXq0aN)
 
-   Nadat u op de koppeling hebt geklikt, wordt het volgende scherm Testflight weergegeven:
+**Voor uitvoerende gebruikers op Android:**
 
-   ![Testvluchtscherm](assets/testflight1.png)
+* Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
 
-2. Tik op de koppeling **Weergeven in App Store** op het scherm om de testflight-app te downloaden.
+   [Android](https://bit.ly/2LM38Oo)
 
-3. Nadat u de testflight-app hebt geïnstalleerd, zoekt en installeert u Adobe Analytics-dashboards vanuit Testflight, zoals hieronder wordt weergegeven:
+Zodra ze zijn gedownload en geïnstalleerd, kunnen gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-gegevens.
 
-   ![Testvluchtscherm](assets/testflight2.png)
-
-**Voor Android-apparaten:**
-
-1. Tik op de koppeling Play Store op het apparaat van de gebruiker (Deze is ook beschikbaar in Analytics onder **Extra** > **dashboards**):
-
-
-   [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
-
-   Tik op de koppeling om een ester te worden op het volgende scherm nadat u op deze koppeling hebt getikt:
-
-   ![Winkelscherm afspelen](assets/play.png)
-
-2. Tik op de link Google Play **om deze te** downloaden op het volgende scherm:
-
-   ![Koppeling downloaden](assets/playnext.png)
+![Welkomstscherm van app](assets/welcome.png)
 
 ## Dashboards gebruiken
 
@@ -94,16 +79,15 @@ Dashboards gebruiken:
 
 3. In de lijst met scoreborden worden dan alle scoreborden weergegeven die met u zijn gedeeld. Tik op het scorebord dat u wilt weergeven.
 
-   ![Kies een bedrijf](assets/accesscard.png)
+   ![Kies een bedrijf](assets/nextseq.png)
 
-   *Opmerking: Als u zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld, controleert u het volgende met uw curator:*
+   Als u zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld, controleert u het volgende met uw curator:
 
-   * *U kunt zich aanmelden bij de juiste instantie Analytics*
-   * *Het scorebord is met u gedeeld*
+   U kunt u aanmelden bij de juiste instantie Analytics. Het scorebord is met u gedeeld
 
-      ![Niets gedeeld](assets/nothing.png)
+   ![Niets gedeeld](assets/nothing.png)
 
-4. Onderzoek hoe de tegels in de Scorecard verschijnen.
+4. Onderzoek hoe de tegels in Scorecard verschijnen (dit Scorecard wordt getoond op donkere wijze).
 
    ![Getegrafeerde tegels](assets/newexplain.png)
 
@@ -125,21 +109,27 @@ Dashboards gebruiken:
 
    ![Datums wijzigen](assets/changedate.png)
 
-   *Opmerking: U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.*
+   U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
 
    Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumwaaier-of de huidige tijdsspanne of onmiddellijk voorafgaand aan het. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **VERGELIJKEN MET** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik op **Gereed** in de rechterbovenhoek van het scherm. Het veld **Datumbereik** en de scorebordtegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe bereiken die u hebt geselecteerd.
 
-7. Download de Scorecard-updates. Als een Scorecard niet alle metrisch of onderbrekingen omvat die u in kunt geinteresseerd zijn, gelieve uw team van Analytics te contacteren om Scorecard te hebben bijgewerkt. Na de update kunt u de kaart op het scherm terugtrekken om deze te vernieuwen en de onlangs toegevoegde gegevens te laden.
+7. Tik op de vervolgkeuzelijst met filters en selecteer een segment dat door de curator is geconfigureerd om een segmentfilter op uw scorebord toe te passen.
 
+   ![Segment, filter](assets/segment_filter.png)
 
+8. Download de Scorecard-updates. Als een Scorecard niet alle metrisch of onderbrekingen omvat die u in kunt geinteresseerd zijn, gelieve uw team van Analytics te contacteren om Scorecard te hebben bijgewerkt. Na de update kunt u de kaart op het scherm terugtrekken om deze te vernieuwen en de onlangs toegevoegde gegevens te laden.
 
-8. Feedback geven. Feedback geven:
+9. Feedback geven op deze app:
 
-   1. Tik op het gebruikerspictogram rechtsboven in het dashboardscherm.
-   2. Tik in het scherm **Mijn account** op de optie **Feedback** .
+   1. Tik op het instellingenpictogram rechtsboven in het toepassingsscherm.
+   2. Tik in het scherm **Instellingen** op de optie **Feedback** .
    3. Tik om de opties voor het geven van feedback weer te geven.
-   ![Feedback geven](assets/feedback.png)
-   ![Feedbackopties](assets/feedback_option.png)
+
+      ![Instellingenscherm](assets/settings.png)
+
+10. Tik op de bovenstaande optie **Voorkeuren** om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
+
+   ![Donkere modus](assets/darkmode.png)
 
 
 **Een fout** rapporteren:
