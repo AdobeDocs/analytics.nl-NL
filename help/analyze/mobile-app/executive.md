@@ -4,7 +4,7 @@ title: Handleiding voor Adobe Analytics-dashboards
 translation-type: tm+mt
 source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe Analytics-dashboards: Handleiding voor snel starten van gebruikers
 
-De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards.
+De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards. Zie [Adobe Analytics-dashboards in-app Experience](https://youtu.be/QXqQ_PkArbA)voor een video waarin deze informatie wordt gedemonstreerd.
 
 
 ## Inleiding
@@ -53,15 +53,15 @@ Voer de stappen uit volgens het besturingssysteem op uw apparaat om de app te do
 
 **Voor uitvoerende gebruikers op iOS:**
 
-* Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
 
-   [iOS-koppeling](https://apple.co/2zXq0aN)
+[iOS-koppeling](https://apple.co/2zXq0aN)
 
 **Voor uitvoerende gebruikers op Android:**
 
-* Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
 
-   [Android](https://bit.ly/2LM38Oo)
+[Android-koppeling](https://bit.ly/2LM38Oo)
 
 Zodra ze zijn gedownload en geïnstalleerd, kunnen gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-gegevens.
 
@@ -83,24 +83,29 @@ Dashboards gebruiken:
 
    Als u zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld, controleert u het volgende met uw curator:
 
-   U kunt u aanmelden bij de juiste instantie Analytics. Het scorebord is met u gedeeld
-
+   * U kunt zich aanmelden bij de juiste instantie Analytics
+   * Het scorebord is met u gedeeld
    ![Niets gedeeld](assets/nothing.png)
 
-4. Onderzoek hoe de tegels in Scorecard verschijnen (dit Scorecard wordt getoond op donkere wijze).
+4. Onderzoek hoe de tegels in Scorecard verschijnen (het eerste Scorecard wordt getoond in donkere wijze); zie **Voorkeuren** hieronder voor meer informatie).
 
    ![Getegrafeerde tegels](assets/newexplain.png)
 
    Aanvullende informatie over tegels:
 
    * De korreligheid van de sparklines is afhankelijk van de lengte van het datumbereik:
-   * Op een dag is er een uurtrend
-   * Meer dan een dag en minder dan een jaar laat een dagelijkse trend zien
-   * Een jaar of langer toont een wekelijkse trend
-   * De formule van de percentagewaardeverandering is metrisch totaal (huidige datumwaaier) - metrisch totaal (de waaier van de vergelijkingsdatum) / metrisch totaal (de waaier van de vergelijkingsdatum).
-   * U kunt het scherm omlaag trekken om het Scorecard te vernieuwen.
 
-5. Tik op een tegel om te tonen hoe een gedetailleerde uitsplitsing voor de tegel werkt.
+      * Op een dag is er een uurtrend
+      * Meer dan een dag en minder dan een jaar laten een dagelijkse trend zien
+      * Een jaar of langer toont een wekelijkse trend
+   * De formule van de percentagewaardeverandering is metrisch totaal (huidige datumwaaier) - metrisch totaal (de waaier van de vergelijkingsdatum) / metrisch totaal (de waaier van de vergelijkingsdatum).
+
+   * U kunt het scherm omlaag trekken om het Scorecard te vernieuwen.
+   Het volgende voorbeeldscorebord wordt getoond in normale wijze:
+
+   ![Voorbeeld van scorebord](assets/intro_scorecard.png)
+
+5. Tik op een tegel om te zien hoe een gedetailleerde uitsplitsing van de tegel werkt.
 
    ![Weergave Schaduwen](assets/sparkline.png)
 
@@ -109,11 +114,11 @@ Dashboards gebruiken:
 
    ![Datums wijzigen](assets/changedate.png)
 
-   U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
+   * U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
 
-   Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumwaaier-of de huidige tijdsspanne of onmiddellijk voorafgaand aan het. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **VERGELIJKEN MET** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik op **Gereed** in de rechterbovenhoek van het scherm. Het veld **Datumbereik** en de scorebordtegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe bereiken die u hebt geselecteerd.
+   * Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumwaaier-of de huidige tijdsspanne of onmiddellijk voorafgaand aan het. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **VERGELIJKEN MET** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik op **Gereed** in de rechterbovenhoek van het scherm. Het veld **Datumbereik** en de scorebordtegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe bereiken die u hebt geselecteerd.
 
-7. Tik op de vervolgkeuzelijst met filters en selecteer een segment dat door de curator is geconfigureerd om een segmentfilter op uw scorebord toe te passen.
+7. Tik op de vervolgkeuzelijst met filters en selecteer een segment dat door de curator is geconfigureerd om een segmentfilter op uw scorebord toe te passen. [Filters](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in de app werken op dezelfde manier als in de Analytics Workspace.
 
    ![Segment, filter](assets/segment_filter.png)
 
