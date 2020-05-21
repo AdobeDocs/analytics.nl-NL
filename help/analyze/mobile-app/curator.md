@@ -2,9 +2,9 @@
 description: Instructies voor het instellen van de dashboards scorecards.
 title: Adobe Analytics-handleiding voor dashboards
 translation-type: tm+mt
-source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
+source-git-commit: 3883abc6cc3e8e8e5511af353ad9d88186220acd
 workflow-type: tm+mt
-source-wordcount: '2328'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Curatorhandleiding voor Adobe Analytics-dashboards
 
-De volgende informatie instrueert curatoren van de gegevens van de Analytics van Adobe over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Zie [Adobe Analytics-dashboards in-app Experience](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)voor een video waarin deze informatie wordt gedemonstreerd.
+De volgende informatie instrueert curatoren van de gegevens van de Analytics van Adobe over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Zie de [Adobe Analytics-dashboards Scorecard Builder](https://youtu.be/tnnl6hrcP94)voor een video waarin deze informatie wordt gedemonstreerd.
 
 ## Inleiding
 
@@ -21,8 +21,7 @@ Adobe Analytics-dashboards bieden altijd en overal inzichten van Adobe Analytics
 
 ## Meer informatie over deze handleiding
 
-Deze handleiding is bedoeld om curatoren van Adobe Analytics-gegevens te helpen bij het configureren van Scorecards voor hun uitvoerende gebruikers op de dashboards van Analytics. Curatoren kunnen organisatiebeheerders of personen in andere functies zijn die verantwoordelijk zijn voor het instellen van toepassingsscoreborden, waarmee uitvoerende gebruikers een brede weergave van belangrijke samenvattingsgegevens snel en eenvoudig op hun eigen mobiele apparaten kunnen bekijken. Hoewel uitvoerende gebruikers de eindgebruiker voor de dashboards van Analytics zijn, zal deze gids gegevenscuratoren helpen om app voor die gebruikers effectief op te zetten.
-
+Deze handleiding is bedoeld om curatoren van Adobe Analytics-gegevens te helpen bij het configureren van Scorecards voor hun uitvoerende gebruikers op dashboards. Curatoren kunnen organisatiebeheerders of personen in andere functies zijn die verantwoordelijk zijn voor het instellen van toepassingsscoreborden, waarmee uitvoerende gebruikers een brede weergave van belangrijke samenvattingsgegevens snel en eenvoudig op hun eigen mobiele apparaten kunnen bekijken. Hoewel uitvoerende gebruikers de eindgebruiker voor de dashboards van Analytics zijn, zal deze gids gegevenscuratoren helpen om app voor die gebruikers effectief op te zetten.
 
 ## Verklarende woordenlijst
 
@@ -164,9 +163,9 @@ Om uitvoerende gebruikers te helpen tot uw Scorecards op app toegang hebben, zor
 
 * De minimale vereisten voor mobiele besturingssystemen op hun apparaten zijn iOS versie 10 of hoger, of Android versie 4.4 (KitKat) of hoger
 * Ze hebben een geldige aanmelding bij Adobe Analytics
-* U hebt op de juiste wijze mobiele scoreborden voor deze scoreborden gemaakt en deze met hen gedeeld.
+* U hebt op de juiste wijze mobiele scoreborden voor hen gemaakt en deze scoreborden met hen gedeeld
 * Zij hebben toegang tot de Werkruimte van de Analyse en de rapportreeks die Scorecard gebaseerd is op
-* Zij hebben toegang tot de Componenten die het Scorecard omvat. Opmerking: U kunt een optie selecteren wanneer het delen van uw Scorecards om ingebedde componenten met ontvangers **** automatisch te delen.
+* Zij hebben toegang tot de Componenten die het Scorecard omvat. U kunt een optie selecteren bij het delen van uw Scorecards om ingesloten componenten **automatisch te delen met ontvangers**.
 
 ### Help uitvoerende gebruikers met de app
 
@@ -198,19 +197,26 @@ Zo helpt u uitvoerende gebruikers:
    Als de uitvoerende gebruiker zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld:
 
    * De uitvoerende gebruiker heeft mogelijk de verkeerde instantie Analytics geselecteerd
-   * Het scorebord is mogelijk niet gedeeld met de uitvoerende gebruiker
-   Verifieer dat de uitvoerende gebruiker zich in de juiste instantie van Analytics kan aanmelden en dat Scorecard is gedeeld.
 
-3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt (Scorecard hieronder wordt geplaatst op donkere wijze, die in **Voorkeur** wordt geplaatst, zoals die in een volgende stap wordt verklaard):
+   * Het scorebord is mogelijk niet gedeeld met de uitvoerende gebruiker
+
+      ![Niets gedeeld](assets/nothing.png)
+
+
+   * Verifieer dat de uitvoerende gebruiker zich in de juiste instantie van Analytics kan aanmelden en dat Scorecard is gedeeld.
+
+
+3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt (het eerste hieronder Scorecard wordt geplaatst op donkere wijze); zie **Voorkeuren** hieronder als u denkt dat uw uitvoerend gebruiker deze het bekijken optie verkiest):
 
    ![Stijlen verklaren](assets/newexplain.png)
 
+   ![Voorbeeld van scorebord](assets/intro_scorecard.png)
 
    Aanvullende informatie over tegels:
 
    * De korreligheid van de sparklines is afhankelijk van de lengte van het datumbereik:
       * Op een dag is er een uurtrend
-      * Meer dan een dag en minder dan een jaar laat een dagelijkse trend zien
+      * Meer dan een dag en minder dan een jaar laten een dagelijkse trend zien
       * Een jaar of langer toont een wekelijkse trend
    * De formule van de percentagewaardeverandering is metrisch totaal (huidige datumwaaier) - metrisch totaal (de waaier van de vergelijkingsdatum) / metrisch totaal (de waaier van de vergelijkingsdatum).
    * U kunt het scherm omlaag trekken om het Scorecard te vernieuwen.
@@ -224,14 +230,13 @@ Zo helpt u uitvoerende gebruikers:
 
    * Er wordt een tabel opgenomen waarin de aan de tegel toegevoegde afmetingen worden weergegeven. Tik op de pijl omlaag om de afmetingen te selecteren. Als er geen dimensie aan de tegel is toegevoegd, worden de diagramgegevens weergegeven in de tabel.
 
-
 5. U wijzigt de datumbereiken voor uw scorebord als volgt:
 
    ![Datums wijzigen](assets/changedate.png)
 
-   U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
+   * U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
 
-   Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumwaaier-of de huidige tijdsspanne of onmiddellijk voorafgaand aan het. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **VERGELIJKEN MET** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik op **Gereed** in de rechterbovenhoek van het scherm. Het veld **Datumbereik** en de scorebordtegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe bereiken die u hebt geselecteerd.
+   * Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumwaaier-of de huidige tijdsspanne of onmiddellijk voorafgaand aan het. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **VERGELIJKEN MET** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik op **Gereed** in de rechterbovenhoek van het scherm. Het veld **Datumbereik** en de scorebordtegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe bereiken die u hebt geselecteerd.
 
 6. Feedback geven op deze app:
 
