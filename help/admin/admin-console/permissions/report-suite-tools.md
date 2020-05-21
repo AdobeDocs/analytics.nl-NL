@@ -1,6 +1,9 @@
 ---
-source-git-commit: ''
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '650'
+ht-degree: 1%
 
 ---
 # De Hulpmiddelen van de Reeks melden die in de toestemmingen van het Profiel van het Product worden vermeld
@@ -33,8 +36,8 @@ Gebruik deze pagina om elk toestemmingspunt onder de Hulpmiddelen van de Reeks v
 | Standaardwaarden | Hiermee krijgt u toegang tot de afzonderlijke rapportsuite-instellingen > Standaardwaarden in Rapportsuite Manager. |
 | Verwerkingsregels | Hiermee krijgt u toegang tot Algemeen > Verwerkingsregels en Algemeen > Bot-regels in Rapportbeheer. |
 | Configuratie Advertising Analytics | Niet gebruikt. |
-| Anomaly Detection | Biedt toegang tot Anomaly Detection in Analysis Workspace. |
-| Bijdrage-analyse | Hiermee krijgt u toegang tot het contextmenu &#39;Bijdrage-analyse uitvoeren&#39; in de analysewerkruimte. |
+| Anomaliedetectie | Biedt toegang tot Anomaly Detection in Analysis Workspace. |
+| Contributieanalyse | Hiermee krijgt u toegang tot het contextmenu &#39;Bijdrage-analyse uitvoeren&#39; in de analysewerkruimte. |
 | Kanaalrapport | Hiermee krijgt u toegang tot het rapport Kanaaloverzicht in Rapporten en Analyses via de marketingkanalen. |
 | RealTime-rapport | Hiermee krijgt u toegang tot Sitemetriek > Real-time in Rapporten en Analytics. Gebruik het toestemmingspunt &quot;Echt - de Configuratie van het tijdRapport&quot;om toegang tot opstelling te verlenen dit rapport. |
 | Beide pagina&#39;s | Hiermee krijgt u toegang tot Metrische gegevens van site > Bots > Rapport Bodempagina&#39;s in rapporten en analyses. |
@@ -49,7 +52,7 @@ Gebruik deze pagina om elk toestemmingspunt onder de Hulpmiddelen van de Reeks v
 | Installatie van verouderde ClickMap | Niet gebruikt. Gebruik in plaats hiervan Activiteitenkaart onder Analytics Tools. |
 | Retourbezoeken | Hiermee krijgt u toegang tot Bezoekersbewaring > Bezoekopdrachten in Rapporten en Analyse. |
 | Overzicht van de mobiele app | Niet gebruikt. |
-| Classificaties | Hiermee krijgt u toegang tot alle indelingsinstellingen in Rapportbeheer. Dit machtigingsitem omvat: <br>Traffic > Traffic<br>ClassificationsConversion > Conversion<br>ClassificationsConversion > Classification<br>HierarchiesMarketing Channels > Marketing Channel<br>ClassificationsApp Management > App<br>ClassificationsMedia Management > Media<br>ClassificationsAEM > AEM Assets<br>ClassificationsAdobe Campaign > Adobe Classifications |
+| Classificaties | Hiermee krijgt u toegang tot alle indelingsinstellingen in Rapportbeheer. Dit machtigingsitem omvat: <br>Verkeer ><br>VerkeersklassificatiesConversie > Conversie<br>ClassificatiesConversie > Classificatie<br>HiërarchieënMarketingkanalen > Marketing Channel<br>ClassificationsApp Management > App<br>ClassificationsMedia Management > Media<br>ClassificationsAEM > AEM Assets<br>ClassificationsAdobe Campagne > Adobe Classifications |
 | Mijn aanbevolen rapporten | Hiermee krijgt u toegang tot Sitemetriek > Mijn aanbevolen rapporten in Rapporten en Analyse. |
 | Samenvattingsrapport van bedrijf | Niet gebruikt. |
 | Afbeelding | Niet gebruikt. |
@@ -59,3 +62,4 @@ Gebruik deze pagina om elk toestemmingspunt onder de Hulpmiddelen van de Reeks v
 | Overzichtsrapport voor gebruik | Niet gebruikt. |
 | Webbronnen | Niet gebruikt. |
 | Sociaal | Niet gebruikt. |
+| API voor gegevensherstel | Biedt toegang tot de API voor gegevensherstel (toekomstige release) |
