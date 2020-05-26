@@ -1,7 +1,7 @@
 ---
 title: Help bij importeren van analysemogelijkheden
 description: Help bij importeren van analysemogelijkheden
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebdf5ed1ca2b83b94284f1d8013a2b0c6b717714
 
 ---
@@ -14,8 +14,8 @@ source-git-commit: ebdf5ed1ca2b83b94284f1d8013a2b0c6b717714
 In deze handleiding wordt uitgelegd hoe u gegevens in Analytics kunt opnemen. Het omvat:
 
 * **[Gegevensbronnen](c-data-sources/datasrc-home.md)**: Upload een bestand naar een toegewezen Adobe FTP-site. Adobe haalt het bestand op en neemt de gegevens op in de rapportsuite.
-* **[API](c-data-insertion-api/c-data-insertion-api.md)**voor gegevensinvoeging: Gegevens rechtstreeks via een API naar de gegevensverzameling van Adobe verzenden.
-* **[Gegevensconnectors](data-connectors/getting-started-data-connectors.md)**: Werk samen met een ondersteunde derde partij om hun gegevens over te brengen naar Adobe Analytics en uw rapportenpakket te verrijken.
+* **[API voor gegevensinvoeging](c-data-insertion-api/c-data-insertion-api.md)**: Gegevens rechtstreeks via een API naar de gegevensverzameling van Adobe verzenden.
+* **[Data Connectors](data-connectors/getting-started-data-connectors.md)**: Werk samen met een ondersteunde derde partij om hun gegevens over te brengen naar Adobe Analytics en uw rapportenpakket te verrijken.
 
 ## Meer gebruikershandleidingen voor Analytics
 
@@ -23,7 +23,7 @@ In deze handleiding wordt uitgelegd hoe u gegevens in Analytics kunt opnemen. He
 
 ## Belangrijke bronnen voor analyse
 
-* [Contact opnemen met de klantenservice](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contact opnemen met de klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html)
 * [Analysereforum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
