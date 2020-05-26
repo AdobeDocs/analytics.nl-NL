@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
@@ -45,9 +45,9 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
       + [FTP-accounts instellen - overzicht](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [Classificaties](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [Gegevensbronnen](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
-      + [Gegevensconnectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
+      + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Gegevensfeeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
-      + [Ad-hocanalyse leverde rapporten](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
+      + [Ad Hoc Analysis leverde rapporten](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
       + [Data Warehouse levert rapporten](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report Builder geleverde rapporten](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [Engineering Services-services met FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
@@ -61,5 +61,5 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
       + [Secure File Transfer Protocol - overzicht](ftp-and-sftp/c-sftp/ftp-sftp.md)
       + [Verbinding maken met een Adobe FTP-account met SFTP](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
       + [Adobe-gegevens naar een extern FTP-account met SFTP verzenden](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
-      + [Verstuur de verzoeken van het Pakhuis van Gegevens naar servers SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
+      + [Verstuur de verzoeken van het Data Warehouse naar servers SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Verbinding maken met Adobe via SFTP zonder wachtwoord](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
