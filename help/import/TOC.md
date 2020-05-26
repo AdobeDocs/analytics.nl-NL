@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Import Guide
+user-guide-title: Handleiding voor importeren van analysemogelijkheden
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: tm+mt
-source-git-commit: ''
+translation-type: ht
+source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
 
@@ -36,13 +36,13 @@ source-git-commit: ''
    + [Transactie-id en bezoekersprofielen](c-data-sources/datasrc-tid-visitor-profile.md)
    + [Veelgestelde vragen over gegevensbronnen](c-data-sources/datasrc-faq.md)
 + [API voor gegevensinvoer](c-data-insertion-api/c-data-insertion-api.md)
-+ Gegevensconnectors {#dataconnectors}
++ Data Connectors {#dataconnectors}
    + [Aan de slag met Analytics Data Connectors](data-connectors/getting-started-data-connectors.md)
    + appFigures Data Connector voor Adobe Analytics {#appfigures}
       + [appFigures - overzicht](data-connectors/appfigures-overview/appfigures-overview.md)
       + [Voordat u deze integratie activeert](data-connectors/appfigures-overview/appfigures-before-activation.md)
       + [De integratie configureren](data-connectors/appfigures-overview/t-appfigures-integration.md)
-      + [Metriek en afmetingen](data-connectors/appfigures-overview/appfigures-metrics.md)
+      + [Statistieken en dimensies](data-connectors/appfigures-overview/appfigures-metrics.md)
       + [Toepassingsgegevens segmenteren](data-connectors/appfigures-overview/appfigures-segment-filter.md)
    + April Data Connector voor Adobe Analytics {#aprimo}
       + [April Data Connector voor Adobe Analytics](data-connectors/aprimo-overview/aprimo-overview.md)
@@ -53,12 +53,12 @@ source-git-commit: ''
       + [De integratie implementeren](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration.md)
    + Datran Data Connector voor Adobe Analytics {#datran}
       + [Datran Data Connector voor Adobe Analytics](data-connectors/datran-integration-overview/datran-integration-overview.md)
-      + [Voorbereiden op de e-mailintegratie van gegevensconnectors](data-connectors/datran-integration-overview/datran-configuring-integration.md)
-      + [De wizard voor integratie van gegevensconnectors uitvoeren](data-connectors/datran-integration-overview/t-datran-wizard.md)
+      + [Voorbereiden op de e-mailintegratie van Data Connectors](data-connectors/datran-integration-overview/datran-configuring-integration.md)
+      + [De wizard voor integratie van Data Connectors uitvoeren](data-connectors/datran-integration-overview/t-datran-wizard.md)
    + Delivra Data Connector voor Adobe Analytics {#delivra}
       + [Delivra Data Connector voor Adobe Analytics](data-connectors/delivra-integration-overview/delivra-integration-overview.md)
-      + [Voorbereiden op de e-mailintegratie van gegevensconnectors](data-connectors/delivra-integration-overview/delivra-configuring-the-genesis-delivra-integration.md)
-      + [De wizard voor integratie van gegevensconnectors uitvoeren](data-connectors/delivra-integration-overview/t-delivra-running-the-genesis-integration-wizard.md)
+      + [Voorbereiden op de e-mailintegratie van Data Connectors](data-connectors/delivra-integration-overview/delivra-configuring-the-genesis-delivra-integration.md)
+      + [De wizard voor integratie van Data Connectors uitvoeren](data-connectors/delivra-integration-overview/t-delivra-running-the-genesis-integration-wizard.md)
    + Demandbase Data Connector voor Adobe Analytics {#demandbase}
       + [Demandbase Data Connector voor Adobe Analytics](data-connectors/demandbase-home/demandbase-home.md)
       + [De integratie implementeren](data-connectors/demandbase-home/demandbase-deploying.md)
@@ -85,9 +85,9 @@ source-git-commit: ''
       + [De integratie gebruiken](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration.md)
    + Emarsys-gegevensconnector voor Adobe Analytics {#emarsys}
       + [Emarsys-gegevensconnector voor Adobe Analytics](data-connectors/emarsys-overview/emarsys-overview.md)
-      + [Voorbereiden op de e-mailintegratie van gegevensconnectors](data-connectors/emarsys-overview/emarsys-configure-integration.md)
+      + [Voorbereiden op de e-mailintegratie van Data Connectors](data-connectors/emarsys-overview/emarsys-configure-integration.md)
       + [Variabelen voor analyse](data-connectors/emarsys-overview/emarsys-variables.md)
-      + [De wizard voor integratie van gegevensconnectors uitvoeren](data-connectors/emarsys-overview/emarsys-wizard.md)
+      + [De wizard voor integratie van Data Connectors uitvoeren](data-connectors/emarsys-overview/emarsys-wizard.md)
    + Kampyle Data Connector voor Adobe Analytics {#kampyle}
       + [Kampyle Data Connector voor Adobe Analytics](data-connectors/kampyle-home/kampyle-home.md)
       + [De integratie implementeren](data-connectors/kampyle-home/kampyle-deploy.md)
