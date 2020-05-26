@@ -1,7 +1,7 @@
 ---
 title: Help bij exporteren Analytics
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 In deze handleiding worden manieren beschreven waarop u gegevens uit Adobe Analytics kunt ophalen. Het omvat:
 
 * **Gegevensfeeds:** Een uurs- of dagelijkse export van onbewerkte gegevens ontvangen. Elke rij is een individuele klap, en elke kolom is een variabele. Gegevensfeeds worden doorgaans naar FTP-sites verzonden.
-* **Data Warehouse:** Gebruik een aanvraagwizard om een spreadsheetuitvoer van gegevens op te halen. Het Pakhuis van gegevens gebruikt een verschillende verwerkingsarchitectuur om het even welk aantal rijen en om het even welk aantal unieke waarden toe te staan.
+* **Data Warehouse:** Gebruik een aanvraagwizard om een spreadsheetuitvoer van gegevens op te halen. Het Data Warehouse gebruikt een verschillende verwerkingsarchitectuur om het even welk aantal rijen en om het even welk aantal unieke waarden toe te staan.
 
 ## Belangrijkste analysemogelijkheden artikelen exporteren
 
