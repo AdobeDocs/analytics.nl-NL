@@ -5,7 +5,10 @@ title: Workflow van de opbouwfunctie voor classificatieregels
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 0%
 
 ---
 
@@ -36,10 +39,10 @@ Hier volgen de stappen op hoog niveau die u onderneemt om classificatieregels to
 | Stap 1 (Vereiste): [Stel het classificatieschema](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html)in. | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > &lt;Traffic Classifications or Conversion Classifications> | Kies een variabele en definieer de classificaties die u voor die variabele wilt gebruiken. <br>Variabelen moeten ten minste één indelingskolom hebben voordat ze in regels kunnen worden gebruikt.<br>Zodra classificaties worden toegelaten, kunt u de importeur en de regelbouwer gebruiken om specifieke waarden te classificeren. |
 | Stap 2: [Maak een regelset](/help/components/c-classifications2/crb/classification-rule-set.md). | [!UICONTROL Admin] >  [!UICONTROL Classification Rule Builder] > [!UICONTROL Add Rule Set] | Een regelset is een groep classificatieregels voor een specifieke variabele. |
 | Stap 3: Configureer rapportsuites en -variabelen. | [!UICONTROL Classification Rule Builder] > &lt;uw regelset> | Pas de regel toe die wordt ingesteld om reeksen en variabelen te rapporteren. |
-| Stap 4: Classificatieregels [toevoegen aan de set](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] > &lt;uw regelset> | Pas een voorwaarde aan een classificatie aan, en dan specificerend de actie voor de regel te nemen.  Ben vertrouwd met de informatie in [hoe de Regels worden verwerkt](/help/components/c-classifications2/crb/classification-quickstart-rules.md). |
-| Stap 5: Een classificatieregel [testen](/help/components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | U zult regels voor bevestiging willen testen door hen op de wijze van het Ontwerp uit te geven. In de conceptmodus kunnen regels niet worden uitgevoerd.<br>Deze stap is belangrijk bij het gebruik van [reguliere expressies](/help/components/c-classifications2/crb/classification-quickstart-rules.md). |
-| Stap 6: [Activeer geldige regels](/help/components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Zodra de regels geldig zijn, activeer de regelreeks.  Indien nodig kunt u bestaande toetsen overschrijven. Zie [Hoe regels worden verwerkt](/help/components/c-classifications2/crb/classification-quickstart-rules.md). |
-| Stap 7 (optioneel): Ongewenste regels [](/help/components/c-classifications2/crb/classification-rule-definitions.md)verwijderen. | [!DNL Rules Page] | Verwijder ongewenste regels uit een set.<br>Opmerking:  Als u regels verwijdert, worden geüploade gerubriceerde gegevens niet verwijderd.  Zie Classificatiegegevens [](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) verwijderen als u geclassificeerde gegevens moet verwijderen. |
+| Stap 4: [Classificatieregels toevoegen aan de set](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] > &lt;uw regelset> | Pas een voorwaarde aan een classificatie aan, en dan specificerend de actie voor de regel te nemen.  Ben vertrouwd met de informatie in [hoe de Regels worden verwerkt](/help/components/c-classifications2/crb/classification-quickstart-rules.md). |
+| Stap 5: [Een set classificatieregel testen](/help/components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | U zult regels voor bevestiging willen testen door hen op de wijze van het Ontwerp uit te geven. In de conceptmodus kunnen regels niet worden uitgevoerd.<br>Deze stap is belangrijk bij het gebruik van [reguliere expressies](/help/components/c-classifications2/crb/classification-quickstart-rules.md). |
+| Stap 6: [Voer geldige regels](/help/components/c-classifications2/crb/classification-rule-definitions.md)in. | [!DNL Rules Page] | Zodra de regels geldig zijn, activeer de regelreeks.  Indien nodig kunt u bestaande toetsen overschrijven. Zie [Hoe regels worden verwerkt](/help/components/c-classifications2/crb/classification-quickstart-rules.md). |
+| Stap 7 (optioneel): [Verwijder ongewenste regels](/help/components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Verwijder ongewenste regels uit een set.<br>Opmerking:  Als u regels verwijdert, worden geüploade gerubriceerde gegevens niet verwijderd.  Zie Classificatiegegevens [](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) verwijderen als u geclassificeerde gegevens moet verwijderen. |
 
 >[!NOTE]
 >
@@ -47,6 +50,6 @@ Hier volgen de stappen op hoog niveau die u onderneemt om classificatieregels to
 
 **Aanvullende bronnen**
 
-**Blog**: Zie het blog Digital Marketing voor meer informatie over deze functie: Op [regels gebaseerde classificaties](https://blogs.adobe.com/digitalmarketing/analytics/rule-based-classifications-part-1-making-classifications-easier/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+AdobeDigitalMarketing+%28Adobe+Digital+Marketing+Blog%29).
+**Blog**: Zie het blog Digital Marketing voor meer informatie over deze functie: [Op regels gebaseerde classificaties](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
 **Video**: Bezoek [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) om de [!UICONTROL Classifications Overview] video te bekijken.
