@@ -2,7 +2,10 @@
 title: 'Detailgegevens van marketingkanalen: eerste en laatste aanraking'
 description: Wijs succesmetriek en opbrengst aan diverse kanaaldetails toe ongeacht het algemene kanaal zij binnen zijn.
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 0%
 
 ---
 
@@ -32,4 +35,4 @@ Deze rapporten bieden inzicht in de specifieke campagnes of de trefwoorden zijn 
    * Alle standaard eCommerce-meetgegevens: Ontvangsten, bestellingen, eenheden, winkelwagentjes, winkelwagentjes, winkelwagentjes, winkelwagentjes, winkelwagentjes en winkelwagentjes.
    * Alle aangepaste gebeurtenissen: Gebeurtenissen 1-80 en Gebeurtenissen 81-100 indien met H22-code of hoger.
    * Bezoeken en bezoekers: beschikbaarheid is afhankelijk van organisatie en rapportsuite. Neem contact op met uw accountmanager voor meer informatie.
-   Zie [Metriek](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) in [!UICONTROL Marketing Channel] Help.
+   Zie [Metriek](/help/components/c-marketing-channels/c-rules.md) in [!UICONTROL Marketing Channel] Help.
