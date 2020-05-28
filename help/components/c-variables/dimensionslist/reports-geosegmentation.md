@@ -4,7 +4,10 @@ title: GeoSegmentation
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Hier worden gegevens over de locatie van de bezoeker weergegeven. GeoSegmentation-rapporten omvatten Landen, Regio&#39;s, Steden, Staten van de V.S., en DMA van de V.S. (digitaal marketing gebied). GeoSegmentation-rapporten worden voor alle klanten ingeschakeld.
 
-Alle metriek die elders aan u in Rapporten &amp; Analytics beschikbaar zijn zijn automatisch inbegrepen in de Landen, de Regio&#39;s, Steden, de Staten van de V.S., en DMA- rapporten: conversie- en op bezoeken gebaseerde meetgegevens en berekende meetwaarden. Zie dit [blogbericht](https://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/) van Adobe voor meer informatie.
+Alle metriek die elders aan u in Rapporten &amp; Analytics beschikbaar zijn zijn automatisch inbegrepen in de Landen, de Regio&#39;s, Steden, de Staten van de V.S., en DMA- rapporten: conversie- en op bezoeken gebaseerde meetgegevens en berekende meetwaarden. Zie dit [blogbericht](https://theblog.adobe.com/introducing-new-metrics-in-geosegmentation-and-more/) van Adobe voor meer informatie.
 
 <table id="table_566CFFC82E1149D8BAFE6641627FCF1F"> 
  <thead> 
