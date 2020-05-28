@@ -1,27 +1,27 @@
 ---
-title: Tech notes home
-translation-type: tm+mt
+title: Startpagina technische notities
+translation-type: ht
 source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 ---
 
 
-# Tech notes home
+# Startpagina technische notities
 
-Deze gids verstrekt nuttige informatie over onderwerpen die niet tot een specifiek analysehulpmiddel of een component behoren.
+Deze handleiding biedt nuttige informatie over onderwerpen die niet tot een specifieke analysetool of onderdeel behoren.
 
 ## Belangrijke artikelen over technische notities
 
 * [Overstappen van een extern analyseplatform naar Adobe Analytics](ga-to-aa/home.md)
-* [Regionale gegevensverzameling](/help/technotes/rdc/regional-data-collection.md)
+* [Regionale dataverzameling](/help/technotes/rdc/regional-data-collection.md)
 
-## Meer gebruikershandleidingen voor Analytics
+## Meer Analytics-gebruikershandleidingen
 
-[Gebruikershandleidingen voor Analytics](/help/landing/home.md)
+[Analytics-gebruikershandleidingen](/help/landing/home.md)
 
-## Andere bronnen voor analyse
+## Andere bronnen voor Analytics
 
-* [Contact opnemen met de klantenservice](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analysereforum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Contact opnemen met de klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html)
+* [Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
