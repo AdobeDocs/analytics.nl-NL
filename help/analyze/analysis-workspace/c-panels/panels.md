@@ -1,18 +1,20 @@
 ---
 description: 'null'
 title: Overzicht van deelvensters
-uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '482'
+ht-degree: 1%
 
 ---
 
 
 # Overzicht van deelvensters
 
-Een deelvenster is een verzameling tabellen en visualisaties. U hebt toegang tot deelvensters via het pictogram linksboven in Workspace. Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van tijdsperiodes, bedrijfseenheden, geografie, enzovoort. Deze vier soorten panelen zijn beschikbaar in de Werkruimte van de Analyse: Leeg deelvenster, kenmerk, deelvenster Vrije vorm en Segmentvergelijking.
+Een deelvenster is een verzameling tabellen en visualisaties. U hebt toegang tot deelvensters via het pictogram linksboven in Workspace. Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van tijdsperiodes, bedrijfseenheden, geografie, enzovoort. Deze zes soorten panelen zijn beschikbaar in de Werkruimte van de Analyse: [Leeg deelvenster](/help/analyze/analysis-workspace/c-panels/blank-panel.md), [deelvenster](/help/analyze/analysis-workspace/c-panels/quickinsight.md) Snelle inzichten (binnenkort beschikbaar), [Analytics voor het deelvenster](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) Doel (binnenkort beschikbaar), deelvenster [](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md)Kenmerken, deelvenster [](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)Vrije vorm en deelvenster [](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)Segmentvergelijking.
 
-Het deelvenster Lege deelvensters en het deelvenster Vrije vorm zijn plaatsen om uw analyse te starten, terwijl de kenmerken-IQ en de segmentvergelijking zichzelf lenen voor geavanceerdere analyses. Er is ook een knop van het plusteken (+) toegevoegd, zodat u op elk gewenst moment lege deelvensters kunt toevoegen.
+Met de deelvensters Snelle inzichten, Lege en Vrije vorm kunt u uw analyse starten, terwijl Analytics voor Target, Attribution IQ en Segment Comparison zich lenen voor geavanceerdere analyses. Er is ook een knop van het plusteken (+) toegevoegd, zodat u op elk gewenst moment lege deelvensters kunt toevoegen.
 
 Het standaardbeginvenster is het deelvenster Vrije vorm, maar u kunt ook het [lege deelvenster](/help/analyze/analysis-workspace/c-panels/blank-panel.md) instellen als standaard.
 
