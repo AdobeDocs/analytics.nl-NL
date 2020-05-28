@@ -3,7 +3,10 @@ description: 'Meer informatie over '
 title: Metrisch type en kenmerk
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 3%
 
 ---
 
@@ -11,10 +14,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 # Metrisch type en kenmerk
 
 Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het metrische type en het attributiemodel opgeven.
-
-* [Metrisch type](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
-* [Model kolomkenmerk](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
-* [Hoe Lineaire toewijzing werkt (vanaf 19 juli 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
 ## Metrisch type
 
