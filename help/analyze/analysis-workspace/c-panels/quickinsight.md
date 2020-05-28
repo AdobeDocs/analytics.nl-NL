@@ -1,16 +1,16 @@
 ---
-description: De snelle Bouwer van Inzichten is een hulpmiddel voor nieuwe gebruikers van de Werkruimte die hen in de bouw van gegevenslijsten en visualisaties begeleiden
-title: Quick Insights builder
+description: Snelle inzichten zijn een hulpmiddel voor nieuwe gebruikers van de Werkruimte die hen in de bouw van gegevenslijsten en visualisaties begeleiden
+title: Deelvenster Snelle inzichten
 translation-type: tm+mt
-source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
 
-# Quick Insights builder
+# Deelvenster Snelle inzichten
 
 >[!IMPORTANT]
 >
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!UICONTROL Quick Insights] biedt begeleiding voor niet-analisten en nieuwe gebruikers van [!UICONTROL Analysis Workspace] om te leren hoe u bedrijfsvragen snel en gemakkelijk kunt beantwoorden. Het is ook een geweldig hulpmiddel voor geavanceerde gebruikers die snel een eenvoudige vraag willen beantwoorden zonder zelf een tabel te hoeven maken.
 
-Wanneer u dit voor het eerst gaat gebruiken, vraagt u zich misschien af welke visualisaties het nuttigst zouden zijn, welke dimensies en metriek inzichten zouden kunnen vergemakkelijken, waar te om punten te slepen en te laten vallen, waar te om een segment tot stand te brengen, etc. [!UICONTROL Analysis Workspace]
+Wanneer u dit voor het eerst gaat gebruiken, vraagt u zich misschien af wat visualisaties het nuttigst zouden zijn, welke dimensies en metriek inzichten zouden kunnen vergemakkelijken, waar te om punten te slepen en te laten vallen, waar te om een segment tot stand te brengen, etc. [!UICONTROL Analysis Workspace]
 
 Om met dit te helpen, en gebaseerd op het gebruik van uw eigen bedrijf van gegevenscomponenten in [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] hefboomwerkingen een algoritme dat u met de populairste dimensies, metriek, segmenten, en datumwaaiers zal voorstellen uw bedrijf gebruikt.
 
@@ -97,7 +97,7 @@ Er verschijnen andere handige tips in de [!UICONTROL Quick Insights Builder]afbe
 
 ## Bekende beperkingen
 
-Als u probeert om direct binnen de lijst uit te geven, zal het paneel (het vulling-in-het-lege hulpmiddel) uit synchroon worden. [!UICONTROL Quick Insights] U kunt de vorige [!UICONTROL Quick Insights] **[!UICONTROL Resync Builder]** instellingen herstellen door rechtsboven in het deelvenster te klikken.
+Als u probeert rechtstreeks in de tabel te bewerken, is het [!UICONTROL Quick Insights] deelvenster niet meer synchroon. U kunt de vorige [!UICONTROL Quick Insights] **[!UICONTROL Resync Builder]** instellingen herstellen door rechtsboven in het deelvenster te klikken.
 
 ![](assets/qibuilder9.png)
 
