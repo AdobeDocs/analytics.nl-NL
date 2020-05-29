@@ -5,21 +5,26 @@ title: Volledige verwerking
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 4%
 
 ---
 
 
 # Volledige verwerking
 
+>[!NOTE] Adobe raadt klanten aan de API ( [Bulk Data Insertion) (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) te gebruiken in plaats van volledige gegevensbronnen voor verwerking. Volledige verwerkingsgegevensbronnen worden in de toekomst afgekeurd.
+
 Gegevensbronnen ondersteunen de volgende variabelen bij het verwerken van gegevens als een standaardserveraanroep (Algemeen > Volledige verwerking).
 
 Gegevens van gegevensbronnen van volledige verwerking worden verwerkt alsof deze op het opgegeven tijdstip zijn ontvangen door Adobe-servers (elke hit bevat een tijdstempel).
 
-* [Bezoekerprofiel](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
+* [Bezoekersprofiel](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
 * [Kolomverwijzing](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
-## Bezoekerprofiel {#section_6065627D0C144506965F562C80AE67F8}
+## Bezoekersprofiel {#section_6065627D0C144506965F562C80AE67F8}
 
 Gegevens van gegevensbronnen voor volledige verwerking worden verwerkt met afzonderlijke bezoekersprofielen. Zelfs als de bezoekersidentiteitskaart in geüploade gegevens overeenkomt met gegevens die zijn verzameld met JavaScript of een andere AppMeasurement-bibliotheek, worden de bezoekersprofielen niet verbonden vanuit een eVar-toewijzingsperspectief.
 
@@ -64,7 +69,7 @@ Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example
   <tr> 
    <td colname="col1"> <p>gebeurtenissen </p> </td> 
    <td colname="col2"> <p>gebeurtenissen </p> </td> 
-   <td colname="col3"> <p>De koord van gebeurtenissen, geformatteerd gebruikend de zelfde syntaxis zoals de <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variabele. </p> <p>Bijvoorbeeld: </p> 
+   <td colname="col3"> <p>De koord van gebeurtenissen, geformatteerd gebruikend de zelfde syntaxis zoals de <a href="https://docs.adobe.com/content/help/nl-NL/analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variabele. </p> <p>Bijvoorbeeld: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
