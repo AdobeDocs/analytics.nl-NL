@@ -1,0 +1,96 @@
+---
+description: Functies voor toegankelijkheidsondersteuning in de analysewerkruimte
+title: Toegankelijkheid in werkruimte Analyse
+translation-type: tm+mt
+source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 0%
+
+---
+
+
+# Toegankelijkheid in werkruimte Analyse
+
+Meer informatie over toegankelijkheidsondersteuning vindt u in [!UICONTROL Analysis Workspace]het belangrijkste hulpprogramma voor analyse van Adobe Analytics.
+
+Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mensen met een visuele, auditieve, motorische of andere handicap. Voorbeelden van toegankelijkheidsfuncties voor softwareproducten zijn ondersteuning voor schermlezers, tekstequivalenten voor afbeeldingen, sneltoetsen, wijziging van weergavekleuren in hoog contrast, enzovoort.
+
+[!UICONTROL Analysis Workspace] biedt enkele gereedschappen die het toegankelijk maken voor gebruik en gereedschappen die u helpen toegankelijke inhoud te maken.
+
+## Navigeren [!UICONTROL Workspace] met het toetsenbord
+
+Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rechts. De volgende navigatie-elementen vergemakkelijken de toegankelijkheid:
+
+* Met de `F6` toets worden sneltoetsen voor landmarkeringen ingeschakeld
+* De `Tab` toetsbewegingen tussen de afzonderlijke elementen.
+* We passen focusindicatoren toe zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand rondom het geselecteerde element.
+
+   ![](assets/focus-indicator.png)
+
+### Toetsenbordnavigatie voor interactie Slepen en neerzetten
+
+[!UICONTROL Analysis Workspace] is een gebruikersinterface voor slepen en neerzetten. Gebruikers kunnen echter wel componenten toevoegen met het toetsenbord:
+
+1. Tab naar een component in de linkerspoorstaaf.
+1. Druk `Enter` om te selecteren.
+1. Met een pijltoets navigeert u naar het gebied waar u de component wilt neerzetten.
+1. Druk op `Enter` om de component te plaatsen.
+
+### Sneltoetsen (sneltoetsen)
+
+[!UICONTROL Analysis Workspace] biedt een uitgebreide set [sneltoetsen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) voor een naadloze workflow. Hieronder worden enkele algemene sneltoetsen voor navigatie, het maken van analyses en democratisering van inzichten weergegeven.
+
+#### Navigatie
+
+| Sneltoets | Handeling |
+|---|---|
+| Alt + Shift + 1 / 2 / 3 | Naar verschillende rails springen: [!UICONTROL Panels], [!UICONTROL Visualizations]of [!UICONTROL Components] |
+| Alt + Pijl-links/Pijl-rechts | Navigeren tussen deelvensters |
+| Alt + M | Alle deelvensters samenvouwen/uitvouwen |
+| Alt+ Ctrl + M | Actief deelvenster samenvouwen/uitvouwen |
+| Ctrl + / | Naar linkerspoor zoeken |
+
+#### Analyse maken
+
+| Sneltoets | Handeling |
+|---|---|
+| Alt + 1 | Nieuwe vrije-vormlijst |
+| Ctrl + Shift + C | Nieuwe berekende metrisch |
+| Ctrl + Shift + D | Nieuw datumbereik |
+| Ctrl + Shift + E | Nieuw segment |
+| Ctrl + Z | Ongedaan maken |
+| Houd Shift ingedrukt (in de dropzone van het deelvenstersegment) | Maak een [vervolgkeuzemenu](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html). |
+
+#### democratisering
+
+| Sneltoets | Handeling |
+|---|---|
+| Ctrl + S | Opslaan |
+| Ctrl + Shift + G | Curate |
+| Ctrl + G | Delen |
+| Alt + Shift + S | Schema |
+| Alt + L | Koppeling naar project ophalen |
+| Ctrl + Shift + B | PDF downloaden |
+
+## Ondersteuning voor schermlezers en schermvergrotingen
+
+Een schermlezer leest tekst voor die op het computerscherm wordt weergegeven. De pagina leest ook niet-tekstuele informatie, zoals knoplabels of beschrijvingen van afbeeldingen in de toepassing, die in toegankelijkheidstags of -kenmerken wordt aangeboden.
+
+## Kleurenpaletten en contrast
+
+[!UICONTROL Analysis Workspace] streeft naar compatibiliteit met WCAG AA-kleurcontrast.
+
+Bovendien kunnen gebruikers hun eigen voorkeurskleurenpalet voor een project instellen onder **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Kleurenpalet](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)Project.
+
+## Vereiste veldvalidatie in componentbuilders
+
+Wanneer u een component maakt, worden de vereiste velden gevalideerd tijdens het opslaan. Als een vereist veld de validatie niet doorgeeft, wordt het veld rood weergegeven met een foutpictogram. Er verschijnt een schriftelijke beschrijving van het probleem dat moet worden opgelost.
+
+Wanneer een component volledig is gevalideerd, wordt de builder `Save` gesloten wanneer u op de component drukt.
+
+![](assets/error-validation.png)
+
+## Ondersteuning voor toegankelijkheidsfuncties van besturingssystemen
+
+De Werkruimte van de analyse steunt de ingebouwde eigenschappen van de Toegankelijkheid van MS Windows en macOS zoals hoog-contrastwijze en schermlezers (Narrator voor MS Windows, en VoiceOver voor macOS).
