@@ -1,18 +1,20 @@
 ---
-title: Algorithmic, toewijzing
+title: Algoritmische attributie
 description: Details over het algoritmische attributiemodel in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+source-git-commit: 5c5e442face936ccf1ff2a3d1580e362d42e0acb
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 0%
+source-wordcount: '275'
+ht-degree: 2%
 
 ---
 
 
-# Algorithmic, toewijzing
+# Algoritmische attributie
 
->[!NOTE] Algorithmic attribute is momenteel in limited testing.
+>[!IMPORTANT]
+>
+>**[!UICONTROL Algorithmic attribution]** wordt momenteel beperkt getest. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 Het Algorithmic [attribution model](attribution.md) in Analysis Workspace verschilt van andere modellen in die zin dat het gebruik maakt van statistische technieken om krediet toe te wijzen over de waarden van de dimensies in uw rapport of vrije-vormtabel. Zoals alle andere attributiemodellen in de Werkruimte van de Analyse, kan het op om het even welke afmeting of metrisch worden gebruikt en steunt onbeperkte segmentatie en onderverdelingen en verdeelt 100% van omzettingen aan de afmeting(en) in de lijst (ook genoemd geworden &quot;fractionele&quot;attributie).
 
