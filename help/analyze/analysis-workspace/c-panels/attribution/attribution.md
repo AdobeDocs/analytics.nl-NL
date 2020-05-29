@@ -1,21 +1,21 @@
 ---
 description: 'null'
-title: Overzicht van het deelvenster Kenmerken
+title: Overzicht van attributie
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+source-git-commit: d880ad666eb42940147a453d8c3f04cdf9c629df
 workflow-type: tm+mt
-source-wordcount: '1805'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
 
 
-# Overzicht van het deelvenster Kenmerken
+# Overzicht van attributie
 
->[!IMPORTANT] Het deelvenster Kenmerken is beschikbaar voor alle klanten van de Adobe Analytics Ultimate-, Premier-, Select- en Foundation-SKU&#39;s.
+>[!IMPORTANT] De attributie is beschikbaar voor alle klanten op de van de Analyse van Adobe Ultimate, Première, Uitgezochte, en Stichting SKUs.
 
-Het attributiepaneel is een [Attribution IQ](../../attribution-iq.md) -functie waarmee u veel nieuwe typen attributiemodellen kunt toevoegen aan vrije-vormtabellen, visualisaties en berekende metriek. Alle attributiemodellen hebben twee componenten:
+[Attributie-IQ](../../attribution-iq.md) is een reeks functies waarmee u veel nieuwe typen attributiemodellen kunt toevoegen aan vrije tabellen, visualisaties en berekende metriek. Alle attributiemodellen hebben twee componenten:
 
 * **Attributiemodel:** Het model beschrijft de distributie van omzettingen in de klappen in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking.
 * **Het terugkijkvenster van de attributen:** In het terugzoekvenster wordt beschreven welke groepen hits worden beschouwd voor elk model. Bijvoorbeeld bezoek of bezoeker.
@@ -44,7 +44,7 @@ Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken o
 
 * **Het terugkijkvenster van de bezoeker:** Kijkt naar alle bezoeken terug tot de eerste van de maand van de huidige datumwaaier. De terugkijkvensters van de bezoeker zijn breed, aangezien zij vele bezoeken kunnen overspannen. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de terugzoekdatum van de bezoeker 1 september tot en met 30 september.
 
-* **Aangepast terugzoekvenster:** (Opmerking: Het venster Aangepast terugzoeken wordt momenteel beperkt getest.) Hiermee kunt u het toewijzingvenster uitvouwen tot maximaal 90 dagen na het bereik van de rapportdatum. Aangepaste terugzoekvensters worden geëvalueerd bij elke conversie in de rapportageperiode. Voor een conversie die bijvoorbeeld op 20 februari plaatsvindt, zou een terugkijkvenster van 10 dagen alle afmetingsaanraakpunten van 10 tot 20 februari in het attributiemodel evalueren.
+* **Aangepast terugzoekvenster:** (Opmerking: Het venster Aangepast terugzoeken wordt momenteel beperkt getest.[Meer](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)weten?) Hiermee kunt u het toewijzingsvenster langer maken dan het bereik van de rapportdatum tot maximaal 90 dagen. Aangepaste terugzoekvensters worden geëvalueerd bij elke conversie in de rapportageperiode. Voor een conversie die bijvoorbeeld op 20 februari plaatsvindt, zou een terugkijkvenster van 10 dagen alle afmetingsaanraakpunten van 10 tot 20 februari in het attributiemodel evalueren.
 
 ## Voorbeeld
 
