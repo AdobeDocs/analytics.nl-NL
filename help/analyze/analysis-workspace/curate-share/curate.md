@@ -1,16 +1,19 @@
 ---
 description: Met Curatie kunt u de componenten beperken voordat u een project deelt. U kunt een project en zijn componenten met marketers en andere niet-analisten in uw zaken delen. Annoteer en pas markeringen op projecten toe.
 keywords: Analysis Workspace
-title: Overzicht van Kromming/delen
+title: Overzicht van selectie/delen
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 1e7d36e48f6ee3b9066e3933d831dd4d28f670c6
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 2%
 
 ---
 
 
-# Overzicht van Kromming/delen
+# Overzicht van selectie/delen
 
 Met Curatie kunt u de componenten beperken voordat u een project deelt. U kunt een project en zijn componenten met marketers en andere niet-analisten in uw zaken delen. Annoteer en pas markeringen op projecten toe.
 
@@ -61,19 +64,3 @@ Door delen is dit project beschikbaar voor andere gebruikers van de analysewerkr
    >Deze instelling blijft niet bestaan. Het is een enkelvoudige actie op het moment van delen.
 
 1. Klik op **[!UICONTROL Share]**.
-
-<!-- 
-
-<p> <b>Annotate and tag a project</b> </p> 
-<p>An alternative way to collaborate on a project is to use the Information panel. This panel will be re-introduced in an upcoming release. </p> 
-<p> </p> 
-<ul id="ul_EFD045FD9F3B4BF8A70637B00EE0BC9C"> 
- <li id="li_EC6C5EAF9C234E76BDA7FF0226B82083">Tag reports for sharing. </li> 
- <li id="li_CF6A438C55F847F8890F8CB674CAA4F7">Specify the recipient (filter by permission group or user name), the storage folder. In-product notifications let users know that they have a shared report waiting. </li> 
- <li id="li_C8E088DA43024277908705CB0F3A142A">Write messages or report descriptions for recipients. </li> 
- <li id="li_342EB4758C344B859757E23691068FA3"> Select the dimensions, metrics, and segments to recommend to a non-analyst colleague, who can view the report you are curating and sharing. Curating the component gives the recipient access to those components, based on their permission settings. </li> 
- <li id="li_6487500F9315481599B7F3897998879F"> Add suggested items to a previously configured report. These new items exist as recommended selectable options. </li> 
-</ul>
-
- -->
-
