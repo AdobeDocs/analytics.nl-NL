@@ -2,9 +2,9 @@
 description: Functies voor toegankelijkheidsondersteuning in de analysewerkruimte
 title: Toegankelijkheid in werkruimte Analyse
 translation-type: tm+mt
-source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
+source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Meer informatie over toegankelijkheidsondersteuning vindt u in [!UICONTROL Analy
 
 Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mensen met een visuele, auditieve, motorische of andere handicap. Voorbeelden van toegankelijkheidsfuncties voor softwareproducten zijn ondersteuning voor schermlezers, tekstequivalenten voor afbeeldingen, sneltoetsen, wijziging van weergavekleuren in hoog contrast, enzovoort.
 
-[!UICONTROL Analysis Workspace] biedt enkele gereedschappen die het toegankelijk maken voor gebruik en gereedschappen die u helpen toegankelijke inhoud te maken.
+[!UICONTROL Analysis Workspace] bevat enkele gereedschappen die het programma toegankelijk maken voor gebruik, zoals:
 
 ## Navigeren [!UICONTROL Workspace] met het toetsenbord
 
@@ -34,7 +34,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rec
 
 1. Tab naar een component in de linkerspoorstaaf.
 1. Druk `Enter` om te selecteren.
-1. Met een pijltoets navigeert u naar het gebied waar u de component wilt neerzetten.
+1. Met de pijltoetsen navigeert u naar het gebied waar u de component wilt neerzetten.
 1. Druk op `Enter` om de component te plaatsen.
 
 ### Sneltoetsen (sneltoetsen)
@@ -60,7 +60,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rec
 | Ctrl + Shift + D | Nieuw datumbereik |
 | Ctrl + Shift + E | Nieuw segment |
 | Ctrl + Z | Ongedaan maken |
-| Houd Shift ingedrukt (in de dropzone van het deelvenstersegment) | Maak een [vervolgkeuzemenu](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html). |
+| Houd Shift ingedrukt (in de dropzone van het deelvenstersegment) | Een [vervolgkeuzefilter maken](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### democratisering
 
