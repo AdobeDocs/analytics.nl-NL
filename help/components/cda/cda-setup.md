@@ -2,14 +2,15 @@
 title: Apparaatanalyse instellen
 description: Leer hoe u Cross-Device Analytics instelt als u aan de voorwaarden voldoet.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '822'
+ht-degree: 0%
 
 ---
 
 
 # Apparaatanalyse instellen
-
->[!NOTE] De documentatie van de Analyse van verschillende apparaten kan worden gewijzigd aangezien de eigenschap verder wordt ontwikkeld. Controleer regelmatig of er updates zijn.
 
 Als aan alle voorwaarden is voldaan, voert u de volgende stappen uit om Apparaatanalyse op andere apparaten in te schakelen. U dient deel uit te maken van een groep met productprofielbeheer of over beheerdersrechten in Adobe Analytics te beschikken om deze stappen te kunnen uitvoeren.
 
