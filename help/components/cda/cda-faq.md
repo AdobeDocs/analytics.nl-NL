@@ -2,14 +2,15 @@
 title: Veelgestelde vragen over cross-device analyse
 description: Veelgestelde vragen over apparaatanalyse
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '1185'
+ht-degree: 0%
 
 ---
 
 
 # Veelgestelde vragen
-
->[!NOTE] De documentatie van de Analyse van verschillende apparaten kan worden gewijzigd aangezien de eigenschap verder wordt ontwikkeld. Controleer regelmatig of er updates zijn.
 
 **Hoe kan ik CDA gebruiken om te zien hoe mensen zich van één apparatentype aan een ander bewegen?**
 
