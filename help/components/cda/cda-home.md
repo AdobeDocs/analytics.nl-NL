@@ -2,17 +2,15 @@
 title: Apparaatanalyse
 description: Analytics voor verschillende apparaten wijzigt uw gegevens van apparaatfocus naar persoonlijke focus door apparaatgegevens aan elkaar te hechten.
 translation-type: tm+mt
-source-git-commit: 40d4dae0c54b8a71325846ae7f1c02947f9d36ea
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
 
 
 # Apparaatanalyse
-
->[!NOTE] De documentatie van de Analyse van verschillende apparaten kan worden gewijzigd aangezien de eigenschap verder wordt ontwikkeld. Controleer regelmatig of er updates zijn.
 
 Apparaatanalyse is een functie waarmee analyses worden getransformeerd van een apparaatgecentreerde weergave naar een persoonlijke weergave. Deze functie gebruikt de Adobe Experience Platform Identity Service Co-op Graph of Private Graph om te bepalen welke apparaten bij personen horen en ze aan elkaar te koppelen. Dit heeft tot gevolg dat analisten begrip hebben voor het gedrag van gebruikers in browsers, apparaten of apps. U kunt CDA gebruiken om vragen zoals:
 
@@ -28,7 +26,7 @@ Zie [Reis IQ: De pagina](http://adobe.ly/aacda) van de Vonk van de Analyse van d
 
 ## Vereisten
 
-Vanaf september 2019 vereist Cross-Device Analytics het volgende. Werk met teams binnen uw organisatie en uw accountmanager van Adobe om ervoor te zorgen dat u aan alle volgende voorwaarden voldoet.
+Voor Apparaatanalyse is het volgende vereist. Werk met teams binnen uw organisatie en uw accountmanager van Adobe om ervoor te zorgen dat u aan alle volgende voorwaarden voldoet.
 
 >[!IMPORTANT] Als niet aan alle voorwaarden wordt voldaan, kan het zijn dat u Cross-Device Analytics of slechte resultaten niet kunt inschakelen bij het koppelen van gegevens.
 
@@ -52,10 +50,9 @@ Cross-Device Analytics is een baanbrekende en robuuste functie, maar heeft beper
 * Het plaatsen kan niet over rapportreeksen voorkomen zoals die in de eerste vereisten hierboven worden beschreven.
 * Rapportreeksen van Adobe Analytics kunnen niet aan meer dan één IMS org worden toegewezen. Aangezien CDA apparaten vastlegt binnen een bepaalde rapportsuite, kan CDA niet worden gebruikt om gegevens te koppelen aan meerdere IMS-organen.
 * CDA is momenteel niet compatibel met Customer Attributes. De Attributen van de klant kunnen niet worden gebruikt om een virtueel CDA- rapportreeks, binnen dwars-apparatensegmenten, of voor rapportering binnen een het werkruimteproject van de Analyse tot stand te brengen dat op een CDA virtueel rapportreeks gebaseerd is.
-   > [!TIP] Hoewel de Attributen van de Klant niet in CDA kunnen worden gebruikt, baseren beide eigenschappen zich op de `setCustomerIDs` functie. Deze twee eigenschappen kunnen in afzonderlijke (virtuele) rapportreeksen samenvallen.
+   > [!TIP] Hoewel de Attributen van de Klant niet in CDA kunnen worden gebruikt, baseren beide eigenschappen zich op de `setCustomerIDs` functie. Deze twee eigenschappen kunnen in afzonderlijke virtuele rapportreeksen samenvallen.
 * CDA vereist of de Grafiek Co-op of PrivéGrafiek. Apparaatgrafieken van derden worden niet ondersteund.
 * Verouderde analyse-id&#39;s worden niet ondersteund. Alleen bezoekers met de ID&#39;s van Experience Cloud worden vastgezet.
-* De klantenservice biedt nog geen volledige ondersteuning voor deze functie. Het [Cross-Device Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) kan worden gebruikt voor ondersteuning voor deze functie, die actieve en directe betrokkenheid van Adobe Product Managers omvat.
 * Analytics voor verschillende apparaten maakt gebruik van een virtuele rapportsuite en de verwerking van de rapporttijd, die hun eigen beperkingen hebben. Zie [Virtuele rapportsuites](../vrs/vrs-about.md) en de tijdverwerking [van het](../vrs/vrs-report-time-processing.md) Rapport voor meer informatie over deze beperkingen.
 * De 1.4-API wordt niet ondersteund. Power BI-connectors en Report Builder vertrouwen beide op de 1.4-API en zijn daarom niet compatibel met CDA.
 * Als uw organisatie de Privé Grafiek gebruikt, nemen de nieuwe apparaten tot 24 uren om worden vastgemaakt.
