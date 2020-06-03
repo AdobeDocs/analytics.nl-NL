@@ -2,9 +2,9 @@
 description: Functies voor toegankelijkheidsondersteuning in de analysewerkruimte
 title: Toegankelijkheid in werkruimte Analyse
 translation-type: tm+mt
-source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
+source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rec
 * De `Tab` toetsbewegingen tussen de afzonderlijke elementen.
 * We passen focusindicatoren toe zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand rondom het geselecteerde element.
 
-   ![](assets/focus-indicator.png)
+   ![Focusindicator](assets/focus-indicator.png)
 
 ### Toetsenbordnavigatie voor interactie Slepen en neerzetten
 
@@ -75,11 +75,11 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rec
 
 ## Ondersteuning voor schermlezers en schermvergrotingen
 
-Een schermlezer leest tekst voor die op het computerscherm wordt weergegeven. De pagina leest ook niet-tekstuele informatie, zoals knoplabels of beschrijvingen van afbeeldingen in de toepassing, die in toegankelijkheidstags of -kenmerken wordt aangeboden.
+Een schermlezer leest tekst die op het computerscherm wordt weergegeven. De pagina leest ook niet-tekstuele informatie, zoals knoplabels of beschrijvingen van afbeeldingen in de toepassing, die in toegankelijkheidstags of -kenmerken wordt aangeboden.
 
 ## Kleurenpaletten en contrast
 
-[!UICONTROL Analysis Workspace] streeft naar compatibiliteit met WCAG AA-kleurcontrast.
+[!UICONTROL Analysis Workspace] streeft naar WCAG 2.1 AA-conformiteit, inclusief vereisten voor kleurcontrast.
 
 Bovendien kunnen gebruikers hun eigen voorkeurskleurenpalet voor een project instellen onder **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Kleurenpalet](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)Project.
 
@@ -89,8 +89,8 @@ Wanneer u een component maakt, worden de vereiste velden gevalideerd tijdens het
 
 Wanneer een component volledig is gevalideerd, wordt de builder `Save` gesloten wanneer u op de component drukt.
 
-![](assets/error-validation.png)
+![Foutvalidatie](assets/error-validation.png)
 
 ## Ondersteuning voor toegankelijkheidsfuncties van besturingssystemen
 
-De Werkruimte van de analyse steunt de ingebouwde eigenschappen van de Toegankelijkheid van MS Windows en macOS zoals hoog-contrastwijze en schermlezers (Narrator voor MS Windows, en VoiceOver voor macOS).
+De Analyse-werkruimte biedt ondersteuning voor ingebouwde toegankelijkheidsfuncties van MS Windows en macOS, zoals de modus met hoog contrast, sticky keys en trage toetsen/filtertoetsen. Het verstrekt ook informatie over het gebruikersinterface aan het werkende systeem om interactie met ondersteunende technologieën, met inbegrip van het schermlezers zoals VoiceOver voor macOS en NVDA op Vensters toe te laten.
