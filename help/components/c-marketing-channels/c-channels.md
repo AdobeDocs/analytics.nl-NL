@@ -5,7 +5,10 @@ title: Verkoopkanalen beheren
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 45c441a558168cb2af70855e848e1eaa26db8daa
+workflow-type: tm+mt
+source-wordcount: '756'
+ht-degree: 3%
 
 ---
 
@@ -14,12 +17,28 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Voeg of laat marketing kanalen in de Manager van het Kanaal van de Marketing toe. Voor rapportsuites die geen marketing kanalen hebben, laat een automatische opstelling u verscheidene kanalen voor u, samen met hun regels tot stand brengen. U kunt vooraf gedefinieerde kanalen naar wens bewerken of uw eigen kanalen maken (maximaal 25).
 
+Het toevoegen van kanalen aan de [!UICONTROL Marketing Channels] pagina wordt gedaan onafhankelijk van het creëren van regels op de pagina van de Regels [van de Verwerking van het Kanaal van de](/help/components/c-marketing-channels/c-rules.md) Marketing. U associeert regels met kanalen wanneer het creëren van de regel.
+
 Hier volgen enkele richtlijnen voor het maken van kanalen:
 
 * Maak eerst een lijst met al uw kanalen, zodat alle bezoekershits naar het rechterkanaal worden gecategoriseerd.
-* Neem altijd kanalen op voor de categorieën [interne](/help/components/c-marketing-channels/c-faq.md) treffers en [directe](/help/components/c-marketing-channels/c-faq.md) treffers.
+* Neem kanalen op voor de categorieën [interne](/help/components/c-marketing-channels/c-rules.md) treffers en [directe](/help/components/c-marketing-channels/c-rules.md) treffers.
+* Neem een &#39;catch-all&#39;-kanaal op voor &#39;Overige campagnes&#39;, dat na betaalde kanalen en vóór biologische kanalen moet worden geplaatst.
 
-Het toevoegen van kanalen aan de [!UICONTROL Marketing Channels] pagina wordt gedaan onafhankelijk van het creëren van regels op de pagina van de Regels [van de Verwerking van het Kanaal van de](/help/components/c-marketing-channels/c-rules.md) Marketing. U associeert regels met kanalen wanneer het creëren van de regel.
+
+## Vereisten {#prereqs}
+
+Indien nodig neemt u contact op met de klantenservice om u te helpen met deze voorwaarden:
+
+* Schakel in de beheerconsole (Algemene accountinstellingen) de optie **[!UICONTROL Conversion Level]** (e-commerce) voor de rapportsuite in.
+
+   Zie [Algemene accountinstellingen](https://docs.adobe.com/content/help/nl-NL/analytics/admin/admin-tools/general-acct-settings-admin.html) in de Help bij Analytics voor meer informatie.
+
+* De toegang van de opstelling tot de afmetingen van het Kanaal van de Marketing.
+
+   Zie Machtigingen voor [marketingkanalen](/help/components/c-marketing-channels/c-channel-report-access.md).
+
+* Zorg ervoor dat uw accountmanager uw rapportsuite heeft ingeschakeld **[!UICONTROL Channel Reports]** .
 
 ## Marketingkanalen toevoegen {#add-mktg-channels}
 
@@ -47,9 +66,9 @@ Voeg marketingkanalen toe in de Marketing Channel Manager.
 
    Zie [Verwerkingsregels](/help/components/c-marketing-channels/c-rules.md)voor marketingkanalen maken.
 
-## Marketing Channel Manager - interfacedefinities {#mktg-channel-mgr}
+## Kanaalinstellingen toepassen {#mktg-channel-mgr}
 
-Velddefinities voor de [!UICONTROL Marketing Channel Manager] pagina.
+Er zijn verschillende instellingen die op elk kanaal op de [!UICONTROL Marketing Channel Manager] pagina kunnen worden toegepast.
 
 | Veld | Definitie |
 |--- |--- |
@@ -58,43 +77,23 @@ Velddefinities voor de [!UICONTROL Marketing Channel Manager] pagina.
 | Laatste aanraakkanaal overschrijven | Hiermee kunt u kiezen of u een bestaand, blijvend laatste aanraakkanaal wilt overschrijven met het geselecteerde kanaal. Als u dit selectievakje inschakelt, overschrijft elk kanaal (inclusief Direct en Intern) een bestaand laatste aanraakkanaal. Het resultaat is dat conversie wordt toegeschreven aan een kanaal dat geen krediet verdient. Met deze optie kunt u er bijvoorbeeld voor zorgen dat het Direct-kanaal geen conversiekrediet ontvangt als de gebruiker eerder via het Natural Search-kanaal was aangeschaft. |
 | Kanaaluitsplitsing | Hiermee kunt u een kanaal opsplitsen op basis van deze waarde. U kunt mogelijke kanaalstoringen (subkanalen) toevoegen bij het maken van [marketingkanaalclassificaties](/help/components/c-marketing-channels/classifictions-mchannel.md). |
 | Type | Hiermee bepaalt u hoe de gebruiker naar uw site is gekomen. U kunt Online of Offline selecteren. Gebruik online kanalen voor bezoekers die via een zoekmachine of e-mailcampagne komen. Offlinekanalen zijn van toepassing op bezoekers die uw site hebben gevonden via krantencoupons of advertenties in tijdschriften. De off-line kanalen omvatten gewoonlijk gegevens die door het melden van Gegevensbronnen worden ingevoerd. Zie [Gegevensbronnen](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html). Zie Offlinegegevens [toevoegen](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| Kleur | De kleur die aan dit marketingkanaal is gekoppeld. Deze kleur vertegenwoordigt het kanaal in het rapport van het Kanaal van de Marketing. |
+| Kleur | Alleen rapporten en analyses: De kleur die aan dit marketingkanaal is gekoppeld. Deze kleur vertegenwoordigt het kanaal in het rapport van het Kanaal van de Marketing. |
 
-## Kanalen definiëren
+### Beste werkwijzen overschrijven
 
-Alvorens de kanalen en de kanaalgegevens in het rapport kunnen worden getoond, creeer de kanalen en de onderliggende regels die gegevens verwerken. U kunt ook kosten en budgetbedragen maken voor de bijbehorende kanalen en opgeven hoe lang de periode van de betrokkenheid van de bezoeker moet duren. U voert de taken van de rapportconfiguratie in Hulpmiddelen Admin uit.
+U kunt het beste de optie last-touch negeren uitschakelen voor Direct en Intern kanaal, zodat ze geen krediet kunnen opnemen van andere hardnekkige laatste aanraakkanalen (of van elkaar).
 
-Beschouw een kanaal als een container voor bezoeken. De regels wijzen bezoeken aan de juiste container toe.
+![](assets/int-channel2.png)
 
-![](assets/buckets_2.png)
+## Kanaalregels definiëren
 
-Adobe biedt verschillende vooraf gedefinieerde kanalen tijdens een [automatische installatie](/help/components/c-marketing-channels/c-getting-started-mchannel.md) die u naar wens kunt bewerken.
+Alvorens de kanalen en de kanaalgegevens in het rapport kunnen worden getoond, creeer de kanalen en de onderliggende regels die gegevens verwerken. U kunt ook opgeven hoe lang de periode [van de](/help/components/c-marketing-channels/visitor-engagement.md) betrokkenheid van de bezoeker moet duren.
+
+Adobe biedt verschillende vooraf gedefinieerde kanalen tijdens een [automatische installatie](/help/components/c-marketing-channels/c-getting-started-mchannel.md) die u naar wens kunt bewerken. Bovendien, kunt u deze opstelling wijzigen en douaneregels binnen de de verwerkingsregels [van het Kanaal van de](/help/components/c-marketing-channels/c-rules.md)Marketing bepalen.
 
 >[!NOTE]
 >
 >Adobe raadt u aan uw rapport in te stellen in een rapportsuite die u als sjabloon voor testdoeleinden kunt gebruiken. U kunt het malplaatje gebruiken om kanaal en regelreeksen globaal op één of meerdere reeksen van het productierapport toe te passen.
 >
 >Zie [Suite-instellingen voor sjabloonrapport toepassen op meerdere rapportsets](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-
-### Vereisten {#prereqs}
-
-Indien nodig neemt u contact op met de klantenservice om u te helpen met deze voorwaarden:
-
-* Schakel in de beheerconsole (Algemene accountinstellingen) de optie **[!UICONTROL Conversion Level]** (e-commerce) voor de rapportsuite in.
-
-   Zie [Algemene accountinstellingen](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) in de Help bij Analytics voor meer informatie.
-
-* De toegang van de opstelling tot de afmetingen van het Kanaal van de Marketing.
-
-   Zie Machtigingen voor [marketingkanalen](/help/components/c-marketing-channels/c-channel-report-access.md).
-
-* Zorg ervoor dat uw accountmanager uw rapportsuite heeft ingeschakeld **[!UICONTROL Channel Reports]** .
-
-### Belangrijke opmerkingen bij de verwerking {#important-proc-rules}
-
-* Het systeem verwerkt de regels in de orde u specificeert, en wanneer een regel wordt voldaan, houdt het systeem op verwerkend de resterende regels.
-* De regels kunnen tot variabelen toegang hebben die VISTA heeft geplaatst, maar kunnen tot geen gegevens toegang hebben die VISTA heeft geschrapt.
-* In kanalen worden alleen omzettingscijfers opgeslagen. De metriek van het verkeer zijn niet beschikbaar.
-* Twee marketingkanalen krijgen nooit krediet voor dezelfde gebeurtenis (zoals aankopen of klikken). Op deze manier verschillen de afzetkanalen van eVars (waar twee eVars kredieten voor dezelfde gebeurtenis kunnen ontvangen).
-* Het rapport kan tot 25 kanalen tegelijkertijd verwerken.
 
