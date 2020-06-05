@@ -2,19 +2,19 @@
 description: Met Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen analyseren in de analysewerkruimte.
 title: Analyses voor venster Doel (A4T)
 translation-type: tm+mt
-source-git-commit: 516557c04acbc7300925ed3d13ac3c087f3ed3de
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '608'
 ht-degree: 2%
 
 ---
 
 
-# Analyses voor doelvenster (A4T)
+# Analyses voor venster Doel (A4T)
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Analytics for Target panel]** wordt momenteel beperkt getest. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL Analytics for Target (A4T)]** momenteel wordt slechts beperkt getest. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 Met het deelvenster Analyse voor doel (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen analyseren in de analysewerkruimte. Het stelt u ook in staat om optillen en vertrouwen te zien voor maximaal drie succesmetingen. Navigeer naar een rapportsuite met A4T-componenten om het deelvenster A4T te openen. Klik vervolgens op het deelvensterpictogram helemaal links en sleep de Analyse voor het deelvenster Doel naar het project Analyse-werkruimte.
 
