@@ -2,23 +2,26 @@
 title: Verwerkingsregels voor distributiekanalen
 description: De de verwerkingsregels van het Kanaal van de marketing bepalen als een bezoeker voldoet aan de criteria die aan een kanaal worden toegewezen. De regels verwerken elke hit die een bezoeker op uw site aanbrengt. Wanneer een regel niet aan de criteria voor een kanaal voldoet, of als de regels niet correct worden gevormd, wijst het systeem de slag aan Geen Geïdentificeerd Kanaal toe.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+workflow-type: tm+mt
+source-wordcount: '2004'
+ht-degree: 0%
 
 ---
 
 
 # Verwerkingsregels voor distributiekanalen
 
-De de verwerkingsregels van het Kanaal van de marketing bepalen als een bezoeker voldoet aan de criteria die aan een kanaal worden toegewezen. De regels verwerken elke hit die een bezoeker op uw site aanbrengt. Wanneer een regel niet aan de criteria voor een kanaal voldoet, of als de regels niet correct worden gevormd, wijst het systeem de slag aan Geen Geïdentificeerd Kanaal toe.
+Regels voor de verwerking van marketingkanalen bepalen of een bezoeker voldoet aan de criteria die aan een kanaal zijn toegewezen door elke hit die een bezoeker op uw site maakt, te verwerken. De regels worden verwerkt in de volgorde die u opgeeft en wanneer aan een regel wordt voldaan, stopt het systeem met het verwerken van de resterende regels.
 
-Hier volgen belangrijke richtlijnen voor het maken van regels:
+![](assets/buckets_2.png)
 
-* Sorteer de regels in de volgorde waarin u ze wilt verwerken.
-* Neem aan het einde van de lijst een algemene regel op, bijvoorbeeld Overige. Deze regel identificeert extern verkeer maar niet intern verkeer.
-
-   Zie [Geen kanaal geïdentificeerd.](/help/components/c-marketing-channels/c-faq.md)
-
->[!NOTE] Hoewel deze regels geen invloed hebben op de rapportage buiten verkoopkanalen, hebben ze wel invloed op de verzameling van gegevens over marketingkanalen. De gegevens die met deze regels worden verzameld, zijn 100% permanent en regels die worden gewijzigd nadat gegevens zijn verzameld, zijn niet met terugwerkende kracht. Het wordt ten zeerste aanbevolen alle omstandigheden te evalueren en in overweging te nemen voordat u gegevens opslaat [!UICONTROL Marketing Channel Processing Rules] om te voorkomen dat gegevens op onjuiste kanalen worden verzameld.
+Aanvullende opmerkingen over verwerking:
+* De gegevens die met deze regels worden verzameld, zijn 100% permanent en regels die worden gewijzigd nadat gegevens zijn verzameld, zijn niet met terugwerkende kracht. Het wordt ten zeerste aanbevolen alle omstandigheden te evalueren en in overweging te nemen voordat u gegevens opslaat [!UICONTROL Marketing Channel Processing Rules] om te voorkomen dat gegevens op onjuiste kanalen worden verzameld.
+* Het rapport kan tot 25 kanalen tegelijkertijd verwerken.
+* De regels kunnen tot variabelen toegang hebben die VISTA heeft geplaatst, maar kunnen tot geen gegevens toegang hebben die VISTA heeft geschrapt.
+* Twee marketingkanalen krijgen nooit krediet voor dezelfde gebeurtenis (zoals aankopen of klikken). Op deze manier verschillen de afzetkanalen van eVars (waar twee eVars kredieten voor dezelfde gebeurtenis kunnen ontvangen).
+* Als er een hiaatdekking van uw regels is, kunt u [Geen Geïdentificeerd Kanaal zien.](/help/components/c-marketing-channels/c-faq.md)
 
 ## Vereisten
 
@@ -32,43 +35,37 @@ Maak verwerkingsregels voor marketingkanalen die bepalen of een bezoeker voldoet
 Deze procedure gebruikt een e-mailregel als voorbeeld. In het voorbeeld wordt ervan uitgegaan dat u een e-mailkanaal hebt toegevoegd aan de lijst met kanalen op de pagina Marketing Channel Manager.
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Selecteer een rapportsuite.
+2. Een rapportsuite selecteren.
 
    Als er in uw rapportsuite geen kanalen zijn gedefinieerd, wordt de [!UICONTROL Marketing Channels: Auto Setup] pagina weergegeven.
 
    Zie Automatische installatie [uitvoeren](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
+3. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
 
    ![Stap resultaat](assets/marketing_channel_rules.png)
 
-1. Selecteer in het **[!UICONTROL Add New Rule Set]** menu de optie **[!UICONTROL Email]**.
+4. Selecteer in het **[!UICONTROL Add New Rule Set]** menu de optie **[!UICONTROL Email]**.
 
-   Hier selecteert u niet uw kanaal, maar een malplaatje dat de regel met een paar noodzakelijke parameters bevolkt.
+   Hier selecteert u niet uw kanaal, maar een malplaatje dat de regel met een paar noodzakelijke parameters bevolkt. U kunt deze sjabloon naar wens wijzigen.
 
    ![Stap resultaat](assets/example_email.png)
 
-   Gebruik de Booleaanse logica (if / then statements) om een regel te configureren. Geef in een e-mailkanaalregel bijvoorbeeld de instellingen of informatie op die in de volgende regelinstructie wordt benadrukt:
+5. Klik op **[!UICONTROL Add Rule]** om door te gaan met het maken van regels.
+6. Als u regels een prioriteit wilt geven, sleept u ze naar de gewenste positie.
+7. Klik op **[!UICONTROL Save.]**
 
-   `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *<value>* **[!UICONTROL exists]**...`
+Ga verder op deze pagina om aanbevelingen voor de volgorde van de kanaalregels en meer definitievoorbeelden te bekijken.
 
-   `"Then identify the channel as **[!UICONTROL Email]**...`
+### De waarde van het marketingkanaal instellen
 
-   `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
+**[!UICONTROL Add Rule]**Stel de waarde van het kanaal in]**definieert de detaildimensie van het marketingkanaal die beschikbaar is voor dat kanaal. Hierdoor kunt u de afmetingen van het marketingkanaal afbreken en meer gedetailleerde informatie over het kanaal bekijken.
 
-   In dit voorbeeld *`<value>`* is de parameter van het vraagkoord dat u voor uw e-mailcampagne, zoals *`eml`*. gebruikt.
-1. Klik op **[!UICONTROL Add Rule]** om door te gaan met het maken van regels.
-1. Als u regels een prioriteit wilt geven, sleept u ze naar de gewenste positie.
-1. Klik op **[!UICONTROL Save.]**
+U wordt aangeraden de kanaalwaarde in te stellen op dezelfde criteria die worden gebruikt om het kanaal zelf te definiëren. Als bijvoorbeeld de parameter van het vraagkoord wordt gebruikt om het kanaal te bepalen, plaats de parameter van het vraagkoord als kanaalwaarde eveneens.
 
->[!MORELIKETHIS]
->
->* [Veelgestelde vragen en voorbeelden](/help/components/c-marketing-channels/c-faq.md)
+### Regelcriteria
 
-
-## Criteria voor de regel voor marketingkanalen
-
-In deze referentietabel worden de velden, opties en raakkenmerken gedefinieerd die u kunt selecteren op de pagina Verwerkingsregels marketingkanaal.
+Deze referentietabel definieert de velden, opties en raakkenmerken die u kunt gebruiken om de regels voor de verwerking van marketingkanalen te definiëren.
 
 | Term | Definitie |
 |--- |--- |
@@ -101,67 +98,79 @@ In deze referentietabel worden de velden, opties en raakkenmerken gedefinieerd d
 | Zoekmachine + trefwoorden | Een samenvoeging van het Sleutelwoord van het Onderzoek en de Motor van het Onderzoek om de onderzoeksmotor uniek te identificeren. Als u bijvoorbeeld naar de tekstcomputer zoekt, worden het zoekprogramma en het trefwoord als volgt geïdentificeerd: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Opmerking:**n = natuurlijk; p = betaald |
 | De waarde van het kanaal instellen op | U weet niet alleen welk marketingkanaal een bezoeker naar uw site brengt, maar u kunt ook weten welke banneradvertentie, zoektrefwoord of e-mailcampagne binnen het kanaal krediet opvragen voor de siteactiviteit van een bezoeker. Deze id is een kanaalwaarde die samen met het kanaal wordt opgeslagen. Deze waarde is vaak een campagne-id die is ingesloten in de bestemmingspagina of de verwijzende URL. in andere gevallen is het de zoekengine en combinatie van trefwoorden zoeken, of de verwijzende URL die de bezoeker het meest correct identificeert vanuit een bepaald kanaal. |
 
-## Intern kanaal (Sessie vernieuwen)
+## Regelvolgorde en definities van marketingkanalen {#channel-rules}
 
-Het interne kanaal (dat vaak wordt hernoemd naar Sessievernieuwen) bestaat uit bezoeken aan de site waar de verwijzende URL overeenkomt met de instelling voor interne URL-filters in de beheerconsole. Dit houdt in dat de bezoeker van de site is gekomen om zijn bezoek te starten.
+De kanaalregels worden verwerkt in de volgorde die u opgeeft. Een aanbevolen aanpak voor kanaalbestellingen is om betaalde of beheerde kanalen eerst te plaatsen (bijvoorbeeld betaalde zoekopdrachten, natuurlijke zoekopdrachten, weergave, e-mail), zodat zij kredieten ontvangen, gevolgd door organische kanalen (bijvoorbeeld directe, interne en verwijzende domeinen).
+
+Hieronder ziet u de aanbevolen volgorde voor kanaalregels en voorbeelddefinities:
+
+### Betaalde zoekopdracht {#paid-search}
+
+Betaalde zoekopdracht is een woord of uitdrukking dat u betaalt voor plaatsing in zoekresultaten. Dit kanaal wordt typisch bepaald gebaseerd op de parameter van het vraagkoord (zie het kanaalvoorbeeld van de Vertoning) of betaalde onderzoeksdetectieregels. De beslissing hangt af van de details van het marketingkanaal die u wilt opnemen.
+
+#### Betaalde zoekdetectie
+
+Om de betaalde regels van de onderzoeksopsporing aan te passen, gebruikt het marketing kanaal montages die op de [!UICONTROL Paid Search Detection] pagina worden gevormd. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). De doel-URL komt overeen met de bestaande regel voor betaalde zoekdetectie voor dat zoekprogramma.
+
+Voor de marketingkanaalregel zijn de [!UICONTROL Paid Search] instellingen als volgt:
+
+![](assets/example_paid_search.png)
+
+Zie Detectie [van betaald zoeken](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin voor meer informatie.
+
+### Natuurlijk zoeken {#natural-search}
+
+Een natuurlijk onderzoek komt voor wanneer de bezoekers uw website door een onderzoek van het Web vinden, waar het onderzoeksmotor uw plaats zonder u voor de lijst te betalen rangschikte.
+
+Er is geen natuurlijke onderzoeksopsporing in Analytics. Nadat u de Detectie van het Gesteunde Onderzoek hebt ingesteld, weet het systeem dat als een onderzoeksverwijzer geen betaalde onderzoeksverwijzer was, het een natuurlijke onderzoeksverwijzer moet zijn. Zie Detectie [van](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) betaalde zoekopdrachten in Beheer voor meer informatie.
+
+Voor de regel voor marketingkanalen gelden de volgende instellingen voor Natuurlijk zoeken:
+
+![](assets/example_natural_search.png)
+
+### Weergave {#display}
+
+Deze regel identificeert bezoekers die afkomstig zijn van banneradvertenties. Het wordt geïdentificeerd door een parameter van het vraagkoord in de bestemmingsURL, in dit geval *`Ad_01`*.
+
+![](assets/example_display.png)
+
+### E-mail {#email}
+
+Deze regel identificeert bezoekers die afkomstig zijn van e-mailcampagnes. Deze wordt in dit geval geïdentificeerd door een parameter voor een querytekenreeks in de doel-URL *`eml`*:
+
+![](assets/example_email.png)
+
+### Affiliates {#afilliates}
+
+Deze regel identificeert bezoekers die uit een gespecificeerde reeks verwijzende domeinen voortkomen. In de regel geeft u als volgt een overzicht van de domeinen van filialen die u wilt bijhouden:
+
+![](assets/example_affiliates.png)
+
+### Overige campagnes {#other-campaigns}
+
+De beste manier is om een kanaal voor &quot;Overige campagnes&quot; op te nemen volgens alle regels voor betaalkanalen. Dit kanaal fungeert als een &#39;catch-all&#39; voor niet-gecategoriseerd betaald verkeer.
+
+### Sociale netwerken {#social-networks}
+
+Deze regel identificeert bezoekers die afkomstig zijn van een sociaal netwerk, zoals Facebook*. De naam van het kanaal wordt vaak gewijzigd in Organic Social. De instellingen kunnen als volgt zijn:
+
+![](assets/example_social.png)
+
+### Intern kanaal (Sessie vernieuwen) {#internal}
+
+Deze regel geldt voor bezoekers waarbij hun verwijzings-URL overeenkomt met de interne URL-filters die in de beheerconsole zijn ingesteld. Dit betekent dat de bezoeker van de site is gekomen om zijn bezoek te starten. De naam van dit kanaal wordt vaak gewijzigd in Sessie vernieuwen.
 
 ![](assets/int-channel1.png)
 
-### Beste werkwijzen overschrijven
+Zie [Redenen voor Intern (Sessie vernieuwen)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html) voor meer informatie over waarom dit kanaal voorkomt.
 
-U kunt het beste de optie last-touch negeren uitschakelen voor Direct en Intern kanaal, zodat ze geen krediet kunnen opnemen van andere hardnekkige laatste aanraakkanalen (of van elkaar).
+### Direct {#direct}
 
->[!NOTE]In dit document wordt ervan uitgegaan dat voor Direct vernieuwen en Sessie de optie Negeren is uitgeschakeld.
+Deze regel identificeert bezoekers die geen verwijzend domein hebben, dat bezoekers omvat die rechtstreeks naar uw plaats, zoals van een verbinding van Favorieten of door een verbinding in hun browser te kleven komen. De naam van dit kanaal wordt vaak gewijzigd in Direct getypt/Bladwijzer.
 
-![](assets/int-channel2.png)
+![](assets/example_direct.png)
 
-### Betrokkenheidsperiode
+### Verwijzend kanaal Domeinen {#referring-domains}
 
-Zowel het eerste als het laatste aanraakkanaal voor een bezoeker worden opnieuw ingesteld na 30 dagen inactiviteit op die browser.
+Het kanaal Refering Domains identificeert bezoekers die een verwijzend domein hebben. Samen, handelen de Interne, Directe, en Verwijzende domeinkanalen als vangst-allen voor alle resterende klappen die nog niet in een kanaal zijn gecategoriseerd.
 
->[!NOTE] De standaardinstelling is 30 dagen en u kunt deze indien nodig wijzigen met de beheerinstellingen.
-
-Als de bezoeker de site regelmatig gebruikt, wordt het betrokkenheidsvenster bij de bezoekers weergegeven. Zij moeten 30 dagen inactief zijn voor de periode om te verlopen en kanalen om worden teruggesteld.
-Voorbeeld:
-
-* Dag 1: Gebruiker komt naar de site op Weergave. Het eerste en laatste aanraakkanaal worden ingesteld op Weergave.
-
-* Dag 2: Gebruiker komt naar de site voor natuurlijk zoeken. First-touch blijft Display en Last touch is ingesteld op Natuurlijk zoeken.
-
-* Dag 35: De gebruiker is niet in 33 dagen naar de site geweest en komt terug met het tabblad dat hij of zij in de browser had geopend. Ervan uitgaande dat het venster 30 dagen lang geldig is, zou het venster gesloten zijn en zouden de marketingkanaalcookies verlopen zijn. Het eerste aanraak- en laatste aanraakkanaal wordt opnieuw ingesteld en wordt ingesteld op Sessie vernieuwen nadat de gebruiker van een interne URL is gekomen.
-
-### Relatie tussen eerste en laatste aanraking
-
-Als u de interactie tussen eerste en laatste aanraking wilt begrijpen en wilt bevestigen dat overschrijvingen naar behoren werken, kunt u een first-touch-kanaalrapport genereren dat is gekoppeld aan een last-touch-kanaalrapport en waarin uw belangrijkste succesmetrische parameter is toegevoegd (zie het onderstaande voorbeeld). Het voorbeeld demonstreert de interactie tussen eerste en laatste aanraakkanalen.
-
-![](assets/int-channel3.png)
-
-Het snijpunt waar het eerste staat gelijk aan het laatste aanraakpunt wordt oranje gemarkeerd. Zowel Direct als Sessie vernieuwen krijgen alleen &#39;last-touch&#39;-kredieten als dit ook het eerste aanraakkanaal is, omdat ze geen krediet kunnen halen van andere hardnekkige kanalen (gemarkeerde rijen in grijs).
-
-### Waarom wordt de sessie vernieuwd?
-
-Aangezien we weten dat verversen van sessie met laatste aanraking alleen kan plaatsvinden als dit ook de eerste aanraking was, wordt in de onderstaande scenario&#39;s uitgelegd hoe Vernieuwen van sessie een eersteklas kanaal kan zijn.
-
-**Scenario 1: Time-out sessie**
-
-Een bezoeker komt naar de website en laat het tabblad vervolgens open in zijn browser om op een latere datum te gebruiken. De periode van de betrokkenheid van de bezoeker verloopt (of ze verwijderen hun cookies vrijwillig) en ze gebruiken het tabblad Openen om de website opnieuw te bezoeken. Aangezien de verwijzende URL een intern domein is, wordt het bezoek geclassificeerd als Sessie vernieuwen.
-
-**Scenario 2: Niet alle sitepagina&#39;s zijn gelabeld**
-
-Een bezoeker landt op pagina A die niet is getagd en gaat vervolgens naar pagina B die is getagd. Pagina A wordt beschouwd als de interne referentie en het bezoek wordt geclassificeerd als Sessie vernieuwen.
-
-**Scenario 3: Omleiding**
-
-Als een omleiding niet is ingesteld om verwijzingsgegevens door te geven aan de nieuwe landingspagina, gaan de werkelijke gegevens van de invoerverwijzende verwijzing verloren en wordt nu de omleidingspagina (waarschijnlijk een interne pagina) weergegeven als verwijzend domein. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
-
-**Scenario 4: Domeinoverschrijdend verkeer**
-
-Een bezoeker beweegt zich van één domein dat aan Reeks A, aan een tweede domein in brand steekt dat aan Reeks B. Als de interne URL-filters in Suite B het eerste domein bevatten, wordt het bezoek in Suite B geregistreerd als Intern, omdat Marketing Channels het als een nieuw bezoek in de tweede suite zien. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
-
-**Scenario 5: Lange laadtijden van invoerpagina**
-
-Een bezoeker landt op Pagina A die zwaar is op inhoud, en de code van de Analyse van Adobe wordt gevestigd bij de bodem van de pagina. Voordat alle inhoud (inclusief de aanvraag voor een Adobe Analytics-afbeelding) kan worden geladen, klikt de bezoeker op Pagina B. Pagina B wordt geactiveerd wanneer Adobe Analytics een afbeeldingsaanvraag indient. Aangezien de afbeeldingsaanvraag van Pagina A nooit is geladen, wordt de tweede pagina weergegeven als de eerste hit van het bezoek in Adobe Analytics, waarbij Pagina A de verwijzende persoon is. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
-
-**Scenario 6: Cookies wissen halverwege de site**
-
-Een bezoeker komt naar de site en halverwege de sessie worden de cookies gewist. Zowel eerste als laatste aanraakkanalen worden opnieuw ingesteld en het bezoek wordt geclassificeerd als Sessie vernieuwen (omdat de referentie intern zou zijn).
