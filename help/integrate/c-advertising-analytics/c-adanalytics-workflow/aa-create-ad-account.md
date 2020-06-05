@@ -2,7 +2,10 @@
 title: Een advertentieaccount instellen
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +49,7 @@ Beheerders kunnen ook toegang [verlenen tot niet-beheerders](/help/integrate/c-a
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Geef een Google-account-id op. </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Geef de Bing-account-id en de Bing-klant-id op. </li> 
-        </ul> <p>Raadpleeg <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Account-ID</a> zoeken voor meer informatie over deze id's. </p> <p>Nadat u zich hebt aangemeld, wordt het veld OAuth Token weergegeven 
+        </ul> <p>Raadpleeg <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Account-ID</a> zoeken voor meer informatie over deze id's. </p> <p>Zodra u met succes het programma hebt geopend, zal het OAuth Symbolische gebied tonen 
         <systemoutput>
           Opgehaald
         </systemoutput>. </p> </td> 
@@ -54,31 +57,12 @@ Beheerders kunnen ook toegang [verlenen tot niet-beheerders](/help/integrate/c-a
     </tbody> 
     </table>
 
-1. In de **[!UICONTROL Tracking]** sectie geeft u informatie over hoe de gegevens van de zoekmachine worden bijgehouden door de implementatie van Adobe Analytics. Dit is een vereiste stap om de Adobe Analytics-gegevens correct aan te vullen met de gegevens van de Search Engine.
+1. In de **[!UICONTROL Tracking]** sectie geeft u informatie over hoe de gegevens van de zoekmachine worden bijgehouden door de implementatie van Adobe Analytics. Dit is een vereiste stap om de gegevens van Adobe Analytics met de gegevens van de Motor van het Onderzoek behoorlijk te verhogen.
 Vul de **[!UICONTROL Tracking Settings]** volgende richtlijnen in:
 
-   <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Instelling </th> 
-      <th colname="col2" class="entry"> Beschrijving </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Type </p> </td> 
-      <td colname="col2"> 
-        <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Automatisch</span>: Hiermee kan de Advertising Cloud Engine bepalen hoe de volgparameters worden toegevoegd aan de trackingsjablonen/doel-URL's van de zoekmachine. Dit is de eenvoudigste benadering, maar kan niet in de beste geïntegreerde dataset resulteren. <p>Belangrijk: Als u een account voor een zoekmachine wilt configureren in de modus Automatisch, bent u verantwoordelijk voor het uitvoeren van de volgende handelingen: 
-          <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
-            <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">De parameter en de waarde 's_kwcid' worden toegevoegd aan de sjablonen voor het bijhouden van accounts of aan URL's van landingspagina's in de account die wordt toegevoegd. Deze wordt aan het einde van de URL ingevoegd. Als gevolg hiervan kan aanvullende actie van uw kant vereist zijn als uw webserver een bepaald sleutelwaardepaar aan het einde van de URL vereist OF een update ter ondersteuning van een nieuw sleutelwaardepaar in de URL. </li> 
-            <li id="li_A04D4AA31A934392808639E46C86573F">Daarnaast kunnen trefwoorden in de bestemmings-URL worden ingevoegd als onderdeel van de waarde "s_kwcid", dus als deze speciale tekens of symbolen bevatten, moet u bevestigen dat uw webserver deze tekens kan ondersteunen (een voorbeeld van een speciale teken is "+", dat wordt gebruikt in trefwoorden "Uitgebreide overeenkomst gewijzigd"). </li> 
-          </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Handmatig</span>: Hiermee kunt u beheren hoe de volgende parameters worden toegevoegd aan de trackingsjablonen/doel-URL's van de zoekmachine. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Raadpleeg deze handmatige voorbeelden voor het bijhouden van bestanden voor elke zoekfunctie</a>. </li> 
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   | Instelling | Beschrijving |
+   |--- |--- |
+   | Type | <ul><li>**Automatisch:** Hiermee kan de Advertising Cloud Engine bepalen hoe de volgparameters worden toegevoegd aan de trackingsjablonen/doel-URL&#39;s van de zoekmachine. Dit is de eenvoudigste benadering, maar kan niet in de beste geïntegreerde dataset resulteren.<br>**Belangrijk:**Als u een account voor zoekprogramma&#39;s wilt configureren in de modus Automatisch, bent u verantwoordelijk voor het uitvoeren van de volgende handelingen:<br>- De parameter en de waarde &#39;s_kwcid&#39; worden toegevoegd aan de sjablonen voor het bijhouden van accounts of de bestemmingspagina-URL&#39;s in de account die wordt toegevoegd. Deze wordt aan het einde van de URL ingevoegd. Als gevolg hiervan kan aanvullende actie van uw kant vereist zijn als uw webserver een bepaald sleutelwaardepaar aan het einde van de URL vereist OF een update ter ondersteuning van een nieuw sleutelwaardepaar in de URL.** Opmerking:**Meer informatie over het al dan niet toevoegen van deze parameter aan uw[inhoudsbeveiligingsbeleid](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html).<br>- Daarnaast kunnen trefwoorden in de bestemmings-URL worden ingevoegd als onderdeel van de waarde &quot;s_kwcid&quot;, dus als deze speciale tekens of symbolen bevatten, moet u bevestigen dat uw webserver deze tekens kan ondersteunen (een voorbeeld van een speciale teken is &quot;+&quot;, dat wordt gebruikt in trefwoorden &quot;Uitgebreide overeenkomst gewijzigd&quot;).</li><li>**Handmatig:** Hiermee kunt u beheren hoe de volgende parameters worden toegevoegd aan de trackingsjablonen/doel-URL&#39;s van de zoekmachine. [Raadpleeg deze handmatige voorbeelden voor het bijhouden van bestanden voor elke zoekfunctie](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
 1. In de **[!UICONTROL Mapping]** sectie kiest u welke rapportsuite(s) u wilt koppelen aan dit zoekprogrammaaccount. U moet ten minste één rapportsuite opgeven voordat u het advertentieaccount kunt opslaan. U kunt veelvoudige rekeningen aan veelvoudige rapportreeksen (1:1, 1:Velen, Velen:Velen) in kaart brengen. Merk op dat de gegevens die AMO van de onderzoeksmotor trekt eenvoudig aan om het even welke in kaart gebrachte rapportreeks wordt gekopieerd, zodat is er geen splitsing van gegevens.
 
