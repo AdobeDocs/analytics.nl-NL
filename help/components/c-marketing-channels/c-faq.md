@@ -1,13 +1,16 @@
 ---
 description: Lees over de beste praktijken en voorbeelden van hoe te om diverse regels te bevolken u opstelling voor uw marketing kanalen kunt.
-title: Veelgestelde vragen en voorbeelden over marketingkanalen
+title: Veelgestelde vragen over marketingkanalen
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d26edeed2f8d2c78c6e8cddaf8973870372a8b3d
+workflow-type: tm+mt
+source-wordcount: '1087'
+ht-degree: 0%
 
 ---
 
 
-# Veelgestelde vragen en voorbeelden over marketingkanalen
+# Veelgestelde vragen over marketingkanalen
 
 Zie Regels [voor de verwerking van marketingkanalen](/help/components/c-marketing-channels/c-rules.md) maken voor definities van velden die op de [!UICONTROL Marketing Channel Processing Rules] pagina worden weergegeven.
 
@@ -54,7 +57,15 @@ Zorg ervoor dat u een kanaal voor deze drie mogelijkheden hebt. Maak bijvoorbeel
 
 Ten slotte maakt u een *ander* kanaal waarmee de resterende resultaten worden vastgelegd, zoals wordt beschreven in [Geen kanaal geïdentificeerd](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 
-## Geen kanaal geïdentificeerd {#no-channel-identified}
+## Relatie tussen eerste en laatste aanraking
+
+Als u de interactie tussen oudere eerste en laatste aanraakafmetingen wilt begrijpen en wilt bevestigen dat overschrijvingen naar behoren werken, kunt u een first-touch-kanaalrapport genereren dat is gekoppeld aan een last-touch-kanaalrapport en waarin de maatstaf voor het succes van uw sleutel is toegevoegd (zie het onderstaande voorbeeld). Het voorbeeld demonstreert de interactie tussen eerste en laatste aanraakkanalen.
+
+![](assets/int-channel3.png)
+
+De doorsnede waar de eerste staat gelijk aan de laatste aanraking is de diagonaal van de tabel. Zowel Direct als Sessie vernieuwen krijgen alleen &#39;last-touch&#39;-kredieten als dit ook het eerste aanraakkanaal is, omdat ze geen krediet kunnen halen van andere persisterende kanalen (gemarkeerde rijen).
+
+## Redenen voor Geen kanaal geïdentificeerd {#no-channel-identified}
 
 Wanneer uw regels geen gegevens vangen, of als de regels niet correct worden gevormd, toont het rapport de gegevens in de [!UICONTROL No Channel Identified] rij op het rapport. U kunt een regelreeks tot stand brengen genoemd *Andere*, bijvoorbeeld, aan het eind van uw verwerkingsorde, die ook intern verkeer identificeert.
 
@@ -64,65 +75,31 @@ Dit soort regel dient als catch-all om ervoor te zorgen dat het kanaalverkeer al
 
 >[!NOTE] Er zou nog wat kanaalverkeer kunnen zijn dat in de Geen Geïdentificeerde categorie van het Kanaal kan vallen. Bijvoorbeeld: Een bezoeker komt naar de site en bladwijzers op een pagina en tijdens hetzelfde bezoek komt de pagina via de bladwijzer terug. Aangezien dit niet de eerste pagina van het bezoek is, zal het noch in het directe kanaal noch in het andere kanaal gaan omdat er geen verwijzend domein is.
 
-## Betaalde zoekopdracht {#paid-search}
+## Redenen voor intern (Sessie vernieuwen) {#internal}
 
-Een betaalde zoekopdracht is een woord of zinsdeel dat u betaalt voor plaatsing in zoekresultaten. Om de betaalde regels van de onderzoeksopsporing aan te passen, gebruikt het marketing kanaal montages die op de [!UICONTROL Paid Search Detection] pagina worden gevormd. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). De doel-URL komt overeen met de bestaande regel voor betaalde zoekdetectie voor dat zoekprogramma.
+Vernieuwen van laatste aanraaksessie kan alleen plaatsvinden als dit ook de eerste aanraking was. Zie &quot;Verhouding tussen eerste en laatste aanraking&quot; hierboven. In de onderstaande scenario&#39;s wordt uitgelegd hoe Zitting vernieuwen een eersteklas kanaal kan zijn.
 
-Voor de marketingkanaalregel zijn de [!UICONTROL Paid Search] instellingen als volgt:
+**Scenario 1: Time-out sessie**
 
-![](assets/example_paid_search.png)
+Een bezoeker komt naar de website en laat het tabblad vervolgens open in zijn browser om op een latere datum te gebruiken. De periode van de betrokkenheid van de bezoeker verloopt (of ze verwijderen hun cookies vrijwillig) en ze gebruiken het tabblad Openen om de website opnieuw te bezoeken. Aangezien de verwijzende URL een intern domein is, wordt het bezoek geclassificeerd als Sessie vernieuwen.
 
-Zie Detectie [van betaald zoeken](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin voor meer informatie.
+**Scenario 2: Niet alle sitepagina&#39;s zijn gelabeld**
 
-## Natuurlijk zoeken {#natural-search}
+Een bezoeker landt op pagina A die niet is getagd en gaat vervolgens naar pagina B die is getagd. Pagina A wordt beschouwd als de interne referentie en het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-Een natuurlijk onderzoek komt voor wanneer de bezoekers uw website door een onderzoek van het Web vinden, waar het onderzoeksmotor uw plaats zonder u voor de lijst te betalen rangschikte. U kunt de doel-URL bepalen die het zoekprogramma gebruikt om een koppeling naar uw site te maken. Met deze URL kan Analytics bepalen of een zoekopdracht natuurlijk is.
+**Scenario 3: Omleiding**
 
-Er is geen natuurlijke onderzoeksopsporing in Analytics. Nadat u de Detectie van het Gesteunde Onderzoek hebt ingesteld, weet het systeem dat als een onderzoeksverwijzer geen betaalde onderzoeksverwijzer was, het een natuurlijke onderzoeksverwijzer moet zijn. Voor een natuurlijke zoekopdracht komt de doel-URL niet overeen met de bestaande regel voor betaalde zoekdetectie voor die zoekmachine.
+Als een omleiding niet is ingesteld om verwijzingsgegevens door te geven aan de nieuwe landingspagina, gaan de werkelijke gegevens van de invoerverwijzende verwijzing verloren en wordt nu de omleidingspagina (waarschijnlijk een interne pagina) weergegeven als verwijzend domein. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-Voor de regel voor marketingkanalen gelden de volgende instellingen voor Natuurlijk zoeken:
+**Scenario 4: Domeinoverschrijdend verkeer**
 
-![](assets/example_natural_search.png)
+Een bezoeker beweegt zich van één domein dat aan Reeks A, aan een tweede domein in brand steekt dat aan Reeks B. Als de interne URL-filters in Suite B het eerste domein bevatten, wordt het bezoek in Suite B geregistreerd als Intern, omdat Marketing Channels het als een nieuw bezoek in de tweede suite zien. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-Zie Detectie [van](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) betaalde zoekopdrachten in Beheer voor meer informatie.
+**Scenario 5: Lange laadtijden van invoerpagina**
 
-## Affiliates {#afilliates}
+Een bezoeker landt op Pagina A die zwaar is op inhoud, en de code van de Analyse van Adobe wordt gevestigd bij de bodem van de pagina. Voordat alle inhoud (inclusief de aanvraag voor een Adobe Analytics-afbeelding) kan worden geladen, klikt de bezoeker op Pagina B. Pagina B wordt geactiveerd wanneer Adobe Analytics een afbeeldingsaanvraag indient. Aangezien de afbeeldingsaanvraag van Pagina A nooit is geladen, wordt de tweede pagina weergegeven als de eerste hit van het bezoek in Adobe Analytics, waarbij Pagina A de verwijzende persoon is. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-Een partnerregel identificeert bezoekers die uit een gespecificeerde reeks verwijzende domeinen voortkomen. In de regel geeft u als volgt een overzicht van de domeinen van filialen die u wilt bijhouden:
+**Scenario 6: Cookies wissen halverwege de site**
 
-![](assets/example_affiliates.png)
-
-## Sociale netwerken {#social-networks}
-
-Deze regel identificeert bezoekers die afkomstig zijn van een sociaal netwerk, zoals Facebook*. De instellingen kunnen als volgt zijn:
-
-![](assets/example_social.png)
-
-## Weergave {#display}
-
-Deze regel identificeert bezoekers die afkomstig zijn van banneradvertenties. Het wordt geïdentificeerd door een parameter van het vraagkoord in de bestemmingsURL, in dit geval *`Ad_01`*.
-
-![](assets/example_display.png)
-
-## Intern {#internal}
-
-Deze regel identificeert bezoekers die uit een verwijzer voortkomen die de interne filters URL voor de rapportreeks aanpast.
-
-![](assets/example_internal.png)
-
-## E-mail {#email}
-
-Aan opstelling deze regel, verstrekt u de parameter van het vraagkoord voor uw e-mailcampagne. In dit voorbeeld is de parameter *`eml`*:
-
-![](assets/example_email.png)
-
-Als uw regel het Volgen Codes bevat, ga één waarde per lijn in, zoals hier getoond:
-
-![](assets/tracking_code.png)
-
-## Direct {#direct}
-
-Deze regel identificeert bezoekers die geen verwijzend domein hebben. Deze regel geldt ook voor bezoekers die rechtstreeks naar uw site komen, bijvoorbeeld via een koppeling Favorieten of door een koppeling in hun browser te plakken.
-
-![](assets/example_direct.png)
+Een bezoeker komt naar de site en halverwege de sessie worden de cookies gewist. Zowel eerste als laatste aanraakkanalen worden opnieuw ingesteld en het bezoek wordt geclassificeerd als Sessie vernieuwen (omdat de referentie intern zou zijn).
 
