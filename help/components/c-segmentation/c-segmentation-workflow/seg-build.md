@@ -4,7 +4,10 @@ title: Segmenten maken
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: f50f33b456656200b4492e6fec2a441d4c29dfa3
+workflow-type: tm+mt
+source-wordcount: '2309'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Er zijn verscheidene manieren om tot de Bouwer van het Segment toegang te hebben
 * **Bovenste navigatie** Analytics: Klik **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Klik **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open een project en klik **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
 * **[!UICONTROL Reports & Analytics]**: Klik **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open een bestaand rapport en klik het pictogram van Segmenten ![](assets/segment_icon.png) in de linkernavigatie, dan klik **[!UICONTROL Add]**.
-* **[!UICONTROL Ad Hoc Analysis]**: Segmenten [maken in ad hoc analyse](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
+* **[!UICONTROL Ad Hoc Analysis]**: [Segmenten maken in ad-hocanalyse](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
 * **[!UICONTROL Report Builder]**: [Voeg of geef segmenten in de Bouwer](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html)van het Rapport toe uit.
 
 ## Gebruikersinterface van Segment Builder {#concept_643F2DF74C544796B58F4656ABC5F726}
@@ -44,7 +47,7 @@ Heb toegang tot de Bouwer van het Segment door:
 
 1. **[!UICONTROL Title]**: Hiermee kunt u het segment een naam geven of de naam ervan wijzigen.
 1. **[!UICONTROL Description]**: Geef een beschrijving voor het segment op. U moet een beschrijving opgeven als u het segment wilt delen.
-1. **[!UICONTROL Tags]**: [Tags toewijzen aan het segment](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) dat u maakt door het segment te kiezen uit een lijst met bestaande tags of door een nieuwe tag te maken.
+1. **[!UICONTROL Tags]**: [Tags toewijzen aan het segment](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) dat u maakt door het te kiezen uit een lijst met bestaande tags of door een nieuwe tag te maken.
 1. **[!UICONTROL Definitions]**: Dit is waar u segmenten [](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)bouwt en vormt, regels, en nest en opeenvolgingscontainers toevoegt. Hiermee kunt u een beschrijving voor het nieuwe segment opgeven door de container te selecteren en afmetingen, segmenten of metriek te slepen en neer te zetten in de definitie.
 1. **[!UICONTROL Show]**: (Selector bovenste container.) Hiermee kunt u de [container](/help/components/c-segmentation/seg-overview.md) op hoofdniveau selecteren ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). De standaard container op hoofdniveau is de container Actief.
 1. **[!UICONTROL Options]**: (tandwiel) pictogram
@@ -60,8 +63,8 @@ Heb toegang tot de Bouwer van het Segment door:
    * **[!UICONTROL Non-repeating instance]**: Hiermee worden unieke (niet-herhalende) instanties voor de dimensie opgenomen.
    ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL Dimensions]**: Dimensies worden gesleept en verwijderd uit de lijst Dimensies (oranje zijbalk).
 1. **[!UICONTROL Comparison]**: U kunt waarden vergelijken en beperken gebruikend geselecteerde exploitanten.
+1. **[!UICONTROL Dimensions]**: Dimensies worden gesleept en verwijderd uit de lijst Dimensies (oranje zijbalk).
 1. **[!UICONTROL Value]**: De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het segment of metrisch.
 1. **[!UICONTROL And/Or/Then]**: Wijst de [!UICONTROL AND/OR/THEN] operatoren toe tussen containers of regels. Met de operator THEN kunt u opeenvolgende segmenten [](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)definiëren.
 1. **[!UICONTROL Metric]**: (Groene zijbalk) Metrisch die is gesleept en verwijderd uit de lijst Metriek.
@@ -176,7 +179,7 @@ Door segment het stapelen te gebruiken, kunt u uw segmentaantal tot 22 verminder
 
 De malplaatjes vertegenwoordigen de oude pre-gevormde en reekssegmenten.
 
-In de Manager van het Segment, klik **[!UICONTROL Add]**, die u aan de Bouwer van het Segment neemt. Klik nu op het pictogram Segmenten ![](assets/segment_icon.png)
+In de Manager van het Segment, klik **[!UICONTROL Add]**, die u aan de Bouwer van het Segment neemt. Klik nu op het pictogram Segmenten  ![](assets/segment_icon.png)
 
 het segment &quot;spoorstaaf&quot; te verhogen. De segmentmalplaatjes verschijnen bij de bodem van de segmentlijst. Ze zijn herkenbaar aan een mappictogram links van de sjabloonnaam:
 
