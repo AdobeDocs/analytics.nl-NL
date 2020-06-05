@@ -1,16 +1,18 @@
 ---
 description: Met Volgen bepaalt u hoe de gegevens van de zoekmachine worden bijgehouden door de implementatie van Adobe Analytics. Dit is een vereiste stap om de Adobe Analytics-gegevens correct aan te vullen met de gegevens van de Search Engine.
 title: Handmatige modus voor bijhouden en Automatische modus
-uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 0%
 
 ---
 
 
 # Tekstspatiëring: Handmatige modus en Automatische modus
 
-Met Volgen bepaalt u hoe de gegevens van de zoekmachine worden bijgehouden door de implementatie van Adobe Analytics. Dit is een vereiste stap om de gegevens van Adobe Analytics met de gegevens van de Motor van het Onderzoek behoorlijk te verhogen.
+Met Volgen bepaalt u hoe de gegevens van de zoekmachine worden bijgehouden door de implementatie van Adobe Analytics. Dit is een vereiste stap om de Adobe Analytics-gegevens correct aan te vullen met de gegevens van de Search Engine.
 
 Twee traceringsmodi worden ondersteund: Automatische modus en Handmatige modus.
 
@@ -20,11 +22,14 @@ In de modus Automatisch kunt u bepalen hoe de gegevens van de zoekmachine moeten
 
 Als u Automatische modus selecteert, moet u daarom een selectievakje voor een bevestiging inschakelen voordat u de accountinstelling kunt opslaan.
 
-
 Als u een account voor een zoekmachine wilt configureren in de modus Automatisch, bent u verantwoordelijk voor het uitvoeren van de volgende handelingen:
 
-* De parameter en de waarde &#39;s_kwcid&#39; worden toegevoegd aan de sjablonen voor het bijhouden van accounts of aan URL&#39;s van landingspagina&#39;s in de account die wordt toegevoegd. Deze wordt aan het einde van de URL ingevoegd. Aanvullende actie is mogelijk vereist van uw kant als uw webserver een bepaald sleutelwaardepaar aan het einde van de URL vereist OF een update ter ondersteuning van een nieuw sleutelwaardepaar in de URL. **Het is uw verantwoordelijkheid om ervoor te zorgen dat de toegevoegde URL-parameters correct blijven op de laatste bestemmingspagina.**
-* Daarnaast kunnen trefwoorden in de bestemmings-URL worden ingevoegd als onderdeel van de waarde &quot;s_kwcid&quot;. Bevestig dat uw webserver deze tekens kan ondersteunen als deze speciale tekens of symbolen bevatten. Voorbeeld: Een veel voorkomend speciaal teken is &quot;+&quot;. Dit wordt gebruikt in de trefwoorden &quot;Uitgebreide overeenkomst gewijzigd&quot;.
+* De `s_kwcid` parameter en de waarde worden toegevoegd aan de sjablonen voor het bijhouden van accounts of de bestemmingspagina-URL&#39;s in de account die wordt toegevoegd. Deze wordt aan het einde van de URL ingevoegd. Aanvullende actie is mogelijk vereist van uw kant als uw webserver een bepaald sleutelwaardepaar aan het einde van de URL vereist OF een update ter ondersteuning van een nieuw sleutelwaardepaar in de URL. **Het is uw verantwoordelijkheid om ervoor te zorgen dat de toegevoegde URL-parameters correct blijven op de laatste bestemmingspagina.**
+* Daarnaast kunnen trefwoorden in de landings-URL worden ingevoegd als onderdeel van de `s_kwcid` waarde. Bevestig dat uw webserver deze tekens kan ondersteunen als deze speciale tekens of symbolen bevatten. Voorbeeld: Een veel voorkomend speciaal teken is &quot;+&quot;. Dit wordt gebruikt in de trefwoorden &quot;Uitgebreide overeenkomst gewijzigd&quot;.
+
+>[!IMPORTANT]
+>
+>Meer informatie over het al dan niet toevoegen van de `s_kwcid` parameter aan uw [inhoudsbeveiligingsbeleid](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html).
 
 ## Handmatige modus bijhouden {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
