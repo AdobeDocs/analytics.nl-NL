@@ -2,7 +2,7 @@
 title: Verwerkingsregels voor distributiekanalen
 description: De de verwerkingsregels van het Kanaal van de marketing bepalen als een bezoeker voldoet aan de criteria die aan een kanaal worden toegewezen. De regels verwerken elke hit die een bezoeker op uw site aanbrengt. Wanneer een regel niet aan de criteria voor een kanaal voldoet, of als de regels niet correct worden gevormd, wijst het systeem de slag aan Geen Geïdentificeerd Kanaal toe.
 translation-type: tm+mt
-source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -150,6 +150,8 @@ Deze regel identificeert bezoekers die uit een gespecificeerde reeks verwijzende
 
 De beste manier is om een kanaal voor &quot;Overige campagnes&quot; op te nemen volgens alle regels voor betaalkanalen. Dit kanaal fungeert als een &#39;catch-all&#39; voor niet-gecategoriseerd betaald verkeer.
 
+![](assets/other-campaigns.png)
+
 ### Sociale netwerken {#social-networks}
 
 Deze regel identificeert bezoekers die afkomstig zijn van een sociaal netwerk, zoals Facebook*. De naam van het kanaal wordt vaak gewijzigd in Organic Social. De instellingen kunnen als volgt zijn:
@@ -174,3 +176,4 @@ Deze regel identificeert bezoekers die geen verwijzend domein hebben, dat bezoek
 
 Het kanaal Refering Domains identificeert bezoekers die een verwijzend domein hebben. Samen, handelen de Interne, Directe, en Verwijzende domeinkanalen als vangst-allen voor alle resterende klappen die nog niet in een kanaal zijn gecategoriseerd.
 
+![](assets/referring-domains.png)
