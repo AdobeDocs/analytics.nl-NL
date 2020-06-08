@@ -1,14 +1,17 @@
 ---
 description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk hulpprogramma van Adobe Analytics. De hulpmiddelen zouden in de orde moeten worden overwogen zij worden vermeld. Als een bepaald hulpmiddel niet aan de behoefte voldoet, ga naar volgende voor overweging.
-title: Welk hulpprogramma van Adobe Analytics moet ik gebruiken?
+title: Welke Adobe Analytics-tool moet ik gebruiken?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+workflow-type: tm+mt
+source-wordcount: '1088'
+ht-degree: 2%
 
 ---
 
 
-# Welk hulpprogramma van Adobe Analytics moet ik gebruiken?
+# Welke Adobe Analytics-tool moet ik gebruiken?
 
 Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk hulpprogramma van Adobe Analytics. De hulpmiddelen zouden in de orde moeten worden overwogen zij worden vermeld. Als een bepaald hulpmiddel niet aan de behoefte voldoet, ga naar volgende voor overweging.
 
@@ -21,22 +24,12 @@ Ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-compariso
 **[Rapporten en analyses](/help/analyze/reports-analytics/overview/report-overview.md)**moeten worden gebruikt:
 
 * Door beginnergebruikers die toegang tot vooraf gebouwde rapportering nodig hebben die gemakkelijker is te navigeren.
-* Om inzicht te krijgen in de doelactiviteit (Analytics for Target/A4T): lift en vertrouwen.
 * Toegang krijgen tot realtime gegevens in de gebruikersinterface.
 * Kalendergebeurtenissen instellen.
 * Doelstellingen instellen.
 * Bot-rapportage weergeven.
 * Unieke videovisualisaties van de Gelijktijdige Kijker, Video Daypart, en de Daling van de Kijker toegang hebben.
 * Als u publicatielijsten in geplande rapporten wilt gebruiken.
-
-**[Gebruikersinterface](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**voor mobiele services moet worden gebruikt:
-
-* Als u een gesiloade weergave van de gegevens van de Mobile App wilt.
-* De implementatie van de SDK van uw mobiele app beheren.
-* Mobiele reclame instellen, zoals berichten in de app, pushberichten en het opgeven van locaties.
-* Als u meer interactieve visualisaties wilt gebruiken voor App-gegevens (Zonneexplosie).
-* Om aandachtspunten op een kaart te visualiseren.
-* Voor waarden van de Lifetime-waarde.
 
 **[Er moet gebruik worden gemaakt van ad-hocanalyse](/help/analyze/ad-hoc-analysis/adhoc-home.md)**:
 
