@@ -4,9 +4,11 @@ keywords: Analytics Implementation
 subtopic: Visitors
 title: Unieke bezoekers identificeren
 topic: Developer and implementation
-uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1905'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +45,7 @@ Als u de mogelijkheid hebt om de gegevens [!UICONTROL visitor IDs] van uw gebrui
 |---|---|
 | [s.bezoekerID](../implement/vars/config-vars/visitorid.md) variabele | Als JavaScript wordt gebruikt op browser, of als u een andere bibliotheek AppMeasurement gebruikt, kunt u bezoekersidentiteitskaart in een variabele van de gegevensinzameling plaatsen. |
 | De tekenreeksparameter van de vraag op het beeldverzoek | Hiermee kunt u de afbeelding [!UICONTROL visitor ID] aan Adobe doorgeven via de [!UICONTROL vid query string] parameter op een aanvraag voor een afbeelding met harde code. |
-| API voor gegevensinvoer | Op apparaten die draadloze protocollen gebruiken die JavaScript niet accepteren, kunt u een XML-bericht met het `<visitorid/>` XML-element vanuit uw servers verzenden naar Adobe-verzamelingsservers. |
+| API voor data-invoer | Op apparaten die draadloze protocollen gebruiken die JavaScript niet accepteren, kunt u een XML-bericht met het `<visitorid/>` XML-element vanuit uw servers verzenden naar Adobe-verzamelingsservers. |
 | URL herschrijven en VISTA | Sommige implementatiearchitecturen bieden ondersteuning voor het herschrijven van URL&#39;s om de sessiestatus te behouden wanneer een cookie niet kan worden ingesteld. In dergelijke gevallen kunnen de technische services van Adobe een [!DNL VISTA] regel implementeren die naar de sessiewaarde in de URL van de pagina zoekt en deze vervolgens opmaakt en in de [!UICONTROL visid] waarden plaatst. |
 >[!CAUTION]
 >**De aangepaste bezoeker-id&#39;s moeten voldoende korrelig/uniek **zijn: Een ongeldige implementatie van aangepaste Bezoeker-id&#39;s kan leiden tot onjuiste gegevens en slechte rapportprestaties. Als de aangepaste bezoeker-id niet uniek of korrelig genoeg is of onjuist is ingesteld op een algemene standaardwaarde, zoals de tekenreeks &quot;NULL&quot; of &quot;0&quot;, worden de treffers van veel verschillende bezoekers door Adobe Analytics als één bezoeker beschouwd. Deze situatie resulteert in onjuiste gegevens, met bezoekersaantallen te laag zijn en de segmenten werken correct voor die bezoeker. Een onvoldoende korrelige aangepaste bezoeker-id voorkomt ook dat de gegevens op de juiste wijze worden verspreid over knooppunten in de analytische rapportagecluster. In deze situatie, wordt één knoop overbelast en kan rapportverzoeken niet tijdig verwerken. Uiteindelijk zal alle rapportering voor de rapportreeks ontbreken.<br>Slecht geïmplementeerde aangepaste Bezoeker-id&#39;s hebben mogelijk niet direct invloed op de rapportprestaties omdat Analytics vaak een aantal maanden ongebalanceerde gegevens kan verwerken. in de loop der tijd kan een slecht geïmplementeerde aangepaste Bezoeker-id-waarde echter problematisch worden, zodat Analytics de verwerking voor de desbetreffende rapportsuites moet uitschakelen.</br><br>Implementers moeten de richtlijn volgen dat één enkele waarde van identiteitskaart van de douaneBezoeker nooit voor meer dan 1% van het verkeer van uw rapportreeks zou moeten worden gecrediteerd. Hoewel het richtsnoer van 1% voldoende is voor de meeste rapportagevakes, kan de werkelijke limiet die invloed kan hebben op de rapportprestaties lager zijn dan 1% voor zeer grote rapportsuites.</br>
@@ -117,7 +119,7 @@ U kunt ook een &#39;1&#39; of een &#39;5&#39; doorgeven in handmatige afbeelding
 
 De methode van abonneeID is over het algemeen betrouwbaarder dan een cookie voor gebruikersidentificatie vanwege het verwijderen van cookies, problemen met de acceptatie van cookies en problemen met het beheer van gatewaycookies.
 
-U kunt wijzigingen in de identificatie van een bezoeker verbeteren door deze toe te voegen aan de witte lijst voor de provider die uw mobiele bezoekers gebruiken. Als u toegang wilt tot de bezoeker-id van de vervoerder, neemt u contact op met de provider om uw domein toe te voegen aan de witte lijst. Als u op de witte lijst van een drager bent, hebt u ook toegang tot de kopballen van abonneeidentiteitskaart die u anders niet kunt toegang hebben.
+U kunt wijzigingen in de identificatie van een bezoeker verbeteren door deze toe te voegen aan de lijst &quot;toegestaan&quot; voor de provider die uw mobiele bezoekers gebruiken. Als u toegang wilt tot de bezoeker-id van de vervoerder, neemt u contact op met de provider om uw domein toe te voegen aan de lijst met &#39;toegestane&#39; personen. Als u op de toegestane lijst van een drager bent, hebt u ook toegang tot de kopballen van abonneeidentiteitskaart die u anders niet kunt toegang hebben.
 
 De volgende lijst van kopballen wordt gebruikt om draadloze apparaten te identificeren. Het algoritme voor het verwerken van de kopteksten is:
 
