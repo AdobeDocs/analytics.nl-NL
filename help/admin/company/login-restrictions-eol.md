@@ -2,14 +2,17 @@
 title: Einde van levensduur voor [!UICONTROL Noodzakelijke IP-aanmeldbeperkingen afdwingen]
 description: Leer over de timing en implicaties aan het einde van de levensduur voor [!UICONTROL dwingt IP login beperkingen af]
 translation-type: tm+mt
-source-git-commit: 940638b77f800b471f1ce4097a8ca6de98d518d3
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '531'
+ht-degree: 0%
 
 ---
 
 
 # Einde van de levensduur voor [!UICONTROL Enforce IP login restrictions]
 
-Met de functie **[Inlogbeperkingen](/help/admin/company/security-manager.md)**voor IP-aanmelding afdwingen in Adobe Analytics kunt u specifieke IP-adressen (die veilig worden geacht) whitelist, zodat u zich met succes kunt aanmelden en toegang hebt tot uw Adobe Analytics-omgeving. In veel gevallen, wordt deze eigenschap gebruikt aan opstelling een collectief IP adres als enig veilig IP adres dat de gebruikers kunnen login van. Om Adobe Analytics te kunnen gebruiken, moeten gebruikers zich daarom op een kantoor bevinden of zich via VPN aanmelden bij het netwerk.
+Met de functie **[Inlogbeperkingen](/help/admin/company/security-manager.md)**voor IP-aanmelding afdwingen in Adobe Analytics kunt u specifieke IP-adressen (die veilig worden geacht) toevoegen aan een lijst met &#39;toegestane&#39; adressen, zodat u zich met succes kunt aanmelden en toegang hebt tot uw Adobe Analytics-omgeving. In veel gevallen, wordt deze eigenschap gebruikt aan opstelling een collectief IP adres als enig veilig IP adres dat de gebruikers kunnen login van. Om Adobe Analytics te kunnen gebruiken, moeten gebruikers zich daarom op een kantoor bevinden of zich via VPN aanmelden bij het netwerk.
 
 We zijn van plan om deze functie in januari 2021 te beëindigen.
 
