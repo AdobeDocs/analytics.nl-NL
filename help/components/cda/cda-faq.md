@@ -2,9 +2,9 @@
 title: Veelgestelde vragen over cross-device analyse
 description: Veelgestelde vragen over apparaatanalyse
 translation-type: tm+mt
-source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ In sommige situaties is het mogelijk dat meerdere personen zich aanmelden bij he
 
 **Hoe behandelt de apparatengrafiek situaties waarin één enkele persoon VEEL apparaten/ECIDs heeft?**
 
-In sommige situaties kan een individuele gebruiker een groot aantal ECID&#39;s koppelen. Dit kan voorkomen als de individu veel browsers of apps gebruikt, en kan worden verergerd als zij vaak koekjes ontruimen of de privé browser of incognito het doorbladeren wijze gebruiken. In de apparaatgrafiek wordt het aantal ECID&#39;s vastgelegd dat aan een bepaalde gebruikers-id is gekoppeld tot 200. Als een gebruikers-id aan te veel ECID&#39;s is gekoppeld, wordt in de apparaatgrafiek aangenomen dat de gebruikers-id ongeldig is en wordt de cluster die aan die gebruikers-id is gekoppeld, verwijderd. De gebruikersnaam wordt dan op de zwarte lijst weergegeven zodat deze in de toekomst niet opnieuw wordt genummerd. Het resultaat in CDA is dat het gedrag van gebruikers-id niet op verschillende apparaten is aangesloten.
+In sommige situaties kan een individuele gebruiker een groot aantal ECID&#39;s koppelen. Dit kan voorkomen als de individu veel browsers of apps gebruikt, en kan worden verergerd als zij vaak koekjes ontruimen of de privé browser of incognito het doorbladeren wijze gebruiken. In de apparaatgrafiek wordt het aantal ECID&#39;s vastgelegd dat aan een bepaalde gebruikers-id is gekoppeld tot 200. Als een gebruikers-id aan te veel ECID&#39;s is gekoppeld, wordt in de apparaatgrafiek aangenomen dat de gebruikers-id ongeldig is en wordt de cluster die aan die gebruikers-id is gekoppeld, verwijderd. De gebruikersnaam wordt vervolgens toegevoegd aan de lijst &quot;geblokkeerd&quot; om te voorkomen dat deze in de toekomst opnieuw wordt genummerd. Het resultaat in CDA is dat het gedrag van gebruikers-id niet op verschillende apparaten is aangesloten.
 
 **Wat is het verschil tussen de &#39;People&#39;-norm in CDA en de &#39;Unique Visitors&#39;-norm buiten CDA?**
 
