@@ -2,7 +2,10 @@
 title: linkExternalFilters
 description: Gebruik de variabele linkExternalFilters om het automatisch volgen van de afsluitverbinding te helpen.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 0%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 AppMeasurement biedt de capaciteit om verbindingen automatisch te volgen die buiten uw plaats richten. Als [`trackExternalLinks`](trackexternallinks.md) deze optie is ingeschakeld, wordt een verzoek om een afbeelding naar rechts verzonden wanneer een bezoeker op een koppeling klikt om uw site te verlaten. De `linkExternalFilters` en [`linkInternalFilters`](linkinternalfilters.md) variabelen bepalen welke verbindingen als intern/extern worden beschouwd.
 
-Als deze variabele een waarde bevat, gedraagt het automatisch volgen van de uitgangsverbinding zich op een whitelist-als manier. Als een koppelingsklik niet aan om het even welke `linkExternalFilters` waarden aanpast, wordt het beschouwd als geen uitgangsverbinding. De volledige URL wordt op basis van deze variabele gecontroleerd. Als [`linkLeaveQueryString`](linkleavequerystring.md) wordt toegelaten, wordt het vraagkoord ook onderzocht.
+Als deze variabele een waarde bevat, gedraagt het automatisch volgen van de uitgangsverbinding zich als &quot;toegestane&quot;lijst. Als een koppelingsklik niet aan om het even welke `linkExternalFilters` waarden aanpast, wordt het beschouwd als geen uitgangsverbinding. De volledige URL wordt op basis van deze variabele gecontroleerd. Als [`linkLeaveQueryString`](linkleavequerystring.md) wordt toegelaten, wordt het vraagkoord ook onderzocht.
 
 >[!TIP] Gebruik deze variabele alleen als u precies weet welke domeinen u als exit-koppelingen wilt beschouwen. Veel organisaties vinden dat het gebruiken voldoende `linkInternalFilters` is voor hun behoeften voor het bijhouden van de exit-koppeling en gebruiken deze functie niet `linkExternalFilters`.
 
@@ -47,6 +50,6 @@ Bekijk het volgende implementatievoorbeeld alsof dit is ingeschakeld `adobe.com`
 <!-- The following link is NOT considered an exit link, even though the link is outside adobe.com -->
 <a href = "example.org">Example link 1</a>
 
-<!-- The following link is an exit link because it matches the linkExternalFilters whitelist -->
+<!-- The following link is an exit link because it matches the linkExternalFilters "allowed" list -->
 <a href = "example.com">Example link 2</a>
 ```
