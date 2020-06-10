@@ -4,9 +4,9 @@ title: Segmenten maken
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: f50f33b456656200b4492e6fec2a441d4c29dfa3
+source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2023'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,7 @@ ht-degree: 0%
 
 # Segment Builder
 
-Het [!UICONTROL Segment Builder] biedt een canvas waarin u Metrisch, Dimensies, Segmenten en Gebeurtenissen kunt slepen en neerzetten om bezoekers te segmenteren op basis van de containerhiërarchische logica, regels en operatoren. Met dit geïntegreerde ontwikkelprogramma kunt u eenvoudige of complexe segmenten maken en opslaan die bezoekerskenmerken en -acties identificeren voor bezoeken en pagina-einden.
-
->[!IMPORTANT]
->
->We introduceerden dimensioneringsmodellen in de release van juni 2019. Zie #6 onder Web UI-functies hieronder.
+Met [!UICONTROL Segment Builder] deze interface kunt u eenvoudige of complexe segmenten maken die bezoekerskenmerken en -acties identificeren voor bezoeken en paginakijken. Het verstrekt een canvas om metrische afmetingen, gebeurtenissen, of andere segmenten te slepen en te laten vallen om bezoekers te segmenteren die op hiërarchische logica, regels, en exploitanten worden gebaseerd.
 
 Er zijn verscheidene manieren om tot de Bouwer van het Segment toegang te hebben:
 
@@ -28,42 +24,38 @@ Er zijn verscheidene manieren om tot de Bouwer van het Segment toegang te hebben
 * **[!UICONTROL Ad Hoc Analysis]**: [Segmenten maken in ad-hocanalyse](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
 * **[!UICONTROL Report Builder]**: [Voeg of geef segmenten in de Bouwer](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html)van het Rapport toe uit.
 
-## Gebruikersinterface van Segment Builder {#concept_643F2DF74C544796B58F4656ABC5F726}
+## Builder-criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
-Met [!UICONTROL Segment Builder] deze interface kunt u eenvoudige of complexe segmenten maken die bezoekerskenmerken en -acties identificeren voor bezoeken en paginakijken. Het verstrekt een canvas om metrische afmetingen, gebeurtenissen, of andere segmenten te slepen en te laten vallen om bezoekers te segmenteren die op hiërarchische logica, regels, en exploitanten worden gebaseerd.
-
-## Functies webinterface {#section_F61C4268A5974C788629399ADE1E6E7C}
-
-Met [!UICONTROL Segment Builder] deze opties kunt u segmenten maken en bewerken in de webinterface (of in een gebruikersinterface van [Java in ad hoc-analyse](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)). U kunt regeldefinities en containers toevoegen om uw segmenten, stapelsegmenten te verfijnen en ze te nesten om ze te verfijnen. U kunt ook valideren hoeveel paginaweergaven, bezoeken en unieke bezoekers het resultaat zijn van uw huidige segmentdefinitie. Sla het segment vervolgens op voor toekomstige behoeften.
-
-Heb toegang tot de Bouwer van het Segment door:
-
-* Een bestaand rapport weergeven en klikken op het pictogram Segmenten ![](assets/segment_icon.png) in de linkernavigatie. Klik in de segmenttrack die wordt weergegeven **[!UICONTROL Add]**.
-
-* Klik in Segmentbeheer op **[!UICONTROL + Add]**.
-* Klik op een bestaande segmenttitel in Segmentbeheer om het segment te bewerken in Segmentbouwer.
+U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
 
 ![](assets/segment_builder_ui.png)
 
-1. **[!UICONTROL Title]**: Hiermee kunt u het segment een naam geven of de naam ervan wijzigen.
-1. **[!UICONTROL Description]**: Geef een beschrijving voor het segment op. U moet een beschrijving opgeven als u het segment wilt delen.
+1. **[!UICONTROL Title]**: Geef het segment een naam.
+1. **[!UICONTROL Description]**: Geef een beschrijving voor het segment op.
 1. **[!UICONTROL Tags]**: [Tags toewijzen aan het segment](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) dat u maakt door het te kiezen uit een lijst met bestaande tags of door een nieuwe tag te maken.
-1. **[!UICONTROL Definitions]**: Dit is waar u segmenten [](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)bouwt en vormt, regels, en nest en opeenvolgingscontainers toevoegt. Hiermee kunt u een beschrijving voor het nieuwe segment opgeven door de container te selecteren en afmetingen, segmenten of metriek te slepen en neer te zetten in de definitie.
+1. **[!UICONTROL Definitions]**: Dit is waar u segmenten [](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)bouwt en vormt, regels, en nest en opeenvolgingscontainers toevoegt.
 1. **[!UICONTROL Show]**: (Selector bovenste container.) Hiermee kunt u de [container](/help/components/c-segmentation/seg-overview.md) op hoofdniveau selecteren ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). De standaard container op hoofdniveau is de container Actief.
 1. **[!UICONTROL Options]**: (tandwiel) pictogram
 
    * **[!UICONTROL + Add container]**: Hiermee kunt u een nieuwe container (onder de container op het hoogste niveau) toevoegen aan de segmentdefinitie.
-   * **[!UICONTROL + Add container from selection]**: Hiermee kunt u een nieuwe container maken van de elementen die u (meerdere) hebt geselecteerd in het veld Definities.
    * **[!UICONTROL Exclude]**: Hiermee kunt u het segment definiëren door een of meer dimensies, segmenten of metriek uit te sluiten.
 
-1. **[!UICONTROL Attribution Models]**: Voor dimensiesegmentatie. Dimensiemodellen zijn vooral handig voor opeenvolgende segmentatie, zoals bij modellen die stroomvisualisatie ondersteunen:
+1. **[!UICONTROL Attribution Models]**: Deze modellen zijn alleen beschikbaar voor dimensies. Met deze modellen wordt bepaald voor welke waarden in een dimensie een segment moet worden gemaakt. Dimensiemodellen zijn met name handig bij sequentiële segmentatie.
 
    * **[!UICONTROL Repeating]** (standaard): Bevat varianten en doorlopende waarden voor de dimensie.
    * **[!UICONTROL Instance]**: Bevat exemplaren voor de dimensie.
-   * **[!UICONTROL Non-repeating instance]**: Hiermee worden unieke (niet-herhalende) instanties voor de dimensie opgenomen.
+   * **[!UICONTROL Non-repeating instance]**: Hiermee worden unieke (niet-herhalende) instanties voor de dimensie opgenomen. Dit is het model dat wordt toegepast in Flow wanneer herhaalde instanties worden uitgesloten.
    ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL Comparison]**: U kunt waarden vergelijken en beperken gebruikend geselecteerde exploitanten.
+   **Voorbeeld: Het segment van de hoogte waar eVar1 = A**
+
+   | Voorbeeld | A | A | A (blijft bestaan) | B | A | C |
+   |---|---|---|---|---|---|---|
+   | Herhalend | X | X | X | - | X | - |
+   | Instance | X | X | - | - | X | - |
+   | Niet-herhalende instantie | X | - | - | - | X | - |
+
+1. **[!UICONTROL Operator]**: U kunt waarden vergelijken en beperken gebruikend geselecteerde exploitanten.
 1. **[!UICONTROL Dimensions]**: Dimensies worden gesleept en verwijderd uit de lijst Dimensies (oranje zijbalk).
 1. **[!UICONTROL Value]**: De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het segment of metrisch.
 1. **[!UICONTROL And/Or/Then]**: Wijst de [!UICONTROL AND/OR/THEN] operatoren toe tussen containers of regels. Met de operator THEN kunt u opeenvolgende segmenten [](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)definiëren.
@@ -76,7 +68,7 @@ Heb toegang tot de Bouwer van het Segment door:
 1. **[!UICONTROL Dimensions]**: (Lijst) Klik de kopbal om uit te breiden.
 1. **[!UICONTROL Metrics]**: Klik op de koptekst om deze uit te vouwen.
 1. **[!UICONTROL Segments]**: Klik op de koptekst om deze uit te vouwen.
-1. **[!UICONTROL Report suite selector]**: Hiermee selecteert u de rapportsuite waarin dit segment wordt opgeslagen. U kunt het segment in alle rapportreeksen nog gebruiken.
+1. **[!UICONTROL Report suite selector]**: Hiermee selecteert u de rapportsuite waarin dit segment wordt opgeslagen. U kunt het segment in alle rapportsuites nog gebruiken.
 1. **[!UICONTROL Segment Preview]**: Hiermee kunt u een voorvertoning van de belangrijkste metriek bekijken om te zien of u een geldig segment hebt en hoe breed het segment is. Geeft de uitsplitsing aan van de gegevensset die u kunt verwachten om te zien of u dit segment toepast. Toont 3 concentrische cirkels en een lijst om het aantal en het percentage gelijken voor, [!UICONTROL Hits]en [!UICONTROL Visits][!UICONTROL Visitors] voor een segment te tonen dat tegen een gegevensreeks in werking wordt gesteld. Dit diagram wordt meteen bijgewerkt nadat u de segmentdefinitie hebt gemaakt of gewijzigd.
 1. **[!UICONTROL Product Compatibility]**: Verstrekt een lijst waarvan de producten van de Analyse van Adobe (de Werkruimte van de Analyse, [!UICONTROL Reports & Analytics]Ad hoc Analyse, het Pakhuis van Gegevens) waarmee het segment u creeerde compatibel is. De meeste segmenten zijn compatibel met alle producten. Niet alle operatoren en dimensies zijn echter compatibel met alle analytische producten, met name [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Dit diagram wordt onmiddellijk bijgewerkt nadat u veranderingen in uw segmentdefinitie aanbrengt.
 
@@ -113,7 +105,7 @@ De segmenten met ingebedde datumwaaiers blijven verschillend in de Werkruimte va
 
 U wordt nu gebracht aan de Manager [van het](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md)Segment, waar u, uw segment kunt etiketteren delen en beheren op veelvoudige manieren.
 
-## Containers bouwen en nesten {#section_1C38F15703B44474B0718CEF06639EFD}
+## Containers toevoegen {#section_1C38F15703B44474B0718CEF06639EFD}
 
 U kunt een kader van containers [](/help/components/c-segmentation/seg-overview.md) bouwen en dan logische regels en exploitanten tussen plaatsen.
 
@@ -133,7 +125,7 @@ U kunt een kader van containers [](/help/components/c-segmentation/seg-overview.
 
    Selecteer een of meer regels en klik op **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**. Hierdoor verandert uw selectie in een aparte container.
 
-## Datumbereiken gebruiken in segmenten {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
+## Datumbereiken gebruiken {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
 U kunt segmenten bouwen die het rollen datumwaaiers bevatten om vragen over aan de gang zijnde campagnes of gebeurtenissen te beantwoorden.
 
@@ -145,7 +137,7 @@ U creeert een container van het Bezoek en binnen het, voeg de [!UICONTROL Last 6
 
 ## Segmenten stapelen {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
-Het stapelen van segmenten werkt door de criteria in elk segment te combineren gebruikend een &quot;en&quot;exploitant, en dan de gecombineerde criteria toe te passen.
+Het stapelen van segmenten werkt door de criteria in elk segment te combineren gebruikend een &quot;en&quot;exploitant, en dan de gecombineerde criteria toe te passen. Dit kan in een project van de Werkruimte direct of in segmentbouwer worden gedaan.
 
 Het stapelen van bijvoorbeeld een segment van &quot;mobiele telefoongebruikers&quot; en een segment van &quot;Amerikaanse geografie&quot; zou alleen gegevens voor mobiele telefoongebruikers in de VS retourneren.
 
@@ -175,17 +167,11 @@ Door segment het stapelen te gebruiken, kunt u uw segmentaantal tot 22 verminder
 
    Stap resultaat
 
-## Segmentsjablonen gebruiken {#concept_5098446CC78D441E93B8E4D1D1EA6558}
+## Segmentsjablonen {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-De malplaatjes vertegenwoordigen de oude pre-gevormde en reekssegmenten.
+Segmentsjablonen worden aangeboden voor algemene segmentatiegebruikstoepassingen, zoals &quot;Eerste bezoeken&quot; of &quot;Lijsten van mobiele apparaten&quot;. Zij zijn beschikbaar in de projecten van de Werkruimte en in de segmentbouwer als bouwstenen voor nieuwe segmenten.
 
-In de Manager van het Segment, klik **[!UICONTROL Add]**, die u aan de Bouwer van het Segment neemt. Klik nu op het pictogram Segmenten  ![](assets/segment_icon.png)
-
-het segment &quot;spoorstaaf&quot; te verhogen. De segmentmalplaatjes verschijnen bij de bodem van de segmentlijst. Ze zijn herkenbaar aan een mappictogram links van de sjabloonnaam:
-
-![](assets/seg_template.png)
-
-U kunt deze sjablonen naar het canvas Definities slepen en ze gebruiken zoals ze zijn gedefinieerd, of ze wijzigen.
+Sjablonen worden aangeduid met het &quot;A&quot;-logo van Adobe. Hieronder vindt u een voorbeeld van de sjablonen:
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -270,14 +256,3 @@ U kunt deze sjablonen naar het canvas Definities slepen en ze gebruiken zoals ze
  </tbody> 
 </table>
 
-## Voorbeeld: Segment Campagnebezoekers {#concept_61AC6115097B4EB3AEFE8CE98F38315D}
-
-Toont een voorbeeld van dit vaak gebruikte segment.
-
-Veel klanten willen meetgegevens zien van bezoekers die op specifieke campagnes hebben gereageerd. Het creëren van een segment van campagnebezoekers is een gemakkelijke manier om deze gegevens te krijgen.
-
-Bouwend dit segment in de Bouwer van het Segment betekent dat van een container van het Bezoek van het hoogste niveau, u in een campagnedimensie, in dit geval de Naam van de Campagne sleept:
-
-![](assets/seg_campaign_visitor.png)
-
-(Optioneel) U kunt ook een tag Campagnes toepassen op dit segment als u gemakkelijk wilt filteren op al uw aan de campagne gerelateerde segmenten.
