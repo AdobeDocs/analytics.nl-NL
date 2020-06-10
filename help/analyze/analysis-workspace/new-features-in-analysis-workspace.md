@@ -1,41 +1,44 @@
 ---
-description: Nieuwe functies in de analysewerkruimte.
+description: New features in Analysis Workspace.
 keywords: Analysis Workspace
-title: Nieuwe functies in de analysewerkruimte
+title: Nieuwe functies in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+workflow-type: tm+mt
+source-wordcount: '7195'
+ht-degree: 1%
 
 ---
 
 
-# Nieuwe functies in de analysewerkruimte
+# Nieuwe functies in Analysis Workspace
 
-## april 2020
+## April 2020
 
 Nieuwe functie uitgebracht op 16 april 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| Automatisch samenstellen [!UICONTROL Freeform Tables] vanuit een leeg frame | Eerder kon u componenten niet direct in een leeg project of leeg paneel laten vallen; u moest eerst een vrije vormlijst toevoegen. U kunt componenten nu rechtstreeks in een leeg project of deelvenster neerzetten. Een vrije-vormtabel wordt automatisch voor u gemaakt in een aanbevolen indeling. Bovendien zijn verbeteringen aangebracht in de manier waarop gemengde componenttypen (zoals afmetingen en metriek) worden verwerkt wanneer deze samen in een lege component worden neergezet [!UICONTROL Freeform Table] . |
+| automatisch [!UICONTROL Freeform Tables] samenstellen vanuit een lege status | Eerder kon u componenten niet direct in een leeg project of leeg paneel laten vallen; u moest eerst een vrije vormlijst toevoegen. U kunt componenten nu rechtstreeks in een leeg project of deelvenster neerzetten. Een vrije-vormtabel wordt automatisch voor u gemaakt in een aanbevolen indeling. Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
 
 ## Maart 2020
 
-Nieuwe functies uitgebracht op 12 maart 2020.
+New features released on March 12, 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| Ondersteuning voor meerdere rapportsuite in Workspace | U kunt gegevens van veelvoudige rapportreeksen in één enkel project nu brengen om zij aan zij te bekijken. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| Sjabloon voor trainingszelfstudie | Dit nieuwe standaardmalplaatje begeleidt u door gemeenschappelijke terminologie en stappen voor het bouwen van uw eerste analyse in Werkruimte. Het is beschikbaar als standaardmalplaatje in Nieuw Project modaal en vervangt het steekproefproject dat vandaag voor nieuwe gebruikers bestaat die geen andere projecten in hun lijst hebben. [Meer informatie...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| Support for multiple report suites in Workspace | You can now bring in data from multiple report suites into a single project to view side by side. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| Training Tutorial template | This new standard template walks you through common terminology and steps for building your first analysis in Workspace. It is available as a standard template in the New Project modal and replaces the sample project that exists today for new users that do not have other projects in their list. [Meer informatie...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## Februari 2020
 
-Nieuwe functies uitgebracht op 20 februari 2020.
+New features released on February 20, 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| Nieuwe werkruimtemalplaatje voor organisaties die Apparaatanalyse gebruiken | In deze sjabloon ziet u hoe effectief CDA is bij het samenvoegen van bezoeken en leert u over exclusieve CDA-dimensies en metriek. Er is een rapportenpakket met CDA vereist. Zie [Apparaatanalyse](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) instellen voor meer informatie. |
-| Nieuwe sneltoetsen in Workspace | <ul><li>Alle deelvensters samenvouwen/uitvouwen: `alt + m`</li><li>Actief deelvenster samenvouwen/uitvouwen: `alt + ctrl + m`</li><li>Linkerspoor zoeken: `ctrl + /`</li><li>Naar volgend deelvenster gaan: `alt + Right Key`</li><li>Naar vorig deelvenster gaan: `alt + Left Key`</li></ul>[Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| Andere werkruimtesamenhogingen | <ul><li>Wanneer een deelvenster of visualisatie in Workspace wordt neergezet, wordt automatisch overgeschakeld naar componenten voor een naadloze workflow.</li><li>Sjablooncomponenten kunnen nu worden geactiveerd (bijvoorbeeld gelabeld, geprivilegieerd, goedgekeurd).</li><li>De gefilterde metrische lijst en de segmentlijsten bieden + knoop aan om een nieuwe component toe te voegen als u niet vindt wat u nodig hebt.</li></ul> |
+| New Workspace template for organizations using Cross-Device Analytics | This template shows how effective CDA is at stitching visits together and educates you on CDA-exclusive dimensions and metrics. A report suite using CDA is required. See [Setting up Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) for more information. |
+| New hotkeys in Workspace | <ul><li>Collapse/Expand All panels: `alt + m`</li><li>Collapse/Expand Active panel: `alt + ctrl + m`</li><li>Search left rail: `ctrl + /`</li><li>Move to next panel: `alt + Right Key`</li><li>Naar vorig deelvenster gaan: `alt + Left Key`</li></ul>[Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Andere werkruimtesamenhogingen | <ul><li>Wanneer een deelvenster of visualisatie in Workspace wordt neergezet, wordt automatisch overgeschakeld naar componenten voor een naadloze workflow.</li><li>Template components can now be actioned upon (e.g. tagged, favorited, approved).</li><li>De gefilterde metrische lijst en de segmentlijsten bieden + knoop aan om een nieuwe component toe te voegen als u niet vindt wat u nodig hebt.</li></ul> |
 | Foutopsporing werkruimte | Foutopsporing van de Werkruimte is toegevoegd aan het menu van de Hulp, die u een naadloze manier geeft om het voor het zuiveren van de verzoeken van de Werkruimte toe te laten. [Meer informatie...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## Januari 2020
@@ -44,16 +47,16 @@ Nieuwe functie uitgebracht op 16 januari 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| [Freeform Table Builder](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Met toegelaten de Bouwer van de Lijst, kunt u slepen en in vele dimensies, onderverdelingen, metriek en segmenten laten vallen om lijsten te bouwen die complexere bedrijfsvragen beantwoorden. Gegevens worden niet meteen bijgewerkt. In plaats daarvan vindt de update plaats nadat u hebt geklikt **[!UICONTROL Build]**, zodat u tijd bespaart wanneer u weet welke tabel u wilt samenstellen. Bovendien biedt deze functie:<ul><li>**Voorvertoning**: U kunt een voorvertoning van de indeling van een tabel weergeven voordat u tijd besteedt aan het renderen van echte gegevens.</li><li>**Flexibele instellingen voor** rij en uitsplitsing: U kunt uw rij en verdelingsniveaus voor elke afmetingsrij plaatsen. Eerder werden in Workspace standaardinstellingen ingesteld die pas konden worden gewijzigd nadat de gegevens waren geretourneerd.</li><li>**Uitsplitsing naar positie**: U kunt afmetingsrijen instellen op altijd _uitsplitsing naar positie_ in plaats van _op een bepaald item_ (de standaardinstelling).</li><li>**Handmatige statische rijvolgorde**: U kunt statische rijen handmatig ordenen, zodat de tabelrijen precies zo worden weergegeven als u ze nodig hebt. Eerder konden statische rijen alleen worden gesorteerd met een metrische kolom of alfabetisch.</li></ul> |
+| [Freeform Table Builder](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Met toegelaten de Bouwer van de Lijst, kunt u slepen en in vele dimensies, onderverdelingen, metriek en segmenten laten vallen om lijsten te bouwen die complexere bedrijfsvragen beantwoorden. Gegevens worden niet meteen bijgewerkt. In plaats daarvan vindt de update plaats nadat u hebt geklikt **[!UICONTROL Build]**, zodat u tijd bespaart wanneer u weet welke tabel u wilt samenstellen. Additionally, this feature offers:<ul><li>**Preview**: You can preview the format of a table before spending time to render real data.</li><li>**Flexible Row and breakdown settings**: You can set your row and breakdown levels for every dimension row. Previously, Workspace imposed defaults that could not be changed until after the data was returned.</li><li>**Breakdown by position**: You can set dimension rows to always _breakdown by position_ instead of _by specific item_ (the default).</li><li>**Manual static row ordering**: You can manually order static rows so that the table rows are displayed exactly as you need them. Previously, static rows could be sorted only by a metric column or alphabetically.</li></ul> |
 
 ## Oktober 2019
 
-Verbeteringen die zijn uitgebracht op 10 oktober 2019.
+Enhancements released on October 10, 2019.
 
-| Verbetering | Beschrijving |
+| Enhancement | Beschrijving |
 |--- |--- |
 | Totalen van tabellen voor vrije vorm bijwerken | Vrije-vormtabellen bevatten nu twee totalen, a **[!UICONTROL Table total]** en a **[!UICONTROL Grand total]**. De tabel totaal rijrekeningen voor toegepaste [rapportfilters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) . Voorheen beïnvloedde alleen de segmentatie de totalen. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>Daarnaast zijn **[!UICONTROL Show Totals]** en **[!UICONTROL Show Grand Total]** opties toegevoegd aan **[!UICONTROL Column Settings]**.<br/>Met deze wijziging in de totalen van Freeform worden afhankelijke visualisaties bijgewerkt (bijv. gekoppelde **[!UICONTROL Summary Number]** visualisaties) en worden geëxporteerde CSV- en PDF-gegevens. |
-| Optie om Niet-opgegeven/Geen te verwijderen | De mogelijkheid om &quot;Niet gespecificeerd (niets)&quot; gemakkelijk te verwijderen is toegevoegd als optie om filters te melden. |
+| Optie voor het verwijderen van Niet-opgegeven/Geen | De mogelijkheid om &quot;Niet gespecificeerd (niets)&quot; gemakkelijk te verwijderen is toegevoegd als optie om filters te melden. |
 | Afwijking van componenten van paarse korreligheid | De componenten voor de paarse korreligheid (Minuut, Uur, Dag, Week, Maand, Kwart, Jaar) zijn afgekeurd. De componenten voor paarse tijd hebben zich altijd precies gedragen als hun tegenhangers voor oranje dimensies, zodat deze verandering de ervaring zal vereenvoudigen. **Er hoeft geen actie** te worden ondernomen als u eerder een van de paarse tijdcomponenten hebt gebruikt.<br/>Door deze wijziging is de naam van de paarse **[!UICONTROL Time]** sectie ook gewijzigd in **[!UICONTROL Date Ranges]**. |
 
 ## Augustus 2019
@@ -115,7 +118,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 1 november 2018.
 
 | Functie | Beschrijving |
 |--- |--- |
-| [VRS en projectcursus - verbeteringen](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) | Deze wijzigingen zijn in oktober 2018 ingevoerd. Er zijn wijzigingen aangebracht in welke componentbeheerders en niet-beheerders kunnen zien in samengevoegde Workspace-projecten en beheerde virtuele rapporten (VRS&#39;s). <br> Eerder kon iedereen de niet-gebogen componenten zien wanneer het klikken toont alle Componenten. De bijgewerkte curvaring maakt het mogelijk om met meer korrel te bepalen welke componenten zichtbaar zijn.</br> |
+| [VRS en projectcursus - verbeteringen](/help/analyze/analysis-workspace/curate-share/curate.md) | Deze wijzigingen zijn in oktober 2018 ingevoerd. Er zijn wijzigingen aangebracht in welke componentbeheerders en niet-beheerders kunnen zien in samengevoegde Workspace-projecten en beheerde virtuele rapporten (VRS&#39;s). <br> Eerder kon iedereen de niet-gebogen componenten zien wanneer het klikken toont alle Componenten. De bijgewerkte curvaring maakt het mogelijk om met meer korrel te bepalen welke componenten zichtbaar zijn.</br> |
 
 ## Oktober 2018
 
@@ -207,7 +210,7 @@ Nieuwe en verbeterde functies die zijn uitgebracht op 19 juli 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > Attributie-IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > Attribution IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>Met Attribution IQ kunt u geavanceerde en intelligente analyses uitvoeren op het gebied van marketingprestaties. De nieuwe attributiemodellen kunnen op metriek in de Werkruimte van de Analyse (op om het even welke lijst of op om het even welke verdeling) en in berekende metriek worden gebruikt. Een nieuw deelvenster Kenmerken biedt een betere visualisatie en vergelijking. </p> </td> 
   </tr> 
   <tr> 
@@ -1000,7 +1003,7 @@ Nieuwe functies uitgebracht op 21 april 2016:
  <tbody> 
   <tr> 
    <td colname="col1"> Bestand verzenden </td> 
-   <td colname="col2"> <p>Verzend een project van de Werkruimte van de Analyse via e-mail, of planning het voor levering. Zie Bestand verzenden - Een project plannen voor levering <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > </a>. </p> </td> 
+   <td colname="col2"> <p>Verzend een project van de Werkruimte van de Analyse via e-mail, of planning het voor levering. See <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Send File - Schedule a project for delivery </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> PDF downloaden </td> 
@@ -1069,7 +1072,7 @@ U kunt zien hoe een waarde u in vergelijkt met of tegen andere prestatieswaaiers
 
 De grafiek van het opsommingsteken bevat één enkele, primaire maatregel (bijvoorbeeld de huidige-aan-datum-inkomsten), vergelijkt die maatregel met één of meerdere andere maatregelen om zijn betekenis te verrijken (bijvoorbeeld, in vergelijking met een doelopbrengst), en toont het in de context van kwalitatieve waaiers van prestaties, zoals hoog, midden, en laag. U kunt doelbereiken opgeven in [!UICONTROL Visualization Settings].
 
-**Scatterplot**
+**Spreidingsdiagram**
 
 ![](assets/scatter.png)
 
@@ -1077,7 +1080,7 @@ Toont geserveerde indrukken en hoeveel unieke gebruikers die indrukken hebben ge
 
 >[!NOTE] Voor een tabel die is gekoppeld aan een Scatterplot-diagram zijn ten minste twee kolommen vereist. De eerste kolom definieert de X-as en de tweede kolom definieert de Y-as. Als er een derde kolom beschikbaar is, gebruikt de grafiek van het Scatterplot het om de straal van de punt te bepalen. Met andere woorden, de kolommen *1*, *2* en *3* zijn toegewezen aan *X*, *Y*** en de  puntstraal.
 
-**Treemap**
+**Boomgrafiek**
 
 Hiermee worden hiërarchische gegevens (met structuur van structuur) weergegeven als een set geneste rechthoeken. Elke vertakking van de boomstructuur krijgt een rechthoek die vervolgens naast elkaar wordt geplaatst met kleinere rechthoeken die subvertakkingen vertegenwoordigen.
 
