@@ -6,7 +6,10 @@ title: Referentie gegevenskolom
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '3650'
+ht-degree: 0%
 
 ---
 
@@ -145,7 +148,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `new_visit` | Markering die bepaalt of de huidige treffer een nieuw bezoek is. Door Adobe-servers ingesteld na 30 minuten inactiviteit van het bezoek. | tinyint zonder teken |
 | `os` | Numerieke id die het besturingssysteem van de bezoeker vertegenwoordigt. Gebaseerd op de user_agent kolom. Gebruikt de zoekopdracht. | int zonder teken |
 | `p_plugins` | Niet meer gebruikt. Lijst met plug-ins die beschikbaar zijn voor de browser. Gebruikt de JavaScript functie navigator.plugins(). | text |
-| `page_event` | Het type hit dat wordt verzonden in de aanvraag voor de afbeelding (standaardhit, downloadkoppeling, aangepaste koppeling, afsluitkoppeling). Zie Opzoeken naar [paginagebeurtenissen](datafeeds-page-event.md). | tinyint zonder teken |
+| `page_event` | Het type hit dat wordt verzonden in de aanvraag voor de afbeelding (standaardhit, downloadkoppeling, aangepaste koppeling, afsluitkoppeling). See [Page event lookup](datafeeds-page-event.md). | tinyint zonder teken |
 | `page_event_var1` | Wordt alleen gebruikt in aanvragen voor het bijhouden van koppelingen. De URL van de downloadkoppeling, exit-koppeling of aangepaste koppeling waarop is geklikt. | text |
 | `page_event_var2` | Wordt alleen gebruikt in aanvragen voor het bijhouden van koppelingen. De aangepaste naam (indien opgegeven) van de koppeling. | varchar(100) |
 | `page_event_var3` | Niet meer gebruikt. Bevat gegevens van de module Enquête en Media. Bevolkt verouderde videorapporten in vorige versies van Adobe Analytics. | text |
@@ -256,8 +259,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `videoshow` | Videoshow | varchar(255) |
 | `videoshowtype` | Type video-presentatie | varchar(255) |
 | `videostreamtype` | Type videostream | varchar(255) |
-| `visid_high` | Wordt gebruikt in combinatie met visid_low om een bezoek uniek te identificeren. | bigint zonder teken |
-| `visid_low` | Wordt gebruikt in combinatie met visid_high om een bezoek uniek te identificeren. | bigint zonder teken |
+| `visid_high` | Wordt gebruikt in combinatie met visid_low om een bezoeker op unieke wijze te identificeren. | bigint zonder teken |
+| `visid_low` | Wordt gebruikt in combinatie met visid_high om een bezoeker op unieke wijze te identificeren. | bigint zonder teken |
 | `visid_new` | Markering om te bepalen of de treffer een onlangs gegenereerde bezoeker-id bevat. | teken(1) |
 | `visid_timestamp` | Als de bezoeker-id pas is gegenereerd, geeft u het tijdstempel (in Unix-tijd) op van het tijdstip waarop de bezoeker-id is gegenereerd. | int |
 | `visid_type` | Numerieke id die aangeeft welke methode is gebruikt om de bezoeker te identificeren. <br>0: Aangepaste bezoeker-id <br>1: IP en gebruikersagent fallback <br>2: Koptekst HTTP Mobile-abonnee <br>3: Verouderde cookie-waarde (s_vi) <br>4: Waarde van fallback-cookie (s_fid) <br>5: Identiteitsservice | tinyint zonder teken |
