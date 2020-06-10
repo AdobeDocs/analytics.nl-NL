@@ -5,9 +5,9 @@ subtopic: Visitors
 title: Unieke bezoekers identificeren
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1902'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ U kunt ook een &#39;1&#39; of een &#39;5&#39; doorgeven in handmatige afbeelding
 
 De methode van abonneeID is over het algemeen betrouwbaarder dan een cookie voor gebruikersidentificatie vanwege het verwijderen van cookies, problemen met de acceptatie van cookies en problemen met het beheer van gatewaycookies.
 
-U kunt wijzigingen in de identificatie van een bezoeker verbeteren door deze toe te voegen aan de lijst &quot;toegestaan&quot; voor de provider die uw mobiele bezoekers gebruiken. Als u toegang wilt tot de bezoeker-id van de vervoerder, neemt u contact op met de provider om uw domein toe te voegen aan de lijst met &#39;toegestane&#39; personen. Als u op de toegestane lijst van een drager bent, hebt u ook toegang tot de kopballen van abonneeidentiteitskaart die u anders niet kunt toegang hebben.
+U kunt wijzigingen in de identificatie van een bezoeker verbeteren door deze toe te voegen aan de lijst met toegestane aantallen voor de provider die uw mobiele bezoekers gebruiken. Als u toegang wilt tot de bezoeker-id van de vervoerder, neemt u contact op met de provider om uw domein toe te voegen aan de lijst met toegestane items. Als u op de toegestane lijst van een drager bent, hebt u ook toegang tot de kopballen van abonneeidentiteitskaart die u anders niet kunt toegang hebben.
 
 De volgende lijst van kopballen wordt gebruikt om draadloze apparaten te identificeren. Het algoritme voor het verwerken van de kopteksten is:
 
