@@ -5,7 +5,10 @@ title: Conversie
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +29,7 @@ Als u een weergavegebeurtenis opgeeft, moet u ook de corresponderende gegevensdi
 | Datum | Gebruik de volgende datumnotatie:  MM/DD/YYYY/HH/mm/SS (bijvoorbeeld 01/01/2015/06/00/00) |
 | Categorie | Naam categorie.  Als u een categorie opgeeft, moet u ook een product selecteren. |
 | Kanaal | Kanaalnaam. |
-| Varn | Varkensnaam. Geldige waarden voor n zijn geheel getal 1 - 75. |
+| Varn | Varkensnaam. Geldige waarden voor n zijn geheel getal 1 - 250. |
 | Product | Productnaam. |
 | Staat | Framenaam. |
 | Postcode | Postnaam. |
@@ -42,7 +45,7 @@ Als u een weergavegebeurtenis opgeeft, moet u ook de corresponderende gegevensdi
 | Kleuraweergaven | Aantal winkelwagentjes. |
 | Afbeeldingen | Aantal kassa&#39;s. |
 | Gebeurtenis n | Aantal keren dat gebeurtenis n heeft plaatsgevonden. Geldige waarden voor n zijn geheel getal 1 - 100.  Als u een weergavegebeurtenis opgeeft, moet u ook de corresponderende gegevensdimensie (eVar) opgeven. Als u bijvoorbeeld Var2-weergaven opneemt, moet u Var2 met een waarde weergeven. |
-| Diverse weergaven | Aantal malen dat eVar n is weergegeven. Geldige waarden voor n zijn geheel getal 1 - 75. |
+| Diverse weergaven | Aantal malen dat eVar n is weergegeven. Geldige waarden voor n zijn geheel getal 1 - 250. |
 | Prijs | Productprijs. |
 | Orders | Aantal geplaatste bestellingen. |
 | Productweergaven | Aantal productweergaven. |
