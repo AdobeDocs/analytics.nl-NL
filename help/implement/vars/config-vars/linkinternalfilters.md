@@ -2,9 +2,9 @@
 title: linkInternalFilters
 description: Gebruik de variabele linkInternalFilters om het automatisch volgen van de uitgangsverbinding te helpen.
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 AppMeasurement biedt de capaciteit om verbindingen automatisch te volgen die buiten uw plaats richten. Als [`trackExternalLinks`](trackexternallinks.md) deze optie is ingeschakeld, wordt een verzoek om een afbeelding naar rechts verzonden wanneer een bezoeker op een koppeling klikt om uw site te verlaten. De [`linkExternalFilters`](linkexternalfilters.md) en `linkInternalFilters` variabelen bepalen welke verbindingen als intern/extern worden beschouwd.
 
-Als deze variabele een waarde bevat, gedraagt het automatisch volgen van de uitgangsverbinding zich als een &quot;geblokkeerde&quot;lijst. Als een verbindingsklik geen waarden aanpast, wordt het beschouwd als een uitgangsverbinding. `linkInternalFilters` De volledige URL wordt op basis van deze variabele gecontroleerd. Als [`linkLeaveQueryString`](linkleavequerystring.md) wordt toegelaten, wordt het vraagkoord ook onderzocht.
+Als deze variabele een waarde bevat, gedraagt het automatisch volgen van de uitgangsverbinding zich als een blocklist. Als een verbindingsklik geen waarden aanpast, wordt het beschouwd als een uitgangsverbinding. `linkInternalFilters` De volledige URL wordt op basis van deze variabele gecontroleerd. Als [`linkLeaveQueryString`](linkleavequerystring.md) wordt toegelaten, wordt het vraagkoord ook onderzocht.
 
 Als u zowel `linkInternalFilters` als `linkExternalFilters` gelijktijdig gebruikt, moet de geklikte verbinding aanpassen `linkExternalFilters` en niet aanpassen **** `linkInternalFilters` om als uitgangsverbinding te worden beschouwd. Als een geklikte koppeling overeenkomt met zowel de afsluitings- als de downloadkoppelingscriteria, heeft het type downloadkoppeling prioriteit.
 
 >[!NOTE] `linkInternalFilters` en [Interne URL-filters](/help/admin/admin/internal-url-filter-admin.md) zijn afzonderlijke functies die voor verschillende doeleinden worden gebruikt. De `linkInternalFilters` variabele werkt specifiek voor het volgen van de uitgangsverbinding. Interne URL-filters zijn een Admin-instelling die helpt bij de dimensies van verkeersbronnen, zoals Refering Domain.
 
-## Uitgaande koppelingen - Nooit bijhouden in Adobe Experience Platform Starten
+## Uitgaande koppelingen - Nooit bijhouden in Adobe Experience Platform Launch
 
 Het veld Nooit bijhouden is een lijst met door komma&#39;s gescheiden filters (meestal domeinen) onder de [!UICONTROL Link Tracking] accordeon wanneer u de extensie Adobe Analytics configureert.
 
