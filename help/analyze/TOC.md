@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f29a9eef7dcdb0568a947521ca32f7aa0c2ce5b7
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 97%
+source-wordcount: '1099'
+ht-degree: 96%
 
 ---
 
@@ -93,8 +93,9 @@ ht-degree: 97%
          + [Gebruiksgevallen van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Statistische tests bij segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Projecten selecteren of delen {#curate-share}
-      + [Overzicht van selectie/delen](analysis-workspace/curate-share/curate.md)
-      + [VRS en projectselectie](analysis-workspace/curate-share/curate-projects-vrs.md)
+      + [Een Workspace-project trainen](analysis-workspace/curate-share/curate.md)
+      + [Werkruimteprojecten delen](analysis-workspace/curate-share/share-projects.md)
+      + [Alleen-weergeven werkruimteprojecten](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
       + [Projectbestanden delen en plannen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Bestand verzenden - levering van een project plannen](analysis-workspace/curate-share/t-schedule-report.md)
