@@ -2,7 +2,10 @@
 title: linkTrackVars
 description: Geef op welke variabelen u wilt opnemen in aanvragen voor het bijhouden van koppelingen.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 1%
 
 ---
 
@@ -11,9 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Sommige implementaties willen niet alle variabelen in alle verbinding het volgen beeldverzoeken omvatten. Gebruik de `linkTrackVars` en de [`linkTrackEvents`](linktrackevents.md) variabelen om afmetingen en metriek in [`tl()`](../functions/tl-method.md) vraag selectief te omvatten.
 
-Deze variabele wordt niet gebruikt voor de vraag van de paginamening (`t()` methode).
+Deze variabele wordt niet gebruikt voor de vraag van de paginamening ([`t()`](../functions/t-method.md) methode).
 
-## Variabelen in koppelingsreeksopvragen met Adobe Experience Platform Launch
+## Variabelen in koppelingsopvolging met Adobe Experience Platform Launch
 
 Start vult deze variabele automatisch op de achtergrond in op basis van variabelen die in de interface zijn ingesteld. Deze variabele wordt daarom altijd ingesteld in implementaties die Launch gebruiken.
 
@@ -24,7 +27,7 @@ Start vult deze variabele automatisch op de achtergrond in op basis van variabel
 De `s.linkTrackVars` variabele is een tekenreeks met een door komma&#39;s gescheiden lijst met variabelen die u wilt opnemen in aanvragen voor het bijhouden van koppelingen (`tl()` methode). Aan beide volgende criteria moet worden voldaan om afmetingen op te nemen in het volgen van koppelingen:
 
 * Stel de gewenste variabelewaarde in. Bijvoorbeeld, `s.eVar1 = "Example value";`.
-* Stel de gewenste variabele in de `linkTrackVars` variabele in. Bijvoorbeeld, `s.linkTrackEvents = "eVar1";`.
+* Stel de gewenste variabele in de `linkTrackVars` variabele in. Bijvoorbeeld, `s.linkTrackVars = "eVar1";`.
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
