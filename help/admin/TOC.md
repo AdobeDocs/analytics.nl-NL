@@ -1,10 +1,13 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics Admin Guide
+user-guide-title: Handleiding Analysebeheer
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 2%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 + [Help Analysebeheer](home.md)
 + Overzicht van Analysebeheer {#admin-overview}
-   + [Welk hulpprogramma van Adobe Analytics moet ik gebruiken?](c-analytics-product-comparison/which-analytics-tool.md)
+   + [Welke Adobe Analytics-tool moet ik gebruiken?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Analyse van productvergelijking en vereisten](c-analytics-product-comparison/analytics-product-comparison.md)
 + [Systeemvereisten](c-system-requirements/sys-reqs.md)
 + Admin Tools {#admin-tools}
@@ -42,7 +45,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
    + [Marketingkanalen](admin/marketing-channels-admin.md)
    + [Menu aanpassen](admin/customize-menus.md)
    + [Metrische zichtbaarheid](admin/metric-visibility.md)
-   + [Mobiel beheer](admin/mobile-management.md)
+   + [Toepassingsbeheer](admin/mobile-management.md)
    + Betaalde zoekdetectie {#paid-search-detection}
       + [Overzicht van betaalde zoekdetectie](admin/paid-search-detection/paid-search-detection.md)
       + [Betaalde zoekdetectie configureren](admin/paid-search-detection/t-paid-search-detection.md)
@@ -51,7 +54,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
    + [Voorkeursbeheer](admin/preferences-manager.md)
    + [Privacy-instellingen](admin/privacy-settings.md)
    + [Privacy-instellingen](admin/privacy-reporting.md)
-   + Verwerkingsregels {#processing-rules}
+   + Processing rules {#processing-rules}
       + [Overzicht van verwerkingsregels](admin/c-processing-rules/processing-rules.md)
       + Configuratie van verwerkingsregels {#processing-rules-configuration}
          + [De werking van verwerkingsregels](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
@@ -74,7 +77,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
          + [Een gebeurtenis instellen met een variabele van een contextgegevens](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
          + [Een gebeurtenis verwijderen uit een hit](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
       + [Tips en trucs voor verwerkingsregels](admin/c-processing-rules/processing-rules-tips.md)
-   + Real-time rapporten {#real-time-reports}
+   + Realtimerapporten {#real-time-reports}
       + [Overzicht van realtime rapporten](admin/realtime/realtime.md)
       + [Configuratie van realtime rapporten](admin/realtime/t-realtime-admin.md)
       + [Ondersteunde metriek en afmetingen in real time](admin/realtime/realtime-metrics.md)
@@ -157,14 +160,14 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
          + [Analytische gebruikersaccounts migreren voor bedrijfs- en federatieve id&#39;s](user-management2/user-migration/migrate-enterprise.md)
          + [Verouderde logins uitschakelen](user-management2/user-migration/t-disable-legacy-login.md)
          + [API&#39;s die door de migratie worden beïnvloed](user-management2/user-migration/developer.md)
-      + [Gebruikers van ad-hocanalyse beheren](user-management2/c-user-management/t-manage-dsc-users-admin.md)
+      + [Gebruikers voor ad-hocanalyse beheren](user-management2/c-user-management/t-manage-dsc-users-admin.md)
    + Gebruikersgroepen {#user-groups}
       + [Een gebruikersgroep toevoegen](user-management2/c-user-groups/t-user-group.md)
       + [Gebruikersgroepinstellingen](user-management2/c-user-groups/groups.md)
    + Rapporttoegang aanpassen {#customize-report-access}
       + [Toegang tot rapporten aanpassen - overzicht](user-management2/c-customize-report-access/groups-customize-report-access.md)
       + [Machtigingen voor Analytics Tools aanpassen](user-management2/c-customize-report-access/groups-analytics-tools.md)
-      + [Machtigingen voor rapportsuite aanpassen](user-management2/c-customize-report-access/groups-report-suite-tools.md)
+      + [Customize Report Suite Tools permissions](user-management2/c-customize-report-access/groups-report-suite-tools.md)
       + [Metrische machtigingen aanpassen](user-management2/c-customize-report-access/groups-metrics.md)
       + [Dimensie-machtigingen aanpassen](user-management2/c-customize-report-access/groups-dimensions.md)
    + [E-mailgebruikers](user-management2/t-email-users.md)
@@ -172,9 +175,9 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
    + [Adobe Analytics en GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics en CCPA](c-data-governance/an-ccpa-overview.md)
    + [Veelgestelde vragen](c-data-governance/gdpr-faq.md)
-   + [Workflow Adobe Analytics Data Privacy](c-data-governance/an-gdpr-workflow.md)
-   + [De instellingen voor gegevensbeheer van de rapportsuite weergeven/beheren](c-data-governance/gdpr-view-settings.md)
-   + [Gegevens uit de labelrapportsuite](c-data-governance/gdpr-setup-reportsuite.md)
+   + [Adobe Analytics Data Privacy workflow](c-data-governance/an-gdpr-workflow.md)
+   + [View/manage report suite&#39;s Data Governance settings](c-data-governance/gdpr-view-settings.md)
+   + [Label report suite data](c-data-governance/gdpr-setup-reportsuite.md)
    + [Toegang verzenden en aanvragen verwijderen](c-data-governance/gdpr-submit-access-delete.md)
    + [Privacy-labels voor gegevens voor variabelen van Analytics](c-data-governance/gdpr-labels.md)
    + [Naamruimten](c-data-governance/gdpr-namespaces.md)
