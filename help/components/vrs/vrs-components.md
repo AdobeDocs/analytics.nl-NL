@@ -4,6 +4,9 @@ title: Virtual Report Suite Component Curation
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 7%
 
 ---
 
@@ -31,16 +34,16 @@ U kunt als volgt componentcuratie inschakelen:
    * [!UICONTROL Ad Hoc Analysis]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
-   * API voor analyserapportage
+   * Analytics Rapportage-API
    Zodra gecontroleerd, kunt u de componenten toevoegen u in de virtuele rapportreeks zou willen worden omvat door de toepasselijke componenten van de &quot;uitgesloten componenten&quot;kolom aan de &quot;inbegrepen componenten&quot;kolom te slepen. De onderdelen die kunnen worden opgenomen en uitgesloten zijn:
 
-   * Afmetingen
-   * Metrisch
+   * Dimensies
+   * Cijfers
    * Segmenten
    * Datumbereik
    >[!NOTE]
    >
-   >Het is niet nodig om gekromde componenten (segmenten, berekende metriek, datumwaaiers) te *delen* . Zij zullen altijd zichtbaar in de Werkruimte van de Analyse zijn als zij voor de virtuele rapportreeks worden beheerd, zelfs als zij niet worden gedeeld.
+   >Het is niet nodig om gekromde componenten (segmenten, berekende metriek, datumwaaiers) te *delen* . Zij zullen altijd zichtbaar in de Werkruimte van de Analyse als zij voor de virtuele rapportreeks worden beheerd, zelfs als zij niet worden gedeeld.
 
 1. Bovendien kunt u de componenten filteren of doorzoeken en de volledige gefilterde selectie aan de inbegrepen kolom toevoegen door te klikken **[!UICONTROL Add All]**.
 
