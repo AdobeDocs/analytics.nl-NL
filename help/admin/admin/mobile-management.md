@@ -1,19 +1,21 @@
 ---
-description: Als u mobiel beheer inschakelt, worden de variabelen van de mobiele oplossing geactiveerd die de levensstijl en andere meetgegevens van mobiele toepassingen vastleggen.
-title: Mobiel beheer
+description: Als u toepassingsbeheer inschakelt, worden de variabelen van de mobiele oplossing geactiveerd die de levensstijl en andere meetgegevens van mobiele toepassingen vastleggen.
+title: Toepassingsbeheer
 topic: Admin tools
-uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '609'
+ht-degree: 0%
 
 ---
 
 
-# Mobiel beheer
+# Toepassingsbeheer
 
-Als u mobiel beheer inschakelt, worden de variabelen van de mobiele oplossing geactiveerd die de levensstijl en andere meetgegevens van mobiele toepassingen vastleggen.
+Als u toepassingsbeheer inschakelt, worden de variabelen van de mobiele oplossing geactiveerd die de levensstijl en andere meetgegevens van mobiele toepassingen vastleggen.
 
-Deze integratie tussen Adobe Analytics en Mobile Services
+Deze integratie tussen Adobe Analytics en Mobile Services:
 
 * Hiermee kunt u uw KPI-gegevens (Key Performance Indicator) van Mobile Services delen met Adobe Analytics.
 * Hiermee kunt u locatie bijhouden inschakelen.
@@ -23,7 +25,7 @@ Deze integratie tussen Adobe Analytics en Mobile Services
 * Hiermee voegt u nieuwe Adobe Mobile-afmetingen toe.
 * Hiermee worden gegevens om de 15 minuten gesynchroniseerd met Analytics
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Mobile Management]** > **[!UICONTROL Mobile Application Reporting]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL App Management]** > **[!UICONTROL App Reporting]**.
 
 ## Stap 1. App-rapporten inschakelen {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -48,14 +50,14 @@ Als u Locatie bijhouden inschakelt, kunt u:
 Ingeschakelde achtergrondopdrachten (resultaten die worden gegenereerd wanneer de app op de achtergrond wordt uitgevoerd) betekenen dat deze als normale voorgrondhits worden behandeld. Zij komen nu voor in de reguliere rapportage en dit beïnvloedt ook de toerekening. Deze configuratie is gewoonlijk slechts wenselijk om consistentie met erfenisimplementaties te handhaven.
 
 In plaats daarvan raden we u aan achtergrondtreffers op te nemen in een [virtuele rapportsuite](/help/components/vrs/vrs-about.md). Hierdoor kunt u de treffers zien, maar dit heeft geen negatieve invloed op het bezoek en het aantal bezoekers.
-Mobiele classificaties worden ingeschakeld nadat u **[!UICONTROL Mobile Management]** > **[!UICONTROL Mobile Application Reporting]** hebt ingeschakeld.
+Mobiele classificaties worden ingeschakeld nadat u **[!UICONTROL App Management]** > **[!UICONTROL App Reporting]** hebt ingeschakeld.
 
 Classificaties worden gebruikt om waarden in groepen te categoriseren en op groepsniveau te rapporteren. U kunt bijvoorbeeld alle campagnes voor betaalde zoekopdrachten classificeren in een categorie als &#39;pop-muziektermen&#39; en rapporteren over het succes van die categorie ten opzichte van metriek zoals Instanties (ook bekend als Instanties). Klik-door), en omzetting aan succesgebeurtenissen.
 
 | Classificatie | Definitie |
 |--- |--- |
 | Eerste startdatum | Datum van eerste lancering na installatie of herinstallatie.   MM/DD/YYYY |
-| Toepassings-id | Hiermee slaat u de toepassingsnaam en -versie op in de volgende indeling:   `[AppName] [BundleVersion]` Bijvoorbeeld: `myapp 1.1.` |
+| Toepassings-id | Hiermee slaat u de toepassingsnaam en -versie op in de volgende indeling:   `[AppName] [BundleVersion]`  Bijvoorbeeld: `myapp 1.1.` |
 | Startnummer | Aantal keren dat de toepassing is gestart of van de achtergrond is verwijderd. |
 | Dagen sinds eerste gebruik | Aantal dagen sinds eerste run. |
 | Dagen sinds laatste gebruik | Aantal dagen sinds laatste gebruik. |
