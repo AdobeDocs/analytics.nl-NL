@@ -2,10 +2,10 @@
 description: Met Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen analyseren in de analysewerkruimte.
 title: Analyses voor venster Doel (A4T)
 translation-type: tm+mt
-source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
+source-git-commit: f688748e21b2b494845c682b380b12d3d346bfd3
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 2%
+source-wordcount: '712'
+ht-degree: 3%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Analytics for Target (A4T)]** momenteel wordt slechts beperkt getest. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL Analytics for Target (A4T)]** momenteel wordt slechts beperkt getest. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/analytics/landing/an-releases.html)
 
 Met het deelvenster Analyse voor doel (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen analyseren in de analysewerkruimte. Het stelt u ook in staat om optillen en vertrouwen te zien voor maximaal drie succesmetingen. Navigeer naar een rapportsuite met A4T-componenten om het deelvenster A4T te openen. Klik vervolgens op het deelvensterpictogram helemaal links en sleep de Analyse voor het deelvenster Doel naar het project Analyse-werkruimte.
 
-## DeelvensterBuilder
+## A4T Panel Builder
 
 U kunt het deelvenster A4T als volgt configureren:
 
@@ -27,12 +27,12 @@ U kunt het deelvenster A4T als volgt configureren:
 | Doelactiviteit | Selecteer een activiteit in de lijst Doelactiviteiten of sleep een activiteit vanuit de linkerrail.<br>**Opmerking:**De lijst bevat de laatste zes maanden van activiteiten die ten minste één hit hadden. Als u geen activiteit ziet in de lijst, kan deze ouder zijn dan 6 maanden. Het kan nog steeds worden toegevoegd vanaf de linkerspoorlijn, die een terugkijkperiode van maximaal 18 maanden heeft. |
 | Controle | Selecteer uw ervaring met besturing. U kunt deze desgewenst wijzigen in de vervolgkeuzelijst. |
 | Metrisch normaliseren | U kunt kiezen uit Unieke bezoekers, Bezoekingen of Activiteitenindrukkingen. Unieke bezoekers wordt aanbevolen voor de meeste gevallen waarin u analyses gebruikt. |
-| Succeswaarden | Selecteer maximaal drie standaardsuccesgebeurtenissen in de vervolgkeuzelijst of sleep- en neerzetmetriek vanuit de linkertrack. Elke metrisch zal een specifieke lijst en visualisatie in het teruggegeven paneel hebben. |
+| Succeswaarden | Selecteer maximaal drie standaard (niet-berekende) succesgebeurtenissen uit de vervolgkeuzelijsten of sleep- en neerzetmetriek uit het linkerspoor. Elke metrisch zal een specifieke lijst en visualisatie in het teruggegeven paneel hebben. |
 | Datumbereik van agenda | Deze wordt automatisch ingevuld op basis van het bereik van de activiteitsdatum van Adobe Target. U kunt deze desgewenst wijzigen. |
 
 ![](assets/a4t-panel-builder.png)
 
-## Deelvensteruitvoer
+## Uitvoer van deelvenster A4T
 
 Het deelvenster Analytics voor Target bevat een uitgebreide set gegevens en visualisaties waarmee u beter kunt begrijpen hoe uw Adobe Target-activiteiten en -ervaringen werken. Boven in het deelvenster ziet u een samenvattingsregel waarmee u de deelvensterinstellingen die u hebt geselecteerd, kunt herinneren. U kunt het deelvenster op elk gewenst moment bewerken door in de rechterbovenhoek op het potlood te klikken.
 
@@ -55,4 +55,12 @@ Elke vrije-vormlijst toont de volgende metrische kolommen:
 
 Net als bij elk deelvenster in de analysewerkruimte kunt u uw analyse voortzetten door extra tabellen en [visualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) toe te voegen die u helpen uw Adobe-doelactiviteiten te analyseren.
 
-Voor meer opties met betrekking tot Analytics voor Target- rapportering, bezoek [A4T rapportering](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
+## Veelgestelde vragen over het deelvenster A4T
+
+| Vraag | Antwoord |
+|---|---|
+| Welke activiteitentypes worden gesteund in A4T? | [Meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) informatie over welke typen activiteiten worden ondersteund. |
+| Worden berekende metriek gesteund in A4T rapportering? | Nee. [Meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) weten over waarom berekende meetgegevens niet worden ondersteund? |
+| Waarom zouden unieke bezoekers van Target en Analytics verschillen? | [Meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) informatie over variaties van unieke bezoekers tussen producten. |
+
+Voor meer informatie over Analytics voor Target-rapportage gaat u naar [A4T-rapportage](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
