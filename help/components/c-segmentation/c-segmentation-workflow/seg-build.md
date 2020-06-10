@@ -4,9 +4,9 @@ title: Segmenten maken
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
+source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---
@@ -74,19 +74,7 @@ U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
 
 De segmenten met ingebedde datumwaaiers blijven verschillend in de Werkruimte van de Analyse tegenover [!UICONTROL Reports & Analytics]: In Workspace overschrijft een segment met een ingesloten datumbereik het datumbereik van het deelvenster. Door contrast, geeft [!UICONTROL Reports & Analytics] u de doorsnede van de waaier van de rapportdatum en de ingebedde de datumwaaier van het segment.
 
-**[!UICONTROL Publish to Experience Cloud (for `<report suite name>`)]**: (Niet weergegeven op scherm) Deze optie wordt alleen weergegeven als de rapportsuite waarin u dit segment opslaat, is [ingeschakeld voor de Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Door een segment naar de Experience Cloud te publiceren, kunt u het segment gebruiken voor marketingactiviteiten in de [!UICONTROL Audience Library], [!DNL Target]en [!DNL Audience Manager]. Een segmenttitel en beschrijving zijn vereist.
-
->[!NOTE] In Analytics, kunt u een gepubliceerd segment uitgeven of schrappen. Als het segment in gebruik is, wordt een waarschuwingsbericht uitgegeven wanneer u een segment uitgeeft. U kunt geen gepubliceerd segment verwijderen dat door Adobe wordt gebruikt [!DNL Target].
-
-![](assets/segment_publish_to_mac_copy.png)
-
->[!IMPORTANT]
->
->U moet het aantal publiek dat wordt gedeeld van Analytics tot 20 beperken om extra verwerkingsvertragingen te voorkomen. Het publiek dat via Analytics naar de Experience Cloud wordt gedeeld, mag niet meer dan 20 miljoen unieke leden tellen. Vanwege caching is het bovendien 12 uur nodig voordat verwijderde rapportsuites in Analytics worden weergegeven in de Experience Cloud.
-
->[!IMPORTANT]
->
->Wanneer een bezoeker in aanmerking komt voor het publiek dat wordt gedeeld door Analytics, is er een vertraging van 24 tot 48 uur voordat die informatie kan worden ingegrepen in [!DNL Target], [!DNL Advertising Cloud]en [!DNL Campaign].
+**[!UICONTROL Experience Cloud Publishing]**: (Niet weergegeven op scherm) Deze optie wordt alleen weergegeven als de rapportsuite waarin u dit segment opslaat, is [ingeschakeld voor de Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Door een segment naar de Experience Cloud te publiceren, kunt u het segment gebruiken voor marketingactiviteiten in de [!UICONTROL Audience Library], [!DNL Target]en [!DNL Audience Manager]. [Meer](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html) informatie over Experience CLoud-publicaties.
 
 ## Segmenten maken {#build-segments}
 
