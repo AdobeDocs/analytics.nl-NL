@@ -2,7 +2,7 @@
 title: Verwerking en architectuurverschillen tussen analytische platforms
 description: Leer hoe sommige gegevens worden verzameld en op verschillende platforms worden weergegeven, zoals Adobe Analytics en Google Analytics.
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Op beide platforms geldt dat als meerdere hits tijdens hetzelfde bezoek of tijde
 
 Voor een betere pariteit tussen de rapportagegereedschappen gebruikt u de [!UICONTROL Single Page Visits] metrische waarde in Adobe Analytics in plaats van [!UICONTROL Bounces] als onderdeel van een berekende maatstaf. Deze [!UICONTROL Single Page Visits] meting omvat het totale aantal bezoeken dat slechts een paginaweergave bevatte, of bezoeken die de website binnenkomen maar geen klik aan een andere pagina omvatten.
 
-Zie de metrische [Stuitsnelheid](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) in de gebruikersgids van Componenten voor meer informatie.
+Zie de metrische [Stuitsnelheid](/help/components/metrics/bounce-rate.md) in de gebruikersgids van Componenten voor meer informatie.
 
 ## [!UICONTROL Visits] en sessies
 
@@ -36,4 +36,4 @@ Zie de metrische [Stuitsnelheid](/help/components/c-variables/c-metrics/metrics-
 * **Handmatige sessieoverschrijving:** Een nieuwe sessie in Google Analytics wordt gestart als u een sessie handmatig start of beëindigt. `sessionControl` [!UICONTROL Visits] kan niet handmatig worden beëindigd in Adobe Analytics.
 * **Detectie van eerdere bezoeken in Adobe Analytics:** Een nieuwe functie [!UICONTROL Visit] in Adobe Analytics wordt automatisch gestart als een gebruiker 12 uur doorlopende activiteit bereikt, 2500 resultaten of 100 resultaten binnen 100 seconden. Elk van deze detectiecriteria wordt doorgaans geactiveerd door beide activiteiten.
 
-Zie metrisch [Bezoekt](/help/components/c-variables/c-metrics/metrics-visit.md) in de de gebruikersgids van Componenten voor meer informatie.
+Zie metrisch [Bezoekt](/help/components/metrics/visits.md) in de de gebruikersgids van Componenten voor meer informatie.
