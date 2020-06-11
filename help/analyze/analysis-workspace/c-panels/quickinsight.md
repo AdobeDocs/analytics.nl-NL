@@ -2,10 +2,10 @@
 description: Snelle inzichten zijn een hulpmiddel voor nieuwe gebruikers van de Werkruimte die hen in de bouw van gegevenslijsten en visualisaties begeleiden
 title: Deelvenster Snelle inzichten
 translation-type: tm+mt
-source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
+source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 0%
+source-wordcount: '1002'
+ht-degree: 1%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** momenteel wordt slechts beperkt getest. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL Quick Insights]** momenteel wordt slechts beperkt getest. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] biedt begeleiding voor niet-analisten en nieuwe gebruikers van [!UICONTROL Analysis Workspace] om te leren hoe u bedrijfsvragen snel en gemakkelijk kunt beantwoorden. Het is ook een geweldig hulpmiddel voor geavanceerde gebruikers die snel een eenvoudige vraag willen beantwoorden zonder zelf een tabel te hoeven maken.
 
 Wanneer u dit voor het eerst gaat gebruiken, vraagt u zich misschien af welke visualisaties het nuttigst zouden zijn, welke dimensies en metriek inzichten zouden kunnen vergemakkelijken, waar te om punten te slepen en te laten vallen, waar te om een segment tot stand te brengen, etc. [!UICONTROL Analysis Workspace]
 
-Om met dit te helpen, en gebaseerd op het gebruik van uw eigen bedrijf van gegevenscomponenten in [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] hefboomwerkingen een algoritme dat u met de populairste dimensies, metriek, segmenten, en datumwaaiers zal voorstellen uw bedrijf gebruikt.
+Om met dit te helpen, en gebaseerd op het gebruik van uw eigen bedrijf van gegevenscomponenten in [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] hefboomwerkingen een algoritme dat u met de populairste dimensies, metriek, segmenten, en datumwaaiers zal voorstellen uw bedrijf gebruikt. In feite zult u afmetingen, metriek, en segmenten zien die zoals [!UICONTROL Popular] in de drop-down lijst worden geëtiketteerd, zoals hier getoond:
+
+![](assets/popular-tag.png)
 
 [!UICONTROL Quick Insights] helpt u
 
