@@ -3,9 +3,9 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk hulppro
 title: Welke Adobe Analytics-tool moet ik gebruiken?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+source-git-commit: c53580905e6bb22b9cdb2917734a189e1f83d72f
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1097'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-compariso
 
 * Wanneer u gegevens moet uploaden naar Adobe Analytics en u kunt de Adobe AppMeasurement- of mobiele SDK-code niet gebruiken.
 
-**[Klantkenmerken](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)**dienen te worden gebruikt:
+**[Klantkenmerken](https://docs.adobe.com/content/help/nl-NL/core-services/interface/customer-attributes/attributes.html)**dienen te worden gebruikt:
 
 * Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt en de gegevens aan de Wolk van de Ervaring wilt uploaden.
 * Als u de gegevens van CRM voor diepere analyse in Analytics wilt gebruiken, of als het richten criteria in Adobe Doel.
