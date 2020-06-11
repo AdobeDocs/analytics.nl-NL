@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 68bdfc581751f81e02725446bc98a84a22bdadd0
+source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 96%
+source-wordcount: '1101'
+ht-degree: 95%
 
 ---
 
@@ -80,11 +80,7 @@ ht-degree: 96%
    + Deelvensters {#panels}
       + [Overzicht van deelvensters](analysis-workspace/c-panels/panels.md)
       + [Analyses voor venster Doel (A4T)](analysis-workspace/c-panels/a4t-panel.md)
-      + Kenmerk, deelvenster {#attribution}
-         + [Overzicht van attributie](analysis-workspace/c-panels/attribution/attribution.md)
-         + [Het deelvenster Attributie gebruiken](analysis-workspace/c-panels/attribution/use-attribution.md)
-         + [Veelgestelde vragen over attributie](analysis-workspace/c-panels/attribution/attribution-faq.md)
-         + [Algoritmische attributie](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [Kenmerk, deelvenster](analysis-workspace/c-panels/attribution.md)
       + [Leeg deelvenster](analysis-workspace/c-panels/blank-panel.md)
       + [Deelvenster Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
       + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
@@ -100,7 +96,11 @@ ht-degree: 96%
       + [Projectbestanden delen en plannen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Bestand verzenden - levering van een project plannen](analysis-workspace/curate-share/t-schedule-report.md)
       + [Beheer geplande projecten](analysis-workspace/curate-share/schedule-projects.md)
-   + [Attribution IQ](analysis-workspace/attribution-iq.md)
+   + Attribution IQ {#attribution}
+      + [Overzicht van attributie](analysis-workspace/attribution/overview.md)
+      + [Attributiemodellen en terugzoekvensters](analysis-workspace/attribution/models.md)
+      + [Algoritmische attributie](analysis-workspace/attribution/algorithmic.md)
+      + [Veelgestelde vragen](analysis-workspace/attribution/faq.md)
    + [Segment-IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Overzicht van Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
@@ -295,12 +295,14 @@ ht-degree: 96%
    + [Dashboards en rapporten](reports-analytics/dashboard.md)
    + [Dashboardbeheer](reports-analytics/dashboard-manage.md)
    + [Data-uittreksel](reports-analytics/data-extract.md)
+   + [Taalrapporten](reports-analytics/funnels.md)
    + [Cijfers](reports-analytics/metrics.md)
    + [Doelen](reports-analytics/targets.md)
    + [Waarschuwingen](reports-analytics/alerts.md)
    + [Kalendergebeurtenissen](reports-analytics/t-calendar-event.md)
    + [Data Warehouse-aanvragen](reports-analytics/data-warehouse.md)
    + [Veelgestelde vragen](reports-analytics/frequently-asked-questions.md)
+   + [Problemen oplossen](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
    + Ad Hoc Analysis-prrojectconverter {#aha-project-converter}
       + [Overzicht van Ad Hoc Analysis-projectconverter](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
