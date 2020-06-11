@@ -1127,7 +1127,7 @@ In Kolominstellingen kunt u voorwaardelijke opmaak toepassen op celgegevens.
      <li id="li_88874B4250224DE781C03E4A5931D6A2">Groen: hoge waarden </li> 
      <li id="li_B4863F967C7544D7AA2847696FB85525">Geel: middenpuntwaarden </li> 
      <li id="li_5B06D7CD0C39437898DA55EA653A1124">Rood: lage waarden </li> 
-    </ul> <p>Als u een dimensie in de tabel vervangt, worden de limieten voor voorwaardelijke opmaak opnieuw ingesteld. Wanneer u een metrische waarde vervangt, worden de grenswaarden voor die kolom opnieuw berekend (wanneer een metrische waarde zich op de X-as bevindt en een dimensie zich op de Y-as bevindt). </p> </td> 
+    </ul> <p>Als u een dimensie in de tabel vervangt, worden de limieten voor voorwaardelijke opmaak opnieuw ingesteld. Wanneer u een metrische waarde vervangt, worden de grenswaarden voor die kolom opnieuw berekend (wanneer een metrische waarde zich op de X-as bevindt en een afmeting zich op de Y-as bevindt). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Automatisch gegenereerd </td> 
