@@ -1,14 +1,17 @@
 ---
 description: 'null'
-title: Prestaties van analysewerkruimte optimaliseren
+title: Analysis Workspace-prestaties optimaliseren
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 0%
 
 ---
 
 
-# Prestaties van analysewerkruimte optimaliseren
+# Analysis Workspace-prestaties optimaliseren
 
 Bepaalde factoren kunnen de prestaties van een project binnen de Werkruimte van de Analyse beïnvloeden. Het is belangrijk om te weten wat die contribuanten zijn alvorens u begint een project te bouwen zodat u het project op de meest optimale manier kunt plannen en bouwen. Hieronder vindt u een lijst met factoren die van invloed zijn op de prestaties en aanbevolen procedures voor het optimaliseren van uw projecten. De prestaties van de analysewerkruimte behoren tot de topprioriteiten van Adobe en we blijven elke dag verbeteren.
 
@@ -68,7 +71,7 @@ Het type visualisatie (bijvoorbeeld fallout versus een vrije-vormlijst) dat op z
 
 Als u merkt dat uw projecten niet zo snel laden zoals u zou willen, probeer vervangend sommige segmenten met steunen en filters, waar mogelijk.
 
-Als u zich constant gebruikend segmenten en berekende metriek voor gegevenspunten vindt die voor uw zaken belangrijk zijn, denk na verbeterend uw implementatie om deze gegevenspunten directer te vangen. Door het gebruik van een tagmanager zoals Adobe Experience Platform Launch en de verwerkingsregels van Adobe kunnen implementatiewijzigingen snel en eenvoudig worden geïmplementeerd. Zie &#39;Complexiteit van Segment Logic&#39; hierboven voor meer informatie over het vereenvoudigen van complexe segmenten.
+Als u zich constant gebruikend segmenten en berekende metriek voor gegevenspunten vindt die voor uw zaken belangrijk zijn, denk na verbeterend uw implementatie om deze gegevenspunten directer te vangen. Door het gebruik van een tagbeheer zoals Adobe Experience Platform Launch en de verwerkingsregels van Adobe kunnen implementatiewijzigingen snel en eenvoudig worden geïmplementeerd. Zie &#39;Complexiteit van Segment Logic&#39; hierboven voor meer informatie over het vereenvoudigen van complexe segmenten.
 
 ## Aantal deelvensters
 
@@ -103,5 +106,5 @@ Er kunnen fouten optreden bij het werken met de analysewerkruimte. Fouten kunnen
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe ondervindt een probleem dat moet worden opgelost. Wij adviseren dat u de foutencode door een verzoek van de Zorg van de Klant indient. |
 | `The request is too complex.` | Uw rapportageaanvraag is te groot en kan niet worden uitgevoerd. Medewerkers aan deze fout zijn onderbrekingen wegens de grootte van het verzoek, teveel overeenkomende punten in een segment of een zoekfilter, teveel inbegrepen metriek, incompatibele afmeting en metrische combinaties, enz. We raden je aan je aanvraag te vereenvoudigen. |
 | `One of the segments or the search in this visualization contains a text search that returned too many results.` | We raden u aan de zoektekstcriteria te verfijnen en het verzoek opnieuw in te dienen. |
-| `This dimension does not currently support non-default attribution models.` | We raden u aan de dimensie in uw tabel te vervangen door een dimensie die compatibel is met [Attribution IQ](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md). |
+| `This dimension does not currently support non-default attribution models.` | We raden u aan de dimensie in uw tabel te vervangen door een dimensie die compatibel is met [Attribution IQ](../attribution/overview.md). |
 | `Your request failed as a result of too many columns or pre-configured rows.` | We raden u aan een aantal kolommen of rijen te verwijderen of te splitsen in afzonderlijke visualisaties. |
