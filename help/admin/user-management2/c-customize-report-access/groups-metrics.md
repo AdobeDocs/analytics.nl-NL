@@ -6,7 +6,10 @@ title: Metrische machtigingen aanpassen
 topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 7%
 
 ---
 
@@ -27,13 +30,13 @@ De instellingen op de pagina Metriek aanpassen zijn van toepassing op de rapport
 
 ## Gebeurtenissen van oplossing
 
-Naast [Aangepaste gebeurtenissen](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html)omvat deze categorie gebeurtenissen voor Analytics-oplossingen, waaronder Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video en Social.). Elke douanegroep met om het even welke metriek zal alle de oplossingsgebeurtenissen van de Analyse hebben als nieuwe metriek worden toegevoegd.
+Naast [Aangepaste gebeurtenissen](https://docs.adobe.com/content/help/nl-NL/analytics/implementation/vars/page-vars/events/event-serialization.html)omvat deze categorie gebeurtenissen voor Analytics-oplossingen, waaronder Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video en Social.). Elke douanegroep met om het even welke metriek zal alle de oplossingsgebeurtenissen van de Analyse hebben als nieuwe metriek worden toegevoegd.
 
 U kunt machtigingen instellen voor gebeurtenissen Custom Events and Analytics Solution (AEM, AMO, Mobile, Video en Social).
 
 Elke douanegroep met om het even welke metriek zal alle gebeurtenissen van de Oplossing van de Analyse hebben als nieuwe metriek worden toegevoegd.
 
-Zie [Metriek overzicht](/help/components/c-variables/c-metrics/metricslist.md) voor informatie over metriek die in Analytics wordt gebruikt.
+Zie [Metriek overzicht](/help/components/metrics/overview.md) voor informatie over metriek die in Analytics wordt gebruikt.
 
 ## Inhoud behouden
 
