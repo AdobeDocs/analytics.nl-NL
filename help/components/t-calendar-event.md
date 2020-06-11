@@ -4,7 +4,7 @@ title: Kalendergebeurtenissen
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 739368320e73d3b441151ce7e912fe74d3f8308b
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 3%
@@ -37,8 +37,8 @@ Voor rapporten die in tijd trended, kunt u gebeurtenissen grafisch tonen en zien
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. Geef onder **[!UICONTROL Shared Calendar Events]** een van de volgende opties op:
 
-       | **Kopieer mij** | Hiermee voegt u een kopie toe aan de lijst met gebeurtenissen met dezelfde naam als het origineel. U kunt echter geen updates/wijzigingen zien die door de eigenaar van de gebeurtenis zijn aangebracht. |
-       |—|—|
-       | **Verslag* | Hiermee kunt u wijzigingen/updates zien die door de eigenaar van de gebeurtenis zijn aangebracht. |
-       | **Delen opheffen* | Verwijdert deze gebeurtenis uit uw lijst met gedeelde gebeurtenissen. |
-   
+   | **Kopieer mij** | Hiermee voegt u een kopie toe aan de lijst met gebeurtenissen met dezelfde naam als het origineel. U kunt echter geen updates/wijzigingen zien die door de eigenaar van de gebeurtenis zijn aangebracht. |
+   |---|---|
+   | **Op rapport** | Hiermee kunt u wijzigingen/updates zien die door de eigenaar van de gebeurtenis zijn aangebracht. |
+   | **Delen opheffen** | Verwijdert deze gebeurtenis uit uw lijst met gedeelde gebeurtenissen. |
+
