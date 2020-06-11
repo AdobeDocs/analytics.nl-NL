@@ -4,7 +4,7 @@ title: Overzicht van de analysewerkruimte
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: d8db32a76b93e9687b28125050224857b598d82d
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 De Werkruimte van de analyse verwijdert alle typische beperkingen van één enkel rapport Analytics. Het verstrekt een robuust, flexibel canvas voor de bouw van projecten van de douaneanalyse. Sleep een willekeurig aantal gegevenstabellen, visualisaties en componenten (afmetingen, metriek, segmenten en tijdgranulariteit) naar een project. Creëer meteen onderverdelingen en segmenten, creeer cohorts voor analyse, creeer alarm, vergelijk segmenten, stroom en reserveanalyse, en curate en planningsrapporten voor het delen met iedereen in uw zaken.
 
-Deze pagina bevat basisinstructies om u aan de slag te krijgen. Als u de basisbeginselen onder de knie hebt, kunt u verdergaan met de geavanceerde functies van Workspace. Deze omvatten [Attribution IQ](/help/analyze/analysis-workspace/attribution-iq.md), [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md), [Segment IQ](/help/analyze/analysis-workspace/segment-iq.md), en [Intelligent Alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
+Deze pagina bevat basisinstructies om u aan de slag te krijgen. Als u de basisbeginselen onder de knie hebt, kunt u verdergaan met de geavanceerde functies van Workspace. Deze omvatten [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md), [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md), [Segment IQ](/help/analyze/analysis-workspace/segment-iq.md), en [Intelligent Alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
 Hier volgt een video-overzicht van Workspace:
 
