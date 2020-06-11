@@ -2,7 +2,10 @@
 title: Algemeen gebruikte metriek op andere platforms vertaalgids
 description: Begrijp hoe u metrische gegevens voor veel voorkomende rapporten kunt ophalen met gebruik van terminologie die beter bekend is bij Google Analytics-gebruikers.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ Als u meerdere metriek wilt toevoegen aan een tabel in vrije vorm voor een werkr
 
 ## Verwervingsgegevens
 
-**Gebruikers** zijn ongeveer gelijk aan **Unieke bezoekers** in Workspace. Raadpleeg de metrische waarde voor [Unieke bezoekers](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) in de gebruikershandleiding voor componenten voor meer informatie.
+**Gebruikers** zijn ongeveer gelijk aan **Unieke bezoekers** in Workspace. Raadpleeg de metrische waarde voor [Unieke bezoekers](/help/components/metrics/unique-visitors.md) in de gebruikershandleiding voor componenten voor meer informatie.
 
 **Nieuwe gebruikers** kunnen worden verkregen door:
 
@@ -26,13 +29,13 @@ Als u meerdere metriek wilt toevoegen aan een tabel in vrije vorm voor een werkr
 
    ![Eerste bezoeken](../assets/first_time_visits.png)
 
-**Sessies** zijn ongeveer gelijk aan **bezoeken** in de analysewerkruimte. Raadpleeg de metrische informatie over [bezoeken](/help/components/c-variables/c-metrics/metrics-visit.md) in de gebruikershandleiding van Componenten voor meer informatie.
+**Sessies** zijn ongeveer gelijk aan **bezoeken** in de analysewerkruimte. Raadpleeg de metrische informatie over [bezoeken](/help/components/metrics/visits.md) in de gebruikershandleiding van Componenten voor meer informatie.
 
 ![Verwervingsgegevens](../assets/acquisition_metrics.png)
 
 ## Gedragmetriek
 
-**De Stuitsnelheid** is gemakkelijk beschikbaar in de Werkruimte van de Analyse als metrisch. Zie de metrische [Stuitsnelheid](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) in de gebruikersgids van Componenten voor extra informatie.
+**De Stuitsnelheid** is gemakkelijk beschikbaar in de Werkruimte van de Analyse als metrisch. Zie de metrische [Stuitsnelheid](/help/components/metrics/bounce-rate.md) in de gebruikersgids van Componenten voor extra informatie.
 
 **Pagina&#39;s/sessie** is een berekende metrische waarde. Het kan worden verkregen door:
 
@@ -48,9 +51,9 @@ Als u meerdere metriek wilt toevoegen aan een tabel in vrije vorm voor een werkr
 7. Klik op Opslaan om terug te gaan naar uw werkruimte.
 8. Sleep de nieuw gedefinieerde berekende metrische waarde naar de werkruimte.
 
-   Meer informatie over [berekende meetgegevens](/help/components/c-variables/c-metrics/calculated-metric.md) vindt u in de gebruikershandleiding voor componenten.
+   Meer informatie over [berekende meetgegevens](/help/components/c-calcmetrics/cm-overview.md) vindt u in de gebruikershandleiding voor componenten.
 
-**Gem. De duur** van de zitting is ongeveer gelijk aan **Tijd die per Bezoek (seconden)** wordt uitgegeven. Meer informatie over de metriek van de [Tijd](/help/components/c-variables/c-metrics/metrics-time-spent.md) in de de gebruikersgids van Componenten.
+**Gem. De duur** van de zitting is ongeveer gelijk aan **Tijd die per Bezoek (seconden)** wordt uitgegeven. Meer informatie over [Tijd besteed per bezoek](/help/components/metrics/time-spent-per-visit.md) metriek in de de gebruikersgids van Componenten.
 
 ## Omzettingscijfers
 
