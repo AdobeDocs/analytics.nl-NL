@@ -1,19 +1,22 @@
 ---
 description: Metriek vormen de basis van rapporten en helpen u gegevensrelaties te bekijken en te begrijpen en maken vergelijkingen tussen verschillende gegevenssets over uw website naast elkaar mogelijk. De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc.
-title: Metrisch
+title: Cijfers
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
 
-# Metrisch
+# Cijfers
 
 Metriek vormen de basis van rapporten en helpen u gegevensrelaties te bekijken en te begrijpen en maken vergelijkingen tussen verschillende gegevenssets over uw website naast elkaar mogelijk. De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc.
 
-## Metrisch
+## Cijfers
 
 Metriek vormen de basis van rapporten en helpen u gegevensrelaties te bekijken en te begrijpen en maken vergelijkingen tussen verschillende gegevenssets over uw website naast elkaar mogelijk. De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc.
 
@@ -21,7 +24,7 @@ De metriek en bijbehorende gegevens worden getoond in de kolommen van rapporten.
 
 [Berekende metriek](/help/components/c-calcmetrics/cm-overview.md) worden tot stand gebracht door metriek te combineren.
 
-Zie Overzicht van [statistieken voor definities](/help/components/c-variables/c-metrics/metricslist.md)
+Voor een volledige lijst van metriek, zie het Overzicht [van](/help/components/metrics/overview.md) Metriek in de de gebruikersgids van Componenten.
 
 ## Standaardrapportmetriek selecteren
 
