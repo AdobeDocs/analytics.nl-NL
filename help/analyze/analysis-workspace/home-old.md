@@ -3,12 +3,15 @@ description: Aan de slag met Adobe Analytics.
 keywords: Analysis Workspace
 title: Aan de slag-handleiding
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1329'
+ht-degree: 1%
 
 ---
 
 
-# Werkruimte Analyse
+# Analysis Workspace
 
 De analysewerkruimte is een van de vlaggenschipprogramma&#39;s van Adobe voor het nemen van op gegevens gebaseerde beslissingen voor uw organisatie. De gemeenschappelijkste visualisatie, de vrije vormlijst, laat u gemakkelijk aangepaste rapporten creëren gebruikend afmetingen, metriek, segmenten, en datumwaaiers.
 
@@ -26,7 +29,7 @@ Trek een basis gerangschikt rapport gebruikend de Werkruimte van de Analyse. Een
 4. Klik op de knop Nieuw project maken.
 5. Controleer of Leeg project is geselecteerd in het modaal pop-upmenu en klik vervolgens op Maken.
 6. Links ziet u een lijst met dimensies, metriek, segmenten en datumbereiken. Zoek de pagina-afmetingen (oranje gekleurd) en sleep deze naar het canvas waar de tekst &#39;Een dimensie hier neerzetten&#39; staat.
-7. Merk op dat als de rapportreeks gegevens heeft, een rapport dat de hoogste pagina&#39;s voor deze maand toont kan worden gezien. De Werkruimte van de analyse bevolkte automatisch het rapport met metrische [Voorvallen](/help/components/c-variables/c-metrics/metrics-occurrences.md) .
+7. Merk op dat als de rapportreeks gegevens heeft, een rapport dat de hoogste pagina&#39;s voor deze maand toont kan worden gezien. De Werkruimte van de analyse bevolkte automatisch het rapport met metrische [Voorvallen](/help/components/metrics/occurrences.md) .
 8. Zoek de metrische (gekleurde groene) bezoekerslijst en sleep deze **boven** of **naast** de metrische koptekst Voorkomt (en plaats deze niet boven de metrische koptekst). Als u metrisch van Bezoekingen bovenop Voorkomen sleept, wordt metrisch vervangen in rapportering. Als u metrisch van Bezoekingen naast Voorkomen sleept, worden beide metriek getoond zij aan zij.
 9. Als u uw project wilt bewaren, klik *[!UICONTROL Project][!UICONTROL Save]*> in het hogere linkermenu.
 
@@ -97,6 +100,6 @@ Er zijn veel richtingen om uw begrip van de Werkruimte van de Analyse te verdiep
 
 ### Voor analisten en beheerders die de kwaliteit van de werkruimte in hun organisatie willen verbeteren
 
-* [Machtigingen voor](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)analysewerkruimte: Wijs gebruikersmachtigingen toe aan Workspace via de Adobe Admin Console.
+* [Machtigingen voor](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/admin-getting-started.html)analysewerkruimte: Wijs gebruikersmachtigingen toe aan Workspace via de Adobe Admin Console.
 * [Sjablonen in werkruimte](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Creeer malplaatjes zodat kunnen uw collega&#39;s met een projectruimte beginnen die aan hun behoeften wordt aangepast.
 * [Werkruimte krommen](/help/analyze/analysis-workspace/curate-share/curate.md): Maak een project dat beschikbare componenten beperkt, waardoor de werkruimte toegankelijker wordt voor minder bekende gebruikers
