@@ -1,14 +1,17 @@
 ---
 description: Er zijn twee manieren om metriek in de Werkruimte van de Analyse te gebruiken.
-title: Metrisch
+title: Cijfers
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 4%
 
 ---
 
 
-# Metrisch
+# Cijfers
 
 Er zijn twee manieren om metriek in de Werkruimte van de Analyse te gebruiken.
 
@@ -25,3 +28,11 @@ Om het gemakkelijker te maken om berekende metriek snel tot stand te brengen, **
 ![](assets/calc_metrics.png)
 
 [Metriek voor deelname gebruiken op YouTube](https://www.youtube.com/watch?v=ngmJHcg65o8&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=32) (4:16)
+
+## Metriek vergelijken met verschillende attributiemodellen
+
+Als u één attributiemodel aan een andere snel en gemakkelijk wilt vergelijken, klik metrisch met de rechtermuisknop aan en selecteer **[!UICONTROL Add comparative attribution model]**:
+
+![Kenmerk vergelijken](assets/compare-attribution.png)
+
+Met deze sneltoets kunt u snel en eenvoudig een attributiemodel vergelijken met een ander attribuut zonder dat u dit model in een metrische modus hoeft te slepen en tweemaal hoeft te configureren.
