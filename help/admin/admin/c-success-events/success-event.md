@@ -5,7 +5,10 @@ title: Overzicht van succesgebeurtenissen
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +35,7 @@ Afhankelijk van het type website zijn er vele soorten succesgebeurtenissen. Enke
 * **Hoge Tech**: Whitepaper downloaden, RFP, formuliervoltooiing, supportaanvragen
 * **Automobielindustrie**: Indiening van leads, aanvragen voor een prijsopgave, downloaden via brochure
 
-De variabele [s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) definieert een succesgebeurtenis.
+De variabele [s.events](https://docs.adobe.com/content/help/nl-NL/analytics/implementation/vars/page-vars/events/event-serialization.html) definieert een succesgebeurtenis.
 
 ## Pagina Gebeurtenissen geslaagd - beschrijvingen {#section_681ECEC981694CABBDBF00E18165B447}
 
@@ -48,6 +51,6 @@ Op de pagina Gebeurtenissen succes kunt u de gebeurtenisvariabelen configureren 
 | Polariteit | Met de metrische polariteit kunt u aangeven of Adobe Analytics het als goed of slecht moet beschouwen als een bepaalde aangepaste gebeurtenis (metrisch) wordt verhoogd. Hiermee kunnen in Adobe Analytics richtingindicatoren (pijlen) worden weergegeven voor verschillende metriek waarmee context kan worden toegevoegd (bijvoorbeeld vergelijkingen van week tot week).  Voorbeelden: Als &quot;Ingediende bugs&quot; week in week omhoog gaat, moet Adobe Analytics dat goed, of slecht vinden? Een toename in e-mailregistraties is waarschijnlijk goed. Maar een toename in de fouten bij het verzenden van formulieren is waarschijnlijk slecht.  In de Werkruimte van de Analyse, wordt de polariteit toegepast op: Voorwaardelijke opmaak van de tabel voor vrije vorm, visualisaties van Summiere wijzigingen en het kleurenschema Positief/Negatief van de visualisatie voor Kaarten. |
 | Beschrijving | Een korte beschrijving van het doel en het gebruik van de gebeurtenis. |
 | Unieke gebeurtenisopname | **Eenmaal opnemen per bezoek**: Hiermee wordt de opgegeven gebeurtenis gekoppeld aan de sessie van de bezoeker. Volgende tellingen voor een bepaalde gebeurtenis tijdens hetzelfde bezoek worden genegeerd. Voor dit type gebeurtenisserialisatie zijn geen implementatiewijzigingen vereist.<br>**Gebeurtenis-id **gebruiken: Koppelt de opgegeven gebeurtenis aan een aangepaste id. Volgende tellingen naar een bepaalde gebeurtenis met dezelfde gebeurtenis-id worden genegeerd. Voor dit type serienummering van gebeurtenissen is een aangepaste id vereist bij treffers om waarden te dedupliceren. Zie serienummering[voor](../../../implement/vars/page-vars/events/event-serialization.md)Event-id&#39;s in de gebruikershandleiding Implementeren. |
-| Deelname | Zie [Deelname](/help/components/c-variables/c-metrics/metrics-participation.md)aan statistieken. |
+| Deelname | Verleent volledige attributie krediet aan alle afmetingswaarden in het bezoek. |
 | Waarschuwing (valutagebeurtenis) | Wanneer u gebeurtenistypen wijzigt in of van een valutagebeurtenis, wordt een bericht weergegeven met de mededeling dat historische gegevens niet beschikbaar zijn in de rapportage.  Verschillende gebeurtenistypen gebruiken afzonderlijke gegevenstabellen en kunnen niet gelijktijdig worden gebruikt. Sommige historische gegevens kunnen worden hersteld als de gebruiker het gebeurtenistype terugkeert. Gegevens die na de oorspronkelijke wijziging zijn verzameld, zijn echter niet beschikbaar. Wees voorzichtig bij het wijzigen van een gebeurtenistype. |
 
