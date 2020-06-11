@@ -2,7 +2,10 @@
 title: bezoekerID
 description: Gebruik een aangepaste bezoeker-id.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 0%
 
 ---
 
@@ -33,3 +36,5 @@ De `s.visitorID` variabele is een tekenreeks die een aangepaste unieke id voor d
 ```js
 s.visitorID = "abc123";
 ```
+
+>[!CAUTION] Een ongeldige implementatie van aangepaste gebruikers-id&#39;s voor bezoekers kan leiden tot onjuiste gegevens en slechte rapportprestaties. Als deze variabele een standaardwaarde bevat (zoals `"0"` of `"NULL"`), behandelt Adobe deze resultaten alsof ze dezelfde bezoeker zijn. Deze situatie resulteert in onjuiste gegevens, met lage aantallen bezoekers en bezoekersniveausegmenten niet zoals verwacht. De onjuist uitgevoerde identiteitskaart van de douanebezoeker introduceert ook zware lading op verwerkingsservers, verhoogt [latentie](/help/technotes/latency.md) en vermindert rapportprestaties.
