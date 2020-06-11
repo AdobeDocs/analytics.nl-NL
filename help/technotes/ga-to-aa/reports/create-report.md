@@ -2,7 +2,10 @@
 title: Een basisrapport maken in de analysewerkruimte
 description: Leer hoe u een basisrapport maakt in de analysewerkruimte in een indeling die is afgestemd op gebruikers die vertrouwd zijn met hulpmiddelen van derden, zoals Google Analytics.
 translation-type: tm+mt
-source-git-commit: 099662d021c1919f0760e79154536cfd0e23e959
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '852'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +39,7 @@ Maak een rapport Alle pagina&#39;s (vergelijkbaar met het rapport in Google Anal
 1. Klik op de knop Nieuw project maken.
 1. Controleer of Leeg project is geselecteerd in het modaal pop-upmenu en klik vervolgens op Maken.
 1. Links ziet u een lijst met afmetingen, metriek, segmenten en datumbereiken. Zoek de afmetingen voor de pagina&#39;s (oranje gekleurd) en sleep deze naar het canvas met de naam &#39;Een dimensie hier neerzetten&#39;.
-1. Een rapport met de toppagina&#39;s voor deze maand kunt u zien. De Werkruimte van de analyse bevolkt automatisch het rapport met metrische [Gevallen](/help/components/c-variables/c-metrics/metrics-occurrences.md) .
+1. Een rapport met de toppagina&#39;s voor deze maand kunt u zien. De Werkruimte van de analyse bevolkt automatisch het rapport met metrische [Gevallen](/help/components/metrics/occurrences.md) .
 1. Een tabel in Google Analytics bevat doorgaans 7-8 metriek. Zoek de metrische waarde voor de stuiteringssnelheid (groen gekleurd) en sleep deze naast de metrische koptekst Voorkomen. Als u de metrische waarde voor de stuiteringsfrequentie naast Voorvallen sleept, worden beide meetwaarden naast elkaar weergegeven.
 1. Veel metriek kan naast elkaar worden geplaatst door metriek naast bestaande metrische kopballen te slepen. Zie [algemeen gebruikte metriek](common-metrics.md) voor informatie over hoe te om metriek te verkrijgen typisch die in de Analytics van Google wordt gebruikt.
 
