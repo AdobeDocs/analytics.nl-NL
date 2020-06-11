@@ -3,9 +3,9 @@ description: Met Curatie kunt u componenten beperken voordat u een project deelt
 keywords: Analysis Workspace curation
 title: Werkruimteprojecten curven
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '463'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 Met Curatie kunt u de componenten (afmetingen, metriek, segmenten, datumbereiken) beperken voordat u een project deelt. Wanneer een ontvanger het project opent, zullen zij een beperkte reeks componenten zien die u voor hen hebt gebogen. Curation is een optionele maar aanbevolen stap voordat een project wordt gedeeld.
 
 >[!NOTE]
-> Productprofielen zijn het belangrijkste mechanisme dat bepaalt welke componenten een gebruiker kan zien. Ze worden beheerd via de beheerconsole. Curatie is een secundair filter.
+> Productprofielen zijn het belangrijkste mechanisme dat bepaalt welke componenten een gebruiker kan zien. Ze worden beheerd via de Adobe Experience Cloud Admin Console. Curatie is een secundair filter.
 
 ## Projectcursus toepassen
 
@@ -26,13 +26,15 @@ De componenten die in het project worden gebruikt zullen automatisch worden toeg
 1. (Optioneel) Als u meer componenten wilt toevoegen, sleept u componenten die u wilt delen van de linkerrails naar het [!UICONTROL Curate Components] veld.
 1. Klik op **[!UICONTROL Done]**.
 
+U kunt de curve ook toepassen vanuit het [!UICONTROL Share] menu door te klikken **[!UICONTROL Curate and Share]**. Deze optie leidt automatisch het project tot de componenten in gebruik in het project. U kunt aanvullende componenten toevoegen na de bovenstaande stappen.
+
 ![](assets/curation-field.png)
+
+## Samengevoegde projectweergave
 
 Wanneer een ontvanger een gebogen project opent, zullen zij slechts de gebogen reeks componenten zien u hebt bepaald:
 
 ![](assets/curate-project.png)
-
-U kunt de curve ook toepassen vanuit het [!UICONTROL Share] menu door te klikken **[!UICONTROL Curate and Share]**. Deze optie leidt automatisch het project tot de componenten in gebruik in het project. U kunt aanvullende componenten toevoegen na de bovenstaande stappen.
 
 ## Projectcursus verwijderen
 
@@ -48,15 +50,15 @@ Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecte
 >[!NOTE]
 > De kromming van VRS wordt altijd toegepast vóór projectkromming. Dit betekent dat zelfs als uw gebogen project bepaalde componenten omvat, zij uit zullen worden gefiltreerd als het gebogen VRS hen niet omvat.
 
-### Alle componenten tonen
+## Alle componenten tonen, optie
 
 In een gekromd project of VRS zal de ontvanger de optie aan **[!UICONTROL Show All]** componenten in de linkerspoorstaaf worden voorgesteld. [!UICONTROL Show All] onthult verschillende reeksen componenten, afhankelijk van:
 
-* het machtigingsniveau van de gebruiker (beheerder of niet-beheerder)
-* projectrol (eigenaar/editor of niet)
-* type van toegepaste kromming
+* Het machtigingsniveau van de gebruiker (admin of non-admin)
+* Projectrol (eigenaar/editor of niet)
+* Type toegepaste kromming (VRS of project)
 
-| Curvetype | Admins | Niet-Admin-projecteigenaars | Niet-beheerders |
+| Curvetype | Admins | Niet-Admin-projecteigenaar of -bewerkingsrol | Niet-beheerder dubbele rol of weergavefunctie |
 |---|---|---|---|
 | Gekromde VRS | Alle niet-gebogen VRS-componenten | Niet-beheerde VRS-componenten waarvan deze rol eigenaar is of die met hen zijn gedeeld | Niet-beheerde VRS-componenten waarvan deze rol eigenaar is of die met hen zijn gedeeld |
 | Samengevoegd project | Alle niet-gekrulde projectcomponenten | Alle niet-gekrulde projectcomponenten | Niet-gekrulde projectcomponenten die deze rol bezit of die met hen zijn gedeeld |
