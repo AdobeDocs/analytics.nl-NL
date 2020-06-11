@@ -3,7 +3,10 @@ description: Met kolominstellingen kunt u kolomopmaak configureren, waarvan somm
 title: Kolominstellingen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +50,20 @@ Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en o
 | Aangepast | U kunt de waarden voor de velden Boven, Middelpunt en Ondergrens handmatig toewijzen voor voorwaardelijke opmaak. Dit geeft u de flexibiliteit om te bepalen wanneer een kolomwaarde goed, gemiddeld, of slecht wordt. |
 | Voorvertoning tabelcel | Toont een voorproef van hoe elke cel met de momenteel geselecteerde opmaakopties wordt getoond. |
 
+## Niet-standaard toewijzingsmodel gebruiken
+
+De Werkruimte van de analyse steunt [attributie](../../attribution/overview.md) voor bijna om het even welke metrisch.
+
+1. Klik op het pictogram Instellingen (versnelling) in een kolom Tabel vrije vorm.
+
+   ![Selectievakje voor kenmerken](assets/attribution-checkbox.png)
+
+2. Onder **[!UICONTROL Data Settings]**, controleer **[!UICONTROL Use non-default attribution model]**. Zie [Attributiemodellen](../../attribution/models.md)voor meer informatie over verschillende attributiemodellen.
+
+   ![Kenmerkingsmodel selecteren](assets/attribution-select.png)
+
+
 >[!MORELIKETHIS]
 >
->* [Gegevensbronnen beheren](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
+>* [Databronnen beheren](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
