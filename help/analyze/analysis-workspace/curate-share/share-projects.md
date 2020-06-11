@@ -3,17 +3,17 @@ description: Projectdeling en projectrollen in Workspace
 keywords: Analysis Workspace sharing
 title: Werkruimteprojecten delen
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 1%
+source-wordcount: '631'
+ht-degree: 2%
 
 ---
 
 
 # Werkruimteprojecten delen
 
-Het delen maakt een project beschikbaar aan andere gebruikers van de Werkruimte van de Analyse in uw organisatie. Elke curatie die u hebt uitgevoerd, wordt weerspiegeld wanneer ontvangers het project openen.
+Het delen maakt een project beschikbaar aan andere gebruikers van de Werkruimte van de Analyse in uw organisatie. Elke [curatie](curate.md) die u hebt toegepast, wordt weerspiegeld wanneer ontvangers het project openen.
 
 ## Projectrollen
 
@@ -28,15 +28,15 @@ U kunt ontvangers aan één van drie projectrollen toevoegen. De rollen van het 
 | Kan dupliceren | Ontvangers kunnen Opslaan als en toegang hebben tot de linkerrail. Interacties zijn niet beperkt.<br>Deze rol is nuttig als u een project aan gebruikers wilt delen die de gegevens van uw organisatie en hoe te om de Werkruimte van de Analyse begrijpen, maar u wilt niet uw bewaard project veranderen. |
 | Kan worden weergegeven | Ontvangers kunnen niet Opslaan als en hebben geen toegang tot de linkerrail. Interacties zijn ook beperkt.<br>Deze rol is nuttig als u een project aan gebruikers wilt delen die minder vertrouwd met de de gegevensstructuur van uw organisatie, de Werkruimte van de Analyse of Analyse over het algemeen zijn. U wilt echter nog steeds dat ze gegevens en inzichten in een veilige omgeving gebruiken.<br>Meer informatie over [Kan projectervaring](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)bekijken. |
 
-**Geen rol toegewezen**
+### Geen rol toegewezen
 
 Als een ontvanger geen rol wordt toegewezen en een verbinding aan het project ([!UICONTROL Share] > [!UICONTROL Get project link]) ontvangt, zullen zij in de [!UICONTROL "Can view"] rol door gebrek worden geplaatst.
 
-**Meerdere rollen toegewezen**
+### Meerdere rollen toegewezen
 
 Als een ontvanger in veelvoudige rollen wordt geplaatst, zullen zij altijd de hoogste controle krijgen. Dit kan voorkomen als een gebruiker zowel als individu als deel van een groep wordt toegevoegd. Bijvoorbeeld, als gebruiker 1 wordt gegeven kan uitgeven en [!UICONTROL "Can view"] rollen, zullen zij [!UICONTROL "Can edit"] controle van het project hebben.
 
-**Beheerders en rollen**
+### Beheerders en rollen
 
 Beheerders die in een [!UICONTROL&quot;Kan dupliceren&quot;] of [!UICONTROL "Can view"] rol worden geplaatst, krijgen die beperkte ervaring wanneer ze een project openen. Indien gewenst kan een beheerder zijn rol op elk gewenst moment [!UICONTROL "Can edit"] via [!UICONTROL Components] > [!UICONTROL Projects]verhogen.
 
@@ -76,7 +76,3 @@ Als de veelvoudige projecten worden geselecteerd om worden gedeeld, zullen de on
    * Project A: 1, 2, 3, 4, 7
    * Project B: 4, 5, 6, 7
    ![](assets/mult-proj-sharing.png)
-
-## Projecten plannen
-
-U kunt projecten van het [!UICONTROL Share] menu, aan of [!UICONTROL Send file now] of [!UICONTROL Send file on schedule]ook plannen. De indeling van het geleverde bestand kan een PDF- of CSV-bestand zijn. Meer informatie over [projectplanning](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
