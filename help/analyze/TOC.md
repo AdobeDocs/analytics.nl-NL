@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 68bdfc581751f81e02725446bc98a84a22bdadd0
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1098'
 ht-degree: 96%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 96%
          + [Gebruiksgevallen van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Statistische tests bij segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Projecten selecteren of delen {#curate-share}
-      + [Een Workspace-project trainen](analysis-workspace/curate-share/curate.md)
+      + [Werkruimteprojecten curven](analysis-workspace/curate-share/curate.md)
       + [Werkruimteprojecten delen](analysis-workspace/curate-share/share-projects.md)
       + [Alleen-weergeven werkruimteprojecten](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
