@@ -2,7 +2,7 @@
 title: Aanpassing rapporteren in Adobe Analytics
 description: Leer hoe u rapporten kunt aanpassen in Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Een berekende metrische waarde maken:
 4. Zodra berekende metrisch de gewenste formule bevat, klik sparen om terug naar uw werkruimte te gaan.
 5. Sleep de nieuw gedefinieerde berekende metrische waarde naar de werkruimte.
 
-   Meer informatie over [berekende meetgegevens](/help/components/c-variables/c-metrics/calculated-metric.md) vindt u in de gebruikershandleiding voor componenten.
+   Meer informatie over [berekende meetgegevens](/help/components/c-calcmetrics/cm-overview.md) vindt u in de gebruikershandleiding voor componenten.
 
 ## Aangepaste waarschuwingen
 
