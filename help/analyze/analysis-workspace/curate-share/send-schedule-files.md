@@ -1,14 +1,17 @@
 ---
 description: U kunt projecten delen en beheren en projectbestanden (in PDF- of CSV-indeling) direct of volgens een schema verzenden.
-title: Projectbestanden delen en plannen
+title: Menu Delen
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
 
-# Projectbestanden delen en plannen
+# Menu Delen
 
 U kunt projecten delen en beheren en projectbestanden (in PDF- of CSV-indeling) direct of volgens een schema verzenden.
 
@@ -17,14 +20,14 @@ U kunt projecten delen en beheren en projectbestanden (in PDF- of CSV-indeling) 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Option </th> 
+   <th colname="col1" class="entry"> Optie </th> 
    <th colname="col2" class="entry"> Procedure </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> Project delen </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Meer informatie</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > Meer informatie</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Projectkoppeling ophalen </td> 
