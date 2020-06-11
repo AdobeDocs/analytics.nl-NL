@@ -1,59 +1,59 @@
 ---
-title: Technische documentatie voor updates voor Adobe Analytics
-description: Opmerkelijke updates van de documentatieopslagplaats van Adobe Analytics.
+title: Technische documentatie-updates voor Adobe Analytics
+description: Belangrijke updates van de Adobe Analytics-documentatieopslagplaats.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 816a83a3911250460e26fac9469f604b7616560a
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Technische documentatie voor updates voor Adobe Analytics
+# Technische documentatie-updates voor Adobe Analytics
 
-Updates van de inhoud voor de documentatieset van Adobe Analytics die zijn ingesteld sinds januari 2019.
+Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
-* Voor informatie over [!UICONTROL Customer Journey Analytics], ga [hier](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html).
-* Raadpleeg de meest recente Opmerkingen bij de release [Experience Cloud voor een uitgebreide lijst met nieuwe functies, Admin notices en bug fixes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)voor Adobe Analytics.
-* Voor details rond nieuwe eigenschappen, zie [Nieuwe eigenschappen in de Werkruimte](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) van de Analyse in de de gebruikersgids van Hulpmiddelen.
-* Zie Audio en video [meten in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)voor informatie over Adobe Analytics voor Audio en Video.
+* Informatie over [!UICONTROL Customer Journey Analytics] vindt u [hier](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html).
+* Raadpleeg de recentste [Experience Cloud-releaseopmerkingen](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) voor een uitgebreide lijst met nieuwe Adobe Analytics-functies, Beheerdersopmerkingen en bugcorrectie.
+* Raadpleeg [Nieuwe functies in de Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) in de handleiding voor tools voor details over nieuwe functies.
+* Zie [Audio en video meten in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) voor informatie over Adobe Analytics voor audio en video.
 
 ## Details bijwerken
 
 | Datum | Beschrijving |
 |---|---|
-| 28 april 2020 | Toegevoegde documentatie voor metrische [inhoudssnelheid](/help/components/c-variables/c-metrics/metrics-content-velocity.md) . |
-| 12 maart 2020 | Updates voor [publicatiesegmenten zijn toegevoegd aan de Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md). |
-| 12 maart 2020 | Updates voor CDA stitching latency. |
-| 27 februari 2020 | Extra documentatie voor [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). |
-| 25 februari 2020 | Toegevoegde [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) variabele. |
-| 18 februari 2020 | Toegevoegde [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) variabele. |
-| 12 februari 2020 | Updates aan en reorganisatie van de documentatie van de Kanalen van de [Marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) . |
-| 7 februari 2020 | Updates voor het [instellen van apparaatanalyse](../components/cda/cda-setup.md) en [veelgestelde vragen](../components/cda/cda-faq.md) |
-| 4 februari 2020 | Volledige herschrijving van de gebruikershandleiding voor [Implementatie](../implement/home.md). |
-| 22 januari 2020 | De bijgewerkte pagina van de Lijst van de Vrije Vorm om informatie over de nieuwe Bouwer [van de Lijst van de](/help/analyze/analysis-workspace/visualizations/freeform-table.md)Vrije vorm te omvatten. |
-| 13 januari 2020 | Adobe Analytics en [browsercookies](../technotes/cookies.md)toegevoegd. |
-| 29 november 2019 | Herziening van de [gegevensdoorvoerdocumentatie](/help/export/analytics-data-feed/data-feed-overview.md) |
-| 25 november 2019 | Nieuw onderwerp op [Eind-van-leven voor de Inloggen van de Afdwingen IP beperkingen](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
-| 25 november 2019 | Nieuw onderwerp op [Intern (zitting verfrist zich) marketing kanaal](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
-| 21 november 2019 | Nieuwe documentatieset voor [klantreisanalyse](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
-| 28 september 2019 | Nieuwe artikelen over [configuratievariabelen voor Javascript-implementatie](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
-| 12 september 2019 | Nieuwe documentatie voor [Reis IQ: Apparaatanalyse](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
-| 28 augustus 2019 | Nieuw artikel over [Progressieve Web Apps (PWAs) voor Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html) |
-| 8 augustus 2019 | Nieuw artikel over [totalen van berekende cijfers](/help/components/c-calcmetrics/cm-totals.md) |
-| 8 augustus 2019 | Verduidelijking op sessiegegevens waarvoor [tijdstempels zijn ingeschakeld](/help/admin/admin/timestamp-optional.md) |
-| 5 augustus 2019 | Updates voor [belangrijke concepten](/help/analyze/reports-analytics/key-concepts.md) |
-| 2 augustus 2019 | Belangrijke update van woordenlijst [Analytics](/help/technotes/terms.md) |
-| 22 juli 2019 | Toegevoegde Magento: Het malplaatje van de marketing en van de Handel aan de de malplaatjes [van de Werkruimte van de](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) Analyse. |
-| 18 juli 2019 | Bijgewerkte instellingen voor [kleurentabel](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |
-| 10 juni 2019 | Nieuw artikel over [regionale gegevensverzameling (RDC) voor China](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) |
-| 4 juni 2019 | Nieuwe handleiding, getiteld [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
-| 30 mei 2019 | Herzie aan de Verwijzing [van de Kolom van de](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)Gegevensvoer. |
-| 11 april 2019 | Updates voor het [optimaliseren van de prestaties](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)van de werkruimte. |
-| 14 maart 2019 | Belangrijke update voor [regionale gegevensverzameling](/help/technotes/rdc/regional-data-collection.md). |
-| 7 februari 2019 | Kleine update aan &quot;vervangt het laatste octet van IP adressen met 0&quot;en de montages van de &quot;IP Verduistering&quot;in de Montages [van de](/help/admin/admin/general-acct-settings-admin.md)Algemene Rekening. |
-| 1 februari 2019 | Belangrijke update van de plug-in [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) voor implementatie. |
-| 17 januari 2019 | Nieuwe projectinstelling in Analyse-werkruimte, [Weergavedichtheid](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). |
-| 17 januari 2019 | Belangrijke update voor [Cohortanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |
+| 28 april 2020 | Toegevoegde documentatie met cijfers over [Contentsnelheid](/help/components/metrics/content-velocity.md). |
+| 12 maart 2020 | Toegevoegde updates van [Segmenten publiceren naar Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md). |
+| 12 maart 2020 | Updates van CDA-stitchinglatentie. |
+| 27 februari 2020 | Toegevoegde documentatie over [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). |
+| 25 februari 2020 | Toegevoegde variabele [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md). |
+| 18 februari 2020 | Toegevoegde variabele [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md). |
+| 12 februari 2020 | Updates en reorganisatie van de documentatie over [Marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
+| 7 februari 2020 | Updates van [Analytics op verschillende apparaten](../components/cda/cda-setup.md) en [Veelgestelde vragen](../components/cda/cda-faq.md). |
+| 4 februari 2020 | Volledige herschrijving van de [Implementatiehandleiding](../implement/home.md). |
+| 22 januari 2020 | Bijgewerkte pagina voor vrijevormtabellen bevat nu ook informatie over de nieuwe [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
+| 13 januari 2020 | [Adobe Analytics en browsercookies](../technotes/cookies.md) toegevoegd. |
+| 29 november 2019 | Herziening van de [Documentatie over datafeed](/help/export/analytics-data-feed/data-feed-overview.md). |
+| 25 november 2019 | Nieuw onderwerp over [Einde levensduur van IP-aanmeldingsbeperkingen afdwingen](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html). |
+| 25 november 2019 | Nieuw onderwerp over [Intern (sessievernieuwing) marketingkanaal](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html). |
+| 21 november 2019 | Nieuwe documentatieset voor [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html). |
+| 28 september 2019 | Nieuwe artikelen over [configuratievariabelen voor Javascript-implementatie](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html). |
+| 12 september 2019 | Nieuwe documentatie over [Traject-IQ: Analytics op verschillende apparaten](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html). |
+| 28 augustus 2019 | Nieuw artikel over [Progressieve Web Apps (PWA’s) voor Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html). |
+| 8 augustus 2019 | Nieuw artikel over [Berekende standaarden - totalen](/help/components/c-calcmetrics/cm-totals.md). |
+| 8 augustus 2019 | Verduidelijking over [sessiedata met tijdstempels](/help/admin/admin/timestamp-optional.md). |
+| 5 augustus 2019 | Updates voor [belangrijke concepten](/help/analyze/reports-analytics/key-concepts.md). |
+| 2 augustus 2019 | Belangrijke update van de [Analytics-woordenlijst](/help/technotes/terms.md). |
+| 22 juli 2019 | Magento: Marketing- en Commerce-sjabloon toegevoegd aan de documentatie over [Analysis Workspace-sjablonen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
+| 18 juli 2019 | Bijgewerkte [Cohorttabel-instellingen](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |
+| 10 juni 2019 | Nieuw artikel over [Regional Data Collection (RDC) voor China](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html). |
+| 4 juni 2019 | Nieuwe handleiding getiteld [Overgang van een analyseplatform van derden naar Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
+| 30 mei 2019 | Herziening van de [Datafeed-kolomverwijzing](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
+| 11 april 2019 | Updates van [Workspace-prestaties optimaliseren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
+| 14 maart 2019 | Belangrijke update van [Regionale Data Collection](/help/technotes/rdc/regional-data-collection.md). |
+| 7 februari 2019 | Kleine update van “Laatste last van IP-adressen vervangen door 0” en de instellingen voor “IP onzichtbaar maken” in [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md). |
+| 1 februari 2019 | Belangrijke update van de implementatieplug-in [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
+| 17 januari 2019 | Nieuwe projectinstelling in Analysis Workspace: [Weergavedichtheid](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). |
+| 17 januari 2019 | Belangrijke update van [Cohortanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |
