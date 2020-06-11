@@ -2,7 +2,10 @@
 title: Poortrapporten in Adobe Analytics
 description: Leer hoe u op het publiek gebaseerde rapporten kunt maken met gebruik van de analysewerkruimte.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1715'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Een lijngrafiek van unieke bezoekers verkrijgen:
 2. Klik op het pictogram Componenten aan de linkerkant en sleep de metrische waarde voor **Unieke bezoekers** naar de kleinere ruimte met het label &#39;Hier een metrisch getal neerzetten&#39;.
 3. Als een andere granulariteit gewenst is, sleept u het gewenste datumbereik (bijvoorbeeld **Dag**, **Week**, **Maand**, enz.) boven op de koptekst van de bestaande datumdimensie.
 
-Zie [Unieke bezoekers](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) in de gebruikershandleiding voor componenten voor meer informatie over hoe Adobe unieke bezoekers berekent.
+Zie [Unieke bezoekers](/help/components/metrics/unique-visitors.md) in de gebruikershandleiding voor componenten voor meer informatie over hoe Adobe unieke bezoekers berekent.
 
 ## Lifetime-waarde
 
@@ -69,7 +72,7 @@ Een taalrapport maken:
 1. Zoek in het menu Componenten de dimensie **Taal** en sleep deze naar het grote tabelgebied in de vrije vorm met de naam &#39;Hier een dimensie neerzetten&#39;.
 2. Sleep de gewenste metriek naar de werkruimte naast de automatisch gemaakte metrische **Voorvallen** . Zie de [Metrische vertaalgids](common-metrics.md) voor details over hoe te om elke respectieve metrisch te verkrijgen.
 
-Zie de dimensie van de [Taal](/help/components/c-variables/dimensionslist/reports-languages.md) in de de gebruikersgids van Componenten voor meer informatie.
+Zie de dimensie van de [Taal](/help/components/dimensions/language.md) in de de gebruikersgids van Componenten voor meer informatie.
 
 ## Geo - Locatie
 
@@ -86,7 +89,7 @@ Als de tabel naast de kaart ook wordt gezocht:
 1. Zoek in het menu Componenten de dimensie **Landen** en sleep deze naar het grote tabelgebied in de vrije vorm met de naam &#39;Hier een dimensie neerzetten&#39;.
 2. Sleep de gewenste metriek naar de werkruimte naast de automatisch gemaakte metrische **Voorvallen** . Zie de [Metrische vertaalgids](common-metrics.md) voor details over hoe te om elke respectieve metrisch te verkrijgen.
 
-Zie [Geosegmentatie](/help/components/c-variables/dimensionslist/reports-geosegmentation.md) dimensies in de de gebruikersgids van Componenten voor meer informatie.
+Raadpleeg de afmetingen voor [landen](/help/components/dimensions/countries.md) in de gebruikershandleiding voor componenten voor meer informatie.
 
 ## Gedrag - Nieuw vs Terugsturen
 
@@ -111,7 +114,7 @@ Het frequentie- en recentierapport is ongeveer gelijk aan de dimensie **Bezoek n
 1. Zoek in het optiemenu de dimensie **Visit Number** (Nummerbezoeken) en sleep deze naar het grote tabelgebied voor vrije vorm met de naam &#39;Hier een dimensie neerzetten&#39;.
 2. Sleep de gewenste metriek naar de werkruimte naast de automatisch gemaakte metrische **Voorvallen** . Zie de [Metrische vertaalgids](common-metrics.md) voor details over hoe te om elke respectieve metrisch te verkrijgen.
 
-Zie de dimensie [Bezoek Aantal](/help/components/c-variables/dimensionslist/reports-visitor-number.md) in de de gebruikersgids van Componenten voor meer informatie.
+Zie de dimensie [Bezoek Aantal](/help/components/dimensions/visit-number.md) in de de gebruikersgids van Componenten voor meer informatie.
 
 ## Gedrag - Betrokkenheid
 
@@ -120,7 +123,7 @@ Het betrokkenheidsrapport is ongeveer gelijk aan de dimensie **Tijd besteed per 
 1. Zoek in het optiemenu de afmeting **Tijd besteed per bezoek - Afmetingen met** Emmering en sleep deze naar het grote tabelgebied met vrije vorm met de naam &#39;Afmeting hier neerzetten&#39;.
 2. Sleep de gewenste metriek naar de werkruimte naast de automatisch gemaakte metrische **Voorvallen** . Zie de [Metrische vertaalgids](common-metrics.md) voor details over hoe te om elke respectieve metrisch te verkrijgen.
 
-Zie de afmeting [Tijd per Bezoek](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md) in de gebruikersgids van Componenten voor meer informatie.
+Zie de afmeting [Tijd per Bezoek](/help/components/dimensions/time-spent-per-visit.md) in de gebruikersgids van Componenten voor meer informatie.
 
 ## Technologie - Browser en besturingssysteem
 
@@ -137,10 +140,10 @@ Het rapport Browser en OS bevat meerdere primaire afmetingen.
 
 Raadpleeg de volgende pagina&#39;s in de gebruikershandleiding van Componenten voor meer informatie over hun respectievelijke dimensie:
 
-* [Browser](/help/components/c-variables/dimensionslist/reports-browsers.md)
-* [Besturingssysteem](/help/components/c-variables/dimensionslist/reports-operating-system.md)
-* [Monitorresolutie](/help/components/c-variables/dimensionslist/reports-technology.md)
-* [Kleurdiepte](/help/components/c-variables/dimensionslist/reports-color-depth.md)
+* [Browser](/help/components/dimensions/browser.md)
+* [Besturingssysteem](/help/components/dimensions/operating-systems.md)
+* [Monitorresolutie](/help/components/dimensions/monitor-resolution.md)
+* [Kleurdiepte](/help/components/dimensions/color-depth.md)
 
 ## Technologie - Netwerk
 
@@ -149,7 +152,7 @@ Het netwerkrapport is ongeveer gelijk aan de dimensie van het **Domein** .
 1. Zoek in het optiemenu de **Domeindimensie** en sleep deze naar het grote tabelgebied in vrije vorm met de naam &#39;Hier een dimensie neerzetten&#39;.
 2. Sleep de gewenste metriek naar de werkruimte naast de automatisch gemaakte metrische **Voorvallen** . Zie de [Metrische vertaalgids](common-metrics.md) voor details over hoe te om elke respectieve metrisch te verkrijgen.
 
-Zie de dimensie van het [Domein](/help/components/c-variables/dimensionslist/reports-domains.md) in de de gebruikersgids van Componenten voor meer informatie.
+Zie de dimensie van het [Domein](/help/components/dimensions/domain.md) in de de gebruikersgids van Componenten voor meer informatie.
 
 ## Mobiel - Overzicht
 
@@ -158,7 +161,7 @@ Het rapport Mobiel overzicht is ongeveer gelijk aan de dimensie Type **** mobiel
 1. Zoek in het optiemenu de afmetingen voor het type **mobiel apparaat** en sleep dit naar het grote tabelgebied voor vrije vorm met de naam &#39;Hier een dimensie neerzetten&#39;.
 2. Sleep de gewenste metriek naar de werkruimte naast de automatisch gemaakte metrische **Voorvallen** . Zie de [Metrische vertaalgids](common-metrics.md) voor details over hoe te om elke respectieve metrisch te verkrijgen.
 
-Zie de dimensie Type [](/help/components/c-variables/dimensionslist/reports-device-types.md) mobiel apparaat in de gebruikershandleiding van Componenten voor meer informatie.
+Zie de [Mobiele afmeting van het apparatentype](/help/components/dimensions/mobile-dimensions.md) in de de gebruikersgids van Componenten voor meer informatie.
 
 ## Mobiele apparaten
 
@@ -167,7 +170,7 @@ Het rapport over mobiele apparaten is ongeveer gelijk aan de dimensie **Mobiel a
 1. Zoek in het menu Componenten de dimensie **Mobiel apparaat** en sleep deze naar het grote tabelgebied in de vrije vorm met de naam &#39;Hier een dimensie neerzetten&#39;.
 2. Sleep de gewenste metriek naar de werkruimte naast de automatisch gemaakte metrische **Voorvallen** . Zie de [Metrische vertaalgids](common-metrics.md) voor details over hoe te om elke respectieve metrisch te verkrijgen.
 
-Raadpleeg de dimensie [Mobiel apparaat](/help/components/c-variables/dimensionslist/reports-devices.md) in de gebruikershandleiding van Componenten voor meer informatie.
+Raadpleeg de dimensie van het [mobiele apparaat](/help/components/dimensions/mobile-dimensions.md) in de gebruikershandleiding van Componenten voor meer informatie.
 
 ## Aangepast
 
