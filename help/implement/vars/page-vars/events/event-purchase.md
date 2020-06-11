@@ -2,7 +2,10 @@
 title: Aankoopgebeurtenis
 description: Gebruik de aankoopgebeurtenis om gegevens te verzamelen voor de metriek 'Bestellingen', 'Eenheden' en 'Opbrengst'.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +20,9 @@ Wanneer u een aankoopgebeurtenis instelt, heeft dit invloed op de volgende metri
 * De metrische stappen &#39;Eenheden&#39; met het aantal producten in de `products` variabele
 * De metrische verhogingen van de &quot;Inkomsten&quot; met de som van de prijsparameters in de `products` variabele
 
-## Aanschafgebeurtenis instellen in Adobe Experience Platform Launch
+>[!NOTE] Ontvangsten worden niet vermenigvuldigd met het veld Hoeveelheid. geeft bijvoorbeeld `s.products="Womens;Socks;5;4.50"` geen $22,50 door aan inkomsten; het geeft $4,50. Zorg ervoor dat uw implementatie de totale opbrengsten voor het vermelde aantal doorgeeft. Bijvoorbeeld,`s.products="Womens;Socks;5;22.50"`.
+
+## Aankoopgebeurtenis instellen in Adobe Experience Platform Launch
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
@@ -26,7 +31,7 @@ Wanneer u een aankoopgebeurtenis instelt, heeft dit invloed op de volgende metri
 5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en stel het [!UICONTROL Action Type] in op [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL Events] sectie en stel het vervolgkeuzemenu voor gebeurtenissen in op [!UICONTROL purchase].
 
-Andere afhankelijke variabelen zoals `products` en `purchaseID` hebben geen specifieke velden in Launch. Gebruik de douane code redacteur na syntaxis AppMeasurement voor deze variabelen.
+Andere afhankelijke variabelen zoals `products` en `purchaseID` hebben geen specifieke velden in Launch. Gebruik de aangepaste code-editor die volgt op de syntaxis AppMeasurement voor deze variabelen.
 
 ## Stel de aankoopgebeurtenis in in de aangepaste code-editor van AppMeasurement en Launch
 
