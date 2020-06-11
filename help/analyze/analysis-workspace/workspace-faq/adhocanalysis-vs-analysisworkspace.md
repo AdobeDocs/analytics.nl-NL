@@ -1,14 +1,17 @@
 ---
 description: Vergelijkt Ad hoc de terminologie en de taken van de Analyse aan de Werkruimte van de Analyse.
-title: Analyse van werkruimte in vergelijking met ad-hocanalyse
+title: Analysis Workspace vergeleken met Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 2%
 
 ---
 
 
-# Analyse van werkruimte in vergelijking met ad-hocanalyse
+# Analysis Workspace vergeleken met Ad Hoc Analysis
 
 Vergelijkt Ad hoc de terminologie en de taken van de Analyse aan de Werkruimte van de Analyse.
 
@@ -18,7 +21,7 @@ Voor een technische vergelijking van de belangrijkste kenmerken en systeemvereis
 
 ## Vergelijking van sleutelterminologie {#section_6109406B83B043A18E46D38F130B1D2E}
 
-| Ad hoc-analyse | Werkruimte Analyse |
+| Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
 | Project | Werkruimte of project |
 | Werkruimte | Deelvenster |
@@ -27,7 +30,7 @@ Voor een technische vergelijking van de belangrijkste kenmerken en systeemvereis
 | Hiërarchie: Project > Werkruimten > Rapporten | Hiërarchie: Project > Deelvensters > Tabellen |
 | Sjablonen voor gerangschikte, trended- en totalen-rapporten | Visualisatie vrije-tabellen |
 | Stroomsjabloon | Stroomvisualisatie |
-| Fallout | Uitvalvisualisatie |
+| Uitval | Uitvalvisualisatie |
 
 ## Vergelijking van sleuteltaken {#section_F31446F1DFA742D794A30D713E223440}
 
@@ -99,8 +102,8 @@ Voor een technische vergelijking van de belangrijkste kenmerken en systeemvereis
    <td colname="col2"> <p>Net als bij ad hoc analyse kan slechts één rapportsuite worden geselecteerd voor een Workspace-project. De verwerking van meerdere rapporten is echter gepland. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Attributie-IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution-iq.md"  > Met de kenmerk-IQ</a> in de analysewerkruimte kunt u veel nieuwe typen attributiemodellen toevoegen aan de tabellen voor vrije vorm, aan visualisaties en aan berekende metriek. </p> </td> 
+   <td colname="col1"> <p>Attribution IQ </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Met de kenmerk-IQ</a> in de analysewerkruimte kunt u veel nieuwe typen attributiemodellen toevoegen aan de tabellen voor vrije vorm, aan visualisaties en aan berekende metriek. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Niet inbegrepen </p> </td> 
