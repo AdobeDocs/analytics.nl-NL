@@ -2,7 +2,10 @@
 title: Overnamerapporten in Adobe Analytics
 description: Leer hoe u aanschafrapporten maakt met gebruik van de analysewerkruimte.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 0%
 
 ---
 
@@ -53,9 +56,9 @@ De bron en middelrapporten tonen de domeinen die verkeer aan uw plaats dreef.
 
 Raadpleeg de volgende pagina&#39;s in de gebruikershandleiding van Componenten voor meer informatie over hun respectievelijke dimensie:
 
-* [Referentiedomein](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
-* [Type referentie](/help/components/c-variables/dimensionslist/reports-ref-types.md)
-* [Trefwoord zoeken](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
+* [Referentiedomein](/help/components/dimensions/referring-domain.md)
+* [Type referentie](/help/components/dimensions/referrer-type.md)
+* [Trefwoord zoeken](/help/components/dimensions/search-keyword.md)
 
 ## Alle verkeer - verwijzingen
 
@@ -65,7 +68,7 @@ Raadpleeg de volgende pagina&#39;s in de gebruikershandleiding van Componenten v
 1. Zoek in het optiemenu de dimensie Refererend domein **of** Itempagina **** en sleep deze naar het grote tabelgebied Vrije vorm met de naam &#39;Hier een dimensie neerzetten&#39;.
 2. Sleep de gewenste metriek naar de werkruimte naast de automatisch gemaakte metrische **Voorvallen** . Zie de [Metrische vertaalgids](common-metrics.md) voor details over hoe te om elke respectieve metrisch te verkrijgen.
 
-Zie de afmeting Verwijzend Domein [](/help/components/c-variables/dimensionslist/reports-referring-domains.md) in de de gebruikersgids van Componenten voor meer informatie.
+Zie de afmeting Verwijzend Domein [](/help/components/dimensions/referring-domain.md) in de de gebruikersgids van Componenten voor meer informatie.
 
 ## Google Ads-rapporten en zoekconsole-rapporten
 
