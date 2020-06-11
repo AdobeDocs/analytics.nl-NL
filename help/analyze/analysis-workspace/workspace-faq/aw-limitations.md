@@ -2,7 +2,10 @@
 description: Lijst met bekende beperkingen in de Adobe Analyse Workspace en de bijbehorende componenten
 title: Bekende beperkingen in analysewerkruimte
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +25,7 @@ Hier volgt een lijst met bekende beperkingen in de analysewerkruimte en de bijbe
 ## Visualisaties
 
 * Visualisaties die de hefboomfinanciering segmentatie, zoals [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort]en [!UICONTROL Histogram], niet berekende metriek als input accepteren.
-* [!UICONTROL Flow]: Afmetingen in- en uitgangen, bv. [!UICONTROL Entry page], kan niet in Stroom worden gebruikt.
+* [!UICONTROL Flow]: Afmetingen in- en uitgangen, bv. [!UICONTROL Entry page], kan niet worden gebruikt in Flow.
 * [!UICONTROL Cohort]: Niet-gehele getallen kunnen niet als cohortcriteria worden gebruikt.
 
 ## Deelvensters
@@ -50,8 +53,8 @@ Hier volgt een lijst met bekende beperkingen in de analysewerkruimte en de bijbe
 
 ## Componenten > Rapportinstellingen
 
-* Sommige instellingen op de [!UICONTROL Report Settings] pagina zijn niet van toepassing. De werkruimte Analyse gebruikt alleen de [!UICONTROL Language/Currency/Encoding] instellingen onderaan: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding], en [!UICONTROL CSV Separator Character].
+* Sommige instellingen op de [!UICONTROL Report Settings] pagina zijn niet van toepassing. De werkruimte Analyse gebruikt alleen de [!UICONTROL Language/Currency/Encoding] instellingen onderaan: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding]en [!UICONTROL CSV Separator Character].
 
-## Attributie-IQ
+## Attribution IQ
 
-* Een subset metriek wordt niet ondersteund in [!UICONTROL Attribution IQ]. Voor een volledige lijst, zie de Veelgestelde vragen van [Attributie IQ](/help/analyze/analysis-workspace/c-panels/attribution/attribution-faq.md).
+* Een subset metriek wordt niet ondersteund in [!UICONTROL Attribution IQ]. Voor een volledige lijst, zie de Veelgestelde vragen van [Attributie IQ](../attribution/faq.md).
