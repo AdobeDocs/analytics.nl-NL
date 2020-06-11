@@ -2,7 +2,10 @@
 title: Conversierapporten in Adobe Analytics
 description: Leer hoe u conversierapporten gebruikt in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ De uitvalvisualisatie is niet beperkt tot de pagina&#39;s-dimensie. Om het even 
 
 De e-commercerapporten worden typisch gebruikt door plaatsen die producten of de diensten verkopen om orden en opbrengst op gekochte voorwerpen te meten. Deze functie is beschikbaar in Adobe Analytics en staat bekend als Products reports.
 
-Zowel in Google Analytics als in productrapporten in Adobe Analytics zijn aangepaste implementatiewijzigingen vereist. Zie de dimensie van [Producten](/help/components/c-variables/dimensionslist/reports-products.md) in de de gebruikersgids van Componenten voor meer informatie.
+Zowel in Google Analytics als in productrapporten in Adobe Analytics zijn aangepaste implementatiewijzigingen vereist. Zie de dimensie van [Producten](/help/components/dimensions/product.md) in de de gebruikersgids van Componenten voor meer informatie.
 
 ## Meerkanaals rapporten van de Trechter
 
