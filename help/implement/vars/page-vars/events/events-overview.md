@@ -2,7 +2,10 @@
 title: gebeurtenissen
 description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw site beheert.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 0%
 
 ---
 
@@ -34,13 +37,13 @@ Er zijn verschillende functies beschikbaar:
 De `s.events` variabele is een tekenreeks die een door komma&#39;s gescheiden lijst met gebeurtenissen bevat die in de hit moeten worden opgenomen. Er is geen bytelimiet voor deze variabele, zodat de variabele niet wordt afgekapt. Geldige waarden zijn:
 
 * `event1` - `event1000`: Aangepaste gebeurtenissen instellen op de gewenste manier. Registreer hoe u elke gebeurtenis in het document [van het de](../../../prepare/solution-design.md)oplossingsontwerp van uw organisatie gebruikt. Het aantal beschikbare gebeurtenissen is afhankelijk van het contract Analytics van uw organisatie. De meeste organisaties op niet verouderde contracten hebben 1000 beschikbare douanefouten. Neem contact op met de accountmanager van uw organisatie als u niet weet hoeveel aangepaste gebeurtenissen voor u beschikbaar zijn.
-* `purchase`: Verhoogt de metrische waarde &#39;Orders&#39; met 1 en neemt waarden die zijn ingesteld in de `products` variabele om &#39;Units&#39; en &#39;Revenue&#39; te berekenen. Zie [Aankoopgebeurtenis](event-purchase.md) voor meer informatie.
-* `prodView`: Verhoogt metrisch de &quot;Weergaven van het Product&quot;.
-* `scOpen`: Hiermee verhoogt u de metrische waarde &#39;Carts&#39;.
-* `scAdd`: Verhoogt de metrische waarde &#39;Cart Additions&#39;.
-* `scRemove`: Verhoogt de metrische waarde &#39;Winkels verwijderen&#39;.
-* `scView`: Verhoogt metrisch met de optie Wisselende weergaven.
-* `scCheckout`: Verhoogt metrisch &quot;Checkouts&quot;.
+* `purchase`: Verhoogt metrisch [&#39;Orders&#39;](/help/components/metrics/orders.md) door 1, en neemt waarden die in de `products` variabele worden geplaatst om [&#39;Eenheden&#39;](/help/components/metrics/units.md) en [&#39;Opbrengsten&#39;](/help/components/metrics/revenue.md)te berekenen. Zie [Aankoopgebeurtenis](event-purchase.md) voor meer informatie.
+* `prodView`: Verhoogt metrisch de [&#39;Productweergaven&#39;](/help/components/metrics/product-views.md) .
+* `scOpen`: Verhoogt de metrische waarde van de [&#39;Houtskaarten&#39;](/help/components/metrics/carts.md) .
+* `scAdd`: Verhoogt de metrische waarde [&#39;Cart Additions&#39;](/help/components/metrics/cart-additions.md) .
+* `scRemove`: Verhoogt de metrische waarde [&#39;Cart Removals&#39;](/help/components/metrics/cart-removals.md) .
+* `scView`: Verhoogt de metrische waarde [&#39;Kart Views&#39;](/help/components/metrics/cart-views.md) .
+* `scCheckout`: Verhoogt metrisch [&#39;Checkouts&#39;](/help/components/metrics/checkouts.md) .
 
 >[!NOTE] Deze variabele is hoofdlettergevoelig. Vermijd het gebruik van onjuiste hoofdletters voor gebeurteniswaarden om een nauwkeurige gegevensverzameling te garanderen.
 
