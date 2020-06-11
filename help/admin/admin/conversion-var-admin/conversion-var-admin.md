@@ -5,7 +5,10 @@ title: Conversievariabelen (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 0%
 
 ---
 
@@ -76,7 +79,7 @@ Beschrijvingen van velden die worden gebruikt bij het [bewerken van conversievar
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Status</span> </p> <p>(alleen eVar) </p> </td> 
-   <td colname="col2"> <p>Definieert de status van eVar: </p> <p><b>Uitgeschakeld</b>:</span> Hiermee schakelt u de eVar uit. Hiermee verwijdert u de variabele eVar uit de lijst met conversievariabelen. </p> <p> <b>Geen subrelaties</b>:</span> Voorkomt dat u de eVar afbreekt met een subrelatie. </p> <p> <b>Basissubrelaties</b>: </span>Hiermee kunt u een eVar onderverdelen in elk rapport met volledige subrelaties (bijvoorbeeld Producten of Campagne). </p> </td> 
+   <td colname="col2"> <p>Definieert de status van eVar: </p> <p><b>Uitgeschakeld</b>:</span> Hiermee schakelt u de eVar uit. Hiermee verwijdert u de variabele eVar uit de lijst met conversievariabelen. </p> <p> <b>Geen subrelaties</b>:</span> Voorkomt dat u de eVar afbreekt met een subrelatie. </p> <p> <b>Basissubrelaties</b>: </span>Laat u een eVar door om het even welk rapport met volledige onderverdelingen (bijvoorbeeld, Producten of Campagne) verdelen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Herstellen</span> </p> </td> 
@@ -88,7 +91,7 @@ Beschrijvingen van velden die worden gebruikt bij het [bewerken van conversievar
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising Binding-gebeurtenis</span> </p> <p>(alleen eVar) </p> </td> 
-   <td colname="col2"> <p>Als Merchandising is ingesteld op <span class="uicontrol"> Conversion Variable Syntax</span>, binden de geselecteerde gebeurtenissen de huidige waarde Var met een product. </p> <p>Als u een bindingsgebeurtenis wilt gebruiken, stelt u <span class="uicontrol"> Toewijzing in op Meest recent</span>. Als <span class="uicontrol"> Toewijzing Originele Waarde</span>is, blijft de eerste eVar productband tot eVar verloopt. </p> </td> 
+   <td colname="col2"> <p>Als Merchandising is ingesteld op <span class="uicontrol"> Conversion Variable Syntax</span>, binden de geselecteerde gebeurtenissen de huidige waarde Var met een product. </p> <p>Als u een bindingsgebeurtenis wilt gebruiken, stelt u <span class="uicontrol"> Toewijzing in op Meest recent</span>. Als <span class="uicontrol"> Toewijzing Originele Waarde</span>is, blijft de eerste eVar productband tot eVar verloopt. U kunt meerdere gebeurtenissen selecteren door <code>ctrl</code> (Windows) of <code>cmd</code> (Mac) ingedrukt te houden en op meerdere items in de lijst te klikken. U kunt alleen een gebeurtenis selecteren wanneer de syntaxis van de conversievariabele is geselecteerd.</p> </td> 
   </tr> 
  </tbody> 
 </table>
