@@ -3,9 +3,9 @@ description: Alleen-weergeven projecten in Workspace
 keywords: View-only projects
 title: Alleen-weergeven werkruimteprojecten
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,13 @@ Uitgeschakelde interacties in een alleen-weergaveproject zijn onder meer:
 
 * Verborgen linkerspoor
 * Rapportsuite
-* Datumbereik paneelkalenderOpmerking: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in een [drop-down filter met datumwaaiers](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)toe.
+* Datumbereik paneelkalender. Opmerking: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in een [drop-down filter met datumwaaiers](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)toe.
 * Freeform-filtering
 * Vrije vorm # van zichtbare rijen
 * Instellingen voor rij, kolom of visualisatie voor vrije vorm
 * Deelvenstersegmenten
 * Menu&#39;s Bewerken, Invoegen en Component
+* Tips voor werkruimte
 
 ## Ingeschakelde interacties
 
