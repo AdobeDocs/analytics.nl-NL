@@ -2,86 +2,86 @@
 description: 'null'
 title: GDPR-terminologie
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
-translation-type: tm+mt
-source-git-commit: ''
+translation-type: ht
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
 
 # GDPR-terminologie
 
-**Bindende bedrijfsregels (BCR&#39;s)** - een reeks bindende regels die worden ingevoerd om multinationale ondernemingen en organisaties toe te staan persoonsgegevens die zij van de EU controleren, over te dragen aan hun filialen buiten de EU (maar binnen de organisatie)
+**Bindende bedrijfsregels (BCR&#39;s)** - een reeks bindende regels die worden ingevoerd om multinationale ondernemingen en organisaties de mogelijkheid te geven persoonlijke data die ze vanuit de EU beheren, over te dragen aan hun filialen buiten de EU (maar binnen de organisatie)
 
-**Biometrische gegevens** - alle persoonsgegevens die verband houden met de fysieke, fysiologische of gedragskenmerken van een individu en die hun unieke identificatie mogelijk maken
+**Biometrische data** - persoonlijke data die verband houden met de fysieke, fysiologische of gedragskenmerken van een persoon waardoor unieke identificatie van deze persoon mogelijk is
 
-**Toestemming** - vrijelijk gegeven, specifieke, geïnformeerde en uitdrukkelijke toestemming door middel van een verklaring of handeling waarmee instemming wordt betuigd met de verwerking van hun persoonsgegevens
+**Toestemming** - vrijelijk gegeven, specifieke, geïnformeerde en uitdrukkelijke toestemming door middel van een verklaring of handeling waarmee instemming wordt betuigd met de verwerking van hun persoonlijke data
 
-**Gegevens over de gezondheid** - persoonsgegevens in verband met de lichamelijke of geestelijke gezondheid van een persoon of de verlening van gezondheidsdiensten aan die persoon
+**Data over gezondheid** - persoonlijke data in verband met de lichamelijke of geestelijke gezondheid van een persoon of over de verlening van gezondheidszorg aan deze persoon
 
-**Data Controller** : de entiteit die het doel, de voorwaarden en de middelen voor de verwerking van persoonsgegevens bepaalt
+**Datacontroller** - de entiteit die de doelen, de voorwaarden en de middelen voor de verwerking van persoonlijke data bepaalt
 
-**Gegevenswissing** - ook bekend als het recht om te worden vergeten - geeft de betrokkene het recht om de verantwoordelijke voor de verwerking te verzoeken zijn/haar persoonsgegevens te wissen, de verdere verspreiding van de gegevens te staken en mogelijk derden te verplichten de verwerking van de gegevens te staken
+**Dataverwijdering** - dit staat ook bekend als het recht om te worden vergeten, en geeft geregistreerde personen het recht om de datacontroller zijn/haar persoonlijke data te laten wissen, verdere verspreiding van de data te staken en mogelijke derden te laten stoppen met de verwerking van de data
 
-**Draagbaarheid** van gegevens - de verplichting voor de verwerkingsverantwoordelijken om de betrokkene een kopie van zijn of haar gegevens te verstrekken in een formaat dat eenvoudig kan worden gebruikt met een andere verwerkingsverantwoordelijke (meer informatie hier)
+**Draagbaarheid van data** - de eis voor controllers om de geregistreerde persoon te voorzien van een kopie van zijn of haar data in een indeling die eenvoudig gebruik met een andere controller mogelijk maakt (meer info hier)
 
-**Gegevensprocessor** - de entiteit die gegevens verwerkt namens de Data Controller
+**Dataverwerker** - de entiteit die data verwerkt namens de datacontroller
 
-**Autoriteit** voor gegevensbescherming - nationale autoriteiten die belast zijn met de bescherming van gegevens en de persoonlijke levenssfeer en met het toezicht op en de handhaving van de gegevensbeschermingsvoorschriften in de Unie
+**Autoriteit voor databescherming** - nationale autoriteiten die belast zijn met de bescherming van data en de privacy, en tevens met het toezicht op en de handhaving van de voorschriften voor databescherming in de Unie
 
-**Functionaris** voor gegevensbescherming - een expert op het gebied van gegevensbescherming die onafhankelijk werkt om ervoor te zorgen dat een entiteit zich houdt aan de beleidslijnen en procedures die in de GDPR zijn vastgelegd (meer informatie hier)
+**Databeschermingsmedewerker** - een expert op het gebied van dataprivacy die onafhankelijk werkt en ervoor zorgt dat een entiteit zich houdt aan het beleid en de procedures in de GDPR (meer info hier)
 
-**Onderwerp** van de gegevens - een natuurlijke persoon wiens persoonsgegevens door een verwerkingsverantwoordelijke of verwerker worden verwerkt
+**Geregistreerde persoon** - een natuurlijke persoon wiens persoonlijke data door een datacontroller of dataverwerker worden verwerkt
 
-**Gedelegeerde handelingen** - niet-wetgevingshandelingen die zijn vastgesteld ter aanvulling van bestaande wetgeving en ter verduidelijking van criteria
+**Gedelegeerde handelingen** - niet-wetgevende besluiten die worden uitgevoerd om bestaande wetgeving aan te vullen en criteria of helderheid te verschaffen
 
 **Afwijking** - vrijstelling van een wet
 
-**Richtlijn** - een wetgevingshandeling die een doel vastlegt dat alle EU-landen moeten bereiken via hun eigen nationale wetgeving
+**Richtlijn** - een wetgevingsbesluit dat een doel vastlegt dat alle EU-landen moeten bereiken via hun eigen nationale wetgeving
 
-**Gecodeerde gegevens** - persoonsgegevens die door middel van technologische maatregelen worden beschermd om ervoor te zorgen dat de gegevens alleen toegankelijk/leesbaar zijn voor degenen met gespecificeerde toegang
+**Gecodeerde data** - persoonlijke data die door middel van technologische maatregelen worden beschermd om ervoor te zorgen dat de data alleen toegankelijk/leesbaar zijn voor degenen met gespecificeerde toegang
 
-**Ondernemingen** - elke entiteit die een economische activiteit uitoefent, ongeacht haar rechtsvorm, met inbegrip van personen, partnerschappen, verenigingen enz.
+**Onderneming** - elke entiteit die een economische activiteit uitoefent, ongeacht haar rechtsvorm, inclusief personen, partnerschappen, verenigingen enz.
 
-**Bestandssysteem** - een specifieke reeks persoonsgegevens die volgens specifieke criteria toegankelijk is of kan worden opgevraagd
+**Opslagsysteem** - een specifieke reeks persoonlijke data die volgens specifieke criteria toegankelijk is of kan worden doorzocht
 
-**GDPR** - de algemene verordening inzake gegevensbescherming (GDPR) is een juridisch kader dat richtsnoeren vastlegt voor het verzamelen en verwerken van persoonsgegevens van personen binnen de Europese Unie (EU). In de GDPR worden de beginselen voor gegevensbeheer en de rechten van het individu uiteengezet en worden boetes opgelegd die op inkomsten kunnen worden gebaseerd. De GDPR heeft betrekking op alle bedrijven die zich bezighouden met de gegevens van EU-burgers. Het is dus een kritische regeling voor met de naleving van de regelgeving belaste bedrijven bij banken, verzekeraars en andere financiële ondernemingen. De GDPR zal op 25 mei 2018 in de hele EU van kracht worden.
+**GDPR** - de algemene verordening inzake gegevensbescherming (GDPR) is een juridisch kader dat richtlijnen vastlegt voor het verzamelen en verwerken van persoonlijke gegevens van individuen binnen de Europese Unie (EU). In de GDPR worden de principes van databeheer en de rechten van het individu uiteengezet en worden tevens boetes opgelegd die op inkomsten kunnen worden gebaseerd. De GDPR geldt voor alle bedrijven die te maken hebben met data van EU-burgers. Het is dus een essentiële wetgeving voor bedrijfsnalevingsfunctionarissen bij banken, verzekeraars en andere financiële ondernemingen. De GDPR is op 25 mei 2018 in de hele EU ingegaan.
 
-**Genetische gegevens** - gegevens over de eigenschappen van een persoon die worden geërfd of verworven en die unieke informatie over de gezondheid of fysiologie van het individu opleveren
+**Genetische data** - data over de eigenschappen van een persoon die worden geërfd of verworven en die unieke informatie opleveren over de gezondheid of fysiologie van de persoon
 
-**Groep ondernemingen** - een controlerende onderneming en de ondernemingen waarover zij zeggenschap heeft
+**Groep ondernemingen** - een controlerende onderneming en de ondernemingen waarover deze controle uitoefent
 
-**Identity Management Services (IMS)** - Implementatie door Adobe van Federated ID en OAuth 2.0 voor verificatie van gebruikers van Adobe-id en verificatie voor bronnen van Adobe. U moet IMS integreren met uw Adobe-toepassing of -service om uw gebruikers in staat te stellen zich aan te melden en toegang te krijgen tot Adobe-services. Gebruikers kunnen zich rechtstreeks aanmelden bij Renga (Adobe-provider van identiteitsservices) of zich aanmelden via een vertrouwd derde verificatiedomein (zoals Google, Facebook of een bedrijf/organisatie LDAP).
+**Identity Management Services (IMS)** - Implementatie door Adobe van Federated ID en OAuth 2.0 voor verificatie van Adobe ID-gebruikers en verificatie voor bronnen van Adobe. U moet IMS integreren met uw Adobe-applicatie of -service om uw gebruikers zich te laten aanmelden en toegang te geven tot Adobe-services. Gebruikers kunnen zich rechtstreeks aanmelden bij Renga (Adobe-provider van identiteitsservices) of zich aanmelden via een vertrouwd derde verificatiedomein (zoals Google, Facebook of een bedrijfs/organisatie-LDAP).
 
-**Experience Cloud-organisatie-id** - verwijst naar een Adobe-verificatietoken voor service-to-service verificatie waarvoor geen gebruikersaanmelding vereist is. Het wordt uitgegeven aan een cliënt IMS, en heeft geen bijbehorende gebruiker. Een cliënt IMS heeft een de dienstteken nodig om achterkanaalverzoeken tussen de diensten goed te keuren. (De term &quot;systeemtoken&quot; wordt soms gebruikt als servicetoken.)
+**Experience Cloud-organisatie-id** - verwijst naar een Adobe-verificatietoken voor service-to-service verificatie waarvoor geen gebruikersaanmelding vereist is. Deze wordt uitgegeven aan een IMS-client en heeft geen bijbehorende gebruiker. Een IMS-client heeft een servicetoken nodig voor de verificatie van back-channelaanvragen tussen services goed te keuren. (De term “systeemtoken” wordt soms gebruikt voor een servicetoken.)
 
-**Hoofdinstelling** - de plaats binnen de Unie waar de belangrijkste beslissingen over gegevensverwerking worden genomen; wat de verwerker betreft
+**Hoofdvestiging** - de plaats binnen de Unie waar de voornaamste beslissingen over dataverwerking worden genomen; in verband met de dataverwerker
 
-**Persoonsgegevens** - alle informatie met betrekking tot een natuurlijke persoon of &quot;betrokkene&quot; die kan worden gebruikt om de persoon direct of indirect te identificeren
+**Persoonlijke data** - alle informatie over een natuurlijke persoon of geregistreerde persoon die kan worden gebruikt om deze persoon direct of indirect te identificeren
 
-**Schending** van persoonsgegevens - een inbreuk op de beveiliging die leidt tot onbedoelde of onrechtmatige toegang tot, vernietiging, misbruik, enz. van persoonsgegevens
+**Schending van persoonlijke data** - een inbreuk op de beveiliging die leidt tot onbedoelde of onrechtmatige toegang tot, vernietiging, misbruik, enz. van persoonlijke data
 
-**Privacy by Design** - een beginsel dat de opname van gegevensbescherming vanaf het begin van het ontwerpen van systemen vereist, in plaats van een toevoeging
+**Privacy by Design** (ingebouwde privacy) - een principe dat de opname van databescherming vereist vanaf het begin van het ontwerp van systemen, in plaats van als een toevoeging
 
-**Privacy Impact Assessment** - een instrument dat wordt gebruikt om de privacyrisico&#39;s van entiteiten te identificeren en te verminderen door de persoonsgegevens die worden verwerkt te analyseren en het beleid dat wordt gevoerd om de gegevens te beschermen
+**Privacy Impact Assessment** (Beoordeling van privacy-impact) - een instrument dat wordt gebruikt om de privacyrisico&#39;s van entiteiten te identificeren en te verminderen door analyse van de persoonlijke data die worden verwerkt, en het bestaande beleid waardoor de data worden beschermd
 
-**Verwerking** - elke bewerking van persoonsgegevens, al dan niet met geautomatiseerde middelen, met inbegrip van het verzamelen, gebruiken, registreren enz.
+**Verwerking** - elke bewerking van persoonlijke data, al dan niet met geautomatiseerde middelen, inclusief verzamelen, gebruiken, vastleggen, enz.
 
-**Profilering** - elke geautomatiseerde verwerking van persoonsgegevens die bedoeld is om het gedrag van de betrokkene te evalueren, analyseren of te voorspellen
+**Profilering** - elke geautomatiseerde verwerking van persoonlijke data die bedoeld is voor het evalueren, analyseren of voorspellen van het gedrag van geregistreerde personen
 
-**Pseudonimisering** - de verwerking van persoonsgegevens zodat deze niet langer aan één betrokkene kan worden toegeschreven zonder gebruik te maken van aanvullende gegevens, zolang deze aanvullende gegevens afzonderlijk blijven om niet-toerekening te waarborgen
+**Pseudonimisering** - de verwerking van persoonlijke data waardoor deze niet meer aan één geregistreerde persoon kan worden toegeschreven zonder gebruik te maken van aanvullende data, zolang deze aanvullende data apart blijven om te garanderen dat er geen attributie plaatsvindt
 
-**Ontvanger** - entiteit waarbij de persoonsgegevens worden verstrekt
+**Ontvanger** - entiteit waarbij de persoonlijke data worden onthuld
 
-**Verordening** - een bindende wetgevingshandeling die in de gehele Unie moet worden toegepast
+**Wetsvoorschrift** - een bindend wetgevingsbesluit dat volledig in de gehele Unie moet worden toegepast
 
-**Vertegenwoordiger** - elke persoon in de Unie die door de voor de verwerking verantwoordelijke expliciet wordt aangewezen en tot de toezichthoudende autoriteiten wordt gericht
+**Vertegenwoordiger** - elke persoon in de Unie die door de datacontroller expliciet wordt aangewezen als aanspreekpunt voor toezichthoudende autoriteiten
 
-**Recht om te worden vergeten** - ook wel bekend als Data Erasure - geeft de betrokkene het recht om de verantwoordelijke voor de verwerking zijn/haar persoonsgegevens te laten wissen, de verdere verspreiding van de gegevens te staken en mogelijk derden te verplichten de verwerking van de gegevens te staken
+**Recht om te worden vergeten** - (ook wel bekend als dataverwijdering) geeft de geregistreerde persoon het recht om de datacontroller zijn/haar persoonlijke data te laten wissen, verdere verspreiding van de data te staken en mogelijk derden te laten stoppen met de verwerking van de data
 
-**Recht op toegang** - ook wel onderwerptoegang genoemd - geeft de betrokkene het recht toegang te hebben tot en informatie te krijgen over de persoonsgegevens die een voor de verwerking verantwoordelijke voor hem heeft
+**Recht op toegang** - (ook wel toegangsrecht van de betrokkene genoemd) geeft de geregistreerde persoon recht op toegang tot, en informatie over de persoonlijke data die een datacontroller over hem of haar in bezit heeft
 
-**Betreft Toegangsrecht** - ook wel het recht op toegang genoemd - geeft de betrokkene recht op toegang tot en informatie over de persoonsgegevens die een voor de verwerking verantwoordelijke voor hen heeft
+**Toegangsrecht van de betrokkene** - (ook wel recht op toegang genoemd) geeft de geregistreerde persoon recht op toegang tot, en informatie over de persoonlijke data die een datacontroller over hem of haar in bezit heeft
 
-**Toezichtautoriteit** - een overheidsinstantie die door een lidstaat overeenkomstig artikel 46 wordt opgericht
+**Toezichthoudende autoriteit** - een overheidsinstantie die door een lidstaat overeenkomstig artikel 46 wordt opgericht
 
-**Trialogen** - informele onderhandelingen tussen de Europese Commissie, het Europees Parlement en de Raad van de Europese Unie, die gewoonlijk na de eerste lezingen van voorgestelde wetgeving worden gehouden, om sneller overeenstemming te bereiken over een goed te keuren compromistekst.
+**Trialogen** - informele onderhandelingen tussen de Europese Commissie, het Europees Parlement en de Raad van de Europese Unie die gewoonlijk na de eerste lezingen van voorgestelde wetgeving worden gehouden om sneller overeenstemming te bereiken over een goed te keuren compromistekst.
