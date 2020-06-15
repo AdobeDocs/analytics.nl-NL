@@ -1,8 +1,8 @@
 ---
-description: In dit document wordt beschreven wat u in Adobe Analytics moet doen ter ondersteuning van de toegang tot en verwijderingsrechten voor de CCPA van de betrokkenen.
+description: In dit document wordt beschreven wat u in Adobe Analytics moet doen om de CCPA-toegangs- en verwijderingsrechten van uw geregistreerde personen te ondersteunen.
 title: Adobe Analytics en CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
@@ -10,39 +10,38 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 # Adobe Analytics en CCPA
 
-In dit document wordt beschreven wat u in Adobe Analytics moet doen ter ondersteuning van de toegang tot en verwijderingsrechten voor de CCPA van de betrokkenen.
+In dit document wordt beschreven wat u in Adobe Analytics moet doen om de CCPA-toegangs- en verwijderingsrechten van uw geregistreerde personen te ondersteunen.
 
 ## Overzicht van Adobe
 
 >[!IMPORTANT] De inhoud van dit document is geen juridisch advies en is niet bedoeld ter vervanging van juridisch advies. Raadpleeg de juridische afdeling van uw bedrijf voor advies over CCPA.
 
-Op 1 januari 2020 treedt de California Consumer Privacy Act (CCPA) in werking. Raadpleeg het Privacy Center van [Adobe voor meer informatie over de reactie van Adobe en wat dit voor u als Adobe-klant betekent.](https://www.adobe.com/privacy.html)
+Op 1 januari 2020 treedt de California Consumer Privacy Act (CCPA) in werking. Raadpleeg het [Privacy Center van Adobe](https://www.adobe.com/nl/privacy.html) voor meer informatie over de reactie van Adobe en wat dit voor u als Adobe-klant betekent.
 
-Wanneer Adobe software en services levert aan een onderneming, fungeert Adobe als gegevensverwerker voor alle persoonlijke gegevens die het ontvangt en opslaat namens onze klanten, als onderdeel van het aanbieden van de services. Als gegevensverwerker verwerkt Adobe persoonlijke gegevens volgens de toestemming en instructies van uw bedrijf (bijvoorbeeld zoals die in uw overeenkomst met Adobe zijn vermeld).
+Wanneer Adobe software en services levert aan een onderneming, fungeert Adobe als dataverwerker voor alle persoonlijke data namens onze klanten worden ontvangen en opgeslagen, als onderdeel van de levering van de services. Als dataverwerker verzamelt Adobe persoonlijke data overeenkomstig de toestemming en instructies van uw bedrijf (zoals bijvoorbeeld vermeld in uw overeenkomst met Adobe).
 
-Als de gegevenscontroller bepaalt u de persoonlijke gegevens die Adobe voor u verwerkt en opslaat. Als u Adobe Experience Cloud-oplossingen gebruikt, host Adobe mogelijk persoonlijke gegevens voor u afhankelijk van de oplossingen die u gebruikt en de gegevens die u wilt verzenden naar uw Adobe Experience Cloud-account. Zie de privacy van [Adobe Experience Cloud voor een lijst met voorbeelden.](https://www.adobe.com/privacy/marketing-cloud.html#collect)
+Als datacontroller bepaalt u welke persoonlijke data Adobe namens u verwerkt en opslaat. Als u Adobe Experience Cloud-oplossingen gebruikt, kan het zijn dat Adobe persoonlijke data voor u host, afhankelijk van de oplossingen die u gebruikt en de gegevens die u wilt verzenden naar uw Adobe Experience Cloud-account. Zie [Adobe Experience Cloud-privacy](https://www.adobe.com/privacy/marketing-cloud.html#collect) voor een lijst met voorbeelden.
 
-## Hoe Adobe de Gegevens CCPA behandelt
+## Hoe Adobe omgaat met CCPA-data
 
-Het Adobe Cloud Platform (ACP) biedt een geïntegreerde oplossing die de infrastructuur voor gegevensbeheer van uw merk koppelt aan de Adobe-tools die het gebruikt om consumentenervaringen te creëren en te beheren. Met de functies voor gegevensbeheer van het Adobe Cloud Platform kunt u het gegevensbeheerbeleid rechtstreeks koppelen aan het gegevensgebruik.
+Het Adobe Cloud Platform (ACP) biedt een geïntegreerde oplossing waarmee de infrastructuur van de data-governance van uw merk wordt gekoppeld aan de Adobe-tools die worden gebruikt om klantervaringen te maken en te beheren. Met de functies voor data-governance van het Adobe Cloud Platform kunt u een rechtstreekse koppeling maken tussen het data-governancebeleid en het datagebruik.
 
-Zorg dat u weet [hoe Adobe Analytics omgaat met GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html) , waarin de stappen worden beschreven voor gereedheid voor privacy en hoe u kunt integreren met de Adobe Experience Cloud Privacy Service API.
+Maak u vertrouwd met [Hoe Adobe Analytics omgaat met GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html), waarin de stappen voor privacygereedheid en de integratie met de Adobe Experience Cloud Privacy Service-API worden besproken.
 
-## Gereedheid van de CCPA en uw gegevens van de Analyse van Adobe
+## CCPA-gereedheid en uw Adobe Analytics-data
 
-Adobe beseft dat u de aangepaste gegevens in uw rapportensuites het meest kent en biedt u de mogelijkheid om instellingen en voorkeuren voor gegevensbeheer te definiëren.
-Met het oog hierop biedt Adobe Analytics een gebruikersinterface voor gegevensbeheer waarmee u, als de gegevenscontroller, [privacylabels](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) kunt instellen op uw Analytics-rapportreeksen en alle afmetingen en maatstaven in die rapportreeksen. U kunt de kolommen in uw gegevensset identificeren die direct identificeerbare gegevens of indirect identificeerbare gegevens bevatten zodat u uw toegang kunt indienen en verzoeken kunt schrappen om die gegevens te richten. Voor elke aanvraag worden de labels die zijn gedefinieerd in de gebruikersinterface voor gegevensbeheer van Analytics gebruikt voor de specifieke id die overeenkomt met die aanvraag.
+Adobe beseft dat u zelf de aangepaste data in uw rapportensuites het best kent, en we bieden u de mogelijkheid om de instellingen en voorkeuren voor uw data-governance te definiëren. Met het oog hierop biedt Adobe Analytics een Data Governance-gebruikersinterface waarmee u, als datacontroller, [privacylabels](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) kunt instellen op uw Analytics-rapportsites, en alle dimensies en cijfers in deze rapportsuites. U kunt in uw dataset de kolommen identificeren die direct of indirect identificeerbare data bevatten, zodat u uw toegang kunt verzenden en aanvragen kunt verwijderen om die data te bekijken. Voor elke aanvraag worden de labels die zijn gedefinieerd in de Analytics Data Governance-gebruikersinterface, gehonoreerd voor de specifieke id die overeenkomt met deze aanvraag.
 
-Zie Rapportsuite-gegevens [voor](/help//admin/c-data-governance/gdpr-setup-reportsuite.md) labels voor meer informatie over het instellen van labels.
+Zie [Rapportsuitedata labelen](/help//admin/c-data-governance/gdpr-setup-reportsuite.md) voor meer informatie over het instellen van de labels.
 
 ## Vereisten
 
-* Verken uzelf met [GDPR-terminologie.](/help/admin/c-data-governance/gdpr-terminology.md)
-* Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)
-* Wijs een Adobe Analytics-rapportsuite die u wilt instellen voor gegevensbeheer toe aan [uw Experience Cloud-organisatie.](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)
-* Plaats een beleid van het gegevensbehoud voor elke rapportreeks zodat de Schrapping CCPA en de verzoeken van de Toegang kunnen worden geëerd.
+* Maak u vertrouwd met [GDPR-terminologie.](/help/admin/c-data-governance/gdpr-terminology.md)
+* Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/organizations.html)
+* Wijs een Adobe Analytics-rapportsuite die u wilt instellen voor data-governance, toe aan [uw Experience Cloud-organisatie.](https://docs.adobe.com/content/help/nl-NL/core-services/interface/about-core-services/report-suite-mapping.html)
+* Stel voor elke rapportsuite een dataretentiebeleid in, zodat CCPA-verwijderings- en toegangsaanvragen kunnen worden gehonoreerd.
 
-   Adobe Analytics kan u niet helpen bij het verwerken van verzoeken naar de API Privacy Services, dat wil zeggen, het verwerken van verzoeken om toegang of verwijdering die u van uw eindgebruikers ontvangt, als de bewaarperiode voor gegevens niet is ingesteld in Adobe Analytics. Neem contact op met de succesmanager van de klant om de periode voor het bewaren van gegevens in te stellen.
+   Adobe Analytics kan u niet helpen bij het verwerken van aanvragen bij de Privacy Services-API, dat wil zeggen, het verwerken van toegangs- of verwijderingsaanvragen die u van uw eindgebruikers ontvangt, als de dataretentieperiode niet is ingesteld in Adobe Analytics. Neem contact op met de Customer Success Manager om de periode voor dataretentie in te stellen.
 
-* Controleer uw machtigingen: als u de interface van het Beheer van het Beheer van het Beheer van het Beheer van het Beheer van het Beheer van het Beheer van het Beheer van het Beheer van Gegevens in de Analytics van Adobe wilt gebruiken, moet u een Beheerder van de Analytics van Adobe zijn.
-* Overweeg om de variabelen [van het Beheer van de](/help/admin/c-data-governance/consent-variables.md) Toestemming uit te voeren om toestemmingsstatus op een raakniveau te volgen.
+* Controleer uw toestemmingen: als u de Data Governance-beheerinterface van Adobe Analytics wilt gebruiken, moet u een Adobe Analytics-beheerder zijn.
+* Overweeg de implementatie van de [Variabelen voor toestemmingsbeheer](/help/admin/c-data-governance/consent-variables.md) om de consentstatus bij te houden op treffersniveau.
