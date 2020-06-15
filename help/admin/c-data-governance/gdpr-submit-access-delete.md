@@ -1,43 +1,43 @@
 ---
 description: 'null'
-title: Toegang verzenden en verzoeken verwijderen
+title: Aanvragen voor toegang en verwijdering verzenden
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
 
-# Toegang verzenden en verzoeken verwijderen
+# Aanvragen voor toegang en verwijdering verzenden
 
 
 ## Overzicht {#section_BD70882995894C1CA19C205C49FEC23C}
 
-Als uw klanten (consumenten/betrokkenen) willen weten welke gegevens u over hen handhaaft of beslissen zij van uw eigenschappen van Analytics willen worden geschrapt, bent u als gegevenscontrolemechanisme verantwoordelijk voor het antwoorden op die verzoeken. De gegevenscontroller bepaalt hoe uw organisatie zal communiceren met de betrokkenen (bijvoorbeeld via een gebruikersportaal voor de betrokkene) en de interactie met de betrokkene beheert. Het is ook de verantwoordelijkheid van de verwerkingsverantwoordelijke om de lus met de betrokkene te sluiten wanneer het verzoek is uitgevoerd. Met andere woorden, Adobe Experience Cloud, als de gegevensverwerker, accepteert geen aanvragen rechtstreeks van betrokkenen en retourneert geen gegevens rechtstreeks naar hen. In plaats daarvan ontvangt Adobe aanvragen van en retourneert het alleen gegevens aan u als gegevenscontroller.
+Als uw klanten (consumenten/geregistreerde personen) willen weten welke data u van hen onderhoudt, of als ze besluiten dat ze uit uw Analytics-eigenschappen willen worden verwijderd, bent u als datacontroller verantwoordelijk voor het reageren op deze aanvragen. De datacontroller bepaalt hoe uw organisatie communiceert met geregistreerde personen (bijvoorbeeld via een gebruikersportal voor de geregistreerde persoon), en beheert de interactie met de geregistreerde persoon. Het is ook de verantwoordelijkheid van de datacontroller om de lus met de geregistreerde persoon te sluiten wanneer de aanvraag is uitgevoerd. Met andere woorden: Adobe Experience Cloud zal, als dataverwerker, geen aanvragen rechtstreeks van geregistreerde personen accepteren of data direct naar hen retourneren. In plaats daarvan ontvangt Adobe alleen aanvragen van u als datacontroller ontvangen en data naar u retourneren.
 
-Mogelijk wilt u er ook voor zorgen dat uw mobiele apps en websites relevante pop-upberichten en ondersteunend materiaal hebben over de rechten van betrokkenen met betrekking tot hun direct identificeerbare of indirect identificeerbare gegevens en andere gegevens die u verzamelt.
+Misschien wilt ook zeker weten dat uw mobiele apps en websites relevante pop-upberichten en ondersteunend materiaal hebben over de rechten van geregistreerde personen in verband met hun direct of indirect identificeerbare data en andere data die u verzamelt.
 
-## Consumentengoedkeuring beheren {#section_3012015E7E8942519FB9279CF7057EAB}
+## Toestemming van consumenten beheren {#section_3012015E7E8942519FB9279CF7057EAB}
 
-U bent als gegevenscontroller verantwoordelijk voor het verkrijgen van uitdrukkelijke toestemming van de betrokkenen voordat u gegevens over de betrokkenen verzamelt (mogelijk met inbegrip van gegevens van Adobe Analytics) en voor het [implementeren van een opt-outmechanisme](https://docs.adobe.com/content/help/en/dtm/using/tools/opt-in.html) op uw website. Hierdoor kunnen betrokkenen zich afmelden voor toekomstige gegevensverzameling in Adobe Experience Cloud.
+U bent als datacontroller verantwoordelijk voor het verkrijgen van uitdrukkelijke toestemming van geregistreerde personen voordat u data over hen verzamelt (mogelijk inclusief Adobe Analytics-data) en voor de [implementatie van een afmeldingsmechanisme](https://docs.adobe.com/content/help/nl-NL/dtm/using/tools/opt-in.html) op uw website. Hierdoor kunnen geregistreerde personen zich afmelden voor toekomstige dataverzameling in Adobe Experience Cloud.
 
-## Gebruikers en hun gegevens valideren {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## Gebruikers en hun data valideren {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-Als verantwoordelijke voor de verwerking bent u verantwoordelijk voor het controleren van de identiteit van de betrokkene en het recht op de gegevens die hij aanvraagt. Verder is het uw verantwoordelijkheid ervoor te zorgen dat de juiste gegevens worden teruggestuurd naar de betrokkene en dat deze niet per ongeluk gegevens over andere betrokkenen ontvangt.
+Als datacontroller is het uw verantwoordelijkheid om te controleren of geregistreerde personen inderdaad zijn wie ze zeggen te zijn, en of ze recht hebben op de data waar ze om vragen. Verder is het uw verantwoordelijkheid om ervoor te zorgen dat de juiste data worden geretourneerd naar geregistreerde personen, en dat deze niet per ongeluk data over andere geregistreerde personen ontvangen.
 
-Hieronder valt het controleren van de gegevens die door Adobe Analytics zijn geretourneerd als onderdeel van een aanvraag voor toegang tot Data Privacy voordat deze naar de betrokkene worden verzonden. Wees extra voorzichtig als u persoonlijke id&#39;s gebruikt en niet alleen gegevens retourneert waar die id aanwezig is, maar ook gegevens voor andere treffers op een gedeeld apparaat waar die id soms aanwezig was. Zie [Id-uitbreiding.](/help/admin/c-data-governance/gdpr-id-expansion.md)
+Hieronder valt de controle van de data die door Adobe Analytics worden geretourneerd als onderdeel van een Data Privacy-toegangsaanvraag voordat deze naar de geregistreerde persoon wordt verzonden. Wees extra voorzichtig als u persoons-id&#39;s gebruikt, en niet alleen data retourneert waar deze id in zit, maar ook data voor andere treffers op een gedeeld apparaat waar deze id soms aanwezig is geweest. Zie [Id-uitbreiding](/help/admin/c-data-governance/gdpr-id-expansion.md).
 
-Elk bestand combineert gegevens uit al uw rapportsuites en verwijdert automatisch extra kopieën van gerepliceerde treffers. U kunt bepalen welke van deze bestanden naar de betrokkene moeten worden geretourneerd. Of u kunt enkele van deze gegevens extraheren en combineren met gegevens van andere systemen voordat u deze terugstuurt naar de betrokkene.
+Elk bestand combineert data uit al uw rapportsuites en verwijdert automatisch extra kopieën van gerepliceerde treffers. U kunt bepalen welke van deze bestanden naar de geregistreerde persoon moeten worden geretourneerd. Of u kunt enkele van deze data extraheren en combineren met data van andere systemen voordat u deze terugstuurt naar de geregistreerde persoon.
 
-## Verzoeken verzenden {#submit-requests}
+## Aanvragen verzenden {#submit-requests}
 
-U kunt toegang tot gegevensprivacy verzenden en aanvragen verwijderen via onze interface-portal [voor](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) gegevensprivacy of via onze API voor [gegevensprivacy.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+U kunt Data Privacy-toegangs- en verwijderingsaanvragen verzenden via onze [Data Privacy-gebruikersinterfaceportal](https://docs.adobe.com/content/help/nl-NL/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) of via onze [Data Privacy-API.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
->[!NOTE] De Data Privacy API ondersteunt batchverzendingen voor meerdere gebruikers in één aanvraag. De momenteel ondersteunde limiet is 1000 aparte gebruikers (kan meerdere id&#39;s per gebruiker hebben) in één JSON-aanvraagbestand.
+>[!NOTE] De Data Privacy-API ondersteunt batchverzendingen voor meerdere gebruikers in één aanvraag. De momenteel ondersteunde limiet is 1000 afzonderlijke gebruikers (er kunnen meerdere id&#39;s per gebruiker zijn) in één JSON-aanvraagbestand.
 
-## Voorbeeld-JSON-aanvraag {#sample-json-request}
+## Voorbeeld van JSON-aanvraag {#sample-json-request}
 
-Hier is JSON die door de API of UI van de Privacy van Gegevens zou kunnen worden voorgelegd, verzoekend de verwerking van de Privacy van Gegevens voor drie gebruikers.
+Dit is de JSON die kan worden verzonden via de API of gebruikersinterface van Data Privacy, waarin Data Privacy-verwerking voor drie gebruikers wordt aangevraagd.
 
 ```
 { 
@@ -97,54 +97,54 @@ Hier is JSON die door de API of UI van de Privacy van Gegevens zou kunnen worden
 } 
 ```
 
-Er zijn drie blokken in de sectie van de gebruiker, die drie afzonderlijke verzoeken vertegenwoordigen, waarschijnlijk voor drie afzonderlijke betrokkenen.
+Er zijn in de gebruikerssectie drie blokken, die drie afzonderlijke aanvragen vertegenwoordigen, waarschijnlijk voor drie afzonderlijke geregistreerde personen.
 
-* De eerste aanvraag is een toegangsaanvraag met een traditionele Adobe Analytics cookie ID (AID).
-* Het tweede verzoek is ook een toegangsverzoek maar gebruikt een CID/ECID cookie.
-* Het derde verzoek vraagt zowel toegang als schrapping voor gespecificeerde IDs. Hoewel ID-uitbreiding is opgegeven voor alle aanvragen, heeft dit de grootste invloed op dit derde verzoek, aangezien alleen niet-cookie-id&#39;s worden gebruikt. Dientengevolge, zal dit verzoek koekjesidentiteitskaarts ook ontdekken verbonden aan om het even welke apparaten met gespecificeerde CRM-identiteitskaart of e-mailadres, en zal het verzoek uitbreiden om die IDs eveneens te omvatten.
+* De eerste aanvraag is een toegangsaanvraag met een traditionele Adobe Analytics-cookie-id (AAID).
+* De tweede aanvraag is ook een toegangsaanvraag, maar maakt gebruik van een MCID/ECID-cookie.
+* De derde aanvraag verzoekt om zowel toegang als verwijdering voor de opgegeven id&#39;s. Hoewel id-uitbreiding is opgegeven voor alle aanvragen, heeft die de grootste invloed op deze derde aanvraag, aangezien die als enige niet-cookie-id&#39;s gebruikt. Daardoor worden in deze aanvraag ook cookie-id&#39;s ontdekt die zijn gekoppeld aan apparaten met de opgegeven CRM-id of e-mailadres, en zal de aanvraag worden uitgebreid naar deze id&#39;s.
 
-Houd er rekening mee dat
+Houd rekening met het volgende:
 
-* De waarde &quot;5D7236525AA6D9580A495C6C@AdobeOrg&quot; in de sectie &quot;companyContext&quot; moet worden bijgewerkt met de waarde van uw eigen Experience Cloud-organisatie.
-* De velden &quot;type&quot; en &quot;namespace&quot; worden meer gedetailleerd beschreven in de sectie [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) .
-* De velden &quot;description&quot; worden genegeerd.
-* De &quot;sleutel&quot;gebieden kunnen om het even welke waarde bevatten die u wilt. Als u een interne id hebt die u gebruikt voor het bijhouden van aanvragen voor gegevensprivacy, kunt u die waarde hier plaatsen om het gemakkelijker te maken aanvragen in het systeem van Adobe aan te passen aan aanvragen in uw eigen systemen.
+* De waarde “5D7236525AA6D9580A495C6C@AdobeOrg” in de sectie “companyContexts” moet worden bijgewerkt met de waarde van uw eigen Experience Cloud-organisatie.
+* De velden “type” en “namespace” worden meer gedetailleerd beschreven in de sectie [Naamruimten](/help/admin/c-data-governance/gdpr-namespaces.md).
+* De “description”-velden worden genegeerd.
+* De “key”-velden kunnen elke door u gewenste waarde bevatten. Als u een interne id hebt die u gebruikt voor het bijhouden van Data Privacy-aanvragen, kunt u deze waarde hier plaatsen om aanvragen in het Adobe-systeem gemakkelijker te kunnen aanpassen aan aanvragen in uw eigen systemen.
 
-## Details antwoord {#section_93F554F65DBB48A18B75EB5784056C96}
+## Details van reacties {#section_93F554F65DBB48A18B75EB5784056C96}
 
-Deze secties bevatten details over toegang en schrappingsreacties.
+Deze secties bevatten details over reacties op toegangs- en verwijderingsaanvragen.
 
-**Toegang tot reactiegegevens**
+**Details van toegangsreacties**
 
-De gegevens die worden geretourneerd voor een toegangsverzoek, verschaffen u, de gegevenscontroller, een URL waarmee u een ZIP-bestand kunt downloaden dat een map bevat voor elk Adobe-product dat u bezit. In de map Analytics zijn er mogelijk:
+De data die worden voor een toegangsaanvraag worden geretourneerd, verschaffen u als datacontroller een URL waarmee u een ZIP-bestand kunt downloaden met een map voor elk Adobe-product dat u bezit. In de map Analytics kan het volgende staan:
 
-* Personbestanden - Voortgekomen uit treffers met een overeenkomend ID-PERSON-label
+* Persoonsbestanden - afgeleid van treffers met een overeenkomend ID-PERSON-label
 
-   * Een CSV-bestand met één rij voor elke overeenkomende hit en één kolom voor elk veld met een ACC-ALL- of ACC-PERSON-label, gesorteerd op tijdstempel.
-   * Een HTML-samenvattingsbestand met één item voor elk ACC-ALL- of ACC-PERSON-label. Bij elk item worden alle unieke waarden voor dat veld weergegeven, evenals het aantal keren dat elke waarde is opgetreden. Velden met tijdstempels worden afgerond om alleen unieke dagen op te geven.
+   * Een CSV-bestand met één rij voor elke overeenkomende treffer en één kolom voor elk veld met een ACC-ALL- of ACC-PERSON-label, gesorteerd op tijdstempel.
+   * Een HTML-overzichtsbestand met één vermelding voor elk ACC-ALL- of ACC-PERSON-label. Bij elke vermelding worden alle unieke waarden voor dat veld vermeld, en het aantal keren dat elke waarde is voorgekomen. Velden met tijdstempels worden afgerond zodat ze alleen unieke dagen aangeven.
 
-* Apparaatbestanden - Voortgekomen uit resultaten waarbij een van de velden een bepaald ID-APPARAAT had, maar geen van deze velden een overeenkomende ID-PERSON had
+* Apparaatbestanden - afgeleid uit treffers waarbij een van de velden overeenkwam met een opgegeven ID-DEVICE, maar geen van deze velden overeenkwam met een opgegeven ID-PERSON
 
-   * Een CSV-bestand met één rij voor elke overeenkomende hit en één kolom voor elk veld met een ACC-ALL-label, gesorteerd op tijdstempel.
-   * HTML-overzichtsbestand met één item voor elk ACC-ALL-label. Bij elk item worden alle unieke waarden voor dat veld vermeld, evenals het aantal keren dat elke waarde is opgetreden. Velden met tijdstempels worden afgerond om alleen unieke dagen op te geven.
+   * Een CSV-bestand met één rij voor elke overeenkomende treffer en één kolom voor elk veld met een ACC-ALL-label, gesorteerd op tijdstempel.
+   * Een HTML-overzichtsbestand met één vermelding voor elk ACC-ALL-label. Bij elke vermelding worden alle unieke waarden voor dat veld vermeld, en het aantal keren dat elke waarde is voorgekomen. Velden met tijdstempels worden afgerond zodat ze alleen unieke dagen aangeven.
 
-Elk bestand combineert gegevens uit al uw rapportsuites en verwijdert automatisch extra kopieën van gerepliceerde treffers.
+Elk bestand combineert data uit al uw rapportsuites en verwijdert automatisch extra kopieën van gerepliceerde treffers.
 
-U kunt bepalen welke van deze om aan de betrokkene terug te komen. Of u kunt enkele van deze gegevens extraheren en combineren met gegevens van andere systemen voordat u deze terugstuurt naar de betrokkene.
+U kunt bepalen welke van deze naar de geregistreerde persoon moeten worden geretourneerd. Of u kunt enkele van deze data extraheren en combineren met data van andere systemen voordat u deze terugstuurt naar de geregistreerde persoon.
 
-**Details van reactie verwijderen**
+**Details van verwijderingsreacties**
 
-Er worden geen gegevens geretourneerd voor verwijderingsaanvragen - alleen een status voor de Data Privacy API die aan de aanvraag is toegewezen.
+Er worden data geretourneerd voor verwijderingsaanvragen, alleen een status naar de Data Privacy-API dat de aanvraag met succes is afgehandeld.
 
-## Gegevensprivacyverwerking testen op uw gegevens {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
+## Data Privacy-verwerking testen op uw data {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
 
-Klanten van Analytics zullen doorgaans een aantal testrapporten instellen om de functionaliteit te controleren voordat deze aan het grote publiek wordt uitgebracht. Websites of toepassingen die aan de productie voorafgaan, verzenden gegevens naar deze evaluatiereeksen voor test/dev/QA-rapporten om te beoordelen hoe de zaken werken wanneer de code wordt uitgebracht voordat echt verkeer naar de reeksen van het productierapport wordt verzonden.
+Analytics-klanten zullen doorgaans een aantal testrapportsuites instellen om de functionaliteit te controleren voordat deze voor het grote publiek wordt uitgebracht. Pre-productiewebsites of -apps verzenden data naar deze test/dev/QA-rapportsuites om te beoordelen hoe alles zal werken wanneer de code wordt uitgebracht, voordat er echte traffic naar de productierapportsuites wordt verzonden.
 
-Bij een normale configuratie kan de verwerking van een GPDR-aanvraag echter niet eerst op deze testreeksen worden getest voordat aanvragen op de reeksen van het productieverslag worden ingediend. De reden hiervoor is dat een verzoek van de Privacy van Gegevens automatisch wordt toegepast op alle rapportreeksen in de organisatie van de Wolk van de Ervaring, die vaak alle rapportreeksen voor uw bedrijf is.
+Bij een normale configuratie kan de verwerking van een GPDR-aanvraag echter niet eerst op deze testrapportsuites worden getest, voordat aanvragen op de productierapportsuites worden toegepast. De reden hiervoor is dat een Data Privacy-aanvraag automatisch wordt toegepast op alle rapportsuites in de Experience Cloud-organisatie, en dat zijn vaak alle rapportsuites voor uw bedrijf.
 
-Er zijn een paar manieren dat u nog steeds uw verwerking van de Privacy van Gegevens kunt testen alvorens het op al uw rapportseries toe te passen:
+Er zijn een paar manieren waarop u toch Data Privacy-verwerking kunt testen voordat deze op alle rapportsuites wordt toegepast:
 
-* U kunt onder andere een aparte Experience Cloud-organisatie instellen die alleen testrapporten bevat. Gebruik vervolgens deze Experience Cloud-organisatie voor het testen van uw gegevensprivacy en uw normale Experience Cloud-organisatie voor de daadwerkelijke verwerking van gegevensprivacy.
-* Een andere optie is verschillende naamruimten toe te wijzen aan de id&#39;s in uw testreeks van het testrapport, in tegenstelling tot de naamruimten in uw productierapporten.
+* Een optie is om een afzonderlijke Experience Cloud-organisatie in te stellen die alleen testrapportsuites bevat. Gebruik vervolgens deze Experience Cloud-organisatie voor uw Data Privacy-tests en uw normale Experience Cloud-organisatie voor daadwerkelijke Data Privacy-verwerking.
+* Een andere optie is om andere naamruimten toe te wijzen aan de id&#39;s in uw testrapportsuites, in tegenstelling tot de naamruimten in uw productierapportsuites.
 
-   U kunt bijvoorbeeld voor elke naamruimte een &quot;qa-&quot; opgeven in de reeks testrapporten. Wanneer u de verzoeken van de Privacy van Gegevens met slechts namespaces met het qa prefix voorlegt, zullen deze verzoeken slechts tegen uw reeksen van het testrapport lopen. Later, wanneer u verzoeken indient zonder het qa prefix, zullen zij op uw reeksen van het productierapport van toepassing zijn. **Dit is de geadviseerde benadering, tenzij u bezoekerId, AID, ECID of customVisitorId namespaces gebruikt, omdat deze hardcoded zijn en u kunt geen afwisselende namen voor hen in uw reeksen** van het testrapport specificeren.
+   U kunt bijvoorbeeld voor elke naamruimte een voorvoegsel “qa-” opgeven in uw testrapportsuites. Wanneer u Data Privacy-aanvragen verzendt met uitsluitend naamruimten met het qa-voorvoegsel, worden deze aanvragen alleen uitgevoerd op uw testrapportsuites. Later, wanneer u aanvragen verzendt zonder het qa-voorvoegsel, worden ze toegepast op uw productierapportsuites. **Dit is de aanbevolen aanpak, tenzij u de naamruimten visitorId, AAID, ECID of customVisitorId gebruikt, omdat deze in de hardware zijn gecodeerd en u er geen andere namen voor kunt opgeven in uw testrapportsuites**.
