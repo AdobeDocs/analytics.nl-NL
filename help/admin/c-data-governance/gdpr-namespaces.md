@@ -1,8 +1,8 @@
 ---
-description: Elke identiteitskaart die u wilt kunnen zoeken wordt toegewezen een namespace, die een douanekoord is dat die identiteitskaart in om het even welke variabele identificeert waar het over al uw rapportreeksen wordt gebruikt.
+description: Elke id die u wilt kunnen zoeken, krijgt een naamruimte toegewezen, een aangepaste tekenreeks die deze id identificeert in elke variabele waarin deze wordt gebruikt in al uw rapportsuites.
 title: Naamruimten
 uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -10,19 +10,19 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Naamruimten
 
-Elke identiteitskaart die u wilt kunnen zoeken wordt toegewezen een namespace, die een douanekoord is dat die identiteitskaart in om het even welke variabele identificeert waar het over al uw rapportreeksen wordt gebruikt.
+Elke id die u wilt kunnen zoeken, krijgt een naamruimte toegewezen, een aangepaste tekenreeks die deze id identificeert in elke variabele waarin deze wordt gebruikt in al uw rapportsuites.
 
-De naamruimte-tekenreeks wordt gebruikt om de velden te identificeren waarnaar u wilt zoeken wanneer u een id opgeeft als onderdeel van een verzoek om gegevensprivacy. Wanneer een privacyverzoek voor gegevens wordt ingediend, bevat het verzoek een JSON-sectie waarin de id&#39;s van de betrokkene zijn vermeld die voor het verzoek moeten worden gebruikt. Meerdere id&#39;s kunnen worden opgenomen als onderdeel van één aanvraag voor een betrokkene. De JSON bevat:
+De naamruimtetekenreeks wordt gebruikt om velden te identificeren die u wilt doorzoeken wanneer u een id opgeeft als onderdeel van een Data Privacy-aanvraag. Wanneer een Data Privacy-aanvraag wordt verzonden, bevat de aanvraag een JSON-sectie waarin de id&#39;s van de geregistreerde persoon zijn opgegeven die voor de aanvraag moeten worden gebruikt. Er kunnen meerdere id&#39;s worden opgenomen als onderdeel van één aanvraag voor een geregistreerde persoon. De JSON bevat het volgende:
 
-* Een naamruimte-veld dat de naamruimte-tekenreeks bevat.
-* Een veld &quot;type&quot; dat voor de meeste Adobe Analytics-aanvragen de waarde &quot;analytics&quot; bevat.
-* Een veld &quot;value&quot; met de id waarnaar Analytics moet zoeken in de gekoppelde naamruimtevariabelen van elk van uw rapportsuites.
+* Een naamruimteveld met de naamruimtetekenreeks.
+* Een typeveld dat voor de meeste Adobe Analytics-aanvragen de waarde “analytics” bevat.
+* Een “value”-veld met de id waarnaar Analytics moet zoeken in de gekoppelde naamruimtevariabelen van al uw rapportsuites.
 
-Raadpleeg de [Experience Cloud Data Privacy API documentatie](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) voor meer informatie.
+Raadpleeg de [Experience Cloud Data Privacy API-documentatie](https://docs.adobe.com/content/help/nl-NL/experience-platform/privacy/home.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) voor meer informatie.
 
 ## Cookie-id
 
-Legacy Analytics Tracking Cookie, ook wel Adobe Analytics ID (AID) genoemd:
+Verouderd Analytics-trackingcookie, ook wel Adobe Analytics-id (AAID) genoemd:
 
 ```
 {
@@ -32,11 +32,11 @@ Legacy Analytics Tracking Cookie, ook wel Adobe Analytics ID (AID) genoemd:
 }
 ```
 
-De waarde moet worden opgegeven als twee hexadecimale getallen, gescheiden door een streepje. Alle hexadecimale cijfers die alfabetische karakters zijn moeten worden gespecificeerd gebruikend hogere letters. De hexadecimale waarden mogen geen voorloopnullen hebben (houd rekening met het verschil met dezelfde waarde die in de afgekeurde vorm is opgegeven, waarbij voorloopnullen zijn vereist).
+De waarde moet worden opgegeven als twee hexadecimale getallen, gescheiden door een streepje. Alle hexadecimale cijfers die alfabetische tekens zijn, moeten worden opgegeven in hoofdletters. De hexadecimale waarden mogen geen voorloopnullen hebben (houd rekening met het verschil met dezelfde waarde in de afgeschafte vorm, waarbij voorloopnullen zijn vereist).
 
-Het is ook acceptabel om dit formulier te gebruiken `"namespaceId": 10` in plaats van of in aanvulling op `"namespace": "AAID"` en sommige andere Adobe-producten kunnen dit formulier gebruiken.
+Het is ook acceptabel om `"namespaceId": 10` te gebruiken in plaats van of in aanvulling op `"namespace": "AAID"`, en het kan zijn dat sommige andere Adobe-producten dit formulier gebruiken.
 
-## Legacy Analytics Tracking Cookie: Vervangen formulier
+## Verouderd Analytics-trackingcookie: afgeschaft formulier
 
 ```
 {
@@ -46,11 +46,11 @@ Het is ook acceptabel om dit formulier te gebruiken `"namespaceId": 10` in plaat
 }
 ```
 
-Vervangen formulier:
+Afgeschaft formulier:
 
-De waarde moet worden opgegeven als twee hexadecimale getallen van 16 cijfers of als twee decimale getallen van 19 cijfers. De getallen moeten worden gescheiden door een streepje, onderstrepingsteken of dubbele punt. Voorloopnullen moeten worden toegevoegd als een van beide getallen onvoldoende cijfers heeft.
+De waarde moet worden opgegeven als twee hexadecimale getallen van 16 cijfers, of als twee decimale getallen van 19 cijfers. De getallen moeten worden gescheiden door een streepje, onderstrepingsteken of dubbele punt. Er moeten voorloopnullen worden toegevoegd als een van beide getallen onvoldoende cijfers heeft.
 
-## Identity Service Cookie
+## Identity Service-cookie
 
 ```
 {
@@ -60,21 +60,21 @@ De waarde moet worden opgegeven als twee hexadecimale getallen van 16 cijfers of
 }
 ```
 
-De waarde moet worden opgegeven als een decimaal getal van 38 cijfers. Als u dit aantal van twee mcvisid\_high/low of post\_msvisid\_high/low kolommen van een gegevensvoer of het rapport van het Pakhuis van Gegevens trekt, moet u nul stootkussen elk van de twee aantallen aan 19 cijfers en dan hen samenvoegen met de hoge waarde eerst.
+De waarde moet worden opgegeven als een decimaal getal van 38 cijfers. Als u dit getal haalt uit de twee mcvisid\_high/low- of post\_msvisid\_high/low-kolommen van een datafeed of een Data Warehouse-rapport, moet u elk van beide getallen met nullen aanvullen tot 19 cijfers en ze vervolgens aan elkaar schakelen met de hoogste waarde eerst.
 
-Het is ook aanvaardbaar om te gebruiken: in `"namespaceId": 4` plaats van of als aanvulling op `"namespace": "ECID"` en sommige andere Adobe-producten kunnen dat formulier gebruiken.
+Het is ook acceptabel om `"namespaceId": 4` te gebruiken in plaats van of in aanvulling op `"namespace": "ECID"`, en het kan zijn dat sommige andere Adobe-producten dit formulier gebruiken.
 
->[!NOTE] De Experience Cloud ID (ECID) werd voorheen de Marketing Cloud ID (MCID) genoemd en wordt nog steeds door die naam vermeld in een aantal bestaande documentatie.
+>[!NOTE] De Experience Cloud ID (ECID) werd vroeger de Marketing Cloud-id (MCID) genoemd en wordt nog steeds bij die naam genoemd in een deel van de bestaande documentatie.
 >
->Deze id&#39;s zijn de enige id&#39;s die door Analytics worden ondersteund en die een andere waarde dan &quot;analytics&quot; gebruiken.
+>Deze id&#39;s zijn de enige id&#39;s die door Analytics worden ondersteund en die een andere “type”-waarde dan “analytics” gebruiken.
 
-Als de indeling van het waardegedeelte van een van deze cookie-id&#39;s niet de indeling volgt die voor die id is beschreven, mislukt de aanvraag Gegevensprivacy, met de fout &quot;Waarde is niet correct opgemaakt&quot;.
+Als de indeling van het waardegedeelte van een van deze cookie-id&#39;s niet de indeling volgt die voor die id is beschreven, mislukt de Data Privacy-aanvraag met de fout “Waarde is niet correct opgemaakt”.
 
-Deze cookie-id&#39;s worden doorgaans verzameld met de nieuwe JavaScript [voor](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm)privacy. Deze JavaScriptbiedt automatisch alle relevante sleutel-/waardeparen voor deze JSON-id&#39;s.
+Deze cookie-id&#39;s worden doorgaans verzameld met het nieuwe [JavaScript voor privacy](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm). Dit biedt automatisch alle relevante code-/waardeparen voor deze JSON-id&#39;s.
 
-Deze JavaScript-code vult de JSON met andere sleutel/waardeparen in, naast de bovenstaande (naamruimte, type, waarde), maar de bovenstaande velden zijn het belangrijkst voor de verwerking van de Privacy van analysegegevens en de enige velden die u moet opgeven als u de id&#39;s op een andere manier verzamelt.
+Deze JavaScript-code vult de JSON in met andere code/waardeparen naast de bovenvermelde (naamruimte, type, waarde), maar de bovenvermelde velden zijn het belangrijkst voor de Analytics Data Privacy-verwerking, en de enige velden die u moet opgeven als u de id&#39;s op een andere manier verzamelt.
 
-## Aangepaste bezoeker-id
+## Aangepaste bezoekers-id
 
 ```
 {
@@ -84,7 +84,7 @@ Deze JavaScript-code vult de JSON met andere sleutel/waardeparen in, naast de bo
 }
 ```
 
-De naamruimte is ook vooraf gedefinieerd voor de aangepaste bezoeker-id.
+De naamruimte is ook vooraf gedefinieerd voor de aangepaste bezoekers-id.
 
 ## Id&#39;s in aangepaste variabelen
 
@@ -100,12 +100,12 @@ De naamruimte is ook vooraf gedefinieerd voor de aangepaste bezoeker-id.
 }
 ```
 
-Voor id&#39;s in variabelen voor aangepast verkeer of conversie (props of eVars) geeft u aan dat de variabele een label voor ID-DEVICE of ID-PERSON heeft en wijst u vervolgens uw eigen naamruimtenaam toe aan dat type id. Zie Een naamruimte [opgeven wanneer u een variabele labelt als ID-DEVICE of ID-PERSON.](gdpr-labels.md)
+Voor id&#39;s in variabelen voor aangepaste traffic of conversie (props of eVars) geeft u de variabele een ID-DEVICE- of ID-PERSON-label en wijst u vervolgens uw eigen naamruimtenaam toe aan dat type id. Zie [Een naamruimte opgeven wanneer u een variabele labelt als ID-DEVICE of ID-PERSON.](gdpr-labels.md)
 
-U kunt ook namespaces zien die u eerder voor andere variabelen of rapportreeksen hebt bepaald en één van die opnieuw gebruiken, zodat zelfde namespace voor al uw rapportreeksen gemakkelijk kan worden gebruikt die dat type van identiteitskaart opslaan. Het is ook mogelijk om zelfde namespace aan veelvoudige variabelen binnen een rapportreeks toe te wijzen. Bijvoorbeeld, slaan sommige klanten identiteitskaart van CRM in een verkeersvariabele en een omzettingsvariabele op (afhankelijk van de pagina, is het soms in één of ander of allebei), en zij konden namespace &quot;identiteitskaart van CRM&quot;aan beide variabelen toewijzen.
+U kunt ook naamruimten zien die u eerder voor andere variabelen of rapportsuites hebt gedefinieerd en één daarvan opnieuw gebruiken, zodat dezelfde naamruimte gemakkelijk kan worden gebruikt voor al uw rapportsuites waarin dat type id wordt opgeslagen. Het is ook mogelijk om dezelfde naamruimte binnen een rapportsuite aan meerdere variabelen toe te wijzen. Zo slaan bijvoorbeeld sommige klanten een CRM-id op in een traffic variabele en een conversievariabele (afhankelijk van de pagina is het soms in de ene, soms in de andere, soms in allebei), en zij kunnen de naamruimte “CRM ID” aan beide variabelen toewijzen.
 
->[!TIP] Vermijd het gebruik van de vriendelijke naam van een variabele (de naam die wordt weergegeven in de rapportage-UI) of het nummer van de variabele (zoals eVar12) wanneer u de naamruimte opgeeft voor de Data Privacy API, tenzij dit de naamruimte is die is opgegeven bij het toepassen van het label ID-DEVICE of ID-PERSON. Het gebruiken van namespace eerder dan een vriendschappelijke naam staat het zelfde blok van de gebruikersidentiteit toe om de correcte variabele voor veelvoudige rapportreeksen te specificeren. Bijvoorbeeld, als identiteitskaart in verschillende eVars in sommige van de rapportreeksen is, of als de vriendschappelijke namen niet aanpassen (zoals wanneer de vriendschappelijke naam voor een specifieke rapportreeks is gelokaliseerd).
+>[!TIP] Vermijd het gebruik van de friendly name van een variabele (de naam die wordt weergegeven in de rapportagegebruikersinterface) of het nummer van de variabele (zoals eVar12) wanneer u de naamruimte opgeeft in de Data Privacy-API, tenzij deze naamruimte is opgegeven bij het toepassen van het label ID-DEVICE of ID-PERSON. Door een naamruimte te gebruiken in plaats van een friendly name kan hetzelfde gebruikersidentiteitsblok de juiste variabele opgeven voor meerdere rapportsuites. Als de id bijvoorbeeld in sommige rapportsuites in verschillende eVars voorkomt, of als de friendly names niet overeenkomen (bijvoorbeeld wanneer de friendly name is gelokaliseerd voor een bepaalde rapportsuite).
 
->[!CAUTION] De naamruimten &quot;bezoekerId&quot; en &quot;customVisitorId&quot; zijn gereserveerd voor het identificeren van het verouderde cookie voor bijhouden van analysemogelijkheden en de bezoeker-id van de Analytics-klant. Gebruik deze naamruimten niet voor variabelen voor aangepast verkeer of conversie.
+>[!CAUTION] De naamruimten “visitorId” en “customVisitorId” zijn gereserveerd voor het identificeren van het verouderde Analytics-trackingcookie en de bezoekers-id van de Analytics-klant. Gebruik deze naamruimten niet voor variabelen voor aangepaste traffic of conversie.
 
-Zie Een naamruimte [opgeven wanneer u een variabele labelt als ID-DEVICE of ID-PERSON voor meer informatie.](/help/admin/c-data-governance/gdpr-labels.md)
+Zie [Een naamruimte opgeven wanneer u een variabele labelt als ID-DEVICE of ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md)
