@@ -1,42 +1,42 @@
 ---
-title: Help Analysebeheer
-description: Beheerhelp voor Adobe Analytics-beheerders, inclusief gebruikers- en productbeheer in de beheerconsole, voor het instellen van rapportsuites, variabelen, classificaties en gegevensverzameling.
-translation-type: tm+mt
+title: Analytics Admin Help
+description: Help bij beheer voor Adobe Analytics-beheerders, inclusief gebruikers- en productbeheer in de Admin Console, voor het instellen van rapportsuites, variabelen, classificaties en dataverzameling.
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
 
-# Handleiding Analysebeheer
+# Analytics Admin-handleiding
 
 ![Banner](/assets/doc_banner_admin.png)
 
-Deze Help is bedoeld voor beheerders van Adobe Analytics. Het omvat hulp op gebruiker en productbeheer in de Console Admin, vestiging rapportseries, variabelen, classificaties, en gegevensinzameling.
+Deze Help is bedoeld voor beheerders van Adobe Analytics. De Help bevat hulp bij gebruikers- en productbeheer in de Admin Console, het instellen van rapportsuites, variabelen, classificaties, en dataverzameling.
 
-Adobe Analytics heeft momenteel twee beheergebieden:
+Adobe Analytics heeft momenteel twee gedeelten voor beheerders:
 
-* Adobe Admin Console: Gebruik dit gebied voor de hulpmiddelen van de Wolk van de leveringsErvaring, en het beheren van gebruikerstoestemmingen. Het bevindt zich op [adminconsole.adobe.com](https://adminconsole.adobe.com).
-* Analysebeheerconsole: Gebruik dit gebied voor rapportreeks en veranderlijk beheer. U kunt dit item openen door op Beheer te klikken in de bovenste kop van Adobe Analytics.
+* Adobe Admin Console: Gebruik dit gebied voor de inrichting van Experience Cloud-tools en voor het beheer van gebruikerstoestemmingen. Dit gebied bevindt zich op [adminconsole.adobe.com](https://adminconsole.adobe.com).
+* Analytics-Admin Console: Gebruik dit gebied voor het beheer van rapportsuites en variabelen. U kunt dit item openen door op Admin te klikken in de bovenste kop van Adobe Analytics.
 
-Deze handleiding is van toepassing op:
+Deze handleiding behandelt het volgende:
 
-* Alle taken die worden uitgevoerd in de beheerconsole voor analysemogelijkheden. Dit omvat het opzetten van een reeks rapporten, variabelen, classificaties of gegevensbeheer. Zie de Hulpmiddelen [van](admin/c-admin-tools.md) Admin voor een lijst van rapportreeks en bedrijfmontages beschikbaar.
-* Alle analytische specifieke taken die worden uitgevoerd in de Adobe Admin Console. Dit gebied omvat productlevering en gebruikerstoestemmingsbeheer. Zie [Adobe Analytics in de Adobe Admin Console](admin-console/home.md) voor een lijst van acties die in de Console van Adobe kunnen worden gedaan Admin.
+* Alle taken die worden uitgevoerd in de Admin Console van Analytics. Dit gebied omvat het instellen van rapportsuites, variabelen, classificaties of data-governance. Zie [Admin Tools](admin/c-admin-tools.md) voor een lijst met beschikbare instellingen voor rapportsuites en bedrijven.
+* Alle Analytics-specifieke taken die worden uitgevoerd in de Adobe Admin Console. Dit gebied omvat het beheer van productinrichting en gebruikerstoestemmingen. Zie [Adobe Analytics in de Adobe Admin Console](admin-console/home.md) voor een lijst met acties die in de Adobe Admin Console kunnen worden uitgevoerd.
 
-In deze handleiding worden veel van de algemene mogelijkheden die de Adobe Admin Console biedt, niet besproken. Zie in plaats daarvan de [beheerconsole](https://helpx.adobe.com/enterprise/using/admin-console.html) in de gebruikershandleiding voor bedrijven.
+In deze handleiding worden veel algemene mogelijkheden van de Adobe Admin Console niet besproken. Zie in plaats daarvan [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) in de Enterprise-gebruikershandleiding.
 
-## Belangrijkste artikelen
+## Belangrijke artikelen
 
-* [Eerste handleiding](admin-console/first-admin-guide.md)voor Analytics Admin Starter: Als Adobe Analytics een geheel nieuwe versie van uw organisatie heeft, volgt u deze handleiding om meerwaarde te krijgen uit Adobe Analytics.
-* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md): Het meest gebruikte beheerprogramma in Analytics. De Manager van de Reeks van het Rapport bevat montages voor veranderlijk beheer classificatiebeheer, tijdstreken, en meer.
+* [Analytics First Admin Starter Guide](admin-console/first-admin-guide.md): Als uw organisatie nog nooit met Adobe Analytics heeft gewerkt, volg dan deze handleiding om van Adobe Analytics te profiteren.
+* [Rapportsuitebeheer](c-manage-report-suites/report-suites-admin.md): De meestgebruikte beheertool in Analytics. Rapportsuitebeheer bevat instellingen voor beheer van variabelen, classificaties, tijdzones en meer.
 
-## Meer gebruikershandleidingen voor Analytics
+## Meer Analytics-gebruikershandleidingen
 
-[Gebruikershandleidingen voor Analytics](/help/landing/home.md)
+[Analytics-gebruikershandleidingen](/help/landing/home.md)
 
-## Belangrijke bronnen voor analyse
+## Belangrijke bronnen voor Analytics
 
-* [Contact opnemen met de klantenservice](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analysereforum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Contact opnemen met de klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html)
+* [Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
