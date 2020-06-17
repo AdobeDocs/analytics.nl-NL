@@ -1,22 +1,22 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Handleiding voor analytische implementatie
+user-guide-title: Analytics-implementatiehandleiding
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 2%
+source-wordcount: '443'
+ht-degree: 4%
 
 ---
 
 
-# Handleiding voor analytische implementatie {#implementation}
+# Analytics-implementatiehandleiding {#implementation}
 
-+ [Help voor analysetransplementatie](home.md)
++ [Help bij Analytics-implementatie](home.md)
 + [Opmerkingen bij de release AppMeasurement](appmeasurement-updates.md)
-+ Variabelen, functies en methoden voor analyse {#vars}
++ Analytics-variabelen, -functies en -methoden {#vars}
    + [Overzicht](vars/overview.md)
    + Configuratievariabelen {#config-vars}
       + [Overzicht van configuratievariabelen](vars/config-vars/configuration-variables.md)
@@ -60,7 +60,8 @@ ht-degree: 2%
       + [contextData](vars/page-vars/contextdata.md)
       + [Dynamische variabelen](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + gebeurtenissen {#events}
+      + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
+      + events {#events}
          + [Overzicht van gebeurtenissen](vars/page-vars/events/events-overview.md)
          + [Aankoopgebeurtenis](vars/page-vars/events/event-purchase.md)
          + [Serienummering voor gebeurtenissen](vars/page-vars/events/event-serialization.md)
@@ -129,7 +130,7 @@ ht-degree: 2%
    + [Overwegingen voor algemene rapporten](prepare/global-rs.md)
    + [Implementatiemodel](prepare/implementation-modal.md)
    + [Een document voor het ontwerp van een oplossing maken](prepare/solution-design.md)
-+ Analyses implementeren met JavaScript {#js}
++ Analytics implementeren met JavaScript {#js}
    + [JavaScript-overzicht](js/overview.md)
    + [Optie-outkoppelingen implementeren](js/opt-out.md)
    + [Variabele overschrijvingen](js/overrides.md)
@@ -148,34 +149,34 @@ ht-degree: 2%
       + [Voorbeeld van bezoek](js/xdevice-visid/visit-example.md)
       + [Veelgestelde vragen over verouderde apparaten](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement oplossen](js/troubleshooting.md)
-+ Analyses implementeren met Adobe Experience Platform Launch {#launch}
++ Analytics implementeren met Adobe Experience Platform starten {#launch}
    + [Overzicht van starten](launch/overview.md)
-   + [Een eigenschap Analytics maken](launch/create-analytics-property.md)
+   + [Een Analytics-eigenschap maken](launch/create-analytics-property.md)
    + [Distribueren naar een ontwikkelomgeving](launch/deploy-dev.md)
    + [Valideren en publiceren naar profiel](launch/validate-publish-prod.md)
    + [Gegevenslaagobjecten toewijzen aan gegevenselementen](launch/layer-to-elements.md)
-   + [Gegevenselementen van start toewijzen aan analytische variabelen](launch/elements-to-variable.md)
-+ Analyses implementeren op andere platforms {#other}
-   + [Analyses implementeren met behulp van hardwarematige afbeeldingsaanvragen](other/hardcoded.md)
-   + Analyses implementeren met DTM {#dtm}
+   + [Gegevenselementen van starten toewijzen aan Analytics-variabelen](launch/elements-to-variable.md)
++ Analytics implementeren op andere platforms {#other}
+   + [Analytics implementeren met behulp van hardwarematige verzoeken voor afbeeldingen](other/hardcoded.md)
+   + Analytics implementeren met DTM {#dtm}
       + [Implementatieoverzicht van dynamisch tagbeheer](other/dtm/dtm-implementation-overview.md)
       + [Webeigenschap maken](other/dtm/t-create-web-property.md)
       + [hostopties configureren](other/dtm/t-configure-hosting.md)
       + Kop- en voetteksten {#headers-footers}
          + [Code voor kop- en voetteksten toevoegen](other/dtm/c-headers-footers/t-header-footer-code.md)
          + [Koptekst- en voettekstcode controleren](other/dtm/c-headers-footers/t-verify-header-footer.md)
-      + Gereedschap Adobe Analytics {#analytics-tool}
-         + [Gereedschap Adobe Analytics toevoegen](other/dtm/c-aa-tool/analytics-dtm.md)
+      + Adobe Analytics {#analytics-tool}
+         + [Adobe Analytics-gereedschap toevoegen](other/dtm/c-aa-tool/analytics-dtm.md)
          + [Algemeen](other/dtm/c-aa-tool/general-settings-analytics.md)
          + [Bibliotheekbeheer](other/dtm/c-aa-tool/library-management.md)
          + [Core AppMeasurement-code invoegen](other/dtm/c-aa-tool/t-appmeasurement-code.md)
          + [Algemene variabelen](other/dtm/c-aa-tool/global-variables.md)
          + [Paginaweergaven en -inhoud](other/dtm/c-aa-tool/pageviews-content.md)
-         + [Koppeling bijhouden](other/dtm/c-aa-tool/link-tracking.md)
+         + [Link tracking](other/dtm/c-aa-tool/link-tracking.md)
          + [Referenties en campagnes](other/dtm/c-aa-tool/referrers-campaigns.md)
          + [Cookies](other/dtm/c-aa-tool/cookies-analytics.md)
          + [Paginacode aanpassen](other/dtm/c-aa-tool/customize-page-code.md)
-         + [Veelgestelde vragen over het hulpprogramma Adobe Analytics](other/dtm/c-aa-tool/dtm-faq.md)
+         + [Veelgestelde vragen over de Adobe Analytics Tool](other/dtm/c-aa-tool/dtm-faq.md)
       + [Een gegevenselement maken](other/dtm/t-data-element.md)
       + [Adobe Analytics handmatig implementeren (verouderd)](other/dtm/t-analytics-deploy.md)
       + Regels {#rules}
@@ -186,11 +187,11 @@ ht-degree: 2%
          + [Handelingen instellen voor activeren van voorwaarde](other/dtm/c-rules/t-rules-actions.md)
          + [Niet-gepubliceerde regels voor Akamai-hosting testen](other/dtm/c-rules/t-test-rules-akamai.md)
          + [Testregels voor het downloaden van bibliotheken of FTP](other/dtm/c-rules/t-test-rules-ftp.md)
-   + [Analyses implementeren op Ajax](other/ajax.md)
-   + [Analyses implementeren op AMP](other/amp.md)
-   + [Analyses implementeren op digitale assistenten](other/digital-assistants.md)
-   + [Analyses implementeren op Facebook Instant Articles](other/fb-instant-articles.md)
-+ [Analyses implementeren op mobiele apparaten](mobile-device-sdk.md)
+   + [Analytics implementeren op Ajax](other/ajax.md)
+   + [Analytics implementeren op AMP](other/amp.md)
+   + [Analytics implementeren op digitale assistenten](other/digital-assistants.md)
+   + [Analytics implementeren op Facebook Instant Articles](other/fb-instant-articles.md)
++ [Analytics implementeren op mobiele apparaten](mobile-device-sdk.md)
 + Gebruiksscenario&#39;s implementeren {#use-cases}
    + [Houd verschillende implementatietypen bij](use-cases/cross-type-implementation.md)
    + [Externe e-mailtracking](use-cases/email-external.md)
@@ -202,4 +203,4 @@ ht-degree: 2%
 + [Veelgestelde vragen](faq.md)
 + XDM-gegevens gebruiken met Analytics {#aep-edge}
    + [AEP Web SDK gebruiken](aep-edge/xdmoverview.md)
-   + [XDM-gegevens handmatig toewijzen aan Analyse](aep-edge/xdm-manual.md)
+   + [XDM-gegevens handmatig toewijzen aan Analytics](aep-edge/xdm-manual.md)
