@@ -20,7 +20,7 @@ Stel dat u de volgende treffersdata hebt:
 
 | Labels | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Naam variabele **<br>**(Naamruimte)** | **MyProp1 **<br>**(gebruiker)** | **Bezoekers-id **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
+| **Naam variabele**<br>**(Naamruimte)** | **MyProp1**<br>**(gebruiker)** | **Bezoekers-id**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
 | Treffersdata | Moniek | 77 | A | M | X |
 |  | Moniek | 88 | B | N | Y |
 |  | Moniek | 99 | C | O | Z |
