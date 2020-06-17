@@ -1,20 +1,20 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Handleiding Analytics Components
+user-guide-title: Analytics Components-handleiding
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 8a6c84b386d794e8929f4f9e0810a908a13387b8
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 6%
+source-wordcount: '622'
+ht-degree: 61%
 
 ---
 
 
-# [!DNL Analytics] Hulplijn voor onderdelen {#components}
+# [!DNL Analytics] Components-handleiding {#components}
 
-+ [Help bij Analysecomponenten](home.md)
++ [Analytics Components Help](home.md)
 + Dimensies {#dimensions}
    + [Overzicht van afmetingen](dimensions/overview.md)
    + [Dimensiecompatibiliteit](dimensions/compatibility.md)
@@ -50,6 +50,7 @@ ht-degree: 6%
    + [Eerste aanraakkanaal](dimensions/first-touch-channel.md)
    + [Eerste aanraakkanaaldetail](dimensions/first-touch-detail.md)
    + [Hoogte](dimensions/hit-depth.md)
+   + [Type hit](dimensions/hit-type.md)
    + [Uur van de dag](dimensions/hour-of-day.md)
    + [Uur](dimensions/hour.md)
    + [Java ingeschakeld](dimensions/java-enabled.md)
@@ -75,7 +76,7 @@ ht-degree: 6%
    + [Kwartaal van het jaar](dimensions/quarter-of-year.md)
    + [Kwart](dimensions/quarter.md)
    + [Type referentie](dimensions/referrer-type.md)
-   + [Referenter](dimensions/referrer.md)
+   + [Referrer](dimensions/referrer.md)
    + [Verwijzen naar domein](dimensions/referring-domain.md)
    + [Regio&#39;s](dimensions/regions.md)
    + [Retourfrequentie](dimensions/return-frequency.md)
@@ -109,11 +110,11 @@ ht-degree: 6%
    + [Winkelwagentjes](metrics/cart-removals.md)
    + [Winkelweergaven](metrics/cart-views.md)
    + [Houtskaarten](metrics/carts.md)
-   + [Afbeeldingen](metrics/checkouts.md)
+   + [Betalingen](metrics/checkouts.md)
    + [Inhoudssnelheid](metrics/content-velocity.md)
    + [Aangepaste gebeurtenissen](metrics/custom-events.md)
-   + [Berichten](metrics/entries.md)
-   + [Afsluiten](metrics/exits.md)
+   + [Geopend](metrics/entries.md)
+   + [Gesloten](metrics/exits.md)
    + [Instanties](metrics/instances.md)
    + [Mobiele weergaven](metrics/mobile-views.md)
    + [Nieuwe contracten](metrics/new-engagements.md)
@@ -125,8 +126,8 @@ ht-degree: 6%
    + [Pagina&#39;s niet gevonden](metrics/pages-not-found.md)
    + [Mensen](metrics/people.md)
    + [Productweergaven](metrics/product-views.md)
-   + [Opnieuw laden](metrics/reloads.md)
-   + [Ontvangsten](metrics/revenue.md)
+   + [Opnieuw geladen](metrics/reloads.md)
+   + [Omzet](metrics/revenue.md)
    + [Zoekopdrachten](metrics/searches.md)
    + [Enkelvoudige toegang](metrics/single-access.md)
    + [Eén pagina bezoeken](metrics/single-page-visits.md)
@@ -138,119 +139,119 @@ ht-degree: 6%
    + [Eenheden](metrics/units.md)
    + [Bezoekers met Experience Cloud ID](metrics/visitors-with-ecid.md)
    + [Bezoeken](metrics/visits.md)
-+ Segmentering {#segmentation}
-   + [Segmentatie van analyse](c-segmentation/seg-home.md)
++ Segmentatie {#segmentation}
+   + [Analytics-segmentatie](c-segmentation/seg-home.md)
    + [Informatie over segmenten en containers](c-segmentation/seg-overview.md)
-   + [Segmenteringsfuncties in de werkruimte Analyse](c-segmentation/segmentation-in-analysis-workspace.md)
-   + Segmenteringsworkflow {#segmentation-workflow}
+   + [Segmentatiefuncties in Analysis Workspace](c-segmentation/segmentation-in-analysis-workspace.md)
+   + Segmentatieworkflow {#segmentation-workflow}
       + [Overzicht van de segmentatieworkflow](c-segmentation/c-segmentation-workflow/seg-workflow.md)
-      + [Elementen plannen](c-segmentation/c-segmentation-workflow/seg-plan.md)
+      + [Segmenten plannen](c-segmentation/c-segmentation-workflow/seg-plan.md)
       + [Segmenten maken](c-segmentation/c-segmentation-workflow/seg-build.md)
       + [Opeenvolgende segmenten maken](c-segmentation/c-segmentation-workflow/seg-sequential-build.md)
-      + [Tagsegmenten](c-segmentation/c-segmentation-workflow/seg-tag.md)
+      + [Segmenten een label geven](c-segmentation/c-segmentation-workflow/seg-tag.md)
       + [Segmenten goedkeuren](c-segmentation/c-segmentation-workflow/seg-approve.md)
       + [Segmenten delen](c-segmentation/c-segmentation-workflow/t-seg-share.md)
-      + [Segmenten publiceren naar de Experience Cloud](c-segmentation/c-segmentation-workflow/seg-publish.md)
+      + [Segmenten publiceren naar Experience Cloud](c-segmentation/c-segmentation-workflow/seg-publish.md)
       + [Segmenten selecteren en toepassen](c-segmentation/c-segmentation-workflow/t-seg-apply.md)
-      + [Filtersegmenten](c-segmentation/c-segmentation-workflow/t-seg-filter.md)
+      + [Segmenten filteren](c-segmentation/c-segmentation-workflow/t-seg-filter.md)
       + [Segmenten markeren als favorieten](c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
       + [Segmenten verwijderen](c-segmentation/c-segmentation-workflow/seg-delete.md)
       + [Segmenten beheren](c-segmentation/c-segmentation-workflow/seg-manage.md)
    + Segmentverwijzing {#segment-reference}
       + [Vergelijkingsoperatoren voor segmenten](c-segmentation/seg-reference/seg-operators.md)
-      + [Verenigbaarheid van gegevensopslagsegment](c-segmentation/seg-reference/seg-compatibility.md)
-      + [Segmentrechten op rol](c-segmentation/seg-reference/seg-rights.md)
+      + [Compatibiliteit van Data Warehouse-segmenten](c-segmentation/seg-reference/seg-compatibility.md)
+      + [Segmentrechten per rol](c-segmentation/seg-reference/seg-rights.md)
       + [Problemen oplossen](c-segmentation/seg-reference/c-troubleshooting.md)
    + [Veelgestelde vragen](c-segmentation/seg-transition.md)
-   + [Nieuw in Analytics Segmentation](c-segmentation/whats-new-segmentation.md)
-   + [Overgangshandleiding voor ad-hocanalyse](c-segmentation/seg-transition-ad-hoc.md)
+   + [Nieuwe functies in Analytics-segmentatie](c-segmentation/whats-new-segmentation.md)
+   + [Overgangshandleiding voor Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
 + Berekende statistieken {#calculated-metrics}
    + [Berekende en Geavanceerde berekende (Afgeleide) Metriek](c-calcmetrics/cm-overview.md)
    + [Veelgestelde vragen](c-calcmetrics/cm-transition.md)
    + [Instructievideo&#39;s](c-calcmetrics/cm-videos.md)
-   + Workflow voor berekende statistieken {#calcmetric-workflow}
-      + [Workflow voor berekende metriek](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [Metrische gegevens zoeken](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Metrische gegevens samenstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Metrisch type en kenmerk](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Een eenvoudige metrische &quot;paginaweergaven per bezoek&quot; maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Gesegmenteerde metriek](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
+   + Workflow voor berekende standaard {#calcmetric-workflow}
+      + [Workflow voor berekende standaard](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [Cijfers zoeken](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
+      + [Cijfers samenstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Type cijfers en attributie](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [Een eenvoudige indicator voor &quot;Paginaweergaven per bezoek&quot; maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Gesegmenteerde cijfers](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Segmenten stapelen en vervangen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Gefilterde en gewogen cijfers](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [Metrisch met instructies](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Cijfers voor hulp bij bestellingen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Functies gebruiken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [Deelnamemetrisch](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [Berekende maatstaven voor tags](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [Berekende waarden goedkeuren](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
-      + [Berekende maatstaven delen](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [Berekend metrisch beheer](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [Participatiecijfers](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Berekende standaard een label geven](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [Berekende standaard goedkeuren](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
+      + [Berekende standaard delen](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+      + [Berekende standaard-beheer](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Verwijzing naar cijfers {#calcmetrics-reference}
       + [Referentie: basisfuncties](c-calcmetrics/cm-reference/cm-functions.md)
       + [Referentie: geavanceerde functies](c-calcmetrics/cm-reference/cm-adv-functions.md)
-      + [Metrische compatibiliteit](c-calcmetrics/cm-compatibility.md)
-      + [Berekende cijfers: op rol gebaseerde rechten](c-calcmetrics/cm-role-based-rights.md)
-      + [Berekende totalen van metriek](c-calcmetrics/cm-totals.md)
+      + [Compatibiliteit van cijfers](c-calcmetrics/cm-compatibility.md)
+      + [Berekende standaard: op rol gebaseerde rechten](c-calcmetrics/cm-role-based-rights.md)
+      + [Totalen van berekende standaard](c-calcmetrics/cm-totals.md)
 + Virtuele rapportsuites {#virtual-report-suites}
-   + [Overzicht van virtuele-rapportsuites](vrs/vrs-about.md)
-   + [Virtual Report Suite Component Curation](vrs/vrs-components.md)
-   + [VRS-ondersteuning voor mobiele services](vrs/vrs-mobile-services.md)
+   + [Overzicht van virtuele rapportsuites](vrs/vrs-about.md)
+   + [Onderdeelselectie voor virtuele rapportsuites](vrs/vrs-components.md)
+   + [VRS-ondersteuning in Mobile Services](vrs/vrs-mobile-services.md)
    + [Contextbewuste sessies](vrs/vrs-mobile-visit-processing.md)
-   + [Tijdverwerking rapporteren](vrs/vrs-report-time-processing.md)
-   + [VRS Veelgestelde vragen](vrs/vrs-faq.md)
-   + [VRSs en globale/multi-suite het etiketteren overwegingen](vrs/vrs-considerations.md)
+   + [Verwerking rapportduur](vrs/vrs-report-time-processing.md)
+   + [Veelgestelde vragen over VRS](vrs/vrs-faq.md)
+   + [Overwegingen bij labels voor VRS en globale/multi-suites](vrs/vrs-considerations.md)
    + VRS-workflow {#vrs-workflow}
-      + [Workflow voor virtuele rapportsuite](vrs/c-workflow-vrs/vrs-workflow.md)
+      + [Workflow voor virtuele rapportsuites](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Virtuele rapportsuites maken](vrs/c-workflow-vrs/vrs-create.md)
       + [Virtuele rapportsuites beheren](vrs/c-workflow-vrs/vrs-manage.md)
       + [Gegevens van virtuele rapportsuite weergeven](vrs/c-workflow-vrs/vrs-view.md)
-+ Apparaatanalyse {#cda}
-   + [Overzicht van apparaatanalyse](cda/cda-home.md)
-   + [Apparaatanalyse instellen](cda/cda-setup.md)
-   + [Veelgestelde vragen over cross-device analyse](cda/cda-faq.md)
++ Cross-device Analytics {#cda}
+   + [Overzicht van cross-device Analytics](cda/cda-home.md)
+   + [Cross-device Analytics instellen](cda/cda-setup.md)
+   + [Veelgestelde vragen over Cross-device Analytics](cda/cda-faq.md)
 + Waarschuwingen {#alerts}
    + [Intelligente waarschuwingen](c-alerts/intellligent-alerts.md)
    + [Alert Builder](c-alerts/alert-builder.md)
    + [Waarschuwingsbeheer](c-alerts/alert-manager.md)
-   + [Intelligente waarschuwingen - gebruiksgevallen](c-alerts/alerts-use-cases.md)
+   + [Intelligente waarschuwingen - gebruiksscenario&#39;s](c-alerts/alerts-use-cases.md)
 + Classificaties {#classifications}
-   + [Classificaties](c-classifications2/c-classifications.md)
-   + [Subclassificaties](c-classifications2/c-sub-classifications.md)
+   + [Informatie over classificaties](c-classifications2/c-classifications.md)
+   + [Informatie over subclassificaties](c-classifications2/c-sub-classifications.md)
    + [Conversieclassificaties](c-classifications2/conversion-classifications.md)
    + [Verkeersclassificaties](c-classifications2/traffic-classifications.md)
    + [Classificatiehiërarchieën](c-classifications2/classification-hierarchies.md)
-   + Invoerder van classificaties (upload) {#classifications-importer}
-      + [Invoerder van classificaties - overzicht](c-classifications2/c-classifications-importer/c-working-with-saint.md)
-      + [Classificatiegegevensbestanden](c-classifications2/c-classifications-importer/c-saint-data-files.md)
-      + [Classificatiegegevens verwijderen](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
-      + [Escape-classificatiegegevens](c-classifications2/c-classifications-importer/t-classifications-escape-data.md)
-      + [Niet-geclassificeerde sleutels](c-classifications2/c-classifications-importer/nonclassified-keys.md)
-      + [Indelingssjabloon](c-classifications2/c-classifications-importer/c-download-saint-data.md)
-      + [Browser en FTP importeren](c-classifications2/c-classifications-importer/import-file.md)
+   + Importeren van classificaties (upload) {#classifications-importer}
+      + [Importeren van classificaties - overzicht](c-classifications2/c-classifications-importer/c-working-with-saint.md)
+      + [Classificatiedatabestanden](c-classifications2/c-classifications-importer/c-saint-data-files.md)
+      + [Classificatiedata verwijderen](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
+      + [Classificatiedata omzeilen](c-classifications2/c-classifications-importer/t-classifications-escape-data.md)
+      + [Niet-geclassificeerde codes](c-classifications2/c-classifications-importer/nonclassified-keys.md)
+      + [Classificatiesjabloon](c-classifications2/c-classifications-importer/c-download-saint-data.md)
+      + [Browser- en FTP-import](c-classifications2/c-classifications-importer/import-file.md)
       + [Browserimport](c-classifications2/c-classifications-importer/browser-import.md)
-      + [FTP importeren](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
-   + Classification Rule Builder {#classifications-rulebuilder}
-      + [Workflow van de opbouwfunctie voor classificatieregels](c-classifications2/crb/classification-rule-builder.md)
-      + [Classificatiereeksen](c-classifications2/crb/classification-rule-set.md)
+      + [FTP-import](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
+   + Builder voor classificatieregels {#classifications-rulebuilder}
+      + [Workflow van de Builder voor classificatieregels](c-classifications2/crb/classification-rule-builder.md)
+      + [Classificatieregelsets](c-classifications2/crb/classification-rule-set.md)
       + [Classificatieregels](c-classifications2/crb/classification-quickstart-rules.md)
       + [Classificatieregels - definities](c-classifications2/crb/classification-rule-definitions.md)
-      + [Subclassificaties en de Bouwer van de Regel](c-classifications2/crb/sub-classification-rule-builder.md)
-   + Numerieke 2 classificaties {#numeric2-classification}
-      + [Overzicht van numerieke 2 classificaties](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
-      + [Numerieke 2 classificaties maken](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
-      + [Numerieke 2 classificaties importeren](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
+      + [Subclassificaties en de Rule Builder](c-classifications2/crb/sub-classification-rule-builder.md)
+   + Numeriek 2-classificaties {#numeric2-classification}
+      + [Overzicht van Numeriek 2-classificaties](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
+      + [Numeriek 2-classificaties maken](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
+      + [Numeriek 2-classificaties importeren](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
       + [Voorbeelden](c-classifications2/c-numeric-2/c-examples.md)
    + [Problemen met classificaties oplossen](c-classifications2/c-classifications-troubleshooting.md)
 + [Kalendergebeurtenissen](t-calendar-event.md)
-+ Real-time rapportage {#real-time-reporting}
-   + [Overzicht van real-time rapportage](c-real-time-reporting/realtime.md)
-   + [Rapporten in real time configureren](c-real-time-reporting/t-realtime-admin.md)
-   + [Ondersteunde metriek en afmetingen in real time](c-real-time-reporting/realtime-metrics.md)
++ Realtimerapportage {#real-time-reporting}
+   + [Overzicht van realtimerapportage](c-real-time-reporting/realtime.md)
+   + [Realtimerapporten configureren](c-real-time-reporting/t-realtime-admin.md)
+   + [Ondersteunde cijfers en dimensies in real time](c-real-time-reporting/realtime-metrics.md)
 + Marketingkanalen {#marketing-channels}
    + [Aan de slag met marketingkanalen](c-marketing-channels/c-getting-started-mchannel.md)
-   + [Verkoopkanalen beheren](c-marketing-channels/c-channels.md)
-   + [Verwerkingsregels voor distributiekanalen](c-marketing-channels/c-rules.md)
+   + [Marketingkanalen beheren](c-marketing-channels/c-channels.md)
+   + [Verwerkingsregels voor marketingkanalen](c-marketing-channels/c-rules.md)
    + [Classificaties in marketingkanalen](c-marketing-channels/classifictions-mchannel.md)
    + [Vervaldatum betrokkenheid bezoeker](c-marketing-channels/visitor-engagement.md)
    + [Marketingkanalen analyseren](c-marketing-channels/analyze-mc.md)
    + [Machtigingen voor marketingkanalen](c-marketing-channels/c-channel-report-access.md)
-   + [Veelgestelde vragen en voorbeelden over marketingkanalen](c-marketing-channels/c-faq.md)
+   + [Veelgestelde vragen en voorbeelden voor marketingkanalen](c-marketing-channels/c-faq.md)
