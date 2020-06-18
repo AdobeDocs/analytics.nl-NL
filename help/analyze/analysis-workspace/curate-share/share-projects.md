@@ -3,30 +3,30 @@ description: Projectdeling en projectrollen in Workspace
 keywords: Analysis Workspace sharing
 title: Werkruimteprojecten delen
 translation-type: tm+mt
-source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
+source-git-commit: 2312330f9371922ee895b622230d7fa9c3632c12
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 2%
+source-wordcount: '681'
+ht-degree: 3%
 
 ---
 
 
 # Werkruimteprojecten delen
 
-Het delen maakt een project beschikbaar aan andere gebruikers van de Werkruimte van de Analyse in uw organisatie. Elke [curatie](curate.md) die u hebt toegepast, wordt weerspiegeld wanneer ontvangers het project openen.
+Door een project te delen, stelt u het beschikbaar voor andere Analysis Workspace-gebruikers in uw organisatie. Elke [curatie](curate.md) die u hebt toegepast, wordt weerspiegeld wanneer ontvangers het project openen.
 
 ## Projectrollen
 
-U kunt ontvangers aan één van drie projectrollen toevoegen. De rollen van het project zijn verbonden aan de gebruiker en specifieke projectidentiteitskaart
-
->[!NOTE]
-> Projectrollen zijn onafhankelijk van gebruikersmachtigingen die worden beheerd in de beheerconsole van de Experience Cloud.
+U kunt ontvangers aan één van drie projectrollen toevoegen. De rollen van het project zijn verbonden aan de gebruiker en specifieke projectidentiteitskaart Projectrollen zijn onafhankelijk van gebruikersmachtigingen die in de [Experience Cloud-beheerconsole](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/admin-getting-started.html)worden beheerd.
 
 | Rol | Projectbeheersing |
 |---|---|
 | Kan bewerken | Ontvangers kunnen wijzigingen in een project opslaan en als medeeigenaars fungeren.<br>Deze rol is nuttig als u met collega&#39;s aan een project wilt samenwerken. |
-| Kan dupliceren | Ontvangers kunnen Opslaan als en toegang hebben tot de linkerrail. Interacties zijn niet beperkt.<br>Deze rol is nuttig als u een project aan gebruikers wilt delen die de gegevens van uw organisatie en hoe te om de Werkruimte van de Analyse begrijpen, maar u wilt niet uw bewaard project veranderen. |
-| Kan worden weergegeven | Ontvangers kunnen niet Opslaan als en hebben geen toegang tot de linkerrail. Interacties zijn ook beperkt.<br>Deze rol is nuttig als u een project aan gebruikers wilt delen die minder vertrouwd met de de gegevensstructuur van uw organisatie, de Werkruimte van de Analyse of Analyse over het algemeen zijn. U wilt echter nog steeds dat ze gegevens en inzichten in een veilige omgeving gebruiken.<br>Meer informatie over [Kan projectervaring](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)bekijken. |
+| Kan dupliceren | Ontvangers kunnen Opslaan als en toegang hebben tot de linkerrail. Interacties zijn niet beperkt.<br>Deze rol is nuttig als u een project aan gebruikers wilt delen die de gegevens van uw organisatie en hoe te om Analysis Workspace begrijpen, maar u wilt niet uw bewaarde project veranderen. |
+| Kan worden weergegeven | Ontvangers kunnen niet Opslaan als en hebben geen toegang tot de linkerrail. Interacties zijn ook beperkt.<br>Deze rol is handig als u een project wilt delen met gebruikers die minder bekend zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Adobe Analytics in het algemeen. U wilt echter nog steeds dat ze gegevens en inzichten in een veilige omgeving gebruiken.<br>Meer informatie over [Kan projectervaring](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)bekijken. |
+
+>[!IMPORTANT]
+> De begunstigden van projecten die vóór 18 juni 2020 werden toegevoegd, zijn gemigreerd naar een projectrol. Admin-gebruikers migreerden naar de bewerkingsrol Kan en niet-beheerders migreerden naar de weergavefunctie Kan. Deze rollen verstrekken de zelfde projectervaring die zij eerder hadden.
 
 ### Geen rol toegewezen
 
