@@ -1,21 +1,21 @@
 ---
-description: De virtuele rapportsuites kunnen worden gebogen om component.in de Werkruimte van de Analyse te omvatten en uit te sluiten.
-title: Virtual Report Suite Component Curation
+description: Virtuele rapportsuites kunnen worden gebogen om components.in Analysis Workspace op te nemen en uit te sluiten.
+title: Onderdeelselectie voor virtuele rapportsuites
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 7%
+ht-degree: 14%
 
 ---
 
 
-# Virtual Report Suite Component Curation
+# Onderdeelselectie voor virtuele rapportsuites
 
-De virtuele rapportsuites kunnen worden gebogen om component.in de Werkruimte van de Analyse te omvatten en uit te sluiten.
+Virtuele rapportsuites kunnen worden gebogen om components.in Analysis Workspace op te nemen en uit te sluiten.
 
->[!NOTE] Er zijn wijzigingen aangebracht in welke componentbeheerders en niet-beheerders kunnen zien in samengevoegde Workspace-projecten en beheerde virtuele rapporten (VRS&#39;s). Eerder kon iedereen niet-gekromde componenten zien door te klikken **[!UICONTROL Show all Components]**. Met de [bijgewerkte curvaring](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) kunt u nauwkeuriger bepalen welke componenten zichtbaar zijn.
+>[!NOTE] Er zijn wijzigingen aangebracht in welke componenten door beheerders en niet-beheerders kunnen worden bekeken in gecureerde Workspace-projecten en gecureerde virtuele rapportsuites (VRS&#39;s). Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. The [updated curation experience](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) allows for more fine-grained control over which components are visible.
 
 U kunt als volgt componentcuratie inschakelen:
 
@@ -28,7 +28,7 @@ U kunt als volgt componentcuratie inschakelen:
 
    >[!NOTE]
    >
-   >Als de componentenaanpassing wordt toegelaten, is de virtuele rapportreeks toegankelijk **slechts in de Werkruimte** van de Analyse en is niet toegankelijk in het volgende:
+   >Als de componentenaanpassing wordt toegelaten, is de virtuele rapportreeks toegankelijk **slechts in Analysis Workspace** en is niet toegankelijk in het volgende:
 
    * [!UICONTROL Reports & Analytics]
    * [!UICONTROL Ad Hoc Analysis]
@@ -38,12 +38,12 @@ U kunt als volgt componentcuratie inschakelen:
    Zodra gecontroleerd, kunt u de componenten toevoegen u in de virtuele rapportreeks zou willen worden omvat door de toepasselijke componenten van de &quot;uitgesloten componenten&quot;kolom aan de &quot;inbegrepen componenten&quot;kolom te slepen. De onderdelen die kunnen worden opgenomen en uitgesloten zijn:
 
    * Dimensies
-   * Cijfers
+   * Metrics
    * Segmenten
    * Datumbereik
    >[!NOTE]
    >
-   >Het is niet nodig om gekromde componenten (segmenten, berekende metriek, datumwaaiers) te *delen* . Zij zullen altijd zichtbaar in de Werkruimte van de Analyse als zij voor de virtuele rapportreeks worden beheerd, zelfs als zij niet worden gedeeld.
+   >Het is niet nodig om gekromde componenten (segmenten, berekende metriek, datumwaaiers) te *delen* . Ze zijn altijd zichtbaar in Analysis Workspace als ze worden beheerd voor de virtuele rapportsuite, zelfs als ze niet worden gedeeld.
 
 1. Bovendien kunt u de componenten filteren of doorzoeken en de volledige gefilterde selectie aan de inbegrepen kolom toevoegen door te klikken **[!UICONTROL Add All]**.
 
@@ -51,11 +51,11 @@ U kunt als volgt componentcuratie inschakelen:
 
 ## Naam van componenten wijzigen {#section_0F7CD9F684FE4765BC00A2AFED56550E}
 
-U kunt de vertoningsnamen van inbegrepen componenten veranderen specifiek voor de virtuele rapportreeks. Als u bijvoorbeeld de paginanaam in de virtuele rapportsuite wilt opnemen maar de naam wilt wijzigen in een meer mobiele context, kunt u deze wijzigen in App Screens. De nieuwe naam wordt getoond in de Werkruimte van de Analyse wanneer deze virtuele rapportreeks wordt gebruikt.
+U kunt de vertoningsnamen van inbegrepen componenten veranderen specifiek voor de virtuele rapportreeks. Als u bijvoorbeeld de paginanaam in de virtuele rapportsuite wilt opnemen maar de naam wilt wijzigen in een meer mobiele context, kunt u deze wijzigen in App Screens. De nieuwe naam wordt weergegeven in Analysis Workspace wanneer deze virtuele rapportsuite wordt gebruikt.
 
 ![](assets/vrs-rename-component.png)
 
-Klik in de analysewerkruimte op het informatiepictogram voor een opgenomen component om de oorspronkelijke naam van de hernoemde component weer te geven:
+Klik in Analysis Workspace op het informatiepictogram voor een opgenomen component om de oorspronkelijke naam van de hernoemde component weer te geven:
 
 ![](assets/vrs-aw-renamed.png)
 
@@ -67,4 +67,4 @@ Gebruik componentengroepen om bulkcomponenttoevoegingen aan uw virtuele rapportr
 
 ## Werking werkruimte {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Voor meer informatie over kromming in de Werkruimte van de Analyse, zie [Kromme en deel een Project](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html).
+Zie Een project [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)cureren en delen voor meer informatie over cursus in Analysis Workspace.
