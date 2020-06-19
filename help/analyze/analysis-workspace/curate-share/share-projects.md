@@ -3,9 +3,9 @@ description: Projectdeling en projectrollen in Workspace
 keywords: Analysis Workspace sharing
 title: Werkruimteprojecten delen
 translation-type: tm+mt
-source-git-commit: 2312330f9371922ee895b622230d7fa9c3632c12
+source-git-commit: 17c963fa6a0fc24d2e3ab45500922ea17ad42240
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '684'
 ht-degree: 3%
 
 ---
@@ -26,19 +26,19 @@ U kunt ontvangers aan één van drie projectrollen toevoegen. De rollen van het 
 | Kan worden weergegeven | Ontvangers kunnen niet Opslaan als en hebben geen toegang tot de linkerrail. Interacties zijn ook beperkt.<br>Deze rol is handig als u een project wilt delen met gebruikers die minder bekend zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Adobe Analytics in het algemeen. U wilt echter nog steeds dat ze gegevens en inzichten in een veilige omgeving gebruiken.<br>Meer informatie over [Kan projectervaring](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)bekijken. |
 
 >[!IMPORTANT]
-> De begunstigden van projecten die vóór 18 juni 2020 werden toegevoegd, zijn gemigreerd naar een projectrol. Admin-gebruikers migreerden naar de bewerkingsrol Kan en niet-beheerders migreerden naar de weergavefunctie Kan. Deze rollen verstrekken de zelfde projectervaring die zij eerder hadden.
+> De begunstigden van projecten die vóór 18 juni 2020 werden toegevoegd, zijn gemigreerd naar een projectrol. Admin-gebruikers migreerden naar de **[!UICONTROL Can edit]** rol en niet-admin-gebruikers migreerden naar de **[!UICONTROL Can duplicate]** rol. Deze rollen verstrekken de zelfde projectervaring die zij eerder hadden. Bovendien zijn alle groepen (inclusief Alles) naar de **[!UICONTROL Can duplicate]** rol gemigreerd.
 
 ### Geen rol toegewezen
 
-Als een ontvanger geen rol wordt toegewezen en een verbinding aan het project ([!UICONTROL Share] > [!UICONTROL Get project link]) ontvangt, zullen zij in de [!UICONTROL "Can view"] rol door gebrek worden geplaatst.
+Als een ontvanger geen rol wordt toegewezen en een verbinding aan het project (**[!UICONTROL Share]>[!UICONTROL Get project link]**) ontvangt, zullen zij in de **[!UICONTROL Can view]**rol door gebrek worden geplaatst.
 
 ### Meerdere rollen toegewezen
 
-Als een ontvanger in veelvoudige rollen wordt geplaatst, zullen zij altijd de hoogste controle krijgen. Dit kan voorkomen als een gebruiker zowel als individu als deel van een groep wordt toegevoegd. Bijvoorbeeld, als gebruiker 1 wordt gegeven kan uitgeven en [!UICONTROL "Can view"] rollen, zullen zij [!UICONTROL "Can edit"] controle van het project hebben.
+Als een ontvanger in veelvoudige rollen wordt geplaatst, zullen zij altijd de hoogste controle krijgen. Dit kan voorkomen als een gebruiker zowel als individu als deel van een groep wordt toegevoegd. Bijvoorbeeld, als gebruiker 1 wordt gegeven kan uitgeven en **[!UICONTROL Can view]** rollen, zullen zij **[!UICONTROL Can edit]** controle van het project hebben.
 
 ### Beheerders en rollen
 
-Beheerders die in een [!UICONTROL&quot;Kan dupliceren&quot;] of [!UICONTROL "Can view"] rol worden geplaatst, krijgen die beperkte ervaring wanneer ze een project openen. Indien gewenst kan een beheerder zijn rol op elk gewenst moment [!UICONTROL "Can edit"] via [!UICONTROL Components] > [!UICONTROL Projects]verhogen.
+Beheerders die in een **[!UICONTROL Can duplicate]** of **[!UICONTROL Can view]** rol zijn geplaatst, krijgen die beperkte ervaring wanneer ze een project openen. Indien gewenst kan een beheerder zijn rol op elk gewenst moment **[!UICONTROL Can edit]** via **[!UICONTROL Components]>[!UICONTROL Projects]**verhogen.
 
 ## Ontvangers toevoegen aan gedeeld project
 
@@ -66,7 +66,7 @@ Alle gebruikers kunnen projecten aan groepen delen, die een inzameling van ontva
 
 ## Projecten delen in de projectmanager
 
-Projecten kunnen ook worden gedeeld vanuit [!UICONTROL Components] > [!UICONTROL Projects]. U kunt één project delen volgens dezelfde stappen hierboven.
+Projecten kunnen ook worden gedeeld vanuit **[!UICONTROL Components]>[!UICONTROL Projects]**. U kunt één project delen volgens dezelfde stappen hierboven.
 
 Als de veelvoudige projecten worden geselecteerd om worden gedeeld, zullen de ontvangers aan de bestaande lijst van ontvangers voor elk project worden toegevoegd. Bijvoorbeeld:
 
