@@ -2,9 +2,9 @@
 description: Met het deelvenster Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace analyseren.
 title: Deelvenster Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 9363888ec740b182bc523c6138f9623e1ab0ffda
+source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '850'
 ht-degree: 3%
 
 ---
@@ -61,8 +61,9 @@ Net als bij elk deelvenster in Analysis Workspace kunt u uw analyse voortzetten 
 | Vraag | Antwoord |
 |---|---|
 | Welke activiteitentypes worden gesteund in A4T? | [Meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) informatie over welke typen activiteiten worden ondersteund. |
-| Worden berekende metriek gesteund in A4T rapportering? | Nee. [Meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) weten over waarom berekende meetgegevens niet worden ondersteund? |
+| Worden berekende meetwaarden ondersteund in lift- en betrouwbaarheidsberekeningen? | Nee. [Lees meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) over waarom berekende meetgegevens niet worden ondersteund in lift en vertrouwen. Berekende metriek kunnen in A4T worden gebruikt rapporterend buiten deze metriek, echter. |
 | Waarom zouden unieke bezoekers van Target tot Analytics verschillen? | [Meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) informatie over variaties van unieke bezoekers tussen producten. |
 | Als ik een hit-segment toepast voor een specifieke Target-activiteit in mijn analyse, waarom zie ik dan niet-verwante ervaringen terugkeren? | De dimensie A4T is een lijstvariabele, wat betekent het vele activiteiten (en ervaringen) in één keer kan bevatten. [Meer informatie](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| Worden extreme orders door de betrouwbaarheidsmaatstaf gecompenseerd of wordt een Bonferroni-correctie toegepast voor meerdere aanbiedingen? | Nee. [Meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) weten over hoe Analytics het vertrouwen berekent? |
 
 Voor meer informatie over Analytics for Target-rapportage gaat u naar [A4T-rapportage](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
