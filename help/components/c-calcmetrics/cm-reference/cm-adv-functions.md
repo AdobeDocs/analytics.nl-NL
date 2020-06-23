@@ -3,7 +3,7 @@ description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervo
 title: Verwijzing naar geavanceerde functies
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
 workflow-type: tm+mt
 source-wordcount: '2908'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimensie* | De afmeting waarvoor u de benaderende verschillende punttelling wilt. |
 
-## Voorbeeld: hoofdletter gebruiken {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Voorbeeld: hoofdletter gebruiken {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Het geschatte onderscheid van de Telling (klant ID eVar) is een gemeenschappelijk gebruiksgeval voor deze functie.
 
@@ -66,11 +66,11 @@ Dit is hoe &quot;Benadert Klanten&quot;metrisch zou kunnen worden gebruikt in he
 
 ![](assets/approx-customers.png)
 
-## Uniques Exceeded {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Uniques Exceeded {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Net als Count() en RowCount(), geldt bij benadering de limiet voor Distinct() voor tellen die wordt overschreden voor [&#39;unicques&#39;s](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html). Als de limiet voor &quot;oneven overschreden&quot; binnen een bepaalde maand voor een dimensie wordt bereikt, wordt de waarde geteld als 1 dimensie-item.
 
-## Telfuncties vergelijken {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Telfuncties vergelijken {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Distinct() is bij benadering een verbetering ten opzichte van de functies Count() en RowCount() omdat de gemaakte metrische waarde in elk dimensionaal rapport kan worden gebruikt om een geschatte telling van items voor een afzonderlijke dimensie te renderen. Bijvoorbeeld, een telling van klant IDs die in een Mobiel Rapport van het Type van Apparaat wordt gebruikt.
 
@@ -442,7 +442,7 @@ NOT(logical)
 
 Het gebruik van NOT vereist weten of de expressies (&lt;, >, =, &lt;>, enz.) 0 of 1 waarden retourneren.
 
-## Niet gelijk {#concept_EC010B7A9D2049099114A382D662FC16}
+## Not equal {#concept_EC010B7A9D2049099114A382D662FC16}
 
 Retourneert alle items die niet exact overeenkomen met de ingevoerde waarde.
 
