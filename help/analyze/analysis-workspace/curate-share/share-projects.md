@@ -3,9 +3,9 @@ description: Projectdeling en projectrollen in Workspace
 keywords: Analysis Workspace sharing
 title: Werkruimteprojecten delen
 translation-type: tm+mt
-source-git-commit: 3592544843d6c5e64eb0d009a2526ae41689c575
+source-git-commit: 192951d794b5e45cbbce22122adff573cb853054
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1001'
 ht-degree: 3%
 
 ---
@@ -21,8 +21,8 @@ U kunt ontvangers aan één van drie projectrollen toevoegen. De rollen van het 
 
 | Rol | Projectbeheersing |
 |---|---|
-| Kan bewerken | Ontvangers kunnen wijzigingen in een project opslaan en als medeeigenaars fungeren. Deze rol is nuttig als u projecten met andere collega&#39;s wilt couitgeven.<br>Opmerking: Analysis Workspace biedt momenteel geen ondersteuning voor live samenwerken. Het wordt daarom aanbevolen dat slechts één gebruiker een project tegelijk bewerkt. Als projecten tegelijkertijd worden opgeslagen, blijft de laatste versie behouden. |
-| Kan dupliceren | Ontvangers kunnen Opslaan als en toegang hebben tot de linkerrail. Projectinteracties zijn in deze rol niet beperkt. Deze rol is nuttig als u een project aan gebruikers wilt delen die de gegevens van uw organisatie en hoe te om Analysis Workspace begrijpen, maar u wilt niet uw project veranderen. |
+| Kan bewerken | Ontvangers kunnen een project **[!UICONTROL Save]** wijzigen en als medeeigenaars functioneren. Deze rol is nuttig als u een project met andere collega&#39;s wilt cobeheren; dit omvat het uitgeven, schrappen, en het wijzigen van ontvankelijke lijsten voor een gedeeld project. <br>Opmerking: Analysis Workspace biedt momenteel geen ondersteuning voor live samenwerken. Het wordt daarom aanbevolen dat slechts één gebruiker een project tegelijk bewerkt. Als projecten tegelijkertijd worden opgeslagen, blijft de laatste versie behouden. |
+| Kan dupliceren | Ontvangers kunnen toegang krijgen **[!UICONTROL Save as]** tot de linkerspoorstaaf. Projectinteracties zijn in deze rol niet beperkt. Deze rol is nuttig als u een project aan gebruikers wilt delen die de gegevens van uw organisatie en hoe te om Analysis Workspace begrijpen, maar u wilt niet uw project veranderen. |
 | Kan worden weergegeven | Ontvangers kunnen niet Opslaan als en hebben geen toegang tot de linkerrail. De interactie tussen projecten is ook beperkt. Deze rol is handig als u een project wilt delen met gebruikers die minder bekend zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Adobe Analytics in het algemeen. U wilt echter nog steeds dat ze gegevens en inzichten in een veilige omgeving gebruiken.<br>Meer informatie over [Kan projectervaring](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)bekijken. |
 
 >[!IMPORTANT]
@@ -30,7 +30,7 @@ U kunt ontvangers aan één van drie projectrollen toevoegen. De rollen van het 
 
 ### Geen rol toegewezen (ontvangers projectkoppeling)
 
-Als een ontvanger geen rol wordt toegewezen en een verbinding aan het project (**[!UICONTROL Share]>[!UICONTROL Get project link]**) ontvangt, zullen zij in de **[!UICONTROL Can duplicate]**rol door gebrek worden geplaatst.
+Als een ontvanger geen rol wordt toegewezen en een verbinding aan het project (**[!UICONTROL Share]>[!UICONTROL Get project link]**) ontvangt, zullen zij in een rol door gebrek worden geplaatst. Admins ontvangen **[!UICONTROL Can edit]**en niet-admins ontvangen **[!UICONTROL Can duplicate]**.
 
 ### Meerdere rollen toegewezen
 
@@ -66,9 +66,7 @@ Alle gebruikers kunnen projecten aan groepen delen, die een inzameling van ontva
 
 ## Een projectkoppeling delen {#Links}
 
-U kunt een koppeling naar een project maken onder **[!UICONTROL Share]>[!UICONTROL Get project link]**. Wanneer geklikt, zullen de ontvangers worden vereist om login alvorens in het project te landen. Als de ontvanger niet in een projectrol is geplaatst, zullen zij een **[!UICONTROL Can duplicate]**projectervaring door gebrek ontvangen.
-
-Projecten kunnen ook worden gedeeld vanuit **[!UICONTROL Components]>[!UICONTROL Projects]**. Eén project kan worden gedeeld door dezelfde stappen hierboven uit te voeren
+U kunt een koppeling naar een project maken onder **[!UICONTROL Share]>[!UICONTROL Get project link]**. Wanneer geklikt, zullen de ontvangers worden vereist om login alvorens in het project te landen. Als de ontvanger niet in een rol is geplaatst, zullen zij een standaardrol ontvangen. Admins ontvangen **[!UICONTROL Can edit]**en niet-admins ontvangen **[!UICONTROL Can duplicate]**.
 
 ## Projecten delen in de projectmanager {#Manager}
 
@@ -93,4 +91,4 @@ Als Project A en B zijn geselecteerd, worden ontvangers 4 en 7 toegevoegd aan de
 | Wat gebeurt er als twee editors tegelijkertijd een project opslaan? | De wijzigingen worden niet samengevoegd en de laatst opgeslagen projectversie blijft behouden. Analysis Workspace biedt momenteel geen ondersteuning voor live samenwerken. |
 | Als beheerder, welke projectervaring zal ik zien? | Beheerders die in een **[!UICONTROL Can duplicate]** of **[!UICONTROL Can view]** rol zijn geplaatst, krijgen die beperkte ervaring wanneer ze een project openen. Indien gewenst kan een beheerder zijn rol op elk gewenst moment **[!UICONTROL Can edit]** via **[!UICONTROL Components]>[!UICONTROL Projects]**verhogen. |
 | Wat gebeurt er als een ontvanger in één rol als individu en een andere rol als lid van een groep wordt geplaatst? | Als een ontvanger in veelvoudige rollen wordt geplaatst, zullen zij altijd de hogere ervaring ontvangen. Bijvoorbeeld, als een ontvanger de **[!UICONTROL Can edit]** rol als individu en de **[!UICONTROL Can view]** rol als lid van een groep wordt gegeven, zullen zij een **[!UICONTROL Can edit]** projectervaring ontvangen. |
-| Welke ervaring krijgt een ontvanger als deze een projectverbinding opent? | Als een ontvanger geen rol wordt toegewezen en een verbinding aan het project (**[!UICONTROL Share]>[!UICONTROL Get project link]**) ontvangt, zullen zij in de **[!UICONTROL Can duplicate]**rol door gebrek worden geplaatst. |
+| Welke ervaring krijgt een ontvanger als deze een projectverbinding opent? | Ontvangers krijgen de rol die u hen in de deelmodus hebt geplaatst. Als een ontvanger geen rol wordt toegewezen en een verbinding aan het project (**[!UICONTROL Share]>[!UICONTROL Get project link]**) ontvangt, zullen zij in een rol door gebrek worden geplaatst. Admins ontvangen **[!UICONTROL Can edit]**en niet-admins ontvangen **[!UICONTROL Can duplicate]**. |
