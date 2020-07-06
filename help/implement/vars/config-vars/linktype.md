@@ -2,7 +2,10 @@
 title: linkType
 description: Gebruik de variabele linkType om te bepalen tot welke afmeting het verbinden behoort.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +20,7 @@ Een van de volgende drie dimensies kan worden gevuld door treffers voor het bijh
 
 Gebruik de `linkType` variabele om te bepalen welke afmeting u wilt bevolken wanneer het runnen van de volgende [`tl()`](../functions/tl-method.md) functie.
 
-## Koppelingstype in Adobe Experience Platform Launch
+## Koppelingstype in Adobe Experience Platform starten
 
 Plaats het verbindingstype wanneer het vormen van een regel om een baken te verzenden.
 
@@ -25,20 +28,22 @@ Plaats het verbindingstype wanneer het vormen van een regel om een baken te verz
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 4. Klik onder [!UICONTROL Actions]op het pictogram ‘+’
-5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en de knop [!UICONTROL Action Type] To Send Beacon.
+5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en de knop [!UICONTROL Action Type] voor het verzenden van baken.
 6. Klik op het `s.tl()` keuzerondje dat het [!UICONTROL Link Type] vervolgkeuzemenu weergeeft.
 
 U kunt deze vervolgkeuzelijst instellen op [!UICONTROL Custom Link], [!UICONTROL Download Link]of [!UICONTROL Exit Link].
 
 ## s.linkType in AppMeasurement en Launch, aangepaste code-editor
 
-De `s.linkType` variabele is een tekenreeks die een van de drie waarden van één teken accepteert: `o`, `d`, of `e`. Als een `tl()` methode zonder een verbindingstype wordt geroepen, blijft het aan de verbinding van de Douane in gebreke.
+De `s.linkType` variabele is een tekenreeks die een van de drie waarden van één teken accepteert: `o`, `d`of `e`. Als een `tl()` methode zonder een verbindingstype wordt geroepen, blijft het aan de verbinding van de Douane in gebreke.
 
 * `o` - Aangepaste koppelingen
 * `d` - Koppelingen downloaden
 * `e` - Koppelingen afsluiten
 
->[!TIP] Deze variabele is de tweede parameter van de `tl()` methode en hoeft gewoonlijk niet als een zelfstandige variabele te worden ingesteld. U kunt de `linkType` variabele echter wel gebruiken als u geen waarden als argumenten in de `tl()` methode wilt instellen.
+>[!TIP]
+>
+>Deze variabele is de tweede parameter van de `tl()` methode en hoeft gewoonlijk niet als een zelfstandige variabele te worden ingesteld. U kunt de `linkType` variabele echter wel gebruiken als u geen waarden als argumenten in de `tl()` methode wilt instellen.
 
 ```js
 s.linkType = "e";
