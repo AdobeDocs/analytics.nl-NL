@@ -1,18 +1,23 @@
 ---
-description: Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de ondersteunende documentatie worden gegeven.
-title: Analytics Reporting API Comparison
+description: Een vergelijkingstabel voor Analytics die API's rapporteert. Koppelingen naar de ondersteunende documentatie worden gegeven.
+title: Vergelijking Analytics Rapportage-API
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 16%
 
 ---
 
 
-# Analytics Reporting API Comparison
+# Vergelijking Analytics Rapportage-API
 
-Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de ondersteunende documentatie worden gegeven.
+Een vergelijkingstabel voor Analytics die API&#39;s rapporteert. Koppelingen naar de ondersteunende documentatie worden gegeven.
 
->[!NOTE] Wat latentie betreft, combineert Analytics for Target (A4T) Analytics en Target-gegevens op dezelfde hit voor geïntegreerde rapportage. Omdat de Analytics en de vraag van het Doel in verschillende tijden voorkomen, worden de klappen opgeslagen alvorens om het even welke verwerking voorkomt om gegevens van beide oplossingen te verzamelen. Hierbij wordt **een extra wachttijd van 7 tot 10 minuten** toegevoegd aan alle controlepunten.
+>[!NOTE]
+>
+>Wat de latentie betreft, combineert Analytics for Target (A4T) Analytics- en Target-gegevens over dezelfde hit voor geïntegreerde rapportage. Omdat Analytics- en Target-aanroepen op verschillende momenten plaatsvinden, worden treffers opgeslagen voordat de verwerking plaatsvindt om gegevens van beide oplossingen te verzamelen. Hierbij wordt **een extra wachttijd van 7 tot 10 minuten** toegevoegd aan alle controlepunten.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -33,7 +38,7 @@ Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de onder
    <td colname="col5"> Volledig verwerkte, afgeronde gegevens die worden gebruikt om grote gegevensuitvoer te trekken. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > Latentie</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/nl-NL/analytics/technotes/latency.html"  > Latentie</a> </p> </td> 
    <td colname="col2"> 30-90 minuten </td> 
    <td colname="col3"> * Seconden -10 minuten </td> 
    <td colname="col4"> Seconden -10 minuten </td> 
@@ -47,11 +52,11 @@ Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de onder
    <td colname="col5"> Volledig </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html"  > Rapportageinterfaces</a> </td> 
-   <td colname="col2"> Rapporten en analyses, Report Builder, API </td> 
-   <td colname="col3"> Rapport in realtime in Rapporten &amp; Analytics, Report Builder, API </td> 
+   <td colname="col1"> <a href="https://docs.adobe.com/content/help/nl-NL/analytics/landing/home.html"  > Rapportageinterfaces</a> </td> 
+   <td colname="col2"> Rapporten en Analytics, Report Builder, API </td> 
+   <td colname="col3"> Rapport in realtime in Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col4"> Alleen API </td> 
-   <td colname="col5"> Data Warehouse en API </td> 
+   <td colname="col5"> Data warehouse en API </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Korreligheid gegevens</b> </td> 
@@ -72,7 +77,7 @@ Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de onder
    <td colname="col2"> Ja </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Nee </td> 
-   <td colname="col5"> Ja (maar alleen met Data Warehouse compatibele segmenten) </td> 
+   <td colname="col5"> Ja (maar alleen met Data warehouse compatibele segmenten) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Analytics SKU</b> </td> 
@@ -94,5 +99,5 @@ Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de onder
 **Gerelateerde Help**
 
 * [Adobe/IO](https://www.adobe.io/) - Een uitgebreide bron voor de technische documentatie en gereedschappen die nodig zijn om Adobe-technologieën in uw toepassingen te integreren.
-* [API voor gegevenswerkbench](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
+* [Data Workbench Query API](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
 
