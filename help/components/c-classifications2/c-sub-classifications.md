@@ -1,20 +1,25 @@
 ---
 description: Adobe Analytics ondersteunt classificatiemodellen op één niveau en die op meerdere niveaus. Met een classificatiehiërarchie kunt u een classificatie toepassen op een classificatie.
 subtopic: Classifications
-title: Subclassificaties
+title: Informatie over subclassificaties
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 7%
 
 ---
 
 
-# Subclassificaties
+# Informatie over subclassificaties
 
 Adobe Analytics ondersteunt classificatiemodellen op één niveau en die op meerdere niveaus. Met een classificatiehiërarchie kunt u een classificatie toepassen op een classificatie.
 
->[!NOTE] Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] toepassing voor het maken van [!UICONTROL Hierarchy] rapporten. Zie [Classificatiehiërarchieën](classification-hierarchies.md)voor meer informatie over classificatiehiërarchieën.
+>[!NOTE]
+>
+>Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] toepassing voor het maken van [!UICONTROL Hierarchy] rapporten. Zie [Classificatiehiërarchieën](classification-hierarchies.md)voor meer informatie over classificatiehiërarchieën.
 
 Bijvoorbeeld:
 
@@ -52,7 +57,9 @@ Bijvoorbeeld:
 
 Hoewel het dossiermalplaatje voor een classificatie op meerdere niveaus complexer is, is de macht van classificaties op meerdere niveaus dat de afzonderlijke niveaus als afzonderlijke dossiers kunnen worden geupload. Deze benadering kan worden gebruikt om de hoeveelheid gegevens te minimaliseren die periodiek (dagelijks, wekelijks, etc.) moet worden geupload door gegevens in classificatieniveaus te groeperen die in tijd tegenover die veranderen die niet.
 
->[!NOTE] Als de [!UICONTROL Key] kolom in een gegevensbestand leeg is, genereert Adobe automatisch unieke sleutels voor elke gegevensrij. U voorkomt mogelijke bestandsbeschadiging wanneer u een gegevensbestand uploadt met classificatiegegevens van het tweede niveau of hoger niveau door elke rij van de [!UICONTROL Key] kolom te vullen met een asterisk (*).
+>[!NOTE]
+>
+>Als de [!UICONTROL Key] kolom in een gegevensbestand leeg is, genereert Adobe automatisch unieke sleutels voor elke gegevensrij. U voorkomt mogelijke bestandsbeschadiging wanneer u een gegevensbestand uploadt met classificatiegegevens van het tweede niveau of hoger niveau door elke rij van de [!UICONTROL Key] kolom te vullen met een asterisk (*).
 
 Zie [Gemeenschappelijke classificatie uploadt Kwesties](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) voor het oplossen van problemenhulp.
 
@@ -60,7 +67,8 @@ Zie [Gemeenschappelijke classificatie uploadt Kwesties](https://helpx.adobe.com/
 
 ![](assets/sample-product-classifications.png)
 
->[!NOTE] Gegevens over de indeling van producten zijn beperkt tot gegevenskenmerken die rechtstreeks verband houden met het product. De gegevens zijn niet beperkt tot de wijze waarop de producten zijn gecategoriseerd of op de website worden verkocht. Gegevenselementen zoals verkoopcategorieën, browserknooppunten van sites of verkoopitems zijn geen gegevens over de productclassificatie. In plaats daarvan worden deze elementen vastgelegd in de conversievariabelen van rapporten.
+>[!NOTE]
+Gegevens over de indeling van producten zijn beperkt tot gegevenskenmerken die rechtstreeks verband houden met het product. De gegevens zijn niet beperkt tot de wijze waarop de producten zijn gecategoriseerd of op de website worden verkocht. Gegevenselementen zoals verkoopcategorieën, browserknooppunten van sites of verkoopitems zijn geen gegevens over de productclassificatie. In plaats daarvan worden deze elementen vastgelegd in de conversievariabelen van rapporten.
 
 Wanneer u gegevensbestanden uploadt voor deze productclassificatie, kunt u de classificatiegegevens uploaden als één bestand of als meerdere bestanden (zie hieronder). Door de kleurcode in bestand 1 en de kleurnaam in bestand 2 te scheiden, hoeven de gegevens over de kleurnaam (die mogelijk slechts een paar rijen zijn) alleen te worden bijgewerkt wanneer nieuwe kleurcodes worden gemaakt. Hiermee verwijdert u het veld Kleurnaam (CODE&amp;Hoed;COLOR) uit het vaker bijgewerkte bestand 1 en verkleint u de bestandsgrootte en complexiteit bij het genereren van het gegevensbestand.
 
