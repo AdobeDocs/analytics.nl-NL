@@ -3,7 +3,10 @@ description: Het nieuwe systeem voor intelligente waarschuwingen biedt meer gede
 title: Overzicht van intelligente waarschuwingen
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 7%
 
 ---
 
@@ -16,11 +19,11 @@ Intelligente waarschuwingen maken een gedetailleerdere controle mogelijk op waar
 
 ## Overzicht
 
-De nieuwe Alert Builder en de Manager van de Alarm in de Werkruimte van de Analyse vervangen de bestaande waakzame functionaliteit in Rapporten &amp; Analytics. Met intelligente waarschuwingen kunt u:
+De nieuwe Alert Builder en Alert Manager in Analysis Workspace vervangen de bestaande waarschuwingsfunctionaliteit in Reports &amp; Analytics. Met intelligente waarschuwingen kunt u:
 
 * Berichten opstellen op basis van anomalieën (90%, 95%, 99%, 99,75% en 99,9% drempelwaarden; % wijziging; boven/onder)
-* Voorbeeld van hoe vaak een waarschuwing wordt geactiveerd
-* Verzend alarm door e-mail of SMS met verbindingen aan auto-geproduceerde projecten van de Werkruimte van de Analyse
+* Een voorvertoning bekijken van het aantal keren dat een melding is geactiveerd
+* Een melding sturen via e-mail of sms, met koppelingen naar automatisch gegenereerde Analysis Workspace-projecten
 * &quot;gestapelde&quot; waarschuwingen maken die meerdere meetgegevens vastleggen in één waarschuwing
 
 Er zijn vier manieren om naar de Waarschuwingsbouwer te gaan:
@@ -37,7 +40,9 @@ Er zijn vier manieren om naar de Waarschuwingsbouwer te gaan:
 
 De percentagedrempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen en 99% = 3 standaardafwijkingen. Afhankelijk van de tijdsgranulariteit die u kiest, worden [verschillende modellen](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) gebruikt om te berekenen hoe ver (hoeveel standaardafwijkingen) elk gegevenspunt van de norm is. Als u een lagere drempel instelt (bijvoorbeeld 90%), krijgt u meer anomalieën dan wanneer u een hogere drempel instelt (99,75%).
 
->[!IMPORTANT] Het gebruik van tijdstempelgegevens voor het maken van waarschuwingen kan ervoor zorgen dat waarschuwingen onjuist worden afgespeeld. Adobe raadt u aan niet-tijdstempelgegevens te gebruiken voor Intelligente waarschuwingen.
+>[!IMPORTANT]
+>
+>Het gebruik van tijdstempelgegevens voor het maken van waarschuwingen kan ervoor zorgen dat waarschuwingen onjuist worden afgespeeld. Adobe raadt u aan niet-tijdstempelgegevens te gebruiken voor Intelligente waarschuwingen.
 
 ## Anomalische zoekopdracht voor waarschuwingen
 
