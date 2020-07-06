@@ -2,10 +2,10 @@
 title: Categorie
 description: De productcategorie van de hit.
 translation-type: tm+mt
-source-git-commit: bddfc52d460e87a70e7cff149f197570f405037a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -22,4 +22,6 @@ Deze dimensie verwijst naar het eerste deel van de tekenreeks in de [`products`]
 
 Aangezien deze variabele op een douanekoord in uw implementatie gebaseerd is, bepaalt uw organisatie wat de afmetingswaarden zijn. Adobe raadt u aan afzonderlijke producten te groeperen in betekenisvolle categorieën, waarbij zowel de afmetingen &#39;Product&#39; als &#39;Categorie&#39; worden gebruikt.
 
-> [!TIP] In eerdere versies van Adobe Analytics zijn enkele beperkingen opgelegd aan de dimensie &#39;Categorie&#39; vanwege de verwerkingsarchitectuur. Deze beperkingen zijn sindsdien opgeheven, toelatend u om het even welke metrisch en om het even welke onderbreking te gebruiken.
+>[!TIP]
+>
+>In eerdere versies van Adobe Analytics zijn enkele beperkingen opgelegd aan de dimensie &#39;Categorie&#39; vanwege de verwerkingsarchitectuur. Deze beperkingen zijn sindsdien opgeheven, toelatend u om het even welke metrisch en om het even welke onderbreking te gebruiken.
