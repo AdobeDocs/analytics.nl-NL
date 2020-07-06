@@ -3,7 +3,10 @@ description: Het implementeren van deze integratie is een eenvoudig proces waarv
 title: De integratie implementeren
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1304'
+ht-degree: 1%
 
 ---
 
@@ -46,8 +49,8 @@ Om de integratie te activeren, moet u de configuratietovenaar binnen de interfac
    <td colname="col2"> Dit zijn de id's voor de 8 optionele afmetingen. Voor meer informatie, zie de Dimensies van de Douane van de Band. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Verzenden naar Adobe-doel </td> 
-   <td colname="col2">Indien "true", worden de demandaseafmetingen ook via een verborgen box naar Adobe Target verzonden. <p>Opmerking:  Er moeten afmetingen worden verzameld die zijn geconfigureerd in het bestand mbox.js op de webpagina. </p> </td> 
+   <td colname="col1"> Verzenden naar Adobe Target </td> 
+   <td colname="col2">Als "true", worden de Demandbase-afmetingen ook met een verborgen mbox naar Adobe Target verzonden. <p>Opmerking:  Er moeten afmetingen worden verzameld die zijn geconfigureerd in het bestand mbox.js op de webpagina. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,9 +72,11 @@ Om de integratie te activeren, moet u de configuratietovenaar binnen de interfac
 
 ## De integratiecode implementeren{#deploying-the-integration-code}
 
-Nadat u de integratietovenaar hebt voltooid, moet u de integratiecode aan uw de plaatsingscode van de Analyse van Adobe (s_code) opstellen.
+Nadat u de integratietovenaar hebt voltooid, moet u de integratiecode aan uw de plaatsingscode van Adobe Analytics (s_code) opstellen.
 
->[!NOTE] Als u Adobe TagManager of Dynamic Tag Management hebt gebruikt om Adobe Analytics te implementeren, kunt u de integratiecode eenvoudig toevoegen met een van deze gereedschappen.
+>[!NOTE]
+>
+>Als u Adobe TagManager of Dynamic Tag Management hebt gebruikt om Adobe Analytics te implementeren, kunt u de integratiecode eenvoudig toevoegen met een van deze gereedschappen.
 
 1. Ga naar het **[!UICONTROL Support]** lusje en download en sla het `integration code v2_0_1` middel van het gebied van Middelen van de integratie op.
 
@@ -80,7 +85,7 @@ Nadat u de integratietovenaar hebt voltooid, moet u de integratiecode aan uw de 
 1. Implementeer de code met een van de volgende methoden:
 
    * Voeg de code toe met Adobe TagManager of Dynamisch tagbeheer.
-   * U kunt de code ook leveren aan de organisatiebron die verantwoordelijk is voor het bijwerken van de implementatiecode voor Adobe Analytics.
+   * U kunt de code ook leveren aan de organisatiebron die verantwoordelijk is voor het bijwerken van uw Adobe Analytics-implementatiecode.
 
 >[!IMPORTANT]
 >
@@ -102,7 +107,7 @@ Als u echter aanpassingen moet aanbrengen, worden enkele code-instellingen hiero
  <tbody> 
   <tr> 
    <td colname="col1"> s.maxDelay </td> 
-   <td colname="col2">Het maximumaantal milliseconden dat de Adobe Analytics-afbeeldingsaanvraag wacht op de Demandbase-gegevens voordat deze worden afgebroken op de Analytics-verzamelingsserver. <p>Opmerking:  Deze instelling is van toepassing op alle integraties die mogelijk worden uitgevoerd via de module Integrate. </p> </td> 
+   <td colname="col2">Het maximumaantal milliseconden dat de Adobe Analytics-afbeeldingsaanvraag wacht op de Demandbase-gegevens voordat deze worden afgesloten op de Analytics-verzamelingsserver. <p>Opmerking:  Deze instelling is van toepassing op alle integraties die mogelijk worden uitgevoerd via de module Integrate. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._key </td> 
@@ -114,11 +119,11 @@ Als u echter aanpassingen moet aanbrengen, worden enkele code-instellingen hiero
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> Het scheidingsteken dat wordt gebruikt om de waarden van de dimensie Demandbase van elkaar te scheiden wanneer deze naar Adobe Analytics worden verzonden. Als u deze instelling wijzigt, werken de standaard classificatieregels mogelijk niet correct. </td> 
+   <td colname="col2"> Het scheidingsteken dat wordt gebruikt om de waarden van de Demandbase-dimensie te scheiden wanneer deze naar Adobe Analytics worden verzonden. Als u deze instelling wijzigt, werken de standaard classificatieregels mogelijk niet correct. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
-   <td colname="col2">Indien waar (true), wordt met de integratiecode geprobeerd een verborgen box te gebruiken om de Demandbase-afmetingen als profielparameters naar Adobe Target te verzenden. <p>Opmerking:  Dit vereist dat de code mbox.js op de pagina bestaat. </p> </td> 
+   <td colname="col2">Indien waar (true), probeert de integratiecode een verborgen box te gebruiken om de Demandbase-afmetingen als profielparameters naar Adobe Target te verzenden. <p>Opmerking:  Dit vereist dat de code mbox.js op de pagina bestaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._tntVarPrefix </td> 
@@ -126,7 +131,7 @@ Als u echter aanpassingen moet aanbrengen, worden enkele code-instellingen hiero
   </tr> 
   <tr> 
    <td colname="col1"> _db._afmetingenArray </td> 
-   <td colname="col2"> De standaardafmetingen voor demandbasis die naar Adobe Analytics worden verzonden. U wordt aangeraden deze instelling niet te wijzigen. De eigenschap "max_size" is het aantal toegestane tekens voor de dimensie voordat afkapping plaatsvindt. </td> 
+   <td colname="col2"> De standaard demandbasis-afmetingen die naar Adobe Analytics worden verzonden. U wordt aangeraden deze instelling niet te wijzigen. De eigenschap "max_size" is het aantal toegestane tekens voor de dimensie voordat afkapping plaatsvindt. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._afmetingenArrayCustom </td> 
@@ -149,7 +154,7 @@ Als u echter aanpassingen moet aanbrengen, worden enkele code-instellingen hiero
 
 ## Inclusief de integratiemodule{#including-the-integrate-module}
 
-De integratiecode vereist dat de integrate Module binnen uw plaatsing van de Analyse van Adobe bestaat.
+De integratiecode vereist dat de integrate Module binnen uw plaatsing van Adobe Analytics bestaat.
 
 Als u nog niet over de geïntegreerde module beschikt als onderdeel van uw implementatie, voert u de volgende stappen uit, afhankelijk van het type implementatie dat u hebt.
 
@@ -184,22 +189,24 @@ Controleer live tracering en rapportage om te controleren of de integratie gegev
 
 Gebruik het foutopsporingsprogramma DigitalPulse om te controleren of gegevens over de dimensie Demandbase naar Adobe Analytics worden verzonden. Nadat u de cookies hebt verwijderd, laadt u opnieuw een pagina op uw website waarop de integratiecode is geïmplementeerd. Ervan uitgaande dat uw huidige IP kaarten aan een organisatie die door Demandbase wordt erkend, zou u resultaten gelijkend op het volgende moeten zien.
 
-**Rapporten en Analytics (voorheen SiteCatalyst) bevat de twee variabelen voor de Demandbase-context:**
+**Rapporten &amp; Analytics (voorheen SiteCatalyst) bevat de twee variabelen voor de Demandbase-context:**
 
 ![](assets/debugger1.png)
 
-**Het doel Mbox omvat de parameters van het Profiel van de Demandase:**
-Dit wordt alleen weergegeven als u Target op de pagina hebt geïmplementeerd EN u deze integratie hebt geconfigureerd voor Adobe Target - zie Stap 4 in de Adobe-integratiewizard.
+**Target Mbox bevat de parameters Demandbase Profile:**
+Dit wordt alleen weergegeven als u Target op de pagina hebt geïmplementeerd EN u deze integratie hebt geconfigureerd voor Adobe Target - zie Stap 4 in de wizard Adobe-integratie.
 
 ![](assets/debugger2.png)
 
 ### Rapportage {#section-1792fe75dc3249d0ad063dfd87a89162}
 
-Reviseer uw Demandbase-rapporten in Adobe Analytics met behulp van het dashboard dat automatisch voor u is gemaakt met de wizard Adobe Integration (Stap 7).
+Controleer uw Demandbase-rapporten in Adobe Analytics met het dashboard dat automatisch voor u is gemaakt met de wizard Adobe Integration (Stap 7).
 
-U kunt ook naar de Demandbase-rapportage navigeren in de menustructuur van Adobe Analytics - zie onderstaande screenshots.
+U kunt ook naar de Demandbase-rapportage navigeren in de menustructuur van Adobe Analytics. Zie de onderstaande screenshots.
 
->[!NOTE] Deze gegevens moeten binnen 24-48 uur na een geslaagde implementatie worden weergegeven.
+>[!NOTE]
+>
+>Deze gegevens moeten binnen 24-48 uur na een geslaagde implementatie worden weergegeven.
 
 ![](assets/reporting1.png)
 
