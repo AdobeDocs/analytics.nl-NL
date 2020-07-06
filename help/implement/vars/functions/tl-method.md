@@ -2,18 +2,21 @@
 title: tl
 description: Stuur een koppelingenvolgvraag naar Adobe.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 1%
 
 ---
 
 
 # tl
 
-De `tl()` methode is een belangrijk basisonderdeel van Adobe Analytics. Alle analytische variabelen die op de pagina zijn gedefinieerd, worden gecompileerd tot een verzoek om een afbeelding en die gegevens worden naar Adobe-servers voor gegevensverzameling verzonden. De methode werkt op dezelfde manier als de [`t()`](t-method.md) methode, maar met deze methode worden de paginaweergaven niet vergroot. Het is handig voor het bijhouden van koppelingen en andere elementen die niet als een volledige pagina worden geladen.
+De `tl()` methode is een belangrijk basisonderdeel voor Adobe Analytics. Alle Analytics-variabelen die op de pagina zijn gedefinieerd, worden gecompileerd naar een verzoek om een afbeelding en worden naar Adobe-servers voor gegevensverzameling verzonden. De methode werkt op dezelfde manier als de [`t()`](t-method.md) methode, maar met deze methode worden de paginaweergaven niet vergroot. Het is handig voor het bijhouden van koppelingen en andere elementen die niet als een volledige pagina worden geladen.
 
 Als [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) of [`trackExternalLinks`](../config-vars/trackexternallinks.md) worden toegelaten, roept AppMeasurement automatisch de `tl()` methode om downloadverbinding te verzenden en verbinding het volgen gegevens weg te gaan. Als uw organisatie er de voorkeur aan geeft meer controle te hebben over de koppelingen en hun gedrag, kunt u de `tl()` methode handmatig aanroepen. Aangepaste koppelingen kunnen alleen handmatig worden bijgehouden.
 
-## Aanroep voor het bijhouden van koppelingen in Adobe Experience Platform Starten
+## Aanroep voor het bijhouden van koppelingen in Adobe Experience Platform starten
 
 De lancering heeft een specifieke plaats plaatste een verbinding volgende vraag.
 
@@ -21,8 +24,8 @@ De lancering heeft een specifieke plaats plaatste een verbinding volgende vraag.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 1. Klik onder [!UICONTROL Actions]op het pictogram ‘+’
-1. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en de knop [!UICONTROL Action Type] To Send Beacon.
-1. Klik op het `s.tl()` keuzerondje.
+1. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en de knop [!UICONTROL Action Type] voor het verzenden van baken.
+1. Click the `s.tl()` radio button.
 
 U kunt geen optionele argumenten instellen in Launch.
 
@@ -44,7 +47,9 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 Het argument voor het koppelingsobject bepaalt of de browser tot 500 ms wacht voordat er vanaf de pagina wordt genavigeerd. Als een verzoek om een afbeelding eerder dan 500 ms wordt verzonden, navigeert de pagina direct naar de aangeklikte koppeling.
 
->[!NOTE] AppMeasurement laat automatisch de [`useBeacon`](../config-vars/usebeacon.md) variabele voor uitgangsverbindingen toe, die dit argument maken niet meer nodig in moderne browsers. Dit argument werd vaker gebruikt in vorige versies van AppMeasurement.
+>[!NOTE]
+>
+>AppMeasurement laat automatisch de [`useBeacon`](../config-vars/usebeacon.md) variabele voor uitgangsverbindingen toe, die dit argument maken niet meer nodig in moderne browsers. Dit argument werd vaker gebruikt in vorige versies van AppMeasurement.
 
 * `this`: Wacht tot maximaal 500 ms om AppMeasurement tijd te geven om een verzoek om een afbeelding te verzenden. Standaardwaarde.
 * `true`: Wacht niet.
@@ -80,7 +85,7 @@ Het argument van de verbindingsnaam is een koord dat de de afmetingswaarde van d
 s.tl(true,"d","Example download link");
 ```
 
-### Variabele overschrijvingen
+### Overschrijvingen van variabelen
 
 Laat u veranderlijke waarden voor één enkele vraag veranderen. Zie [variabele overschrijvingen](../../js/overrides.md) voor meer informatie.
 
