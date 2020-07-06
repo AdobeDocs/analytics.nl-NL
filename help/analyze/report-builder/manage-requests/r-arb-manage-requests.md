@@ -1,15 +1,18 @@
 ---
 description: De beschrijvingen van het gebied voor Manage Verzoeken in de Bouwer van het Rapport.
-title: Verzoeken beheren - definities
+title: Aanvragen beheren - definities
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 2%
 
 ---
 
 
-# Verzoeken beheren - definities
+# Aanvragen beheren - definities
 
 De beschrijvingen van het gebied voor Manage Verzoeken in de Bouwer van het Rapport.
 
@@ -19,7 +22,9 @@ De beschrijvingen van het gebied voor Manage Verzoeken in de Bouwer van het Rapp
 
 De [!UICONTROL Request Manager] vertoningen wanneer u klikt **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in de toolbar van de Bouwer van het Rapport.
 
->[!NOTE] Adobe Report Builder dwingt aanvraagafhankelijkheden alleen af binnen hetzelfde werkblad, niet tussen werkbladen. Het beperken tot gebiedsdelen binnen één enkel aantekenvel verzekert tijdigheid van uitvoering.
+>[!NOTE]
+>
+>Adobe Report Builder dwingt aanvraagafhankelijkheden alleen af binnen hetzelfde werkblad, niet tussen werkbladen. Het beperken tot gebiedsdelen binnen één enkel aantekenvel verzekert tijdigheid van uitvoering.
 
 ## Definities {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -48,7 +53,7 @@ De [!UICONTROL Request Manager] vertoningen wanneer u klikt **[!UICONTROL Manage
    <td colname="col2"> <p>Toont de gespecificeerde datumwaaier van het rapport. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Korreligheid </p> </td> 
+   <td colname="col1"> <p>Granulariteit </p> </td> 
    <td colname="col2"> <p>Hiermee geeft u de granulariteit van de aanvraag op. </p> </td> 
   </tr> 
   <tr> 
@@ -57,11 +62,11 @@ De [!UICONTROL Request Manager] vertoningen wanneer u klikt **[!UICONTROL Manage
   </tr> 
   <tr> 
    <td colname="col1"> <p>Toevoegen </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u het dialoogvenster Wizard Verzoek weer. Zie <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Een gegevensaanvraag</a>maken. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u het dialoogvenster Wizard Verzoek weer. See <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Create a Data Request</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bewerken </p> </td> 
-   <td colname="col2"> <p> (Of Meerdere bewerken) Hiermee bewerkt u een geselecteerde aanvraag. Het systeem geeft het dialoogvenster Wizard <span class="wintitle"></span> Verzoek weer. Zie Meerdere verzoeken <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   ></a>bewerken. </p> </td> 
+   <td colname="col2"> <p> (Of Meerdere bewerken) Hiermee bewerkt u een geselecteerde aanvraag. Het systeem geeft het dialoogvenster Wizard <span class="wintitle"></span> Verzoek weer. See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verwijderen </p> </td> 
@@ -77,7 +82,7 @@ De [!UICONTROL Request Manager] vertoningen wanneer u klikt **[!UICONTROL Manage
   </tr> 
   <tr> 
    <td colname="col1"> <p> Vernieuwen </p> </td> 
-   <td colname="col2"> <p>Hiermee vernieuwt u één aanvraag of een selectie aanvragen. (Zie Een aanvraag <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   ></a>vernieuwen.) </p> </td> 
+   <td colname="col2"> <p>Hiermee vernieuwt u één aanvraag of een selectie aanvragen. (See <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Refresh a Request</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lijst vernieuwen </p> </td> 
