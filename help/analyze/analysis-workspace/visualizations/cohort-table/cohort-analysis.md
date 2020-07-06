@@ -1,8 +1,8 @@
 ---
 title: Wat is Cohort Analysis?
-description: Meer informatie over cohortanalyse in de analysewerkruimte
+description: Meer informatie over cohortanalyse in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 79849c574909543d74e2935e493008927700585d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Wat is [!UICONTROL Cohort Analysis]dat?
 
-A *`cohort`* is een groep mensen die gemeenschappelijke kenmerken over een bepaalde periode delen. [!UICONTROL Cohort Analysis] is bijvoorbeeld handig als u wilt weten hoe een cohort werkt met een merk. U kunt gemakkelijk veranderingen in tendensen waarnemen, dan dienovereenkomstig antwoorden. (Verklaringen van [!UICONTROL Cohort Analysis] zijn beschikbaar op het web, zoals bij [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+A *`cohort`* is a group of people sharing common characteristics over a specified period. [!UICONTROL Cohort Analysis] is bijvoorbeeld handig als u wilt weten hoe een cohort werkt met een merk. U kunt gemakkelijk veranderingen in tendensen waarnemen, dan dienovereenkomstig antwoorden. (Verklaringen van [!UICONTROL Cohort Analysis] zijn beschikbaar op het web, zoals bij [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
 Na het creëren van een cohortrapport, kunt u zijn componenten (specifieke dimensies, metriek, en segmenten) tot stand brengen, dan het cohortrapport met iedereen delen. Zie [Curate en Delen](/help/analyze/analysis-workspace/curate-share/curate.md).
 
@@ -24,13 +24,15 @@ Voorbeelden van wat u kunt doen met [!UICONTROL Cohort Analysis]:
 * Verbeter ideeën voor het testen A/B op gebieden zoals tarifering, verbeteringspad, etc.
 * Een [!UICONTROL Cohort Analysis] rapport weergeven in een rapport met instructies.
 
-[!UICONTROL Cohort Analysis] is beschikbaar voor alle klanten van Adobe Analytics met toegangsrechten tot [!UICONTROL Analysis Workspace].
+[!UICONTROL Cohort Analysis] is beschikbaar voor alle Adobe Analytics-klanten met toegangsrechten tot [!UICONTROL Analysis Workspace].
 
 [Cohortanalyse op YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis] ondersteunt geen niet-segmenteerbare metriek (inclusief berekende metriek), niet-gehele metriek (zoals Opbrengst) of Voorvallen. Alleen metriek die in segmenten kan worden gebruikt, kan worden gebruikt in
+>[!UICONTROL Cohort Analysis]
+>
+>ondersteunt geen niet-segmenteerbare metriek (inclusief berekende metriek), niet-gehele metriek (zoals Opbrengst) of Voorvallen. Alleen metriek die in segmenten kan worden gebruikt, kan worden gebruikt in
 >[!UICONTROL Cohort Analysis]en kunnen slechts met één worden verhoogd.
 
 ## Cohortanalyse-mogelijkheden
@@ -63,7 +65,7 @@ Hiermee wordt de tijd gemeten die is verstreken vóór en na de opnemingsgebeurt
 
 ### [!UICONTROL Custom Dimension] Cohort
 
-Maak cohorten op basis van een geselecteerde afmeting en niet op basis van een tijd, de standaardinstelling. Gebruik dimensies zoals [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region]of een andere dimensie in Adobe Analytics om te tonen hoe het behoud verandert op basis van de verschillende waarden van deze dimensies.
+Maak cohorten op basis van een geselecteerde afmeting en niet op basis van een tijd, de standaardinstelling. Met afmetingen zoals [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region]of een andere dimensie in Adobe Analytics kunt u zien hoe de retentie verandert op basis van de verschillende waarden van deze dimensies.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
