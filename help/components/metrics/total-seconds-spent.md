@@ -2,7 +2,7 @@
 title: Totaal aantal bestede seconden
 description: Het geaggregeerde totale aantal seconden dat aan de waarde van de dimensie wordt besteed.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -26,6 +26,8 @@ Deze metrisch gebruikt de volgende stappen om berekening te meten:
 
 Persisted variabelen, zoals [eVars](../dimensions/evar.md), tellen naar het totale aantal seconden dat wordt doorgebracht. De variabelen van het verkeer, zoals [steunen](../dimensions/prop.md), omvatten seconden besteed over verdere verbinding het volgen vraag.
 
->[!TIP] De tijd die wordt besteed wordt niet gemeten voor de laatste hit van het bezoek aangezien er geen volgende beeldverzoek is om verstreken tijd te meten. Dit concept geldt ook voor bezoeken die bestaan uit één enkele hit (een stuit).
+>[!TIP]
+>
+>De tijd die wordt besteed wordt niet gemeten voor de laatste hit van het bezoek aangezien er geen volgende beeldverzoek is om verstreken tijd te meten. Dit concept geldt ook voor bezoeken die bestaan uit één enkele hit (een stuit).
 
 Zie [Tijd besteed overzicht](time-spent.md) voor meer algemene informatie over bestede tijd.
