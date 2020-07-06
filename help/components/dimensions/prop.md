@@ -2,7 +2,7 @@
 title: Prop
 description: Een aangepaste dimensie die u kunt gebruiken in rapporten.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 Props zijn aangepaste variabelen die u op de gewenste manier kunt gebruiken. Ze blijven niet bestaan na de hit die ze zijn ingesteld.
 
-> [!TIP] Adobe raadt u in de meeste gevallen aan [eVars](evar.md) te gebruiken. In eerdere versies van Adobe Analytics hadden props en eVars voor- en nadelen voor elkaar. Adobe heeft echter verbeteringen aangebracht in Vars waarin vrijwel alle gevallen van gebruik voor props zijn opgenomen.
+>[!TIP]
+>
+>Adobe raadt u in de meeste gevallen aan [eVars](evar.md) te gebruiken. In eerdere versies van Adobe Analytics hadden props en eVars voor- en nadelen voor elkaar. Adobe heeft echter verbeteringen aangebracht in Vars waarin vrijwel alle gevallen van gebruik voor props zijn opgenomen.
 
 Als u een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp hebt, kunt u deze douanedimensies aan waarden toewijzen specifiek voor uw organisatie. Het aantal beschikbare proefdrukken is afhankelijk van uw contract met Adobe. Er zijn maximaal 75 props beschikbaar als uw contract met Adobe dit ondersteunt.
 
