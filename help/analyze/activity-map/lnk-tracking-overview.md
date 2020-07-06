@@ -1,28 +1,33 @@
 ---
-description: 'Activiteitenkaart houdt koppelingen bij met een robuuster algoritme dat '
-title: Robuuste koppeling bijhouden
+description: 'Activity Map houdt verbindingen met een robuuster algoritme bij dat '
+title: Robuuste link tracking
 topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 2%
 
 ---
 
 
-# Robuuste koppeling bijhouden
+# Robuuste link tracking
 
-De Kaart van de activiteit volgt verbindingen met een robuuster algoritme dat:
+Activity Map houdt verbindingen met een robuuster algoritme bij dat:
 
 * Bevat het bijhouden van paginagebieden om te voorkomen dat dezelfde koppeling op verschillende apparaten wordt verward, omdat de koppeling op verschillende posities op de pagina wordt weergegeven.
 * Verzekert verbindingsuniciteit, die betekent dat de verschillende verbindingen niet voor één wegens kwesties met LinkID of over verschillende browser kunnen worden verward maakt.
 
-Ga [hier](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)voor meer informatie over het bijhouden van koppelingen in Activiteitenkaart.
+Ga [hier](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)voor meer informatie over het bijhouden van koppelingen in de Activity Map.
 
-## Hoe de verbinding van de Kaart van de Activiteit het volgen PII Gegevens kan verzamelen {#section_AEE57510D17B4C21A7D49D32D21D67B9}
+## Hoe Activity Map link tracking PII-gegevens kan verzamelen {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
->[!CAUTION] Als u Activiteitenkaarten bijhouden inschakelt, verzamelt u mogelijk PII-gegevens (Persoonlijk identificeerbare gegevens). Deze gegevens kunnen op zichzelf of met andere informatie worden gebruikt om één persoon te identificeren, contact op te nemen of te vinden, of om een persoon in context te identificeren.
+>[!CAUTION]
+>
+>Door het bijhouden van Activity Mappen in te schakelen, verzamelt u mogelijk PII-gegevens (Persoonlijk identificeerbare gegevens). Deze gegevens kunnen op zichzelf of met andere informatie worden gebruikt om één persoon te identificeren, contact op te nemen of te vinden, of om een persoon in context te identificeren.
 
-Hier zijn een aantal bekende gevallen waarin PII-gegevens kunnen worden verzameld met behulp van Activiteitenkaarten bijhouden:
+Hier zijn enkele bekende gevallen waarin PII-gegevens kunnen worden verzameld met behulp van Activity Map bijhouden:
 
 * `Mailto` koppelingen. Een mailto-koppeling is een type HTML-koppeling waarmee de standaardmailclient op de computer wordt geactiveerd voor het verzenden van een e-mail.
 * `User ID` koppelingen die worden weergegeven in de kop- of voettekst van een website nadat de gebruiker zich heeft aangemeld.
