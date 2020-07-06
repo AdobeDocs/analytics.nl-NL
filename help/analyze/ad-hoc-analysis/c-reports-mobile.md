@@ -3,7 +3,7 @@ description: Hier wordt informatie weergegeven over websites die toegang hebben 
 title: Mobiele rapporten
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 0%
@@ -19,11 +19,13 @@ Hier wordt informatie weergegeven over websites die toegang hebben vanaf een mob
 
 Hier wordt informatie weergegeven over websites die toegang hebben vanaf een mobiel apparaat. Mobiele rapporten verbeteren de identificatie van bezoekers door gegevens te verzamelen over mobiele apparaten die worden gebruikt om uw site weer te geven. In mobiele rapporten kunnen de fabrikant en de mogelijkheden van een apparaat worden geïdentificeerd, zoals schermformaten, video, audio, ondersteuning voor cookies en andere meetgegevens. Mobiele rapporten zijn beschikbaar voor alle rapportsuites.
 
-Om bezoekersidentificatie voor mobiele apparaten te verbeteren, moet u op de lijst van de drager (allowlist) voor het verzenden van abonnee IDs aan een domein zijn. (U kunt de provider weergeven in het rapport **[!UICONTROL Visitor Profile]** > **[!UICONTROL Domains]** .)
+Om bezoekersidentificatie voor mobiele apparaten te verbeteren, moet u op de lijst van de drager (lijst van gewenste personen) voor het verzenden van abonnee IDs aan een domein zijn. (U kunt de provider weergeven in het rapport **[!UICONTROL Visitor Profile]** > **[!UICONTROL Domains]** .)
 
->[!NOTE] Meld u aan bij de [Experience Cloud](https://login.experiencecloud.adobe.com)om rapporten weer te geven over een mobiel apparaat.
+>[!NOTE]
+>
+>Meld u aan bij de [Experience Cloud](https://login.experiencecloud.adobe.com)om rapporten op een mobiel apparaat weer te geven.
 
-Raadpleeg de site [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) voor meer informatie over het bijhouden van mobiele apparaten.
+Raadpleeg de [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) -site voor meer informatie over het volgen van mobiele apparaten.
 
 <table id="table_8862E941EF5A41EFB0E7FADEEA86C37D"> 
  <thead> 
@@ -68,7 +70,7 @@ Raadpleeg de site [Mobile Analytics](https://www.adobe.com/experience-cloud/topi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapport kleurdiepte </p> </td> 
-   <td colname="col2"> <p>Hiermee groepeert u bereiken op mobiele apparaten op basis van het aantal ondersteunde kleuren. Het rapport geeft het totale aantal bezoekers van uw site weer die een mobiel apparaat hebben gebruikt en deelt deze in groepen op basis van het aantal kleuren dat op hun mobiele apparaten is geconfigureerd. Als de mobiele telefoon van uw bezoeker bijvoorbeeld 24 kleuren ondersteunt, wordt het regelitem voor marketingrapporten en analyses verhoogd tot 24 kleuren. </p> </td> 
+   <td colname="col2"> <p>Hiermee groepeert u bereiken op mobiele apparaten op basis van het aantal ondersteunde kleuren. Het rapport geeft het totale aantal bezoekers van uw site weer die een mobiel apparaat hebben gebruikt en deelt deze in groepen op basis van het aantal kleuren dat op hun mobiele apparaten is geconfigureerd. Als de mobiele telefoon van uw bezoeker bijvoorbeeld 24 kleuren ondersteunt, neemt het marketing reports and analytics toe dat het lijstitem overeenkomt met 24 kleuren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ondersteuningsrapport voor audio </p> </td> 
