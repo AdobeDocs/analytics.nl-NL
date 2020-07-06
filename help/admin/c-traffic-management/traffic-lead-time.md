@@ -1,21 +1,26 @@
 ---
 description: Adobe heeft een voorafgaande kennisgeving nodig voor nieuwe accountinstellingen, verkeerspikes en toename van het verkeer. Hardware moet vooraf worden toegewezen om latentie en mogelijke negatieve effecten voor het gehele systeem tot een minimum te beperken.
-title: Vereiste aanlooptijd voor verkeersstijgingen
+title: Vereiste aanlooptijd voor traffic-toename
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 4%
 
 ---
 
 
-# Vereiste aanlooptijd voor verkeersstijgingen
+# Vereiste aanlooptijd voor traffic-toename
 
 Adobe heeft een voorafgaande kennisgeving nodig voor nieuwe accountinstellingen, verkeerspikes en toename van het verkeer. Hardware moet vooraf worden toegewezen om latentie en mogelijke negatieve effecten voor het gehele systeem tot een minimum te beperken.
 
 De toewijzing van hardware wordt bepaald door waarschuwingen die via de gebruikersinterface voor rapporten en analyses worden verzonden.
 
->[!IMPORTANT] Adobe kan geen aanvragen voor plaatsaanduidingen voor wijzigingen in het verkeer verwerken. Tenzij anders vermeld, moet u zo nauwkeurig mogelijk de voorgestelde aanlooptijd in acht nemen, inclusief het niet te vroeg verzenden van een waarschuwing. Zie [Plan een verkeerspiek](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) of [specificeer permanente verkeersverhoging](/help/admin/c-traffic-management/t-traffic-permanent.md).
+>[!IMPORTANT]
+>
+>Adobe kan geen aanvragen voor plaatsaanduidingen voor wijzigingen in het verkeer verwerken. Tenzij anders vermeld, moet u zo nauwkeurig mogelijk de voorgestelde aanlooptijd in acht nemen, inclusief het niet te vroeg verzenden van een waarschuwing. Zie [Plan een verkeerspiek](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) of [specificeer permanente verkeersverhoging](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
 Gebruik de volgende richtlijnen om te bepalen hoe ver van tevoren u een verkeersalarm moet voorleggen:
 
