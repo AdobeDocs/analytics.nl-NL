@@ -2,7 +2,10 @@
 title: trackOffline
 description: Schakel offline bijhouden in of uit. Hiermee wordt gewijzigd hoe AppMeturement gegevens verzamelt.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +16,9 @@ Offline bijhouden is een optionele manier om gegevens te verzamelen in Adobe Ana
 
 De `trackOffline` variabele bepaalt of u het offline volgen in uw implementatie wilt gebruiken.
 
->[!IMPORTANT] U moet uw rapportreeks vormen om timestamped hits goed te keuren alvorens deze variabele toe te laten. Als een rapportsuite geen treffers met tijdstempels accepteert en deze variabele is ingeschakeld, gaan die gegevens verloren en kunnen deze niet worden hersteld.
+>[!IMPORTANT]
+>
+>U moet uw rapportreeks vormen om timestamped hits goed te keuren alvorens deze variabele toe te laten. Als een rapportsuite geen treffers met tijdstempels accepteert en deze variabele is ingeschakeld, gaan die gegevens verloren en kunnen deze niet worden hersteld.
 
 Indien deze optie is ingeschakeld, gebruikt AppMeasurement het volgende proces om gegevens naar Adobe te verzenden:
 
@@ -23,7 +28,7 @@ Indien deze optie is ingeschakeld, gebruikt AppMeasurement het volgende proces o
    * Als Adobe-gegevensverzamelingsservers niet worden bereikt, wordt de hit toegevoegd aan de wachtrij op het apparaat.
    * Als het Adobe-gegevensverzamelingsservers kan bereiken, worden de hit en de wachtrij met hits verzonden terwijl het apparaat offline was.
 
-## Offline volgen in Adobe Experience Platform Launch
+## Offline volgen in Adobe Experience Platform starten
 
 Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
