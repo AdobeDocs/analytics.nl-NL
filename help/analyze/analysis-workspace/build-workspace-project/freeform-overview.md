@@ -5,7 +5,10 @@ title: Project maken - overzicht
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 8%
 
 ---
 
@@ -14,9 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-U kunt een robuust project tot stand brengen Analytics dat op om het even welke combinatie visualisaties, rapportcomponenten, en gegevenslijsten wordt gebaseerd. Het brengt veel van de eigenschappen van de lijstbouwer van Ad hoc Analyse in Analytics.
+U kunt een robuust Analytics-project maken op basis van elke combinatie van visualisaties, rapportcomponenten en gegevenstabellen. Het brengt veel van de eigenschappen van de lijstbouwer van Ad hoc analysis in Analytics.
 
-In de Werkruimte van de Analyse, kunt u gegevens vergelijken en scheiden op manieren eerder niet mogelijk. Bijvoorbeeld, vorm gerangschikte rapporten en breng directe herhalende veranderingen in de gegevensvraag aan, en heb dan toegang tot en manipuleer de waarden op het rapporteringsniveau.
+In Analysis Workspace kunt u gegevens vergelijken en scheiden op manieren die voorheen niet mogelijk waren. Bijvoorbeeld, vorm gerangschikte rapporten en breng directe herhalende veranderingen in de gegevensvraag aan, en heb dan toegang tot en manipuleer de waarden op het rapporteringsniveau.
 
 De vraag gaat direct naar rapporterend motor-u kan veranderingen inline aanbrengen zonder andere rapporten op te nemen om uw analyse tot stand te brengen. Resultaten worden direct geretourneerd, zonder dat de browser wordt vernieuwd.
 
@@ -33,7 +36,7 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 | Projectsjablonen [](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | U kunt deze vooraf ingevulde projectmalplaatjes gebruiken aangezien zij zijn of hen aanpassen aan uw behoeften (door metriek of visualisaties toe te voegen of te vervangen, bijvoorbeeld) en hen te bewaren onder een nieuwe naam. |
 | [Nieuw project maken](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Klik op deze koppeling om een geheel nieuw project te starten. |
 | Projecten beheren | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), waar al uw projecten worden vermeld en waarmee u projecten kunt labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
-| Zelfstudies weergeven | Hiermee gaat u naar de [YouTube-video](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)van de Analyse Workspace. |
+| Zelfstudies weergeven | Ga naar de [Analysis Workspace YouTube-video](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Naam | Naam van het project van de Werkruimte. |
 | Gemaakt door | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
 | Tags | Tags die op het project zijn toegepast, in Projectcomponentbeheer of onder **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
@@ -54,7 +57,7 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 | Laatst gewijzigd | Datum van laatste wijziging van het project. |
 | Tags | Hier worden alle tags weergegeven die op een project zijn toegepast om het eenvoudiger te categoriseren. U kunt projecten ook labelen terwijl u ze opslaat. Bekijk de markeringen van een project op de het Landen Pagina van de Werkruimte in de [!UICONTROL Tags] kolom. |
 | Beschrijving | Een beschrijving is nuttig om het doel van een project te verduidelijken. U kunt dubbelklikken op de beschrijving om deze te bewerken. |
-| Aantal herhalingen in project | Geeft aan of herhalingsinstanties worden geteld in rapporten. Als u meerdere opeenvolgende waarden voor dezelfde variabele hebt, kunt u deze als één of als meerdere instanties van de variabele tellen. |
+| Aantal herhalingen in project | Geeft aan of herhalingsinstanties worden geteld in rapporten. Als u meerdere opeenvolgende waarden voor dezelfde variabele hebt, kunt u deze als één of als meerdere instanties van de laten tellen. |
 | Visualisatiekleurenschema | U kunt het kleurenschema wijzigen dat in Workspace wordt gebruikt, door een keuze te maken in een ander kleurenpalet of door uw eigen palet op te geven. Deze functie is van invloed op veel zaken in Workspace, waaronder de meeste visualisaties. |
 | Dichtheid weergeven | Hiermee kunt u meer gegevens op het scherm zien door de verticale opvulling van de linkerspoorstaaf, vrije-vormtabellen en cohortabellen te verminderen. |
 
@@ -66,9 +69,11 @@ Het bovenste menu Projecten ziet er als volgt uit:
 
 De submenu&#39;s bevatten de volgende opties.
 
->[!NOTE] Opties gemarkeerd met een sterretje (*) worden alleen weergegeven met **opgeslagen** projecten.
+>[!NOTE]
+>
+>Opties gemarkeerd met een sterretje (*) worden alleen weergegeven met **opgeslagen** projecten.
 
-| Project | Bewerken | Invoegen | Componenten | Delen | Help |
+| Project | Bewerken | Invoegen | Onderdelen | Delen | Help |
 |---|---|---|---|---|---|
 | Nieuw | Ongedaan maken | Nieuw deelvenster | Nieuw segment | Project delen | Video&#39;s |
 | Open | Wissen | Nieuw deelvenster Vrije vorm | Nieuwe metrisch | Projectkoppeling ophalen* | Hotkeys |
