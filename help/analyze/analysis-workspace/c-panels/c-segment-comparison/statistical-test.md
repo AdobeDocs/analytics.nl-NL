@@ -1,16 +1,19 @@
 ---
 description: Elk van de bovenste vergelijkingstabellen toont een verschilscore die door verscheidene statistische tests afhankelijk van wordt berekend die wordt gemaakt; nochtans, ongeacht welke test wordt gebruikt, wordt de verschilscore getoond als waarde tussen 0 en 1.
 keywords: Analysis Workspace;Segment IQ
-title: Statistische tests gebruikt bij de vergelijking van segmenten
+title: Statistische tests bij segmentvergelijking
 topic: Reports and analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 2%
 
 ---
 
 
-# Statistische tests gebruikt bij de vergelijking van segmenten
+# Statistische tests bij segmentvergelijking
 
 Elk van de bovenste vergelijkingstabellen toont een verschilscore die door verscheidene statistische tests afhankelijk van wordt berekend die wordt gemaakt; nochtans, ongeacht welke test wordt gebruikt, wordt de verschilscore getoond als waarde tussen 0 en 1.
 
@@ -24,4 +27,6 @@ In de Bovenste lijst van Metriek, gebruikt het Hulpmiddel van de Vergelijking va
 
 Voor het berekenen van de verschilscore op de bovenste maatitems en de bovenste segmentverschiltabellen wordt een algoritme voor het variëren van het relatieve risico gebruikt (vergelijkbaar met de risicoverhouding, hoewel een verschil wordt gebruikt in plaats van een verhouding). Een risicoverschil wordt berekend door de cumulatieve incidenties van een dimensie-item (of overlapping met een segment uit de segmenttabel) van het ene geselecteerde segment af te trekken van het andere. Een hoge verschilscore (dicht bij 1) betekent dat het specifieke dimensie-item of het tertiaire segment in een van de geselecteerde segmenten en niet in de andere segmenten een vooraanstaande positie innam.
 
->[!NOTE] In alle drie de tabellen is de verschilstatistiek gebaseerd op een passende steekproef van bezoekers om het proces zo snel mogelijk te laten lopen en statistisch accuraat te blijven. Hoewel de verschilscore is gebaseerd op een voorbeeld, worden de resultaten in de tabel niet gesampled. Om statistische significantie te verzekeren, steunt elke statistische test op een dynamisch toewijzingsalgoritme zodat het kleinere segment een steekproefgrootte bevat die minder dan 3% foutenmarge verstrekt. Als een segment zeer weinig bezoekers (minder dan 1.000) bevat, gebruiken wij alle beschikbare gegevens en nemen geen steekproef in het berekenen van de verschilscore.
+>[!NOTE]
+>
+>In alle drie de tabellen is de verschilstatistiek gebaseerd op een passende steekproef van bezoekers om het proces zo snel mogelijk te laten lopen en statistisch accuraat te blijven. Hoewel de verschilscore is gebaseerd op een voorbeeld, worden de resultaten in de tabel niet gesampled. Om statistische significantie te verzekeren, steunt elke statistische test op een dynamisch toewijzingsalgoritme zodat het kleinere segment een steekproefgrootte bevat die minder dan 3% foutenmarge verstrekt. Als een segment zeer weinig bezoekers (minder dan 1.000) bevat, gebruiken wij alle beschikbare gegevens en nemen geen steekproef in het berekenen van de verschilscore.
