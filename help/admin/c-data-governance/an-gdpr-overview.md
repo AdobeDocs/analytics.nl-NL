@@ -2,8 +2,11 @@
 description: In dit document wordt beschreven wat u in Adobe Analytics moet doen om de GDPR-toegangs- en verwijderingsrechten van uw geregistreerde personen te ondersteunen.
 title: Adobe Analytics en GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ In dit document wordt beschreven wat u in Adobe Analytics moet doen om de GDPR-t
 
 ## Overzicht van Adobe {#section_E582A1D77583410EBB790BB646854A2C}
 
->[!IMPORTANT] De inhoud van dit document is geen juridisch advies en is niet bedoeld ter vervanging van juridisch advies. Raadpleeg de juridische afdeling van uw bedrijf voor advies over GDPR.
+>[!IMPORTANT]
+>
+>De inhoud van dit document is geen juridisch advies en is niet bedoeld ter vervanging van juridisch advies. Raadpleeg de juridische afdeling van uw bedrijf voor advies over GDPR.
 
 Op 25 mei 2018 is Algemene verordening gegevensbescherming (AVG, of GDPR: General Data Protection Regulation) van de Europese Unie in werking getreden. Raadpleeg [GDPR en uw bedrijf](https://www.adobe.com/nl/privacy/general-data-protection-regulation.html) voor meer informatie over de reactie van Adobe en wat dit voor u als Adobe-klant betekent.
 
