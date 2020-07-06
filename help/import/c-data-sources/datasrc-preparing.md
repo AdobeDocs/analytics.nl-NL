@@ -5,7 +5,10 @@ title: Voorbereiden op het gebruik van gegevensbronnen
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +31,9 @@ Nadat u aangewezen metrisch-aan-gebeurtenis afbeeldingen voor de gegevens van Ge
 
 Zie Gebeurtenissen [met succes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in de Help voor beheerprogramma&#39;s.
 
->[!NOTE] Adobe raadt u ten zeerste aan nieuwe, lege gebeurtenissen met gegevensbrongegevens te gebruiken, maar in zeldzame gevallen is het verstandig om een bestaande gebeurtenis te gebruiken.
+>[!NOTE]
+>
+>Adobe raadt u ten zeerste aan nieuwe, lege gebeurtenissen met gegevensbrongegevens te gebruiken, maar in zeldzame gevallen is het verstandig om een bestaande gebeurtenis te gebruiken.
 
 ## Identificeer de Afmetingen van Gegevens {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -38,13 +43,15 @@ Bijvoorbeeld, als een Gegevensbronnen metrische maatregelen en indrukkingen, is 
 
 U kunt veelvoudige gegevensafmetingen aan metrisch bepalen, maar elke metrisch moet een relevante waarde, of een combinatie waarden, voor elke bijbehorende gegevensdimensie verstrekken. Bijvoorbeeld, als u een Off-line metrische Verkoop invoert en het met *`Product`* en *`Partner`* gegevensdimensies associeert, moet de Off-line metrische Verkoop voor elke combinatie van product en partner (bijvoorbeeld, Totale Inkomsten) relevant zijn.
 
->[!NOTE] Het is mogelijk om Totale metriek in te voeren die niet door om het even welke gegevensdimensie kan worden verdeeld.
+>[!NOTE]
+>
+>Het is mogelijk om Totale metriek in te voeren die niet door om het even welke gegevensdimensie kan worden verdeeld.
 
 Nadat u de gegevensafmetingen bepaalt om met een gegevensbron te gebruiken, integreer de dimensiegegevens in marketing rapporten door het aan een variabele in kaart te brengen. Gebruik standaardrapporten (bijvoorbeeld Product, Trackingcode, Trefwoord zoeken) of Conversieverkeer (eVars).
 
 Wanneer u Vars gebruikt, kunt u bestaande of nieuwe Vars gebruiken als gegevensafmetingen. Nadat het selecteren van eVar om een gegevensdimensie van Gegevensbronnen te ontvangen, zorg ervoor u hen geschikt noemt.
 
-Zie Gebeurtenissen [met succes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in de Help bij Analytics.
+Zie Gebeurtenissen [met succes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in Analytics Help.
 
 ## Code bijhouden campagne {#section_468222796FF449ABAA90D88EB3264CB1}
 
