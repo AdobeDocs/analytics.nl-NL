@@ -5,7 +5,10 @@ title: Classificatieregels
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1957'
+ht-degree: 1%
 
 ---
 
@@ -51,11 +54,13 @@ about_classification_rules.xml
 * [Wanneer classificeren de regels sleutels niet?](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [Info over Prioriteit regel](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] Numerieke 2-classificaties worden [!UICONTROL Rule Builder] niet ondersteund.
+>[!NOTE]
+>
+>Numerieke 2-classificaties worden [!UICONTROL Rule Builder] niet ondersteund.
 
 ## Belangrijke informatie over regels
 
-* Geef [groepsmachtigingen](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) op voor classificaties in [!UICONTROL Admin Tools].
+* Geef [groepsmachtigingen](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html) op voor classificaties in [!UICONTROL Admin Tools].
 
 * **Reguliere expressies**: De hulp is beschikbaar onder [Reguliere Uitdrukkingen in de Regels](/help/components/c-classifications2/crb/classification-quickstart-rules.md)van de Classificatie.
 
@@ -105,11 +110,15 @@ regex_classification_rules.xml
 * [Reguliere expressies - voorbeeld &quot;Bevat niet&quot;](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [Reguliere expressies - referentietabel](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE] Reguliere expressies zijn het meest geschikt voor het bijhouden van codes die gebruikmaken van scheidingstekens.
+>[!NOTE]
+>
+>Reguliere expressies zijn het meest geschikt voor het bijhouden van codes die gebruikmaken van scheidingstekens.
 
 ## Reguliere expressie - voorbeeld van code bijhouden {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE] Als het volgen code URL gecodeerd is, zal het **niet** door de Bouwer van Regels worden geclassificeerd.
+>[!NOTE]
+>
+>Als het volgen code URL gecodeerd is, zal het **niet** door de Bouwer van Regels worden geclassificeerd.
 
 In dit voorbeeld, veronderstel u volgende campagne-identiteitskaart wilt classificeren:
 
@@ -332,7 +341,7 @@ Voeg regels toe door een voorwaarde aan een classificatie aan te passen, en de a
 
 1. [Definieer de regel of regels](/help/components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
 
-   ![Stap resultaat](assets/classification_rules_page.png)
+   ![Stap Resultaat](assets/classification_rules_page.png)
 
    Voor voorbeelden van bouwregels, zie de Bouwer [van de Regel van](/help/components/c-classifications2/crb/classification-rule-builder.md) Classificaties en de Reguliere Uitdrukkingen van de [Classificatieregels](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
@@ -362,7 +371,7 @@ Stappen die beschrijven hoe een classificatieregel of regelset moet worden getes
 1. Zorg ervoor dat de regelreeks met een rapportreeks wordt geassocieerd.
 1. Voor de regelredacteur, klik **[!UICONTROL Test Rule Set]**.
 
-   ![Stap resultaat](assets/classification_test_rule_set.png)
+   ![Stap Resultaat](assets/classification_test_rule_set.png)
 
 1. Typ of plak testtoetsen in het [!UICONTROL Sample Keys] veld.
 
