@@ -1,8 +1,11 @@
 ---
 title: Meteen artikelen implementeren met Facebook
-description: Implementeer Adobe Analytics op Facebook Instant Article-pagina's.
+description: Adobe Analytics implementeren op Facebook Instant Article-pagina's.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 0%
 
 ---
 
@@ -11,15 +14,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Met Facebook Instant Articles kunnen uitgevers snelle, interactieve artikelen maken op Facebook. Instant artikelen kunnen inhoud tot tien keer sneller laden dan mobiel internet.
 
-U kunt Adobe Analytics insluiten op Facebook Instant Articles om het gedrag van de bezoeker te volgen. Aangezien de inhoud van uitgevers zich binnen de Facebook-app bevindt en niet op de websites van de uitgever, verschilt de methode van codering enigszins van een standaard analytische implementatie.
+U kunt Adobe Analytics insluiten in Facebook Instant Articles om het gedrag van de bezoeker te volgen. Aangezien de inhoud van uitgevers zich binnen de Facebook-app bevindt en niet op de websites van de uitgever, is de aanpak van tags iets anders dan een standaard Analytics-implementatie.
 
 ## Workflow
 
 De volgende overkoepelende workflow voor het implementeren van Adobe Analytics:
 
-1. Maak een `stats.html` pagina. Code deze pagina om de parameters van het vraagkoord van URL te trekken en elke parameter aan een variabele van de Analyse toe te wijzen
+1. Maak een `stats.html` pagina. Code deze pagina om de parameters van het vraagkoord van URL te trekken en elke parameter aan een variabele van Analytics toe te wijzen
 1. De `stats.html` pagina hosten op uw webserver
-1. Analyses implementeren in het Facebook Instant Article door naar het `stats.html` bestand in een iframe te verwijzen
+1. Analytics implementeren in het artikel Instant Facebook door naar het `stats.html` bestand in een iframe te verwijzen
 1. Parameters voor querybepaling opnemen in het iframe- `src` kenmerk
 
 ### Stap 1: Een `stats.html` pagina maken
@@ -75,7 +78,7 @@ Wanneer u Facebook Instant Article-inhoud maakt, sluit u de HTML-inhoud van de a
 Aangepaste variabelen en gebeurtenissen kunnen binnen de HTML van de analyse op twee manieren worden bijgehouden:
 
 * Waarden en gebeurtenissen van variabelen rechtstreeks op de `stats.html` pagina opnemen. Variabelen die u hier definieert, zijn het beste voor waarden die doorgaans hetzelfde zijn voor alle Instant-artikelen op Facebook.
-* Mogelijke waarden opnemen als onderdeel van een queryreeks die verwijst naar het iframe. Met deze methode kunt u variabelewaarden vanuit het Instant Article van Facebook verzenden naar het iframe dat als host fungeert voor de Analytics-code.
+* Mogelijke waarden opnemen als onderdeel van een queryreeks die verwijst naar het iframe. Met deze methode kunt u variabelewaarden vanuit het Instant Article van Facebook verzenden naar het iframe dat als host fungeert voor Analytics-code.
 
 In het volgende voorbeeld worden verschillende aangepaste variabelen in een queryreeks getoond. JavaScript in `stats.html` zou dan de queryreeks controleren met behulp van `s.Util.getQueryParam()`.
 
@@ -83,8 +86,10 @@ In het volgende voorbeeld worden verschillende aangepaste variabelen in een quer
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
 ```
 
->[!NOTE] De dimensie Referrer wordt niet automatisch bijgehouden vanwege de aard van iframes. Zorg ervoor dat u deze dimensie als deel van uw vraagkoord opneemt als u het wilt volgen.
+>[!NOTE]
+>
+>De dimensie Referrer wordt niet automatisch bijgehouden vanwege de aard van iframes. Zorg ervoor dat u deze dimensie als deel van uw vraagkoord opneemt als u het wilt volgen.
 
 ## Meteen artikelen en privacy op Facebook
 
-Zolang de HTML-pagina Analytics op uw webserver wordt gehost, ondersteunt Adobe uw bestaande privacybeleid voor alle onmiddellijke Facebook-artikelen. Als een gebruiker op uw primaire site niet meer wil volgen, weigert hij of zij al uw onmiddellijke Facebook-artikelen te volgen. De nutspagina steunt ook de Dienst van de Identiteit van de Ervaring Cloud zodat u de Gegevens van het Onmiddellijk Artikel van Facebook met de rest van de Cloud van de Ervaring kunt integreren.
+Zolang de HTML-pagina van Analytics op uw webserver wordt gehost, ondersteunt Adobe uw bestaande privacybeleid voor alle Metant-artikelen van Facebook. Als een gebruiker op uw primaire site niet meer wil volgen, weigert hij of zij al uw onmiddellijke Facebook-artikelen te volgen. De nutspagina steunt ook de Dienst van de Identiteit van de Ervaring van Adobe zodat u Metant Article van Facebook gegevens met de rest van Experience Cloud kunt integreren.
