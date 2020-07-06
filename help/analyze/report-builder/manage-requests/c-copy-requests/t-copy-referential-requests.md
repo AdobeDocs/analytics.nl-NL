@@ -1,15 +1,18 @@
 ---
 description: Een referentiële aanvraag gebruikt waarden uit cellen als invoer voor parameters, zoals een gegevensfilter of relationeel filter.
-title: Referentieverzoeken kopiëren
+title: Referentieaanvragen kopiëren
 topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 1%
 
 ---
 
 
-# Referentieverzoeken kopiëren
+# Referentieaanvragen kopiëren
 
 Een referentiële aanvraag gebruikt waarden uit cellen als invoer voor parameters, zoals een gegevensfilter of relationeel filter.
 
@@ -17,7 +20,9 @@ Om verwijzingsverzoeken in spreadsheet te verspreiden of te kopiëren en te klev
 
 U kunt ook aanvragen maken die verwijzen naar invoerfilters van aanvragen in verschillende werkbladen, maar niet naar andere werkboeken. Bijvoorbeeld, kan een verzoek in Blad 2 een rapportreeks van een bepaalde cel in Blad 1 en een datumwaaier van een cel in een verzoek in Blad 2 gebruiken. De nieuwe output kan in één van beide blad of een nieuw blad binnen het zelfde werkboek worden geplaatst. Wanneer u een relatieve aanvraag plakt en een invoerfilter zich op een werkblad bevindt dat afwijkt van het werkblad waarop de gekopieerde aanvraaguitvoer zich bevindt, wordt het filter als een absoluut filter geplakt.
 
->[!NOTE] U kunt niet één aanvraag uitvoeren in meerdere werkbladen. Bovendien kan het systeem sommige gekopieerde aanvragen niet in nieuwe werkboeken plakken omdat de aanvragen invoerfilters uit andere werkbladen bevatten. Invoerfilters omvatten rapportsuites uit cellen, datumbereiken uit cellen, filters uit cellen en andere gerelateerde parameters.
+>[!NOTE]
+>
+>U kunt niet één aanvraag uitvoeren in meerdere werkbladen. Bovendien kan het systeem sommige gekopieerde aanvragen niet in nieuwe werkboeken plakken omdat de aanvragen invoerfilters uit andere werkbladen bevatten. Invoerfilters omvatten rapportsuites uit cellen, datumbereiken uit cellen, filters uit cellen en andere gerelateerde parameters.
 
 **Referentieverzoeken kopiëren**
 
