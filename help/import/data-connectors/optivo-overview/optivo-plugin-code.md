@@ -1,16 +1,19 @@
 ---
-description: Als u de methode voor het verzamelen van gegevens in de insteekmodule JavaScript hebt geselecteerd, kopieert u de volgende coderegels en voegt u deze toe aan de Adobe Analytics-code op uw pagina's.
+description: Als u de methode voor het verzamelen van JavaScript-plug-ingegevens hebt geselecteerd, kopieert u de volgende coderegels en voegt u deze toe aan de Adobe Analytics-code op uw pagina's.
 title: Adobe Analytics-plug-incode
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 8%
 
 ---
 
 
 # Adobe Analytics-plug-incode{#adobe-analytics-plug-in-code}
 
-Als u de methode voor het verzamelen van gegevens in de insteekmodule JavaScript hebt geselecteerd, kopieert u de volgende coderegels en voegt u deze toe aan de Adobe Analytics-code op uw pagina&#39;s.
+Als u de methode voor het verzamelen van JavaScript-plug-ingegevens hebt geselecteerd, kopieert u de volgende coderegels en voegt u deze toe aan de Adobe Analytics-code op uw pagina&#39;s.
 
 ```
 /* 
@@ -50,5 +53,7 @@ s.eVar11="Post Click Product ID"; // e.g. "shoes"
 s.eVar12="Post Click Type of Action"; // e.g. "purchase"; 
 ```
 
->[!NOTE] De bovenstaande plug-in gaat ervan uit dat bepaalde aangepaste handelvariabelen (eVars) beschikbaar zijn. Als de variabelen die in de bovenstaande plug-in zijn opgegeven, niet beschikbaar zijn in de implementatie van Adobe Analytics, vervangt u deze door de variabelen die beschikbaar zijn.
+>[!NOTE]
+>
+>De bovenstaande plug-in gaat ervan uit dat bepaalde aangepaste handelvariabelen (eVars) beschikbaar zijn. Als de variabelen die in de bovenstaande plug-in zijn opgegeven, niet beschikbaar zijn in uw Adobe Analytics-implementatie, vervangt u deze door de variabelen die beschikbaar zijn.
 
