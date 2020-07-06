@@ -1,15 +1,18 @@
 ---
 description: U kunt alle verzoeken in een werkboek tegen het toevoegen van en het uitgeven van verzoeken beschermen door het werkboek te sluiten. Dit laat off-line het uitgeven van werkboeken toe door alle rapportverzoeken voor efficiënter het uitgeven te pauzeren.
-title: Werkboeken vergrendelen/ontgrendelen
+title: Werkmappen vergrendelen/ontgrendelen
 topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 1%
 
 ---
 
 
-# Werkboeken vergrendelen/ontgrendelen
+# Werkmappen vergrendelen/ontgrendelen
 
 U kunt alle verzoeken in een werkboek tegen het toevoegen van en het uitgeven van verzoeken beschermen door het werkboek te sluiten. Dit laat off-line het uitgeven van werkboeken toe door alle rapportverzoeken voor efficiënter het uitgeven te pauzeren.
 
@@ -28,7 +31,9 @@ U kunt een gesloten werkboek ontgrendelen als u één van de volgende toestemmin
 * U bent een beheerder, of
 * U bent de persoon die aanvankelijk het werkboek gesloten. In dit geval hoeft u geen beheerder te zijn.
 
->[!NOTE] U kunt geen verzoek aan een beschermd werkboek toevoegen tenzij u de toestemmingen hebt om het werkboek te ontgrendelen.
+>[!NOTE]
+>
+>U kunt geen verzoek aan een beschermd werkboek toevoegen tenzij u de toestemmingen hebt om het werkboek te ontgrendelen.
 
 Wanneer een werkboek tegen verzoek het uitgeven wordt gesloten,
 
