@@ -2,7 +2,10 @@
 title: linkName
 description: Stel de naam in van de aangepaste koppelingshit.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 1%
 
 ---
 
@@ -13,7 +16,7 @@ Gebruik de `linkName` variabele om de afmetingswaarde van douaneverbindingen, do
 
 Als deze variabele leeg is, keert AppMeasurement aan de [`linkURL`](linkurl.md) variabele terug.
 
-## Koppelingsnaam in Adobe Experience Platform Launch
+## Koppelingsnaam in Adobe Experience Platform starten
 
 U kunt het gebied van de verbindingsnaam plaatsen wanneer het vormen van een regel om een baken te verzenden.
 
@@ -21,14 +24,16 @@ U kunt het gebied van de verbindingsnaam plaatsen wanneer het vormen van een reg
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 4. Klik onder [!UICONTROL Actions]op het pictogram ‘+’
-5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en de knop [!UICONTROL Action Type] To Send Beacon.
+5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en de knop [!UICONTROL Action Type] voor het verzenden van baken.
 6. Klik op het `s.tl()` keuzerondje dat het [!UICONTROL Link Name] veld weergeeft.
 
 ## s.linkName in AppMeasurement en Launch, aangepaste code-editor
 
 De `s.linkName` variabele is een tekenreeks die de waarde van de afmetingen voor aangepaste koppelingen, downloadkoppelingen of afsluitkoppelingen bepaalt (afhankelijk van wat [`s.linkType`](linktype.md) is). Het kan tot 100 bytes bevatten.
 
->[!TIP] Deze variabele is de derde parameter van de `tl()` methode en hoeft gewoonlijk niet als een zelfstandige variabele te worden ingesteld. U kunt de `linkName` variabele echter wel gebruiken als u geen waarden als argumenten in de `tl()` methode wilt instellen.
+>[!TIP]
+>
+>Deze variabele is de derde parameter van de `tl()` methode en hoeft gewoonlijk niet als een zelfstandige variabele te worden ingesteld. U kunt de `linkName` variabele echter wel gebruiken als u geen waarden als argumenten in de `tl()` methode wilt instellen.
 
 ```js
 s.linkName = "Example custom link";
