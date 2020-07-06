@@ -1,19 +1,24 @@
 ---
 description: Hiermee geeft u webpaginaverkeer weer en geeft u paginaweergaven in real-time weer. Verstrekt activeerbare gegevens om uw bedrijfsbesluiten op te baseren.
-title: Real-time rapporten
+title: Realtimerapporten
 topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 0%
 
 ---
 
 
-# Real-time rapporten
+# Realtimerapporten
 
 Hiermee geeft u webpaginaverkeer weer en geeft u paginaweergaven in real-time weer. Verstrekt activeerbare gegevens om uw bedrijfsbesluiten op te baseren.
 
->[!NOTE] Voor het Real-Time Report is geen aanvullende implementatie of codering vereist. Het gebruikt uw bestaande implementatie van Adobe Analytics. Om rapporten in real time te vormen, zie de Configuratie [van](/help/admin/admin/realtime/t-realtime-admin.md)Echt - tijdRapporten.
+>[!NOTE]
+>
+>Voor het Real-Time Report is geen aanvullende implementatie of codering vereist. Het gebruikt uw bestaande implementatie van Adobe Analytics. Om rapporten in real time te vormen, zie de Configuratie [van](/help/admin/admin/realtime/t-realtime-admin.md)Echt - tijdRapporten.
 
 **[!UICONTROL Site Metrics]** > **[!UICONTROL Real-Time]**
 
@@ -21,7 +26,7 @@ Real-Time beantwoordt de volgende vragen: Wat is trending op mijn plaats, en waa
 
 ![](assets/report-realtime.png)
 
-Het dashboard bevat hoogfrequente metriek van Adobe Analytics en siteanalyses om visueel verkeer en paginaweergavetrending van dynamische nieuws- en handelswebsites te melden. In real time begrijpt tendensen in uw gegevens van minuut aan minuut, binnen seconden van inzameling. Het verzamelt en stroomt gegevens in auto-bijwerkt UI, gebruikend correlatie in real time en het volgen van inhoud en wat omzetting.
+Het dashboard bevat hoge-frequentiemetriek van Adobe Analytics en siteanalyses om visueel verkeer en paginaweergavetrending van dynamische nieuws- en handelswebsites te melden. In real time begrijpt tendensen in uw gegevens van minuut aan minuut, binnen seconden van inzameling. Het verzamelt en stroomt gegevens in auto-bijwerkt UI, gebruikend correlatie in real time en het volgen van inhoud en wat omzetting.
 
 Twee van de meest gangbare gebruiksscenario&#39;s zijn uitgevers die artikelen willen promoten/verwijderen als de gebruikersactiviteit verandert, en marketers die de lancering van een nieuwe productlijn willen volgen.
 
@@ -45,7 +50,7 @@ De vestiging en het bekijken van rapporten in real time is beperkt tot Admins of
 
 ## De Latentie van gegevens als resultaat van Configuratie A4T {#section_806CE36354FC4C539A0DED9266A5C704}
 
-Nadat de integratie van A4T in Adobe Target is ingeschakeld, duurt het nog 5-10 minuten langer voordat Adobe Analytics is geïnstalleerd. Door deze latentieverhoging kunnen gegevens van Analytics en Target op dezelfde hit worden opgeslagen, zodat u tests kunt onderbreken op pagina en sitesectie.
+Nadat de integratie van A4T in Adobe Target is ingeschakeld, duurt het nog 5 tot 10 minuten langer in Adobe Analytics. Door deze latentieverhoging kunnen gegevens uit Analytics en Target op dezelfde hit worden opgeslagen, zodat u tests kunt onderverdelen op pagina en sitesectie.
 
 Deze toename wordt weerspiegeld in alle Adobe Analytics-services en -hulpprogramma&#39;s, inclusief de live stream en realtime rapportage, en is van toepassing in de volgende scenario&#39;s:
 
