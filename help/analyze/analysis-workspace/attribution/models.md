@@ -2,7 +2,7 @@
 title: Attributiemodellen en terugzoekvensters
 description: Hoe verschillende typen attributie krediet verdelen tussen dimensiewaarden.
 translation-type: tm+mt
-source-git-commit: d12ea12ffbf54e1af091ceff6ec671e6a09d0db3
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -43,7 +43,9 @@ Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken o
 
 * **Aangepast terugzoekvenster:** Hiermee kunt u het toewijzingvenster uitvouwen tot maximaal 90 dagen na het bereik van de rapportdatum. Aangepaste terugzoekvensters worden geëvalueerd bij elke conversie in de rapportageperiode. Voor een conversie die bijvoorbeeld op 20 februari plaatsvindt, zou een terugkijkvenster van 10 dagen alle afmetingsaanraakpunten van 10 tot 20 februari in het attributiemodel evalueren.
 
->[!NOTE] **[!UICONTROL Custom lookback windows]** worden momenteel beperkt getest. Zie de [Adobe Analytics-functiereleases](/help/landing/an-releases.md) voor meer informatie.
+>[!NOTE]
+>
+>**[!UICONTROL Custom lookback windows]** worden momenteel beperkt getest. Zie de [Adobe Analytics-functiereleases](/help/landing/an-releases.md) voor meer informatie.
 
 ## Voorbeeld
 
@@ -74,4 +76,6 @@ Afhankelijk van het terugkijkvenster en het attributiemodel, ontvangen de kanale
       * Sociaal: 18,6%, krijgt $ 9,32
       * Betaalde zoekopdracht: 13,8%, met $ 6,92
 
->[!TIP] Andere conversiegebeurtenissen, zoals orders of aangepaste gebeurtenissen, worden ook verdeeld als de kredieten tot meer dan één kanaal behoren. Als twee kanalen bijvoorbeeld via een lineair toewijzingsmodel een bijdrage leveren aan een aangepaste gebeurtenis, krijgen beide kanalen 0,5 van de aangepaste gebeurtenis. Deze gebeurtenisfracties worden bij alle bezoeken opgeteld en vervolgens afgerond naar het dichtstbijzijnde gehele getal voor rapportage.
+>[!TIP]
+>
+>Andere conversiegebeurtenissen, zoals orders of aangepaste gebeurtenissen, worden ook verdeeld als de kredieten tot meer dan één kanaal behoren. Als twee kanalen bijvoorbeeld via een lineair toewijzingsmodel een bijdrage leveren aan een aangepaste gebeurtenis, krijgen beide kanalen 0,5 van de aangepaste gebeurtenis. Deze gebeurtenisfracties worden bij alle bezoeken opgeteld en vervolgens afgerond naar het dichtstbijzijnde gehele getal voor rapportage.
