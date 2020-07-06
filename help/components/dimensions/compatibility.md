@@ -1,28 +1,32 @@
 ---
-title: Compatibiliteit met analytische afmetingen
-description: Referentie voor analytische afmetingen en rapporten.
+title: Compatibiliteit met Analytics-afmetingen
+description: Referentie voor Analytics-afmetingen en -rapporten.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 
-# Compatibiliteit met analytische afmetingen
+# Compatibiliteit met Analytics-afmetingen
 
-Deze pagina bevat een overzicht van de afmetingen die worden ondersteund in de respectievelijke analysemogelijkheden.
+Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de respectievelijke Analytics-mogelijkheden.
 
->[!NOTE] Namen, classificaties en kenmerken van aangepaste variabelen worden in deze lijst weggelaten. Deze waarden zijn specifiek voor individuele rapportreeksen.
+>[!NOTE]
+>
+>Namen, classificaties en kenmerken van aangepaste variabelen worden in deze lijst weggelaten. Deze waarden zijn specifiek voor individuele rapportreeksen.
 
->[!NOTE] Er zijn enkele overlappingen waarbij de analysefuncties verschillende termen gebruiken voor vergelijkbare afmetingen. Rapporten en analyses worden bijvoorbeeld gebruikt `browserwidth` terwijl in de analysewerkruimte wordt gebruikt `browserwidthbucketed`.
+>[!NOTE]
+>
+>Er zijn enkele overlappingen waarbij Analytics-gereedschappen verschillende termen gebruiken voor vergelijkbare dimensies. Rapporten en Analytics gebruiken bijvoorbeeld `browserwidth` terwijl Analysis Workspace dit gebruikt `browserwidthbucketed`.
 
-## Dimensies die worden ondersteund in de werkruimte Rapporten en Analyse
+## Dimensies die worden ondersteund in zowel Rapporten als Analytics en Analysis Workspace
 
-| Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |---|---|
-| Analyses voor doel | `targetraw` |
+| Analytics voor Target | `targetraw` |
 | Soorten publiek-id | `mcaudiences` |
 | Browser | `browser` |
 | Browsertype | `browsertype` |
@@ -32,9 +36,9 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund in de r
 | Verbindingstype | `connectiontype` |
 | Cookie-ondersteuning | `cookie` |
 | Landen | `geocountry` |
-| Loyalty van klant | `customerloyalty` |
+| Klantloyaliteit | `customerloyalty` |
 | Aangepaste conversievars | `evar1`, `evar2`enz. |
-| Aangepaste zichtsvariabelen | `prop1`, `prop2`enz. |
+| Custom Insight Vars | `prop1`, `prop2`enz. |
 | Aangepaste koppeling | `customlink` |
 | Dagen vóór eerste aankoop | `daysbeforefirstpurchase` |
 | Dagen sinds laatste aankoop | `dayssincelastpurchase` |
@@ -52,7 +56,7 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund in de r
 | Variabelen weergeven | `listvariables` |
 | Marketingkanaal | `marketingchannel` |
 | Ondersteuning voor mobiele audio | `mobileaudiosupport` |
-| Mobiele vervoerder | `mobilecarrier` |
+| Mobiele aanbieder | `mobilecarrier` |
 | Kleurdiepte mobiel | `mobilecolordepth` |
 | Ondersteuning voor mobiele cookies | `mobilecookiesupport` |
 | Mobiel apparaat | `mobiledevicename` |
@@ -72,11 +76,11 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund in de r
 | Pagina | `page` |
 | Pagina&#39;s niet gevonden | `pagesnotfound` |
 | Product | `product` |
-| Referenter | `referrer` |
-| Type referentie | `referrertype` |
+| Referrer | `referrer` |
+| Type referrer | `referrertype` |
 | Referentiedomein | `referringdomain` |
 | Regio&#39;s | `georegion` |
-| Geretourneerde frequentie | `returnfrequency` |
+| Retourfrequentie | `returnfrequency` |
 | SC-TnT | `tntbase` |
 | Zoekmachine | `searchengine` |
 | Trefwoord zoeken | `searchenginekeyword` |
@@ -95,12 +99,12 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund in de r
 | Tijd voorafgaand aan gebeurtenis | `timeprior` |
 | Tijd besteed per bezoek - Emmerd | `timespent` |
 | Diepte bezoeken | `pathlength` |
-| Bezoek nummer | `visitnumber` |
+| Bezoeknummer | `visitnumber` |
 | Postcode | `zip` |
 
-## Dimensies die alleen worden ondersteund in de analysewerkruimte
+## Afmetingen worden alleen ondersteund in Analysis Workspace
 
-| Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | AM/PM | `timepartampm` |
 | Browserhoogte - Emmerd | `browserheightbucketed` |
@@ -149,20 +153,20 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund in de r
 | Week | `daterangeweek` |
 | Jaar | `daterangeyear` |
 
-## Afmetingen waarbij de inhoud behouden blijft, worden alleen ondersteund in de analysewerkruimte
+## Afmetingen met behoud van inhoud worden alleen ondersteund in Analysis Workspace
 
-| Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
-| Activiteitenkaart XY | `clickmapxy` |
+| Activity Map XY | `clickmapxy` |
 | Mediasessie-id | `videosessionid` |
 | Nielsen Access-methode | `nielsenaccmethod` |
 | Nielsen App ID | `nielsenappid` |
 | Nielsen Channel Asset | `nielsenchannelasset` |
 | Nielsen-inhoudstype | `nielsencontenttype` |
 
-## Afmetingen worden alleen ondersteund in rapporten en analyses
+## Afmetingen worden alleen ondersteund in Rapporten en Analytics
 
-| Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Browserhoogte | `browserheight` |
 | Browserbreedte | `browserwidth` |
@@ -172,16 +176,16 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund in de r
 | Maandelijkse unieke klanten | `monthlyuniquecustomers` |
 | Driemaandelijkse unieke klanten | `quarterlyuniquecustomers` |
 | Tijdzones | `timezone` |
-| Domeinen op hoofdniveau | `topleveldomain` |
+| Domeinen op hoogste niveau | `topleveldomain` |
 | Bezoekende staat | `legacystate` |
 | Wekelijks unieke klanten | `weeklyuniquecustomers` |
 | Jaarlijkse unieke klanten | `yearlyuniquecustomers` |
 
-## De inhoud-bewuste afmetingen die door zowel Rapporten &amp; Analytics als de Werkruimte van de Analyse worden gesteund
+## Afmetingen waarbij de inhoud behouden blijft, worden ondersteund door zowel Rapporten als Analytics en Analysis Workspace
 
 ### Video (Media Analytics)
 
-| Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Inhoud | `video` |
 | Segment Inhoud | `videosegment` |
@@ -231,10 +235,10 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund in de r
 
 ### Adobe Social
 
-| Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Voorwaarden | `socialterm` |
-| Sociale platforms/eigenschappen | `socialcontentprovider` |
+| Sociale Platforms/eigenschappen | `socialcontentprovider` |
 | Auteurs | `socialauthor` |
 | Taal | `sociallanguage` |
 | Breedtegraad/lengtegraad | `sociallatlong` |
@@ -253,7 +257,7 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund in de r
 
 ### Mobile SDK
 
-| Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Eerste startdatum | `mobileinstalldate` |
 | Toepassings-id | `mobileappid` |
@@ -290,25 +294,25 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund in de r
 
 ### Adobe Advertising Cloud (AMO)
 
-| Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | AMO EF-ID | `amo_ef_id` |
 | AMO-id | `amo_cid` |
 
 ### Activity Map
 
-| Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
-| Koppeling activiteitenoverzicht per regio | `clickmaplinkbyregion` |
-| Activiteitenkaartgebied | `clickmapregion` |
-| Koppeling naar activiteitenoverzicht | `clickmaplink` |
-| Pagina Activiteitenkaart | `clickmappage` |
+| Koppeling Activity Mappen per regio | `clickmaplinkbyregion` |
+| Activity Map | `clickmapregion` |
+| Activity Map-koppeling | `clickmaplink` |
+| Activity Map-pagina | `clickmappage` |
 
 ### Nielsen Integration
 
 Raadpleeg de extensie [Nielsen voor meer informatie over het implementeren van deze integratie](https://exchange.adobe.com/experiencecloud.details.101361.html).
 
-| Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Nielsen AdModel | `nielsenadmodel` |
 | Nielsen Segment C | `nielsensegmentc` |
@@ -329,7 +333,7 @@ Raadpleeg de extensie [Nielsen voor meer informatie over het implementeren van d
 
 ### Adobe Experience Manager (AEM)
 
-| Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Element-id | `aemassetid` |
 | Middelbron | `aemassetsource` |
@@ -337,8 +341,8 @@ Raadpleeg de extensie [Nielsen voor meer informatie over het implementeren van d
 | Item-id | `entryaemassetid` |
 | Element-id afsluiten | `exitaemassetid` |
 
-### Adobe-campagne
+### Adobe Campaign
 
-| Naam van dimensie (zichtbaar in de gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
-| Leverings-id voor Adobe Campagne uitgevoerd | `ac_delivery_internal_name` |
+| Uitgevoerde levering-id van Adobe Campaign | `ac_delivery_internal_name` |
