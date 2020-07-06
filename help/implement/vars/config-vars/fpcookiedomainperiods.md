@@ -2,23 +2,28 @@
 title: cookieDomainPeriods
 description: Help AppMeasurement weet welk domein cookies moeten worden opgeslagen als het achtervoegsel van uw domein een punt bevat.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 1%
 
 ---
 
 
 # fpCookieDomainPeriods
 
-Met de `fpCookieDomainPeriods` variabele kan AppMeasurement bepalen waar Analytics-cookies worden ingesteld door aan te roepen dat het domeinachtervoegsel een extra punt bevat. Met deze variabele kan AppMeasurement de extra periode in het domeinachtervoegsel aanpassen en cookies instellen op de juiste locatie. Het erft de waarde van, maar is nog steeds een beste praktijk om te plaatsen als u een implementatie van het eerste-partijkoekje gebruikt. [`cookieDomainPeriods`](cookiedomainperiods.md)
+De `fpCookieDomainPeriods` variabele helpt AppMeasurement bepalen waar de koekjes van Analytics door uit te roepen worden geplaatst dat het domeinachtervoegsel een extra periode in het heeft. Met deze variabele kan AppMeasurement de extra periode in het domeinachtervoegsel aanpassen en cookies instellen op de juiste locatie. Het erft de waarde van, maar is nog steeds een beste praktijk om te plaatsen als u een implementatie van het eerste-partijkoekje gebruikt. [`cookieDomainPeriods`](cookiedomainperiods.md)
 
 * Voor domeinen zoals `example.com` of `www.example.com`, te hoeven deze variabele niet worden geplaatst. Indien nodig, kunt u deze variabele plaatsen aan `"2"`.
 * Voor domeinen zoals `example.co.uk` of `www.example.co.jp`, plaats deze variabele aan `"3"`.
 
->[!IMPORTANT] Houd geen rekening met subdomeinen voor deze variabele. Stel bijvoorbeeld niet in `fpCookieDomainPeriods` de voorbeeld-URL `store.toys.example.com`. AppMeasurement herkent standaard dat cookies moeten worden opgeslagen op `example.com`, zelfs op URL&#39;s met veel subdomeinen.
+>[!IMPORTANT]
+>
+>Houd geen rekening met subdomeinen voor deze variabele. Stel bijvoorbeeld niet in `fpCookieDomainPeriods` de voorbeeld-URL `store.toys.example.com`. AppMeasurement herkent standaard dat cookies moeten worden opgeslagen op `example.com`, zelfs op URL&#39;s met veel subdomeinen.
 
-## Domeinperioden van de eerste partij in het opstarten van het Adobe Experience Platform
+## Domeinperioden van de eerste partij bij het starten van het Adobe Experience Platform
 
-Domeinperioden van de eerste partij is een veld onder de [!UICONTROL Cookies] accordeon tijdens het configureren van de extensie Adobe Analytics.
+Domeintermijnen van de eerste partij is een gebied onder de [!UICONTROL Cookies] accordeon wanneer het vormen van de uitbreiding van Adobe Analytics.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
