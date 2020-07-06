@@ -1,17 +1,22 @@
 ---
-title: Serienummering voor gebeurtenissen
+title: Gebeurtenisserialisatie
 description: Help metrische gegevens op uw site te dupliceren.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 1%
 
 ---
 
 
 # Serienummering voor gebeurtenis-id
 
-De rangschikking van gebeurtenissen is het proces om maatregelen uit te voeren om dubbele gebeurtenissen te verhinderen in Analytics rapportering in te gaan. Het dupliceren van gebeurtenissen is belangrijk in gevallen waarin bezoekers de pagina niet willen laten opblazen door maateenheden.
+De rangschikking van gebeurtenissen is het proces om maatregelen uit te voeren om dubbele gebeurtenissen te verhinderen Analytics rapportering in te gaan. Het dupliceren van gebeurtenissen is belangrijk in gevallen waarin bezoekers de pagina niet willen laten opblazen door maateenheden.
 
->[!NOTE] Gegevensbronnen ondersteunen geen serialisatie van gebeurtenissen of deduplicatie.
+>[!NOTE]
+>
+>Gegevensbronnen ondersteunen geen serialisatie van gebeurtenissen of deduplicatie.
 
 ## Gebeurtenisserienummering instellen
 
@@ -23,17 +28,19 @@ Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niv
 * De-duplicatie gebeurt wereldwijd voor alle bezoekers. Als bezoeker A `event1:ABC` dan ook bezoeker B verzendt `event1:ABC`, negeert Adobe het tweede exemplaar van bezoeker B.
 * De-duplicatie verloopt niet. Als een bezoeker `event1:ABC` dan twee jaar later terugkomt en `event1:ABC` opnieuw verzendt, negeert Adobe het tweede exemplaar.
 
->[!TIP] Als u de duplicatie van de [`purchase`](event-purchase.md) gebeurtenis wilt opheffen, gebruikt u de [`purchaseID`](../purchaseid.md) variabele.
+>[!TIP]
+>
+>Als u de duplicatie van de [`purchase`](event-purchase.md) gebeurtenis wilt opheffen, gebruikt u de [`purchaseID`](../purchaseid.md) variabele.
 
-## Gebeurtenis-id&#39;s gebruiken in Adobe Experience Platform Starten
+## Gebeurtenis-id&#39;s gebruiken in Adobe Experience Platform starten
 
-U kunt het veld voor de gebeurtenis-id instellen tijdens het configureren van de extensie Analytics (globale variabelen) of als een handeling in een regel.
+U kunt het veld met de gebeurtenis-id instellen tijdens het configureren van de Analytics-extensie (globale variabelen) of als een handeling in een regel.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 4. Klik onder [!UICONTROL Actions]op een bestaande [!UICONTROL Adobe Analytics - Set Variables] handeling of klik op het pictogram ‘+’.
-5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en stel het [!UICONTROL Action Type] in op [!UICONTROL Set Variables].
+5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en [!UICONTROL Action Type] op [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL Events] sectie waar elke gebeurtenis een [!UICONTROL Event ID] veld bevat.
 
 Geldige waarden zijn alfanumerieke tekens met een lengte tot 20 bytes.
