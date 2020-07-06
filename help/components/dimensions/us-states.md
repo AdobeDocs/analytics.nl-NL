@@ -2,7 +2,7 @@
 title: VS-staten
 description: De Amerikaanse staat van de bezoeker.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -18,7 +18,9 @@ De dimensie &#39;Amerikaanse staat&#39; meldt de staat van de bezoeker in de Ver
 
 Deze dimensie verwijst naar interne opzoekregels van Adobe. De raadplegingswaarde is gebaseerd op het IP adres dat met de klap wordt verzonden. Adobe werkt samen met [Digital Element](https://www.digitalelement.com/) om zoekopdrachten tussen IP-adres en land te onderhouden. Deze dimensie werkt uit de doos voor alle implementaties.
 
-> [!TIP] Als uw organisatie strenge privacyverordeningen volgt waar het [verduisteren van IP adres](/help/admin/admin/general-acct-settings-admin.md) niet genoeg is, kunt u verzoeken om geolocatiegegevens volledig onbruikbaar te maken. Neem contact op met de klantenservice met de id van de rapportsuite en verzoek &#39;Geography&#39; uit te schakelen voor de rapportsuite.
+>[!TIP]
+>
+>Als uw organisatie strenge privacyverordeningen volgt waar het [verduisteren van IP adres](/help/admin/admin/general-acct-settings-admin.md) niet genoeg is, kunt u verzoeken om geolocatiegegevens volledig onbruikbaar te maken. Neem contact op met de klantenservice met de id van de rapportsuite en verzoek &#39;Geography&#39; uit te schakelen voor de rapportsuite.
 
 ## Dimensiewaarden
 
