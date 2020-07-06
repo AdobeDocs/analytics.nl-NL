@@ -5,7 +5,10 @@ title: Hoe de Gegevensbronnen werken
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 5%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Informatie over hoe Adobe toegang biedt tot gegevensbronnen.
 
->[!NOTE] Na verzending via de gegevensbronnen zijn geïmporteerde gegevens niet meer te onderscheiden van gegevens die met andere methoden zijn verzameld (JavaScript-baken, ActionSource, API voor gegevensinvoeging, enz.). U kunt de gegevens niet verwijderen nadat u deze hebt geïmporteerd.
+>[!NOTE]
+>
+>Na verzending via de gegevensbronnen zijn geïmporteerde gegevens niet meer te onderscheiden van gegevens die met andere methoden zijn verzameld (JavaScript-baken, ActionSource, API voor gegevensinvoeging, enz.). U kunt de gegevens niet verwijderen nadat u deze hebt geïmporteerd.
 
 ![](assets/data_sources_overview.png)
 
