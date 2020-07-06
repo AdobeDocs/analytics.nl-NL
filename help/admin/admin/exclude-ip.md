@@ -4,7 +4,10 @@ title: Exclusief door IP Adres
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '547'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +18,9 @@ U kunt gegevens van specifieke IP adressen, zoals interne website activiteiten, 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclude by IP]**
 
->[!NOTE] Hits die door IP adres worden uitgesloten worden gefactureerd als [servervraag](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html).
+>[!NOTE]
+>
+>Hits die door IP adres worden uitgesloten worden gefactureerd als [servervraag](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html).
 
 ## Uitsluiten op cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -27,14 +32,16 @@ Met deze functie kunnen u en uw collega&#39;s uw site bezoeken zonder uw verkeer
 |--- |--- |
 | [!UICONTROL Add CNAME] | Hiermee genereert u een uitschakelkoppeling waarmee u uw domein kunt uitsluiten. Neem voor hulp contact op met de ondersteunde gebruikers van uw bedrijf. <br>Uw verkeer kan van het melden in uw rapportreeksen worden uitgesloten door de optieoutpagina van uw bedrijf te bezoeken en uw browser van meting uit te sluiten. <br>Als uw implementatie cookies van derden gebruikt, is de pagina die u niet wilt gebruiken [hier](https://democorp.112.2o7.net/optout.html?locale=en_US&amp;popup=true). |
 
->[!NOTE] Uitsluiting door computer werkt alleen als:
+>[!NOTE]
+>
+>Uitsluiting door computer werkt alleen als:
 >
 > * Via hetzelfde werkstation hebt u toegang tot uw website.
 > * De cookies worden ingeschakeld in de browser die u gebruikt.
 > * Uw cookies worden niet verwijderd. Als cookies worden verwijderd, moet u uzelf opnieuw uitsluiten.
 
 
-## Exclusief door IP Adres {#section_609FB6461529409D840111A32FEF5C3D}
+## Exclude by IP Address {#section_609FB6461529409D840111A32FEF5C3D}
 
 Een IP-adres is een internetadres. Alle gebruikers van Internet worden toegewezen numerieke IP adressen (typisch door de dienstverleners van Internet) die effectief als elektronische herkenningstekens handelen.
 
@@ -46,7 +53,7 @@ U kunt jokertekenindicatoren (*) gebruiken om een bereik van adressen uit te slu
 
 U kunt gegevensinzameling van specifieke IP adressen via een firewall ook blokkeren.
 
-Zie de [IP Adressen die in het artikel van de Wolk](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) van de Ervaring worden gebruikt.
+Zie de [IP Adressen die in het artikel van Experience Cloud](https://helpx.adobe.com/nl/analytics/kb/adobe-ip-addresses.html) worden gebruikt.
 
 ## Gevolgen van IP Obfuscation {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
