@@ -2,7 +2,10 @@
 title: maxDelay
 description: Bepaal de maximumhoeveelheid tijd die AppMeasurement op een reactie van DFA wacht alvorens een beeldverzoek te verzenden.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +16,7 @@ De `s.maxDelay` variabele wordt gebruikt in de DFA gegevensschakelaar om de onde
 
 Deze variabele wordt alleen gebruikt in implementaties met behulp van de DFA-gegevensconnector. Zelfs bij implementaties die DFA gebruiken, is deze variabele optioneel.
 
-## Maximale vertraging bij starten van Adobe Experience Platform
+## Maximale vertraging bij starten Adobe Experience Platform
 
 Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
@@ -27,8 +30,10 @@ s.maxDelay = 750;
 
 ## Eigenschappen
 
-* Verhoog de wachttijd om meer DFA-gegevens te verzamelen, maar vergroot ook het risico dat gegevens van Analytics worden verloren. De gegevens van de treffer voor Analytics-gegevens gaan verloren wanneer de gebruiker tijdens de `s.maxDelay` periode bij de pagina vandaan navigeert.
-* Het verminderen van wachttijd vermindert het risico van het verliezen van Analytics klapgegevens, maar kan de hoeveelheid DFA gegevens verminderen die met klapgegevens worden verzonden.
+* Verhoog de wachttijd om meer DFA-gegevens te verzamelen, maar vergroot ook het risico op gegevensverlies bij een Analytics-hit. Analytics-raakgegevens gaan verloren wanneer de gebruiker tijdens de `s.maxDelay` periode van de pagina af navigeert.
+* Als u de wachttijd verkort, loopt u minder risico dat raakgegevens van Analytics verloren gaan, maar wordt minder DFA-gegevens verzonden met raakgegevens.
 * Het verliezen van DFA integratiegegevens gebeurt wanneer de `s.maxDelay` periode niet genoeg tijd voor de gastheer DFA aanpast om te antwoorden.
 
->[!NOTE] Adobe heeft geen controle over de responstijd van DFA. Raadpleeg de DFA-accountbeheerder van uw organisatie als u consistente problemen ziet, zelfs nadat u de maximale vertragingsperiode binnen een redelijk tijdsbestek hebt gebracht.
+>[!NOTE]
+>
+>Adobe heeft geen controle over de responstijd van DFA. Raadpleeg de DFA-accountbeheerder van uw organisatie als u consistente problemen ziet, zelfs nadat u de maximale vertragingsperiode binnen een redelijk tijdsbestek hebt gebracht.
