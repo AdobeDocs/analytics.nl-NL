@@ -5,7 +5,10 @@ title: Tijdstempels optioneel gebruiken
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,9 @@ Tijdstempels optioneel is de standaardinstelling voor alle nieuwe rapportsuites.
 * Verzend tijdstempelgegevens van een mobiele app naar een algemene rapportsuite.
 * Upgrade apps om tijdstempels te gebruiken zonder dat u een nieuwe rapportsuite hoeft te maken.
 
->[!NOTE] Tijdstempels Optioneel is de standaardinstelling voor alle nieuwe rapportsuites die worden gegenereerd op basis van een sjabloon. De nieuwe rapportreeksen die van een bestaande rapportreeks worden gekopieerd zullen montages van origineel erven.
+>[!NOTE]
+>
+>Tijdstempels Optioneel is de standaardinstelling voor alle nieuwe rapportsuites die worden gegenereerd op basis van een sjabloon. De nieuwe rapportreeksen die van een bestaande rapportreeks worden gekopieerd zullen montages van origineel erven.
 
 Zie [Tijdstempels Optioneel](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/timestamp-optional.html) voor aanvullende instellingsinformatie.
 
@@ -52,7 +57,9 @@ Met Tijdstempels optioneel kunt u meerdere rapportsuites integreren en rapporter
 
 Het combineren van gegevens in een globale rapportreeks kan op veelvoudige manieren, met inbegrip van multi-suite het etiketteren, de regels van Vista, en ingevoerde partijdossiers uit off-line bronnen worden gedaan.
 
->[!IMPORTANT] Plan zorgvuldig het ontwerp voor elke reeks componentengegevens zodat de combinatie in een globale rapportreeks steek houdt.
+>[!IMPORTANT]
+>
+>Plan zorgvuldig het ontwerp voor elke reeks componentengegevens zodat de combinatie in een globale rapportreeks steek houdt.
 
 ## Aanbevolen procedures bij gebruik van tijdstempels {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
