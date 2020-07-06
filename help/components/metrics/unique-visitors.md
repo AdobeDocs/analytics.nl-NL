@@ -2,7 +2,7 @@
 title: Unieke bezoekers
 description: Het aantal unieke personen (of apparaten).
 translation-type: tm+mt
-source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 2%
@@ -34,7 +34,9 @@ Deze metrische waarde telt het aantal unieke bezoeker-id&#39;s voor een bepaalde
 | 4 | `fid` | Bezoeker heeft een bestaande [`s_fid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) cookie, of als `aid` en `mid` niet kunnen worden ingesteld. |
 | 5 | IP Adres, de Agent van de Gebruiker, IP van de Gateway Adres | Laatste middel om een unieke bezoeker te identificeren als de browser van de bezoeker geen cookies accepteert. |
 
->[!NOTE] Elke Analytics-bezoeker-id is gekoppeld aan een profiel op de servers van Adobe. Deze bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
+>[!NOTE]
+>
+>Elke Analytics-bezoeker-id is gekoppeld aan een profiel op de servers van Adobe. Deze bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
 
 ## Gedrag dat van invloed is op het aantal unieke bezoekers
 
