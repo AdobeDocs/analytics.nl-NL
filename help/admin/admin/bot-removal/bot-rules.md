@@ -5,7 +5,10 @@ title: Bot Rules - overzicht
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1309'
+ht-degree: 0%
 
 ---
 
@@ -37,19 +40,21 @@ Adobe kan de gedetailleerde IAB-bonenlijst niet aan klanten aanbieden, maar u ku
 
 ## Aangepaste botregels
 
->[!NOTE] In de gebruikersinterface kunnen 500 regels handmatig worden gedefinieerd. Nadat deze limiet is bereikt, moeten de regels bulksgewijs worden beheerd via de opties voor het importeren van bestanden en het exporteren van regels.
+>[!NOTE]
+>
+>In de gebruikersinterface kunnen 500 regels handmatig worden gedefinieerd. Nadat deze limiet is bereikt, moeten de regels bulksgewijs worden beheerd via de opties voor het importeren van bestanden en het exporteren van regels.
 
 Met aangepaste botregels kunt u op verkeer gebaseerde voorwaarden die u definieert, filteren.
 
 De regels voor aangepaste bones worden gedefinieerd met behulp van de volgende voorwaardetypen:
 
-* Gebruikersagent
+* User Agent
 * IP-adres
 * IP-bereik
 
 Meerdere voorwaarden kunnen voor één regel worden gedefinieerd. Meerdere voorwaarden komen overeen met &#39;of&#39;. Bijvoorbeeld, als u een waarde voor de Agent van de Gebruiker en IP Adres verstrekt, wordt het verkeer beschouwd als zowel verkeer als één van beide voorwaarde wordt voldaan aan.
 
-### Gebruikersagent
+### User Agent
 
 Een voorwaarde van de Agent van de Gebruiker controleert de waarde van de gebruikersagent om te zien of controleert het **[!UICONTROL starts with]** of **[!UICONTROL contains]** het gespecificeerde koord. Als deze optie **[!UICONTROL contains]** is geselecteerd, komt de subtekenreeks overeen als deze ergens in de gebruikersagent voorkomt.
 
@@ -121,7 +126,9 @@ VISTA-regels worden toegepast na beide regels (zie [Verwerkingsvolgorde).](/help
 
 **Bezoek met hoge frequentie verwerken:** Als er tijdens een bezoek meer dan 100 bezoekers zijn, bepaalt de rapportage of de tijd van het bezoek in seconden minder is dan of gelijk is aan het aantal bezoekers. In deze situatie, die te wijten is aan de kosten van het verwerken van lange, intensieve bezoeken, begint de rapportage opnieuw met een nieuw bezoek. Hoog-raakbezoeken worden typisch veroorzaakt door beide aanvallen en worden niet beschouwd als normaal bezoekersbladeren.
 
->[!NOTE] Hits gemarkeerd als *`bots`* worden gefactureerd als [serveraanroepen.](/help/admin/c-server-call-usage/overage-overview.md)
+>[!NOTE]
+>
+>Hits gemarkeerd als *`bots`* worden gefactureerd als [serveraanroepen.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Gevolgen van IP Obfuscatie op bot filtreren {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
