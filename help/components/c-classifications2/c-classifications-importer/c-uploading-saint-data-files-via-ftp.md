@@ -1,20 +1,23 @@
 ---
 description: Stappen die beschrijven hoe u gegevensbestanden kunt uploaden via FTP.
 subtopic: Classifications
-title: FTP importeren
+title: FTP-import
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 1%
 
 ---
 
 
-# FTP importeren
+# FTP-import
 
 Stappen die beschrijven hoe u gegevensbestanden kunt uploaden via FTP.
 
-## FTP importeren {#concept_2F965BE873254546A61FB755F25299FD}
+## FTP-import {#concept_2F965BE873254546A61FB755F25299FD}
 
 Stappen die beschrijven hoe u gegevensbestanden kunt uploaden via FTP.
 
@@ -31,9 +34,11 @@ Na een eerste upload in een rapportsuite (voor een bepaalde variabele of een bep
 
 Elke nieuwe sleutelwaarde die u uploadt, telt mee voor uw unieke waarden voor die variabele voor de maand.
 
-Als u uw uniques voor de maand hebt overschreden, zult u de overeenkomstige classificatiegegevens voor de uniques niet zien overschrijden waarden in rapportering. U kunt die classificaties in of gegevenspakhuis of ad hoc analyse zien.
+Als u uw uniques voor de maand hebt overschreden, zult u de overeenkomstige classificatiegegevens voor de uniques niet zien overschrijden waarden in rapportering. U kunt deze classificaties zien in data warehouse of ad hoc analysis.
 
->[!NOTE] De tijd die nodig is om een bestand met classificatiegegevens te verwerken, is afhankelijk van de grootte van het bestand en het huidige aantal bestanden dat al door de servers van Adobe wordt verwerkt. De verwerking van gegevensbestanden duurt gewoonlijk niet langer dan 72 uur.
+>[!NOTE]
+>
+>De tijd die nodig is om een bestand met classificatiegegevens te verwerken, is afhankelijk van de grootte van het bestand en het huidige aantal bestanden dat al door de servers van Adobe wordt verwerkt. De verwerking van gegevensbestanden duurt gewoonlijk niet langer dan 72 uur.
 
 Maak een FTP-account voordat u gegevens uploadt via FTP. Zie [Een FTP-account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)maken voor meer informatie.
 
