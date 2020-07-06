@@ -1,37 +1,42 @@
 ---
-title: Componentondersteuning in Data Warehouse
-description: Leer welke extra afmetingen en metriek beschikbaar in het Warehouse van Gegevens zijn en wat niet wordt gesteund.
+title: Componentondersteuning in Data warehouse
+description: Leer welke extra dimensies en metriek beschikbaar zijn in Data warehouse en wat niet wordt gesteund.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 4%
 
 ---
 
 
-# Componentondersteuning in Data Warehouse
+# Componentondersteuning in Data warehouse
 
-De unieke verwerkingsarchitectuur van het Data Warehouse maakt het mogelijk dat bepaalde componenten die gewoonlijk niet beschikbaar zijn in andere mogelijkheden van Adobe Analytics, beschikbaar zijn. Door zijn unieke architectuur, zijn sommige componenten niet beschikbaar voor gebruik in of rapporten of segmenten. Gebruik deze pagina om te begrijpen wat u kunt gebruiken en wat niet.
+Bij unieke Data warehouse-verwerkingsarchitectuur zijn bepaalde componenten niet standaard beschikbaar in Adobe Analytics. Door zijn unieke architectuur, zijn sommige componenten niet beschikbaar voor gebruik in of rapporten of segmenten. Gebruik deze pagina om te begrijpen wat u kunt gebruiken en wat niet.
 
-## Componenten die uniek zijn voor Data Warehouse
+## Componenten die uniek zijn voor Data warehouse
 
-Sommige dimensies en metriek kunnen worden gebruikt in Data Warehouse, maar zijn niet beschikbaar met behulp van andere mogelijkheden in Adobe Analytics.
+Sommige dimensies en meetgegevens kunnen worden gebruikt in Data warehouse, maar zijn niet beschikbaar met behulp van andere mogelijkheden in Adobe Analytics.
 
 ### Exclusief ondersteunde afmetingen
 
-* Experience Cloud ID: Voor implementaties die de dienst van identiteitskaart van de Wolk van de Ervaring gebruiken (ECID), een aantal met 128 bits dat uit twee samengevoegde aantallen bestaat 64 bits die aan 19 cijfers worden toegevoegd.
+* Experience Cloud-id: Voor implementaties die de Experience Cloud ID Service (ECID) gebruiken, een 128-bits aantal dat uit twee samengevoegde 64-bits aantallen bestaat die aan 19 cijfers worden toegevoegd.
 * Pagina-URL: De pagina-URL waarop de treffer heeft plaatsgevonden.
 * Aankoop-id&#39;s: Unieke id voor een aankoop, ingesteld met de variabele purchaseID.
 * Bezoeker-id: Verschaft de unieke id voor de bezoeker. Deze waarde is gelijk aan de samengevoegde waarde van `visid_high` en `visid_low` kolommen in gegevensfeeds. Zie [Gegevens kolomverwijzing](../analytics-data-feed/c-df-contents/datafeeds-reference.md) onder Gegevensfeeds voor meer informatie.
 
 ### Uitsluitend ondersteunde cijfers
 
-* Bezoeken: Deze metrische waarde in de context van Data Warehouse sluit niet-permanente cookie bezoeken uit.
-* Bezoeken - Alle bezoekers: Deze metrische waarde in de context van het Pakhuis van Gegevens heeft dichter pariteit met de bezoeken metrisch in andere hulpmiddelen binnen de Analytics van Adobe.
+* Bezoeken: Deze meetmethode in het kader van Data warehouse sluit niet-permanente cookiebezoeken uit.
+* Bezoeken - Alle bezoekers: Deze maatstaf in de context van Data warehouse is meer gelijk aan de metrische bezoeken in andere gereedschappen in Adobe Analytics.
 
-## Componenten die niet worden ondersteund in Data Warehouse
+## Componenten niet ondersteund in Data warehouse
 
-Sommige dimensies en metriek worden niet ondersteund in Data Warehouse.
+Sommige afmetingen en meetwaarden worden niet ondersteund in Data warehouse.
 
->[!NOTE] Als een afmeting of metrisch niet in het Pakhuis van Gegevens wordt gesteund, worden de segmenten die deze componenten gebruiken ook niet gesteund. Controleer altijd de productcompatibiliteit wanneer u een segment maakt of bewerkt.
+>[!NOTE]
+>
+>Als een afmeting of metrisch niet in Data warehouse wordt gesteund, worden de segmenten die deze componenten gebruiken ook niet gesteund. Controleer altijd de productcompatibiliteit wanneer u een segment maakt of bewerkt.
 
 ### Afmetingen niet ondersteund
 
@@ -50,7 +55,7 @@ Sommige dimensies en metriek worden niet ondersteund in Data Warehouse.
    * Alle invoerafmetingen, met uitzondering van invoerpagina
    * Alle afmetingen bij afsluiten, behalve Pagina afsluiten en Koppeling afsluiten
    * Hit Depth
-   * Geretourneerde frequentie
+   * Retourfrequentie
    * Tijd voorafgaand aan gebeurtenis
    * Tijd besteed op pagina - Emmerd
    * Tijd besteed per bezoek - Emmerd
@@ -68,8 +73,8 @@ Sommige dimensies en metriek worden niet ondersteund in Data Warehouse.
 
 * Sommige op plakken gebaseerde metriek, die omvatten:
    * Bounces
-   * Berichten
-   * Afsluiten
-   * Opnieuw laden
-   * Enkelvoudige toegang
+   * Geopend
+   * Gesloten
+   * Opnieuw geladen
+   * Eenmalige toegang
    * Metrische waarden voor &#39;tijd besteed&#39;
