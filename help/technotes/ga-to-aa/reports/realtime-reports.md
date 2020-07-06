@@ -2,22 +2,25 @@
 title: Real-time rapporten in Adobe Analytics
 description: Leer hoe u real-time rapporten kunt genereren in Adobe Analytics, gericht op gebruikers die meer vertrouwd zijn met Google Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '955'
+ht-degree: 0%
 
 ---
 
 
-# Real-time rapporten
+# Realtimerapporten
 
 Real-time rapporten laten zien wat er momenteel op uw site gebeurt. Deze typen rapporten zijn vooral handig als u direct resultaten wilt zien van updates die u op uw site uitvoert. Bijvoorbeeld, kan een bedrijf dat een verkoop op Zwarte Vrijdag in werking stelt verkeer aan specifieke pagina&#39;s meten en bepalen welke verkoop om voorrang te geven op prestaties op dat ogenblik.
 
 ![Rapport in realtime](/help/technotes/ga-to-aa/assets/realtime.png)
 
-Real-time rapporten zijn één van de weinige eigenschappen die nog niet aan de Werkruimte van de Analyse zijn geïntroduceerd. Gebruik Rapporten en Analyses om deze gegevens te verkrijgen. Zij vereisen één of andere eenvoudige configuratie beginnen gegevens te verzamelen.
+Real-time rapporten zijn een van de weinige functies die nog niet in Analysis Workspace zijn geïntroduceerd. Gebruik Rapporten en Analytics om deze gegevens te verkrijgen. Zij vereisen één of andere eenvoudige configuratie beginnen gegevens te verzamelen.
 
 Om de pagina van de rapportconfiguratie in real time (vereiste toestemmingen Admin) te bereiken:
 
-1. Klik op [!UICONTROL Reports] de koptekstnavigatie Adobe Analytics.
+1. Klik [!UICONTROL Reports] in de koptekstnavigatie van Adobe Analytics.
 2. Klik in het linkermenu op *[!UICONTROL Site Metrics]* > *[!UICONTROL Real-Time]*.
 3. Als de rapportreeks nog niet toegelaten real time heeft, wordt een bericht getoond met een verbinding om de rapportreeks te vormen. Als de rapportreeks in real time toegelaten heeft, klik [!UICONTROL Configure] dichtbij de titel van het rapport in real time.
 
@@ -63,13 +66,15 @@ In real time inhoud vertelt u welke pagina&#39;s uw bezoekers momenteel bekijken
 
 ## Gebeurtenissen in realtime
 
-Gebeurtenissen in real time vertellen u welke gebeurtenissen het meest op uw plaats gebeuren. In Google Analytics legt een gebeurtenis vast hoe vaak een specifieke actie (meestal een actie die geen verband houdt met een paginaweergave) is uitgevoerd. GA-gebeurtenissen worden verzonden met een categorie, label en handeling. In Adobe Analytics zijn aangepaste gebeurtenissen metriek met vriendelijke namen in de beheerconsole die naast elke gewenste dimensie kan worden geanalyseerd. Als u op zoek bent naar een dimensie in Adobe Analytics die vergelijkbaar is met Google Analytics-gebeurtenissen, kunt u de dimensie Aangepaste koppeling toepassen. Deze wordt vaak gebruikt als een &#39;catch-all&#39; voor het verzamelen van gegevens die geen verband houden met paginaweergaven (naast Koppelingen afsluiten - voor Afsluiten - en Koppelingen downloaden - voor Downloads).
+Gebeurtenissen in real time vertellen u welke gebeurtenissen het meest op uw plaats gebeuren. In Google Analytics legt een gebeurtenis vast hoe vaak een specifieke actie (meestal een actie die geen verband houdt met een paginaweergave) is uitgevoerd. GA-gebeurtenissen worden verzonden met een categorie, label en handeling. In Adobe Analytics zijn aangepaste gebeurtenissen metriek met vriendelijke namen in de beheerconsole die naast elke gewenste dimensie kan worden geanalyseerd. Als u een dimensie zoekt in Adobe Analytics die vergelijkbaar is met Google Analytics-gebeurtenissen, kunt u de dimensie Aangepaste koppeling toepassen. Deze wordt vaak gebruikt als een &#39;catch-all&#39; voor het verzamelen van gegevens die geen verband houden met paginaweergaven (naast Koppelingen afsluiten - voor Afsluiten - en Koppelingen downloaden - voor Downloads).
 
->[!NOTE] Wanneer het gebruiken van douanegebeurtenissen in rapporten in real time, moet de afmetingswaarde in de zelfde klap worden bepaald zoals de douanegebeurtenis. Als u bijvoorbeeld een aangepaste gebeurtenis &#39;Registrations&#39; weergeeft voor de dimensie &#39;Referring Domain&#39;, worden er geen gegevens geretourneerd zonder aanvullende implementatie. Aangezien het verwijzende domein slechts op de eerste slag verschijnt, en een douanegebeurtenis typisch later in het bezoek zou verschijnen, kunnen de gegevens niet in rapporten in real time worden geassocieerd. Deze gegevens zijn beschikbaar met Analyse-werkruimte met standaardverwerkingslatentie (doorgaans 30-90 minuten).
+>[!NOTE]
+>
+>Wanneer het gebruiken van douanegebeurtenissen in rapporten in real time, moet de afmetingswaarde in de zelfde klap worden bepaald zoals de douanegebeurtenis. Als u bijvoorbeeld een aangepaste gebeurtenis &#39;Registrations&#39; weergeeft voor de dimensie &#39;Referring Domain&#39;, worden er geen gegevens geretourneerd zonder aanvullende implementatie. Aangezien het verwijzende domein slechts op de eerste slag verschijnt, en een douanegebeurtenis typisch later in het bezoek zou verschijnen, kunnen de gegevens niet in rapporten in real time worden geassocieerd. Deze gegevens zijn beschikbaar in Analysis Workspace met standaard verwerkingslatentie, meestal 30-90 minuten.
 
 ## Conversies in realtime
 
-In real time omzettingen presenteren gegevens verschillend tussen platforms. De doelen in Google Analytics zijn te vergelijken met metriek- en succesgebeurtenissen in Adobe Analytics. U kunt de meeste metriek in de Analytics van Adobe (zowel douanemetriek zoals succesgebeurtenissen als standaardmetriek zoals opbrengst) in Echte - tijd Rapporten gebruiken. Net als bij Google Analytics kunt u ook dimensies zoals productnaam, trackingcode en campagneprestaties toepassen in real-time rapporten.
+In real time omzettingen presenteren gegevens verschillend tussen platforms. De doelstellingen in Google Analytics zijn te vergelijken met metriek- en succesgebeurtenissen in Adobe Analytics. U kunt de meeste metriek in Adobe Analytics (zowel douanemetriek zoals succesgebeurtenissen als standaardmetriek zoals opbrengst) in Echte - tijdrapporten gebruiken. Net als Google Analytics kunt u ook dimensies zoals productnaam, trackingcode en campagneprestaties toepassen in realtime rapporten.
 
 1. Klik [!UICONTROL Configure] dichtbij de titel van het rapport in real time.
 2. Onder één van de rapportgroeven in real time:
@@ -79,4 +84,6 @@ In real time omzettingen presenteren gegevens verschillend tussen platforms. De 
    * Voor de twee secundaire dimensies, gebruik de aangewezen extra gegevens die u voor dit verkeer wilt zien. Secundaire afmetingen hoeven niet specifiek te zijn voor conversies.
 3. Klik op [!UICONTROL Save and View Report].
 
->[!NOTE] Als het gebruiken van gebeurtenissen buiten Instanties, zoals Orders, zorg ervoor dat uw implementatie de dimensie en de gebeurtenis op de zelfde klap bepaalt. Als de afmetingen en de gebeurtenissen niet op de zelfde klap in brand steken, zijn die gegevens beschikbaar in de Werkruimte van de Analyse gebruikend standaardverwerkingslatentie, die typisch 30-90 minuten is.
+>[!NOTE]
+>
+>Als het gebruiken van gebeurtenissen buiten Instanties, zoals Orders, zorg ervoor dat uw implementatie de dimensie en de gebeurtenis op de zelfde klap bepaalt. Als de afmetingen en de gebeurtenissen niet op de zelfde klap in brand steken, zijn die gegevens beschikbaar in Analysis Workspace gebruikend standaardverwerkingslatentie, die typisch 30 tot 90 minuten is.
