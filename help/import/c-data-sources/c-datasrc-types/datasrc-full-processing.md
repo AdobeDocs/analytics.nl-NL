@@ -5,17 +5,19 @@ title: Volledige verwerking
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
 
 # Volledige verwerking
 
->[!NOTE] Adobe raadt klanten aan de API ( [Bulk Data Insertion) (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) te gebruiken in plaats van volledige gegevensbronnen voor verwerking. Volledige verwerkingsgegevensbronnen worden in de toekomst afgekeurd.
+>[!NOTE]
+>
+>Adobe raadt klanten aan de API ( [Bulk Data Insertion) (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) te gebruiken in plaats van volledige gegevensbronnen voor verwerking. Volledige verwerkingsgegevensbronnen worden in de toekomst afgekeurd.
 
 Gegevensbronnen ondersteunen de volgende variabelen bij het verwerken van gegevens als een standaardserveraanroep (Algemeen > Volledige verwerking).
 
@@ -42,13 +44,13 @@ Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>campagne </p> </td> 
-   <td colname="col2"> <p>campagne </p> </td> 
+   <td colname="col1"> <p>campaign </p> </td> 
+   <td colname="col2"> <p>campaign </p> </td> 
    <td colname="col3"> <p>Code voor bijhouden van conversiecampagne. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>kanaal </p> </td> 
-   <td colname="col2"> <p>kanaal </p> </td> 
+   <td colname="col1"> <p>channel </p> </td> 
+   <td colname="col2"> <p>channel </p> </td> 
    <td colname="col3"> <p>Kanaaltekenreeks (bijvoorbeeld Sportsectie). </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +59,7 @@ Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example
    <td colname="col3"> <p>Valutacode van de opbrengst (bijvoorbeeld, USD). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>tijdstempel </p> </td> 
+   <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
    <td colname="col3"> <p>Gebruik de datumnotatie ISO 8601 van <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (bijvoorbeeld <code> 2013-09-01T12:00:00-07:00 </code>) of Unix Time Format (het aantal seconden dat is verstreken sinds 1 januari 1970). </p> </td> 
   </tr> 
@@ -67,8 +69,8 @@ Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example
    <td colname="col3"> <p>Naam conversie van var. U kunt maximaal 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>) hebben. </p> <p>U kunt de eVar naam (eVar12) of een vriendschappelijke naam (Advertentiecampagne 3) specificeren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>gebeurtenissen </p> </td> 
-   <td colname="col2"> <p>gebeurtenissen </p> </td> 
+   <td colname="col1"> <p>events </p> </td> 
+   <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>De koord van gebeurtenissen, geformatteerd gebruikend de zelfde syntaxis zoals de <a href="https://docs.adobe.com/content/help/nl-NL/analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variabele. </p> <p>Bijvoorbeeld: </p> 
     <code>
       scAdd,event1,event7 
@@ -115,8 +117,8 @@ Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example
    <td colname="col3"> <p>Pagina-URL (bijvoorbeeld <code>https://www.mysite.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>producten </p> </td> 
-   <td colname="col2"> <p>producten </p> </td> 
+   <td colname="col1"> <p>products </p> </td> 
+   <td colname="col2"> <p>products </p> </td> 
    <td colname="col3"> <p>Productlijst (bijvoorbeeld <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
@@ -235,7 +237,7 @@ De volgende tabel bevat verkeersvariabelen die automatisch worden ingevuld wanne
    <td colname="col2"> <p>Eigenschapswaarden voor uw eigenschappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>referentie </p> </td> 
+   <td colname="col1"> <p>referrer </p> </td> 
    <td colname="col2"> <p>URL voor paginaverwijzing. </p> </td> 
   </tr> 
   <tr> 
@@ -251,7 +253,7 @@ De volgende tabel bevat verkeersvariabelen die automatisch worden ingevuld wanne
    <td colname="col2"> <p>De tijdzone van de bezoeker verschuift van GMT in uren (bijvoorbeeld -8). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>bezoekerID </p> </td> 
+   <td colname="col1"> <p>visitorID </p> </td> 
    <td colname="col2"> <p>ID bezoeker. </p> </td> 
   </tr> 
  </tbody> 
