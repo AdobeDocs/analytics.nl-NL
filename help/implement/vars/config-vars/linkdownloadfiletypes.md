@@ -2,7 +2,10 @@
 title: linkDownloadFileTypes
 description: Bestandsextensies bepalen die automatisch worden bijgehouden als downloadkoppelingen.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 1%
 
 ---
 
@@ -13,11 +16,13 @@ Wanneer [`trackDownloadLinks`](trackdownloadlinks.md) deze optie is ingeschakeld
 
 Gebruik deze optie `linkDownloadFileTypes` om aan te passen welke bestandsextensies u wilt tellen als downloadkoppelingen.
 
->[!NOTE] Alleen de werkelijke klikken worden automatisch bijgehouden. De volgende typen koppelingen worden niet automatisch bijgehouden:
+>[!NOTE]
+>
+>Alleen de werkelijke klikken worden automatisch bijgehouden. De volgende typen koppelingen worden niet automatisch bijgehouden:
 >
 > * Het bestand wordt automatisch gedownload wanneer een pagina wordt geladen
 > * Downloads die na een omleiding teweegbrengen
-> * Klik met de rechtermuisknop en selecteer Doel opslaan als...
+> * Klik met de rechtermuisknop en selecteer &#39;Target opslaan als...&#39;
 > * Koppelingen waarin JavaScript wordt gebruikt, zoals `javascript:openLink()`
 >
 > 
@@ -25,9 +30,9 @@ Voor deze downloadtypen kunt u de [`tl()`](../functions/tl-method.md) methode ha
 
 Als een geklikte koppeling overeenkomt met zowel de afsluitings- als de downloadkoppelingscriteria, heeft het type downloadkoppeling prioriteit.
 
-## Extensies downloaden in Adobe Experience Platform Launch
+## Extensies downloaden bij starten van Adobe Experience Platform
 
-Download Extensions is een lijst met bestandsextensies met een veld waarmee u onder de accordeon meer items kunt toevoegen wanneer u de extensie Adobe Analytics configureert. [!UICONTROL Link Tracking]
+Download Extensions is een lijst met bestandsextensies met een veld waarmee u onder de [!UICONTROL Link Tracking] accordeon meer items kunt toevoegen wanneer u de Adobe Analytics-extensie configureert.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
