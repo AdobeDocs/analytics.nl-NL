@@ -2,7 +2,10 @@
 title: linkLeaveQueryString
 description: Staat het behoud van vraagkoorden in verbinding het volgen dimensies toe.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 1%
 
 ---
 
@@ -17,11 +20,13 @@ Als de informatie van het verbinden niet in URLs op uw plaats is, is het gebruik
 
 Inschakelen is van toepassing `linkLeaveQueryString` op alle afmetingen voor het bijhouden van koppelingen (inclusief aangepaste koppelingen, afsluitkoppelingen en downloadkoppelingen).
 
->[!TIP] Deze variabele heeft geen invloed op afmetingen buiten het bijhouden van koppelingen. Het beïnvloedt slechts douaneverbindingen, uitgangsverbindingen, en downloadverbindingen.
+>[!TIP]
+>
+>Deze variabele heeft geen invloed op afmetingen buiten het bijhouden van koppelingen. Het beïnvloedt slechts douaneverbindingen, uitgangsverbindingen, en downloadverbindingen.
 
-## URL-parameters behouden in Adobe Experience Platform Launch
+## URL-parameters behouden in Adobe Experience Platform starten
 
-[!UICONTROL Keep URL Parameters] is een selectievakje onder de [!UICONTROL Link Tracking] accordeon wanneer u de extensie Adobe Analytics configureert.
+[!UICONTROL Keep URL Parameters] is een selectievakje onder de [!UICONTROL Link Tracking] accordeon wanneer u de Adobe Analytics-extensie configureert.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
