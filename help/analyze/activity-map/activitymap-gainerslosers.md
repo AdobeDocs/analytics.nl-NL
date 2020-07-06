@@ -4,7 +4,10 @@ title: Aanpasbare overlays
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
 
@@ -13,9 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Met bedekkingen kunt u op meerdere manieren gegevensvisualisatie configureren, zodat u de populariteit van koppelingen op een pagina gemakkelijk kunt zien en begrijpen.
 
-Met bedekkingen kunt u rechtstreeks op de pagina op gegevens klikken. Dit is wat een visueel analysehulpmiddel zoals de Kaart van de Activiteit van hoofdzakelijk tabelvormige en grafische hulpmiddelen zoals Rapporten &amp; Analytics scheidt.
+Met bedekkingen kunt u rechtstreeks op de pagina op gegevens klikken. Dit is wat een visueel analysehulpmiddel zoals Activity Map van en vooral tabelvormige en grafische hulpmiddelen zoals Rapporten &amp; Analytics scheidt.
 
-Activiteitenkaart biedt drie typen overlays:
+Activity Map biedt drie typen overlays:
 
 * Verloopbedekking (Heatmap)
 * Bubble Overlay
@@ -43,11 +46,13 @@ Deze meetgegevens worden boven op de pagina-koppelingen geplaatst als een soort 
 
 De bedekking van de Bubbel toont de bedekkingsinhoud (metrisch, percentage, of rang) in een kleine callout bel.
 
-Bubbelbedekkingen worden weergegeven wanneer u deze bedekking selecteert in Overlaytype op de werkbalk. . Bubble-overlays worden weergegeven voor alle koppelingen die overeenkomen met de selectie in Instellingen [](/help/analyze/activity-map/activitymap-overlay-settings.md) Activiteitenkaart (bovenste 30, bovenste 50, alles..). Verloopbedekkingen worden weergegeven als deze optie niet is geselecteerd.
+Bubbelbedekkingen worden weergegeven wanneer u deze bedekking selecteert in Overlaytype op de werkbalk. . Bubble-overlays worden weergegeven voor alle koppelingen die overeenkomen met de selectie in [Activity Map-instellingen](/help/analyze/activity-map/activitymap-overlay-settings.md) (bovenste 30, bovenste 50, alles..). Verloopbedekkingen worden weergegeven als deze optie niet is geselecteerd.
 
 ![](assets/bubble_overlay.png)
 
->[!NOTE] Bubble-overlays voor submenu&#39;s worden alleen weergegeven wanneer u het submenu weergeeft:
+>[!NOTE]
+>
+>Bubble-overlays voor submenu&#39;s worden alleen weergegeven wanneer u het submenu weergeeft:
 >
 >![](assets/bubbles_submenu.png)>
 
