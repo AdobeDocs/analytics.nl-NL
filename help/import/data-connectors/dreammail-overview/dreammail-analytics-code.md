@@ -1,16 +1,19 @@
 ---
-description: Als u de methode voor het verzamelen van gegevens in de insteekmodule JavaScript hebt geselecteerd, kopieert u de volgende coderegels en voegt u deze toe aan de code Analytics op de pagina's.
+description: Als u de methode voor het verzamelen van JavaScript-plug-ingegevens hebt geselecteerd, kopieert u de volgende coderegels en voegt u deze toe aan de Analytics-code op uw pagina's.
 title: Code plug-in Analytics
 uuid: c75a6cd2-ee7a-4c2f-98a8-4618d0617b4f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 6%
 
 ---
 
 
 # Code plug-in Analytics{#analytics-plug-in-code}
 
-Als u de methode voor het verzamelen van gegevens in de insteekmodule JavaScript hebt geselecteerd, kopieert u de volgende coderegels en voegt u deze toe aan de code Analytics op de pagina&#39;s.
+Als u de methode voor het verzamelen van JavaScript-plug-ingegevens hebt geselecteerd, kopieert u de volgende coderegels en voegt u deze toe aan de Analytics-code op uw pagina&#39;s.
 
 `/*`
 
@@ -26,4 +29,6 @@ Als u de methode voor het verzamelen van gegevens in de insteekmodule JavaScript
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
->[!NOTE] De bovenstaande plug-in gaat ervan uit dat bepaalde aangepaste handelvariabelen (eVars) beschikbaar zijn. Als de variabelen die in de bovenstaande plug-in zijn opgegeven, niet beschikbaar zijn in de implementatie van Analytics, vervangt u deze door de variabelen die beschikbaar zijn.
+>[!NOTE]
+>
+>De bovenstaande plug-in gaat ervan uit dat bepaalde aangepaste handelvariabelen (eVars) beschikbaar zijn. Als de variabelen die in de bovenstaande plug-in zijn opgegeven, niet beschikbaar zijn in uw Analytics-implementatie, vervangt u deze door de variabelen die beschikbaar zijn.
