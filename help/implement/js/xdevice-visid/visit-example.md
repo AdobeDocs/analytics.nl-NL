@@ -6,18 +6,23 @@ title: Voorbeeld van de identificatie van bezoekers tussen apparaten
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 11%
 
 ---
 
 
 # Voorbeeld van de identificatie van bezoekers tussen apparaten
 
->[!IMPORTANT] Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie [Apparaatanalyse](/help/components/cda/cda-home.md) in de gebruikershandleiding voor componenten.
+>[!IMPORTANT]
+>
+>Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie Analytics [voor](/help/components/cda/cda-home.md) andere apparaten in de gebruikershandleiding voor componenten.
 
 In het volgende voorbeeld wordt getoond hoe bezoekersidentificatie op verschillende apparaten werkt met behulp van een voorbeeld van serveraanroepen die in een algemene klantinteractie worden verzonden.
 
-| Serveroproep | Handeling | Cookie bezoeker-id | Variabele voor bezoekersidentiteitskaart | Effectieve bezoeker-id | Paginanummer bezoeken | Bezoek nummer |
+| Serveroproep | Handeling | Cookie bezoeker-id | Variabele voor bezoekersidentiteitskaart | Effectieve bezoeker-id | Paginanummer bezoeken | Bezoeknummer |
 |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Een bezoeker klikt op een koppeling in een marketingbericht en bezoekt uw site vanaf de thuiscomputer. Deze bezoeker heeft uw site in het verleden nog zeven keer bezocht. | 1 | - | 1 | 1 | 8 |
 | 2-8 | Bezoek 7 extra pagina&#39;s op uw site. | 1 | - | 1 | 2-8 | 8 |
@@ -29,13 +34,13 @@ In het volgende voorbeeld wordt getoond hoe bezoekersidentificatie op verschille
 
 ## Aftellen bezoeken
 
-Analytics telt een bezoek telkens wanneer een hit wordt weergegeven met een bezoekpaginanummer gelijk aan 1.
+Analytics telt elke keer dat er een treffer wordt weergegeven met een bezoekpaginanummer dat gelijk is aan 1.
 
 Aan de hand van de bovenstaande tabel werd een nieuw bezoek vier keer geteld: bij treffers 1, 9, 11 en 12.
 
 ## Aantal bezoekers
 
-Analytics telt elke unieke effectieve bezoeker-id als een unieke bezoeker.
+Analytics beschouwt elke unieke effectieve bezoeker-id als een unieke bezoeker.
 
 Aan de hand van de bovenstaande tabel is een nieuwe bezoeker drie keer meegeteld: bij treffers 1, 9 en 10.
 
