@@ -5,14 +5,19 @@ title: Toewijzing en persistentie
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 0%
 
 ---
 
 
 # Toewijzing en persistentie
 
->[!IMPORTANT] Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie [Apparaatanalyse](/help/components/cda/cda-home.md) in de gebruikershandleiding voor componenten.
+>[!IMPORTANT]
+>
+>Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie Analytics [voor](/help/components/cda/cda-home.md) andere apparaten in de gebruikershandleiding voor componenten.
 
 Wanneer bezoekersprofielen worden samengevoegd nadat ze zijn gekoppeld aan dezelfde variabele voor de bezoekersidentiteitskaart, wordt de toewijzing niet gewijzigd in de historische gegevensset.
 
@@ -27,10 +32,10 @@ Wanneer een niet-geverifieerde klant voor het eerst op uw site arriveert, wordt 
 In het onderstaande voorbeeld ziet u hoe gegevens naar Adobe Analytics worden verzonden wanneer een klant voor het eerst op het eerste apparaat verifieert:
 
 * `eVar16` heeft een vervaldatum van 1 dag en `evar17` verloopt bij een bezoek.
-* De `post_visitor_id` kolom staat voor het profiel dat wordt bijgehouden door Adobe Analytics. Post-kolommen worden doorgaans weergegeven in gegevensfeeds. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding bij Exporteren.
+* De `post_visitor_id` kolom staat voor het profiel dat door Adobe Analytics wordt onderhouden. Post-kolommen worden doorgaans weergegeven in gegevensfeeds. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding bij Exporteren.
 * De `post_evar16` kolommen en de `post_evar17` kolommen tonen aan dat eVars blijvend zijn.
 * `cust_visid` vertegenwoordigt een waarde die is ingesteld in `s.visitorID`.
-* Elke rij is één &#39;hit&#39;, één aanvraag die naar Adobe Analytics-gegevensverzamelingsservers wordt verzonden.
+* Elke rij is één &#39;hit&#39;, één aanvraag die naar Adobe Analytics-servers voor gegevensverzameling wordt verzonden.
 
 ![Voorbeeld 1 van een ander apparaat](assets/xdevice_first.jpg)
 
@@ -40,11 +45,13 @@ Bij de eerste gegevensverbinding met een eerder niet-herkende `s.visitorID` waar
 * Waarden die door andere maatregelen vervallen, worden naar het geverifieerde profiel gekopieerd. De waarde `apple` blijft bestaan.
 * Voor de eVars die worden voortgeduurd, wordt geen metrische instantie geregistreerd. Dit betekent wanneer het gebruiken van de identificatie van de dwars-apparatenbezoeker, het mogelijk is om rapporten te zien waar de Unieke metrische Bezoek voor een waarde eVar groter is dan metrisch van de Instantie.
 
->[!NOTE] Als een gebruiker nieuw is voor uw site (nog niet eerder op dit apparaat is bezocht) en binnen ongeveer 3 minuten na aankomst wordt geverifieerd, blijven er geen waarden over voor het geverifieerde profiel.
+>[!NOTE]
+>
+>Als een gebruiker nieuw is voor uw site (nog niet eerder op dit apparaat is bezocht) en binnen ongeveer 3 minuten na aankomst wordt geverifieerd, blijven er geen waarden over voor het geverifieerde profiel.
 
 ## Voorbeeld 2
 
-In het onderstaande voorbeeld ziet u hoe gegevens naar Adobe Analytics worden verzonden wanneer een klant op een nieuw apparaat verifieert nadat het apparaat eerder is geverifieerd op een ander apparaat.
+In het onderstaande voorbeeld ziet u hoe gegevens naar Adobe Analytics worden verzonden wanneer een klant op een nieuw apparaat verifieert nadat deze eerder op een ander apparaat is geverifieerd.
 
 ![Voorbeeld 2 van verschillende apparaten](assets/xdevice-subsequent.jpg)
 
