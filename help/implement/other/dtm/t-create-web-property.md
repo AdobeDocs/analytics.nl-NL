@@ -5,7 +5,10 @@ title: Webeigenschap maken
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Een webeigenschap kan elke groepering van een of meer domeinen en subdomeinen met een bibliotheek met regels zijn, die in één ingesloten code is opgenomen.
 
->[!NOTE] Alleen gebruikers met beheerdersrechten kunnen een eigenschap maken. Zie Groepen [maken en beheren in DTM](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html) in de documentatie over producten voor dynamisch tagbeheer voor meer informatie over rollen.
+>[!NOTE]
+>
+>Alleen gebruikers met beheerdersrechten kunnen een eigenschap maken. Zie Groepen [maken en beheren in DTM](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html) in de documentatie over producten voor dynamisch tagbeheer voor meer informatie over rollen.
 
 U kunt deze middelen beheren en bijhouden met DTM. Stel dat u meerdere websites hebt die op één sjabloon zijn gebaseerd en u dezelfde elementen op al deze websites wilt bijhouden. U kunt één webeigenschap op meerdere domeinen toepassen.
 
