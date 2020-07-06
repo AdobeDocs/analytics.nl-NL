@@ -5,7 +5,7 @@ title: Virtuele rapportreeksen en tagging met meerdere suite-overwegingen
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Met Virtual Report suites (VRS) kunt u gegevens weergeven uit een rapportsuite d
 
 In veel gevallen kunt u de codering met meerdere suite&#39;s vervangen door virtuele rapportsuites. Het schakelen aan virtuele rapportsuites kan de noodzaak voor [secundaire servervraag](/help/admin/c-server-call-usage/overage-overview.md)effectief verwijderen. Uw organisatie heeft bijvoorbeeld zes verschillende websites, die elk gegevens naar hun eigen rapportsuite en een gecombineerde algemene rapportsuite verzenden. Elke plaats gaat een secundaire servervraag in; één voor de afzonderlijke merkrapportenreeks, en een tweede voor de globale rapportreeks. In plaats daarvan, kunt u gegevens van alle plaatsen alleen naar de globale rapportreeks verzenden, dan veelvoudige virtuele rapportreeksen gebruiken om elk merk te scheiden.
 
-Als u de tagging met meerdere suite&#39;s vervangt door een algemene rapportsuite en VRS, kunt u de implementatie van Adobe Analytics vereenvoudigen en het verbruik van servergesprekken verminderen. Dit wordt als een aanbevolen werkwijze aanbevolen. Er zijn echter enkele belangrijke beperkingen van de vrijwillige VUT-regeling. De volgende richtlijnen kunnen u helpen beslissen of het uitvoeren van virtuele rapportreeksen die op een globale rapportreeks worden voortgebouwd de juiste benadering voor u is.
+Als u tags met meerdere suite vervangt door een algemene rapportsuite en VRS, kunt u uw Adobe Analytics-implementatie vereenvoudigen en het verbruik van serveroproepen verminderen. Dit wordt als een aanbevolen werkwijze aanbevolen. Er zijn echter enkele belangrijke beperkingen van de vrijwillige VUT-regeling. De volgende richtlijnen kunnen u helpen beslissen of het uitvoeren van virtuele rapportreeksen die op een globale rapportreeks worden voortgebouwd de juiste benadering voor u is.
 
 ## Richtsnoeren
 
@@ -31,13 +31,13 @@ Houd rekening met het volgende wanneer u bepaalt of u tags met meerdere suite of
 
 Het delen van segmenten naar Adobe Experience Cloud wordt niet ondersteund voor virtuele rapportsuites. Gebruikers die een segment willen delen met de Experience Cloud, moeten toegang hebben tot de bronrapportsuite.
 
-Segmenten kunnen nog niet naar Adobe Experience Cloud worden gepubliceerd vanuit een virtuele rapportsuite voor personalisatie en doelversie. Alle gebruikers die segmenten publiceren hebben hiervoor toegang tot de bronrapportsuite nodig. U wilt bijvoorbeeld dat gebruikers alleen toegang hebben tot gegevens voor hun geografische regio&#39;s, maar dat ze segmenten van Adobe Analytics tot Adobe Experience Cloud kunnen maken en delen voor gebruik in Adobe Target. In dit geval raadt Adobe aan tags toe te wijzen met meerdere suite. Als u gebruikers die toegang tot de globale rapportreeks hebben of u niet segmenten voor gebruik in andere oplossingen moet publiceren, kunnen de virtuele rapportreeksen worden gebruikt.
+Segmenten kunnen nog niet naar Adobe Experience Cloud worden gepubliceerd vanuit een virtuele rapportsuite voor personalisatie en doelversie. Alle gebruikers die segmenten publiceren hebben hiervoor toegang tot de bronrapportsuite nodig. U wilt bijvoorbeeld dat gebruikers alleen toegang hebben tot gegevens voor hun geografische regio&#39;s, maar dat ze segmenten van Adobe Analytics tot Adobe Experience Cloud kunnen maken en delen voor Adobe Target. In dit geval raadt Adobe aan tags toe te wijzen met meerdere suite. Als u gebruikers die toegang tot de globale rapportreeks hebben of u niet segmenten voor gebruik in andere oplossingen moet publiceren, kunnen de virtuele rapportreeksen worden gebruikt.
 
 ### In real time en huidige gegevens
 
-Realtime rapporten worden niet gesteund in virtuele rapportreeksen, omdat het gegeven wordt gesegmenteerd. De huidige gegevens worden ook niet gesteund in virtuele rapportreeksen, aangezien het geen segmentatie steunt. Beide functies zijn specifiek voor Rapporten en Analytics.
+Realtime rapporten worden niet gesteund in virtuele rapportreeksen, omdat het gegeven wordt gesegmenteerd. De huidige gegevens worden ook niet gesteund in virtuele rapportreeksen, aangezien het geen segmentatie steunt. Beide functies zijn specifiek voor Reports &amp; Analytics.
 
-[Real-time rapporten](/help/admin/admin/realtime/t-realtime-admin.md) en [Huidige Gegevens](/help/technotes/latency.md) zijn niet beschikbaar in virtuele rapportreeksen. Dit is van invloed op gebruikers die reageren op trends die worden weergegeven in Rapporten en Analytics binnen seconden of enkele minuten na het verzamelen van gegevens. Dit kunnen bijvoorbeeld editors in een nieuwsruimte omvatten die kopregels aanpassen op basis van realtime-inhoudsverbruik. U kunt overwegen tags toe te voegen aan meerdere suite als u over belangrijke realtime gegevens beschikt die specifiek zijn voor de afzonderlijke rapportsuite. Real-time en huidige gegevens kunnen nog steeds worden gebruikt in de algemene rapportsuite.
+[Real-time rapporten](/help/admin/admin/realtime/t-realtime-admin.md) en [Huidige Gegevens](/help/technotes/latency.md) zijn niet beschikbaar in virtuele rapportreeksen. Dit is van invloed op gebruikers die reageren op trends die worden weergegeven in Rapporten en Analytics binnen enkele seconden of minuten na het verzamelen van gegevens. Dit kunnen bijvoorbeeld editors in een nieuwsruimte omvatten die kopregels aanpassen op basis van realtime-inhoudsverbruik. U kunt overwegen tags toe te voegen aan meerdere suite als u over belangrijke realtime gegevens beschikt die specifiek zijn voor de afzonderlijke rapportsuite. Real-time en huidige gegevens kunnen nog steeds worden gebruikt in de algemene rapportsuite.
 
 ### Unieke limieten
 
@@ -55,7 +55,9 @@ De verschillende plaats heeft verschillende implementatiebehoeften. Sommige dime
 
 Zorg ervoor dat het aantal unieke dimensies en metriek in één enkele globale rapportreeks kan passen. Als u vindt dat er teveel unieke dimensies of metriek zijn, herzie elke dimensie binnen elke implementatie. Er zijn waarschijnlijk overlappingen en dimensies die niet essentieel zijn voor het succes van het bedrijf. Overweeg ook [classificaties](/help/components/c-classifications2/c-classifications.md) te gebruiken. In plaats van &#39;Productnaam&#39; op te nemen in eVar5, maakt u bijvoorbeeld een &#39;Productnaam&#39; op basis van de &#39;Productdimensie&#39;. De classificaties in een bronrapportreeks zijn automatisch beschikbaar aan om het even welke afhankelijke virtuele rapportreeksen.
 
->[!TIP] Met de introductie van [kromming](/help/analyze/analysis-workspace/curate-share/curate.md), kunt u de naam van een bepaalde afmeting of metrisch op een per-VRS basis veranderen.
+>[!TIP]
+>
+>Met de introductie van [kromming](/help/analyze/analysis-workspace/curate-share/curate.md), kunt u de naam van een bepaalde afmeting of metrisch op een per-VRS basis veranderen.
 
 ### Segmenteringsnuances
 
@@ -73,7 +75,7 @@ Als uw organisatie haar analyse uitvoert in één munt, is dit geen probleem. Al
 
 Gegevensfeeds kunnen geen virtuele rapportsuites gebruiken. U kunt echter een gegevensfeed ontvangen van een algemene rapportsuite en deze vervolgens scheiden.
 
-Met gegevensfeeds kunt u dagelijks of per uur alle Adobe Analytics-gegevens exporteren op een afzonderlijk niveau. Gegevensfeeds kunnen niet vooraf worden gesegmenteerd voordat ze aan u worden geleverd, zodat u alleen een gegevensfeed voor uw algemene rapportsuite kunt ontvangen. Als uw organisatie een grote behoefte aan individuele gegevensvoer op een merk, bezit, gebied, of ander korrelig niveau heeft, denk na gebruikend multi-suite het etiketteren.
+Met gegevensfeeds kunt u elke dag of per uur al uw Adobe Analytics-gegevens exporteren op een individueel niveau. Gegevensfeeds kunnen niet vooraf worden gesegmenteerd voordat ze aan u worden geleverd, zodat u alleen een gegevensfeed voor uw algemene rapportsuite kunt ontvangen. Als uw organisatie een grote behoefte aan individuele gegevensvoer op een merk, bezit, gebied, of ander korrelig niveau heeft, denk na gebruikend multi-suite het etiketteren.
 
 ### Gegevensconnectors met partneraccounts
 
@@ -83,9 +85,11 @@ Zo is per rapportsuite slechts één Google DCM toegestaan. Veel bedrijven hebbe
 
 ### Samenvattingsgegevensbronnen
 
-Met behulp van samenvattingsgegevensbronnen kunt u samengevoegde metriek op rapportniveau importeren in Adobe Analytics. Aangezien samenvattingsgegevensbronuploads geaggregeerde metriek bevatten, kunnen ze niet worden gesegmenteerd. Aangezien het VRS gebruikend segmentatie werkt, zijn alle gegevens die gebruikend summiere gegevensbronnen worden ingevoerd niet beschikbaar in virtuele rapportreeksen. De summiere gegevensbronnen zijn slechts zichtbaar in de bron rapportreeks.
+Met behulp van samenvattingsgegevensbronnen kunt u samengevoegde gegevens in Adobe Analytics importeren op rapportniveau. Aangezien samenvattingsgegevensbronuploads geaggregeerde metriek bevatten, kunnen ze niet worden gesegmenteerd. Aangezien het VRS gebruikend segmentatie werkt, zijn alle gegevens die gebruikend summiere gegevensbronnen worden ingevoerd niet beschikbaar in virtuele rapportreeksen. De summiere gegevensbronnen zijn slechts zichtbaar in de bron rapportreeks.
 
->[!TIP] De volledige bronnen van verwerkingsgegevens steunen segmentatie, en kunnen in virtuele rapportreeksen worden gebruikt.
+>[!TIP]
+>
+>De volledige bronnen van verwerkingsgegevens steunen segmentatie, en kunnen in virtuele rapportreeksen worden gebruikt.
 
 ## Stappen volgen als u hebt besloten VRS te gebruiken
 
@@ -96,8 +100,8 @@ Als u ervoor kiest om secundaire servervraag ten gunste van virtuele rapportsuit
    * Als beste praktijken, denk na gebruikend [segment het stapelen](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) zodat kunt u een segment in één plaats uitgeven en het hebben op alle afhankelijke virtuele rapportreeksen van toepassing zijn.
    * Gebruik raakcontainers als u virtuele rapportsuites wederzijds wilt uitsluiten.
 2. Nadat u hebt bevestigd dat de virtuele rapportreeksen correct opstelling zijn, verwijder de secundaire identiteitskaart van de rapportreeks uit uw implementatie. Secundaire rapportsuites verwijderen:
-   * Klik in Adobe Experience Platform Launch op de x naast de rapportsuites die u niet meer wilt gebruiken.
-   * Zoek in DTM de eigenschap en het hulpprogramma Analytics. Verwijder de namen van de rapportsuite-id&#39;s die u niet meer wilt gebruiken in de velden Productieaccount-id en Staging Account ID.
+   * In de Lancering van het Adobe Experience Platform, klik &quot;x&quot;naast om het even welke rapportsuites die u niet meer wilt gebruiken.
+   * Zoek in DTM de eigenschap en het gereedschap Analytics. Verwijder de namen van de rapportsuite-id&#39;s die u niet meer wilt gebruiken in de velden Productieaccount-id en Staging Account ID.
    * Zoek in verouderde JavaScript-implementaties de `s.account` variabele op en verwijder de id&#39;s van de rapportsuite die u niet meer wilt gebruiken.
    * Laat in alle gevallen alleen de id van de algemene rapportensuite/bovenliggende rapportsuite staan voor het verzamelen van gegevens voor uw sites en apps.
    * Navigeer naar Beheer > Rapportagesuites en verberg secundaire rapportsuites die niet meer worden gebruikt.
