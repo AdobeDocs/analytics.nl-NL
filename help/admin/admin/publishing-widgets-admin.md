@@ -1,21 +1,26 @@
 ---
 description: Een publicatiewidget is een container waarmee u marketingrapporten (bladwijzers en dashboards) op een webpagina kunt insluiten. De mensen in uw organisatie die geen toegang tot marketing rapporten hebben kunnen relevante gegevens bekijken.
-title: Publishing Widget
+title: Widget publiceren
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 1%
 
 ---
 
 
-# Publishing Widget
+# Widget publiceren
 
-Een publicatiewidget is een container waarmee u analyserapporten (bladwijzers en dashboards) op een webpagina kunt insluiten. De mensen in uw organisatie die geen toegang tot de rapporten van de Analyse hebben kunnen relevante gegevens bekijken.
+Een publicatiewidget is een container waarmee u Analytics-rapporten (bladwijzers en dashboards) op een webpagina kunt insluiten. Personen in uw organisatie die geen toegang hebben tot Analytics-rapporten, kunnen relevante gegevens weergeven.
 
 U kunt bijvoorbeeld een dashboard opgeven, zodat bedrijfsleiders het aantal bezoekers van de pagina, het aantal unieke bezoekers van de pagina enzovoort kunnen bekijken.
 
->[!CAUTION] Er is geen verificatie vereist voor het weergeven van gegevens die zijn gepubliceerd via de publicatiewidget. Daarom moet u gepubliceerde gegevens als niet veiliger beschouwen dan gegevens die naar een e-mailgroep of lijstserver worden verzonden. Gebruik de widget alleen in overeenstemming met de beveiligingsnormen van uw organisatie, bestaande contractuele vereisten en het toepasselijke recht. De het Publiceren Widget verstrekt de capaciteit om, door IP adres of domeinweg te beperken, waar u gegevens kunt publiceren. Deze mechanismen zijn echter uitsluitend bedoeld om onbedoelde gegevensverspreiding te voorkomen en zijn geen effectieve manier om de toegang tot gegevens te beveiligen die via de publicatiewidget worden verspreid.
+>[!CAUTION]
+>
+>Er is geen verificatie vereist voor het weergeven van gegevens die zijn gepubliceerd via de publicatiewidget. Daarom moet u gepubliceerde gegevens als niet veiliger beschouwen dan gegevens die naar een e-mailgroep of lijstserver worden verzonden. Gebruik de widget alleen in overeenstemming met de beveiligingsnormen van uw organisatie, bestaande contractuele vereisten en het toepasselijke recht. De het Publiceren Widget verstrekt de capaciteit om, door IP adres of domeinweg te beperken, waar u gegevens kunt publiceren. Deze mechanismen zijn echter uitsluitend bedoeld om onbedoelde gegevensverspreiding te voorkomen en zijn geen effectieve manier om de toegang tot gegevens te beveiligen die via de publicatiewidget worden verspreid.
 >
 > Adobe is niet verantwoordelijk of aansprakelijk voor gegevens die via de publicatiewidget worden weergegeven.
 
@@ -31,7 +36,9 @@ Als u gegevensverschillen ziet tussen de Publishing Widget en de rapportinterfac
 1. Klik op **[!UICONTROL Save]** de widget.
 1. Voer de widget opnieuw uit. (In de voorvertoningsmodus wordt de cache van de widget niet gebruikt.)
 
->[!NOTE] Het publiceren Widgets toont slechts de eerste kolom van gegevens in een rapport.
+>[!NOTE]
+>
+>Het publiceren Widgets toont slechts de eerste kolom van gegevens in een rapport.
 
 ## Widget-beschrijvingen publiceren {#section_D67478AECCA946B19A3E4C7071EB4871}
 
