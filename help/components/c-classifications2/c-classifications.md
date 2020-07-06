@@ -1,20 +1,23 @@
 ---
-description: Een classificatie is een manier om de veranderlijke gegevens van Analytics te categoriseren, dan tonend de gegevens op verschillende manieren wanneer u rapporten produceert.
+description: Een classificatie is een manier om veranderlijke gegevens van Analytics te categoriseren, dan tonend de gegevens op verschillende manieren wanneer u rapporten produceert.
 subtopic: Classifications
-title: Classificaties
+title: Informatie over classificaties
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 0%
 
 ---
 
 
-# Classificaties
+# Informatie over classificaties
 
-Een classificatie is een manier om de veranderlijke gegevens van Analytics te categoriseren, dan tonend de gegevens op verschillende manieren wanneer u rapporten produceert.
+Een classificatie is een manier om veranderlijke gegevens van Analytics te categoriseren, dan tonend de gegevens op verschillende manieren wanneer u rapporten produceert.
 
-Video-overzicht van [analytische classificaties](https://video.tv.adobe.com/v/16853/?captions=dut).
+Video-overzicht van [Analytics-classificaties](https://video.tv.adobe.com/v/16853/?captions=dut).
 
 **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > *`<Traffic or Conversion>`*
 
@@ -28,7 +31,9 @@ Zodra geclassificeerd, kan om het even welk rapport dat u het gebruiken van de z
 >
 >De mogelijkheid om classificaties met numerieke waarden 2 en datum in te voeren is uit de codebase verwijderd. Deze wijziging wordt van kracht met ingang van het onderhoudscontract van juni 2019. Als u Numerieke of Datum-Toegelaten kolommen in uw de invoerdossier hebt, zullen die cellen stil worden genegeerd, en om het even welke andere gegevens binnen dat dossier zullen worden ingevoerd als normaal. Bestaande classificaties kunnen nog steeds worden geëxporteerd via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage.
 
->[!NOTE] In de versie Analytics Maintenance van 10 mei 2018, heeft Adobe de functionaliteit van voor datums geschikte en numerieke classificaties beperkt. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. Er kunnen geen nieuwe datums en numerieke classificaties worden toegevoegd. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage.
+>[!NOTE]
+>
+>In de Analytics Maintenance-release van 10 mei 2018 is Adobe begonnen de functionaliteit van voor datums geschikte en numerieke classificaties te beperken. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. Er kunnen geen nieuwe datums en numerieke classificaties worden toegevoegd. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage.
 
 Nadat u de classificaties hebt gemaakt, kunt u de nieuwe gegevenskenmerken in Adobe Analytics gebruiken.
 
@@ -57,12 +62,12 @@ In de volgende tabel worden de verschillende typen classificaties beschreven die
    <td colname="col3"> <p>Tekstclassificaties definiëren een categorie waarmee u variabele gegevens kunt groeperen voor rapportagedoeleinden. </p> <p>Als u bijvoorbeeld overhemden verkoopt, kunt u de hemdverkopen (conversies) indelen op kleur, grootte en stijl, zodat u rapporten kunt genereren waarin de hemdverkopen worden weergegeven die door deze categorieën worden georganiseerd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Tekst met datumnotatie</span> </p> <p>Opmerking:  In de versie Analytics Maintenance van 10 mei 2018, heeft Adobe de functionaliteit van classificaties waarvoor datumgegevens zijn ingeschakeld, beperkt. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. U kunt geen nieuwe klasseringen voor datums toevoegen. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage. </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> Tekst met datumnotatie</span> </p> <p>Opmerking:  In de Analytics Maintenance-release van 10 mei 2018 is Adobe begonnen de functionaliteit van classificaties waarvoor datumgegevens zijn ingeschakeld te beperken. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. U kunt geen nieuwe klasseringen voor datums toevoegen. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage. </p> </td> 
    <td colname="col2"> <p>Conversievariabelen </p> </td> 
-   <td colname="col3"> <p>Met een tekstclassificatie voor datums kunt u datumbereiken toewijzen aan een tekstclassificatie. Dit wordt typisch gebruikt met campagneclassificaties zodat u uit de grafiekmening van Gantt in het rapport van Campagnes <span class="wintitle"></span> kunt voordeel halen. </p> <p>U kunt de daadwerkelijke campagnecedata in het gegevensbestand opnemen dat de classificatiegegevens bevolkt. </p> <p>Rapporten &amp; Analytics verzamelt de codes voor het bijhouden van de campagne, zelfs als de einddatum van de campagne al voorbij is, maar de campagnegegevens die na de einddatum van de campagne worden verzameld, zijn niet gekoppeld aan de campagne. </p> </td> 
+   <td colname="col3"> <p>Met een tekstclassificatie voor datums kunt u datumbereiken toewijzen aan een tekstclassificatie. Dit wordt typisch gebruikt met campagneclassificaties zodat u uit de grafiekmening van Gantt in het rapport van Campagnes <span class="wintitle"></span> kunt voordeel halen. </p> <p>U kunt de daadwerkelijke campagnecedata in het gegevensbestand opnemen dat de classificatiegegevens bevolkt. </p> <p>Rapporten &amp; Analytics verzamelt gedragscodes voor campagnes, zelfs als de einddatum van de campagne al voorbij is, maar de campagnegegevens die na de einddatum van de campagne zijn verzameld, zijn niet gekoppeld aan de campagne. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Numeriek</span> <p>Opmerking:  In de versie Analytics Maintenance van 10 mei 2018, heeft Adobe de functionaliteit van numerieke classificaties beperkt. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. Er kunnen geen nieuwe numerieke classificaties worden toegevoegd. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> Numeriek</span> <p>Opmerking:  In de Analytics Maintenance-release van 10 mei 2018 is Adobe begonnen de functionaliteit van numerieke classificaties te beperken. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. Er kunnen geen nieuwe numerieke classificaties worden toegevoegd. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage. </p> </p> </td> 
    <td colname="col2"> <p>Conversievariabelen </p> </td> 
    <td colname="col3"> <p>Met numerieke classificaties kunt u vaste numerieke waarden toepassen op <span class="wintitle"> conversierapporten</span> . Deze classificaties worden als metriek weergegeven in rapporten. </p> <p>Wanneer u overweegt een <span class="wintitle"> numerieke</span> classificatie toe te voegen, moet de numerieke waarde vast zijn en in de loop der tijd ongewijzigd blijven. </p> </td> 
   </tr> 
