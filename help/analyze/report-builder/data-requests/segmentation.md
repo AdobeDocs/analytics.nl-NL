@@ -1,17 +1,20 @@
 ---
-description: Hoe te om de segmenten van de Analytics van Adobe in de Bouwer van het Rapport toe te voegen, uit te geven, toe te passen en te filtreren.
+description: Hoe te om de segmenten van Adobe Analytics in de Bouwer van het Rapport toe te voegen, uit te geven, toe te passen en te filtreren.
 title: Segmenten beheren
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '897'
+ht-degree: 3%
 
 ---
 
 
 # Segmenten beheren
 
-Hoe te om de segmenten van de Analytics van Adobe in de Bouwer van het Rapport toe te voegen, uit te geven, toe te passen en te filtreren.
+Hoe te om de segmenten van Adobe Analytics in de Bouwer van het Rapport toe te voegen, uit te geven, toe te passen en te filtreren.
 
 De Bouwer van het rapport kenmerkt een segmentatiepaneel in Stap 1 van de Tovenaar van het Verzoek die u tot segmenten laat leiden en leidt.
 
@@ -19,10 +22,12 @@ De Bouwer van het rapport kenmerkt een segmentatiepaneel in Stap 1 van de Tovena
 
 ## Segmenten toevoegen of bewerken {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE] Om segmenten toe te voegen of uit te geven, lanceert de het segmentinterface van de Bouwer van het Rapport de het segmentbouwer van Analytics in een venster van Microsoft Internet Explorer. Uw rapportbuildersessie blijft actief. Andere browsers dan Internet Explorer worden niet ondersteund voor deze bewerking.
+>[!NOTE]
+>
+>Om segmenten toe te voegen of uit te geven, lanceert de het segmentinterface van de Bouwer van het Rapport de het segmentaannemer van Analytics in een venster van Microsoft Internet Explorer. Uw rapportbuildersessie blijft actief. Andere browsers dan Internet Explorer worden niet ondersteund voor deze bewerking.
 
 1. Klik in het segmentpaneel van Stap 1 van de wizard Verzoek op **[!UICONTROL Add]**.
-1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Voor informatie over hoe te om segmenten te bouwen, verwijs naar [de segmentatie](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)van Analytics.
+1. Een venster van Internet Explorer opent de interface van de Bouwer van het Segment van Analytics. Voor informatie over hoe te om segmenten te bouwen, verwijs naar de segmentatie [van](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)Analytics.
 1. Nadat u het segment hebt bepaald en bewaard, ga terug naar de Tovenaar van het Verzoek.
 1. Klik op het pictogram Vernieuwen om de segmentlijst te vernieuwen.
 
@@ -48,7 +53,7 @@ U kunt specifieke combinaties rapportafmetingen hebben die u in een segment zou 
 
 ## Segmenten zoeken en toepassen {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Om het even welke segmenten die in Rapporten &amp; Analytics, Ad hoc Analyse, de Bouwer van het Rapport, of het Pakhuis van Gegevens werden gecreeerd verschijnen in deze segmentlijst. Klik op het pictogram Vernieuwen ( ![](assets/refresh_icon.png).
+Om het even welke segmenten die in Rapporten &amp; Analytics, Ad hoc analysis, de Bouwer van het Rapport, of Data warehouse werden gecreeerd verschijnen in deze segmentlijst. Klik op het pictogram Vernieuwen ( ![](assets/refresh_icon.png).
 
 U kunt één of veelvoudige segmenten op om het even welk bepaald verzoek toepassen. Dit omvat opeenvolgende segmenten.
 
@@ -58,9 +63,11 @@ U kunt één of veelvoudige segmenten op om het even welk bepaald verzoek toepas
 
 1. Controleer welk segment of welke segmenten u wilt toepassen.
 
->[!NOTE] Of u Admin of een niet-Admin bent, in de Bouwer van het Rapport kunt u slechts die segmenten zien die u bezit en die die met u zijn gedeeld. (In de gebruikersinterface Marketing Reports &amp; Analytics kan de Admin alle segmenten in de organisatie zien.)
+>[!NOTE]
+>
+>Of u Admin of een niet-Admin bent, in de Bouwer van het Rapport kunt u slechts die segmenten zien die u bezit en die die met u zijn gedeeld. (In de gebruikersinterface Marketingrapporten en Analytics kan de beheerder alle segmenten in de organisatie zien.)
 
-## Filtersegmenten {#section_376E986D3E684999A7CDB08E53854159}
+## Segmenten filteren {#section_376E986D3E684999A7CDB08E53854159}
 
 **U kunt segmenten filteren** door op het pictogram Filter te klikken:  ![](assets/segment_filter.png)
 
@@ -112,7 +119,7 @@ Met Report Builder 5.4 kunt u alle segmenten binnen meerdere aanvragen toevoegen
 
 1. Selecteer in het dialoogvenster Groep bewerken een van de vier opties:
 
-   | Option | Beschrijving |
+   | Optie | Beschrijving |
    |---|---|
    | Segment toevoegen | Hiermee kunt u een of meer segmenten kiezen die u wilt toevoegen aan de lijst met huidige segmenten. |
    | Segment(en) vervangen | Hiermee kunt u kiezen welk segment of welke segmenten door een of meer segmenten worden vervangen. |
