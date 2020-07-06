@@ -1,19 +1,22 @@
 ---
 description: U kunt koppelingen onderscheiden door de koppelings-id aan te passen met behulp van de variabele s_objectID, door het gebied aan te passen en door het modulebestand AppMeasurement ActivityMap aan te passen.
-title: Verschillende koppelingen die verwijzen naar dezelfde koppelings-id en -regio
+title: Koppelingen differentiëren die verwijzen naar dezelfde koppelings-id en -regio
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 5%
 
 ---
 
 
-# Verschillende koppelingen die verwijzen naar dezelfde koppelings-id en -regio
+# Koppelingen differentiëren die verwijzen naar dezelfde koppelings-id en -regio
 
 U kunt koppelingen onderscheiden door de koppelings-id aan te passen met behulp van de variabele s_objectID, door het gebied aan te passen en door het modulebestand AppMeasurement ActivityMap aan te passen.
 
-Als voorbeeld, laten wij zeggen u veelvoudige &quot;Kopen&quot;verbindingen hebt die door de Kaart van de Activiteit onder zelfde identiteitskaart van de Verbinding en Gebied worden geïdentificeerd:
+Stel bijvoorbeeld dat u meerdere &quot;Kopen&quot;-koppelingen hebt die door Activity Map onder dezelfde koppelings-id en -regio worden geïdentificeerd:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -48,11 +51,11 @@ Hoe kunt u uw webpagina en tags aanpassen om de waarden van deze koppelingen te 
 
 ## Koppelings-id aanpassen met s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Door een unieke object-id te maken voor een koppeling of koppelingslocatie op een pagina, kunt u de activiteitstoewijzing verbeteren of Activiteitenkaart gebruiken om te rapporteren over een koppelingstype of -locatie, in plaats van de koppelings-URL. Klik [hier](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) voor meer informatie over de variabele s_objectID.
+Door een unieke object-id te maken voor een koppeling of koppelingslocatie op een pagina, kunt u de Activity Map bijhouden verbeteren of Activity Map gebruiken om te rapporteren over een koppelingstype of -locatie, in plaats van de koppeling-URL. Klik [hier](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) voor meer informatie over de variabele s_objectID.
 
 >[!IMPORTANT]
 >
->Merk op dat een volgpuntkomma (;) wordt vereist wanneer het gebruiken van s_objectID in de Kaart van de Activiteit.
+>Een volgpuntkomma (;) is vereist wanneer s_objectID in Activity Map wordt gebruikt.
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
@@ -87,7 +90,9 @@ Door een unieke object-id te maken voor een koppeling of koppelingslocatie op ee
 
 U kunt de regio aanpassen door ervoor te zorgen dat voor elke &quot;koop&quot;verbinding een eigen Gebied wordt bepaald. Hiervoor voegt u een parameter &quot;id&quot; toe aan een van de bovenliggende elementen van elke ankertag &quot;Buy&quot;.
 
->[!NOTE] U bent niet strikt beperkt tot de parameter &quot;id&quot; als regio-id. U kunt ook uw eigen id instellen met de JavaScript-variabele &quot;s.ActivityMap.regionIDAattribute&quot;.
+>[!NOTE]
+>
+>U bent niet strikt beperkt tot de parameter &quot;id&quot; als regio-id. U kunt ook uw eigen id instellen met de JavaScript-variabele &quot;s.ActivityMap.regionIDAattribute&quot;.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
