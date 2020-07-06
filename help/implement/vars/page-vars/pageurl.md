@@ -2,7 +2,10 @@
 title: pageURL
 description: Hef de automatisch verzamelde pagina-URL op uw site op.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 1%
 
 ---
 
@@ -11,19 +14,21 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 AppMeasurement verzamelt automatisch de pagina-URL in elke hit. Als u de pagina-URL wilt overschrijven die automatisch wordt verzameld door AppMeasurement, kunt u deze variabele gebruiken. In de meeste gevallen hoeft u deze variabele niet in te stellen.
 
->[!NOTE] Deze variabele is geen beschikbare dimensie in de Werkruimte van de Analyse. Het is alleen beschikbaar in Data Warehouse en Data Feeds. Als u pagina URL als afmeting in de Werkruimte van de Analyse zou willen gebruiken, denk overgaand de `pageURL` variabele in een eVar op elke slag.
+>[!NOTE]
+>
+>Deze variabele is geen beschikbare dimensie in Analysis Workspace. Deze optie is alleen beschikbaar in Data warehouse- en gegevensfeeds. Als u pagina-URL als een dimensie wilt gebruiken in Analysis Workspace, kunt u de `pageURL` variabele bij elke treffer doorgeven in een eVar.
 
 Soms zijn URL&#39;s langer dan 255 bytes. AppMeasurement gebruikt de parameter van het `g` vraagkoord voor de eerste 255 bytes van URL in beeldverzoeken. Als een URL langer is dan 255 bytes, wordt de rest van URL opgeslagen in de parameter van het `-g` vraagkoord. Protocol- en querytekenreeksen in de URL worden opgenomen in deze variabele.
 
-## Pagina-URL in Adobe Experience Platform Launch
+## Pagina-URL in Adobe Experience Platform starten
 
-Met Starten wordt de pagina-URL automatisch ingevuld. U kunt echter de URL van de pagina overschrijven tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
+Met Starten wordt de pagina-URL automatisch ingevuld. U kunt echter de URL van de pagina overschrijven tijdens het configureren van de Analytics-extensie (globale variabelen) of onder regels.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 4. Klik onder [!UICONTROL Actions]op een bestaande [!UICONTROL Adobe Analytics - Set Variables] handeling of klik op het pictogram ‘+’.
-5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en stel het [!UICONTROL Action Type] in op [!UICONTROL Set Variables].
+5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en [!UICONTROL Action Type] op [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL Page URL] sectie.
 
 U kunt de pagina-URL instellen op elke gewenste tekenreekswaarde.
