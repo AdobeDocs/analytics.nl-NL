@@ -2,7 +2,10 @@
 title: registerPostTrackCallback
 description: Maak callback-functies nadat u een hit naar Adobe hebt verzonden.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +20,13 @@ Telkens wanneer u de `registerPostTrackCallback` variabele aanroept, koppelt u d
 
 >[!NOTE] De timing en de volgorde van de functies die tussen [`registerPreTrackCallback`](registerpretrackcallback.md) en `registerPostTrackCallback` worden uitgevoerd, zijn niet gegarandeerd. Vermijd afhankelijkheden tussen deze twee functies.
 
-## Callback achteraf registreren bij starten van Adobe Experience Platform
+## Callback van posttrack registreren bij starten van Adobe Experience Platform
 
 Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
 ## s.registerPostTrackCallback in AppMeasurement en Launch, aangepaste code-editor
 
-Het `s.registerPostTrackCallback` is een functie die een functie als het enige argument gebruikt. De geneste functie wordt uitgevoerd vlak voordat een afbeeldingsaanvraag wordt verzonden.
+Het `s.registerPostTrackCallback` is een functie die een functie als het enige argument gebruikt. De geneste functie wordt direct uitgevoerd nadat een afbeeldingsaanvraag is verzonden.
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
