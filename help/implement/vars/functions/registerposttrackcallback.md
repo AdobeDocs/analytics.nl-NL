@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Maak callback-functies nadat u een hit naar Adobe hebt verzonden.
 translation-type: tm+mt
-source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -14,11 +14,15 @@ ht-degree: 0%
 
 Met de `registerPostTrackCallback` variabele kan uw organisatie een JavaScript-functie direct koppelen nadat een hit naar Adobe is verzonden. Als een volgende aanroep mislukt, wordt deze functie niet uitgevoerd. U kunt deze variabele gebruiken om gegevens te verzenden die door AppMeasurement aan een partner of interne infrastructuur worden verzameld, of veranderlijke waarden in enig-paginatoepassingen op te schonen.
 
->[!IMPORTANT] Roep geen het volgen vraag zoals [`t()`](t-method.md) of [`tl()`](tl-method.md) binnen de `registerPostTrackCallback` variabele. De volgende functies in deze variabele veroorzaken een oneindige lijn van beeldverzoeken!
+>[!IMPORTANT]
+>
+>Roep geen het volgen vraag zoals [`t()`](t-method.md) of [`tl()`](tl-method.md) binnen de `registerPostTrackCallback` variabele. De volgende functies in deze variabele veroorzaken een oneindige lijn van beeldverzoeken!
 
 Telkens wanneer u de `registerPostTrackCallback` variabele aanroept, koppelt u die functie om onmiddellijk te lopen nadat een beeldverzoek met succes wordt verzonden. Registreer dezelfde functie niet meerdere keren tijdens het laden van dezelfde pagina.
 
->[!NOTE] De timing en de volgorde van de functies die tussen [`registerPreTrackCallback`](registerpretrackcallback.md) en `registerPostTrackCallback` worden uitgevoerd, zijn niet gegarandeerd. Vermijd afhankelijkheden tussen deze twee functies.
+>[!NOTE]
+>
+>De timing en de volgorde van de functies die tussen [`registerPreTrackCallback`](registerpretrackcallback.md) en `registerPostTrackCallback` worden uitgevoerd, zijn niet gegarandeerd. Vermijd afhankelijkheden tussen deze twee functies.
 
 ## Callback van posttrack registreren bij starten van Adobe Experience Platform
 
