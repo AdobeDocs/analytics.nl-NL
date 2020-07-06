@@ -2,7 +2,7 @@
 title: Trefwoord zoeken
 description: Het zoekwoord dat de bezoeker gebruikte om uw site te bereiken.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 De dimensie &#39;sleutelwoord zoeken&#39; rapporteert de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken.
 
->[!IMPORTANT] De meeste zoekprogramma&#39;s slagen niet langer voor het trefwoord Zoeken vanwege de toenemende privacy-praktijken. Hier wordt een zoekprogramma herkend, maar er ontbreken trefwoordgroepen onder de waarde Dimensie `"Keyword unavailable"`.
+>[!IMPORTANT]
+>
+>De meeste zoekprogramma&#39;s slagen niet langer voor het trefwoord Zoeken vanwege de toenemende privacy-praktijken. Hier wordt een zoekprogramma herkend, maar er ontbreken trefwoordgroepen onder de waarde Dimensie `"Keyword unavailable"`.
 
 Een verwijzer moet aan beide volgende voorwaarden voldoen om als zoekwoord te classificeren:
 
