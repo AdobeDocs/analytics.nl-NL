@@ -2,7 +2,10 @@
 title: linkTrackEvents
 description: Bepaal welke gebeurtenissen moeten worden opgenomen in aanvragen voor het bijhouden van koppelingen.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 3%
 
 ---
 
@@ -13,11 +16,13 @@ Sommige implementaties willen niet alle variabelen in alle verbinding het volgen
 
 Deze variabele wordt niet gebruikt voor de vraag van de paginamening ([`t()`](../functions/t-method.md) methode).
 
-## Gebeurtenissen in koppelingencontrole voor aanroepen met Adobe Experience Platform Launch
+## Gebeurtenissen in verbinding die vraag volgen gebruikend de Lancering van het Adobe Experience Platform
 
 Start detecteert automatisch gebeurtenissen die in de interface zijn gedefinieerd en neemt deze op in resultaten voor het bijhouden van koppelingen.
 
->[!IMPORTANT] Als u gebeurtenissen in Lancering plaatst gebruikend de redacteur van de douanecode, moet u de gebeurtenis ook omvatten in het `linkTrackEvents` gebruiken van douanecode.
+>[!IMPORTANT]
+>
+>Als u gebeurtenissen in Lancering plaatst gebruikend de redacteur van de douanecode, moet u de gebeurtenis ook omvatten in het `linkTrackEvents` gebruiken van douanecode.
 
 ## s.linkTrackEvents in AppMeasurement en Launch, aangepaste code-editor
 
@@ -33,7 +38,9 @@ s.linkTrackEvents = "event1,event2,event3,purchase";
 
 De standaardwaarde voor deze variabele is een lege tekenreeks. Als deze variabele niet is gedefinieerd, worden alle gebeurtenissen opgenomen in aanvragen voor het bijhouden van koppelingen. Merk op dat de Lancering automatisch deze variabele bevolkt die op gebeurtenissen in de interface wordt geplaatst, zodat wordt het altijd geplaatst in implementaties gebruikend Lancering.
 
->[!TIP] Vermijd het gebruik van de object-id (`s.`) voor Analytics wanneer u gebeurtenissen in deze variabele opgeeft. De waarde `s.linkTrackEvents = "event1";` is bijvoorbeeld correct, maar `s.linkTrackEvents = "s.event1";` is onjuist.
+>[!TIP]
+>
+>Gebruik de Analytics-object-id (`s.`) niet wanneer u gebeurtenissen in deze variabele opgeeft. De waarde `s.linkTrackEvents = "event1";` is bijvoorbeeld correct, maar `s.linkTrackEvents = "s.event1";` is onjuist.
 
 ## Voorbeeld
 
