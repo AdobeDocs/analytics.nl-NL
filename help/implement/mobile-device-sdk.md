@@ -1,8 +1,11 @@
 ---
 title: Analytics voor mobiele apparaten
 description: Bepaal welke mobiele AppMeasurement-bibliotheek moet worden gebruikt.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: ea8eefbf35bfec52ed794a886b5e67f63c121ce9
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +16,7 @@ Raadpleeg de volgende opslagplaatsen voor SDK&#39;s en documentatie voor het imp
 
 ## Experience Platform Mobile-SDK’s
 
-* [SDK-opslagplaats](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation/blob/master/resources/frequently-asked-questions/current-sdk-versions.md)
+* [SDK-opslagplaats](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation)
 * [Documentatie](https://aep-sdks.gitbook.io/docs/)
 
 ## Mobiele SDK’s versie 4
