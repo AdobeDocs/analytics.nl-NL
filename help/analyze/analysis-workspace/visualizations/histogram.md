@@ -1,9 +1,9 @@
 ---
-description: Een histogram is een nieuw visualisatietype in de Werkruimte van de Analyse.
+description: Een histogram is een nieuw visualisatietype in Analysis Workspace.
 title: Histogram
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 3%
@@ -25,7 +25,9 @@ Een histogram maken:
 
 ![](assets/histogram.png)
 
->[!NOTE] Histogrammen ondersteunen alleen standaardmeetwaarden, geen berekende meetwaarden.
+>[!NOTE]
+>
+>Histogrammen ondersteunen alleen standaardmeetwaarden, geen berekende meetwaarden.
 
 Hier hebben we de metagegevens voor paginaweergaven gebruikt voor unieke bezoekers. Het eerste (linker) emmertje komt overeen met een paginaweergave per unieke bezoeker, het tweede emmertje met twee paginaweergaven, enzovoort.
 
