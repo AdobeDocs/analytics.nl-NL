@@ -2,7 +2,7 @@
 title: Type referentie
 description: Het type referentie, afhankelijk van waar de bezoeker vandaan komt.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -31,9 +31,11 @@ Tot de waarden van de afmeting behoren het type referentie van de hit. Specifiek
 
 ### Sociale netwerken
 
-De volgende lijst verwijst naar de opzoektabel voor sociale netwerken die Adobe gebruikt. Adobe biedt deze lijst met dank aan klanten van Adobe Analytics. Als u wilt adviseren dat Adobe een domein aan deze lijst toevoegt, een steunafgevaardigde in uw organisatie hebben contact met de Klantenservice.
+De volgende lijst verwijst naar de opzoektabel voor sociale netwerken die Adobe gebruikt. Adobe biedt deze lijst als een belediging aan Adobe Analytics-klanten. Als u wilt adviseren dat Adobe een domein aan deze lijst toevoegt, een steunafgevaardigde in uw organisatie hebben contact met de Klantenservice.
 
->[!NOTE] Deze lijst is verschillend dan de standaardlijst van sociale netwerken in de verwerkingsregels [van het Kanaal van de](../c-marketing-channels/c-rules.md)Marketing.
+>[!NOTE]
+>
+>Deze lijst is verschillend dan de standaardlijst van sociale netwerken in de verwerkingsregels [van het Kanaal van de](../c-marketing-channels/c-rules.md)Marketing.
 
 * `12seconds.tv`
 * `t.163.com`
