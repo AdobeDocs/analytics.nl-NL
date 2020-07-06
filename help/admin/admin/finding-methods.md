@@ -1,15 +1,18 @@
 ---
 description: Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over zoekmethoden kredieten ontvangen voor conversiesuccesgebeurtenissen op uw site. Als een zoekmachine bijvoorbeeld een bezoeker doorverwijst naar uw site die een aankoop doet, kunt u met Methoden zoeken opgeven hoe de zoekfunctie de verwijzingsvergoeding ontvangt.
-title: Methoden zoeken
+title: Zoekmethoden
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '308'
+ht-degree: 1%
 
 ---
 
 
-# Methoden zoeken
+# Zoekmethoden
 
 Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over zoekmethoden kredieten ontvangen voor conversiesuccesgebeurtenissen op uw site. Als een zoekmachine bijvoorbeeld een bezoeker doorverwijst naar uw site die een aankoop doet, kunt u met Methoden zoeken opgeven hoe de zoekfunctie de verwijzingsvergoeding ontvangt.
 
@@ -31,13 +34,13 @@ Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over z
   </tr> 
   <tr> 
    <td colname="col1"> Toewijzing </td> 
-   <td colname="col2"> Geeft aan hoe een verwijzingsverzoek moet worden vergoed. Tot de ondersteunde toewijzingsopties behoren: <p> <span class="uicontrol"> Recentste (laatste): Verleent alle kredieten aan de laatste referentie (wanbetaling). </span> </p> <p> <span class="uicontrol"> Oorspronkelijke waarde: Hiermee krijgt de eerste referentie alle krediet. </span> </p> <p> <span class="uicontrol"> Lineair: De </span>kredietpunten worden gelijkelijk verdeeld tussen alle referentie-instanties. </p> </td> 
+   <td colname="col2"> Geeft aan hoe een verwijzingsverzoek moet worden vergoed. Tot de ondersteunde toewijzingsopties behoren: <p> <span class="uicontrol"> Recentste (laatste): </span> Hiermee krijgt de laatste referentie alle krediet (wanbetaling). </p> <p> <span class="uicontrol"> Oorspronkelijke waarde: </span> Hiermee krijgt de eerste referentie alle krediet. </p> <p> <span class="uicontrol"> Lineair: </span>Verdeelt de kredietverlening gelijkelijk over alle referentie-instanties. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Verlopen na </td> 
    <td colname="col2"> 
     <ul id="ul_95EB224CAD164E9997B148E08AFA5F9B"> 
-     <li id="li_C240460C21E14AA498D2EA62B9354710"> <span class="uicontrol"> Bezoek: </span> Na een bepaalde periode van inactiviteit; gewoonlijk ongeveer 30 minuten. </li> 
+     <li id="li_C240460C21E14AA498D2EA62B9354710"> <span class="uicontrol"> Bezoek: </span> na een bepaalde periode van inactiviteit; gewoonlijk ongeveer 30 minuten. </li> 
      <li id="li_A3AE5438919E44B68DF99BEEA60C44EE"> <span class="uicontrol"> Paginaweergave: </span> Zodra een pagina op uw site wordt geopend. </li> 
      <li id="li_D5E20FEF313E4C5B99E7097CA175761A"> <span class="uicontrol"> Minuut: </span> Na 1 minuut inactiviteit. </li> 
      <li id="li_7315AA3EDDBB47A2BEA3C173881378A1"> <span class="uicontrol"> Aankoop: </span> Op het moment van aankoop. </li> 
@@ -52,5 +55,7 @@ Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over z
  </tbody> 
 </table>
 
->[!NOTE] Alle zoekmethoden verlopen wanneer het bezoek eindigt. Als u ervoor kiest om te vervallen na een andere gebeurtenis (bijvoorbeeld Afhandeling starten), verloopt de zoekmethode wanneer Afhandeling starten plaatsvindt tijdens het bezoek. Als er tijdens het bezoek geen uitchecken van winkelwagentjes plaatsvindt, verloopt de zoekmethode nog steeds wanneer het bezoek afloopt.
+>[!NOTE]
+>
+>Alle zoekmethoden verlopen wanneer het bezoek eindigt. Als u ervoor kiest om te vervallen na een andere gebeurtenis (bijvoorbeeld Afhandeling starten), verloopt de zoekmethode wanneer Afhandeling starten plaatsvindt tijdens het bezoek. Als er tijdens het bezoek geen uitchecken van winkelwagentjes plaatsvindt, verloopt de zoekmethode nog steeds wanneer het bezoek afloopt.
 
