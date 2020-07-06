@@ -2,7 +2,10 @@
 title: purchaseID
 description: Gededupliceerde hits op basis van een unieke aankoop-id.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ Wanneer Adobe een hit herkent als een dubbele aankoop, worden niet alle conversi
 
 De aankoop-id&#39;s gelden voor alle bezoekers en verlopen niet. Als een bezoeker een bepaalde aankoop-id instelt, stelt een andere bezoeker die aankoop-id een jaar later in, dan wordt de tweede aankoop gedupliceerd.
 
-## Aankoop-id in Adobe Experience Platform Starten
+## Aankoop-id in Adobe Experience Platform starten
 
 Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
@@ -29,4 +32,6 @@ Deze variabele kan maximaal 20 bytes opslaan; waarden langer dan 20 bytes zijn a
 s.purchaseID = "ABC123";
 ```
 
->[!NOTE] Gebruik geen randomisatiefunctie om een aankoop-id te genereren. Adobe raadt u aan een [gegevenslaag](../../prepare/data-layer.md) te gebruiken om een bepaalde aankoop-id op te slaan.
+>[!NOTE]
+>
+>Gebruik geen randomisatiefunctie om een aankoop-id te genereren. Adobe raadt u aan een [gegevenslaag](../../prepare/data-layer.md) te gebruiken om een bepaalde aankoop-id op te slaan.
