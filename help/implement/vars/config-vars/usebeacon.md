@@ -2,7 +2,10 @@
 title: useBeacon
 description: Met useBeacon kunt u AppMeasurement forceren om de sendBeacon-API voor browsers te gebruiken
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 0%
 
 ---
 
@@ -13,11 +16,13 @@ De meeste moderne browsers beschikken over de native methode `navigator.sendBeac
 
 Als `useBeacon` deze optie is ingeschakeld, gebruikt de volgende hit die naar Adobe wordt verzonden de `navigator.sendBeacon()` methode van de browser in plaats van een standaard `GET` afbeeldingsaanvraag. Deze variabele is van toepassing op zowel [`s.t()`](../functions/t-method.md) afbeeldingsaanvragen als [`s.tl()`](../functions/tl-method.md) afbeeldingsaanvragen. Hiervoor is AppMeasurement 2.17.0 of hoger vereist.
 
->[!TIP] AppMeasurement schakelt automatisch `useBeacon` voor het afsluiten van afbeeldingsaanvragen voor koppelingen in.
+>[!TIP]
+>
+>AppMeasurement schakelt automatisch `useBeacon` voor het afsluiten van afbeeldingsaanvragen voor koppelingen in.
 
 De `useBeacon` variabele wordt genegeerd wanneer de bezoeker een browser gebruikt die geen ondersteuning biedt `navigator.sendBeacon()`. Het gebruik van deze variabele vereist AppMeasurement 2.16.0 of hoger.
 
-## Beacon gebruiken in Adobe Experience Platform Launch
+## Band gebruiken bij starten van Adobe Experience Platform
 
 Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
@@ -29,4 +34,6 @@ De `s.useBeacon` variabele is een Booleaanse waarde die bepaalt of AppMeturement
 s.useBeacon = true;
 ```
 
->[!NOTE] Nadat een volgende vraag loopt, wordt deze variabele teruggesteld aan `false`. Als uw implementatie meerdere verzoeken om afbeeldingen verzendt in dezelfde pagina die wordt geladen (zoals toepassingen van één pagina), stelt u deze variabele in op `true` vóór elke volgende aanroep.
+>[!NOTE]
+>
+>Nadat een volgende vraag loopt, wordt deze variabele teruggesteld aan `false`. Als uw implementatie meerdere verzoeken om afbeeldingen verzendt in dezelfde pagina die wordt geladen (zoals toepassingen van één pagina), stelt u deze variabele in op `true` vóór elke volgende aanroep.
