@@ -1,11 +1,11 @@
 ---
-description: De aangepaste Insight-conversievariabele (of eVar) wordt in de Adobe-code op geselecteerde webpagina's van uw site geplaatst. Zijn belangrijkste doel is omzettingssuccesmetriek in douane marketing rapporten te segmenteren. Een eVar kan op bezoek-gebaseerd zijn en functioneren gelijkaardig aan koekjes. Waarden die in eVar-variabelen worden doorgegeven, volgen de gebruiker gedurende een vooraf bepaalde periode.
+description: De Custom Insight-conversievariabele (of eVar) wordt in de Adobe-code op geselecteerde webpagina's van uw site geplaatst. Zijn belangrijkste doel is omzettingssuccesmetriek in douane marketing rapporten te segmenteren. Een eVar kan op bezoek-gebaseerd zijn en functioneren gelijkaardig aan koekjes. Waarden die in eVar-variabelen worden doorgegeven, volgen de gebruiker gedurende een vooraf bepaalde periode.
 keywords: eVar
 title: Conversievariabelen (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Conversievariabelen (eVars)
 
-De aangepaste Insight-conversievariabele (of eVar) wordt in de Adobe-code op geselecteerde webpagina&#39;s van uw site geplaatst. Zijn belangrijkste doel is omzettingssuccesmetriek in douane marketing rapporten te segmenteren. Een eVar kan op bezoek-gebaseerd zijn en functioneren gelijkaardig aan koekjes. Waarden die in eVar-variabelen worden doorgegeven, volgen de gebruiker gedurende een vooraf bepaalde periode.
+De Custom Insight-conversievariabele (of eVar) wordt in de Adobe-code op geselecteerde webpagina&#39;s van uw site geplaatst. Zijn belangrijkste doel is omzettingssuccesmetriek in douane marketing rapporten te segmenteren. Een eVar kan op bezoek-gebaseerd zijn en functioneren gelijkaardig aan koekjes. Waarden die in eVar-variabelen worden doorgegeven, volgen de gebruiker gedurende een vooraf bepaalde periode.
 
 Wanneer een eVar aan een waarde voor een bezoeker wordt geplaatst, onthoudt Adobe automatisch die waarde tot het verloopt. Eventuele succesgebeurtenissen die een bezoeker tegenkomt terwijl de eVar-waarde actief is, worden geteld bij de eVar-waarde.
 
@@ -27,7 +27,9 @@ Vars kunnen het beste worden gebruikt om oorzaak en effect te meten, zoals:
 
 Als verkeersmeting of het kleven gewenst is, wordt het gebruiken van verkeersvariabelen geadviseerd.
 
->[!NOTE] Er kan slechts één waarde in een eVar in een afbeeldingsaanvraag worden opgeslagen. Als er meerdere waarden in een eVar-waarde zijn gewenst, raden we u aan [Lijstvariabelen (list vars)](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html)te implementeren.
+>[!NOTE]
+>
+>Er kan slechts één waarde in een eVar in een afbeeldingsaanvraag worden opgeslagen. Als er meerdere waarden in een eVar-waarde zijn gewenst, raden we u aan [Lijstvariabelen (list vars)](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html)te implementeren.
 
 ## Conversievariabelen - beschrijvingen {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -51,7 +53,7 @@ Beschrijvingen van velden die worden gebruikt bij het [bewerken van conversievar
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Toewijzing </span> </p> </td> 
-   <td colname="col2"> <p>Bepaalt hoe Analytics kredieten voor een succesgebeurtenis toewijst als een variabele veelvoudige waarden vóór de gebeurtenis ontvangt. Tot de ondersteunde waarden behoren: </p> <p> <b>Recentste versie</b>: De laatste eVar waarde ontvangt altijd krediet voor succesgebeurtenissen tot die eVar verloopt. </p> <p> <b>Oorspronkelijke waarde</b>: De eerste eVar ontvangt altijd krediet voor succesgebeurtenissen tot die eVar verloopt. </p> <p> <b> Lineair</b>:Hiermee worden succesgebeurtenissen gelijkmatig toegewezen aan alle eVar-waarden. Aangezien de Lineaire toewijzing waarden slechts binnen een bezoek nauwkeurig verspreidt, gebruik Lineaire toewijzing met een Vervaldatum van Bezoek. </p> <p>Opmerking:  Als u van of naar Lineair schakelt, worden historische gegevens niet weergegeven. Het mengen van toewijzingstypes in de rapporteringsinterface kan tot misverklaarbare gegevens in rapporten leiden. Zo kan lineaire toewijzing inkomsten verdelen over een aantal verschillende eVar-waarden. Na het terugkeren naar de meest recente toewijzing, zou 100% van die opbrengst met de meest recente enige waarde worden geassocieerd. Deze koppeling kan leiden tot onjuiste conclusies van gebruikers. </p> <p>Om de kans op verwarring bij het rapporteren te vermijden, maakt Analytics de historische gegevens niet aan de interface beschikbaar. U kunt deze bekijken als u de opgegeven eVar weer wilt instellen op de eerste toewijzingsinstelling. Wijzig echter niet alleen de instellingen voor eVar-toewijzing voor toegang tot de historische gegevens. Adobe raadt u aan een nieuwe eVar te gebruiken wanneer u nieuwe toewijzingsinstellingen wilt gebruiken voor gegevens die al worden opgenomen, in plaats van de toewijzingsinstellingen te wijzigen op een eVar waarvan al een aanzienlijke hoeveelheid historische gegevens is opgebouwd. </p> </td> 
+   <td colname="col2"> <p>Bepaalt hoe Analytics credit for a success event toewijst als een variabele meerdere waarden vóór de gebeurtenis ontvangt. Tot de ondersteunde waarden behoren: </p> <p> <b>Recentste versie</b>: De laatste eVar waarde ontvangt altijd krediet voor succesgebeurtenissen tot die eVar verloopt. </p> <p> <b>Oorspronkelijke waarde</b>: De eerste eVar ontvangt altijd krediet voor succesgebeurtenissen tot die eVar verloopt. </p> <p> <b> Lineair</b>:Hiermee worden succesgebeurtenissen gelijkmatig toegewezen aan alle eVar-waarden. Aangezien de Lineaire toewijzing waarden slechts binnen een bezoek nauwkeurig verspreidt, gebruik Lineaire toewijzing met een Vervaldatum van Bezoek. </p> <p>Opmerking:  Als u van of naar Lineair schakelt, worden historische gegevens niet weergegeven. Het mengen van toewijzingstypes in de rapporteringsinterface kan tot misverklaarbare gegevens in rapporten leiden. Zo kan lineaire toewijzing inkomsten verdelen over een aantal verschillende eVar-waarden. Na het terugkeren naar de meest recente toewijzing, zou 100% van die opbrengst met de meest recente enige waarde worden geassocieerd. Deze koppeling kan leiden tot onjuiste conclusies van gebruikers. </p> <p>Om verwarring bij de rapportage te voorkomen, maakt Analytics de historische gegevens niet beschikbaar voor de interface. U kunt deze bekijken als u de opgegeven eVar weer wilt instellen op de eerste toewijzingsinstelling. Wijzig echter niet alleen de instellingen voor eVar-toewijzing voor toegang tot de historische gegevens. Adobe raadt u aan een nieuwe eVar te gebruiken wanneer u nieuwe toewijzingsinstellingen wilt gebruiken voor gegevens die al worden opgenomen, in plaats van de toewijzingsinstellingen te wijzigen op een eVar waarvan al een aanzienlijke hoeveelheid historische gegevens is opgebouwd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Verlopen na</span> </p> </td> 
