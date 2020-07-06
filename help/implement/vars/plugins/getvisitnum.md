@@ -2,18 +2,23 @@
 title: getVisitNum
 description: Volg het huidige bezoeknummer van een bezoeker.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1027'
+ht-degree: 0%
 
 ---
 
 
 # Adobe-insteekmodule: getVisitNum
 
->[!IMPORTANT] Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde te krijgen van Adobe Analytics. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>[!IMPORTANT]
+>
+>Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-De `getVisitNum` insteekmodule retourneert het bezoeknummer voor alle bezoekers die binnen het gewenste aantal dagen naar de site komen. De Werkruimte van de analyse biedt een dimensie van het Aantal van het Bezoek aan die gelijkaardige functionaliteit verstrekt. Adobe raadt u aan deze plug-in te gebruiken als u meer controle wilt over de verhoging van het bezoeknummer. Deze insteekmodule is niet nodig als de ingebouwde dimensie &#39;Visit Number&#39; in de analysewerkruimte toereikend is voor uw rapportagevereisten.
+De `getVisitNum` insteekmodule retourneert het bezoeknummer voor alle bezoekers die binnen het gewenste aantal dagen naar de site komen. Analysis Workspace heeft een dimensie &#39;Visit Number&#39; die vergelijkbare functionaliteit biedt. Adobe raadt u aan deze plug-in te gebruiken als u meer controle wilt over de verhoging van het bezoeknummer. Deze insteekmodule is niet nodig als de ingebouwde dimensie Visit Number in Analysis Workspace voldoende is voor uw rapportagevereisten.
 
-## De plug-in installeren met de Adobe Experience Platform Launch-extensie
+## De plug-in installeren met de extensie Adobe Experience Platform starten
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
@@ -25,7 +30,7 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
+   * Extensie: Algemene Analytics-plug-ins
    * Type handeling: Initialiseren getVisitNum
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -38,11 +43,11 @@ Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-
 1. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder de extensie Adobe Analytics.
 1. Vouw de [!UICONTROL Configure tracking using custom code] accordeon uit, zodat de [!UICONTROL Open Editor] knop zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
-1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
+1. Sla de wijzigingen in de Analytics-extensie op en publiceer deze.
 
 ## De plug-in installeren met AppMeturement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het trackingobject Analytics is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -138,7 +143,7 @@ s.prop1=s.getVisitNum("y");
 
 ### Voorbeeld 7
 
-Als u het bezoeknummer van een bezoeker voor de week, het bezoeknummer van een bezoeker voor de maand, en het bezoeknummer van een bezoeker voor het jaar - allen binnen verschillende variabelen van de Analyse - wilt volgen, zou u code moeten gebruiken die op het volgende lijkt:
+Als u het bezoeknummer van een bezoeker voor de week, het bezoeknummer van een bezoeker voor de maand en het bezoeknummer van een bezoeker voor het jaar wilt bijhouden - allemaal binnen verschillende Analytics-variabelen -, moet u code gebruiken die op het volgende lijkt:
 
 ```js
 s.prop1=s.getVisitNum("w");
