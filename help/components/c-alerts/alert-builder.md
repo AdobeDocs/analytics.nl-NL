@@ -3,7 +3,10 @@ description: 'null'
 title: Alert Builder
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 U kunt de waarschuwingsfunctie op vier manieren openen:
 
-* Door de volgende kortere weg in de Werkruimte van de Analyse te gebruiken:
+* Met de volgende sneltoets in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
 * Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
@@ -35,7 +38,9 @@ Geef een naam op voor de waarschuwing. De waakzame naam zou de naam van het rapp
 
 Geef op wanneer u de metrische waarde wilt controleren: Uur, Dagelijks, Wekelijks, of Maandelijks.
 
->[!NOTE] Voor rapportsuites met een aangepaste kalender ondersteunen we geen maandelijkse granulariteit in de Waarschuwingsbouwer.
+>[!NOTE]
+>
+>Voor rapportsuites met een aangepaste kalender ondersteunen we geen maandelijkse granulariteit in de Waarschuwingsbouwer.
 
 **Ontvangers**
 
