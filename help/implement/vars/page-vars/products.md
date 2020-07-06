@@ -1,22 +1,24 @@
 ---
-title: producten
+title: products
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# producten
+# products
 
 De `products` variabele houdt producten en eigenschappen bij die aan hen worden gebonden. Deze variabele wordt doorgaans ingesteld op afzonderlijke productpagina&#39;s, winkelwagenpagina&#39;s en pagina&#39;s met aankoopbevestiging. Dit is een variabele met meerdere waarden. Dit betekent dat u meerdere producten in dezelfde hit kunt verzenden en dat Adobe de waarde parseert in afzonderlijke waarden voor dimensies.
 
-> [!NOTE] Als deze variabele in een hit zonder een winkelwagentgebeurtenis in de [`events`](events/events-overview.md) variabele wordt geplaatst, [toont](/help/components/metrics/product-views.md) de metrische toename van de Weergaven van het Product met 1. Zorg ervoor dat u de juiste winkelwagentgebeurtenis instelt bij elke treffer met de `products` variabele.
+>[!NOTE]
+>
+>Als deze variabele in een hit zonder een winkelwagentgebeurtenis in de [`events`](events/events-overview.md) variabele wordt geplaatst, [toont](/help/components/metrics/product-views.md) de metrische toename van de Weergaven van het Product met 1. Zorg ervoor dat u de juiste winkelwagentgebeurtenis instelt bij elke treffer met de `products` variabele.
 
-## Producten in Adobe Experience Platform Launch
+## Producten in Adobe Experience Platform starten
 
 Er is geen specifiek veld in Launch om deze variabele in te stellen. er zijn echter meerdere extensies van derden die u helpen.
 
@@ -35,7 +37,7 @@ De `s.products` variabele is een tekenreeks die meerdere gescheiden velden per p
 * **Productnaam** (verplicht): De naam van het product.
 * **Hoeveelheid** (facultatief): Hoeveel van dit product zit in de kar. Dit veld is alleen van toepassing op hits met de koopgebeurtenis.
 * **Prijs** (optioneel): De totale prijs van het product als decimaal. Indien meer dan één hoeveelheid is, de totale prijs en niet de individuele productprijs. Lijn de valuta van deze waarde uit zodat deze overeenkomt met de [`currencyCode`](../config-vars/currencycode.md) variabele. Plaats het valutasymbool niet in dit veld. Dit veld is alleen van toepassing op hits met de koopgebeurtenis.
-* **Gebeurtenissen** (optioneel): Gebeurtenissen die aan het product zijn gekoppeld. Maak meerdere gebeurtenissen gescheiden met een pipe (`|`). Zie [gebeurtenissen](events/events-overview.md) voor meer informatie.
+* **Gebeurtenissen** (optioneel): Gebeurtenissen die aan het product zijn gekoppeld. Maak meerdere gebeurtenissen gescheiden met een pipe (`|`). See [events](events/events-overview.md) for more information.
 * **eVars** (optioneel): Merchandising eVars gekoppeld aan het product. Meerdere merchandising Vars scheiden met een pipe (`|`). Zie [Verkopen Vars](evar-merchandising.md) voor meer informatie.
 
 ```js
@@ -50,7 +52,9 @@ Deze variabele ondersteunt meerdere producten in dezelfde hit. Het is waardevol 
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Strip alle puntkomma&#39;s, komma&#39;s en pijpen van productnamen, categorieën en merchandising eVar-waarden. Als een productnaam een komma bevat, parseert AppMeasurement deze als het begin van een nieuw product. Door deze onjuiste parsering wordt de rest van de productreeks verwijderd, waardoor onjuiste gegevens in afmetingen en rapporten ontstaan.
+>[!IMPORTANT]
+>
+>Strip alle puntkomma&#39;s, komma&#39;s en pijpen van productnamen, categorieën en merchandising eVar-waarden. Als een productnaam een komma bevat, parseert AppMeasurement deze als het begin van een nieuw product. Door deze onjuiste parsering wordt de rest van de productreeks verwijderd, waardoor onjuiste gegevens in afmetingen en rapporten ontstaan.
 
 ## Voorbeelden
 
