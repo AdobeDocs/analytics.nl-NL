@@ -3,7 +3,10 @@ description: Met de Calculated Metrics Builder kunt u statistische en wiskundige
 title: Referentie van basisfuncties
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +17,9 @@ Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toe
 
 Hier volgt een alfabetische lijst van de functies en hun definities.
 
->[!NOTE] Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere uitdrukkingen van metriek ook toegestaan. Zo kunt u [!DNL MAXV(metrics)] ook [!DNL MAXV(PageViews + Visits).]
+>[!NOTE]
+>
+>Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere uitdrukkingen van metriek ook toegestaan. Zo kunt u [!DNL MAXV(metrics)] ook [!DNL MAXV(PageViews + Visits).]
 
 ## Tabelfuncties versus rijfuncties {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -34,7 +39,7 @@ ABS(metric)
 
 ## Maximum kolom {#concept_B25518D717D24F82B65CDE49A153D3A3}
 
-Retourneert de grootste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
+Retourneert de hoogste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
 
 ```
 MAXV(metric)
@@ -255,7 +260,7 @@ SQRT(metric)
 
 ## Standaardafwijking (tabel) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
-Retourneert de standaardafwijking of vierkantswortel van de variantie, gebaseerd op een samplepopulatie van gegevens.
+Retourneert de standaardafwijking, of vierkantswortel van de variantie, gebaseerd op een samplepopulatie van gegevens.
 
 De vergelijking voor STDEV is:
 
@@ -274,7 +279,7 @@ STDEV(metric)
    <td> <b> Beschrijving</b> </td> 
   </tr> 
   <tr> 
-   <td> <b> <i> metrisch</i></b> </td> 
+   <td> <b> <i> metrisch</i> </b> </td> 
    <td> <p> De metrische waarde waarvoor u standaardafwijking wilt. </p> </td> 
   </tr> 
  </tbody> 
@@ -316,7 +321,7 @@ Als voorbeeld, laten wij zeggen u een drie-puntenkolom hebt:
 
 3
 
-Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In de ad hoc analyse zal dit als volgt kijken:
+Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In het Ad hoc analysis ziet dit er zo uit:
 
 1 2/3
 
