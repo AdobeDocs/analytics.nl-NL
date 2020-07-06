@@ -2,7 +2,10 @@
 title: s_gi()
 description: Creeer en spoor instanties van AppMeasurement.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 1%
 
 ---
 
@@ -13,7 +16,7 @@ De `s_gi()` functie instantieert of vindt een geval van AppMeasurement door rapp
 
 ## s_gi() in Adobe Experience Platform Launch
 
-De extensie Analytics instantieert en beheert het volgende object voor u. U kunt echter ook een algemeen traceringsobject in de [!UICONTROL Library Management] accordeon instellen wanneer u de extensie Adobe Analytics configureert.
+De extensie Analytics instantieert en beheert het volgende object voor u. U kunt echter ook een algemeen traceringsobject instellen in de [!UICONTROL Library Management] accordeon wanneer u de Adobe Analytics-extensie configureert.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
@@ -26,7 +29,9 @@ In het tekstveld voor algemene variabelen kunt u een aangepast tekstobject bijho
 
 Roep de `s_gi()` functie aan om een volgend object te instantiëren. Zijn enige argument bevat een komma-afgebakende koord van rapportreeks IDs. Het argument van ID van de rapportsuite is vereist.
 
->[!TIP] Adobe raadt u aan de `s` variabele te gebruiken als een tekstspatiëringsobject. Adobe gebruikt `s` de documentatie, implementatievoorbeelden en plug-ins. U kunt echter elke variabele gebruiken zolang u op de hele site consistent bent.
+>[!TIP]
+>
+>Adobe raadt u aan de `s` variabele te gebruiken als een tekstspatiëringsobject. Adobe gebruikt `s` de documentatie, implementatievoorbeelden en plug-ins. U kunt echter elke variabele gebruiken zolang u op de hele site consistent bent.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,7 +41,9 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
->[!CAUTION] De volgende secties en voorbeelden bevatten complexe implementatieonderwerpen. Test uw implementatie grondig en traceer belangrijke aanpassingen in het document [van het de](../../prepare/solution-design.md)oplossingsontwerp van uw organisatie.
+>[!CAUTION]
+>
+>De volgende secties en voorbeelden bevatten complexe implementatieonderwerpen. Test uw implementatie grondig en traceer belangrijke aanpassingen in het document [van het de](../../prepare/solution-design.md)oplossingsontwerp van uw organisatie.
 
 ## Meerdere implementaties beheren met verschillende trackingobjecten
 
