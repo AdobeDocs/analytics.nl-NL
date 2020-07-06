@@ -2,14 +2,19 @@
 title: dynamicAccountList
 description: Bepaal logica op hoe uw implementatie zijn rapportreeks bepaalt.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 0%
 
 ---
 
 
 # s.dynamicAccountList
 
->[!IMPORTANT] Dynamische accounts worden alleen ondersteund met behulp van verouderde JavaScript-implementaties (H Code). Deze variabelen worden niet ondersteund in de huidige AppMeasurement-bibliotheken of Adobe Experience Platform Launch.
+>[!IMPORTANT]
+>
+>Dynamische accounts worden alleen ondersteund met behulp van verouderde JavaScript-implementaties (H Code). Deze variabelen worden niet ondersteund in de huidige AppMeasurement-bibliotheken of Adobe Experience Platform Launch.
 
 De `s.dynamicAccountList` variabele bepaalt dynamisch de waarde van `s_account`. Wanneer `dynamicAccountSelection` deze is ingesteld op `true`, wordt de `dynamicAccountMatch` variabele vergeleken met `dynamicAccountList`. Als een gelijke wordt gevonden, wordt de passende identiteitskaart van de rapportreeks gebruikt.
 
