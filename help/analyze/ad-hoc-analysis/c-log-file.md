@@ -4,7 +4,10 @@ title: Logbestand
 topic: Ad hoc analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 4%
 
 ---
 
@@ -20,5 +23,7 @@ U kunt een logbestand snel opslaan en weergeven door:
 1. Klik op het **[!UICONTROL Ad Hoc Analysis]** logo.
 1. Klik op **[!UICONTROL Save Log File]**.
 
->[!NOTE] Het logboek u sparen gebruikend deze procedure is voor de huidige zitting.
+>[!NOTE]
+>
+>Het logboek u sparen gebruikend deze procedure is voor de huidige zitting.
 
