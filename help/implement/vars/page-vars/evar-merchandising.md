@@ -2,7 +2,7 @@
 title: eVar (Merchandising)
 description: Aangepaste variabelen die aan afzonderlijke producten zijn gekoppeld.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 Alvorens eVars in uw implementatie te gebruiken, zorg ervoor u eVar aan de gewenste syntaxis in de montages van de rapportreeks vormt. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de handleiding Admin.
 
->[!IMPORTANT] Het niet correct configureren van merchandising Vars leidt tot onverwachte waarden of gegevensverlies voor de variabele. Zorg ervoor het correct voor uw implementatie wordt gevormd.
+>[!IMPORTANT]
+>
+>Het niet correct configureren van merchandising Vars leidt tot onverwachte waarden of gegevensverlies voor de variabele. Zorg ervoor het correct voor uw implementatie wordt gevormd.
 
 ## Implementeren met behulp van productsyntaxis
 
