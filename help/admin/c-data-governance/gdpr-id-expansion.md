@@ -2,8 +2,11 @@
 description: 'De id''s die u verzendt, hebben niet altijd betrekking op alle treffers die door Analytics aan de geregistreerde persoon kunnen worden gekoppeld. Analytics kan een uitgebreide reeks id''s maken om deze gekoppelde data op te nemen in de Data Privacy-aanvragen. U kunt deze optie aanvragen met een optionele parameter voor elke Data Privacy-aanvraag die u verzendt, toegevoegd aan de JSON-aanvraag '
 title: Id-uitbreiding
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +59,9 @@ In de toekomst ondersteunt de “analyticsDeleteMethod” mogelijk een waarde va
 
 Naast de standaardwaarde ondersteunt steunt het prioriteitsveld ook een waarde van “laag”. U moet deze waarde opgeven voor aanvragen die niet het resultaat zijn van een aanvraag van een geregistreerde persoon, en waarvoor dus geen wettelijke verplichting geldt om binnen 30 dagen te zijn afgehandeld. Adobe raadt het gebruik van de Privacy Service-API af om andere redenen dan aanvragen die door geregistreerde personen zijn geïnitieerd. De Privacy Service-API is geen geschikte tool voor het opschonen of repareren van data en zal onbedoelde gevolgen hebben.
 
->[!NOTE] De [Privacy Service-API](https://www.adobe.io/apis/experienceplatform/gdpr.html) is bedoeld om u te helpen bij het afhandelen van Data Privacy-aanvragen, die tijdsgevoelig zijn. Het gebruik van deze API voor andere doeleinden wordt niet ondersteund door Adobe en kan een nadelige invloed hebben op de snelheid waarmee Adobe door de gebruiker geïnitieerde Data Privacy-aanvragen met hoge prioriteit voor andere Adobe-klanten kan afhandelen. We vragen u de Privacy Service-API niet te gebruiken voor andere doeleinden, zoals het wissen van data die per ongeluk zijn verzonden tussen grote groepen bezoekers.
+>[!NOTE]
+>
+>De [Privacy Service-API](https://www.adobe.io/apis/experienceplatform/gdpr.html) is bedoeld om u te helpen bij het afhandelen van Data Privacy-aanvragen, die tijdsgevoelig zijn. Het gebruik van deze API voor andere doeleinden wordt niet ondersteund door Adobe en kan een nadelige invloed hebben op de snelheid waarmee Adobe door de gebruiker geïnitieerde Data Privacy-aanvragen met hoge prioriteit voor andere Adobe-klanten kan afhandelen. We vragen u de Privacy Service-API niet te gebruiken voor andere doeleinden, zoals het wissen van data die per ongeluk zijn verzonden tussen grote groepen bezoekers.
 
 Bedenk ook dat voor bezoekers die een treffer hebben verwijderd (bijgewerkt of geanonimiseerd) als gevolg van een Data Privacy-verwijderingsaanvraag, de statusgegevens worden hersteld. De volgende keer dat de bezoeker uw website bezoekt, wordt deze een nieuwe bezoeker. Alle eVar-attributie wordt opnieuw gestart, evenals informatie als aantal bezoeken, referrers, bezochte eerste pagina, enz. Dit bijeffect is ongewenst in situaties waarin u datavelden wilt wissen, en legt de nadruk op één reden waarom de Privacy Service-API niet geschikt is voor dit gebruik.
 
