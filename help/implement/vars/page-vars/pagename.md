@@ -2,7 +2,10 @@
 title: pageName
 description: De naam van de pagina op uw site.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 1%
 
 ---
 
@@ -11,19 +14,21 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 In de `pageName` variabele wordt doorgaans de naam van een bepaalde pagina opgeslagen. Het is handig om te bepalen welke afzonderlijke pagina&#39;s het populairst zijn. Deze variabele vult de dimensie &#39;Paginanaam&#39;.
 
->[!NOTE] Deze dimensie wordt altijd gestript van verbinding het volgen vraag. Als u de paginanaam wilt zien waar een verbinding werd gevolgd, overweeg het kopiëren van deze variabele in een eVar.
+>[!NOTE]
+>
+>Deze dimensie wordt altijd gestript van verbinding het volgen vraag. Als u de paginanaam wilt zien waar een verbinding werd gevolgd, overweeg het kopiëren van deze variabele in een eVar.
 
 Als deze variabele niet op een bepaalde pagina het volgen vraag wordt bepaald, wordt de [`pageURL`](pageurl.md) variabele in plaats daarvan gebruikt.
 
-## Paginanaam in Adobe Experience Platform Launch
+## Paginanaam in Adobe Experience Platform starten
 
-U kunt paginanaam instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
+U kunt paginanaam instellen tijdens het configureren van de Analytics-extensie (globale variabelen) of onder regels.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 4. Klik onder [!UICONTROL Actions]op een bestaande [!UICONTROL Adobe Analytics - Set Variables] handeling of klik op het pictogram ‘+’.
-5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en stel het [!UICONTROL Action Type] in op [!UICONTROL Set Variables].
+5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en [!UICONTROL Action Type] op [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL Page name] sectie.
 
 U kunt de paginanaam instellen op elke tekenreekswaarde, inclusief gegevenselementen.
