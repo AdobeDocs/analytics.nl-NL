@@ -1,11 +1,11 @@
 ---
 description: Voeg of laat marketing kanalen in de Manager van het Kanaal van de Marketing toe. Voor rapportsuites die geen marketing kanalen hebben, laat een automatische opstelling u verscheidene kanalen voor u, samen met hun regels tot stand brengen. U kunt vooraf gedefinieerde kanalen naar wens bewerken of uw eigen kanalen maken (maximaal 25).
 subtopic: Marketing channels
-title: Verkoopkanalen beheren
+title: Marketingkanalen beheren
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 45c441a558168cb2af70855e848e1eaa26db8daa
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 ---
 
 
-# Verkoopkanalen beheren
+# Marketingkanalen beheren
 
 Voeg of laat marketing kanalen in de Manager van het Kanaal van de Marketing toe. Voor rapportsuites die geen marketing kanalen hebben, laat een automatische opstelling u verscheidene kanalen voor u, samen met hun regels tot stand brengen. U kunt vooraf gedefinieerde kanalen naar wens bewerken of uw eigen kanalen maken (maximaal 25).
 
@@ -32,11 +32,11 @@ Indien nodig neemt u contact op met de klantenservice om u te helpen met deze vo
 
 * Schakel in de beheerconsole (Algemene accountinstellingen) de optie **[!UICONTROL Conversion Level]** (e-commerce) voor de rapportsuite in.
 
-   Zie [Algemene accountinstellingen](https://docs.adobe.com/content/help/nl-NL/analytics/admin/admin-tools/general-acct-settings-admin.html) in de Help bij Analytics voor meer informatie.
+   Zie [Algemene accountinstellingen](https://docs.adobe.com/content/help/nl-NL/analytics/admin/admin-tools/general-acct-settings-admin.html) in Analytics Help voor meer informatie.
 
 * De toegang van de opstelling tot de afmetingen van het Kanaal van de Marketing.
 
-   Zie Machtigingen voor [marketingkanalen](/help/components/c-marketing-channels/c-channel-report-access.md).
+   See [Marketing Channels permissions](/help/components/c-marketing-channels/c-channel-report-access.md).
 
 * Zorg ervoor dat uw accountmanager uw rapportsuite heeft ingeschakeld **[!UICONTROL Channel Reports]** .
 
@@ -44,7 +44,9 @@ Indien nodig neemt u contact op met de klantenservice om u te helpen met deze vo
 
 Voeg marketingkanalen toe in de Marketing Channel Manager.
 
->[!NOTE] U kunt een kanaal niet verwijderen. Als u geen kanaal wilt gebruiken, kunt u het onbruikbaar maken of anders noemen, en het bewaren voor later gebruik.
+>[!NOTE]
+>
+>U kunt een kanaal niet verwijderen. Als u geen kanaal wilt gebruiken, kunt u het onbruikbaar maken of anders noemen, en het bewaren voor later gebruik.
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Selecteer een rapportsuite op de [!UICONTROL Report Suite Manager] pagina.
@@ -76,8 +78,8 @@ Er zijn verschillende instellingen die op elk kanaal op de [!UICONTROL Marketing
 | Kanaalnaam | De vriendelijke naam van het marketingkanaal. |
 | Laatste aanraakkanaal overschrijven | Hiermee kunt u kiezen of u een bestaand, blijvend laatste aanraakkanaal wilt overschrijven met het geselecteerde kanaal. Als u dit selectievakje inschakelt, overschrijft elk kanaal (inclusief Direct en Intern) een bestaand laatste aanraakkanaal. Het resultaat is dat conversie wordt toegeschreven aan een kanaal dat geen krediet verdient. Met deze optie kunt u er bijvoorbeeld voor zorgen dat het Direct-kanaal geen conversiekrediet ontvangt als de gebruiker eerder via het Natural Search-kanaal was aangeschaft. |
 | Kanaaluitsplitsing | Hiermee kunt u een kanaal opsplitsen op basis van deze waarde. U kunt mogelijke kanaalstoringen (subkanalen) toevoegen bij het maken van [marketingkanaalclassificaties](/help/components/c-marketing-channels/classifictions-mchannel.md). |
-| Type | Hiermee bepaalt u hoe de gebruiker naar uw site is gekomen. U kunt Online of Offline selecteren. Gebruik online kanalen voor bezoekers die via een zoekmachine of e-mailcampagne komen. Offlinekanalen zijn van toepassing op bezoekers die uw site hebben gevonden via krantencoupons of advertenties in tijdschriften. De off-line kanalen omvatten gewoonlijk gegevens die door het melden van Gegevensbronnen worden ingevoerd. Zie [Gegevensbronnen](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html). Zie Offlinegegevens [toevoegen](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| Kleur | Alleen rapporten en analyses: De kleur die aan dit marketingkanaal is gekoppeld. Deze kleur vertegenwoordigt het kanaal in het rapport van het Kanaal van de Marketing. |
+| Type | Hiermee bepaalt u hoe de gebruiker naar uw site is gekomen. U kunt Online of Offline selecteren. Gebruik online kanalen voor bezoekers die via een zoekmachine of e-mailcampagne komen. Offlinekanalen zijn van toepassing op bezoekers die uw site hebben gevonden via krantencoupons of advertenties in tijdschriften. De off-line kanalen omvatten gewoonlijk gegevens die door het melden van Gegevensbronnen worden ingevoerd. See [Data Sources](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html). Zie Offlinegegevens [toevoegen](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
+| Kleur | Alleen rapporten en Analytics: De kleur die aan dit marketingkanaal is gekoppeld. Deze kleur vertegenwoordigt het kanaal in het rapport van het Kanaal van de Marketing. |
 
 ### Beste werkwijzen overschrijven
 
