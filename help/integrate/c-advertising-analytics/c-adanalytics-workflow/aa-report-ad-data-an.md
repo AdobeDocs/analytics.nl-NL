@@ -1,20 +1,25 @@
 ---
-description: Details over het malplaatje van de Werkruimte van de Analyse, en het melden in Rapporten & Analytics en de Bouwer van het Rapport.
-title: Rapport over advertentiegegevens in Adobe Analytics
+description: Gegevens over de Analysis Workspace-sjabloon en rapportage in Reports & Analytics en Report Builder.
+title: Rapporteren over advertentiedata in Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 5%
 
 ---
 
 
-# Rapport over advertentiegegevens in Adobe Analytics
+# Rapporteren over advertentiedata in Adobe Analytics
 
-Details over het malplaatje van de Werkruimte van de Analyse, en het melden in Rapporten &amp; Analytics en de Bouwer van het Rapport.
+Gegevens over de Analysis Workspace-sjabloon en rapportage in Reports &amp; Analytics en Report Builder.
 
->[!NOTE] U moet ten minste 24 uur wachten voordat de zoekprogrammagegevens worden ingevuld in de analyserapporten. Bij Analytics-rapportage worden geen gegevens voor korreligheid per uur geretourneerd, omdat de AMO-gegevens geen ondersteuning bieden voor korreligheid per uur.
+>[!NOTE]
+>
+>Je moet minimaal 24 uur wachten voordat de zoekprogrammagegevens in je Analytics-rapporten worden ingevuld. Bij Analytics-rapportage worden geen gegevens voor korreligheid per uur geretourneerd, omdat de AMO-gegevens geen ondersteuning bieden voor korreligheid per uur.
 
-## Analyse van werkruimte: Zoekmachines {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+## Analysis Workspace: Zoekmachines {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
 Met deze sjabloon kan iedereen die deze integratie met de zoekmachine implementeert, toegang krijgen tot copieuze zoekprogrammagegevens in Analytics. U kunt het openen via **[!UICONTROL Workspace]** > **[!UICONTROL Templates]** > **[!UICONTROL Advertising]** > **[!UICONTROL Search Engines.]**
 
@@ -27,8 +32,8 @@ Met deze sjabloon kan iedereen die deze integratie met de zoekmachine implemente
 | Tabel/Visualisatie | Beschrijving |
 |--- |--- |
 | Reclametrends | Dagelijks trended-overzicht voor AMO-indrukkingen, AMO-klikken en AMO-kosten. |
-| Ad-platforms | Donut-kaart voor kosten van top 2 platforms (Google, Bing). |
-| Platformtotalen toevoegen | De tabel met vrije vormen van de topplatforms, uitgesplitst naar AMO-indrukkingen, AMO-klikken, AMO-kosten, AMO Avg. Positie, AMO Avg. Kwaliteitsscore. |
+| Platforms toevoegen | Donut-kaart voor kosten van top 2 platforms (Google, Bing). |
+| Totalen Platform toevoegen | De tabel met vrije vormen van de topplatforms, uitgesplitst naar AMO-indrukkingen, AMO-klikken, AMO-kosten, AMO Avg. Positie, AMO Avg. kwaliteitsscore. |
 | Accounts | Gestapeld kostengebied. |
 | Totaal account | De lijst van de Freeform van de hoogste rekeningen die door de bijbehorende metriek worden uitgesplitst. |
 | Campagnes | Staafdiagram met campagnekosten. |
@@ -40,12 +45,12 @@ Met deze sjabloon kan iedereen die deze integratie met de zoekmachine implemente
 | Trefwoorden | Spreidingsgrafiek van beelden, klikken, en kosten voor alle sleutelwoord/gelijketypecombinaties. |
 | Trefwoordtotalen | De lijst van Freeform van de hoogste sleutelwoord/gelijke typecombinaties die door de bijbehorende metriek worden verdeeld. |
 
-## Rapporten en analyses {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
+## Rapporten en Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
 
-Zodra u een account voor Advertising Analytics hebt ingesteld, wordt het verslag Advertising Analytics beschikbaar gesteld.
+Zodra u een advertentie-Analytics-account hebt ingesteld, wordt het advertentie-Analytics-rapport beschikbaar gesteld.
 
 ![](assets/aa_randa.png)
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-Zodra u een account voor Advertising Analytics hebt ingesteld, wordt het verslag Advertising Analytics beschikbaar gesteld.
+Zodra u een advertentie-Analytics-account hebt ingesteld, wordt het advertentie-Analytics-rapport beschikbaar gesteld.
