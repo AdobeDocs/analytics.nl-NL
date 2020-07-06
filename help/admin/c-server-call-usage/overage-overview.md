@@ -3,7 +3,10 @@ description: 'null'
 title: Overzicht van serveroproepgebruik
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1020'
+ht-degree: 1%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Waarom controle en alarm aan het Gebruik van de Vraag van de Server? {#section_060C29BF1D00444B85892AD1FCF55290}
 
-Het gebruik van de Vraag van de Server van de Analyse van Adobe richt uw verzoeken om transparantie in zowel browser als mobiele gegevens van het de vraaggebruik van de server. U hebt toegang tot:
+Het gebruik van de Vraag van de Server van Adobe Analytics richt uw verzoeken om transparantie in zowel browser als mobiele gegevens van het de vraaggebruik van de server. U hebt toegang tot:
 
 * Een dashboard van het Gebruik van de Vraag van de Server dat uw gegevens van het de vraagverbruik van de server volgt en het met uw contractuele grens vergelijkt. (**[!UICONTROL Analytics > Admin > Server Call Usage]**)
 * Een het waakzame type van het Gebruik van de Vraag van de Server in Waakzame Bouwer dat u opstellingsalarm laat om overages te verhinderen (**[!UICONTROL Analytics > Components >Alerts]**)
@@ -26,7 +29,7 @@ Eerder, terwijl u tot maandelijkse gegevens van het de vraagverbruik van de serv
 
 ## Vereisten {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Machtigingen:** Om tot het Dashboard van het Gebruik van de Vraag van de Server en Alert Builder/Manager toegang te hebben, moet u een Beheerder van de Analyse van Adobe zijn.
+* **Machtigingen:** U moet een Adobe Analytics-beheerder zijn om toegang te krijgen tot het dashboard voor serveroproepgebruik en de WaarschuwingsBuilder/Manager.
 * **Machtigingen:** Beheerders kunnen toegang verlenen aan niet-beheerders: de toestemming wordt geroepen **[!UICONTROL Server Call Usage]**. Zie Toestemming [van het Gebruik van de Vraag van de Server](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## Belangrijke terminologie {#section_CBA348A039F34563B097CD8890AB358D}
@@ -47,7 +50,7 @@ Hier is een korte inleiding op essentiële terminologie voor het Gebruik van de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Factureringsbedrijf (Factuur-ID) </p> </td> 
-   <td colname="col2"> <p>De juridische entiteit die voor servervraag in rekening wordt gebracht. Bijvoorbeeld adobe.com. Elk factureringsbedrijf heeft een Facturerings identiteitskaart die wordt gebruikt om de facturerende klant uniek te identificeren. Een facturerings-id kan worden gekoppeld aan meerdere Experience Cloud Orgs. er is niet altijd een 1:1-relatie tussen een org en een facturerings-id. </p> </td> 
+   <td colname="col2"> <p>De juridische entiteit die voor servervraag in rekening wordt gebracht. Bijvoorbeeld adobe.com. Elk factureringsbedrijf heeft een Facturerings identiteitskaart die wordt gebruikt om de facturerende klant uniek te identificeren. Een facturerings-id kan aan meerdere Experience Cloud Orgs zijn gekoppeld. er is niet altijd een 1:1-relatie tussen een org en een facturerings-id. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aanmeldingsbedrijf </p> </td> 
@@ -61,7 +64,7 @@ Hier is een korte inleiding op essentiële terminologie voor het Gebruik van de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud-organisatie </p> </td> 
-   <td colname="col2"> <p>Een organisatie is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en enige aanmelding in de Cloud van de Ervaring te controleren. De organisatie werkt als een aanmeldingsbedrijf dat alle producten en oplossingen van de Experience Cloud overspant. </p> <p>Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter veel organisaties hebben. </p> </td> 
+   <td colname="col2"> <p>Een organisatie is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en om enig teken-binnen in Experience Cloud te controleren. De organisatie werkt als een login bedrijf dat alle producten en oplossingen van Experience Cloud overspant. </p> <p>Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter veel organisaties hebben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbinding serveroproep </p> </td> 
@@ -78,33 +81,35 @@ Hier is een korte inleiding op essentiële terminologie voor het Gebruik van de 
  </tbody> 
 </table>
 
-## Machtiging voor serveroproepgebruik {#section_FCC58EB635954A32990D4E67B52B4369}
+## Server Call Usage Permission {#section_FCC58EB635954A32990D4E67B52B4369}
 
-De toestemming van het Gebruik van de Vraag van de Server wordt automatisch verleend aan Analytics Admins. Gebruikers kunnen het dashboard bekijken en waarschuwingen voor serveroproepen maken. Beheerders kunnen deze machtiging aan niet-beheerders verlenen.
+De toestemming van het Gebruik van de Vraag van de Server wordt automatisch verleend aan de Admins van Analytics. Gebruikers kunnen het dashboard bekijken en waarschuwingen voor serveroproepen maken. Beheerders kunnen deze machtiging aan niet-beheerders verlenen.
 
->[!NOTE] Uw bedrijf kan kiezen welke login bedrijven toegang tot het Gebruik van de Vraag van de Server hebben.
+>[!NOTE]
+>
+>Uw bedrijf kan kiezen welke login bedrijven toegang tot het Gebruik van de Vraag van de Server hebben.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Naam bevoegdheid </th> 
-   <th colname="col3" class="entry"> Toestemming verlenen als u bent aangemeld bij Adobe Analytics (Verouderde aanmelding) </th> 
-   <th colname="col4" class="entry"> Toestemming verlenen als u bent aangemeld bij Adobe Experience Cloud </th> 
+   <th colname="col3" class="entry"> Toestemming verlenen als u bent aangemeld bij Adobe Analytics (verouderde aanmelding) </th> 
+   <th colname="col4" class="entry"> Machtiging verlenen als u bent aangemeld bij Adobe Experience Cloud </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Gebruik van serveroproep </p> </td> 
+   <td colname="col1"> <p>Gebruik van server calls </p> </td> 
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Meld u aan bij Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigeer naar <span class="ignoretag"> Beheer <span class="uicontrol"> &gt; </span> Gebruikersbeheer <span class="uicontrol"> &gt; </span> Groepen &gt; Alle rapporttoegang bewerken <span class="uicontrol"> &gt; </span> Analytics Tools  &gt; Aanpassen &gt; Gebruik van  serveroproep <span class="uicontrol"> </span> <span class="uicontrol"> </span> <span class="uicontrol"> </span> <span class="uicontrol"> </span> &gt; </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigeer naar <span class="ignoretag"> Beheer <span class="uicontrol"> &gt; </span> Gebruikersbeheer <span class="uicontrol"> &gt; </span> Groepen <span class="uicontrol"> &gt; </span> Alle rapporttoegang bewerken <span class="uicontrol"> &gt; </span> <span class="uicontrol"> </span> <span class="uicontrol"> </span> <span class="uicontrol"> Analytics Tools  &gt; Aanpassen &gt; Gebruik van  serveroproep </span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">Meld u aan bij login.experienceCloud.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Klik op <span class="uicontrol"> Analytics </span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Ga naar <span class="ignoretag"> Producten <span class="uicontrol"> &gt; </span> Profiel van het Product <span class="uicontrol"> &gt; </span> Toestemmingen <span class="uicontrol"> &gt; de Hulpmiddelen van de Analyse </span> &gt; het Gebruik van de Vraag van de <span class="uicontrol"> </span> <span class="uicontrol"> </span> Server </span> </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Ga naar <span class="ignoretag"> Producten <span class="uicontrol"> &gt; </span> Profiel van het Product <span class="uicontrol"> &gt; </span> Toestemmingen <span class="uicontrol"> &gt; de Hulpmiddelen van </span> Analytics <span class="uicontrol"> &gt; het Gebruik van de Vraag van de </span> <span class="uicontrol"> Server </span> </span> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
