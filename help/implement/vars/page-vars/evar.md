@@ -2,10 +2,10 @@
 title: eVar
 description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,16 +24,16 @@ Alvorens eVars in uw implementatie te gebruiken, zorg ervoor u elke eVar in de m
 
 ## Vars in Adobe Experience Platform Launch
 
-U kunt eVars instellen tijdens het configureren van de extensie Analytics (globale variabelen) of onder regels.
+U kunt eVars instellen tijdens het configureren van de Analytics-extensie (globale variabelen) of onder regels.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 4. Klik onder [!UICONTROL Actions]op een bestaande [!UICONTROL Adobe Analytics - Set Variables] handeling of klik op het pictogram ‘+’.
-5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en stel het [!UICONTROL Action Type] in op [!UICONTROL Set Variables].
+5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en [!UICONTROL Action Type] op [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL eVars] sectie.
 
-U kunt een eVar aan een waarde of een gegevenselement plaatsen. U kunt de waarde ook uit een andere variabele Analytics kopiëren.
+U kunt een eVar aan een waarde of een gegevenselement plaatsen. U kunt de waarde ook uit een andere Analytics-variabele kopiëren.
 
 ## s.eVar1 - s.eVar250 in AppMeasurement en Launch de redacteur van de douanecode
 
@@ -57,4 +57,6 @@ s.eVar1 = "+12.49";
 
 Als er meer dan twee decimalen zijn opgegeven, wordt de teller afgerond tot twee decimalen. Een eVar teller kan geen negatieve aantallen bevatten.
 
-> [!IMPORTANT] U moet eVars eerst configureren naar &#39;Counter&#39; in de beheerconsole voordat u tellervariabelen kunt gebruiken. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de handleiding Admin.
+>[!IMPORTANT]
+>
+>U moet eVars aan &quot;Teller&quot;in de Admin Console eerst vormen alvorens tellervariabelen te gebruiken. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de handleiding Admin.
