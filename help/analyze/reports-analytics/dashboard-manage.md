@@ -5,7 +5,10 @@ title: Dashboardbeheer
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 2%
 
 ---
 
@@ -41,7 +44,7 @@ Stappen die beschrijven hoe de gedeelde opties voor dashboardbeheer worden gebru
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
  <thead class="chhead sthead"> 
-  <th class="choptionhd"> Option </th> 
+  <th class="choptionhd"> Optie </th> 
   <th class="chdeschd"> Beschrijving </th> 
  </thead> 
  <tr class="chrow strow"> 
@@ -50,7 +53,7 @@ Stappen die beschrijven hoe de gedeelde opties voor dashboardbeheer worden gebru
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Dashboardspeler</strong></td> 
-  <td class="chdesc stentry"> <p>SiteCatalyst 14-servers reageren niet meer op verzoeken om gegevens van Dashboard Player. Alle dashboards die momenteel worden weergegeven in Dashboard Player, zijn toegankelijk via de standaardinterface Rapporten en analyse of kunnen opnieuw worden gemaakt als een Real-Time Dashboard. Real-Time dashboards zijn speciaal ontworpen voor continue weergave en beschikken over een modus Volledig scherm waarmee u ze kunt weergeven op tv's of andere apparaten met een groot scherm. </p> <p>Gebruikersactie vereist: U moet stoppen met het gebruik van Dashboard Player. </p> </td> 
+  <td class="chdesc stentry"> <p>SiteCatalyst 14-servers reageren niet meer op verzoeken om gegevens van Dashboard Player. Alle dashboards die momenteel worden weergegeven in Dashboard Player, zijn toegankelijk in de standaardrapporten en Analytics-interface of kunnen worden gemaakt als een realtime-dashboard. Real-Time dashboards zijn speciaal ontworpen voor continue weergave en beschikken over een modus Volledig scherm waarmee u ze kunt weergeven op tv's of andere apparaten met een groot scherm. </p> <p>Gebruikersactie vereist: U moet stoppen met het gebruik van Dashboard Player. </p> </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Kopieer mij</strong></td> 
@@ -70,11 +73,15 @@ Stappen die beschrijven hoe de gedeelde opties voor dashboardbeheer worden gebru
 
 Bestaande oude oude dashboards worden verder uitgevoerd en u kunt ze nog steeds bewerken, downloaden en plannen; u kunt echter geen nieuwe oude dashboards meer maken. U wordt ten zeerste aangeraden bestaande oudere dashboards te upgraden naar de nieuwere dashboardindeling.
 
->[!NOTE] Voorwaarts beweegt, overweeg het gebruiken van de projecten [van de Werkruimte van de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) Analyse en hun capaciteit om worden gedownload en worden gepland.
+>[!NOTE]
+>
+>Als u vooruit gaat, kunt u overwegen om [Analysis Workspace-projecten](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) te gebruiken en hun mogelijkheid om te worden gedownload en gepland.
 
 Wanneer u het verouderde dashboard kopieert, opent het systeem het verouderde dashboard voor bewerking, waar u verouderde inhoud of nieuwe inhoud kunt toevoegen. Wanneer u een verouderd dashboard kopieert, blijft het origineel behouden in de lijst met verouderde dashboards.
 
->[!NOTE] Wanneer u verouderde inhoud toevoegt aan een dashboard, wordt een dashboard gemaakt op basis van de meest recente dashboardfunctionaliteit. Nochtans, zou het erfenisrapport gegevens kunnen bevatten die op het vorige gegevensplatform gebaseerd zijn.
+>[!NOTE]
+>
+>Wanneer u verouderde inhoud toevoegt aan een dashboard, wordt een dashboard gemaakt op basis van de meest recente dashboardfunctionaliteit. Nochtans, zou het erfenisrapport gegevens kunnen bevatten die op het vorige gegevensplatform gebaseerd zijn.
 
 **Een verouderd dashboard van versie 14.x migreren**
 
@@ -108,7 +115,9 @@ In [!UICONTROL Dashboard Manager], kunt u zien of een dashboard voor levering ge
 
 ## Een dashboard archiveren
 
->[!NOTE] Deze functionaliteit is niet meer beschikbaar in januari 2020.
+>[!NOTE]
+>
+>Deze functionaliteit is niet meer beschikbaar in januari 2020.
 
 Stappen die beschrijven hoe u verzonden dashboard als PDF-bestand archiveert. Het systeem slaat het gearchiveerde dossier twee jaar op, of tot u een maximumgrens van 4 GB van gearchiveerde rapporten bereikt, welke eerst komt.
 
