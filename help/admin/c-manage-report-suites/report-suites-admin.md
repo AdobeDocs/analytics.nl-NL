@@ -1,21 +1,26 @@
 ---
-description: Een rapportsuite definieert de volledige, onafhankelijke rapportage op een gekozen website, een set websites of een subset van webpagina's. Doorgaans is een rapportenpakket één website, maar het kan een globaal segment zijn waar u verscheidene aantallen van plaatsen hebt gecombineerd om totalen te krijgen. Wanneer u zich aanmeldt bij een willekeurige Adobe Analytics-oplossing, selecteert u één rapportsuite die u wilt gebruiken (behalve wanneer u roll-ups gebruikt die rapportsuites combineren). Bovendien kan een rapportsuite kleiner zijn dan een website als u rapporten voor een gedeelte van uw site wilt uitvoeren. De oplossingen van Analytics groeperen en rapporteren over deze gegevensopslag. Met Beheer Report Suite Manager kunt u de regels definiëren die bepalen hoe gegevens in een rapportsuite worden verwerkt.
-title: Report Suite Manager
+description: Een rapportsuite definieert de volledige, onafhankelijke rapportage op een gekozen website, een set websites of een subset van webpagina's. Doorgaans is een rapportenpakket één website, maar het kan een globaal segment zijn waar u verscheidene aantallen van plaatsen hebt gecombineerd om totalen te krijgen. Wanneer u zich aanmeldt bij een Adobe Analytics-oplossing, selecteert u één rapportsuite die u wilt gebruiken (behalve wanneer u roll-ups gebruikt die rapportsuites combineren). Bovendien kan een rapportsuite kleiner zijn dan een website als u rapporten voor een gedeelte van uw site wilt uitvoeren. Analytics-oplossingen verzamelen en rapporteren over deze gegevensopslag. Met Beheer Report Suite Manager kunt u de regels definiëren die bepalen hoe gegevens in een rapportsuite worden verwerkt.
+title: Rapportsuitebeheer
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 2%
 
 ---
 
 
-# Report Suite Manager
+# Rapportsuitebeheer
 
-Een rapportsuite definieert de volledige, onafhankelijke rapportage op een gekozen website, een set websites of een subset van webpagina&#39;s. Doorgaans is een rapportenpakket één website, maar het kan een globaal segment zijn waar u verscheidene aantallen van plaatsen hebt gecombineerd om totalen te krijgen. Wanneer u zich aanmeldt bij een willekeurige Adobe Analytics-oplossing, selecteert u één rapportsuite die u wilt gebruiken (behalve wanneer u roll-ups gebruikt die rapportsuites combineren). Bovendien kan een rapportsuite kleiner zijn dan een website als u rapporten voor een gedeelte van uw site wilt uitvoeren. De oplossingen van Analytics groeperen en rapporteren over deze gegevensopslag. Met Beheer Report Suite Manager kunt u de regels definiëren die bepalen hoe gegevens in een rapportsuite worden verwerkt.
+Een rapportsuite definieert de volledige, onafhankelijke rapportage op een gekozen website, een set websites of een subset van webpagina&#39;s. Doorgaans is een rapportenpakket één website, maar het kan een globaal segment zijn waar u verscheidene aantallen van plaatsen hebt gecombineerd om totalen te krijgen. Wanneer u zich aanmeldt bij een Adobe Analytics-oplossing, selecteert u één rapportsuite die u wilt gebruiken (behalve wanneer u roll-ups gebruikt die rapportsuites combineren). Bovendien kan een rapportsuite kleiner zijn dan een website als u rapporten voor een gedeelte van uw site wilt uitvoeren. Analytics-oplossingen verzamelen en rapporteren over deze gegevensopslag. Met Beheer Report Suite Manager kunt u de regels definiëren die bepalen hoe gegevens in een rapportsuite worden verwerkt.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
 
->[!NOTE] Virtuele rapportsets worden beheerd via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Raadpleeg de documentatie bij de [Virtual Report Suite](/help/components/vrs/vrs-about.md).
+>[!NOTE]
+>
+>Virtuele rapportsets worden beheerd via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Raadpleeg de documentatie bij de [Virtual Report Suite](/help/components/vrs/vrs-about.md).
 
 ## Beschrijvingen van rapportmanager {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -34,7 +39,7 @@ In de volgende tabel worden de elementen op de [!UICONTROL Report Suite Manager]
    <td colname="col2"> <p>De Manager <span class="wintitle"> van de Reeks van het</span> Rapport benadrukt een geselecteerde rapportreeks. U kunt meerdere rapportsuites selecteren met <span class="uicontrol"> Ctrl+klikken</span> of <span class="uicontrol"> Shift+klikken</span>. </p> <p>Een geselecteerde rapportsuite blijft geselecteerd totdat u een andere rapportsuite selecteert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Downloaden</span> </td> 
+   <td colname="col1"> <span class="wintitle"> Download</span> </td> 
    <td colname="col2"> Genereert een spreadsheet van Excel van alle montages voor de momenteel geselecteerde rapportreeksen. </td> 
   </tr> 
   <tr> 
@@ -66,7 +71,7 @@ In de volgende tabel worden de elementen op de [!UICONTROL Report Suite Manager]
    <td colname="col2">Hiermee kunt u kolommen kiezen om toe te voegen aan <span class="wintitle"> Report Suite Manager</span>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> ID van rapportsuite</span> </td> 
+   <td colname="col1"> <span class="wintitle"> Rapportsuite-id</span> </td> 
    <td colname="col2">Zie <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </td> 
   </tr> 
   <tr> 
