@@ -2,7 +2,10 @@
 title: Implementeren met AMP
 description: Adobe Analytics implementeren op AMP-pagina's.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 0%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Aangezien Adobe Analytics een JavaScript-bibliotheek gebruikt om een aanvraag voor een afbeelding te compileren en te verzenden, is het nodig dat de implementatie wordt aangepast om gegevens naar Adobe te verzenden op pagina&#39;s die AMP gebruiken.
 
-## Bepaal welke methode u gebruikt om Adobe Analytics te implementeren op pagina&#39;s
+## Bepalen welke methode u gebruikt om Adobe Analytics op pagina&#39;s te implementeren met AMP
 
-Adobe heeft twee methoden gemaakt voor de implementatie van Adobe Analytics op pagina&#39;s met AMP. Beide gebruiken de `<amp-analytics>` HTML-tag. Zie [amp-analytics markering](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) op het ampproject GitHub voor meer informatie.
+Adobe heeft twee methoden gemaakt om Adobe Analytics op pagina&#39;s te implementeren met AMP. Beide gebruiken de `<amp-analytics>` HTML-tag. Zie [amp-analytics markering](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) op het ampproject GitHub voor meer informatie.
 
-* **Gebruik de`"adobeanalytics"`volgende sjabloon**: Construeer het verzoek Analytics rechtstreeks op de pagina
+* **Gebruik de`"adobeanalytics"`volgende sjabloon**: De Analytics-aanvraag rechtstreeks op de pagina samenstellen
 * **Gebruik de`"analytics_nativeConfig"`volgende sjabloon**: Gebruik een iframe met dezelfde toepassingsmetingscode die u op uw normale site implementeert
 
 In de volgende tabel worden deze twee methoden vergeleken:
@@ -34,7 +37,9 @@ In de volgende tabel worden deze twee methoden vergeleken:
 
 Weeg de voor- en nadelen binnen uw organisatie om te bepalen welke methode u wilt gebruiken. Zie [AMP-voorbeelden](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) in de GitHub-opslagplaats van Adobe voor voorbeeldcode.
 
->[!WARNING] Gebruik AMP niet zowel de `"adobeanalytics"` als de `"adobeanalytics_nativeConfig"` sjablonen op dezelfde pagina. Als u dit probeert, kunt u fouten in de browser console en dubbele tellingen bezoekers produceren.
+>[!WARNING]
+>
+>Gebruik AMP niet zowel de `"adobeanalytics"` als de `"adobeanalytics_nativeConfig"` sjablonen op dezelfde pagina. Als u dit probeert, kunt u fouten in de browser console en dubbele tellingen bezoekers produceren.
 
 ## Methode 1: Gebruik de tag amp-analytics met de sjabloon &quot;adobeanalytics&quot;
 
@@ -77,11 +82,15 @@ In de `click` trekker, kunt u een selecteur specificeren om ervoor te zorgen dat
 
 Daarnaast `amp-analytics` wordt een aantal variabelevervangingen ondersteund, zodat AMP gegevenswaarden kan leveren waarvan het op de hoogte is. Zie [variabelen die in amp-analytics](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) op GitHub voor meer informatie worden gesteund.
 
->[!NOTE] Afbeeldingsverzoeken die met deze methode naar Adobe worden verzonden, bevatten geen gegevens voor veel standaardrapporten (bijvoorbeeld browser, schermgrootte of referentie). Als u deze informatie in klappen wilt omvatten, zorg ervoor zij als deel van het koord van de de vraagvraag van het beeldverzoek worden omvat. Zie de parameters [van de de inzamelingsvraag van](../validate/query-parameters.md) Gegevens voor meer informatie.
+>[!NOTE]
+>
+>Afbeeldingsverzoeken die met deze methode naar Adobe worden verzonden, bevatten geen gegevens voor veel standaardrapporten (bijvoorbeeld browser, schermgrootte of referentie). Als u deze informatie in klappen wilt omvatten, zorg ervoor zij als deel van het koord van de de vraagvraag van het beeldverzoek worden omvat. Zie de parameters [van de de inzamelingsvraag van](../validate/query-parameters.md) Gegevens voor meer informatie.
 
 Adobe identificeert bezoekers die een ingebouwde functie van AMP gebruiken, en plaatst het koekje `adobe_amp_id`. Deze bezoeker-id is uniek voor elke andere id die door Adobe Analytics is ingesteld (bijvoorbeeld het `s_vi` cookie). De Adobe Experience Cloud ID Service wordt niet ondersteund met deze implementatiemethode.
 
->[!NOTE] AMP gebruikt CDN&#39;s om inhoud te leveren. Het is gestructureerd om een verschillende unieke bezoeker voor elke CDN te tellen een bezoeker ontvangt inhoud van, die unieke bezoekersaantallen kan opblazen.
+>[!NOTE]
+>
+>AMP gebruikt CDN&#39;s om inhoud te leveren. Het is gestructureerd om een verschillende unieke bezoeker voor elke CDN te tellen een bezoeker ontvangt inhoud van, die unieke bezoekersaantallen kan opblazen.
 
 Het gebruik van een aparte rapportsuite voor AMP-pagina&#39;s wordt aanbevolen, omdat AMP unieke bezoekers identificeert.
 
@@ -147,7 +156,9 @@ Deze benadering verzendt gegevens naar een nutWeb-pagina door vraagkoordparamete
 
 De `"adobeanalytics_nativeConfig"` sjabloon voegt ook parameters van queryreeksen toe op basis van de variabelen die worden vermeld in de `extraUrlParams` sectie van de tag amp-analytics. In het bovenstaande voorbeeld zijn de `pageName` parameters en de `v1` parameters opgenomen.
 
->[!IMPORTANT] De pagina moet worden gehost op een ander subdomein dan het domein waarop de geaccepteerde marktpraktijk wordt gehost. `stats.html` Het AMP-framework staat geen iFrames toe van hetzelfde subdomein waarop de AMP-pagina zelf bestaat. Als uw AMP bijvoorbeeld wordt gehost op `amp.example.com`, host u uw `stats.html` pagina op een apart subdomein, zoals `ampmetrics.example.com`.
+>[!IMPORTANT]
+>
+>De pagina moet worden gehost op een ander subdomein dan het domein waarop de geaccepteerde marktpraktijk wordt gehost. `stats.html` Het AMP-framework staat geen iFrames toe van hetzelfde subdomein waarop de AMP-pagina zelf bestaat. Als uw AMP bijvoorbeeld wordt gehost op `amp.example.com`, host u uw `stats.html` pagina op een apart subdomein, zoals `ampmetrics.example.com`.
 
 Als een gebruiker deze methode gebruikt en op uw primaire site niet meer wil bijhouden, wordt het bijhouden van de gegevens ook niet meer uitgevoerd op al uw AMP&#39;s. Als u deze hulpprogrammapagina gebruikt, kan AMP ook ondersteuning bieden voor de Adobe Experience Cloud ID Service. Een afzonderlijke rapportsuite is niet vereist.
 
