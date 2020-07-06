@@ -4,7 +4,10 @@ title: Planningsbeheer
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 0%
 
 ---
 
@@ -17,19 +20,21 @@ U kunt het leveringsschema voor rapporten aanpassen. U kunt de levering op een b
 
 U kunt het leveringsschema voor rapporten aanpassen. U kunt de levering op een bepaald ogenblik tegenhouden, of het aantal tijden specificeren u een rapport wilt verzenden. De nieuwe programma&#39;s gebruiken de datumwaaier die in het rapport wordt bepaald. Als u bijvoorbeeld een rapport maakt voor de laatste 90 dagen en het dagelijks laat uitvoeren, ontvangt u elke dag een rapport voor de laatste 90 dagen. Als u een rapport met een statische datumwaaier van de kalender creeert, zult u het zelfde rapport zien telkens als het wordt verzonden.
 
->[!NOTE] Wanneer een gebruikersaccount is uitgeschakeld, worden alle geplande rapportleveringen die door die gebruiker zijn gemaakt, opgeschort.
+>[!NOTE]
+>
+>Wanneer een gebruikersaccount is uitgeschakeld, worden alle geplande rapportleveringen die door die gebruiker zijn gemaakt, opgeschort.
 
 Om ervoor te zorgen dat de lijnpunten in een verdeling in bewaarde en geplande rapporten blijvend zijn, gebruik de **[!UICONTROL Edit Items]** eigenschap in de Bouwer [van de](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) Lijst om vaste afmetingslijsten in onderverdelingen tot stand te brengen.
 
 >[!IMPORTANT]
 >
->Met Ad hoc-analyse kunt u snel rapporten definiëren en plannen voor specifieke, tijdige en ad-hocrapportagebehoeften. Het is niet ontworpen voor de volledige uitvoer van gegevens met een massaal aantal of rijen, kolommen, metrische evaluaties, of uitgebreide onderverdelingen die gegevensextracten gebruiken.
+>Met Ad hoc analysis kunt u snel rapporten definiëren en plannen voor specifieke, tijdige en ad-hocrapportagebehoeften. Het is niet ontworpen voor de volledige uitvoer van gegevens met een massaal aantal of rijen, kolommen, metrische evaluaties, of uitgebreide onderverdelingen die gegevensextracten gebruiken.
 >
->Praktische beperkingen voor geplande rapportage in ad hoc analyse zijn gebaseerd op dit beginsel: Als uw rapport niet binnen tien minuten bouwt (de onderbreking voor ad hoc Analyse), dan is uw rapport zeer waarschijnlijk te complex.
+>Praktische beperkingen voor Ad hoc analysis verslaglegging zijn gebaseerd op dit beginsel: Als uw rapport niet binnen tien minuten bouwt (de onderbreking voor Ad hoc analysis), dan is uw rapport zeer waarschijnlijk te complex.
 >
->Het waarschijnlijkst heeft uw rapport teveel metriek, teveel afsplitsingen van afmetingselementen, teveel rijen of kolommen, of andere extremen die het te lang een proces van de rapportgeneratie voor Ad hoc Analyse maken. Dit type rapport moet worden uitgevoerd in Data Warehouse, een Adobe Analytics-functie die is ontwikkeld voor volledige gegevensextractie die offline wordt uitgevoerd, en het genereren van rapporten die vele uren of dagen in beslag kan nemen.
+>Het waarschijnlijkst heeft uw rapport teveel metriek, teveel afsplitsingen van afmetingselementen, teveel rijen of kolommen, of andere extremen die het te lang een proces van de rapportgeneratie voor Ad hoc analysis maken. Dit type rapport moet worden uitgevoerd in Data warehouse, een Adobe Analytics-functie voor het offline uitvoeren van volledige gegevensextractie met het genereren van rapporten die vele uren of dagen kan duren.
 >
->Bijvoorbeeld, kan Ad hoc Analyse 50.000 rijen van gegevens behandelen, maar het breken van dat de gegevens voor tien browser types betekent 50.000 keer 10, een exponentiële verhoging die voor een ad hoc rapporteringshulpmiddel kan te complex zijn. De extra uitsplitsingen verhogen opnieuw exponentieel de rijen van gegevens. Het bepalen van het daadwerkelijke aantal of de rijen, de kolommen, en de onderverdelingen om voor Ad hoc de rapportering van de Analyse te beperken kan niet in stark termijnen worden bepaald maar is een combinatie van al deze factoren.
+>Ad hoc analysis kan bijvoorbeeld 50.000 rijen met gegevens verwerken, maar het opsplitsen van die gegevens voor tien browsertypen betekent 50.000 keer 10, een exponentiële toename die te complex kan zijn voor een ad-hocrapportagetool. De extra uitsplitsingen verhogen opnieuw exponentieel de rijen van gegevens. Het bepalen van het daadwerkelijke aantal of de rijen, de kolommen, en de onderverdelingen om voor Ad hoc analysis rapportering te beperken kan niet in stark termijnen worden bepaald maar is een combinatie van al deze factoren.
 
 ## Een rapport voor levering plannen {#task_7A3165C8C5C349718FE3B2B0C727ACFD}
 
