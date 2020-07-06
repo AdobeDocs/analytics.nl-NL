@@ -5,7 +5,10 @@ title: DFA-integratie
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2590'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ De configuratiepagina&#39;s bieden een overzicht van de integratie, samen met nu
 
 1. Zoek **[!UICONTROL DoubleClick DFA]** en klik op **[!UICONTROL Add New]**.
 
-   ![Stap resultaat](assets/wizard-01.png)
+   ![Stap Resultaat](assets/wizard-01.png)
 
    Voor elke pagina van de Tovenaar van de Integratie, verstrek de vereiste informatie, dan klik **[!UICONTROL Next]**. De volgende lijst verklaart de informatie u de integratie door de tovenaar moet voltooien.
 
@@ -68,7 +71,7 @@ De configuratiepagina&#39;s bieden een overzicht van de integratie, samen met nu
   <tr> 
    <td colname="col1"> 3 </td> 
    <td colname="col2"> DFA Ad Variable </td> 
-   <td colname="col3"> De Analyse Var die DFA campagnerekenmerk, impressions, ontvangt en gegevens klikt. Doorgaans is dit de eVar van de Code van het Volgen ( <span class="varname"> s.campagne </span>), maar u kunt om het even welke beschikbare eVar kiezen. Gegevensconnectors voegen ook de volgende DFA-gerelateerde classificaties toe aan de geselecteerde eVar: <p><b>Campagnes</b>: Een inzameling van advertenties die aan veelvoudige plaatsen worden gediend die gemeenschappelijk overseinen dragen. </p> <p><b>Sitenaam</b>: De locatie waar de advertentie werd aangeboden. </p> <p><b>Advertentienaam</b>: De Advertentienaam, zoals die in uw DFA rekening wordt bepaald. </p> <p><b>Naam</b>plaatsing site: De website en de pagina waarop de advertentie is geplaatst. </p> <p><b>Leveringsgereedschap</b>: Dubbelklik voor adverteerders. </p> <p><b>Kanaal</b>: Banner Ad. </p> <p><b>Kostenstructuur</b>: CPM, CPC, of Vast, die op de kostenstructuur van de advertentie wordt gebaseerd. </p> <p><b>Creatieve naam</b>: De naam van de creatieve id die is gekoppeld aan een advertentie-/plaatsing-/creatieve id. </p> <p><b>DFA &gt; Zoekmiddeldeduplicatie</b>: Geeft aan dat DFA waarden moet plaatsen in variabelen van het zoekcentrum wanneer DFA-doorklikbewerkingen of View-through plaatsvinden. </a> . </p> </td> 
+   <td colname="col3"> De Analytics Var die DFA campagnerekenmerk, beelden, ontvangt en gegevens klikt. Doorgaans is dit de eVar van de Code van het Volgen ( <span class="varname"> s.campagne </span>), maar u kunt om het even welke beschikbare eVar kiezen. Gegevensconnectors voegen ook de volgende DFA-gerelateerde classificaties toe aan de geselecteerde eVar: <p><b>Campagnes</b>: Een inzameling van advertenties die aan veelvoudige plaatsen worden gediend die gemeenschappelijk overseinen dragen. </p> <p><b>Sitenaam</b>: De locatie waar de advertentie werd aangeboden. </p> <p><b>Advertentienaam</b>: De Advertentienaam, zoals die in uw DFA rekening wordt bepaald. </p> <p><b>Naam</b>plaatsing site: De website en de pagina waarop de advertentie is geplaatst. </p> <p><b>Leveringsgereedschap</b>: Dubbelklik voor adverteerders. </p> <p><b>Kanaal</b>: Banner Ad. </p> <p><b>Kostenstructuur</b>: CPM, CPC, of Vast, die op de kostenstructuur van de advertentie wordt gebaseerd. </p> <p><b>Creatieve naam</b>: De naam van de creatieve id die is gekoppeld aan een advertentie-/plaatsing-/creatieve id. </p> <p><b>DFA &gt; Zoekmiddeldeduplicatie</b>: Geeft aan dat DFA waarden moet plaatsen in variabelen van het zoekcentrum wanneer DFA-doorklikbewerkingen of View-through plaatsvinden. </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 4 </td> 
@@ -78,27 +81,27 @@ De configuratiepagina&#39;s bieden een overzicht van de integratie, samen met nu
   <tr> 
    <td colname="col1"> 4 </td> 
    <td colname="col2"> Klikken </td> 
-   <td colname="col3"> Selecteer de douaneGebeurtenis die DFA ontvangt klikt metrische gegevens. Klik op het aantal keren dat bezoekers op de advertentie hebben geklikt, gemeten aan de hand van de omleiding van DFA. De metrische correleert van Klik met metrische analytische kringloop. <p>Opmerking:  DFA-klikken en analytische doorklikbewerkingen komen mogelijk niet exact overeen vanwege verschillen in de manier waarop gegevens worden verzameld.  </a>. </p> </td> 
+   <td colname="col3"> Selecteer de douaneGebeurtenis die DFA ontvangt klikt metrische gegevens. Klik op het aantal keren dat bezoekers op de advertentie hebben geklikt, gemeten aan de hand van de omleiding van DFA. De metrische correleert van Klik met metrische Analytics klikken-door. <p>Opmerking:  DFA-klikken en Analytics Click-through komen mogelijk niet exact overeen vanwege verschillen in de manier waarop gegevens worden verzameld.  </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> Doorkijkvariabele </td> 
-   <td colname="col3"> <p>De Analyse Var die DFA mening-door gegevens ontvangt. Met de variabele Weergave-via kunt u zien hoe weergaven de conversietarieven op uw site beïnvloeden. </p> <p>Gegevensconnectors voegen dezelfde DFA-gerelateerde classificaties toe aan deze eVar als aan de DFA Ad Variable (zie hierboven). </p> </td> 
+   <td colname="col3"> <p>De Analytics Var die DFA View-Through-gegevens ontvangt. Met de variabele Weergave-via kunt u zien hoe weergaven de conversietarieven op uw site beïnvloeden. </p> <p>Gegevensconnectors voegen dezelfde DFA-gerelateerde classificaties toe aan deze eVar als aan de DFA Ad Variable (zie hierboven). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> Tijd sinds laatste mening (mening-door tijdsegment variabele) </td> 
-   <td colname="col3"> De analytische variabele die DFA-tijd vanaf laatste weergavegegevens ontvangt. De tijd sinds Laatste Mening wijst op de hoeveelheid tijd die sinds laatste en mening-door is verlopen. </td> 
+   <td colname="col3"> De Analytics Var die DFA-tijd vanaf laatste weergavegegevens ontvangt. De tijd sinds Laatste Mening wijst op de hoeveelheid tijd die sinds laatste en mening-door is verlopen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> Weergavedoorvoer </td> 
-   <td colname="col3"> De gebeurtenis van de Douane die DFA mening-door metrische gegevens ontvangt. Gebruik de mening-door gebeurtenis met de Beeld-door Variabele om te zien welke campagnes geen directe doorklikken-door beïnvloedden, maar een rol in het drijven van verkeer aan de plaats in één of andere verdere tijd kunnen hebben gespeeld. <p>Gegevensconnectors wijzigen de naam van de geselecteerde aangepaste gebeurtenis in "Doorheen tonen". </p> </td> 
+   <td colname="col3"> De gebeurtenis van de Douane die DFA mening-door metrische gegevens ontvangt. Gebruik de mening-door gebeurtenis met de Beeld-door Variabele om te zien welke campagnes geen directe doorklikken-door beïnvloedden, maar een rol in het drijven van verkeer aan de plaats in één of andere verdere tijd kunnen hebben gespeeld. <p>Gegevensconnectors wijzigen de naam van de geselecteerde aangepaste gebeurtenis in 'Doorheen kijken'. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 6 </td> 
    <td colname="col2"> DFA-query mislukt </td> 
-   <td colname="col3"> (Optioneel) De Analyse Var die berichtcodes voor DFA-queryfouten ontvangt. Mogelijke DFA-berichtcodes zijn: 
+   <td colname="col3"> (Optioneel) De Analytics Var die berichtcodes van DFA-querymislukkingen ontvangt. Mogelijke DFA-berichtcodes zijn: 
     <ul id="ul_85FC7FB19F7F4ADF83ABCA6DDB44CE19"> 
      <li id="li_0A3181DED5A149588A0D3F1584E2FE8B"><b>nc</b>: Geen dubbelklikken op cookie. </li> 
      <li id="li_D397AA73AD5E4086A18B87F271E4EC14"><b>o</b>: Gebruiker heeft zich afgemeld. </li> 
@@ -109,7 +112,7 @@ De configuratiepagina&#39;s bieden een overzicht van de integratie, samen met nu
   <tr> 
    <td colname="col1"> 6 </td> 
    <td colname="col2"> Timeout-gebeurtenis </td> 
-   <td colname="col3"> <p>De gebeurtenis van de Teller van de Analyse die elke keer stijgt de <span class="varname"> s.maxDelay </span> tijdopnemer verloopt, en geen reactie werd ontvangen van de servers DFA. Gebruik deze gebeurtenis om de <span class="varname"> s.maxDelay </span> veranderlijke het Tunnen s.maxDelay </a>. te vormen) </p> </td> 
+   <td colname="col3"> <p>De Analytics Counter-gebeurtenis die telkens wordt verhoogd wanneer de <span class="varname"> s.maxDelay- </span> timer verloopt en er is geen reactie ontvangen van de DFA-servers. Gebruik deze gebeurtenis om de <span class="varname"> s.maxDelay </span> veranderlijke het Tunnen s.maxDelay </a>. te vormen) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,7 +129,7 @@ Hoewel het zeldzaam is, hebben sommige domeinen de maximumkoekjescapaciteit voor
 
 ### Werk uw DFA Vraag-Koord Parameter bij{#update-your-dfa-query-string-parameter}
 
-Als u al Ad-campagnes hebt bijgehouden met Adobe Analytics vóór de DFA-integratie, is het mogelijk dat alle campagnes (e-mail, zoekopdracht of banner) dezelfde querytekenreeksparameter gebruiken om de verwijzende campagne-id op de landingspagina te identificeren.
+Als u al Ad-campagnes hebt bijgehouden met Adobe Analytics vóór de DFA-integratie, is het mogelijk dat alle campagnes (e-mail, zoekopdracht of banner) dezelfde querytekenreeksparameter gebruiken om de campagne-id op de bestemmingspagina te identificeren.
 
 Om te begrijpen wanneer om mening-door en klikgegevens van DFA gegevens voor uw campagnes te verzoeken DFA Ad, moeten de Verbinders van Gegevens identificeren wanneer een bezoeker op een DFA de banneradvertentie van de campagnebanner heeft geklikt. Om dit mogelijk te maken, moet u een onderscheiden vraag-koordparameter aan de het landende pagina URL van de campagne toevoegen DFA Ad zodat kunnen de Verbinders van Gegevens tussen DFA Ad campagnepagina&#39;s en andere pagina&#39;s van de advertentiecampagne onderscheiden die u op uw Website zou kunnen hebben. De `dfa_overrideParam` insteekmodule in JavaScript die wordt gebruikt voor DFA.
 
@@ -138,7 +141,9 @@ Om te begrijpen wanneer om mening-door en klikgegevens van DFA gegevens voor uw 
 
 De integratie van Genesis voor DFA maakt gebruik van de DFA Floodlight Configuration ID (dfa_SPOTID), die de consistentie van rapporten tussen DFA en het systeem van de de gegevensinzameling van Adobe verbetert.
 
->[!NOTE] In een recente release van Google DFA werd de term Spotlight gewijzigd in Floodlight. De JavaScript-parameter `dfa_SPOTID` is benoemd op basis van de Spotlight-terminologie, maar wordt voor beide versies gebruikt.
+>[!NOTE]
+>
+>In een recente release van Google DFA werd de term Spotlight gewijzigd in Floodlight. De JavaScript-parameter `dfa_SPOTID` is benoemd op basis van de Spotlight-terminologie, maar wordt voor beide versies gebruikt.
 
 Om de integratie DFA op uw Website toe te laten, moet u uw code van de gegevensinzameling JavaScript bijwerken door het volgende toe te voegen:
 
@@ -185,21 +190,21 @@ Fdfa_echo%3Fvar%3D[VAR]%26AQE%3D1%26A2S%3D1&ord=[RAND]",
 /************************ END DFA Variables ************************/ 
 ```
 
-Het DFA Integate Instellingenblok stelt variabelen in die vereist zijn voor de DFA-integratie. De waarden voor elk van deze variabelen zijn afkomstig uit de volgende bronnen:
+In het DFA Integrate Settings Block worden variabelen ingesteld die vereist zijn voor de DFA-integratie. De waarden voor elk van deze variabelen zijn afkomstig uit de volgende bronnen:
 
 **CSID**: Client Side ID. Gegenereerd door DFA zodra u de Tovenaar van de Integratie voltooit. Gegevensconnectors vullen deze variabele vooraf met uw DFA CS-id in en sturen u deze waarde ook in de e-mail met setup nadat u de wizard Integratie hebt voltooid. Deze variabele is niet vereist als Advanced Ad Serving is ingeschakeld voor uw account.
 
 **SPOTID**: Vullight-configuratie (voorheen Spotlight-id). Gegevensconnectors vullen deze variabele vooraf in met uw DFA Floodlight Configuration-id, op basis van de DFA-accountinformatie die u hebt opgegeven in de wizard Integratie.
 
-**Gebeurtenis**: Overdrachtsvariabele. De Verbindingen van gegevens vullen deze variabele met de veranderlijke naam van Analytics vooraf in u voor de Mening-Door variabele in de Tovenaar van de Integratie specificeerde. Wijzig deze waarde niet zonder zorgvuldige coördinatie met Adobe Engineering of Engineering Services.
+**Gebeurtenis**: Overdrachtsvariabele. Gegevensconnectors vullen deze variabele vooraf met de Analytics-variabelenaam die u voor de View-Through-variabele in de wizard Integratie hebt opgegeven. Wijzig deze waarde niet zonder zorgvuldige coördinatie met Adobe Engineering of Engineering Services.
 
-**errorEvar**: Foutvariabele. Gegevensconnectors vullen deze variabele vooraf in met de variabelenaam Analytics die u voor de variabele DFA-query-fout hebt opgegeven in de wizard Integratie.
+**errorEvar**: Foutvariabele. Gegevensconnectors vullen deze variabele vooraf in met de Analytics-variabelenaam die u voor de DFA-query-foutvariabele hebt opgegeven in de wizard Integratie.
 
-**timeoutEvent**: Time-outgebeurtenis. Gegevensconnectors vullen deze variabele vooraf met de variabelenaam Analytics die u voor de variabele Timeout Event in de Tovenaar van de Integratie hebt opgegeven.
+**timeoutEvent**: Time-outgebeurtenis. Gegevensconnectors vullen deze variabele vooraf in met de Analytics-variabelenaam die u voor de Timeout-gebeurtenisvariabele in de wizard Integratie hebt opgegeven.
 
 **requestURL**: De externe DFA-host waarop kan worden gezocht naar advertentiegegevens. Wijzig deze waarde alleen in opdracht van Adobe.
 
-**maxDelay**: Hiermee geeft u op hoe lang de JavaScript-code voor gegevensverzameling wacht op een reactie van de DFA Floodlight-server, in milliseconden. Adobe raadt u aan met deze waarde te experimenteren om de optimale waarde te vinden op basis van het verkeer van uw site. Als u deze waarde verhoogt, worden over het algemeen meer DFA-gegevens verzameld, maar neemt het risico toe dat de gegevens van de basisbezoeker verloren gaan als de bezoeker de site verlaat tijdens de vertragingsperiode. Als u deze waarde verlaagt, loopt u minder risico dat raakgegevens verloren gaan, maar wordt minder DFA-gegevens verzonden met de raakgegevens van Adobe.
+**maxDelay**: Hier geeft u op hoe lang de JavaScript-code voor gegevensverzameling wacht op een reactie van de DFA Floodlight-server, in milliseconden. Adobe raadt u aan met deze waarde te experimenteren om de optimale waarde te vinden op basis van het verkeer van uw site. Als u deze waarde verhoogt, worden over het algemeen meer DFA-gegevens verzameld, maar neemt het risico toe dat de gegevens van de basisbezoeker verloren gaan als de bezoeker de site verlaat tijdens de vertragingsperiode. Als u deze waarde verlaagt, loopt u minder risico dat raakgegevens verloren gaan, maar wordt minder DFA-gegevens verzonden met de raakgegevens van Adobe.
 
 **visitCookie**: De naam van het cookie dat wordt gebruikt om DFA-aanroepen te beperken tot eenmaal per bezoek.
 
