@@ -2,25 +2,30 @@
 description: Stel handelingen in die de voorwaarde moet activeren.
 keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third party tags;set up actions for condition;add new script;non-sequential javascript;sequential javascript;non-sequential html
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
-title: Handelingen instellen voor activeren van voorwaarde
+title: Acties instellen voor voorwaarden voor activeren
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 7%
 
 ---
 
 
-# Handelingen instellen voor activeren van voorwaarde
+# Acties instellen voor voorwaarden voor activeren
 
 Stel handelingen in die de voorwaarde moet activeren.
 
 Nadat u de voorwaarde hebt ingesteld, moet u de handelingen instellen die door de voorwaarde moeten worden geactiveerd. Deze handelingen kunnen gebeurtenissen, tags van derden en aangepaste scripts bevatten. [!DNL Analytics] In dit voorbeeld wordt beschreven hoe u scripts of tags van derden instelt.
 
-Naast geïntegreerde hulpmiddelen zoals [!DNL Adobe Analytics] en Google Analytics, kan het Dynamische Beheer van de Markering om het even welk type van JavaScript teweegbrengen of HTML in uw plaats, in uitgezochte pagina&#39;s of in specifieke scenario&#39;s injecteren.
+Naast geïntegreerde tools zoals [!DNL Adobe Analytics] en Google Analytics kan Dynamic Tag Management elk type JavaScript activeren of HTML in uw site injecteren, op bepaalde pagina&#39;s of in specifieke scenario&#39;s.
 
 Elke regel kan zoveel scripts of HTML-injecties activeren als u wilt.
 
->[!NOTE] Omdat DTM u toestaat om douanecode in uw pagina te injecteren, gelieve te letten op niet om cross-site scripting (XSS) kwetsbaarheid (zie de gids [van](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) OWASP voor meer informatie) tot stand te brengen. Het gebruik van gegevenselementen in een script vereist bijzondere aandacht. Ga er altijd van uit dat gegevenselementwaarden afkomstig kunnen zijn van een niet-vertrouwde bron.
+>[!NOTE]
+>
+>Omdat DTM u toestaat om douanecode in uw pagina te injecteren, gelieve te letten op niet om cross-site scripting (XSS) kwetsbaarheid (zie de gids [van](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) OWASP voor meer informatie) tot stand te brengen. Het gebruik van gegevenselementen in een script vereist bijzondere aandacht. Ga er altijd van uit dat gegevenselementwaarden afkomstig kunnen zijn van een niet-vertrouwde bron.
 
 **Handelingen instellen voor activeren van voorwaarde**
 
