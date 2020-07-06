@@ -1,15 +1,18 @@
 ---
 description: Rollup-rapport bestaat uit geaggregeerde gegevens van meerdere groepen met kinderrapporten en geeft deze weer in een samengevatte gegevensset.
-title: Rollup- en algemene rapportensuites
+title: Samenvatting en global report suites
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
 
 
-# Rollup- en algemene rapportensuites
+# Samenvatting en global report suites
 
 Rollup-rapport bestaat uit geaggregeerde gegevens van meerdere groepen met kinderrapporten en geeft deze weer in een samengevatte gegevensset. Deze sjablonen bieden een handige plaats voor het weergeven van samengevoegde totalen, zoals paginaweergaven, inkomsten of andere basisafmetingen. Rollups worden vaak gebruikt omdat hiervoor geen aanvullende implementatie vereist is.
 
@@ -34,7 +37,9 @@ Rollup-rapport bestaat uit geaggregeerde gegevens van meerdere groepen met kinde
 
 **Secundaire serveraanroepen**: Rollups doen geen extra serveraanroepen meer dan een enkele rapportsuite verzamelt. Als uw organisatie multi-suite markering gebruikt, worden secundaire serveraanroepen gedaan voor elke extra rapportsuite die in een beeldverzoek is opgenomen.
 
->[!TIP] Als u slechts een globale rapportreeks met [virtuele rapportreeksen](../../components/vrs/vrs-considerations.md)gebruikt, zijn geen secundaire servervraag nodig.
+>[!TIP]
+>
+>Als u slechts een globale rapportreeks met [virtuele rapportreeksen](../../components/vrs/vrs-considerations.md)gebruikt, zijn geen secundaire servervraag nodig.
 
 **Wijzigingen** in implementatie: Rollups vereisen geen implementatiewijzigingen, terwijl voor algemene rapportsuites de id van de algemene rapportsuite in uw implementatie moet worden opgenomen.
 
@@ -48,6 +53,6 @@ Rollup-rapport bestaat uit geaggregeerde gegevens van meerdere groepen met kinde
 
 **Rapporten**: Global report suites verschaffen gegevens over alle dimensies; rollups verschaffen alleen geaggregeerde gegevens over rapporten op hoog niveau.
 
-**Ondersteunde producten**: Rollups kunnen alleen worden gebruikt in Rapporten en Analytics. Zij worden niet gesteund in de Werkruimte van de Analyse, het Pakhuis van Gegevens, of Ad hoc Analyse. Globale rapportsuites kunnen over alle producten worden gebruikt.
+**Ondersteunde producten**: Rollups kunnen alleen worden gebruikt in Rapporten en Analytics. Ze worden niet ondersteund in Analysis Workspace, Data warehouse of Ad hoc analysis. Globale rapportsuites kunnen over alle producten worden gebruikt.
 
 **Aantal samengevoegde rapporteereeksen**: Rollups bieden alleen ondersteuning voor maximaal 40 kindrapportsuites. Algemene rapportsuites kunnen worden geïmplementeerd op elk aantal domeinen of apps die u hebt.
