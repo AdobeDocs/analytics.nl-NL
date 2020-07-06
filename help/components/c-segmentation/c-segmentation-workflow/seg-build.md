@@ -4,10 +4,10 @@ title: Segmenten maken
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1923'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Er zijn verscheidene manieren om tot de Bouwer van het Segment toegang te hebben
 * **Bovenste navigatie** Analytics: Klik **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Klik **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open een project en klik **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
 * **[!UICONTROL Reports & Analytics]**: Klik **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open een bestaand rapport en klik het pictogram van Segmenten ![](assets/segment_icon.png) in de linkernavigatie, dan klik **[!UICONTROL Add]**.
-* **[!UICONTROL Ad Hoc Analysis]**: [Segmenten maken in ad-hocanalyse](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
+* **[!UICONTROL Ad Hoc Analysis]**: [Segmenten maken in Ad hoc analysis](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
 * **[!UICONTROL Report Builder]**: [Voeg of geef segmenten in de Bouwer](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html)van het Rapport toe uit.
 
 ## Builder-criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
@@ -68,13 +68,13 @@ U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
 1. **[!UICONTROL Dimensions]**: (Lijst) Klik de kopbal om uit te breiden.
 1. **[!UICONTROL Metrics]**: Klik op de koptekst om deze uit te vouwen.
 1. **[!UICONTROL Segments]**: Klik op de koptekst om deze uit te vouwen.
-1. **[!UICONTROL Report suite selector]**: Hiermee selecteert u de rapportsuite waarin dit segment wordt opgeslagen. U kunt het segment in alle rapportsuites nog gebruiken.
+1. **[!UICONTROL Report suite selector]**: Hiermee selecteert u de rapportsuite waarin dit segment wordt opgeslagen. U kunt het segment in alle rapportreeksen nog gebruiken.
 1. **[!UICONTROL Segment Preview]**: Hiermee kunt u een voorvertoning van de belangrijkste metriek bekijken om te zien of u een geldig segment hebt en hoe breed het segment is. Geeft de uitsplitsing aan van de gegevensset die u kunt verwachten om te zien of u dit segment toepast. Toont 3 concentrische cirkels en een lijst om het aantal en het percentage gelijken voor, [!UICONTROL Hits]en [!UICONTROL Visits][!UICONTROL Visitors] voor een segment te tonen dat tegen een gegevensreeks in werking wordt gesteld. Dit diagram wordt meteen bijgewerkt nadat u de segmentdefinitie hebt gemaakt of gewijzigd.
-1. **[!UICONTROL Product Compatibility]**: Verstrekt een lijst waarvan de producten van de Analyse van Adobe (de Werkruimte van de Analyse, [!UICONTROL Reports & Analytics]Ad hoc Analyse, het Pakhuis van Gegevens) waarmee het segment u creeerde compatibel is. De meeste segmenten zijn compatibel met alle producten. Niet alle operatoren en dimensies zijn echter compatibel met alle analytische producten, met name [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Dit diagram wordt onmiddellijk bijgewerkt nadat u veranderingen in uw segmentdefinitie aanbrengt.
+1. **[!UICONTROL Product Compatibility]**: Hier volgt een lijst met Adobe Analytics-producten (Analysis Workspace, [!UICONTROL Reports & Analytics], Ad hoc analysis, Data warehouse) waarmee het segment dat u hebt gemaakt compatibel is. De meeste segmenten zijn compatibel met alle producten. Niet alle operatoren en maten zijn echter compatibel met alle Analytics-producten, met name [Data warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Dit diagram wordt onmiddellijk bijgewerkt nadat u veranderingen in uw segmentdefinitie aanbrengt.
 
-De segmenten met ingebedde datumwaaiers blijven verschillend in de Werkruimte van de Analyse tegenover [!UICONTROL Reports & Analytics]: In Workspace overschrijft een segment met een ingesloten datumbereik het datumbereik van het deelvenster. Door contrast, geeft [!UICONTROL Reports & Analytics] u de doorsnede van de waaier van de rapportdatum en de ingebedde de datumwaaier van het segment.
+Segmenten met ingesloten datumbereiken werken nog steeds anders in Analysis Workspace dan [!UICONTROL Reports & Analytics]: In Workspace overschrijft een segment met een ingesloten datumbereik het datumbereik van het deelvenster. Door contrast, geeft [!UICONTROL Reports & Analytics] u de doorsnede van de waaier van de rapportdatum en de ingebedde de datumwaaier van het segment.
 
-**[!UICONTROL Experience Cloud Publishing]**: (Niet weergegeven op scherm) Deze optie wordt alleen weergegeven als de rapportsuite waarin u dit segment opslaat, is [ingeschakeld voor de Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Door een segment naar de Experience Cloud te publiceren, kunt u het segment gebruiken voor marketingactiviteiten in de [!UICONTROL Audience Library], [!DNL Target]en [!DNL Audience Manager]. [Meer](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html) informatie over Experience CLoud-publicaties.
+**[!UICONTROL Experience Cloud Publishing]**: (Niet weergegeven op scherm) Deze optie wordt alleen weergegeven als de rapportsuite waarin u dit segment opslaat, is [ingeschakeld voor de Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Door een segment naar de Experience Cloud te publiceren, kunt u het segment gebruiken voor marketingactiviteiten in de [!UICONTROL Audience Library], [!DNL Target]en [!DNL Audience Manager]. [Meer](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html) weten over Experience Cloud-publicaties?
 
 ## Segmenten maken {#build-segments}
 
@@ -140,7 +140,9 @@ Door segment het stapelen te gebruiken, kunt u uw segmentaantal tot 22 verminder
 * één segment voor tabletgebruikers
 * 20 segmenten voor de verschillende geografische gebieden
 
->[!NOTE] Wanneer het stapelen van twee segmenten, worden zij door gebrek verbonden door een EN verklaring. Dit kan niet in een OF verklaring worden veranderd.
+>[!NOTE]
+>
+>Wanneer het stapelen van twee segmenten, worden zij door gebrek verbonden door een EN verklaring. Dit kan niet in een OF verklaring worden veranderd.
 
 1. Ga naar de Segment Builder.
 1. Geef een titel en een beschrijving voor het segment op.
@@ -153,7 +155,7 @@ Door segment het stapelen te gebruiken, kunt u uw segmentaantal tot 22 verminder
 
 1. Sla het segment op.
 
-   Stap resultaat
+   Stap Resultaat
 
 ## Segmentsjablonen {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
@@ -194,7 +196,7 @@ Sjablonen worden aangeduid met het &quot;A&quot;-logo van Adobe. Hieronder vindt
    <td colname="col2">Gegevens weergeven voor bezoekers die hebben deelgenomen aan een bestelgebeurtenis. In de Definitie van het Segment, is de container Bezoeker. De regel is <p>Bestellingen zijn niet null. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Retourbezoeken </td> 
+   <td colname="col1"> Terugkerende bezoeken </td> 
    <td colname="col2">Gegevens weergeven van bezoekers die ten minste één keer een bezoek hebben gebracht. In de Definitie van het Segment, is de container Bezoek. De regel is <p>Visitenummer is groter dan 1. </p> </td> 
   </tr> 
   <tr> 
