@@ -1,19 +1,22 @@
 ---
 description: Verkeersbronnen geven u diepgaand inzicht in hoe bezoekers met uw website werken.
-title: Verkeersbronnen
+title: Rapporten over verkeersbronnen
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 1%
 
 ---
 
 
-# Verkeersbronnen
+# Rapporten over verkeersbronnen
 
 Verkeersbronnen geven u diepgaand inzicht in hoe bezoekers met uw website werken.
 
-## Verkeersbronnen {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
+## Rapporten over verkeersbronnen {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
 
 Verkeersbronnen geven u diepgaand inzicht in hoe bezoekers met uw website werken.
 
@@ -60,7 +63,7 @@ c_reports_search_engines.xml
 
 **[!UICONTROL Search Engines - Natural]**: Geeft aan welke zoekprogramma&#39;s voor natuurlijke trefwoorden mensen gebruiken om uw webpagina te zoeken. In de grafiek ziet u de procentuele uitsplitsing van de zoekmachines waarmee uw site wordt gevonden.
 
-## Refererende domeinen {#concept_804614DF21C14C9FB542451B30F92788}
+## Verwijzende domeinen {#concept_804614DF21C14C9FB542451B30F92788}
 
 <!-- 
 
@@ -80,7 +83,7 @@ c_reports_original_ref_domains.xml
 
 Toont de originele verwijzers die de klanten op uw plaats produceerden. Klanten kunnen uw site meerdere keren bezoeken en voor elk bezoek een andere referentie gebruiken. Dit rapport laat zien hoe ze werden doorverwezen de eerste keer dat ze op uw site aankwamen. Zo kunt u zien of ze dezelfde referentie blijven gebruiken en kunt u patronen bekijken in de manier waarop klanten naar uw site worden verwezen. U kunt het aantal bezoekers bekijken die door een originele verwijzer worden geproduceerd of te weten komen hoeveel opbrengst elke originele verwijzer voor het produceren verantwoordelijk was. Verwijzingsrapporten kunnen telkens worden gevuld wanneer een bezoeker naar uw site komt, zelfs als de bezoeker tijdens een sessie meerdere keren naar de site komt (voordat het bezoek verloopt).
 
-## Referenties {#concept_40CF9C2D10B94E82819BC65A232F05C3}
+## Referrers {#concept_40CF9C2D10B94E82819BC65A232F05C3}
 
 Geeft het domein of de URL weer van waar uw bezoekers vandaan kwamen voordat ze bij uw site aankwamen, de methoden die bezoekers gebruiken om uw website te zoeken, en het aantal bezoeken aan uw site dat afkomstig was van deze verwijzingslocaties.
 
@@ -90,15 +93,17 @@ c_reports_referrers.xml
 
  -->
 
-Als een bezoeker bijvoorbeeld op een koppeling van Site A klikt en op uw site arriveert, is Site A de referentie als deze niet als onderdeel van uw domein is gedefinieerd. Tijdens marketingrapporten en analytische implementatie kan uw implementatieconsultant u helpen de domeinen en URL&#39;s te definiëren die deel uitmaken van uw website. (Deze wijziging kan na de implementatie worden uitgevoerd.)
+Als een bezoeker bijvoorbeeld op een koppeling van Site A klikt en op uw site arriveert, is Site A de referentie als deze niet als onderdeel van uw domein is gedefinieerd. Tijdens de implementatie van marketing reports and analytics kan uw implementatieconsultant u helpen de domeinen en URL&#39;s te definiëren die deel uitmaken van uw website. (Deze wijziging kan na de implementatie worden uitgevoerd.)
 
 Domeinen of URL&#39;s die geen deel uitmaken van die gedefinieerde domeinen en URL&#39;s, worden als referentie beschouwd. Webpagina A en webpagina B worden bijvoorbeeld toegevoegd aan het interne URL-filter, maar webpagina C niet. In dit geval wordt webpagina C beschouwd als een referentie.
 
 Zie [Interne URL-filters](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/internal-url-filter-admin.html) in de [!DNL Admin Console] Help voor meer informatie.
 
->[!NOTE] Marketingrapporten en analyses registreren een verwijzend domein als e-mail wanneer bezoekers op een e-mailberichtenkoppeling met het protocol klikken [!DNL imap://] of [!DNL mail://] op uw site aankomen. Alles die bijvoorbeeld afkomstig [!DNL https://mail.yahoo.com] is, wordt niet als een e-mailreferentie geteld omdat het protocol [!DNL https://]is. E-mails van Outlook worden gerapporteerd in de regel Typed/Bookmarked, terwijl elke referentie met een HTTP-protocol waarbij het domein een bekende zoekmachine is, wordt gerapporteerd in de regel Zoekmachine.
+>[!NOTE]
+>
+>Marketing reports and analytics registreren een verwijzend domein als e-mail wanneer bezoekers op een e-mailberichtenkoppeling klikken die het protocol bevat [!DNL imap://] of [!DNL mail://] en bij uw plaats aankomen. Alles die bijvoorbeeld afkomstig [!DNL https://mail.yahoo.com] is, wordt niet als een e-mailreferentie geteld omdat het protocol [!DNL https://]is. E-mails van Outlook worden gerapporteerd in de regel Typed/Bookmarked, terwijl elke referentie met een HTTP-protocol waarbij het domein een bekende zoekmachine is, wordt gerapporteerd in de regel Zoekmachine.
 
-## Type referentie {#concept_689E42D8F96C450DA41C7167C7388198}
+## Type referrer {#concept_689E42D8F96C450DA41C7167C7388198}
 
 Door de bezoekersverwijzingssites voor elk bezoek bij te houden en op te nemen, kunt u bepalen hoe bezoekers uw site voor elk bezoek hebben gevonden.
 
@@ -129,5 +134,7 @@ De volgende lijnpunten zouden kunnen tonen wanneer het runnen van dit rapport:
 
 **USENET (nieuwsgroep)**: Dit betekent dat de URL van een referentie is gestart met `news://`. De verwijzende koppeling is daarom op een nieuwsgroep van Usenet geplaatst in plaats van op een webpagina.
 
->[!NOTE] De logica van het Type van referentie past andere verkeersbronrapporten (zoals [!UICONTROL Referrers] en [!UICONTROL Referring Domains]) aan. Hierdoor worden de exemplaren van de items van de regel Binnen uw site en Geen JavaScript-regelitems in het [!UICONTROL Referrer Type] rapport verkleind of verwijderd.
+>[!NOTE]
+>
+>De logica van het Type van referentie past andere verkeersbronrapporten (zoals [!UICONTROL Referrers] en [!UICONTROL Referring Domains]) aan. Hierdoor worden de exemplaren van de items van de regel Binnen uw site en Geen JavaScript-regelitems in het [!UICONTROL Referrer Type] rapport verkleind of verwijderd.
 
