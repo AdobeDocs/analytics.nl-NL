@@ -1,15 +1,20 @@
 ---
 title: Oudere Adobe Experience Cloud Debugger
-description: Installeer de verouderde foutopsporing voor Adobe Experience Cloud. Dit foutopsporingsprogramma controleert tags voor Analytics, Target, Advertising Cloud, Identity Service, DTM en Launch.
+description: Installeer de verouderde foutopsporing voor Adobe Experience Cloud. Dit foutopsporingsprogramma inspecteert tags voor de Analytics, Target, Advertising Cloud, Identity Service, DTM en Launch.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 0%
 
 ---
 
 
 # Oudere Adobe Experience Cloud Debugger
 
->[!IMPORTANT] Dit foutopsporingsprogramma wordt niet meer onderhouden. Adobe raadt u aan in plaats daarvan de [Adobe Experience Cloud Debugger Chrome Extension](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)te gebruiken.
+>[!IMPORTANT]
+>
+>Dit foutopsporingsprogramma wordt niet meer onderhouden. Adobe raadt u aan in plaats daarvan de [Adobe Experience Cloud Debugger Chrome Extension](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)te gebruiken.
 
 De [!UICONTROL Legacy Debugger] controletags voor de meeste Adobe Experience Cloud-services. Met het foutopsporingsprogramma kunt u zien welke gegevens op een bepaalde pagina op uw site naar Adobe worden verzonden. U kunt deze informatie gebruiken om de implementatie van uw organisatie problemen op te lossen of te bevestigen.
 
@@ -68,11 +73,13 @@ Safari kan niet handmatig een bladwijzer maken, maar een URL van een bladwijzer 
 
 Navigeer naar de gewenste pagina op uw site en klik vervolgens op de bladwijzer. Er wordt een pop-upvenster weergegeven met de gegevens die naar Adobe zijn verzonden.
 
->[!NOTE] Bepaalde insteekmodules voor het blokkeren van advertenties en pop-upblokkeringen kunnen het laden van het foutopsporingsvenster beïnvloeden. Controleer op geblokkeerde pop-ups in uw browser en sta deze toe zodat de foutopsporing correct werkt.
+>[!NOTE]
+>
+>Bepaalde insteekmodules voor het blokkeren van advertenties en pop-upblokkeringen kunnen het laden van het foutopsporingsvenster beïnvloeden. Controleer op geblokkeerde pop-ups in uw browser en sta deze toe zodat de foutopsporing correct werkt.
 
 Debugger heeft verscheidene beschikbare opties, die allen aanpassen hoe het gegeven wordt getoond. Geen van deze opties is van invloed op de gegevensverzameling.
 
-* **Weergegeven producten uit de cloud:** Hiermee toont of verbergt u afbeeldingsaanvragen voor elk respectievelijke Experience Cloud-product.
+* **Weergegeven Experience Cloud-producten:** Hiermee toont of verbergt u afbeeldingsaanvragen voor elk Experience Cloud-product.
 * **URL-decodering:** URL decodeert de afbeeldingsaanvraag zodat deze overeenkomt met wat wordt weergegeven in de rapportage. Adobe raadt u aan dit selectievakje ingeschakeld te laten.
 * **Automatisch vernieuwen:** Hiermee wordt de pop-up elke paar seconden automatisch vernieuwd om te controleren op meer afbeeldingsaanvragen op de pagina. Als u inhoud in debugger moet kopiëren/kleven, maak auto-verfrist onbruikbaar zodat uw selectie blijft.
 * **Friendly Format:** Hiermee schakelt u de weergave-indeling tussen handige labels en onbewerkte queryreeksen in een afbeeldingsaanvraag. Zie de parameters [van de de inzamelingsvraag van](query-parameters.md) Gegevens voor meer informatie.
