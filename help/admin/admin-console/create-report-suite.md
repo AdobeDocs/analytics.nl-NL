@@ -1,8 +1,11 @@
 ---
 title: Een rapportsuite maken
-description: Maak een basiscontainer voor gegevensverzameling in Adobe Analytics.
+description: Een basiscontainer maken voor gegevensverzameling in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 9%
 
 ---
 
@@ -19,10 +22,12 @@ Dit artikel is ontworpen voor systeembeheerders of analytische beheerders ter vo
 
 ## Een rapportsuite maken
 
->[!NOTE] Er is ook een manier om een rapportsuite te maken in Adobe Analytics met behulp van de verouderde beheerder. Adobe raadt u aan de instellingwizard van de rapportsuite te gebruiken die hier wordt beschreven.
+>[!NOTE]
+>
+>Er is ook een manier om een rapportsuite te maken in Adobe Analytics met behulp van verouderde beheerdergegevens. Adobe raadt u aan de instellingwizard van de rapportsuite te gebruiken die hier wordt beschreven.
 
-1. Meld u met uw Adobe-id aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) .
-1. Klik op het pictogram van 9 vierkante pixels rechtsboven en klik vervolgens op het gekleurde Analytics-logo.
+1. Meld u met uw Adobe ID aan bij [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+1. Klik op het pictogram met 9 vierkantjes rechtsboven in het venster en klik vervolgens op het gekleurde Analytics-logo.
 1. Het modale venster Welkom bij Adobe Analytics verschijnt automatisch. Als u dat niet doet, klikt u rechtsboven op het Help-pictogram en selecteert u Welkom bij Adobe Analytics.
 1. Klik in het modale venster op Setup starten.
 1. Volg elke herinnering die de grondbeginselen als bezitstype, industrieën, en tijdzone schetst. Klik op Volgende.
@@ -35,14 +40,14 @@ Voor meer informatie over de stappen in dit modale venster, zie de modaal [van d
 
 ## Problemen oplossen
 
-**Nadat u zich hebt aangemeld bij de Experience Cloud, wordt het pictogram Analytics grijs weergegeven.**
+**Nadat u zich hebt aangemeld bij de Experience Cloud, wordt het Analytics-pictogram grijs weergegeven.**
 
-Dit betekent dat aan uw account niet de juiste machtigingen voor Analytics zijn verleend. Werk met een systeembeheerder in uw organisatie om ervoor te zorgen dat u tot een profiel behoort met de juiste machtigingen voor toegang tot Adobe Analytics.
+Dit betekent dat aan Analytics niet de juiste machtigingen zijn verleend. Werk samen met een beheerder op systeemniveau in uw organisatie om ervoor te zorgen dat u tot een profiel behoort met de juiste machtigingen voor toegang tot Adobe Analytics.
 
 **Nadat u zich hebt aangemeld bij Adobe Analytics, ontbreken de pop-up en het vervolgkeuzemenu Welkom bij Adobe Analytics.**
 
-Zorg ervoor dat u zich hebt aangemeld via de Experience Cloud en niet via my.omniture.com. Gebruiker die zich via my.omniture.com aanmeldt, beschikt niet over de wizard om de rapportsuite in te stellen.
+Controleer of u zich hebt aangemeld via de Experience Cloud en niet via my.omniture.com. Gebruiker die zich via my.omniture.com aanmeldt, beschikt niet over de wizard om de rapportsuite in te stellen.
 
 ## Volgende stappen
 
-[Maak en configureer een eigenschap voor Adobe Analytics in Launch](/help/implement/launch/create-analytics-property.md): Een gebied maken om uw analytische implementatie te beheren
+[Een eigenschap maken en configureren voor Adobe Analytics in Launch](/help/implement/launch/create-analytics-property.md): Een gebied maken om uw Analytics-implementatie te beheren
