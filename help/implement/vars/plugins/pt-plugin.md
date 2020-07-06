@@ -2,18 +2,23 @@
 title: pt
 description: Hiermee wordt een functie uitgevoerd op een lijst met variabelen.
 translation-type: tm+mt
-source-git-commit: e2afe854a4141510fe2ecd85aa6df59f6751d0f5
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 0%
 
 ---
 
 
 # Adobe-insteekmodule: pt
 
->[!IMPORTANT] Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde te krijgen van Adobe Analytics. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>[!IMPORTANT]
+>
+>Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-De `pt` insteekmodule voert een functie of methode uit in een lijst met analytische variabelen. U kunt de [`clearVars`](../functions/clearvars.md) methode bijvoorbeeld selectief op verschillende variabelen uitvoeren zonder de methode telkens handmatig aan te roepen. Verscheidene andere stop-ins hangen van deze code af correct in werking te stellen. Deze insteekmodule is niet nodig als u een specifieke functie niet hoeft uit te voeren voor meer dan één variabele Analytics tegelijk, of als u geen afhankelijke insteekmodules gebruikt.
+De `pt` insteekmodule voert een functie of methode uit op een lijst met Analytics-variabelen. U kunt de [`clearVars`](../functions/clearvars.md) methode bijvoorbeeld selectief op verschillende variabelen uitvoeren zonder de methode telkens handmatig aan te roepen. Verscheidene andere stop-ins hangen van deze code af correct in werking te stellen. Deze insteekmodule is niet nodig als u een specifieke functie niet hoeft uit te voeren voor meer dan één variabele van Analytics tegelijk, of als u geen afhankelijke insteekmodules gebruikt.
 
-## De plug-in installeren met de Adobe Experience Platform Launch-extensie
+## De plug-in installeren met de extensie Adobe Experience Platform starten
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
@@ -25,7 +30,7 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
+   * Extensie: Algemene Analytics-plug-ins
    * Type handeling: pt initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -38,11 +43,11 @@ Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-
 1. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder de extensie Adobe Analytics.
 1. Vouw de [!UICONTROL Configure tracking using custom code] accordeon uit, zodat de [!UICONTROL Open Editor] knop zichtbaar wordt.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
-1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
+1. Sla de wijzigingen in de Analytics-extensie op en publiceer deze.
 
 ## De plug-in installeren met AppMeturement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het trackingobject Analytics is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
