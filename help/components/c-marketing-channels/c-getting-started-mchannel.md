@@ -2,7 +2,10 @@
 title: Aan de slag met marketingkanalen
 description: Leer over het werkschema van de Kanalen van de Marketing, de automatische opstelling, en hoe te om de montages van de reeks van het malplaatjerapport op veelvoudige rapportreeksen toe te passen.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 2%
 
 ---
 
@@ -58,7 +61,7 @@ Hoe te om de automatische opstelling van de Kanalen van de Marketing in werking 
 1. Selecteer in het [!UICONTROL Report Suite Manager]venster een rapportsuite.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.
 
-   ![Stap resultaat](assets/wizard.png)
+   ![Stap Resultaat](assets/wizard.png)
 
    >[!NOTE]
    >
@@ -72,9 +75,11 @@ Hoe te om de automatische opstelling van de Kanalen van de Marketing in werking 
 
 ## Pas de montages van de de reeksreeks van het malplaatjerapport op veelvoudige rapportreeksen toe
 
-Hoe te om een hoofdrapportreeks als malplaatje te gebruiken voor het testen van uw configuratie van het marketingkanaal. Om tijd te besparen, kunt u dit malplaatje op één of meerdere reeksen van het productierapport in een massaupdate toepassen. U voert deze taak voor kanalen en regelreeksen afzonderlijk uit.
+Hoe te om een master rapportreeks als malplaatje te gebruiken voor het testen van uw configuratie van het marketing kanaal. Om tijd te besparen, kunt u dit malplaatje op één of meerdere reeksen van het productierapport in een massaupdate toepassen. U voert deze taak voor kanalen en regelreeksen afzonderlijk uit.
 
->[!NOTE] Pas kanalen van een malplaatje toe alvorens u regelreeksen toepast. Uw kanalen moeten voor alle rapportsuites het zelfde zijn wanneer het uitvoeren van deze procedure.
+>[!NOTE]
+>
+>Pas kanalen van een malplaatje toe alvorens u regelreeksen toepast. Uw kanalen moeten voor alle rapportsuites het zelfde zijn wanneer het uitvoeren van deze procedure.
 
 1. Zorg ervoor dat het Rapport van het Kanaal van de Marketing voor geselecteerde rapportreeksen wordt toegelaten. Deze stap wordt uitgevoerd door uw accountmanager.
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
