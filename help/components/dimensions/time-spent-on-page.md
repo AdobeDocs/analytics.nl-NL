@@ -2,7 +2,7 @@
 title: Tijd besteed aan pagina
 description: De hoeveelheid tijd die een bezoeker op de pagina heeft doorgebracht.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -20,7 +20,9 @@ Met de dimensie &#39;Tijd besteed aan pagina&#39; wordt de hoeveelheid tijd vast
 
 Deze dimensie is waardevol wanneer u wilt begrijpen hoe lang bezoekers op uw site op een bepaalde metrische waarde werken.
 
->[!TIP] De tijd die wordt besteed wordt niet gemeten voor de laatste hit van het bezoek aangezien er geen volgende beeldverzoek is om verstreken tijd te meten. Dit concept geldt ook voor bezoeken die bestaan uit één enkele hit (een stuit).
+>[!TIP]
+>
+>De tijd die wordt besteed wordt niet gemeten voor de laatste hit van het bezoek aangezien er geen volgende beeldverzoek is om verstreken tijd te meten. Dit concept geldt ook voor bezoeken die bestaan uit één enkele hit (een stuit).
 
 Deze dimensie is gebaseerd op hit, wat betekent dat de waarde voor elke hit anders is. Vergelijk deze dimensie met [Tijd besteed per bezoek](time-spent-per-visit.md), die een op bezoek-gebaseerde dimensie is. Hogere doorgebrachte tijd betekent dat een bezoeker langer op een pagina bleef (hit).
 
