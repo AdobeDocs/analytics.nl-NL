@@ -2,7 +2,7 @@
 title: Gemiddelde paginadiepte
 description: Hoeveel pagina's gemiddeld bestaat de dimensie.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -38,7 +38,9 @@ If 'Count repeat instances' is disabled:
 (1 + 4) / 2 = 2.5, rounded up to 3
 ```
 
->[!TIP] Als u de gemiddelde paginadiepte met een decimaal wilt zien, creeer berekende metrisch gebruikend dit metrisch als enig element binnen de formule. Verhoog de decimale posities in berekende metrisch tot het gewenste decimaal.
+>[!TIP]
+>
+>Als u de gemiddelde paginadiepte met een decimaal wilt zien, creeer berekende metrisch gebruikend dit metrisch als enig element binnen de formule. Verhoog de decimale posities in berekende metrisch tot het gewenste decimaal.
 
 ## Percentage boven 100%
 
