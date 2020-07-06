@@ -1,10 +1,13 @@
 ---
 description: Met filters kunt u het rapport beperken en regelitems die overeenkomen met een filter, opnemen of uitsluiten.
-title: Rapportgegevens filteren
+title: Rapportdata filteren
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '646'
+ht-degree: 1%
 
 ---
 
@@ -45,13 +48,15 @@ Met geavanceerde filters kunt u het bereik van de zoekopdracht bepalen aan de ha
 
 Komt overeen als de termijn overal in het lijnpunt wordt gevonden. Dit werkt hetzelfde als het eenvoudige filter.
 
->[!NOTE] Spaties kunnen niet worden gebruikt in filters, omdat spaties scheidingstekens zijn in zoekopdrachten
+>[!NOTE]
+>
+>Spaties kunnen niet worden gebruikt in filters, omdat spaties scheidingstekens zijn in zoekopdrachten
 
 **Bevat niet**
 
 Komt overeen als de termijn nergens in het lijnpunt wordt gevonden. U kunt &quot;niet gespecificeerd&quot;, &quot;niets&quot;, &quot;sleutelwoord niet beschikbaar&quot;en andere [speciale waarden](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html) van rapporten filtreren gebruikend &quot;bevat niet&quot;.
 
-Bevat niet: `none`
+Does not contain: `none`
 
 Voor een nauwkeuriger filter kunt u een geavanceerd filter (Speciale tekens) gebruiken:
 
@@ -79,11 +84,11 @@ Mens:Desk & TravelJewelry & Accessories:Accessories:Hats:Mens
 Sale & Values
 ```
 
-**Gelijk**
+**Equals (Is gelijk aan)**
 
 Komt overeen met de opgegeven woordgroep als het gehele regelitem, inclusief spaties en andere tekens, overeenkomt.
 
-Gelijk aan: `mens:desk & travel`
+Equals: `mens:desk & travel`
 
 `Mens:Desk & Travel`
 
@@ -91,7 +96,7 @@ Gelijk aan: `mens:desk & travel`
 
 Komt overeen als het lijstitem, met inbegrip van ruimten en andere karakters, met de gespecificeerde uitdrukking begint.
 
-Begint met: `mens`
+Starts With: `mens`
 
 Komt overeen met de volgende pagina&#39;s:
 
@@ -107,7 +112,7 @@ Mens Hemp/Bamboo Flip Flops
 
 Komt overeen met het feit of het regelitem, inclusief spaties en andere tekens, eindigt met de opgegeven woordgroep.
 
-Eindigt met: `jean`
+Ends With: `jean`
 
 Komt overeen met de volgende pagina&#39;s:
 
