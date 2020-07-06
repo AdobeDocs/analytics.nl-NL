@@ -3,7 +3,10 @@ description: 'null'
 title: De integratie implementeren
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +41,9 @@ Om de integratie te activeren, voltooi de configuratietovenaar in de interface v
 
 Nadat u de integratietovenaar hebt voltooid, implementeert u het integratieconfiguratieobject in uw webeigenschap. In veel gevallen is het opnemen van het integratieconfiguratieobject in de implementatiecode van Adobe Analytics de eenvoudigste manier om dit te implementeren.
 
->[!NOTE] Als u Adobe Experience Platform Launch gebruikt, kunt u het integratieconfiguratieobject eenvoudig toevoegen met dat gereedschap.
+>[!NOTE]
+>
+>Als u het Adobe Experience Platform van de Lancering gebruikt, kunt u het voorwerp van de integratieconfiguratie door dat hulpmiddel gemakkelijk toevoegen.
 
 1. Navigeer naar het tabblad **[!UICONTROL Resources]** **[!UICONTROL Support]** > van de integratie.
 1. Download en sla de **[!UICONTROL Kampyle Integration Code (JS)]** bron op. De code ziet er ongeveer als volgt uit:
@@ -50,8 +55,8 @@ Nadat u de integratietovenaar hebt voltooid, implementeert u het integratieconfi
 
 1. Implementeer de code met een van de volgende methoden:
 
-   * Adobe Experience Platform Launch gebruiken.
-   * Lever de code aan de organisatorische bron die uw plaatsing van de Analyse van Adobe handhaaft.
+   * Adobe Experience Platform starten gebruiken.
+   * Lever de code aan de organisatorische bron die uw plaatsing van Adobe Analytics handhaaft.
 
 ## De integratie controleren{#verify-the-integration}
 
@@ -61,7 +66,9 @@ Valideer dat de integratie gegevens met succes overbrengt door een paar controle
 
 Ga naar **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Onder het **[!UICONTROL Data In]** tabblad ziet u vermeldingen die aangeven dat classificatiegegevens zijn geïmporteerd.
 
->[!NOTE] Logboekinvoer wordt meestal binnen 24 uur na een geslaagde implementatie weergegeven.
+>[!NOTE]
+>
+>Logboekinvoer wordt meestal binnen 24 uur na een geslaagde implementatie weergegeven.
 
 ![Logboek voor integratieactiviteiten](assets/integration_activity_log.png)
 
@@ -69,6 +76,8 @@ Ga naar **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. On
 
 Bekijk uw Kampyle-feedbackrapporten met Adobe Analytics door naar de Kampyle-rapportage te navigeren binnen de juiste menustructuur.
 
->[!NOTE] Gegevens moeten binnen 24-48 uur na een geslaagde implementatie worden gerapporteerd, ervan uitgaande dat de geïntegreerde feedbackformulieren actief inzendingen ontvangen.
+>[!NOTE]
+>
+>Gegevens moeten binnen 24-48 uur na een geslaagde implementatie worden gerapporteerd, ervan uitgaande dat de geïntegreerde feedbackformulieren actief inzendingen ontvangen.
 
 ![Rapportgegevens van Adobe](assets/adobe_reporting_data.png)
