@@ -1,16 +1,19 @@
 ---
 description: Met de importer kunt u classificatiegegevens bulksgewijs uploaden naar analytische rapportage in een bestand. Voor het importeren van gegevens is een specifieke bestandsindeling vereist.
 subtopic: Classifications
-title: Classificatiegegevensbestanden
+title: Classificatiedatabestanden
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1733'
+ht-degree: 0%
 
 ---
 
 
-# Classificatiegegevensbestanden
+# Classificatiedatabestanden
 
 Met de importer kunt u classificatiegegevens bulksgewijs uploaden naar analytische rapportage in een bestand. Voor het importeren van gegevens is een specifieke bestandsindeling vereist.
 
@@ -99,7 +102,9 @@ Een gegevensbestand moet aan de volgende structuurregels voldoen:
 
 ## Indeling kolomkop
 
->[!NOTE] Adobe raadt u aan het aantal kolommen voor importeren en exporteren te beperken tot 30.
+>[!NOTE]
+>
+>Adobe raadt u aan het aantal kolommen voor importeren en exporteren te beperken tot 30.
 
 Indelingsbestanden ondersteunen de volgende kolomkoppen:
 
@@ -111,7 +116,9 @@ Elke waarde moet uniek zijn in het hele systeem. De waarde op dit gebied beantwo
 
 Rapporten en analyses bevatten bijvoorbeeld automatisch twee classificaties voor [!UICONTROL Campaign] variabelen: [!UICONTROL Campaigns] en [!UICONTROL Creative Elements]. Om gegevens aan de [!UICONTROL Campaigns] classificatie toe te voegen, zou de kolomrubriek in het dossier van classificatiegegevens zijn [!UICONTROL Campaigns].
 
->[!NOTE] De waarden in de [!UICONTROL Classifications] kolomkop moeten exact overeenkomen met de naamgevingsconventie van de classificatie, anders mislukt het importeren. Als de beheerder bijvoorbeeld verandert in [!UICONTROL Campaigns] de [!UICONTROL Internal Campaign Names] [!UICONTROL Campaign Set-up Manager]kop van de bestandskolom, moet deze veranderen.
+>[!NOTE]
+>
+>De waarden in de [!UICONTROL Classifications] kolomkop moeten exact overeenkomen met de naamgevingsconventie van de classificatie, anders mislukt het importeren. Als de beheerder bijvoorbeeld verandert in [!UICONTROL Campaigns] de [!UICONTROL Internal Campaign Names] [!UICONTROL Campaign Set-up Manager]kop van de bestandskolom, moet deze veranderen.
 
 Bovendien ondersteunt het gegevensbestand de volgende extra kopconventies om subclassificaties en andere gespecialiseerde gegevenskolommen te identificeren:
 
@@ -161,9 +168,11 @@ Campagnedatums zijn doorgaans bereiken (begin- en einddatum) die aan afzonderlij
 
 Zie [Conversie-classificaties](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)voor meer informatie.
 
->[!NOTE] In de [!DNL Analytics] onderhoudrelease van 10 mei 2018 is Adobe begonnen de functionaliteit van datums en numerieke classificaties te beperken. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. Er kunnen geen nieuwe datums en numerieke classificaties worden toegevoegd. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage.
+>[!NOTE]
+>
+>In de [!DNL Analytics] onderhoudrelease van 10 mei 2018 is Adobe begonnen de functionaliteit van datums en numerieke classificaties te beperken. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. Er kunnen geen nieuwe datums en numerieke classificaties worden toegevoegd. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage.
 
-## Datums gebruiken in combinatie met [!UICONTROL classifications]{#section_966A07B228CD4643B258E73FB8BA150A}
+## Datums gebruiken in combinatie met [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
 [!UICONTROL Classifications] U kunt datumbereiken toewijzen aan uw campagnes of andere conversie [!UICONTROL classifications], zodat de campagne nauwkeuriger kan worden gemeten. Nadat u het datumbereik van een waarde hebt opgegeven, worden eventuele overeenkomende waarden die buiten het datumbereik vallen, niet geclassificeerd. Dit is handig voor het meten van campagnes die de exacte datums willen gebruiken waarop een campagne Live is geweest, en niet alle resultaten die overeenkomen met de campagne zelf. Als u een waarde met een datumbereik wilt classificeren, moet u aan het volgende voldoen:
 
@@ -188,9 +197,11 @@ Campagnes classificeren op basis van datumbereik:
    * Als de maand of dag één cijfer is, is er een voorloopnul.
    * Er is een begindatumbereik. het einddatumbereik is optioneel.
 
-1. Sla het bestand op en upload het naar [!DNL Analytics] Beheer| Classificaties| Bestand importeren.
+1. Sla het bestand op en upload het naar [!DNL Analytics] Beheer | Classificaties | Bestand importeren.
 
->[!NOTE] Een specifieke sleutelwaarde kan niet meer dan één datumbereik hebben.
+>[!NOTE]
+>
+>Een specifieke sleutelwaarde kan niet meer dan één datumbereik hebben.
 
 ## Problemen met classificaties oplossen
 
