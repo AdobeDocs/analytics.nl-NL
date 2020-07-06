@@ -2,7 +2,10 @@
 title: Util.getQueryParam
 description: Retourneert de waarde van een querytekenreeksparameter.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Parameters van queryreeksen in een browser-URL bevatten vaak belangrijke gegevens voor Analytics. Gebruik de `Util.getQueryParam()` methode om gegevens van het vraagkoord terug te winnen.
 
-## Gegevens over querytekenreeksparameters ophalen in Adobe Experience Platform Launch
+## Gegevens querytekenreeksparameter ophalen in Adobe Experience Platform Launch
 
 U kunt de parametergegevens van het vraagkoord krijgen door waarden in gegevenselementen te plaatsen.
 
@@ -21,11 +24,11 @@ U kunt de parametergegevens van het vraagkoord krijgen door waarden in gegevense
 4. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op [!UICONTROL Core]en de [!UICONTROL Data Element Type] op [!UICONTROL Query String Parameter].
 5. Voer de parameter voor de querytekenreeks in het tekstveld in.
 
-De parameterwaarde van het vraagkoord wordt opgeslagen in het gegevenselement. U kunt dan naar het gegevenselement in regels verwijzen om de variabelen van de Analyse toe te wijzen.
+De parameterwaarde van het vraagkoord wordt opgeslagen in het gegevenselement. Vervolgens kunt u naar het gegevenselement in regels verwijzen om Analytics-variabelen toe te wijzen.
 
 ## s.Util.getQueryParam() in de aangepaste code-editor van AppMeasurement en Launch
 
-Roep de `s.Util.getQueryParam()` methode aan om een waarde van het vraagkoord van browser URL terug te winnen. Het tekenreeksargument met een querytekenreeksparameter is vereist. Deze methode retourneert een tekenreeks die u kunt toewijzen aan variabelen van Analytics:
+Roep de `s.Util.getQueryParam()` methode aan om een waarde van het vraagkoord van browser URL terug te winnen. Het tekenreeksargument met een querytekenreeksparameter is vereist. Deze methode retourneert een tekenreeks die u kunt toewijzen aan Analytics-variabelen:
 
 ```js
 s.eVar1 = s.Util.getQueryParam("cid");
@@ -50,4 +53,6 @@ var customString = "https://example.com?q1=value1;q2=value2;q3=value3";
 s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 ```
 
->[!TIP] Er [`s.getQueryParam`](../plugins/getqueryparam.md) is een vergelijkbare plug-in beschikbaar. Deze plug-in bevat meer geavanceerde functies, maar is ook complexer en wordt standaard niet in AppMeasurement opgenomen.
+>[!TIP]
+>
+>Er [`s.getQueryParam`](../plugins/getqueryparam.md) is een vergelijkbare plug-in beschikbaar. Deze plug-in bevat meer geavanceerde functies, maar is ook complexer en wordt standaard niet in AppMeasurement opgenomen.
