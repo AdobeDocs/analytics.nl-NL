@@ -4,7 +4,10 @@ title: Opeenvolgende segmenten maken
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3673'
+ht-degree: 1%
 
 ---
 
@@ -176,7 +179,7 @@ De regels van het segment omvatten alle gegevens tenzij u specifiek uitsluitt [!
 
 Bijvoorbeeld:
 
-* **Pagina&#39;s** uitsluiten. Gebruik een segmentregel om een specifieke pagina (zoals *`Home Page`*) uit een rapport te verwijderen, een Hit-regel te maken waar de pagina gelijk is aan &quot;Startpagina&quot; en deze vervolgens uit te sluiten. Deze regel bevat automatisch alle waarden behalve de startpagina.
+* **Pagina&#39;s** uitsluiten. Gebruik een segmentregel om een specifieke pagina (zoals *`Home Page`*) uit een rapport te verwijderen, een Hit-regel te maken waar de pagina staat voor &quot;Startpagina&quot; en deze vervolgens uit te sluiten. Deze regel bevat automatisch alle waarden behalve de startpagina.
 * **Verwijzende domeinen** uitsluiten. Gebruik een regel die alleen verwijzende domeinen van Google.com omvat en alle andere uitsluit.
 * **Identificeer niet-kopers**. Identificeer wanneer de orden groter dan nul zijn en sluit dan uit [!UICONTROL Visitor].
 
@@ -244,7 +247,9 @@ Bouw een eenvoudig opeenvolgingssegment door twee [!UICONTROL Hit] containers aa
 Logische Groepcontainers worden vereist om voorwaarden in één enkel opeenvolgend segmentcontrolepunt te groeperen. De container voor de speciale logische groep is alleen in sequentiële segmentatie beschikbaar, om ervoor te zorgen dat aan de voorwaarden wordt voldaan na elk voorafgaand controlepunt en vóór elk volgend controlepunt. Aan de voorwaarden binnen het controlepunt van de Logische Groep zelf kan in om het even welke orde worden voldaan. Niet-opeenvolgende containers (hit, visit, bezoeker) vereisen daarentegen niet dat aan de voorwaarden ervan wordt voldaan binnen de gehele reeks, wat leidt tot intuïtieve resultaten bij gebruik met een THEN-operator.
 De [!UICONTROL Logic Group] container werd ontworpen om *verscheidene controlepunten als groep* te behandelen, *zonder het opdracht geven tot* onder de gegroepeerde controlepunten. Met andere woorden, we geven niet om de volgorde van de controlepunten binnen die groep. U kunt bijvoorbeeld geen [!UICONTROL Visitor] container in een [!UICONTROL Visitor] container nesten. Maar in plaats daarvan, kunt u een [!UICONTROL Logic Group] container binnen een [!UICONTROL Visitor] container met specifieke [!UICONTROL Visit]-vlakke en [!UICONTROL Hit]-vlakke controlepunten nesten.
 
->[!NOTE] A [!UICONTROL Logic Group] kan slechts in een opeenvolgend segment worden bepaald, betekenend dat de [!UICONTROL THEN] exploitant binnen de uitdrukking wordt gebruikt.
+>[!NOTE]
+>
+>A [!UICONTROL Logic Group] kan slechts in een opeenvolgend segment worden bepaald, betekenend dat de [!UICONTROL THEN] exploitant binnen de uitdrukking wordt gebruikt.
 
 | Containerhiërarchie | Illustratie | Definitie |
 |---|---|---|
