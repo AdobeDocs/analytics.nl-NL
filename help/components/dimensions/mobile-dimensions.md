@@ -2,7 +2,7 @@
 title: Mobiele afmetingen
 description: Dimensies die zijn gebaseerd op de user-agent-tekenreeks van het apparaat.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 0%
@@ -12,17 +12,19 @@ ht-degree: 0%
 
 # Mobiele afmetingen
 
-*Deze pagina verwijst naar eigenschappen van mobiele apparaten die uw website openen. Raadpleeg Analyses[implementeren voor mobiele apparaten](/help/implement/mobile-device-sdk.md)in de gebruikershandleiding Implementeren als u apparaten wilt bijhouden op een mobiele app.*
+*Deze pagina verwijst naar eigenschappen van mobiele apparaten die uw website openen. Zie Analytics for mobile devices[](/help/implement/mobile-device-sdk.md)implementeren in de gebruikershandleiding voor het implementeren als u apparaten wilt bijhouden op een mobiele app.*
 
 De mobiele afmetingen bieden inzicht in de eigenschappen van mobiele apparaten die uw site bezoeken. U kunt deze afmetingen gebruiken om te begrijpen welke functies een mobiel apparaat ondersteunt.
 
 ## Deze afmetingen vullen met gegevens
 
-Deze dimensies verwijzen naar zoekregels die intern zijn voor Adobe. De opzoekwaarde is gebaseerd op de HTTP-header die met de hit is verzonden. `User-Agent` Adobe werkt samen met [DeviceAtlas](https://deviceatlas.com/) om zoekopdrachten tussen gebruikersagent en mobiele afmetingen te onderhouden. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via Adobe Experience Platform Launch), werken alle mobiele afmetingen buiten het vak.
+Deze dimensies verwijzen naar zoekregels die intern zijn voor Adobe. De opzoekwaarde is gebaseerd op de HTTP-header die met de hit is verzonden. `User-Agent` Adobe werkt samen met [DeviceAtlas](https://deviceatlas.com/) om zoekopdrachten tussen gebruikersagent en mobiele afmetingen te onderhouden. Als u een AppMeturement-bibliotheek gebruikt (bijvoorbeeld via Adobe Experience Platform starten), werken alle mobiele afmetingen buiten het vak.
 
 ## Beschrijvingen van mobiele afmetingen
 
->[!NOTE] Dimensiewaarden met label `"None"` zijn niet-mobiele apparaten. Als u een rapport wilt maken dat alleen mobiele apparaten bevat, sleept u de dimensie Mobiel apparaat naar het segmentgebied van het canvas Workspace.
+>[!NOTE]
+>
+>Dimensiewaarden met label `"None"` zijn niet-mobiele apparaten. Als u een rapport wilt maken dat alleen mobiele apparaten bevat, sleept u de dimensie Mobiel apparaat naar het segmentgebied van het canvas Workspace.
 
 * **Ondersteuning** voor mobiele audio: Bepaalt de bestandsindelingen die het apparaat kan afspelen. Voorbeelden hiervan zijn `"MP3"`, `"AAC"`en `"MIDI Monophonic"`. Waarden in deze dimensie sluiten elkaar niet uit; een enkele hit kan meerdere waarden van dimensies aangeven.
 * **Mobiele drager**: Als de gebruikersagent een drager-specifiek apparaat bevat, is de drager een afmetingswaarde. Voorbeelden van waarden zijn `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`en `"Verizon"`.
