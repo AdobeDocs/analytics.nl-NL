@@ -3,7 +3,10 @@ description: Voordat u deze integratie activeert, moet u de volgende items contr
 title: Voordat u deze integratie activeert
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 2%
 
 ---
 
@@ -14,12 +17,12 @@ Voordat u deze integratie activeert, moet u de volgende items controleren op uw 
 
 Dit zorgt ervoor dat de juiste beste praktijken of voorwaarden aanwezig zijn voordat de activering plaatsvindt, wat zal resulteren in een optimale en succesvolle integratie.
 
-## Vereisten voor Adobe Analytics{#adobe-analytics-requirements}
+## Adobe Analytics-vereisten{#adobe-analytics-requirements}
 
-Lees de volgende informatie over de integratie van deze gegevensconnectors in relatie tot Adobe Analytics:
+Lees de volgende informatie over de integratie van deze gegevensconnectors in verband met Adobe Analytics:
 
 * **Specifiek voor rapportsuite:** Houd er rekening mee dat deze integratie specifiek is voor rapporten. Zorg ervoor dat u de gewenste rapportsuite hebt geselecteerd voordat u de integratie activeert en dat de rapportsuite gegevens bevat.
-* **Beschikbare en geconfigureerde analytische variabelen:** Voor deze integratie zijn 10 aangepaste gebeurtenissen en 1 aangepaste eVar vereist. Zie Variabelen voor [analytische integratie](appfigures-before-activation.md#analytics-integration-variables).
+* **Beschikbare en geconfigureerde Analytics-variabelen:** Voor deze integratie zijn 10 aangepaste gebeurtenissen en 1 aangepaste eVar vereist. See [Analytics Integration Variables](appfigures-before-activation.md#analytics-integration-variables).
 
 * **Report Suite geïnitialiseerd met Live-gegevens:** Als u een gloednieuwe rapportsuite voor deze integratie maakt, moet deze enige gegevens (ten minste één hit) hebben ontvangen via de vereisten voor live tracering van appFigures. Als er geen live-gegevens zijn opgenomen, kan de rapportsuite geen geïntegreerde App Store-gegevens ontvangen.
 
@@ -50,13 +53,15 @@ Er zijn momenteel geen kosten verbonden aan deze integratie. Deze integratie is 
 
 ## Variabelen voor analytische integratie{#analytics-integration-variables}
 
-De integratie van gegevensconnectors voor appFigures gebruikt variabelen van de Analyse om diverse appFigures metriek te volgen.
+De integratie van gegevensconnectors voor appFigures maakt gebruik van Analytics-variabelen om verschillende maatstaven voor appFigures bij te houden.
 
-In de volgende tabel worden de variabelen Analytics beschreven die automatisch zijn geactiveerd voor de integratie appFigures.
+In de volgende tabel worden de Analytics-variabelen beschreven die automatisch zijn geactiveerd voor de integratie appFigures.
 
 ### Vereiste variabelen {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE] Deze integratie gebruikt specifieke variabelen voor gegevens van de toepassingsopslag, zodat te hoeven u om geen variabelen en gebeurtenissen van de douanehandel toe te wijzen.
+>[!NOTE]
+>
+>Deze integratie gebruikt specifieke variabelen voor gegevens van de toepassingsopslag, zodat te hoeven u om geen variabelen en gebeurtenissen van de douanehandel toe te wijzen.
 
 | Type variabele | Naam | Populatiemethode | Beschrijving |
 |---|---|---|---|
