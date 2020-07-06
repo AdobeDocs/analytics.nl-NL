@@ -1,66 +1,66 @@
 ---
-description: Not all segments created in the Segment Builder are compatible with Data Warehouse. This table lists the supported functions.
-title: Data Warehouse Segment Compatibility
+description: Niet alle segmenten die in de Segment Builder zijn gemaakt, zijn compatibel met Data warehouse. In deze tabel worden de ondersteunde functies weergegeven.
+title: Compatibiliteit van Data Warehouse-segmenten
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 1%
+source-wordcount: '349'
+ht-degree: 6%
 
 ---
 
 
-# Data Warehouse Segment Compatibility
+# Compatibiliteit van Data Warehouse-segmenten
 
-Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. This table lists the supported functions.
+Niet alle segmenten die in de Segment Builder zijn gemaakt, zijn compatibel met [!DNL Data Warehouse]. In deze tabel worden de ondersteunde functies weergegeven.
 
 <table> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis </th> 
+   <th> Analysis Workspace, Reports &amp; Analytics, Ad hoc analysis </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td > <b>Exclude container</b> </td> 
-   <td> Supported at any level </td> 
-   <td> Supported only in special cases at the top level </td> 
+   <td > <b>Container uitsluiten</b> </td> 
+   <td> Ondersteund op elk niveau </td> 
+   <td> Alleen in speciale gevallen op het hoogste niveau ondersteund </td> 
   </tr> 
   <tr> 
-   <td> <b>Sequential segments</b> </td> 
-   <td> Supported </td> 
+   <td> <b>Sequentiële segmenten</b> </td> 
+   <td> Ondersteund </td> 
    <td> Niet ondersteund </td> 
   </tr> 
   <tr> 
-   <td> <b>AND and OR can be combined without limits</b> </td> 
-   <td> Supported </td> 
-   <td> Some limitations. See *note* below table. </td> 
+   <td> <b>AND en OR kunnen zonder grenzen worden gecombineerd</b> </td> 
+   <td> Ondersteund </td> 
+   <td> Enkele beperkingen. Zie *opmerking* onder tabel. </td> 
   </tr> 
   <tr> 
-   <td> <b>Nested containers</b> </td> 
-   <td> Supported </td> 
+   <td> <b>Geneste containers</b> </td> 
+   <td> Ondersteund </td> 
    <td> Sommige beperkingen (ze moeten het bereik verkleinen, bijvoorbeeld bezoekers kunnen hits bevatten, maar niet andersom) </td> 
   </tr> 
   <tr> 
    <td> <b>Dimensies</b> </td> 
-   <td>Sleep een dimensie naar het veld <span class="uicontrol"> Definities</span> van Segment Builder om meer te weten te komen over de productcompatibiliteit. Deze dimensies worden bijvoorbeeld alleen ondersteund in Analysatiewerkruimte, Rapporten en Analyse en Ad hoc-analyse: 
+   <td>Sleep een dimensie naar het veld <span class="uicontrol"> Definities</span> van Segment Builder om meer te weten te komen over de productcompatibiliteit. Deze afmetingen worden bijvoorbeeld alleen ondersteund in Analysis Workspace, Reports &amp; Analytics en Ad hoc analysis: 
     <ul> 
-     <li>Entry Server </li> 
-     <li>Entry Category </li> 
-     <li>Entry Date </li> 
+     <li>Entry-server </li> 
+     <li>Invoercategorie </li> 
+     <li>Invoerdatum </li> 
      <li>Alle zoekpaginanummers </li> 
     </ul> </td> 
-   <td> Drag and drop a dimension into the Segment Builder's <span class="uicontrol"> Definitions</span> field to find out about its product compatibility. Deze afmetingen worden bijvoorbeeld alleen ondersteund in Data Warehouse: 
+   <td> Sleep een dimensie naar het veld <span class="uicontrol"> Definities</span> van Segment Builder om meer te weten te komen over de productcompatibiliteit. Deze afmetingen worden bijvoorbeeld alleen ondersteund in Data warehouse: 
     <ul> 
      <li>IP-adres </li> 
      <li>Pagina-URL </li> 
-     <li>Bezoeker-id </li> 
-     <li>Experience Cloud Visitor ID </li> 
-    </ul> <p>De volgende afmetingen <b>kunnen niet in de segmenten van het Pakhuis van Gegevens </b>worden gebruikt: </p> 
+     <li>Bezoekers-id </li> 
+     <li>Experience Cloud-bezoeker-id </li> 
+    </ul> <p>De volgende afmetingen <b>kunnen niet </b>worden gebruikt in Data warehouse-segmenten: </p> 
     <ul> 
      <li>Alle zoekpaginanummers </li> 
      <li>AM/PM </li> 
@@ -78,7 +78,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
      <li>Pagina's niet gevonden </li> 
      <li>Betaalde zoekopdracht </li> 
      <li>Kwartaal van jaar </li> 
-     <li>Geretourneerde frequentie </li> 
+     <li>Retourfrequentie </li> 
      <li>Bezoeken van één pagina </li> 
      <li>Tijd voorafgaand aan gebeurtenis </li> 
      <li>Tijd besteed op pagina - Emmerd </li> 
@@ -91,7 +91,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   <tr> 
    <td> <b>Segmentstapeling</b> </td> 
    <td> Ondersteund </td> 
-   <td> Niet ondersteund </td> 
+   <td> Ondersteund </td> 
   </tr>
   <tr>
     <td><b>Gelijk aan alle operatoren 'gelijk aan' en 'gelijk aan geen van de operatoren'</b></td>
@@ -101,4 +101,4 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
  </tbody> 
 </table>
 
-*Opmerking: Data Warehouse biedt geen ondersteuning voor alle gevallen waarin een`exclusion`of een`without`container wordt gebruikt`AND/OR`. Wanneer het gebruiken van een dergelijke combinatie, slechts die segmenten die als`A AND NOT B`, (of **omvat dit kenmerk**en **sluit dit kenmerk**uit) kunnen worden herschreven worden gesteund in het Pakhuis van Gegevens.*
+*Opmerking: Data warehouse biedt geen ondersteuning voor alle gevallen waarin een`exclusion`of`without`container wordt gebruikt`AND/OR`. Wanneer u een dergelijke combinatie gebruikt, worden alleen de segmenten die als`A AND NOT B`herschreven kunnen worden (of deze eigenschap ****opnemen en deze eigenschap **uitsluiten**) ondersteund in Data warehouse.*
