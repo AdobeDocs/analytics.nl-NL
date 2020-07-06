@@ -1,8 +1,8 @@
 ---
-title: gebeurtenissen
+title: events
 description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw site beheert.
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -10,19 +10,19 @@ ht-degree: 0%
 ---
 
 
-# gebeurtenissen
+# events
 
 Dimensies en metriek zijn essentiële componenten voor rapporten. De `events` variabele is verantwoordelijk voor gegevensinzameling van vele metriek op uw plaats.
 
-## Gebeurtenissen in Adobe Experience Platform Launch
+## Gebeurtenissen in Adobe Experience Platform starten
 
-U kunt gebeurtenissen instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
+U kunt gebeurtenissen instellen tijdens het configureren van de Analytics-extensie (globale variabelen) of onder regels.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 4. Klik onder [!UICONTROL Actions]op een bestaande [!UICONTROL Adobe Analytics - Set Variables] handeling of klik op het pictogram ‘+’.
-5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en stel het [!UICONTROL Action Type] in op [!UICONTROL Set Variables].
+5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en [!UICONTROL Action Type] op [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL Events] sectie.
 
 Er zijn verschillende functies beschikbaar:
@@ -36,7 +36,7 @@ Er zijn verschillende functies beschikbaar:
 
 De `s.events` variabele is een tekenreeks die een door komma&#39;s gescheiden lijst met gebeurtenissen bevat die in de hit moeten worden opgenomen. Er is geen bytelimiet voor deze variabele, zodat de variabele niet wordt afgekapt. Geldige waarden zijn:
 
-* `event1` - `event1000`: Aangepaste gebeurtenissen instellen op de gewenste manier. Registreer hoe u elke gebeurtenis in het document [van het de](../../../prepare/solution-design.md)oplossingsontwerp van uw organisatie gebruikt. Het aantal beschikbare gebeurtenissen is afhankelijk van het contract Analytics van uw organisatie. De meeste organisaties op niet verouderde contracten hebben 1000 beschikbare douanefouten. Neem contact op met de accountmanager van uw organisatie als u niet weet hoeveel aangepaste gebeurtenissen voor u beschikbaar zijn.
+* `event1` - `event1000`: Aangepaste gebeurtenissen instellen op de gewenste manier. Registreer hoe u elke gebeurtenis in het document [van het de](../../../prepare/solution-design.md)oplossingsontwerp van uw organisatie gebruikt. Het aantal beschikbare gebeurtenissen hangt af van het Analytics-contract van uw organisatie. De meeste organisaties op niet verouderde contracten hebben 1000 beschikbare douanefouten. Neem contact op met de accountmanager van uw organisatie als u niet weet hoeveel aangepaste gebeurtenissen voor u beschikbaar zijn.
 * `purchase`: Verhoogt metrisch [&#39;Orders&#39;](/help/components/metrics/orders.md) door 1, en neemt waarden die in de `products` variabele worden geplaatst om [&#39;Eenheden&#39;](/help/components/metrics/units.md) en [&#39;Opbrengsten&#39;](/help/components/metrics/revenue.md)te berekenen. Zie [Aankoopgebeurtenis](event-purchase.md) voor meer informatie.
 * `prodView`: Verhoogt metrisch de [&#39;Productweergaven&#39;](/help/components/metrics/product-views.md) .
 * `scOpen`: Verhoogt de metrische waarde van de [&#39;Houtskaarten&#39;](/help/components/metrics/carts.md) .
@@ -45,7 +45,9 @@ De `s.events` variabele is een tekenreeks die een door komma&#39;s gescheiden li
 * `scView`: Verhoogt de metrische waarde [&#39;Kart Views&#39;](/help/components/metrics/cart-views.md) .
 * `scCheckout`: Verhoogt metrisch [&#39;Checkouts&#39;](/help/components/metrics/checkouts.md) .
 
->[!NOTE] Deze variabele is hoofdlettergevoelig. Vermijd het gebruik van onjuiste hoofdletters voor gebeurteniswaarden om een nauwkeurige gegevensverzameling te garanderen.
+>[!NOTE]
+>
+>Deze variabele is hoofdlettergevoelig. Vermijd het gebruik van onjuiste hoofdletters voor gebeurteniswaarden om een nauwkeurige gegevensverzameling te garanderen.
 
 ```js
 // Set the events variable to a single value
@@ -67,7 +69,9 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
->[!NOTE] Tegengebeurtenissen ondersteunen geen valuta- of decimale waarden. Gebruik valutagebeurtenissen voor valuta, of numerieke gebeurtenissen voor decimale waarden.
+>[!NOTE]
+>
+>Tegengebeurtenissen ondersteunen geen valuta- of decimale waarden. Gebruik valutagebeurtenissen voor valuta, of numerieke gebeurtenissen voor decimale waarden.
 
 ### Valutagebeurten gebruiken
 
@@ -84,7 +88,9 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
->[!NOTE] Als u een valutawaarde instelt in zowel de `events` variabele als de `products` variabele, wordt de valutawaarde in `events` gebruikt. Stel geen valutawaarden in zowel de `events` variabelen als de `products` variabelen in.
+>[!NOTE]
+>
+>Als u een valutawaarde instelt in zowel de `events` variabele als de `products` variabele, wordt de valutawaarde in `events` gebruikt. Stel geen valutawaarden in zowel de `events` variabelen als de `products` variabelen in.
 
 ### Numerieke gebeurtenissen gebruiken
 
@@ -99,4 +105,6 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
->[!NOTE] Als u een numerieke waarde instelt in zowel de `events` variabele als de `products` variabele, wordt de numerieke waarde in `events` gebruikt. Stel geen numerieke waarden in zowel de `events` variabelen als de `products` variabelen in.
+>[!NOTE]
+>
+>Als u een numerieke waarde instelt in zowel de `events` variabele als de `products` variabele, wordt de numerieke waarde in `events` gebruikt. Stel geen numerieke waarden in zowel de `events` variabelen als de `products` variabelen in.
