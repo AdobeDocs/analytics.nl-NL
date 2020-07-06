@@ -3,17 +3,17 @@ description: 'null'
 title: Bijdrageanalyse uitvoeren
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
 # Bijdrageanalyse uitvoeren
 
-De analyse van de bijdrage is een intensief machine het leren proces dat wordt ontworpen om contribuanten aan een waargenomen anomalie in de Analytics van Adobe te ontdekken. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
+De analyse van de bijdrage is een intensief machine het leren proces dat wordt ontworpen om contribuanten aan een waargenomen anomalie in Adobe Analytics te ontdekken. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
 
 ## Bijdrageanalyse uitvoeren {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
@@ -34,7 +34,7 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 1. (Optioneel) Nadat u in het regeldiagram of een tabel hebt geklikt, kunt u het bereik van de analyse (en dus de analyse versnellen) beperken door de afmetingen **[!UICONTROL Run Contribution Analysis]** uit te sluiten [](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
 1. Wacht terwijl de analyse van uw bijdrage wordt geladen. Dit kan veel tijd in beslag nemen, afhankelijk van de grootte van uw rapportenpakket en het aantal dimensies. De analyse van de bijdrage voert analyse op de hoogste 50.000 punten per dimensie uit.
-1. De Werkruimte van de analyse laadt dan een nieuw paneel van de Analyse van de Bijdrage direct binnen dit project. U zult veel vertrouwde panelen opmerken als u Analyse van de Bijdrage in Rapporten &amp; Analytics eerder hebt gebruikt:
+1. Analysis Workspace laadt vervolgens een nieuw deelvenster voor de analyse van bijdragen rechtstreeks in dit project. Er zullen veel bekende deelvensters verschijnen als u Contribute-analyse al eerder hebt gebruikt in Rapporten en Analytics:
 
    * Een visualisatie die het aantal **bezoeken** op die dag toont.
    * Een maandelijkse **Bezoek Tendelijn** voor context.
@@ -44,7 +44,7 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 
       ![](assets/auto_segment.png)
 
-1. Aangezien de bijdrageanalyse nu deel van de Werkruimte van de Analyse uitmaakt, kunt u uit een aantal van zijn eigenschappen van het de klikmenu van een lijst van de met de rechtermuisknop aanklikken gebruiken om uw analyse nog betekenisvoller te maken, zoals:
+1. Aangezien de analyse van de bijdrage nu deel van Analysis Workspace uitmaakt, kunt u uit een aantal van zijn eigenschappen van het de klikmenu van een lijst van een lijst voordeel halen om uw analyse nog betekenisvoller te maken, zoals:
 
    * [Elk afmetingsitem omlaag splitsen op een andere afmeting.](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
    * [Een of meer rijen Trending.](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
@@ -52,7 +52,9 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
    * [Waarschuwingen maken.](/help/components/c-alerts/intellligent-alerts.md)
    * [Segmenten maken of vergelijken.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
->[!NOTE] We benadrukken de anomalie die wordt geanalyseerd met een blauwe stip in de bijdrageanalyse en de projecten voor intelligente waarschuwingen die eraan gekoppeld zijn. Dit geeft een duidelijkere indicatie van de anomalie die wordt geanalyseerd.
+>[!NOTE]
+>
+>We benadrukken de anomalie die wordt geanalyseerd met een blauwe stip in de bijdrageanalyse en de projecten voor intelligente waarschuwingen die eraan gekoppeld zijn. Dit geeft een duidelijkere indicatie van hoe de anomalie wordt geanalyseerd.
 
 ## Afmetingen uitsluiten van bijdrageanalyse {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
