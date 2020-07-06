@@ -1,20 +1,23 @@
 ---
 description: 'null'
-title: Publiceren naar Power BI - Overzicht
+title: Publiceren naar Power BI - overzicht
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 12%
 
 ---
 
 
-# Publiceren naar Power BI - Overzicht
+# Publiceren naar Power BI - overzicht
 
-Microsoft Power BI is een suite van bedrijfsanalytische dashboards om gegevens te analyseren en inzichten te delen. Dankzij de integratie van Adobe Analytics met Power BI kunt u de gegevens van Report Builder-analyse visualiseren in Microsoft Power BI en deze eenvoudig delen in uw organisatie.
+Microsoft Power BI is een suite van bedrijfsanalytische dashboards om data te analyseren en inzichten te delen. Dankzij de integratie van Adobe Analytics met Power BI kunt u de analytische data van Report Builder visualiseren in Microsoft Power BI en deze eenvoudig delen in uw organisatie.
 
-Eerder zou u als analist de werkboeken van de Bouwer van het Rapport plannen om via e-mail (of FTP) worden verspreid. U kunt nu belanghebbenden uit uw bedrijf toegang geven (van binnen hun Power BI-accounts) tot nauwkeurige en actuele gegevens in een webomgeving die toegankelijk is voor verschillende platforms en apparaten.
+Vroeger moest u als analist plannen dat de Report Builder-werkmappen via e-mail (of FTP) werden verspreid. Nu kunt u uw zakelijke belanghebbende gebruikers toegang geven (vanuit hun Power BI-account) tot nauwkeurige en actuele data in een webomgeving die toegankelijk is voor verschillende platforms en apparaten.
 
-Het combineren van het rapport-generatie vermogen van de Bouwer van het Rapport met de visualisatiefuncties van Power BI maakt informatie toegankelijker voor iedereen in uw organisatie. Met Power BI kunt u Adobe Analytics ook integreren met andere gegevensbronnen (bijvoorbeeld verkooppunt, CRM) om unieke klantinzichten, -verenigingen en -mogelijkheden te ontdekken.
+De combinatie van het rapportgenererende vermogen van Report Builder met de visualisatiefuncties van Power BI maakt informatie toegankelijker voor iedereen in uw organisatie. Met Power BI kunt u Adobe Analytics ook integreren met andere gegevensbronnen (bijvoorbeeld verkooppunt, CRM) om unieke klantinzichten, -verenigingen en -mogelijkheden te ontdekken.
 
 ![](assets/aaplusbi.png)
 
@@ -61,7 +64,9 @@ Geplande werkboeken zijn opgemaakte Excel-werkbladen die zijn gevuld met gegeven
 
 ## Publiceer alle geformatteerde lijsten in het werkboek als de datasetlijsten van Power BI {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE] Als het werkboek een macro bevat, zal &quot;publiceren Alle Formatted Lijsten in het Werkboek als de Lijsten van de Dataset van de Macht BI&quot;worden onbruikbaar gemaakt.
+>[!NOTE]
+>
+>Als het werkboek een macro bevat, zal &quot;publiceren Alle Formatted Lijsten in het Werkboek als de Lijsten van de Dataset van de Macht BI&quot;worden onbruikbaar gemaakt.
 
 In plaats van het invoeren van het volledige werkboek, kunt u slechts de inhoud van alle geformatteerde lijsten binnen het werkboek invoeren.
 
@@ -113,7 +118,7 @@ U kunt al uw verzoeken in datasetlijsten veranderen en visualisaties bovenop hen
 1. Voor de Toolbar van de Bouwer van het Rapport, klik **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
 1. Klik in de wizard Standaard plannen op **[!UICONTROL Advanced Scheduling Options]**.
-1. Schakel op het [!UICONTROL Scheduling Wizard - Advanced]tabblad het vakje naast **[!UICONTROL Publishing Options]** **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]**![](assets/advanced-schedule-wizard2.png)
+1. Schakel op het [!UICONTROL Scheduling Wizard - Advanced]**[!UICONTROL Publishing Options]** tabblad het vakje naast **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** ![](assets/advanced-schedule-wizard2.png)
 
 1. Klik op **[!UICONTROL OK]**.
 
