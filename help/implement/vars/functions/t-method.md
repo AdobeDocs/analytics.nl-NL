@@ -2,14 +2,17 @@
 title: t
 description: Verzend een pagina mening het volgen vraag naar Adobe.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
 
 # t()
 
-De `t()` methode is een belangrijk basisonderdeel van Adobe Analytics. Alle analytische variabelen die op de pagina zijn gedefinieerd, worden gecompileerd tot een verzoek om een afbeelding en die gegevens worden naar Adobe-servers voor gegevensverzameling verzonden.
+De `t()` methode is een belangrijk basisonderdeel voor Adobe Analytics. Alle Analytics-variabelen die op de pagina zijn gedefinieerd, worden gecompileerd naar een verzoek om een afbeelding en worden naar Adobe-servers voor gegevensverzameling verzonden.
 
 Neem bijvoorbeeld de volgende JavaScript-code:
 
@@ -25,7 +28,7 @@ s.eVar1 = "Example dimension value";
 s.t();
 ```
 
-Bij het uitvoeren van de `t()` methode worden alle gedefinieerde analytische variabelen gebruikt en wordt op basis van deze variabelen een URL gemaakt. Sommige variabelen van de Analyse bepalen URL van het beeld, terwijl andere variabelen vraagkoordparameterwaarden bepalen.
+Bij het uitvoeren van de `t()` methode worden alle Analytics-variabelen gedefinieerd en wordt op basis van die variabelen een URL gemaakt. Sommige Analytics-variabelen bepalen de URL van de afbeelding, terwijl andere variabelen parameterwaarden voor queryreeksen bepalen.
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
@@ -33,7 +36,7 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe ontvangt de afbeeldingsaanvraag en parseert vervolgens de parameters voor de aanvraagkoptekst, de URL en de queryreeks. Servers voor gegevensverzameling retourneren vervolgens een transparante afbeelding van 1 x 1 pixels, die onzichtbaar op uw site wordt weergegeven.
 
-## Aanroep voor bijhouden van paginaweergave in Adobe Experience Platform Launch
+## Aanroep voor bijhouden van paginaweergave in Adobe Experience Platform starten
 
 Bij starten wordt een specifieke locatie ingesteld die een aanroep voor het bijhouden van de paginaweergave bevat.
 
@@ -41,8 +44,8 @@ Bij starten wordt een specifieke locatie ingesteld die een aanroep voor het bijh
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 4. Klik onder [!UICONTROL Actions]op het pictogram ‘+’
-5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en de knop [!UICONTROL Action Type] To Send Beacon.
-6. Klik op het `s.t()` keuzerondje.
+5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en de knop [!UICONTROL Action Type] voor het verzenden van baken.
+6. Click the `s.t()` radio button.
 
 ## s.t()-methode in de aangepaste code-editor van AppMeasurement en Launch
 
@@ -60,4 +63,6 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
->[!NOTE] In eerdere versies van AppMeasurement werden verschillende coderegels gebruikt om deze functie aan te roepen. In de aanvullende code zijn historisch tijdelijke oplossingen voor verschillende browsers opgenomen. Dit codeblok is niet langer vereist voor standaardisering en beste praktijken in moderne browsers. Alleen de methode die u nu aanroept, `s.t()` is nodig.
+>[!NOTE]
+>
+>In eerdere versies van AppMeasurement werden verschillende coderegels gebruikt om deze functie aan te roepen. In de aanvullende code zijn historisch tijdelijke oplossingen voor verschillende browsers opgenomen. Dit codeblok is niet langer vereist voor standaardisering en beste praktijken in moderne browsers. Alleen de methode die u nu aanroept, `s.t()` is nodig.
