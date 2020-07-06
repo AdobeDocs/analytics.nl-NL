@@ -1,9 +1,12 @@
 ---
 title: Overzicht van het vergelijkingspaneel voor segmenten
-description: Leer hoe te om het paneel van de segmentvergelijking, deel van SegmentIQ in de Werkruimte van de Analyse te gebruiken.
+description: Leer hoe u het vergelijkingspaneel voor segmenten gebruikt, onderdeel van de IQ voor segmenten in Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1126'
+ht-degree: 4%
 
 ---
 
@@ -14,11 +17,11 @@ Het vergelijkingspaneel Segment is een tool part van [Segment IQ](../../segment-
 
 ## Een vergelijkingspaneel voor segmenten maken
 
-1. Meld u met uw Adobe-id aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) .
-1. Klik op het pictogram van 9 vierkante pixels rechtsboven en klik vervolgens op het gekleurde Analytics-logo.
-1. Klik in de bovenste navigatiebalk op Werkruimte.
-1. Klik op de knop Nieuw project maken.
-1. Controleer of Leeg project is geselecteerd in het modaal pop-upmenu en klik vervolgens op Maken.
+1. Meld u met uw Adobe ID aan bij [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+1. Klik op het pictogram met 9 vierkantjes rechtsboven in het venster en klik vervolgens op het gekleurde Analytics-logo.
+1. Klik in de bovenste navigatiebalk op Workspace.
+1. Klik op de knop &#39;Create New Project&#39; (Nieuw project maken).
+1. Controleer of de optie voor &#39;Leeg project&#39; is geselecteerd in het modale pop-upmenu en klik vervolgens op Create (Maken).
 1. Klik op de knop Deelvensters aan de linkerkant en sleep het deelvenster Segmentvergelijking boven of onder het automatisch gemaakte deelvenster van de vrije-vormtabel.
 
    ![Vergelijken, deelvenster](assets/seg-compare-panel.png)
@@ -72,9 +75,11 @@ Rechts van de visualisatie Grootte en Overlap wordt het totale aantal unieke bez
 
 Geeft de statistisch meest significante cijfers weer tussen de twee segmenten. Elke rij in deze tabel vertegenwoordigt een differentiërende metrische waarde, gerangschikt op basis van de verschillen tussen de segmenten. Een verschilscore van 1 betekent dat deze statistisch significant is, terwijl een verschilscore van 0 betekent dat er geen statistische significantie is.
 
-Deze visualisatie is gelijkaardig aan vrije vormlijsten in de Werkruimte van de Analyse. Als u een diepgaande analyse van een bepaalde metrische waarde wilt uitvoeren, plaatst u de muisaanwijzer boven een regelitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om die specifieke metrische waarde te analyseren. Als metrisch voor uw analyse irrelevant is, houd over het lijnpunt en klik &quot;X&quot;om het te verwijderen.
+Deze visualisatie lijkt op vrije-vormtabellen in Analysis Workspace. Als u een diepgaande analyse van een bepaalde metrische waarde wilt uitvoeren, plaatst u de muisaanwijzer boven een regelitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om die specifieke metrische waarde te analyseren. Als metrisch voor uw analyse irrelevant is, houd over het lijnpunt en klik &quot;X&quot;om het te verwijderen.
 
->[!NOTE] De metriek die aan deze lijst wordt toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
+>[!NOTE]
+>
+>De metriek die aan deze lijst wordt toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
 
 ![Metrische gegevens bovenaan](assets/top-metrics.png)
 
@@ -88,9 +93,11 @@ Rechts van de tabel Metriek bevindt zich een gekoppelde visualisatie. U kunt een
 
 Toont de statistisch meest significante afmetingswaarden over al uw dimensies. Elke rij toont het percentage van elk segment dat deze afmetingswaarde tentoonstelt. Deze tabel kan bijvoorbeeld laten zien dat 100% van de bezoekers in &#39;Segment A&#39; het afmetingitem &#39;Browsertype: Google&quot;, terwijl slechts 19,6% van &#39;Segment B&#39; dit dimensie-item had. Een verschilscore van 1 betekent dat deze statistisch significant is, terwijl een verschilscore van 0 betekent dat er geen statistische significantie is.
 
-Deze visualisatie is gelijkaardig aan vrije vormlijsten in de Werkruimte van de Analyse. Als u een diepgaande analyse van een specifieke afmetingswaarde wilt uitvoeren, plaatst u de muisaanwijzer boven een regelitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om die specifieke waarde voor de dimensie te analyseren. Als een afmetingswaarde irrelevant voor uw analyse is, beweegt zich over het lijnpunt en klikt &quot;X&quot;om het te verwijderen.
+Deze visualisatie lijkt op vrije-vormtabellen in Analysis Workspace. Als u een diepgaande analyse van een specifieke afmetingswaarde wilt uitvoeren, plaatst u de muisaanwijzer boven een regelitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om die specifieke waarde voor de dimensie te analyseren. Als een afmetingswaarde irrelevant voor uw analyse is, beweegt zich over het lijnpunt en klikt &quot;X&quot;om het te verwijderen.
 
->[!NOTE] De waarden van de afmeting die aan deze lijst worden toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
+>[!NOTE]
+>
+>De waarden van de afmeting die aan deze lijst worden toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
 
 ![Bovenste afmetingen](assets/top-dimension-item1.png)
 
@@ -104,9 +111,11 @@ Rechts van de tabel met afmetingen bevindt zich een gekoppelde staafdiagramvisua
 
 Geeft aan welke andere segmenten (behalve de twee segmenten die ter vergelijking zijn geselecteerd) statistisch significant overlappen. Deze tabel kan bijvoorbeeld laten zien dat een derde segment, &#39;Bezoekers herhalen&#39;, sterk overlapt met &#39;Segment A&#39;, maar niet overlapt met &#39;Segment B&#39;. Een verschilscore van 1 betekent dat deze statistisch significant is, terwijl een verschilscore van 0 betekent dat er geen statistische significantie is.
 
-Deze visualisatie is gelijkaardig aan vrije vormlijsten in de Werkruimte van de Analyse. Als u een diepgaande analyse van een specifiek segment wilt uitvoeren, plaatst u de muisaanwijzer boven een lijstitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om dat specifieke segment te analyseren. Als een segment irrelevant voor uw analyse is, beweegt u de muisaanwijzer over het lijstitem en klikt u op de X om het te verwijderen.
+Deze visualisatie lijkt op vrije-vormtabellen in Analysis Workspace. Als u een diepgaande analyse van een specifiek segment wilt uitvoeren, plaatst u de muisaanwijzer boven een lijstitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om dat specifieke segment te analyseren. Als een segment irrelevant voor uw analyse is, beweegt u de muisaanwijzer over het lijstitem en klikt u op de X om het te verwijderen.
 
->[!NOTE] De segmenten die aan deze lijst worden toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
+>[!NOTE]
+>
+>De segmenten die aan deze lijst worden toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
 
 ![Bovenste segmenten](assets/top-segments.png)
 
