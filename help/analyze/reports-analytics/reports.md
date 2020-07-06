@@ -2,7 +2,7 @@
 title: Rapporten
 description: De afmetingen en metriek die Rapporten & Analytics voor elk rapport gebruiken.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -12,11 +12,13 @@ ht-degree: 0%
 
 # Rapporten
 
-Elk rapport in Rapporten &amp; Analytics gebruikt een specifieke afmeting en metrisch gebrek. U kunt metrisch in elk rapport veranderen en onderverdelingen toevoegen indien gewenst. De volgende lijsten verstrekken welke dimensie in elk rapport wordt gebruikt.
+Elk rapport in Rapporten &amp; Analytics gebruikt een specifieke dimensie en standaard metrisch. U kunt metrisch in elk rapport veranderen en onderverdelingen toevoegen indien gewenst. De volgende lijsten verstrekken welke dimensie in elk rapport wordt gebruikt.
 
-> [!NOTE] Het menu Rapporten kan er anders uitzien, afhankelijk van aanpassingen die een beheerder in uw organisatie heeft aangebracht. Zie [Menu&#39;s aanpassen](/help/admin/admin/customize-menus.md) in de gebruikershandleiding voor Admin.
+>[!NOTE]
+>
+>Het menu Rapporten kan er anders uitzien, afhankelijk van aanpassingen die een beheerder in uw organisatie heeft aangebracht. Zie [Menu&#39;s aanpassen](/help/admin/admin/customize-menus.md) in de gebruikershandleiding voor Admin.
 
-## Sitegegevens
+## Sitecijfers
 
 Bevat rapporten die typisch het gebruiken van een datumwaaier trenderen. Bevat ook unieke rapporten, zoals Aanbevolen rapporten en Real-time rapporten.
 
@@ -35,7 +37,7 @@ Bevat rapporten die typisch het gebruiken van een datumwaaier trenderen. Bevat o
 * Tijd besteed per bezoek: Gebruikt de [Tijd besteed per bezoek - geketende](/help/components/dimensions/time-spent-per-visit.md) dimensie.
 * Tijd vóór de gebeurtenis: Gebruikt de [tijd voorafgaand aan de dimensie van de gebeurtenis](/help/components/dimensions/time-prior-to-event.md) .
 * Aankopen: Bevat rapporten over op aankoop-gebaseerde metriek.
-   * Conversietrechter aanschaffen: Rapport over [bezoeken](/help/components/metrics/visits.md), [winkelwagentjes](/help/components/metrics/carts.md), [bestellingen](/help/components/metrics/orders.md), [inkomsten](/help/components/metrics/revenue.md)en [eenheden](/help/components/metrics/units.md) in een verslag van de trechter. Een gelijkaardige visualisatie wordt bereikt in de Werkruimte van de Analyse gebruikend de visualisatie van de [Vallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+   * Conversietrechter aanschaffen: Rapport over [bezoeken](/help/components/metrics/visits.md), [winkelwagentjes](/help/components/metrics/carts.md), [bestellingen](/help/components/metrics/orders.md), [inkomsten](/help/components/metrics/revenue.md)en [eenheden](/help/components/metrics/units.md) in een verslag van de trechter. Een vergelijkbare visualisatie wordt bereikt in Analysis Workspace met behulp van de [Fallout-visualisatie](../analysis-workspace/visualizations/fallout/fallout-flow.md).
    * Ontvangsten: Trends de metrische [Inkomsten](/help/components/metrics/revenue.md) in tijd.
    * Bestellingen: Trends de metrische [Orders](/help/components/metrics/orders.md) in tijd.
    * Eenheden: Trends de metrische [Eenheden](/help/components/metrics/units.md) in tijd.
@@ -86,13 +88,13 @@ Bevat rapporten over verouderde mobiele rapporten. Deze rapporten baseren hun ge
 
 Bevat rapporten waarmee u tekengegevens voor bezoekers kunt bekijken.
 
-* Volgende paginastroom: Gebruikt een stroomrapport op de waarde van de hoogste paginadimensie. De padweergaven zijn vergelijkbaar met die van [instanties](/help/components/metrics/instances.md). U kunt de gerapporteerde waarde van de dimensie wijzigen. Een gelijkaardig rapport in de Werkruimte van de Analyse is beschikbaar gebruikend een visualisatie van de [Stroom](../analysis-workspace/visualizations/c-flow/flow.md).
+* Volgende paginastroom: Gebruikt een stroomrapport op de waarde van de hoogste paginadimensie. De padweergaven zijn vergelijkbaar met die van [instanties](/help/components/metrics/instances.md). U kunt de gerapporteerde waarde van de dimensie wijzigen. Een vergelijkbaar rapport in Analysis Workspace is beschikbaar via een [stroomvisualisatie](../analysis-workspace/visualizations/c-flow/flow.md).
 * Volgende pagina: Neemt de waarde voor de afmetingen van de bovenste pagina en toont u de volgende pagina&#39;s die bezoekers hebben bezocht.
-* Vorige paginastroom: Gebruikt een stroomrapport op de waarde van de hoogste paginadimensie Een gelijkaardig rapport in de Werkruimte van de Analyse is beschikbaar gebruikend een [Stroomvisualisatie](../analysis-workspace/visualizations/c-flow/flow.md).
+* Vorige paginastroom: Gebruikt een stroomrapport op de waarde van de hoogste paginadimensie Een gelijkaardig rapport in Analysis Workspace is beschikbaar gebruikend een [Stroomvisualisatie](../analysis-workspace/visualizations/c-flow/flow.md).
 * Vorige pagina: Neemt de waarde voor de afmetingen van de bovenste pagina op en toont u de vorige pagina&#39;s waar bezoekers vandaan kwamen.
-* Uitvallen: Hiermee kunt u de waarden voor de pagina-afmetingen in stappen selecteren en wordt aangegeven hoeveel personen dat pad wel en niet hebben gevolgd. Een gelijkaardig rapport in de Werkruimte van de Analyse is beschikbaar gebruikend een [Vallout visualisatie](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Volledige paden: Hiermee geeft u afzonderlijke paden weer als waarden voor afmetingen. ingedrukt in analysewerkruimte; gebruik in plaats hiervan de [stroomvisualisatie](../analysis-workspace/visualizations/c-flow/flow.md) .
-* PathFinder: Verstrekt veelvoudige types van rapporten die u wegen (gepensioneerd in de Werkruimte van de Analyse) laten analyseren.
+* Uitvallen: Hiermee kunt u de waarden voor de pagina-afmetingen in stappen selecteren en wordt aangegeven hoeveel personen dat pad wel en niet hebben gevolgd. Een vergelijkbaar rapport in Analysis Workspace is beschikbaar via een [Fallout-visualisatie](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Volledige paden: Hiermee geeft u afzonderlijke paden weer als waarden voor afmetingen. in Analysis Workspace; gebruik in plaats hiervan de [stroomvisualisatie](../analysis-workspace/visualizations/c-flow/flow.md) .
+* PathFinder: Verstrekt veelvoudige types van rapporten die u wegen (gepensioneerd in Analysis Workspace) laten analyseren.
 * Lengte pad: Hiermee gebruikt u de diepte [van](/help/components/dimensions/visit-depth.md) Bezoek.
 * Paginaanalyse
    * Paginaoverzicht: Neemt de waarde van de hoogste paginafmeting en toont een trended mening. Hier worden ook de invoerpunten, vorige pagina&#39;s, eindpunten en volgende pagina&#39;s voor de waarde van de afmeting van de bovenste pagina weergegeven.
@@ -105,7 +107,9 @@ Bevat rapporten waarmee u tekengegevens voor bezoekers kunt bekijken.
    * Bezoeken op één pagina: Hiermee gebruikt u de [pagina](/help/components/dimensions/page.md) -dimensie met het door Adobe verschafte segment &#39;Bezoeken van één pagina&#39; toegepast.
    * Pagina&#39;s afsluiten: Hiermee gebruikt u de dimensie Pagina [&#39;s](/help/components/dimensions/exit-dimensions.md) afsluiten.
 
-> [!NOTE] Andere rapporten kunnen in deze omslag verschijnen. Het zijn andere dimensies, zoals steunen, waar u [het kleven hebt toegelaten](../../admin/admin/c-traffic-variables/traffic-var.md) onder de montages van de rapportreeks.
+>[!NOTE]
+>
+>Andere rapporten kunnen in deze omslag verschijnen. Het zijn andere dimensies, zoals steunen, waar u [het kleven hebt toegelaten](../../admin/admin/c-traffic-variables/traffic-var.md) onder de montages van de rapportreeks.
 
 ## Verkeersbronnen
 
@@ -127,16 +131,16 @@ Bevat een rapport dat inzicht geeft in waar bezoekers vandaan kwamen voordat ze 
 
 Bevat hoofdzakelijk rapporten rond de [het Volgen codedimensie](/help/components/dimensions/tracking-code.md) .
 
-* Kanaal voor conversie van campagne: Meldt doorklikkingen, [Afhandelingen](/help/components/metrics/checkouts.md), [Orders](/help/components/metrics/orders.md), en [Ontvangsten](/help/components/metrics/revenue.md) in een kanaalrapport. Metrische klikdoorhalingen is gelijkaardig aan metrische [Instanties](/help/components/metrics/instances.md) in context van de [het Volgen codedimensie](/help/components/dimensions/tracking-code.md) . Een gelijkaardige visualisatie wordt bereikt in de Werkruimte van de Analyse gebruikend de visualisatie van de [Vallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Kanaal voor conversie van campagne: Meldt doorklikkingen, [Afhandelingen](/help/components/metrics/checkouts.md), [Orders](/help/components/metrics/orders.md), en [Ontvangsten](/help/components/metrics/revenue.md) in een kanaalrapport. Metrische klikdoorhalingen is gelijkaardig aan metrische [Instanties](/help/components/metrics/instances.md) in context van de [het Volgen codedimensie](/help/components/dimensions/tracking-code.md) . Een vergelijkbare visualisatie wordt bereikt in Analysis Workspace met behulp van de [Fallout-visualisatie](../analysis-workspace/visualizations/fallout/fallout-flow.md).
 * Trackingcode: Hiermee gebruikt u de dimensie [Code](/help/components/dimensions/tracking-code.md) bijhouden.
 
 ## Producten
 
 Bevat hoofdzakelijk rapporten rond de dimensie van het [Product](/help/components/dimensions/product.md) .
 
-* Trechter voor productomzetting: Meldt [de meningen](/help/components/metrics/product-views.md)van het Product, de toevoegingen [van het](/help/components/metrics/cart-additions.md)Kunstwerk, [Checkouts](/help/components/metrics/checkouts.md), [Orders](/help/components/metrics/orders.md), [Eenheden](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) , en Revenue in een het kanaalrapport. Een gelijkaardige visualisatie wordt bereikt in de Werkruimte van de Analyse gebruikend de visualisatie van de [Vallout](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Trechter voor productomzetting: Meldt [de meningen](/help/components/metrics/product-views.md)van het Product, de toevoegingen [van het](/help/components/metrics/cart-additions.md)Kunstwerk, [Checkouts](/help/components/metrics/checkouts.md), [Orders](/help/components/metrics/orders.md), [Eenheden](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) , en Revenue in een het kanaalrapport. Een vergelijkbare visualisatie wordt bereikt in Analysis Workspace met behulp van de [Fallout-visualisatie](../analysis-workspace/visualizations/fallout/fallout-flow.md).
 * Producten: Hiermee gebruikt u de dimensie [Producten](/help/components/dimensions/product.md) .
-* Cross-sell: Geeft producten weer die vaak samen worden verkocht (in de analysewerkruimte buiten beschouwing gelaten).
+* Cross-sell: Geeft producten weer die gezamenlijk worden verkocht (in Analysis Workspace afgeschreven).
 * Categorieën: Gebruikt de afmeting van de [Categorie](/help/components/dimensions/category.md) .
 
 ## Bezoekersbewaring
@@ -167,9 +171,9 @@ Bevat rapporten over wie uw plaats bezoekt.
    * VS-staten: Gebruikt de [Amerikaanse](/help/components/dimensions/us-states.md) dimensie.
    * US DMA: Gebruikt de [dimensie DMA](/help/components/dimensions/us-dma.md) van de V.S.
 * Talen: Gebruikt de dimensie [Taal](/help/components/dimensions/language.md) .
-* Tijdzones: Gebruikt de dimensie van de tijdzone (gepensioneerd in de Werkruimte van de Analyse). Dimensiewaarden zijn de GMT-verschuiving van de hit.
+* Tijdzones: Gebruikt de dimensie van de tijdzone (gepensioneerd in Analysis Workspace). Dimensiewaarden zijn de GMT-verschuiving van de hit.
 * Domein: Gebruikt de dimensie van het [Domein](/help/components/dimensions/domain.md) .
-* Domein op hoofdniveau: Gebruikt de top niveaudomeindimensie (die in de Werkruimte van de Analyse wordt gepensioneerd). Het groepeert de [domeinen](/help/components/dimensions/domain.md) dimensie in hoger-niveaucategorieën, typisch door land van het domein.
+* Domein op hoofdniveau: Gebruikt de domeindimensie op het hoogste niveau (in Analysis Workspace niet meer beschikbaar). Het groepeert de [domeinen](/help/components/dimensions/domain.md) dimensie in hoger-niveaucategorieën, typisch door land van het domein.
 * Technologie: Map met rapporten over wat de bezoeker heeft gebruikt om uw site te openen.
    * Browsers: Hiermee gebruikt u de dimensie [Browsers](/help/components/dimensions/browser.md) .
    * Browsertype: Hiermee gebruikt u de afmetingen voor het type [](/help/components/dimensions/browser-type.md) browser.
@@ -180,12 +184,12 @@ Bevat rapporten over wie uw plaats bezoekt.
    * Kleurdiepte monitor: Hierbij wordt de [kleurdiepte](/help/components/dimensions/color-depth.md) gebruikt.
    * Monitorresolutie: Hierbij wordt de resolutieafmeting van de [monitor](/help/components/dimensions/monitor-resolution.md) gebruikt.
    * Java: Gebruikt de dimensie [Java ingeschakeld](/help/components/dimensions/java-enabled.md) .
-   * JavaScript: Hiermee wordt de voor JavaScript ingeschakelde dimensie gebruikt (in de analysewerkruimte niet meer beschikbaar). Dimensiewaarden worden &#39;Enabled&#39;, &#39;Disabled&#39; of &#39;Unknown&#39; (Onbekend), afhankelijk van het feit of de browser JavaScript heeft ingeschakeld.
-   * JavaScript-versie: gebruikt de JavaScript-versie-dimensie (in de analysewerkruimte niet meer beschikbaar). De waarden van de afmeting tonen de versie van JavaScript die browser gebruikt.
+   * JavaScript: Gebruikt de voor JavaScript ingeschakelde dimensie (in Analysis Workspace afgebroken). Dimensiewaarden worden &#39;Enabled&#39;, &#39;Disabled&#39; of &#39;Unknown&#39; (Onbekend), afhankelijk van het feit of de browser JavaScript heeft ingeschakeld.
+   * JavaScript-versie: gebruikt de JavaScript-versie-dimensie (in Analysis Workspace afgebroken). De waarden van de afmeting tonen de versie van JavaScript die browser gebruikt.
    * Cookies: Hiermee gebruikt u de [ondersteuningsdimensie](/help/components/dimensions/cookie-support.md) voor cookies.
    * Verbindingstypen: Gebruikt de het type [afmeting van de](/help/components/dimensions/connection-type.md) Verbinding.
    * Mobiele drager: Gebruikt de afmeting [Mobiele drager](/help/components/dimensions/mobile-dimensions.md) .
-* Status bezoeker: Gebruikt de dimensie van de Staat (gepensioneerd in de Werkruimte van de Analyse). Dimensiewaarden komen voort uit de [`state`](../../implement/vars/page-vars/state.md) variabele.
+* Status bezoeker: Gebruikt de overheidsdimensie (gepensioneerd in Analysis Workspace). Dimensiewaarden komen voort uit de [`state`](../../implement/vars/page-vars/state.md) variabele.
 * Postcode bezoeker: Hiermee wordt de [dimensie Postcode](/help/components/dimensions/zip-code.md) gebruikt.
 
 ## Aangepaste conversie
@@ -200,7 +204,7 @@ Bevat specifieke rapporten voor uw implementatie. De het verkeersrapporten van d
 
 Bevat rapporten met betrekking tot [Marketing kanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-* Rapport Kanaaloverzicht: Een speciaal aangepast rapport voor rapporten en analyses. Gebruikt marketingkanalen als dimensiewaarden, met meetwaarden die de eerste of laatste aanraakkenmerk gebruiken.
+* Rapport Kanaaloverzicht: Een speciaal aangepast rapport voor Rapporten en Analytics. Gebruikt marketingkanalen als dimensiewaarden, met meetwaarden die de eerste of laatste aanraakkenmerk gebruiken.
 * Eerste aanraakkanaal: Hiermee gebruikt u de dimensie van het [eerste aanraakkanaal](/help/components/dimensions/first-touch-channel.md) .
 * Details eerste aanraakkanaal: Hiermee gebruikt u de detaildimensie van het [eerste aanraakkanaal](/help/components/dimensions/first-touch-detail.md) .
 * Laatste aanraakkanaal: Hiermee gebruikt u de dimensie van het [laatste aanraakkanaal](/help/components/dimensions/last-touch-channel.md) .
@@ -208,14 +212,16 @@ Bevat rapporten met betrekking tot [Marketing kanalen](/help/components/c-market
 
 ## Bladwijzers
 
-Bevat rapporten die u met bladwijzer hebt gemarkeerd. Zie [Bladwijzers](bookmarks.md) voor meer informatie.
+Bevat rapporten die u met bladwijzer hebt gemarkeerd. See [Bookmarks](bookmarks.md) for more information.
 
 ## Dashboards
 
-Bevat dashboards die u creeerde. Zie [Dashboards](dashboard.md) voor meer informatie.
+Bevat dashboards die u creeerde. See [Dashboards](dashboard.md) for more information.
 
-## Doelen
+## Targets
 
-Bevat doelen die u hebt gemaakt. Zie [Doelstellingen](targets.md) voor meer informatie.
+Bevat doelen die u hebt gemaakt. See [Targets](targets.md) for more information.
 
-> [!NOTE] Als u uw rapport niet op deze hulppagina kunt vinden, is het mogelijk dat uw beheerder anders genoemd of aangepaste omslagen. Zie [Menu&#39;s aanpassen](/help/admin/admin/customize-menus.md) in de gebruikershandleiding voor Admin.
+>[!NOTE]
+>
+>Als u uw rapport niet op deze hulppagina kunt vinden, is het mogelijk dat uw beheerder anders genoemd of aangepaste omslagen. Zie [Menu&#39;s aanpassen](/help/admin/admin/customize-menus.md) in de gebruikershandleiding voor Admin.
