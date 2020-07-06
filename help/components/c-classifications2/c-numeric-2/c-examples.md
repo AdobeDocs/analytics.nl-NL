@@ -5,7 +5,10 @@ title: Voorbeelden
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 29%
 
 ---
 
@@ -42,7 +45,7 @@ Periode: jan. 2010
 
 Rapport: Producten
 
-| Producten | Ontvangsten | MijnKosten |
+| Producten | Omzet | MijnKosten |
 |---|---|---|
 | Product1 | $10,000.23 | $2000.05 |
 | Product2 | $9,000.04 | $2700.01 |
@@ -77,7 +80,7 @@ Periode: jan. 2010
 
 Rapport: Producten
 
-| Producten | Ontvangsten | MijnKosten |
+| Producten | Omzet | MijnKosten |
 |---|---|---|
 | Product1 | $10,000.23 | $2000.05 |
 | Product2 | $9,000.04 | $2700.01 |
@@ -86,7 +89,7 @@ Periode: feb. 2010
 
 Rapport: Producten
 
-| Producten | Ontvangsten | MijnKosten |
+| Producten | Omzet | MijnKosten |
 |---|---|---|
 | Product1 | $15,500.75 | $2325.11 |
 | Product2 | $12,300.52 | $3075.13 |
@@ -95,7 +98,7 @@ Periode: 1 jan. 2010 - 28 feb. 2010
 
 Rapport: Producten
 
-| Producten | Ontvangsten | MijnKosten |
+| Producten | Omzet | MijnKosten |
 |---|---|---|
 | Product1 | $25,500.98 | $4325.16 |
 | Product2 | $21,300.56 | $5,775.14 |
@@ -126,7 +129,7 @@ Periode: mrt. 2010
 
 Rapport: Producten
 
-| Producten | Ontvangsten | MijnKosten |
+| Producten | Omzet | MijnKosten |
 |---|---|---|
 | Product1 | $11,023.75 | $3000.00 |
 | Product2 | $8,000.12 | $2000.00 |
@@ -163,11 +166,13 @@ Periode: jan. 2010
 
 Rapport: Producten
 
-| Producten | Ontvangsten | MijnKosten |
+| Producten | Omzet | MijnKosten |
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
->[!NOTE] Geavanceerde gebruikers kunnen deze functie gebruiken om de waarden te benaderen. De resulterende informatie mag niet worden behandeld als exacte waarden.
+>[!NOTE]
+>
+>Geavanceerde gebruikers kunnen deze functie gebruiken om de waarden te benaderen. De resulterende informatie mag niet worden behandeld als exacte waarden.
 
 <!-- 
 
@@ -197,7 +202,7 @@ Rapport: Producten op pagina
 |---|---|---|
 | Product1 | 1000 | $1000.00 |
 | Startpagina | 600 | $600 |
-| Winkelwagentje | 400 | $400 |
+| Winkelwagen | 400 | $400 |
 
 <!-- 
 
@@ -227,7 +232,7 @@ Rapport: Producten op pagina
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | Startpagina | 600 | 0 |
-| Winkelwagentje | 400 | 0 |
+| Winkelwagen | 400 | 0 |
 
 <!-- 
 
@@ -259,7 +264,7 @@ Rapport: Producten op pagina
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | Startpagina | 600 | $1800.00 |
-| Winkelwagentje | 400 | $1200.00 |
+| Winkelwagen | 400 | $1200.00 |
 
 <!-- 
 
@@ -289,5 +294,5 @@ Rapport: Producten op pagina
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | Startpagina | 600 | $1,000.00 |
-| Winkelwagentje | 400 | $2,000.00 |
+| Winkelwagen | 400 | $2,000.00 |
 
