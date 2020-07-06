@@ -4,7 +4,10 @@ title: Verschillende rapporttypen uitvoeren
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2276'
+ht-degree: 3%
 
 ---
 
@@ -71,17 +74,17 @@ t_reports_fallout.xml
 
  -->
 
-Bekijk het nieuwe deelvenster [Fallout Analyse](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in de analysewerkruimte!
+Bekijk het nieuwe deelvenster [Fallout Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
 
 1. Klik [!UICONTROL Adobe Analytics]in **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Fallout]**.
 1. Klik op de [!UICONTROL Fallout Report] pagina **[!UICONTROL Launch the Fallout Report Builder]**.
 
-   ![Stap resultaat](assets/fallout_add_items.png)
+   ![Stap Resultaat](assets/fallout_add_items.png)
 
 1. Geef op de [!UICONTROL Define Checkpoints] pagina de controlepunten op die u voor het rapport wilt gebruiken.
 1. Klik op **[!UICONTROL Run Report]**.
 
-   ![Stap resultaat](assets/fallout_report.png)
+   ![Stap Resultaat](assets/fallout_report.png)
 
 >[!MORELIKETHIS]
 >
@@ -92,7 +95,7 @@ Bekijk het nieuwe deelvenster [Fallout Analyse](https://docs.adobe.com/content/h
 
 In de rapporten Paginastroom wordt de volgorde weergegeven waarin bezoekers de pagina&#39;s openen en door uw site navigeren. Dit rapport helpt antwoord
 
-Ontdek de nieuwe [stroomvisualisatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in de Analyse Workspace!
+Bekijk de nieuwe [stroomvisualisatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
 
 Voer een [Paden](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) -rapport uit.
 
@@ -144,11 +147,13 @@ t_anomaly_view.xml
 
  -->
 
-Bekijk de nieuwe functies [Anomaly Detection and Contribution Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) in Analysis Workspace!
+Ontdek de nieuwe [Anomaly Detection and Contribution Analysis](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) -functies in Analysis Workspace!
 
 **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
 
->[!NOTE] U kunt ook Anomaly Detection van binnen de projecten van de Werkruimte van de Analyse in werking stellen. [Meer...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>[!NOTE]
+>
+>U kunt ook Anomaly Detection uitvoeren vanuit Analysis Workspace-projecten. [Meer...](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 Raadpleeg de [naslaggids](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)voor meer informatie over het instellen van Anomaly Detection.
 
@@ -230,7 +235,7 @@ U plaatst onafhankelijk van elkaar Ontdekking voor elke rapportreeks.
 
    ![](assets/ad_top_menu.png)
 
-   Zie de [handleiding](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) Analytics Segmentation voor meer informatie over het maken en beheren van segmenten. 1. (Optioneel) Favoriet of bladwijzer voor het rapport.
+   Zie de [Analytics Segmentation Guide](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) voor meer informatie over het maken en beheren van segmenten. 1. (Optioneel) Favoriet of bladwijzer voor het rapport.
 1. (Optioneel) Wijzig de einddatum van de weergaveperiode. De standaardwaarde is gisteren.
 1. U kunt nu beginnen met het interpreteren van het rapport. [Anomaly Detection-grafieken](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)weergeven.
 
@@ -248,7 +253,7 @@ reports_realtime.xml
 
 Real-Time rapportage biedt twee hoofdrapporten - een overzichtsrapport en een detailrapport. Ze bestaan elk uit een aantal verslagen.
 
-Zie de handleiding [](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration)Analytics Reference voor informatie over het configureren van real-time rapporten.
+Zie de handleiding [van de](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration)Analytics Reference voor informatie over het configureren van real-time rapporten.
 
 1. Bekijk het **[!UICONTROL Overview]** rapport en de componenten ervan:  ![](assets/rtr_overview_report.png)
 
@@ -294,7 +299,7 @@ Zie de handleiding [](https://docs.adobe.com/content/help/en/analytics/landing/h
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Primair rapport</strong></td> 
-   <td class="chdesc stentry"> Rapport voor de primaire dimensie van het rapport in real time en voor zijn metrisch. Geeft een trendlijn voor dat element voor de geselecteerde tijdwaaier aan. Het metrische totaal vertegenwoordigt de som voor de volledige trendlijn. De pijl geeft aan of het item sterk wint, opraakt, plat is, verloren is of sterk verloren is. </td> 
+   <td class="chdesc stentry"> Rapport voor de primaire dimensie van het rapport in real time en voor zijn metrisch. Geeft een trendlijn voor dat element voor de geselecteerde tijdwaaier aan. Het metrische totaal vertegenwoordigt de som voor de volledige trendlijn. De pijl geeft aan of het item sterk wint, opraakt, plat, verloren of sterk verliest. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Dialoogvenster Zoeken</strong></td> 
