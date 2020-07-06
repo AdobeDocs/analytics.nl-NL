@@ -2,7 +2,7 @@
 title: Kleurdiepte
 description: De kleurdiepte van het apparaat.
 translation-type: tm+mt
-source-git-commit: a8dc233e962a49674a30ff3c9f0b5d0d45b09f24
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -22,4 +22,6 @@ Deze dimensie verwijst naar een opzoektabel en zet de bitwaarde om in een beter 
 
 Tot de waarden voor dimensies behoren het aantal kleuren dat door het apparaat wordt ondersteund. Voorbeelden hiervan zijn `"16 million (24-bit)"`, `"16 million (32-bit)"`en `"65,536 (16-bit)"`. Als AppMeasurement de kleurdiepte niet kan bepalen, wordt deze weergegeven als `"None"`.
 
-> [!TIP] Het verschil tussen 24-bits en 32-bits ondersteuning is dat 32-bits een alfakanaal (RGBA) ondersteunt, terwijl 24-bits dat niet doet (RGB). Zie [Kleurdiepte](https://en.wikipedia.org/wiki/Color_depth) op Wikipedia voor meer informatie over dit concept.
+>[!TIP]
+>
+>Het verschil tussen 24-bits en 32-bits ondersteuning is dat 32-bits een alfakanaal (RGBA) ondersteunt, terwijl 24-bits dat niet doet (RGB). Zie [Kleurdiepte](https://en.wikipedia.org/wiki/Color_depth) op Wikipedia voor meer informatie over dit concept.
