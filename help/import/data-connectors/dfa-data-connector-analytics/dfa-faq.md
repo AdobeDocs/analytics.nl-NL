@@ -5,7 +5,10 @@ title: Veelgestelde vragen
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +27,13 @@ Als het meer dan 3 dagen is geweest en u niet opstellings-e-mail hebt ontvangen 
 
 Bijvoorbeeld, zeg er een integratie in Reeks A van het Rapport met Advertiser identiteitskaart Z is die toegewezen CSID krijgt. Als een andere integratie later opstelling in Reeks B van het Rapport met Advertiser Z is, zal deze nieuwere integratie NIET opnieuw toegewezen CSID worden. Hiervoor is een Google-ticket nodig. Anderzijds, neem het voorbeeld van een integratie in Report Suite A, met Advertiser ID Z, en later een andere integratie in Report Suite A, wordt Advertiser Z opstelling. Alleen de eerste integratie zal gegevens voor de integratie ontvangen; in dit geval kan de eerste integratie echter worden gedeactiveerd en zullen de gegevens naar de tweede integratie gaan .
 
->[!NOTE] CSIDs wordt niet gebruikt in versie 2.0 van de integratie en zo is het onderhandelingsproces van CSID niet van toepassing.
+>[!NOTE]
+>
+>CSIDs wordt niet gebruikt in versie 2.0 van de integratie en zo is het onderhandelingsproces van CSID niet van toepassing.
 
 ## Ik gebruik versie 2.0 van de integratie en de kostenmetriek verschijnen niet voor mijn DFA advertenties. Waarom zou dat zo zijn? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
-Kostenmaatstaven moeten zowel vanuit de Google DFA-zijde worden ingeschakeld als in de DFA-interface worden geleverd en ingeschakeld in de wizard Gegevensconnectors. De eerste plaats om te verifiëren is dat u een gebeurtenis Analytics voor DFA Media Kosten in kaart hebt gebracht, en een muntcode verstrekt. Als u de Media Cost-gebeurtenis hebt toegewezen en de wizard hebt voltooid en opgeslagen, wordt de DFA omnitureCostData-vlag ingeschakeld in de DFA API. Dit zal aan Google duidelijk maken dat de metriek in het nachtelijke dossier zou moeten worden verzonden. U kunt via de DFA-interface controleren of omnitureCostData is ingeschakeld door eigenschappen op de geïntegreerde Floodlight te bekijken. Nadat u deze twee plaatsen hebt gecontroleerd, zorgt u er ten slotte voor dat de advertenties die deel uitmaken van de geïntegreerde functie Vullicht, kostengegevens en kostenstructuren opgeven. Als de kostengegevens niet in de interface DFA worden verstrekt, zal het niet in Analytics verschijnen.
+Kostenmaatstaven moeten zowel vanuit de Google DFA-zijde worden ingeschakeld als in de DFA-interface worden geleverd en ingeschakeld in de wizard Gegevensconnectors. De eerste manier om te controleren is dat u een Analytics-gebeurtenis voor DFA Media Cost hebt toegewezen en een valutacode hebt opgegeven. Als u de Media Cost-gebeurtenis hebt toegewezen en de wizard hebt voltooid en opgeslagen, wordt de DFA omnitureCostData-vlag ingeschakeld in de DFA API. Dit zal aan Google duidelijk maken dat de metriek in het nachtelijke dossier zou moeten worden verzonden. U kunt via de DFA-interface controleren of omnitureCostData is ingeschakeld door eigenschappen op de geïntegreerde Floodlight te bekijken. Nadat u deze twee plaatsen hebt gecontroleerd, zorgt u er ten slotte voor dat de advertenties die deel uitmaken van de geïntegreerde functie Vullicht, kostengegevens en kostenstructuren opgeven. Als de kostengegevens niet in de interface DFA worden verstrekt, zal het niet in Analytics verschijnen.
 
 ## Waarom geven bepaalde advertenties geen DFA-indrukkingen of doorkijkcijfers weer, maar ze tonen wel kliks en doorklikken? {#section-39b2eeeefd7f43d1a373df0b987bacef}
 
@@ -40,7 +45,7 @@ Daar kan een van de vele antwoorden op zijn.
 
 Controleer eerst of de desbetreffende advertentie een bestemmingspagina-URL heeft die (a) gelabeld is met Adobe-code voor dezelfde rapportsuite die u bekijkt en (b) de parameter voor de *`clickThroughParam`* queryreeks bevat.
 
-Ten tweede, verifieer dat u een werkende integratie hebt door de stappen te volgen in het [Bevestigen van een Succesvolle Integratie](../dfa-data-connector-analytics/dfa-integration.md)DFA. Als er een DFA-trackingcode wordt weergegeven bij de Adobe-hit op de bestemmingspagina, ziet u dat Click-through wordt weergegeven in het rapport DFA-campagnes. Als u het niet ziet door komen, verifieer dat de rapportreeksen tussen de *`s.account`* variabele van de landingspagina aanpassen, en de rapportreeks die in Rapporten &amp; Analytics wordt bekeken. Als deze overeenkomen, controleert u de volgcodes in het rapport Weergeven via eVar die eruitzien als DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX:XXX.
+Ten tweede, verifieer dat u een werkende integratie hebt door de stappen te volgen in het [Bevestigen van een Succesvolle Integratie](../dfa-data-connector-analytics/dfa-integration.md)DFA. Als er een DFA-trackingcode wordt weergegeven bij de Adobe-hit op de bestemmingspagina, ziet u dat Click-through wordt weergegeven in het DFA-rapport Campaigns. Als u het niet ziet komen door, verifieer dat de rapportreeksen tussen de *`s.account`* variabele van de landingspagina, en de rapportreeks aanpassen die in Rapporten &amp; Analytics wordt bekeken. Als deze overeenkomen, controleert u de volgcodes in het rapport Weergeven via eVar die eruitzien als DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX:XXX.
 
 Deze tonen aan mislukkingen van de DFA VISTA-regel om de ruwe gegevens van DFA samen te vatten. Dit probleem kan worden verholpen door een ondersteuningsticket te openen via uw Adobe-accountvertegenwoordiger.
 
