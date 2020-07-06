@@ -6,7 +6,7 @@ title: Referentie gegevenskolom
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '3650'
 ht-degree: 0%
@@ -18,24 +18,28 @@ ht-degree: 0%
 
 Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste implementaties gebruiken niet elke kolom, zodat kan deze pagina worden van verwijzingen voorzien wanneer het bepalen van welke kolommen in de uitvoer van een gegevensvoer te omvatten.
 
->[!IMPORTANT] Voor elke bepaalde kolom (bijvoorbeeld een kolom die is gedefinieerd als 255 tekens) kan een gegevensfeed extra tekens verzenden als gevolg van de toevoeging van tekens die aan waarden ontsnappen in een tekenreeks. Houd rekening met deze mogelijke extra tekens als uw implementatie regelmatig waarden verzendt die tekenlimieten overschrijden.
+>[!IMPORTANT]
+>
+>Voor elke bepaalde kolom (bijvoorbeeld een kolom die is gedefinieerd als 255 tekens) kan een gegevensfeed extra tekens verzenden als gevolg van de toevoeging van tekens die aan waarden ontsnappen in een tekenreeks. Houd rekening met deze mogelijke extra tekens als uw implementatie regelmatig waarden verzendt die tekenlimieten overschrijden.
 
 ## Kolommen, beschrijvingen en gegevenstypen
 
->[!NOTE] De meeste kolommen bevatten een vergelijkbare kolom met een voorvoegsel `post_`. Post kolommen bevatten waarden na server-zijlogica, verwerkingsregels, en regels VISTA. In de meeste gevallen raadt Adobe u aan postkolommen te gebruiken. Zie Veelgestelde vragen over [gegevensinvoer](../df-faq.md) voor meer informatie.
+>[!NOTE]
+>
+>De meeste kolommen bevatten een vergelijkbare kolom met een voorvoegsel `post_`. Post kolommen bevatten waarden na server-zijlogica, verwerkingsregels, en regels VISTA. In de meeste gevallen raadt Adobe u aan postkolommen te gebruiken. Zie Veelgestelde vragen over [gegevensinvoer](../df-faq.md) voor meer informatie.
 
 | Kolomnaam | Kolombeschrijving | Gegevenstype |
 | --- | --- | --- |
 | `accept_language` | Hiermee worden alle geaccepteerde talen weergegeven, zoals wordt aangegeven in de HTTP-header Accept-Language in een afbeeldingsaanvraag. | teken(20) |
-| `aemassetid` | Een variabele van meerdere waarden die overeenkomt met de elementen van de element-id (GUID&#39;s) van een set Adobe Experience Manager-elementen. Incrementele indrukgebeurtenissen. | text |
-| `aemassetsource` | Identificeert de bron van de gebeurtenis asset. Wordt gebruikt in Adobe Experience Manager. | varchar(255) |
+| `aemassetid` | Een meerwaardevariabele die aan identiteitskaart van Activa (GUID) van een reeks Middelen van de Adobe Experience Manager beantwoordt. Incrementele indrukgebeurtenissen. | text |
+| `aemassetsource` | Identificeert de bron van de gebeurtenis asset. Wordt gebruikt in de Adobe Experience Manager. | varchar(255) |
 | `aemclickedassetid` | Element-id van een Adobe Experience Manager-element. De verhogingen klikken Gebeurtenissen. | varchar(255) |
 | `browser` | Numerieke id van de browser. Verwijst naar de opzoektabel browser.tsv. | int zonder teken |
 | `browser_height` | Hoogte in pixels van het browservenster. | small int zonder teken |
 | `browser_width` | Breedte in pixels van het browservenster. | small int zonder teken |
 | `c_color` | Bitdiepte van het kleurenpalet. Wordt gebruikt als onderdeel van het berekenen van de dimensie Kleurdiepte. Gebruikt de JavaScript-functie screen.colorDepth(). | teken(20) |
 | `campaign` | Variabele die wordt gebruikt in de dimensie Code bijhouden. | varchar(255) |
-| `carrier` | De integratievariabele van Adobe Advertising Cloud. Geeft de mobiele drager aan. Verwijst naar de lijst van de dragerraadpleging. | varchar(100) |
+| `carrier` | Adobe Advertising Cloud-integratievariabele. Geeft de mobiele drager aan. Verwijst naar de lijst van de dragerraadpleging. | varchar(100) |
 | `channel` | Variabele die wordt gebruikt in de dimensie Site-secties. | varchar(100) |
 | `click_action` | Niet meer gebruikt. Adres van verbonden klikte in het hulpmiddel van de erfenisKaart. | varchar(100) |
 | `click_action_type` | Niet meer gebruikt. Het type van verbinding van het erfenis hulpmiddel Clickmap.<br>0: HREF URL<br>1: Aangepaste id<br>2: JavaScript onClick-gebeurtenis<br>3: Formulierelement | tinyint zonder teken |
@@ -43,10 +47,10 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `click_context_type` | Niet meer gebruikt. Geeft aan of click_context een paginanaam heeft of standaard de pagina-URL heeft.<br>0: Pagina-URL<br>1: Paginanaam | tinyint zonder teken |
 | `click_sourceid` | Niet meer gebruikt. Numerieke id voor de locatie op de pagina van de aangeklikte koppeling. Deel van het oude Clickmap-gereedschap. | int zonder teken |
 | `click_tag` | Niet meer gebruikt. Type HTML-element waarop is geklikt. | teken(10) |
-| `clickmaplink` | Koppeling naar activiteitenoverzicht | varchar(255) |
-| `clickmaplinkbyregion` | Koppeling activiteitenoverzicht per regio | varchar(255) |
-| `clickmappage` | Pagina Activiteitenkaart | varchar(255) |
-| `clickmapregion` | Regio Activiteitenkaart | varchar(255) |
+| `clickmaplink` | Koppeling naar Activity Map | varchar(255) |
+| `clickmaplinkbyregion` | Activity Map per regio | varchar(255) |
+| `clickmappage` | Activity Map pagina | varchar(255) |
+| `clickmapregion` | Activity Map | varchar(255) |
 | `code_ver` | AppMeturement Library-versie die wordt gebruikt om de afbeeldingsaanvraag te compileren en te verzenden. | teken(16) |
 | `color` | Id van kleurdiepte gebaseerd op de waarde van de kolom c_color. Verwijst naar de opzoektabel color_depth.tsv. | small int zonder teken |
 | `connection_type` | Numerieke id die het verbindingstype vertegenwoordigt. Variabele die in de afmeting van het Type van Verbinding wordt gebruikt. Verwijst naar de connection_type.tsv opzoektabel. | tinyint zonder teken |
@@ -67,7 +71,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `ef_id` | De ef_id die wordt gebruikt in Adobe Advertising Cloud-integratie. | varchar(255) |
 | `evar1 - evar250` | Aangepaste variabelen 1-250. Elke organisatie gebruikt eVars anders. De beste plaats voor meer informatie over hoe uw organisatie respectieve eVars bevolkt zou een document van het oplossingsontwerp specifiek voor uw organisatie zijn. | varchar(255) |
 | `event_list` | Door komma&#39;s gescheiden lijst met numerieke id&#39;s die gebeurtenissen vertegenwoordigen die tijdens de hit worden geactiveerd. Bevat zowel standaardgebeurtenissen als aangepaste gebeurtenissen 1-1000. Gebruikt lookup event.tsv. | text |
-| `exclude_hit` | Markering die de treffer aangeeft, wordt niet gerapporteerd. De kolom visit_num wordt niet verhoogd voor uitgesloten hits.<br>1: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>2: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>3: Niet meer gebruikt. Uitsluiting<br>van gebruikersagent 4: Uitsluiting op basis van IP-adres<br>5: Er ontbreekt informatie over belangrijke raakpunten, zoals page_url, pagename, page_event of event_list<br>6: JavaScript heeft hit<br>7 niet correct verwerkt: Accountspecifieke uitsluiting, zoals in een VISTA-regel<br>8: Niet gebruikt. Alternatieve accountspecifieke uitsluiting.<br>9: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>10: Ongeldige valutacode<br>11: Als een tijdstempel ontbreekt in een rapportsuite met alleen een tijdstempel of als een hit een tijdstempel bevat in een rapportsuite<br>zonder tijdstempel: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>13: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>14: Doeltreffer die niet overeenkwam met een Analytics hit<br>15: Momenteel niet gebruikt.<br>16: Cloud voor advertenties die niet overeenkomt met een treffer voor Analyse | tinyint zonder teken |
+| `exclude_hit` | Markering die de treffer aangeeft, wordt niet gerapporteerd. De kolom visit_num wordt niet verhoogd voor uitgesloten hits.<br>1: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>2: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>3: Niet meer gebruikt. Uitsluiting<br>van gebruikersagent 4: Uitsluiting op basis van IP-adres<br>5: Er ontbreekt informatie over belangrijke raakpunten, zoals page_url, pagename, page_event of event_list<br>6: JavaScript heeft hit<br>7 niet correct verwerkt: Accountspecifieke uitsluiting, zoals in een VISTA-regel<br>8: Niet gebruikt. Alternatieve accountspecifieke uitsluiting.<br>9: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>10: Ongeldige valutacode<br>11: Als een tijdstempel ontbreekt in een rapportsuite met alleen een tijdstempel of als een hit een tijdstempel bevat in een rapportsuite<br>zonder tijdstempel: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>13: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>14: Target treffer die niet overeenkwam met een Analytics hit<br>15: Momenteel niet gebruikt.<br>16: Advertising Cloud-treffer die niet overeenkomt met een Analytics-treffer | tinyint zonder teken |
 | `first_hit_page_url` | De allereerste URL van de bezoeker. | varchar(255) |
 | `first_hit_pagename` | Variabele die wordt gebruikt in de oorspronkelijke dimensie van de Pagina van de Ingang. De oorspronkelijke naam van de ingangspagina van de bezoeker. | varchar(100) |
 | `first_hit_ref_domain` | Variabele die in de Originele Verwijzende dimensie van het Domein wordt gebruikt. Gebaseerd op first_hit_reference. Het allereerste verwijzende domein van de bezoeker. | varchar(100) |
@@ -98,8 +102,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `latlon1` | Locatie (tot 10 km) | varchar(255) |
 | `latlon23` | Locatie (tot 100 m) | varchar(255) |
 | `latlon45` | Locatie (tot 1 m) | varchar(255) |
-| `mc_audiences` | Lijst van het segmentIDs van de Manager van de Publiek tot de bezoeker behoort. | text |
-| `mcvisid` | Ervaar de Cloud Visitor-id. 128-bits getal dat bestaat uit twee samengevoegde 64-bits getallen opgevuld tot 19 cijfers. | varchar(255) |
+| `mc_audiences` | Lijst met Audience Manager segment-id&#39;s waartoe de bezoeker behoort. | text |
+| `mcvisid` | Experience Cloud-bezoeker-id. 128-bits getal dat bestaat uit twee samengevoegde 64-bits getallen opgevuld tot 19 cijfers. | varchar(255) |
 | `mobile_id` | Als de gebruiker een mobiel apparaat gebruikt, is dit de numerieke id van het apparaat. | int |
 | `mobileaction` | Mobiele handeling. Automatisch verzameld wanneer trackAction wordt geroepen in de Mobiele Diensten. Hiermee kunt u in de app automatisch tekenen met handelingen. | varchar(100) |
 | `mobileappid` | Mobiele toepassings-id. Hiermee worden de toepassingsnaam en -versie opgeslagen in de volgende indeling:[AppName] [BundleVersion] | varchar(255) |
@@ -174,7 +178,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `resolution` | Numerieke id die de resolutie van de monitor vertegenwoordigt. Bevolkt de dimensie van de Resolutie van de Monitor. Gebruikt resolution.tsv raadplegingstabel. | small int zonder teken |
 | `s_kwcid` | Trefwoord-id die wordt gebruikt in Adobe Advertising Cloud-integratie. | varchar(255) |
 | `s_resolution` | Waarde van resolutie voor onbewerkt scherm. Wordt verzameld met behulp van de JavaScript-functie screen.width x screen.height. | teken(20) |
-| `sampled_hit` | Niet meer gebruikt. Voorheen werd gebruikt voor bemonstering in ad-hocanalyse. | teken(1) |
+| `sampled_hit` | Niet meer gebruikt. Voorheen werd gebruikt voor bemonstering in het Ad hoc analysis. | teken(1) |
 | `search_engine` | Numerieke id die staat voor de zoekengine die de bezoeker naar uw site heeft doorverwezen. Gebruikt search_engines.tsv lookup. | small int zonder teken |
 | `search_page_num` | Wordt gebruikt door de afmeting Alle zoekpaginaranalen. Hiermee geeft u aan op welke pagina met zoekresultaten uw site is weergegeven voordat de gebruiker op uw site heeft geklikt. | small int zonder teken |
 | `secondary_hit` | Markering die secundaire treffers volgt. Doorgaans is dit afkomstig van taggen met meerdere suite- en VISTA-regels die treffers kopiëren. | tinyint zonder teken |
@@ -182,7 +186,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `socialaccountandappids` | Niet meer gebruikt. Sociale account en toepassings-id&#39;s | varchar(255) |
 | `socialassettrackingcode` | Niet meer gebruikt. Variabele voor sociale campagne | varchar(255) |
 | `socialauthor` | Niet meer gebruikt. Variabele voor sociale auteurs | varchar(255) |
-| `socialcontentprovider` | Niet meer gebruikt. Sociale platforms/eigenschappen | varchar(255) |
+| `socialcontentprovider` | Niet meer gebruikt. Sociale Platforms/eigenschappen | varchar(255) |
 | `socialinteractiontype` | Niet meer gebruikt. Type sociale interactie | varchar(255) |
 | `sociallanguage` | Niet meer gebruikt. Sociale taal | varchar(255) |
 | `sociallatlong` | Niet meer gebruikt. Sociale breedtegraad/lengtegraad | varchar(255) |
