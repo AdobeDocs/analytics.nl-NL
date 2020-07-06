@@ -2,10 +2,10 @@
 title: Pagina
 description: De naam van de pagina.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,4 +24,6 @@ Deze dimensie wint gegevens van het [`pageName` vraagkoord](/help/implement/vali
 
 Tot de waarden voor dimensies behoren de namen van pagina&#39;s op uw site. Uw organisatie bepaalt welke specifieke afmetingswaarden u wilt gebruiken. Sommige organisaties gebruiken direct `document.title`, terwijl anderen een douane broodkruimel formuleren. Welke methode u ook gebruikt, zorg ervoor het verenigbaar is en dat u het in een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp registreert.
 
->[!NOTE] In Rapporten &amp; Analytics, gebruiken de omzettingsmetriek lineaire attributie voor deze afmeting. Zo worden de inkomsten gesplitst tussen alle pagina&#39;s die tijdens een bezoek vóór een `purchase` gebeurtenis worden weergegeven. De Werkruimte van de analyse gebruikt laatste attributie door gebrek, met de optie om het even welk attributiemodel te gebruiken.
+>[!NOTE]
+>
+>In Rapporten &amp; Analytics gebruiken conversiemetriek lineaire toewijzing voor deze dimensie. Zo worden de inkomsten gesplitst tussen alle pagina&#39;s die tijdens een bezoek vóór een `purchase` gebeurtenis worden weergegeven. Analysis Workspace gebruikt standaard de laatste toewijzing, met de optie om een willekeurig toewijzingsmodel te gebruiken.
