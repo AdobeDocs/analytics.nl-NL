@@ -4,7 +4,10 @@ title: Overzicht van rapporten aanpassen
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '871'
+ht-degree: 4%
 
 ---
 
@@ -81,7 +84,9 @@ t_reports_comparing_dates.xml
 
 U kunt geen datums vergelijken tussen trended-rapporten.
 
->[!NOTE] Als u een datumvergelijking op zeer belangrijke metriek in een dashboard wilt uitvoeren, kunt u de gegevens in de Bouwer [van het](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) Rapport trekken gebruikend twee afzonderlijke verzoeken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
+>[!NOTE]
+>
+>Als u een datumvergelijking op zeer belangrijke metriek in een dashboard wilt uitvoeren, kunt u de gegevens in de Bouwer [van het](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) Rapport trekken gebruikend twee afzonderlijke verzoeken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
 
 Datums vergelijken tussen gerangschikte rapporten in rapporten en analyses:
 
@@ -153,16 +158,16 @@ t_reports_compare_suites.xml
 
 Naast de grafische vertoning, geeft de lijst van het rapport u een percentagevergelijking. De volgende rapporten kunnen met vergelijkingen worden in werking gesteld:
 
-* Site-inhoud
-* Mobiel
+* Sitecontent
+* Mobile
 * Verkeersbronnen
 * Campagnes
 * Producten
-* Bezoeker retentie
-* Bezoekerprofiel
+* Bezoekersbehoud
+* Bezoekersprofiel
 * Aangepaste omzetting
 * Aangepast verkeer
-* Doel
+* Target
 * Enquête
 
 **Rapportsuites vergelijken**
@@ -206,7 +211,7 @@ Deze functie is alleen van toepassing op gefilterde rapporten met een datumberei
 
 ## Knop &#39;Uitproberen in werkruimte&#39; {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
-Als u op de **[!UICONTROL Try In Workspace]** knop boven aan een rapport klikt, wordt hetzelfde rapport geladen in de analysewerkruimte.
+Als u op de **[!UICONTROL Try In Workspace]** knop boven aan een rapport klikt, wordt hetzelfde rapport in Analysis Workspace geladen.
 
 <!-- 
 
@@ -214,8 +219,8 @@ try_in_workspace.xml
 
  -->
 
-De meeste rapporten in Rapporten &amp; Analytics omvatten nu een knoop &quot;van het Probeer in Werkruimte&quot;om u toe te staan om de huidige mening in de Werkruimte van de Analyse voor verdere aanpassing te reproduceren.
+De meeste rapporten in Rapporten &amp; Analytics bevatten nu de knop &quot;Try in Workspace&quot;, waarmee u de huidige weergave in Analysis Workspace kunt reproduceren voor verdere aanpassing.
 
-De knop is momenteel alleen beschikbaar als uw gebruikersnaam volledige rechten heeft voor de analysewerkruimte.
+De knop is momenteel alleen beschikbaar als je gebruikersnaam volledige rechten heeft op Analysis Workspace.
 
-Voor meer informatie over alle manieren kunt u uw rapport aanpassen, zie de gids van de Werkruimte [van de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) Analyse.
+Raadpleeg de handleiding van [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) voor meer informatie over alle manieren waarop u uw rapport kunt aanpassen.
