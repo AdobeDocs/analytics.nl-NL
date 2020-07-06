@@ -3,7 +3,10 @@ description: 'null'
 title: Alert Builder
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 1%
 
 ---
 
@@ -12,13 +15,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT]
 >
->Intelligente waarschuwingen zijn alleen beschikbaar voor klanten van Adobe Analytics Prime en Adobe Analytics Ultimate.
+>Intelligente waarschuwingen zijn alleen beschikbaar voor Adobe Analytics Premiere en Adobe Analytics Ultimate.
 
 ## Action Alert Builder
 
 U kunt de waarschuwingsfunctie op vier manieren openen:
 
-* Door de volgende kortere weg in de Werkruimte van de Analyse te gebruiken:
+* Met de volgende sneltoets in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
 * Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
@@ -27,7 +30,7 @@ U kunt de waarschuwingsfunctie op vier manieren openen:
 
 ## Waarschuwingen samenstellen
 
-De interface van de Bouwer van de Alarm is vertrouwd aan degenen die segmenten of berekende metriek in Analytics hebben gebouwd:
+De waarschuwingsinterface van de Bouwer is vertrouwd aan degenen die segmenten of berekende metriek in Analytics hebben gebouwd:
 
 ![](assets/alert_builder.png)
 
@@ -41,11 +44,13 @@ Geef een naam op voor de waarschuwing. De waakzame naam zou de naam van het rapp
 
 Geef op wanneer u de metrische waarde wilt controleren: Uur, Dagelijks, Wekelijks, of Maandelijks.
 
->[!NOTE] Voor rapportsuites met een aangepaste kalender ondersteunen we geen maandelijkse granulariteit in de Waarschuwingsbouwer.
+>[!NOTE]
+>
+>Voor rapportsuites met een aangepaste kalender ondersteunen we geen maandelijkse granulariteit in de Waarschuwingsbouwer.
 
 **Ontvangers**
 
-Geef op waar de waarschuwing kan worden verzonden. Een waarschuwing kan naar een gebruiker van de Analyse, een groep van Analytics, een onbewerkt e-mailadres, of naar een telefoonaantal worden verzonden.
+Geef op waar de waarschuwing kan worden verzonden. Een waarschuwing kan naar een Analytics-gebruiker, een Analytics-groep, een onbewerkt e-mailadres of een telefoonnummer worden verzonden.
 
 >[!IMPORTANT]
 >
