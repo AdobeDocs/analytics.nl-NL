@@ -3,7 +3,10 @@ description: 'null'
 title: Overzicht van stroom
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +21,13 @@ Hiermee kunt u:
 * Analyseren waar klanten voor en na opgegeven controlepunten gaan, zoals ingang, een specifieke afmeting, of uitgang
 * Segmenten maken door een specifiek punt op te geven in een gekozen pad
 
->[!NOTE] Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen de Werkruimte van de Analyse en Rapporten &amp; Analytics/Ad hoc Analyse zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>[!NOTE]
+>
+>Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen Analysis Workspace en Rapporten &amp; Analytics/Ad hoc analysis zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 [Stroomvisualisatie op YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
-## Inter-dimensionale stromen {#section_7AA325E432C846B0AC51E70CCE79B4C0}
+## Inter-Dimensional Flows {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
 U kunt de [stroom tussen de afmetingen](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)weergeven. U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mannen, dan naar de afdeling van Schoenen kunnen gaan.
 
