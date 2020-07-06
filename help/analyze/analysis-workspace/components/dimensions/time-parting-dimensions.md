@@ -1,27 +1,32 @@
 ---
 description: Bij tijdpartering wordt de tijdstempel van verzamelde hits gebruikt en wordt de reeks in betekenisvollere afmetingen opgedeeld, zoals "Uur van dag" of "Dag van week".
-title: Afmetingen van tijd tot tijd
+title: Tijduitsplitsende dimensies
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 3%
 
 ---
 
 
-# Afmetingen van tijd tot tijd
+# Tijduitsplitsende dimensies
 
 Bij tijdpartering wordt de tijdstempel van verzamelde hits gebruikt en wordt de reeks in betekenisvollere afmetingen opgedeeld, zoals &quot;Uur van dag&quot; of &quot;Dag van week&quot;.
 
-De tijd-ontledende dimensies zijn gebaseerd op de tijdzone van de rapportreeks of virtuele rapportreeks. Deze afmetingen zijn beschikbaar in de Werkruimte van de Analyse en kunnen helpen om de volgende vragen te beantwoorden:
+De tijd-ontledende dimensies zijn gebaseerd op de tijdzone van de rapportreeks of virtuele rapportreeks. Deze afmetingen zijn beschikbaar in Analysis Workspace en kunnen helpen om de volgende vragen te beantwoorden:
 
 * Wat is, over een groot datumbereik, de populairste tijd van dag voor bezoekers om tot mijn plaats of app toegang te hebben?
 * Zijn er dagen van de week of uren van de dag waarop de conversie hoger is op mijn site of app?
 * Hoe vergelijk mijn weekendverkopen met mijn weekdagverkopen?
 * Produceert een bepaalde marketing campagne hogere omzettingen in de ochtend, of in de namiddag?
 
->[!NOTE] De tijd-ontledende dimensies zijn slechts beschikbaar in de Werkruimte van de Analyse. Om tijd-ontledende dimensies in andere oplossingen van Analytics te gebruiken, kunt u [getTimeParting stop-in](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimeparting.html)uitvoeren.
+>[!NOTE]
+>
+>De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Als u de afmetingen voor tijdpartering wilt gebruiken in andere Analytics-oplossingen, kunt u de plug-in [getTimeParting implementeren](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimeparting.html).
 
-De tijd-ontledende dimensies in de Werkruimte van de Analyse omvatten:
+Afmetingen van tijdpartering in Analysis Workspace zijn onder andere:
 
 | Dimensie | Voorbeeldwaarden |
 |--- |--- |
