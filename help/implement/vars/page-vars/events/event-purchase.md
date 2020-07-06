@@ -2,10 +2,10 @@
 title: Aankoopgebeurtenis
 description: Gebruik de aankoopgebeurtenis om gegevens te verzamelen voor de metriek 'Bestellingen', 'Eenheden' en 'Opbrengst'.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,15 +20,17 @@ Wanneer u een aankoopgebeurtenis instelt, heeft dit invloed op de volgende metri
 * De metrische stappen &#39;Eenheden&#39; met het aantal producten in de `products` variabele
 * De metrische verhogingen van de &quot;Inkomsten&quot; met de som van de prijsparameters in de `products` variabele
 
->[!NOTE] Ontvangsten worden niet vermenigvuldigd met het veld Hoeveelheid. geeft bijvoorbeeld `s.products="Womens;Socks;5;4.50"` geen $22,50 door aan inkomsten; het geeft $4,50. Zorg ervoor dat uw implementatie de totale opbrengsten voor het vermelde aantal doorgeeft. Bijvoorbeeld,`s.products="Womens;Socks;5;22.50"`.
+>[!NOTE]
+>
+>Ontvangsten worden niet vermenigvuldigd met het veld Hoeveelheid. geeft bijvoorbeeld `s.products="Womens;Socks;5;4.50"` geen $22,50 door aan inkomsten; het geeft $4,50. Zorg ervoor dat uw implementatie de totale opbrengsten voor het vermelde aantal doorgeeft. Bijvoorbeeld,`s.products="Womens;Socks;5;22.50"`.
 
-## Aankoopgebeurtenis instellen in Adobe Experience Platform Launch
+## Aanschafgebeurtenis instellen in Adobe Experience Platform starten
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 4. Klik onder [!UICONTROL Actions]op een bestaande [!UICONTROL Adobe Analytics - Set Variables] handeling of klik op het pictogram ‘+’.
-5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en stel het [!UICONTROL Action Type] in op [!UICONTROL Set Variables].
+5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en [!UICONTROL Action Type] op [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL Events] sectie en stel het vervolgkeuzemenu voor gebeurtenissen in op [!UICONTROL purchase].
 
 Andere afhankelijke variabelen zoals `products` en `purchaseID` hebben geen specifieke velden in Launch. Gebruik de aangepaste code-editor die volgt op de syntaxis AppMeasurement voor deze variabelen.
