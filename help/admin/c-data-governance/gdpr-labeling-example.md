@@ -2,8 +2,11 @@
 description: 'null'
 title: Voorbeeld van labeling
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ Stel dat u de volgende treffersdata hebt:
 
 | Labels | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Naam variabele**<br>**(Naamruimte)** | **MyProp1**<br>**(gebruiker)** | **Bezoekers-id**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Naam variabele **<br>**(Naamruimte)** | **MyProp1 **<br>**(gebruiker)** | **Bezoekers-id **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
 | Treffersdata | Moniek | 77 | A | M | X |
 |  | Moniek | 88 | B | N | Y |
 |  | Moniek | 99 | C | O | Z |
@@ -65,7 +68,9 @@ Met een verwijderingsaanvraag waarbij de API-waarden in de eerste rij van de tab
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Alleen cellen op rijen met AAID=77 en een DEL-DEVICE-label worden beïnvloed.
+>[!NOTE]
+>
+>Alleen cellen op rijen met AAID=77 en een DEL-DEVICE-label worden beïnvloed.
 
 | user=Moniek<br>expandIDs=false | user=Moniek<br>expandIDs=false | user=Moniek<br>expandIDs=false | user=Moniek<br>expandIDs=false | user=Moniek<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -79,7 +84,9 @@ Met een verwijderingsaanvraag waarbij de API-waarden in de eerste rij van de tab
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Alleen cellen op rijen met user=Moniek en een DEL-PERSON-label worden beïnvloed. Bovendien zou in de praktijk de variabele met A_ID waarschijnlijk een prop of eVar zijn, en de vervangende waarde zou een tekenreeks zijn die begint met “Privacy-”, gevolgd door een willekeurig getald (GUID), in plaats van de numerieke waarde te vervangen door een andere, willekeurige numerieke waarde.
+>[!NOTE]
+>
+>Alleen cellen op rijen met user=Moniek en een DEL-PERSON-label worden beïnvloed. Bovendien zou in de praktijk de variabele met A_ID waarschijnlijk een prop of eVar zijn, en de vervangende waarde zou een tekenreeks zijn die begint met “Privacy-”, gevolgd door een willekeurig getald (GUID), in plaats van de numerieke waarde te vervangen door een andere, willekeurige numerieke waarde.
 
 | user=Moniek<br>expandIDs=true | user=Moniek<br>expandIDs=true | user=Moniek<br>expandIDs=true | user=Moniek<br>expandIDs=true | user=Moniek<br>expandIDs=true |
 |--- |---|---|---|---|
