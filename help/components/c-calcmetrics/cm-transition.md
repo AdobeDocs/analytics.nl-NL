@@ -1,9 +1,12 @@
 ---
-description: Deze wijzigingen in de manier waarop berekende metriek werkt in Analytics kunnen van invloed zijn op u.
+description: Deze wijzigingen in de manier waarop berekende metriek in Analytics werkt, kunnen van invloed zijn op u.
 title: Veelgestelde vragen
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2105'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +47,7 @@ Deze veranderingen in de manier berekende metriek binnen werken [!DNL Analytics]
 
 [Waarom tonen sommige berekende metriek formules zonder de haakjes die ik toevoegde?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
-[(Alleen ad-hocanalyse) Zijn de berekende metriek met de definities van ingesloten of inline segmenten nog steeds ondersteund?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
+[(Alleen Ad hoc analysis) Worden Metriek met ingesloten of inline segmentdefinities nog steeds ondersteund?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
 [(Alleen Report Builder) Waarom zijn berekende metriek uit mijn verzoeken verdwenen?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
@@ -53,7 +56,7 @@ Deze veranderingen in de manier berekende metriek binnen werken [!DNL Analytics]
 ## Hoe heb ik toegang tot de Berekende Metrische Bouwer? {#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1}
 
 * Klik **[!UICONTROL + Add]** bij de bovenkant van Berekende Metrische Manager, of
-* In om het even welk rapport van de Analyse, klik het pictogram van Metriek links van een rapport om de spoorstaaf van Metriek te tonen, dan klik ![](assets/metrics_icon.png) **[!UICONTROL Add]**.
+* In om het even welk Analytics rapport, klik het pictogram van Metriek links van een rapport ![](assets/metrics_icon.png) aan de spoorstaaf van Metriek, dan klik **[!UICONTROL Add]**.
 
 ## Hoe heb ik toegang tot Berekende Metrische Manager? {#section_DD0BD13E9EC940268EBE8BC88241A152}
 
@@ -75,9 +78,13 @@ U zou een aantal berekende metriek met de zelfde naam (maar gecreeerd in verschi
 
 Overweeg het consolideren van berekende metriek met gelijkaardige namen en definities maar oefen voorzichtigheid wanneer het doen van dit uit. U kunt de rapportreeks voor berekende metrisch in Berekende Metrische Manager controleren om zijn originele rapportreeks te verifiëren. U moet ook de definities van metriek controleren wanneer het schrappen van potentiële duplicaten om ervoor te zorgen dat u correct metriek consolideert.
 
->[!NOTE] Alhoewel de berekende metriek niet meer aan een specifieke rapportreeks verbindend zijn en over om het even welke rapportreeks kunnen worden gebruikt die aan het login bedrijf zichtbaar is, is de rapportreeks waaronder berekende metrisch werd gecreeerd of het laatst werd bewaard nog zichtbaar in de Berekende Metrische Manager.
+>[!NOTE]
+>
+>Alhoewel de berekende metriek niet meer aan een specifieke rapportreeks verbindend zijn en over om het even welke rapportreeks kunnen worden gebruikt die aan het login bedrijf zichtbaar is, is de rapportreeks waaronder berekende metrisch werd gecreeerd of het laatst werd bewaard nog zichtbaar in de Berekende Metrische Manager.
 
->[!NOTE] Zelfs als Berekende Metrisch wordt geschrapt, om het even welke referenties of dashboard meldt die die metrisch verwijzen nog zullen functioneren.
+>[!NOTE]
+>
+>Zelfs als Berekende Metrisch wordt geschrapt, om het even welke referenties of dashboard meldt die die metrisch verwijzen nog zullen functioneren.
 
 ## Wat is er gebeurd met mijn Global Calculated Metrics? {#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
@@ -89,7 +96,9 @@ De algemene berekende metriek zijn nu eigendom van de eerste gebruiker Admin in 
 
 Niets. Nochtans, zou de nieuwe eigenaar Admin voorzichtigheid moeten betrachten wanneer het wijzigen van of het schrappen van deze berekende metriek - zij kunnen in een aantal bookmarked rapporten en dashboards worden gebruikt.
 
->[!NOTE] Zelfs als Berekende Metrisch wordt geschrapt, om het even welke referenties of dashboard meldt die die metrisch verwijzen nog zullen functioneren.
+>[!NOTE]
+>
+>Zelfs als Berekende Metrisch wordt geschrapt, om het even welke referenties of dashboard meldt die die metrisch verwijzen nog zullen functioneren.
 
 ## Wat gebeurde er met Global Calculated Metrics die werden gedeeld door Login Companies? {#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
@@ -101,7 +110,9 @@ De globale berekende metriek kunnen niet meer over login bedrijven worden gedeel
 * Standaard naar &quot;gedeeld met iedereen&quot;.
 * Er worden kopieën gemaakt die onafhankelijk zijn van alle andere aanmeldingsbedrijven.
 
->[!NOTE] Als berekende metrisch in een referentie, dashboard, alarm, of gepland rapport werd gebruikt, zal het uitgeven van het nieuwe exemplaar NIET oude blijvend berekende metrisch beïnvloeden.
+>[!NOTE]
+>
+>Als berekende metrisch in een referentie, dashboard, alarm, of gepland rapport werd gebruikt, zal het uitgeven van het nieuwe exemplaar NIET oude blijvend berekende metrisch beïnvloeden.
 
 ## Wat is er gebeurd met Berekende cijfers met een numerieke of Numeric2-classificatie? {#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
@@ -109,7 +120,7 @@ De globale berekende metriek kunnen niet meer over login bedrijven worden gedeel
 
 Berekende metriek met een numerieke of Numeric2-classificatie blijven nu zichtbaar in de API&#39;s [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder]en. Nochtans, zullen zij niet in om het even welk rapport met een toegepast segment worden gesteund.
 
-Bovendien worden berekende metriek met een classificatie Numeric of Numeric2 niet ondersteund in de volgende componenten: [!UICONTROL Ad Hoc Analysis], [!UICONTROL Analysis Workspace], [!UICONTROL Real-Time] rapporten, [!UICONTROL Anomaly Detection], en [!UICONTROL Contribution Analysis]. Wanneer u een berekende metrisch met een Numerieke of Numeric2 classificatie creeert of uitgeeft, zult u een verenigbaarheidswaarschuwing zien dat berekende metrisch niet compatibel met bepaalde gebieden van het product is.
+Bovendien worden berekende metriek met een classificatie Numeric of Numeric2 niet ondersteund in de volgende componenten: [!UICONTROL Ad Hoc Analysis], [!UICONTROL Analysis Workspace], [!UICONTROL Real-Time] rapporten, [!UICONTROL Anomaly Detection]en [!UICONTROL Contribution Analysis]. Wanneer u een berekende metrisch met een Numerieke of Numeric2 classificatie creeert of uitgeeft, zult u een verenigbaarheidswaarschuwing zien dat berekende metrisch niet compatibel met bepaalde gebieden van het product is.
 
 **Wat u moet doen**
 
@@ -125,13 +136,13 @@ Om het even welke referenties, dashboards, geplande rapporten, of alarm die metr
 
 Berekende meetgegevens op basis van de maatstaven van de unieke bezoeker zijn zichtbaar in de volgende [!DNL Analytics] componenten: [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder]en API voor rapportage.
 
-Deze metriek wordt echter niet ondersteund in de volgende componenten: [!UICONTROL Segments], [!UICONTROL Analysis Workspace], [!UICONTROL Real-Time] rapporten, [!UICONTROL Anomaly Detection], en [!UICONTROL Contribution Analysis]. Wanneer u een berekende metrische waarde maakt of bewerkt op basis van de maatstaven van Unieke bezoekers, wordt er een compatibiliteitswaarschuwing weergegeven dat de metrische waarde niet compatibel is met bepaalde gebieden van het product.
+Deze metriek wordt echter niet ondersteund in de volgende componenten: [!UICONTROL Segments], [!UICONTROL Analysis Workspace], [!UICONTROL Real-Time] rapporten, [!UICONTROL Anomaly Detection]en [!UICONTROL Contribution Analysis]. Wanneer u een berekende metrische waarde maakt of bewerkt op basis van de maatstaven van Unieke bezoekers, wordt er een compatibiliteitswaarschuwing weergegeven dat de metrische waarde niet compatibel is met bepaalde gebieden van het product.
 
 U gebruikt metrische basis de Unieke Bezoeker op een rapport met een segment. U kunt een Berekende Metrisch tot stand brengen die op Unieke metrisch van de Bezoeker wordt gebaseerd; nochtans, kan dat berekende metrisch niet op een rapport met een segment worden toegepast, noch kan dat berekende metrisch een segment daarin ingebed hebben.
 
 ## Wat gebeurt met Berekende Metriek die met de oude methodes van de rapportreeks API wordt gecreeerd of wordt beheerd? {#section_13ED1BAD02634674BDAEB479B060A4B6}
 
-Eerder was het opslaan van een berekende metrische waarde met de (1.3 of 1.4) API methode ReportSuite.SaveCalculatedMetrics het zelfde als het creëren van of het bijwerken van een berekende metrische waarde in de Console Admin. Hetzelfde geldt voor ReportSuite.DeleteCalculatedMetrics. Ook, was de lijst van berekende metriek die in de Console Admin of wanneer het roepen van ReportSuite.GetCalculatedMetrics wordt getoond het zelfde.
+Eerder, was het bewaren van berekende metrisch met (1.3 of 1.4) API methode ReportSuite.SaveCalculatedMetrics het zelfde als het creëren van of het bijwerken van berekende metrisch in de Admin Console. Hetzelfde geldt voor ReportSuite.DeleteCalculatedMetrics. Ook, was de lijst van berekende metriek die in de Admin Console wordt getoond of toen het roepen van ReportSuite.GetCalculatedMetrics het zelfde.
 
 Nu, zullen de methodes van ReportSuite CalculatedMetrics API (1.3 of 1.4) berekende metriek bewaren, schrappen en terugwinnen gebruikend de oude opslag. De bestaande berekende metriek zullen over worden gemigreerd en in de nieuwe Berekende Bouwer van Metriek zichtbaar zijn. **Nieuwe berekende metriek die met de API methodes worden gecreeerd zal slechts in API zichtbaar zijn. Ze kunnen nog steeds worden gebruikt in de API voor rapportage.**
 
@@ -173,13 +184,13 @@ Nu, slechts zullen die berekende metriek die hun toewijzingstype specifiek gepla
 
 Tijdens de migratie heeft Adobe overbodige haakjes van sommige formules verwijderd. Alleen ronde haakjes die niet van invloed zijn op de manier waarop de metrische waarde wordt berekend, zijn verwijderd. Dit zal de gegevens niet veranderen - het vereenvoudigt enkel de formule.
 
-## (Alleen ad-hocanalyse) Worden Metriek berekend met ingesloten of inline segmentdefinities nog steeds ondersteund? {#section_B25C924A282F49388AB604E3D826F44C}
+## (Alleen Ad hoc analysis) Worden Metriek met ingesloten of inline segmentdefinities nog steeds ondersteund? {#section_B25C924A282F49388AB604E3D826F44C}
 
-Berekende metriek die in ad hoc analyse worden gecreeerd konden inline segmentdefinities bevatten. Dat is niet meer mogelijk.
+Berekende metriek die in Ad hoc analysis worden gemaakt, kunnen eerder inline segmentdefinities bevatten. Dat is niet meer mogelijk.
 
 **Wat u moet doen**
 
-U moet het segment uitdrukkelijk bewaren. Bestaande berekende metriek met inline segmentdefinities zal correct blijven lopen en kan in Ad hoc Analyse worden bekeken, maar zij kunnen niet worden bewaard zonder uitdrukkelijk het segment te bewaren.
+U moet het segment uitdrukkelijk bewaren. De bestaande berekende metriek met gealigneerde segmentdefinities zal correct blijven lopen en kan in Ad hoc analysis worden bekeken, maar zij kunnen niet worden bewaard zonder uitdrukkelijk het segment te bewaren.
 
 ## (Alleen Report Builder) Waarom zijn berekende metriek uit mijn verzoeken verdwenen? {#section_DA4792FE5D7945218CD5E6328DE08E82}
 
