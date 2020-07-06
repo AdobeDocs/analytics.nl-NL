@@ -1,21 +1,26 @@
 ---
 description: Deze capaciteit integreert verder het gebruik van de Bouwer van het Rapport binnen het natuurlijke werkschema van Excel, zonder u te vereisen om tot het gebruikersinterface van de Bouwer van het Rapport toegang te hebben.
-title: De functie Report Builder aanroepen vanuit Microsoft Excel-functies
+title: De functie Report Builder oproepen vanuit Microsoft Excel-functies
 topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 3%
 
 ---
 
 
-# De functie Report Builder aanroepen vanuit Microsoft Excel-functies
+# De functie Report Builder oproepen vanuit Microsoft Excel-functies
 
 Deze capaciteit integreert verder het gebruik van de Bouwer van het Rapport binnen het natuurlijke werkschema van Excel, zonder u te vereisen om tot het gebruikersinterface van de Bouwer van het Rapport toegang te hebben.
 
 Bijvoorbeeld, kunt u verzoeken van de Bouwer van het Rapport automatisch willen verfrissen de waarvan inputfilter op gegevens gebaseerd is die in Excel uit andere bronnen worden getrokken. U kunt dit nu doen met de tekenreeks RefreshRequestsInCellsRange(..) functie. Alle vraag is asynchroon. Zij keren onmiddellijk terug en wachten niet op een vraag volledig uit te voeren.
 
->[!NOTE] Deze functionaliteit werkt alleen als Report Builder 5.0 (of hoger) is geïnstalleerd.
+>[!NOTE]
+>
+>Deze functionaliteit werkt alleen als Report Builder 5.0 (of hoger) is geïnstalleerd.
 
 Hier volgt een tabel met de lijst met belichte functies:
 
