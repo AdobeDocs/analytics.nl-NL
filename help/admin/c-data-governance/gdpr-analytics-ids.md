@@ -2,15 +2,20 @@
 description: 'null'
 title: Best practices voor labelen
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2689'
+ht-degree: 100%
 
 ---
 
 
 # Best practices voor labelen
 
->[!NOTE] Bedenk dat de labels steeds moeten worden gecontroleerd wanneer een nieuwe rapportsuite wordt gemaakt of wanneer een nieuwe variabele in een bestaande rapportsuite wordt ingeschakeld. U dient de labeling mogelijk ook te herzien wanneer integraties van nieuwe oplossingen worden ingeschakeld, omdat deze nieuwe variabelen kunnen laten zien waarvoor een label nodig is. Een herimplementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, waardoor eveneens updates van labels nodig kunnen zijn.
+>[!NOTE]
+>
+>Bedenk dat de labels steeds moeten worden gecontroleerd wanneer een nieuwe rapportsuite wordt gemaakt of wanneer een nieuwe variabele in een bestaande rapportsuite wordt ingeschakeld. U dient de labeling mogelijk ook te herzien wanneer integraties van nieuwe oplossingen worden ingeschakeld, omdat deze nieuwe variabelen kunnen laten zien waarvoor een label nodig is. Een herimplementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, waardoor eveneens updates van labels nodig kunnen zijn.
 
 ## Direct vs. indirect identificeerbare id&#39;s {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -66,7 +71,9 @@ Gebruik deze tabel om te bepalen welke soorten id&#39;s u gaat gebruiken wanneer
 
 ## Best practices voor het instellen van verwijderingslabels {#section_08166C99B48E49218392FAC18922C10E}
 
->[!NOTE] Props zijn altijd niet-hoofdlettergevoelig. eVars zijn standaard niet-hoofdlettergevoelig, maar kunnen via de klantenservice van Adobe worden geconfigureerd om wel hoofdlettergevoelig te zijn. Als u een hoofdlettergevoelige eVar hebt met een id, is het uw verantwoordelijkheid om de juiste hoofd- en/of kleine letters te gebruiken bij het verzenden van een Data Privacy-aanvraag, zodat de gebruikte letters in de aanvraag overeenkomen met de letters in de treffers voor deze id&#39;s.
+>[!NOTE]
+>
+>Props zijn altijd niet-hoofdlettergevoelig. eVars zijn standaard niet-hoofdlettergevoelig, maar kunnen via de klantenservice van Adobe worden geconfigureerd om wel hoofdlettergevoelig te zijn. Als u een hoofdlettergevoelige eVar hebt met een id, is het uw verantwoordelijkheid om de juiste hoofd- en/of kleine letters te gebruiken bij het verzenden van een Data Privacy-aanvraag, zodat de gebruikte letters in de aanvraag overeenkomen met de letters in de treffers voor deze id&#39;s.
 
 De verwijderingslabels DEL-DEVICE en DEL-PERSON moeten spaarzaam worden gebruikt. Wanneer ze worden toegepast op een variabele die geen id bevat die als deel van de Data Privacy-aanvraag is gebruikt, zullen de tellingen (cijfers) in historische rapporten van Analytics bijna altijd veranderen.
 
