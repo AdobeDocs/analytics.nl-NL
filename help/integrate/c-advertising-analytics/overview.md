@@ -2,8 +2,11 @@
 description: 'null'
 title: Overzicht van Advertising Analytics
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1253'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Met Advertising Analytics kunt u alle data van Google en Bing paid search naast elkaar weergeven in Adobe Analytics. Vroeger moesten alle data van Google AdWords/DFA of Microsoft Bing Ads worden weergegeven in Adobe Advertising Cloud (AMO) of in Google/Bing. Nu worden de volgende data opgehaald in Adobe Analytics: impressies, klikken, kosten, kwaliteitsscore en gemiddelde positie, rechtstreeks vanuit de zoekmachines zowel als uit AMO ID-instanties (klik op Instanties).
 
->[!NOTE] Yahoo Gemini werd in Microsoft Bing opgenomen op 31 maart 2019. Als gevolg hiervan is de optie voor een Yahoo Gemini-advertentieaccount niet meer beschikbaar.
+>[!NOTE]
+>
+>Yahoo Gemini werd in Microsoft Bing opgenomen op 31 maart 2019. Als gevolg hiervan is de optie voor een Yahoo Gemini-advertentieaccount niet meer beschikbaar.
 
 Door de data van deze zoekprogramma&#39;s samen te brengen in Adobe Analytics, kunt u dezelfde data analyseren met de kracht van Analysis Workspace. Deze analyse wordt mogelijk gemaakt door een nieuwe sjabloon voor [paid search-prestaties](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) in Workspace.
 
