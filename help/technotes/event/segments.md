@@ -1,13 +1,16 @@
 ---
-title: Specifieke data in de analyse uitsluiten
+title: Specifieke datums in de analyse uitsluiten
 description: Tips voor het uitsluiten van datums of datumbereiken als u deze niet wilt opnemen in rapporten.
 translation-type: tm+mt
-source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 2%
 
 ---
 
 
-# Specifieke data in de analyse uitsluiten
+# Specifieke datums in de analyse uitsluiten
 
 Als u gegevens hebt [die door een gebeurtenis](overview.md)worden beïnvloed, kunt u een segment gebruiken om het even welke datumwaaiers uit te sluiten die u niet in uw rapporten wilt omvatten. Door datums met invloed op gebeurtenissen te segmenteren, kan uw organisatie er beter van worden weerhouden beslissingen te nemen over onvolledige gegevens.
 
@@ -58,7 +61,9 @@ Als u geen nul in uw lijst of visualisaties (veroorzakend dips) wilt tonen, laat
 
 U kunt het segment &#39;Betrokken dagen uitsluiten&#39; toepassen op een Workspace-project. Sleep het uitsluitingssegment naar de sectie Workspace canvas met het label *Slagsegment hier*.
 
->[!TIP] Neem een notitie over uitgesloten gegevens op in de beschrijving van het deelvenster om gebruikers te helpen het rapport weer te geven. Klik met de rechtermuisknop op de titel van een deelvenster en klik vervolgens op **[!UICONTROL Edit description]**.
+>[!TIP]
+>
+>Neem een notitie over uitgesloten gegevens op in de beschrijving van het deelvenster om gebruikers te helpen het rapport weer te geven. Klik met de rechtermuisknop op de titel van een deelvenster en klik vervolgens op **[!UICONTROL Edit description]**.
 
 ![Segment dat is toegepast op een deelvenster](assets/exclude_segment_panel.jpg)
 
