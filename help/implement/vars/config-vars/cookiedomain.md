@@ -2,14 +2,19 @@
 title: cookieDomain
 description: De cookieDomain-variabele helpt het domein te bepalen waarop cookies moeten worden ingesteld.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 1%
 
 ---
 
 
 # cookieDomain
 
->[!IMPORTANT] Deze variabele wordt uitgeschakeld. Gebruik [`trackingServer`](trackingserver.md) in plaats hiervan.
+>[!IMPORTANT]
+>
+>Deze variabele wordt uitgeschakeld. Gebruik [`trackingServer`](trackingserver.md) in plaats hiervan.
 
 De `cookieDomain` variabele bepaalt het domein waar AppMeturement koekjes plaatst. U kunt deze variabele gebruiken om het cookiedomein uitdrukkelijk te plaatsen in plaats van het gebruiken van de [`cookieDomainPeriods`](cookiedomainperiods.md) variabele.
 
@@ -20,7 +25,7 @@ Deze variabele hoeft alleen te worden gebruikt als aan **beide** voorwaarden is 
 
 Slechts een klein aantal implementaties heeft gebruik voor de `cookieDomain` variabele, en zelfs dan, kunnen de alternatieve variabelen zoals in plaats daarvan [`cookieDomainPeriods`](cookiedomainperiods.md) worden gebruikt.
 
-## Cookie-domein in Adobe Experience Platform Launch
+## Cookie-domein in Adobe Experience Platform starten
 
 Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
