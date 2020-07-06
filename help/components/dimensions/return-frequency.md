@@ -2,7 +2,7 @@
 title: Retourfrequentie
 description: De hoeveelheid tijd die tussen het huidige en het vorige bezoek is verstreken.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 De dimensie &#39;terugkeerfrequentie&#39; geeft de tijdsduur weer die verstrijkt tussen bezoeken van terugkerende bezoekers. Wanneer een bezoeker terugkeert naar uw site, bekijkt Adobe hoe lang geleden het vorige bezoek plaatsvond, en knipt de hit in de juiste waarde voor afmetingen. Deze dimensie is nuttig om de aantrekkingskracht van uw website en de relevantie ervan voor bezoekers in de loop van de tijd te meten. Het kan ook helpen de impact van de inhoud en promoties van uw site op uw bezoekers te identificeren.
 
->[!TIP] Deze dimensie omvat geen nieuwe bezoekers.
+>[!TIP]
+>
+>Deze dimensie omvat geen nieuwe bezoekers.
 
 ## Deze dimensie vullen met gegevens
 
