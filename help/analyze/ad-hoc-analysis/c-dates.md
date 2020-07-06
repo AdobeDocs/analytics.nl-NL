@@ -3,7 +3,10 @@ description: In de kalender kunt u datums en datumbereiken opgeven of een voorin
 title: Datums en datumbereiken
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 2%
 
 ---
 
@@ -18,13 +21,15 @@ In de kalender kunt u datums en datumbereiken opgeven of een voorinstelling sele
 
 ![](assets/Delete_Standard.png) Een toegelaten **[!UICONTROL Clear Date]** optie wijst erop dat een datumwaaier op het rapportniveau wordt gespecificeerd.
 
-U kunt ook datums (en de afmetingen van de Tijd) naar het rapport of het [!UICONTROL Table Builder]rapport slepen. U kunt specifieke dagen, weken, maanden, jaren of een roldatum selecteren. Als u de douanekalender in marketing rapporten en analyses gebruikt, erft een rapportreeks die montages en werkt het rapport dienovereenkomstig bij.
+U kunt ook datums (en de afmetingen van de Tijd) naar het rapport of het [!UICONTROL Table Builder]rapport slepen. U kunt specifieke dagen, weken, maanden, jaren of een roldatum selecteren. Als u de douanekalender in marketing reports and analytics gebruikt, erft een rapportreeks die montages en werkt het rapport dienovereenkomstig bij.
 
 Wanneer het selecteren van een datumwaaier terwijl het creëren van een project, zal het gebruiken van pre-gevormde op de linkerzijde een het rollen datum plaatsen terwijl het gebruiken van de kalender op het recht niet. Een gemakkelijke manier om te vertellen of uw datumwaaier rolt is de verklaring &quot;Deze datumwaaier zal&quot;naast de **[!UICONTROL OK]** knoop rollen.
 
 ![](assets/daterange.jpeg)
 
->[!NOTE] Neem contact op met uw accountmanager als u hulp nodig hebt bij het uitvoeren van verouderde rapporten.
+>[!NOTE]
+>
+>Neem contact op met uw accountmanager als u hulp nodig hebt bij het uitvoeren van verouderde rapporten.
 
 ## Oudere datumsegmenten {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -41,5 +46,7 @@ c_legacy_data.xml
 1. [Maak](/help/analyze/ad-hoc-analysis/c-getting-started.md) of open een project.
 1. Open de [kalender](/help/analyze/ad-hoc-analysis/c-dates.md)en selecteer **[!UICONTROL Quarter]** of **[!UICONTROL Year]**.
 
->[!NOTE] Historische datumsegmenten liggen binnen kwartaal- en jaarbeperkingen. U kunt geen gegevens bekijken die de grens tussen erfenissegmenten en het nieuwe verwerkingsplatform overschrijden. Datumbereiken die beide waarden omspannen, resulteren in een fout. Bovendien zijn de datumbereiken alleen van toepassing op de Gregoriaanse kalender en niet op de Aangepaste kalender.
+>[!NOTE]
+>
+>Historische datumsegmenten liggen binnen kwartaal- en jaarbeperkingen. U kunt geen gegevens bekijken die de grens tussen erfenissegmenten en het nieuwe verwerkingsplatform overschrijden. Datumbereiken die beide waarden omspannen, resulteren in een fout. Bovendien zijn de datumbereiken alleen van toepassing op de Gregoriaanse kalender en niet op de Aangepaste kalender.
 
