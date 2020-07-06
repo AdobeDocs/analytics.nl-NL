@@ -2,7 +2,10 @@
 title: Een gegevensfeed maken of bewerken
 description: Leer hoe u een gegevensfeed maakt of bewerkt.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '798'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +62,9 @@ De volgende 11 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het j
 * EU-west-1
 * sa-Oost-1
 
->[!NOTE] De regio cn-North-1 wordt niet ondersteund.
+>[!NOTE]
+>
+>De regio cn-North-1 wordt niet ondersteund.
 
 ### Azure Blob
 
@@ -67,7 +72,9 @@ Data feeds ondersteunen Azure Blob-bestemmingen. Hiervoor is een container, acco
 
 ![Azure Info](assets/azure.png)
 
->[!NOTE] U moet uw eigen proces uitvoeren om schijfruimte op de voederbestemming te beheren. Adobe verwijdert geen gegevens van de server.
+>[!NOTE]
+>
+>U moet uw eigen proces uitvoeren om schijfruimte op de voederbestemming te beheren. Adobe verwijdert geen gegevens van de server.
 
 ## Definities gegevenskolom
 
