@@ -5,7 +5,10 @@ title: Dashboards en rapporten
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1692'
+ht-degree: 1%
 
 ---
 
@@ -28,12 +31,14 @@ Houd er rekening mee dat bepaalde vaak weergegeven rapporten niet kunnen worden 
 * Bijdrage-analyserapporten
 * Valutamarkten
 * Pathfinder-rapporten
-* Real-time rapporten
+* Realtimerapporten
 * Andere dashboards
 
->[!NOTE] Het **[!UICONTROL Site Overview]** dashboard wordt niet meer vermeld in Rapporten en Analytics. Er zijn echter nog een paar omstandigheden waarin u enkele of alle verslagen zult zien.
+>[!NOTE]
+>
+>Het **[!UICONTROL Site Overview]** dashboard wordt niet meer vermeld in Rapporten en Analytics. Er zijn echter nog een paar omstandigheden waarin u enkele of alle verslagen zult zien.
 
-* Als u bijvoorbeeld slechts drie vaak bekeken rapporten hebt, nemen Rapporten en Analytics twee rapporten van het dashboard van het Overzicht van de Plaats om het **[!UICONTROL My Recommended Reports]** dashboard te voltooien.
+* Als u bijvoorbeeld slechts drie vaak bekeken rapporten hebt, zullen Rapporten &amp; Analytics twee rapporten van het dashboard van het Overzicht van de Plaats nemen om het **[!UICONTROL My Recommended Reports]** dashboard te voltooien.
 * Nieuwe de rapportreeksen van het merk zullen ook aanvankelijk nog de rapporten van het Overzicht van de Plaats omvatten, tot zij door uw vaak bekeken rapporten worden vervangen. Toch zal het dashboard nu worden genoemd **[!UICONTROL My Recommended Reports]**.
 
 Naast de dashboards die u creeert, zijn de volgende voorverpakte dashboards inbegrepen voor elke gebruiker:
@@ -186,9 +191,9 @@ t_dashboard_edit.xml
 
 | Naar | Doe dit |
 |--- |--- |
-| De rapportsuite van een dashboard wijzigen | Klik op het menu in de header Experience Cloud en selecteer vervolgens een rapportsuite. |
+| De rapportsuite van een dashboard wijzigen | Klik op het menu in de Experience Cloud-header en selecteer vervolgens een rapportsuite. |
 | Een rapportsuite wijzigen | Klik in het rapport op de naam van de rapportsuite en selecteer vervolgens een rapportsuite in het [!UICONTROL Report Suite] menu. |
-| Een segment toepassen op een dashboard | Klik in de koptekst Experience Cloud op [!UICONTROL Show Segments]en selecteer een segment. |
+| Een segment toepassen op een dashboard | Klik in de Experience Cloud-header [!UICONTROL Show Segments]en selecteer vervolgens een segment. |
 | Een segment toepassen op een rapportpunt | Klik in het dashboard op Lay-out om een dashboard te bewerken.   Klik in het rapport op de naam van de rapportsuite, selecteer een waarde in het veld Segment en klik op Bijwerken. |
 | Een rapportsuite vergrendelen (voorkomt dat de rapportsuite wordt gewijzigd in een rapportsuite) | Klik in het rapport op de naam van de rapportsuite en schakel vervolgens de optie in [!UICONTROL Lock Report Suite]. Klik op Bijwerken. |
 | Een rapportdatum wijzigen | Klik op de kalender voor een dashboard. (Alle rapporten in het dashboard weerspiegelen de wijziging.)<br>Voor een rapport, klik de datumverbinding, dan vorm de kalender. |
