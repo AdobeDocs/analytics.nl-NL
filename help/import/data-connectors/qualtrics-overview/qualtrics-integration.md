@@ -5,7 +5,10 @@ title: De integratie gebruiken
 topic: Data connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 9%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Nadat de implementatie is voltooid, kunt u beginnen met het gebruik van de extra mogelijkheden die deze integratie biedt.
 
->[!NOTE] Het kan 24-48 uur duren voordat de responsgegevens van Qualtrics in uw Adobe Analytics-rapport worden weergegeven.
+>[!NOTE]
+>
+>Het kan 24-48 uur duren voordat de antwoordgegevens van Qualtrics in uw Adobe Analytics-rapport worden weergegeven.
 
 Hieronder vindt u een aantal acties die u kunt ondernemen om meerwaarde te krijgen van deze integratie vanuit Adobe Analytics.
 
@@ -23,7 +28,7 @@ Hieronder vindt u een aantal acties die u kunt ondernemen om meerwaarde te krijg
 
 ## Voorbeeld {#section-07051d0d60a44408a4e108034586c42f}
 
-In het volgende voorbeeld ziet u hoe een analist een Adobe Analytics-segment kan definiëren aan de hand van enquêtegegevens. In deze zaak wordt uitgegaan van een enquêtevraag als &quot;Hoe tevreden was u met uw bezoek vandaag?&quot; Met behulp van deze vraag kunnen we een segment maken om &quot;Ontevreden&quot; bezoekers te identificeren. Een dergelijk segment kan worden gebruikt om in Adobe Analytics-rapporten (zoals de Purchase Conversion Funnel) te gaan werken. Dit wordt hieronder weergegeven.
+In het volgende voorbeeld ziet u hoe een analist een Adobe Analytics-segment kan definiëren met de gegevens van enquêteantwoorden. In deze zaak wordt uitgegaan van een enquêtevraag als &quot;Hoe tevreden was u met uw bezoek vandaag?&quot; Met behulp van deze vraag kunnen we een segment maken om &quot;Ontevreden&quot; bezoekers te identificeren. Zo&#39;n segment kan worden gebruikt om in Adobe Analytics-rapporten, zoals de Purchase Conversion-trechter, te boren (zie hieronder).
 
 ![](assets/using-1.png) ![](assets/using-2.png)
 
