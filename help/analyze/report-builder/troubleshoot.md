@@ -3,8 +3,11 @@ description: Manieren om Report Builder-resultaten te optimaliseren en een lijst
 title: Problemen oplossen en best practices voor Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 100%
 
 ---
 
@@ -104,7 +107,9 @@ Bij alle geplande rapportagetijden treedt na vier uur een time-out op. Het syste
 
 Een lijst met foutberichten die soms kunnen optreden wanneer u Report Builder gebruikt.
 
->[!NOTE] Dit is slechts een selectie van foutberichten, geen volledige lijst. Neem contact op met de beheerder voor meer informatie over het oplossen van fouten.
+>[!NOTE]
+>
+>Dit is slechts een selectie van foutberichten, geen volledige lijst. Neem contact op met de beheerder voor meer informatie over het oplossen van fouten.
 
 **Deze eigenschap kan alleen op een geopende werkmap worden toegepast.**
 
