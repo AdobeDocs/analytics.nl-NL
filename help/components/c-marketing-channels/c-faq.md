@@ -2,7 +2,7 @@
 description: Lees over de beste praktijken en voorbeelden van hoe te om diverse regels te bevolken u opstelling voor uw marketing kanalen kunt.
 title: Veelgestelde vragen over marketingkanalen
 translation-type: tm+mt
-source-git-commit: d26edeed2f8d2c78c6e8cddaf8973870372a8b3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
@@ -73,7 +73,9 @@ Wanneer uw regels geen gegevens vangen, of als de regels niet correct worden gev
 
 Dit soort regel dient als catch-all om ervoor te zorgen dat het kanaalverkeer altijd extern verkeer aanpast, en typisch niet omhoog in **[!UICONTROL No Channel Identified]**. Wees voorzichtig om geen regel te creëren die ook intern verkeer identificeert. Het plaatsen van de waarde van het kanaal aan **[!UICONTROL Referring Domain]** of aan **[!UICONTROL Page URL]** zijn de gemeenschappelijkste, nuttigste manieren om een efficiënte Andere regel tot stand te brengen.
 
->[!NOTE] Er zou nog wat kanaalverkeer kunnen zijn dat in de Geen Geïdentificeerde categorie van het Kanaal kan vallen. Bijvoorbeeld: Een bezoeker komt naar de site en bladwijzers op een pagina en tijdens hetzelfde bezoek komt de pagina via de bladwijzer terug. Aangezien dit niet de eerste pagina van het bezoek is, zal het noch in het directe kanaal noch in het andere kanaal gaan omdat er geen verwijzend domein is.
+>[!NOTE]
+>
+>Er zou nog wat kanaalverkeer kunnen zijn dat in de Geen Geïdentificeerde categorie van het Kanaal kan vallen. Bijvoorbeeld: Een bezoeker komt naar de site en bladwijzers op een pagina en tijdens hetzelfde bezoek komt de pagina via de bladwijzer terug. Aangezien dit niet de eerste pagina van het bezoek is, zal het noch in het directe kanaal noch in het andere kanaal gaan omdat er geen verwijzend domein is.
 
 ## Redenen voor intern (Sessie vernieuwen) {#internal}
 
@@ -97,7 +99,7 @@ Een bezoeker beweegt zich van één domein dat aan Reeks A, aan een tweede domei
 
 **Scenario 5: Lange laadtijden van invoerpagina**
 
-Een bezoeker landt op Pagina A die zwaar is op inhoud, en de code van de Analyse van Adobe wordt gevestigd bij de bodem van de pagina. Voordat alle inhoud (inclusief de aanvraag voor een Adobe Analytics-afbeelding) kan worden geladen, klikt de bezoeker op Pagina B. Pagina B wordt geactiveerd wanneer Adobe Analytics een afbeeldingsaanvraag indient. Aangezien de afbeeldingsaanvraag van Pagina A nooit is geladen, wordt de tweede pagina weergegeven als de eerste hit van het bezoek in Adobe Analytics, waarbij Pagina A de verwijzende persoon is. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
+Een bezoeker landt op pagina A, wat zwaar is op de inhoud. De Adobe Analytics-code bevindt zich onder aan de pagina. Voordat alle inhoud (inclusief de Adobe Analytics-afbeeldingsaanvraag) kan worden geladen, klikt de bezoeker op Pagina B. Pagina B activeert de Adobe Analytics-afbeeldingsaanvraag. Aangezien de afbeeldingsaanvraag van Pagina A nooit is geladen, wordt de tweede pagina weergegeven als de eerste hit van het bezoek in Adobe Analytics, waarbij Pagina A de verwijzende persoon is. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
 **Scenario 6: Cookies wissen halverwege de site**
 
