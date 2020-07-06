@@ -2,33 +2,35 @@
 title: Bezoekers met Experience Cloud ID
 description: Het aantal unieke bezoekers dat de Adobe Experience Cloud ID-service gebruikt.
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
 # Bezoekers met Experience Cloud ID
 
-De maatstaf &#39;Bezoekers met Experience Cloud ID&#39; toont het aantal unieke bezoekers dat door Adobe is geïdentificeerd met de [Experience Cloud ID-service](https://docs.adobe.com/content/help/en/id-service/using/home.html). Deze dimensie is handig om te vergelijken met de metrische waarde voor [Unieke bezoekers](unique-visitors.md) om ervoor te zorgen dat de meeste bezoekers van uw site de id-service gebruiken. Als een groot deel van bezoekers de de dienstkoekjes van identiteitskaart niet gebruikt, kan het op een kwestie binnen uw implementatie wijzen.
+De maatstaf &#39;Bezoekers met Experience Cloud-id&#39; toont het aantal unieke bezoekers dat door Adobe is geïdentificeerd met behulp van de [Experience Cloud-id-service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html). Deze dimensie is handig om te vergelijken met de metrische waarde voor [Unieke bezoekers](unique-visitors.md) om ervoor te zorgen dat de meeste bezoekers van uw site de id-service gebruiken. Als een groot deel van bezoekers de de dienstkoekjes van identiteitskaart niet gebruikt, kan het op een kwestie binnen uw implementatie wijzen.
 
->[!NOTE] Deze maatstaf is vooral belangrijk voor foutopsporing als u werkt met meerdere Experience Cloud-services, zoals Adobe Target of Adobe Audience Manager. Segmenten die worden gedeeld door producten uit de Experience Cloud, omvatten geen bezoekers zonder de Experience Cloud-id.
+>[!NOTE]
+>
+>Deze metrische waarde is vooral belangrijk voor het zuiveren als u de veelvoudige diensten van Experience Cloud, zoals Adobe Target of Adobe Audience Manager gebruikt. Segmenten die worden gedeeld door Experience Cloud-producten, omvatten geen bezoekers zonder Experience Cloud-id.
 
 ## Hoe deze metrische waarde wordt berekend
 
 Deze metrische waarde is gebaseerd op de metrische waarde voor [Unieke bezoekers](unique-visitors.md) , maar bevat alleen personen die zijn geïdentificeerd met de `mid` queryreeks (gebaseerd op het [`s_ecid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) cookie).
 
-## Fouten opsporen in de installatie van uw Experience Cloud ID
+## Fouten opsporen in de configuratie van Experience Cloud-id&#39;s
 
-De metrische &#39;Bezoekers met Experience Cloud ID&#39; kan handig zijn bij het oplossen van problemen met de integratie van Experience Cloud, of bij het identificeren van gebieden van uw site waarvoor de id-service niet is geïmplementeerd.
+De metrische &#39;Bezoekers met Experience Cloud-id&#39; kan nuttig zijn bij het oplossen van problemen met de integratie in Experience Cloud of bij het identificeren van gebieden van uw site waarvoor de id-service niet is geïmplementeerd.
 
-Sleep de Bezoekers met Experience Cloud ID naast de Unieke bezoekers om ze te vergelijken:
+Sleep Bezoekers met Experience Cloud-id naast elkaar met Unieke bezoekers om ze te vergelijken:
 
 ![Unieke vergelijking van bezoekers](assets/metric-mcvid1.png)
 
-In dit voorbeeld heeft elke pagina hetzelfde aantal &#39;Unieke bezoekers&#39; als &#39;Bezoekers met een Experience Cloud ID&#39;. Het totale aantal unieke bezoekers is echter groter dan het totale aantal bezoekers met Experience Cloud ID. U kunt een [berekende metrisch](../c-calcmetrics/cm-overview.md) tot stand brengen om te weten te komen welke pagina&#39;s de dienst van identiteitskaart niet plaatsen. U kunt de volgende definitie gebruiken:
+In dit voorbeeld heeft elke pagina hetzelfde aantal &#39;Unieke bezoekers&#39; als &#39;Bezoekers met een Experience Cloud-id&#39;. Het totale aantal unieke bezoekers is echter groter dan het totale aantal bezoekers met Experience Cloud-id. U kunt een [berekende metrisch](../c-calcmetrics/cm-overview.md) tot stand brengen om te weten te komen welke pagina&#39;s de dienst van identiteitskaart niet plaatsen. U kunt de volgende definitie gebruiken:
 
 ![Berekende metrische definitie](assets/metric-mcvid2.png)
 
