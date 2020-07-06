@@ -1,15 +1,18 @@
 ---
 description: Importeer volggegevens van toepassingen van derden naar Analytics.
-title: Aan de slag met de gegevensconnectors van Analytics
+title: Aan de slag met Analytics-gegevensconnectors
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '938'
+ht-degree: 0%
 
 ---
 
 
 # Overzicht van gegevensconnectors
 
-Adobe biedt organisaties informatie in real-time en uitvoerbaar over hun digitale strategieën en marketinginitiatieven. Met gegevensconnectors kunt u trackinggegevens van andere toepassingen importeren in Analytics, zodat u gegevens van één centrale locatie kunt verzamelen en gebruiken. Als u een van de partnerproducten gebruikt, kunt u een integratie tot stand brengen die de toepassingsgegevens in marketing rapporten invoert. Nadat de toepassing is geïntegreerd, kunt u rapporten genereren met gegevens uit de toepassing.
+Adobe biedt organisaties informatie in real-time en uitvoerbaar over hun digitale strategieën en marketinginitiatieven. Met gegevensconnectors kunt u trackinggegevens van toepassingen van derden importeren in Analytics, zodat u gegevens van één centrale locatie kunt verzamelen en gebruiken. Als u een van de partnerproducten gebruikt, kunt u een integratie tot stand brengen die de toepassingsgegevens in marketing rapporten invoert. Nadat de toepassing is geïntegreerd, kunt u rapporten genereren met gegevens uit de toepassing.
 
 Bijvoorbeeld, zou een e-mailintegratie een e-mailpartner kunnen willen gebruiken om een e-mailcampagne te verspreiden. Wanneer bezoekers naar uw Website komen wilt u weten welke degenen in antwoord op uw e-mailcampagne kwamen. De schakelaars van gegevens integreren gegevens van uw e-mailpartner in marketing rapporten zodat u deze informatie kunt bepalen om de doeltreffendheid van uw e-mailcampagne te meten.
 
@@ -34,7 +37,7 @@ Voer de volgende handelingen uit voordat u de integratie van gegevensconnectors 
 * Heb de noodzakelijke toegangsgeloofsbrieven voor de rekening van het partnerproduct, met rechten om tot alle gegevens toegang te hebben u met marketing rapporten wilt integreren. U zou een speciale e-mailrekening voor rapportverdelers en voor bericht betreffende de geïntegreerde verrichtingen kunnen willen tot stand brengen.
 * Identificeer de douanevariabelen die uw campagneinformatie houden. Dit wordt algemeen bedoeld als campagne het volgen code, maar uw organisatie zou één of andere andere terminologie kunnen gebruiken.
 * Bepaal de gebeurtenissen die u impressies wilt ontvangen en klik op gegevens. U kunt de naam van de gebeurtenissen desgewenst wijzigen.
-* Plaats de aangewezen code op uw landingspagina zodat de Analytics aangewezen modellering met de gegevens kan doen die uit het partnerproduct komen. De specifieke instructies voor elk partnerproduct worden gevonden in in de Schakelaars van Gegevens Showcase op het lusje van Middelen.
+* Plaats de juiste code op de bestemmingspagina, zodat Analytics de juiste modellering kan maken met de gegevens die afkomstig zijn van het partnerproduct. De specifieke instructies voor elk partnerproduct worden gevonden in in de Schakelaars van Gegevens Showcase op het lusje van Middelen.
 
 ## Integratie toevoegen
 
@@ -59,7 +62,7 @@ Nadat u een integratie hebt geactiveerd, wordt deze weergegeven op de [!UICONTRO
 
 Markeringssegmenten zijn gegevensbestanden die worden gemaakt op basis van de variabelen die worden gebruikt in de integratie van gegevensconnectors.
 
-Adobe Analytics verzendt deze gegevens in afzonderlijke dagelijkse bestanden via gegevensopslagruimte naar een FTP-bestand dat door Adobe voor derden is gemaakt. De derde verspreidt deze bestanden vervolgens naar de client. Bedrijven gebruiken deze doorgaans om producten weer op de markt te brengen voor bedrijven die de site hebben bezocht en een product hebben bekeken, maar die het niet hebben gekocht. (U kunt bijvoorbeeld een klant bereiken die een korting aanbiedt voor een product dat hij heeft bekeken, maar dat niet uiteindelijk heeft aangeschaft.)
+Adobe Analytics stuurt deze gegevens in afzonderlijke dagelijkse bestanden via data warehouse naar een FTP-server die door Adobe voor de externe partij is gemaakt. De derde verspreidt deze bestanden vervolgens naar de client. Bedrijven gebruiken deze doorgaans om producten weer op de markt te brengen voor bedrijven die de site hebben bezocht en een product hebben bekeken, maar die het niet hebben gekocht. (U kunt bijvoorbeeld een klant bereiken die een korting aanbiedt voor een product dat hij heeft bekeken, maar dat niet uiteindelijk heeft aangeschaft.)
 
 **Segmenten**
 
@@ -73,11 +76,13 @@ Voor een geslaagde implementatie van hermarketingsegmenten moet aan de volgende 
 
 * Er is een contract voor gegevensverbindingen tot stand gebracht en uw organisatie heeft de implementatiefase met een Adobe-consultant voltooid.
 * De overeenkomstige gebeurtenis wordt tezelfdertijd geactiveerd de productvariabele:
-   * Afschaffing van winkelwagentje: `scAdd` gebeurtenis
-   * Aankopen: `purchase` gebeurtenis
-   * Productweergaven: `prodView` gebeurtenis
+   * Afschaffing van winkelwagentje: `scAdd` event
+   * Aankopen: `purchase` event
+   * Productweergaven: `prodView` event
 
->[!NOTE] Als het product zonder een bijbehorende gebeurtenis wordt gedefinieerd, wordt de gebeurtenis prodView automatisch geactiveerd.
+>[!NOTE]
+>
+>Als het product zonder een bijbehorende gebeurtenis wordt gedefinieerd, wordt de gebeurtenis prodView automatisch geactiveerd.
 Indien niet aan de bovenstaande vereisten wordt voldaan, worden de corresponderende hermarketingsegmenten niet correct gerapporteerd.
 
 [!UICONTROL Cart Abandonment]: branden nadat de gebruiker een product aan het winkelwagentje heeft toegevoegd :
@@ -104,4 +109,6 @@ s.events="purchase";
 | De dossiers van het opmerkingssegment worden niet ontvangen. | Als u uw dossiers niet ontvangt, hebben één van de gesteunde gebruikers van uw organisatie contact ClientCare om de oorzaak van rapporten te onderzoeken die niet met succes worden ontvangen. |
 
 
->[!IMPORTANT] Het is gebruikelijk voor consultants om ook een verzoek voor een gegevenspaket in te stellen als een dagelijks gepland rapport naast het standaardbestand voor het remarketingsegment van de gegevensconnectors-integratie. Dit verzoek van het gegevenspakhuis zou gegevensconnectorvariabelen evenals niet-gegevens connectorvariabelen omvatten, en het verzoek kan worden gepland gebaseerd slechts op het specifieke verzoek van uw organisatie. Om verwarring te verhinderen wanneer het oplossen van problemen, specificeer of het dossier in kwestie het daadwerkelijke remarketing segmentdossier is, of een verzoek van het gegevenspakhuis dat niet-genese variabelen bevat.
+>[!IMPORTANT]
+>
+>Het is gebruikelijk voor consultants om ook een data warehouse-verzoek in te stellen als een dagelijks gepland rapport in aanvulling op het standaardbestand voor het remarketing van gegevensconnectors. Dit verzoek van data warehouse zou gegevensconnectorvariabelen evenals niet-gegevens connectorvariabelen omvatten, en het verzoek kan worden gepland gebaseerd slechts op het specifieke verzoek van uw organisatie. Om verwarring te verhinderen wanneer het oplossen van problemen, specificeer of het dossier in kwestie het daadwerkelijke remarketing segmentdossier is, of een verzoek van data warehouse die niet-genese variabelen bevatten.
