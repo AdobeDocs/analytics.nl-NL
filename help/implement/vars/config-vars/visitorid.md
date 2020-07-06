@@ -1,24 +1,26 @@
 ---
-title: bezoekerID
+title: visitorID
 description: Gebruik een aangepaste bezoeker-id.
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# bezoekerID
+# visitorID
 
 Adobe gebruikt verschillende methoden om bezoekers op uw site te identificeren. De `visitorID` variabele negeert alle andere methoden voor bezoekersidentificatie.
 
->[!IMPORTANT] Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan de [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
+>[!IMPORTANT]
+>
+>Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan de [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) .
 
-## Bezoeker-id in Adobe Experience Platform Launch
+## Bezoeker-id in Adobe Experience Platform starten
 
-[!UICONTROL Visitor ID] is een veld onder de [!UICONTROL Cookies] accordeon wanneer u de extensie Adobe Analytics configureert.
+[!UICONTROL Visitor ID] is een veld onder de [!UICONTROL Cookies] accordeon wanneer u de Adobe Analytics-extensie configureert.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
@@ -31,10 +33,14 @@ Wijs dit veld toe aan het gegevenselement dat uw aangepaste bezoeker-id bevat. S
 
 De `s.visitorID` variabele is een tekenreeks die een aangepaste unieke id voor de bezoeker bevat. Geldige waarden zijn alfanumerieke tekens tot 100 bytes. Gebruik geen streepjes, spaties, onderstrepingstekens of symbolen in deze variabele.
 
->[!WARNING] Als u de variabele `visitorID` partway door een bezoek plaatst, resultaten de gegevens in twee afzonderlijke unieke bezoekers.
+>[!WARNING]
+>
+>Als u de variabele `visitorID` partway door een bezoek plaatst, resultaten de gegevens in twee afzonderlijke unieke bezoekers.
 
 ```js
 s.visitorID = "abc123";
 ```
 
->[!CAUTION] Een ongeldige implementatie van aangepaste gebruikers-id&#39;s voor bezoekers kan leiden tot onjuiste gegevens en slechte rapportprestaties. Als deze variabele een standaardwaarde bevat (zoals `"0"` of `"NULL"`), behandelt Adobe deze resultaten alsof ze dezelfde bezoeker zijn. Deze situatie resulteert in onjuiste gegevens, met lage aantallen bezoekers en bezoekersniveausegmenten niet zoals verwacht. De onjuist uitgevoerde identiteitskaart van de douanebezoeker introduceert ook zware lading op verwerkingsservers, verhoogt [latentie](/help/technotes/latency.md) en vermindert rapportprestaties.
+>[!CAUTION]
+>
+>Een ongeldige implementatie van aangepaste gebruikers-id&#39;s voor bezoekers kan leiden tot onjuiste gegevens en slechte rapportprestaties. Als deze variabele een standaardwaarde bevat (zoals `"0"` of `"NULL"`), behandelt Adobe deze resultaten alsof ze dezelfde bezoeker zijn. Deze situatie resulteert in onjuiste gegevens, met lage aantallen bezoekers en bezoekersniveausegmenten niet zoals verwacht. De onjuist uitgevoerde identiteitskaart van de douanebezoeker introduceert ook zware lading op verwerkingsservers, verhoogt [latentie](/help/technotes/latency.md) en vermindert rapportprestaties.
