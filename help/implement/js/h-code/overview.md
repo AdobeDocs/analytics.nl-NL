@@ -2,18 +2,25 @@
 title: H Code JavaScript-implementatieoverzicht
 description: Leer de workflow voor het implementeren van H-code op uw site.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 0%
 
 ---
 
 
 # H Code JavaScript-implementatieoverzicht
 
->[!IMPORTANT] Deze versie van gegevensverzameling wordt niet meer ondersteund. Voer een upgrade uit naar [Adobe Experience Platform Launch](../../launch/overview.md) of [AppMeasurement voor JavaScript](../overview.md).
+>[!IMPORTANT]
+>
+>Deze versie van gegevensverzameling wordt niet meer ondersteund. Voer een upgrade uit naar [Adobe Experience Platform starten](../../launch/overview.md) of [AppMeasurement voor JavaScript](../overview.md).
 
-U moet toegang hebben tot uw hostservers om een pagina met code te kunnen implementeren voor het verzamelen van gegevens. De volgende stappen lopen u door een basisimplementatie van de Code van Analytics H.
+U moet toegang hebben tot uw hostservers om een pagina met code te kunnen implementeren voor het verzamelen van gegevens. In de volgende stappen doorloopt u een eenvoudige Analytics H Code-implementatie.
 
->[!NOTE] U moet al over een bestaand exemplaar van beschikken om deze instructies `s_code.js` te kunnen volgen. Adobe biedt niet langer een optie om H-code te downloaden in Codebeheer.
+>[!NOTE]
+>
+>U moet al over een bestaand exemplaar van beschikken om deze instructies `s_code.js` te kunnen volgen. Adobe biedt niet langer een optie om H-code te downloaden in Codebeheer.
 
 1. **Core JS-bestandsvariabelen** bijwerken: Bewerk het `s_code.js` bestand en controleer of de volgende variabelen zijn bijgewerkt:
    * `s_account` bevat de rapportsuite-id waarnaar u gegevens wilt verzenden. Zie
@@ -22,7 +29,7 @@ U moet toegang hebben tot uw hostservers om een pagina met code te kunnen implem
 3. **Referentie`s_code.js`op alle pagina**&#39;s: Zorg ervoor dat alle afzonderlijke pagina&#39;s het kern-JavaScript-bestand aanroepen en doe dit binnen de HTML- `<body>` tag (niet de `<head>` -tag).
    > [!TIP] H Code vereist dat het `s_code.js` script binnen de `<body>` tag wordt aangeroepen. Dit verschilt van andere implementatiemethoden, waarbij voor de meeste van deze methoden scriptverwijzingen in de `<head>` tag moeten staan.
 4. **Definieer paginaspecifieke variabelen op elke pagina**: Voor elke pagina moeten afzonderlijke variabelen worden gedefinieerd, zoals paginanaam of eVars. Afzonderlijke variabelen worden doorgaans op elke pagina gedefinieerd met een inline- `<script>` tag.
-5. **Gebruik debugger om gegevensinzameling** te verifiëren: Download en installeer het foutopsporingsprogramma [voor de](../../validate/debugger.md) Experience Cloud om te controleren of gegevens naar Adobe worden verzonden en of de paginabariabelen correct zijn gedefinieerd.
+5. **Gebruik debugger om gegevensinzameling** te verifiëren: Download en installeer het foutopsporingsprogramma [van](../../validate/debugger.md) Experience Cloud om te controleren of gegevens naar Adobe worden verzonden en of de paginariabelen correct zijn gedefinieerd.
 
 ## Caching
 
