@@ -3,7 +3,10 @@ description: 'null'
 title: Beperkingen en specificaties
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 1%
 
 ---
 
@@ -12,15 +15,19 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Publicatiebeperkingen voor Power BI {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE] Deze beperkingen zijn alleen van toepassing op de optie &quot;Publish Report Builder Requests as Power BI Dataset Tables&quot;.
+>[!NOTE]
+>
+>Deze beperkingen zijn alleen van toepassing op de optie &quot;Publish Report Builder Requests as Power BI Dataset Tables&quot;.
 
 * Een maximum van 100 verzoeken van de Bouwer van het Rapport kan naar Power BI per werkboek worden uitgevoerd.
 * Het planningsproces zal ophouden exporterende verzoeken wanneer het 101e verzoek wordt bereikt.
-* Alleen de eerste 10.000 rijen met analysegegevens worden naar Power BI verzonden volgens de aanvraag van Report Builder. De overige rijen worden genegeerd.
+* Alleen de eerste 10.000 rijen Analytics-gegevens worden naar Power BI verzonden per aanvraag van Report Builder. De overige rijen worden genegeerd.
 
 ## Een aanvraag voor een Report Builder bewerken na publicatie naar Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE] Deze specificatie is van toepassing op de opties &quot;Alle verzoeken van de Bouwer van het Rapport als de Lijsten van de Dataset van de Macht BI&quot;en &quot;publiceren Alle Formatted Lijsten in het Werkboek als de Lijsten van de Dataset van de Macht BI&quot;publiceren.
+>[!NOTE]
+>
+>Deze specificatie is van toepassing op de opties &quot;Alle verzoeken van de Bouwer van het Rapport als de Lijsten van de Dataset van de Macht BI&quot;en &quot;publiceren Alle Formatted Lijsten in het Werkboek als de Lijsten van de Dataset van de Macht BI&quot;publiceren.
 
 Het uitgeven van een verzoek van de Bouwer van het Rapport na het publiceren van het aan Power BI kan problemen veroorzaken.
 
@@ -58,7 +65,7 @@ Het uitgeven van een verzoek van de Bouwer van het Rapport na het publiceren van
 
 Door gebrek, zal de naam van werkboekfilename (zonder de uitbreiding .xlsx) worden bevolkt, behalve dat worden de ruimten vervangen met onderstrepingstekens.
 
-Houd er rekening mee dat
+Houd rekening met het volgende:
 
 * Het label mag geen combinatie zijn van letters en cijfers die kunnen worden verward met een rij- en kolomadres. A100 kan bijvoorbeeld geen label zijn, omdat dit het adres van een cel in een werkblad is.
 * De volgende tekens zijn geen geldige labeltekens: &#39;#&#39;, &#39;@&#39;, &#39;!&#39;, &#39;$&#39;, &#39;^&#39;, &#39;&amp;&#39;, &#39;*&#39;, &#39;`&#39;, &#39;~&#39;, &#39;. Deze worden vervangen door een onderstrepingsteken.
