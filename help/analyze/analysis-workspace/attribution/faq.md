@@ -2,10 +2,10 @@
 title: Veelgestelde vragen over attributie
 description: Antwoorden op veelgestelde vragen over attributie.
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 2%
 
 ---
 
@@ -14,23 +14,23 @@ ht-degree: 1%
 
 **Wat is het regelitem &quot;Geen&quot; wanneer u een kenmerk gebruikt?**
 
-Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt die zonder aanraakpunten in het terugzoekvenster zijn uitgevoerd. Probeer een langer tijdbereik op te nemen in het rapportvenster.
+Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt die zonder aanraakpunten in het terugzoekvenster zijn uitgevoerd. Om het aantal omzettingen te verminderen die aan het &quot;niets&quot;lijnpunt worden toegewezen, probeer gebruikend een Venster van de Lookback van de Douane met een langere raadplegingsperiode.
 
 **Waarom zie ik soms data buiten mijn rapporteringsvenster wanneer het gebruiken van attributiemodellen?**
 
-Deze extra datums zijn het gevolg van het terugzoekvenster van de bezoeker. Zie [Gegevens die buiten het rapporteringsvenster](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) in KB van Analytics voor meer informatie verschijnen. Adobe is van plan deze extra rijen in een volgende release uit te filteren.
+Deze extra datums zijn het gevolg van het terugzoekvenster van de bezoeker. Zie [Gegevens buiten rapportagevenster](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) in Analytics KB voor meer informatie.
 
-**Wanneer moet ik een terugzoekopdracht voor bezoekerskenmerk gebruiken?**
+**Wanneer moet ik een bezoek, bezoeker of aangepaste terugzoekactie voor kenmerken gebruiken?**
 
-De keuze van de terugzoekfunctie voor attributie hangt af van het gebruikte geval. Als conversies doorgaans langer duren dan één bezoek, wordt het aangeraden een bezoeker terug te zoeken. Het maken van een virtuele rapportsuite met een definitie voor een langer bezoek is ook een potentiële oplossing.
+De keuze van de terugzoekfunctie voor attributie hangt af van het gebruikte geval. Als conversies doorgaans langer duren dan één bezoek, wordt een bezoeker of aangepaste terugzoekactie aanbevolen. Voor langere conversiecycli zijn aangepaste terugzoekvensters het beste omdat dit het enige type is dat gegevens kan ophalen van vóór het rapportagevenster
 
 **Hoe vergelijken props en eVars wanneer het gebruiken van attributie?**
 
 Attribution wordt opnieuw berekend tijdens de uitvoering van het rapport, zodat er geen verschil is tussen een prop of eVar (of een andere dimensie) voor het maken van attributiemodellen. Props kunnen blijven bestaan met een terugzoekvenster of toewijzingsmodel en instellingen voor eVar-toewijzing/vervaldatum worden genegeerd.
 
-**Zijn de attribuutmodellen beschikbaar in andere mogelijkheden van Analytics, zoals de Diefstal van Gegevens of het Pakhuis van Gegevens?**
+**Zijn er toewijzingsmodellen beschikbaar in andere Analytics-mogelijkheden, zoals gegevensfeeds of Data warehouse?**
 
-Nee. De modellen van de attributie gebruiken rapporttijd verwerking, die slechts in de Werkruimte van de Analyse beschikbaar is. Zie Tijdverwerking [van](/help/components/vrs/vrs-report-time-processing.md) rapport voor meer informatie.
+Nee. Attributiemodellen gebruiken verwerking van rapporttijd, die alleen beschikbaar is in Analysis Workspace. Zie Tijdverwerking [van](/help/components/vrs/vrs-report-time-processing.md) rapport voor meer informatie.
 
 **Zijn toewijzingsmodellen alleen beschikbaar als ik een virtuele rapportsuite gebruik waarvoor verwerking van rapporttijd is ingeschakeld?**
 
@@ -48,12 +48,12 @@ Het deelvenster Kenmerken ondersteunt alle afmetingen. Niet-ondersteunde meetgeg
 * Metrische tijdwaarden
 * Bounces
 * Stuitpercentage
-* Berichten
-* Afsluiten
+* Geopend
+* Gesloten
 * Pagina&#39;s niet gevonden
 * Zoekopdrachten
 * Bezoeken van één pagina
-* Enkelvoudige toegang
+* Eenmalige toegang
 
 **Werkt de toewijzing met classificaties?**
 
@@ -61,7 +61,7 @@ Ja, classificaties worden volledig ondersteund.
 
 **Werkt de toewijzing met gegevensbronnen?**
 
-Ja, de meeste gegevensbronnen worden ondersteund. Attributie is niet mogelijk bij gegevensbronnen op overzichtsniveau omdat deze niet aan een bezoekersidentificatie van Analytics zijn gekoppeld. De gegevensbronnen van identiteitskaart van de transactie worden ook gesteund, tenzij zij in een virtuele rapportreeks met toegelaten verwerking van de rapporttijd worden gebruikt.
+Ja, de meeste gegevensbronnen worden ondersteund. Kenmerken is niet mogelijk bij gegevensbronnen op overzichtsniveau omdat deze niet aan een Analytics-bezoeker-id zijn gekoppeld. De gegevensbronnen van identiteitskaart van de transactie worden ook gesteund, tenzij zij in een virtuele rapportreeks met toegelaten verwerking van de rapporttijd worden gebruikt.
 
 **Werkt attributie met de integratie van Advertising Analytics?**
 
@@ -75,7 +75,7 @@ Aangezien de afmetingen van de marketingkanalen afhankelijk zijn van een traditi
 
 **Hoe werkt attributie met variabelen met meerdere waarden, zoals list vars?**
 
-Sommige afmetingen in Analytics kunnen veelvoudige waarden op één enkele slag bevatten. Veelvoorkomende voorbeelden zijn list vars en de productvariabele.
+Sommige afmetingen in Analytics kunnen meerdere waarden bevatten bij één druk. Veelvoorkomende voorbeelden zijn list vars en de productvariabele.
 
 Wanneer de attributie wordt toegepast op multi-value klappen, krijgen alle waarden in de zelfde klappers de zelfde creditering. Aangezien vele waarden dit krediet kunnen ontvangen, kan het rapporttotaal verschillend zijn dan als u elk individueel lijnpunt samenstelde. Het rapporttotaal wordt gededupliceerd, terwijl elke afzonderlijke waarde van de dimensie juiste kredieten krijgt.
 
