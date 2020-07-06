@@ -2,18 +2,23 @@
 title: writeSecureCookies
 description: Hiermee staat u toe dat AppMeasurement cookies instelt met het kenmerk Secure.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 1%
 
 ---
 
 
 # writeSecureCookies
 
-Met de `writeSecureCookies` variabele kan AppMeasurement [veilige cookies](https://en.wikipedia.org/wiki/Secure_cookie) instellen voor Analytics. Deze instelling is van toepassing op zowel cookies van de bezoeker-id die zijn ingesteld door AppMeasurement als op cookies die u met de `Util.CookieWrite()` methode hebt ingesteld. Hiervoor is AppMeasurement 2.18.0 of hoger vereist.
+Met de `writeSecureCookies` variabele kan AppMeasurement [Secure cookies](https://en.wikipedia.org/wiki/Secure_cookie) instellen voor Analytics. Deze instelling is van toepassing op zowel cookies van de bezoeker-id die zijn ingesteld door AppMeasurement als op cookies die u met de `Util.CookieWrite()` methode hebt ingesteld. Hiervoor is AppMeasurement 2.18.0 of hoger vereist.
 
->[!IMPORTANT] Als u de `writeSecureCookies` variabele inschakelt, moet u ervoor zorgen dat alle inhoud op uw site veilig via HTTPS wordt aangeboden. AppMeasurement werkt niet als deze variabele wordt toegelaten en u onveilige inhoud op uw pagina hebt.
+>[!IMPORTANT]
+>
+>Als u de `writeSecureCookies` variabele inschakelt, moet u ervoor zorgen dat alle inhoud op uw site veilig via HTTPS wordt aangeboden. AppMeasurement werkt niet als deze variabele wordt toegelaten en u onveilige inhoud op uw pagina hebt.
 
-## Beveiligde cookies schrijven in Adobe Experience Platform Launch
+## Beveiligde cookies schrijven in Adobe Experience Platform starten
 
 Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
