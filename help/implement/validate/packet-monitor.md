@@ -2,7 +2,10 @@
 title: Pakketanalysatoren
 description: Met pakketanalysatoren kunt u de gegevens weergeven die door uw implementatie naar Adobe-servers voor gegevensverzameling worden verzonden.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 0%
 
 ---
 
@@ -16,13 +19,15 @@ Net als bij de Adobe Experience Cloud-foutopsporing, geeft een pakketmonitor aan
 * Aanvragen voor het bijhouden van aangepaste koppelingen weergeven
 * Aanvragen voor afbeeldingen weergeven met andere implementatiemethoden dan JavaScript, zoals aanvragen voor afbeeldingen met harde codes of [!DNL Appmeasurement]
 
-Om de verzoeken van Analytics te bekijken, filter uitgaande verzoeken gebruikend &quot;b/ss&quot;.
+Als u Analytics-verzoeken wilt weergeven, filtert u uitgaande aanvragen met &quot;b/s&quot;.
 
 In zeer zeldzame gevallen rapporteert de debugger een aanvraag voor een image, hoewel er geen aanvraag is ingediend bij de [!DNL Analytics] verwerkingsservers van Adobe. Het gebruiken van een pakketmonitor is een grote manier om 100% zeker te zijn dat een specifiek beeldverzoek met succes in brand wordt gestoken.
 
 Hoewel Adobe geen officiële pakketmonitor biedt, zijn er een groot aantal van deze monitoren beschikbaar op internet. Hier volgen enkele voorbeelden van pakketmonitoren die anderen nuttig hebben gevonden.
 
->[!NOTE] Deze lijsten zijn niet bedoeld als volledig, maar als informatie over veelgebruikte monitoren. Als u een pakketmonitor hebt die u met succes gebruikt en nuttig vindt, voelt u vrij om terugkoppelen te verstrekken gebruikend de [!UICONTROL Feedback] knoop op de rechterkant van dit venster.
+>[!NOTE]
+>
+>Deze lijsten zijn niet bedoeld als volledig, maar als informatie over veelgebruikte monitoren. Als u een pakketmonitor hebt die u met succes gebruikt en nuttig vindt, voelt u vrij om terugkoppelen te verstrekken gebruikend de [!UICONTROL Feedback] knoop op de rechterkant van dit venster.
 
 | Firefox | Internet Explorer | Chroom | Zelfstandige programma&#39;s |
 |---|---|---|---|
@@ -32,7 +37,9 @@ Hoewel Adobe geen officiële pakketmonitor biedt, zijn er een groot aantal van d
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE] Adobe biedt geen ondersteuning voor problemen die zich bij deze pakketmonitoren kunnen voordoen, of lost deze problemen niet op. Raadpleeg in plaats daarvan de bronlocatie van de pakketmonitor voor hulp.
+>[!NOTE]
+>
+>Adobe biedt geen ondersteuning voor problemen die zich bij deze pakketmonitoren kunnen voordoen, of lost deze problemen niet op. Raadpleeg in plaats daarvan de bronlocatie van de pakketmonitor voor hulp.
 
 ## NS_BINDING_ABORTED in responscodes
 
