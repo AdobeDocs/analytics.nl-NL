@@ -1,19 +1,24 @@
 ---
-description: U kunt segmenten van een aanraakpunt tot stand brengen, segmenten als aanraakpunt toevoegen, en zeer belangrijke werkschema's over diverse segmenten in de Werkruimte van de Analyse vergelijken.
+description: U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoegen en de belangrijkste workflows in verschillende segmenten in Analysis Workspace vergelijken.
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
-title: Segmenten toepassen in een falloutanalyse
+title: Segmenten toepassen in een uitvalanalyse
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 2%
 
 ---
 
 
-# Segmenten toepassen in een falloutanalyse
+# Segmenten toepassen in een uitvalanalyse
 
-U kunt segmenten van een aanraakpunt tot stand brengen, segmenten als aanraakpunt toevoegen, en zeer belangrijke werkschema&#39;s over diverse segmenten in de Werkruimte van de Analyse vergelijken.
+U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoegen en de belangrijkste workflows in verschillende segmenten in Analysis Workspace vergelijken.
 
->[!IMPORTANT] De segmenten die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Met een bezoeker-contextVallout, moeten de segmenten die als controlepunten worden gebruikt bezoek of op slag-gebaseerde segmenten zijn. Met een bezoek-contextVallout, moeten de segmenten die als controlepunt worden gebruikt op hit-Gebaseerde segmenten zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. We hebben een waarschuwing toegevoegd aan de Fallout-visualisatie die wordt weergegeven wanneer u een incompatibel segment toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van segmentcontainers leiden tot ongeldige evaluatieschema&#39;s, zoals:
+>[!IMPORTANT]
+>
+>De segmenten die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Met een bezoeker-contextVallout, moeten de segmenten die als controlepunten worden gebruikt bezoek of op slag-gebaseerde segmenten zijn. Met een bezoek-contextVallout, moeten de segmenten die als controlepunt worden gebruikt op hit-Gebaseerde segmenten zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. We hebben een waarschuwing toegevoegd aan de Fallout-visualisatie die wordt weergegeven wanneer u een incompatibel segment toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van segmentcontainers leiden tot ongeldige evaluatieschema&#39;s, zoals:
 
 * Een op bezoekers gebaseerd segment gebruiken als aanraakpunt binnen een bezoekerscontext-Fallout-visualisatie
 * Een op bezoekers gebaseerd segment gebruiken als aanraakpunt binnen een visualisatie voor &#39;visit-context&#39;
