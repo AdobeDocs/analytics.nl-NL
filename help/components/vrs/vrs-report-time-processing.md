@@ -1,32 +1,37 @@
 ---
 description: De tijdverwerking van het rapport is een virtuele het rapportreeks plaatsen die gegevens om op een niet destructieve, retroactieve manier toelaat worden verwerkt.
-title: Tijdverwerking rapporteren
+title: Verwerking rapportduur
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1424'
+ht-degree: 0%
 
 ---
 
 
-# Tijdverwerking rapporteren
+# Verwerking rapportduur
 
 De tijdverwerking van het rapport is een virtuele het rapportreeks plaatsen die gegevens om op een niet destructieve, retroactieve manier toelaat worden verwerkt.
 
->[!NOTE] De Verwerking van de Tijd van het rapport is beschikbaar slechts voor de Werkruimte van de Analyse.
+>[!NOTE]
+>
+>Verwerking van rapporttijd is alleen beschikbaar voor Analysis Workspace.
 
 De Verwerking van de Tijd van het rapport beïnvloedt slechts de gegevens in de virtuele rapportreeks en beïnvloedt geen gegevens of gegevensinzameling in de reeks van het basisrapport. Het verschil tussen de Verwerking van de Tijd van het Rapport en de traditionele verwerking van Analytics wordt het best begrepen gebruikend het volgende diagram:
 
 ![Google1](assets/google1.jpg)
 
-Tijdens de gegevensverwerking van Analytics, stromen de gegevens door de pijpleiding van de gegevensinzameling en in een preprocessing stap, die gegevens voor rapportering voorbereidt. Bij deze voorbewerkingsstap worden de logica voor het verlopen van het bezoek en de logica voor persistentie van eVar (onder andere) toegepast op de gegevens terwijl deze worden verzameld. Het primaire nadeel van dit voorbewerkingsmodel is dat elke configuratie vooraf moet worden uitgevoerd voordat gegevens worden verzameld. Dit betekent dat wijzigingen in de instellingen voor voorbewerking alleen van toepassing zijn op nieuwe gegevens vanaf dat moment. Dit is problematisch als de gegevens uit orde aankomen of als de montages verkeerd werden gevormd.
+Tijdens de gegevensverwerking van Analytics stromen de gegevens door de pijpleiding van de gegevensinzameling en in een preprocessing stap, die gegevens voor rapportering voorbereidt. Bij deze voorbewerkingsstap worden de logica voor het verlopen van het bezoek en de logica voor persistentie van eVar (onder andere) toegepast op de gegevens terwijl deze worden verzameld. Het primaire nadeel van dit voorbewerkingsmodel is dat elke configuratie vooraf moet worden uitgevoerd voordat gegevens worden verzameld. Dit betekent dat wijzigingen in de instellingen voor voorbewerking alleen van toepassing zijn op nieuwe gegevens vanaf dat moment. Dit is problematisch als de gegevens uit orde aankomen of als de montages verkeerd werden gevormd.
 
-De Verwerking van de Tijd van het rapport is een fundamenteel verschillende manier om de gegevens van Analytics voor rapportering te verwerken. In plaats van de verwerkingslogica vooraf te bepalen alvorens de gegevens worden verzameld, negeert de Analytics de gegevensreeks tijdens de preprocessing stap en past deze logica toe telkens als een rapport wordt in werking gesteld:
+De Verwerking van de Tijd van het rapport is een fundamenteel verschillende manier om de gegevens van Analytics voor rapportering te verwerken. In plaats van de verwerkingslogica vooraf te bepalen voordat gegevens worden verzameld, negeert Analytics de gegevensset tijdens de voorbewerkingsstap en past deze logica toe telkens als een rapport wordt uitgevoerd:
 
 ![Google2](assets/google2.jpg)
 
 Deze verwerkingsarchitectuur maakt veel flexibelere rapportageopties mogelijk. U kunt bijvoorbeeld de time-outperiode van het bezoek wijzigen in een willekeurige tijdsduur die u op niet-destructieve wijze wilt en die wijzigingen worden weerspiegeld in uw persistentie en segmentcontainers met terugwerkende kracht alsof u die instellingen had toegepast voordat de gegevens werden verzameld. Bovendien, kunt u om het even welk aantal virtuele rapportreeksen tot stand brengen, elk met de verschillende opties van de Verwerking van de Tijd van het Rapport die op de zelfde reeks van het basisrapport worden gebaseerd, zonder om het even welke gegevens in de reeks van het basisrapport te veranderen.
 
-De Verwerking van de Tijd van het rapport staat ook Analytics toe om achtergrondklappen te verhinderen nieuwe bezoeken te beginnen en staat de [mobiele SDK](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) toe om rapportering te vertellen om een nieuw bezoek te beginnen wanneer een gebeurtenis van de Lancering van de Toepassing wordt teweeggebracht.
+Met de rapporttijdverwerking kan Analytics ook voorkomen dat er nieuwe bezoeken op de achtergrond worden gestart en kan de [mobiele SDK](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) melden dat de rapportage een nieuw bezoek moet starten wanneer een App Launch-gebeurtenis wordt gestart.
 
 De volgende configuratieopties zijn momenteel beschikbaar aan virtuele rapportreeksen met toegelaten de Verwerking van de Tijd van het Rapport:
 
@@ -36,14 +41,14 @@ De volgende configuratieopties zijn momenteel beschikbaar aan virtuele rapportre
 * **Start een nieuw bezoek bij elke keer dat de app wordt gestart:** Naast de time-out bij een bezoek kunt u een bezoek forceren om te beginnen wanneer een gebeurtenis App Launch is opgenomen vanuit de SDK&#39;s voor mobiele apparaten, ongeacht het inactiviteitsvenster. Dit het plaatsen beïnvloedt metrisch bezoek en de container van het bezoekensegment, evenals de logica van de bezoekafloop op eVars.
 * **Nieuwe bezoeker starten met gebeurtenis:** Een nieuwe sessie wordt gestart wanneer een gebeurtenis wordt geactiveerd, ongeacht of er een time-out voor een sessie is opgetreden. De nieuwe sessie bevat de gebeurtenis die deze heeft gestart. Bovendien kunt u meerdere gebeurtenissen gebruiken om een sessie te starten en een nieuwe sessie wordt geactiveerd als een van deze gebeurtenissen in de gegevens wordt waargenomen. Dit het plaatsen zal uw bezoektelling, de container van de de segmentatie van het bezoek, en de logica van de bezoekafloop op eVars beïnvloeden.
 
-De Verwerking van de Tijd van het rapport steunt niet alle metriek en dimensies beschikbaar in traditionele Analytics rapportering. De virtuele rapportsuites die de Verwerking van de Tijd van het Rapport gebruiken zijn slechts toegankelijk in de Werkruimte van de Analyse en zullen niet in [!UICONTROL Reports & Analytics], Ad hoc Analyse, het Pakhuis van Gegevens, de Bouwer van het Rapport, de Diefstal van Gegevens, of rapporteringsAPI toegankelijk zijn.
+De Verwerking van de Tijd van het rapport steunt niet alle metriek en dimensies beschikbaar in traditionele Analytics rapportering. Virtuele rapportsuites die de Verwerking van de Tijd van het Rapport gebruiken zijn slechts toegankelijk in Analysis Workspace en zullen niet in [!UICONTROL Reports & Analytics], Ad hoc analysis, Data warehouse, de Bouwer van het Rapport, de Diefstal van Gegevens, of rapporteringsAPI toegankelijk zijn.
 
 Bovendien verwerkt de Tijd van het Rapport slechts gegevens die uit binnen de rapporteringsdatumwaaier (die als &quot;datumvenster&quot;hieronder wordt bedoeld) komen. Dit betekent dat eVar waarden die voor een bezoeker vóór de rapporteringsdatumwaaier worden geplaatst &quot;nooit verlopen&quot;niet in de rapporteringsvensters blijven en niet in rapporten verschijnen. Dit betekent ook dat de metingen van de klantenloyaliteit uitsluitend gebaseerd zijn op de gegevens in de rapporteringsdatumwaaier en niet op de volledige geschiedenis voorafgaand aan de rapporteringsdatumwaaier.
 
 Hieronder volgt een lijst met metriek en afmetingen die momenteel niet worden ondersteund bij het gebruik van de Verwerking van de Tijd van het Rapport:
 
-* **Analyses voor doel:** Momenteel niet ondersteund. Toekomstige steun is gepland.
-* **Analyses voor metingen/dimensies die zijn gereserveerd voor Advertising Cloud:** Momenteel niet ondersteund. Toekomstige steun is gepland.
+* **Analytics voor Target:** Momenteel niet ondersteund. Toekomstige steun is gepland.
+* **Voor Analytics for Advertising Cloud gereserveerde cijfers/afmetingen:** Momenteel niet ondersteund. Toekomstige steun is gepland.
 * **Single Access Metric:** Permanent niet ondersteund.
 * **Lijstvariabelen:** Momenteel niet ondersteund. Toekomstige steun is gepland.
 * **Counter Vars:** Permanent niet ondersteund.
