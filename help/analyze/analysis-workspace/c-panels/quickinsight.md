@@ -2,9 +2,9 @@
 description: Snelle inzichten zijn een hulpmiddel voor nieuwe gebruikers van de Werkruimte die hen in de bouw van gegevenslijsten en visualisaties begeleiden
 title: Deelvenster Snelle inzichten
 translation-type: tm+mt
-source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
+source-git-commit: 19e10ddd43d3a3317e6dadef789b3038e13fdb8f
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '986'
 ht-degree: 1%
 
 ---
@@ -12,11 +12,7 @@ ht-degree: 1%
 
 # Deelvenster Snelle inzichten
 
->[!IMPORTANT]
->
->**[!UICONTROL Quick Insights]** momenteel wordt slechts beperkt getest. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/analytics/landing/an-releases.html)
-
-[!UICONTROL Quick Insights] biedt begeleiding voor niet-analisten en nieuwe gebruikers van [!UICONTROL Analysis Workspace] om te leren hoe u bedrijfsvragen snel en gemakkelijk kunt beantwoorden. Het is ook een geweldig hulpmiddel voor geavanceerde gebruikers die snel een eenvoudige vraag willen beantwoorden zonder zelf een tabel te hoeven maken.
+[!UICONTROL Quick Insights] biedt richtlijnen voor niet-analisten en nieuwe gebruikers van [!UICONTROL Analysis Workspace] over hoe ze zakelijke kwesties snel en eenvoudig kunnen beantwoorden. Het is ook een geweldig hulpmiddel voor geavanceerde gebruikers die snel een eenvoudige vraag willen beantwoorden zonder zelf een tabel te hoeven maken.
 
 Wanneer u dit voor het eerst gaat gebruiken, vraagt u zich misschien af welke visualisaties het nuttigst zouden zijn, welke dimensies en metriek inzichten zouden kunnen vergemakkelijken, waar te om punten te slepen en te laten vallen, waar te om een segment tot stand te brengen, etc. [!UICONTROL Analysis Workspace]
 
@@ -37,7 +33,7 @@ Hier volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst besta
 
 | Bouwsteen (component) | Definitie |
 |---|---|
-| [!UICONTROL Dimension] | Dimensies zijn beschrijvingen of kenmerken van metrische gegevens die in een project kunnen worden bekeken, uitgesplitst en vergeleken. Het zijn niet-numerieke waarden en datums die worden opgesplitst in dimensie-items. Bijvoorbeeld &#39;browser&#39; of &#39;pagina&#39; zijn afmetingen. |
+| [!UICONTROL Dimension] | Dimensies zijn beschrijvingen of kenmerken van metrische gegevens die in een project kunnen worden bekeken, uitgesplitst en vergeleken. Het zijn niet-numerieke waarden en datums die worden opgesplitst in dimensie-items. &#39;browser&#39; of &#39;pagina&#39; zijn bijvoorbeeld afmetingen. |
 | [!UICONTROL Dimension item] | Dimensie-items zijn afzonderlijke waarden voor een dimensie. Dimensie-items voor de afmetingen van de browser zijn bijvoorbeeld &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;, enzovoort. |
 | [!UICONTROL Metric] | De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc. |
 | [!UICONTROL Visualization] | De werkruimte biedt [een aantal visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) om visuele vertegenwoordiging van uw gegevens, zoals bar grafieken, donut grafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen, en anderen te bouwen. |
@@ -46,7 +42,7 @@ Hier volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst besta
 
 ## Aan de slag met Quick Insights
 
-1. Meld u aan bij Adobe Analytics met de aanmeldingsgegevens die u hebt ontvangen.
+1. Meld u aan bij Adobe Analytics met de gegevens die u hebt ontvangen.
 1. Ga naar [!UICONTROL Workspace] en klik **[!UICONTROL Create New Project]** en klik vervolgens **[!UICONTROL Quick Insights]**. (U kunt dit deelvenster ook openen via het **[!UICONTROL Panel]** menu in de linkertrack.)
 
    ![](assets/qibuilder.png)
