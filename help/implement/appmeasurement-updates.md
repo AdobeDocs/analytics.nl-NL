@@ -3,9 +3,9 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e7d1a690076d9fbb68797224d7ab53a6350f787d
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '2119'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,12 @@ Cumulatieve releaseopmerkingen voor [!DNL AppMeasurement] JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 U kunt de nieuwste versie van AppMeasurement downloaden in [Codebeheer](/help/admin/admin/code-manager-admin.md).
+
+## Versie 2.21.0
+
+Release Date: **June 24, 2020**
+
+* Probleem verholpen waarbij het filter Activity Map linkExclusions niet altijd werd toegepast op Firefox.
 
 ## Versie 2.20.0
 
