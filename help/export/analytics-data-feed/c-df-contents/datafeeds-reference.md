@@ -6,9 +6,9 @@ title: Referentie gegevenskolom
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
 workflow-type: tm+mt
-source-wordcount: '3650'
+source-wordcount: '3664'
 ht-degree: 0%
 
 ---
@@ -267,7 +267,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `visid_low` | Wordt gebruikt in combinatie met visid_high om een bezoeker op unieke wijze te identificeren. | bigint zonder teken |
 | `visid_new` | Markering om te bepalen of de treffer een onlangs gegenereerde bezoeker-id bevat. | teken(1) |
 | `visid_timestamp` | Als de bezoeker-id pas is gegenereerd, geeft u het tijdstempel (in Unix-tijd) op van het tijdstip waarop de bezoeker-id is gegenereerd. | int |
-| `visid_type` | Numerieke id die aangeeft welke methode is gebruikt om de bezoeker te identificeren. <br>0: Aangepaste bezoeker-id <br>1: IP en gebruikersagent fallback <br>2: Koptekst HTTP Mobile-abonnee <br>3: Verouderde cookie-waarde (s_vi) <br>4: Waarde van fallback-cookie (s_fid) <br>5: Identiteitsservice | tinyint zonder teken |
+| `visid_type` | Niet voor extern gebruik; intern gebruikt door Adobe voor het verwerken van optimalisaties. Numerieke id die de methode vertegenwoordigt die wordt gebruikt om de bezoeker te identificeren.<br>0: Aangepaste bezoeker-id of Onbekend/niet van toepassing<br>1: IP en gebruikersagent fallback <br>2: Koptekst HTTP Mobile-abonnee <br>3: Verouderde cookie-waarde (s_vi) <br>4: Waarde van fallback-cookie (s_fid) <br>5: Identiteitsservice | tinyint zonder teken |
 | `visit_keywords` | Variabele die in de dimensie van het Sleutelwoord van het Onderzoek wordt gebruikt. Deze kolom gebruikt een niet-standaard tekenlimiet voor back-endlogica die door Adobe wordt gebruikt. | varchar(244) |
 | `visit_num` | Variabele die wordt gebruikt in de dimensie Visit Number. Begint bij 1, en verhoogt telkens als een nieuw bezoek per bezoeker begint. | int zonder teken |
 | `visit_page_num` | Variabele die wordt gebruikt in de dimensie van de Diepte van de Actief. Verhoogt met 1 voor elke hit die de gebruiker genereert. Hiermee herstelt u elk bezoek. | int zonder teken |
