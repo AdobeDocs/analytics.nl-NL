@@ -2,9 +2,9 @@
 title: Attributiemodellen en terugzoekvensters
 description: Hoe verschillende typen attributie krediet verdelen tussen dimensiewaarden.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,6 @@ Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken o
 * **Het terugkijkvenster van de bezoeker:** Kijkt naar alle bezoeken terug tot de eerste van de maand van de huidige datumwaaier. De terugkijkvensters van de bezoeker zijn breed, aangezien zij vele bezoeken kunnen overspannen. De terugkijker van de bezoeker overweegt alle waarden van het begin van de maand van de de datumwaaier van het rapport. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de terugzoekdatum van de bezoeker 1 september tot en met 30 september.
 
 * **Aangepast terugzoekvenster:** Hiermee kunt u het toewijzingvenster uitvouwen tot maximaal 90 dagen na het bereik van de rapportdatum. Aangepaste terugzoekvensters worden geëvalueerd bij elke conversie in de rapportageperiode. Voor een conversie die bijvoorbeeld op 20 februari plaatsvindt, zou een terugkijkvenster van 10 dagen alle afmetingsaanraakpunten van 10 tot 20 februari in het attributiemodel evalueren.
-
->[!NOTE]
->
->**[!UICONTROL Custom lookback windows]** worden momenteel beperkt getest. Zie de [Adobe Analytics-functiereleases](/help/landing/an-releases.md) voor meer informatie.
 
 ## Voorbeeld
 
