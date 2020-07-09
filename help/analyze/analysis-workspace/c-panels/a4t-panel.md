@@ -2,7 +2,7 @@
 description: Met het deelvenster Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace analyseren.
 title: Deelvenster Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
+source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 2%
@@ -26,7 +26,7 @@ U kunt het deelvenster A4T configureren met behulp van de volgende invoerinstell
 | Succeswaarden | Selecteer maximaal drie standaard (niet-berekende) succesgebeurtenissen uit de vervolgkeuzelijsten of sleep- en neerzetmetriek uit het linkerspoor. Elke metrisch zal een specifieke lijst en visualisatie in het teruggegeven paneel hebben. |
 | Datumbereik van agenda | Deze wordt automatisch ingevuld op basis van het bereik voor de activiteitsdatum van Adobe Target. U kunt deze desgewenst wijzigen. |
 
-![Deelvensterbouwer](assets/a4t-panel-builder.png)
+![Deelvensterbouwer](assets/a4t-panel-builder2.png)
 
 ## Deelvensteruitvoer {#Output}
 
