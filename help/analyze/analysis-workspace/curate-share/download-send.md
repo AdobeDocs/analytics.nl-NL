@@ -3,7 +3,10 @@ description: U kunt opgeslagen en niet-opgeslagen projecten downloaden in PDF- e
 title: PDF- of CSV-bestanden downloaden
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
+source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,14 +27,15 @@ Houd dit in gedachten:
 1. Maak of open een project.
 1. Klik op **[!UICONTROL Project]** > **[!UICONTROL Download CSV (or Download PDF).]**
 
-Op 11 april 2019 zijn verschillende wijzigingen aangebracht in **[!CSV downloads]** (en **[!Ckopiëren naar klembord]**) uit de analysewerkruimte om opmaak te verwijderen uit geëxporteerde gegevens.
-* Het scheidingsteken voor duizendtallen wordt niet meer opgenomen. (Het decimale scheidingsteken blijft opgenomen en blijft in de indeling die onder **[!UICONTROL Components > Report Settings > Thousands Separator]**) is gedefinieerd.)
+Op 11 april 2019 zijn er verschillende wijzigingen aangebracht in **[!UICONTROL CSV downloads]** (en **[!UICONTROL Copy to Clipboard]**) Analysis Workspace om de opmaak van geëxporteerde gegevens te verwijderen.
+* Het **[!UICONTROL Thousands Separator]** is niet meer opgenomen. (Het decimale scheidingsteken blijft opgenomen en blijft in de indeling die onder **[!UICONTROL Components > Report Settings > Thousands Separator]**) is gedefinieerd.)
 * Er worden geen valutasymbolen weergegeven.
 * Er worden geen percentagesymbolen weergegeven.
 * Percentages worden in decimale vorm uitgedrukt; Zo wordt 75% weergegeven als 0,75.
 * Tijd wordt weergegeven in seconden.
 * In kleurentabellen worden alleen onbewerkte waarden weergegeven. percentages worden verwijderd.
 * Als een getal ongeldig is, wordt een lege cel weergegeven.
+* Er wordt geen afronding toegepast (zelfs niet als dit in berekende metrieke waarden is opgegeven) - onbewerkte waarden worden weergegeven.
 
 >[!NOpmerking:]
 >
