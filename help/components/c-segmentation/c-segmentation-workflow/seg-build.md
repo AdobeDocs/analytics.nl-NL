@@ -4,9 +4,9 @@ title: Segmenten maken
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Er zijn verscheidene manieren om tot de Bouwer van het Segment toegang te hebben
 
 U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
 
-![](assets/segment_builder_ui.png)
+![](assets/segment_builder_ui_2.png)
 
 1. **[!UICONTROL Title]**: Geef het segment een naam.
 1. **[!UICONTROL Description]**: Geef een beschrijving voor het segment op.
@@ -40,11 +40,15 @@ U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
    * **[!UICONTROL + Add container]**: Hiermee kunt u een nieuwe container (onder de container op het hoogste niveau) toevoegen aan de segmentdefinitie.
    * **[!UICONTROL Exclude]**: Hiermee kunt u het segment definiëren door een of meer dimensies, segmenten of metriek uit te sluiten.
 
+1. **[!UICONTROL Dimensions]**: Componenten worden gesleept en verwijderd uit de lijst Dimensies (oranje zijbalk).
+1. **[!UICONTROL Operator]**: U kunt waarden vergelijken en beperken gebruikend geselecteerde exploitanten.
+1. **[!UICONTROL Value]**: De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het segment of metrisch.
 1. **[!UICONTROL Attribution Models]**: Deze modellen zijn alleen beschikbaar voor dimensies. Met deze modellen wordt bepaald voor welke waarden in een dimensie een segment moet worden gemaakt. Dimensiemodellen zijn met name handig bij sequentiële segmentatie.
 
    * **[!UICONTROL Repeating]** (standaard): Bevat varianten en doorlopende waarden voor de dimensie.
    * **[!UICONTROL Instance]**: Bevat exemplaren voor de dimensie.
    * **[!UICONTROL Non-repeating instance]**: Hiermee worden unieke (niet-herhalende) instanties voor de dimensie opgenomen. Dit is het model dat wordt toegepast in Flow wanneer herhaalde instanties worden uitgesloten.
+
    ![](assets/attribution-models.jpg)
 
    **Voorbeeld: Het segment van de hoogte waar eVar1 = A**
@@ -54,16 +58,13 @@ U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
    | Herhalend | X | X | X | - | X | - |
    | Instance | X | X | - | - | X | - |
    | Niet-herhalende instantie | X | - | - | - | X | - |
-
-1. **[!UICONTROL Operator]**: U kunt waarden vergelijken en beperken gebruikend geselecteerde exploitanten.
-1. **[!UICONTROL Dimensions]**: Dimensies worden gesleept en verwijderd uit de lijst Dimensies (oranje zijbalk).
-1. **[!UICONTROL Value]**: De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het segment of metrisch.
 1. **[!UICONTROL And/Or/Then]**: Wijst de [!UICONTROL AND/OR/THEN] operatoren toe tussen containers of regels. Met de operator THEN kunt u opeenvolgende segmenten [](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)definiëren.
 1. **[!UICONTROL Metric]**: (Groene zijbalk) Metrisch die is gesleept en verwijderd uit de lijst Metriek.
 1. **[!UICONTROL Comparison]** operator: U kunt waarden vergelijken en beperken gebruikend geselecteerde exploitanten.
 1. **[!UICONTROL Value]**: De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het segment of metrisch.
 1. **[!UICONTROL X]**: (Verwijderen) Hiermee kunt u dit deel van de segmentdefinitie verwijderen.
-1. **[!UICONTROL Save]** of **[!UICONTROL Cancel]**: Hiermee slaat u het segment op of annuleert u het. Nadat u hebt geklikt, gaat u naar Segmentbeheer **[!UICONTROL Save]** waar u het segment kunt beheren.
+1. **[!UICONTROL Experience Cloud publishing]**: Als u een Adobe Analytics-segment publiceert naar de Experience Cloud, kunt u het segment gebruiken voor marketingactiviteiten in [!DNL Audience Manager] en in andere activeringskanalen. [Meer informatie...](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md)
+1. **[!UICONTROL Audience library]**: De publieksservices van Adobe beheren de vertaling van bezoekersgegevens naar publiekssegmentatie. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan de Experience Cloud te delen. [Meer informatie...](https://docs.adobe.com/content/help/nl-NL/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Hiermee doorzoekt u de lijst met afmetingen, segmenten of metriek.
 1. **[!UICONTROL Dimensions]**: (Lijst) Klik de kopbal om uit te breiden.
 1. **[!UICONTROL Metrics]**: Klik op de koptekst om deze uit te vouwen.
@@ -71,10 +72,9 @@ U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
 1. **[!UICONTROL Report suite selector]**: Hiermee selecteert u de rapportsuite waarin dit segment wordt opgeslagen. U kunt het segment in alle rapportreeksen nog gebruiken.
 1. **[!UICONTROL Segment Preview]**: Hiermee kunt u een voorvertoning van de belangrijkste metriek bekijken om te zien of u een geldig segment hebt en hoe breed het segment is. Geeft de uitsplitsing aan van de gegevensset die u kunt verwachten om te zien of u dit segment toepast. Toont 3 concentrische cirkels en een lijst om het aantal en het percentage gelijken voor, [!UICONTROL Hits]en [!UICONTROL Visits][!UICONTROL Visitors] voor een segment te tonen dat tegen een gegevensreeks in werking wordt gesteld. Dit diagram wordt meteen bijgewerkt nadat u de segmentdefinitie hebt gemaakt of gewijzigd.
 1. **[!UICONTROL Product Compatibility]**: Hier volgt een lijst met Adobe Analytics-producten (Analysis Workspace, [!UICONTROL Reports & Analytics], Ad hoc analysis, Data warehouse) waarmee het segment dat u hebt gemaakt compatibel is. De meeste segmenten zijn compatibel met alle producten. Niet alle operatoren en maten zijn echter compatibel met alle Analytics-producten, met name [Data warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Dit diagram wordt onmiddellijk bijgewerkt nadat u veranderingen in uw segmentdefinitie aanbrengt.
+1. **[!UICONTROL Save]** of **[!UICONTROL Cancel]**: Hiermee slaat u het segment op of annuleert u het. Nadat u hebt geklikt, gaat u naar Segmentbeheer **[!UICONTROL Save]** waar u het segment kunt beheren.
 
 Segmenten met ingesloten datumbereiken werken nog steeds anders in Analysis Workspace dan [!UICONTROL Reports & Analytics]: In Workspace overschrijft een segment met een ingesloten datumbereik het datumbereik van het deelvenster. Door contrast, geeft [!UICONTROL Reports & Analytics] u de doorsnede van de waaier van de rapportdatum en de ingebedde de datumwaaier van het segment.
-
-**[!UICONTROL Experience Cloud Publishing]**: (Niet weergegeven op scherm) Deze optie wordt alleen weergegeven als de rapportsuite waarin u dit segment opslaat, is [ingeschakeld voor de Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Door een segment naar de Experience Cloud te publiceren, kunt u het segment gebruiken voor marketingactiviteiten in de [!UICONTROL Audience Library], [!DNL Target]en [!DNL Audience Manager]. [Meer](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html) weten over Experience Cloud-publicaties?
 
 ## Segmenten maken {#build-segments}
 
