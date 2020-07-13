@@ -3,16 +3,23 @@ description: 'null'
 title: Kampyle Data Connector voor Adobe Analytics
 uuid: f7733c81-93f5-4c50-b83a-721a6fbd4e8e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 5%
 
 ---
 
 
 # Kampyle Data Connector voor Adobe Analytics{#kampyle-data-connector-for-adobe-analytics}
 
+>[!IMPORTANT]
+>
+>Medio tot eind 2021 zullen we de Adobe Data Connector-technologie volledig benutten. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
+
 De gegevensconnector van Kampyle voor Adobe Analytics combineert het geïntegreerde feedbacksysteem van Kampyle en de gedragsrapportage van Adobe Analytics® om krachtige analysemogelijkheden en optimaliseringsmogelijkheden voor uw organisatie te creëren.
 
-De online marketeers realiseren zich steeds meer de relevantie van klantenfeedback in het opbouwen van merken en het aansturen van bedrijfsresultaten. De gegevensconnector van Kampyle voor Adobe Analytics® voegt maatstaven en afmetingen voor feedback van bezoekers toe aan Adobe Analytics. Het laat u bezoekersgedrag in de context van hun houding en meningen analyseren. Op deze manier kunt u optimaliseren op basis van feedback en de conversiesnelheden verbeteren.
+De online marketeers realiseren zich steeds meer de relevantie van klantenfeedback in het opbouwen van merken en het aansturen van bedrijfsresultaten. De gegevensconnector van Kampyle voor Adobe Analytics® voegt maatstaven en dimensies voor feedback van bezoekers toe aan Adobe Analytics. Het laat u bezoekersgedrag in de context van hun houding en meningen analyseren. Op deze manier kunt u optimaliseren op basis van feedback en de conversiesnelheden verbeteren.
 
 ## Integratievereisten{#integration-prerequisites}
 
