@@ -2,9 +2,9 @@
 description: Importeer volggegevens van toepassingen van derden naar Analytics.
 title: Aan de slag met Analytics-gegevensconnectors
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 Adobe biedt organisaties informatie in real-time en uitvoerbaar over hun digitale strategieën en marketinginitiatieven. Met gegevensconnectors kunt u trackinggegevens van toepassingen van derden importeren in Analytics, zodat u gegevens van één centrale locatie kunt verzamelen en gebruiken. Als u een van de partnerproducten gebruikt, kunt u een integratie tot stand brengen die de toepassingsgegevens in marketing rapporten invoert. Nadat de toepassing is geïntegreerd, kunt u rapporten genereren met gegevens uit de toepassing.
 
 Bijvoorbeeld, zou een e-mailintegratie een e-mailpartner kunnen willen gebruiken om een e-mailcampagne te verspreiden. Wanneer bezoekers naar uw Website komen wilt u weten welke degenen in antwoord op uw e-mailcampagne kwamen. De schakelaars van gegevens integreren gegevens van uw e-mailpartner in marketing rapporten zodat u deze informatie kunt bepalen om de doeltreffendheid van uw e-mailcampagne te meten.
+
+>[!IMPORTANT]
+>
+>Medio tot eind 2021 zullen we de Adobe Data Connector-technologie volledig benutten. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Systeemvereisten**
 
