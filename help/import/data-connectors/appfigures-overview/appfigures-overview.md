@@ -1,24 +1,31 @@
 ---
-description: Deze integratie van Adobe-gegevensconnectors combineert de kracht van de geïntegreerde analytische gegevens van de AppFigures-winkel voor mobiele apparaten en het rechtstreeks bijhouden van apps voor Adobe Analytics om krachtige analysemogelijkheden en optimalisatiemogelijkheden voor uw organisatie te creëren.
+description: Deze integratie van Adobe-gegevensconnectors combineert de kracht van de geïntegreerde analytische gegevens van de AppFigures-winkel voor mobiele apparaten en het rechtstreeks bijhouden van apps voor Adobe Analytics om krachtige analyses en optimalisatiemogelijkheden voor uw organisatie te creëren.
 keywords: AppFigures
 title: appFigures Data Connector voor Adobe Analytics
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 11%
 
 ---
 
 
 # appFigures Data Connector voor Adobe Analytics{#appfigures-data-connector-for-adobe-analytics}
 
-Deze integratie van Adobe-gegevensconnectors combineert de kracht van de geïntegreerde analytische gegevens van de AppFigures-winkel voor mobiele apparaten en het rechtstreeks bijhouden van apps voor Adobe Analytics om krachtige analysemogelijkheden en optimalisatiemogelijkheden voor uw organisatie te creëren.
+>[!IMPORTANT]
+>
+>Medio tot eind 2021 zullen we de Adobe Data Connector-technologie volledig benutten. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
+
+Deze integratie van Adobe-gegevensconnectors combineert de kracht van de geïntegreerde analytische gegevens van de AppFigures-winkel voor mobiele apparaten en het rechtstreeks bijhouden van apps voor Adobe Analytics om krachtige analyses en optimalisatiemogelijkheden voor uw organisatie te creëren.
 
 In de wereld van mobiele apps zijn de belangrijkste prestatiewaarden verdeeld over twee gegevenssets:
 
 * Het gebruikersgedrag dat u rechtstreeks kunt bijhouden.
 * De activiteit is alleen zichtbaar voor de App-winkels.
 
-Door deze twee gegevenssets van Analytics te combineren, kunt u een volledig beeld hebben van hoe uw apps waarde voor uw organisatie creëren.
+Door deze twee Analytics-gegevenssets te combineren, kunt u een volledig beeld krijgen van hoe uw apps waarde creëren voor uw organisatie.
 
 ## Belangrijke voordelen en functies{#key-benefits-and-features}
 
@@ -32,5 +39,5 @@ Deze integratie biedt de volgende belangrijke voordelen.
 
 * [Voordat u deze integratie activeert](appfigures-before-activation.md)
 * [De integratie configureren](t-appfigures-integration.md)
-* [Metriek en afmetingen](appfigures-metrics.md)
+* [Statistieken en dimensies](appfigures-metrics.md)
 * [Toepassingsgegevens segmenteren](appfigures-segment-filter.md)
