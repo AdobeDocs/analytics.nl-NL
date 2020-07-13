@@ -3,8 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Handleiding voor importeren van analysemogelijkheden
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: 61da40f8b2c95b0ce34543ac0ff8b4cf598adb2f
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 99%
 
 ---
 
@@ -38,6 +41,7 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 + [API voor gegevensinvoer](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Aan de slag met Analytics Data Connectors](data-connectors/getting-started-data-connectors.md)
+   + [Einde van levensduur voor Analytics Data Connectors](data-connectors/data-connectors-eol.md)
    + appFigures Data Connector voor Adobe Analytics {#appfigures}
       + [appFigures - overzicht](data-connectors/appfigures-overview/appfigures-overview.md)
       + [Voordat u deze integratie activeert](data-connectors/appfigures-overview/appfigures-before-activation.md)
