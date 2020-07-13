@@ -2,9 +2,9 @@
 description: Leer over wanneer en waarom de gegevensschakelaars van Analytics eind-van-tiled zullen zijn.
 title: Vooraankondiging van einde van levensduur voor Analytics-gegevensconnectors
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 7a6337efdbf08d31f2e2c632b57c781d0b566828
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,6 @@ De officiële einddatum moet nog worden vastgesteld, maar we verwachten dat deze
 
 ## Hoe beïnvloedt het verwijderen van deze functie u?
 
-Als u een Adobe-partner bent, krijgt u de kans om ons te vertellen of u uw integratie wilt migreren of beëindigen.
+Als u een Adobe-partner bent, krijgt u de kans om ons te vertellen of u uw integratie wilt migreren of beëindigen. Meer informatie over het migreren van uw integratie naar ons nieuwe Adobe Exchange-programma vindt u [hier](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) in onze documentatie.
 
 Als u een klant van de Verbinding van Gegevens bent en wilt verzoeken dat de integratie u gebruikt zou moeten worden gemigreerd, zou u alle verzoeken rechtstreeks aan de Partner van de Integratie moeten leiden. Het verzenden van een aanvraag naar Adobe via de klantenservice heeft niet hetzelfde gewenste effect.
