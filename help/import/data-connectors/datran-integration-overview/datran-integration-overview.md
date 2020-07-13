@@ -3,16 +3,23 @@ description: Deze e-mailintegratie van Adobe® Data Connectors combineert gedrag
 title: Datran Data Connector voor Adobe Analytics
 uuid: f97655c4-9623-4d06-a3c6-894246eba80f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '954'
+ht-degree: 1%
 
 ---
 
 
 # Datran Data Connector voor Adobe Analytics {#datran-data-connector-for-adobe-analytics}
 
+>[!IMPORTANT]
+>
+>Medio tot eind 2021 zullen we de Adobe Data Connector-technologie volledig benutten. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
+
 Deze e-mailintegratie van Adobe® Data Connectors combineert gedragsinformatie van Adobe Analytics® met Datran e-mailmarketing om een krachtig hulpmiddel te creëren om succesmeting en doelpubliek opnieuw te definiëren met meer relevant overseinen.
 
-Het leveren van relevante e-mailberichten aan deze marktsegmenten kan in volledig nieuwe opbrengstkansen resulteren, die tot verhoogde omzetting en opbrengst onder nieuwe en bestaande e-mailcampagnes leiden. Het leveren van relevante e-mailberichten op basis van producten die tijdens een bezoek zijn bekeken of producten die in een verlaten winkelwagentje zijn achtergelaten, heeft bijvoorbeeld een dramatische invloed op de inkomsten, met minimale gevolgen voor de kosten, omdat dit alleen maar leidt tot het benutten van bezoekers die uw site al krijgt. Deze verhoging van de marketingefficiëntie is een van de belangrijkste voordelen van de integratie van Adobe Analytics met Datran. Bovendien worden de e-mailgegevens door deze integratie zo vaak als u wilt automatisch gesynchroniseerd met de gegevens van Adobe Analytics voor closed-loop rapportage.
+Het leveren van relevante e-mailberichten aan deze marktsegmenten kan in volledig nieuwe opbrengstkansen resulteren, die tot verhoogde omzetting en opbrengst onder nieuwe en bestaande e-mailcampagnes leiden. Het leveren van relevante e-mailberichten op basis van producten die tijdens een bezoek zijn bekeken of producten die in een verlaten winkelwagentje zijn achtergelaten, heeft bijvoorbeeld een dramatische invloed op de inkomsten, met minimale gevolgen voor de kosten, omdat dit alleen maar leidt tot het benutten van bezoekers die uw site al krijgt. Deze verhoging van de marketingefficiëntie is een van de belangrijkste voordelen van de integratie van Adobe Analytics met Datran. Bovendien worden met deze integratie de e-mailgegevens automatisch gesynchroniseerd met Adobe Analytics-gegevens zo vaak als u wilt voor closed-loop rapportage.
 
 ## Belangrijkste voordelen{#key-benefits}
 
@@ -83,7 +90,7 @@ Lees de volgende informatie over deze integratie van Data Connectors in verband 
 
 * **rapportsuite specifiek:** Wees erop gewezen dat deze integratie specifiek is voor de rapportsuite. Zorg ervoor dat u de gewenste rapportsuite hebt geselecteerd voordat u de integratie activeert.
 * **Geautoriseerde vertegenwoordiger:** Houd er rekening mee dat het inschakelen van deze integratie ertoe kan leiden dat uw bedrijf kosten aanrekent in overeenstemming met uw serviceovereenkomst met Adobe, Inc. of uw serviceovereenkomst met een van de vertrouwde partners van Adobe, al naargelang het geval. Door deze integratie te activeren, vertegenwoordigt u hierbij dat u een gemachtigde vertegenwoordiger van uw bedrijf bent; en als zodanig stemt uw bedrijf ermee in de eventuele kosten te betalen die in de hierboven beschreven serviceovereenkomst zijn vermeld.
-* **Omniture Data Warehouse™:** Deze integratie vereist Data Warehouse om worden toegelaten om remarketing segmenten te produceren. Als u het Data Warehouse niet hebt ingeschakeld, neemt u contact op met Adobe voor meer informatie.
+* **Omniture Data warehouse™:** Deze integratie vereist Data warehouse om remarketing segmenten te produceren worden toegelaten. Als u de Data warehouse niet hebt ingeschakeld, neemt u contact op met Adobe voor meer informatie.
 * **Ontvanger-id:** Voor de integratie is het nodig dat we een &quot;Bezoeker-id&quot; vastleggen en opslaan in een Adobe Analytics-variabele (eVar). De bezoekersidentiteitskaart (die vaak als &quot;Ontvangersidentiteitskaart&quot;wordt bedoeld) is een gecodeerde of numerieke vertegenwoordiging van een e-mailadres van het systeem van de Datran. Deze &quot;Ontvanger-id&quot; is gekoppeld aan het gedrag van een downstreambezoeker op de site (winkels, aankopen, enz.) die in het Datran-systeem wordt opgenomen en voor hermarketingdoeleinden kan worden gebruikt. Als deel van het opstellingsproces, moet u eVar voor dit doel identificeren wanneer ertoe aangezet door de Tovenaar.
 * **Externe tracering:** Als u momenteel niet de beste praktijken van het toelaten van externe het volgen voor elke e-mailcampagne volgt u verzendt, moet u dit doen om een succesvolle integratie te verzekeren. Zie de sectie Datran hieronder voor meer informatie.
 * **Privacy-compatibiliteit:** Als u de functie voor het bijhouden van de identiteit van de ontvanger of de bezoeker inschakelt, worden hiermee persoonlijke identificeerbare gegevens van uw sitebezoekers mogelijk bijgehouden. Dit heeft gevolgen voor de persoonlijke levenssfeer en vereist de implementatie van de juiste procedures door uw organisatie, zoals kennisgeving aan en toestemming van uw sitebezoekers.
