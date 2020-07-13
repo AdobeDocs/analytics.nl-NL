@@ -3,24 +3,29 @@ description: Beschrijft de marketing efficiency die door de integratie wordt ber
 title: Lyris Data Connector voor Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1051'
+ht-degree: 2%
 
 ---
 
 
 # Lyris Data Connector voor Adobe Analytics{#lyris-data-connector-for-adobe-analytics}
 
-Beschrijft de marketing efficiency die door de integratie wordt bereikt.
+>[!IMPORTANT]
+>
+>Medio tot eind 2021 zullen we de Adobe Data Connector-technologie volledig benutten. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
 
 De e-mailintegratie van Adobe® Data Connectors™ combineert gedragsinformatie van Adobe Analytics met de e-mailmarketing van Lyris om succesmeting en doelpubliek opnieuw te definiëren met meer relevante berichten.
 
 Het leveren van relevante e-mailberichten aan deze marktsegmenten kan in volledig nieuwe opbrengstkansen resulteren, die tot verhoogde omzetting en opbrengst onder nieuwe en bestaande e-mailcampagnes leiden. Het leveren van relevante e-mailberichten op basis van producten die tijdens een bezoek zijn bekeken of producten die in een verlaten winkelwagentje zijn achtergelaten, heeft bijvoorbeeld een dramatische invloed op de inkomsten, met minimale gevolgen voor de kosten, omdat dit alleen maar leidt tot het benutten van bezoekers die uw site al krijgt.
 
-Deze verhoging van de marketingefficiëntie is een van de belangrijkste voordelen van de integratie van Adobe Analytics met Lyris. Bovendien worden de e-mailgegevens door deze integratie zo vaak als u wilt automatisch gesynchroniseerd met de gegevens van Adobe Analytics voor closed-loop rapportage.
+Deze verhoging van de marketingefficiëntie is een van de belangrijkste voordelen van de integratie van Adobe Analytics met Lyris. Bovendien worden met deze integratie de e-mailgegevens automatisch gesynchroniseerd met Adobe Analytics-gegevens zo vaak als u wilt voor closed-loop rapportage.
 
 ## Belangrijke voordelen en functies{#key-benefits-and-features}
 
-Hierin worden de belangrijkste voordelen beschreven van de integratie van Lyris en Adobe Marketing Reports en Analytics.
+Hierin worden de belangrijkste voordelen van de integratie van Lyris en Adobe-Marketing reports and analytics beschreven.
 
 De integratie van Lyris en Adobe Analytics biedt de volgende belangrijke voordelen:
 
@@ -48,11 +53,11 @@ Dit zorgt ervoor dat de juiste beste praktijken en voorwaarden aanwezig zijn voo
 ### Vereisten voor Adobe Analytics {#section-ddb9d4f3b283438ea33788f47f35e69a}
 
 * **rapportsuite specifiek**: Houd er rekening mee dat deze integratie specifiek is voor rapporten. Zorg ervoor dat u de gewenste rapportsuite hebt geselecteerd voordat u de integratie activeert
-* **Beschikbare en geconfigureerde analytische variabelen**: Voor deze integratie zijn aangepaste gebeurtenissen en aangepaste eVars en eventueel aanvullende gebeurtenissen en extra eVars vereist.
+* **Beschikbare en geconfigureerde Analytics-variabelen**: Voor deze integratie zijn aangepaste gebeurtenissen en aangepaste eVars en eventueel aanvullende gebeurtenissen en extra eVars vereist.
 
 * **Geautoriseerde vertegenwoordiger**: Houd er rekening mee dat het inschakelen van deze integratie ertoe kan leiden dat uw bedrijf kosten aanrekent in overeenstemming met uw serviceovereenkomst met Adobe, Inc. of uw serviceovereenkomst met een van de vertrouwde partners van Adobe, al naargelang het geval. Door deze integratie te activeren, vertegenwoordigt u hierbij dat u een gemachtigde vertegenwoordiger van uw bedrijf bent; en als zodanig stemt uw bedrijf ermee in de eventuele kosten te betalen die in de hierboven beschreven serviceovereenkomst zijn vermeld.
-* **Adobe Analytics-gegevenspakhuis**: Voor deze integratie moet Adobe Analytics-gegevenspakhuis zijn ingeschakeld om opnieuw op de markt gebrachte segmenten te genereren. Neem contact op met Adobe voor meer informatie als u het gegevensentrepot niet hebt ingeschakeld.
-* **Ontvanger-id**: De integratie vereist dat wij een &quot;Bezoeker ID&quot;binnen een variabele van de Analyse (eVar) vangen en opslaan. De bezoeker-id (vaak de &quot;Ontvanger-id&quot; genoemd) is een gecodeerde of numerieke weergave van een e-mailadres van het Lyris-systeem. Deze &quot;Ontvanger-id&quot; is gekoppeld aan het gedrag van een downstreambezoeker op de site (winkels, aankopen, enz.) die weer in het Lyris-systeem wordt opgenomen en voor hermarketingdoeleinden kan worden gebruikt. Als deel van het opstellingsproces, moet u eVar voor dit doel identificeren wanneer ertoe aangezet door de Tovenaar.
+* **Adobe Analytics data warehouse**: Voor deze integratie moet Adobe Analytics data warehouse zijn ingeschakeld om opnieuw op de markt gebrachte segmenten te kunnen genereren. Als u data warehouse niet hebt ingeschakeld, neemt u contact op met Adobe voor meer informatie.
+* **Ontvanger-id**: De integratie vereist dat we een &quot;Bezoeker-id&quot; vastleggen en opslaan in een Analytics-variabele (eVar). De bezoeker-id (vaak de &quot;Ontvanger-id&quot; genoemd) is een gecodeerde of numerieke weergave van een e-mailadres van het Lyris-systeem. Deze &quot;Ontvanger-id&quot; is gekoppeld aan het gedrag van een downstreambezoeker op de site (winkels, aankopen, enz.) die weer in het Lyris-systeem wordt opgenomen en voor hermarketingdoeleinden kan worden gebruikt. Als deel van het opstellingsproces, moet u eVar voor dit doel identificeren wanneer ertoe aangezet door de Tovenaar.
 * **Externe tracering**: Als u momenteel niet de beste praktijken van het toelaten van externe het volgen voor elke e-mailcampagne volgt u verzendt, moet u dit doen om een succesvolle integratie te verzekeren. Zie de sectie Lyris hieronder voor meer informatie
 * **Privacy-compatibiliteit**: Als u de functie voor het bijhouden van de identiteit van de ontvanger of de bezoeker inschakelt, worden hiermee persoonlijke identificeerbare gegevens van uw sitebezoekers mogelijk bijgehouden. Dit heeft gevolgen voor de privacy en vereist de implementatie van de juiste procedures door uw organisatie, zoals kennisgeving aan en toestemming van uw sitebezoekers.
 
@@ -90,7 +95,7 @@ Deze integratie vereist minstens twee eVars die voor elke implementatie van de r
   </tr> 
   <tr> 
    <td colname="col1"> eVar </td> 
-   <td colname="col2"> E-mailontvanger-id </td> 
+   <td colname="col2"> E-mailontvangers-id </td> 
    <td colname="col3"> Om de anonieme identificatie voor uw klant te vangen die de e-mailcampagne klikte </td> 
    <td colname="col4"> <p>Status: Ingeschakeld </p> <p>Toewijzing: Recentste </p> <p>Verlopen na: "Bedrijfsbesluit" </p> </td> 
   </tr> 
