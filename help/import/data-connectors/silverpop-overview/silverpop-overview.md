@@ -3,18 +3,25 @@ description: Deze e-mailintegratie van Adobe® Data Connectors™ combineert ged
 title: Silverpop Data Connector voor Adobe Analytics
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
 
 # Silverpop Data Connector voor Adobe Analytics{#silverpop-data-connector-for-adobe-analytics}
 
+>[!IMPORTANT]
+>
+>Medio tot eind 2021 zullen we de Adobe Data Connector-technologie volledig benutten. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
+
 Deze e-mailintegratie van Adobe® Data Connectors™ combineert gedragsinformatie van Analytics® met Silverpop e-mailmarketing om een krachtig hulpmiddel te creëren om succesmeting en doelpubliek opnieuw te definiëren met meer relevant overseinen.
 
 Het leveren van relevante e-mailberichten aan deze marktsegmenten kan in volledig nieuwe opbrengstkansen resulteren, die tot verhoogde omzetting en opbrengst onder nieuwe en bestaande e-mailcampagnes leiden. Het leveren van relevante e-mailberichten op basis van producten die tijdens een bezoek zijn bekeken of producten die in een verlaten winkelwagentje zijn achtergelaten, heeft bijvoorbeeld een dramatische invloed op de inkomsten, met minimale gevolgen voor de kosten, omdat dit alleen maar leidt tot het benutten van bezoekers die uw site al krijgt.
 
-Deze verhoging van marketing efficiency is één van de belangrijkste voordelen om Analytics met Silverpop te integreren. Bovendien zal deze integratie e-mailmetriek automatisch synchroniseren met Analytische gegevens zo vaak als uur voor closed-loop rapportering.
+Deze verhoging van de marketingefficiëntie is een van de belangrijkste voordelen van de integratie van Analytics met Silverpop. Bovendien worden met deze integratie de e-mailgegevens automatisch gesynchroniseerd met Analytics-gegevens zo vaak als u wilt voor closed-loop rapportage.
 
 ## Belangrijke voordelen en functies{#key-benefits-and-features}
 
