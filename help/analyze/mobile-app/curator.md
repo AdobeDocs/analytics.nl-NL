@@ -2,9 +2,9 @@
 description: Instructies voor het instellen van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboardcurator
 translation-type: tm+mt
-source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
+source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2301'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Het scorebordsjabloon implementeren:
 
    Wanneer u op een tegel in de Scorecard Builder klikt, toont het rechtse spoor de eigenschappen en de kenmerken verbonden aan die tegel. In dit spoor, kunt u een nieuwe **Titel** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
 
-   Als u op tegels klikt, wordt in een dynamische pop-up ook weergegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen dimensie is toegepast op de tegel, is de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
+   Als u op tegels klikt, wordt bovendien een dynamische pop-up weergegeven waarin wordt aangegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen dimensie is toegepast op de tegel, is de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
 
    ![Onderverdeling_weergave](assets/break_view.png)
 
@@ -149,7 +149,7 @@ U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
 Nadat u een scorebord hebt gedeeld, kunnen uw ontvangers het op hun dashboards van Analytics toegang hebben. Als u daarna veranderingen in het Scorecard in de Scorecard Bouwer aanbrengt, zullen zij automatisch in het gedeelde Scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het Scorecard op hun app verfrist.
 
-Als u het Scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u de scorecard opnieuw willen delen (en de optie **Automatisch ingebedde componenten met ontvangers** delen) om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.
+Als u het Scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u de scorecard opnieuw willen delen (en de optie **Deel ingebedde componenten** ) om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.
 
 ## Uitvoerende gebruikers instellen met de app
 
@@ -163,7 +163,7 @@ Om uitvoerende gebruikers te helpen tot uw Scorecards op app toegang hebben, zor
 * Ze hebben een geldige aanmelding bij Adobe Analytics
 * U hebt op de juiste wijze mobiele scoreborden voor hen gemaakt en deze scoreborden met hen gedeeld
 * Ze hebben toegang tot Analysis Workspace en de rapportensuite waarop het scorebord is gebaseerd
-* Zij hebben toegang tot de Componenten die het Scorecard omvat. U kunt een optie selecteren bij het delen van uw Scorecards om ingesloten componenten **automatisch te delen met ontvangers**.
+* Zij hebben toegang tot de Componenten die het Scorecard omvat. U kunt een optie selecteren bij het delen van uw Scorecards om ingesloten componenten **te** delen.
 
 ### Help uitvoerende gebruikers met de app
 
