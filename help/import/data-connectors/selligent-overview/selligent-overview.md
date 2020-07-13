@@ -3,12 +3,19 @@ description: 'null'
 title: Slimme gegevensconnector voor Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '891'
+ht-degree: 2%
 
 ---
 
 
 # Slimme gegevensconnector voor Adobe Analytics{#selligent-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>Medio tot eind 2021 zullen we de Adobe Data Connector-technologie volledig benutten. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
 
 Deze integratie omvat de volgende belangrijke voordelen:
 
@@ -27,7 +34,7 @@ Deze e-mailintegratie ondersteunt dynamische marketingsegmenten om uw bedrijf te
 | **Gedragsprofiel van product-/inhoudsweergave** | Bereik potentiële klanten door marketing segmenten die op productmeningen en inhoud toegang profiling worden gebaseerd. |
 | **Aangepaste remarketing-segmenten** | De klanten kunnen douane ook tot stand brengen en plannen hermarketing segmenten specifiek voor de behoeften van hun gebruikers. |
 
-## Voordat u deze integratie activeert{#before-you-activate-this-integration}
+## Before you Activate this Integration{#before-you-activate-this-integration}
 
 Voordat u deze integratie activeert, moet u de volgende items controleren op uw implementatie van Adobe Analytics en uw e-mailsoftware.
 
@@ -35,19 +42,19 @@ Dit zorgt ervoor dat de juiste beste praktijken en voorwaarden aanwezig zijn voo
 
 ## Vereisten voor Adobe Analytics{#prerequisites-for-adobe-analytics}
 
-Hier worden de vereiste acties weergegeven die moeten worden uitgevoerd in Adobe Analytics voordat u de integratie kunt implementeren.
+Hier worden de acties weergegeven die u moet uitvoeren in Adobe Analytics voordat u de integratie kunt implementeren.
 
 | Vereiste | Notities |
 |---|---|
 | Rapportsuite selecteren | Houd er rekening mee dat deze integratie specifiek is voor rapporten. Zorg ervoor dat u de gewenste rapportsuite hebt geselecteerd voordat u de integratie activeert. |
-| Analysevariabelen configureren | Voor deze integratie zijn aangepaste gebeurtenissen en aangepaste eVars en eventueel aanvullende gebeurtenissen en extra eVars vereist. Zie Analytische variabelen configureren voor Selectief. |
+| Analytics-variabelen configureren | Voor deze integratie zijn aangepaste gebeurtenissen en aangepaste eVars en eventueel aanvullende gebeurtenissen en extra eVars vereist. Zie Analytics-variabelen configureren voor selligent. |
 | Geautoriseerde vertegenwoordiger | Houd er rekening mee dat het inschakelen van deze integratie ertoe kan leiden dat uw bedrijf kosten aanrekent in overeenstemming met uw serviceovereenkomst met Adobe, Inc. of uw serviceovereenkomst met een van de vertrouwde partners van Adobe, al naargelang het geval. Door deze integratie te activeren, vertegenwoordigt u hierbij dat u een gemachtigde vertegenwoordiger van uw bedrijf bent; en als zodanig stemt uw bedrijf ermee in de eventuele kosten te betalen die in de hierboven beschreven serviceovereenkomst zijn vermeld. |
-| Adobe Data Warehouse™ inschakelen | Deze integratie vereist het Pakhuis van Gegevens worden toegelaten om remarketing segmenten te produceren. Als u het Adobe Data Warehouse niet hebt ingeschakeld, neemt u contact op met Adobe voor meer informatie. |
-| Ontvanger-id | De integratie vereist dat wij een &quot;Bezoeker ID&quot;binnen een variabele van de Analyse (eVar) vangen en opslaan. De bezoekersidentiteitskaart (die vaak als &quot;Ontvangersidentiteitskaart&quot;wordt bedoeld) is een gecodeerde of numerieke vertegenwoordiging van een e-mailadres van het Te kiezen systeem. Deze &quot;Ontvanger-id&quot; is gekoppeld aan het gedrag van een downstreambezoeker op de site (winkels, aankopen, enz.) die weer in het systeem van Selligent wordt opgenomen en voor hermarketingdoeleinden kan worden gebruikt. Als deel van het opstellingsproces, moet u eVar voor dit doel identificeren wanneer ertoe aangezet door de Tovenaar. |
+| Adobe Data warehouse™ inschakelen | Deze integratie vereist dat de Data warehouse wordt toegelaten om remarketing segmenten te produceren. Als u de Adobe Data warehouse niet hebt ingeschakeld, neemt u contact op met Adobe voor meer informatie. |
+| Ontvangers-id | De integratie vereist dat we een &quot;Bezoeker-id&quot; vastleggen en opslaan in een Analytics-variabele (eVar). De bezoekersidentiteitskaart (die vaak als &quot;Ontvangersidentiteitskaart&quot;wordt bedoeld) is een gecodeerde of numerieke vertegenwoordiging van een e-mailadres van het Te kiezen systeem. Deze &quot;Ontvanger-id&quot; is gekoppeld aan het gedrag van een downstreambezoeker op de site (winkels, aankopen, enz.) die weer in het systeem van Selligent wordt opgenomen en voor hermarketingdoeleinden kan worden gebruikt. Als deel van het opstellingsproces, moet u eVar voor dit doel identificeren wanneer ertoe aangezet door de Tovenaar. |
 | Extern bijhouden | Als u momenteel niet de beste praktijken van het toelaten van externe het volgen voor elke e-mailcampagne volgt u verzendt, moet u dit doen om een succesvolle integratie te verzekeren. Zie de sectie Selecteren hieronder voor meer informatie. |
 | Privacynaleving | Als u de functie voor het bijhouden van de identiteit van de ontvanger of de bezoeker inschakelt, worden hiermee persoonlijke identificeerbare gegevens van uw sitebezoekers mogelijk bijgehouden. Dit heeft gevolgen voor de persoonlijke levenssfeer en vereist de implementatie van de juiste procedures door uw organisatie, zoals kennisgeving aan en toestemming van uw sitebezoekers. |
 
-## Analysevariabelen configureren voor kiezen{#configure-analytics-variables-for-selligent}
+## Analytics-variabelen configureren voor selectie{#configure-analytics-variables-for-selligent}
 
 Deze integratie vereist 2 eVars die voor elke implementatie van de rapportreeks worden gereserveerd.
 
@@ -71,7 +78,7 @@ Naast deze eVars kunnen enkele gebeurtenissen worden gereserveerd, afhankelijk v
   </tr> 
   <tr> 
    <td colname="col1"> eV ar </td> 
-   <td colname="col2"> Ontvanger-id </td> 
+   <td colname="col2"> Ontvangers-id </td> 
    <td colname="col3"> Om de anonieme identificatie voor uw klant te vangen die de e-mailcampagne klikte. </td> 
    <td colname="col4"> <p><b>Status</b>: Ingeschakeld </p> <p><b>Toewijzing</b>: Recentste </p> <p><b>Verlopen na</b>: "Bedrijfsbesluit" </p> </td> 
   </tr> 
