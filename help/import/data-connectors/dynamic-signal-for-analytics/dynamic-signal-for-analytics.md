@@ -3,14 +3,21 @@ description: 'null'
 title: Dynamic Signal VoiceStorm Data Connector voor Adobe Analytics
 uuid: 270b33f5-ea9f-4ab3-ba3e-de41a9e6ff7a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 8%
 
 ---
 
 
 # Dynamic Signal VoiceStorm Data Connector voor Adobe Analytics{#dynamic-signal-voicestorm-data-connector-for-adobe-analytics}
 
-Deze integratie van Adobe® Data Connectors combineert de door mensen aangedreven marketingmogelijkheden van het Dynamic Signal VoiceStorm-platform met de inzichten van de digitale ervaring van Adobe Analytics. Het resultaat is een krachtige nieuwe analysemogelijkheid en optimaliseringsmogelijkheid.
+>[!IMPORTANT]
+>
+>Medio tot eind 2021 zullen we de Adobe Data Connector-technologie volledig benutten. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
+
+Deze integratie van Adobe® Data Connectors combineert de door mensen aangedreven marketingmogelijkheden van het Dynamic Signal VoiceStorm-Platform met de inzichten van de digitale ervaring van Adobe Analytics. Het resultaat is een krachtige nieuwe analysemogelijkheid en optimaliseringsmogelijkheid.
 
 Aangezien uw werknemers en klanten uw merk door VoiceStorm bevorderen, zullen zij resultaten terug naar uw eigen Webervaringen drijven. U kunt de opkomst van deze activiteiten nu meten aan de hand van een geïntegreerde oplossing voor bijhouden en rapporteren in Adobe Analytics.
 
@@ -19,7 +26,7 @@ Aangezien uw werknemers en klanten uw merk door VoiceStorm bevorderen, zullen zi
 Omvat de hoogste 3 voordelen van Dynamische Signal VoiceStorm.
 
 * Vereenvoudigde workflow door het automatisch genereren van code voor inhoud die via VoiceStorm wordt gedeeld.
-* Automatisch dagelijks synchroniseren van de afmetingen van VoiceStorm-inhoud tussen en Adobe Analytics.
+* Automatisch dagelijks synchroniseren van de afmetingen van VoiceStorm-inhoud tussen Adobe en Adobe Analytics.
 * Nieuwe rapportage over verkeer en conversie die rechtstreeks wordt toegeschreven aan welke inhoud, auteurs en uitgevers uw merk actief promoten.
 
 ## Integratievereisten{#integration-prerequisites}
