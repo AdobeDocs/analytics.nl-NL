@@ -3,12 +3,19 @@ description: Deze e-mailintegratie van Adobe® Data Connectors™ combineert ged
 title: Neolane Ozon Data Connector voor Adobe Analytics
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 2%
 
 ---
 
 
 # Neolane Ozon Data Connector voor Adobe Analytics{#neolane-ozon-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>Medio tot eind 2021 zullen we de Adobe Data Connector-technologie volledig benutten. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
 
 Deze e-mailintegratie van Adobe® Data Connectors™ combineert gedragsinformatie van Adobe Analytics® met e-mailmarketing om een krachtig hulpmiddel te creëren om succesmeting en doelpubliek opnieuw te definiëren met meer relevant overseinen.
 
@@ -37,12 +44,12 @@ Deze integratie kenmerkt de volgende dynamische marketing segmenten:
 
 Voordat u de integratie van gegevensconnectors start voor, moet u aan de volgende vereisten voldoen:
 
-### Vereisten voor Adobe Analytics {#section-960e70fd2eae4a1cb88a2e4b53a97313}
+### Adobe Analytics-vereisten {#section-960e70fd2eae4a1cb88a2e4b53a97313}
 
 * **rapportsuite specifiek:** Wees erop gewezen dat deze integratie specifiek is voor de rapportsuite. Zorg ervoor dat u de gewenste rapportsuite hebt geselecteerd voordat u de integratie activeert.
 * **Beschikbare en geconfigureerde Adobe Analytics-variabelen:** Voor deze integratie zijn aangepaste gebeurtenissen en aangepaste eVars en eventueel aanvullende gebeurtenissen en extra eVars vereist.
 * **Geautoriseerde vertegenwoordiger:** Houd er rekening mee dat het inschakelen van deze integratie ertoe kan leiden dat uw bedrijf kosten aanrekent in overeenstemming met uw serviceovereenkomst met Adobe, Inc. of uw serviceovereenkomst met een van de vertrouwde partners van Adobe, al naargelang het geval. Door deze integratie te activeren, vertegenwoordigt u hierbij dat u een gemachtigde vertegenwoordiger van uw bedrijf bent; en als zodanig stemt uw bedrijf ermee in de eventuele kosten te betalen die in de hierboven beschreven serviceovereenkomst zijn vermeld.
-* **Data Warehouse™:** Deze integratie vereist Data Warehouse om worden toegelaten om remarketing segmenten te produceren. Als u Data Warehouse niet hebt ingeschakeld, neemt u contact op met Adobe voor meer informatie.
+* **Data warehouse™:** Deze integratie vereist Data warehouse om remarketing segmenten te produceren worden toegelaten. Als u Data warehouse niet hebt ingeschakeld, neemt u contact op met Adobe voor meer informatie.
 * **`[~Partner~]`:**De integratie vereist dat we een &#39;`[~Partner~]`&#39; vastleggen en opslaan in een Adobe Analytics-variabele (eVar). Deze id is een gecodeerde of numerieke weergave van een e-mailadres van het`[~Partner~]`systeem. Deze &quot;[!DNL ~Partner~]&quot; is gekoppeld aan het gedrag van downstreambezoekers op de site (winkels, aankopen, enz.) dat in het`[~Partner~]`systeem wordt opgenomen en voor hermarketingdoeleinden kan worden gebruikt. Als deel van het opstellingsproces, moet u eVar voor dit doel identificeren wanneer ertoe aangezet door de Tovenaar.
 * **Externe tracering:** Als u momenteel niet de beste praktijken van het toelaten van externe het volgen voor elke e-mailcampagne volgt u verzendt, moet u dit doen om een succesvolle integratie te verzekeren. Zie de `[~Partner~]` onderstaande sectie voor meer informatie.
 * **Privacy-compatibiliteit:** Als u de functie voor het bijhouden van de identiteit van de ontvanger of de bezoeker inschakelt, worden hiermee persoonlijke identificeerbare gegevens van uw sitebezoekers mogelijk bijgehouden. Dit heeft gevolgen voor de persoonlijke levenssfeer en vereist de implementatie van de juiste procedures door uw organisatie, zoals kennisgeving aan en toestemming van uw sitebezoekers.
@@ -57,6 +64,6 @@ Door deze integratie te activeren, vertegenwoordigt u hierbij dat u een gemachti
 
 Er kunnen terugkerende en implementatiekosten verbonden aan deze integratie zijn, met inbegrip van kosten voor een verhoogd aantal servervraag die door deze integratie wordt gemaakt. Neem contact op met uw Adobe-accountvertegenwoordiger voor prijsgegevens.
 
-### ~Prijsoverwegingen voor partners~{#section-f8ca71df32224412a5101efb6e356529}
+### ~Prijsoverwegingen voor partners~ {#section-f8ca71df32224412a5101efb6e356529}
 
 Aan deze integratie kunnen terugkerende kosten en implementatiekosten verbonden zijn. Neem contact op met `[~Partner~]` voor prijsgegevens.
