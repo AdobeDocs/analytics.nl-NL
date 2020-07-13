@@ -5,16 +5,23 @@ title: DFA Data Connector voor Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1727'
+ht-degree: 2%
 
 ---
 
 
 # DFA Data Connector voor Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
 
+>[!IMPORTANT]
+>
+>Medio tot eind 2021 zullen we de Adobe Data Connector-technologie volledig benutten. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
+
 In de steeds complexere en competitievere online markt van vandaag, moeten online adverteerders en agentschappen hun inzicht in de online marketing omgeving voortdurend verbeteren, en hun rendement op reclame-uitgaven. Hoewel adverteerders, agentschappen en uitgevers allemaal over afzonderlijke hulpmiddelen beschikken om deze doelstellingen te verwezenlijken, kan het handmatig verzamelen van gegevens uit verschillende gegevenssystemen en processen de doeltreffendheid van online marketingcampagnes ernstig belemmeren, wat leidt tot minder dan optimale campagneprestaties, gegevensdiscrepanties en verwarring.
 
-De integratie DoubleClick for Advertisers (DFA) lost dit probleem op door Adobe® Data Connectors™ te gebruiken, zodat Dubbelklik op DFA automatisch gegevens kan doorgeven aan Rapporten en Analytics.
+De integratie DoubleClick for Advertisers (DFA) lost dit probleem op door Adobe® Data Connectors™ te gebruiken, zodat Dubbelklik op DFA automatisch gegevens doorgeeft aan Reports &amp; Analytics.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**
 
@@ -26,14 +33,14 @@ Belangrijke voordelen van de gegevensconnector - DFA-integratie zijn:
 
 * **Meer conversie**: Geniet van richtingsinzicht voor het optimaliseren van plaatsing van advertentiecampagnes en on-site conversie op basis van gedrag en voorkeuren van bezoekers na klikken.
 * **Gedeelde locatie voor gegevens**: Combineer Dubbelklik DFA klik-door en mening - door gegevens met Rapporten &amp; Analytics om dwars-organisatorische samenwerking en capaciteit te verbeteren om objectieve besluiten te nemen.
-* **Analyse** van de toegevoegde waarde: Dankzij de geautomatiseerde integratie tussen DFA en Adobe Reports &amp; Analytics kunnen adverteerders en agentschappen minder tijd besteden aan het uitvoeren van gegevens en meer tijd aan het analyseren van rapporten en het ondernemen van actie.
+* **Analyse** van de toegevoegde waarde: Dankzij de geautomatiseerde integratie tussen DFA en Adobe Reports &amp; Analytics kunnen adverteerders en bureaus minder tijd besteden aan het uitvoeren van gegevensverwerkingsprocessen en meer tijd aan het analyseren van rapporten en het ondernemen van actie.
 * **Meer inzicht** van de klant: Meer inzicht krijgen in waar bezoekers vandaan komen en wat ze doen op uw site.
 * **Metrische gegevens** van levenssucces: Meet de effectiviteit van uw aanschafcampagnes gedurende de gehele levenscyclus van de bezoeker.
-* **Geïntegreerde rapportage**: Automatisch gegevens synchroniseren tussen DFA en Rapporten &amp; Analytics voor gestroomlijnde bedrijfsprocessen en rapportering.
+* **Geïntegreerde rapportage**: Automatisch gegevens synchroniseren tussen DFA en Reports &amp; Analytics voor gestroomlijnde bedrijfsprocessen en rapportage.
 * **Analyse** van de levertijdbezoeker: De campagnedoeltreffendheid van de meting door veelvoudige user-defined succesgebeurtenissen en levenwaarde.
 * **Kostencijfers**: Optimaliseer het rendement van investeringen door DFA-kostencijfers en de opbrengsten uit deze kosten in één enkel systeem te vergelijken.
 
-## Ad Serving Integration Overzicht{#ad-serving-integration-overview}
+## Ad Serving Integration Overview{#ad-serving-integration-overview}
 
 Er zijn verschillende manieren waarop deze integratie gegevens vastlegt over de ad-gedreven bezoeker. De eerste manier is door op een advertentie te klikken en aan te komen op een gelabelde bestemmingspagina, die een klik door wordt genoemd:
 
@@ -99,7 +106,7 @@ De volgende tabel geeft een overzicht van de functies in elke versie van de inte
 
 ### Informatie over versie 1.5 {#section-b5a3e967cfa141ea8f740612336181be}
 
-Versie 1.5 van de integratie introduceert de module Integrate aan de bestemmingspagina Java Script. Met de module Integrate kunt u aanvragen met een vaste grootte indienen bij de DFA-server (ad.doubleclick.net) die de beperkingen voor 2K-verzoeken van de vorige integratie overschrijdt. Er wordt ook een configureerbare time-out geïntroduceerd *`s.maxDelay`* om Adobe-bezoekersgegevens te blijven verzamelen wanneer er netwerkstoringen optreden. Fouten en time-outs kunnen ook worden vastgelegd in analytische variabelen.
+Versie 1.5 van de integratie introduceert de module Integrate aan de bestemmingspagina Java Script. Met de module Integrate kunt u aanvragen met een vaste grootte indienen bij de DFA-server (ad.doubleclick.net) die de beperkingen voor 2K-verzoeken van de vorige integratie overschrijdt. Er wordt ook een configureerbare time-out geïntroduceerd *`s.maxDelay`* om Adobe-bezoekersgegevens te blijven verzamelen wanneer er netwerkstoringen optreden. Fouten en time-outs kunnen ook worden vastgelegd in Analytics-variabelen.
 
 De volgende illustratie toont netwerkinteracties op de landingspagina in versie 1.5.
 
@@ -115,11 +122,11 @@ Een belangrijke functie van de nieuwe JavaScript-code is dat er geen implementat
 
 De recentste versie van de integratie DFA brengt gegevens voor een volledige Configuratie van de Vullinglight in de integratie. Vóór versie 2.0 waren de afzonderlijke integraties gekoppeld aan één DFA Advertiser. Met deze verandering, zullen de klikken, de Indrukking, en de metriek van de Kosten voor de volledige Configuratie van de Vullinglight in de geïntegreerde rapportreeks worden omvat. Het is ook mogelijk om dwars-plaats mening doorheen te volgen, wanneer die twee plaatsen binnen de zelfde Configuratie van het Vullingslicht zijn.
 
-De meetgegevens voor de mediadracht zijn ook beschikbaar vanaf versie 2.0 van de integratie. Om media kostenmetriek voor een integratie toe te laten, moet u een gebeurtenis van Rapporten &amp; van Analytics voor Media Kostprijs in de tovenaar van Genesis kiezen, evenals specificeren welke munt de metrische cijfers in de interface DFA zijn.
+De meetgegevens voor de mediadracht zijn ook beschikbaar vanaf versie 2.0 van de integratie. Om media kostenmetriek voor een integratie toe te laten, moet u een Gebeurtenis van Rapporten &amp; van Analytics voor Media Kosten in de tovenaar van Genesis kiezen, evenals specificeer welke munt de metrische cijfers in de interface DFA zijn.
 
 Verwacht wordt dat de time-outs zullen afnemen met de 2.0-integratie, aangezien de 302 omleidingen zijn geëlimineerd. Het elimineren van deze hop zou onderbrekingen moeten verminderen, en de hoeveelheid DFA gegevens verhogen u kunt integreren.
 
-Als een configuratie van de Vullinglight een gedeelde configuratie in DFA is, de verbetering van versie 1. 5 tot 2.0 zorgt ervoor dat conversiegegevens voor alle gedeelde adverteerders in de configuratie van de Vullingslamp worden opgenomen in de rapportsuite.
+Als een configuratie van de Vullinglight een gedeelde configuratie in DFA is, de verbetering van versie 1. 5 tot 2.0 zorgt ervoor dat conversiegegevens voor alle gedeelde adverteerders in de Floodlight-configuratie worden opgenomen in de rapportsuite.
 
 ### Bijwerken naar versie 2.0 {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
 
