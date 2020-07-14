@@ -2,9 +2,9 @@
 title: contextData
 description: Met contextgegevensvariabelen kunt u aangepaste variabelen definiëren op elke pagina die door verwerkingsregels kan worden gelezen.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 44ee19e468b9455c8c510421e507dd3f091fbc88
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## De verwerkingsregels van het gebruik om analysevariabelen te bevolken
 
->[!IMPORTANT]
->
->Contextgegevensvariabelen worden verwijderd nadat de verwerkingsregels zijn uitgevoerd. Als u geen verwerkingsregels hebt die waarden in variabelen plaatsen, worden die gegevens permanent verloren!
+>[!IMPORTANT] Contextgegevensvariabelen worden verwijderd nadat de verwerkingsregels zijn uitgevoerd. Als u geen verwerkingsregels hebt die waarden in variabelen plaatsen, worden die gegevens permanent verloren!
 
 1. Werk uw implementatie bij om namen en waarden voor de variabele van de contextgegevens in te stellen.
 2. Meld u aan bij Adobe Analytics en ga naar Beheer > Suites rapporteren.
@@ -55,4 +53,19 @@ De variabele met contextgegevens opnemen als een eigenschap van `contextData` in
 s.contextData["example_variable"] = "Example value";
 s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
+```
+
+## Incrementele gebeurtenissen met gebruik van contextgegevensvariabelen
+
+Wanneer u verwerkingsregels maakt, kunt u contextgegevensvariabelen aan gebeurtenissen toewijzen.
+
+* Als een contextgegevensvariabele tekst bevat, wordt de gebeurtenis met één verhoogd.
+* Als een contextgegevensvariabele een geheel getal bevat, wordt de waarde van het gehele getal verhoogd.
+
+```js
+// Assigning this context data variable to an event increments it by one
+s.contextData["example_text"] = "Text value";
+
+// Assigning this context data variable to an event increments it by four
+s.contextData["example_number"] = "4";
 ```
