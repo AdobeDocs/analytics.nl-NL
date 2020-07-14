@@ -2,7 +2,7 @@
 description: Instructies voor het instellen van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboardcurator
 translation-type: tm+mt
-source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
+source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 0%
@@ -145,7 +145,7 @@ U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
 3. Klik op **Delen**.
 
-![Share_Scorecards](assets/new_share.png)
+![Share_Scorecards](assets/new_share2.png)
 
 Nadat u een scorebord hebt gedeeld, kunnen uw ontvangers het op hun dashboards van Analytics toegang hebben. Als u daarna veranderingen in het Scorecard in de Scorecard Bouwer aanbrengt, zullen zij automatisch in het gedeelde Scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het Scorecard op hun app verfrist.
 
