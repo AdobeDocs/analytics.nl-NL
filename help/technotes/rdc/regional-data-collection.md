@@ -1,15 +1,22 @@
 ---
-title: Regionale gegevensverzameling
+title: Regionale dataverzameling
 description: Informatie over regionale gegevensverzameling
 translation-type: tm+mt
-source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
+source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 2%
 
 ---
 
 
-# Regionale gegevensverzameling
+# Regionale dataverzameling
 
 De Adobe Experience Cloud maakt gebruik van Regional Data Collection (RDC), zodat interactie tussen uw eindgebruikers en de Adobe Experience Cloud zo dicht mogelijk bij uw eindgebruikers plaatsvindt. Dit verbetert de prestaties van uw site/app en zorgt ervoor dat gegevens zo snel mogelijk worden verzameld om de gebruikerservaring te optimaliseren. Zodra de gegevens van uw digitale eigenschappen regionaal bij een Centrum van de Inzameling van Gegevens (DCC) worden verzameld, door:sturen over een veilige verbinding aan een Centrum van de Gegevensverwerking (DPC) waar het wordt verwerkt en ter beschikking gesteld aan producten in de Wolk van de Ervaring van Adobe.
+
+>[!IMPORTANT]
+>
+>Het China RDC (China Performance Optimization) Add-on Package is een oplaadbare invoegtoepassing voor Adobe Analytics. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk van de verandering):
 
@@ -19,7 +26,7 @@ De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk
 |---------------------|-------------------|
 | Standaard | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
 
-Opmerking: Als uw verzoek van het beeld van de Analyse naar `2o7.net` `omtdrc.net` of eindpunten wordt verzonden, dan hebt u derdegegevensinzameling. U kunt dit bepalen als u één van beide eindpunt in URL van uw verzoeken ziet.
+Opmerking: Als uw Analytics-verzoek voor een afbeelding naar de `2o7.net` `omtdrc.net` eindpunten of eindpunten wordt verzonden, worden gegevens van derden verzameld. U kunt dit bepalen als u één van beide eindpunt in URL van uw verzoeken ziet.
 
 ## First-party HTTPS gegevensinzameling
 
