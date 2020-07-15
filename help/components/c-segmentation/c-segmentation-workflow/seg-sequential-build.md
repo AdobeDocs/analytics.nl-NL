@@ -4,9 +4,9 @@ title: Opeenvolgende segmenten maken
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3b587a04ec2c0e358fde386ed5e1be4f9b77a881
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3688'
 ht-degree: 1%
 
 ---
@@ -179,7 +179,7 @@ De regels van het segment omvatten alle gegevens tenzij u specifiek uitsluitt [!
 
 Bijvoorbeeld:
 
-* **Pagina&#39;s** uitsluiten. Gebruik een segmentregel om een specifieke pagina (zoals *`Home Page`*) uit een rapport te verwijderen, een Hit-regel te maken waar de pagina staat voor &quot;Startpagina&quot; en deze vervolgens uit te sluiten. Deze regel bevat automatisch alle waarden behalve de startpagina.
+* **Pagina&#39;s** uitsluiten. Gebruik een segmentregel om een specifieke pagina (zoals *`Home Page`*) uit een rapport te verwijderen, een Hit-regel te maken waar de pagina gelijk is aan &quot;Startpagina&quot; en deze vervolgens uit te sluiten. Deze regel bevat automatisch alle waarden behalve de startpagina.
 * **Verwijzende domeinen** uitsluiten. Gebruik een regel die alleen verwijzende domeinen van Google.com omvat en alle andere uitsluit.
 * **Identificeer niet-kopers**. Identificeer wanneer de orden groter dan nul zijn en sluit dan uit [!UICONTROL Visitor].
 
@@ -262,9 +262,9 @@ Logische groepen lijken ontmoedigend. Hier volgen enkele aanbevolen procedures v
 Als u opeenvolgende controlepunten wilt groeperen, dan is uw &quot;container&quot;Logische Groep. Als deze opeenvolgende controlepunten echter moeten plaatsvinden binnen één druk- of bezoekbereik, is een &quot;hit&quot;- of &quot;visit&quot;-container vereist. (Natuurlijk heeft &#39;hit&#39; geen zin voor een groep opeenvolgende controlepunten, wanneer één hit niet meer dan één controlepunt mag crediteren).
 
 **Zijn Logische Groepen het samenstellen van opeenvolgende segmenten vereenvoudigen?**
-Ja, dat kunnen ze. Laten we aannemen dat u deze vraag probeert te beantwoorden: **Heeft een bezoeker pagina B, of pagina C, of pagina D na pagina A gezien?**
+Ja, dat kunnen ze. Laten we aannemen dat u dit segment bezoekers probeert te identificeren: **Bezoekers die pagina A bekeken, bekeken dan alle pagina&#39;s van B, C en D**
 
-U kunt dit segment maken zonder een container van de Logische Groep, maar het is complex en moeizaam:
+U kunt dit segment bouwen zonder een container van de Logische Groep, maar het is complex en moeizaam. U moet elke reeks pagina&#39;s opgeven die de bezoeker kan weergeven:
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
@@ -366,7 +366,7 @@ De duur wordt opgegeven met één hoofdletter die de granulariteit vertegenwoord
 
 | Operatoren | Beschrijving |
 |--- |--- |
-| NA | De After operator wordt gebruikt om een minimumlimiet op te geven voor de tijd tussen twee controlepunten. Wanneer het plaatsen van na waarden, zal de tijdslimiet beginnen wanneer het segment wordt toegepast. Bijvoorbeeld, als de Na exploitant op een container wordt geplaatst om bezoekers te identificeren die pagina A maar niet terugkeren om pagina B tot na één dag te bezoeken, dan zal die dag beginnen wanneer de bezoeker pagina A verlaat.  De bezoeker kan alleen in het segment worden opgenomen als er minimaal 1440 minuten (één dag) overheen zijn gegaan nadat hij pagina A naar pagina B heeft verlaten. |
+| NA | De After operator wordt gebruikt om een minimumlimiet op te geven voor de tijd tussen twee controlepunten. Wanneer het plaatsen van na waarden, zal de tijdslimiet beginnen wanneer het segment wordt toegepast. Bijvoorbeeld, als de Na exploitant op een container wordt geplaatst om bezoekers te identificeren die pagina A maar niet terugkeren om pagina B tot na één dag te bezoeken, dan zal die dag beginnen wanneer de bezoeker pagina A verlaat.  De bezoeker kan alleen in het segment worden opgenomen als er minimaal 1440 minuten (één dag) overheen zijn gegaan nadat hij pagina A heeft verlaten om pagina B weer te geven. |
 | BINNEN | De operator Binnen wordt gebruikt om een maximumlimiet op te geven voor de tijd tussen twee controlepunten. Als de operator Binnen bijvoorbeeld op een container is ingesteld om bezoekers te identificeren die pagina A bezoeken en vervolgens binnen één dag zijn teruggekeerd om pagina B te bezoeken, begint die dag wanneer de bezoeker pagina A verlaat. Om in het segment te worden opgenomen, heeft de bezoeker maximaal één dag voordat hij pagina B opent.   De bezoeker kan pas in het segment worden opgenomen nadat hij pagina A heeft verlaten om pagina B weer te geven binnen 1440 minuten (één dag). |
 | NA/BINNEN | Wanneer u zowel de operatoren Na als Binnen gebruikt, is het belangrijk te begrijpen dat beide operatoren parallel beginnen en eindigen, niet opeenvolgend.   Als u bijvoorbeeld een segment maakt met de container ingesteld op:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Dan wordt slechts tussen 1 en 2 weken voldaan aan de voorwaarden om bezoekers in het segment te identificeren. Beide voorwaarden worden afgedwongen vanaf het moment van de eerste paginaklok. |
 
