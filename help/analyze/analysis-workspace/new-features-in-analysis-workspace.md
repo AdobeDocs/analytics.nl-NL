@@ -3,15 +3,48 @@ description: Nieuwe functies in Analysis Workspace.
 keywords: Analysis Workspace
 title: Nieuwe functies in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
 workflow-type: tm+mt
-source-wordcount: '7195'
-ht-degree: 100%
+source-wordcount: '7747'
+ht-degree: 97%
 
 ---
 
 
 # Nieuwe functies in Analysis Workspace
+
+## Juli 2020
+
+Nieuwe functie uitgebracht op 16 juli 2020.
+
+| Functie | Beschrijving |
+|--- |--- |
+| Nieuwe voorinstellingen voor datumbereik | Vier nieuwe datumbereiken toegevoegd: ([!UICONTROL This week/month/quarter/year (excluding today)]). Dit laat u van datumwaaiers kiezen die delen-daggegevens van vandaag niet omvatten. |
+
+## Juni 2020
+
+Nieuwe functies uitgebracht op 18 juni 2020.
+
+| Functie | Beschrijving |
+|--- |--- |
+| Attribution IQ: algorithmische attributie | Het Algorithmic Attribution model in Analysis Workspace gebruikt statistische technieken om dynamisch de optimale allocatie van krediet voor de geselecteerde metrische waarde te bepalen. Beschikbaar voor klanten van Adobe Analytics Ultimate. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ: aangepaste terugblikvensters | U kunt nu om het even welk attributiemodel in Attribution IQ vormen om touchpoints van maximaal 90 dagen vóór de rapportperiode te omvatten. Dit verhoogt doorgaans de attributienauwkeurigheid voor gebeurtenissen die zich vroegtijdig in de verslagperiode voordoen, door interacties die in de voorafgaande maand(en) hebben plaatsgevonden, te verklaren. Beschikbaar voor klanten van Adobe Analytics Foundation, Select, Premium, Premium, Premium Attribution, Premium Complete en Ultimate. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Projectrollen voor gedeelde Workspace-projecten | Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. [Meer informatie...](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Workspace-projecten voor alleen-weergeven | Workspace-projecten kunnen met gebruikers worden gedeeld als ‘alleen weergeven’. Wanneer een ontvanger voor Weergaven het gedeelde project opent, ontvangt hij/zij een beperktere projectervaring zonder linkerrail en met beperkte interactie. [Meer informatie...](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Mogelijkheid om Workspace-projecten gezamenlijk te bewerken | Ontvangers die aan de rol voor Bewerken zijn toegevoegd, kunnen een project opslaan dat met hen is gedeeld. Dit geldt zowel voor beheerders als niet-beheerders. [Meer informatie...](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Bijgewerkt leeg deelvenster | Het lege deelvenster bevat nu deelvensters en visualisaties, zodat u naadloos de analyseworkflow kunt kiezen die het beste voor u werkt. |
+| Deelvenster Snelle inzichten (25 juni 2020) | Quick Insights biedt richtlijnen voor niet-analisten en nieuwe gebruikers van Analysis Workspace hoe ze zakelijke vragen snel en eenvoudig kunnen beantwoorden. [Meer informatie...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| Deelvenster Analytics for Target in Workspace (25 juni 2020) | Met het deelvenster Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace met lift en vertrouwen analyseren. [Meer informatie...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Pagina Werkruimte | De pagina Info Workspace biedt informatie over uw Analysis Workspace-omgeving, over uw Adobe Analytics-beheerders (als u ondersteuning nodig hebt) en een manier om feedback in het product te geven. U vindt deze in Workspace > Help > Info over Werkruimte. |
+
+## Mei 2020
+
+Nieuwe functies uitgebracht op 21 mei 2020.
+
+| Functie | Beschrijving |
+|--- |--- |
+| Automatisch Freeform-tabellen maken op basis van een leeg frame | Eerder kon u componenten niet direct in een leeg project of leeg paneel laten vallen; u moest eerst een Lijst Freeform toevoegen. U kunt componenten nu rechtstreeks in een leeg project of deelvenster neerzetten en een tabel voor vrije vorm wordt automatisch voor u gemaakt in een aanbevolen indeling. Bovendien zijn er verbeteringen toegevoegd in de manier waarop gemengde onderdeeltypen (zoals dimensies en cijfers) wanneer deze samen in een lege vrije-vormtabel worden neergezet. |
+| Toegankelijkheidsverbeteringen | Het Adobe Analytics-team heeft verschillende toegankelijkheidsverbeteringen doorgevoerd in Analysis Workspace, waaronder verbeterde toetsenbordnavigatie, kleurcontrast en ondersteuning voor schermlezers. [Meer informatie...](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## April 2020
 
