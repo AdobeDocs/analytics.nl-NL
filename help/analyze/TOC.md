@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 95%
+source-wordcount: '1098'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 + [Handleiding Analytics-tools](home.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Overzicht van de analysewerkruimte](analysis-workspace/home.md)
+   + [Overzicht van Analysis Workspace](analysis-workspace/home.md)
    + [Analysis Workspace-gebruiksscenario’s](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Nieuwe functies in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Een Workspace-project maken {#build-workspace-project}
@@ -79,8 +79,8 @@ ht-degree: 95%
       + [Boomstructuur](analysis-workspace/visualizations/treemap.md)
    + Deelvensters {#panels}
       + [Overzicht van deelvensters](analysis-workspace/c-panels/panels.md)
-      + [Analyses voor venster Doel (A4T)](analysis-workspace/c-panels/a4t-panel.md)
-      + [Kenmerk, deelvenster](analysis-workspace/c-panels/attribution.md)
+      + [Deelvenster Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + [Deelvenster voor attributie](analysis-workspace/c-panels/attribution.md)
       + [Leeg deelvenster](analysis-workspace/c-panels/blank-panel.md)
       + [Deelvenster Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
       + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
@@ -91,7 +91,7 @@ ht-degree: 95%
    + Projecten selecteren of delen {#curate-share}
       + [Werkruimteprojecten curven](analysis-workspace/curate-share/curate.md)
       + [Werkruimteprojecten delen](analysis-workspace/curate-share/share-projects.md)
-      + [Alleen-weergeven werkruimteprojecten](analysis-workspace/curate-share/view-only-projects.md)
+      + [Workspace-projecten voor alleen-weergeven](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
       + [Projectbestanden delen en plannen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Bestand verzenden - levering van een project plannen](analysis-workspace/curate-share/t-schedule-report.md)
@@ -124,7 +124,7 @@ ht-degree: 95%
       + [Analysis Workspace vergeleken met Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Beperkingen van Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Beheervereisten](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Toegankelijkheid in werkruimte Analyse](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Toegankelijkheid in Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder Help](report-builder/home.md)
    + [Nieuwe functies in Report Builder](report-builder/whats-new-arb.md)
@@ -300,7 +300,6 @@ ht-degree: 95%
    + [Doelen](reports-analytics/targets.md)
    + [Waarschuwingen](reports-analytics/alerts.md)
    + [Kalendergebeurtenissen](reports-analytics/t-calendar-event.md)
-   + [Data Warehouse-aanvragen](reports-analytics/data-warehouse.md)
    + [Veelgestelde vragen](reports-analytics/frequently-asked-questions.md)
    + [Problemen oplossen](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
@@ -335,8 +334,8 @@ ht-degree: 95%
    + [Tijd](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Overzicht van labs](tech-previews/overview.md)
-+ Adobe Analytics-dashboards {#mobapp}
-   + [Adobe Analytics-dashboards - Overzicht](mobile-app/home.md)
++ Adobe Analytics dashboards {#mobapp}
+   + [Adobe Analytics-dashboards - overzicht](mobile-app/home.md)
    + [Curator-handleiding](mobile-app/curator.md)
    + [Snelle handleiding voor executive gebruikers](mobile-app/executive.md)
 + Progressieve webapps {#pwa}
