@@ -2,9 +2,9 @@
 description: Met het deelvenster Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace analyseren.
 title: Deelvenster Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
+source-git-commit: efdab27f9449e1aabc9647b0663b02d8fe74cc29
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '912'
 ht-degree: 2%
 
 ---
@@ -44,11 +44,11 @@ Elke vrije-vormlijst toont de volgende metrische kolommen:
 | Metriek normaliseren | Unieke bezoekers, bezoeken of activiteitsimpressies. |
 | Metrisch met succes | De metrische waarde die is geselecteerd in de builder |
 | Omrekeningskoers | Metrisch/Normaliserend met succes |
-| Optillen | Vergelijkt de omrekeningskoers voor elke ervaring met controle.<br>**Opmerking:**Lift is een &quot;vergrendelde metrische methode&quot; voor Target-ervaringen; het kan niet worden uitgesplitst of met andere afmetingen worden gebruikt. |
+| Optillen | Vergelijkt de omrekeningskoers voor elke ervaring met controle.<br>**Opmerking:**Lift is een &quot;vergrendelde metrisch&quot; voor Target-ervaringen; het kan niet worden uitgesplitst of met andere afmetingen worden gebruikt. |
 | Lift (onder) | Vertegenwoordigt de slechtste lift een variantervaring over de controle kon hebben. |
 | Lift (middellang) | Vertegenwoordigt de middelpuntlift een variantervaring over de controle, met een 95% betrouwbaarheidsinterval kon hebben. Dit is &quot;Lift&quot; in Reports &amp; Analytics. |
 | Lift (boven) | Vertegenwoordigt de beste lift een variantervaring over de controle kon hebben. |
-| Vertrouwen | De studenten t-test berekent het betrouwbaarheidsniveau, dat op de waarschijnlijkheid wijst dat de resultaten zouden worden gedupliceerd als de test opnieuw in werking werd gesteld. Een vast voorwaardelijk opmaakbereik van 75%/85%/95% is toegepast op de metrische waarde. Deze opmaak kan indien nodig worden aangepast onder Kolominstellingen. <br>**Opmerking:**Vertrouwen is &quot;gesloten metrisch&quot;aan de ervaringen van Target; het kan niet worden uitgesplitst of met andere afmetingen worden gebruikt. |
+| Vertrouwen | De studenten t-test berekent het betrouwbaarheidsniveau, dat op de waarschijnlijkheid wijst dat de resultaten zouden worden gedupliceerd als de test opnieuw in werking werd gesteld. Een vast voorwaardelijk opmaakbereik van 75%/85%/95% is toegepast op de metrische waarde. Deze opmaak kan indien nodig worden aangepast onder Kolominstellingen. <br>**Opmerking:**Vertrouwen is &quot;gesloten metrisch&quot;aan de Ervaringen van Target; het kan niet worden uitgesplitst of met andere afmetingen worden gebruikt. |
 
 Net als bij elk deelvenster in Analysis Workspace kunt u uw analyse voortzetten door extra tabellen en [visualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) toe te voegen die u helpen uw Adobe Target-activiteiten te analyseren.
 
@@ -61,5 +61,7 @@ Net als bij elk deelvenster in Analysis Workspace kunt u uw analyse voortzetten 
 | Waarom zouden unieke bezoekers van Target tot Analytics verschillen? | [Meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) informatie over variaties van unieke bezoekers tussen producten. |
 | Als ik een hit-segment toepast voor een specifieke Target-activiteit in mijn analyse, waarom zie ik dan niet-verwante ervaringen terugkeren? | De dimensie A4T is een lijstvariabele, wat betekent het vele activiteiten (en ervaringen) in één keer kan bevatten. [Meer informatie](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | Worden extreme orders door de betrouwbaarheidsmaatstaf gecompenseerd of wordt een Bonferroni-correctie toegepast voor meerdere aanbiedingen? | Nee. [Meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) weten over hoe Analytics het vertrouwen berekent? |
+| Kunnen meetgegevens voor optillen en vertrouwen worden gebruikt met andere dimensies of uitsplitsingen? | Optillen en vertrouwen zijn &#39;vergrendelde meetgegevens&#39; voor de Target Experience-dimensie, omdat hiervoor een besturingselement en een variant nodig zijn om over te berekenen. Als zodanig kunnen ze niet worden uitgesplitst of gebruikt met andere dimensies. |
+| Wanneer wordt de lift en het vertrouwen opnieuw berekend? | De optillen en het vertrouwen zullen op elk ogenblik opnieuw berekenen het paneel in werking wordt gesteld (of re-looppas), verandert de waaier van de paneeldatum, of een segment wordt toegepast op het paneel of de lijst. |
 
 Voor meer informatie over Analytics for Target-rapportage gaat u naar [A4T-rapportage](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
