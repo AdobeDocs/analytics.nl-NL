@@ -3,7 +3,7 @@ description: Virtuele rapportsuites kunnen worden gebogen om components.in Analy
 title: Onderdeelselectie voor virtuele rapportsuites
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 4c5dd32b51693d2c0eccd4365cae1ac5a29e6d34
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 14%
@@ -36,13 +36,16 @@ U kunt als volgt componentcuratie inschakelen:
    * [!UICONTROL Ad Hoc Analysis]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
+   * [!UICONTROL Activity Map]
    * Analytics Rapportage-API
+
    Zodra gecontroleerd, kunt u de componenten toevoegen u in de virtuele rapportreeks zou willen worden omvat door de toepasselijke componenten van de &quot;uitgesloten componenten&quot;kolom aan de &quot;inbegrepen componenten&quot;kolom te slepen. De onderdelen die kunnen worden opgenomen en uitgesloten zijn:
 
    * Dimensies
    * Metrics
    * Segmenten
    * Datumbereik
+
    >[!NOTE]
    >
    >Het is niet nodig om gekromde componenten (segmenten, berekende metriek, datumwaaiers) te *delen* . Ze zijn altijd zichtbaar in Analysis Workspace als ze worden beheerd voor de virtuele rapportsuite, zelfs als ze niet worden gedeeld.
