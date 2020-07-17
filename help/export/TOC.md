@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 user-guide-url: /content/help/en/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 769206cfc41c09b9e32fd2d1f317a8a6904fed00
+source-git-commit: 50ed50f951b6c7309359a19538323b1e12322a80
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 93%
+source-wordcount: '257'
+ht-degree: 92%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 93%
       + [Overzicht van de inhoud van de gegevensfeed](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Metrische gegevens berekenen](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Referentie gegevenskolom](analytics-data-feed/c-df-contents/datafeeds-reference.md)
+      + [Koptekstbronnen](analytics-data-feed/c-df-contents/headers.md)
       + [Pagina-gebeurtenis opzoeken](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Speciale tekens](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Te laat arriveren](analytics-data-feed/c-df-contents/late-arriving-hits.md)
