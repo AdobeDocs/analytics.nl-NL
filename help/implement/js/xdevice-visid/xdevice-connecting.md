@@ -6,7 +6,7 @@ title: Gebruikers op verschillende apparaten verbinden
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie Analytics [voor](/help/components/cda/cda-home.md) andere apparaten in de gebruikershandleiding voor componenten.
+>Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie Analytics [voor](/help/components/cda/overview.md) andere apparaten in de gebruikershandleiding voor componenten.
 
 De identificatie van bezoekers tussen apparaten helpt u bezoekers over veelvoudige apparaten aan te sluiten. De identificatie van bezoekers tussen apparaten gebruikt de `visitorID` variabele om een gebruiker over apparaten te associëren. De `visitorID` variabele krijgt de hoogste prioriteit bij het identificeren van unieke bezoekers.
 
