@@ -2,7 +2,7 @@
 title: Algemene rapportsuite in Adobe Analytics
 description: Begrijp de voordelen en de vereisten aan het gebruiken van een globale rapportreeks.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 2%
@@ -19,7 +19,7 @@ Een algemene rapportsuite is een rapportsuite die gegevens verzamelt van alle do
 Adobe raadt u in de meeste gevallen aan een algemene rapportsuite te implementeren.
 
 * **Geaggregeerde gegevens:** De globale rapportsuites laten u toe om de gebeurtenissen van KPI en van het succes over uw eigen plaatsen te zien. De segmentatie en de virtuele rapportsuites kunnen worden gebruikt om plaats-specifieke gegevens te bekijken.
-* **Ondersteuning voor Analytics voor verschillende apparaten:** CDA vereist een rapportsuite die gegevens verzamelt van meerdere locaties, zoals uw website en mobiele app. Afzonderlijke apparaten kunnen gegevens samenvoegen als deze correct zijn geïmplementeerd. Zie Analytics [voor](../../components/cda/cda-home.md) verschillende apparaten in de gebruikershandleiding voor componenten voor meer informatie.
+* **Ondersteuning voor Analytics voor verschillende apparaten:** CDA vereist een rapportsuite die gegevens verzamelt van meerdere locaties, zoals uw website en mobiele app. Afzonderlijke apparaten kunnen gegevens samenvoegen als deze correct zijn geïmplementeerd. Zie Analytics [voor](../../components/cda/overview.md) verschillende apparaten in de gebruikershandleiding voor componenten voor meer informatie.
 * **U hebt niet meer dan één rapportsuite nodig:** Alle gegevens kunnen in één enkele rapportreeks worden verzameld, zodat is het minder waarschijnlijk voor een ontwikkelaar om gegevens naar de verkeerde rapportreeks per ongeluk te verzenden.
 * **Geen rollups nodig:** Rollups zijn een vrij gedateerde eigenschap die individuele gegevens van de rapportreeks op een dagelijkse basis samenvoegt. Rollups dedupliceren geen bezoek- of bezoekersgegevens, wat tot opgeblazen aantallen kan leiden. Zie [Rollups](../../admin/c-manage-report-suites/rollup-report-suite.md) in de gebruikershandleiding voor Admin voor meer informatie.
 * **Tijd opslaan:** De projecten van de werkruimte, classificaties, segmenten, en berekende metriek zijn verbonden aan de zelfde globale rapportreeks. Beheerders besteden minder tijd aan het beheren van deze componenten en gegevensbeheer.
