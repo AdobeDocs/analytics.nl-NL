@@ -6,7 +6,7 @@ title: Voorbeeld van de identificatie van bezoekers tussen apparaten
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 11%
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie Analytics [voor](/help/components/cda/cda-home.md) andere apparaten in de gebruikershandleiding voor componenten.
+>Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie Analytics [voor](/help/components/cda/overview.md) andere apparaten in de gebruikershandleiding voor componenten.
 
 In het volgende voorbeeld wordt getoond hoe bezoekersidentificatie op verschillende apparaten werkt met behulp van een voorbeeld van serveraanroepen die in een algemene klantinteractie worden verzonden.
 
