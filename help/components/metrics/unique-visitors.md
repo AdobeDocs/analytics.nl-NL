@@ -2,7 +2,7 @@
 title: Unieke bezoekers
 description: Het aantal unieke personen (of apparaten).
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 De metrische waarde &#39;Unieke bezoekers&#39; geeft het aantal bezoekers-id&#39;s voor de waarde van de dimensie aan. Het is één van de gemeenschappelijkste metriek die bij het bepalen van verkeer wordt gebruikt, aangezien het een overzicht op hoog niveau van de populariteit van een afmetingswaarde geeft. Een bezoeker kan bijvoorbeeld elke dag een maand naar uw site komen, maar hij telt nog steeds als één unieke bezoeker.
 
-Als u [Apparaatanalyse](../cda/cda-home.md)gebruikt, wordt deze metrische waarde hernoemd naar &#39;Unieke apparaten&#39;.
+Als u [Apparaatanalyse](../cda/overview.md)gebruikt, wordt deze metrische waarde hernoemd naar &#39;Unieke apparaten&#39;.
 
 ## Dagelijkse, wekelijkse, maandelijkse, driemaandelijkse en jaarlijkse unieke bezoekers
 
@@ -44,7 +44,7 @@ Unieke bezoekersidentificatoren worden doorgaans opgeslagen in een browsercookie
 
 * Wist de cache op elk gewenst moment
 * Opent een andere browser op dezelfde computer. Eén unieke bezoeker wordt per browser geteld.
-* Dezelfde persoon die op verschillende apparaten door uw site bladert. Een afzonderlijke unieke bezoeker wordt geteld per apparaat. U kunt [apparaatanalyses](../cda/cda-home.md) gebruiken om bezoekers te combineren met de metrische waarde [Personen](people.md) .
+* Dezelfde persoon die op verschillende apparaten door uw site bladert. Een afzonderlijke unieke bezoeker wordt geteld per apparaat. U kunt [apparaatanalyses](../cda/overview.md) gebruiken om bezoekers te combineren met de metrische waarde [Personen](people.md) .
 * Hiermee opent u een Private Browsing-sessie (zoals het tabblad Incognito van Chrome).
 
 Een nieuwe unieke bezoeker wordt *niet* meegeteld, zolang de cookie-id behouden blijft:
