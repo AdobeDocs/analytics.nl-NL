@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: 271cffdc32c6063da955ac3fbd7f774a15cac8d2
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 61%
+source-wordcount: '632'
+ht-degree: 59%
 
 ---
 
@@ -205,9 +205,13 @@ ht-degree: 61%
       + [Virtuele rapportsuites beheren](vrs/c-workflow-vrs/vrs-manage.md)
       + [Gegevens van virtuele rapportsuite weergeven](vrs/c-workflow-vrs/vrs-view.md)
 + Cross-device Analytics {#cda}
-   + [Overzicht van cross-device Analytics](cda/cda-home.md)
-   + [Cross-device Analytics instellen](cda/cda-setup.md)
-   + [Veelgestelde vragen over Cross-device Analytics](cda/cda-faq.md)
+   + [Overzicht van cross-device Analytics](cda/overview.md)
+   + [Veldgebaseerde stitching](cda/field-based-stitching.md)
+   + [Apparaatgrafiek](cda/device-graph.md)
+   + [Apparaatoverschrijdende Analytics instellen](cda/setup.md)
+   + [Hoe herspeelt u](cda/replay.md)
+   + [CDA Workspace-sjabloon](cda/workspace-template.md)
+   + [Veelgestelde vragen over Cross-device Analytics](cda/faq.md)
 + Waarschuwingen {#alerts}
    + [Intelligente waarschuwingen](c-alerts/intellligent-alerts.md)
    + [Alert Builder](c-alerts/alert-builder.md)
