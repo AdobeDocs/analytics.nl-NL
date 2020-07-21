@@ -5,7 +5,7 @@ title: Toewijzing en persistentie
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie Analytics [voor](/help/components/cda/cda-home.md) andere apparaten in de gebruikershandleiding voor componenten.
+>Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie Analytics [voor](/help/components/cda/overview.md) andere apparaten in de gebruikershandleiding voor componenten.
 
 Wanneer bezoekersprofielen worden samengevoegd nadat ze zijn gekoppeld aan dezelfde variabele voor de bezoekersidentiteitskaart, wordt de toewijzing niet gewijzigd in de historische gegevensset.
 
