@@ -2,7 +2,10 @@
 title: Reis-IQ
 description: Begrijp de functies die samen Reis IQ vormen, een reeks functies die deel uitmaken van Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: 4a987a16be74e3a990294664179778fd2e9fcea7
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 0%
 
 ---
 
@@ -19,4 +22,4 @@ Reis IQ omvat de volgende kenmerken:
 * [Contextbewuste sessies:](../../components/vrs/vrs-report-time-processing.md) Wijzig de definitie van een bezoek, bijvoorbeeld wanneer een bezoek uitkomt en wanneer achtergrondgeluiden het begin van een nieuw bezoek verhinderen. Gebruikt een eigenschap genoemd de verwerking van de rapporttijd, een deel van virtuele rapportreeksen.
 * [Stroomanalyse:](visualizations/c-flow/flow.md) Begrijp waar de gebruikers navigeer en waar zij kwamen.
 * [Falloutanalyse:](visualizations/fallout/fallout-flow.md) Vastleggen wanneer een klant zich terugtrekt en begrijpen waar deze naartoe gaat.
-* [Apparaatanalyse:](../../components/cda/cda-home.md) Voeg naadloos gedrag van meerdere apparaten samen om beter te begrijpen wat aanraakpunten elk apparaat krijgt.
+* [Analytics voor meerdere apparaten:](../../components/cda/overview.md) Voeg naadloos gedrag van meerdere apparaten samen om beter te begrijpen wat aanraakpunten elk apparaat krijgt.
