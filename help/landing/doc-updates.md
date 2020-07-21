@@ -3,10 +3,10 @@ title: Technische documentatie-updates voor Adobe Analytics
 description: Belangrijke updates van de Adobe Analytics-documentatieopslagplaats.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: de7783174d55c03ac73140e8ab05005284788459
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '477'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Datum | Beschrijving |
 |---|---|
+| 21 juli 2020 | Belangrijke updates en revisies voor [Cross-Device Analytics](/help/components/cda/overview.md). Toegevoegde stitching op [basis van veld](/help/components/cda/field-based-stitching.md). |
 | 28 april 2020 | Toegevoegde documentatie met cijfers over [Contentsnelheid](/help/components/metrics/content-velocity.md). |
 | 12 maart 2020 | Toegevoegde updates van [Segmenten publiceren naar Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md). |
 | 12 maart 2020 | Updates van CDA-stitchinglatentie. |
@@ -31,7 +32,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 25 februari 2020 | Toegevoegde variabele [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md). |
 | 18 februari 2020 | Toegevoegde variabele [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md). |
 | 12 februari 2020 | Updates en reorganisatie van de documentatie over [Marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| 7 februari 2020 | Updates van [Analytics op verschillende apparaten](../components/cda/cda-setup.md) en [Veelgestelde vragen](../components/cda/cda-faq.md). |
+| 7 februari 2020 | Updates van [Analytics op verschillende apparaten](../components/cda/setup.md) en [Veelgestelde vragen](../components/cda/faq.md). |
 | 4 februari 2020 | Volledige herschrijving van de [Implementatiehandleiding](../implement/home.md). |
 | 22 januari 2020 | Bijgewerkte pagina voor vrijevormtabellen bevat nu ook informatie over de nieuwe [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | 13 januari 2020 | [Adobe Analytics en browsercookies](../technotes/cookies.md) toegevoegd. |
