@@ -2,9 +2,9 @@
 description: Importeer volggegevens van toepassingen van derden naar Analytics.
 title: Aan de slag met Analytics-gegevensconnectors
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Bijvoorbeeld, zou een e-mailintegratie een e-mailpartner kunnen willen gebruiken
 
 >[!IMPORTANT]
 >
->Medio tot eind 2021 zullen we de Adobe Data Connector-technologie volledig benutten. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
+>De Adobe Data Connector-technologie loopt medio tot eind 2021 ten einde. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Systeemvereisten**
 
