@@ -2,17 +2,17 @@
 title: Zoekopdrachten
 description: Het aantal keren dat een treffer overeenkomt met externe zoekcriteria.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 # Zoekopdrachten
 
-De metrische waarde &#39;Zoekopdrachten&#39; geeft het aantal resultaten weer dat overeenkomt met de externe zoekdetectie van Adobe. Deze metrische waarde is nuttig wanneer u niet-onderzoeksafmetingen waarden wilt bekijken en zien hoe zij aan het verkeer van de onderzoeksmotor hebben bijgedragen.
+De metrische waarde &#39;Zoekopdrachten&#39; geeft het aantal resultaten weer dat overeenkomt met de externe zoekdetectie van Adobe. Deze metrische waarde is nuttig wanneer u niet-onderzoeksafmetingen punten wilt bekijken en zien hoe zij aan het verkeer van de onderzoeksmotor hebben bijgedragen.
 
 ## Hoe deze metrische waarde wordt berekend
 
