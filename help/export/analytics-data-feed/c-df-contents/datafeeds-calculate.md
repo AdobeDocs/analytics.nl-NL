@@ -5,7 +5,7 @@ title: Metrische gegevens berekenen
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -61,7 +61,7 @@ De bezoekers moeten eerst per bezoek worden gegroepeerd en vervolgens worden bes
 1. Samenvoegen `post_visid_high`, `post_visid_low`, `visit_num`en `visit_start_time_gmt`.
 2. Sorteer op deze samengevoegde waarde en pas vervolgens een secundaire sortering op toe `visit_page_num`.
 3. Als een treffer niet de laatste in een bezoek is, trekt u de `post_cust_hit_time` waarde van de `post_cust_hit_time` waarde van de volgende treffer af.
-4. Dit getal is de hoeveelheid tijd (in seconden) die voor de treffer is doorgebracht. U kunt filters toepassen om de focus op waarden of gebeurtenissen van dimensies te vestigen.
+4. Dit getal is de hoeveelheid tijd (in seconden) die voor de treffer is doorgebracht. Filters kunnen worden toegepast om de focus op dimensiepunten of gebeurtenissen te verplaatsen.
 
 ## Orders, eenheden en inkomsten
 
