@@ -4,7 +4,10 @@ title: Specifieke filters
 topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 2%
 
 ---
 
@@ -19,11 +22,11 @@ U kunt zoeken naar specifieke dimensies door een filter te maken dat precies ove
 
 1. Maak of bewerk een aanvraag en ga door naar de [!UICONTROL Request Wizard: Step 2]aanvraag.
 
-   ![Stap resultaat](assets/dimension_filter.png)
+   ![Stap Resultaat](assets/dimension_filter.png)
 
 1. Klik op de [!UICONTROL Request Wizard: Step 2]koppeling naast de dimensie in het raster en kies **[!UICONTROL Filter]**.
 
-   ![Stap resultaat](assets/choose_page_specific01.png)
+   ![Stap Resultaat](assets/choose_page_specific01.png)
 
 1. Schakel **[!UICONTROL Specific]** vervolgens een van de volgende opties in:
 
@@ -33,6 +36,6 @@ U kunt zoeken naar specifieke dimensies door een filter te maken dat precies ove
    * **Van lijst:** Hiermee kunt u gegevens selecteren in een lijst waaraan u gegevens kunt toevoegen.
 1. Als u deze optie inschakelt, selecteert u de beschikbare items in de lijst **[!UICONTROL From List]** of klikt u op **[!UICONTROL Add]**.
 
-   Wanneer u klikt **[!UICONTROL Add]**, geeft het [!UICONTROL Select From List] formulier een lijst weer met beschikbare waarden voor afmetingen voor het huidige bereik van de aanvraagdatum, beperkt tot de eerste 10.000 items. U kunt in deze items zoeken of op **[!UICONTROL More ...]** deze items klikken, zodat de [!UICONTROL Search Form]items worden weergegeven en u een gedetailleerdere zoekopdracht kunt maken naar de afmetingen.
+   Wanneer u klikt **[!UICONTROL Add]**, geeft het [!UICONTROL Select From List] formulier een lijst weer met beschikbare dimensie-items voor het huidige bereik van de aanvraagdatum, beperkt tot de eerste 10.000 items. U kunt in deze items zoeken of op **[!UICONTROL More ...]** deze items klikken, zodat de [!UICONTROL Search Form]items worden weergegeven en u een gedetailleerdere zoekopdracht kunt maken naar de afmetingen.
 1. Klik op de [!UICONTROL Select From List]knop **[!UICONTROL OK]**.
 1. Sla desgewenst het specifieke filter op het [!UICONTROL Choose Page] formulier op en klik op **[!UICONTROL OK]**.
