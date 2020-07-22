@@ -2,7 +2,7 @@
 title: Aangepaste koppeling
 description: De naam van de aangepaste koppeling.
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -24,6 +24,6 @@ Als u gegevens naar deze afmeting wilt verzenden gebruikend AppMeasurement:
 * Stel de [`linkType`](/help/implement/vars/config-vars/linktype.md) variabele in op `"o"`.
 * Verzend een [`tl()`](/help/implement/vars/functions/tl-method.md) afbeeldingsaanvraag.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Aangezien deze variabele op een douanekoord in uw implementatie gebaseerd is, bepaalt uw organisatie wat de afmetingswaarden zijn. Adobe raadt u aan om koppelingen in betekenisvolle categorieën te groeperen op basis van uw rapportagevereisten.
+Aangezien deze variabele op een douanekoord in uw implementatie gebaseerd is, bepaalt uw organisatie wat de afmetingspunten zijn. Adobe raadt u aan om koppelingen in betekenisvolle categorieën te groeperen op basis van uw rapportagevereisten.
