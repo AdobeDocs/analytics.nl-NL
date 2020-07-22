@@ -1,9 +1,12 @@
 ---
-description: Leer over visualisatie en visualisatie montages in de Werkruimte van de Analyse.
+description: Meer informatie over visualisatie- en visualisatie-instellingen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '1057'
+ht-degree: 4%
 
 ---
 
@@ -12,36 +15,36 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 De werkruimte biedt een aantal visualisaties die u visuele vertegenwoordiging van uw gegevens, zoals bar grafieken, donut grafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen, en anderen laten produceren. Elke visualisatie heeft eigen instellingen die u kunt beheren. Klik op de naam van de visualisatie voor meer informatie.
 
-YouTube-video: Typen [visualisatie in de werkruimte](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) Analyse (2:57)
+YouTube-video: [Visualisatietypen in Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 | Visualisatienaam | Beschrijving |
 |---|---|
 | [Gebied](/help/analyze/analysis-workspace/visualizations/area.md) | als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Gebruik een vlakgrafiek als u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer meetgegevens. |
 | [Balk](/help/analyze/analysis-workspace/visualizations/bar.md) | Geeft verticale balken weer die diverse waarden vertegenwoordigen over een of meer metriek. |
-| [Bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Toont hoe een waarde u in vergelijkt met of maatregelen tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
-| [Cohortingtabel](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | A *`cohort`* is een groep mensen die gemeenschappelijke kenmerken over een bepaalde periode delen. Cohortanalyse is bijvoorbeeld handig als u wilt weten hoe een cohort werkt met een merk. U kunt gemakkelijk veranderingen in tendensen waarnemen, dan dienovereenkomstig antwoorden. |
-| [Donut](/help/analyze/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. |
-| [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen). |
+| [Staafdiagram](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Toont hoe een waarde u in vergelijkt met of maatregelen tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
+| [Cohortingtabel](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohortanalyse is bijvoorbeeld handig als u wilt weten hoe een cohort werkt met een merk. U kunt gemakkelijk veranderingen in tendensen waarnemen, dan dienovereenkomstig antwoorden. |
+| [Cirkeldiagram](/help/analyze/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. |
+| [Uitval](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen). |
 | [Stroom](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Kies deze optie om klantpaden weer te geven via uw websites en apps. |
 | [Vrije-vormentabel](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Een tabel met vrije vorm is niet alleen een gegevenstabel, maar ook een interactieve visualisatie. |
 | [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md) | Een histogram lijkt op een staafdiagram, maar het groepeert getallen in bereiken (emmers). |
 | [Horizontale balk](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Hiermee geeft u horizontale balken weer die verschillende waarden voor een of meer metriek vertegenwoordigen. |
 | [Lijn](/help/analyze/analysis-workspace/visualizations/line.md) | Vertegenwoordigt metriek die een lijn gebruiken om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt. |
 | [Kaart](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Hiermee kunt u een visuele kaart van elke metrische waarde (inclusief berekende metriek) maken. |
-| [Scatterplot](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Toont het verband tussen afmetingswaarden en tot drie metriek. |
+| [Spreidingsdiagram](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Toont het verband tussen afmetingspunten en tot drie metriek. |
 | [Samenvattingsnummer](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Afhankelijk van de cel die is geselecteerd, worden bij deze visualisatie totalen en samenvattingen weergegeven. |
 | [Samenvattingswijziging](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Afhankelijk van de cellen die zijn geselecteerd, worden cellen met elkaar vergeleken met deze visualisatie. |
 | [Tekst](/help/analyze/analysis-workspace/visualizations/text.md) | Hiermee kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw werkruimte. |
-| [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | Hiermee worden hiërarchische gegevens (met structuur van structuur) weergegeven als een set geneste rechthoeken. |
+| [Boomstructuur](/help/analyze/analysis-workspace/visualizations/treemap.md) | Hiermee worden hiërarchische gegevens (in een boomstructuur) weergegeven als een set geneste rechthoeken. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Hiermee kunt u maximaal drie segmenten (van Componenten) en één metrisch slepen om een Venn-diagram te maken. |
 
 ## Deelvenster Visualisaties {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
 Klik in het zijpaneel om het deelvenster Visualisaties weer te geven. **[!UICONTROL Visualizations]**
 
-![Stap resultaat](assets/visualizations.png)
+![Stap Resultaat](assets/visualizations.png)
 
-De meeste visualisatietypen (zoals Vlak, Bar, Donut en Lijngrafieken) zijn u bekend als u Adobe Analytics gebruikt. De analysewerkruimte biedt echter wel visualisatie-instellingen en vele nieuwe of unieke visualisatietypen met interactieve mogelijkheden.
+De meeste visualisatietypen (zoals Vlak, Bar, Donut en Lijngrafieken) zijn u bekend als u Adobe Analytics gebruikt. Analysis Workspace biedt echter wel instellingen voor visualisatie en vele nieuwe of unieke visualisatietypen met interactieve mogelijkheden.
 
 ## Visualisatie-instellingen {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
@@ -66,7 +69,7 @@ Als u toegang wilt krijgen [!UICONTROL Visualization Settings], sleept u een vis
 
 ## Visueel pictogram maken {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-Als u niet zeker weet welke visualisatie u wilt kiezen, klikt u op het **[!UICONTROL Create Visual]** pictogram in een tabelrij. Dit pictogram wordt weergegeven wanneer u de muisaanwijzer op de tabelrij plaatst. Als u hierop klikt, wordt in de analysewerkruimte een gefundeerde schatting gemaakt van de mate waarin visualisatie het beste bij uw gegevens past. Als u bijvoorbeeld maximaal drie segmenten hebt geselecteerd, wordt een Venn-diagram gemaakt. Voor meer dan 3 segmenten, zal het tot een staafgrafiek leiden. Voor andere typen gegevens kan er een lijngrafiek worden gemaakt, enzovoort.
+Als u niet zeker weet welke visualisatie u wilt kiezen, klikt u op het **[!UICONTROL Create Visual]** pictogram in een tabelrij. Dit pictogram wordt weergegeven wanneer u de muisaanwijzer op de tabelrij plaatst. Als u erop klikt, vraagt Analysis Workspace om een goed opgeleide schatting te maken van de mate waarin visualisatie het beste aansluit bij uw gegevens. Als u bijvoorbeeld maximaal drie segmenten hebt geselecteerd, wordt een Venn-diagram gemaakt. Voor meer dan 3 segmenten, zal het tot een staafgrafiek leiden. Voor andere typen gegevens kan er een lijngrafiek worden gemaakt, enzovoort.
 
 ![](assets/create-visual.png)
 
@@ -94,7 +97,7 @@ Instellingen die contextueel zijn ten opzichte van een grafiek, zijn toegankelij
 
 U kunt de namen van reeksen wijzigen in visualisatielanden (Fallout, Gebied, Gebied Gestapeld, Staaf, Stapelde balk, Donut, Histogram, Horizontale balk, Horizontale balk Gestapeld, Lijn, Verspreiden en Venn) om de visuele kwaliteit te verbeteren.
 
-Legenda bewerken is **niet** van toepassing op: Treemap, Opsommingsteken, Samenvattingswijziging of Nummer, Tekst, Vrije vorm, Histogram, Cohort- of Flow-visualisaties.
+Legend editing does **not** apply to: Treemap, Bullet, Summary Change or Number, Text, Freeform, Histogram, Cohort or Flow visualizations.
 
 Als u bijvoorbeeld een legenda-label in een lijndiagram wilt bewerken,
 
