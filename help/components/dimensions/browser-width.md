@@ -2,7 +2,7 @@
 title: Browserbreedte - gespaard
 description: De breedte van het browservenster in pixels.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -24,10 +24,10 @@ De breedte van de browser is altijd kleiner dan of gelijk aan de schermbreedte, 
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie wint gegevens van het [`bw` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeturement verzamelt deze gegevens met behulp van de JavaScript-variabele `window.innerWidth` in de browser. Als u een AppMeturement-bibliotheek gebruikt (bijvoorbeeld via Adobe Experience Platform Launch), werkt deze dimensie buiten het vak. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u de parameter van het `bw` vraagkoord op de eerste klap van elk bezoek omvat.
+Deze dimensie wint gegevens van het [`bw` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeturement verzamelt deze gegevens met behulp van de JavaScript-variabele `window.innerWidth` in de browser. Als u een bibliotheek AppMeasurement gebruikt (zoals door Adobe Experience Platform Launch), werkt deze afmeting uit de doos. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u de parameter van het `bw` vraagkoord op de eerste klap van elk bezoek omvat.
 
 Adobe blijft de browserbreedte voor een bezoek behouden. Als de breedte van de browser halverwege het bezoek wordt aangepast, wordt de aanpassing niet geregistreerd.
 
-## Dimensiewaarden
+## Dimensie-items
 
-De waarden van de afmeting omvatten alle verzamelde browser breedten, die in groepen van 100 pixel worden geclassificeerd. Als de browserbreedte van een hit bijvoorbeeld is `1280`, wordt deze gegroepeerd in de waarde voor de dimensie `1200 to 1299`.
+Dimensie-items omvatten alle verzamelde browserbreedten, geclassificeerd in groepen van 100 pixels. Als de browserbreedte van een hit bijvoorbeeld is `1280`, wordt deze gegroepeerd in het dimensie-item `1200 to 1299`.
