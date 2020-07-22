@@ -2,7 +2,7 @@
 title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over Analytics voor verschillende apparaten
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -23,7 +23,7 @@ U kunt een stroomvisualisatie gebruiken met de dimensie Mobiel apparaattype.
 
 ## Kan ik zien hoe mensen schakelen tussen verschillende gebruikerservaringen (bijvoorbeeld desktopbrowser versus mobiele browser versus mobiele app)?
 
-Als u het type mobiel apparaat gebruikt, zoals hierboven is geïllustreerd, kunt u zien hoe mensen van het ene type mobiel apparaat naar het andere bewegen. U kunt echter desktopbrowsers onderscheiden van mobiele browsers. Dit kunt u onder andere doen door een eVar te maken waarin wordt vastgelegd of de ervaring is opgedaan in een desktopbrowser, mobiele browser of mobiele app. Maak vervolgens een Stroomdiagram zoals hierboven beschreven, met uw &quot;ervaring&quot;-eVar in plaats van de dimensie Mobiel apparaattype. Dit geeft een iets andere weergave van gedrag tussen apparaten.
+Als u het type mobiel apparaat gebruikt, zoals hierboven is geïllustreerd, kunt u zien hoe mensen van het ene type mobiel apparaat naar het andere bewegen. U kunt echter desktopbrowsers onderscheiden van mobiele browsers. Dit kunt u onder andere doen door een eVar te maken waarin wordt vastgelegd of de ervaring is opgedaan in een desktopbrowser, mobiele browser of mobiele app. Maak vervolgens een Stroomdiagram zoals hierboven beschreven, met uw &quot;ervaring&quot;-eVar in plaats van de dimensie Mobiel apparaattype. Dit geeft een iets andere weergave op gedrag tussen apparaten.
 
 ## Hoe ver gaat de CDA bezoekers verstikken?
 
@@ -92,4 +92,4 @@ Neem contact op met de accountmanager van uw organisatie als u wilt overschakele
 
 ## Hoe gaat Adobe om met unieke limieten voor een eVar die wordt gebruikt voor stitching op basis van velden?
 
-CDA trekt de waarden van de eVar dimensie alvorens zij voor rapportering worden geoptimaliseerd. U hoeft zich geen zorgen te maken over unieke limieten in het kader van CDA. Nochtans, als u het gebruiken van die pro/eVar in een project van de Werkruimte probeerde, kunt u nog de waarde van de [(Laag-verkeer)](/help/technotes/low-traffic.md) dimensie zien.
+CDA trekt eVar dimensie-items voordat ze voor rapportage worden geoptimaliseerd. U hoeft zich geen zorgen te maken over unieke limieten in het kader van CDA. Nochtans, als u het gebruiken van die pro/eVar in een project van de Werkruimte probeerde, kunt u nog het [(Laag-verkeer)](/help/technotes/low-traffic.md) afmetingspunt zien.
