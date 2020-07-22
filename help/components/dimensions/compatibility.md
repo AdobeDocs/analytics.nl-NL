@@ -2,7 +2,7 @@
 title: Compatibiliteit met Analytics-afmetingen
 description: Referentie voor Analytics-afmetingen en -rapporten.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 8%
@@ -16,7 +16,7 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de
 
 >[!NOTE]
 >
->Namen, classificaties en kenmerken van aangepaste variabelen worden in deze lijst weggelaten. Deze waarden zijn specifiek voor individuele rapportreeksen.
+>Namen, classificaties en kenmerken van aangepaste variabelen worden in deze lijst weggelaten. Deze dimensiepunten zijn specifiek voor individuele rapportreeksen.
 
 >[!NOTE]
 >
