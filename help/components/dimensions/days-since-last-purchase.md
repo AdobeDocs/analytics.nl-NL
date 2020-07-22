@@ -2,7 +2,7 @@
 title: Dagen sinds laatste aankoop
 description: Het aantal dagen tussen de huidige treffer en de laatste aankoop die ze hebben gedaan.
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -20,6 +20,6 @@ Bezoekers die nog nooit iets hebben gekocht, vallen niet onder deze dimensie. Bo
 
 Adobe vult deze dimensie automatisch in op basis van de [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) gebeurtenis in uw implementatie. Als u de `purchase` gebeurtenis op uw site implementeert, werkt deze dimensie altijd.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Tot de maatwaarden behoren het aantal dagen tussen de meest recente aankoop van een bezoeker en de huidige treffer. Elk aantal dagen is een afzonderlijke waarde voor de dimensie, waarbij &quot;Zelfde dag&quot; plaatsvindt waar de meest recente aankoop van een bezoeker en de huidige treffer op dezelfde dag hebben plaatsgevonden.
+Dimensie-items bevatten het aantal dagen tussen de meest recente aankoop van een bezoeker en de huidige treffer. Elk aantal dagen is een apart item met een dimensie, waarbij &quot;Zelfde dag&quot; plaatsvindt waar de meest recente aankoop van een bezoeker en de huidige treffer op dezelfde dag hebben plaatsgevonden.
