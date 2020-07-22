@@ -2,7 +2,7 @@
 title: Pagina
 description: De naam van de pagina.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%
@@ -20,9 +20,9 @@ Deze dimensie is verwant met de sectie [van de](site-section.md) Plaats en de af
 
 Deze dimensie wint gegevens van het [`pageName` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeturement verzamelt deze gegevens met behulp van de `pageName` variabele. Als de `pageName` variabele niet is gedefinieerd, wordt de URL van de pagina weer gebruikt.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Tot de waarden voor dimensies behoren de namen van pagina&#39;s op uw site. Uw organisatie bepaalt welke specifieke afmetingswaarden u wilt gebruiken. Sommige organisaties gebruiken direct `document.title`, terwijl anderen een douane broodkruimel formuleren. Welke methode u ook gebruikt, zorg ervoor het verenigbaar is en dat u het in een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp registreert.
+Dimensie-items bevatten de namen van pagina&#39;s op uw site. Uw organisatie bepaalt welke specifieke afmetingspunten u wilt gebruiken. Sommige organisaties gebruiken direct `document.title`, terwijl anderen een douane broodkruimel formuleren. Welke methode u ook gebruikt, zorg ervoor het verenigbaar is en dat u het in een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp registreert.
 
 >[!NOTE]
 >
