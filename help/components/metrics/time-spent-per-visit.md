@@ -1,8 +1,8 @@
 ---
 title: Tijd besteed per bezoek
-description: De hoeveelheid tijd die per bezoek voor de afmetingswaarde wordt doorgebracht.
+description: De hoeveelheid tijd die per bezoek voor de afmetingspost wordt doorgebracht.
 translation-type: tm+mt
-source-git-commit: 5282ad3f6fdd2853979cbfb2707cc07a698f63a7
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 *Deze hulppagina beschrijft hoe de &quot;Tijd besteed per bezoek&quot;als metrisch werkt. Zie de[Tijd besteed per bezoek](../dimensions/time-spent-per-visit.md)afmeting voor meer informatie.*
 
-De metrische waarde &#39;Tijd doorgebracht per bezoek (seconden)&#39; geeft de gemiddelde hoeveelheid tijd weer die bezoekers tijdens elk bezoek met een bepaalde waarde van de afmeting in wisselwerking staan.
+De metrische waarde &#39;Tijd besteed per bezoek (seconden)&#39; toont de gemiddelde hoeveelheid tijd die bezoekers tijdens elk bezoek in wisselwerking staan met een bepaald dimensie-item.
 
-Deze metrisch is niet beschikbaar in het Warehouse van Gegevens toe te schrijven aan zijn verschillende verwerkingsarchitectuur.
+Dit metrisch is niet beschikbaar in Data warehouse wegens zijn verschillende verwerkingsarchitectuur.
 
 ## Hoe deze metrische waarde wordt berekend
 
@@ -30,6 +30,6 @@ Als gevolg hiervan leveren deze meetgegevens vergelijkbare resultaten op bij een
 
 ## Percentage boven 100%
 
-Deze metrische waarde bevat vaak percentages boven 100%. De noemer is de tijd van de hele dimensie die per bezoek wordt doorgebracht, en de teller is de tijd van de afmetingswaarde die per bezoek wordt doorgebracht. Als de volledige tijd van de afmeting per bezoek lager is dan de tijd van een bepaalde afmetingswaarde per bezoek, zult u percentages boven 100% zien. Het sorteren van gerangschikte rapporten door dit metrisch toont anomalietijd die per het bezoek wordt doorgebracht waarden, die typisch niet waardevol is. Adobe raadt u aan om in gerangschikte rapporten een andere waarde in te voeren, zoals [Visits](visits.md).
+Deze metrische waarde bevat vaak percentages boven 100%. De noemer is de tijd die de hele dimensie per bezoek besteedt, en de teller is de tijd die het dimensie-item per bezoek besteedt. Als de volledige tijd van de afmeting per bezoek lager is dan de tijd die een bepaald afmetingspunt per bezoek besteedt, zult u percentages boven 100% zien. Het sorteren van gerangschikte rapporten door dit metrisch toont anomalietijd die per het bezoek wordt doorgebracht waarden, die typisch niet waardevol is. Adobe raadt u aan om in gerangschikte rapporten een andere waarde in te voeren, zoals [Visits](visits.md).
 
 Zie [Tijd besteed overzicht](time-spent.md) voor meer algemene informatie over bestede tijd.
