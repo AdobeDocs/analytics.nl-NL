@@ -2,7 +2,7 @@
 title: Tijd besteed per bezoek
 description: De totale duur van het bezoek.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -34,11 +34,11 @@ Deze dimensie houdt verband met de [Gemiddelde tijd die aan plaats](../metrics/a
 
 Deze dimensies werken uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werken deze dimensies.
 
-## Dimensiewaarden
+## Dimensie-items
 
 Er zijn meerdere afmetingen voor de tijd die per bezoek wordt doorgebracht:
 
-* **Tijd doorgebracht per bezoek - gekapt**: De hoeveelheid tijd wordt opgesloten. Dimensiewaarden variëren van `"Less than 1 minute"` tot `"More than 15 hours"`. Bezoekingen duren gewoonlijk niet langer dan 12 uur; de bezoeken kunnen echter meer dan 12 uur duren wanneer gebruik wordt gemaakt van tijdstempels of gegevensbronnen .
-* **Tijd besteed per bezoek - korrelig**: Elk aantal seconden is een unieke afmetingswaarde. Deze dimensie is niet beschikbaar in Rapporten &amp; Analytics of Data warehouse.
+* **Tijd doorgebracht per bezoek - gekapt**: De hoeveelheid tijd wordt opgesloten. Dimensie-items variëren van `"Less than 1 minute"` tot `"More than 15 hours"`. Bezoekingen duren gewoonlijk niet langer dan 12 uur; de bezoeken kunnen echter meer dan 12 uur duren wanneer gebruik wordt gemaakt van tijdstempels of gegevensbronnen .
+* **Tijd besteed per bezoek - korrelig**: Elk aantal seconden is een uniek afmetingsitem. Deze dimensie is niet beschikbaar in Rapporten &amp; Analytics of Data warehouse.
 
 Zie [Tijd besteed overzicht](../metrics/time-spent.md) voor meer algemene informatie over bestede tijd.
