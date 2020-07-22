@@ -2,7 +2,7 @@
 title: Prop
 description: Een aangepaste dimensie die u kunt gebruiken in rapporten.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Elke eigenschap verzamelt gegevens van de reeks [`c1` - `c75` queryreeks](/help/
 
 AppMeasurement, waarmee JavaScript-variabelen worden gecompileerd in een afbeeldingsaanvraag voor gegevensverzameling, gebruikt de variabelen `prop1` - `prop75`. Zie [hulpmiddel](/help/implement/vars/page-vars/prop.md) in de de gebruikersgids van het Uitvoeren voor implementatierichtlijnen.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Aangezien de steunen douanetekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de afmetingswaarden voor elke klem zijn. Zorg ervoor u het doel van elke steun en typische afmetingswaarden in een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp registreert.
+Aangezien de steunen douanetekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de afmetingspunten voor elke klem zijn. Zorg ervoor u het doel van elke steun en typische afmetingspunten in een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp registreert.
 
 ## Waarde van props over eVars
 
