@@ -2,7 +2,7 @@
 title: Weekdag/Weekend
 description: Hiermee bepaalt u of de treffer tijdens een weekdag of een weekend heeft plaatsgevonden.
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -18,6 +18,6 @@ De dimensie &#39;Weekday/Weekend&#39; geeft inzicht in de vraag of de aanslag he
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Deze dimensie bevat altijd precies twee afmetingswaarden: `"Weekday"` en `"Weekend"`. De waarde Dimensie `"Weekday"` `"Weekend"` is van toepassing op alle hits op maandag tot en met vrijdag, terwijl de waarde Dimensie van toepassing is op alle hits op zaterdag en zondag.
+Deze dimensie bevat altijd precies twee dimensieitems: `"Weekday"` en `"Weekend"`. Het dimensie-item `"Weekday"` is van toepassing op alle treffers van maandag tot en met vrijdag, terwijl het dimensie-item van toepassing `"Weekend"` is op alle treffers op zaterdag en zondag.
