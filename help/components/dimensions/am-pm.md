@@ -2,7 +2,7 @@
 title: AM/PM
 description: Hiermee wordt bepaald of de treffer heeft plaatsgevonden tijdens uur 's ochtends of 's middags.
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -18,6 +18,6 @@ De dimensie &#39;AM/PM&#39; geeft inzicht in of de hit heeft plaatsgevonden tijd
 
 Deze dimensie werkt buiten de doos. Er zijn geen instellingen om te wijzigen. Zijn enige afhankelijkheid is op de tijdzone van de rapportreeks, die bepaalt welke uren AM zijn en PM zijn.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Deze dimensie bevat altijd precies twee afmetingswaarden: `"AM"` en `"PM"`. De waarde Dimensie `"AM"` is van toepassing op alle treffers van 12:00 tot 11:59 AM, terwijl de waarde van de afmeting op alle treffers van 12:00 tot 11:59 PM van toepassing `"PM"` is.
+Deze dimensie bevat altijd precies twee dimensieitems: `"AM"` en `"PM"`. Het item Dimensie `"AM"` is van toepassing op alle hits van 12.00 tot 11.59 uur &#39;s middags, terwijl het item Dimensie van `"PM"` toepassing is op alle hits van 12.00 tot 23.59 uur.
