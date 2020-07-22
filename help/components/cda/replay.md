@@ -2,7 +2,7 @@
 title: Hoe herspeelt u
 description: Begrijp het concept "replay"in Cross-Device Analytics
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: 2230fa2c48358346d1d449f2db335ff75c6b1631
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -23,12 +23,12 @@ In de volgende tabellen ziet u hoe beide CDA-methoden ([veldgebaseerde stitching
 
 ### Levend stitching
 
-Zodra een treffer is verzameld, probeert CDA deze aan bekende apparaten te hechten. Overweeg het volgende voorbeeld, waar het Loodje twee apparaten gebruikt.
+Zodra een treffer is verzameld, probeert de CDA deze aan bekende apparaten te hechten. Overweeg het volgende voorbeeld, waar het Loodje twee apparaten gebruikt.
 
 *Gegevens zoals deze worden weergegeven op de dag waarop ze worden verzameld:*
 
 | Tijdstempel | ECID | eVar1 of CustomerID | Toelichting bij treffer | Metrische personen (cumulatief) die de Grafiek van het Apparaat gebruiken | Metrische personen (cumulatief) die op veld gebaseerde stitching gebruiken |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob op zijn desktopcomputer, niet geverifieerd | `1` (246) | `1` (246) |
 | `2` | `246` | `Bob` | Bob meldt zich aan op zijn bureaublad | `1` (246) | `2` (246 en Bob) |
 | `3` | `3579` | - | Bob op zijn mobiele apparaat, niet geverifieerd | `2` (246 en 3579) | `3` (246, Bob en 3579) |
@@ -56,7 +56,7 @@ Ongeveer eens per week herberekent CDA historische gegevens op basis van de appa
 *Dezelfde gegevens na afspelen:*
 
 | Tijdstempel | ECID | eVar1 of CustomerID | Toelichting bij treffer | Metrische personen (cumulatief) die de Grafiek van het Apparaat gebruiken | Metrische personen (cumulatief) die op veld gebaseerde stitching gebruiken |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob op zijn desktopcomputer, niet geverifieerd | `1` (Cluster1) | `1` (Bob) |
 | `2` | `246` | `Bob` | Bob meldt zich aan op zijn bureaublad | `1` (Cluster1) | `1` (Bob) |
 | `3` | `3579` | - | Bob op zijn mobiele apparaat, niet geverifieerd | `1` (Cluster1) | `1` (Bob) |
