@@ -2,7 +2,7 @@
 title: Tijd besteed aan pagina
 description: De hoeveelheid tijd die een bezoeker op de pagina heeft doorgebracht.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -32,11 +32,11 @@ Deze dimensie is gebaseerd op hit, wat betekent dat de waarde voor elke hit ande
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensiewaarden
+## Dimensie-items
 
 Er zijn meerdere afmetingen voor de tijd die aan de pagina wordt doorgebracht:
 
-* **Tijd besteed aan pagina - gespaard**: De hoeveelheid tijd wordt opgesloten. Dimensiewaarden variëren van `"Less than 15 seconds"` tot `"More than 30 minutes"`. De tijd tussen paginaweergaven duurt gewoonlijk niet langer dan 30 minuten; de tijd tussen de paginaweergaven kan echter meer dan 30 minuten bedragen als u hits met een tijdstempel of gegevensbronnen gebruikt.
-* **Tijd besteed aan pagina - korrelig**: Elk aantal seconden is een unieke afmetingswaarde.
+* **Tijd besteed aan pagina - gespaard**: De hoeveelheid tijd wordt opgesloten. Dimensie-items variëren van `"Less than 15 seconds"` tot `"More than 30 minutes"`. De tijd tussen paginaweergaven duurt gewoonlijk niet langer dan 30 minuten; de tijd tussen de paginaweergaven kan echter meer dan 30 minuten bedragen als u hits met een tijdstempel of gegevensbronnen gebruikt.
+* **Tijd besteed aan pagina - korrelig**: Elk aantal seconden is een uniek afmetingsitem.
 
 Zie [Tijd besteed overzicht](../metrics/time-spent.md) voor meer algemene informatie over bestede tijd.
