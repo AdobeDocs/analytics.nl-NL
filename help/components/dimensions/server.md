@@ -2,7 +2,7 @@
 title: Server
 description: De naam van de server.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
@@ -20,6 +20,6 @@ Deze dimensie heeft betrekking op de afmetingen van de sectie [](page.md) Pagina
 
 Deze dimensie wint gegevens van het [`server` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeturement verzamelt deze gegevens met behulp van de [`server`](/help/implement/vars/page-vars/server.md) variabele.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Tot de waarden voor dimensies behoren servers op uw site. Uw organisatie bepaalt welke specifieke afmetingswaarden u wilt gebruiken. Sommige organisaties gebruiken `window.location.hostname`, terwijl andere een douanewaarde formuleren. Welke methode u ook gebruikt, zorg ervoor het verenigbaar is en dat u het in een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp registreert.
+Dimensie-items bevatten servers op uw site. Uw organisatie bepaalt welke specifieke afmetingspunten u wilt gebruiken. Sommige organisaties gebruiken `window.location.hostname`, terwijl andere een douanewaarde formuleren. Welke methode u ook gebruikt, zorg ervoor het verenigbaar is en dat u het in een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp registreert.
