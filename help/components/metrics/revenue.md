@@ -1,18 +1,18 @@
 ---
-title: Ontvangsten
+title: Omzet
 description: Het monetaire bedrag van de producten die binnen alle orders worden aangekocht.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Ontvangsten
+# Omzet
 
-De maatstaf &quot;Opbrengsten&quot; toont de monetaire hoeveelheid producten die binnen alle orders worden aangekocht. Deze maatstaf is van essentieel belang voor eCommerce-sites bij het meten van de conversie. U kunt deze metrisch met om het even welke afmeting combineren om te zien welke afmetingswaarden aan opbrengst droegen. U kunt bijvoorbeeld de bovenste campagnes (met de dimensie [Code](../dimensions/tracking-code.md) bijhouden) of de hoogste interne zoektermen (met een [eVar](../dimensions/evar.md)) zien.
+De maatstaf &quot;Opbrengsten&quot; toont de monetaire hoeveelheid producten die binnen alle orders worden aangekocht. Deze maatstaf is van essentieel belang voor eCommerce-sites bij het meten van de conversie. U kunt deze metrisch met om het even welke afmeting combineren om te zien welke afmetingspunten aan opbrengst hebben bijgedragen. U kunt bijvoorbeeld de bovenste campagnes (met de dimensie [Code](../dimensions/tracking-code.md) bijhouden) of de hoogste interne zoektermen (met een [eVar](../dimensions/evar.md)) zien.
 
 ## Hoe deze metrische waarde wordt berekend
 
