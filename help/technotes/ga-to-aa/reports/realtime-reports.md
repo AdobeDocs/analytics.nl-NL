@@ -2,7 +2,7 @@
 title: Real-time rapporten in Adobe Analytics
 description: Leer hoe u real-time rapporten kunt genereren in Adobe Analytics, gericht op gebruikers die meer vertrouwd zijn met Google Analytics.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Gebeurtenissen in real time vertellen u welke gebeurtenissen het meest op uw pla
 
 >[!NOTE]
 >
->Wanneer het gebruiken van douanegebeurtenissen in rapporten in real time, moet de afmetingswaarde in de zelfde klap worden bepaald zoals de douanegebeurtenis. Als u bijvoorbeeld een aangepaste gebeurtenis &#39;Registrations&#39; weergeeft voor de dimensie &#39;Referring Domain&#39;, worden er geen gegevens geretourneerd zonder aanvullende implementatie. Aangezien het verwijzende domein slechts op de eerste slag verschijnt, en een douanegebeurtenis typisch later in het bezoek zou verschijnen, kunnen de gegevens niet in rapporten in real time worden geassocieerd. Deze gegevens zijn beschikbaar in Analysis Workspace met standaard verwerkingslatentie, meestal 30-90 minuten.
+>Wanneer het gebruiken van douanegebeurtenissen in rapporten in real time, moet het afmetingspunt in de zelfde klap worden bepaald zoals de douanegebeurtenis. Als u bijvoorbeeld een aangepaste gebeurtenis &#39;Registrations&#39; weergeeft voor de dimensie &#39;Referring Domain&#39;, worden er geen gegevens geretourneerd zonder aanvullende implementatie. Aangezien het verwijzende domein slechts op de eerste slag verschijnt, en een douanegebeurtenis typisch later in het bezoek zou verschijnen, kunnen de gegevens niet in rapporten in real time worden geassocieerd. Deze gegevens zijn beschikbaar in Analysis Workspace met standaard verwerkingslatentie, meestal 30-90 minuten.
 
 ## Conversies in realtime
 
