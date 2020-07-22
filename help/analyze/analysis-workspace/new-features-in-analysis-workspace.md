@@ -3,10 +3,10 @@ description: Nieuwe functies in Analysis Workspace.
 keywords: Analysis Workspace
 title: Nieuwe functies in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7747'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -345,7 +345,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 12 april 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Nieuwe rij-instelling </a> </p> </td> 
-   <td colname="col2"> <p>De nieuwe instelling voor <span class="uicontrol"> percentage berekenen per rij</span> forceert de vrije-vormtabel om celpercentages per rij te berekenen in plaats van per kolom. Dit is vooral nuttig voor het trendpercentages, zoals bij het vergelijken hoe één dimensiewaarde over een bepaalde periode presteert in vergelijking met andere. Deze optie is standaard ingeschakeld wanneer u op het pictogram <span class="uicontrol"> Visualiseren </span> klikt. </p> </td> 
+   <td colname="col2"> <p>De nieuwe instelling voor <span class="uicontrol"> percentage berekenen per rij</span> forceert de vrije-vormtabel om celpercentages per rij te berekenen in plaats van per kolom. Dit is vooral nuttig voor het trending percentages, zoals het trending hoe één afmetingspunt tegen de rest in tijd evenaart. Deze optie is standaard ingeschakeld wanneer u op het pictogram <span class="uicontrol"> Visualiseren </span> klikt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Instelling voor 100% gestapelde visualisatie </a> </p> </td> 
@@ -515,7 +515,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wijzigingen in Geen/Niet-opgegeven </p> </td> 
-   <td colname="col2"> <p>De werking van Geen/Niet-opgegeven in Analysis Workspace is nu consistent de werking in Rapporten en Analytics, Segment-builder en het menu met dimensiewaarden in Analysis Workspace. </p> <p>Dit betekent dat de waarde in de meeste Analysis Workspace-projecten wordt getoond als "Niet-opgegeven" in plaats van "Geen". </p> </td> 
+   <td colname="col2"> <p>Veranderde hoe niets/niet gespecificeerd in Analysis Workspace zodat het met Rapporten &amp; Analytics, de Bouwer van het Segment en het menu van afmetingspunten in Analysis Workspace verenigbaar is. </p> <p>Dit betekent dat de waarde in de meeste Analysis Workspace-projecten wordt getoond als "Niet-opgegeven" in plaats van "Geen". </p> </td> 
   </tr> 
  </tbody> 
 </table>
