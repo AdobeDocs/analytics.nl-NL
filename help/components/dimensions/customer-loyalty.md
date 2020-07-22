@@ -2,7 +2,7 @@
 title: Klantenloyaliteit
 description: Categorieën gebaseerd op het aantal eerdere aankopen dat een bezoeker heeft gedaan.
 translation-type: tm+mt
-source-git-commit: a8dc233e962a49674a30ff3c9f0b5d0d45b09f24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -18,13 +18,13 @@ De dimensie &#39;Klantenloyaliteit&#39; rapporteert het aantal bezoekers van uw 
 
 Adobe vult deze dimensie automatisch in op basis van de [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) gebeurtenis in uw implementatie. Als u de `purchase` gebeurtenis op uw site implementeert, werkt deze dimensie altijd.
 
-## Dimensiewaarden
+## Dimensie-items
 
-De waarden van de afmeting omvatten het volgende:
+Dimensie-items zijn onder andere:
 
 * **Geen klant**: Op het moment van de treffer heeft de bezoeker nog nooit een aankoop gedaan.
 * **Nieuwe klanten**: Op het moment van de treffer heeft de bezoeker één aankoop gedaan.
 * **Retourklanten**: Op het moment van de treffer heeft de bezoeker twee aankopen gedaan.
 * **Klanten** met goede naam: Op het moment van de treffer heeft de bezoeker drie of meer aankopen gedaan.
 
-Wanneer een bezoeker een aankoop doet (de `purchase` gebeurtenis activeert), worden die hit en alle volgende treffers naar het volgende &quot;emmertje&quot; verplaatst. Als een bezoeker bijvoorbeeld voor het eerst een product van uw site koopt, gaan deze van &quot;Geen klant&quot; naar &quot;Nieuwe klanten&quot;, met de bestelling &quot;Nieuwe klanten&quot;. Aan de waarde van de dimensie &quot;Geen klant&quot; kunnen geen orders worden toegewezen.
+Wanneer een bezoeker een aankoop doet (de `purchase` gebeurtenis activeert), worden die hit en alle volgende treffers naar het volgende &quot;emmertje&quot; verplaatst. Als een bezoeker bijvoorbeeld voor het eerst een product van uw site koopt, gaan deze van &quot;Geen klant&quot; naar &quot;Nieuwe klanten&quot;, met de bestelling &quot;Nieuwe klanten&quot;. Aan de dimensie-item &quot;Geen klant&quot; kunnen geen orders worden toegewezen.
