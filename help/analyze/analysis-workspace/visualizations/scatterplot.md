@@ -1,15 +1,18 @@
 ---
-title: Scatterplot
+title: Spreidingsdiagram
 description: Een visualisatie die de relatie tussen maximaal drie metriek toont.
 translation-type: tm+mt
-source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 2%
 
 ---
 
 
-# Scatterplot
+# Spreidingsdiagram
 
-De scatterplot visualisatie toont het verband tussen afmetingswaarden en tot drie metriek. Hiervoor zijn drie componenten nodig en ondersteuning voor het visualiseren van maximaal vier componenten.
+De scatterplot visualisatie toont het verband tussen afmetingspunten en tot drie metriek. Hiervoor zijn drie componenten nodig en ondersteuning voor het visualiseren van maximaal vier componenten.
 
 * De rijcomponent (doorgaans een dimensie) vertegenwoordigt elk punt in de grafiek. Verschillende rijen worden weergegeven als verschillende gekleurde stippen.
 * In de kolom uiterst links (meestal metrisch) wordt de positie van de punt op de Y-as (verticaal) aangegeven.
@@ -17,4 +20,4 @@ De scatterplot visualisatie toont het verband tussen afmetingswaarden en tot dri
 * De derde kolom bepaalt de straal van de stip.
 * Alle volgende kolommen in een vrije-vormlijst worden genegeerd door de scatterplot visualisatie.
 
-![Scatterplot](assets/scatter.png)
+![Spreidingsdiagram](assets/scatter.png)
