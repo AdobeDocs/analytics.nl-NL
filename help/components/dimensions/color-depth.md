@@ -2,7 +2,7 @@
 title: Kleurdiepte
 description: De kleurdiepte van het apparaat.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -18,9 +18,9 @@ De dimensie &#39;Kleurdiepte&#39; rapporteert hoeveel kleuren het apparaat onder
 
 Deze dimensie verwijst naar een opzoektabel en zet de bitwaarde om in een beter leesbare indeling. Het verzamelt gegevens van het [`c` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken. AppMeturement gebruikt de `screen.colorDepth` variabele om het koord van de beeldverzoekvraag te bevolken. Als u AppMeasurement gebruikt (bijvoorbeeld via Adobe Experience Platform Launch), werkt deze dimensie buiten het vak. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u de parameter van het `c` vraagkoord op elke slag met een geldige beetjewaarde omvat.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Tot de waarden voor dimensies behoren het aantal kleuren dat door het apparaat wordt ondersteund. Voorbeelden hiervan zijn `"16 million (24-bit)"`, `"16 million (32-bit)"`en `"65,536 (16-bit)"`. Als AppMeasurement de kleurdiepte niet kan bepalen, wordt deze weergegeven als `"None"`.
+Dimensie-items bevatten het aantal kleuren dat door het apparaat wordt ondersteund. Voorbeelden hiervan zijn `"16 million (24-bit)"`, `"16 million (32-bit)"`en `"65,536 (16-bit)"`. Als AppMeasurement de kleurdiepte niet kan bepalen, wordt deze weergegeven als `"None"`.
 
 >[!TIP]
 >
