@@ -2,7 +2,7 @@
 title: VS-staten
 description: De Amerikaanse staat van de bezoeker.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Deze dimensie verwijst naar interne opzoekregels van Adobe. De raadplegingswaard
 >
 >Als uw organisatie strenge privacyverordeningen volgt waar het [verduisteren van IP adres](/help/admin/admin/general-acct-settings-admin.md) niet genoeg is, kunt u verzoeken om geolocatiegegevens volledig onbruikbaar te maken. Neem contact op met de klantenservice met de id van de rapportsuite en verzoek &#39;Geography&#39; uit te schakelen voor de rapportsuite.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Tot de maatwaarden behoren regio&#39;s en het land waarin de regio woont. Voorbeelden hiervan zijn `"California"`, `"Texas"`of `"Virginia"`. De waarde van de dimensie `"Unspecified"` omvat al internationaal verkeer buiten de Verenigde Staten.
+Tot de maatitems behoren regio&#39;s en het land waarin de regio woont. Voorbeelden hiervan zijn `"California"`, `"Texas"`of `"Virginia"`. Het dimensie-item `"Unspecified"` omvat alle internationale verkeer buiten de Verenigde Staten.
 
 ## Verschillen tussen gerapporteerde en werkelijke locatie
 
