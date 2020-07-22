@@ -2,7 +2,7 @@
 title: Pagina-URL
 description: De URL van de pagina.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 2%
@@ -28,6 +28,6 @@ Adobe raadt u aan een eVar in te stellen op de samengevoegde tekenreeks `window.
 
 Als u wilt dat de eVar precies de &quot;Pagina URL&quot;afmeting in Data warehouse aanpast, kunt u [dynamische variabelen](/help/implement/vars/page-vars/dynamic-variables.md) gebruiken en eVar plaatsen aan `D=g` bij elke slag. Deze methode werkt niet voor aangepaste koppelingstreffers, aangezien de pagina-URL voor alle [`tl()`](/help/implement/vars/functions/tl-method.md) aanroepen wordt gestript.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Tot de waarden voor dimensies behoren de URL&#39;s van pagina&#39;s op uw site.
+Dimensie-items bevatten de URL&#39;s van pagina&#39;s op uw site.
