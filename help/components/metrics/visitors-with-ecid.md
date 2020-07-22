@@ -2,7 +2,7 @@
 title: Bezoekers met Experience Cloud ID
 description: Het aantal unieke bezoekers dat de Adobe Experience Cloud ID-service gebruikt.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 4%
@@ -38,4 +38,4 @@ Door berekende metrisch aan het rapport toe te voegen, kunt u het rapport van Pa
 
 ![Pagina&#39;s zonder id-service](assets/metric-mcvid3.png)
 
-Merk op dat de waarde van de &quot;Snelle meningen van het Product&quot;dimensie niet behoorlijk met de Dienst van de Identiteit wordt uitgevoerd. U kunt met de juiste teams binnen uw organisatie samenwerken om deze pagina&#39;s zo snel mogelijk bij te werken. U kunt een gelijkaardig rapport met om het even welk type van afmeting zoals [Browser type](../dimensions/browser-type.md), de sectie [van de](../dimensions/site-section.md)Plaats, of om het even welk [eVar](../dimensions/evar.md)construeren.
+Merk op dat het de afmetingspunt van &quot;Snelle meningen van het Product&quot;niet behoorlijk met de Dienst van de Identiteit wordt uitgevoerd. U kunt met de juiste teams binnen uw organisatie samenwerken om deze pagina&#39;s zo snel mogelijk bij te werken. U kunt een gelijkaardig rapport met om het even welk type van afmeting zoals [Browser type](../dimensions/browser-type.md), de sectie [van de](../dimensions/site-section.md)Plaats, of om het even welk [eVar](../dimensions/evar.md)construeren.
