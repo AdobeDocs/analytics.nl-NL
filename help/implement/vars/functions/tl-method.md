@@ -2,7 +2,7 @@
 title: tl
 description: Stuur een koppelingenvolgvraag naar Adobe.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 1%
@@ -79,7 +79,7 @@ s.tl(true,"e");
 
 ### Koppelingsnaam
 
-Het argument van de verbindingsnaam is een koord dat de de afmetingswaarde van de verbinding het volgen bepaalt. Dit is hetzelfde als het instellen van de [`linkName`](../config-vars/linkname.md) variabele.
+Het argument van de verbindingsnaam is een koord dat het verbinding volgende afmetingspunt bepaalt. Dit is hetzelfde als het instellen van de [`linkName`](../config-vars/linkname.md) variabele.
 
 ```js
 s.tl(true,"d","Example download link");
