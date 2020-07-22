@@ -2,7 +2,7 @@
 title: Dynamische variabelen
 description: Variabelen kopiëren zonder de lengte van de afbeeldingsaanvraag te verhogen.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%
@@ -26,14 +26,14 @@ Wanneer Adobe een dynamisch veranderlijk voorvoegsel herkent, kopieert het autom
 
 ## Dynamische variabelen in Adobe Experience Platform Launch
 
-U kunt dynamische variabelen in om het even welk afmetingsgebied gebruiken dat een koord goedkeurt. Dimensiewaarden worden doorgaans ingesteld tijdens het configureren van de Analytics-extensie (algemene variabelen) of onder regels.
+U kunt dynamische variabelen in om het even welk afmetingsgebied gebruiken dat een koord goedkeurt. Dimensie-items worden doorgaans ingesteld tijdens het configureren van de Analytics-extensie (algemene variabelen) of onder regels.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 4. Klik onder [!UICONTROL Actions]op een bestaande [!UICONTROL Adobe Analytics - Set Variables] handeling of klik op het pictogram ‘+’.
 5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en [!UICONTROL Action Type] op [!UICONTROL Set Variables].
-6. Zoek de gewenste waarde voor de dimensie.
+6. Zoek het gewenste dimensie-item.
 
 Plaats het voorvoegsel van de dynamische variabele in het tekstveld, gevolgd door de parameter van de querytekenreeks of de HTTP-header waarnaar u wilt verwijzen. Standaard is het voorvoegsel van de dynamische variabele `D=`.
 
