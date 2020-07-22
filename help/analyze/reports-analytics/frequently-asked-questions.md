@@ -4,14 +4,17 @@ keywords: Troubleshooting Analytics
 title: Veelgestelde vragen
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 0%
 
 ---
 
 
 # Veelgestelde vragen
 
-Verstrekt antwoorden en het oplossen van problemensuggesties aan enkele van de vaakst gestelde vragen van Analytics voor Rapporten &amp; Analytics. Raadpleeg de [Veelgestelde vragen](/help/implement/faq.md) in de gebruikershandleiding Implementeren voor veelgestelde implementatievragen.
+Biedt antwoorden en suggesties voor het oplossen van problemen voor een aantal van de meestgestelde Analytics-vragen voor Reports &amp; Analytics. Raadpleeg de [Veelgestelde vragen](/help/implement/faq.md) in de gebruikershandleiding Implementeren voor veelgestelde implementatievragen.
 
 **Mijn account is vergrendeld. hoe ontgrendel ik het?**
 
@@ -21,7 +24,7 @@ Neem contact op met een beheerder binnen uw organisatie om een account opnieuw t
 
 Er zijn verscheidene dingen om rapportgegevens problemen op te lossen te controleren:
 
-* Controleer de gebruikte cijfers: In sommige rapporten wordt standaard de waarde Opbrengst in Rapporten en Analyse gebruikt. Zorg metrisch u bekijkt voor het rapport relevant is.
+* Controleer de gebruikte cijfers: In sommige rapporten wordt de waarde Opbrengst in Rapporten &amp; Analytics niet aangehouden. Zorg metrisch u bekijkt voor het rapport relevant is.
 * Controleer het datumbereik: Datumbereiken, met name die buiten het beleid van uw organisatie voor gegevensbehoud, kunnen geen gegevens retourneren. Controleer of het datumbereik juist is ingesteld.
 * Interne URL-filters controleren: Sommige rapporten van verkeersbronnen werken pas nadat u de interne filters URL correct hebt gedefinieerd.
 
@@ -39,11 +42,11 @@ Real-time rapportering maakt het mogelijk dat sommige verkeersmetriek binnen min
 
 **Waarom kan ik de apparaatversie niet zien op iPhones?**
 
-Apple-apparaten rapporteren hun firmware-versie in de userAgent-tekenreeks, niet in de apparaatversie. Het is moeilijk om de versie van het iPhone-apparaat te bepalen aan de hand van de informatie die beschikbaar is voor Adobe Analytics. Zie iPhone-apparaatversies [](https://helpx.adobe.com/analytics/kb/comparing-iphone-device-versions.html) vergelijken in de KB Analytics voor meer informatie.
+Apple-apparaten rapporteren hun firmware-versie in de userAgent-tekenreeks, niet in de apparaatversie. Het is moeilijk om de versie van het iPhone-apparaat te bepalen aan de hand van de informatie die beschikbaar is voor Adobe Analytics. Zie iPhone-apparaatversies [](https://helpx.adobe.com/analytics/kb/comparing-iphone-device-versions.html) vergelijken in de Analytics KB voor meer informatie.
 
 **Waarom komen de totalen onder aan mijn verslag niet overeen wanneer ik de waarden opsommen?**
 
-Dimensiewaarden kunnen vaak op meerdere plaatsen worden toegepast. bijvoorbeeld bezoeken die middernacht omspannen of meerdere producten die tot één bestelling behoren. De waarde van de dimensie wordt gerapporteerd over alle toepasselijke lijnposten, maar wordt gededupliceerd in het totaal van het rapport. Zie de som lijnpunten [vergelijken om totaal](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) in Analytics KB voor meer informatie te melden.
+Dimensie-items kunnen vaak op meerdere plaatsen worden toegepast. bijvoorbeeld bezoeken die middernacht omspannen of meerdere producten die tot één bestelling behoren. De dimensie-item wordt gerapporteerd in alle toepasselijke posten, maar wordt gededupliceerd in het totaal van het rapport. Zie [De som van lijnitems vergelijken om het totaal](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) in de Analytics KB te rapporteren voor meer informatie.
 
 **Hoe sluit ik gegevens van een bepaalde IP adressen in mijn rapportreeks uit?**
 
@@ -55,8 +58,8 @@ Het verwijderen van een rapportsuite is niet mogelijk. Een rapportsuite kan echt
 
 **Wanneer het gebruiken van segmentatie, welke container zou ik moeten gebruiken? Paginaweergave, bezoek of bezoeker?**
 
-De segmentcontainer die u gebruikt, is afhankelijk van de breedte waarmee u gegevens wilt vastleggen. De containers van de paginamening brengen slechts in klappen die segmentcriteria aanpassen, nuttig om irrelevante delen van bezoeken uit te filteren. Met Bezoek-containers haalt u alle resultaten van een bezoek bij een of meer treffers die voldoen aan de criteria van een bepaald segment. Dit is handig als u sessies in het algemeen wilt bekijken. Bezoekerscontainers brengen alle bezoeken waar een hit aan segmentcriteria voldeed, nuttig om mensen te bekijken. Het is uw keus als analist om te bepalen welke segmentcontainer best is te gebruiken. Zie [Segmentatieoverzicht](/help/components/c-segmentation/seg-overview.md) in de gebruikershandleiding van Componenten voor meer informatie.
+De segmentcontainer die u gebruikt, is afhankelijk van de breedte waarmee u gegevens wilt vastleggen. De containers van de paginamening brengen slechts in klappen die segmentcriteria aanpassen, nuttig om irrelevante delen van bezoeken uit te filteren. Met Bezoek-containers haalt u alle resultaten van een bezoek bij een of meer treffers die voldoen aan de criteria van een bepaald segment. Dit is handig als u sessies in het algemeen wilt bekijken. Bezoekerscontainers brengen alle bezoeken waar een hit aan segmentcriteria voldeed, nuttig om mensen te bekijken. Het is uw keus als analist om te bepalen welke segmentcontainer best is te gebruiken. See [Segmentation overview](/help/components/c-segmentation/seg-overview.md) in the Components user guide for more information.
 
-**Waarom wordt mijn segment niet weergegeven in Data Warehouse?**
+**Waarom wordt mijn segment niet weergegeven in Data warehouse?**
 
-Vanwege de unieke verwerkingsarchitectuur van het Data Warehouse is het platform niet geoptimaliseerd voor het verwerken van bepaalde soorten gegevens, zoals het plakken. Zie de [verenigbaarheid](/help/components/c-segmentation/seg-reference/seg-compatibility.md) van het segment van het Pakhuis van Gegevens in de de gebruikersgids van Componenten voor meer informatie.
+Vanwege Data warehouse unieke verwerkingsarchitectuur is het platform niet geoptimaliseerd voor het verwerken van bepaalde gegevenstypen, zoals paden. Zie [Data warehouse segmentcompatibiliteit](/help/components/c-segmentation/seg-reference/seg-compatibility.md) in de gebruikershandleiding voor componenten voor meer informatie.
