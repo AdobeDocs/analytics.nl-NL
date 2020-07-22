@@ -2,7 +2,7 @@
 title: Rapporten
 description: De afmetingen en metriek die Rapporten & Analytics voor elk rapport gebruiken.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -88,19 +88,19 @@ Bevat rapporten over verouderde mobiele rapporten. Deze rapporten baseren hun ge
 
 Bevat rapporten waarmee u tekengegevens voor bezoekers kunt bekijken.
 
-* Volgende paginastroom: Gebruikt een stroomrapport op de waarde van de hoogste paginadimensie. De padweergaven zijn vergelijkbaar met die van [instanties](/help/components/metrics/instances.md). U kunt de gerapporteerde waarde van de dimensie wijzigen. Een vergelijkbaar rapport in Analysis Workspace is beschikbaar via een [stroomvisualisatie](../analysis-workspace/visualizations/c-flow/flow.md).
-* Volgende pagina: Neemt de waarde voor de afmetingen van de bovenste pagina en toont u de volgende pagina&#39;s die bezoekers hebben bezocht.
-* Vorige paginastroom: Gebruikt een stroomrapport op de waarde van de hoogste paginadimensie Een gelijkaardig rapport in Analysis Workspace is beschikbaar gebruikend een [Stroomvisualisatie](../analysis-workspace/visualizations/c-flow/flow.md).
-* Vorige pagina: Neemt de waarde voor de afmetingen van de bovenste pagina op en toont u de vorige pagina&#39;s waar bezoekers vandaan kwamen.
-* Uitvallen: Hiermee kunt u de waarden voor de pagina-afmetingen in stappen selecteren en wordt aangegeven hoeveel personen dat pad wel en niet hebben gevolgd. Een vergelijkbaar rapport in Analysis Workspace is beschikbaar via een [Fallout-visualisatie](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Volledige paden: Hiermee geeft u afzonderlijke paden weer als waarden voor afmetingen. in Analysis Workspace; gebruik in plaats hiervan de [stroomvisualisatie](../analysis-workspace/visualizations/c-flow/flow.md) .
+* Volgende paginastroom: Gebruikt een stroomrapport op het punt van de hoogste paginadimensie. De padweergaven zijn vergelijkbaar met die van [instanties](/help/components/metrics/instances.md). U kunt de gerapporteerde dimensie-item wijzigen. Een vergelijkbaar rapport in Analysis Workspace is beschikbaar via een [stroomvisualisatie](../analysis-workspace/visualizations/c-flow/flow.md).
+* Volgende pagina: Neemt het bovenste pagina dimensie-item en toont u de volgende pagina&#39;s waar bezoekers naartoe zijn gegaan.
+* Vorige paginastroom: Gebruikt een stroomrapport op het punt van de hoogste paginadimensie A gelijkaardig rapport in Analysis Workspace is beschikbaar gebruikend een [Stroomvisualisatie](../analysis-workspace/visualizations/c-flow/flow.md).
+* Vorige pagina: Neemt het bovenste pagina dimensie-item en toont u de vorige pagina&#39;s waar bezoekers vandaan kwamen.
+* Uitvallen: Hiermee kunt u pagina-elementen in stappen selecteren en wordt aangegeven hoeveel personen dat pad wel en niet hebben gevolgd. Een vergelijkbaar rapport in Analysis Workspace is beschikbaar via een [Fallout-visualisatie](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Volledige paden: Hiermee geeft u afzonderlijke paden weer als dimensie-items. in Analysis Workspace; gebruik in plaats hiervan de [stroomvisualisatie](../analysis-workspace/visualizations/c-flow/flow.md) .
 * PathFinder: Verstrekt veelvoudige types van rapporten die u wegen (gepensioneerd in Analysis Workspace) laten analyseren.
 * Lengte pad: Hiermee gebruikt u de diepte [van](/help/components/dimensions/visit-depth.md) Bezoek.
 * Paginaanalyse
-   * Paginaoverzicht: Neemt de waarde van de hoogste paginafmeting en toont een trended mening. Hier worden ook de invoerpunten, vorige pagina&#39;s, eindpunten en volgende pagina&#39;s voor de waarde van de afmeting van de bovenste pagina weergegeven.
+   * Paginaoverzicht: Neemt het bovenste pagina dimensie-item en toont een trendweergave. Geeft ook ingangspunten, vorige pagina&#39;s, exitpunten en volgende pagina&#39;s voor dat bovenste pagina-afmetingitem weer.
    * Opnieuw laden: Gebruikt de afmeting van de [Pagina](/help/components/dimensions/page.md) met [herlaadt](/help/components/metrics/reloads.md) metrisch.
    * Tijd besteed aan pagina: Gebruikt de [Tijd die aan pagina wordt doorgebracht - geknipte](/help/components/dimensions/time-spent-on-page.md) afmeting.
-   * Klik op pagina: Neemt de waarde van de hoogste paginafmeting en toont het aantal kliks het nam om aan die pagina in een bepaald bezoek te krijgen.
+   * Klik op pagina: Neemt het item voor de bovenste pagina-dimensie en toont het aantal klikken dat nodig was om naar die pagina te gaan tijdens een bepaald bezoek.
 * Vermeldingen en uitgangen
    * Invoerpagina&#39;s: Hiermee gebruikt u de dimensie [Pagina](/help/components/dimensions/entry-dimensions.md) &#39;s invoeren.
    * Oorspronkelijke invoerpagina&#39;s: Hiermee gebruikt u de oorspronkelijke [afmeting van de](/help/components/dimensions/entry-dimensions.md) invoerpagina.
@@ -171,7 +171,7 @@ Bevat rapporten over wie uw plaats bezoekt.
    * VS-staten: Gebruikt de [Amerikaanse](/help/components/dimensions/us-states.md) dimensie.
    * US DMA: Gebruikt de [dimensie DMA](/help/components/dimensions/us-dma.md) van de V.S.
 * Talen: Gebruikt de dimensie [Taal](/help/components/dimensions/language.md) .
-* Tijdzones: Gebruikt de dimensie van de tijdzone (gepensioneerd in Analysis Workspace). Dimensiewaarden zijn de GMT-verschuiving van de hit.
+* Tijdzones: Gebruikt de dimensie van de tijdzone (gepensioneerd in Analysis Workspace). Dimensie-items zijn de GMT-verschuiving van de hit.
 * Domein: Gebruikt de dimensie van het [Domein](/help/components/dimensions/domain.md) .
 * Domein op hoofdniveau: Gebruikt de domeindimensie op het hoogste niveau (in Analysis Workspace niet meer beschikbaar). Het groepeert de [domeinen](/help/components/dimensions/domain.md) dimensie in hoger-niveaucategorieën, typisch door land van het domein.
 * Technologie: Map met rapporten over wat de bezoeker heeft gebruikt om uw site te openen.
@@ -184,12 +184,12 @@ Bevat rapporten over wie uw plaats bezoekt.
    * Kleurdiepte monitor: Hierbij wordt de [kleurdiepte](/help/components/dimensions/color-depth.md) gebruikt.
    * Monitorresolutie: Hierbij wordt de resolutieafmeting van de [monitor](/help/components/dimensions/monitor-resolution.md) gebruikt.
    * Java: Gebruikt de dimensie [Java ingeschakeld](/help/components/dimensions/java-enabled.md) .
-   * JavaScript: Gebruikt de voor JavaScript ingeschakelde dimensie (in Analysis Workspace afgebroken). Dimensiewaarden worden &#39;Enabled&#39;, &#39;Disabled&#39; of &#39;Unknown&#39; (Onbekend), afhankelijk van het feit of de browser JavaScript heeft ingeschakeld.
-   * JavaScript-versie: gebruikt de JavaScript-versie-dimensie (in Analysis Workspace afgebroken). De waarden van de afmeting tonen de versie van JavaScript die browser gebruikt.
+   * JavaScript: Gebruikt de voor JavaScript ingeschakelde dimensie (in Analysis Workspace afgebroken). Dimensie-items zijn &#39;Ingeschakeld&#39;, &#39;Uitgeschakeld&#39; of &#39;Onbekend&#39;, afhankelijk van het feit of de browser JavaScript heeft ingeschakeld.
+   * JavaScript-versie: gebruikt de JavaScript-versie-dimensie (in Analysis Workspace afgebroken). Dimensie-items tonen de versie van JavaScript die de browser gebruikt.
    * Cookies: Hiermee gebruikt u de [ondersteuningsdimensie](/help/components/dimensions/cookie-support.md) voor cookies.
    * Verbindingstypen: Gebruikt de het type [afmeting van de](/help/components/dimensions/connection-type.md) Verbinding.
    * Mobiele drager: Gebruikt de afmeting [Mobiele drager](/help/components/dimensions/mobile-dimensions.md) .
-* Status bezoeker: Gebruikt de overheidsdimensie (gepensioneerd in Analysis Workspace). Dimensiewaarden komen voort uit de [`state`](../../implement/vars/page-vars/state.md) variabele.
+* Status bezoeker: Gebruikt de overheidsdimensie (gepensioneerd in Analysis Workspace). Dimensie-items komen voort uit de [`state`](../../implement/vars/page-vars/state.md) variabele.
 * Postcode bezoeker: Hiermee wordt de [dimensie Postcode](/help/components/dimensions/zip-code.md) gebruikt.
 
 ## Aangepaste conversie
@@ -204,7 +204,7 @@ Bevat specifieke rapporten voor uw implementatie. De het verkeersrapporten van d
 
 Bevat rapporten met betrekking tot [Marketing kanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-* Rapport Kanaaloverzicht: Een speciaal aangepast rapport voor Rapporten en Analytics. Gebruikt marketingkanalen als dimensiewaarden, met meetwaarden die de eerste of laatste aanraakkenmerk gebruiken.
+* Rapport Kanaaloverzicht: Een speciaal aangepast rapport voor Rapporten en Analytics. Gebruikt marketingkanalen als dimensie-items, met meetwaarden die de eerste of laatste aanraakkenmerk gebruiken.
 * Eerste aanraakkanaal: Hiermee gebruikt u de dimensie van het [eerste aanraakkanaal](/help/components/dimensions/first-touch-channel.md) .
 * Details eerste aanraakkanaal: Hiermee gebruikt u de detaildimensie van het [eerste aanraakkanaal](/help/components/dimensions/first-touch-detail.md) .
 * Laatste aanraakkanaal: Hiermee gebruikt u de dimensie van het [laatste aanraakkanaal](/help/components/dimensions/last-touch-channel.md) .
