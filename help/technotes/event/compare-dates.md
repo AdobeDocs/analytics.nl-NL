@@ -2,7 +2,10 @@
 title: Datums vergelijken die door een gebeurtenis worden beïnvloed met vorige bereiken
 description: Leer meer over de impact van een gebeurtenis, zoals een implementatieprobleem of een stroomstoring, door deze te vergelijken met eerdere trends.
 translation-type: tm+mt
-source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ U kunt elke metrische waarde tussen het datumbereik van de gebeurtenis en vergel
 
 ## Bereken percentageverschillen tussen de gebeurtenis en gelijkaardige vroegere waaiers
 
-Vergelijk afmetingswaarden tussen de de datumwaaier van een gebeurtenis en gelijkaardige vroegere datumwaaiers gebruikend een vrije lijstvisualisatie. Deze stappen illustreren een voorbeeld van een week-over-week dat u kunt volgen.
+Vergelijk afmetingspunten tussen de de datumwaaier van een gebeurtenis en gelijkaardige vroegere datumwaaiers gebruikend een vrije lijstvisualisatie. Deze stappen illustreren een voorbeeld van een week-over-week dat u kunt volgen.
 
 1. Open een project van de Werkruimte, en voeg een **niet-tijddimensie** aan de vrije vormlijst toe. U kunt bijvoorbeeld de dimensie Mobiel apparaattype gebruiken. Pas het recent gemaakte datumbereik toe dat op metrische wijze is gestapeld, zoals &#39;Voorvallen&#39;:
 
