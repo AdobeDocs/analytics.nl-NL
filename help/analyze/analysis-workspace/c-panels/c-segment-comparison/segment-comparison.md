@@ -3,7 +3,7 @@ title: Overzicht van het vergelijkingspaneel voor segmenten
 description: Leer hoe u het vergelijkingspaneel voor segmenten gebruikt, onderdeel van de IQ voor segmenten in Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 4%
@@ -91,19 +91,19 @@ Rechts van de tabel Metriek bevindt zich een gekoppelde visualisatie. U kunt een
 
 ### Bovenste afmetingen
 
-Toont de statistisch meest significante afmetingswaarden over al uw dimensies. Elke rij toont het percentage van elk segment dat deze afmetingswaarde tentoonstelt. Deze tabel kan bijvoorbeeld laten zien dat 100% van de bezoekers in &#39;Segment A&#39; het afmetingitem &#39;Browsertype: Google&quot;, terwijl slechts 19,6% van &#39;Segment B&#39; dit dimensie-item had. Een verschilscore van 1 betekent dat deze statistisch significant is, terwijl een verschilscore van 0 betekent dat er geen statistische significantie is.
+Toont de statistisch meest significante afmetingspunten over al uw dimensies. Elke rij toont het percentage van elk segment dat dit afmetingspunt tentoonstelt. Deze tabel kan bijvoorbeeld laten zien dat 100% van de bezoekers in &#39;Segment A&#39; het afmetingitem &#39;Browsertype: Google&quot;, terwijl slechts 19,6% van &#39;Segment B&#39; dit dimensie-item had. Een verschilscore van 1 betekent dat deze statistisch significant is, terwijl een verschilscore van 0 betekent dat er geen statistische significantie is.
 
-Deze visualisatie lijkt op vrije-vormtabellen in Analysis Workspace. Als u een diepgaande analyse van een specifieke afmetingswaarde wilt uitvoeren, plaatst u de muisaanwijzer boven een regelitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om die specifieke waarde voor de dimensie te analyseren. Als een afmetingswaarde irrelevant voor uw analyse is, beweegt zich over het lijnpunt en klikt &quot;X&quot;om het te verwijderen.
+Deze visualisatie lijkt op vrije-vormtabellen in Analysis Workspace. Als u een diepgaande analyse van een specifiek dimensie-item wilt uitvoeren, plaatst u de muisaanwijzer boven een lijstitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om dat specifieke dimensie-item te analyseren. Als een dimensie-item irrelevant is voor uw analyse, plaatst u de muisaanwijzer boven het lijstitem en klikt u op de X-toets om het item te verwijderen.
 
 >[!NOTE]
 >
->De waarden van de afmeting die aan deze lijst worden toegevoegd nadat de segmentvergelijking is gebeëindigd ontvangen geen Score van het Verschil.
+>Dimensie-items die aan deze tabel worden toegevoegd nadat de gesegmenteerde vergelijking is voltooid, ontvangen geen Andere score.
 
 ![Bovenste afmetingen](assets/top-dimension-item1.png)
 
 ### Dimensie-items per segment
 
-Rechts van de tabel met afmetingen bevindt zich een gekoppelde staafdiagramvisualisatie. Het toont alle getoonde afmetingswaarden in een staafdiagram. Als u op een regelitem in de tabel links klikt, wordt de visualisatie rechts bijgewerkt.
+Rechts van de tabel met afmetingen bevindt zich een gekoppelde staafdiagramvisualisatie. Het toont alle getoonde afmetingspunten in een staafdiagram. Als u op een regelitem in de tabel links klikt, wordt de visualisatie rechts bijgewerkt.
 
 ![Bovenste dimensiebalkdiagram](assets/top-dimension-item.png)
 
