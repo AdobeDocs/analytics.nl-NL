@@ -2,7 +2,7 @@
 title: Pagina's niet gevonden
 description: URL's die een fout op uw site hebben geretourneerd.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -23,6 +23,6 @@ De dimensie &#39;Pagina&#39;s niet gevonden&#39; toont URL&#39;s die een fout be
 
 Deze dimensie wint gegevens van de [`pageType` en `g` vraagkoorden](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. Als de `pageType` querytekenreeks gelijk is `errorPage`, wordt de `g` querytekenreeks (pagina-URL) opgenomen. AppMeturement verzamelt deze gegevens met behulp van de [`pageType`](/help/implement/vars/page-vars/pagetype.md) variabele. Als de `pageType` variabele niet is gedefinieerd of op iets anders is ingesteld dan `errorPage`, worden geen gegevens voor deze dimensie verzameld.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Tot de waarden voor dimensies behoren de URL&#39;s van pagina&#39;s op uw site waar een fout is opgetreden.
+Dimensie-items omvatten de URL&#39;s van pagina&#39;s op uw site waar een fout is opgetreden.
