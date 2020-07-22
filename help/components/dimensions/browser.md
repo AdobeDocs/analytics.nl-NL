@@ -2,10 +2,10 @@
 title: Browser
 description: De naam en versie van de gebruikte browser.
 translation-type: tm+mt
-source-git-commit: 4a7b3a00bdbf557c219de530e3e692c2b2db4a84
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -16,10 +16,10 @@ De dimensie Browser rapporteert de naam en de versie van de browser die de hit v
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar een interne opzoektabel van Adobe. De opzoekwaarde is gebaseerd op de `User-Agent` HTTP-header in afbeeldingsaanvragen. Als u een AppMeturement-bibliotheek gebruikt (bijvoorbeeld via Adobe Experience Platform Launch), werkt deze dimensie buiten het vak.
+Deze dimensie verwijst naar een interne opzoektabel van Adobe. De opzoekwaarde is gebaseerd op de `User-Agent` HTTP-header in afbeeldingsaanvragen. Als u een bibliotheek AppMeasurement gebruikt (zoals door Adobe Experience Platform Launch), werkt deze afmeting uit de doos.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Tot de waarden voor dimensies behoren de gebruikte browsernamen en -versies. Verschillende versies van dezelfde browser zijn afzonderlijke waarden voor afmetingen.
+Dimensie-items omvatten de gebruikte browsernamen en -versies. Verschillende versies van dezelfde browser zijn afzonderlijke dimensie-items.
 
-Sommige dimensiewaarden bevatten `"(unknown version)"` in plaats van hun versienummer. Deze waarde verwijst naar een recente browserversie die Adobe niet aan hun raadplegingstabellen heeft toegevoegd. Aangezien browsers regelmatig bijwerken, is de `"(unknown version)"` versie voor een bepaalde browser gebruikelijk en tijdelijk. Adobe werkt opzoektabellen gewoonlijk bij tijdens maandelijkse onderhoudsreleases.
+Sommige dimensie-items bevatten `"(unknown version)"` in plaats van hun versienummer. Dit dimensie-item verwijst naar een recente browserversie die Adobe niet heeft toegevoegd aan hun opzoektabellen. Aangezien browsers regelmatig bijwerken, is de `"(unknown version)"` versie voor een bepaalde browser gebruikelijk en tijdelijk. Adobe werkt opzoektabellen gewoonlijk bij tijdens maandelijkse onderhoudsreleases.
