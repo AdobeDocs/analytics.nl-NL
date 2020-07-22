@@ -2,7 +2,7 @@
 title: Unieke bezoekers
 description: Het aantal unieke personen (of apparaten).
 translation-type: tm+mt
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Unieke bezoekers
 
-De metrische waarde &#39;Unieke bezoekers&#39; geeft het aantal bezoekers-id&#39;s voor de waarde van de dimensie aan. Het is één van de gemeenschappelijkste metriek die bij het bepalen van verkeer wordt gebruikt, aangezien het een overzicht op hoog niveau van de populariteit van een afmetingswaarde geeft. Een bezoeker kan bijvoorbeeld elke dag een maand naar uw site komen, maar hij telt nog steeds als één unieke bezoeker.
+De metrische waarde &#39;Unieke bezoekers&#39; geeft het aantal bezoekers-id&#39;s voor het dimensie-item aan. Het is één van de gemeenschappelijkste metriek die bij het bepalen van verkeer wordt gebruikt, aangezien het een overzicht op hoog niveau van de populariteit van een afmetingspunt geeft. Een bezoeker kan bijvoorbeeld elke dag een maand naar uw site komen, maar hij telt nog steeds als één unieke bezoeker.
 
 Als u [Apparaatanalyse](../cda/overview.md)gebruikt, wordt deze metrische waarde hernoemd naar &#39;Unieke apparaten&#39;.
 
@@ -20,11 +20,11 @@ Als u [Apparaatanalyse](../cda/overview.md)gebruikt, wordt deze metrische waarde
 
 Rapporten &amp; Analytics biedt opties voor unieke bezoekers per dag, week, maand, kwartaal en jaar. In plaats van één unieke bezoeker te tellen voor de volledige tijdsperiode, tellen de unieke bezoekers gebaseerd op geselecteerde metrisch. U wilt bijvoorbeeld naar dagelijkse unieke bezoekers voor uw site kijken. Als een bezoeker &#39;s ochtends en &#39;s avonds weer naar uw site komt, telt hij als één enkele unieke dagelijkse bezoeker. Als een bezoeker maandag en dinsdag weer naar uw site komt, telt hij als twee unieke bezoekers per dag.
 
-Analysis Workspace behandelt unieke bezoekers op basis van de granulariteit van het rapport. Bijvoorbeeld, als u de dimensie van de [Dag](../dimensions/day.md) gebruikt, zult u dagelijkse unieke bezoekers voor elke afmetingswaarde zien. Nochtans, voor het rapporttotaal, wordt het gededupliceerde unieke bezoekers voor de de datumwaaier van de vrije lijst van de vorm.
+Analysis Workspace behandelt unieke bezoekers op basis van de granulariteit van het rapport. Als u bijvoorbeeld de dimensie [Dag](../dimensions/day.md) gebruikt, ziet u dagelijks unieke bezoekers voor elk dimensie-item. Nochtans, voor het rapporttotaal, wordt het gededupliceerde unieke bezoekers voor de de datumwaaier van de vrije lijst van de vorm.
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrische waarde telt het aantal unieke bezoeker-id&#39;s voor een bepaalde afmetingswaarde. Het gebruikt veelvoudige geavanceerde mechanismen om unieke bezoekers te identificeren, aangezien er verscheidene manieren zijn om hen te identificeren. De volgende tabel bevat een overzicht van de manier waarop een bezoeker wordt geïdentificeerd, samen met zijn prioriteit. Sommige treffers kunnen veelvoudige methodes van de bezoekersidentificatie hebben; in deze gevallen wordt de methode met hogere prioriteit gebruikt .
+Deze metrische waarde telt het aantal unieke bezoeker-id&#39;s voor een bepaald dimensie-item. Het gebruikt veelvoudige geavanceerde mechanismen om unieke bezoekers te identificeren, aangezien er verscheidene manieren zijn om hen te identificeren. De volgende tabel bevat een overzicht van de manier waarop een bezoeker wordt geïdentificeerd, samen met zijn prioriteit. Sommige treffers kunnen veelvoudige methodes van de bezoekersidentificatie hebben; in deze gevallen wordt de methode met hogere prioriteit gebruikt .
 
 | Volgorde gebruikt | Query-parameter (verzamelingsmethode) | presenteren als |
 | --- | --- | --- |
