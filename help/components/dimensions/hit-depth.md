@@ -2,7 +2,7 @@
 title: Hoogte
 description: Het aantal hits in het bezoek.
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 7%
@@ -18,13 +18,13 @@ De dimensie &#39;De diepte van de Kit&#39; meldt hoe ver een bezoek aan een bepa
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Dimensiewaarden zijn de tekenreeks `"Hit Depth"` gevolgd door een getal dat het aantal hits in het bezoek vertegenwoordigt. De waarde voor afmetingen van `"Hit Depth 1"` staat voor het eerste resultaat van het bezoek, terwijl de waarde voor afmetingen het achtste resultaat van het bezoek `"Hit Depth 8"` vertegenwoordigt.
+Items voor de dimensie bevatten de tekenreeks `"Hit Depth"` gevolgd door een getal dat het aantal hits in het bezoek vertegenwoordigt. Het item Dimensie van `"Hit Depth 1"` staat voor de eerste hit van het bezoek, terwijl het item Dimensie de achtste hit van het bezoek `"Hit Depth 8"` vertegenwoordigt.
 
 ## Vergelijking met diepte bezoek
 
-Bij een stippeldiepte worden alle typen treffers geteld, zoals de paginaweergave en de resultaten van het bijhouden van koppelingen. Alleen diepte-stappen voor resultaten in de paginaweergave bekijken _en de waarde voor de dimensie_ Pagina [](page.md) is niet gelijk aan de waarde op de vorige pagina. De diepte van het bezoek is ook een op bezoek-gebaseerde dimensie, die het betekent is de zelfde waarde voor alle treffers in het bezoek. In de volgende tabel wordt een voorbeeldoverzicht beschreven en wordt uitgelegd hoe u de diepte van een hit en een bezoek bekijkt:
+Bij een stippeldiepte worden alle typen treffers geteld, zoals de paginaweergave en de resultaten van het bijhouden van koppelingen. Alleen diepte zoeken in stappen voor treffers in de paginaweergave _en het_ item voor de [pagina](page.md) -dimensie is niet hetzelfde als de waarde op de vorige pagina. De diepte van het bezoek is ook een op bezoek-gebaseerde dimensie, die het betekent is de zelfde waarde voor alle treffers in het bezoek. In de volgende tabel wordt een voorbeeldoverzicht beschreven en wordt uitgelegd hoe u de diepte van een hit en een bezoek bekijkt:
 
 | Paginareeks | Hoogte | Voegt u af naar de diepte van het bezoek? | Diepte bezoeken |
 | --- | --- | --- | --- |
