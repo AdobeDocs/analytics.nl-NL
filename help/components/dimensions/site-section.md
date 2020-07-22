@@ -2,7 +2,7 @@
 title: Sectie Site
 description: De naam van de sitesectie.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -20,6 +20,6 @@ Deze dimensie heeft betrekking op de afmetingen [Pagina](page.md) en [Server](se
 
 Deze dimensie wint gegevens van het [`ch` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeturement verzamelt deze gegevens met behulp van de [`channel`](/help/implement/vars/page-vars/channel.md) variabele.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Tot de waarden voor dimensies behoren de namen van sitesecties op uw site. Uw organisatie bepaalt welke specifieke afmetingswaarden u wilt gebruiken. Welke methode u ook gebruikt, zorg ervoor het verenigbaar is en dat u het in een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp registreert.
+Dimensie-items bevatten de namen van sitesecties op uw site. Uw organisatie bepaalt welke specifieke afmetingspunten u wilt gebruiken. Welke methode u ook gebruikt, zorg ervoor het verenigbaar is en dat u het in een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp registreert.
