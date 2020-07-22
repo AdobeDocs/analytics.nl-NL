@@ -2,7 +2,7 @@
 title: Verwijzen naar domein
 description: Het overkoepelende domein waarop een bezoeker zich bevond voordat hij naar uw site klikte.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Verwijzen naar domein
 
-De dimensie &#39;Verwijzend domein&#39; rapporteert welke domeinen bezoekers door klikken om uw plaats te bereiken. Deze dimensie is nuttig om te begrijpen welke derdeplaatsen het meeste verkeer aan van u drijven. Er moet een koppeling op de externe site staan en een bezoeker moet erop klikken om de waarde van de dimensie weer te geven.
+De dimensie &#39;Verwijzend domein&#39; rapporteert welke domeinen bezoekers door klikken om uw plaats te bereiken. Deze dimensie is nuttig om te begrijpen welke derdeplaatsen het meeste verkeer aan van u drijven. Er moet een koppeling bestaan op de externe site en een bezoeker moet erop klikken om het dimensie-item weer te geven.
 
 >[!IMPORTANT]
 >
@@ -27,6 +27,6 @@ Deze dimensie vereist configuratie in de interface van Analytics en gegevens in 
 
 Adobe gaat door met het verwijzen naar het domein voor een bezoek. Als een bezoeker een koppeling verlaat en doorklikt op een ander domein binnen één bezoek, wordt de nieuwe waarde bijgewerkt en blijft deze voor de rest van het bezoek bestaan. Zie [Origineel verwijzend domein](original-referring-domain.md)als u alleen de oorspronkelijke waarde wilt zien.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Dimensiewaarden omvatten domeinen waarop bezoekers klikken om uw site te doorzoeken. Als een hit geen verwijzingsgegevens heeft (ingesteld of blijvend), groepeert deze zich onder de waarde van de dimensie `"Typed/Bookmarked"`. Deze afmetingswaarde betekent dat er geen verwijzingswaarde was, zoals als de bezoeker het browseradres handmatig in de adresbalk had getypt of op een bladwijzer had geklikt.
+Dimensie-items omvatten domeinen waarop bezoekers naar uw site klikken. Als een hit geen verwijzingsgegevens heeft (ingesteld of blijvend), groepeert deze zich onder het dimensie-item `"Typed/Bookmarked"`. Dit afmetingsitem betekent dat er geen verwijzingswaarde is, bijvoorbeeld dat de bezoeker het browseradres handmatig in de adresbalk heeft getypt of op een bladwijzer heeft geklikt.
