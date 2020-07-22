@@ -2,7 +2,7 @@
 title: Trefwoord zoeken
 description: Het zoekwoord dat de bezoeker gebruikte om uw site te bereiken.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -16,12 +16,12 @@ De dimensie &#39;sleutelwoord zoeken&#39; rapporteert de zoektrefwoorden die bez
 
 >[!IMPORTANT]
 >
->De meeste zoekprogramma&#39;s slagen niet langer voor het trefwoord Zoeken vanwege de toenemende privacy-praktijken. Hier wordt een zoekprogramma herkend, maar er ontbreken trefwoordgroepen onder de waarde Dimensie `"Keyword unavailable"`.
+>De meeste zoekprogramma&#39;s slagen niet langer voor het trefwoord Zoeken vanwege de toenemende privacy-praktijken. Hier wordt een zoekprogramma herkend, maar er ontbreken trefwoordgroepen onder het dimensie-item `"Keyword unavailable"`.
 
 Een verwijzer moet aan beide volgende voorwaarden voldoen om als zoekwoord te classificeren:
 
 * Het verwijzende domein wordt erkend door Adobe als geldige motor [van het](search-engine.md)Onderzoek;
-* De verwijzende URL bevat een parameter voor een trefwoordqueryreeks. Als de trefwoordqueryreeks bestaat maar geen waarde bevat, wordt deze onder de waarde Dimensie gegroepeerd `"Keyword unavailable"`.
+* De verwijzende URL bevat een parameter voor een trefwoordqueryreeks. Als de trefwoordqueryreeks bestaat maar geen waarde bevat, wordt deze onder het dimensiemunt gegroepeerd `"Keyword unavailable"`.
 
 Als u betaald en natuurlijk onderzoek wilt onderscheiden, wordt de [Betaalde onderzoeksopsporing](/help/admin/admin/paid-search-detection/paid-search-detection.md) vereist. Er zijn meerdere afmetingen beschikbaar voor zoektrefwoorden:
 
@@ -33,6 +33,6 @@ Als u betaald en natuurlijk onderzoek wilt onderscheiden, wordt de [Betaalde ond
 
 Deze dimensie verwijst naar meerdere interne opzoektabellen van Adobe. Elke waarde is gebaseerd op de [referentie](referrer.md) van de hit, die afhankelijk is van [interne URL-filters](/help/admin/admin/internal-url-filter-admin.md). Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Dimensiewaarden zijn zoektrefwoorden die worden gebruikt om uw site te bereiken. De `"Unspecified"` afmetingswaarde is al verkeer niet-onderzoek.
+Dimensie-items bevatten zoektrefwoorden die worden gebruikt om uw site te bereiken. Het `"Unspecified"` afmetingspunt is al niet-onderzoekingsverkeer.
