@@ -2,7 +2,7 @@
 title: Monitorresolutie
 description: De resolutie van de monitor van de bezoeker in pixel.
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -24,8 +24,8 @@ Browserafmetingen zijn altijd kleiner dan monitorresolutie, omdat browsernavigat
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie wint gegevens van het [`s` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeturement verzamelt deze gegevens met behulp van de JavaScript-variabele `screen.width` en `screen.height` in de browser. Als u een AppMeturement-bibliotheek gebruikt (bijvoorbeeld via Adobe Experience Platform Launch), werkt deze dimensie buiten het vak. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u de parameter van het `s` vraagkoord in beeldverzoeken omvat.
+Deze dimensie wint gegevens van het [`s` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeturement verzamelt deze gegevens met behulp van de JavaScript-variabele `screen.width` en `screen.height` in de browser. Als u een bibliotheek AppMeasurement gebruikt (zoals door Adobe Experience Platform Launch), werkt deze afmeting uit de doos. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u de parameter van het `s` vraagkoord in beeldverzoeken omvat.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Tot de maatwaarden behoren alle verzamelde monitorresoluties. Voorbeelden hiervan zijn `1920 x 1080`, `1366 x 768`en `1280 x 720`.
+Dimensie-items omvatten alle verzamelde monitorresoluties. Voorbeelden hiervan zijn `1920 x 1080`, `1366 x 768`en `1280 x 720`.
