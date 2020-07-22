@@ -2,7 +2,7 @@
 title: Eerste aanraakkanaal
 description: Het eerste marketingkanaal binnen het aflopen van de betrokkenheid van de bezoeker.
 translation-type: tm+mt
-source-git-commit: 2c262e5345c39a71a6a54062c607273528294b24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -22,12 +22,12 @@ Elke hit die naar Adobe-servers voor gegevensverzameling wordt verzonden, wordt 
 
 Als u deze dimensie op een specifieke waarde wilt plaatsen, zijn de volgende stappen vereist:
 
-* Plaats de gewenste afmetingswaarde als kanaal in de Manager van het Kanaal van de Marketing onder de montages van de Reeks van het Rapport.
+* Plaats het gewenste afmetingspunt als kanaal in de Manager van het Kanaal van de Marketing onder de montages van de Reeks van het Rapport.
 * Plaats een de verwerkingsregel van het Kanaal van de Marketing die de gewenste criteria voor de slag bevat.
 * De treffer van de bezoeker naar uw site moet voldoen aan de criteria die worden beschreven in de regel voor verwerking van marketingkanalen __ en moet de eerste waarde van het marketingkanaal zijn om dit te doen in de aanspreekperiode van de bezoeker.
 
 Als een volgende hit voldoet aan de criteria onder een ander marketingkanaal, wordt deze dimensie niet overschreven met het nieuwe marketingkanaal.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Tot de waarden van de afmeting behoren alle kanaalnamen in het marketingkanaalbeheer. Standaard bevatten waarden `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`en `"Referring domains"`. U kunt kanalen toevoegen of schrappen in de het kanaalmanager van de Marketing, die de waarden van deze afmeting beïnvloedt.
+Dimensie-items bevatten elke kanaalnaam in het marketingkanaalbeheer. Standaard bevatten waarden `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`en `"Referring domains"`. U kunt kanalen toevoegen of schrappen in de het kanaalmanager van de Marketing, die de waarden van deze afmeting beïnvloedt.
