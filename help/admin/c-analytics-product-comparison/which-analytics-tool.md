@@ -1,9 +1,9 @@
 ---
-description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk hulpprogramma van Adobe Analytics. De hulpmiddelen zouden in de orde moeten worden overwogen zij worden vermeld. Als een bepaald hulpmiddel niet aan de behoefte voldoet, ga naar volgende voor overweging.
+description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe Analytics-hulpprogramma. De hulpmiddelen zouden in de orde moeten worden overwogen zij worden vermeld. Als een bepaald hulpmiddel niet aan de behoefte voldoet, ga naar volgende voor overweging.
 title: Welke Adobe Analytics-tool moet ik gebruiken?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: c53580905e6bb22b9cdb2917734a189e1f83d72f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 2%
@@ -13,15 +13,15 @@ ht-degree: 2%
 
 # Welke Adobe Analytics-tool moet ik gebruiken?
 
-Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk hulpprogramma van Adobe Analytics. De hulpmiddelen zouden in de orde moeten worden overwogen zij worden vermeld. Als een bepaald hulpmiddel niet aan de behoefte voldoet, ga naar volgende voor overweging.
+Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe Analytics-hulpprogramma. De hulpmiddelen zouden in de orde moeten worden overwogen zij worden vermeld. Als een bepaald hulpmiddel niet aan de behoefte voldoet, ga naar volgende voor overweging.
 
-Ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)voor meer informatie over productvergelijkingen van Adobe Analytics.
+Ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)voor meer informatie over Adobe Analytics-productvergelijkingen.
 
-## Adobe Analytics Reporting User Interfaces {#section_8265460EBB47405AB19A3B2B0729C8A4}
+## Adobe Analytics die gebruikersinterfaces rapporteert {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
-**[De Werkruimte](/help/analyze/analysis-workspace/home.md)**van de analyse zou de go-aan gebruikersinterface voor al uw rapportering en analysebehoeften moeten zijn. Adobe blijft in dit product investeren en maandelijks updates uitbrengen. Als er een taak is u niet in de Werkruimte van de Analyse kunt doen, overweeg de andere hieronder interfaces.**
+**[Analysis Workspace](/help/analyze/analysis-workspace/home.md)**moet de gebruikersinterface zijn voor al uw rapportage- en analysebehoeften. Adobe blijft in dit product investeren en maandelijks updates uitbrengen. Als er een taak is die u niet kunt uitvoeren in Analysis Workspace, kunt u de andere interfaces hieronder overwegen.**
 
-**[Rapporten en analyses](/help/analyze/reports-analytics/overview/report-overview.md)**moeten worden gebruikt:
+**[Rapporten en Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**moeten worden gebruikt:
 
 * Door beginnergebruikers die toegang tot vooraf gebouwde rapportering nodig hebben die gemakkelijker is te navigeren.
 * Toegang krijgen tot realtime gegevens in de gebruikersinterface.
@@ -31,7 +31,7 @@ Ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-compariso
 * Unieke videovisualisaties van de Gelijktijdige Kijker, Video Daypart, en de Daling van de Kijker toegang hebben.
 * Als u publicatielijsten in geplande rapporten wilt gebruiken.
 
-**[Er moet gebruik worden gemaakt van ad-hocanalyse](/help/analyze/ad-hoc-analysis/adhoc-home.md)**:
+**[Ad hoc analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**dient te worden gebruikt:
 
 * 50.000 rijen gegevens exporteren
 * Als taborganisatie van projectwerk gewenst is.
@@ -39,7 +39,7 @@ Ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-compariso
 
 **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**dient te worden gebruikt:
 
-* De meest flexibele optie voor Analytics (tot op bezoekersniveau, analyse op raakniveau).
+* De meest flexibele Analytics-tool (tot op bezoekersniveau, analyse op raakniveau).
 * Om een multi-kanaaldataset van online en off-line interactie van CRM aan POS aan Web tot stand te brengen.
 * Voor geavanceerde attributie (op regels gebaseerde &amp; algoritmische modellen).
 * Voor voorspellende, statistische modellering (prospectie, clustering, correlaties, enz.).
@@ -67,21 +67,21 @@ Ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-compariso
 
 **[Gegevensconnectors](https://www.adobeexchange.com/experiencecloud.html)(voorheen Genesis genoemd)**moeten worden gebruikt:
 
-* Wanneer u verbinding maakt met een externe provider die een ondersteunde verbinding heeft gemaakt met Adobe Analytics. Gegevensconnectors gebruiken doorgaans permanent en automatisch samenvattingsgegevens in Adobe Analytics, op terugkerende basis.
+* Wanneer u verbinding maakt met een externe provider die een ondersteunde verbinding met Adobe Analytics heeft gemaakt. Gegevensconnectors bevatten doorgaans permanent en automatisch samenvattingsgegevens in Adobe Analytics, op terugkerende basis.
 
 **[De API](/help/import/c-data-insertion-api/c-data-insertion-api.md)**voor gegevensinvoeging moet worden gebruikt:
 
-* Wanneer u gegevens moet uploaden naar Adobe Analytics en u kunt de Adobe AppMeasurement- of mobiele SDK-code niet gebruiken.
+* Wanneer u gegevens moet uploaden naar Adobe Analytics en u kunt de Adobe AppMeturement- of mobiele SDK-code niet gebruiken.
 
 **[Klantkenmerken](https://docs.adobe.com/content/help/nl-NL/core-services/interface/customer-attributes/attributes.html)**dienen te worden gebruikt:
 
-* Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt en de gegevens aan de Wolk van de Ervaring wilt uploaden.
-* Als u de gegevens van CRM voor diepere analyse in Analytics wilt gebruiken, of als het richten criteria in Adobe Doel.
+* Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt en de gegevens aan Experience Cloud wilt uploaden.
+* Als u de gegevens van CRM voor diepere analyse in Analytics wilt gebruiken, of als het richten criteria in Adobe Target.
 
-**[Analyse](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**van het publiek moet worden gebruikt:
+**[Publiek Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**moet worden gebruikt:
 
-* Als u de publieksgegevens van de Manager van de Audience van Adobe (AAM) zoals demografische informatie (b.v. geslacht of inkomensniveau), psychografische informatie (b.v. interesses en hobby&#39;s), CRM-gegevens, of impliciete gegevens in om het even welke analysewerkschema wilt opnemen.
-* Als u de geüploade CRM-gegevens op tijd wilt baseren, omdat deze integratie nieuwe informatie stuurt naar Analytics die door een hit zijn getroffen.
+* Als u Adobe Audience Manager (AAM) publieksgegevens zoals demografische informatie (bv. geslacht of inkomensniveau), psychografische informatie (bv. interesses en hobby&#39;s), CRM-gegevens of impliciete gegevens in een Analytics-workflow wilt opnemen.
+* Als u geüploade CRM-gegevens op tijd wilt laten gebaseerd, omdat deze integratie nieuwe informatie naar een hit in Analytics stuurt.
 
 ## Gegevens exporteren uit Adobe Analytics {#section_901C06ABF2014E92B2952906723DF235}
 
@@ -93,25 +93,25 @@ Ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-compariso
 * Voor cross-report-suite weergaven.
 * Als automatisering via planning gewenst is (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
-**[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)**dient te worden gebruikt:
+**[Data warehouse](/help/export/data-warehouse/data-warehouse.md)**dient te worden gebruikt:
 
-* Om tot variabelen toegang te hebben die anders in UI - IP adres, de identiteitskaart van de Wolk van de Ervaring, de Bezoeker van de Analyse, identiteitskaart van de Bezoeker, Pagina URL) worden verborgen
+* Om tot variabelen toegang te hebben die anders verborgen in UI - IP adres, identiteitskaart van Experience Cloud, identiteitskaart van de Bezoeker van Analytics, Pagina URL)
 * Om tot meer korrelige gegevens dan UI (gedenormaliseerde lijstmening) toegang te hebben
 * Gegevens downloaden in een indeling die geschikt is voor draaitabelinvoer
 * Als de client Adobe-gegevens wil invoeren in een programma voor gegevensvisualisatie van derden (enigszins samengevat en niet op raakniveau)
-* Als u toegang wilt tot alle waarden van unieke dimensies, gaat u naar &quot;Laag verkeer&quot; in Adobe Analytics
+* Om toegang te krijgen tot alle unieke dimensie-items wanneer u werkt met &quot;Low Traffic&quot; in Adobe Analytics
 
-**[Gegevensinvoer](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**voor analyse moet worden gebruikt:
+**[Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**dient te worden gebruikt:
 
 * Als u de meest gedetailleerde gegevensinvoer wilt gebruiken die we kunnen opgeven (bezoeker-id, hit).
 * Als de client Adobe-gegevens wil opslaan in een clientdatabase, kunnen we deze gegevens op het meest granulaire niveau verzenden.
-* Als de client een Business Intelligence-hulpprogramma (BI) wil ontwikkelen of Adobe-gegevens op hit-niveau wil invoeren in een hulpprogramma van derden.
+* Als de client een Business Intelligence-app (BI) wil ontwikkelen of Adobe-gegevens op aanraakniveau wilt invoeren in een hulpprogramma van derden.
 
 **[Het melden van APIs](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)**zou moeten worden gebruikt wanneer de andere visualisatieopties niet aan uw behoeften voldoen. De drie API-opties zijn:
 
-* **Volledig verwerkt**: wanneer u eigenschap-rijke gegevens (met inbegrip van bezoeken, bezoekers, en segmenten) wilt. Dit zijn standaard samengevatte gegevens uit de analysefunctie, beschikbaar binnen ~30-90 minuten. Kan door de Bouwer van het Rapport worden gebruikt.
+* **Volledig verwerkt**: wanneer u eigenschap-rijke gegevens (met inbegrip van bezoeken, bezoekers, en segmenten) wilt. Dit zijn standaard samengevatte gegevens uit de gebruikersinterface van Analytics, die binnen ~30-90 minuten beschikbaar zijn. Kan door de Bouwer van het Rapport worden gebruikt.
 * **Real-time**: wanneer u een paar metriek en afmetingen met seconden van latentie wilt bekijken. Dit zijn beperkte, gedeeltelijk verwerkte, samengevatte gegevens die binnen ~30 seconden beschikbaar zijn. Omvat unieke algoritmen van populairste, aannemers, en verliezers. Kan door de Bouwer van het Rapport worden gebruikt.
-* **[!UICONTROL Live Stream]**: als u binnen seconden na de verzameling een stream wilt van gedeeltelijk verwerkte analysegegevens op raakniveau. Dit zijn gedeeltelijk verwerkte gegevens, beschikbaar binnen ~30 seconden. Alleen beschikbaar voor Analytics Premium. Vereist één of andere manier om de gegevens te visualiseren, typisch door een overeenkomst van de Diensten van de Techniek.
+* **[!UICONTROL Live Stream]**: als u een stroom van gedeeltelijk-verwerkte klap-niveau Analytics gegevens binnen seconden na inzameling wilt. Dit zijn gedeeltelijk verwerkte gegevens, beschikbaar binnen ~30 seconden. Alleen beschikbaar voor Analytics Premium. Vereist één of andere manier om de gegevens te visualiseren, typisch door een overeenkomst van de Diensten van de Techniek.
 
 ## Aangepaste oplossingen {#section_4A212F26A15947599DFB0399A0440CB6}
 
