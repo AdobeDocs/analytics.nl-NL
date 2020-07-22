@@ -2,7 +2,7 @@
 title: Type referentie
 description: Het type referentie, afhankelijk van waar de bezoeker vandaan komt.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Type referentie
 
-De dimensie &#39;Type referentie&#39; rapporteert welke generieke kanalen bezoekers hebben aangeklikt om op uw site te komen. Adobe hanteert de regels voor elke waarde van de dimensie, in tegenstelling tot [marketingkanalen](marketing-channel.md), waar uw organisatie de regels voor elk kanaal bijhoudt.
+De dimensie &#39;Type referentie&#39; rapporteert welke generieke kanalen bezoekers hebben aangeklikt om op uw site te komen. Adobe hanteert de regels voor elk dimensie-item, in tegenstelling tot [marketingkanalen](marketing-channel.md), waar uw organisatie regels voor elk kanaal bijhoudt.
 
 ## Deze dimensie vullen met gegevens
 
 Deze dimensie verwijst naar meerdere interne opzoektabellen van Adobe. Elke waarde is gebaseerd op de [referentie](referrer.md) van de hit, die afhankelijk is van [interne URL-filters](/help/admin/admin/internal-url-filter-admin.md). Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Tot de waarden van de afmeting behoren het type referentie van de hit. Specifieke waarden zijn onder meer:
+Dimensie-items bevatten het type referentie van de hit. Specifieke waarden zijn onder meer:
 
 * **Getypte/bladwijzer**: Er bestaan geen verwijzingsgegevens voor de hit.
 * **Zoekprogramma**&#39;s: De referentie is afkomstig van een herkend zoekprogramma dat een trefwoordqueryreeks bevat.
@@ -195,9 +195,9 @@ De volgende lijst verwijst naar de opzoektabel voor sociale netwerken die Adobe 
 * `zooomr.com`
 * `zhihu.com`
 
-### Zoekprogramma&#39;s in de waarde &#39;Andere websites&#39;
+### Zoekprogramma&#39;s in het item Andere websites
 
 Wanneer u specifieke domeinen in de dimensie van het type van &quot;Referrer&quot;bekijkt, kunnen er domeinen zijn die u onder &quot;de motoren van het Onderzoek&quot;zou verwachten die in plaats daarvan onder &quot;Andere websites&quot;worden vermeld. U ziet bijvoorbeeld `'google.com'` onder &#39;Andere websites&#39;.
 
-* **Zoekmachinedomeinen in de waarde**&#39;Zoekprogramma&#39;s&#39;: De referentie voldoet aan alle criteria om door Adobe als zoekprogramma te worden geclassificeerd. Het verwijzende domein is een geldige onderzoeksmotor, ** en verwijzende URL bevat een parameter van het sleutelwoordvraagkoord.
-* **Zoekprogrammadomeinen in de waarde**&#39;Andere websites&#39;: De verwijzende URL voldeed niet aan alle criteria om te classificeren als zoekmachine. Algemene voorbeelden zijn subdomeinen die zijn toegewezen aan andere functies dan zoekopdrachten. Bijvoorbeeld, `mail.google.com` `autos.yahoo.com` of zijn geen onderzoeksmotoren, maar verblijven op een top-level domein algemeen verbonden aan onderzoek. Deze subdomeinen bevatten geen queryreeks voor trefwoorden, daarom worden deze opgenomen onder &#39;Andere websites&#39; in plaats van &#39;Zoekprogramma&#39;s&#39;.
+* **Zoekmachinedomeinen in het dimensiepunt**&#39;Zoekprogramma&#39;s&#39;: De referentie voldoet aan alle criteria om door Adobe als zoekprogramma te worden geclassificeerd. Het verwijzende domein is een geldige onderzoeksmotor, ** en verwijzende URL bevat een parameter van het sleutelwoordvraagkoord.
+* **Zoekprogrammadomeinen in het dimensiemenu** Andere websites: De verwijzende URL voldeed niet aan alle criteria om te classificeren als zoekmachine. Algemene voorbeelden zijn subdomeinen die zijn toegewezen aan andere functies dan zoekopdrachten. Bijvoorbeeld, `mail.google.com` `autos.yahoo.com` of zijn geen onderzoeksmotoren, maar verblijven op een top-level domein algemeen verbonden aan onderzoek. Deze subdomeinen bevatten geen queryreeks voor trefwoorden, daarom worden deze opgenomen onder &#39;Andere websites&#39; in plaats van &#39;Zoekprogramma&#39;s&#39;.
