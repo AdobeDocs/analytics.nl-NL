@@ -2,7 +2,7 @@
 title: eVar
 description: Een aangepaste dimensie die u kunt gebruiken in rapporten.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -24,9 +24,9 @@ Elke eVar verzamelt gegevens van [`v1` - `v250` vraagkoord](/help/implement/vali
 
 AppMeasurement, waarmee JavaScript-variabelen worden gecompileerd in een afbeeldingsaanvraag voor gegevensverzameling, gebruikt de variabelen `eVar1` - `eVar250`. Zie [Var](/help/implement/vars/page-vars/evar.md) in de de gebruikersgids van het Uitvoeren voor implementatierichtlijnen.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Aangezien eVars aangepaste tekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de afmetingswaarden voor elke eVar zijn. Zorg ervoor u het doel van elke eVar en typische afmetingswaarden in een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp registreert.
+Aangezien eVars aangepaste tekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de dimensie-items voor elke eVar zijn. Zorg ervoor u het doel van elke eVar en typische afmetingspunten in een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp registreert.
 
 ## Hoe werkt eVars
 
@@ -64,15 +64,15 @@ Een vereenvoudigde versie van de onbewerkte gegevens ziet er ongeveer als volgt 
 
 ### Gegevensverzameling omzetten in rapportage
 
-Gereedschappen in Adobe Analytics, zoals Analyse Workspace, werken uit deze verzamelde gegevens. Bijvoorbeeld, als u een rapport gebruikend eVar1 als afmeting en Orden als metrisch trok, zou u een rapport gelijkend op het volgende zien:
+Gereedschappen in Adobe Analytics, zoals Analysis Workspace, werken uit deze verzamelde gegevens. Bijvoorbeeld, als u een rapport gebruikend eVar1 als afmeting en Orden als metrisch trok, zou u een rapport gelijkend op het volgende zien:
 
 | `Internal search term (eVar1)` | `Orders` |
 | --- | --- |
 | `cats` | `1` |
 
-De Werkruimte van de analyse trekt dit rapport gebruikend de volgende logica:
+Analysis Workspace haalt dit rapport op met de volgende logica:
 
-* Kijk door alle `event_list` waarden en kies alle treffers met `purchase` daarin.
+* Kijk door alle `event_list` waarden en kies alle treffers `purchase` erin.
 * Geef de `post_evar1` waarde weer van de resultaten.
 
 ### Het belang van toewijzing en vervaldatum
