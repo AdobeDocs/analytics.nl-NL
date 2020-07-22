@@ -1,105 +1,105 @@
 ---
 description: Aan de slag met Adobe Analytics.
 keywords: Analysis Workspace
-title: Aan de slag-handleiding
+title: Aan de slag
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1329'
-ht-degree: 1%
+ht-degree: 98%
 
 ---
 
 
 # Analysis Workspace
 
-De analysewerkruimte is een van de vlaggenschipprogramma&#39;s van Adobe voor het nemen van op gegevens gebaseerde beslissingen voor uw organisatie. De gemeenschappelijkste visualisatie, de vrije vormlijst, laat u gemakkelijk aangepaste rapporten creëren gebruikend afmetingen, metriek, segmenten, en datumwaaiers.
+Analysis Workspace is een van de vlaggenschipprojecten van Adobe waarmee u praktische, op data gebaseerde beslissingen kunt nemen voor uw bedrijf. Met de meest algemene visualisatie, de vrije-vormtabel, kunt u gemakkelijk maatrapporten maken met behulp van dimensies, metrics, segmenten en datumbereiken.
 
 ## Vereisten
 
-[Gegevens naar Adobe Analytics verzenden met Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md): Het gebruiken van de Werkruimte van de Analyse vereist een werkende implementatie. Zorg ervoor dat uw organisatie gegevens naar Adobe verzendt voordat u het hulpprogramma gebruikt. Andere implementaties, zoals DTM of oudere handmatige implementaties, kunnen ook werken.
+[Data naar Adobe Analytics verzenden met Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md): voor het gebruik van Analysis Workspace is een werkende implementatie vereist. Zorg dat uw organisatie data naar Adobe verzendt voordat u de tool gebruikt. Andere implementaties, zoals DTM of verouderde handmatige implementaties, kunnen ook werken.
 
-## Een rapport met een standaardpositie in Workspace samenstellen
+## Een gerangschikt basisrapport opvragen in Workspace
 
-Trek een basis gerangschikt rapport gebruikend de Werkruimte van de Analyse. Een gerangschikt rapport geeft een geaggregeerde totaalweergave van elke waarde van de dimensie weer, waarbij eerst de grootste waarden worden weergegeven. Deze typen rapporten zijn handig om te zien welke componenten van uw site het meest effectief zijn, zoals welke pagina&#39;s het meeste verkeer krijgen of welke producten het meest verkopen.
+Vraag een gerangschikt basisrapport op met Analysis Workspace. Een gerangschikt rapport toont een samengevoegde totale mening van elk afmetingspunt, die de grootste waarden eerst toont. Deze rapporttypen zijn handig om te zien welke componenten van uw site het meest effectief zijn, zoals welke pagina&#39;s het meeste verkeer krijgen of welke producten het best verkopen.
 
-1. Meld u met uw Adobe-id aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) .
-2. Klik op het pictogram van 9 vierkante pixels rechtsboven en klik vervolgens op het gekleurde Analytics-logo.
-3. Klik in de bovenste navigatiebalk op Werkruimte.
-4. Klik op de knop Nieuw project maken.
-5. Controleer of Leeg project is geselecteerd in het modaal pop-upmenu en klik vervolgens op Maken.
-6. Links ziet u een lijst met dimensies, metriek, segmenten en datumbereiken. Zoek de pagina-afmetingen (oranje gekleurd) en sleep deze naar het canvas waar de tekst &#39;Een dimensie hier neerzetten&#39; staat.
-7. Merk op dat als de rapportreeks gegevens heeft, een rapport dat de hoogste pagina&#39;s voor deze maand toont kan worden gezien. De Werkruimte van de analyse bevolkte automatisch het rapport met metrische [Voorvallen](/help/components/metrics/occurrences.md) .
-8. Zoek de metrische (gekleurde groene) bezoekerslijst en sleep deze **boven** of **naast** de metrische koptekst Voorkomt (en plaats deze niet boven de metrische koptekst). Als u metrisch van Bezoekingen bovenop Voorkomen sleept, wordt metrisch vervangen in rapportering. Als u metrisch van Bezoekingen naast Voorkomen sleept, worden beide metriek getoond zij aan zij.
-9. Als u uw project wilt bewaren, klik *[!UICONTROL Project][!UICONTROL Save]*> in het hogere linkermenu.
+1. Meld u met uw Adobe ID aan bij [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+2. Klik op het pictogram met 9 vierkantjes rechtsboven in het venster en klik vervolgens op het gekleurde Analytics-logo.
+3. Klik in de bovenste navigatiebalk op Workspace.
+4. Klik op de knop &#39;Create New Project&#39; (Nieuw project maken).
+5. Controleer of de optie voor &#39;Leeg project&#39; is geselecteerd in het modale pop-upmenu en klik vervolgens op Create (Maken).
+6. Links ziet u een lijst met dimensies, metrics, segmenten en datumbereiken. Zoek de dimensie voor pagina&#39;s (oranje) en sleep deze naar het canvas op de plek met de tekst &#39;Drop a Dimension Here&#39; (Dimensie hier neerzetten).
+7. Als de rapportsuite al data bevat, ziet u een rapport met de beste pagina&#39;s voor deze maand. Analysis Workspace vult het rapport automatisch in met de metric voor [voorvallen](/help/components/metrics/occurrences.md).
+8. Zoek de metric voor bezoeken (groen) en sleep deze **op** of **naast** de metrische koptekst Occurences (Voorvallen). (Plaats deze niet boven de metric.) Als u de metric voor bezoeken bovenop Voorvallen plaatst, wordt de metric in de rapportage vervangen. Als u metric voor bezoeken naast Voorvallen sleept, worden beide metrics naast elkaar getoond.
+9. Als u uw project wilt bewaren, klikt u op *[!UICONTROL Project] > [!UICONTROL Save]* in het menu linksboven.
 
-## Trek een fundamenteel trendrapport in Werkruimte
+## Een basisrapport voor trends opvragen in Workspace
 
-Trek een fundamenteel trended rapport gebruikend de Werkruimte van de Analyse. Een trended-rapport toont een weergave van metrische gegevens die de geselecteerde datumreeks gebruiken in de tijd. Deze types van rapporten zijn nuttig om tendensen in tijd te identificeren, en kunnen worden gebruikt om succes of mislukking van bedrijfsbesluiten te meten die worden genomen. Bijvoorbeeld, kon u een rapport bekijken van de paginameningen dat in tijd wordt trended om te zien of hielp een plaatsherontwerp verkeer verhogen of verminderen.
+Vraag een basisrapport voor trends op met Analysis Workspace. Een trendsrapport toont een tijdweergave van metrics tijdens de geselecteerde datumreeks. Deze rapporttypen zijn nuttig om trends in een bepaalde tijdsperiode te identificeren, en kunnen worden gebruikt om het succes (of de mislukking) van genomen bedrijfsbesluiten te meten. Zo kunt u bijvoorbeeld een rapport over paginaweergaven binnen een periode inzien om na te gaan of het herontwerp van een bepaalde site heeft geleid tot meer of juist minder verkeer.
 
-1. Meld u met uw Adobe-id aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) .
-2. Klik op het pictogram van 9 vierkante pixels rechtsboven en klik vervolgens op het gekleurde Analytics-logo.
-3. Klik in de bovenste navigatiebalk op Werkruimte.
-4. Klik op de knop Nieuw project maken.
-5. Controleer of Leeg project is geselecteerd in het modaal pop-upmenu en klik vervolgens op Maken.
-6. Links ziet u een lijst met dimensies, metriek, segmenten en datumbereiken. Zoek de afmetingen voor de paginaweergaven en sleep deze naar de kleine ruimte op het canvas met de naam &#39;Hier een metrische waarde neerzetten&#39;. Vermijd het weglaten in de ruimte die is gereserveerd voor afmetingen (tenminste voor deze oefening).
-7. Merk op dat als de rapportreeks gegevens heeft, u een rapport van de basispaginameningen over de huidige maand trended zou moeten zien. De Werkruimte van de analyse wordt automatisch gebracht in de de datumwaaier van &quot;Dag&quot;zodat kunt u de trend van paginameningen voor de huidige maand zien.
-8. Zoek het datumbereik van de week (paars gekleurd) in de lijst met componenten voor het datumbereik aan de linkerkant. Klik op de titel van het datumbereik om alle componenten van het datumbereik uit te vouwen en weer te geven, of gebruik de zoekbalk.
-9. Sleep het datumbereik van de week boven op de kop van het datumbereik van Dag op het canvas om het te vervangen.
-10. Let op: uw trended-rapport wordt nu geaggregeerd per week in plaats van per dag.
-11. Als u uw project wilt bewaren, klik *[!UICONTROL Project][!UICONTROL Save]*> in het hogere linkermenu.
+1. Meld u met uw Adobe ID aan bij [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+2. Klik op het pictogram met 9 vierkantjes rechtsboven in het venster en klik vervolgens op het gekleurde Analytics-logo.
+3. Klik in de bovenste navigatiebalk op Workspace.
+4. Klik op de knop &#39;Create New Project&#39; (Nieuw project maken).
+5. Controleer of de optie voor &#39;Leeg project&#39; is geselecteerd in het modale pop-upmenu en klik vervolgens op Create (Maken).
+6. Links ziet u een lijst met dimensies, metrics, segmenten en datumbereiken. Zoek dimensie voor paginaweergaven en sleep deze naar de kleine ruimte op het canvas met het label &#39;Drop a Metric Here&#39; (Hier een metric neerzetten). Plaats de dimensie niet in de ruimte die is gereserveerd voor dimensies (tenminste niet voor deze oefening).
+7. Merk op dat als de rapportreeks data bevat, u een rapport van de paginaweergaven voor de huidige maand zou moeten zien. Het datumbereik &quot;Dag&quot; wordt automatisch ingevoegd door Analysis Workspace, zodat u de trend van het aantal paginaweergaven voor de huidige maand kunt zien.
+8. Zoek het datumbereik &quot;Week&quot; (paars) in de lijst met componenten voor het datumbereik aan de linkerkant. Klik op de titel van het datumbereik om alle componenten van het datumbereik uit te vouwen en weer te geven, of gebruik de zoekbalk.
+9. Sleep het datumbereik Week boven op de kop van het datumbereik Dag op het canvas om het te vervangen.
+10. Let op: uw trendsrapport wordt nu per week geaggregeerd in plaats van per dag.
+11. Als u uw project wilt bewaren, klikt u op *[!UICONTROL Project] > [!UICONTROL Save]* in het menu linksboven.
 
-## Experimenteren met het gereedschap
+## Experimenteren met de tool
 
-Aangezien de Werkruimte van de Analyse een rapporteringshulpmiddel is, heeft het geen invloed op gegevensinzameling. Er zijn geen gevolgen om zonder onderscheid componenten naar een project te slepen om te zien wat werkt. Sleep verschillende combinaties van dimensies en metriek in uw werkruimteproject om te zien wat beschikbaar aan u is.
+Aangezien Analysis Workspace een rapportagetool is, heeft de tool geen invloed op de dataverzameling. U kunt componenten lukraak naar een project slepen om te zien wat er gebeurt, zonder negatieve gevolgen. Sleep verschillende combinaties van dimensies en metrics naar uw Workspace-project om te zien wat er beschikbaar is.
 
-Als u per ongeluk een ongeldige component naar uw werkruimteproject sleept of een stap wilt terugkeren, drukt u op ctrl+Z (Windows) of cmd+Z (Mac) om de laatste uitgevoerde actie ongedaan te maken. U kunt ook met een schone lei beginnen door op *[!UICONTROL Project][!UICONTROL New]*> in het menu linksboven te klikken.
+Als u per ongeluk een ongeldige component naar uw Workspace-project sleept of een stap terug wilt gaan, drukt u op Ctrl + Z (Windows) of Cmd + Z (Mac) om de laatste uitgevoerde actie ongedaan te maken. U kunt ook met een schone lei beginnen door in het menu linksboven te klikken op *[!UICONTROL Project] > [!UICONTROL New]*.
 
 ## Problemen oplossen
 
-**Wanneer ik metrisch over sleep, zegt het &quot;Ongeldige gegevens&quot;.**
+**Wanneer ik een metric sleep, zie ik het bericht &quot;Ongeldige data&quot;.**
 
-Ongeldige gegevens betekenen dat Adobe geen gegevens kan retourneren met de combinatie van afmetingen en metriek die in het rapport wordt gebruikt. Twee metriek die bijvoorbeeld boven op elkaar zijn gestapeld, kunnen niet als gegevens worden geretourneerd, omdat er geen manier is om twee metriek op die manier weer te geven. Plaats de metriek in plaats daarvan naast elkaar.
+De melding &quot;Ongeldige data&quot; betekent dat Adobe geen data kan retourneren met de combinatie van dimensies en metrics die in het rapport wordt gebruikt. Zo kunnen twee metrics die boven op elkaar zijn gestapeld, niet als data worden geretourneerd, omdat er geen manier is om twee metrics op die manier weer te geven. Plaats de metrics in plaats daarvan naast elkaar.
 
-**Wanneer ik metrisch over sleep, zie ik geen daadwerkelijke gegevens - enkel nul.**
+**Wanneer ik een metric sleep, zie ik geen echte data - alleen maar nullen.**
 
-Als u met succes een werkruimterapport creeert maar er geen gegevens zijn, kunt u een paar dingen controleren:
+Als u een Workspace-rapport hebt gemaakt, maar het rapport bevat geen data, kunt u een paar dingen controleren:
 
-* Controleer de rapportsuite en zorg ervoor dat deze is gevuld met gegevens.
-* Als u een segment in uw rapport gebruikt, zouden de segmentcriteria geen gegevens kunnen aanpassen. Probeer het segment te verwijderen of de segmentdefinitie aan te passen.
-* Controleer de datumwaaier in hoger recht en zorg ervoor het aan een waarde wordt geplaatst die u zou verwachten.
-* Navigeer naar uw website en gebruik Foutopsporing om te controleren of er gegevens worden verzameld.
+* Controleer de rapportsuite en zorg ervoor dat deze is gevuld met data.
+* Als u een segment in uw rapport gebruikt, kan het zijn dat de segmentcriteria niet met enige data overeenkomen. Verwijder het segment of pas de segmentdefinitie aan.
+* Controleer of het datumbereik rechtsboven de verwachte waarde heeft.
+* Navigeer naar uw website en gebruik de tool voor foutopsporing om te verifiëren dat de data worden verzameld.
 
-## Aanvullende bronnen
+## Aanvullende resources
 
-* [Opmerkingen](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)bij de release Analyse Workspace: Lees meer over de nieuwste functies die in het gereedschap zijn geïntroduceerd.
-* [Analyse van werkruimte op YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): Leer hoe u de meeste functies in de analysewerkruimte kunt gebruiken via deze uitgebreide afspeellijst.
-* Tips voor producten: Tips van de dag worden samen met korte video&#39;s af en toe weergegeven in de rechterbenedenhoek van de analysewerkruimte. Als deze uiteinden worden genegeerd, kunnen ze op elk gewenst moment via *[!UICONTROL Help]>[!UICONTROL Tips]*worden bereikt.
-* [Werkruimte](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)voor analyse: Bespreek de Werkruimte van de Analyse met medegebruikers, en stem over eigenschappen u in het hulpmiddel wilt zien.
+* [Opmerkingen bij de release van Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md): lees meer over de nieuwste functies van de tool.
+* [Analysis Workspace op YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): leer hoe u de meeste functies van Analysis Workspace kunt gebruiken met deze uitgebreide afspeellijst.
+* Tips voor producten: tips van de dag en korte video&#39;s worden af en toe rechtsonder in Analysis Workspace weergegeven. Als u deze tips afsluit, kunt u ze altijd later bekijken via *[!UICONTROL Help] > [!UICONTROL Tips]*.
+* [Analysis Workspace-community](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): bespreek Analysis Workspace met medegebruikers en stem over nieuwe functies die u graag in de tool zou willen zien.
 * Blogberichten:
-   * [Organisaties meer mogelijkheden bieden met slimmere analyse](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
-   * [Nieuwe Adobe Analytics-mogelijkheden maken krachtige inzichten toegankelijker](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/)
-   * [5 tips om uw productiviteit te maximaliseren met analysewerkruimte](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/)
-   * [Snellere inzichten met analysewerkruimte](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/)
-   * [Waarom u de werkruimte Analyse moet gebruiken](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/)
+   * [Empowering Organizations with Smarter Analysis](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/) (Organisaties krijgen meer mogelijkheden met slimmere analyse)
+   * [New Adobe Analytics Capabilities Make Powerful Insights More Accessible](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/) (Nieuwe Adobe Analytics-functies maken krachtige inzichten toegankelijker)
+   * [5 Tips to Maximize Your Productivity with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/) (Vijf tips om uw productiviteit te maximaliseren met Analysis Workspace)
+   * [Faster Insights with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/) (Snellere inzichten met Analysis Workspace)
+   * [Why You Should Be Using Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/) (Waarom u Analysis Workspace moet gebruiken)
 
 ## Volgende stappen
 
-Er zijn veel richtingen om uw begrip van de Werkruimte van de Analyse te verdiepen. Hier volgen enkele basisbeginselen die door Adobe worden aanbevolen:
+U kunt uw kennis van Analysis Workspace op allerlei manieren verdiepen. Hier volgen enkele basisbeginselen die door Adobe worden aanbevolen:
 
-### Voor eindgebruikers die kennis willen uitbreiden over het gebruik van de analysewerkruimte
+### Voor eindgebruikers meer willen weten over het gebruik van Analysis Workspace
 
-* [Gegevens over de interface](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)van de werkruimte: Nu u een basisrapport hebt gecreeerd, wordt vertrouwd met de rest van de interface.
-* [Visualisaties in werkruimte](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): De lijsten van de vrije vorm zijn slechts één type van visualisatie in de Werkruimte van de Analyse. Leer hoe u andere visualisaties gebruikt, zoals lijngrafieken, staafgrafieken en geo-overzichten.
-* [Afmetingen in werkruimte](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): Meer weten over welke afmetingen en hoe u deze kunt gebruiken in meer dan alleen gerangschikte rapporten?
-* [Metrische gegevens in werkruimte](/help/analyze/analysis-workspace/components/apply-create-metrics.md): Leer meer over welke metriek zijn en hoe te om hen in andere delen van vrije vormlijsten te gebruiken.
-* [Inleiding tot segmentatie](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md): Leer over welke segmenten zijn en trek een basisrapport gebruikend een segment.
-* [Datumbereiken in werkruimte](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): Leer over relatieve en roldata, en gebruik hen in werkruimteprojecten.
-* Projecten delen in Workspace: Toon uw collega het fantastische project van de Werkruimte u creeerde.
-* [(Geavanceerd) Deelvensters in werkruimte](/help/analyze/analysis-workspace/c-panels/panels.md): Geavanceerde functies in Workspace gebruiken, zoals Attribution and Segment Comparison.
+* [Meer informatie over de Workspace-interface](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md): nu dat u een basisrapport hebt gemaakt, kunt u zich meer vertrouwd maken met de rest van de interface.
+* [Visualisaties in Workspace](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): vrije-vormtabellen zijn slechts één type visualisatie in Analysis Workspace. Leer hoe u andere visualisaties gebruikt, zoals lijngrafieken, staafgrafieken en geo-kaarten.
+* [Dimensies in Workspace](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): wilt u meer weten over wat dimensies zijn en hoe u ze kunt gebruiken in meer dan alleen gerangschikte rapporten?
+* [Metrics in Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md): leer meer over wat metrics zijn en hoe u metrics toepast in andere delen van vrije-vormtabellen.
+* [Inleiding tot segmentatie](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md): leer wat segmenten zijn en vraag een basisrapport op door een segment te gebruiken.
+* [Datumbereiken in Workspace](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): leer over relatieve en doorlopende datums, en hoe u ze in Workspace-projecten gebruikt.
+* Projecten delen in Workspace: laat uw collega het fantastische Workspace-project zien dat u hebt gemaakt.
+* [(Geavanceerd) Deelvensters in Workspace](/help/analyze/analysis-workspace/c-panels/panels.md): gebruik de geavanceerde functies in Workspace, zoals de functies voor attributie en voor het vergelijken van segmenten.
 
-### Voor analisten en beheerders die de kwaliteit van de werkruimte in hun organisatie willen verbeteren
+### Voor analisten en beheerders die zoeken naar hoogwaardige toepassingen van Workspace in hun organisatie
 
-* [Machtigingen voor](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/admin-getting-started.html)analysewerkruimte: Wijs gebruikersmachtigingen toe aan Workspace via de Adobe Admin Console.
-* [Sjablonen in werkruimte](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Creeer malplaatjes zodat kunnen uw collega&#39;s met een projectruimte beginnen die aan hun behoeften wordt aangepast.
-* [Werkruimte krommen](/help/analyze/analysis-workspace/curate-share/curate.md): Maak een project dat beschikbare componenten beperkt, waardoor de werkruimte toegankelijker wordt voor minder bekende gebruikers
+* [Analysis Workspace-machtigingen](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/admin-getting-started.html): wijs Workspace-rechten toe aan gebruikers via de Adobe Admin Console.
+* [Sjablonen in Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): maak en werk met sjablonen zodat uw collega&#39;s aan de slag kunnen met een projectruimte die volledig aan hun behoeften voldoet.
+* [Workspace richten op doelgroep](/help/analyze/analysis-workspace/curate-share/curate.md): maak een project waarbij het aantal beschikbare componenten wordt beperkt, zodat de werkruimte toegankelijker wordt voor minder ervaren gebruikers
