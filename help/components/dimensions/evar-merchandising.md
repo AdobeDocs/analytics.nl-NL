@@ -2,10 +2,10 @@
 title: eVar (Merchandising)
 description: Aangepaste variabelen die zijn gekoppeld aan de productdimensie.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Vóór controle, zoekt de klant naar `"winter coat"`, dan voegt een benedenjasje
 
 Wanneer de bezoeker deze aankoop heeft voltooid, wordt intern gezocht naar `"winter coat"` gecrediteerd bij de aankoop van een paar bril (ervan uitgaande dat de Var de standaardtoewijzing &#39;Meest recent&#39; gebruikt). Goed voor `"winter coat"`, maar slecht voor marketing besluiten:
 
-| Interne zoekterm | Ontvangsten |
+| Interne zoekterm | Omzet |
 |---|---|
 | winterjas | $157 |
 
@@ -36,19 +36,19 @@ Door eVars te verwisselen kunt u de huidige waarde van een eVar aan een product 
 
 Als de merchandising voor eVar in het vorige voorbeeld wordt toegelaten, `"goggles"` is de onderzoekstermijn gebonden aan de sneeuwknevels, en de onderzoekstermijn `"winter coat"` is gebonden aan het benedenjasje. De handelswaar wijst inkomsten toe op productniveau, zodat ontvangt elke termijn krediet voor het bedrag van inkomsten voor het product waaraan de termijn werd geassocieerd:
 
-| Interne zoekterm | Ontvangsten |
+| Interne zoekterm | Omzet |
 |---|---|
 | winterjas | $119 |
 | bril | $38 |
 
 Zie [Verwisselingsvariabelen](/help/implement/vars/page-vars/evar-merchandising.md) voor implementatieinstructies.
 
-## Instanties van variabelen voor handelsdoeleinden
+## Instanties van merchandisingvariabelen
 
 De metrische waarde [Instanties](../metrics/instances.md) wordt niet aanbevolen voor het gebruik op variabelen voor handelsdoeleinden.
 
 * Voor variabelen die worden verhandeld met productsyntaxis, worden instanties helemaal niet verhoogd.
-* Voor variabelen die worden verhandeld met de syntaxis van de conversievariabele, worden instanties geteld telkens wanneer de variabele wordt ingesteld. De waarde wordt echter toegewezen aan de waarde van de dimensie `"None"` tenzij alle volgende gebeurtenissen zich voordoen bij dezelfde druk:
+* Voor variabelen die worden verhandeld met de syntaxis van de conversievariabele, worden instanties geteld telkens wanneer de variabele wordt ingesteld. Het kenmerk wordt echter toegewezen aan het dimensie-item, `"None"` tenzij alle volgende gebeurtenissen zich voordoen bij hetzelfde resultaat:
    * De merchandising-variabele wordt ingesteld met een waarde.
    * De `products` variabele wordt gedefinieerd met een waarde.
    * Er wordt een bindingsgebeurtenis ingesteld.
