@@ -1,34 +1,34 @@
 ---
-description: De dimensies en de afmetingspunten van de onderbreking in de Werkruimte van de Analyse.
+description: Afmetingen en dimensies in Analysis Workspace onderverdelen.
 keywords: Analysis Workspace
 title: Uitsplitsingsdimensies
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
 
 # Uitsplitsingsdimensies
 
-De dimensies en de afmetingspunten van de onderbreking in de Werkruimte van de Analyse.
+Afmetingen en dimensies in Analysis Workspace onderverdelen.
 
-U kunt uw gegevens op onbeperkte wijze onderverdelen voor uw specifieke behoeften; bouwt vragen gebruikend relevante metriek, dimensies, segmenten, tijdlijnen, en andere waarden van de analyseonderbreking.
+U kunt uw data onbeperkt voor al uw specifieke vereisten opsplitsen, query&#39;s bouwen met relevante metrics, dimensies, segmenten, tijdlijnen en andere uitsplitsingswaarden voor de analyse.
 
 1. [Creeer een project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) met een gegevenslijst.
 1. Klik in de datatabel met de rechtermuisknop op een regelitem en selecteer **[!UICONTROL Breakdown]** > *`<item>`*.
 
-   ![Stap resultaat](assets/fa_data_table_actions.png)
+   ![Stap Resultaat](assets/fa_data_table_actions.png)
 
-   U kunt metriek onderverdelen door afmetingswaarden of publiekssegmenten over geselecteerde tijdsperioden. U kunt ook verder naar beneden boren tot een meer korrelig niveau.
+   U kunt metriek onderverdelen door afmetingspunten of publiekssegmenten over geselecteerde tijdsperioden. U kunt ook verder naar beneden boren tot een meer korrelig niveau.
 
    >[!NOTE] Het aantal uitsplitsingen dat in de tabel moet worden weergegeven, is beperkt tot 200. Deze limiet neemt toe voor exportuitsplitsingen.
 
-[Dimensies in analysewerkruimte op YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
+[Afmetingen in Analysis Workspace op YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 
 [Dimensie-indelingen op YouTube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=13) (2:02)
 
