@@ -2,7 +2,7 @@
 title: Uur
 description: Het uur waarop metrisch voorkwam.
 translation-type: tm+mt
-source-git-commit: 226c54b782651ea8c6f4b7bb8030a1513c440a1d
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 # Uur
 
-De dimensie &#39;Uur&#39; rapporteert het uur dat een bepaalde metrische waarde optrad (naar beneden afgerond). De eerste afmetingswaarde is het eerste uur in het datumbereik en de laatste afmetingswaarde is het laatste uur in het datumbereik. Deze dimensie is waardevol voor trended rapporten, aangezien het u toestaat om metriek in tijd te zien.
+De dimensie &#39;Uur&#39; rapporteert het uur dat een bepaalde metrische waarde optrad (naar beneden afgerond). Het eerste afmetingspunt is het eerste uur in de datumwaaier, en het laatste afmetingspunt is het laatste uur in de datumwaaier. Deze dimensie is waardevol voor trended rapporten, aangezien het u toestaat om metriek in tijd te zien.
 
 ## Deze dimensie vullen met gegevens
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensiewaarden
+## Dimensie-items
 
-De waarden van de dimensie omvatten een bepaald uur binnen de de datumwaaier van een rapport naast zijn datum. Het is opgemaakt als `HH:HH YYYY-MM-DD`.
+Dimensie-items bevatten een bepaald uur binnen het datumbereik van een rapport naast de datum. Het is opgemaakt als `HH:HH YYYY-MM-DD`.
