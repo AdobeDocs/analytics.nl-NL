@@ -2,7 +2,7 @@
 title: linkName
 description: Stel de naam in van de aangepaste koppelingshit.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # linkName
 
-Gebruik de `linkName` variabele om de afmetingswaarde van douaneverbindingen, downloadverbindingen, of uitgangsverbindingen te bepalen wanneer het runnen van de volgende [`tl()`](../functions/tl-method.md) methode.
+Gebruik de `linkName` variabele om het afmetingspunt van douaneverbindingen te bepalen, downloadverbindingen, of uitgangsverbindingen wanneer het runnen van de volgende [`tl()`](../functions/tl-method.md) methode.
 
 Als deze variabele leeg is, keert AppMeasurement aan de [`linkURL`](linkurl.md) variabele terug.
 
@@ -29,7 +29,7 @@ U kunt het gebied van de verbindingsnaam plaatsen wanneer het vormen van een reg
 
 ## s.linkName in AppMeasurement en Launch, aangepaste code-editor
 
-De `s.linkName` variabele is een tekenreeks die de waarde van de afmetingen voor aangepaste koppelingen, downloadkoppelingen of afsluitkoppelingen bepaalt (afhankelijk van wat [`s.linkType`](linktype.md) is). Het kan tot 100 bytes bevatten.
+De `s.linkName` variabele is een tekenreeks die het dimensiepunt voor aangepaste koppelingen, downloadkoppelingen of afsluitkoppelingen bepaalt (afhankelijk van wat [`s.linkType`](linktype.md) is). Het kan tot 100 bytes bevatten.
 
 >[!TIP]
 >
