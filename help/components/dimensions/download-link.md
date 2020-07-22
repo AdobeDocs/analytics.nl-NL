@@ -2,7 +2,7 @@
 title: Koppeling downloaden
 description: De naam van de downloadkoppeling.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -28,6 +28,6 @@ Als u gegevens naar deze afmeting wilt verzenden gebruikend AppMeasurement:
 * Stel de [`linkType`](/help/implement/vars/config-vars/linktype.md) variabele in op `"d"`.
 * Verzend een [`tl()`](/help/implement/vars/functions/tl-method.md) afbeeldingsaanvraag.
 
-## Dimensiewaarden
+## Dimensie-items
 
-Aangezien deze variabele op een douanekoord in uw implementatie gebaseerd is, bepaalt uw organisatie wat de afmetingswaarden zijn. Adobe raadt u aan om koppelingen in betekenisvolle categorieën te groeperen op basis van uw rapportagevereisten.
+Aangezien deze variabele op een douanekoord in uw implementatie gebaseerd is, bepaalt uw organisatie wat de afmetingspunten zijn. Adobe raadt u aan om koppelingen in betekenisvolle categorieën te groeperen op basis van uw rapportagevereisten.
