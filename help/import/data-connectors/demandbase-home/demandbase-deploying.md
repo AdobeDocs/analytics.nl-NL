@@ -3,7 +3,7 @@ description: Het implementeren van deze integratie is een eenvoudig proces waarv
 title: De integratie implementeren
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 1%
@@ -119,7 +119,7 @@ Als u echter aanpassingen moet aanbrengen, worden enkele code-instellingen hiero
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> Het scheidingsteken dat wordt gebruikt om de waarden van de Demandbase-dimensie te scheiden wanneer deze naar Adobe Analytics worden verzonden. Als u deze instelling wijzigt, werken de standaard classificatieregels mogelijk niet correct. </td> 
+   <td colname="col2"> Het scheidingsteken dat wordt gebruikt om de Demandbase-elementen van elkaar te scheiden wanneer deze naar Adobe Analytics worden verzonden. Als u deze instelling wijzigt, werken de standaard classificatieregels mogelijk niet correct. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
