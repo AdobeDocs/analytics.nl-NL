@@ -6,9 +6,9 @@ title: Referentie gegevenskolom
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
+source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
 workflow-type: tm+mt
-source-wordcount: '3664'
+source-wordcount: '3669'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `geo_region` | De naam van de staat of regio waar de treffer vandaan kwam, op basis van IP. Adobe werkt samen met Digital Envoy om IP-adres aan te passen aan de staat/regio. | teken(32) |
 | `geo_zip` | De postcode waar de hit vandaan kwam, is gebaseerd op IP. Adobe werkt samen met Digital Envoy om IP-adres aan te passen aan postcode. | varchar(16) |
 | `hier1 - hier5` | Wordt gebruikt door hiërarchievariabelen. Bevat een lijst met gescheiden waarden. Het scheidingsteken wordt gekozen onder de instellingen van de rapportsuite. | varchar(255) |
-| `hit_source` | Geeft aan uit welke bron de treffer afkomstig is. <br>1: Standaardverzoek om afbeelding zonder tijdstempel <br>2: Standaardverzoek om afbeelding met tijdstempel <br>3: Live uploaden van gegevensbron met tijdstempels <br>4: Niet gebruikt <br>5: Generieke gegevensbronupload <br>6: Uploaden gegevensbron volledige verwerking <br>7: TransactieID-gegevensbron uploaden <br>8: niet meer gebruikt; Eerdere versies van Adobe Advertising Cloud-gegevensbronnen <br>9: niet meer gebruikt; Metrische gegevens van Adobe Social | tinyint zonder teken |
+| `hit_source` | Geeft aan uit welke bron de treffer afkomstig is. <br>1: Standaardverzoek om afbeelding zonder tijdstempel <br>2: Standaardverzoek om afbeelding met tijdstempel <br>3: Live uploaden van gegevensbron met tijdstempels <br>4: Niet gebruikt <br>5: Generieke gegevensbronupload <br>6: Uploaden gegevensbron volledige verwerking <br>7: TransactieID-gegevensbron uploaden <br>8: niet meer gebruikt; Eerdere versies van Adobe Advertising Cloud-gegevensbronnen <br>9: niet meer gebruikt; Adobe Social summary metrics <br>10: Audience Manager server-kant gebruikt door:sturen | tinyint zonder teken |
 | `hit_time_gmt` | Het tijdstempel van de hit Adobe-gegevensverzamelingsservers heeft de hit ontvangen, gebaseerd in Unix-tijd. | int |
 | `hitid_high` | Wordt gebruikt in combinatie met hitid_low om een treffer op unieke wijze te identificeren. | bigint zonder teken |
 | `hitid_low` | Wordt gebruikt in combinatie met hitid_high om een treffer op unieke wijze te identificeren. | bigint zonder teken |
