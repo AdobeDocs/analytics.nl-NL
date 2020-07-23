@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 user-guide-url: /content/help/en/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 50ed50f951b6c7309359a19538323b1e12322a80
+source-git-commit: b4405f4934ffca5561bb43216a6c3133fd59c0c7
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 92%
+source-wordcount: '258'
+ht-degree: 91%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 92%
       + [Overzicht van de inhoud van de gegevensfeed](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Metrische gegevens berekenen](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Referentie gegevenskolom](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [Koptekstbronnen](analytics-data-feed/c-df-contents/headers.md)
-      + [Pagina-gebeurtenis opzoeken](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Opzoeken van paginagebeurtenissen](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Opzoeken van mobiele kenmerken](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
       + [Speciale tekens](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Te laat arriveren](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Veelgestelde vragen over gegevensinvoer](analytics-data-feed/df-faq.md)
