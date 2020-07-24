@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
       + Instellingen voor kolommen en rijen {#column-row-settings}
          + [Kolominstellingen](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Rij-instellingen](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [Handmatige versus dynamische rijen](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [Dynamische versus statische items](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [Instellingen ongedaan maken en opnieuw uitvoeren](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Beschikbare hotkeys in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Pagineren, filteren en tabellen sorteren](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
