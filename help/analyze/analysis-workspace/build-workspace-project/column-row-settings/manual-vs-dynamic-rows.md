@@ -2,9 +2,9 @@
 title: Dynamische of statische dimensie-items
 description: Hoe te met dynamische en statische afmetingspunten in lijsten in wisselwerking te staan.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '473'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,5 @@ Dimensie-items van verschillende afmetingen kunnen aan dezelfde tabel worden toe
 
 Dynamische en statische rijen gedragen zich anders in de vrije-vormtotale rij. Standaard:
 
-* Dynamische rijen worden samengevat op de server en worden niet-gedupliceerde afmetingen zoals bezoeken of bezoekers
-* Statische rijen worden als client-side opgeteld en dedupliceren **niet** metriek.
-
-[Meer informatie over de totale](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) opties van de Werkruimte voor dynamische en statische rijen.
+* Dynamische rijen worden samengevat op de server en worden niet-gedupliceerde cijfers zoals bezoeken of bezoekers
+* Statische rijen worden als client-side opgeteld en dedupliceren **niet** metriek. Als u de totale rijserver wilt berekenen, wijzigt u de instelling Rij in Totaal **** tonen. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
