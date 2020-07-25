@@ -3,10 +3,10 @@ description: 'null'
 title: Voorbeeld van labeling
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b3e8f77bfa7c48fc82e5ebd5bbe66511ea82c9f4
 workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Stel dat u de volgende treffersdata hebt:
 
 | Labels | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Naam variabele**<br>**(Naamruimte)** | **MyProp1**<br>**(gebruiker)** | **Bezoekers-id**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Naam variabele** <br> **(Namespace)** | **MyProp1** <br> **(gebruiker)** | **Bezoekers-id** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | Treffersdata | Moniek | 77 | A | M | X |
 |  | Moniek | 88 | B | N | Y |
 |  | Moniek | 99 | C | O | Z |
