@@ -2,12 +2,13 @@
 product: analytics
 audience: all
 user-guide-title: Analytics-implementatiehandleiding
+user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 4%
+ht-degree: 98%
 
 ---
 
@@ -15,12 +16,12 @@ ht-degree: 4%
 # Analytics-implementatiehandleiding {#implementation}
 
 + [Help bij Analytics-implementatie](home.md)
-+ [Opmerkingen bij de release AppMeasurement](appmeasurement-updates.md)
-+ Analytics-variabelen, -functies en -methoden {#vars}
++ [Releaseopmerkingen bij AppMeasurement](appmeasurement-updates.md)
++ Variabelen, functies en methoden van Analytics {#vars}
    + [Overzicht](vars/overview.md)
    + Configuratievariabelen {#config-vars}
       + [Overzicht van configuratievariabelen](vars/config-vars/configuration-variables.md)
-      + [afbreken](vars/config-vars/abort.md)
+      + [abort](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
       + [charSet](vars/config-vars/charset.md)
       + [cookieDomain](vars/config-vars/cookiedomain.md)
@@ -50,13 +51,13 @@ ht-degree: 4%
       + [useBeacon](vars/config-vars/usebeacon.md)
       + [useLinkTrackSessionStorage](vars/config-vars/uselinktracksessionstorage.md)
       + [usePlugins](vars/config-vars/useplugins.md)
-      + [bezoekerID](vars/config-vars/visitorid.md)
-      + [bezoekerNamespace](vars/config-vars/visitornamespace.md)
+      + [visitorID](vars/config-vars/visitorid.md)
+      + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
-   + Paginabariabelen {page-vars}
-      + [Overzicht van paginariabelen](vars/page-vars/page-variables.md)
-      + [campagne](vars/page-vars/campaign.md)
-      + [kanaal](vars/page-vars/channel.md)
+   + Paginavariabelen {page-vars}
+      + [Overzicht van paginavariabelen](vars/page-vars/page-variables.md)
+      + [campaign](vars/page-vars/campaign.md)
+      + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Dynamische variabelen](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
@@ -64,20 +65,20 @@ ht-degree: 4%
       + events {#events}
          + [Overzicht van gebeurtenissen](vars/page-vars/events/events-overview.md)
          + [Aankoopgebeurtenis](vars/page-vars/events/event-purchase.md)
-         + [Serienummering voor gebeurtenissen](vars/page-vars/events/event-serialization.md)
-      + [kassier](vars/page-vars/hier.md)
+         + [Gebeurtenisserialisatie](vars/page-vars/events/event-serialization.md)
+      + [hier](vars/page-vars/hier.md)
       + [list](vars/page-vars/list.md)
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
       + [pageURL](vars/page-vars/pageurl.md)
-      + [producten](vars/page-vars/products.md)
+      + [products](vars/page-vars/products.md)
       + [prop](vars/page-vars/prop.md)
       + [purchaseID](vars/page-vars/purchaseid.md)
-      + [referentie](vars/page-vars/referrer.md)
+      + [referrer](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
       + [server](vars/page-vars/server.md)
       + [state](vars/page-vars/state.md)
-      + [tijdstempel](vars/page-vars/timestamp.md)
+      + [timestamp](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
    + Functies en methoden {#functions}
@@ -120,20 +121,20 @@ ht-degree: 4%
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [Nummers Suite](vars/plugins/numberssuite.md)
+      + [Getallensuite](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [Module integreren](vars/integrate.md)
 + Implementatie van Adobe Analytics voorbereiden {#prepare}
-   + [Een gegevenslaag maken](prepare/data-layer.md)
-   + [Overwegingen voor algemene rapporten](prepare/global-rs.md)
+   + [Een datalaag maken](prepare/data-layer.md)
+   + [Overwegingen voor algemene rapportsuites](prepare/global-rs.md)
    + [Implementatiemodel](prepare/implementation-modal.md)
    + [Een document voor het ontwerp van een oplossing maken](prepare/solution-design.md)
 + Analytics implementeren met JavaScript {#js}
    + [JavaScript-overzicht](js/overview.md)
-   + [Optie-outkoppelingen implementeren](js/opt-out.md)
-   + [Variabele overschrijvingen](js/overrides.md)
+   + [Opt-outkoppelingen implementeren](js/opt-out.md)
+   + [Overschrijvingen van variabelen](js/overrides.md)
    + [Migreren vanuit H-code](js/migrate-from-hcode.md)
    + H-code {#h-code}
       + [H Code-overzicht](js/h-code/overview.md)
@@ -142,65 +143,65 @@ ht-degree: 4%
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
-      + [H-code oplossen](js/h-code/troubleshooting.md)
-   + Verouderde identificatie voor alle apparaten {#xdevice-visid}
-      + [Overzicht van het verbinden van gebruikers met verschillende apparaten](js/xdevice-visid/xdevice-connecting.md)
-      + [Variabele persistentie](js/xdevice-visid/variable-persistence.md)
+      + [Problemen met H-code oplossen](js/h-code/troubleshooting.md)
+   + Verouderde cross-device identificatie {#xdevice-visid}
+      + [Overzicht van het verbinden van gebruikers via verschillende apparaten](js/xdevice-visid/xdevice-connecting.md)
+      + [Persistentie van variabelen](js/xdevice-visid/variable-persistence.md)
       + [Voorbeeld van bezoek](js/xdevice-visid/visit-example.md)
-      + [Veelgestelde vragen over verouderde apparaten](js/xdevice-visid/xdevice-faq.md)
-   + [AppMeasurement oplossen](js/troubleshooting.md)
-+ Analytics implementeren met Adobe Experience Platform starten {#launch}
-   + [Overzicht van starten](launch/overview.md)
+      + [Veelgestelde vragen over verouderde cross-device](js/xdevice-visid/xdevice-faq.md)
+   + [Problemen met AppMeasurement oplossen](js/troubleshooting.md)
++ Analytics implementeren met Adobe Experience Platform Launch {#launch}
+   + [Overzicht van Launch](launch/overview.md)
    + [Een Analytics-eigenschap maken](launch/create-analytics-property.md)
    + [Distribueren naar een ontwikkelomgeving](launch/deploy-dev.md)
-   + [Valideren en publiceren naar profiel](launch/validate-publish-prod.md)
-   + [Gegevenslaagobjecten toewijzen aan gegevenselementen](launch/layer-to-elements.md)
-   + [Gegevenselementen van starten toewijzen aan Analytics-variabelen](launch/elements-to-variable.md)
+   + [Valideren en publiceren naar productie](launch/validate-publish-prod.md)
+   + [Datalaagobjecten toewijzen aan data-elementen](launch/layer-to-elements.md)
+   + [Launch-data-elementen Analytics-variabelen](launch/elements-to-variable.md)
 + Analytics implementeren op andere platforms {#other}
-   + [Analytics implementeren met behulp van hardwarematige verzoeken voor afbeeldingen](other/hardcoded.md)
+   + [Analytics implementeren met behulp van hardwarematige afbeeldingsaanvragen](other/hardcoded.md)
    + Analytics implementeren met DTM {#dtm}
-      + [Implementatieoverzicht van dynamisch tagbeheer](other/dtm/dtm-implementation-overview.md)
+      + [Implementatieoverzicht van Dynamic Tag Management](other/dtm/dtm-implementation-overview.md)
       + [Webeigenschap maken](other/dtm/t-create-web-property.md)
-      + [hostopties configureren](other/dtm/t-configure-hosting.md)
+      + [Hostingopties configureren](other/dtm/t-configure-hosting.md)
       + Kop- en voetteksten {#headers-footers}
          + [Code voor kop- en voetteksten toevoegen](other/dtm/c-headers-footers/t-header-footer-code.md)
-         + [Koptekst- en voettekstcode controleren](other/dtm/c-headers-footers/t-verify-header-footer.md)
-      + Adobe Analytics {#analytics-tool}
-         + [Adobe Analytics-gereedschap toevoegen](other/dtm/c-aa-tool/analytics-dtm.md)
+         + [Code voor kop- en voetteksten controleren](other/dtm/c-headers-footers/t-verify-header-footer.md)
+      + Adobe Analytics-tool {#analytics-tool}
+         + [Adobe Analytics-tool toevoegen](other/dtm/c-aa-tool/analytics-dtm.md)
          + [Algemeen](other/dtm/c-aa-tool/general-settings-analytics.md)
          + [Bibliotheekbeheer](other/dtm/c-aa-tool/library-management.md)
          + [Core AppMeasurement-code invoegen](other/dtm/c-aa-tool/t-appmeasurement-code.md)
          + [Algemene variabelen](other/dtm/c-aa-tool/global-variables.md)
-         + [Paginaweergaven en -inhoud](other/dtm/c-aa-tool/pageviews-content.md)
+         + [Paginaweergaven en -content](other/dtm/c-aa-tool/pageviews-content.md)
          + [Link tracking](other/dtm/c-aa-tool/link-tracking.md)
-         + [Referenties en campagnes](other/dtm/c-aa-tool/referrers-campaigns.md)
+         + [Referrers en campagnes](other/dtm/c-aa-tool/referrers-campaigns.md)
          + [Cookies](other/dtm/c-aa-tool/cookies-analytics.md)
          + [Paginacode aanpassen](other/dtm/c-aa-tool/customize-page-code.md)
-         + [Veelgestelde vragen over de Adobe Analytics Tool](other/dtm/c-aa-tool/dtm-faq.md)
-      + [Een gegevenselement maken](other/dtm/t-data-element.md)
+         + [Veelgestelde vragen over de Adobe Analytics-tool](other/dtm/c-aa-tool/dtm-faq.md)
+      + [Een data-element maken](other/dtm/t-data-element.md)
       + [Adobe Analytics handmatig implementeren (verouderd)](other/dtm/t-analytics-deploy.md)
       + Regels {#rules}
          + [Nieuwe regel maken](other/dtm/c-rules/t-rules-create.md)
-         + [Voorwaarden maken voor op gebeurtenissen gebaseerde regels](other/dtm/c-rules/t-rules-event-conditions.md)
+         + [Voorwaarden maken voor regels op basis van gebeurtenissen](other/dtm/c-rules/t-rules-event-conditions.md)
          + [Voorwaarden maken voor regels voor het laden van pagina&#39;s](other/dtm/c-rules/t-rules-page-conditions.md)
          + [Voorwaarden maken voor regels voor directe oproepen ](other/dtm/c-rules/t-rules-direct-conditions.md)
-         + [Handelingen instellen voor activeren van voorwaarde](other/dtm/c-rules/t-rules-actions.md)
+         + [Acties instellen voor voorwaarden voor activeren](other/dtm/c-rules/t-rules-actions.md)
          + [Niet-gepubliceerde regels voor Akamai-hosting testen](other/dtm/c-rules/t-test-rules-akamai.md)
-         + [Testregels voor het downloaden van bibliotheken of FTP](other/dtm/c-rules/t-test-rules-ftp.md)
+         + [Regels testen voor het downloaden van bibliotheken of FTP](other/dtm/c-rules/t-test-rules-ftp.md)
    + [Analytics implementeren op Ajax](other/ajax.md)
    + [Analytics implementeren op AMP](other/amp.md)
    + [Analytics implementeren op digitale assistenten](other/digital-assistants.md)
    + [Analytics implementeren op Facebook Instant Articles](other/fb-instant-articles.md)
 + [Analytics implementeren op mobiele apparaten](mobile-device-sdk.md)
 + Gebruiksscenario&#39;s implementeren {#use-cases}
-   + [Houd verschillende implementatietypen bij](use-cases/cross-type-implementation.md)
-   + [Externe e-mailtracking](use-cases/email-external.md)
+   + [Verschillende implementatietypen bijhouden](use-cases/cross-type-implementation.md)
+   + [Externe e-mailtracering](use-cases/email-external.md)
 + Uw implementatie valideren {#validate}
    + [Verouderde Adobe Experience Cloud-foutopsporing](validate/debugger.md)
-   + [Query-parameters voor gegevensverzameling](validate/query-parameters.md)
-   + [Pakketmonitoren](validate/packet-monitor.md)
+   + [Queryparameters voor dataverzameling](validate/query-parameters.md)
+   + [Pakketbewaking](validate/packet-monitor.md)
    + [Hash-botsingen](validate/hash-collisions.md)
 + [Veelgestelde vragen](faq.md)
-+ XDM-gegevens gebruiken met Analytics {#aep-edge}
-   + [AEP Web SDK gebruiken](aep-edge/xdmoverview.md)
++ XDM-data gebruiken met Analytics {#aep-edge}
+   + [AEP Web-SDK gebruiken](aep-edge/xdmoverview.md)
    + [XDM-gegevens handmatig toewijzen aan Analytics](aep-edge/xdm-manual.md)
