@@ -3,7 +3,7 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: e7d1a690076d9fbb68797224d7ab53a6350f787d
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '2119'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Releasedatum: **5 maart 2020**
 
 Releasedatum: **21 februari 2020**
 
-* Bijgewerkte module Audience Management naar DIL 9.4. (AN-209341)
+* Bijgewerkte module van het Beheer van het Publiek aan DIL 9.4. (AN-209341)
 
 ## Versie 2.18.0
 
@@ -56,16 +56,16 @@ Releasedatum: **15 augustus 2019**
 
 * Geïmplementeerde `sendBeacon` ondersteuning in [!UICONTROL AppMeasurement] voor afsluitkoppelingen. Als een hit wordt gebruikt `sendBeacon` en de pagina wordt verwijderd, is de aanvraag nog steeds voltooid. Dit is zeer nuttig voor uitgangsverbindingen omdat het waarschijnlijker is dat de treffer de servers van de gegevensinzameling bereikt. (AN-175142)
 * ECID/fid-waarden worden nu in de cache geplaatst bij de eerste hit, ook al veranderen de instellingen voor OptIn. (AN-175142)
-* Bijgewerkte Audience Management Module naar DIL 9.3. (AN-182704)
+* Bijgewerkte Module van het Beheer van het Publiek aan DIL 9.3. (AN-182704)
 * De blootgestelde schakelaar binnen `s.ActivityMap.trackScrollReach` om rolbereik het volgen of weg te zetten. (AN-182754)
 * Bijgewerkte AppMeasurement om de Dienst van bezoeker ID 4.4.0 te gebruiken. (AN-182912)
 
 ## Versie 2.15.0
 
-Releasedatum: **15 juli 2019**
+Release Date: **July 15, 2019**
 
 * Toegevoegde ActivityMap scroll bereiktracking naar de extensie Activity Map (AN-172949)
-* DIL 9.2 is toegevoegd aan AppMeasurement (AN-182472)
+* DIL 9.2 toegevoegd aan AppMeasurement (AN-182472)
 
 ## Versie 2.14.0
 
@@ -84,7 +84,7 @@ Release Date: **April 10, 2019**
 
 Releasedatum: **22 februari 2019**
 
-* Bijgewerkte module Audience Management naar DIL 9.1. (AN-175255)
+* Bijgewerkte module van het Beheer van de Publiek aan DIL 9.1. (AN-175255)
 * GTM-beveiligingsbeleid staat geen Activity Map-module toe. (AN-174679)
 * Verbeterde AppMeasurement om opt-out na te leven wanneer de Identiteitsdienst niet in opt-in wordt goedgekeurd. (AN-175259)
 
@@ -92,7 +92,7 @@ Releasedatum: **22 februari 2019**
 
 Releasedatum: **11 februari 2019**
 
-* Extra ondersteuning voor de nieuwe functionaliteit voor Adobe Opt-in-services in AppMeasurement. (AN-163546)
+* Toegevoegde ondersteuning voor de nieuwe functionaliteit voor Adobe Opt-in-services in AppMeasurement. (AN-163546)
 * Toegevoegde ondersteuning voor het opslaan van gegevens voor het bijhouden van koppelingen in sessieopslag. (AN-162272)
 * Toegevoegde ondersteuning voor mediastroomtype voor Audio Analytics. (AN-173265)
 
@@ -113,7 +113,7 @@ Release Date: **May 24, 2018**
 
 >[!NOTE]
 >
->Bezoeker-API 3.0 of hoger is vereist voor klanten die de [!DNL Experience Cloud] id-service gebruiken. Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van de Visitor API wanneer gekoppelde codebibliotheken worden bijgewerkt ( [!DNL at.js], [!DNL AppMeasurement.js]enzovoort).
+>Bezoeker-API 3.0 of hoger is vereist voor klanten die de [!DNL Experience Cloud] id-service gebruiken. Adobe raadt aan een upgrade uit te voeren naar de nieuwste versie van de API van de bezoeker wanneer gekoppelde codebibliotheken worden bijgewerkt ( [!DNL at.js], [!DNL AppMeasurement.js]enzovoort.)
 
 * Bijgewerkt om de bijgewerkte interface van de Bezoeker te gebruiken voor het aanvragen van id&#39;s. [!DNL AppMeasurement] (AN-151483)
 * Probleem verholpen waarbij de functie voor het bijhouden van koppelingen steeds wordt weggeschreven nadat het bijhouden van koppelingen is uitgeschakeld. (AN-156332)
@@ -215,7 +215,7 @@ Releasedatum: **19 januari 2017**
 Bijgewerkt: **11 november 2016**
 
 * Inclusief Bezoeker-API 1.10.1.
-* Werk [!DNL Audience Manager] de module bij met de Integratiebibliotheek van de Index (DIL) 6.6. (AN-132065)
+* Werk [!DNL Audience Manager] de module met de Bibliotheek van de Integratie van de Index (DIL) bij 6.6. (AN-132065)
 * Opname van de Bezoeker-API 1.9.0. (AN-132072)
 * Update [!DNL AppMeasurement] [!DNL Audience Manager] Module met DIL 6.5 en Extra Configuraties (AN-129411)
 * Opname van de Bezoeker-API 1.8.0 (AN-129887)
@@ -229,7 +229,7 @@ Bijgewerkt: **18 augustus 2016**
 
 >[!NOTE]
 >
->Zie ook de volgende releaseopmerkingen voor [!DNL JavaScript] versie 1.6.3, die bijgewerkte vereisten voor Experience Cloud ID-service bevatten.
+>Zie ook de volgende releaseopmerkingen voor [!DNL JavaScript] versie 1.6.3, die bijgewerkte vereisten voor de Experience Cloud ID-service bevat.
 
 ## Versie 1.6.3
 
@@ -239,11 +239,11 @@ Bijgewerkt: **4 augustus 2016**
 
 >[!IMPORTANT]
 >
->Versie 1.6.0 van de [!DNL Experience Cloud] ID-service *vereist* [!DNL AppMeasurement] voor [!DNL JavaScript] versie 1.6.3 of hoger. Als u wilt upgraden naar versie 1.6.0 van de Experience Cloud ID-service, moet u [!DNL AppMeasurement] code versie 1.6.3 of hoger gebruiken.
+>Versie 1.6.0 van de [!DNL Experience Cloud] ID-service *vereist* [!DNL AppMeasurement] voor [!DNL JavaScript] versie 1.6.3 of hoger. Als u wilt bijwerken naar versie 1.6.0 van de Experience Cloud ID-service, moet u [!DNL AppMeasurement] code versie 1.6.3 of hoger gebruiken.
 
 ## Versie 1.6.2
 
-Releasedatum: **21 juli 2016**
+Release Date: **July 21, 2016**
 
 * Opname van de Bezoeker-API 1.6.0.
 * Probleem verholpen waarbij de onjuiste, verduisterde methode in de Bezoeker-API [!DNL AppMeasurement] werd aangeroepen. (AN-126006)
@@ -289,7 +289,7 @@ Releasedatum: **5 november 2015**
 Releasedatum: **17 september 2015**
 
 * Opname van de Bezoeker-API 1.5.2
-* Bijgewerkte module om AAM DIL 6.2 te gebruiken - getCustomer IDs van VisitorAPI.js en hen in /event vraag door te geven aan AAM. [!DNL Audience Manager] (AN-104978)
+* Bijgewerkte [!DNL Audience Manager] module aan gebruik AAM DIL 6.2 - getCustomer IDs van VisitorAPI.js en ga hen in /event vraag tot AAM over. (AN-104978)
 
 ## Versie 1.5
 
@@ -306,7 +306,7 @@ Release Date: **May 21, 2015**
 * Vanaf iOS SDK versie 4.5 kunt u met een nieuwe iOS-extensie gebruiksgegevens verzamelen van uw Apple Watch-apps, Today-widgets, widgets voor fotobewerking en alle andere iOS-extensies. Zie de implementatie [van](https://docs.adobe.com/content/help/en/mobile-services/ios/ios-ext/ios-ext.html) iOS-extensies in de gebruikershandleiding voor mobiele services.
 * Vanaf Android SDK versie 4.5 kunt u met een nieuwe Android-extensie gegevens verzamelen van uw Android-webtoepassing die kan worden gebruikt. Zie [Android-variabelen](https://docs.adobe.com/content/help/en/mobile-services/android/wearables-android/android-wearable.html) in de gebruikershandleiding voor mobiele services.
 * Opname van de Bezoeker-API 1.4.
-* Bijgewerkte module PubliekManagement voor het gebruik van DIL versie 6.0.
+* Bijgewerkte module van het Beheer van het Publiek om DIL versie 6.0 te gebruiken.
 
 >[!NOTE]
 >
@@ -333,7 +333,7 @@ Releasedatum: **19 februari 2015**
 Releasedatum: **15 januari 2015**
 
 * Correctie van de afhandeling van de WebKit-prerender om te voorkomen dat vooraf weergegeven pagina&#39;s die niet worden weergegeven, worden bijgehouden.
-* Het ZIP voor distributie is bijgewerkt en bevat nu Bezoeker API 1.3.4 en een bijgewerkte **[!UICONTROL AudienceManagement]** module met DIL versie 5.5.
+* Het ZIP voor distributie is bijgewerkt en bevat nu Bezoeker API 1.3.4 en een bijgewerkte **[!UICONTROL AudienceManagement]** module die DIL versie 5.5 bevat.
 
 ## Versie 1.4.1
 
@@ -354,9 +354,9 @@ Releasedatum: **18 september 2014**
 * Op pagina&#39;s met twee labels en H-code heeft u een lus gecorrigeerd die kan optreden tijdens het automatisch bijhouden van koppelingen (downloaden en afsluiten) waarbij geforceerde koppelingen moeten worden bijgehouden (standaard in Webkit-browsers). Daarnaast is er een algemene beveiliging toegevoegd rondom het automatisch bijhouden van koppelingen om vergelijkbare lusbewerkingen te voorkomen. Met deze beveiliging beperkt u het automatisch bijhouden van koppelingen bij herhaalde klikken tot *hetzelfde* object en dit tot één keer per 10 seconden. Deze beveiliging is alleen van toepassing op het automatisch bijhouden van koppelingen, zodat oproepen voor het handmatig bijhouden van koppelingen (s.tl) niet beperkt zijn. Klikken op verschillende objecten worden ook niet beïnvloed door deze beveiliging en worden bijgehouden.
 * Correctie van afhandeling van geklikt object wanneer een vertraging nodig is.
 * Probleem verholpen waarbij een aantal pagina&#39;s werd geteld wanneer s.t werd aangeroepen vanuit een functie klikkoppeling als de bezoeker-API nog niet de vereiste waarden heeft.
-* Ondersteuning voor HTTP POST.
+* Ondersteuning voor HTTP-POST.
 
-   > [!IMPORTANT] Voor een [!DNL Analytics] vraag om de methode van de POST in plaats van de GET methode te gebruiken in [!DNL AppMeasurement] (een methode om [beknot URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)op te lossen), moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor Experience Cloud gebruiken.
+   >[!IMPORTANT] Voor een [!DNL Analytics] vraag om de methode van de POST in plaats van de methode van de GET te gebruiken in [!DNL AppMeasurement] (een methode om [beknot URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)op te lossen), moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor de Experience Cloud gebruiken.
 
 ## Versie 1.4
 
@@ -405,7 +405,7 @@ Releasedatum: **20 februari 2014**
 
 Releasedatum: **6 februari 2014**
 
-* Probleem verholpen met compatibiliteit met de [!DNL Audience Manager] DIL-module. [!DNL Audience Manager] klanten moeten ook een update uitvoeren naar versie 4.8 van de DIL-module.
+* Probleem verholpen met compatibiliteit met de module [!DNL Audience Manager] DIL. [!DNL Audience Manager] klanten moeten ook bijwerken naar versie 4.8 van de module DIL.
 
 ## Versie 1.2.1
 
@@ -436,12 +436,12 @@ Releasedatum: **18 september 2013**
 
 Releasedatum: **15 augustus 2013**
 
-* Extra ondersteuning voor implementatie via Adobe-tagbeheer.
+* Extra ondersteuning voor implementatie via tagbeheer van Adobe.
 * Probleem verholpen waarbij het instellen van hiërarchievariabelen voor het [!DNL AppMeasurement] object werd voorkomen.
 
 ## Versie 1.0.2
 
-Releasedatum: **18 juli 2013**
+Release Date: **July 18, 2013**
 
 * De hash/het fragment wordt nu genegeerd door de koppeling automatisch te volgen. Eerder werd automatisch de volgende URL bijgehouden sinds het volledige `href` eindigde in `.pdf`:
 
