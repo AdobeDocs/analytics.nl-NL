@@ -3,7 +3,7 @@ description: Ga aan de slag met Ad hoc analysis.
 title: Aan de slag
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 # Aan de slag met Ad hoc analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
 >[!Ibelangrijk]
->Op 6 augustus 2018 kondigde Adobe aan dat het de bedoeling was om de levensduur Ad hoc analysis te beëindigen. De einddatum wordt gedeeld zodra deze beschikbaar is. Ga voor meer informatie, waaronder de versies van Java die tijdens deze periode compatibel zijn, naar [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>Op 6 augustus 2018 kondigde Adobe het voornemen aan om het einde van de levensduur Ad hoc analysis te maken. De einddatum wordt gedeeld zodra deze beschikbaar is. Ga voor meer informatie, waaronder de versies van Java die tijdens deze periode compatibel zijn, naar [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 U kunt ogenblikkelijke, geavanceerde analyse op websiteactiviteit uitvoeren. U kunt veelvoudige rapporten gelijktijdig bekijken en segmenten over veelvoudige afmetingen toepassen. U kunt de gegevens vanuit zowel micro- als macroperspectieven analyseren om hun effect op uw belangrijke bedrijfsmetriek te bekijken.
 
@@ -30,11 +30,11 @@ Met deze functies kunt u vragen beantwoorden over siteverkeer, demografie van be
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Meld u aan bij Adobe <span class="keyword"> Analytics</span>. </p> </td> 
-   <td colname="col2"> <p>Ga naar <a href="https://experiencecloud.adobe.com"  > marketing.adobe.com </a>en meld u aan met uw Adobe Analytics-gebruikersgegevens. </p> </td> 
+   <td colname="col2"> <p>Ga naar <a href="https://experiencecloud.adobe.com"  > marketing.adobe.com </a>en meld u aan met uw Adobe Analytics-gegevens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Start Ad hoc analysis. </p> </td> 
-   <td colname="col2">Klik op <span class="uicontrol"> Adobe Analytics</span> &gt; <span class="uicontrol"> Gereedschappen</span> &gt; <span class="uicontrol"> Ad hoc analysis</span>en klik vervolgens op de knop Ad hoc analysis <span class="uicontrol"></span> starten. <p> <p>Opmerking: Als de knop Ad hoc analysis <b></b> starten niet op deze pagina wordt weergegeven, controleert u of de beheerder u heeft toegevoegd aan de groep <i>Ad hoc analysis gebruiker</i> van licentie in de beheerprogramma's. </p> </p> </td> 
+   <td colname="col2">Klik op <span class="uicontrol"> Adobe Analytics</span> &gt; <span class="uicontrol"> Gereedschappen</span> &gt; <span class="uicontrol"> Ad hoc analysis</span>en klik vervolgens op de knop <span class="uicontrol"> Ad hoc analysis</span> starten. <p> <p>Opmerking: Als de knop Ad hoc analysis <b></b> starten niet op deze pagina wordt weergegeven, controleert u of de beheerder u heeft toegevoegd aan de groep <i>Ad hoc analysis gebruiker</i> van licentie in de beheerprogramma's. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Maak een project. </p> </td> 
@@ -57,7 +57,7 @@ Met deze functies kunt u vragen beantwoorden over siteverkeer, demografie van be
  </tbody> 
 </table>
 
-## Systeemaanbevelingen {#concept_6691331B45174290BD9B839806A9B52D}
+## System Recommendations {#concept_6691331B45174290BD9B839806A9B52D}
 
 Hoewel de rapporten geschikt met de populairste browsers van het Web zouden moeten functioneren, kijken de rapporten en functioneren best op systemen die aan bepaalde aanbevelingen voldoen.
 
@@ -93,8 +93,8 @@ Als u nog steeds Java 7 hebt geïnstalleerd, moet u een upgrade uitvoeren vóór
 * Als u programma&#39;s op uw computer mag installeren:
 
    1. Ga naar https://www.java.com.
-   1. Klik op **[!UICONTROL Free Java Download]**.
-   1. Klik op **[!UICONTROL Agree and Start Free Download]**.
+   1. Klik op **[!UICONTROL Java Download]**.
+   1. Klik op **[!UICONTROL Agree and Start Download]**.
    1. Installeer de nieuwste Java-versie die specifiek is voor uw besturingssysteem.
 
 * Als u **geen** programma&#39;s op uw computer mag installeren:
@@ -109,9 +109,9 @@ c_login.xml
 
  -->
 
-U kunt zich aanmelden via de URL [!DNL Experience Cloud] of via een URL. Als u zich aanmeldt bij Rapporten en Analytics, wordt u automatisch aangemeld. U hoeft zich alleen aan te melden met een URL als u de ad hoc analysis URL opent vanuit een andere locatie, zoals een koppeling of via een menu Favorieten.
+U kunt zich aanmelden via de URL [!DNL Experience Cloud] of via een URL. Als u zich aanmeldt bij Reports and Analytics, wordt u automatisch aangemeld. U hoeft zich alleen aan te melden met een URL als u de ad hoc analysis URL opent vanuit een andere locatie, zoals een koppeling of via een menu Favorieten.
 
-## Aanmelden bij de Experience Cloud {#task_128ED319F3AE49ED886EA3DFA8D0987F}
+## Aanmelden vanaf de Experience Cloud {#task_128ED319F3AE49ED886EA3DFA8D0987F}
 
 Stappen die beschrijven hoe u zich bij de [!DNL Experience Cloud]toepassing aanmeldt.
 
