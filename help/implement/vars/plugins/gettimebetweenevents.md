@@ -2,7 +2,7 @@
 title: getTimeBetweenEvents
 description: Meet de hoeveelheid tijd tussen twee gebeurtenissen.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -10,15 +10,15 @@ ht-degree: 0%
 ---
 
 
-# Adobe-insteekmodule: getTimeBetweenEvents
+# Adobe-plug-in: getTimeBetweenEvents
 
 >[!IMPORTANT]
 >
->Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 Met de `getTimeBetweenEvents` insteekmodule kunt u bijhouden hoeveel tijd er is tussen twee Analytics-gebeurtenissen, zoals winkelwagentjes en aangepaste gebeurtenissen. Het is handig als u wilt bijhouden hoeveel tijd er nodig is om een afrekenproces te voltooien of om het even welk ander proces dat u tijd wilt meten. Deze insteekmodule is niet nodig als u geen conversieprocessen hebt die u wilt meten hoe lang het duurt.
 
-## De plug-in installeren met de extensie Adobe Experience Platform starten
+## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
@@ -47,7 +47,7 @@ Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-
 
 ## De plug-in installeren met AppMeturement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het trackingobject Analytics is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het trackingobject Analytics is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -70,7 +70,7 @@ De `getTimeBetweenEvents` methode gebruikt de volgende argumenten:
 * **`rt`** (vereist, Booleaans): Optie timer opnieuw starten. Stel deze optie in op `true` als u de timer opnieuw wilt starten telkens wanneer de `events` variabele een gebeurtenis start timer bevat. Stel deze optie in op `false` als u niet wilt dat de timer opnieuw wordt gestart wanneer er een gebeurtenis start timer wordt weergegeven.
 * **`stp`** (vereist, tekenreeks): Stop timergebeurtenissen. Een door komma&#39;s gescheiden tekenreeks met Analytics-gebeurtenissen die &#39;de timer stoppen&#39;.
 * **`res`** (vereist, Booleaans): Optie timer opnieuw instellen. Stel deze optie in op `true` als u de tijd wilt opnemen sinds de timer is gestart EN de timer opnieuw wilt instellen nadat deze is gestopt. Stel deze optie in op `false` als u de tijd wilt opnemen, maar de timer niet wilt stoppen. Indien ingesteld op `false`, blijft de timer actief nadat de gebeurtenisvariabele een stopgebeurtenis vastlegt.
-   > [!TIP] Als u dit argument instelt op `false`, wordt het sterk aanbevolen het `rte` argument hieronder in te stellen.
+   >[!TIP] Als u dit argument instelt op `false`, wordt het sterk aanbevolen het `rte` argument hieronder in te stellen.
 * **`cn`** (optioneel, tekenreeks): De cookienaam waar de tijd van de eerste gebeurtenis wordt opgeslagen. Wordt standaard ingesteld op `"s_tbe"`.
 * **`etd`** (optioneel, geheel getal): De vervaltijd voor de cookie in dagen. Stel in op verlopen aan het einde van de browsersessie. `0` Wordt standaard ingesteld op 1 dag.
 * **`fmt`** (optioneel, tekenreeks): De notatie van de tijd waarin het aantal seconden wordt geretourneerd (standaardinstellingen op niets)
@@ -123,7 +123,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "
 * De timer stopt NIET wanneer s.events event2 bevat, maar de insteekmodule neemt de tijd op sinds de oorspronkelijke gebeurtenis1-instelling is opgenomen
 * De timer wordt opgeslagen in een cookie met de naam &quot;s_20&quot;
 * De timer wordt alleen opnieuw ingesteld wanneer s.events event3 OF bevat wanneer 20 dagen zijn verstreken sinds de timer is gestart
-* Wanneer een tijd tussen (de originele) gebeurtenis1 en event2 wordt geregistreerd, stelt de plug-in eVar1 in op het aantal uren tussen de twee gebeurtenissen die worden ingesteld, afgerond naar de dichtstbijzijnde benchmark van 1/2 uur (bijvoorbeeld 0 uur, 1,5 uur, 3 uur, 7,5 uur, 478,5 uur enz.)
+* Wanneer een tijd tussen (de originele) gebeurtenis1 en event2 wordt geregistreerd, stelt de plug-in eVar1 in op het aantal uren tussen de twee gebeurtenissen die worden ingesteld, afgerond op de dichtstbijzijnde benchmark van 1/2 uur (bijvoorbeeld 0 uur, 1,5 uur, 3 uur, 7,5 uur, 478,5 uur enz.)
 
 ### Voorbeeld 3
 
