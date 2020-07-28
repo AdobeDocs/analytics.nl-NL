@@ -2,7 +2,7 @@
 title: H Code JavaScript-implementatieoverzicht
 description: Leer de workflow voor het implementeren van H-code op uw site.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze versie van gegevensverzameling wordt niet meer ondersteund. Voer een upgrade uit naar [Adobe Experience Platform starten](../../launch/overview.md) of [AppMeasurement voor JavaScript](../overview.md).
+>Deze versie van gegevensverzameling wordt niet meer ondersteund. Voer een upgrade uit naar [Adobe Experience Platform Launch](../../launch/overview.md) of [AppMeasurement voor JavaScript](../overview.md).
 
 U moet toegang hebben tot uw hostservers om een pagina met code te kunnen implementeren voor het verzamelen van gegevens. In de volgende stappen doorloopt u een eenvoudige Analytics H Code-implementatie.
 
@@ -27,9 +27,10 @@ U moet toegang hebben tot uw hostservers om een pagina met code te kunnen implem
    * `s.trackingServer` bevat de locatie waar cookies worden opgeslagen. Zie [trackingServer](../../vars/config-vars/trackingserver.md).
 2. **Het`s_code.js`bestand hosten op uw site**: Dit bestand bevindt zich gewoonlijk met andere scripts op uw webserver.
 3. **Referentie`s_code.js`op alle pagina**&#39;s: Zorg ervoor dat alle afzonderlijke pagina&#39;s het kern-JavaScript-bestand aanroepen en doe dit binnen de HTML- `<body>` tag (niet de `<head>` -tag).
-   > [!TIP] H Code vereist dat het `s_code.js` script binnen de `<body>` tag wordt aangeroepen. Dit verschilt van andere implementatiemethoden, waarbij voor de meeste van deze methoden scriptverwijzingen in de `<head>` tag moeten staan.
+
+   >[!TIP] H Code vereist dat het `s_code.js` script binnen de `<body>` tag wordt aangeroepen. Dit verschilt van andere implementatiemethoden, waarbij voor de meeste van deze methoden scriptverwijzingen in de `<head>` tag moeten staan.
 4. **Definieer paginaspecifieke variabelen op elke pagina**: Voor elke pagina moeten afzonderlijke variabelen worden gedefinieerd, zoals paginanaam of eVars. Afzonderlijke variabelen worden doorgaans op elke pagina gedefinieerd met een inline- `<script>` tag.
-5. **Gebruik debugger om gegevensinzameling** te verifiëren: Download en installeer het foutopsporingsprogramma [van](../../validate/debugger.md) Experience Cloud om te controleren of gegevens naar Adobe worden verzonden en of de paginariabelen correct zijn gedefinieerd.
+5. **Gebruik debugger om gegevensinzameling** te verifiëren: Download en installeer debugger [van de](../../validate/debugger.md) Experience Cloud om ervoor te zorgen dat de gegevens naar Adobe worden verzonden, en dat de paginariabelen correct worden bepaald.
 
 ## Caching
 
