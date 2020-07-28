@@ -2,7 +2,10 @@
 title: Lijstvariabelen
 description: Creeer en vorm lijstvariabelen voor gebruik in het melden.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 1%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: ''
 
 Creeer en vorm lijstvariabelen voor gebruik in het melden. Stel hier hun waarden voor scheidingstekens, verlopen, toewijzing en maximum in.
 
-U hebt toegang tot de configuratie in de beheerconsole:
+U kunt tot de configuratie in de Admin Console toegang hebben:
 
 1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
 2. Selecteer de rapportsuite.
@@ -20,9 +23,9 @@ U hebt toegang tot de configuratie in de beheerconsole:
 * **Naam**: Elke gescheiden waarde kan maximaal 255 tekens bevatten (of minder als multi-byte tekens worden gebruikt). Dit is de maximumlengte van elk element.
 * **Scheidingsteken** waarde: Het teken dat wordt gebruikt om waarden in de keuzelijst van elkaar te scheiden. Meestal gaat het om tekens zoals komma&#39;s, dubbele punten, pijpen of iets dergelijks.
 
-   > [!NOTE] Multi-bytetekens worden niet ondersteund als scheidingstekens in List Vars. Het scheidingsteken moet één byte zijn.
+   >[!NOTE] Multi-bytetekens worden niet ondersteund als scheidingstekens in List Vars. Het scheidingsteken moet één byte zijn.
 
-* **Vervaldatum**: Net als bij eVar-vervaldatum bepaalt dit de hoeveelheid tijd die kan optreden tussen de List Var en de conversiegebeurtenis zodat deze aan elkaar kunnen worden gerelateerd.
+* **Vervaldatum**: Net als bij het verlopen van de eVar, bepaalt dit de hoeveelheid tijd die tussen de Lijst Var en de omzettingsgebeurtenis kan voorkomen voor hen om worden verwant.
    * **In een paginaweergave of op bezoekniveau**: Gebeurtenissen na afloop van de paginaweergave of het bezoek zijn niet weer gekoppeld aan waarden in de lijst Var.
    * **Gebaseerd op een tijdsperiode, zoals dag, week, maand, enz**.: Gebeurtenissen met succes na de opgegeven tijdsperiode worden niet gekoppeld aan waarden binnen de List Var. Ook kan een aangepast aantal dagen worden gedefinieerd.
    * **Specifieke conversiegebeurtenissen**: Eventuele andere succesgebeurtenissen die na de opgegeven specifieke gebeurtenis plaatsvinden, worden niet gekoppeld aan waarden in de lijst Var.
