@@ -1,13 +1,16 @@
 ---
-title: Een gegevenslaag maken
-description: Leer wat een gegevenslaag in uw implementatie Analytics is, en hoe het kan worden gebruikt om variabelen in de Analytics van Adobe in kaart te brengen.
+title: Een datalaag maken
+description: Leer wat een gegevenslaag in uw implementatie van Analytics is, en hoe het kan worden gebruikt om variabelen in Adobe Analytics in kaart te brengen.
 translation-type: tm+mt
-source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 2%
 
 ---
 
 
-# Een gegevenslaag maken
+# Een datalaag maken
 
 Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site dat alle variabelenwaarden bevat die in uw implementatie worden gebruikt. Hierdoor kunt u uw implementatie beter beheren en eenvoudiger onderhouden.
 
@@ -17,17 +20,17 @@ Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site dat alle var
 
 ## Workflow
 
-Bij de implementatie van Adobe Analytics met een gegevenslaag worden doorgaans de volgende stappen uitgevoerd:
+Bij het implementeren van Adobe Analytics met een gegevenslaag worden doorgaans de volgende stappen uitgevoerd:
 
 1. **Werk met uw team van de plaatsontwikkeling om een gegevenslaag** uit te voeren: Uw team van de plaatsontwikkeling is hoofdzakelijk verantwoordelijk voor het ervoor zorgen van het voorwerp van de gegevenslaag bevolkt met correcte waarden. Controleer deze pagina met uw team van de plaatsontwikkeling om ervoor te zorgen de verwachtingen tussen teams worden gericht.
-   > [!NOTE] De volgende door Adobe aanbevolen specificaties voor gegevenslagen zijn optioneel. Als u al een gegevenslaag hebt of de Adobe-specificaties op een andere manier niet wilt naleven, moet u controleren of uw organisatie is uitgelijnd op de te volgen specificatie.
+   >[!NOTE] De volgende Adobe aanbevolen gegevenslaagspecificaties is optioneel. Als u reeds een gegevenslaag hebt, of anders verkiest om Adobe geen specificaties te volgen, zorg ervoor dat uw organisatie zich op welke specificatie richt te volgen.
 2. **Valideer uw gegevenslaag met een browserconsole**: Zodra een gegevenslaag wordt gecreeerd, kunt u bevestigen dat het gebruikend om het even welke browser ontwikkelaarsconsole werkt. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend de `F12` sleutel. Een waarde van een voorbeeldvariabele zou `digitalData.page.pageInfo.pageID`zijn.
-3. **Met Adobe Experience Platform Launch kunt u gegevenslaagobjecten toewijzen aan gegevenselementen** starten: Maak gegevenselementen in Launch en wijs deze toe aan de JavaScript-kenmerken die in de gegevenslaag worden beschreven.
-4. **Met de extensie Adobe Analytics in Launch kunt u gegevenselementen toewijzen aan analytische variabelen**: Na uw document van het oplossingsontwerp, wijs elk gegevenselement aan de aangewezen variabele Analytics toe.
+3. **Adobe Experience Platform Launch gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Maak gegevenselementen in Launch en wijs deze toe aan de JavaScript-kenmerken die in de gegevenslaag worden beschreven.
+4. **Met de extensie Adobe Analytics in Launch kunt u gegevenselementen toewijzen aan Analytics-variabelen**: Na uw document van het oplossingsontwerp, wijs elk gegevenselement aan de aangewezen variabele van Analytics toe.
 
 ## Specificaties
 
-Adobe raadt u aan de Digital Data Layer [-laag voor](https://www.w3.org/2013/12/ceddl-201312.pdf) klantervaring op te volgen die door de Digital Data Community Group [voor](https://www.w3.org/community/custexpdata/)Klantenervaring is voorgesteld. Gebruik de volgende secties om te begrijpen hoe de elementen van de gegevenslaag met de Analytics van Adobe communiceren.
+Adobe raadt u aan de Digital Data Layer [van de](https://www.w3.org/2013/12/ceddl-201312.pdf) Customer Experience te volgen, zoals deze door de [Customer Experience Digital Data Community Group](https://www.w3.org/community/custexpdata/)wordt geschetst. Gebruik de volgende secties om te begrijpen hoe de elementen van de gegevenslaag met Adobe Analytics in wisselwerking staan.
 
 Het aanbevolen overkoepelende gegevenslaagobject is `digitalData`. In het volgende voorbeeld wordt een enigszins uitgebreid JSON-gegevenslaagobject met voorbeeldwaarden weergegeven:
 
