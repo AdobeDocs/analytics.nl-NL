@@ -2,8 +2,11 @@
 description: Variabelen voor privacyrapportage in Data Privacy.
 title: Variabelen voor privacyrapportage
 topic: Admin tools
-translation-type: ht
-source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +45,7 @@ Elke rapportsuite kan als volgt worden geconfigureerd:
 
 1. Klik op de knop **[!UICONTROL Enable Data Privacy Reports]**.
 
-   > [!NOTE] Als deze variabelen eenmaal zijn ingeschakeld, kunnen ze niet meer worden uitgeschakeld.
+   >[!NOTE] Als deze variabelen eenmaal zijn ingeschakeld, kunnen ze niet meer worden uitgeschakeld.
 
    ![](assets/rsm-privacy-enable.png)
 
