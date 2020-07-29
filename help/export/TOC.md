@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 user-guide-description: Get data out of Adobe Analytics. Use Data Feeds to receive an hourly or daily export of raw data. Retrieve a spreadsheet output of data using Data Warehouse.
 user-guide-url: /content/help/en/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 91%
+source-wordcount: '261'
+ht-degree: 90%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 91%
    + [Overzicht van Data Warehouse](data-warehouse/data-warehouse.md)
    + [Gebruikersgroep Data Warehouse toevoegen](data-warehouse/t-dw-group.md)
    + [Een verzoek voor een Data Warehouse maken](data-warehouse/t-dw-create-request.md)
+   + [Leveringstijd aanvraag](data-warehouse/delivery-time.md)
    + [Tableau-gegevensbestand](data-warehouse/t-tableau.md)
    + [Sorteren op metrisch](data-warehouse/sorting-by-metric.md)
    + [Een terugkerend verzoek plannen](data-warehouse/dw-schedule-recurring.md)
