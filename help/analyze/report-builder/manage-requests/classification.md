@@ -4,7 +4,10 @@ title: Classificatie
 topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 1%
 
 ---
 
@@ -17,4 +20,4 @@ Een [!UICONTROL Campaign] rapport kan bijvoorbeeld een [!UICONTROL Manager] clas
 
 U hebt toegang tot classificaties op dezelfde manier als u de andere rapporten van een rapportreeks opent, en de afmetingen worden getoond als top-level rapport binnen de groep. Als een rapport classificaties heeft, wordt een menusubgroep gecreeerd om het rapport en al zijn classificaties in de zelfde plaats te verzamelen. Het rapport wordt weergegeven als de laatste vermelding in de lijst bij de classificaties.
 
-Zie [Classificaties](/help/components/c-classifications2/c-classifications.md).
+Zie [Classificaties](/help/components/classifications/c-classifications.md).
