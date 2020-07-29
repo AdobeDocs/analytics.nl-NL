@@ -1,39 +1,42 @@
 ---
-title: Handleidingen voor technische documentatie bij Adobe Analytics
-description: Gebruikershandleidingen en bronnen analyseren
+title: Technische documentatiehandleidingen voor Adobe Analytics
+description: Analytics-gebruikershandleidingen en -bronnen
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 100%
 
 ---
 
 
-# Documentatie voor Adobe Analytics
+# Adobe Analytics-documentatie
 
-Welkom bij de startpagina van het product Adobe Analytics en de technische documentatie. Hier kunt u zelfhulp en steuninformatie voor rapporteringshulpmiddelen zoals [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], het Melden API, [!UICONTROL Data Workbench]en [!UICONTROL Activity Map]vinden. U kunt ook documentatie openen voor product- en gebruikersbeheer, implementatie en alle functies die worden ondersteund in Adobe Analytics.
+Welkom bij de startpagina van het product en de technische documentatie van Adobe Analytics. Hier kunt u zelfhulp en ondersteunende informatie vinden voor rapportagetools zoals [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], Rapportage-API, [!UICONTROL Data Workbench] en [!UICONTROL Activity Map]. U hebt ook toegang tot documentatie over product- en gebruikersbeheer, implementatie en alle functies die in Adobe Analytics worden ondersteund.
 
-[![Tools](assets/analyze_50px.png)](/help/analyze/home.md)[Analytics Tools Guide](/help/analyze/home.md) - Biedt toegang tot de [Analyse Workspace](/help/analyze/analysis-workspace/home.md), de belangrijkste tool voor analyse en visualisatie voor Analytics. Bevat ook alle analysegereedschappen ([!UICONTROL Report Buidler], API voor rapportage [!UICONTROL Data Workbench]en [!UICONTROL Activity Map]) die u kunt gebruiken in Adobe Analytics.
+[![Tools](assets/analyze_50px.png)](/help/analyze/home.md) [Handleiding Analytics-tools](/help/analyze/home.md) – Biedt toegang tot [Analysis Workspace](/help/analyze/analysis-workspace/home.md), de eerste tool voor analyse en visualisatie voor Analytics. Bevat ook alle analysetools ([!UICONTROL Report Buidler], Rapportage-API, [!UICONTROL Data Workbench] en [!UICONTROL Activity Map]) die u kunt gebruiken in Adobe Analytics.
 
-[![Admin](assets/admin_50px.png)](/help/admin/home.md)[Admin Guide](/help/admin/home.md) - Meer informatie over het beheer van gebruikers en producten in de beheerconsole van de Experience Cloud, het configureren van rapportsuites, bedrijfsinstellingen, gegevensbeheer, gebruik van serveroproepen, verkeersbeheer en meer.
+[![Beheer](assets/admin_50px.png)](/help/admin/home.md) [Beheerdershandleiding](/help/admin/home.md) - Ontdek meer over het beheer van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportsuites, bedrijfsinstellingen, databeheer, aantal serveroproepen, verkeerbeheer en meer.
 
-[![Implementatie](assets/implement_50px.png)](/help/implement/home.md)-[implementatiehandleiding](/help/implement/home.md) : pas aan welke gegevens worden verzameld om meer uit Adobe Analytics te halen. Bevat inhoud voor [!UICONTROL Adobe Experience Platform Launch] en JavaScript-implementaties.
+[![Implementatie](assets/implement_50px.png)](/help/implement/home.md) [Implementatiehandleiding](/help/implement/home.md) – Pas aan welke data worden verzameld om meer profijt uit Adobe Analytics te halen. Bevat content over [!UICONTROL Adobe Experience Platform Launch] en JavaScript-implementaties.
 
-[![Handleiding voor onderdelen](assets/components_50px.png)](/help/components/home.md)[Componenten](/help/components/home.md) - Begrijp de functies die u helpen bij het ordenen van uw gegevens. De componenten omvatten segmenten, berekende metriek, virtuele rapportreeksen, alarm, en meer. Deze handleiding bevat ook een variabeleverwijzing, waarin alle beschikbare afmetingen en meetgegevens worden uitgelegd.
+[![Onderdelen](assets/components_50px.png)](/help/components/home.md) [Handleiding voor onderdelen](/help/components/home.md) – Krijg inzicht in de functies waarmee uw data worden georganiseerd. De onderdelen omvatten segmenten, berekende standaarden, virtuele rapportreeksen, alarm, en meer. Deze handleiding bevat ook een variabelenlijst waarin alle beschikbare dimensies en cijfers worden uitgelegd.
 
-[![Handleiding voor exporteren](assets/export_50px.png)](/help/export/home.md)[export](/help/export/home.md) - Gegevens ophalen uit Adobe Analytics: Wordt gebruikt [!UICONTROL Data Feeds] om een uur- of dagelijkse export van onbewerkte gegevens te ontvangen. Haal een spreadsheetoutput van gegevens terug gebruikend [!UICONTROL Data Warehouse].
+[![Export](assets/export_50px.png)](/help/export/home.md) [Exporthandleiding](/help/export/home.md) – Haal data uit Adobe Analytics: gebruik [!UICONTROL Data Feeds] om per uur of per dag een export van onbewerkte gegevens te ontvangen. Haal een spreadsheetuitboer van data op met [!UICONTROL Data Warehouse].
 
-[![De Gids](assets/import_50px.png)](/help/import/home.md)van de[Invoer](/help/import/home.md) - breng gegevens in Analytics van buitenbronnen, of in bulk of in real time. Omvat [!UICONTROL Data Sources], [!UICONTROL Data Insertion API]en [!UICONTROL Data Connectors].
+[![Import](assets/import_50px.png)](/help/import/home.md) [Importhandleiding](/help/import/home.md) – Breng data in Analytics vanuit externe bronnen, in bulk of in real time. Inclusief [!UICONTROL Data Sources], [!UICONTROL Data Insertion API] en [!UICONTROL Data Connectors].
 
-[![Integratie](assets/integrate_50px.png)](/help/integrate/home.md)-[integratiehandleiding](/help/integrate/home.md) - Integraties met andere Adobe Experience Cloud-oplossingen configureren, zoals Audience Manager, Advertising Cloud en Target.
+[![Integratie](assets/integrate_50px.png)](/help/integrate/home.md) [Integratiehandleiding](/help/integrate/home.md) – Configureer integraties met andere Adobe Experience Cloud-oplossingen zoals Audience Manager, Advertising Cloud en Target.
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)[Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - Implementeer Analytics op audio- of videobronnen. Bevat de SDK van Media en de API voor mediagamatie.
+[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) [Media Analytics-handleiding](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) – Implementeer Analytics in audio- of videobronnen. Bevat de Media-SDK en de Media Collection-API.
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)[Data Workbench-hulplijnen](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - Leer meer over de uiterst flexibele, krachtige en meerkanaalsmogelijkheden van [!UICONTROL Data Workbench]. Inclusief [!UICONTROL Data Workbench Client], Installatie, [!UICONTROL Dataset Configuration] hulplijnen en meer.
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) [Data Workbench-handleidingen](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) – Ontdek meer over de uiterst flexibele, krachtige, meerkanaalsmogelijkheden van [!UICONTROL Data Workbench]. Inclusief [!UICONTROL Data Workbench Client], installatie, [!UICONTROL Dataset Configuration] handleidingen en meer.
 
-[![Tech Notes](assets/technotes_50px.png)](/help/technotes/home.md)[](/help/technotes/home.md) Analytics - Een kennisbasis die nuttige artikelen bevat die niet tot een specifiek analysehulpmiddel of een specifieke component behoren.
+[![Technische notities](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics Technische notities](/help/technotes/home.md) – A knowledgebase met handige artikelen die niet bij een bepaalde analysetool of -onderdeel horen.
 
-| Nieuwe en aanbevolen objecten | Belangrijke bronnen voor analyse |
+| Nieuwe en aanbevolen items | Belangrijke Analytics-bronnen |
 | --- | --- |
-| <ul><li>[Regionale gegevensverzameling](/help/technotes/rdc/regional-data-collection.md)</li><li>[Prestaties van werkruimten optimaliseren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analyse van productvergelijking](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Welk hulpprogramma van Adobe Analytics moet ik gebruiken?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Zie ook: [2019 Documentatieupdates](doc-updates.md) | <ul><li> [Release-opmerkingen](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics Youtube-kanaal](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Zelfstudies en video&#39;s voor analyse](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Forum Analytics Community](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Persoonlijke training en virtuele klassen](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact opnemen met de klantenservice](https://helpx.adobe.com/support/analytics.html)</li></ul> |
+| <ul><li>[Regionale dataverzameling](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace-prestaties optimaliseren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics-productvergelijking](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Welke Adobe Analytics-tool moet ik gebruiken?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Zie ook: [Documentatie-updates van 2019](doc-updates.md) | <ul><li> [Releaseopmerkingen](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics YouTube-kanaal](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics-tutorials en -video&#39;s](https://helpx.adobe.com/nl/analytics/kt/index/analytics-videos.html)</li><li>[Forum Analytics-community](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Persoonlijke training en virtuele lessen](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact opnemen met de klantenservice](https://helpx.adobe.com/nl/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
@@ -55,7 +58,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
 *   [Bot filtering](/help/admin/admin/bot-removal/bot-rules.md)
 *   [Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md)
-*   [Classifications](/help/components/c-classifications2/c-classifications.md)
+*   [Classifications](/help/components/classifications/c-classifications.md)
 *   [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
 *   [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
 *   [Data Connectors](https://www.adobeexchange.com/experiencecloud.html)
