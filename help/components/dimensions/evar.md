@@ -2,9 +2,9 @@
 title: eVar
 description: Een aangepaste dimensie die u kunt gebruiken in rapporten.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,21 @@ Variabelen zijn aangepaste variabelen die u kunt gebruiken zoals u dat wilt. Als
 
 Het aantal beschikbare eVars is afhankelijk van uw contract met Adobe. Er zijn maximaal 250 eVars beschikbaar als uw contract met Adobe dit ondersteunt.
 
+Vars zijn niet hoofdlettergevoelig. Als u dezelfde waarde in verschillende gevallen verzendt (bijvoorbeeld `"DOG"` en `"Dog"`), groepeert Analysis Workspace deze in hetzelfde dimensie-item. Het geval van de eerste waarde aan het begin van de rapportagemaand wordt gebruikt. Data warehouse geeft de eerste waarde weer die tijdens de aanvraagperiode wordt aangetroffen.
+
 ## Vars vullen met gegevens
 
-Elke eVar verzamelt gegevens van [`v1` - `v250` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken. Bijvoorbeeld, verzamelt de parameter van het `v1` vraagkoord gegevens voor eVar1, terwijl de parameter van het `v222` vraagkoord gegevens voor eVar22 verzamelt.
+Elke eVar verzamelt gegevens van [`v1` - `v250` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken. Bijvoorbeeld, verzamelt de parameter van het `v1` vraagkoord gegevens voor eVar1, terwijl de parameter van het `v222` vraagkoord gegevens voor eVar222 verzamelt.
 
-AppMeasurement, waarmee JavaScript-variabelen worden gecompileerd in een afbeeldingsaanvraag voor gegevensverzameling, gebruikt de variabelen `eVar1` - `eVar250`. Zie [Var](/help/implement/vars/page-vars/evar.md) in de de gebruikersgids van het Uitvoeren voor implementatierichtlijnen.
+AppMeasurement, waarmee JavaScript-variabelen worden gecompileerd in een afbeeldingsaanvraag voor gegevensverzameling, gebruikt de variabelen `eVar1` - `eVar250`. Zie de [eVar](/help/implement/vars/page-vars/evar.md) in de gebruikershandleiding Implementeren voor implementatierichtlijnen.
 
-## Dimensie-items
+## Dimension-items
 
 Aangezien eVars aangepaste tekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de dimensie-items voor elke eVar zijn. Zorg ervoor u het doel van elke eVar en typische afmetingspunten in een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp registreert.
 
 ## Hoe werkt eVars
 
-Wanneer u gegevens naar Adobe Analytics verzendt, vertalen de servers van de gegevensinzameling de slag in één enkele rij gegevens met honderden kolommen. Voor elke eVar worden twee kolommen toegewezen; één voor directe gegevensinzameling, en andere voor persisterende waarden.
+Wanneer u gegevens naar Adobe Analytics verzendt, vertalen de servers van de gegevensinzameling de slag in één enkele rij gegevens met honderden kolommen. Er worden twee kolommen gewijd aan elke eVar; één voor directe gegevensinzameling, en andere voor persisterende waarden.
 
 * Een standaardkolom bevat gegevens die vanuit de afbeeldingsaanvraag naar Adobe worden verzonden.
 * Een kolom &quot;post&quot; bevat permanente gegevens, die afhankelijk zijn van de vervaldatum en de toewijzing van de eVar.
@@ -58,7 +60,7 @@ Een vereenvoudigde versie van de onbewerkte gegevens ziet er ongeveer als volgt 
 
 * De `visitor_id` kolom verbindt hits met dezelfde bezoeker. In onbewerkte gegevens bepalen de samengevoegde waarden van de bezoeker-id `visid_high` en `visid_low` bepalen deze.
 * De `pagename` kolom vult de afmetingen Pagina&#39;s in.
-* De `evar` kolom bepaalt de klappen wanneer eVar1 uitdrukkelijk werd geplaatst.
+* De `evar` kolom bepaalt de treffers wanneer eVar1 uitdrukkelijk werd geplaatst.
 * De vorige waarde `post_evar1` wordt meegenomen, afhankelijk van de toewijzing en vervaldatum van de variabele in de instellingen van de rapportsuite.
 * De `event_list` kolom bevat alle metrische gegevens. In dit voorbeeld `event1` is &quot;Zoeken&quot; en de andere gebeurtenissen zijn standaardmetingen voor winkelwagentjes. In daadwerkelijke ruwe gegevens, `event_list` bevat een komma-afgebakende reeks aantallen met een raadplegingslijst die die aantallen bindt aan metrisch.
 
@@ -77,16 +79,16 @@ Analysis Workspace haalt dit rapport op met de volgende logica:
 
 ### Het belang van toewijzing en vervaldatum
 
-Aangezien de toewijzing en de vervaldatum bepalen welke waarden blijven bestaan, zijn zij essentieel om de meeste waarde uit een analytische implementatie te krijgen. Adobe raadt u ten zeerste aan om binnen uw organisatie te bespreken hoe meerdere waarden voor elke eVar worden verwerkt (toewijzing) en wanneer eVars stoppen met het voortduren van gegevens (vervaldatum).
+Aangezien de toewijzing en de vervaldatum bepalen welke waarden blijven bestaan, zijn zij essentieel om de meeste waarde uit een analytische implementatie te krijgen. Adobe adviseert hoogst dat u binnen uw organisatie bespreekt hoe de veelvoudige waarden voor elke eVar worden behandeld (toewijzing) en wanneer eVars het persisteren gegevens (afloop) ophouden.
 
 * Standaard gebruikt een eVar de laatste toewijzing. Nieuwe waarden overschrijven persistente waarden.
-* Standaard gebruikt een eVar een einde aan een bezoek. Wanneer een bezoek eindigt, kopiëren de waarden niet meer van rij naar rij in de `post_evar` kolom.
+* Standaard gebruikt een eVar een verloop van een bezoek. Wanneer een bezoek eindigt, kopiëren de waarden niet meer van rij naar rij in de `post_evar` kolom.
 
-U kunt de toewijzing en de vervaldatum van eVar onder de variabelen [van de](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) Omzetting in de montages van de Reeks van het Rapport veranderen.
+U kunt de toewijzing en vervaldatum van eVar wijzigen onder [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de instellingen van de rapportsuite.
 
 ## Waarde van eVars over props
 
-Adobe raadt u aan in de meeste gevallen eVars te gebruiken. Dit wordt ondersteund door het volgende:
+Adobe raadt in de meeste gevallen eVars aan, ondersteund door het volgende:
 
 * Voor eVars geldt een limiet van 255 bytes in rapporten. Props hebben een limiet van 100 bytes.
 * Props blijven standaard behouden na de hit die ze hebben ingesteld. Vars hebben een aangepaste vervaldatum, zodat u kunt bepalen wanneer een eVar geen krediet meer krijgt voor een volgende gebeurtenis. Nochtans, als u de verwerking [van de](/help/components/vrs/vrs-report-time-processing.md)rapporttijd gebruikt, zowel kunnen de steunen als eVars een model van de douaneattributie gebruiken.
