@@ -2,7 +2,7 @@
 title: Classificaties in marketingkanalen
 description: Gebruik classificaties om waarden in verwante groepen te categoriseren en op groepsniveau te rapporteren. U kunt bijvoorbeeld alle campagnes voor betaald zoeken classificeren in een categorie zoals videokaarten. Dan kunt u over het succes van die categorie met betrekking tot metriek zoals Instanties (of klik-door) rapporteren.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 4%
@@ -18,7 +18,7 @@ Indelingen die u in deze procedure toevoegt, worden in het [!UICONTROL Marketing
 
 >[!NOTE]
 >
->Zorg ervoor dat u bekend bent met het maken van classificaties in [classificaties](/help/components/c-classifications2/c-classifications.md).
+>Zorg ervoor dat u bekend bent met het maken van classificaties in [classificaties](/help/components/classifications/c-classifications.md).
 
 >[!IMPORTANT]
 >
