@@ -5,7 +5,7 @@ user-guide-title: Analytics Components-handleiding
 user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 59%
@@ -17,8 +17,8 @@ ht-degree: 59%
 
 + [Analytics Components Help](home.md)
 + Dimensies {#dimensions}
-   + [Overzicht van afmetingen](dimensions/overview.md)
-   + [Dimensiecompatibiliteit](dimensions/compatibility.md)
+   + [Overzicht van Dimension](dimensions/overview.md)
+   + [Dimension-compatibiliteit](dimensions/compatibility.md)
    + [Alle zoekpaginanummers](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
    + [Hoogte browser](dimensions/browser-height.md)
@@ -219,33 +219,33 @@ ht-degree: 59%
    + [Waarschuwingsbeheer](c-alerts/alert-manager.md)
    + [Intelligente waarschuwingen - gebruiksscenario&#39;s](c-alerts/alerts-use-cases.md)
 + Classificaties {#classifications}
-   + [Informatie over classificaties](c-classifications2/c-classifications.md)
-   + [Informatie over subclassificaties](c-classifications2/c-sub-classifications.md)
-   + [Conversieclassificaties](c-classifications2/conversion-classifications.md)
-   + [Verkeersclassificaties](c-classifications2/traffic-classifications.md)
-   + [Classificatiehiërarchieën](c-classifications2/classification-hierarchies.md)
+   + [Informatie over classificaties](classifications/c-classifications.md)
+   + [Informatie over subclassificaties](classifications/c-sub-classifications.md)
+   + [Conversieclassificaties](classifications/conversion-classifications.md)
+   + [Verkeersclassificaties](classifications/traffic-classifications.md)
+   + [Classificatiehiërarchieën](classifications/classification-hierarchies.md)
    + Importeren van classificaties (upload) {#classifications-importer}
-      + [Importeren van classificaties - overzicht](c-classifications2/c-classifications-importer/c-working-with-saint.md)
-      + [Classificatiedatabestanden](c-classifications2/c-classifications-importer/c-saint-data-files.md)
-      + [Classificatiedata verwijderen](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
-      + [Classificatiedata omzeilen](c-classifications2/c-classifications-importer/t-classifications-escape-data.md)
-      + [Niet-geclassificeerde codes](c-classifications2/c-classifications-importer/nonclassified-keys.md)
-      + [Classificatiesjabloon](c-classifications2/c-classifications-importer/c-download-saint-data.md)
-      + [Browser- en FTP-import](c-classifications2/c-classifications-importer/import-file.md)
-      + [Browserimport](c-classifications2/c-classifications-importer/browser-import.md)
-      + [FTP-import](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
+      + [Importeren van classificaties - overzicht](classifications/c-classifications-importer/c-working-with-saint.md)
+      + [Classificatiedatabestanden](classifications/c-classifications-importer/c-saint-data-files.md)
+      + [Classificatiedata verwijderen](classifications/c-classifications-importer/t-delete-classification-data.md)
+      + [Classificatiedata omzeilen](classifications/c-classifications-importer/t-classifications-escape-data.md)
+      + [Niet-geclassificeerde codes](classifications/c-classifications-importer/nonclassified-keys.md)
+      + [Classificatiesjabloon](classifications/c-classifications-importer/c-download-saint-data.md)
+      + [Browser- en FTP-import](classifications/c-classifications-importer/import-file.md)
+      + [Browserimport](classifications/c-classifications-importer/browser-import.md)
+      + [FTP-import](classifications/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
    + Builder voor classificatieregels {#classifications-rulebuilder}
-      + [Workflow van de Builder voor classificatieregels](c-classifications2/crb/classification-rule-builder.md)
-      + [Classificatieregelsets](c-classifications2/crb/classification-rule-set.md)
-      + [Classificatieregels](c-classifications2/crb/classification-quickstart-rules.md)
-      + [Classificatieregels - definities](c-classifications2/crb/classification-rule-definitions.md)
-      + [Subclassificaties en de Rule Builder](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [Workflow van de Builder voor classificatieregels](classifications/crb/classification-rule-builder.md)
+      + [Classificatieregelsets](classifications/crb/classification-rule-set.md)
+      + [Classificatieregels](classifications/crb/classification-quickstart-rules.md)
+      + [Classificatieregels - definities](classifications/crb/classification-rule-definitions.md)
+      + [Subclassificaties en de Rule Builder](classifications/crb/sub-classification-rule-builder.md)
    + Numeriek 2-classificaties {#numeric2-classification}
-      + [Overzicht van Numeriek 2-classificaties](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
-      + [Numeriek 2-classificaties maken](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
-      + [Numeriek 2-classificaties importeren](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
-      + [Voorbeelden](c-classifications2/c-numeric-2/c-examples.md)
-   + [Problemen met classificaties oplossen](c-classifications2/c-classifications-troubleshooting.md)
+      + [Overzicht van Numeriek 2-classificaties](classifications/c-numeric-2/c-numeric-2-classifications.md)
+      + [Numeriek 2-classificaties maken](classifications/c-numeric-2/t-create-numeric-2-classifications.md)
+      + [Numeriek 2-classificaties importeren](classifications/c-numeric-2/c-import-numeric-2-classifications.md)
+      + [Voorbeelden](classifications/c-numeric-2/c-examples.md)
+   + [Problemen met classificaties oplossen](classifications/c-classifications-troubleshooting.md)
 + [Kalendergebeurtenissen](t-calendar-event.md)
 + Realtimerapportage {#real-time-reporting}
    + [Overzicht van realtimerapportage](c-real-time-reporting/realtime.md)
