@@ -2,9 +2,9 @@
 description: Systeemvereisten en een vergelijking van Analysis Workspace, Reports & Analytics, Ad hoc analysis, Report Builder, Data warehouse en Data Workbench
 title: Analytics-productvergelijking en -vereisten
 translation-type: tm+mt
-source-git-commit: 22d6e88f01868e38e6de4de2efa277d5d16954d5
+source-git-commit: 0885a42ccf79565d2ad55cf84e346926f2328f77
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '672'
 ht-degree: 36%
 
 ---
@@ -26,9 +26,9 @@ Ga [hier](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)voo
 | **Zichtbare rijlimiet (vóór paginering)** | 400 | 200 | 50000 | Onbeperkt | Onbeperkt | Onbeperkt | 50000 |
 | **Meerdere rapportsuites** | [Ja](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) | Ja, met beperkingen | Ja | Nee | Ja | Nee | Ja |
 | **Aantal uitsplitsingen** | Onbeperkt | Maximaal 2 | Maximaal 2 | Onbeperkt | Onbeperkt | Onbeperkt | Onbeperkt, uitvoeren op meerdere query&#39;s |
-| &quot;**Segmentatie** <br>[Meer informatie](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | Ja | Ja | Ja | Ja, met [beperkingen](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | Ja | Nee | Ja |
+| **Segmentatie** <br>[Meer informatie](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | Ja | Ja | Ja | Ja, met [beperkingen](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | Ja | Nee | Ja |
 | **Berekende cijfers** <br>[Meer weten](https://docs.adobe.com/content/help/nl-NL/analytics/components/calculated-metrics/cm-overview.html) | Ja, met [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | Ja | Ja | Nee | Ja | Nee | Ja, met [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
-| **Marketingkanalen** <br>[Meer informatie](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-getting-started-mchannel.html) | Ja | Ja | Ja | Ja | Ja | Ja - va_finder, va_near | Ja |
+| **Marketingkanalen** <br>[Meer informatie](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-getting-started-mchannel.html) | Ja | Ja | Ja | Ja | Ja | Ja - [va_finder, va_near](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html) | Ja |
 | **Cohortanalyse** | [Ja](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | Nee | Nee | Nee | Ja | Nee | Nee |
 | **Attributie** | Ja, met [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | Beperkt | Beperkt | Nee | Ja | Nee | Ja, met [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
 | **Functies** van Virtual Analyst <br>[Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/overview.html) | Ja | Nee | Nee | Nee | Nee | Nee | Ja |
