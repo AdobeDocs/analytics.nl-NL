@@ -1,19 +1,22 @@
 ---
 description: Administratieve stappen voor vestiging real-time rapporten.
-title: Configuratie van realtime rapporten
+title: Configuratie van realtimerapporten
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 2%
 
 ---
 
 
-# Configuratie van realtime rapporten
+# Configuratie van realtimerapporten
 
 Administratieve stappen voor vestiging real-time rapporten.
 
-Het opzetten van rapporten in real time binnen Rapporten &amp; Analytics bestaat uit het selecteren van de rapportreeks en het vormen van tot drie rapporten voor het.
+Het instellen van realtime rapporten in Reports &amp; Analytics bestaat uit het selecteren van de rapportsuite en het configureren van maximaal drie rapporten voor deze suite.
 
 1. Selecteer de rapportsuite waarvoor u realtime rapporten wilt inschakelen.
 
@@ -34,7 +37,7 @@ Het opzetten van rapporten in real time binnen Rapporten &amp; Analytics bestaat
 
    ![](assets/real_time_admin.png)
 
-   Zie [Ondersteunde metriek en afmetingen](/help/admin/admin/realtime/realtime-metrics.md)voor informatie over ondersteunde real-time metriek en afmetingen.
+   Zie [Ondersteunde statistieken en Dimension](/help/admin/admin/realtime/realtime-metrics.md)voor informatie over ondersteunde realtime-meetgegevens en -afmetingen.
 
    Als u classificaties hebt gemaakt, worden deze ingesprongen weergegeven onder de dimensie waarvoor ze zijn gedefinieerd:
 
@@ -44,11 +47,11 @@ Het opzetten van rapporten in real time binnen Rapporten &amp; Analytics bestaat
    >
    >Voor één enkel rapport Real-Time, steunen wij momenteel niet toelatend dubbele dimensies, zelfs als een verschillende classificatie voor elke dimensie wordt geselecteerd.
 
-   Zie [Informatie over classificaties](/help/components/c-classifications2/c-classifications.md)voor meer informatie over classificaties.
+   Zie [Informatie over classificaties](/help/components/classifications/c-classifications.md)voor meer informatie over classificaties.
 
    >[!NOTE]
    >
-   >Bepaalde afmetingen, zoals &#39;Trefwoord zoeken&#39; of &#39;Product&#39;, blijven niet in real-time behouden, zoals elders in Adobe Analytics. Wanneer u een niet-permanente metrische waarde selecteert, wordt de volgende waarschuwing weergegeven:
+   >Sommige dimensies, zoals &#39;Trefwoord zoeken&#39; of &#39;Product&#39;, blijven niet in real-time behouden, zoals elders in Adobe Analytics. Wanneer u een niet-permanente metrische waarde selecteert, wordt de volgende waarschuwing weergegeven:
 
    ![](assets/warning_dimensions.png)
 
