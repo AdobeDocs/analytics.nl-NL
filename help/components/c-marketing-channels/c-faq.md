@@ -1,10 +1,10 @@
 ---
-description: Lees over de beste praktijken en voorbeelden van hoe te om diverse regels te bevolken u opstelling voor uw marketing kanalen kunt.
 title: Veelgestelde vragen over marketingkanalen
+description: Veelgestelde vragen over marketingkanalen.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -12,32 +12,28 @@ ht-degree: 0%
 
 # Veelgestelde vragen over marketingkanalen
 
-Zie Regels [voor de verwerking van marketingkanalen](/help/components/c-marketing-channels/c-rules.md) maken voor definities van velden die op de [!UICONTROL Marketing Channel Processing Rules] pagina worden weergegeven.
+Veelgestelde vragen over marketingkanalen.
 
-## Veelgestelde vragen {#faq}
-
-Elke implementatie van de verwerkingsregels voor marketingkanalen kan verschillen, afhankelijk van uw trackingcodes. Het vormen van regels die resultaten verstrekken u zoekt kan wat creatief denken vereisen om problemen op te lossen.
-
-**Vraag**: Mijn volgcodes volgen geen patroon en ik heb duizenden die moeten worden gespecificeerd voor mijn kanaal van Verbonden.
+## Mijn volgcodes volgen geen patroon en ik heb duizenden die moeten worden gespecificeerd voor mijn kanaal van Verbonden.
 
 * Gebruik het eliminatieproces. Als uw e-mail en gelieerde kanalen dezelfde parameter voor de queryreeks gebruiken, maar u hebt slechts een paar codes voor het bijhouden van e-mail, kunt u de codes voor het bijhouden van e-mail opgeven in een regelset die e-mail definieert. Vervolgens classificeert u alle andere volgcodes met *`affiliates.`*
 * Voeg in uw e-mailsysteem een parameter voor de querytekenreeks toe aan alle bestemmingspagina-URL&#39;s, zoals *`&ch=eml`* de URL. Maak een regelset die detecteert of de parameter voor de query gelijk is *`eml`*. Als het niet bevat *`eml`*, is het een gelieerde.
 
-**Vraag**: Verwijzende domeinen bevatten meer gegevens dan ik verwacht.
+## Verwijzende domeinen bevatten meer gegevens dan ik verwacht.
 
 * Verwijzende domeinen zouden te hoog in de lijst van de verwerkingsregel kunnen zijn. Het zou één van de laatste (of laatste) regelreeksen moeten zijn, omdat de verwerkingsorde belangrijk is.
 
-**Vraag**: Ik heb een regel gecreeerd die een parameter van het vraagkoord aanpast en het werkt niet.
+## Ik heb een regel gecreeerd die een parameter van het vraagkoord aanpast en het werkt niet.
 
 * Controleer of de parameternaam is opgegeven in de parametervelden van de querytekenreeks (meestal een alfanumerieke waarde). Zorg er ook voor dat de parameterwaarde wordt opgegeven na de operator, zoals in het volgende voorbeeld van een e-mailregel wordt getoond.
 
    ![](assets/example_email.png)
 
-**Vraag**: Waarom wordt al mijn laatste-aanrakingsverkeer toegeschreven aan een intern domein?
+## Waarom wordt al mijn laatste-aanrakingsverkeer toegeschreven aan een intern domein?
 
 * U hebt een regel die intern verkeer aanpast. Houd er rekening mee dat deze regels gelden voor elke hit die een bezoeker op uw site maakt, en niet alleen voor het eerste bezoek. Als u een regel hebt zoals *`Page URL exists`* zonder andere criteria, komt dat kanaal overeen op elke volgende hit op uw site, omdat een pagina-URL altijd bestaat.
 
-**Vraag**: Hoe zuivert ik verkeer dat in Geen Kanaal wordt getoond die op het rapport wordt geïdentificeerd?
+## Hoe zuivert ik verkeer dat in Geen Kanaal wordt getoond die op het rapport wordt geïdentificeerd?
 
 * Regels worden op volgorde verwerkt. Als er geen specifieke criteria zijn gevonden, vallen treffers onder een van de drie categorieën:
 
@@ -81,27 +77,37 @@ Dit soort regel dient als catch-all om ervoor te zorgen dat het kanaalverkeer al
 
 Vernieuwen van laatste aanraaksessie kan alleen plaatsvinden als dit ook de eerste aanraking was. Zie &quot;Verhouding tussen eerste en laatste aanraking&quot; hierboven. In de onderstaande scenario&#39;s wordt uitgelegd hoe Zitting vernieuwen een eersteklas kanaal kan zijn.
 
-**Scenario 1: Time-out sessie**
+* **Time-out** sessie: Een bezoeker komt naar de website en laat het tabblad vervolgens open in zijn browser om op een latere datum te gebruiken. De periode van de betrokkenheid van de bezoeker verloopt (of ze verwijderen hun cookies vrijwillig) en ze gebruiken het tabblad Openen om de website opnieuw te bezoeken. Aangezien de verwijzende URL een intern domein is, wordt het bezoek geclassificeerd als Sessie vernieuwen.
 
-Een bezoeker komt naar de website en laat het tabblad vervolgens open in zijn browser om op een latere datum te gebruiken. De periode van de betrokkenheid van de bezoeker verloopt (of ze verwijderen hun cookies vrijwillig) en ze gebruiken het tabblad Openen om de website opnieuw te bezoeken. Aangezien de verwijzende URL een intern domein is, wordt het bezoek geclassificeerd als Sessie vernieuwen.
+* **Niet alle sitepagina&#39;s zijn gecodeerd**: Een bezoeker landt op pagina A die niet is getagd en gaat vervolgens naar pagina B die is getagd. Pagina A wordt beschouwd als de interne referentie en het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-**Scenario 2: Niet alle sitepagina&#39;s zijn gelabeld**
+* **Omleiding**: Als een omleiding niet is ingesteld om verwijzingsgegevens door te geven aan de nieuwe landingspagina, gaan de werkelijke gegevens van de invoerverwijzende verwijzing verloren en wordt nu de omleidingspagina (waarschijnlijk een interne pagina) weergegeven als verwijzend domein. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-Een bezoeker landt op pagina A die niet is getagd en gaat vervolgens naar pagina B die is getagd. Pagina A wordt beschouwd als de interne referentie en het bezoek wordt geclassificeerd als Sessie vernieuwen.
+* **Domeinoverschrijdend verkeer**: Een bezoeker beweegt zich van één domein dat aan Reeks A, aan een tweede domein in brand steekt dat aan Reeks B. Als de interne URL-filters in Suite B het eerste domein bevatten, wordt het bezoek in Suite B geregistreerd als Intern, omdat Marketing Channels het als een nieuw bezoek in de tweede suite zien. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-**Scenario 3: Omleiding**
+( **Lange laadtijden** van invoerpagina: Een bezoeker landt op pagina A die zwaar is op inhoud, en de code van Adobe Analytics wordt gevestigd bij de bodem van de pagina. Voordat alle inhoud (inclusief Adobe Analytics-afbeeldingsaanvraag) kan worden geladen, klikt de bezoeker op Pagina B. Pagina B activeert de Adobe Analytics-afbeeldingsaanvraag. Aangezien de afbeeldingsaanvraag van Pagina A nooit is geladen, wordt de tweede pagina weergegeven als de eerste hit van het bezoek in Adobe Analytics, met Pagina A als de referentie. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-Als een omleiding niet is ingesteld om verwijzingsgegevens door te geven aan de nieuwe landingspagina, gaan de werkelijke gegevens van de invoerverwijzende verwijzing verloren en wordt nu de omleidingspagina (waarschijnlijk een interne pagina) weergegeven als verwijzend domein. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
+* **Cookies wissen halverwege de site**: Een bezoeker komt naar de site en halverwege de sessie worden de cookies gewist. Zowel eerste als laatste aanraakkanalen worden opnieuw ingesteld en het bezoek wordt geclassificeerd als Sessie vernieuwen (omdat de referentie intern zou zijn).
 
-**Scenario 4: Domeinoverschrijdend verkeer**
+## Waarom zijn sommige kanalen onveranderd na het veranderen van de regels van de kanaalverwerking van de Marketing?
 
-Een bezoeker beweegt zich van één domein dat aan Reeks A, aan een tweede domein in brand steekt dat aan Reeks B. Als de interne URL-filters in Suite B het eerste domein bevatten, wordt het bezoek in Suite B geregistreerd als Intern, omdat Marketing Channels het als een nieuw bezoek in de tweede suite zien. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
+Soms worden de de verwerkingsregels van het Kanaal van de Marketing verkeerd opstelling, die het noodzakelijk maken om verwerkingsregels te veranderen. Nadat u de wijzigingen hebt toegepast, kunt u bepaalde metrische gegevens van kenmerken weergeven op een onjuist kanaal. Er zijn verschillende zaken die in overweging moeten worden genomen:
 
-**Scenario 5: Lange laadtijden van invoerpagina**
+* **De gegevens van het Kanaal van de marketing worden verzameld in echt - tijd**: De het kanaalgegevens van de marketing worden verwerkt bij gegevensinzameling, en is 100% permanent. Het wijzigen van de verwerkingsregels heeft geen invloed op gegevens met terugwerkende kracht.
+* **Het wijzigen van de verwerkingsregels heeft niet onmiddellijk invloed op First Touch-gegevens**: Bijvoorbeeld:
+   1. Een gebruiker komt binnen door uw e-mailkanaal omdat het verkeerd opstelling was, dan verlaat uw plaats.
+   2. De volgende dag wijzigt u de verwerkingsregel voor e-mail om deze te corrigeren.
+   3. Die gebruiker komt een paar dagen later terug door middel van natuurlijke zoekopdracht en koopt een aankoop.
+   4. Het e-mailkanaal krijgt First Touch-krediet en natuurlijke zoekopdrachten krijgt Last Touch-creditering.
 
-Een bezoeker landt op pagina A, wat zwaar is op de inhoud. De Adobe Analytics-code bevindt zich onder aan de pagina. Voordat alle inhoud (inclusief de Adobe Analytics-afbeeldingsaanvraag) kan worden geladen, klikt de bezoeker op Pagina B. Pagina B activeert de Adobe Analytics-afbeeldingsaanvraag. Aangezien de afbeeldingsaanvraag van Pagina A nooit is geladen, wordt de tweede pagina weergegeven als de eerste hit van het bezoek in Adobe Analytics, waarbij Pagina A de verwijzende persoon is. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
+   Zelfs enkele dagen nadat u de verwerkingsregels hebt gewijzigd, kunnen gegevens nog steeds worden verzameld in het verkeerde First Touch-kanaal. De eerste aanraakgegevens worden voortdurend in het onjuiste kanaal verzameld totdat de betrokkenheid van alle gebruikers verloopt.
 
-**Scenario 6: Cookies wissen halverwege de site**
+De beste manier om deze discrepanties te corrigeren is het doen van een of beide van de volgende maatregelen:
 
-Een bezoeker komt naar de site en halverwege de sessie worden de cookies gewist. Zowel eerste als laatste aanraakkanalen worden opnieuw ingesteld en het bezoek wordt geclassificeerd als Sessie vernieuwen (omdat de referentie intern zou zijn).
+* **Handmatig verlopen alle perioden** voor betrokkenheid van bezoekers: Deze instelling vervalt ogenblikkelijk alle eerste en laatste aanraakkanalen voor alle bezoekers:
+   1. Ga naar Admin Tools > Report Suites.
+   2. Houd de muisaanwijzer boven Beeldbewerkingsinstellingen > Marketingkanalen > Vervaldatum betrokkenheid bezoeker
+   3. Klik op Alles vervallen.
+   4. Klik op OK in het pop-upvenster met waarschuwingen om te bevestigen dat u begrijpt wat het gaat doen.
 
+* **Alleen de maatstaven voor laatste aanraking weergeven vanaf het moment dat u de regels hebt gecorrigeerd**: Metrische gegevens voor laatste aanraking volgen altijd de huidige regels. Wanneer u de tijd vanaf het moment waarop u de verwerkingsregels hebt gewijzigd, bekijkt, worden de meest actuele verwerkingsregels correct weergegeven.
