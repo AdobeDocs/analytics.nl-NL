@@ -3,7 +3,7 @@ description: Met Curatie kunt u componenten beperken voordat u een project deelt
 keywords: Analysis Workspace curation
 title: Werkruimteprojecten curven
 translation-type: tm+mt
-source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
+source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 3%
@@ -39,6 +39,7 @@ Wanneer een ontvanger een gebogen project opent, zullen zij slechts de gebogen r
 ## Projectcursus verwijderen
 
 U kunt als volgt de projectcuratie verwijderen en de volledige set componenten in de linkerspoorstaaf herstellen:
+
 1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 1. Klik op **[!UICONTROL Remove Curation]**.
 1. Klik op **[!UICONTROL Done]**.
