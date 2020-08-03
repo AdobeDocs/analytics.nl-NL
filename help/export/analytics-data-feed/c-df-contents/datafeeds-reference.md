@@ -6,9 +6,9 @@ title: Referentie gegevenskolom
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
 workflow-type: tm+mt
-source-wordcount: '3669'
+source-wordcount: '3674'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 
 >[!NOTE]
 >
->De meeste kolommen bevatten een vergelijkbare kolom met een voorvoegsel `post_`. Post kolommen bevatten waarden na server-zijlogica, verwerkingsregels, en regels VISTA. In de meeste gevallen raadt Adobe u aan postkolommen te gebruiken. Zie Veelgestelde vragen over [gegevensinvoer](../df-faq.md) voor meer informatie.
+>De meeste kolommen bevatten een vergelijkbare kolom met een voorvoegsel `post_`. Post kolommen bevatten waarden na server-zijlogica, verwerkingsregels, en regels VISTA. Adobe raadt in de meeste gevallen aan postkolommen te gebruiken. Zie Veelgestelde vragen over [gegevensinvoer](../df-faq.md) voor meer informatie.
 
 | Kolomnaam | Kolombeschrijving | Gegevenstype |
 | --- | --- | --- |
@@ -55,7 +55,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `color` | Id van kleurdiepte gebaseerd op de waarde van de kolom c_color. Verwijst naar de opzoektabel color_depth.tsv. | small int zonder teken |
 | `connection_type` | Numerieke id die het verbindingstype vertegenwoordigt. Variabele die in de afmeting van het Type van Verbinding wordt gebruikt. Verwijst naar de connection_type.tsv opzoektabel. | tinyint zonder teken |
 | `cookies` | Variabele die in de dimensie van de Steun van het Koekje wordt gebruikt.<br>Y:<br>EnabledN:<br>DisabledU: Onbekend | teken(1) |
-| `country` | Numerieke id die het land aangeeft waar de treffer vandaan komt. Adobe werkt samen met Digital Envoy om IP-adres aan te passen aan het land. Gebruikt country.tsv lookup. | small int zonder teken |
+| `country` | Numerieke id die het land aangeeft waar de treffer vandaan komt. Adobe werkt met Digital Envoy samen om IP-adres aan te passen aan het land. Gebruikt country.tsv lookup. | small int zonder teken |
 | `ct_connect_type` | Verwant aan de connection_type kolom. De meest voorkomende waarden zijn LAN/Wifi, Mobile Carrier en Modem. | teken(20) |
 | `curr_factor` | Bepaalt de decimale valutapositie en wordt gebruikt voor valutaomrekening. In USD worden bijvoorbeeld twee decimalen gebruikt, zodat deze kolomwaarde 2 is. | tinyint |
 | `curr_rate` | De wisselkoers op het tijdstip van de transactie. Adobe werkt samen met XE om de wisselkoers van de huidige dag te bepalen. | decimaal (24,12) |
@@ -78,14 +78,14 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `first_hit_ref_type` | Numerieke id die het referentietype van de allereerste referentie van de bezoeker vertegenwoordigt. Gebruikt lookup reference_type.tsv. | tinyint zonder teken |
 | `first_hit_referrer` | De allereerste verwijzende URL van de bezoeker. | varchar(255) |
 | `first_hit_time_gmt` | Tijdstempel van de allereerste hit van de bezoeker in Unix-tijd. | int |
-| `geo_city` | De naam van de stad waar de hit vandaan kwam, op basis van IP. Adobe werkt samen met Digital Envoy om IP-adres aan te passen aan de stad. | teken(32) |
-| `geo_country` | Afkorting van het land waar de treffer vandaan kwam, op basis van IP. Adobe werkt samen met Digital Envoy om IP-adres aan te passen aan het land. | teken(4) |
-| `geo_dma` | Numerieke id van het demografische gebied waar de hit vandaan kwam, gebaseerd op IP. Adobe werkt samen met Digital Envoy om het IP-adres aan te passen aan het demografische gebied. | int zonder teken |
-| `geo_region` | De naam van de staat of regio waar de treffer vandaan kwam, op basis van IP. Adobe werkt samen met Digital Envoy om IP-adres aan te passen aan de staat/regio. | teken(32) |
-| `geo_zip` | De postcode waar de hit vandaan kwam, is gebaseerd op IP. Adobe werkt samen met Digital Envoy om IP-adres aan te passen aan postcode. | varchar(16) |
+| `geo_city` | De naam van de stad waar de hit vandaan kwam, op basis van IP. Adobe werkt met Digital Envoy samen om IP-adres aan te passen aan de stad. | teken(32) |
+| `geo_country` | Afkorting van het land waar de treffer vandaan kwam, op basis van IP. Adobe werkt met Digital Envoy samen om IP-adres aan te passen aan het land. | teken(4) |
+| `geo_dma` | Numerieke id van het demografische gebied waar de hit vandaan kwam, gebaseerd op IP. Adobe werkt met Digital Envoy samen om IP-adres aan te passen aan het demografische gebied. | int zonder teken |
+| `geo_region` | De naam van de staat of regio waar de treffer vandaan kwam, op basis van IP. Adobe werkt met Digitale gezant samen om IP adres aan staat/regio aan te passen. | teken(32) |
+| `geo_zip` | De postcode waar de hit vandaan kwam, is gebaseerd op IP. Adobe werkt met Digital Envoy samen om IP-adres aan te passen aan postcode. | varchar(16) |
 | `hier1 - hier5` | Wordt gebruikt door hiërarchievariabelen. Bevat een lijst met gescheiden waarden. Het scheidingsteken wordt gekozen onder de instellingen van de rapportsuite. | varchar(255) |
-| `hit_source` | Geeft aan uit welke bron de treffer afkomstig is. <br>1: Standaardverzoek om afbeelding zonder tijdstempel <br>2: Standaardverzoek om afbeelding met tijdstempel <br>3: Live uploaden van gegevensbron met tijdstempels <br>4: Niet gebruikt <br>5: Generieke gegevensbronupload <br>6: Uploaden gegevensbron volledige verwerking <br>7: TransactieID-gegevensbron uploaden <br>8: niet meer gebruikt; Eerdere versies van Adobe Advertising Cloud-gegevensbronnen <br>9: niet meer gebruikt; Adobe Social summary metrics <br>10: Audience Manager server-kant gebruikt door:sturen | tinyint zonder teken |
-| `hit_time_gmt` | Het tijdstempel van de hit Adobe-gegevensverzamelingsservers heeft de hit ontvangen, gebaseerd in Unix-tijd. | int |
+| `hit_source` | Geeft aan uit welke bron de treffer afkomstig is. Hit_sources 0, 1, 2 en 6 worden gefactureerd. <br>1: Standaardverzoek om afbeelding zonder tijdstempel <br>2: Standaardverzoek om afbeelding met tijdstempel <br>3: Live uploaden van gegevensbron met tijdstempels <br>4: Niet gebruikt <br>5: Generieke gegevensbronupload <br>6: Uploaden gegevensbron volledige verwerking <br>7: TransactieID-gegevensbron uploaden <br>8: niet meer gebruikt; Eerdere versies van Adobe Advertising Cloud-gegevensbronnen <br>9: niet meer gebruikt; Adobe Social summary metrics <br>10: Audience Manager server-kant gebruikt door:sturen | tinyint zonder teken |
+| `hit_time_gmt` | De timestamp van de de gegevensverzamelingsservers van de hit Adobe ontvingen de slag, die in Unix tijd wordt gebaseerd. | int |
 | `hitid_high` | Wordt gebruikt in combinatie met hitid_low om een treffer op unieke wijze te identificeren. | bigint zonder teken |
 | `hitid_low` | Wordt gebruikt in combinatie met hitid_high om een treffer op unieke wijze te identificeren. | bigint zonder teken |
 | `homepage` | Niet meer gebruikt. Geeft aan of de huidige URL de homepage van de browser is. | teken(1) |
@@ -149,13 +149,13 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `monthly_visitor` | Markering die aangeeft dat de bezoeker uniek is voor de huidige maand. | tinyint zonder teken |
 | `mvvar1` - `mvvar3` | Variabele waarden weergeven. Bevat een lijst met gescheiden waarden, afhankelijk van de implementatie. | text |
 | `namespace` | Niet gebruikt. Een deel van een gesloopt onderdeel vele jaren geleden. | varchar(50) |
-| `new_visit` | Markering die bepaalt of de huidige treffer een nieuw bezoek is. Door Adobe-servers ingesteld na 30 minuten inactiviteit van het bezoek. | tinyint zonder teken |
+| `new_visit` | Markering die bepaalt of de huidige treffer een nieuw bezoek is. Wordt ingesteld door Adobe-servers na 30 minuten inactiviteit van het bezoek. | tinyint zonder teken |
 | `os` | Numerieke id die het besturingssysteem van de bezoeker vertegenwoordigt. Gebaseerd op de user_agent kolom. Gebruikt de zoekopdracht. | int zonder teken |
 | `p_plugins` | Niet meer gebruikt. Lijst met plug-ins die beschikbaar zijn voor de browser. Gebruikt de JavaScript functie navigator.plugins(). | text |
 | `page_event` | Het type hit dat wordt verzonden in de aanvraag voor de afbeelding (standaardhit, downloadkoppeling, aangepaste koppeling, afsluitkoppeling). See [Page event lookup](datafeeds-page-event.md). | tinyint zonder teken |
 | `page_event_var1` | Wordt alleen gebruikt in aanvragen voor het bijhouden van koppelingen. De URL van de downloadkoppeling, exit-koppeling of aangepaste koppeling waarop is geklikt. | text |
 | `page_event_var2` | Wordt alleen gebruikt in aanvragen voor het bijhouden van koppelingen. De aangepaste naam (indien opgegeven) van de koppeling. | varchar(100) |
-| `page_event_var3` | Niet meer gebruikt. Bevat gegevens van de module Enquête en Media. Bevolkt verouderde videorapporten in vorige versies van Adobe Analytics. | text |
+| `page_event_var3` | Niet meer gebruikt. Bevat gegevens van de module Enquête en Media. Bevolkt oudere videoverslagen in vorige versies van Adobe Analytics. | text |
 | `page_type` | Wordt gebruikt om de afmetingen voor de pagina&#39;s Niet gevonden te vullen. Deze wordt exclusief gebruikt voor 404 pagina&#39;s. Deze variabele moet leeg zijn of &quot;ErrorPage&quot; bevatten. | teken(20) |
 | `page_url` | De URL van de hit. Niet gebruikt in aanvragen voor het bijhouden van koppelingen. | varchar(255) |
 | `pagename` | Wordt gebruikt om de afmetingen Pagina&#39;s te vullen. Als de variabele pagename leeg is, gebruikt Analytics in plaats daarvan page_url. | varchar(100) |
@@ -165,8 +165,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `plugins` | Niet meer gebruikt. Lijst met numerieke id&#39;s die overeenkomen met plug-ins die beschikbaar zijn in de browser. Gebruikt plugins.tsv lookup. | varchar(180) |
 | `pointofinterest` | Naam van interesepunt voor mobiele services | varchar(255) |
 | `pointofinterestdistance` | Afstand van mobiele services tot belangencentrum | varchar(255) |
-| `post_ columns` | Bevat de waarde die uiteindelijk in rapporten wordt gebruikt. Elke postkolom wordt bevolkt na server-zijlogica, verwerkingsregels, en regels VISTA. In de meeste gevallen raadt Adobe u aan postkolommen te gebruiken. | Zie de desbetreffende niet-postkolom |
-| `prev_page` | Niet gebruikt. De bedrijfseigen id van Adobe van de vorige pagina. | int zonder teken |
+| `post_ columns` | Bevat de waarde die uiteindelijk in rapporten wordt gebruikt. Elke postkolom wordt bevolkt na server-zijlogica, verwerkingsregels, en regels VISTA. Adobe raadt in de meeste gevallen aan postkolommen te gebruiken. | Zie de desbetreffende niet-postkolom |
+| `prev_page` | Niet gebruikt. Adobe bedrijfseigen id van de vorige pagina. | int zonder teken |
 | `product_list` | Productlijst zoals doorgegeven via de productvariabele. Producten worden gescheiden door komma&#39;s, terwijl afzonderlijke producteigenschappen worden gescheiden door puntkomma&#39;s. | text |
 | `product_merchandising` | Niet gebruikt. Gebruik in plaats hiervan product_list. | text |
 | `prop1` - `prop75` | Aangepaste verkeersvariabelen 1-75. | varchar(100) |
@@ -176,7 +176,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `ref_type` | Een numerieke id die het verwijzingstype voor de treffer vertegenwoordigt.<br>1: Binnen uw site<br>2: Andere websites <br>3: Zoekprogramma&#39;s <br>4: Harde schijf <br>5: GEBRUIKER <br>6: Typed/Bookmark (geen referentie) <br>7: E-mail <br>8: Geen JavaScript <br>9: Sociale netwerken | tinyint zonder teken |
 | `referrer` | Pagina-URL van de vorige pagina. Merk op dat terwijl `referrer` gebruikt een gegevenstype van varchar (255), een gegevenstype van varchar (244) `post_referrer` gebruikt. | varchar(255) |
 | `resolution` | Numerieke id die de resolutie van de monitor vertegenwoordigt. Bevolkt de dimensie van de Resolutie van de Monitor. Gebruikt resolution.tsv raadplegingstabel. | small int zonder teken |
-| `s_kwcid` | Trefwoord-id die wordt gebruikt in Adobe Advertising Cloud-integratie. | varchar(255) |
+| `s_kwcid` | Trefwoord-id gebruikt in Adobe Advertising Cloud-integratie. | varchar(255) |
 | `s_resolution` | Waarde van resolutie voor onbewerkt scherm. Wordt verzameld met behulp van de JavaScript-functie screen.width x screen.height. | teken(20) |
 | `sampled_hit` | Niet meer gebruikt. Voorheen werd gebruikt voor bemonstering in het Ad hoc analysis. | teken(1) |
 | `search_engine` | Numerieke id die staat voor de zoekengine die de bezoeker naar uw site heeft doorverwezen. Gebruikt search_engines.tsv lookup. | small int zonder teken |
@@ -199,7 +199,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `socialownedpropertyname` | Niet meer gebruikt. Naam van sociale eigendom | varchar(255) |
 | `socialownedpropertypropertyvsapp` | Niet meer gebruikt. Eigendom van sociale media versus app | varchar(255) |
 | `state` | Staatvariabele. | varchar(50) |
-| `stats_server` | Niet gebruiken. Interne Adobe-server die de hit heeft verwerkt. | teken(30) |
+| `stats_server` | Niet gebruiken. Adobe interne server die de hit heeft verwerkt. | teken(30) |
 | `t_time_info` | Lokale tijd voor de bezoeker. De indeling is als volgt: D-M-YYYY HH:MM:SS Maand (0-11, 0=januari) Tijdzoneverschuiving (in minuten) | varchar(100) |
 | `tnt` | Wordt gebruikt in Adobe Target-integratie. | text |
 | `tnt_action` | Wordt gebruikt in Adobe Target-integratie. | text |
@@ -267,8 +267,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `visid_low` | Wordt gebruikt in combinatie met visid_high om een bezoeker op unieke wijze te identificeren. | bigint zonder teken |
 | `visid_new` | Markering om te bepalen of de treffer een onlangs gegenereerde bezoeker-id bevat. | teken(1) |
 | `visid_timestamp` | Als de bezoeker-id pas is gegenereerd, geeft u het tijdstempel (in Unix-tijd) op van het tijdstip waarop de bezoeker-id is gegenereerd. | int |
-| `visid_type` | Niet voor extern gebruik; intern gebruikt door Adobe voor het verwerken van optimalisaties. Numerieke id die de methode vertegenwoordigt die wordt gebruikt om de bezoeker te identificeren.<br>0: Aangepaste bezoeker-id of Onbekend/niet van toepassing<br>1: IP en gebruikersagent fallback <br>2: Koptekst HTTP Mobile-abonnee <br>3: Verouderde cookie-waarde (s_vi) <br>4: Waarde van fallback-cookie (s_fid) <br>5: Identiteitsservice | tinyint zonder teken |
-| `visit_keywords` | Variabele die in de dimensie van het Sleutelwoord van het Onderzoek wordt gebruikt. Deze kolom gebruikt een niet-standaard tekenlimiet voor back-endlogica die door Adobe wordt gebruikt. | varchar(244) |
+| `visid_type` | Niet voor extern gebruik; intern gebruikt door Adobe voor verwerkingsoptimalisaties. Numerieke id die de methode vertegenwoordigt die wordt gebruikt om de bezoeker te identificeren.<br>0: Aangepaste bezoeker-id of Onbekend/niet van toepassing<br>1: IP en gebruikersagent fallback <br>2: Koptekst HTTP Mobile-abonnee <br>3: Verouderde cookie-waarde (s_vi) <br>4: Waarde van fallback-cookie (s_fid) <br>5: Identiteitsservice | tinyint zonder teken |
+| `visit_keywords` | Variabele die in de dimensie van het Sleutelwoord van het Onderzoek wordt gebruikt. Deze kolom gebruikt een niet-standaard karaktergrens om achterste-eindlogica aan te passen die door Adobe wordt gebruikt. | varchar(244) |
 | `visit_num` | Variabele die wordt gebruikt in de dimensie Visit Number. Begint bij 1, en verhoogt telkens als een nieuw bezoek per bezoeker begint. | int zonder teken |
 | `visit_page_num` | Variabele die wordt gebruikt in de dimensie van de Diepte van de Actief. Verhoogt met 1 voor elke hit die de gebruiker genereert. Hiermee herstelt u elk bezoek. | int zonder teken |
 | `visit_ref_domain` | Gebaseerd op de visit_referrer kolom. Het eerste verwijzende domein van het bezoek. | varchar(100) |
