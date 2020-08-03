@@ -3,9 +3,9 @@ description: 'null'
 title: Analysis Workspace-prestaties optimaliseren
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1306'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ De ingewikkelde segmenten kunnen een significante invloed op projectprestaties h
 
 **Aanbevolen procedures voor logische complexiteit**
 
-Hoewel sommige van de complexiteitsfactoren niet kunnen worden verhinderd, denk over mogelijkheden om de ingewikkeldheid van uw segmenten te verminderen. Over het algemeen geldt dat hoe specifieker u kunt zijn bij de criteria van uw segment, des te beter. Bijvoorbeeld:
+Hoewel sommige van de complexiteitsfactoren niet kunnen worden voorkomen, denk over mogelijkheden om de ingewikkeldheid van uw segmenten te verminderen. Over het algemeen geldt dat hoe specifieker u kunt zijn bij de criteria van uw segment, des te beter. Bijvoorbeeld:
 
 * Bij containers is het gebruik van één container boven aan het segment sneller dan een reeks geneste containers.
 * Met operatoren is &#39;equals&#39; sneller dan &#39;contains&#39; en is &#39;equals any of&#39; sneller dan &#39;contains any of&#39;.
@@ -40,17 +40,15 @@ Bovendien kunnen [classificaties](/help/components/classifications/c-classificat
 
 Het gegevensbereik dat in een project wordt aangevraagd, is van invloed op de Analysis Workspace-prestaties.
 
-**Aanbevolen werkwijzen voor gegevensbereik**
+**Aanbevolen procedures voor datumbereiken**
 
-Trek waar mogelijk niet meer gegevens in dan u nodig hebt.
+Trek waar mogelijk niet meer gegevens in dan u nodig hebt. Versmal de paneelkalender aan de relevante data voor uw analyse, of gebruik datumwaaiercomponenten (paarse componenten) in uw vrije vormlijsten. Datumbereiken die in een tabel worden gebruikt, overschrijven het datumbereik van het deelvenster. U kunt bijvoorbeeld vorige maand, vorige week en gisteren toevoegen aan de tabelkolommen om die specifieke gegevensbereiken aan te vragen. Bekijk [deze video](https://www.youtube.com/watch?v=MIkT6FZ5gKk) voor meer informatie over het werken met datumbereiken in Analysis Workspace.
 
-Datumbereiken (paarse componenten) overschrijven het datumbereik van het deelvenster. Als u dus verschillende datumbereiken als kolommen gebruikt (bijvoorbeeld kolommen van vorige maand, vorige week en gisteren), hoeft het datumbereik van het deelvenster niet alle kolomdatumbereiken te beslaan. U kunt deze instelling gewoon instellen op gisteren, omdat de gegevensbereiken die in de tabel in vrije vorm worden gebruikt, het deelvenster overschrijven. Bekijk [deze video](https://www.youtube.com/watch?v=ybmv6EBmhn0) voor meer informatie over het werken met datumbereiken in Analysis Workspace.
-
-Gebruik [datumvergelijkingsopties](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) om de specifieke tijdsperioden van gegevens die u wilt vergelijken in te vullen. Als u bijvoorbeeld de gegevens van vorige maand wilt weergeven in vergelijking met die van dezelfde maand vorig jaar, in plaats van het paneel in te stellen op de laatste 13 maanden met gegevens, gebruikt u gewoon de optie voor de tijdsperioden van de vergelijking om de prestaties van jaar tot jaar weer te geven.
+Minimaliseer het aantal jaar-over-jaar vergelijkingen die in het project worden gebruikt. Wanneer een jaar-over-jaar vergelijking wordt berekend, kijkt het over de volledige 13 maanden van gegevens tussen de maanden van rente. Dit heeft hetzelfde effect als het wijzigen van het datumbereik van het deelvenster in een datumbereik van 13 maanden.
 
 ## Aantal visualisaties
 
-Het aantal grafiekvisualisaties in één project zal algemene ontvankelijkheid van Analysis Workspace beïnvloeden.
+Het aantal visualisaties in één project zal algemene ontvankelijkheid van Analysis Workspace beïnvloeden. Dit komt omdat elke visualisatie, of het nu een tabel of grafiek is, een gegevensbron heeft die moet worden aangevraagd.
 
 **Aanbevolen werkwijze voor het aantal visualisaties**
 
@@ -63,7 +61,7 @@ Het type visualisatie (bijvoorbeeld fallout versus een vrije-vormlijst) dat op z
 * Bereik van gevraagde gegevens, zoals hierboven vermeld
 * Aantal toegepaste segmenten; bijvoorbeeld segmenten die worden gebruikt als rijen van een vrije-vormtabel
 * Gebruik van complexe segmenten
-* Statische itemrijen of kolommen in vrije-vormtabellen
+* [Statische itemrijen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) of kolommen in vrije-vormtabellen
 * Filters die worden toegepast op rijen in vrije-vormtabellen
 * Aantal inbegrepen metriek, vooral berekende metriek die segmenten gebruiken
 
@@ -83,14 +81,14 @@ Probeer niet alles aan één project toe te voegen, maar creeer afzonderlijke pr
 
 Als u meer projecten wilt organiseren, moet u niet vergeten dat [directe koppeling](https://www.youtube.com/watch?v=6IOEewflG2U) naar uw project een optie is. Een interne index van projecten maken, zodat belanghebbenden gemakkelijker kunnen vinden wat ze nodig hebben.
 
-Als er in één werkruimte veel deelvensters nodig zijn, vouwt u deelvensters samen voordat u ze opslaat en deelt. Wanneer een project wordt geladen, laadt Analysis Workspace alleen inhoud voor de uitgebreide deelvensters. Samengevouwen deelvensters worden pas geladen wanneer de gebruiker deze uitbreidt. Deze aanpak helpt op twee manieren:
+Als er veel deelvensters nodig zijn in één project, vouwt u deelvensters samen voordat u het bestand opslaat en deelt. Wanneer een project wordt geladen, laadt Analysis Workspace alleen inhoud voor de uitgebreide deelvensters. Samengevouwen deelvensters worden pas geladen wanneer de gebruiker deze uitbreidt. Deze aanpak helpt op twee manieren:
 
 * Samengevouwen deelvensters besparen op de algemene laadtijd van een project
 * Samengevouwen deelvensters zijn een goede manier om uw projecten op een logische manier te organiseren voor de consument van het rapport
 
 ## Grootte van rapportsuite
 
-De grootte van de rapportsuite lijkt misschien een drijvende kracht, maar in werkelijkheid speelt deze slechts een kleine rol in de prestaties van het project, omdat de Adobe de gegevensverwerking beheert
+De grootte van de rapportsuite lijkt misschien een drijvende kracht, maar in werkelijkheid speelt deze slechts een kleine rol in de prestaties van het project, omdat Adobe de gegevensverwerking afhandelt. Er kunnen uitzonderingen op deze regel zijn; overleg met uw implementatieteam of een Adobe-expert om te bepalen of er implementatieverbeteringen kunnen worden doorgevoerd om de algehele ervaring in Adobe Analytics te verbeteren.
 
 ## Aantal gebruikers dat tegelijkertijd Analysis Workspace opent
 
