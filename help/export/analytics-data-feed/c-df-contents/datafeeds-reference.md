@@ -6,7 +6,7 @@ title: Referentie gegevenskolom
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
+source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
 source-wordcount: '3674'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `geo_region` | De naam van de staat of regio waar de treffer vandaan kwam, op basis van IP. Adobe werkt met Digitale gezant samen om IP adres aan staat/regio aan te passen. | teken(32) |
 | `geo_zip` | De postcode waar de hit vandaan kwam, is gebaseerd op IP. Adobe werkt met Digital Envoy samen om IP-adres aan te passen aan postcode. | varchar(16) |
 | `hier1 - hier5` | Wordt gebruikt door hiërarchievariabelen. Bevat een lijst met gescheiden waarden. Het scheidingsteken wordt gekozen onder de instellingen van de rapportsuite. | varchar(255) |
-| `hit_source` | Geeft aan uit welke bron de treffer afkomstig is. Hit_sources 0, 1, 2 en 6 worden gefactureerd. <br>1: Standaardverzoek om afbeelding zonder tijdstempel <br>2: Standaardverzoek om afbeelding met tijdstempel <br>3: Live uploaden van gegevensbron met tijdstempels <br>4: Niet gebruikt <br>5: Generieke gegevensbronupload <br>6: Uploaden gegevensbron volledige verwerking <br>7: TransactieID-gegevensbron uploaden <br>8: niet meer gebruikt; Eerdere versies van Adobe Advertising Cloud-gegevensbronnen <br>9: niet meer gebruikt; Adobe Social summary metrics <br>10: Audience Manager server-kant gebruikt door:sturen | tinyint zonder teken |
+| `hit_source` | Geeft aan uit welke bron de treffer afkomstig is. De bronnen 1, 2 en 6 van de it worden gefactureerd. <br>1: Standaardverzoek om afbeelding zonder tijdstempel <br>2: Standaardverzoek om afbeelding met tijdstempel <br>3: Live uploaden van gegevensbron met tijdstempels <br>4: Niet gebruikt <br>5: Generieke gegevensbronupload <br>6: Uploaden gegevensbron volledige verwerking <br>7: TransactieID-gegevensbron uploaden <br>8: niet meer gebruikt; Eerdere versies van Adobe Advertising Cloud-gegevensbronnen <br>9: niet meer gebruikt; Adobe Social summary metrics <br>10: Audience Manager server-kant gebruikt door:sturen | tinyint zonder teken |
 | `hit_time_gmt` | De timestamp van de de gegevensverzamelingsservers van de hit Adobe ontvingen de slag, die in Unix tijd wordt gebaseerd. | int |
 | `hitid_high` | Wordt gebruikt in combinatie met hitid_low om een treffer op unieke wijze te identificeren. | bigint zonder teken |
 | `hitid_low` | Wordt gebruikt in combinatie met hitid_high om een treffer op unieke wijze te identificeren. | bigint zonder teken |
