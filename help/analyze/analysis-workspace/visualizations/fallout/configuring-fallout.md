@@ -1,14 +1,17 @@
 ---
 description: 'null'
-title: Een fallout-visualisatie configureren
+title: Een uitvalvisualisatie configureren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 2%
 
 ---
 
 
-# Een fallout-visualisatie configureren
+# Een uitvalvisualisatie configureren
 
 U kunt de aanraakpunten opgeven om een multidimensionale fallout-reeks te maken. Doorgaans is een aanraakpunt een pagina op uw site. Aanraakpunten zijn echter niet beperkt tot pagina&#39;s. U kunt bijvoorbeeld gebeurtenissen toevoegen, zoals eenheden, en unieke bezoekers en terugkeerbezoeken. U kunt ook dimensies toevoegen, zoals een categorie, type browser of interne zoekterm.
 
@@ -40,7 +43,7 @@ U kunt tekenen op eVars, met inbegrip van het verhandelen van eVars en [listVars
 
    ![](assets/multiple_obj_touchpoint.png)
 
-1. U kunt ook afzonderlijke aanraakpunten **beperken tot de volgende aanraakpunten** (in tegenstelling tot &quot;uiteindelijk&quot;) binnen het pad. Onder elk aanraakpunt bevindt zich een kiezer met de opties &quot;Eventueel pad&quot; en &quot;Volgend pad&quot;, zoals u hier ziet:
+1. You can also **constrain individual touchpoints to the next hit** (as opposed to &quot;eventually&quot;) within the path. Onder elk aanraakpunt bevindt zich een kiezer met de opties &quot;Eventueel pad&quot; en &quot;Volgend pad&quot;, zoals u hier ziet:
 
    ![](assets/next-hit-eventually.png)
 
@@ -62,11 +65,10 @@ U kunt tekenen op eVars, met inbegrip van het verhandelen van eVars en [listVars
 | Instelling | Beschrijving |
 |--- |--- |
 | Container voor uitvallen <ul><li>Bezoek</li><li>Bezoeker</li></ul> | Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van bezoekers te analyseren. De standaardinstelling is Bezoeker.  Met deze instellingen kunt u de betrokkenheid van bezoekers op bezoekersniveau (verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
-| Alle bezoekers tonen als eerste aanraakpunt | U kunt dit deselecteren als u liever niet &quot;Alle bezoekers&quot; als eerste aanraakpunt hebt. |
 
 Wanneer u met de **rechtermuisknop op een aanraakpunt** klikt, worden de volgende opties weergegeven:
 
-| Option | Beschrijving |
+| Optie | Beschrijving |
 |--- |--- |
 | Trend touchpoint | Zie trendgegevens voor een aanraakpunt in een lijngrafiek, met sommige vooraf gebouwde anomaliedetectiegegevens. |
 | Trend touchpoint (%) | Hiermee wordt het totale uitvalpercentage verhoogd. |
