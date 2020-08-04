@@ -1,24 +1,24 @@
 ---
-description: Met Volgen bepaalt u hoe de gegevens van de zoekmachine worden bijgehouden door de implementatie van Adobe Analytics. Dit is een vereiste stap om de Adobe Analytics-gegevens correct aan te vullen met de gegevens van de Search Engine.
+description: Het volgen bepaalt hoe de gegevens van de Motor van het Onderzoek door uw implementatie van Adobe Analytics worden gevolgd. Dit is een vereiste stap om de Adobe Analytics-gegevens correct aan te vullen met de zoekengine-gegevens.
 title: Handmatige modus voor bijhouden en Automatische modus
 translation-type: tm+mt
-source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 0%
+source-wordcount: '594'
+ht-degree: 1%
 
 ---
 
 
-# Tekstspatiëring: Handmatige modus en Automatische modus
+# Tracking: handmatige modus en automatische modus
 
-Met Volgen bepaalt u hoe de gegevens van de zoekmachine worden bijgehouden door de implementatie van Adobe Analytics. Dit is een vereiste stap om de Adobe Analytics-gegevens correct aan te vullen met de gegevens van de Search Engine.
+Het volgen bepaalt hoe de gegevens van de Motor van het Onderzoek door uw implementatie van Adobe Analytics worden gevolgd. Dit is een vereiste stap om de Adobe Analytics-gegevens correct aan te vullen met de zoekengine-gegevens.
 
 Twee traceringsmodi worden ondersteund: Automatische modus en Handmatige modus.
 
 ## Automatisch bijhouden {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-In de modus Automatisch kunt u bepalen hoe de gegevens van de zoekmachine moeten worden verwerkt door de Cloud-engine voor advertenties. Dit is de eenvoudigere benadering, maar het kan niet in de beste geïntegreerde dataset resulteren.
+In de modus Automatisch kunt u bepalen hoe de gegevens van de zoekmachine moeten worden verwerkt door de Advertising Cloud-engine. Dit is de eenvoudigere benadering, maar het kan niet in de beste geïntegreerde dataset resulteren.
 
 Als u Automatische modus selecteert, moet u daarom een selectievakje voor een bevestiging inschakelen voordat u de accountinstelling kunt opslaan.
 
@@ -33,7 +33,7 @@ Als u een account voor een zoekmachine wilt configureren in de modus Automatisch
 
 ## Handmatige modus bijhouden {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
-In de modus Handmatig moet u opgeven hoe de gegevens van de zoekmachine moeten worden verwerkt door het integratieproces van de gegevens van Advertising Analytics.
+In de modus Handmatig moet u opgeven hoe de gegevens van de zoekmachine moeten worden verwerkt door het Advertising Analytics-proces voor gegevensintegratie.
 
 ### Handmatig bijhouden toevoegen aan Google-account {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
@@ -101,7 +101,7 @@ Voorbeelden van volgcodes in verschillende uiteindelijke indelingen voor URL-ach
 **{lpurl}**
 
 ```
-{lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}`
+{lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
 **`{lpurl}`met extra URL-parameter **
@@ -111,10 +111,10 @@ Voorbeelden van volgcodes in verschillende uiteindelijke indelingen voor URL-ach
 s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**derden (DoubleClick) `{unescape edlpurl}**
+**Andere leverancier (DoubleClick)`{unescapedlpurl}`**
 
-```https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
-
+```
+https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
 **Andere leverancier (DoubleClick)`{lpurl}`**
