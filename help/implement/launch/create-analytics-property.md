@@ -1,22 +1,22 @@
 ---
-title: Een Analytics-eigenschap maken in Launch
+title: Een eigenschap Analytics maken in Launch
 description: Met Adobe Experience Platform Launch maakt u een spatie om aan te passen hoe gegevens worden verzameld.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
 
 
-# Een Analytics-eigenschap maken in Adobe Experience Platform Launch
+# Een eigenschap Analytics maken in Adobe Experience Platform Launch
 
-Adobe Experience Platform Launch is het hulpmiddel dat u kunt gebruiken om Experience Cloud-oplossingen op uw website (inclusief Analytics) te integreren. Deze pagina schetst specifiek hoe een beheerder van de Lancering een basisimplementatie van Adobe Analytics kan krijgen correct wordt gevormd.
+Adobe Experience Platform Launch is het hulpprogramma waarmee u Experience Cloud-oplossingen kunt integreren op uw website (inclusief Analytics). Deze pagina schetst specifiek hoe een beheerder van de Lancering een basisimplementatie van Adobe Analytics kan krijgen correct wordt gevormd.
 
 ## Vereisten
 
-[Maak een rapportsuite](/help/admin/admin-console/create-report-suite.md): Een silo maken voor Analytics-gegevens die moeten worden verzameld
+[Maak een rapportsuite](/help/admin/admin-console/create-report-suite.md): Een silo maken voor analysegegevens die moeten worden verzameld
 
 ## Een eigenschap maken en vitale extensies installeren
 
@@ -36,22 +36,25 @@ Eigenschappen zijn overkoepelende containers die u gebruikt om tags te beheren. 
 Gegevenselementen zijn verwijzingen naar specifieke delen van uw site om variabelewaarden te verzamelen.
 
 1. Ga naar [launch.adobe.com](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
-2. Klik op de eigenschap Starten die u op uw site wilt implementeren.
-3. Klik op het tabblad Gegevenselementen en klik vervolgens op Nieuw gegevenselement maken.
-4. Geef het gegevenselement de volgende instellingen:
+1. Klik op de eigenschap Starten die u op uw site wilt implementeren.
+1. Klik op het tabblad Gegevenselementen en klik vervolgens op Nieuw gegevenselement maken.
+1. Geef het gegevenselement de volgende instellingen:
+
    * Naam: Paginanaam
    * Extensie: Kern
    * Type gegevenselement: JavaScript-variabele
    * Pad naar variabele: `window.document.title`
 
-      >[!NOTE] Opmerking: Dit is een voorbeeldwaarde om aan de slag te gaan. Als uw organisatie een betere waarde voor paginanaam, zoals een waarde van de gegevenslaag bepaalt, kunt u het hier ingaan.
+      >[!NOTE]
+      >
+      >Dit is een voorbeeldwaarde om aan de slag te gaan. Als uw organisatie een betere waarde voor paginanaam, zoals een waarde van de gegevenslaag bepaalt, kunt u het hier ingaan.
    * Tekst reinigen ingeschakeld
    * Duur: Voorvertoning
-5. Klik op Opslaan.
+1. Klik op Opslaan.
 
 ## Regels maken voor Adobe Analytics
 
-Regels wijzen gegevenselementen de veranderlijke waarden van Analytics in kaart, en bepalen wanneer die waarden naar Adobe servers worden verzonden.
+Regels wijzen gegevenselementen aan de veranderlijke waarden van de Analyse in kaart, en bepalen wanneer die waarden naar Adobe worden verzonden.
 
 1. Ga naar [launch.adobe.com](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
 1. Klik op de eigenschap Starten die u op uw site wilt implementeren.
@@ -84,4 +87,4 @@ Regels wijzen gegevenselementen de veranderlijke waarden van Analytics in kaart,
 
 ## Volgende stappen
 
-[Implementeer uw Analytics-implementatie in uw ontwikkelomgeving](deploy-dev.md): Analytics-code laten werken in een testomgeving.
+[Implementeer uw analytische implementatie in uw ontwikkelomgeving](deploy-dev.md): De code Analytics van de Krijg werkend in een testmilieu.
