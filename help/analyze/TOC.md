@@ -5,9 +5,9 @@ user-guide-title: Handleiding Analytics-tools
 user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
+source-git-commit: 07652c76120fae6b3e7b10bbe55b84a9cfe8b8c7
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1103'
 ht-degree: 95%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 95%
       + [Boomstructuur](analysis-workspace/visualizations/treemap.md)
    + Deelvensters {#panels}
       + [Overzicht van deelvensters](analysis-workspace/c-panels/panels.md)
-      + [Deelvenster Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + [Analyses voor venster Doel (A4T)](analysis-workspace/c-panels/a4t-panel.md)
       + [Deelvenster voor attributie](analysis-workspace/c-panels/attribution.md)
       + [Leeg deelvenster](analysis-workspace/c-panels/blank-panel.md)
       + [Deelvenster Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
@@ -92,6 +92,7 @@ ht-degree: 95%
    + Projecten selecteren of delen {#curate-share}
       + [Werkruimteprojecten curven](analysis-workspace/curate-share/curate.md)
       + [Werkruimteprojecten delen](analysis-workspace/curate-share/share-projects.md)
+      + [Deelbare koppelingen maken](analysis-workspace/curate-share/shareable-links.md)
       + [Workspace-projecten voor alleen-weergeven](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
       + [Projectbestanden delen en plannen](analysis-workspace/curate-share/send-schedule-files.md)
