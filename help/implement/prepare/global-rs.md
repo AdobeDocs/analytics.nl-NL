@@ -2,7 +2,7 @@
 title: Algemene rapportsuites in Adobe Analytics
 description: Begrijp de voordelen en de vereisten aan het gebruiken van een globale rapportreeks.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 2%
@@ -19,7 +19,7 @@ Een algemene rapportsuite is een rapportsuite die gegevens verzamelt van alle do
 Adobe beveelt in de meeste gevallen aan een algemene rapportsuite te implementeren.
 
 * **Geaggregeerde gegevens:** De globale rapportsuites laten u toe om de gebeurtenissen van KPI en van het succes over uw eigen plaatsen te zien. De segmentatie en de virtuele rapportsuites kunnen worden gebruikt om plaats-specifieke gegevens te bekijken.
-* **Ondersteuning voor Analytics voor verschillende apparaten:** CDA vereist een rapportsuite die gegevens verzamelt van meerdere locaties, zoals uw website en mobiele app. Afzonderlijke apparaten kunnen gegevens samenvoegen als deze correct zijn geïmplementeerd. Zie Analytics [voor](../../components/cda/overview.md) verschillende apparaten in de gebruikershandleiding voor componenten voor meer informatie.
+* **Ondersteuning voor apparaatanalyse:** CDA vereist een rapportsuite die gegevens verzamelt van meerdere locaties, zoals uw website en mobiele app. Afzonderlijke apparaten kunnen gegevens samenvoegen als deze correct zijn geïmplementeerd. Zie [Apparaatanalyse](../../components/cda/overview.md) in de gebruikershandleiding van Componenten voor meer informatie.
 * **U hebt niet meer dan één rapportsuite nodig:** Alle gegevens kunnen in één enkele rapportreeks worden verzameld, zodat is het minder waarschijnlijk voor een ontwikkelaar om gegevens naar de verkeerde rapportreeks per ongeluk te verzenden.
 * **Geen rollups nodig:** Rollups zijn een vrij gedateerde eigenschap die individuele gegevens van de rapportreeks op een dagelijkse basis samenvoegt. Rollups dedupliceren geen bezoek- of bezoekersgegevens, wat tot opgeblazen aantallen kan leiden. Zie [Rollups](../../admin/c-manage-report-suites/rollup-report-suite.md) in de gebruikershandleiding voor Admin voor meer informatie.
 * **Tijd opslaan:** De projecten van de werkruimte, classificaties, segmenten, en berekende metriek zijn verbonden aan de zelfde globale rapportreeks. Beheerders besteden minder tijd aan het beheren van deze componenten en gegevensbeheer.
@@ -35,12 +35,15 @@ Adobe beveelt in de meeste gevallen aan een algemene rapportsuite te implementer
 Gebruik de volgende algemene richtlijnen om inzicht te krijgen in het proces van implementatie van een algemene rapportsuite.
 
 1. Maak de algemene rapportsuite in Adobe Analytics. Zie [Een rapportsuite](../../admin/admin-console/create-report-suite.md) maken in de handleiding voor Admin-gebruikers voor meer informatie.
-2. Het werk met teams in uw organisatie verantwoordelijk voor elk domein. Vele teams hebben rapporteringsvereisten specifiek voor hun gebied van de zaken.
-3. Leg al deze vereisten vast in een [ontwerpdocument](solution-design.md)van de Oplossing en stel ze samen. Als de teams gelijkaardige vereisten voor een afmeting hebben, kunnen zij de zelfde douanevariabele gebruiken. Bijvoorbeeld, als de plaats A en plaats B allebei een dimensie van broodkruimels vereisen, kunnen de implementaties voor beide plaatsen die gegevens door eVar1 verzenden.
-   >[!IMPORTANT] Zorg ervoor dat om het even welke bepaalde douanevariabele gelijkaardig over domeinen wordt gebruikt. Gebruik dezelfde eVar of gebeurtenis niet voor verschillende doeleinden op uw sites.
-4. Zorg ervoor dat elk domein een gegevenslaag heeft om gegevensinzameling te vereenvoudigen. Gegevens kunnen nog steeds zonder een gegevenslaag worden verzameld, maar de betrouwbaarheid en de levensduur van uw implementatie nemen af, vooral wanneer uw site opnieuw ontwerpen doorloopt.
-5. Gebruik Adobe Experience Platform Launch om Analytics te implementeren. De verschillende plaatsen zullen waarschijnlijk verschillende gegevenselementen vereisen. De regels van het gebruik specifiek voor elk domein om ervoor te zorgen elk gegevenselement correct bevolkt is, dan wijs die gegevenselementen aan hun respectieve eVars en gebeurtenissen toe. Zie Overzicht van [starten](https://docs.adobe.com/content/help/en/launch/using/overview.html) in de Adobe Experience Platform Launch-gebruikershandleiding.
-6. Neem de [Adobe Experience Cloud-id-service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) op en gebruik de functie [appendVisitorIDsTo](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/appendvisitorid.html) . Deze functie voegt bezoekersgegevens samen wanneer de gebruikers van één domein aan een ander klikken.
+1. Het werk met teams in uw organisatie verantwoordelijk voor elk domein. Vele teams hebben rapporteringsvereisten specifiek voor hun gebied van de zaken.
+1. Leg al deze vereisten vast in een [ontwerpdocument](solution-design.md)van de Oplossing en stel ze samen. Als de teams gelijkaardige vereisten voor een afmeting hebben, kunnen zij de zelfde douanevariabele gebruiken. Bijvoorbeeld, als de plaats A en plaats B allebei een dimensie van broodkruimels vereisen, kunnen de implementaties voor beide plaatsen die gegevens door eVar1 verzenden.
+
+   >[!IMPORTANT]
+   >
+   >Zorg ervoor dat om het even welke bepaalde douanevariabele gelijkaardig over domeinen wordt gebruikt. Gebruik dezelfde eVar of gebeurtenis niet voor verschillende doeleinden op uw sites.
+1. Zorg ervoor dat elk domein een gegevenslaag heeft om gegevensinzameling te vereenvoudigen. Gegevens kunnen nog steeds zonder een gegevenslaag worden verzameld, maar de betrouwbaarheid en de levensduur van uw implementatie nemen af, vooral wanneer uw site opnieuw ontwerpen doorloopt.
+1. Gebruik Adobe Experience Platform Launch om Analytics te implementeren. De verschillende plaatsen zullen waarschijnlijk verschillende gegevenselementen vereisen. De regels van het gebruik specifiek voor elk domein om ervoor te zorgen elk gegevenselement correct bevolkt is, dan wijs die gegevenselementen aan hun respectieve eVars en gebeurtenissen toe. Zie Overzicht van [starten](https://docs.adobe.com/content/help/en/launch/using/overview.html) in de Adobe Experience Platform Launch-gebruikershandleiding.
+1. Neem de [Adobe Experience Cloud-id-service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) op en gebruik de functie [appendVisitorIDsTo](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/appendvisitorid.html) . Deze functie voegt bezoekersgegevens samen wanneer de gebruikers van één domein aan een ander klikken.
 
 ## Een bestaande implementatie aanpassen met een algemene rapportsuite
 
