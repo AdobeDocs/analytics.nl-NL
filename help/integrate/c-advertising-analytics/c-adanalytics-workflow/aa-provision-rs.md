@@ -3,7 +3,7 @@ description: 'null'
 title: Rapportsuite voor Advertising Analytics inschakelen
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # Rapportsuite voor Advertising Analytics inschakelen
 
-Als u Advertising Analytics-zoekgegevens wilt weergeven in Analytics, moet u elke rapportensuite met Experience Cloud-toewijzing configureren voor Advertising Analytics-rapportage.
+Om Advertising Analytics onderzoeksgegevens in Analytics te zien, moet u elke Experience Cloud-in kaart gebrachte rapportreeks voor Advertising Analytics het melden vormen.
 
 1. [Wijs uw rapportsuite toe aan een organisatie](https://docs.adobe.com/content/help/nl-NL/core-services/interface/about-core-services/report-suite-mapping.html).
 1. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
@@ -23,7 +23,9 @@ Als u Advertising Analytics-zoekgegevens wilt weergeven in Analytics, moet u elk
 
    ![Rapportage](assets/aa_reporting.png)
 
-   >[!IMPORTANT] AMO-id verwijst naar de Adobe Advertising Cloud-variabele waarin de zoekgegevens worden ingevoegd.
+   >[!IMPORTANT]
+   >
+   >AMO-id verwijst naar de Adobe Advertising Cloud-variabele waarin de zoekgegevens worden ingevoegd.
 
 1. Stel de variabele voor de toewijzing en vervaldatum van de AMO-id-variabele in. Met conversievariabelen (eVars) kan Adobe Analytics succesgebeurtenissen toewijzen aan specifieke variabelewaarden. Soms krijgen variabelen meer dan één waarde voordat ze een succesgebeurtenis raken. In deze gevallen bepaalt de toewijzing welke variabele krediet voor de gebeurtenis krijgt.
 
