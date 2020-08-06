@@ -1,8 +1,8 @@
 ---
 title: Een datalaag maken
-description: Leer wat een gegevenslaag in uw implementatie van Analytics is, en hoe het kan worden gebruikt om variabelen in Adobe Analytics in kaart te brengen.
+description: Leer wat een gegevenslaag in uw implementatie Analytics is, en hoe het kan worden gebruikt om variabelen in Adobe Analytics in kaart te brengen.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 2%
@@ -23,10 +23,13 @@ Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site dat alle var
 Bij het implementeren van Adobe Analytics met een gegevenslaag worden doorgaans de volgende stappen uitgevoerd:
 
 1. **Werk met uw team van de plaatsontwikkeling om een gegevenslaag** uit te voeren: Uw team van de plaatsontwikkeling is hoofdzakelijk verantwoordelijk voor het ervoor zorgen van het voorwerp van de gegevenslaag bevolkt met correcte waarden. Controleer deze pagina met uw team van de plaatsontwikkeling om ervoor te zorgen de verwachtingen tussen teams worden gericht.
-   >[!NOTE] De volgende Adobe aanbevolen gegevenslaagspecificaties is optioneel. Als u reeds een gegevenslaag hebt, of anders verkiest om Adobe geen specificaties te volgen, zorg ervoor dat uw organisatie zich op welke specificatie richt te volgen.
-2. **Valideer uw gegevenslaag met een browserconsole**: Zodra een gegevenslaag wordt gecreeerd, kunt u bevestigen dat het gebruikend om het even welke browser ontwikkelaarsconsole werkt. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend de `F12` sleutel. Een waarde van een voorbeeldvariabele zou `digitalData.page.pageInfo.pageID`zijn.
-3. **Adobe Experience Platform Launch gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Maak gegevenselementen in Launch en wijs deze toe aan de JavaScript-kenmerken die in de gegevenslaag worden beschreven.
-4. **Met de extensie Adobe Analytics in Launch kunt u gegevenselementen toewijzen aan Analytics-variabelen**: Na uw document van het oplossingsontwerp, wijs elk gegevenselement aan de aangewezen variabele van Analytics toe.
+
+   >[!NOTE]
+   >
+   >De volgende Adobe aanbevolen gegevenslaagspecificaties is optioneel. Als u reeds een gegevenslaag hebt, of anders verkiest om Adobe geen specificaties te volgen, zorg ervoor dat uw organisatie zich op welke specificatie richt te volgen.
+1. **Valideer uw gegevenslaag met een browserconsole**: Zodra een gegevenslaag wordt gecreeerd, kunt u bevestigen dat het gebruikend om het even welke browser ontwikkelaarsconsole werkt. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend de `F12` sleutel. Een waarde van een voorbeeldvariabele zou `digitalData.page.pageInfo.pageID`zijn.
+1. **Adobe Experience Platform Launch gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Maak gegevenselementen in Launch en wijs deze toe aan de JavaScript-kenmerken die in de gegevenslaag worden beschreven.
+1. **Gebruik de extensie Adobe Analytics in Launch om gegevenselementen toe te wijzen aan analytische variabelen**: Na uw document van het oplossingsontwerp, wijs elk gegevenselement aan de aangewezen variabele Analytics toe.
 
 ## Specificaties
 
