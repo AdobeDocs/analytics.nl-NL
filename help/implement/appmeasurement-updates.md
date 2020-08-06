@@ -3,7 +3,7 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '2119'
 ht-degree: 3%
@@ -94,7 +94,7 @@ Releasedatum: **11 februari 2019**
 
 * Toegevoegde ondersteuning voor de nieuwe functionaliteit voor Adobe Opt-in-services in AppMeasurement. (AN-163546)
 * Toegevoegde ondersteuning voor het opslaan van gegevens voor het bijhouden van koppelingen in sessieopslag. (AN-162272)
-* Toegevoegde ondersteuning voor mediastroomtype voor Audio Analytics. (AN-173265)
+* Toegevoegde ondersteuning voor het type mediastream voor audioanalyse. (AN-173265)
 
 ## Versie 2.10.0
 
@@ -356,7 +356,9 @@ Releasedatum: **18 september 2014**
 * Probleem verholpen waarbij een aantal pagina&#39;s werd geteld wanneer s.t werd aangeroepen vanuit een functie klikkoppeling als de bezoeker-API nog niet de vereiste waarden heeft.
 * Ondersteuning voor HTTP-POST.
 
-   >[!IMPORTANT] Voor een [!DNL Analytics] vraag om de methode van de POST in plaats van de methode van de GET te gebruiken in [!DNL AppMeasurement] (een methode om [beknot URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)op te lossen), moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor de Experience Cloud gebruiken.
+   >[!IMPORTANT]
+   >
+   >Voor een [!DNL Analytics] vraag om de methode van de POST in plaats van de methode van de GET te gebruiken in [!DNL AppMeasurement] (een methode om [beknot URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)op te lossen), moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor de Experience Cloud gebruiken.
 
 ## Versie 1.4
 
