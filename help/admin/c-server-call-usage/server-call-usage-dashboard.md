@@ -3,7 +3,7 @@ description: 'null'
 title: Huidig gebruik van server calls weergeven
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 4%
@@ -28,7 +28,9 @@ Het huidige verbruiksdashboard
 
 * Vergelijkt het gebruik van uw huidige periode tot het gebruik van vorig jaar (blauwe lijn). Duidelijk, zal de blauwe lijn slechts verschijnen als uw bedrijf de gegevens van het het vraaggebruik van de server van het vorige jaar heeft.
 
-   >[!NOTE] Als u het gebruik voor een vorige periode wilt bekijken, moet u naar het tabblad Gebruik [van de](/help/admin/c-server-call-usage/report-suite-usage.md) Reeks van het Rapport gaan en de gebruiksgegevens voor een vorige periode downloaden.
+   >[!NOTE]
+   >
+   >Als u het gebruik voor een vorige periode wilt bekijken, moet u naar het tabblad Gebruik [van de](/help/admin/c-server-call-usage/report-suite-usage.md) Reeks van het Rapport gaan en de gebruiksgegevens voor een vorige periode downloaden.
 
 * Maakt een lijst van het percentage gebruikte vraag (in percentages en ruwe gegevens), en het percentage van de gebruikte gebruiksperiode (in percentages en ruwe gegevens).
 * Standaard wordt deze standaard dagelijks bijgewerkt met een 5-daagse verwerkingslatentie.
