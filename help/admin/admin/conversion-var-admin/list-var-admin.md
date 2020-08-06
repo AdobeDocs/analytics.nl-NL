@@ -2,7 +2,7 @@
 title: Lijstvariabelen
 description: Creeer en vorm lijstvariabelen voor gebruik in het melden.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 1%
@@ -23,7 +23,9 @@ U kunt tot de configuratie in de Admin Console toegang hebben:
 * **Naam**: Elke gescheiden waarde kan maximaal 255 tekens bevatten (of minder als multi-byte tekens worden gebruikt). Dit is de maximumlengte van elk element.
 * **Scheidingsteken** waarde: Het teken dat wordt gebruikt om waarden in de keuzelijst van elkaar te scheiden. Meestal gaat het om tekens zoals komma&#39;s, dubbele punten, pijpen of iets dergelijks.
 
-   >[!NOTE] Multi-bytetekens worden niet ondersteund als scheidingstekens in List Vars. Het scheidingsteken moet één byte zijn.
+   >[!NOTE]
+   >
+   >Multi-bytetekens worden niet ondersteund als scheidingstekens in List Vars. Het scheidingsteken moet één byte zijn.
 
 * **Vervaldatum**: Net als bij het verlopen van de eVar, bepaalt dit de hoeveelheid tijd die tussen de Lijst Var en de omzettingsgebeurtenis kan voorkomen voor hen om worden verwant.
    * **In een paginaweergave of op bezoekniveau**: Gebeurtenissen na afloop van de paginaweergave of het bezoek zijn niet weer gekoppeld aan waarden in de lijst Var.
