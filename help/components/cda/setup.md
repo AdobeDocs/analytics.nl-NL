@@ -1,8 +1,8 @@
 ---
-title: Analytics voor verschillende apparaten instellen
+title: Apparaatanalyse instellen
 description: Configureer een virtuele rapportsuite om CDA in te schakelen.
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
@@ -10,15 +10,17 @@ ht-degree: 0%
 ---
 
 
-# Analytics voor verschillende apparaten instellen
+# Apparaatanalyse instellen
 
-Als aan alle voorwaarden is voldaan, voert u de volgende stappen uit om Analytics voor verschillende apparaten in te schakelen. U dient deel uit te maken van een groep met productprofielbeheer of over beheerdersrechten in Adobe Analytics te beschikken om deze stappen te kunnen uitvoeren.
+Als aan alle voorwaarden is voldaan, voert u de volgende stappen uit om Apparaatanalyse op andere apparaten in te schakelen. U moet tot een groep van de Admin van het Profiel van het Product behoren of beheerdervoorrechten in Adobe Analytics hebben om deze stappen te volgen.
 
->[!IMPORTANT] Aan alle voorwaarden moet worden voldaan voordat u deze stappen uitvoert. Als niet aan alle voorwaarden wordt voldaan, is de functie niet beschikbaar of werkt deze niet. Zie de [overzichtspagina](overview.md) en de gewenste tekenmethode ([Veldgebaseerde stitching](field-based-stitching.md) of Grafiek [van het](device-graph.md)Apparaat, respectievelijk) voor eerste vereisten en beperkingen.
+>[!IMPORTANT]
+>
+>Aan alle voorwaarden moet worden voldaan voordat u deze stappen uitvoert. Als niet aan alle voorwaarden wordt voldaan, is de functie niet beschikbaar of werkt deze niet. Zie de [overzichtspagina](overview.md) en de gewenste tekenmethode ([Veldgebaseerde stitching](field-based-stitching.md) of Grafiek [van het](device-graph.md)Apparaat, respectievelijk) voor eerste vereisten en beperkingen.
 
 ## Kies de rapportsuite voor alle apparaten die wordt ingeschakeld voor CDA
 
-Wanneer uw organisatie is ingericht om CDA te gebruiken, kiest u welke rapportsuite moet worden gebruikt. U kunt deze keuze mededelen via uw Adobe-accountmanager. Adobe schakelt vervolgens de gekozen rapportsuite in voor CDA-verwerking.
+Wanneer uw organisatie is ingericht om CDA te gebruiken, kiest u welke rapportsuite moet worden gebruikt. Deze keuze kan via uw accountmanager van Adobe worden doorgegeven. Adobe laat dan uw gekozen rapportreeks voor CDA verwerking toe.
 
 ## Maak een virtuele-rapportsuite voor meerdere apparaten om de apparaatweergave te bekijken
 
@@ -30,7 +32,7 @@ Beheerders die toegang hebben tot het maken van virtuele rapportsuites, kunnen a
 4. Klik op Toevoegen.
 5. Voer een naam in voor uw virtuele-rapportsuite en zorg ervoor dat de CDA-compatibele rapportsuite is geselecteerd.
 6. (Optioneel) Pas een segment toe op de virtuele rapportsuite. Bijvoorbeeld, kunt u een segment toepassen dat de virtuele rapportreeks tot data beperkt nadat CDA werd aangezet en het stitching begon. Dit segment staat gebruikers toe om slechts gestikte datumwaaiers binnen VRS te zien.
-7. Klik op het selectievakje &#39;Rapporttijdverwerking inschakelen&#39;, waarmee u meer opties kunt inschakelen, waaronder Analytics voor meerdere apparaten.
+7. Klik op het selectievakje &#39;Tijdverwerking rapport inschakelen&#39;, waarmee u meer opties kunt inschakelen, waaronder Apparaatanalyse.
 8. Klik op het selectievakje &#39;Gebruikersbezoeken op apparaten plaatsen&#39;.
 9. Klik op Doorgaan, voltooi de configuratie van de virtuele rapportsuite en klik op Opslaan.
 
@@ -38,7 +40,7 @@ Beheerders die toegang hebben tot het maken van virtuele rapportsuites, kunnen a
 
 ## Toevoegingen en wijzigingen aan virtuele-rapportsuites voor meerdere apparaten
 
-Houd rekening met de volgende wijzigingen wanneer Analytics voor meerdere apparaten is ingeschakeld in een virtuele rapportsuite:
+Houd rekening met de volgende wijzigingen wanneer Apparaatanalyse is ingeschakeld voor een virtuele rapportsuite:
 
 * Er verschijnt een nieuw apparaatpictogram naast de naam van de virtuele rapportsuite. Dit pictogram is exclusief voor virtuele rapportsuites op meerdere apparaten.
 * Er is een nieuwe dimensie beschikbaar met de naam &#39;Identified State&#39;. Deze dimensie bepaalt of de Experience Cloud-id op die hit bekend is door de apparaatgrafiek op dat moment.
