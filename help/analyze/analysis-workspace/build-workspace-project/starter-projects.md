@@ -3,7 +3,7 @@ description: 'null'
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 U kunt kiezen of u een project wilt maken van:
 
 * **Leeg project (standaard)**: Zie Een Analysis Workspace-project [](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)maken voor instructies.
-* **Standaardsjabloon**: Deze sjablonen zijn gemaakt door Adobe en worden samen met het product verzonden.
+* **Standaardsjabloon**: Deze sjablonen worden gemaakt door Adobe en worden samen met het product verzonden.
 * **Aangepaste sjabloon**: Deze sjablonen kunnen worden gemaakt, gedeeld of verwijderd door gebruikers met beheerdersrechten of door niet-beheerders, op voorwaarde dat hun de [!UICONTROL Analysis Workspace: Save as Template] machtiging is verleend in de Admin Console. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
@@ -73,7 +73,7 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 >
 >Advertentiesjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor Advertising Cloud.
 
-* **Motoren voor betaald zoeken**: In deze sjabloon worden onder andere de advertentietrends, advertentieplatoren, trefwoorden, accounts, campagnes en meer afgebroken.
+* **Motoren voor betaald zoeken**: In deze sjabloon worden onder andere de advertentietrends, advertentieplatoren, trefwoorden, accounts, campagnes en nog veel meer onderverdeeld.
 
 ### Commerce
 
@@ -125,23 +125,23 @@ Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde ver
 * Vergelijk de totalen van het apparaattype die uw klanten gebruiken
 * Zie hoeveel gemiddelde apparaten per persoon worden gebruikt.
 * Ontdek hoe u segmenten kunt stapelen met de metrische modus Personen.
-* Onderzoek hoe het gebruiken van identiteitskaart van Experience Cloud in uw milieu de doeltreffendheid van de metrische Mensen verbetert.
+* Onderzoek hoe het gebruiken van identiteitskaart van de Experience Cloud in uw milieu de doeltreffendheid van de metrische Mensen verbetert.
 
 ### Reis-IQ: Sjabloon voor apparaatanalyse
 
-<!-->This content is mirrored in the CDA doc.<-->
+<!--This content is mirrored in the CDA doc.-->
 
-Met deze sjabloon kunt u essentiële gegevens over de prestaties van verschillende apparaten bekijken. Het is alleen beschikbaar voor klanten die toegang hebben tot [Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA).
+Met deze sjabloon kunt u essentiële gegevens over de prestaties van verschillende apparaten bekijken. Deze service is alleen beschikbaar voor klanten die toegang hebben tot [Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA).
 
 * **Bijzondere notitie voor de leden van de coopgrafiek**: Toont welk gedeelte van uw rapportreeks bezoekers in gebieden bevat waar de co-op grafiek wordt gesteund, en gebieden waar het niet wordt gesteund.
-* **Identificatie van gebruikers**: Hiermee kunt u zien hoe vaak bezoekers van uw site worden geïdentificeerd met methoden die zijn gebaseerd op Analytics voor verschillende apparaten.
+* **Identificatie van gebruikers**: Hiermee kunt u zien hoe vaak bezoekers van uw site worden geïdentificeerd met methoden die zijn gebaseerd op Apparaatanalyse.
 * **Grootte** publiek meten: Geeft een vergelijking van &#39;Unieke apparaten&#39; in vergelijking met &#39;Mensen&#39;. Het aandeel van deze twee getallen wordt &#39;apparaatcompressie&#39; genoemd, een berekende metrische waarde die zichtbaar is in dit deelvenster. Deze compressiemetrie is afhankelijk van een groot aantal factoren:
    * **De grafiek** Coop of Privé gebruiken: In het algemeen zien organisaties die het apparaatco-op gebruiken doorgaans betere compressiesnelheden dan organisaties die de persoonlijke grafiek gebruiken.
-   * **Aanmeldfrequentie**: Hoe meer gebruikers zich aanmelden op uw site, des te meer Adobe bezoekers kan identificeren en vastzetten op verschillende apparaten. Sites met een lage aanmeldingsfrequentie hebben ook een lage compressiesnelheid.
+   * **Aanmeldfrequentie**: Hoe meer gebruikers zich aanmelden op uw site, hoe meer Adobe bezoekers op verschillende apparaten kan identificeren en aanhechten. Sites met een lage aanmeldingsfrequentie hebben ook een lage compressiesnelheid.
    * **Experience Cloud ID-dekking**: Alleen bezoekers met een ECID kunnen worden aangesloten. Een lager percentage bezoekers van uw site met een ECID correleert met lagere compressiesnelheden.
    * **Meerdere apparaatgebruik**: Als bezoekers van uw site niet meerdere apparaten gebruiken, ziet u lagere compressiesnelheden.
    * **Korreligheid** rapporteren: Compressie per dag is doorgaans kleiner dan compressie per maand of jaar. De kansen voor een individu om veelvoudige apparaten te gebruiken worden kleiner binnen één enkele dag dan over een volledige maand. Het segmenteren, het filtreren, of het gebruiken van breekdimensies kunnen een lagere compressiesnelheid ook tonen.
 * **Op personen gebaseerde segmenten**: Bevat een segmentvervolgkeuzelijst waarmee u apparaatspecifieke gegevens kunt weergeven. In dit deelvenster kunt u beter experimenteren met segmenten om te zien hoe het opnemen of uitsluiten van apparaattypen van invloed is op rapporten.
 * **Analyseren van de reis** tussen apparaten: Verstrekt stroom en reserverapporten die op apparatentype worden gebaseerd.
-* **Apparaatattributie**: Combineer de eigenschappen van Reis IQ en Attribution IQ samen.
+* **Apparaatattributie**: Combineer de functies van Reis IQ en Attribution IQ.
 * **Overige tips en trucs**: Nuttige onderwerpen rond CDA die u meer uit het gebruiken van het laten komen.
