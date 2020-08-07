@@ -2,9 +2,9 @@
 title: Veelgestelde vragen over marketingkanalen
 description: Veelgestelde vragen over marketingkanalen.
 translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1427'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Dit soort regel dient als catch-all om ervoor te zorgen dat het kanaalverkeer al
 
 ## Redenen voor intern (Sessie vernieuwen) {#internal}
 
-Vernieuwen van laatste aanraaksessie kan alleen plaatsvinden als dit ook de eerste aanraking was. Zie &quot;Verhouding tussen eerste en laatste aanraking&quot; hierboven. In de onderstaande scenario&#39;s wordt uitgelegd hoe Zitting vernieuwen een eersteklas kanaal kan zijn.
+Interne laatste aanraking (Sessie vernieuwen) kan alleen optreden als dit ook de eerste aanraking was. Zie &quot;Verhouding tussen eerste en laatste aanraking&quot; hierboven. In de onderstaande scenario&#39;s wordt uitgelegd hoe Zitting vernieuwen een eersteklas kanaal kan zijn.
 
 * **Time-out** sessie: Een bezoeker komt naar de website en laat het tabblad vervolgens open in zijn browser om op een latere datum te gebruiken. De periode van de betrokkenheid van de bezoeker verloopt (of ze verwijderen hun cookies vrijwillig) en ze gebruiken het tabblad Openen om de website opnieuw te bezoeken. Aangezien de verwijzende URL een intern domein is, wordt het bezoek geclassificeerd als Sessie vernieuwen.
 
@@ -85,9 +85,15 @@ Vernieuwen van laatste aanraaksessie kan alleen plaatsvinden als dit ook de eers
 
 * **Domeinoverschrijdend verkeer**: Een bezoeker beweegt zich van één domein dat aan Reeks A, aan een tweede domein in brand steekt dat aan Reeks B. Als de interne URL-filters in Suite B het eerste domein bevatten, wordt het bezoek in Suite B geregistreerd als Intern, omdat Marketing Channels het als een nieuw bezoek in de tweede suite zien. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
-( **Lange laadtijden** van invoerpagina: Een bezoeker landt op pagina A die zwaar is op inhoud, en de code van Adobe Analytics wordt gevestigd bij de bodem van de pagina. Voordat alle inhoud (inclusief Adobe Analytics-afbeeldingsaanvraag) kan worden geladen, klikt de bezoeker op Pagina B. Pagina B activeert de Adobe Analytics-afbeeldingsaanvraag. Aangezien de afbeeldingsaanvraag van Pagina A nooit is geladen, wordt de tweede pagina weergegeven als de eerste hit van het bezoek in Adobe Analytics, met Pagina A als de referentie. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
+* **Lange laadtijden** van invoerpagina: Een bezoeker landt op pagina A die zwaar is op inhoud, en de code van Adobe Analytics wordt gevestigd bij de bodem van de pagina. Voordat alle inhoud (inclusief Adobe Analytics-afbeeldingsaanvraag) kan worden geladen, klikt de bezoeker op Pagina B. Pagina B activeert de Adobe Analytics-afbeeldingsaanvraag. Aangezien de afbeeldingsaanvraag van Pagina A nooit is geladen, wordt de tweede pagina weergegeven als de eerste hit van het bezoek in Adobe Analytics, met Pagina A als de referentie. Het bezoek wordt geclassificeerd als Sessie vernieuwen.
 
 * **Cookies wissen halverwege de site**: Een bezoeker komt naar de site en halverwege de sessie worden de cookies gewist. Zowel eerste als laatste aanraakkanalen worden opnieuw ingesteld en het bezoek wordt geclassificeerd als Sessie vernieuwen (omdat de referentie intern zou zijn).
+
+Hieronder ziet u een voorbeeld van de instelling Internal (Session refresh), zowel voor de eerste als voor de laatste aanraakkanalen:
+
+* Dag 1: Gebruiker komt naar de site op Weergave. Het eerste en laatste aanraakkanaal worden ingesteld op Weergave.
+* Dag 2: Gebruiker komt naar de site voor natuurlijk zoeken. First-touch blijft Display en Last touch is ingesteld op Natuurlijk zoeken.
+* Dag 35: De gebruiker is niet in 33 dagen naar de site geweest en komt terug met het tabblad dat hij of zij in de browser had geopend. Ervan uitgaande dat het venster 30 dagen lang geldig is, zou het venster gesloten zijn en zouden de marketingkanaalcookies verlopen zijn. Het eerste aanraak- en laatste aanraakkanaal wordt opnieuw ingesteld en wordt ingesteld op Sessie vernieuwen nadat de gebruiker van een interne URL is gekomen.
 
 ## Waarom zijn sommige kanalen onveranderd na het veranderen van de regels van de kanaalverwerking van de Marketing?
 
