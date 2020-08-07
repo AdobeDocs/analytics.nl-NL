@@ -3,10 +3,10 @@ description: U kunt opgeslagen en niet-opgeslagen projecten downloaden in PDF- e
 title: PDF- of CSV-bestanden downloaden
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
+source-git-commit: 3660806bc25b2a234c4f694cf5e661f4e23d5cac
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '344'
+ht-degree: 3%
 
 ---
 
@@ -37,6 +37,6 @@ Op 11 april 2019 zijn er verschillende wijzigingen aangebracht in **[!UICONTROL 
 * Als een getal ongeldig is, wordt een lege cel weergegeven.
 * Er wordt geen afronding toegepast (zelfs niet als dit in berekende metrieke waarden is opgegeven) - onbewerkte waarden worden weergegeven.
 
->[!NOpmerking:]
+>[!NOTE]
 >
-> Numerieke waarden die een komma als decimaalteken gebruiken, blijven in het geëxporteerde CSV-bestand worden vermeld.
+>Numerieke waarden die een komma als decimaalteken gebruiken, blijven in het geëxporteerde CSV-bestand worden vermeld.
