@@ -1,8 +1,8 @@
 ---
-description: Systeemvereisten en een vergelijking van Analysis Workspace, Reports & Analytics, Ad hoc analysis, Report Builder, Data warehouse en Data Workbench
+description: Systeemvereisten en een vergelijking van Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse en Data Workbench
 title: Analytics-productvergelijking en -vereisten
 translation-type: tm+mt
-source-git-commit: f3fa1cfd718339e58764bf4b39b07ccf2eae12c3
+source-git-commit: 3a822c1c52a072f92a402810ec643a499c81b76d
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 39%
@@ -12,15 +12,15 @@ ht-degree: 39%
 
 # Analytics-productvergelijking en -vereisten
 
-Deze pagina bevat een vergelijking van verschillende Adobe Analytics-producten: Analysis Workspace, Reports &amp; Analytics, Report Builder, Data warehouse, Data Workbench, Data Feeds en Analytics API 2.0.
+Deze pagina bevat een vergelijking van verschillende Adobe Analytics-producten: Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds en Analytics API 2.0.
 
 Ga [hier](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)voor meer informatie over welk Adobe Analytics-product u wilt gebruiken.
 
-| Productnaam en Help-koppeling | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Rapporten en Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) | [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Productnaam en Help-koppeling | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Rapporten en analyses](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) | [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analyse API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
 | **Toegangsmethode** | [Browser](/help/admin/sys-reqs.md) | [Browser](/help/admin/sys-reqs.md) | [MS Excel voor Windows](/help/analyze/report-builder/setup/system-requirements.md) | Opstelling door browser. [Meer informatie](/help/admin/sys-reqs.md) | [Windows 64-bits](https://docs.adobe.com/content/help/en/data-workbench/using/install/c-data-workbench-client-install.html) | Opstelling door browser. [Meer informatie](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API-gereedschappen. Aanmelden met Adobe I/O-referenties. [Meer informatie](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **Korreligheid gegevens** | Samengevoegd | Samengevoegd | Samengevoegd | Samengevoegd | Actief | Actief | Samengevoegd |
-| **Extension Cloud ID (ECID) beschikbaar** | Nee | Nee | Nee | Ja | Ja | Ja | Nee |
+| **Experience Cloud-id (ECID) beschikbaar** | Nee | Nee | Nee | Ja | Ja | Ja | Nee |
 | **Tijdstempel beschikbaar** | Nee | Nee | Nee | Nee | Ja | Ja | Nee |
 | **Niveau van verwerking** | Volledig verwerkt | Volledig verwerkt, met apart [real-time rapport](/help/components/c-real-time-reporting/realtime.md) | Volledig verwerkt, met apart [real-time rapport](/help/components/c-real-time-reporting/realtime.md) | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt |
 | **Gegevens van het filter Admin bot inbegrepen** <br> [Meer informatie](/help/admin/admin/bot-removal/bot-removal.md) | Nee | Ja, afzonderlijke beide rapporten | Ja, afzonderlijke beide rapporten | Nee | Nee | Nee | Nee |
