@@ -1,50 +1,24 @@
 ---
-description: U kunt projecten delen en beheren en projectbestanden (in PDF- of CSV-indeling) direct of volgens een schema verzenden.
+description: U kunt PDF/CSV-projecten beheren, delen en plannen voor ontvangers in uw organisatie.
 title: Menu Delen
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
+source-git-commit: 63efd2f046ac43640a9dd0fe2b3ee9fa3f182a8f
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 0%
+source-wordcount: '170'
+ht-degree: 17%
 
 ---
 
 
 # Menu Delen
 
-U kunt projecten delen en beheren en projectbestanden (in PDF- of CSV-indeling) direct of volgens een schema verzenden.
+U kunt PDF/CSV-projecten beheren, delen en plannen voor ontvangers in uw organisatie in het menu **Werkruimte** delen.
 
-**[!UICONTROL Workplace]** > **[!UICONTROL Share]**
-
-<table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Optie </th> 
-   <th colname="col2" class="entry"> Procedure </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Project delen </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > Meer informatie</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Projectkoppeling ophalen </td> 
-   <td colname="col2"> <p>Kopieer en deel de koppeling om anderen rechtstreeks naar dit project te sturen. Gebruikers moeten zich aanmelden. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bestand nu verzenden </td> 
-   <td colname="col2"> <p>Geef het bestandstype, de beschrijving en de ontvangers op. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Bestand verzenden volgens schema </td> 
-   <td colname="col2"> <p>Geef de begindatum, het interval en de frequentie en de einddatum op. <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > Meer informatie</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Cursieve projectgegevens </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Meer informatie</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Menuoptie | Beschrijving |
+|---|---|
+| Project delen | Een project beschikbaar stellen voor andere Analysis Workspace-gebruikers in uw organisatie. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Projectkoppeling ophalen | Creeer een deelbare verbinding voor snelle toegang tot een project. Gebruikers moeten zich aanmelden. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) |
+| Bestand nu verzenden | Verzend een project als CSV of PDF onmiddellijk naar gespecificeerde ontvangers. |
+| Bestand verzenden volgens schema | Een project volgens een schema als CSV of PDF verzenden naar opgegeven ontvangers. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html) |
+| Cursieve projectgegevens | Beperk de componenten (afmetingen, metriek, segmenten, datumwaaiers) beschikbaar in een project. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html) |
