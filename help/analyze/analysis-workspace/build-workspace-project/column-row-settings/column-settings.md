@@ -3,28 +3,28 @@ description: Met kolominstellingen kunt u kolomopmaak configureren, waarvan somm
 title: Kolominstellingen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: dd14c576a6c447026c2389a864afce16e6bdc77d
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 1%
+source-wordcount: '614'
+ht-degree: 23%
 
 ---
 
 
-# Kolominstellingen
+# [!UICONTROL Column Settings]
 
-Met kolominstellingen kunt u kolomopmaak configureren, waarvan sommige voorwaardelijk kunnen zijn.
+[!UICONTROL Column Settings] Laat u kolom het formatteren vormen, wat waarvan voorwaardelijk kan zijn.
 
-## Kolominstellingen {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
+## Bewerken [!UICONTROL Column Settings] {#column-settings}
 
 Als u toegang wilt krijgen [!UICONTROL Column Settings], sleept u een tabel voor vrije vorm naar het project en klikt u op het tandwielpictogram in de kolomkop.
 
 ![](assets/column_settings.png)
 
-U kunt instellingen **voor meerdere kolommen tegelijk** bewerken. Selecteer enkel veelvoudige kolommen en klik het montagespictogram van om het even welk van die kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle kolommen met daarin geselecteerde cellen.
+U kunt instellingen **voor meerdere kolommen tegelijk** bewerken. Dit is heel eenvoudig: selecteer meerdere kolommen en klik op het instellingenpictogram van een van de kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle kolommen waarin u cellen hebt geselecteerd.
 
 | Element | Beschrijving |
-|--- |--- |
+| --- | --- |
 | Getal | Hiermee wordt bepaald of in een cel de numerieke waarde voor de metrische waarde wordt weergegeven of verborgen. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
 | Percentage | Bepaalt of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem gedeeld door de totale paginaweergaven voor de kolom.  Opmerking:  We kunnen percentages van meer dan 100 procent laten zien, om nauwkeuriger te zijn. We verplaatsen het bovenste gebonden plafond ook naar 1000% om ervoor te zorgen dat kolommen te groot kunnen worden. |
 | Anomalies | Hiermee wordt bepaald of de waarden in deze kolom een anomaliedetectie uitvoeren. |
@@ -35,33 +35,30 @@ U kunt instellingen **voor meerdere kolommen tegelijk** bewerken. Selecteer enke
 | Voorwaardelijke opmaak | Zie de onderstaande paragraaf. |
 | Voorvertoning tabelcel | Toont een voorproef van hoe elke cel met de momenteel geselecteerde opmaakopties wordt getoond. |
 
-
-## Voorwaardelijke opmaak {#section_3DD847151DA14914888A70FC4FD7BDFB}
+## Conditional formatting {#conditional-formatting}
 
 Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en onderste limieten die u kunt definiëren. Het toepassen van voorwaardelijke opmaak (kleuren, enz.) in Freeform-tabellen wordt ook automatisch ingeschakeld voor onderverdelingen, tenzij &quot;Aangepaste&quot; limieten zijn geselecteerd.
 
 ![](assets/conditional-formatting.png)
 
 | Element | Beschrijving |
-|--- |--- |
-| Voorwaardelijke opmaak | Past de volgende kleuren op cellen toe, die op gegevenswaarden worden gebaseerd: <ul><li>Groen: hoge waarden</li><li>Geel: middenpuntwaarden</li><li>Rood: lage waarden</li></ul><br>Als u een dimensie in de tabel vervangt, worden de limieten voor voorwaardelijke opmaak opnieuw ingesteld. Wanneer u een metrische waarde vervangt, worden de grenswaarden voor die kolom opnieuw berekend (wanneer een metrische waarde zich op de X-as bevindt en een dimensie zich op de Y-as bevindt). |
-| Percentagelimieten gebruiken | Hiermee kunt u de bovenste, middelste en onderste limieten gebruiken op basis van percentagewaarden voor elke meting. Dit werkt voor metriek die uitsluitend op percentage-gebaseerd (zoals het Tarief van de Stuiting) evenals voor metriek zijn die een telling en een percentage (zoals de Weergaven van de Pagina. hebben) |
-| Automatisch gegenereerd | Hiermee worden automatisch limieten voor voorwaardelijke opmaak gegenereerd. De bovengrens is de hoogste waarde in deze kolom. De ondergrens is de laagste en het middelpunt is het gemiddelde van de boven- en ondergrens. |
-| Aangepast | U kunt de waarden voor de velden Boven, Middelpunt en Ondergrens handmatig toewijzen voor voorwaardelijke opmaak. Dit geeft u de flexibiliteit om te bepalen wanneer een kolomwaarde goed, gemiddeld, of slecht wordt. |
-| Voorvertoning tabelcel | Toont een voorproef van hoe elke cel met de momenteel geselecteerde opmaakopties wordt getoond. |
+| --- | --- |
+| Voorwaardelijke opmaak | Hiermee worden de volgende kleuren toegepast op cellen, op basis van datawaarden worden: <ul><li>Groen: hoge waarden</li><li>Geel: middelpuntwaarden</li><li>Rood: lage waarden</li></ul> <br> Als u een dimensie in de tabel vervangt, worden de limieten voor voorwaardelijke opmaak opnieuw ingesteld. Wanneer u een metric vervangt, worden de limieten voor die kolom opnieuw berekend (waarbij de metric op de X-as staat en de dimensie op de Y-as). |
+| Percentagelimieten gebruiken | Wijzig het limietbereik zodat dit op percentages wordt gebaseerd in plaats van op absolute waarden. Dit werkt voor metriek die uitsluitend op percentage-gebaseerd (zoals het Tarief van de Stuiting) evenals voor metriek zijn die een telling en een percentage (zoals de Weergaven van de Pagina. hebben) |
+| Automatisch genereren | Berekent automatisch de bovenste/middelste/onderste limieten op basis van de gegevens. De bovengrens is de hoogste waarde in deze kolom. De ondergrens is de laagste en het middelpunt is het gemiddelde van de boven- en ondergrens. |
+| Aangepast | Handmatig bovenste/middelste/onderste limieten toewijzen. Dit biedt u de flexibiliteit om te bepalen wanneer een kolomwaarde goed, gemiddeld, of slecht wordt. |
 
-## Niet-standaard toewijzingsmodel gebruiken
+## Niet-standaard toewijzingsmodel gebruiken {#attribution}
 
-De Werkruimte van de analyse steunt [attributie](../../attribution/overview.md) voor bijna om het even welke metrisch.
+Analysis Workspace ondersteunt [attributie](../../attribution/overview.md) voor bijna elke metrische waarde.
 
 1. Klik op het pictogram Instellingen (versnelling) in een kolom Tabel vrije vorm.
 
    ![Selectievakje voor kenmerken](assets/attribution-checkbox.png)
 
-2. Onder **[!UICONTROL Data Settings]**, controleer **[!UICONTROL Use non-default attribution model]**. Zie [Attributiemodellen](../../attribution/models.md)voor meer informatie over verschillende attributiemodellen.
+1. Onder **[!UICONTROL Data Settings]**, controleer **[!UICONTROL Use non-default attribution model]**. Zie [Attributiemodellen](../../attribution/models.md)voor meer informatie over verschillende attributiemodellen.
 
    ![Kenmerkingsmodel selecteren](assets/attribution-select.png)
-
 
 >[!MORELIKETHIS]
 >
