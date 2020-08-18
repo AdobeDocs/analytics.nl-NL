@@ -6,7 +6,7 @@ title: Toestemmingen voor rapportsuitetools
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 9%
@@ -35,8 +35,8 @@ De instellingen op deze pagina hebben betrekking op de rapportsuites die op de [
 | Element | Beschrijving |
 |--- |--- |
 | **Webservices** |  |
-| Met deze instellingen kunnen gebruikers de methode Data warehouse aanroepen en de instellingen van de rapportsuite ophalen. |  |
-| Data Warehouse | Staat een niet-admin gebruiker toe om vraag te maken gebruikend de methodes van de Data warehouse via de Diensten API van het Web. Zie [Data warehouse - Documentatie voor ontwikkelaars](/help/export/data-warehouse/data-warehouse.md) |
+| Deze montages laten gebruikers toe om vraag aan de methode van de Data Warehouse te maken en de montages van de rapportreeks te trekken. |  |
+| Data Warehouse | Staat een niet-admin gebruiker toe om vraag te maken gebruikend de methodes van de Data Warehouse via de Diensten API van het Web. Zie [Data Warehouse - Documentatie voor ontwikkelaars](/help/export/data-warehouse/data-warehouse.md) |
 | Rapportsets (lezen) | Staat een niet-admin gebruiker toe om de methodes van de rapportreeks in API te gebruiken. |
 | Rapportsets (schrijven) | Staat een niet-admin gebruiker toe om de methodes van de rapportreeks in API te gebruiken. |
 | **Rapportbeheer** |  |
@@ -48,7 +48,7 @@ De instellingen op deze pagina hebben betrekking op de rapportsuites die op de [
 | [Aangepaste kalender](/help/admin/admin/custom-calendar.md) | Hiermee geeft u toestemming om een aangepaste kalender te bewerken. |
 | [Betaalde zoekopdracht](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) | Met Betaalde zoekdetectie wordt onderscheid gemaakt tussen betalingen en natuurlijke zoekopdrachten in de rapporten Zoekprogramma&#39;s en Trefwoorden zoeken. |
 | [Aanpassing menu](/help/admin/admin/customize-menus.md) | Pas de rapportmenu&#39;s aan die een gebruiker in Rapporten &amp; Analytics ziet. |
-| [Configuratie in realtime rapport](/help/admin/admin/realtime/t-realtime-admin.md) | Machtigingen om real-time rapporten in te stellen Analytics. |
+| [Configuratie in realtime rapport](/help/admin/admin/realtime/t-realtime-admin.md) | Machtigingen voor het instellen van realtime rapporten Analytics. |
 | [Video-instellingen](/help/admin/admin/video-management.md) | Machtigingen om een set aangepaste conversievariabelen (eVars) en aangepaste gebeurtenissen aan te wijzen voor gebruik bij het bijhouden en rapporteren van video. |
 | [Video-classificaties](https://docs.adobe.com/content/help/nl-NL/media-analytics/using/media-overview.html) | Toestemming om een reeks Variabelen van de Omzetting van de Douane (eVars) en de Gebeurtenissen van de Douane voor gebruik in het volgen en het melden van video aan te wijzen. |
 | [Verkeersvariabelen](/help/admin/admin/c-traffic-variables/traffic-var.md) | Toestemming om douanegegevens met specifieke op verkeer betrekking hebbende gebeurtenissen te correleren. |
@@ -60,7 +60,7 @@ De instellingen op deze pagina hebben betrekking op de rapportsuites die op de [
 | [Conversie-classificaties](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | Geconsolideerd in classificaties (onder Gereedschappen en Rapporten). |
 | [Unieke bezoeker](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Hiermee geeft u toestemming om de variabele Unieke bezoeker op te geven. |
 | [Gebeurtenissen geslaagd](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) | Handelingen die kunnen worden bijgehouden, zoals productweergave, kassa en aankoop. |
-| [Classificatiehiërarchieën](/help/components/classifications/classification-hierarchies.md) | Geconsolideerd in classificaties (onder Gereedschappen en Rapporten). |
+| [Classificatiehiërarchieën](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | Geconsolideerd in classificaties (onder Gereedschappen en Rapporten). |
 | [Variabelen weergeven](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) | Wordt ook wel List Var genoemd. Net als bij de werking van List Props staan List Vars meerdere waarden binnen dezelfde afbeeldingsaanvraag toe. |
 | [Standaardwaarden](/help/admin/admin/default-metrics.md) | Rapporten &amp; Analytics toont een standaardreeks metriek in alle omzettingsrapporten, tenzij een gebruiker een douaneset van metriek selecteert. De geselecteerde metriekvertoning voor alle gebruikers van de bijbehorende rapportreeks. |
 | [Verwerkingsregels](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Biedt toegang tot verwerkingsregels, die gegevensverzameling vereenvoudigen en inhoud beheren terwijl deze naar rapporten wordt verzonden. |
@@ -68,20 +68,20 @@ De instellingen op deze pagina hebben betrekking op de rapportsuites die op de [
 | [Anomaliedetectie](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Verleent toestemming aan Anomaly Detection, die een statistische methode verstrekt om te bepalen hoe bepaalde metrisch met betrekking tot vorige gegevens is veranderd. |
 | [Kanaalrapport](/help/components/c-marketing-channels/analyze-mc.md) | Hiermee geeft u toestemming aan marketingkanaalrapporten, die u vindt in Rapporten > Marketingkanaalrapporten. |
 | [Rapport in realtime](/help/admin/admin/realtime/t-realtime-admin.md) | Verleent toegang tot het Echt - tijdRapport. |
-| [Beide pagina&#39;s](/help/admin/admin/bot-removal/bot-rules.md) | **Opmerking: Beide pagina&#39;s zijn bedoeld voor specifieke rapporten en Analytics-rapporten, niet voor het beheer van beide regels. Momenteel is er geen toestemming om beide regels te bewerken.** Met beide regels kunt u verkeer verwijderen dat wordt gegenereerd door bekende spinnen en bots uit uw rapportsuite. Door beide verkeer te verwijderen, kunt u de gebruikersactiviteit op uw website nauwkeuriger meten. |
-| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Opmerking: Bots zijn bedoeld voor specifieke rapporten en Analytics-rapporten, niet voor het beheren van beide regels. Momenteel is er geen toestemming om beide regels te bewerken.** De dozen laten u verkeer verwijderen dat door bekende spinnen en bots uit uw rapportreeks wordt geproduceerd. Door beide verkeer te verwijderen, kunt u de gebruikersactiviteit op uw website nauwkeuriger meten. |
-| [Aangepast Data warehouse-rapport](/help/export/data-warehouse/data-warehouse.md) | Data warehouse verwijst naar de kopie van onbewerkte, onverwerkte gegevens voor opslag en aangepaste rapporten, die u kunt uitvoeren door de gegevens te filteren. U kunt rapporten vragen om geavanceerde gegevensrelaties van onbewerkte gegevens weer te geven op basis van uw unieke vragen. |
+| [Beide pagina&#39;s](/help/admin/admin/bot-removal/bot-rules.md) | **Opmerking: Beide pagina&#39;s zijn bedoeld voor specifieke rapporten en analyses, niet voor het beheer van beide regels. Momenteel is er geen toestemming om beide regels te bewerken.** Met beide regels kunt u verkeer verwijderen dat wordt gegenereerd door bekende spinnen en bots uit uw rapportsuite. Door beide verkeer te verwijderen, kunt u de gebruikersactiviteit op uw website nauwkeuriger meten. |
+| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Opmerking: Bots zijn bedoeld voor specifieke rapporten en analytische rapporten, niet voor het beheer van beide regels. Momenteel is er geen toestemming om beide regels te bewerken.** De dozen laten u verkeer verwijderen dat door bekende spinnen en bots uit uw rapportreeks wordt geproduceerd. Door beide verkeer te verwijderen, kunt u de gebruikersactiviteit op uw website nauwkeuriger meten. |
+| [Rapport aangepaste Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | Het entrepot van gegevens verwijst naar het exemplaar van ruwe, onverwerkte gegevens voor opslag en douanerapporten, die u kunt lopen door de gegevens te filtreren. U kunt rapporten vragen om geavanceerde gegevensrelaties van onbewerkte gegevens weer te geven op basis van uw unieke vragen. |
 | Dagelijkse terugkeerbezoeken | (Verouderd) Rapport waarin het aantal bezoekers van uw website meer dan één keer op een bepaalde dag wordt weergegeven. Een dag wordt gedefinieerd als de laatste periode van 24 uur. |
-| [Gegevensbronbeheer](/help/admin/admin/data-sources.md) | Met de functie Gegevensbronnen kunt u gegevens importeren naar Analytics vanuit offlinebronnen. |
+| [Gegevensbronbeheer](/help/admin/admin/data-sources.md) | Met de functie Gegevensbronnen kunt u gegevens uit offlinebronnen importeren naar Analytics. |
 | [Exclusief door IP Adres](/help/admin/admin/exclude-ip.md) | U kunt gegevens van specifieke IP adressen, zoals interne website activiteiten, plaats het testen en werknemersgebruik, van uw rapporten uitsluiten. |
 | Oudere ClickMap | Hiermee krijgt u toegang tot het menu voor het oudere ClickMap-overlaygereedschap. |
 | Oudere installatie van Clickmap | Hiermee verleent u installatierechten aan het oudere ClickMap. |
 | Terugkerende bezoeken | Een verslag waarin het aantal bezoeken wordt vermeld wanneer het bezoeknummer groter is dan 1. In het rapport Retour Visits zijn niet-gekookte bezoekers opgenomen. |
 | [Classificaties Importeur](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) /Exporter en [Rule Builder](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Geconsolideerd in classificaties (zie hieronder). |
-| Data feeds Manager | Rechten worden toegekend aan de Analytics Data Feed. |
+| Data feeds Manager | Hiermee worden rechten toegekend aan de gegevensfeed Analytics. |
 | Classificaties | Combineert de volgende machtigingen: &#39;Verkeersclassificaties&#39;, &#39;Video Classifications&#39;, &#39;Conversion Classifications&#39;, &#39;Classification Hierarchies&#39;, &#39;Classifications Manager&#39; en &#39;Classifications Importer/Exporter &amp; Rule Builder&#39;.  Opmerking:  Met deze toestemming, geven de gebruikers classificaties voor alle rapportreeksen uit, niet alleen geselecteerde één/s. |
 | [Contributieanalyse](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Rechten op het gebruik van bijdrageanalyse in Analysis Workspace worden toegekend. |
 | **Dashboarditems** |  |
-| Met de instellingen in Dashboard-items hebt u toegang tot [rapporten](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) in Rapporten en Analytics:, Mijn aanbevolen rapporten, Bedrijfsoverzichtsrapport, Afbeelding, KPI/Gage-rapport, Totalen rapportsuite, Tekst, Rapportering, Gebruiksoverzicht-rapport en Webbronnen |  |
+| De instellingen in Dashboard-items maken toegang mogelijk tot [rapporten](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) in Rapporten en Analyse:, Mijn aanbevolen rapporten, Samenvattingsrapport van bedrijf, Afbeelding, KPI/Gage-rapport, Totalen van de rapportsuite, Tekst, Rapportering, Overzichtsrapport van gebruik en Webbronnen |  |
 | **Overige** |  |
 | Sociaal | Controls access to the Social Management menu in the Report Suite Manager. |
