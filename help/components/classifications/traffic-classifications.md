@@ -5,7 +5,7 @@ title: Traffic-classificaties
 topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Verkeersclassificaties maken het mogelijk verkeersvariabelen (props) te classifi
 
 Met de pagina Verkeersclassificaties kunt u classificaties maken voor de geselecteerde rapportsuites. Zodra geclassificeerd, kan om het even welk rapport dat u het gebruiken van de zeer belangrijke gegevens kunt produceren ook worden geproduceerd gebruikend de bijbehorende attributen.
 
-Nadat classificaties zijn ingeschakeld, gebruikt u [Classificatieimportmodule](/help/components/classifications/c-classifications-importer/c-working-with-saint.md) om specifieke waarden aan de juiste classificatie toe te wijzen.
+Nadat classificaties zijn ingeschakeld, gebruikt u [Classificatieimportmodule](/help/components/classifications/importer/c-working-with-saint.md) om specifieke waarden aan de juiste classificatie toe te wijzen.
 
 ## Een verkeersclassificatie toevoegen {#task_4DB49CCB1D764483907BC33A5CEB7315}
 
