@@ -3,12 +3,12 @@ description: Verkeersclassificaties maken het mogelijk verkeersvariabelen (props
 subtopic: Classifications
 title: Traffic-classificaties
 topic: Admin tools
-uuid: fec2f725-7aa9-4985-b8a9-f21b0b3e995c
+uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '170'
+ht-degree: 7%
 
 ---
 
@@ -17,6 +17,35 @@ ht-degree: 4%
 
 Verkeersclassificaties maken het mogelijk verkeersvariabelen (props) te classificeren. Verkeersclassificaties kunnen alleen tekstclassificaties gebruiken.
 
+## Traffic-classificaties {#concept_028079B29A9C412AA68910A87E11176F}
+
+Verkeersclassificaties maken het mogelijk verkeersvariabelen (props) te classificeren. Verkeersclassificaties kunnen alleen tekstclassificaties gebruiken.
+
 Met de pagina Verkeersclassificaties kunt u classificaties maken voor de geselecteerde rapportsuites. Zodra geclassificeerd, kan om het even welk rapport dat u het gebruiken van de zeer belangrijke gegevens kunt produceren ook worden geproduceerd gebruikend de bijbehorende attributen.
 
 Nadat classificaties zijn ingeschakeld, gebruikt u [Classificatieimportmodule](/help/components/classifications/importer/c-working-with-saint.md) om specifieke waarden aan de juiste classificatie toe te wijzen.
+
+## Een verkeersclassificatie toevoegen {#task_4DB49CCB1D764483907BC33A5CEB7315}
+
+<!-- 
+
+t_classification_add_traffic.xml
+
+ -->
+
+Stappen die beschrijven hoe te om classificaties voor de geselecteerde rapportreeksen toe te voegen of uit te geven.
+
+1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** in de koptekst van de Intel Health Care Management Suite.
+1. Een rapportsuite selecteren.
+1. Selecteer in het **[!UICONTROL Select Classification Type]** veld de variabele waaraan u een classificatie wilt toevoegen.
+1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Classifications]**.
+
+   ![Stapinfo](../assets/traffic-classification.png)
+
+1. Plaats de muis boven het **[!UICONTROL Edit Classification]** pictogram en selecteer **[!UICONTROL Add Classification]** of **[!UICONTROL Edit Classification]**.
+1. Configureer de classificatie naar wens in het **[!UICONTROL Text Classification]** dialoogvenster:
+
+   **[!UICONTROL Name:]** Geef de classificatienaam op.
+
+   **[!UICONTROL Description]**: Geef een gedetailleerdere beschrijving.
+1. Klik op **[!UICONTROL Save]**.
