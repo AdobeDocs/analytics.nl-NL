@@ -1,10 +1,10 @@
 ---
-description: Data warehouse verwijst naar de kopie van Analytics-gegevens voor opslag en aangepaste rapporten, die u kunt uitvoeren door de gegevens te filteren. U kunt rapporten vragen om geavanceerde gegevensrelaties van onbewerkte gegevens weer te geven op basis van uw unieke vragen. Data warehouse-rapporten worden per e-mail verzonden of verzonden via FTP en kunnen maximaal 72 uur duren. De verwerkingstijd is afhankelijk van de complexiteit van de query en de hoeveelheid gevraagde gegevens.
+description: Het entrepot van gegevens verwijst naar het exemplaar van de gegevens van Analytics voor opslag en douanerapporten, die u kunt lopen door de gegevens te filtreren. U kunt rapporten vragen om geavanceerde gegevensrelaties van onbewerkte gegevens weer te geven op basis van uw unieke vragen. De rapporten van het gegevenspakhuis worden gemaild of via FTP verzonden, en kunnen tot 72 uren aan verwerking vergen. De verwerkingstijd is afhankelijk van de complexiteit van de query en de hoeveelheid gevraagde gegevens.
 title: Overzicht van Data Warehouse
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 1%
@@ -14,23 +14,23 @@ ht-degree: 1%
 
 # Overzicht van Data Warehouse
 
-Data warehouse verwijst naar de kopie van Analytics-gegevens voor opslag en aangepaste rapporten, die u kunt uitvoeren door de gegevens te filteren. U kunt rapporten vragen om geavanceerde gegevensrelaties van onbewerkte gegevens weer te geven op basis van uw unieke vragen. Data warehouse-rapporten worden per e-mail verzonden of verzonden via FTP en kunnen maximaal 72 uur duren. De verwerkingstijd is afhankelijk van de complexiteit van de query en de hoeveelheid gevraagde gegevens.
+Data Warehouse verwijst naar de kopie van analysegegevens voor opslag en aangepaste rapporten, die u kunt uitvoeren door de gegevens te filteren. U kunt rapporten vragen om geavanceerde gegevensrelaties van onbewerkte gegevens weer te geven op basis van uw unieke vragen. De rapporten van het gegevenspakhuis worden gemaild of via FTP verzonden, en kunnen tot 72 uren aan verwerking vergen. De verwerkingstijd is afhankelijk van de complexiteit van de query en de hoeveelheid gevraagde gegevens.
 
-Adobe laat Data warehouse voor beheerder-vlakke gebruikers, voor specifieke rapportreeksen toe. (Het kan voor globale en kindrapportsuites worden toegelaten, maar niet voor rollup rapportsuites.) De beheerder kan een groep tot stand brengen die toegang tot Data warehouse heeft, en dan gebruikers niet-beheerderniveau aan die groep associëren.
+Adobe laat Data Warehouse voor beheerder-vlakke gebruikers slechts, voor specifieke rapportreeksen toe. (Het kan voor globale en kindrapportsuites worden toegelaten, maar niet voor rollup rapportsuites.) De beheerder kan een groep tot stand brengen die toegang tot Data Warehouse heeft, en dan gebruikers niet-beheerderniveau aan die groep associëren.
 
-Data warehouse comprimeert automatisch elk bestand dat groter is dan 1 MB. De maximale grootte van e-mailbijlagen is 10 MB.
+In Data Warehouse wordt elk bestand dat groter is dan 1 MB, automatisch gecomprimeerd. De maximale grootte van e-mailbijlagen is 10 MB.
 
-Data warehouse kan een onbeperkt aantal rijen verwerken in één aanvraag voor afzonderlijke geplande en gedownloade rapporten.
+Data Warehouse kunnen een onbeperkt aantal rijen verwerken in één aanvraag voor afzonderlijke geplande en gedownloade rapporten.
 
 >[!NOTE]
 >
->Data warehouse rapporteert de eerste waarde die in de verslagperiode is aangetroffen.
+>Data Warehouse rapporteert de eerste waarde die in de verslagperiode is aangetroffen.
 
 >[!IMPORTANT]
 >
->Bij segmentering op geclassificeerde waarden behandelen Analysis Workspace en Data warehouse &#39;ongespecificeerde&#39; waarden anders. &#39;Niet opgegeven&#39; in Workspace verwijst naar waarden die niet zijn geclassificeerd, terwijl &#39;Niet opgegeven&#39; in Data warehouse verwijst naar waarden die u hebt geclassificeerd als &#39;Niet opgegeven&#39;.
+>Bij segmentering op geclassificeerde waarden behandelen Analysis Workspace en Data Warehouse &#39;ongespecificeerde&#39; waarden anders. &#39;Niet opgegeven&#39; in Workspace verwijst naar waarden die niet zijn geclassificeerd, terwijl &#39;Niet opgegeven&#39; in Data Warehouse verwijst naar waarden die u hebt geclassificeerd als &#39;Niet opgegeven&#39;.
 
-## Beschrijvingen van Data warehouse-verzoeken {#section_F21C78ED36884C389C852E876AF5CDE8}
+## Beschrijvingen van Data Warehouse-aanvragen {#section_F21C78ED36884C389C852E876AF5CDE8}
 
 In deze tabel staan de velden en opties op het [!UICONTROL Data Warehouse Request] tabblad.
 
@@ -53,15 +53,15 @@ In deze tabel staan de velden en opties op het [!UICONTROL Data Warehouse Reques
      <li id="li_4D7C26812DF94ED7B64F985309541F46"> <span class="wintitle"> Aangepast</span>: Een datumbereik dat u configureert in de kalender. </li> 
      <li id="li_2B272087006847148A936350D1B2D523"> <span class="wintitle"> Voorinstelling</span>: Een vooraf ingesteld bereik. Het vooraf ingestelde bereik is relatief ten opzichte van de rapportdatum. </li> 
      <li id="li_745989965BB94D489FF7046587E13C42"> <span class="wintitle"> Korreligheid</span>: De tijdsgranulariteit. Geldige waarden zijn None, Hour, Day, Week, Month, Quarter en Year. </li> 
-    </ul> <p>Data warehouse die over virtuele rapportreeksen rapporteert steunt de alternatieve tijdzone die op de virtuele rapportreeks wordt gevormd. </p> </td> 
+    </ul> <p>Data Warehouse die over virtuele rapportreeksen rapporteert steunt de alternatieve tijdzone die op de virtuele rapportreeks wordt gevormd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Beschikbare segmenten</span> </td> 
-   <td colname="col2"> <p>Hiermee kunt u het deel van de bezoekerspopulatie selecteren dat u wilt onderzoeken en complexe segmenten genereren. U kunt pre-gevormde segmenten laden, nieuwe segmenten tot stand brengen, en de componenten van het opslagsegment in een bibliotheek aan gebruik in de bouw van extra segmenten. </p> <p>U kunt nu segmenten stapelen. Wanneer het selecteren van veelvoudige segmenten, tonen het voorproefgebied, de Manager van het Verzoek, en popup van het Detail van het Verzoek een komma-gescheiden lijst van namen (b.v., Segment1, Segment2). </p> <p>Zie de <a href="/help/components/c-segmentation/seg-home.md"> segmentatiehandleiding</a> voor meer informatie. </p> <p>Opmerking:  U kunt niet zowel een segmentfilter als een uitsplitsing op hetzelfde segment opnemen, in hetzelfde Data warehouse-rapport. Dit leidt tot een fout. </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u het deel van de bezoekerspopulatie selecteren dat u wilt onderzoeken en complexe segmenten genereren. U kunt pre-gevormde segmenten laden, nieuwe segmenten tot stand brengen, en de componenten van het opslagsegment in een bibliotheek aan gebruik in de bouw van extra segmenten. </p> <p>U kunt nu segmenten stapelen. Wanneer het selecteren van veelvoudige segmenten, tonen het voorproefgebied, de Manager van het Verzoek, en popup van het Detail van het Verzoek een komma-gescheiden lijst van namen (b.v., Segment1, Segment2). </p> <p>Zie de <a href="/help/components/segmentation/seg-home.md"> segmentatiehandleiding</a> voor meer informatie. </p> <p>Opmerking:  U kunt niet zowel een segmentfilter als een uitsplitsing op hetzelfde segment opnemen, in hetzelfde Data Warehouse-rapport. Dit leidt tot een fout. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Uitsplitsingen</span> </td> 
-   <td colname="col2"> <p>Hiermee kunt u gegevens categoriseren met behulp van uitsplitsingen. Segmenten en indelingen verschillen in die zin dat een segment gegevens uit een gegevensset filtert, terwijl een indeling gegevens over alle geldige waarden voor de uitsplitsing onderverdeelt. </p> U kunt een rapport door één of meerdere segmenten ook onderverdelen. Nochtans, kunt u niet zowel een segmentfilter als een mislukking op het zelfde segment, in het zelfde rapport van Data warehouse omvatten. Dit leidt tot een fout. <p> Gebruik bijvoorbeeld segmenten om een geslacht uit de gegevensset te verwijderen en gebruik een indeling om gegevens te zien gescheiden door geslacht. </p> <p>Wanneer een Data warehouse-verzoek wordt verzonden met meerdere meerwaardedimensies (bijvoorbeeld verschillende mobiele rapporten), kan een exponentieel aantal rijen worden gegenereerd op basis van één druk. Het aantal rijen dat uit één enkele klap kan worden uitgevoerd wordt beperkt tot 100 (eerder 1.000). </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u gegevens categoriseren met behulp van uitsplitsingen. Segmenten en indelingen verschillen in die zin dat een segment gegevens uit een gegevensset filtert, terwijl een indeling gegevens over alle geldige waarden voor de uitsplitsing onderverdeelt. </p> U kunt een rapport door één of meerdere segmenten ook onderverdelen. Nochtans, kunt u niet zowel een segmentfilter als een mislukking op het zelfde segment, in het zelfde rapport van de Data Warehouse omvatten. Dit leidt tot een fout. <p> Gebruik bijvoorbeeld segmenten om een geslacht uit de gegevensset te verwijderen en gebruik een indeling om gegevens te zien gescheiden door geslacht. </p> <p>Wanneer een verzoek van de Data Warehouse met veelvoudige multi-waardedimensies (b.v., diverse Mobiele Rapporten) wordt voorgelegd, kan een exponentieel aantal rijen uit één enkele klap worden geproduceerd. Het aantal rijen dat uit één enkele klap kan worden uitgevoerd wordt beperkt tot 100 (eerder 1.000). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Cijfers</span> </td> 
@@ -69,7 +69,7 @@ In deze tabel staan de velden en opties op het [!UICONTROL Data Warehouse Reques
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Metrische sortering</span> </td> 
-   <td colname="col2">Verstrekt gerangschikte verdelingsrapporten, die door dalende metrische waarde worden gesorteerd, gelijkend op wat in het gebruikersinterface van Rapporten &amp; van Analytics, Data Workbench, enz. wordt getoond. <a href="/help/export/data-warehouse/sorting-by-metric.md"  > Meer...</a> </td> 
+   <td colname="col2">Verstrekt gerangschikte verdelingsrapporten, die door dalende metrische waarde worden gesorteerd, gelijkend op wat in de het gebruikersinterface van Rapporten &amp; van de Analyse, Data Workbench, enz. wordt getoond. <a href="/help/export/data-warehouse/sorting-by-metric.md"  > Meer...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Levering plannen</span> </td> 
