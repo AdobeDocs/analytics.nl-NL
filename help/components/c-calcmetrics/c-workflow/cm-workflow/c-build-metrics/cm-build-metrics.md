@@ -1,20 +1,23 @@
 ---
-description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen, Metriek, Segmenten, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op de logica van de containerhiërarchie, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
-title: Metrische gegevens samenstellen
+description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimension, Metriek, Segmenten, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
+title: Cijfers samenstellen
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '958'
+ht-degree: 1%
 
 ---
 
 
-# Metrische gegevens samenstellen
+# Cijfers samenstellen
 
-De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen, Metriek, Segmenten, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op de logica van de containerhiërarchie, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
+De Berekende Bouwer van Metriek verstrekt een canvas om Dimension, Metriek, Segmenten, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
 
 Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
 
-* Open een project in de analysewerkruimte en klik op **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
+* Open een project in Analysis Workspace en klik op **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
 * Ga in [!DNL Analytics], ga naar **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
 
 * Klik **[!UICONTROL + Add]** bij de bovenkant van de [Berekende Metrische Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), of
@@ -102,14 +105,14 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + Nieuw </span> </td> 
-   <td colname="col3"> <p>Hiermee kunt u een nieuwe component maken, zoals een nieuw segment (dat u naar de <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  > Segment Builder </a>.) </p> </td> 
+   <td colname="col3"> <p>Hiermee kunt u een nieuwe component maken, zoals een nieuw segment (dat u naar de <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder </a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Componenten zoeken </p> </td> 
    <td colname="col3"> <p>Met deze zoekbalk kunt u zoeken naar afmetingen, metriek, segmenten (alleen geavanceerde berekende meetgegevens) en functies (alleen geavanceerde berekende meetgegevens). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Lijst met afmetingen </p> </td> 
+   <td colname="col2"> <p>Lijst van Dimension </p> </td> 
    <td colname="col3"> <p>In plaats van de Berekende Metrische Bouwer te verlaten om een eenvoudig segment (in de Bouwer van het Segment) te bouwen, b.v. "Pagina = Homepage", kunt u in Pagina slepen en Homepage van Berekende Metrische Bouwer direct selecteren. </p> <p>Dit resulteert in een veel gestroomlijnder werkschema voor het creëren van gesegmenteerde berekende metriek. </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +120,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
    <td colname="col3"> <p>De cijfers zijn ingedeeld in drie categorieën: </p> 
     <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
      <li id="li_90F2312927A6499CA1CE04F8FFC912CF">Standaardwaarden ( <img placement="inline"  src="assets/met_icon.png" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
-     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">Calculated metrics ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
+     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">Berekende standaarden ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
      <li id="li_8735E76637ED4C3F983731A66E04C93E">Metrische sjablonen ( <img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />) - onder aan de lijst. </li> 
     </ul> <p>Wanneer u de muisaanwijzer boven een metrische waarde houdt, ziet u het pictogram Info rechts ervan: <img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Als u op dit pictogram klikt, krijgt u de volgende informatie: </p> 
     <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
@@ -132,7 +135,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lijst met functies </p> </td> 
-   <td colname="col3"> <p>(Alleen geavanceerde berekende metriek) Functies worden in twee lijsten onderverdeeld: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Standaard </a> (meest gebruikt) en <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Geavanceerd </a>. </p> </td> 
+   <td colname="col3"> <p>(Alleen geavanceerde berekende metriek) Functies worden in twee lijsten onderverdeeld: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Basis </a> (het meest vaak gebruikt) en <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Geavanceerd </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Selector rapportsuite </p> </td> 
