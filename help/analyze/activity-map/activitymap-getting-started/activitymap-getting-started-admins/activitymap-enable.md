@@ -1,12 +1,12 @@
 ---
-description: Verklaart de stappen de Admin van Analytics moet voltooien om de inzameling van de Activity Map verbinding en gebruikersdownload toe te laten.
+description: Verklaart de stappen de Admin van Analytics moet voltooien om de inzameling van de verbindingsverbinding van de Activity Map en gebruikersdownload toe te laten.
 title: Activity Map inschakelen
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '369'
 ht-degree: 6%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Activity Map inschakelen{#enable-activity-map}
 
-Verklaart de stappen de Admin van Analytics moet voltooien om de inzameling van de Activity Map verbinding en gebruikersdownload toe te laten.
+Verklaart de stappen de Admin van Analytics moet voltooien om de inzameling van de verbindingsverbinding van de Activity Map en gebruikersdownload toe te laten.
 
 ## Stap 1. Werk uw Javascript-code (AppMeasurement) bij naar v1.6 (of hoger) {#section_5D1586289DF2489289B1B6C1C80C300D}
 
@@ -41,10 +41,10 @@ U kunt geen gegevens over de Activity Map verzamelen, tenzij u deze versie (of h
 
 Eerst, moet u Activity Map rapporten op een rapport-reeks niveau toelaten.
 
-1. Meld u aan bij Adobe Analytics en navigeer naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites >[select report suite]> Edit Settings > Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
+1. Meld u aan bij Adobe Analytics en navigeer naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer een rapportsuite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
 1. De Activity Map verzamelt de verbindingsgegevens in de rapporten van de Activity Map. U kunt de activering alleen uitvoeren als u eerst de variabelen activeert door op **[!UICONTROL Enable Activity Map Reports]** te klikken.
 
-   Met deze stap voegt u alle Analytics-afmetingen toe die u nodig hebt om gegevens te verzamelen.
+   Met deze stap voegt u alle analytische afmetingen toe die u nodig hebt om gegevens te verzamelen.
 
 1. Na ongeveer een uur, controleer het rapport [van de Pagina van de](/help/analyze/activity-map/activitymap-reporting-analytics.md)Activity Map, dat alle pagina&#39;s toont waar de gebruikers op een verbinding klikte.
 
@@ -60,4 +60,4 @@ Eerst, moet u Activity Map rapporten op een rapport-reeks niveau toelaten.
 
 >[!NOTE]
 >
->Als u niet-admin gebruikers Activity Map wilt downloaden, creeert een nieuwe gebruikersgroep die toestemming aan &quot;Hulpmiddelen&quot;en &quot;Oudere Installatie ClickMap&quot;verleent. Dit machtigingsniveau in combinatie met de Activity Map Access biedt machtigingen om het gereedschap te downloaden en gebruiken.
+>Als u wilt dat gebruikers die geen beheerder zijn, Activity Map downloaden, maakt u een nieuwe gebruikersgroep met de machtiging &#39;Gereedschappen&#39; en &#39;Oudere ClickMap installeren&#39;. Dit machtigingsniveau in combinatie met de Activity Map Access biedt machtigingen om het gereedschap te downloaden en gebruiken.
