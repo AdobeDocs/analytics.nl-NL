@@ -2,9 +2,9 @@
 title: Verwijzen naar domein
 description: Het overkoepelende domein waarop een bezoeker zich bevond voordat hij naar uw site klikte.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De dimensie &#39;Verwijzend domein&#39; rapporteert welke domeinen bezoekers doo
 >
 >U moet de [Interne filters](/help/admin/admin/internal-url-filter-admin.md) van URL van uw rapportreeks vormen om deze dimensie te gebruiken. Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
 
-Hetzelfde rapport kan verschillende resultaten laten zien tussen Analysis Workspace en Data warehouse. Analysis Workspace rapporteert het verwijzende domein voor elke afzonderlijke pagina, exclusief waarden die overeenkomen met interne URL-filters. Data warehouse rapporteert alleen het eerste verwijzende domein van het bezoek en negeert interne URL-filters.
+Hetzelfde rapport kan verschillende resultaten laten zien tussen Analysis Workspace en Data Warehouse. Analysis Workspace rapporteert het verwijzende domein voor elke afzonderlijke pagina, exclusief waarden die overeenkomen met interne URL-filters. Data Warehouse rapporteert alleen het eerste verwijzende domein van het bezoek en negeert interne URL-filters.
 
 ## Deze dimensie vullen met gegevens
 
@@ -31,7 +31,7 @@ Adobe blijft het verwijzen domein voor een bezoek. Als een bezoeker een koppelin
 
 ## Dimension-items
 
-Dimension-items bevatten domeinen waarop bezoekers naar uw site klikken. Als een hit geen verwijzingsgegevens heeft (ingesteld of blijvend), groepeert deze zich onder het dimensie-item `"Typed/Bookmarked"`. Dit afmetingsitem betekent dat er geen verwijzingswaarde is, bijvoorbeeld dat de bezoeker het browseradres handmatig in de adresbalk heeft getypt of op een bladwijzer heeft geklikt.
+Dimension-items bevatten domeinen waarop bezoekers naar uw site klikken. Als een hit geen verwijzingsgegevens heeft (ingesteld of blijvend), groepeert deze zich onder het dimensie-item `"Typed/Bookmarked"`. Dit afmetingsitem betekent dat er geen verwijzingswaarde is, bijvoorbeeld dat de bezoeker het browseradres handmatig in de adresbalk heeft getypt of op een bladwijzer heeft geklikt. Het `"Typed/Bookmarked"` dimensiepunt verschijnt ook voor omleidingen die geen Analytics aanpassen. Zie [Omleidingen en aliassen](/help/technotes/redirects.md) in de de gebruikersgids van Technotes.
 
 ### Dimension-items met `googleusercontent.com`
 
