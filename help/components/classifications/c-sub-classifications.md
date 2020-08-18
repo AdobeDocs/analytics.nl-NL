@@ -5,7 +5,7 @@ title: Informatie over subclassificaties
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 7%
@@ -32,7 +32,7 @@ Elke classificatie in dit model is onafhankelijk en komt overeen met een nieuw s
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Zie [Classificatiegegevensbestanden](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)voor meer informatie over het gegevensbestand.
+Zie [Classificatiegegevensbestanden](/help/components/classifications/importer/c-saint-data-files.md)voor meer informatie over het gegevensbestand.
 
 Classificaties op meerdere niveaus bestaan uit ouder- en onderliggende classificaties. Bijvoorbeeld:
 
@@ -46,7 +46,7 @@ Elke classificatie, bovenliggend of onderliggend, vormt één gegevenskolom in h
 
 `<parent_name>^<child_name>`
 
-Zie [Classificatiegegevensbestanden](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)voor meer informatie over de bestandsindeling van gegevens.
+Zie [Classificatiegegevensbestanden](/help/components/classifications/importer/c-saint-data-files.md)voor meer informatie over de bestandsindeling van gegevens.
 
 Bijvoorbeeld:
 
@@ -59,7 +59,7 @@ Hoewel het dossiermalplaatje voor een classificatie op meerdere niveaus complexe
 
 >[!NOTE]
 >
->Als de [!UICONTROL Key] kolom in een gegevensbestand leeg is, genereert Adobe automatisch unieke sleutels voor elke gegevensrij. U voorkomt mogelijke bestandsbeschadiging wanneer u een gegevensbestand uploadt met classificatiegegevens van het tweede niveau of hoger niveau door elke rij van de [!UICONTROL Key] kolom te vullen met een asterisk (*).
+>Als de [!UICONTROL Key] kolom in een gegevensbestand leeg is, genereert Adobe automatisch unieke sleutels voor elke gegevensrij. U voorkomt mogelijke bestandsbeschadiging wanneer u een gegevensbestand uploadt met classificatiegegevens van het tweede niveau of hoger niveau door elke rij van de [!UICONTROL Key] kolom te vullen met een sterretje (*).
 
 Zie [Gemeenschappelijke classificatie uploadt Kwesties](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) voor het oplossen van problemenhulp.
 
