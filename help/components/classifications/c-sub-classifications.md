@@ -5,9 +5,9 @@ title: Informatie over subclassificaties
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '644'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ Adobe Analytics ondersteunt classificatiemodellen op één niveau en die op meer
 
 >[!NOTE]
 >
->Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] toepassing voor het maken van [!UICONTROL Hierarchy] rapporten. Zie [Classificatiehiërarchieën](classification-hierarchies.md)voor meer informatie over classificatiehiërarchieën.
+>Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] toepassing voor het maken van [!UICONTROL Hierarchy] rapporten. Zie [Classificatiehiërarchieën](/help/admin/admin/conversion-var-admin/classification-hierarchies.md)voor meer informatie over classificatiehiërarchieën.
 
 Bijvoorbeeld:
 
@@ -38,7 +38,7 @@ Classificaties op meerdere niveaus bestaan uit ouder- en onderliggende classific
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Bovenliggende classificaties:** Een ouderclassificatie is om het even welke classificatie die een bijbehorende kindclassificatie heeft. Een classificatie kan zowel een ouderclassificatie als een kindclassificatie zijn. De bovenliggende classificaties komen overeen met classificaties op één niveau (zie Classificaties op [één niveau](/help/components/classifications/c-sub-classifications.md)).
+**Bovenliggende classificaties:** Een ouderclassificatie is om het even welke classificatie die een bijbehorende kindclassificatie heeft. Een classificatie kan zowel een ouderclassificatie als een kindclassificatie zijn. De bovenliggende classificaties komen overeen met classificaties op één niveau.
 
 **Onderliggende classificaties:** Een onderliggende classificatie is een classificatie die een andere classificatie heeft als de bovenliggende klasse in plaats van de variabele. Onderliggende classificaties bieden aanvullende informatie over hun ouderclassificatie. Een [!UICONTROL Campaigns] classificatie kan bijvoorbeeld een onderliggende classificatie van eigenaar van campagne hebben. [!UICONTROL Numeric] classificaties functioneren ook als metriek in classificatierapporten.
 
@@ -50,7 +50,7 @@ Zie [Classificatiegegevensbestanden](/help/components/classifications/importer/c
 
 Bijvoorbeeld:
 
-| SLEUTEL | EIGENSCHAP 1 | Eigenschap 1&amp;Hoed;Eigenschap 1-1 | Eigenschap 1&amp;Hoed;Eigenschap 1-2 | Eigenschap 2 |
+| SLEUTEL | EIGENSCHAP 1 | Eigenschap 1^Eigenschap 1-1 | Eigenschap 1^Eigenschap 1-2 | Eigenschap 2 |
 |---|---|---|---|---|
 | 123 | ABC | Groen | Klein | A12B |
 | 456 | DEF | Rood | Groot | C3D4 |
@@ -59,22 +59,21 @@ Hoewel het dossiermalplaatje voor een classificatie op meerdere niveaus complexe
 
 >[!NOTE]
 >
->Als de [!UICONTROL Key] kolom in een gegevensbestand leeg is, genereert Adobe automatisch unieke sleutels voor elke gegevensrij. U voorkomt mogelijke bestandsbeschadiging wanneer u een gegevensbestand uploadt met classificatiegegevens van het tweede niveau of hoger niveau door elke rij van de [!UICONTROL Key] kolom te vullen met een sterretje (*).
-
-Zie [Gemeenschappelijke classificatie uploadt Kwesties](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) voor het oplossen van problemenhulp.
+>Als de [!UICONTROL Key] kolom in een gegevensbestand leeg is, genereert Adobe automatisch unieke sleutels voor elke gegevensrij. U voorkomt mogelijke bestandsbeschadiging wanneer u een gegevensbestand uploadt met classificatiegegevens van het tweede niveau of hoger niveau door elke rij van de [!UICONTROL Key] kolom te vullen met een asterisk (*).
 
 ## Voorbeelden
 
 ![](assets/sample-product-classifications.png)
 
 >[!NOTE]
-Gegevens over de indeling van producten zijn beperkt tot gegevenskenmerken die rechtstreeks verband houden met het product. De gegevens zijn niet beperkt tot de wijze waarop de producten zijn gecategoriseerd of op de website worden verkocht. Gegevenselementen zoals verkoopcategorieën, browserknooppunten van sites of verkoopitems zijn geen gegevens over de productclassificatie. In plaats daarvan worden deze elementen vastgelegd in de conversievariabelen van rapporten.
+>
+>Gegevens over de indeling van producten zijn beperkt tot gegevenskenmerken die rechtstreeks verband houden met het product. De gegevens zijn niet beperkt tot de wijze waarop de producten zijn gecategoriseerd of op de website worden verkocht. Gegevenselementen zoals verkoopcategorieën, browserknooppunten van sites of verkoopitems zijn geen gegevens over de productclassificatie. In plaats daarvan worden deze elementen vastgelegd in de conversievariabelen van rapporten.
 
-Wanneer u gegevensbestanden uploadt voor deze productclassificatie, kunt u de classificatiegegevens uploaden als één bestand of als meerdere bestanden (zie hieronder). Door de kleurcode in bestand 1 en de kleurnaam in bestand 2 te scheiden, hoeven de gegevens over de kleurnaam (die mogelijk slechts een paar rijen zijn) alleen te worden bijgewerkt wanneer nieuwe kleurcodes worden gemaakt. Hiermee verwijdert u het veld Kleurnaam (CODE&amp;Hoed;COLOR) uit het vaker bijgewerkte bestand 1 en verkleint u de bestandsgrootte en complexiteit bij het genereren van het gegevensbestand.
+Wanneer u gegevensbestanden uploadt voor deze productclassificatie, kunt u de classificatiegegevens uploaden als één bestand of als meerdere bestanden (zie hieronder). Door de kleurcode in bestand 1 en de kleurnaam in bestand 2 te scheiden, hoeven de gegevens over de kleurnaam (die mogelijk slechts een paar rijen zijn) alleen te worden bijgewerkt wanneer nieuwe kleurcodes worden gemaakt. Hiermee verwijdert u het kleurnaamveld (CODE^COLOR) uit het vaker bijgewerkte bestand 1 en verkleint u de bestandsgrootte en complexiteit bij het genereren van het gegevensbestand.
 
 ### Productclassificatie - Eén bestand {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
-| SLEUTEL | PRODUCTNAAM | PRODUCTGEGEVENS | GENDER | GROOTTE | CODE | CODE&amp;Hoed;KLEUR |
+| SLEUTEL | PRODUCTNAAM | PRODUCTGEGEVENS | GENDER | GROOTTE | CODE | CODE^KLEUR |
 |---|---|---|---|---|---|---|
 | 410390013 | Polo-SS | Polo Shirt, korte hoes (M,01) voor heren | M | M | 01 | Steen |
 | 410390014 | Polo-SS | Polo Shirt, korte hoes (L,03) voor heren | M | L | 03 | Heather |
@@ -90,7 +89,7 @@ Wanneer u gegevensbestanden uploadt voor deze productclassificatie, kunt u de cl
 
 ### Productclassificatie - Meerdere bestanden (bestand 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
-| SLEUTEL | CODE | CODE&amp;Hoed;KLEUR |
+| SLEUTEL | CODE | CODE^KLEUR |
 |---|---|---|
 | * | 01 | Steen |
 | * | 03 | Heather |
