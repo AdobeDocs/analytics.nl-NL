@@ -5,7 +5,10 @@ title: Transactie- en klantintegratie
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +27,7 @@ Deze integratie associeert off-line gegevens met een specifieke online transacti
 
 De transactie-id kan worden in-/uitgeschakeld vanuit de gebruikersinterface, zonder betrokkenheid van ClientCare:
 
-Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL[Selecteer Rapportsuite]]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
+Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer een rapportsuite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
