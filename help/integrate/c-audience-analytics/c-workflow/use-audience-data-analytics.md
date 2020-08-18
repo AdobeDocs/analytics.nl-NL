@@ -1,21 +1,24 @@
 ---
-description: 'U kunt de afmetingen van het publiek AAM door Analytics gebruiken. De geïntegreerde segmenten zijn nieuwe dimensies van Analytics genoemd identiteitskaart van het publiek en de Naam van het publiek, en kunnen enkel als een andere dimensie worden gebruikt die Analytics verzamelt. In Gegevensfeeds worden de publiek-id''s opgeslagen in de kolom "mc_audiences". Deze afmetingen zijn momenteel niet beschikbaar in Data Workbench of LiveStream. Enkele voorbeelden van de manier waarop de dimensies van het publiek kunnen worden benut zijn '
+description: 'U kunt de afmetingen van het AAM Publiek door Analytics gebruiken. De geïntegreerde segmenten zijn nieuwe dimensies van Analytics genoemd identiteitskaart van het publiek en de Naam van het publiek, en kunnen enkel als een andere dimensie worden gebruikt die Analytics verzamelt. In Gegevensfeeds worden de publiek-id''s opgeslagen in de kolom "mc_audiences". Deze afmetingen zijn momenteel niet beschikbaar in Data Workbench of LiveStream. Enkele voorbeelden van de manier waarop de dimensies van het publiek kunnen worden benut zijn '
 solution: Experience Cloud
-title: De publieksgegevens in Analytics gebruiken
+title: De doelgroepdata in Analytics gebruiken
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 8%
 
 ---
 
 
-# De publieksgegevens in Analytics gebruiken
+# De doelgroepdata in Analytics gebruiken
 
-U kunt de afmetingen van het publiek AAM door Analytics gebruiken. De geïntegreerde segmenten zijn nieuwe dimensies van Analytics genoemd identiteitskaart van het publiek en de Naam van het publiek, en kunnen enkel als een andere dimensie worden gebruikt die Analytics verzamelt. In Gegevensfeeds worden de publiek-id&#39;s opgeslagen in de kolom &quot;mc_audiences&quot;. Deze afmetingen zijn momenteel niet beschikbaar in Data Workbench of LiveStream. Enkele voorbeelden van de manier waarop de dimensies van het publiek kunnen worden benut zijn:
+U kunt de afmetingen van het AAM Publiek door Analytics gebruiken. De geïntegreerde segmenten zijn nieuwe dimensies van Analytics genoemd identiteitskaart van het publiek en de Naam van het publiek, en kunnen enkel als een andere dimensie worden gebruikt die Analytics verzamelt. In Gegevensfeeds worden de publiek-id&#39;s opgeslagen in de kolom &quot;mc_audiences&quot;. Deze afmetingen zijn momenteel niet beschikbaar in Data Workbench of LiveStream. Enkele voorbeelden van de manier waarop de dimensies van het publiek kunnen worden benut zijn:
 
-## Werkruimte Analyse {#section_C70837499BEA4DED885B3486C9E02C68}
+## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
-In de Werkruimte van de Analyse, verschijnen de segmenten AAM als twee dimensies.
+In Analysis Workspace worden de AAM segmenten weergegeven als twee dimensies.
 
 1. Ga naar **[!UICONTROL Workspace]**.
 1. Selecteer in de lijst met **[!UICONTROL Dimensions]** de afmetingen **[!UICONTROL Audience ID]** of **[!UICONTROL Audience Name]**. Naam is een vriendelijke indeling van de id.
@@ -24,7 +27,7 @@ In de Werkruimte van de Analyse, verschijnen de segmenten AAM als twee dimensies
 
 ## Segmentvergelijking {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
-[De Vergelijking](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) van het segment ontdekt de statistisch meest significante verschillen tussen twee segmenten. De gegevens van het publiek kunnen in de Vergelijking van het Segment op twee manieren worden gebruikt: 1) als de twee segmenten die worden vergeleken, en 2) als items in de tabel &quot;Top Dimension Items&quot;.
+[De Vergelijking](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) van het segment ontdekt de statistisch meest significante verschillen tussen twee segmenten. De gegevens van het publiek kunnen in de Vergelijking van het Segment op twee manieren worden gebruikt: 1) als de 2 segmenten die worden vergeleken, en 2) als punten in de &quot;Top Dimension Items&quot;lijst.
 
 1. Ga naar **[!UICONTROL Workspace]** en selecteer het **[!UICONTROL Segment Comparison]** paneel van de linkerspoorstaaf.
 
@@ -35,13 +38,13 @@ In de Werkruimte van de Analyse, verschijnen de segmenten AAM als twee dimensies
 1. (Optioneel): U kunt ook andere dimensie-items of -segmenten invoegen. Maximaal 2 kunnen worden vergeleken.
 1. Klik op **[!UICONTROL Build]**.
 
-   De dimensies Soorten publiek-id en Naam worden automatisch weergegeven in de tabel &#39;Items voor de bovenste afmeting&#39;, omdat dit aanvullende profielgegevens zijn voor de twee segmenten die worden vergeleken.
+   De dimensies Soorten publiek-id en Naam worden automatisch weergegeven in de tabel &quot;Items boven in Dimension&quot;, omdat dit aanvullende profielgegevens zijn voor de twee segmenten die worden vergeleken.
 
    ![](assets/aud-segcompare.png)
 
-## Klantenreis (stroom) in analysewerkruimte {#section_FC30E5795C9D4539838E30FE11FAEA6E}
+## Klantenreis (Flow) in Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM-segmentgegevens worden via hit-by-hit doorgegeven aan Analytics en vertegenwoordigen het publiekslidmaatschap voor een bezoeker op dat moment. Dit betekent dat een bezoeker in één segment kan vallen (bijvoorbeeld &quot;Bewustmaking&quot;), en later in aanmerking komen voor een meer gekwalificeerd segment (bv. &quot;Overweging&quot;). U kunt [stroom](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in de Werkruimte van de Analyse gebruiken om de reis visualiseren een bezoeker tussen publiek neemt.
+AAM segmentgegevens worden doorgegeven naar Analytics op een hit-by-hit-basis en vertegenwoordigen het publiekscijfer voor een bezoeker op dat moment. Dit betekent dat een bezoeker in één segment kan vallen (bijvoorbeeld &quot;Bewustmaking&quot;), en later in aanmerking komen voor een meer gekwalificeerd segment (bv. &quot;Overweging&quot;). Met [Flow](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace kunt u de reis visualiseren die een bezoeker maakt tussen het publiek.
 
 1. Ga naar **[!UICONTROL Workspace]** en selecteer de **[!UICONTROL Flow]** visualisatie in de linkerrails.
 
@@ -53,7 +56,7 @@ AAM-segmentgegevens worden via hit-by-hit doorgegeven aan Analytics en vertegenw
 
 Soorten publiek kan ook worden gebruikt in [uitvalvisualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
-## Venn Visualisatie in de werkruimte Analyse {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Venn Visualization in Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
 
 [In de Venn-visualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/venn.html) wordt de overlapping tussen maximaal 3 segmenten weergegeven.
 
@@ -69,7 +72,7 @@ Soorten publiek kan ook worden gebruikt in [uitvalvisualisaties](https://docs.ad
 
 ## Segment Builder {#section_2AA81852A1404AB894472CA8959461B6}
 
-U kunt de dimensies van het publiek in de Bouwer [](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)van het Segment van de Analyse, samen met de gedragsinformatie opnemen die de Analytics verzamelt.
+U kunt de dimensies van het publiek in de Bouwer [](/help/components/segmentation/segmentation-workflow/seg-build.md)van het Segment van de Analyse, samen met de gedragsinformatie opnemen die de Analytics verzamelt.
 
 1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Segments]** .
 1. Klik **[!UICONTROL Add]** om een nieuw segment te maken.
