@@ -5,7 +5,7 @@ title: Classificatieregels
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 1%
@@ -66,7 +66,7 @@ about_classification_rules.xml
 
 * **Reeksen** rapporteren: U kunt geen classificatie kiezen tot minstens één rapportreeks wordt geselecteerd. U kunt niet de rapportreeks toepassen tot u de regelreeks hebt gecreeerd en een variabele toegewezen.
 
-   Wanneer u de regelreeks test, gebruik sleutels (de variabele die) van het rapport wordt geclassificeerd om te zien hoe zij door de regelreeks zullen worden beïnvloed. (De [sleutel](/help/components/classifications/c-classifications-importer/c-saint-data-files.md) is de variabele die wordt geclassificeerd, of de eerste kolom in de tabel voor het uploaden naar classificatie.)
+   Wanneer u de regelreeks test, gebruik sleutels (de variabele die) van het rapport wordt geclassificeerd om te zien hoe zij door de regelreeks zullen worden beïnvloed. (De [sleutel](/help/components/classifications/importer/c-saint-data-files.md) is de variabele die wordt geclassificeerd, of de eerste kolom in de tabel voor het uploaden naar classificatie.)
 
 * **Prioriteit** regel: Als een sleutel veelvoudige regels aanpast die de zelfde classificatie (in de [!UICONTROL Set Classification] kolom) plaatsen, wordt de laatste regel die de classificatie aanpast gebruikt. Zie [Prioriteit](/help/components/classifications/crb/classification-quickstart-rules.md)regel.
 
@@ -79,7 +79,7 @@ about_classification_rules.xml
 
 ## Wanneer classificeren de regels sleutels niet?
 
-Wanneer u regels activeert, kunt u bestaande classificaties overschrijven. In de volgende situaties classificeert een classificatieregel geen [sleutel](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)(variabele) als:
+Wanneer u regels activeert, kunt u bestaande classificaties overschrijven. In de volgende situaties classificeert een classificatieregel geen [sleutel](/help/components/classifications/importer/c-saint-data-files.md)(variabele) als:
 
 * De sleutel is al geclassificeerd en u selecteert geen Classificaties [](/help/components/classifications/crb/classification-rule-definitions.md)overschrijven.
 
