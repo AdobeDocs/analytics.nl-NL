@@ -5,10 +5,10 @@ user-guide-title: Analytics Components-handleiding
 user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 59%
+source-wordcount: '617'
+ht-degree: 58%
 
 ---
 
@@ -141,31 +141,31 @@ ht-degree: 59%
    + [Bezoekers met Experience Cloud ID](metrics/visitors-with-ecid.md)
    + [Bezoeken](metrics/visits.md)
 + Segmentatie {#segmentation}
-   + [Analytics-segmentatie](c-segmentation/seg-home.md)
-   + [Informatie over segmenten en containers](c-segmentation/seg-overview.md)
-   + [Segmentatiefuncties in Analysis Workspace](c-segmentation/segmentation-in-analysis-workspace.md)
+   + [Analytics-segmentatie](segmentation/seg-home.md)
+   + [Informatie over segmenten en containers](segmentation/seg-overview.md)
+   + [Segmentatiefuncties in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Segmentatieworkflow {#segmentation-workflow}
-      + [Overzicht van de segmentatieworkflow](c-segmentation/c-segmentation-workflow/seg-workflow.md)
-      + [Segmenten plannen](c-segmentation/c-segmentation-workflow/seg-plan.md)
-      + [Segmenten maken](c-segmentation/c-segmentation-workflow/seg-build.md)
-      + [Opeenvolgende segmenten maken](c-segmentation/c-segmentation-workflow/seg-sequential-build.md)
-      + [Segmenten een label geven](c-segmentation/c-segmentation-workflow/seg-tag.md)
-      + [Segmenten goedkeuren](c-segmentation/c-segmentation-workflow/seg-approve.md)
-      + [Segmenten delen](c-segmentation/c-segmentation-workflow/t-seg-share.md)
-      + [Segmenten publiceren naar Experience Cloud](c-segmentation/c-segmentation-workflow/seg-publish.md)
-      + [Segmenten selecteren en toepassen](c-segmentation/c-segmentation-workflow/t-seg-apply.md)
-      + [Segmenten filteren](c-segmentation/c-segmentation-workflow/t-seg-filter.md)
-      + [Segmenten markeren als favorieten](c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
-      + [Segmenten verwijderen](c-segmentation/c-segmentation-workflow/seg-delete.md)
-      + [Segmenten beheren](c-segmentation/c-segmentation-workflow/seg-manage.md)
+      + [Overzicht van de segmentatieworkflow](segmentation/segmentation-workflow/seg-workflow.md)
+      + [Segmenten plannen](segmentation/segmentation-workflow/seg-plan.md)
+      + [Segmenten maken](segmentation/segmentation-workflow/seg-build.md)
+      + [Opeenvolgende segmenten maken](segmentation/segmentation-workflow/seg-sequential-build.md)
+      + [Segmenten een label geven](segmentation/segmentation-workflow/seg-tag.md)
+      + [Segmenten goedkeuren](segmentation/segmentation-workflow/seg-approve.md)
+      + [Segmenten delen](segmentation/segmentation-workflow/t-seg-share.md)
+      + [Segmenten publiceren naar Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Segmenten selecteren en toepassen](segmentation/segmentation-workflow/t-seg-apply.md)
+      + [Segmenten filteren](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [Segmenten markeren als favorieten](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [Segmenten verwijderen](segmentation/segmentation-workflow/seg-delete.md)
+      + [Segmenten beheren](segmentation/segmentation-workflow/seg-manage.md)
    + Segmentverwijzing {#segment-reference}
-      + [Vergelijkingsoperatoren voor segmenten](c-segmentation/seg-reference/seg-operators.md)
-      + [Compatibiliteit van Data Warehouse-segmenten](c-segmentation/seg-reference/seg-compatibility.md)
-      + [Segmentrechten per rol](c-segmentation/seg-reference/seg-rights.md)
-      + [Problemen oplossen](c-segmentation/seg-reference/c-troubleshooting.md)
-   + [Veelgestelde vragen](c-segmentation/seg-transition.md)
-   + [Nieuwe functies in Analytics-segmentatie](c-segmentation/whats-new-segmentation.md)
-   + [Overgangshandleiding voor Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
+      + [Vergelijkingsoperatoren voor segmenten](segmentation/seg-reference/seg-operators.md)
+      + [Compatibiliteit van Data Warehouse-segmenten](segmentation/seg-reference/seg-compatibility.md)
+      + [Segmentrechten per rol](segmentation/seg-reference/seg-rights.md)
+      + [Problemen oplossen](segmentation/seg-reference/c-troubleshooting.md)
+   + [Veelgestelde vragen](segmentation/seg-transition.md)
+   + [Best practices](segmentation/best-practices.md)
+   + [Overgangshandleiding voor Ad Hoc Analysis](segmentation/seg-transition-ad-hoc.md)
 + Berekende statistieken {#calculated-metrics}
    + [Berekende en Geavanceerde berekende (Afgeleide) Metriek](c-calcmetrics/cm-overview.md)
    + [Veelgestelde vragen](c-calcmetrics/cm-transition.md)
@@ -209,7 +209,7 @@ ht-degree: 59%
    + [Overzicht van cross-device Analytics](cda/overview.md)
    + [Veldgebaseerde stitching](cda/field-based-stitching.md)
    + [Apparaatgrafiek](cda/device-graph.md)
-   + [Apparaatoverschrijdende Analytics instellen](cda/setup.md)
+   + [Apparaatanalyse instellen](cda/setup.md)
    + [Hoe herspeelt u](cda/replay.md)
    + [CDA Workspace-sjabloon](cda/workspace-template.md)
    + [Veelgestelde vragen over Cross-device Analytics](cda/faq.md)
@@ -224,28 +224,24 @@ ht-degree: 59%
    + [Conversieclassificaties](classifications/conversion-classifications.md)
    + [Verkeersclassificaties](classifications/traffic-classifications.md)
    + [Classificatiehiërarchieën](classifications/classification-hierarchies.md)
-   + Importeren van classificaties (upload) {#classifications-importer}
-      + [Importeren van classificaties - overzicht](classifications/c-classifications-importer/c-working-with-saint.md)
-      + [Classificatiedatabestanden](classifications/c-classifications-importer/c-saint-data-files.md)
-      + [Classificatiedata verwijderen](classifications/c-classifications-importer/t-delete-classification-data.md)
-      + [Classificatiedata omzeilen](classifications/c-classifications-importer/t-classifications-escape-data.md)
-      + [Niet-geclassificeerde codes](classifications/c-classifications-importer/nonclassified-keys.md)
-      + [Classificatiesjabloon](classifications/c-classifications-importer/c-download-saint-data.md)
-      + [Browser- en FTP-import](classifications/c-classifications-importer/import-file.md)
-      + [Browserimport](classifications/c-classifications-importer/browser-import.md)
-      + [FTP-import](classifications/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
+   + Invoerder van classificaties {#classifications-importer}
+      + [Importeren van classificaties - overzicht](classifications/importer/c-working-with-saint.md)
+      + [Classificatiedatabestanden](classifications/importer/c-saint-data-files.md)
+      + [Classificatiedata verwijderen](classifications/importer/t-delete-classification-data.md)
+      + [Classificatiedata omzeilen](classifications/importer/t-classifications-escape-data.md)
+      + [Niet-geclassificeerde codes](classifications/importer/nonclassified-keys.md)
+      + [Classificatiesjabloon](classifications/importer/c-download-saint-data.md)
+      + [Browser- en FTP-import](classifications/importer/import-file.md)
+      + [Browserimport](classifications/importer/browser-import.md)
+      + [FTP-import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+      + [Verwerkingstijd](classifications/importer/processing-time.md)
+      + [Problemen oplossen](classifications/importer/troubleshooting.md)
    + Builder voor classificatieregels {#classifications-rulebuilder}
       + [Workflow van de Builder voor classificatieregels](classifications/crb/classification-rule-builder.md)
       + [Classificatieregelsets](classifications/crb/classification-rule-set.md)
       + [Classificatieregels](classifications/crb/classification-quickstart-rules.md)
       + [Classificatieregels - definities](classifications/crb/classification-rule-definitions.md)
       + [Subclassificaties en de Rule Builder](classifications/crb/sub-classification-rule-builder.md)
-   + Numeriek 2-classificaties {#numeric2-classification}
-      + [Overzicht van Numeriek 2-classificaties](classifications/c-numeric-2/c-numeric-2-classifications.md)
-      + [Numeriek 2-classificaties maken](classifications/c-numeric-2/t-create-numeric-2-classifications.md)
-      + [Numeriek 2-classificaties importeren](classifications/c-numeric-2/c-import-numeric-2-classifications.md)
-      + [Voorbeelden](classifications/c-numeric-2/c-examples.md)
-   + [Problemen met classificaties oplossen](classifications/c-classifications-troubleshooting.md)
 + [Kalendergebeurtenissen](t-calendar-event.md)
 + Realtimerapportage {#real-time-reporting}
    + [Overzicht van realtimerapportage](c-real-time-reporting/realtime.md)
