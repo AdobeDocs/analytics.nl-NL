@@ -1,20 +1,20 @@
 ---
-description: Ga aan de slag met Ad hoc analysis.
+description: Ga aan de slag met Ad Hoc Analysis.
 title: Aan de slag
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1277'
 ht-degree: 2%
 
 ---
 
 
-# Aan de slag met Ad hoc analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# Aan de slag met Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
 >[!Ibelangrijk]
->Op 6 augustus 2018 kondigde Adobe het voornemen aan om het einde van de levensduur Ad hoc analysis te maken. De einddatum wordt gedeeld zodra deze beschikbaar is. Ga voor meer informatie, waaronder de versies van Java die tijdens deze periode compatibel zijn, naar [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>Op 6 augustus 2018 kondigde Adobe het voornemen aan om Ad Hoc Analysis te sluiten. De einddatum wordt gedeeld zodra deze beschikbaar is. Ga voor meer informatie, waaronder de versies van Java die tijdens deze periode compatibel zijn, naar [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 U kunt ogenblikkelijke, geavanceerde analyse op websiteactiviteit uitvoeren. U kunt veelvoudige rapporten gelijktijdig bekijken en segmenten over veelvoudige afmetingen toepassen. U kunt de gegevens vanuit zowel micro- als macroperspectieven analyseren om hun effect op uw belangrijke bedrijfsmetriek te bekijken.
 
@@ -33,8 +33,8 @@ Met deze functies kunt u vragen beantwoorden over siteverkeer, demografie van be
    <td colname="col2"> <p>Ga naar <a href="https://experiencecloud.adobe.com"  > marketing.adobe.com </a>en meld u aan met uw Adobe Analytics-gegevens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2. Start Ad hoc analysis. </p> </td> 
-   <td colname="col2">Klik op <span class="uicontrol"> Adobe Analytics</span> &gt; <span class="uicontrol"> Gereedschappen</span> &gt; <span class="uicontrol"> Ad hoc analysis</span>en klik vervolgens op de knop <span class="uicontrol"> Ad hoc analysis</span> starten. <p> <p>Opmerking: Als de knop Ad hoc analysis <b></b> starten niet op deze pagina wordt weergegeven, controleert u of de beheerder u heeft toegevoegd aan de groep <i>Ad hoc analysis gebruiker</i> van licentie in de beheerprogramma's. </p> </p> </td> 
+   <td colname="col1"> <p>2. Start Ad Hoc Analysis. </p> </td> 
+   <td colname="col2">Klik op <span class="uicontrol"> Adobe Analytics</span> &gt; <span class="uicontrol"> Gereedschappen</span> &gt; <span class="uicontrol"> Ad Hoc Analysis</span>en klik vervolgens op de knop <span class="uicontrol"> Ad Hoc Analysis</span> starten. <p> <p>Opmerking: Als u de knop Ad Hoc Analysis <b></b> starten op deze pagina niet ziet, controleert u of de beheerder u heeft toegevoegd aan de groep <i>Ad Hoc Analysis-gebruikers</i> in de beheerprogramma's. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Maak een project. </p> </td> 
@@ -69,7 +69,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->Vanaf juli 2018 biedt Ad hoc analysis alleen ondersteuning voor Java 8 of hoger. Als u ervoor kiest om na de onderhoudsrelease van juli 2018 Ad hoc analysis uit te voeren op Java 7, biedt Adobe geen ondersteuning meer voor uw Ad hoc analysis implementatie.
+>Vanaf juli 2018 ondersteunt Ad Hoc Analysis alleen Java 8 of hoger. Adobe ondersteunt het uitvoeren van Ad Hoc Analysis op Java 7 of lager niet.
 
 * Videokaart die OpenGL 2.0 steunt
 * Cookies: Vereist
@@ -80,13 +80,11 @@ c_sys_reqs.xml
 * JavaScript: Ingeschakeld
 * Java-versie: Java 1.7 of hoger (Zie Opmerking hierboven)
 
-   Als u niet de juiste versie van Java hebt geïnstalleerd, wordt deze voor u geïnstalleerd. Als u een niet-compatibele versie van Java hebt geïnstalleerd, wordt u Ad hoc analysis gedownload en gevraagd om de updates te installeren.
+   Als u niet de juiste versie van Java hebt geïnstalleerd, wordt deze voor u geïnstalleerd. Als u een niet-compatibele versie van Java hebt geïnstalleerd, downloadt Ad Hoc Analysis en wordt u gevraagd updates te installeren.
 
 ## Java-upgradeinstructies {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-Vanaf juli 2018 biedt Ad hoc analysis alleen ondersteuning voor Java 8 of hoger. Als u ervoor kiest om na de onderhoudsrelease van juli 2018 Ad hoc analysis uit te voeren op Java 7, biedt Adobe geen ondersteuning meer voor uw Ad hoc analysis implementatie.
-
-Onze .jar-bestanden zijn ondertekend met een veilige 256-bits codering die niet wordt ondersteund door Java-versies lager dan 1.7.0_76. Met dit 256-bits certificaat kunnen we u uitgebreide beveiliging bieden.
+.jar-bestanden zijn ondertekend met een beveiligde 256-bits codering die niet door Java-versies wordt ondersteund dan 1.7.0_76. Met dit 256-bits certificaat kunnen we u uitgebreide beveiliging bieden.
 
 Als u nog steeds Java 7 hebt geïnstalleerd, moet u een upgrade uitvoeren vóór de onderhoudsversie van juli 2018. Hieronder wordt beschreven hoe:
 
@@ -109,7 +107,7 @@ c_login.xml
 
  -->
 
-U kunt zich aanmelden via de URL [!DNL Experience Cloud] of via een URL. Als u zich aanmeldt bij Reports and Analytics, wordt u automatisch aangemeld. U hoeft zich alleen aan te melden met een URL als u de ad hoc analysis URL opent vanuit een andere locatie, zoals een koppeling of via een menu Favorieten.
+U kunt zich aanmelden via de URL [!DNL Experience Cloud] of via een URL. Als u zich aanmeldt bij Reports and Analytics, wordt u automatisch aangemeld. U hoeft zich alleen aan te melden met een URL als u de URL van de ad-hocanalyse opent vanuit een andere locatie, zoals een koppeling of via een menu Favorieten.
 
 ## Aanmelden vanaf de Experience Cloud {#task_128ED319F3AE49ED886EA3DFA8D0987F}
 
@@ -125,11 +123,11 @@ t_login_suite.xml
 1. Typ uw bedrijfsnaam, uw gebruikersnaam en wachtwoord. Klik vervolgens **[!UICONTROL Sign In]**.
 1. Klik op **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Ad Hoc Analysis]**.
 
-   Als de knop Ad hoc analysis **** starten niet op deze pagina wordt weergegeven, controleert u of de beheerder u heeft toegevoegd aan de groep *Ad hoc analysis gebruiker* van licentie in de beheerprogramma&#39;s.
+   Als u de knop Ad Hoc Analysis **** starten op deze pagina niet ziet, controleert u of de beheerder u heeft toegevoegd aan de groep *Ad Hoc Analysis-gebruikers* in de beheerprogramma&#39;s.
 1. Klik op **[!UICONTROL Launch Ad Hoc Analysis]**.
 1. Sla het [!DNL discover.jnlp] bestand lokaal op.
 
-   U kunt dit opgeslagen bestand altijd uitvoeren wanneer u Ad hoc analysis wilt starten.
+   U kunt dit opgeslagen bestand altijd uitvoeren wanneer u Ad Hoc Analysis wilt starten.
 
 ## Projecten en werkruimten {#concept_FAE346335B0347A192C6C806C775D72B}
 
@@ -179,7 +177,7 @@ t_recent_workspace.xml
 
 ## Projecten delen {#task_5911780D90164F3A8A677C8BC719750D}
 
-Gedeelde projecten zijn beschikbaar voor alle Ad hoc analysis gebruikers in het bedrijf.
+Gedeelde projecten zijn beschikbaar voor alle Ad Hoc Analysis-gebruikers in het bedrijf.
 
 <!-- 
 
