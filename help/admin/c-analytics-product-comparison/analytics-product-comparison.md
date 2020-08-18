@@ -2,7 +2,7 @@
 description: Systeemvereisten en een vergelijking van Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse en Data Workbench
 title: Analytics-productvergelijking en -vereisten
 translation-type: tm+mt
-source-git-commit: 3a822c1c52a072f92a402810ec643a499c81b76d
+source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 39%
@@ -28,7 +28,7 @@ Ga [hier](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)voo
 | **Zichtbare rijlimiet (vóór paginering)** | 400 | 200 | 50000 | Onbeperkt | Onbeperkt | Onbeperkt | 50000 |
 | **Meerdere rapportsuites** | [Ja](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Ja, met beperkingen | Ja | Nee | Ja | Nee | Ja |
 | **Aantal uitsplitsingen** | Onbeperkt | Maximaal 2 | Maximaal 2 | Onbeperkt | Onbeperkt | Onbeperkt | Onbeperkt, uitvoeren op meerdere query&#39;s |
-| **Segmentatie** <br> [Meer informatie](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) | Ja | Ja | Ja | Ja, met [beperkingen](/help/components/c-segmentation/seg-reference/seg-compatibility.md) | Ja | Nee | Ja |
+| **Segmentatie** <br> [Meer informatie](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Ja | Ja | Ja | Ja, met [beperkingen](/help/components/segmentation/seg-reference/seg-compatibility.md) | Ja | Nee | Ja |
 | **Berekende standaarden** <br> [Meer informatie](/help/components/c-calcmetrics/cm-overview.md) | Ja, met [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Ja | Ja | Nee | Ja | Nee | Ja, met [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Marketingkanalen** <br> [Meer informatie](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Ja | Ja | Ja | Ja | Ja | Ja - [va_finder, va_near](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Ja |
 | **Cohortanalyse** | [Ja](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Nee | Nee | Nee | Ja | Nee | Nee |
