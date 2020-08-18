@@ -5,7 +5,7 @@ title: Virtuele rapportreeksen en tagging met meerdere suite-overwegingen
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 0%
@@ -35,9 +35,9 @@ Segmenten kunnen nog niet naar Adobe Experience Cloud worden gepubliceerd vanuit
 
 ### In real time en huidige gegevens
 
-Realtime rapporten worden niet gesteund in virtuele rapportreeksen, omdat het gegeven wordt gesegmenteerd. De huidige gegevens worden ook niet gesteund in virtuele rapportreeksen, aangezien het geen segmentatie steunt. Beide functies zijn specifiek voor Reports &amp; Analytics.
+Realtime rapporten worden niet gesteund in virtuele rapportreeksen, omdat het gegeven wordt gesegmenteerd. De huidige gegevens worden ook niet gesteund in virtuele rapportreeksen, aangezien het geen segmentatie steunt. Beide functies zijn specifiek voor Rapporten en Analytics.
 
-[Real-time rapporten](/help/admin/admin/realtime/t-realtime-admin.md) en [Huidige Gegevens](/help/technotes/latency.md) zijn niet beschikbaar in virtuele rapportreeksen. Dit is van invloed op gebruikers die reageren op trends die worden weergegeven in Rapporten en Analytics binnen enkele seconden of minuten na het verzamelen van gegevens. Dit kunnen bijvoorbeeld editors in een nieuwsruimte omvatten die kopregels aanpassen op basis van realtime-inhoudsverbruik. U kunt overwegen tags toe te voegen aan meerdere suite als u over belangrijke realtime gegevens beschikt die specifiek zijn voor de afzonderlijke rapportsuite. Real-time en huidige gegevens kunnen nog steeds worden gebruikt in de algemene rapportsuite.
+[Real-time rapporten](/help/admin/admin/realtime/t-realtime-admin.md) en [Huidige Gegevens](/help/technotes/latency.md) zijn niet beschikbaar in virtuele rapportreeksen. Dit is van invloed op gebruikers die reageren op trends die worden weergegeven in Rapporten en Analytics binnen seconden of enkele minuten na het verzamelen van gegevens. Dit kunnen bijvoorbeeld editors in een nieuwsruimte omvatten die kopregels aanpassen op basis van realtime-inhoudsverbruik. U kunt overwegen tags toe te voegen aan meerdere suite als u over belangrijke realtime gegevens beschikt die specifiek zijn voor de afzonderlijke rapportsuite. Real-time en huidige gegevens kunnen nog steeds worden gebruikt in de algemene rapportsuite.
 
 ### Unieke limieten
 
@@ -97,11 +97,11 @@ Als u ervoor kiest om secundaire servervraag ten gunste van virtuele rapportsuit
 
 1. Creeer virtuele rapportreeksen om de gegevens in uw reeksen van het kindrapport aan te passen. Segment op een aangepaste dimensie die uw sites van elkaar onderscheidt.
    * Als u van een bestaande multi-suite geëtiketteerde implementatie migreert, vergelijk de segmenten van de virtuele rapportreeks met uw bestaande reeksen van het kindrapport. U wilt ervoor zorgen dat de gegevens vergelijkbaar zijn voordat u gebruikers naar de virtuele rapportsuite verplaatst.
-   * Als beste praktijken, denk na gebruikend [segment het stapelen](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) zodat kunt u een segment in één plaats uitgeven en het hebben op alle afhankelijke virtuele rapportreeksen van toepassing zijn.
+   * Als beste praktijken, denk na gebruikend [segment het stapelen](/help/components/segmentation/segmentation-workflow/seg-build.md) zodat kunt u een segment in één plaats uitgeven en het hebben op alle afhankelijke virtuele rapportreeksen van toepassing zijn.
    * Gebruik raakcontainers als u virtuele rapportsuites wederzijds wilt uitsluiten.
 2. Nadat u hebt bevestigd dat de virtuele rapportreeksen correct opstelling zijn, verwijder de secundaire identiteitskaart van de rapportreeks uit uw implementatie. Secundaire rapportsuites verwijderen:
    * Klik in Adobe Experience Platform Launch op de X naast een rapportsuite die u niet meer wilt gebruiken.
-   * Zoek in DTM de eigenschap en het gereedschap Analytics. Verwijder de namen van de rapportsuite-id&#39;s die u niet meer wilt gebruiken in de velden Productieaccount-id en Staging Account ID.
+   * Zoek in DTM de eigenschap en het hulpprogramma Analytics. Verwijder de namen van de rapportsuite-id&#39;s die u niet meer wilt gebruiken in de velden Productieaccount-id en Staging Account ID.
    * Zoek in verouderde JavaScript-implementaties de `s.account` variabele op en verwijder de id&#39;s van de rapportsuite die u niet meer wilt gebruiken.
    * Laat in alle gevallen alleen de id van de algemene rapportensuite/bovenliggende rapportsuite staan voor het verzamelen van gegevens voor uw sites en apps.
    * Navigeer naar Beheer > Rapportagesuites en verberg secundaire rapportsuites die niet meer worden gebruikt.
