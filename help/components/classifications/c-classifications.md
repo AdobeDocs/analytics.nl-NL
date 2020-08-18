@@ -1,19 +1,16 @@
 ---
-description: Een classificatie is een manier om de veranderlijke gegevens van Analytics te categoriseren, dan tonend de gegevens op verschillende manieren wanneer u rapporten produceert.
-subtopic: Classifications
-title: Informatie over classificaties
-topic: Admin tools
-uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
+title: Overzicht van classificaties
+description: Pas de groepering van dimensie-items aan.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
 
 
-# Informatie over classificaties
+# Overzicht van classificaties
 
 Een classificatie is een manier om de veranderlijke gegevens van Analytics te categoriseren, dan tonend de gegevens op verschillende manieren wanneer u rapporten produceert.
 
@@ -27,17 +24,9 @@ Wanneer het classificeren, vestigt u een verband tussen de variabele en de meta-
 
 Zodra geclassificeerd, kan om het even welk rapport dat u het gebruiken van de zeer belangrijke variabele kunt produceren ook worden geproduceerd gebruikend de bijbehorende attributen. U kunt bijvoorbeeld classificeren [!UICONTROL Product IDs] met extra productkenmerken, zoals productnaam, kleur, grootte, beschrijving en SKU. Het uitbreiden van rapportage- en analysegegevens met aanvullende kenmerken biedt diepere en complexere rapportagemogelijkheden.
 
->[!IMPORTANT]
->
->De mogelijkheid om classificaties met numerieke waarden 2 en datum in te voeren is uit de codebase verwijderd. Deze wijziging wordt van kracht met ingang van het onderhoudscontract van juni 2019. Als u Numerieke of Datum-Toegelaten kolommen in uw de invoerdossier hebt, zullen die cellen stil worden genegeerd, en om het even welke andere gegevens binnen dat dossier zullen worden ingevoerd als normaal. Bestaande classificaties kunnen nog steeds worden geëxporteerd via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage.
-
->[!NOTE]
->
->In 10 mei 2018, de uitgave van het Onderhoud van Analytics, begon Adobe de functionaliteit van datum-toegelaten en numerieke classificaties te beperken. Deze classificatietypen zijn verwijderd uit de interfaces Admin en Classification Importer. Er kunnen geen nieuwe datums en numerieke classificaties worden toegevoegd. Bestaande classificaties kunnen nog steeds worden beheerd (geüpload naar, verwijderd) via de standaardclassificatieworkflow en blijven beschikbaar in de rapportage.
-
 Nadat u de classificaties hebt gemaakt, kunt u de nieuwe gegevenskenmerken in Adobe Analytics gebruiken.
 
-**Voorbeeld van trackingcodes**
+## Voorbeeld van trackingcodes
 
 Veronderstel dat in plaats van het bekijken van campagnes enkel door het volgen code, u campagneresultaten door de Motor van het Onderzoek, het Sleutelwoord, en het Kanaal van de Campagne wilt zien. In plaats van conversievariabelen voor elk van deze variabelen te wijden, kunt u drie classificaties van de campagnevariabele maken om de Motor van het Onderzoek, het Sleutelwoord, en het Kanaal van de Campagne te vertegenwoordigen. Met deze strategie kunt u de gebeurtenissen voor het succes van de site weergeven voor alle vier de variabelen, zonder extra tags.
 
