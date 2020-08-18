@@ -3,7 +3,7 @@ title: Technische documentatie-updates voor Adobe Analytics
 description: Belangrijke updates van de Adobe Analytics-documentatieopslagplaats.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: de7783174d55c03ac73140e8ab05005284788459
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 97%
@@ -24,9 +24,9 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Datum | Beschrijving |
 |---|---|
-| 21 juli 2020 | Belangrijke updates en revisies voor [Cross-Device Analytics](/help/components/cda/overview.md). Toegevoegde stitching op [basis van veld](/help/components/cda/field-based-stitching.md). |
+| 21 juli 2020 | Belangrijke updates en herzieningen van [apparaatanalyse](/help/components/cda/overview.md). Toegevoegde stitching op [basis van veld](/help/components/cda/field-based-stitching.md). |
 | 28 april 2020 | Toegevoegde documentatie met cijfers over [Contentsnelheid](/help/components/metrics/content-velocity.md). |
-| 12 maart 2020 | Toegevoegde updates van [Segmenten publiceren naar Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md). |
+| 12 maart 2020 | Toegevoegde updates van [Segmenten publiceren naar Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 maart 2020 | Updates van CDA-stitchinglatentie. |
 | 27 februari 2020 | Toegevoegde documentatie over [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). |
 | 25 februari 2020 | Toegevoegde variabele [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md). |
