@@ -5,10 +5,10 @@ user-guide-title: Analytics Components-handleiding
 user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 58%
+source-wordcount: '612'
+ht-degree: 57%
 
 ---
 
@@ -219,11 +219,7 @@ ht-degree: 58%
    + [Waarschuwingsbeheer](c-alerts/alert-manager.md)
    + [Intelligente waarschuwingen - gebruiksscenario&#39;s](c-alerts/alerts-use-cases.md)
 + Classificaties {#classifications}
-   + [Informatie over classificaties](classifications/c-classifications.md)
-   + [Informatie over subclassificaties](classifications/c-sub-classifications.md)
-   + [Conversieclassificaties](classifications/conversion-classifications.md)
-   + [Verkeersclassificaties](classifications/traffic-classifications.md)
-   + [Classificatiehiërarchieën](classifications/classification-hierarchies.md)
+   + [Overzicht van classificaties](classifications/c-classifications.md)
    + Invoerder van classificaties {#classifications-importer}
       + [Importeren van classificaties - overzicht](classifications/importer/c-working-with-saint.md)
       + [Classificatiedatabestanden](classifications/importer/c-saint-data-files.md)
@@ -242,6 +238,8 @@ ht-degree: 58%
       + [Classificatieregels](classifications/crb/classification-quickstart-rules.md)
       + [Classificatieregels - definities](classifications/crb/classification-rule-definitions.md)
       + [Subclassificaties en de Rule Builder](classifications/crb/sub-classification-rule-builder.md)
+   + [Subclassificaties](classifications/c-sub-classifications.md)
+   + [Veelgestelde vragen over classificaties](classifications/faq.md)
 + [Kalendergebeurtenissen](t-calendar-event.md)
 + Realtimerapportage {#real-time-reporting}
    + [Overzicht van realtimerapportage](c-real-time-reporting/realtime.md)
