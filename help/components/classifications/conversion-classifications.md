@@ -5,7 +5,7 @@ title: Conversieclassificaties
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Classificaties worden gebruikt om waarden in groepen te categoriseren en op groe
 
 Met conversieclassificaties kunt u conversievariabelen classificeren. Zodra geclassificeerd, kan om het even welk rapport dat u het gebruiken van de zeer belangrijke gegevens kunt produceren ook worden geproduceerd gebruikend de bijbehorende gegevenseigenschappen.
 
-Nadat classificaties zijn ingeschakeld, gebruikt u de [Classificatieimportmodule](/help/components/classifications/c-classifications-importer/c-working-with-saint.md) om specifieke waarden aan de juiste classificatie toe te wijzen.
+Nadat classificaties zijn ingeschakeld, gebruikt u de [Classificatieimportmodule](/help/components/classifications/importer/c-working-with-saint.md) om specifieke waarden aan de juiste classificatie toe te wijzen.
 
 ## Omzettingsclassificatiebeschrijvingen {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
