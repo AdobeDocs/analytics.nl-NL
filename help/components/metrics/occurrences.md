@@ -2,9 +2,9 @@
 title: Voorvallen
 description: Het aantal treffers dat een variabele is ingesteld of geduurd.
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '153'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ De metrische waarde &#39;Voorkomt&#39; toont het aantal treffers waar een bepaal
 
 ## Hoe deze metrische waarde wordt berekend
 
-Van alle klare resultaten in een rapportreeks, omvat klappen waar een afmetingspunt wordt bepaald of voortgeduurd. Bepaalde afmetingen, zoals [eVars](../dimensions/evar.md), blijven bestaan na de hit waarop ze zijn ingesteld. Metriek zoals de [paginaweergaven](page-views.md) en [Voorvallen](occurrences.md) tellen zowel initiële als permanente waarden.
+Van alle klare resultaten in een rapportreeks, omvat klappen waar een afmetingspunt wordt bepaald of voortgeduurd. Bepaalde afmetingen, zoals [eVars](../dimensions/evar.md), blijven bestaan na de hit waarop ze zijn ingesteld. Deze metrische tellingen zowel aanvankelijke als persistelde waarden.
 
 ## Vergelijken met vergelijkbare cijfers
 
