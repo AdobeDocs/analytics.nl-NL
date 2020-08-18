@@ -2,14 +2,17 @@
 title: JavaScript-implementatie problemen oplossen
 description: Meer informatie over algemene problemen en aanbevolen procedures voor het oplossen van problemen met uw JavaScript-implementatie.
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 1%
 
 ---
 
 
 # JavaScript-implementatie problemen oplossen
 
-Hieronder volgt een aantal redenen waarom uw organisatie problemen kan hebben met het correct opnemen van gegevens in Adobe Analytics.
+Hieronder volgt een aantal redenen waarom uw organisatie problemen kan hebben met het correct ophalen van gegevens in Adobe Analytics.
 
 ## Aanhalingstekens gebruiken
 
@@ -48,7 +51,7 @@ Sommige variabelen gebruiken hoofdletters. JavaScript-variabelen zijn hoofdlette
 
 ## Plug-ins
 
-Sommige organisaties gebruiken insteekmodules om hun implementatie van Adobe Analytics te verbeteren. Vergeet niet om geïnstalleerde plug-ins opnieuw op te nemen wanneer u AppMeturement-versies bijwerkt. De code die in de code wordt gemaakt, bevat [!UICONTROL Code Manager] geen insteekcode. Maak een exemplaar van uw bestaande code voor het geval u aan een vorige versie van AppMeasurement moet terugkeren.
+Sommige organisaties gebruiken insteekmodules om de implementatie van Adobe Analytics te verbeteren. Vergeet niet om geïnstalleerde plug-ins opnieuw op te nemen wanneer u AppMeturement-versies bijwerkt. De code die in de code wordt gemaakt, bevat [!UICONTROL Code Manager] geen insteekcode. Maak een exemplaar van uw bestaande code voor het geval u aan een vorige versie van AppMeasurement moet terugkeren.
 
 ## Witruimte in variabele waarden
 
@@ -78,3 +81,30 @@ s.pageName = "        Home Page";
 ```
 
 Deze twee variabelewaarden worden in Adobe Analytics als afzonderlijk beschouwd. De witruimte wordt echter automatisch verwijderd voor weergavedoeleinden. Het resultaat is een rapport waarin twee schijnbaar identieke regelitems voor de &quot;startpagina&quot; worden weergegeven. Controleer of de waarden van variabelen geen witruimte voor of na de gewenste waarde bevatten.
+
+## Verzoeken om afgekapte afbeelding
+
+Implementaties die veel variabelen vullen met lange waarden, kunnen soms worden uitgevoerd in afgebroken afbeeldingsaanvragen. Sommige oudere browsers, zoals Internet Explorer, leggen een limiet van 2083 tekens op voor het aanvragen van URL&#39;s voor afbeeldingen. Als uw organisatie met zeer lange beeldverzoeken wordt geconfronteerd, probeer het volgende:
+
+* **Gebruik de Experience Cloud ID-service**: In AppMeasurement-bibliotheken 1.4.1 en hoger worden afbeeldingsaanvragen automatisch verzonden met HTTP-POST als deze te lang zijn. Gegevens die met deze methode worden verzonden, worden niet afgebroken, ongeacht de lengte. Zie [Adobe Experience Cloud ID service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) voor meer informatie.
+* **Verwerkingsregels** gebruiken: [Met verwerkingsregels](/help/admin/admin/c-processing-rules/processing-rules.md) kunt u waarden van de ene variabele naar de andere kopiëren. Met deze methode hoeft u niet dezelfde waarde in meerdere variabelen in te stellen. Bijvoorbeeld:
+
+   Altijd uitvoeren:<br>
+Overschrijf waarde van prop1 met eVar1<br>overschrijven waarde van eVar2 met eVar1<br>overschrijven waarde van prop2 met eVar1<br>
+
+   Stel vervolgens eVar1 in in uw implementatie:
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   ```
+
+* **Dynamische variabelen** gebruiken: Als in uw implementatie veel variabelen met dezelfde waarde worden gevuld, kunt u [dynamische variabelen](/help/implement/vars/page-vars/dynamic-variables.md) gebruiken om de aanvraag-URL in te korten:
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   s.eVar2 = "D=v1";
+   s.prop1 = "D=v1";
+   s.prop2 = "D=v1";
+   ```
+
+* **Classificaties** gebruiken: Als het product of de paginanamen ongebruikelijk lang zijn, kunt u een het identificeren waarde of code gebruiken, dan [classificaties](/help/components/classifications/c-classifications.md) gebruiken om een vriendelijkere naam te tonen.
