@@ -1,29 +1,39 @@
 ---
-description: Het logbestand is een tekstbestand dat de server gebruikt om gegevens op te slaan die betrekking hebben op het moment dat bestanden van een website worden opgehaald. Enkele informatie die wordt verzameld omvat datum en tijd, gediende URL, IP adressen, status van het verzoek, etc.
 title: Logbestand
-topic: Ad hoc analysis
-uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
+description: Vraag een logbestand aan voor probleemoplossing.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 4%
+source-wordcount: '195'
+ht-degree: 2%
 
 ---
 
 
 # Logbestand
 
-Het logbestand is een tekstbestand dat de server gebruikt om gegevens op te slaan die betrekking hebben op het moment dat bestanden van een website worden opgehaald. Enkele informatie die wordt verzameld omvat datum en tijd, gediende URL, IP adressen, status van het verzoek, etc.
+Wanneer het oplossen van problemenkwesties met Ad Hoc Analysis, is het soms noodzakelijk om zijn logboekdossier te verkrijgen. Adobe kan het logboekdossier gebruiken om van de worteloorzaak van de kwestie de plaats te bepalen en een resolutie te verstrekken. Het `discover.log` bestand bevat alle gebruikersinteracties, gegevens over het laden van rapporten en Java-foutberichten voor alle sessies. Alle beveiligde gegevens, zoals het wachtwoord van de gebruiker, worden gehasht. Grote logbestanden worden opgedeeld in stappen van 10 MB. Zorg ervoor dat alle bestanden zijn geselecteerd wanneer u Adobe de logbestanden verschaft.
 
-U kunt een logbestand snel opslaan en weergeven door:
+## Windows
 
-1. Klik op **[!UICONTROL Help]** > **[!UICONTROL About Ad Hoc Analysis]**
+Haal het `discover.log` bestand voor Windows op:
 
-1. Klik op het **[!UICONTROL Ad Hoc Analysis]** logo.
-1. Klik op **[!UICONTROL Save Log File]**.
+1. Klik op het beginmenu en selecteer **Uitvoeren** of druk op `[Win]` + `[R]`.
+2. Plak het volgende in het tekstveld en klik op **OK**:
 
->[!NOTE]
->
->Het logboek u sparen gebruikend deze procedure is voor de huidige zitting.
+   ```text
+   %appdata%/../Local/Adobe/Discover/log
+   ```
 
+3. Markeer alle bestanden in de map, klik met de rechtermuisknop en kies **Verzenden naar > Gecomprimeerde (gecomprimeerde) map**.
+4. Geef het ZIP-bestand door aan de Adobe-vertegenwoordiger.
+
+## Mac
+
+Ga als volgt te werk om het `discover.log` bestand voor Mac OS te verkrijgen:
+
+1. Open de Finder en navigeer naar `/Users/your-user/.adobe/Discover/log`
+2. Markeer alle bestanden in de map, klik met de rechtermuisknop en kies **Comprimeren**.
+3. Geef het ZIP-bestand door aan de Adobe-vertegenwoordiger.
+
+Als de totale grootte van een gecomprimeerde bestand groter is dan 10 MB, kan een Adobe-medewerker een tijdelijke FTP-locatie opgeven.
