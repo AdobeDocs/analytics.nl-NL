@@ -5,7 +5,7 @@ title: Workflow van de Builder voor classificatieregels
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Hier volgen de stappen op hoog niveau die u onderneemt om classificatieregels to
 | Stap 4: [Classificatieregels toevoegen aan de set](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] > &lt;uw regelset> | Pas een voorwaarde aan een classificatie aan, en dan specificerend de actie voor de regel te nemen.  Ben vertrouwd met de informatie in [hoe de Regels worden verwerkt](/help/components/classifications/crb/classification-quickstart-rules.md). |
 | Stap 5: [Een set classificatieregel testen](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | U zult regels voor bevestiging willen testen door hen op de wijze van het Ontwerp uit te geven. In de conceptmodus kunnen regels niet worden uitgevoerd.<br>Deze stap is belangrijk bij het gebruik van [reguliere expressies](/help/components/classifications/crb/classification-quickstart-rules.md). |
 | Stap 6: [Voer geldige regels](/help/components/classifications/crb/classification-rule-definitions.md)in. | [!DNL Rules Page] | Zodra de regels geldig zijn, activeer de regelreeks.  Indien nodig kunt u bestaande toetsen overschrijven. Zie [Hoe regels worden verwerkt](/help/components/classifications/crb/classification-quickstart-rules.md). |
-| Stap 7 (optioneel): [Verwijder ongewenste regels](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Verwijder ongewenste regels uit een set.<br>Opmerking:  Als u regels verwijdert, worden geüploade gerubriceerde gegevens niet verwijderd.  Zie Classificatiegegevens [](/help/components/classifications/c-classifications-importer/t-delete-classification-data.md) verwijderen als u geclassificeerde gegevens moet verwijderen. |
+| Stap 7 (optioneel): [Verwijder ongewenste regels](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Verwijder ongewenste regels uit een set.<br>Opmerking:  Als u regels verwijdert, worden geüploade gerubriceerde gegevens niet verwijderd.  Zie Classificatiegegevens [](/help/components/classifications/importer/t-delete-classification-data.md) verwijderen als u geclassificeerde gegevens moet verwijderen. |
 
 >[!NOTE]
 >
