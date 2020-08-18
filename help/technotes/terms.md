@@ -2,7 +2,7 @@
 title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Gegevensconnectors:** Een volledige ontwikkelingsoplossing waarmee een derde het uploaden van gegevens naar Adobe Analytics kan automatiseren. De klanten van die derde kunnen een gegevensschakelaar gebruiken om hun gegevens in Adobe Analytics te verrijken. De meeste gegevensschakelaars gebruiken een gelijkaardige werkschema dat in Gegevensbronnen wordt gebruikt. Zie Gegevensverbindingen in de gebruikershandleiding bij Importeren.
 * **Gegevensinvoer:** Een onbewerkte gegevensexport waarin elke hit als een rij wordt weergegeven en variabelen als afzonderlijke kolommen. Meestal gebruikt voor het exporteren van Adobe Analytics-gegevens naar een database van derden. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding bij Exporteren.
 * **Gegevensbronnen:** Hiermee kan een gebruiker gegevens uit een bestand uploaden naar Adobe Analytics. Het bestand wordt doorgaans uit een FTP-site opgehaald. Zie [Gegevensbronnen](/help/import/c-data-sources/datasrc-home.md) in de de gebruikersgids van de Invoer.
-* **Data warehouse:** Een functie in Adobe Analytics waarmee u grotere rapporten kunt aanvragen. Zie [Data warehouse](/help/export/data-warehouse/data-warehouse.md) in de gebruikershandleiding bij Exporteren.
+* **Data Warehouse:** Een functie in Adobe Analytics waarmee u grotere rapporten kunt aanvragen. Zie de [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) in de gebruikershandleiding bij Exporteren.
 * **Dimension:** Een componenttype dat variabele waarden bevat, zoals tekst. Voorbeelden zijn Paginanaam, Trackingcode of Referentiedomein. Een metrisch is typisch zijn tegenhanger.
 * **Dynamisch tagbeheer:** Adobe Zie Overzicht [van](/help/implement/other/dtm/dtm-implementation-overview.md) DTM-implementatie in de gebruikershandleiding Implementeren. Adobe raadt aan in plaats daarvan Adobe Experience Platform Launch te gebruiken.
 * **Serienummering voor gebeurtenissen:** Het proces van uitvoeringsmaatregelen om het verzamelen van dubbele gebeurtenissen te voorkomen. Zie [Gebeurtenisserialisatie](../implement/vars/page-vars/events/event-serialization.md) in de gebruikershandleiding Implementeren.
@@ -95,8 +95,8 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **s_code.js:** De naam van het JavaScript-bestand dat in historische versies van Adobe Analytics wordt gebruikt. De huidige naam van het JavaScript-bestand dat wordt gebruikt, is AppMeasurement.js.
 * **Satelliet:** Niet meer gebruikt als een term. De voormalige productnaam voor Dynamic Tag Management.
 * **Tweede serveraanroep:** Alternatieve naam voor het aanvragen of aanwijzen van afbeeldingen, meestal gebruikt voor tags en facturering met meerdere suite. Wanneer de zelfde klap naar veelvoudige rapportreeksen wordt verzonden, zijn alle rapportreeksen na de eerste vermelde secundaire servervraag. Zie ook Primaire serveraanroepen.
-* **Segment:** Hiermee kunt u zich concentreren op een specifieke subset van uw gegevens. Zie [Segmentatie](/help/components/c-segmentation/seg-overview.md) in de de gebruikersgids van Componenten.
-* **Segmentcontainer:** Het deel van een segment dat bepaalt hoeveel gegevens moeten worden ingevoerd. Containers kunnen worden gebaseerd op paginaweergave, bezoek of bezoeker. Zie [Segmentatie](/help/components/c-segmentation/seg-overview.md) in de de gebruikersgids van Componenten.
+* **Segment:** Hiermee kunt u zich concentreren op een specifieke subset van uw gegevens. Zie [Segmentatie](/help/components/segmentation/seg-overview.md) in de de gebruikersgids van Componenten.
+* **Segmentcontainer:** Het deel van een segment dat bepaalt hoeveel gegevens moeten worden ingevoerd. Containers kunnen worden gebaseerd op paginaweergave, bezoek of bezoeker. Zie [Segmentatie](/help/components/segmentation/seg-overview.md) in de de gebruikersgids van Componenten.
 * **Serienummering:** Zie Gebeurtenisserialisatie.
 * **Serveroproep:** Alternatieve naam voor een afbeeldingsaanvraag of hit, meestal gebruikt voor facturering.
 * **Enkelvoudige toegang:** Een bezoek waarbij een dimensie slechts één unieke waarde had. Het bezoek kan meerdere treffers hebben, zolang er niet meerdere unieke waarden zijn. Zie [Enige toegang](/help/components/metrics/single-access.md) metrisch in de de gebruikersgids van Componenten. Zie ook Stuiteren.
