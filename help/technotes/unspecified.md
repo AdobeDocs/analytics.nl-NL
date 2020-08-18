@@ -1,27 +1,27 @@
 ---
-description: Afhankelijk van het bekeken specifieke rapport kunnen in Adobe Analytics verschillende rapporten worden weergegeven met de naam Unspecified, Other of Unknown. Over het algemeen betekent dit regelitem dat de variabele niet is gedefinieerd of anderszins niet beschikbaar is.
-title: Niet opgegeven, Overige en Onbekend in rapportage
+description: Afhankelijk van het bekeken specifieke rapport kunnen in Adobe Analytics de rapporten Unspecified, None, Other of Unknown worden weergegeven. Over het algemeen betekent dit regelitem dat de variabele niet is gedefinieerd of anderszins niet beschikbaar is.
+title: Niet opgegeven, Geen, Overige en Onbekend in rapportage
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: fc54cb27f365015b6c7716d68bfc4cbe80b40b8b
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
 
 
-# &quot;Unspecified&quot;, &quot;Other&quot; en &quot;Unknown&quot; in reporting
+# &quot;Unspecified&quot;, &quot;None&quot;, &quot;Other&quot; en &quot;Unknown&quot; in reporting
 
-In verschillende rapporten in Adobe Analytics kunt u &quot;Niet opgegeven&quot;, &quot;Ander&quot; of &quot;Onbekend&quot; weergeven, afhankelijk van het bekeken specifieke rapport. Over het algemeen betekent dit regelitem dat de variabele niet is gedefinieerd of anderszins niet beschikbaar is. Het volgende verstrekt een uitvoerige lijst van hoe elk rapport één van deze lijnpunten kan hebben.
+Afhankelijk van het bekeken specifieke rapport kunnen in Adobe Analytics verschillende rapporten &quot;Unspecified&quot;, &quot;Other&quot; of &quot;Unknown&quot; (Onbekend) worden weergegeven. Over het algemeen betekent dit regelitem dat de variabele niet is gedefinieerd of anderszins niet beschikbaar is. Het volgende verstrekt een uitvoerige lijst van hoe elk rapport één van deze lijnpunten kan hebben.
 
-## &quot;Niet gespecificeerd&quot; in de rapportage
+## &quot;Niet gespecificeerd&quot; (of &quot;Geen&quot;) in rapportage
 
-&quot;Niet gespecificeerd&quot; is een vrij algemeen lijnpunt in rapporten.
+&quot;Niet gespecificeerd&quot; is een vrij algemeen lijnpunt in rapporten. Het wordt ook vaak aangeduid als &quot;Geen&quot;.
 
 * **Een gebeurtenis wordt zonder conversievariabele geactiveerd:** Een gebruiker komt bijvoorbeeld naar uw site en koopt deze zonder eVar1-waarde. Als u orden gebruikend de afmeting eVar1 bekijkt, is er geen waarde om deze orde aan toe te schrijven. Daarom wordt deze automatisch toegewezen aan &quot;Niet gespecificeerd&quot;.
 * **Niet-geclassificeerde gegevens in classificatierapporten:** Wanneer het bekijken van classificatiegegevens, om het even welke waarde die geen gegevens verbonden aan die bepaalde classificatie heeft &quot;Niet gespecificeerd&quot;terugkeert. U lost dit probleem op door de waarde van de bovenliggende variabele in te delen.
 * **Uitsplitsingsrapporten waarin slechts één variabele is geactiveerd:** Wanneer u een uitsplitsing toepast op een variabele, moet elke instantie van die variabele administratief worden verwerkt. Als de tweede variabele niet werd gezien of als het van een vorige klap voorthield, is het afmetingspunt &quot;Niet gespecificeerd&quot;.
-* **Niet-mobiele hits in mobiele rapporten:** Niet-mobiele treffers in mobiele rapporten worden weergegeven als &quot;Niet opgegeven&quot; (&quot;Niet mobiel&quot; in Rapporten en Analytics).
+* **Niet-mobiele hits in mobiele rapporten:** Niet-mobiele treffers in mobiele rapporten worden weergegeven als &quot;Niet opgegeven&quot; (&quot;Niet mobiel&quot; in Reports and Analytics).
 
 ## &quot;Overige&quot; in de rapportage
 
