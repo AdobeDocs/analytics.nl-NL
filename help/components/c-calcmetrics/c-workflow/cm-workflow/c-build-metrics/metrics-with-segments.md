@@ -1,14 +1,17 @@
 ---
 description: Het segmenteren op individuele metriek staat u toe om metrische vergelijkingen binnen het zelfde rapport te maken. (Alleen afgeleide cijfers)
-title: Gesegmenteerde metriek
+title: Gesegmenteerde cijfers
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 0%
 
 ---
 
 
-# Gesegmenteerde metriek
+# Gesegmenteerde cijfers
 
 Het segmenteren op individuele metriek staat u toe om metrische vergelijkingen binnen het zelfde rapport te maken. (Alleen afgeleide cijfers)
 
@@ -28,7 +31,7 @@ Laten we de eerste vraag nader onderzoeken: Hoe vergelijk het gedrag van bladere
 
    >[!NOTE]
    >
-   >U kunt dit ook doen in de Bouwer [van het](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)Segment, maar wij hebben het werkschema vereenvoudigd door dimensies ter beschikking te stellen in Berekende Metrische Bouwer.
+   >U kunt dit ook doen in de Bouwer [van het](/help/components/segmentation/segmentation-workflow/seg-build.md)Segment, maar wij hebben het werkschema vereenvoudigd door dimensies ter beschikking te stellen in Berekende Metrische Bouwer.
 
    >[!NOTE]
    >
@@ -40,7 +43,7 @@ Laten we de eerste vraag nader onderzoeken: Hoe vergelijk het gedrag van bladere
    ![](assets/german-visitors.png)
 
 1. Herhaal Stap 3 met het Internationale segment van Bezoekers en de Unieke metrisch van Bezoekers om Internationale metrische Bezoekers tot stand te brengen.
-1. In de Werkruimte van de Analyse, sleep de **[!UICONTROL Page]** Dimensie in een Lijst van de Vrije Vorm en sleep de 2 nieuwe berekende metriek naast elkaar aan bovenkant:
+1. Sleep in Analysis Workspace de **[!UICONTROL Page]** Dimension naar een tabel voor vrije vorm en sleep de twee nieuwe berekende meetgegevens naast elkaar naar de bovenkant:
 
    ![](assets/workspace-pages.png)
 
