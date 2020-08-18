@@ -3,7 +3,7 @@ description: Een overzicht van het menu Rapporten in Rapporten & Analytics.
 title: Menu Rapporten
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Zie [Rapportbeschrijvingen](https://docs.adobe.com/content/help/en/analytics/com
 
 ## Zoeken naar rapporten {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-Het menu Rapporten biedt een verbeterde zoekervaring. Klik **[!UICONTROL View All Reports]** , of druk de sleutel van de Schatting van de Voorwaartse (/), en begin dan te typen om een rapport snel te vinden. Het zoeken naar rapporten is uitgebreid en omvat alles in de linkernavigatie van Analytics (Admin, Componenten, enz.).
+Het menu Rapporten biedt een verbeterde zoekervaring. Klik **[!UICONTROL View All Reports]** , of druk de sleutel van de Schatting van de Voorwaartse (/), en begin dan te typen om een rapport snel te vinden. De rapportzoekopdracht is uitgebreid en bevat nu alles in de linkernavigatie Analytics (Admin, Components, enz.).
 
 ![](assets/menu-search.png)
 
@@ -42,7 +42,7 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
 
 >[!NOTE]
 >
->U kunt de rapportlijst ook doorzoeken op basis van een verwijzing, eVar en het gebeurtenisnummer. Voer op de zoekbalk de eigenschap Prop, Var of het gebeurtenisnummer in.
+>U kunt de rapportlijst ook doorzoeken op basis van eigenschap, eVar en gebeurtenisnummer. Voer op de zoekbalk de waarde voor de eigenschap, de eVar of het gebeurtenisnummer in.
 
 ## Overzicht van navigatie {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -56,7 +56,7 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
  <tbody> 
   <tr> 
    <td colname="col1">Menu Experience Cloud-oplossingen <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> Als u op dit pictogram klikt, wordt het Experience Cloud-menu uitgevouwen zodat u toegang hebt tot andere oplossingen voor marketingmogelijkheden. </td> 
+   <td colname="col2"> Als u op dit pictogram klikt, wordt het menu Experience Cloud uitgebreid, zodat u toegang hebt tot andere oplossingen van marketingmogelijkheden. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Menu Rapporten in-/uitschakelen <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -64,7 +64,7 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmenten <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Brings up the segment rail that lets you lets add or manage. U kunt tot de <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  > interfaces van de Bouwer</a> van het Segment en van de Manager <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  ></a> van het Segment van het segmentspoor ook toegang hebben. </td> 
+   <td colname="col2">Brings up the segment rail that lets you lets add or manage. U kunt tot de <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > interfaces van de Bouwer</a> van het Segment en van de Manager <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  ></a> van het Segment van het segmentspoor ook toegang hebben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Cijfers <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -80,11 +80,11 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Mijn favorieten </span> </td> 
-   <td colname="col2">In dit gebied kunt u de rapporten die u hebt gemarkeerd als <span class="uicontrol"> Favoriet</span> , eenvoudig ophalen. Op een per-gebruiker en per-rapport-reeks basis, toont het tien Favorieten en <span class="uicontrol"> meer...</span> als u meer dan tien favorieten hebt. <p>Merk op dat u rapporten maar niet dashboards in Mijn Favorieten kunt anders noemen. </p> <p>Favorieten lijken op bladwijzers, maar ze worden niet in een map opgeslagen en worden niet net als bladwijzers beheerd via <a href="/help/analyze/reports-analytics/bookmarks.md"  > Bladwijzerbeheer</a> . </p> </td> 
+   <td colname="col2">In dit gebied kunt u de rapporten die u hebt gemarkeerd als <span class="uicontrol"> Favoriet</span> , eenvoudig ophalen. Op een per-gebruiker en per-rapport-reeks basis, toont het tien Favorieten en <span class="uicontrol"> meer...</span> als u meer dan tien favorieten hebt. <p>Merk op dat u rapporten maar niet dashboards in Mijn Favorieten kunt anders noemen. </p> <p>Favorieten zijn vergelijkbaar met bladwijzers, maar ze worden niet in een map opgeslagen en worden net als bladwijzers niet via <a href="/help/analyze/reports-analytics/bookmarks.md"  > Bladwijzerbeheer</a> beheerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Veelvuldig weergegeven</span> </td> 
-   <td colname="col2"> Adobe Analytics houdt de tien rapporten bij die u het vaakst in de afgelopen 90 dagen hebt uitgevoerd en toont ze hier, gesorteerd op hoe vaak u ze uitvoert. Als u niet meer dan 90 dagen in deze rapportenreeks bent geweest, vult het de lijst met een algemene lijst van tien populaire rapporten. </td> 
+   <td colname="col2"> Adobe Analytics houdt de tien rapporten bij die u de afgelopen 90 dagen het vaakst hebt uitgevoerd en toont ze hier, gesorteerd op hoe vaak u ze uitvoert. Als u niet meer dan 90 dagen in deze rapportenreeks bent geweest, vult het de lijst met een algemene lijst van tien populaire rapporten. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Rapportgeschiedenis</span> </td> 
