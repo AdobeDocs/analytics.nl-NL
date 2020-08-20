@@ -4,10 +4,10 @@ title: Segmenten publiceren naar Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 627a2b8b35db1bdf08b650de8708c04f2d5718d6
 workflow-type: tm+mt
 source-wordcount: '1274'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -132,6 +132,6 @@ AAM wordt de lijst met bezoekers met ECID&#39;s voor een bepaald segment op stre
 ## Het segment weergeven in [!DNL Adobe Target]
 
 Met het [!UICONTROL Publish this segment to the Experience Cloud] selectievakje tijdens het maken van segmenten in Adobe Analytics kan het segment beschikbaar zijn in de aangepaste publieksbibliotheek van Adobe Target. Een segment dat in Analytics of Audience Manager wordt gecreeerd kan voor activiteiten in Doel worden gebruikt. U kunt bijvoorbeeld campagneactiviteiten maken op basis van de omzettingswaarden voor Analytics en publiekssegmenten die zijn gemaakt in Analytics.
-], click [!UICONTROL Audiences].
-1. Zoek op de [!UICONTROL Audiences] pagina het publiek op dat afkomstig is van de [!DNL Experience Cloud]pagina. Deze doelgroepen zijn beschikbaar voor gebruik in [!DNL Target] activiteiten.
 
+1. Klik op [!UICONTROL Audiences].
+1. Zoek op de [!UICONTROL Audiences] pagina het publiek op dat afkomstig is van de [!DNL Experience Cloud]pagina. Deze doelgroepen zijn beschikbaar voor gebruik in [!DNL Target] activiteiten.
