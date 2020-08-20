@@ -5,7 +5,10 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Paginacode aanpassen
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 8%
 
 ---
 
@@ -14,9 +17,7 @@ source-git-commit: ''
 
 Gebruik veldbeschrijvingen in Dynamisch tagbeheer om paginacode aan te passen bij de implementatie van Analytics.
 
-**[!UICONTROL  *`Property`*]** > **[!UICONTROL ![](assets/settings_gear.png)
-
-Gereedschap Bewerken]* > **[!UICONTROL Customize Page Code]**
+**[!UICONTROL `Property`]** > **[!UICONTROL Edit Tool]** ![](assets/settings_gear.png) > **[!UICONTROL Customize Page Code]**
 
 <table id="table_A4676A5FEE814DF9A05DA0E56F8B4C6D"> 
  <thead> 
