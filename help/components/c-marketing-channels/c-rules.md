@@ -1,16 +1,16 @@
 ---
-title: Verwerkingsregels voor distributiekanalen
+title: Verwerkingsregels voor marketingkanalen
 description: De de verwerkingsregels van het Kanaal van de marketing bepalen als een bezoeker voldoet aan de criteria die aan een kanaal worden toegewezen. De regels verwerken elke hit die een bezoeker op uw site aanbrengt. Wanneer een regel niet aan de criteria voor een kanaal voldoet, of als de regels niet correct worden gevormd, wijst het systeem de slag aan Geen Geïdentificeerd Kanaal toe.
 translation-type: tm+mt
-source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
 workflow-type: tm+mt
 source-wordcount: '2004'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Verwerkingsregels voor distributiekanalen
+# Verwerkingsregels voor marketingkanalen
 
 Regels voor de verwerking van marketingkanalen bepalen of een bezoeker voldoet aan de criteria die aan een kanaal zijn toegewezen door elke hit die een bezoeker op uw site maakt, te verwerken. De regels worden verwerkt in de volgorde die u opgeeft en wanneer aan een regel wordt voldaan, stopt het systeem met het verwerken van de resterende regels.
 
@@ -43,13 +43,13 @@ Deze procedure gebruikt een e-mailregel als voorbeeld. In het voorbeeld wordt er
 
 3. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
 
-   ![Stap resultaat](assets/marketing_channel_rules.png)
+   ![Stap Resultaat](assets/marketing_channel_rules.png)
 
 4. Selecteer in het **[!UICONTROL Add New Rule Set]** menu de optie **[!UICONTROL Email]**.
 
    Hier selecteert u niet uw kanaal, maar een malplaatje dat de regel met een paar noodzakelijke parameters bevolkt. U kunt deze sjabloon naar wens wijzigen.
 
-   ![Stap resultaat](assets/example_email.png)
+   ![Stap Resultaat](assets/example_email.png)
 
 5. Klik op **[!UICONTROL Add Rule]** om door te gaan met het maken van regels.
 6. Als u regels een prioriteit wilt geven, sleept u ze naar de gewenste positie.
@@ -59,7 +59,7 @@ Ga verder op deze pagina om aanbevelingen voor de volgorde van de kanaalregels e
 
 ### De waarde van het marketingkanaal instellen
 
-**[!UICONTROL Add Rule]**Stel de waarde van het kanaal in]**definieert de detaildimensie van het marketingkanaal die beschikbaar is voor dat kanaal. Hierdoor kunt u de afmetingen van het marketingkanaal afbreken en meer gedetailleerde informatie over het kanaal bekijken.
+**[!UICONTROL Add Rule]** **De waarde** van het kanaal instellen definieert de detaildimensie van het marketingkanaal die beschikbaar is voor dat kanaal. Hierdoor kunt u de afmetingen van het marketingkanaal afbreken en meer gedetailleerde informatie over het kanaal bekijken.
 
 U wordt aangeraden de kanaalwaarde in te stellen op dezelfde criteria die worden gebruikt om het kanaal zelf te definiëren. Als bijvoorbeeld de parameter van het vraagkoord wordt gebruikt om het kanaal te bepalen, plaats de parameter van het vraagkoord als kanaalwaarde eveneens.
 
@@ -69,33 +69,33 @@ Deze referentietabel definieert de velden, opties en raakkenmerken die u kunt ge
 
 | Term | Definitie |
 |--- |--- |
-| Alles | Activeert dit kanaal slechts wanneer alle regels in de genummerde regel waar zijn. |
+| Alle | Activeert dit kanaal slechts wanneer alle regels in de genummerde regel waar zijn. |
 | Alle | Activeert dit kanaal wanneer om het even welke regels in de regelreeks waar zijn. Deze optie is alleen beschikbaar als de genummerde regel meer dan één regel bevat. |
-| AMO-id | De primaire trackingcode die wordt gebruikt door de integratie van Advertising Cloud en Advertising Analytics. Wanneer een van deze integraties is ingeschakeld, kunt u het voorvoegsel van de trackingcode gebruiken om specifieke kanalen voor advertenties in de cloud te identificeren. Gebruik &#39;AMO-id&#39; om te beginnen met &#39;AL&#39; voor zoeken, &#39;AC&#39; voor weergave of &#39;AO&#39; voor sociaal. Wanneer de AMO-id wordt gebruikt in marketingkanalen, kunnen de maatstaven voor klikken/kosten/indruk worden toegewezen aan het juiste kanaal (wanneer deze niet zijn geconfigureerd, gaan deze meetgegevens naar Direct of Geen). |
-| AMO ID | De code voor secundaire tracering die wordt gebruikt door Advertising Cloud. Het belangrijkste doel van deze code is om als sleutel te dienen voor het terugsturen van gegevens naar Ad Cloud. Het kan echter ook worden gebruikt om vertoning ClickThroughs vs. display ViewThroughs te identificeren als u deze als twee afzonderlijke marketing kanalen wilt zien. Dit kan worden gedaan door de logica van het marketingkanaal voor &quot;AMO EF ID&quot;einden met &quot;:d&quot;voor Display ClickThroughs of &quot;AMO EF ID&quot;einden met &quot;:i&quot;voor Display ViewThroughs te plaatsen. Als u Weergave niet in twee kanalen wilt splitsen, gebruikt u in plaats daarvan de dimensie AMO-id. |
+| AMO-id | De primaire volgcode die wordt gebruikt door de Advertising Cloud- en Advertising Analytics-integratie. Wanneer een van deze integraties is ingeschakeld, kunt u het voorvoegsel van de trackingcode gebruiken om specifieke Advertising Cloud-kanalen te identificeren. Gebruik &#39;AMO-id&#39; om te beginnen met &#39;AL&#39; voor zoeken, &#39;AC&#39; voor weergave of &#39;AO&#39; voor sociaal. Wanneer de AMO-id wordt gebruikt in marketingkanalen, kunnen de maatstaven voor klikken/kosten/indruk worden toegewezen aan het juiste kanaal (wanneer deze niet zijn geconfigureerd, gaan deze meetgegevens naar Direct of Geen). |
+| AMO ID | De code voor secundaire tracering die door Advertising Cloud wordt gebruikt. Het belangrijkste doel van deze volgcode is als sleutel te dienen voor het terugsturen van gegevens naar Ad Cloud. Het kan echter ook worden gebruikt om vertoning ClickThroughs vs. display ViewThroughs te identificeren als u deze als twee afzonderlijke marketing kanalen wilt zien. Dit kan worden gedaan door de logica van het marketingkanaal voor &quot;AMO EF ID&quot;einden met &quot;:d&quot;voor Display ClickThroughs of &quot;AMO EF ID&quot;einden met &quot;:i&quot;voor Display ViewThroughs te plaatsen. Als u Weergave niet in twee kanalen wilt splitsen, gebruikt u in plaats daarvan de dimensie AMO-id. |
 | Conversievariabelen | Bestaat uit eVars die voor deze rapportsuite zijn ingeschakeld en alleen van toepassing zijn wanneer deze variabelen via de Adobe-code op de pagina zijn ingesteld.  Zie de Implementatiegids. |
 | Exists | Er zijn verschillende selecties beschikbaar, waaronder:<ul><li>**Bestaat niet**: Geeft op dat het kenmerk hit niet bestaat in de aanvraag. Als de gebruiker bijvoorbeeld in een verwijzend domein een URL typt of op een bladwijzer klikt, bestaat het kenmerk van het verwijzende domein niet.</li><li>**Is leeg**: Geeft op dat er een hit-kenmerk bestaat, meestal een eVar- of querytekenreeksparameter, maar dat er geen waarde aan het raakkenmerk is gekoppeld.</li><li>**Bevat** niet: Hier kunt u bijvoorbeeld opgeven dat een verwijzend domein geen specifieke waarde bevat (in tegenstelling tot het gebruik van de selectie &quot;Bevat&quot;.)</li></ul> |
 | Het kanaal identificeren als | Koppelt de regel aan een marketingkanaal dat u aan de pagina Kanaalbeheer voor marketingdoeleinden hebt toegevoegd.  Zie Marketingkanalen toevoegen. |
 | Komt overeen met regels voor betaalde zoekdetectie | Een betaalde zoekopdracht gevonden door Adobe. Betaalde zoekopdrachten worden uitgevoerd wanneer bedrijven kosten betalen voor de zoekfunctie om hun site te kunnen aanbieden. Betaalde zoekopdrachten worden meestal boven of rechts in de zoekresultaten weergegeven. |
-| Overeenkomsten met de regels voor natuurlijke zoekdetectie | Een niet-betaalde zoekopdracht gevonden door Adobe-rapportage. |
+| Overeenkomsten met de regels voor natuurlijke zoekdetectie | Een niet-betaalde zoekopdracht aangetroffen door Adobe-rapportage. |
 | Referrer komt overeen met interne URL-filters | Een bezoek de waarvan pagina URL een intern filter URL aanpast, zoals die voor de rapportreeks in Hulpmiddelen Admin wordt bepaald. |
 | Referrer komt niet overeen met interne URL-filters | De verwijzende URL komt niet overeen met een intern URL-filter, zoals gedefinieerd voor de rapportsuite in Admin Tools. U kunt deze instelling gebruiken met de URL van de pagina en bestaat om een algemene regel voor alle vangsten in te stellen, zodat geen enkele bezoeker aankomt in de sectie Geen kanaal geïdentificeerd van het rapport. |
 | Sluiten negeren die overeenkomen met interne URL-filters | (Voor referentie) Tracks komen alleen van extern genoemde sites. Laat deze instelling meestal ingeschakeld, tenzij u intern verkeer wilt opnemen. |
-| Is de eerste bezoekpagina | De eerste pagina van een bezoek die door Adobe wordt gedetecteerd. |
-| Pagina | De paginanaam van een webpagina op uw site die is gecodeerd met het webbaken van Adobe. Deze waarde is gelijk aan s.pageName. Voorbeelden zijn `Home Page` en `About Us`. |
+| Is de eerste bezoekpagina | De eerste pagina van een bezoek die wordt gedetecteerd door Adobe-rapportage. |
+| Pagina | De paginanaam van een pagina op uw site die is gecodeerd met Adobe van een weboenbaken. Deze waarde is gelijk aan s.pageName. Voorbeelden zijn `Home Page` en `About Us`. |
 | Paginadomein | Het domein van de pagina waarop de bezoeker landt, zoals `products.example.co.uk`. |
 | Paginadomein en pad | Het domein en pad, zoals `products.example.co.uk/mens/pants/overview.html` . |
 | Hoofddomein van pagina (TLD+1) | Het hoofddomein van de pagina waarop de bezoeker landt, zoals example.co.uk. |
 | Pagina-URL | De URL van een webpagina op uw site. |
 | Referentiedomein | Het domein waar uw bezoekers vandaan kwamen voordat ze uw site bezochten, bijvoorbeeld verwijzingen die afkomstig waren van `abcsite.com` versus `xyzsite.com`. |
 | Parameter querytekenreeks | Als een pagina-URL op uw site er zo uitziet `https://example.com/?page=12345&cat=1`, zijn pagina en cat beide parameters voor de queryreeks. (Zie `https://en.wikipedia.org/wiki/Query_string`.)  U kunt slechts één parameter van het vraagkoord per regelreeks specificeren. Om extra parameters van het vraagkoord toe te voegen, gebruik `ANY` als uw exploitant, dan voeg nieuwe parameters van het vraagkoord aan de regel toe. |
-| Referenter | De locatie van de webpagina (volledige URL) waar uw bezoekers zich bevonden voordat ze naar uw site kwamen. Er bestaat een verwijzing buiten het gedefinieerde domein. |
+| Referrer | De locatie van de webpagina (volledige URL) waar uw bezoekers zich bevonden voordat ze naar uw site kwamen. Er bestaat een verwijzing buiten het gedefinieerde domein. |
 | Refererend Domein en Weg | Een aaneenschakeling van het Verwijzende Domein en weg URL. Voorbeelden zijn:    `www.example.com/products/id/12345` of `ad.example.com/foo` |
 | Verwijzen naar parameter | Een parameter van het vraagkoord op referentie URL. Als uw bezoekers bijvoorbeeld van `example.com/?page=12345&cat=1`herkomst zijn, zijn pagina en kat de verwijzende parameters. |
 | Refererend hoofddomein | Het hoofddomein van de referentie. Er bestaat een verwijzing buiten het gedefinieerde domein. |
 | Zoekmachine | Een zoekmachine zoals Google of Yahoo! die bezoekers naar uw site bracht. |
 | Trefwoorden zoeken | Een woord dat wordt gebruikt om een zoekopdracht uit te voeren met een zoekmachine. |
-| Zoekmachine + trefwoorden | Een samenvoeging van het Sleutelwoord van het Onderzoek en de Motor van het Onderzoek om de onderzoeksmotor uniek te identificeren. Als u bijvoorbeeld naar de tekstcomputer zoekt, worden het zoekprogramma en het trefwoord als volgt geïdentificeerd: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Opmerking:**n = natuurlijk; p = betaald |
+| Zoekmachine + trefwoorden | Een samenvoeging van het Sleutelwoord van het Onderzoek en de Motor van het Onderzoek om de onderzoeksmotor uniek te identificeren. Als u bijvoorbeeld naar de tekstcomputer zoekt, worden het zoekprogramma en het trefwoord als volgt geïdentificeerd: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Opmerking:** n = natuurlijk; p = betaald |
 | De waarde van het kanaal instellen op | U weet niet alleen welk marketingkanaal een bezoeker naar uw site brengt, maar u kunt ook weten welke banneradvertentie, zoektrefwoord of e-mailcampagne binnen het kanaal krediet opvragen voor de siteactiviteit van een bezoeker. Deze id is een kanaalwaarde die samen met het kanaal wordt opgeslagen. Deze waarde is vaak een campagne-id die is ingesloten in de bestemmingspagina of de verwijzende URL. in andere gevallen is het de zoekengine en combinatie van trefwoorden zoeken, of de verwijzende URL die de bezoeker het meest correct identificeert vanuit een bepaald kanaal. |
 
 ## Regelvolgorde en definities van marketingkanalen {#channel-rules}
@@ -108,7 +108,7 @@ Hieronder ziet u de aanbevolen volgorde voor kanaalregels en voorbeelddefinities
 
 Betaalde zoekopdracht is een woord of uitdrukking dat u betaalt voor plaatsing in zoekresultaten. Dit kanaal wordt typisch bepaald gebaseerd op de parameter van het vraagkoord (zie het kanaalvoorbeeld van de Vertoning) of betaalde onderzoeksdetectieregels. De beslissing hangt af van de details van het marketingkanaal die u wilt opnemen.
 
-#### Betaalde zoekdetectie
+#### Paid search-detectie
 
 Om de betaalde regels van de onderzoeksopsporing aan te passen, gebruikt het marketing kanaal montages die op de [!UICONTROL Paid Search Detection] pagina worden gevormd. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). De doel-URL komt overeen met de bestaande regel voor betaalde zoekdetectie voor dat zoekprogramma.
 
@@ -160,7 +160,7 @@ Deze regel identificeert bezoekers die afkomstig zijn van een sociaal netwerk, z
 
 ### Intern kanaal (Sessie vernieuwen) {#internal}
 
-Deze regel geldt voor bezoekers waarbij hun verwijzings-URL overeenkomt met de interne URL-filters die in de beheerconsole zijn ingesteld. Dit betekent dat de bezoeker van de site is gekomen om zijn bezoek te starten. De naam van dit kanaal wordt vaak gewijzigd in Sessie vernieuwen.
+Deze regel geldt voor bezoekers waarbij hun verwijzings-URL overeenkomt met de interne URL-filters die in de Admin Console zijn ingesteld. Dit betekent dat de bezoeker van de site is gekomen om zijn bezoek te starten. De naam van dit kanaal wordt vaak gewijzigd in Sessie vernieuwen.
 
 ![](assets/int-channel1.png)
 
