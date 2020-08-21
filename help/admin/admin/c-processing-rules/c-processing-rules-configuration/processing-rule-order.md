@@ -5,7 +5,10 @@ title: Verwerkingsvolgorde
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 0%
 
 ---
 
@@ -20,16 +23,16 @@ In de volgende tabellen worden de gegevens weergegeven die doorgaans beschikbaar
 
 ## Voor het verwerken van regels
 
-| Dimensie | Beschrijving |
+| Dimension | Beschrijving |
 |--- |--- |
-| Dynamische variabele zoekopdracht | Variabelen worden dynamisch gevuld door informatie uit HTTP-headers of andere variabelen te halen. Zet bijvoorbeeld de waarde van prop1 `s.eVar5="D=c1"` in eVar5. |
+| Dynamische variabele zoekopdracht | Variabelen worden dynamisch gevuld door informatie uit HTTP-headers of andere variabelen te halen. Bijvoorbeeld, `s.eVar5="D=c1"` zal de waarde van prop1 in eVar5 zetten. |
 | AppMeasurement | Functies en insteekmodules die in AppMeturement worden gebruikt, worden uitgevoerd in de browser of de clienttoepassing. |
-| Dynamisch tagbeheer | Regels die zijn gedefinieerd in Dynamisch tagbeheer worden uitgevoerd zoals gedefinieerd. |
+| Tagbeheer | Regels die zijn gedefinieerd in Adobe Launch of Dynamic Tag Management worden uitgevoerd zoals gedefinieerd. |
 | Bot-regels | [Met beide regels](/help/admin/admin/bot-removal/bot-rules.md) kunt u verkeer verwijderen dat wordt gegenereerd door bekende spinnen en bots uit uw rapportsuite. |
 
 ## Na verwerking regels
 
-| Dimensie | Beschrijving |
+| Dimension | Beschrijving |
 |--- |--- |
 | Door VISTA toegevoegde gegevens | Verwerkingsregels worden toegepast vóór VISTA. |
 | Bezoek het paginanummer | Als algemene regel, zijn de verwerkingsregels zich bewust van de gegevens die in de huidige slechts treffer zijn. Het paginanummer van de bezoekpagina wordt gecompileerd nadat de verwerkingsregels worden toegepast. |
@@ -40,6 +43,6 @@ In de volgende tabellen worden de gegevens weergegeven die doorgaans beschikbaar
 
 ## Hoe de Regels van de Verwerking worden toegepast wanneer het kopiëren van Hits gebruikend VISTA {#section_576EE8C240A24CBA979BD614E8D5338D}
 
-Als u een VISTA regel hebt die wordt gevormd om klappen aan een andere rapportreeks te kopiëren, worden de klappen verzonden door om het even welke verwerkingsregels die op de andere rapportreeks worden bepaald.
+Als u een VISTA regel hebt die wordt gevormd om klappen aan een andere rapportreeks te kopiëren, worden de klappen verzonden door om het even welke verwerkingsregels die in de andere rapportreeks worden bepaald.
 
 Als u verwerkingsregels hebt die op de originele rapportreeks worden bepaald, kunnen deze of niet worden toegepast gebaseerd op hoe de regel VISTA door de Diensten van de Techniek werd gevormd. Om te weten te komen, kunt u uw implementatiespecialist vragen of de VISTA-regel &quot;pre&quot;of &quot;post&quot;waarden aan de extra rapportreeks kopieert. Als de &quot;pre&quot;waarde wordt gekopieerd, worden de verwerkingsregels die op de originele rapportreeks worden bepaald niet toegepast. Als de &quot;post&quot;waarde wordt gekopieerd, worden de verwerkingsregels toegepast alvorens de slag wordt gekopieerd.
