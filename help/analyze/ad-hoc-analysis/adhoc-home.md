@@ -1,21 +1,25 @@
 ---
-description: Analyse van intro naar ad hoc
-title: Overzicht ad-hocanalyse
+description: Introductie tot Ad Hoc Analysis
+title: Overzicht van Ad Hoc Analysis
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 9%
 
 ---
 
 
-# Overzicht ad-hocanalyse{#ad-hoc-analysis-overview}
+# Overzicht van Ad Hoc Analysis{#ad-hoc-analysis-overview}
 
-De ad hoc Analyse helpt u high-value klantensegmenten met onbeperkte informatie in real time van de bezoeker identificeren, die u toestaat om neer in de gegevens te boren om diepe, nauwkeurige, en uitvoerige meningen van uw klanten te krijgen.
+Met Ad Hoc Analysis kunt u hoogwaardige klantsegmenten identificeren met onbeperkte realtime bezoekersinformatie, zodat u de gegevens kunt doorzoeken om diepgaande, nauwkeurige en uitgebreide weergaven van uw klanten te krijgen.
 
->[!Ibelangrijk]
->Op 6 augustus 2018 kondigde Adobe aan dat het de bedoeling was om ad-hocanalyse te beëindigen. Een einddatum wordt gedeeld zodra deze beschikbaar is. Ga voor meer informatie, waaronder de versies van Java die tijdens deze periode compatibel zijn, naar [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>[!IMPORTANT]
+>
+>Op 6 augustus 2018 kondigde Adobe het voornemen aan om Ad Hoc Analysis te sluiten. De einddatum wordt gedeeld zodra deze beschikbaar is. Ga voor meer informatie, waaronder de versies van Java die tijdens deze periode compatibel zijn, naar [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 ## Nieuwe en populaire onderwerpen
 
-* U kunt uw ad hoc projecten van de Analyse nu naadloos omzetten in de projecten van de Werkruimte van de Analyse. Ga naar [Ad hoc het Overzicht](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md) van de Convertor van het Project van de Analyse om te weten te komen hoe!
-* Bekijk de sectie over [ad-hocanalyse versus analyse-werkruimte](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md): De Werkruimte van de analyse brengt veel van de Ad hoc functionaliteit van de Analyse in het browser werkschema. Hoewel sommige terminologie en eigenschappen het zelfde tussen de producten blijven, zijn er sommige nieuwe termijnen en benaderingen aan analyse die in de Werkruimte van de Analyse worden geïntroduceerd.
+* U kunt uw Ad Hoc Analysis-projecten nu naadloos omzetten in Analysis Workspace-projecten. Ga naar het [Ad Hoc Analysis Project Converter-overzicht](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md) voor meer informatie.
+* Zie de sectie over [Ad Hoc Analysis versus Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md): Analysis Workspace haalt veel van de Ad Hoc Analysis-functionaliteit naar de browserworkflow. Hoewel sommige terminologie en kenmerken tussen de producten hetzelfde blijven, zijn er in Analysis Workspace enkele nieuwe termen en benaderingen voor analyse ingevoerd.
 * [Toediening](/help/analyze/ad-hoc-analysis/c-administration.md): Leer hoe u gebruikers en voorbeeldgegevens configureert.
