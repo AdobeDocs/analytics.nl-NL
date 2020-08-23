@@ -3,7 +3,7 @@ description: 'null'
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 3%
@@ -77,7 +77,9 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 
 ### Commerce
 
-* **Magento: Marketing en handel**: Deze sjabloon verbreekt de omzetting van e-commerce door verwijzing naar marketingkanalen en biedt inzicht in trefwoorden, bestemmingspagina, geografische locatie en meer. Voor een video-overzicht raadpleegt u >[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: Marketing en handel**: Deze sjabloon verbreekt de omzetting van e-commerce door verwijzing naar marketingkanalen en biedt inzicht in trefwoorden, bestemmingspagina, geografische locatie en meer. Zie voor een video-overzicht:
+
+>[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Media
 
