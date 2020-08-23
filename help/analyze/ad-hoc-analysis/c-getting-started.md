@@ -3,9 +3,9 @@ description: Ga aan de slag met Ad Hoc Analysis.
 title: Aan de slag
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1276'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,8 @@ ht-degree: 2%
 
 # Aan de slag met Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!Ibelangrijk]
+>[!IMPORTANT]
+>
 >Op 6 augustus 2018 kondigde Adobe het voornemen aan om Ad Hoc Analysis te sluiten. De einddatum wordt gedeeld zodra deze beschikbaar is. Ga voor meer informatie, waaronder de versies van Java die tijdens deze periode compatibel zijn, naar [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 U kunt ogenblikkelijke, geavanceerde analyse op websiteactiviteit uitvoeren. U kunt veelvoudige rapporten gelijktijdig bekijken en segmenten over veelvoudige afmetingen toepassen. U kunt de gegevens vanuit zowel micro- als macroperspectieven analyseren om hun effect op uw belangrijke bedrijfsmetriek te bekijken.
@@ -50,7 +51,7 @@ Met deze functies kunt u vragen beantwoorden over siteverkeer, demografie van be
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Segmenten maken om dieper in gegevens te graven </li> 
      <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Metriek, afmetingen, en segmenten aan de Bouwer van de <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Lijst toevoegen</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Datumbereiken configureren <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   ></a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Datumbereiken <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > configureren</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > De geplande</a> rapportlevering </li> 
     </ul> <p>Zoek in dit Help-systeem naar de hulp die u nodig hebt. </p> </td> 
   </tr> 
@@ -240,7 +241,7 @@ U kunt tot malplaatjes toegang hebben wanneer het creëren van een project ( **[
 | Sjabloon | Beschrijving |
 |--- |--- |
 | Gerangschikt | Dit vak bevat een leeg canvas waar u een tabel kunt maken. Bijvoorbeeld, rangschikt een rapport van Pagina&#39;s de pagina&#39;s op uw plaats die op verkeer wordt gebaseerd. In de detailtabel staan percentages en getallen voor metriek zoals Paginaweergaven en Opbrengst. |
-| Trended | Laat u onderzoeken hoe omzettingen en gebeurtenissen over een geselecteerde tijdgranulariteit (Uur, Dag, Week, Maand, Kwart, of Jaar) tijdens een rapporteringsperiode trenderen. |
+| Trended | Laat u onderzoeken hoe omzettingen en gebeurtenissen over een geselecteerde tijdgranulariteit (Uur, Dag, Week, Maand, Kwart, of Jaar) tijdens een rapporteringsperiode evolueren. |
 | Totalen | Een verslag op uitvoeringsniveau met cijfers van onderaf. Deze bevat gegevens voor Totale inkomsten, Paginaweergaven en Bestellingen. |
 | Uitval | Hiermee kunt u een trechter maken die de conversie- en uitvalsnelheden tussen controlepunten weergeeft. U kunt bijvoorbeeld de uitvalpunten van een bezoeker bijhouden tijdens een aankoopproces. |
 | Stroom | Hiermee geeft u de meest gangbare paden weer die gebruikers gebruiken voor pagina&#39;s, sitesecties en servers. |
