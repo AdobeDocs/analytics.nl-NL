@@ -3,7 +3,7 @@ title: Pakketanalysatoren
 description: De analysatoren van het pakket laten u de gegevens bekijken die door uw implementatie aan de servers van de Adobe gegevensinzameling worden verzonden.
 keywords: packet sniffer, http status, 200, 302, charles
 translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+source-git-commit: b359582fe8ab6ee04bb478825d9989d850390f96
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Net als bij de Adobe Experience Cloud-foutopsporing geeft een pakketmonitor aan 
 * Aanvragen voor het bijhouden van aangepaste koppelingen weergeven
 * Aanvragen voor afbeeldingen weergeven met andere implementatiemethoden dan JavaScript, zoals aanvragen voor afbeeldingen met harde codes of [!DNL Appmeasurement]
 
-Als u Analytics-verzoeken wilt weergeven, filtert u uitgaande aanvragen met &quot;b/s&quot;.
+Om de verzoeken van Analytics te bekijken, filter uitgaande verzoeken gebruikend &quot;b/ss&quot;.
 
 In zeer zeldzame gevallen, zal debugger een beeldverzoek melden hoewel geen verzoek het aan Adobe verwerkingsservers maakt. [!DNL Analytics] Het gebruiken van een pakketmonitor is een grote manier om 100% zeker te zijn dat een specifiek beeldverzoek met succes in brand wordt gestoken.
 
@@ -33,8 +33,8 @@ Hoewel Adobe geen officiële pakketmonitor biedt, zijn er een groot aantal van d
 | Firefox | Internet Explorer | Chroom | Zelfstandige programma&#39;s |
 |---|---|---|---|
 | [Punt](https://www.observepoint.com/product#plugin) waarnemen (tagviewer) | [HttpWatch](https://www.httpwatch.com/) | [Punt](https://www.observepoint.com/product#plugin) waarnemen (tagviewer) | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tampergegevens](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [Tampergegevens](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
@@ -49,8 +49,8 @@ Wanneer AppMeturement gegevens naar de servers van de Adobe- gegevensinzameling 
 * **200 OK**: De gemeenschappelijkste reactie van de servers van de gegevensinzameling. De afbeeldingsaanvraag is ontvangen en er is een transparante afbeelding geretourneerd.
 * **302 GEVONDEN**: Er zijn een paar mogelijke redenen om dit antwoord te ontvangen:
    * De eerste aanvraag voor een afbeelding van een bezoeker: Omleiding vindt plaats als een gebruiker uw site voor het eerst bezoekt. Deze omleiding is bedoeld om een bezoekerscookie te verkrijgen. Het heeft geen invloed op de gegevensverzameling.
-   * Integratie tussen Comscore en Adobe: Als uw organisatie een Comscore/Analytics-integratie gebruikt, resulteert elk verzoek om een afbeelding altijd in een 302-reactie.
-* **404 NIET GEVONDEN**: Dit antwoord betekent dat het beeldverzoek niet werd gevonden, en de gegevens niet worden verzonden naar de servers van de Adobe- gegevensinzameling. Dit antwoord is ook mogelijk wanneer aanvragen voor afbeeldingen met een hardcodering niet correct zijn opgemaakt. Werk samen met het individu of het team dat Analytics heeft geïmplementeerd om dit probleem op te lossen.
+   * Integratie tussen Comscore en Adobe: Als uw organisatie een integratie Comscore/Analytics gebruikt, resulteert elk beeldverzoek altijd in een 302 reactie.
+* **404 NIET GEVONDEN**: Dit antwoord betekent dat het beeldverzoek niet werd gevonden, en de gegevens worden niet verzonden naar de servers van de Adobe- gegevensinzameling. Dit antwoord is ook mogelijk wanneer aanvragen voor afbeeldingen met een hardcodering niet correct zijn opgemaakt. Werk samen met de persoon of het team die Analytics heeft geïmplementeerd om dit probleem op te lossen.
 
 ## NS_BINDING_ABORTED in responscodes
 
