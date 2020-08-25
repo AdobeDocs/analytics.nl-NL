@@ -2,10 +2,10 @@
 title: Aanmelden bij Adobe Analytics oplossen
 description: Stappen die moeten worden uitgevoerd wanneer u zich niet kunt aanmelden bij Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 3%
+source-wordcount: '588'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Los problemen met het aanmelden bij Adobe Analytics op met de Experience Cloud.
 
 ## Legacy Analytics ID
 
-Soms ontvangt een gebruiker in uw organisatie het volgende foutbericht wanneer deze zich aanmeldt:
+Een gebruiker in uw organisatie kan de volgende fout ontvangen wanneer hij of zij zich aanmeldt:
 
 *Dit account is uit veiligheidsoverwegingen vergrendeld vanwege te veel mislukte aanmeldingspogingen.*
 
@@ -53,6 +53,14 @@ Als het wissen van de cookies/cache van de browser het probleem niet verhelpt, w
 ## Eenmalige aanmelding
 
 Neem contact op met een beheerder in uw organisatie om problemen met eenmalige aanmelding op te lossen.
+
+## Verlopen aanmeldingen
+
+Een gebruiker in uw organisatie kan de volgende fout ontvangen wanneer hij of zij zich aanmeldt:
+
+*Fout: Deze aanmelding is verlopen.*
+
+Deze fout werkt zoals bedoeld. Adobe Analytics biedt beheerders de mogelijkheid om een datumbereik in te stellen dat geldig is voor een gebruikersaccount. Als de huidige datum buiten de geldige datumwaaier voor de rekening verblijft, kunnen zij niet login. Werk met een analysebeheerder in uw organisatie om het geldige datumbereik van de aanmelding uit te breiden. De klantenservice van Adobe is niet bevoegd om geldige aanmeldingsdatumbereiken voor gebruikersaccounts te wijzigen.
 
 ## Andere aanmeldingsproblemen
 
