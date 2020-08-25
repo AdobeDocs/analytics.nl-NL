@@ -2,9 +2,9 @@
 description: Deze sectie bevat de belangrijkste concepten voor de Adobe Analytics, een korte beschrijving van het concept, en een specifieke documentatiekoppeling met extra informatie over het onderwerp.
 title: Adobe Analytics - Belangrijkste concepten
 translation-type: tm+mt
-source-git-commit: 68826433e028825fc43c948d32456416b9d2a13e
+source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1863'
 ht-degree: 98%
 
 ---
@@ -45,7 +45,7 @@ Klik [hier](/help/technotes/terms.md) voor een uitgebreide woordenlijst met term
 | Segmenten | Mogelijkheid om krachtige, doelgerichte doelgroepsegmenten te maken, te beheren, te delen en toe te passen op uw Analytics-rapporten. Segmenten worden gedeeld tussen Analytics-producten en kunnen worden gedeeld in de Experience Cloud. | [Segmentering](/help/components/segmentation/seg-home.md) |
 | Tijd (datumbereiken) | Mogelijkheid om datums te filteren in elke tijdsperiode en aangepaste datumbereiken te maken die opnieuw kunnen worden gebruikt in uw analyse. | [Datumbereik](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | Visualisaties | Rijke beelden die data tot leven kunnen brengen in uw projecten. | [Visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| Curation | Mogelijkheid om de onderdelen te beperken die toegankelijk zijn in een project of vitruele rapportsuite. | [VRS-kromming](/help/components/vrs/vrs-components.md) <br> [Projectcursus](/help/analyze/analysis-workspace/curate-share/curate.md) <br> [Vergelijking](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) |
+| Curation | Mogelijkheid om de onderdelen te beperken die toegankelijk zijn in een project of vitruele rapportsuite. | [VRS-kromming](/help/components/vrs/vrs-components.md) <br> [Projectcursus](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## Belangrijke verslagen
 
