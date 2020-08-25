@@ -1,56 +1,28 @@
 ---
-title: Help bij Adobe Report Builder
-topic: Report builder
-uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
+title: Overzicht van Report Builder
+description: Gebruik toe:voegen-binnen om de gegevens van Adobe Analytics in Microsoft Excel direct te brengen.
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 68%
 
 ---
 
 
-# Help bij Adobe Report Builder {#adobe-report-builder-help}
+# Overzicht van Report Builder
 
-[!DNL Adobe] De Bouwer van het rapport is toe:voegen-binnen voor Microsoft Excel. De Bouwer van het rapport laat u aangepaste verzoeken van rapportering en analysegegevens bouwen, die u in uw aantekenvellen van Excel kunt opnemen. De verzoeken kunnen dynamisch van verwijzingen voorzien cellen binnen uw aantekenvel, en u kunt bijwerken en aanpassen hoe de Bouwer van het Rapport de gegevens voorstelt.
-
-<!-- >>[!IMPORTANT]
->
->Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
->
->See [Analytics User Migration to the Admin Console](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) for migration information.
-
->[!IMPORTANT]
->
->Due to the end of support for TLS 1.0, we recommended that Adobe Report Builder (ARB) users download ARB v5.6.21 prior to September 13, 2018. After that date, prior versions of ARB will not be supported. -->
-
-<!-- Tutorial goes here -->
+Report Builder is een invoegtoepassing voor Microsoft Excel. Het laat u aangepaste verzoeken van rapportering en analysegegevens bouwen, die u in uw aantekenvellen van Excel kunt opnemen. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft.
 
 ## Populaire Help-onderwerpen
 
 * [Instellen, installeren en aanmelden](setup/login.md)
-* [Rapportverzoeken plannen](schedule-report-requests.md)
-* [Het oplossen van problemen en Beste praktijken voor de Bouwer van het Rapport](troubleshoot.md)
+* [Rapportaanvragen plannen](schedule-report-requests.md)
+* [Problemen oplossen en best practices voor Report Builder](troubleshoot.md)
 * [Wat zijn mijn opties voor het maken van aangepaste datumbereiken?](data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
-* [Waarom kan ik mijn segmenten niet in de Bouwer van het Rapport zien?](data-requests/segmentation.md)
+* [Waarom kan ik mijn segmenten niet in Report Builder zien?](data-requests/segmentation.md)
 
 ## Algemene vragen en problemen oplossen
 
-* [Hoe maak ik een gegevensverzoek?](data-requests/t-create-a-data-request.md)
-* [Het oplossen van problemen en Beste praktijken voor de Bouwer van het Rapport](troubleshoot.md)
-
-## Bronnen voor Experience Cloud
-
-* [Adobe Analytics Community](https://helpx.adobe.com/marketing-cloud/analytics.html)
-* [Releaseopmerkingen bij Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
-* [Introductiepagina van productdocumentatie](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)
-* [Ontwikkelaar](https://www.adobe.io/apis/experiencecloud.html)
-* [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
-* [Adobe Training en zelfstudies](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [Aanbevolen Oplossingscentrum](https://www.omniture.com/en/products/online_business_optimization)
-
-<!--Meike Russ Replace the omniture links above?-->
-
-## Help voor rapporten en analyses
-
-* [Help bij analysewerkruimte](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
-* [Help voor rapporten en analyses](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html)
-* [Help bij Analytics Reference](https://docs.adobe.com/content/help/en/analytics/landing/home.html) op Admin Tools, Reports en metrics.
+* [Hoe maak ik een data-aanvraag?](data-requests/t-create-a-data-request.md)
+* [Problemen oplossen en best practices voor Report Builder](troubleshoot.md)
