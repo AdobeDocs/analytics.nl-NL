@@ -2,7 +2,7 @@
 description: Instructies voor het instellen van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboardcurator
 translation-type: tm+mt
-source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
+source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 0%
@@ -11,26 +11,26 @@ ht-degree: 0%
 
 
 
-# Curatorhandleiding voor Adobe Analytics-dashboards
+# Curatorhulplijn voor Adobe Analytics-dashboards
 
-De volgende informatie instrueert curatoren van Adobe Analytics-gegevens over het configureren en presenteren van dashboards voor uitvoerende gebruikers. Zie [Adobe Analytics-dashboards Scorecard Builder](https://youtu.be/tnnl6hrcP94)voor een video waarin deze informatie wordt gedemonstreerd.
+De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Zie Scorecard Builder [van](https://youtu.be/tnnl6hrcP94)Adobe Analytics-dashboards voor een video waarin deze informatie wordt gedemonstreerd.
 
 ## Inleiding
 
-Adobe Analytics-dashboards bieden altijd en overal inzicht in Adobe Analytics. Met de app kunnen gebruikers mobiele toegang krijgen tot intuïtieve scorecards die u maakt en deelt vanuit de gebruikersinterface van Adobe Analytics. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. U kunt Scorecards op maat maken op basis van de gegevens die voor u het belangrijkst zijn. Analytics-dashboards worden ondersteund op iOS- en Android-besturingssystemen.
+Adobe Analytics-dashboards bieden altijd en overal inzicht vanuit Adobe Analytics. Met de app kunnen gebruikers mobiele toegang krijgen tot intuïtieve scorecards die u maakt en deelt vanuit de gebruikersinterface van Adobe Analytics. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. U kunt Scorecards op maat maken op basis van de gegevens die voor u het belangrijkst zijn. Analytische dashboards worden ondersteund op zowel iOS- als Android-besturingssystemen.
 
 ## Meer informatie over deze handleiding
 
-Deze handleiding is bedoeld om curatoren van Adobe Analytics te helpen bij het configureren van scoreborden voor hun uitvoerende gebruikers op dashboards. Curatoren kunnen organisatiebeheerders of personen in andere functies zijn die verantwoordelijk zijn voor het instellen van toepassingsscoreborden, waarmee uitvoerende gebruikers een brede weergave van belangrijke samenvattingsgegevens snel en eenvoudig op hun eigen mobiele apparaten kunnen bekijken. Hoewel uitvoerende gebruikers de eindgebruikers voor Analytics-dashboards zijn, helpt deze handleiding om de app effectief in te stellen voor deze gebruikers.
+Deze handleiding is bedoeld om curatoren van Adobe Analytics-gegevens te helpen bij het configureren van Scorecards voor hun uitvoerende gebruikers op dashboards. Curatoren kunnen organisatiebeheerders of personen in andere functies zijn die verantwoordelijk zijn voor het instellen van toepassingsscoreborden, waarmee uitvoerende gebruikers een brede weergave van belangrijke beknopte gegevens snel en eenvoudig op hun eigen mobiele apparaten kunnen bekijken. Hoewel uitvoerende gebruikers de eindgebruiker voor de dashboards van Analytics zijn, zal deze gids gegevenscuratoren helpen om app voor die gebruikers effectief op te zetten.
 
 ## Verklarende woordenlijst
 
-In de volgende tabel staan de voorwaarden voor het begrijpen van het publiek, de functies en de werking van de Analytics-dashboards.
+In de volgende tabel staan de voorwaarden voor het begrijpen van het publiek, de functies en de werking van de dashboards van Analytics.
 
 | Term | Definitie |
 |--- |--- |
-| Consumenten | Executive-gebruiker die belangrijke metriek en inzichten van Analytics op een mobiel apparaat bekijkt |
-| Curator | Personeelsleden die inzichten van Analytics vinden en verspreiden en de Scorecards configureren die door de consument moeten worden bekeken |
+| Consumenten | Executive-medewerkers bekijken belangrijke metriek en inzichten van Analytics op een mobiel apparaat |
+| Curator | Personeel dat gegevens leest en inzichten van Analytics verspreidt en de Scorecards configureert die door de consument moeten worden bekeken |
 | Curation | Het maken of bewerken van een mobiel scorebord met relevante meetgegevens, afmetingen en andere componenten voor de consument |
 | Scorecard | Een dashboardweergave met een of meer tegels |
 | Tegel | Een rendering voor metrische gegevens in een scorebordweergave |
@@ -76,9 +76,9 @@ Klik in het scherm **Projecten** onder het tabblad **Componenten** op de knop **
 
 ![Projecten toevoegen](assets/add_project.png)
 
-**Analytics-gereedschappen gebruiken**
+**Analyseprogramma&#39;s gebruiken**
 
-Klik in Analytics op het menu **Gereedschappen** en selecteer **dashboards**. Klik in het volgende scherm op de knop **Scorecard** maken.
+Klik in Analytics op het menu **Tools** en selecteer **dashboards**. Klik in het volgende scherm op de knop **Scorecard** maken.
 
 ### Het scorebord configureren met gegevens en opslaan
 
@@ -124,7 +124,7 @@ Het scorebordsjabloon implementeren:
 
    * Een **vergelijkingsdatumbereik**
 
-   * Alle **segmenten** die op het hele scorebord moeten worden toegepast
+   * Alle **segmenten** die op de hele scorebord moeten worden toegepast
 
 7. Als u het scorebord een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
 
@@ -136,7 +136,7 @@ U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
 1. Klik op het menu **Delen** en selecteer Scorecard **delen**.
 
-2. Vul de velden in het formulier **Delen** in door:
+2. Vul de velden in het formulier **Delen** in met:
 
    * De naam van het scorebord opgeven
    * Beschrijving van het scorebord
@@ -145,9 +145,9 @@ U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
 3. Klik op **Delen**.
 
-![Share_Scorecards](assets/new_share2.png)
+![Share_Scorecards](assets/new_share.png)
 
-Nadat u een scorebord hebt gedeeld, kunnen uw ontvangers het op hun dashboards van Analytics toegang hebben. Als u daarna veranderingen in het Scorecard in de Scorecard Bouwer aanbrengt, zullen zij automatisch in het gedeelde Scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het Scorecard op hun app verfrist.
+Nadat u een scorebord hebt gedeeld, kunnen uw ontvangers tot het op hun dashboards van Analytics toegang hebben. Als u daarna veranderingen in het Scorecard in de Scorecard Bouwer aanbrengt, zullen zij automatisch in het gedeelde Scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het Scorecard op hun app verfrist.
 
 Als u het Scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u de scorecard opnieuw willen delen (en de optie **Deel ingebedde componenten** ) om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.
 
@@ -173,21 +173,21 @@ Zo helpt u uitvoerende gebruikers:
 
    **Voor uitvoerende gebruikers op iOS:**
 
-   * Klik op de volgende koppeling (deze is ook beschikbaar in Analytics via **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
+   * Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
 
       [iOS-koppeling](https://apple.co/2zXq0aN)
    **Voor uitvoerende gebruikers op Android:**
 
-   * Klik op de volgende koppeling (deze is ook beschikbaar in Analytics via **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
+   * Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
 
       [Android-koppeling](https://bit.ly/2LM38Oo)
-   Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-gebruikersgegevens. Wij ondersteunen zowel Adobe als Enterprise-/federatieve id&#39;s.
+   Zodra gedownload en geïnstalleerd, kunnen de uitvoerende gebruikers zich in app aanmelden gebruikend hun bestaande geloofsbrieven van Adobe Analytics; wij ondersteunen zowel Adobe- als Enterprise/Federated-id&#39;s.
 
    ![Welkomstscherm van app](assets/welcome.png)
 
 2. Help hen tot uw Scorecard toegang te hebben. Nadat uitvoerende gebruikers zich in app ondertekenen, verschijnt het **Choose een bedrijfscherm** . Dit scherm maakt een lijst van de login bedrijven waartot de uitvoerende gebruiker behoort. Om hen te helpen bij de Scorecard:
 
-   * Tik op de naam van het aanmeldingsbedrijf of Experience Cloud Org die van toepassing is op het scorebord dat u hebt gedeeld. De Scorecard lijst toont dan alle Scorecards die met het uitvoerend onder dat login bedrijf zijn gedeeld.
+   * Tik op de naam van het aanmeldingsbedrijf of de Experience Cloud Org die van toepassing is op het scorebord dat u hebt gedeeld. De Scorecard lijst toont dan alle Scorecards die met het uitvoerend onder dat login bedrijf zijn gedeeld.
    * Help ze deze lijst te sorteren op **Laatst gewijzigd**, indien van toepassing.
    * Tik op de naam van het scorebord om het weer te geven.
 
@@ -195,14 +195,14 @@ Zo helpt u uitvoerende gebruikers:
 
    Als de uitvoerende gebruiker zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld:
 
-   * Het is mogelijk dat de uitvoerende gebruiker de verkeerde Analytics-instantie heeft geselecteerd
+   * De uitvoerende gebruiker heeft mogelijk de verkeerde instantie Analytics geselecteerd
 
    * Het scorebord is mogelijk niet gedeeld met de uitvoerende gebruiker
 
       ![Niets gedeeld](assets/nothing.png)
 
 
-   * Controleer of de uitvoerende gebruiker zich kan aanmelden bij de juiste Analytics-instantie en of het scorebord is gedeeld.
+   * Verifieer dat de uitvoerende gebruiker in de juiste instantie van Analytics kan registreren en dat Scorecard is gedeeld.
 
 
 3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt (het eerste hieronder Scorecard wordt geplaatst op donkere wijze); zie **Voorkeuren** hieronder als u denkt dat uw uitvoerend gebruiker deze het bekijken optie verkiest):
