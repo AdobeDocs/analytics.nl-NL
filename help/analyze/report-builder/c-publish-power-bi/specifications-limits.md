@@ -3,9 +3,9 @@ description: 'null'
 title: Beperkingen en specificaties
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '614'
 ht-degree: 1%
 
 ---
@@ -13,53 +13,54 @@ ht-degree: 1%
 
 # Beperkingen en specificaties
 
-## Publicatiebeperkingen voor Power BI {#section_D4BDD70B20F94A0FAE53531CA528AE42}
+## Power BI publicatiebeperkingen {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
 >[!NOTE]
 >
->Deze beperkingen zijn alleen van toepassing op de optie &quot;Publish Report Builder Requests as Power BI Dataset Tables&quot;.
+>Deze beperkingen zijn alleen van toepassing op de optie &quot;Report Builder-verzoeken publiceren als Power BI-gegevenssettabellen&quot;.
 
-* Een maximum van 100 verzoeken van de Bouwer van het Rapport kan naar Power BI per werkboek worden uitgevoerd.
+* Een maximum van 100 verzoeken van Report Builder kan naar Power BI per werkboek worden uitgevoerd.
 * Het planningsproces zal ophouden exporterende verzoeken wanneer het 101e verzoek wordt bereikt.
-* Alleen de eerste 10.000 rijen Analytics-gegevens worden naar Power BI verzonden per aanvraag van Report Builder. De overige rijen worden genegeerd.
+* Alleen de eerste 10.000 rijen met analysegegevens worden naar Power BI verzonden per Report Builder-aanvraag. De overige rijen worden genegeerd.
 
-## Een aanvraag voor een Report Builder bewerken na publicatie naar Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
+## Een Report Builder-aanvraag bewerken na publicatie naar Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
 >[!NOTE]
 >
->Deze specificatie is van toepassing op de opties &quot;Alle verzoeken van de Bouwer van het Rapport als de Lijsten van de Dataset van de Macht BI&quot;en &quot;publiceren Alle Formatted Lijsten in het Werkboek als de Lijsten van de Dataset van de Macht BI&quot;publiceren.
+>Deze specificatie is op de opties &quot;publiceer Alle Verzoeken van de Report Builder als Lijsten van de Dataset van de Power BI&quot;en &quot;publiceer Alle Formatted Lijsten in het Werkboek als Lijsten van de Dataset van de Power BI&quot;van toepassing.
 
-Het uitgeven van een verzoek van de Bouwer van het Rapport na het publiceren van het aan Power BI kan problemen veroorzaken.
+Het bewerken van een Report Builder-aanvraag nadat deze naar Power BI is gepubliceerd, kan problemen veroorzaken.
 
-* **Zaak 1**: U publiceert een werkboek aan Macht BI en creeert een visualisatie die op zijn gegevens wordt gebaseerd. Daarna, brengt u veranderingen in het werkboek aan, veroorzakend één van de kolommen van de gegevensreeks die het om verwijst te verdwijnen. Vervolgens publiceert u het bestand opnieuw. Hierdoor wordt de visualisatie in Power BI verbroken.
+* **Zaak 1**: U publiceert een werkboek aan Power BI en creeert een visualisatie die op zijn gegevens wordt gebaseerd. Daarna, brengt u veranderingen in het werkboek aan, veroorzakend één van de kolommen van de gegevensreeks die het om verwijst te verdwijnen. Vervolgens publiceert u het bestand opnieuw. Hierdoor wordt de visualisatie in Power BI verbroken.
 
    **Hier is een voorbeeld van hoe de visualisatie zal breken:**
 
-   1. In de Bouwer van het Rapport, creeer een werkboek met één verzoek, gebruikend de afmeting van de Pagina en metrische de Meningen van de Pagina.
-   1. [Plan dit verzoek](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) dat u wilt publiceren naar Power BI.
-   1. Maak in Power BI een visualisatie voor pagina- en paginaweergaven.
-   1. Bewerk nu het werkboek door Paginaweergaven uit de aanvraag te verwijderen.
-   1. Bewerk het programma met het bijgewerkte werkboek en publiceer het verzoek opnieuw aan Power BI.
-   1. Zodra het nieuwe werkboek naar de BI van de Macht wordt verzonden
+   1. In Report Builder, creeer een werkboek met één verzoek, gebruikend de afmeting van de Pagina en metrische de Mening van de Pagina.
+   2. Plan dit verzoek om te worden gepubliceerd naar Power BI.
+   3. Maak in Power BI een visualisatie voor de weergave van pagina&#39;s en pagina&#39;s.
+   4. Bewerk nu het werkboek door Paginaweergaven uit de aanvraag te verwijderen.
+   5. Bewerk het programma met het bijgewerkte werkboek en publiceer het verzoek opnieuw aan Power BI.
+   6. Zodra het nieuwe werkboek naar Power BI wordt verzonden
 
       1. Verifieer dat het de bestaande dataset overlapt die werd gecreeerd toen u eerst publiceerde.
-      1. Controleer of de tabel page_1 correct is bijgewerkt met de kolommen Pagina en Bezoek.
-      1. Verifieer dat uw visualisatie gebroken is, aangezien het verwijst naar de kolom van de Mening van de Pagina die niet meer in page_1 lijst aanwezig is.
+      2. Controleer of de tabel page_1 correct is bijgewerkt met de kolommen Pagina en Bezoek.
+      3. Verifieer dat uw visualisatie gebroken is, aangezien het verwijst naar de kolom van de Mening van de Pagina die niet meer in page_1 lijst aanwezig is.
+
    **Hier is een voorbeeld van hoe de visualisatie NIET zal breken:**
 
-   1. In de Bouwer van het Rapport, creeer een werkboek met één verzoek, gebruikend de afmeting van de Pagina en metrische de Meningen van de Pagina.
-   1. [Plan dit verzoek](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) dat u wilt publiceren naar Power BI.
-   1. Maak in Power BI een visualisatie voor pagina- en paginaweergaven.
-   1. Bewerk nu het werkboek in de Bouwer van het Rapport, het metrische Bezoek terwijl het houden van de Mening van de Pagina en van de Pagina.
-   1. Bewerk het programma met het bijgewerkte werkboek en publiceer het verzoek opnieuw aan Power BI.
-   1. Zodra het nieuwe werkboek naar de BI van de Macht wordt verzonden
+   1. In Report Builder, creeer een werkboek met één verzoek, gebruikend de afmeting van de Pagina en metrische de Mening van de Pagina.
+   2. Plan dit verzoek dat aan Power BI moet worden gepubliceerd.
+   3. Maak in Power BI een visualisatie voor de weergave van pagina&#39;s en pagina&#39;s.
+   4. Bewerk nu het werkboek in Report Builder en voeg metrisch Bezoek toe terwijl de Pagina- en Paginaweergaven behouden blijven.
+   5. Bewerk het programma met het bijgewerkte werkboek en publiceer het verzoek opnieuw aan Power BI.
+   6. Zodra het nieuwe werkboek naar Power BI wordt verzonden
 
       1. Verifieer dat het de bestaande dataset overlapt die werd gecreeerd toen u eerst publiceerde.
-      1. Controleer of de tabel page_1 correct is bijgewerkt met de kolommen Pagina, Paginaweergaven en Bezoeken.
-      1. Verifieer dat uw visualisatie behoorlijk blijft werken, aangezien het twee kolommen verwijzingen die nog in page_1 lijst aanwezig zijn.
+      2. Controleer of de tabel page_1 correct is bijgewerkt met de kolommen Pagina, Paginaweergaven en Bezoeken.
+      3. Verifieer dat uw visualisatie behoorlijk blijft werken, aangezien het twee kolommen verwijzingen die nog in page_1 lijst aanwezig zijn.
 
 
-* **Zaak 2**: U zet een sectie van uw werkboek aan een dashboard in Macht BI vast en u verwijdert later die vastgezette sectie (zoals een grafiek of een lijst) uit het werkboek. Hierdoor wordt de visualisatie verbroken.
+* **Zaak 2**: U zet een sectie van uw werkboek aan een dashboard in Power BI vast en u verwijdert later die vastgezette sectie (zoals een grafiek of een lijst) uit het werkboek. Hierdoor wordt de visualisatie verbroken.
 
 ## De naam van een Power BI-rapport wijzigen {#section_2E7893A78B914EBFACB2B08CBD9E472E}
 
