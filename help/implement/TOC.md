@@ -5,10 +5,10 @@ user-guide-title: Analytics-implementatiehandleiding
 user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 98%
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
@@ -194,6 +194,7 @@ ht-degree: 98%
    + [Analytics implementeren op Facebook Instant Articles](other/fb-instant-articles.md)
 + [Analytics implementeren op mobiele apparaten](mobile-device-sdk.md)
 + Gebruiksscenario&#39;s implementeren {#use-cases}
+   + [AppMeasurement gebruiken met iFrames](use-cases/iframe.md)
    + [Verschillende implementatietypen bijhouden](use-cases/cross-type-implementation.md)
    + [Externe e-mailtracering](use-cases/email-external.md)
 + Uw implementatie valideren {#validate}
@@ -204,4 +205,4 @@ ht-degree: 98%
 + [Veelgestelde vragen](faq.md)
 + XDM-data gebruiken met Analytics {#aep-edge}
    + [AEP Web-SDK gebruiken](aep-edge/xdmoverview.md)
-   + [XDM-gegevens handmatig toewijzen aan Analytics](aep-edge/xdm-manual.md)
+   + [XDM-gegevens handmatig toewijzen aan Analyse](aep-edge/xdm-manual.md)
