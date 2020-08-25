@@ -1,11 +1,10 @@
 ---
 description: 'null'
-keywords: segmentation;segments
 title: Veelgestelde vragen
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
 source-wordcount: '2173'
 ht-degree: 2%
@@ -63,7 +62,7 @@ Toegang tot Segmentbeheer via:
 
 **Waar ging het verouderde segment neerzetten?**
 
-De segmentdrop-down in Rapporten &amp; Analytics is vervangen door een veel meer eigenschap rijke [interface van de Bouwer](/help/components/segmentation/segmentation-workflow/seg-workflow.md) van het Segment die u toestaat om &quot;universele&quot;segmenten tot stand te brengen bruikbaar over rapportsuites en over de oplossingen van Adobe Analytics. Als u een lijst met bestaande segmenten wilt weergeven, klikt u op het pictogram Segmenten  ![](assets/segment_icon.png)
+De segmentdrop-down in Rapporten &amp; Analytics is vervangen door een veel meer eigenschaprijke [interface van de Bouwer](/help/components/segmentation/segmentation-workflow/seg-workflow.md) van het Segment die u toestaat om &quot;universele&quot;segmenten tot stand te brengen bruikbaar over rapportsuites en over de oplossingen van Adobe Analytics. Als u een lijst met bestaande segmenten wilt weergeven, klikt u op het pictogram Segmenten  ![](assets/segment_icon.png)
 
 in de linkernavigatie en de vertoningen van de segmentspoorstaaf.
 
