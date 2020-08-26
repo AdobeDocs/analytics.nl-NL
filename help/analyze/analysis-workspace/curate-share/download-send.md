@@ -3,7 +3,7 @@ description: U kunt gegevens downloaden van Analysis Workspace door deze te kopi
 title: PDF- of CSV-bestanden downloaden
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: d432fd5386c89b3db82d39b0c21603d96bcf13b9
+source-git-commit: c06298eef53896fa542baf1061c4ae4658cbddd2
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Met de optie Klikken **[!UICONTROL Download data as CSV]** kunt u een gegevensli
 
 ## Items als CSV downloaden {#download-items}
 
-Als u meer dan de zichtbare 400 rijen gegevens in een lijst wilt analyseren, klik de lijstkopbal of om het even welke rij met de rechtermuisknop aan en selecteer punten van de **Download als CSV (naam van Dimension)**. Met deze optie kunt u maximaal 50.000 dimensiepunten exporteren voor de geselecteerde dimensie (op basis van de tabelsortering), met toegepaste filters en segmenten. Als u deze optie boven aan de tabel kiest, wordt de eerste afmeting in de tabel geëxporteerd. Hoewel er geen limieten gelden in de vrije-vormtabel, wordt aanbevolen de optie Items downloaden te gebruiken in tabellen met minder dan 20 kolommen om optimale prestaties te garanderen.
+Als u meer dan de zichtbare 400 rijen gegevens in een lijst wilt analyseren, klik de lijstkopbal of om het even welke rij met de rechtermuisknop aan en selecteer punten van de **Download als CSV (naam van Dimension)**. Met deze optie kunt u maximaal 50.000 dimensieitems (op basis van de tabelsortering) exporteren voor de geselecteerde dimensie, met toegepaste filters en segmenten. Als u deze optie boven aan de tabel kiest, wordt de eerste afmeting in de tabel geëxporteerd. Hoewel er geen limieten gelden in de vrije-vormtabel, wordt aanbevolen de optie Items downloaden te gebruiken in tabellen met minder dan 20 kolommen om optimale prestaties te garanderen.
 
 >[!TIP]
 >
