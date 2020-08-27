@@ -3,7 +3,7 @@ description: Gebruik het Summiere Aantal en de visualisaties van de Verandering 
 title: Cijferoverzicht en Wijzigingsoverzicht
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: cffcceae49fe51558aab0044281156e2c2d1027d
+source-git-commit: 0a3c4a6839d0c6ee2d8a98394ed38c433ea811d1
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 6%
@@ -21,6 +21,8 @@ Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukk
 * Als er één cel is geselecteerd, wordt het overzicht voor die cel weergegeven.
 * Als er meer dan één cel is geselecteerd, wordt de eerste geselecteerde cel weergegeven.
 * Als de kolom is geselecteerd, wordt de eerste celwaarde in de kolom gekozen.
+
+![](assets/summary-number.png)
 
 Klik in de rechterbovenhoek op het tandwieltje voor de **visualisatie-instellingen** om de instellingen voor het samenvattingsnummer te configureren:
 
@@ -43,6 +45,8 @@ Deze visualisatie werkt op de volgende manieren:
 * Als er meer dan twee cellen zijn geselecteerd, worden alleen de eerste twee ter vergelijking in aanmerking genomen.
 * Als een bereik cellen is geselecteerd, wordt het eerste veld vergeleken met de laatste cellen in het bereik.
 * Als de kolom wordt geselecteerd, vergelijkt het de eerste waarde met zich, die een verandering van 0 toont.
+
+![](assets/summary-change.png)
 
 Klik in de rechterbovenhoek op het tandwieltje voor de **visualisatie-instellingen** om de instellingen voor Samenvattingswijziging te configureren:
 
