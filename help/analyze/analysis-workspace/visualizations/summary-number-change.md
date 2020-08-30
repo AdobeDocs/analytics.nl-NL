@@ -3,10 +3,10 @@ description: Gebruik het Summiere Aantal en de visualisaties van de Verandering 
 title: Cijferoverzicht en Wijzigingsoverzicht
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 0a3c4a6839d0c6ee2d8a98394ed38c433ea811d1
+source-git-commit: f3f1fdda35552d23767cc9bd64d47c4b99a5900b
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 6%
+source-wordcount: '462'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,15 @@ Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukk
 * Als er meer dan één cel is geselecteerd, wordt de eerste geselecteerde cel weergegeven.
 * Als de kolom is geselecteerd, wordt de eerste celwaarde in de kolom gekozen.
 
-![](assets/summary-number.png)
+Klik in de rechterbovenhoek op het tandwieltje voor de **visualisatie-instellingen** om de instellingen voor het samenvattingsnummer te configureren:
+
+| Instelling | Definitie |
+|--- |--- |
+| Percentage | Geef percentages weer in plaats van onbewerkte getallen. |
+| Legenda zichtbaar | De informatie van de vertoning over metrisch getoond. |
+| Afkorting | Kies of u waarden wilt afbreken en maximaal 3 decimalen wilt weergeven. |
+| Waarde samenvatten met | Kies of u de maximale, minimale, gemiddelde, mediaan of som voor een selectie gegevens wilt weergeven. |
+
 
 Klik in de rechterbovenhoek op het tandwieltje voor de **visualisatie-instellingen** om de instellingen voor het samenvattingsnummer te configureren:
 
@@ -32,6 +40,7 @@ Klik in de rechterbovenhoek op het tandwieltje voor de **visualisatie-instelling
 | Legenda zichtbaar | De informatie van de vertoning over metrisch getoond. |
 | Afkorting | Kies of u waarden wilt afbreken en maximaal 3 decimalen wilt weergeven. |
 | Waarde samenvatten met | Kies of u de maximale, minimale, gemiddelde, mediaan of som voor een selectie gegevens wilt weergeven. |
+
 
 ## Visualisatie overzichtswijziging {#summary-change}
 
@@ -46,7 +55,9 @@ Deze visualisatie werkt op de volgende manieren:
 * Als een bereik cellen is geselecteerd, wordt het eerste veld vergeleken met de laatste cellen in het bereik.
 * Als de kolom wordt geselecteerd, vergelijkt het de eerste waarde met zich, die een verandering van 0 toont.
 
+
 ![](assets/summary-change.png)
+
 
 Klik in de rechterbovenhoek op het tandwieltje voor de **visualisatie-instellingen** om de instellingen voor Samenvattingswijziging te configureren:
 
