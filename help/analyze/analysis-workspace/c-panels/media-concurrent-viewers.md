@@ -2,10 +2,10 @@
 title: Deelvenster Mediagelijktijdige viewers
 description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace gebruiken en interpreteren.
 translation-type: tm+mt
-source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
+source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 0%
+source-wordcount: '1002'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze functie is gefaseerd beschikbaar voor klanten van Media Analytics.
+>Deze functie vindt u in Beperkte tests voor klanten van mediaveralytics. [Meer informatie...](https://docs.adobe.com/content/help/nl-NL/analytics/landing/an-releases.html)
 
 Klanten van Media Analytics kunnen gelijktijdige viewers analyseren om te begrijpen waar de piekgelijktijdige optreden plaatsvond of waar drop-outs waardevolle inzichten in de kwaliteit van de betrokkenheid van de inhoud en de kijker gaven, en om te helpen bij het oplossen van problemen of het plannen van volume of schaal.
 
@@ -58,7 +58,7 @@ De enige metrische waarde die in dit deelvenster kan worden gebruikt, zijn Gelij
 
 | Metrisch | Beschrijving |
 |---|---|
-| Gelijktijdige viewers | Aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br><br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Unieke bezoekersaccounts gebruiken voor het verwijderen van ongewenste &quot;pieken&quot; bij showgrenzen (waar sessies op hetzelfde moment eindigen en beginnen). |
+| Gelijktijdige viewers | Aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br><br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Unieke bezoekersaccounts gebruiken voor het verwijderen van ongewenste &quot;pieken&quot; bij showgrenzen (waar sessies tegelijkertijd eindigen en starten). |
 
 In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbron wilt weergeven, klikt u met de rechtermuisknop op het lijndiagram en downloadt u dit als een CSV-bestand.  Uitsplitsingen naar reeksen worden opgenomen.
 
