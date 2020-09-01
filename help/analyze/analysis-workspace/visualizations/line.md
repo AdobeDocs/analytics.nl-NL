@@ -3,9 +3,9 @@ description: Gebruik de lijnvisualisatie om trended (op tijd gebaseerde) gegeven
 title: Lijn
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 3ace7c4fc42e578b621433860ae3f0dba6be06fd
+source-git-commit: 5bb2fc217cb7da3696a7c55ef8d193a93c18c2d8
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Met een keuzelijst met granulariteit in de [visualisatie-instellingen](freeform-
 
 ## min of max tonen
 
-Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, kunt u een minimum en maximumwaardeetiket bedekken om de pieken en dalen in metrisch snel te benadrukken.
+Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show min/max]**, kunt u een minimum en maximumwaardeetiket bedekken om de pieken en dalen in metrisch snel te benadrukken. Opmerking: De min/max-waarden worden afgeleid van de zichtbare gegevenspunten in de visualisatie, niet van de volledige reeks waarden binnen een dimensie.
 
 ![min/max tonen](assets/min-max-labels.png)
 
