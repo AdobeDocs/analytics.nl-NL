@@ -1,18 +1,18 @@
 ---
-title: In de Adobe Experience Cloud gebruikte IP's en domeinen
+title: IPs en domeinen die door Adobe Analytics worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die van Adobe afkomstig zijn, gebruik deze lijst om uw firewallmontages bij te werken.
 translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+source-git-commit: 4faa557120f937eb240e6d12ab0e2fc0ae7372ab
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 
-# In de Adobe Experience Cloud gebruikte IP&#39;s en domeinen
+# IPs en domeinen die door Adobe Analytics worden gebruikt
 
-Sommige firewallconfiguraties blokkeren IP adressen voortkomend uit de servers van de Adobe van de gegevensinzameling of servers verantwoordelijk voor de toegang tot van gegevens. De volgende lijst van IP adresblokken behandelt de momenteel bekende adressen betrokken in Adobe Experience Cloud. U kunt deze lijst met bereiken gebruiken om de firewallinstellingen van uw organisatie te wijzigen, zodat u toegang hebt en gegevens kunt verzenden vanuit uw organisatie.
+Sommige firewallconfiguraties blokkeren IP adressen voortkomend uit de servers van de Adobe van de gegevensinzameling of servers verantwoordelijk voor de toegang tot van gegevens. U kunt deze lijst met bereiken gebruiken om de firewallinstellingen van uw organisatie te wijzigen, zodat u toegang hebt en gegevens kunt verzenden vanuit uw organisatie.
 
 >[!IMPORTANT]
 >
@@ -33,98 +33,87 @@ Adobe Analytics gebruikt de volgende hosts om de prestaties en de productervarin
 | Microsoft Azure Blob-opslag | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## Alle Adobe IP-adresblokken
+## Alle Adobe Analytics IP-adresblokken
 
-De volgende lijst behandelt alle openbare IP van Adobe Experience Cloud adressen die door Adobe worden bezeten. Deze reeksen omvatten standaard gegevensverzamelingsservers en regionale gegevensverzamelingsservers voor Adobe Analytics. Ze omvatten geen afzonderlijke AWS-hosts.
+De volgende tabel bevat alle standaardservers voor gegevensverzameling en regionale servers voor gegevensverzameling voor Adobe Analytics. Ze omvatten geen afzonderlijke AWS-hosts.
 
-Veel van de diensten van de Adobe en de mogelijkheden delen IP blokken en waaiers, nochtans hebben sommige hun eigen ruimte. Blokken die slechts één oplossing gebruiken, worden als zodanig aangegeven.
-
-| IP-blok (CIDR-notatie) | Notities |
-| --- | --- |
-| `62.210.161.0/24` | Specifiek voor Adobe Campaign |
-| `63.140.32.0/19` |  |
-| `66.117.16.0/20` |  |
-| `66.235.128.0/19` |  |
-| `67.226.212.0/23` | Specifiek voor Adobe Advertising Cloud |
-| `103.202.219.0/24` | Specifiek voor Adobe Advertising Cloud |
-| `130.248.0.0/16` |  |
-| `172.82.192.0/18` |  |
-| `185.34.188.0/22` |  |
-| `185.148.48.0/24` | Specifiek voor Adobe Advertising Cloud |
-| `192.243.224.0/19` |  |
-| `198.98.22.0/23` | Specifiek voor Adobe Advertising Cloud |
-| `205.219.231.0/24` |  |
-| `208.67.40.0/22` |  |
-| `208.77.136.0/22` |  |
-| `208.91.168.0/21` | Specifiek voor Adobe Advertising Cloud |
+| IP-blok (CIDR-notatie) |
+| --- |
+| `63.140.32.0/19` |
+| `66.117.16.0/20` |
+| `66.235.128.0/19` |
+| `130.248.0.0/16` |
+| `172.82.192.0/18` |
+| `185.34.188.0/22` |
+| `192.243.224.0/19` |
+| `205.219.231.0/24` |
+| `208.67.40.0/22` |
+| `208.77.136.0/22` |
 
 ## Gegevensverzameling en FTP IP-adresblokken
 
 Als uw organisatie verkiest om specifieke IP adreswaaiers toe te staan kunt u de volgende lijst gebruiken. Alle bereiken in deze sectie zijn opgenomen in de bovenstaande tabel.
 
-| Locatie | IP-bereik (CIDR-notatie) | Notities |
-| --- | --- | --- |
-| Amsterdam | `66.117.28.0/23` |  |
-| Dallas | `205.219.231.0/24` |  |
-| Dallas | `66.235.152.0/22` |  |
-| Dallas | `66.235.140.0/22` |  |
-| Dallas | `63.140.32.0/21` |  |
-| Dallas | `172.82.208.0/22` |  |
-| SAR Hongkong van China | `66.117.24.0/22` |  |
-| Londen | `66.235.156.0/24` |  |
-| Londen | `66.235.148.0/23` |  |
-| Londen | `66.117.16.0/23` | Specifiek voor Adobe Campaign |
-| Londen | `63.140.40.0/22` |  |
-| Londen | `208.67.41.0/24` |  |
-| Londen | `192.243.254.0/23` |  |
-| Londen | `192.243.244.0/22` |  |
-| Londen | `185.34.188.0/23` |  |
-| Londen | `130.248.152.0/21` |  |
-| Londen | `172.82.224.0/21` |  |
-| Londen | `172.82.232.0/21` |  |
-| Oregon | `192.243.240.0/22` |  |
-| Oregon | `192.243.232.0/21` |  |
-| Oregon | `192.243.224.0/21` |  |
-| Oregon | `130.248.160.0/21` |  |
-| Oregon | `130.248.148.0/22` |  |
-| Oregon | `172.82.192.0/21` |  |
-| Oregon | `172.82.216.0/21` |  |
-| Parijs | `62.210.161.0/24` | Specifiek voor Adobe Campaign |
-| Parijs | `66.117.18.0/23` | Specifiek voor Adobe Campaign |
-| Parijs | `208.67.40.0/24` |  |
-| Singapore | `66.235.150.0/24` |  |
-| Singapore | `66.235.130.0/23` |  |
-| Singapore | `63.140.44.0/22` |  |
-| Singapore | `208.67.43.0/24` |  |
-| Singapore | `172.82.240.0/22` |  |
-| Singapore | `172.82.246.0/23` |  |
-| Singapore | `172.82.248.0/21` |  |
-| San Jose | `66.117.20.0/24` |  |
-| San Jose | `66.235.132.0/22` |  |
-| San Jose | `130.248.128.0/22` |  |
-| San Jose | `192.243.248.0/23` |  |
-| San Jose | `172.82.200.0/22` |  |
-| San Jose | `66.235.136.0/22` |  |
-| San Jose | `208.91.175.0/24` |  |
-| San Jose | `208.91.174.0/24` |  |
-| San Jose | `208.91.169.0/24` |  |
-| Sydney | `216.104.216.0/23` |  |
-| Tokyo | `66.235.159.0/24` |  |
-| Tokyo | `66.117.21.0/24` |  |
-| Tokyo | `63.140.52.0/24` |  |
-| Tokyo | `63.140.50.0/23` |  |
-| Virginia | `66.235.144.0/22` |  |
-| Virginia | `208.77.138.0/23` |  |
-| Virginia | `208.77.136.0/23` |  |
-| Virginia | `192.243.250.0/23` |  |
-| Virginia | `130.248.144.0/22` |  |
-| Virginia | `172.82.204.0/22` |  |
-| Virginia | `172.82.212.0/22` |  |
-| Virginia | Zie AWS-hosts |  |
+| Locatie | IP-bereik (CIDR-notatie) |
+| --- | --- |
+| Amsterdam | `66.117.28.0/23` |
+| Dallas | `205.219.231.0/24` |
+| Dallas | `66.235.152.0/22` |
+| Dallas | `66.235.140.0/22` |
+| Dallas | `63.140.32.0/21` |
+| Dallas | `172.82.208.0/22` |
+| SAR Hongkong van China | `66.117.24.0/22` |
+| Londen | `66.235.156.0/24` |
+| Londen | `66.235.148.0/23` |
+| Londen | `63.140.40.0/22` |
+| Londen | `208.67.41.0/24` |
+| Londen | `192.243.254.0/23` |
+| Londen | `192.243.244.0/22` |
+| Londen | `185.34.188.0/23` |
+| Londen | `130.248.152.0/21` |
+| Londen | `172.82.224.0/21` |
+| Londen | `172.82.232.0/21` |
+| Oregon | `192.243.240.0/22` |
+| Oregon | `192.243.232.0/21` |
+| Oregon | `192.243.224.0/21` |
+| Oregon | `130.248.160.0/21` |
+| Oregon | `130.248.148.0/22` |
+| Oregon | `172.82.192.0/21` |
+| Oregon | `172.82.216.0/21` |
+| Parijs | `208.67.40.0/24` |
+| Singapore | `66.235.150.0/24` |
+| Singapore | `66.235.130.0/23` |
+| Singapore | `63.140.44.0/22` |
+| Singapore | `208.67.43.0/24` |
+| Singapore | `172.82.240.0/22` |
+| Singapore | `172.82.246.0/23` |
+| Singapore | `172.82.248.0/21` |
+| San Jose | `66.117.20.0/24` |
+| San Jose | `66.235.132.0/22` |
+| San Jose | `130.248.128.0/22` |
+| San Jose | `192.243.248.0/23` |
+| San Jose | `172.82.200.0/22` |
+| San Jose | `66.235.136.0/22` |
+| San Jose | `208.91.175.0/24` |
+| San Jose | `208.91.174.0/24` |
+| San Jose | `208.91.169.0/24` |
+| Sydney | `216.104.216.0/23` |
+| Tokyo | `66.235.159.0/24` |
+| Tokyo | `66.117.21.0/24` |
+| Tokyo | `63.140.52.0/24` |
+| Tokyo | `63.140.50.0/23` |
+| Virginia | `66.235.144.0/22` |
+| Virginia | `208.77.138.0/23` |
+| Virginia | `208.77.136.0/23` |
+| Virginia | `192.243.250.0/23` |
+| Virginia | `130.248.144.0/22` |
+| Virginia | `172.82.204.0/22` |
+| Virginia | `172.82.212.0/22` |
+| Virginia | Zie AWS-hosts |
 
 ## AWS-hosts
 
-Sommige Adobe-mogelijkheden gebruiken Amazon Web Services om gegevens te verzamelen. De volgende tabel bevat AWS-hosts die zijn gereserveerd voor Adobe. Deze hosts zijn **niet** opgenomen in het hierboven vermelde bereik van aggregaten.
+Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverzamelingsproces. De volgende tabel bevat AWS-hosts die zijn gereserveerd voor Adobe. Deze hosts zijn **niet** opgenomen in het hierboven vermelde bereik van aggregaten.
 
 | Locatie | Host |
 | --- | --- |
