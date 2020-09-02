@@ -1,16 +1,19 @@
 ---
 description: De afmetingen die u kunt lezen en schrijven (tenzij anders vermeld) gebruikend verwerkingsregels.
 subtopic: Processing rules
-title: Beschikbare afmetingen voor verwerkingsregels
+title: Beschikbare dimensies voor verwerkingsregels
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '742'
+ht-degree: 3%
 
 ---
 
 
-# Beschikbare afmetingen voor verwerkingsregels
+# Beschikbare dimensies voor verwerkingsregels
 
 De afmetingen die u kunt lezen en schrijven (tenzij anders vermeld) gebruikend verwerkingsregels.
 
@@ -38,12 +41,12 @@ De afmetingen die u kunt lezen en schrijven (tenzij anders vermeld) gebruikend v
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contextgegevensvariabelen </p> </td> 
-   <td colname="col2"> <p>Benoemde variabelen die met een hit worden verzonden. </p> <p>Opmerking:  Om het even welke gegevens in een Variabele van de Gegevens van de Context moeten aan een rapporteringsvariabele worden gekopieerd om in een rapport te verschijnen. De Variabelen van de Gegevens van de context zijn niet viewable in om het even welke rapporteringsinterface, met inbegrip van de Gegevensvoer ClickStream. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Kopieer een variabelen voor contextgegevens naar een eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Een gebeurtenis instellen met een Context Data-variabele </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Contextgegevensvariabelen</a> </p> </td> 
+   <td colname="col2"> <p>Benoemde variabelen die met een hit worden verzonden. </p> <p>Opmerking:  Om het even welke gegevens in een Variabele van de Gegevens van de Context moeten aan een rapporteringsvariabele worden gekopieerd om in een rapport te verschijnen. De Variabelen van de Gegevens van de context zijn niet viewable in om het even welke rapporteringsinterface, met inbegrip van de Gegevensvoer ClickStream. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Een contextgegevensvariabele naar een eVar kopiëren </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Een gebeurtenis instellen met een Context Data-variabele </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Contextgegevensvariabelen</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Verkeersvariabelen {#section_225156106F8B41F8BC1E68D58DDC2652}
+## Traffic Variables {#section_225156106F8B41F8BC1E68D58DDC2652}
 
 <table id="table_575F618C59DC4933BC77F935518EAE39"> 
  <thead> 
@@ -88,11 +91,11 @@ De afmetingen die u kunt lezen en schrijven (tenzij anders vermeld) gebruikend v
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paginanaam </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Opmerking:  Een paginaweergave wordt geteld bij alle treffers waarbij de paginanaam niet leeg is. Wanneer een koppeling wordt bijgehouden, verwijdert de server voor gegevensverzameling de paginanaam uit de hit, zodat de paginaweergaven niet worden geteld. Als u een paginanaam in deze vraag opnieuw opneemt gebruikend verwerkingsregels, zal een paginamening worden geteld. We raden u aan te controleren of de paginanaam al is ingesteld voordat u de paginanaam wijzigt. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Opmerking:  De het volgen van verbinding vraag ontdoet de <code>pageName</code> variabele alvorens zij verwerkingsregels bereiken. Als u een waarde van de paginanaam opnieuw opneemt gebruikend verwerkingsregels, wordt de klap beschouwd als een paginamening in plaats van een verbinding die vraag volgt. Adobe raadt u aan te controleren of de paginanaam al is ingesteld voordat u deze wijzigt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pagina-URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> of de URL van de huidige pagina als deze niet <code> s.pageURL</code> is opgegeven. </td> 
+   <td colname="col2"> <code> s.pageURL</code> of de URL van de huidige pagina als deze niet <code> s.pageURL</code> is opgegeven. <p>Opmerking:  De het volgen van verbinding vraag ontdoet de <code>pageURL</code> variabele alvorens zij verwerkingsregels bereiken. Als u een pagina-URL-waarde opnieuw invoegt met verwerkingsregels, wordt de treffer beschouwd als een paginaweergave in plaats van een aanroep voor het bijhouden van koppelingen. Adobe raadt aan te controleren of de pagina-URL al is ingesteld voordat u deze wijzigt. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parameter querytekenreeks </p> </td> 
@@ -149,7 +152,7 @@ De afmetingen die u kunt lezen en schrijven (tenzij anders vermeld) gebruikend v
  </tbody> 
 </table>
 
-## Conversievariabelen {#section_311856B21B3B49DBAA0539CFA06C409F}
+## Conversion Variables {#section_311856B21B3B49DBAA0539CFA06C409F}
 
 <table id="table_E28729026EDA485989178A3B887B5983"> 
  <thead> 
@@ -194,7 +197,7 @@ De afmetingen die u kunt lezen en schrijven (tenzij anders vermeld) gebruikend v
  </tbody> 
 </table>
 
-## Gebeurtenissen geslaagd {#section_C1946FEB64FC4F579671EC5E0D06AE8A}
+## Success Events {#section_C1946FEB64FC4F579671EC5E0D06AE8A}
 
 Met verwerkingsregels kunnen gebeurtenissen worden ingesteld, maar deze kunnen niet als voorwaarden worden gelezen.
 
@@ -207,7 +210,7 @@ Met verwerkingsregels kunnen gebeurtenissen worden ingesteld, maar deze kunnen n
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Gebeurtenis 1-1000 </p> <p>(Voor SiteCatalyst 15-klanten geldt gebeurtenis 1-100.) </p> </td> 
+   <td colname="col1"> <p>Gebeurtenis 1-1000 </p> <p>(Voor klanten van SiteCatalyst 15, gebeurtenis 1-100.) </p> </td> 
    <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
