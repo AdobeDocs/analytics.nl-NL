@@ -2,9 +2,9 @@
 description: Meer informatie over het migreren van verwerkingsregels voor mobiele services naar Adobe Analytics
 title: De verwerkingsregels voor mobiele services migreren naar Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 67c8880e125ca31aa96ecea56a7ef0b85bc3abba
+source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,10 @@ Naast mobiele metriek en dimensies (als de rapportsuite is ingeschakeld voor Mob
 * Prestaties: Hoe presteert de app en waar hebben gebruikers problemen?
 * Behoud: Wie zijn mijn loyale gebruikers en wat doen ze?
 * Reizen: Wat zijn de opvallende gebruikspatronen voor mijn app?
+
+Hier volgt een fragment van de Mobile App Usage-sjabloon:
+
+![Gebruik van mobiele toepassingen](assets/mobile-app-usage.png)
 
 De sjablonen openen:
 
