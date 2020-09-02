@@ -3,10 +3,10 @@ description: Er zijn twee manieren om metriek in Analysis Workspace te gebruiken
 title: Metrics
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 79032645028af6e782a89867057fc9a1726ca27c
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 8%
+source-wordcount: '247'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ U kunt een standaard metrische, berekende metrische of berekende metrische sjabl
 >
 >Hoewel dit schijnbaar eenvoudig is, is het gebruik van metriek vrij krachtig. U kunt metriek aan een rapport toevoegen door aangewezen metrisch aan de metrieke sectie van een lijst te slepen. U kunt afmetingen ook onderverdelen door metriek, die u verfijnde controle over de lijstmening geven. Voorts kunt u metrisch als afmeting en een afmeting als metrisch opnemen om een overlooprapport tot stand te brengen. Speel rond met de diverse componenten en zie wat u kunt doen. De mogelijkheden zijn eindeloos.
 
-U kunt ook op **[!UICONTROL Components]** > **[!UICONTROL New Metric]** klikken. Dit zal u aan de [Berekende Metrische Bouwer](https://docs.adobe.com/content/help/nl-NL/analytics/components/calculated-metrics/cm-overview.html)brengen, waar u douanemetriek van bestaande metriek kunt bouwen.
+U kunt ook op **[!UICONTROL Components]** > **[!UICONTROL New Metric]** klikken. Dit zal u aan de [Berekende Metrische Bouwer](/help/components/c-calcmetrics/cm-overview.md)brengen, waar u douanemetriek van bestaande metriek kunt bouwen.
 
 To make it easier to quickly create calculated metrics, **[!UICONTROL Create metric from selection]** has been added to the column right-click menu in Freeform Tables. Deze optie wordt weergegeven wanneer een of meer cellen met kopteksten zijn geselecteerd.
 
@@ -33,7 +33,7 @@ To make it easier to quickly create calculated metrics, **[!UICONTROL Create met
 
 ## Metriek vergelijken met verschillende attributiemodellen
 
-Als u één attributiemodel aan een andere snel en gemakkelijk wilt vergelijken, klik metrisch met de rechtermuisknop aan en selecteer **[!UICONTROL Add comparative attribution model]**:
+Als u één attributiemodel aan een andere snel en gemakkelijk wilt vergelijken, klik metrisch met de rechtermuisknop aan en selecteer **[!UICONTROL Compare Attribution Models]**:
 
 ![Kenmerk vergelijken](assets/compare-attribution.png)
 
