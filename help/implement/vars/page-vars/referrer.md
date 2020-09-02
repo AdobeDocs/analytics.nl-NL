@@ -1,13 +1,16 @@
 ---
-title: referentie
+title: referrer
 description: Overschrijf de automatisch verzamelde verwijzer voor een klap.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 1%
 
 ---
 
 
-# referentie
+# referrer
 
 De `referrer` variabele negeert de automatisch verzamelde verwijzer in rapporten. Deze variabele is handig in situaties waarin de referentie verloren kan gaan, bijvoorbeeld tijdens omleidingen of het tijdelijk doorsturen van de bezoeker naar een betalingsverwerker. Met deze variabele kunt u de afmetingen &#39;Referrer&#39; en &#39;Refering Domain&#39; vullen.
 
@@ -19,7 +22,7 @@ U kunt de verwijzer instellen tijdens het configureren van de extensie Analytics
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 4. Klik onder [!UICONTROL Actions]op een bestaande [!UICONTROL Adobe Analytics - Set Variables] handeling of klik op het pictogram ‘+’.
-5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en stel het [!UICONTROL Action Type] in op [!UICONTROL Set Variables].
+5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en [!UICONTROL Action Type] op [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL Referrer] sectie.
 
 U kunt de verwijzing instellen op elke tekenreekswaarde, inclusief gegevenselementen.
@@ -32,7 +35,15 @@ De `s.referrer` variabele is een tekenreeks die de URL van de vorige pagina beva
 s.referrer = "https://example.com";
 ```
 
-Stel deze variabele niet in op niet-URL-waarden.
+Als u de `digitalData` gegevenslaag [](../../prepare/data-layer.md)gebruikt:
+
+```js
+s.referrer = digitalData.page.pageInfo.referringURL;
+```
+
+>[!CAUTION]
+>
+>Stel deze variabele niet in op niet-URL-waarden.
 
 ## Voorbeeld
 
