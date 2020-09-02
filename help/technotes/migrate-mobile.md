@@ -2,9 +2,9 @@
 description: Meer informatie over het migreren van verwerkingsregels voor mobiele services naar Adobe Analytics
 title: De verwerkingsregels voor mobiele services migreren naar Adobe Analytics
 translation-type: tm+mt
-source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
+source-git-commit: c2610bf25c960039ca8638cecbd05f3a8b28376f
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 Met de komende (nog onaangekondigde) onderbreking van de functionaliteit van de Mobiele Diensten van Adobe, voorziet dit document u van instructies over hoe te om het even welke extra verwerkingsregels - voorbij Metriek van de Levenscyclus - te migreren die u in Mobiele Diensten UI aan Adobe Analytics creeerde.
 
 De verwerkingsregels worden gebruikt om waarden van de variabelen van contextgegevens naar steunen en eVars te bewegen. U kunt bijvoorbeeld de waarde van een contextgegevensvariabele voor de zoekterm in de waarde van een eVar Handelsvariabele plaatsen en die waarde bij elke hit overschrijven. Zonder verwerkingsregels hebben contextgegevensvariabelen geen betekenis en vullen ze geen rapporten in Analytics.
+
+In dit document wordt ook aandacht besteed aan de rapportage voor mobiel gebruik in Analysis Workspace en wordt de haalbaarheid van het migreren van andere mobiele services-functionaliteit besproken.
 
 ## Verwerkingsregels migreren
 
