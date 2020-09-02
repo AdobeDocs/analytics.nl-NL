@@ -2,23 +2,23 @@
 title: products
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 1%
+source-wordcount: '503'
+ht-degree: 0%
 
 ---
 
 
 # products
 
-De `products` variabele houdt producten en eigenschappen bij die aan hen worden gebonden. Deze variabele wordt doorgaans ingesteld op afzonderlijke productpagina&#39;s, winkelwagenpagina&#39;s en pagina&#39;s met aankoopbevestiging. Dit is een variabele met meerdere waarden. Dit betekent dat u meerdere producten in dezelfde hit kunt verzenden en dat Adobe de waarde parseert in afzonderlijke dimensie-items.
+De `products` variabele houdt producten en eigenschappen bij die aan hen worden gebonden. Deze variabele wordt doorgaans ingesteld op afzonderlijke productpagina&#39;s, winkelwagenpagina&#39;s en pagina&#39;s met aankoopbevestiging. Dit is een variabele met meerdere waarden. Dit betekent dat u meerdere producten in dezelfde hit kunt verzenden en dat Adobe de waarde parseert in verschillende dimensieitems.
 
 >[!NOTE]
 >
 >Als deze variabele in een hit zonder een winkelwagentgebeurtenis in de [`events`](events/events-overview.md) variabele wordt geplaatst, [toont](/help/components/metrics/product-views.md) de metrische toename van de Weergaven van het Product met 1. Zorg ervoor dat u de juiste winkelwagentgebeurtenis instelt bij elke treffer met de `products` variabele.
 
-## Producten in Adobe Experience Platform starten
+## Producten in Adobe Experience Platform Launch
 
 Er is geen specifiek veld in Launch om deze variabele in te stellen. er zijn echter meerdere extensies van derden die u helpen.
 
@@ -54,7 +54,7 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!IMPORTANT]
 >
->Strip alle puntkomma&#39;s, komma&#39;s en pijpen van productnamen, categorieën en merchandising eVar-waarden. Als een productnaam een komma bevat, parseert AppMeasurement deze als het begin van een nieuw product. Door deze onjuiste parsering wordt de rest van de productreeks verwijderd, waardoor onjuiste gegevens in afmetingen en rapporten ontstaan.
+>Hiermee kunt u alle puntkomma&#39;s, komma&#39;s en eVar uit productnamen, categorieën en waarden voor het wijzigen van handelswaarden verwijderen. Als een productnaam een komma bevat, parseert AppMeasurement deze als het begin van een nieuw product. Door deze onjuiste parsering wordt de rest van de productreeks verwijderd, waardoor onjuiste gegevens in afmetingen en rapporten ontstaan.
 
 ## Voorbeelden
 
@@ -95,4 +95,17 @@ s.products = ";Example product;;;;eVar1=Merchandising value";
 // Multiple products using multiple different events and multiple different merchandising eVars
 s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
+```
+
+Als u de `digitalData` gegevenslaag [gebruikt, kunt u de](../../prepare/data-layer.md)`digitalData.product` objectarray doorlopen:
+
+```js
+for(var i=0; i<digitalData.product.length; i++) {
+    // Add individual product info to the product string
+    s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
+    // If there are more products, add a comma
+    if(i != digitalData.product.length-1) {
+        s.products += ",";
+    }
+}
 ```
