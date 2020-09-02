@@ -2,9 +2,9 @@
 title: Een datalaag maken
 description: Leer wat een gegevenslaag in uw implementatie Analytics is, en hoe het kan worden gebruikt om variabelen in Adobe Analytics in kaart te brengen.
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '479'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site dat alle var
 
 ## Vereisten
 
-[Maak een document](solution-design.md) voor het ontwerp van een oplossing. Het is belangrijk dat uw organisatie zich uitlijnt op de vereisten voor bijhouden. Zorg ervoor u met een document van het oplossingsontwerp alvorens ontwikkelingsteams in uw organisatie wordt voorbereid te benaderen.
+[Maak een document](solution-design.md) voor het ontwerp van een oplossing. Het is belangrijk dat uw organisatie zich uitlijnt op de vereisten voor bijhouden. Zorg ervoor dat u met een document van het oplossingsontwerp alvorens ontwikkelingsteams in uw organisatie wordt voorbereid te benaderen.
 
 ## Workflow
 
@@ -61,14 +61,14 @@ digitalData = {
         },
         category: {
             primaryCategory: "Example page category",
-            subCategory1: "Sub-category example"
+            subCategory: "Sub-category example"
         },
         attributes: {
             country: "US",
             language: "en-US"
         }
     },
-    product1: {
+    product: [{
         productInfo: {
             productID: "4859",
             productName: "Example product",
@@ -77,13 +77,14 @@ digitalData = {
             productImage: "https://example.com/product_image.png",
             productThumbnail: "https://example.com/product_thumbnail.png",
             manufacturer: "Example manufacturer",
+            quantity: 1,
             size: "Product size"
         },
         category: {
             primaryCategory: "Example product category",
             subCategory: "Example sub-category"
         }
-    },
+    }],
     cart: {
         cartID: "934856",
         price: {
@@ -124,13 +125,13 @@ digitalData = {
             }
         }
     },
-    event1: {
+    event: [{
         category: {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    component1: {
+    }],
+    component: [{
         componentInfo: {
             componentID: "4921",
             componentName: "Example component"
@@ -139,10 +140,10 @@ digitalData = {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    user1: {
+    }],
+    user: [{
         segment: "Premium membership",
-        profile1: {
+        profile: [{
             profileInfo: {
                 profileID: "exampleprofile",
                 userName: "exampleusername",
@@ -154,19 +155,19 @@ digitalData = {
                 facebook: "examplefacebookid",
                 twitter: "exampletwitterhandle"
             }
-        }
-    },
+        }]
+    }],
     privacy: {
-        accessCategories1: {
+        accessCategories: [{
             categoryName: "Default",
             domains: "adobedtm.com"
-        }
+        }]
     },
     version: "1.0"
 }
 ```
 
-Gebruik het rapport [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) voor meer informatie over elk object en subobject. Niet alle sites gebruiken alle objecten; als u bijvoorbeeld een nieuwssite host, is het onwaarschijnlijk dat u dit object gebruikt. `digitalData.product`
+Gebruik het rapport [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) voor meer informatie over elk object en subobject. Niet alle sites gebruiken alle objecten; als u bijvoorbeeld een nieuwssite host, is het onwaarschijnlijk dat u deze voor de `digitalData.product` objectenarray hebt gebruikt.
 
 Gegevenslagen zijn uitbreidbaar; als u specifieke vereisten voor uw organisatie hebt, kunt u voorwerpen in uw gegevenslaag omvatten om die behoeften aan te passen.
 
