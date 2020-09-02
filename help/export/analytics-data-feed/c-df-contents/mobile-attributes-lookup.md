@@ -2,7 +2,7 @@
 title: Opzoeken van mobiele kenmerken
 description: Bestand opzoeken voor mobiele kenmerken.
 translation-type: tm+mt
-source-git-commit: b4405f4934ffca5561bb43216a6c3133fd59c0c7
+source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Mobiele kenmerken tonen de eigenschappen van het mobiele apparaat in de hit. Dit
 * De `mobile_id` kolom wordt opgenomen.
 * De `user_agent` kolom is uitgesloten. Deze uitsluiting is vereist vanwege licentieovereenkomsten met DeviceAtlas.
 
-Download `mobile_attributes_headers.tsv`of verwijs hier naar de lijst:
+Download [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv)of verwijs hier naar de lijst:
 
 * `mobile_id`
 * `Manufacturer`
