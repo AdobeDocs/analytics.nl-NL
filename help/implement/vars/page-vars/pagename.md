@@ -2,9 +2,9 @@
 title: pageName
 description: De naam van de pagina op uw site.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '219'
 ht-degree: 1%
 
 ---
@@ -12,17 +12,17 @@ ht-degree: 1%
 
 # pageName
 
-In de `pageName` variabele wordt doorgaans de naam van een bepaalde pagina opgeslagen. Het is handig om te bepalen welke afzonderlijke pagina&#39;s het populairst zijn. Deze variabele vult de dimensie &#39;Paginanaam&#39;.
-
->[!NOTE]
->
->Deze dimensie wordt altijd gestript van verbinding het volgen vraag. Als u de paginanaam wilt zien waar een verbinding werd gevolgd, overweeg het kopiëren van deze variabele in een eVar.
+In de `pageName` variabele wordt doorgaans de naam van een bepaalde pagina opgeslagen. Het is handig om te bepalen welke afzonderlijke pagina&#39;s het populairst zijn. Met deze variabele wordt de dimensie [Pagina](/help/components/dimensions/page.md) gevuld.
 
 Als deze variabele niet op een bepaalde pagina het volgen vraag wordt bepaald, wordt de [`pageURL`](pageurl.md) variabele in plaats daarvan gebruikt.
 
-## Paginanaam in Adobe Experience Platform starten
+>[!NOTE]
+>
+>De servers van de gegevensinzameling van Adobe ontdoen deze afmeting van alle [verbinding die beeldverzoeken volgen](/help/implement/vars/functions/tl-method.md) . Als u deze dimensie wilt weergeven in het bijhouden van koppelingen, kunt u deze dimensie kopiëren naar een [eVar](evar.md).
 
-U kunt paginanaam instellen tijdens het configureren van de Analytics-extensie (globale variabelen) of onder regels.
+## Paginanaam in Adobe Experience Platform Launch
+
+U kunt paginanaam instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
@@ -43,4 +43,10 @@ s.pageName = "Example page name";
 
 // Set page name to the page's title
 s.pageName = window.document.title;
+```
+
+Als u de `digitalData` gegevenslaag [](../../prepare/data-layer.md)gebruikt:
+
+```js
+s.pageName = digitalData.page.pageInfo.pageName;
 ```
