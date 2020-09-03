@@ -1,34 +1,44 @@
 ---
-description: Hier volgen enkele gebruikelijke valkuilen bij gebruik van Report Builder met Power BI.
-title: Probleemoplossing voor Power BI-integratie
+description: Vaak voorkomende problemen bij het gebruik van Report Builder met Power BI.
+title: Problemen met Power BI-integratie oplossen
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3aae3b00db1d7f720641ed5ccbefd8acc03460e3
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 2%
 
 ---
 
 
-# Probleemoplossing voor Power BI-integratie
+# Problemen met Power BI-integratie oplossen
 
-Hier volgen enkele gebruikelijke valkuilen bij gebruik van Report Builder met Power BI.
+Onderzoek en los gemeenschappelijke kwesties op wanneer het gebruiken van Report Builder met Power BI.
 
-## Stap 1. Publiceren naar Power BI mislukt {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
+## Publiceren naar Power BI is mislukt
 
-Geplande werkboeken waarvoor publicatie van Power BI vereist is, zijn afhankelijk van Power BI-services om aan de slag te kunnen gaan. Twee belangrijke redenen voor het niet publiceren zijn:
+De geplande werkboeken die Power BI het publiceren vereisen zijn afhankelijk van de diensten van Power BI om in werking te zijn. Twee belangrijke redenen voor het niet publiceren zijn:
 
-* Power BI-services zijn mogelijk uitgeschakeld.
+* De diensten van de Power BI kunnen neer zijn.
 * De gebruiker die het werkboek opende heeft niet meer geldige de rekeningsgeloofsbrieven van Microsoft.
 
-Elke geplande taak van de Bouwer van het Rapport krijgt drie pogingen per geplande looppas:
+Elke geplande Report Builder taak krijgt drie pogingen per geplande looppas:
 
-* Na de eerste mislukte poging ontvangt u het volgende bericht: &quot;&quot;We konden dit geplande werkboek niet publiceren naar Microsoft Power BI. We proberen het binnenkort opnieuw.&quot;
+* Na de eerste mislukte poging ontvangt u het volgende bericht: &quot;&quot;Wij konden dit geplande werkboek aan de Power BI van Microsoft niet publiceren. We proberen het binnenkort opnieuw.&quot;
 * Na de tweede mislukte poging krijg je geen bericht meer.
-* Na de derde mislukte poging ontvangt u het volgende bericht: &quot;We konden dit werkboek niet publiceren naar Power BI.&quot;
+* Na de derde mislukte poging ontvangt u het volgende bericht: &quot;We konden dit werkboek niet naar Power BI publiceren.&quot;
 
-## Stap 2. Gebroken visualisaties in Power BI {#section_FFFE200D06F843B2AF093710FD678166}
+## Gebroken visualisaties in Power BI
 
-Hier zijn de hoogste redenen waarom u met gebroken visualisaties na het publiceren van de verzoeken van de Bouwer van het Rapport aan Power BI kon eindigen:
+Hieronder vindt u een overzicht van de belangrijkste redenen waarom u onderbroken visualisaties kunt krijgen nadat u Report Builder-verzoeken naar Power BI hebt gepubliceerd:
 
-* U hebt een verzoek bewerkt in Report Builder, zoals het wijzigen van metriek of afmetingen, en vervolgens opnieuw gepubliceerd naar Power BI. Door aanvragen te bewerken kunnen uw visualisaties worden verbroken.
+* U hebt een aanvraag bewerkt in Report Builder, zoals metriek of afmetingen wijzigen en vervolgens opnieuw gepubliceerd in Power BI. Door aanvragen te bewerken kunnen uw visualisaties worden verbroken.
 * U hebt een aanvraag verwijderd die in een visualisatie is gebruikt.
 
+## Report Builder moet gemachtigd zijn om toegang te krijgen tot uw organisatiebronnen. Deze toegang kan slechts door een beheerder worden verleend. Vraag een beheerder om u toestemming te verlenen.
+
+Een Microsoft Admin-controle laten uitvoeren van de instelling &quot;Gebruikers kunnen de toepassing registreren&quot; onder: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL User Settings allows options]**. Als deze optie is ingesteld op Nee, kan die beheerder deze typen toepassingen registreren.
+
+De gebruikers kunnen Toegang verlenen door de volgende [verbinding](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)te gebruiken.
+
+Admins verleende toegang voor elk door de volgende [verbinding](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)te gebruiken.
