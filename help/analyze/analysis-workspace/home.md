@@ -4,7 +4,7 @@ title: Overzicht van Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: bf4dd4938491b4841f77b31389dcdbd5e0b16cba
+source-git-commit: 2c2cb617f1041a81f6e17585f5786a7a042fd2ad
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 35%
@@ -17,6 +17,7 @@ ht-degree: 35%
 >[!IMPORTANT]
 >
 >Deze pagina is momenteel in opbouw.
+
 
 Analysis Workspace verwijdert alle typische beperkingen die van toepassing zijn op een enkel Analytics-rapport. Analysis Workspace biedt een robuust en flexibel canvas om analyseprojecten op maat te maken. Sleep een willekeurig aantal datatabellen, visualisaties en componenten (dimensies, metrics, segmenten en tijdgranulariteiten) naar een project. Maak direct uitsplitsingen en segmenten, maak meldingen en cohorten aan voor analyse, vergelijk segmenten, werk aan uitval- en flowanalyse, en verzorg en plan voor rapporten die u kunt delen met de relevante personen in uw bedrijf.
 
