@@ -1,16 +1,19 @@
 ---
 description: Controleer of uw Dynamic Tag Management-bibliotheek correct op uw site wordt geladen.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;verify code;verify header code;verify footer code;embed tab;embed
-title: Koptekst- en voettekstcode controleren
+title: Code voor kop- en voetteksten controleren
 topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 7%
 
 ---
 
 
-# Koptekst- en voettekstcode controleren
+# Code voor kop- en voetteksten controleren
 
 Controleer of uw Dynamic Tag Management-bibliotheek correct op uw site wordt geladen.
 
@@ -26,6 +29,6 @@ Controleer of uw Dynamic Tag Management-bibliotheek correct op uw site wordt gel
 
    Als deze fout optreedt, controleert u of:
 
-* U hebt de volledige koptekstcode op elke pagina van de site opgenomen in de [!DNL HEAD] sectie, net als in de [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] -tag indien mogelijk.
+* U hebt de volledige koptekstcode op elke pagina van de site opgenomen in de [!DNL HEAD] sectie, zo dicht mogelijk bij de `<head>` tag.
 * Er verschijnen geen onverwachte tekens in het codefragment, mogelijk als gevolg van kopiëren en plakken vanuit een opgemaakt document.
 
