@@ -3,9 +3,9 @@ description: U kunt gegevens downloaden van Analysis Workspace door deze te kopi
 title: PDF- of CSV-bestanden downloaden
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: c06298eef53896fa542baf1061c4ae4658cbddd2
+source-git-commit: 1cad7c4338f346dddb12f52b49040d3606801646
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '985'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Houd bij het downloaden van projecten rekening met:
 
 Met de optie Klikken met de rechtermuisknop **[!UICONTROL Copy to clipboard]** kunt u snel gegevens uit Workspace kopiëren en elders plakken.
 
-* Als u de weergegeven tabel wilt kopiëren, klikt u met de rechtermuisknop op de tabelkop en kiest u Weergegeven gegevens **kopiëren naar klembord**.
+* Als u de weergegeven tabel wilt kopiëren, klikt u met de rechtermuisknop op de tabelkop en kiest u Gegevens **kopiëren naar klembord**.
 * Als u een subset van gegevens wilt kopiëren, maakt u een selectie in de tabel en klikt u met de rechtermuisknop > Selectie **kopiëren naar klembord**.
 
 Daarnaast wordt de selectie via de sneltoets naar het klembord `Ctrl+C` gekopieerd. Nadat u de gegevens hebt gekopieerd, kunt u naar een ander gereedschap gaan en deze plakken (of op `Ctrl+V`klikken).
@@ -47,9 +47,8 @@ Daarnaast wordt de selectie via de sneltoets naar het klembord `Ctrl+C` gekopiee
 
 Met de optie Klikken **[!UICONTROL Download data as CSV]** kunt u een gegevenslijst of de gegevensbron van een visualisatie als CSV downloaden.
 
-* Klik met de rechtermuisknop in de koptekst van een tabel **[!UICONTROL Download displayed data as CSV]**. Hiermee worden de weergegeven gegevens in de tabel gedownload als een CSV-bestand.
+* Klik met de rechtermuisknop in de koptekst van een tabel of visualisatie **[!UICONTROL Download data as CSV]**. Dit downloadt de getoonde gegevens in de lijst of de onderliggende gegevensbron voor visualisatie als CSV. Opmerking: Deze optie wordt niet ondersteund door de Kaartweergave.
 * Als er een selectie in de tabel staat, staat de optie **[!UICONTROL Download selection as CSV]**. Alleen de selectie wordt met deze optie gedownload, in tegenstelling tot de volledige weergegeven tabel.
-* Klik met de rechtermuisknop in de koptekst van een willekeurige visualisatie **[!UICONTROL Download data as CSV]**. Hierdoor wordt de gegevensbrontabel gedownload voor visualisatie als een CSV-bestand. Opmerking: Deze optie wordt niet ondersteund door de Kaartweergave.
 
 ![](assets/download-data-viz.png)
 
