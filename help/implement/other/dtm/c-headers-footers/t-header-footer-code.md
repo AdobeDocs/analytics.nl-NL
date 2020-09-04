@@ -5,7 +5,10 @@ title: Code voor kop- en voetteksten toevoegen
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ Met Dynamisch tagbeheer maakt u gefaseerde en productie-insluitcodes waarmee u u
 
 >[!IMPORTANT]
 >
->Voor een geslaagde implementatie is het van essentieel belang dat u deze instructies opvolgt zoals deze worden weergegeven in de Help van Adobe. Meer bepaald moet u de koptekstcode in de `<head>` sectie van uw documentsjablonen plaatsen. Bovendien moet u de voettekstcode vlak voor de afsluitende `</body>` tag plaatsen. Het plaatsen van één van beiden van deze bedcodes elders in uw prijsverhoging, of het gebruiken van asynchrone methodes om de inbedcodes toe te voegen, of het verpakken van de inbedcodes op om het even welke manier, zijn *geen* gesteunde implementaties van het Dynamische Beheer van de Markering. De insluitcodes moeten precies worden geïmplementeerd zoals opgegeven.
+>Voor een geslaagde implementatie is het van essentieel belang dat u deze instructies opvolgt zoals deze worden weergegeven in de Help bij Adobe. Meer bepaald moet u de koptekstcode in de `<head>` sectie van uw documentsjablonen plaatsen. Bovendien moet u de voettekstcode vlak voor de afsluitende `</body>` tag plaatsen. Het plaatsen van één van beiden van deze bedcodes elders in uw prijsverhoging, of het gebruiken van asynchrone methodes om de inbedcodes toe te voegen, of het verpakken van de inbedcodes op om het even welke manier, zijn *geen* gesteunde implementaties van het Dynamische Beheer van de Markering. De insluitcodes moeten precies worden geïmplementeerd zoals opgegeven.
 >
 >Een niet-ondersteunde implementatie levert onverwachte resultaten op en voorkomt dat de klantenservice en -engineering uw implementatie ondersteunen.
 
@@ -30,7 +33,7 @@ Met Dynamisch tagbeheer maakt u gefaseerde en productie-insluitcodes waarmee u u
 
    ![](assets/dtm-embed.png)
 
-   Plaats de code zo dicht bij de [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] -tag indien mogelijk. Dit codefragment moet op elke pagina van uw livesite worden geplaatst.
+   Plaats de code zo dicht mogelijk bij de `<head>` tag. Dit codefragment moet op elke pagina van uw livesite worden geplaatst.
 
    >[!NOTE]
    >
