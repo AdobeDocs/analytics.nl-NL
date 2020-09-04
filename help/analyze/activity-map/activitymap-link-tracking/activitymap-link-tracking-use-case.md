@@ -1,10 +1,10 @@
 ---
-description: U kunt koppelingen onderscheiden door de koppelings-id aan te passen met behulp van de variabele s_objectID, door het gebied aan te passen en door het modulebestand AppMeasurement ActivityMap aan te passen.
+description: U kunt koppelingen onderscheiden door de koppelings-id aan te passen met de variabele s_objectID, door het gebied aan te passen en door het modulebestand van de module AppMeasurement ActivityMap aan te passen.
 title: Koppelingen differentiëren die verwijzen naar dezelfde koppelings-id en -regio
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 370d81bafc523b00a38b0064ad4ca3e6bb655d9f
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 5%
