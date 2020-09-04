@@ -2,9 +2,9 @@
 title: Een advertentieaccount instellen
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '831'
 ht-degree: 6%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 # Een advertentieaccount instellen
 
-Adobe Analytics-beheerders kunnen nieuwe advertentieaccounts maken en meerdere accounts toewijzen aan meerdere rapportensuites (1:1, 1:Veel, Vele:Veel).
+Adobe Analytics-beheerders kunnen nieuwe advertentieaccounts maken en meerdere accounts toewijzen aan meerdere rapportsuites (1:1, 1:Veel, Vele:Veel).
 
 Beheerders kunnen ook toegang [verlenen tot niet-beheerders](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) voor het opzetten van advertentierekeningen.
 
@@ -45,30 +45,27 @@ Beheerders kunnen ook toegang [verlenen tot niet-beheerders](/help/integrate/c-a
       </tr> 
       <tr> 
       <td colname="col1"> <p>OAuth Token </p> </td> 
-      <td colname="col2"> <p>Opmerking:  OAuth is een open norm voor toegangsdelegatie, algemeen gebruikt als manier om websites of toepassingen toegang tot hun informatie op andere websites te verlenen maar zonder hen de wachtwoorden te geven. </p> <p>Opmerking:  U zult opmerken dat u aan een derde URL (efrontier.com) zult worden verpletterd. Adobe gebruikt efrontier om het OAuth-verificatieproces voor alle drie zoekprogramma's uit te voeren. </p> <p>Opmerking:  Als u Internet Explorer 11 (of vroeger) gebruikt, zult u niet het token Oauth voor om het even welke drie onderzoeksmotoren met succes kunnen terugwinnen. Gebruik in plaats hiervan andere webbrowsers. </p> <p>Klik<span class="uicontrol"> terugwinnen Token</span> lanceert het OAuth2 authentificatieproces. Dit betekent dat u zich met uw referenties moet aanmelden bij uw Google/Bing-zoekaccount. Afhankelijk van de zoekengine die u hebt gekozen, is het proces iets anders: </p> 
-        <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Geef een Google-account-id op. </li> 
-        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Geef de Bing-account-id en de Bing-klant-id op. </li> 
-        </ul> <p>Raadpleeg <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Account-ID</a> zoeken voor meer informatie over deze id's. </p> <p>Nadat u zich hebt aangemeld, wordt het veld OAuth Token weergegeven 
-        <systemoutput>
-          Opgehaald
-        </systemoutput>. </p> </td> 
+      <td colname="col2"> <p>Opmerking:  OAuth is een open norm voor toegangsdelegatie, algemeen gebruikt als manier om websites of toepassingen toegang tot hun informatie op andere websites te verlenen maar zonder hen de wachtwoorden te geven. </p> <p>Opmerking:  U zult opmerken dat u aan een derde URL (efrontier.com) zult worden verpletterd. Adobe gebruikt efrontier om het OAuth authentificatieproces voor alle drie onderzoeksmotoren te aandrijven. </p> <p>Opmerking:  Als u Internet Explorer 11 (of vroeger) gebruikt, zult u niet het token Oauth voor om het even welke drie onderzoeksmotoren met succes kunnen terugwinnen. Gebruik in plaats hiervan andere webbrowsers. </p> <p>Klik<span class="uicontrol"> terugwinnen Token</span> lanceert het OAuth2 authentificatieproces. Dit betekent dat u zich met uw referenties moet aanmelden bij uw Google/Bing-zoekaccount. Afhankelijk van de zoekengine die u hebt gekozen, is het proces iets anders: </p>
+      <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
+       <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Geef een Google-account-id op. </li> 
+       <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Geef de Bing-account-id en de Bing-klant-id op. </li> 
+       </ul> <p>Raadpleeg <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Account-ID</a> zoeken voor meer informatie over deze id's. </p> <p>Nadat u zich hebt aangemeld, wordt het veld OAuth Token weergegeven <code>Retrieved</code>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. In de **[!UICONTROL Tracking]** sectie geeft u informatie over hoe de gegevens van de zoekmachine worden bijgehouden door uw Adobe Analytics-implementatie. Dit is een vereiste stap om de Adobe Analytics-gegevens correct aan te vullen met de gegevens van de Search Engine.
+1. In de **[!UICONTROL Tracking]** sectie geeft u informatie op over hoe de gegevens van de zoekmachine worden bijgehouden door uw Adobe Analytics-implementatie. Dit is een vereiste stap om de Adobe Analytics-gegevens correct aan te vullen met de zoekengine-gegevens.
 Vul de **[!UICONTROL Tracking Settings]** volgende richtlijnen in:
 
    | Instelling | Beschrijving |
    |--- |--- |
-   | Type | <ul><li>**Automatisch:** Laat de Motor van Advertising Cloud beslissen hoe de het volgen parameters aan de het volgen malplaatjes/bestemmings URLs van de Motor van het Onderzoek worden toegevoegd. Dit is de eenvoudigste benadering, maar kan niet in de beste geïntegreerde dataset resulteren.<br>**Belangrijk:**Als u een account voor zoekprogramma&#39;s wilt configureren in de modus Automatisch, bent u verantwoordelijk voor het uitvoeren van de volgende handelingen:<br>- De parameter en de waarde &#39;s_kwcid&#39; worden toegevoegd aan de sjablonen voor het bijhouden van accounts of de bestemmingspagina-URL&#39;s in de account die wordt toegevoegd. Deze wordt aan het einde van de URL ingevoegd. Als gevolg hiervan kan aanvullende actie van uw kant vereist zijn als uw webserver een bepaald sleutelwaardepaar aan het einde van de URL vereist OF een update ter ondersteuning van een nieuw sleutelwaardepaar in de URL.** Opmerking:**Meer informatie over het al dan niet toevoegen van deze parameter aan uw[inhoudsbeveiligingsbeleid](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html).<br>- Daarnaast kunnen trefwoorden in de bestemmings-URL worden ingevoegd als onderdeel van de waarde &quot;s_kwcid&quot;, dus als deze speciale tekens of symbolen bevatten, moet u bevestigen dat uw webserver deze tekens kan ondersteunen (een voorbeeld van een speciale teken is &quot;+&quot;, dat wordt gebruikt in trefwoorden &quot;Uitgebreide overeenkomst gewijzigd&quot;).</li><li>**Handmatig:** Hiermee kunt u beheren hoe de volgende parameters worden toegevoegd aan de trackingsjablonen/doel-URL&#39;s van de zoekmachine. [Raadpleeg deze handmatige voorbeelden voor het bijhouden van bestanden voor elke zoekfunctie](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
+   | Type | <ul><li>**Automatisch:** Laat de Motor van Advertising Cloud beslissen hoe de het volgen parameters aan de het volgen malplaatjes/bestemmings URLs van de Motor van het Onderzoek worden toegevoegd. Dit is de eenvoudigste benadering, maar kan niet in de beste geïntegreerde dataset resulteren.<br>**Belangrijk:** Als u een account voor zoekprogramma&#39;s wilt configureren in de modus Automatisch, bent u verantwoordelijk voor het uitvoeren van de volgende handelingen:<br>- De parameter en de waarde &#39;s_kwcid&#39; worden toegevoegd aan de sjablonen voor het bijhouden van accounts of de bestemmingspagina-URL&#39;s in de account die wordt toegevoegd. Deze wordt aan het einde van de URL ingevoegd. Als gevolg hiervan kan aanvullende actie van uw kant vereist zijn als uw webserver een bepaald sleutelwaardepaar aan het einde van de URL vereist OF een update ter ondersteuning van een nieuw sleutelwaardepaar in de URL. **Opmerking:** Meer informatie over het al dan niet toevoegen van deze parameter aan uw [inhoudsbeveiligingsbeleid](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html).<br>- Daarnaast kunnen trefwoorden in de bestemmings-URL worden ingevoegd als onderdeel van de waarde &quot;s_kwcid&quot;, dus als deze speciale tekens of symbolen bevatten, moet u bevestigen dat uw webserver deze tekens kan ondersteunen (een voorbeeld van een speciale teken is &quot;+&quot;, dat wordt gebruikt in trefwoorden &quot;Uitgebreide overeenkomst gewijzigd&quot;).</li><li>**Handmatig:** Hiermee kunt u beheren hoe de volgende parameters worden toegevoegd aan de trackingsjablonen/doel-URL&#39;s van de zoekmachine. [Raadpleeg deze handmatige voorbeelden voor het bijhouden van bestanden voor elke zoekfunctie](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
 1. In de **[!UICONTROL Mapping]** sectie kiest u welke rapportsuite(s) u wilt koppelen aan dit zoekprogrammaaccount. U moet ten minste één rapportsuite opgeven voordat u het advertentieaccount kunt opslaan. U kunt veelvoudige rekeningen aan veelvoudige rapportreeksen (1:1, 1:Velen, Velen:Velen) in kaart brengen. Merk op dat de gegevens die AMO van de onderzoeksmotor trekt eenvoudig aan om het even welke in kaart gebrachte rapportreeks wordt gekopieerd, zodat is er geen splitsing van gegevens.
 
    >[!IMPORTANT]
    >
-   >Alleen rapportsuites die aan een Experience Cloud-organisatie [zijn](https://docs.adobe.com/content/help/nl-NL/core-services/interface/about-core-services/report-suite-mapping.html) toegewezen, zijn beschikbaar voor selectie. Raadpleeg [Troubleshoot Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)als uw rapportsuite niet wordt weergegeven.
+   >Alleen rapportsuites die zijn [toegewezen aan een Experience Cloud-organisatie](https://docs.adobe.com/content/help/nl-NL/core-services/interface/about-core-services/report-suite-mapping.html) , zijn beschikbaar voor selectie. Raadpleeg [Problemen met Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)oplossen als uw rapportsuite niet wordt weergegeven.
 
    Voor de **[!UICONTROL Mapping Settings]** volgende richtsnoeren:
 
@@ -94,5 +91,5 @@ Vul de **[!UICONTROL Tracking Settings]** volgende richtlijnen in:
 
 >[!NOTE]
 >
->Je moet minimaal 24 uur wachten voordat de zoekprogrammagegevens je Analytics-rapporten invullen.
+>U moet ten minste 24 uur wachten voordat de zoekprogrammagegevens de analyserapporten invullen.
 
