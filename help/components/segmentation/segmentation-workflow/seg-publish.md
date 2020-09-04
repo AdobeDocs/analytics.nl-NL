@@ -4,7 +4,7 @@ title: Segmenten publiceren naar Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 627a2b8b35db1bdf08b650de8708c04f2d5718d6
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 3%
@@ -65,8 +65,8 @@ We hebben ook het maximumaantal publiceerbare Adobe Analytics-segmenten verhoogd
 
 | Element | Beschrijving |
 |---|---|
-| **[!UICONTROL Publish this segment to the Experience Cloud (for *<report suite>*)]** | Wanneer deze optie wordt toegelaten, worden de segmenttitel en de definitie (d.w.z. het shell publiek zoals vaak gebruikt in advertentieplatforms) onmiddellijk gedeeld met de Experience Cloud, terwijl het segmentlidmaatschap wordt geëvalueerd en om de 4 uur gedeeld. <br> Wanneer dat publiek is gekoppeld aan een activiteit in [!DNL Target], [!DNL Analytics] begint bijvoorbeeld met het verzenden van id&#39;s voor bezoekers die in aanmerking komen voor die Experience Cloud en dat [!DNL Target] publiek. Op dat punt, beginnen de publieksnaam en de overeenkomstige gegevens te tonen op de pagina van het publiek van de Experience Cloud. </br> |
-| **[!UICONTROL Audience Creation Window]** | Het tijdkader dat u selecteert, wordt gebruikt om het publiek te maken op basis van een rolkalender. Bijvoorbeeld, &quot;Laatste 30 dagen&quot;(gebrek) omvat bezoekers die voor het publiek in de laatste 30 dagen van de datum van vandaag (NIET van de originele datum hebben gekwalificeerd toen het segment werd gecreeerd.) |
+| **[!UICONTROL Publish this segment to the Experience Cloud (for *`<report suite>`*)]** | Wanneer deze optie wordt toegelaten, worden de segmenttitel en de definitie (d.w.z. het shell publiek zoals vaak gebruikt in advertentieplatforms) onmiddellijk gedeeld met de Experience Cloud, terwijl het segmentlidmaatschap wordt geëvalueerd en om de 4 uur gedeeld. <br> Wanneer dat publiek is gekoppeld aan een activiteit in [!DNL Target], [!DNL Analytics] begint bijvoorbeeld met het verzenden van id&#39;s voor bezoekers die in aanmerking komen voor die Experience Cloud en dat [!DNL Target] publiek. Op dat punt, beginnen de publieksnaam en de overeenkomstige gegevens te tonen op de pagina van het publiek van de Experience Cloud. </br> |
+| **[!UICONTROL Audience Creation Window]** | Het tijdkader dat u selecteert, wordt gebruikt om het publiek op een rolkalender-basis tot stand te brengen. Bijvoorbeeld, &quot;Laatste 30 dagen&quot;(gebrek) omvat bezoekers die voor het publiek in de laatste 30 dagen van de datum van vandaag (NIET van de originele datum hebben gekwalificeerd toen het segment werd gecreeerd.) |
 | **[!UICONTROL Create in Audience Library]** | De segmenten die u creeert en publiceert kunnen zonder latentie in de Bibliotheek van het publiek van de Experience Cloud beschikbaar worden gemaakt. Ze zijn niet afhankelijk van analytische updates. Deze segmenten tellen niet tegen uw grens van 75 gepubliceerde segmenten. |
 | **[!UICONTROL x of 75 Published]** | Hiermee geeft u het aantal segmenten weer dat u naar de Experience Cloud hebt gepubliceerd. Klik op de koppeling om een lijst met gepubliceerde segmenten en de bijbehorende rapportsuite en eigenaar weer te geven. |
 | **[!UICONTROL Save]** | Hiermee slaat u dit segment op. |
@@ -98,7 +98,7 @@ De volgende schermafbeeldingen tonen u hoe te om AAM UUID op uw browser terug te
 **Methode 1: Adobe Experience Cloud Debugger gebruiken**
 
 1. Download en installeer [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html) in de Chrome Web Store.
-1. Start de foutopsporing bij het laden van een pagina.
+1. Start de foutopsporing wanneer u een pagina laadt.
 1. Blader naar de sectie Audience Manager en zoek de AAM UUID die op de huidige browserpagina is ingesteld (`50814298273775797762943354787774730612` in het onderstaande voorbeeld)
 
 ![](assets/debugger.jpg)
@@ -131,7 +131,7 @@ AAM wordt de lijst met bezoekers met ECID&#39;s voor een bepaald segment op stre
 
 ## Het segment weergeven in [!DNL Adobe Target]
 
-Met het [!UICONTROL Publish this segment to the Experience Cloud] selectievakje tijdens het maken van segmenten in Adobe Analytics kan het segment beschikbaar zijn in de aangepaste publieksbibliotheek van Adobe Target. Een segment dat in Analytics of Audience Manager wordt gecreeerd kan voor activiteiten in Doel worden gebruikt. U kunt bijvoorbeeld campagneactiviteiten maken op basis van de omzettingswaarden voor Analytics en publiekssegmenten die zijn gemaakt in Analytics.
+Met het [!UICONTROL Publish this segment to the Experience Cloud] selectievakje tijdens het maken van segmenten in Adobe Analytics kan het segment beschikbaar zijn in de aangepaste publieksbibliotheek van Adobe Target. Een segment dat in Analytics of Audience Manager wordt gecreeerd kan voor activiteiten in Doel worden gebruikt. U kunt bijvoorbeeld campagneactiviteiten maken op basis van de omzettingscijfers van Analytics en publiekssegmenten die zijn gemaakt in Analytics.
 
 1. Klik op [!UICONTROL Audiences].
 1. Zoek op de [!UICONTROL Audiences] pagina het publiek op dat afkomstig is van de [!DNL Experience Cloud]pagina. Deze doelgroepen zijn beschikbaar voor gebruik in [!DNL Target] activiteiten.
