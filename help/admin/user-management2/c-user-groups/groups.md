@@ -1,11 +1,14 @@
 ---
 description: Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
 subtopic: Users and groups
-title: Gebruikersgroepinstellingen
+title: Gebruikersgroepsinstellingen
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
 
 Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
 
@@ -57,7 +60,6 @@ Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
   <tr> 
    <td colname="col1"> <p><b>Toegang rapporteren</b> </p> </td> 
    <td colname="col2"> 
-    <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
        <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Verkeersrapporten</b>: Hiermee krijgt u toegang tot alle rapporten die zijn gebaseerd op verkeer, zoals paginaweergaven, bezoeken en unieke bezoekers. </li> 
@@ -71,12 +73,12 @@ Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
        <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>Metriek</b> (verleent toegang tot metriek die in Rapporten &amp; Analytics wordt gebruikt, met inbegrip van standaardmetriek zoals paginameningen en andere metriek zoals douanegebeurtenissen.)</li> 
        <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>Admin Console </b>(verleent toegang tot diverse componenten in het Menu Admin, zoals Logs en de montages van de Reeks van het Rapport.) </li> 
        <li id="li_CF3FA04D402A47618401633BA8583010"><b>Rapport downloaden</b> (hiermee kunt u rapporten downloaden vanuit de gebruikersinterface voor analyse.) </li> 
-       <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>Enquête</b> (verleent toegang tot enquêterapporten als uw organisatie ook de afgekeurde Adobe Survey-functie gebruikt.) </li> 
+       <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>Enquête</b> (verleent toegang tot beoordelingsrapporten als uw organisatie ook de afgekeurde Adobe Survey-mogelijkheden gebruikt.) </li> 
        <li id="li_9FC3F25F335641B5AC9232BDC2DCCECA"><b>Geavanceerde rapportering</b> (verleent toegang tot geavanceerde rapporten zoals de Kanalen van de Marketing, Anomaly Detection, Segments en Berekende Metrics.) </li> 
-       <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Sociaal</b> (maakt toegang mogelijk tot rapporten die zijn gegenereerd op basis van gegevens in Adobe Social.) </li> 
+       <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Sociaal</b> (maakt toegang tot rapporten mogelijk die zijn gegenereerd op basis van gegevens in Adobe Social.) </li> 
        <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Gegevensconnectors </b>(Hiermee kunnen gebruikers gegevensconnectors maken, bijwerken of verwijderen.) </li> 
       </ul> </p> 
-    </draft-comment> </td> 
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -92,10 +94,10 @@ Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
      </ul> </p> </td> 
    <td colname="col2"> <p>De leden van de groep kunnen tot een ondergroep van de rapporten in de rapportgroep toegang hebben. Klik op <span class="uicontrol"> Aanpassen</span> om een pagina te openen waarop u de specifieke rapporten in de rapportgroep kunt selecteren waartoe groepsleden toegang hebben. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytische gereedschappen</a>: Laat gebruikerstoestemmingen voor Algemene punten (het factureren, logboeken, enz.), het Beheer van het Bedrijf, Hulpmiddelen, de Toegang van de Dienst van het Web, de Bouwer van het Rapport, en de integratie van de Verbindingen van Gegevens toe. </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytische gereedschappen</a>: Schakel gebruikersmachtigingen in voor algemene items (facturering, logbestanden, enz.), bedrijfsbeheer, tools, webservicetoegang, Report Builder en integratie van gegevensconnectors. </li> 
      <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"> Rapportsuite-gereedschappen</a>: Gebruikersmachtigingen inschakelen voor API-toegang, rapportbeheer, gereedschappen en rapporten en dashboarditems. </li> 
      <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md"> Metrisch</a>: Laat toestemmingen voor verkeer, omzetting, douanegebeurtenissen, oplossingsgebeurtenissen, bewuste inhoud toe, etc. </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Afmetingen</a>: Pas gebruikerstoegang op een korrelig niveau, met inbegrip van eVars, verkeersrapporten, oplossingsrapporten, en het kleven rapporten aan. </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Dimension</a>: Pas gebruikerstoegang op een korrelig niveau, met inbegrip van eVars, verkeersrapporten, oplossingsrapporten, en het kleven rapporten aan. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -114,7 +116,7 @@ Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (All Access, Customize, No Access) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Machtigingen worden ondersteund voor klanten met actieve <span class="keyword"> Tagbeheer</span> -containers. Niet beschikbaar voor nieuwe gebruikers. </p> <p>Adobe raadt u aan om dynamisch tagbeheer <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html"></a> toe te passen. </p> </td> 
+   <td colname="col2"> <p>Machtigingen worden ondersteund voor klanten met actieve <span class="keyword"> Tagbeheer</span> -containers. Niet beschikbaar voor nieuwe gebruikers. </p> <p>Adobe raadt <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html"> Dynamic Tag Management</a> aan voor implementatie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Gebruikersaanmeldingen toewijzen</b> </td> 
