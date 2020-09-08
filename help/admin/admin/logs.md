@@ -4,7 +4,10 @@ title: Logboeken
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3603722ee3cbaf64b6d7bc0cbfa4af176f85a87a
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +24,7 @@ Het beheerderlogboek rapporteert alle veranderingen die door beheerders in admin
 
 ## Gebruik en toegangslogboek {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
-Met [!UICONTROL Usage and Access Log] deze optie kunt u het rapportgebruik op gebruikersaccountniveau evalueren. Zo worden handelingen die zijn geopend, gemaakt, bijgewerkt, niet gedeeld en verwijderd, bijgehouden in de analysewerkruimte. Hierdoor kunt u beter zien wie de werkruimte gebruikt en hoe vaak.
+Met [!UICONTROL Usage and Access Log] deze optie kunt u het rapportgebruik op gebruikersaccountniveau evalueren. Zo worden bijvoorbeeld acties voor openen, maken, bijwerken, delen en verwijderen in Analysis Workspace bijgehouden. Hierdoor kunt u beter zien wie de werkruimte gebruikt en hoe vaak.
 
 | Element | Beschrijving |
 |---|---|
@@ -29,9 +32,50 @@ Met [!UICONTROL Usage and Access Log] deze optie kunt u het rapportgebruik op ge
 | Aanmelden | Filter het logbestand op gebruikersnaam. |
 | IP | Filter het logboek door een IP adres. |
 | Rapportsuite | Filter het logboek door een specifieke identiteitskaart van de rapportreeks. |
-| Type gebeurtenis | Filter het logbestand op een gebeurtenistype. Selecteer een gebeurtenistype in de vervolgkeuzelijst. |
+| Type gebeurtenis | Filter het logbestand op een gebeurtenistype. Selecteer een gebeurtenistype in de vervolgkeuzelijst. Zie de volledige lijst met gebeurtenistypen hieronder. |
 | Gebeurtenis | Filter het logbestand op een woord of woordgroep in de gebeurtenisbeschrijving. |
 | Rapport downloaden | Hiermee exporteert u de inhoud van het bestand [!UICONTROL Usage & Access Log] naar een door tabs gescheiden bestand. |
+
+### Gebeurtenistypen
+
+| Het type Event | Beschrijving |
+| --- |--- |
+| Geen categorie |  |
+| Aanmelden mislukt |  |
+| Aanmelden gelukt |  |
+| Handeling Admin |  |
+| Wijziging van beveiligingsinstelling |  |
+| Bekeken rapport |  |
+| Gedownload rapport |  |
+| Waarschuwing verzonden |  |
+| Handeling van gebruiker |  |
+| Gereedschap weergegeven |  |
+| Omniture-actie |  |
+| Herstel van wachtwoord |  |
+| BookMarks |  |
+| Dashboards |  |
+| Waarschuwingen |  |
+| Kalendergebeurtenissen |  |
+| Targets |  |
+| Rapportinstellingen |  |
+| Geplande rapporten |  |
+| Uitsluiten door IP |  |
+| Pagina&#39;s een naam geven |  |
+| Classificaties |  |
+| Databronnen |  |
+| Werkruimteproject |  |
+| Segment |  |
+| Berekend metrisch |  |
+| Datumbereik |  |
+| Virtuele rapportsuite |  |
+| Contributieanalyse |  |
+| Verzoek voor Excel-gegevensblok |  |
+| Fout bij aanmelden van Excel |  |
+| Aanmelden bij Excel voltooid |  |
+| Mobiele aanmelding mislukt |  |
+| Mobiele aanmelding gelukt |  |
+| API-methode |  |
+
 
 ## Logboek voor wijzigen van suite rapporteren {#section_3864966639414BBEA871F4D0352F56B6}
 
