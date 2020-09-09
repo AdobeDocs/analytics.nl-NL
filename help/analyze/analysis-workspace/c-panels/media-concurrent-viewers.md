@@ -1,16 +1,16 @@
 ---
-title: Deelvenster Mediagelijktijdige viewers
+title: Deelvenster voor gelijktijdige mediaviewers
 description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace gebruiken en interpreteren.
 translation-type: tm+mt
-source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
+source-git-commit: b55faba0298dffa9df9e45c13c2770fe7ffcdce4
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 1%
+source-wordcount: '1068'
+ht-degree: 2%
 
 ---
 
 
-# Deelvenster Mediagelijktijdige viewers
+# Deelvenster voor gelijktijdige mediaviewers
 
 >[!IMPORTANT]
 >
@@ -77,6 +77,7 @@ In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbr
 | Kan ik anomaliedetectie uitvoeren? | Nee.  Anomaly-detectie is niet beschikbaar voor dit deelvenster. |
 | Waarom unieke bezoekers gebruiken in plaats van actieve sessies? | Door unieke bezoekers te gebruiken, kunt u ongewenste spikes verwijderen bij het weergeven van de grenzen (waar de sessies tegelijkertijd eindigen en beginnen). |
 | Wat betekent het om gelijktijdige kijkers bij hogere granulariteit dan minuut te hebben? | Met een granulariteit die groter is dan een minuut, zijn gelijktijdige viewers de som van unieke gelijktijdige viewers voor alle minuten binnen dat tijdbereik.  Gelijktijdige viewers op uurniveau zijn bijvoorbeeld de som van unieke gelijktijdige viewers voor alle minuten in het uur. |
-| Wat als ik meer dan 1 dag wil zien op het minuscule granulariteit? | Om tot gegevens bij miniem-vlakke granularity tot één maand tegelijkertijd toegang te hebben, kunt u Analytics gebruiken Meldend API (2.0 of 1.4). Raadpleeg de gebruikershandleiding bij [](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)Analytics API Reports voor meer informatie over Analytics API&#39;s. |
+| Wat als ik meer dan 1 dag wil zien op het minuscule granulariteit? | Om tot gegevens bij miniem-vlakke granulariteit tot 1 maand tegelijkertijd toegang te hebben, kunt u Analytics 2.0 APIs gebruiken. Zie API&#39;s van [Analytics 2.0 voor meer informatie](https://www.adobe.io/apis/experiencecloud/analytics/docs.html). |
+| Geeft het deelvenster Werkruimte dezelfde informatie als het rapport Gelijktijdige viewers? | Nee.  In Analysis Workspace wordt onder Gelijktijdige viewers verstaan het aantal unieke bezoekers dat uw mediastream op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br></br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Door unieke bezoekersaccounts te gebruiken voor het verwijderen van ongewenste spikes bij het weergeven van grenzen, waarbij sessies tegelijkertijd worden beëindigd en gestart. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
