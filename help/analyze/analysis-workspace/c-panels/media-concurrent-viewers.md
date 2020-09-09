@@ -2,9 +2,9 @@
 title: Deelvenster voor gelijktijdige mediaviewers
 description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace gebruiken en interpreteren.
 translation-type: tm+mt
-source-git-commit: b55faba0298dffa9df9e45c13c2770fe7ffcdce4
+source-git-commit: d63c9b2e3b8241b8b40f4bb2e440cb1e96add69f
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1080'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ U kunt het deelvenster Mediagelijktijdige viewers configureren met de volgende i
 
 | Instelling | Beschrijving |
 |---|---|
-| Datumbereik van deelvenster | Het standaarddatumbereik van het deelvenster is Vandaag.  U kunt de presentatie bewerken om een enkele dag of maanden tegelijk weer te geven. <br> <br> Deze visualisatie is beperkt tot 1440 rijen gegevens (bijvoorbeeld 24 uur bij granulariteit op minaniveau).  Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken. |
+| Datumbereik van deelvenster | Het standaarddatumbereik van het deelvenster is Vandaag.  U kunt de presentatie bewerken om een enkele dag of maanden tegelijk weer te geven. <br> <br>Deze visualisatie is beperkt tot 1440 rijen gegevens (bijvoorbeeld 24 uur bij granulariteit op minaniveau).  Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken. |
 | Granulariteit | De standaardwaarde voor granulariteit is Minute. <br> <br>Deze visualisatie is beperkt tot 1440 rijen gegevens (bijvoorbeeld 24 uur bij granulariteit op minaniveau).  Als een datumbereik en de combinatie van granulariteit meer dan 1440 rijen opleveren, wordt de granulariteit automatisch bijgewerkt om het volledige datumbereik te kunnen gebruiken. |
 | Samenvattingsnummers deelvenster | Er is een samenvattingsnummer beschikbaar om de datum- of tijdgegevens van gelijktijdige viewers weer te geven. Bij Maximaal worden details voor de piekfrequentie weergegeven. Bij Minimum worden details voor de dal weergegeven.  In het standaardvenster wordt alleen Maximum weergegeven, maar u kunt dit wijzigen in Minimum of zowel Maximaal als Minimaal.<br><br>Als u onderverdelingen gebruikt, wordt een samenvattingsaantal getoond voor elk. |
 | Uitsplitsing naar serie | U kunt desgewenst de visualisatie opsplitsen in segmenten, dimensies, dimensiepunten of datumbereiken. <br><br>- U kunt maximaal 10 regels tegelijk weergeven. Uitsplitsingen zijn beperkt tot één niveau.<br><br>- Wanneer u een dimensie sleept, worden de bovenste dimensie-items automatisch geselecteerd op basis van het geselecteerde datumbereik van het deelvenster.<br><br>- Als u datumbereiken wilt vergelijken, sleept u twee of meer datumbereiken naar het filter voor reeksindeling. |
@@ -58,7 +58,7 @@ De enige metrische waarde die in dit deelvenster kan worden gebruikt, zijn Gelij
 
 | Metrisch | Beschrijving |
 |---|---|
-| Gelijktijdige viewers | Aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br><br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Unieke bezoekersaccounts gebruiken voor het verwijderen van ongewenste &quot;pieken&quot; bij showgrenzen (waar sessies tegelijkertijd eindigen en starten). |
+| Gelijktijdige viewers | Aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br><br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Unieke bezoekersaccounts gebruiken voor het verwijderen van ongewenste &quot;pieken&quot; bij showgrenzen (waar sessies op hetzelfde moment eindigen en beginnen). |
 
 In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbron wilt weergeven, klikt u met de rechtermuisknop op het lijndiagram en downloadt u dit als een CSV-bestand.  Uitsplitsingen naar reeksen worden opgenomen.
 
@@ -77,7 +77,7 @@ In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbr
 | Kan ik anomaliedetectie uitvoeren? | Nee.  Anomaly-detectie is niet beschikbaar voor dit deelvenster. |
 | Waarom unieke bezoekers gebruiken in plaats van actieve sessies? | Door unieke bezoekers te gebruiken, kunt u ongewenste spikes verwijderen bij het weergeven van de grenzen (waar de sessies tegelijkertijd eindigen en beginnen). |
 | Wat betekent het om gelijktijdige kijkers bij hogere granulariteit dan minuut te hebben? | Met een granulariteit die groter is dan een minuut, zijn gelijktijdige viewers de som van unieke gelijktijdige viewers voor alle minuten binnen dat tijdbereik.  Gelijktijdige viewers op uurniveau zijn bijvoorbeeld de som van unieke gelijktijdige viewers voor alle minuten in het uur. |
-| Wat als ik meer dan 1 dag wil zien op het minuscule granulariteit? | Om tot gegevens bij miniem-vlakke granulariteit tot 1 maand tegelijkertijd toegang te hebben, kunt u Analytics 2.0 APIs gebruiken. Zie API&#39;s van [Analytics 2.0 voor meer informatie](https://www.adobe.io/apis/experiencecloud/analytics/docs.html). |
-| Geeft het deelvenster Werkruimte dezelfde informatie als het rapport Gelijktijdige viewers? | Nee.  In Analysis Workspace wordt onder Gelijktijdige viewers verstaan het aantal unieke bezoekers dat uw mediastream op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br></br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Door unieke bezoekersaccounts te gebruiken voor het verwijderen van ongewenste spikes bij het weergeven van grenzen, waarbij sessies tegelijkertijd worden beëindigd en gestart. |
+| Wat als ik meer dan 1 dag wil zien op het minuscule granulariteit? | Om tot gegevens bij miniem-vlakke granulariteit tot 1 maand tegelijkertijd toegang te hebben, kunt u Analytics 2.0 APIs gebruiken. Zie Gelijktijdige viewers van JSON-rapportgegevens [ophalen met Analytics 2.0-API&#39;s](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html)voor meer informatie. |
+| Geeft het deelvenster Werkruimte dezelfde informatie als het rapport Gelijktijdige viewers? | Nee.  In Analysis Workspace wordt onder Gelijktijdige viewers verstaan het aantal unieke bezoekers dat uw mediastream op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br><br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Door unieke bezoekersaccounts te gebruiken voor het verwijderen van ongewenste spikes bij het weergeven van grenzen, waarbij sessies tegelijkertijd worden beëindigd en gestart. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
