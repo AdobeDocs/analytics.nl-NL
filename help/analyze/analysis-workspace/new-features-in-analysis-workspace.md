@@ -3,7 +3,7 @@ description: Nieuwe functies in Analysis Workspace.
 keywords: Analysis Workspace
 title: Nieuwe functies in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
 source-wordcount: '7747'
 ht-degree: 96%
@@ -28,7 +28,7 @@ Nieuwe functies uitgebracht op 18 juni 2020.
 | Functie | Beschrijving |
 |--- |--- |
 | Attribution IQ: algorithmische attributie | Het Algorithmic Attribution model in Analysis Workspace gebruikt statistische technieken om dynamisch de optimale allocatie van krediet voor de geselecteerde metrische waarde te bepalen. Beschikbaar voor klanten van Adobe Analytics Ultimate. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| Attribution IQ: aangepaste terugblikvensters | U kunt nu om het even welk attributiemodel in Attribution IQ vormen om touchpoints van maximaal 90 dagen vóór de rapportperiode te omvatten. Dit verhoogt doorgaans de attributienauwkeurigheid voor gebeurtenissen die zich vroegtijdig in de verslagperiode voordoen, door interacties die in de voorafgaande maand(en) hebben plaatsgevonden, te verklaren. Beschikbaar voor klanten van Adobe Analytics Foundation, Select, Premium, Premium, Premium Attribution, Premium Complete en Ultimate. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Attribution IQ: aangepaste terugblikvensters | U kunt nu elk attributiemodel in Attribution IQ zo configureren dat er aanraakpunten aanwezig zijn van maximaal 90 dagen vóór de periode van de rapporttijd. Dit verhoogt doorgaans de attributienauwkeurigheid voor gebeurtenissen die zich vroegtijdig in de verslagperiode voordoen, door interacties die in de voorafgaande maand(en) hebben plaatsgevonden, te verklaren. Beschikbaar voor klanten van Adobe Analytics Foundation, Select, Premium, Premium, Premium Attribution, Premium Complete en Ultimate. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | Projectrollen voor gedeelde Workspace-projecten | Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. [Meer informatie...](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Workspace-projecten voor alleen-weergeven | Workspace-projecten kunnen met gebruikers worden gedeeld als ‘alleen weergeven’. Wanneer een ontvanger voor Weergaven het gedeelde project opent, ontvangt hij/zij een beperktere projectervaring zonder linkerrail en met beperkte interactie. [Meer informatie...](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Mogelijkheid om Workspace-projecten gezamenlijk te bewerken | Ontvangers die aan de rol voor Bewerken zijn toegevoegd, kunnen een project opslaan dat met hen is gedeeld. Dit geldt zowel voor beheerders als niet-beheerders. [Meer informatie...](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
@@ -736,7 +736,7 @@ Nieuwe functies uitgebracht op 20 juli 2017.
    <td colname="col2"> <p>Als u zich in de oudere versie aanmeldde met uw Experience Cloud-gebruikersgegevens en vervolgens naar Analytics ging, was de functie <span class="ignoretag"> <span class="uicontrol"> Delen </span> &gt; <span class="uicontrol"> Projectkoppeling ophalen </span> </span> niet beschikbaar. Dit probleem is nu opgelost. U moet het project nog wel opslaan voordat deze optie klikbaar wordt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > Filter voor "Verlopen projecten" in beheerfunctie voor geplande projecten </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Filter voor "Verlopen projecten" in beheerfunctie voor geplande projecten </a></b> </p> </td> 
    <td colname="col2"> <p>U kunt nu ook verlopen projecten filteren in de beheerfunctie voor geplande projecten. Vervolgens besluit u of deze projecten opnieuw wilt starten, of juist schrappen. </p> </td> 
   </tr> 
  </tbody> 
