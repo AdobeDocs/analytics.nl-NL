@@ -4,7 +4,10 @@ keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Berekende en Geavanceerde berekende (Afgeleide) Metriek
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 6%
 
 ---
 
@@ -13,24 +16,16 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Berekende en Geavanceerde Berekende (of Afgeleide) Metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen.
 
->[!IMPORTANT]
->
->In juli 2018 heeft Adobe [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)geïntroduceerd, die de manier waarop toewijzingsmodellen in berekende metriek worden geëvalueerd, heeft herzien. In het kader van deze wijziging zijn berekende maatstaven die een niet-standaard toewijzingsmodel gebruiken, gemigreerd naar nieuwe, verbeterde toewijzingsmodellen:
->
->* De toewijzingsmodellen &quot;Marketing Channel Last Touch&quot; en &quot;Marketing Channel First Touch&quot; zijn gemigreerd naar de nieuwe toewijzingsmodellen &quot;Last Touch&quot; en &quot;First Touch&quot; (Opmerking: De &quot;Kanalen van de Marketing&quot;is niet afgekeurd - slechts de twee toewijzingsmodellen die in berekende metriek verschijnen zijn geweest).
->* Bovendien hebben we de manier gecorrigeerd waarop de lineaire toewijzing wordt berekend. Voor klanten die berekende metriek met &quot;Lineaire&quot;toewijzingsmodellen gebruiken, kunnen de rapporten lichtjes veranderen om het nieuwe, gecorrigeerde attributiemodel te weerspiegelen. Deze verandering in berekende metriek wordt weerspiegeld in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], de Rapporterende API, de Bouwer van het Rapport, en Ad hoc Analyse. Zie [Hoe lineaire toewijzing werkt per 19 juli 2018 voor meer informatie](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
-
-
 Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijze metriek bouwen, beheren en beheren. Met deze services kunt u als marketers, productmanagers en analisten vragen stellen over de gegevens zonder dat u uw [!DNL Analytics] implementatie hoeft te wijzigen. De beschikbare aangepaste meetgegevens in elk [!DNL Analytics] pakket zijn:
 
 * Adobe [!DNL Analytics] Foundation: Berekend
-* [Selecteer](https://www.adobe.com/data-analytics-cloud/analytics/select.html)Adobe Analytics: Berekend + Geavanceerd berekend
-* [Primaire](https://www.adobe.com/data-analytics-cloud/analytics/prime.html)Adobe Analytics: Berekend + Geavanceerd berekend
-* [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html): Berekend + Geavanceerd berekend
+* [Adobe Analytics selecteren](https://www.adobe.com/nl/data-analytics-cloud/analytics/select.html): Berekend + Geavanceerd berekend
+* [Adobe Analytics Prime](https://www.adobe.com/nl/data-analytics-cloud/analytics/prime.html): Berekend + Geavanceerd berekend
+* [Adobe Analytics Ultimate](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html): Berekend + Geavanceerd berekend
 
 Hier volgt een vergelijking van de mogelijkheden Berekende meetwaarden en Geavanceerde berekende meetwaarden:
 
-| Builder-opties | Berekende statistieken | Geavanceerde berekende (Afgeleide) Metriek |
+| Builder-opties | Berekende standaarden | Geavanceerde berekende (Afgeleide) Metriek |
 |---|---|---|
 | [Indelingstypen (decimaal, tijd, percentage, valuta)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Ja | Ja |
 | [Wijzigingen in het kenmerk (standaard, lineair, deelname, enz.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Ja | Ja |
@@ -53,7 +48,7 @@ U kunt
 
    >[!NOTE]
    >
-   >U kunt metriek in Ad hoc Analyse blijven creëren. Zijn berekende metrische bouwergebruikersinterface is nu gelijkaardig aan de nieuwe metrische bouwer.
+   >U kunt metriek blijven maken in Ad Hoc Analysis. Zijn berekende metrische bouwergebruikersinterface is nu gelijkaardig aan de nieuwe metrische bouwer.
 
 ## Beperkingen {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -61,14 +56,14 @@ Met sommige [!DNL Analytics] functies kunt u wel gebeurtenissen gebruiken, maar 
 
 * [!UICONTROL Funnels] in [!UICONTROL Reports & Analytics]
 * [!UICONTROL Fallout] in [!UICONTROL Analysis Workspace]
-* [!UICONTROL Cohort Analysis] in analysewerkruimte
+* [!UICONTROL Cohort Analysis] in Analysis Workspace
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL Segments]
 * [!UICONTROL Real-Time] rapporten
 * [!UICONTROL Current Data] rapporten
 * [!DNL Analytics] for [!DNL Target]
 
-## Gereedschappen {#section_D65E9C067E9C45E1A50DD30F50561BB2}
+## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
 Hier volgt een kort overzicht van de [!UICONTROL Calculated Metrics] gereedschappen:
 
@@ -96,7 +91,7 @@ Hier volgt een kort overzicht van de [!UICONTROL Calculated Metrics] gereedschap
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > Berekend metrisch beheer</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > Berekende standaard-beheer</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
      <li id="li_E0B216BA1478406EB6212263DF71D85B">Deel metriek met anderen. </li> 
