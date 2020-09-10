@@ -5,9 +5,9 @@ title: Marketingkanalen beheren
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -28,17 +28,9 @@ Hier volgen enkele richtlijnen voor het maken van kanalen:
 
 ## Vereisten {#prereqs}
 
-Indien nodig neemt u contact op met de klantenservice om u te helpen met deze voorwaarden:
-
-* Schakel in de beheerconsole (Algemene accountinstellingen) de optie **[!UICONTROL Conversion Level]** (e-commerce) voor de rapportsuite in.
-
-   Zie [Algemene accountinstellingen](https://docs.adobe.com/content/help/nl-NL/analytics/admin/admin-tools/general-acct-settings-admin.html) in Analytics Help voor meer informatie.
-
 * De toegang van de opstelling tot de afmetingen van het Kanaal van de Marketing.
 
    See [Marketing Channels permissions](/help/components/c-marketing-channels/c-channel-report-access.md).
-
-* Zorg ervoor dat uw accountmanager uw rapportsuite heeft ingeschakeld **[!UICONTROL Channel Reports]** .
 
 ## Marketingkanalen toevoegen {#add-mktg-channels}
 
@@ -79,7 +71,7 @@ Er zijn verschillende instellingen die op elk kanaal op de [!UICONTROL Marketing
 | Laatste aanraakkanaal overschrijven | Hiermee kunt u kiezen of u een bestaand, blijvend laatste aanraakkanaal wilt overschrijven met het geselecteerde kanaal. Als u dit selectievakje inschakelt, overschrijft elk kanaal (inclusief Direct en Intern) een bestaand laatste aanraakkanaal. Het resultaat is dat conversie wordt toegeschreven aan een kanaal dat geen krediet verdient. Met deze optie kunt u er bijvoorbeeld voor zorgen dat het Direct-kanaal geen conversiekrediet ontvangt als de gebruiker eerder via het Natural Search-kanaal was aangeschaft. |
 | Kanaaluitsplitsing | Hiermee kunt u een kanaal opsplitsen op basis van deze waarde. U kunt mogelijke kanaalstoringen (subkanalen) toevoegen bij het maken van [marketingkanaalclassificaties](/help/components/c-marketing-channels/classifictions-mchannel.md). |
 | Type | Hiermee bepaalt u hoe de gebruiker naar uw site is gekomen. U kunt Online of Offline selecteren. Gebruik online kanalen voor bezoekers die via een zoekmachine of e-mailcampagne komen. Offlinekanalen zijn van toepassing op bezoekers die uw site hebben gevonden via krantencoupons of advertenties in tijdschriften. De off-line kanalen omvatten gewoonlijk gegevens die door het melden van Gegevensbronnen worden ingevoerd. See [Data Sources](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html). Zie Offlinegegevens [toevoegen](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| Kleur | Alleen rapporten en Analytics: De kleur die aan dit marketingkanaal is gekoppeld. Deze kleur vertegenwoordigt het kanaal in het rapport van het Kanaal van de Marketing. |
+| Kleur | Alleen rapporten en analyses: De kleur die aan dit marketingkanaal is gekoppeld. Deze kleur vertegenwoordigt het kanaal in het rapport van het Kanaal van de Marketing. |
 
 ### Beste werkwijzen overschrijven
 
