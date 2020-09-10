@@ -5,9 +5,9 @@ title: Geplande projecten
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 04b5c7af0ac0052d059bea86cae13aa7fb05fff3
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Een bestand direct via e-mail naar ontvangers verzenden:
 1. Klik op Nu **verzenden**.
 1. (Optioneel) Klik op **Planningsopties** tonen om een leveringsschema op te geven.
 
+![Bestand nu verzenden](assets/send-file-now.png)
+
 ## Bestand verzenden volgens schema
 
 Een bestand volgens een terugkerend schema via e-mail naar ontvangers verzenden:
@@ -40,11 +42,15 @@ Een bestand volgens een terugkerend schema via e-mail naar ontvangers verzenden:
 1. Geef de leveringsfrequentie op. Elke frequentie maakt verschillende aanpassingen mogelijk.
 1. Klik op **Verzenden volgens schema**.
 
+![](assets/send-on-schedule.png)
+
 ## Geplande projectmanager
 
 De geplande projecten van Analysis Workspace kunnen onder **Analytics > Componenten > Geplande Projecten** worden beheerd.
 
 In de Geplande Manager van Projecten, kunt u terugkomende projectprogramma&#39;s uitgeven en schrappen. Zoek naar een programma in de onderzoeksbar of door de filteropties in het linkerspoor te gebruiken. U kunt filteren op tag, goedgekeurde schema&#39;s, eigenaars en meer.
+
+![](assets/scheduled-project-manager.png)
 
 Het volgende is gemeenschappelijke acties in de Geplande Manager van Projecten:
 
