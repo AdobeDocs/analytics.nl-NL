@@ -3,7 +3,7 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 476f13e80141e67c6e5a416778314a1a41224c80
+source-git-commit: 31ccee8681f2a5b51f1d773d80aa89b70e4d3b65
 workflow-type: tm+mt
 source-wordcount: '2138'
 ht-degree: 4%
@@ -21,7 +21,7 @@ U kunt de nieuwste versie van AppMeasurement downloaden in [Codebeheer](/help/ad
 
 ## Versie 2.2.2.0
 
-Release Date: **August4, 2020**
+Release Date: **August 4, 2020**
 
 * Oplossing voor ontbrekende referentie wanneer de eerste melding niet is verzonden vanwege de gebruikersvoorkeuren.
 
