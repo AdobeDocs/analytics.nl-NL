@@ -2,9 +2,9 @@
 title: Een gegevensfeed maken of bewerken
 description: Leer hoe u een gegevensfeed maakt of bewerkt.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 8454f64604afaea03af8bb4d7cefc3cbab889ec6
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Een gegevensfeed maken of bewerken
 
-Door een gegevensfeed te maken weet Adobe waar Raw-gegevensbestanden moeten worden verzonden en wat u in elk bestand wilt opnemen. Deze pagina bevat een overzicht van de afzonderlijke instellingen die u kunt aanpassen bij het maken van een gegevensfeed.
+Door een gegevensfeed te maken, kan Adobe weten waar Raw-gegevensbestanden moeten worden verzonden en wat u in elk bestand wilt opnemen. Deze pagina bevat een overzicht van de afzonderlijke instellingen die u kunt aanpassen bij het maken van een gegevensfeed.
 
 Voordat u deze pagina leest, wordt u geadviseerd over basiskennis van gegevensfeeds. Zie Overzicht [van](data-feed-overview.md) gegevensfeeds om te controleren of u voldoet aan de vereisten voor het maken van een gegevensfeed.
 
@@ -32,7 +32,7 @@ De velden die beschikbaar zijn onder doelvelden, zijn afhankelijk van het doelty
 
 ### FTP
 
-Gegevens over de gegevensinvoer kunnen worden geleverd op een door Adobe of de klant gehoste FTP-locatie. Vereist een FTP-host, gebruikersnaam en wachtwoord. Gebruik het padveld om feed-bestanden in een map te plaatsen. Mappen moeten al bestaan; feeds genereren een fout als het opgegeven pad niet bestaat.
+Gegevens over gegevenstoevoer kunnen naar een door Adobe of klant gehoste FTP-locatie worden verzonden. Vereist een FTP-host, gebruikersnaam en wachtwoord. Gebruik het padveld om feed-bestanden in een map te plaatsen. Mappen moeten al bestaan; feeds genereren een fout als het opgegeven pad niet bestaat.
 
 ![FTP-info](assets/dest-ftp.jpg)
 
@@ -44,12 +44,13 @@ SFTP-ondersteuning voor gegevensfeeds is beschikbaar. Vereist een gastheer SFTP,
 
 ### S3
 
-U kunt feeds rechtstreeks naar Amazon S3 buckets verzenden. Vereist een naam van het Emmertje, een Sleutel identiteitskaart van de Toegang, en een Geheime Sleutel. Raadpleeg de vereisten [voor het benoemen van](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) Amazon S3 bucket in de Amazon S3-docs voor meer informatie.
+U kunt feeds rechtstreeks naar Amazon S3-emmers verzenden. Vereist een naam van het Emmertje, een Sleutel identiteitskaart van de Toegang, en een Geheime Sleutel. Zie [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs voor meer informatie.
 
 ![S3-info](assets/dest-s3.jpg)
 
-De volgende 11 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het juiste handtekeningalgoritme wordt gebruikt):
+De volgende 16 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het juiste handtekeningalgoritme wordt gebruikt):
 
+* us-East-2
 * us-East-1
 * us-west-1
 * us-west-2
@@ -58,8 +59,12 @@ De volgende 11 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het j
 * ap-zuidoost-1
 * ap-zuidoost-2
 * ap-northeast-1
+* ca-centraal-1
 * EU-centraal-1
 * EU-west-1
+* EU-west-2
+* eu-west-3
+* eu-noord-1
 * sa-Oost-1
 
 >[!NOTE]
@@ -68,7 +73,7 @@ De volgende 11 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het j
 
 ### Azure Blob
 
-Data feeds ondersteunen Azure Blob-bestemmingen. Hiervoor is een container, account en sleutel vereist. Amazon codeert de gegevens automatisch in rust. Wanneer u de gegevens downloadt, worden deze automatisch gedecodeerd. Zie [Een opslagaccount](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) maken in de Microsoft Azure-documenten voor meer informatie.
+Data feeds ondersteunen Azure Blob-bestemmingen. Hiervoor is een container, account en sleutel vereist. Amazon versleutelt de gegevens automatisch in rust. Wanneer u de gegevens downloadt, worden deze automatisch gedecodeerd. Zie [Een opslagaccount](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) maken in de Microsoft Azure-documenten voor meer informatie.
 
 ![Azure Info](assets/azure.png)
 
@@ -83,7 +88,7 @@ Alle kolommen zijn beschikbaar, ongeacht of ze gegevens bevatten. Een gegevensfe
 * **Te verwijderen tekens** verwijderen: Bij het verzamelen van gegevens kunnen sommige tekens (zoals nieuwe regels) problemen veroorzaken. Schakel dit selectievakje in als u deze tekens uit feed-bestanden wilt verwijderen.
 * **Compressie-indeling**: Het type compressie dat wordt gebruikt. Gzip geeft bestanden als uitvoer in `.tar.gz` indeling. Zip-uitvoerbestanden in `.zip` indeling.
 * **Type** verpakking: Eén bestand geeft het `hit_data.tsv` bestand als uitvoer in één, mogelijk enorm bestand. Met meerdere bestanden worden uw gegevens gepagineerd in 2 GB blokken (ongecomprimeerd). Als er meerdere bestanden zijn geselecteerd en de niet-gecomprimeerde gegevens voor het rapportagevenster kleiner zijn dan 2 GB, wordt er één bestand verzonden. Adobe raadt u aan voor de meeste gegevensfeeds meerdere bestanden te gebruiken.
-* **Kolomsjablonen**: Als u veel gegevensfeeds maakt, kunt u het beste een kolomsjabloon maken. Als u een kolomsjabloon selecteert, worden automatisch de opgegeven kolommen in de sjabloon opgenomen. Adobe biedt standaard ook diverse sjablonen.
+* **Kolomsjablonen**: Adobe raadt u aan een kolomsjabloon te maken wanneer u veel gegevensfeeds maakt. Als u een kolomsjabloon selecteert, worden automatisch de opgegeven kolommen in de sjabloon opgenomen. Adobe biedt standaard ook diverse sjablonen.
 * **Beschikbare kolommen**: Alle beschikbare gegevenskolommen in Adobe Analytics. Klik [!UICONTROL Add all] om alle kolommen in een gegevensfeed op te nemen.
 * **Opgenomen kolommen**: De kolommen die in een gegevensfeed moeten worden opgenomen. Klik [!UICONTROL Remove all] om alle kolommen uit een gegevensvoer te verwijderen.
 * **CSV** downloaden: Hiermee wordt een CSV-bestand gedownload dat alle kolommen bevat.
