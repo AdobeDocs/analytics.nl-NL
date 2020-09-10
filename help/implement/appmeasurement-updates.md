@@ -3,10 +3,10 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 476f13e80141e67c6e5a416778314a1a41224c80
 workflow-type: tm+mt
-source-wordcount: '2119'
-ht-degree: 3%
+source-wordcount: '2138'
+ht-degree: 4%
 
 ---
 
@@ -18,6 +18,12 @@ Cumulatieve releaseopmerkingen voor [!DNL AppMeasurement] JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 U kunt de nieuwste versie van AppMeasurement downloaden in [Codebeheer](/help/admin/admin/code-manager-admin.md).
+
+## Versie 2.2.2.0
+
+Release Date: **August4, 2020**
+
+* Oplossing voor ontbrekende referentie wanneer de eerste melding niet is verzonden vanwege de gebruikersvoorkeuren.
 
 ## Versie 2.21.0
 
@@ -52,7 +58,7 @@ Releasedatum: **23 augustus 2019**
 
 ## Versie 2.16.0
 
-Releasedatum: **15 augustus 2019**
+Release Date: **August 15, 2019**
 
 * Geïmplementeerde `sendBeacon` ondersteuning in [!UICONTROL AppMeasurement] voor afsluitkoppelingen. Als een hit wordt gebruikt `sendBeacon` en de pagina wordt verwijderd, is de aanvraag nog steeds voltooid. Dit is zeer nuttig voor uitgangsverbindingen omdat het waarschijnlijker is dat de treffer de servers van de gegevensinzameling bereikt. (AN-175142)
 * ECID/fid-waarden worden nu in de cache geplaatst bij de eerste hit, ook al veranderen de instellingen voor OptIn. (AN-175142)
@@ -362,7 +368,7 @@ Releasedatum: **18 september 2014**
 
 ## Versie 1.4
 
-Releasedatum: **21 augustus 2014**
+Release Date: **August 21, 2014**
 
 * Het bijhouden van browserplug-ins (`p` queryparameter) als plug-ins wordt niet meer gerapporteerd in versie 15.
 * Toevoeging van de **[!UICONTROL AudienceManagement]** Module in het gecomprimeerde bestand.
@@ -436,7 +442,7 @@ Releasedatum: **18 september 2013**
 
 ## Versie 1.0.3
 
-Releasedatum: **15 augustus 2013**
+Release Date: **August 15, 2013**
 
 * Extra ondersteuning voor implementatie via tagbeheer van Adobe.
 * Probleem verholpen waarbij het instellen van hiërarchievariabelen voor het [!DNL AppMeasurement] object werd voorkomen.
