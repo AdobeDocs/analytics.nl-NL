@@ -4,51 +4,53 @@ title: Overzicht van Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 2c2cb617f1041a81f6e17585f5786a7a042fd2ad
+source-git-commit: 3fa9053bd9f9bec6e169230c3b9416cbe2284b54
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 35%
+source-wordcount: '549'
+ht-degree: 7%
 
 ---
 
 
 # Overzicht van Analysis Workspace
 
->[!IMPORTANT]
->
->Deze pagina is momenteel in opbouw.
+Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt maken en inzichten kunt delen. Gebruikend belemmering-en-dalingsinterface, kunt u uw analyse amberen, visualisaties toevoegen om gegevens aan het leven te brengen, een dataset te leiden, projecten met iedereen in uw organisatie te delen en te plannen.
 
+Als u slechts een paar minuten hebt, bekijkt u dit korte overzicht om te zien wat mogelijk is.
 
-Analysis Workspace verwijdert alle typische beperkingen die van toepassing zijn op een enkel Analytics-rapport. Analysis Workspace biedt een robuust en flexibel canvas om analyseprojecten op maat te maken. Sleep een willekeurig aantal datatabellen, visualisaties en componenten (dimensies, metrics, segmenten en tijdgranulariteiten) naar een project. Maak direct uitsplitsingen en segmenten, maak meldingen en cohorten aan voor analyse, vergelijk segmenten, werk aan uitval- en flowanalyse, en verzorg en plan voor rapporten die u kunt delen met de relevante personen in uw bedrijf.
-
-Begin met PAGE voor basisinstructies om met Workspace te beginnen. Als u de basisbeginselen onder de knie hebt, kunt u verdergaan met de geavanceerde functies van Workspace. Deze omvatten [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md), [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md), [Segment IQ](/help/analyze/analysis-workspace/segment-iq.md), en [Intelligent Alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
-
-Bekijk een video-overzicht van Workspace hieronder. De volledige YouTube-afspeellijst voor Analysis Workspace-functies is [hier](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&amp;sort=dd&amp;shelf_id=7)beschikbaar.
 >[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
+## Aanmelden bij Adobe Analytics {#login}
 
-## Een eenvoudig project maken
+Als u Analysis Workspace wilt gaan gebruiken, meldt u zich aan bij Adobe Analytics op [experience.adobe.com/analytics](http://experience.adobe.com/analytics). U zult op de de lijsthomepage van het project van de Werkruimte landen, als een specifiek project niet eerder voor u is geselecteerd.
 
-## Twee manieren om een tabel te maken
+## De zelfstudie Training gebruiken {#training-tutorial}
 
-## Gemeenschappelijke aanpak van de analyse
+Als u eenmaal bent aangemeld, moet de eerste stop de zelfstudie voor Analysis Workspace Training zijn, die u door algemene terminologie en stappen begeleidt voor het maken van uw eerste analyse in Workspace. Als u wilt beginnen met de zelfstudie, klikt u op Nieuw project **** maken en selecteert u **Lesbestand** voor training in het nieuwe projectmodale.
 
-### Stap 1: Een dimensie analyseren
+## Create a new project {#new-project}
 
-### Stap 2: Metrisch toevoegen
+Nu de zelfstudie is voltooid, kunt u beginnen met het bouwen van uw eerste project. Het **nieuwe projectmodaal** zal u van verschillende opties voorzien om uw analyse te beginnen. U kunt kiezen om te beginnen vanuit een leeg project of een [leeg mobiel scorecard](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html), afhankelijk van het feit of u uw analyse wilt delen via de browser of de mobiele app Adobe Analytics-dashboards.
 
-### Stap 3: Het datumbereik wijzigen
+Bovendien, kunt u met uw analyse van prebuilt **malplaatjes** beginnen, of Adobe-verstrekte standaardmalplaatjes of douanesjablonen die door uw organisatie worden gecreeerd. Er zijn verschillende sjablonen beschikbaar, afhankelijk van de analyse- of gebruikscase die u voor ogen hebt. [Meer](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) weten over de verschillende sjabloonopties?
 
-### Stap 4: Dimensies indelen
+## Uw analyse maken {#analysis}
 
-### Stap 5: Een segment toepassen op uw gegevens
+In uw project van de Werkruimte, worden de **panelen, de lijsten, de visualisaties, en de componenten** betreden van de linkerspoorstaaf. Dit zijn uw projectbouwstenen.
 
-### Stap 6: Basisvisualisaties toevoegen
+### Onderdelen
 
-### Stap 7: Geavanceerde visualisaties verkennen
+**Componenten** zijn dimensies, metriek, segmenten of datumbereiken, die allemaal kunnen worden gecombineerd in een **vrije-vormtabel** om te beginnen met het beantwoorden van uw zakelijke vraag. Zorg ervoor dat u bekend bent met elk [componenttype](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) voordat u in de analyse gaat duiken. Zodra u componententerminologie hebt beheerst, kunt u beginnen slepend en dalend om uw analyse [in een vrije vormlijst te](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) bouwen.
 
-### Stap 8: Curven en delen
+### Visualisaties
 
-## Meer informatie
+**Visualisaties**, zoals een bar of lijngrafiek, worden dan toegevoegd bovenop de gegevens om het aan het leven in uw project visueel te brengen. In de uiterst linkse spoorlijn, selecteer het middenpictogram van Visualisaties om een volledige lijst van beschikbare [visualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) te zien.
 
+### Deelvensters
+
+**Deelvensters** worden gebruikt om uw analyse in een project te ordenen en kunnen vele tabellen en visualisaties bevatten. Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren een volledige set analyses op basis van een paar gebruikersinvoer. Selecteer het pictogram van de bovenste deelvensters helemaal links in de track om een volledige lijst met beschikbare [deelvensters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) weer te geven.
+
+## Aanvullende bronnen {#resources}
+
+* Een volledige videolesleiding is [hier](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&amp;sort=dd&amp;shelf_id=7)beschikbaar op het Adobe Analytics YouTube-kanaal.
 * See [What&#39;s New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about new features.
