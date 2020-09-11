@@ -2,21 +2,24 @@
 title: Vrije-vormentabel
 description: Meer informatie over tabellen met vrije vorm en de samenstelling van tabellen met vrije vorm
 translation-type: tm+mt
-source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
+source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 4%
 
 ---
 
 
 # Vrije-vormentabel
 
-In de Werkruimte van de Analyse, is een Lijst Freeform niet alleen een gegevenslijst, maar ook een interactieve visualisatie. U kunt een combinatie [componenten](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) naar de rijen en kolommen slepen om een aangepaste tabel voor uw analyse te maken. Aangezien elke component wordt gelaten vallen, zal de lijst onmiddellijk bijwerken zodat kunt u snelle analyse doen.
+In Analysis Workspace is een tabel met vrije vorm niet alleen een gegevenstabel, maar ook een interactieve visualisatie. U kunt een combinatie [componenten](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) naar de rijen en kolommen slepen om een aangepaste tabel voor uw analyse te maken. Aangezien elke component wordt gelaten vallen, zal de lijst onmiddellijk bijwerken zodat kunt u snelle analyse doen.
 
 U kunt de tabel op verschillende manieren aanpassen:
 
 * **Rijen**
    * Elke afmetingsrij kan tot 400 rijen tonen, alvorens paginering voorkomt. U kunt meer rijen in één enkel scherm passen door de de [meningsdichtheid](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html)van het project aan te passen.
    * Rijen kunnen worden opgesplitst in extra componenten. Als u veel rijen tegelijk wilt splitsen, selecteert u gewoon meerdere rijen en sleept u de volgende component boven op de geselecteerde rijen. Meer weten over [uitsplitsingen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html)?
-   * Rijen kunnen worden [gefilterd](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) om een beperkte set items weer te geven. Aanvullende instellingen zijn beschikbaar onder [Rijinstellingen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.html).
+   * Rijen kunnen worden [gefilterd](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) om een beperkte set items weer te geven. Aanvullende instellingen zijn beschikbaar onder [Rijinstellingen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.html).
 
 * **Kolommen**
    * Componenten kunnen in kolommen worden gestapeld om gesegmenteerde metriek, analyse op meerdere tabbladen en nog veel meer te maken.
@@ -40,7 +43,7 @@ Kijk [hier](https://youtu.be/GUMWiJAmMGI)naar de Freeform Table Builder.
 
 ## Gegevens vrije-vormentabel exporteren
 
-De gegevens in een vrije vormlijst kunnen uit de Werkruimte van de Analyse op een paar manieren worden gekopieerd:
+De gegevens in een vrije-vormlijst kunnen uit Analysis Workspace op een paar manieren worden gekopieerd:
 
 * Klik met de rechtermuisknop op de tabelkoptekst en selecteer **[!UICONTROL Copy to Clipboard]**. Hiermee wordt de volledige (zichtbare) tabel geëxporteerd.
 * Markeer specifieke cellen in de tabel, klik met de rechtermuisknop en selecteer deze of gebruik de Ctrl + C-sneltoets. **[!UICONTROL Copy to Clipboard]**
