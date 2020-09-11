@@ -2,13 +2,14 @@
 product: analytics
 audience: all
 user-guide-title: Technische notities voor Analytics
+breadcrumb-title: Tech Notes
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 4faa557120f937eb240e6d12ab0e2fc0ae7372ab
+source-git-commit: 4cfcb8a8c86d86d0a3a5b038406be9e2b1980ab3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 83%
 
 ---
 
