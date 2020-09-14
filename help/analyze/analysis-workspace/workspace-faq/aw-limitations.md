@@ -1,18 +1,18 @@
 ---
-description: Lijst met bekende beperkingen in de Adobe Analyse Workspace en de bijbehorende componenten
-title: Bekende beperkingen in analysewerkruimte
+description: Lijst van bekende beperkingen in Adobe Analysis Workspace en de bijbehorende onderdelen
+title: Bekende beperkingen in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
 
 
-# Bekende beperkingen in analysewerkruimte
+# Bekende beperkingen in Analysis Workspace
 
-Hier volgt een lijst met bekende beperkingen in de analysewerkruimte en de bijbehorende componenten:
+Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbehorende componenten:
 
 ## Tabellen
 
@@ -35,7 +35,7 @@ Hier volgt een lijst met bekende beperkingen in de analysewerkruimte en de bijbe
 ## Componenten > Segmenten
 
 * Bepaalde maatstaven en dimensies kunnen niet worden gesegmenteerd, zoals [!UICONTROL Occurrences], [!UICONTROL Unique Visitors]enz.
-* Bepaalde componenten en operatoren zijn niet beschikbaar als een segment wordt gemaakt vanuit Workspace (in tegenstelling tot het segment dat wordt gemaakt van [!UICONTROL Components > Segments]). Bijvoorbeeld, IP Adres.
+* Ad-hocsegmenten die in de dropzone [van het](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) deelvenster zijn gemaakt, worden alleen weergegeven in de linkerrail van Workspace of in Segment-componentbeheer als ze openbaar zijn gemaakt. U doet dit door het segment te bewerken en te selecteren **[!UICONTROL Make this segment public]**.
 
 ## Componenten > Berekende cijfers
 
@@ -53,8 +53,8 @@ Hier volgt een lijst met bekende beperkingen in de analysewerkruimte en de bijbe
 
 ## Componenten > Rapportinstellingen
 
-* Sommige instellingen op de [!UICONTROL Report Settings] pagina zijn niet van toepassing. De werkruimte Analyse gebruikt alleen de [!UICONTROL Language/Currency/Encoding] instellingen onderaan: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding]en [!UICONTROL CSV Separator Character].
+* Sommige instellingen op de [!UICONTROL Report Settings] pagina zijn niet van toepassing. Analysis Workspace gebruikt alleen de onderste [!UICONTROL Language/Currency/Encoding] instellingen: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding]en [!UICONTROL CSV Separator Character].
 
 ## Attribution IQ
 
-* Een subset metriek wordt niet ondersteund in [!UICONTROL Attribution IQ]. Voor een volledige lijst, zie de Veelgestelde vragen van [Attributie IQ](../attribution/faq.md).
+* Een subset metriek wordt niet ondersteund in [!UICONTROL Attribution IQ]. Raadpleeg de veelgestelde vragen over [Attribution IQ voor een volledige lijst](../attribution/faq.md).
