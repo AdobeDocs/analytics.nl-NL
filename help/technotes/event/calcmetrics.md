@@ -2,9 +2,9 @@
 title: Data afleiden die door gebeurtenissen worden beïnvloed
 description: Gebruik berekende metriek om trended gegevens te corrigeren die door een gebeurtenis worden beïnvloed.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 8e193de6dbb51cb640218a0c7b1b501d4f1eaa27
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '321'
 ht-degree: 4%
 
 ---
@@ -12,11 +12,15 @@ ht-degree: 4%
 
 # Data afleiden die door gebeurtenissen worden beïnvloed
 
-Als u gegevens hebt [die door een gebeurtenis](overview.md)worden beïnvloed, kunt u berekende metriek gebruiken om trended waarden voor de duur van de gebeurtenis af te leiden. Bijvoorbeeld, als u een gebeurtenis had die een daling van 25% in gegevens veroorzaakte, kunt u dat als vermenigvuldiger in berekende metrisch gebruiken.
+Als u gegevens hebt [die door een gebeurtenis](overview.md)worden beïnvloed, kunt u berekende metriek gebruiken om geschatte waarden voor de duur van de gebeurtenis af te leiden. Bijvoorbeeld, als u een gebeurtenis had die een daling van 25% in gegevens veroorzaakte, kunt u dat als vermenigvuldiger in berekende metrisch gebruiken.
+
+Deze stappen werken het beste wanneer u het effect van een gebeurtenis begrijpt, zowel vanuit het perspectief van segmentatie als datumvergelijking. Zorg ervoor dat u de datums die door een gebeurtenis worden beïnvloed, [vergelijkt met vorige bereiken](compare-dates.md) en dat u specifieke datums in de analyse [](segments.md) Uitsluiten voordat u deze pagina volgt.
 
 >[!NOTE]
 >
->Deze stappen werken het beste wanneer u het effect van een gebeurtenis begrijpt, zowel vanuit het perspectief van segmentatie als datumvergelijking. Zorg ervoor dat u de datums die door een gebeurtenis worden beïnvloed, [vergelijkt met vorige bereiken](compare-dates.md) en dat u specifieke datums in de analyse [](segments.md) Uitsluiten voordat u deze pagina volgt.
+>Deze benadering is een schatting gebaseerd op een specifieke reeks inputs en datumbereiken. Het zal geen uitgebreide oplossing voor alle gebruiksgevallen of segmenten van gegevens zijn. Bovendien vereist deze benadering dat het betrokken datumbereik ten minste 1 hit heeft om van te berekenen.
+
+Om een geschatte berekende metrisch voor de beïnvloede tijdspanne tot stand te brengen:
 
 1. Maak twee segmenten voor &#39;Betrokken dagen&#39; en &#39;Betrokken dagen uitsluiten&#39;, zoals beschreven onder Specifieke data in de analyse [](segments.md)uitsluiten.
 2. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**.
