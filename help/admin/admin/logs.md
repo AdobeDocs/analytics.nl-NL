@@ -4,10 +4,10 @@ title: Logboeken
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 3603722ee3cbaf64b6d7bc0cbfa4af176f85a87a
+source-git-commit: b7f7fd7511167e70c66c0a2636880234e23bcbd5
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 3%
+source-wordcount: '598'
+ht-degree: 2%
 
 ---
 
@@ -40,41 +40,41 @@ Met [!UICONTROL Usage and Access Log] deze optie kunt u het rapportgebruik op ge
 
 | Het type Event | Beschrijving |
 | --- |--- |
-| Geen categorie |  |
-| Aanmelden mislukt |  |
-| Aanmelden gelukt |  |
-| Handeling Admin |  |
-| Wijziging van beveiligingsinstelling |  |
-| Bekeken rapport |  |
-| Gedownload rapport |  |
-| Waarschuwing verzonden |  |
-| Handeling van gebruiker |  |
-| Gereedschap weergegeven |  |
-| Omniture-actie |  |
-| Herstel van wachtwoord |  |
-| BookMarks |  |
-| Dashboards |  |
-| Waarschuwingen |  |
-| Kalendergebeurtenissen |  |
-| Targets |  |
-| Rapportinstellingen |  |
-| Geplande rapporten |  |
-| Uitsluiten door IP |  |
-| Pagina&#39;s een naam geven |  |
-| Classificaties |  |
-| Databronnen |  |
-| Werkruimteproject |  |
-| Segment |  |
-| Berekend metrisch |  |
-| Datumbereik |  |
-| Virtuele rapportsuite |  |
-| Contributieanalyse |  |
+| Geen categorie | Kan elk gebeurtenistype zijn. |
+| Aanmelden mislukt | Aanmeldingsproces gebruiker is mislukt. |
+| Aanmelden gelukt | Gebruiker is aangemeld. |
+| Handeling Admin | Er is een beheeractie opgetreden, zoals het bewerken van een rapportsuite, het wijzigen van de bedrijfsinstellingen, het maken van een gebruiker, enzovoort. |
+| Wijziging van beveiligingsinstelling | Er is een beveiligingsinstelling gewijzigd. |
+| Bekeken rapport | Er is een rapport met rapporten en analyses weergegeven. |
+| Gedownload rapport | Er is een rapport met rapporten en analyses gedownload. |
+| Waarschuwing verzonden | Er is een waarschuwing verzonden. |
+| Handeling van gebruiker | Gebruikersgegevens zijn bewerkt. |
+| Gereedschap weergegeven | Er is een gereedschap weergegeven. |
+| Omniture-actie | Adobe heeft een handeling uitgevoerd. |
+| Herstel van wachtwoord | Er is een wachtwoord hersteld. |
+| BookMarks | Er is een bladwijzer beheerd. |
+| Dashboards | Er is een dashboard beheerd. |
+| Waarschuwingen | Er is een waarschuwing beheerd. |
+| Kalendergebeurtenissen | Er is een kalendergebeurtenis beheerd. |
+| Targets | Er is een doel beheerd. |
+| Rapportinstellingen | Er is een rapportinstelling beheerd. |
+| Geplande rapporten | Een gepland rapport is beheerd. |
+| Uitsluiten door IP | IP-instelling gewijzigd. |
+| Pagina&#39;s een naam geven | Vervangen. |
+| Classificaties | Er is een classificatie beheerd. |
+| Databronnen | Er is een gegevensbron beheerd. |
+| Werkruimteproject | Een Workspace-project is weergegeven of bewerkt. |
+| Segment | Er is een segment gemaakt/bewerkt. |
+| Berekend metrisch | Er is een berekende metrische waarde gemaakt/bewerkt. |
+| Datumbereik | Er is een datumbereik gemaakt/bewerkt. |
+| Virtuele rapportsuite | Er is een virtuele rapportsuite gemaakt/bewerkt. |
+| Contributieanalyse | Er is een bijdrageanalysetaak uitgevoerd. |
 | Verzoek voor Excel-gegevensblok |  |
 | Fout bij aanmelden van Excel |  |
 | Aanmelden bij Excel voltooid |  |
 | Mobiele aanmelding mislukt |  |
 | Mobiele aanmelding gelukt |  |
-| API-methode |  |
+| API-methode | Er is een API-aanroep gemaakt. |
 
 
 ## Logboek voor wijzigen van suite rapporteren {#section_3864966639414BBEA871F4D0352F56B6}
