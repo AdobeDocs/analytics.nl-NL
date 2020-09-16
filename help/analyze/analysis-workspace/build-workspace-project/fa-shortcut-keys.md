@@ -5,10 +5,10 @@ title: Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: bbc137a8914afeba02af326fb3bb9b92c0f16eb3
+source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 4%
+source-wordcount: '285'
+ht-degree: 5%
 
 ---
 
@@ -17,14 +17,16 @@ ht-degree: 4%
 
 Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace voor naadloze navigatie, analyse en democratisering.
 
-Opmerking: `CTRL` = Windows en `command` = Mac
+Opmerking:
+* `Ctrl` = Windows en `Command` = Mac
+* `Alt` = Windows en `Option` = Mac
 
 ## Navigatiehandelingen
 
 | Handeling | Sneltoets |
 |---|---|
-| Nieuw project maken | ctrl (of cmd) + shift + p |
-| Bestaand project openen | ctrl (of cmd) + o |
+| Nieuw project maken | ctrl + shift + p |
+| Bestaand project openen | ctrl + o |
 | Naar deelvenster Deelvensters | alt + shift + 1 |
 | Naar het deelvenster Visualisatie | alt + shift + 2 |
 | Naar deelvenster Componenten | alt + shift + 3 |
@@ -38,17 +40,17 @@ Opmerking: `CTRL` = Windows en `command` = Mac
 | Handeling | Sneltoets |
 |---|---|
 | Zoeken in linkerrail | ctrl + / |
-| Een waarschuwing maken | ctrl (of cmd) + shift + a |
-| Berekende metrisch maken | ctrl (of cmd) + shift + c |
-| Een datumbereik maken | ctrl (of cmd) + shift + d |
-| Een segment maken | ctrl (of cmd) + shift + e |
+| Een waarschuwing maken | ctrl + shift + a |
+| Berekende metrisch maken | ctrl + shift + c |
+| Een datumbereik maken | ctrl + shift + d |
+| Een segment maken | ctrl + shift + e |
 | Alles wissen | alt + w |
-| Kopiëren | ctrl (of cmd) + c |
-| Opnieuw | ctrl (of cmd) + shift + z |
-| Ongedaan maken | ctrl (of cmd) + z |
+| Kopiëren | ctrl + c |
+| Opnieuw | ctrl + shift + z |
+| Ongedaan maken | ctrl + z |
 | Componenten vernieuwen | alt + shift + r |
-| Project vernieuwen | alt + r |
-| Instellen als bestemmingspagina | ctrl (of cmd) + shift + l |
+| Vrijgeven van project | alt + r |
+| Instellen als bestemmingspagina | ctrl + shift + l |
 
 ## Deelvensters en visualisatiehandelingen toevoegen
 
@@ -69,13 +71,13 @@ Opmerking: `CTRL` = Windows en `command` = Mac
 
 | Handeling | Sneltoets |
 |---|---|
-| Project opslaan | ctrl (of cmd) + s |
-| Project opslaan als | ctrl (of cmd) + shift + s |
+| Project opslaan | ctrl + s |
+| Project opslaan als | ctrl + shift + s |
 | Opslaan als sjabloon | alt + t |
-| Downloaden als CSV | ctrl (of cmd) + shift + v |
-| Downloaden als PDF | ctrl (of cmd) + shift + b |
-| Cursieve projectgegevens | ctrl (of cmd) + shift + g |
-| Project delen | ctrl (of cmd) + g |
+| Downloaden als CSV | ctrl + shift + v |
+| Downloaden als PDF | ctrl + shift + b |
+| Cursieve projectgegevens | ctrl + shift + g |
+| Project delen | ctrl + g |
 | Projectkoppeling ophalen | alt + l |
 | Bestand nu verzenden | alt + s |
 | Bestand verzenden volgens schema | shift + alt + s |
