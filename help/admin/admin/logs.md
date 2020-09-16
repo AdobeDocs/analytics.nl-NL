@@ -4,7 +4,7 @@ title: Logboeken
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: b7f7fd7511167e70c66c0a2636880234e23bcbd5
+source-git-commit: fff1fb97f9224b7e68f85b24ac440083503df54f
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 2%
@@ -39,7 +39,7 @@ Met [!UICONTROL Usage and Access Log] deze optie kunt u het rapportgebruik op ge
 ### Gebeurtenistypen
 
 | Het type Event | Beschrijving |
-| --- |--- |
+| --- | --- |
 | Geen categorie | Kan elk gebeurtenistype zijn. |
 | Aanmelden mislukt | Aanmeldingsproces gebruiker is mislukt. |
 | Aanmelden gelukt | Gebruiker is aangemeld. |
