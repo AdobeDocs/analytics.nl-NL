@@ -4,15 +4,19 @@ title: Segmenten maken
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1225'
 ht-degree: 1%
 
 ---
 
 
 # Segmenten maken
+
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 Ad Hoc Analysis integreert met de omgeving van de Segmentatie van Analytics, waarbij u bezoekerssegmenten kunt bouwen, delen, beheren en toepassen over Adobe-producten. Ad Hoc Analysis biedt een op Java gebaseerde gebruikersinterface voor de Segment Builder en Segment Manager die identiek zijn aan de webgebaseerde tools die worden gebruikt door andere Analytics-hulpprogramma&#39;s, die serveraanroepen afstemmen en dezelfde functies en functionaliteit bieden vanuit een op Java gebaseerde console.
 
