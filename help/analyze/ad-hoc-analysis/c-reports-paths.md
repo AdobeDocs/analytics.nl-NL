@@ -1,19 +1,26 @@
 ---
 description: Hiermee geeft u informatie weer over de volgorde waarin pagina's van uw website worden geopend. U kunt informatie verzamelen over waar een bezoeker voor en na elke bezochte pagina op uw site naartoe gaat.
-title: Paderapporten
+title: Padrapporten
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1183'
+ht-degree: 1%
 
 ---
 
 
-# Paderapporten
+# Padrapporten
+
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 Hiermee geeft u informatie weer over de volgorde waarin pagina&#39;s van uw website worden geopend. U kunt informatie verzamelen over waar een bezoeker voor en na elke bezochte pagina op uw site naartoe gaat.
 
-## Paderapporten {#concept_CB32E270FB9E4D929C91FDFE428CB224}
+## Padrapporten {#concept_CB32E270FB9E4D929C91FDFE428CB224}
 
 Hiermee geeft u informatie weer over de volgorde waarin pagina&#39;s van uw website worden geopend. U kunt informatie verzamelen over waar een bezoeker voor en na elke bezochte pagina op uw site naartoe gaat.
 
@@ -61,7 +68,7 @@ c_reports_fallout.xml
 
  -->
 
-U kunt de gegevens over de uitval analyseren op het niveau van Bezoek of Bezoeker. U kunt ook een gedraaid pad zien waarin u een grafiek van uw uitval over een bepaalde periode ziet. U kunt één of groepen pagina&#39;s plaatsen als rapportcontrolepunten, of om het even welke afmeting of metrisch in om het even welke combinatie of opeenvolging toevoegen. U kunt categorieën ook gebruiken die u in marketing rapporten en analyses als controlepunten in dit rapport vormt.
+U kunt de gegevens over de uitval analyseren op het niveau van Bezoek of Bezoeker. U kunt ook een gedraaid pad zien waarin u een grafiek van uw uitval over een bepaalde periode ziet. U kunt één of groepen pagina&#39;s plaatsen als rapportcontrolepunten, of om het even welke afmeting of metrisch in om het even welke combinatie of opeenvolging toevoegen. U kunt categorieën ook gebruiken die u in marketing reports and analytics als controlepunten in dit rapport vormt.
 
 Dit rapport is nuttig om te analyseren:
 
@@ -118,5 +125,5 @@ r_dsc_fallout.xml
 | Totaal succes % | Het totale aantal bezoekers dat bij elk controlepunt aankomt. |
 | Controlepunt % | Het percentage van succes tussen controlepunten. (Niet cumulatief.) |
 | Inclusief alle bezoeken | Voegt alle bezoeken als eerste controlepunt toe. |
-| Fallout | Hiermee kunt u de pagina&#39;s zien die worden weergegeven nadat de bezoeker het opgegeven controlepuntpad heeft verlaten. |
+| Uitval | Hiermee kunt u de pagina&#39;s zien die worden weergegeven nadat de bezoeker het opgegeven controlepuntpad heeft verlaten. |
 | Fallthrough | Hiermee kunt u de pagina&#39;s weergeven in de volgende stap van het opgegeven pad naar het controlepunt. |
