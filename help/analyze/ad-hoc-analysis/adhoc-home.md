@@ -2,10 +2,10 @@
 description: Introductie tot Ad Hoc Analysis
 title: Overzicht van Ad Hoc Analysis
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 9%
+source-wordcount: '151'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ Met Ad Hoc Analysis kunt u hoogwaardige klantsegmenten identificeren met onbeper
 
 >[!IMPORTANT]
 >
->Op 6 augustus 2018 kondigde Adobe het voornemen aan om Ad Hoc Analysis te sluiten. De einddatum wordt gedeeld zodra deze beschikbaar is. Ga voor meer informatie, waaronder de versies van Java die tijdens deze periode compatibel zijn, naar [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 ## Nieuwe en populaire onderwerpen
 
