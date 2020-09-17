@@ -3,9 +3,9 @@ description: Gebruik de Bouwer van de Lijst om een rapport met om het even welke
 title: Table Builder
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
+>Adobe verplaatst Ad Hoc Analysis naar het einde van zijn leven op 1 maart 2021. [Meer informatie](https://adobe.ly/discoverworkspace)
 
 Gebruik de Bouwer van de Lijst om een rapport met om het even welke configuratie van metriek, dimensies, en segmenten tot stand te brengen. Bijvoorbeeld, kunt u veelvoudige metriek aan de Bouwer van de Lijst toevoegen, dan segment op elk van hen tegelijkertijd toepassen. U kunt items uit de gereedschapsvensters toepassen als rijen en onderbrekingen of als kolommen en u kunt de tabel eenvoudig roteren voor een andere weergave. Na het bouwen van de lijst, kunt u direct met de resulterende gegevenslijst voor verdere analyse in wisselwerking staan. Houd in mening dat het produceren van een gegevenslijst van de Bouwer van de Lijst een vraag in werking stelt en tot een nieuwe gegevenslijst leidt.
 
