@@ -4,16 +4,23 @@ title: Productrapporten
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 
 
 # Productrapporten
 
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
+
 Hier wordt informatie weergegeven over de dingen die u op uw website verkoopt, verspreidt of weergeeft. U kunt gegevens op bestellingen of downloads voor uw producten, toepassingen of inhoud zien.
 
-## Producten conversietrechter {#concept_9F13DAFEDF104B63AA0BF8CA1F3AD478}
+## Conversiefunnel producten {#concept_9F13DAFEDF104B63AA0BF8CA1F3AD478}
 
 Hiermee geeft u gemiddelden weer voor de metriek Productweergaven, Cart Additions, Orders, Revenue en Units. Het toont ook zeer belangrijke omzettingen tussen belangrijke gegevens in elke rapporteringsgroep en standaardomzettingsmetriek (Orders, Eenheden, en Opbrengsten). Bovenaan (overzicht) van de trechter vindt u een visueel overzicht van de conversiegegevens. De trechtersectie toont statistieken voor alle gebeurtenissen in de overzichtssectie die op Orders en tot twee andere metriek, zoals Inkomsten en Eenheden wordt gebaseerd.
 
