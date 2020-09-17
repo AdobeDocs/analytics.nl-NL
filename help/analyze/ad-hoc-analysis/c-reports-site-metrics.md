@@ -4,9 +4,9 @@ title: Rapporten over sitecijfers
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
+>Adobe verplaatst Ad Hoc Analysis naar het einde van zijn leven op 1 maart 2021. [Meer informatie](https://adobe.ly/discoverworkspace)
 
 Hiermee geeft u kwantitatieve informatie weer over uw website, zoals hoe vaak bezoekers bepaalde pagina&#39;s bekeken, het aantal aankopen dat op bepaalde pagina&#39;s is gedaan, het tijdstip waarop ze zijn gekomen en vergelijkbare kwantitatieve gegevens. Elk van deze rapporten is metrisch die u in andere op punt-gebaseerde rapporten kunt plaatsen.
 
