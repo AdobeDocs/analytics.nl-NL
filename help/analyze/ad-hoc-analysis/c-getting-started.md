@@ -3,10 +3,10 @@ description: Ga aan de slag met Ad Hoc Analysis.
 title: Aan de slag
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 2%
+source-wordcount: '1252'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Op 6 augustus 2018 kondigde Adobe het voornemen aan om Ad Hoc Analysis te sluiten. De einddatum wordt gedeeld zodra deze beschikbaar is. Ga voor meer informatie, waaronder de versies van Java die tijdens deze periode compatibel zijn, naar [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 U kunt ogenblikkelijke, geavanceerde analyse op websiteactiviteit uitvoeren. U kunt veelvoudige rapporten gelijktijdig bekijken en segmenten over veelvoudige afmetingen toepassen. U kunt de gegevens vanuit zowel micro- als macroperspectieven analyseren om hun effect op uw belangrijke bedrijfsmetriek te bekijken.
 
