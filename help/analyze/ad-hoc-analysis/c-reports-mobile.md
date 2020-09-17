@@ -3,15 +3,19 @@ description: Hier wordt informatie weergegeven over websites die toegang hebben 
 title: Mobiele rapporten
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
 
 
 # Mobiele rapporten
+
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 Hier wordt informatie weergegeven over websites die toegang hebben vanaf een mobiel apparaat. Mobiele rapporten verbeteren de identificatie van bezoekers door gegevens te verzamelen over mobiele apparaten die worden gebruikt om uw site weer te geven. In mobiele rapporten kunnen de fabrikant en de mogelijkheden van een apparaat worden geïdentificeerd, zoals schermformaten, video, audio, ondersteuning voor cookies en andere meetgegevens. Mobiele rapporten zijn beschikbaar voor alle rapportsuites.
 
@@ -23,9 +27,9 @@ Om bezoekersidentificatie voor mobiele apparaten te verbeteren, moet u op de lij
 
 >[!NOTE]
 >
->Meld u aan bij de [Experience Cloud](https://login.experiencecloud.adobe.com)om rapporten op een mobiel apparaat weer te geven.
+>Meld u aan bij de [Experience Cloud om rapporten op een mobiel apparaat weer te geven](https://login.experiencecloud.adobe.com).
 
-Raadpleeg de [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) -site voor meer informatie over het volgen van mobiele apparaten.
+Raadpleeg de site [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) voor meer informatie over het bijhouden van mobiele apparaten.
 
 <table id="table_8862E941EF5A41EFB0E7FADEEA86C37D"> 
  <thead> 
@@ -62,7 +66,7 @@ Raadpleeg de [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapport voor Cookie-ondersteuning </p> </td> 
-   <td colname="col2"> <p>Hiermee groepeert u bereiken op mobiele apparaten door of ze cookies ondersteunen of niet. Bezoekers zijn verdeeld in groepen van ondersteuningscookies en groepen die dat niet doen. Het type mobiel apparaat wordt geïdentificeerd in de userAgent-tekenreeks. Adobe houdt een lijst bij van mobiele apparaten waarvan bekend is dat ze cookies ondersteunen. Als het mobiele apparaat dat wordt vermeld in de userAgent-tekenreeks ook wordt vermeld in de lijst met mobiele apparaten van Adobe, wordt het ondersteunde regelitem in het rapport <span class="wintitle"> Cookie Support</span> verhoogd. Anders, wordt het niet Gesteunde lijnpunt in het rapport verhoogd. </p> </td> 
+   <td colname="col2"> <p>Hiermee groepeert u bereiken op mobiele apparaten door of ze cookies ondersteunen of niet. Bezoekers zijn verdeeld in groepen van ondersteuningscookies en groepen die dat niet doen. Het type mobiel apparaat wordt geïdentificeerd in de userAgent-tekenreeks. Adobe houdt een lijst bij van mobiele apparaten die cookies ondersteunen. Als het mobiele apparaat dat in het koord van de gebruikersagent wordt vermeld ook in Adobe van mobiele apparaten wordt vermeld, dan wordt het gesteunde lijnpunt in het rapport van de Steun <span class="wintitle"></span> van het Koekje verhoogd. Anders, wordt het niet Gesteunde lijnpunt in het rapport verhoogd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ondersteuningsrapport voor afbeeldingen </p> </td> 
@@ -122,7 +126,7 @@ Raadpleeg de [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mo
   </tr> 
   <tr> 
    <td colname="col1"> Rapport over informatieservices </td> 
-   <td colname="col2"> <p>Groepeert mobiele apparaten op basis van de nieuwsservices (Kanaal I/B, EZ News Flash, W+INFO enzovoort.) zij steunen dat . Wanneer een bezoeker een mobiel apparaat met ondersteuning voor nieuwsservices gebruikt om toegang te krijgen tot uw site, wordt het rapport Informatieservices met ten minste één verhoogd. Als de telefoon veelvoudige nieuwsdiensten steunt, elk van die groepen in het rapport stijgt. Daarom zou de som van de groepen groter kunnen zijn dan het totaal dat onder aan het rapport wordt getoond. </p> </td> 
+   <td colname="col2"> <p>Groepeert mobiele apparaten op basis van de nieuwsservices (Kanaal I/B, EZ News Flash, W+INFO, enzovoort.) zij steunen dat . Wanneer een bezoeker een mobiel apparaat met ondersteuning voor nieuwsservices gebruikt om toegang te krijgen tot uw site, wordt het rapport Informatieservices met ten minste één verhoogd. Als de telefoon veelvoudige nieuwsdiensten steunt, elk van die groepen in het rapport stijgt. Daarom zou de som van de groepen groter kunnen zijn dan het totaal dat onder aan het rapport wordt getoond. </p> </td> 
   </tr> 
  </tbody> 
 </table>
