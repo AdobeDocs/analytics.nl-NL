@@ -3,9 +3,9 @@ description: In de kalender kunt u datums en datumbereiken opgeven of een voorin
 title: Datums en datumbereiken
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
+>Adobe verplaatst Ad Hoc Analysis naar het einde van zijn leven op 1 maart 2021. [Meer informatie](https://adobe.ly/discoverworkspace)
 
 In de kalender kunt u datums en datumbereiken opgeven of een voorinstelling selecteren. U kunt kalenderselecties bij het project, de werkruimte, en rapportniveaus maken. Het datumbereik van een project is de standaarddatum. Een datumbereik in de werkruimte overschrijft echter het datumbereik van het project. Op dezelfde manier treedt de de datumwaaier van een rapport de datummontages van een werkruimte en een project met voeten. U kunt geen datumbereik buiten het bereik van gegevensbeschikbaarheid selecteren.
 
