@@ -5,9 +5,9 @@ title: Project maken - overzicht
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 68246d319bdfa27a0fabda493b3550085d2e5528
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '732'
 ht-degree: 8%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-U kunt een robuust Analytics-project maken op basis van elke combinatie van visualisaties, rapportcomponenten en gegevenstabellen. Het brengt veel van de eigenschappen van de lijstbouwer van Ad hoc analysis in Analytics.
+U kunt een robuust project tot stand brengen Analytics dat op om het even welke combinatie visualisaties, rapportcomponenten, en gegevenslijsten wordt gebaseerd. Het brengt veel van de eigenschappen van de lijstbouwer van Ad Hoc Analysis in Analytics.
 
 In Analysis Workspace kunt u gegevens vergelijken en scheiden op manieren die voorheen niet mogelijk waren. Bijvoorbeeld, vorm gerangschikte rapporten en breng directe herhalende veranderingen in de gegevensvraag aan, en heb dan toegang tot en manipuleer de waarden op het rapporteringsniveau.
 
@@ -33,14 +33,18 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 
 | Element | Beschrijving |
 |---|---|
-| Projectsjablonen [](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | U kunt deze vooraf ingevulde projectmalplaatjes gebruiken aangezien zij zijn of hen aanpassen aan uw behoeften (door metriek of visualisaties toe te voegen of te vervangen, bijvoorbeeld) en hen te bewaren onder een nieuwe naam. |
 | [Nieuw project maken](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Klik op deze koppeling om een geheel nieuw project te starten. |
 | Projecten beheren | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), waar al uw projecten worden vermeld en waarmee u projecten kunt labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
-| Zelfstudies weergeven | Ga naar de [Analysis Workspace YouTube-video](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
+| Instellen als bestemmingspagina | Hiermee wordt deze pagina omgezet in de bestemmingspagina van uw werkruimte. |
+| Tutorials weergeven | Ga naar de [Analysis Workspace YouTube-video](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Naam | Naam van het project van de Werkruimte. |
-| Gemaakt door | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
+| Eigenaar | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
+| Type | Geeft aan of dit een werkruimteproject of een [mobiel scorebord](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/mobapp/home.html)is. |
+| Projectrol | Geeft aan of u de eigenaar bent, of u het project kunt bewerken of dat dit een Duplicaat-project is. |
 | Tags | Tags die op het project zijn toegepast, in Projectcomponentbeheer of onder **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
 | Laatst gewijzigd | Datum en tijdstip waarop het project voor het laatst is gewijzigd. |
+| Mijn favoriete projecten | Als u een project als favoriet wilt markeren, opent u het project en klikt u op de ster naast de naam ervan. De volgende keer dat u Workspace opent, wordt deze lijst weergegeven. |
+| Veelgebruikte projecten | Hiermee geeft u alle projecten weer die u vaak opent, voor eenvoudige toegang. |
 
 ## Projectinfo en -instellingen {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
@@ -87,7 +91,7 @@ De submenu&#39;s bevatten de volgende opties.
 
 ## Linkerspoor {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
-De linkerrails hebben drie pictogrammen, zodat u met één klik toegang krijgt tot deelvensters, [visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)en [componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(afmetingen, metriek, segmenten, gegevensbereiken):
+De linkerrails hebben drie pictogrammen, zodat u met één klik toegang krijgt tot deelvensters, [visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)en [componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(Dimension, Metriek, Segmenten, Gegevensbereiken):
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
