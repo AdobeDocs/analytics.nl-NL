@@ -3,10 +3,10 @@ description: Gebruik de lijnvisualisatie om trended (op tijd gebaseerde) gegeven
 title: Lijn
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
+source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 1%
+source-wordcount: '437'
+ht-degree: 0%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 1%
 De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt.
 
 ![Lijnvisualisatie](assets/line-viz.png)
-
->[!IMPORTANT]
->
->Sommige instellingen voor lijnvisualisatie, zoals [!UICONTROL Show trendline], worden momenteel beperkt getest. [Meer informatie](/help/landing/an-releases.md)
 
 Klik op het tandwielpictogram rechtsboven in de lijnvisualisatie voor toegang tot de beschikbare [**visualisatie-instellingen**](freeform-analysis-visualizations.md) . Instellingen worden gecategoriseerd in:
 
@@ -42,6 +38,10 @@ Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 ## Trendline-bedekking tonen
 
 Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, kunt u verkiezen om een regressietrendline aan uw lijnreeks toe te voegen. Met behulp van trendlines wordt een duidelijker patroon in de gegevens weergegeven.
+
+>[!TIP]
+>
+>Wij adviseren dat de trendlines op gegevens worden toegepast die vandaag (gedeeltelijke gegevens) of toekomstige data niet omvatten, aangezien die de trendline zullen scheeftrekken. Als u echter datums in de toekomst wilt opnemen, verwijdert u nullen uit de gegevens om te voorkomen dat de gegevens gedurende die dagen worden schuingetrokken. Om dit te doen, ga naar de gegevensbronlijst van de visualisatie en kies uw metrische kolom. Ga vervolgens naar [!UICONTROL Column Settings] en controleer **[!UICONTROL Interpret zero as no value]**.)
 
 ![Lineaire trendlijn](assets/show-linear-trendline.png)
 
