@@ -5,7 +5,7 @@ title: Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 5%
@@ -24,7 +24,7 @@ Opmerking:
 ## Navigatiehandelingen
 
 | Handeling | Sneltoets |
-|---|---|
+| --- | --- |
 | Nieuw project maken | ctrl + shift + p |
 | Bestaand project openen | ctrl + o |
 | Naar deelvenster Deelvensters | alt + shift + 1 |
@@ -38,7 +38,7 @@ Opmerking:
 ## Analyse-acties
 
 | Handeling | Sneltoets |
-|---|---|
+| --- | --- |
 | Zoeken in linkerrail | ctrl + / |
 | Een waarschuwing maken | ctrl + shift + a |
 | Berekende metrisch maken | ctrl + shift + c |
@@ -49,13 +49,13 @@ Opmerking:
 | Opnieuw | ctrl + shift + z |
 | Ongedaan maken | ctrl + z |
 | Componenten vernieuwen | alt + shift + r |
-| Vrijgeven van project | alt + r |
+| Project vernieuwen | alt + r |
 | Instellen als bestemmingspagina | ctrl + shift + l |
 
 ## Deelvensters en visualisatiehandelingen toevoegen
 
 | Handeling | Sneltoets |
-|---|---|
+| ---|---|
 | Nieuwe analyse voor doelvenster | alt + g |
 | Nieuw deelvenster Kenmerken | alt + e |
 | Nieuw leeg deelvenster | alt + b |
@@ -70,7 +70,7 @@ Opmerking:
 ## democratiseringsacties
 
 | Handeling | Sneltoets |
-|---|---|
+| --- | --- |
 | Project opslaan | ctrl + s |
 | Project opslaan als | ctrl + shift + s |
 | Opslaan als sjabloon | alt + t |
