@@ -1,19 +1,26 @@
 ---
 description: Hiermee geeft u kwantitatieve informatie weer over uw website, zoals hoe vaak bezoekers bepaalde pagina's bekeken, het aantal aankopen dat op bepaalde pagina's is gedaan, het tijdstip waarop ze zijn gekomen en vergelijkbare kwantitatieve gegevens. Elk van deze rapporten is metrisch die u in andere op punt-gebaseerde rapporten kunt plaatsen.
-title: Metrische rapporten site
+title: Rapporten over sitecijfers
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1373'
+ht-degree: 0%
 
 ---
 
 
-# Metrische rapporten site
+# Rapporten over sitecijfers
+
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 Hiermee geeft u kwantitatieve informatie weer over uw website, zoals hoe vaak bezoekers bepaalde pagina&#39;s bekeken, het aantal aankopen dat op bepaalde pagina&#39;s is gedaan, het tijdstip waarop ze zijn gekomen en vergelijkbare kwantitatieve gegevens. Elk van deze rapporten is metrisch die u in andere op punt-gebaseerde rapporten kunt plaatsen.
 
-## Metrische rapporten site {#concept_0639CA16551749A693F49ADED4842CCE}
+## Rapporten over sitecijfers {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Hiermee geeft u kwantitatieve informatie weer over uw website, zoals hoe vaak bezoekers bepaalde pagina&#39;s bekeken, het aantal aankopen dat op bepaalde pagina&#39;s is gedaan, het tijdstip waarop ze zijn gekomen en vergelijkbare kwantitatieve gegevens. Elk van deze rapporten is metrisch die u in andere op punt-gebaseerde rapporten kunt plaatsen.
 
@@ -41,7 +48,7 @@ c_reports_visits.xml
 
  -->
 
-In marketingrapporten en analyses kunt u een bewerking uitvoeren [!UICONTROL Visits Report] op een geselecteerde pagina. Bij ad-hocanalyse kunt u de gegevens segmenteren om bepaalde pagina&#39;s weer te geven.
+In marketing reports and analytics kunt u een [!UICONTROL Visits Report] selectie op een geselecteerde pagina uitvoeren. Bij ad-hocanalyse kunt u de gegevens segmenteren om bepaalde pagina&#39;s weer te geven.
 
 ## Uniek bezoekerrapport {#concept_39097C54E46C496CBAD537329DB3C84A}
 
@@ -71,9 +78,9 @@ c_reports_visitors.xml
 
 De totale waarde die onder aan de tabel wordt weergegeven, is de som van alle bezoeken voor de opgegeven periode en geeft niet altijd het aantal unieke bezoekers weer. Als u bijvoorbeeld een project uitvoert [!UICONTROL Daily Unique Visitors Report] met een tijdsperiode van meerdere dagen, kan het totaal herhalende bezoekers bevatten, omdat dezelfde bezoeker de volgende dag mogelijk terugkeert en opnieuw wordt geteld. Nochtans, als u in werking stelt [!UICONTROL Monthly Unique Visitors Report], geeft de waarde in de kolom van Totalen nauwkeurig aan hoeveel unieke bezoekers tijdens de maand kwamen.
 
-## Tijd besteed per bezoekrapport {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
+## Time Spent per Visit Report {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
 
-Hiermee geeft u aan hoe lang bezoekers uw site tijdens elk bezoek moeten bekijken. Het heeft ook een gemiddelde Tijd die op de statistiek van de Plaats wordt uitgegeven die de gemiddelde tijd toont dat de bezoekers het bekijken van uw plaats besteedden.
+Hiermee geeft u aan hoe lang bezoekers uw site tijdens elk bezoek moeten bekijken. Het heeft ook een gemiddelde Tijd die op de statistiek van de Plaats wordt uitgegeven die de gemiddelde tijd toont dat de bezoekers doorbrachten het bekijken van uw plaats.
 
 <!-- 
 
@@ -159,8 +166,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-**[!UICONTROL First or Last Touch Channel Report]**: Geeft metriek weer met gegevens over een specifiek first-touch- of last-touchkanaal. In deze rapporten, kunt u een kanaal onderbreken en de details van elk kanaal tonen. Als u AdLens hebt toegelaten, zult u classificaties in uw marketing rapporten en analytische kanaalrapporten zien.
+**[!UICONTROL First or Last Touch Channel Report]**: Geeft metriek weer met gegevens over een specifiek first-touch- of last-touchkanaal. In deze rapporten, kunt u een kanaal onderbreken en de details van elk kanaal tonen. Als u toegelaten AdLens hebt, zult u classificaties in uw marketing reports and analytics kanaalrapporten zien.
 
 **[!UICONTROL First or Last Touch Channel Detail Reports]**: De details van vertoningen zoals paginanamen en verwijzingen, die van de kanaalwaarden worden genomen u opstelling in de [!UICONTROL Set the channel's value to] optie wanneer het vormen van regels. De de detailrapporten van het kanaal laten u de waarden van de kanaaldetails van het overzichtsrapport nauwkeurig onderzoeken.
 
-Voor meer diepgaande informatie over het vormen van het Kanaal van de Marketing in marketing rapporten en analyses, zie het systeem van de Hulp [van het Kanaal van de](/help/components/c-marketing-channels/analyze-mc.md) Marketing.
+Voor meer diepgaande informatie over het vormen van het Kanaal van de Marketing in marketing reports and analytics, zie het systeem van de Hulp [van het Kanaal van de](/help/components/c-marketing-channels/analyze-mc.md) Marketing.
