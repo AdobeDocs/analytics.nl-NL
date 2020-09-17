@@ -2,7 +2,7 @@
 title: Interne zoektermen vastleggen
 description: Gebruik een aangepaste variabele om interne zoektermen vast te leggen.
 translation-type: tm+mt
-source-git-commit: 091e4b859addc1780d94d90c8b59748277890241
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Follow [Map Launch data elements to Analytics variables](../launch/elements-to-v
 
 Volg [Implementeer een analytische implementatie in een ontwikkelomgeving](../launch/deploy-dev.md). Nadat u hebt bevestigd dat het programma in uw ontwikkelomgeving werkt, kunt u een ontwikkelimplementatie [valideren en publiceren naar productie](../launch/validate-publish-prod.md).
 
-## Rapporteren in werkruimte.
+## Rapporteren in werkruimte
 
 Geef uw implementatie wat tijd om gegevens te verzamelen, dan kunt u beginnen de dimensie in Analysis Workspace te gebruiken.
 
