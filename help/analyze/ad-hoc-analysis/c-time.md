@@ -3,9 +3,9 @@ description: De tijd is een rapportdimensie nuttig voor het trending over uren, 
 title: Tijd
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '394'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
+>Adobe verplaatst Ad Hoc Analysis naar het einde van zijn leven op 1 maart 2021. [Meer informatie](https://adobe.ly/discoverworkspace)
 
 De tijd is een rapportdimensie nuttig voor het trending over uren, dagen, weken, en datumwaaiers. Bijvoorbeeld, toont een Rapport van Producten hoeveel opbrengst een product tijdens de geselecteerde datumwaaier werd gemaakt. U kunt een dimensie van de Dag toevoegen om de trend over elke dag van de verslagperiode te zien. De tijd verstrekt korreligheid montages van Uur, Dag, Week, Maand, Kwart, en Jaar. Voorinstellingen voor datumbereik zijn onder andere Vandaag, Gisteren en Laatste 7 dagen.
 
