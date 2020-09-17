@@ -3,12 +3,19 @@ description: Leer over de diverse acties u op een rapport kunt uitvoeren, zoals 
 title: Bestaande rapporten configureren
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1019'
+ht-degree: 2%
 
 ---
 
 
 # Bestaande rapporten configureren
+
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 Leer over de diverse acties u op een rapport kunt uitvoeren, zoals het vormen grafieken, grafieken, onderverdelingen, en het halen van gegevens.
 
@@ -27,7 +34,7 @@ Klik in een rapport op de **[!UICONTROL Report Actions]** vervolgkeuzelijst.  ![
 <table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
+   <th colname="col1" class="entry"> <p>Optie </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -61,7 +68,7 @@ Klik in een rapport op de **[!UICONTROL Report Actions]** vervolgkeuzelijst.  ![
    <td colname="col2"> <p>Wijzigt de naam van het rapporttabblad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Gegevensbronnen </p> </td> 
+   <td colname="col1"> <p>Databronnen </p> </td> 
    <td colname="col2"> <p>Zie <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > Tabblad Algemene instellingen - Definities</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -84,7 +91,7 @@ c_chart_options.xml
 <table id="table_99EBE6BB52B84611A3E8CD94540F59A4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
+   <th colname="col1" class="entry"> <p>Optie </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -164,7 +171,7 @@ In bepaalde rapporten kunt u de tabelgegevens opsplitsen, zodat u de subverwante
 
 >[!MORELIKETHIS]
 >
->* [Tabelbouwer](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
+>* [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
 
 ## Het rapporttype in de tabel wijzigen {#task_B48F97F0F6D5448A969D55238E93F2FB}
@@ -209,10 +216,10 @@ In Rapporten en Analyse kunt u een veld instellen voor gegevens van gebruikers-i
 
 **Om bezoeker-id&#39;s te extraheren**
 
-1. Voeg een segment van het Pakhuis van Gegevens aan het rapport toe.
+1. Voeg een segment van de Data Warehouse aan het rapport toe.
 1. Klik met de rechtermuisknop op het segment en selecteer **[!UICONTROL Extract Visitor IDs]**.
 
-   De Data Warehouse-toepassing wordt gestart.
+   De toepassing Data Warehouse wordt gestart.
 1. Typ de filternaam op het [!UICONTROL Data Warehouse Request] tabblad.
 1. Klik op **[!UICONTROL Request this Report]**.
 
@@ -249,7 +256,7 @@ t_column_width.xml
 
 >[!MORELIKETHIS]
 >
->* [Tabelbouwer](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
+>* [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
 
 ## Aangepaste rapporten {#concept_039A45AAEEDC4828B3CDA080717B8E4F}
@@ -262,6 +269,6 @@ c_reports_custom.xml
 
  -->
 
-Aangepaste rapporten kunnen u als analist meer waarde geven, omdat ze het waard zijn om in de marketingrapporten en het menu Analyse van iedereen te staan. Als u rapporten in uw interface ziet die niet iemand anders (zoals in Opleiding) aanpassen, kan uw admin opstelling sommige van deze douanerapporten hebben.
+Aangepaste rapporten kunnen u als analist meer waarde geven, omdat ze het waard zijn om in het menu marketing reports and analytics van iedereen te staan. Als u rapporten in uw interface ziet die niet iemand anders (zoals in Opleiding) aanpassen, kan uw admin opstelling sommige van deze douanerapporten hebben.
 
 Daarnaast kunt u rapporten opslaan die voor u van belang zijn. Deze rapporten worden bladwijzers genoemd. U kunt ook verschillende rapporten op één canvas plaatsen om snel naar de belangrijkste rapporten te kijken. Dit worden dashboards genoemd en ook user-specific. In de interface wordt een balk weergegeven boven de grafiek met uw bladwijzers en dashboards.
