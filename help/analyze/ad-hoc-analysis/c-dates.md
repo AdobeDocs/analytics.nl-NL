@@ -3,15 +3,19 @@ description: In de kalender kunt u datums en datumbereiken opgeven of een voorin
 title: Datums en datumbereiken
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '469'
 ht-degree: 2%
 
 ---
 
 
 # Datums en datumbereiken
+
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 In de kalender kunt u datums en datumbereiken opgeven of een voorinstelling selecteren. U kunt kalenderselecties bij het project, de werkruimte, en rapportniveaus maken. Het datumbereik van een project is de standaarddatum. Een datumbereik in de werkruimte overschrijft echter het datumbereik van het project. Op dezelfde manier treedt de de datumwaaier van een rapport de datummontages van een werkruimte en een project met voeten. U kunt geen datumbereik buiten het bereik van gegevensbeschikbaarheid selecteren.
 
@@ -33,7 +37,7 @@ Wanneer het selecteren van een datumwaaier terwijl het creëren van een project,
 
 ## Oudere datumsegmenten {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
-In de tweede helft van 2010 is Adobe begonnen met de migratie van rapportsuites naar een uniform gegevensplatform voor verbeterde verwerking en opslag. Gegevens die vóór de migratie bestaan, worden beschouwd als oudere (of historische) gegevens waarvoor een kalenderkwartaal- of jaargrens geldt.
+In de tweede helft van 2010, begon Adobe de migratie van rapportsuites aan een verenigd gegevensplatform voor betere verwerking en opslag. Gegevens die vóór de migratie bestaan, worden beschouwd als oudere (of historische) gegevens waarvoor een kalenderkwartaal- of jaargrens geldt.
 
 <!-- 
 
