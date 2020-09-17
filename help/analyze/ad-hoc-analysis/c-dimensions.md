@@ -1,17 +1,24 @@
 ---
-description: De afmetingen zijn beschrijvingen of eigenschappen van metrische gegevens die, kunnen worden bekeken verdeeld, en in een rapport worden vergeleken. Het zijn niet-numerieke waarden en datums die correleren, een subrelatie hebben of een classificatie zijn van het oorspronkelijke rapporttype metrisch.
-title: Afmetingen
+description: Dimension zijn beschrijvingen of kenmerken van metrische gegevens die kunnen worden bekeken, worden verdeeld, en in een rapport worden vergeleken. Het zijn niet-numerieke waarden en datums die correleren, een subrelatie hebben of een classificatie zijn van het oorspronkelijke rapporttype metrisch.
+title: Dimensies
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 3%
 
 ---
 
 
-# Afmetingen
+# Dimensies
 
-De afmetingen zijn beschrijvingen of eigenschappen van metrische gegevens die, kunnen worden bekeken verdeeld, en in een rapport worden vergeleken. Het zijn niet-numerieke waarden en datums die correleren, een subrelatie hebben of een classificatie zijn van het oorspronkelijke rapporttype metrisch.
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
+
+Dimension zijn beschrijvingen of kenmerken van metrische gegevens die kunnen worden bekeken, worden verdeeld, en in een rapport worden vergeleken. Het zijn niet-numerieke waarden en datums die correleren, een subrelatie hebben of een classificatie zijn van het oorspronkelijke rapporttype metrisch.
 
 Voorbeelden van afmetingen zijn:
 
@@ -25,15 +32,15 @@ Voorbeelden van afmetingen zijn:
 * Monitorresolutie
 * Aangepaste waarden voor eVars en s.prop
 
-**[!UICONTROL Dimensions]Deelvenster **
+**[!UICONTROL Dimensions]Deelvenster**
 
-In het [!UICONTROL Dimension] venster ziet u een overzicht en rangschikt u alle productafmetingen uit uw marketingrapporten en de implementatie van de analysemogelijkheden. U kunt rapporten op om het even welk afmetingspunt baseren. U kunt afmetingen opsplitsen op andere afmetingen om bijna alles te analyseren en te vergelijken.
+In het [!UICONTROL Dimension] venster ziet u een overzicht en rangschikt u alle productafmetingen van de marketing reports and analytics-implementatie. U kunt rapporten op om het even welk afmetingspunt baseren. U kunt afmetingen opsplitsen op andere afmetingen om bijna alles te analyseren en te vergelijken.
 
 In de [!UICONTROL Dimensions] ruit, kunt u naar afmetingen zoeken en hen slepen aan de lijst van het rapportdetail [!UICONTROL Table Builder] of.
 
 U kunt ze sorteren op basis van de volgende categorieën:
 
-| Dimensietype | Beschrijving |
+| Dimension-categorie | Beschrijving |
 |--- |--- |
 | Verkeer | Omvat browser punten, campagnes van het Doel, geografie, douaneverbindingen, eigenschappen van het douaneverkeer, domeinen, downloads, verwijzingen, verwijzende domeinen, etc. |
 | Conversie | Omvat campagnes, categorieën, douane eVars, producten, het volgen code, etc. |
