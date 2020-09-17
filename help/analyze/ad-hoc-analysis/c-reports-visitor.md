@@ -4,15 +4,19 @@ title: Bezoekersrapporten
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '873'
 ht-degree: 1%
 
 ---
 
 
 # Bezoekersrapporten
+
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 Hiermee geeft u informatie weer over bezoekers, zoals het aantal bezoekers, de loyaliteit van de klant en de kenmerken van de bezoeker.
 
@@ -67,7 +71,7 @@ U kunt dit rapport onderverdelen door een ander rapport of een variabele om te b
 >
 >Als dezelfde bezoeker uw website meerdere keren in dezelfde periode bezoekt, wordt elk opgegeven bezoeknummer verhoogd voor elk bezoek.
 
-Dit rapport is gebaseerd op de gegevens van de bezoeker-id die bij elke treffer van bezoekers worden doorgegeven aan Adobe. Terwijl deze gegevens worden ontvangen, vergelijkt Adobe deze met de gegevens van de historische bezoeker-id om te bepalen of de hit is:
+Dit rapport is gebaseerd op de gegevens van de bezoekersidentiteitskaart die aan Adobe op elke klap worden overgegaan die door bezoekers wordt gemaakt. Terwijl deze gegevens worden ontvangen, vergelijkt Adobe deze met de gegevens van de historische bezoeker-id om te bepalen of de hit is:
 
 * Een nieuwe bezoeker (bezoeknummer is gelijk aan 1).
 * Een vorige bezoeker die doorgaat met een bezoek (bezoeknummer wordt niet verhoogd).
@@ -75,7 +79,7 @@ Dit rapport is gebaseerd op de gegevens van de bezoeker-id die bij elke treffer 
 
 >[!NOTE]
 >
->Elke Analytics-bezoeker-id is gekoppeld aan een bezoekersprofiel op Adobe-servers. Bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
+>Elke bezoeker-id van Analytics is gekoppeld aan een bezoekersprofiel op Adobe-servers. Bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
 
 ## Klantloyaliteit {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
