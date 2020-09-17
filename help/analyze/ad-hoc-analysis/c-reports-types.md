@@ -1,17 +1,24 @@
 ---
-description: Beschrijvingen van rapporttypen die in Experience Cloud worden gebruikt.
+description: Beschrijvingen van rapporttypes die in Experience Cloud worden gebruikt.
 title: Rapporttypen
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1669'
+ht-degree: 1%
 
 ---
 
 
 # Rapporttypen
 
-Beschrijvingen van rapporttypen die in Experience Cloud worden gebruikt.
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
+
+Beschrijvingen van rapporttypes die in Experience Cloud worden gebruikt.
 
 ## Gerangschikte rapporten {#concept_E1710FFFBB334F3D9DB63A1626DBCB01}
 
@@ -27,7 +34,7 @@ Willekeurige grafieken zijn standaard vijf items, maar u kunt maximaal dertig it
 
 ## Gedetailleerde rapporten {#concept_65FEA92704024232BB21A5952939711F}
 
-Laat u onderzoeken hoe omzettingen en gebeurtenissen over een geselecteerde tijdgranulariteit (Uur, Dag, Week, Maand, Kwart, of Jaar) tijdens een rapporteringsperiode trenderen.
+Laat u onderzoeken hoe omzettingen en gebeurtenissen over een geselecteerde tijdgranulariteit (Uur, Dag, Week, Maand, Kwart, of Jaar) tijdens een rapporteringsperiode evolueren.
 
 <!-- 
 
@@ -84,7 +91,7 @@ c_reports_flow.xml
 
 **Volgende stroom**
 
-De [!UICONTROL Next Flow] rapportgroep heeft drie rapporten: [!UICONTROL Next Page Flow], [!UICONTROL Next Section Flow], en [!UICONTROL Next Server Flow]. De rapporten in deze groep tonen u de gemeenschappelijkste pagina&#39;s, de plaatssecties, en de servers die een bezoeker na de toegang tot van de pagina, de plaatssectie, of de server betreedde u specificeert. Deze rapporten tonen u de gemeenschappelijkste wegen die door uw website worden genomen.
+De [!UICONTROL Next Flow] rapportgroep heeft drie rapporten: [!UICONTROL Next Page Flow], [!UICONTROL Next Section Flow]en [!UICONTROL Next Server Flow]. De rapporten in deze groep tonen u de gemeenschappelijkste pagina&#39;s, de plaatssecties, en de servers die een bezoeker na de toegang tot van de pagina, de plaatssectie, of de server betreedde u specificeert. Deze rapporten tonen u de gemeenschappelijkste wegen die door uw website worden genomen.
 
 **Vorige stroom**
 
@@ -120,7 +127,7 @@ c_reports_next_server_flow.xml
 
 Bijvoorbeeld, als u specifieke gegevens op verschillende servers hebt of gespiegelde gegevens op afzonderlijke servers hebt, toont het rapport u de weg tussen servers die de gebruikers raken. Dit geldt ook voor domeinen binnen uw website. U kunt bijvoorbeeld zien hoeveel gebruikers van een `https://www.mysite.com` naar `https://info.mysite.com` of `https://sales.mysite.com`.
 
-## Volgende sectie {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
+## Volgende sectiestroom {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
 Het [!UICONTROL Next Section Flow] verslag lijkt op het [!UICONTROL Next Page Flow] verslag. Er worden gegevens weergegeven voor sitesecties (groepen gerelateerde webpagina&#39;s). Als een pagina in meer dan één plaatssectie bevat is, toont het rapport gegevens voor alle plaatssecties.
 
@@ -147,7 +154,7 @@ Gebruik dit rapport om:
 * Begrijp welke stappen het vaakst worden genomen alvorens een geselecteerde pagina te bekijken.
 * Optimaliseer uw ontwerp van de plaatsweg om uw verkeer aan een gewenste doelpagina te trechter.
 
-## Vorige sectie {#concept_30688D97B48449E1958866BAF376FA8C}
+## Vorige sectiestroom {#concept_30688D97B48449E1958866BAF376FA8C}
 
 Het [!UICONTROL Previous Section Flow] verslag lijkt op het [!UICONTROL Previous Page Flow] verslag. Er worden gegevens weergegeven voor sitesecties (groepen gerelateerde webpagina&#39;s). Als een pagina in meer dan één plaatssectie bevat is, dan toont het rapport gegevens voor alle plaatssecties.
 
@@ -206,7 +213,7 @@ Klik met de rechtermuisknop op cilinders om deze te bewerken of te verwijderen.
 
 <!-- Meike, UICONTROL and DNL stripped from tables. Re-add. -->
 
-| Option | Beschrijving |
+| Optie | Beschrijving |
 |--- |--- |
 | Site-analyse tonen bij (bezoek of bezoeker) | Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van bezoekers te analyseren. Met deze instellingen kunt u de betrokkenheid van bezoekers op bezoekersniveau en bij verschillende bezoeken begrijpen. De rapporten van de Analyse van de plaats, Stroom, en van de Vallout worden toegelaten voor bezoekerspatie. Als u deze instelling wijzigt, wordt het rapport opnieuw uitgevoerd en blijven de gegevens beperkt tot de selectie. |
 | Controlepunt toevoegen | Hiermee geeft u de Checkpoint Editor weer, waarin u afmetingen of gebeurtenissen kunt selecteren die u aan de weergave wilt toevoegen. |
@@ -214,9 +221,9 @@ Klik met de rechtermuisknop op cilinders om deze te bewerken of te verwijderen.
 | Aanpassen aan scherm | Hiermee herstelt u de oorspronkelijke weergave van een diagram. |
 | Luchtweergave | Verstrekt een onderaan mening van de grafiek. |
 | Raster schakelen | Hiermee schakelt u het raster in of uit. |
-| Dimensie | Het item waarop u rapporteert. Sleep het item vanuit Afmetingen. |
+| Dimension | Het item waarop u rapporteert. Sleep het item uit Dimension. |
 
-| Option | Beschrijving |
+| Optie | Beschrijving |
 |--- |--- |
 | Bewerken | Hiermee kunt u pagina&#39;s aan een cilinder toevoegen of eruit verwijderen. |
 | Verwijderen | Hiermee kunt u een cilinder verwijderen. |
