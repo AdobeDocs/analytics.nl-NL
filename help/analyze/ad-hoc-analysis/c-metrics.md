@@ -1,18 +1,25 @@
 ---
 description: De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, data, eenheden, orden, opbrengst, etc. De metriek en bijbehorende gegevens worden getoond in de kolommen van rapporten.
-title: Metrisch
+title: Metrics
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 3%
 
 ---
 
 
-# Metrisch
+# Metrics
+
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, data, eenheden, orden, opbrengst, etc. De metriek en bijbehorende gegevens worden getoond in de kolommen van rapporten.
 
-## Metrisch {#concept_46A67930CFDB4A078225C5B189688AF3}
+## Cijfers {#concept_46A67930CFDB4A078225C5B189688AF3}
 
 De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, data, eenheden, orden, opbrengst, etc. De metriek en bijbehorende gegevens worden getoond in de kolommen van rapporten.
 
@@ -38,7 +45,7 @@ t_organize_metrics.xml
 
  -->
 
-1. Klik in het [!UICONTROL Metrics] gereedschapsvenster op **[!UICONTROL More Actions]**. ( ![](assets/tools_icon.png)
+1. Klik in het [!UICONTROL Metrics] gereedschapsvenster op **[!UICONTROL More Actions]**. (  ![](assets/tools_icon.png)
 
    )
 1. Klik op **[!UICONTROL Organize Metrics]**.
@@ -72,7 +79,7 @@ t_add_metrics_dsc.xml
 
 ## Berekende metrische bouwer {#concept_F8E213CE786A43FB93847C5BA883A29C}
 
-De Berekende Metrische Bouwer in Ad hoc Analyse wordt nu gebonden met Analytics verenigde Berekende Metrics. Zijn gebruikersinterface is gelijkaardig aan Berekende Metrische Bouwer in Analytics.
+De Berekende Metrische Bouwer in Ad Hoc Analysis is nu gebonden met Analytics Verenigde Berekende Metrics. Zijn gebruikersinterface is gelijkaardig aan Berekende Metrische Bouwer in Analytics.
 
 <!-- 
 
@@ -80,9 +87,9 @@ c_calc_metric_builder.xml
 
  -->
 
-Zie de [Berekende metrische handleiding](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html)voor meer informatie over hoe Berekende metriek worden gebouwd en beheerd.
+Zie de [Berekende metrische handleiding](https://docs.adobe.com/content/help/nl-NL/analytics/components/calculated-metrics/cm-overview.html)voor meer informatie over hoe Berekende metriek worden gebouwd en beheerd.
 
-Hieronder ziet u hoe u de Berekende metrische Bouwer in Ad hoc Analyse opent:
+Hieronder ziet u hoe u de Calculated Metric Builder in Ad Hoc Analysis opent:
 
 1. Klik in het [!UICONTROL Metrics] deelvenster **[!UICONTROL More Options]** en vervolgens op **[!UICONTROL Calculated Metrics Builder]**.
 
