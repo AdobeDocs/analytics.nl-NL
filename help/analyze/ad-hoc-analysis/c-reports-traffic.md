@@ -4,15 +4,19 @@ title: Rapporten over verkeersbronnen
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 1%
+source-wordcount: '1150'
+ht-degree: 2%
 
 ---
 
 
 # Rapporten over verkeersbronnen
+
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 Verkeersbronnen geven u diepgaand inzicht in hoe bezoekers met uw website werken.
 
@@ -29,7 +33,7 @@ De bronnen van het verkeer melden u:
 
 **Veelvoorkomende persistentie**
 
-In [!UICONTROL Traffic Sources], blijven alle rapportwaarden en ontvangen krediet tot zij worden beschreven of tot het bezoek eindigt, welke eerst komt. Eerder waren alleen trefwoorden en verwijzingsdomeinen aanwezig. Als een bezoeker bijvoorbeeld een Google-zoekopdracht naar &#39;DVD&#39; uitvoert waarmee ze naar uw site kunnen gaan voor een aankoop van $100, geeft het rapport $100 aan het trefwoord &#39;DVD&#39; en ook aan de Google-zoekfunctie. Deze functionaliteit kan niet worden gewijzigd, ongeacht de [!DNL Admin Console] instellingen.
+In [!UICONTROL Traffic Sources], blijven alle rapportwaarden en ontvangen krediet tot zij worden beschreven of tot het bezoek eindigt, welke eerst komt. Eerder waren alleen trefwoorden en verwijzingsdomeinen aanwezig. Als een bezoeker bijvoorbeeld een Google-zoekopdracht naar &#39;DVD&#39; uitvoert waarmee ze naar uw site worden gebracht voor een aankoop van $100, wordt in het rapport $100 aan het trefwoord &#39;DVD&#39; en ook aan het Google-zoekprogramma toegewezen. Deze functionaliteit kan niet worden gewijzigd, ongeacht de [!DNL Admin Console] instellingen.
 
 ## Trefwoorden zoeken {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -61,7 +65,7 @@ c_reports_search_engines.xml
 
 **[!UICONTROL Search Engines - Paid]**: Geeft aan welke zoekprogramma&#39;s met trefwoorden door mensen worden gebruikt om uw webpagina te zoeken. In de grafiek ziet u de procentuele uitsplitsing van de zoekmachines waarmee uw site wordt gevonden.
 
-**[!UICONTROL Search Engines - Natural]**: Geeft aan welke zoekprogramma&#39;s voor natuurlijke trefwoorden mensen gebruiken om uw webpagina te zoeken. In de grafiek ziet u de procentuele uitsplitsing van de zoekmachines waarmee uw site wordt gevonden.
+**[!UICONTROL Search Engines - Natural]**: Hiermee geeft u aan welke zoekprogramma&#39;s voor natuurlijke trefwoorden mensen gebruiken om uw webpagina te zoeken. In de grafiek ziet u de procentuele uitsplitsing van de zoekmachines waarmee uw site wordt gevonden.
 
 ## Verwijzende domeinen {#concept_804614DF21C14C9FB542451B30F92788}
 
