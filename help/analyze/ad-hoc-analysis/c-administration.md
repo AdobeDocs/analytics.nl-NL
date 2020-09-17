@@ -3,16 +3,23 @@ description: Configureer gebruikers en leer meer over gegevenssampling.
 title: Beheer
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '711'
+ht-degree: 3%
 
 ---
 
 
 # Beheer
 
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
+
 Configureer gebruikers en leer meer over gegevenssampling.
 
-Zie de [!DNL Admin Console] Analytics Reference [voor](https://docs.adobe.com/content/help/en/analytics/landing/home.html)hulp.
+Zie de [!DNL Admin Console] Analytics Reference [voor](https://docs.adobe.com/content/help/nl-NL/analytics/landing/home.html)hulp.
 
 ## Gebruikerslicenties {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -28,7 +35,7 @@ Wanneer het aantal aangemelde gebruikers het aantal beschikbare licenties oversc
 
 ## Gebruikerslicenties verlenen {#task_22AE669703EC48BA9685414538D8B1FA}
 
-Stappen die beschrijven hoe de lokale beheerders van Rapporten en van Analytics gebruikersvergunningen via het toestemmingensysteem kunnen verlenen.
+Stappen die beschrijven hoe lokale Reports and Analytics-beheerders gebruikerslicenties kunnen verlenen via het machtigingssysteem.
 
 <!-- 
 
@@ -63,7 +70,7 @@ t_managing_users.xml
 
    Op de [!UICONTROL Active Ad Hoc Analysis Sessions] pagina wordt de gebruiker die het langst inactief is, boven aan de lijst weergegeven.
 
-## Machtigingen {#concept_A7F2A7600BFF47C38D7C980E08D395B8}
+## Toestemmingen {#concept_A7F2A7600BFF47C38D7C980E08D395B8}
 
 <!-- 
 
@@ -115,7 +122,7 @@ t_proxy_policies.xml
 
  -->
 
-De ad hoc Analyse gebruikt HTTP om met de server te communiceren. Het is onderworpen aan het zelfde volmachtsbeleid zoals ander verkeer van HTTP.
+Ad Hoc Analysis gebruikt HTTP om te communiceren met de server. Het is onderworpen aan het zelfde volmachtsbeleid zoals ander verkeer van HTTP.
 
 1. Start in de [!DNL Windows Control Panel]app de [!UICONTROL Java Control Panel].
 1. On the **[!UICONTROL General]** tab, click **[!UICONTROL Network Settings]**.
