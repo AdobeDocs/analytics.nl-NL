@@ -3,9 +3,9 @@ description: Hier wordt informatie weergegeven over websites die toegang hebben 
 title: Mobiele rapporten
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
+>Adobe verplaatst Ad Hoc Analysis naar het einde van zijn leven op 1 maart 2021. [Meer informatie](https://adobe.ly/discoverworkspace)
 
 Hier wordt informatie weergegeven over websites die toegang hebben vanaf een mobiel apparaat. Mobiele rapporten verbeteren de identificatie van bezoekers door gegevens te verzamelen over mobiele apparaten die worden gebruikt om uw site weer te geven. In mobiele rapporten kunnen de fabrikant en de mogelijkheden van een apparaat worden geïdentificeerd, zoals schermformaten, video, audio, ondersteuning voor cookies en andere meetgegevens. Mobiele rapporten zijn beschikbaar voor alle rapportsuites.
 
