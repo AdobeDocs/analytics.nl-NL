@@ -3,10 +3,10 @@ description: Met kolominstellingen kunt u kolomopmaak configureren, waarvan somm
 title: Kolominstellingen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: dd14c576a6c447026c2389a864afce16e6bdc77d
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 23%
+source-wordcount: '702'
+ht-degree: 20%
 
 ---
 
@@ -25,6 +25,10 @@ U kunt instellingen **voor meerdere kolommen tegelijk** bewerken. Dit is heel ee
 
 | Element | Beschrijving |
 | --- | --- |
+| **Totaal aantal cellen** |  |
+| Totalen tonen | Dit totaal is doorgaans gelijk aan of een subset van de [!UICONTROL Grand Total]code. Het geeft alle tabelfilters weer die binnen de vrije-vormtabel worden toegepast, inclusief de [!UICONTROL Include None] optie. |
+| Totaal-generaal tonen | Dit totaal vertegenwoordigt alle treffers die zijn verzameld, soms genoemd &quot;rapportsuite total&quot;. Wanneer een segment wordt toegepast op deelvensterniveau of binnen de vrije-vormtabel, wordt dit totaal aangepast aan alle resultaten die overeenkomen met de segmentcriteria. Groot totaal wordt niet ondersteund voor tabellen of uitsplitsingen met [statische rijen](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
+| **Tabelcellen** |  |
 | Getal | Hiermee wordt bepaald of in een cel de numerieke waarde voor de metrische waarde wordt weergegeven of verborgen. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
 | Percentage | Bepaalt of een cel de percentagewaarde voor metrisch toont/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de percentagewaarde het aantal paginaweergaven voor het rijitem gedeeld door de totale paginaweergaven voor de kolom.  Opmerking:  We kunnen percentages van meer dan 100 procent laten zien, om nauwkeuriger te zijn. We verplaatsen het bovenste gebonden plafond ook naar 1000% om ervoor te zorgen dat kolommen te groot kunnen worden. |
 | Anomalies | Hiermee wordt bepaald of de waarden in deze kolom een anomaliedetectie uitvoeren. |
