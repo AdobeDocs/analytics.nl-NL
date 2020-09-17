@@ -4,15 +4,19 @@ title: Planningsbeheer
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 0%
+source-wordcount: '978'
+ht-degree: 1%
 
 ---
 
 
 # Planningsbeheer
+
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 U kunt het leveringsschema voor rapporten aanpassen. U kunt de levering op een bepaald ogenblik tegenhouden, of het aantal tijden specificeren u een rapport wilt verzenden. De nieuwe programma&#39;s gebruiken de datumwaaier die in het rapport wordt bepaald. Als u bijvoorbeeld een rapport maakt voor de laatste 90 dagen en het dagelijks laat uitvoeren, ontvangt u elke dag een rapport voor de laatste 90 dagen. Als u een rapport met een statische datumwaaier van de kalender creeert, zult u het zelfde rapport zien telkens als het wordt verzonden.
 
@@ -28,13 +32,13 @@ Om ervoor te zorgen dat de lijnpunten in een verdeling in bewaarde en geplande r
 
 >[!IMPORTANT]
 >
->Met Ad hoc analysis kunt u snel rapporten definiëren en plannen voor specifieke, tijdige en ad-hocrapportagebehoeften. Het is niet ontworpen voor de volledige uitvoer van gegevens met een massaal aantal of rijen, kolommen, metrische evaluaties, of uitgebreide onderverdelingen die gegevensextracten gebruiken.
+>Met Ad Hoc Analysis kunt u snel rapporten definiëren en plannen voor specifieke, tijdige en ad-hocrapportagebehoeften. Het is niet ontworpen voor de volledige uitvoer van gegevens met een massaal aantal of rijen, kolommen, metrische evaluaties, of uitgebreide onderverdelingen die gegevensextracten gebruiken.
 >
->Praktische beperkingen voor Ad hoc analysis verslaglegging zijn gebaseerd op dit beginsel: Als uw rapport niet binnen tien minuten bouwt (de onderbreking voor Ad hoc analysis), dan is uw rapport zeer waarschijnlijk te complex.
+>Praktische beperkingen voor geplande rapportage in Ad Hoc Analysis zijn gebaseerd op dit beginsel: Als uw rapport niet binnen tien minuten (de time-out voor Ad Hoc Analysis) wordt samengesteld, is uw rapport waarschijnlijk te complex.
 >
->Het waarschijnlijkst heeft uw rapport teveel metriek, teveel afsplitsingen van afmetingselementen, teveel rijen of kolommen, of andere extremen die het te lang een proces van de rapportgeneratie voor Ad hoc analysis maken. Dit type rapport moet worden uitgevoerd in Data warehouse, een Adobe Analytics-functie voor het offline uitvoeren van volledige gegevensextractie met het genereren van rapporten die vele uren of dagen kan duren.
+>Waarschijnlijk heeft uw rapport te veel metriek, te veel afbrekingen van dimensielement, te veel rijen of kolommen, of andere uiteinden die het een proces van de rapportgeneratie voor Ad Hoc Analysis te lang maken. Dit type van rapport moet in Data Warehouse worden in werking gesteld, een capaciteit van Adobe Analytics die voor volledige gegevensextractie wordt gemaakt die offline met rapportgeneratie loopt die vele uren of dagen kan vergen.
 >
->Ad hoc analysis kan bijvoorbeeld 50.000 rijen met gegevens verwerken, maar het opsplitsen van die gegevens voor tien browsertypen betekent 50.000 keer 10, een exponentiële toename die te complex kan zijn voor een ad-hocrapportagetool. De extra uitsplitsingen verhogen opnieuw exponentieel de rijen van gegevens. Het bepalen van het daadwerkelijke aantal of de rijen, de kolommen, en de onderverdelingen om voor Ad hoc analysis rapportering te beperken kan niet in stark termijnen worden bepaald maar is een combinatie van al deze factoren.
+>Ad Hoc Analysis kan bijvoorbeeld 50.000 rijen met gegevens verwerken, maar het opsplitsen van die gegevens voor tien browsertypen betekent 50.000 keer 10, een exponentiële toename die te complex kan zijn voor een ad-hocrapportagetool. De extra uitsplitsingen verhogen opnieuw exponentieel de rijen van gegevens. Het bepalen van het daadwerkelijke aantal of de rijen, de kolommen, en de onderverdelingen om voor Ad Hoc Analysis rapportering te beperken kan niet in stark termijnen worden bepaald maar is een combinatie van al deze factoren.
 
 ## Een rapport voor levering plannen {#task_7A3165C8C5C349718FE3B2B0C727ACFD}
 
