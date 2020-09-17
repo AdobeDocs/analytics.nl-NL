@@ -4,9 +4,9 @@ title: Planningsbeheer
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '979'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
+>Adobe verplaatst Ad Hoc Analysis naar het einde van zijn leven op 1 maart 2021. [Meer informatie](https://adobe.ly/discoverworkspace)
 
 U kunt het leveringsschema voor rapporten aanpassen. U kunt de levering op een bepaald ogenblik tegenhouden, of het aantal tijden specificeren u een rapport wilt verzenden. De nieuwe programma&#39;s gebruiken de datumwaaier die in het rapport wordt bepaald. Als u bijvoorbeeld een rapport maakt voor de laatste 90 dagen en het dagelijks laat uitvoeren, ontvangt u elke dag een rapport voor de laatste 90 dagen. Als u een rapport met een statische datumwaaier van de kalender creeert, zult u het zelfde rapport zien telkens als het wordt verzonden.
 
