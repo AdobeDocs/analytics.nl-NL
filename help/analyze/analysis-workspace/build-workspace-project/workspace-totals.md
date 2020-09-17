@@ -2,7 +2,10 @@
 description: Hoe de totalen van de werkruimte worden berekend.
 title: Totalen werkruimte
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 0%
 
 ---
 
@@ -16,13 +19,13 @@ In Freeform-tabellen wordt op elk uitsplitsingsniveau een totale rij weergegeven
 
 ![](assets/total-row.png)
 
-## Totale instelling weergeven
+## Totale instelling weergeven {#display-total}
 
 Onder **[!UICONTROL Column Settings]**, zijn er opties aan **[!UICONTROL Show Totals]** en **[!UICONTROL Show Grand Total]**. Als deze instellingen zijn uitgeschakeld, worden de totalen uit de tabel verwijderd. Dit kan gewenst zijn in gevallen waarin totalen niet zinvol zijn, bijvoorbeeld in bepaalde [berekende metrische scenario](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html)&#39;s.
 
 ![](assets/column-settings-total.png)
 
-## Statische rijtotaal, instellingen
+## Statische rijtotaal, instellingen {#static-row-total}
 
 [De statische rijtotalen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) gedragen zich verschillend, en worden gecontroleerd onder **[!UICONTROL Row Settings]**.
 
