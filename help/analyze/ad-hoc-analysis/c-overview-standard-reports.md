@@ -4,12 +4,19 @@ title: Overzicht van rapporten
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '974'
+ht-degree: 3%
 
 ---
 
 
 # Overzicht van rapporten
+
+>[!IMPORTANT]
+>
+>Adobe beweegt Ad Hoc Analysis op 1 maart 2021 naar de status &quot;end-of-life&quot;. [Meer informatie...](https://adobe.ly/discoverworkspace).
 
 In standaardrapporten worden gegevens weergegeven voor website- en bezoekersactiviteiten, verkeerspatronen, verwijzingsgegevens, reclamecampagnes, het bewaren van bezoekers, productgegevens enzovoort. U kunt rapporten in werking stellen en dan tot hulpmiddelen toegang hebben om segmenten, metriek, en rapportvergelijkingen te vormen.
 
@@ -29,7 +36,7 @@ De standaardrapportset behandelt onderwerpen die voor elke website gelden. Rappo
 * Bezoekersbewaring
 * Productinformatie
 
-Als u marketingrapporten en analyses gebruikt, zijn de rapporttypen en menu&#39;s bekend. Bij een ad-hocanalyse worden rapporten ingedeeld op basis van de volgende typen:
+Als u marketing reports and analytics gebruikt, zullen de rapporttypes en de menu&#39;s vertrouwd zijn. Bij een ad-hocanalyse worden rapporten ingedeeld op basis van de volgende typen:
 
 **Samenvattingsrapporten**
 
@@ -58,7 +65,7 @@ c_reports_campaigns.xml
 
  -->
 
-Deze rapporten zijn gewoonlijk aangepast en dus verschillend voor elke analist. Raadpleeg de Help bij [de](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) beheerconsole voor meer informatie.
+Deze rapporten zijn gewoonlijk aangepast en dus verschillend voor elke analist. Raadpleeg de Help bij [de](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) Admin Console voor meer informatie.
 
 ## Statistische berekeningen {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -101,14 +108,14 @@ De functie Gemiddeld wordt berekend op dezelfde manier als kolommen met gegevens
   <tr> 
    <th colname="col1" align="center" class="entry"> Datum </th> 
    <th colname="col2" align="center" class="entry"> Enkelvoudige bezoeken </th> 
-   <th colname="col3" align="center" class="entry"> Berichten </th> 
-   <th colname="col4" align="center" class="entry"> Stuitsnelheid </th> 
+   <th colname="col3" align="center" class="entry"> Geopend </th> 
+   <th colname="col4" align="center" class="entry"> Bouncepercentage </th> 
    <th colname="col5" align="center" class="entry"> </th> 
   </tr>
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p>Juni 2013 </p> <p>Juli 2013 </p> <p>augustus 2013 </p> </td> 
+   <td colname="col1"> <p>Juni 2013 </p> <p>Juli 2013 </p> <p>Augustus 2013 </p> </td> 
    <td colname="col2" align="center"> <p>344 </p> <p>297 </p> <p>41 </p> </td> 
    <td colname="col3" align="center"> <p>1000 </p> <p>1000 </p> <p>1000 </p> </td> 
    <td colname="col4" align="center"> <p>34.4% </p> <p>29.7% </p> <p>41.0% </p> </td> 
@@ -149,7 +156,7 @@ Naast de standaard [statistische berekeningen](/help/analyze/ad-hoc-analysis/c-o
 
 ## Groepsbeheer {#concept_E1433974A61144858E87334C006982B2}
 
-In plaats van één pagina in een rapport te gebruiken, kunt u veelvoudige pagina&#39;s groeperen en hen gebruiken als categorieën voor aanvang, tussenpersoon, of bestemmingsplaats in [!UICONTROL Fallout] en [!UICONTROL Site Analysis] - rapporten. U kunt groepen bewerken vanuit het hoofdmenu of vanuit het rapport. Categorieën die u hebt gemaakt in marketingrapporten en analyses, worden ook weergegeven in de [!UICONTROL Checkpoint Selector] lijst.
+In plaats van één pagina in een rapport te gebruiken, kunt u veelvoudige pagina&#39;s groeperen en hen gebruiken als categorieën voor aanvang, tussenpersoon, of bestemmingsplaats in [!UICONTROL Fallout] en [!UICONTROL Site Analysis] - rapporten. U kunt groepen bewerken vanuit het hoofdmenu of vanuit het rapport. Categorieën die u in marketing reports and analytics hebt gemaakt, worden ook in de [!UICONTROL Checkpoint Selector] lijst weergegeven.
 
 <!-- 
 
