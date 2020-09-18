@@ -5,7 +5,10 @@ title: Overzicht van verwerkingsregels
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 1%
 
 ---
 
@@ -17,13 +20,13 @@ De verwerkingsregels vereenvoudigen gegevensverzameling en beheren inhoud aangez
 * Een gebeurtenis instellen op de pagina met productoverzicht
 * Campagne vullen met een parameter van het vraagkoord
 * Categorie en paginanaam samenvoegen in een hulpmiddel voor gemakkelijker rapportage
-* Een eVar naar een pop kopiëren om paden te zien
+* Een eVar naar een profiel kopiëren om paden weer te geven
 * Onjuist gespelde sitesecties opruimen
-* Interne zoektermen of een campagne-id uit de queryreeks in een eVar plakken
+* Interne zoektermen of een campagne-id uit de queryreeks in een eVar aftrekken
 
 >[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
 
-*Bekijk het overzicht van de verwerkingsregels en de training van de Adobe-top om te leren waarom u verwerkingsregels moet gebruiken.*
+*Bekijk het overzicht van de Regels van de Verwerking en opleiding van de Top van Adobe om te leren waarom u verwerkingsregels zou moeten gebruiken.*
 
 ## Ervoor worden geautoriseerd om verwerkingsregels te gebruiken {#section_8A4846688050453784DAE4D89355169A}
 
@@ -40,11 +43,11 @@ Nu, hebben de beheerders rechten om verwerkingsregels **door gebrek** te gebruik
 
 >[!IMPORTANT]
 >
->Omdat de verwerkingsregels de gegevens van Analytics permanent beïnvloeden, adviseren wij sterk dat de beheerders van de verwerkingsregels certificatie in de Analytics van Adobe ontvangen, en vertrouwd met alle bronnen van gegevens voor uw rapportreeksen (standaardwebsites, mobiele plaatsen, mobiele apps, de Invoeging API van Gegevens, etc.) zijn. Kennis van de contextgegevensvariabelen en standaardvariabelen die op verschillende platforms zijn ingevuld, zal helpen te voorkomen dat gegevens per ongeluk worden verwijderd of gewijzigd.
+>Omdat de verwerkingsregels de gegevens van Analytics permanent beïnvloeden, adviseert Adobe sterk dat de beheerders van de verwerkingsregels certificeringstraining in Adobe Analytics ontvangen, en met alle bronnen van gegevens voor uw rapportreeksen vertrouwd zijn (standaardwebsites, mobiele plaatsen, mobiele apps, de Invoeging API van Gegevens, etc.). Kennis van de contextgegevensvariabelen en standaardvariabelen die op verschillende platforms zijn ingevuld, zal helpen te voorkomen dat gegevens per ongeluk worden verwijderd of gewijzigd.
 
 ## Contextgegevens gebruiken om gegevensverzameling te vereenvoudigen {#section_09EEA03612D24C15839631AA9E9668D8}
 
-Contextgegevensvariabelen zijn een nieuw type variabele dat alleen beschikbaar is voor verwerkingsregels. Om de variabelen van contextgegevens te gebruiken, worden de sleutel/waardegegevensparen verzonden binnen door uw implementatie, en de verwerkingsregels worden gebruikt om deze waarden in standaardvariabelen van de Analyse te vangen. Hierdoor kunnen programmeurs precies zien welke eigenschap en/of eVar moet bevatten.
+Contextgegevensvariabelen zijn een type variabele dat alleen beschikbaar is voor verwerkingsregels. Om de variabelen van contextgegevens te gebruiken, worden de sleutel/waardegegevensparen verzonden binnen door uw implementatie, en de verwerkingsregels worden gebruikt om deze waarden in standaardvariabelen van de Analyse te vangen. Hierdoor kunnen programmeurs niet precies zien welke eigenschap en/of eVar welke waarde moet bevatten.
 
 ![](assets/evar-context-map.png)
 
