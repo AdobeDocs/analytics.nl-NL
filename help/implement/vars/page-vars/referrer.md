@@ -2,9 +2,9 @@
 title: referrer
 description: Overschrijf de automatisch verzamelde verwijzer voor een klap.
 translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ s.referrer = digitalData.page.pageInfo.referringURL;
 
 >[!CAUTION]
 >
->Stel deze variabele niet in op niet-URL-waarden.
+>Stel deze variabele niet in op niet-URL-waarden. Verwijder het URL-protocol niet.
 
 ## Voorbeeld
 
