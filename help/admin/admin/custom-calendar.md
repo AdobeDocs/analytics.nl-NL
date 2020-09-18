@@ -4,9 +4,9 @@ title: Kalender aanpassen
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Kalenderopties in een ander model dan het Gregoriaanse model. De opties omvatten
 
 >[!CAUTION]
 >
->Als u de kalender wijzigt, verandert de manier waarop gegevens worden verwerkt (d.w.z. de definitie van unieke wekelijkse en maandelijkse bezoekers). Wanneer de definitie van weken en maanden in een kalender verandert, worden de historische gegevens niet gewijzigd.
+>Als u de kalender wijzigt, verandert de manier waarop gegevens worden verwerkt (d.w.z. de definitie van unieke wekelijkse en maandelijkse bezoekers). Wanneer de definitie van weken en maanden in een kalender verandert, worden de historische gegevens niet gewijzigd. Deze instelling heeft ook invloed op segmenten die zijn gebaseerd op datumbereiken.
 
 U kunt de kalender gebruiken om de eerste dag van de week en het jaar te bepalen, of een verschillende stijl van de detailhandelkalender te gebruiken. De kalenderformaten worden gebruikt voor diverse doeleinden, met inbegrip van verkoopvergelijking en voorspelde standaardisering, loonkostenanalyse, of de fysieke verordening van het inventarisaantal. De detailhandel gebruikt bijvoorbeeld de 4-5-4 boekhoudkalender om de verkoopseizoenen te ondersteunen die specifiek zijn voor de detailhandel. Elk kalenderformaat wordt hieronder beschreven.
 
