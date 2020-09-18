@@ -4,10 +4,10 @@ title: Problemen oplossen en best practices voor Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 84%
+source-wordcount: '1378'
+ht-degree: 80%
 
 ---
 
@@ -86,3 +86,4 @@ Een lijst met foutberichten die soms kunnen optreden wanneer u Report Builder ge
    3. Verwijderen `calcChain.xml`.
    4. Comprimeer de inhoud opnieuw en wijzig de bestandsextensie weer in `.xlsx`.
    5. Open het werkboek in Excel en vernieuw alle verzoeken van Report Builder.
+* **Excel-cellen die zijn gekoppeld aan de invoerfilters of het uitvoerbereik kunnen zijn verwijderd**: Report Builder gebruikt de Namen van Excel om gegevensverzoeken aan cellen vast te maken. Als u de Namen van Excel van het Manager van Namen schrapt, kunt u deze fout zien. Aanvragen kunnen niet worden hersteld als Excel-namen worden verwijderd. Als het werkboek gepland was, kunt u of een exemplaar van de Plannende Manager downloaden, of eerder geleverde exemplaren van het werkboek openen.
