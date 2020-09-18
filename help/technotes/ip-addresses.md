@@ -2,9 +2,9 @@
 title: IPs en domeinen die door Adobe Analytics worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die van Adobe afkomstig zijn, gebruik deze lijst om uw firewallmontages bij te werken.
 translation-type: tm+mt
-source-git-commit: 4faa557120f937eb240e6d12ab0e2fc0ae7372ab
+source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Als uw organisatie verkiest om specifieke IP adreswaaiers toe te staan kunt u de
 | Oregon | `130.248.148.0/22` |
 | Oregon | `172.82.192.0/21` |
 | Oregon | `172.82.216.0/21` |
-| Parijs | `208.67.40.0/24` |
+| as | `208.67.40.0/24` |
 | Singapore | `66.235.150.0/24` |
 | Singapore | `66.235.130.0/23` |
 | Singapore | `63.140.44.0/22` |
@@ -129,7 +129,6 @@ Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverza
 | Ierland | `52.17.94.37` |
 | Ierland | `52.49.253.16` |
 | Ierland | `52.51.63.15` |
-| Londen | `172.82.228.19` |
 | Oregon | `52.42.60.49` |
 | Oregon | `54.212.169.56` |
 | Oregon | `54.214.170.191` |
@@ -139,43 +138,9 @@ Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverza
 | Tokyo | `13.112.72.86` |
 | Tokyo | `18.178.74.225` |
 | Tokyo | `18.179.88.228` |
+| Virginia | `3.220.129.153` |
+| Virginia | `18.211.197.67` |
+| Virginia | `34.228.124.176` |
 | Virginia | `34.234.106.101` |
 | Virginia | `52.22.231.198` |
 | Virginia | `54.157.65.136` |
-| Virginia | `107.23.142.4` |
-| Virginia | `34.192.14.184` |
-| Virginia | `34.192.146.173` |
-| Virginia | `34.192.229.76` |
-| Virginia | `34.196.183.216` |
-| Virginia | `34.196.219.120` |
-| Virginia | `34.196.54.55` |
-| Virginia | `34.197.179.21` |
-| Virginia | `34.197.45.49` |
-| Virginia | `34.197.93.163` |
-| Virginia | `34.198.80.27` |
-| Virginia | `34.199.102.192` |
-| Virginia | `34.199.46.40` |
-| Virginia | `34.199.99.62` |
-| Virginia | `34.200.67.35` |
-| Virginia | `34.204.146.235` |
-| Virginia | `34.204.164.1` |
-| Virginia | `34.204.27.249` |
-| Virginia | `34.205.224.111` |
-| Virginia | `34.206.69.71` |
-| Virginia | `52.193.88.44` |
-| Virginia | `52.200.108.250` |
-| Virginia | `52.200.171.156` |
-| Virginia | `52.201.49.195` |
-| Virginia | `52.205.244.105` |
-| Virginia | `52.207.161.156` |
-| Virginia | `52.22.148.55` |
-| Virginia | `52.4.155.255` |
-| Virginia | `52.72.182.205` |
-| Virginia | `52.72.185.111` |
-| Virginia | `54.152.218.194` |
-| Virginia | `54.173.37.66` |
-| Virginia | `54.173.69.38` |
-| Virginia | `54.236.180.248` |
-| Virginia | `54.236.71.218` |
-| Virginia | `54.80.103.29` |
-| Virginia | `54.88.180.124` |
