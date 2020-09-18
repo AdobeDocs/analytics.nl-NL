@@ -80,7 +80,7 @@ Als uw organisatie verkiest om specifieke IP adreswaaiers toe te staan kunt u de
 | Oregon | `130.248.148.0/22` |
 | Oregon | `172.82.192.0/21` |
 | Oregon | `172.82.216.0/21` |
-| as | `208.67.40.0/24` |
+| Parijs | `208.67.40.0/24` |
 | Singapore | `66.235.150.0/24` |
 | Singapore | `66.235.130.0/23` |
 | Singapore | `63.140.44.0/22` |
