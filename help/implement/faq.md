@@ -2,10 +2,10 @@
 title: Veelgestelde vragen over implementatie
 description: Veelgestelde vragen over implementatie en koppelingen naar meer informatie.
 translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 68%
+source-wordcount: '498'
+ht-degree: 48%
 
 ---
 
@@ -49,3 +49,13 @@ var s = new Object();
 >* Verwijder het `s_code.js` bestand helemaal, tenzij u ook alle verwijzingen naar het bestand op elke pagina verwijdert.
 >* Wijzig de `trackingServer` variabele om niet naar Adobe te wijzen. AppMeasurement verzendt nog beeldverzoeken, die 404 fouten terugkeren.
 
+
+## Ik heb AppMeturement uitgevoerd via een codeanalyse en het heeft het gebruik van AppMeasurement gemarkeerd `Math.random()` als een mogelijk beveiligingsrisico. Wordt `Math.random()` gebruikt met gevoelige gegevens?
+
+Nee. De aantallen die gebruiken `Math.random()` worden niet gebruikt om, gevoelige gegevens te maskeren te verzenden of te ontvangen. Gegevens die naar Adobe-gegevensverzamelingsservers worden verzonden, zijn afhankelijk van de beveiliging van de onderliggende HTTPS-verbinding. <!-- AN-173590 -->
+
+Toepassingsmeting gebruikt `Math.random()` drie belangrijke gebieden:
+
+* **Bemonstering**: Afhankelijk van uw implementatie, kon sommige informatie voor slechts een klein percentage bezoekers aan uw plaats worden verzameld. `Math.random()` wordt gebruikt om te bepalen of een bepaalde bezoeker gegevens zou moeten verzenden. Bij de meeste implementaties wordt geen sampling gebruikt.
+* **ID** terugvalbezoeker: Als de bezoeker-id niet uit cookies kan worden opgehaald, wordt een willekeurige bezoeker-id gegenereerd. Dit deel van AppMeasurement gebruikt twee vraag aan `Math.random()`.
+* **Cache busting**: Aan het einde van de afbeeldingsaanvraag-URL&#39;s wordt een willekeurig getal toegevoegd om te voorkomen dat de browser in cache wordt geplaatst.
