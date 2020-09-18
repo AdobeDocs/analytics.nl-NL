@@ -4,9 +4,9 @@ title: Verzoeken in Data Warehouse beheren
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '152'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Met Aanvraagbeheer kunt u aanvragen weergeven, dupliceren en opnieuw de prioriteit geven.
 
-Selecteer de **[!UICONTROL Request Manager]** tab in Data warehouse.
+Selecteer de **[!UICONTROL Request Manager]** tab in Data Warehouse.
 
 Door te werken op dit tabblad kunt u
 
@@ -31,7 +31,6 @@ Door te werken op dit tabblad kunt u
 * Geef opnieuw prioriteit aan rapporten door hen aan een nieuwe plaats binnen de rij te slepen en te laten vallen.
 * Als u wilt zien wanneer een aanvraag wordt verwerkt, klikt u op een geplande aanvraag-id en controleert u de pop-up die wordt geopend.
 
->[!NOTE]
->
->Voer de volgende stappen [uit als u een Data warehouse-verzoek wilt annuleren](https://helpx.adobe.com/analytics/kb/cancel-data-warehouse-requests.html).
+Klik op een taak om afzonderlijke aanvragen voor die taak weer te geven.
 
+* Beperkte snelheid: Uw organisatie heeft teveel lopende verzoeken van de Data Warehouse. Het verzoek wordt gepauzeerd tot andere gegevensverzoeken volledig zijn.
