@@ -2,9 +2,9 @@
 title: Problemen met importmodule voor classificatie
 description: Algemene upload problemen bij gebruik van de classificatieimporteur.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De meest voorkomende problemen bij het uploaden van classificatiegegevens naar A
 
 Voor classificaties zijn een specifiek bestandstype en een specifieke indeling vereist om het uploaden te voltooien. Als het niet correct wordt opgeslagen, veroorzaakt het een fout en verwerkt geen rijen. De geretourneerde fout is vaak *&quot;De eerste kolom moet de sleutel zijn&quot;*, maar kan een willekeurig aantal fouten zijn. Controleer het volgende:
 
-* **Een spreadsheet (.xlsx) in plaats van een .tab- of .txt-bestand** uploaden: De rubriceringsimporter weet niet hoe te om .xls of .xlsx dossiers te behandelen. Stel in het dialoogvenster Opslaan als in Excel het juiste type Opslaan als in:
+* **Een spreadsheet (.xlsx) in plaats van een .tab- of .txt-bestand** uploaden: U kunt het foutbericht *&quot;De eerste kolom moet de sleutel zijn&quot;* krijgen wanneer u classificatiebestanden in een onjuiste indeling uploadt. De rubriceringsimporter weet niet hoe te om .xls of .xlsx dossiers te behandelen. Stel in het dialoogvenster Opslaan als in Excel het juiste type Opslaan als in:
    * Gebruik in Windows de bestandsindeling `Text (Tab delimited) (*.txt)`
    * Op de Mac gebruikt u de bestandsindeling `Windows Formatted Text`.
 * **Het veranderen van de filename uitbreiding na het opslaan van het als werkboek**: Wanneer u probeert de naam van een bestandsextensie rechtstreeks te wijzigen, wordt een ongeldig werkboek gegenereerd. Gebruik slechts sparen van Excel als functie of geef classificaties in een tekstredacteur zoals Blocnote+ uit.
@@ -38,6 +38,7 @@ Als het uploadbestand de juiste indeling heeft, probeert de uploader zoveel moge
 * **Subclassificaties bestaan en zijn onjuist geconfigureerd**: Indien er subclassificaties bestaan, controleer het volgende:
    * Alle subclassificatiewaarden hebben een bovenliggende classificatiewaarde
    * Geen twee subclassificaties verwijzen naar dezelfde bovenliggende classificatiewaarde
+* **Kolom komt niet overeen**: U kunt het foutbericht *&quot;The key on line has too many columns&quot;* krijgen als er een ongeldig aantal kolommen op een bepaalde rij staat. U hebt bijvoorbeeld 3 kolommen in het uploaden van de classificatie en de variabele heeft slechts één classificatie. Valideer uw uploadbestand om ervoor te zorgen dat het aantal kolommen niet groter is dan het aantal classificaties dat voor die variabele is geconfigureerd.
 
 ## FTP-import problemen oplossen
 
