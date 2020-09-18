@@ -4,7 +4,7 @@ title: Rapporttypen
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 1%
@@ -125,7 +125,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-Bijvoorbeeld, als u specifieke gegevens op verschillende servers hebt of gespiegelde gegevens op afzonderlijke servers hebt, toont het rapport u de weg tussen servers die de gebruikers raken. Dit geldt ook voor domeinen binnen uw website. U kunt bijvoorbeeld zien hoeveel gebruikers van een `https://www.mysite.com` naar `https://info.mysite.com` of `https://sales.mysite.com`.
+Bijvoorbeeld, als u specifieke gegevens op verschillende servers hebt of gespiegelde gegevens op afzonderlijke servers hebt, toont het rapport u de weg tussen servers die de gebruikers raken. Dit geldt ook voor domeinen binnen uw website. U kunt bijvoorbeeld zien hoeveel gebruikers van een `https://www.example.com` naar `https://info.example.com` of `https://sales.example.com`.
 
 ## Volgende sectiestroom {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -176,7 +176,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-Bijvoorbeeld, als u specifieke gegevens op verschillende servers hebt of gespiegelde gegevens op afzonderlijke servers hebt, toont het rapport u de weg tussen servers die de gebruikers raken. Dit geldt ook voor domeinen binnen uw website. U kunt bijvoorbeeld zien hoeveel gebruikers van een `www.mysite.com` naar `info.mysite.com` of `sales.mysite.com`.
+Bijvoorbeeld, als u specifieke gegevens op verschillende servers hebt of gespiegelde gegevens op afzonderlijke servers hebt, toont het rapport u de weg tussen servers die de gebruikers raken. Dit geldt ook voor domeinen binnen uw website. U kunt bijvoorbeeld zien hoeveel gebruikers van een `www.example.com` naar `info.example.com` of `sales.example.com`.
 
 ## Conversietrechter-rapporten {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
