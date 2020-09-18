@@ -2,9 +2,9 @@
 title: Gemiddelde tijd op de site
 description: De gemiddelde hoeveelheid tijd bestond een bepaald afmetingspunt tussen treffers.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,10 @@ De totale hoeveelheid tijd die voor `Product page A` wordt besteed is `00:03:10`
 
 De gemiddelde tijd op locatie voor `Product page A` is `00:01:35`.
 
+>[!NOTE]
+>
+>Deze metrische toont een waarde van `"Invalid"` als het afmetingspunt slechts treffers bevat die in een bezoek het laatst waren. Deze metrisch vereist een verdere slag om bestede tijd te volgen.
+
 ## Gemiddelde tijd besteed aan plaats (seconden)
 
 De metrische waarde &#39;Gemiddelde tijd die aan plaats (seconden) wordt doorgebracht&#39; toont de zelfde gegevens die als geheel in plaats van in `HH:MM:SS` formaat worden voorgesteld. Deze metrische waarde is het meest waardevol als component binnen berekende metriek.
@@ -77,6 +81,6 @@ Aangezien er één sequentie in de afsplitsingsdimensie was, gebruikt deze een a
 
 ## Percentage boven 100%
 
-Deze metrische waarde bevat vaak percentages boven 100%. De noemer is de gemiddelde tijd van de volledige afmeting ter plaatse, en de teller is de gemiddelde tijd van het afmetingspunt op plaats. Als de gemiddelde tijd van de volledige afmeting op plaats lager is dan de gemiddelde tijd van een bepaald afmetingspunt op plaats, zult u percentages boven 100% zien. Door gerangschikte rapporten te sorteren op deze metrische waarde wordt een afwijkende gemiddelde tijd op plaatswaarden getoond, die typisch niet waardevol is. Adobe raadt u aan om in gerangschikte rapporten een andere waarde in te voeren, zoals [Visits](visits.md).
+Deze metrische waarde bevat vaak percentages boven 100%. De noemer is de gemiddelde tijd van de volledige afmeting ter plaatse, en de teller is de gemiddelde tijd van het afmetingspunt op plaats. Als de gemiddelde tijd van de volledige afmeting op plaats lager is dan de gemiddelde tijd van een bepaald afmetingspunt op plaats, zult u percentages boven 100% zien. Door gerangschikte rapporten te sorteren op deze metrische waarde wordt een afwijkende gemiddelde tijd op plaatswaarden getoond, die typisch niet waardevol is. Adobe raadt aan om in gerangschikte rapporten een andere maatstaf te gebruiken, zoals [Visits](visits.md).
 
 Zie [Tijd besteed overzicht](time-spent.md) voor meer algemene informatie over bestede tijd.
