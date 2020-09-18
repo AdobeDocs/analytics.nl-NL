@@ -1,20 +1,20 @@
 ---
-description: Wanneer een rapport een groot aantal unieke waarden bevat, biedt Adobe functionaliteit om ervoor te zorgen dat de belangrijkste waarden in uw rapport worden weergegeven.
-title: Waarde voor laag verkeer in Adobe Analytics
+description: Wanneer een rapport een groot aantal unieke waarden heeft, verstrekt Adobe functionaliteit om ervoor te zorgen dat de belangrijkste waarden in uw rapport verschijnen.
+title: Lage verkeerswaarde in Adobe Analytics
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
 
 
-# Waarde voor laag verkeer in Adobe Analytics
+# Lage verkeerswaarde in Adobe Analytics
 
-Wanneer een rapport een groot aantal unieke waarden bevat, biedt Adobe functionaliteit om ervoor te zorgen dat de belangrijkste waarden in uw rapport worden weergegeven. Unieke variabelewaarden die worden verzameld na ongeveer 500.000 bestaande waarden worden vermeld onder een regelitem met de naam **(Low-Traffic)**.
+Wanneer een rapport een groot aantal unieke waarden heeft, verstrekt Adobe functionaliteit om ervoor te zorgen dat de belangrijkste waarden in uw rapport verschijnen. Unieke variabelewaarden die worden verzameld na ongeveer 500.000 bestaande waarden worden vermeld onder een regelitem met de naam **(Low-Traffic)**.
 
 ## Hoe het lage verkeer werkt
 
@@ -46,8 +46,9 @@ Laag-verkeersdrempels zijn niet zichtbaar in Analytics UI. Neem contact op met d
 
 De verschillende mogelijkheden behandelen laag-verkeerswaarden op verschillende manieren.
 
-* **Data warehouse:** Er is geen limiet aan het aantal unieke waarden in Data warehouse-rapporten. De unieke architectuur ervan maakt het mogelijk om een aantal unieke waarden te rapporteren.
+* **Data Warehouse:** Er is geen limiet aan het aantal unieke waarden in rapporten over Data Warehouse. De unieke architectuur ervan maakt het mogelijk om een aantal unieke waarden te rapporteren.
    * In sommige beperkte scenario&#39;s, kunnen de laag-verkeerswaarden nog verschijnen. Voorbeelden zijn list vars, list props, merchandising Vars en de detailafmetingen van marketingkanalen.
 * **Segmentatie:** Als de segmentcriteria een variabele met een hoog aantal unieke waarden omvatten, worden de waarden die onder laag verkeer worden gevangen niet inbegrepen.
 * **Classificaties:** Indelingsrapporten zijn ook onderworpen aan unieke limieten. Als de waarde van de bovenliggende variabele van een classificatie wordt opgenomen onder laag verkeer, wordt de waarde niet geclassificeerd.
-   * Als u waarden classificeert voordat ze in gegevens worden gezien, tellen die waarden mee voor de unieke drempel voor die maand.
+   * De door de importeur verkregen waarden voor de indeling in laagverkeerssituaties kunnen in Data Warehouse worden bekeken. <!-- AN-115871 -->
+   * De waarden van de laag-verkeersclassificatie die door de regelbouwer worden verkregen *kunnen niet* in Data Warehouse worden bekeken. <!-- AN-122872 -->
