@@ -5,9 +5,9 @@ title: FTP-import
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '703'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Zie Een FTP-account [maken voor meer informatie over het maken van een FTP-accou
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Klik **[!UICONTROL Import File]** en klik vervolgens op **[!UICONTROL FTP Import]**.
 1. Klik naast de FTP-account die u wilt gebruiken op **[!UICONTROL View]**.
-1. Gebruik de FTP-toegangsgegevens (Host, Aanmelden, Wachtwoord) om toegang te krijgen tot de FTP-server via een door u gekozen FTP-client.
+1. Gebruik de FTP-toegangsgegevens (Host, Aanmelden, Wachtwoord) om toegang te krijgen tot de FTP-server met een door u gekozen FTP-client.
 1. Upload het gegevensbestand ( [!DNL .tab] of [!DNL .txt]) naar de FTP-server.
 1. Na het uploaden van het gegevensbestand, upload een FIN dossier dat erop wijst het dossier klaar is te verwerken.
 
@@ -95,3 +95,7 @@ Zie [FTP en sFTP](https://docs.adobe.com/content/help/en/analytics/export/ftp-an
 1. Klik op **[!UICONTROL Save]**.
 
 Als u een FTP-account hebt gemaakt, kunt u deze bewerken of verwijderen door op de desbetreffende koppeling naast de gewenste FTP-account te klikken.
+
+>[!NOTE]
+>
+>Meldingen worden niet verzonden als bij het importeren geen wijzigingen in een classificatie worden aangebracht. Een e-mailbericht wordt alleen verzonden als dit is gelukt en leidt tot wijzigingen in een classificatie.
