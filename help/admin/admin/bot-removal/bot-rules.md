@@ -5,9 +5,9 @@ title: Bot Rules - overzicht
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Beide verkeersgegevens worden opgeslagen in een aparte gegevensopslagruimte die 
 
 ## Standaardregels voor IAB-bot
 
-Standaard IAB-bot-regels kunnen worden ingeschakeld door het [!UICONTROL Enable IAB Bot Filtering Rules] selectievakje in te schakelen. Deze selectie zal bots verwijderen uit de International Spiders &amp; Bots List van IAB (International Advertising Bureau) om beide verkeer te verwijderen. De IAB werkt deze lijst maandelijks bij.
+Standaard IAB-bot-regels kunnen worden ingeschakeld door het [!UICONTROL Enable IAB Bot Filtering Rules] selectievakje in te schakelen. Deze selectie zal bots verwijderen uit de International Spiders &amp; Bots List van IAB (International Advertising Bureau) om beide verkeer te verwijderen. Adobe werkt deze lijst van IAB maandelijks bij.
 
 ![](assets/bot-iab-checkbox.png)
 
-Adobe kan de gedetailleerde IAB-bonenlijst niet aan klanten aanbieden, maar u kunt het Bots-rapport wel gebruiken om een lijst weer te geven met bots die uw site hebben geopend. Bezoek [IAB](https://www.iab.com)om een beide naar de IAB-lijst te verzenden.
+Adobe kan de gedetailleerde IAB-bonenlijst niet aan klanten aanbieden, maar u kunt het Bots-rapport gebruiken om een lijst weer te geven met bots die toegang hebben tot uw site. Bezoek [IAB](https://www.iab.com)om een beide naar de IAB-lijst te verzenden.
 
 ## Aangepaste botregels
 
