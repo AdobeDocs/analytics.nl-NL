@@ -4,7 +4,10 @@ title: Een rapportsuite maken
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 9%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 Stappen die beschrijven hoe te om een rapportreeks tot stand te brengen, en de montages van een rapportreeks aan nieuwe te kopiëren.
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Selecteer een rapportsuite.
+1. Een rapportsuite selecteren.
 1. Klik op **[!UICONTROL Create New]** > **[!UICONTROL Report Suite]**.
 1. Om de montages van een rapportreeks, in de malplaatjelijst te kopiëren, selecteer of een vooraf bepaald malplaatje of een bestaande rapportreeks als [malplaatje te gebruiken.](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
 
@@ -25,7 +28,4 @@ Stappen die beschrijven hoe te om een rapportreeks tot stand te brengen, en de m
 1. Vul de velden in die worden beschreven in [Nieuwe rapportsuite.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. Klik op **[!UICONTROL Create Report Suite]**.
 
->[!MORELIKETHIS]
->
->* [Virtuele rapportsets maken](/help/components/vrs/c-workflow-vrs/vrs-create.md)
-
+Een rapportsuite-id mag maximaal 40 bytes lang zijn. Een rapportsuite-vriendelijke naam heeft een maximumlengte van 255 bytes.
