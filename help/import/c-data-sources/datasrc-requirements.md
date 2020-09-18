@@ -5,7 +5,10 @@ title: Vereisten en uploadlimieten
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Informatie over de vereisten voor uw rapportreeks alvorens Gegevensbronnen te gebruiken.
 
-De volgende secties maken een lijst van beperkingen die op Gegevensbronnen en gegevens van toepassing zijn die in marketing rapporten en analyses worden ingevoerd.
+De volgende secties maken een lijst van beperkingen die op Gegevensbronnen en gegevens van toepassing zijn die in marketing reports and analytics worden ingevoerd.
 
 * [Groottebeperkingen](/help/import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
 * [Datums](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
@@ -40,7 +43,7 @@ De volgende secties maken een lijst van beperkingen die op Gegevensbronnen en ge
 
 * Wanneer u een Gegevensbrondossier uploadt, voeren de Gegevensbronnen basisgegevensbevestiging uit om ervoor te zorgen het dossier geen het formatteren fouten bevat. Als een fout in een bestand wordt aangetroffen, wordt een e-mailmelding verzonden en wordt de verwerking gestopt.
 * Gegevensvelden mogen geen puntkomma&#39;s bevatten. Gegevensbronnen slaan records over die een puntkomma bevatten.
-* De gegevens van het Logboek van het Web, het Verkeer, en sommige Generische groeperingen van Gegevensbronnen zijn niet beschikbaar in het Pakhuis van Gegevens of ontdekken. Zie [Gegevenstypen en Categorieën](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md)voor meer informatie.
+* De gegevens van het Logboek van het Web, het Verkeer, en sommige Generische groeperingen van Gegevensbronnen zijn niet beschikbaar in Data Warehouse of ontdekken. Zie [Gegevenstypen en Categorieën](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md)voor meer informatie.
 * Gegevensbronnen ondersteunen geserialiseerde gebeurtenissen niet.
 
 ## Ondersteuning voor meerdere bytes {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -92,8 +95,8 @@ Als u een UTF-8 of ISO-8859-1 dossier indient en uw rapportreeks niet wordt gevo
 * De nuttigste rapporten voor het bekijken van de gegevens van het Logboek van het Web zijn verkeersrapporten, zoals paginameningen.
 * Paginanamen worden weergegeven als de volledige URL, inclusief de queryreeks.
 * Elk bestandsverzoek wordt weergegeven als een afzonderlijke paginaweergave, inclusief stijlpagina&#39;s en afbeeldingsbestanden.
-* Als u informatie aan URL toevoegt, zouden de dossiers als afzonderlijke pagina&#39;s kunnen worden geregistreerd. In marketingrapporten worden bijvoorbeeld de volgende URL&#39;s opgenomen als twee afzonderlijke pagina&#39;s:
+* Als u informatie aan URL toevoegt, zouden de dossiers als afzonderlijke pagina&#39;s kunnen worden geregistreerd. Adobe registreert bijvoorbeeld de volgende URL&#39;s als twee aparte pagina&#39;s:
 
-[!DNL /jokes/misc/snail_joke.html?userid=12345]
+`/jokes/misc/snail_joke.html?userid=12345`
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765]
+`/jokes/misc/snail_joke.html?userid=98765`
