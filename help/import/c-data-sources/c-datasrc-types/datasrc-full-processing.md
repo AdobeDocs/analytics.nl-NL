@@ -5,9 +5,9 @@ title: Volledige verwerking
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '722'
 ht-degree: 8%
 
 ---
@@ -15,20 +15,20 @@ ht-degree: 8%
 
 # Volledige verwerking
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Adobe raadt klanten aan de API ( [Bulk Data Insertion) (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) te gebruiken in plaats van volledige gegevensbronnen voor verwerking. Volledige verwerkingsgegevensbronnen worden in de toekomst afgekeurd.
+>Adobe raadt klanten aan de API ( [Bulk Data Insertion) (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) te gebruiken in plaats van volledige gegevensbronnen voor verwerking. Adobe is van plan in de toekomst volledige verwerkingsgegevensbronnen te vervangen.
 
 Gegevensbronnen ondersteunen de volgende variabelen bij het verwerken van gegevens als een standaardserveraanroep (Algemeen > Volledige verwerking).
 
-Gegevens van gegevensbronnen van volledige verwerking worden verwerkt alsof deze op het opgegeven tijdstip zijn ontvangen door Adobe-servers (elke hit bevat een tijdstempel).
+Gegevens van gegevensbronnen van volledige verwerking worden verwerkt alsof deze zijn ontvangen door Adobe-servers op het opgegeven tijdstip (elke hit bevat een tijdstempel).
 
 * [Bezoekersprofiel](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
 * [Kolomverwijzing](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
 ## Bezoekersprofiel {#section_6065627D0C144506965F562C80AE67F8}
 
-Gegevens van gegevensbronnen voor volledige verwerking worden verwerkt met afzonderlijke bezoekersprofielen. Zelfs als de bezoekersidentiteitskaart in geüploade gegevens overeenkomt met gegevens die zijn verzameld met JavaScript of een andere AppMeasurement-bibliotheek, worden de bezoekersprofielen niet verbonden vanuit een eVar-toewijzingsperspectief.
+Gegevens van gegevensbronnen voor volledige verwerking worden verwerkt met behulp van afzonderlijke bezoekersprofielen. Zelfs als de bezoekersidentiteitskaart in geüploade gegevens overeenkomt met gegevens die zijn verzameld met JavaScript of een andere AppMeasurement-bibliotheek, worden de bezoekersprofielen niet verbonden vanuit het oogpunt van eVar-toewijzing.
 
 Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example.com"` bezoeken uw plaats van een marketing campagne genoemd &quot;Verkoop van de Lente&quot;, die in de campagnevariabele wordt opgeslagen. Als u later een transactie uploadt met dezelfde bezoeker-id, ontvangt de campagne &quot;Verkoop voorjaar&quot; geen kredieten voor geüploade inkomsten- of succesgebeurtenissen met behulp van volledige verwerkingsgegevensbronnen.
 
@@ -65,8 +65,8 @@ Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example
   </tr> 
   <tr> 
    <td colname="col1"> <p><i>eVarN</i> </p> </td> 
-   <td colname="col2"> <p><i>eVarN</i>, d.w.z. &lt;eVar2&gt;...&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Naam conversie van var. U kunt maximaal 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>) hebben. </p> <p>U kunt de eVar naam (eVar12) of een vriendschappelijke naam (Advertentiecampagne 3) specificeren. </p> </td> 
+   <td colname="col2"> <p><i>eVarN</i>, d.w.z. &lt;eVar2&gt;..&lt;/eVar2&gt; </p> </td> 
+   <td colname="col3"> <p>Naam van conversie-eVar. U kunt maximaal 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> 75 </span>) gebruiken. </p> <p>U kunt de naam van de eVar (eVar12) of een vriendelijke naam (Advertentiecampagne 3) opgeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -114,12 +114,12 @@ Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Pagina-URL (bijvoorbeeld <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>Pagina-URL (bijvoorbeeld <code>https://www.example.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Productlijst (bijvoorbeeld <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Productlijst (bijvoorbeeld <code> "Sports;Ball;1;5.95"</code>). Kan maximaal 4096 bytes per rij bevatten.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
