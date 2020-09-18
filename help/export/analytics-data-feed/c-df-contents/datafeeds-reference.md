@@ -6,9 +6,9 @@ title: Referentie gegevenskolom
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '3674'
+source-wordcount: '3667'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 
 >[!IMPORTANT]
 >
->Voor elke bepaalde kolom (bijvoorbeeld een kolom die is gedefinieerd als 255 tekens) kan een gegevensfeed extra tekens verzenden als gevolg van de toevoeging van tekens die aan waarden ontsnappen in een tekenreeks. Houd rekening met deze mogelijke extra tekens als uw implementatie regelmatig waarden verzendt die tekenlimieten overschrijden.
+>Voor elke bepaalde kolom (bijvoorbeeld een kolom die is gedefinieerd als 255 tekens) kan een gegevensfeed extra tekens verzenden als gevolg van de toevoeging van tekens die aan waarden ontsnappen in een tekenreeks. Houd rekening met deze mogelijke extra tekens als uw implementatie regelmatig waarden verzendt die de tekenlimiet overschrijden.
 
 ## Kolommen, beschrijvingen en gegevenstypen
 
@@ -31,8 +31,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | Kolomnaam | Kolombeschrijving | Gegevenstype |
 | --- | --- | --- |
 | `accept_language` | Hiermee worden alle geaccepteerde talen weergegeven, zoals wordt aangegeven in de HTTP-header Accept-Language in een afbeeldingsaanvraag. | teken(20) |
-| `aemassetid` | Een meerwaardevariabele die aan identiteitskaart van Activa (GUID) van een reeks Middelen van de Adobe Experience Manager beantwoordt. Incrementele indrukgebeurtenissen. | text |
-| `aemassetsource` | Identificeert de bron van de gebeurtenis asset. Wordt gebruikt in de Adobe Experience Manager. | varchar(255) |
+| `aemassetid` | Een variabele met meerdere waarden die overeenkomt met de elementen van de id&#39;s (GUID) van een set Adobe Experience Manager-elementen. Incrementele indrukgebeurtenissen. | text |
+| `aemassetsource` | Identificeert de bron van de gebeurtenis asset. Wordt gebruikt in Adobe Experience Manager. | varchar(255) |
 | `aemclickedassetid` | Element-id van een Adobe Experience Manager-element. De verhogingen klikken Gebeurtenissen. | varchar(255) |
 | `browser` | Numerieke id van de browser. Verwijst naar de opzoektabel browser.tsv. | int zonder teken |
 | `browser_height` | Hoogte in pixels van het browservenster. | small int zonder teken |
@@ -71,7 +71,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `ef_id` | De ef_id die wordt gebruikt in Adobe Advertising Cloud-integratie. | varchar(255) |
 | `evar1 - evar250` | Aangepaste variabelen 1-250. Elke organisatie gebruikt eVars anders. De beste plaats voor meer informatie over hoe uw organisatie respectieve eVars bevolkt zou een document van het oplossingsontwerp specifiek voor uw organisatie zijn. | varchar(255) |
 | `event_list` | Door komma&#39;s gescheiden lijst met numerieke id&#39;s die gebeurtenissen vertegenwoordigen die tijdens de hit worden geactiveerd. Bevat zowel standaardgebeurtenissen als aangepaste gebeurtenissen 1-1000. Gebruikt lookup event.tsv. | text |
-| `exclude_hit` | Markering die de treffer aangeeft, wordt niet gerapporteerd. De kolom visit_num wordt niet verhoogd voor uitgesloten hits.<br>1: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>2: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>3: Niet meer gebruikt. Uitsluiting<br>van gebruikersagent 4: Uitsluiting op basis van IP-adres<br>5: Er ontbreekt informatie over belangrijke raakpunten, zoals page_url, pagename, page_event of event_list<br>6: JavaScript heeft hit<br>7 niet correct verwerkt: Accountspecifieke uitsluiting, zoals in een VISTA-regel<br>8: Niet gebruikt. Alternatieve accountspecifieke uitsluiting.<br>9: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>10: Ongeldige valutacode<br>11: Als een tijdstempel ontbreekt in een rapportsuite met alleen een tijdstempel of als een hit een tijdstempel bevat in een rapportsuite<br>zonder tijdstempel: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>13: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>14: Target treffer die niet overeenkwam met een Analytics hit<br>15: Momenteel niet gebruikt.<br>16: Advertising Cloud-treffer die niet overeenkomt met een Analytics-treffer | tinyint zonder teken |
+| `exclude_hit` | Markering die de treffer aangeeft, wordt niet gerapporteerd. De kolom visit_num wordt niet verhoogd voor uitgesloten hits.<br>1: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>2: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>3: Niet meer gebruikt. Uitsluiting<br>van gebruikersagent 4: Uitsluiting op basis van IP-adres<br>5: Er ontbreekt informatie over bitmaps, zoals `page_url`, `pagename`, `page_event`of `event_list`<br>6: JavaScript heeft hit<br>7 niet correct verwerkt: Accountspecifieke uitsluiting, zoals in een VISTA-regel<br>8: Niet gebruikt. Alternatieve accountspecifieke uitsluiting.<br>9: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>10: Ongeldige valutacode<br>11: Als een tijdstempel ontbreekt in een rapportsuite met alleen een tijdstempel of als een hit een tijdstempel bevat in een rapportsuite<br>zonder tijdstempel: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>13: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>14: Doeltreffer die niet overeenkwam met een Analytics hit<br>15: Momenteel niet gebruikt.<br>16: Advertising Cloud-hit die niet overeenkomt met een Analytics-hit | tinyint zonder teken |
 | `first_hit_page_url` | De allereerste URL van de bezoeker. | varchar(255) |
 | `first_hit_pagename` | Variabele die wordt gebruikt in de oorspronkelijke dimensie van de Pagina van de Ingang. De oorspronkelijke naam van de ingangspagina van de bezoeker. | varchar(100) |
 | `first_hit_ref_domain` | Variabele die in de Originele Verwijzende dimensie van het Domein wordt gebruikt. Gebaseerd op first_hit_reference. Het allereerste verwijzende domein van de bezoeker. | varchar(100) |
@@ -178,7 +178,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `resolution` | Numerieke id die de resolutie van de monitor vertegenwoordigt. Bevolkt de dimensie van de Resolutie van de Monitor. Gebruikt resolution.tsv raadplegingstabel. | small int zonder teken |
 | `s_kwcid` | Trefwoord-id gebruikt in Adobe Advertising Cloud-integratie. | varchar(255) |
 | `s_resolution` | Waarde van resolutie voor onbewerkt scherm. Wordt verzameld met behulp van de JavaScript-functie screen.width x screen.height. | teken(20) |
-| `sampled_hit` | Niet meer gebruikt. Voorheen werd gebruikt voor bemonstering in het Ad hoc analysis. | teken(1) |
+| `sampled_hit` | Niet meer gebruikt. Voorheen werd gebruikt voor bemonstering in Ad Hoc Analysis. | teken(1) |
 | `search_engine` | Numerieke id die staat voor de zoekengine die de bezoeker naar uw site heeft doorverwezen. Gebruikt search_engines.tsv lookup. | small int zonder teken |
 | `search_page_num` | Wordt gebruikt door de afmeting Alle zoekpaginaranalen. Hiermee geeft u aan op welke pagina met zoekresultaten uw site is weergegeven voordat de gebruiker op uw site heeft geklikt. | small int zonder teken |
 | `secondary_hit` | Markering die secundaire treffers volgt. Doorgaans is dit afkomstig van taggen met meerdere suite- en VISTA-regels die treffers kopiëren. | tinyint zonder teken |
@@ -192,7 +192,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `sociallatlong` | Niet meer gebruikt. Sociale breedtegraad/lengtegraad | varchar(255) |
 | `socialowneddefinitioninsighttype` | Niet meer gebruikt. Type inzicht in sociale definitie | varchar(255) |
 | `socialowneddefinitioninsightvalue` | Niet meer gebruikt. Waarde van inzicht in sociale definitie | varchar(255) |
-| `socialowneddefinitionmetric` | Niet meer gebruikt. Maatschappelijke definitie | varchar(255) |
+| `socialowneddefinitionmetric` | Niet meer gebruikt. Metrisch met definitie van sociale aard | varchar(255) |
 | `socialowneddefinitionpropertyvspost` | Niet meer gebruikt. Eigendom van sociale definitie versus post | varchar(255) |
 | `socialownedpostids` | Niet meer gebruikt. ID&#39;s van sociale post | varchar(255) |
 | `socialownedpropertyid` | Niet meer gebruikt. ID sociale eigendom | varchar(255) |
