@@ -5,7 +5,10 @@ title: Veelgestelde vragen over gegevensbronnen
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1494'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +35,11 @@ Ja. Omdat vele marketing rapporten van de datumkolom worden gehouden, vereist de
 
 ## Kan ik gegevens opslaan in bestaande variabelen die ik al gebruik? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
-Adobe raadt u aan nieuwe, ongebruikte variabelen te selecteren om gegevens te importeren met behulp van gegevensbronnen. Neem contact op met de klantenservice als u niet zeker weet wat de configuratie van uw gegevensbestand is of als u meer inzicht wilt krijgen in de risico&#39;s van het opnieuw gebruiken van variabelen.
+Adobe raadt u aan nieuwe, ongebruikte variabelen te selecteren om gegevens te importeren met behulp van Gegevensbronnen. Neem contact op met de klantenservice als u niet zeker weet wat de configuratie van uw gegevensbestand is of als u meer inzicht wilt krijgen in de risico&#39;s van het opnieuw gebruiken van variabelen.
 
 ## Kan ik gegevens schrappen die gebruikend Gegevensbronnen werden ingevoerd? {#section_DB73BC06BD774738BF019B347D9DED96}
 
-Nee. Gegevens die met behulp van gegevensbronnen in rapporten zijn geüpload, kunnen niet worden verwijderd, zelfs niet door Adobe-technici, nadat ze zijn geïmporteerd. Het wordt permanent in uw bestaande gegevens opgenomen, en wordt van uw gegevens die door traditionele gegevensinzamelingsmiddelen (d.w.z. JavaScript, ActionSource, de Invoeging API van Gegevens, enz.) worden ingevoerd. Daarom raadt Adobe ten zeerste aan gegevensbronnen te uploaden naar een testrapportsuite voordat deze in een productieset worden geüpload.
+Nee. Gegevens die met behulp van gegevensbronnen in rapporten zijn geüpload, kunnen niet worden verwijderd, zelfs niet door Adobe-technici, nadat ze zijn geïmporteerd. Het wordt permanent in uw bestaande gegevens opgenomen, en wordt van uw gegevens die door traditionele gegevensinzamelingsmiddelen (d.w.z. JavaScript, ActionSource, de Invoegings API van Gegevens, enz.) worden ingegaan niet van elkaar onderscheiden. Daarom adviseert Adobe sterk het uploaden van de gegevens van Gegevensbronnen in een reeks van het testrapport alvorens in een productiereeks te uploaden.
 
 ## Hoeveel gegevens kan ik tegelijkertijd importeren? {#section_7A76D59E2C5B434D9BDBD2ABD2873168}
 
@@ -50,7 +53,7 @@ De gegevensbronnen van gegevens beschrijven nooit bestaande rapportgegevens. In 
 
 Wanneer u de gegevens van Gegevensbronnen uploadt, uploadt u de metriek die in de rapportinterface beschikbaar zal zijn.
 
-Bijvoorbeeld, als u de Ontvangsten van het Centrum van de Vraag voor producten uploadt u op uw plaats verkoopt, kunt u die Ontvangsten van het Centrum van de Vraag in het zelfde rapport hebben zoals Online Ontvangsten. U kunt het echter niet gebruiken in combinatie met Bezoekopdrachten omdat u het aantal bezoeken niet hebt geüpload. Adobe kan alleen de metriek en elementen rapporteren die u via Gegevensbronnen hebt geüpload (naast de standaardmaatstaven voor marketingrapporten).
+Bijvoorbeeld, als u de Ontvangsten van het Centrum van de Vraag voor producten uploadt u op uw plaats verkoopt, kunt u die Ontvangsten van het Centrum van de Vraag in het zelfde rapport hebben zoals Online Ontvangsten. U kunt het echter niet gebruiken in combinatie met Bezoekopdrachten omdat u het aantal bezoeken niet hebt geüpload. Adobe kan slechts over de metriek en de elementen rapporteren die u door Gegevensbronnen (naast de regelmatige metriek van het marketingrapport) uploadde.
 
 ## Wat gebeurt als ik negatieve waarden in rapportering door Gegevensbronnen overga? {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
@@ -127,9 +130,20 @@ De gegevensinvoer bevat alle gegevens van transactie-id&#39;s die zijn ontvangen
 
 ## Zijn eVars die momenteel in het profiel van de Bezoeker blijven toegewezen aan metriek die met gegevensbronnen wordt geüpload? {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-Nee voor volledige verwerking, ja voor transactie-id. Volledige verwerkingsgegevensbronnen worden verwerkt met behulp van afzonderlijke bezoekersprofielen, dus zelfs als de bezoeker-id&#39;s overeenkomen, worden ze vanuit een eVar-toewijzingsperspectief niet aan elkaar gekoppeld. De gegevensbronnen van transactie-id zijn gekoppeld aan het hoofdbezoekersprofiel, zodat blijvende eVars worden toegewezen aan gebeurtenissen die met transactie-id zijn geüpload.
+Nee voor volledige verwerking, ja voor transactie-id. Volledige verwerkingsgegevensbronnen worden verwerkt met behulp van aparte bezoekersprofielen, dus zelfs als de bezoeker-id&#39;s overeenkomen, worden ze vanuit het oogpunt van eVar-toewijzing niet aan elkaar gekoppeld. De gegevensbronnen van transactie-id zijn gekoppeld aan het hoofdbezoekersprofiel, zodat persisterende eVars worden toegewezen aan gebeurtenissen die met transactie-id zijn geüpload.
 
 ## Blijven eVars die zijn geüpload met gebruik van gegevensbronnen tot later online gedrag? {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
 Nee. eVars die via gegevensbronnen voor transactie-id zijn geüpload, kunnen alleen lezen van de opgeslagen profielgegevens, niet het profiel bijwerken.
 Nee. Vars zijn de enige variabelen die in de momentopname van het bezoekersprofiel worden opgeslagen.
+
+## Hoe werken numerieke gebeurtenissen en valutamarkten met gegevensbronnen?
+
+Volledige verwerking biedt alleen ondersteuning voor oudere gebeurtenislijstindelingen, met uitzondering van de waarde voor de gebeurtenis numeric/currency/Counter (meer dan 1) rechtstreeks in de lijst met gebeurtenissen, dat `"eventNN,eventKK"` niet `"eventNN=#.##"`. Dit betekent dat deze alleen ondersteuning biedt voor een tellergebeurtenis als deze wordt doorgegeven in de kolom Gebeurtenissen in het gegevensbronbestand en dat de waarde met 1 wordt verhoogd.
+
+Als er numerieke, valuta- of tellergebeurtenissen (meer dan 1) vereist zijn, gebruikt u de productlijst:
+
+```js
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
+```
