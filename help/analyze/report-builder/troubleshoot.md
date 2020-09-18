@@ -4,10 +4,10 @@ title: Problemen oplossen en best practices voor Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 100%
+source-wordcount: '1307'
+ht-degree: 84%
 
 ---
 
@@ -34,74 +34,37 @@ Bij het openen van een ARB v5.1-werkmap met classificatieaanvraag ervaart u het 
 
 In Report Builder is verificatie vereist om data-aanvragen te maken op basis van uw rapportsuites. Soms zijn er problemen met de aanmelding bij Report Builder, afhankelijk van uw instellingen binnen [!DNL Analytics] of uw netwerk.
 
-**Ongeldig aanmeldingsbedrijf**
-
-Deze fout treedt het vaakst op wanneer het aanmeldingsbedrijf onjuist is ingevoerd, of wanneer er problemen zijn met de netwerkactiviteit. Ga als volgt te werk:
-
-* Controleer de spelling van het aanmeldingsbedrijf om te controleren of er geen typefout of verkeerde spatie in staat.
-* Meld u bij Analytics aan via hetzelfde aanmeldingsbedrijf om te controleren of de data juist zijn. Als u zich niet met deze aanmeldingsgegevens kunt aanmelden, informeer dan bij een van de beheerders van uw organisatie naar het juiste aanmeldingsbedrijf.
-
-**Firewall**
-
-Report Builder gebruikt poort 80 en 443. Zorg ervoor dat deze poorten zijn toegestaan door de firewall van uw organisatie. Zie ook de interne IP-adressen van Adobe voor meer firewalluitsluitingen.
+* **Ongeldig aanmeldingsbedrijf**: Deze fout treedt het vaakst op wanneer het aanmeldingsbedrijf onjuist is ingevoerd, of wanneer er problemen zijn met de netwerkactiviteit. Ga als volgt te werk:
+   * Controleer de spelling van het aanmeldingsbedrijf om te controleren of er geen typefout of verkeerde spatie in staat.
+   * Meld u bij Analytics aan via hetzelfde aanmeldingsbedrijf om te controleren of de data juist zijn. Als u zich niet met deze aanmeldingsgegevens kunt aanmelden, informeer dan bij een van de beheerders van uw organisatie naar het juiste aanmeldingsbedrijf.
+* **Firewall**: Report Builder gebruikt poort 80 en 443. Zorg ervoor dat deze poorten zijn toegestaan door de firewall van uw organisatie. Zie ook de interne IP-adressen van Adobe voor meer firewalluitsluitingen.
 
 ## Aanbevelingen voor het optimaliseren van aanvragen {#section_33EF919255BF46CD97105D8ACB43573F}
 
-De volgende factoren kunnen de complexiteit van aanvragen verhogen en tot een langzamere verwerking leiden:
+De volgende factoren kunnen de complexiteit van aanvragen verhogen en tot een langzamere verwerking leiden.
 
-**Factoren die leveringen kunnen vertragen**
+* **Factoren die de levering** kunnen vertragen: Er waren te veel bladwijzers, dashboards en Report Builder-werkboeken gepland binnen een paar uur. Overweeg ook te veel werkboeken van Report Builder die rond de zelfde tijd werden gepland. Wanneer dit gebeurt, gaat de rapport-API-wachtrij achterlopen.
+* **Factoren die de werkmapruntime kunnen vertragen**: Aanzienlijke toename van classificaties of het vergroten van de datumbereik van de aanvraag in de loop van de tijd.
+* **Causes die in de mislukking** van de werkboeklevering resulteren: De complexe formules van Excel in een werkboek, in het bijzonder degenen die datum en tijd impliceren.
+* **Cellen die 0s (geen waarden)** terugkeren: Een apostrof of één enkel citaat in de het bladnaam van Excel zal rapportaannemer veroorzaken om geen waarden terug te keren. (Dit is een beperking van Microsoft Excel.)
+* **Prestaties van afzonderlijke aanvragen**: De verwerkingssnelheid kan worden beïnvloed door de volgende instellingen:
 
-* Er zijn te veel bladwijzers, dashboards en Report Builder-werkmappen binnen een paar uur tijd gepland.
-* Er zijn te veel Report Builder-werkmappen rond dezelfde tijd gepland. Wanneer dit gebeurt, gaat de rapport-API-wachtrij achterlopen.
+   | Instelling | Snellere prestaties | Tragere prestaties |
+   |--- |--- |--- |
+   | Uitsplitsingen en uitsplitsingsvolgorde | Weinig | Veel |
+   |  | Voorbeeld: Als u A uitsplitst op Z, moet het aantal items voor A altijd kleiner zijn dan het aantal items voor Z. Als dit andersom is, kan de aanvraagtijd aanzienlijk toenemen. |
+   | Datumbereik | Klein bereik | Breed bereik |
+   | Filteren | Specifieke filtering | Populairste filtering |
+   | Granulariteit | Samengevoegd | Uurlijks<ul><li>Dagelijks</li><li>Wekelijks</li><li>Maandelijks</li><li>Driemaandelijks</li><li>Jaarlijks</li></ul> |
+   | Aantal vermeldingen | Kleine dataset | Grote dataset |
 
-**Factoren die de werkmapruntime kunnen vertragen**
+* **Planningstijd**: Verdeel de planning over een periode van 24 uur (zie onderstaande tabel). Als bestaande bladwijzers, dashboards, en Report Builder-werkmappen vlak na elkaar worden gepland, kan dat vertragingen veroorzaken. Plan grotere, complexere aanvragen in de vroege ochtend, zodat handmatige pulls en vernieuwing mogelijk is in de loop van de werkdag.
 
-* Aanzienlijke toename van classificaties.
-* Toename van het datumbereik van aanvragen in een bepaalde tijdsperiode.
+   | Planningstijd | 01:00 - 2:00 uur | 02:00 - 07:00 uur | 07:00 - 18:00 | 18:00 - Middernacht |
+   |--- |--- |--- |--- |--- |
+   | Gebruik van Report Builder | Rustig | Heel druk | Clientgebruik.<br>Hogere aantallen gebruikers die lokaal vernieuwen en vragen om “direct verzenden”.<br>Controleer bovendien of de API-wachtrij wordt gewist wanneer bij geplande werkmappen een time-out optreedt. | Niet bezet |
 
-   **Voorbeeld**: Stel dat u een trendaanvraag maakt met de instelling Huidig jaar, uitgesplitst volgens dagen. Aan het einde van het jaar retourneert de aanvraag meer periodes retourneren dan aan het begin van het jaar.
-
-   `(January 1 - January 30 versus January 1 - December 31.)`
-
-**Oorzaken van mislukte werkmapleveringen**
-
-Ingewikkelde Excel-formules in een werkmap, met name formules die datums en tijden bevatten.
-
-**Cellen die 0 (geen waarden) retourneren**
-
-Een apostrof of enkel aanhalingsteken in de Excel-werkbladnaam zorgt ervoor dat Report Builder geen waarden retourneert. (Dit is een beperking van Microsoft Excel.)
-
-**Prestaties van afzonderlijke aanvragen**
-
-De verwerkingssnelheid kan worden beïnvloed door de volgende instellingen:
-
-| Instelling | Snellere prestaties | Tragere prestaties |
-|--- |--- |--- |
-| Uitsplitsingen en uitsplitsingsvolgorde | Weinig | Veel |
-|  | Voorbeeld: Als u A uitsplitst op Z, moet het aantal items voor A altijd kleiner zijn dan het aantal items voor Z. Als dit andersom is, kan de aanvraagtijd aanzienlijk toenemen. |
-| Datumbereik | Klein bereik | Breed bereik |
-| Filteren | Specifieke filtering | Populairste filtering |
-| Granulariteit | Samengevoegd | Uurlijks<ul><li>Dagelijks</li><li>Wekelijks</li><li>Maandelijks</li><li>Driemaandelijks</li><li>Jaarlijks</li></ul> |
-| Aantal vermeldingen | Kleine dataset | Grote dataset |
-
-
-**Planningstijd**
-
-Verdeel de planning over een periode van 24 uur (zie onderstaande tabel). Als bestaande bladwijzers, dashboards, en Report Builder-werkmappen vlak na elkaar worden gepland, kan dat vertragingen veroorzaken.
-
-Plan grotere, complexere aanvragen in de vroege ochtend, zodat handmatige pulls en vernieuwing mogelijk is in de loop van de werkdag.
-
-| Planningstijd | 01:00 - 2:00 uur | 02:00 - 07:00 uur | 07:00 - 18:00 | 18:00 - Middernacht |
-|--- |--- |--- |--- |--- |
-| Gebruik van Report Builder | Rustig | Heel druk | Clientgebruik.<br>Hogere aantallen gebruikers die lokaal vernieuwen en vragen om “direct verzenden”.<br>Controleer bovendien of de API-wachtrij wordt gewist wanneer bij geplande werkmappen een time-out optreedt. | Niet bezet |
-
-**Time-outs**
-
-Bij alle geplande rapportagetijden treedt na vier uur een time-out op. Het systeem probeert nog drie keer te plannen, wat mogelijk resulteert in een fout. (Het uitvoeren van de dataset duurt gewoonlijk langer naarmate deze groter is.) Deze zijn te zien in [!DNL Analytics]-rapportage en Report Builder:
-
-* [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
-
-* Report Builder: Klik op **[!UICONTROL Management]** in het tabblad [!UICONTROL Add-ins] in Excel.
+* **Time-outs**: Bij alle geplande rapportagetijden treedt na vier uur een time-out op. Het systeem probeert nog drie keer te plannen, wat mogelijk resulteert in een fout. (Het uitvoeren van de dataset duurt gewoonlijk langer naarmate deze groter is.) Deze zijn te zien in [!DNL Analytics]-rapportage en Report Builder:
 
 ## Beschrijvingen van foutberichten {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -111,34 +74,15 @@ Een lijst met foutberichten die soms kunnen optreden wanneer u Report Builder ge
 >
 >Dit is slechts een selectie van foutberichten, geen volledige lijst. Neem contact op met de beheerder voor meer informatie over het oplossen van fouten.
 
-**Deze eigenschap kan alleen op een geopende werkmap worden toegepast.**
-
-Als er geen werkmappen (spreadsheetdocumenten) in Excel zijn geopend, en u op een van de pictogrammen in de Report Builder-werkbalk klikt, wordt dit bericht weergegeven. Daarnaast wordt de werkbalk uitgeschakeld totdat u een spreadsheet opent. U kunt echter op het online Help-pictogram klikken terwijl de werkbalk nog is ingeschakeld zonder dat deze fout optreedt.
-
-**U moet eerst de [!UICONTROL Request Wizard] afsluiten voordat u [!UICONTROL Request Manager] activeert.**
-
-[!UICONTROL Request Manager] en de [!UICONTROL Request Wizard] zijn functioneel verbonden, maar is het niet mogelijk om met [!UICONTROL Request Manager] te werken voordat u acties in de [!UICONTROL Request Wizard] hebt voltooid of geannuleerd.
-
-**Er is geen aanvraag aan dit bereik gekoppeld.**
-
-Dit foutbericht treedt op als u op de knop [!UICONTROL From Sheet] in [!UICONTROL Request Manager] klikt wanneer een cel van de spreadsheet geen aanvragen bevat.
-
-Als u wilt identificeren welke cellen in de spreadsheet aanvragen bevatten, klikt u op individuele aanvragen die worden vermeld in de tabel in [!UICONTROL Request Manager]. Als een aanvraag is gekoppeld aan cellen, worden de cellen gemarkeerd getoond wanneer de aanvraag in de tabel wordt geselecteerd.
-
-**Het geselecteerde bereik is ongeldig. Selecteer een ander bereik.**
-
-Als een cel in de spreadsheet wordt geselecteerd terwijl er al een aanvraag aan is toegewezen, treedt deze fout op. Verwijder de aanvraag die aan de cellen is toegewezen of kies een andere reeks cellen voor toewijzing.
-
-Wanneer u cellen wilt verwijderen, is het belangrijk dat u cellen met aanvragen zoekt en de aanvragen verwijdert voordat u de cellen verwijdert (rijen of kolommen verwijdert).
-
-**Sluit de gemarkeerde Excel-cel af voordat u deze functie gebruikt.**
-
-Als u in een Excel-cel staat in *bewerkingsmodus* en op een van de pictogrammen van Report Builder klikt, verschijnt dit foutbericht. De bewerkingsmodus in een Excel-cel betekent dat de cel is geselecteerd en de cursor in de cel wordt weergegeven. U bent ook in bewerkingsmodus in een Excel-cel wanneer u direct in de [!UICONTROL Formula]-balk of in de [!UICONTROL Name Box] boven in Excel typt.
-
-**Het geselecteerde bereik doorsnijdt het bereik van een andere aanvraag. Wijzig de selectie.**
-
-Als u al een set cellen aan de spreadsheet hebt toegewezen, wordt deze fout weergegeven.
-
-Een manier om te bepalen welke cellen zijn toegewezen voordat u nieuwe aanvragen toevoegt, is het sluiten van de [!UICONTROL Request Wizard] en het openen van de [!UICONTROL Request Manager]. Selecteer vervolgens een voor een de items in de overzichtstabel voor aanvragen. Wanneer u een aanvraag in de lijst selecteert, worden de corresponderende cellen met aanvraagtoewijzingen in de spreadsheet gemarkeerd.
-
-Dit is een van de redenen om te overwegen cellen te markeren, rij- of kolominformatie of een opmaakstijl mee te geven voordat u meerdere cellen aan meerdere gebieden toewijst.
+* **Deze eigenschap kan alleen op een geopende werkmap worden toegepast.**: Als er geen werkmappen (spreadsheetdocumenten) in Excel zijn geopend, en u op een van de pictogrammen in de Report Builder-werkbalk klikt, wordt dit bericht weergegeven. Daarnaast wordt de werkbalk uitgeschakeld totdat u een spreadsheet opent. U kunt echter op het online Help-pictogram klikken terwijl de werkbalk nog is ingeschakeld zonder dat deze fout optreedt.
+* **U moet eerst de [!UICONTROL Request Wizard] afsluiten voordat u [!UICONTROL Request Manager] activeert.**: Terwijl de [!UICONTROL Request Manager] en de [!UICONTROL Request Wizard] zijn functioneel verbonden, is het niet mogelijk om met het te werken [!UICONTROL Request Manager] alvorens acties te voltooien of te annuleren die in de [!UICONTROL Request Wizard].
+* **Er is geen aanvraag aan dit bereik gekoppeld.**: Dit foutbericht treedt op als u op de knop [!UICONTROL From Sheet] in [!UICONTROL Request Manager] klikt wanneer een cel van de spreadsheet geen aanvragen bevat. Als u wilt identificeren welke cellen in de spreadsheet aanvragen bevatten, klikt u op individuele aanvragen die worden vermeld in de tabel in [!UICONTROL Request Manager]. Als een aanvraag is gekoppeld aan cellen, worden de cellen gemarkeerd getoond wanneer de aanvraag in de tabel wordt geselecteerd.
+* **Het geselecteerde bereik is ongeldig. Selecteer een ander bereik.**: Als een cel in de spreadsheet wordt geselecteerd terwijl er al een aanvraag aan is toegewezen, treedt deze fout op. Verwijder de aanvraag die aan de cellen is toegewezen of kies een andere reeks cellen voor toewijzing. Wanneer u cellen wilt verwijderen, is het belangrijk dat u cellen met aanvragen zoekt en de aanvragen verwijdert voordat u de cellen verwijdert (rijen of kolommen verwijdert).
+* **Sluit de gemarkeerde Excel-cel af voordat u deze functie gebruikt.**: Als u in een Excel-cel staat in *bewerkingsmodus* en op een van de pictogrammen van Report Builder klikt, verschijnt dit foutbericht. De bewerkingsmodus in een Excel-cel betekent dat de cel is geselecteerd en de cursor in de cel wordt weergegeven. U bent ook in bewerkingsmodus in een Excel-cel wanneer u direct in de [!UICONTROL Formula]-balk of in de [!UICONTROL Name Box] boven in Excel typt.
+* **Het geselecteerde bereik doorsnijdt het bereik van een andere aanvraag. Wijzig de selectie.**: Als u al een set cellen aan de spreadsheet hebt toegewezen, wordt deze fout weergegeven.
+* **Herstelt aan werkboek (Verwijderde Verslagen: Formule van /xl/calcChain.xml)**: Soms worden de formules van een werkboek bedorven wanneer het bewaren of het overbrengen. Wanneer het dossier wordt geopend, probeert Excel om deze formules in werking te stellen en ontbreekt. U kunt dit probleem verhelpen door Excel uit het spreadsheet te verwijderen, zodat de formule-berekeningen van Excel moeten worden vernieuwd. `calcChain.xml`
+   1. Wijzig de naam van de bestandsextensie van het werkboek van `.xlsx` naar `.zip`.
+   2. Pak de inhoud uit en open de `/xl/` map.
+   3. Verwijderen `calcChain.xml`.
+   4. Comprimeer de inhoud opnieuw en wijzig de bestandsextensie weer in `.xlsx`.
+   5. Open het werkboek in Excel en vernieuw alle verzoeken van Report Builder.
