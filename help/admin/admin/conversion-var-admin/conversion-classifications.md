@@ -2,10 +2,10 @@
 description: Classificaties worden gebruikt om waarden in groepen te categoriseren en op groepsniveau te rapporteren. U kunt bijvoorbeeld alle campagnes voor betaalde zoekopdrachten classificeren in een categorie zoals pop-muziektermen en rapporteren over het succes van die categorie ten opzichte van metriek zoals Instanties (doorklikken) en conversie naar succesgebeurtenissen.
 title: Conversieclassificaties
 translation-type: tm+mt
-source-git-commit: de7dd41bba6907d6af7a59dc385ca6a185d503ae
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 4%
+source-wordcount: '511'
+ht-degree: 3%
 
 ---
 
@@ -17,6 +17,10 @@ Classificaties worden gebruikt om waarden in groepen te categoriseren en op groe
 Met conversieclassificaties kunt u conversievariabelen classificeren. Zodra geclassificeerd, kan om het even welk rapport dat u het gebruiken van de zeer belangrijke gegevens kunt produceren ook worden geproduceerd gebruikend de bijbehorende gegevenseigenschappen.
 
 Nadat classificaties zijn ingeschakeld, gebruikt u de [Classificatieimportmodule](/help/components/classifications/importer/c-working-with-saint.md) om specifieke waarden aan de juiste classificatie toe te wijzen.
+
+>[!WARNING]
+>
+>Als u de naam van een classificatie wijzigt, kunnen er problemen optreden met bestaande regels die zijn gemaakt in de builder [van de](/help/components/classifications/crb/classification-rule-builder.md)classificatieregel. Als u een classificatie anders noemt die classificatieregels heeft, zorg ervoor dat u elke regel verbetert zodat richt het aan de anders genoemde classificatie.
 
 ## Omzettingsclassificatiebeschrijvingen
 
