@@ -3,10 +3,10 @@ description: 'null'
 title: Veelgestelde vragen over projectconversie
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 3%
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Spreidingsperceel</b>: Bij geëxporteerde projecten in Analysis Workspace wordt de Y-as ingesteld als de eerste kolom, de X-as als de tweede kolom en de diameter als de derde kolom. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Uitvaltabellen</b>: Als u doorhalings- of uitvaltabellen wilt weergeven, klikt u met de rechtermuisknop op het controlepunt en selecteert u een uitsplitsingsoptie. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Datumbereiken</b>op rapportniveau: De aangepaste waaiers van de rapportdatum zijn niet toegepast op de visualisaties van de Uitval. </li> 
-     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Stroomrapport</b>: De stroom wordt naar een apart deelvenster verplaatst om datumbereiken en segmentatie te behouden. </li> 
+     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Stroomrapport</b>: De stroom wordt naar een apart deelvenster verplaatst om datumbereiken en segmentatie te behouden. Herhalingsinstanties kunnen worden opgenomen of uitgesloten onder Flow-instellingen. </li> 
      <li id="li_BE8F8F6EC2EA49E18EF52539BC1700E0"><b>Conversietrechter</b>: Wordt omgezet in een vrije-vormtabel omdat deze niet wordt ondersteund in Analysis Workspace. De Fallout-visualisatie is een aanbevolen vervanging voor de Conversie-trechter, maar het gedraagt zich op een iets andere manier. </li> 
     </ul> </td> 
   </tr> 
@@ -74,14 +74,14 @@ ht-degree: 3%
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">De segmenten zijn intern aan het omgezette project (niet openbaar). U kunt ervoor kiezen om ze openbaar te maken, zoals u hier ziet: <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Ad Hoc Analysis-segmenten op werkruimteniveau worden toegepast op project-/werkruimteniveau in Workspace. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Ad Hoc Analysis-segmenten op rapportniveau worden toegepast op het niveau van de tabelkolom in Workspace. </li> 
-     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis-tabelsegmenten worden toegepast op kolomniveau in Workspace. </li> 
+     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis-tabelsegmenten worden toegepast op het niveau van de tabelkolom in Workspace. </li> 
     </ul> <p>U kunt segmenten bewerken in de <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  > Segment Builder</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Hoe worden datumbereiken geconverteerd?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">De datumbereiken 'Laatste X dag' in Ad Hoc Analysis <i>sluiten</i> vandaag niet uit, terwijl Analysis Workspace <i>vandaag de dag wel van toepassing</i> is. Datumbereiken als 'laatste 90 dagen' komen dus mogelijk niet precies overeen tussen de gereedschappen. Gebruik aangepaste datumbereiken om dezelfde tijdsperiode op te halen in Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">De datumbereiken 'Laatste X dag' in Ad Hoc Analysis <i>sluiten</i> vandaag niet uit, terwijl Analysis Workspace <i>vandaag de dag wel van toepassing</i> is. Datumbereiken als 'Laatste 90 dagen' komen dus mogelijk niet precies overeen tussen de gereedschappen. Pas in plaats daarvan het bereik Laatste X <b>volledige </b> dagen toe in Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Het datumbereik op werkruimteniveau van Ad Hoc Analysis wordt toegepast op project-/werkruimteniveau in Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Het rapport-vlakke de datumwaaier van Ad Hoc Analysis wordt toegepast op het niveau van de lijstkolom in Werkruimte. </li> 
     </ul> <p>U kunt uw aangepaste datumbereiken bewerken via <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Components</span> &gt; <span class="uicontrol"> Date Ranges</span>. </p> </td> 
