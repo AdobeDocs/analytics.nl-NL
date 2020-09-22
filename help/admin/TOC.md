@@ -6,10 +6,10 @@ breadcrumb-title: Admin Guide
 user-guide-description: Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, and more.
 breadcrumb-url: /docs/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
+source-git-commit: 8edfd278fdb4316c304301e5178dc07949127758
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 99%
    + Bot verwijderen {#bot-removal}
       + [Bot verwijderen](admin/bot-removal/bot-removal.md)
       + [Overzicht van regels voor bots](admin/bot-removal/bot-rules.md)
+      + [Handtekeningen van gewone bot](admin/bot-removal/bot-signatures.md)
    + [Code Manager](admin/code-manager-admin.md)
    + Conversievariabelen {#conversion-variables}
       + [Conversievariabelen (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
