@@ -1,11 +1,11 @@
 ---
 description: Gebruik veldbeschrijvingen in Dynamisch tagbeheer om paginacode aan te passen bij de implementatie van Analytics.
 keywords: Dynamic Tag Management;customize page code;open editor;execute
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Paginacode aanpassen
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
 translation-type: tm+mt
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 8%
