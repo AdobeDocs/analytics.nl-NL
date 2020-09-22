@@ -1,16 +1,19 @@
 ---
 description: De voorwaarden bepalen wanneer een op gebeurtenis-gebaseerde regel wordt teweeggebracht.
 keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;delay link activation;apply event handler directly to element;bubbling;event bubbling
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
-title: Voorwaarden maken voor op gebeurtenissen gebaseerde regels
+solution: Experience Cloud,Analytics,Target
+title: Voorwaarden maken voor regels op basis van gebeurtenissen
 uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 2%
 
 ---
 
 
-# Voorwaarden maken voor op gebeurtenissen gebaseerde regels
+# Voorwaarden maken voor regels op basis van gebeurtenissen
 
 De voorwaarden bepalen wanneer een op gebeurtenis-gebaseerde regel wordt teweeggebracht.
 
@@ -18,7 +21,7 @@ De voorwaarden bepalen wanneer een op gebeurtenis-gebaseerde regel wordt teweegg
 
    ![](assets/condition-event-based.png)
 
-   Zie [Gebeurtenistypen](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/t-rules-event-conditions.html) in de productdocumentatie van Adobe Tagbeheer voor meer informatie.
+   Voor meer informatie, zie de Types [van](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/t-rules-event-conditions.html) Gebeurtenis in de Documentatie van het Product van het Beheer van de Markering van Adobe.
 
 1. Schakel indien nodig de volgende opties in:
 
@@ -41,7 +44,7 @@ De voorwaarden bepalen wanneer een op gebeurtenis-gebaseerde regel wordt teweegg
 
    ![](assets/condition-event-based3.png)
 
-1. Geef uw voorkeur voor terugkoppelen van gebeurtenissen.
+1. Geef uw voorkeur voor terugkoppelen van gebeurtenissen op.
 
    Gebeurtenisterugkoppeling is een manier om gebeurtenissen door te geven in HTML DOM.
 
