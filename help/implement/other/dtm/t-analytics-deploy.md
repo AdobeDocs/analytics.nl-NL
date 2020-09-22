@@ -1,25 +1,28 @@
 ---
-description: Maak een hulpprogramma voor Adobe Analytics voor implementatie met Dynamisch tagbeheer. Deze procedure beschrijft een handmatige (verouderde) implementatie.
+description: Maak een Adobe Analytics-programma voor implementatie met Dynamisch tagbeheer. Deze procedure beschrijft een handmatige (verouderde) implementatie.
 keywords: Dynamic Tag Management
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Adobe Analytics handmatig implementeren (verouderd)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 9%
 
 ---
 
 
 # Adobe Analytics handmatig implementeren (verouderd)
 
-Maak een hulpprogramma voor Adobe Analytics voor implementatie met [!UICONTROL Dynamic Tag Management]. Deze procedure beschrijft een handmatige (verouderde) implementatie.
+Maak een Adobe Analytics-tool voor implementatie met [!UICONTROL Dynamic Tag Management]. Deze procedure beschrijft een handmatige (verouderde) implementatie.
 
-Zie [Adobe Analytics Tool](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md)toevoegen voor informatie over automatisch implementatiebeheer.
+Zie Adobe Analytics [toevoegen voor meer informatie over automatisch implementatiebeheer](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md).
 
 Als u een handconfiguratie in automatisch wilt veranderen, geef een hulpmiddel uit en klik **[!UICONTROL Enable Automatic Configuration]**.
 
 1. Analytische meetcode downloaden:
-   1. Klik in Analytics op **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
+   1. In Analytics, click **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
    1. Klik **[!UICONTROL JavaScript (new)]** om de code plaatselijk te downloaden.
 1. Maak [!UICONTROL Dynamic Tag Management]in [een webeigenschap](/help/implement/other/dtm/t-create-web-property.md).
 
@@ -57,7 +60,7 @@ Als u een handconfiguratie in automatisch wilt veranderen, geef een hulpmiddel u
    U bent nu klaar om regels te definiëren voor het verzamelen van analysegegevens. U wilt mogelijk eerst enkele gegevenselementen definiëren. De elementen van gegevens laten u gegevens uit de pagina halen die u kunt gebruiken om uw regel te vormen. Om te beginnen kunt u een regel voor het laden van een pagina definiëren die geen voorwaarden bevat voor het verzamelen van [!DNL Analytics] gegevens op elke pagina.
 1. [Voeg de kop- en voettekstcode](/help/implement/other/dtm/c-headers-footers/t-header-footer-code.md) toe op het tabblad Insluiten.
 
-   Voor het opslaan kunt u de standaardoptie voor het hosten van Amazon behouden. U kunt deze desgewenst wijzigen voordat u de productie gaat uitvoeren.
+   Voor het opvoeren kunt u de standaard Amazon-hostingoptie laten. U kunt deze desgewenst wijzigen voordat u de productie gaat uitvoeren.
 1. (Optioneel) Klik op **[!UICONTROL Settings]** ![](assets/settings_gear.png) het tabblad Opties en configureer de Adobe Analytics-code.
 
    >[!NOTE]
