@@ -1,11 +1,14 @@
 ---
 description: Test niet-gepubliceerde regels vanaf uw console als u Akamai-hosting gebruikt.
 keywords: Dynamic Tag Management;rule;switcher plug-in;akamai;test akamai;unpublished rules;test unpublished rules;debug rule
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Niet-gepubliceerde regels voor Akamai-hosting testen
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 10%
 
 ---
 
@@ -26,4 +29,4 @@ De volgende stappen tonen hoe te om te testen zonder de elektrisch toestel van d
    Deze actie laadt uw het opvoeren bibliotheek en plaatst debugger, zodat u details van alle beschikbare (gepubliceerde/unpublished) regels kunt zien die op de pagina vuren.
 1. Als u klaar bent, voert u uit `localStorage.setItem('sdsat_stagingLibrary', false)`en drukt u op **[!UICONTROL Enter]**.
 
-   Stap resultaat
+   Stap Resultaat
