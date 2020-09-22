@@ -1,16 +1,19 @@
 ---
 description: Veldbeschrijvingen in Dynamisch tagbeheer voor paginaweergaven en inhoudsinstellingen bij het implementeren van Analytics.
 keywords: Dynamic Tag Management;page views;content;page name;page url override;channel;site section;hierarchy
-solution: Experience Cloud,Analytics,Dynamic Tag Management
-title: Paginaweergaven en -inhoud
+solution: Experience Cloud,Analytics
+title: Paginaweergaven en -content
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 12%
 
 ---
 
 
-# Paginaweergaven en -inhoud
+# Paginaweergaven en -content
 
 Veldbeschrijvingen in Dynamisch tagbeheer voor paginaweergaven en inhoudsinstellingen bij het implementeren van Analytics.
 
