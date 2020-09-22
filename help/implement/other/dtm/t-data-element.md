@@ -1,16 +1,19 @@
 ---
 description: Maak een gegevenselement in Dynamisch tagbeheer.
 keywords: Dynamic Tag Management;data element;create new data element;name;type;default value;force lowercase value;remember this value for
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
-title: Een gegevenselement maken
+solution: Experience Cloud,Analytics,Target
+title: Een data-element maken
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 6%
 
 ---
 
 
-# Een gegevenselement maken
+# Een data-element maken
 
 Maak een gegevenselement in Dynamisch tagbeheer.
 
@@ -21,7 +24,7 @@ Maak een gegevenselement in Dynamisch tagbeheer.
 
    <table id="choicetable_681F7D5B86534FF0B6DB67E117B8E381"> 
     <thead class="chhead sthead"> 
-      <th class="choptionhd"> Option</th> 
+      <th class="choptionhd"> Optie</th> 
       <th class="chdeschd"> Beschrijving</th> 
     </thead> 
     <tr class="chrow strow"> 
@@ -54,5 +57,5 @@ Maak een gegevenselement in Dynamisch tagbeheer.
     </tr> 
    </table>
 
-   Zie [Gegevenselementen](https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html) in de productdocumentatie van het Beheer van de Markering van Adobe voor meer informatie over hoe te om gegevenselementen te gebruiken.
+   Zie [Gegevenselementen](https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html) in de documentatie van het Product van het Beheer van de Markering van Adobe voor meer informatie over hoe te om gegevenselementen te gebruiken.
 1. Klik op **[!UICONTROL Save Data Element]**.
