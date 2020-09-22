@@ -1,16 +1,19 @@
 ---
 description: Veldbeschrijvingen in Dynamisch tagbeheer voor referenties en campagneopties bij de implementatie van Dynamisch tagbeheer in Adobe Analytics.
 keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign variable;query param
-solution: Experience Cloud,Analytics,Dynamic Tag Management
-title: Referenties en campagnes
+solution: Experience Cloud,Analytics
+title: Referrers en campagnes
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 6%
 
 ---
 
 
-# Referenties en campagnes
+# Referrers en campagnes
 
 Veldbeschrijvingen in [!UICONTROL Dynamic Tag Management] voor referentie- en campagneopties bij implementatie [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
 
@@ -29,7 +32,7 @@ Veldbeschrijvingen in [!UICONTROL Dynamic Tag Management] voor referentie- en ca
    <td colname="col2"> <p>Overschrijft de waarde die is ingesteld in de variabele <span class="varname"> s.reference</span> , die gewoonlijk wordt gevuld door de verwijzersset in de browser. </p> <p>Zie <a href="../../../vars/page-vars/referrer.md">referentie</a>. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> Campagne </td>
+   <td colname="col1"> Campaign </td>
    <td colname="col2"> <p>Een variabele die marketingcampagnes identificeert die worden gebruikt om bezoekers naar uw site te brengen. De waarde van campagne wordt gewoonlijk genomen van een parameter van het vraagkoord. </p> <p>Zie <a href="../../../vars/page-vars/campaign.md">campagne</a>. </p> </td>
   </tr>
  </tbody>
