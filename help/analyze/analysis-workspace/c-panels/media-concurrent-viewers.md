@@ -2,19 +2,15 @@
 title: Deelvenster voor gelijktijdige mediaviewers
 description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace gebruiken en interpreteren.
 translation-type: tm+mt
-source-git-commit: d63c9b2e3b8241b8b40f4bb2e440cb1e96add69f
+source-git-commit: aea820324da5153c85ab1c12110c756748aedec9
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 2%
+source-wordcount: '1060'
+ht-degree: 1%
 
 ---
 
 
 # Deelvenster voor gelijktijdige mediaviewers
-
->[!IMPORTANT]
->
->Deze functie vindt u in Beperkte tests voor klanten van mediaveralytics. [Meer informatie...](https://docs.adobe.com/content/help/nl-NL/analytics/landing/an-releases.html)
 
 Klanten van Media Analytics kunnen gelijktijdige viewers analyseren om te begrijpen waar de piekgelijktijdige optreden plaatsvond of waar drop-outs waardevolle inzichten in de kwaliteit van de betrokkenheid van de inhoud en de kijker gaven, en om te helpen bij het oplossen van problemen of het plannen van volume of schaal.
 
