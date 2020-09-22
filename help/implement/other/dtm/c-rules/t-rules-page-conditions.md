@@ -1,11 +1,14 @@
 ---
 description: Maak regels die bepalen op welke pagina's een regel wordt geactiveerd.
 keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Voorwaarden maken voor regels voor het laden van pagina's
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 10%
 
 ---
 
