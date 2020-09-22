@@ -1,10 +1,10 @@
 ---
 title: Beleid voor gegevensbewaring
-description: Een beleid voor het bewaren van gegevens bepaalt hoe lang Adobe uw gegevens opslaat.
+description: Een beleid van het gegevensbehoud bepaalt hoe lang Adobe uw gegevens opslaat.
 translation-type: tm+mt
-source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Beleid voor gegevensbewaring
 
-De gegevens die door Adobe Analytics worden verzameld, worden gedurende een bepaalde periode bewaard. De tijd die Adobe nodig heeft om deze gegevens bij te houden, verschilt per contract en wordt beschreven in het beleid van een organisatie voor het bewaren van gegevens. Dit beleid is van toepassing op de gegevens zelf, wat betekent dat het alle analytische rapporteringsmogelijkheden beïnvloedt (de Werkruimte van de Analyse, het melden API, enz.).
+De door Adobe Analytics verzamelde gegevens worden gedurende een bepaalde periode bewaard. De tijd die Adobe deze gegevens bewaart varieert van contract tot contract, en in het beleid van het de gegevensbehoud van een organisatie geschetst. Dit beleid is van toepassing op de gegevens zelf, wat betekent dat het alle analytische rapportagemogelijkheden (Analysis Workspace, API voor rapportage, enz.) beïnvloedt.
 
-**Het standaardbeleid voor gegevensbewaring voor Adobe Analytics is 25 maanden.** Het beleid van uw organisatie voor het bewaren van gegevens kan afhankelijk van het contract verschillen.
+**Het standaardbeleid voor het bewaren van gegevens voor Adobe Analytics is 25 maanden.** Het beleid van uw organisatie voor het bewaren van gegevens kan afhankelijk van het contract verschillen.
 
 Bewaarde gegevens zijn gebaseerd op de huidige datum en de datum/tijd van historische gegevens. De datum/tijd die bij treffers is opgenomen, kan een andere zijn dan de datum/tijd waarop de treffer(s) door Adobe is ontvangen.
 
@@ -27,7 +27,7 @@ Neem contact op met de accountmanager van uw organisatie als u de bewaarperiode 
 
 ## Gegevensbewaring en gegevensprivacy
 
-Adobe moet in zijn rol als gegevensverwerker de nodige maatregelen nemen om zijn klanten te helpen toegang, schrapping, en andere verzoeken van individuen te vervullen. Het toepassen van een passend, veilig en tijdig verwijderingsbeleid is een belangrijk onderdeel van de naleving van deze verplichting. GDPR is van toepassing op alle klanten die informatie van EU-burgers op de markt brengen of verwerken. CCPA is op alle klanten van toepassing die aan markt brengen of informatie van burgers van Californië verwerken. Daarom is de Privacy van Gegevens een wereldwijde regelgevende verandering.
+Adobe moet in zijn rol als gegevensverwerker passende maatregelen nemen om zijn klanten te helpen toegang, schrapping, en andere verzoeken van individuen te vervullen. Het toepassen van een passend, veilig en tijdig verwijderingsbeleid is een belangrijk onderdeel van de naleving van deze verplichting. GDPR is van toepassing op alle klanten die informatie van EU-burgers op de markt brengen of verwerken. CCPA is op alle klanten van toepassing die aan markt brengen of informatie van burgers van Californië verwerken. Daarom is de Privacy van Gegevens een wereldwijde regelgevende verandering.
 
 ## Gegevensverwijdering
 
@@ -45,7 +45,7 @@ Het beleid van het gegevensbehoud bepaalt een het rollen venster van het gegeven
 
 **Kan ik een kopie van mijn gegevens aanvragen voordat deze worden verwijderd?**
 
-Ja. Adobe kan een historische gegevensstortplaats van onbewerkte gegevens op raakniveau leveren. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding bij Exporteren voor meer informatie. Neem contact op met de accountmanager van uw organisatie als u vereisten voor gegevensexport hebt die buiten het bereik vallen van wat de interface kan bieden. Er kunnen speciale accommodaties worden gemaakt; de kosten kunnen variëren.
+Ja. Adobe kan een historische gegevensstortplaats van onbewerkte, raakvlakke gegevens verstrekken. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding bij Exporteren voor meer informatie. Neem contact op met de accountmanager van uw organisatie als u vereisten voor gegevensexport hebt die buiten het bereik vallen van wat de interface kan bieden. Er kunnen speciale accommodaties worden gemaakt; de kosten kunnen variëren.
 
 **Wanneer verwijdert Adobe gegevens?**
 
