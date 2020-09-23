@@ -2,9 +2,9 @@
 title: Handtekeningen van gewone bot
 description: Herken de gemeenschappelijke herkenningstekens van bots.
 translation-type: tm+mt
-source-git-commit: 8edfd278fdb4316c304301e5178dc07949127758
+source-git-commit: 2f4c54ec57eeddc03f0b0d12a0a7f391e36ab0fc
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Moderne gebruikers beschikken over monitoren met veel hogere resolutie dan in he
 
 ## Land en tijdzone komen niet overeen
 
-Er zal een verschil zijn tussen het land van oorsprong en de tijdzone. Bijvoorbeeld een locatie van de Verenigde Staten, maar heeft een GMT-tijdzone.
+Er is een verschil tussen het land van oorsprong en de tijdzone. De locatie kan bijvoorbeeld de Verenigde Staten zijn, maar de tijdzone kan mij GMT zijn.
 
 ![](assets/bots-country-time-zone.png)
 
