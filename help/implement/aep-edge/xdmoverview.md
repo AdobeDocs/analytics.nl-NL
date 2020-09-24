@@ -2,7 +2,7 @@
 title: XDM-gegevens gebruiken met Analytics
 description: 'Overzicht van het gebruik van XDM-gegevens van Experience Platform in Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 0a570f52c3eb62ca517770fa12f2272f6ccc978d
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe Experience Platform Edge-gegevens gebruiken met Analytics
 
-U kunt de SDK [van het Web van](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) Adobe Experience Platform (AEP) gebruiken om gegevens naar de Analytics van Adobe te verzenden. Dit werkt door het Model van de Gegevens van de [Ervaring (XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) in een formaat te vertalen dat door Analytics wordt gebruikt.
+U kunt de SDK [van het Web van](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) Adobe Experience Platform (AEP) gebruiken om gegevens naar Adobe Analytics te verzenden. Dit werkt door het Model van de Gegevens van de [Ervaring (XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) in een formaat te vertalen dat door Analytics wordt gebruikt.
 
 Analytics verzamelt XDM-gegevens via twee methoden:
 
@@ -29,7 +29,7 @@ Handmatige toewijzing van XDM-gegevens aan Analytics is afhankelijk van [analyti
 
 ## Instellen
 
-Analtyics instellen om XDM-gegevens te ontvangen:
+Analytics instellen voor het ontvangen van XDM-gegevens:
 
 1. Installeer en [configureer](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/configuring-the-sdk.html) de [Adobe Experience Platform Web SDK](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/installing-the-sdk.html).
 
