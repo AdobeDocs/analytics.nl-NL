@@ -2,9 +2,9 @@
 description: 'Componenten in Analysis Workspace bestaan uit afmetingen, metriek, segmenten en datumbereiken die u naar een project kunt slepen en neerzetten. '
 title: Overzicht van onderdelen
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '690'
 ht-degree: 7%
 
 ---
@@ -36,7 +36,7 @@ Voorbeelden van dimensie-items zijn [!UICONTROL Homepage] (binnen de [!UICONTROL
 
 [**Metriek**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) zijn kwantitatieve maatstaven voor het gedrag van bezoekers. Ze zijn te vinden in het linkerspoor van de component (groene sectie) en worden doorgaans toegepast als kolommen van een tabel.
 
-Voorbeelden van metriek zijn [!UICONTROL-paginaweergaven, [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent]en [!UICONTROL Revenue/Order]. Metrisch worden verstrekt door Adobe, of door uw douaneimplementatie ([!UICONTROL Success events]) gevangen, of gecreeerd gebruikend de [Berekende metrische bouwer](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+Voorbeelden van metriek zijn [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent], en [!UICONTROL Revenue/Order]. Metrisch worden verstrekt door Adobe, of door uw douaneimplementatie ([!UICONTROL Success events]) gevangen, of gecreeerd gebruikend de [Berekende metrische bouwer](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
 
 ![](assets/metrics.png)
 
