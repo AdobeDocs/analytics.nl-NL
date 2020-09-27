@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor importeren van analysemogelijkheden
 breadcrumb-title: Import Guide
 user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Handleiding voor importeren van analysemogelijkheden {#import}
 
-+ [Help bij importeren van analysemogelijkheden](home.md)
++ [Handleiding voor importeren van analysemogelijkheden](home.md)
 + Gegevensbronnen {#data-sources}
    + [Overzicht van gegevensbronnen](c-data-sources/datasrc-home.md)
    + [Hoe de Gegevensbronnen werken](c-data-sources/datasrc-how-data-sources-works.md)
