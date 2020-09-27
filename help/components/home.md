@@ -1,42 +1,42 @@
 ---
-title: Help bij Analysecomponenten
+title: Analytics Components-handleiding
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 19%
+ht-degree: 84%
 
 ---
 
 
-# Handleiding Analytics Components
+# Analytics Components-handleiding
 
 ![Banner](../../assets/doc_banner_components.png)
 
-Met analytische componenten kunt u uw gegevensanalyse perfectioneren en versterken. Onderdelen zijn:
+Met Analytics Components kunt u de analyse van uw data verfijnen en versterken. Components bevat:
 
-* **Afmetingen:** Verwijzing voor afmetingen die kunnen worden gebruikt in Adobe Analytics.
-* **Metrisch:** Verwijzing voor metriek bruikbaar in de Analytics van Adobe.
-* **Segmentatie:** Focus op een subset van uw gegevens.
-* **Berekende cijfers:** Gebruik eenvoudige formules om metriek te combineren, of geavanceerde functies voor statistische analyse.
-* **Virtuele rapportsuites:** Maak een virtuele silo van gegevens op basis van een rapportsuite. Hiermee kunt u gegevens opschonen of segmenteren voor een betere gebruikerservaring. Sommige eigenschappen kunnen slechts in virtuele rapportseries worden gebruikt.
+* **Dimension:** Referentie voor afmetingen die bruikbaar zijn in Adobe Analytics.
+* **Metrisch:** Referentie voor metriek bruikbaar in Adobe Analytics.
+* **Segmentatie:** Focus op een subset van uw data.
+* **Berekende standaard:** Gebruik eenvoudige formules om cijfers te combineren, of geavanceerde functies voor statistische analyse.
+* **Virtuele rapportsuites:** Maak een virtuele silo van data op basis van een rapportsuite. Hiermee kunt u data opschonen of segmenteren voor een betere gebruikerservaring. Sommige eigenschappen kunnen alleen worden gebruikt in virtuele rapportsuites.
 * **Apparaatanalyse**: Met een speciaal type virtuele rapportsuite kunt u wel apparaatanalyse configureren.
-* **Waarschuwingen:** Ontvang meldingen als de gegevens boven of onder een drempelwaarde liggen.
-* **Classificaties:** Herordenen en groeperen dimensies om meer inzicht te krijgen.
-* **Real-time rapportage:** Krijg rapporten en tendensen zodra zij beschikbaar zijn.
-* **Marketingkanalen:** Begrijp hoe bezoekers aan uw plaats aankomen en bepaal welke kanalen het meest succesvol zijn.
+* **Waarschuwingen:** Ontvang meldingen zodra de data boven of onder een drempelwaarde komen.
+* **Classificaties:** Herorden en groepeer dimensies om meer inzicht te krijgen.
+* **Realtimerapportage:** Ontvang rapporten en trends zodra ze beschikbaar zijn.
+* **Marketingkanalen:** Krijg inzicht in de manier waarop bezoekers op uw site komen en bepaal welke kanalen het meest succesvol zijn.
 
-## Artikelen met belangrijke analytische componenten
+## Belangrijke artikelen over Analytics Components
 
 * [Dimensies](dimensions/overview.md)
 * [Cijfers](metrics/overview.md)
 
 ## Meer Analytics-gebruikershandleidingen
 
-[Gebruikershandleidingen voor Analytics](/help/landing/home.md)
+[Analytics-gebruikershandleidingen](/help/landing/home.md)
 
-## Belangrijke bronnen voor analyse
+## Belangrijke bronnen voor Analytics
 
 * [Contact opnemen met de klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html)
 * [Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
