@@ -1,8 +1,8 @@
 ---
-title: Analytics Admin Help
+title: Analytics Admin-handleiding
 description: Help bij beheer voor Adobe Analytics-beheerders, inclusief gebruikers- en productbeheer in de Admin Console, voor het instellen van rapportsuites, variabelen, classificaties en dataverzameling.
 translation-type: tm+mt
-source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 95%
