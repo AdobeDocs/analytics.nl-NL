@@ -1,8 +1,11 @@
 ---
-title: Help bij importeren van analysemogelijkheden
-description: Help bij importeren van analysemogelijkheden
-translation-type: ht
-source-git-commit: ebdf5ed1ca2b83b94284f1d8013a2b0c6b717714
+title: Handleiding voor importeren van analysemogelijkheden
+description: Deze gids verklaart hoe te om gegevens in Analytics te krijgen gebruikend Gegevensbronnen, de Invoeging API van Gegevens, en de Verbindingen van Gegevens.
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 85%
 
 ---
 
@@ -19,11 +22,11 @@ In deze handleiding wordt uitgelegd hoe u gegevens in Analytics kunt opnemen. He
 
 ## Meer gebruikershandleidingen voor Analytics
 
-[Gebruikershandleidingen voor Analytics](/help/landing/home.md)
+[Analytics-gebruikershandleidingen](/help/landing/home.md)
 
-## Belangrijke bronnen voor analyse
+## Belangrijke bronnen voor Analytics
 
 * [Contact opnemen met de klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html)
-* [Analysereforum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
