@@ -1,8 +1,11 @@
 ---
-title: Help bij exporteren Analytics
-description: 'null'
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+title: Handleiding voor exporteren van analysemogelijkheden
+description: In deze handleiding worden manieren beschreven om gegevens uit Adobe Analytics op te halen met behulp van gegevensfeeds en Data Warehouse.
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 88%
 
 ---
 
@@ -24,11 +27,11 @@ In deze handleiding worden manieren beschreven waarop u gegevens uit Adobe Analy
 
 ## Meer gebruikershandleidingen voor Analytics
 
-[Gebruikershandleidingen voor Analytics](/help/landing/home.md)
+[Analytics-gebruikershandleidingen](/help/landing/home.md)
 
-## Belangrijke bronnen voor analyse
+## Belangrijke bronnen voor Analytics
 
 * [Contact opnemen met de klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html)
-* [Analysereforum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
