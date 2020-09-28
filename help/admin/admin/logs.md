@@ -3,9 +3,9 @@ description: Logbestanden waarmee u kunt zien wanneer gebruikers zich aanmelden,
 title: Logboeken
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: ebcd348dd952c24b5a5eaadb46ec3a521aba2e98
+source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -68,11 +68,6 @@ Met [!UICONTROL Usage and Access Log] deze optie kunt u het rapportgebruik op ge
 | Datumbereik | Er is een datumbereik gemaakt/bewerkt. |
 | Virtuele rapportsuite | Er is een virtuele rapportsuite gemaakt/bewerkt. |
 | Contributieanalyse | Er is een bijdrageanalysetaak uitgevoerd. |
-| Verzoek voor Excel-gegevensblok |  |
-| Fout bij aanmelden van Excel |  |
-| Aanmelden bij Excel voltooid |  |
-| Mobiele aanmelding mislukt |  |
-| Mobiele aanmelding gelukt |  |
 | API-methode | Er is een API-aanroep gemaakt. |
 
 
