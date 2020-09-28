@@ -2,9 +2,9 @@
 description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 translation-type: tm+mt
-source-git-commit: 0a29fa005c7b86a399ab39f0b499d22b6f86e373
+source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '737'
 ht-degree: 3%
 
 ---
@@ -74,7 +74,7 @@ U kunt vervolgkeuzefilters gebruiken om een groot aantal projecten ook in één 
 
 ![](assets/create-dropdown.png)
 
-1. Als u een vervolgkeuzefilter wilt maken met [!UICONTROL Dimension items]bijvoorbeeld waarden binnen de [!UICONTROL Marketing Channel] dimensie, klikt u op de pijl naar rechts naast de afmeting in de linkertrack. Hiermee worden alle beschikbare items zichtbaar. Selecteer een of meerdere onderdelen in de linkertrack en zet ze neer in de dropzone van het deelvenster **terwijl u Shift ingedrukt houdt**. Hierdoor worden de componenten omgezet in een vervolgkeuzefilter in plaats van in één segment.
+1. Als u een vervolgkeuzefilter wilt maken met [!UICONTROL Dimension items]bijvoorbeeld waarden binnen de [!UICONTROL Marketing Channel] dimensie, klikt u op het pictogram met de pijl naar rechts naast de afmeting in de linkertrack. Hiermee worden alle beschikbare items zichtbaar. Selecteer een of meerdere onderdelen in de linkertrack en zet ze neer in de dropzone van het deelvenster **terwijl u Shift ingedrukt houdt**. Hierdoor worden de componenten omgezet in een vervolgkeuzefilter in plaats van in één segment.
 1. Als u een vervolgkeuzefilter wilt maken met andere componenten, zoals metriek, segmenten of datumbereiken, selecteert u een van de componenttypen in de linkertrack en zet u de vervolgkeuzelijst neer in de dropzone van het deelvenster **terwijl u Shift ingedrukt houdt**.
 1. Selecteer een van de opties in het vervolgkeuzemenu om de gegevens in het deelvenster te wijzigen. U kunt er ook voor kiezen om geen van de deelvenstergegevens te filteren door te selecteren **[!UICONTROL No filter]**.
 
