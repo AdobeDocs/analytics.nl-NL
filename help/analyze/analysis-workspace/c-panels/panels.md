@@ -2,9 +2,9 @@
 description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 translation-type: tm+mt
-source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '742'
 ht-degree: 3%
 
 ---
@@ -78,4 +78,4 @@ U kunt vervolgkeuzefilters gebruiken om een groot aantal projecten ook in één 
 1. Als u een vervolgkeuzefilter wilt maken met andere componenten, zoals metriek, segmenten of datumbereiken, selecteert u een van de componenttypen in de linkertrack en zet u de vervolgkeuzelijst neer in de dropzone van het deelvenster **terwijl u Shift ingedrukt houdt**.
 1. Selecteer een van de opties in het vervolgkeuzemenu om de gegevens in het deelvenster te wijzigen. U kunt er ook voor kiezen om geen van de deelvenstergegevens te filteren door te selecteren **[!UICONTROL No filter]**.
 
-[Bekijk de video](https://www.youtube.com/watch?v=vpJywtsFVPI) voor meer informatie over het toevoegen van vervolgkeuzefilters aan uw project.
+[Bekijk de video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) voor meer informatie over het toevoegen van vervolgkeuzefilters aan uw project.
