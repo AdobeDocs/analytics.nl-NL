@@ -3,9 +3,9 @@ description: Nieuwe functies in Analysis Workspace.
 keywords: Analysis Workspace
 title: Nieuwe functies in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '7747'
+source-wordcount: '7716'
 ht-degree: 96%
 
 ---
@@ -989,9 +989,7 @@ Nieuwe functies uitgebracht op 20 oktober 2016:
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->De knop "Handelingen" is toegevoegd op de linkerrail. Deze knop biedt de volgende handelingen: Tag, Favoriet, Goedkeuren, <b>Delen (nieuw!)</b>, <b>Verwijderen (nieuw!)</b>. </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">Er is een filter toegevoegd aan de zoekbalk waarmee u kunt filteren op tags, favorieten, goedgekeurde items en componenten. </li> 
-     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Er is een voorvertoningspictogram toegevoegd aan handmatige rijen (niet aan dynamische rijen met dimensie-items). Hiermee kunt u een voorvertoning van segmenten, metrics en datumbereiken bekijken. </li> 
-     <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->De YouTube-koppeling voor zelfstudies van Analysis Workspace staan nu op: <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a>. </li> 
+     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Er is een voorvertoningspictogram toegevoegd aan handmatige rijen (niet aan dynamische rijen met dimensie-items). Hiermee kunt u een voorvertoning van segmenten, metrics en datumbereiken bekijken. </li>  
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->Voor visualisaties hebben wij de rechtermuisklikoptie <span class="uicontrol">Start over</span> (Opnieuw beginnen) toegevoegd van het contextmenu (werkt voor flow, histogram en Venn-diagrammen). Hiermee wordt de configuratie voor de huidige visualisatie verwijderd en een nieuw deelvenster geopend waarin u de visualisatie opnieuw kunt configureren. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">Met de nieuwe visualisatie-instelling "Legend Visible" (Legenda zichtbaar) kunt u de tekst met filtergegevens verbergen voor de visualisatie Samenvatting van aantallen/wijzigingen. </li> 
