@@ -3,7 +3,10 @@ description: Het nieuwe systeem voor intelligente waarschuwingen biedt meer gede
 title: Intelligente waarschuwingen
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '568'
+ht-degree: 6%
 
 ---
 
@@ -16,24 +19,24 @@ Het nieuwe systeem voor intelligente waarschuwingen biedt meer gedetailleerde co
 
 >[!IMPORTANT]
 >
->Intelligente waarschuwingen zijn alleen beschikbaar voor klanten van Adobe [!DNL Analytics] Premiere en Adobe [!DNL Analytics] Ultimate.
+>Intelligente waarschuwingen zijn alleen beschikbaar voor Adobe [!DNL Analytics] Premier en Adobe [!DNL Analytics] Ultimate-klanten.
 
-De nieuwe Waarschuwingsbouwer en de Manager van de Waarschuwing vervangen de bestaande waakzame functionaliteit in Adobe [!DNL Analytics]. Met intelligente waarschuwingen kunt u
+De nieuwe Waakzame Bouwer en de Manager van de Waarschuwing vervangen de bestaande waakzame functionaliteit in Adobe [!DNL Analytics]. Met intelligente waarschuwingen kunt u
 
 * Berichten opstellen op basis van anomalieën (90%, 95%, 99%, 99,75% en 99,9% drempelwaarden; % wijziging; boven/onder).
-* Een voorvertoning weergeven van hoe vaak een waarschuwing wordt geactiveerd.
-* Verzend alarm door e-mail of SMS met verbindingen naar auto-geproduceerde projecten van de Werkruimte van de Analyse.
-* Maak &#39;gestapelde&#39; waarschuwingen die meerdere meetgegevens vastleggen in één waarschuwing.
+* Een voorvertoning bekijken van het aantal keren dat een melding is geactiveerd.
+* Een melding sturen via e-mail of sms, met koppelingen naar automatisch gegenereerde Analysis Workspace-projecten.
+* &#39;Gestapelde&#39; meldingen maken waarbij meerdere metrics zijn opgenomen in één waarschuwing.
 
 Onderdelen van het nieuwe waarschuwingssysteem zijn: Alert Builder, Alert Manager, Alert Voorproef, en betere in-context toegang tot het creëren van alarm. De oude gebruikersinterface van het waarschuwingssysteem is niet meer beschikbaar, maar de waarschuwingen worden gemigreerd. Sommige oude waarschuwingsfuncties [zijn niet meer beschikbaar](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/alerts.html).
 
 Er zijn vier manieren om naar de Waarschuwingsbouwer te gaan:
 
-* Door de volgende kortere weg in de Werkruimte van de Analyse te gebruiken:
+* Met de volgende sneltoets in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
 * Door rechtstreeks naar de waarschuwingsBuilder te gaan:  **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** .
-* Door een of meer vrije regelitems voor tabellen te selecteren, klikt u met de rechtermuisknop en selecteert u deze **[!UICONTROL Create Alert from Selection]**. Hiermee wordt de waarschuwingsBuilder geopend en wordt de builder vooraf gevuld met de juiste maateenheden en filters die uit de tabel zijn toegepast. U kunt de waarschuwing vervolgens bewerken, indien nodig.
+* Door een of meer vrije lijstitems van de lijstlijst te selecteren, met de rechtermuisknop te klikken en te selecteren **[!UICONTROL Create Alert from Selection]**. Hiermee wordt de waarschuwingsBuilder geopend en wordt de builder vooraf gevuld met de juiste maateenheden en filters die uit de tabel zijn toegepast. U kunt de waarschuwing vervolgens bewerken, indien nodig.
 
    ![](assets/create-alert-from-selection.png)
 
@@ -65,7 +68,7 @@ De procentuele drempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Als ik alleen op een dip in gedrag of slechts een piek in gedrag wil worden geattendeerd, kan ik de anomalie gebruiken of moet ik absolute waarde gebruiken?</b> </p> </td> 
-   <td colname="col2"> <p>Het gebruiken van absolute waarde zou alarm op dips evenals pieken nog teweegbrengen. U kunt waarschuwingen niet isoleren voor alleen dips of pieken. </p> </td> 
+   <td colname="col2"> <p>Het gebruiken van absolute waarde zou alarm op dips evenals pieken nog teweegbrengen. U kunt waarschuwingen niet isoleren voor alleen dips of alleen pieken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Kan ik alarm vormen om slechts tijdens bepaalde uren van de dag (zoals kantooruren vs. niet-bedrijfsuren) teweeg te brengen? </b> </p> </td> 
@@ -73,7 +76,7 @@ De procentuele drempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Kan ik een tabel krijgen van de "verwachte waarden" die de stippellijn vormen, of een soort output van wat die waarden zijn? </b> </p> </td> 
-   <td colname="col2"> <p>Niet in Werkruimte, maar u kunt in de Bouwer van het Rapport (zie deze video over <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  > Anomaly Detection in de Bouwer van het Rapport </a>). </p> <p>Houd in mening dat de Bouwer van het Rapport minder geavanceerde anomalieopsporingsmethodes gebruikt. Het gebruikt een vaste trainingsperiode van 30 dagen, een vaste periode van 95% en is vergelijkbaar met het opsporen van anomalieën in <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  > rapporten en analyses <span class="uicontrol"></span> </a>. </p> </td> 
+   <td colname="col2"> <p>Niet in Workspace, maar wel in Report Builder (zie deze video over <a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  > Anomaly Detection in Report Builder </a>). </p> <p>Onthoud dat Report Builder minder geavanceerde afwijkingsdetectiemethoden gebruikt. Het gebruikt een vaste opleidingsperiode van 30 dagen, vaste 95% interval. </p> </td> 
   </tr> 
  </tbody> 
 </table>
