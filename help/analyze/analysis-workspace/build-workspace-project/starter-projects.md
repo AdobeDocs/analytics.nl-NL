@@ -3,9 +3,9 @@ description: 'null'
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1376'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Wanneer u een Workspace voor het eerst opent, zijn sjablonen beschikbaar in de l
 
 U kunt deze vooraf ingevulde sjablonen ongewijzigd gebruiken of deze aan uw behoeften aanpassen (door bijvoorbeeld metriek of visualisaties toe te voegen of te vervangen) en ze onder een andere naam op te slaan.
 
-[Standaardsjablonen in Analysis Workspace op YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
+Hier volgt een videozelfstudie over [standaardsjablonen in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Hier zijn beschikbare sjablonen en de vragen die elke sjabloon kan beantwoorden.
 
@@ -65,7 +65,7 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 
 * **Lesbestand training - Interne zoekanalyse**: Met de zelfstudie Intern zoeken kunt u begrijpen wat uw bezoekers zoeken op de website of de app, maar niet vinden. Door dit type gegevens te analyseren, kunt u optimalisatiemogelijkheden voor de oppervlakkigheid van inhoud bieden.
 
-* **Lesbestand training - Marketinganalyse**: Deze zelfstudie laat u zien hoe u een marketinganalyse kunt maken voor uw managers, inclusief welke aangepaste afmetingen en metriek belangrijk zijn.
+* **Lesbestand training - Marketinganalyse**: Deze zelfstudie laat u zien hoe u een marketinganalyse voor uw managers kunt samenstellen, inclusief welke aangepaste afmetingen en metriek belangrijk zijn.
 
 ### Reclame
 
@@ -73,13 +73,13 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 >
 >Advertentiesjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor Advertising Cloud.
 
-* **Motoren voor betaald zoeken**: In deze sjabloon worden onder andere de advertentietrends, advertentieplatoren, trefwoorden, accounts, campagnes en nog veel meer onderverdeeld.
+* **Motoren voor betaald zoeken**: In deze sjabloon worden onder andere de advertentietrends, advertentieplatoren, trefwoorden, accounts, campagnes en meer afgebroken.
 
 ### Commerce
 
-* **Magento: Marketing en handel**: Deze sjabloon verbreekt de omzetting van e-commerce door verwijzing naar marketingkanalen en biedt inzicht in trefwoorden, bestemmingspagina, geografische locatie en meer. Zie voor een video-overzicht:
+* **Magento: Marketing en handel**: Deze sjabloon verdeelt uw e-commerceconversie door kanaalattributie op de markt te brengen en biedt inzicht door zoekwoord, landingspagina, geografische locatie en meer. Zie voor een video-overzicht:
 
->[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### Media
 
