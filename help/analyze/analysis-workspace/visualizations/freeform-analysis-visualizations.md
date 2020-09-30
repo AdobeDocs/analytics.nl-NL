@@ -3,9 +3,9 @@ description: Meer informatie over visualisatie- en visualisatie-instellingen in 
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1046'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 De werkruimte biedt een aantal visualisaties die u visuele vertegenwoordiging van uw gegevens, zoals bar grafieken, donut grafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen, en anderen laten produceren. Elke visualisatie heeft eigen instellingen die u kunt beheren. Klik op de naam van de visualisatie voor meer informatie.
 
-YouTube-video: [Visualisatietypen in Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+Videozelfstudie: [Visualisatietypen in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
 
 | Visualisatienaam | Beschrijving |
 |---|---|
@@ -109,4 +109,4 @@ Als u bijvoorbeeld een legenda-label in een lijndiagram wilt bewerken,
 1. Voer de nieuwe labeltekst in.
 1. Druk op **[!UICONTROL Enter]** om op te slaan.
 
-Hier volgt een [koppeling naar een video](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) over dit onderwerp.
+Hier volgt een [koppeling naar een video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) over dit onderwerp.
