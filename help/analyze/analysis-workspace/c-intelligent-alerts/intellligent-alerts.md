@@ -3,9 +3,9 @@ description: Het nieuwe systeem voor intelligente waarschuwingen biedt meer gede
 title: Overzicht van intelligente waarschuwingen
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '356'
 ht-degree: 7%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 7%
 
 # Overzicht van intelligente waarschuwingen
 
-Intelligente waarschuwingen maken een gedetailleerdere controle mogelijk op waarschuwingen en integreren de detectie van anomalieën met het waarschuwingssysteem.
+Intelligente waarschuwingen zorgen voor meer korrelige controle over waarschuwingen en integreren anomaliedetectie met het waarschuwingssysteem.
 
-[Intelligente waarschuwingen op YouTube](https://www.youtube.com/watch?v=UVH9xr_2REA) (5:34)
+Hier volgt een videozelfstudie over [intelligente waarschuwingen](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Overzicht
 
-De nieuwe Alert Builder en Alert Manager in Analysis Workspace vervangen de bestaande waarschuwingsfunctionaliteit in Reports &amp; Analytics. Met intelligente waarschuwingen kunt u:
+De nieuwe Alert Builder en Alert Manager in Analysis Workspace vervangen de bestaande waarschuwingsfunctionaliteit in Rapporten &amp; Analytics. Met intelligente waarschuwingen kunt u:
 
 * Berichten opstellen op basis van anomalieën (90%, 95%, 99%, 99,75% en 99,9% drempelwaarden; % wijziging; boven/onder)
 * Een voorvertoning bekijken van het aantal keren dat een melding is geactiveerd
@@ -42,7 +42,7 @@ De percentagedrempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen en
 
 >[!IMPORTANT]
 >
->Het gebruik van tijdstempelgegevens voor het maken van waarschuwingen kan ervoor zorgen dat waarschuwingen onjuist worden afgespeeld. Adobe raadt u aan niet-tijdstempelgegevens te gebruiken voor Intelligente waarschuwingen.
+>Het gebruik van tijdstempelgegevens voor het maken van waarschuwingen kan ervoor zorgen dat waarschuwingen onjuist worden afgespeeld. Adobe raadt u aan niet-tijdstempelgegevens te gebruiken voor Intelligent Alerts.
 
 ## Anomalische zoekopdracht voor waarschuwingen
 
