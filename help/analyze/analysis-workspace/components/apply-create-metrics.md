@@ -3,9 +3,9 @@ description: Er zijn twee manieren om metriek in Analysis Workspace te gebruiken
 title: Metrics
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: 79032645028af6e782a89867057fc9a1726ca27c
+source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '241'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ To make it easier to quickly create calculated metrics, **[!UICONTROL Create met
 
 ![](assets/calc_metrics.png)
 
-[Metriek voor deelname gebruiken op YouTube](https://www.youtube.com/watch?v=ngmJHcg65o8&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=32) (4:16)
+[Berekende waarden: Metriek](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) zonder implementatie (3:42)
 
 ## Metriek vergelijken met verschillende attributiemodellen
 
