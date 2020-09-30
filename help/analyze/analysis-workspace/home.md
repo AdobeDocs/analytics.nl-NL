@@ -4,10 +4,10 @@ title: Overzicht van Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: a4e50c13ea8f567a38b0912ce7dc06d457c684a1
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 7%
+source-wordcount: '536'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt
 
 Als u slechts een paar minuten hebt, bekijkt u dit korte overzicht om te zien wat mogelijk is.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview.html)
 
 ## Aanmelden bij Adobe Analytics {#login}
 
@@ -64,5 +64,5 @@ In uw project van de Werkruimte, worden de **panelen, de lijsten, de visualisati
 
 ## Aanvullende bronnen {#resources}
 
-* Een volledige videolesleiding is [hier](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&amp;sort=dd&amp;shelf_id=7)beschikbaar op het Adobe Analytics YouTube-kanaal.
+* Adobe biedt honderden [videotrainingszelfstudies](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)voor Analytics.
 * See [What&#39;s New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about new features.
