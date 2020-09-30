@@ -1,18 +1,21 @@
 ---
 description: 'null'
-title: Paginering, filteren en sorteren van tabellen
+title: Pagineren, filteren en tabellen sorteren
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 42%
 
 ---
 
 
-# Paginering, filteren en sorteren van tabellen
+# Pagineren, filteren en tabellen sorteren
 
-Bekijk deze video op YouTube voor een overzicht:
+Bekijk de volgende videozelfstudie voor een overzicht:
 
-[Tabellen pagineren, filteren en sorteren in de analysewerkruimte](https://www.youtube.com/watch?v=2zxpRPCGspg)
+[Paginering-, filtreer- en sorteertabellen in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
 ## Geavanceerde filteropties {#section_36E92E31442B4EBCB052073590C1F025}
 
@@ -20,15 +23,15 @@ Klik op het filterpictogram en kies vervolgens Geavanceerd tonen naast een dimen
 
 * Bevat
 * Bevat niet
-* Bevat alle termen
-* Bevat een term
-* Bevat de woordgroep
-* Bevat geen term
-* Bevat niet de uitdrukking
-* Gelijk
-* Is niet gelijk aan
-* Begint met
-* Eindigt met
+* Contains all terms (Bevat alle termen)
+* Contains any term (Bevat een term)
+* Contains the phrase (Bevat de woordgroep)
+* Does not contain any term (Bevat geen enkele term)
+* Does not contain the phrase (Bevat niet de woordgroep)
+* Equals (Is gelijk aan)
+* Does not equal (Is niet gelijk aan)
+* Starts with (Begint met)
+* Ends with (Eindigt met)
 
 ![](assets/advanced-filter.png)
 
