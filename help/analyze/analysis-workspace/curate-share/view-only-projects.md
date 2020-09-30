@@ -1,19 +1,19 @@
 ---
 description: Alleen-weergeven projecten in Workspace
 keywords: View-only projects
-title: Alleen-weergeven werkruimteprojecten
+title: Alleen-weergeven -projecten
 translation-type: tm+mt
-source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Alleen-weergeven werkruimteprojecten
+# Alleen-weergeven -projecten
 
-U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door het [Project delen werkschema](/help/analyze/analysis-workspace/curate-share/share-projects.md)delen. Ontvangers die in de rol van de Mening van het Kan worden geplaatst zullen een beperktere projectervaring ontvangen. Dit kan wenselijk zijn als u een project aan gebruikers deelt die minder vertrouwd met de de gegevensstructuur van uw organisatie, de Werkruimte van de Analyse of de Analyse van Adobe in het algemeen zijn, maar u wilt hen nog gegevens en inzichten in een veilige milieu verbruiken.
+U kunt projecten als &quot;mening-slechts&quot;aan ontvangers door het [Project delen werkschema](/help/analyze/analysis-workspace/curate-share/share-projects.md)delen. Ontvangers die in de rol van de Mening van het Kan worden geplaatst zullen een beperktere projectervaring ontvangen. Dit kan gewenst zijn als u een project deelt aan gebruikers die minder vertrouwd zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Adobe Analytics in het algemeen, maar u toch wilt dat zij gegevens en inzichten in een veilige omgeving gebruiken.
 
 ![](assets/view-only-project.png)
 
@@ -36,7 +36,7 @@ Uitgeschakelde interacties in een alleen-weergaveproject zijn onder meer:
 Enkele opmerkelijkere toegelaten interactie in een mening-slechts project omvatten:
 
 | Gebied | Ingeschakelde interacties |
-|---|---|
+| --- | --- |
 | Vrije-vormtabellen | <ul><li>Paginering en sorteren</li><li>Hovering</li><li>Celselecties waarmee gekoppelde visualisaties worden bijgewerkt</li><li>Klik met de rechtermuisknop > Visualisatiekoppeling ophalen</li><li>Klik met de rechtermuisknop > Kopiëren naar klembord</li></ul> |
 | Visualisaties | <ul><li>Klikken om de legenda in of uit te schakelen</li><li>Hovering</li><li>Klik met de rechtermuisknop > Visualisatiekoppeling ophalen</li><li>Samenvouwen/uitvouwen</li><li>Stroom - Stroomknooppunten uitvouwen</li><li>Toewijzen - zoomen</li></ul> |
 | Deelvensters | <ul><li>Interactieve dropdown-filters</li><li>Klik met de rechtermuisknop > Deelvensterkoppeling ophalen</li><li>Samenvouwen/uitvouwen</li></ul> |
