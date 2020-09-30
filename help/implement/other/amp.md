@@ -2,7 +2,7 @@
 title: Implementeren met AMP
 description: Adobe Analytics implementeren op AMP-pagina's.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 684e67203b2e3d5f0cb82cdbdda1f24d37a677f0
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 [AMP](https://amp.dev) is een open-source HTML-framework dat een eenvoudige manier biedt om snel en probleemloos webpagina&#39;s te maken.
 
-Aangezien Adobe Analytics een JavaScript-bibliotheek gebruikt om een aanvraag voor een afbeelding te compileren en te verzenden, is het nodig dat de implementatie wordt aangepast om gegevens naar Adobe te verzenden op pagina&#39;s die AMP gebruiken.
+Aangezien Adobe Analytics een JavaScript-bibliotheek gebruikt om een aanvraag voor een afbeelding te compileren en te verzenden, moet u de implementatie aanpassen om gegevens op pagina&#39;s met AMP naar Adobe te verzenden.
 
-## Bepalen welke methode u gebruikt om Adobe Analytics op pagina&#39;s te implementeren met AMP
+## Bepalen welke methode Adobe Analytics op pagina&#39;s moet worden geïmplementeerd met AMP
 
 Adobe heeft twee methoden gemaakt om Adobe Analytics op pagina&#39;s te implementeren met AMP. Beide gebruiken de `<amp-analytics>` HTML-tag. Zie [amp-analytics markering](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) op het ampproject GitHub voor meer informatie.
 
-* **Gebruik de`"adobeanalytics"`volgende sjabloon**: De Analytics-aanvraag rechtstreeks op de pagina samenstellen
+* **Gebruik de`"adobeanalytics"`volgende sjabloon**: Construeer het verzoek Analytics rechtstreeks op de pagina
 * **Gebruik de`"analytics_nativeConfig"`volgende sjabloon**: Gebruik een iframe met dezelfde toepassingsmetingscode die u op uw normale site implementeert
 
 In de volgende tabel worden deze twee methoden vergeleken:
@@ -35,7 +35,7 @@ In de volgende tabel worden deze twee methoden vergeleken:
 | Uitvoeringsmoeilijkheden | Enigszins moeilijk | Relatief eenvoudig |
 | Adobe Experience Cloud-integratie | Niet ondersteund | Gedeeltelijke ondersteuning |
 
-Weeg de voor- en nadelen binnen uw organisatie om te bepalen welke methode u wilt gebruiken. Zie [AMP-voorbeelden](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) in de GitHub-opslagplaats van Adobe voor voorbeeldcode.
+Weeg de voor- en nadelen binnen uw organisatie om te bepalen welke methode u wilt gebruiken. Zie [AMP voorbeelden](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) op Adobe AMGITHub bewaarplaats voor steekproefcode.
 
 >[!WARNING]
 >
@@ -62,7 +62,7 @@ In het volgende codevoorbeeld worden twee triggers gedefinieerd: `pageLoad` en `
       "triggers": {
         "pageLoad": {
           "on": "visible",
-          "request": "pageView"
+          "request": "pageview"
         },
         "click": {
           "on": "click",
@@ -86,7 +86,7 @@ Daarnaast `amp-analytics` wordt een aantal variabelevervangingen ondersteund, zo
 >
 >Afbeeldingsverzoeken die met deze methode naar Adobe worden verzonden, bevatten geen gegevens voor veel standaardrapporten (bijvoorbeeld browser, schermgrootte of referentie). Als u deze informatie in klappen wilt omvatten, zorg ervoor zij als deel van het koord van de de vraagvraag van het beeldverzoek worden omvat. Zie de parameters [van de de inzamelingsvraag van](../validate/query-parameters.md) Gegevens voor meer informatie.
 
-Adobe identificeert bezoekers die een ingebouwde functie van AMP gebruiken, en plaatst het koekje `adobe_amp_id`. Deze bezoeker-id is uniek voor elke andere id die door Adobe Analytics is ingesteld (bijvoorbeeld het `s_vi` cookie). De Adobe Experience Cloud ID Service wordt niet ondersteund met deze implementatiemethode.
+Adobe identificeert bezoekers die een ingebouwde functie van AMP gebruiken, en plaatst het koekje `adobe_amp_id`. Deze bezoeker-id is uniek voor elke andere id die door Adobe Analytics is ingesteld (bijvoorbeeld het `s_vi` cookie). De Adobe Experience Cloud ID-service wordt niet ondersteund met deze implementatiemethode.
 
 >[!NOTE]
 >
@@ -160,7 +160,7 @@ De `"adobeanalytics_nativeConfig"` sjabloon voegt ook parameters van queryreekse
 >
 >De pagina moet worden gehost op een ander subdomein dan het domein waarop de geaccepteerde marktpraktijk wordt gehost. `stats.html` Het AMP-framework staat geen iFrames toe van hetzelfde subdomein waarop de AMP-pagina zelf bestaat. Als uw AMP bijvoorbeeld wordt gehost op `amp.example.com`, host u uw `stats.html` pagina op een apart subdomein, zoals `ampmetrics.example.com`.
 
-Als een gebruiker deze methode gebruikt en op uw primaire site niet meer wil bijhouden, wordt het bijhouden van de gegevens ook niet meer uitgevoerd op al uw AMP&#39;s. Als u deze hulpprogrammapagina gebruikt, kan AMP ook ondersteuning bieden voor de Adobe Experience Cloud ID Service. Een afzonderlijke rapportsuite is niet vereist.
+Als een gebruiker deze methode gebruikt en op uw primaire site niet meer wil bijhouden, wordt het bijhouden van de gegevens ook niet meer uitgevoerd op al uw AMP&#39;s. Het gebruik van deze hulpprogrammapagina betekent ook dat AMP de Adobe Experience Cloud ID Service kan ondersteunen. Een afzonderlijke rapportsuite is niet vereist.
 
 Koppelingen bijhouden en video bijhouden kunnen niet worden gebruikt met deze methode. De tag `iframeMessage` in AMP kan slechts één keer per pagina worden geladen. U kunt dus geen andere afbeeldingsaanvragen verzenden nadat het frame is geladen. Voor deze methode zijn ook meer verwerkingsbronnen nodig die de schuifprestaties kunnen beïnvloeden. Deze methode heeft geen invloed op de laadtijd van de pagina, aangezien alle bronnen asynchroon worden geladen.
 
