@@ -5,9 +5,9 @@ title: Workflow van de Builder voor classificatieregels
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '552'
 ht-degree: 2%
 
 ---
@@ -52,4 +52,4 @@ Hier volgen de stappen op hoog niveau die u onderneemt om classificatieregels to
 
 **Blog**: Zie het blog Digital Marketing voor meer informatie over deze functie: [Op regels gebaseerde classificaties](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: Bezoek [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) om de [!UICONTROL Classifications Overview] video te bekijken.
+**Video**: Bekijk de video [Overzicht](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) van classificaties.
