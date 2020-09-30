@@ -1,17 +1,17 @@
 ---
 description: Met Curatie kunt u componenten beperken voordat u een project deelt.
 keywords: Analysis Workspace curation
-title: Werkruimteprojecten curven
+title: Cursieve projecten
 translation-type: tm+mt
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Werkruimteprojecten curven
+# Cursieve projecten
 
 Met Curatie kunt u de componenten (afmetingen, metriek, segmenten, datumbereiken) beperken voordat u een project deelt. Wanneer een ontvanger het project opent, zullen zij een beperkte reeks componenten zien die u voor hen hebt gebogen. Curation is een optionele maar aanbevolen stap voordat een project wordt gedeeld.
 
