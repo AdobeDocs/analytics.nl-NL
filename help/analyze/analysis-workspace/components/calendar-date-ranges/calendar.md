@@ -3,9 +3,9 @@ description: In de kalender kunt u datums en datumbereiken opgeven of een voorin
 title: Overzicht van kalender- en datumbereiken
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '364'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ Met de eerste klik op een kalender wordt een datumbereikselectie gestart. Met de
 
 U kunt ook datums (en tijdafmetingen) naar een Workspace-project slepen. U kunt specifieke dagen, weken, maanden, jaren of een roldatum selecteren.
 
-[Datumbereik en -kalender gebruiken in Analysis Workspace op YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28) (4:07)
+[Datumbereik en -kalender gebruiken in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Instelling | Beschrijving |
 |--- |--- |
