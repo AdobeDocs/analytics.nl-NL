@@ -4,9 +4,9 @@ title: Segmenten beheren
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '500'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ De manager van het Segment van Analytics toont u alle segmenten u bezit en die m
 
 ## Hoe kan ik-video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-Deze [Adobe Analytics YouTube-video](https://www.youtube.com/watch?v=CdfOq98PTrg&amp;index=6&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) geeft een kort overzicht van het gebruik van Segment Manager.
+Deze [Adobe Analytics-video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) geeft een kort overzicht van het gebruik van Segmentbeheer.
 
 ## Gebruikersinterface Segmentbeheer {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
