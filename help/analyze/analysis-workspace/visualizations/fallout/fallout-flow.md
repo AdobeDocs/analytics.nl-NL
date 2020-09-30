@@ -3,7 +3,10 @@ description: 'null'
 title: Overzicht van uitval
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +18,7 @@ Vallout-visualisaties bieden meer opties voor het samenstellen van uw uitvalrapp
 Met uitvalvisualisaties kunt u
 
 * Voer zij aan zij vergelijkingen van twee verschillende segmenten in het zelfde rapport uit.
-* Taalstappen slepen, neerzetten en opnieuw rangschikken (aanraakpunten)
+* Trechterstappen (aanraakpunten) slepen, neerzetten en opnieuw rangschikken
 * Waarden van verschillende afmetingen en maateenheden mixen en afstemmen
 * Een multidimensionaal uitvalrapport maken
 * Identificeer waar de klanten onmiddellijk na het vallen gaan
@@ -30,11 +33,11 @@ Een uitvalvisualisatie is handig voor het analyseren van:
 * Algemene verkeersstromen met een groter bereik: Van de mensen die de homepage zagen, toont deze stroom hoeveel er doorgingen om een onderzoek uit te voeren, en toen hoeveel van hen uiteindelijk naar een specifiek punt gingen kijken.
 * Correlaties tussen gebeurtenissen op uw site. Correlaties laten zien welk percentage van de mensen die naar je privacybeleid keken, een product heeft gekocht.
 
-[Volledige visualisatie op YouTube](https://www.youtube.com/watch?v=VcrfHSyIoj8&amp;index=52&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
+[Videozelfstudie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) voor het uitvalvisualiseren (4:15)
 
 ## Segmentatie als basis voor flow en fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-De segmenten die op de panelen van de Werkruimte worden toegepast werken lichtjes verschillend dan segmenten die op reserve en stroomrapporten in Rapporten &amp; Analytics of Ad hoc Analyse worden toegepast. Meestal leveren ze precies dezelfde resultaten op. Het belangrijkste verschil is dat Rapporten &amp; Analytics en Ad hoc Analyse het segment bij elke stap van de opeenvolging toepassen. Dit kan tot iets verschillende resultaten leiden.
+Segmenten die zijn toegepast op deelvensters Werkruimte, werken iets anders dan segmenten die zijn toegepast op rapportage over fallout en stroom in rapporten en analyse of Ad Hoc Analysis. Meestal leveren ze precies dezelfde resultaten op. Het belangrijkste verschil is dat Rapporten &amp; Analytics en Ad Hoc Analysis het segment bij elke stap van de opeenvolging toepassen. Dit kan tot iets verschillende resultaten leiden.
 
 Laten we een voorbeeld nemen van fallout met twee stappen:
 
@@ -44,15 +47,15 @@ Als u dan een segment op het het paneelniveau van de Werkruimte toepast, combine
 
 ![](assets/fallout_seg.png)
 
-Als het segment daarentegen wordt berekend met behulp van Rapporten en Analyses en ad hoc analyse, wordt het segment op deze manier gecombineerd:
+Als daarentegen het segment wordt berekend door Rapporten &amp; Analytics en Ad Hoc Analysis, wordt het segment op deze manier gecombineerd:
 
 ![](assets/fallout_segments3.png)
 
-In rapporten en analyses en ad hoc-analyse wordt het segment gecombineerd met elke stap. Wanneer de containers zich op hetzelfde niveau bevinden als de uitval (bv. bezoek of bezoekersniveau), zal dit ertoe leiden dat het aantal bezoeken of bezoekers gelijk wordt gesteld.
+Rapporten &amp; Analytics en Ad Hoc Analysis combineren het segment met elke stap. Wanneer de containers zich op hetzelfde niveau bevinden als de uitval (bv. bezoek of bezoekersniveau), zal dit ertoe leiden dat het aantal bezoeken of bezoekers gelijk wordt gesteld.
 
-Als het segment dat op het paneel wordt toegepast kleiner is dan het valniveau (bijvoorbeeld raakniveau), geeft het segment echter verschillende resultaten vanwege de manier waarop het wordt gecombineerd met het rapport. Om te herhalen, in de meeste omstandigheden komen de aantallen in de Werkruimte van de Analyse overeen die in Rapporten &amp; Analytics en Ad hoc Analyse. Ze komen alleen **niet** overeen als alle onderstaande gevallen waar zijn:
+Als het segment dat op het paneel wordt toegepast kleiner is dan het valniveau (bijvoorbeeld raakniveau), geeft het segment echter verschillende resultaten vanwege de manier waarop het wordt gecombineerd met het rapport. Om te herhalen, komen de aantallen in Analysis Workspace in de meeste gevallen overeen met die in Reports &amp; Analytics en Ad Hoc Analysis. Ze komen alleen **niet** overeen als alle onderstaande gevallen waar zijn:
 
 * Het segment bevindt zich niet op hetzelfde niveau als de uitval.
 * Het segment heeft een variabele waarbij de bezoeker/bezoeker meerdere waarden kan hebben tijdens een bezoek/bezoeker.
 
-In het zeldzame geval waar u de Werkruimte van de Analyse moet hebben de Rapporten &amp; van de Analyse manier aanpassen om segmenten toe te passen aan val/stroom, eenvoudig laat vallen het segment in elke reservestap in Werkruimte en het zal in de zelfde aantallen resulteren.
+In het zeldzame geval waarin u Analysis Workspace de Rapporten &amp; van de Analyse manier moet hebben om segmenten toe te passen aan fallout/stroom, eenvoudig laat vallen het segment in elke falloutstap in Werkruimte en het zal in de zelfde aantallen resulteren.
