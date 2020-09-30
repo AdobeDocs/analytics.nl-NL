@@ -2,10 +2,10 @@
 description: Deze sectie bevat de belangrijkste concepten voor de Adobe Analytics, een korte beschrijving van het concept, en een specifieke documentatiekoppeling met extra informatie over het onderwerp.
 title: Adobe Analytics - Belangrijkste concepten
 translation-type: tm+mt
-source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -113,5 +113,5 @@ Klik [hier](/help/technotes/terms.md) voor een uitgebreide woordenlijst met term
 | DTM en Adobe Launch | Zie Tools voor Analytics. |  |
 | VISTA | Hiermee kunt u serverlogica toepassen om data te wijzigen of te segmenteren terwijl deze worden verzameld. | [VISTA-regels](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | Verwerkingsregels | Mogelijkheid om variabelen in te stellen, te wijzigen en te kopiëren in de Analytics-UI om te wijzigen welke data worden verzameld. | [Verwerkingsregels](/help/admin/admin/c-processing-rules/processing-rules.md) |
-| Foutopsporingsopties | Er zijn verschillende foutopsporingstools en ‘packet sniffers’ beschikbaar om uw implementatie te helpen valideren, waaronder de Adobe Experience Cloud-foutopsporing. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=nl) |
+| Foutopsporingsopties | Er zijn verscheidene debuggers en pakketsniffers beschikbaar helpen uw implementatie, met inbegrip van debugger van Adobe Experience Cloud bevestigen. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=nl) |
 | API voor data-invoer | De API voor het invoegen van data biedt een mechanisme voor dataverzameling op de server en verzending naar Experience Cloud-servers. In plaats van JavaScript-beacons op elke webpagina te gebruiken voor het verzenden van bezoekersdata naar Experience Cloud-servers worden met serverdataverzameling alleen data verzameld op basis van webbrowserverzoeken en webserverreacties. | [Stappen voor de implementatie de API voor het invoegen van Adobe Analytics-data met POST](https://helpx.adobe.com/nl/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
