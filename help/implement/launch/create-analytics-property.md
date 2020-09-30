@@ -2,9 +2,9 @@
 title: Een eigenschap Analytics maken in Launch
 description: Met Adobe Experience Platform Launch maakt u een spatie om aan te passen hoe gegevens worden verzameld.
 translation-type: tm+mt
-source-git-commit: dd506bf171c480c880863c03eee55be8fd9e15cb
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '515'
 ht-degree: 3%
 
 ---
@@ -83,7 +83,7 @@ Regels wijzen gegevenselementen aan de veranderlijke waarden van de Analyse in k
 
 * [Adobe Analytics-extensiedocumentatie](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Volledige documentatie specifiek voor de Adobe Analytics-extensie in Adobe Experience Platform Launch.
 * [Aan de slag met starten](https://docs.adobelaunch.com/getting-started): Volledige documentatie voor Starten, met inbegrip van een meer diepgaande gids aan de slag
-* [Adobe Experience Platform Launch YouTube-kanaal](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd): Leer hoe u Starten via video&#39;s kunt gebruiken
+* [Adobe Experience Platform Launch-kanaal](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): Leer hoe u Starten via video&#39;s kunt gebruiken
 
 ## Volgende stappen
 
