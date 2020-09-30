@@ -3,9 +3,9 @@ description: 'null'
 title: Overzicht van stroom
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ Hiermee kunt u:
 
 >[!NOTE]
 >
->Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen Analysis Workspace en Rapporten &amp; Analytics/Ad hoc analysis zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen Analysis Workspace en Rapporten &amp; Analytics/Ad Hoc Analysis zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Stroomvisualisatie op YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
+[Videozelfstudie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)voor stroomvisualisatie (4:56)
 
 ## Inter-Dimensional Flows {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
