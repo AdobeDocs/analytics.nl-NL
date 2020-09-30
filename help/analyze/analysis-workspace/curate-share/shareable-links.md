@@ -3,9 +3,9 @@ description: Leer hoe u deelbare koppelingen naar projecten of visualisaties maa
 keywords: Analysis Workspace sharing
 title: Deelbare koppelingen maken
 translation-type: tm+mt
-source-git-commit: e529ea26b02c1fdb4d1dd3587ab9065a70a97baa
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '282'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoa
 * Klik met de rechtermuisknop in een willekeurige koptekst in het deelvenster **[!UICONTROL Get panel link]**
 * Van om het even welke lijst of visualisatiekopbal, klik met de rechtermuisknop aan **[!UICONTROL Get visualization link]**
 
-[Bekijk de video](https://www.youtube.com/watch?v=lvmAdKNfWQw) over het maken van koppelingen en gebruik deze om ontvangers naar specifieke onderdelen van uw project te sturen.
+[Bekijk de video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) over het maken van koppelingen en gebruik deze om ontvangers naar specifieke onderdelen van uw project te sturen.
 
 ![](assets/get-viz-link.png)
 
@@ -36,6 +36,6 @@ U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoa
 
 Één uiteinde voor het leveraging van de diverse verbindingsopties moet altijd een inhoudstafel bij de bovenkant van uw project van de Werkruimte omvatten. In de inhoudsopgave kunt u een koppeling maken naar andere relevante projecten, specifieke panels en specifieke visualisaties. Hierdoor kan de ontvanger van het project gemakkelijker navigeren.
 
-[Bekijk de video](https://www.youtube.com/watch?v=Xo6fTguWm-M) over het maken van een inhoudsopgave met behulp van koppelingen en de tekstredacteur met veel opmaak in Workspace.
+[Bekijk de video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) over hoe u een inhoudsopgave kunt maken met behulp van koppelingen en de tekstredacteur met veel opmaak in Workspace.
 
 ![](assets/toc.png)
