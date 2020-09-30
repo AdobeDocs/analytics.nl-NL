@@ -4,9 +4,9 @@ title: Informatie over segmenten en containers
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '3685'
+source-wordcount: '3673'
 ht-degree: 0%
 
 ---
@@ -60,11 +60,7 @@ Een opeenvolgend segment filtert gegevensreeksen die op gebruikersacties gebruik
 
 ## Hoe kan ik-video {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-Op deze YouTube-video ziet u een kort overzicht van de containers voor segmenten en hoe u deze kunt gebruiken.
-
-| Videonaam | Videokoppeling |
-|---|---|
-| Segmentcontainers | [Containers voor segmenten in Adobe Analytics](https://www.youtube.com/watch?v=A513j-ej0oc&amp;index=2&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) |
+In deze video ziet u een kort overzicht van de containers voor segmenten en hoe u deze kunt gebruiken: [Containers voor segmenten in Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## Over containers {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
@@ -188,7 +184,7 @@ Als deze voorwaarde zich binnen een container van het Actief bevindt, dan maakt 
 
 ![](assets/container_overview_PV.png)
 
-De rapportering van de container van het Actief, kunt u zien hoe het melden van verschillende containers algemene het melden waarden beïnvloedt. Wanneer u het segmentrapport bekijkt, ziet u dat de paginaweergaven ongeveer gelijk zijn aan bezoeken (ongeveer 2000 bezoekers zagen tijdens een bezoek dubbele pagina&#39;s die het totale aantal paginaweergaven optellen) en dat unieke bezoekers ongeveer gelijk zijn aan het aantal bezoeken (ongeveer 2000 unieke bezoekers hebben meer dan één keer bezocht).
+De rapportering van de container van het Actief, kunt u zien hoe het melden van verschillende containers algemene rapporteringswaarden beïnvloedt. Wanneer u het segmentrapport bekijkt, ziet u dat de paginaweergaven ongeveer gelijk zijn aan bezoeken (ongeveer 2000 bezoekers zagen tijdens een bezoek dubbele pagina&#39;s die het totale aantal paginaweergaven optellen) en dat unieke bezoekers ongeveer gelijk zijn aan het aantal bezoeken (ongeveer 2000 unieke bezoekers hebben meer dan één keer bezocht).
 
 ![](assets/container_report_PV.png)
 
@@ -216,7 +212,7 @@ Als u segmenten uit de container Visitor weergeeft, ziet u dat de weergave Pagin
 
 ![](assets/container_report_Visitor.png)
 
-Samengevat, is het begrip van hoe de segmentatie op diverse gegevensuitsplitsingen werkt zeer belangrijk om de gegevens te interpreteren het terugkeert.
+Samenvattend, is het begrip van hoe de segmentatie op diverse gegevensuitsplitsingen werkt zeer belangrijk om de gegevens te interpreteren het terugkeert.
 
 ## Rapportage op basis van de container {#section_D0604748F2794327B8C668617A31EC18}
 
