@@ -2,10 +2,10 @@
 title: Technische documentatiehandleidingen voor Adobe Analytics
 description: Analytics-gebruikershandleidingen en -bronnen
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Welkom bij de startpagina van het product en de technische documentatie van Adob
 
 | Nieuwe en aanbevolen items | Belangrijke Analytics-bronnen |
 | --- | --- |
-| <ul><li>[Regionale dataverzameling](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace-prestaties optimaliseren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics-productvergelijking](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Welke Adobe Analytics-tool moet ik gebruiken?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Zie ook: [Documentatie-updates van 2019](doc-updates.md) | <ul><li> [Releaseopmerkingen](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics YouTube-kanaal](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics-tutorials en -video&#39;s](https://helpx.adobe.com/nl/analytics/kt/index/analytics-videos.html)</li><li>[Forum Analytics-community](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Persoonlijke training en virtuele lessen](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact opnemen met de klantenservice](https://helpx.adobe.com/nl/support/analytics.html)</li></ul> |
+| <ul><li>[Regionale dataverzameling](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace-prestaties optimaliseren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics-productvergelijking](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Welke Adobe Analytics-tool moet ik gebruiken?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Zie ook: [Documentatie-updates van 2019](doc-updates.md) | <ul><li> [Releaseopmerkingen](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics-videozelfstudies](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)</li><li>[Forum Analytics-community](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Persoonlijke training en virtuele lessen](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact opnemen met de klantenservice](https://helpx.adobe.com/nl/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
