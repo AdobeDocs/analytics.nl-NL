@@ -3,9 +3,9 @@ description: 'null'
 title: Analysis Workspace-prestaties optimaliseren
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Het gegevensbereik dat in een project wordt aangevraagd, is van invloed op de An
 
 **Aanbevolen procedures voor datumbereiken**
 
-Trek waar mogelijk niet meer gegevens in dan u nodig hebt. Versmal de paneelkalender aan de relevante data voor uw analyse, of gebruik datumwaaiercomponenten (paarse componenten) in uw vrije vormlijsten. Datumbereiken die in een tabel worden gebruikt, overschrijven het datumbereik van het deelvenster. U kunt bijvoorbeeld vorige maand, vorige week en gisteren toevoegen aan de tabelkolommen om die specifieke gegevensbereiken aan te vragen. Bekijk [deze video](https://www.youtube.com/watch?v=MIkT6FZ5gKk) voor meer informatie over het werken met datumbereiken in Analysis Workspace.
+Trek waar mogelijk niet meer gegevens in dan u nodig hebt. Versmal de paneelkalender aan de relevante data voor uw analyse, of gebruik datumwaaiercomponenten (paarse componenten) in uw vrije vormlijsten. Datumbereiken die in een tabel worden gebruikt, overschrijven het datumbereik van het deelvenster. U kunt bijvoorbeeld vorige maand, vorige week en gisteren toevoegen aan de tabelkolommen om die specifieke gegevensbereiken aan te vragen. Bekijk [deze video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html) voor meer informatie over het werken met datumbereiken in Analysis Workspace.
 
 Minimaliseer het aantal jaar-over-jaar vergelijkingen die in het project worden gebruikt. Wanneer een jaar-over-jaar vergelijking wordt berekend, kijkt het over de volledige 13 maanden van gegevens tussen de maanden van rente. Dit heeft hetzelfde effect als het wijzigen van het datumbereik van het deelvenster in een datumbereik van 13 maanden.
 
@@ -79,7 +79,7 @@ Eén deelvenster kan veel visualisaties bevatten. Het aantal deelvensters kan da
 
 Probeer niet alles aan één project toe te voegen, maar creeer afzonderlijke projecten die een specifiek doel of een groep belanghebbenden dienen. Gebruik labels om projecten in hoofdthema&#39;s te ordenen en verwante projecten met groepen belanghebbenden te delen.
 
-Als u meer projecten wilt organiseren, moet u niet vergeten dat [directe koppeling](https://www.youtube.com/watch?v=6IOEewflG2U) naar uw project een optie is. Een interne index van projecten maken, zodat belanghebbenden gemakkelijker kunnen vinden wat ze nodig hebben.
+Als u meer projecten wilt organiseren, moet u niet vergeten dat [directe koppeling](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html) naar uw project een optie is. Een interne index van projecten maken, zodat belanghebbenden gemakkelijker kunnen vinden wat ze nodig hebben.
 
 Als er veel deelvensters nodig zijn in één project, vouwt u deelvensters samen voordat u het bestand opslaat en deelt. Wanneer een project wordt geladen, laadt Analysis Workspace alleen inhoud voor de uitgebreide deelvensters. Samengevouwen deelvensters worden pas geladen wanneer de gebruiker deze uitbreidt. Deze aanpak helpt op twee manieren:
 
