@@ -1,17 +1,17 @@
 ---
 description: Een Analysis Workspace-project verzenden via e-mail of het plannen voor levering.
 keywords: Analysis Workspace
-title: Geplande projecten
+title: Projecten plannen
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Geplande projecten
+# Projecten plannen
 
 Vanuit het menu **** Werkruimte delen kunt u Analysis Workspace-projecten via e-mail naar geselecteerde ontvangers verzenden. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
 
