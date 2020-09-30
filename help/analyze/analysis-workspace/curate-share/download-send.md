@@ -3,10 +3,10 @@ description: U kunt gegevens downloaden van Analysis Workspace door deze te kopi
 title: PDF- of CSV-bestanden downloaden
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '959'
+ht-degree: 1%
 
 ---
 
@@ -88,5 +88,5 @@ Als u meer dan één download tegelijk aanvraagt, ontvangt u een melding dat elk
 | --- | --- |
 | Waarom is mijn gedownloade PDF één pagina? | De gedownloade PDF&#39;s worden momenteel niet door de werkruimte gepagineerd. |
 | Kan ik meer dan 50.000 items exporteren met de optie Items downloaden als CSV? | Terwijl elke download tot 50.000 afmetingspunten kan bevatten, kunt u het soort van uw lijst veranderen om langere eindpunten terug te winnen, of een filter toepassen om specifiekere punten te downloaden. |
-| Wat doet **[!UICONTROL Copy visualization]** u? | **[!UICONTROL Copy visualization]** is geen exportoptie. Hiermee kunt u een visualisatie of een deelvenster van de ene plaats in Workspace naar de andere kopiëren. Bijvoorbeeld, van één paneel aan een andere in het zelfde project, of van één project aan een ander project. [De video bekijken](https://www.youtube.com/watch?v=lvmAdKNfWQw) |
+| Wat doet **[!UICONTROL Copy visualization]** u? | **[!UICONTROL Copy visualization]** is geen exportoptie. Hiermee kunt u een visualisatie of een deelvenster van de ene plaats in Workspace naar de andere kopiëren. Bijvoorbeeld, van één paneel aan een andere in het zelfde project, of van één project aan een ander project. [Intra-linking video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
