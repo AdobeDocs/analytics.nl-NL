@@ -5,10 +5,10 @@ user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -92,13 +92,13 @@ ht-degree: 93%
          + [Gebruiksgevallen van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Statistische tests bij segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Projecten selecteren of delen {#curate-share}
-      + [Werkruimteprojecten curven](analysis-workspace/curate-share/curate.md)
-      + [Werkruimteprojecten delen](analysis-workspace/curate-share/share-projects.md)
+      + [Menu Delen](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
+      + [Projecten delen](analysis-workspace/curate-share/share-projects.md)
       + [Deelbare koppelingen maken](analysis-workspace/curate-share/shareable-links.md)
-      + [Workspace-projecten voor alleen-weergeven](analysis-workspace/curate-share/view-only-projects.md)
+      + [Alleen-weergeven -projecten](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
-      + [Projectbestanden delen en plannen](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Bestand verzenden - levering van een project plannen](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Projecten plannen](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [Overzicht van attributie](analysis-workspace/attribution/overview.md)
       + [Attributiemodellen en terugzoekvensters](analysis-workspace/attribution/models.md)
