@@ -2,9 +2,9 @@
 description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 00c8e309a597a733e25c8a43dbffbad517f9a2da
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '779'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,8 @@ Het standaardbeginvenster is het [!UICONTROL Freeform] deelvenster, maar u kunt 
 ## Panel report-suite {#report-suite}
 
 Tabellen en visualisaties in een deelvenster leiden gegevens af van de [!UICONTROL report suite] geselecteerde tekst in de rechterbovenhoek van het deelvenster. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project, kunt u één of [vele rapportreeksen](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) afhankelijk van uw gevallen van het analysegebruik gebruiken.
+
+De lijst van rapportreeksen wordt gesorteerd op relevantie, die Adobe bepaalt gebaseerd op hoe onlangs en vaak de reeks door de huidige gebruiker is gebruikt, en hoe vaak de reeks binnen de organisatie wordt gebruikt.
 
 ![](assets/panel-report-suite.png)
 
@@ -72,10 +74,11 @@ U kunt vervolgkeuzefilters gebruiken om een groot aantal projecten ook in één 
 
 **Vervolgkeuzefilters maken en gebruiken:**
 
-![](assets/create-dropdown.png)
-
 1. Als u een vervolgkeuzefilter wilt maken met [!UICONTROL Dimension items]bijvoorbeeld waarden binnen de [!UICONTROL Marketing Channel] dimensie, klikt u op het pictogram met de pijl naar rechts naast de afmeting in de linkertrack. Hiermee worden alle beschikbare items zichtbaar. Selecteer een of meerdere onderdelen in de linkertrack en zet ze neer in de dropzone van het deelvenster **terwijl u Shift ingedrukt houdt**. Hierdoor worden de componenten omgezet in een vervolgkeuzefilter in plaats van in één segment.
 1. Als u een vervolgkeuzefilter wilt maken met andere componenten, zoals metriek, segmenten of datumbereiken, selecteert u een van de componenttypen in de linkertrack en zet u de vervolgkeuzelijst neer in de dropzone van het deelvenster **terwijl u Shift ingedrukt houdt**.
 1. Selecteer een van de opties in het vervolgkeuzemenu om de gegevens in het deelvenster te wijzigen. U kunt er ook voor kiezen om geen van de deelvenstergegevens te filteren door te selecteren **[!UICONTROL No filter]**.
 
+![](assets/create-dropdown.png)
+
 [Bekijk de video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) voor meer informatie over het toevoegen van vervolgkeuzefilters aan uw project.
+
