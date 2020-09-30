@@ -1,18 +1,20 @@
 ---
-description: Beheer de geplande projecten van de Werkruimte van de Analyse.
+description: Geplande Analysis Workspace-projecten beheren
 keywords: Analysis Workspace
-title: Geplande projectmanager
-topic: Reports and analytics
+title: Beheer geplande projecten
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Geplande projectmanager
+# Beheer geplande projecten
 
-Beheer de geplande projecten van de Werkruimte van de Analyse.
+Geplande Analysis Workspace-projecten beheren.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Projects]**.
 
