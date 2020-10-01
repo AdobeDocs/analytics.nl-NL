@@ -3,9 +3,9 @@ description: Gebruik de lijnvisualisatie om trended (op tijd gebaseerde) gegeven
 title: Lijn
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: c607489f14057be10a5582b8e6d9e07d7f075b6f
+source-git-commit: ac3a859a7ee54eb772b7cd947f3cdaad861b1078
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 
 >[!TIP]
 >
->Wij adviseren dat de trendlines op gegevens worden toegepast die vandaag (gedeeltelijke gegevens) of toekomstige data niet omvatten, aangezien die de trendline zullen scheeftrekken. Als u echter datums in de toekomst wilt opnemen, verwijdert u nullen uit de gegevens om te voorkomen dat de gegevens gedurende die dagen worden schuingetrokken. Om dit te doen, ga naar de gegevensbronlijst van de visualisatie en kies uw metrische kolom. Ga vervolgens naar [!UICONTROL Column Settings] en controleer **[!UICONTROL Interpret zero as no value]**.)
+>Aanbevolen wordt trendlines toe te passen op gegevens die vandaag (gedeeltelijke gegevens) of toekomstige data niet omvatten, aangezien die de trendline zullen scheeftrekken. Als u echter datums in de toekomst wilt opnemen, verwijdert u nullen uit de gegevens om te voorkomen dat de gegevens gedurende die dagen worden schuingetrokken. Om dit te doen, ga naar de gegevensbronlijst van de visualisatie, kies uw metrische kolom, dan laat **[!UICONTROL Column Settings]** > **[!UICONTROL Interpret zero as no value]** toe.
 
 ![Lineaire trendlijn](assets/show-linear-trendline.png)
 
@@ -54,4 +54,4 @@ Alle trendlines van het regressiemodel zijn geschikt gebruikend gewone minste vi
 | Exponential | Hiermee maakt u een gekromde lijn. Deze lijn is handig wanneer de gegevenssnelheid voortdurend toeneemt of daalt. Deze optie mag niet worden gebruikt als de gegevens nul of negatieve waarden bevatten. Vergelijking: `y = a + e^(b * x)` |
 | Voeding | Maakt een gekromde lijn en is handig voor gegevenssets die metingen vergelijken die met een specifieke snelheid toenemen. Deze optie mag niet worden gebruikt als de gegevens nul of negatieve waarden bevatten. Vergelijking: `y = a * x^b` |
 | Quadratisch | Vindt het best-past voor een gegevensreeks die als parabool wordt gevormd (naar boven of naar onder bedekken). Vergelijking: `y = a + b * x + c * x^2` |
-| Gemiddeld verplaatsen | Hiermee maakt u een vloeiende trendline op basis van een set gemiddelden. Voorbeelden zijn het voortschrijdende gemiddelde over 7 dagen of het voortschrijdende gemiddelde over 4 weken. Wordt ook wel een voortschrijdend gemiddelde genoemd. Een voortschrijdend gemiddelde berekent het gemiddelde voor een eerdere reeks, gebruikt dat als het trendlijngegevenspunt, en gaat dan naar de volgende te herhalen periode. De invoer &#39;Periodes&#39; definieert het bereik dat wordt berekend als gemiddelde voor een bepaalde periode. |
+| Gemiddeld verplaatsen | Hiermee maakt u een vloeiende trendline op basis van een set gemiddelden. Ook gekend als voortschrijdend gemiddelde, gebruikt een voortschrijdend gemiddelde een specifiek aantal gegevenspunten (die door uw &quot;Selectie van Punten&quot;worden bepaald), het gemiddelde van hen, en gebruikt het gemiddelde als punt in de lijn. Voorbeelden zijn het voortschrijdende gemiddelde over 7 dagen of het voortschrijdende gemiddelde over 4 weken. |
