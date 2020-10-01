@@ -3,9 +3,9 @@ description: Gebruik de lijnvisualisatie om trended (op tijd gebaseerde) gegeven
 title: Lijn
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
+source-git-commit: c607489f14057be10a5582b8e6d9e07d7f075b6f
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 
 ## Trendline-bedekking tonen
 
-Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, kunt u verkiezen om een regressietrendline aan uw lijnreeks toe te voegen. Met behulp van trendlines wordt een duidelijker patroon in de gegevens weergegeven.
+Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, kunt u verkiezen om een regressie of het bewegen gemiddelde trendline aan uw lijnreeks toe te voegen. Met behulp van trendlines wordt een duidelijker patroon in de gegevens weergegeven.
 
 >[!TIP]
 >
@@ -45,7 +45,7 @@ Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 
 ![Lineaire trendlijn](assets/show-linear-trendline.png)
 
-Alle modellen zijn geschikt met behulp van de kleinste vierkantjes:
+Alle trendlines van het regressiemodel zijn geschikt gebruikend gewone minste vierkanten:
 
 | Model | Beschrijving |
 | --- | --- |
@@ -54,3 +54,4 @@ Alle modellen zijn geschikt met behulp van de kleinste vierkantjes:
 | Exponential | Hiermee maakt u een gekromde lijn. Deze lijn is handig wanneer de gegevenssnelheid voortdurend toeneemt of daalt. Deze optie mag niet worden gebruikt als de gegevens nul of negatieve waarden bevatten. Vergelijking: `y = a + e^(b * x)` |
 | Voeding | Maakt een gekromde lijn en is handig voor gegevenssets die metingen vergelijken die met een specifieke snelheid toenemen. Deze optie mag niet worden gebruikt als de gegevens nul of negatieve waarden bevatten. Vergelijking: `y = a * x^b` |
 | Quadratisch | Vindt het best-past voor een gegevensreeks die als parabool wordt gevormd (naar boven of naar onder bedekken). Vergelijking: `y = a + b * x + c * x^2` |
+| Gemiddeld verplaatsen | Hiermee maakt u een vloeiende trendline op basis van een set gemiddelden. Voorbeelden zijn het voortschrijdende gemiddelde over 7 dagen of het voortschrijdende gemiddelde over 4 weken. Wordt ook wel een voortschrijdend gemiddelde genoemd. Een voortschrijdend gemiddelde berekent het gemiddelde voor een eerdere reeks, gebruikt dat als het trendlijngegevenspunt, en gaat dan naar de volgende te herhalen periode. De invoer &#39;Periodes&#39; definieert het bereik dat wordt berekend als gemiddelde voor een bepaalde periode. |
