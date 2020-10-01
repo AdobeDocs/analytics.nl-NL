@@ -2,7 +2,7 @@
 title: IPs en domeinen die door Adobe Analytics worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die van Adobe afkomstig zijn, gebruik deze lijst om uw firewallmontages bij te werken.
 translation-type: tm+mt
-source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
+source-git-commit: 436d0c2706f47a79cc70e4dcdbda6bd2c9a4d98c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Adobe Analytics gebruikt de volgende hosts om de prestaties en de productervarin
 
 | Technologie | Domein |
 | --- | --- |
-| Adobe Analytics-domein | `adobe.com` |
+| Adobe Analytics-domeinen | `adobe.com`, `adobe.net`, `adobe.io` |
 | Adobe Analytics verouderd domein | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
