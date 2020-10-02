@@ -5,9 +5,9 @@ title: Overzicht van verwerkingsregels
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -24,20 +24,11 @@ De verwerkingsregels vereenvoudigen gegevensverzameling en beheren inhoud aangez
 * Onjuist gespelde sitesecties opruimen
 * Interne zoektermen of een campagne-id uit de queryreeks in een eVar aftrekken
 
->[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
+>[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-*Bekijk het overzicht van de Regels van de Verwerking en opleiding van de Top van Adobe om te leren waarom u verwerkingsregels zou moeten gebruiken.*
+## Machtigingen voor verwerkingsregels {#section_8A4846688050453784DAE4D89355169A}
 
-## Ervoor worden geautoriseerd om verwerkingsregels te gebruiken {#section_8A4846688050453784DAE4D89355169A}
-
-Vóór 20 april 2017 moesten alle gebruikers (inclusief beheerders) een examen afleggen en toestemming krijgen om verwerkingsregels te gebruiken door de klantenservice van Adobe.
-
-Nu, hebben de beheerders rechten om verwerkingsregels **door gebrek** te gebruiken. Het examen is niet meer noodzakelijk. Beheerders kunnen deze rechten ook aan niet-beheerders toekennen via de interface Admin Tools. Hieronder wordt beschreven hoe:
-
-1. Als u dit nog niet hebt gedaan, [creeert u een groep](/help/admin/user-management2/c-user-groups/groups.md) die slechts die niet-beheerders omvat die toestemming zouden moeten hebben om verwerkingsregels te gebruiken.
-1. [Voeg de niet-beheerders toe aan die groep](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Ga vervolgens naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** > **[!UICONTROL Report Suite Management]**.
-1. Schakel het selectievakje naast [!UICONTROL Processing Rules] en klik op **[!UICONTROL OK]**.
+Beheerders hebben **standaard** het recht om verwerkingsregels te gebruiken. Beheerders kunnen deze rechten ook aan niet-beheerders toekennen via de interface Admin Tools. Zie voor instructies []
 
 ![](assets/processing-rules.png)
 
