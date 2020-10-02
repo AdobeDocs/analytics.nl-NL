@@ -1,26 +1,29 @@
 ---
 description: Maak een project en voeg componenten (afmetingen, metriek, segmenten, datumbereiken) toe aan het deelvenster Vrije vorm.
 keywords: Analysis Workspace
-title: Een werkruimteproject maken
+title: Een Workspace-project maken
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 14%
 
 ---
 
 
-# Een werkruimteproject maken
+# Een Workspace-project maken
 
 Maak een project en voeg componenten (afmetingen, metriek, segmenten, datumbereiken) toe aan het deelvenster Vrije vorm.
 
-Dit artikel vertrouwt u met de de interfaceelementen van de Werkruimte van de Analyse en toont hoe te om een project tot stand te brengen. Voor specifieke gebruiksgevallen, zie de Gevallen van het [Gebruik voor de Werkruimte](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md)van de Analyse.
+Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en toont hoe te om een project tot stand te brengen.
 
 ## Een project maken
 
 1. Specificeer gebruikerstoestemming om projecten tot stand te brengen en te leiden.
 
-   Alvorens tot stand te brengen of een project van de Werkruimte van de Analyse te leiden, moeten de beheerders u aan een groep toevoegen met de toegelaten **[!UICONTROL Create / Curate Projects in Analysis Workspace]** toestemming, of aan de **[!UICONTROL All Report Access]** gebruikersgroep. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groepen](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)).
+   Voordat u een Analysis Workspace-project kunt maken of beheren, moeten beheerders u toevoegen aan een groep waarvoor de **[!UICONTROL Create / Curate Projects in Analysis Workspace]** machtiging is ingeschakeld, of aan de **[!UICONTROL All Report Access]** gebruikersgroep. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groups](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html)).
 
 1. Klik in het [!DNL Experience Cloud]deelvenster op **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
@@ -35,7 +38,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van de Werkruimte van de An
    U kunt kiezen of u een project wilt maken van
 
 * Een leeg project (standaard). Zie hieronder voor instructies.
-* Een standaardsjabloon. Deze sjablonen zijn gemaakt door Adobe en worden uit het vak verzonden. Zie [Sjablonen voor instructies](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* Een standaardsjabloon. Deze sjablonen worden gemaakt door Adobe en uit de doos te verzenden. Zie [Sjablonen voor instructies](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 * Een aangepaste sjabloon. Deze sjablonen worden gemaakt door gebruikers met beheerdersrechten. Zie [Sjablonen voor instructies](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
    ![](assets/start_modal.png)
@@ -44,6 +47,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van de Werkruimte van de An
 
    * Klik vervolgens **[!UICONTROL Create]** of
    * Klik gewoon **[!UICONTROL Enter]**.
+
    Een leeg projectvertoningen, die een freeform paneel en een visualisatie van de gegevenslijst tonen.
 
    ![](assets/fa_project_new.png)
@@ -61,8 +65,8 @@ Dit artikel vertrouwt u met de de interfaceelementen van de Werkruimte van de An
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > Componenten</a> </td> 
-   <td colname="col2"> <p>De afmetingen, de metriek, de segmenten, en de datumwaaiers die u in projecten kunt slepen. </p> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > Onderdelen</a> </td> 
+   <td colname="col2"> <p>Dimension, metriek, segmenten en datumbereiken die u in projecten kunt slepen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualisaties</a> </td> 
@@ -70,7 +74,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van de Werkruimte van de An
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > Deelvenster Vrije vorm </a> </td> 
-   <td colname="col2"> <p>Het canvas of de werkruimte waarmee u in de Werkruimte van de Analyse wisselt. </p> </td> 
+   <td colname="col2"> <p>Het canvas of de werkruimte waarmee u in Analysis Workspace werkt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,9 +83,9 @@ Dit artikel vertrouwt u met de de interfaceelementen van de Werkruimte van de An
 
    ![](assets/save_project.png)
 
-1. U kunt nu met de rechtermuisknop klikken en een visualisatie of een deelvenster kopiëren en vervolgens dat gekopieerde element in een andere plaats in het project of in een ander project plakken.
+1. Door met de rechtermuisknop te klikken kunt u nu een visualisatie of een deelvenster kopiëren en het gekopieerde element vervolgens op een andere plaats in hetzelfde project of in een ander project plakken.
 
-   U kunt deze mogelijkheid gebruiken om &quot;bouwstenen&quot; (vooraf gedefinieerde visualisaties/deelvensters) te maken die naar andere projecten kunnen worden gekopieerd om sneller aan de slag te gaan, met gegevens die specifiek zijn voor uw bedrijf.
+   Zo kunt u &quot;bouwstenen&quot; (vooraf gedefinieerde visualisaties/deelvensters) maken die naar andere projecten kunnen worden gekopieerd om sneller aan de slag te gaan, met data die specifiek zijn voor uw bedrijf.
 
    >[!NOTE]
    >
@@ -91,7 +95,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van de Werkruimte van de An
 
 1. Bouw uw project door *`components`* en aan het project *`visualizations`* te slepen.
 
-   **Componenten**
+   **Onderdelen**
 
    Op de werkbalk Component worden doorzoekbare afmetingen, maateenheden, segmenten en datumbereiken weergegeven die u het meest gebruikt.
 
@@ -104,8 +108,8 @@ Dit artikel vertrouwt u met de de interfaceelementen van de Werkruimte van de An
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Afmetingen (oranje) </td> 
-   <td colname="col2"> <p>Toepassen op projectniveau </p> <p><img  src="assets/dimensions.png" id="image_353BAF1A7AC04C7DB5F5CDFDE7614402" align="left" placement="break" width="300px" /> </p> <p>Prop#, eVar#, en gebeurtenis# worden toegevoegd aan de afmetingsnamen, en u kunt op die aantallen zoeken. Voorbeeld: "Interne campagne" wordt in het linkerspoor weergegeven als "Interne campagne (evar2)". </p> <p> De pro-, eVar- en gebeurtenisnummers worden niet in de tabel weergegeven (om de titels kort te houden). </p> <p>Er is een standaardsorteervolgorde voor bepaalde afmetingen die buiten het vak vallen, wanneer ze naar een vrije-vormtabel worden gesleept of wanneer ze in de linkerrails worden weergegeven. Wanneer 'Uur van Dag' bijvoorbeeld in een tafel wordt neergezet of in de linkerspoorstaaf wordt weergegeven, wordt deze gesorteerd van 12.00 tot 11.00 uur. U hebt nog steeds de optie om op elke metrische kolom te sorteren. </p> </td> 
+   <td colname="col1"> Dimension (oranje) </td> 
+   <td colname="col2"> <p>Toepassen op projectniveau </p> <p><img  src="assets/dimensions.png" id="image_353BAF1A7AC04C7DB5F5CDFDE7614402" align="left" placement="break" width="300px" /> </p> <p>Prop#, eVar#, en gebeurtenis# worden toegevoegd aan de afmetingsnamen, en u kunt op die aantallen zoeken. Voorbeeld: "Interne campagne" wordt in het linkerspoor weergegeven als "Interne campagne (evar2)". </p> <p> De eigenschap, eVar en gebeurtenisnummers worden niet in de tabel weergegeven (om de titels kort te houden). </p> <p>Er is een standaardsorteervolgorde voor bepaalde afmetingen die buiten het vak vallen, wanneer ze naar een vrije-vormtabel worden gesleept of wanneer ze in de linkerrails worden weergegeven. Wanneer 'Uur van Dag' bijvoorbeeld in een tafel wordt neergezet of in de linkerspoorstaaf wordt weergegeven, wordt deze gesorteerd van 12.00 tot 11.00 uur. U kunt de tabel nog steeds sorteren op een kolom met metrics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Statistieken (groen) </td> 
@@ -113,7 +117,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van de Werkruimte van de An
   </tr> 
   <tr> 
    <td colname="col1"> Segmenten (blauw) </td> 
-   <td colname="col2"> <p>Sleepbaar slechts op paneelniveau, maar u kunt gealigneerde segmenten in de gegevenslijst tot stand brengen. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Zie <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Gevallen voor de Werkruimte</a> van de Analyse van het Gebruik voor meer informatie. </p> </td> 
+   <td colname="col2"> <p>Sleepbaar slechts op paneelniveau, maar u kunt gealigneerde segmenten in de gegevenslijst tot stand brengen. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segments </a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Datumbereiken en korreligheid (paars) </td> 
@@ -126,7 +130,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van de Werkruimte van de An
 
 Het [!UICONTROL Visualizations] deelvenster bevat standaardgrafieken van Analytics, grafieken, donuts, gegevenstabellen, [cohortabellen](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) , Venn-diagrammen enzovoort. U kunt meerdere visualisaties naar uw project slepen en neerzetten.
 
-![Stap resultaat](assets/visualizations.png)
+![Stap Resultaat](assets/visualizations.png)
 
 ![](assets/fa_full_panel.png)
 
@@ -136,7 +140,7 @@ Het [!UICONTROL Visualizations] deelvenster bevat standaardgrafieken van Analyti
 
 Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de cel in een tabel waarop u met de rechtermuisknop klikt.
 
-![Stap resultaat](assets/fa_data_table_actions.png)
+![Stap Resultaat](assets/fa_data_table_actions.png)
 
 <table id="table_0F84CC5B604D4D41BD0C9668DF525929"> 
  <thead> 
@@ -169,8 +173,8 @@ Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de ce
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > Uitsplitsing</a> 
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
-     <li id="li_6CA84ED293EA4940A7495DA9D9121264">Afmetingen </li> 
-     <li id="li_EA16EE017B2E4A6998918706938A21BF">Metrisch </li> 
+     <li id="li_6CA84ED293EA4940A7495DA9D9121264">Dimensies </li> 
+     <li id="li_EA16EE017B2E4A6998918706938A21BF">Metrics </li> 
      <li id="li_0405D339CD01405DB508A7D8D1A976B4">Segmenten </li> 
      <li id="li_819CE81C552F49BB9C1B83ED3B42C5F7">Tijd </li> 
     </ul> </td> 
@@ -207,4 +211,4 @@ Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de ce
  </tbody> 
 </table>
 
-Zie Interacties met [toetsenborden en muis beschikbaar in de analysewerkruimte](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor informatie over het kopiëren en selecteren van rijen.
+Zie Interacties met [toetsenborden en muis in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor informatie over het kopiëren en selecteren van rijen.
