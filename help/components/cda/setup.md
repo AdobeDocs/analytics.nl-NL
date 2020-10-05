@@ -2,7 +2,7 @@
 title: Apparaatanalyse instellen
 description: Configureer een virtuele rapportsuite om CDA in te schakelen.
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Beheerders die toegang hebben tot het maken van virtuele rapportsuites, kunnen a
 Houd rekening met de volgende wijzigingen wanneer Apparaatanalyse is ingeschakeld voor een virtuele rapportsuite:
 
 * Er verschijnt een nieuw apparaatpictogram naast de naam van de virtuele rapportsuite. Dit pictogram is exclusief voor virtuele rapportsuites op meerdere apparaten.
-* Er is een nieuwe dimensie beschikbaar met de naam &#39;Identified State&#39;. Deze dimensie bepaalt of de Experience Cloud-id op die hit bekend is door de apparaatgrafiek op dat moment.
-* Er zijn nieuwe meetgegevens beschikbaar met de labels &#39;Mensen&#39; en &#39;Unieke apparaten&#39;.
-* De metrische &#39;Unieke bezoekers&#39; zijn niet beschikbaar, omdat deze worden vervangen door &#39;Mensen&#39; en &#39;Unieke apparaten&#39;.
+* Er is een nieuwe dimensie beschikbaar met het label [Identified state](../dimensions/identified-state.md) . Deze dimensie bepaalt of de Experience Cloud-id op die hit bekend is door de apparaatgrafiek op dat moment.
+* Er zijn nieuwe metriek beschikbaar met het label [Personen](../metrics/people.md) en [Unieke apparaten](../metrics/unique-devices.md) .
+* De metrische [Unieke Bezoekers](../metrics/unique-visitors.md) zijn niet beschikbaar, omdat deze worden vervangen door &#39;Mensen&#39; en &#39;Unieke Apparaten&#39;.
 * Bij het maken van segmenten wordt de segmentcontainer &#39;Visitor&#39; vervangen door een container &#39;Person&#39;.
