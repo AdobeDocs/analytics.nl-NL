@@ -1,10 +1,10 @@
 ---
 title: Unieke bezoekers
-description: Het aantal unieke personen (of apparaten).
+description: Het aantal unieke bezoeker-id's.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 2%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 De metrische waarde &#39;Unieke bezoekers&#39; geeft het aantal bezoekers-id&#39;s voor het dimensie-item aan. Het is één van de gemeenschappelijkste metriek die bij het bepalen van verkeer wordt gebruikt, aangezien het een overzicht op hoog niveau van de populariteit van een afmetingspunt geeft. Een bezoeker kan bijvoorbeeld elke dag een maand naar uw site komen, maar hij telt nog steeds als één unieke bezoeker.
 
-Als u [Apparaatanalyse](../cda/overview.md)gebruikt, wordt deze metrische waarde hernoemd naar &#39;Unieke apparaten&#39;.
+Als u [Cross-device analyses](../cda/overview.md)gebruikt, wordt deze metrische waarde vervangen door de metrische waarde van de [Unieke apparaten](unique-devices.md) .
 
 ## Dagelijkse, wekelijkse, maandelijkse, driemaandelijkse en jaarlijkse unieke bezoekers
 
-Rapporten &amp; Analytics biedt opties voor unieke bezoekers per dag, week, maand, kwartaal en jaar. In plaats van één unieke bezoeker te tellen voor de volledige tijdsperiode, tellen de unieke bezoekers gebaseerd op geselecteerde metrisch. U wilt bijvoorbeeld naar dagelijkse unieke bezoekers voor uw site kijken. Als een bezoeker &#39;s ochtends en &#39;s avonds weer naar uw site komt, telt hij als één enkele unieke dagelijkse bezoeker. Als een bezoeker maandag en dinsdag weer naar uw site komt, telt hij als twee unieke bezoekers per dag.
+Rapporten en analyses bieden opties voor unieke bezoekers per dag, week, maand, kwartaal en jaar. In plaats van één unieke bezoeker te tellen voor de volledige tijdsperiode, tellen de unieke bezoekers gebaseerd op geselecteerde metrisch. U wilt bijvoorbeeld naar dagelijkse unieke bezoekers voor uw site kijken. Als een bezoeker &#39;s ochtends en &#39;s avonds weer naar uw site komt, telt hij als één enkele unieke dagelijkse bezoeker. Als een bezoeker maandag en dinsdag weer naar uw site komt, telt hij als twee unieke bezoekers per dag.
 
 Analysis Workspace behandelt unieke bezoekers op basis van de granulariteit van het rapport. Als u bijvoorbeeld de dimensie [Dag](../dimensions/day.md) gebruikt, ziet u dagelijks unieke bezoekers voor elk dimensie-item. Nochtans, voor het rapporttotaal, wordt het gededupliceerde unieke bezoekers voor de de datumwaaier van de vrije lijst van de vorm.
 
@@ -36,7 +36,7 @@ Deze metrische waarde telt het aantal unieke bezoeker-id&#39;s voor een bepaald 
 
 >[!NOTE]
 >
->Elke Analytics-bezoeker-id is gekoppeld aan een profiel op de servers van Adobe. Deze bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
+>Elke Analyse-bezoeker die aan een profiel op Adobe-id is gekoppeld, is gekoppeld. Deze bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
 
 ## Gedrag dat van invloed is op het aantal unieke bezoekers
 
