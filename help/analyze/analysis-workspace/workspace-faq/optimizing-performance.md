@@ -1,108 +1,86 @@
 ---
-description: 'null'
-title: Analysis Workspace-prestaties optimaliseren
+description: Factoren die invloed hebben op de prestaties van de werkruimte en aanbevolen optimalisaties
+title: Analysis Workspace-prestatiefactoren en -optimalisatie
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 8ac408613d9aae1745cc6b876ef2a4c252f0665d
+source-git-commit: 3606d5e15e6c18812df3475f2bc87a8fda5f440e
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
 
 
-# Analysis Workspace-prestaties optimaliseren
+# Analysis Workspace-prestatiefactoren en -optimalisatie
 
-Bepaalde factoren kunnen van invloed zijn op de prestaties van een project in Analysis Workspace. Het is belangrijk om te weten wat die contribuanten zijn alvorens u begint een project te bouwen zodat u het project op de meest optimale manier kunt plannen en bouwen. Hieronder vindt u een lijst met factoren die van invloed zijn op de prestaties en aanbevolen procedures voor het optimaliseren van uw projecten. De prestaties van Analysis Workspace zijn een van de topprioriteiten van de Adobe en we blijven elke dag verbeteren.
+Verschillende factoren kunnen de prestaties van een project in Analysis Workspace beïnvloeden. Het is belangrijk om te weten wat die contribuanten zijn alvorens u begint een project te bouwen zodat u het project op de meest optimale manier kunt plannen en bouwen. Deze pagina bevat een lijst met factoren die van invloed zijn op de prestaties en aanbevolen optimalisaties die u kunt maken om de prestaties in Analysis Workspace optimaal te laten presteren.
 
-## Complexiteit van segmentlogica
+>[!IMPORTANT OPMERKING]
+>
+>De pagina Prestaties in Analysis Workspace is in beperkte versie. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/analytics/landing/an-releases.html)
 
-De ingewikkelde segmenten kunnen een significante invloed op projectprestaties hebben. De factoren die ingewikkeldheid aan een segment (in dalende orde van effect) toevoegen omvatten:
+## Help > Prestaties in Analysis Workspace
 
-* Operatoren van &quot;contains,&quot;, &quot;contains any of&quot;, &quot;match,&quot; &quot;start with&quot; of &quot;ends with&quot;
-* Opeenvolgende segmentatie, vooral wanneer dimensiebeperkingen (Within/After) worden gebruikt
-* Het aantal unieke dimensie-items binnen de dimensies die in het segment worden gebruikt (pagina = &#39;A&#39; als pagina 10 unieke items bevat, is sneller dan Pagina = &#39;A&#39; als pagina 100000 unieke items bevat)
-* Aantal verschillende gebruikte afmetingen (bijvoorbeeld Pagina = &#39;Home&#39; en Pagina = &#39;Zoekresultaten&#39; zijn sneller dan eVar 1 = &#39;red&#39; en eVar 2 = &#39;blue&#39;)
-* Veel OR-operatoren (in plaats van AND)
-* Geneste containers met een verschillend bereik (bv. &quot;Actief&quot; in &quot;Bezoek&quot; in &quot;Bezoeker&quot;)
+Onder **[!UICONTROL Analysis Workspace > Help > Performance]**, kunt u factoren zien die de prestaties van uw project, met inbegrip van netwerk, browser, en projectfactoren beïnvloeden. Voor de nauwkeurigste resultaten, sta het project toe om volledig te laden alvorens de pagina van Prestaties te openen. Bovendien kunt u de prestatie-inhoud als CSV **** downloaden en eenvoudig delen met de klantenservice van Adobe of uw interne IT-teams.
 
-**Aanbevolen procedures voor logische complexiteit**
+>[!NOTE]
+>
+>De informatie op de pagina Prestaties varieert telkens wanneer het modaal wordt geopend, aangezien de factoren aan verandering onderworpen zijn. Bovendien, zal Adobe de geadviseerde drempels blijven verfijnen aangezien meer gegevens beschikbaar komen.
 
-Hoewel sommige van de complexiteitsfactoren niet kunnen worden voorkomen, denk over mogelijkheden om de ingewikkeldheid van uw segmenten te verminderen. Over het algemeen geldt dat hoe specifieker u kunt zijn bij de criteria van uw segment, des te beter. Bijvoorbeeld:
+## Netwerkfactoren
 
-* Bij containers is het gebruik van één container boven aan het segment sneller dan een reeks geneste containers.
-* Met operatoren is &#39;equals&#39; sneller dan &#39;contains&#39; en is &#39;equals any of&#39; sneller dan &#39;contains any of&#39;.
-* Met vele criteria, EN zullen de exploitanten sneller zijn dan een reeks van OF exploitanten. Ook, zoek kansen om vele OF verklaringen in één enkele &quot;evenaart om het even welk van&quot;verklaring te verminderen.
+**[!UICONTROL Help > Performance]** netwerkfactoren omvatten :
 
-Bovendien kunnen [classificaties](/help/components/classifications/c-classifications.md) helpen vele waarden in beknopte groepen consolideren waarvan u dan segmenten kunt creëren. De segmentatie op classificatiegroepen verstrekt prestatiesvoordelen over segmenten die vele OF verklaringen bevatten of &quot;bevat&quot;criteria.
+| Factor | Definitie | Beïnvloed door | Optimalisatie |
+|---|---|---|---|
+| Verbinding met Adobe | Adobe verzendt in 10 testvraag wanneer de prestatiespagina wordt geopend. Dit vertegenwoordigt het percentage van die vraag aan Adobe die slaagt. | De lokale netwerkkwesties of de kwesties van de Adobe zullen deze factor beïnvloeden. | Controleer status.adobe.com of er bekende problemen zijn met de service. Vervolgens valideert u uw lokale netwerkverbinding. |
+| Internetbandbreedte | De schatting door uw browser van de bandbreedte op uw locatie, alleen getest op Google Chrome. De aanbevolen drempel is 2,0 MB/s. | Deze factor wordt beïnvloed door uw lokale netwerkverbinding. | Valideer uw lokale netwerkverbinding. |
+| Internetvertraging | Adobe verzendt in 10 testvraag wanneer de prestatiespagina wordt geopend. Dit vertegenwoordigt de hoeveelheid tijd het gemiddelde voor elke verzoek om naar Adobe te gaan en is teruggekeerd. Eenvoudiger gezegd, het is een maat voor hoe snel het internet is tussen uw locatie en Adobe. De aanbevolen drempelwaarde is &lt; 1 seconde. | De lokale netwerkkwesties, vele open browser lusjes, of de kwesties van de Adobe zullen deze factor beïnvloeden. | Controleer status.adobe.com of er bekende problemen zijn met de service. Vervolgens valideert u uw lokale netwerkverbinding en sluit u ongebruikte browsertabbladen. |
 
-## Bereik van gevraagde gegevens
+## Browserfactoren
 
-Het gegevensbereik dat in een project wordt aangevraagd, is van invloed op de Analysis Workspace-prestaties.
+**[!UICONTROL Help > Performance]** browserfactoren zijn onder andere:
 
-**Aanbevolen procedures voor datumbereiken**
+| Factor | Definitie | Beïnvloed door | Optimalisatie |
+|---|---|---|---|
+| Rekensnelheid | Hoe snel uw computer een verwerkingstest uitvoert. De aanbevolen drempelwaarde is &lt; 750 ms. | Deze factor is van invloed op uw hardware en gelijktijdige programma&#39;s. | Open Taakbeheer van uw computer (PC) of Activiteitenmonitor (Mac) om te bepalen of programma&#39;s kunnen worden gesloten. Sluit vervolgens ongebruikte browsertabbladen of andere programma&#39;s. <br><br>Als die acties niet helpen, bespreek hardwaredetails met uw team van IT. |
+| Gebruikt geheugen | Op elk tabblad Werkruimte in een Google Chrome-browser wordt in totaal 4 GB geheugen gedeeld (Firefox heeft een hogere drempel). Dit vertegenwoordigt het percentage van dat geheugentoelage dat door het huidige project wordt verbruikt. De aanbevolen drempel is 3500 MB limiet. Dit is het punt waarop Workspace geheugenfouten begint op te vangen. | Als u op meerdere tabbladen werkt of 50000 rijen gegevens downloadt, wordt er meer geheugen gebruikt. | Als er een geheugenfout optreedt, wordt u aangeraden andere werkruimtetabels te sluiten en/of 50000 rijdownloads één voor één uit te voeren. |
+| Lokale opslag gebruikt | Gegevens die lokaal op de computer zijn opgeslagen voor gebruik in de browser. Elke oorsprong (bijvoorbeeld experience.adobe.com) heeft een recht van 10 MB. | Analysis Workspace gebruikt lokale opslag voor verschillende functies, waaronder voor het opslaan van automatisch opgeslagen (bestaande) projecten, gebruikersinstellingen en functiemarkeringen. | Om ervoor te zorgen dat de Analysis Workspace-functies niet worden verstoord, moet u de lokale opslag voor het domein Experience.adobe.com wissen. |
+| Rendersnelheid | FPS staat voor frames per seconde. Dit is het aantal keren per seconde dat de browser de pagina op het scherm tekent. 24 FPS is algemeen wat het menselijke oog kan waarnemen; als FPS lager is dan dat, zult u teruggevende kwesties in Werkruimte waarnemen. | FPS wordt beïnvloed door multitasking over vele projecten van de Werkruimte in één keer en grootte van het project dat wordt bekeken. Andere programma&#39;s die op uw computer worden uitgevoerd, kunnen van invloed zijn, zoals streaming, achtergrondscanners, enzovoort. Bovendien heeft uw hardware invloed op deze factor. | Open Taakbeheer van uw computer (PC) of Activiteitenmonitor (Mac) om te bepalen of programma&#39;s kunnen worden gesloten. Sluit vervolgens ongebruikte browsertabbladen of andere programma&#39;s. <br><br>Als die acties niet helpen, bespreek hardwaredetails met uw team van IT. |
 
-Trek waar mogelijk niet meer gegevens in dan u nodig hebt. Versmal de paneelkalender aan de relevante data voor uw analyse, of gebruik datumwaaiercomponenten (paarse componenten) in uw vrije vormlijsten. Datumbereiken die in een tabel worden gebruikt, overschrijven het datumbereik van het deelvenster. U kunt bijvoorbeeld vorige maand, vorige week en gisteren toevoegen aan de tabelkolommen om die specifieke gegevensbereiken aan te vragen. Bekijk [deze video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)voor meer informatie over het werken met datumbereiken in Analysis Workspace.
+## Projectfactoren
 
-Minimaliseer het aantal jaar-over-jaar vergelijkingen die in het project worden gebruikt. Wanneer een jaar-over-jaar vergelijking wordt berekend, kijkt het over de volledige 13 maanden van gegevens tussen de maanden van rente. Dit heeft hetzelfde effect als het wijzigen van het datumbereik van het deelvenster in een datumbereik van 13 maanden.
+**[!UICONTROL Help > Performance]** de projectfactoren omvatten :
 
-## Aantal visualisaties
+| Factor | Definitie | Optimalisatie |
+|---|---|---|
+| Aantal vragen | Het totale aantal vragen (verzoeken) die aan Adobe worden gemaakt om gegevens terug te winnen die in het project worden getoond. De vragen omvatten gerangschikte verzoeken om lijsten, anomalieopsporing, sparklines, componenten die in de linkerspoorstaaf worden getoond, en meer. Hiermee sluit u samengevouwen deelvensters en visualisaties uit. De aanbevolen drempelwaarde is 100. | Vereenvoudig waar mogelijk uw project door gegevens op te splitsen in verschillende projecten die een specifiek doel of een groep belanghebbenden dienen. Gebruik labels om projecten in thema&#39;s te ordenen en gebruik [directe koppelingen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) om een interne inhoudsopgave te maken, zodat belanghebbenden gemakkelijker kunnen vinden wat ze nodig hebben. |
+| Uitgebreide deelvensters (van totaal aantal deelvensters) | Het aantal uitgevouwen deelvensters in verhouding tot het totale aantal deelvensters in het project. De aanbevolen drempelwaarde is 5. | Nadat u stappen hebt ondernomen om uw project te vereenvoudigen, vouwt u deelvensters in uw project samen die u tijdens het laden niet hoeft te bekijken. Als het project wordt geopend, worden alleen uitgebreide deelvensters verwerkt. Samengevouwen deelvensters worden pas verwerkt wanneer de gebruiker deze uitbreidt. |
+| Uitgebreide visualisaties (van totale visualisaties) | Het aantal uitgevouwen tabellen en visualisaties van het totaal in het project. Verborgen gegevensbronnen uitsluiten. De aanbevolen drempelwaarde is 15. | Nadat u stappen hebt ondernomen om uw project te vereenvoudigen, vouwt u visualisaties in uw project samen die niet tijdens het laden hoeven te worden bekeken. Prioriteit geven aan de visuals die het belangrijkst zijn voor de consument van het rapport en ondersteunende beelden zo nodig opsplitsen in een apart, gedetailleerder panel of project. |
+| Aantal cellen voor vrije vorm | Het totale aantal cellen van de Freeform- lijst in het project, dat door rijen * kolommen over alle lijsten wordt berekend. Verborgen gegevensbronnen uitsluiten. De aanbevolen drempelwaarde is 4000. | Verlaag het aantal kolommen in de tabel tot alleen de meest relevante gegevenspunten. Verminder het aantal rijen in uw lijst door het aantal getoonde rijen aan te passen, een lijstfilter toe te passen, of een segment toe te passen. |
+| Beschikbare componenten | Het totale aantal componenten dat in de linkerspoorstaaf van het project wordt opgehaald, over alle rapportagesets in het project. De aanbevolen drempelwaarde is 2000. | Bespreek met uw productbeheerder of er een virtuele rapportsuite met een meer op maat gemaakte set componenten moet worden gemaakt. |
+| Gebruikte componenten | Het totale aantal componenten dat in het project wordt gebruikt. De aanbevolen drempelwaarde is 100. | Het aantal gebruikte componenten is geen directe invloed op de prestaties. De complexiteit van deze componenten zal echter bijdragen tot de prestaties van het project. Zie de aanbevolen optimalisaties in de sectie &quot;Aanvullende factoren&quot; hieronder. |
+| Langste datumbereik | Deze factor toont de langste datumwaaier gebruikte het project. De aanbevolen drempel is 1 jaar. | Trek waar mogelijk niet meer gegevens in dan u nodig hebt. Verfijn de paneelkalender aan de relevante data voor uw analyse of gebruik datumwaaiercomponenten (paarse componenten) in uw vrije vormlijsten. Datumbereiken die in een tabel worden gebruikt, overschrijven het datumbereik van het deelvenster. U kunt bijvoorbeeld vorige maand, vorige week en gisteren toevoegen aan de tabelkolommen om die specifieke gegevensbereiken aan te vragen. Bekijk [deze video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)voor meer informatie over het werken met datumbereiken in Analysis Workspace. <br><br>Bovendien moet het aantal jaar-over-jaar vergelijkingen die in het project worden gebruikt, tot een minimum worden beperkt. Wanneer een jaar-over-jaar vergelijking wordt berekend, kijkt het over de volledige 13 maanden van gegevens tussen de maanden van rente. Dit heeft hetzelfde effect als het wijzigen van het datumbereik van het deelvenster in een datumbereik van 13 maanden. |
 
-Het aantal visualisaties in één project zal algemene ontvankelijkheid van Analysis Workspace beïnvloeden. Dit komt omdat elke visualisatie, of het nu een tabel of grafiek is, een gegevensbron heeft die moet worden aangevraagd.
+## Aanvullende factoren
 
-**Aanbevolen werkwijze voor het aantal visualisaties**
+Aanvullende factoren die niet zijn opgenomen in Help > Prestaties zijn onder andere:
 
-Verlaag het aantal visualisaties in uw project. Analysis Workspace verwerkt veel achter de schermen voor elke visuele weergave die u toevoegt. Prioreert dus de visuele aspecten die het belangrijkst zijn voor de consument van het rapport en breekt zo nodig ondersteunende beelden uit in een afzonderlijk, gedetailleerder project.
+| Factor | Definitie | Beïnvloed door | Optimalisatie |
+|---|---|---|---|
+| Complexiteit segment | De ingewikkelde segmenten kunnen een significante invloed op projectprestaties hebben. | De factoren die ingewikkeldheid aan een segment (in dalende orde van effect) toevoegen omvatten: <ul><li>Operatoren van &quot;contains,&quot;, &quot;contains any of&quot;, &quot;match,&quot; &quot;start with&quot; of &quot;ends with&quot; </li><li>Opeenvolgende segmentatie, vooral wanneer dimensiebeperkingen (Within/After) worden gebruikt </li><li>Het aantal unieke dimensie-items binnen de dimensies die in het segment worden gebruikt (pagina = &#39;A&#39; als pagina 10 unieke items bevat, is sneller dan Pagina = &#39;A&#39; als pagina 100000 unieke items bevat) </li><li>Aantal verschillende gebruikte afmetingen (bijvoorbeeld Pagina = &#39;Home&#39; en Pagina = &#39;Zoekresultaten&#39; zijn sneller dan eVar 1 = &#39;red&#39; en eVar 2 = &#39;blue&#39;) </li><li>Veel OR-operatoren (in plaats van AND) </li><li>Geneste containers met een verschillend bereik (bv. &quot;Actief&quot; in &quot;Bezoek&quot; in &quot;Bezoeker&quot;)</li></ul> | Hoewel sommige van de complexiteitsfactoren niet kunnen worden verhinderd, zoek mogelijkheden om de ingewikkeldheid van uw segmenten te verminderen. Over het algemeen geldt dat hoe specifieker u kunt zijn bij de criteria van uw segment, des te beter. Bijvoorbeeld: <ul><li>Bij containers is het gebruik van één container boven aan het segment sneller dan een reeks geneste containers. </li><li>Met operatoren is &#39;equals&#39; sneller dan &#39;contains&#39; en is &#39;equals any of&#39; sneller dan &#39;contains any of&#39;. </li><li>Met vele criteria, EN zullen de exploitanten sneller zijn dan een reeks van OF exploitanten.</li></ul> Zoek naar kansen om vele OF verklaringen in één enkele &quot;evenaart om het even welk van&quot;verklaring te verminderen. <br><br>[Classificaties](/help/components/classifications/c-classifications.md) kunnen ook helpen om vele waarden in beknopte groepen te consolideren waaruit u vervolgens segmenten kunt maken. De segmentatie op classificatiegroepen verstrekt prestatiesvoordelen over segmenten die vele OF verklaringen bevatten of &quot;bevat&quot;criteria. |
+| Complexiteit van visualisatie (segmenten, meetgegevens, filters) | Het type visualisatie (bijvoorbeeld fallout versus een vrije-vormlijst) dat op zich aan een project wordt toegevoegd beïnvloedt niet zeer veel projectprestaties. Het is de complexiteit van de visualisatie die de verwerkingstijd vergroot. | Factoren die complexiteit toevoegen aan een visualisatie zijn: <ul><li>Bereik van gevraagde gegevens </li><li>Aantal toegepaste segmenten; bijvoorbeeld segmenten die worden gebruikt als rijen van een vrije-vormtabel </li><li>Gebruik van complexe segmenten </li><li>[Statische itemrijen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) of kolommen in vrije-vormtabellen </li><li>Filters die worden toegepast op rijen in vrije-vormtabellen </li><li>Aantal inbegrepen metriek, vooral berekende metriek die segmenten gebruiken</li></ul> | Als u merkt dat uw projecten niet zo snel laden zoals u zou willen, probeer vervangend sommige segmenten met steunen en filters, waar mogelijk. <br><br>Als u zich voortdurend gebruikend segmenten en berekende metriek voor gegevenspunten vindt die voor uw zaken belangrijk zijn, denk na verbeterend uw implementatie om deze gegevenspunten directer te vangen. Als u tagbeheer gebruikt zoals Adobe Experience Platform Launch en verwerkingsregels voor Adobe, kunt u snel en gemakkelijk implementatiewijzigingen doorvoeren. |
+| Grootte van rapportsuite | De hoeveelheid gegevens die in uw rapportsuite wordt verzameld. De grootte van de Reeks van het rapport speelt een kleine rol in projectprestaties toe te schrijven aan hoe Adobe gegevensverwerking behandelt. | N.v.t. | Raadpleeg uw implementatieteam of een Adobe-expert om te bepalen of er implementatieverbeteringen zijn die kunnen worden aangebracht om de algehele ervaring in Adobe Analytics te verbeteren. |
 
-## Complexiteit van visualisaties (segmenten, meetgegevens, filters)
+## Algemene foutberichten
 
-Het type visualisatie (bijvoorbeeld fallout versus een vrije-vormlijst) dat op zich aan een project wordt toegevoegd beïnvloedt niet zeer veel projectprestaties. Het is de complexiteit van de visualisatie die de verwerkingstijd vergroot. Factoren die complexiteit toevoegen aan een visualisatie zijn:
+Er kunnen fouten optreden bij de interactie met Analysis Workspace die ook van invloed zijn op de prestaties. Hieronder ziet u de meest voorkomende fouttypen, de reden waarom deze voorkomen en optimalisaties die kunnen worden gemaakt.
 
-* Bereik van gevraagde gegevens, zoals hierboven vermeld
-* Aantal toegepaste segmenten; bijvoorbeeld segmenten die worden gebruikt als rijen van een vrije-vormtabel
-* Gebruik van complexe segmenten
-* [Statische itemrijen](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) of kolommen in vrije-vormtabellen
-* Filters die worden toegepast op rijen in vrije-vormtabellen
-* Aantal inbegrepen metriek, vooral berekende metriek die segmenten gebruiken
-
-**Beste praktijken voor visualiseringsingewikkeldheid**
-
-Als u merkt dat uw projecten niet zo snel laden zoals u zou willen, probeer vervangend sommige segmenten met steunen en filters, waar mogelijk.
-
-Als u zich constant gebruikend segmenten en berekende metriek voor gegevenspunten vindt die voor uw zaken belangrijk zijn, denk na verbeterend uw implementatie om deze gegevenspunten directer te vangen. Door het gebruik van tagbeheer zoals Adobe Experience Platform Launch en verwerkingsregels voor Adobe kunnen implementatiewijzigingen snel en eenvoudig worden geïmplementeerd. Zie &#39;Complexiteit van Segment Logic&#39; hierboven voor meer informatie over het vereenvoudigen van complexe segmenten.
-
-## Aantal deelvensters
-
-Eén deelvenster kan veel visualisaties bevatten. Het aantal deelvensters kan daarom ook van invloed zijn op de algehele reactiesnelheid van Analysis Workspace.
-
-**Aanbevolen werkwijze voor het aantal deelvensters**
-
-Probeer niet alles aan één project toe te voegen, maar creeer afzonderlijke projecten die een specifiek doel of een groep belanghebbenden dienen. Gebruik labels om projecten in hoofdthema&#39;s te ordenen en verwante projecten met groepen belanghebbenden te delen.
-
-Als u meer projecten wilt organiseren, moet u niet vergeten dat [directe koppeling](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html) naar uw project een optie is. Een interne index van projecten maken, zodat belanghebbenden gemakkelijker kunnen vinden wat ze nodig hebben.
-
-Als er veel deelvensters nodig zijn in één project, vouwt u deelvensters samen voordat u het bestand opslaat en deelt. Wanneer een project wordt geladen, laadt Analysis Workspace alleen inhoud voor de uitgebreide deelvensters. Samengevouwen deelvensters worden pas geladen wanneer de gebruiker deze uitbreidt. Deze aanpak helpt op twee manieren:
-
-* Samengevouwen deelvensters besparen op de algemene laadtijd van een project
-* Samengevouwen deelvensters zijn een goede manier om uw projecten op een logische manier te organiseren voor de consument van het rapport
-
-## Grootte van rapportsuite
-
-De grootte van de rapportsuite lijkt misschien een drijvende kracht, maar in werkelijkheid speelt deze slechts een kleine rol in de prestaties van het project, omdat Adobe de gegevensverwerking afhandelt. Er kunnen uitzonderingen op deze regel zijn; overleg met uw implementatieteam of een Adobe-expert om te bepalen of er implementatieverbeteringen kunnen worden doorgevoerd om de algehele ervaring in Adobe Analytics te verbeteren.
-
-## Aantal gebruikers dat tegelijkertijd Analysis Workspace opent
-
-Het aantal gebruikers dat tegelijkertijd toegang krijgt tot Analysis Workspace of specifieke projecten heeft geen wezenlijk effect op de Analysis Workspace-prestaties als gebruikers toegang willen tot verschillende rapportsuite. Als gelijktijdige gebruikers toegang krijgen tot dezelfde rapportsuite, heeft dit gevolgen voor de prestaties.
-
-## Algemene foutberichten in Analysis Workspace
-
-Er kunnen fouten optreden bij de interactie met Analysis Workspace. Fouten kunnen om verschillende redenen optreden en worden hieronder vermeld.
-
-| Foutbericht | Waarom gebeurt dit? |
-| --- | --- |
-| [!UICONTROL The report suite is experiencing unusually heavy reporting. Please try again later.] | Uw organisatie probeert teveel gezamenlijke verzoeken tegen een specifieke rapportreeks in werking te stellen. Medewerkers aan deze fout zijn API verzoeken, geplande projecten, geplande rapporten, geplande alarm, en gezamenlijke gebruikers die het melden verzoeken. Wij adviseren dat uw verzoeken en programma&#39;s voor de rapportreeks gelijkmatiger door de dag worden verspreid. |
-| [!UICONTROL A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.] | Adobe heeft een probleem dat moet worden opgelost. Wij adviseren dat u de foutencode door een verzoek van de Zorg van de Klant indient. |
-| [!UICONTROL The request is too complex.] | Uw rapportageaanvraag is te groot en kan niet worden uitgevoerd. Medewerkers aan deze fout zijn onderbrekingen wegens de grootte van het verzoek, teveel overeenkomende punten in een segment of een zoekfilter, teveel inbegrepen metriek, incompatibele afmeting en metrische combinaties, enz. We raden je aan je aanvraag te vereenvoudigen. |
-| [!UICONTROL One of the segments or the search in this visualization contains a text search that returned too many results.] | We raden u aan de zoektekstcriteria te verfijnen en het verzoek opnieuw in te dienen. |
-| [!UICONTROL This dimension does not currently support non-default attribution models.] | We raden u aan de dimensie in uw tabel te vervangen door een dimensie die compatibel is met [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
-| [!UICONTROL Your request failed as a result of too many columns or pre-configured rows.] | We raden u aan een aantal kolommen of rijen te verwijderen of te splitsen in afzonderlijke visualisaties. |
+| Foutbericht | Waarom gebeurt dit? | Optimalisatie |
+| --- | --- | --- |
+| [!UICONTROL The report suite is experiencing unusually heavy reporting. Please try again later.] | Uw organisatie probeert teveel gezamenlijke verzoeken tegen een specifieke rapportreeks in werking te stellen. Medewerkers aan deze fout zijn API verzoeken, geplande projecten, geplande rapporten, geplande alarm, en gezamenlijke gebruikers die het melden verzoeken. | Verspreid uw verzoeken en programma&#39;s voor de rapportreeks gelijkmatiger door de dag. |
+| [!UICONTROL A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.] | Adobe heeft een probleem dat moet worden opgelost. | Stuur de foutcode naar de klantenservice. |
+| Het verzoek is te ingewikkeld. | Uw rapportageaanvraag is te groot en kan niet worden uitgevoerd. Medewerkers aan deze fout zijn onderbrekingen wegens de grootte van het verzoek, teveel overeenkomende punten in een segment of een zoekfilter, teveel inbegrepen metriek, incompatibele afmeting en metrische combinaties, enz. | Vereenvoudig uw verzoek door sommige kolommen of rijen in uw lijst te verwijderen, of denk na het splitsen van de lijst in afzonderlijke verzoeken. |
+| Een van de segmenten of de zoekopdracht in deze visualisatie bevat een tekstzoekopdracht die te veel resultaten heeft opgeleverd. | Uw segmentcriteria of rapportfilter zijn te breed. | Verfijn uw zoektekstcriteria en probeer het verzoek opnieuw. |
+| Deze dimensie ondersteunt momenteel geen niet-standaard attributiemodellen. | Niet-standaardtoewijzing wordt niet ondersteund voor de dimensie die u gebruikt. | Vervang de dimensie in de tabel door een dimensie die compatibel is met [Attribution IQ](../attribution/overview.md). |
+| Uw verzoek is mislukt als gevolg van te veel kolommen of vooraf geconfigureerde rijen. | Uw tabel bevat te veel vrije-vormcellen (rij * kolommen). | Verwijder kolommen of rijen in de tabel of u kunt de tabel opsplitsen in afzonderlijke aanvragen. |
