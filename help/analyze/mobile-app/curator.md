@@ -2,18 +2,23 @@
 description: Instructies voor het instellen van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboardcurator
 translation-type: tm+mt
-source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
+source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2376'
 ht-degree: 0%
 
 ---
 
 
-
 # Curatorhulplijn voor Adobe Analytics-dashboards
 
-De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Zie Scorecard Builder [van](https://youtu.be/tnnl6hrcP94)Adobe Analytics-dashboards voor een video waarin deze informatie wordt gedemonstreerd.
+>[!IMPORTANT]
+>
+>Vanaf oktober 2020 implementeert Adobe geleidelijk een reeks verbeteringen om de prestaties van de app Adobe Analytics-dashboards te optimaliseren. Deze verbeteringen richten zich op caching historische gegevens van Analytics die worden gebruikt om scorecards met data (exclusief de huidige dag) te bevolken. Deze gegevens worden maximaal 24 uur in cache geplaatst in een beveiligde Microsoft Azure Public Cloud Storage-account. Neem contact op met uw CSM als u zich wilt afmelden voor deze functies voor prestatieverbetering.
+
+De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Bekijk de video van Adobe Analytics dashboards Scorecard Builder voor een video waarin deze informatie wordt gedemonstreerd:
+
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## Inleiding
 
@@ -38,25 +43,20 @@ In de volgende tabel staan de voorwaarden voor het begrijpen van het publiek, de
 | Datumbereik | Het primaire datumbereik voor dashboardrapportage |
 | Vergelijkingsdatumbereik | Het datumbereik dat wordt vergeleken met het primaire datumbereik |
 
- 
 ## Een scorebord maken voor uitvoerende gebruikers
 
 In een scorebord worden de belangrijkste gegevensvisualisaties voor uitvoerende gebruikers naast elkaar weergegeven, zoals hieronder wordt getoond:
 
-
 ![Voorbeeldscorecard](assets/intro_scorecard.png)
-
 
 Als curator van dit Scorecard, kunt u de Scorecard Bouwer gebruiken om te vormen welke tegels op Scorecard voor uw consument verschijnen. U configureert ook hoe de gedetailleerde weergaven, of de indelingen, kunnen worden aangepast wanneer op de tegels wordt getikt. De interface van de Bouwer Scorecard wordt hieronder getoond:
 
 ![Scorecard Builder](assets/scorecard_builder.png)
 
-
 Als u het scorebord wilt maken, moet u het volgende doen:
 
 1. Open de sjabloon Blanco mobiel scorebord.
 2. Configureer het scorebord met gegevens en sla het op.
-
 
 ### Toegang tot de sjabloon Blanco mobiel scorebord
 
@@ -205,7 +205,7 @@ Zo helpt u uitvoerende gebruikers:
    * Verifieer dat de uitvoerende gebruiker in de juiste instantie van Analytics kan registreren en dat Scorecard is gedeeld.
 
 
-3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt (het eerste hieronder Scorecard wordt geplaatst op donkere wijze); zie **Voorkeuren** hieronder als u denkt dat uw uitvoerend gebruiker deze het bekijken optie verkiest):
+3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt (het eerste hieronder Scorecard wordt geplaatst op donkere wijze); zie **Voorkeuren** hieronder als u denkt dat uw uitvoerende gebruiker deze weergaveoptie verkiest):
 
    ![Stijlen verklaren](assets/newexplain.png)
 
