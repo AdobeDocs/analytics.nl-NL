@@ -4,10 +4,10 @@ title: Overzicht van Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 9%
+source-wordcount: '516'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt
 
 Als u slechts een paar minuten hebt, bekijkt u dit korte overzicht om te zien wat mogelijk is.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Aanmelden bij Adobe Analytics {#login}
 
@@ -46,7 +46,7 @@ In uw project van de Werkruimte, worden de **panelen, de lijsten, de visualisati
 
 ### Onderdelen
 
-**Componenten** zijn dimensies, metriek, segmenten of datumbereiken, die allemaal in een pakket kunnen worden gecombineerd **[!UICONTROL Freeform table]** om te beginnen met het beantwoorden van uw zakelijke vraag. Zorg ervoor dat u bekend bent met elk [componenttype](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) voordat u in de analyse gaat duiken. Zodra u componententerminologie hebt beheerst, kunt u beginnen slepend en dalend om uw analyse [in een](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) bouwsteen te bouwen **[!UICONTROL Freeform table]**.
+**Componenten** zijn dimensies, metriek, segmenten of datumbereiken, die allemaal in een pakket kunnen worden gecombineerd **[!UICONTROL Freeform table]** om te beginnen met het beantwoorden van uw zakelijke vraag. Zorg ervoor dat u bekend bent met elk [componenttype](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) voordat u in de analyse gaat duiken. Zodra u componententerminologie hebt beheerst, kunt u beginnen slepend en dalend om uw analyse [in een](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) bouwsteen te bouwen **[!UICONTROL Freeform table]**.
 
 ![](assets/build-components.png)
 
