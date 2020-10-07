@@ -3,9 +3,9 @@ description: Nieuwe functies in Analysis Workspace.
 keywords: Analysis Workspace
 title: Nieuwe functies in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
-source-wordcount: '7716'
+source-wordcount: '7712'
 ht-degree: 96%
 
 ---
@@ -414,8 +414,7 @@ Nieuwe functies en verbeteringen uitgebracht op 8 februari 2018.
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > Aangepaste Workspace-sjablonen </a> </p> </td> 
    <td colname="col2"> <p>U kunt nu uw eigen Workspace-sjablonen maken en deze opslaan, zodat andere gebruikers in uw organisatie direct aan de slag kunnen met data die voor hen relevant zijn. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Modaal dialoogvenster bij starten van nieuw project </a> </p> </td> 
+  <tr>  
    <td colname="col2"> <p>Als u op "nieuw project" klikt, wordt een nieuw scherm geopend. Hierin krijgt u de keuze om te starten met: </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">Een leeg project, of </li> 
@@ -498,7 +497,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
    <td colname="col2"> <p>De kaartvisualisatie die in oktober 2017 is geïntroduceerd, kan nu worden weergegeven in PDF-bestanden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Relatieve intrakoppelingen </a> bij het kopiëren/opslaan-als project </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Relatieve intrakoppelingen </a> bij het kopiëren/opslaan-als project </p> </td> 
    <td colname="col2"> <p>Als u voorheen een project kopieerde of "opsloeg als", waren alle intrakoppelingen van het project gericht op het originele project, en niet op het gekopieerde project. </p> <p>De intrakoppelingen zijn relatief met betrekking tot het project waarin ze staan, nadat u het project hebt gekopieerd/opgeslagen als. </p> </td> 
   </tr> 
   <tr> 
@@ -568,7 +567,7 @@ Nieuwe functies uitgebracht op 26 oktober 2017.
    <td colname="col2"> <p>Als er visualisaties gekoppeld zijn aan een vrije-vorm- of cohorttabel, worden de gekoppelde visualisaties nu weergegeven in het punt linksboven (instellingen voor databron). Als u de muis hierboven houdt, wordt de gekoppelde visualisatie weergegeven. En als u erop klikt, gaat u direct naar de gekoppelde visualisatie. </p> <p>Ook is er nu een selectievakje "Show/Hide Data Table" waarmee u de datatabel kunt weergeven of verbergen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Event# toegevoegd aan gebeurtenisnamen in de linkerrail</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Event# toegevoegd aan gebeurtenisnamen in de linkerrail</a> </p> </td> 
    <td colname="col2"> <p>Voor oktober 2017 werden evar# en prop# toegevoegd aan de dimensienamen, en kon u zoeken op basis van die getallen. Dezelfde functionaliteit is nu beschikbaar voor gebeurtenissen. </p> <p>Voorbeeld: Abonnementen worden nu in de linkerrail weergegeven als "Subscriptions (event1)". </p> <p>Houd rekening met het volgende: </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">Het gebeurtenisnummer wordt niet in de tabel weergegeven (om de titels kort te houden). </li> 
@@ -576,7 +575,7 @@ Nieuwe functies uitgebracht op 26 oktober 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Kant-en-klare dimensies worden standaard in een logische volgorde gesorteerd </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Kant-en-klare dimensies worden standaard in een logische volgorde gesorteerd </a> </p> </td> 
    <td colname="col2"> <p>De standaardsorteervolgorde voor bepaalde kant-en-klare dimensies is in de volgende gevallen bijgewerkt: </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">Wanneer dimensies in een vrije-vormtabel worden geplaatst. </li> 
@@ -677,7 +676,7 @@ Nieuwe functies uitgebracht op 17 augustus 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Tags aan een project koppelen tijdens het opslaan </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Tags aan een project koppelen tijdens het opslaan </a> </p> </td> 
    <td colname="col2"> <p>U kunt nu tags toevoegen aan een project terwijl u het project opslaat. </p> </td> 
   </tr> 
   <tr> 
