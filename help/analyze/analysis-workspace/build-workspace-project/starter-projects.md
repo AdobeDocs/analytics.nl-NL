@@ -3,7 +3,7 @@ description: 'null'
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 U kunt kiezen of u een project wilt maken van:
 
-* **Leeg project (standaard)**: Zie Een Analysis Workspace-project [](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)maken voor instructies.
+* **Leeg project (standaard)**: Zie Een Analysis Workspace-project [](/help/analyze/analysis-workspace/home.md)maken voor instructies.
 * **Standaardsjabloon**: Deze sjablonen worden gemaakt door Adobe en worden samen met het product verzonden.
 * **Aangepaste sjabloon**: Deze sjablonen kunnen worden gemaakt, gedeeld of verwijderd door gebruikers met beheerdersrechten of door niet-beheerders, op voorwaarde dat hun de [!UICONTROL Analysis Workspace: Save as Template] machtiging is verleend in de Admin Console. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
