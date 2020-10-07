@@ -5,7 +5,7 @@ title: Project maken - overzicht
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 7%
@@ -33,7 +33,7 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 
 | Element | Beschrijving |
 |---|---|
-| [Nieuw project maken](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Klik op deze koppeling om een geheel nieuw project te starten. |
+| [Nieuw project maken](/help/analyze/analysis-workspace/home.md) | Klik op deze koppeling om een geheel nieuw project te starten. |
 | Projecten beheren | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), waar al uw projecten worden vermeld en waarmee u projecten kunt labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
 | Instellen als bestemmingspagina | Hiermee wordt deze pagina omgezet in de bestemmingspagina van uw werkruimte. |
 | Tutorials weergeven | Hiermee gaat u naar de videozelfstudies [van](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html)Analysis Workspace. |
