@@ -5,7 +5,7 @@ title: Uitsplitsingsdimensies
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 14%
@@ -19,7 +19,7 @@ Afmetingen en dimensies in Analysis Workspace onderverdelen.
 
 U kunt uw data onbeperkt voor al uw specifieke vereisten opsplitsen, query&#39;s bouwen met relevante metrics, dimensies, segmenten, tijdlijnen en andere uitsplitsingswaarden voor de analyse.
 
-1. [Creeer een project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) met een gegevenslijst.
+1. [Creeer een project](/help/analyze/analysis-workspace/home.md) met een gegevenslijst.
 1. Klik in de datatabel met de rechtermuisknop op een regelitem en selecteer **[!UICONTROL Breakdown]** > *`<item>`*.
 
    ![Stap Resultaat](assets/fa_data_table_actions.png)
