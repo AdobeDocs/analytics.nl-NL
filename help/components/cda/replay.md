@@ -2,9 +2,9 @@
 title: Hoe herspeelt u
 description: Begrijp het concept "replay"in Cross-Device Analytics
 translation-type: tm+mt
-source-git-commit: 2230fa2c48358346d1d449f2db335ff75c6b1631
+source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Hoe herspeelt u
 
-Analytics maakt twee gegevenscontroles op verschillende apparaten in een virtuele rapportsuite:
+Analytics voor verschillende apparaten maakt twee gegevenscontroles in een virtuele rapportsuite:
 
 * **Levend stitching**: CDA probeert elke hit te stikken terwijl hij binnenkomt. Netto nieuwe apparaten aan de rapportreeks die nooit het programma hebben geopend worden typisch niet vastgemaakt op dit niveau. Apparaten die al zijn herkend, worden direct vastgezet.
 * **Opnieuw afspelen**: Ongeveer eens per week, &quot;herspeelt&quot;CDA gegevens die op unieke herkenningstekens worden gebaseerd het heeft geleerd. In dit stadium worden nieuwe apparaten aan de rapportsuite vastgezet.
