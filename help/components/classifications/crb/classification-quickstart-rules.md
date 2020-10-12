@@ -5,7 +5,7 @@ title: Classificatieregels
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 1%
@@ -325,11 +325,15 @@ Voeg regels toe door een voorwaarde aan een classificatie aan te passen, en de a
    De **[!UICONTROL Select Report Suites]** pagina wordt weergegeven.
 
    >[!NOTE]
-   Geef op deze pagina een overzicht van de suites *`only`* als aan de volgende voorwaarden is voldaan:        >
-
-   * Voor de rapporteereeksen is ten minste één classificatie voor die variabele in gedefinieerd [!UICONTROL Admin Tools].
-   (Zie *`Variable`* in [Classificatiereeksen](/help/components/classifications/crb/classification-rule-set.md) voor een uitleg van deze voorwaarde.)
-
+   >
+   >Geef op deze pagina een overzicht van de suites *`only`* als aan de volgende voorwaarden is voldaan:
+   >
+   >* Voor de rapporteereeksen is ten minste één classificatie voor die variabele in gedefinieerd [!UICONTROL Admin Tools].
+      >
+      >   
+      (Zie *`Variable`* in [Classificatiereeksen](/help/components/classifications/crb/classification-rule-set.md) voor een uitleg van deze voorwaarde.)
+      >
+      >
    * U hebt de rapportsuite op de **[!UICONTROL Available Report Suites]** pagina geselecteerd. Deze wordt weergegeven nadat u op Regelset [toevoegen hebt geklikt](/help/components/classifications/crb/classification-rule-set.md) om de regelset te maken.
 
 
