@@ -3,22 +3,48 @@ description: Nieuwe functies in Analysis Workspace.
 keywords: Analysis Workspace
 title: Nieuwe functies in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 60bc50752c307aa83c11885380e0962243025373
 workflow-type: tm+mt
-source-wordcount: '7712'
-ht-degree: 96%
+source-wordcount: '8021'
+ht-degree: 93%
 
 ---
 
 
 # Nieuwe functies in Analysis Workspace
 
+Ga [hier](https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html)voor toegang tot de releaseopmerkingen van Adobe Experience Cloud als geheel.
+
+## Oktober 2020
+
+Nieuwe functies uitgebracht in oktober 2020.
+
+| Functie | Beschrijving |
+| --- | --- |
+| Lijnvisualisatie: [Gemiddelde trendline verplaatsen, optie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Moving average]** is toegevoegd aan de montages van de trendlijn van de visualisatie van de Lijn. Een voortschrijdend gemiddelde wordt ook wel een voortschrijdend gemiddelde genoemd. Een voortschrijdend gemiddelde gebruikt een specifiek aantal gegevenspunten (bepaald door een **[!UICONTROL Periods]** selectie), gemiddeld deze en gebruikt het gemiddelde als een punt in de lijn. |
+| [Help-pagina voor prestaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Op de pagina met Help over Analysis Workspace-prestaties worden verschillende factoren weergegeven die van invloed zijn op de projectprestaties en worden koppelingen naar tips voor optimalisatie weergegeven. |
+
+## September 2020
+
+Nieuwe functies uitgebracht in september 2020.
+
+| Functie | Beschrijving |
+| --- | --- |
+| [Download 50 kB items voor één dimensie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | U kunt nu 50.000 items downloaden voor één dimensie in een vrije-vormtabel, met toegepaste segmenten en filters. Hierdoor hebt u toegang tot meer dan de 400 rijen gegevens buiten Analysis Workspace. |
+| [Verbeteringen voor lijnvisualisatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>U kunt de x-as en de y-as van elke lijnvisualisatie tonen of verbergen. Dit kan vooral nuttig zijn wanneer uw Lijnivisualisaties compacter zijn.</li><li>U kunt een minimum- en maximumwaardelabel bedekken op elke Lijnvisualisatie om de pieken en dalen snel in metrische vorm te markeren.</li><li>U kunt verschillende regressietendellijnen op om het even welke Lijn visualisatie bedekken om de trend in de gegevens gemakkelijker te zien. De opties omvatten [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] en [!UICONTROL Quadratic].</li></ul> |
+| Nieuwe datumbereiken | We hebben vijf nieuwe datumbereiken toegevoegd, zodat u kunt kiezen uit datumbereiken die geen gegevens van vandaag voor een gedeeltelijke dag bevatten: Laatste 7 volledige dagen, Laatste 14 volledige dagen, Laatste 30 volledige dagen, Laatste 60 volledige dagen, Laatste 90 volledige dagen |
+
+
+## Augustus 2020
+
+Geen nieuwe functies uitgebracht in augustus 2020.
+
 ## Juli 2020
 
 Nieuwe functie uitgebracht op 16 juli 2020.
 
 | Functie | Beschrijving |
-|--- |--- |
+| --- | --- |
 | Nieuwe voorinstellingen voor datumbereik | Vier nieuwe datumbereiken toegevoegd: ([!UICONTROL This week/month/quarter/year (excluding today)]). Dit laat u van datumwaaiers kiezen die delen-daggegevens van vandaag niet omvatten. |
 
 ## Juni 2020
@@ -115,7 +141,7 @@ Verbeteringen uitgebracht op 18 juli 2019.
 Verbetering uitgebracht op 13 juni 2019.
 
 | Verbetering | Beschrijving |
-|--- |--- |
+| --- |--- |
 | Nieuwe kant-en-klare filters | Nieuwe kant-en-klare filters zijn toegevoegd aan de zoekfunctie in de linkerrail. Naast de al beschikbare filters (Dimensies, Metrics, Goedgekeurd, enz.) zijn nu ook nieuwe filters, zoals voor berekende standaarden, klantkenmerken, eVars, props, video, enzovoorts. toegevoegd zodat u snel en gemakkelijk de gewenste componenten kunt vinden. |
 
 ## Mei 2019
@@ -207,6 +233,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 13 september 2018.
   </tr> 
  </tbody> 
 </table>
+
 ## Augustus 2018
 
 Nieuwe functies en verbeteringen die zijn uitgebracht op 9 augustus 2018.
