@@ -3,7 +3,7 @@ description: Nieuwe functies in Analysis Workspace.
 keywords: Analysis Workspace
 title: Nieuwe functies in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 60bc50752c307aa83c11885380e0962243025373
+source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8021'
 ht-degree: 93%
@@ -33,7 +33,6 @@ Nieuwe functies uitgebracht in september 2020.
 | [Download 50 kB items voor één dimensie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | U kunt nu 50.000 items downloaden voor één dimensie in een vrije-vormtabel, met toegepaste segmenten en filters. Hierdoor hebt u toegang tot meer dan de 400 rijen gegevens buiten Analysis Workspace. |
 | [Verbeteringen voor lijnvisualisatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>U kunt de x-as en de y-as van elke lijnvisualisatie tonen of verbergen. Dit kan vooral nuttig zijn wanneer uw Lijnivisualisaties compacter zijn.</li><li>U kunt een minimum- en maximumwaardelabel bedekken op elke Lijnvisualisatie om de pieken en dalen snel in metrische vorm te markeren.</li><li>U kunt verschillende regressietendellijnen op om het even welke Lijn visualisatie bedekken om de trend in de gegevens gemakkelijker te zien. De opties omvatten [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] en [!UICONTROL Quadratic].</li></ul> |
 | Nieuwe datumbereiken | We hebben vijf nieuwe datumbereiken toegevoegd, zodat u kunt kiezen uit datumbereiken die geen gegevens van vandaag voor een gedeeltelijke dag bevatten: Laatste 7 volledige dagen, Laatste 14 volledige dagen, Laatste 30 volledige dagen, Laatste 60 volledige dagen, Laatste 90 volledige dagen |
-
 
 ## Augustus 2020
 
