@@ -2,13 +2,13 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Components-handleiding
-breadcrumb-title: Components Guide
-user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
+breadcrumb-title: Components-handleiding
+user-guide-description: De hulp organiseert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, en alarm.
 translation-type: tm+mt
 source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 56%
+source-wordcount: '640'
+ht-degree: 55%
 
 ---
 
