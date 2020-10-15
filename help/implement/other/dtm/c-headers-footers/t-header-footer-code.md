@@ -5,7 +5,7 @@ title: Code voor kop- en voetteksten toevoegen
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Met Dynamisch tagbeheer maakt u gefaseerde en productie-insluitcodes waarmee u u
 
 1. Kopieer de code voor de productievoettekst en plaats deze in de [!DNL BODY] sectie van de HTML-site.
 
-   Plaats de code zo dicht bij de [!DNL </body>] -tag indien mogelijk.
+   Plaats de code zo dicht mogelijk bij de `</body>` tag.
 1. Kopieer de testkop- en voettekstcode en herhaal vervolgens de bovenstaande stappen op uw testsite.
 
    >[!NOTE]
