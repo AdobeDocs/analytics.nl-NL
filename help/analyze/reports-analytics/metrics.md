@@ -1,22 +1,22 @@
 ---
 description: Metriek vormen de basis van rapporten en helpen u gegevensrelaties te bekijken en te begrijpen en maken vergelijkingen tussen verschillende gegevenssets over uw website naast elkaar mogelijk. De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc.
-title: Cijfers
+title: Metrics
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 0%
+source-wordcount: '358'
+ht-degree: 1%
 
 ---
 
 
-# Cijfers
+# Metrics
 
 Metriek vormen de basis van rapporten en helpen u gegevensrelaties te bekijken en te begrijpen en maken vergelijkingen tussen verschillende gegevenssets over uw website naast elkaar mogelijk. De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc.
 
-## Cijfers
+## Overzicht van cijfers
 
 Metriek vormen de basis van rapporten en helpen u gegevensrelaties te bekijken en te begrijpen en maken vergelijkingen tussen verschillende gegevenssets over uw website naast elkaar mogelijk. De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc.
 
