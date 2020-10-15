@@ -2,13 +2,13 @@
 product: analytics
 audience: end-user
 user-guide-title: Handleiding voor importeren van analysemogelijkheden
-breadcrumb-title: Import Guide
-user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time.
+breadcrumb-title: Hulplijn importeren
+user-guide-description: 'Gegevens van externe bronnen in Analytics opnemen, in bulk of real-time. '
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 99%
+source-wordcount: '515'
+ht-degree: 96%
 
 ---
 
