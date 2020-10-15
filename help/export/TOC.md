@@ -2,13 +2,13 @@
 product: analytics
 audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
-breadcrumb-title: Export Guide
-user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
+breadcrumb-title: Hulplijn exporteren
+user-guide-description: Gebruik Gegevensfeeds als u onbewerkte gegevens per uur of per dag wilt exporteren. Gebruik Data Warehouse om een spreadsheetuitvoer van gegevens op te halen.
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 93%
+source-wordcount: '289'
+ht-degree: 85%
 
 ---
 
