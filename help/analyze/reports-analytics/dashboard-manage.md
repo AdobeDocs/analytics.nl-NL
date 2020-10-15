@@ -5,10 +5,10 @@ title: Dashboardbeheer
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 2%
+source-wordcount: '743'
+ht-degree: 1%
 
 ---
 
@@ -20,10 +20,6 @@ Gebruik Dashboard Manager om dashboards voor levering te kopiëren, te delen, te
 >[!IMPORTANT]
 >
 >De beste manier om Dashboard Manager te gebruiken, is niet meer dan 300 dashboards te hebben voor één gebruiker. Houd er ook rekening mee dat de manager hieronder alle gedeelde dashboards laadt, dus wees verstandig met het delen van dashboards.
-
-## Dashboardbeheer
-
-Gebruik Dashboard Manager om dashboards voor levering te kopiëren, te delen, te archiveren en te plannen.
 
 Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 
@@ -53,7 +49,7 @@ Stappen die beschrijven hoe de gedeelde opties voor dashboardbeheer worden gebru
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Dashboardspeler</strong></td> 
-  <td class="chdesc stentry"> <p>SiteCatalyst 14-servers reageren niet meer op verzoeken om gegevens van Dashboard Player. Alle dashboards die momenteel worden weergegeven in Dashboard Player, zijn toegankelijk in de standaardrapporten en Analytics-interface of kunnen worden gemaakt als een realtime-dashboard. Real-Time dashboards zijn speciaal ontworpen voor continue weergave en beschikken over een modus Volledig scherm waarmee u ze kunt weergeven op tv's of andere apparaten met een groot scherm. </p> <p>Gebruikersactie vereist: U moet stoppen met het gebruik van Dashboard Player. </p> </td> 
+  <td class="chdesc stentry"> <p>SiteCatalyst 14-servers reageren niet meer op verzoeken om gegevens van Dashboard Player. Alle dashboards die momenteel worden weergegeven in Dashboard Player, zijn toegankelijk via de standaardinterface Rapporten en analyse of kunnen opnieuw worden gemaakt als een Real-Time Dashboard. Real-Time dashboards zijn speciaal ontworpen voor continue weergave en beschikken over een modus Volledig scherm waarmee u ze kunt weergeven op tv's of andere apparaten met een groot scherm. </p> <p>Gebruikersactie vereist: U moet stoppen met het gebruik van Dashboard Player. </p> </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Kopieer mij</strong></td> 
