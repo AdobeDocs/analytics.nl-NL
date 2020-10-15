@@ -2,13 +2,13 @@
 product: analytics
 audience: end-user
 user-guide-title: Handleiding Analytics-tools
-breadcrumb-title: Tools Guide
-user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
+breadcrumb-title: Hulplijn
+user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Report Builder en Activity Map.
 translation-type: tm+mt
 source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 93%
+source-wordcount: '1112'
+ht-degree: 91%
 
 ---
 
