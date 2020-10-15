@@ -1,11 +1,14 @@
 ---
-description: Alvorens Rapporten en Analytics te gebruiken, begrijp deze basislogin en opstellingstaken, en hoe te om tot rekeningsinformatie toegang te hebben.
+description: Voordat u Reports and Analytics gebruikt, moet u deze basistaken voor aanmelding en installatie begrijpen en controleren hoe u toegang krijgt tot accountgegevens.
 subtopic: Get started
-title: Aan de slag met rapporten en analyses
+title: Aan de slag met Reports and Analytics
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 1%
 
 ---
 
@@ -13,10 +16,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 # Aan de slag met rapporten en analyses
 
 Voordat u Rapporten en Analyses gebruikt, moet u deze basisaanmeldings- en instellingstaken begrijpen, en weten hoe u toegang hebt tot accountgegevens.
-
-## Aan de slag met rapporten en analyses
-
-Alvorens Rapporten en Analytics te gebruiken, begrijp deze basislogin en opstellingstaken, en hoe te om tot rekeningsinformatie toegang te hebben.
 
 Rapportering biedt inzicht in uw traditionele webkanalen en in evoluerende kanalen zoals mobiele netwerken, video en sociale netwerken. Voorbeelden van marketingrapporten zijn:
 
@@ -41,18 +40,18 @@ Browser en systeemvereisten om zich aan te melden bij de interface Rapporten &am
 
       >[!NOTE]
       >
-      >Adobe heeft de ondersteuning voor Internet Explorer 11 in Adobe Analytics beëindigd op 13 november 2018. Schakel zo snel mogelijk over naar Microsoft Edge of een andere ondersteunde browser.
+      >Op 13 november 2018 werd de ondersteuning voor Internet Explorer 11 in Adobe Analytics beëindigd door Adobe. Schakel zo snel mogelijk over naar Microsoft Edge of een andere ondersteunde browser.
 
 * Cookies en JavaScript moeten zijn ingeschakeld.
 * Monitorresolutie van 1024 x 768 met 16-bits kleurdiepte (of hoger).
 
-## Meld u aan bij Rapporten en Analyses
+## Aanmelden bij Reports and Analytics
 
-Voordat u de interface opent, werkt u samen met uw accountmanager of de klantenservice van Adobe aan het instellen van uw bedrijfsaccount.
+Voordat u de interface opent, werkt u samen met uw accountmanager of de klantenservice van Adobe om uw bedrijfsaccount in te stellen.
 
 ## Aanmelden met de Experience Cloud
 
-Stappen die beschrijven hoe u zich aanmeldt via de Adobe Experience Cloud.
+Stappen die beschrijven hoe u zich via de Adobe Experience Cloud aanmeldt.
 
 1. Start een browser op een computer met toegang tot internet.
 1. Ga naar [!DNL https://login.experiencecloud.adobe.com/].
@@ -64,9 +63,9 @@ Stappen die beschrijven hoe u zich aanmeldt via de Adobe Experience Cloud.
    **[!UICONTROL Username]**: Geef uw account-id op.
 
    **[!UICONTROL Password]**: Geef het wachtwoord voor uw account op.
-1. Ga op de startpagina van Experience Cloud naar **Analytics > Reports**.
+1. Ga op de startpagina Experience Cloud naar **Analytics > Reports**.
 
-   De Experience Cloud meldt u automatisch na 30 minuten inactiviteit.
+   De Experience Cloud meldt u automatisch af na 30 minuten inactiviteit.
 
 ## Een rapport uitvoeren
 
@@ -117,7 +116,7 @@ Alle gebruikers hebben toegang tot de [!UICONTROL Account Information] pagina. D
   </tr> 
   <tr> 
    <td> <p>Webservice </p> </td> 
-   <td> <p>Hiermee geeft u de gebruikersnaam en het gedeelde geheim van de webservices weer die aan dit account zijn gekoppeld. Gebruik deze referenties wanneer u de Experience Cloud opent via de webservices-API's. Zie de <a href="https://marketing.adobe.com/developer"  > Developer Connection</a>voor meer informatie. </p> <p> <p>Opmerking:  Deze informatie wordt alleen weergegeven als de account is geautoriseerd als gebruiker van een webservice. </p> </p> </td> 
+   <td> <p>Hiermee geeft u de gebruikersnaam en het gedeelde geheim van de webservices weer die aan dit account zijn gekoppeld. Gebruik deze referenties wanneer u Experience Cloud benadert via de API's voor webservices. Zie de <a href="https://marketing.adobe.com/developer"  > Developer Connection</a>voor meer informatie. </p> <p> <p>Opmerking:  Deze informatie wordt alleen weergegeven als de account is geautoriseerd als gebruiker van een webservice. </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Deze computer uitsluiten </p> </td> 
@@ -128,9 +127,9 @@ Alle gebruikers hebben toegang tot de [!UICONTROL Account Information] pagina. D
 
 ## De interfacetaal wijzigen
 
-Stappen die beschrijven hoe te om de interfacetaal te veranderen. U kunt de interface Rapporten en Analytics in de taal van uw keus bekijken.
+Stappen die beschrijven hoe te om de interfacetaal te veranderen. U kunt de Reports and Analytics-interface weergeven in de taal van uw keuze.
 
 1. Meld u aan bij Analytics en selecteer het **[!UICONTROL Reports]** tabblad.
 1. Klik in de voettekst van de pagina op de actieve taal in het **[!UICONTROL Language]** menu en selecteer de gewenste taal.
 
-U hebt toegang tot de documentatie en de startpagina via de Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
+U kunt de documentatie en de startpagina openen vanuit de Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
