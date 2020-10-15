@@ -3,15 +3,15 @@ description: Factoren die de prestaties en optimalisaties van de werkruimte beï
 title: Analysis Workspace-prestatiefactoren en -optimalisatie
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 93eb4f4c8f2990c8a4485f75ef5c13a00a28f19d
+source-git-commit: 5d1046a4e24c21b33d804d1ec06c05e28e77a031
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2038'
 ht-degree: 0%
 
 ---
 
 
-# Analysis Workspace-prestaties optimaliseren
+# Optimaliseren [!UICONTROL Analysis Workspace performance]
 
 Verschillende factoren kunnen de prestaties van een project in Analysis Workspace beïnvloeden. Het is belangrijk om te weten wat die contribuanten zijn alvorens u begint een project te bouwen zodat u het project op de meest optimale manier kunt plannen en bouwen. Deze pagina bevat een lijst met factoren die van invloed zijn op de prestaties en optimalisaties die u kunt maken voor optimale prestaties in Analysis Workspace.
 
@@ -19,9 +19,10 @@ Verschillende factoren kunnen de prestaties van een project in Analysis Workspac
 >
 >De pagina Prestaties in Analysis Workspace is in beperkte versie. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/analytics/landing/an-releases.html)
 
-## Help > Prestaties in Analysis Workspace
+## [!UICONTROL Help] > [!UICONTROL Performance] Analysis Workspace
 
-Onder **[!UICONTROL Analysis Workspace > Help > Performance]**, kunt u factoren zien die de prestaties van uw project, met inbegrip van netwerk, browser, en projectfactoren beïnvloeden. Voor de nauwkeurigste resultaten, sta het project toe om volledig te laden alvorens de pagina van Prestaties te openen.
+Onder **Analysis Workspace > [!UICONTROL Help] >[!UICONTROL Performance]**, kunt u factoren zien die de prestaties van uw project, met inbegrip van netwerk, browser, en projectfactoren beïnvloeden. Voor de nauwkeurigste resultaten, sta het project toe om volledig te laden alvorens de pagina van Prestaties te openen.
+
 * De Huidige kolom van het Project toont de resultaten voor uw huidige project en gebruikersmilieu.
 * In de kolom met hulplijnen wordt de aanbevolen drempelwaarde voor elke factor weergegeven.
 
@@ -35,7 +36,7 @@ Bovendien kunt u de prestatie-inhoud als CSV **** downloaden en eenvoudig delen 
 
 ## Netwerkfactoren
 
-Help > Prestatienetwerkfactoren zijn onder andere:
+[!UICONTROL Help] > [!UICONTROL Performance] Netwerkfactoren zijn onder meer:
 
 | Factor | Definitie | Beïnvloed door | Optimalisatie |
 | --- | --- | --- | --- |
@@ -45,7 +46,7 @@ Help > Prestatienetwerkfactoren zijn onder andere:
 
 ## Browserfactoren
 
-Help > Prestatiefuncties voor browsers zijn onder andere:
+[!UICONTROL Help] > [!UICONTROL Performance] Browserfactoren zijn onder andere:
 
 | Factor | Definitie | Beïnvloed door | Optimalisatie |
 | --- | --- | --- | --- |
@@ -56,7 +57,7 @@ Help > Prestatiefuncties voor browsers zijn onder andere:
 
 ## Projectfactoren
 
-Help > Prestatiegrondfactoren zijn onder andere:
+[!UICONTROL Help] > [!UICONTROL Performance] Projectfactoren omvatten:
 
 | Factor | Definitie | Optimalisatie |
 | --- | --- | --- |
@@ -88,5 +89,5 @@ Er kunnen fouten optreden bij de interactie met Analysis Workspace die ook van i
 | [!UICONTROL A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.] | Adobe heeft een probleem dat moet worden opgelost. | Stuur de foutcode naar de klantenservice. |
 | [!UICONTROL The request is too complex.] | Uw rapportageaanvraag is te groot en kan niet worden uitgevoerd. Medewerkers aan deze fout zijn onderbrekingen wegens de grootte van het verzoek, teveel overeenkomende punten in een segment of een zoekfilter, teveel inbegrepen metriek, incompatibele afmeting en metrische combinaties, enz. | Vereenvoudig uw verzoek door sommige kolommen of rijen in uw lijst te verwijderen, of denk na het splitsen van de lijst in afzonderlijke verzoeken. |
 | [!UICONTROL One of the segments or the search in this visualization contains a text search that returned too many results.] | Uw segmentcriteria of rapportfilter zijn te breed. | Verfijn uw zoektekstcriteria en probeer het verzoek opnieuw. |
-| [!UICONTROL This dimension does not currently support non-default attribution models.] | Niet-standaardtoewijzing wordt niet ondersteund voor de dimensie die u gebruikt. | Vervang de dimensie in de tabel door een dimensie die compatibel is met [Attribution IQ](../attribution/overview.md). |
+| [!UICONTROL This dimension does not currently support non-default attribution models.] | Niet-standaardtoewijzing wordt niet ondersteund voor de dimensie die u gebruikt. | Vervang de dimensie in de tabel door een dimensie die compatibel is met [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
 | [!UICONTROL Your request failed as a result of too many columns or pre-configured rows.] | Uw tabel bevat te veel vrije-vormcellen (rij * kolommen). | Verwijder kolommen of rijen in de tabel of u kunt de tabel opsplitsen in afzonderlijke aanvragen. |
