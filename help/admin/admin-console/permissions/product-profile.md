@@ -1,8 +1,8 @@
 ---
-source-git-commit: 78d9346ec82d802136cbaf2bfed31b6d25af207e
+source-git-commit: 81f351588ef25b0ee0376f471c947391387afb6e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -56,4 +56,4 @@ De hulpmiddelen van de analysehulpmiddelen verlenen toegang tot eigenschappen di
 
 Ontwikkelaars zijn vergelijkbaar met gebruikers, behalve dat ze de Experience Cloud API op Adobe I/O kunnen gebruiken. Zie [Ontwikkelaars](https://helpx.adobe.com/enterprise/using/manage-developers.html) beheren in de gebruikershandleiding voor bedrijven voor meer informatie. Als aan een gebruiker voor een profiel toegang tot de ontwikkelaar wordt verleend, hebben deze toegang tot de Dev Console (console.adobe.io) en kunnen de Adobe Analytics-integraties worden bewerkt. De API-aanroepen en antwoorden van Analytics die voor de gebruiker zijn geautoriseerd, zijn afhankelijk van de netmachtigingen van alle profielen waarin die gebruiker Developer Access heeft.
 
-Bijvoorbeeld, met toestemmingen van Analysis Workspace Access, alle metriek, alle dimensies, en één rapportreeks, kon die gebruiker succesvolle API vraag aan het /reporting eindpunt voor om het even welk rapport binnen die reeks maken. Als Anomaly Detection is toegevoegd, kunnen de rapporten uitgebreidere reacties bevatten, waarbij de afwijkende gegevens worden toegevoegd. Als vuistregel geldt dat als een profiel toegang verleent tot een scenario binnen de Adobe Analytics-interface, ontwikkelaarstoegang voor hetzelfde profiel de overeenkomstige API-aanroepen en -antwoorden mogelijk maakt.
+Met profielmachtigingen, inclusief alle metriek, alle dimensies en één rapportsuite, kan een Developer Access-lid van het profiel API-aanroepen relevant maken voor elke component in de relevante suite. Als Anomaly Detection is toegevoegd, kunnen de rapporten uitgebreidere reacties bevatten, waarbij de afwijkende gegevens worden toegevoegd. Als vuistregel geldt dat als een profiel toegang verleent tot een scenario binnen de Adobe Analytics-interface, ontwikkelaarstoegang voor een profiel dat op dezelfde manier is gedefinieerd, overeenkomstige API-aanroepen en -antwoorden mogelijk maakt.
