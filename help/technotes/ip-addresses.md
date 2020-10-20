@@ -2,9 +2,9 @@
 title: IPs en domeinen die door Adobe Analytics worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die van Adobe afkomstig zijn, gebruik deze lijst om uw firewallmontages bij te werken.
 translation-type: tm+mt
-source-git-commit: 436d0c2706f47a79cc70e4dcdbda6bd2c9a4d98c
+source-git-commit: a7955e7f6fd92fff7188711d8aef9526ebf3700f
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -144,3 +144,6 @@ Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverza
 | Virginia | `34.234.106.101` |
 | Virginia | `52.22.231.198` |
 | Virginia | `54.157.65.136` |
+| Virginia | `3.213.168.181` |
+| Virginia | `3.219.249.186` |
+| Virginia | `34.227.41.189` |
