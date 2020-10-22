@@ -2,9 +2,9 @@
 title: Postcode
 description: De postcode van de bezoeker.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,100 @@ Onder [!UICONTROL Zip option] Algemene accountinstellingen [](/help/admin/admin/
 
 >[!IMPORTANT]
 >
->De instelling van de rapportsuite is van essentieel belang als u volledige controle wilt over de manier waarop u deze dimensie invult.
+>De instelling van de rapportsuite is van essentieel belang als u volledige controle wilt hebben over de manier waarop u deze dimensie invult.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensieitems bevatten de postcode of postcode van de bezoeker.
+Dimension-objecten bevatten de postcode of postcode van de bezoeker.
+
+## Over welke postcodes kunt u in Adobe Analytics rapporteren?
+
+* Alanden
+* Albanië
+* Algerije
+* Argentinië
+* Armenië
+* Oostenrijk
+* Australië
+* Bangladesh
+* Barbados
+* België
+* Brazilië
+* Bulgarije
+* Canada
+* Chili
+* China
+* Colombia
+* Costa Rica
+* Kroatië
+* Tsjechië
+* Denemarken
+* Ecuador
+* Egypte
+* Estland
+* Finland
+* Frankrijk
+* Georgia
+* Duitsland
+* Gibraltar
+* Griekenland
+* Grenada
+* Guatemala
+* SAR Hongkong van China
+* Hongarije
+* India
+* Indonesië
+* Ierland
+* Israël
+* Italië
+* Japan
+* Jordanië
+* Kazachstan
+* Kirgizië
+* Letland
+* Libanon
+* Litouwen
+* Luxemburg
+* Maleisië
+* Malta
+* Mauritius
+* Mexico
+* Marokko
+* Mozambique
+* Nepal
+* Nederland
+* Nieuw-Zeeland
+* Noorwegen
+* Pakistan
+* Panama
+* Peru
+* Filipijnen
+* Polen
+* Portugal
+* Puerto Rico
+* Qatar
+* Roemenië
+* Russische Federatie
+* Saudi-Arabië
+* Senegal
+* Servië
+* Singapore
+* Slovenië
+* Zuid-Afrika
+* Zuid-Korea
+* Spanje
+* Sri Lanka
+* Zweden
+* Zwitserland
+* Taiwan
+* Thailand
+* Tunesië
+* Turkije
+* Oekraïne
+* Verenigde Arabische Emiraten
+* Verenigd Koninkrijk
+* Verenigde Staten
+* Uruguay
+* Oezbekistan
+* Venezuela
+* Vietnam
