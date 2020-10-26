@@ -2,9 +2,9 @@
 title: trackingServer
 description: Bepaal de locatie waarnaar verzoeken voor de afbeelding worden verzonden.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ Adobe verzamelt gegevens op uw site door een afbeeldingsaanvraag te ontvangen di
 >
 >Als u deze waarde wijzigt, zoekt AppMeasurement naar cookies op een andere locatie. Het unieke aantal bezoekers kan tijdelijk in de rapportage springen, omdat bezoekerscookies op de nieuwe locatie worden ingesteld.
 
-## Trackingserver in Adobe Experience Platform starten
+## Trackingserver in Adobe Experience Platform Launch
 
-Trackingserver is een veld onder de [!UICONTROL General] accordeon tijdens het configureren van de Adobe Analytics-extensie.
+De volgende Server is een gebied onder de [!UICONTROL General] accordeon wanneer het vormen van de uitbreiding van Adobe Analytics.
 
 1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
@@ -39,11 +39,11 @@ De `s.trackingServer` variabele is een tekenreeks die de locatie bevat waar gege
 
 ## De waarde voor trackingServer bepalen
 
-De waarde voor deze variabele is afhankelijk van het gebruik van cookies van andere bedrijven of van cookies van andere bedrijven. Adobe raadt u ten zeerste aan cookies van de eerste fabrikant in uw implementatie te gebruiken.
+De waarde voor deze variabele is afhankelijk van het gebruik van cookies van andere bedrijven of van cookies van andere bedrijven. Adobe raadt u ten zeerste aan cookies van de eerste fabrikant te gebruiken in uw implementatie.
 
 ### Cookies van eerste bedrijven
 
-Als u een first-party koekjesimplementatie gebruikt, is het waarschijnlijk dat iemand in uw organisatie reeds het eerste-partijkoekjesproces heeft voltooid. Zie [First-party koekjes in de Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) in de de gebruikersgids van de Diensten van de Kern voor meer informatie over het eerste - partijkoekjesproces.
+Als u een first-party koekjesimplementatie gebruikt, is het waarschijnlijk dat iemand in uw organisatie reeds het eerste-partijkoekjesproces heeft voltooid. Zie [Eerste-partijkoekjes in de Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) in de de gebruikersgids van de Diensten van de Kern voor meer informatie over het first-party koekjesproces.
 
 De individu die aanvankelijk de first-party koekjesimplementatie vormt bepaalt ook het domein en subdomain gebruikte. Bijvoorbeeld:
 
@@ -51,22 +51,22 @@ De individu die aanvankelijk de first-party koekjesimplementatie vormt bepaalt o
 s.trackingServer = "data.example.com";
 ```
 
-CNAME-records zijn meestal al ingesteld en wijzen ernaar `sc.omtrdc.net`. Het domein `2o7.net` is ook een geldige CNAME-bestemming, vooral gebruikt in eerdere versies van Adobe Analytics.
-
 ### Cookies van andere bedrijven
 
 >[!TIP]
 >
 >De toenemende privacy praktijken in moderne browsers maken derdekoekjes minder betrouwbaar. Adobe raadt u aan de cookie-workflow van de eerste fabrikant te volgen.
 
-Als u een cookie-implementatie van een andere fabrikant gebruikt, `trackingServer` is de waarde voor een subdomein van `sc.omtrdc.net`. Bijvoorbeeld:
+Als u een cookie-implementatie van een andere fabrikant gebruikt, `trackingServer` is de waarde voor een subdomein van `data.adobedc.net`. Bijvoorbeeld:
 
 ```js
-s.trackingServer = "example.sc.omtrdc.net";
+s.trackingServer = "example.data.adobedc.net";
 ```
 
-Kies een subdomein dat uniek is voor uw organisatie. Het is onwaarschijnlijk dat het subdomein wordt gekozen door een andere organisatie die Adobe Analytics gebruikt. Zorg ervoor dat alle implementaties in uw organisatie dezelfde trackingserver gebruiken. Het kan nuttig zijn om deze informatie in een document [van het](../../prepare/solution-design.md)oplossingsontwerp te handhaven.
+Kies een subdomein dat uniek is voor uw organisatie. Het is onwaarschijnlijk dat het wordt gekozen door een andere organisatie die Adobe Analytics gebruikt.  De aan uw organisatie toegewezen naamruimte voor bezoekers wordt aanbevolen.  Zorg ervoor dat alle implementaties in uw organisatie dezelfde trackingserver gebruiken. Het kan nuttig zijn om deze informatie in een document [van het](../../prepare/solution-design.md)oplossingsontwerp te handhaven.
+
+Uw organisatie gebruikt mogelijk al een trackingserver van derden in de `sc.omtrdc.net` domeinen of in de `2o7.net` domeinen.  Deze werden voornamelijk gebruikt in eerdere versies van Adobe Analytics en zijn nog steeds geldig.
 
 >[!NOTE]
 >
->Gebruik geen subdomeinen die dieper zijn dan `example.sc.omtrdc.net`. Is bijvoorbeeld `custom.example.sc.omtrdc.net` geen geldige trackingserver.
+>Gebruik geen subdomeinen die dieper zijn dan `example.data.adobedc.net`. Is bijvoorbeeld `custom.example.data.adobedc.net` geen geldige trackingserver.
