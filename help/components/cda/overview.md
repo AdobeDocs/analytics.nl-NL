@@ -2,9 +2,9 @@
 title: Cross-device Analytics
 description: Verander uw gegevens van apparaat-geconcentreerd in persoon-geconcentreerd door apparatengegevens samen te stikken.
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Met CDA kunt u vragen beantwoorden zoals:
 * Wat zijn de gemeenschappelijkste wegen die gebruikers van één apparaat aan een ander nemen? Waar komen ze uit? Waar slagen ze?
 * Hoe verschilt het gedrag van gebruikers met meerdere apparaten van de gebruikers met één apparaat?
 
-Wanneer de apparaten worden vastgezet, veranderlijke persistentie wordt gedragen over apparaten. Een gebruiker bezoekt bijvoorbeeld eerst uw site via een advertentie op zijn desktopcomputer. Deze gebruiker zoekt uw mobiele app, installeert deze en koopt deze uiteindelijk op zijn mobiele apparaat. Met Cross-Device Analytics kunnen opbrengsten worden toegeschreven aan de advertentie waarop ze op hun desktopcomputer hebben geklikt.
+Wanneer de apparaten worden vastgezet, veranderlijke persistentie wordt gedragen over apparaten. Een gebruiker bezoekt bijvoorbeeld eerst uw site via een advertentie op zijn desktopcomputer. Deze gebruiker zoekt uw mobiele app, installeert deze en koopt deze uiteindelijk op zijn mobiele apparaat. Met Cross-Device Analytics kunt u opbrengsten op het mobiele apparaat toewijzen aan de advertentie waarop zij op hun desktopcomputer hebben geklikt.
 
 Uit een geest van partnerschap en transparantie willen wij dat onze klanten zich bewust zijn van ons gebruik van Microsoft Azure in combinatie met Cross-Device Analytics. Adobe gebruikt Azure om grafiekgegevens van apparaten op te slaan en om overspannen-apparaat het stitching uit te voeren. Als dusdanig, worden de gegevens van Adobe Analytics overgegaan - en - tussen Adobe verwerkend centrum en Adobe geleverde instanties van Microsoft Azure.
 
