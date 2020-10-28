@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Hulplijn exporteren
 user-guide-description: Gebruik Gegevensfeeds als u onbewerkte gegevens per uur of per dag wilt exporteren. Gebruik Data Warehouse om een spreadsheetuitvoer van gegevens op te halen.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 85%
+source-wordcount: '283'
+ht-degree: 84%
 
 ---
 
@@ -43,7 +43,6 @@ ht-degree: 85%
    + [Een terugkerend verzoek plannen](data-warehouse/dw-schedule-recurring.md)
    + [Verzoeken in Data Warehouse beheren](data-warehouse/data-warehouse-requests-manage.md)
    + [Ondersteunde componenten in Data Warehouse](data-warehouse/component-support.md)
-   + [Dimensies die niet compatibel zijn met Data Warehouse-segmenten](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [Veelgestelde vragen over Data Warehouse](data-warehouse/faq.md)
    + [Best practices voor Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP en SFTP {#ftp-and-sftp}
