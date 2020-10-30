@@ -5,9 +5,9 @@ user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: De hulp organiseert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, en alarm.
 translation-type: tm+mt
-source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
+source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 55%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 55%
    + [Laatste aanraakkanaal](dimensions/last-touch-channel.md)
    + [Laatste aanraakkanaaldetail](dimensions/last-touch-detail.md)
    + [Marketingkanaal](dimensions/marketing-channel.md)
+   + [Detailgegevens marketingkanaal](dimensions/marketing-detail.md)
    + [Minuut](dimensions/minute.md)
    + [Mobiele afmetingen](dimensions/mobile-dimensions.md)
    + [Monitorresolutie](dimensions/monitor-resolution.md)
