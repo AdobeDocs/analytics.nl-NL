@@ -5,9 +5,9 @@ user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Report Builder en Activity Map.
 translation-type: tm+mt
-source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+source-git-commit: 6b191170130018fd9c3555f4470962c702e52cd7
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1114'
 ht-degree: 91%
 
 ---
@@ -123,6 +123,7 @@ ht-degree: 91%
    + Veelgestelde vragen over Workspace {#workspace-faq}
       + [Veelgestelde vragen](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace-prestaties optimaliseren](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [Foutberichten](analysis-workspace/workspace-faq/error-messages.md)
       + [Analysis Workspace vergeleken met Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Beperkingen van Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Beheervereisten](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
