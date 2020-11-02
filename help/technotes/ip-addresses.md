@@ -2,7 +2,7 @@
 title: IPs en domeinen die door Adobe Analytics worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die van Adobe afkomstig zijn, gebruik deze lijst om uw firewallmontages bij te werken.
 translation-type: tm+mt
-source-git-commit: 5115fb38815997842fcf6131755b9a0fc8f51fc9
+source-git-commit: 6258154ab299d6f01ffcab866a5f9677778025da
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -123,9 +123,9 @@ Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverza
 | Frankrijk | `15.237.76.117` |
 | Frankrijk | `15.237.136.106` |
 | Frankrijk | `35.181.18.61` |
-| India | `13.232.177.101` |
-| India | `13.235.4.163` |
-| India | `3.6.119.69` |
+| India | `65.0.114.116` |
+| India | `65.0.115.179` |
+| India | `65.0.25.111` |
 | Ierland | `18.202.158.78` |
 | Ierland | `54.72.205.114` |
 | Ierland | `54.78.36.71` |
@@ -135,9 +135,9 @@ Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverza
 | Singapore | `52.220.116.94` |
 | Singapore | `52.76.68.91` |
 | Singapore | `54.179.114.68` |
-| Tokyo | `13.112.72.86` |
-| Tokyo | `18.178.74.225` |
-| Tokyo | `18.179.88.228` |
+| Tokyo | `18.182.161.178` |
+| Tokyo | `54.168.58.167` |
+| Tokyo | `54.178.61.109` |
 | Virginia | `3.213.168.181` |
 | Virginia | `3.219.249.186` |
 | Virginia | `3.220.129.153` |
