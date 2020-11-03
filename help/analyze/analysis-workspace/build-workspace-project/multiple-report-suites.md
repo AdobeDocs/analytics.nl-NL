@@ -1,15 +1,18 @@
 ---
-title: Meerdere rapportsuites in Workspace
+title: Meerdere rapportsuites
 description: Leer hoe en waarom u projecten maakt in Workspace met meerdere rapportsuite
 translation-type: tm+mt
-source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 0%
 
 ---
 
 
-# Meerdere rapportsuites in Workspace
+# Meerdere rapportsuites
 
-U kunt projecten in de Werkruimte van de Analyse met gegevens van meer dan één rapportreeks nu tot stand brengen. De reeksen van het rapport worden nu gekozen op het paneelniveau, zodat kunt u een verschillende rapportreeks voor elk paneel binnen het zelfde project van de Werkruimte kiezen.
+U kunt nu projecten in Analysis Workspace maken met gegevens uit meerdere rapportenpakketten. De reeksen van het rapport worden nu gekozen op het paneelniveau, zodat kunt u een verschillende rapportreeks voor elk paneel binnen het zelfde project van de Werkruimte kiezen.
 
 Deze mogelijkheid is handig als u bijvoorbeeld
 
