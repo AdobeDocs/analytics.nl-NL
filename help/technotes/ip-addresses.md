@@ -2,9 +2,9 @@
 title: IPs en domeinen die door Adobe Analytics worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die van Adobe afkomstig zijn, gebruik deze lijst om uw firewallmontages bij te werken.
 translation-type: tm+mt
-source-git-commit: 6258154ab299d6f01ffcab866a5f9677778025da
+source-git-commit: 80eab18fd133875c90ca72532867a8839938364f
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,8 @@ Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverza
 | Australië | `13.238.77.77` |
 | Australië | `52.62.21.192` |
 | Australië | `54.66.152.159` |
+| China | `52.81.111.133` |
+| China | `140.179.22.22` |
 | Frankrijk | `15.237.76.117` |
 | Frankrijk | `15.237.136.106` |
 | Frankrijk | `35.181.18.61` |
