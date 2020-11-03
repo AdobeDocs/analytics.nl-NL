@@ -1,21 +1,19 @@
 ---
 description: De interactie van het toetsenbord, kortere wegsleutels en punt-en-klik gedrag beschikbaar in Analysis Workspace.
 keywords: Analysis Workspace
-title: Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace
-topic: Reports and analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
+title: Hotkeys (sneltoetsen)
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 5%
 
 ---
 
 
-# Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace
+# Hotkeys (sneltoetsen)
 
-Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace voor naadloze navigatie, analyse en democratisering.
+Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace voor naadloze navigatie, analyse, het toevoegen van deelvensters en visualisaties, en democratisering (delen).
 
 Opmerking:
 * `Ctrl` = Windows en `Command` = Mac
