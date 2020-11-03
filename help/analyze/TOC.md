@@ -5,10 +5,10 @@ user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Report Builder en Activity Map.
 translation-type: tm+mt
-source-git-commit: 6b191170130018fd9c3555f4470962c702e52cd7
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 91%
+source-wordcount: '1107'
+ht-degree: 90%
 
 ---
 
@@ -23,17 +23,10 @@ ht-degree: 91%
       + [Project maken - overzicht](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
       + [Sjablonen](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [Meerdere rapportsuites in Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + Instellingen voor kolommen en rijen {#column-row-settings}
-         + [Kolominstellingen](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
-         + [Rij-instellingen](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [Dynamische versus statische items](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
-      + [Instellingen ongedaan maken en opnieuw uitvoeren](analysis-workspace/build-workspace-project/undo-redo.md)
-      + [Beschikbare hotkeys in Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-      + [Pagineren, filteren en tabellen sorteren](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
+      + [Meerdere rapportsuites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [Hotkeys (sneltoetsen)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Kleurenpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Dichtheid weergeven](analysis-workspace/build-workspace-project/view-density.md)
-      + [Workspace-totalen](analysis-workspace/build-workspace-project/workspace-totals.md)
    + Onderdelen {#components}
       + [Overzicht van onderdelen](analysis-workspace/components/analysis-workspace-components.md)
       + Dimensies {#dimensions}
@@ -49,7 +42,14 @@ ht-degree: 91%
    + Visualisaties {#visualizations}
       + [Overzicht van visualisaties](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Databronnen beheren](analysis-workspace/visualizations/t-sync-visualization.md)
-      + [Vrije-vormentabel](analysis-workspace/visualizations/freeform-table.md)
+      + Vrije-vormentabel {#freeform-table}
+         + [Vrije-vormentabel](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + Instellingen voor kolommen en rijen {#column-row-settings}
+            + [Kolominstellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
+            + [Rij-instellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+            + [Dynamische versus statische items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [Pagineren, filteren en tabellen sorteren](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [Workspace-totalen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohorttabel {#cohort-table}
          + [Wat is cohortanalyse?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Een rapport voor cohortanalyse configureren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
