@@ -3,10 +3,10 @@ description: Nieuwe functies in Analysis Workspace.
 keywords: Analysis Workspace
 title: Nieuwe functies in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '8021'
-ht-degree: 93%
+source-wordcount: '8024'
+ht-degree: 92%
 
 ---
 
@@ -105,7 +105,7 @@ Nieuwe functie uitgebracht op 16 januari 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| [Vrije-vormtabellen samenstellen](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Als u de functie voor samenstellen van tabellen inschakelt, kunt u allerlei dimensies, uitsplitsingen, metrics en segmenten plaatsen om tabellen te bouwen waarmee complexe zakelijke vragen worden beantwoord. Gegevens worden niet meteen bijgewerkt. In plaats daarvan vindt de update plaats nadat u op **[!UICONTROL Build]** klikt, zodat u tijd bespaart wanneer u weet welke tabel u wilt samenstellen. Bovendien biedt deze functie:<ul><li>**Voorvertoning**: u kunt een voorbeeld van de tabelindeling bekijken voordat gaat werken aan het renderen van echte gegevens.</li><li>**Flexibele instellingen voor rij en uitsplitsing**: u kunt nu een rij- en uitsplitsingsniveau instellen voor elke dimensierij. Eerder werden in Workspace standaardinstellingen ingesteld die pas konden worden gewijzigd nadat de gegevens waren geretourneerd.</li><li>**Uitsplitsing naar positie**: u kunt dimensierijen zo instellen dat ze altijd _worden uitgesplitst op positie_ in plaats van _op een bepaald item_ (de standaardinstelling).</li><li>**Handmatige statische rijvolgorde**: u kunt statische rijen handmatig ordenen, zodat tabelrijen precies zo worden weergegeven als nodig is. Voorheen konden statische rijen alleen worden gesorteerd op een kolom met metrics, of alfabetisch.</li></ul> |
+| [Vrije-vormtabellen samenstellen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | Als u de functie voor samenstellen van tabellen inschakelt, kunt u allerlei dimensies, uitsplitsingen, metrics en segmenten plaatsen om tabellen te bouwen waarmee complexe zakelijke vragen worden beantwoord. Gegevens worden niet meteen bijgewerkt. In plaats daarvan vindt de update plaats nadat u op **[!UICONTROL Build]** klikt, zodat u tijd bespaart wanneer u weet welke tabel u wilt samenstellen. Bovendien biedt deze functie:<ul><li>**Voorvertoning**: u kunt een voorbeeld van de tabelindeling bekijken voordat gaat werken aan het renderen van echte gegevens.</li><li>**Flexibele instellingen voor rij en uitsplitsing**: u kunt nu een rij- en uitsplitsingsniveau instellen voor elke dimensierij. Eerder werden in Workspace standaardinstellingen ingesteld die pas konden worden gewijzigd nadat de gegevens waren geretourneerd.</li><li>**Uitsplitsing naar positie**: u kunt dimensierijen zo instellen dat ze altijd _worden uitgesplitst op positie_ in plaats van _op een bepaald item_ (de standaardinstelling).</li><li>**Handmatige statische rijvolgorde**: u kunt statische rijen handmatig ordenen, zodat tabelrijen precies zo worden weergegeven als nodig is. Voorheen konden statische rijen alleen worden gesorteerd op een kolom met metrics, of alfabetisch.</li></ul> |
 
 ## Oktober 2019
 
@@ -113,7 +113,7 @@ Verbeteringen uitgebracht op 10 oktober 2019.
 
 | Verbetering | Beschrijving |
 |--- |--- |
-| Bijwerken naar totalen in vrije-vormtabellen | Vrije-vormtabellen bevatten nu twee totalen, een **[!UICONTROL Table total]** en een **[!UICONTROL Grand total]**. De rij Tabeltotaal werkt op basis van de toegepaste [rapportfilters](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html). Voorheen werden totalen alleen beïnvloed door segmentatie. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>Daarnaast zijn de opties **[!UICONTROL Show Totals]** en **[!UICONTROL Show Grand Total]** toegevoegd aan **[!UICONTROL Column Settings]**.<br/>Met deze wijziging in de vrije-vormtotalen worden afhankelijke visualisaties bijgewerkt (bijvoorbeeld gekoppelde **[!UICONTROL Summary Number]** visualisaties), net als geëxporteerde CSV- en PDF-data. |
+| Bijwerken naar totalen in vrije-vormtabellen | Vrije-vormtabellen bevatten nu twee totalen, een **[!UICONTROL Table total]** en een **[!UICONTROL Grand total]**. De rij Tabeltotaal werkt op basis van de toegepaste [rapportfilters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html). Voorheen werden totalen alleen beïnvloed door segmentatie. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>Daarnaast zijn de opties **[!UICONTROL Show Totals]** en **[!UICONTROL Show Grand Total]** toegevoegd aan **[!UICONTROL Column Settings]**.<br/>Met deze wijziging in de vrije-vormtotalen worden afhankelijke visualisaties bijgewerkt (bijvoorbeeld gekoppelde **[!UICONTROL Summary Number]** visualisaties), net als geëxporteerde CSV- en PDF-data. |
 | Optie voor het verwijderen van Niet-opgegeven/Geen | Bij de rapportagefilters kunt u nu de optie &quot;Niet-opgegeven (Geen)&quot; gemakkelijk verwijderen. |
 | Paarse granulariteitscomponenten buiten gebruik | De paarse tijdcomponenten voor granulariteit (Minuut, Uur, Dag, Week, Maand, Kwartaal, Jaar) zijn verouderd en buiten gebruik gesteld. De paarse tijdcomponenten gedragen zich exact hetzelfde als hun oranje tegenhangers voor dimensies. De gebruikservaring is met deze verwijdering vereenvoudigd. U hoeft **geen actie** te ondernemen als u voorheen een van de paarse tijdcomponenten hebt gebruikt.<br/>Door deze wijziging is de naam van de paarse **[!UICONTROL Time]**-sectie ook gewijzigd in **[!UICONTROL Date Ranges]**. |
 
@@ -366,11 +366,11 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 12 april 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Tekstomloop voor kopteksten is standaard ingeschakeld </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Tekstomloop voor kopteksten is standaard ingeschakeld </a> </p> </td> 
    <td colname="col2"> <p>De kolominstelling voor <span class="uicontrol"> tekstomloop voor kopteksten </span> is nu standaard ingeschakeld voor vrije-vormtabellen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Nieuwe rij-instelling </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Nieuwe rij-instelling </a> </p> </td> 
    <td colname="col2"> <p>De nieuwe instelling voor <span class="uicontrol"> percentage berekenen per rij</span> forceert de vrije-vormtabel om celpercentages per rij te berekenen in plaats van per kolom. Dit is vooral nuttig voor het trending percentages, zoals het trending hoe één afmetingspunt tegen de rest in tijd evenaart. Deze optie is standaard ingeschakeld wanneer u op het pictogram <span class="uicontrol"> Visualiseren </span> klikt. </p> </td> 
   </tr> 
   <tr> 
@@ -397,7 +397,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 8 maart 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Tekstomloop voor koptekst </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Tekstomloop voor koptekst </a> </p> </td> 
    <td colname="col2"> <p>U kunt nu tekstomloop toepassen in de kopteksten van vrije-vormtabellen. Zo worden kopteksten leesbaarder en kunt u tabellen gemakkelijker delen met anderen. We hebben een optie voor tekstomloop toegevoegd voor de kolominstellingen. Dit is met name handig voor PDF-rendering en voor metrics met lange namen. </p> </td> 
   </tr> 
   <tr> 
@@ -453,11 +453,11 @@ Nieuwe functies en verbeteringen uitgebracht op 8 februari 2018.
    <td colname="col2"> <p>We hebben de optie 'Kopiëren naar klembord' toegevoegd aan het contextmenu dat verschijnt wanneer u op de rechtermuisknop klikt. Zo kunt u cellen en tabellen consistent kopiëren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Verbeteringen voor kolompercentages </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Verbeteringen voor kolompercentages </a> </p> </td> 
    <td colname="col2"> <p>Het in kolommen weergegeven "percentage van het totaal" was beperkt tot 100%, zelfs als bepaalde scenario's ertoe leiden dat rijen meer dan 100% van het totaal bedragen (bijvoorbeeld bij gemiddelden). </p> <p>Om nog nauwkeuriger te zijn laten we nu percentages zien die hoger zijn dan 100 procent. De bovengrens is ook verhoogd naar 1000%, zodat kolommen niet worden beperkt in de breedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Voorwaardelijke opmaak ingeschakeld voor uitsplitsingen</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Voorwaardelijke opmaak ingeschakeld voor uitsplitsingen</a> </p> </td> 
    <td colname="col2"> <p>Voorwaardelijke opmaak (kleuren, enz.) wordt nu automatisch toegepast in vrije-vormtabellen voor uitsplitsingen, tenzij aangepaste limieten zijn geselecteerd. </p> </td> 
   </tr> 
   <tr> 
@@ -484,7 +484,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Meer<a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  > filteropties </a> voor dimensie-items in vrije-vormtabellen </p> </td> 
+   <td colname="col1"> <p>Meer<a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  > filteropties </a> voor dimensie-items in vrije-vormtabellen </p> </td> 
    <td colname="col2"> <p>De volgende (geavanceerde) filteropties voor dimensie-items zijn toegevoegd naast de bestaande opties "contains" en "does not contain" (respectievelijk "bevat" en "bevat niet"): </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">Contains all terms (Bevat alle termen) </li> 
@@ -515,7 +515,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
    <td colname="col2"> <p>Wanneer u de meest linkse kolom verbreedt of verkleint, blijven de breedtepercentages van de overige kolommen nu in Workspace behouden (en wordt de breedte van de volgende kolom aan de rechterkant niet meer eenvoudigweg aangepast). Zo kunt u nog sneller tabellen maken voor analyse en delen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>In tabellen worden nu <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > 400 rijen </a> weergegeven </p> </td> 
+   <td colname="col1"> <p>In tabellen worden nu <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 400 rijen </a> weergegeven </p> </td> 
    <td colname="col2"> <p>U kunt nu 400 rijen in een tabel weergeven (dit was 200), zodat u ook trends van 365 dagen kunt weergeven. </p> </td> 
   </tr> 
   <tr> 
@@ -655,7 +655,7 @@ Nieuwe functies uitgebracht op 21 september 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Meerdere kolommen tegelijk beheren in vrije-vormtabellen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Meerdere kolommen tegelijk beheren in vrije-vormtabellen </a> </p> </td> 
    <td colname="col2"> <p>U kunt nu de instellingen voor meerdere kolommen tegelijk wijzigen. Dit is heel eenvoudig: selecteer meerdere kolommen en klik op het instellingenpictogram van een van de kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle kolommen waarin u cellen hebt geselecteerd. </p> </td> 
   </tr> 
   <tr> 
@@ -814,7 +814,7 @@ Nieuwe functies uitgebracht op 8 juni 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Selectievakje "Use Percent Limits" (Percentagelimieten gebruiken) </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Selectievakje "Use Percent Limits" (Percentagelimieten gebruiken) </a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> Dit selectievakje is toegevoegd om percentagelimieten aan te geven, vooral voor op percentage-gebaseerde metrics (werkt ook met metrics die niet op percentages zijn gebaseerd). </li> 
@@ -866,7 +866,7 @@ Nieuwe functies uitgebracht op 20 april 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbeteringen voor Ongedaan maken/Opnieuw </p> </td> 
-   <td colname="col2"> <p>Deze lijsten tonen welke handelingen u wel of niet <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > ongedaan kunt maken of opnieuw uitvoeren in Analysis Workspace</a>. </p> </td> 
+   <td colname="col2"> <p>Deze lijsten tonen welke handelingen u wel of niet  ongedaan kunt maken of opnieuw uitvoeren in Analysis Workspace</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -884,7 +884,7 @@ Nieuwe functie uitgebracht op 16 februari 2017:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Uitsplitsing naar positie </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Uitsplitsing naar positie </a> </p> </td> 
    <td colname="col2"> <p>Hiermee kunt u uitsplitsen op tabelpositie. Voorbeeld: "Ik wil altijd dat de bovenste 7 rijen in een vrije-vormtabel worden uitgesplitst." Er is nu een selectievakje wanneer u een vrije-vormtabel maakt. Hiermee kunt u "Uitsplitsing op positie" inschakelen. Deze instelling is standaard uitgeschakeld. </p> <p>Voorheen was de lijst met waarden in de uitsplitsing "vergrendeld". Dit leidde tot situaties waarin u een lijst met de 50 bovenste pagina's kreeg voor uw geselecteerde datumbereik als u <span class="wintitle"> Datum </span> uitsplitste op <span class="wintitle"> Pagina</span>. </p> <p>Als u dat rapport opsloeg en een maand later weer zou uitvoeren, zouden de bovenste 50 pagina's waarschijnlijk allemaal anders zijn. Desondanks "vertrouwde" Analysis Workspace de resultaten van de originele uitsplitsing en werden dezelfde pagina's geretourneerd, maar met de huidige maand als datumbereik. </p> </td> 
   </tr> 
  </tbody> 
@@ -1037,7 +1037,7 @@ Nieuwe functies uitgebracht op 16 juni 2016:
 * Een nieuw [Venn-visualisatietype](/help/analyze/analysis-workspace/visualizations/venn.md) waarmee u tot 3 segmenten en een metric kunt slepen om een Venn-diagram te maken.
 * [Trendselectie](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (lijndiagram) op een gerangschikte tabel is nu gekoppeld.
 * [Pictogram &quot;Create Visual&quot;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) (Zichtbaar maken): als u op dit pictogram klikt, wordt er een intelligente schatting gedaan van uw volgende handeling (staafdiagram, Venn...).
-* Uitgebreide functionaliteit voor [handmatige rijen](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+* Uitgebreide functionaliteit voor [handmatige rijen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
 * Neerzetzone voor [toevoegen van segment](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)
 * Kleine updates:
 
