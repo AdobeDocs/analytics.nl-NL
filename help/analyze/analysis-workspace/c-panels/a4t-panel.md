@@ -2,10 +2,10 @@
 description: Met Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace analyseren.
 title: Analyses voor venster Doel (A4T)
 translation-type: tm+mt
-source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
+source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 2%
+source-wordcount: '1022'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ U kunt het deelvenster A4T configureren met behulp van de volgende invoerinstell
 
 | Instelling | Beschrijving |
 |---|---|
-| Doelactiviteit | Selecteer een activiteit in de lijst Doelactiviteiten of sleep een activiteit vanuit de linkerrail.<br>**Opmerking:** De lijst bevat de laatste zes maanden van activiteiten die ten minste één hit hadden. Als u geen activiteit ziet in de lijst, kan deze ouder zijn dan 6 maanden. Het kan nog steeds worden toegevoegd vanaf de linkerspoorlijn, die een terugkijkperiode van maximaal 18 maanden heeft. |
+| Doelactiviteit | Selecteer een activiteit in de lijst Doelactiviteiten of sleep een activiteit vanuit de linkerrail. Opmerking: De lijst bevat de laatste zes maanden van activiteiten die ten minste één hit hadden. Als u geen activiteit ziet in de lijst, kan deze ouder zijn dan 6 maanden. Het kan nog steeds worden toegevoegd vanaf de linkerspoorlijn, die een terugkijkperiode van maximaal 18 maanden heeft. |
 | Controle | Selecteer uw ervaring met besturing. U kunt deze desgewenst wijzigen in de vervolgkeuzelijst. |
 | Metrisch normaliseren | U kunt kiezen uit Unieke bezoekers, Bezoekingen of Activiteitenindrukkingen. Unieke bezoekers wordt aanbevolen voor de meeste gevallen waarin u analyses gebruikt. Deze maatstaf (ook wel de telmethode genoemd) wordt de noemer van de berekening van de lift. Het beïnvloedt ook hoe de gegevens worden geaggregeerd voordat de betrouwbaarheidsberekening wordt toegepast. |
 | Succeswaarden | Selecteer maximaal drie standaard (niet-berekende) succesgebeurtenissen uit de vervolgkeuzelijsten of sleep- en neerzetmetriek uit het linkerspoor. Elke metrisch zal een specifieke lijst en visualisatie in het teruggegeven paneel hebben. |
@@ -44,11 +44,11 @@ Elke vrije-vormlijst toont de volgende metrische kolommen:
 | Metriek normaliseren | Unieke bezoekers, bezoeken of activiteitsimpressies. |
 | Metrisch met succes | De metrische waarde die is geselecteerd in de builder |
 | Omrekeningskoers | Metrisch/Normaliserend met succes |
-| Optillen | Vergelijkt de omrekeningskoers voor elke ervaring met controle.<br>**Opmerking:** Lift is &quot;gesloten metrisch&quot;aan de Ervaringen van het Doel; het kan niet worden uitgesplitst of met andere afmetingen worden gebruikt. |
-| Lift (onder) | Vertegenwoordigt de slechtste lift een variantervaring over de controle kon hebben. |
-| Lift (middellang) | Vertegenwoordigt de middelpuntlift een variantervaring over de controle, met een 95% betrouwbaarheidsinterval kon hebben. Dit is &quot;optillen&quot;in Rapporten &amp; Analytics. |
-| Lift (boven) | Vertegenwoordigt de beste lift een variantervaring over de controle kon hebben. |
-| Vertrouwen | De studenten t-test berekent het betrouwbaarheidsniveau, dat op de waarschijnlijkheid wijst dat de resultaten zouden worden gedupliceerd als de test opnieuw in werking werd gesteld. Een vast voorwaardelijk opmaakbereik van 75%/85%/95% is toegepast op de metrische waarde. Deze opmaak kan indien nodig worden aangepast onder Kolominstellingen. <br>**Opmerking:** Vertrouwen is &quot;gesloten metrisch&quot;aan de Ervaringen van het Doel; het kan niet worden uitgesplitst of met andere afmetingen worden gebruikt. |
+| Optillen | Vergelijkt de omrekeningskoers voor elke ervaring met controle. Opmerking: Lift is &quot;gesloten metrisch&quot;aan de Ervaringen van het Doel; het kan niet worden uitgesplitst of met andere afmetingen worden gebruikt. |
+| Lift (onder) | Vertegenwoordigt de slechtste lift die een variantervaring over de controle, met een 95% betrouwbaarheidsinterval kon hebben.<br>Berekening: (x/y ± 1,96 std_err(x,y)) / (x_control/y_control ∓ 1,96 std_err(x_control,y_control)). Hier is std_err(x,y) sqrt(xx/y - (x/y)^2), waarbij xx de som van de vierkanten aangeeft. |
+| Lift (middellang) | Vertegenwoordigt de middelpuntlift een variantervaring over de controle, met een 95% betrouwbaarheidsinterval kon hebben. Dit is &quot;optillen&quot;in Rapporten &amp; Analytics.<br>Berekening: (x/y)/(x_control/y_control) - 1 |
+| Lift (boven) | Vertegenwoordigt de beste hefervaring een variantervaring over de controle, met een 95% betrouwbaarheidsinterval kon hebben.<br>Berekening: Zie Lift (onder). |
+| Vertrouwen | De studenten t-test berekent het betrouwbaarheidsniveau, dat op de waarschijnlijkheid wijst dat de resultaten zouden worden gedupliceerd als de test opnieuw in werking werd gesteld. Een vast voorwaardelijk opmaakbereik van 75%/85%/95% is toegepast op de metrische waarde. Deze opmaak kan indien nodig worden aangepast onder Kolominstellingen. Opmerking: Vertrouwen is &quot;gesloten metrisch&quot;aan de Ervaringen van het Doel; het kan niet worden uitgesplitst of met andere afmetingen worden gebruikt.<br>Berekening: Pas een t-test met twee trappen toe met y+y_control-2 graden aan vrijheid om de p-waarde te vinden of x/y gelijk is aan x_control/y_control. Verwerk de t-score, waarbij stderr sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control) is. Retourneer 1-p als het vertrouwen dat ze anders zijn. |
 
 Net als bij elk deelvenster in Analysis Workspace kunt u uw analyse voortzetten door extra tabellen en [visualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) toe te voegen die u helpen uw Adobe Target-activiteiten te analyseren.
 
