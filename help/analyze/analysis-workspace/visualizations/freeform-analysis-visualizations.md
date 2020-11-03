@@ -3,7 +3,7 @@ description: Meer informatie over visualisatie- en visualisatie-instellingen in 
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 4%
@@ -26,7 +26,7 @@ Videozelfstudie: [Visualisatietypen in Analysis Workspace](https://docs.adobe.co
 | [Cirkeldiagram](/help/analyze/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. |
 | [Uitval](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Uit de uitvalrapporten blijkt waar bezoekers een vooraf gedefinieerde reeks pagina&#39;s hebben verlaten (uitgevallen) en doorlopen (doorgevallen). |
 | [Stroom](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Kies deze optie om klantpaden weer te geven via uw websites en apps. |
-| [Vrije-vormentabel](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Een tabel met vrije vorm is niet alleen een gegevenstabel, maar ook een interactieve visualisatie. |
+| [Vrije-vormentabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Een tabel met vrije vorm is niet alleen een gegevenstabel, maar ook een interactieve visualisatie. |
 | [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md) | Een histogram lijkt op een staafdiagram, maar het groepeert getallen in bereiken (emmers). |
 | [Horizontale balk](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Hiermee geeft u horizontale balken weer die verschillende waarden voor een of meer metriek vertegenwoordigen. |
 | [Lijn](/help/analyze/analysis-workspace/visualizations/line.md) | Vertegenwoordigt metriek die een lijn gebruiken om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt. |
