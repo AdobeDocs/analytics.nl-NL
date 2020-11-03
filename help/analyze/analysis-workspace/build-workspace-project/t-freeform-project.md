@@ -5,7 +5,7 @@ title: Een Workspace-project maken
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 14%
@@ -73,7 +73,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
    <td colname="col2"> <p>Items die u naar het deelvenster of de projectgebieden van de interface kunt slepen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > Deelvenster Vrije vorm </a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > Deelvenster Vrije vorm </a> </td> 
    <td colname="col2"> <p>Het canvas of de werkruimte waarmee u in Analysis Workspace werkt. </p> </td> 
   </tr> 
  </tbody> 
