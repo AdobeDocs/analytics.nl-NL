@@ -2,7 +2,7 @@
 title: XDM-gegevens gebruiken met Analytics
 description: 'Overzicht van het gebruik van XDM-gegevens van Experience Platform in Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: 0a570f52c3eb62ca517770fa12f2272f6ccc978d
+source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Analytics verzamelt XDM-gegevens via twee methoden:
 
 ## Automatische toewijzing
 
-[Automatische toewijzing](xdm-manual.md) vertrouwt op een standaardschema [](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) in XDM dat automatisch JSON voorwerpen bevolkt die in typische de gegevensinzameling van de Analyse inbegrepen zijn. De variabelen van Analytics die automatisch van XDM aan uw gevormde rapportreeksen worden in kaart gebracht vereisen geen ontwikkelaarssteun om op te nemen.
+Automatische toewijzing is afhankelijk van een standaardschema [](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) in de XDM dat JSON-objecten automatisch vult die zijn opgenomen in de gegevensverzameling Analytics. De variabelen van Analytics die automatisch van XDM aan uw gevormde rapportreeksen worden in kaart gebracht vereisen geen ontwikkelaarssteun om op te nemen.
 
 ## Handmatige toewijzing
 
-Handmatige toewijzing van XDM-gegevens aan Analytics is afhankelijk van [analytics-contextgegevensvariabelen](../vars/page-vars/contextdata.md) . Deze variabelen worden in JSON-objecten geplaatst die overeenkomen met de toepasselijke schema&#39;s. Typisch, voegt uw ontwikkelingsteam contextgegevens bij implementatie toe en dan Admins vastgestelde [verwerkingsregels](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) om die gegevens op gespecificeerde rapportreeksen toe te passen.
+[Handmatige toewijzing van XDM-gegevens aan Analytics](xdm-manual.md) is afhankelijk van [analytics-contextgegevensvariabelen](../vars/page-vars/contextdata.md) . Deze variabelen worden in JSON-objecten geplaatst die overeenkomen met de toepasselijke schema&#39;s. Typisch, voegt uw ontwikkelingsteam contextgegevens bij implementatie toe en dan Admins vastgestelde [verwerkingsregels](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) om die gegevens op gespecificeerde rapportreeksen toe te passen.
 
 ## Instellen
 
