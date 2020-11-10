@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor importeren van analysemogelijkheden
 breadcrumb-title: Hulplijn importeren
 user-guide-description: 'Gegevens van externe bronnen in Analytics opnemen, in bulk of real-time. '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 96%
+source-wordcount: '525'
+ht-degree: 94%
 
 ---
 
@@ -128,3 +128,5 @@ ht-degree: 96%
       + [Variabelen voor analytische integratie](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Silverpop-integratie](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Code plug-in Analytics](data-connectors/silverpop-overview/silverpop-analytics-code.md)
++ Gebruiksscenario&#39;s importeren {#use-cases}
+   + [Betaalde zoekgegevens importeren met behulp van gegevensbronnen](use-cases/paid-search-metrics.md)
