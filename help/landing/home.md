@@ -2,10 +2,10 @@
 title: Technische documentatiehandleidingen voor Adobe Analytics
 description: Analytics-gebruikershandleidingen en -bronnen
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 13fefcf8f743d1890044e2ac6b5864846d2c8cb7
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 99%
+source-wordcount: '411'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ Welkom bij de startpagina van het product en de technische documentatie van Adob
 
 [![Integratie](assets/integrate_50px.png)](/help/integrate/home.md) [Integratiehandleiding](/help/integrate/home.md) – Configureer integraties met andere Adobe Experience Cloud-oplossingen zoals Audience Manager, Advertising Cloud en Target.
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) [Media Analytics-handleiding](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) – Implementeer Analytics in audio- of videobronnen. Bevat de Media-SDK en de Media Collection-API.
+[![Streaming Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)[Streaming Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - Implementeer Adobe Analytics for Streaming Media. Bevat de Media-SDK en de Media Collection-API.
 
 [![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) [Data Workbench-handleidingen](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) – Ontdek meer over de uiterst flexibele, krachtige, meerkanaalsmogelijkheden van [!UICONTROL Data Workbench]. Inclusief [!UICONTROL Data Workbench Client], installatie, [!UICONTROL Dataset Configuration] handleidingen en meer.
 
