@@ -5,10 +5,10 @@ user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: 'Pas aan welke gegevens worden verzameld om meer uit Adobe Analytics te halen. '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 57cc9cdbec8a0ebd28d3087fc1b203e8044878d6
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 94%
+source-wordcount: '469'
+ht-degree: 93%
 
 ---
 
@@ -131,6 +131,7 @@ ht-degree: 94%
    + [Overwegingen voor algemene rapportsuites](prepare/global-rs.md)
    + [Implementatiemodel](prepare/implementation-modal.md)
    + [Een document voor het ontwerp van een oplossing maken](prepare/solution-design.md)
+   + [Een bestaande Adobe Analytics-implementatie op zich nemen](prepare/existing-implementation.md)
 + Analytics implementeren met JavaScript {#js}
    + [JavaScript-overzicht](js/overview.md)
    + [Opt-outkoppelingen implementeren](js/opt-out.md)
