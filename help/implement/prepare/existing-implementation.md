@@ -2,7 +2,7 @@
 title: Een bestaande Adobe Analytics-implementatie op zich nemen
 description: Instructies voor beheerders die nieuw zijn voor een bestaande Adobe Analytics-implementatie.
 translation-type: tm+mt
-source-git-commit: c95ff254d2df8373776a2ce261a5786045169181
+source-git-commit: d3b05bddef89d7525c21f9f4686707daa27bc669
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Neemt u een Adobe Analytics-implementatie over van de vorige technische eigenaar? Met ons overgenomen afspeelboek voor implementatie kunt u een bestaande implementatie beheren als de nieuwe technische eigenaar. In het downloadbare spreadsheet, zullen wij u door de ontdekking, controle, en documentatieactiviteiten lopen u in uw eerste 10 weken op het werk zou moeten doen aangezien u een bestaande implementatie overneemt.
 
-Download het [overgenomen afspeelboek](assets/adobe_analytics_inherited_implementation_playbook.xlsx)voor implementatie.
+**Download het [overgenomen afspeelboek](assets/adobe_analytics_inherited_implementation_playbook.xlsx)voor implementatie.**
 
 ![Afspeelboek](assets/inherited-impl-playbook.png)
 
