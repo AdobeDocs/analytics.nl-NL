@@ -2,9 +2,9 @@
 title: Deelvenster voor attributie
 description: Het toewijzingspaneel in Analysis Workspace gebruiken en interpreteren.
 translation-type: tm+mt
-source-git-commit: e1cfaea079f69daeec639c6d43ef4fa442cfaa97
+source-git-commit: 7962e7dbb8003103ceb6fd1f9ccd11c110e59ad3
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
@@ -12,12 +12,12 @@ ht-degree: 1%
 
 # Deelvenster voor attributie
 
-Het toewijzingspaneel is een eenvoudige manier om een analyse te maken waarin verschillende attributiemodellen worden vergeleken. Het is een functie in [Attribution IQ](../attribution/overview.md) die u een specifieke werkruimte geeft om attributiemodellen te gebruiken en te vergelijken.
+Het [!UICONTROL Attribution] paneel is een gemakkelijke manier om een analyse te bouwen die diverse attributiemodellen vergelijkt. Het is een functie in [Attribution IQ](../attribution/overview.md) die u een specifieke werkruimte geeft om attributiemodellen te gebruiken en te vergelijken.
 
 ## Een deelvenster met kenmerken maken
 
 1. Klik op het deelvensterpictogram aan de linkerkant.
-1. Sleep het deelvenster Kenmerken naar uw Analysis Workspace-project.
+1. Sleep het [!UICONTROL Attribution] deelvenster naar uw Analysis Workspace-project.
 
    ![Nieuw deelvenster voor kenmerken](assets/Attribution_Panel_1.png)
 
@@ -40,3 +40,4 @@ Het toewijzingspaneel is een eenvoudige manier om een analyse te maken waarin ve
 * **Prestatiegegevens**: Hiermee kunt u maximaal drie kenmerkingsmodellen visueel vergelijken met behulp van een spreidingsgrafiek.
 * **Trended Performance**: Toont de trend van toegeschreven omzettingen voor het hoogste afmetingspunt. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
 * **Stroom**: Hiermee kunt u zien welke kanalen het meest worden gebruikt en in welke volgorde de bezoeker op reis is.
+
