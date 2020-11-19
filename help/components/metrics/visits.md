@@ -2,9 +2,9 @@
 title: Bezoeken
 description: Een reeks paginaweergaven tijdens een sessie.
 translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+source-git-commit: ee9868b53b93c1ffabdd48e83e38d3cafc9a4c2a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '654'
 ht-degree: 1%
 
 ---
@@ -55,3 +55,7 @@ Een bezoek telt voor elke betrokken periode. Als u bijvoorbeeld een bezoeker heb
 ## Bezoeken op dimensie versus totale bezoeken
 
 De bezoeken in de context van een dimensie (bijvoorbeeld, [Marketing kanaal](../dimensions/marketing-channel.md)) tonen het aantal bezoeken dat een bepaald afmetingspunt op elk ogenblik bevatte. Items met meerdere dimensies bestaan vaak bij verschillende treffers tijdens hetzelfde bezoek. Het is doorgaans niet zinvol om te proberen om bezoeken die over dimensie-items rapporteren, samen te vatten.
+
+## Bezoek alle bezoekers in Data Warehouse
+
+De metrische &#39;Bezoeken - Alle Bezoekers&#39; is beschikbaar in Data Warehouse naast de &#39;Bezoekingen&#39;-meting. De metrische waarde &#39;Visits - All Visitors&#39; is vergelijkbaar met die van &#39;Visits&#39; in andere analyseprogramma&#39;s. De metrische waarde &#39;Visits&#39; in Data Warehouse sluit bezoekers uit die geen permanente cookies hebben. Adobe raadt aan &#39;Bezoekingen - Alle Bezoekers&#39; te gebruiken in Data Warehouse-aanvragen waar bezoekers als metrische waarde gewenst zijn.
