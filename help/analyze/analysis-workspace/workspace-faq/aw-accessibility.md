@@ -1,18 +1,18 @@
 ---
-description: Functies voor toegankelijkheidsondersteuning in de analysewerkruimte
-title: Toegankelijkheid in werkruimte Analyse
+description: Functies voor toegankelijkheidsondersteuning in Analysis Workspace
+title: Toegankelijkheid in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
+source-git-commit: 97309a5be19912432ca75c7029999085c45ba353
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 0%
+source-wordcount: '642'
+ht-degree: 2%
 
 ---
 
 
-# Toegankelijkheid in werkruimte Analyse
+# Toegankelijkheid in Analysis Workspace
 
-Meer informatie over toegankelijkheidsondersteuning vindt u in [!UICONTROL Analysis Workspace]het belangrijkste hulpprogramma voor analyse van Adobe Analytics.
+Meer informatie over toegankelijkheidsondersteuning in [!UICONTROL Analysis Workspace]de belangrijkste tool voor Adobe Analytics.
 
 Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mensen met een visuele, auditieve, cognitieve, motorische en andere handicap. Voorbeelden van toegankelijkheidsfuncties voor softwareproducten zijn ondersteuning voor schermlezers, tekstequivalenten voor afbeeldingen, sneltoetsen, wijziging van weergavekleuren in hoog contrast, enzovoort.
 
@@ -22,11 +22,20 @@ Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mens
 
 Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rechts. De volgende navigatie-elementen vergemakkelijken de toegankelijkheid:
 
-* Met de `F6` toets worden sneltoetsen voor landmarkeringen ingeschakeld
-* De `Tab` toetsbewegingen tussen de afzonderlijke elementen.
+* Met de `Tab` toets kunt u zoeken naar sneltoetsen voor landmarkeringen, waarbij u kunt schakelen tussen grotere secties in Workspace. In het linkerspoor, laat u `Tab` ook toe om zich van één draggable optie aan volgende te bewegen.
+* De `left/right arrows` beweging tussen afzonderlijke elementen nadat deze `Tab` is gemarkeerd.
+* De gebruiker `F6` navigeert naar het eerste deelvenster in het project en beweegt tussen de visualisaties in dat deelvenster. Vervolgens wordt het naar het volgende deelvenster in het project verplaatst en herhaald.
 * We passen focusindicatoren toe zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand rondom het geselecteerde element.
 
    ![Focusindicator](assets/focus-indicator.png)
+
+### Toetsenbordnavigatie voor de menubalk
+
+1. Tab totdat u de menubalk hebt bereikt.
+1. Gebruik de pijltoetsen naar links en rechts om naar het gewenste menu te navigeren.
+1. Druk op `Enter` om het menu te selecteren en de opties ervan weer te geven.
+1. Gebruik de pijltoetsen omhoog en omlaag om naar de gewenste menuoptie te navigeren.
+1. Druk op `Enter` om de optie te selecteren.
 
 ### Toetsenbordnavigatie voor interactie Slepen en neerzetten
 
@@ -39,7 +48,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rec
 
 ### Sneltoetsen (sneltoetsen)
 
-[!UICONTROL Analysis Workspace] biedt een uitgebreide set [sneltoetsen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) voor een naadloze workflow. Hieronder worden enkele algemene sneltoetsen voor navigatie, het maken van analyses en democratisering van inzichten weergegeven.
+[!UICONTROL Analysis Workspace] biedt een uitgebreide set [sneltoetsen](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) voor een naadloze workflow. Hieronder worden enkele algemene sneltoetsen voor navigatie, het maken van analyses en democratisering van inzichten weergegeven.
 
 #### Navigatie
 
@@ -49,7 +58,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rec
 | Alt + Pijl-links/Pijl-rechts | Navigeren tussen deelvensters |
 | Alt + M | Alle deelvensters samenvouwen/uitvouwen |
 | Alt+ Ctrl + M | Actief deelvenster samenvouwen/uitvouwen |
-| Ctrl + / | Naar linkerspoor zoeken |
+| Ctrl + / | Zoeken in linkerrail |
 
 #### Analyse maken
 
@@ -93,4 +102,4 @@ Wanneer een component volledig is gevalideerd, wordt de builder `Save` gesloten 
 
 ## Ondersteuning voor toegankelijkheidsfuncties van besturingssystemen
 
-De Analyse-werkruimte biedt ondersteuning voor ingebouwde toegankelijkheidsfuncties van MS Windows en macOS, zoals de modus met hoog contrast, sticky keys en trage toetsen/filtertoetsen. Het verstrekt ook informatie over het gebruikersinterface aan het werkende systeem om interactie met ondersteunende technologieën, met inbegrip van het schermlezers zoals VoiceOver voor macOS en NVDA op Vensters toe te laten.
+Analysis Workspace biedt ondersteuning voor ingebouwde toegankelijkheidsfuncties van MS Windows en macOS, zoals de modus voor hoog contrast, sticky keys en slow keys/filters. Het verstrekt ook informatie over het gebruikersinterface aan het werkende systeem om interactie met ondersteunende technologieën, met inbegrip van het schermlezers zoals VoiceOver voor macOS en NVDA op Vensters toe te laten.
