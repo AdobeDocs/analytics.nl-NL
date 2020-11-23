@@ -2,10 +2,10 @@
 title: Totalen van berekende standaard
 description: Leer hoe berekende metriettotalen verschillen in Analysesoftware
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: bbe2b96960fd5aa6df331a77fdf5b04a769b6e84
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 2%
+source-wordcount: '423'
+ht-degree: 1%
 
 ---
 
@@ -40,3 +40,6 @@ Wanneer totalen worden weergegeven, worden ze vaak berekend aan de serverzijde, 
 
 * Wanneer [statische rijen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) worden gebruikt in Freeform-tabellen en de **[!UICONTROL Show as sum of current rows]** optie (standaard) is geselecteerd.
 * In de [Donut-visualisatie](/help/analyze/analysis-workspace/visualizations/donut.md), zodat de aantallen tot 100% in elkaar optellen.
+
+Voor meer informatie over totalen in Analysis Workspace gaat u naar de totalen van de [werkruimte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=en#static-row-total).
+
