@@ -2,7 +2,7 @@
 description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 translation-type: tm+mt
-source-git-commit: c9ceebef6afc60551304ed703050757269d8cb30
+source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 2%
@@ -84,7 +84,11 @@ Vervolgkeuzefilters maken:
 
 ## Klikken met rechtermuisknop {#right-click}
 
-Aanvullende functionaliteit voor een deelvenster is beschikbaar door met de rechtermuisknop op de koptekst van het deelvenster te klikken. De volgende instellingen zijn beschikbaar:
+Aanvullende functionaliteit voor een deelvenster is beschikbaar door met de rechtermuisknop op de koptekst van het deelvenster te klikken.
+
+![](assets/right-click-menu.png)
+
+De volgende instellingen zijn beschikbaar:
 
 | Instelling | Beschrijving |
 | --- | --- |
