@@ -3,9 +3,9 @@ description: Geef uw gegevens visueel weer met visualisaties.
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
 translation-type: tm+mt
-source-git-commit: 71cf46157917c77a815b8474bc635c01d6d13a25
+source-git-commit: 60aacc2d2d5f7f66c08d270a41d2f6c86ee34a6b
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1080'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 3%
 
 De werkruimte biedt een aantal visualisaties die u visuele vertegenwoordiging van uw gegevens, zoals bar grafieken, donut grafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen, en anderen laten produceren. De meeste visualisatietypen zijn u bekend als u Adobe Analytics gebruikt. Analysis Workspace biedt echter wel instellingen voor visualisatie en vele nieuwe of unieke visualisatietypen met interactieve mogelijkheden.
 
-U hebt toegang tot visualisaties via het pictogram linksboven in Workspace, een [leeg deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)of via het snelmenu in uw workflow. De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
+U hebt toegang tot visualisaties via het pictogram linksboven in Workspace, een [leeg deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)of via het snelmenu in uw workflow.
+
+![](assets/viz-rail.png)
+
+De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
 | Visualisatienaam | Beschrijving |
 | --- | --- |
@@ -40,20 +44,22 @@ U hebt toegang tot visualisaties via het pictogram linksboven in Workspace, een 
 
 ## Instellingen {#settings}
 
-Elke visualisatie heeft eigen instellingen die u kunt beheren. Klik op het tandwielpictogram om toegang te krijgen [!UICONTROL Visualization Settings]tot het [!UICONTROL Visualization Settings] tandwielpictogram. Enkele instellingen zijn:
+Elke visualisatie heeft eigen instellingen die u kunt beheren. Klik op het tandwielpictogram om toegang te krijgen [!UICONTROL Visualization Settings]tot het [!UICONTROL Visualization Settings] tandwielpictogram.
+
+![](assets/settings.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
 | Visualisatietype | Wijzig het type visueel waarmee de gegevens worden weergegeven. |
-| Granulariteit | Voor een verbeterde visualisatie kunt u de tijdsgranulariteit (dag, week, maand, enzovoort) wijzigen. in deze vervolgkeuzelijst. Deze wijziging is ook van toepassing op de gegevensbrontabel. |
+| Granulariteit | Voor getreneerde visualisaties kunt u de tijdsgranulariteit (dag, week, maand, enz.) wijzigen in deze vervolgkeuzelijst. Deze wijziging geldt ook voor de gegevensbrontabel. |
 | Percentage | Hiermee geeft u waarden weer in percentages. |
-| 100% gestapeld | Met deze instelling op een gestapeld gebied, gestapelde staaf of horizontale staaf verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie. Voorbeeld: ![](assets/stacked_100_percent.png) |
+| 100% gestapeld | Met deze instelling op een gestapeld gebied, gestapelde staaf of horizontale staaf verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie. Voorbeeld: ![Gestapeld 100%](assets/stacked_100_percent.png) |
 | Legenda zichtbaar | Hiermee kunt u de gedetailleerde legenda-tekst voor de visualisatie Samenvattingsnummer/Samenvattingswijziging verbergen. |
 | Max. items beperken | Hiermee kunt u het aantal items beperken dat in een visualisatie wordt weergegeven. |
 | Y-as verankeren op nul | Als alle waarden die in het diagram worden uitgezet aanzienlijk boven nul liggen, wordt de onderkant van de y-as NON-ZERO ingesteld als de standaardinstelling van het diagram. Als u dit vakje inschakelt, wordt de y-as gedwongen tot nul (en wordt het diagram opnieuw getekend). |
 | Normalisatie | Dwingt metriek tot gelijke verhoudingen. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
 | Dual Axis weergeven | Is slechts van toepassing als u twee metriek hebt - u kunt een y-as op de linkerzijde (voor één metrisch) en op het recht (voor andere metrisch) hebben. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
-| Anomalies tonen | Verbetert lijngrafieken en vrije-vormlijsten door anomaliebesluit te tonen. Anomaliedetectie in lijnvisualisatie omvat een verwachte waarde (onderbroken lijn) en een verwacht bereik (gearceerde band). |
+| Anomalies tonen | Verbetert lijngrafieken en vrije-vormlijsten door anomalieopsporing te tonen. Anomaliedetectie in lijnvisualisatie omvat een verwachte waarde (onderbroken lijn) en een verwacht bereik (gearceerde band). |
 
 ## Legenda {#legend}
 
@@ -77,7 +83,7 @@ Hier volgt een [koppeling naar een video](https://docs.adobe.com/content/help/en
 
 Aanvullende functionaliteit voor een visualisatie is beschikbaar door met de rechtermuisknop op de visualisatiekop te klikken. De instellingen variëren per visualisatie. Enkele beschikbare instellingen zijn:
 
-![](assets/right-click_menu.png)
+![](assets/right-click.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -94,4 +100,4 @@ Aanvullende functionaliteit voor een visualisatie is beschikbaar door met de rec
 
 Als u niet zeker weet welke visualisatie u wilt kiezen, klikt u op het **[!UICONTROL Create Visual]** pictogram in een tabelrij (beschikbaar op de muisaanwijzer). Dit is de snelste manier om een visualisatie toe te voegen. Als u erop klikt, vraagt Analysis Workspace om een goed opgeleide schatting te maken van de mate waarin visualisatie het beste aansluit bij uw gegevens. Als u bijvoorbeeld 1 rij hebt geselecteerd, wordt er een trendlijngrafiek gemaakt. Als u 3 geselecteerde segmentrijen hebt, zal het tot een diagram van de Venn leiden.
 
-![](assets/create-visual.png)
+![](assets/quick-viz.png)
