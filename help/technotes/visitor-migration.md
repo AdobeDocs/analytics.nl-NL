@@ -1,26 +1,29 @@
 ---
 description: Bezoekersmigratie is een proces waarbij het cookie van de bezoeker-id van het ene domein naar het andere wordt gemigreerd.
 keywords: Analytics Implementation
-title: Bezoekersmigratie
+title: Migratie van bezoekers
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 2%
 
 ---
 
 
-# Bezoekersmigratie
+# Migratie van bezoekers
 
 Bezoekersmigratie is een proces waarbij het cookie van de bezoeker-id van het ene domein naar het andere wordt gemigreerd.
 
 Met de migratie van bezoekers kunt u de identificatie-cookies van bezoekers behouden wanneer u domeinen voor gegevensverzameling wijzigt. Domeinen voor gegevensverzameling kunnen om de volgende redenen worden gewijzigd:
 
-* Overstappen van `2o7.net` naar `omtrdc.net` ( [regionale gegevensverzameling](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
+* Overstappen van `2o7.net` naar `adobedc.net` ([regionale gegevensverzameling](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
 
-* U implementeert de [dienst](https://docs.adobe.com/content/help/en/id-service/using/home.html) van identiteitskaart van de Bezoeker van de Wolk van de Ervaring en gaat van een CNAME/het domein van de eerste-partijgegevensinzameling aan `2o7.net` of `omtrdc.net` (de [Regionale Inzameling](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)van Gegevens)
+* U voert de Dienst [van identiteitskaart van de Bezoeker van](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) Experience Cloud uit en gaat van een CNAME/het domein van de eerste-partijgegevensinzameling aan `adobedc.net1`, `2o7.net` of `omtrdc.net` (de [Regionale Inzameling](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)van Gegevens)
 
-* Bewegend van `2o7.net` of `omtrdc.net` aan een naam/de inzameling van de eerste-partijgegevens ( [Eerste Koekjes)](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html).
+* Bewegend van `2o7.net` of `adobedc.net` aan een naam/de inzameling van de eerste-partijgegevens ( [Eerste Koekjes)](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Het bewegen van één CNAME aan een andere (veranderende domeinen).
 
@@ -44,11 +47,11 @@ In de volgende tabel worden de taken weergegeven die zijn vereist voor bezoekers
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
      <li id="li_B0CA15A593BD4AB9802E33A3FF037C7A">example.102.112.2o7.net &gt; metrics.example.com </li> 
-    </ul> <p>De namen van de migratiehosts zijn geconfigureerd op de Adobe-gegevensverzamelingsserver. De Zorg van de klant zal u vertellen wanneer de verandering wordt aangebracht zodat kunt u voor de volgende stap plannen. </p> </td> 
+    </ul> <p>De namen van de migratiegastheer worden gevormd op de de inzamelingsserver van Gegevens van Adobe. De Zorg van de klant zal u vertellen wanneer de verandering wordt aangebracht zodat kunt u voor de volgende stap plannen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6+ uur na configuratiewijziging</b>: Werk de <code> s.trackingServer</code> en de <code> s.trackingServerSecure</code> variabelen in uw code van JavaScript van Analytics bij om de nieuwe servers van de gegevensinzameling te gebruiken. </p> </td> 
-   <td colname="col3"> <p>Nadat u deze verandering aanbrengt, gebruik een <a href="../implement/validate/packet-monitor.md"> pakketmonitor</a> om te verifiëren dat het Analtyics beeldverzoek naar de bijgewerkte server van de gegevensinzameling gaat. </p> </td> 
+   <td colname="col3"> <p>Nadat u deze verandering aanbrengt, gebruik een <a href="../implement/validate/packet-monitor.md"> pakketmonitor</a> om te verifiëren dat het het beeldverzoek van de Analyse naar de bijgewerkte server van de gegevensinzameling gaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Onmiddellijk na het bijwerken van uw Analysecode</b>: Test uw plaats om te verifiëren dat redirect aan het vorige domein van de gegevensinzameling voorkomt. </p> </td> 
@@ -63,4 +66,4 @@ In de volgende tabel worden de taken weergegeven die zijn vereist voor bezoekers
 
 ## Verouderde variabelen bezoekerMigrationKey en bezoekerMigrationServer {#section_32FCEE2575944D039EA0FEBFB5814259}
 
-Vanaf maart 2013 worden de variabelen `visitorMigrationKey`, `visitorMigrationServer`en `visitorMigrationServerSecure` gegevensverzameling afgekeurd en niet meer gebruikt. De eerder in deze variabelen opgenomen gegevens worden nu opgeslagen op Adobe-servers voor meer beveiliging.
+Vanaf maart 2013 worden de variabelen `visitorMigrationKey`, `visitorMigrationServer`en `visitorMigrationServerSecure` gegevensverzameling afgekeurd en niet meer gebruikt. De gegevens die eerder in deze variabelen zijn opgenomen, worden nu opgeslagen op Adobe-servers voor meer beveiliging.
