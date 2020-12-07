@@ -2,7 +2,7 @@
 title: dc
 description: Een gepensioneerde variabele waarmee u kunt bepalen welk datacenter u wilt gebruiken.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 2%
@@ -16,6 +16,6 @@ ht-degree: 2%
 >
 >Deze variabele wordt uitgeschakeld. Gebruik [`trackingServer`](trackingserver.md) in plaats hiervan.
 
-In eerdere versies van Adobe Analytics moest Adobe opgeven naar welk datacenter u gegevens wilt verzenden. Het verzenden van hits naar het verkeerde datacenter leidde tot gegevensverlies.
+In vorige versies van Adobe Analytics moest u bij Adobe opgeven naar welk datacenter u gegevens wilt verzenden. Het verzenden van hits naar het verkeerde datacenter leidde tot gegevensverlies.
 
-Adobe heeft deze ervaring verbeterd doordat implementaties resultaten kunnen sturen naar `sc.omtrdc.net`. Het opgeven van een datacenter is niet meer nodig.
+Adobe heeft deze ervaring verbeterd door alle implementaties toe te staan resultaten te sturen naar `sc.adobedc.net`. Het opgeven van een datacenter is niet meer nodig.
