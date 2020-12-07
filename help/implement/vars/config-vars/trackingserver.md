@@ -2,7 +2,7 @@
 title: trackingServer
 description: Bepaal de locatie waarnaar verzoeken voor de afbeelding worden verzonden.
 translation-type: tm+mt
-source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 1%
@@ -27,7 +27,7 @@ De volgende Server is een gebied onder de [!UICONTROL General] accordeon wanneer
 3. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder Adobe Analytics.
 4. Breid de accordeon uit, die het [!UICONTROL General] [!UICONTROL Tracking Server] veld onthult.
 
-Als dit veld niet wordt ingevuld, wordt standaard ingesteld op `[rsid].112.2o7.net`.
+Als dit veld niet wordt ingevuld, wordt standaard ingesteld op `[rsid]sc.adobedc.net`.
 
 ## s.trackingServer in de aangepaste code-editor van AppMeasurement en Launch
 
@@ -65,7 +65,7 @@ s.trackingServer = "example.data.adobedc.net";
 
 Kies een subdomein dat uniek is voor uw organisatie. Het is onwaarschijnlijk dat het wordt gekozen door een andere organisatie die Adobe Analytics gebruikt.  De aan uw organisatie toegewezen naamruimte voor bezoekers wordt aanbevolen.  Zorg ervoor dat alle implementaties in uw organisatie dezelfde trackingserver gebruiken. Het kan nuttig zijn om deze informatie in een document [van het](../../prepare/solution-design.md)oplossingsontwerp te handhaven.
 
-Uw organisatie gebruikt mogelijk al een trackingserver van derden in de `sc.omtrdc.net` domeinen of in de `2o7.net` domeinen.  Deze werden voornamelijk gebruikt in eerdere versies van Adobe Analytics en zijn nog steeds geldig.
+Uw organisatie gebruikt mogelijk al een trackingserver van derden in de `sc.adobedc.net` domeinen of in de `2o7.net` domeinen.  Deze werden voornamelijk gebruikt in eerdere versies van Adobe Analytics en zijn nog steeds geldig.
 
 >[!NOTE]
 >
