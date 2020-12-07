@@ -2,14 +2,17 @@
 title: AppMeasurement voor JavaScript
 description: Leer hoe u Adobe Analytics implementeert met JavaScript zonder een tagbeheersysteem.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 0%
 
 ---
 
 
 # AppMeasurement voor JavaScript
 
-AppMeasurement voor JavaScript is historisch gezien een veelgebruikte methode geweest voor het implementeren van Adobe Analytics. Als tagbeheersystemen steeds populairder worden, wordt het gebruik van [Adobe Experience Platform Launch](../launch/overview.md) echter aanbevolen.
+AppMeasurement voor JavaScript is historisch gezien een veelgebruikte methode geweest om Adobe Analytics te implementeren. Het wordt echter aanbevolen [Adobe Experience Platform Launch](../launch/overview.md) te gebruiken omdat tagbeheersystemen steeds populairder worden.
 
 ## Algemene workflow voor het verzenden van gegevens naar Adobe met JavaScript
 
@@ -26,10 +29,10 @@ AppMeasurement voor JavaScript is historisch gezien een veelgebruikte methode ge
    var s_account = "examplersid";
    var s=s_gi(s_account);
    // Make sure data is sent to the correct location
-   s.trackingServer = "example.omtrdc.net";
+   s.trackingServer = "example.adobedc.net";
    ```
 
-3. Definieer variabelen op paginaniveau in de paginacode van uw site. Deze variabelen bepalen de specifieke afmetingen en de meetgegevens die naar Adobe worden verzonden. Zie [Paginariabelen](../vars/page-vars/page-variables.md) voor een volledige lijst met variabelen die u kunt definiëren.
+3. Definieer variabelen op paginaniveau in de paginacode van uw site. Deze variabelen bepalen de specifieke afmetingen en de meetwaarden die naar Adobe worden verzonden. Zie [Paginariabelen](../vars/page-vars/page-variables.md) voor een volledige lijst met variabelen die u kunt definiëren.
 
    ```js
    s.pageName = "Example page";
@@ -37,7 +40,7 @@ AppMeasurement voor JavaScript is historisch gezien een veelgebruikte methode ge
    s.events = "event1";
    ```
 
-4. Wanneer alle variabelen op paginaniveau zijn gedefinieerd, verzendt u de gegevens naar Adobe met de `t()` methode. Zie [het](../vars/functions/t-method.md) voor meer informatie.
+4. Wanneer alle variabelen op paginaniveau zijn gedefinieerd, verzendt u de gegevens naar Adobe met de `t()` methode. See [t](../vars/functions/t-method.md) for more information.
 
    ```js
    s.t();
