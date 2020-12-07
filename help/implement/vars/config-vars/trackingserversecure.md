@@ -2,7 +2,7 @@
 title: trackingServerSecure
 description: Bepaal de locatie waar afbeeldingsaanvragen worden verzonden op HTTPS-pagina's.
 translation-type: tm+mt
-source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -41,4 +41,4 @@ De individu die aanvankelijk de first-party koekjesimplementatie vormt bepaalt o
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME-records verwijzen doorgaans naar een subdomein op `data.adobedc.net`, `sc.omtrdc.net` of `2o7.net`.
+CNAME-records verwijzen doorgaans naar een subdomein op `data.adobedc.net`, `sc.adobedc.net` of `2o7.net`.
