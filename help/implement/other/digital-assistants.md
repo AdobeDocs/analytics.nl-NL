@@ -1,8 +1,11 @@
 ---
 title: Analyses implementeren voor digitale assistenten
-description: Adobe-analysemogelijkheden implementeren op digitale assistenten, zoals Amazon Alexa of Google Home.
+description: Adobe Analytics implementeren op digitale assistenten, zoals Amazon Alexa of Google Home.
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
+source-wordcount: '1266'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ Met de recente ontwikkelingen op het gebied van cloud computing, machinaal leren
 * &quot;Cortana, wat is het saldo van mijn betaalrekening?&quot;
 * &quot;Siri, stuur John $20 voor het avondeten vanaf mijn bankapp.&quot;
 
-Deze pagina biedt een overzicht van hoe u deze soorten ervaringen het beste kunt meten en optimaliseren met Adobe Analytics.
+Deze pagina biedt een overzicht van hoe u Adobe Analytics het beste kunt gebruiken om dit soort ervaringen te meten en te optimaliseren.
 
 ## Overzicht van architectuur voor digitale ervaring
 
@@ -31,12 +34,12 @@ De meeste digitale assistenten volgen tegenwoordig een vergelijkbare architectuu
 
 Een van de beste plaatsen om Analytics te implementeren is in de app. De app ontvangt de intentie en de details van de digitale assistent en bepaalt vervolgens hoe moet worden gereageerd.
 
-Er zijn twee keer aanvragen die nuttig kunnen zijn om gegevens naar Adobe Analytics te verzenden.
+Tijdens een aanvraag zijn er twee keer gegevens die nuttig kunnen zijn voor het verzenden van gegevens naar Adobe Analytics.
 
 1. Wanneer de aanvraag naar uw app wordt verzonden.
 1. Nadat de reactie van de app is geretourneerd.
 
-Als u alleen maar geïnteresseerd bent in het opnemen van wat er met de klant is gebeurd voor toekomstige optimalisatie, stuurt u een verzoek naar Adobe Analytics nadat het antwoord is geretourneerd. U zult de volledige context van wat het verzoek was en hoe het systeem antwoordde.
+Als u alleen maar geïnteresseerd bent in het opnemen van wat er met de klant is gebeurd voor toekomstige optimalisatie, stuurt u een verzoek naar Adobe Analytics nadat het antwoord is geretourneerd. U krijgt de volledige context van wat het verzoek was en hoe het systeem reageerde.
 
 ## Nieuwe installaties
 
@@ -47,37 +50,37 @@ GET
 /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.omtrdc.net">
-  sc.omtrdc.net
+<xref href="https://sc.adobedc.net">
+  sc.adobedc.net
  Cache-Control: no-cache
 </xref href="https:>
 ```
 
 ## Meerdere assistenten of meerdere apps
 
-Uw organisatie wil waarschijnlijk apps voor meerdere platforms. De beste manier is om bij elke aanvraag een toepassings-id op te nemen. Deze variabele kan worden ingesteld in de variabele `a.AppID` met contextgegevens. Volg het formaat van `[AppName] [BundleVersion]`, bijvoorbeeld, BigMac voor Alexa 1.2:
+Uw organisatie wil waarschijnlijk apps voor meerdere platforms. De beste manier is om bij elke aanvraag een toepassings-id op te nemen. Deze variabele kan worden ingesteld in de variabele `a.AppID` met contextgegevens. Volg de notatie van `[AppName] [BundleVersion]`bijvoorbeeld BigMac voor Alexa 1.2:
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
 ## Identificatie gebruiker/bezoeker
 
-Adobe Analytics gebruikt de [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) om interacties in de tijd aan dezelfde persoon te koppelen. De meeste digitale assistenten retourneren een programma `userID` dat u kunt gebruiken om de activiteit voor verschillende gebruikers te behouden. In de meeste gevallen is deze waarde wat u kunt doorgeven als een unieke id. Sommige platforms retourneren een id die langer is dan de 100 toegestane tekens. In deze gevallen raadt Adobe u aan de unieke id te hashen naar een vaste lengtewaarde met behulp van een standaard hash-algoritme, zoals MD5 of Sha1.
+Adobe Analytics gebruikt de [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) om interacties in de tijd aan dezelfde persoon te koppelen. De meeste digitale assistenten retourneren een programma `userID` dat u kunt gebruiken om de activiteit voor verschillende gebruikers te behouden. In de meeste gevallen is deze waarde wat u kunt doorgeven als een unieke id. Sommige platforms retourneren een id die langer is dan de 100 toegestane tekens. In deze gevallen, adviseert Adobe dat u het unieke herkenningsteken aan een vaste lengtewaarde gebruikend een standaard het hakken algoritme, zoals MD5 of Sha1 hakt.
 
-Het gebruiken van de Dienst van identiteitskaart verstrekt de meeste waarde wanneer u ECIDs over verschillende apparaten (bijvoorbeeld, Web aan digitale medewerker) in kaart brengt. Als uw app een mobiele toepassing is, gebruikt u de huidige SDK&#39;s van het Experience Platform en verzendt u de gebruikers-id met behulp van de `setCustomerID` methode. Als uw app echter een service is, gebruikt u de door de service opgegeven gebruikers-id als de ECID en stelt u deze in `setCustomerID`.
+Het gebruiken van de Dienst van identiteitskaart verstrekt de meeste waarde wanneer u ECIDs over verschillende apparaten (bijvoorbeeld, Web aan digitale medewerker) in kaart brengt. Als uw app een mobiele toepassing is, gebruikt u de SDK&#39;s van het Experience Platform ongewijzigd en verzendt u de gebruikers-id met de `setCustomerID` methode. Als uw app echter een service is, gebruikt u de door de service opgegeven gebruikers-id als de ECID en stelt u deze in `setCustomerID`.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -95,12 +98,12 @@ Omdat digitale assistenten conversatief zijn, hebben ze vaak het concept van een
 
 De zittingen zijn belangrijk om context te houden, en de hulp verzamelt meer details om de digitale medewerker natuurlijker te maken. Wanneer het uitvoeren van Analytics op een gesprek, zijn er twee dingen om te doen wanneer een nieuwe zitting is begonnen:
 
-1. **Ga naar Audience Manager**: Krijg de relevante segmenten die een gebruiker een deel van is zodat u de reactie kunt aanpassen. (Deze persoon komt momenteel bijvoorbeeld in aanmerking voor de multikanaalskorting.)
+1. **Naar Audience Manager** gaan: Krijg de relevante segmenten die een gebruiker een deel van is zodat u de reactie kunt aanpassen. (Deze persoon komt momenteel bijvoorbeeld in aanmerking voor de multikanaalskorting.)
 2. **Verzenden in een nieuwe sessie of startgebeurtenis**: Wanneer u de eerste reactie naar Analytics verzendt, neemt u een startgebeurtenis op. Gewoonlijk kan dit worden verzonden door contextgegevens in te stellen van `a.LaunchEvent=1`.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
-Host: sc.omtrdc.net
+Host: sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -110,11 +113,11 @@ Elk van de digitale assistenten heeft algoritmen die intenties detecteren en ver
 
 Als een gebruiker bijvoorbeeld zegt: &quot;Siri, Stuur John $20 voor het avondeten vanuit mijn bankapp&quot;, dan kan de bedoeling iets zijn als *sendMoney*.
 
-Door elk van deze aanvragen als een eVar in te sturen, kunt u tekenrapporten uitvoeren over elk van de intents voor conversatie-apps. Zorg ervoor dat uw toepassing aanvragen ook zonder intentie kan verwerken. Adobe raadt u aan &#39;Geen intentie opgegeven&#39; door te geven aan de gegevensvariabele van de intentcontext, in plaats van de variabele aan te passen.
+Door elk van deze verzoeken als een eVar in te dienen, kunt u tekenrapporten uitvoeren over elk van de intents voor conversatie-apps. Zorg ervoor dat uw toepassing aanvragen ook zonder intentie kan verwerken. Adobe raadt aan &#39;Geen intentie opgegeven&#39; door te geven aan de gegevensvariabele van de intentcontext, in plaats van de variabele uit te voeren.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -122,7 +125,7 @@ of
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
-Host: sc.omtrdc.net
+Host: sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -134,11 +137,11 @@ Naast de intentie hebben digitale assistenten vaak een set sleutel-/waardeparen 
 * Bedrag = 20
 * Waarom = Diner
 
-De app bevat meestal een eindig aantal van deze waarden. Om deze waarden in Analytics te volgen, verzend hen in de variabelen van contextgegevens en wijs dan elk van de parameters aan eVar toe.
+De app bevat meestal een eindig aantal van deze waarden. Als u deze waarden wilt bijhouden in Analytics, stuurt u ze naar contextgegevensvariabelen en wijst u elk van de parameters toe aan een eVar.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -150,7 +153,7 @@ Wanneer deze situatie zich voordoet, vraagt uw app om opheldering. Verstuur bove
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -162,17 +165,17 @@ Voorbeeld: `":Audio:Camera:Screen:Video:"`
 
 De voorloopdubbele en navolgende dubbele punten helpen u bij het maken van segmenten. Geef bijvoorbeeld alle resultaten met `:Audio:` mogelijkheden weer.
 
-* [Amazon Capabilities](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference) gebruiken Amazon Alexa
+* [Amazon Capabilities](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference) gebruiken met Amazon Alexa
 * [Google Capabilities](https://developers.google.com/actions/assistant/surface-capabilities) gebruiken Handelingen op Google
 
 ## Voorbeelden
 
-| Persoon | Apparaatreactie | Handeling/intentie | Aanvraag ophalen |
+| Persoon | Apparaatreactie | Handeling/intentie | Verzoek om GET |
 |---|---|---|---|
-| Spoofify installeren | Geen reactie | Installeren | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Spoofiel afspelen | &quot;Oké, Spoofify spelen&quot; | Afspelen | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Ander nummer | &quot;Oké, welk liedje wil je?&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| &quot;Baby Shark&quot; afspelen | &quot;Oké, &#39;Baby Shark&#39; afspelen van PinkFong&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Afspeellijst wijzigen | &quot;Oké, welke afspeellijst wilt u?&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Speel mijn favoriete liedjesspeellijst | &quot;Oké, je favoriete muziektoneelschrijver afspelen&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Muziek uitschakelen | Geen reactie, muziek schakelt uit | Uit | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Spoofify installeren | Geen reactie | Installeren | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Spoofiel afspelen | &quot;Oké, Spoofify spelen&quot; | Afspelen | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Ander nummer | &quot;Oké, welk liedje wil je?&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| &quot;Baby Shark&quot; afspelen | &quot;Oké, &#39;Baby Shark&#39; afspelen van PinkFong&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Afspeellijst wijzigen | &quot;Oké, welke afspeellijst wilt u?&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Speel mijn favoriete liedjesspeellijst | &quot;Oké, je favoriete muziektoneelschrijver afspelen&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Muziek uitschakelen | Geen reactie, muziek schakelt uit | Uit | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
