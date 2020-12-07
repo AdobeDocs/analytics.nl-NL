@@ -2,7 +2,7 @@
 title: Implementeren met AMP
 description: Adobe Analytics implementeren op AMP-pagina's.
 translation-type: tm+mt
-source-git-commit: 684e67203b2e3d5f0cb82cdbdda1f24d37a677f0
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -20,8 +20,8 @@ Aangezien Adobe Analytics een JavaScript-bibliotheek gebruikt om een aanvraag vo
 
 Adobe heeft twee methoden gemaakt om Adobe Analytics op pagina&#39;s te implementeren met AMP. Beide gebruiken de `<amp-analytics>` HTML-tag. Zie [amp-analytics markering](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) op het ampproject GitHub voor meer informatie.
 
-* **Gebruik de`"adobeanalytics"`volgende sjabloon**: Construeer het verzoek Analytics rechtstreeks op de pagina
-* **Gebruik de`"analytics_nativeConfig"`volgende sjabloon**: Gebruik een iframe met dezelfde toepassingsmetingscode die u op uw normale site implementeert
+* **Gebruik de `"adobeanalytics"` volgende sjabloon**: Construeer het verzoek Analytics rechtstreeks op de pagina
+* **Gebruik de `"analytics_nativeConfig"` volgende sjabloon**: Gebruik een iframe met dezelfde toepassingsmetingscode die u op uw normale site implementeert
 
 In de volgende tabel worden deze twee methoden vergeleken:
 
@@ -55,7 +55,7 @@ In het volgende codevoorbeeld worden twee triggers gedefinieerd: `pageLoad` en `
         "myClick": "${click}&v1=${eVar1}",
       },
       "vars": {
-        "host": "example.sc.omtrdc.net",
+        "host": "example.sc.adobedc.net",
         "reportSuites": "reportSuiteID",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
@@ -109,7 +109,7 @@ De `"adobeanalytics_nativeConfig"` tag is eenvoudiger te implementeren, omdat de
         "iframeMessage": "${base}/stats.html?campaign=${queryParam(campaign)}&pageURL=${ampdocUrl}&ref=${documentReferrer}"
       },
       "vars": {
-        "host": "example.sc.omtrdc.net"
+        "host": "example.sc.adobedc.net"
       },
       "extraUrlParams": {
       "pageName": "Example AMP page",
@@ -133,7 +133,7 @@ Er is ook een HTML-pagina vereist die wordt gehost op uw webservers:
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
       var s_account = "examplersid";
-      var s_trackingServer = "example.sc.omtrdc.net";
+      var s_trackingServer = "example.sc.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
       var s = s_gi(s_account);
