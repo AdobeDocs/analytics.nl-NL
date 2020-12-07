@@ -2,14 +2,17 @@
 title: Migreren naar AppMeasurement voor JavaScript
 description: Bepaal wat nodig is om uw implementatie van H Code te migreren.
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 0%
 
 ---
 
 
 # Migreren naar AppMeasurement voor JavaScript
 
-Als uw implementatie nog steeds H-code gebruikt, raadt Adobe u ten zeerste aan te migreren naar de nieuwste versie van AppMeasurement. Het wordt aanbevolen Analytics te implementeren via [Adobe Experience Platform Launch](../launch/overview.md) , maar een bijgewerkte JavaScript-implementatie kan worden gebruikt.
+Als uw implementatie nog steeds H-code gebruikt, raadt Adobe u ten zeerste aan te migreren naar de nieuwste versie van AppMeasurement. Het wordt aangeraden Analyses te implementeren via [Adobe Experience Platform Launch](../launch/overview.md) , maar een bijgewerkte JavaScript-implementatie kan worden gebruikt.
 
 De volgende opmerkelijke veranderingen zijn aanwezig in AppMeasurement wanneer vergeleken met de Code van H:
 
@@ -24,10 +27,10 @@ De volgende opmerkelijke veranderingen zijn aanwezig in AppMeasurement wanneer v
 In de volgende stappen wordt een typische migratieworkflow beschreven.
 
 1. **Download het nieuwe AppMeasurement-bestand**: Open het nieuwe bestand door u aan te melden bij Adobe Analytics en vervolgens te navigeren naar Beheer > Codebeheer. Het gedownloade gecomprimeerde bestand bevat een geminiateerd `AppMeasurement.js` bestand, samen met de modules Media en Integrate.
-1. **Kopieer uw`s_code.js`aanpassingen naar`AppMeasurement.js`**: Verplaats alle code voor de`DO NOT ALTER ANYTHING BELOW THIS LINE`sectie`s_code.js`naar het begin van`AppMeasurement.js`.
+1. **Kopieer uw `s_code.js` aanpassingen naar`AppMeasurement.js`**: Verplaats alle code voor de `DO NOT ALTER ANYTHING BELOW THIS LINE` sectie `s_code.js` naar het begin van `AppMeasurement.js`.
 1. **Alle plug-ins** bijwerken: Gebruik de nieuwste versie van elke plug-in in het `s_code.js` bestand. Dit omvat de modules Media en Integrate.
 1. **Implementeer het bestand** AppMeasurement.js: Upload uw `AppMeasurement.js` bestand naar uw webserver.
-1. **Scriptverwijzingen bijwerken naar punt`AppMeasurement.js`**: Zorg ervoor dat alle pagina&#39;s naar elkaar verwijzen`AppMeasurement.js`in plaats van`s_code.js`.
+1. **Scriptverwijzingen bijwerken naar punt`AppMeasurement.js`**: Zorg ervoor dat alle pagina&#39;s naar elkaar verwijzen `AppMeasurement.js` in plaats van `s_code.js`.
 
 ## Voorbeeld van toepassingscode
 
@@ -59,7 +62,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.omtrdc.net";
+s.trackingServer="example.sc.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 
