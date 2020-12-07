@@ -5,9 +5,9 @@ solution: Experience Cloud,Analytics
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: 1ff9c892670e7b120bf727e556ff70f76c6751be
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '169'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ Veldbeschrijvingen voor de algemene instellingen voor cookies die worden gebruik
   </tr> 
   <tr> 
    <td colname="col1"> Domeinperioden van het FP </td> 
-   <td colname="col2"> <p>De <span class="term"> fpCookieDomainPeriods</span> variabele is voor koekjes die door JavaScript (<code> s_sq</code>, <code> s_cc</code>, stop-ins) worden geplaatst die inherent eerste-partijkoekjes zijn, zelfs als uw implementatie de derde <span class="filepath"> 2o7.net</span> of <span class="filepath"> omtr domeinen dc.net</span> gebruikt. </p> <p>Zie <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>De <span class="term"> fpCookieDomainPeriods</span> variabele is voor koekjes die door JavaScript (<code> s_sq</code>, <code> s_cc</code>, stop-ins) worden geplaatst die inherent eerste-partijkoekjes zijn, zelfs als uw implementatie het domein van de derde <span class="filepath"> adobedc.net</span> , of de erfenis (maar nog geldig) <span class="filepath"> 2o7.net</span> of <span class="filepath"> omtr dc.net</span> domeinen gebruikt. </p> <p>Zie <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transactie-id </td> 
