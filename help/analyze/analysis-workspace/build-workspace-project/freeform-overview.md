@@ -5,7 +5,7 @@ title: Overzicht van projecten
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 87cd6c3ceb404361be163845899015a43ec0fb14
+source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 2%
@@ -44,6 +44,8 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 
 Binnen een project, verstrekt het menu opties om uw project te beheren, componenten toe te voegen, hulp, en meer vinden. Elke menuoptie is ook toegankelijk via [sneltoetsen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html).
 
+![](assets/menu.png)
+
 | Menu-item | Beschrijving |
 |---|---|
 | Project | Bevat algemene acties voor projectbeheer, waaronder Nieuw, Openen, Opslaan, Opslaan als en [Opslaan als sjabloon](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). U kunt het volledige project ook verfrissen om de meest recente gegevens en de definities terug te winnen door te klikken verfrist Project. [Met de opties CSV en PDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) downloaden kunt u gegevens exporteren uit Workspace. [Projectinfo en -instellingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) bieden veel opties voor het beheer van uw project. |
@@ -81,6 +83,8 @@ U kunt ook toegang krijgen tot visualisaties en deelvensters vanuit het [deelven
 
 Componenten (Dimension, Metriek, Segmenten, Datumbereik) in de linkertrack hebben betrekking op de actieve rapportsuite van het deelvenster. Het actieve paneel zal een blauwe grens rond het hebben, en de actieve rapportreeks zal bij de bovenkant van de componentenspoorstaaf worden vermeld.
 
+![](assets/left-rail.png)
+
 ## Projectcanvas {#canvas}
 
 Het projectcanvas is waar u panelen, lijsten, visualisaties, en componenten samenbrengt om uw analyse te bouwen. Een project kan vele panelen bevatten, en elk paneel kan vele lijsten en visualisaties bevatten.
@@ -89,11 +93,15 @@ Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van een ti
 
 Afhankelijk van het beginpunt dat u hebt gekozen voor uw projecten, hebt u een [vrije-vormtabel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) of een [leeg deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) op het canvas waarmee moet worden begonnen. De snelste manier om te beginnen met analyseren is een of meerdere componenten te selecteren en deze gewoon naar het projectcanvas te slepen. Er wordt automatisch een tabel met gegevens voor u gerenderd. [Leer meer](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) over de verschillende opties voor het samenstellen van een tabel of gebruik onze [trainingszelfstudie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?#training-tutorial) voor meer informatie over het maken van uw eerste project.
 
+![](assets/canvas.png)
+
 ## Projectmanager {#manager}
 
 Analysis Workspace-projecten kunnen worden beheerd via **Analytics > Components > Projecten**. De projectmanager toont de punten die een specifieke gebruiker heeft gecreeerd. De eigendom van het project kan naar een nieuwe gebruiker worden overgedragen via Beheer > Gebruikers en middelen voor analyse > Middelen voor overdracht.
 
 In de Projectmanager, kunt u toevoegen, etiketteren, delen, dupliceren/kopiëren, en meer. Zoek naar een project in de onderzoeksbar of door de filteropties in het linkerspoor te gebruiken. U kunt filteren op tag, eigenaars, projecttype en meer.
+
+![](assets/project-manager.png)
 
 De volgende acties zijn algemene acties in de Projectmanager en kunnen worden uitgevoerd op een of meerdere projecten tegelijk:
 
