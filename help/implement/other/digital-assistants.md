@@ -2,7 +2,7 @@
 title: Analyses implementeren voor digitale assistenten
 description: Adobe Analytics implementeren op digitale assistenten, zoals Amazon Alexa of Google Home.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '1266'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Deze pagina biedt een overzicht van hoe u Adobe Analytics het beste kunt gebruik
 
 ## Overzicht van architectuur voor digitale ervaring
 
-![Worflow van Digital Assistant](assets/Digital-Assitants.png)
+![Digital Assistant-workflow](assets/Digital-Assitants.png)
 
 De meeste digitale assistenten volgen tegenwoordig een vergelijkbare architectuur op hoog niveau:
 
@@ -50,8 +50,8 @@ GET
 /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.adobedc.net">
-  sc.adobedc.net
+<xref href="https://example.data.adobedc.net">
+  example.data.adobedc.net
  Cache-Control: no-cache
 </xref href="https:>
 ```
@@ -62,13 +62,13 @@ Uw organisatie wil waarschijnlijk apps voor meerdere platforms. De beste manier 
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -80,7 +80,7 @@ Het gebruiken van de Dienst van identiteitskaart verstrekt de meeste waarde wann
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -103,7 +103,7 @@ De zittingen zijn belangrijk om context te houden, en de hulp verzamelt meer det
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
-Host: sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -113,7 +113,7 @@ Elk van de digitale assistenten heeft algoritmen die intenties detecteren en ver
 
 Als een gebruiker bijvoorbeeld zegt: &quot;Siri, Stuur John $20 voor het avondeten vanuit mijn bankapp&quot;, dan kan de bedoeling iets zijn als *sendMoney*.
 
-Door elk van deze verzoeken als een eVar in te dienen, kunt u tekenrapporten uitvoeren over elk van de intents voor conversatie-apps. Zorg ervoor dat uw toepassing aanvragen ook zonder intentie kan verwerken. Adobe raadt aan &#39;Geen intentie opgegeven&#39; door te geven aan de gegevensvariabele van de intentcontext, in plaats van de variabele uit te voeren.
+Door elk van deze verzoeken als een eVar in te dienen, kunt u tekenrapporten uitvoeren over elk van de intents voor conversatie-apps. Zorg ervoor dat uw toepassing aanvragen ook zonder intentie kan verwerken. Adobe raadt aan &#39;Geen intentie opgegeven&#39; door te geven aan de gegevensvariabele van de intentcontext, in plaats van de variabele weg te laten.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
@@ -125,7 +125,7 @@ of
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
-Host: sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -141,7 +141,7 @@ De app bevat meestal een eindig aantal van deze waarden. Als u deze waarden wilt
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -153,7 +153,7 @@ Wanneer deze situatie zich voordoet, vraagt uw app om opheldering. Verstuur bove
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -172,10 +172,10 @@ De voorloopdubbele en navolgende dubbele punten helpen u bij het maken van segme
 
 | Persoon | Apparaatreactie | Handeling/intentie | Verzoek om GET |
 |---|---|---|---|
-| Spoofify installeren | Geen reactie | Installeren | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| Spoofiel afspelen | &quot;Oké, Spoofify spelen&quot; | Afspelen | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| Ander nummer | &quot;Oké, welk liedje wil je?&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| &quot;Baby Shark&quot; afspelen | &quot;Oké, &#39;Baby Shark&#39; afspelen van PinkFong&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| Afspeellijst wijzigen | &quot;Oké, welke afspeellijst wilt u?&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| Speel mijn favoriete liedjesspeellijst | &quot;Oké, je favoriete muziektoneelschrijver afspelen&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| Muziek uitschakelen | Geen reactie, muziek schakelt uit | Uit | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Spoofify installeren | Geen reactie | Installeren | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Spoofiel afspelen | &quot;Oké, Spoofify spelen&quot; | Afspelen | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Ander nummer | &quot;Oké, welk liedje wil je?&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| &quot;Baby Shark&quot; afspelen | &quot;Oké, &#39;Baby Shark&#39; afspelen van PinkFong&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Afspeellijst wijzigen | &quot;Oké, welke afspeellijst wilt u?&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Speel mijn favoriete liedjesspeellijst | &quot;Oké, je favoriete muziektoneelschrijver afspelen&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Muziek uitschakelen | Geen reactie, muziek schakelt uit | Uit | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
