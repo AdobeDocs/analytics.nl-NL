@@ -2,7 +2,7 @@
 title: Implementeren met hardwarematige verzoeken voor afbeeldingen
 description: Adobe Analytics implementeren met een HTML-afbeeldingstag (aanvraag voor een hardcoded afbeelding)
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -25,11 +25,11 @@ Deze implementatiemethode kan worden gebruikt op elk platform waarop afbeeldinge
 Hier volgt een voorbeeld van een hardcoded afbeeldingsaanvraag met HTML:
 
 ```html
-<img src="https://example.sc.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.data.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` wijst het protocol aan. Pas het protocol dat in het beeldverzoek wordt gebruikt aan het protocol aan dat de rest van uw plaats gebruikt.
-* `example.sc.adobedc.net` is de waarde in de [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variabele.
+* `example.data.adobedc.net` is de waarde in de [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variabele.
 * `/b/ss/` wordt opgenomen in alle verzoeken om afbeeldingen. Het maakt deel uit van de bestandsstructuur voor afbeeldingen die zijn opgeslagen op Adobe-gegevensverzamelingsservers.
 * `examplersid` is de rapportsuite-id waarnaar u gegevens wilt verzenden.
 * `/1/` is de aanraakbron. Zie `hit_source` onder [Gegevens kolomverwijzing](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) in de de gebruikersgids van de Uitvoer. Hiermee bepaalt u de volgorde die cookies en andere methoden gebruiken om bezoekers te identificeren.
