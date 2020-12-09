@@ -2,10 +2,10 @@
 title: Regionale dataverzameling
 description: Informatie over regionale gegevensverzameling
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 2%
+source-wordcount: '362'
+ht-degree: 1%
 
 ---
 
@@ -46,18 +46,3 @@ In de volgende lijst wordt het gegevensverzamelingsproces beschreven dat door Ad
 1. DNS lost automatisch de inzameling hostname aan het IP adres van het Centrum van de Inzameling van Gegevens dichtst bij de bezoeker op.
 1. De bezoeker verzendt de gegevens naar die locatie.
 1. De gegevens worden onmiddellijk via een beveiligde verbinding doorgestuurd naar het Centrum voor gegevensverwerking, waar ze worden verwerkt en ter beschikking worden gesteld van de producten in de Adobe Experience Cloud.
-
-## Voordelen van de RDC
-
-| Voordeel | Beschrijving |
-|---------|-----------|
-| Prestaties | Met de RDC zullen uw bezoekers verbinding maken met de dichtstbijzijnde DCC. Dit betekent dat de responstijden op de pagina zullen afnemen (lager is beter), wat resulteert in nauwkeuriger tracking en snellere laadtijden. |
-| Redundantie | In het geval van een verstoring in communicatie met een DCC, wordt de gegevensinzameling automatisch verpletterd aan volgende dichtstbijzijnde DCC die de dienstcontinuïteit verzekeren. |
-| Redundantie | In het geval van een verstoring in communicatie tussen DCC en uw DPC, bewaart de infrastructuur van Adobe RDC plaatselijk gegevens, dan door:sturen het aan DPC wanneer de mededelingen worden hersteld. |
-
-## Revisiegeschiedenis van documentatie
-
-| Bijwerken | Beschrijving |
-|--------|---------|
-| 4 februari 2020 | RDC-locaties bijwerken |
-| 20 februari 2019 | Volledig herschrijven. Toegevoegde RDC-netwerkinformatie. |
