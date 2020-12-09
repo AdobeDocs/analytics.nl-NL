@@ -2,7 +2,7 @@
 title: AppMeasurement voor JavaScript
 description: Leer hoe u Adobe Analytics implementeert met JavaScript zonder een tagbeheersysteem.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -29,7 +29,7 @@ AppMeasurement voor JavaScript is historisch gezien een veelgebruikte methode ge
    var s_account = "examplersid";
    var s=s_gi(s_account);
    // Make sure data is sent to the correct location
-   s.trackingServer = "example.adobedc.net";
+   s.trackingServer = "example.data.adobedc.net";
    ```
 
 3. Definieer variabelen op paginaniveau in de paginacode van uw site. Deze variabelen bepalen de specifieke afmetingen en de meetwaarden die naar Adobe worden verzonden. Zie [Paginariabelen](../vars/page-vars/page-variables.md) voor een volledige lijst met variabelen die u kunt definiëren.
