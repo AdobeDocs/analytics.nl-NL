@@ -2,7 +2,7 @@
 title: Implementeren met AMP
 description: Adobe Analytics implementeren op AMP-pagina's.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -55,7 +55,7 @@ In het volgende codevoorbeeld worden twee triggers gedefinieerd: `pageLoad` en `
         "myClick": "${click}&v1=${eVar1}",
       },
       "vars": {
-        "host": "example.sc.adobedc.net",
+        "host": "example.data.adobedc.net",
         "reportSuites": "reportSuiteID",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
@@ -109,7 +109,7 @@ De `"adobeanalytics_nativeConfig"` tag is eenvoudiger te implementeren, omdat de
         "iframeMessage": "${base}/stats.html?campaign=${queryParam(campaign)}&pageURL=${ampdocUrl}&ref=${documentReferrer}"
       },
       "vars": {
-        "host": "example.sc.adobedc.net"
+        "host": "example.data.adobedc.net"
       },
       "extraUrlParams": {
       "pageName": "Example AMP page",
@@ -133,7 +133,7 @@ Er is ook een HTML-pagina vereist die wordt gehost op uw webservers:
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
       var s_account = "examplersid";
-      var s_trackingServer = "example.sc.adobedc.net";
+      var s_trackingServer = "example.data.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
       var s = s_gi(s_account);
