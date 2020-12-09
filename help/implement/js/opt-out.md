@@ -2,7 +2,7 @@
 title: Koppelingen uitschakelen
 description: Leer hoe u de optie om te weigeren koppelingen maakt voor bezoekers van uw site.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 1%
@@ -44,7 +44,7 @@ De pagina om te weigeren voor uw organisatie is afhankelijk van de waarde van de
 
 Zodra u het `trackingServer` domein van uw implementatie hebt gevonden, voeg de weg `/optout.html` aan het eind toe. Bijvoorbeeld:
 
-* Cookies van andere bedrijven: `https://example.sc.adobedc.net/optout.html`
+* Cookies van andere bedrijven: `https://example.data.adobedc.net/optout.html`
 * Eerste cookies: `https://stats.example.com/optout.html`
 
 ## Parameters van queryreeks uitschakelen
@@ -78,7 +78,7 @@ Schakel automatisch de taal van de opt-out-pagina uit door de parameter voor de 
 * sk_SK (Slowaaks)
 * es_ES (Spaans)
 
-Hiermee wordt bijvoorbeeld de pagina om te weigeren in het Koreaans geladen. `https://example.sc.adobedc.net/optout.html?locale=ko_KR`
+Hiermee wordt bijvoorbeeld de pagina om te weigeren in het Koreaans geladen. `https://example.data.adobedc.net/optout.html?locale=ko_KR`
 
 >[!TIP]
 >
@@ -88,7 +88,7 @@ Hiermee wordt bijvoorbeeld de pagina om te weigeren in het Koreaans geladen. `ht
 
 Hiermee voegt u een knop Venster sluiten aan de pagina toe, zodat de optiepagina een pop-upvenster kan worden. Gebruik de parameter van het `popup` vraagkoord, en geef het een waarde van `1`.
 
-Laadt bijvoorbeeld de pagina met de optie Weigeren met de knop Venster sluiten. `https://example.sc.adobedc.net/optout.html?popup=1`
+Laadt bijvoorbeeld de pagina met de optie Weigeren met de knop Venster sluiten. `https://example.data.adobedc.net/optout.html?popup=1`
 
 >[!NOTE]
 >
@@ -98,10 +98,10 @@ Laadt bijvoorbeeld de pagina met de optie Weigeren met de knop Venster sluiten. 
 
 Hiermee kan de gebruiker zich direct afmelden voor bijhouden. Voeg de twee parameters van het vraagkoord toe `opt_out` en `confirm_change`, die elk een waarde van geven `1`.
 
-Het uitschakelcookie wordt bijvoorbeeld `https://example.sc.adobedc.net/optout.html?opt_out=1&confirm_change=1` onmiddellijk op de pagina van de bezoeker geïnstalleerd.
+Het uitschakelcookie wordt bijvoorbeeld `https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` onmiddellijk op de pagina van de bezoeker geïnstalleerd.
 
 ### Aanmelden met één klik
 
 Hiermee kan de gebruiker onmiddellijk terugkeren naar het bijhouden van bestanden door het uitschakelcookie te verwijderen. Voeg de twee parameters van het vraagkoord toe `opt_in` en `confirm_change`, die elk een waarde van geven `1`.
 
-Hiermee verwijdert u bijvoorbeeld `https://example.sc.adobedc.net/optout.html?opt_in=1&confirm_change=1` onmiddellijk het uitschakelcookie voor de bezoeker.
+Hiermee verwijdert u bijvoorbeeld `https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` onmiddellijk het uitschakelcookie voor de bezoeker.
