@@ -5,9 +5,9 @@ title: Migratie van bezoekers
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '443'
 ht-degree: 2%
 
 ---
@@ -19,11 +19,11 @@ Bezoekersmigratie is een proces waarbij het cookie van de bezoeker-id van het en
 
 Met de migratie van bezoekers kunt u de identificatie-cookies van bezoekers behouden wanneer u domeinen voor gegevensverzameling wijzigt. Domeinen voor gegevensverzameling kunnen om de volgende redenen worden gewijzigd:
 
-* Overstappen van `2o7.net` naar `adobedc.net` ([regionale gegevensverzameling](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
+* Ga van `2o7.net` naar `adobedc.net`.
 
-* U voert de Dienst [van identiteitskaart van de Bezoeker van](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) Experience Cloud uit en gaat van een CNAME/het domein van de eerste-partijgegevensinzameling aan `adobedc.net1`, `2o7.net` of `omtrdc.net` (de [Regionale Inzameling](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)van Gegevens)
+* U voert de Dienst [van identiteitskaart van de Bezoeker van](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) Experience Cloud uit en beweegt zich van een CNAME/het domein van de eerste-partijgegevensinzameling aan, `adobedc.net`, `2o7.net` of `omtrdc.net`
 
-* Bewegend van `2o7.net` of `adobedc.net` aan een naam/de inzameling van de eerste-partijgegevens ( [Eerste Koekjes)](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html).
+* Bewegend naar een naam/de inzameling van de eerste-partijgegevens ( [Eerste Koekjes)](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Het bewegen van één CNAME aan een andere (veranderende domeinen).
 
@@ -51,7 +51,7 @@ In de volgende tabel worden de taken weergegeven die zijn vereist voor bezoekers
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6+ uur na configuratiewijziging</b>: Werk de <code> s.trackingServer</code> en de <code> s.trackingServerSecure</code> variabelen in uw code van JavaScript van Analytics bij om de nieuwe servers van de gegevensinzameling te gebruiken. </p> </td> 
-   <td colname="col3"> <p>Nadat u deze verandering aanbrengt, gebruik een <a href="../implement/validate/packet-monitor.md"> pakketmonitor</a> om te verifiëren dat het het beeldverzoek van de Analyse naar de bijgewerkte server van de gegevensinzameling gaat. </p> </td> 
+   <td colname="col3"> <p>Nadat u deze verandering aanbrengt, gebruik debugger <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> van</a> Experience Cloud om te verifiëren dat het het beeldverzoek van de Analyse naar de bijgewerkte server van de gegevensinzameling gaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Onmiddellijk na het bijwerken van uw Analysecode</b>: Test uw plaats om te verifiëren dat redirect aan het vorige domein van de gegevensinzameling voorkomt. </p> </td> 
@@ -63,7 +63,3 @@ In de volgende tabel worden de taken weergegeven die zijn vereist voor bezoekers
   </tr> 
  </tbody> 
 </table>
-
-## Verouderde variabelen bezoekerMigrationKey en bezoekerMigrationServer {#section_32FCEE2575944D039EA0FEBFB5814259}
-
-Vanaf maart 2013 worden de variabelen `visitorMigrationKey`, `visitorMigrationServer`en `visitorMigrationServerSecure` gegevensverzameling afgekeurd en niet meer gebruikt. De gegevens die eerder in deze variabelen zijn opgenomen, worden nu opgeslagen op Adobe-servers voor meer beveiliging.
