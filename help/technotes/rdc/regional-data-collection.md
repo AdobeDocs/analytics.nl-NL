@@ -2,9 +2,9 @@
 title: Regionale dataverzameling
 description: Informatie over regionale gegevensverzameling
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: 731209e28dab9f17e06948614149a4c99938fdae
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
@@ -24,9 +24,11 @@ De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk
 
 | RDC-type | Centra voor gegevensverzameling |
 |---------------------|-------------------|
-| Standaard | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
+| Standaard | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney, China* |
 
 Opmerking: Als uw verzoek van het beeld van de Analyse naar `adobedc`, `2o7.net` `omtrdc.net` of eindpunten wordt verzonden, dan hebt u derdegegevensinzameling. U kunt dit bepalen als u één van beide eindpunt in URL van uw verzoeken ziet.
+
+*China RDC vereist het China Add-on pakket. Zie de opmerking &#39;Belangrijk&#39; hierboven.
 
 ## First-party HTTPS gegevensinzameling
 
@@ -36,8 +38,19 @@ Opmerking: Als uw verzoek van het beeld van de Analyse naar `adobedc`, `2o7.net`
 | Alleen Amerika | Oregon, Virginia |
 | Alleen Europa | Ierland, Parijs |
 | Alleen Azië - Stille Oceaan | Mumbai, Singapore, Tokio, Sydney |
+| Alleen China* | Peking |
 
-Opmerking: Experience Edge Global biedt de beste prestaties voor uw eindgebruikers.  Als u een alternatief type van BDC wilt gebruiken, gelieve de Aangepaste Zorg van de Adobe voor hulp te contacteren.
+*China RDC vereist het China Add-on pakket. Zie de opmerking &#39;Belangrijk&#39; hierboven.
+
+Opmerking: Experience Edge Global biedt de beste prestaties voor uw eindgebruikers.  Als u een alternatief type van BDC wilt gebruiken, gelieve de Zorg van de Adobe van de Klant voor hulp te contacteren.
+
+## Voordelen van de RDC
+
+| Voordeel | Beschrijving |
+| --- | --- |
+| Prestaties | Met de RDC maken uw bezoekers verbinding met de dichtstbijzijnde DCC. Dit zorgt voor de snelste responstijd, wat resulteert in nauwkeurigere tracking en snellere laadtijden. |
+| Redundantie | In het geval van een verstoring in communicatie met DCC, wordt de gegevensinzameling automatisch verpletterd aan volgende dichtstbijzijnde DCC, die de dienstcontinuïteit verzekeren. |
+| Redundantie | In het geval van een verstoring in communicatie tussen DCC en uw DPC, bewaart de infrastructuur van RDC van Adobe gegevens plaatselijk, dan door:sturen het aan DPC wanneer de mededelingen worden hersteld. |
 
 ## Hoe werkt RDC?
 
