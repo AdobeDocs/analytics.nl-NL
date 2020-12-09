@@ -2,9 +2,9 @@
 title: Migreren naar AppMeasurement voor JavaScript
 description: Bepaal wat nodig is om uw implementatie van H Code te migreren.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,6 @@ De volgende opmerkelijke veranderingen zijn aanwezig in AppMeasurement wanneer v
 * Bestaande H-code op paginaniveau is compatibel met AppMeasurement.
 * De bibliotheek biedt native hulpprogramma&#39;s voor het ophalen van queryparameters, het lezen en schrijven van cookies en het uitvoeren van geavanceerde koppelingen.
 * De bibliotheek ondersteunt geen dynamische variabelen voor accountconfiguratie (inclusief `dynamicAccountSelection`, `dynamicAccountMatch`en `dynamicAccountList`).
-* De beoordelingsmodule wordt niet ondersteund.
 
 In de volgende stappen wordt een typische migratieworkflow beschreven.
 
@@ -62,7 +61,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.adobedc.net";
+s.trackingServer="example.data.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 
