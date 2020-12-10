@@ -2,9 +2,9 @@
 description: Instructies voor het gebruik van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboards
 translation-type: tm+mt
-source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 # Adobe Analytics-dashboards: Handleiding voor snel starten van gebruikers
 
-De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards. Zie [Adobe Analytics-dashboards in-app Experience](https://youtu.be/QXqQ_PkArbA)voor een video waarin deze informatie wordt gedemonstreerd.
+De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards. Bekijk een video waarin deze informatie wordt gedemonstreerd in de [Adobe Analytics-dashboards in-app-ervaring](https://youtu.be/QXqQ_PkArbA).
 
 
 ## Inleiding
 
-Adobe Analytics-dashboards bieden altijd en overal inzichten van Adobe Analytics.  Met de app hebben gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. Dashboards worden ondersteund op zowel iOS- als Android-besturingssystemen.
+Adobe Analytics-dashboards bieden altijd en overal inzicht vanuit Adobe Analytics.  Met de app hebben gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. Dashboards worden ondersteund op zowel iOS- als Android-besturingssystemen.
 
 ## Meer informatie over deze handleiding
 
@@ -38,7 +38,7 @@ Deze handleiding is bedoeld om uitvoerende gebruikers te helpen bij het lezen en
 
 ## Stel dashboards in op uw apparaat
 
-Om de dashboards effectief te gebruiken, zult u uw hulp van de Curator van het Scorecard moeten hebben u opstelling het. In dit gedeelte vindt u informatie die u helpt bij het instellen van uw curator.
+Om de dashboards effectief te gebruiken, zult u uw hulp van de Curator van het Scorecard moeten hebben u opstelling het. In dit gedeelte vindt u informatie die u helpt bij het instellen van de curator.
 
 ### Toegang verkrijgen
 
@@ -53,17 +53,17 @@ Voer de stappen uit volgens het besturingssysteem op uw apparaat om de app te do
 
 **Voor uitvoerende gebruikers op iOS:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
 
 [iOS-koppeling](https://apple.co/2zXq0aN)
 
 **Voor uitvoerende gebruikers op Android:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de instructies om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
 
 [Android-koppeling](https://bit.ly/2LM38Oo)
 
-Zodra ze zijn gedownload en geïnstalleerd, kunnen gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-gegevens.
+Zodra ze zijn gedownload en geïnstalleerd, kunnen gebruikers zich aanmelden bij de app met hun bestaande Adobe Analytics-referenties.
 
 ![Welkomstscherm van app](assets/welcome.png)
 
@@ -71,11 +71,11 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen gebruikers zich aanmelden bij
 
 Dashboards gebruiken:
 
-1. Meld u aan bij de app. Het aanmeldingsscherm wordt weergegeven wanneer u dashboards start. Volg de aanwijzingen met behulp van de bestaande Adobe Analytics-referenties. Wij ondersteunen zowel Adobe als Enterprise-/federatieve id&#39;s.
+1. Meld u aan bij de app. Het aanmeldingsscherm wordt weergegeven wanneer u dashboards start. Volg de aanwijzingen op basis van uw bestaande Adobe Analytics-gebruikersgegevens. Wij ondersteunen zowel Adobe- als Enterprise-/federatieve id&#39;s.
 
    ![Volgorde aanmelden](assets/signseq.png)
 
-2. Kies een bedrijf. Nadat u zich hebt aangemeld bij de dashboards, wordt het scherm **Choose a company** weergegeven. Dit scherm maakt een lijst van de login bedrijven waartot u behoort. Tik op de bedrijfsnaam die is gekoppeld aan het scorebord dat met u wordt gedeeld.
+2. Kies een bedrijf. Nadat u zich hebt aangemeld bij de dashboards, wordt het **[!UICONTROL Choose a company]** scherm weergegeven. Dit scherm maakt een lijst van de login bedrijven waartot u behoort. Tik op de bedrijfsnaam die is gekoppeld aan het scorebord dat met u wordt gedeeld.
 
 3. In de lijst met scoreborden worden dan alle scoreborden weergegeven die met u zijn gedeeld. Tik op het scorebord dat u wilt weergeven.
 
@@ -85,9 +85,10 @@ Dashboards gebruiken:
 
    * U kunt zich aanmelden bij de juiste instantie Analytics
    * Het scorebord is met u gedeeld
+
    ![Niets gedeeld](assets/nothing.png)
 
-4. Onderzoek hoe de tegels in Scorecard verschijnen (het eerste Scorecard wordt getoond in donkere wijze); zie **Voorkeuren** hieronder voor meer informatie).
+4. Onderzoek hoe de tegels in Scorecard verschijnen (het eerste Scorecard wordt getoond in donkere wijze); zie **[!UICONTROL Preferences]** hieronder voor meer informatie ) .
 
    ![Getegrafeerde tegels](assets/newexplain.png)
 
@@ -101,6 +102,7 @@ Dashboards gebruiken:
    * De formule van de percentagewaardeverandering is metrisch totaal (huidige datumwaaier) - metrisch totaal (de waaier van de vergelijkingsdatum) / metrisch totaal (de waaier van de vergelijkingsdatum).
 
    * U kunt het scherm omlaag trekken om het Scorecard te vernieuwen.
+
    Het volgende voorbeeldscorebord wordt getoond in normale wijze:
 
    ![Voorbeeld van scorebord](assets/intro_scorecard.png)
@@ -116,7 +118,7 @@ Dashboards gebruiken:
 
    * U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
 
-   * Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumwaaier-of de huidige tijdsspanne of onmiddellijk voorafgaand aan het. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **VERGELIJKEN MET** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik op **Gereed** in de rechterbovenhoek van het scherm. Het veld **Datumbereik** en de scorebordtegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe bereiken die u hebt geselecteerd.
+   * Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumwaaier-of de huidige tijdsspanne of onmiddellijk voorafgaand aan het. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de **[!UICONTROL COMPARE TO]** lijst op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de gegevens van het eerste datumbereik dat u hebt geselecteerd. Tik **[!UICONTROL Done]** rechtsboven op het scherm. De **[!UICONTROL Date Ranges]** velden en de scorebordtegels worden bijgewerkt met de nieuwe vergelijkingsgegevens uit de nieuwe bereiken die u hebt geselecteerd.
 
 7. Tik op de vervolgkeuzelijst met filters en selecteer een segment dat door de curator is geconfigureerd om een segmentfilter op uw scorebord toe te passen. [Filters](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in de app werken op dezelfde manier als in de Analytics Workspace.
 
@@ -127,12 +129,12 @@ Dashboards gebruiken:
 9. Feedback geven op deze app:
 
    1. Tik op het instellingenpictogram rechtsboven in het toepassingsscherm.
-   2. Tik in het scherm **Instellingen** op de optie **Feedback** .
+   2. Tik op het **[!UICONTROL Settings]** scherm op de **[!UICONTROL Feedback]** optie.
    3. Tik om de opties voor het geven van feedback weer te geven.
 
       ![Instellingenscherm](assets/settings.png)
 
-10. Tik op de bovenstaande optie **Voorkeuren** om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
+10. Tik op de bovenstaande **[!UICONTROL Preferences]** optie om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
 
    ![Donkere modus](assets/darkmode.png)
 
