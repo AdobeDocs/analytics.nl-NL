@@ -2,9 +2,9 @@
 description: Instructies voor het instellen van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboardcurator
 translation-type: tm+mt
-source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2291'
 ht-degree: 0%
 
 ---
@@ -51,40 +51,40 @@ Als curator van dit Scorecard, kunt u de Scorecard Bouwer gebruiken om te vormen
 
 Als u het scorebord wilt maken, moet u het volgende doen:
 
-1. Open de sjabloon Blanco mobiel scorebord.
+1. Open de [!UICONTROL Blank Mobile Scorecard] sjabloon.
 2. Configureer het scorebord met gegevens en sla het op.
 
-### Toegang tot de sjabloon Blanco mobiel scorebord
+### Toegang tot de [!UICONTROL Blank Mobile Scorecard] sjabloon
 
-U kunt tot het Lege Mobiele malplaatje van het Scorecard op één van de volgende manieren toegang hebben:
+U kunt de [!UICONTROL Blank Mobile Scorecard] sjabloon op een van de volgende manieren openen:
 
 **Een nieuw project maken**
 
-1. Open Adobe Analytics en klik op het tabblad **Werkruimte** .
-2. Klik de **Create Nieuwe knoop van het Project** en selecteer het **Lege Mobiele Scorecard** projectmalplaatje.
-3. Click the **Create** button.
+1. Open Adobe Analytics en klik op het **[!UICONTROL Workspace]** tabblad.
+2. Klik op de **[!UICONTROL Create New Project]** knop en selecteer de **[!UICONTROL Blank Mobile Scorecard]** projectsjabloon.
+3. Klik op de knop **[!UICONTROL Create]**.
 
 ![Scorecard-sjabloon](assets/new_template.png)
 
 **Een project toevoegen**
 
-Klik in het scherm **Projecten** onder het tabblad **Componenten** op de knop **Toevoegen** en selecteer **Mobiel scorebord**.
+Klik in het **[!UICONTROL Projects]** scherm onder het **[!UICONTROL Components]** tabblad op de **[!UICONTROL Add]** knop en selecteer **[!UICONTROL Mobile Scorecard]**.
 
 ![Projecten toevoegen](assets/add_project.png)
 
-**Analyseprogramma&#39;s gebruiken**
+**Gereedschappen [!DNL Analytics] gebruiken**
 
-Klik in Analytics op het menu **Tools** en selecteer **dashboards**. Klik in het volgende scherm op de knop **Scorecard** maken.
+Klik [!DNL Analytics]in het **[!UICONTROL Tools]** menu en selecteer **[!UICONTROL Analytics dashboards (Mobile App)]**. Klik op de **[!UICONTROL Create new scorecard]** knop in het volgende scherm.
 
 ### Het scorebord configureren met gegevens en opslaan
 
 Het scorebordsjabloon implementeren:
 
-1. Geef onder **Eigenschappen** (in het rechterspoor) een **Projectrapportsuite** op waaruit u gegevens wilt gebruiken.
+1. Geef onder **[!UICONTROL Properties]** (in de rechterrails) een **[!UICONTROL Project report suite]** waarde op waaruit u gegevens wilt gebruiken.
 
    ![Selectie van rapportsuite](assets/properties_save.png)
 
-2. Als u een nieuwe tegel aan het scorebord wilt toevoegen, sleept u een metrische waarde uit het linkerdeelvenster en zet u de tegel neer in de **meetgegevens hier** slepen en neerzetten. U kunt ook een metrische waarde tussen twee tegels invoegen met behulp van een vergelijkbare workflow.
+2. Als u een nieuwe tegel aan uw scorebord wilt toevoegen, sleept u een metrische waarde uit het linkerdeelvenster en zet u deze neer in de **[!UICONTROL Drag and Drop Metrics Here]** zone. U kunt ook een metrische waarde tussen twee tegels invoegen met behulp van een vergelijkbare workflow.
 
    ![Tegels toevoegen](assets/build_list.png)
 
@@ -92,13 +92,13 @@ Het scorebordsjabloon implementeren:
    *Van elke tegel, kunt u tot een gedetailleerde mening toegang hebben die extra informatie over metrisch, zoals hoogste punten voor een lijst van verwante afmetingen toont.*
 
 
-3. Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept u een afmeting uit het linkerdeelvenster en zet u deze op een tegel neer. U kunt bijvoorbeeld de juiste afmetingen (zoals **DMA-regio** in dit voorbeeld) toevoegen aan de metrische waarde voor **Unieke bezoekers** door deze naar de tegel te slepen en neer te zetten. De dimensies die u toevoegt, worden weergegeven onder de sectie voor de verdeling van de tegelspecifieke **eigenschappen**. U kunt meerdere afmetingen aan elke tegel toevoegen.
+3. Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept u een afmeting uit het linkerdeelvenster en zet u deze op een tegel neer. U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL DMA Region]** in dit voorbeeld) aan de **[!UICONTROL Unique Visitors]** metrische waarde toevoegen door deze naar de tegel te slepen; De dimensies die u toevoegt, worden weergegeven onder de sectie voor de verdeling van de specifieke tegels **[!UICONTROL Properties]**. U kunt meerdere afmetingen aan elke tegel toevoegen.
 
    ![Afmetingen toevoegen](assets/layer_dimensions.png)
 
    U kunt ook een dimensie aan alle tegels toevoegen door deze op het Scorecard-canvas te neerzetten.
 
-   Wanneer u op een tegel in de Scorecard Builder klikt, toont het rechtse spoor de eigenschappen en de kenmerken verbonden aan die tegel. In dit spoor, kunt u een nieuwe **Titel** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
+   Wanneer u op een tegel in de Scorecard Builder klikt, toont het rechtse spoor de eigenschappen en de kenmerken verbonden aan die tegel. In deze rail kunt u een nieuwe tegel **[!UICONTROL Title]** voor de tegel opgeven en de tegel zelf configureren door componenten op te geven in plaats van deze te slepen en neer te zetten vanaf de linkerspoorstaaf.
 
    Als u op tegels klikt, wordt bovendien een dynamische pop-up weergegeven waarin wordt aangegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen dimensie is toegepast op de tegel, is de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
 
@@ -106,21 +106,21 @@ Het scorebordsjabloon implementeren:
 
    Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
 
-4. Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer. Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [configureert en past filters voor uw Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) op dezelfde manier toe als in Adobe Analytics Workspace.
+4. Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer. Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [configureert en past filters voor uw Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) op dezelfde manier toe als in Adobe Analytics Workspace.
 
    ![Segmenten maken voor filter](assets/segment_ui.png)
 
-5. Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door **x** te klikken die verschijnt wanneer u over de component, zoals hieronder voor het **Mobiele segment van Klanten** getoond:
+5. Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door **x** te klikken die verschijnt wanneer u over de component, zoals hieronder voor het **[!DNL Mobile Customers]** segment toont:
 
    ![Remove_components](assets/new_remove.png)
 
-6. Onder **Eigenschappen** van het Scorecard, kunt u naar keuze het volgende ook specificeren:
+6. Onder Scorecard **[!UICONTROL Properties]**, kunt u naar keuze het volgende ook specificeren:
 
-   * Een **standaarddatumbereik**. De hier opgegeven bereiken zijn dezelfde als die welke worden toegepast op de eerste toegang van de gebruiker tot het scorebord in zijn app.
+   * A **[!UICONTROL Default date range]**. De hier opgegeven bereiken zijn dezelfde als die welke worden toegepast op de eerste toegang van de gebruiker tot het scorebord in zijn app.
 
-   * Een **vergelijkingsdatumbereik**
+   * A **[!UICONTROL Comparison date range]**
 
-   * Alle **segmenten** die op de hele scorebord moeten worden toegepast
+   * Elke toepassing **[!UICONTROL Segments]** op het hele scorebord
 
 7. Als u het scorebord een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
 
@@ -130,22 +130,22 @@ Het scorebordsjabloon implementeren:
 
 U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
-1. Klik op het menu **Delen** en selecteer Scorecard **delen**.
+1. Klik op het **[!UICONTROL Share]** menu en selecteer **[!UICONTROL Share scorecard]**.
 
-2. Vul de velden in het formulier **Delen** in met:
+2. Vul de velden in het **[!UICONTROL Share mobile scorecard]** formulier in met:
 
    * De naam van het scorebord opgeven
    * Beschrijving van het scorebord
    * Relatieve tags toevoegen
    * De ontvangers voor het scorebord opgeven
 
-3. Klik op **Delen**.
+3. Klik op **[!UICONTROL Share]**.
 
 ![Share_Scorecards](assets/new_share.png)
 
 Nadat u een scorebord hebt gedeeld, kunnen uw ontvangers tot het op hun dashboards van Analytics toegang hebben. Als u daarna veranderingen in het Scorecard in de Scorecard Bouwer aanbrengt, zullen zij automatisch in het gedeelde Scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het Scorecard op hun app verfrist.
 
-Als u het Scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u de scorecard opnieuw willen delen (en de optie **Deel ingebedde componenten** ) om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.
+Als u het Scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u het scorecard opnieuw willen delen (en de **[!UICONTROL Share embedded components]** optie controleren) om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.
 
 ## Uitvoerende gebruikers instellen met de app
 
@@ -159,7 +159,7 @@ Om uitvoerende gebruikers te helpen tot uw Scorecards op app toegang hebben, zor
 * Ze hebben een geldige aanmelding bij Adobe Analytics
 * U hebt op de juiste wijze mobiele scoreborden voor hen gemaakt en deze scoreborden met hen gedeeld
 * Ze hebben toegang tot Analysis Workspace en de rapportensuite waarop het scorebord is gebaseerd
-* Zij hebben toegang tot de Componenten die het Scorecard omvat. U kunt een optie selecteren bij het delen van uw Scorecards om ingesloten componenten **te** delen.
+* Zij hebben toegang tot de Componenten die het Scorecard omvat. U kunt een optie selecteren wanneer u uw scoreborden deelt naar **[!UICONTROL Share embedded components]**.
 
 ### Help uitvoerende gebruikers met de app
 
@@ -169,22 +169,22 @@ Zo helpt u uitvoerende gebruikers:
 
    **Voor uitvoerende gebruikers op iOS:**
 
-   * Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
+   * Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
 
       [iOS-koppeling](https://apple.co/2zXq0aN)
    **Voor uitvoerende gebruikers op Android:**
 
-   * Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **Gereedschappen** > **dashboards**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
+   * Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
 
       [Android-koppeling](https://bit.ly/2LM38Oo)
    Zodra gedownload en geïnstalleerd, kunnen de uitvoerende gebruikers zich in app aanmelden gebruikend hun bestaande geloofsbrieven van Adobe Analytics; wij ondersteunen zowel Adobe- als Enterprise/Federated-id&#39;s.
 
    ![Welkomstscherm van app](assets/welcome.png)
 
-2. Help hen tot uw Scorecard toegang te hebben. Nadat uitvoerende gebruikers zich in app ondertekenen, verschijnt het **Choose een bedrijfscherm** . Dit scherm maakt een lijst van de login bedrijven waartot de uitvoerende gebruiker behoort. Om hen te helpen bij de Scorecard:
+2. Help hen tot uw Scorecard toegang te hebben. Nadat gebruikers zich bij het dagelijks bestuur hebben aangemeld, wordt het **[!UICONTROL Choose a company]** scherm weergegeven. Dit scherm maakt een lijst van de login bedrijven waartot de uitvoerende gebruiker behoort. Om hen te helpen bij de Scorecard:
 
    * Tik op de naam van het aanmeldingsbedrijf of de Experience Cloud Org die van toepassing is op het scorebord dat u hebt gedeeld. De Scorecard lijst toont dan alle Scorecards die met het uitvoerend onder dat login bedrijf zijn gedeeld.
-   * Help ze deze lijst te sorteren op **Laatst gewijzigd**, indien van toepassing.
+   * Help hen deze lijst, indien van toepassing, te sorteren **[!UICONTROL Most recently modified]**.
    * Tik op de naam van het scorebord om het weer te geven.
 
    ![Kies een bedrijf](assets/accesscard.png)
@@ -201,7 +201,7 @@ Zo helpt u uitvoerende gebruikers:
    * Verifieer dat de uitvoerende gebruiker in de juiste instantie van Analytics kan registreren en dat Scorecard is gedeeld.
 
 
-3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt (het eerste hieronder Scorecard wordt geplaatst op donkere wijze); zie **Voorkeuren** hieronder als u denkt dat uw uitvoerende gebruiker deze weergaveoptie verkiest):
+3. Leg aan de uitvoerende gebruiker uit hoe de tegels in de Scorecards verschijnen u deelt (het eerste hieronder Scorecard wordt geplaatst op donkere wijze); zie **[!UICONTROL Preferences]** hieronder als u denkt uw uitvoerende gebruiker deze het bekijken opt-on) verkiest:
 
    ![Stijlen verklaren](assets/newexplain.png)
 
@@ -231,17 +231,17 @@ Zo helpt u uitvoerende gebruikers:
 
    * U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
 
-   * Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumwaaier-of de huidige tijdsspanne of onmiddellijk voorafgaand aan het. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **VERGELIJKEN MET** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik op **Gereed** in de rechterbovenhoek van het scherm. Het veld **Datumbereik** en de scorebordtegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe bereiken die u hebt geselecteerd.
+   * Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumwaaier-of de huidige tijdsspanne of onmiddellijk voorafgaand aan het. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de **[!UICONTROL COMPARE TO]** lijst op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de gegevens van het eerste datumbereik dat u hebt geselecteerd. Tik **[!UICONTROL Done]** rechtsboven op het scherm. De **[!UICONTROL Date Ranges]** velden en de scorebordtegels worden bijgewerkt met de nieuwe vergelijkingsgegevens uit de nieuwe bereiken die u hebt geselecteerd.
 
 6. Feedback geven op deze app:
 
    1. Tik op het instellingenpictogram rechtsboven in het toepassingsscherm.
-   2. Tik in het scherm **Instellingen** op de optie **Feedback** .
+   2. Tik op het **[!UICONTROL Settings]** scherm op de **[!UICONTROL Feedback]** optie.
    3. Tik om de opties voor het geven van feedback weer te geven.
 
       ![Instellingenscherm](assets/settings.png)
 
-7. Tik op de bovenstaande optie **Voorkeuren** om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
+7. Tik op de bovenstaande **[!UICONTROL Preferences]** optie om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
 
    ![Donkere modus](assets/darkmode.png)
 
