@@ -2,9 +2,9 @@
 title: Apparaatanalyse instellen
 description: Configureer een virtuele rapportsuite om CDA in te schakelen.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: da4f4d843e02865c006df2190d19a85306dbf2d0
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,24 @@ Als aan alle voorwaarden is voldaan, voert u de volgende stappen uit om Apparaat
 
 >[!IMPORTANT]
 >
->Aan alle voorwaarden moet worden voldaan voordat u deze stappen uitvoert. Als niet aan alle voorwaarden wordt voldaan, is de functie niet beschikbaar of werkt deze niet. Zie de [overzichtspagina](overview.md) en de gewenste tekenmethode ([Veldgebaseerde stitching](field-based-stitching.md) of Grafiek [van het](device-graph.md)Apparaat, respectievelijk) voor eerste vereisten en beperkingen.
+>Aan alle voorwaarden moet worden voldaan voordat u deze stappen uitvoert. Als niet aan alle voorwaarden wordt voldaan, is de functie niet beschikbaar of werkt deze niet. Zie [overzichtspagina](overview.md) en de gewenste het stitching methode ([Op gebied-gebaseerde het stitching](field-based-stitching.md) of [Apparaatgrafiek](device-graph.md), respectievelijk) voor eerste vereisten en beperkingen.
 
-## Kies de rapportsuite voor alle apparaten die wordt ingeschakeld voor CDA
+## Neem contact op met de succesmanager van uw klant om CDA te voorzien voor uw rapportenpakket voor verschillende apparaten
 
-Wanneer uw organisatie is ingericht om CDA te gebruiken, kiest u welke rapportsuite moet worden gebruikt. Deze keuze kan via uw accountmanager van Adobe worden doorgegeven. Adobe laat dan uw gekozen rapportreeks voor CDA verwerking toe.
+CDA is provisioned op uw cross-device rapportsuite door Adobe engineering. Neem contact op met de succesmanager van uw klant met de volgende informatie:
+
+* Uw Adobe Experience Cloud org-id (een alfanumerieke tekenreeks die eindigt met @AdobeOrg)
+* De rapportsuite-id voor de rapportsuite voor verschillende apparaten die u wilt inschakelen met CDA
+* Welke methode van CDA wilt u gebruiken (op gebied-gebaseerde het stitching, Adobe privé grafiek, of Adobe coop grafiek)
+* Als u op het veld gebaseerde stitching wilt gebruiken, de eigenschap of de eVar die de gebruikersnaam bevat
+
+Zodra uw CSM van deze informatie voorziet, werken zij met de Techniek van Adobe om uw gekozen rapportreeks voor CDA verwerking toe te laten.
 
 ## Maak een virtuele-rapportsuite voor meerdere apparaten om de apparaatweergave te bekijken
 
 Beheerders die toegang hebben tot het maken van virtuele rapportsuites, kunnen als volgt virtuele CDA-rapportensuites maken:
 
-1. Navigeer naar [Experience.adobe.com](https://experiencecloud.adobe.com) en meld u aan met uw Adobe-id-referenties.
+1. Navigeer naar [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) en meld u aan met uw AdobeID-referenties.
 2. Klik op het pictogram met het 9-raster bovenaan en klik vervolgens op Analytics.
 3. Houd de muis boven Componenten en klik vervolgens op Virtuele rapportsets.
 4. Klik op Toevoegen.
@@ -43,7 +50,7 @@ Beheerders die toegang hebben tot het maken van virtuele rapportsuites, kunnen a
 Houd rekening met de volgende wijzigingen wanneer Apparaatanalyse is ingeschakeld voor een virtuele rapportsuite:
 
 * Er verschijnt een nieuw apparaatpictogram naast de naam van de virtuele rapportsuite. Dit pictogram is exclusief voor virtuele rapportsuites op meerdere apparaten.
-* Er is een nieuwe dimensie beschikbaar met het label [Identified state](../dimensions/identified-state.md) . Deze dimensie bepaalt of de Experience Cloud-id op die hit bekend is door de apparaatgrafiek op dat moment.
-* Er zijn nieuwe metriek beschikbaar met het label [Personen](../metrics/people.md) en [Unieke apparaten](../metrics/unique-devices.md) .
-* De metrische [Unieke Bezoekers](../metrics/unique-visitors.md) zijn niet beschikbaar, omdat deze worden vervangen door &#39;Mensen&#39; en &#39;Unieke Apparaten&#39;.
+* Er is een nieuwe dimensie beschikbaar met het label [Identified state](../dimensions/identified-state.md). Deze dimensie bepaalt of de Experience Cloud-id op die hit bekend is door de apparaatgrafiek op dat moment.
+* Er zijn nieuwe meetgegevens beschikbaar met de labels [Mensen](../metrics/people.md) en [Unieke apparaten](../metrics/unique-devices.md).
+* De metrische [Unieke bezoekers](../metrics/unique-visitors.md) is niet beschikbaar, aangezien het met &quot;Mensen&quot;en &quot;Unieke Apparaten&quot;wordt vervangen.
 * Bij het maken van segmenten wordt de segmentcontainer &#39;Visitor&#39; vervangen door een container &#39;Person&#39;.
