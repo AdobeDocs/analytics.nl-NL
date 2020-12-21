@@ -2,9 +2,9 @@
 title: getTimeParting
 description: Meet het tijdstip waarop een specifieke actie plaatsvindt.
 translation-type: tm+mt
-source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
+source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,6 @@ Analysis Workspace biedt vergelijkbare, kant-en-klare afmetingen die iets anders
 >[!IMPORTANT]
 >
 >Versie 4.0+ van deze plug-in wijkt sterk af van eerdere versies. Adobe raadt u ten zeerste aan deze plug-in volledig te implementeren. Code die verwijst naar de insteekmodule vóór versie 4.0 is niet compatibel met de huidige versie van deze insteekmodule.
-
->[!IMPORTANT]
->
->In eerdere versies van deze plug-in konden niet alle jaren in de toekomst worden opgenomen. Als u een vorige versie van deze plug-in gebruikt, raadt Adobe u ten zeerste aan om de upgrade naar de nieuwste versie uit te voeren om JavaScript-fouten en gegevensverlies te voorkomen. Als het bijwerken van deze plug-in niet mogelijk is, moet u ervoor zorgen dat de variabele `s._tpdst` in de plug-incode in de toekomst de juiste jaren bevat. Deze variabele is niet aanwezig of nodig in de meest recente versie van de plug-in.
 
 ## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
 
@@ -157,6 +153,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 * Point Release (opnieuw gecompileerd, kleinere codegrootte)
 * De noodzaak voor de parameter `tpDST` is verwijderd, omdat de begin- en einddatum van de zomertijd nu automatisch worden gedetecteerd
+
+>[!CAUTION]
+>
+>In eerdere versies van deze plug-in konden niet alle jaren in de toekomst worden opgenomen. Als u een vorige versie van deze plug-in gebruikt, raadt Adobe u ten zeerste aan om de upgrade naar de nieuwste versie uit te voeren om JavaScript-fouten en gegevensverlies te voorkomen. Als het bijwerken van deze plug-in niet mogelijk is, moet u ervoor zorgen dat de variabele `s._tpdst` in de plug-incode in de toekomst de juiste jaren bevat.
 
 ### 4.0 (22 augustus 2016)
 
