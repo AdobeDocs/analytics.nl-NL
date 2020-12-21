@@ -2,9 +2,9 @@
 title: getTimeParting
 description: Meet het tijdstip waarop een specifieke actie plaatsvindt.
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -16,22 +16,26 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `getTimeParting` insteekmodule kunt u de details vastleggen van het tijdstip waarop een meetbare activiteit op uw site plaatsvindt. Deze insteekmodule is waardevol wanneer u metriek door om het even welke herhaalbare verdeling van tijd over een bepaalde datumwaaier wilt breken. U kunt bijvoorbeeld de conversiekoersen vergelijken tussen twee verschillende dagen van de week, zoals alle zondag en alle donderdag. U kunt periodes van de dag ook vergelijken, zoals alle ochtenden tegenover alle avonden.
+Met de `getTimeParting`-plug-in kunt u de details vastleggen van het tijdstip waarop een meetbare activiteit op uw site plaatsvindt. Deze insteekmodule is waardevol wanneer u metriek door om het even welke herhaalbare verdeling van tijd over een bepaalde datumwaaier wilt breken. U kunt bijvoorbeeld de conversiekoersen vergelijken tussen twee verschillende dagen van de week, zoals alle zondag en alle donderdag. U kunt periodes van de dag ook vergelijken, zoals alle ochtenden tegenover alle avonden.
 
-Analysis Workspace biedt vergelijkbare, kant-en-klare afmetingen die iets anders zijn opgemaakt dan deze plug-in. Zie de afmetingen voor [tijdpartering](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) in de gebruikershandleiding Analyseren voor meer informatie. Sommige organisaties vinden dat de Analysis Workspace-afmetingen buiten de doos voldoende zijn.
+Analysis Workspace biedt vergelijkbare, kant-en-klare afmetingen die iets anders zijn opgemaakt dan deze plug-in. Zie [afmetingen voor tijdpartering](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) in de gebruikershandleiding Analyseren voor meer informatie. Sommige organisaties vinden dat de Analysis Workspace-afmetingen buiten de doos voldoende zijn.
 
 >[!IMPORTANT]
 >
 >Versie 4.0+ van deze plug-in wijkt sterk af van eerdere versies. Adobe raadt u ten zeerste aan deze plug-in volledig te implementeren. Code die verwijst naar de insteekmodule vóór versie 4.0 is niet compatibel met de huidige versie van deze insteekmodule.
 
+>[!IMPORTANT]
+>
+>In eerdere versies van deze plug-in konden niet alle jaren in de toekomst worden opgenomen. Als u een vorige versie van deze plug-in gebruikt, raadt Adobe u ten zeerste aan om de upgrade naar de nieuwste versie uit te voeren om JavaScript-fouten en gegevensverlies te voorkomen. Als het bijwerken van deze plug-in niet mogelijk is, moet u ervoor zorgen dat de variabele `s._tpdst` in de plug-incode in de toekomst de juiste jaren bevat. Deze variabele is niet aanwezig of nodig in de meest recente versie van de plug-in.
+
 ## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. De [!UICONTROL Common Analytics Plugins] extensie installeren en publiceren
+1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
@@ -44,10 +48,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder de extensie Adobe Analytics.
-1. Vouw de [!UICONTROL Configure tracking using custom code] accordeon uit, zodat de [!UICONTROL Open Editor] knop zichtbaar wordt.
+1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
+1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -64,9 +68,9 @@ var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(ne
 
 ## De plug-in gebruiken
 
-De `getTimeParting` methode gebruikt het volgende argument:
+De methode `getTimeParting` gebruikt het volgende argument:
 
-**`t`** (Optioneel maar aanbevolen, tekenreeks): De naam van de tijdzone waarnaar de lokale tijd van de bezoeker moet worden omgezet.  Wordt standaard ingesteld op UTC/GMT-tijd. Zie [Lijst van de tijdzones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) van de TZ- gegevensbestandtijd op Wikipedia voor een volledige lijst van geldige waarden.
+**`t`** (Optioneel maar aanbevolen, tekenreeks): De naam van de tijdzone waarnaar de lokale tijd van de bezoeker moet worden omgezet.  Wordt standaard ingesteld op UTC/GMT-tijd. Zie [Lijst met tijdzones van de TZ-database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) op Wikipedia voor een volledige lijst met geldige waarden.
 
 Veelvoorkomende geldige waarden zijn:
 
@@ -75,7 +79,7 @@ Veelvoorkomende geldige waarden zijn:
 * `"America/Denver"` voor Mountain Time
 * `"America/Los_Angeles"` voor Pacific Time
 
-Wanneer deze methode wordt aangeroepen, wordt een tekenreeks geretourneerd die de volgende door een pipe (`|`) gescheiden tekens bevat:
+Wanneer deze methode wordt aangeroepen, wordt een tekenreeks geretourneerd die het volgende door een pipe (`|`) gescheiden bevat:
 
 * Het lopende jaar
 * De huidige maand
@@ -105,11 +109,11 @@ Als de klant zich in het Afrikaanse land Ghana bevindt:
 s.eVarX = getTimeParting();
 ```
 
-Ghana bevindt zich binnen de tijdzone UTC/GMT.  In dit voorbeeld wordt getoond dat onder dergelijke omstandigheden geen insteekmoduleargument nodig is.
+Ghana bevindt zich binnen de tijdzone UTC/GMT. In dit voorbeeld wordt getoond dat er geen insteekmoduleargument nodig is voor UTC/GMT.
 
 ### Boekhouding voor Internet Explorer-browsers
 
-Gebruik het volgende voorbeeld als u parting van gegevens bij tijd wilt uitsluiten van Internet Explorer-bezoekers (aangezien de waarde die wordt geretourneerd door IE-browsers alleen in de lokale tijd van de bezoeker kan worden weergegeven)
+Gebruik het volgende voorbeeld als u gegevens tijdens het parseren van de tijd wilt uitsluiten van Bezoekers van Internet Explorer. De waarde die door IE-browsers wordt geretourneerd, is alleen in de lokale tijd van de bezoeker.
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,39 +122,21 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### Resultaten van vraag
 
-Als een bezoeker uit Denver, Colorado, op 31 augustus 2020 om 9:15 uur een site bezoekt,
-
-De volgende code uitvoeren...
+Overweeg een scenario waarbij een bezoeker van Denver Colorado op 31 augustus 2020 om 9:15 uur een site bezoekt.
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+
+s.eVar11 = getTimeParting("America/Nome");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+
+s.eVar12 = getTimeParting("Asia/Calcutta");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+
+s.eVar13 = getTimeParting("Australia/Sydney");
+// Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
 ```
-
-...zou s.eVar10 gelijk stellen aan &quot;year=2020 | month=August | date=31 | day=vrijdag | time=6:15 PM&quot;
-
-De volgende code...
-
-```js
-s.eVar10 = getTimeParting("America/Nome");
-```
-
-...zou s.eVar10 gelijk stellen aan &quot;year=2020 | month=August | date=31 | day=vrijdag | time=6:15 AM&quot;
-
-De volgende code...
-
-```js
-s.eVar10 = getTimeParting("Asia/Calcutta");
-```
-
-...zou s.eVar10 gelijk stellen aan &quot;year=2020 | month=August | date=31 | day=vrijdag | time=8:45 PM&quot;
-
-En de volgende code...
-
-```js
-s.eVar10 = getTimeParting("Australia/Sydney");
-```
-
-...zou s.eVar10 gelijk stellen aan &quot;year=2020 | month=September | date=1 | day=zaterdag | time=1:15 AM&quot;
 
 ## Versiehistorie
 
@@ -170,7 +156,7 @@ s.eVar10 = getTimeParting("Australia/Sydney");
 ### 5.0 (17 april 2018)
 
 * Point Release (opnieuw gecompileerd, kleinere codegrootte)
-* De noodzaak van de `tpDST` parameter is verwijderd, omdat de begin- en einddatum van de zomertijd nu automatisch worden gedetecteerd
+* De noodzaak voor de parameter `tpDST` is verwijderd, omdat de begin- en einddatum van de zomertijd nu automatisch worden gedetecteerd
 
 ### 4.0 (22 augustus 2016)
 
