@@ -2,9 +2,9 @@
 description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 translation-type: tm+mt
-source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
+source-git-commit: 272c50040a009d2b69885924e7b1f402636e8889
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 2%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Overzicht van deelvensters
 
-A [!UICONTROL panel] is een verzameling tabellen en visualisaties. U hebt toegang tot deelvensters via het pictogram linksboven in Workspace of een [leeg deelvenster](blank-panel.md). Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van een tijdsperiode, een rapport of een analyse. De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace:
+A [!UICONTROL panel] is een inzameling van lijsten en visualisaties. U hebt toegang tot deelvensters via het pictogram linksboven in Workspace of via een [leeg deelvenster](blank-panel.md). Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van een tijdsperiode, een rapport of een analyse. De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace:
 
 | Vensternaam | Beschrijving |
 | --- | --- |
@@ -26,13 +26,13 @@ A [!UICONTROL panel] is een verzameling tabellen en visualisaties. U hebt toegan
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights], [!UICONTROL Blank] en [!UICONTROL Freeform] deelvensters zijn ideale plaatsen om uw analyse te starten, terwijl [!UICONTROL Analytics for Target], [!UICONTROL Attribution IQ], [!UICONTROL Media Concurrent Viewers] en zich [!UICONTROL Segment Comparison] lenen aan geavanceerdere analyses. Een `"+"` knop is beschikbaar in projecten, zodat u op elk gewenst moment lege deelvensters kunt toevoegen.
+[!UICONTROL Quick Insights],  [!UICONTROL Blank] en  [!UICONTROL Freeform] deelvensters zijn ideale plaatsen om uw analyse te starten, terwijl  [!UICONTROL Analytics for Target],  [!UICONTROL Attribution IQ],  [!UICONTROL Media Concurrent Viewers] en zich aan geavanceerdere analyses  [!UICONTROL Segment Comparison] lenen. Een `"+"` knoop is beschikbaar in projecten zodat kunt u lege panelen op elk ogenblik toevoegen.
 
-Het standaardbeginvenster is het [!UICONTROL Freeform] deelvenster, maar u kunt ook het [lege deelvenster](/help/analyze/analysis-workspace/c-panels/blank-panel.md) als standaard instellen.
+Het standaardstartvenster is het [!UICONTROL Freeform]-deelvenster, maar u kunt ook het [lege deelvenster](/help/analyze/analysis-workspace/c-panels/blank-panel.md) als standaard instellen.
 
 ## Rapportsuite {#report-suite}
 
-Tabellen en visualisaties in een deelvenster leiden gegevens af van de [!UICONTROL report suite] geselecteerde tekst in de rechterbovenhoek van het deelvenster. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project, kunt u één of [vele rapportreeksen](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) afhankelijk van uw gevallen van het analysegebruik gebruiken. Als u één rapportsuite op alle deelvensters in een project wilt toepassen, klikt u met de **rechtermuisknop op de koptekst van het deelvenster > Rapportsuite toepassen op alle deelvensters**.
+Tabellen en visualisaties in een deelvenster leiden gegevens af van de [!UICONTROL report suite] die rechtsboven in het deelvenster is geselecteerd. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project, kunt u één of [vele rapportreeksen](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) afhankelijk van uw gevallen van het analysegebruik gebruiken. Als u één rapportsuite op alle deelvensters in een project wilt toepassen, **klikt u met de rechtermuisknop op de koptekst van het deelvenster > Rapportsuite toepassen op alle deelvensters**.
 
 De lijst van rapportreeksen wordt gesorteerd op relevantie, die Adobe bepaalt gebaseerd op hoe onlangs en vaak de reeks door de huidige gebruiker is gebruikt, en hoe vaak de reeks binnen de organisatie wordt gebruikt.
 
@@ -74,15 +74,15 @@ U kunt vervolgkeuzefilters gebruiken om een groot aantal projecten ook in één 
 
 Vervolgkeuzefilters maken:
 
-1. Als u een vervolgkeuzefilter wilt maken met [!UICONTROL Dimension items]bijvoorbeeld waarden binnen de [!UICONTROL Marketing Channel] dimensie, klikt u op het pictogram met de pijl naar rechts naast de afmeting in de linkertrack. Hiermee worden alle beschikbare items zichtbaar. Selecteer een of meerdere onderdelen in de linkertrack en zet ze neer in de dropzone van het deelvenster **terwijl u Shift ingedrukt houdt**. Hierdoor worden de componenten omgezet in een vervolgkeuzefilter in plaats van in één segment.
-1. Als u een vervolgkeuzefilter wilt maken met andere componenten, zoals metriek, segmenten of datumbereiken, selecteert u een van de componenttypen in de linkertrack en zet u de vervolgkeuzelijst neer in de dropzone van het deelvenster **terwijl u Shift ingedrukt houdt**.
-1. Selecteer een van de opties in het vervolgkeuzemenu om de gegevens in het deelvenster te wijzigen. U kunt er ook voor kiezen om geen van de deelvenstergegevens te filteren door te selecteren **[!UICONTROL No filter]**.
+1. Als u een vervolgkeuzefilter wilt maken met [!UICONTROL Dimension items], zoals waarden binnen de [!UICONTROL Marketing Channel]-dimensie, klikt u op het pictogram met de pijl naar rechts naast de afmeting in de linkertrack. Hiermee worden alle beschikbare items zichtbaar. Selecteer een of meer componentitems in de linkertrack en zet ze **neer in de dropzone van het deelvenster terwijl u Shift ingedrukt houdt.** Hierdoor worden de componenten omgezet in een vervolgkeuzefilter in plaats van in één segment.
+1. Als u een vervolgkeuzefilter wilt maken met een andere component, zoals metriek, segmenten of datumbereiken, selecteert u een van de componenttypen in de linkerrails en zet u de vervolgkeuzelijst neer in de dropzone van het deelvenster terwijl u Shift ingedrukt houdt **.**
+1. Selecteer een van de opties in het vervolgkeuzemenu om de gegevens in het deelvenster te wijzigen. U kunt er ook voor kiezen om geen van de deelvenstergegevens te filteren door **[!UICONTROL No filter]** te selecteren.
 
 ![](assets/create-dropdown.png)
 
-[Bekijk de video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) voor meer informatie over het toevoegen van vervolgkeuzefilters aan uw project.
+[Bekijk de ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) video voor meer informatie over het toevoegen van vervolgkeuzefilters aan uw project.
 
-## Klikken met rechtermuisknop {#right-click}
+## Klikken met rechtermuisknop op menu {#right-click}
 
 Aanvullende functionaliteit voor een deelvenster is beschikbaar door met de rechtermuisknop op de koptekst van het deelvenster te klikken.
 
