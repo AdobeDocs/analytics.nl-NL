@@ -3,10 +3,10 @@ title: Technische documentatie-updates voor Adobe Analytics
 description: Belangrijke updates van de Adobe Analytics-documentatieopslagplaats.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 97%
+source-wordcount: '420'
+ht-degree: 90%
 
 ---
 
@@ -20,11 +20,12 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 * Raadpleeg [Nieuwe functies in de Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) in de handleiding voor tools voor details over nieuwe functies.
 * Zie [Audio en video meten in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) voor informatie over Adobe Analytics voor audio en video.
 
-## Details bijwerken
+## Belangrijkste updatedetails
 
 | Datum | Beschrijving |
 |---|---|
-| 21 juli 2020 | Belangrijke updates en herzieningen van [apparaatanalyse](/help/components/cda/overview.md). Toegevoegde stitching op [basis van veld](/help/components/cda/field-based-stitching.md). |
+| november 2020 | Nieuwe evaluatiedocumenten van de implementatie: <ul><li>[Volledige evaluatie van implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Gericht overzicht van implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
+| 21 juli 2020 | Belangrijke updates en herzieningen van [Apparaatanalyse](/help/components/cda/overview.md). Toegevoegd [Op veld gebaseerde stitching](/help/components/cda/field-based-stitching.md). |
 | 28 april 2020 | Toegevoegde documentatie met cijfers over [Contentsnelheid](/help/components/metrics/content-velocity.md). |
 | 12 maart 2020 | Toegevoegde updates van [Segmenten publiceren naar Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 maart 2020 | Updates van CDA-stitchinglatentie. |
