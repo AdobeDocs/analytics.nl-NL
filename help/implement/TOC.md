@@ -5,9 +5,9 @@ user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: 'Pas aan welke gegevens worden verzameld om meer uit Adobe Analytics te halen. '
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 89%
 
 ---
@@ -203,9 +203,9 @@ ht-degree: 89%
    + [Pakketbewaking](validate/packet-monitor.md)
    + [Hash-botsingen](validate/hash-collisions.md)
 + [Veelgestelde vragen](faq.md)
-+ Uw implementatie controleren {#review}
-   + [Kleine Implementatiecontrole (na elke release van de website)](review/minor-review.md)
-   + [Belangrijke evaluatie van de implementatie (elke 6 maanden)](review/major-review.md)
++ Uw implementatie {#review} controleren
+   + [Gerichte revisie (na elke release van de website)](review/focused-review.md)
+   + [Volledige controle (elke 6 maanden)](review/full-review.md)
    + [De bovenste 5 KPI&#39;s definiëren](review/define-kpis.md)
 + XDM-data gebruiken met Analytics {#aep-edge}
    + [AEP Web-SDK gebruiken](aep-edge/xdmoverview.md)
