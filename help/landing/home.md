@@ -2,10 +2,10 @@
 title: Technische documentatiehandleidingen voor Adobe Analytics
 description: Analytics-gebruikershandleidingen en -bronnen
 translation-type: tm+mt
-source-git-commit: 13fefcf8f743d1890044e2ac6b5864846d2c8cb7
+source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 95%
+source-wordcount: '431'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Welkom bij de startpagina van het product en de technische documentatie van Adob
 
 [![Integratie](assets/integrate_50px.png)](/help/integrate/home.md) [Integratiehandleiding](/help/integrate/home.md) – Configureer integraties met andere Adobe Experience Cloud-oplossingen zoals Audience Manager, Advertising Cloud en Target.
 
-[![Streaming Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)[Streaming Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - Implementeer Adobe Analytics for Streaming Media. Bevat de Media-SDK en de Media Collection-API.
+[![Handleiding voor](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) analyse van streaming media-analyse[ voor ](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) streaming media - Implementeer Adobe Analytics for Streaming Media. Bevat de Media-SDK en de Media Collection-API.
 
 [![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) [Data Workbench-handleidingen](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) – Ontdek meer over de uiterst flexibele, krachtige, meerkanaalsmogelijkheden van [!UICONTROL Data Workbench]. Inclusief [!UICONTROL Data Workbench Client], installatie, [!UICONTROL Dataset Configuration] handleidingen en meer.
 
@@ -36,7 +36,7 @@ Welkom bij de startpagina van het product en de technische documentatie van Adob
 
 | Nieuwe en aanbevolen items | Belangrijke Analytics-bronnen |
 | --- | --- |
-| <ul><li>[Regionale dataverzameling](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace-prestaties optimaliseren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics-productvergelijking](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Welke Adobe Analytics-tool moet ik gebruiken?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Zie ook: [Documentatie-updates van 2019](doc-updates.md) | <ul><li> [Releaseopmerkingen](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics-videozelfstudies](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)</li><li>[Forum Analytics-community](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Persoonlijke training en virtuele lessen](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact opnemen met de klantenservice](https://helpx.adobe.com/nl/support/analytics.html)</li></ul> |
+| <ul><li>[Volledige evaluatie van implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Gericht overzicht van implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li><li>[Regionale dataverzameling](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace-prestaties optimaliseren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics-productvergelijking](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Welke Adobe Analytics-tool moet ik gebruiken?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Zie ook: [Documentatie-updates van 2019](doc-updates.md) | <ul><li> [Releaseopmerkingen](https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics-videozelfstudies](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)</li><li>[Forum Analytics-community](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Persoonlijke training en virtuele lessen](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact opnemen met de klantenservice](https://helpx.adobe.com/nl/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
