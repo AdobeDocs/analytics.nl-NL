@@ -2,9 +2,9 @@
 title: Volledige revisie
 description: Herzie uw implementatie om de 6 maanden om verdere aanpassing aan bedrijfsbehoeften en KPIs te verzekeren.
 translation-type: tm+mt
-source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
+source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Ontmoet met de bedrijfseigenaar en/of analisten om de veranderende bedrijfsbehoe
 
 Bekijk kort al uw metriek en variabelen, in volgorde van belang voor de zaken, om ervoor te zorgen dat de gegevens correct verzamelen. Begin met uw belangrijkste metriek en variabelen - degenen verbonden aan uw [top 5 KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review). Dit doet u als volgt:
 
-* Maak dashboards om de maandelijkse trended weergaven van uw metriek en variabelen te zien (of stel intelligente waarschuwingen in voor elk) om ervoor te zorgen dat u de gegevens krijgt die u verwacht en dat de gegevens juist zijn. Als u om het even welke discrepanties vindt, onderzoek uw gegevenslaag, de regels van de markeringsmanager, en verwerkingsregels om te weten te komen waarom.
+* Maak dashboards om de maandelijkse trended weergaven van uw metriek en variabelen (of stel [intelligente waarschuwingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) voor elk in) om te controleren of u de gegevens die u verwacht ophaalt en of de gegevens juist zijn. Als u om het even welke discrepanties vindt, onderzoek uw gegevenslaag, de regels van de markeringsmanager, en verwerkingsregels om te weten te komen waarom.
 * Voer het [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) opnieuw uit om brede tendensen van uw metriek en variabelen te controleren.
 
 Laat uw implementatie niet opgeblazen raken met maatstaven en variabelen die u niet nodig hebt. Schakel metriek of variabelen uit die het bedrijf niet meer nodig heeft of gebruikt. U kunt ze later verwijderen of opnieuw gebruiken.
