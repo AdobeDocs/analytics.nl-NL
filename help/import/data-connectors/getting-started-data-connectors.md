@@ -2,9 +2,9 @@
 description: Importeer volggegevens van toepassingen van derden naar Analytics.
 title: Aan de slag met de gegevensconnectors van Analytics
 translation-type: tm+mt
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Bijvoorbeeld, zou een e-mailintegratie een e-mailpartner kunnen willen gebruiken
 
 >[!IMPORTANT]
 >
->We zullen de Adobe Data Connector-technologie halverwege tot eind 2021 aan het einde van de levensduur hebben. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
+>Op 1 augustus 2021 zullen we de Adobe Data Connector-technologie aan het einde van de levensduur hebben. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Systeemvereisten**
 
@@ -45,12 +45,12 @@ Voer de volgende handelingen uit voordat u de integratie van gegevensconnectors 
 
 ## Integratie toevoegen
 
-U moet een huidige account hebben om toegang te krijgen tot de [!UICONTROL Data Connectors] bestemmingspagina (console). U wordt ook aangeraden bekend te zijn met Adobe Analytics.
+U moet over een huidige account beschikken om de [!UICONTROL Data Connectors]-bestemmingspagina (console) te openen. U wordt ook aangeraden bekend te zijn met Adobe Analytics.
 
 1. Meld u aan bij de Adobe Experience Cloud.
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**.
 1. Klik op **[!UICONTROL Add New]**.
-1. Stap door de **[!UICONTROL Add Integration]** interface.
+1. Ga door de **[!UICONTROL Add Integration]** interface.
 
    Afhankelijk van de individuele productintegratie, zou u specifieke configuratieinformatie als deel van het integratieproces kunnen moeten verstrekken.
 
@@ -58,7 +58,7 @@ U moet een huidige account hebben om toegang te krijgen tot de [!UICONTROL Data 
 
 ## Console gegevensverbindingen
 
-Nadat u een integratie hebt geactiveerd, wordt deze weergegeven op de [!UICONTROL Data Connectors] pagina. U kunt details bekijken en configuratieveranderingen op de console aanbrengen. U kunt actieve integratie en integratie over alle rapportreeksen in uw bedrijf bekijken. U kunt een activiteitenlogboek ook bekijken, een integratie plaatsen als dashboard, een integratie vormen, en hulp vinden.
+Nadat u een integratie activeert, wordt deze weergegeven op de pagina [!UICONTROL Data Connectors]. U kunt details bekijken en configuratieveranderingen op de console aanbrengen. U kunt actieve integratie en integratie over alle rapportreeksen in uw bedrijf bekijken. U kunt een activiteitenlogboek ook bekijken, een integratie plaatsen als dashboard, een integratie vormen, en hulp vinden.
 
 ![Data Connectors-console](assets/data-connectors-console.png)
 
@@ -72,7 +72,7 @@ Adobe Analytics stuurt deze gegevens in afzonderlijke dagelijkse bestanden via d
 
 * [!UICONTROL Cart Abandonment]: Het percentage bezoekers heeft een artikel aan hun winkelwagentje toegevoegd, maar heeft het niet aangeschaft. Het is technisch een berekende metrische samenstelling die van Orders door de Toevoegingen van de Kar wordt gedeeld.
 * [!UICONTROL Purchases]: De ontvanger-id&#39;s (of bezoeker-id&#39;s) die aankopen hebben gedaan op basis van de bericht-id in een specifiek product.
-* [!UICONTROL Product Views]: Vergelijkbaar met [!UICONTROL Cart Abandonment], is dit ook een berekende metrisch. Het rapporteert [!UICONTROL Product Views] verdeeld door Orders, omdat klanten die het product bekijken enige interesse tonen.
+* [!UICONTROL Product Views]: Vergelijkbaar met  [!UICONTROL Cart Abandonment], is dit ook een berekende metrisch. Er wordt [!UICONTROL Product Views] gesplitst naar bestellingen gerapporteerd, omdat het bekijken van het product door klanten enige interesse toont.
 
 **Voorbeelden van implementatie**
 
@@ -80,13 +80,13 @@ Voor een geslaagde implementatie van hermarketingsegmenten moet aan de volgende 
 
 * Er is een contract voor gegevensconnectors opgesteld en uw organisatie heeft de implementatiefase voltooid met een Adobe consultant.
 * De overeenkomstige gebeurtenis wordt tezelfdertijd geactiveerd de productvariabele:
-   * Afschaffing van winkelwagentje: `scAdd` event
-   * Aankopen: `purchase` event
-   * Productweergaven: `prodView` event
+   * Afschaffing van winkelwagentje: `scAdd`-gebeurtenis
+   * Aankopen: `purchase`-gebeurtenis
+   * Productweergaven: `prodView`-gebeurtenis
 
 >[!NOTE]
 >
->Als het product is gedefinieerd zonder bijbehorende gebeurtenis, wordt de `prodView` gebeurtenis automatisch geactiveerd.
+>Als het product zonder een bijbehorende gebeurtenis wordt gedefinieerd, wordt de gebeurtenis `prodView` automatisch geactiveerd.
 >
 >Indien niet aan de bovenstaande vereisten wordt voldaan, worden de corresponderende hermarketingsegmenten niet correct gerapporteerd.
 
