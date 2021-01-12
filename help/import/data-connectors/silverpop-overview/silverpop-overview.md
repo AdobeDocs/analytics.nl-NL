@@ -1,11 +1,11 @@
 ---
-description: Deze e-mailintegratie van Adobe® Data Connectors™ combineert gedragsinformatie van Analytics® met Silverpop e-mailmarketing om een krachtig hulpmiddel te creëren om succesmeting en doelpubliek opnieuw te definiëren met meer relevant overseinen.
+description: Deze e-mailintegratie van Adobe® Data Connectors™ combineert gedragsinformatie van Analytics® met Silverpop e-mailmarketing om een krachtig hulpmiddel te creëren om succesmeting en doelpubliek opnieuw te bepalen met relevantere berichten.
 title: Silverpop Data Connector voor Adobe Analytics
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 translation-type: tm+mt
-source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->De Adobe Data Connector-technologie loopt medio tot eind 2021 ten einde. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
+>Op 1 augustus 2021 zullen we de Adobe Data Connector-technologie aan het einde van de levensduur hebben. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
 
-Deze e-mailintegratie van Adobe® Data Connectors™ combineert gedragsinformatie van Analytics® met Silverpop e-mailmarketing om een krachtig hulpmiddel te creëren om succesmeting en doelpubliek opnieuw te definiëren met meer relevant overseinen.
+Deze e-mailintegratie van Adobe® Data Connectors™ combineert gedragsinformatie van Analytics® met Silverpop e-mailmarketing om een krachtig hulpmiddel te creëren om succesmeting en doelpubliek opnieuw te bepalen met relevantere berichten.
 
 Het leveren van relevante e-mailberichten aan deze marktsegmenten kan in volledig nieuwe opbrengstkansen resulteren, die tot verhoogde omzetting en opbrengst onder nieuwe en bestaande e-mailcampagnes leiden. Het leveren van relevante e-mailberichten op basis van producten die tijdens een bezoek zijn bekeken of producten die in een verlaten winkelwagentje zijn achtergelaten, heeft bijvoorbeeld een dramatische invloed op de inkomsten, met minimale gevolgen voor de kosten, omdat dit alleen maar leidt tot het benutten van bezoekers die uw site al krijgt.
 
-Deze verhoging van de marketingefficiëntie is een van de belangrijkste voordelen van de integratie van Analytics met Silverpop. Bovendien worden met deze integratie de e-mailgegevens automatisch gesynchroniseerd met Analytics-gegevens zo vaak als u wilt voor closed-loop rapportage.
+Deze verhoging van marketing efficiency is één van de belangrijkste voordelen om Analytics met Silverpop te integreren. Bovendien zal deze integratie e-mailmetriek automatisch synchroniseren met Analytische gegevens zo vaak als uur voor closed-loop rapportering.
 
-## Belangrijke voordelen en functies{#key-benefits-and-features}
+## Zeer belangrijke Voordelen en Eigenschappen{#key-benefits-and-features}
 
 Deze integratie omvat de volgende belangrijke voordelen:
 
@@ -47,9 +47,9 @@ Deze e-mailintegratie van de Connectors van Gegevens steunt dynamische marketing
 
 Deze integratie kenmerkt de volgende marketing segmenten, uit de doos:
 
-* **Aankoopprofielen:** Herhalingsbestellingen en gemiddelde orderwaarde verhogen via campagnes die zijn bedoeld voor aankooppatronen van bezoekers.
-* **Gedragsprofiel van product-/inhoudsweergave:** Bereik potentiële klanten door marketing segmenten die op productmeningen en inhoud toegang profiling worden gebaseerd.
-* **Profiel voor afschrijving van winkelwagentje:** Help bezoekers om te zetten in klanten via fijnafgestemde campagnes die speciaal zijn ontworpen voor mensen die aarzelen om winkelwagentjes te maken.
-* **Profiel voor het verlaten van het formulier (optioneel):** Bezoekers aanmoedigen een onvoltooid formulier in te vullen met campagnes die speciaal zijn ontworpen voor diegenen die een onlineformulier hebben gestart en niet hebben ingevuld. Dit segment wordt alleen gemaakt als er twee gebeurtenissen worden gemaakt voor het starten van het formulier en het invullen van het formulier.
-* **Bestand downloaden (optioneel):** Bereik potentiële klanten via campagnes die zijn ontworpen voor hen die interesse hebben getoond door een witboek of een ander type download te downloaden. Dit segment wordt alleen gemaakt als er 1 gebeurtenis is gemaakt voor het downloaden van bestanden.
+* **Aankoopprofielen:Herhalingsbestellingen en gemiddelde orderwaarde** verhogen via campagnes die zijn bedoeld voor aanschafpatronen van bezoekers.
+* **Gedragsprofiel van product-/inhoudsweergave:** Bereik potentiële klanten via marketingsegmenten op basis van productweergaven en profielen voor toegang tot inhoud.
+* **Profiel van afstoting van winkelwagentjes:** Help bezoekers om te zetten in klanten door fijnafgestemde campagnes die speciaal zijn ontworpen voor hen die aarzelen om winkelwagentjes te voltooien.
+* **Formuliertoewijzingsprofiel (optioneel):** Stimuleer bezoekers om een onvoltooid formulier in te vullen met campagnes die speciaal zijn ontworpen voor diegenen die een onlineformulier hebben gestart en niet hebben ingevuld. Dit segment wordt alleen gemaakt als er twee gebeurtenissen worden gemaakt voor het starten van het formulier en het invullen van het formulier.
+* **File Download Profile (Optioneel):** Bereik potentiële klanten via campagnes die zijn ontworpen voor hen die belangstelling hebben getoond door een whitepaper of een ander type download te downloaden. Dit segment wordt alleen gemaakt als er 1 gebeurtenis is gemaakt voor het downloaden van bestanden.
 * Klanten kunnen ook aangepaste remarketing-segmenten maken en plannen die specifiek zijn voor de behoeften van hun gebruikers.
