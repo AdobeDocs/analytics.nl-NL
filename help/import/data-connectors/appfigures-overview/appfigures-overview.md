@@ -1,12 +1,12 @@
 ---
-description: Deze integratie van Adobe-gegevensconnectors combineert de kracht van de geïntegreerde analytische gegevens van de AppFigures-winkel voor mobiele apparaten en het rechtstreeks bijhouden van apps voor Adobe Analytics om krachtige analyses en optimalisatiemogelijkheden voor uw organisatie te creëren.
+description: Deze integratie van Adobe-gegevensconnectors combineert de kracht van de appFigures geïntegreerde analytische gegevens van de winkel voor mobiele apps en de directe tracering van Adobe Analytics voor het maken van krachtige analysemogelijkheden en optimalisatiemogelijkheden voor uw organisatie.
 keywords: AppFigures
 title: appFigures Data Connector voor Adobe Analytics
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '236'
 ht-degree: 11%
 
 ---
@@ -16,22 +16,22 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->Medio tot eind 2021 zullen we de Adobe Data Connector-technologie volledig benutten. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
+>Op 1 augustus 2021 zullen we de Adobe Data Connector-technologie aan het einde van de levensduur hebben. [Meer informatie...](/help/import/data-connectors/data-connectors-eol.md)
 
-Deze integratie van Adobe-gegevensconnectors combineert de kracht van de geïntegreerde analytische gegevens van de AppFigures-winkel voor mobiele apparaten en het rechtstreeks bijhouden van apps voor Adobe Analytics om krachtige analyses en optimalisatiemogelijkheden voor uw organisatie te creëren.
+Deze integratie van Adobe-gegevensconnectors combineert de kracht van de appFigures geïntegreerde analytische gegevens van de winkel voor mobiele apps en de directe tracering van Adobe Analytics voor het maken van krachtige analysemogelijkheden en optimalisatiemogelijkheden voor uw organisatie.
 
 In de wereld van mobiele apps zijn de belangrijkste prestatiewaarden verdeeld over twee gegevenssets:
 
 * Het gebruikersgedrag dat u rechtstreeks kunt bijhouden.
 * De activiteit is alleen zichtbaar voor de App-winkels.
 
-Door deze twee Analytics-gegevenssets te combineren, kunt u een volledig beeld krijgen van hoe uw apps waarde creëren voor uw organisatie.
+Door deze twee gegevenssets van Analytics te combineren, kunt u een volledig beeld hebben van hoe uw apps waarde voor uw organisatie creëren.
 
-## Belangrijke voordelen en functies{#key-benefits-and-features}
+## Zeer belangrijke Voordelen en Eigenschappen{#key-benefits-and-features}
 
 Deze integratie biedt de volgende belangrijke voordelen.
 
-* Geautomatiseerde dagelijkse synchronisatie van de afmetingen van de App store en metriek tussen appFigures en Adobe Analytics.
+* Geautomatiseerde dagelijkse synchronisatie van de afmetingen van de App store en de meetgegevens tussen appFigures en Adobe Analytics.
 * Historische gegevensback-up gedurende maximaal 13 maanden vóór de activering van de integratie. Neem contact op met appFigures als u eerder gegevens hebt geïntegreerd met de App Store om overlappingen te voorkomen.
 * Specifieke variabelen voor gegevens van de toepassingsopslag, zodat te hoeven u geen variabelen van de douanehandel en gebeurtenissen te gebruiken.
 
