@@ -2,7 +2,7 @@
 title: Gerichte revisie (na elke release van de website)
 description: Voer de volgende stappen uit om ervoor te zorgen dat uw implementatie foutloos en in overeenstemming met uw KPI's blijft.
 translation-type: tm+mt
-source-git-commit: 8c4ea92523f5e969b9ffe462ea6fb4c21c176141
+source-git-commit: 912e5077889a02c3bf0dea9b079d213bb20f9424
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Waarom zou u uw implementatie om de paar maanden moeten herzien? Dus u kunt elk probleem met de gegevenskwaliteit aanpakken terwijl het nog steeds klein is. Als u na elke websiterelease consistent deze Gericht revisie uitvoert, zult u merken dat uw halfjaarlijkse [Volledige revisies](/help/implement/review/full-review.md) veel eenvoudiger zijn. U zult ook voorkomen dat kleine problemen groeien in grote gegevenskwesties die het vertrouwen van de belanghebbenden kunnen ondermijnen.
 
-## 1. Begin met uw top 5 KPIs.
+## 1. Begin met uw top 5 KPIs
 
 Als u de beste vijf prestatiekernindicatoren (KPI&#39;s) kent, kunt u de bijbehorende maatstaven en dimensies bepalen die u moet onderzoeken. Als u uw KPI&#39;s in de afgelopen 6 maanden niet hebt vernieuwd of als uw bedrijf nog geen KPI&#39;s heeft gemaakt, volgt u [deze instructies](/help/implement/review/define-kpis.md).
 
-## 2. Zorg ervoor uw metriek KPI en de variabelen nog goed functioneren.
+## 2. Zorg ervoor uw metriek van KPI en variabelen nog goed functioneert
 
 Vergeet niet dat code-updates na verloop van tijd onbedoelde gevolgen kunnen hebben. U wilt ervoor zorgen dat alle metriek en afmetingen verbonden aan uw [top 5 KPIs](/help/implement/review/define-kpis.md) nog behoorlijk functioneren. In het ideale geval moet dit onmiddellijk na een websiterelease gebeuren. Als u dit de afgelopen maanden niet hebt gedaan, doet u het *now*. Dit doet u als volgt:
 
@@ -27,17 +27,17 @@ Vergeet niet dat code-updates na verloop van tijd onbedoelde gevolgen kunnen heb
 
 *Lees voor meer informatie over hoe u ervoor kunt zorgen dat uw metriek en variabelen goed werken, deze  [ ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) tipsgegevens van Adobe Analytics Champion Sarah Owen.*
 
-## 3. Bekijk de gegevens van het bijgewerkte gedeelte van uw site grondig.
+## 3. Beoordeel grondig de gegevens uit het bijgewerkte gedeelte van uw site
 
 Zorg ervoor dat de meest recente plaatsversie de gegevensinzameling voor die sectie van de plaats niet negatief beïnvloedde: bekijk alle code en variabelen die aan die sectie beantwoorden om ervoor te zorgen dat het nieuwe volgen zoals ontworpen werkt.
 
-## 4. Werk de documentatie bij.
+## 4. De documentatie bijwerken
 
 Als u onlangs metriek of variabelen hebt toegevoegd of veranderd, moet u uw Document van de Vereisten van het Bedrijfs (BRD) en de Verwijzing van het Ontwerp van de Oplossing (SDR) bijwerken.
 
 Als u geen documentatie van uw implementatie hebt, exporteert u een lijst met variabelen en maakt u uw BHO of SDR met behulp van [deze sjabloon](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en#implementation).
 
-## 5. Verbeter onmiddellijk eventuele tussenruimten in uw gegevenskwaliteit.
+## 5. Verbeter onmiddellijk eventuele tussenruimten in de gegevenskwaliteit
 
 Evalueer de situatie en stel een plan op om de gegevens te corrigeren. Breng vervolgens de gewenste wijzigingen aan, werk de documentatie bij en informeer uw belanghebbenden over de wijzigingen die u hebt aangebracht.
 
