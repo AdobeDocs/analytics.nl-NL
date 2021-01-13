@@ -2,9 +2,9 @@
 description: Leer over wanneer en waarom de gegevensschakelaars van de Analyse zullen eind-van-leven worden.
 title: Vooraankondiging van einde van levensduur voor gegevensconnectors van Analytics
 translation-type: tm+mt
-source-git-commit: 5eb3aba2032118036808edbdab5f411b5f327949
+source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '595'
 ht-degree: 10%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 Al meer dan tien jaar streeft Adobe Analytics ernaar de beste oplossing voor web- en marketinganalyses te bieden om aan de behoeften van klanten te voldoen. Naarmate technologie en bedrijfsbehoeften evolueren, streven we ernaar voortdurend aan de hoogste standaarden te voldoen.  Helaas voldoen de API&#39;s die deze integratie mogelijk maken, niet meer aan deze normen en zijn ze niet houdbaar in de moderne Adobe Analytics-technologie-infrastructuur.
 
-Met ingang van 1 augustus 2021 is Adobe voornemens de integratie van gegevensconnectors te beëindigen. Het einde van de levensduur maakt deel uit van de levenscyclus van elk technologieproduct en Adobe is van plan de overgang zo naadloos mogelijk te maken voor onze klanten en partners. Veel van deze integraties zijn beschikbaar via Adobe Exchange en kunnen ook in de toekomst worden gebruikt.
+**Met ingang van 1 augustus 2021** is Adobe voornemens de integratie van gegevensconnectors te beëindigen. Het einde van de levensduur maakt deel uit van de levenscyclus van elk technologisch product en de Adobe is erop gericht de overgang zo naadloos mogelijk te maken voor onze klanten en partners. Veel van deze integraties zijn beschikbaar via Adobe Exchange en kunnen ook in de toekomst worden gebruikt.
 
 ## Waarom zijn we aan het einde van deze functie?
 
@@ -41,7 +41,7 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | Apps | Migreren naar Adobe Exchange |
 | Apps | Beschikbaar op Adobe Exchange |
 | AppsFlyer | Migreren naar Adobe Exchange |
-| April Enterprise Marketing Engagement |
+| April Enterprise Marketing Engagement | Vervangen |
 | Apteligent | Beschikbaar op Exchange |
 | BlueHornet eMarketing Suite | Vervangen |
 | Branch | Migreren naar Exchange |
