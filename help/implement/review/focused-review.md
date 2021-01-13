@@ -2,9 +2,9 @@
 title: Gerichte revisie (na elke release van de website)
 description: Voer de volgende stappen uit om ervoor te zorgen dat uw implementatie foutloos en in overeenstemming met uw KPI's blijft.
 translation-type: tm+mt
-source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
+source-git-commit: 8c4ea92523f5e969b9ffe462ea6fb4c21c176141
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,8 @@ Vergeet niet dat code-updates na verloop van tijd onbedoelde gevolgen kunnen heb
 
 * Creeer dashboards om per uur trended meningen van deze kritieke metriek en variabelen (of opstelling [intelligente alarm](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) voor elke metrisch) te zien. Controleer de gegevens vervolgens gedurende een of twee dagen om te controleren of u de gegevens ontvangt die u verwacht en of de gegevens juist zijn. Zoek buigpunten. Wees bereid om kritieke problemen onmiddellijk op te lossen. Als u om het even welke discrepanties vindt, kijk in uw gegevenslaag, de regels van de markeringsmanager, en verwerkingsregels om te weten te komen waarom.
 * Voer het [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) opnieuw uit om brede trends van uw KPI metriek en variabelen te controleren.
-   *Lees voor meer informatie over hoe u ervoor kunt zorgen dat uw metriek en variabelen goed werken, deze  [ ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) tipsgegevens van Adobe Analytics Champion Sarah Owen.*
+
+*Lees voor meer informatie over hoe u ervoor kunt zorgen dat uw metriek en variabelen goed werken, deze  [ ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) tipsgegevens van Adobe Analytics Champion Sarah Owen.*
 
 ## 3. Bekijk de gegevens van het bijgewerkte gedeelte van uw site grondig.
 
