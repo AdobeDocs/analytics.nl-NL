@@ -5,9 +5,9 @@ user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Report Builder en Activity Map.
 translation-type: tm+mt
-source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
+source-git-commit: 5b130de23d7826a266f34ed1830540c8c0865560
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 90%
 
 ---
@@ -135,7 +135,6 @@ ht-degree: 90%
       + [Report Builder installeren](report-builder/setup/t-install-arb.md)
       + [Report Builder upgraden](report-builder/setup/upgrade-arb.md)
       + [Report Builder-aanmelding](report-builder/setup/login.md)
-      + [Aanmelden bij Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Report Builder verwijderen](report-builder/setup/t-uninstall-arb.md)
       + [De functie Report Builder oproepen vanuit Microsoft Excel-functies](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder-werkbalk](report-builder/reportbuilder-toolbar.md)
@@ -339,7 +338,7 @@ ht-degree: 90%
    + [Tijd](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Overzicht van labs](tech-previews/overview.md)
-+ Adobe Analytics dashboards {#mobapp}
++ Adobe Analytics-dashboards {#mobapp}
    + [Adobe Analytics-dashboards - overzicht](mobile-app/home.md)
    + [Curator-handleiding](mobile-app/curator.md)
    + [Snelle handleiding voor executive gebruikers](mobile-app/executive.md)
