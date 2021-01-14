@@ -2,10 +2,10 @@
 description: Leer over wanneer en waarom de gegevensschakelaars van de Analyse zullen eind-van-leven worden.
 title: Vooraankondiging van einde van levensduur voor gegevensconnectors van Analytics
 translation-type: tm+mt
-source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
+source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 10%
+source-wordcount: '536'
+ht-degree: 11%
 
 ---
 
@@ -34,68 +34,68 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 
 | Partner | Status |
 | --- | --- |
-| Acxiom | Beschikbaar op Adobe Exchange |
-| Adform | Beschikbaar op Adobe Exchange |
+| Acxiom | Vervangen |
+| Adform | Vervangen |
 | Aanpassen | Migreren naar Adobe Exchange |
 | Adobe Campaign | Migreren naar Adobe Exchange |
 | Apps | Migreren naar Adobe Exchange |
-| Apps | Beschikbaar op Adobe Exchange |
+| Apps | Vervangen |
 | AppsFlyer | Migreren naar Adobe Exchange |
 | April Enterprise Marketing Engagement | Vervangen |
-| Apteligent | Beschikbaar op Exchange |
+| Apteligent | Vervangen |
 | BlueHornet eMarketing Suite | Vervangen |
 | Branch | Migreren naar Exchange |
-| BrightStor 2.0 | Beschikbaar op Exchange |
+| BrightStor 2.0 | Vervangen |
 | Bronto-software | Vervangen |
 | CheetahMail van Experian | Migreren naar Exchange |
-| ClickTale | Beschikbaar op Exchange |
+| ClickTale | Vervangen |
 | Clicktale CA | Vervangen |
-| Leider 2.0 | Beschikbaar op Exchange |
-| ContactLab 2.0 (Contact verzendt Schakelaar) | Beschikbaar op Exchange |
-| Coradiant TrueSight | Beschikbaar op Exchange |
-| D&amp;B Bezoekersinlichting | Beschikbaar op Exchange |
+| Leider 2.0 | Vervangen |
+| ContactLab 2.0 (Contact verzendt Schakelaar) | Vervangen |
+| Coradiant TrueSight | Vervangen |
+| D&amp;B Bezoekersinlichting | Vervangen |
 | Datran Media | Vervangen |
-| Decibel Insight | Beschikbaar op Exchange |
-| Ontcijferen | Beschikbaar op Exchange |
+| Decibel Insight | Vervangen |
+| Ontcijferen | Vervangen |
 | Delivra | Vervangen |
-| Demandbase CA | Beschikbaar op Exchange |
+| Demandbase CA | Vervangen |
 | Demandbase v3 | Vervangen |
-| DialogTech | Beschikbaar op Exchange |
+| DialogTech | Vervangen |
 | DoubleClick for Advertisers (DFA) | Vervangen (Meer informatie hier **Koppeling naar DFA EOL PAGE**) |
 | DREAM | Vervangen |
 | DREAMmail 2.0 | Vervangen |
 | Dynamisch signaal (Nital Vora) | Migreren naar Exchange |
 | eDialog Precision Central | Vervangen |
 | eC-boodschapper | Vervangen |
-| Emailvision Campaign Commander | Beschikbaar op Exchange |
+| Emailvision Campaign Commander | Vervangen |
 | emarsys xpress | Vervangen |
 | Epsilon Harmony | Migreren naar Exchange |
-| IedereenSociaal voor Adobe Analytics | Beschikbaar op Exchange |
+| IedereenSociaal voor Adobe Analytics | Vervangen |
 | Fiksu | Vervangen |
 | Voorziening (v2.0) | Vervangen |
-| Foresee Feedback | Beschikbaar op Exchange |
-| Gigya | Beschikbaar op Exchange |
+| Foresee Feedback | Vervangen |
+| Gigya | Vervangen |
 | hybris | Vervangen |
 | Kampyle (nu Medallia) Feedback Analytics (1.1) | Vervangen |
 | Listrak | Migreren naar Exchange |
 | Lyris HQ | Vervangen |
-| MaritzCX (V 2.0) | Beschikbaar op Exchange |
-| Merkle | Beschikbaar op Exchange |
+| MaritzCX (V 2.0) | Vervangen |
+| Merkle | Vervangen |
 | Officiële Oracle Eloqua-integratie | Vervangen |
 | optivo broadmail (Episerver) | Migreren naar Exchange |
 | Qualtrics v2 | Migreren naar Exchange |
 | Responsys 2.0 | Vervangen |
-| Selligent | Beschikbaar op Exchange |
-| seoClarity 2.0 | Beschikbaar op Exchange |
+| Selligent | Vervangen |
+| seoClarity 2.0 | Vervangen |
 | Silverpop Engage (v2.0) | Vervangen |
-| Sizmek | Beschikbaar op Exchange |
-| SpotEffects | Beschikbaar op Exchange |
+| Sizmek | Vervangen |
+| SpotEffects | Vervangen |
 | StrongMail Systems, Inc | Vervangen |
 | Syngergy!360 | Vervangen |
 | ThinData EMS | Vervangen |
-| TUNE | Beschikbaar op Exchange |
+| TUNE | Vervangen |
 | Urban Airship | Vervangen |
-| Gereedschap Zoomonderzoek gebruiker | Beschikbaar op Exchange |
-| WhatCounts Email | Beschikbaar op Exchange |
+| Gereedschap Zoomonderzoek gebruiker | Vervangen |
+| WhatCounts Email | Vervangen |
 | wywy | Vervangen |
-| Yesmail Enterprise | Beschikbaar op Exchange |
+| Yesmail Enterprise | Vervangen |
