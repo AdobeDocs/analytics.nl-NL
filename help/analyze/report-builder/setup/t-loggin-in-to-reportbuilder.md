@@ -1,24 +1,26 @@
 ---
-description: Stappen die beschrijven hoe te login aan de Bouwer van het Rapport.
+description: Stappen die beschrijven hoe u zich bij Report Builder aanmeldt.
 title: Aanmelden bij Report Builder
 topic: Report builder
 uuid: 94944ce3-499d-4d3f-954b-c241267d4e92
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5b130de23d7826a266f34ed1830540c8c0865560
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 19%
 
 ---
 
 
 # Aanmelden bij Report Builder
 
-Stappen die beschrijven hoe te login aan de Bouwer van het Rapport.
+Aanmelden bij Report Builder
 
 1. Klik in Excel op **[!UICONTROL Add-Ins]**.
-1. Klik **[!UICONTROL Sign In]** en geef de methode op (Experience Cloud, Single Sign-On en Standard). Andere acties waarmee u zich aanmeldt, zijn onder meer:
+1. Klik op **[!UICONTROL Sign In]**. Andere acties waarmee u zich aanmeldt, zijn onder meer:
 
-   * Klikken **[!UICONTROL Create]**.
-   * [Een aanvraag selecteren in Request Manager](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)en vervolgens klikken **[!UICONTROL Add]** of **[!UICONTROL Manage]**.
-   * Dubbelklik op een aanvraag in Excel.
+   * Klik op **[!UICONTROL Create]**.
+   * [Selecteer een verzoek in de Manager](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md) van het Verzoek, dan klik  **[!UICONTROL Add]** of  **[!UICONTROL Manage]**.
+   * Dubbelklik op een verzoek in Excel.
 
-1. Vul de velden op de [!UICONTROL Login] pagina in en klik op **[!UICONTROL OK]**.
-
+1. Vul de velden op de pagina [!UICONTROL Login] in en klik op **[!UICONTROL OK]**.
