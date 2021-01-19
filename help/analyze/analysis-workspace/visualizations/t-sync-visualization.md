@@ -3,7 +3,7 @@ description: Door visualisatie te synchroniseren kunt u bepalen welke datatabel 
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: Databronnen beheren
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 3%
@@ -19,9 +19,9 @@ Door visualisatie te synchroniseren kunt u bepalen welke datatabel of gegevensbr
 
 Door een gegevensbron te beheren, kunt u de gegevensbron weergeven of de selectie vergrendelen. Deze instellingen bepalen hoe de visualisatie verandert (of niet verandert) wanneer er nieuwe gegevens binnenkomen.
 
-1. [Creeer een project](//help/analyze/analysis-workspace/home.md) met een gegevenslijst en een [visualisatie](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+1. [Maak een ](/help/analyze/analysis-workspace/home.md) project met een gegevenstabel en een  [visualisatie](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 1. Selecteer in de gegevenstabel de cellen (gegevensbron) die u aan de visualisatie wilt koppelen.
-1. Klik in de visualisatie op de stip naast de titel om het **[!UICONTROL Data Source]** dialoogvenster weer te geven. Selecteer **[!UICONTROL Show Data Source]** of **[!UICONTROL Lock Selection]**.
+1. Klik in de visualisatie op de punt naast de titel om het dialoogvenster **[!UICONTROL Data Source]** weer te geven. Selecteer **[!UICONTROL Show Data Source]** of **[!UICONTROL Lock Selection]**.
 
    ![](assets/manage-data-source.png)
 
