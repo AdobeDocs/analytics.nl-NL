@@ -2,9 +2,9 @@
 title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over apparaatanalyse
 translation-type: tm+mt
-source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1316'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ Adobe behandelt treffers met een tijdstempel alsof deze op het tijdstip van de t
 
 ## Hoe vergelijk CDA met aangepaste bezoeker-id&#39;s?
 
-Het gebruik van een aangepaste bezoeker-id is een oudere methode om gebruikers op verschillende apparaten [te](/help/implement/js/xdevice-visid/xdevice-connecting.md)verbinden. Met een aangepaste bezoeker-id gebruikt u de [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variabele om expliciet de id in te stellen die wordt gebruikt voor de logica van de bezoeker. De `visitorID` variabele negeert op cookies gebaseerde id&#39;s die aanwezig zijn.
+Het gebruik van een aangepaste bezoeker-id is een oudere methode om gebruikers op verschillende apparaten ](/help/implement/js/xdevice-visid/xdevice-connecting.md) aan te sluiten. [ Met een aangepaste bezoeker-id gebruikt u de variabele [`visitorID`](/help/implement/vars/config-vars/visitorid.md) om expliciet de id in te stellen die voor bezoekerslogica wordt gebruikt. De variabele `visitorID` negeert op cookies gebaseerde id&#39;s die aanwezig zijn.
 
-Aangepaste bezoeker-id&#39;s hebben verschillende bijwerkingen die CDA overneemt of minimaliseert. De aangepaste ID-methode van de bezoeker heeft bijvoorbeeld geen [herhalingsmogelijkheden](replay.md) . Als een gebruiker tijdens een bezoek voor authentiek verklaart, associeert het eerste deel van het bezoek met een verschillende bezoekersidentiteitskaart dan het laatste deel van het bezoek. De afzonderlijke bezoeker-id&#39;s leiden tot een bezoek en een inflatie van de bezoeker. CDA herstelt historische gegevens zodat ongeoorloofde treffers bij de juiste persoon horen.
+Aangepaste bezoeker-id&#39;s hebben verschillende bijwerkingen die CDA overneemt of minimaliseert. De aangepaste ID-methodologie van de bezoeker heeft bijvoorbeeld geen [replay](replay.md) mogelijkheden. Als een gebruiker tijdens een bezoek voor authentiek verklaart, associeert het eerste deel van het bezoek met een verschillende bezoekersidentiteitskaart dan het laatste deel van het bezoek. De afzonderlijke bezoeker-id&#39;s leiden tot een bezoek en een inflatie van de bezoeker. CDA herstelt historische gegevens zodat ongeoorloofde treffers bij de juiste persoon horen.
 
 ## Kan ik een upgrade uitvoeren van Aangepaste bezoeker-id naar CDA?
 
-Klanten die al een aangepaste bezoeker-id gebruiken, kunnen een upgrade uitvoeren naar CDA zonder wijzigingen in de implementatie. De `visitorID` variabele wordt nog gebruikt in de bronrapportreeks. Nochtans, negeert CDA de `visitorID` variabele in de virtuele rapportreeks als een gebruiker voor authentiek verklaart.
+Klanten die al een aangepaste bezoeker-id gebruiken, kunnen een upgrade uitvoeren naar CDA zonder wijzigingen in de implementatie. De `visitorID` variabele wordt nog gebruikt in de bron rapportreeks. Nochtans, negeert CDA de `visitorID` variabele in de virtuele rapportreeks als een gebruiker voor authentiek verklaart.
 
 ## Hoe behandelt de apparatengrafiek gedeelde apparaten?
 
@@ -61,7 +61,7 @@ In sommige situaties kan een individuele gebruiker een groot aantal ECID&#39;s k
 
 ## Wat is het verschil tussen de norm Mensen in CDA en de norm van de Unieke Bezoekers buiten CDA?
 
-De metrische waarde [Mensen](/help/components/metrics/people.md) is vergelijkbaar met die van de [Unieke bezoekers](/help/components/metrics/unique-visitors.md) in die zin dat deze informatie over het aantal unieke individuen rapporteert. Wanneer u echter Apparaatanalyse gebruikt, worden unieke bezoekers gecombineerd wanneer ze anders worden opgenomen als twee afzonderlijke unieke bezoekers buiten CDA. De metrische waarde &#39;Mensen&#39; vervangt de metrische waarde &#39;Unieke bezoekers&#39; wanneer de functie voor apparaatanalyse is ingeschakeld.
+De [People](/help/components/metrics/people.md) metrisch is gelijkaardig aan [Unieke bezoekers](/help/components/metrics/unique-visitors.md) metrisch in die zin dat het over het aantal unieke individuen rapporteert. Wanneer u echter Apparaatanalyse gebruikt, worden unieke bezoekers gecombineerd wanneer ze anders worden opgenomen als twee afzonderlijke unieke bezoekers buiten CDA. De metrische waarde &#39;Mensen&#39; vervangt de metrische waarde &#39;Unieke bezoekers&#39; wanneer Apparaatanalyse is ingeschakeld. Er is een nieuwe metrische waarde beschikbaar, [Unieke apparaten](/help/components/metrics/unique-devices.md), die ongeveer gelijk is aan Unieke bezoekers buiten de functie voor apparaatanalyse.
 
 ## Wat is het verschil tussen de &quot;Unieke Apparaten&quot;-norm in CDA en de &quot;Unieke Bezoekers&quot;-norm buiten CDA?
 
@@ -92,4 +92,4 @@ Neem contact op met de accountmanager van uw organisatie als u wilt overschakele
 
 ## Hoe hanteert Adobe unieke limieten voor een eVar die wordt gebruikt in stitching op basis van velden?
 
-CDA trekt eVar dimensie-items vóór zij voor rapportering worden geoptimaliseerd. U hoeft zich geen zorgen te maken over unieke limieten in het kader van CDA. Nochtans, als u het gebruiken van die steun/eVar in een project van de Werkruimte probeerde, kunt u nog het [(Laag-verkeer)](/help/technotes/low-traffic.md) afmetingspunt zien.
+CDA trekt eVar dimensie-items vóór zij voor rapportering worden geoptimaliseerd. U hoeft zich geen zorgen te maken over unieke limieten in het kader van CDA. Nochtans, als u het gebruiken van die pro/eVar in een project van de Werkruimte probeerde, kunt u [ (Laag-verkeer) ](/help/technotes/low-traffic.md) afmetingspunt nog zien.
