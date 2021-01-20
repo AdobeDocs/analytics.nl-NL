@@ -1,14 +1,17 @@
 ---
-description: 'null'
-title: Gebied en gebied gestapeld
+description: Deze werkruimte visualiseert zich als een lijngrafiek, maar met een gekleurd gebied onder de lijn.
+title: Gebied en gestapeld gebied
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 1835f9063809cc780350b04dd018eb8cb6800152
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 8%
 
 ---
 
 
-# Gebied en gebied gestapeld
+# Gebied en gestapeld gebied
 
 ## Gebied {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
 
