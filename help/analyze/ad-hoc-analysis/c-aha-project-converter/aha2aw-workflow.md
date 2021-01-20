@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: Ad Hoc Analysis Project Converter-workflow
 title: Projecten converteren in Ad Hoc Analysis
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '278'
 ht-degree: 6%
 
 ---
@@ -38,12 +38,12 @@ U hebt twee opties voor het converteren van Ad Hoc Analysis-projecten:
 
    ![](assets/aha2aw_convert.png)
 
-1. Selecteer in het **[!UICONTROL Convert Projects to Analysis Workspace]** dialoogvenster het project dat u wilt converteren of druk op + om de volledige lijst te selecteren.
+1. Selecteer in het dialoogvenster **[!UICONTROL Convert Projects to Analysis Workspace]** het project dat u wilt converteren of druk op + om de volledige lijst te selecteren.
 
    ![](assets/aha2aw_projects.png)
 
 1. Klik op **[!UICONTROL Convert]**.
-1. Een lijst maakt [!UICONTROL Conversion Summary] nu een lijst van alle projecten die, samen met een statuskolommen zijn omgezet die Succes of het Niet omzetten, samen met de foutencode wijst. Neem contact op met de Adobe Client Care voor verdere diagnose met &quot;`Error-Id: <Error-Code>`&quot;.
+1. Een [!UICONTROL Conversion Summary] maakt nu een lijst van alle projecten die, samen met een statuskolommen zijn omgezet die op Succes of het Niet omzetten wijzen, samen met de foutencode. Neem contact op met de Adobe Client Care voor verdere diagnose met &quot;`Error-Id: <Error-Code>`&quot;.
 
    ![](assets/export_summary.png)
 
@@ -52,4 +52,4 @@ U hebt twee opties voor het converteren van Ad Hoc Analysis-projecten:
 1. Open in Ad Hoc Analysis een project dat u wilt converteren.
 1. Klik op **[!UICONTROL Convert current project to Analysis Workspace.]** ![](assets/export_current.png)
 
-1. Een lijst maakt [!UICONTROL Conversion Summary] nu een lijst van alle projecten die, samen met een statuskolommen zijn omgezet die Succes of het Niet omzetten, samen met de foutencode wijst. Neem contact op met de Adobe Client Care voor verdere diagnose met &quot;`Error-Id: <Error-Code>`&quot;.
+1. Een [!UICONTROL Conversion Summary] maakt nu een lijst van alle projecten die, samen met een statuskolommen zijn omgezet die op Succes of het Niet omzetten wijzen, samen met de foutencode. Neem contact op met de Adobe Client Care voor verdere diagnose met &quot;`Error-Id: <Error-Code>`&quot;.
