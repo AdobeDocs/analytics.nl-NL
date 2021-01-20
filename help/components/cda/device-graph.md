@@ -2,7 +2,7 @@
 title: Apparaatgrafiek
 description: Begrijp de eerste vereisten en de beperkingen van het stitching van gegevens gebruikend de apparatengrafiek.
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Apparaatgrafiek
 
-Cross-device Analytics biedt twee verschillende methoden om gegevens aan elkaar te koppelen. Bij deze methode wordt de Adobe Experience Platform Identity Service Co-op grafiek of de Private Graph gebruikt om gegevens aan elkaar te koppelen. CDA communiceert regelmatig met de apparatengrafiek om apparaten samen te verbinden.
+Cross-Device Analytics biedt twee verschillende methoden om gegevens aan elkaar te koppelen. Bij deze methode wordt de Adobe Experience Platform Identity Service Co-op grafiek of de Private Graph gebruikt om gegevens aan elkaar te koppelen. CDA communiceert regelmatig met de apparatengrafiek om apparaten samen te verbinden.
 
 ## Verschillen tussen co-op grafiek en privé grafiek
 
@@ -29,10 +29,10 @@ Als u Apparaatanalyse wilt implementeren met de grafiekmethode van het apparaat,
 >
 >Als niet aan alle voorwaarden wordt voldaan, kan het zijn dat u Cross-Device Analytics of slechte resultaten niet kunt inschakelen bij het koppelen van gegevens.
 
-* Alle voorwaarden die op de [overzichtspagina](overview.md)worden vermeld.
-* Uw organisatie moet de Adobe Experience Platform Identity Service Co-op Graph of Private Graph gebruiken. Zie de [startpagina](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) in de gebruikershandleiding voor apparaatcoop.
-* Uw implementatie moet de nieuwste versie van de Experience Cloud ID-service gebruiken. Raadpleeg de [startpagina](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) in de gebruikershandleiding van de Experience Cloud Identity Service. Bij de meeste implementaties met Adobe Experience Platform Launch is ECID waarschijnlijk al geïmplementeerd.
-* Uw implementatie moet de `setCustomerIDs` functie (of het equivalent van SDK) aanroepen wanneer een individu kan worden geïdentificeerd, zoals wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Zie [`setCustomerIDs`](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html) in de gebruikersgids van de Dienst van de Identiteit van de Experience Cloud.
+* Alle voorwaarden die op [overzichtspagina](overview.md) worden vermeld.
+* Uw organisatie moet de Adobe Experience Platform Identity Service Co-op Graph of Private Graph gebruiken. Zie [Homepagina](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) in de gebruikershandleiding van de Co-op van het Apparaat.
+* Uw implementatie moet de nieuwste versie van de Experience Cloud ID-service gebruiken. Zie [Startpagina](https://docs.adobe.com/content/help/en/id-service/using/home.html) in de gebruikershandleiding van de Experience Cloud Identiteitsservice. Bij de meeste implementaties met Adobe Experience Platform Launch is ECID waarschijnlijk al geïmplementeerd.
+* Uw implementatie moet de functie `setCustomerIDs` (of het equivalent van SDK) aanroepen wanneer een individu kan worden geïdentificeerd, zoals wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Zie [`setCustomerIDs`](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html) in de gebruikershandleiding van de Experience Cloud Identiteitsservice.
 
 ## Specifieke beperkingen voor de apparaatgrafiek
 
@@ -43,5 +43,5 @@ Als u Apparaatanalyse wilt implementeren met de grafiekmethode van het apparaat,
 
 ## Volgende stappen
 
-Als uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u [Apparaatanalyse](setup.md)instellen.
+Als uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u [Apparaatanalyse instellen](setup.md).
 
