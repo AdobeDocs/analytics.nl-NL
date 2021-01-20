@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Toont voorbeelden op hoe te om gegevens voor raakgegevens, toegangsverzoeken, schrappingsverzoeken te etiketteren
 title: Voorbeeld van labeling
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: b3e8f77bfa7c48fc82e5ebd5bbe66511ea82c9f4
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 99%
+source-wordcount: '815'
+ht-degree: 97%
 
 ---
 
@@ -41,14 +41,14 @@ Als ik een toegangsaanvraag verzend, bevat het overzichtsbestand de waarden die 
 |--- |--- |--- |---|---|---|---|---|
 | **Naamruimte/id** | **expandIDs** |  | **MyProp1** | **Bezoekers-id** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | device | Variabele niet aanwezig | 77 | Variabele niet aanwezig | M, P | X, W |
-| AAID=77 | true | device | Variabele niet aanwezig | 77 | Variabele niet aanwezig | M, P | X, W |
+| AID=77 | true | apparaat | Variabele niet aanwezig | 77 | Variabele niet aanwezig | M, P | X, W |
 | user=Moniek | false | person | Moniek | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Moniek | true | person | Moniek | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Moniek | true | device | niet aanwezig | 77, 88 | niet aanwezig | N, P | U, W |
-| user=Moniek AAID=66 | true | person | Moniek | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Moniek AAID=66 | true | device | niet aanwezig | 66, 77, 88 | niet aanwezig | N, P | U, W, Z |
-| xyz=X | false | device | niet aanwezig | 55, 77 | niet aanwezig | M, R | X |
-| xyz=X | true | device | niet aanwezig | 55, 77 | niet aanwezig | M, P, R | B, X |
+| user=Moniek | true | persoon | Moniek | 77 88 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Moniek | true | apparaat | niet aanwezig | 77, 88 | niet aanwezig | N, P | U, W |
+| user=Moniek AAID=66 | true | persoon | Moniek | 77 88 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Moniek AAID=66 | true | apparaat | niet aanwezig | 66, 77, 88 | niet aanwezig | N, P | U, W, Z |
+| xyz=X | false | apparaat | niet aanwezig | 55, 77 | niet aanwezig | M, R | X |
+| xyz=X | true | apparaat | niet aanwezig | 55 77 | niet aanwezig | M, P, R | B, X |
 
 Bedenk dat de instelling voor expandIDs niet uitmaakt voor de uitvoer wanneer een cookie-id wordt gebruikt.
 
@@ -74,7 +74,7 @@ Met een verwijderingsaanvraag waarbij de API-waarden in de eerste rij van de tab
 
 | user=Moniek<br>expandIDs=false | user=Moniek<br>expandIDs=false | user=Moniek<br>expandIDs=false | user=Moniek<br>expandIDs=false | user=Moniek<br>expandIDs=false |
 |--- |---|---|---|---|
-| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| **MyProp1** | **STEUN** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Privacy-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
 | Privacy-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
 | Privacy-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
@@ -90,7 +90,7 @@ Met een verwijderingsaanvraag waarbij de API-waarden in de eerste rij van de tab
 
 | user=Moniek<br>expandIDs=true | user=Moniek<br>expandIDs=true | user=Moniek<br>expandIDs=true | user=Moniek<br>expandIDs=true | user=Moniek<br>expandIDs=true |
 |--- |---|---|---|---|
-| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| **MyProp1** | **STEUN** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | Privacy-9152 |
 | Privacy-5782 | 16 | Privacy-6104 | Privacy-2911 | Privacy-6821 |
 | Privacy-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
