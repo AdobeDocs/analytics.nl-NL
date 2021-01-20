@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Begrijp de id's die zijn vastgelegd in de analysegegevens en bepaal welke u wilt gebruiken voor de aanvragen voor gegevensprivacy.
 title: Best practices voor labelen
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
 workflow-type: tm+mt
-source-wordcount: '2689'
-ht-degree: 100%
+source-wordcount: '2706'
+ht-degree: 99%
 
 ---
 
