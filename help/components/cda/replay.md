@@ -2,7 +2,7 @@
 title: Hoe herspeelt u
 description: Begrijp het concept "replay"in Cross-Device Analytics
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Analytics voor verschillende apparaten maakt twee gegevenscontroles in een virtu
 
 ## Voorbeeldtabel
 
-In de volgende tabellen ziet u hoe beide CDA-methoden ([veldgebaseerde stitching](field-based-stitching.md) en [apparaatgrafiek](device-graph.md)) het aantal unieke personen berekenen:
+In de volgende tabellen ziet u hoe beide CDA-methoden ([Veldgebaseerde stitching](field-based-stitching.md) en [Apparaatgrafiek](device-graph.md)) het aantal unieke personen berekenen:
 
 ### Levend stitching
 
@@ -40,14 +40,14 @@ Zodra een treffer is verzameld, probeert de CDA deze aan bekende apparaten te he
 
 Zowel niet-geverifieerde als geverifieerde hits op nieuwe apparaten worden als afzonderlijke personen geteld (tijdelijk).
 
-* **Als u de apparaatgrafiek gebruikt,** worden niet-geverifieerde treffers op herkende apparaten live-gezet zodra een cluster door de apparaatgrafiek wordt gepubliceerd. Het publiceren van clusters duurt van drie uur tot twee weken.
+* **Als u de apparaatgrafiek gebruikt, worden** niet-geverifieerde treffers op herkende apparaten live-gezet zodra een cluster door de apparaatgrafiek wordt gepubliceerd. Het publiceren van clusters duurt van drie uur tot twee weken.
 
    Een derde cumulatieve persoon wordt ook toegevoegd wanneer een cluster wordt gepubliceerd. Deze derde persoon vertegenwoordigt de cluster zelf, naast de individuele apparaten. Deze derde &quot;persoon&quot; blijft bestaan totdat de gegevens worden weergegeven.
 
    De attributie werkt pas over apparaten nadat een cluster wordt gepubliceerd, en zelfs dan slechts leven-hetches van dat punt voorwaarts. In het bovenstaande voorbeeld worden nog geen van de hits op verschillende apparaten geplaatst. De attributie van het dwars-apparaat op bestaande klusjes werkt pas na het opnieuw spelen stitching.
-* **Als u stitching op basis van velden gebruikt,** worden niet-geverifieerde treffers op herkende apparaten vanaf dat punt live-stitched.
+* **Als u stitching op basis van velden gebruikt, worden** niet-geverifieerde treffers op herkende apparaten vanaf dat punt live-stitched.
 
-   Attributie werkt zodra de identificerende douanevariabele aan een apparaat bindt. In het bovenstaande voorbeeld worden alle treffers, behalve hits 1 en 3, in een live-stitched weergegeven (ze gebruiken allemaal de `Bob` id). Attributie werkt bij hits 1 en 3 na het opnieuw afspelen van stitching.
+   Attributie werkt zodra de identificerende douanevariabele aan een apparaat bindt. In het bovenstaande voorbeeld worden alle treffers, behalve hits 1 en 3, live-gezet (ze gebruiken allemaal de id `Bob`). Attributie werkt bij hits 1 en 3 na het opnieuw afspelen van stitching.
 
 ### Replay stitching
 
@@ -68,6 +68,6 @@ Ongeveer eens per week herberekent CDA historische gegevens op basis van de appa
 
 ## Opnieuw
 
-* **Als u een apparaatgrafiek gebruikt,** worden gegevens vastgezet wanneer een cluster wordt gepubliceerd (doorgaans 3 uur tot 2 weken).
-* **Als u op velden gebaseerde stitching gebruikt,** worden bekende apparaten onmiddellijk vastgezet door gegevens die minder dan een week oud zijn, maar worden nieuwe of niet-herkende apparaten niet onmiddellijk vastgezet.
+* **Als u een apparaatgrafiek gebruikt, worden** gegevens vastgezet wanneer een cluster wordt gepubliceerd (doorgaans 3 uur tot 2 weken).
+* **Als u op velden gebaseerde stitching gebruikt, worden bekende apparaten onmiddellijk door** gegevens van minder dan een week vastgezet, maar worden nieuwe of niet-herkende apparaten niet onmiddellijk vastgezet.
 * De gegevens worden één keer per week herhaald, en verandert historische gegevens in de virtuele rapportreeks die op apparaten wordt gebaseerd het heeft geleerd om zich te identificeren.
