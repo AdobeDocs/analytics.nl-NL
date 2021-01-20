@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Hoe te om het huidige gebruik van de servervraag in Adobe Analytics te bekijken.
 title: Huidig gebruik van server calls weergeven
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 4%
+source-wordcount: '281'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Het huidige verbruiksdashboard
 
    >[!NOTE]
    >
-   >Als u het gebruik voor een vorige periode wilt bekijken, moet u naar het tabblad Gebruik [van de](/help/admin/c-server-call-usage/report-suite-usage.md) Reeks van het Rapport gaan en de gebruiksgegevens voor een vorige periode downloaden.
+   >Als u het gebruik voor een vorige periode wilt bekijken, moet u [Gebruik van de Reeks van het Rapport ](/help/admin/c-server-call-usage/report-suite-usage.md) tabel gaan en de gebruiksgegevens voor een vorige periode downloaden.
 
 * Maakt een lijst van het percentage gebruikte vraag (in percentages en ruwe gegevens), en het percentage van de gebruikte gebruiksperiode (in percentages en ruwe gegevens).
 * Standaard wordt deze standaard dagelijks bijgewerkt met een 5-daagse verwerkingslatentie.
@@ -39,7 +39,7 @@ Het huidige verbruiksdashboard
 ![](assets/server_call_dashboard.png)
 
 | UI-term | Definitie |
-|---|---|
+| --- | --- |
 | Huidig tijdverbruik (groen) | De huidige periode is gebaseerd op de [gebruiksperiode](/help/admin/c-server-call-usage/overage-overview.md). |
 | Gebruik vorige periode (blauw) | De voorgaande periode wordt gedefinieerd als de lopende gebruiksperiode minus één jaar. |
 | Gebruikslimiet (rood) | Uw contractuele gebruikslimiet voor deze gebruiksduur. |
