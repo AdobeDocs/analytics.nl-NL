@@ -1,18 +1,19 @@
 ---
-description: 'null'
-title: API's die door de migratie worden beïnvloed
+description: Hiermee worden API's weergegeven die door de gebruikersmigratie worden beïnvloed
+title: API's die worden beïnvloed door de migratie van gebruikers
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 0%
 
 ---
 
 
-# API&#39;s die door de migratie worden beïnvloed{#apis-affected-by-the-migration}
+# API&#39;s die worden beïnvloed door de gebruikersmigratie{#apis-affected-by-the-migration}
 
-## API&#39;s die door de migratie worden beïnvloed {#topic-8d34296a67d74b1081c3f7e8f650f3ce}
-
-Adobe migreert alle aanmeldingsbedrijven voor Analytics op een manier van [!DNL my.omniture.com] en naar verificatie via de Adobe Experience Cloud. Zodra een bedrijf met deze migratie begint, zullen de programmatische gebruikersverwezenlijking en het beheer door de Analytics-specifieke toestemmingen en de `GetLoginKey` methodes beschikbaar via v1.3 en v1.4 van Analytics Admin API niet meer worden gesteund. Dergelijke acties worden nu in de Experience Cloud ingeschakeld via [!DNL adobe.io].
+Adobe migreert alle aanmeldingsbedrijven voor Analytics ver van [!DNL my.omniture.com] naar verificatie via de Adobe Experience Cloud. Zodra een bedrijf met deze migratie begint, zullen de programmatic gebruikersverwezenlijking en het beheer door de Analytics-specifieke toestemmingen en de methodes `GetLoginKey` beschikbaar via v1.3 en v1.4 van Analytics Admin API niet meer worden gesteund. Dergelijke acties zullen nu over de Experience Cloud via [!DNL adobe.io] worden toegelaten.
 
 ## Betrokken API-methoden {#section-d19051ac26cc49aeb124f767c4760254}
 
@@ -33,7 +34,7 @@ De volgende API-methoden in versie 1.3 en v1.4 van de Admin API worden niet meer
 * Permissions.SaveLogin
 * Permissions.GetLoginSegment
 
-## Acties die u kunt uitvoeren {#section-8b0b89a862614f729ebdbe092ce99027}
+## Handelingen die u kunt uitvoeren {#section-8b0b89a862614f729ebdbe092ce99027}
 
 Als uw bedrijf deze methodes momenteel gebruikt, zoek een pre-migratiebericht die 31 Maart, 2018 begint. De melding wordt minstens 30 dagen verzonden voordat uw bedrijf begint met de migratie naar de Experience Cloud-verificatie. Op dat moment worden deze methoden niet meer ondersteund.
 
@@ -44,5 +45,5 @@ Voor aanvullende informatie:
 * [Algemene informatie over gebruikersbeheer](https://helpx.adobe.com/enterprise/help/users.html)
 * [Gebruikerbeheer-API&#39;s via adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [Gebruikersbeheer-API-forum](https://forums.adobe.com/community/umapi/overview)
-* [Migratie van toegang en beheer van analysegebruikers naar de cloud](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
+* [Migratie van toegang en beheer van analysegebruikers naar Experience Cloud](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
