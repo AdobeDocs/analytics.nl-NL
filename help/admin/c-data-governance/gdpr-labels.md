@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Voorbeelden van gegevensprivacylabels voor Adobe Analytics-variabelen
 title: Data Privacy-labels voor Analytics-variabelen
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
 workflow-type: tm+mt
-source-wordcount: '3634'
-ht-degree: 100%
+source-wordcount: '3642'
+ht-degree: 99%
 
 ---
 
@@ -276,7 +276,7 @@ Data Privacy/DULE-labeling heeft invloed op vier brede klassen van Analytics-var
   <tr> 
    <td colname="col1"> <p>Classificaties </p> </td> 
    <td colname="col2"> <p>I1/I2, S1/S2 </p> <p>ACC-ALL, ACC-PERSON, </p> </td> 
-   <td colname="col3"> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>ID-APPARAAT, ID-PERSON </p> <p>DEL-APPARAAT, DEL-PERSON </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -290,7 +290,7 @@ Data Privacy/DULE-labeling heeft invloed op vier brede klassen van Analytics-var
   <tr> 
    <td colname="col1"> <p>De meeste andere variabelen </p> <p><i>(Zie onderstaande tabel voor uitzonderingen)</i> </p> </td> 
    <td colname="col2"> <p>ACC-ALL, ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-APPARAAT, ID-PERSON </p> <p>DEL-APPARAAT, DEL-PERSON </p> </td> 
   </tr> 
  </tbody> 
 </table>
