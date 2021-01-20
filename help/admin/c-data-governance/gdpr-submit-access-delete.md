@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Hoe te om gegevenstoegang en schrappingsverzoeken in Adobe Analytics voor te leggen.
 title: Aanvragen voor toegang en verwijdering verzenden
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 100%
+source-wordcount: '1312'
+ht-degree: 99%
 
 ---
 
