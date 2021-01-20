@@ -2,7 +2,7 @@
 title: Status geïdentificeerd
 description: Een markering die de herkenning door de apparaatgrafiek bepaalt.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Status geïdentificeerd
 
-De dimensie &#39;Identified state&#39; is specifiek voor [cross-device Analytics](../cda/overview.md) virtuele rapportsuites. Het meldt of Experience Cloud-id wordt herkend door de apparaatgrafiek op het moment dat het rapport wordt uitgevoerd. Deze dimensie is handig om te begrijpen hoe goed CDA gegevens heft of comprimeert.
+De dimensie &#39;Identified state&#39; is specifiek voor [Cross-Device Analytics](../cda/overview.md) virtuele rapportsuites. Het meldt of Experience Cloud-id wordt herkend door de apparaatgrafiek op het moment dat het rapport wordt uitgevoerd. Deze dimensie is handig om te begrijpen hoe goed CDA gegevens heft of comprimeert.
 
 ## Deze dimensie vullen met gegevens
 
-Zolang u Analytics [van](../cda/overview.md) het apparaat voor een virtuele rapportreeks wordt gevormd, werkt deze afmeting uit de doos.
+Zolang u [Cross-Device Analytics](../cda/overview.md) voor een virtuele rapportreeks hebt gevormd, werkt deze afmeting uit de doos.
 
 ## Dimension-items
 
