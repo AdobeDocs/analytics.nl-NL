@@ -5,10 +5,10 @@ user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Report Builder en Activity Map.
 translation-type: tm+mt
-source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
+source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 90%
          + [Pagineren, filteren en tabellen sorteren](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
          + [Workspace-totalen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohorttabel {#cohort-table}
-         + [Wat is cohortanalyse?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [Een rapport voor cohortanalyse configureren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Gebruiksgevallen van cohortanalyse](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Wat is Cohort Analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [Een rapport Cohortanalyse configureren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [Gebruiksgevallen van Cohort Analyse](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Uitval {#fallout}
          + [Overzicht van uitval](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Een uitvalvisualisatie configureren](analysis-workspace/visualizations/fallout/configuring-fallout.md)
