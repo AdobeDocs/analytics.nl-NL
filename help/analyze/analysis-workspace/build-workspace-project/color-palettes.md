@@ -1,19 +1,18 @@
 ---
-description: 'null'
-title: Kleurpaletten
-uuid: 18252889-8dc0-48fa-820f-df534156c22f
+description: Het kleurenpalet voor visualisatie in Analysis Workspace gebruiken
+title: Wat zijn visualisatiekleurenpaletten en hoe werken ze?
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 4%
+source-wordcount: '204'
+ht-degree: 2%
 
 ---
 
 
-# Kleurenpalet Visualisatie
+# Kleurenpaletten voor visualisatie
 
-U kunt het kleurenpalet voor visualisatie dat in Workspace wordt gebruikt, wijzigen door een ander kleurenpalet te kiezen of door uw eigen palet op te geven dat geschikt kan zijn voor de brandingkleuren van uw bedrijf. Deze eigenschap beïnvloedt de meeste visualisaties in Werkruimte, maar het beïnvloedt **geen** Summiere Verandering, voorwaardelijke het formatteren in de lijsten van de Vrije vorm, en de visualisatie van de Kaart.
+U kunt het kleurenpalet voor visualisatie dat in Workspace wordt gebruikt, wijzigen door een ander kleurenpalet te kiezen of door uw eigen palet op te geven dat geschikt kan zijn voor de brandingkleuren van uw bedrijf. Deze functie heeft invloed op de meeste visualisaties in Workspace, maar **niet** heeft invloed op Samenvattingswijziging, voorwaardelijke opmaak in Freeform-tabellen en de Kaartweergave.
 
 >[!NOTE]
 >
@@ -29,10 +28,10 @@ Houd rekening met het volgende:
 ## Het kleurenpalet wijzigen:
 
 1. Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
-1. In het **[!UICONTROL Project Color Palette]** vervolgkeuzemenu kunt u kiezen uit vijf vooraf ingestelde kleurenschema&#39;s.
+1. In het vervolgkeuzemenu **[!UICONTROL Project Color Palette]** kunt u een van de vijf vooraf ingestelde kleurenschema&#39;s kiezen.
 
    ![](assets/custom_palette.png)
 
-1. Selecteer onder de vooraf ingestelde opties om uw eigen palet op te geven. **[!UICONTROL Custom Palette]**
+1. Als u uw eigen palet wilt opgeven, selecteert u **[!UICONTROL Custom Palette]** onder de vooraf ingestelde opties.
 1. Geef maximaal 16 hexadecimale waarden met komma&#39;s als scheidingsteken op (bijvoorbeeld #00a4e4) voor de kleuren die u wilt gebruiken. Als u bijvoorbeeld slechts vier waarden wilt gebruiken, worden deze kleuren automatisch herhaald in visualisaties die meer kleuren bevatten.
 
