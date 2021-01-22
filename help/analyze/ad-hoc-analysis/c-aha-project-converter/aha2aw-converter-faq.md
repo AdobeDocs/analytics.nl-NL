@@ -1,11 +1,10 @@
 ---
-description: Veelgestelde vragen over conversie van Ad Hoc Analysis naar Analysis Workspace-projecten
-title: Veelgestelde vragen over projectconversie
-uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
+description: Veelgestelde vragen over de converter van Ad Hoc Analysis naar Analysis Workspace-projecten
+title: Veelgestelde vragen over de Ad Hoc Analysis-naar-Analysis Workspace Project Converter
 translation-type: tm+mt
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '951'
 ht-degree: 3%
 
 ---
@@ -25,7 +24,7 @@ ht-degree: 3%
 ## Bekende omzettingsproblemen {#section_39C922A58B2E49C9877B363042801361}
 
 | Probleem | Beschrijving |
-|--- |--- |
+| --- | --- |
 | Korreligheid bij minuten met onderverdelingen of kolommen | Wanneer er op kleine granulariteit onderbrekingen zijn toegepast of als er kolommen met kleine granulariteit voorkomen, kan het project niet naar Analysis Workspace worden geconverteerd.  Als tijdelijke oplossing kunt u de afbraak verwijderen bij kleine granulariteit en deze verwijderen uit kolommen en vervolgens het project omzetten. Vervolgens kunt u in Analysis Workspace indelingen toepassen op de kleinste granulariteit. |
 | Interne berekende metrische waarde die samen met een kolomsegment wordt gebruikt | Als u intern berekende metrisch samen met een kolomsegment gebruikt, kan het project niet in Analysis Workspace worden omgezet. Om rond deze kwestie te werken, verwijder de interne berekende metriek uit het project vóór omzetting, dan voeg hen in Analysis Workspace opnieuw toe. |
 
