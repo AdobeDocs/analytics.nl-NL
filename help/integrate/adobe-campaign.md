@@ -1,12 +1,11 @@
 ---
-description: 'null'
-title: Adobe Campaign-rapportage
-uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
+description: Meer informatie over het inschakelen van Adobe Campaign-rapporten in Adobe Analytics
+title: Hoe integreer ik Adobe Campaign Reporting in Adobe Analytics?
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 95%
 
 ---
 
@@ -38,20 +37,9 @@ Als u Campaign-data wilt weergeven in Analytics, moet u eerst Campaign-rapportag
 
 De integratie tussen Adobe Campaign Standard en Adobe Analytics voegt het volgende rapport toe onder **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**
 
-<table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Rapport </th> 
-   <th colname="col2" class="entry"> Definitie </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Uitgevoerde levering-id van Adobe Campaign </p> </td> 
-   <td colname="col2"> <p>Toont data die zijn geïmporteerd uit Adobe Campaign over e-mailberichten die vanuit Adobe Campaign zijn verzonden. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Rapport | Definitie |
+|--- |--- |
+| Uitgevoerde levering-id van Adobe Campaign | Toont data die zijn geïmporteerd uit Adobe Campaign over e-mailberichten die vanuit Adobe Campaign zijn verzonden. |
 
 ## Stap 3. Adobe Campaign-classificaties gebruiken {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
