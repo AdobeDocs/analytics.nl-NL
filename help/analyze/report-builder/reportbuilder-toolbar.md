@@ -4,9 +4,9 @@ title: Report Builder-werkbalk
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
+source-git-commit: 846a6a2d08f2f0a97ed44d724d16c852f5d8088c
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '291'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Nadat u Report Builder hebt geïnstalleerd en Excel hebt gestart, klikt u op **[
 
 ![](assets/report_builder_toolbar.png)
 
-**Aanmelden:** geeft het  [!UICONTROL Login] formulier weer, zodat u zich kunt aanmelden met uw referenties of als een andere gebruiker. Geeft ook de bedrijfsnaam weer na de aanmelding. Zie [Aanmelden bij Report Builder](/help/analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md).
+**Aanmelden:** geeft het  [!UICONTROL Login] formulier weer, zodat u zich kunt aanmelden met uw referenties of als een andere gebruiker. Geeft ook de bedrijfsnaam weer na de aanmelding. Zie [Aanmelden bij Report Builder](/help/analyze/report-builder/setup/login.md).
 
 **Maken:** hiermee start u de  [!UICONTROL Request Wizard]. Als u niet bent aangemeld, wordt u gevraagd dit te doen. Zie [Gegevensverzoeken](/help/analyze/report-builder/data-requests/data-requests.md).
 
