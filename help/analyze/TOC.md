@@ -5,9 +5,9 @@ user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Report Builder en Activity Map.
 translation-type: tm+mt
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
+source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 89%
 
 ---
@@ -135,7 +135,6 @@ ht-degree: 89%
       + [Report Builder installeren](report-builder/setup/t-install-arb.md)
       + [Report Builder upgraden](report-builder/setup/upgrade-arb.md)
       + [Report Builder-aanmelding](report-builder/setup/login.md)
-      + [Aanmelden bij Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Report Builder verwijderen](report-builder/setup/t-uninstall-arb.md)
       + [De functie Report Builder oproepen vanuit Microsoft Excel-functies](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder-werkbalk](report-builder/reportbuilder-toolbar.md)
