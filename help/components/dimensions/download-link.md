@@ -2,9 +2,9 @@
 title: Koppeling downloaden
 description: De naam van de downloadkoppeling.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,10 @@ De dimensie &#39;Download link&#39; rapporteert de namen van downloadkoppelingen
 
 ## Deze dimensie vullen met gegevens
 
-Deze afmeting verzamelt gegevens van het [`pev2` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken voor treffers die ook het `pe` vraagkoord met de waarde van `lnk_d`hebben. Als de `pe` queryreeks een andere waarde heeft in de hit, worden met deze dimensie geen gegevens verzameld.
+Deze afmeting verzamelt gegevens van [`pev2` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken voor treffers die ook `pe` vraagkoord met de waarde van `lnk_d` hebben. Als de query-tekenreeks `pe` een andere waarde heeft in de hit, worden met deze dimensie geen gegevens verzameld.
 
-Als u gegevens naar deze afmeting wilt verzenden gebruikend AppMeasurement:
+Als u gegevens naar deze afmeting wilt verzenden gebruikend AppMeasurement, verzend een [`tl()`](/help/implement/vars/functions/tl-method.md) beeldverzoek met een koppelingstype argument van `"d"`. Vul het argument voor de naam van de koppeling met de gewenste waarde.
 
-* Vul de [`linkName`](/help/implement/vars/config-vars/linkname.md) variabele met de gewenste waarde.
-* Stel de [`linkType`](/help/implement/vars/config-vars/linktype.md) variabele in op `"d"`.
-* Verzend een [`tl()`](/help/implement/vars/functions/tl-method.md) afbeeldingsaanvraag.
+## Dimension-items
 
-## Dimensie-items
-
-Aangezien deze variabele op een douanekoord in uw implementatie gebaseerd is, bepaalt uw organisatie wat de afmetingspunten zijn. Adobe raadt u aan om koppelingen in betekenisvolle categorieën te groeperen op basis van uw rapportagevereisten.
+Aangezien deze variabele op een douanekoord in uw implementatie gebaseerd is, bepaalt uw organisatie wat de afmetingspunten zijn. Adobe raadt u aan om koppelingen te groeperen in betekenisvolle categorieën op basis van uw rapportagebehoeften.
