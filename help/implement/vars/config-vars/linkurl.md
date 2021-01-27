@@ -2,14 +2,17 @@
 title: linkURL
 description: Overschrijf het automatisch gegenereerde gebruik van de koppeling-URL AppMeasurement in koppelingsvolgaanroepen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 1%
 
 ---
 
 
 # linkURL
 
-Wanneer een koppelingenvolgvraag naar Adobe wordt verzonden, detecteren servers voor gegevensverzameling automatisch de URL. Gebruik de `linkURL` variabele om de gedetecteerde URL te overschrijven.
+Wanneer een verbinding het volgen vraag naar Adobe wordt verzonden, ontdekken de servers van de gegevensinzameling automatisch URL. Gebruik de variabele `linkURL` om de gedetecteerde URL te overschrijven.
 
 ## URL koppelen in Adobe Experience Platform Launch
 
@@ -17,10 +20,10 @@ Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de d
 
 ## s.linkURL in de redacteur van de douanecode van AppMeasurement en van de Lancering
 
-De `s.linkURL` variabele is een tekenreeks die de URL bevat van de browser toen op de koppeling werd geklikt. Deze variabele vult geen dimensies in die beschikbaar zijn in de rapportage.
+De variabele `s.linkURL` is een tekenreeks die de URL bevat van de browser toen op de koppeling werd geklikt. Deze variabele vult geen dimensies in die beschikbaar zijn in de rapportage.
 
 ```js
 s.linkURL = "https://example.com";
 ```
 
-Als de [`linkName`](linkname.md) variabele niet voor een verbinding het volgen vraag wordt geplaatst, wordt de `linkURL` variabele in plaats daarvan gebruikt.
+Als het derde argument van de methode [tl()](../functions/tl-method.md) niet is ingesteld, wordt in plaats daarvan de variabele `linkURL` gebruikt.
