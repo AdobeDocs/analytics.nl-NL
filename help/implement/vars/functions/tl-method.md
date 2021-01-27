@@ -1,49 +1,43 @@
 ---
 title: tl
-description: Stuur een koppelingenvolgvraag naar Adobe.
+description: Verzend een verbinding het volgen vraag aan Adobe.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 1%
+source-wordcount: '601'
+ht-degree: 0%
 
 ---
 
 
 # tl
 
-De `tl()` methode is een belangrijk basisonderdeel voor Adobe Analytics. Alle Analytics-variabelen die op de pagina zijn gedefinieerd, worden gecompileerd naar een verzoek om een afbeelding en worden naar Adobe-servers voor gegevensverzameling verzonden. De methode werkt op dezelfde manier als de [`t()`](t-method.md) methode, maar met deze methode worden de paginaweergaven niet vergroot. Het is handig voor het bijhouden van koppelingen en andere elementen die niet als een volledige pagina worden geladen.
+De methode `tl()` is een belangrijke kerncomponent voor Adobe Analytics. Het neemt alle variabelen die van Analytics op de pagina worden bepaald, compileert hen in een beeldverzoek, en verzendt die gegevens naar de servers van de Adobe- gegevensinzameling. Deze methode werkt ongeveer op dezelfde manier als de methode [`t()`](t-method.md), maar deze methode verhoogt de paginaweergaven niet. Het is handig voor het bijhouden van koppelingen en andere elementen die niet als een volledige pagina worden geladen.
 
-Als [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) of [`trackExternalLinks`](../config-vars/trackexternallinks.md) worden toegelaten, roept AppMeasurement automatisch de `tl()` methode om downloadverbinding te verzenden en verbinding het volgen gegevens weg te gaan. Als uw organisatie er de voorkeur aan geeft meer controle te hebben over de koppelingen en hun gedrag, kunt u de `tl()` methode handmatig aanroepen. Aangepaste koppelingen kunnen alleen handmatig worden bijgehouden.
+Als [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) of [`trackExternalLinks`](../config-vars/trackexternallinks.md) worden toegelaten, roept AppMeasurement automatisch de `tl()` methode om downloadverbinding te verzenden en verbindingsvolgende gegevens weg te gaan. Als uw organisatie er de voorkeur aan geeft meer controle te hebben over de koppelingen en hun gedrag, kunt u de methode `tl()` handmatig aanroepen. Aangepaste koppelingen kunnen alleen handmatig worden bijgehouden.
 
-## Aanroep voor het bijhouden van koppelingen in Adobe Experience Platform starten
+## Aanroep voor het bijhouden van koppelingen in Adobe Experience Platform Launch
 
 De lancering heeft een specifieke plaats plaatste een verbinding volgende vraag.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
-1. Klik onder [!UICONTROL Actions]op het pictogram ‘+’
-1. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en de knop [!UICONTROL Action Type] voor het verzenden van baken.
-1. Click the `s.tl()` radio button.
+1. Klik onder [!UICONTROL Actions] op het pictogram &#39;+&#39;
+1. Stel het [!UICONTROL Extension]-vervolgkeuzemenu in op Adobe Analytics en [!UICONTROL Action Type] op Band verzenden.
+1. Klik op het keuzerondje `s.tl()`.
 
 U kunt geen optionele argumenten instellen in Launch.
 
 ## s.tl()-methode in de aangepaste code-editor van AppMeasurement en Launch
 
-Roep de `s.tl()` methode aan wanneer u een volgende vraag naar Adobe wilt verzenden.
-
-```js
-s.tl();
-```
-
-Optioneel accepteert deze methode verschillende argumenten:
+Roep de methode `s.tl()` wanneer u een volgende vraag naar Adobe wilt verzenden.
 
 ```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### Object Koppelen
+### Koppelingsobject (vereist)
 
 Het argument voor het koppelingsobject bepaalt of de browser tot 500 ms wacht voordat er vanaf de pagina wordt genavigeerd. Als een verzoek om een afbeelding eerder dan 500 ms wordt verzonden, navigeert de pagina direct naar de aangeklikte koppeling.
 
@@ -55,37 +49,42 @@ Het argument voor het koppelingsobject bepaalt of de browser tot 500 ms wacht vo
 * `true`: Wacht niet.
 
 ```JavaScript
-// Include a 500ms delay
-s.tl(this);
+// Include a 500ms delay with an exit link
+s.tl(this,"e","Example exit link");
 
-// Do not include a 500ms delay
-s.tl(true);
+// Do not include a 500ms delay with an exit link
+s.tl(true,"e","Example exit link");
 ```
 
-### Type koppeling
+### Koppelingstype (vereist)
 
-Het koppelingstype argument is een single-letter koord dat het type van verbinding het volgen vraag bepaalt. Dit is hetzelfde als het instellen van de [`linkType`](../config-vars/linktype.md) variabele.
+Het koppelingstype argument is een enig-karakterkoord dat het type van verbinding het volgen vraag bepaalt. Er zijn drie geldige waarden.
+
+* `o`: De koppeling is een  [aangepaste koppeling](/help/components/dimensions/custom-link.md).
+* `d`: De koppeling is een  [downloadkoppeling](/help/components/dimensions/download-link.md).
+* `e`: De koppeling is een koppeling  [Afsluiten](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
-s.tl(true,"o");
+s.tl(true,"o","Example custom link");
 
 // Send a download link
-s.tl(true,"d");
+s.tl(true,"d","Example download link");
 
 // Send an exit link
-s.tl(true,"e");
+s.tl(true,"e","Example exit link");
 ```
 
-### Koppelingsnaam
+### Koppelingsnaam (aanbevolen)
 
-Het argument van de verbindingsnaam is een koord dat het verbinding volgende afmetingspunt bepaalt. Dit is hetzelfde als het instellen van de [`linkName`](../config-vars/linkname.md) variabele.
+Het argument van de verbindingsnaam is een koord dat het verbinding volgende afmetingspunt bepaalt. Wanneer u de [Aangepaste koppeling](/help/components/dimensions/custom-link.md), [Koppeling downloaden](/help/components/dimensions/download-link.md) of [Afmetingen afsluiten](/help/components/dimensions/exit-link.md) in rapportage gebruikt, bevat deze tekenreeks het dimensie-item. Als dit argument niet wordt geplaatst, wordt [linkURL](../config-vars/linkurl.md) variabele gebruikt.
 
 ```js
-s.tl(true,"d","Example download link");
+// When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
+s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### Overschrijvingen van variabelen
+### Variabele overschrijvingen (optioneel)
 
 Laat u veranderlijke waarden voor één enkele vraag veranderen. Zie [variabele overschrijvingen](../../js/overrides.md) voor meer informatie.
 
@@ -104,18 +103,10 @@ Verzend een basisvraag van het verbinden direct binnen een verbinding van HTML:
 <a href="example.html" onClick="s.tl(true,'o','Example link');">Click here</a>
 ```
 
-Gebruik JavaScript om een basisvraag van het verbinden het volgen te maken gebruikend methodeargumenten:
+Gebruik JavaScript om een eenvoudige vraag van het verbinden het volgen te maken gebruikend methodeargumenten:
 
 ```JavaScript
 s.tl(true,"o","Example link");
-```
-
-Gebruik JavaScript om dezelfde basisaanroep voor het bijhouden van koppelingen te maken met behulp van afzonderlijke variabelen:
-
-```js
-s.linkType = "o";
-s.linkName = "Example link";
-s.tl();
 ```
 
 ### Koppelingen bijhouden aanroepen maken binnen een aangepaste functie
@@ -140,9 +131,9 @@ Vervolgens kunt u de functie aanroepen wanneer u een bepaalde koppeling wilt bij
 
 ### Dubbele koppelingen niet bijhouden
 
-Als `trackDownloadLinks` of `trackExternalLinks` worden toegelaten, maakt AppMeasurement automatisch een verbinding volgende vraag als de correcte filters aanpassen. Als u ook handmatig `s.tl()` voor deze koppeling klikt, kunt u dubbele gegevens naar Adobe verzenden. Met dubbele gegevens worden de rapportnummers opgevoerd en minder nauwkeurig gemaakt.
+Als `trackDownloadLinks` of `trackExternalLinks` worden toegelaten, maakt AppMeasurement automatisch een verbinding volgende vraag als de correcte filters aanpassen. Als u `s.tl()` voor deze verbinding ook manueel roept klikt, kunt u dubbele gegevens naar Adobe verzenden. Met dubbele gegevens worden de rapportnummers opgevoerd en minder nauwkeurig gemaakt.
 
-De volgende functie verzendt bijvoorbeeld twee aanroepen voor het bijhouden van koppelingen naar dezelfde link (handmatige en automatische downloadkoppelingen):
+De volgende functie verzendt bijvoorbeeld twee aanroepen voor het bijhouden van koppelingen naar dezelfde link als klikken (handmatige en automatische downloadkoppelingen):
 
 ```JavaScript
 function trackDownload(obj) {
