@@ -5,9 +5,9 @@ user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: 'Pas aan welke gegevens worden verzameld om meer uit Adobe Analytics te halen. '
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '483'
 ht-degree: 89%
 
 ---
@@ -34,10 +34,8 @@ ht-degree: 89%
       + [linkExternalFilters](vars/config-vars/linkexternalfilters.md)
       + [linkInternalFilters](vars/config-vars/linkinternalfilters.md)
       + [linkLeaveQueryString](vars/config-vars/linkleavequerystring.md)
-      + [linkName](vars/config-vars/linkname.md)
       + [linkTrackEvents](vars/config-vars/linktrackevents.md)
       + [linkTrackVars](vars/config-vars/linktrackvars.md)
-      + [linkType](vars/config-vars/linktype.md)
       + [linkURL](vars/config-vars/linkurl.md)
       + [offlineHitLimit](vars/config-vars/offlinehitlimit.md)
       + [offlineThrottleDelay](vars/config-vars/offlinethrottledelay.md)
