@@ -2,9 +2,9 @@
 description: Leer over wanneer en waarom de gegevensschakelaars van de Analyse zullen eind-van-leven worden.
 title: Vooraankondiging van einde van levensduur voor gegevensconnectors van Analytics
 translation-type: tm+mt
-source-git-commit: 90ff77f548149333da34d19e3da672cc2dccf383
+source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '531'
 ht-degree: 11%
 
 ---
@@ -60,7 +60,7 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | Delivra | Vervangen |
 | Demandbase CA | Vervangen |
 | Demandbase v3 | Vervangen |
-| DialogTech | Vervangen |
+| DialogTech | Beschikbaar op Adobe Exchange |
 | DoubleClick for Advertisers (DFA) | Vervangen |
 | DREAM | Vervangen |
 | DREAMmail 2.0 | Vervangen |
