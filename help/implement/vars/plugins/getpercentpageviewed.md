@@ -2,36 +2,34 @@
 title: getPercentPageViewed
 description: Haal het percentage op van de pagina die de bezoeker heeft weergegeven.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
 
 
-# Adobe-insteekmodule: getPercentPageViewed
+# Adobe-plug-in: getPercentPageViewed
 
 >[!IMPORTANT]
 >
->Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-De `getPercentPageViewed` insteekmodule meet de schuifactiviteit van een bezoeker om te zien hoeveel van een pagina deze weergeeft voordat deze naar een andere pagina gaat. Deze insteekmodule is niet nodig als de pagina&#39;s klein van hoogte zijn of als u de scrollactiviteit niet wilt meten.
+Met de insteekmodule `getPercentPageViewed` wordt de schuifactiviteit van een bezoeker gemeten om te zien hoeveel van een pagina deze weergeeft voordat naar een andere pagina wordt gegaan. Deze insteekmodule is niet nodig als de pagina&#39;s klein van hoogte zijn of als u de scrollactiviteit niet wilt meten.
 
 ## Plug-in installeren met de aangepaste code-editor van Launch
 
-Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
-
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder de extensie Adobe Analytics.
-1. Vouw de [!UICONTROL Configure tracking using custom code] accordeon uit, zodat de [!UICONTROL Open Editor] knop zichtbaar wordt.
+1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
+1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
-1. Sla de wijzigingen in de Analytics-extensie op en publiceer deze.
+1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## De plug-in installeren met AppMeturement
+## Installeer de plug-in met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het trackingobject Analytics is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -48,10 +46,10 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 ## De plug-in gebruiken
 
-De `getPercentPageViewed` methode gebruikt de volgende argumenten:
+De methode `getPercentPageViewed` gebruikt de volgende argumenten:
 
-* **`pid`** (optioneel, tekenreeks):  Een op pagina gebaseerde id die u kunt correleren met de percentages die worden verschaft door de metingen van de plug-in.  Wordt standaard ingesteld op de `pageName` variabele.
-* **`ch`** (optioneel, Booleaans):  Stel deze in op `false` (of `0`) als u niet wilt dat de insteekmodule rekening houdt met wijzigingen die na de eerste keer laden in de grootte van een pagina zijn aangebracht. Als deze waarde wordt weggelaten, wordt dit argument standaard ingesteld op `true`. Adobe raadt u aan dit argument in de meeste gevallen weg te laten.
+* **`pid`** (optioneel, tekenreeks): Een op pagina gebaseerde id die u kunt correleren met de percentages die worden verschaft door de metingen van de plug-in.  Wordt standaard ingesteld op de variabele `pageName`.
+* **`ch`** (optioneel, Booleaans): Stel deze in op  `false` (of  `0`) als u niet wilt dat de insteekmodule rekening houdt met wijzigingen die na de eerste keer laden in de grootte van een pagina zijn aangebracht. Indien weggelaten, is dit argument standaard `true`. Adobe beveelt in de meeste gevallen aan dit argument weg te laten.
 
 Als deze methode wordt aangeroepen, wordt niets geretourneerd. in plaats daarvan worden de volgende variabelen ingesteld :
 
@@ -87,7 +85,7 @@ if(s._ppvPreviousPage)
    * De code stelt s.prop1 in op de waarde van s._ppvPreviousPage (dat wil zeggen de vorige waarde van s.pageName of de vorige pagina)
    * De code stelt s.prop2 ook in op het hoogste percentage dat op de vorige pagina is weergegeven en het eerste percentage dat op de vorige pagina is weergegeven, samen met het aantal vouwen dat de bezoeker heeft bereikt en het aantal vouwen dat beschikbaar was
 
-**Opmerking**:  Als een volledige pagina zichtbaar is wanneer deze wordt geladen, zijn zowel de afmetingen Hoogste weergegeven percentage als Oorspronkelijk weergegeven percentage gelijk aan 100. Zowel de getoonde als de beschikbare mappen zijn gelijk aan 1.   Wanneer een volledige pagina NIET zichtbaar is wanneer deze wordt geladen maar de bezoeker de pagina nooit omlaag schuift voordat deze naar de volgende pagina gaat, zijn zowel de afmetingen Hoogste percentage weergegeven als Oorspronkelijk percentage weergegeven gelijk aan dezelfde waarde.
+**Opmerking**: Als een volledige pagina zichtbaar is wanneer deze wordt geladen, zijn zowel de afmetingen Hoogste weergegeven percentage als Oorspronkelijk weergegeven percentage gelijk aan 100. Zowel de getoonde als de beschikbare mappen zijn gelijk aan 1.   Wanneer een volledige pagina NIET zichtbaar is wanneer deze wordt geladen maar de bezoeker de pagina nooit omlaag schuift voordat deze naar de volgende pagina gaat, zijn zowel de afmetingen Hoogste percentage weergegeven als Oorspronkelijk percentage weergegeven gelijk aan dezelfde waarde.
 
 ### Voorbeeld 2
 
@@ -108,7 +106,7 @@ if(s._ppvPreviousPage)
 
 ### v4.0 (7 oktober 2019)
 
-* Toegevoegde `s._ppvFoldsSeen` en `s._ppvFoldsAvailable` oplossingen
+* Toegevoegde `s._ppvFoldsSeen`- en `s._ppvFoldsAvailable`-oplossingen
 
 ### v3.01 (13 augustus 2018)
 
