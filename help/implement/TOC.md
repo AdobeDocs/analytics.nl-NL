@@ -5,9 +5,9 @@ user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: 'Pas aan welke gegevens worden verzameld om meer uit Adobe Analytics te halen. '
 translation-type: tm+mt
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '484'
 ht-degree: 89%
 
 ---
@@ -118,10 +118,11 @@ ht-degree: 89%
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [Getallensuite](vars/plugins/numberssuite.md)
+      + [Nummersuite](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
+      + [websiteBot](vars/plugins/websitebot.md)
    + [Module integreren](vars/integrate.md)
 + Implementatie van Adobe Analytics voorbereiden {#prepare}
    + [Een datalaag maken](prepare/data-layer.md)
