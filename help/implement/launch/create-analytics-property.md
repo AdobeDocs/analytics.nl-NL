@@ -2,7 +2,7 @@
 title: Een eigenschap Analytics maken in Launch
 description: Met Adobe Experience Platform Launch maakt u een spatie om aan te passen hoe gegevens worden verzameld.
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 3%
@@ -16,7 +16,7 @@ Adobe Experience Platform Launch is het hulpprogramma waarmee u Experience Cloud
 
 ## Vereisten
 
-[Maak een rapportsuite](/help/admin/admin-console/create-report-suite.md): Een silo maken voor analysegegevens die moeten worden verzameld
+[Maak een rapportsuite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Een silo maken voor analysegegevens die moeten worden verzameld
 
 ## Een eigenschap maken en vitale extensies installeren
 
@@ -26,10 +26,10 @@ Eigenschappen zijn overkoepelende containers die u gebruikt om tags te beheren. 
 1. Klik op **[!UICONTROL New Property]**.
 1. Geef uw eigenschap een naam, zoals de titel van uw website, en voer het domein in waarop u Analytics wilt implementeren. Klik op **[!UICONTROL Save]**.
 1. Klik op de nieuwe eigenschap om de instellingen in te voeren.
-1. Klik op het **[!UICONTROL Extensions]** tabblad en klik vervolgens op **[!UICONTROL Catalog]**.
+1. Klik op de tab **[!UICONTROL Extensions]** en klik vervolgens op **[!UICONTROL Catalog]**.
 1. Ga naar Identiteitsservice en klik vervolgens op **[!UICONTROL Install]**.
 1. Alle instellingen, inclusief de Experience Cloud Organisatie-id, moeten al zijn ingevuld. Klik op **[!UICONTROL Save]**.
-1. Zoek Adobe Analytics en klik op **[!UICONTROL Install]**.
+1. Zoek Adobe Analytics weer in de extensiecatalogus en klik op **[!UICONTROL Install]**.
 
 ## Gegevenselementen maken voor Adobe Analytics
 
@@ -37,7 +37,7 @@ Gegevenselementen zijn verwijzingen naar specifieke delen van uw site om variabe
 
 1. Ga naar [launch.adobe.com](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
 1. Klik op de eigenschap Starten die u op uw site wilt implementeren.
-1. Klik op het **[!UICONTROL Data Elements]** tabblad en klik vervolgens op **[!UICONTROL Create New Data Element]**.
+1. Klik op de tab **[!UICONTROL Data Elements]** en klik vervolgens op **[!UICONTROL Create New Data Element]**.
 1. Geef het gegevenselement de volgende instellingen:
 
    * Naam: Paginanaam
@@ -59,16 +59,16 @@ Regels wijzen gegevenselementen aan de veranderlijke waarden van de Analyse in k
 1. Ga naar [launch.adobe.com](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
 1. Klik op de eigenschap Starten die u op uw site wilt implementeren.
 1. Klik **[!UICONTROL Create New Rule]** en noem het `Global Rule`.
-1. Klik **[!UICONTROL Add]** naast gebeurtenissen en voer de volgende instellingen in:
+1. Klik op **[!UICONTROL Add]** naast gebeurtenissen en voer de volgende instellingen in:
    * Extensie: Kern
    * Type gebeurtenis: Bibliotheek geladen (pagina boven)
    * Naam: Kern - Bibliotheek geladen (pagina boven)
    * Volgorde: 50
 1. Klik op **[!UICONTROL Keep Changes]**.
-1. Klik onder **[!UICONTROL Actions]****[!UICONTROL Add]** en voer de volgende instellingen in:
+1. Klik onder **[!UICONTROL Actions]** op **[!UICONTROL Add]** en voer de volgende instellingen in:
    * Extensie: Adobe Analytics
    * Type handeling: Variabelen instellen
-   * Paginanaam: Klik op het containerpictogram en selecteer het `Page Name` gegevenselement.
+   * Paginanaam: Klik op het containerpictogram en selecteer het gegevenselement `Page Name`.
    * Campagne: De parameter van de vraag met een waarde van `cid`
 1. Klik op **[!UICONTROL Keep Changes]**.
 1. Klik op het plusteken naast handelingen om nog een handeling toe te voegen en voer de volgende instellingen in:
