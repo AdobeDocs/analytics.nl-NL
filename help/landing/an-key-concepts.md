@@ -2,10 +2,10 @@
 description: Deze sectie bevat de belangrijkste concepten voor de Adobe Analytics, een korte beschrijving van het concept, en een specifieke documentatiekoppeling met extra informatie over het onderwerp.
 title: Adobe Analytics - Belangrijkste concepten
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1876'
+ht-degree: 96%
 
 ---
 
@@ -21,11 +21,11 @@ Deze sectie bevat de belangrijkste concepten voor de Adobe Analytics, een korte 
 | Analysis Workspace | Browseroplossing voor het bouwen van robuuste, aangepaste analyseprojecten en democratiserende inzichten. Biedt meer rapportflexibiliteit dan Reports and Analytics | [Analysis Workspace home](/help/analyze/analysis-workspace/home.md) |
 | Reports and Analytics (voorheen SiteCatalyst) | Browseroplossing voor rapportage en analyse. Startertool in het Analytics-pakket. | [Reports and Analytics home](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | Excel-invoegtoepassing waarmee u aangepaste verzoeken van de gegevens kunt maken op basis van Adobe Analytics-data, en deze visualiseren met Microsoft Excel. | [Report Builder Home](/help/analyze/report-builder/home.md) |
-| Ad Hoc Analysis (voorheen Discover) | Java-gebaseerde tool voor geavanceerde digitale analyse. | [Ad Hoc Analysis Home](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
+| Ad Hoc Analysis (voorheen Discover) | Java-gebaseerde tool voor geavanceerde digitale analyse. EOL-datum: 1 maart 2021. | [Ad Hoc Analysis Home](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
 | Data Workbench (voorheen Insight) | Ontworpen voor het verzamelen, verwerken, analyseren en visualiseren van data van zowel online als offline klanteninteracties via meerdere kanalen. | [Data Workbench-client](https://docs.adobe.com/content/help/en/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | Onbewerkte gegevens voor opslag en aangepaste rapporten, die u kunt uitvoeren door de data te filteren. Niveau niet bereikt. | [Data Warehouse Home](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Verenigt mobiele marketingmogelijkheden voor mobiele applicaties uit de hele Adobe Experience Cloud, zodat u de betrokkenheid van gebruikers met uw applicaties kunt begrijpen en verbeteren. | [Mobile Services Home](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
-| Adobe Exchange Data Connectors (voorheen Genesis) | Importeer trackingdata van applicaties van derden naar Analytics, zodat de prestaties op één centrale locatie volledig zichtbaar zijn. | [Data Connectors Home](/help/import/data-connectors/data-connectors-eol.md) |
+| Adobe Exchange Data Connectors (voorheen Genesis) | Importeer trackingdata van applicaties van derden naar Analytics, zodat de prestaties op één centrale locatie volledig zichtbaar zijn. Met ingang van 1 augustus 2021 is Adobe voornemens de integratie van gegevensconnectors te beëindigen. | [Data Connectors Home](/help/import/data-connectors/data-connectors-eol.md) |
 | Dynamic Tag Management (DTM) | Hiermee kunt u uw Analytics-, Target- en andere tags op al uw sites beheren, ongeacht het aantal domeinen. | [DTM Home](/help/implement/other/dtm/dtm-implementation-overview.md) |
 | Adobe Launch | De volgende generatie mogelijkheden voor websitetags en mobiel SDK-beheer van Adobe. | [Adobe Launch Home](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
 
