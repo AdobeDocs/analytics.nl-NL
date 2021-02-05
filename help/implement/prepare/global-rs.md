@@ -2,7 +2,7 @@
 title: Algemene rapportsuites in Adobe Analytics
 description: Begrijp de voordelen en de vereisten aan het gebruiken van een globale rapportreeks.
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Adobe beveelt in de meeste gevallen aan een algemene rapportsuite te implementer
 
 Gebruik de volgende algemene richtlijnen om inzicht te krijgen in het proces van implementatie van een algemene rapportsuite.
 
-1. Maak de algemene rapportsuite in Adobe Analytics. Zie [Een rapportsuite maken](../../admin/admin-console/create-report-suite.md) in de handleiding voor Admin-gebruikers voor meer informatie.
+1. Maak de algemene rapportsuite in Adobe Analytics. Zie [Een rapportsuite maken](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) in de handleiding voor Admin-gebruikers voor meer informatie.
 1. Het werk met teams in uw organisatie verantwoordelijk voor elk domein. Vele teams hebben rapporteringsvereisten specifiek voor hun gebied van de zaken.
 1. Leg al deze vereisten vast in een document [Oplossingsontwerp](solution-design.md). Als de teams gelijkaardige vereisten voor een afmeting hebben, kunnen zij de zelfde douanevariabele gebruiken. Bijvoorbeeld, als de plaats A en plaats B allebei een dimensie van broodkruimels vereisen, kunnen de implementaties voor beide plaatsen die gegevens door eVar1 verzenden.
 
