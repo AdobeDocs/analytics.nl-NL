@@ -5,10 +5,10 @@ user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over het beheren van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
 translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+source-git-commit: 445cf81cd157bb311cbd4df6e9e2b0b052a64f96
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 95%
+source-wordcount: '726'
+ht-degree: 91%
 
 ---
 
@@ -108,12 +108,12 @@ ht-degree: 95%
       + [De variabele Unique Visitor opgeven](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Gebruiksscenario - Bezoekers-id&#39;s](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Videobeheer](admin/video-management.md)
-+ Experience Cloud Admin Console {#admin-console}
-   + [Experience Cloud Admin Console Help](admin-console/home.md)
++ Analyses in de Adobe Admin Console {#admin-console}
+   + [Analyses in de Adobe Admin Console](admin-console/home.md)
    + Toestemmingen {#permissions}
-      + [Help bij Productprofiel](admin-console/permissions/product-profile.md)
-      + [Toestemmingsitems voor rapportsuitetools](admin-console/permissions/report-suite-tools.md)
-      + [Toestemmingsitems voor Analytics-tools](admin-console/permissions/analytics-tools.md)
+      + [Productprofielen voor Adobe Analytics](admin-console/permissions/product-profile.md)
+      + [Machtigingen voor productprofielen voor rapportsuite](admin-console/permissions/report-suite-tools.md)
+      + [Machtigingen voor productprofielen voor Analytics Tools](admin-console/permissions/analytics-tools.md)
    + [Eerste Adobe Analytics-beheerdershandleiding](admin-console/first-admin-guide.md)
 + Bedrijfsinstellingen {#company-settings}
    + [Overzicht van bedrijfsinstellingen](company/c-company-settings.md)
