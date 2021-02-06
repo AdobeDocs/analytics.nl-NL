@@ -1,8 +1,8 @@
 ---
-source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '559'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ Met de machtigingsitems Analytics Tools hebt u toegang tot functies in Adobe Ana
 | Analysis Workspace Access | Biedt toegang tot Analysis Workspace. Gebruikers moeten tot deze groep (voorkeur) of Rapporten &amp; Toegang Analytics behoren om Adobe Analytics te kunnen gebruiken. |
 | Toegang tot rapporten en analyses | Hiermee krijgt u toegang tot rapporten en analyses. Gebruikers moeten tot deze groep of Analysis Workspace Access (voorkeur) behoren om Adobe Analytics te kunnen gebruiken. |
 | Analysis Workspace: Opslaan als sjabloon | Hiermee krijgt u toegang tot Project > Opslaan als sjabloon in Analysis Workspace. |
-| Toegang tot labs | Momenteel in ontwikkeling. Wanneer deze wordt vrijgegeven, krijgt Labs toegang. |
+| Toegang tot labs | Geef gebruikers toegang tot Labs en de prototypen binnen Labs. |
 | Berekend metrisch ontwerp | Biedt de mogelijkheid berekende metriek te maken voor alle analysemogelijkheden. |
 | Segment maken | Biedt de mogelijkheid om segmenten te maken en te delen met alle analysemogelijkheden. |
 | Advertising Analytics-beheer | Niet gebruikt. |
