@@ -3,10 +3,10 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe A
 title: Welke Adobe Analytics-tool moet ik gebruiken?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
+source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 4%
+source-wordcount: '1157'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe Analytics-hulp
 
 Voor meer informatie over de Vergelijking van het Product van Adobe Analytics, ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 
-## Adobe Analytics Reporting User Interfaces {#section_8265460EBB47405AB19A3B2B0729C8A4}
+## Adobe Analytics Reporting User Interfaces {#user-interfaces}
 
 **[De](/help/analyze/analysis-workspace/home.md)** Werkruimten van de analyse zouden de go-aan gebruikersinterface voor al uw rapportering en analysebehoeften moeten zijn. Adobe blijft in dit product investeren en maandelijks updates uitbrengen. Als er een taak is die u niet kunt uitvoeren in Analysis Workspace, kunt u de andere interfaces hieronder overwegen.**
 
@@ -31,15 +31,6 @@ Voor meer informatie over de Vergelijking van het Product van Adobe Analytics, g
 * U krijgt toegang tot unieke videovisualisaties van Video Daypart en Viewer Drop-off.
 * Als u publicatielijsten in geplande rapporten wilt gebruiken.
 
-**[Er moet gebruik worden gemaakt van ad-](/help/analyze/ad-hoc-analysis/adhoc-home.md)** hocanalyse:
-
->[!IMPORTANT]
->
->Adobe verplaatst Ad Hoc Analysis naar het einde van zijn leven op 1 maart 2021. [Meer informatie](https://adobe.ly/discoverworkspace)
-
-* Als taborganisatie van projectwerk gewenst is.
-* Om het rapport van de Analyse van de Plaats te gebruiken (3D-het schilderen rapport).
-
 **[Gegevenswerkbenchmark ](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** moet worden gebruikt:
 
 * De meest flexibele optie voor Analytics (tot op bezoekersniveau, analyse op raakniveau).
@@ -49,7 +40,7 @@ Voor meer informatie over de Vergelijking van het Product van Adobe Analytics, g
 * Voor Latentie-analyse (tijd voor / sinds een gebeurtenis).
 * Voor de identificatie en uitvoer van complexe segmenten in Adobe Experience Cloud.
 
-## Gegevens importeren in Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## Gegevens importeren in Adobe Analytics {#import}
 
 **[Er moeten](/help/components/classifications/c-classifications.md)** classificaties worden gebruikt:
 
@@ -90,14 +81,14 @@ Voor meer informatie over de Vergelijking van het Product van Adobe Analytics, g
 * Als u gegevens over het Adobe Audience Manager-publiek (AAM), zoals demografische informatie (bv. geslacht of inkomensniveau), psychografische informatie (bv. interesses en hobby&#39;s), CRM-gegevens of impliciete gegevens in een analyseworkflow wilt opnemen.
 * Als u de geüploade CRM-gegevens op tijd wilt baseren, omdat deze integratie nieuwe informatie stuurt naar Analytics die door een hit zijn getroffen.
 
-## Gegevens exporteren uit Adobe Analytics {#section_901C06ABF2014E92B2952906723DF235}
+## Gegevens exporteren uit Adobe Analytics {#export}
 
 **[Report](/help/analyze/report-builder/home.md)** Buildershould be used:
 
 * Als de aangepaste layoutopties van Workspace worden beperkt (alles is mogelijk in Report Builder, binnen de grenzen van Excel).
 * In gebruikersinvoer of offlinegegevensbronnen (impressies, kosten) losjes koppelen aan Adobe-gegevens. De duurdere oplossing voor het verbinden in gegevens is Gegevensbronnen (zie het Importeren van Gegevens aan Analytics).
 * Gegevens uit verschillende dimensionale rapporten samenvoegen (bv. rapport over promo-impressions wordt gekoppeld aan rapport over promo-click-to-conversion).
-* Voor cross-report-suite weergaven.
+* Om gegevens van verschillende rapportreeksen samen te voegen, of door samen te vatten of in de zelfde lijst zij aan zij te tonen.
 * Als automatisering via planning gewenst is (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[Er](/help/export/data-warehouse/data-warehouse.md)** dient gebruik te worden gemaakt van gegevenspaden:
@@ -120,7 +111,7 @@ Voor meer informatie over de Vergelijking van het Product van Adobe Analytics, g
 * **Real-time**: wanneer u een paar metriek en afmetingen met seconden van latentie wilt bekijken. Dit zijn beperkte, gedeeltelijk verwerkte, samengevatte gegevens die binnen ~30 seconden beschikbaar zijn. Omvat unieke algoritmen van populairste, aannemers, en verliezers. Kan via Report Builder worden gebruikt.
 * **[!UICONTROL Live Stream]**: als u binnen seconden na de verzameling een stream wilt van gedeeltelijk verwerkte analysegegevens op raakniveau. Dit zijn gedeeltelijk verwerkte gegevens, beschikbaar binnen ~30 seconden. Alleen beschikbaar voor Analytics Premium. Vereist één of andere manier om de gegevens te visualiseren, typisch door een overeenkomst van de Diensten van de Techniek.
 
-## Aangepaste oplossingen {#section_4A212F26A15947599DFB0399A0440CB6}
+## Aangepaste oplossingen {#custom-solutions}
 
 De Diensten van de techniek zouden moeten worden gebruikt wanneer:
 
