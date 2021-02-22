@@ -2,9 +2,9 @@
 description: Met Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace analyseren.
 title: Analyses voor venster Doel (A4T)
 translation-type: tm+mt
-source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
+source-git-commit: 6f86a45ae745df86f1f6fc924d995437b9992484
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -62,6 +62,6 @@ Net als bij elk deelvenster in Analysis Workspace kunt u uw analyse voortzetten 
 | Wanneer ik een klapsegment voor een specifieke activiteit van het Doel in mijn analyse toepast, waarom zie ik verwante ervaringen terugkomen? | De dimensie A4T is een lijstvariabele, wat betekent het vele activiteiten (en ervaringen) in één keer kan bevatten. [Meer informatie](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | Worden extreme orders door de betrouwbaarheidsmaatstaf gecompenseerd of wordt een Bonferroni-correctie toegepast voor meerdere aanbiedingen? | Nee. [Leer ](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) meer over hoe Analytics vertrouwen berekent. |
 | Kunnen meetgegevens voor optillen en vertrouwen worden gebruikt met andere dimensies of uitsplitsingen? | Lift en het vertrouwen zijn &quot;gesloten metriek&quot;aan de dimensie van de Ervaringen van het Doel omdat zij een controle en een variant vereisen om over te berekenen. Als zodanig kunnen ze niet worden uitgesplitst of gebruikt met andere dimensies. |
-| Wanneer wordt de lift en het vertrouwen opnieuw berekend? | De optillen en het vertrouwen zullen op elk ogenblik opnieuw berekenen het paneel in werking wordt gesteld (of re-looppas), verandert de waaier van de paneeldatum, of een segment wordt toegepast op het paneel of de lijst. |
+| Wanneer wordt de lift en het vertrouwen opnieuw berekend? | U kunt optillen en vertrouwen op elk moment dat het deelvenster wordt uitgevoerd (of opnieuw wordt uitgevoerd), het datumbereik van het deelvenster wijzigen of een segment toepassen op het deelvenster of de tabel. Wanneer het toepassen van een segmentfilter op de vrije vormlijst, moet het over alle kolommen worden toegepast of de lift en het vertrouwen zal niet correct bijwerken. Op dit moment worden segmenten op kolomniveau niet ondersteund. |
 
 Voor meer informatie over Analytics voor Target Reporting [A4T reporting](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
