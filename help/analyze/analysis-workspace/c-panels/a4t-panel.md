@@ -2,9 +2,9 @@
 description: Met Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace analyseren.
 title: Analyses voor venster Doel (A4T)
 translation-type: tm+mt
-source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
+source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
@@ -50,18 +50,18 @@ Elke vrije-vormlijst toont de volgende metrische kolommen:
 | Lift (boven) | Vertegenwoordigt de beste hefervaring een variantervaring over de controle, met een 95% betrouwbaarheidsinterval kon hebben.<br>Berekening: Zie Lift (onder). |
 | Vertrouwen | De studenten t-test berekent het betrouwbaarheidsniveau, dat op de waarschijnlijkheid wijst dat de resultaten zouden worden gedupliceerd als de test opnieuw in werking werd gesteld. Een vast voorwaardelijk opmaakbereik van 75%/85%/95% is toegepast op de metrische waarde. Deze opmaak kan indien nodig worden aangepast onder Kolominstellingen. Opmerking: Vertrouwen is &quot;gesloten metrisch&quot;aan de Ervaringen van het Doel; het kan niet worden uitgesplitst of met andere afmetingen worden gebruikt.<br>Berekening: Pas een t-test met twee trappen toe met y+y_control-2 graden aan vrijheid om de p-waarde te vinden of x/y gelijk is aan x_control/y_control. Verwerk de t-score, waarbij stderr sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control) is. Retourneer 1-p als het vertrouwen dat ze anders zijn. |
 
-Net als bij elk deelvenster in Analysis Workspace kunt u uw analyse voortzetten door extra tabellen en [visualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) toe te voegen die u helpen uw Adobe Target-activiteiten te analyseren.
+Net als bij elk deelvenster in Analysis Workspace kunt u uw analyse voortzetten door extra tabellen en [visualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) toe te voegen die u helpen uw Adobe Target-activiteiten te analyseren. U kunt ook een segment toepassen op deelvensterniveau of in de vrije-vormtabel. Als u deze tabel toevoegt in de vrije-vormtabel, moet u de tabel over de hele tabel bedekken om de berekening voor de lift en het vertrouwen te behouden. Segmenten op kolomniveau worden momenteel niet ondersteund.
 
-## FAQs {#FAQ}
+## Veelgestelde vragen {#FAQ}
 
 | Vraag | Antwoord |
 |---|---|
-| Welke activiteitentypes worden gesteund in A4T? | [Meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) informatie over welke typen activiteiten worden ondersteund. |
-| Worden berekende meetwaarden ondersteund in lift- en betrouwbaarheidsberekeningen? | Nee. [Lees meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) over waarom berekende meetgegevens niet worden ondersteund in lift en vertrouwen. Berekende metriek kunnen in A4T worden gebruikt rapporterend buiten deze metriek, echter. |
-| Waarom zouden unieke bezoekers van Target en Analytics verschillen? | [Meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) informatie over variaties van unieke bezoekers tussen producten. |
+| Welke activiteitentypes worden gesteund in A4T? | [Leer ](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) meer over welke activiteitstypen worden gesteund. |
+| Worden berekende meetwaarden ondersteund in lift- en betrouwbaarheidsberekeningen? | Nee. [Lees ](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) meer over waarom berekende metriek niet in lift &amp; vertrouwen worden gesteund. Berekende metriek kunnen in A4T worden gebruikt rapporterend buiten deze metriek, echter. |
+| Waarom zouden unieke bezoekers van Target en Analytics verschillen? | [Leer ](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) meer over variaties van unieke bezoekers tussen producten. |
 | Wanneer ik een klapsegment voor een specifieke activiteit van het Doel in mijn analyse toepast, waarom zie ik verwante ervaringen terugkomen? | De dimensie A4T is een lijstvariabele, wat betekent het vele activiteiten (en ervaringen) in één keer kan bevatten. [Meer informatie](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| Worden extreme orders door de betrouwbaarheidsmaatstaf gecompenseerd of wordt een Bonferroni-correctie toegepast voor meerdere aanbiedingen? | Nee. [Meer](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) informatie over hoe Analytics het vertrouwen berekent. |
+| Worden extreme orders door de betrouwbaarheidsmaatstaf gecompenseerd of wordt een Bonferroni-correctie toegepast voor meerdere aanbiedingen? | Nee. [Leer ](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) meer over hoe Analytics vertrouwen berekent. |
 | Kunnen meetgegevens voor optillen en vertrouwen worden gebruikt met andere dimensies of uitsplitsingen? | Lift en het vertrouwen zijn &quot;gesloten metriek&quot;aan de dimensie van de Ervaringen van het Doel omdat zij een controle en een variant vereisen om over te berekenen. Als zodanig kunnen ze niet worden uitgesplitst of gebruikt met andere dimensies. |
 | Wanneer wordt de lift en het vertrouwen opnieuw berekend? | De optillen en het vertrouwen zullen op elk ogenblik opnieuw berekenen het paneel in werking wordt gesteld (of re-looppas), verandert de waaier van de paneeldatum, of een segment wordt toegepast op het paneel of de lijst. |
 
-Voor meer informatie over Analytics voor Target-rapportage gaat u naar [A4T-rapportage](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
+Voor meer informatie over Analytics voor Target Reporting [A4T reporting](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
