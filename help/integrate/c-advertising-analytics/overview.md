@@ -1,17 +1,16 @@
 ---
-description: 'null'
-title: Overzicht van Advertising Analytics
-uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
+description: Ontdek alles wat u met Advertising Analytics kunt doen in deze gedetailleerde handleiding, inclusief de vereiste machtigingen, en de beschikbare afmetingen en metriek.
+title: Een gids voor Advertising Analytics
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 100%
+source-wordcount: '1276'
+ht-degree: 97%
 
 ---
 
 
-# Overzicht van Advertising Analytics
+# Een gids voor Advertising Analytics
 
 Met Advertising Analytics kunt u alle data van Google en Bing paid search naast elkaar weergeven in Adobe Analytics. Vroeger moesten alle data van Google AdWords/DFA of Microsoft Bing Ads worden weergegeven in Adobe Advertising Cloud (AMO) of in Google/Bing. Nu worden de volgende data opgehaald in Adobe Analytics: impressies, klikken, kosten, kwaliteitsscore en gemiddelde positie, rechtstreeks vanuit de zoekmachines zowel als uit AMO ID-instanties (klik op Instanties).
 
