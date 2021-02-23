@@ -2,9 +2,9 @@
 title: Adobe Analytics-machtigingen - overzichtstabellen
 description: Tabellen die een overzicht geven van de beschikbare Adobe Analytics-machtigingen in Admin Console.
 translation-type: tm+mt
-source-git-commit: 5c300548b9677c7ffe21fa66b4b7c9859179ff8e
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1255'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Kosten | x |  |  |  | Biedt toegang tot marketingkanalen > Kosten marketingkanaal in Report Suite Manager. |
 | Aangepaste kalender | x |  |  |  | Hiermee krijgt u toegang tot Algemeen > Kalender aanpassen in Report Suite Manager. |
 | Data feeds Manager | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Gegevensfeeds in de bovenste navigatie Analytics. |
-| API voor gegevensherstel | x |  |  |  | Nieuw (in bèta) - verleent toegang tot de API voor gegevensherstel |
+| API voor gegevensherstel | x |  |  |  | Biedt toegang tot de API voor gegevensherstel |
 | Gegevensbronbeheer | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Gegevensbronnen in de bovenste navigatie Analytics. Vereist het machtigingsitem &#39;Report Suite Mgmt&#39;. |
 | Standaardwaarden | x |  |  |  | Hiermee krijgt u toegang tot de afzonderlijke rapportsuite-instellingen > Standaardwaarden in Rapportsuite Manager. |
 | Exclusief door IP Adres | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Uitsluiten door IP in de bovenste navigatie Analytics. |
