@@ -1,13 +1,10 @@
 ---
 description: Voordat u Reports and Analytics gebruikt, moet u deze basistaken voor aanmelding en installatie begrijpen en controleren hoe u toegang krijgt tot accountgegevens.
-subtopic: Get started
 title: Aan de slag met Reports and Analytics
-topic: Reports and analytics
-uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 Voordat u Rapporten en Analyses gebruikt, moet u deze basisaanmeldings- en instellingstaken begrijpen, en weten hoe u toegang hebt tot accountgegevens.
 
-Rapportering biedt inzicht in uw traditionele webkanalen en in evoluerende kanalen zoals mobiele netwerken, video en sociale netwerken. Voorbeelden van marketingrapporten zijn:
+Rapportering biedt inzicht in uw traditionele webkanalen en in evoluerende kanalen zoals mobiele netwerken, video en sociale netwerken. Voorbeelden van rapporten zijn:
 
 * Hoeveel personen bezoeken uw site
 * Hoeveel van deze bezoekers zijn unieke bezoekers (slechts eenmaal geteld)
@@ -55,7 +52,7 @@ Stappen die beschrijven hoe u zich via de Adobe Experience Cloud aanmeldt.
 
 1. Start een browser op een computer met toegang tot internet.
 1. Ga naar [!DNL https://login.experiencecloud.adobe.com/].
-1. Klik op de [!UICONTROL Sign In] pagina **[!UICONTROL Single Sign-On]**.
+1. Klik op [!UICONTROL Sign In] op de pagina.**[!UICONTROL Single Sign-On]**
 1. Voer de volgende gegevens in en klik op **[!UICONTROL Sign In]**.
 
    **[!UICONTROL Company]**: Geef de bedrijfs-id op.
@@ -63,7 +60,7 @@ Stappen die beschrijven hoe u zich via de Adobe Experience Cloud aanmeldt.
    **[!UICONTROL Username]**: Geef uw account-id op.
 
    **[!UICONTROL Password]**: Geef het wachtwoord voor uw account op.
-1. Ga op de startpagina Experience Cloud naar **Analytics > Reports**.
+1. Van de homepage van Experience Cloud, ga naar **Analytics > Reports**.
 
    De Experience Cloud meldt u automatisch af na 30 minuten inactiviteit.
 
@@ -73,13 +70,13 @@ Stappen die beschrijven hoe te om een rapport te produceren.
 
 1. Meld u aan bij [!UICONTROL Reports & Analytics].
 
-   Het menu Rapporten wordt weergegeven of er wordt een [dashboard](/help/analyze/reports-analytics/dashboard.md) weergegeven als u er een hebt ingesteld.
+   Het menu Rapporten geeft weer, of een [dashboard](/help/analyze/reports-analytics/dashboard.md) geeft weer, als u er een hebt ingesteld.
 
-1. Klik **[!UICONTROL Site Content]** > **[!UICONTROL Pages]** (bijvoorbeeld).
+1. Klik op **[!UICONTROL Site Content]** > **[!UICONTROL Pages]** (bijvoorbeeld).
 
    ![](assets/pages_report.png)
 
-   Zie de Eigenschappen [van het](/help/analyze/reports-analytics/overview/report-overview.md) Rapport voor informatie over interfacefuncties van een rapport.
+   Zie [De Eigenschappen van het Rapport](/help/analyze/reports-analytics/overview/report-overview.md) voor informatie over interfaceeigenschappen van een rapport.
 
 ## De accountinstellingen van een gebruiker bewerken
 
@@ -87,49 +84,22 @@ Informatie over het bewerken van gebruikersaccounts, het opnieuw instellen van g
 
 U kunt contactgegevens weergeven en bewerken, een wachtwoord opgeven, webservices-informatie weergeven en deze computer uitsluiten van gegevensverzameling.
 
-Klik op het accountpictogram ![](assets/account.png)rechtsboven in het scherm en klik vervolgens op het pictogram **[!UICONTROL Account Settings]** (wiel)naast de aanmeldnaam.
+Klik op het accountpictogram ![](assets/account.png)rechtsboven in het scherm en klik vervolgens op het pictogram **[!UICONTROL Account Settings]** (wiel) naast uw aanmeldingsnaam.
 
-Alle gebruikers hebben toegang tot de [!UICONTROL Account Information] pagina. De volgende informatie is beschikbaar voor weergave of bewerking:
+Alle gebruikers hebben toegang tot de pagina [!UICONTROL Account Information]. De volgende informatie is beschikbaar voor weergave of bewerking:
 
-<table id="table_58F5D292485F45F9902B372E4E1E3103"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Type informatie </th> 
-   <th colname="col2" class="entry"> Definitie </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> <p>Contact </p> </td> 
-   <td> <p>Geef de volgende persoonlijke gegevens op voor uw account: </p> 
-    <ul id="ul_7925E35904EB47E3AC648FA80A09EF91"> 
-     <li id="li_CDD8D7B73A1D4C78A41FF02BD0E5E788">Voornaam (vereist) </li> 
-     <li id="li_7255F50ABFFA4EE8A0A9D04F92BE432D">Achternaam (vereist) </li> 
-     <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">Titel </li> 
-     <li id="li_B5BE95E0FE594939A2D4C6680A6B8BDD">E-mailadres (vereist) </li> 
-     <li id="li_B764239241CE4F1CA74F77D796E7AB1D">Telefoonnummer </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Aanmelden </p> </td> 
-   <td> <p>Hiermee geeft u de gebruikersnaam van de account weer en kunt u het accountwachtwoord wijzigen. </p> <p>Zie ook: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  > Hoe kan ik het wachtwoord</a>voor rapporten en analytische accounts herstellen? </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Webservice </p> </td> 
-   <td> <p>Hiermee geeft u de gebruikersnaam en het gedeelde geheim van de webservices weer die aan dit account zijn gekoppeld. Gebruik deze referenties wanneer u Experience Cloud benadert via de API's voor webservices. Zie de <a href="https://marketing.adobe.com/developer"  > Developer Connection</a>voor meer informatie. </p> <p> <p>Opmerking:  Deze informatie wordt alleen weergegeven als de account is geautoriseerd als gebruiker van een webservice. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Deze computer uitsluiten </p> </td> 
-   <td> <p>Past een koekje op de huidige computer toe om het van gegevensinzameling uit te sluiten. Dit is handig als u niet wilt dat uw onlineactiviteiten invloed hebben op het aantal pagina's en bezoekers in uw domein. </p> <p> <p>Opmerking:  Als u deze functie wilt gebruiken, moet de browser cookies hebben ingeschakeld. Als u cookies verwijdert op uw computer, moet u de uitsluitingscookie opnieuw instellen. </p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Type informatie | Definitie |
+| --- | --- |
+| Contact | Geef de volgende persoonlijke gegevens op voor uw account:<ul><li>Voornaam (vereist)</li><li>Achternaam (vereist)</li><li>Titel</li><li>E-mailadres (vereist)</li><li>Telefoonnummer</li></ul> |
+| Aanmelden | Hiermee geeft u de gebruikersnaam van de account weer en kunt u het accountwachtwoord wijzigen. Zie ook: [Hoe te om Rapporten &amp; de rekeningswachtwoord van Analytics terug te stellen](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en). |
+| Webservice | Hiermee geeft u de gebruikersnaam en het gedeelde geheim van de webservices weer die aan dit account zijn gekoppeld. Gebruik deze referenties wanneer u Experience Cloud benadert via de API&#39;s voor webservices. Zie de Developer Connection voor meer informatie. **Opmerking:** Deze informatie wordt alleen weergegeven als de account is geautoriseerd als gebruiker van een webservice. |
+| Deze computer uitsluiten | Past een koekje op de huidige computer toe om het van gegevensinzameling uit te sluiten. Dit is handig als u niet wilt dat uw onlineactiviteiten invloed hebben op het aantal pagina&#39;s en bezoekers in uw domein. **Opmerking:cookies moeten zijn ingeschakeld in uw browser** om deze functie te kunnen gebruiken. Als u cookies verwijdert op uw computer, moet u de uitsluitingscookie opnieuw instellen. |
 
 ## De interfacetaal wijzigen
 
 Stappen die beschrijven hoe te om de interfacetaal te veranderen. U kunt de Reports and Analytics-interface weergeven in de taal van uw keuze.
 
-1. Meld u aan bij Analytics en selecteer het **[!UICONTROL Reports]** tabblad.
-1. Klik in de voettekst van de pagina op de actieve taal in het **[!UICONTROL Language]** menu en selecteer de gewenste taal.
+1. Meld u aan bij Analytics en selecteer het tabblad **[!UICONTROL Reports]**.
+1. Klik in de voettekst van de pagina op de actieve taal in het menu **[!UICONTROL Language]** en selecteer vervolgens de gewenste taal.
 
 U kunt de documentatie en de startpagina openen vanuit de Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
