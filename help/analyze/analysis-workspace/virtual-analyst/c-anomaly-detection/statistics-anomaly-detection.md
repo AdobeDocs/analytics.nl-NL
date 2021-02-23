@@ -1,14 +1,16 @@
 ---
-description: Anomaly detection in Analysis Workspace maakt gebruik van een reeks geavanceerde statistische technieken om te bepalen of een waarneming al dan niet als abnormaal moet worden beschouwd.
-title: Statistische technieken voor de opsporing van anomalieën
-uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
+description: Gegevensinconsistenties kunnen grote problemen veroorzaken. Leer hoe u statistische anomalieën kunt identificeren met afwijkende detectietechnieken van Adobe. Ga vandaag aan de slag.
+title: Statistische technieken voor anomaliedetectie
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c588087b949093152435967f62e43758e9e86208
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 1%
 
 ---
 
 
-# Statistische technieken voor de opsporing van anomalieën
+# Statistische technieken voor anomaliedetectie
 
 Anomaly detection in Analysis Workspace maakt gebruik van een reeks geavanceerde statistische technieken om te bepalen of een waarneming al dan niet als abnormaal moet worden beschouwd.
 
@@ -18,7 +20,7 @@ Afhankelijk van de in het verslag gebruikte datum van granulariteit worden drie 
 
 Voor dagelijkse granularity- rapporten, overweegt het algoritme verscheidene belangrijke factoren om de nauwkeurigste mogelijke resultaten te leveren. Ten eerste bepaalt het algoritme welk type model moet worden toegepast op basis van beschikbare gegevens waarvan we kiezen uit een van de twee klassen - een op tijdreeksen gebaseerd model of een uitbijsteringsdetectiemodel (functionele filtering genoemd).
 
-De modelselectie van tijdreeksen is gebaseerd op de volgende combinaties voor het type fout, trend en seizoensgebondenheid (ETS), zoals beschreven door [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Specifiek, probeert het algoritme de volgende combinaties:
+De modelselectie van tijdreeksen is gebaseerd op de volgende combinaties voor het type fout, trend en seizoensgebondenheid (ETS) zoals beschreven door [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Specifiek, probeert het algoritme de volgende combinaties:
 
 1. ANA (additieve fout, geen trend, additieve seizoensgebondenheid)
 1. AAA (additieve fout, additieve trend, additieve seizoensgebondenheid)
@@ -31,17 +33,17 @@ Het algoritme test de geschiktheid van elk van deze door één met het beste gem
 Na modelselectie past het algoritme vervolgens de resultaten aan op basis van vakantie en seizoensgebondenheid van jaar tot jaar. Voor feestdagen controleert het algoritme of een van de volgende feestdagen aanwezig is in het rapportagedatumbereik:
 
 * Herdenkingsdag
-* 4 juli
+* Juli 4
 * Thanksgiving
 * Zwarte vrijdag
 * Cyber maandag
 * 24-26 december
-* 1 januari
+* Januari 1
 * 31 december
 
 Deze feestdagen werden gekozen op basis van een uitgebreide statistische analyse van vele datapunten van klanten om vast te stellen welke vakanties het meest tot het hoogste aantal trends van klanten hebben beïnvloed. Hoewel de lijst zeker niet uitputtend voor alle klanten of bedrijfscycli is, ontdekten wij dat het toepassen van deze vakanties beduidend de prestaties van het algoritme over het algemeen voor bijna alle datasets van klanten verbeterde.
 
-Zodra het model is geselecteerd en de feestdagen zijn geïdentificeerd in de rapporteringsdatumwaaier, gaat het algoritme op de volgende manier te werk:
+Zodra het model is geselecteerd en de feestdagen zijn geïdentificeerd in de rapporteringsdatumreeks, gaat het algoritme op de volgende manier te werk:
 
 1. De afwijkende referentieperiode samenstellen - dit omvat 35 dagen vóór het bereik van de rapportagedatum en een periode van 1 jaar vóór de matchingdatum (rekening houdend met schrikkeldagen wanneer dat vereist is en met alle van toepassing zijnde feestdagen die zich op een andere kalenderdag van het voorgaande jaar kunnen hebben voorgedaan).
 1. Test of de feestdagen in de huidige periode (exclusief het voorafgaande jaar) op basis van de meest recente gegevens abnormaal zijn.
@@ -55,13 +57,13 @@ U ziet de dramatische verbetering van de prestaties op kerstdag en Nieuwjaarsdag
 
 ![](assets/anomaly_statistics.png)
 
-## Anomaly-detectie voor korrelvormigheid per uur {#section_014C9E9209AF43F8A03D5D46E3B3AEE7}
+## Anomalydetectie voor korrelvormigheid per uur {#section_014C9E9209AF43F8A03D5D46E3B3AEE7}
 
 Uurgegevens zijn gebaseerd op dezelfde tijdreeksalgoritmebenadering als het algoritme voor dagelijkse granulariteit. Zij is echter sterk afhankelijk van twee trendpatronen: de cyclus van 24 uur en de cyclus van weekenddagen. Om deze twee seizoenseffecten in aanmerking te nemen, bouwt het uuralgoritme twee afzonderlijke modellen voor een weekend en een weekdag volgens dezelfde hierboven beschreven aanpak.
 
 De trainingsvensters voor trends per uur zijn gebaseerd op een terugzoekvenster van 336 uur.
 
-## Anomalische detectie voor wekelijkse en maandelijkse granulariteiten {#section_5D421576BFBC4B24A58DFCC0A6407545}
+## Anomalische detectie voor wekelijkse en maandelijkse granulariteit {#section_5D421576BFBC4B24A58DFCC0A6407545}
 
 Wekelijks- en maandtrends vertonen niet dezelfde wekelijkse of dagelijkse trends die worden aangetroffen bij dagelijkse of uurmatige granulariteiten, zodat een dergelijk afzonderlijk algoritme wordt gebruikt. Voor elke week en elke maand wordt een tweestapsdetectieaanpak gebruikt, die bekend staat als de Gegeneraliseerde Extreme Studentized Deviate (GESD) test. Bij deze test wordt rekening gehouden met het maximumaantal verwachte anomalieën in combinatie met de aangepaste box-plot-aanpak (een niet-parametrische methode voor de detectie van uitbijters) om het maximumaantal uitschieters te bepalen. De twee stappen zijn:
 
