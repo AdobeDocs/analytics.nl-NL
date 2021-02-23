@@ -1,8 +1,8 @@
 ---
-source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '647'
 ht-degree: 4%
 
 ---
@@ -34,12 +34,12 @@ Gebruik deze pagina om elk toestemmingspunt onder de Hulpmiddelen van de Reeks v
 | Gebeurtenissen geslaagd | Hiermee krijgt u toegang tot Conversie > Gebeurtenissen met succes in rapportbeheer. |
 | Variabelen weergeven | Hiermee krijgt u toegang tot Conversie > Variabelen weergeven in Report Suite Manager. |
 | Standaardwaarden | Hiermee krijgt u toegang tot de afzonderlijke rapportsuite-instellingen > Standaardwaarden in Rapportsuite Manager. |
-| Verwerkingsregels | Hiermee krijgt u toegang tot Algemeen > Verwerkingsregels en Algemeen > Bot-regels in Rapportbeheer. |
+| Verwerkingsregels | Geeft toegang tot Algemeen > de Regels van de Verwerking en Algemeen > de Regels van de Bot in de Manager van de Reeks van het Rapport. |
 | Advertising Analytics-configuratie | Niet gebruikt. |
 | Anomaliedetectie | Biedt toegang tot Anomaly Detection in Analysis Workspace. |
 | Contributieanalyse | Hiermee krijgt u toegang tot het contextmenu &#39;Contributieanalyse uitvoeren&#39; in Analysis Workspace. |
 | Kanaalrapport | Hiermee krijgt u toegang tot het rapport Kanaaloverzicht in Rapporten en Analyses via de marketingkanalen. |
-| RealTime-rapport | Hiermee krijgt u toegang tot Sitemetriek > Real-time in Rapporten en Analytics. Gebruik het toestemmingspunt &quot;Echt - de Configuratie van het tijdRapport&quot;om toegang tot opstelling te verlenen dit rapport. |
+| RealTime-rapport | Hiermee krijgt u toegang tot Sitemetriek > Real-time in rapporten en analyses. Gebruik het toestemmingspunt &quot;Echt - de Configuratie van het tijdRapport&quot;om toegang tot opstelling te verlenen dit rapport. |
 | Beide pagina&#39;s | Hiermee krijgt u toegang tot Metrische gegevens van site > Bots > Rapport Bodempagina&#39;s in rapporten en analyses. |
 | Bots | Hiermee krijgt u toegang tot Sitemetriek > Bots > Bots-rapport in Rapporten en Analytics. |
 | Data feeds Manager | Hiermee krijgt u toegang tot Beheer > Gegevensfeeds in de bovenste navigatie Analytics. |
@@ -62,4 +62,4 @@ Gebruik deze pagina om elk toestemmingspunt onder de Hulpmiddelen van de Reeks v
 | Overzichtsrapport voor gebruik | Niet gebruikt. |
 | Webbronnen | Niet gebruikt. |
 | Sociaal | Niet gebruikt. |
-| API voor gegevensherstel | Biedt toegang tot de API voor gegevensherstel (toekomstige release) |
+| API voor gegevensherstel | Biedt toegang tot de API voor gegevensherstel |
