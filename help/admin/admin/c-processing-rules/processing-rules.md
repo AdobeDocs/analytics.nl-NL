@@ -5,7 +5,7 @@ title: Overzicht van verwerkingsregels
 topic: Beheerprogramma's
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
+source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 2%
@@ -62,4 +62,4 @@ De regels van de verwerking kunnen inkomende waarden controleren om gemeenschapp
 
 Zodra de variabelen van contextgegevens binnen uw implementatie worden bepaald, moeten zij aan variabelen zoals eVars worden gekopieerd om in rapportering te worden gebruikt.
 
-Zie [Een contextgegevensvariabele kopiëren naar een eVar](processing-rules-examples/processing-rules-copy-context-data.md) en [Een gebeurtenis instellen met een contextgegevensvariabele](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md) voor meer informatie.
+Zie [Een contextgegevensvariabele kopiëren naar een eVar](processing-rules-examples/processing-rules-copy-context-data.md) en [Een gebeurtenis instellen met een contextgegevensvariabele](processing-rules-examples/processing-rules-copy-context-data-event.md) voor meer informatie.
