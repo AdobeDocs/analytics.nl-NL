@@ -5,9 +5,9 @@ user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over het beheren van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
 translation-type: tm+mt
-source-git-commit: 35f0f3fb9a349b7fceb035be771ee462ec0799aa
+source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '734'
 ht-degree: 90%
 
 ---
@@ -176,7 +176,7 @@ ht-degree: 90%
       + [Toestemmingen voor dimensies aanpassen](user-management2/c-customize-report-access/groups-dimensions.md)
    + [E-mailgebruikers](user-management2/t-email-users.md)
 + Data Governance {#data-governance}
-   + [Overzicht Adobe Analytics en GDPR](c-data-governance/an-gdpr-overview.md)
+   + [Adobe Analytics en GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics en CCPA](c-data-governance/an-ccpa-overview.md)
    + [Vrijstelling van CNIL-toestemming](c-data-governance/cnil-consent-exemption.md)
    + [Veelgestelde vragen](c-data-governance/gdpr-faq.md)
