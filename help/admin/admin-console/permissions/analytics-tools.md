@@ -1,9 +1,9 @@
 ---
-source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '559'
-ht-degree: 3%
+source-wordcount: '547'
+ht-degree: 4%
 
 ---
 # Machtigingen voor productprofielen voor Analytics Tools
@@ -32,7 +32,7 @@ Met de machtigingsitems Analytics Tools hebt u toegang tot functies in Adobe Ana
 | Excel-gebruikers | Niet gebruikt. |
 | Activity Map | Hiermee krijgt u toegang tot Gereedschappen > Activity Map. Hiermee kan de gebruiker de extensie Activity Map gebruiken. |
 | Huidige data | Hiermee schakelt u de optie in om de huidige gegevens in rapporten en analyses weer te geven. |
-| Ad Hoc Analysis-licentiegebruikers | Hiermee schakelt u de downloadknop in onder Opties > Ad Hoc Analysis en kan de gebruiker het programma verifiëren. Zie [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
+| Ad Hoc Analysis-licentiegebruikers | Ad Hoc Analysis is aan het einde van zijn levensduur. Zie [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
 | Mobiele toepassingsbeheerder | Niet gebruikt. |
 | Webservicetoegang | Biedt de mogelijkheid om de API te gebruiken, inclusief verificatie met sites van derden en het verzenden van API-aanroepen. |
 | Report Builder | Hiermee schakelt u de downloadknop in onder Extra > Report Builder en kan de gebruiker in Microsoft Excel verifiëren. |
