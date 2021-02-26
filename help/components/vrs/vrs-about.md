@@ -1,18 +1,21 @@
 ---
-description: Virtuele rapportsuites segmenteren uw gegevens van de Analyse van Adobe zodat kunt u toegang tot elk segment controleren.
-title: Overzicht van virtuele-rapportsuites
+description: De virtuele rapportreeksen segmenteren uw gegevens van Adobe Analytics zodat kunt u toegang tot elk segment controleren.
+title: Overzicht van virtuele rapportsuites
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 2%
 
 ---
 
 
-# Overzicht van virtuele-rapportsuites
+# Overzicht van virtuele rapportsuites
 
-Virtuele rapportsuites segmenteren uw gegevens van de Analyse van Adobe zodat kunt u toegang tot elk segment controleren.
+De virtuele rapportreeksen segmenteren uw gegevens van Adobe Analytics zodat kunt u toegang tot elk segment controleren.
 
-Vele klanten hebben gegevens die in een globaal rapportpakket stromen, maar ook gegevens die in kleinere rapportseries stromen. Zij plaatsen een variabele aan veelvoudige rapportreeksen, en verzenden hun gegevens naar meer dan één rapportreeks. Dit wordt bedoeld als *multisuite het etiketteren*, of *basis/ouderrapportsuites*.
+Vele klanten hebben gegevens die in een globaal rapportpakket stromen, maar ook gegevens die in kleinere rapportseries stromen. Zij plaatsen een variabele aan veelvoudige rapportreeksen, en verzenden hun gegevens naar meer dan één rapportreeks. Dit wordt bedoeld als *multisuite tagging*, of *basis/ouderrapportsuites*.
 
 Bijvoorbeeld, zouden alle gegevens in één rapportreeks kunnen worden verzameld, maar dan kunt u de secundaire rapportreeksen opzetten zodat andere mensen in uw bedrijf toegang tot een deel van de gegevens hebben, maar niet allen. De gegevens kunnen per gebied worden verdeeld. U hebt mogelijk verschillende websites voor verschillende landen. Andere voorbeelden kunnen specifieke merken zijn die tot een groter bedrijf behoren, maar die elk hun eigen marketing teams hebben.
 
@@ -30,7 +33,7 @@ De klanten betalen voor secundaire servervraag, zodat kan het elimineren van dez
 
 Virtuele rapportensuites helpen:
 
-* Vereenvoudig implementatie door u toe te staan om één enkele identiteitskaart van de Reeks van het Rapport (RSID) over alle plaatsen/domeinen te gebruiken. Als alle gegevens in één rapportenpakket zijn opgenomen, kunnen klanten analyses uitvoeren terwijl we de volgende generatie Adobe Analytics uitvoeren.
+* Vereenvoudig implementatie door u toe te staan om één enkele identiteitskaart van de Reeks van het Rapport (RSID) over alle plaatsen/domeinen te gebruiken. Als alle gegevens in één rapportenpakket zijn opgenomen, kunnen klanten analyses uitvoeren terwijl we de volgende generatie van Adobe Analytics naderen.
 * Zakelijke gebruikers in uw organisatie zien altijd alleen de gegevenssegmenten die voor hen relevant zijn.
 * Verbeter veiligheid door Admin gebruikers toe te staan om gegevenstoegang gemakkelijker en korter na implementatie te controleren.
 * De mogelijkheid bieden om deel te nemen aan Device Co-op
@@ -48,18 +51,18 @@ Virtuele rapportsuites hebben de volgende beperkingen:
 * Rapport in realtime
 * Instellingen en variabelenamen kunnen niet worden aangepast, zoals in een volledige rapportsuite
 
-## Virtuele rapportsuite versus meerdere suite-tags {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Virtual Report Suites vs. Multisuite Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Capaciteit | Virtuele rapportsuite | Meerdere versies taggen |
 |--- |--- |--- |
 | Biedt real-time of &quot;Current Data&quot;-rapportage | Nee | Ja |
-| Werkt in alle analysegereedschappen (Analyse-werkruimte, Report Builder, Ad hoc-analyse, enz.) | Ja.   Opmerking:  U kunt deze alleen in Rapporten en Analyse bewerken en identificeren als virtuele-rapportsuite. Nochtans, kunt u hen in de drop-down van de rapportreeks in de andere hulpmiddelen selecteren. | Ja |
+| Werkt in alle analysegereedschappen (Analysis Workspace, Report Builder, enz.) | Ja. **Opmerking:** u kunt deze alleen in Rapporten en Analyse bewerken en identificeren als virtuele rapportsuite. Nochtans, kunt u hen in de drop-down van de rapportreeks in de andere hulpmiddelen selecteren. | Ja |
 | Kan gegevens uploaden (via classificaties, gegevensfeeds, enz.) | Nee | Ja |
 | Ondersteunt het maken van DL-rapporten, bladwijzers, dashboards, doelen, waarschuwingen, segmenten, berekende metriek... | Ja | Ja |
 | Kan afzonderlijk worden toegevoegd aan machtigingengroepen | Ja | Ja |
 | Kan Admin-functies gebruiken om de afzonderlijke instellingen in dit rapportpakket te wijzigen (Admin > Rapportagesuites) | Nee (instellingen worden overgenomen van bovenliggend item) | Ja |
 
-## Virtuele rapportsets combineren en meerdere suite-tags toepassen {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## Virtuele rapportsets combineren en meerdere suite-tags {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
 In sommige gevallen zijn er voordelen verbonden aan zowel het gebruik van virtuele rapportsuites als het gebruik van tags met meerdere suite.
 
