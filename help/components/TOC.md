@@ -5,10 +5,10 @@ user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: De hulp organiseert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, en alarm.
 translation-type: tm+mt
-source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 55%
+source-wordcount: '637'
+ht-degree: 54%
 
 ---
 
@@ -168,7 +168,6 @@ ht-degree: 55%
       + [Problemen oplossen](segmentation/seg-reference/c-troubleshooting.md)
    + [Veelgestelde vragen](segmentation/seg-transition.md)
    + [Best practices](segmentation/best-practices.md)
-   + [Overgangshandleiding voor Ad Hoc Analysis](segmentation/seg-transition-ad-hoc.md)
 + Berekende statistieken {#calculated-metrics}
    + [Berekende en Geavanceerde berekende (Afgeleide) Metriek](c-calcmetrics/cm-overview.md)
    + [Veelgestelde vragen](c-calcmetrics/cm-transition.md)
@@ -224,7 +223,7 @@ ht-degree: 55%
    + [Intelligente waarschuwingen - gebruiksscenario&#39;s](c-alerts/alerts-use-cases.md)
 + Classificaties {#classifications}
    + [Overzicht van classificaties](classifications/c-classifications.md)
-   + Invoerder van classificaties {#classifications-importer}
+   + Indelingsimporteur {#classifications-importer}
       + [Importeren van classificaties - overzicht](classifications/importer/c-working-with-saint.md)
       + [Classificatiedatabestanden](classifications/importer/c-saint-data-files.md)
       + [Classificatiedata verwijderen](classifications/importer/t-delete-classification-data.md)
