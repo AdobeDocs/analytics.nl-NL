@@ -1,12 +1,12 @@
 ---
 description: Met deze functie kunt u de rapportmenu's aanpassen die een gebruiker in Rapporten & Analytics ziet. U kunt rapporten tonen of verbergen, evenals hen bewegen in verschillende omslagen over alle gebruikers. Deze functie is vooral handig als uw organisatie alleen bepaalde rapporten gebruikt en het menu aan de linkerkant niet wilt verwarren met ongebruikte of irrelevante gegevens.
 title: Menu aanpassen
-topic: Admin tools
+topic: Beheerprogramma's
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De menuwijzigingen gelden voor alle gebruikers die toegang krijgen tot de rappor
 
 >[!NOTE]
 >
->Elke wijziging in de menustructuur heeft geen invloed op de rapportbouwer en Ad hoc analysis. Het anders noemen van een rapport, echter, zal in beide hulpmiddelen worden weerspiegeld.
+>Wijzigingen in de menustructuur hebben geen invloed op Report Builder. Het anders noemen van een rapport zal, echter, in dit hulpmiddel worden weerspiegeld.
 
 ## Aanpassingsbeschrijvingen menu {#section_B0D224DACB914A378902A4E0E1234889}
 
