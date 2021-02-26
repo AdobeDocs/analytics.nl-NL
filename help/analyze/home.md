@@ -2,10 +2,10 @@
 title: Handleiding Analytics-tools
 description: Productdocumentatie en zelfhulp voor Analysis Workspace, Adobe Analytics-dashboards, Activity Map, Report Builder, API voor rapportage en rapporten en analyse.
 translation-type: tm+mt
-source-git-commit: 378a1e8899722ce558677fdf2d57070d1a7ff965
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 73%
+source-wordcount: '222'
+ht-degree: 76%
 
 ---
 
@@ -22,7 +22,6 @@ Deze handleiding bevat productdocumentatie en zelfhulp voor de volgende rapporta
 * **[!UICONTROL Report Builder]:** Een Excel-plug-in waarmee u de data van Analytics kunt ophalen en direct in een werkmap kunt zetten.
 * **[!UICONTROL Reporting API]:** Stuur rapportquery’s rechtstreeks naar de servers van Adobe, en ontvang reacties voor gebruik in uw eigen klantrapportagetools.
 * **[!UICONTROL Reports & Analytics]:** Een tool met tientallen vooraf gemaakte rapporten. Adobe raadt u aan Analysis Workspace te gebruiken voor de meeste rapportageactiviteiten.
-* **[!UICONTROL Ad Hoc Analysis]:** Een zelfstandige Java-applicatie met krachtige rapportagemogelijkheden. Dit gereedschap is niet meer bijgewerkt en wordt op 1 [maart 2021](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)beëindigd.
 
 ## Belangrijke artikelen over Analytics-tools
 
