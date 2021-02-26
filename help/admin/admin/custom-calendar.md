@@ -1,12 +1,12 @@
 ---
 description: Kalenderopties in een ander model dan het Gregoriaanse model. De opties omvatten de 4-4-5, 4-5-4, en 5-4-4 kalendermodellen, die allen als normen voor de kleinhandelsindustrie worden gebruikt. Daarnaast biedt rapportage een optie voor een volledig aanpasbare kalender die u zelf kunt instellen.
 title: Kalender aanpassen
-topic: Admin tools
+topic: Beheerprogramma's
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Kalenderopties in een ander model dan het Gregoriaanse model. De opties omvatten de 4-4-5, 4-5-4, en 5-4-4 kalendermodellen, die allen als normen voor de kleinhandelsindustrie worden gebruikt. Daarnaast biedt rapportage een optie voor een volledig aanpasbare kalender die u zelf kunt instellen.
 
-**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer een rapportsuite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Customize Calendar]**
+**[!UICONTROL Admin]** >  **[!UICONTROL Report Suites]** > Kies een rapportsuite >  **[!UICONTROL Edit Settings]** >  **[!UICONTROL General]** >  **[!UICONTROL Customize Calendar]**
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ U kunt de kalender gebruiken om de eerste dag van de week en het jaar te bepalen
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: januari heeft vier weken, februari heeft vijf weken, maart heeft vier weken, enzovoort. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: Januari heeft vier weken, februari heeft vier weken, maart heeft vijf weken, enzovoort. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-4-4</b>: Januari heeft vijf weken, februari heeft vier weken, maart heeft vier weken, enzovoort. </li> 
-    </ul> <p>Opmerking:  Deze kalenderoptie wordt ondersteund door alle Adobe Analytics-programma's (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map, Ad Hoc Analysis), behalve Data Warehouse, die geen aangepaste kalenders ondersteunt. </p> </td> 
+    </ul> <p>Opmerking:  Deze kalenderoptie wordt ondersteund door alle Adobe Analytics-programma's (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map), behalve Data Warehouse, dat geen aangepaste kalenders ondersteunt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
