@@ -1,8 +1,11 @@
 ---
-description: Veelgestelde vragen over werkruimte
+description: Veelgestelde vragen over Workspace
 title: Veelgestelde vragen en werkruimte voor probleemoplossing
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 45%
 
 ---
 
@@ -11,27 +14,26 @@ source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
 
 | Vraag | Antwoord |
 |--- |--- |
-| Wat zijn de eerste vereisten voor het gebruiken van de Werkruimte van de Analyse? | [Gegevens naar Adobe Analytics verzenden met Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md): Het gebruiken van de Werkruimte van de Analyse vereist een werkende implementatie. Zorg ervoor dat uw organisatie gegevens naar Adobe verzendt voordat u het hulpprogramma gebruikt. Andere implementaties, zoals DTM of oudere handmatige implementaties, kunnen ook werken. |
-| Wat zijn het Beleid en de toegangseisen voor de Werkruimte van de Analyse? | Zie [Beheervereisten](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
-| Zal het gebruiken van de Werkruimte van de Analyse gegevensinzameling beïnvloeden? | Aangezien de Werkruimte van de Analyse een rapporteringshulpmiddel is, heeft het geen invloed op gegevensinzameling. Er zijn geen gevolgen om zonder onderscheid componenten naar een project te slepen om te zien wat werkt. Sleep verschillende combinaties van dimensies en metriek in uw werkruimteproject om te zien wat beschikbaar aan u is. Als u per ongeluk een ongeldige component naar uw werkruimteproject sleept of een stap wilt terugkeren, drukt u op ctrl+Z (Windows) of cmd+Z (Mac) om de laatste uitgevoerde actie ongedaan te maken. U kunt ook met een schone lei beginnen door op *[!UICONTROL Project][!UICONTROL New]*> in het menu linksboven te klikken. |
-| Hoeveel rapportsuites kunnen in een project van de Werkruimte van de Analyse worden getoond? | U kunt projecten in de Werkruimte van de Analyse met gegevens van meer [veelvoudige rapportreeksen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)nu tot stand brengen. |
-| Hoe implementeert u de analysewerkruimte? | Er is geen speciale implementatie vereist. De analysewerkruimte is beschikbaar voor alle bedrijven met Analytics Standard of Premium. Nochtans, zijn de standaardtoestemmingen op inhoud (zoals rapportsuites en projectcomponenten) van toepassing, en voor het leiden en het delen van projecten. Zie [Beheer en Toegangsvereisten](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
-| Wijzigt de vooraf geconfigureerde rapporten in Adobe Analytics in de analysewerkruimte? | Nee. Omdat dit een aparte omgeving is, zijn er geen wijzigingen in uw bestaande of vooraf geconfigureerde rapporten in Adobe Analytics. U kunt nog standaardrapporten &amp; Analytics en de rapporten van de Bouwer van het Rapport gebruiken gebruikend de Werkruimte van de Analyse. |
-| Kan ik de Werkruimte van de Analyse voor het Warehouse van Gegevens gebruiken? | De Werkruimte van de analyse wordt niet geadviseerd voor bulkgegevensuitvoer. Het is een visualisatiewerkruimte die dashboardachtige analyseprojecten maakt. |
-| Hoe kan ik prestaties van de Werkruimte van de Analyse optimaliseren? | Zie [Prestaties](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)optimaliseren. |
-| Hoe vergelijken de mogelijkheden van de Werkruimte van de Analyse met Ad hoc Analyse? | Zie [Analyse van werkruimte vergeleken met ad hoc Analyse](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md). |
+| Wat zijn de eerste vereisten voor het gebruik van Analysis Workspace? | [Data naar Adobe Analytics verzenden met Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md): voor het gebruik van Analysis Workspace is een werkende implementatie vereist. Zorg dat uw organisatie data naar Adobe verzendt voordat u de tool gebruikt. Andere implementaties, zoals DTM of verouderde handmatige implementaties, kunnen ook werken. |
+| Wat zijn de vereisten inzake beheer en toegang voor Analysis Workspace? | Zie [Beheervereisten](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
+| Heeft het gebruik van Analysis Workspace invloed op gegevensverzameling? | Aangezien Analysis Workspace een rapportagetool is, heeft de tool geen invloed op de dataverzameling. U kunt componenten lukraak naar een project slepen om te zien wat er gebeurt, zonder negatieve gevolgen. Sleep verschillende combinaties van dimensies en metrics naar uw Workspace-project om te zien wat er beschikbaar is. Als u per ongeluk een ongeldige component naar uw Workspace-project sleept of een stap terug wilt gaan, drukt u op Ctrl + Z (Windows) of Cmd + Z (Mac) om de laatste uitgevoerde actie ongedaan te maken. U kunt ook met een schone lei beginnen door in het menu linksboven te klikken op *[!UICONTROL Project] > [!UICONTROL New]*. |
+| Hoeveel rapportsuites kunnen in een project van Analysis Workspace worden getoond? | U kunt projecten in Analysis Workspace met gegevens van meer [veelvoudige rapportreeksen](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) nu tot stand brengen. |
+| Hoe implementeert u Analysis Workspace? | Er is geen speciale implementatie vereist. Analysis Workspace is beschikbaar voor alle bedrijven met Analytics Standard of Premium. Nochtans, zijn de standaardtoestemmingen op inhoud (zoals rapportsuites en projectcomponenten) van toepassing, en voor het leiden en het delen van projecten. Zie [Vereisten voor beheer en toegang](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
+| Wijzigt Analysis Workspace vooraf geconfigureerde rapporten in Adobe Analytics? | Nee. Omdat dit een afzonderlijke omgeving is, zijn er geen wijzigingen in uw bestaande of vooraf geconfigureerde rapporten in Adobe Analytics. Met Analysis Workspace kunt u nog steeds standaardrapporten en -analyses en -rapporten gebruiken. |
+| Mag ik Analysis Workspace gebruiken voor Data Warehouse? | Analysis Workspace wordt niet aanbevolen voor het exporteren van bulkgegevens. Het is een visualisatiewerkruimte die dashboardachtige analyseprojecten maakt. |
+| Hoe kan ik de prestaties van Analysis Workspace optimaliseren? | Zie [Prestaties optimaliseren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 
 ## Problemen oplossen
 
-**Wanneer ik metrisch over sleep, zegt het &quot;Ongeldige gegevens&quot;.**
+**Wanneer ik een metric sleep, zie ik het bericht &quot;Ongeldige data&quot;.**
 
-Ongeldige gegevens betekenen dat Adobe geen gegevens kan retourneren met de combinatie van afmetingen en metriek die in het rapport wordt gebruikt. Twee metriek die bijvoorbeeld boven op elkaar zijn gestapeld, kunnen niet als gegevens worden geretourneerd, omdat er geen manier is om twee metriek op die manier weer te geven. Plaats de metriek in plaats daarvan naast elkaar.
+De melding &quot;Ongeldige data&quot; betekent dat Adobe geen data kan retourneren met de combinatie van dimensies en metrics die in het rapport wordt gebruikt. Zo kunnen twee metrics die boven op elkaar zijn gestapeld, niet als data worden geretourneerd, omdat er geen manier is om twee metrics op die manier weer te geven. Plaats de metriek in plaats daarvan naast elkaar.
 
-**Wanneer ik metrisch over sleep, zie ik geen daadwerkelijke gegevens - enkel nul.**
+**Wanneer ik een metric sleep, zie ik geen echte data - alleen maar nullen.**
 
 Als u een werkruimterapport hebt gemaakt maar er geen gegevens zijn, kunt u een aantal dingen controleren:
 
 * Controleer de rapportreeks tweemaal en zorg ervoor het met gegevens wordt bevolkt.
-* Als u een segment in uw rapport toepaste, zouden de segmentcriteria geen gegevens kunnen aanpassen. Probeer het segment te verwijderen of de segmentdefinitie aan te passen.
+* Als u een segment in uw rapport toepaste, zouden de segmentcriteria geen gegevens kunnen aanpassen. Verwijder het segment of pas de segmentdefinitie aan.
 * Controleer de datumwaaier in de hogere juiste hoek en zorg ervoor het aan een waarde wordt geplaatst die u zou verwachten.
-* Navigeer naar uw website en gebruik [Foutopsporing](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) om te controleren of er gegevens worden verzameld.
+* Navigeer naar uw website en gebruik [Foutopsporing](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) om te controleren of de gegevens worden verzameld.
