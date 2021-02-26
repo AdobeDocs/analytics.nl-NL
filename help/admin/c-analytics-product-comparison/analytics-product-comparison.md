@@ -1,10 +1,10 @@
 ---
-description: Systeemvereisten en een vergelijking van Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse en Data Workbench
+description: Systeemvereisten en een vergelijking van Analysis Workspace, Reports & Analytics, Report Builder, Data Warehouse en Data Workbench
 title: Analytics-productvergelijking en -vereisten
 translation-type: tm+mt
-source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '429'
 ht-degree: 39%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 39%
 
 Deze pagina bevat een vergelijking van verschillende Adobe Analytics-producten: Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds en Analytics API 2.0.
 
-Ga [hier](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)voor meer informatie over welk Adobe Analytics-product u wilt gebruiken.
+Ga [hier](/help/admin/c-analytics-product-comparison/which-analytics-tool.md) voor meer informatie over het Adobe Analytics-product dat u wilt gebruiken.
 
 | Productnaam en Help-koppeling | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Rapporten en analyses](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) | [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analyse API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
@@ -22,7 +22,7 @@ Ga [hier](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)voo
 | **Korreligheid gegevens** | Samengevoegd | Samengevoegd | Samengevoegd | Samengevoegd | Actief | Actief | Samengevoegd |
 | **Experience Cloud-id (ECID) beschikbaar** | Nee | Nee | Nee | Ja | Ja | Ja | Nee |
 | **Tijdstempel beschikbaar** | Nee | Nee | Nee | Nee | Ja | Ja | Nee |
-| **Niveau van verwerking** | Volledig verwerkt | Volledig verwerkt, met apart [real-time rapport](/help/components/c-real-time-reporting/realtime.md) | Volledig verwerkt, met apart [real-time rapport](/help/components/c-real-time-reporting/realtime.md) | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt |
+| **Niveau van verwerking** | Volledig verwerkt | Volledig verwerkt, met afzonderlijk [real-time rapport](/help/components/c-real-time-reporting/realtime.md) | Volledig verwerkt, met afzonderlijk [real-time rapport](/help/components/c-real-time-reporting/realtime.md) | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt |
 | **Gegevens van het filter Admin bot inbegrepen** <br> [Meer informatie](/help/admin/admin/bot-removal/bot-removal.md) | Nee | Ja, afzonderlijke beide rapporten | Ja, afzonderlijke beide rapporten | Nee | Nee | Nee | Nee |
 | **Laag verkeer (Uniques overschreden) verschijnt** <br> [Meer informatie](/help/technotes/low-traffic.md) | Ja | Ja | Ja | Nee | Nee | Nee | Ja |
 | **Zichtbare rijlimiet (vóór paginering)** | 400 | 200 | 50000 | Onbeperkt | Onbeperkt | Onbeperkt | 50000 |
