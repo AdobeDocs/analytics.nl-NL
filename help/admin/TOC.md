@@ -5,9 +5,9 @@ user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over het beheren van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
 translation-type: tm+mt
-source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '727'
 ht-degree: 90%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 90%
    + [Uitsluiten op IP-adres](admin/exclude-ip.md)
    + [Methoden zoeken](admin/finding-methods.md)
    + [Algemene accountinstellingen](admin/general-acct-settings-admin.md)
-   + [Groepsbeheer](admin/group.md)
    + [Interne URL-filters](admin/internal-url-filter-admin.md)
    + [Logboeken](admin/logs.md)
    + [Marketingkanalen](admin/marketing-channels-admin.md)
@@ -164,7 +163,6 @@ ht-degree: 90%
          + [Analytics-gebruikersaccounts voor Enterprise en Federated ID’s migreren](user-management2/user-migration/migrate-enterprise.md)
          + [Verouderde logins uitschakelen](user-management2/user-migration/t-disable-legacy-login.md)
          + [API&#39;s die door de migratie worden beïnvloed](user-management2/user-migration/developer.md)
-      + [Ad Hoc Analysis-gebruikers beheren](user-management2/c-user-management/t-manage-dsc-users-admin.md)
    + Gebruikersgroepen {#user-groups}
       + [Een gebruikersgroep toevoegen](user-management2/c-user-groups/t-user-group.md)
       + [Gebruikersgroepsinstellingen](user-management2/c-user-groups/groups.md)
