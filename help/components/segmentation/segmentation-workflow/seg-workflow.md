@@ -1,12 +1,12 @@
 ---
 description: Beschrijft een gesuggereerde werkschema voor segmenten die met de Bouwer van het Segment worden gecreeerd en door de Manager van het Segment worden geleid.
 title: Overzicht van de segmentatieworkflow
-topic: Segments
+topic: Segmenten
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '241'
 ht-degree: 2%
 
 ---
@@ -35,11 +35,11 @@ Zie Controlelijst voor segmentplanning voor hulp bij het plannen en ordenen van 
 
 Maak en bewerk segmenten voor gebruik in alle analysemogelijkheden.
 
-Zie [Opeenvolgende Segmenten](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) bouwen voor hoe te om segmenten met de exploitant te bouwen THEN.
+Zie [Sequentiële segmenten maken](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) voor het bouwen van segmenten met de operator THEN.
 
 ![](assets/step3_icon.png) [ Segmenten labelen](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
-Segmenten labelen voor eenvoudige organisatie en delen. Bij ad-hocanalyse worden maphiërarchieën vervangen door tags. Zie hoe u labels kunt plannen en toewijzen voor eenvoudige en geavanceerde zoekopdrachten en organisatie.
+Segmenten labelen voor eenvoudige organisatie en delen. Zie hoe u labels kunt plannen en toewijzen voor eenvoudige en geavanceerde zoekopdrachten en organisatie.
 
 ![](assets/step4_icon.png) [ Segmenten goedkeuren](/help/components/segmentation/segmentation-workflow/seg-approve.md)
 
