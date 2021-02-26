@@ -1,12 +1,12 @@
 ---
 description: Met segmenten kunt u subsets bezoekers identificeren op basis van kenmerken of interacties op de website. De segmenten worden ontworpen als gecodificeerde publieksinzichten die u voor uw specifieke behoeften kunt bouwen, en dan verifiëren, uitgeven, en delen met andere teamleden of gebruik in andere producten van de Adobe en de mogelijkheden van de Analyse.
 title: Informatie over segmenten en containers
-topic: Segments
+topic: Segmenten
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3676'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Met segmenten kunt u subsets bezoekers identificeren op basis van kenmerken of interacties op de website. De segmenten worden ontworpen als gecodificeerde publieksinzichten die u voor uw specifieke behoeften kunt bouwen, en dan verifiëren, uitgeven, en delen met andere teamleden of gebruik in andere producten van de Adobe en de mogelijkheden van de Analyse.
 
-De segmenten zijn gebaseerd op een [!UICONTROL Visitor], [!UICONTROL Visit] en [!UICONTROL Hit] niveauhiërarchie gebruikend een genestelde containermodel. Met de geneste containers kunt u bezoekerskenmerken en handelingen definiëren op basis van regels tussen en binnen de containers. De segmenten van de Analytics kunnen worden gebouwd, worden goedgekeurd, worden gedeeld, worden bewaard, en over veelvoudige producten en mogelijkheden in [!DNL Adobe Experience Cloud]de lopen. De segmenten kunnen van een rapport worden geproduceerd, in een dashboardrapport worden ingebouwd, of worden bookmarked voor snelle toegang.
+Segmenten zijn gebaseerd op een [!UICONTROL Visitor]-, [!UICONTROL Visit]- en [!UICONTROL Hit]-niveauhiërarchie met behulp van een genest containermodel. Met de geneste containers kunt u bezoekerskenmerken en handelingen definiëren op basis van regels tussen en binnen de containers. De segmenten van Analytics kunnen worden gebouwd, worden goedgekeurd, worden gedeeld, worden bewaard, en over veelvoudige producten en mogelijkheden in [!DNL Adobe Experience Cloud] lopen. De segmenten kunnen van een rapport worden geproduceerd, in een dashboardrapport worden ingebouwd, of worden bookmarked voor snelle toegang.
 
-U kunt segmenten bouwen en bewaren in de Bouwer van het Segment, of segmenten van een rapport van de Vallout (in [!DNL ad hoc analysis]) produceren. U kunt ook vooraf gebouwde segmenten op basis van specifieke regels tussen geneste containers gebruiken en uitbreiden, zodat u resultaten kunt filteren en op rapporten kunt toepassen. Daarnaast kunnen segmenten samen worden gebruikt als [gestapelde segmenten](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+U kunt segmenten bouwen en bewaren in de Bouwer van het Segment, of segmenten van een rapport van de Vallout produceren (in  Analysis Workspace). U kunt ook vooraf gebouwde segmenten op basis van specifieke regels tussen geneste containers gebruiken en uitbreiden, zodat u resultaten kunt filteren en op rapporten kunt toepassen. Daarnaast kunnen segmenten samen worden gebruikt als [gestapelde segmenten](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Segmenten {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -33,15 +33,15 @@ Segmenten kunnen op de volgende waarden worden gebaseerd:
 * Bezoekers op basis van uitgangen en binnenkomsten: bezoekers van Facebook, een gedefinieerde bestemmingspagina, verwijzend domein.
 * Bezoekers op basis van aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id.
 
-Wanneer het bouwen van publiekssegmenten in de Bouwer van het Segment, bepaalt u voorwaarden gebruikend de [!UICONTROL AND] en [!UICONTROL OR] exploitanten tussen containers.
+Wanneer het bouwen van publiekssegmenten in de Bouwer van het Segment, bepaalt u voorwaarden gebruikend [!UICONTROL AND] en [!UICONTROL OR] exploitanten tussen containers.
 
 ![](assets/standard_segment_containers.png)
 
-Dit type van segmentfilters gegevensreeksen die op eigenschappen worden gebaseerd die met de [!UICONTROL AND] en [!UICONTROL OR] exploitanten worden verbonden.
+Dit type van segmentfilters gegevensreeksen die op kenmerken worden gebaseerd die met de [!UICONTROL AND] en [!UICONTROL OR] exploitanten worden verbonden.
 
 ## Opeenvolgende segmenten {#section_EE5B14287FC44E0B96E77679A2438948}
 
-Met opeenvolgende segmenten kunt u bezoekers identificeren op basis van navigatie en paginaweergave op uw site. Zo kunt u een segment van gedefinieerde handelingen en interacties opgeven. Met behulp van opeenvolgende segmenten kunt u bepalen wat een bezoeker leuk vindt en wat een bezoeker vermijdt. Wanneer het bouw van opeenvolgende segmenten, wordt de [!UICONTROL THEN] exploitant gebruikt om bezoekersnavigatie te bepalen en te ordenen.
+Met opeenvolgende segmenten kunt u bezoekers identificeren op basis van navigatie en paginaweergave op uw site. Zo kunt u een segment van gedefinieerde handelingen en interacties opgeven. Met behulp van opeenvolgende segmenten kunt u bepalen wat een bezoeker leuk vindt en wat een bezoeker vermijdt. Bij het bouwen van opeenvolgende segmenten wordt de [!UICONTROL THEN] operator gebruikt om bezoekersnavigatie te definiëren en te bestellen.
 
 ![](assets/sequential_seg.png)
 
@@ -56,17 +56,17 @@ De opeenvolgende segmenten kunnen op de volgende klapwaarden worden gebaseerd:
 
 ![](assets/sequential_segmentation_containers_view.png)
 
-Een opeenvolgend segment filtert gegevensreeksen die op gebruikersacties gebruikend de [!UICONTROL THEN] exploitant worden gebaseerd.
+Een opeenvolgend segment filtert gegevensreeksen die op gebruikersacties worden gebaseerd gebruikend de [!UICONTROL THEN] exploitant.
 
 ## Hoe kan ik-video {#section_89D6184890AF4086A8056BFBB0B68C29}
 
 In deze video ziet u een kort overzicht van de containers voor segmenten en hoe u deze kunt gebruiken: [Containers voor segmenten in Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
-## Over containers {#section_AF2A28BE92474DB386AE85743C71B2D6}
+## Informatie over containers {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
 Een segment stelt voorwaarden in om een bezoeker te filteren op basis van zijn of haar kenmerken of interacties met uw site. Als u voorwaarden in een segment wilt instellen, stelt u regels in om bezoekers te filteren op basis van bezoekerskenmerken en/of navigatiekenmerken. Als u bezoekersgegevens verder wilt onderverdelen, kunt u filteren op basis van specifieke bezoeken en/of toeschouwers in de paginaweergave voor elke bezoeker. De Bouwer van het Segment verstrekt een eenvoudige architectuur om deze subsets te bouwen en regels als genestelde, hiërarchische Bezoeker, Bezoek, of de containers van het Actief toe te passen.
 
-De containerarchitectuur die in de Bouwer van het Segment wordt gebruikt bepaalt **[!UICONTROL Visitor]** als buitenste container, die overkoepelende gegevens specifiek voor de bezoeker over bezoeken en paginameningen bevat. Met een geneste **[!UICONTROL Visit]** container kunt u regels instellen om de gegevens van de bezoeker op basis van bezoeken te splitsen. Met een geneste **[!UICONTROL Hit]** container kunt u bezoekersgegevens onderbreken op basis van afzonderlijke paginaweergaven. Met elke container kunt u de geschiedenis van een bezoeker doorlopen, interacties splitsen op bezoeken of afzonderlijke treffers splitsen.
+De containerarchitectuur die in de Bouwer van het Segment wordt gebruikt bepaalt **[!UICONTROL Visitor]** als buitenste container, die overkoepelende gegevens specifiek voor de bezoeker over bezoeken en paginameningen bevat. Met een geneste **[!UICONTROL Visit]**-container kunt u regels instellen om de gegevens van de bezoeker op basis van bezoeken af te splitsen. Met een geneste **[!UICONTROL Hit]**-container kunt u bezoekersinformatie afsplitsen op basis van afzonderlijke paginaweergaven. Met elke container kunt u de geschiedenis van een bezoeker doorlopen, interacties splitsen op bezoeken of afzonderlijke treffers splitsen.
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
 
@@ -109,9 +109,9 @@ Actief containers bevatten op één pagina gebaseerde waarden:
 
 **Container voor logische groep**
 
-Met de container van de Logische Groep kunt u een afzonderlijke container binnen de segmentregels verstrekken om entiteiten te filteren die niet op hiërarchie worden gebaseerd. U kunt bijvoorbeeld een container toevoegen die in het segment is genest en die filters toepast op basis van de bezoeker. Voor dit type logica moet u de hiërarchie afbreken (aangezien u al een container op hoofdniveau van de Bezoeker hebt) om alleen voor geselecteerde bezoekers te filteren. Dit kan worden verwezenlijkt gebruikend de container van de Logische Groep. Zie [Voorbeelden](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) van de Logische Groep voor extra informatie.
+Met de container van de Logische Groep kunt u een afzonderlijke container binnen de segmentregels verstrekken om entiteiten te filteren die niet op hiërarchie worden gebaseerd. U kunt bijvoorbeeld een container toevoegen die in het segment is genest en die filters toepast op basis van de bezoeker. Voor dit type logica moet u de hiërarchie afbreken (aangezien u al een container op hoofdniveau van de Bezoeker hebt) om alleen voor geselecteerde bezoekers te filteren. Dit kan worden verwezenlijkt gebruikend de container van de Logische Groep. Zie [Voorbeelden van logische groepen](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) voor aanvullende informatie.
 
-## Nesten van containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
+## Containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70} nesten
 
 Wanneer u segmentcontainers maakt in andere containers, maakt u in wezen een segment binnen een segment. De volgende logica wordt gebruikt bij geneste containers:
 
@@ -146,21 +146,21 @@ bouwt een segment dat zich in deze volgorde gedraagt:
 
 ## Containers voor opeenvolgende segmenten {#section_324AF503F51A4A62806151FE440F3B2E}
 
-De opeenvolgende segmentatie maakt gebruik van dezelfde hiërarchisch geneste basiscontainers, inclusief [!UICONTROL Visitors], [!UICONTROL Visits]en [!UICONTROL Hits] (inclusief paginaweergaven of andere dimensies).
+De opeenvolgende segmentatie gebruikt de zelfde basiscontainers, met inbegrip van [!UICONTROL Visitors], [!UICONTROL Visits], en [!UICONTROL Hits] (met inbegrip van paginameningen of andere dimensies) hiërarchisch genestelde.
 
 ![](assets/nesting_container.png)
 
-[!UICONTROL Visitors] vormen de container met de hoogste orde in opeenvolgende segmentatie, met [!UICONTROL Visits] daarin de [!UICONTROL Visitors] container, en [!UICONTROL Hits] bevinden zich in de [!UICONTROL Visitors] container of de [!UICONTROL Visits] container. Deze [containerhiërarchie](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) moet worden gehandhaafd om goed geordende opeenvolgende segmenten te bouwen.
+[!UICONTROL Visitors] vormen de container met de hoogste orde in opeenvolgende segmentatie,  [!UICONTROL Visits] in de  [!UICONTROL Visitors] container, en  [!UICONTROL Hits] bevinden zich in de  [!UICONTROL Visitors] of  [!UICONTROL Visits] containers. Deze [containerhiërarchie](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) moet worden gehandhaafd om goed-geordende opeenvolgende segmenten te bouwen.
 
-**Om opeenvolgende segmenten** te bouwen, zijn de containers genest en opeenvolgende logica aangesloten bij het gebruiken van de [!UICONTROL THEN] exploitant die elke container vereist om waar te zijn gebaseerd op de opeenvolging van de bezoeker.
+**Om opeenvolgende segmenten** te bouwen, zijn de containers genest en opeenvolgende logica verbonden die gebruikend de  [!UICONTROL THEN] exploitant die elke container vereist om waar te zijn gebaseerd op de opeenvolging van de bezoeker.
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-De enige uitzondering op deze hiërarchie van containers is wanneer het gebruiken van de container [van de Groep van de](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)Logica. Met de [!UICONTROL Logic Group] container kunt u een hit in een container nesten zonder volgorde om gebeurtenissen en afmetingen vast te leggen, maar buiten een opeenvolgende volgorde.
+De enige uitzondering op deze hiërarchie van containers is wanneer het gebruiken van [Logische container van de Groep](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). Met de container [!UICONTROL Logic Group] kunt u een hit in een container nesten zonder volgorde om gebeurtenissen en afmetingen vast te leggen, maar buiten een opeenvolgende volgorde.
 
 ![](assets/logic_group_hierarchy.png)
 
-## Rapporten op basis van containergegevens {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
+## Rapporten gebaseerd op containergegevens {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
 
 Met containers kunt u verschillende gegevens op basis van rapportagewaarden filteren wanneer u segmenten splitst en deze op rapporten toepast.
 
@@ -170,7 +170,7 @@ Gegevens die zijn vastgelegd op elk niveau van de Bezoeker > Bezoek > Actief in 
 
 De bezoeker die hieronder is afgebeeld, heeft bijvoorbeeld tijdens het eerste bezoek een site bezocht, op de startpagina geland en vervolgens drie extra pagina&#39;s bezocht en het bezoek omgezet in een verkoop. Tijdens een afzonderlijk bezoek landde de bezoeker deze keer via de productpagina, vervolgens naar de startpagina, terug naar de productpagina en sloot hij de sessie na de Winter Hats te hebben bekeken. Gebaseerd in de gegevens die voor elke container voor het segment worden gevangen, zullen de verschillende waarden in het rapport worden getoond.
 
-De *pagina&#39;s is gelijk aan het segment winterlaag* hieronder wordt toegepast op het **paginarapport**.
+Het onderstaande segment *Pagina&#39;s is winterlaag* wordt toegepast op het **Pagina-rapport**.
 
 ![](assets/page_winter_coat.png)
 
@@ -180,7 +180,7 @@ Gebaseerd op de geselecteerde container, toont het rapport verschillende resulta
 
 **Rapportage van de container van de Actief**
 
-Als deze voorwaarde zich binnen een container van het Actief bevindt, dan maakt het rapport slechts een lijst van pagina&#39;s waar *Pagina = de Mantels* van de Winter waar is. Aangezien slechts één pagina met deze voorwaarde overeenkomt in een container van slechts één pagina, wordt alleen de pagina Winter Coats weergegeven.
+Wanneer deze voorwaarde binnen een container van het Actief is, dan maakt het rapport van slechts pagina&#39;s een lijst waar *Pagina = Winter Coats* waar is. Aangezien slechts één pagina met deze voorwaarde overeenkomt in een container van slechts één pagina, wordt alleen de pagina Winter Coats weergegeven.
 
 ![](assets/container_overview_PV.png)
 
@@ -194,7 +194,7 @@ De rapportering van de container van het Actief, kunt u zien hoe het melden van 
 
 **Rapportage van de container van Visit**
 
-Als deze zelfde voorwaarde binnen een container van het Bezoek is, dan maakt het rapport een lijst van alle pagina&#39;s in het bezoek waar de *Pagina de Winterbekledingen* van de Pagina evenaart. De pagina Winter bevat filters, maar ook alle andere pagina&#39;s in het bezoek waar de voorwaarde waar is. Omdat de bezoeker ook de pagina&#39;s Home, Product en Aankoop heeft bezocht tijdens het bezoek waar aan de voorwaarde is voldaan, worden deze extra pagina&#39;s in het rapport vermeld wanneer ze worden gerapporteerd met de containergegevens van de bezoeker.
+Als deze zelfde voorwaarde binnen een container van het Bezoek is, dan maakt het rapport een lijst van alle pagina&#39;s in het bezoek waar *Pagina is de Borsten van de Winter* waar is. De pagina Winter bevat filters, maar ook alle andere pagina&#39;s in het bezoek waar de voorwaarde waar is. Omdat de bezoeker ook de pagina&#39;s Home, Product en Aankoop heeft bezocht tijdens het bezoek waar aan de voorwaarde is voldaan, worden deze extra pagina&#39;s in het rapport vermeld wanneer ze worden gerapporteerd met de containergegevens van de bezoeker.
 
 ![](assets/container_overview_visit.png)
 
@@ -204,7 +204,7 @@ Als u segmentwaarden uit de container Visit weergeeft, ziet u dat het aantal pag
 
 **Rapportage van de bezoekerscontainer**
 
-Als deze zelfde voorwaarde binnen een container van de Bezoeker is, maakt het rapport een lijst van alle pagina&#39;s die door om het even welke bezoeker worden bekeken waar de *Pagina de Koats* van de Winter evenaart. Dit betekent dat als een bezoeker de pagina Winter Coats heeft bekeken, alle pagina&#39;s in de bezoekercontainer, inclusief paginaweergaven tijdens andere bezoeken, worden weergegeven. Daarom worden pagina&#39;s die niet aan de voorwaarde voldoen, vermeld in het rapport omdat de bezoeker deze pagina&#39;s eerder heeft bekeken. Alle pagina&#39;s in de container van de Bezoeker worden vermeld in het rapport, zelfs als ze eerder zijn opgetreden en niet specifiek aan de voorwaarden voldoen.
+Als deze zelfde voorwaarde binnen een container van de Bezoeker is, maakt het rapport een lijst van alle pagina&#39;s die door om het even welke bezoeker worden bekeken waar *de Pagina is winterjassen* waar is. Dit betekent dat als een bezoeker de pagina Winter Coats heeft bekeken, alle pagina&#39;s in de bezoekercontainer, inclusief paginaweergaven tijdens andere bezoeken, worden weergegeven. Daarom worden pagina&#39;s die niet aan de voorwaarde voldoen, vermeld in het rapport omdat de bezoeker deze pagina&#39;s eerder heeft bekeken. Alle pagina&#39;s in de container van de Bezoeker worden vermeld in het rapport, zelfs als ze eerder zijn opgetreden en niet specifiek aan de voorwaarden voldoen.
 
 ![](assets/container_overview_visitors.png)
 
@@ -216,16 +216,16 @@ Samenvattend, is het begrip van hoe de segmentatie op diverse gegevensuitsplitsi
 
 ## Rapportage op basis van de container {#section_D0604748F2794327B8C668617A31EC18}
 
-Elke uitsplitsing van segmentgegevens heeft een bereik waarop deze worden toegepast. De meeste uitsplitsingen zijn gebaseerd op *Paginaweergaven*, maar veel waardevolle segmenten zijn gebaseerd op de container *Visit* en in mindere mate op de container *Visitor* . Het is belangrijk om rapportering te begrijpen die op het werkingsgebied van uw container wordt gebaseerd.
+Elke uitsplitsing van segmentgegevens heeft een bereik waarop deze worden toegepast. De meeste uitsplitsingen zijn gebaseerd op *Paginaweergaven*. Veel waardevolle segmenten zijn echter gebaseerd op de container *Visit* en in mindere mate op de container *Visitor*. Het is belangrijk om rapportering te begrijpen die op het werkingsgebied van uw container wordt gebaseerd.
 
-Gebaseerd op het eerder gebruikte *Pagina = de segmentvoorbeeld van de Coats* van de Winter, bepalen de hieronder vermelde kwesties andere aspecten van uw segment die op hoe worden gebaseerd de containergegevens worden toegepast en hoe het werkingsgebied van de gegevens het segmenttype zou moeten aanpassen.
+Gebaseerd op het *Pagina = de segmentvoorbeeld van de Winter* eerder gebruikt, bepalen de hieronder vermelde kwesties andere aspecten van uw segment die op hoe worden gebaseerd de containergegevens toegepast en hoe het werkingsgebied van de gegevens het segmenttype zou moeten aanpassen.
 
 **Segmentcontainer gebaseerd op overeenkomende segmentregel**
 
 Het toepassen van de segmentcontainer op een natuurlijk werkingsgebied van gegevens brengt verwachte resultaten op waar de lijnpunten de segmentregel aanpassen.
 
-* **Actcontainer waarbij de pagina staat voor &quot;Winter Coat&quot;**: Als u een *paginapport* met dit segment weergeeft, worden alleen de waarden met de waarde &quot;Winter Coat.&quot; Alle andere pagina&#39;s worden uitgesloten van rapportage.
-* **Bezoek de container waar de ingangspagina gelijk is aan &quot;Winter kleding&quot;**: Als u een rapport van een *invoerpagina* weergeeft met dit segment, wordt alleen het tweede bezoek geretourneerd omdat de invoerpagina overeenkomt met de segmentregel.
+* **Actcontainer waarbij de pagina staat voor &quot;Winter Coat&quot;**: Als u een  ** Paginarapport met dit segment weergeeft, worden alleen de waarden met de waarde &quot;Winter Coat&quot; geretourneerd. Alle andere pagina&#39;s worden uitgesloten van rapportage.
+* **Bezoek de container waar de ingangspagina gelijk is aan &quot;Winter kleding&quot;**: Het bekijken van een  *Paginaverslag van de* Ingang met dit segment keert slechts het tweede bezoek terug omdat zijn ingangspagina de segmentregel aanpast.
 * **Bezoek de container waar het bezoeknummer gelijk is aan 1**: Het bekijken van Bezoek Alle paginameningen van het eerste bezoek zijn inbegrepen in het rapport omdat het de segmentregel aanpast.
 
 **Paginaweergaven op containerniveau Visit**
@@ -249,13 +249,13 @@ Het gebruiken van segment met een kleinere container dan het verdelingswerkingsg
 
 Filteren op afmetingen die over een paginabereik blijven, zoals een campagne-eVar of een verwijzingsdimensie, beïnvloedt de gegevens die op containerniveau worden verzameld en moet worden begrepen voor het rapporteren van nauwkeurigheid.
 
-Segmentgegevens kunnen variëren op basis van de persistentie van een dimensie of de toegepaste variabele op geselecteerde pagina&#39;s. Sommige afmetingen, zoals de pagina-afmetingen, bieden unieke waarden op paginaniveau en worden gefilterd op basis van gegevens uit de container Actief. (Zie de [Rapporten die op het voorbeeld van de Gegevens](/help/components/segmentation/seg-overview.md) van de Container worden gebaseerd). Andere dimensies, zoals de dimensie Refererend Domein, blijven over veelvoudige pagina&#39;s voor een bezoek bestaan. Sommige afmetingen of toegepaste variabelen, zoals Duur van bezoek, strekken zich over de volledige geschiedenis van een bezoeker uit.
+Segmentgegevens kunnen variëren op basis van de persistentie van een dimensie of de toegepaste variabele op geselecteerde pagina&#39;s. Sommige afmetingen, zoals de pagina-afmetingen, bieden unieke waarden op paginaniveau en worden gefilterd op basis van gegevens uit de container Actief. (Zie [Rapporten die op de Gegevens van de Container](/help/components/segmentation/seg-overview.md) voorbeeld worden gebaseerd). Andere dimensies, zoals de dimensie Refererend Domein, blijven over veelvoudige pagina&#39;s voor een bezoek bestaan. Sommige afmetingen of toegepaste variabelen, zoals Duur van bezoek, strekken zich over de volledige geschiedenis van een bezoeker uit.
 
 ![](assets/RefDomain_aol.png)
 
 In tegenstelling tot de pagina-dimensie wordt de waarde van het Refererend domein aan elke pagina in dit bezoek toegevoegd. De bezoeker hieronder komt bijvoorbeeld op de startpagina van een site waarnaar wordt verwezen. Daarom wordt aan alle pagina&#39;s in dat bezoek dezelfde waarde voor het verwijzende domein toegewezen.
 
-Het *Verwijzende Domein is gelijk aan het hieronder segment van aol.com* wordt toegepast op het Rapport **van** Pagina&#39;s.
+Het *Refering Domain is gelijk aan aol.com* segment hieronder wordt toegepast op **Pagina&#39;s Report**.
 
 ![](assets/container_overview_persist.png)
 
@@ -263,7 +263,7 @@ Bij een nieuw bezoek wordt de bezoeker doorverwezen van een andere site. Daarom 
 
 **Rapportage van de container van de Actief**
 
-Omdat aan alle paginaweergaven in hetzelfde bezoek dezelfde waarde voor Refererend domein wordt toegewezen, worden alle pagina&#39;s in de onderstaande tabel gerapporteerd op het containerniveau Actief, waarbij *Refering Domain = &quot;ol.com&quot;* alle pagina&#39;s in de onderstaande tabel retourneert.
+Omdat aan alle paginaweergaven in hetzelfde bezoek dezelfde waarde voor Refererend domein wordt toegewezen, wordt bij rapportage op het containerniveau Actief de waarde *Refering Domain = &quot;aol.com&quot;* geretourneerd die op alle pagina&#39;s in de onderstaande tabel wordt weergegeven.
 
 ![](assets/container_overview_persist_Visit.png)
 
@@ -273,7 +273,7 @@ Met gegevens uit de container Actief werden iets meer dan 92.000 paginaweergaven
 
 **Rapportage van de container van Visit**
 
-Als deze zelfde voorwaarde in de container van het Bezoek voor een rapport van Pagina&#39;s wordt gefiltreerd, dan alle pagina&#39;s in het bezoek waar het Verwijzen van Domein = &quot; *ol.com&quot;* waar is. Omdat de waarde van het verwijzende domein op het bezoekniveau wordt geplaatst, zijn de rapporten bij de niveaus van de Mening van de Pagina en van het Bezoek het zelfde.
+Als deze zelfde voorwaarde in de container van het Bezoek voor een rapport van Pagina&#39;s wordt gefiltreerd, dan alle pagina&#39;s in het bezoek waar *Refering Domein = &quot;aol.com&quot;* waar is. Omdat de waarde van het verwijzende domein op het bezoekniveau wordt geplaatst, zijn de rapporten bij de niveaus van de Mening van de Pagina en van het Bezoek het zelfde.
 
 ![](assets/container_overview_persist_Visit.png)
 
@@ -283,7 +283,7 @@ In dit voorbeeld, omdat alle pagina&#39;s de zelfde verwijzende domeinwaarde heb
 
 **Rapportage van de bezoekerscontainer**
 
-In het rapport Pagina van de bezoekercontainer worden alle pagina&#39;s weergegeven die door een bezoeker worden weergegeven waarbij het *verwijzingsdomein gelijk is aan &quot;aol.com&quot;* . Daarom als een bezoeker *&quot;aol.com&quot;* als verwijzend domein op om het even welk ogenblik in de geschiedenis (binnen de bepaalde tijdspanne) had, dan zullen alle pagina&#39;s in de container van de Bezoeker-met inbegrip van paginameningen in andere bezoeken-worden vermeld. Zelfs de pagina&#39;s die niet aan de primaire voorwaarde aanpassen zullen in het rapport worden vermeld omdat deze pagina&#39;s in de container van de Bezoeker inbegrepen zijn. Alle pagina&#39;s in de container van de Bezoeker worden vermeld in het rapport, zelfs als ze eerder zijn opgetreden en niet specifiek aan de voorwaarden voldoen.
+Van de container van de Bezoeker, maakt het rapport van de Pagina een lijst van alle pagina&#39;s die door om het even welke bezoeker worden bekeken waar *Verwijzend Domein &quot;aol.com&quot;* waar is. Als een bezoeker *&quot;ol.com&quot;* als verwijzend domein op om het even welk ogenblik in de geschiedenis (binnen de bepaalde tijdspanne) had, dan zullen alle pagina&#39;s in de container van de Bezoeker—met inbegrip van paginameningen in andere bezoeken-worden vermeld. Zelfs de pagina&#39;s die niet aan de primaire voorwaarde aanpassen zullen in het rapport worden vermeld omdat deze pagina&#39;s in de container van de Bezoeker inbegrepen zijn. Alle pagina&#39;s in de container van de Bezoeker worden vermeld in het rapport, zelfs als ze eerder zijn opgetreden en niet specifiek aan de voorwaarden voldoen.
 
 In een Verwijzend Rapport van het Domein, *Verwijzend Domein = &quot;aol.com&quot;* is waar in vier paginameningen, maar *Verwijzend Domein = &quot;weer.com&quot;* is waar in de andere pagina&#39;s de bezoeker sloeg. Van de container van de Bezoeker, krijgt u een lijst van Bezoekers waar &quot;aol.com&quot;waar is, maar het geeft u ook pagina&#39;s waar het verwijzende domein &quot;weer.com&quot;is, niet de waarde die uw aanvankelijke verzoek in het segment aanpaste.
 
