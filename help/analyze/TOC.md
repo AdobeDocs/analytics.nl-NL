@@ -5,10 +5,10 @@ user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Report Builder en Activity Map.
 translation-type: tm+mt
-source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
+source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 89%
+source-wordcount: '1048'
+ht-degree: 88%
 
 ---
 
@@ -313,29 +313,6 @@ ht-degree: 89%
       + [Geconverteerde projecten weergeven in Analysis Workspace](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
       + [Veelgestelde vragen over projectconversie](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
    + [Overzicht van Ad Hoc Analysis](ad-hoc-analysis/adhoc-home.md)
-   + [Aan de slag](ad-hoc-analysis/c-getting-started.md)
-   + [Beheer](ad-hoc-analysis/c-administration.md)
-   + [Ad Hoc Analysis uitvoeren met Java 11](ad-hoc-analysis/adhoc-java.md)
-   + [Bestaande rapporten configureren](ad-hoc-analysis/c-reports-configure.md)
-   + [Datums en datumbereiken](ad-hoc-analysis/c-dates.md)
-   + [Dimensies](ad-hoc-analysis/c-dimensions.md)
-   + [Logbestand](ad-hoc-analysis/c-log-file.md)
-   + [Cijfers](ad-hoc-analysis/c-metrics.md)
-   + [Overzicht van rapporten](ad-hoc-analysis/c-overview-standard-reports.md)
-   + [Rapporttypen](ad-hoc-analysis/c-reports-types.md)
-   + [Rapporten over sitecijfers](ad-hoc-analysis/c-reports-site-metrics.md)
-   + [Rapporten over sitecontent](ad-hoc-analysis/c-reports-site-content.md)
-   + [Mobiele rapporten](ad-hoc-analysis/c-reports-mobile.md)
-   + [Rapporten over verkeersbronnen](ad-hoc-analysis/c-reports-traffic.md)
-   + [Padrapporten](ad-hoc-analysis/c-reports-paths.md)
-   + [Productrapporten](ad-hoc-analysis/c-reports-product.md)
-   + [Bezoekersrapporten](ad-hoc-analysis/c-reports-visitor.md)
-   + [Adobe Target](ad-hoc-analysis/c-reports-tnt.md)
-   + [Segmenten maken](ad-hoc-analysis/c-content-ref.md)
-   + [Instellingen](ad-hoc-analysis/c-global-settings.md)
-   + [Planningsbeheer](ad-hoc-analysis/c-schedule.md)
-   + [Table Builder](ad-hoc-analysis/c-tablebuilder.md)
-   + [Tijd](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Overzicht van labs](tech-previews/overview.md)
 + Adobe Analytics-dashboards {#mobapp}
