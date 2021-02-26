@@ -1,12 +1,12 @@
 ---
 description: Berekende en Geavanceerde Berekende (of Afgeleide) Metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen.
-keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
+keywords: Berekende metriek;Afgeleide Metriek;Geavanceerde Berekende Metriek
 title: Berekende en Geavanceerde berekende (Afgeleide) Metriek
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '569'
 ht-degree: 6%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Berekende en Geavanceerde Berekende (of Afgeleide) Metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen.
 
-Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijze metriek bouwen, beheren en beheren. Met deze services kunt u als marketers, productmanagers en analisten vragen stellen over de gegevens zonder dat u uw [!DNL Analytics] implementatie hoeft te wijzigen. De beschikbare aangepaste meetgegevens in elk [!DNL Analytics] pakket zijn:
+Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijze metriek bouwen, beheren en beheren. Zij staan u als verkopers, productmanagers en analisten toe om vragen van de gegevens te stellen zonder het moeten uw [!DNL Analytics] implementatie veranderen. De douanemetriek beschikbaar in elk [!DNL Analytics] pakket zijn:
 
 * Adobe [!DNL Analytics] Foundation: Berekend
 * [Adobe Analytics selecteren](https://www.adobe.com/nl/data-analytics-cloud/analytics/select.html): Berekend + Geavanceerd berekend
@@ -35,37 +35,32 @@ Hier volgt een vergelijking van de mogelijkheden Berekende meetwaarden en Geavan
 | [Basisfuncties (aantal, abs-waarde, gemiddelde, enz.)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | Nee | Ja |
 | [Geavanceerde functies (regressie, indien/toen, t-score, enz.)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | Nee | Ja |
 
-## Mogelijkheden {#section_A0A5C275B68A4D628950BBB0B1EE631F}
+## Capaciteiten {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 U kunt
 
-* Maak metriek voor [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection]en [!UICONTROL Contribution Analysis].
-* Creeer gesegmenteerde metriek die bij rapportruntime worden afgeleid, [zonder het moeten de implementatie](https://youtu.be/CuQTm9RaUpY)veranderen. Deze kunnen historisch worden bekeken omdat ze zijn gebaseerd op segmenten.
+* U kunt metrische gegevens maken in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection] en [!UICONTROL Contribution Analysis].
+* Creeer gesegmenteerde metriek die bij rapportruntime worden afgeleid, [zonder het moeten implementatie ](https://youtu.be/CuQTm9RaUpY) veranderen. Deze kunnen historisch worden bekeken omdat ze zijn gebaseerd op segmenten.
 * De metriek van het aandeel over rapportsuites. Dit betekent dat alle pas gecreëerde metriek op alle rapportsuites in het zelfde login bedrijf van toepassing is.
 * (Alleen Geavanceerde berekende cijfers) Segment op maateenheden. U kunt bijvoorbeeld een metrische waarde maken voor &quot;Nieuwe bezoekers&quot;, met een aantal personen voor wie dit de eerste sessie is.
 * (Alleen geavanceerde berekende statistieken) Neem statistische functies op om uw gegevens beter te kunnen beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
-* Gebruik metriek die in [!UICONTROL Ad Hoc Analysis] de andere [!DNL Analytics] hulpmiddelen worden gecreeerd en vice versa.
-
-   >[!NOTE]
-   >
-   >U kunt metriek blijven maken in Ad Hoc Analysis. Zijn berekende metrische bouwergebruikersinterface is nu gelijkaardig aan de nieuwe metrische bouwer.
 
 ## Beperkingen {#section_CB878B02451541D68A68B508D4DBD19A}
 
-Met sommige [!DNL Analytics] functies kunt u wel gebeurtenissen gebruiken, maar geen berekende meetwaarden:
+Met sommige [!DNL Analytics]-functies kunt u wel gebeurtenissen gebruiken, maar niet berekende meetwaarden:
 
-* [!UICONTROL Funnels] in [!UICONTROL Reports & Analytics]
-* [!UICONTROL Fallout] in [!UICONTROL Analysis Workspace]
+* [!UICONTROL Funnels] in  [!UICONTROL Reports & Analytics]
+* [!UICONTROL Fallout] in  [!UICONTROL Analysis Workspace]
 * [!UICONTROL Cohort Analysis] in Analysis Workspace
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL Segments]
 * [!UICONTROL Real-Time] rapporten
 * [!UICONTROL Current Data] rapporten
-* [!DNL Analytics] for [!DNL Target]
+* [!DNL Analytics] for  [!DNL Target]
 
-## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
+## Gereedschappen {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Hier volgt een kort overzicht van de [!UICONTROL Calculated Metrics] gereedschappen:
+Hier volgt een kort overzicht van de [!UICONTROL Calculated Metrics]-gereedschappen:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
@@ -103,7 +98,7 @@ Hier volgt een kort overzicht van de [!UICONTROL Calculated Metrics] gereedschap
   </tr> 
   <tr> 
    <td colname="col1"> Metrische kiezer </td> 
-   <td colname="col2"> <p>Hiermee vervangt u het pop-upvenster Metriek <span class="uicontrol"> tonen in</span> Rapporten en Analyse <span class="uicontrol"></span>. </p> <p>Het laat u naar het rapport zoeken en metriek toevoegen/toepassen. U kunt ook de <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sorteervolgorde</a> wijzigen (opties zijn: alfabetisch, aanbevolen, vaak gebruikt, onlangs gebruikt.) Bovendien kunt u op de Reeksen van het Rapport filtreren om slechts metriek te tonen die in een specifieke rapportreeks wordt gecreeerd. </p> <p>Klik op het pictogram Metrisch links van een rapport om deze metrische kiezer te openen. <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> Zo ziet de metrische kiezer eruit: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Vervangt <span class="uicontrol"> toont Metriek</span> popup in <span class="uicontrol"> Rapporten &amp; Analytics</span>. </p> <p>Het laat u naar het rapport zoeken en metriek toevoegen/toepassen. U kunt de sorteervolgorde <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > ook wijzigen</a> (opties zijn: alfabetisch, aanbevolen, vaak gebruikt, onlangs gebruikt.) Bovendien kunt u op de Reeksen van het Rapport filtreren om slechts metriek te tonen die in een specifieke rapportreeks wordt gecreeerd. </p> <p>Klik op het pictogram Metriek <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> links van een rapport om deze metrische kiezer te openen. Zo ziet de metrische kiezer eruit: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API voor berekende cijfers</a> </td> 
