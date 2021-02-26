@@ -1,12 +1,12 @@
 ---
 description: Veldbeschrijvingen voor Algemene accountinstellingen van rapportsuite in Admin.
 title: Algemene accountinstellingen
-topic: Admin tools
+topic: Beheerprogramma's
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: d4ecb31e7a79546c97207772e9df3eb4d673c35f
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,4 @@ Deze montages bevatten het uitgeven opties voor de functionaliteit van de basisr
 | Vervang het laatste octet van IP adressen met 0 | Het laatste octet verwijderen wordt gedaan alvorens om het even welke verwerking op de klap, met inbegrip van vóór IP filtreren/uitsluiting, alvorens beide regels te controleren, vóór Geosegmentation raadplegingen, enz. wordt gedaan. Als dusdanig, wordt het laatste octet vervangen met 0, en IP de uitsluitingsregels zouden moeten worden bijgewerkt om IP adressen met nul op het eind aan te passen. Overeenkomende * moet overeenkomen met 0. Bijvoorbeeld, wordt het IP adres 11.22.33.44 veranderd in 11.22.33.0. Geosegmentatiegegevens zullen niet zo precies zijn als wanneer het volledige IP adres wordt gebruikt. Meer in het bijzonder zal de nauwkeurigheid van de stad meer worden beïnvloed dan de nauwkeurigheid van het land of de regio. Zowel worden de regels van Bot als de regels van VISTA beïnvloed omdat het volledige IP adres niet aan hen beschikbaar is. Bovendien worden om het even welke verwerkingsregels die IP gebaseerd zijn, met inbegrip van de regels van het marketingkanaal en de regels van de rapportreeksverwerking, beïnvloed door dit het plaatsen. <br> **Opmerking**: Deze instelling wordt standaard ingeschakeld voor alle nieuwe rapportsuites die na januari 2019 in het London Data Center worden gemaakt, maar alleen als de instellingen voor die rapportsuites worden gekopieerd uit een sjabloon dat in de Admin Console wordt vermeld. De reeksen van het rapport waarvan de montages van andere rapportreeksen worden gedupliceerd zullen alle montages van de geselecteerde rapportreeks erven. |
 | IP Obfuscatie | Zet IP adressen in niet-herkenbare koorden, hoofdzakelijk verwijderend hen uit de gegevensopslag van Adobe. Wanneer IP de Verduistering wordt toegelaten, worden de originele IP adressen permanent verloren. <br> **Opmerking**: De IP adressen worden overal in Analytics, met inbegrip van Data Warehouse verduisterd. Nochtans, wordt IP die in Doel plaatst gecontroleerd afzonderlijk, zodat heeft dit het plaatsen geen effect op Doel.<br> Als IP de verduistering wordt toegelaten, al nodig verwerking met inbegrip van IP het filtreren/uitsluiting, zowel worden de regels als de raadplegingen van de Geosegmentatie gedaan alvorens het IP adres wordt verduisterd. U hoeft niets te wijzigen wanneer u IP-verduistering inschakelt.<ul><li>Als u **Uitgeschakeld** inschakelt, blijft het IP-adres in de gegevens staan.</li><li>Als u **IP-adres verduisteren** inschakelt, verandert de IP in twee dubbele punten, gevolgd door een gehashte waarde (bijvoorbeeld `::1932023538`).</li><li>Als u **IP-adres verwijderen** inschakelt, wordt het IP-adres vervangen door `::X.X.X.X` in de gegevens, na geo-lookup.</li></ul>**Opmerking**: Deze instelling kan wijzigingen in aangepaste  [zowel ](/help/admin/admin/bot-removal/bot-rules.md) linialen als  [IP-uitsluitingen](/help/admin/admin/exclude-ip.md) vereisen. |
 | Opslag van transactie-id | Hiermee kunt u [Transactie-id](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md) gegevensbronnen gebruiken. |
-| Ad Hoc Analysis activeren | Geeft aan of de rapportsuite in kwestie wordt weergegeven als een beschikbare rapportsuite in Ad Hoc Analysis. Gebruik deze instelling om te beperken welke rapportsuites worden weergegeven als optie voor Ad Hoc Analysis. U kunt bijvoorbeeld Ad Hoc Analysis for Development uitschakelen en QA-rapportreeksen. |
 | Data Warehouse inschakelen | Hiermee schakelt u de gebruikersinterface van de Data Warehouse in via Analytics > Tools > Data Warehouse. |
