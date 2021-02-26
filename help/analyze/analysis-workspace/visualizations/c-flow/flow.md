@@ -3,9 +3,9 @@ description: 'null'
 title: Overzicht van stroom
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '201'
 ht-degree: 2%
 
 ---
@@ -23,13 +23,13 @@ Hiermee kunt u:
 
 >[!NOTE]
 >
->Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen Analysis Workspace en Rapporten &amp; Analytics/Ad Hoc Analysis zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen Analysis Workspace en Rapporten &amp; Analytics zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Videozelfstudie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)voor stroomvisualisatie (4:56)
+[Videozelfstudie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) voor stroomvisualisatie (4:56)
 
-## Inter-Dimensional Flows {#section_7AA325E432C846B0AC51E70CCE79B4C0}
+## Inter-dimensionale stromen {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-U kunt de [stroom tussen de afmetingen](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)weergeven. U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mannen, dan naar de afdeling van Schoenen kunnen gaan.
+U kunt de [stroom tussen afmetingen](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) tonen. U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mannen, dan naar de afdeling van Schoenen kunnen gaan.
 
 Elke kolom kan een andere dimensie hebben. Sleep een afmeting en daling in een dalingsstreek om die afmeting aan het diagram toe te voegen.
 
