@@ -1,13 +1,13 @@
 ---
 description: Segmentfunctionaliteit verschilt nu meestal tussen gebruikers op beheerniveau en gebruikers zonder beheerdersrechten.
 title: Segmentrechten per rol
-topic: Segments
+topic: Segmenten
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 5%
+source-wordcount: '134'
+ht-degree: 6%
 
 ---
 
@@ -30,7 +30,7 @@ Segmentfunctionaliteit verschilt nu meestal tussen gebruikers op beheerniveau en
   <tr> 
    <td colname="col1"> <b>Gebruikers op beheerniveau</b> </td> 
    <td colname="col2"> Kan met volledig bedrijf, met gebruikersgroepen, en met individuele gebruikers delen. </td> 
-   <td colname="col3"> <span class="keyword"> Analysis Workspace, rapporten en analyses </span>: Kan weergeven/bewerken/verwijderen/enzovoort. hun eigen segmenten en die van andere gebruikers. <p> <span class="keyword"> Ad Hoc Analysis </span> en <span class="keyword"> Report Builder </span>: Kan weergeven/bewerken/verwijderen/enzovoort. hun eigen segmenten en met hen gedeelde segmenten. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Analysis Workspace, rapporten en analyses  </span>: Kan weergeven/bewerken/verwijderen/enzovoort. hun eigen segmenten en die van andere gebruikers. <p> <span class="keyword"> Report Builder  </span>: Kan weergeven/bewerken/verwijderen/enzovoort. haar eigen segmenten en de delen ervan. </p> </td> 
    <td colname="col4"> Kan segmenten als canonicaal goedkeuren. </td> 
    <td colname="col5"> Kan elk segment in de hele organisatie toepassen. </td> 
   </tr> 
