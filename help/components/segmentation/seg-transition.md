@@ -1,12 +1,12 @@
 ---
 description: 'null'
 title: Veelgestelde vragen
-topic: Segments
+topic: Segmenten
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '2173'
+source-wordcount: '2068'
 ht-degree: 2%
 
 ---
@@ -20,29 +20,27 @@ Beantwoord frequente vragen over segmentatiefuncties, toegang, machtigingen, bes
 
 * Segmentering in Analysis Workspace:
 
-   * U kunt segmenten [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)vergelijken.
+   * U kunt [segmenten vergelijken](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
    * Gebruik [segmenten als afmetingen](https://docs.adobe.com/content/help/nl-NL/core-services/interface/audiences/audience-library.html) in een vergelijking.
-   * Use segments in [fallout analysis](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
+   * Gebruik segmenten in [fallout analyse](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
-* U kunt veelvoudige segmenten [toepassen op een rapport of een project](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* U kunt [veelvoudige segmenten op een rapport of een project ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) toepassen.
 * De segmenten zijn universeel aan alle rapportseries.
 * De [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) vereenvoudigt het maken van segmenten.
-* Met [Segmentbeheer](/help/components/segmentation/segmentation-workflow/seg-workflow.md) kunt u [workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) instellen met functies voor het delen van segmenten, codering, verificatie en goedkeuring.
-
-* U kunt segmenten [](/help/components/segmentation/segmentation-workflow/seg-workflow.md) labelen om ze later te ordenen en te doorzoeken in plaats van mappen te gebruiken. Eerder hebt u mappen (in [!DNL Ad Hoc Analysis]) gebruikt om uw segmenten te ordenen.
-
-* U kunt [opeenvolgende segmenten](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) buiten Ad Hoc Analysis maken.
+* Met [Segmentbeheer](/help/components/segmentation/segmentation-workflow/seg-workflow.md) kunt u [workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) instellen met functies voor segmentdeling, codering, verificatie en goedkeuring.
+* U kunt [tagsegmenten](/help/components/segmentation/segmentation-workflow/seg-workflow.md) later organiseren en zoeken in plaats van mappen te gebruiken.
+* U kunt [Opeenvolgende segmenten](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) tot stand brengen.
 * De naam van de container Paginaweergave is gewijzigd in de container Actief om aan te geven dat in deze container alle typen gegevens worden gesegmenteerd, en niet alleen de paginaweergaven. De aanroepen voor het bijhouden van koppelingen en trackhandelingen van de mobiele SDK&#39;s worden bijvoorbeeld allemaal opgenomen of uitgesloten in de aanraakcontainer. Merk op dat er geen verandering in de manier was deze container werkt - het werd eenvoudig anders genoemd.
 
-Zie het artikel over het [verbeteren van de segmentatie in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) op de Digital Marketing Blog voor meer informatie.
+Zie [Segmentering verbeteren in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) op het Digital Marketing Blog voor meer informatie.
 
-## Toegang tot de segmentatiehulpmiddelen {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## Open de segmentatiehulpmiddelen {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **Hoe kan ik de Segment Builder bereiken?**
 
 U kunt tot de Bouwer van het Segment toegang hebben door:
 
-* Een bestaand rapport weergeven en klikken op het pictogram Segmenten ![](assets/segment_icon.png) in de linkernavigatie. In het segment dat wordt weergegeven, klikt u op **[!UICONTROL Add]** of
+* Een bestaand rapport weergeven en klikken op het pictogram Segmenten ![](assets/segment_icon.png) in de linkernavigatie. Klik in de segmenttrack die wordt weergegeven op **[!UICONTROL Add]** of
 
 * Klik boven aan Segmentbeheer op **[!UICONTROL + Add]**.  ![](assets/add_button.png)
 
@@ -54,15 +52,15 @@ U kunt tot de Bouwer van het Segment toegang hebben door:
 
 Toegang tot Segmentbeheer via:
 
-* Ga naar **[!UICONTROL Analytics]** **[!UICONTROL Components]** > in de bovenste navigatie. Klik vervolgens **[!UICONTROL Segments]** of
+* Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in de bovenste navigatie. Klik vervolgens op **[!UICONTROL Segments]**, of
 
-* Een bestaand rapport weergeven en klikken op het pictogram Segmenten ![](assets/segment_icon.png) in de linkernavigatie. Klik vervolgens **[!UICONTROL Manage]** of
+* Een bestaand rapport weergeven en klikken op het pictogram Segmenten ![](assets/segment_icon.png) in de linkernavigatie. Klik vervolgens op **[!UICONTROL Manage]**, of
 
 * Druk op de schuine streep &#39;/&#39; in de interface en zoek naar segmentmanager.
 
 **Waar ging het verouderde segment neerzetten?**
 
-De segmentdrop-down in Rapporten &amp; Analytics is vervangen door een veel meer eigenschaprijke [interface van de Bouwer](/help/components/segmentation/segmentation-workflow/seg-workflow.md) van het Segment die u toestaat om &quot;universele&quot;segmenten tot stand te brengen bruikbaar over rapportsuites en over de oplossingen van Adobe Analytics. Als u een lijst met bestaande segmenten wilt weergeven, klikt u op het pictogram Segmenten  ![](assets/segment_icon.png)
+De segmentdrop-down in Rapporten &amp; Analytics is vervangen door een veel meer eigenschaprijke [de interface van de Bouwer van het Segment](/help/components/segmentation/segmentation-workflow/seg-workflow.md) die u toestaat om &quot;universele&quot;segmenten tot stand te brengen bruikbaar over rapportsuites en over de oplossingen van Adobe Analytics. Als u een lijst met bestaande segmenten wilt weergeven, klikt u op het pictogram Segmenten ![](assets/segment_icon.png)
 
 in de linkernavigatie en de vertoningen van de segmentspoorstaaf.
 
@@ -76,29 +74,29 @@ De vervolgkeuzelijst met rapportsuite is verplaatst naast de datumkiezer in de r
 
 **Welke rechten en voorrechten moet ik gebruiken, creëren, en segmenten beheren?**
 
-Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen de Beheerders beslissen wie [toestemmingen zou moeten hebben om segmenten](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html) tot stand te brengen en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
+Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen de Beheerders beslissen wie [toestemmingen zou moeten hebben om segmenten te creëren](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html) en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
 
 Beheerders kunnen elk segment bewerken en segmenten delen met groepen en met iedereen in de organisatie. [Meer...](/help/components/segmentation/seg-reference/seg-rights.md)
 
 **Kan ik alle segmenten in mijn bedrijf zien?**
 
-Ja, Admins kan alle segmenten binnen de [!DNL Analysis Workspace] [!DNL Reports & Analytics] en gebruikersinterfaces zien.
+Ja, kunnen Admins alle segmenten binnen [!DNL Analysis Workspace] en [!DNL Reports & Analytics] gebruikersinterfaces zien.
 
 De ad hoc Analysesegmenten en de vertoningssegmenten van de Report Builder die u bezit en segmenten die met u worden gedeeld.
 
 **Kan ik alle segmenten Analytics in de Manager van het Segment beheren?**
 
-Ja, alle segmenten kunnen worden beheerd in Segment Manager in Analysis Workspace, Reports &amp; Analytics en Ad Hoc Analysis. Segmentbeheer geeft segmenten weer die zichtbaar zijn voor de eigenaar (gebruiker die het segment heeft gemaakt), gedeelde gebruikers en beheerders. De segmentkiezer geeft segmenten weer die eigendom zijn van en gedeeld worden met de gebruiker.
+Ja, kunnen alle segmenten worden beheerd in de Manager van het Segment. Segmentbeheer geeft segmenten weer die zichtbaar zijn voor de eigenaar (gebruiker die het segment heeft gemaakt), gedeelde gebruikers en beheerders. De segmentkiezer geeft segmenten weer die eigendom zijn van en gedeeld worden met de gebruiker.
 
-Beheerders kunnen alle segmenten in de Analysis Workspace en de [!DNL Reports & Analytics] gebruikersinterfaces zien.
+Beheerders kunnen alle segmenten binnen de Analysis Workspace en [!DNL Reports & Analytics] gebruikersinterfaces zien.
 
-Ad Hoc Analysis en Report Builder tonen slechts segmenten die door u of segmenten worden gebouwd die specifiek met u zijn gedeeld.
+Report Builder toont slechts segmenten die door u of segmenten worden gebouwd die specifiek met u zijn gedeeld.
 
 **Waarom kan ik dit segment niet verwijderen?**
 
-Als het segment naar de Experience Cloud [is](/help/components/segmentation/segmentation-workflow/seg-workflow.md)gepubliceerd, kunt u het niet verwijderen of bewerken. U kunt de gekopieerde versie echter wel kopiëren en bewerken.
+Als het segment [werd gepubliceerd aan de Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md), kunt u niet het schrappen of het uitgeven. U kunt de gekopieerde versie echter wel kopiëren en bewerken.
 
-## Best Practices {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
+## Aanbevolen procedures {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
 **Wat zou ik met dubbele segmenten moeten doen die de zelfde naam hebben maar verschillende definities kunnen hebben?**
 Nu de segmenten in veelvoudige rapportreeksen werken, zou u kunnen vinden dat u veelvoudige segmenten met de zelfde naam hebt. We raden u aan
@@ -112,7 +110,7 @@ Nu de segmenten in veelvoudige rapportreeksen werken, zou u kunnen vinden dat u 
 * Bekijk de segmenten die u hebt.
 * Voeg deze waar van toepassing toe aan de segmentbibliotheek.
 * Goedkeuren van canonieke segmenten.
-* Segmenten labelen volgens de [aanbevolen procedures](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Segmenten labelen volgens de [aanbevolen werkwijzen](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Oudere segmenten beheren {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -125,10 +123,6 @@ De meeste vroegere vooraf bepaalde en reekssegmenten zullen over als segmentmalp
 Segmentsjablonen worden gemarkeerd met een speciaal pictogram in Segment Builder:
 
 ![](assets/seg_templates.png)
-
-**Wat gebeurde er met mijn bestaande segmentmappen?**
-
-In plaats van (Ad Hoc Analysis) mappen gebruikt Segmentbeheer tags. De mapnamen worden automatisch omgezet in tags en deze tags worden toegepast op de respectievelijke segmenten.
 
 **Wat gebeurde met geplande rapporten die toegepaste segmenten hebben?**
 
@@ -144,15 +138,9 @@ U hebt een referentie die naar het segment voor de belangrijkste rapportreeks ve
 
 **Wat gebeurt er met de segmenten van de Data Warehouse?**
 
-Alle bestaande segmenten van de Data Warehouse werken nog steeds in de Data Warehouse. De meeste segmenten van Data Warehouse werken ook in andere componenten, zoals Analysis Workspace, Ad Hoc Analysis en Reports &amp; Analytics.
+Alle bestaande segmenten van de Data Warehouse werken nog steeds in de Data Warehouse. De meeste segmenten van Data Warehouse werken ook in andere componenten, zoals Analysis Workspace en Reports &amp; Analytics.
 
 U kunt een nieuwe segmenten van de Data Warehouse in de de segmentbouwer/manager tot stand brengen of uitgeven. Het mechanisme van de Verenigbaarheid van het Product in de Bouwer van het Segment bepaalt automatisch of een segment met Data Warehouse compatibel is.
-
-**Wat gebeurt er met de Segmenten van Favorieten (Ad Hoc Analysis)?**
-
-Deze Ad Hoc Analysis-segmenten worden als normale segmenten weergegeven in Adobe Analytics.
-
-Zij zouden niet met de eigenschap van Favorieten in de Manager van het Segment moeten worden verward die u segmenten als favorieten laat merken.
 
 **Wat gebeurt er met vooraf geconfigureerde segmenten?**
 
@@ -162,9 +150,7 @@ Zij zouden niet met de eigenschap van Favorieten in de Manager van het Segment m
 * **Bezoeken van Betaalde zoekopdracht**
 * **Bezoeken met cookie van bezoeker-id**
 
-Deze segmenten zullen over als segmentmalplaatjes in de Bouwer van het Segment worden gemigreerd.
-
-Bestaande rapporten waarop deze segmenten zijn toegepast, blijven correct werken.
+Deze segmenten zullen over als segmentmalplaatjes in de Bouwer van het Segment worden gemigreerd. Bestaande rapporten waarop deze segmenten zijn toegepast, blijven correct werken.
 
 **Wat gebeurt er met de segmenten Experience Cloud (Suite):**
 
@@ -182,7 +168,7 @@ Bestaande rapporten waarop deze segmenten zijn toegepast, blijven correct werken
 
 **Wat gebeurt er met Admin-segmenten (ook wel &quot;algemene&quot; segmenten genoemd)?**
 
-**De segmenten Admin** zullen in de nieuwe segmentinterface worden gemigreerd en zullen verschijnen als segmenten die met iedereen worden gedeeld.
+**** Adminsegments zal in de nieuwe segmentinterface worden gemigreerd en zal verschijnen als segmenten die met iedereen worden gedeeld.
 
 De eigenaar van deze segmenten wordt ingesteld op de beheerder met de oudste account in de lijst met beheergebruikers van het aanmeldingsbedrijf. Alle beheerders kunnen deze segmenten echter verwijderen, bewerken en delen.
 
@@ -329,7 +315,7 @@ De volgende lijst bevat een lijst van afmetingen die in de Bouwer van het Segmen
  </tbody> 
 </table>
 
-## Veranderingen in op koord-Gebaseerde Dimension die Bekende Waarden hebben {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## Veranderingen in op koord-Gebaseerde Dimension die bekende Waarden {#section_1A9EDEE5CBC44B5AA6262560052ABE77} hebben
 
 Op tekenreeks gebaseerde afmetingen met een bekende set waarden zijn gewijzigd in opsommingstypen. Wanneer u een segment maakt met deze afmetingen, wordt de lijst vooraf gevuld met alle bekende waarden en wordt alleen de operator ondersteund voor gelijkheid gebruikt. Zo kunt u snel de exacte waarden segmenteren die u zoekt, zonder dat u onbedoelde waarden hoeft te selecteren wanneer u minder restrictieve overeenkomsten gebruikt.
 
@@ -351,7 +337,7 @@ De volgende afmetingen zijn gewijzigd in opsommingslijsten:
 | lengte van mobiele bladwijzer | java ingeschakeld | betaalde zoekopdracht |
 | mobiele URL-lengte | taal |  |
 
-## Wijzigingen in Dimension op basis van gehele getallen met bekende waarden {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Wijzigingen in Dimension op basis van een geheel getal met bekende waarden {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Op gehele getallen gebaseerde afmetingen (zoals de breedte van de browser) met een bekende set waarden zijn opgedeeld in opsommingsbereiken, zodat u snel segmenten voor een bepaald bereik kunt definiëren. Deze opsommingslijsten worden toegevoegd met &quot; - Emmerd&quot;na de afmetingsnaam. Het volgende scherm toont aan hoe deze afmetingen gebruikend de vorige en nieuwe segmentbouwerinterfaces worden gesegmenteerd:
 
