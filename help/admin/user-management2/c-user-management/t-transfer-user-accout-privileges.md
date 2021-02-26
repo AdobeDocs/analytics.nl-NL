@@ -1,11 +1,14 @@
 ---
-description: Stappen die beschrijven hoe te om de punten van de gebruikersrekening (dashboards, berekende metriek, kalendergebeurtenissen, alarm, referenties, segmenten, de projecten van de Werkruimte van de Analyse, en geplande projecten) van één gebruikersrekening aan dat van een andere gebruiker toe te wijzen.
+description: Stappen die beschrijven hoe te om de punten van de gebruikersrekening (dashboards, berekende metriek, kalendergebeurtenissen, alarm, referenties, segmenten, de projecten van Analysis Workspace, en geplande projecten) van één gebruikersrekening aan dat van een andere gebruiker toe te wijzen.
 subtopic: Users and groups
 title: Gebruikersaccountitems overdragen
-topic: Admin tools
+topic: Beheerprogramma's
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 translation-type: tm+mt
-source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 7%
 
 ---
 
@@ -14,21 +17,16 @@ source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
 
-Stappen die beschrijven hoe te om de punten van de gebruikersrekening (dashboards, berekende metriek, kalendergebeurtenissen, alarm, referenties, segmenten, de projecten van de Werkruimte van de Analyse, en geplande projecten) van één gebruikersrekening aan dat van een andere gebruiker toe te wijzen.
+Stappen die beschrijven hoe te om de punten van de gebruikersrekening (dashboards, berekende metriek, kalendergebeurtenissen, alarm, referenties, segmenten, de projecten van Analysis Workspace, en geplande projecten) van één gebruikersrekening aan dat van een andere gebruiker toe te wijzen.
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Klik op **[!UICONTROL Edit Users]**.
 1. Zoek de gebruiker waarvan u elementen wilt overbrengen en schakel het selectievakje naast de rij van deze gebruiker in.
-1. Selecteer **[!UICONTROL Transfer Assets]** in de actiebalk boven in het scherm.
-1. Selecteer op de **[!UICONTROL Transfer]** pagina de gebruikersaccount die de accountitems van deze gebruiker moet ontvangen.
-1. Selecteer de accountitems die u wilt overdragen en klik op **[!UICONTROL Transfer]**.
-1. Klik **[!UICONTROL OK]** om te bevestigen dat u de geselecteerde accountbronnen wilt overdragen.
+1. Selecteer **[!UICONTROL Transfer Assets]** van de actiebar bij de bovenkant.
+1. Selecteer op de pagina **[!UICONTROL Transfer]** de gebruikersaccount die de accountitems van deze gebruiker moet ontvangen.
+1. Selecteer de over te dragen accountitems en klik op **[!UICONTROL Transfer]**.
+1. Klik op **[!UICONTROL OK]** om te bevestigen dat u de geselecteerde accountbronnen wilt overdragen.
 
    De ontvangende gebruiker ontvangt alle rechten voor de geselecteerde accountmiddelen die eigendom zijn van de oorspronkelijke gebruiker, met uitzondering van rechten voor geplande rapporten.
-
-   >[!NOTE]
-   >
-   >Bronnen voor ad-hocanalyse kunnen niet worden overgedragen. Als uw organisatie veelvoudige login bedrijven gebruikt, kunt u niets tussen login bedrijven overbrengen.
-
