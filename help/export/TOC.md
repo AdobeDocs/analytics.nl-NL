@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Hulplijn exporteren
 user-guide-description: Gebruik Gegevensfeeds als u onbewerkte gegevens per uur of per dag wilt exporteren. Gebruik Data Warehouse om een spreadsheetuitvoer van gegevens op te halen.
 translation-type: tm+mt
-source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '278'
 ht-degree: 84%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 84%
       + [Gegevensbronnen](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Gegevensfeeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
-      + [Ad Hoc Analysis leverde rapporten](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
       + [Data Warehouse levert rapporten](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report Builder geleverde rapporten](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [Engineering Services-services met FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
