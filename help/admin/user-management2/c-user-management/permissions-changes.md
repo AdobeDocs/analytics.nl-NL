@@ -1,14 +1,14 @@
 ---
 description: Inhoud met verouderde machtigingen
-keywords: groups;permissions
+keywords: groepen;machtigingen
 subtopic: Users and groups
 title: Wijzigingen in gebruikers- en groepstoestemmmingen
-topic: Admin tools
+topic: Beheerprogramma's
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1556'
 ht-degree: 3%
 
 ---
@@ -50,7 +50,7 @@ Omdat de API en de interface het zelfde machtigingssysteem gebruiken, zullen wel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wijzigingen in vooraf gedefinieerde groepen </p> </td> 
-   <td colname="col2"> <p> <b>Beheerderstoegang:</b> vooraf gedefinieerde groepen zijn niet meer vereist voor beheerders. De beheerders hebben nu toegang tot alle punten (hulpmiddelen, metriek, dimensies), evenals de toegang van de Dienst van het Web, Report Builder, Activity Map, en Ad Hoc Analysis. </p> <p>Het doel van groepen is om niet-administratieve gebruikers toegang te verlenen of te beperken. </p> <p> <b>Aangepaste groepen:</b> aangepaste groepen hebben vooraf gedefinieerde groepen vervangen. Bestaande, vooraf gedefinieerde groepen worden gemigreerd naar aangepaste groepen met dezelfde groepsnaam. Alle aangepaste groepen die u hebt gemaakt, inclusief de instellingen, blijven behouden. U zult echter zien dat de locatie van de instellingen is verplaatst. Bijvoorbeeld, zijn de montages van het Bedrijf (in Aanpassen Admin Console) nu in <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Customize Analytics Tools</a>. </p> <p> De gebruikers die tot <span class="term"> Al Toegang van het Rapport</span> behoren zijn gemigreerd aan een douanegroep met toegang tot: </p> 
+   <td colname="col2"> <p> <b>Beheerderstoegang:</b> vooraf gedefinieerde groepen zijn niet meer vereist voor beheerders. De beheerders hebben nu toegang tot alle punten (hulpmiddelen, metriek, dimensies), evenals de toegang van de Dienst van het Web, Report Builder, en Activity Map. </p> <p>Het doel van groepen is om niet-administratieve gebruikers toegang te verlenen of te beperken. </p> <p> <b>Aangepaste groepen:</b> aangepaste groepen hebben vooraf gedefinieerde groepen vervangen. Bestaande, vooraf gedefinieerde groepen worden gemigreerd naar aangepaste groepen met dezelfde groepsnaam. Alle aangepaste groepen die u hebt gemaakt, inclusief de instellingen, blijven behouden. U zult echter zien dat de locatie van de instellingen is verplaatst. Bijvoorbeeld, zijn de montages van het Bedrijf (in Aanpassen Admin Console) nu in <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Customize Analytics Tools</a>. </p> <p> De gebruikers die tot <span class="term"> Al Toegang van het Rapport</span> behoren zijn gemigreerd aan een douanegroep met toegang tot: </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">Alle Dimension </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">Alle metriek </li> 
