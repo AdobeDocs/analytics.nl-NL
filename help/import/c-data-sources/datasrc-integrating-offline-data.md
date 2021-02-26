@@ -2,12 +2,12 @@
 description: Gegevensbronnen bieden twee extra manieren om gebeurtenissen te integreren die offline bij uw online gegevens optreden.
 subtopic: Data sources
 title: Transactie- en klantintegratie
-topic: Developer and implementation
+topic: Ontwikkelaar en implementatie
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '302'
 ht-degree: 2%
 
 ---
@@ -23,11 +23,11 @@ Gegevensbronnen bieden twee extra manieren om gebeurtenissen te integreren die o
 
 Deze integratie associeert off-line gegevens met een specifieke online transactie of met een online bezoeker.
 
-## Opname van transactie-id inschakelen {#section_30D6D47AEC0F4A36B87EBFE4C858F20C}
+## Opname van transactie-id {#section_30D6D47AEC0F4A36B87EBFE4C858F20C} inschakelen
 
 De transactie-id kan worden in-/uitgeschakeld vanuit de gebruikersinterface, zonder betrokkenheid van ClientCare:
 
-Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer een rapportsuite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
+Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer rapportsuite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
@@ -39,20 +39,20 @@ Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer een 
 
  -->
 
-Navigeer naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
+Als u wilt zien of Opname van transactie-id is ingeschakeld, navigeert u naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
-Op het [!UICONTROL Manage] tabblad wordt de status van Transactie-id-opname weergegeven.
+Op het tabblad [!UICONTROL Manage] wordt de status van Transactie-id-opname weergegeven.
 
 ## Klantenintegratie {#section_9F4AAD710D2543BDA834090A98115FBF}
 
 Klant-id&#39;s worden gebruikt om de offlineactiviteit van een klant op te geven en aan online activiteiten te koppelen. Deze dienen te worden gebruikt wanneer:
 
-* Een klant-id wordt ingevuld in de *`visitorID`* variabele.
+* Een klant-id wordt ingevuld in de variabele *`visitorID`*.
 * Er is geen aangewezen punt waar de klantenactiviteit zich off-line beweegt, zoals een voorloodsvoorlegging of een aankoop.
 
-Om dit type van gegevensbron te vormen, zie identiteitskaart van de [Bezoeker](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+Om dit type van gegevensbron te vormen, zie [Bezoeker ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 
 ## Transactieintegratie {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
@@ -64,8 +64,6 @@ Transactie-id&#39;s worden gebruikt om de status van een bezoeker op een bepaald
 
 De klant is vaak anoniem wanneer hij of zij online naar offline gaat.
 
-Gebeurtenissen van transactie-id zijn niet opgenomen in statistieken voor deelname aan het bezoek (die worden weergegeven in marketingrapporten), maar zijn wel opgenomen in statistieken voor deelname van bezoekers (alleen beschikbaar in ad-hocanalyse).
+Gebeurtenissen van transactie-id zijn niet opgenomen in statistieken voor deelname aan het bezoek (die worden weergegeven in marketingrapporten). De reden hiervoor is dat de transactie-id-gegevens niet aan een bezoek zijn gekoppeld (omdat de offline gebeurtenis gewoonlijk geen deel uitmaakt van de online gebeurtenis), maar aan de bezoeker zijn gekoppeld.
 
-De reden hiervoor is dat de transactie-id-gegevens niet aan een bezoek zijn gekoppeld (omdat de offlinegebeurtenis gewoonlijk geen deel uitmaakt van de online gebeurtenis), maar aan de bezoeker zijn gekoppeld.
-
-Zie [Transactie-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+Zie [Transactie-id](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
