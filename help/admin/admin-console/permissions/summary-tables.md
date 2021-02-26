@@ -2,9 +2,9 @@
 title: Adobe Analytics-machtigingen - overzichtstabellen
 description: Tabellen die een overzicht geven van de beschikbare Adobe Analytics-machtigingen in Admin Console.
 translation-type: tm+mt
-source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1243'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,7 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Traffic-beheer | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Verkeersbeheer. |
 | Webservices | x |  |  |  | Geeft toegang tot Admin > Bedrijfsinstellingen > Webservices. |
 | Activity Map |  | x |  |  | Hiermee krijgt u toegang tot Gereedschappen > Activity Map. Hiermee kan de gebruiker de extensie Activity Map gebruiken. |
-| Ad Hoc Analysis-licentiegebruikers |  | x |  |  | Hiermee schakelt u de downloadknop in onder Opties > Ad Hoc Analysis en kan de gebruiker het programma verifiëren. [Meer informatie](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Ad Hoc Analysis-licentiegebruikers |  | x |  |  | Ad Hoc Analysis is aan het einde van zijn levensduur. [Meer informatie](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Analysis Workspace Access |  | x |  |  | Biedt toegang tot Analysis Workspace. Gebruikers moeten tot deze groep (voorkeur) of Rapporten &amp; Toegang Analytics behoren om Adobe Analytics te kunnen gebruiken. |
 | Analysis Workspace: Opslaan als sjabloon |  | x |  |  | Hiermee krijgt u toegang tot Project > Opslaan als sjabloon in Analysis Workspace. |
 | Berekend metrisch ontwerp |  | x |  |  | Biedt de mogelijkheid berekende metriek te maken voor alle analysemogelijkheden. |
