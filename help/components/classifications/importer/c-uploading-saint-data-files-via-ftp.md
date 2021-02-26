@@ -2,12 +2,12 @@
 description: Stappen die beschrijven hoe u gegevensbestanden kunt uploaden via FTP.
 subtopic: Classifications
 title: FTP-import
-topic: Admin tools
+topic: Beheerprogramma's
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '700'
 ht-degree: 1%
 
 ---
@@ -34,13 +34,13 @@ Na een eerste upload in een rapportsuite (voor een bepaalde variabele of rapport
 
 Elke nieuwe sleutelwaarde die u uploadt, telt mee voor uw unieke waarden voor die variabele voor de maand.
 
-Als u uw uniques voor de maand hebt overschreden, zult u de overeenkomstige classificatiegegevens voor de uniques niet zien overschrijden waarden in rapportering. U kunt die classificaties in of gegevenspakhuis of ad hoc analyse zien.
+Als u uw uniques voor de maand hebt overschreden, zult u de overeenkomstige classificatiegegevens voor de uniques niet zien overschrijden waarden in rapportering. Je kunt die classificaties in de Data Warehouse zien.
 
 >[!NOTE]
 >
 >De tijd die nodig is om een bestand met classificatiegegevens te verwerken, is afhankelijk van de grootte van het bestand en het huidige aantal bestanden dat al wordt verwerkt door Adobe. De verwerking van gegevensbestanden duurt gewoonlijk niet langer dan 72 uur.
 
-Maak een FTP-account voordat u gegevens uploadt via FTP. Zie [Een FTP-account](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)maken voor meer informatie.
+Maak een FTP-account voordat u gegevens uploadt via FTP. Zie [Een FTP-account maken](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF) voor meer informatie.
 
 ## Classificaties importeren via FTP {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -52,16 +52,16 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 Stappen die beschrijven hoe u een FTP-account kunt gebruiken om classificaties te importeren in Adobe Analytics.
 
-Zie Een FTP-account [maken voor meer informatie over het maken van een FTP-account](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Zie [Een FTP-account maken](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF) voor meer informatie over het maken van een FTP-account.
 
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
-1. Klik **[!UICONTROL Import File]** en klik vervolgens op **[!UICONTROL FTP Import]**.
-1. Klik naast de FTP-account die u wilt gebruiken op **[!UICONTROL View]**.
-1. Gebruik de FTP-toegangsgegevens (Host, Aanmelden, Wachtwoord) om toegang te krijgen tot de FTP-server met een door u gekozen FTP-client.
-1. Upload het gegevensbestand ( [!DNL .tab] of [!DNL .txt]) naar de FTP-server.
+1. Klik **[!UICONTROL Import File]**, dan klik **[!UICONTROL FTP Import]**.
+1. Klik op **[!UICONTROL View]** naast de FTP-account die u wilt gebruiken.
+1. Gebruik de FTP-toegangsgegevens (Host, Aanmelden, Wachtwoord) om toegang te krijgen tot de FTP-server via een door u gekozen FTP-client.
+1. Upload het gegevensbestand ( [!DNL .tab] of [!DNL .txt]) aan de server van FTP.
 1. Na het uploaden van het gegevensbestand, upload een FIN dossier dat erop wijst het dossier klaar is te verwerken.
 
-   Het FIN-bestand is een leeg bestand met dezelfde naam als het gegevensbestand, met een [!DNL .fin] bestandsnaamextensie. Als het gegevensbestand bijvoorbeeld [!DNL classdata1.tab]een FIN-bestandsnaam is [!DNL classdata1.fin].
+   Het FIN-bestand is een leeg bestand met dezelfde naam als het gegevensbestand, met de bestandsnaamextensie [!DNL .fin]. Als uw gegevensbestand bijvoorbeeld [!DNL classdata1.tab] is, is de bestandsnaam FIN [!DNL classdata1.fin].
 
 Met regelmatige intervallen haalt Adobe geüploade gegevensbestanden op waaraan een FIN-bestand is gekoppeld. Adobe importeert ze in de rapportsuite en gegevenssets die zijn opgegeven in de FTP-accountconfiguratie.
 
@@ -78,8 +78,8 @@ t_create_an_ftp_account.xml
 Zie [FTP en sFTP](https://docs.adobe.com/content/help/en/analytics/export/ftp-and-sftp/ftp-overview.html) voor meer informatie over Adobe FTP-servers.
 
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
-1. Klik **[!UICONTROL Import File]** en klik vervolgens op **[!UICONTROL FTP Import]**.
-1. On the **[!UICONTROL Import File]** tab, click **[!UICONTROL Add New]**.
+1. Klik **[!UICONTROL Import File]**, dan klik **[!UICONTROL FTP Import]**.
+1. Klik op het tabblad **[!UICONTROL Import File]** op **[!UICONTROL Add New]**.
 1. Geef de FTP-accountgegevens op:
 
    | Element | Beschrijving |
