@@ -4,7 +4,10 @@ title: Aangepaste kalender
 topic: Report builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +45,7 @@ Elk kalenderformaat wordt hieronder beschreven.
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: januari heeft vier weken, februari heeft vijf weken, maart heeft vier weken, enzovoort. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: Januari heeft vier weken, februari heeft vier weken, maart heeft vijf weken, enzovoort. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>: Januari heeft vijf weken, februari heeft vijf weken, maart heeft vier weken, enzovoort. </li> 
-    </ul> <p>Opmerking:  Deze kalenderoptie wordt gesteund over alle hulpmiddelen van de Analyse (de Werkruimte van de Analyse, Rapporten &amp; Analyse, de Bouwer van het Rapport, de Kaart van de Activiteit, Ad hoc Analyse) behalve het Pakhuis van Gegevens, dat geen douanecalendars steunt. </p> </td> 
+    </ul> <p>Opmerking:  Deze kalenderoptie wordt ondersteund door alle Adobe Analytics-tools (Analysis Workspace, Reports &amp; Analytics, Report Builder en Activity Map. De uitzondering is Data Warehouse, die geen aangepaste kalenders ondersteunt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
