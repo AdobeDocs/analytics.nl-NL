@@ -13,7 +13,7 @@ ht-degree: 73%
 ---
 
 
-# Analytics Tech Notes {#technotes}
+# Technische notities voor analyse {#technotes}
 
 + [Technische notities voor Analytics](home.md)
 + Adobe Analytics voor gebruikers van Google Analytics {#ga-to-aa}
