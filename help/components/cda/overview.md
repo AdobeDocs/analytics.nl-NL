@@ -2,9 +2,9 @@
 title: Cross-device Analytics
 description: Verander uw gegevens van apparaat-geconcentreerd in persoon-geconcentreerd door apparatengegevens samen te stikken.
 translation-type: tm+mt
-source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+source-git-commit: 16dd381909b3a49087b244f11881000401155a0a
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -29,23 +29,24 @@ Wanneer de apparaten worden vastgezet, veranderlijke persistentie wordt gedragen
 
 Uit een geest van partnerschap en transparantie willen wij dat onze klanten zich bewust zijn van ons gebruik van Microsoft Azure in combinatie met Cross-Device Analytics. Adobe gebruikt Azure om grafiekgegevens van apparaten op te slaan en om overspannen-apparaat het stitching uit te voeren. Als dusdanig, worden de gegevens van Adobe Analytics overgegaan - en - tussen Adobe verwerkend centrum en Adobe geleverde instanties van Microsoft Azure.
 
-Zie de [Reis IQ: De pagina](http://adobe.ly/aacda) van de Vonk van de Analyse van de Apparaten voor meer informatie over de mogelijkheden en de eigenschappen van de Analytics van het Apparaat.
+Zie de [Reis-IQ: Pagina](http://adobe.ly/aacda) van de Vonk van de Analyse van het Apparaat voor meer informatie over de mogelijkheden en de eigenschappen van Analytics van het Apparaat.
 
 ## Vereisten
 
-Voor het gebruik van CDA is het volgende vereist. [Veldgebaseerde stitching](field-based-stitching.md) en de grafiekmethodes van het [Apparaat](device-graph.md) hebben ook hun eigen specifieke eerste vereisten.
+Voor het gebruik van CDA is het volgende vereist. [Veldgebaseerde ](field-based-stitching.md) stitchingings- en  [Device ](device-graph.md) grafietechnieken hebben ook hun eigen specifieke voorwaarden.
 
 * Een contract moet worden ondertekend met Adobe die Adobe Analytics Ultimate omvat.
 * Apparaatanalyse wordt ingeschakeld op basis van een afzonderlijke rapportsuite. Adobe raadt een rapportsuite aan die apparaatoverschrijdende gegevens bevat. Dit houdt in dat gegevens van meerdere apparaattypen (web, app, enz.) worden gebruikt. Sommige organisaties noemen dit concept een &quot;globaal&quot; rapportenpakket, hoewel CDA vanuit geografisch oogpunt niet strikt algemeen hoeft te zijn.
 
 ## Beperkingen
 
-Cross-Device Analytics is een baanbrekende en robuuste functie, maar heeft beperkingen in de manier waarop deze kan worden gebruikt. [Veldgebaseerde stitching](field-based-stitching.md) - en [Apparaatgrafiekmethoden](device-graph.md) hebben ook hun eigen specifieke beperkingen.
+Cross-Device Analytics is een baanbrekende en robuuste functie, maar heeft beperkingen in de manier waarop deze kan worden gebruikt. [Veldgebaseerde ](field-based-stitching.md) stitchingings- en  [Device-](device-graph.md) grafische methoden hebben ook hun eigen specifieke beperkingen.
 
 * CDA is alleen beschikbaar via Analysis Workspace.
 * Cross-Device Analytics werkt niet op meerdere rapportsuites en combineert ook geen gegevens van meerdere rapportsuites.
 * Adobe Analytics-rapportsuites kunnen niet worden toegewezen aan meer dan één IMS-org. Aangezien CDA apparaten vastlegt binnen een bepaalde rapportsuite, kan CDA niet worden gebruikt om gegevens te koppelen aan meerdere IMS-organen.
 * CDA is momenteel niet compatibel met Customer Attributes. Deze twee eigenschappen kunnen in afzonderlijke virtuele rapportreeksen samenvallen die de zelfde bronrapportreeks van verwijzingen voorzien.
-* Analytics voor verschillende apparaten maakt gebruik van een virtuele rapportsuite en de verwerking van de rapporttijd, die hun eigen beperkingen hebben. Zie [Virtuele rapportsuites](../vrs/vrs-about.md) en de tijdverwerking [van het](../vrs/vrs-report-time-processing.md) Rapport voor meer informatie over deze beperkingen.
+* CDA is momenteel niet compatibel met A4T.
+* Analytics voor verschillende apparaten maakt gebruik van een virtuele rapportsuite en de verwerking van de rapporttijd, die hun eigen beperkingen hebben. Zie [Virtuele rapportsuites](../vrs/vrs-about.md) en [Tijd verwerking rapporteren](../vrs/vrs-report-time-processing.md) voor meer informatie over deze beperkingen.
 * De 1.4-API wordt niet ondersteund. Power BI-connectors en Report Builder vertrouwen beide op de 1.4-API en zijn daarom niet compatibel met CDA.
 * Historische gegevens in de virtuele rapportsuite veranderen op basis van Adobe die apparaten herkent en aansluit. De gegevens in de bronrapportsuite veranderen niet.
