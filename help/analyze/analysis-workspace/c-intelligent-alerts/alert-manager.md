@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Waarschuwingen maken, bewerken of verwijderen.
 title: Waarschuwingsbeheer
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 2%
 
 ---
 
@@ -12,23 +15,23 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ![](assets/alert-manager.png)
 
-Waarschuwingsbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is zeer gestructureerd zoals [Segmentbeheer](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) en [Berekend metrisch beheer](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) en stelt u in staat om
+Het waarschuwingsbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is zeer gestructureerd zoals [Segmentbeheer](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) en [Berekende metrische manager](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) en stelt u in staat om
 
 ![](assets/alert-manager-tasks.png)
 
-* Klik op **[!UICONTROL + Add]** WaarschuwingsBuilder.
+* U opent de waarschuwingsfunctie door op **[!UICONTROL + Add]** te klikken.
 * Tagwaarschuwingen. Zo kunt u ze ordenen voor gebruiksgemak.
 * Waarschuwingen verwijderen.
 * Namen van waarschuwingen wijzigen.
 * Waarschuwingen goedkeuren.
 * Waarschuwingen kopiëren.
 * Waarschuwingen in-/uitschakelen.
-* **Vernieuw** een waarschuwingsvervaldatum. Wanneer een of meer waarschuwingen zijn geselecteerd, kunnen deze worden vernieuwd door op **Verlengen** te klikken. Hierdoor worden de vervaldatums verlengd tot 1 jaar vanaf de dag waarop op Verlengen is geklikt, ongeacht de oorspronkelijke vervaldatum.
+* **Vervaldatum** van een waarschuwing voor verlenging. Wanneer een of meer waarschuwingen zijn geselecteerd, kunnen deze worden vernieuwd door op **Verlengen** te klikken. Hierdoor worden de vervaldatums verlengd tot 1 jaar vanaf de dag waarop op Verlengen is geklikt, ongeacht de oorspronkelijke vervaldatum.
 * Exporteer een waarschuwing naar een CSV-bestand.
 * Bewerk waarschuwingen door te dubbelklikken op de titel van de waarschuwing.
 * Zoeken naar waarschuwingen.
 * Voeg waarschuwingen toe aan andere rapportsuites.
 * Geef de eigenaar van een waarschuwing op of wijzig deze.
 * Andere filters toevoegen.
-* Definieer een **vervaldatum** voor een waarschuwing.
+* Definieer een waarschuwing **vervaldatum**.
 
