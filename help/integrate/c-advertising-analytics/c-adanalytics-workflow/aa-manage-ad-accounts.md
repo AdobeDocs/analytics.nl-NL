@@ -1,16 +1,19 @@
 ---
-description: 'null'
-title: Reclameaccounts beheren
+description: Accounts beheren in Advertising Analytics.
+title: Advertentieaccounts beheren
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 7%
 
 ---
 
 
-# Reclameaccounts beheren
+# Advertentieaccounts beheren
 
-U kunt de interface van Beheer openen door naar **[!UICONTROL Admin]** > te navigeren **[!UICONTROL Advertising Accounts]**.
+U kunt tot Beheer UI toegang hebben door aan **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]** te navigeren.
 
 ![](assets/manage_ad_accounts.png)
 
@@ -24,11 +27,11 @@ U kunt de interface van Beheer openen door naar **[!UICONTROL Admin]** > te navi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Handelingen</b> </p> </td> 
-   <td colname="col2"> <p><b>Opmerking: Handelingen worden alleen weergegeven als u ten minste één advertentieaccount hebt geselecteerd. </b> </p> </td> 
+   <td colname="col2"> <p><b>Opmerking: Handelingen worden alleen weergegeven als u ten minste één advertentieaccount hebt geselecteerd.  </b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Toevoegen </p> </td> 
-   <td colname="col2"> <p>Hiermee gaat u naar de gebruikersinterface <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > Advertising Account</a> instellen. </p> </td> 
+   <td colname="col2"> <p>Neemt u aan <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > de Rekening van de Reclame van de Opstelling </a> UI. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Naam wijzigen </p> </td> 
@@ -40,7 +43,7 @@ U kunt de interface van Beheer openen door naar **[!UICONTROL Admin]** > te navi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pauzeren </p> </td> 
-   <td colname="col2"> <p>Hiermee deactiveert u de account. Klik op <span class="uicontrol"> Activeren</span>om de toepassing opnieuw te activeren. </p> </td> 
+   <td colname="col2"> <p>Hiermee deactiveert u de account. Klik op <span class="uicontrol"> Activeren</span> om de toepassing opnieuw te activeren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Kolomkoppen</b> </p> </td> 
@@ -51,7 +54,7 @@ U kunt de interface van Beheer openen door naar **[!UICONTROL Admin]** > te navi
    <td colname="col2"> <p>De naam die u aan dit advertentieaccount hebt toegewezen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rapportageopties </p> </td> 
+   <td colname="col1"> <p>Rapportsuites </p> </td> 
    <td colname="col2"> <p>De rapportsuite(s) die is/zijn toegewezen aan dit advertentieaccount. </p> </td> 
   </tr> 
   <tr> 
