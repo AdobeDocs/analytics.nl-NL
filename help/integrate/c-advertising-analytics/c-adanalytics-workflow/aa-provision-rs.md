@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: Configureer een in Experience Cloud toegewezen rapportsuite voor gebruik in Advertising Analytics.
 title: Rapportsuite voor Advertising Analytics inschakelen
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '267'
 ht-degree: 10%
 
 ---
@@ -35,5 +35,5 @@ Om Advertising Analytics onderzoeksgegevens in Analytics te zien, moet u elke Ex
    | Recentste (laatste) | De laatste waargenomen waarde krijgt volledige toewijzingskrediet voor de succesgebeurtenis, ongeacht welke variabelen daarvoor werden geactiveerd. |
    | Verlopen na | Hier kunt u een tijdsperiode, of gebeurtenis, opgeven waarna de waarde van de eVar verloopt (zodat er geen krediet meer wordt ontvangen voor succesgebeurtenissen).  Als een succesgebeurtenis optreedt na het verlopen van de eVar, ontvangt de waarde None een creditering voor de gebeurtenis (er was geen eVar actief). |
 
-1. Klik **[!UICONTROL Enable Advertising Analytics Reporting]** (eerste keer) of **[!UICONTROL Update Advertising Analytics Reporting]** (volgende keer). Uw rapportsuite is nu gereed om zoekgegevens van Advertising Analytics te ontvangen. U bent niet klaar om [advertentieaccounts](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)te maken.
+1. Klik **[!UICONTROL Enable Advertising Analytics Reporting]** (eerste keer), of **[!UICONTROL Update Advertising Analytics Reporting]** (volgende tijden). Uw rapportsuite is nu gereed om zoekgegevens van Advertising Analytics te ontvangen. U bent niet klaar om [Advertising Accounts](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) te maken.
 
