@@ -1,11 +1,11 @@
 ---
 title: Analytics Components-handleiding
-description: 'null'
+description: Meer informatie over de verschillende componenten die Adobe Analytics biedt.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 84%
+source-wordcount: '210'
+ht-degree: 80%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 84%
 
 Met Analytics Components kunt u de analyse van uw data verfijnen en versterken. Components bevat:
 
-* **Dimension:** Referentie voor afmetingen die bruikbaar zijn in Adobe Analytics.
-* **Metrisch:** Referentie voor metriek bruikbaar in Adobe Analytics.
+* **Dimension:** referentie voor afmetingen die bruikbaar zijn in Adobe Analytics.
+* **Metriek:** Verwijzing voor metriek bruikbaar in Adobe Analytics.
 * **Segmentatie:** Focus op een subset van uw data.
 * **Berekende standaard:** Gebruik eenvoudige formules om cijfers te combineren, of geavanceerde functies voor statistische analyse.
 * **Virtuele rapportsuites:** Maak een virtuele silo van data op basis van een rapportsuite. Hiermee kunt u data opschonen of segmenteren voor een betere gebruikerservaring. Sommige eigenschappen kunnen alleen worden gebruikt in virtuele rapportsuites.
