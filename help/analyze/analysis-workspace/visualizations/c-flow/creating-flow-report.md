@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Gebruik de stroomvisualisatie in een project van de Werkruimte.
 title: Een stroomvisualisatie configureren
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 2%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 Met Flow kunt u een pad door uw pagina&#39;s of dimensies volgen, zoals eVars:
 
 * Item (alleen afmetingen)
-* Afmetingen of items
+* Dimension of items
 * Afsluiten (alleen afmetingen)
 
 Elk van deze categorieën wordt op het scherm getoond als &quot;dalingsstreek.&quot; Sleep items uit de lijst en zet ze neer in de gewenste neerzetzone. Pagina&#39;s en andere items die geen afmetingen zijn, kunnen alleen in de middelste neerzetzone worden geplaatst. Als u een afmeting in de middelste streek laat vallen, wordt een rapport automatisch in werking gesteld dat de hoogste punten voor die afmeting opneemt.
@@ -40,4 +43,4 @@ Standaard toont het diagram de bovenste vijf stromen. Als u op de **[!UICONTROL 
 
 Er zijn geen grenzen aan hoeveel u binnen het diagram van de Stroom kunt onderzoeken.
 
-U kunt uw diagram van de Stroom als deel van het .CSV dossier van een project ook uitvoeren en verder analyseren door naar **[!UICONTROL Project]** > **[!UICONTROL Download CSV]** te gaan.
+U kunt ook het stroomdiagram exporteren en verder analyseren als onderdeel van het CSV-bestand van een project door naar **[!UICONTROL Project]** > **[!UICONTROL Download CSV]** te gaan.
