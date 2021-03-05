@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: Stel een rapport van de Analyse van de Bijdrage in een project van de Werkruimte in werking.
 title: Bijdrageanalyse uitvoeren
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '575'
 ht-degree: 5%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 # Bijdrageanalyse uitvoeren
 
-De analyse van de bijdrage is een intensief machine het leren proces dat wordt ontworpen om contribuanten aan een waargenomen anomalie in Adobe Analytics te ontdekken. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
+De bijdrageanalyse is een intensief machinaal leerproces dat bedoeld is om contribuanten aan een waargenomen anomalie in Adobe Analytics aan het licht te brengen. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
 
 ## Bijdrageanalyse uitvoeren {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
@@ -27,20 +27,20 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 
    ![](assets/run_ca.png)
 
-* Houd de muisaanwijzer boven een afwijkend gegevenspunt in een lijndiagram in een lijndiagram. Klik op de **[!UICONTROL Analyze]** koppeling die wordt weergegeven.
+* Houd de muisaanwijzer boven een afwijkend gegevenspunt in een lijndiagram in een lijndiagram. Klik op de koppeling **[!UICONTROL Analyze]** die wordt weergegeven.
 
    ![](assets/contribution-analysis.png)
 
-1. (Optioneel) Nadat u in het regeldiagram of een tabel hebt geklikt, kunt u het bereik van de analyse (en dus de analyse versnellen) beperken door de afmetingen **[!UICONTROL Run Contribution Analysis]** uit te sluiten [](#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (Optioneel) Nadat u in het lijndiagram of een tabel op **[!UICONTROL Run Contribution Analysis]** hebt geklikt, kunt u het bereik van de analyse beperken (en zo de analyse versnellen) met [de afmetingen](#section_F6932F4BF74544B5872164E7B1E0C6FC) uitsluiten.
 
 1. Wacht terwijl de analyse van uw bijdrage wordt geladen. Dit kan veel tijd in beslag nemen, afhankelijk van de grootte van uw rapportenpakket en het aantal dimensies. De analyse van de bijdrage voert analyse op de hoogste 50.000 punten per dimensie uit.
-1. Analysis Workspace laadt vervolgens een nieuw deelvenster voor de analyse van bijdragen rechtstreeks in dit project. Er zullen veel bekende deelvensters verschijnen als u Contribute-analyse al eerder hebt gebruikt in Rapporten en Analytics:
+1. Analysis Workspace laadt vervolgens een nieuw deelvenster voor de analyse van bijdragen rechtstreeks in dit project. U zult veel vertrouwde panelen opmerken als u Analyse van de Bijdrage in Rapporten &amp; Analytics eerder hebt gebruikt:
 
-   * Een visualisatie die het aantal **bezoeken** op die dag toont.
-   * Een maandelijkse **Bezoek Tendelijn** voor context.
-   * **Top Items** die tot deze anomalie hebben bijgedragen, gesorteerd op de [bijdragescore](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), plus de metrische waarde in kwestie, en een Unique Visitors (Unieke bezoekers) die metrische informatie in context vanuit een grootteperspectief plaatsen.
+   * Een visualisatie die het aantal **Visits** op die dag toont.
+   * Een maandelijkse **Bezoekt trendlijn** voor context.
+   * **De belangrijkste** Punten die tot deze anomalie hebben bijgedragen, die door de  [bijdragescore](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), plus metrisch in kwestie wordt gesorteerd, en een Unieke Metrisch van Bezoekers om metrisch in context vanuit een rangschikkend perspectief te zetten.
 
-   * In de tabel [Gegenereerde segmenten](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) (bovenste itemclusters) worden koppelingen van topitems aangegeven op basis van de bijdragingsscore, anomalieën en het totale percentage dat bijdraagt aan de afwijkende maatstaf. Dit wordt vervolgens vastgelegd als een publiekssegment (bijdragesegment 1, bijdragesegment 2, enz.). Als u op de knop &quot;i&quot; (info) klikt, krijgt u een weergave van de definitie van elk automatisch segment, inclusief de items die er bovenaan staan:
+   * In de tabel [Gegenereerde segmenten](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Top Item Clusters) worden koppelingen van de bovenste items aangegeven op basis van de bijdragenscore, anomalieën en het totale percentage dat bijdraagt aan de afwijkende meting. Dit wordt vervolgens vastgelegd als een publiekssegment (bijdragesegment 1, bijdragesegment 2, enz.). Als u op de knop &quot;i&quot; (info) klikt, krijgt u een weergave van de definitie van elk automatisch segment, inclusief de items die er bovenaan staan:
 
       ![](assets/auto_segment.png)
 
@@ -60,16 +60,16 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 
 Het kan voorkomen dat u bepaalde dimensies wilt uitsluiten van de Contribute-analyse. Het kan bijvoorbeeld zijn dat u helemaal niets aan uw browser of hardware kunt schelen en dat u de analyse wilt versnellen door deze te verwijderen.
 
-1. Nadat u hebt geklikt **[!UICONTROL Run Contribution Analysis]** (of **[!UICONTROL Analyze]** in een lijndiagram), wordt het **[!UICONTROL Excluded Dimensions]** deelvenster weergegeven.
+1. Nadat u **[!UICONTROL Run Contribution Analysis]** (of **[!UICONTROL Analyze]** in een lijngrafiek) hebt geklikt, toont het **[!UICONTROL Excluded Dimensions]** paneel.
 
-1. Sleep gewoon ongewenste afmetingen naar het **[!UICONTROL Excluded Dimensions]** deelvenster en sla de lijst op door op **[!UICONTROL Set as Default]** te klikken. Of klik **[!UICONTROL Clear All]** om opnieuw te beginnen met het selecteren van de afmetingen die u wilt uitsluiten.
+1. Sleep gewoon ongewenste afmetingen naar het **[!UICONTROL Excluded Dimensions]**-deelvenster en sla de lijst op door op **[!UICONTROL Set as Default]** te klikken. U kunt ook op **[!UICONTROL Clear All]** klikken om opnieuw te beginnen met het selecteren van de afmetingen die u wilt uitsluiten.
 
    ![](assets/exclude_dimensions.png)
 
-1. Klik **[!UICONTROL Run Contribution Analysis]** opnieuw nadat u afmetingen hebt toegevoegd om uit te sluiten (of niet om te kiezen).
-1. Als u ooit de lijst van uitgesloten afmetingen moet herzien, enkel tweemaal klikken Afmetingen, en de lijst van uitgesloten dimensies toont:
+1. Klik nogmaals op **[!UICONTROL Run Contribution Analysis]** nadat u afmetingen hebt toegevoegd om uit te sluiten (of wanneer u dit niet wilt doen).
+1. Als u ooit de lijst van uitgesloten afmetingen moet herzien, enkel dubbelklik Dimension, en de lijst van uitgesloten dimensies toont:
 
    ![](assets/excluded-dimensions.png)
 
-1. Verwijder ongewenste afmetingen door op de x naast de elementen te klikken en de lijst vervolgens op te slaan door op **[!UICONTROL Set as Default]**.
+1. Verwijder gewoon ongewenste afmetingen door op de x naast de elementen te klikken en de lijst vervolgens op te slaan door op **[!UICONTROL Set as Default]** te klikken.
 
