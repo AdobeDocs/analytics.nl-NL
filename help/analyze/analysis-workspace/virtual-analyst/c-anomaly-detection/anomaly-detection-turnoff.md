@@ -1,16 +1,19 @@
 ---
-description: 'null'
-title: anomaliedetectie uitschakelen
+description: Schakel Anomaly-detectie uit op elke meting.
+title: Anomaliedetectie uitschakelen
 uuid: d270d530-19da-4ee5-99a9-258050f8ae95
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 24%
 
 ---
 
 
-# anomaliedetectie uitschakelen
+# Anomaliedetectie uitschakelen
 
-U kunt anomaliedetectie op kolomniveau uitschakelen door naar de kolominstellingen te gaan en de controle ongedaan te maken **[!UICONTROL Anomalies]**.
+U kunt anomaliedetectie op kolomniveau uitschakelen door naar de kolominstellingen te gaan en **[!UICONTROL Anomalies]** uit te schakelen.
 
 ![](assets/turnoff_anomalies.png)
 
