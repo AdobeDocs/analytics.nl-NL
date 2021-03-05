@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: Beperkingen bij het gebruik van Report Builder en Microsoft-Power BI.
 title: Beperkingen en specificaties
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '622'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Beperkingen en specificaties
 
-## Power BI publicatiebeperkingen {#section_D4BDD70B20F94A0FAE53531CA528AE42}
+## Publicatiebeperkingen voor Power BI {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 1%
 * Het planningsproces zal ophouden exporterende verzoeken wanneer het 101e verzoek wordt bereikt.
 * Alleen de eerste 10.000 rijen met analysegegevens worden naar Power BI verzonden per Report Builder-aanvraag. De overige rijen worden genegeerd.
 
-## Een Report Builder-aanvraag bewerken na publicatie naar Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
+## Bewerk een Report Builder-verzoek na publicatie naar Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Het bewerken van een Report Builder-aanvraag nadat deze naar Power BI is gepubli
 
 * **Zaak 2**: U zet een sectie van uw werkboek aan een dashboard in Power BI vast en u verwijdert later die vastgezette sectie (zoals een grafiek of een lijst) uit het werkboek. Hierdoor wordt de visualisatie verbroken.
 
-## De naam van een Power BI-rapport wijzigen {#section_2E7893A78B914EBFACB2B08CBD9E472E}
+## De naam wijzigen van een Power BI-rapport {#section_2E7893A78B914EBFACB2B08CBD9E472E}
 
 Door gebrek, zal de naam van werkboekfilename (zonder de uitbreiding .xlsx) worden bevolkt, behalve dat worden de ruimten vervangen met onderstrepingstekens.
 
@@ -70,5 +70,5 @@ Houd rekening met het volgende:
 
 * Het label mag geen combinatie zijn van letters en cijfers die kunnen worden verward met een rij- en kolomadres. A100 kan bijvoorbeeld geen label zijn, omdat dit het adres van een cel in een werkblad is.
 * De volgende tekens zijn geen geldige labeltekens: &#39;#&#39;, &#39;@&#39;, &#39;!&#39;, &#39;$&#39;, &#39;^&#39;, &#39;&amp;&#39;, &#39;*&#39;, &#39;`&#39;, &#39;~&#39;, &#39;. Deze worden vervangen door een onderstrepingsteken.
-* Wanneer u een ongeldige naam ingaat, zal een waarschuwingsbericht worden getoond dat een auto-geproduceerde naam zal voorstellen. Als u klikt **[!UICONTROL Yes]**, wordt deze naam gebruikt. Als u klikt **[!UICONTROL No]**, zal de Geavanceerde UI van de Tovenaar u de nieuwe naam laten ingaan.
+* Wanneer u een ongeldige naam ingaat, zal een waarschuwingsbericht worden getoond dat een auto-geproduceerde naam zal voorstellen. Als u **[!UICONTROL Yes]** klikt, zal deze naam worden gebruikt. Als u **[!UICONTROL No]** klikt, zal Geavanceerde UI van de Tovenaar u de nieuwe naam laten ingaan.
 
