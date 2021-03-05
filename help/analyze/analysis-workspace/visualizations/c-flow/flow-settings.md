@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Gebruik de stroomvisualisatie in een project van de Werkruimte.
 title: Stroominstellingen
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 4%
 
 ---
 
@@ -17,12 +20,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Klikopties met de rechtermuisknop
 
-| Option | Beschrijving |
+| Optie | Beschrijving |
 |--- |--- |
 | Focus op dit knooppunt | Wijzig de focus in het geselecteerde knooppunt. Het focusknooppunt verschijnt in het midden van het stroomdiagram. |
 | Opnieuw starten | Hiermee gaat u terug naar de constructor van het Freeform-diagram, waar u een nieuw stroomdiagram kunt maken. |
 | Segment maken van dit punt in de flow | Maak een segment. Dit neemt u in de Bouwer van het Segment, waar u het nieuwe segment kunt vormen. |
-| Uitsplitsing | Verdeel de knoop neer door beschikbare Dimensies, Metriek, of Tijd. |
+| Uitsplitsing | Verdeel de knoop neer door beschikbare Dimension, Metriek, of Tijd. |
 | Trend | Creeer een trended diagram voor de knoop. |
 | Volledige kolom uitvouwen | Vouw een kolom uit om alle knooppunten weer te geven. Standaard worden alleen de bovenste vijf knooppunten weergegeven. |
 | Volledige kolom samenvouwen | Alle knooppunten in een kolom verbergen. |
