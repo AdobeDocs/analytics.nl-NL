@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: Een uitvalvisualisatie configureren.
 title: Een uitvalvisualisatie configureren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '677'
 ht-degree: 2%
 
 ---
@@ -19,11 +19,11 @@ U kunt zelfs segmenten binnen een aanraakpunt toevoegen. U kunt bijvoorbeeld seg
 
 Er geldt geen beperking voor het aantal stappen dat u kunt toevoegen of het aantal gebruikte dimensies.
 
-U kunt tekenen op eVars, met inbegrip van het verhandelen van eVars en [listVars](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) (variabelen die veelvoudige waarden per slag kunnen hebben, zoals producten, listVars, het verhandelen van eVars en lijststeunen). Stel dat iemand bijvoorbeeld naar schoenen kijkt, naar shirt op de ene pagina, en op de volgende pagina die ze bekijken, naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
+U kunt plakken op eVars, met inbegrip van het verhandelen van eVars en [listVars](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) (variabelen die veelvoudige waarden per klap, zoals producten, listVars, het verhandelen eVars en lijststeunen kunnen hebben). Stel dat iemand bijvoorbeeld naar schoenen kijkt, naar shirt op de ene pagina, en op de volgende pagina die ze bekijken, naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
 
-1. Sleep een [!UICONTROL Fallout] visualisatie van de drop-down Visualisaties in een [!UICONTROL Freeform Table].
+1. Sleep een [!UICONTROL Fallout] visualisatie van de drop-down Visualisaties in [!UICONTROL Freeform Table].
 
-1. Sleep de afmetingen van de pagina naar de tabel voor vrije vorm en sleep vanaf deze tabel een pagina (in dit geval Home - JJEsquire) naar het **[!UICONTROL Add TouchPoint]** veld als eerste aanraakpunt.
+1. Sleep de afmetingen van de pagina naar de tabel voor vrije vorm en sleep vanaf deze tabel een pagina (in dit geval Home - JJEsquire) naar het veld **[!UICONTROL Add TouchPoint]** als eerste aanraakpunt.
 
    ![](assets/fallout1.png)
 
@@ -35,7 +35,7 @@ U kunt tekenen op eVars, met inbegrip van het verhandelen van eVars en [listVars
 
 1. Voeg aanraakpunten toe totdat de reeks is voltooid.
 
-   U kunt meerdere aanraakpunten **** combineren door een of meer aanvullende aanraakpunten naar een aanraakpunt te slepen.
+   U kunt **meerdere aanraakpunten combineren** door een of meer aanvullende aanraakpunten naar een aanraakpunt te slepen.
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ U kunt tekenen op eVars, met inbegrip van het verhandelen van eVars en [listVars
 
    ![](assets/multiple_obj_touchpoint.png)
 
-1. You can also **constrain individual touchpoints to the next hit** (as opposed to &quot;eventually&quot;) within the path. Onder elk aanraakpunt bevindt zich een kiezer met de opties &quot;Eventueel pad&quot; en &quot;Volgend pad&quot;, zoals u hier ziet:
+1. U kunt **individuele touchpoints aan volgende hit** (in tegenstelling tot &quot;uiteindelijk&quot;) binnen de weg ook beperken. Onder elk aanraakpunt bevindt zich een kiezer met de opties &quot;Eventueel pad&quot; en &quot;Volgend pad&quot;, zoals u hier ziet:
 
    ![](assets/next-hit-eventually.png)
 
@@ -60,13 +60,13 @@ U kunt tekenen op eVars, met inbegrip van het verhandelen van eVars en [listVars
  </tbody> 
 </table>
 
-## Fallout-instellingen {#section_0C7C89D72F0B4D6EB467F278AC979093}
+## Afvalinstellingen {#section_0C7C89D72F0B4D6EB467F278AC979093}
 
 | Instelling | Beschrijving |
 |--- |--- |
 | Container voor uitvallen <ul><li>Bezoek</li><li>Bezoeker</li></ul> | Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van bezoekers te analyseren. De standaardinstelling is Bezoeker.  Met deze instellingen kunt u de betrokkenheid van bezoekers op bezoekersniveau (verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
 
-Wanneer u met de **rechtermuisknop op een aanraakpunt** klikt, worden de volgende opties weergegeven:
+Wanneer u **met de rechtermuisknop op een aanraakpunt** klikt, worden de volgende opties weergegeven:
 
 | Optie | Beschrijving |
 |--- |--- |
