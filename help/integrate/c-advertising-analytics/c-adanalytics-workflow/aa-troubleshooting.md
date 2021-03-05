@@ -1,21 +1,24 @@
 ---
-description: 'null'
-title: Reclameanalyse problemen oplossen
+description: Problemen met Advertising Analytics oplossen en oplossen.
+title: Problemen met Advertising Analytics oplossen
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 9%
 
 ---
 
 
-# Reclameanalyse problemen oplossen
+# Problemen met Advertising Analytics oplossen
 
 * [Ik zie mijn rapportsuite niet in de sectie Toewijzing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [Er treedt een fout op bij het verifiëren bij Google Adwords-account...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
-## Ik zie mijn rapportsuite niet in de sectie Toewijzing {#section_9CAACDE6445C492DBAE542BA74DE6316}
+## Ik zie mijn Reeks van het Rapport in de sectie van de Afbeelding {#section_9CAACDE6445C492DBAE542BA74DE6316} niet
 
-U probeert een nieuwe advertentieaccount [in te](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) stellen en u ziet uw rapportsuite niet in de **[!UICONTROL Select Report Suite]** vervolgkeuzelijst. Hiervoor zijn twee mogelijke redenen:
+U probeert [een nieuw Advertising Account in te stellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) en u ziet uw rapportsuite niet in de vervolgkeuzelijst **[!UICONTROL Select Report Suite]**. Hiervoor zijn twee mogelijke redenen:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -26,17 +29,17 @@ U probeert een nieuwe advertentieaccount [in te](/help/integrate/c-advertising-a
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. De rapportsuite wordt niet toegewezen aan de Experience Cloud Org-id van de aanmeldende gebruiker. </p> </td> 
-   <td colname="col2"> <p>Raadpleeg <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  > Kaarten voor rapporten naar een organisatie</a> voor instructies. </p> </td> 
+   <td colname="col1"> <p>1. De rapportsuite wordt niet toegewezen aan de Experience Cloud Org-id van de aanmeldingsgebruiker. </p> </td> 
+   <td colname="col2"> <p>Raadpleeg <a href="https://docs.adobe.com/content/help/nl-NL/core-services/interface/about-core-services/report-suite-mapping.html"  > Kaartrapportsuites aan een organisatie</a> voor instructies. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2. De rapportsuite is niet beschikbaar voor rapportage van Advertising Analytics. </p> </td> 
-   <td colname="col2"> <p>Raadpleeg de <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > rapportsuite</a> voor instructies. </p> </td> 
+   <td colname="col1"> <p>2. De rapportsuite is niet ingericht voor Advertising Analytics-rapportage. </p> </td> 
+   <td colname="col2"> <p>Raadpleeg <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > Providingrapport Suite</a> voor instructies. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Er is een fout opgetreden bij het verifiëren bij Google AdWords-account {#section_C99EA9A1946E4908B36778A331142B84}
+## Er treedt een fout op bij het verifiëren bij Google AdWords-account {#section_C99EA9A1946E4908B36778A331142B84}
 
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
