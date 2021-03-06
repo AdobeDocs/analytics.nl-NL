@@ -1,13 +1,13 @@
 ---
-description: 'null'
+description: Gebruik de functie DoubleClick voor adverteerders bij de integratie met Adobe Analytics.
 keywords: DFA
 title: DFA Data Connector voor Adobe Analytics
-topic: Data connectors
+topic: Gegevensconnectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1736'
 ht-degree: 2%
 
 ---
@@ -126,7 +126,7 @@ De meetgegevens voor de mediadracht zijn ook beschikbaar vanaf versie 2.0 van de
 
 Verwacht wordt dat de time-outs zullen afnemen met de 2.0-integratie, aangezien de 302 omleidingen zijn geëlimineerd. Het elimineren van deze hop zou onderbrekingen moeten verminderen, en de hoeveelheid DFA gegevens verhogen u kunt integreren.
 
-Als een configuratie van de Vullinglight een gedeelde configuratie in DFA is, de verbetering van versie 1. 5 tot 2.0 zorgt ervoor dat conversiegegevens voor alle gedeelde adverteerders in de Floodlight-configuratie worden opgenomen in de rapportsuite.
+Als een configuratie van de Vullinglight een gedeelde configuratie in DFA is, de verbetering van versie 1. 5 tot 2.0 zorgt ervoor dat conversiegegevens voor alle gedeelde adverteerders in de configuratie van de Vullingslamp worden opgenomen in de rapportsuite.
 
 ### Bijwerken naar versie 2.0 {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
 
