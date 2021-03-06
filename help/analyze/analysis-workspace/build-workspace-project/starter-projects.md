@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: Maak werkruimteprojecten op basis van standaard- of aangepaste sjablonen.
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1384'
 ht-degree: 3%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 U kunt kiezen of u een project wilt maken van:
 
-* **Leeg project (standaard)**: Zie Een Analysis Workspace-project [](/help/analyze/analysis-workspace/home.md)maken voor instructies.
+* **Leeg project (standaard)**: Zie Een Analysis Workspace-project [ ](/help/analyze/analysis-workspace/home.md)maken voor instructies.
 * **Standaardsjabloon**: Deze sjablonen worden gemaakt door Adobe en worden samen met het product verzonden.
-* **Aangepaste sjabloon**: Deze sjablonen kunnen worden gemaakt, gedeeld of verwijderd door gebruikers met beheerdersrechten of door niet-beheerders, op voorwaarde dat hun de [!UICONTROL Analysis Workspace: Save as Template] machtiging is verleend in de Admin Console. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
+* **Aangepaste sjabloon**: Deze sjablonen kunnen worden gemaakt, gedeeld of verwijderd door gebruikers met beheerdersrechten of door niet-beheerders, op voorwaarde dat hun de  [!UICONTROL Analysis Workspace: Save as Template] machtiging is verleend in de Admin Console. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -34,7 +34,7 @@ Gebruikers met beheerdersrechten kunnen elk project dat ze maken, omzetten in ee
 
    >[!NOTE]
    >
-   >Door gebrek, zijn de projectmalplaatjes zichtbaar aan iedereen in uw organisatie. U kunt ze ordenen door labels toe te passen. (Ga naar **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** om tags en beschrijvingen te bewerken.)
+   >Door gebrek, zijn de projectmalplaatjes zichtbaar aan iedereen in uw organisatie. U kunt ze ordenen door labels toe te passen. (Ga naar **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** om markeringen en beschrijvingen uit te geven.)
 
 ### Handelingen die u kunt uitvoeren op aangepaste sjablonen
 
@@ -42,7 +42,7 @@ Gebruikers met beheerdersrechten kunnen elk project dat ze maken, omzetten in ee
 
 | Handeling | Beschrijving |
 |--- |--- |
-| Sjabloon bewerken | Hiermee kan een beheerder de sjabloon bewerken door de gegevensbron te wijzigen, componenten, visualisaties, datumbereiken enz. te wijzigen.  Als u een aangepaste sjabloon wilt bewerken,<ul><li>Open de lijst met aangepaste sjablonen in Analysis Workspace, selecteer een sjabloon en klik op Sjabloon bewerken, of</li><li>Navigeer in Analytics naar Componenten > Projecten en filter vervolgens op Sjablonen. Klik op de naam van de sjabloon die u wilt bewerken.</li></ul>**Opmerking:** Nadat u een sjabloon hebt bewerkt, hebt u, afhankelijk van de situatie, twee opties: Opslaan, Opslaan als. Zo verschillen ze:<ul><li>**Opslaan:** Hiermee werkt u de aangepaste sjabloon voor alle gebruikers bij. Wanneer iemand anders een project van dit douanemalplaatje creeert, zullen zij de veranderingen zien u hebt aangebracht.</li><li>**Opslaan als:** Hiermee maakt u een kopie van de aangepaste sjabloon met uw wijzigingen. (U kunt zien dat u in de bewerkingsmodus werkt wanneer het menu-item Delen > Project delen is uitgeschakeld.)</li></ul> |
+| Sjabloon bewerken | Hiermee kan een beheerder de sjabloon bewerken door de gegevensbron te wijzigen, componenten, visualisaties, datumbereiken enz. te wijzigen.  Als u een aangepaste sjabloon wilt bewerken,<ul><li>Open de lijst met aangepaste sjablonen in Analysis Workspace, selecteer een sjabloon en klik op Sjabloon bewerken, of</li><li>Navigeer in Analytics naar Componenten > Projecten en filter vervolgens op Sjablonen. Klik op de naam van de sjabloon die u wilt bewerken.</li></ul>**Opmerking:** Na het bewerken van een sjabloon hebt u, afhankelijk van de situatie, twee opties: Opslaan, Opslaan als. Zo verschillen ze:<ul><li>**Opslaan:** werkt de aangepaste sjabloon voor alle gebruikers bij. Wanneer iemand anders een project van dit douanemalplaatje creeert, zullen zij de veranderingen zien u hebt aangebracht.</li><li>**Opslaan als:** hiermee maakt u een kopie van de aangepaste sjabloon met uw wijzigingen. (U kunt zien dat u in de bewerkingsmodus werkt wanneer het menu-item Delen > Project delen is uitgeschakeld.)</li></ul> |
 | Zoeken op sjablonen | Klik in het dialoogvenster Aangepaste sjablonen op Sjablonen zoeken. |
 | Sjablonen sorteren | U kunt sjablonen alfabetisch sorteren, op relevantie en op aanmaakdatum.  Klik in het dialoogvenster Aangepaste sjablonen op Sorteren: |
 | Tags toepassen op een sjabloon | Open de sjabloon en ga naar Project > Projectinfo &amp; -instellingen. Klik op Codes toevoegen. |
@@ -55,7 +55,7 @@ Wanneer u een Workspace voor het eerst opent, zijn sjablonen beschikbaar in de l
 
 U kunt deze vooraf ingevulde sjablonen ongewijzigd gebruiken of deze aan uw behoeften aanpassen (door bijvoorbeeld metriek of visualisaties toe te voegen of te vervangen) en ze onder een andere naam op te slaan.
 
-Hier volgt een videozelfstudie over [standaardsjablonen in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
+Hier volgt een videozelfstudie op [Standaardsjablonen in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Hier zijn beschikbare sjablonen en de vragen die elke sjabloon kan beantwoorden.
 
@@ -92,32 +92,32 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 >
 >Mobiele sjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor Mobiel.
 
-* **Berichten:** Richt zich op in-app en duw overseinenprestaties.
-* **Locatie:** Bevat een Kaart met locatiegegevens.
-* **Belangrijkste cijfers:** Houd een impuls op de belangrijkste metriek van uw app.
-* **Toepassingsgebruik:** Hoeveel gebruikers van apps, lanceert, en lanceert eerst app had, en wat was de gemiddelde zittingslengte?
-* **Overname:** Zie hoe mobiele verwervingskoppelingen werken.
+* **Berichten:** focus op in-app en pushberichten.
+* **Locatie:** bevat een kaart met locatiegegevens.
+* **Belangrijke cijfers:** houd een impuls aan de belangrijkste meetgegevens van uw app.
+* **Toepassingsgebruik:** Hoeveel gebruikers van apps, startende apps en startende apps heeft de app voor het eerst, en wat was de gemiddelde sessielengte?
+* **Overname:** Zie hoe mobiele acquisitie-koppelingen werken.
 * **Prestaties:** Hoe presteert de app en waar hebben gebruikers problemen?
-* **Behoud:** Wie zijn mijn loyale gebruikers en wat doen ze?
+* **Behoud:** Wie zijn mijn loyale gebruikers en wat doen zij?
 * **Reizen:** Wat zijn de opvallende gebruikspatronen voor mijn app?
 
 ### Detailhandel
 
-* **Campagneprestaties:** Welke campagnes drijven de meeste inkomsten?
+* **Campagne Prestaties:** Welke campagnes drijven de meeste opbrengst?
 * **Producten:** Welke producten presteren het beste?
 
 ### Web
 
-* **Overname:** Wat zijn de hoogste verkeersbestuurders aan mijn website?
-* **Inhoudsverbruik:** Wat zijn de beste plaatsen waar mensen op mijn site gaan?
+* **Verwerving:** Wat zijn de belangrijkste verkeersstuurprogramma&#39;s op mijn website?
+* **Inhoudsconsumptie:** Wat zijn de beste plaatsen waar mensen op mijn site naartoe gaan?
 * **Behoud:** Welke soorten gebruikers waarschijnlijk loyale gebruikers van mijn plaats zijn?
-* **Technologie:** Welke technologie gebruiken mensen om tot mijn plaats toegang te hebben?
+* **Technologie:** Welke technologie gebruiken mensen om mijn site te openen?
 
 ### Mensen
 
 >[!NOTE]
 >
->The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/data/people.html).
+>Het malplaatje van Mensen en zijn bijbehorende metrisch van Mensen is beschikbaar voor gebruik slechts als deel van [het ApparaatCo-op van Adobe Experience Cloud](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/data/people.html).
 
 Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde versie van de Unieke metrische Bezoekers is. Met de sjabloon Personen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. Met de sjabloon kunt u
 
@@ -133,7 +133,7 @@ Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde ver
 
 <!--This content is mirrored in the CDA doc.-->
 
-Met deze sjabloon kunt u essentiële gegevens over de prestaties van verschillende apparaten bekijken. Deze service is alleen beschikbaar voor klanten die toegang hebben tot [Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA).
+Met deze sjabloon kunt u essentiële gegevens over de prestaties van verschillende apparaten bekijken. Deze is alleen beschikbaar voor klanten die toegang hebben tot [Apparaatanalyse](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA).
 
 * **Bijzondere notitie voor de leden van de coopgrafiek**: Toont welk gedeelte van uw rapportreeks bezoekers in gebieden bevat waar de co-op grafiek wordt gesteund, en gebieden waar het niet wordt gesteund.
 * **Identificatie van gebruikers**: Hiermee kunt u zien hoe vaak bezoekers van uw site worden geïdentificeerd met methoden die zijn gebaseerd op Apparaatanalyse.
