@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: Gebruik Report Builder met Microsoft Power BI.
 title: Publiceren naar Power BI - overzicht
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '957'
 ht-degree: 13%
 
 ---
@@ -26,7 +26,7 @@ De combinatie van het rapportgenererende vermogen van Report Builder met de visu
 * Adobe Report Builder 5.5 [geïnstalleerd](/help/analyze/report-builder/setup/t-install-arb.md)
 * Active Microsoft-account waarmee u zich kunt aanmelden bij Power BI
 
-## Werkmap publiceren naar Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
+## Werkboek publiceren naar Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
 
 De geplande werkboeken zijn geformatteerde spreadsheets van Excel gevuld met gegevens van Adobe Analytics en verzonden op een regelmatig geplande basis.
 
@@ -48,7 +48,7 @@ De geplande werkboeken zijn geformatteerde spreadsheets van Excel gevuld met geg
 
 **De werkboekgegevens van Report Builder weergeven in Power BI**
 
-1. Dubbelklik in Power BI op het werkboek onder het [!UICONTROL Workbooks] menu.
+1. Dubbelklik in Power BI op het werkboek onder het menu [!UICONTROL Workbooks].
 
    ![](assets/workbooks-power-bi.png)
 
@@ -56,7 +56,7 @@ De geplande werkboeken zijn geformatteerde spreadsheets van Excel gevuld met geg
 
 1. U kunt dan een gebied van dit werkboek vastzetten om het in om het even welk van uw dashboards van Power BI te omvatten.
 
-## Alle opgemaakte tabellen in het werkboek publiceren als Power BI-datasettabellen {#section_7C54A54E75184DD6BAEF4ACCE241239A}
+## Alle opgemaakte tabellen in het werkboek publiceren als tabellen {#section_7C54A54E75184DD6BAEF4ACCE241239A} voor Power BI-gegevenssets
 
 >[!NOTE]
 >
@@ -69,24 +69,24 @@ In plaats van het invoeren van het volledige werkboek, kunt u slechts de inhoud 
 **Een opgemaakte tabel in Report Builder publiceren**
 
 1. Bij Report Builder genereert u een tabel met gegevens die een koptekstrij bevat, gevolgd door een gegevensrij.
-1. Selecteer de tabel en selecteer **[!UICONTROL Format as Table]** deze in het [!UICONTROL Home] menu. De tabel krijgt standaard een naam (Tabel 1, Tabel 2, enzovoort), maar u kunt de naam in het [!UICONTROL Design]menu wijzigen.
+1. Selecteer de tabel en selecteer **[!UICONTROL Format as Table]** in het menu [!UICONTROL Home]. De tabel krijgt standaard een naam (Tabel 1, Tabel 2, enz.), maar u kunt de naam wijzigen in het menu [!UICONTROL Design].
 
 1. Klik op de werkbalk Report Builder op **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
 1. Klik in de wizard Standaard plannen op **[!UICONTROL Advanced Scheduling Options]**.
-1. Schakel in het [!UICONTROL Scheduling Wizard - Advanced]tabblad het vakje naast **[!UICONTROL Publishing Options]** **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
+1. Schakel op het tabblad [!UICONTROL Scheduling Wizard - Advanced] het vakje naast **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]** in.**[!UICONTROL Publishing Options]**
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. (Optioneel) U kunt de naam van het gepubliceerde element in Power BI aanpassen. Dit kan nuttig zijn als u versioning als deel van de werkboeknaam (b.v., mijnwerkboek_v1.1.xlsx) gebruikt en u niet het versieaantal in de naam van de gepubliceerde activa van de Power BI wilt tonen. Het heeft het toegevoegde voordeel dat het gepubliceerde element niet verandert als het versienummer verandert. (Bekijk [hier de specificaties](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) .)
+1. (Optioneel) U kunt de naam van het gepubliceerde element in Power BI aanpassen. Dit kan nuttig zijn als u versioning als deel van de werkboeknaam (b.v., mijnwerkboek_v1.1.xlsx) gebruikt en u niet het versieaantal in de naam van de gepubliceerde activa van de Power BI wilt tonen. Het heeft het toegevoegde voordeel dat het gepubliceerde element niet verandert als het versienummer verandert. (Bekijk [specificaties](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) hier.)
 
 **Tabelgegevens weergeven in Power BI**
 
-1. Ga in Power BI naar het menu **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** .
+1. Ga in Power BI naar **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
 
    ![](assets/datasets-menu.png)
 
-1. Selecteer de dataset die u publiceerde en klik het [!UICONTROL Create report] pictogram naast het. De tabellen worden weergegeven als velden.
+1. Selecteer de dataset die u publiceerde en klik [!UICONTROL Create report] pictogram naast het. De tabellen worden weergegeven als velden.
 
    ![](assets/formatted-tables.png)
 
@@ -94,7 +94,7 @@ In plaats van het invoeren van het volledige werkboek, kunt u slechts de inhoud 
 
    ![](assets/view-table-dataset.png)
 
-1. Vanuit het [!UICONTROL Visualizations] menu kunt u selecteren hoe u een tabel in Power BI visualiseert. U kunt er bijvoorbeeld voor kiezen uw gegevens als een lijngrafiek weer te geven:
+1. In het menu [!UICONTROL Visualizations] kunt u opgeven hoe u een tabel in Power BI wilt visualiseren. U kunt er bijvoorbeeld voor kiezen uw gegevens als een lijngrafiek weer te geven:
 
    ![](assets/bi-line-graph.png)
 
@@ -112,7 +112,7 @@ U kunt al uw verzoeken in datasetlijsten veranderen en visualisaties bovenop hen
 1. Klik op de werkbalk Report Builder op **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
 1. Klik in de wizard Standaard plannen op **[!UICONTROL Advanced Scheduling Options]**.
-1. Schakel op het [!UICONTROL Scheduling Wizard - Advanced]**[!UICONTROL Publishing Options]** tabblad het vakje naast **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** ![](assets/advanced-schedule-wizard2.png)
+1. Schakel op de [!UICONTROL Scheduling Wizard - Advanced]-tab **[!UICONTROL Publishing Options]** het vakje naast **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** ![](assets/advanced-schedule-wizard2.png) in
 
 1. Klik op **[!UICONTROL OK]**.
 
@@ -120,11 +120,11 @@ U kunt al uw verzoeken in datasetlijsten veranderen en visualisaties bovenop hen
 
 Elk gepland Report Builder verzoek zal als lijst in de dataset worden gepubliceerd. Elke verzoeklijst wordt genoemd na de primaire dimensie in het verzoek en het heeft een [!UICONTROL Report Suite] en een [!UICONTROL Segments] kolom.
 
-1. Ga in Power BI naar het menu **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** .
+1. Ga in Power BI naar **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
 
-1. Selecteer de aanvraag die u hebt gepubliceerd en klik op het [!UICONTROL Create report] pictogram ernaast.
+1. Selecteer het verzoek dat u hebt gepubliceerd en klik op het [!UICONTROL Create report] pictogram naast het.
 
-   De aanvragen worden als tabellen in het [!UICONTROL Fields] menu weergegeven.
+   De aanvragen worden als tabellen weergegeven in het menu [!UICONTROL Fields].
 
    ![](assets/published-requests.png)
 
@@ -132,7 +132,7 @@ Elk gepland Report Builder verzoek zal als lijst in de dataset worden gepublicee
    >
    >Ongeacht hoe u uw verzoek van de Report Builder om op het aantekenvel (spillay-out, douanelay-out, sommige onzichtbare kolommen) vormde worden geplaatst, zal Report Builder altijd uw verzoek in het zelfde tweedimensionale, enige formaat van de koptekstrij publiceren: Datum, Dimension, Metriek, Rapporten, Segmenten.
 
-1. U ziet ook dat er een extra tabel met de naam **[!UICONTROL Legend]**. Als u een verzoek uit de context van de Report Builder neemt, kan het moeilijk zijn om te herinneren wat elk verzoek voor staat. Het doel van de Legende lijst is, bijvoorbeeld, om u de naam van elk verzoek onder Lijst ID te tonen. U kunt ook de andere Legend-kolommen toevoegen voor een volledige weergave van het verzoek.
+1. U ziet ook een extra tabel met de naam **[!UICONTROL Legend]**. Als u een verzoek uit de context van de Report Builder neemt, kan het moeilijk zijn om te herinneren wat elk verzoek voor staat. Het doel van de Legende lijst is, bijvoorbeeld, om u de naam van elk verzoek onder Lijst ID te tonen. U kunt ook de andere Legend-kolommen toevoegen voor een volledige weergave van het verzoek.
 
    ![](assets/legend-table.png)
 
