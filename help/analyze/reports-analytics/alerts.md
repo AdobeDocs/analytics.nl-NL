@@ -1,11 +1,14 @@
 ---
-description: 'null'
+description: Gebruik waarschuwingen in Rapporten en Analyse.
 subtopic: Alerts
 title: Waarschuwingen
-topic: Reports and analytics
+topic: Rapporten en analyses
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 6%
 
 ---
 
@@ -14,20 +17,20 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## Waarschuwingen {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Met Intelligente waarschuwingen kunt u, als het nieuwe waarschuwingssysteem voor alle Adobe Analytics-componenten, waarschuwingen maken en beheren, compleet met een voorvertoning van waarschuwingen en een bijdrage van de regel. U kunt
+Met Intelligente waarschuwingen kunt u, net als met het nieuwe waarschuwingssysteem voor Adobe Analytics, waarschuwingen maken en beheren, compleet met een voorvertoning van waarschuwingen en een bijdrage van de regel. U kunt
 
-* Berichten opstellen op basis van anomalieën (90%, 95% of 99% drempelwaarden); % wijziging; boven/onder).
-* Een voorvertoning weergeven van hoe vaak een waarschuwing wordt geactiveerd.
-* Verzend alarm door e-mail of SMS met verbindingen naar auto-geproduceerde projecten van de Werkruimte van de Analyse.
-* Maak &#39;gestapelde&#39; waarschuwingen die meerdere meetgegevens vastleggen in één waarschuwing.
+* Meldingen opstellen op basis van anomalieën (met drempelwaarden van 90%, 95% of 99%); wijzigingspercentage; hoger dan/lager dan).
+* Een voorvertoning bekijken van het aantal keren dat een melding is geactiveerd.
+* Een melding sturen via e-mail of sms, met koppelingen naar automatisch gegenereerde Analysis Workspace-projecten.
+* &#39;Gestapelde&#39; meldingen maken waarbij meerdere metrics zijn opgenomen in één waarschuwing.
 
-U kunt dit nieuwe waarschuwingssysteem openen vanuit **[!UICONTROL More]** > **[!UICONTROL Alerts]** in elk rapport in Rapporten en Analyse.
+U kunt dit nieuwe Alarmsysteem van **[!UICONTROL More]** > **[!UICONTROL Alerts]** in om het even welk rapport in Rapporten &amp; Analytics toegang hebben.
 
-Voor meer informatie, ga naar de documentatie van de Werkruimte van de Analyse over [Intelligente Alarm](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
+Ga voor meer informatie naar de Analysis Workspace-documentatie op [Intelligente waarschuwingen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
 
 ## Een waarschuwing toevoegen {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
-Stappen waarin wordt beschreven hoe u een waarschuwing kunt toevoegen in Adobe Analytics.
+Stappen die beschrijven hoe u een waarschuwing in Adobe Analytics kunt toevoegen.
 
 <!-- 
 
@@ -35,7 +38,7 @@ t_add_an_alert.xml
 
  -->
 
-Navigeer naar de nieuwe waarschuwingsfunctie in het menu **[!UICONTROL Analytics]** > **[!UICONTROL Components]** . U kunt het echter wel openen vanuit rapporten en analyses:
+Navigeer naar de nieuwe waarschuwingsfunctie in het menu **[!UICONTROL Analytics]** > **[!UICONTROL Components]**. U kunt het echter wel openen vanuit rapporten en analyses:
 
 1. Open in Rapporten en Analytics het rapport waarin u een waarschuwing wilt instellen.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
@@ -45,11 +48,11 @@ Navigeer naar de nieuwe waarschuwingsfunctie in het menu **[!UICONTROL Analytics
 
 Taakcontext
 
-1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Hiermee gaat u naar het nieuwe [waarschuwingsbeheer](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
+1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Hiermee gaat u naar de nieuwe [Waarschuwingsmanager](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
 
 ## Migratie van verouderde waarschuwingen {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
-Verschillende functies van bestaande waarschuwingen voor Analytics worden niet opgenomen in de nieuwe waarschuwingsmanager, die in het najaar van 2016 wordt uitgebracht (als onderdeel van de Analyse Workspace). In de volgende tabel vindt u een overzicht van de vervangen waarschuwingsfuncties en enkele waarschuwingsfuncties die in een ander formulier naar de nieuwe Waarschuwingsmanager worden gemigreerd.
+Verschillende kenmerken van bestaande waarschuwingen voor Analytics worden niet opgenomen in het nieuwe waarschuwingsbeheer, dat in het najaar van 2016 (als onderdeel van Analysis Workspace) zal worden gepubliceerd. In de volgende tabel vindt u een overzicht van de vervangen waarschuwingsfuncties en enkele waarschuwingsfuncties die in een ander formulier naar de nieuwe Waarschuwingsmanager worden gemigreerd.
 
 <!-- 
 
@@ -79,7 +82,7 @@ deprecated_alerts.xml
   <tr> 
    <td colname="col1"> <p>Unieke bezoekerswaarschuwingen op basis van tijd (dagelijks, wekelijks, maandelijks, enz.) Unieke bezoekers) </p> <p> </p> </td> 
    <td colname="col2"> <p>Maak waarschuwingen voor unieke bezoekersrapporten per uur, dag, week en maand. </p> </td> 
-   <td colname="col3"> <p>In het nieuwe waarschuwingsbeheer worden bepaalde op tijd gebaseerde waarschuwingen voor Unieke bezoekers niet meer ondersteund. Wanneer u bijvoorbeeld eerder een wekelijkse waarschuwing voor Daily Unique Visitors kunt instellen, kunt u een dagelijkse, wekelijkse, enz. instellen. waarschuwing over de metrische gegevens van de Unieke Bezoekers. (De Werkruimte van de Analyse steunt unieke bezoekers metrisch, maar niet Dagelijks/Wekelijks/Maandelijks/etc. Unieke cijfers voor bezoekers.) </p> <p> </p> </td> 
+   <td colname="col3"> <p>In het nieuwe waarschuwingsbeheer worden bepaalde op tijd gebaseerde waarschuwingen voor Unieke bezoekers niet meer ondersteund. Wanneer u bijvoorbeeld eerder een wekelijkse waarschuwing voor Daily Unique Visitors kunt instellen, kunt u een dagelijkse, wekelijkse, enz. instellen. waarschuwing over de metrische gegevens van de Unieke Bezoekers. (Analysis Workspace biedt ondersteuning voor een norm voor unieke bezoekers, maar niet voor Daily/Wekelijks/Maandelijks/enzovoort. Unieke cijfers voor bezoekers.) </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoeken </p> </td> 
@@ -88,29 +91,29 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> Specifieke rapporten voor rapporten en analyses </p> </td> 
-   <td colname="col2"> <p>Creeer alarm voor verscheidene rapporten die in Rapporten &amp; Analytics bestaan en niet aan een rapport van de Werkruimte van de Analyse beantwoorden, zoals 
+   <td colname="col2"> <p>Maak waarschuwingen voor verschillende rapporten die voorkomen in Rapporten &amp; Analytics en niet overeenkomen met een Analysis Workspace-rapport, zoals 
      <ul id="ul_9A690970A5AE4ED39E664DF23EF3164F"> 
       <li id="li_E2F44EDBA1D945CEBAC4802ED714E7A1">JavaScript </li> 
-      <li id="li_B847C6A988854F76824F099681705EC9">Lengte pad </li> 
+      <li id="li_B847C6A988854F76824F099681705EC9">Padlengte </li> 
       <li id="li_4AF656460BC748E8802FAF258D01842F">Bots </li> 
       <li id="li_A300D2803B244774839BEC23D3EB533A">Tijdzones </li> 
-      <li id="li_7A0B4CF92F4D47238B7B329EEC213322">Domeinen op hoofdniveau </li> 
+      <li id="li_7A0B4CF92F4D47238B7B329EEC213322">Domeinen op hoogste niveau </li> 
      </ul> </p> <p> </p> </td> 
    <td colname="col3"> <p>Niet meer beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Waarschuwingen met een ASI-sleuf als rapportsuite </p> </td> 
-   <td colname="col2"> <p>U kunt geen ASI-sleuven meer maken of bewerken en deze zijn niet beschikbaar voor gebruik in de analysewerkruimte. Daarom worden zij niet ondersteund door de nieuwe waarschuwingen. </p> <p> </p> </td> 
+   <td colname="col2"> <p>U kunt geen ASI-sleuven meer maken of bewerken en deze zijn niet beschikbaar voor gebruik in Analysis Workspace. Daarom worden zij niet ondersteund door de nieuwe waarschuwingen. </p> <p> </p> </td> 
    <td colname="col3"> <p>Niet beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Waarschuwingen die gebruikmaken van participatiemetingen </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-participation.html"  > De metriek van de participatie </a> is beschikbaar in Rapporten &amp; Analytics, maar is momenteel niet beschikbaar in het nieuwe alarminstallatiesysteem in de Werkruimte van de Analyse. </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-participation.html"  > De metriek van de participatie  </a> is beschikbaar in Rapporten &amp; Analytics, maar is momenteel niet beschikbaar in het nieuwe alarmsysteem in Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Niet beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Maandelijkse waarschuwingen voor aangepaste kalenderrapporten </p> </td> 
-   <td colname="col2"> <p>Dit is alleen van toepassing op klanten met waarschuwingen die zijn ingesteld voor rapportsuites met <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > aangepaste begindatums voor de maand </a> (nationale detailhandel/NRF en aangepaste kalendertypen). </p> <p>Het heeft geen invloed op waarschuwingen over Gregoriaanse of Gewijzigde Gregoriaanse kalenderrapportsuites. Eerder werden deze waarschuwingen verzonden op de eerste dag van de Gregoriaanse maand (bijvoorbeeld 1 januari, 1 februari enz.). Dit werkt niet met het nieuwe onderdeel Anomaly Detection van waarschuwingen, dat bij het opsporen van anomalieën rekening houdt met gegevens van vorige maanden. In de toekomst, zullen wij steun aan ons het plannen systeem voor douanecalendars toevoegen zodat zowel Alarm als Geplande Projecten kunnen worden gepland om op de eerste dag van de maand van de douanekalender in plaats van enkel de eerste dag van de Gregoriaanse maand te verzenden. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Dit geldt alleen voor klanten met waarschuwingen die zijn ingesteld voor rapportsuites met <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > aangepaste begindatums voor maanden </a> (nationale detailhandelsfederatie/NRF en aangepaste kalendertypen). </p> <p>Het heeft geen invloed op waarschuwingen over Gregoriaanse of Gewijzigde Gregoriaanse kalenderrapportsuites. Eerder werden deze waarschuwingen verzonden op de eerste dag van de Gregoriaanse maand (bijvoorbeeld 1 januari, 1 februari enz.). Dit werkt niet met het nieuwe onderdeel Anomaly Detection van waarschuwingen, dat bij het opsporen van anomalieën rekening houdt met gegevens van vorige maanden. In de toekomst, zullen wij steun aan ons het plannen systeem voor douanecalendars toevoegen zodat zowel Alarm als Geplande Projecten kunnen worden gepland om op de eerste dag van de maand van de douanekalender in plaats van enkel de eerste dag van de Gregoriaanse maand te verzenden. </p> <p> </p> </td> 
    <td colname="col3"> <p>Nog niet beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
   </tr> 
   <tr> 
