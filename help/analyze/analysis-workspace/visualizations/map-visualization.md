@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Gebruik de kaartvisualisatie in een project van de Werkruimte.
 title: Kaart
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 2%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Overzicht {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 
-De Visualisatie van de Kaart in de Werkruimte van de Analyse
+Visualisatie op de kaart in Analysis Workspace
 
 * Hiermee kunt u een visuele kaart van elke metrische waarde (inclusief berekende metriek) maken.
 * Is nuttig om metrische gegevens over verschillende geografische gebieden te identificeren en te vergelijken.
@@ -20,9 +23,9 @@ De Visualisatie van de Kaart in de Werkruimte van de Analyse
 * Ondersteuning voor PDF-export.
 * Gebruikt WebGL voor beeldvertoning. Als uw grafische stuurprogramma&#39;s geen ondersteuning bieden voor WebGL-rendering, moet u de stuurprogramma&#39;s mogelijk bijwerken.
 
-## Een kaart visualiseren {#section_61BBFA3A7BFD48DA8D305A69D9416299}
+## Een kaartvisualisatie maken {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. Sleep vanuit de lijst met visualisaties **[!UICONTROL Map]** naar een deelvenster Vrije vorm:
+1. Sleep **[!UICONTROL Map]** vanuit de lijst met visualisaties naar een deelvenster voor vrije vorm:
 
    ![](assets/map-viz1.png)
 
@@ -33,10 +36,10 @@ De Visualisatie van de Kaart in de Werkruimte van de Analyse
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Mobiel lang</b> </p> </td> 
-   <td colname="col2"> <p>Deze optie vertegenwoordigt gegevens van mobiele apps. </p> <p>Deze optie wordt alleen weergegeven als u deze voor uw rapportsuite hebt ingeschakeld in <span class="ignoretag"> Analytics <span class="uicontrol"> &gt; </span> Admin <span class="uicontrol"> &gt; </span> Report Suites <span class="uicontrol"> &gt; </span> &lt;select report suite&gt; <span class="uicontrol"> &gt; </span> <span class="uicontrol"> </span> <span class="uicontrol"> </span> <span class="uicontrol"> </span> </span>Edit Settings &gt; Mobiel beheer &gt; Locatie Tracking activeren. </p> <p>Dit is de standaardinstelling (als locatie bijhouden is ingeschakeld). </p> </td> 
+   <td colname="col2"> <p>Deze optie vertegenwoordigt gegevens van mobiele apps. </p> <p>Deze optie wordt alleen weergegeven als u deze voor uw rapportsuite hebt ingeschakeld in <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Report Suites </span> &gt; <span class="uicontrol"> &lt;select report suite&gt; </span> &gt; <span class="uicontrol"> Edit Settings </span> &gt; <span class="uicontrol"> Mobiel beheer </span> &gt; <span class="uicontrol"> Locatie bijhouden inschakelen </span> </span>. </p> <p>Dit is de standaardinstelling (als locatie bijhouden is ingeschakeld). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Geografische dimensie </b> </p> </td> 
+   <td colname="col1"> <p><b>Geografische Dimension  </b> </p> </td> 
    <td colname="col2"> <p>Deze optie vertegenwoordigt geo segmentatiegegevens over bezoekersplaats die op het IP van de bezoeker adres wordt gebaseerd. Deze gegevens worden omgezet in Land, Regio, en Stad. Merk op dat het niet naar het niveau van de Code DMA of van het Postcode gaat. </p> <p>Bijna alle rapportsuites hebben deze toegelaten dimensie. Als u dat niet doet, neemt u contact op met de klantenservice van Adobe om geografische rapporten ingeschakeld te laten. </p> </td> 
   </tr> 
  </tbody> 
@@ -50,16 +53,16 @@ De Visualisatie van de Kaart in de Werkruimte van de Analyse
 
 1. U kunt nu
 
-   * **Zoom** in deze kaart om bepaalde gebieden te vergroten door te dubbelklikken op de kaart of door het schuifwiel te gebruiken. De kaart zoomt naar waar u de cursor hebt geplaatst. Via zoominteractie wordt de vereiste afmeting (land > land > plaats) automatisch bijgewerkt op basis van het zoomniveau.
-   * **Vergelijk** twee of meer kaartvisualisaties in het zelfde project door hen naast elkaar te plaatsen.
+   * **Hiermee** zoomt u in op deze kaart om bepaalde gebieden te vergroten door te dubbelklikken op de kaart of door het schuifwiel te gebruiken. De kaart zoomt naar waar u de cursor hebt geplaatst. Via zoominteractie wordt de vereiste afmeting (land > land > plaats) automatisch bijgewerkt op basis van het zoomniveau.
+   * **** Vergelijkt of meer kaartvisualisaties in het zelfde project door hen naast elkaar te plaatsen.
    * **Vergelijking** van de periode-overperiode (zoals jaar-overjaar) weergeven:
 
       * Negatieve getallen tonen: Als u bijvoorbeeld een metrische waarde uitzet die elk jaar wordt overschreden, kan de kaart -33% weergeven ten opzichte van New York.
-      * Met metriek die van type &quot;percenten&quot;zijn, groepert zich het gemiddelde van de percentages samen.
+      * Met metrics van het type percentage, wordt het gemiddelde van de geclusterde percentages getoond.
       * Een groen/rood kleurenschema: Positief/negatief
-   * **Draai** de kaart in 2D of 3D door de [!UICONTROL Ctrl] sleutel te houden en de kaart te bewegen.
+   * **Roteer de kaart in 2D of 3D door de**   [!UICONTROL Ctrl] toets ingedrukt te houden en de kaart te verplaatsen.
 
-   * **Schakel over** naar een andere weergave, zoals de warmtekaart, met de [instellingen](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) die hieronder worden beschreven. De bellenweergave is de standaardinstelling.
+   * **Schakel** over naar een andere weergave, zoals de warmtekaart, met de  [](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) instellingen die hieronder worden beschreven. De bellenweergave is de standaardinstelling.
 
 
 1. **Sla** het project op om alle kaartinstellingen op te slaan (coördinaten, zoomen, roteren).
@@ -75,7 +78,7 @@ Met het **moersleutelpictogram** rechtsboven wordt het eerste dialoogvenster wee
 
 ![](assets/map-wrench.png)
 
-Als u op het **tandwielpictogram** klikt, worden de volgende visualisatie-instellingen weergegeven:
+Als u op **tandwielpictogram** klikt, worden de volgende visualisatie-instellingen weergegeven:
 
 | Instelling | Beschrijving |
 |--- |--- |
