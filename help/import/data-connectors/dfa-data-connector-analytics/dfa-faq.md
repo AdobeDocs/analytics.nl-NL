@@ -1,13 +1,13 @@
 ---
-description: 'null'
+description: Veelgestelde vragen over de DFA-gegevensaansluiting.
 keywords: DFA
 title: Veelgestelde vragen
-topic: Data connectors
+topic: Gegevensconnectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Waarom accepteert de wizard Gegevensverbindingen mijn aanmeldingsgegevens niet? {#section-f019b3de18774df3954af7881aa564fa}
 
-Als u hebt geverifieerd dat de aanmeldingsgegevens geldig zijn, controleert u vervolgens of de gebruikersnaam die aan de integratie is verstrekt, is ingeschakeld voor API-toegang. De wizard Gegevensverbindingen gebruikt de DFA API om aanmeldingsgegevens te valideren en schakelt Adobe-specifieke instellingen in de DFA API uit en in. API de Toegang is het plaatsen die van binnen de interface DFA door een beheerder moet worden aangezet. Controleer vervolgens of u toestemming hebt om toegang te krijgen tot de Advertiser-id of de Floodlight Configuration-id die in de wizard is geselecteerd.
+Als u hebt geverifieerd dat de aanmeldingsgegevens geldig zijn, controleert u vervolgens of de gebruikersnaam die aan de integratie is verstrekt, is ingeschakeld voor API-toegang. De wizard Gegevensverbindingen gebruikt de DFA API om aanmeldingsgegevens te valideren en om de instellingen voor Adobe-specifieke gegevens in de DFA API uit te schakelen en in te schakelen. API de Toegang is het plaatsen die van binnen de interface DFA door een beheerder moet worden aangezet. Controleer vervolgens of u toestemming hebt om toegang te krijgen tot de Advertiser-id of de Floodlight Configuration-id die in de wizard is geselecteerd.
 
 ## Waarom zie ik geen gegevens van de nielsgeüploade metriek (DFA Impressions, DFA Clicks, enz.)? {#section-465fd22ae6b447ffb6baf20b57daa433}
 
@@ -33,7 +33,7 @@ Bijvoorbeeld, zeg er een integratie in Reeks A van het Rapport met Advertiser id
 
 ## Ik gebruik versie 2.0 van de integratie en de kostenmetriek verschijnen niet voor mijn DFA advertenties. Waarom zou dat zo zijn? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
-Kostenmaatstaven moeten zowel vanuit de Google DFA-zijde worden ingeschakeld als in de DFA-interface worden geleverd en ingeschakeld in de wizard Gegevensconnectors. De eerste manier om te controleren is dat u een Analytics-gebeurtenis voor DFA Media Cost hebt toegewezen en een valutacode hebt opgegeven. Als u de Media Cost-gebeurtenis hebt toegewezen en de wizard hebt voltooid en opgeslagen, wordt de DFA omnitureCostData-vlag ingeschakeld in de DFA API. Dit zal aan Google duidelijk maken dat de metriek in het nachtelijke dossier zou moeten worden verzonden. U kunt via de DFA-interface controleren of omnitureCostData is ingeschakeld door eigenschappen op de geïntegreerde Floodlight te bekijken. Nadat u deze twee plaatsen hebt gecontroleerd, zorgt u er ten slotte voor dat de advertenties die deel uitmaken van de geïntegreerde functie Vullicht, kostengegevens en kostenstructuren opgeven. Als de kostengegevens niet in de interface DFA worden verstrekt, zal het niet in Analytics verschijnen.
+Kostenmaatstaven moeten zowel vanuit de Google DFA-zijde worden ingeschakeld als in de DFA-interface worden geleverd en ingeschakeld in de wizard Gegevensconnectors. De eerste plaats om te verifiëren is dat u een gebeurtenis Analytics voor DFA Media Kosten in kaart hebt gebracht, en een muntcode verstrekt. Als u de Media Cost-gebeurtenis hebt toegewezen en de wizard hebt voltooid en opgeslagen, wordt de DFA omnitureCostData-vlag ingeschakeld in de DFA API. Dit zal aan Google duidelijk maken dat de metriek in het nachtelijke dossier zou moeten worden verzonden. U kunt via de DFA-interface controleren of omnitureCostData is ingeschakeld door eigenschappen op de geïntegreerde Floodlight te bekijken. Nadat u deze twee plaatsen hebt gecontroleerd, zorgt u er ten slotte voor dat de advertenties die deel uitmaken van de geïntegreerde functie Vullicht, kostengegevens en kostenstructuren opgeven. Als de kostengegevens niet in de interface DFA worden verstrekt, zal het niet in Analytics verschijnen.
 
 ## Waarom geven bepaalde advertenties geen DFA-indrukkingen of doorkijkcijfers weer, maar ze tonen wel kliks en doorklikken? {#section-39b2eeeefd7f43d1a373df0b987bacef}
 
@@ -43,10 +43,10 @@ Er zijn enkele advertenties die alleen klikgegevens opnemen, ook wel kliktracker
 
 Daar kan een van de vele antwoorden op zijn.
 
-Controleer eerst of de desbetreffende advertentie een bestemmingspagina-URL heeft die (a) gelabeld is met Adobe-code voor dezelfde rapportsuite die u bekijkt en (b) de parameter voor de *`clickThroughParam`* queryreeks bevat.
+Eerst, controleer dat de advertentie in kwestie een bestemmingspagina URL heeft die allebei (a) geëtiketteerd met code Adobe voor de zelfde rapportreeks is u de discrepantie binnen bekijkt en (b) bevat *`clickThroughParam`* de parameter van het vraagkoord.
 
-Ten tweede, verifieer dat u een werkende integratie hebt door de stappen te volgen in het [Bevestigen van een Succesvolle Integratie](../dfa-data-connector-analytics/dfa-integration.md)DFA. Als er een DFA-trackingcode wordt weergegeven bij de Adobe-hit op de bestemmingspagina, ziet u dat Click-through wordt weergegeven in het DFA-rapport Campaigns. Als u het niet ziet komen door, verifieer dat de rapportreeksen tussen de *`s.account`* variabele van de landingspagina, en de rapportreeks aanpassen die in Rapporten &amp; Analytics wordt bekeken. Als deze overeenkomen, controleert u de volgcodes in het rapport Weergeven via eVar die eruitzien als DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX:XXX.
+Controleer vervolgens of u een werkende integratie hebt door de stappen in [Bevestiging van een geslaagde DFA-integratie](../dfa-data-connector-analytics/dfa-integration.md) te doorlopen. Als u een DFA het volgen code met de Adobe op de landende pagina ziet aankomen, dan zou u moeten zien dat de klikweg in het DFA rapport van Campaigns komt. Als u het niet ziet door komen, verifieer dat de rapportreeksen tussen de *`s.account`* variabele van de landingspagina, en de rapportreeks aanpassen die in Rapporten &amp; Analytics wordt bekeken. Als deze overeenkomen, controleert u de volgcodes in het rapport Weergeven via eVar dat er uitziet als DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX:XXX.
 
 Deze tonen aan mislukkingen van de DFA VISTA-regel om de ruwe gegevens van DFA samen te vatten. Dit probleem kan worden verholpen door een ondersteuningsticket te openen via uw Adobe-accountvertegenwoordiger.
 
-Als geen van de bovenstaande oplossingen het probleem verklaart, zie het [Reconciling van Metrische discrepanties](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) om andere mogelijkheden te onderzoeken.
+Als geen van de bovenstaande oplossingen het probleem verklaart, zie [Metrische discrepanties combineren](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) om andere mogelijkheden te onderzoeken.
