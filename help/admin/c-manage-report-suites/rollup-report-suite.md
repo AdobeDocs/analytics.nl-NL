@@ -1,43 +1,74 @@
 ---
-description: Rollup-rapport bestaat uit geaggregeerde gegevens van meerdere groepen met kinderrapporten en geeft deze weer in een samengevatte gegevensset.
-title: Samenvatting en global report suites
+description: Beschrijvingen van de types van rapportsuite en vergelijking van globale rapportsuites en rollup rapportsuites.
+title: Methoden van rapportsuite
+topic: Beheerprogramma's
+uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+source-git-commit: 9bc2e0425fa99efb32561ad1f80605e078eb7650
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 1%
+source-wordcount: '969'
+ht-degree: 0%
 
 ---
 
 
-# Samenvatting en global report suites
+# Methoden van rapportsuite
 
-Rollup-rapport bestaat uit geaggregeerde gegevens van meerdere groepen met kinderrapporten en geeft deze weer in een samengevatte gegevensset. Deze sjablonen bieden een handige plaats voor het weergeven van samengevoegde totalen, zoals paginaweergaven, inkomsten of andere basisafmetingen. Rollups worden vaak gebruikt omdat hiervoor geen aanvullende implementatie vereist is.
+<!-- change filename since page name changed? -->
 
-## Definities van rapportsuite-typen
+U kunt uw rapportsuites als of *globale rapportsuites* of *rollup rapportsuites* vormen.
 
-**Globale rapportsuite**: Implementatie is gewijzigd om afbeeldingsaanvragen in verschillende domeinen naar één algemene rapportsuite te verzenden. Als treffers ook naar individuele rapportreeksen worden verzonden, is deze praktijk genoemd als multi-suite etiketteren.
+## Globale rapportsuites
 
-**Rollup-rapportenpakket**: Gemaakt met beheerfuncties. Neemt de som van elke metrisch aan het eind van elke dag.
+Een algemene rapportsuite verzamelt gegevens van alle domeinen en apps die eigendom zijn van uw organisatie. De implementatie vereist om alle verzoeken om images naar één rapportsuite te verzenden.
 
-* Rollups zijn vrij te gebruiken en verhogen het gebruik van serveroproepen niet.
+Adobe beveelt in de meeste gevallen aan een algemene rapportsuite te implementeren. Zie &quot;[Algemene overwegingen van de rapportreeks](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)&quot;voor de voordelen om een globale rapportreeks uit te voeren.
+
+Met de *tagging met meerdere suite* en *benadering van virtuele rapporten* kunt u subsets van de algemene rapportsuite van uw bedrijf opgeven voor verschillende eindgebruikers:
+
+* **Tags** voor meerdere suite: Met tagging met meerdere suite kunt u verzoeken om images niet alleen naar een algemene rapportsuite verzenden, maar ook naar afzonderlijke groepen met onderliggende rapporten. De globale rapportgegevens worden gededupliceerd over alle rapportsuites.
+
+   Bijvoorbeeld, zou u alle gegevens in één globaal rapportreeks kunnen verzamelen en ook secundaire rapportsuites opzetten die op merk, regio, of een andere differentiator worden gebaseerd. De verschillende teams in uw bedrijf konden zich dan op gegevens in de rapportreeksen concentreren die voor hen relevant zijn.
+
+   Om multi-suite het etiketteren te gebruiken, voer de reeksen van het kindrapport en een globale rapportreeks uit die alle gegevens van de kinderen omvat. De volgende code voor uw webpagina&#39;s en apps zal identiteitskaart van de Reeks van het Rapport (RSID) voor de globale rapportreeks en ook RSIDs voor de toepasselijke reeksen van het kindrapport omvatten.<!-- Wording/be more specific? And include any links? -->
+
+   Er wordt een aparte serveraanroep naar elke rapportsuite in de afbeeldingsaanvraag uitgevoerd. De vraag aan de reeksen van het kindrapport is secundaire vraag.
+
+* **Virtuele rapportsuite**: Een  [virtueel rapport ](/help/components/vrs/vrs-about.md) bevat een vraag over gespecificeerde segmenten die in een globale rapportreeks worden verzameld, en beschikbaar aan gespecificeerde groepen gebruikers. De virtuele rapportsuites staan u toe om rapportelementen voor verschillende eindgebruikers te leiden zonder multi-suite het etiketteren te gebruiken, waarbij secundaire servervraag wordt vermeden.
+
+   Om virtuele rapportreeksen te gebruiken, voer een globale rapportreeks uit en ontleed dan de gegevens om virtuele rapportreeksen met specifieke toegepaste segmenten en met specifieke groepstoestemmingen tot stand te brengen. U kunt virtuele rapportsuites in de Virtuele Manager van de Reeks van het Rapport tot stand brengen ([!UICONTROL Components] > [!UICONTROL Virtual Report Suites]). Zie &quot;[Workflow van de virtuele rapportsuite](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)&quot; voor meer informatie.
+
+Het gebruik van virtuele-rapportsuites in plaats van taggen met meerdere suite is vaak de beste manier, maar virtuele-rapportsuites hebben een aantal beperkingen. Zie &quot;[Virtual report suites and multi-suite tagging Overwegingen](/help/components/vrs/vrs-considerations.md)&quot; om te bepalen welke rapportsuite-benadering de beste keuze is voor uw bedrijfsbehoeften. Voor een diepgaande vergelijking van virtuele rapportreeksen en multi-suite het etiketteren functionaliteit, zie &quot;[Virtuele Reeksen van het Rapport tegenover Multisuite het Etiketteren](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
+
+## Rolluprapporten
+
+>[!NOTE]
+>
+>[!DNL Reports & Analytics] is het enige hulpmiddel dat rolluprapporten steunt, en Adobe adviseert niet meer het gebruiken van rollups. Overweeg in plaats daarvan een algemene rapportsuite met tags voor meerdere suite of virtuele rapportensuites.
+
+Een rolluprapport is een eenvoudige samenvoeging van gegevens uit meerdere rapportageopes, zonder deduplicatie of een segment of gegevensuitsplitsingen. Rollups vereisen geen code-implementatie. Om rolluprapporten te gebruiken, [voer de reeksen van het kindrapport ](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) uit en dan [combineer hen in een rolluprapport](/help/admin/c-manage-report-suites/t-rollups.md) gebruikend [!UICONTROL Admin Tools].
+
+Rolluprapporten zijn gratis: de reeksen van het kindrapport veroorzaken hun eigen servervraag, maar rollup leidt geen extra vraag. Rollups zijn een oudere functie en hebben vele beperkingen.
+
+### Beperkingen van rolluprapporten {#limitations-rollups}
+
 * Rollups verschaffen totale gegevens, maar rapporteren geen afzonderlijke waarden in rapporten. eVar1-waarden worden bijvoorbeeld niet opgenomen, maar het totale totaal kan wel.
-* De gegevens worden niet gededupliceerd wanneer het combineren van gegevens over rapportreeksen.
-* Rollups worden elke avond uitgevoerd.
+* De gegevens worden niet gededupliceerd wanneer de rollup gegevens over rapportreeksen combineert.
+* Rollups worden elke avond om middernacht uitgevoerd.
 * Wanneer u een rapportsuite toevoegt aan een bestaande rollup, worden historische gegevens niet opgenomen in de rollup.
-* Alle suites van het kindrapport moeten gegevens in hen hebben om een rollup te functioneren. Als nieuwe rapportsuites in een rollup worden omvat, zorg ervoor om minstens één paginamening naar die rapportsuites te verzenden.
-* Rollup-rapportreeksen zijn beperkt tot maximaal 40 kinderrapportreeksen.
-* Rollup-rapportsuites zijn beperkt tot maximaal 100 gebeurtenissen.
-* Gegevens in Rollup-rapportreeksen ondersteunen geen onderverdelingen of segmenten.
+* Alle reeksen van het kindrapport moeten gegevens in hen hebben om een rollup te functioneren. Als nieuwe rapportsuites in een rollup worden omvat, zorg ervoor om minstens één paginamening naar elk van die rapportsuites te verzenden.
+* Rollup-rapportreeksen kunnen maximaal 40 kindrapportsuites bevatten.
+* Rollup-rapportsuites kunnen maximaal 100 gebeurtenissen bevatten.
+* Gegevens in de reeksen van het rolluprapport ondersteunen geen onderverdelingen of segmenten.
 * Het rapport Pagina&#39;s wordt vervangen door het rapport Popular Sites, dat metriek op het kind-suite niveau rapporteert.
 
-## Rollup versus Global Report Suites
+## Vergelijking van de rapportfuncties Global Report Suite en Rollup
 
 **Secundaire serveraanroepen**: Rollups doen geen extra serveraanroepen meer dan een enkele rapportsuite verzamelt. Als uw organisatie multi-suite markering gebruikt, worden secundaire serveraanroepen gedaan voor elke extra rapportsuite die in een beeldverzoek is opgenomen.
 
 >[!TIP]
 >
->Als u slechts een globale rapportreeks met [virtuele rapportreeksen](../../components/vrs/vrs-considerations.md) gebruikt, zijn geen secundaire servervraag nodig.
+>Als u slechts een globale rapportreeks met [virtuele rapportreeksen](/help/components/vrs/vrs-considerations.md) gebruikt, zijn geen secundaire servervraag nodig.
 
 **Wijzigingen** in implementatie: Rollups vereisen geen implementatiewijzigingen, terwijl voor algemene rapportsuites de id van de algemene rapportsuite in uw implementatie moet worden opgenomen.
 
@@ -45,7 +76,7 @@ Rollup-rapport bestaat uit geaggregeerde gegevens van meerdere groepen met kinde
 
 **Tijdschema**: Rollups worden alleen elke nacht om middernacht verwerkt, terwijl algemene rapportsuites gegevens met standaardlatentie rapporteren.
 
-**Breedte**: Rollups hebben geen manier om te communiceren tussen rapportsuites. Globale rapportsuites kunnen krediet aan omzettingsvariabelen tussen rapportsuites, evenals het verven over rapportsuites toeschrijven.
+**Breedte**: Rollups hebben geen manier om te communiceren tussen rapportsuites. Globale rapportsuites kunnen krediet aan omzettingsvariabelen tussen rapportsuites en verstrekken het schilderen over rapportsuites.
 
 **Historische gegevens**: Rollups kunnen historische gegevens verzamelen, terwijl globale rapportsuites alleen gegevens rapporteren vanaf het punt waarop ze zijn geïmplementeerd.
 
