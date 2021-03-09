@@ -1,10 +1,10 @@
 ---
-title: currencyCode
-desciption: For eCommerce sites, set the currency the page deals in.
+title: Wat is de currencyCode-variabele en hoe gebruik ik deze?
+description: Voor eCommerce-sites stelt de valuta in waarin de pagina handelt.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -12,44 +12,44 @@ ht-degree: 0%
 
 # currencyCode
 
-Voor sites die handel gebruiken, vormen inkomsten en valuta een belangrijk onderdeel van Analytics. Veel sites, vooral sites die meerdere landen beslaan, gebruiken verschillende valuta&#39;s. Gebruik de `currencyCode` variabele om opbrengstattributen aan de correcte munt te verzekeren.
+Voor plaatsen die handel gebruiken, is de opbrengst en de munt een belangrijk deel van Analytics. Veel sites, vooral sites die meerdere landen beslaan, gebruiken verschillende valuta&#39;s. Gebruik de `currencyCode` variabele om opbrengstattributen aan de correcte munt te verzekeren.
 
-Indien `currencyCode` niet gedefinieerd, worden monetaire waarden die de [`products`](../page-vars/products.md) variabele en valutamarkten definiëren, behandeld alsof ze dezelfde zijn als de valuta van de rapportsuite. Zie [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md) in de gebruikershandleiding voor Admin om de valuta van de rapportsuite te bekijken.
+Als `currencyCode` niet wordt bepaald, worden de monetaire waarden die [`products`](../page-vars/products.md) veranderlijke en valutagebeurtenissen worden bepaald behandeld alsof zij het zelfde als de munt van de rapportreeks zijn. Zie [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md) in de gebruikershandleiding voor Admin om de valuta van de rapportsuite te bekijken.
 
-Als `currencyCode` is gedefinieerd en overeenkomt met de valuta van de rapportsuite, wordt geen valutaomrekening toegepast.
+Als `currencyCode` wordt bepaald en de munt van de rapportreeks aanpast, wordt geen muntomzetting toegepast.
 
-Als deze `currencyCode` is gedefinieerd en afwijkt van de valuta van de rapportsuite, past Adobe een valutaomrekening toe op basis van de wisselkoers van de huidige dag. Adobe werkt samen met [XE](https://xe.com) om valuta elke dag om te zetten. Alle waarden die in gegevensverzamelingsservers worden opgeslagen, worden uiteindelijk opgeslagen in de valuta van de rapportsuite.
+Als `currencyCode` is gedefinieerd en anders is dan de valuta van de rapportsuite, past Adobe een valutaomrekening toe op basis van de wisselkoers van de huidige dag. Adobe werkt met [XE](https://xe.com) samen om valuta elke dag om te zetten. Alle waarden die in gegevensverzamelingsservers worden opgeslagen, worden uiteindelijk opgeslagen in de valuta van de rapportsuite.
 
 >[!IMPORTANT]
 >
->Als `currencyCode` er een ongeldige waarde is, wordt de hele hit genegeerd, waardoor gegevens verloren gaan. Zorg ervoor dat deze variabele correct is gedefinieerd als u deze in uw implementatie gebruikt.
+>Als `currencyCode` een ongeldige waarde bevat, wordt de volledige slag verworpen veroorzakend gegevensverlies. Zorg ervoor dat deze variabele correct is gedefinieerd als u deze in uw implementatie gebruikt.
 
 Deze variabele blijft niet bestaan tussen treffers. Zorg ervoor dat deze variabele op elke pagina wordt bepaald die opbrengst of muntgebeurtenissen impliceert.
 
-## Valutacode bij het starten van Adobe Experience Platform
+## Valutacode in Adobe Experience Platform Launch
 
-Valutacode is een veld onder de [!UICONTROL General] accordeon tijdens het configureren van de Adobe Analytics-extensie.
+Valutacode is een veld onder de accordion [!UICONTROL General] bij het configureren van de Adobe Analytics-extensie.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 2. Klik op de gewenste eigenschap.
-3. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder Adobe Analytics.
-4. Breid de accordeon uit, die het [!UICONTROL General] [!UICONTROL Currency Code] veld onthult.
+3. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
+4. Vouw de accordeon [!UICONTROL General] uit, zodat het veld [!UICONTROL Currency Code] zichtbaar wordt.
 
 U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. Als u een aangepaste valutacode gebruikt, moet u controleren of de code geldig is.
 
 ## Valutacode in Adobe Experience Platform Mobile SDK
 
-Valutacode wordt doorgegeven aan het Adobe Experience Platform Mobile SDK&#39;s via contextgegevensvariabelen in de Adobe Analytics-extensie.
+Valutacode wordt doorgegeven aan de Adobe Experience Platform Mobile SDK&#39;s via contextgegevensvariabelen in de Adobe Analytics-extensie.
 
-1. Stel de valutacode in een contextgegevensvariabele tijdens `trackState` of `trackAction`.
+1. Stel de valutacode in een contextgegevensvariabele in tijdens `trackState` of `trackAction`.
 2. Maak een verwerkingsregel in de Adobe Analytics-beheerconsole voor de rapportsuite. Stel de regel in om de variabele Valutacode te overschrijven.
-3. Geef de valutacode door aan de `products` variabele in uw vraag aan `trackState` of `trackAction`.
+3. Geef de valutacode aan de `products` variabele in uw vraag aan `trackState` of `trackAction` door.
 
 U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. Als u een aangepaste valutacode gebruikt, moet u controleren of de code geldig is.
 
 ## s.currencyCode in AppMeasurement en Launch, aangepaste code-editor
 
-De `s.currencyCode` variabele is een tekenreeks met een hoofdlettercode van 3 letters die de valuta op de pagina vertegenwoordigt.
+De variabele `s.currencyCode` is een tekenreeks die een code van drie letters bevat die de valuta op de pagina vertegenwoordigt.
 
 ```js
 s.currencyCode = "USD";
