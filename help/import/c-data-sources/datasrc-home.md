@@ -1,11 +1,11 @@
 ---
 description: Met Adobe Analytics-gegevensbronnen kunt u handmatig extra online- of offlinegegevens importeren voor rapportage.
-subtopic: Data sources
-title: Overzicht van gegevensbronnen
-topic: Developer and implementation
-uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
+title: Wat zijn gegevensbronnen en hoe profiteren ze mij?
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a653fe3ad1056d5a40217d1481e8d2c5c7f849b2
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,6 @@ U kunt Gegevensbronnen gebruiken helpen de pre-klikgegevens begrijpen door de ge
 
 >[!IMPORTANT]
 >
->Voor gegevensbronnen van transactie-id&#39;s om offline gegevens aan online gebeurtenissen te koppelen, moet de Opname van transactie-id&#39;s door de klantenservice zijn ingeschakeld. Zie Opname [van](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) transactie-id voor meer informatie.
+>Voor gegevensbronnen van transactie-id&#39;s om offline gegevens aan online gebeurtenissen te koppelen, moet de Opname van transactie-id&#39;s door de klantenservice zijn ingeschakeld. Zie [Opname van transactie-id](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) voor meer informatie.
 
-Na het importeren zijn de meeste gegevensbrongegevens beschikbaar in de Digital Marketing Suite.
+Na de invoer, zijn de meeste gegevens van Gegevensbronnen beschikbaar door Adobe Experience Cloud.
