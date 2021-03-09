@@ -1,10 +1,10 @@
 ---
 title: Google Display Ad-gegevens integreren in Adobe Analytics
-description: null
+description: Dankzij deze integratie kunt u het gedrag van klanten koppelen aan campagne- en kostengegevens van Google AdWords.
 translation-type: tm+mt
-source-git-commit: caa4042cbef2f588452f9fdd70c5f4bca976ca83
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
