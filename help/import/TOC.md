@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor importeren van analysemogelijkheden
 breadcrumb-title: Hulplijn importeren
 user-guide-description: 'Gegevens van externe bronnen in Analytics opnemen, in bulk of real-time. '
 translation-type: tm+mt
-source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
+source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 94%
+source-wordcount: '529'
+ht-degree: 93%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 94%
       + [Standaardafmetingen demandbasis](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Aangepaste afmetingen op basis van vereisten](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + DFA Data Connector voor Adobe Analytics {#dfa}
+      + [DFA Integration End-of-Life-informatie](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [DFA Data Connector voor Adobe Analytics](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [Vereisten](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [Integratiefuncties](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
