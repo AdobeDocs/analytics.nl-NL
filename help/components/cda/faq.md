@@ -2,9 +2,9 @@
 title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over apparaatanalyse
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ Als u het type mobiel apparaat gebruikt, zoals hierboven is geïllustreerd, kunt
 
 ## Hoe ver gaat de CDA bezoekers verstikken?
 
-Adobe bewaart de gegevens van het apparaat stitching ongeveer 30 dagen. Als een hulpmiddel aanvankelijk niet wordt geïdentificeerd maar later binnen 30 dagen wordt geïdentificeerd, gaat CDA terug en verklaart dat hulpmiddel dat tot 30 dagen in het verleden aan geïdentificeerde persoon toebehoort. Als een deel van het niet-geïdentificeerde gedrag van een gebruiker buiten het terugkijkvenster van 30 dagen valt, wordt dat gedeelte van de reis van de gebruiker niet vastgemaakt.
+De cross-device stitching van CDA vindt plaats in twee gelijktijdige processen.
+
+* Het eerste proces wordt &quot;live stitching&quot; genoemd, dat optreedt als de gegevensstromen naar Adobe Analytics. Tijdens het live stitching doet CDA het best het kan om de gegevens op persoonniveau te herformuleren. Als de persoon echter onbekend is op het tijdstip van live stitching, valt de CDA terug naar de bezoekersidentiteitskaart om de persoon te vertegenwoordigen.
+
+* Het tweede proces wordt &#39;replay&#39; genoemd. Tijdens replay, gaat CDA achterwaarts in tijd en herstelt historische gegevens, waar mogelijk, binnen een gespecificeerd terugkijkvenster. Dit terugkijkvenster is of 1 dag of 7 dagen, afhankelijk van hoe u CDA vroeg om worden gevormd. Tijdens het afspelen probeert CDA hits opnieuw te verklaren waar de persoon voordien onbekend was.
 
 * **Als u een apparaatgrafiek** gebruikt, worden apparaattoewijzingen door Adobe ongeveer 6 maanden bewaard in de coop-grafiek en de privégrafiek. Een ECID die langer dan zes maanden geen activiteit heeft, wordt uit de grafiek verwijderd. Gegevens die al in de CDA zijn vermeld, worden niet beïnvloed, maar latere treffers voor die ECID worden als een nieuwe persoon behandeld.
 
@@ -56,7 +60,7 @@ In sommige situaties is het mogelijk dat meerdere personen zich aanmelden bij he
 
 In sommige situaties kan een individuele gebruiker een groot aantal ECID&#39;s koppelen. Dit kan voorkomen als de individu veel browsers of apps gebruikt, en kan worden verergerd als zij vaak koekjes ontruimen of de privé browser of incognito het doorbladeren wijze gebruiken.
 
-* **Als u een apparaatgrafiek** gebruikt, wordt in CDA het aantal ECID&#39;s afgekapt dat aan een bepaalde gebruikers-id is gekoppeld tot 50. Als een gebruikers-id aan te veel ECID&#39;s is gekoppeld, wordt in de apparaatgrafiek aangenomen dat de gebruikers-id ongeldig is en wordt de cluster die aan die gebruikers-id is gekoppeld, verwijderd. De gebruikersnaam wordt vervolgens toegevoegd aan een lijst van afgewezen personen om te voorkomen dat deze in de toekomst aan clusters wordt toegevoegd. Het resultaat van de rapportage is dat de gebruikers-id niet op alle apparaten is aangesloten.
+* **Als u een apparaatgrafiek** gebruikt, wordt in CDA het aantal ECID&#39;s afgekapt dat aan een bepaalde gebruikers-id is gekoppeld tot 50. Als een gebruikers-id aan te veel ECID&#39;s is gekoppeld, wordt in de apparaatgrafiek aangenomen dat de gebruikers-id ongeldig is en wordt de cluster die aan die gebruikers-id is gekoppeld, verwijderd. De gebruikersnaam wordt vervolgens toegevoegd aan een lijst van gewezen personen om te voorkomen dat deze in de toekomst aan clusters wordt toegevoegd. Het resultaat van de rapportage is dat de gebruikers-id niet op alle apparaten is aangesloten.
 * **Als u op het veld gebaseerde stitching** gebruikt, is het aantal apparaten irrelevant ten gunste van de prop/eVar die u kiest om aangemelde gebruikers te helpen identificeren. Eén gebruiker kan tot elk aantal apparaten behoren zonder dat dit invloed heeft op de mogelijkheid van CDA om apparaten te verstevigen.
 
 ## Wat is het verschil tussen de norm Mensen in CDA en de norm van de Unieke Bezoekers buiten CDA?
