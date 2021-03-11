@@ -2,9 +2,9 @@
 title: Veldgebaseerde stitching
 description: Begrijp de eerste vereisten en de beperkingen van het stitching van gegevens gebruikend op gebied-gebaseerde stitching.
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ Als u Cross-Device Analytics wilt implementeren met behulp van op het veld gebas
 ## Beperkingen die specifiek zijn voor stitching in het veld
 
 * Veldgebaseerde stitching werkt het beste bij rapportsuites met een hoog gebruikersidentificatieniveau. Als uw rapportsuite een lage identificatie- of aanmeldfrequentie heeft, kunt u de [Co-op grafiek](device-graph.md) gebruiken.
+* Hoewel props en eVars elk regels bevatten voor de manier waarop hoofdletters en kleine letters worden verwerkt voor rapportagedoeleinden, wordt door het stitching op basis van velden op geen enkele manier de eigenschap of eVar die voor stitching wordt gebruikt, getransformeerd. Op velden gebaseerde stitching gebruikt de waarde in het opgegeven veld omdat deze regels voor post VISTA en nabewerkingsregels bevat. Als bijvoorbeeld soms het woord &#39;Bob&#39; voorkomt in de pop/eVar en soms het woord &#39;BOB&#39; verschijnt, worden deze behandeld als twee aparte personen.
 
 ## Volgende stappen
 
