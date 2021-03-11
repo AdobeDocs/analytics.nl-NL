@@ -1,11 +1,11 @@
 ---
 description: Veelgestelde vragen over gegevensfeeds
-keywords: Data Feed;job;pre column;post column;case sensitivity
+keywords: Gegevensfeed;taak;vóór kolom;na kolom;hoofdlettergevoeligheid
 title: Veelgestelde vragen over gegevensfeeds
 translation-type: tm+mt
 source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Veelgestelde vragen over gegevensfeeds.
 
 ## Wat is het verschil tussen kolommen met een `post_` prefix en kolommen zonder een `post_` prefix?
 
-Kolommen zonder het `post_` voorvoegsel bevatten precies de gegevens die naar de gegevensverzameling zijn verzonden. Kolommen met een `post_` voorvoegsel bevatten de waarde na verwerking. De voorbeelden die een waarde kunnen veranderen zijn veranderlijke persistentie, verwerkingsregels, de regels van VISTA, muntomzetting, of andere server-zijlogica Adobe van toepassing. Adobe raadt aan waar mogelijk de `post_` versie van een kolom te gebruiken.
+Kolommen zonder het voorvoegsel `post_` bevatten gegevens precies zoals deze naar gegevensverzameling zijn verzonden. Kolommen met het voorvoegsel `post_` bevatten de waarde na verwerking. De voorbeelden die een waarde kunnen veranderen zijn veranderlijke persistentie, verwerkingsregels, de regels van VISTA, muntomzetting, of andere server-zijlogica Adobe van toepassing. Adobe raadt aan waar mogelijk de `post_`-versie van een kolom te gebruiken.
 
-Als een kolom geen `post_` versie bevat (bijvoorbeeld `visit_num`), kan de kolom worden beschouwd als een postkolom.
+Als een kolom geen `post_` versie (bijvoorbeeld, `visit_num`) bevat, dan kan de kolom als een postkolom worden beschouwd.
 
 ## Hoe verwerken gegevensfeeds hoofdlettergevoeligheid?
 
@@ -29,10 +29,10 @@ Als u verschillende variaties ziet van dezelfde waarde tussen kolommen die niet 
 
 ## Worden bots gefilterd door de regels van de Admin console bot inbegrepen in gegevensvoer?
 
-Gegevensfeeds omvatten geen bommen die zijn gefilterd door de [regels](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)van de Admin-console.
+Gegevensfeeds omvatten geen bots die zijn gefilterd door [Regels voor Admin-console bot](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html).
 
-## Waarom zie ik veelvoudige `000` waarden in de `event_list` of kolom van de `post_event_list` gegevensvoer?
+## Waarom zie ik veelvoudige `000` waarden in `event_list` of `post_event_list` de kolom van de gegevensvoer?
 
 Sommige spreadsheeteditors, vooral Microsoft Excel, afronden automatisch zeer grote aantallen. De `event_list` kolom bevat vele komma-afgebakende aantallen, soms veroorzakend Excel om het als groot aantal te behandelen. De laatste cijfers worden afgerond op `000`.
 
-Adobe raadt u aan `hit_data.tsv` bestanden niet automatisch te openen in Microsoft Excel. Gebruik in plaats daarvan het dialoogvenster Gegevens importeren van Excel en zorg ervoor dat alle velden worden behandeld als tekst.
+Adobe raadt u aan `hit_data.tsv`-bestanden niet automatisch te openen in Microsoft Excel. Gebruik in plaats daarvan het dialoogvenster Gegevens importeren van Excel en zorg ervoor dat alle velden worden behandeld als tekst.
