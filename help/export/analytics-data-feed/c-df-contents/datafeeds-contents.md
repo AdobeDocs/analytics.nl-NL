@@ -1,19 +1,22 @@
 ---
-description: In deze sectie worden de bestanden beschreven die worden gevonden in een levering van de gegevensfeed.
-keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
+description: In deze sectie worden de bestanden beschreven die in een levering van de gegevensfeed zijn gevonden.
+keywords: Gegevensfeed;taak;inhoud;manifest;bestand;opzoeken;raakgegevens;inhoud van levering
 subtopic: data feeds
 title: Inhoud van gegevensfeed - overzicht
-topic: Reports and analytics
+topic: Rapporten en analyses
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '746'
+ht-degree: 0%
 
 ---
 
 
 # Inhoud van gegevensfeed - overzicht
 
-In deze sectie worden de bestanden beschreven die worden gevonden in een levering van de gegevensfeed.
+In deze sectie worden de bestanden beschreven die in een levering van de gegevensfeed zijn gevonden.
 
 ## Manifest-bestand
 
@@ -52,13 +55,13 @@ Datafeed-Manifest-Version: 1.0
 
 Elk manifestbestand bevat een koptekst die het totale aantal opzoekbestanden, gegevensbestanden en het totale aantal records in alle gegevensbestanden aangeeft. Deze koptekst wordt gevolgd door meerdere secties met informatie voor elk bestand dat is opgenomen in de gegevensdoorvoerlevering.
 
-Sommige feeds zijn geconfigureerd om een `.fin` bestand te ontvangen in plaats van een `.txt` manifest. Het `.fin` geeft aan dat het uploaden is voltooid, maar het bevat geen metagegevens over het uploaden.
+Sommige feeds zijn geconfigureerd om een `.fin`-bestand in plaats van een `.txt`-manifest te ontvangen. De `.fin` geeft aan dat het uploaden is voltooid, maar bevat geen metagegevens over het uploaden.
 
 ## Bestanden opzoeken
 
-Sommige gegevensinvoerkolommen voeren een getal uit dat overeenkomt met de werkelijke waarde. Opzoekbestanden worden gebruikt om een getal uit een kolom met gegevensinvoer af te stemmen op een werkelijke waarde. Bijvoorbeeld, wijst een waarde van &quot;497&quot;in de kolom van `browser` klapgegevens erop dat de slag uit &quot;Internet Explorer 8&quot;kwam als u binnen kijkt `browser.tsv`.
+Sommige gegevensinvoerkolommen voeren een getal uit dat overeenkomt met de werkelijke waarde. Opzoekbestanden worden gebruikt om een getal uit een kolom met gegevensinvoer af te stemmen op een werkelijke waarde. De waarde &quot;497&quot; in de kolom `browser` hit data geeft bijvoorbeeld aan dat de hit afkomstig is van &quot;Microsoft Internet Explorer 8&quot; als u in `browser.tsv` kijkt.
 
-Merk op dat `column_headers.tsv` en specifiek voor de gegevensvoer en rapportreeks `event_list.tsv` zijn. Andere bestanden, zoals `browser.tsv`generieke bestanden.
+De `column_headers.tsv` en `event_list.tsv` zijn specifiek voor de gegevensinvoer en rapportsuite. Andere bestanden, zoals `browser.tsv`, zijn generiek.
 
 De opzoekbestanden worden samen geleverd in een gecomprimeerd ZIP-bestand met de volgende naam:
 
@@ -85,13 +88,13 @@ De opzoekbestanden worden samen geleverd in een gecomprimeerd ZIP-bestand met de
 
 De gegevens van de aanraking worden verstrekt in een [!DNL hit_data.tsv] dossier. De hoeveelheid gegevens in dit bestand wordt bepaald door de leveringsindeling (uur- of dagbestand en enkele of meerdere bestanden). Dit bestand bevat alleen raakgegevens. De kolomkoppen worden afzonderlijk bij de opzoekbestanden geleverd. Elke rij in dit bestand bevat één serveraanroep.
 
-Bestanden die door Adobe worden geleverd, variëren afhankelijk van het type gegevensinvoer dat u hebt geconfigureerd. Alle bestanden worden gecodeerd met ISO-8859-1.
+De dossiers die door Adobe worden geleverd variëren gebaseerd op het type van gegevensvoer dat u hebt gevormd. Alle bestanden worden gecodeerd met ISO-8859-1.
 
 * `[rsid]` verwijst naar de rapportsuite-id waaruit de gegevensinvoer afkomstig is.
 * `[index]` wordt alleen gebruikt in meerdere bestandsfeeds en verwijst naar de juiste volgorde van gepagineerde bestanden.
 * `[YYYY-mm-dd]` verwijst naar de begindag waarop de gegevensinvoer wordt bedoeld.
 * `[HHMMSS]` wordt alleen gebruikt in uurvoer en verwijst naar het beginuur waarvoor de gegevensinvoer bestemd is.
-* `[compression_suffix]` verwijst naar het type compressie dat wordt gebruikt. Doorgaans worden gegevensfeeds gecomprimeerd in `tar.gz` of `zip` bestanden.
+* `[compression_suffix]` verwijst naar het type compressie dat wordt gebruikt. Doorgaans worden gegevensfeeds gecomprimeerd in `tar.gz`- of `zip`-bestanden.
 
 ### Dagelijks, één bestand
 
@@ -99,7 +102,7 @@ Nadat de gegevens voor een dag worden verzameld, ontvangt u één enkel gecompri
 
 `[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Wanneer het gegevensbestand wordt geëxtraheerd, bevat het één enkel `hit_data.tsv` dossier met alle gegevens voor die dag, evenals raadplegingsdossiers voor om het even welke vereiste kolommen.
+Wanneer geëxtraheerd, bevat het gegevensbestand één `hit_data.tsv` dossier met alle gegevens voor die dag, evenals raadplegingsdossiers voor om het even welke vereiste kolommen.
 
 ### Dagelijks, meerdere bestanden
 
@@ -107,7 +110,7 @@ Nadat de gegevens voor een dag worden verzameld, ontvangt u één of meerdere sa
 
 `[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Wanneer geëxtraheerd, bevat elk gegevensbestand één enkele `hit_data.tsv` die ongeveer 2 GB van ongecomprimeerde gegevens, evenals raadplegingsdossiers voor om het even welke vereiste kolommen bevat.
+Wanneer geëxtraheerd, bevat elk gegevensbestand één `hit_data.tsv` die ongeveer 2 GB van ongecomprimeerde gegevens, evenals raadplegingsdossiers voor om het even welke vereiste kolommen bevat.
 
 ### Uur, één bestand
 
@@ -115,7 +118,7 @@ Nadat de gegevens een uur lang zijn verzameld, ontvangt u één gecomprimeerd ge
 
 `[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
 
-Wanneer het gegevensbestand wordt geëxtraheerd, bevat het één enkel `hit_data.tsv` dossier met alle gegevens voor dat uur, evenals raadplegingsdossiers voor om het even welke vereiste kolommen.
+Wanneer geëxtraheerd, bevat het gegevensbestand één `hit_data.tsv` dossier met alle gegevens voor dat uur, evenals raadplegingsdossiers voor om het even welke vereiste kolommen.
 
 ### Uur, meerdere bestanden
 
@@ -123,8 +126,8 @@ Nadat de gegevens een uur lang zijn verzameld, ontvangt u een of meer gecomprime
 
 `[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
 
-Wanneer geëxtraheerd, bevat elk gegevensbestand één enkele `hit_data.tsv` die ongeveer 2 GB van ongecomprimeerde gegevens, evenals raadplegingsdossiers voor om het even welke vereiste kolommen bevat.
+Wanneer geëxtraheerd, bevat elk gegevensbestand één `hit_data.tsv` die ongeveer 2 GB van ongecomprimeerde gegevens, evenals raadplegingsdossiers voor om het even welke vereiste kolommen bevat.
 
 ## Gegevensbestandsgrootte
 
-De grootte van het dossier van raakgegevens varieert zeer afhankelijk van het aantal variabelen actief gebruikt en de hoeveelheid verkeer die naar rapportreeks wordt verzonden. Een gegevensrij is echter gemiddeld ongeveer 500B (gecomprimeerd) of 2KB (niet-gecomprimeerd). Vermenigvuldigen dit met het aantal servervraag kan een ruwe schatting op verstrekken hoe groot een dossier van de gegevensvoer is. Wanneer uw organisaties gegevensdoorvoerbestanden ontvangen, kunt u een nauwkeuriger getal vinden door het aantal rijen te delen door de totale bestandsgrootte `hit_data.tsv` van het bestand.
+De grootte van het dossier van raakgegevens varieert zeer afhankelijk van het aantal variabelen actief gebruikt en de hoeveelheid verkeer die naar rapportreeks wordt verzonden. Een gegevensrij is echter gemiddeld ongeveer 500B (gecomprimeerd) of 2KB (niet-gecomprimeerd). Vermenigvuldigen dit met het aantal servervraag kan een ruwe schatting op verstrekken hoe groot een dossier van de gegevensvoer is. Wanneer uw organisaties gegevensdoorvoerbestanden ontvangen, kunt u een nauwkeuriger getal vinden door het aantal rijen in `hit_data.tsv` te delen door de totale bestandsgrootte.
