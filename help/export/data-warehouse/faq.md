@@ -20,16 +20,16 @@ Wanneer het toepassen van granulariteit in een verzoek van de Data Warehouse, wo
 
 | Granulariteit | Indeling | Voorbeeld |
 | --- | --- | --- |
-| Uurlijks | `mmmm d, yyyy` Uur `H` | 1 januari, 20XX, Uur 0 |
+| Uurlijks | `mmmm d, yyyy` Uur  `H` | 1 januari, 20XX, Uur 0 |
 | Dagelijks | `mmmm d, yyyy` | 1 januari 20XX |
 | Wekelijks | Week `w, yyyy` | Week 1, 20XX |
 | Maandelijks | `mmmm yyyy` | 20XX januari |
-| Driemaandelijks | `q` Kwart `yyyy` | 1e kwartaal 20XX |
+| Driemaandelijks | `q` Kwart  `yyyy` | 1e kwartaal 20XX |
 | Jaarlijks | `yyyy` | 20XX |
 
 ## Hoe werken segmenten als dimensies in de Data Warehouse?
 
-Wanneer u een segment als afmeting in Data Warehouse gebruikt, keert het rapport een kolom terug die `"0"` of `"1"`:
+Wanneer u een segment als afmeting in Data Warehouse gebruikt, keert het rapport een kolom terug die `"0"` of `"1"` bevat:
 
 * **`"0"`**: Het item Dimensie voldeed niet aan de criteria van het segment.
 * **`"1"`**: Het item Dimensie voldeed aan de criteria van het segment.
