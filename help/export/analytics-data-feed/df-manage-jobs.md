@@ -3,6 +3,9 @@ title: Taken voor gegevensinvoer beheren
 description: Leer hoe u afzonderlijke taken in gegevensfeeds beheert.
 translation-type: tm+mt
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +17,7 @@ Taken zijn afzonderlijke taken die een gecomprimeerd bestand als uitvoer geven. 
 Voer het taakbeheer van de Gegevens van de toegang door deze stappen te volgen:
 
 1. Meld u aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
-2. Klik in de rechterbovenhoek op het menu met 9-rasters en klik vervolgens op [!UICONTROL Analytics].
+2. Klik op het 9-rastermenu in de rechterbovenhoek en klik vervolgens op [!UICONTROL Analytics].
 3. Klik in het bovenste menu op [!UICONTROL Admin] > [!UICONTROL Data Feeds].
 4. Klik boven aan het tabblad Taken.
 
@@ -22,7 +25,7 @@ Voer het taakbeheer van de Gegevens van de toegang door deze stappen te volgen:
 
 ## Navigeren door de interface
 
-Een gegevensinvoertaak is één instantie waarbij Adobe een gecomprimeerd bestand voor een bepaald rapportagevenster verwerkt en uitvoert. De taakmanager geeft een verfijnde weergave om de status van individuele taken te zien.
+Een gegevenfeed-taak is één instantie waarbij Adobe een gecomprimeerd bestand voor een bepaald rapportagevenster verwerkt en uitvoert. De taakmanager geeft een verfijnde weergave om de status van individuele taken te zien.
 
 ![Taken](assets/jobs.jpg)
 
@@ -40,7 +43,7 @@ Gebruik Zoeken om een taak op naam te zoeken.
 
 ### Feeds en taken
 
-Klik op het tabblad feeds om overkoepelende feeds weer te geven die deze taken maken. Zie Gegevensfeeds [beheren](df-manage-feeds.md).
+Klik op het tabblad feeds om overkoepelende feeds weer te geven die deze taken maken. Zie [Gegevensfeeds beheren](df-manage-feeds.md).
 
 ### Kolommen
 
@@ -58,8 +61,8 @@ Elke baan toont verscheidene kolommen die informatie over het verstrekken. Klik 
    * Wachten op gegevens: De taak is operationeel en de gegevens voor het rapportvenster worden verzameld.
    * Verwerking: De taak maakt de gegevensbestanden en bereidt zich voor op het verzenden ervan.
    * Voltooid: De taak is voltooid zonder problemen.
-   * Mislukt: De taak is niet voltooid. Zie [Problemen met taken](jobs-troubleshooting.md) oplossen om de oorzaak van fouten te achterhalen.
+   * Mislukt: De taak is niet voltooid. Zie [Problemen met taken oplossen](jobs-troubleshooting.md) om de oorzaak van fouten te achterhalen.
    * Wachten op exporteren: De gegevens voor het rapportagevenster zijn nog niet volledig verwerkt.
-   * Geen gegevens: Er zijn geen gegevens in de rapportsuite voor het gevraagde rapportvenster.
+   * Geen gegevens: Er zijn geen gegevens in de rapportsuite voor het gewenste rapportvenster.
 * **Voltooiingstijd**: De tijd waarop de taak is voltooid. Datum en tijd worden getoond in de de tijdzone van de rapportreeks met GMT compensatie.
 * **Aangevraagde datum**: Het rapportvenster van het bestand. De dagelijkse voer toont typisch 00:00 - 23:59 met een compensatie van GMT, die op een volledige dag wijst die op de tijdzone van de rapportreeks wordt gebaseerd. Uurfeeds laten het individuele uur zien waarvoor de baan is bedoeld.
