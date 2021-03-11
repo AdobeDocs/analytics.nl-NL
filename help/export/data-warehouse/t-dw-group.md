@@ -1,34 +1,37 @@
 ---
-description: Stappen die beschrijven hoe de beheerders de Warehouse van Gegevens kunnen toelaten die toegang tot een groep gebruikers melden.
+description: Stappen die beschrijven hoe de beheerders Data Warehouse kunnen toelaten meldend toegang tot een groep gebruikers.
 title: Gebruikersgroep Data Warehouse toevoegen
-topic: Data warehouse
+topic: Gegevenspakhuis
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '174'
+ht-degree: 9%
 
 ---
 
 
 # Gebruikersgroep Data Warehouse toevoegen
 
-Stappen die beschrijven hoe de beheerders de Warehouse van Gegevens kunnen toelaten die toegang tot een groep gebruikers melden.
+Stappen die beschrijven hoe de beheerders Data Warehouse kunnen toelaten meldend toegang tot een groep gebruikers.
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Klik op **[!UICONTROL Edit Groups]**.
 1. Klik op **[!UICONTROL Add New User Group]**.
-1. Typ in de **[!UICONTROL Define User Group]** sectie een naam in het veld Groepsnaam. Geef de volgende groepsinformatie:
+1. Typ in de sectie **[!UICONTROL Define User Group]** een naam in het veld Groepsnaam. Geef de volgende groepsinformatie:
 
    Bijvoorbeeld, `Data Warehouse Access`.
-1. Typ een beschrijving in het **[!UICONTROL Group Description]** veld.
-1. Selecteer in de **[!UICONTROL Report Suite Access]** sectie de rapportsuites waartoe u groepsleden toegang wilt geven.
-1. Onder [!UICONTROL Tools], laat **[!UICONTROL All Tools]**. toe.
+1. Typ een beschrijving in het veld **[!UICONTROL Group Description]**.
+1. Selecteer in de sectie **[!UICONTROL Report Suite Access]** de rapportsuites waartoe u groepsleden toegang wilt geven.
+1. Schakel onder [!UICONTROL Tools] **[!UICONTROL All Tools]** in.
 
-   U kunt ook klikken **[!UICONTROL Customize]** en vervolgens inschakelen **[!UICONTROL Custom Data Warehouse Report]**.
+   U kunt ook op **[!UICONTROL Customize]** klikken en **[!UICONTROL Custom Data Warehouse Report]** inschakelen.
 
-1. Voeg onder [!UICONTROL Assign User Logins]de gewenste gebruikersaanmeldingen toe.
+1. Voeg onder [!UICONTROL Assign User Logins] de gewenste gebruikersaanmeldingen toe.
 1. Klik op **[!UICONTROL Save Group]**.
 
-   De volgende keer dat de gebruikers aan deze groepsaanmelding hebben toegevoegd, wordt de optie Data Warehouse toegevoegd aan het [!UICONTROL Reports & Analytics] menu.
+   De volgende keer dat gebruikers aan deze groepsaanmelding zijn toegevoegd, wordt de optie Data Warehouse toegevoegd aan het menu [!UICONTROL Reports & Analytics].
 
    >[!NOTE]
    >
