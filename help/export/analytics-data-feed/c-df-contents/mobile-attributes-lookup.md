@@ -15,10 +15,10 @@ ht-degree: 0%
 Mobiele kenmerken tonen de eigenschappen van het mobiele apparaat in de hit. Dit bestand wordt weergegeven wanneer:
 
 * Dynamische zoekopdrachten worden ingeschakeld. Een medewerker van de support in uw organisatie kan contact opnemen met de klantenservice met de gewenste feed-id om dynamische zoekopdrachten mogelijk te maken.
-* De `mobile_id` kolom wordt opgenomen.
-* De `user_agent` kolom is uitgesloten. Deze uitsluiting is vereist vanwege licentieovereenkomsten met DeviceAtlas.
+* De kolom `mobile_id` wordt opgenomen.
+* De kolom `user_agent` is uitgesloten. Deze uitsluiting is vereist vanwege licentieovereenkomsten met DeviceAtlas.
 
-Download [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv)of verwijs hier naar de lijst:
+Download [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv) of verwijs hier naar de lijst:
 
 * `mobile_id`
 * `Manufacturer`
