@@ -5,6 +5,9 @@ title: Verbinding maken met Adobe via SFTP zonder wachtwoord
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 2%
 
 ---
 
@@ -23,10 +26,10 @@ Als u SFTP gebruikt, is het mogelijk om onder specifieke omstandigheden persoonl
 
 1. FTP-account gemaakt (Adobe).
 
-   Een vertegenwoordiger van Adobe kan een FTP-account maken als dat nog niet het geval is. Neem contact op met uw accountmanager van Adobe of de klantenservice van Adobe om een account te maken.
+   Een Adobe-medewerker kan een FTP-account maken als dat nog niet het geval is. Neem contact op met uw Adobe-accountmanager of de klantenservice van Adobe om een account te maken.
 1. Openbare/persoonlijke sleutel maken (klant).
 
-   Een combinatie van openbare en persoonlijke sleutels maken. De persoonlijke sleutel is een bestand dat privé is met uw computer/server en zich daar bevindt. Het bestand met de openbare sleutel moet naar de Adobe-account worden geüpload. Wanneer gebruikt op deze manier kunt u verbinding maken zonder wachtwoordverificatie. Het bestand met de openbare sleutel in Adobe komt overeen met het bestand met de persoonlijke sleutel op uw computer/server en wordt op die manier geverifieerd.
+   Een combinatie van openbare en persoonlijke sleutels maken. De persoonlijke sleutel is een bestand dat privé is met uw computer/server en zich daar bevindt. Het bestand met de openbare sleutel moet worden geüpload naar de Adobe-account. Wanneer gebruikt op deze manier kunt u verbinding maken zonder wachtwoordverificatie. Het bestand met de openbare sleutel bij Adobe komt overeen met het bestand met de persoonlijke sleutel op uw computer/server en wordt op die manier geverifieerd.
 
    Om deze dossiers tot stand te brengen, contacteer uw interne groep van de netwerksteun om een zeer belangrijke reeks tot stand te brengen die voor uw milieu behoorlijk is. Er zijn vele hulpmiddelen en toepassingen die kunnen worden gebruikt om deze twee dossiers tot stand te brengen.
 
@@ -62,7 +65,7 @@ Als u SFTP gebruikt, is het mogelijk om onder specifieke omstandigheden persoonl
 
 1. Upload Public key naar FTP-account (klant).
 
-   Upload en test de openbare sleutel. Maak verbinding met de Adobe FTP-account en maak een [!DNL .ssh] map als deze nog niet bestaat. Upload het [!DNL authorized_keys] bestand naar deze [!DNL .ssh] map. Dit kan op verschillende manieren worden gedaan (opdrachtregel, grafische FTP-client, enzovoort). Het enige wat nodig is, is de mogelijkheid om een map te maken en een bestand te uploaden.
+   Upload en test de openbare sleutel. Maak verbinding met de FTP-account van Adobe en maak een [!DNL .ssh]-map, als deze nog niet bestaat. Upload het [!DNL authorized_keys] dossier aan deze [!DNL .ssh] folder. Dit kan op verschillende manieren worden gedaan (opdrachtregel, grafische FTP-client, enzovoort). Het enige wat nodig is, is de mogelijkheid om een map te maken en een bestand te uploaden.
 
    Hier, opnieuw, is een voorbeeld van het doen van dit gebruikend een shell van UNIX.
 
