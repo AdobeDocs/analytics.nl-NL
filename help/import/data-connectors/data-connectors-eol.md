@@ -2,7 +2,7 @@
 description: Leer over wanneer en waarom de gegevensschakelaars van de Analyse zullen eind-van-leven worden.
 title: Vooraankondiging van einde van levensduur voor gegevensconnectors van Analytics
 translation-type: tm+mt
-source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
+source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # Einde van levensduur voor Adobe Data Connectors
 
-Al meer dan tien jaar streeft Adobe Analytics ernaar de beste oplossing voor web- en marketinganalyses te bieden om aan de behoeften van klanten te voldoen. Naarmate technologie en bedrijfsbehoeften evolueren, streven we ernaar voortdurend aan de hoogste standaarden te voldoen.  Helaas voldoen de API&#39;s die deze integratie mogelijk maken, niet meer aan deze normen en zijn ze niet houdbaar in de moderne Adobe Analytics-technologie-infrastructuur.
+Al meer dan tien jaar streeft Adobe Analytics ernaar de beste oplossing voor web- en marketinganalyses te bieden om aan de behoeften van klanten te voldoen. Naarmate technologie en bedrijfsbehoeften evolueren, streven we ernaar voortdurend aan de hoogste standaarden te voldoen.  Helaas voldoen de API&#39;s die deze integratie mogelijk maken niet meer aan deze normen en zijn ze niet houdbaar in de moderne Adobe Analytics-technologie-infrastructuur.
 
 **Met ingang van 1 augustus 2021** is Adobe voornemens de integratie van gegevensconnectors te beëindigen. Het einde van de levensduur maakt deel uit van de levenscyclus van elk technologisch product en de Adobe is erop gericht de overgang zo naadloos mogelijk te maken voor onze klanten en partners. Veel van deze integraties zijn beschikbaar via Adobe Exchange en kunnen ook in de toekomst worden gebruikt.
 
@@ -61,7 +61,7 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | Demandbase CA | Vervangen |
 | Demandbase v3 | Vervangen |
 | DialogTech | Beschikbaar op Adobe Exchange |
-| DoubleClick for Advertisers (DFA) | Vervangen |
+| [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Vervangen |
 | DREAM | Vervangen |
 | DREAMmail 2.0 | Vervangen |
 | Dynamisch signaal (Nital Vora) | Migreren naar Exchange |
@@ -81,7 +81,7 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | Lyris HQ | Vervangen |
 | MaritzCX (V 2.0) | Vervangen |
 | Merkle | Vervangen |
-| Officiële Oracle Eloqua-integratie | Vervangen |
+| Officiële Oracle-Eloqua-integratie | Vervangen |
 | optivo broadmail (Episerver) | Migreren naar Exchange |
 | Qualtrics v2 | Migreren naar Exchange |
 | Responsys 2.0 | Vervangen |
