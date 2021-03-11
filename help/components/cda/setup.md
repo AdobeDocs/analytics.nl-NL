@@ -2,9 +2,9 @@
 title: Apparaatanalyse instellen
 description: Configureer een virtuele rapportsuite om CDA in te schakelen.
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ CDA is provisioned op uw cross-device rapportsuite door Adobe engineering. Neem 
 * De rapportsuite-id voor de rapportsuite voor verschillende apparaten die u wilt inschakelen met CDA
 * Welke methode van CDA wilt u gebruiken (op gebied-gebaseerde het stitching, Adobe privé grafiek, of Adobe coop grafiek)
 * Als u op het veld gebaseerde stitching wilt gebruiken, de eigenschap of de eVar die de gebruikersnaam bevat
+* Uw voorkeur voor afspeelfrequentie en terugkijklengte. De opties omvatten een replay eens per week met een 7 dagen terugkijkvenster, of een replay elke dag met een 1 dag terugkijkvenster.
 
 Zodra uw CSM van deze informatie voorziet, werken zij met de Techniek van Adobe om uw gekozen rapportreeks voor CDA verwerking toe te laten.
 
