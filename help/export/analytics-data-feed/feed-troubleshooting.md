@@ -1,10 +1,13 @@
 ---
 description: Deze sectie bevat informatie over algemene kwesties.
-keywords: Data Feed;troubleshooting
+keywords: Gegevensfeed;problemen oplossen
 title: Gegevensfeeds oplossen
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '941'
+ht-degree: 0%
 
 ---
 
@@ -27,15 +30,15 @@ Als deze fout optreedt, moet u rekening houden met de volgende tijdelijke oorzak
 
 ## BucketOwnerFullControl-instelling voor Amazon S3-gegevensfeeds {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
 
-Het algemene gebruiksgeval voor Amazon S3 is dat de AWS-account-eigenaar (Amazon Web Services) een emmer maakt en vervolgens een gebruiker maakt die toestemming heeft om objecten in dat emmertje te maken en vervolgens referenties voor die gebruiker verschaft. In dit geval behoren de objecten van een gebruiker tot dezelfde account en heeft de rekeninghouder impliciet volledige controle over het object (lezen, verwijderen, enz.). Dit is vergelijkbaar met hoe FTP-levering werkt.
+Het gemeenschappelijke gebruiksgeval voor Amazon S3 is dat de de rekeningseigenaar van het Web van Amazon van de Diensten (AWS) een emmertje creeert, dan tot een gebruiker leidt die toestemming heeft om voorwerpen in dat emmertje tot stand te brengen, en dan geloofsbrieven voor die gebruiker verstrekt. In dit geval behoren de objecten van een gebruiker tot dezelfde account en heeft de rekeninghouder impliciet volledige controle over het object (lezen, verwijderen, enz.). Dit is vergelijkbaar met de manier waarop FTP-levering werkt.
 
 Met AWS kan een gebruiker ook objecten in een emmertje maken die bij een geheel andere gebruikersaccount horen. Bijvoorbeeld, als twee gebruikers AWS, gebruikerA en userB, niet tot de zelfde rekening behoren AWS maar voorwerpen in andere emmers willen tot stand brengen. Als userA tot een emmer leidt, zeg bucketA, kan hij of zij een emmerbeleid tot stand brengen dat uitdrukkelijk userB toestaat om voorwerpen in bucketA tot stand te brengen alhoewel de gebruiker niet het emmertje bezit. Dit kan voordelig zijn omdat het niet die userA en userB vereist om geloofsbrieven uit te wisselen. In plaats daarvan, verstrekt userB userA met hun rekeningsaantal, en userA leidt tot een emmerbeleid dat hoofdzakelijk zegt &quot;laat userB voorwerpen in bucketA tot stand brengen&quot;.
 
-**BucketOwnerFullControl** biedt cross-account rechten om objecten in andere emmers te maken. Als userB een voorwerp aan de emmer van userA uploadt, nog bezit userB dat voorwerp, en door gebrek, wordt userA geen toestemmingen verleend aan dat voorwerp alhoewel userA bezit bucket-voorwerpen geen toestemmingen van de ouderemmer erven. UserB moet userA toestemmingen uitdrukkelijk verlenen omdat userB nog de eigenaar van objecten is. Voor deze dwars-rekening uploadt, verstrekt AWS een BucketOwnerFullControl ACL door te specificeren dat het gebruik van dit ACL door de emmereigenaar (userA) en volledige toestemmingen aan het voorwerp (lezen, schrijven, schrappen, enz.) wordt verleend, alhoewel het voorwerp &quot;bezeten&quot;door userB is.
+**** BucketOwnerFullController biedt cross-account rechten om objecten in andere emmers te maken. Als userB een voorwerp aan de emmer van userA uploadt, nog bezit userB dat voorwerp, en door gebrek, wordt userA geen toestemmingen verleend aan dat voorwerp alhoewel userA bezit bucket-voorwerpen geen toestemmingen van de ouderemmer erven. UserB moet userA toestemmingen uitdrukkelijk verlenen omdat userB nog de eigenaar van objecten is. Voor deze dwars-rekening uploadt, verstrekt AWS een BucketOwnerFullControl ACL door te specificeren dat het gebruik van dit ACL door de emmereigenaar (userA) en volledige toestemmingen aan het voorwerp (lezen, schrijven, schrappen, enz.) wordt verleend, alhoewel het voorwerp &quot;bezeten&quot;door userB is.
 
 ## Overdrachtsfouten {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
-Als een FTP-overdracht mislukt (aanmelden geweigerd, verbinding verbroken, quota overschreden, enz.), probeert Adobe automatisch verbinding te maken en de gegevens maximaal drie keer te verzenden. Als de fouten aanhouden, wordt de feed gemarkeerd als mislukt en wordt een e-mailmelding verzonden.
+Als een FTP-overdrachtfout optreedt (aanmelden geweigerd, verbinding verbroken, quota overschreden, enz.), probeert Adobe automatisch verbinding te maken en de gegevens maximaal drie keer te verzenden. Als de fouten aanhouden, wordt de feed gemarkeerd als mislukt en wordt een e-mailmelding verzonden.
 
 Als de overdracht mislukt, kunt u de taak opnieuw uitvoeren totdat deze is gelukt.
 
@@ -43,7 +46,7 @@ Als de overdracht mislukt, kunt u de taak opnieuw uitvoeren totdat deze is geluk
 
 Nadat u het leveringsprobleem hebt geverifieerd/gecorrigeerd, voert u de taak opnieuw uit om de bestanden op te halen.
 
-## Besparing op de zomertijd op de toevoer van daggegevens {#section_70E867D942054DD09048E027A9474FFD}
+## Besparing op zomertijd op het voer van Uur- Gegevens {#section_70E867D942054DD09048E027A9474FFD}
 
 Voor bepaalde tijdzones wordt de tijd twee keer per jaar gewijzigd als gevolg van definities van zomertijd (DST). Het voer van gegevens respecteert de tijdzone waarvoor de rapportreeks wordt gevormd. Als de tijdzone voor de rapportreeks één is die geen DST gebruikt, zal de dossierlevering normaal als om het even welke andere dag verdergaan. Als de tijdzone van de rapportreeks één is die DST gebruikt, zal de dossierlevering voor het uur worden veranderd waarin de tijdverandering (gewoonlijk 2:00 am) voorkomt.
 
@@ -68,4 +71,4 @@ Sommige mobiele dragers (zoals T-Mobile en O1) verstrekken geen domeininfo voor 
 
 ## Overzicht van gegevensverwerking {#section_6346328F8D8848A7B81474229481D404}
 
-Vóór de verwerking van uur of daggegevens, wacht de gegevensvoer tot alle klappen die gegevensinzameling binnen het tijdsbestek (dag of uur) zijn ingegaan uit zijn geschreven aan gegevenspakhuis. Daarna, verzamelt de gegevensvoer de gegevens met timestamps die binnen het tijdskader vallen, het comprimeert, en verzendt het via FTP. Voor uurvoer worden de dossiers typisch geschreven aan gegevenspakhuis binnen 15-30 min na het uur, maar er is geen vastgestelde tijdspanne. Als er geen gegevens zijn met tijdstempels die binnen de tijdlijn vallen, probeert het proces het volgende tijdkader opnieuw. Het huidige gegevensvoederproces gebruikt het `date_time` gebied om te bepalen welke treffers tot het uur behoren. Dit gebied is gebaseerd op de tijdzone van de rapportreeks.
+Vóór de verwerking van uur of daggegevens, wacht de gegevensvoer tot alle klappen die gegevensinzameling binnen het tijdsbestek (dag of uur) zijn ingegaan uit zijn geschreven aan gegevenspakhuis. Daarna, verzamelt de gegevensvoer de gegevens met timestamps die binnen het tijdskader vallen, het comprimeert, en verzendt het via FTP. Voor uurvoer worden de dossiers typisch geschreven aan gegevenspakhuis binnen 15-30 min na het uur, maar er is geen vastgestelde tijdspanne. Als er geen gegevens zijn met tijdstempels die binnen de tijdlijn vallen, probeert het proces het volgende tijdkader opnieuw. Het huidige gegevensvoederproces gebruikt `date_time` gebied om te bepalen welke treffers tot het uur behoren. Dit gebied is gebaseerd op de tijdzone van de rapportreeks.
