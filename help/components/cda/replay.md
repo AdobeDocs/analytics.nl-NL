@@ -2,9 +2,9 @@
 title: Hoe herspeelt u
 description: Begrijp het concept "replay"in Cross-Device Analytics
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,12 @@ Zowel niet-geverifieerde als geverifieerde hits op nieuwe apparaten worden als a
 
 ### Replay stitching
 
-Ongeveer eens per week herberekent CDA historische gegevens op basis van de apparaten die het nu herkent. Als een apparaat aanvankelijk gegevens verzendt terwijl niet voor authentiek verklaard en dan login, CDA die niet voor authentiek verklaarde klappen aan de correcte persoon bindt. In de volgende tabel worden dezelfde gegevens weergegeven als hierboven, maar worden verschillende getallen weergegeven op basis van het opnieuw afspelen van de gegevens.
+Replay komt of dagelijks of wekelijks voor, afhankelijk van hoe u CDA om vroeg te worden gevormd. Tijdens replay, probeert CDA historische gegevens binnen een bepaald terugkijkvenster opnieuw te verklaren:
+
+* Dagelijks opnieuw afspelen gebruikt een terugkijkvenster van 1 dag
+* Wekelijks opnieuw afspelen gebruikt een terugkijkvenster van 7 dagen.
+
+Als een apparaat aanvankelijk gegevens verzendt terwijl niet voor authentiek verklaard en dan login, CDA die niet voor authentiek verklaarde klappen aan de correcte persoon bindt. In de volgende tabel worden dezelfde gegevens weergegeven als hierboven, maar worden verschillende getallen weergegeven op basis van het opnieuw afspelen van de gegevens.
 
 *Dezelfde gegevens na afspelen:*
 
@@ -65,9 +70,3 @@ Ongeveer eens per week herberekent CDA historische gegevens op basis van de appa
 | `6` | `246` | `Bob` | Bob meldt zich opnieuw aan via desktop | `1` (Cluster1) | `1` (Bob) |
 | `7` | `3579` | - | Bob benadert uw site opnieuw op mobile | `1` (Cluster1) | `1` (Bob) |
 | `8` | `3579` | `Bob` | Bob meldt zich opnieuw aan via mobile | `1` (Cluster1) | `1` (Bob) |
-
-## Opnieuw
-
-* **Als u een apparaatgrafiek gebruikt, worden** gegevens vastgezet wanneer een cluster wordt gepubliceerd (doorgaans 3 uur tot 2 weken).
-* **Als u op velden gebaseerde stitching gebruikt, worden bekende apparaten onmiddellijk door** gegevens van minder dan een week vastgezet, maar worden nieuwe of niet-herkende apparaten niet onmiddellijk vastgezet.
-* De gegevens worden één keer per week herhaald, en verandert historische gegevens in de virtuele rapportreeks die op apparaten wordt gebaseerd het heeft geleerd om zich te identificeren.
