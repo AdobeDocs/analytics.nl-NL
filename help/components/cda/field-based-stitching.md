@@ -2,9 +2,9 @@
 title: Veldgebaseerde stitching
 description: Begrijp de eerste vereisten en de beperkingen van het stitching van gegevens gebruikend op gebied-gebaseerde stitching.
 translation-type: tm+mt
-source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
+source-git-commit: beed7ffcc39b9b2628b1487b5e2eac42fa3a94d0
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,14 @@ Als u Cross-Device Analytics wilt implementeren met behulp van op het veld gebas
 
 ## Beperkingen die specifiek zijn voor stitching in het veld
 
-* Veldgebaseerde stitching werkt het beste bij rapportsuites met een hoog gebruikersidentificatieniveau. Als uw rapportsuite een lage identificatie- of aanmeldfrequentie heeft, kunt u de [Co-op grafiek](device-graph.md) gebruiken.
-* Hoewel props en eVars elk regels bevatten voor de manier waarop hoofdletters en kleine letters worden verwerkt voor rapportagedoeleinden, wordt door het stitching op basis van velden op geen enkele manier de eigenschap of eVar die voor stitching wordt gebruikt, getransformeerd. Op velden gebaseerde stitching gebruikt de waarde in het opgegeven veld omdat deze regels voor post VISTA en nabewerkingsregels bevat. Als bijvoorbeeld soms het woord &#39;Bob&#39; voorkomt in de pop/eVar en soms het woord &#39;BOB&#39; verschijnt, worden deze behandeld als twee aparte personen.
+* Op veld gebaseerde stitching werkt het beste bij rapportsuites met een hoog gebruikersidentificatie-/verificatiepercentage.
+* Hoewel props en eVars elk regels bevatten voor de manier waarop hoofdletters en kleine letters worden verwerkt voor rapportagedoeleinden, wordt door het stitching op basis van velden op geen enkele manier de eigenschap of eVar die voor stitching wordt gebruikt, getransformeerd. Op velden gebaseerde stitching gebruikt de waarde in het opgegeven veld omdat deze regels voor post VISTA en nabewerkingsregels bevat. Het stitching proces is case-sensitive. Als bijvoorbeeld soms het woord &#39;Bob&#39; voorkomt in de pop/eVar en soms het woord &#39;BOB&#39; wordt weergegeven, worden deze door het stitching-proces als twee aparte personen behandeld.
+* Aangezien veldoverstikken hoofdlettergevoelig is, raadt Adobe aan om alle VISTA-regels of verwerkingsregels te herzien die van toepassing zijn op de eigenschap of eVar die wordt gebruikt voor veldoverstikken. Zij moeten worden herzien om ervoor te zorgen dat geen van deze regels nieuwe vormen van zelfde identiteitskaart introduceert. U moet er bijvoorbeeld voor zorgen dat er geen VISTA- of verwerkingsregels zijn die alleen voor een deel van de treffers een lagere waarde aan de proxy of eVar toevoegen.
+* Op velden gebaseerde stitching ondersteunt het gebruik van meer dan één prop of eVar voor stitching doeleinden niet. Als eVar12 bijvoorbeeld een aanmeldings-id bevat en eVar20 een e-mailadres bevat, moet u een van deze id&#39;s kiezen.
+* Veldgebaseerde stitching combineert of voegt geen velden samen (bijvoorbeeld eVar10 + prop5).
+* De eigenschap of eVar moet één type id bevatten. De proxy of eVar mag bijvoorbeeld geen combinatie bevatten van aanmeldings-id&#39;s en e-mailid&#39;s.
+* Als meerdere treffers voorkomen met dezelfde tijdstempel voor dezelfde bezoeker, maar met verschillende waarden in de tekenreeks-eigenschap of -eVar, kiest CDA op basis van alfabetische volgorde. Dus als bezoeker A twee hits heeft met dezelfde tijdstempel en een van de hits Bob opgeeft en de andere gebruiker Ann opgeeft, kiest CDA Ann.
+
 
 ## Volgende stappen
 
