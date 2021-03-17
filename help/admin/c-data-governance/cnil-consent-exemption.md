@@ -2,9 +2,9 @@
 description: Leer meer over de richtlijnen en aanbevelingen voor de toestemming van gebruikers om niet-essentiële cookies op apparaten of browsers op te slaan of te lezen.
 title: Wat zijn de CNIL-richtlijnen voor toestemming van de gebruiker en cookies
 translation-type: tm+mt
-source-git-commit: 36259e3a36cad221d7264e5caa0a09a757dc4fe8
+source-git-commit: fefc2433ef42bae232a9a9afc1040be8d04b2bbe
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ De richtsnoeren voorzien in een beperkte vrijstelling van de toestemmingsvereist
 * Cookie-limiet van 13 maanden is ingesteld op een statische datum, niet schuiven.  U kunt de vervaldatum van het analytische cookie overschrijven met de variabele `cookieLifetime`.  [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html)
 * Beperkte reikwijdte. Het bereik van de cookie moet beperkt zijn tot één site of toepassing. [Browsercookies](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=en&quot;\l&quot;third-party-cookie-implementations)
 * Anonymiisatie. Anonymize het laatste octet van het IP Adres. [Algemene accountinstellingen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html)
-* ID bezoeker verbergen in rapportage.  De bezoeker-id&#39;s zijn standaard niet zichtbaar in Adobe Workspace en Adobe Reports and Analytics.  Bezoeker-id&#39;s zijn beschikbaar in Gegevensfeeds en Data Warehouse.  Toegang tot gegevensfeeds en Data Warehouse kan worden beperkt door [Toegangsmachtigingen in Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)
+* ID bezoeker verbergen in rapportage.  De bezoeker-id&#39;s zijn standaard niet zichtbaar in Adobe Workspace en Adobe Reports and Analytics.  Bezoeker-id&#39;s zijn beschikbaar in Gegevensfeeds en Data Warehouse.  Toegang tot gegevensfeeds en -Data Warehouse kan worden beperkt door [Toegangsmachtigingen in Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391) en [Referentie gegevensfeed-kolom](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en#columns%2C-descriptions%2C-and-data-types)
 * Geolocatie-parameters. Geolocatie kan niet preciezer zijn dan het niveau van de postcode. [Zip-](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=en&quot;\l&quot;zip-in-adobe-experience-platform-launch) opties en  [algemene accountinstellingen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=en&quot;\l&quot;admin-tools)
 * Stel opties voor aanmelden in.  Met de Inschakelen-service kunt u bezoekersprotocollen instellen om te bepalen of u een cookie op het apparaat of de browser van de gebruiker kunt instellen wanneer u uw site bezoekt. [Inschakelen van service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)
 * Gegevensdeling voorkomen.  Als u gegevensdeling naar Adobe Audience Manager wilt uitsluiten, gebruikt u de contextvariabele `opt.dmp` voor [Privacy Reporting](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=en&quot;\l&quot;variables) om te voorkomen dat hits worden gedeeld.
@@ -33,7 +33,7 @@ De volgende aanvullende overwegingen zijn van toepassing:
 
 * Overweeg de opt-in status in een variabele Analytics te verzamelen om opted-in gegevens van opted-out gegevens voor segmentatie, virtuele rapportreeksen te scheiden, of aan route aan afzonderlijke eindpunten.
 * Geen meting buiten de site of de toepassing zonder voorafgaande toestemming, bijvoorbeeld geen offsite campagnes, e-mailcampagnes of iFrames.
-* Het verzamelen van persoonsgegevens in variabelen is niet toegestaan zonder toestemming.
+* Het verzamelen van persoonsgegevens in variabelen is niet toegestaan zonder toestemming. [Experience Cloud-activiteiten beheren op basis van toestemming van gebruiker](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en%22%20\l%20%22implementation#implementation)
 * Gegevens mogen alleen worden gebruikt om anonieme statistieken te produceren, zonder combinatie met andere gegevens.
 * Gegevens worden niet gebruikt voor kruisverwijzingsacties.
 * GPS-geolocatiegegevens worden niet verzameld.
