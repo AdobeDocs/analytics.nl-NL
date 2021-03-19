@@ -2,9 +2,9 @@
 title: Mobiele afmetingen
 description: Dimension die op het IP adres van het apparaat worden gebaseerd.
 translation-type: tm+mt
-source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
+source-git-commit: 76605232c180fb6a3d4c181614f43b75e1d06cd5
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De mobiele afmetingen bieden inzicht in de eigenschappen van mobiele apparaten d
 
 ## Deze afmetingen vullen met gegevens
 
-Deze dimensies verwijzen naar raadplegingsregels intern aan Adobe. [!UICONTROL Mobile Carrier] raadplegingen worden bepaald door IP adres, gebruikend gegevens wij van NetAcuity (een Digitaal product van het Element) krijgen.
+Deze dimensies verwijzen naar opzoekregels die intern zijn aan Adobe. [!UICONTROL Mobile Carrier] raadplegingen worden bepaald door IP adres, gebruikend gegevens wij van NetAcuity (een Digitaal product van Elementen) krijgen.
 Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via Adobe Experience Platform Launch), werken alle mobiele afmetingen buiten het vak.
 
 ## Beschrijvingen van mobiele afmetingen
@@ -28,7 +28,7 @@ Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via Adobe Experience
 >Dimension-items met het label `"None"` zijn niet-mobiele apparaten. Als u een rapport wilt maken dat alleen mobiele apparaten bevat, sleept u de dimensie Mobiel apparaat naar het segmentgebied van het canvas Workspace.
 
 * **Ondersteuning** voor mobiele audio: Bepaalt de bestandsindelingen die het apparaat kan afspelen. Voorbeelden van waarden zijn `"MP3"`, `"AAC"` en `"MIDI Monophonic"`. Waarden in deze dimensie sluiten elkaar niet uit; één enkele slag kan aan veelvoudige afmetingspunten toeschrijven.
-* **Mobiele drager**: Als de gebruikersagent een drager-specifiek apparaat bevat, is de drager een afmetingspunt. Voorbeelden van waarden zijn `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` en `"Verizon"`.
+* **Mobiele drager**: Waarden voor deze dimensie worden gevuld door gegevens van derden (Digital Elements) op te zoeken op basis van de IP-adressen die door Analytics zijn vastgelegd. Voorbeelden van waarden zijn `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` en `"Verizon"`.
 * **Mobiele kleurdiepte**: De kleurdiepte van het mobiele apparaat, in bits.
 * **Ondersteuning voor** mobiele cookies: Hiermee wordt bepaald of het mobiele apparaat cookies ondersteunt. In dit rapport wordt niet aangegeven of de browser cookies accepteert. Dimension-items zijn onder andere `"Supported"`, `"Not supported"` en `"Unknown"`.
 * **Mobiel apparaat**: Het mobiele apparaat dat de bezoeker gebruikt.
