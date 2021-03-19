@@ -1,13 +1,10 @@
 ---
 description: Gegevensbronnen ondersteunen de volgende variabelen bij het verwerken van gegevens als een standaardserveraanroep (Algemeen > Volledige verwerking).
-subtopic: Data sources
-title: Volledige verwerking
-topic: Developer and implementation
-uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
+title: Volledige verwerkingsoptie voor Gegevensbronnen
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '728'
 ht-degree: 8%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->Adobe raadt klanten aan de API ( [Bulk Data Insertion) (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) te gebruiken in plaats van volledige gegevensbronnen voor verwerking. Adobe is van plan in de toekomst volledige verwerkingsgegevensbronnen te vervangen.
+>Adobe raadt klanten aan de [BDIA (Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) te gebruiken in plaats van volledige gegevensbronnen voor verwerking. Adobe is van plan in de toekomst volledige verwerkingsgegevensbronnen te vervangen. [Meer informatie](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Gegevensbronnen ondersteunen de volgende variabelen bij het verwerken van gegevens als een standaardserveraanroep (Algemeen > Volledige verwerking).
 
@@ -30,7 +27,7 @@ Gegevens van gegevensbronnen van volledige verwerking worden verwerkt alsof deze
 
 Gegevens van gegevensbronnen voor volledige verwerking worden verwerkt met behulp van afzonderlijke bezoekersprofielen. Zelfs als de bezoekersidentiteitskaart in geüploade gegevens overeenkomt met gegevens die zijn verzameld met JavaScript of een andere AppMeasurement-bibliotheek, worden de bezoekersprofielen niet verbonden vanuit het oogpunt van eVar-toewijzing.
 
-Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example.com"` bezoeken uw plaats van een marketing campagne genoemd &quot;Verkoop van de Lente&quot;, die in de campagnevariabele wordt opgeslagen. Als u later een transactie uploadt met dezelfde bezoeker-id, ontvangt de campagne &quot;Verkoop voorjaar&quot; geen kredieten voor geüploade inkomsten- of succesgebeurtenissen met behulp van volledige verwerkingsgegevensbronnen.
+Bijvoorbeeld, bezoekt een gebruiker met een bezoekersidentiteitskaart van `"user@example.com"` uw plaats van een marketing campagne genoemd &quot;Verkoop van de Lente&quot;, die in de campagnevariabele wordt opgeslagen. Als u later een transactie uploadt met dezelfde bezoeker-id, ontvangt de campagne &quot;Verkoop voorjaar&quot; geen kredieten voor geüploade inkomsten- of succesgebeurtenissen met behulp van volledige verwerkingsgegevensbronnen.
 
 ## Kolomverwijzing {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -45,12 +42,12 @@ Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campaign </p> </td> 
+   <td colname="col2"> <p>campagne </p> </td> 
    <td colname="col3"> <p>Code voor bijhouden van conversiecampagne. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col2"> <p>kanaal </p> </td> 
    <td colname="col3"> <p>Kanaaltekenreeks (bijvoorbeeld Sportsectie). </p> </td> 
   </tr> 
   <tr> 
@@ -64,22 +61,22 @@ Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example
    <td colname="col3"> <p>Gebruik de datumnotatie ISO 8601 van <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (bijvoorbeeld <code> 2013-09-01T12:00:00-07:00 </code>) of Unix Time Format (het aantal seconden dat is verstreken sinds 1 januari 1970). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><i>eVarN</i> </p> </td> 
-   <td colname="col2"> <p><i>eVarN</i>, d.w.z. &lt;eVar2&gt;..&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Naam van conversie-eVar. U kunt maximaal 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> 75 </span>) gebruiken. </p> <p>U kunt de naam van de eVar (eVar12) of een vriendelijke naam (Advertentiecampagne 3) opgeven. </p> </td> 
+   <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
+   <td colname="col2"> <p>eVar<i>N</i>, d.w.z. &lt;eVar2&gt;..&lt;/eVar2&gt; </p> </td> 
+   <td colname="col3"> <p>Naam van conversie-eVar. U kunt maximaal 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>) hebben. </p> <p>U kunt de naam van de eVar (eVar12) of een vriendelijke naam (Advertentiecampagne 3) opgeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>De koord van gebeurtenissen, geformatteerd gebruikend de zelfde syntaxis zoals de <a href="https://docs.adobe.com/content/help/nl-NL/analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variabele. </p> <p>Bijvoorbeeld: </p> 
+   <td colname="col2"> <p>gebeurtenissen </p> </td> 
+   <td colname="col3"> <p>De koord van gebeurtenissen, geformatteerd gebruikend de zelfde syntaxis zoals <a href="https://docs.adobe.com/content/help/nl-NL/analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variabele. </p> <p>Bijvoorbeeld: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><i>hierN</i> </p> </td> 
-   <td colname="col2"> <p><i>hierN</i>, d.w.z. &lt;hier2&gt;..&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>Hiërarchienaam. U kunt maximaal vijf hiërarchieën hebben ( <span class="varname"> hier1 </span> - <span class="varname"> hier5 </span>). </p> <p>U kunt de standaardhiërarchienaam ( <span class="varname"> hier2 </span>) of een vriendelijke naam ( <span class="term"> Yankees </span>) opgeven. </p> </td> 
+   <td colname="col1"> <p>hier<i>N</i> </p> </td> 
+   <td colname="col2"> <p>hier<i>N</i>, d.w.z. &lt;hier2&gt;..&lt;/hier2&gt; </p> </td> 
+   <td colname="col3"> <p>Hiërarchienaam. U kunt maximaal vijf hiërarchieën hebben ( <span class="varname"> hier1 </span> - <span class="varname"> hier5 </span>). </p> <p>U kunt de standaardhiërarchienaam ( <span class="varname"> hier2 </span>) of een vriendelijke naam ( <span class="term"> Yankees </span>) specificeren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -118,13 +115,13 @@ Bijvoorbeeld, een gebruiker met een bezoekersidentiteitskaart van `"user@example
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>products </p> </td> 
+   <td colname="col2"> <p>producten </p> </td> 
    <td colname="col3"> <p>Productlijst (bijvoorbeeld <code> "Sports;Ball;1;5.95"</code>). Kan maximaal 4096 bytes per rij bevatten.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
-   <td colname="col2"> <p><i>propN</i>, d.w.z. &lt;prop2&gt;..&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>Eigenschap#-tekenreeks (bijvoorbeeld <span class="term"> Sport Section </span>). </p> </td> 
+   <td colname="col2"> <p>prop<i>N</i>, d.w.z. &lt;prop2&gt;..&lt;/prop2&gt; </p> </td> 
+   <td colname="col3"> <p>Eigenschap#-tekenreeks (bijvoorbeeld <span class="term"> Sportsectie </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -174,7 +171,7 @@ De volgende tabel bevat verkeersvariabelen die automatisch worden ingevuld wanne
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>De ondersteunde tekenset voor uw website. Bijvoorbeeld UTF-8, ISO-8859-1 enzovoort. </p> <p>Zie de whitepaper over <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  > Multi-Byte Character Sets </a> (Internationalization) voor een volledige lijst. </p> </td> 
+   <td colname="col2"> <p>De ondersteunde tekenset voor uw website. Bijvoorbeeld UTF-8, ISO-8859-1 enzovoort. </p> <p>Zie de whitepaper <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  > Multi-Byte Character Sets </a> (Internationalization) voor een complete lijst. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
@@ -206,7 +203,7 @@ De volgende tabel bevat verkeersvariabelen die automatisch worden ingevuld wanne
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Het verbindingstype van de bezoeker ( <span class="term"> lan </span> of <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>Verbindingstype van bezoeker ( <span class="term"> lan </span> of <span class="term"> modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
