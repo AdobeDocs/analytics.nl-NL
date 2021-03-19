@@ -3,9 +3,9 @@ description: Nieuwe functies in Analysis Workspace.
 keywords: Analysis Workspace
 title: Nieuwe functies in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
+source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
 workflow-type: tm+mt
-source-wordcount: '8122'
+source-wordcount: '8116'
 ht-degree: 91%
 
 ---
@@ -19,7 +19,7 @@ Voor toegang tot de de Nota&#39;s van de Versie van Adobe Experience Cloud als g
 
 | Functie | Doeldatum | Beschrijving |
 | --- | --- | --- |
-| Componentselectie | 4 februari 2021 | De drop-down/drop zonecomponent die in Snelle Inzichten wordt gevonden zal aan alle dalingsstreken in Werkruimte worden toegevoegd. Dankzij deze verbetering kunt u kiezen uit een vervolgkeuzelijst met compatibele componenten of de ruimte blijven gebruiken als een neerzetzone. |
+| Componentselectie | 4 februari 2021 | De drop-down/drop zonecomponent die in [!UICONTROL Quick Insights] wordt gevonden zal aan alle dalingsstreken in [!UICONTROL Workspace] worden toegevoegd. Dankzij deze verbetering kunt u kiezen uit een vervolgkeuzelijst met compatibele componenten of de ruimte blijven gebruiken als een neerzetzone. |
 
 
 ## Januari 2021
@@ -27,13 +27,13 @@ Voor toegang tot de de Nota&#39;s van de Versie van Adobe Experience Cloud als g
 | Functie | Doeldatum | Beschrijving |
 | --- | --- | --- |
 | Afbeeldings-URL&#39;s | 14 januari 2021 | U kunt afbeeldingen toevoegen aan Workspace-projecten door te verwijzen naar een openbare afbeeldings-URL. |
-| Beheer van gecombineerde bron en instellingen voor visualisatie | 14 januari 2021 | De gegevensbronmanager (punt) en het montagebeheer (toestel) voor visualisaties zijn gecombineerd in één pop-up, zodat kunt u uw bron en montages van de zelfde plaats gemakkelijk beheren. |
+| Beheer van gecombineerde bron en instellingen voor visualisatie | 14 januari 2021 | De [!UICONTROL Data Source] manager (punt) en montagemanager (toestel) voor visualisaties zijn gecombineerd in één pop-up, zodat kunt u uw bron en montages van de zelfde plaats gemakkelijk beheren. |
 
 ## Oktober 2020
 
 | Functie | Beschrijving |
 | --- | --- |
-| Lijnvisualisatie: [Gemiddelde trendlijnoptie verplaatsen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Moving average]** is toegevoegd aan de montages van de trendlijn van de visualisatie van de Lijn. Een voortschrijdend gemiddelde wordt ook wel een specifiek aantal gegevenspunten (bepaald door een **[!UICONTROL Periods]**-selectie) genoemd, gemiddeld gebruikt en het gemiddelde gebruikt als een punt op de regel. |
+| Lijnvisualisatie: [Gemiddelde trendlijnoptie verplaatsen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Moving average]** is toegevoegd aan de instellingen voor  [!UICONTROL Line] visualisatietendensen. Een voortschrijdend gemiddelde wordt ook wel een specifiek aantal gegevenspunten (bepaald door een **[!UICONTROL Periods]**-selectie) genoemd, gemiddeld gebruikt en het gemiddelde gebruikt als een punt op de regel. |
 | [Help-pagina voor prestaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Op de pagina met Help over Analysis Workspace-prestaties worden verschillende factoren weergegeven die van invloed zijn op de projectprestaties en worden koppelingen naar tips voor optimalisatie weergegeven. |
 
 ## September 2020
@@ -41,7 +41,7 @@ Voor toegang tot de de Nota&#39;s van de Versie van Adobe Experience Cloud als g
 | Functie | Beschrijving |
 | --- | --- |
 | [Download 50 kB items voor één dimensie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | U kunt nu 50.000 items downloaden voor één dimensie in een vrije-vormtabel, met toegepaste segmenten en filters. Hierdoor hebt u toegang tot meer dan de 400 rijen gegevens buiten Analysis Workspace. |
-| [Verbeteringen voor lijnvisualisatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>U kunt de x-as en de y-as van elke lijnvisualisatie tonen of verbergen. Dit kan vooral nuttig zijn wanneer uw Lijnivisualisaties compacter zijn.</li><li>U kunt een minimum- en maximumwaardelabel bedekken op elke Lijnvisualisatie om de pieken en dalen snel in metrische vorm te markeren.</li><li>U kunt verschillende regressietendellijnen op om het even welke Lijn visualisatie bedekken om de trend in de gegevens gemakkelijker te zien. U kunt onder andere [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] en [!UICONTROL Quadratic] kiezen.</li></ul> |
+| [Verbeteringen voor lijnvisualisatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>U kunt de x-as en de y-as van om het even welke [!UICONTROL Line] visualisatie tonen of verbergen. Dit is vooral handig wanneer uw [!UICONTROL Line]-visualisaties compacter zijn.</li><li>U kunt een minimum- en maximumwaardelabel bedekken op elke Lijnvisualisatie om de pieken en dalen snel in metrische vorm te markeren.</li><li>U kunt verschillende regressietendellijnen op om het even welke Lijn visualisatie bedekken om de trend in de gegevens gemakkelijker te zien. U kunt onder andere [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] en [!UICONTROL Quadratic] kiezen.</li></ul> |
 | Nieuwe datumbereiken | We hebben vijf nieuwe datumbereiken toegevoegd, zodat u kunt kiezen uit datumbereiken die geen gegevens van vandaag voor een gedeeltelijke dag bevatten: Laatste 7 volledige dagen, Laatste 14 volledige dagen, Laatste 30 volledige dagen, Laatste 60 volledige dagen, Laatste 90 volledige dagen |
 
 ## Augustus 2020
