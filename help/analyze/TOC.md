@@ -5,9 +5,9 @@ user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Adobe Analytics-dashboards, Report Builder en Activity Map.
 translation-type: tm+mt
-source-git-commit: 9964a512e05191b8baad631076adb6fe02a23134
+source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1012'
 ht-degree: 88%
 
 ---
@@ -120,6 +120,7 @@ ht-degree: 88%
          + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Waarschuwingsbeheer](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Intelligente waarschuwingen - gebruiksgevallen](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + [Gebruikersvoorkeuren](analysis-workspace/user-preferences.md)
    + Veelgestelde vragen over Workspace {#workspace-faq}
       + [Veelgestelde vragen](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace-prestaties optimaliseren](analysis-workspace/workspace-faq/optimizing-performance.md)
