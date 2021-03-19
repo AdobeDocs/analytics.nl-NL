@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor importeren van analysemogelijkheden
 breadcrumb-title: Hulplijn importeren
 user-guide-description: 'Gegevens van externe bronnen in Analytics opnemen, in bulk of real-time. '
 translation-type: tm+mt
-source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 93%
+source-wordcount: '535'
+ht-degree: 92%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 93%
       + [Transactie-id](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
       + [Bezoeker-id](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
       + [Volledige verwerking](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
+      + [Einde van levensduur voor volledige verwerking](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
    + [Transactie- en klantintegratie](c-data-sources/datasrc-integrating-offline-data.md)
    + [Transactie-id en bezoekersprofielen](c-data-sources/datasrc-tid-visitor-profile.md)
    + [Veelgestelde vragen over gegevensbronnen](c-data-sources/datasrc-faq.md)
