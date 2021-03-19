@@ -2,10 +2,10 @@
 title: Gebruikersvoorkeuren instellen in Analysis Workspace
 description: null
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ Algemene voorkeuren zijn van toepassing op uw Adobe Analytics-ervaring in de bro
 
 ## Projectvoorkeuren
 
-Projectvoorkeuren zijn van toepassing op nieuwe projecten en nieuwe deelvensters die in Analysis Workspace zijn gemaakt. U kunt de voorkeuren ook per project beheren via Werkruimte > Project > Projectinfo en -instellingen.
+Projectvoorkeuren zijn van toepassing op nieuwe projecten en nieuwe deelvensters die in Analysis Workspace zijn gemaakt. De voorkeuren kunnen ook per project worden beheerd onder [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL Project Info & Settings].
 
 | Sectie | Voorkeur | Opties |
 | --- | --- | --- |
