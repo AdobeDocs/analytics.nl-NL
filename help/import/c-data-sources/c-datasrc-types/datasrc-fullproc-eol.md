@@ -1,11 +1,11 @@
 ---
-title: null
-description: null
+title: Einde van levensduur voor bronnen van volledige verwerkingsgegevens
+description: Redenen voor het einde van de levensduur en vergelijkingen tussen de API voor het invoegen van gegevens in bulk en de gegevensbronnen voor volledige verwerking.
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 4%
+source-wordcount: '732'
+ht-degree: 3%
 
 ---
 
