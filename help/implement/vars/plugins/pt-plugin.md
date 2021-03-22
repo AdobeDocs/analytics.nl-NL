@@ -2,35 +2,35 @@
 title: pt
 description: Hiermee wordt een functie uitgevoerd op een lijst met variabelen.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: fc7e6953e69cdff7b326705a906687be634d9b5f
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
 
-# Adobe-insteekmodule: pt
+# Adobe-plug-in: pt
 
 >[!IMPORTANT]
 >
->Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-De `pt` insteekmodule voert een functie of methode uit op een lijst met Analytics-variabelen. U kunt de [`clearVars`](../functions/clearvars.md) methode bijvoorbeeld selectief op verschillende variabelen uitvoeren zonder de methode telkens handmatig aan te roepen. Verscheidene andere stop-ins hangen van deze code af correct in werking te stellen. Deze insteekmodule is niet nodig als u een specifieke functie niet hoeft uit te voeren voor meer dan één variabele van Analytics tegelijk, of als u geen afhankelijke insteekmodules gebruikt.
+Met de insteekmodule `pt` wordt een functie of methode op een lijst met variabelen voor Analytics uitgevoerd. U kunt bijvoorbeeld de methode [`clearVars`](../functions/clearvars.md) selectief op verschillende variabelen uitvoeren zonder de methode telkens handmatig aan te roepen. Verscheidene andere stop-ins hangen van deze code af correct in werking te stellen. Deze insteekmodule is niet nodig als u een specifieke functie niet hoeft uit te voeren voor meer dan één variabele Analytics tegelijk, of als u geen afhankelijke insteekmodules gebruikt.
 
-## De plug-in installeren met de extensie Adobe Experience Platform starten
+## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. De [!UICONTROL Common Analytics Plugins] extensie installeren en publiceren
+1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Algemene Analytics-plug-ins
+   * Extensie: Gebruikelijke plug-ins voor Analytics
    * Type handeling: pt initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -38,34 +38,34 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder de extensie Adobe Analytics.
-1. Vouw de [!UICONTROL Configure tracking using custom code] accordeon uit, zodat de [!UICONTROL Open Editor] knop zichtbaar wordt.
+1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
+1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
-1. Sla de wijzigingen in de Analytics-extensie op en publiceer deze.
+1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## De plug-in installeren met AppMeturement
+## Installeer de plug-in met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het trackingobject Analytics is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: pt v2.01 */
- s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var e,c=0;c<de;c++)if(e=this[cf](l[c],fa))return e}};
+/* Adobe Consulting Plugin: pt v3.0 */
+function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",version:"3.0"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var c;a<window.s_c_il.length;a++)if(c=window.s_c_il[a],c._c&&"s_c"===c._c){a=c;break a}}a=void 0}if("undefined"!==typeof a&&(a.contextData.pt="3.0",b&&a[f])){b=b.split(d||",");d=b.length;for(var e=0;e<d;e++)if(c=a[f](b[e],g))return c}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
 ## De plug-in gebruiken
 
-De `pt` methode gebruikt de volgende argumenten:
+De methode `pt` gebruikt de volgende argumenten:
 
-* **`l`** (vereist, tekenreeks): Een lijst met variabelen die de functie in het `cf` argument kan gebruiken.
-* **`de`** (optioneel, tekenreeks): Het scheidingsteken dat de lijst met variabelen in het `l` argument scheidt. Heeft als standaardwaarde een komma (`,`).
-* **`cf`** (vereist, tekenreeks): De naam van de callback functie in het voorwerp AppMeasurement die tegen elk van de variabelen in het `l` argument moet worden geroepen.
-* **`fa`** (optioneel, tekenreeks): Als de functie in het `cf` argument extra argumenten roept wanneer het loopt, omvat hen hier. Wordt standaard ingesteld op `undefined`.
+* **`l`** (vereist, tekenreeks): Een lijst met variabelen die de functie in het  `cf` argument kan gebruiken.
+* **`de`** (optioneel, tekenreeks): Het scheidingsteken dat de lijst met variabelen in het  `l` argument scheidt. Heeft als standaardwaarde een komma (`,`).
+* **`cf`** (vereist, tekenreeks): De naam van de callback functie in het voorwerp AppMeasurement die tegen elk van de variabelen in het  `l` argument moet worden geroepen.
+* **`fa`** (optioneel, tekenreeks): Als de functie in het  `cf` argument om extra argumenten roept wanneer het loopt, omvat hen hier. Wordt standaard ingesteld op `undefined`.
 
-Wanneer deze methode wordt aangeroepen, wordt een waarde geretourneerd als de callback-functie (in het `cf` argument) een waarde retourneert.
+Het roepen van deze methode keert een waarde terug als de callback functie (in het `cf` argument) een waarde terugkeert.
 
 ## Voorbeelden van aanroepen
 
@@ -74,7 +74,7 @@ Wanneer deze methode wordt aangeroepen, wordt een waarde geretourneerd als de ca
 De volgende code maakt deel uit van de stop getQueryParam.  Het stelt de getParameterValue helperfunctie tegen elk van de zeer belangrijk-waardeparen in werking die in het querystring van URL (fullQueryString) bevat zijn.  Als u elk sleutelwaardepaar anders wilt extraheren, moet fullQueryString worden gescheiden en worden gesplitst met het teken &quot;&amp;&quot; en ampersand. De parameterKey verwijst naar de parameter van het vraagkoord dat de stop - binnen specifiek probeert uit het vraagkoord te halen
 
 ```javascript
-returnValue = s.pt(fullQueryString, "&", "getParameterValue", parameterKey)
+returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
 De bovenstaande regel is een sneltoets voor het uitvoeren van code die op het volgende lijkt:
@@ -91,6 +91,10 @@ for(var i = 0; i < parametersLength; i++)
 ```
 
 ## Versiehistorie
+
+### 3.0 (19 maart 2021)
+
+* Versienummer toegevoegd als contextgegevens.
 
 ### 2.01 (24 september 2019)
 
