@@ -2,21 +2,21 @@
 title: apl (appendToList)
 description: Voeg waarden toe aan variabelen die meerdere waarden ondersteunen.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d84d53dd237f5bba729c902c8c4980c0288dbbb0
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
 
 
-# Adobe-insteekmodule: apl (appendToList)
+# Adobe-plug-in: apl (appendToList)
 
 >[!IMPORTANT]
 >
->Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `apl` insteekmodule kunt u veilig nieuwe waarden toevoegen aan door lijsten gescheiden variabelen, zoals [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md)en andere.
+Met de `apl`-plug-in kunt u veilig nieuwe waarden toevoegen aan door lijsten gescheiden variabelen, zoals [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md) en andere.
 
 * Als de waarde die u wilt toevoegen niet in de variabele bestaat, voegt de code de waarde aan het einde van de tekenreeks toe.
 * Als de waarde die u wilt toevoegen al in de variabele bestaat, wijzigt deze plug-in de waarde niet. Hierdoor kan uw implementatie dubbele waarden voorkomen.
@@ -24,19 +24,19 @@ Met de `apl` insteekmodule kunt u veilig nieuwe waarden toevoegen aan door lijst
 
 Adobe raadt u aan deze plug-in te gebruiken als u nieuwe waarden wilt toevoegen aan bestaande variabelen die een reeks gescheiden waarden bevatten. Deze plug-in is niet nodig als u tekenreeksen wilt samenvoegen voor variabelen met gescheiden waarden.
 
-## De plug-in installeren met de extensie Adobe Experience Platform starten
+## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. De [!UICONTROL Common Analytics Plugins] extensie installeren en publiceren
+1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Algemene Analytics-plug-ins
+   * Extensie: Gebruikelijke plug-ins voor Analytics
    * Type handeling: APL initialiseren (toevoegen aan lijst)
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -44,38 +44,35 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder de extensie Adobe Analytics.
-1. Vouw de [!UICONTROL Configure tracking using custom code] accordeon uit, zodat de [!UICONTROL Open Editor] knop zichtbaar wordt.
+1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
+1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
-1. Sla de wijzigingen in de Analytics-extensie op en publiceer deze.
+1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## De plug-in installeren met AppMeturement
+## Installeer de plug-in met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het trackingobject Analytics is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: apl (appendToList) v3.2 (Requires inList v2.0 or higher) */
-s.apl=function(lv,vta,d1,d2,cc){if(!lv||"string"===typeof lv){if("undefined"===typeof this.inList||"string"!==typeof vta||""===vta)return lv;d1=d1||",";d2=d2||d1;1==d2&&(d2=d1,cc||(cc=1));2==d2&&1!=cc&&(d2=d1);vta=vta.split(",");for(var g=vta.length,e=0;e<g;e++)this.inList(lv,vta[e],d1,cc)||(lv=lv?lv+d2+vta[e]:vta[e])}return lv};
-
-/* Adobe Consulting Plugin: inList v2.1 */
-s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===typeof lv)lv=lv.split(d||",");else if("object"!== typeof lv)return!1;d=0;for(var e=lv.length;d<e;d++)if(1==cc&&vtc===lv[d]||vtc.toLowerCase()===lv[d].toLowerCase())return!0;return!1};
+/* Adobe Consulting Plugin: apl (appendToList) v4.0 */
+function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plugin:"apl",version:"4.0"};var h=function(){if("undefined"!==typeof window.s_c_il)for(var k=0,b;k<window.s_c_il.length;k++)if(b=window.s_c_il[k],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof h&&(h.contextData.apl="4.0");window.inList=window.inList||function(b,d,c,e){if("string"!==typeof d)return!1;if("string"===typeof b)b=b.split(c||",");else if("object"!==typeof b)return!1;c=0;for(a=b.length;c<a;c++)if(1==e&&d===b[c]||d.toLowerCase()===b[c].toLowerCase())return!0;return!1};if(!b||"string"===typeof b){if("string"!==typeof d||""===d)return b;e=e||",";c=c||e;1==c&&(c=e,g||(g=1));2==c&&1!=g&&(c=e);d=d.split(",");h=d.length;for(var f=0;f<h;f++)window.inList(b,d[f],e,g)||(b=b?b+c+d[f]:d[f])}return b};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
 ## De plug-in gebruiken
 
-De `apl` methode gebruikt de volgende argumenten:
+De methode `apl` gebruikt de volgende argumenten:
 
 * **`lv`** (vereist, tekenreeks): De variabele die een lijst met gescheiden items bevat waaraan een nieuwe waarde moet worden toegevoegd
-* **`vta`** (vereist, tekenreeks): Een door komma&#39;s gescheiden lijst met de nieuwe waarden die aan de waarde van het `lv` argument moeten worden toegevoegd.
-* **`d1`** (optioneel, tekenreeks): Het scheidingsteken dat wordt gebruikt om de afzonderlijke waarden te scheiden die al in het `lv` argument staan.  Heeft als standaardwaarde een komma (`,`).
-* **`d2`** (optioneel, tekenreeks): Het uitvoerscheidingsteken. De standaardwaarde is dezelfde waarde als `d1` wanneer deze niet is ingesteld.
-* **`cc`** (optioneel, Booleaans): Een markering die aangeeft of een hoofdlettergevoelige controle wordt gebruikt. Indien `true`de duplicatiecontrole hoofdlettergevoelig is. Indien `false` of niet ingesteld, is de duplicatiecontrole niet hoofdlettergevoelig. Wordt standaard ingesteld op `false`.
+* **`vta`** (vereist, tekenreeks): Een door komma&#39;s gescheiden lijst met de nieuwe waarden die aan de waarde van het  `lv` argument moeten worden toegevoegd.
+* **`d1`** (optioneel, tekenreeks): Het scheidingsteken dat wordt gebruikt om de afzonderlijke waarden te scheiden die al in het  `lv` argument staan.  Heeft als standaardwaarde een komma (`,`).
+* **`d2`** (optioneel, tekenreeks): Het uitvoerscheidingsteken. Wordt standaard ingesteld op dezelfde waarde als `d1` wanneer deze niet is ingesteld.
+* **`cc`** (optioneel, Booleaans): Een markering die aangeeft of een hoofdlettergevoelige controle wordt gebruikt. Bij `true` is de duplicatiecontrole hoofdlettergevoelig. Als `false` of niet ingesteld, is de duplicatiecontrole niet hoofdlettergevoelig. Wordt standaard ingesteld op `false`.
 
-De `apl` methode retourneert de waarde van het `lv` argument plus eventuele niet-gedupliceerde waarden in het `vta` argument.
+De methode `apl` retourneert de waarde van het argument `lv` plus eventuele niet-gedupliceerde waarden in het argument `vta`.
 
 ## Voorbeelden van aanroepen
 
@@ -99,7 +96,7 @@ s.events = s.apl(s.events, "event23");
 s.events = "event22,event24,event23";
 ```
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 Indien...
 
@@ -121,7 +118,7 @@ s.events = "event22,event23";
 
 In dit voorbeeld heeft de apl-aanroep geen wijzigingen aangebracht in s.events aangezien s.events al &quot;event23&quot; bevatte
 
-### Voorbeeld 3
+### Voorbeeld 2
 
 Indien...
 
@@ -161,7 +158,7 @@ s.eVar5 = s.apl(s.prop4, "today", "|");
 s.prop4 = "hello|people";
 ```
 
-...maar de definitieve waarde van s.eVar5 zal zijn
+...maar de uiteindelijke waarde van s.eVar5 zal
 
 ```js
 s.eVar5 = "hello|people|today";
@@ -303,27 +300,31 @@ Aangezien de twee delimiter argumenten verschillend zijn, zal de binnen overgega
 
 ## Versiehistorie
 
+### 4.0 (19 maart 2021)
+
+* Versienummer toegevoegd als contextgegevens.
+
 ### 3.2 (25 september 2019)
 
-* Compatibiliteitsproblemen verholpen met `apl` aanroepen waarbij oudere versies van de plug-in werden gebruikt
+* De compatibiliteitsproblemen met `apl` aanroepen waarbij oudere versies van de plug-in werden gebruikt, zijn opgelost.
 * Verwijderde consolewaarschuwingen om grootte te verminderen
-* Toegevoegd `inList 2.1`
+* `inList 2.1` toegevoegd
 
 ### 3.1 (22 april 2018)
 
-* `d2` argument wordt nu standaard ingesteld op de waarde van het `d1` argument
+* `d2` argument wordt nu standaard ingesteld op de waarde van het  `d1` argument
 
 ### 3.0 (16 april 2018)
 
 * Volledige heranalyse/herschrijven van plug-in
 * Geavanceerde foutcontrole toegevoegd
-* Het `vta` argument accepteert nu meerdere waarden tegelijk
-* Het `d2` argument toegevoegd om de geretourneerde waarde op te maken
-* Het `cc` argument is gewijzigd in een Booleaanse waarde
+* Het argument `vta` accepteert nu meerdere waarden tegelijk
+* Het argument `d2` toegevoegd om de geretourneerde waarde op te maken
+* Het argument `cc` is gewijzigd in een booleaanse waarde
 
 ### 2.5 (18 februari 2016)
 
-* Gebruikt nu de `inList` vergelijkingsmethode
+* Gebruikt nu de `inList` methode voor vergelijkingsverwerking
 
 ### 2.0 (26 januari 2016)
 
