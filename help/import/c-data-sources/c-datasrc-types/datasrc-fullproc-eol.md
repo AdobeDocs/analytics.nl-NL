@@ -2,10 +2,10 @@
 title: Einde van levensduur voor bronnen van volledige verwerkingsgegevens
 description: Redenen voor het einde van de levensduur en vergelijkingen tussen de API voor het invoegen van gegevens in bulk en de gegevensbronnen voor volledige verwerking.
 translation-type: tm+mt
-source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 3%
+source-wordcount: '1221'
+ht-degree: 5%
 
 ---
 
@@ -39,18 +39,59 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 
 ## Vergelijking van de veldwaarden in BDIA en FPDS
 
-| BDIA, FPDS, beide | BDIA-variabele | Variabele voor volledige verwerkingskolom | Beschrijving |
-| --- | --- | --- | --- |
-| BDIA | amlh | Niet ondersteund | Tip voor Adobe Audience Manager-locatie. Zie geldige id-waarden in de onderstaande tabel met lijsten voor AAM regio. |
-| Beide | browserHeight | browserHeight | Browserhoogte in pixels (bijvoorbeeld 768) |
-| Beide | browserWidth | browserWidth | Browserbreedte in pixels (bijvoorbeeld 1024) |
-| Beide | campaign | campagne | Code voor bijhouden van conversiecampagne |
-| Beide | channel | kanaal | Kanaaltekenreeks (bijvoorbeeld Sectie Sport) |
-| Beide | colorDepth | colorDepth | Kleurdiepte van monitor in bits (bijvoorbeeld 24) |
-| Beide | connectionType | connectionType | Verbindingstype van de bezoeker (LAN of modem) |
-| BDIA | contextData.key | Niet ondersteund | Sleutelwaardeparen worden in opgegeven door de koptekst &quot;contextData.product&quot; of &quot;contextData.color&quot; te noemen |
-| Beide | cookiesEnabled | cookiesEnabled | `Y` of  `N` voor als de bezoeker cookies van een eerste sessie ondersteunt |
-| Beide | currencyCode | currencyCode | Valutacode inkomsten (bijvoorbeeld `USD`) |
-| BDIA | clientID.[customerIDType].authState | Niet ondersteund | De geverifieerde status van de bezoeker. Ondersteunde waarden zijn: 0, 1, 2, UNKNOWN, AUTHENTICATED, LOGGED_OUT of &#39;&#39; (hoofdlettergevoelig). Twee opeenvolgende enkele citaten (&#39;&#39;) veroorzaken dat de waarde wordt weggelaten van het vraagkoord, dat aan 0 vertaalt wanneer de slag wordt gemaakt. Houd rekening met de ondersteunde numerieke waarden voor authState: 0 = UNKNOWN, 1 = AUTHENTICATED, 2 = LOGGED_OUT. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
-| BDIA | clientID.[customerIDType].id | Niet ondersteund | De klant-id die moet worden gebruikt. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
-| BDIA | clientID.[customerIDType].isMCSeed | Niet ondersteund | Of dit het zaad voor identiteitskaart van de Bezoeker van de Marketing Cloud is of niet. Ondersteunde waarden zijn: 0, 1, TRUE, FALSE, &#39;&#39; (hoofdlettergevoelig). Als u 0, FALSE of twee opeenvolgende enkele aanhalingstekens (&#39;&#39;) gebruikt, wordt de waarde weggelaten uit de querytekenreeks. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
+| BDIA-variabele | Variabele voor volledige verwerkingskolom | Beschrijving |
+| --- | --- | --- |
+| amlh | Niet ondersteund | Tip voor Adobe Audience Manager-locatie. |
+| browserHeight | browserHeight | Browserhoogte in pixels (bijvoorbeeld 768) |
+| browserWidth | browserWidth | Browserbreedte in pixels (bijvoorbeeld 1024) |
+| campaign | campagne | Code voor bijhouden van conversiecampagne |
+| channel | kanaal | Kanaaltekenreeks (bijvoorbeeld Sectie Sport) |
+| colorDepth | colorDepth | Kleurdiepte van monitor in bits (bijvoorbeeld 24) |
+| connectionType | connectionType | Verbindingstype van de bezoeker (LAN of modem) |
+| contextData.key | Niet ondersteund | Sleutelwaardeparen worden in opgegeven door de koptekst &quot;contextData.product&quot; of &quot;contextData.color&quot; te noemen |
+| cookiesEnabled | cookiesEnabled | `Y` of  `N` voor als de bezoeker cookies van een eerste sessie ondersteunt |
+| currencyCode | currencyCode | Valutacode inkomsten (bijvoorbeeld `USD`) |
+| clientID.[customerIDType].authState | Niet ondersteund | De geverifieerde status van de bezoeker. Ondersteunde waarden zijn: 0, 1, 2, UNKNOWN, AUTHENTICATED, LOGGED_OUT of &#39;&#39; (hoofdlettergevoelig). Twee opeenvolgende enkele citaten (&#39;&#39;) veroorzaken dat de waarde wordt weggelaten van het vraagkoord, dat aan 0 vertaalt wanneer de slag wordt gemaakt. Houd rekening met de ondersteunde numerieke waarden voor authState: 0 = UNKNOWN, 1 = AUTHENTICATED, 2 = LOGGED_OUT. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
+| clientID.[customerIDType].id | Niet ondersteund | De klant-id die moet worden gebruikt. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
+| clientID.[customerIDType].isMCSeed | Niet ondersteund | Of dit het zaad voor identiteitskaart van de Bezoeker van de Marketing Cloud is of niet. Ondersteunde waarden zijn: 0, 1, TRUE, FALSE, &#39;&#39; (hoofdlettergevoelig). Als u 0, FALSE of twee opeenvolgende enkele aanhalingstekens (&#39;&#39;) gebruikt, wordt de waarde weggelaten uit de querytekenreeks. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
+| eVarN | eVarN, d.w.z. `<eVar2>`..`<eVar>` | Naam van conversie-eVar. U kunt maximaal 75 eVars ( eVar1 - eVar75 ) hebben. U kunt de naam van de eVar (eVar12) of een vriendelijke naam (Advertentiecampagne 3) opgeven. |
+| events | gebeurtenissen | [De koord](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars) van gebeurtenissen, geformatteerd gebruikend de zelfde syntaxis zoals de variabele s.events. Bijvoorbeeld: scAdd,event1,event7 |
+| hierN | hierN, d.w.z. `<hier2>`..`</hier2>` | Hiërarchienaam. U kunt maximaal vijf hiërarchieën gebruiken ( hier1 - hier5 ). U kunt de standaardhiërarchienaam `hier2` of een vriendelijke naam (Yankees) specificeren. |
+| homePage | homePage | Y of N — is de huidige pagina op de homepage van de bezoeker. |
+| ipaddress | Niet ondersteund | Het IP-adres van de bezoeker. |
+| javaEnabled | javaEnabled | Y of N — Heeft de bezoeker Java ingeschakeld? |
+| javaScriptVersion | javaScriptVersion | JavaScript-versie (bijvoorbeeld 1.3). |
+| taal | Niet ondersteund | De door de browser ondersteunde taal. Bijvoorbeeld, `en-us`. |
+| linkName | linkName | Naam van koppeling. |
+| linkType | linkType | Type koppeling. Tot de ondersteunde waarden behoren: `d: Download link`, `e: Exit link`, `o: Custom link`. |
+| linkURL | linkURL | HREF of link. |
+| list Bijvoorbeeld list2. | Niet ondersteund | Een gescheiden lijst met waarden die worden doorgegeven aan een variabele, en vervolgens worden gerapporteerd als afzonderlijke regelitems voor rapportage. |
+| marketingCloudVisitorID | Niet ondersteund | Marketing Cloud-id. Zie [Visitor Identification](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) en de Marketing Cloud Visitor ID Service. |
+| Niet ondersteund | charSet | De ondersteunde tekenset voor uw website. Bijvoorbeeld UTF-8, ISO-8859-1 enzovoort. |
+| Niet ondersteund | clickAction | Object-id voor bezoeker op kaart klikken (oid) |
+| Niet ondersteund | clickActionType | Type object-id voor bezoeker op kaart klikken (punt) |
+| Niet ondersteund | clickContext | Pagina-id voor bezoeker klikt op kaart (pid) |
+| Niet ondersteund | clickContextType | Type pagina-id voor bezoeker op kaart klikken (pidt) |
+| Niet ondersteund | clickSourceID | Bronindex voor bezoeker op kaart klikken (oi) |
+| Niet ondersteund | clickTag | Naam van objecttag voor bezoeker op kaart klikken (naar) |
+| Niet ondersteund | scXmlVer | Marketingrapporten XML aanvraagversienummer (bijvoorbeeld 1.0). |
+| Niet ondersteund | tijdzone | De tijdzone van de bezoeker verschuift van GMT in uren (bijvoorbeeld -8). |
+| pageName | pageName | Naam van de pagina. |
+| pageType | pageType | Type pagina (bijvoorbeeld &quot;Foutpagina&quot;). |
+| pageURL | pageURL | Pagina-URL (bijvoorbeeld https://www.example.com/index.html). |
+| plug-ins | plug-ins | Lijst met namen van plug-ins van browsers, gescheiden door puntkomma&#39;s. |
+| products | producten | Lijst met alle producten op de pagina. Scheid producten met een komma. Bijvoorbeeld: Sport;Ball;1;5.95,Speelgoed; Boven;1:1.99. |
+| prop1 - prop75 | propN, d.w.z. `<prop2>`..`</prop2>` | Eigenschapcontrole# (bijvoorbeeld Sportsectie). |
+| propN | propN | Eigenschapswaarden voor uw eigenschappen. |
+| purchaseID | purchaseID | Aankoop-id-nummer. |
+| referrer | referentie | URL voor paginaverwijzing. |
+| reportSuiteID | s_account | Hier geeft u de rapportsuites op waarin u gegevens wilt verzenden. U zou veelvoudige rapportreeks IDs met een komma moeten scheiden. |
+| resolutie | resolutie | Monitorresolutie (bijvoorbeeld 1024x768). |
+| server | server | Servertekenreeks. |
+| state | state | Conversiestatekenreeks. |
+| timestamp | date | Gebruik de datumnotatie ISO 8601 van YYY-MM-DDThh:mm:ss±UTC_offset (bijvoorbeeld 2021-09-01T12:00:00-07:00) of Unix Time Format (het aantal seconden dat is verstreken sinds 1 januari 1970) ). |
+| trackingServer | Niet ondersteund | Kan alleen via kolomkop worden opgegeven. |
+| transactionID | Niet ondersteund | Gemeenschappelijke waarde die wordt gebruikt om multikanaalsgebruikersactiviteiten voor rapportagedoeleinden aan elkaar te koppelen. Voor meer informatie, zie [de Gids van de Gebruiker van Gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources). |
+| userAgent | Niet ondersteund | Tekenreeks gebruikersagent |
+| visitorID | bezoekerID | Analyse-id van bezoeker. Zie [Visitor Identification](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
+| zip | zip | ZIP-code conversie. |
