@@ -1,36 +1,36 @@
 ---
 title: manageVars
-description: Wijzig de waarden van meerdere Analytics-variabelen tegelijk.
+description: Wijzig de waarden van meerdere analytische variabelen tegelijk.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 93a2dc1b265c92468722ebc2e3656db55d63547c
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
 
-# Adobe-insteekmodule: manageVars
+# Adobe-plug-in: manageVars
 
 >[!IMPORTANT]
 >
->Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `manageVars` insteekmodule kunt u de waarden van meerdere Analytics-variabelen tegelijk bewerken. U kunt ook waarden instellen op kleine letters of overbodige tekens uit meerdere variabelewaarden tegelijk verwijderen. Adobe raadt u aan deze plug-in te gebruiken als u de waarde van meerdere variabelen tegelijk wilt opruimen.
+Met de insteekmodule `manageVars` kunt u de waarden van meerdere analytische variabelen tegelijk bewerken. U kunt ook waarden instellen op kleine letters of overbodige tekens uit meerdere variabelewaarden tegelijk verwijderen. Adobe raadt u aan deze plug-in te gebruiken als u de waarde van meerdere variabelen tegelijk wilt opruimen.
 
-## De plug-in installeren met de extensie Adobe Experience Platform starten
+## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. De [!UICONTROL Common Analytics Plugins] extensie installeren en publiceren
+1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Algemene Analytics-plug-ins
+   * Extensie: Gebruikelijke plug-ins voor Analytics
    * Type handeling: ManageVars initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -38,42 +38,30 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder de extensie Adobe Analytics.
-1. Vouw de [!UICONTROL Configure tracking using custom code] accordeon uit, zodat de [!UICONTROL Open Editor] knop zichtbaar wordt.
+1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
+1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
-1. Sla de wijzigingen in de Analytics-extensie op en publiceer deze.
+1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## De plug-in installeren met AppMeturement
+## Installeer de plug-in met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het trackingobject Analytics is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: manageVars v2.1 (Requires pt plug-in and other necessary callback plug-ins) */
-s.manageVars=function(cb,l,il){var s=this;if(!s[cb])return!1;l=l||"";il=il||!0;var a,d="pageName,purchaseID,channel,server, pageType,campaign,state,zip,events,products,transactionID";for(a=1;76>a;a++)d+=",prop"+a;for(a=1;251>a;a++)d+=",eVar"+a;for(a=1;6>a;a++)d+=",hier"+a;for(a=1;4>a;a++)d+=",list"+a;for(a in s.contextData)d+=",contextData."+a;if(l){if(1==il)d=l.replace("['", ".").replace("']","");else if(0==il){l=l.split(",");il=d.split(",");d="";for(x in l)for(y in-1<l[x].indexOf("contextData")&& (l[x]="contextData."+l[x].split("'")[1]),il)l[x]===il[y]&&(il[y]="");for(y in il)d+=il[y]?","+il[y]:""}s.pt(d,",",cb,0);return!0} return""===l&&il?(s.pt(d,",",cb,0),!0):!1};
-
-/* Adobe Consulting Plugin: lowerCaseVars for manageVars (Requires manageVars plug-in) */
-s.lowerCaseVars=function(v){var s=this;s[v]&&("events"!==v&&-1===v.indexOf("contextData")?(s[v]=s[v].toString(),0!== s[v].indexOf("D=")&&(s[v]=s[v].toLowerCase())):-1<v.indexOf("contextData")&&(v=v.substring(v.indexOf(".")+1),s.contextData[v]&& (s.contextData[v]=s.contextData[v].toString().toLowerCase())))};
-
-/* Adobe Consulting Plugin: cleanStr for manageVars (Requires manageVars and cleanStr plug-ins) */
-s.cleanStr=function(v){var s=this;s[v]&&"function"!==typeof cleanStr&&(0>v.indexOf("contextData")?s[v]=cleanStr(s[v]): (v=v.substring(v.indexOf(".")+1),s.contextData[v]&&(s.contextData[v]=cleanStr(s.contextData[v].toString()))))};
-
-/* Adobe Consulting Plugin: cleanStr v1.0 */
-function cleanStr(str){if("string"===typeof str){str=str.replace(/<\/?[^>]+(>|$)/g,"").trim().replace(/[\u2018\u2019\u201A]/g, "'").replace(/\t+/g,"").replace(/[\n\r]/g," ");for(;-1<str.indexOf("  ");)str=str.replace(/\s\s/g," ");return str}return""};
-
-/* Adobe Consulting Plugin: pt v2.01 */
-s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var e,c=0;c<de;c++)if(e=this[cf](l[c],fa))return e}};
+/* Adobe Consulting Plugin: manageVars v3.0 (Requires AppMeasurement) */
+function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manageVars",version:"3.0"};var f=function(){if("undefined"!==typeof window.s_c_il)for(var a=0,b;a<window.s_c_il.length;a++)if(b=window.s_c_il[a],b._c&&"s_c"===b._c)return b}();if("undefined"!==typeof f){f.contextData.manageVars="3.0";f.blankVars=function(a){this[a]&&(0>a.indexOf("contextData")?this[a]="":(a=a.substring(a.indexOf(".")+1),this.contextData[a]&&(this.contextData[a]="")))};f.lowerCaseVars=function(a){this[a]&&("events"!==a&&-1===a.indexOf("contextData")?(this[a]=this[a].toString(),0!==this[a].indexOf("D=")&&(this[a]=this[a].toLowerCase())):-1<a.indexOf("contextData")&&(a=a.substring(a.indexOf(".")+1),this.contextData[a]&&(this.contextData[a]=this.contextData[a].toString().toLowerCase())))};f.cleanStr=function(a){function b(a){if("string"===typeof a){for(a=a.replace(/<\/?[^>]+(>|$)/g,"").trim().replace(/[\u2018\u2019\u201A]/g,"'").replace(/\t+/g,"").replace(/[\n\r]/g," ");-1<a.indexOf("  ");)a=a.replace(/\s\s/g," ");return a}return""}this[a]&&"function"===typeof b&&(0>a.indexOf("contextData")?this[a]=b(this[a]):(a=a.substring(a.indexOf(".")+1),this.contextData[a]&&(this.contextData[a]=b(this.contextData[a].toString()))))};f.pt=function(a,b,c,d){if(a&&this[c]){a=a.split(b||",");b=a.length;for(var e,f=0;f<b;f++)if(e=this[c](a[f],d))return e}};if(!f[g])return!1;c=c||"";d=d||!0;var b,e="pageName,purchaseID,channel,server,pageType,campaign,state,zip,events,products,transactionID";for(b=1;76>b;b++)e+=",prop"+b;for(b=1;251>b;b++)e+=",eVar"+b;for(b=1;6>b;b++)e+=",hier"+b;for(b=1;4>b;b++)e+=",list"+b;for(b in f.contextData)e+=",contextData."+b;if(c){if(1==d)e=c.replace("['",".").replace("']","");else if(0==d){c=c.split(",");d=e.split(",");e="";for(x in c)for(y in-1<c[x].indexOf("contextData")&&(c[x]="contextData."+c[x].split("'")[1]),d)c[x]===d[y]&&(d[y]="");for(y in d)e+=d[y]?","+d[y]:""}f.pt(e,",",g,0);return!0}return""===c&&d?(f.pt(e,",",g,0),!0):!1}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
 ## De plug-in gebruiken
 
-De `manageVars` methode gebruikt de volgende argumenten:
+De methode `manageVars` gebruikt de volgende argumenten:
 
-* **`cb`** (vereist, tekenreeks): De naam van een callback-functie die de insteekmodule gebruikt om de Analytics-variabelen te manipuleren. U kunt een Adobe-functie net als `cleanStr` uw eigen aangepaste functie gebruiken.
-* **`l`** (optioneel, tekenreeks): Een door komma&#39;s gescheiden lijst met Analytics-variabelen die u wilt bewerken. Wordt standaard ingesteld op ALLE Adobe Analytics-variabelen, waaronder:
+* **`cb`** (vereist, tekenreeks): De naam van een callback-functie die de plug-in gebruikt om de variabelen Analytics te manipuleren. U kunt een functie van de Adobe zoals `cleanStr` of uw eigen douanefunctie gebruiken.
+* **`l`** (optioneel, tekenreeks): Een door komma&#39;s gescheiden lijst met variabelen van Analytics die u wilt manipuleren. De standaardwaarde is ALLE Adobe Analytics-variabelen indien deze niet zijn ingesteld, waaronder:
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -90,9 +78,9 @@ De `manageVars` methode gebruikt de volgende argumenten:
    * Alle hiërarchievariabelen
    * Alle lijstvariabelen
    * Alle contextgegevensvariabelen
-* **`Il`** (optioneel, Booleaans): Stel deze optie in op `false` als u de lijst met variabelen die in het *argument zijn gedeclareerd, wilt* uitsluiten `l` in plaats van ze op te nemen. Wordt standaard ingesteld op `true`.
+* **`Il`** (optioneel, Booleaans): Stel deze optie in op  `false` als u de lijst met variabelen die in het  ** argument zijn gedeclareerd, wilt  `l` uitsluiten in plaats van ze op te nemen. Wordt standaard ingesteld op `true`.
 
-Het aanroepen van deze methode retourneert niets. In plaats daarvan worden de waarden van Analytics-variabelen gewijzigd op basis van de gewenste callback-functie.
+Het aanroepen van deze methode retourneert niets. In plaats daarvan worden de waarden van de variabelen van de Analyse veranderd die op de gewenste callback functie worden gebaseerd.
 
 ## Voorbeelden van aanroepen
 
@@ -116,7 +104,7 @@ s.manageVars("lowerCaseVars", "events", false);
 
 ...produceert in wezen het zelfde resultaat zoals het eerste voorbeeld aangezien de gebeurtenisvariabele niet door gebrek wordt verminderd.
 
-### Voorbeeld 3
+### Voorbeeld 2
 
 De volgende code...
 
@@ -134,7 +122,7 @@ De volgende code...
 s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
-...wijzigt (bijvoorbeeld in kleine letters) de waarden van alle hierboven beschreven variabelen, behalve voor Var1, eVar2, eVar3 en list2
+...wijzigt (bijvoorbeeld in kleine letters) de waarden van alle hierboven beschreven variabelen, behalve voor eVar1, eVar2, eVar3 en list2
 
 ### Voorbeeld 5
 
@@ -154,12 +142,16 @@ s.manageVars("cleanStr");
 
 ## Versiehistorie
 
+### 3.0 (19 maart 2021)
+
+* Versienummer toegevoegd als contextgegevens.
+
 ### 2.1 (14 januari 2019)
 
 * Opgeloste problemen voor Internet Explorer 11-browsers.
-* Wijzigingen voor `s.cleanStr`, die nu de reguliere `cleanStr` functie gebruiken.
+* Veranderingen voor `s.cleanStr`, die nu de regelmatige `cleanStr` functie gebruikt.
 
 ### 2.0 (7 mei 2018)
 
 * Puntrelease (inclusief volledige heranalyse/herschrijven van plug-in)
-* Toegevoegde `cleanStr` callback-functie
+* Toegevoegde `cleanStr` callback functie
