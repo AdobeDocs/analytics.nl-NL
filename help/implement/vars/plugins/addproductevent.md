@@ -2,35 +2,35 @@
 title: addProductEvent
 description: Voegt aangepaste gebeurtenissen toe aan de variabele producten en gebeurtenissen.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3359ed8e7ef7979be57ca5ec9ca1803fc52afe88
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
 
 
-# Adobe-insteekmodule: addProductEvent
+# Adobe-plug-in: addProductEvent
 
 >[!IMPORTANT]
 >
->Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `addProductEvent` insteekmodule wordt een numerieke gebeurtenis of valutagebeurtenis aan de [`products`](../page-vars/products.md) variabele toegevoegd. Adobe raadt u aan deze plug-in te gebruiken als u een numerieke of valutagebeurtenis aan de `products` variabele wilt toevoegen zonder dat u zich zorgen hoeft te maken over de indeling van de productreeks. Deze insteekmodule is niet nodig als u geen numerieke of valutagebeurtenissen in de `products` variabele gebruikt.
+Met de insteekmodule `addProductEvent` wordt een numerieke of valutagebeurtenis toegevoegd aan de variabele [`products`](../page-vars/products.md). Adobe raadt u aan deze plug-in te gebruiken als u een numerieke of valutagebeurtenis wilt toevoegen aan de variabele `products` zonder dat u zich zorgen hoeft te maken over de indeling van de productreeks. Deze insteekmodule is niet nodig als u geen numerieke of valutagebeurtenissen gebruikt in de variabele `products`.
 
-## De plug-in installeren met de extensie Adobe Experience Platform starten
+## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. De [!UICONTROL Common Analytics Plugins] extensie installeren en publiceren
+1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Algemene Analytics-plug-ins
+   * Extensie: Gebruikelijke plug-ins voor Analytics
    * Type handeling: AddProductEvent initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -38,39 +38,33 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder de extensie Adobe Analytics.
-1. Vouw de [!UICONTROL Configure tracking using custom code] accordeon uit, zodat de [!UICONTROL Open Editor] knop zichtbaar wordt.
+1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
+1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
-1. Sla de wijzigingen in de Analytics-extensie op en publiceer deze.
+1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## De plug-in installeren met AppMeturement
+## Installeer de plug-in met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het trackingobject Analytics is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: addProductEvent v1.0 (Requires apl v3.1 and inList v2.0+ plug-ins) */
-s.addProductEvent=function(en,ev,ap){var s=this;if("string"===typeof en)if(ev=isNaN(ev)?"1":String(ev),ap=ap||!1,s.events= s.apl(s.events,en),s.products){var e=s.products.split(",");ap=ap?0:e.length-1;for(var a;ap<e.length;ap++)a=e[ap].split(";") ,a[4]&&a[4].includes("event")?a[4]=a[4]+"|"+en+"="+ev:a[5]?a[4]=en+"="+ev:a[4]||(a[3]||(a[3]=""),a[2]||(a[2]=""),a[1]||(a[1]=""),a[4]=en+"="+ev),e[ap]=a.join(";");s.products=e.join(",")}else s.products=";;;;"+en+"="+ev};
-
-/* Adobe Consulting Plugin: apl (appendToList) v3.2 (Requires inList v2.0 or higher) */
-s.apl=function(lv,vta,d1,d2,cc){if(!lv||"string"===typeof lv){if("undefined"===typeof this.inList||"string"!==typeof vta||""===vta)return lv;d1=d1||",";d2=d2||d1;1==d2&&(d2=d1,cc||(cc=1));2==d2&&1!=cc&&(d2=d1);vta=vta.split(",");for(var g=vta.length,e=0;e<g;e++)this.inList(lv,vta[e],d1,cc)||(lv=lv?lv+d2+vta[e]:vta[e])}return lv};
-
-/* Adobe Consulting Plugin: inList v2.1 */
-s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===typeof lv)lv=lv.split(d||",");else if("object"!== typeof lv)return!1;d=0;for(var e=lv.length;d<e;d++)if(1==cc&&vtc===lv[d]||vtc.toLowerCase()===lv[d].toLowerCase())return!0;return!1};
+/* Adobe Consulting Plugin: addProductEvent v2.0 */
+function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:"addProductEvent",version:"2.0"};var d=function(){if("undefined"!==typeof window.s_c_il)for(var b=0,e;b<window.s_c_il.length;b++)if(e=window.s_c_il[b],e._c&&"s_c"===e._c)return e}();if("undefined"!==typeof d&&(d.contextData.addProductEvent="2.0",window.apl=window.apl||function(b,e,c,d,f){function g(b,d,c,e){if("string"!==typeof d)return!1;if("string"===typeof b)b=b.split(c||",");else if("object"!==typeof b)return!1;c=0;for(a=b.length;c<a;c++)if(1==e&&d===b[c]||d.toLowerCase()===b[c].toLowerCase())return!0;return!1}if(!b||"string"===typeof b){if("string"!==typeof e||""===e)return b;c=c||",";d=d||c;1==d&&(d=c,f||(f=1));2==d&&1!=f&&(d=c);e=e.split(",");k=e.length;for(var h=0;h<k;h++)g(b,e[h],c,f)||(b=b?b+d+e[h]:e[h])}return b},"string"===typeof f))if(g=isNaN(g)?"1":String(g),c=c||!1,d.events=window.apl(d.events,f),d.products){var l=d.products.split(","),m=l.length;c=c?0:m-1;for(var b;c<m;c++)b=l[c].split(";"),b[4]&&-1<b[4].indexOf("event")?b[4]=b[4]+"|"+f+"="+g:b[5]?b[4]=f+"="+g:b[4]||(b[3]||(b[3]=""),b[2]||(b[2]=""),b[1]||(b[1]=""),b[4]=f+"="+g),l[c]=b.join(";");d.products=l.join(",")}else d.products=";;;;"+f+"="+g};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
 ## De plug-in gebruiken
 
-De `addProductEvent` methode gebruikt de volgende argumenten:
+De methode `addProductEvent` gebruikt de volgende argumenten:
 
-* **`en`** (vereist, tekenreeks): De gebeurtenis die aan de laatste ingang in de `products` variabele moet worden toegevoegd. Als de `products` variabele leeg is, wordt een &quot;lege&quot; productitem gemaakt met de gebeurtenis (en de waarde ervan) gekoppeld.
-* **`ev`** (vereist, tekenreeks): De waarde die is toegewezen aan de gebeurtenis numeric of currency in het `en` argument.  Wordt standaard ingesteld `1` wanneer niet ingesteld.
-* **`ap`** (optioneel, Booleaans): Als de productvariabele momenteel meer dan één productvermelding bevat, voegt een waarde van `true` (of `1`) de gebeurtenis aan alle productvermeldingen toe.  Wordt standaard ingesteld `false` wanneer niet ingesteld.
+* **`en`** (vereist, tekenreeks): De gebeurtenis die aan de laatste ingang in de  `products` variabele moet worden toegevoegd. Als de `products` variabele leeg is, dan wordt een &quot;lege&quot;productingang gecreeerd met de gebeurtenis (en zijn waarde) in bijlage.
+* **`ev`** (vereist, tekenreeks): De waarde die is toegewezen aan de gebeurtenis numeric of currency in het  `en` argument.  Wordt standaard ingesteld op `1` wanneer niet ingesteld.
+* **`ap`** (optioneel, Booleaans): Als de productvariabele momenteel meer dan één productvermelding bevat, voegt een waarde van  `true` (of  `1`) de gebeurtenis aan alle productvermeldingen toe.  Wordt standaard ingesteld op `false` wanneer niet ingesteld.
 
-De `addProductEvent` geeft niets. In plaats daarvan worden de gebeurtenis en de waarde ervan toegevoegd aan de `products` variabele. De insteekmodule voegt de gebeurtenis ook automatisch toe aan de [`events`](../page-vars/events/events-overview.md) variabele, aangezien deze daar ook verplicht is.
+De `addProductEvent` retourneert niets. In plaats daarvan worden de gebeurtenis en de waarde ervan toegevoegd aan de variabele `products`. De insteekmodule voegt de gebeurtenis ook automatisch toe aan de variabele [`events`](../page-vars/events/events-overview.md), omdat deze daar ook verplicht is.
 
 ## Cookies
 
@@ -80,7 +74,7 @@ Met de insteekmodule addProductEvent worden geen cookies gemaakt of gebruikt
 
 ### Voorbeeld 1
 
-Met de volgende code wordt de `s.products` variabele ingesteld op `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
+Met de volgende code wordt de variabele `s.products` ingesteld op `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
@@ -88,22 +82,22 @@ s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-De bovenstaande code stelt de `s.events` variabele ook in op `"purchase,event35"`
+De bovenstaande code stelt ook de `s.events` variabele in op `"purchase,event35"`
 
 ### Voorbeeld 2
 
-Met de volgende code wordt de `s.products` variabele ingesteld op `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
+Met de volgende code wordt de variabele `s.products` ingesteld op `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-Wanneer het derde argument in de `addProductEvent` vraag `true` (of `1`) is, heeft elke productingang de gebeurtenis die in de vraag wordt gespecificeerd die aan zijn waarde wordt toegevoegd.
+Wanneer het derde argument in `addProductEvent` vraag `true` (of `1`) is, heeft elke productingang de gebeurtenis die in de vraag wordt gespecificeerd die aan zijn waarde wordt toegevoegd.
 
-### Voorbeeld 3
+### Voorbeeld 2
 
-Met de volgende code wordt de `s.products` variabele ingesteld op `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
+Met de volgende code wordt de variabele `s.products` ingesteld op `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
@@ -113,11 +107,11 @@ s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-De bovenstaande code stelt de `s.events` variabele ook in op `"purchase,event2,event33,event34,event35"`
+De bovenstaande code stelt ook de `s.events` variabele in op `"purchase,event2,event33,event34,event35"`
 
 ### Voorbeeld 4
 
-Met de volgende code wordt de `s.products` variabele ingesteld op `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
+Met de volgende code wordt de variabele `s.products` ingesteld op `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
@@ -127,23 +121,27 @@ s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-De bovenstaande code stelt de `s.events` variabele ook in op `"purchase,event2,event33,event34,event35"`.
+De bovenstaande code stelt ook de `s.events` variabele in op `"purchase,event2,event33,event34,event35"`.
 
 >[!NOTE]
 >
->Het tweede argument in de aanroep kan een geheel getal zijn **of** een tekenreeks die een geheel getal/getal vertegenwoordigt
+>Het tweede argument in de vraag kan of een geheel **of** een koord zijn die een geheel/aantal vertegenwoordigen
 
 ### Voorbeeld 5
 
-Indien `s.products` nog niet ingesteld, wordt deze door de volgende code ingesteld op `";;;;event35=25"`
+Als `s.products` nog niet is ingesteld, stelt de volgende code deze in op `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
 ```
 
-Bovenstaande code voegt ook toe `"event35"` aan het einde van `s.events` of **, als** deze nog niet is ingesteld, wordt de bovenstaande code ingesteld `s.events` `s.events` op `"event35"`
+De bovenstaande code voegt `"event35"` ook toe aan het einde van `s.events` **of**, als `s.events` nog niet is ingesteld, stelt de bovenstaande code `s.events` in op `"event35"`
 
 ## Versiehistorie
+
+### 2.0 (19 maart 2021)
+
+* Versienummer toegevoegd als contextgegevens.
 
 ### 1.0 (7 oktober 2019)
 
