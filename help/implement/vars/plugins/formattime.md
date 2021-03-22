@@ -2,35 +2,35 @@
 title: formatTime
 description: Zet een aantal seconden in zijn equivalent in notulen, uren, enz. om.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 56b21b6acb948c478d7b2a29c3e8375a8fe77ce2
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
 
 
-# Adobe-insteekmodule: formatTime
+# Adobe-plug-in: formatTime
 
 >[!IMPORTANT]
 >
->Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `formatTime` insteekmodule kunt u een willekeurig aantal seconden duren en deze presenteren in een gespikte indeling, afgerond naar een gewenste benchmarkwaarde. Adobe raadt u aan deze plug-in te gebruiken als u een tijdwaarde in seconden wilt vastleggen en deze wilt omzetten in een bucket-indeling (zoals minuten, dagen of weken). Deze plug-in is niet nodig als u op de tweede computer gebaseerde waarden niet in een indeling met afgeronde tijd wilt plaatsen.
+Met de `formatTime`-plug-in kunt u een willekeurig aantal seconden duren en deze presenteren in een gespikte indeling, afgerond op een gewenste benchmarkwaarde. Adobe raadt u aan deze plug-in te gebruiken als u een tijdswaarde in seconden wilt vastleggen en deze wilt omzetten in een bucket-indeling (zoals minuten, dagen of weken). Deze plug-in is niet nodig als u op de tweede computer gebaseerde waarden niet in een indeling met afgeronde tijd wilt plaatsen.
 
-## De plug-in installeren met de extensie Adobe Experience Platform starten
+## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. De [!UICONTROL Common Analytics Plugins] extensie installeren en publiceren
+1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Algemene Analytics-plug-ins
+   * Extensie: Gebruikelijke plug-ins voor Analytics
    * Type handeling: Initialize formatTime
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -38,40 +38,37 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder de extensie Adobe Analytics.
-1. Vouw de [!UICONTROL Configure tracking using custom code] accordeon uit, zodat de [!UICONTROL Open Editor] knop zichtbaar wordt.
+1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
+1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
-1. Sla de wijzigingen in de Analytics-extensie op en publiceer deze.
+1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## De plug-in installeren met AppMeturement
+## Installeer de plug-in met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het trackingobject Analytics is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: formatTime v1.1 (Requires inList plug-in) */
-s.formatTime=function(ns,tf,bml){var s=this;if(!("undefined"===typeof ns||isNaN(ns)||0>Number(ns))){if("string"===typeof tf&&"d"===tf||("string"!==typeof tf||!s.inList("h,m,s",tf))&&86400<=ns){tf=86400;var d="days";bml=isNaN(bml)?1:tf/(bml*tf)} else"string"===typeof tf&&"h"===tf||("string"!==typeof tf||!s.inList("m,s",tf))&&3600<=ns?(tf=3600,d="hours", bml=isNaN(bml)?4: tf/(bml*tf)):"string"===typeof tf&&"m"===tf||("string"!==typeof tf||!s.inList("s",tf))&&60<=ns?(tf=60,d="minutes",bml=isNaN(bml)?2: tf/(bml*tf)):(tf=1,d="seconds",bml=isNaN(bml)?.2:tf/bml);ns=Math.round(ns*bml/tf)/bml+" "+d;0===ns.indexOf("1 ")&&(ns=ns.substring(0, ns.length-1));return ns}};
-
-/* Adobe Consulting Plugin: inList v2.1 */
-s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===typeof lv)lv=lv.split(d||",");else if("object"!== typeof lv)return!1;d=0;for(var e=lv.length;d<e;d++)if(1==cc&&vtc===lv[d]||vtc.toLowerCase()===lv[d].toLowerCase())return!0;return!1};
+/* Adobe Consulting Plugin: formatTime v2.0 */
+function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("string"!==typeof d)return!1;if("string"===typeof b)b=b.split(c||",");else if("object"!==typeof b)return!1;c=0;for(a=b.length;c<a;c++)if(1==e&&d===b[c]||d.toLowerCase()===b[c].toLowerCase())return!0;return!1}if(arguments&&"-v"===arguments[0])return{plugin:"formatTime",version:"2.0"};var b=function(){if("undefined"!==typeof window.s_c_il)for(var b=0,c;b<window.s_c_il.length;b++)if(c=window.s_c_il[b],c._c&&"s_c"===c._c)return c}();"undefined"!==typeof b&&(b.contextData.formatTime="2.0");if(!("undefined"===typeof f||isNaN(f)||0>Number(f))){b="";if("string"===typeof d&&"d"===d||("string"!==typeof d||!h("h,m,s",d))&&86400<=f){var c=86400;var g="days";b=isNaN(e)?1:c/(e*c)}else"string"===typeof d&&"h"===d||("string"!==typeof d||!h("m,s",d))&&3600<=f?(c=3600,g="hours",b=isNaN(e)?4:c/(e*c)):"string"===typeof d&&"m"===d||("string"!==typeof d||!h("s",d))&&60<=f?(c=60,g="minutes",b=isNaN(e)?2:c/(e*c)):(c=1,g="seconds",b=isNaN(e)?.2:c/e);b=Math.round(f*b/c)/b+" "+g;0===b.indexOf("1 ")&&(b=b.substring(0,b.length-1));return b}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
 ## De plug-in gebruiken
 
-De `formatTime` methode gebruikt de volgende argumenten:
+De methode `formatTime` gebruikt de volgende argumenten:
 
 * **`ns`** (vereist, geheel getal): Het aantal seconden dat moet worden omgezet of geformatteerd
 * **`tf`** (optioneel, tekenreeks): Het type indeling waarin de seconden moeten worden geretourneerd. is standaard ingesteld op seconden
-   * Instellen op `"d"` als u de tijd in dagen wilt (standaard afgerond op de dichtstbijzijnde benchmark van 1/4 dagen)
-   * Ingesteld op `"h"` als u de tijd in uren wilt (standaard afgerond op de dichtstbijzijnde benchmark van 1/4 uur)
-   * Instellen op `"m"` als u de tijd in minuten wilt gebruiken (standaard afgerond op de dichtstbijzijnde benchmark van 1/2 minuten)
-   * Ingesteld op `"s"` als u de tijd in seconden wilt (standaard afgerond op de dichtstbijzijnde benchmark van 5 seconden)
-* **`bml`** (optioneel, nummer): De lengte van de afrondingsbenchmarks. Standaardwaarden voor de benchmarks die in het `tf` argument worden vermeld
+   * Stel in op `"d"` als u de tijd in dagen wilt (standaard afgerond op de dichtstbijzijnde benchmark van 1/4 dagen).
+   * Stel in op `"h"` als u de tijd in uren wilt (standaard afgerond op de dichtstbijzijnde benchmark van 1/4 uur).
+   * Stel in op `"m"` als u de tijd in minuten wilt (standaard afgerond op de dichtstbijzijnde benchmark van 1/2 minuten).
+   * Stel in op `"s"` als u de tijd in seconden wilt (standaard afgerond op de dichtstbijzijnde benchmark van 5 seconden).
+* **`bml`** (optioneel, nummer): De lengte van de afrondingsbenchmarks. Standaardwaarden voor de benchmarks in het argument `tf`
 
-De methode retourneert het aantal seconden dat is opgemaakt met de eenheid die u opgeeft in het `tf` argument. Als het `tf` argument niet is ingesteld:
+De methode retourneert het aantal seconden dat is opgemaakt met de eenheid die u opgeeft in het argument `tf`. Als het argument `tf` niet is ingesteld:
 
 * Iets minder dan een minuut wordt afgerond naar de dichtstbijzijnde benchmark van 5 seconden
 * Alles tussen een minuut en een uur wordt afgerond naar de dichtstbijzijnde benchmark van 1/2 minuten
@@ -100,9 +97,10 @@ De volgende code...
 s.eVar1 = s.formatTime(38250);
 ```
 
-...zal s.eVar1 gelijk aan &quot;10.75 uren&quot;Het argument overgegaan binnen - 38250 seconden - is gelijk aan 10 uren, 37 minuten, en 30 seconden.  Wanneer het aantal seconden wordt afgerond dat in dit geval aan de dichtstbijzijnde benchmark van het kwartuur wordt doorgegeven, wordt de eindwaarde ingesteld op 10,75 uur
+...zal s.eVar1 gelijk aan &quot;10.75 uren&quot;plaatsen
+Het argument dat wordt doorgegeven - 38250 seconden - is gelijk aan 10 uur, 37 minuten en 30 seconden.  Wanneer het aantal seconden wordt afgerond dat in dit geval aan de dichtstbijzijnde benchmark van het kwartuur wordt doorgegeven, wordt de eindwaarde ingesteld op 10,75 uur
 
-### Voorbeeld 3
+### Voorbeeld 2
 
 De volgende code...
 
@@ -110,7 +108,7 @@ De volgende code...
 s.eVar1 = s.formatTime(38242, "m");
 ```
 
-...zal s.eVar1 gelijk aan &quot;637.5 minuten&quot;plaatsen
+...zal s.eVar1 gelijk stellen aan &quot;637.5 minuten&quot;
 
 In dit geval dwingt het argument &quot;m&quot; de plug-in de seconden om te zetten naar de dichtstbijzijnde benchmark van halve minuut
 
@@ -144,7 +142,7 @@ De volgende code...
 s.eVar1 = s.formatTime(125, "m", 3);
 ```
 
-...zal s.eVar1 gelijk aan &quot;3 minuten&quot;plaatsen, die het dichtst 3 minieme benchmark aan 125 seconden is
+...zal s.eVar1 gelijk stellen aan &quot;3 minuten&quot;, wat de dichtstbijzijnde 3-minieme benchmark aan 125 seconden is
 
 ### Voorbeeld 7
 
@@ -154,13 +152,17 @@ De volgende code...
 s.eVar1 = s.formatTime(145, "m", .4);
 ```
 
-...zal s.eVar1 gelijk stellen aan &quot;2.4 minuten&quot;, wat de dichtstbijzijnde 2/5-minute benchmark is (bijvoorbeeld .4 = 2/5) tot 145 seconden
+...zal s.eVar1 gelijk stellen aan &quot;2,4 minuten&quot;, de dichtstbijzijnde 2/5-minuten-benchmark (bv. .4 = 2/5) tot 145 seconden
 
 ## Versiehistorie
 
+### 2.0 (19 maart 2021)
+
+* Versienummer toegevoegd als contextgegevens.
+
 ### 1.1 (21 mei 2018)
 
-* Het `bml` argument toegevoegd om meer flexibiliteit bij afronding mogelijk te maken
+* Het argument `bml` is toegevoegd om meer flexibiliteit bij afronding mogelijk te maken
 
 ### 1.0 (15 april 2018)
 
