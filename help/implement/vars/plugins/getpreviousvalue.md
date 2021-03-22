@@ -2,35 +2,35 @@
 title: getPreviousValue
 description: Hiermee wordt de laatste waarde opgehaald die in een variabele is doorgegeven.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a58e57438fdbac6f2e84c5f85388dff3a43dbd3b
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
 
 
-# Adobe-insteekmodule: getPreviousValue
+# Adobe-plug-in: getPreviousValue
 
 >[!IMPORTANT]
 >
->Deze plug-in wordt geleverd door Adobe Consulting als een hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `getPreviousValue` plug-in kunt u een variabele instellen op een waarde die bij een vorige hit is ingesteld. Deze insteekmodule is niet nodig als de implementatie alle gewenste waarden in de huidige hit bevat.
+Met de `getPreviousValue`-plug-in kunt u een variabele instellen op een waarde die bij een vorige hit is ingesteld. Deze insteekmodule is niet nodig als de implementatie alle gewenste waarden in de huidige hit bevat.
 
-## De plug-in installeren met de extensie Adobe Experience Platform starten
+## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. De [!UICONTROL Common Analytics Plugins] extensie installeren en publiceren
+1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
+1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
 1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Algemene Analytics-plug-ins
+   * Extensie: Gebruikelijke plug-ins voor Analytics
    * Type handeling: getPreviousValue initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
@@ -38,32 +38,31 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder de extensie Adobe Analytics.
-1. Vouw de [!UICONTROL Configure tracking using custom code] accordeon uit, zodat de [!UICONTROL Open Editor] knop zichtbaar wordt.
+1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
+1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
-1. Sla de wijzigingen in de Analytics-extensie op en publiceer deze.
+1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## De plug-in installeren met AppMeturement
+## Installeer de plug-in met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het trackingobject Analytics is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kan Adobe eventuele problemen oplossen.
+Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
 
 ```js
-/******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getPreviousValue v2.0 */
-s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setTime(b.getTime()+18E5);s.c_r(c)&&(d=s.c_r(c)); v?s.c_w(c,v,b):s.c_w(c,d,b);return d};
+/* Adobe Consulting Plugin: getPreviousValue v3.0 */
+function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviousValue",version:"3.0"};var a=function(){if("undefined"!==typeof window.s_c_il)for(var c=0,b;c<window.s_c_il.length;c++)if(b=window.s_c_il[c],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof a&&(a.contextData.getPreviousValue="3.0");window.cookieWrite=window.cookieWrite||function(c,b,f){if("string"===typeof c){var h=window.location.hostname,a=window.location.hostname.split(".").length-1;if(h&&!/^[0-9.]+$/.test(h)){a=2<a?a:2;var e=h.lastIndexOf(".");if(0<=e){for(;0<=e&&1<a;)e=h.lastIndexOf(".",e-1),a--;e=0<e?h.substring(e):h}}g=e;b="undefined"!==typeof b?""+b:"";if(f||""===b)if(""===b&&(f=-60),"number"===typeof f){var d=new Date;d.setTime(d.getTime()+6E4*f)}else d=f;return c&&(document.cookie=encodeURIComponent(c)+"="+encodeURIComponent(b)+"; path=/;"+(f?" expires="+d.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!==typeof cookieRead)?cookieRead(c)===b:!1}};window.cookieRead=window.cookieRead||function(c){if("string"===typeof c)c=encodeURIComponent(c);else return"";var b=" "+document.cookie,a=b.indexOf(" "+c+"="),d=0>a?a:b.indexOf(";",a);return(c=0>a?"":decodeURIComponent(b.substring(a+2+c.length,0>d?b.length:d)))?c:""};var l;d=d||"s_gpv";a=new Date;a.setTime(a.getTime()+18E5);window.cookieRead(d)&&(l=window.cookieRead(d));k?window.cookieWrite(d,k,a):window.cookieWrite(d,l,a);return l};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
 ## De plug-in gebruiken
 
-De `getPreviousValue` methode gebruikt de volgende argumenten:
+De methode `getPreviousValue` gebruikt de volgende argumenten:
 
-* **`v`** (tekenreeks, vereist): De variabele met de waarde die u wilt doorgeven aan de volgende afbeeldingsaanvraag. Een veelgebruikte variabele is het ophalen van de vorige paginawaarde. `s.pageName`
-* **`c`** (tekenreeks, optioneel): De naam van het cookie waarin de waarde wordt opgeslagen.  Als dit argument niet is ingesteld, wordt standaard ingesteld op `"s_gpv"`.
+* **`v`** (tekenreeks, vereist): De variabele met de waarde die u wilt doorgeven aan de volgende afbeeldingsaanvraag. Een veelgebruikte variabele is `s.pageName` om de vorige paginawaarde terug te winnen.
+* **`c`** (tekenreeks, optioneel): De naam van het cookie waarin de waarde wordt opgeslagen.  Als dit argument niet is ingesteld, wordt standaard `"s_gpv"` ingesteld.
 
-Wanneer u deze methode aanroept, wordt de tekenreekswaarde in het cookie geretourneerd. De insteekmodule stelt vervolgens de vervaldatum van het cookie opnieuw in en wijst er de waarde van de variabele aan toe vanuit het `v` argument. Het cookie verloopt na 30 minuten inactiviteit.
+Wanneer u deze methode aanroept, wordt de tekenreekswaarde in het cookie geretourneerd. De insteekmodule herstelt dan de vervaldatum van het cookie en wijst er de variabelewaarde aan toe vanuit het argument `v`. Het cookie verloopt na 30 minuten inactiviteit.
 
 ## Voorbeelden van aanroepen
 
@@ -97,7 +96,7 @@ if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 
 ### Voorbeeld 4
 
-De volgende codesets s.eVar10 is gelijk aan de waarde die in s.eVar1 in de vorige afbeeldingsaanvraag is doorgegeven.   De vorige eVar1-waarde zou in het cookie &quot;s_gpv&quot; zijn opgenomen.  De code stelt vervolgens het cookie &#39;s_gpv&#39; in op de huidige waarde van s.eVar1.
+De volgende codesets s.eVar10 is gelijk aan de waarde die in s.eVar1 is doorgegeven in de vorige afbeeldingsaanvraag.   De vorige eVar1-waarde zou zijn opgenomen in het cookie &quot;s_gpv&quot;.  De code stelt vervolgens het &#39;s_gpv&#39;-cookie in op de huidige waarde van s.eVar1.
 
 ```js
 s.eVar10 = s.getPreviousValue(s.eVar1)
@@ -105,7 +104,7 @@ s.eVar10 = s.getPreviousValue(s.eVar1)
 
 ## Onwaarschijnlijke Kwartels
 
-Als de variabele die aan het v-argument is gekoppeld op een nieuwe waarde is ingesteld en de insteekmodule getPreviousValue wordt uitgevoerd MAAR een Analytics-serveraanroep NIET tegelijkertijd wordt verzonden, wordt de nieuwe waarde voor het v-argument nog steeds beschouwd als de &quot;vorige waarde&quot; de volgende keer dat de insteekmodule wordt uitgevoerd.
+Als de variabele die aan het v-argument is gekoppeld, op een nieuwe waarde is ingesteld en de insteekmodule getPreviousValue wordt uitgevoerd MAAR een aanroep van de Analytics-server NIET tegelijkertijd wordt verzonden, wordt de nieuwe v-argumentwaarde de volgende keer dat de insteekmodule wordt uitgevoerd, nog steeds als de &quot;vorige waarde&quot; beschouwd.
 Stel bijvoorbeeld dat de volgende code op de eerste pagina van het bezoek wordt uitgevoerd:
 
 ```js
@@ -134,6 +133,10 @@ s.t();
 Wanneer de s.t () vraagfunctie loopt, zal het tot een beeldverzoek leiden waar s.pageName=&quot;pagina 2&quot;en s.prop7 aan &quot;gelukkig waarde&quot;is, die de waarde van s.pageName was toen de laatste vraag aan getPreviousValue plaatsvond.   De s.prop7 waarde van &quot;huis&quot;was nooit in om het even welk echt beeldverzoek ingesloten alhoewel &quot;huis&quot;de eerste waarde was die in s.pageName wordt overgegaan.
 
 ## Versiehistorie
+
+### 3.0 (19 maart 2021)
+
+* Versienummer toegevoegd als contextgegevens.
 
 ### v2.0 (7 oktober 2019)
 
