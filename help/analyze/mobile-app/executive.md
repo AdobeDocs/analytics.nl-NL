@@ -2,7 +2,7 @@
 description: Instructies voor het gebruik van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboards
 translation-type: tm+mt
-source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
+source-git-commit: 2a1d3234444dbacb9cb68d85bd00527b2609d1c7
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe Analytics-dashboards: Handleiding voor snel starten van gebruikers
 
-De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards. Bekijk een video waarin deze informatie wordt gedemonstreerd in de [Adobe Analytics-dashboards in-app-ervaring](https://youtu.be/QXqQ_PkArbA).
+De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards. Zie [Adobe Analytics dashboards In-App Experience](https://youtu.be/QXqQ_PkArbA) voor een video waarin deze informatie wordt getoond.
 
 
 ## Inleiding
@@ -75,7 +75,7 @@ Dashboards gebruiken:
 
    ![Volgorde aanmelden](assets/signseq.png)
 
-2. Kies een bedrijf. Nadat u zich hebt aangemeld bij de dashboards, wordt het **[!UICONTROL Choose a company]** scherm weergegeven. Dit scherm maakt een lijst van de login bedrijven waartot u behoort. Tik op de bedrijfsnaam die is gekoppeld aan het scorebord dat met u wordt gedeeld.
+2. Kies een bedrijf. Nadat u zich hebt aangemeld bij dashboards, wordt het **[!UICONTROL Choose a company]** scherm weergegeven. Dit scherm maakt een lijst van de login bedrijven waartot u behoort. Tik op de bedrijfsnaam die is gekoppeld aan het scorebord dat met u wordt gedeeld.
 
 3. In de lijst met scoreborden worden dan alle scoreborden weergegeven die met u zijn gedeeld. Tik op het scorebord dat u wilt weergeven.
 
@@ -88,7 +88,7 @@ Dashboards gebruiken:
 
    ![Niets gedeeld](assets/nothing.png)
 
-4. Onderzoek hoe de tegels in Scorecard verschijnen (het eerste Scorecard wordt getoond in donkere wijze); zie **[!UICONTROL Preferences]** hieronder voor meer informatie ) .
+4. Onderzoek hoe de tegels in Scorecard verschijnen (het eerste Scorecard wordt getoond in donkere wijze); zie **[!UICONTROL Preferences]** hieronder voor meer informatie).
 
    ![Getegrafeerde tegels](assets/newexplain.png)
 
@@ -118,9 +118,9 @@ Dashboards gebruiken:
 
    * U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
 
-   * Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumwaaier-of de huidige tijdsspanne of onmiddellijk voorafgaand aan het. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de **[!UICONTROL COMPARE TO]** lijst op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de gegevens van het eerste datumbereik dat u hebt geselecteerd. Tik **[!UICONTROL Done]** rechtsboven op het scherm. De **[!UICONTROL Date Ranges]** velden en de scorebordtegels worden bijgewerkt met de nieuwe vergelijkingsgegevens uit de nieuwe bereiken die u hebt geselecteerd.
+   * Afhankelijk van het interval dat u tikt (**Day**, **Week**, **Month**, of **Year**), zult u twee opties voor datumwaaier-of de huidige tijdspanwijdte of onmiddellijk voorafgaand aan het zien. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **[!UICONTROL COMPARE TO]** op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de eerste datumreeks die u hebt geselecteerd. Tik **[!UICONTROL Done]** rechtsboven op het scherm. De **[!UICONTROL Date Ranges]**- gebieden en de Scorecard tegels worden bijgewerkt met de nieuwe vergelijkingsgegevens van de nieuwe waaiers u selecteerde.
 
-7. Tik op de vervolgkeuzelijst met filters en selecteer een segment dat door de curator is geconfigureerd om een segmentfilter op uw scorebord toe te passen. [Filters](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in de app werken op dezelfde manier als in de Analytics Workspace.
+7. Tik op de vervolgkeuzelijst met filters en selecteer een segment dat door de curator is geconfigureerd om een segmentfilter op uw scorebord toe te passen. [De ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) filters in de app werken op dezelfde manier als in de Analytics Workspace.
 
    ![Segment, filter](assets/segment_filter.png)
 
@@ -129,27 +129,27 @@ Dashboards gebruiken:
 9. Feedback geven op deze app:
 
    1. Tik op het instellingenpictogram rechtsboven in het toepassingsscherm.
-   2. Tik op het **[!UICONTROL Settings]** scherm op de **[!UICONTROL Feedback]** optie.
+   2. Tik op **[!UICONTROL Settings]** op het scherm **[!UICONTROL Feedback]**.
    3. Tik om de opties voor het geven van feedback weer te geven.
 
       ![Instellingenscherm](assets/settings.png)
 
-10. Tik op de bovenstaande **[!UICONTROL Preferences]** optie om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
+10. Tik op de bovenstaande optie **[!UICONTROL Preferences]** om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
 
    ![Donkere modus](assets/darkmode.png)
 
 
 **Een fout** rapporteren:
 
-Tik op de optie en kies een subcategorie van de bug. Geef in het formulier voor het melden van een fout uw e-mailadres op in het bovenste veld en uw beschrijving van de fout op in het veld eronder. Er wordt automatisch een schermafbeelding van uw accountgegevens aan het bericht gekoppeld, maar u kunt dit desgewenst verwijderen door op de **X** in de bijlage te tikken. U hebt ook opties voor het opnemen van een scherm, het toevoegen van meer schermafbeeldingen of het bijvoegen van bestanden. Tik op het pictogram van het papieren vlak rechtsboven in het formulier om het rapport te verzenden.
+Tik op de optie en kies een subcategorie van de bug. Geef in het formulier voor het melden van een fout uw e-mailadres op in het bovenste veld en uw beschrijving van de fout op in het veld eronder. Er wordt automatisch een schermopname van uw accountgegevens aan het bericht gekoppeld, maar u kunt dit desgewenst verwijderen door op de **X** in de bijlage te tikken. U hebt ook opties voor het opnemen van een scherm, het toevoegen van meer schermafbeeldingen of het bijvoegen van bestanden. Tik op het pictogram van het papieren vlak rechtsboven in het formulier om het rapport te verzenden.
 
 
 ![Fout rapporteren](assets/newbug.png)
 
 **Een verbetering** voorstellen:
 
-Tik op de optie en kies een subcategorie voor de suggestie. Geef in het aanvraagformulier uw e-mailadres op in het bovenste veld en uw beschrijving van de fout op in het veld eronder. Er wordt automatisch een schermafbeelding van uw accountgegevens aan het bericht gekoppeld, maar u kunt dit desgewenst verwijderen door op de **X** in de bijlage te tikken. U hebt ook opties voor het opnemen van een scherm, het toevoegen van meer schermafbeeldingen of het bijvoegen van bestanden. Tik op het pictogram van het papieren vlak rechtsboven in het formulier om de suggestie te verzenden.
+Tik op de optie en kies een subcategorie voor de suggestie. Geef in het aanvraagformulier uw e-mailadres op in het bovenste veld en uw beschrijving van de fout op in het veld eronder. Er wordt automatisch een schermopname van uw accountgegevens aan het bericht gekoppeld, maar u kunt dit desgewenst verwijderen door op de **X** in de bijlage te tikken. U hebt ook opties voor het opnemen van een scherm, het toevoegen van meer schermafbeeldingen of het bijvoegen van bestanden. Tik op het pictogram van het papieren vlak rechtsboven in het formulier om de suggestie te verzenden.
 
 **Een vraag** stellen:
 
-Tik op de optie en geef uw e-mailadres op in het bovenste veld en uw vraag in het veld eronder. Er wordt automatisch een schermafbeelding aan het bericht gekoppeld, maar u kunt dit desgewenst verwijderen door op de **X** in de bijlage te tikken. U hebt ook opties voor het opnemen van een scherm, het toevoegen van meer schermafbeeldingen of het bijvoegen van bestanden. Tik op het pictogram van het papieren vlak rechtsboven in het formulier om de vraag te verzenden.
+Tik op de optie en geef uw e-mailadres op in het bovenste veld en uw vraag in het veld eronder. Een het schermschot wordt automatisch in bijlage aan het bericht, maar u kunt dit schrappen als u wilt door **X** in het gehechtheidsbeeld te tikken. U hebt ook opties voor het opnemen van een scherm, het toevoegen van meer schermafbeeldingen of het bijvoegen van bestanden. Tik op het pictogram van het papieren vlak rechtsboven in het formulier om de vraag te verzenden.
