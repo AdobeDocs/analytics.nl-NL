@@ -2,11 +2,13 @@
 description: De extracten van gegevens laten u de parameters kiezen u over zowel de x als y-as van het rapport zult bekijken, evenals het punt waardoor het rapport wordt gefiltreerd.
 subtopic: Schedule
 title: Data-uittreksel
+feature: Grondbeginselen van rapporten en analyses
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 3%
+source-wordcount: '139'
+ht-degree: 2%
 
 ---
 
