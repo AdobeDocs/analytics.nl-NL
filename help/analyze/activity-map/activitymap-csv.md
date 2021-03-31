@@ -1,23 +1,27 @@
 ---
-description: In de Standaardmodus exporteert u de analysegegevens van Activity Map naar een CSV-bestand (door komma's gescheiden waarden).
+description: Exporteer in de standaardmodus de analysegegevens van de Activity Map naar een CSV-bestand (comma Separated Values).
 title: Exporteren naar CSV-bestand
-topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: ee5489798f8c82c563b49b6c96acd1e63a0aa920
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 4%
 
 ---
 
 
 # Exporteren naar CSV-bestand
 
-In de Standaardmodus exporteert u de analysegegevens van Activity Map naar een CSV-bestand (door komma&#39;s gescheiden waarden).
+Exporteer in de standaardmodus de analysegegevens van de Activity Map naar een CSV-bestand (comma Separated Values).
 
-Als gebruiker, kunt u verbindingsklikgegevens met andere gegevensbronnen moeten samenvoegen of andere analyse (b.v. in Excel) uitvoeren. Met CSV-export kunt u al uw Activiteitenkaartgegevens voor een bepaalde pagina in een gebruiksvriendelijke indeling verkrijgen. Hiermee kunt u de analysegegevens die voor een pagina zijn gegenereerd, opslaan in een standaard CSV-bestand, zodat u het paginarapport, het rapport [over de](/help/analyze/activity-map/activitymap-page-flow.md)paginastroom en de [koppelingen naar paginagegevens](/help/analyze/activity-map/activitymap-links-report.md) kunt exporteren. U kunt de gegevens vervolgens als spreadsheet of tekstbestand bekijken of in een ander systeem importeren.
+Als gebruiker, kunt u verbindingsklikgegevens met andere gegevensbronnen moeten samenvoegen of andere analyse (b.v. in Excel) uitvoeren. Met CSV-export kunt u al uw Activity Map gegevens voor een bepaalde pagina in een gebruiksvriendelijke indeling verkrijgen. Hiermee kunt u de analytische gegevens die voor een pagina zijn gegenereerd, opslaan in een standaard CSV-bestand, zodat u het Pagina-rapport, [Paginastroomrapport](/help/analyze/activity-map/activitymap-page-flow.md) en [Koppelingen op pagina](/help/analyze/activity-map/activitymap-links-report.md)-gegevens kunt exporteren. U kunt de gegevens vervolgens als spreadsheet of tekstbestand bekijken of in een ander systeem importeren.
 
-Klik op het pictogram Exporteren op de werkbalk Activiteitenkaart.
+Klik op het pictogram Exporteren op de werkbalk Activity Map.
 
-Activiteitenkaart genereert de bestandsnaam op basis van de naam van de pagina Adobe Analytics en voegt er een datum en tijdstempel aan toe: Pagename_DateTime.csv. Dit bestand wordt opgeslagen in de standaardmap Download voor de bijbehorende browser.
+Activity Map genereert de bestandsnaam op basis van de naam van de Adobe Analytics-pagina en voegt er een datum en tijdstempel aan toe: Pagename_DateTime.csv. Dit bestand wordt opgeslagen in de standaardmap Download voor de bijbehorende browser.
 
 | Exportgegevens | Beschrijving |
 |---|---|
