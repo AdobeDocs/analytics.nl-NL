@@ -2,10 +2,11 @@
 description: De eerste stap bij het maken van een aanvraag in Report Builder.
 title: Data-aanvragen - stap 1 van de wizard Aanvragen
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '412'
 ht-degree: 4%
 
 ---
