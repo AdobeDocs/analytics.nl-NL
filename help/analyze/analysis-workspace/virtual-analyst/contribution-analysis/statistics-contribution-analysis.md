@@ -1,16 +1,21 @@
 ---
-description: De analyse van de bijdrage is een intensief machine het leren proces dat wordt ontworpen om contribuanten aan een waargenomen anomalie in de Analytics van Adobe te ontdekken. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
-title: Statistische technieken voor de analyse van bijdragen
+description: De bijdrageanalyse is een intensief machinaal leerproces dat bedoeld is om contribuanten aan een waargenomen anomalie in Adobe Analytics aan het licht te brengen. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
+title: Statistische technieken in bijdrageanalyse
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
+feature: AI-gereedschappen
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 3%
 
 ---
 
 
-# Statistische technieken voor de analyse van bijdragen
+# Statistische technieken in bijdrageanalyse
 
-De analyse van de bijdrage is een intensief machine het leren proces dat wordt ontworpen om contribuanten aan een waargenomen anomalie in de Analytics van Adobe te ontdekken. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
+De bijdrageanalyse is een intensief machinaal leerproces dat bedoeld is om contribuanten aan een waargenomen anomalie in Adobe Analytics aan het licht te brengen. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
 
 De Analyse van de bijdrage verwezenlijkt dit door een tweedelige algoritme aan elke enige afmetingsplaats uit te voeren beschikbaar aan het rapport van de Analyse van de Bijdrage van de gebruiker. Het algoritme werkt in deze volgorde:
 
