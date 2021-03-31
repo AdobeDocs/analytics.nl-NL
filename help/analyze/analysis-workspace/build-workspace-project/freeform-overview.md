@@ -2,12 +2,13 @@
 description: Leer de grondbeginselen van het werken in een project van de Werkruimte.
 keywords: Analysis Workspace
 title: Overzicht van projecten
-topic: Rapporten en analyses
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
+feature: Basisprincipes van werkruimte
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1363'
 ht-degree: 2%
 
 ---
