@@ -2,10 +2,12 @@
 description: Een uitvalvisualisatie configureren.
 title: Een uitvalvisualisatie configureren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
+feature: Visualisaties
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '681'
 ht-degree: 2%
 
 ---
