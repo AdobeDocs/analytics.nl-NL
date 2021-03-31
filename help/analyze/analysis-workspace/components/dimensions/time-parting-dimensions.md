@@ -2,11 +2,13 @@
 description: Bij tijdpartering wordt de tijdstempel van verzamelde hits gebruikt en wordt de reeks in betekenisvollere afmetingen opgedeeld, zoals "Uur van dag" of "Dag van week".
 title: Tijduitsplitsende dimensies
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
+feature: Basisprincipes van werkruimte
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 3%
+source-wordcount: '237'
+ht-degree: 2%
 
 ---
 
@@ -24,11 +26,11 @@ De tijd-ontledende dimensies zijn gebaseerd op de tijdzone van de rapportreeks o
 
 >[!NOTE]
 >
->De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Als u de afmetingen voor tijdpartering wilt gebruiken in andere Analytics-oplossingen, kunt u de plug-in [getTimeParting implementeren](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimeparting.html).
+>De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Om tijd-ontledende dimensies in andere oplossingen van Analytics te gebruiken, kunt u [getTimeParting stop-in](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimeparting.html) uitvoeren.
 
 Afmetingen van tijdpartering in Analysis Workspace zijn onder andere:
 
-| Dimensie | Voorbeeldwaarden |
+| Dimension | Voorbeeldwaarden |
 |--- |--- |
 | Uur van dag | 0-23 |
 | AM/PM | AM, PM |
