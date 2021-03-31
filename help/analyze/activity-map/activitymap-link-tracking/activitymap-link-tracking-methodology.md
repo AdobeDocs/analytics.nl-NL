@@ -1,23 +1,27 @@
 ---
 description: Deze sectie is bedoeld voor Adobe Analytics-beheerders. Het concentreert zich op de nieuwe verbindingen het volgen parameters en hoe zij verbindingsuniciteit en consistentie over browsers en apparaten verzekeren, en de behandeling van verbinding het verplaatsen op een pagina verbeteren.
-title: Methode voor het bijhouden van koppelingen
-topic: Activity map
+title: Methode voor link tracking
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 1%
 
 ---
 
 
-# Methode voor het bijhouden van koppelingen
+# Methode voor link tracking
 
 Deze sectie is bedoeld voor Adobe Analytics-beheerders. Het concentreert zich op de nieuwe verbindingen het volgen parameters en hoe zij verbindingsuniciteit en consistentie over browsers en apparaten verzekeren, en de behandeling van verbinding het verplaatsen op een pagina verbeteren.
 
 >[!IMPORTANT]
 >
->Elke koppeling waarbij de tekst (niet de href) PII (Persoonlijk Identificeerbare informatie) kan bevatten, moet expliciet worden geïmplementeerd met [s_objectID](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) of door de ActivityMap-linkverzameling met [s.ActivityMap.linkExclusions of s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars)uit te sluiten. Voor meer informatie over hoe de Kaart van de Activiteit PII gegevens kan verzamelen, ga [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Elke koppeling waarin de tekst (niet de href) PII (Persoonlijk Identificeerbare Informatie) kan bevatten, moet expliciet worden geïmplementeerd met behulp van [s_objectID](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) of door de ActivityMap-linkverzameling met [s.ActivityMap.linkExclusions of s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) uit te sluiten. Voor meer informatie over hoe de Activity Map PII gegevens kan verzamelen, ga [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
 
-De kaart van de activiteit baseert zijn verbinding het volgen op deze twee IDs:
+De Activity Map baseert zijn verbinding het volgen op deze twee IDs:
 
 * Primaire id: dit is de herkenbare parameter van de koppeling .
 * Koppelingsgebied: dit is een secundaire parameter die gebruikers toestaat om een koord te specificeren dat van het algemene verbindingsgebied in de pagina of het gebied representatief is. Deze parameter kan automatisch worden gegenereerd als deze niet door de gebruiker wordt opgegeven.
@@ -32,7 +36,7 @@ Als de HTML een s_objectid heeft, dan wordt primaire identiteitskaart in gebreke
 * Bron
 * Handeling
 
-## InnerText gebruiken in plaats van Koppeling (URL) {#section_70C3573E22274522A8CC035BF18EC468}
+## Het gebruiken van InnerText versus het gebruiken van de Actie van de Verbinding (URL) {#section_70C3573E22274522A8CC035BF18EC468}
 
 Koppelingsactie is de actie die door de webpagina wordt uitgevoerd wanneer op de koppeling wordt geklikt. Dit is doorgaans de URL die wordt bezocht nadat op de koppeling is geklikt. Enkele kwesties u zou kunnen lopen wanneer het gebruiken van de Actie van de Verbinding zijn:
 
@@ -45,7 +49,7 @@ Dientengevolge, gebruiken wij InnerText met deze voordelen over het gebruiken va
 * Het is een goede vertegenwoordiging van de identiteit van de Verbinding. Het dupliceren van primaire id&#39;s wordt aanzienlijk gereduceerd, omdat het niet gebruikelijk is om meerdere koppelingen met dezelfde tekst te hebben.
 * Het zorgt voor consistentie van de primaire id op verschillende apparaten en browsertypen.
 * De positie van een koppeling op de pagina wordt niet gewijzigd.
-* Het verbetert leesbaarheid, zodat kunnen de gebruikers beginnen de het volgen van de Verbinding rapporten buiten de Kaart van de Activiteit te analyseren.
+* Het verbetert leesbaarheid, zodat kunnen de gebruikers beginnen de het volgen van de Verbinding rapporten buiten Activity Map te analyseren.
 
 ## Koppelingsgebied {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
@@ -114,7 +118,7 @@ s.ActivityMap.regionIDAttribute="lpos";
 
 ## Configuratievariabelen {#configuration-vars}
 
-Deze variabelen worden alleen ter referentie vermeld. De Kaart van de activiteit zou behoorlijk uit de doos moeten worden gevormd, maar u kunt uw implementatie aanpassen gebruikend deze variabelen.
+Deze variabelen worden alleen ter referentie vermeld. De Activity Map zou behoorlijk uit de doos moeten worden gevormd, maar u kunt uw implementatie aanpassen gebruikend deze variabelen.
 
 <table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
  <thead> 
@@ -136,7 +140,7 @@ Deze variabelen worden alleen ter referentie vermeld. De Kaart van de activiteit
     <code>
       //&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;linkId; &nbsp;&nbsp;&nbsp;if(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A'){ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title'); &nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;return&nbsp;linkId; } 
     </code> </td> 
-   <td colname="col3"> Functie die het aangeklikte HTMLElement ontvangt en een koordwaarde zou moeten terugkeren die <b>de verbinding vertegenwoordigt die werd geklikt</b>. <p>Wanneer de geretourneerde waarde false is (null, undefined, empty string, 0), wordt geen koppeling bijgehouden. </p> </td> 
+   <td colname="col3"> Functie die het aangeklikte HTMLElement ontvangt en een koordwaarde zou moeten terugkeren die <b>de verbinding vertegenwoordigt die </b> werd geklikt. <p>Wanneer de geretourneerde waarde false is (null, undefined, empty string, 0), wordt geen koppeling bijgehouden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.region </td> 
@@ -144,7 +148,7 @@ Deze variabelen worden alleen ter referentie vermeld. De Kaart van de activiteit
     <code>
       //&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;regionId,className; &nbsp;&nbsp;&nbsp;while(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement=&nbsp;clickedElement.parentNode)){ &nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName; &nbsp;if(regionId){ &nbsp;return&nbsp;regionId.toLowerCase(); &nbsp;} &nbsp;} } 
     </code> </td> 
-   <td colname="col3"> Functie die het aangeklikte HTMLElement ontvangt en een koordwaarde zou moeten terugkeren die <b>het gebied vertegenwoordigt waar de verbinding werd gevonden toen klikte</b>. <p>Wanneer de geretourneerde waarde false is (null, undefined, empty string, 0), wordt geen koppeling bijgehouden. </p> </td> 
+   <td colname="col3"> Functie die het aangeklikte HTMLElement ontvangt en een koordwaarde zou moeten terugkeren die <b>het gebied vertegenwoordigt waar de verbinding wanneer geklikt</b> werd gevonden. <p>Wanneer de geretourneerde waarde false is (null, undefined, empty string, 0), wordt geen koppeling bijgehouden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.linkExclusions </td> 
@@ -152,7 +156,7 @@ Deze variabelen worden alleen ter referentie vermeld. De Kaart van de activiteit
     <code>
       //&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class &nbsp;&lt;style&gt; .linkExcluded{ &nbsp;&nbsp;display:&nbsp;block; &nbsp;&nbsp;height:&nbsp;1px; &nbsp;&nbsp;left:&nbsp;-9999px; &nbsp;&nbsp;overflow:&nbsp;hidden; &nbsp;&nbsp;position:&nbsp;absolute; &nbsp;&nbsp;width:&nbsp;1px; } &lt;/style&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;&lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt; &lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2'; &lt;/script&gt; 
     </code> </td> 
-   <td colname="col3"> <p>Tekenreeks die een door komma's gescheiden lijst met tekenreeksen ontvangt waarnaar moet worden gezocht in koppelingstekst. Indien gevonden, wordt de koppeling uitgesloten van het volgen door Activiteitenkaart. Als deze niet is ingesteld, wordt niet geprobeerd de koppeling niet meer te volgen op Activiteitenkaart. </p> </td> 
+   <td colname="col3"> <p>Tekenreeks die een door komma's gescheiden lijst met tekenreeksen ontvangt waarnaar moet worden gezocht in koppelingstekst. Indien gevonden, wordt de koppeling uitgesloten van Activity Map. Als deze niet is ingesteld, wordt niet geprobeerd de koppeling niet meer te volgen op Activity Map. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.regionExclusions </td> 
@@ -160,7 +164,7 @@ Deze variabelen worden alleen ter referentie vermeld. De Kaart van de activiteit
     <code>
       //&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap &lt;div&nbsp;id="links-included"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;div&nbsp;id="links-excluded"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded'; &lt;/script&gt;
     </code> </td> 
-   <td colname="col3"> <p>Tekenreeks die een door komma's gescheiden lijst met tekenreeksen ontvangt waarnaar in regiotekst moet worden gezocht. Indien gevonden, wordt de koppeling uitgesloten van het volgen door Activiteitenkaart. Als deze niet is ingesteld, wordt niet geprobeerd de koppeling niet meer te volgen op Activiteitenkaart. </p> </td> 
+   <td colname="col3"> <p>Tekenreeks die een door komma's gescheiden lijst met tekenreeksen ontvangt waarnaar in regiotekst moet worden gezocht. Indien gevonden, wordt de koppeling uitgesloten van Activity Map. Als deze niet is ingesteld, wordt niet geprobeerd de koppeling niet meer te volgen op Activity Map. </p> </td> 
   </tr> 
  </tbody> 
 </table>
