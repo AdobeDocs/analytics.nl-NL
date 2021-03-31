@@ -1,10 +1,12 @@
 ---
 title: Deelvenster voor attributie
 description: Het toewijzingspaneel in Analysis Workspace gebruiken en interpreteren.
+feature: Attributie
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 7962e7dbb8003103ceb6fd1f9ccd11c110e59ad3
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -12,12 +14,12 @@ ht-degree: 1%
 
 # Deelvenster voor attributie
 
-Het [!UICONTROL Attribution] paneel is een gemakkelijke manier om een analyse te bouwen die diverse attributiemodellen vergelijkt. Het is een functie in [Attribution IQ](../attribution/overview.md) die u een specifieke werkruimte geeft om attributiemodellen te gebruiken en te vergelijken.
+Het [!UICONTROL Attribution] paneel is een gemakkelijke manier om een analyse te bouwen die diverse attributiemodellen vergelijkt. Het is een eigenschap in [Attribution IQ](../attribution/overview.md) die u een specifieke werkruimte geeft om attributiemodellen te gebruiken en te vergelijken.
 
 ## Een deelvenster met kenmerken maken
 
 1. Klik op het deelvensterpictogram aan de linkerkant.
-1. Sleep het [!UICONTROL Attribution] deelvenster naar uw Analysis Workspace-project.
+1. Sleep het [!UICONTROL Attribution] paneel in uw Project van Analysis Workspace.
 
    ![Nieuw deelvenster voor kenmerken](assets/Attribution_Panel_1.png)
 
@@ -25,7 +27,7 @@ Het [!UICONTROL Attribution] paneel is een gemakkelijke manier om een analyse te
 
    ![Dimensie en metrisch selecteren](assets/attribution_panel2.png)
 
-1. Selecteer de [toewijzingsmodellen en het terugzoekvenster](../attribution/models.md) dat u wilt vergelijken.
+1. Selecteer [attributiemodellen en terugkijkvenster](../attribution/models.md) u wilt vergelijken.
 
 1. Het deelvenster Kenmerken retourneert een uitgebreide set gegevens en visualisaties die de kenmerk voor de geselecteerde dimensie en de metrische waarde met elkaar vergelijken.
 
