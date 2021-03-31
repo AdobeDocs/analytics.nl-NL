@@ -1,16 +1,21 @@
 ---
-title: Gebruiksgevallen voor vergelijking van segmenten
+title: Gebruiksgevallen van segmentvergelijking
 description: Leer praktijkvoorbeelden over hoe het paneel van de segmentvergelijking kan worden gebruikt om inzicht in de marketing strategie te krijgen.
-keywords: Segment IQ
+keywords: Segment-IQ
+feature: Deelvensters
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 0%
 
 ---
 
 
 # Gebruiksgevallen voor segment-IQ
 
-Het deelvenster voor segmentvergelijking is een veelgebruikte functie in de analysewerkruimte. Klanten ontdekken vaak nieuwe manieren om er inzichten mee te maken. Hieronder vindt u een aantal geslaagde gebruiksgevallen.
+Het vergelijkingspaneel voor segmenten wordt veel gebruikt in Analysis Workspace. Klanten ontdekken vaak nieuwe manieren om er inzichten mee te maken. Hieronder vindt u een aantal geslaagde gebruiksgevallen.
 
 ## Hoofdlettergebruik 1: vergelijking tussen mobiele en desktopimplementaties
 
@@ -34,7 +39,7 @@ Een optimalisatieteam voor websites in de detailhandel wilde beter begrijpen wel
 
 ## Hoofdlettergebruik 3: nieuwssite-bezoekers vergelijken met andere bezoekers van sitesectie
 
-> *&quot;We ontdekten dat bezoekers van ons nieuwsbericht twee keer zo vaak videoadvertenties konden bekijken, dus we hebben meer video-opties toegevoegd aan dat gedeelte. We hebben een toename van 7% van het aantal bekeken video&#39;s gezien.&quot;*
+> *&quot;We ontdekten dat bezoekers van ons nieuwsbericht twee keer zo vaak videoadvertenties konden bekijken, dus we hebben meer video-opties toegevoegd aan dat gedeelte. We hebben een toename van 7% gezien in het aantal bekeken video&#39;s!&quot;*
 
 Een groot mediabedrijf onderzocht manieren om de betrokkenheid van het publiek bij de inhoud in hun nieuwssectie te verbeteren. Ze creëerden een segment bezoekers die de sectie News hadden bezocht om het nieuwspubliek beter te begrijpen. Ze hebben direct vastgesteld dat deze gebruikers twee keer zo vaak videoadvertenties kunnen bekijken als bezoekers van andere sitesecties. Het videeteam heeft een aanbevolen videoclip op hun nieuwstregel gezet en een toename van 7% bereikt in het aantal bekeken videoadvertenties.
 
@@ -44,7 +49,7 @@ Een groot mediabedrijf onderzocht manieren om de betrokkenheid van het publiek b
 
 ## Hoofdlettergebruik 4: bezoekers van betaalde zoekopdrachten vergelijken met iedereen
 
-> *&quot;Bezoekers die via zoekmachines naar onze site kwamen, hadden drie keer meer kans om te verkopen dan alle anderen. We hebben als gevolg daarvan onze uitgaven voor specifieke trefwoorden verhoogd en een verhoging van 56% van de verkopen bereikt.&quot;*
+> *&quot;Bezoekers die via zoekmachines naar onze site kwamen, hadden drie keer meer kans om te verkopen dan alle anderen. We hebben als gevolg daarvan onze uitgaven voor specifieke trefwoorden verhoogd en een stijging van 56% bereikt in de verkoopcijfers.&quot;*
 
 Een belangrijk B2B de dienstenbedrijf wilde het type van verkeer begrijpen dat betaalde onderzoekshoofdwoorden aan hun plaats brachten. Betaalde zoekactie had niet geleid tot veel directe omzettingen, en de marketingdirecteur vond dat er een afnemend budget voor nodig was. Het marketingteam heeft een segment bezoekers gemaakt dat via betaalde zoekopdrachten naar de site is gekomen en deze met het vergelijkingspaneel voor segmenten vergeleken met alle andere bezoekers. Zij ontdekten dat hoewel deze bezoekers niet zo waarschijnlijk rechtstreeks zouden converteren, zij drie keer zo veel kans hadden om op een eerder aangeschafte dienst te verkopen. Het marketingteam richtte zijn budget op alleen de up-sell gerelateerde trefwoorden en zag een verhoging van 56% van de service-up-sells.
 
@@ -56,7 +61,7 @@ Een belangrijk B2B de dienstenbedrijf wilde het type van verkeer begrijpen dat b
 
 > *&quot;We ontdekten dat mensen die Fitbits kopen zes keer vaker een &#39;out of stock&#39;-bericht kregen dan alle anderen, dus we bestelden al snel meer Fitbits en vermeden dat ze uit voorraad waren!&quot;*
 
-**Scenario:** Een grote online detailhandelaar was geïnteresseerd in hoe een van de meest heetste vakantieproducten - Fitbit - verkocht en wat de kopers van Fitbit uniek maakte onder andere klanten. Het marketingteam kon eenvoudig met de rechtermuisknop klikken op het regelitem &quot;Fitbit&quot; in het productrapport en snel een Segment IQ-analyse uitvoeren. Wat ze ontdekten, was dat gebruikers die Fitbits kopen zes keer vaker een &quot;out of stock&quot; bericht zouden krijgen dan andere klanten. Na verdere analyse kon het marketingteam deze bezoekers naar hun baksteen- en mortierwinkels sturen terwijl ze op hun inkoopafdeling wachtten om meer Fitbits te bestellen. Als gevolg daarvan heeft de detailhandelaar meer &quot;out of stock&quot;-berichten vermeden en kon hij meer van de vakantievraag voorzien.
+**Scenario:** Een grote online-detailhandelaar was geïnteresseerd in hoe een van de meest populaire vakantieproducten - Fitbit - verkocht en wat de kopers van Fitbit uniek maakte onder andere klanten. Het marketingteam kon eenvoudig met de rechtermuisknop klikken op het regelitem &quot;Fitbit&quot; in het productrapport en snel een Segment IQ-analyse uitvoeren. Wat ze ontdekten, was dat gebruikers die Fitbits kopen zes keer vaker een &quot;out of stock&quot; bericht zouden krijgen dan andere klanten. Na verdere analyse kon het marketingteam deze bezoekers naar hun baksteen- en mortierwinkels sturen terwijl ze op hun inkoopafdeling wachtten om meer Fitbits te bestellen. Als gevolg daarvan heeft de detailhandelaar meer &quot;out of stock&quot;-berichten vermeden en kon hij meer van de vakantievraag voorzien.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
