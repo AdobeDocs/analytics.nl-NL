@@ -1,10 +1,14 @@
 ---
 description: U kunt een complex datumbereik opgeven door een aangepaste expressie op te bouwen.
 title: Aangepaste datumexpressies - overzicht
-topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: fa1b0b7fb24d0cd2c205fbbb6a1e526f243531f8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 4%
 
 ---
 
@@ -17,9 +21,9 @@ We raden u aan naar een kalender te verwijzen wanneer u expressies maakt om het 
 
 **Aangepaste expressies inschakelen**
 
-Dit is een voorbeeld **[!UICONTROL Rolling Dates]**.
+Dit is een voorbeeld met **[!UICONTROL Rolling Dates]**.
 
-1. Selecteer op het [!UICONTROL Request Wizard: Step 1]scherm in plaats van **[!UICONTROL Preset Dates]** te gebruiken **[!UICONTROL Rolling Dates]**.
+1. Selecteer **[!UICONTROL Rolling Dates]** in [!UICONTROL Request Wizard: Step 1] in plaats van **[!UICONTROL Preset Dates]** te gebruiken.
 
    ![](assets/rolldates1.png)
 
@@ -32,8 +36,8 @@ Dit is een voorbeeld **[!UICONTROL Rolling Dates]**.
 
    ![](assets/rolldatesfor3.png)
 
-1. Inschakelen **[!UICONTROL Customize Expression]**. Door opties onder te selecteren, kunt u gemakkelijk de syntaxis voor de uitdrukkingen van de douanedatum zien. **[!UICONTROL Rolling Dates]**
+1. **[!UICONTROL Customize Expression]** inschakelen. Door opties te selecteren onder **[!UICONTROL Rolling Dates]**, kunt u de syntaxis voor de uitdrukkingen van de douanedatum gemakkelijk zien.
 
    ![](assets/rolldatesfor5.png)
 
-   U kunt Geavanceerde opties gebruiken om aangepaste datumexpressies te combineren en aan te passen. Als u bijvoorbeeld gegevens wilt zien van het eerste van het jaar tot het einde van de laatste volledige maand, kunt u het volgende invoeren: `From: cy` . `To: cm-1d`. In de wizard worden deze datums weergegeven als 1/1/2020-1/31/2020.
+   U kunt Geavanceerde opties gebruiken om aangepaste datumexpressies te combineren en aan te passen. Als u bijvoorbeeld gegevens wilt zien van het eerste van het jaar tot het einde van de laatste volledige maand, kunt u het volgende invoeren: `From: cy` `To: cm-1d`. In de wizard worden deze datums weergegeven als 1/1/2020-1/31/2020.
