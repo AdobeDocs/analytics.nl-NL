@@ -1,12 +1,13 @@
 ---
 description: Veelgestelde vragen over het instellen, configureren en gebruiken van functies in Activity Map.
 title: Veelgestelde vragen over Activity Map
-topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -63,7 +64,7 @@ Als inhoud wordt verborgen of weergegeven, wijzigt de toepassing automatisch de 
 
 Alle weergegeven gegevens zijn gebaseerd op paginaweergaven.
 
-## Kan ik de variabelen van de de contextgegevens van de Activity Map door gegevensvoer uitvoeren?
+## Kan ik Activity Map contextgegevensvariabelen door gegevensvoer uitvoeren?
 
 Contextgegevensvariabelen van activiteitsstructuren zijn niet beschikbaar in gegevensfeeds.
 
