@@ -1,13 +1,14 @@
 ---
 description: Verklaart de stappen de Admin van Analytics moet voltooien om de inzameling van de verbindingsverbinding van de Activity Map en gebruikersdownload toe te laten.
 title: Activity Map inschakelen
-topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 6%
+source-wordcount: '374'
+ht-degree: 7%
 
 ---
 
@@ -22,9 +23,9 @@ De module Activity Map maakt deel uit van het bestand AppMeasurement.js (dat zic
 
 U kunt geen gegevens over de Activity Map verzamelen, tenzij u deze versie (of hoger) van AppMeasurement bijwerkt.
 
-1. Download de nieuwste AppMeasurement-code (AppMeasurement_Javascript-1.6.zip) door naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]** te gaan en deze [te](https://docs.adobe.com/content/help/en/analytics/implementation/js/overview.html)implementeren.
+1. Download de nieuwste AppMeasurement-code (AppMeasurement_Javascript-1.6.zip) door naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]** te gaan en [deze ](https://docs.adobe.com/content/help/en/analytics/implementation/js/overview.html) te implementeren.
 
-   We hebben code [voor](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) voorbeeldimplementatie opgenomen om u te helpen de wijzigingen die in de code zijn aangebracht, zichtbaar te maken door de module Activity Map op te nemen.
+   Wij hebben sommige [code van de steekproefimplementatie ](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) omvat om u te helpen de veranderingen visualiseren die aan de code door de module van de Activity Map te omvatten zijn aangebracht.
 
 1. De implementatie valideren:
 
@@ -35,28 +36,28 @@ U kunt geen gegevens over de Activity Map verzamelen, tenzij u deze versie (of h
       …&c.&a.&Activity Map.&link=My%20Link&region=My%20Region&page=My%20Page&.Activity Map&.a&.c&...
       ```
 
-1. Onderbreek dit rapport onderaan door de verbinding/de regio voor die pagina **[!UICONTROL Activity Map Link by Region]** te zien:  ![](assets/am_breakdown.png){width=&quot;400px&quot;}
+1. Onderbreek dit rapport onderaan door **[!UICONTROL Activity Map Link by Region]** om de verbinding/het gebied voor die pagina te zien:  ![](assets/am_breakdown.png){width=&quot;400px&quot;}
 
-## Stap 2. Rapporten Activity Map inschakelen {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
+## Stap 2. Rapporten {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4} voor Activity Map inschakelen
 
 Eerst, moet u Activity Map rapporten op een rapport-reeks niveau toelaten.
 
-1. Meld u aan bij Adobe Analytics en navigeer naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer een rapportsuite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
-1. De Activity Map verzamelt de verbindingsgegevens in de rapporten van de Activity Map. U kunt de activering alleen uitvoeren als u eerst de variabelen activeert door op **[!UICONTROL Enable Activity Map Reports]** te klikken.
+1. Meld u aan bij Adobe Analytics en navigeer naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer een rapportsuite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**.
+1. De Activity Map verzamelt de verbindingsgegevens in de rapporten van de Activity Map. De activering wordt alleen uitgevoerd als u de variabelen eerst activeert door op **[!UICONTROL Enable Activity Map Reports]** te klikken.
 
    Met deze stap voegt u alle analytische afmetingen toe die u nodig hebt om gegevens te verzamelen.
 
-1. Na ongeveer een uur, controleer het rapport [van de Pagina van de](/help/analyze/activity-map/activitymap-reporting-analytics.md)Activity Map, dat alle pagina&#39;s toont waar de gebruikers op een verbinding klikte.
+1. Na ongeveer een uur, controleer [het Rapport van de Pagina van de Activity Map ](/help/analyze/activity-map/activitymap-reporting-analytics.md), dat alle pagina&#39;s toont waar de gebruikers op een verbinding klikten.
 
-## Stap 3. Gebruikers toevoegen aan de toegangsgroep Activity Map {#section_4C7A47BB7DEF4AFFBC276392467F9675}
+## Stap 3. Gebruikers toevoegen aan toegangsgroep {#section_4C7A47BB7DEF4AFFBC276392467F9675} Activity Mappen
 
 1. Klik op **[!UICONTROL Add Users to Group]**.
 
    Hiermee gaat u naar de pagina voor groepsbeheer in de Admin Console.
 
-1. [Voeg gebruikers toe aan deze groep](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html) en **[!UICONTROL Save Group]**.
+1. [Voeg gebruikers toe aan deze ](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html) groep en  **[!UICONTROL Save Group]**.
 
-1. Hierdoor kunnen uw Admin-gebruikers Activity Map downloaden van **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** .
+1. Hierdoor kunnen uw Admin-gebruikers Activity Map downloaden van **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]**.
 
 >[!NOTE]
 >
