@@ -1,22 +1,26 @@
 ---
-description: De Bouwer van het Rapport van Adobe steunt het formaat .xlsm dat u macro-toegelaten werkboeken laat plannen.
-title: Macroworkbooks plannen
-topic: Report builder
+description: Adobe Report Builder ondersteunt de indeling .xlsm waarmee u werkboeken met macro-functionaliteit kunt plannen.
+title: Macrowerkmappen plannen
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 6%
 
 ---
 
 
-# Macroworkbooks plannen
+# Macrowerkmappen plannen
 
-De Bouwer van het Rapport van Adobe steunt het formaat .xlsm dat u macro-toegelaten werkboeken laat plannen.
+Adobe Report Builder ondersteunt de indeling .xlsm waarmee u werkboeken met macro-functionaliteit kunt plannen.
 
 Dit kan nuttig zijn als u veilig werkboeken wilt plannen, verwerken en ontvangen macro-toegelaten.
 
 >[!IMPORTANT]
 >
->Alhoewel de Bouwer van het Rapport u werkboeken met macro&#39;s laat plannen, worden deze macro&#39;s niet uitgeoefend tijdens elke geplande looppas. Zij worden slechts uitgeoefend wanneer het werkboek binnen de inheemse toepassing van Microsoft Excel open is.
+>Hoewel u met Report Builder werkboeken met macro&#39;s kunt plannen, worden deze macro&#39;s niet tijdens elke geplande uitvoering uitgeoefend. Zij worden slechts uitgeoefend wanneer het werkboek binnen de inheemse toepassing van Microsoft Excel open is.
 
 De geplande werkboeken met macro&#39;s kunnen slechts in macro-toegelaten formaat (.xlsm) worden geleverd, omdat alle andere gesteunde formaten (xls, xlsx, pdf, word, csv, of txt) de macro&#39;s uit het werkboek zouden verwijderen.
