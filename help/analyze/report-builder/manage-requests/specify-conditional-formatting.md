@@ -1,13 +1,14 @@
 ---
 description: Nadat u rapporten met ingesloten verzoeken hebt gemaakt, kunt u voorwaardelijke opmaak toepassen op cellen van het werkboek.
 title: Voorwaardelijke opmaak opgeven
-topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 3%
+source-wordcount: '188'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 3%
 
 Nadat u rapporten met ingesloten verzoeken hebt gemaakt, kunt u voorwaardelijke opmaak toepassen op cellen van het werkboek.
 
-Klik op de werkbalk van de rapportbuilder **[!UICONTROL Format]**.
+Voor de werkbalk van de rapportbuilder klikt u op **[!UICONTROL Format]**.
 
 Met voorwaardelijke opmaak kunt u cellen identificeren die resultaten of waarden bevatten die u wilt controleren. U kunt bijvoorbeeld rode schaduwen (of markeringen) toepassen op een bepaalde cel als de inkomsten onder de verwachtingen liggen, en blauwe schaduwen als de inkomsten hoger zijn dan de bedragen die u hebt voorspeld. Als een wijziging in datumbereiken voor aanvragen voorwaarden verwijdert die ertoe leiden dat voorwaardelijke opmaak wordt toegepast op celwaarden, worden de indelingen die die voorwaarde markeren tijdelijk uitgeschakeld. De voorwaardelijke indelingen die u opgeeft, resulteren weliswaar niet in een wijziging van de weergave van de celindeling, maar omdat aan geen enkele voorwaarde wordt voldaan, worden ze wel toegepast op cellen totdat u ze verwijdert.
 
