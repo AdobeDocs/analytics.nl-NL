@@ -1,13 +1,14 @@
 ---
 description: U kunt koppelingen onderscheiden door de koppelings-id aan te passen met de variabele s_objectID, door het gebied aan te passen en door het modulebestand van de module AppMeasurement ActivityMap aan te passen.
 title: Koppelingen differentiëren die verwijzen naar dezelfde koppelings-id en -regio
-topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 370d81bafc523b00a38b0064ad4ca3e6bb655d9f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 5%
+source-wordcount: '378'
+ht-degree: 6%
 
 ---
 
@@ -86,7 +87,7 @@ Door een unieke object-id te maken voor een koppeling of koppelingslocatie op ee
  </tbody> 
 </table>
 
-## Het gebied aanpassen {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## Gebied {#section_6B1EF302573B445DBAF44176D0A12DB9} aanpassen
 
 U kunt de regio aanpassen door ervoor te zorgen dat voor elke &quot;koop&quot;verbinding een eigen Gebied wordt bepaald. Hiervoor voegt u een parameter &quot;id&quot; toe aan een van de bovenliggende elementen van elke ankertag &quot;Buy&quot;.
 
@@ -123,7 +124,7 @@ U kunt de regio aanpassen door ervoor te zorgen dat voor elke &quot;koop&quot;ve
  </tbody> 
 </table>
 
-## Het bestand ActivityMap voor AppMeasurement-module aanpassen {#section_B933BB9F944E4D5389002908A5A881F8}
+## Pas het dossier {#section_B933BB9F944E4D5389002908A5A881F8} van ActivityMap van de ActiviteitMap App aan
 
 >[!CAUTION]
 >
