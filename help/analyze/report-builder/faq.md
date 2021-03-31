@@ -1,10 +1,12 @@
 ---
 title: Report Builder Veelgestelde vragen
 description: Veelgestelde vragen over Report Builder.
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -14,15 +16,15 @@ ht-degree: 0%
 
 Veelgestelde vragen over Report Builder.
 
-## Kan ik de `TODAY()` of `DATERANGE()` functie gebruiken in werkboeken?
+## Kan ik de functie `TODAY()` of `DATERANGE()` in werkboeken gebruiken?
 
-De [`TODAY()` functie](https://support.microsoft.com/en-us/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9) in Excel keert de huidige dag terug. De [`DATEVALUE()` functie](https://support.microsoft.com/en-us/office/datevalue-function-df8b07d4-7761-4a93-bc33-b7471bbff252) zet een datumtekenreeks om in een seriële waarde. Hoewel nuttig voor vele eigenschappen binnen Excel, adviseert Adobe sterk tegen het gebruiken van deze functies als deel van Report Builder geplande verzoeken. De klantenservice van Adobe ondersteunt geen verzoeken om probleemoplossing met een van deze functies.
+De functie [`TODAY()`](https://support.microsoft.com/en-us/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9) in Excel keert de huidige dag terug. De functie [`DATEVALUE()`](https://support.microsoft.com/en-us/office/datevalue-function-df8b07d4-7761-4a93-bc33-b7471bbff252) zet een datumkoord in een periodieke waarde om. Hoewel nuttig voor vele eigenschappen binnen Excel, adviseert Adobe sterk tegen het gebruiken van deze functies als deel van Report Builder geplande verzoeken. De klantenservice van Adobe ondersteunt geen verzoeken om probleemoplossing met een van deze functies.
 
-De geplande rapporten worden verwerkt op servers die waarschijnlijk geen tijdstreken als rapportreeks delen. De `TODAY()` gebruiker verwacht en de `TODAY()` verwerkingsserver gebruikt vaak andere waarden. De gebruikte datum is ook gebaseerd op het tijdstip waarop de verwerking start. Als veel rapporten tegelijkertijd worden uitgevoerd, kan de datum veranderen tussen de tijd het wordt gevraagd en wanneer het verwerking wegens vertragingen begint. Deze kwestie is aanwezig als de geplande tijd dicht bij middernacht is.
+De geplande rapporten worden verwerkt op servers die waarschijnlijk geen tijdstreken als rapportreeks delen. De `TODAY()` die een gebruiker verwacht en de `TODAY()` die de verwerkingsserver gebruikt, kunnen vaak anders zijn. De gebruikte datum is ook gebaseerd op het tijdstip waarop de verwerking start. Als veel rapporten tegelijkertijd worden uitgevoerd, kan de datum veranderen tussen de tijd het wordt gevraagd en wanneer het verwerking wegens vertragingen begint. Deze kwestie is aanwezig als de geplande tijd dicht bij middernacht is.
 
-Geplande rapporten worden ook verwerkt op servers die waarschijnlijk geen datumsyntaxis delen. U `7/1/YYYY` kunt bijvoorbeeld naar 1 juli of 7 januari verwijzen, afhankelijk van uw land of regio. Als u de `DATEVALUE()` functie op deze datum gebruikt, worden verschillende seriële waarden gebruikt, afhankelijk van de computer die de functie uitvoert.
+Geplande rapporten worden ook verwerkt op servers die waarschijnlijk geen datumsyntaxis delen. `7/1/YYYY` kan bijvoorbeeld naar 1 juli of 7 januari verwijzen, afhankelijk van uw land of regio. Als u de functie `DATEVALUE()` op deze datum gebruikt, worden verschillende seriële waarden gebruikt, afhankelijk van de computer die de functie uitvoert.
 
-Als alternatief voor het gebruiken van deze functies van Excel, adviseert Adobe hoogst gebruikend datumwaaiers binnen Report Builder verzoeken. Selecteer op de eerste pagina van de aanvraagwizard de optie **[!UICONTROL Preset Dates]** in het vervolgkeuzemenu en selecteer vervolgens onder Algemeen gebruikte datums **[!UICONTROL Today]** of een ander gewenst datumbereik. Deze instelling neemt de tijd van de rapportsuite in beslag op het moment dat deze werd uitgevoerd, en niet op het moment dat de server de aanvraag verwerkt.
+Als alternatief voor het gebruiken van deze functies van Excel, adviseert Adobe hoogst gebruikend datumwaaiers binnen Report Builder verzoeken. Op de eerste pagina van de verzoektovenaar, selecteer **[!UICONTROL Preset Dates]** in dropdown, dan onder Algemeen Gebruikte Datums, selecteer **[!UICONTROL Today]** of een andere gewenste datumwaaier. Deze instelling neemt de tijd van de rapportsuite in beslag op het moment dat deze werd uitgevoerd, en niet op het moment dat de server de aanvraag verwerkt.
 
 ## Hoe groot en complex kan ik mijn werkboeken maken?
 
