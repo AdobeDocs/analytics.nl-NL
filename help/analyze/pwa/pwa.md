@@ -1,34 +1,35 @@
 ---
-title: PWA's voor analyse
-description: Progressieve webtoepassingen voor Adobe Analytics
+title: PWA voor Analytics
+description: Progressieve webapps voor Adobe Analytics
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 0%
+source-wordcount: '333'
+ht-degree: 3%
 
 ---
 
 
-# PWA&#39;s voor Adobe Analytics
+# PWA voor Adobe Analytics
 
-Op deze pagina wordt beschreven hoe u Adobe Analytics met Progressive Web Apps (PWA&#39;s) kunt gebruiken.
+Deze pagina beschrijft hoe u Adobe Analytics kunt gebruiken met Progressieve Web Apps (PWA).
 
 ## Inleiding
 
-PWA&#39;s kunnen een native app-ervaring en offlinemogelijkheden bieden voor een website. Gewoonlijk omvatten PWAs een de dienstarbeider, caching bepalingen, en een manifestdossier, allen die met snellere ladingstijden, gemakkelijkere navigatie, en ontvankelijk gedrag kunnen helpen.
+PWA kunnen een eigen app-ervaring en offline mogelijkheden voor een website bieden. Meestal omvatten PWA een de dienstarbeider, caching bepalingen, en een duidelijk dossier, die allen met snellere ladingstijden, gemakkelijkere navigatie, en ontvankelijk gedrag kunnen helpen.
 
-Adobe Analytics werkt net zo naadloos met PWAs als met traditionele websites. Hoewel PWA&#39;s nog een paar vereisten hebben om zich geleidelijk in en van zichzelf te gedragen, creëren ze geen belemmeringen of beperkingen voor de manier waarop Analytics gegevens van hen verzamelt of rapporteert op een andere manier dan traditionele websites. Omdat Analytics al mogelijkheden voor offline bijhouden bevat, kunnen PWA&#39;s u helpen deze ingebouwde functie eenvoudiger te gebruiken dan met traditionele websites.
+Adobe Analytics werkt net zo naadloos met PWA als met traditionele websites. Hoewel de PWA nog een paar eisen stellen om zich geleidelijk in en van zich te gedragen, creëren zij geen barrières of beperkingen op de manier waarop Analytics gegevens van hen verzamelt of rapporteert anders dan traditionele websites. Omdat Analytics al mogelijkheden voor offline bijhouden bevat, kunnen PWA u helpen deze ingebouwde functie eenvoudiger te gebruiken dan met traditionele websites.
 
-## PWA-analysegegevens ophalen
+## Uw PWA Analytics-gegevens ophalen
 
 Als u uw PWA-gegevens wilt verzamelen en analyseren met [!UICONTROL Analytics], hoeft u geen configuratiewijzigingen aan te brengen. [!UICONTROL Analytics] biedt automatisch dezelfde functionaliteit en functies als bij een traditionele website.
 
-## Offline bijhouden toevoegen om de PWA-effectiviteit te verhogen
+## Offline bijhouden toevoegen om de doeltreffendheid van PWA te verhogen
 
-U kunt de effectiviteit van uw PWA verhogen door Adobe Analytics [offline volgmogelijkheden](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) met het te gebruiken. Deze functie is standaard uitgeschakeld, maar u kunt de volgende eigenschap toevoegen aan het bestand AppMeasurement.js om deze in te schakelen: `s.trackOffline=true;`.
+U kunt de doeltreffendheid van uw PWA verhogen door Adobe Analytics [offlinetraceringsmogelijkheden](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) met het te gebruiken. Deze functie is standaard uitgeschakeld, maar u kunt de volgende eigenschap toevoegen aan het bestand AppMeasurement.js om deze in te schakelen: `s.trackOffline=true;`.
 
-In het volgende bestand AppMeturement.js wordt de eigenschap bijvoorbeeld toegevoegd aan het einde van het bestand `CONFIG SECTION`:
+Bijvoorbeeld, in het volgende dossier AppMeetings.js, wordt het bezit toegevoegd aan het eind van `CONFIG SECTION`:
 
 ```
 /************************** CONFIG SECTION **************************/ 
@@ -46,8 +47,8 @@ s.trackOffline=true
 *** 
 ```
 
-Zie Code [invoegen in het bestand](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)AppMeasurement.js voor meer informatie over het bewerken van het bestand AppMeasurement.js.
+Zie [Code invoegen in het bestand AppMeasurement.js](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html) voor meer informatie over het bewerken van het bestand AppMeasurement.js.
 
-Voor voorbeelden van configuraties in het dossier AppMeasurement.js, zie het [Vormen van het dossier](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)AppMeasurement.js.
+Zie [Het bestand AppMeasurement.js configureren voor voorbeelden van configuraties in het bestand AppMeasurement.js.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)
 
-Voor meer informatie over de kenmerken van het dossier AppMeasurement.js, zie het [implementatieoverzicht](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)Javascript.
+Voor meer informatie over de kenmerken van het dossier AppMeasurement.js, zie [Javascript implementatieoverzicht](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
