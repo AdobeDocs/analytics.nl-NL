@@ -1,10 +1,12 @@
 ---
 description: 'Componenten in Analysis Workspace bestaan uit afmetingen, metriek, segmenten en datumbereiken die u naar een project kunt slepen en neerzetten. '
 title: Overzicht van onderdelen
+feature: Basisprincipes van werkruimte
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '695'
 ht-degree: 7%
 
 ---
@@ -14,49 +16,49 @@ ht-degree: 7%
 
 Componenten in Analysis Workspace bestaan uit afmetingen, metriek, segmenten en datumbereiken die u naar een project kunt slepen en neerzetten.
 
-Als u het menu Componenten wilt openen, klikt u op het **[!UICONTROL Components]** pictogram in de linkertrack. U kunt schakelen tussen [deelvensters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html), [visualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)en componenten via de pictogrammen voor de linkerspoorstaaf of met [sneltoetsen](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Als u het menu Componenten wilt openen, klikt u op het pictogram **[!UICONTROL Components]** in de linkertrack. U kunt schakelen tussen [Deelvensters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html), [Visualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) en Componenten van de linkerspoorpictogrammen of door [hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) te gebruiken.
 
 ![](assets/component-overview.png)
 
-U kunt ook de dichtheid-instellingen [voor](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) weergave voor het project aanpassen om meer waarden in de linkerrails tegelijk weer te geven door naar **[!UICONTROL Project > Project Info & Settings > View Density]** te gaan.
+U kunt ook de [Dichtheidsmontages van de Mening ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) voor het project aanpassen om meer waarden in de linkerspoorstaaf tegelijkertijd te zien door naar **[!UICONTROL Project > Project Info & Settings > View Density]** te gaan.
 
 ## Dimensies {#dimensions}
 
-[**Dimension**](https://docs.adobe.com/content/help/en/analytics/components/dimensions/overview.html) zijn tekstkenmerken die het gedrag van de bezoeker beschrijven en die in uw analyse kunnen worden weergegeven, opgesplitst en vergeleken. Ze zijn te vinden in de linkercomponentrails (oranje sectie) en worden doorgaans toegepast als rijen van een tabel.
+[****](https://docs.adobe.com/content/help/en/analytics/components/dimensions/overview.html) Dimensies zijn tekstkenmerken die het gedrag van uw bezoeker beschrijven en die in uw analyse kunnen worden weergegeven, uitgesplitst en vergeleken. Ze zijn te vinden in de linkercomponentrails (oranje sectie) en worden doorgaans toegepast als rijen van een tabel.
 
-Voorbeelden van afmetingen zijn [!UICONTROL Page Name], [!UICONTROL Marketing Channels], [!UICONTROL Device Type]en [!UICONTROL Products]. Dimension worden geleverd door Adobe en worden vastgelegd via uw aangepaste implementatie (eVar, Props, classificaties, enz.).
+Voorbeelden van afmetingen zijn [!UICONTROL Page Name], [!UICONTROL Marketing Channels], [!UICONTROL Device Type] en [!UICONTROL Products]. Dimension worden geleverd door Adobe en worden vastgelegd via uw aangepaste implementatie (eVar, Props, classificaties, enz.).
 
-Elke afmeting bevat ook **afmetingspunten** binnen het. U vindt Dimension-items in de linkercomponentrails door op de pijl naar rechts naast de naam van een willekeurige dimensie te klikken (de items zijn geel).
+Elke dimensie bevat ook **dimensiepunten** binnen het. U vindt Dimension-items in de linkercomponentrails door op de pijl naar rechts naast de naam van een dimensie te klikken (de items zijn geel).
 
-Voorbeelden van dimensie-items zijn [!UICONTROL Homepage] (binnen de [!UICONTROL Page] dimensie), [!UICONTROL Paid Search] (binnen de [!UICONTROL Marketing Channel] dimensie), [!UICONTROL Tablet] (binnen de [!UICONTROL Mobile Device Type] dimensie), enzovoort.
+Voorbeelden van dimensie-items zijn [!UICONTROL Homepage] (binnen de [!UICONTROL Page]-dimensie), [!UICONTROL Paid Search] (binnen de [!UICONTROL Marketing Channel]-dimensie), [!UICONTROL Tablet] (binnen de [!UICONTROL Mobile Device Type]-dimensie), enzovoort.
 
 ![](assets/dimensions.png)
 
 ## Cijfers {#metrics}
 
-[**Metriek**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) zijn kwantitatieve maatstaven voor het gedrag van bezoekers. Ze zijn te vinden in het linkerspoor van de component (groene sectie) en worden doorgaans toegepast als kolommen van een tabel.
+[****](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) Metricare kwantitatieve maatstaven voor het gedrag van bezoekers. Ze zijn te vinden in het linkerspoor van de component (groene sectie) en worden doorgaans toegepast als kolommen van een tabel.
 
-Voorbeelden van metriek zijn [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent], en [!UICONTROL Revenue/Order]. Metrisch worden verstrekt door Adobe, of door uw douaneimplementatie ([!UICONTROL Success events]) gevangen, of gecreeerd gebruikend de [Berekende metrische bouwer](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+Voorbeelden van metriek zijn [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent] en [!UICONTROL Revenue/Order]. Metriek worden verstrekt door Adobe, of door uw douaneimplementatie ([!UICONTROL Success events]) gevangen, of gecreeerd gebruikend [Berekende metrische bouwer](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
 
 ![](assets/metrics.png)
 
 ## Segmenten {#segments}
 
-[**De segmenten**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) zijn publieksfilters die op uw analyse worden toegepast. Ze zijn te vinden in de linkercomponentrails (blauw gedeelte) en worden doorgaans toegepast boven aan een deelvenster of boven metrische kolommen in een tabel.
+[**De**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) segmentsfilters zijn publieksfilters die op uw analyse worden toegepast. Ze zijn te vinden in de linkercomponentrails (blauw gedeelte) en worden doorgaans toegepast boven aan een deelvenster of boven metrische kolommen in een tabel.
 
-Voorbeelden van segmenten zijn [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email]en [!UICONTROL Authenticated Hits]. Segmenten worden opgegeven door Adobe of gemaakt in de dropzone van [het deelvenster](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html), of worden gemaakt met de [Segment Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+Voorbeelden van segmenten zijn [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email] en [!UICONTROL Authenticated Hits]. Segmenten worden opgegeven door Adobe of gemaakt in de [dropzone](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) van het deelvenster of gemaakt met de [Segment builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 
 ![](assets/segments.png)
 
 ## Datumbereik {#date-ranges}
 
-[**Datumbereik**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) is het datumbereik waarop u de analyse uitvoert. Ze zijn te vinden in de linkercomponentrails (paarse sectie) en worden doorgaans toegepast in de kalender van elk deelvenster.
+[**Datumbereiken**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) zijn de datums waarop u de analyse uitvoert. Ze zijn te vinden in de linkercomponentrails (paarse sectie) en worden doorgaans toegepast in de kalender van elk deelvenster.
 
-Voorbeelden van datumbereiken zijn juli 2019 [!UICONTROL Last 4 weeks]en [!UICONTROL This month]. Datumbereiken worden opgegeven door Adobe, toegepast in de [deelvensterkalender](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)of gemaakt met de constructor [Datumbereik](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
+Voorbeelden van datumbereiken zijn juli 2019, [!UICONTROL Last 4 weeks] en [!UICONTROL This month]. Datumbereiken worden opgegeven door Adobe, toegepast in de [deelvensterkalender](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) of gemaakt met de [Datumbereikbuilder](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
 
 ![](assets/date-ranges.png)
 
-## Component Actions {#actions}
+## Componenthandelingen {#actions}
 
 U kunt componenten (afzonderlijk of door meer dan één te selecteren) direct in de linkerspoorstaaf beheren. Klik met de rechtermuisknop op een component of klik op het pictogram Actie-punt boven aan de lijst met componenten.
 
@@ -70,4 +72,4 @@ U kunt componenten (afzonderlijk of door meer dan één te selecteren) direct in
 | Delen | Delen van componenten naar gebruikers in uw organisatie. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals segmenten of berekende maateenheden. |
 | Verwijderen | Verwijder componenten die u niet meer nodig hebt. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals segmenten of berekende maateenheden. |
 
-De componenten van de douane kunnen ook door hun respectieve managers van de Component worden beheerd. Bijvoorbeeld, de Manager van het [Segment](/help/components/segmentation/segmentation-workflow/seg-manage.md).
+De componenten van de douane kunnen ook door hun respectieve managers van de Component worden beheerd. Bijvoorbeeld [Segmentbeheer](/help/components/segmentation/segmentation-workflow/seg-manage.md).
