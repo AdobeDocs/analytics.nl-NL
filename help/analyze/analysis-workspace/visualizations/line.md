@@ -2,10 +2,12 @@
 description: Gebruik de lijnvisualisatie om trended (op tijd gebaseerde) gegevenssets weer te geven
 title: Lijn
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
+feature: Visualisaties
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: ac3a859a7ee54eb772b7cd947f3cdaad861b1078
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -17,7 +19,7 @@ De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te t
 
 ![Lijnvisualisatie](assets/line-viz.png)
 
-Klik op het tandwielpictogram rechtsboven in de lijnvisualisatie voor toegang tot de beschikbare [**visualisatie-instellingen**](freeform-analysis-visualizations.md) . Instellingen worden gecategoriseerd in:
+Klik op het tandwielpictogram rechtsboven in de lijnvisualisatie om toegang te krijgen tot [**beschikbare visualisatie-instellingen**](freeform-analysis-visualizations.md). Instellingen worden gecategoriseerd in:
 
 * **Algemeen**: Instellingen die gemeenschappelijk zijn voor verschillende visualisatietypen
 * **As**: Instellingen die van invloed zijn op de x- of y-as van de lijnvisualisatie
@@ -27,7 +29,7 @@ Klik op het tandwielpictogram rechtsboven in de lijnvisualisatie voor toegang to
 
 ## Korreligheid wijzigen
 
-Met een keuzelijst met granulariteit in de [visualisatie-instellingen](freeform-analysis-visualizations.md) kunt u een trendvisualisatie (bijvoorbeeld lijn, balk) wijzigen van dagelijks naar wekelijks, enz. De granulariteit wordt ook bijgewerkt in de gegevensbrontabel.
+Met een vervolgkeuzelijst met granulariteit in de [visualisatie-instellingen](freeform-analysis-visualizations.md) kunt u een trendvisualisatie (bijvoorbeeld lijn, balk) wijzigen van dagelijks naar wekelijks, enz. De granulariteit wordt ook bijgewerkt in de gegevensbrontabel.
 
 ## min of max tonen
 
