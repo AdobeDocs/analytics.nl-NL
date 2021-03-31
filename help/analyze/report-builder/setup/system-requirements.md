@@ -1,10 +1,14 @@
 ---
 description: Systeemaanbevelingen en -voorwaarden.
 title: Systeemvereisten
-topic: Report builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 10%
 
 ---
 
@@ -19,7 +23,7 @@ Systeemaanbevelingen en -voorwaarden.
 
 **Vereisten**
 
-* Het contract van uw organisatie omvat de Bouwer van het Rapport voor Excel.
-* Uw gebruikersnaam maakt deel uit van de vooraf bepaalde de gebruikersgroep van de Bouwer van het Rapport. Dit vereiste geldt ook voor [!DNL Analytics] beheerders.
+* Het contract van uw organisatie bevat Report Builder for Excel.
+* Uw gebruikersnaam maakt deel uit van de vooraf gedefinieerde gebruikersgroep Report Builder. Dit vereiste omvat [!DNL Analytics] beheerders.
 * De gebruiker moet Vensters in werking stellen en het programma geopend als beheerder.
 
