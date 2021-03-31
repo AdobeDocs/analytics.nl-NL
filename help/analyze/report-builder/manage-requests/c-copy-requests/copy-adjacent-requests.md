@@ -1,12 +1,13 @@
 ---
 description: Net zoals u aanvragen kopieert en plakt, kunt u aanvragen ook verplaatsen naar een ander deel van het werkblad door in het snelmenu de optie Verzoek knippen te selecteren.
 title: Aangrenzende aanvragen kopiëren
-topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '291'
 ht-degree: 2%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 2%
 
 Net zoals u aanvragen kopieert en plakt, kunt u aanvragen ook verplaatsen naar een ander deel van het werkblad door in het snelmenu de optie Verzoek knippen te selecteren.
 
-Als u een aanvraag knipt, wordt deze van de oorspronkelijke locatie verwijderd en op de nieuwe locatie geplaatst nadat u deze hebt geselecteerd [!UICONTROL Paste Request]. Als u uw mening na het snijden van een bepaald verzoek verandert en besluit om een verschillend verzoek van een andere cel te kopiëren of te snijden, verlaat de Bouwer van het Rapport het eerste verzoek in zijn originele cel en slechts (of exemplaren of besnoeiingen) de tweede handelt.
+Als u een aanvraag knipt, wordt deze van de oorspronkelijke locatie verwijderd en op de nieuwe locatie geplaatst nadat u [!UICONTROL Paste Request] hebt geselecteerd. Als u van mening verandert na het snijden van een bepaald verzoek en besluit om een verschillend verzoek van een andere cel te kopiëren of te snijden, verlaat Report Builder het eerste verzoek in zijn originele cel en slechts (of exemplaren of besnoeiingen) het tweede.
 
 >[!NOTE]
 >
@@ -24,4 +25,4 @@ Als u een aanvraag knipt, wordt deze van de oorspronkelijke locatie verwijderd e
 
 U bent niet beperkt tot het kopiëren en plakken in het zelfde blad van het werkboek. U kunt een verzoek in één blad kopiëren en aan een plaats in een ander blad van het zelfde werkboek kleven.
 
-U bent niet beperkt tot het kopiëren en plakken van één verzoek tegelijk. U kunt meer dan één verzoek selecteren in het spreadsheet en hen kleven aan een leeg gebied van de spreadsheet. Net als bij het kopiëren en plakken van één aanvraag, moet u ervoor zorgen dat het plakgebied geen cellen bevat met verzoeken die door de plakbewerking worden vervangen. Als het systeem vindt dat het gebied van de doeldeeg reeds één of meerdere verzoeken bevat, toont de rapportbouwer niet het [!UICONTROL Paste Requests] menu voor om het even welke gekopieerde of besnoeiingsverzoeken. U moet een andere cel selecteren als het doel van de plakbewerking, zodat aanvragen elkaar niet overlappen.
+U bent niet beperkt tot het kopiëren en plakken van één verzoek tegelijk. U kunt meer dan één verzoek selecteren in het spreadsheet en hen kleven aan een leeg gebied van de spreadsheet. Net als bij het kopiëren en plakken van één aanvraag, moet u ervoor zorgen dat het plakgebied geen cellen bevat met verzoeken die door de plakbewerking worden vervangen. Als het systeem vindt dat het gebied van de doeldeeg reeds één of meerdere verzoeken bevat, toont de rapportbouwer [!UICONTROL Paste Requests] geen menu voor om het even welke gekopieerde of besnoeiingsverzoeken. U moet een andere cel selecteren als het doel van de plakbewerking, zodat aanvragen elkaar niet overlappen.
