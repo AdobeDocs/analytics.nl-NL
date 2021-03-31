@@ -1,29 +1,33 @@
 ---
-description: Meer informatie over hoe gegevens worden verzameld voor Adobe Analytics.
+description: Meer informatie over hoe gegevens voor Adobe Analytics worden verzameld.
 subtopic: Get started
-title: Over gegevensverzameling
-topic: Reports and analytics
+title: Over dataverzameling
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
+feature: Grondbeginselen van rapporten en analyses
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 3%
 
 ---
 
 
-# Over gegevensverzameling
+# Over dataverzameling
 
-Meer informatie over hoe gegevens worden verzameld voor Adobe Analytics.
+Meer informatie over hoe gegevens voor Adobe Analytics worden verzameld.
 
-Elke pagina in Adobe-tracks bevat een klein fragment van door Adobe geautoriseerde JavaScript-code. Deze code wordt verschaft door uw accountmanager.
+Elke Adobe-paginacontracten hebben een klein fragment van JavaScript-code die is geautoriseerd voor Adobe. Deze code wordt verschaft door uw accountmanager.
 
 Op hoog niveau wordt het gegevensverzamelingsproces als volgt gestroomd:
 
 ![](assets/data_collection.png)
 
 1. Een bezoeker bezoekt een webpagina die de code voor gegevensverzameling bevat.
-1. Terwijl de pagina wordt geladen, verzendt de code van de gegevensverzameling een beeldverzoek (genoemd een Webbaken) naar de servers van de de gegevensinzameling van Adobe. De afbeeldingsaanvraag bevat de gegevens die u wilt verzamelen over de interactie van de bezoeker met uw website.
+1. Terwijl de pagina wordt geladen, verzendt de code van de gegevensverzameling een beeldverzoek (genoemd een Webbaken) naar de servers van de Adobe gegevensinzameling. De afbeeldingsaanvraag bevat de gegevens die u wilt verzamelen over de interactie van de bezoeker met uw website.
 1. Adobe slaat de gegevens op in rapportsuites. U kunt zich aanmelden om toegang te krijgen tot de gegevens van de rapportsuite en rapporten genereren met betrekking tot bezoekersactiviteiten op uw website.
 
-Gegevensverzameling gaat erg snel en heeft geen merkbare invloed op de laadtijden van de pagina. De verzamelde gegevens omvatten paginameningen die uit het klikken van de browser **herladen** of **Achterknopen** voortvloeien. De JavaScript-code wordt ook uitgevoerd wanneer de pagina uit de cache wordt opgehaald.
+Gegevensverzameling gaat erg snel en heeft geen merkbare invloed op de laadtijden van de pagina. De verzamelde gegevens omvatten paginameningen die uit het klikken van browser **opnieuw laden** of **Terug** knopen voortvloeien. De JavaScript-code wordt ook uitgevoerd wanneer de pagina uit de cache wordt opgehaald.
 
 Zie [Gegevensverzameling in Analytics.](/help/import/home.md)
