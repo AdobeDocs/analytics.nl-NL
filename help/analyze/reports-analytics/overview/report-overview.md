@@ -1,10 +1,14 @@
 ---
 description: Een inleiding op de eigenschappen van een rapport, met inbegrip van de toolbar, kalender, en detaillijst.
 title: Rapportfuncties
-topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
+feature: Grondbeginselen van rapporten en analyses
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 1%
 
 ---
 
@@ -13,21 +17,21 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Een inleiding op de eigenschappen van een rapport, met inbegrip van de toolbar, kalender, en detaillijst.
 
-Dit voorbeeld toont een [!UICONTROL Pages Report]. De configuratieopties kunnen variëren, afhankelijk van het rapport dat u in werking stelt. Bijvoorbeeld, eerder dan het selecteren van Getraind of Rangschikt in een [!UICONTROL Site Content] rapport, zou u de granulariteit en paginanaam voor een [!UICONTROL Site Metrics] rapport kunnen specificeren.
+In dit voorbeeld wordt een [!UICONTROL Pages Report] getoond. De configuratieopties kunnen variëren, afhankelijk van het rapport dat u in werking stelt. In plaats van Trended of Ranked te selecteren in een [!UICONTROL Site Content]-rapport, kunt u bijvoorbeeld de granulariteit en de paginanaam voor een [!UICONTROL Site Metrics]-rapport opgeven.
 
 ## Voorbeeld van paginapport {#section_288CC85536684C2DB184141358481EF0}
 
-Een voorbeeld van een Pagina-rapport ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
+Een voorbeeld van een rapport Pagina&#39;s ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
-## Werkbalk Rapport {#section_0D674177AE6C4A71B07234DB25910ECD}
+## Werkbalk {#section_0D674177AE6C4A71B07234DB25910ECD} rapporteren
 
 Deel uw rapportgegevens met de besluitvormers die uw plaats of marketing strategieën kunnen veranderen die op de gegevens worden gebaseerd.
 
 ![](assets/toolbar.png){width=&quot;672px&quot;}
 
-Zie ook [Een rapport](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)aanpassen.
+Raadpleeg ook [Een rapport aanpassen](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Koptekst en instellingen rapporteren {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -35,7 +39,7 @@ Toont rapportmontages en laat u het rapporttype, uitgezochte metriek, en meer vo
 
 ![](assets/settings_header.png){width=&quot;672px&quot;}
 
-Zie Een rapport [](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) aanpassen voor meer informatie.
+Zie [Een rapport aanpassen](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) voor meer informatie.
 
 ## Kalender {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -43,9 +47,9 @@ Geef de datum op door op de kalenderknop te klikken en een datumbereik te select
 
 ![](assets/calendar_large.png){width=&quot;672px&quot;}
 
-Zie [Een datum- of datumbereik](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) selecteren en Datums [vergelijken](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Zie [Een datum- of datumbereik selecteren](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) en [Vergelijkende datums](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
-## Type grafiek {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
+## Grafiektype {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
 Selecteer het type grafiek of grafiek dat u wilt zien:
 
@@ -59,9 +63,9 @@ Afhankelijk van het type grafiek dat u hebt geselecteerd, ziet u doorgaans de bo
 
 ![](assets/graph.png)
 
-Zie Rapporten [aanpassen.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
+Zie [Rapporten aanpassen.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
 
-## Metrisch {#section_8B8F9EC72B864E29B91039E7B7381EAD}
+## Cijfers {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
 Voeg metriek aan uw rapport toe. Beheerders kunnen standaardmetriek opgeven.
 
@@ -77,4 +81,4 @@ De details zijn het grootste deel van de rapportgegevens. In dit geval worden pa
 
 In de detaillijst, kunt u gegevens filtreren, onderbrekingen tot stand brengen, metriek toevoegen, en meer.
 
-Zie Rapporten [aanpassen.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
+Zie [Rapporten aanpassen.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
