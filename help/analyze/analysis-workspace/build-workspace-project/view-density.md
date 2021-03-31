@@ -1,8 +1,13 @@
 ---
 description: Leer hoe u de weergavedichtheid aanpast.
 title: Dichtheid weergeven
+feature: Basisprincipes van werkruimte
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
 
@@ -22,4 +27,4 @@ De weergavedichtheid instellen:
 
 1. Navigeer in Workspace naar **[!UICONTROL Projects]** > **[!UICONTROL Project Info and Settings]**.
 
-1. Selecteer een van de drie opties die hierboven zijn beschreven en klik op **[!UICONTROL Save]**.
+1. Selecteer een van de drie opties die hierboven worden beschreven en klik op **[!UICONTROL Save]**.
