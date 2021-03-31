@@ -2,10 +2,12 @@
 description: Vaak voorkomende problemen bij het gebruik van Report Builder met Power BI.
 title: Problemen met Power BI-integratie oplossen
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 3aae3b00db1d7f720641ed5ccbefd8acc03460e3
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '366'
 ht-degree: 2%
 
 ---
@@ -39,6 +41,6 @@ Hieronder vindt u een overzicht van de belangrijkste redenen waarom u onderbroke
 
 Een Microsoft Admin-controle laten uitvoeren van de instelling &quot;Gebruikers kunnen de toepassing registreren&quot; onder: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL User Settings allows options]**. Als deze optie is ingesteld op Nee, kan die beheerder deze typen toepassingen registreren.
 
-De gebruikers kunnen Toegang verlenen door de volgende [verbinding](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)te gebruiken.
+Gebruikers kunnen toegang verlenen door de volgende [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) te gebruiken.
 
-Admins verleende toegang voor elk door de volgende [verbinding](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)te gebruiken.
+Admins verleende toegang voor elk door de volgende [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) te gebruiken.
