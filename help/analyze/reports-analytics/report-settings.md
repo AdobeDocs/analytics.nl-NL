@@ -1,19 +1,22 @@
 ---
 description: Instellingen die bepalen hoe alle rapporten worden weergegeven en informatie die de standaardopties in het menu Vereenvoudigd op hun locatie afstemt.
-title: Weergave-instellingen en navigatie rapporteren
-topic: Reports,Reports and analytics
+title: Rapport Weergave-instellingen en navigatie
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1467'
+ht-degree: 7%
 
 ---
 
 
-# Weergave-instellingen en navigatie rapporteren
+# Rapport Weergave-instellingen en navigatie
 
 Instellingen die bepalen hoe alle rapporten worden weergegeven en informatie die de standaardmenuopties toewijst aan hun locatie in het vereenvoudigde menu.
 
-## Weergave-instellingen en navigatie rapporteren {#concept_09832A2CA0FF4982B1AA37C1B635220B}
+## Rapport Weergave-instellingen en navigatie {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]**
 
@@ -22,8 +25,8 @@ Instellingen die bepalen hoe alle rapporten worden weergegeven en informatie die
 | **Algemene instellingen** |  |
 | Gerelateerde metrieksectie opnemen | Verwante metriek is nauw verwant met het rapport dat u momenteel bekijkt (bijvoorbeeld de bovenste vijf pagina&#39;s in het rapport met paginaweergaven). |
 | Internetgemiddelde tonen in sectie Details | Drukt de gemiddelde waarde voor een gegeven statistiek uit, die over verscheidene duizenden bedrijfswebsites wordt genomen. Wanneer toegelaten, verschijnt deze sectie als afzonderlijke kolom in de de samenvatting van het rapport en secties van de rapportdetails. Deze eigenschap wordt gebruikt slechts door de verkeersrapporten in de technologiegroep, evenals de onderzoeksmotoren, de talen, en de domeinrapporten. |
-| De standaardmenustructuur van Adobe tonen | Negeert de montages in de Hulpmiddelen Admin, waar de beheerders rapportmenu&#39;s aanpassen om gebruikersvoorkeur te passen, terugkerend het rapportmenu aan standaardmontages. |
-| Kolombreedten afdwingen bij het weergeven van rapporten | Dwingt rapportkolombreedten tot een esthetisch aangename consistentie. Deze instelling is handig wanneer meer dan drie metriek worden weergegeven. |
+| Standaard-Adobe weergeven | Negeert de montages in de Hulpmiddelen Admin, waar de beheerders rapportmenu&#39;s aanpassen om gebruikersvoorkeur te passen, terugkerend het rapportmenu aan standaardmontages. |
+| Kolombreedten afdwingen bij het weergeven van rapporten | Dwingt rapportkolombreedten tot een esthetisch aangename consistentie. Deze instelling is handig wanneer meer dan drie maateenheden worden weergegeven. |
 | **Grafieken en grafieken** |  |
 | weekends markeren bij trendgrafieken | Hiermee markeert u de weekenddatums van trendrapportgrafieken verticaal. De tendenrapporten kunnen veel gemakkelijker zijn om te evalueren wanneer de weekends worden geïdentificeerd. |
 | Prognose opnemen in grafiek en overzicht | Hiermee wordt geschat in hoeverre een bepaalde statistiek zich in de toekomst zal voordoen. De voorspelling wordt weergegeven in de overzichtssectie van het rapport als deze optie is ingeschakeld. |
@@ -33,9 +36,9 @@ Instellingen die bepalen hoe alle rapporten worden weergegeven en informatie die
 | Gegevens &quot;Geen&quot;, &quot;Niet opgegeven&quot; en &quot;Getypte/bladwijzergegevens&quot; tonen in rapportgrafieken | Toont metriek waar geen waarde krediet voor gespecificeerde metrisch ontving. |
 | Meerdere regels tonen voor gerangschikte rapporten | Hiermee geeft u een sparkline weer in het veld Totalen van gerangschikte rapporten. Dit geeft een snel beeld van de algemene trend zonder een afzonderlijk verslag te genereren. |
 | **Versnelling** |  |
-| Schakel Rapportversnelling in om rapporten sneller weer te geven | Laat de rapportversneller toe, die een op tijd gebaseerd algoritme gebruikt om onlangs gevraagde rapporten in het voorgeheugen onder te brengen en onderzoekt slechts de meest vaak voorkomende unieke punten, resulterend in nog snellere levering van rapporten. Door gevraagde rapporten 15 minuten in cache te plaatsen, kan de rapportaccelerator die rapporten voor verdere verzoeken bijna onmiddellijk terugwinnen. Deze instelling is handig wanneer u heen en weer bladert, rapporten afdrukt of vaak toegang hebt tot dezelfde rapporten. Als deze optie is uitgeschakeld, worden rapporten telkens opnieuw gegenereerd wanneer deze worden opgevraagd. |
+| Schakel Rapportversnelling in om rapporten sneller weer te geven | Laat de rapportversneller toe, die een op tijd gebaseerd algoritme gebruikt om onlangs gevraagde rapporten in het voorgeheugen onder te brengen en onderzoekt slechts de meest vaak voorkomende unieke punten, resulterend in nog snellere levering van rapporten. Door gevraagde rapporten 15 minuten in cache te plaatsen, kan de rapportaccelerator die rapporten voor verdere verzoeken bijna onmiddellijk terugwinnen. Deze instelling is handig wanneer u heen en weer bladert, rapporten afdrukt of veelvuldig toegang hebt tot dezelfde rapporten. Als deze optie is uitgeschakeld, worden rapporten telkens opnieuw gegenereerd wanneer deze worden opgevraagd. |
 | De Dashboard Accelerator inschakelen en beschikbare cacheversies weergeven | Hiermee schakelt u de dashboardversneller in. Hiermee wordt een versie van het dashboard die in de cache is opgeslagen, opgeslagen, zodat deze later kan worden weergegeven. Door een weergave van het dashboard gedurende 24 uur in cache te plaatsen, kan de dashboardversneller die weergave bijna onmiddellijk ophalen, omdat de intensieve database die opvraagt en verwerkt, van tevoren wordt uitgevoerd. Als de beschikbare versie in de cache meer dan 24 uur oud is, wordt een nieuw dashboard gegenereerd en wordt een nieuwe versie in de cache gemaakt. Op dezelfde manier wordt er een nieuwe versie in de cache gemaakt wanneer u het dashboard bijwerkt (of een ander rapport dat op het dashboard wordt weergegeven). De cache is gebaseerd op gebruikers. Andere gebruikers die een gedeeld dashboard bekijken, zien een versie die op hun eigen gebruik van dashboardversneller en het bijwerken van het dashboard wordt gebaseerd. |
-| Netwerkversnelling inschakelen voor verbeterde rapportprestaties | Versnelt de levering van de gegevens naar uw locatie door het pad tussen de Adobe-infrastructuur en uw omgeving te optimaliseren. |
+| Netwerkversnelling inschakelen voor verbeterde rapportprestaties | Versnelt de levering van de gegevens aan uw plaats door de weg tussen de Adobe infrastructuur en uw milieu te optimaliseren. |
 | Regionale versnelling inschakelen voor een snellere gebruikerservaring in China | De regionale Versneller gebruikt regio-specifieke versnelde domeinen, om een snellere gebruikerservaring binnen een specifieke regio te verstrekken. Momenteel wordt regionale versnelling alleen ondersteund voor China. Als u deze functie inschakelt voor gebruikers die zich niet in China bevinden, gaat de gebruikerservaring langzamer. Nadat u regionale versnelling hebt ingeschakeld, moet u zich opnieuw aanmelden om de instelling te laten beïnvloeden. Schakel dit selectievakje uit als u de regionale versneller wilt uitschakelen. |
 | **Taal/valuta/codering** |  |
 | Scheidingsteken voor duizendtallen | Selecteer een scheidingsteken voor elke duizendtallen (decimaal of komma). Veel landen gebruiken een decimaal om het aantal duizenden te scheiden. (Dit scheidingsteken wordt toegepast op alle getallen in het systeem, niet alleen op de valuta.) |
@@ -56,8 +59,8 @@ Als u het standaardmenu gebruikt, kunt u in de volgende tabel gemakkelijker de m
 
 | Locatie in standaardmenu | Locatie in vereenvoudigd menu |
 |---|---|
-| **Sitegegevens** |  |  |
-|  | Overzicht van site | Metrisch > Site-overzicht |
+| **Sitecijfers** |  |  |
+|  | Siteoverzicht | Metrisch > Site-overzicht |
 |  | Belangrijkste cijfers | Metrisch > Belangrijke metriek |
 |  | Paginaweergaven | Metrisch > Paginaweergaven |
 |  | Bezoeken | Metrisch > Bezoeken |
@@ -65,14 +68,14 @@ Als u het standaardmenu gebruikt, kunt u in de volgende tabel gemakkelijker de m
 |  | Tijd besteed per bezoek | Metrisch > Tijd besteed per bezoek |
 |  | Tijd voorafgaand aan gebeurtenis | Conversie > Tijd voorafgaand aan gebeurtenis |
 |  | Aankopen | Metrisch > Aankopen |
-|  | Winkelwagentje | Metrisch > Winkelwagentje |
+|  | Winkelwagen | Metrisch > Winkelwagentje |
 |  | Aangepaste gebeurtenissen | Metrisch > Aangepaste gebeurtenissen |
 |  | Bots | Publiek > Bots |
-|  | Anomaly Detection | Metrisch > Anomaloog detecteren |
+|  | Anomaliedetectie | Metrisch > Anomaloog detecteren |
 |  | Real-time | Metriek > Real-Time |
-| **Site-inhoud** |  |  |
+| **Sitecontent** |  |  |
 |  | Pagina&#39;s | Inhoud > Pagina&#39;s |
-|  | Secties site | Inhoud > Sitesecties |
+|  | Sitesecties | Inhoud > Sitesecties |
 |  | Servers | Inhoud > Servers |
 |  | Koppelingen | Navigation > Aangepaste koppelingen; Navigation > Exit Links; Navigation > ClickMap; Navigation > Bestanden downloaden |
 |  | Pagina&#39;s niet gevonden | Navigation > Pagina&#39;s niet gevonden |
@@ -84,7 +87,7 @@ Als u het standaardmenu gebruikt, kunt u in de volgende tabel gemakkelijker de m
 |  | Schermhoogte | Publiek > Mobiel > Schermhoogte |
 |  | Schermbreedte | Publiek > Mobiel > Schermbreedte |
 |  | Cookie-ondersteuning | Publiek > Mobiel > Cookie-ondersteuning |
-|  | Ondersteuning van afbeeldingen | Publiek > Mobiel > Afbeeldingsondersteuning |
+|  | Afbeeldingsondersteuning | Publiek > Mobiel > Afbeeldingsondersteuning |
 |  | Kleurdiepte | Publiek > Mobiel > Kleurdiepte |
 |  | Audioondersteuning | Publiek > Mobiel > Audioondersteuning |
 |  | Video-ondersteuning | Publiek > Mobiel > Video-ondersteuning |
@@ -100,30 +103,30 @@ Als u het standaardmenu gebruikt, kunt u in de volgende tabel gemakkelijker de m
 |  | Zoekmotoren - Betaald | Verkeersbronnen > Zoekmotoren - Betaald |
 |  | Zoekprogramma&#39;s - Natuurlijk | Verkeersbronnen > Zoekmotoren - Natuurlijk |
 |  | Alle zoekpaginabereiken | Verkeersbronnen > Alle zoekpaginabereiken |
-|  | Refererende domeinen | Verkeersbronnen > Refererende domeinen |
+|  | Verwijzende domeinen | Verkeersbronnen > Refererende domeinen |
 |  | Oorspronkelijke verwijzende domeinen | Verkeersbronnen > Oorspronkelijke referentiedomeinen |
-|  | Referenties | Verkeersbronnen > Referenties |
+|  | Referrers | Verkeersbronnen > Referenties |
 |  | Typen referentie | Verkeersbronnen > Referertypen |
 | **Campagnes** |  |  |
-|  | Kampeerconversietrechter | Verkeersbronnen > Campagne > Kanaal voor conversie van campagne |
+|  | Campagneconversiefunnel | Verkeersbronnen > Campagne > Kanaal voor conversie van campagne |
 |  | Trackingcode | Verkeersbronnen > Campagnes > Code bijhouden |
 | **Producten** |  |  |
-|  | Producten conversietrechter | Conversie > Products > Products Conversion Funnel |
+|  | Conversiefunnel producten | Conversie > Products > Products Conversion Funnel |
 |  | Producten | Conversie > Producten > Producten |
 |  | Crossverkoop | Conversie > Producten > Crosssell |
 |  | Categorieën | Conversie > Producten > Categorieën |
-| **Bezoeker retentie** |  |  |
-|  | Geretourneerde frequentie | Publiek > Bezoekersbewaring > Retourfrequentie |
-|  | Retourbezoeken | Publiek > Bezoekersbewaring > Bezoekersbezoeken |
+| **Bezoekersbehoud** |  |  |
+|  | Retourfrequentie | Publiek > Bezoekersbewaring > Retourfrequentie |
+|  | Terugkerende bezoeken | Publiek > Bezoekersbewaring > Bezoekersbezoeken |
 |  | Dagelijkse terugkeerbezoeken | Publiek > Bezoekersbewaring > Dagelijkse terugkeerbezoeken |
-|  | Bezoek nummer | Publiek > Bezoekersbewaring > Bezoek nummer |
+|  | Bezoeknummer | Publiek > Bezoekersbewaring > Bezoek nummer |
 |  | Verkoopcyclus | Publiek > Bezoekersbewaring > Verkoopcyclus |
-| **Bezoekerprofiel** |  |  |
+| **Bezoekersprofiel** |  |  |
 |  | GeoSegmentation | Publiek > Bezoekersprofiel > GeoSegmentation |
 |  | Talen | Publiek > Bezoekersprofiel > Talen |
 |  | Tijdzones | Publiek > Bezoekersprofiel > Tijdzones |
 |  | Domeinen | Publiek > Bezoekersprofiel > Domeinen |
-|  | Domeinen op hoofdniveau | Publiek > Bezoekersprofiel > Domeinen op hoofdniveau |
+|  | Domeinen op hoogste niveau | Publiek > Bezoekersprofiel > Domeinen op hoofdniveau |
 |  | Technologie | Publiek > Bezoekersprofiel > Technologie |
 |  | Bezoekende staat | Publiek > Bezoekersprofiel > Bezoekersstatus |
 |  | Postcode bezoeker | Publiek > Bezoekersprofiel > Postcode bezoeker |
