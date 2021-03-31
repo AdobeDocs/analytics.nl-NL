@@ -1,23 +1,27 @@
 ---
-description: Veelgestelde vragen over het volgen van koppelingen in de Kaart van de Activiteit.
-title: Veelgestelde vragen over het bijhouden van koppelingen
-topic: Activity map
+description: Veelgestelde vragen over het volgen van koppelingen in Activity Map.
+title: Veelgestelde vragen over link tracking
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 1%
 
 ---
 
 
-# Veelgestelde vragen over het bijhouden van koppelingen
+# Veelgestelde vragen over link tracking
 
-Veelgestelde vragen over het volgen van koppelingen in de Kaart van de Activiteit.
+Veelgestelde vragen over het volgen van koppelingen in Activity Map.
 
 >[!CAUTION]
 >
->Door Activiteitenkaarten bijhouden in te schakelen, verzamelt **u mogelijk PII-gegevens (Personal Identified Information).** Deze gegevens kunnen op zichzelf of met andere informatie worden gebruikt om één persoon te identificeren, contact op te nemen of te vinden, of om een persoon in context te identificeren.
+>Als u het bijhouden van Activity Mappen inschakelt, **verzamelt u mogelijk PII-gegevens (Persoonlijk identificeerbare gegevens).** Deze gegevens kunnen op zichzelf of met andere informatie worden gebruikt om één persoon te identificeren, contact op te nemen of te vinden, of om een persoon in context te identificeren.
 
-Hier zijn een aantal bekende gevallen waarin PII-gegevens kunnen worden verzameld met behulp van Activiteitenkaarten bijhouden:
+Hier zijn enkele bekende gevallen waarin PII-gegevens kunnen worden verzameld met behulp van Activity Map bijhouden:
 
 * `Mailto` koppelingen. Een mailto-koppeling is een type HTML-koppeling waarmee de standaardmailclient op de computer wordt geactiveerd voor het verzenden van een e-mail.
 * `User ID` koppelingen die worden weergegeven in de kop- of voettekst van een website nadat de gebruiker zich heeft aangemeld.
@@ -28,7 +32,7 @@ Hier zijn een aantal bekende gevallen waarin PII-gegevens kunnen worden verzamel
  <tbody> 
   <tr> 
    <td colname="col1"> <b>V: Wanneer vindt het bijhouden van koppelingen plaats?</b> <p> </p> </td> 
-   <td colname="col2"> A: De koppeling Activiteitenkaart en regio-identificatie vinden plaats wanneer gebruikers op een pagina klikken. </td> 
+   <td colname="col2"> A: Koppeling naar Activity Map en regio-identificatie treedt op wanneer gebruikers op een pagina klikken. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>V: Wat wordt standaard bijgehouden?</b> <p> </p> </td> 
@@ -39,20 +43,20 @@ Hier zijn een aantal bekende gevallen waarin PII-gegevens kunnen worden verzamel
      <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">Is dit een INPUT-tag of een SUBMIT-knop met een waarde of onderliggende tekst? </li> 
      <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">Is dit een INPUT-tag met het type IMAGE en een src-eigenschap? </li> 
      <li id="li_F34A0C986E8040109A1DDF88C26E56D5">Is dit een &lt;Button&gt;? </li> 
-    </ul> <p>Als het antwoord <b>ja</b> op om het even welke bovenstaande vragen is, dan wordt het element behandeld als verbinding en zal worden gevolgd. </p> <p>Belangrijk:  Knoplabels met het kenmerktype="button" worden door AppMeasurement niet als koppelingen beschouwd. U kunt in plaats hiervan ‘type='button'' op de knoptags verwijderen en rol="button" of submit="button" toevoegen. </p> <p>Belangrijk: Een ankertag met een href die begint met "#" wordt door AppMeasurement beschouwd als een interne doellocatie, niet als een koppeling (omdat u de pagina niet verlaat). Door gebrek, volgt de Kaart van de Activiteit deze interne doelplaatsen niet. Er worden alleen koppelingen bijgehouden waarmee de gebruiker naar een nieuwe pagina navigeert.</p></td> 
+    </ul> <p>Als het antwoord <b>Ja</b> op om het even welke bovenstaande vragen is, dan wordt het element behandeld als verbinding en zal worden gevolgd. </p> <p>Belangrijk:  Knoplabels met het kenmerktype="button" worden door AppMeasurement niet als koppelingen beschouwd. U kunt in plaats hiervan ‘type='button'' op de knoptags verwijderen en rol="button" of submit="button" toevoegen. </p> <p>Belangrijk: Een ankertag met een href die begint met "#" wordt door AppMeasurement beschouwd als een interne doellocatie, niet als een koppeling (omdat u de pagina niet verlaat). Standaard houdt Activity Map deze interne doellocaties niet bij. Er worden alleen koppelingen bijgehouden waarmee de gebruiker naar een nieuwe pagina navigeert.</p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>V: Hoe volgt Activity Map andere visuele HTML-elementen?</b> </td> 
+   <td colname="col1"> <b>V: Hoe houdt Activity Map andere visuele HTML-elementen bij?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via de <code> s.tl() </code> functie</b> <p>Als de klik via een s.tl- aanroeping voorkwam, dan zal de Kaart van de Activiteit deze klikgebeurtenis ook ontvangen en zal bepalen als een linkName koordvariabele werd gevonden. Tijdens uitvoering s.tl, zal dat linkName als identiteitskaart van de Verbinding van de Kaart van de Activiteit worden geplaatst. Het aangeklikte element dat de aanroep s.tl() heeft veroorzaakt, wordt gebruikt om het gebied te bepalen. Voorbeeld: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via de  <code> s.tl() </code> functie</b> <p>Als de klik via een s.tl- aanroeping voorkwam, dan zal de Activity Map ook deze klikgebeurtenis ontvangen en zal bepalen als een linkName koordvariabele werd gevonden. Tijdens uitvoering s.tl, zal dat linkName als identiteitskaart van de Verbinding van de Activity Map worden geplaatst. Het aangeklikte element dat de aanroep s.tl() heeft veroorzaakt, wordt gebruikt om het gebied te bepalen. Voorbeeld: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Via de <code> s_objectID </code> variabele</b> <p>Voorbeeld: </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Via de  <code> s_objectID </code> variabele</b> <p>Voorbeeld: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
-       </code> </p> <p>Belangrijk:  Merk op dat een volgpuntkomma (;) wordt vereist wanneer het gebruiken van s_objectID in de Kaart van de Activiteit. </p> </li> 
+       </code> </p> <p>Belangrijk:  Een volgpuntkomma (;) is vereist wanneer s_objectID in Activity Map wordt gebruikt. </p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -85,16 +89,20 @@ Hier zijn een aantal bekende gevallen waarin PII-gegevens kunnen worden verzamel
    <td colname="col1"> <b>V: Kunt u mij enkele voorbeelden geven van koppelingen die NIET worden bijgehouden?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547"> 
-     <li id="li_99372060646B43EF94C13A9C682CE693">Reden: Ankertag heeft geen geldige href <code>
+     <li id="li_99372060646B43EF94C13A9C682CE693">Reden: Ankertag heeft geen geldige href 
+      <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
-     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Reden: Geen <code> s_ObjectID </code> noch <code> s.tl() </code> aanwezig <code>
+     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Reden: Geen <code> s_ObjectID </code> noch <code> s.tl() </code> aanwezig 
+      <code>
         &lt;p&nbsp;onclick="showPanel('market&nbsp;rates')"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/p&gt;
       </code> </li> 
-     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Reden: Geen <code> s_ObjectID </code> noch <code> s.tl() </code> aanwezig <code>
+     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Reden: Geen <code> s_ObjectID </code> noch <code> s.tl() </code> aanwezig 
+      <code>
         &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="A"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="B"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="C"/&gt;
       </code> </li> 
-     <li id="li_9EBFCC58F3A94F30BA62156F14B15D55">Reden: in de eigenschap src ontbreekt een formulierinvoerelement <code>
+     <li id="li_9EBFCC58F3A94F30BA62156F14B15D55">Reden: in de eigenschap src ontbreekt een formulierinvoerelement 
+      <code>
         &lt;input&amp;nbsp;type="image"/&gt; 
       </code> </li> 
     </ol> </td> 
