@@ -2,11 +2,13 @@
 description: Video over paginering, filteren en sorteren.
 title: Pagineren, filteren en tabellen sorteren
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
+feature: Vrije-vormtabellen
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 39%
+source-wordcount: '101'
+ht-degree: 37%
 
 ---
 
