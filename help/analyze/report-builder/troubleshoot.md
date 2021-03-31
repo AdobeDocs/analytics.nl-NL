@@ -1,12 +1,13 @@
 ---
 description: Manieren om Report Builder-resultaten te optimaliseren en een lijst met foutberichten die af en toe kunnen optreden.
 title: Problemen oplossen en best practices voor Report Builder
-topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1383'
 ht-degree: 80%
 
 ---
@@ -75,14 +76,14 @@ Een lijst met foutberichten die soms kunnen optreden wanneer u Report Builder ge
 >Dit is slechts een selectie van foutberichten, geen volledige lijst. Neem contact op met de beheerder voor meer informatie over het oplossen van fouten.
 
 * **Deze eigenschap kan alleen op een geopende werkmap worden toegepast.**: Als er geen werkmappen (spreadsheetdocumenten) in Excel zijn geopend, en u op een van de pictogrammen in de Report Builder-werkbalk klikt, wordt dit bericht weergegeven. Daarnaast wordt de werkbalk uitgeschakeld totdat u een spreadsheet opent. U kunt echter op het online Help-pictogram klikken terwijl de werkbalk nog is ingeschakeld zonder dat deze fout optreedt.
-* **U moet eerst de [!UICONTROL Request Wizard] afsluiten voordat u [!UICONTROL Request Manager] activeert.**: Terwijl de [!UICONTROL Request Manager] en de [!UICONTROL Request Wizard] zijn functioneel verbonden, is het niet mogelijk om met het te werken [!UICONTROL Request Manager] alvorens acties te voltooien of te annuleren die in de [!UICONTROL Request Wizard].
+* **U moet eerst de [!UICONTROL Request Wizard] afsluiten voordat u [!UICONTROL Request Manager] activeert.**: Terwijl de  [!UICONTROL Request Manager] en de  [!UICONTROL Request Wizard] zijn functioneel verbonden, is het niet mogelijk om met het te werken  [!UICONTROL Request Manager] alvorens acties te voltooien of te annuleren in  [!UICONTROL Request Wizard].
 * **Er is geen aanvraag aan dit bereik gekoppeld.**: Dit foutbericht treedt op als u op de knop [!UICONTROL From Sheet] in [!UICONTROL Request Manager] klikt wanneer een cel van de spreadsheet geen aanvragen bevat. Als u wilt identificeren welke cellen in de spreadsheet aanvragen bevatten, klikt u op individuele aanvragen die worden vermeld in de tabel in [!UICONTROL Request Manager]. Als een aanvraag is gekoppeld aan cellen, worden de cellen gemarkeerd getoond wanneer de aanvraag in de tabel wordt geselecteerd.
 * **Het geselecteerde bereik is ongeldig. Selecteer een ander bereik.**: Als een cel in de spreadsheet wordt geselecteerd terwijl er al een aanvraag aan is toegewezen, treedt deze fout op. Verwijder de aanvraag die aan de cellen is toegewezen of kies een andere reeks cellen voor toewijzing. Wanneer u cellen wilt verwijderen, is het belangrijk dat u cellen met aanvragen zoekt en de aanvragen verwijdert voordat u de cellen verwijdert (rijen of kolommen verwijdert).
 * **Sluit de gemarkeerde Excel-cel af voordat u deze functie gebruikt.**: Als u in een Excel-cel staat in *bewerkingsmodus* en op een van de pictogrammen van Report Builder klikt, verschijnt dit foutbericht. De bewerkingsmodus in een Excel-cel betekent dat de cel is geselecteerd en de cursor in de cel wordt weergegeven. U bent ook in bewerkingsmodus in een Excel-cel wanneer u direct in de [!UICONTROL Formula]-balk of in de [!UICONTROL Name Box] boven in Excel typt.
 * **Het geselecteerde bereik doorsnijdt het bereik van een andere aanvraag. Wijzig de selectie.**: Als u al een set cellen aan de spreadsheet hebt toegewezen, wordt deze fout weergegeven.
-* **Herstelt aan werkboek (Verwijderde Verslagen: Formule van /xl/calcChain.xml)**: Soms worden de formules van een werkboek bedorven wanneer het bewaren of het overbrengen. Wanneer het dossier wordt geopend, probeert Excel om deze formules in werking te stellen en ontbreekt. U kunt dit probleem verhelpen door Excel uit het spreadsheet te verwijderen, zodat de formule-berekeningen van Excel moeten worden vernieuwd. `calcChain.xml`
-   1. Wijzig de naam van de bestandsextensie van het werkboek van `.xlsx` naar `.zip`.
-   2. Pak de inhoud uit en open de `/xl/` map.
+* **Herstelt aan werkboek (Verwijderde Verslagen: Formule van /xl/calcChain.xml)**: Soms worden de formules van een werkboek bedorven wanneer het bewaren of het overbrengen. Wanneer het dossier wordt geopend, probeert Excel om deze formules in werking te stellen en ontbreekt. U kunt dit probleem oplossen door `calcChain.xml` uit het spreadsheet te verwijderen, dwingend Excel om zijn formules berekeningen te vernieuwen.
+   1. Wijzig de naam van de bestandsextensie van het werkboek van `.xlsx` in `.zip`.
+   2. Pak de inhoud uit en open de map `/xl/`.
    3. Verwijderen `calcChain.xml`.
    4. Comprimeer de inhoud opnieuw en wijzig de bestandsextensie weer in `.xlsx`.
    5. Open het werkboek in Excel en vernieuw alle verzoeken van Report Builder.
