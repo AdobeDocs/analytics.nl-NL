@@ -2,12 +2,13 @@
 description: Met de optie Huidige gegevens opnemen in rapporten en analyses kunt u de meest recente analysegegevens weergeven, vaak voordat de gegevens volledig worden verwerkt en voltooid. Met de huidige gegevens worden de meeste meetgegevens binnen enkele minuten weergegeven, zodat u over actiemotionele gegevens beschikt voor snelle besluitvorming.
 subtopic: Current Data
 title: Huidige data
-topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
+feature: Grondbeginselen van rapporten en analyses
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '572'
 ht-degree: 1%
 
 ---
