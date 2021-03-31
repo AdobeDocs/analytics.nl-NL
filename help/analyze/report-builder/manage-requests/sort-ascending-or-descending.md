@@ -1,10 +1,14 @@
 ---
 description: U kunt de verzoeken die in de Manager van het Verzoek worden vermeld in stijgende of dalende orde sorteren.
 title: Oplopend of aflopend sorteren
-topic: Report builder
 uuid: 81199890-c183-4e42-a343-dc33a9e9ed46
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 9%
 
 ---
 
