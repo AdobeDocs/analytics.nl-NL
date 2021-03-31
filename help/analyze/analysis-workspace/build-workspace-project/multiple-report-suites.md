@@ -1,10 +1,12 @@
 ---
 title: Meerdere rapportsuites
 description: Leer hoe en waarom u projecten maakt in Workspace met meerdere rapportsuite
+feature: Basisprincipes van werkruimte
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -22,7 +24,7 @@ Deze mogelijkheid is handig als u bijvoorbeeld
 
 ## Rapportsuite toepassen op alle deelvensters
 
-U kunt een rapportsuite op alle deelvensters tegelijk toepassen door met de rechtermuisknop op de koptekst van een deelvenster te klikken en te selecteren **[!UICONTROL Apply Report Suite to All Panels]**.
+U kunt een rapportsuite op alle deelvensters tegelijk toepassen door met de rechtermuisknop op de koptekst van een deelvenster te klikken en **[!UICONTROL Apply Report Suite to All Panels]** te selecteren.
 
 ![](assets/apply-rs-all-panels.png)
 
@@ -66,4 +68,4 @@ Met deze functie introduceren we het concept &quot;actief panel&quot; in plaats 
 
    * Waar wordt een segment gemaakt: [Segment Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
    * Wanneer een berekende metrische waarde wordt gecreëerd: [Berekende metrische bouwer](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * Wanneer een waarschuwing wordt opgesteld: [Alert Builder](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
+   * Wanneer een waarschuwing wordt opgesteld: [Waarschuwing Builder](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
