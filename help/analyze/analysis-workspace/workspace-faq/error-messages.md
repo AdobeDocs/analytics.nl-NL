@@ -1,10 +1,12 @@
 ---
 description: Lijst met foutberichten in Adobe Analysis Workspace en de bijbehorende componenten
 title: Algemene foutberichten in Analysis Workspace
+feature: Basisprincipes van werkruimte
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 5514e98703442fa68c8f19edce07fb3f2c74b874
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
