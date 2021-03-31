@@ -2,7 +2,7 @@
 title: Verwerkingsregels voor marketingkanalen
 description: De de verwerkingsregels van het Kanaal van de marketing bepalen als een bezoeker voldoet aan de criteria die aan een kanaal worden toegewezen. De regels verwerken elke hit die een bezoeker op uw site aanbrengt. Wanneer een regel niet aan de criteria voor een kanaal voldoet, of als de regels niet correct worden gevormd, wijst het systeem de slag aan Geen Geïdentificeerd Kanaal toe.
 translation-type: tm+mt
-source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
 source-wordcount: '2091'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Regels voor de verwerking van marketingkanalen bepalen of een bezoeker voldoet a
 ![](assets/buckets_2.png)
 
 Aanvullende opmerkingen over verwerking:
-* De gegevens die met deze regels worden verzameld, zijn 100% permanent en regels die worden gewijzigd nadat gegevens zijn verzameld, zijn niet met terugwerkende kracht. Het wordt ten zeerste aanbevolen alle omstandigheden te evalueren en in overweging te nemen voordat u gegevens opslaat [!UICONTROL Marketing Channel Processing Rules] om te voorkomen dat gegevens op onjuiste kanalen worden verzameld.
+* De gegevens die met deze regels worden verzameld, zijn 100% permanent en regels die worden gewijzigd nadat gegevens zijn verzameld, zijn niet met terugwerkende kracht. Het wordt ten zeerste aanbevolen alle omstandigheden te evalueren en in overweging te nemen voordat u [!UICONTROL Marketing Channel Processing Rules] opslaat om te voorkomen dat gegevens die op onjuiste kanalen worden verzameld, worden verzameld.
 * Het rapport kan tot 25 kanalen tegelijkertijd verwerken.
 * De regels kunnen tot variabelen toegang hebben die VISTA heeft geplaatst, maar kunnen tot geen gegevens toegang hebben die VISTA heeft geschrapt.
 * Twee marketingkanalen krijgen nooit krediet voor dezelfde gebeurtenis (zoals aankopen of klikken). Op deze manier verschillen de afzetkanalen van eVars (waar twee eVars kredieten voor dezelfde gebeurtenis kunnen ontvangen).
@@ -25,7 +25,7 @@ Aanvullende opmerkingen over verwerking:
 
 ## Vereisten
 
-* Herzie de conceptuele informatie in Aan de [slag met de Kanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md)van de Marketing.
+* Herzie de conceptuele informatie in [Aan de slag met de Kanalen van de Marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Maak een of meer kanalen zodat u er regels aan kunt toewijzen. Zie [Markeringskanalen toevoegen.](/help/components/c-marketing-channels/c-channels.md)
 
 ## Verwerkingsregels voor marketingkanalen maken
@@ -35,15 +35,15 @@ Maak verwerkingsregels voor marketingkanalen die bepalen of een bezoeker voldoet
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 2. Een rapportsuite selecteren.
 
-   Als er in uw rapportsuite geen kanalen zijn gedefinieerd, wordt de [!UICONTROL Marketing Channels: Auto Setup] pagina weergegeven.
+   Als er in uw rapportsuite geen kanalen zijn gedefinieerd, wordt de pagina [!UICONTROL Marketing Channels: Auto Setup] weergegeven.
 
-   Zie Automatische installatie [uitvoeren](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Zie [Automatische installatie uitvoeren](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 3. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**. Als u de automatische opstelling in werking stelde, werden een reeks kanaal en regels automatisch bepaald voor u.
 
    ![Stap Resultaat](assets/marketing_channel_rules.png)
 
-4. Als u een nieuwe regel wilt toevoegen, selecteert u deze in het **[!UICONTROL Add New Rule Set]** menu. Als u een kanaal selecteert, krijgt u een regelmalplaatje en als u Douane selecteert, begint u van een lege plaats. Met beide opties kunt u de regelset naar wens wijzigen.
+4. Als u een nieuwe regel wilt toevoegen, selecteert u een regel in het menu **[!UICONTROL Add New Rule Set]**. Als u een kanaal selecteert, krijgt u een regelmalplaatje en als u Douane selecteert, begint u van een lege plaats. Met beide opties kunt u de regelset naar wens wijzigen.
 
    ![Stap Resultaat](assets/example_email.png)
 
@@ -65,7 +65,7 @@ Deze referentietabel definieert de velden, opties en raakkenmerken die u kunt ge
 
 >[!NOTE]
 >
->Elk tekstveld dat u definieert, zoals een querytekenreeksparameter of een lijst met waarden die u wilt gebruiken, wordt geëvalueerd als **hoofdlettergevoelige** waarden. Bijvoorbeeld, als u een regel hebt waar de parameter cmp van het vraagkoord = abc123, zullen alle versies van zowel &quot;cmp&quot;als &quot;abc123&quot;de regel aanpassen. U hoeft geen meervoudige hoofdletterversies van deze waarden op te geven.
+>Elk tekstveld dat u definieert, zoals een querytekenreeksparameter of lijsten met waarden die met elkaar moeten worden vergeleken, worden geëvalueerd als **niet-hoofdlettergevoelig**-waarden. Bijvoorbeeld, als u een regel hebt waar de parameter cmp van het vraagkoord = abc123, zullen alle versies van zowel &quot;cmp&quot;als &quot;abc123&quot;de regel aanpassen. U hoeft geen meervoudige hoofdletterversies van deze waarden op te geven.
 
 | Term | Definitie |
 |--- |--- |
@@ -75,7 +75,7 @@ Deze referentietabel definieert de velden, opties en raakkenmerken die u kunt ge
 | AMO ID | De code voor secundaire tracering die door Advertising Cloud wordt gebruikt. Het belangrijkste doel van deze volgcode is als sleutel te dienen voor het terugsturen van gegevens naar Ad Cloud. Het kan echter ook worden gebruikt om vertoning ClickThroughs vs. display ViewThroughs te identificeren als u deze als twee afzonderlijke marketing kanalen wilt zien. Dit kan worden gedaan door de logica van het marketingkanaal voor &quot;AMO EF ID&quot;einden met &quot;:d&quot;voor Display ClickThroughs of &quot;AMO EF ID&quot;einden met &quot;:i&quot;voor Display ViewThroughs te plaatsen. Als u Weergave niet in twee kanalen wilt splitsen, gebruikt u in plaats daarvan de dimensie AMO-id. |
 | Conversievariabelen | Bestaat uit eVars die voor deze rapportsuite zijn ingeschakeld en alleen van toepassing zijn wanneer deze variabelen via de Adobe-code op de pagina zijn ingesteld.  Zie de Implementatiegids. |
 | Exists | Er zijn verschillende selecties beschikbaar, waaronder:<ul><li>**Bestaat niet**: Geeft op dat het kenmerk hit niet bestaat in de aanvraag. Als de gebruiker bijvoorbeeld in een verwijzend domein een URL typt of op een bladwijzer klikt, bestaat het kenmerk van het verwijzende domein niet.</li><li>**Is leeg**: Geeft op dat er een hit-kenmerk bestaat, meestal een eVar- of querytekenreeksparameter, maar dat er geen waarde aan het raakkenmerk is gekoppeld.</li><li>**Bevat** niet: Hier kunt u bijvoorbeeld opgeven dat een verwijzend domein geen specifieke waarde bevat (in tegenstelling tot het gebruik van de selectie &quot;Bevat&quot;.)</li></ul> |
-| Het kanaal identificeren als | Koppelt de regel aan een marketingkanaal dat u aan de pagina Kanaalbeheer voor marketing hebt toegevoegd.  Zie Marketingkanalen toevoegen. |
+| Het kanaal identificeren als | Koppelt de regel aan een marketingkanaal dat u aan de pagina Kanaalbeheer voor marketingdoeleinden hebt toegevoegd.  Zie Marketingkanalen toevoegen. |
 | Komt overeen met regels voor betaalde zoekdetectie | Een betaalde zoekopdracht gevonden door Adobe. Betaalde zoekopdrachten worden uitgevoerd wanneer bedrijven kosten betalen voor de zoekfunctie om hun site te kunnen aanbieden. Betaalde zoekopdrachten worden meestal boven of rechts in de zoekresultaten weergegeven. |
 | Overeenkomsten met de regels voor natuurlijke zoekdetectie | Een niet-betaalde zoekopdracht aangetroffen door Adobe-rapportage. |
 | Referrer komt overeen met interne URL-filters | Een bezoek de waarvan pagina URL een intern filter URL aanpast, zoals die voor de rapportreeks in Hulpmiddelen Admin wordt bepaald. |
@@ -84,14 +84,14 @@ Deze referentietabel definieert de velden, opties en raakkenmerken die u kunt ge
 | Is de eerste bezoekpagina | De eerste pagina van een bezoek die wordt gedetecteerd door Adobe-rapportage. |
 | Pagina | De paginanaam van een pagina op uw site die is gecodeerd met Adobe van een weboenbaken. Deze waarde is gelijk aan s.pageName. Voorbeelden zijn `Home Page` en `About Us`. |
 | Paginadomein | Het domein van de pagina waarop de bezoeker landt, zoals `products.example.co.uk`. |
-| Paginadomein en pad | Het domein en pad, zoals `products.example.co.uk/mens/pants/overview.html` . |
+| Paginadomein en pad | Het domein en pad, zoals `products.example.co.uk/mens/pants/overview.html`. |
 | Hoofddomein van pagina (TLD+1) | Het hoofddomein van de pagina waarop de bezoeker landt, zoals example.co.uk. |
 | Pagina-URL | De URL van een webpagina op uw site. |
-| Referentiedomein | Het domein waar uw bezoekers vandaan kwamen voordat ze uw site bezochten, bijvoorbeeld verwijzingen die afkomstig waren van `abcsite.com` versus `xyzsite.com`. |
-| Parameter querytekenreeks | Als een pagina-URL op uw site er zo uitziet `https://example.com/?page=12345&cat=1`, zijn &#39;page&#39; en &#39;cat&#39; beide parameters voor de queryreeks. (Zie `https://en.wikipedia.org/wiki/Query_string`.)  U kunt slechts één parameter van het vraagkoord per regelreeks specificeren. Om extra parameters van het vraagkoord toe te voegen, gebruik `ANY` als uw exploitant, dan voeg nieuwe parameters van het vraagkoord aan de regel toe. Parameters van queryreeksen worden als hoofdlettergevoelig geëvalueerd; Zo zullen &quot;cat&quot; en &quot;CAT&quot; op dezelfde manier worden beoordeeld. |
+| Referentiedomein | Het domein waar uw bezoekers vandaan kwamen voordat ze uw site bezochten, bijvoorbeeld referentienummers die afkomstig zijn van `abcsite.com` versus `xyzsite.com`. |
+| Parameter querytekenreeks | Als een pagina-URL op uw site er `https://example.com/?page=12345&cat=1` uitziet, zijn &#39;page&#39; en &#39;cat&#39; beide parameters voor de queryreeks. (Zie `https://en.wikipedia.org/wiki/Query_string`.)  U kunt slechts één parameter van het vraagkoord per regelreeks specificeren. Om extra parameters van het vraagkoord toe te voegen, gebruik `ANY` als uw exploitant, dan voeg nieuwe parameters van het vraagkoord aan de regel toe. Parameters van queryreeksen worden als hoofdlettergevoelig geëvalueerd; Zo zullen &quot;cat&quot; en &quot;CAT&quot; op dezelfde manier worden beoordeeld. |
 | Referrer | De locatie van de webpagina (volledige URL) waar uw bezoekers zich bevonden voordat ze naar uw site kwamen. Er bestaat een verwijzing buiten het gedefinieerde domein. |
 | Refererend Domein en Weg | Een aaneenschakeling van het Verwijzende Domein en weg URL. Voorbeelden zijn:    `www.example.com/products/id/12345` of `ad.example.com/foo` |
-| Verwijzen naar parameter | Een parameter van het vraagkoord op referentie URL. Als uw bezoekers bijvoorbeeld uit `example.com/?page=12345&cat=1`komen, zijn pagina en kat de verwijzende parameters. |
+| Verwijzen naar parameter | Een parameter van het vraagkoord op referentie URL. Als uw bezoekers bijvoorbeeld uit `example.com/?page=12345&cat=1` komen, zijn pagina en kat de verwijzende parameters. |
 | Refererend hoofddomein | Het hoofddomein van de referentie. Er bestaat een verwijzing buiten het gedefinieerde domein. |
 | Zoekmachine | Een zoekmachine zoals Google of Yahoo! die bezoekers naar uw site bracht. |
 | Trefwoorden zoeken | Een woord dat wordt gebruikt om een zoekopdracht uit te voeren met een zoekmachine. |
@@ -112,23 +112,23 @@ Betaalde zoekopdracht is een woord of uitdrukking dat u betaalt voor plaatsing i
 
 Om de betaalde regels van de onderzoeksopsporing aan te passen, gebruikt het marketing kanaal montages die op de [!UICONTROL Paid Search Detection] pagina worden gevormd. ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). De doel-URL komt overeen met de bestaande regel voor betaalde zoekdetectie voor dat zoekprogramma.
 
-Voor de marketingkanaalregel zijn de [!UICONTROL Paid Search] instellingen als volgt:
+Voor de marketingkanaalregel zijn de [!UICONTROL Paid Search]-instellingen als volgt:
 
 ![](assets/example_paid_search.png)
 
-Zie Detectie [van betaald zoeken](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin voor meer informatie.
+Zie [Betaalde opsporing van het Onderzoek](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin voor meer informatie.
 
 ### Natuurlijk zoeken {#natural-search}
 
 Een natuurlijk onderzoek komt voor wanneer de bezoekers uw website door een onderzoek van het Web vinden, waar het onderzoeksmotor uw plaats zonder u voor de lijst te betalen rangschikte.
 
-Er is geen natuurlijke onderzoeksopsporing in Analytics. Nadat u de Detectie van het Gesteunde Onderzoek hebt ingesteld, weet het systeem dat als een onderzoeksverwijzer geen betaalde onderzoeksverwijzer was, het een natuurlijke onderzoeksverwijzer moet zijn. Zie Detectie [van](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) betaalde zoekopdrachten in Beheer voor meer informatie.
+Er is geen natuurlijke onderzoeksopsporing in Analytics. Nadat u de Detectie van het Gesteunde Onderzoek hebt ingesteld, weet het systeem dat als een onderzoeksverwijzer geen betaalde onderzoeksverwijzer was, het een natuurlijke onderzoeksverwijzer moet zijn. Zie [Betaalde opsporing van het Onderzoek](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin voor meer informatie.
 
 Voor de regel voor marketingkanalen gelden de volgende instellingen voor Natuurlijk zoeken:
 
 ![](assets/example_natural_search.png)
 
-### Weergave {#display}
+### {#display} weergeven
 
 Deze regel identificeert bezoekers die afkomstig zijn van banneradvertenties. Het wordt geïdentificeerd door een parameter van het vraagkoord in de bestemmingsURL, in dit geval *`Ad_01`*. De de koordparameter van de vraag en de waarden het zoekt worden geëvalueerd als case-insensitive waarden.
 
@@ -136,13 +136,13 @@ Deze regel identificeert bezoekers die afkomstig zijn van banneradvertenties. He
 
 ### E-mail {#email}
 
-Deze regel identificeert bezoekers die afkomstig zijn van e-mailcampagnes. Deze wordt in dit geval geïdentificeerd door een parameter voor een querytekenreeks in de doel-URL *`eml`*:
+Deze regel identificeert bezoekers die afkomstig zijn van e-mailcampagnes. Het wordt geïdentificeerd door een parameter van het vraagkoord in de bestemmingsURL, in dit geval *`eml`*:
 
 ![](assets/example_email.png)
 
-### Affiliates {#afilliates}
+### Relaties {#afilliates}
 
-Deze regel identificeert bezoekers die uit een gespecificeerde reeks verwijzende domeinen voortkomen. In de regel geeft u als volgt een overzicht van de domeinen van filialen die u wilt bijhouden:
+Deze regel identificeert bezoekers die uit een gespecificeerde reeks verwijzende domeinen voortkomen. In de regel geeft u de domeinen van filialen weer die u wilt bijhouden:
 
 ![](assets/example_affiliates.png)
 
@@ -172,7 +172,7 @@ Deze regel identificeert bezoekers die geen verwijzend domein hebben, dat bezoek
 
 ![](assets/example_direct.png)
 
-### Verwijzend kanaal Domeinen {#referring-domains}
+### Refererend het kanaal {#referring-domains} van Domeinen
 
 Het kanaal Refering Domains identificeert bezoekers die een verwijzend domein hebben. Samen, handelen de Interne, Directe, en Verwijzende domeinkanalen als vangst-allen voor alle resterende klappen die nog niet in een kanaal zijn gecategoriseerd.
 
