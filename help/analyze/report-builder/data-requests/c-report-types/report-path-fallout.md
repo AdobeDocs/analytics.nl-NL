@@ -1,10 +1,14 @@
 ---
 description: Beschrijft hoe de rapportbouwer het kleven en de reserve rapporten steunt en hoe de implementatie van Rapporten & Analytics verschilt.
 title: Pad- en paduitvalrapporten in Report Builder
-topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 8%
 
 ---
 
@@ -17,10 +21,10 @@ Beschrijft hoe de rapportbouwer het kleven en de reserve rapporten steunt en hoe
 |--- |--- |
 | Volgende/Vorige dimensie-stroom | Niet verstrekt als standalone rapport. Kan met verscheidene verzoeken met de afmeting van de Weg en het gebruiken van een filter worden gereproduceerd. |
 | Volgende/Vorige dimensie | Niet verstrekt als standalone rapport. Kan met een rapport van de Weg en het gebruiken van een filter worden gereproduceerd. |
-| Fallout | Ondersteund en beschikbaar als een zelfstandig rapport (Paden > Dimensie > Dimensie-uitval). |
+| Uitval | Ondersteund en beschikbaar als een zelfstandig rapport (Paden > Dimensie > Dimensie-uitval). |
 | Volledige paden | Niet ondersteund. |
 | PathFinder | Niet verstrekt als standalone rapport. Kan worden gereproduceerd als een padrapport met een filter. |
-| Lengte pad | Alleen ondersteund voor de pagina-dimensie. |
+| Padlengte | Alleen ondersteund voor de pagina-dimensie. |
 | Paginaanalyse > Dimensieoverzicht | Niet verstrekt als standalone rapport. Kan met verscheidene verzoeken met de afmeting van de Weg en het gebruiken van een filter worden gereproduceerd. |
 | Paginaanalyse > Opnieuw laden | Niet verstrekt als standalone rapport. Kan met een dimensierapport worden gereproduceerd gebruikend metrisch opnieuw laden. |
 | Paginaanalyse > Afmeting diepte | Alleen ondersteund voor de pagina-dimensie. |
