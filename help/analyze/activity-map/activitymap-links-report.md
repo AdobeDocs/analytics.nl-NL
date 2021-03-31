@@ -1,21 +1,25 @@
 ---
 description: Het koppelingenrapport rapporteert over de koppelingen die op de huidige pagina zijn gevonden. Er wordt geen melding gemaakt van alle koppelingen die voor die pagina zijn verzameld.
-title: Koppelingsrapport
-topic: Activity map
+title: Rapport Koppelingen
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 1%
 
 ---
 
 
-# Koppelingsrapport
+# Rapport Koppelingen
 
 Het koppelingenrapport rapporteert over de koppelingen die op de huidige pagina zijn gevonden. Er wordt geen melding gemaakt van alle koppelingen die voor die pagina zijn verzameld.
 
-Het rapport Koppelingen op pagina biedt een tabelweergave van de koppelingen. Soms wilt u dat koppelingsklikken (of andere metriek) in één weergave worden gerangschikt. Hierdoor kunt u de ene koppeling beter met de andere vergelijken. Maak het rapport Koppelingen op pagina inclusief een gerangschikte lijst met alle koppelingen op de pagina (op koppeling-id), de klikgegevens (# en %) en het gebied op de pagina. Klik op de knop Koppelingen in paginarapport op de werkbalk Activiteitenkaart.
+Het rapport Koppelingen op pagina biedt een tabelweergave van de koppelingen. Soms wilt u dat koppelingsklikken (of andere metriek) in één weergave worden gerangschikt. Hierdoor kunt u de ene koppeling beter met de andere vergelijken. Maak het rapport Koppelingen op pagina inclusief een gerangschikte lijst met alle koppelingen op de pagina (op koppeling-id), de klikgegevens (# en %) en het gebied op de pagina. Klik op de knop Koppelingen in paginarapport op de werkbalk Activity Map.
 
-Het **[!UICONTROL Links On Page]** rapport wordt onder het browserframe in het Activiteitenkaartdashboard geopend.
+Het **[!UICONTROL Links On Page]** rapport opent onder het browser kader in het dashboard van de Activity Map.
 
 ## Standaardmodus {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -37,7 +41,7 @@ In de standaardmodus worden in het rapport &quot;Koppelingen op pagina&quot; kop
   </tr> 
   <tr> 
    <td colname="col1"> Koppelings-id </td> 
-   <td colname="col2">De primaire id van de koppeling (voor meer informatie over de manier waarop de primaire id wordt gedefinieerd door de <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">methode</a>Nieuwe koppeling bijhouden) </td> 
+   <td colname="col2">De primaire identiteitskaart van de verbinding (voor meer informatie over hoe primaire identiteitskaart door <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">Nieuwe Methodologie van het Volgen van de Verbinding</a> wordt bepaald) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Klikken </td> 
@@ -60,11 +64,11 @@ In de standaardmodus worden in het rapport &quot;Koppelingen op pagina&quot; kop
 
 **Gegevens filteren**
 
-Als u op een bepaalde koppeling nul wilt invoeren, kunt u een verwante term in het **[!UICONTROL Filter Data]** veld zoeken. Alleen de koppelingen die overeenkomen met de zoekopdracht, hebben bedekkingen. Zonder een filter worden de overlays die zijn opgegeven in de instellingen [voor](/help/analyze/activity-map/activitymap-overlay-settings.md) activiteitskaarten weergegeven.
+Wanneer u op een specifieke verbinding wilt binnen nul, kunt u naar een verwante termijn op het **[!UICONTROL Filter Data]** gebied zoeken. Alleen de koppelingen die overeenkomen met de zoekopdracht, hebben bedekkingen. Zonder een filter worden de overlays die zijn opgegeven in [Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) weergegeven.
 
-## Live-modus {#section_AC1967217B5A4532ACB01D33636F6770}
+## Actieve modus {#section_AC1967217B5A4532ACB01D33636F6770}
 
-In Live modus worden in het rapport Koppelingen op pagina trendgegevens weergegeven die enkele minuten duren.
+In Live modus worden in het rapport Koppelingen op pagina trendgegevens weergegeven die enkele minuten beslaan.
 
 ![](assets/links_on_page.png)
 
@@ -82,7 +86,7 @@ In Live modus worden in het rapport Koppelingen op pagina trendgegevens weergege
   </tr> 
   <tr> 
    <td colname="col1"> Koppelings-id </td> 
-   <td colname="col2">De primaire id van de koppeling. Voor meer informatie over hoe primaire identiteitskaart door de Nieuwe Methodologie <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> van het Volgen van de</a>Verbinding wordt bepaald. </td>
+   <td colname="col2">De primaire id van de koppeling. Voor meer informatie over hoe primaire identiteitskaart door Nieuwe <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> de Methodologie van het Volgen van de Verbinding</a> wordt bepaald. </td>
   </tr> 
   <tr> 
    <td colname="col1"> Koppelingsklikken </td> 
@@ -111,7 +115,7 @@ In Live modus worden in het rapport Koppelingen op pagina trendgegevens weergege
  </tbody> 
 </table>
 
-## Sorteren en filteren {#section_4B8E8233C21247CAA70DAEC2156548AD}
+## {#section_4B8E8233C21247CAA70DAEC2156548AD} sorteren en filteren
 
 Soms moet u alleen de resultaten van een bepaald paginagebied (bijvoorbeeld het linkervenster) analyseren om te bepalen hoe u de inhoud van dat specifieke gebied van de webpagina wilt ordenen.
 
