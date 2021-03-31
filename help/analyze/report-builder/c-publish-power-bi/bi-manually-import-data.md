@@ -1,18 +1,23 @@
 ---
-description: Als u analysegegevens handmatig wilt importeren via Power BI, volgt u deze instructies.
-title: Gegevens handmatig importeren naar Power BI
+description: Volg deze instructies als u de analysegegevens handmatig wilt importeren via Power BI.
+title: Data handmatig importeren naar Power BI
 uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 18%
 
 ---
 
 
-# Gegevens handmatig importeren naar Power BI
+# Data handmatig importeren naar Power BI
 
-Als u analysegegevens handmatig wilt importeren via Power BI, volgt u deze instructies.
+Volg deze instructies als u de analysegegevens handmatig wilt importeren via Power BI.
 
-1. Klik in Power BI op **[!UICONTROL Get Data]** het linksonder scherm.
+1. Klik in Power BI op **[!UICONTROL Get Data]** linksonder in het scherm.
 1. Klik onder **[!UICONTROL Import or Connect to Data]** > **[!UICONTROL Files]** op **[!UICONTROL Get]**.
 
    ![](assets/get-data.png)
