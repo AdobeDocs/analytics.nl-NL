@@ -1,10 +1,12 @@
 ---
 description: Instructies voor het gebruik van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboards
+feature: Analysedashboards
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 2a1d3234444dbacb9cb68d85bd00527b2609d1c7
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
