@@ -1,18 +1,23 @@
 ---
-description: Met Datumvergelijking in de werkruimte Analyse kunt u elke kolom met een datumbereik gebruiken en een algemene datumvergelijking maken, zoals jaar-over-jaar, kwartaal-over-kwartaal, maand-over-maand enzovoort.
+description: Met Datumvergelijking in Analysis Workspace kunt u elke kolom met een datumbereik gebruiken en een algemene datumvergelijking maken, zoals jaar-over-jaar, kwartaal-over-kwartaal, maand-over-maand enzovoort.
 title: Datumvergelijking
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
+feature: Basisprincipes van werkruimte
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 6%
 
 ---
 
 
 # Datumvergelijking
 
-Met Datumvergelijking in de werkruimte Analyse kunt u elke kolom met een datumbereik maken en een algemene datumvergelijking maken, zoals: jaar-over-jaar, kwartaal-over-kwartaal, maand-over-maand, enz.
+Met Datumvergelijking in Analysis Workspace kunt u elke kolom met een datumbereik gebruiken en een algemene datumvergelijking maken, zoals: jaar-over-jaar, kwartaal-over-kwartaal, maand-over-maand, enz.
 
-## Vergelijk tijdsperiodes {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
+## Tijdsperioden {#section_C4E36BFE0F5C4378A74E705747C9DEE4} vergelijken
 
 De analyse vereist context, en vaak wordt die context verstrekt door een vorige tijdspanne. Bijvoorbeeld de vraag &quot;Hoeveel beter/slechter doen we dan op dit moment vorig jaar?&quot; is fundamenteel voor het begrijpen van uw zaken. De Vergelijking van de datum omvat automatisch een &quot;verschilkolom&quot;, die de percentageverandering in vergelijking met een gespecificeerde tijdspanne toont.
 
@@ -27,7 +32,7 @@ De analyse vereist context, en vaak wordt die context verstrekt door een vorige 
 
 1. Afhankelijk van de manier waarop u het datumbereik van de tabel hebt ingesteld, kunt u het volgende vergelijken:
 
-   | Option | Beschrijving |
+   | Optie | Beschrijving |
    |---|---|
    | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Vergelijkt met week/maand/enz. onmiddellijk voor dit datumbereik. |
    | **[!UICONTROL This week/month/quarter/year last year]** | Vergelijkt tot de zelfde datumwaaier een jaar geleden. |
@@ -35,7 +40,7 @@ De analyse vereist context, en vaak wordt die context verstrekt door een vorige 
 
    >[!NOTE]
    >
-   >Wanneer u een aangepast aantal dagen selecteert, bijvoorbeeld 7 oktober - 20 oktober (een bereik van 14 dagen), krijgt u slechts twee opties: **[!UICONTROL Prior 14 days before this date range]**, en **[!UICONTROL Select range]**.
+   >Wanneer u een aangepast aantal dagen selecteert, bijvoorbeeld 7 oktober - 20 oktober (een bereik van 14 dagen), krijgt u slechts twee opties: **[!UICONTROL Prior 14 days before this date range]** en **[!UICONTROL Select range]**.
 
 1. De resulterende vergelijking ziet er als volgt uit:
 
@@ -47,17 +52,17 @@ De analyse vereist context, en vaak wordt die context verstrekt door een vorige 
 
    ![](assets/compare-time-barchart.png)
 
-   Als u het percentage van de wijziging in het staafdiagram wilt weergeven, moet de [!UICONTROL Percentages] instelling in het [!UICONTROL Visualization Settings]bestand zijn ingecheckt.
+   Merk op dat om de percentageverandering in het bar grafiek te tonen, u [!UICONTROL Percentages] het plaatsen moet hebben gecontroleerd in [!UICONTROL Visualization Settings].
 
-## Een tijdspannekolom toevoegen ter vergelijking {#section_93CC2B4F48504125BEC104046A32EB93}
+## Voeg een tijdspannekolom toe ter vergelijking {#section_93CC2B4F48504125BEC104046A32EB93}
 
-U kunt nu een tijdsperiode toevoegen aan elke kolom in een tabel, zodat u een andere tijdsperiode kunt toevoegen dan de periode waarop uw kalender is ingesteld. Dit is een andere manier om datums te vergelijken.
+U kunt nu een tijdsperiode toevoegen aan elke tabelkolom. Zo kunt u een andere tijdsperiode toevoegen dan de periode waarop uw kalender is ingesteld. Dit is een andere manier om datums te vergelijken.
 
-1. Klik met de rechtermuisknop op een kolom in de tabel en selecteer **[!UICONTROL Add Time Period Column]**![](assets/add-time-period-column.png)
+1. Klik met de rechtermuisknop op een kolom in de tabel en selecteer **[!UICONTROL Add Time Period Column]** ![](assets/add-time-period-column.png)
 
 1. Afhankelijk van de manier waarop u het datumbereik van de tabel hebt ingesteld, kunt u het volgende vergelijken:
 
-   | Option | Beschrijving |
+   | Optie | Beschrijving |
    |---|---|
    | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Voegt een kolom met de week/maand/enz. toe. onmiddellijk voor dit datumbereik. |
    | **[!UICONTROL This week/month/quarter/year last year]** | Hiermee voegt u hetzelfde datumbereik toe een jaar geleden. |
@@ -65,7 +70,7 @@ U kunt nu een tijdsperiode toevoegen aan elke kolom in een tabel, zodat u een an
 
    >[!NOTE]
    >
-   >Wanneer u een aangepast aantal dagen selecteert, bijvoorbeeld 7 oktober - 20 oktober (een bereik van 14 dagen), krijgt u slechts twee opties: **[!UICONTROL Prior 14 days before this date range]**, en **[!UICONTROL Select range]**.
+   >Wanneer u een aangepast aantal dagen selecteert, bijvoorbeeld 7 oktober - 20 oktober (een bereik van 14 dagen), krijgt u slechts twee opties: **[!UICONTROL Prior 14 days before this date range]** en **[!UICONTROL Select range]**.
 
 1. De tijdsperiode wordt ingevoegd vóór de kolom die u hebt geselecteerd:
 
@@ -77,7 +82,7 @@ U kunt nu een tijdsperiode toevoegen aan elke kolom in een tabel, zodat u een an
 
 1. Bovendien kunt u op elke kolom sorteren, die de orde van dagen afhankelijk van de kolom zult veranderen u sorteert.
 
-## Kolom-datums uitlijnen zodat deze op dezelfde rij beginnen {#section_5085E200082048CB899C3F355062A733}
+## Kolom-datums uitlijnen zodat deze op dezelfde rij {#section_5085E200082048CB899C3F355062A733} beginnen
 
 Met een nieuwe instelling voor alle tabellen kunt u **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**. &quot;Is van toepassing op volledige lijst&quot;betekent dat als u, bijvoorbeeld een uitsplitsing in de lijst doet, en als u dit het plaatsen voor de uitsplitsing verandert, het het plaatsen voor de volledige lijst zal veranderen.
 
