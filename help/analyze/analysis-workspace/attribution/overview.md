@@ -1,10 +1,12 @@
 ---
 title: Overzicht van attributie
 description: Het concept om krediet van een succesgebeurtenis toe te wijzen aan meerdere dimensies.
+feature: Attributie
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '423'
 ht-degree: 52%
 
 ---
@@ -43,4 +45,4 @@ Attribution IQ biedt de volgende kenmerken:
 * [Kenmerk, deelvenster](../c-panels/attribution.md): Neem om het even welke afmeting en metrisch, en vergelijk het snel met verschillende attributiemodellen.
 * [Kenmerk toepassen op een metrische waarde](../visualizations/freeform-table/column-row-settings/column-settings.md): Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
 * [Toewijzing toepassen op een uitsplitsing](../components/dimensions/t-breakdown-fa.md): Gebruik een niet-wanbetalingskenmerk voor een uitsplitsing.
-* [Kenmerkingsmodellen](../components/apply-create-metrics.md)vergelijken: Zie snel hoe verschillende attributiemodellen bij elke meting worden vergeleken.
+* [Kenmerkingsmodellen](../components/apply-create-metrics.md) vergelijken: Zie snel hoe verschillende attributiemodellen bij elke meting worden vergeleken.
