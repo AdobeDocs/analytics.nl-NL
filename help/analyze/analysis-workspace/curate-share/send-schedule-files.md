@@ -2,18 +2,20 @@
 description: U kunt PDF/CSV-projecten beheren, delen en plannen voor ontvangers in uw organisatie.
 title: Menu Delen
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
+feature: Curven en delen
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 63efd2f046ac43640a9dd0fe2b3ee9fa3f182a8f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 17%
+source-wordcount: '176'
+ht-degree: 16%
 
 ---
 
 
 # Menu Delen
 
-U kunt PDF/CSV-projecten beheren, delen en plannen voor ontvangers in uw organisatie in het menu **Werkruimte** delen.
+U kunt PDF/CSV-projecten beheren, delen en plannen met ontvangers in uw organisatie in het menu Delen **Delen**.
 
 | Menuoptie | Beschrijving |
 |---|---|
