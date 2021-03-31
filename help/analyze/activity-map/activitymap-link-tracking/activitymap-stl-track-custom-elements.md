@@ -1,11 +1,12 @@
 ---
 title: De methode tl() gebruiken met Activity Map
 description: U kunt de methode tl() gebruiken om aangepaste elementen bij te houden en om overlayrendering voor dynamische inhoud te configureren.
-topic: Activiteitenoverzicht
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 65cb0a49ef74156f0b8adf4a11c6fec6394d306f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
