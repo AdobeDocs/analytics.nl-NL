@@ -1,10 +1,14 @@
 ---
 description: Voorbeelden, notities en syntaxisnotities over het gebruik van datumbereiken in aangepaste expressies.
 title: Voorbeelden van datumbereiken met aangepaste expressies
-topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +22,7 @@ De tabel gaat ervan uit dat de datum van vandaag maandag 10 november 2011 is, me
 | Voorbeeld | Datumbereik | Expressie aanpassen | Datum Bereik rapport |
 |---|---|---|---|
 |  |  | **Van** | **Naar** |  |
-| 1 | Twee weken geleden | cw-2w | cw-1w-1d | 26 okt tot 1 nov. |
+| 3 | Twee weken geleden | cw-2w | cw-1w-1d | 26 okt tot 1 nov. |
 | 2 | Eerste drie dagen van de vijfde maand van het afgelopen jaar | cy-1y+4m | cy-1y+4m+2d | 1 mei tot en met 3 mei 2010 |
 | 3 | Een volledige week, vanaf 4 weken geleden | cw-4w | cw-3w-1d | 12 okt tot en met 18 okt. |
 | 4 | Vorige week in het voorgaande jaar | cw-53w | cw-52w-1d | nov. t/m 9 nov. 2010 |
