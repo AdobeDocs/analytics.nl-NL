@@ -1,12 +1,13 @@
 ---
 description: De opsporing van het anomaly gebruikt statistische modellering om onverwachte tendensen in uw gegevens automatisch te vinden. Het model analyseert metriek en bepaalt een ondergrens, bovengrens, en verwachte waaier van waarden. Wanneer een onverwachte punt of daling voorkomt, alarmeert het systeem u in het rapport.
 title: Anomaliedetectie
-topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
@@ -56,7 +57,7 @@ Bij Anomalige detectie worden nieuwe metrische waarden toegevoegd voor elke metr
  </tbody> 
 </table>
 
-De bouwer van het rapport past deze waarden op geselecteerde metriek toe. Als u bijvoorbeeld een metrische weergave van paginaweergaven selecteert en afwijkende detectie toepast, wordt een *`Page Views Lower Bound`* metrische waarde gebruikt.
+De bouwer van het rapport past deze waarden op geselecteerde metriek toe. Als u bijvoorbeeld een metrische weergave van paginaweergaven selecteert en afwijkende detectie toepast, wordt een metrische waarde *`Page Views Lower Bound`* gebruikt.
 
 **Hoe Anomaly Detection wordt berekend**
 
