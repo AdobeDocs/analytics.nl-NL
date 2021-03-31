@@ -1,11 +1,12 @@
 ---
 description: Gegevensbronnen ondersteunen de volgende variabelen bij het verwerken van gegevens als een standaardserveraanroep (Algemeen > Volledige verwerking).
-title: Volledige verwerkingsoptie voor Gegevensbronnen
+title: Volledige verwerking
+topic: Ontwikkelaar en implementatie
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 8%
+source-wordcount: '727'
+ht-degree: 9%
 
 ---
 
