@@ -1,12 +1,13 @@
 ---
 description: Verstrekt antwoorden en het oplossen van problemensuggesties aan enkele van de vaakst gestelde vragen van Analytics.
-keywords: Troubleshooting Analytics
+keywords: Analyses voor probleemoplossing
 title: Veelgestelde vragen
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 0%
 
 # Veelgestelde vragen
 
-Verstrekt antwoorden en het oplossen van problemensuggesties aan enkele van de vaakst gestelde vragen van Analytics voor Rapporten &amp; Analytics. Raadpleeg de [Veelgestelde vragen](/help/implement/faq.md) in de gebruikershandleiding Implementeren voor veelgestelde implementatievragen.
+Verstrekt antwoorden en het oplossen van problemensuggesties aan enkele van de vaakst gestelde vragen van Analytics voor Rapporten &amp; Analytics. Voor vaak gestelde implementatievragen, zie [FAQ](/help/implement/faq.md) in de de gebruikershandleiding van de Implementatie.
 
 **Mijn account is vergrendeld. hoe ontgrendel ik het?**
 
-Neem contact op met een beheerder binnen uw organisatie om een account opnieuw te activeren. Zie ook [Problemen met aanmelding met Adobe Analytics](/help/technotes/troubleshoot-login.md) oplossen in de gebruikershandleiding voor TechNotes.
+Neem contact op met een beheerder binnen uw organisatie om een account opnieuw te activeren. Zie ook [Aanmeldingsproblemen met Adobe Analytics](/help/technotes/troubleshoot-login.md) oplossen in de gebruikershandleiding voor technische notities.
 
 **Waarom zie ik een leeg rapport, ook al weet ik dat er gegevens verzameld zijn?**
 
@@ -42,11 +43,11 @@ Real-time rapportage maakt het mogelijk dat bepaalde verkeersmetriek binnen minu
 
 **Waarom kan ik de apparaatversie niet zien op iPhones?**
 
-Apple-apparaten rapporteren hun firmware-versie in de userAgent-tekenreeks, niet in de apparaatversie. Het is moeilijk om de versie van het iPhone-apparaat te bepalen aan de hand van informatie die beschikbaar is voor Adobe Analytics. Zie iPhone-apparaatversies [](https://helpx.adobe.com/analytics/kb/comparing-iphone-device-versions.html) vergelijken in de KB Analytics voor meer informatie.
+Apple-apparaten rapporteren hun firmware-versie in de userAgent-tekenreeks, niet in de apparaatversie. Het is moeilijk om de versie van het iPhone-apparaat te bepalen aan de hand van informatie die beschikbaar is voor Adobe Analytics. Zie [iPhone-apparaatversies vergelijken](https://helpx.adobe.com/analytics/kb/comparing-iphone-device-versions.html) in Analytics KB voor meer informatie.
 
 **Waarom komen de totalen onder aan mijn verslag niet overeen wanneer ik de waarden opsommen?**
 
-Dimension-items kunnen vaak op meerdere plaatsen worden toegepast. bijvoorbeeld bezoeken die middernacht omspannen of meerdere producten die tot één bestelling behoren. De dimensie-item wordt gerapporteerd in alle toepasselijke posten, maar wordt gededupliceerd in het totaal van het rapport. Zie de som lijnpunten [vergelijken om totaal](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) in Analytics KB voor meer informatie te melden.
+Dimension-items kunnen vaak op meerdere plaatsen worden toegepast. bijvoorbeeld bezoeken die middernacht omspannen of meerdere producten die tot één bestelling behoren. De dimensie-item wordt gerapporteerd in alle toepasselijke posten, maar wordt gededupliceerd in het totaal van het rapport. Zie [De som lijnpunten vergelijken om totaal ](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) in Analytics KB voor meer informatie te melden.
 
 **Hoe sluit ik gegevens van een bepaalde IP adressen in mijn rapportreeks uit?**
 
@@ -54,12 +55,12 @@ U kunt gegevens uit interne websiteactiviteiten, zoals site-tests en werknemersg
 
 **Kan ik een rapportsuite verwijderen?**
 
-Het verwijderen van een rapportsuite is niet mogelijk. Een rapportsuite kan echter voor alle weergaven in Adobe Analytics worden verborgen. Merk op dat de servervraag die naar een verborgen rapportreeks wordt verzonden nog aan uw maandelijkse contractgrens telt. Zie [Rapportreeksen](/help/admin/company/c-hide-report-suites.md) verbergen in de gebruikershandleiding voor Admin voor meer informatie.
+Het verwijderen van een rapportsuite is niet mogelijk. Een rapportsuite kan echter voor alle weergaven in Adobe Analytics worden verborgen. Merk op dat de servervraag die naar een verborgen rapportreeks wordt verzonden nog aan uw maandelijkse contractgrens telt. Zie [Rapportreeksen verbergen](/help/admin/company/c-hide-report-suites.md) in de gebruikershandleiding voor Admin voor meer informatie.
 
 **Wanneer het gebruiken van segmentatie, welke container zou ik moeten gebruiken? Paginaweergave, bezoek of bezoeker?**
 
-De segmentcontainer die u gebruikt, is afhankelijk van de breedte waarmee u gegevens wilt vastleggen. De containers van de paginamening brengen slechts in klappen die segmentcriteria aanpassen, nuttig om irrelevante delen van bezoeken uit te filteren. Met Bezoek-containers haalt u alle resultaten van een bezoek bij een of meer treffers die voldoen aan de criteria van een bepaald segment. Dit is handig als u sessies in het algemeen wilt bekijken. Bezoekerscontainers brengen alle bezoeken waar een hit aan segmentcriteria voldeed, nuttig om mensen te bekijken. Het is uw keus als analist om te bepalen welke segmentcontainer best is te gebruiken. See [Segmentation overview](/help/components/segmentation/seg-overview.md) in the Components user guide for more information.
+De segmentcontainer die u gebruikt, is afhankelijk van de breedte waarmee u gegevens wilt vastleggen. De containers van de paginamening brengen slechts in klappen die segmentcriteria aanpassen, nuttig om irrelevante delen van bezoeken uit te filteren. Met Bezoek-containers haalt u alle resultaten van een bezoek bij een of meer treffers die voldoen aan de criteria van een bepaald segment. Dit is handig als u sessies in het algemeen wilt bekijken. Bezoekerscontainers brengen alle bezoeken waar een hit aan segmentcriteria voldeed, nuttig om mensen te bekijken. Het is uw keus als analist om te bepalen welke segmentcontainer best is te gebruiken. Zie [Segmentatieoverzicht](/help/components/segmentation/seg-overview.md) in de gebruikershandleiding van Componenten voor meer informatie.
 
 **Waarom wordt mijn segment niet in de Data Warehouse weergegeven?**
 
-Vanwege de unieke verwerkingsarchitectuur van de Data Warehouse is het platform niet geoptimaliseerd voor het verwerken van bepaalde soorten gegevens, zoals plakken. Zie [Data Warehouse segmentcompatibiliteit](/help/components/segmentation/seg-reference/seg-compatibility.md) in de gebruikershandleiding van Componenten voor meer informatie.
+Vanwege de unieke verwerkingsarchitectuur van de Data Warehouse is het platform niet geoptimaliseerd voor het verwerken van bepaalde soorten gegevens, zoals plakken. Zie [Data Warehouse segmentcompatibiliteit](/help/components/segmentation/seg-reference/seg-compatibility.md) in de gebruikershandleiding voor componenten voor meer informatie.
