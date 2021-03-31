@@ -1,13 +1,14 @@
 ---
 description: Filters die specifieke termen van afmeting toepassen.
 title: Specifieke filters
-topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 2%
+source-wordcount: '296'
+ht-degree: 3%
 
 ---
 
@@ -20,22 +21,22 @@ U kunt zoeken naar specifieke dimensies door een filter te maken dat precies ove
 
 **Een specifiek filter maken**
 
-1. Maak of bewerk een aanvraag en ga door naar de [!UICONTROL Request Wizard: Step 2]aanvraag.
+1. Creeer of geef een verzoek uit, en ga naar [!UICONTROL Request Wizard: Step 2].
 
    ![Stap Resultaat](assets/dimension_filter.png)
 
-1. Klik op de [!UICONTROL Request Wizard: Step 2]koppeling naast de dimensie in het raster en kies **[!UICONTROL Filter]**.
+1. Klik op [!UICONTROL Request Wizard: Step 2] op de koppeling naast de dimensie in het raster en kies **[!UICONTROL Filter]**.
 
    ![Stap Resultaat](assets/choose_page_specific01.png)
 
-1. Schakel **[!UICONTROL Specific]** vervolgens een van de volgende opties in:
+1. Schakel **[!UICONTROL Specific]** in en schakel vervolgens een van de volgende opties in:
 
-   * **Van bereik cellen:** Hiermee kunt u gegevens uit cellen selecteren. U kunt selecteren:
-   * **Alle cellen in bereik:** Hiermee kunt u elke cel voor het bereik toewijzen. Met beschrijvende tekst wordt uitgelegd hoeveel groepen cellen u moet selecteren. Als u meerdere groepen cellen wilt toewijzen, drukt u op Ctrl terwijl u opeenvolgende selecties maakt. Als het bereik dat moet worden toegewezen slechts één cel bevat, is dit de enige beschikbare optie
-   * **Eerste cel van bereik:** U hoeft alleen de cel linksboven van het bereik te selecteren en vervolgens een richting voor de gegevens te kiezen. Als het verzoek meerdere punten heeft, kiest u bovendien de richting van de punten en kiest u of u een ingesteld aantal cellen tussen punten wilt overslaan.
-   * **Van lijst:** Hiermee kunt u gegevens selecteren in een lijst waaraan u gegevens kunt toevoegen.
-1. Als u deze optie inschakelt, selecteert u de beschikbare items in de lijst **[!UICONTROL From List]** of klikt u op **[!UICONTROL Add]**.
+   * **Vanuit bereik cellen:** Hiermee kunt u gegevens uit cellen selecteren. U kunt selecteren:
+   * **Alle cellen in bereik:** hiermee kunt u elke cel voor het bereik toewijzen. Met beschrijvende tekst wordt uitgelegd hoeveel groepen cellen u moet selecteren. Als u meerdere groepen cellen wilt toewijzen, drukt u op Ctrl terwijl u opeenvolgende selecties maakt. Als het bereik dat moet worden toegewezen slechts één cel bevat, is dit de enige beschikbare optie
+   * **Eerste cel van bereik:** u hoeft alleen de cel linksboven van het bereik te selecteren en vervolgens een richting voor de gegevens te kiezen. Als het verzoek meerdere punten heeft, kiest u bovendien de richting van de punten en kiest u of u een ingesteld aantal cellen tussen punten wilt overslaan.
+   * **Van Lijst:** laat u gegevens van een lijst selecteren waaraan u gegevens kunt toevoegen.
+1. Als u **[!UICONTROL From List]** toelaat, selecteer om het even welke beschikbare vermelde punten of klik **[!UICONTROL Add]**.
 
-   Wanneer u klikt **[!UICONTROL Add]**, geeft het [!UICONTROL Select From List] formulier een lijst weer met beschikbare dimensie-items voor het huidige bereik van de aanvraagdatum, beperkt tot de eerste 10.000 items. U kunt in deze items zoeken of op **[!UICONTROL More ...]** deze items klikken, zodat de [!UICONTROL Search Form]items worden weergegeven en u een gedetailleerdere zoekopdracht kunt maken naar de afmetingen.
-1. Klik op de [!UICONTROL Select From List]knop **[!UICONTROL OK]**.
-1. Sla desgewenst het specifieke filter op het [!UICONTROL Choose Page] formulier op en klik op **[!UICONTROL OK]**.
+   Wanneer u **[!UICONTROL Add]** klikt, toont [!UICONTROL Select From List] vorm een lijst van beschikbare afmetingspunten voor de huidige waaier van de verzoekdatum, die tot de eerste 10.000 punten wordt beperkt. U kunt over deze punten zoeken of **[!UICONTROL More ...]** klikken, die [!UICONTROL Search Form] toont, zodat u een gedetailleerdere onderzoek naar afmetingen kunt tot stand brengen.
+1. Klik op [!UICONTROL Select From List] op **[!UICONTROL OK]**.
+1. Sla desgewenst op het formulier [!UICONTROL Choose Page] het specifieke filter op en klik vervolgens op **[!UICONTROL OK]**.
