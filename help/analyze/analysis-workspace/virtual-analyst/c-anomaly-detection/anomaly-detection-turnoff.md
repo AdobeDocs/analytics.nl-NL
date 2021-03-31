@@ -2,11 +2,13 @@
 description: Schakel Anomaly-detectie uit op elke meting.
 title: Anomaliedetectie uitschakelen
 uuid: d270d530-19da-4ee5-99a9-258050f8ae95
+feature: AI-gereedschappen
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 24%
+source-wordcount: '38'
+ht-degree: 21%
 
 ---
 
