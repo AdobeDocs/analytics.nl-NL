@@ -1,10 +1,12 @@
 ---
 title: Los de gegevensinzameling van de Activity Map problemen op
 description: Bepalen waarom Activity Map-gegevens niet worden weergegeven in afbeeldingsaanvragen
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -29,8 +31,8 @@ Eerst, zorg ervoor dat AppMeasurement correct de gegevens van de Activity Map ve
 Controleer elk van de volgende opties om te controleren of er Activity Map-componenten aanwezig zijn:
 
 * **AppMeasurement-versie**: Activity Map wordt ondersteund op versie 1.6 en hoger. Veel problemen met randhoofdletters en kleine letters worden opgelost wanneer u een upgrade uitvoert naar de nieuwste stabiele versie van AppMeasurement.
-* **Activity Map module**: Controleer of de `AppMeasurement_Module_Activity_Map` module aanwezig is in het `AppMeasurement.js` bestand. Als uw implementatie gebruikmaakt van Adobe Experience Platform Launch, moet u controleren of dit **[!UICONTROL Enable ClickMap]** is ingeschakeld bij het configureren van de extensie Analytics onder **[!UICONTROL Link tracking]**.
-* **De`s_sq`cookie**: Activity Map is afhankelijk van het cookie `s_sq` voor gegevensverzameling.
-   * Controleer of de `cookieDomainPeriods` variabele juist is ingesteld, vooral voor regionale domeinen zoals `*.co.uk` of `*.co.jp`.
-   * Controleer of de `linkInternalFilters` variabele op de gewenste waarden is ingesteld. Als een aangeklikte koppeling niet overeenkomt met interne filters, beschouwt de Activity Map deze als een exit-koppeling en worden er geen gegevens verzameld.
+* **Activity Map module**: Controleer of de  `AppMeasurement_Module_Activity_Map` module aanwezig is in het  `AppMeasurement.js` bestand. Als uw implementatie gebruikmaakt van Adobe Experience Platform Launch, controleert u of **[!UICONTROL Enable ClickMap]** is ingeschakeld bij het configureren van de extensie Analytics onder **[!UICONTROL Link tracking]**.
+* **Het  `s_sq` cookie**: Activity Map hangt af van het  `s_sq` cookie voor gegevensverzameling.
+   * Zorg ervoor dat de `cookieDomainPeriods` variabele correct wordt geplaatst, vooral voor regionale domeinen zoals `*.co.uk` of `*.co.jp`.
+   * Zorg ervoor dat de `linkInternalFilters` variabele aan gewenste waarden wordt geplaatst. Als een aangeklikte koppeling niet overeenkomt met interne filters, beschouwt de Activity Map deze als een exit-koppeling en worden er geen gegevens verzameld.
 * **Bedekking Activity Map wordt uitgevoerd**: AppMeasurement houdt geen klikgegevens voor uw Web-pagina bij wanneer de Activity Map bekleding wordt toegelaten.
