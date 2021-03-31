@@ -1,11 +1,13 @@
 ---
 description: Veelgestelde vragen over Workspace
 title: Veelgestelde vragen en werkruimte voor probleemoplossing
+feature: Basisprincipes van werkruimte
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 45%
+source-wordcount: '526'
+ht-degree: 44%
 
 ---
 
