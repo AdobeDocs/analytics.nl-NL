@@ -2,12 +2,13 @@
 description: Gebruik waarschuwingen in Rapporten en Analyse.
 subtopic: Alerts
 title: Waarschuwingen
-topic: Rapporten en analyses
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
+feature: Waarschuwingen
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '879'
 ht-degree: 6%
 
 ---
