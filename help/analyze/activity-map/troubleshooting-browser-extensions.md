@@ -1,17 +1,21 @@
 ---
-description: Maakt een lijst van de browser parameters die niet compatibel met het gebruik van de Kaart van de Activiteit zijn. U moet deze instellingen uitschakelen.
+description: Hiermee geeft u de browserparameters weer die niet compatibel zijn met het gebruik van Activity Map. U moet deze instellingen uitschakelen.
 title: Problemen met browserextensies oplossen
-topic: Activity map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 9%
 
 ---
 
 
 # Browserextensies oplossen
 
-Toont de browser parameters die niet compatibel met het gebruik van de Kaart van de Activiteit zijn. U moet deze instellingen uitschakelen.
+Hiermee worden de browserparameters weergegeven die niet compatibel zijn met het gebruik van Activity Map. U moet deze instellingen uitschakelen.
 
 ## Chroom
 
