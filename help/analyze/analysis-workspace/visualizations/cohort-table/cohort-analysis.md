@@ -1,10 +1,12 @@
 ---
 title: Wat is Cohort Analyse en hoe werkt het?
 description: Dig dieper in de gegevens rond uw publiek en onderbreek in verwante groepen met de Analyse van de Cohort. Meer informatie over cohortanalyse in Analysis Workspace.
+feature: Visualisaties
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c588087b949093152435967f62e43758e9e86208
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
