@@ -1,12 +1,13 @@
 ---
 description: U kunt alle verzoeken in een werkboek tegen het toevoegen van en het uitgeven van verzoeken beschermen door het werkboek te sluiten. Dit laat off-line het uitgeven van werkboeken toe door alle rapportverzoeken voor efficiënter het uitgeven te pauzeren.
 title: Werkmappen vergrendelen/ontgrendelen
-topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '466'
 ht-degree: 1%
 
 ---
@@ -18,11 +19,11 @@ U kunt alle verzoeken in een werkboek tegen het toevoegen van en het uitgeven va
 
 Als analist, laat het sluiten van een werkboek u uw werkboekverzoeken tegen het knoeien door andere gebruikers binnen uw organisatie beschermen. Tezelfdertijd, kunnen die gebruikers nog de verzoeken in het werkboek verfrissen.
 
-Om een werkboek tegen het uitgeven te beschermen, klik **[!UICONTROL Locked]** op de toolbar van de Bouwer van het Rapport ( ![](assets/locked_icon.png)
+Om een werkboek tegen het uitgeven te beschermen, klik **[!UICONTROL Locked]** op de toolbar van de Report Builder ( ![](assets/locked_icon.png)
 
 ).
 
-Om een werkboek unprotect te geven, klik **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
+Als u de beveiliging van een werkboek wilt opheffen, klikt u op **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
 
 ).
 
@@ -58,7 +59,7 @@ Laten wij veronderstellen werkboek A één verzoek heeft dat in een gesloten sta
 
 **Voorbeeld 1: Admin-gebruiker (of gebruiker A)**
 
-1. De gebruiker registreert in de Bouwer van het Rapport en opent werkboek A.
+1. De gebruiker registreert in Report Builder en opent werkboek A.
 1. Werkboek A is momenteel vergrendeld, dus de knop Verzoek maken wordt gedeactiveerd in de werkbalk, samen met alle andere knoppen waarvan de functionaliteit is uitgeschakeld door vergrendeling.
 1. Als de gebruiker probeert om één van de gedeactiveerde knopen te gebruiken, lijkt een bericht dat het werkboek momenteel gesloten is.
 1. De gebruiker kan het werkboek ontgrendelen, dat volledige het uitgeven functionaliteit toelaat.
@@ -66,7 +67,7 @@ Laten wij veronderstellen werkboek A één verzoek heeft dat in een gesloten sta
 
 **Voorbeeld 2: Niet-beheerder gebruiker (gebruiker B)**
 
-1. De gebruiker registreert in de Bouwer van het Rapport en opent werkboek A.
+1. De gebruiker registreert in Report Builder en opent werkboek A.
 1. Gebruiker kan de aanvraag niet toevoegen/bewerken.
 1. De gebruiker kan het werkboek niet ontgrendelen.
 
