@@ -1,10 +1,12 @@
 ---
 description: Gegevensinconsistenties kunnen grote problemen veroorzaken. Leer hoe u statistische anomalieën kunt identificeren met afwijkende detectietechnieken van Adobe. Ga vandaag aan de slag.
 title: Statistische technieken voor anomaliedetectie
+feature: AI-gereedschappen
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c588087b949093152435967f62e43758e9e86208
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
