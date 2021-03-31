@@ -1,12 +1,14 @@
 ---
 description: U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoegen en de belangrijkste workflows in verschillende segmenten in Analysis Workspace vergelijken.
-keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
+keywords: fallout en segmentatie;segmenten in falloutanalyse;vergelijk segmenten in fallout
 title: Segmenten toepassen in een uitvalanalyse
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
+feature: Visualisaties
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '404'
 ht-degree: 2%
 
 ---
@@ -46,11 +48,11 @@ Als u bijvoorbeeld wilt zien hoe uw gebruikers in de VS zich ontwikkelen en de n
 
 U kunt ook een AND-aanraakpunt maken door het Amerikaanse gebruikerssegment naar een ander controlepunt te slepen.
 
-## Segmenten vergelijken bij uitvallen {#section_E0B761A69B1545908B52E05379277B56}
+## Segmenten in uitval vergelijken {#section_E0B761A69B1545908B52E05379277B56}
 
 U kunt een onbeperkt aantal segmenten vergelijken in de Fallout-visualisatie.
 
-1. Selecteer de segmenten die u wilt vergelijken in de [!UICONTROL Segments] rail aan de linkerkant. In ons voorbeeld hebben we twee segmenten geselecteerd: Amerikaanse gebruikers en gebruikers buiten de VS.
+1. Selecteer de segmenten die u wilt vergelijken in de [!UICONTROL Segments]-rail aan de linkerkant. In ons voorbeeld hebben we twee segmenten geselecteerd: Amerikaanse gebruikers en gebruikers buiten de VS.
 1. Sleep ze naar de neerzetzone Segment bovenaan.
 
    ![](assets/segment-drop.png)
