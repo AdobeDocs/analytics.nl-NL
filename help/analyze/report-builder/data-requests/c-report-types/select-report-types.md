@@ -1,10 +1,14 @@
 ---
 description: U kunt het type van het basisrapport voor uw gegevensverzoek, zoals de Metriek van de Plaats, de Inhoud van de Plaats, en Video selecteren.
 title: Overzicht van rapporttypen
-topic: Report builder
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 6%
 
 ---
 
