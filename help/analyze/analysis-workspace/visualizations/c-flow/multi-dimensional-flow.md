@@ -2,8 +2,13 @@
 description: Met een interdimensionale stroom kunt u gebruikerspaden in verschillende dimensies bekijken.
 title: Interdimensionale stromen
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
+feature: Visualisaties
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
@@ -20,17 +25,17 @@ We zullen naar twee gebruiksgevallen kijken: een gebruiksgeval voor apps en een 
 
 ## Eerste hoofdletter gebruiken: app {#section_3D31D37B9C9F4134AE46C96291E41294}
 
-De [!UICONTROL Action Name] afmeting werd toegevoegd aan de stroom, met het top teruggekeerde punt die [!UICONTROL ItemAdded]:
+De [!UICONTROL Action Name] dimensie werd toegevoegd aan de stroom, met het hoogste teruggekeerde punt dat [!UICONTROL ItemAdded] is:
 
 ![](assets/multi-dimensional-flow.png)
 
 Als u de interactie tussen schermen/pagina&#39;s en acties in deze app wilt verkennen, kunt u de paginadimensie naar meerdere plaatsen slepen, afhankelijk van wat u wilt verkennen:
 
-* Sleep het naar een van de uiteinden van de neerzetzone (binnen de met zwart omgezette rechthoekige zone die wordt weergegeven) om de bovenste resultaten aan de uiteinden te **vervangen** :
+* Sleep het naar een van de uiteinden van de neerzetzone (binnen de met zwart omgezette rechthoekige zone die wordt weergegeven) naar **vervang** de bovenste resultaten aan de uiteinden:
 
    ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
-* Sleep het naar de witruimte aan het einde (let op de zwarte haak) om het **aan** de visualisatie toe te voegen:
+* Sleep het naar de witruimte aan het einde (let op de zwarte haak) om **aan** de visualisatie toe te voegen:
 
    ![](assets/multi-dimensional-flow4.png)
 
