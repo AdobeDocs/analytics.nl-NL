@@ -1,16 +1,21 @@
 ---
-description: Met de functie Uitvallen in de analysewerkruimte kunt u afmetingen en metriek combineren en afstemmen als aanraakpunten in trechters en workflows. Dit geeft u meer flexibiliteit bij het bepalen van de gebruikersstappen u wilt onderzoeken.
+description: Met de val in Analysis Workspace kunt u dimensies en metriek combineren en afstemmen als aanraakpunten in trechters en workflows. Dit geeft u meer flexibiliteit bij het bepalen van de gebruikersstappen u wilt onderzoeken.
 title: Interdimensionale uitval
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
+feature: Visualisaties
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 2%
 
 ---
 
 
 # Interdimensionale uitval
 
-Met de functie Uitvallen in de analysewerkruimte kunt u afmetingen en metriek combineren en afstemmen als aanraakpunten in trechters en workflows. Dit geeft u meer flexibiliteit bij het bepalen van de gebruikersstappen u wilt onderzoeken.
+Met de val in Analysis Workspace kunt u dimensies en metriek combineren en afstemmen als aanraakpunten in trechters en workflows. Dit geeft u meer flexibiliteit bij het bepalen van de gebruikersstappen u wilt onderzoeken.
 
 **Voorbeeld**: Naast, bijvoorbeeld, een dimensie van de Pagina, kunt u op actie-gebaseerde afmetingspunten aan een visualisatie van de Vallout toevoegen. Zo kunt u visualiseren hoe pagina&#39;s en bepaalde acties op elkaar inwerken in de paden van klanten.
 
