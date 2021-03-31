@@ -2,10 +2,12 @@
 description: Met kolominstellingen kunt u kolomopmaak configureren, waarvan sommige voorwaardelijk kunnen zijn.
 title: Kolominstellingen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
+feature: Vrije-vormtabellen
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: f2c6cda9743094cf198b4449b9163e3004d9e151
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '707'
 ht-degree: 20%
 
 ---
@@ -15,18 +17,18 @@ ht-degree: 20%
 
 [!UICONTROL Column Settings] Laat u kolom het formatteren vormen, wat waarvan voorwaardelijk kan zijn.
 
-## Bewerken [!UICONTROL Column Settings] {#edit-column-settings}
+## [!UICONTROL Column Settings] {#edit-column-settings} bewerken
 
-Als u toegang wilt krijgen [!UICONTROL Column Settings], sleept u een tabel voor vrije vorm naar het project en klikt u op het tandwielpictogram in de kolomkop.
+Als u [!UICONTROL Column Settings] wilt openen, sleept u een tabel voor vrije vorm naar het project en klikt u op het tandwielpictogram in de kolomkop.
 
 ![](assets/column_settings.png)
 
-U kunt instellingen **voor meerdere kolommen tegelijk** bewerken. Dit is heel eenvoudig: selecteer meerdere kolommen en klik op het instellingenpictogram van een van de kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle kolommen waarin u cellen hebt geselecteerd.
+U kunt instellingen **voor meerdere kolommen tegelijk bewerken**. Dit is heel eenvoudig: selecteer meerdere kolommen en klik op het instellingenpictogram van een van de kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle kolommen waarin u cellen hebt geselecteerd.
 
 | Element | Beschrijving |
 | --- | --- |
 | **Totaal aantal cellen** |  |
-| Totalen tonen | Dit totaal is doorgaans gelijk aan of een subset van de [!UICONTROL Grand Total]code. Het geeft alle tabelfilters weer die binnen de vrije-vormtabel worden toegepast, inclusief de [!UICONTROL Include None] optie. |
+| Totalen tonen | Dit totaal is doorgaans gelijk aan of een subset van [!UICONTROL Grand Total]. Het geeft alle tabelfilters weer die binnen de vrije-vormtabel worden toegepast, inclusief de optie [!UICONTROL Include None]. |
 | Totaal-generaal tonen | Dit totaal vertegenwoordigt alle treffers die zijn verzameld, soms genoemd &quot;rapportsuite total&quot;. Wanneer een segment wordt toegepast op deelvensterniveau of binnen de vrije-vormtabel, wordt dit totaal aangepast aan alle resultaten die overeenkomen met de segmentcriteria. Groot totaal wordt niet ondersteund voor tabellen of uitsplitsingen met [statische rijen](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | **Tabelcellen** |  |
 | Getal | Hiermee wordt bepaald of in een cel de numerieke waarde voor de metrische waarde wordt weergegeven of verborgen. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
@@ -39,7 +41,7 @@ U kunt instellingen **voor meerdere kolommen tegelijk** bewerken. Dit is heel ee
 | Voorwaardelijke opmaak | Zie de onderstaande paragraaf. |
 | Voorvertoning tabelcel | Toont een voorproef van hoe elke cel met de momenteel geselecteerde opmaakopties wordt getoond. |
 
-## Conditional formatting {#conditional-formatting}
+## Voorwaardelijke opmaak {#conditional-formatting}
 
 Met voorwaardelijke opmaak wordt opmaak toegepast op de bovenste, middelste en onderste limieten die u kunt definiëren. Het toepassen van voorwaardelijke opmaak (kleuren, enz.) in Freeform-tabellen wordt ook automatisch ingeschakeld voor onderverdelingen, tenzij &quot;Aangepaste&quot; limieten zijn geselecteerd.
 
@@ -60,7 +62,7 @@ Analysis Workspace ondersteunt [attributie](/help/analyze/analysis-workspace/att
 
    ![Selectievakje voor kenmerken](assets/attribution-checkbox.png)
 
-1. Onder **[!UICONTROL Data Settings]**, controleer **[!UICONTROL Use non-default attribution model]**. Zie [Attributiemodellen](/help/analyze/analysis-workspace/attribution/models.md)voor meer informatie over verschillende attributiemodellen.
+1. Controleer **[!UICONTROL Use non-default attribution model]** onder **[!UICONTROL Data Settings]**. Zie [Attributiemodellen](/help/analyze/analysis-workspace/attribution/models.md) voor meer informatie over verschillende attributiemodellen.
 
    ![Kenmerkingsmodel selecteren](assets/attribution-select.png)
 
