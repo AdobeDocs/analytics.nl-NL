@@ -1,11 +1,12 @@
 ---
 title: Best practices en probleemoplossing rapporteren
 description: Tips voor aanbevolen procedures en probleemoplossing bij het genereren van rapporten.
-keywords: best practices;failure;timeout;troubleshooting;slow
+keywords: aanbevolen procedures;fout;timeout;problemen;traag
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # Best practices en probleemoplossing rapporteren
 
-*Deze Help-pagina verwijst naar best practices voor rapporten en analyses. Voor de Werkruimte van de Analyse, zie de Prestaties[van de Werkruimte van de Analyse](../analysis-workspace/workspace-faq/optimizing-performance.md)optimaliseren. Voor Data Warehouse, zie de beste praktijken[van het](/help/export/data-warehouse/data-warehouse-bp.md)Pakhuis van Gegevens.*
+*Deze Help-pagina verwijst naar best practices voor rapporten en analyses. Zie [Analysis Workspace-prestaties optimaliseren](../analysis-workspace/workspace-faq/optimizing-performance.md) voor Analysis Workspace. Voor Data Warehouse, zie [beste praktijken van de Data Warehouse](/help/export/data-warehouse/data-warehouse-bp.md).*
 
 Adobe Analytics biedt een flexibele rapportinterface waarmee u diverse complexe rapporten kunt genereren. Terwijl de meeste rapporten zeer snel produceren, kunt u rapporten ontmoeten die onderbreking of er niet in slagen om te produceren. Deze pagina verklaart factoren die de snelheid van de rapportgeneratie beïnvloeden. Kennis van deze informatie kan u helpen rapporten te structureren, zodat deze beter met succes kunnen worden gegenereerd.
 
@@ -36,6 +37,6 @@ De volgende factoren dragen aan langere rapportgeneratietijden bij. Het verhogen
 
 De volgende richtlijnen helpen betrouwbaarheid van rapportlevering verhogen:
 
-* Het Pakhuis van Gegevens van het gebruik om rapporten te verzoeken die vele onderverdelingen of metriek bevatten. Het Pakhuis van gegevens wordt ontworpen om deze types van rapporten te produceren.
+* Gebruik Data Warehouse om rapporten aan te vragen die vele onderverdelingen of metriek bevatten. Data Warehouse wordt ontworpen om deze types van rapporten te produceren.
 * Plan rapporten die tijdens niet-piekuren moeten worden uitgevoerd. Dit verhoogt de waarschijnlijkheid van een rapport terugkerend omdat de verzoekrij voor een rapportreeks eerder tijdens die tijden leeg zal zijn.
-* De Bouwer van het rapport kan worden gebruikt om rapporten in kleinere tijdwaaiers en verzoeken te breken die minder metriek bevatten. U kunt inheemse functionaliteit van Excel dan gebruiken om gegevens van diverse verzoeken in één enkel rapport samen te voegen.
+* Report Builder kan worden gebruikt om rapporten in kleinere tijdwaaiers en verzoeken te breken die minder metriek bevatten. U kunt inheemse functionaliteit van Excel dan gebruiken om gegevens van diverse verzoeken in één enkel rapport samen te voegen.
