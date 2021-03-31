@@ -1,10 +1,14 @@
 ---
 description: Stappen die beschrijven hoe te om de grafiek aan te passen zodat het voor het voorgenomen publiek het nuttigst is.
 title: Rapportgrafieken wijzigen
-topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
+feature: Grondbeginselen van rapporten en analyses
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +29,7 @@ Het type grafieken dat beschikbaar is, is afhankelijk van het type rapport dat u
 
    ![](assets/graph_trend_line.png)
 
-   **[!UICONTROL Smooth Line]**: U gebruikt dit grafiektype met het [!UICONTROL Video Detail Report]. Het toont de aantallen of de percentages van meningen voor specifieke segmenten van een video. Een toename in weergaven voor een specifiek segment van de video geeft aan dat viewers dat gedeelte van de video meerdere keren hebben teruggespoeld en bekeken. Als u percentages gebruikt, is het percentage in de grafiek een percentage van alle weergegeven segmenten, niet een percentage van de kijkers die het segment zagen. In de grafiek is de som van alle rapportsegmenten bijvoorbeeld 39. Het aantal meningen voor het 0 tot 10 secondensegment is 10. Daarom is het percentage van meningen voor dit segment ongeveer 26 percenten.
+   **[!UICONTROL Smooth Line]**: U gebruikt dit grafiektype met het  [!UICONTROL Video Detail Report]. Het toont de aantallen of de percentages van meningen voor specifieke segmenten van een video. Een toename in weergaven voor een specifiek segment van de video geeft aan dat viewers dat gedeelte van de video meerdere keren hebben teruggespoeld en bekeken. Als u percentages gebruikt, is het percentage in de grafiek een percentage van alle weergegeven segmenten, niet een percentage van de kijkers die het segment zagen. In de grafiek is de som van alle rapportsegmenten bijvoorbeeld 39. Het aantal meningen voor het 0 tot 10 secondensegment is 10. Daarom is het percentage van meningen voor dit segment ongeveer 26 percenten.
 
    ![](assets/graph_smooth_line.png)
 
@@ -41,7 +45,7 @@ Het type grafieken dat beschikbaar is, is afhankelijk van het type rapport dat u
 
    ![](assets/graph_vertical_bars.png)
 
-   **[!UICONTROL Stacked Vertical Bar]**: Door vergelijkbare items te stapelen, kunt u snel de totale invloed van een item zien. Bijvoorbeeld, in een [!UICONTROL Campaign Report], kunt u gelijkaardige succesmetriek stapelen en zien welke campagne het meeste succes produceert. Met stapelen is het gemakkelijker om campagnes te vinden die niet de beste uitvoerders in één metrische eenheid zijn, maar die de beste uitvoerders zijn in een combinatie van metriek.
+   **[!UICONTROL Stacked Vertical Bar]**: Door vergelijkbare items te stapelen, kunt u snel de totale invloed van een item zien. Bijvoorbeeld, in [!UICONTROL Campaign Report], kunt u gelijkaardige succesmetriek stapelen en zien welke campagne het meeste succes produceert. Met stapelen is het gemakkelijker om campagnes te vinden die niet de beste uitvoerders in één metrische eenheid zijn, maar die de beste uitvoerders zijn in een combinatie van metriek.
 
    ![](assets/graph_stacked_vertical.png)
 
