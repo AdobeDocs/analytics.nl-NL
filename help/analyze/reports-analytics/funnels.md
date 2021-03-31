@@ -1,12 +1,13 @@
 ---
 description: Met conversieverhoudingen wordt meestal de conversie gemeten tussen de gebeurtenissen of punten van een conversieproces die beginnen, eindigen en mijlpaal. Nadat u de succesgebeurtenissen op uw plaats codeert, leidt het rapport tot de verhoudingen tussen deze verschillende succesgebeurtenissen en toont hen in een Rapport van het Trechter van de Omzetting.
 title: Conversiefunnel
-topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
+feature: Grondbeginselen van rapporten en analyses
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
@@ -34,5 +35,5 @@ De rapportlijst toont statistieken voor gemiddelde verkoop per klik-door, en gem
 
 >[!NOTE]
 >
->Instanties in het kader van deze verslagen komen overeen met het totale aantal bezoeken waar een Var of evenement is gedefinieerd.
+>Instanties in het kader van deze verslagen komen overeen met het totale aantal bezoeken waar een eVar of gebeurtenis is gedefinieerd.
 
