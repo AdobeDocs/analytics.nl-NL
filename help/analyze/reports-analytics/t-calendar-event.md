@@ -1,13 +1,14 @@
 ---
 description: Stappen om kalendergebeurtenissen toe te voegen en gedeelde gebeurtenissen te beheren.
 title: Kalendergebeurtenissen
-topic: Reports and analytics
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
+feature: Kalender
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 97%
+source-wordcount: '313'
+ht-degree: 95%
 
 ---
 
@@ -35,6 +36,7 @@ Voor rapporten met trends in de loop van de tijd kunt u gebeurtenissen grafisch 
    1. Klik op **[!UICONTROL Push To Users]**.
    1. Klik op **[!UICONTROL Check All]** of schakel het selectievakje naast de gebruikersna(a)m(en) in.
    1. Klik op **[!UICONTROL Save]**.
+
    Hierdoor worden kalendergebeurtenissen veel bruikbaarder. Analisten hebben nu de mogelijkheid om een overlay op de rapporten van hun gebruikers af te dwingen om meer context te verstrekken.
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. Geef onder Gedeelde agendagebeurtenissen een van de volgende opties op:
