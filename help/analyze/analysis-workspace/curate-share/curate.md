@@ -2,11 +2,13 @@
 description: Met Curatie kunt u componenten beperken voordat u een project deelt.
 keywords: Analysis Workspace curation
 title: Cursieve projecten
+feature: Curven en delen
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '523'
+ht-degree: 2%
 
 ---
 
@@ -46,7 +48,7 @@ U kunt als volgt de projectcuratie verwijderen en de volledige set componenten i
 
 ## Cursus Virtual Report Suite (VRS)
 
-Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport (VRS) [ leiden.](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)
+Om curatie op een rapport-reeks niveau toe te passen, zodat het op vele projecten in één keer van toepassing is, kunt u componenten in een Virtuele Reeks van het Rapport (VRS) ](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html) leiden.[
 
 >[!NOTE]
 > De kromming van VRS wordt altijd toegepast vóór projectkromming. Dit betekent dat zelfs als uw gebogen project bepaalde componenten omvat, zij uit zullen worden gefiltreerd als het gebogen VRS hen niet omvat.
