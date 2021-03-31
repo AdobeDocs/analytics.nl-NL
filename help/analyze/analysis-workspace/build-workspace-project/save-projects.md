@@ -1,21 +1,23 @@
 ---
 description: Leer meer over de verschillende opslagopties, zoals automatisch opslaan, opslaan als en opslaan als sjabloon.
 title: Projecten opslaan
+feature: Basisprincipes van werkruimte
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: a70f2c6c8aecae9a8a4e22e460dd2b8e6b885db9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '308'
 ht-degree: 3%
 
 ---
 
 # Projecten opslaan
 
-Ga naar het **[!UICONTROL Project]** menu Werkruimte om uw wijzigingen in een project op te slaan. Bovendien slaat Adobe projecten in bepaalde gevallen automatisch op.
+Als u uw wijzigingen in een project wilt opslaan, gaat u naar het menu Werkruimte **[!UICONTROL Project]**. Bovendien slaat Adobe projecten in bepaalde gevallen automatisch op.
 
 ## Projectopties opslaan {#Save}
 
-Er zijn verschillende opslaghandelingen die u onder het **[!UICONTROL Project]** menu kunt uitvoeren, afhankelijk van de manier waarop u in de toekomst toegang wilt krijgen tot de analyse.
+Er zijn verschillende opslaghandelingen die u kunt uitvoeren in het menu **[!UICONTROL Project]**, afhankelijk van de manier waarop u in de toekomst toegang wilt krijgen tot uw analyse.
 
 | Handeling | Beschrijving |
 |---|---| 
@@ -25,7 +27,7 @@ Er zijn verschillende opslaghandelingen die u onder het **[!UICONTROL Project]**
 
 ![](assets/save-project.png)
 
-## Automatisch opslaan {#Autosave}
+## {#Autosave} automatisch opslaan
 
 Bestaande projecten, d.w.z. projecten die minstens één keer eerder zijn opgeslagen, worden elke twee minuten automatisch opgeslagen op uw lokale computer. Nieuwe projecten die nog nooit zijn opgeslagen, worden momenteel niet automatisch opgeslagen.
 
@@ -45,7 +47,7 @@ De browser waarschuwt dat niet-opgeslagen wijzigingen verloren gaan. U kunt kiez
 
 ### Browsercrashes of sessietijden uit
 
-Voor **bestaande** projecten ziet de gebruiker bij het terugkeren naar Workspace een **projectherstelmodus** . Als u Ja selecteert, wordt het project hersteld met de automatisch opgeslagen lokale kopie. Met Nee verwijdert u de automatisch opgeslagen lokale kopie en opent u de laatst door de gebruiker opgeslagen versie van het project.
+Voor **bestaande** projecten, bij het terugkeren naar Workspace, zal de gebruiker een **projectterugwinning** modaal zien. Als u Ja selecteert, wordt het project hersteld met de automatisch opgeslagen lokale kopie. Met Nee verwijdert u de automatisch opgeslagen lokale kopie en opent u de laatst door de gebruiker opgeslagen versie van het project.
 
 ![](assets/project-recovery.png)
 
