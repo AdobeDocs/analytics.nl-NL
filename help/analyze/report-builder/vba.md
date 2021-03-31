@@ -1,10 +1,12 @@
 ---
 title: Visual Basic-macro's in Report Builder
 description: Breid de functionaliteit van de werkboeken van Excel en Report Builder uit gebruikend VBA.
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -22,7 +24,7 @@ Adobe ondersteunt drie Report Builder API-methoden. Zorg ervoor dat de recentste
 
 ## `RefreshAllReportBuilderRequests()`
 
-De `RefreshAllReportBuilderRequests()` macro verfrist alle verzoeken van Report Builder in het actieve werkboek. Het begint door Report Builder Com toe:voegen-binnen door zijn identiteitskaart van het Product te roepen, dan roept het `RefreshAllRequests()` API bevel:
+De macro `RefreshAllReportBuilderRequests()` vernieuwt alle verzoeken van Report Builder in het actieve werkboek. Het begint door Report Builder Com toe:voegen-binnen door zijn identiteitskaart van het Product te roepen, dan roept `RefreshAllRequests()` API bevel:
 
 ```vba
 Sub RefreshAllReportBuilderRequests()
@@ -39,7 +41,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInActiveWorksheet()`
 
-De `RefreshAllReportBuilderRequestsInActiveWorksheet()` macro vernieuwt alle verzoeken van de Report Builder in het actieve aantekenvel. De `RefreshWorksheetRequests()` API-aanroep neemt een werkbladobject als argument. U kunt deze vraag voor om het even welk aantekenvel gebruiken dat Report Builder verzoeken bevat:
+Met de macro `RefreshAllReportBuilderRequestsInActiveWorksheet()` worden alle Report Builder-aanvragen in het actieve werkblad vernieuwd. De `RefreshWorksheetRequests()` API vraag neemt een aantekenvelvoorwerp als argument. U kunt deze vraag voor om het even welk aantekenvel gebruiken dat Report Builder verzoeken bevat:
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInActiveWorksheet()
@@ -56,7 +58,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInCellsRange()`
 
-De `RefreshAllReportBuilderRequestsInCellsRange()` macro vernieuwt alle Report Builder-aanvragen waarvan de celuitvoer het opgegeven celbereik doorsnijdt. De celwaaier die in dit voorbeeld wordt gebruikt richt aan de waaier `B1:B54` van het &quot;aantekenvel van Gegevens&quot;binnen het actieve werkboek. De bereikexpressie ondersteunt alle ondersteunde Excel-bereikexpressies:
+Met de macro `RefreshAllReportBuilderRequestsInCellsRange()` worden alle Report Builder-aanvragen vernieuwd waarvan de celuitvoer het opgegeven celbereik doorsnijdt. De celwaaier die in dit voorbeeld wordt gebruikt richt aan de waaier `B1:B54` van het aantekenvel van &quot;Gegevens&quot;binnen het actieve werkboek. De bereikexpressie ondersteunt alle ondersteunde Excel-bereikexpressies:
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInCellsRange()
