@@ -1,25 +1,29 @@
 ---
 description: Op het tabblad Paginadetails wordt het Pagina-rapport weergegeven als een tabel en het Pagina-stroomrapport wordt weergegeven als een vlinderdas-rapport (vlinderdas).
-title: Paginagegevens
-topic: Activity map
+title: Paginadata
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
 
-# Paginagegevens
+# Paginadata
 
 Op het tabblad Paginadetails wordt het Pagina-rapport weergegeven als een tabel en het Pagina-stroomrapport wordt weergegeven als een vlinderdas-rapport (vlinderdas).
 
 ![](assets/page_flow.png)
 
-## Paginarapport {#section_2335A9EFE57B4A7687B397DF2098CC6B}
+## Paginapport {#section_2335A9EFE57B4A7687B397DF2098CC6B}
 
 In dit deelvenster ziet u de verkeersmaatstaven voor de bezochte webpagina. Als u naar een webpagina gaat waarop de pagina Analytics niet is geïmplementeerd, wordt het deelvenster niet weergegeven.
 
-## Rapport Paginastroom {#section_D6EDE78CF7124758BF846E57ADABA234}
+## Rapport voor paginastroom {#section_D6EDE78CF7124758BF846E57ADABA234}
 
 Links ziet u de vorige pagina&#39;s en referenties (extern), die u kunt uitbreiden om de vier bovenste items voor elke categorie weer te geven.
 
