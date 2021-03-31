@@ -2,11 +2,13 @@
 description: Gebruik de stroomvisualisatie in een project van de Werkruimte.
 title: Overzicht van stroom
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
+feature: Visualisaties
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 1%
+source-wordcount: '212'
+ht-degree: 2%
 
 ---
 
