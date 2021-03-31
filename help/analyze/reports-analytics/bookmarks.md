@@ -2,10 +2,14 @@
 description: Bladwijzers geven u toegang tot de rapporten die u het meest gebruikt. De bladwijzers die u maakt, worden toegevoegd aan de Experience Cloud en zijn beschikbaar in geïntegreerde functies zoals gegevensconnectors.
 subtopic: Bookmarks
 title: Bladwijzerbeheer
-topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
+feature: Grondbeginselen van rapporten en analyses
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 2%
 
 ---
 
@@ -27,14 +31,14 @@ t_bookmarks_creating.xml
 1. Voer een rapport uit en klik op **[!UICONTROL Bookmark.]**.
 
        |Naam|Een gebruiksvriendelijke naam voor deze bladwijzer.|
-    |—|—|
-    |Toevoegen aan|Hier geeft u de map op waarin u de bladwijzer wilt plaatsen.|
-    |Openbaar maken| Deze bladwijzer beschikbaar maken voor gebruikers met toegang tot de rapportsuite.|
-    |Rapport weergeven bij aanmelden| Geeft het rapport weer wanneer u zich aanmeldt.|
+       |—||
+       |Toevoegen aan|Hier geeft u de map op waarin u de bladwijzer wilt plaatsen.|
+       |Openbaar maken| Hiermee maakt u deze bladwijzer beschikbaar voor gebruikers met toegang tot de rapportsuite.|
+       |Rapport weergeven bij aanmelden| Het rapport wordt weergegeven wanneer u zich aanmeldt.|
    
-## Bladwijzers beheren {#task_1EE793CB52EA467787817BBD98DEF150}
+## Bladwijzers {#task_1EE793CB52EA467787817BBD98DEF150} beheren
 
-Nadat u rapportbladwijzers hebt gemaakt, kunt u deze beheren in de [!UICONTROL Bookmark Manager]map. U kunt uw bladwijzers en mappen vanaf een centrale locatie bewerken, verwijderen en ordenen.
+Nadat u rapportbladwijzers hebt gemaakt, kunt u deze beheren in [!UICONTROL Bookmark Manager]. U kunt uw bladwijzers en mappen vanaf een centrale locatie bewerken, verwijderen en ordenen.
 
 <!-- 
 
@@ -76,7 +80,7 @@ t_bookmarks_managing.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/bookmark_schedule.png" id="image_B7B23C1C67F04DF096149DCDF8C0FE5F"> </img> </p> </td> 
-   <td colname="col2"> <p> Hiermee weet u dat deze bladwijzer is gepland voor levering. Klik deze optie om het programma te vormen, gebruikend de Geavanceerde Opties <span class="wintitle"></span>van de Levering. </p> </td> 
+   <td colname="col2"> <p> Hiermee weet u dat deze bladwijzer is gepland voor levering. Klik deze optie om het programma te vormen, gebruikend <span class="wintitle"> Geavanceerde Opties van de Levering</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,7 +101,7 @@ t_bookmarks_managing.xml
   </tr> 
   <tr> 
    <td colname="col1"> Kopieer mij </td> 
-   <td colname="col2"> <p>Hiermee maakt u een kopie van de bladwijzers en plaatst u deze in een standaardmap in de kolom <span class="uicontrol"> Bladwijzers</span> . </p> </td> 
+   <td colname="col2"> <p>Maakt een kopie van de bladwijzers en plaatst deze in een standaardmap in de kolom <span class="uicontrol"> Bladwijzers</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> In menu </td> 
