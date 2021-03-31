@@ -1,13 +1,14 @@
 ---
 description: Alle bookmarked rapporten en dashboardrapporten zijn nu vermeld als dimensies in Stap 1 van de Tovenaar van het Verzoek en kunnen als verzoeken van de rapportaannemer worden ingevoerd.
 title: Gebookmarkte rapporten en dashboardrapporten importeren
-topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 3%
+source-wordcount: '340'
+ht-degree: 4%
 
 ---
 
@@ -22,11 +23,11 @@ Dit is hoe Stap 1 van de Tovenaar van het Verzoek een dashboard en zijn rapporte
 
 ![](assets/import_dashboard_reportlet.png)
 
-Wanneer u klikt **[!UICONTROL Retrieve your Dashboards]** of **[!UICONTROL Retrieve your Bookmarks]**, worden uw bestaande dashboard- en/of bladwijzergegevens opgehaald en in het werkblad geplakt.
+Wanneer u op **[!UICONTROL Retrieve your Dashboards]** of **[!UICONTROL Retrieve your Bookmarks]** klikt, worden uw bestaande dashboard- en/of bladwijzergegevens opgehaald en in het werkblad geplakt.
 
 >[!NOTE]
 >
->In de Bouwer van het Rapport, is de lijst van beschikbare dashboards en referenties beperkt tot de gebruiker maar ook tot degenen die op de rapportreeks van toepassing zijn u in Stap 1 van de tovenaar selecteerde. In marketingrapporten en -analyses hebt u daarentegen toegang tot alle bladwijzers en dashboards die voor u toegankelijk zijn, ongeacht de rapportsuites die deze dashboard en bladwijzers gebruiken.
+>In Report Builder, is de lijst van beschikbare dashboards en referenties beperkt tot de gebruiker maar ook tot degenen die op de rapportreeks van toepassing zijn u in Stap 1 van de tovenaar selecteerde. In marketingrapporten en -analyses hebt u daarentegen toegang tot alle bladwijzers en dashboards die voor u toegankelijk zijn, ongeacht de rapportsuites die deze dashboard en bladwijzers gebruiken.
 
 >[!NOTE]
 >
@@ -34,9 +35,9 @@ Wanneer u klikt **[!UICONTROL Retrieve your Dashboards]** of **[!UICONTROL Retri
 
 Zodra u een verzoek door een dashboardrapport (of een referentie) in te voeren hebt gecreeerd, zal het verzoek dan aan de primaire dimensie van het rapport (of van de referentie) worden geassocieerd. Als u de aanvraag bewerkt, wordt in de structuurweergave het knooppunt voor de weergave van de rapportboomstructuur van het dashboard (of het knooppunt bladwijzer) niet meer geselecteerd: in plaats daarvan wordt de primaire dimensie geselecteerd .
 
-De geïmporteerde bladwijzer stelt de rapportsuite, het geselecteerde segment, de dimensie en de geselecteerde metriek op de juiste wijze in voor dezelfde parameters die in de bladwijzer Rapporten &amp; Analytics worden weergegeven.
+De geïmporteerde bladwijzerplaat zal de rapportsuite, het geselecteerde segment, de dimensie en de geselecteerde metriek op de juiste wijze instellen voor dezelfde parameters die in de bladwijzer Rapporten &amp; analyse worden weergegeven.
 
 >[!IMPORTANT]
 >
->Het datumbereik wordt ingesteld op hetzelfde datumbereik, maar als een statisch datumbereik, zelfs als dit datumbereik een schuifdatumbereik is in de bladwijzer Rapporten &amp; Analytics.
+>Het datumbereik wordt ingesteld op hetzelfde datumbereik, maar als een statisch datumbereik, zelfs als dit datumbereik een verschuivingsdatumbereik is in de bladwijzer Rapporten en analyse.
 
