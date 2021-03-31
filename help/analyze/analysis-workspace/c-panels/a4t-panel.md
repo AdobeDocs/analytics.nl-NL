@@ -1,10 +1,12 @@
 ---
 description: Met Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace analyseren.
 title: Analyses voor venster Doel (A4T)
+feature: Deelvensters
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 6f86a45ae745df86f1f6fc924d995437b9992484
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1107'
 ht-degree: 1%
 
 ---
@@ -43,7 +45,7 @@ Elke vrije-vormlijst toont de volgende metrische kolommen:
 |---|---|
 | Metriek normaliseren | Unieke bezoekers, bezoeken of activiteitsimpressies. |
 | Metrisch met succes | De metrische waarde die is geselecteerd in de builder |
-| Omrekeningskoers | Metrisch/Normaliserend met succes |
+| Conversiepercentage | Metrisch/Normaliserend met succes |
 | Optillen | Vergelijkt de omrekeningskoers voor elke ervaring met controle. Opmerking: Lift is &quot;gesloten metrisch&quot;aan de Ervaringen van het Doel; het kan niet worden uitgesplitst of met andere afmetingen worden gebruikt. |
 | Lift (onder) | Vertegenwoordigt de slechtste lift die een variantervaring over de controle, met een 95% betrouwbaarheidsinterval kon hebben.<br>Berekening: (x/y ± 1,96 std_err(x,y)) / (x_control/y_control ∓ 1,96 std_err(x_control,y_control)). Hier is std_err(x,y) sqrt(xx/y - (x/y)^2), waarbij xx de som van de vierkanten aangeeft. |
 | Lift (middellang) | Vertegenwoordigt de middelpuntlift een variantervaring over de controle, met een 95% betrouwbaarheidsinterval kon hebben. Dit is &quot;optillen&quot;in Rapporten &amp; Analytics.<br>Berekening: (x/y)/(x_control/y_control) - 1 |
