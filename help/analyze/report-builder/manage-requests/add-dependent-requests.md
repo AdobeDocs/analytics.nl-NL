@@ -1,13 +1,14 @@
 ---
 description: Een afhankelijk verzoek is een verzoek dat van een bestaand verzoek afhankelijk is.
 title: Afhankelijke aanvragen toevoegen
-topic: Report builder
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 5%
+source-wordcount: '107'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +21,7 @@ Voor rapporten met correlatieonderverdelingen die binnen de rapportlijst worden 
 
 >[!NOTE]
 >
->U kunt ook een verzoek tot uitsplitsing toevoegen tijdens het maken van de oorspronkelijke aanvraag. See [Create a Data Request](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
+>U kunt ook een verzoek tot uitsplitsing toevoegen tijdens het maken van de oorspronkelijke aanvraag. Zie [Een gegevensverzoek maken](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
 
 >[!NOTE]
 >
