@@ -1,12 +1,13 @@
 ---
 description: De rapportbouwer gebruikt de aangepaste kalender Analytics. U kunt de kalender gebruiken om de eerste dag van de week en het jaar te bepalen, of een verschillende stijl van de detailhandelkalender te gebruiken. De kalenderformaten worden gebruikt voor diverse doeleinden, met inbegrip van verkoopvergelijking en voorspelde standaardisering, loonkostenanalyse, of de fysieke verordening van het inventarisaantal.
 title: Aangepaste kalender
-topic: Report builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '385'
 ht-degree: 1%
 
 ---
