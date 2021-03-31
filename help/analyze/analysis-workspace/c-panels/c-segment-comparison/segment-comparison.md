@@ -1,11 +1,13 @@
 ---
 title: Overzicht van het vergelijkingspaneel voor segmenten
 description: Leer hoe u het vergelijkingspaneel voor segmenten gebruikt, onderdeel van de IQ voor segmenten in Analysis Workspace.
-keywords: Analysis Workspace;Segment IQ
+keywords: Analysis Workspace;Segment-IQ
+feature: Deelvensters
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1134'
 ht-degree: 4%
 
 ---
@@ -13,7 +15,7 @@ ht-degree: 4%
 
 # Overzicht van het vergelijkingspaneel voor segmenten
 
-Het vergelijkingspaneel Segment is een tool part van [Segment IQ](../../segment-iq.md) dat de statistisch meest significante verschillen tussen een onbeperkt aantal segmenten ontdekt. De functie doorloopt een geautomatiseerde analyse van alle dimensies en metriek waartoe u toegang hebt. Het ontdekt automatisch zeer belangrijke kenmerken van de publiekssegmenten die KPIs van uw bedrijf drijven en laat u zien hoeveel om het even welke segmenten overlappen.
+Het vergelijkingspaneel Segment is een hulpprogrammaonderdeel van [Segment IQ](../../segment-iq.md) dat de statistisch meest significante verschillen tussen een onbeperkt aantal segmenten ontdekt. De functie doorloopt een geautomatiseerde analyse van alle dimensies en metriek waartoe u toegang hebt. Het ontdekt automatisch zeer belangrijke kenmerken van de publiekssegmenten die KPIs van uw bedrijf drijven en laat u zien hoeveel om het even welke segmenten overlappen.
 
 ## Een vergelijkingspaneel voor segmenten maken
 
@@ -30,11 +32,11 @@ Het vergelijkingspaneel Segment is een tool part van [Segment IQ](../../segment-
 
    ![Soorten publiek vergelijken](assets/compare-audiences.png)
 
-   Nadat u een segment naar het deelvenster hebt gesleept, maakt Analytics automatisch een [!UICONTROL 'Everyone Else'] segment waarin alle NOT-personen zijn opgenomen in het segment dat u hebt gekozen. Het is een vaak gebruikt segment in het vergelijkingspaneel, maar u kunt het wel verwijderen en een ander keuzesegment vergelijken.
+   Nadat u een segment naar het deelvenster hebt gesleept, maakt Analytics automatisch een [!UICONTROL 'Everyone Else']-segment dat alle NOT-elementen bevat in het segment dat u hebt gekozen. Het is een vaak gebruikt segment in het vergelijkingspaneel, maar u kunt het wel verwijderen en een ander keuzesegment vergelijken.
 
    ![Alle anderen](assets/everyone-else.png)
 
-1. Klik op de twee segmenten die u wilt vergelijken [!UICONTROL Build].
+1. Nadat u hebt bepaald welke twee segmenten moeten worden vergeleken, klikt u op [!UICONTROL Build].
 
    Deze actie begint een achterste proces dat statistische verschillen tussen de twee geselecteerde segmenten en alle dimensies, metriek en andere segmenten zoekt. Een voortgangsbalk boven in het deelvenster geeft de resterende tijd aan totdat elke meting en dimensie wordt geanalyseerd. De meest gebruikte metriek, de afmetingen, en de segmenten worden voorrang gegeven aan looppas eerst zodat zijn de meest relevante resultaten op een geschikte manier teruggekeerd.
 
@@ -42,8 +44,8 @@ Het vergelijkingspaneel Segment is een tool part van [Segment IQ](../../segment-
 
 Soms is het gewenst om bepaalde afmetingen, maateenheden of segmenten uit te sluiten van segmentvergelijkingen. U wilt bijvoorbeeld het segment &#39;Amerikaanse mobiele gebruikers&#39; vergelijken met &#39;Duitse mobiele gebruikers&#39;. Het zou niet zinvol zijn om geografische dimensies op te nemen, aangezien deze segmenten al deze verschillen inhouden.
 
-1. Klik op de gewenste twee segmenten in het deelvenster [!UICONTROL 'Show Advanced Options'].
-1. Sleep componenten die u wilt uitsluiten naar het [!UICONTROL Excluded Components] deelvenster.
+1. Nadat de gewenste twee segmenten in het paneel zijn, klik [!UICONTROL 'Show Advanced Options'].
+1. Sleep componenten die u wilt uitsluiten naar het [!UICONTROL Excluded Components]-deelvenster.
 
    ![Uitgesloten onderdelen](assets/excluded-components.png)
 
@@ -97,11 +99,11 @@ Deze visualisatie lijkt op vrije-vormtabellen in Analysis Workspace. Als u een d
 
 >[!NOTE]
 >
->Dimensie-items die aan deze tabel worden toegevoegd nadat de gesegmenteerde vergelijking is voltooid, ontvangen geen Andere score.
+>De punten van Dimension die aan deze lijst worden toegevoegd nadat de segmentvergelijking heeft gebeëindigd ontvangen geen Score van het Verschil.
 
 ![Bovenste afmetingen](assets/top-dimension-item1.png)
 
-### Dimensie-items per segment
+### Dimension-items per segment
 
 Rechts van de tabel met afmetingen bevindt zich een gekoppelde staafdiagramvisualisatie. Het toont alle getoonde afmetingspunten in een staafdiagram. Als u op een regelitem in de tabel links klikt, wordt de visualisatie rechts bijgewerkt.
 
