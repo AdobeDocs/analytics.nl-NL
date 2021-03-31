@@ -1,17 +1,21 @@
 ---
-description: Met vooraf ingestelde datums kunt u veelgebruikte datums of datums selecteren die u hebt opgeslagen. Voor Stap 1 van de Tovenaar van het Verzoek, kies Vooraf ingestelde Datums. Hier zijn de gebiedsdefinities voor vooraf ingestelde data in de Bouwer van het Rapport.
-title: Wizard Verzoek om definities - vooraf ingestelde datums
-topic: Report builder
+description: Met vooraf ingestelde datums kunt u veelgebruikte datums of datums selecteren die u hebt opgeslagen. Voor Stap 1 van de Tovenaar van het Verzoek, kies Vooraf ingestelde Datums. Hier volgen de velddefinities voor vooraf ingestelde datums in Report Builder.
+title: Definities wizard Aanvragen - vooringestelde datums
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 5%
 
 ---
 
 
-# Wizard Verzoek om definities - vooraf ingestelde datums
+# Definities wizard Aanvragen - vooringestelde datums
 
-Met vooraf ingestelde datums kunt u veelgebruikte datums of datums selecteren die u hebt opgeslagen. Op de wizard Verzoek: Stap 1, kies Vooraf ingestelde Datums. Hier zijn de gebiedsdefinities voor vooraf ingestelde data in de Bouwer van het Rapport.
+Met vooraf ingestelde datums kunt u veelgebruikte datums of datums selecteren die u hebt opgeslagen. Op de wizard Verzoek: Stap 1, kies Vooraf ingestelde Datums. Hier volgen de velddefinities voor vooraf ingestelde datums in Report Builder.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 
@@ -27,11 +31,11 @@ Met vooraf ingestelde datums kunt u veelgebruikte datums of datums selecteren di
   </tr> 
   <tr> 
    <td colname="col1"> <p> Opgeslagen datumsjablonen </p> </td> 
-   <td colname="col2"> <p>Hier worden de sjablonen voor het datumbereik weergegeven die de huidige gebruiker heeft gemaakt. U kunt datums opslaan op het formulier <span class="wintitle"> Vaste datums</span> . Als u een datumsjabloon hebt opgeslagen voor gebruik met alle rapportsuites, moet u de optie Opgeslagen datumsjablonen <span class="wintitle"> tonen inschakelen voor alle rapportsuites</span> om deze te kunnen selecteren. </p> <p>Zie <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Vaste datums en Opgeslagen datumbereiken</a>. </p> </td> 
+   <td colname="col2"> <p>Hier worden de sjablonen voor het datumbereik weergegeven die de huidige gebruiker heeft gemaakt. U kunt datums opslaan in het formulier <span class="wintitle"> Vaste datums</span>. Als u een datummalplaatje voor gebruik met alle rapportreeksen bewaarde, moet u <span class="wintitle"> tonen Bewaarde Malplaatjes van de Datum voor Alle Reeksen van het Rapport </span> toelaten om het te selecteren. </p> <p>Zie <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Vaste datums en Opgeslagen datumbereiken</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen datumbereik voor alle rapportsets tonen </p> </td> 
-   <td colname="col2"> <p> De malplaatjes van vertoningen die aan alle rapportsuites ter beschikking zijn gesteld. Klik op <span class="wintitle"> Bewerken</span> om opgeslagen datumbereiken te beheren of om het momenteel geselecteerde datumbereik te hernoemen. </p> <p>Zie <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Vaste datums en Opgeslagen datumbereiken</a> voor meer informatie. </p> </td> 
+   <td colname="col2"> <p> De malplaatjes van vertoningen die aan alle rapportsuites ter beschikking zijn gesteld. Klik op <span class="wintitle"> Bewerken</span> om opgeslagen datumbereiken te beheren of om het momenteel geselecteerde opgeslagen datumbereik een andere naam te geven. </p> <p>Zie <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Vaste datums en Opgeslagen datumbereiken</a> voor meer informatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
