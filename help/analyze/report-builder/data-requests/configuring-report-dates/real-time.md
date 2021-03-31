@@ -1,13 +1,14 @@
 ---
 description: Hiermee geeft u webpagina's weer en geeft u de paginaweergaven in real-time weer, zodat u sneller kunt begrijpen wat er op uw site gebeurt.
 title: Realtimerapporten
-topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 2%
+source-wordcount: '266'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 2%
 
 Hiermee geeft u webpagina&#39;s weer en geeft u de paginaweergaven in real-time weer, zodat u sneller kunt begrijpen wat er op uw site gebeurt.
 
-Voor real-time rapportering, gebruikt Analytics high-frequency metrics en site analytics om verkeer en paginameningstrending van dynamische nieuws en detailhandelwebsites visueel te melden. In real time begrijpt tendensen in uw gegevens van minuut aan minuut, binnen seconden van inzameling. Het verzamelt en stroomt gegevens aan de interface, gebruikend correlatie in real time en het volgen van inhoud en wat omzetting.
+Voor rapportering in real time, gebruikt de Analytics hoogfrequente metriek en plaatsanalyses om verkeer en paginameningstrending van dynamische nieuws en detailhandelwebsites visueel te melden. In real time begrijpt tendensen in uw gegevens van minuut aan minuut, binnen seconden van inzameling. Het verzamelt en stroomt gegevens aan de interface, gebruikend correlatie in real time en het volgen van inhoud en wat omzetting.
 
 U kunt:
 
@@ -25,8 +26,8 @@ U kunt:
 * Gebruik een aangepaste gebeurtenis, winkelwagentje of een andere instantie.
 * Bekijk tot 20 uur historische gegevens in real time.
 
-In real time eerbiedigt toestemmingen voor gebruikers en groepen. Bijvoorbeeld, als u geen rechten hebt om opbrengst te zien, kunt u geen rapport in real time bekijken dat opbrengstgegevens omvat. eVars (conversiemetriek) worden niet ondersteund. Real-Time toestemmingen worden toegelaten in de Hulpmiddelen [](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)Admin.
+In real time eerbiedigt toestemmingen voor gebruikers en groepen. Bijvoorbeeld, als u geen rechten hebt om opbrengst te zien, kunt u geen rapport in real time bekijken dat opbrengstgegevens omvat. eVars (conversiemetriek) worden niet ondersteund. Real-Time toestemmingen worden toegelaten in [Admin Hulpmiddelen](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] zijn niet het zelfde als [omvatten Huidige Gegevens](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) (de Recentie van Gegevens) eerder vrijgegeven eigenschap, die latentie voor standaardrapportering verminderden, door gegevens te tonen alvorens het wordt gebeëindigd.
+>[!UICONTROL Real-Time Reports] zijn niet het zelfde als  [omvatten Huidige Gegevens](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html)  (de Recentie van Gegevens) eerder vrijgegeven eigenschap, die latentie voor standaardrapportering vermindert, door gegevens te tonen alvorens het wordt gebeëindigd.
