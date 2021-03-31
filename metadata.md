@@ -2,22 +2,15 @@
 cloud: experience-cloud
 product: analytics
 solution: Analytics
-solution-title: Meer informatie en ondersteuning
-solution-hub-url: https://helpx.adobe.com/nl/support/analytics.html
-solution-image: assets/analytics-icon-24.png
-getting-started-title: Aan de slag
-getting-started-url: https://helpx.adobe.com/analytics/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.nl-NL
 type: Documentatie
 index: true
-description: Omvat meta-gegevens op repo-niveau die tot de dossiers van TOC.md van de gebruikershandleiding in de repo overgaan.
+feature-set: Analytics
 translation-type: tm+mt
-source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 10%
+source-wordcount: '112'
+ht-degree: 0%
 
 ---
 
