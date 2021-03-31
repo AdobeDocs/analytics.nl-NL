@@ -2,10 +2,12 @@
 description: Gebruik het Summiere Aantal en de visualisaties van de Verandering om belangrijke gegevenspunten in een project te tonen.
 title: Cijferoverzicht en Wijzigingsoverzicht
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
+feature: Visualisaties
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: f3f1fdda35552d23767cc9bd64d47c4b99a5900b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '466'
 ht-degree: 5%
 
 ---
@@ -13,7 +15,7 @@ ht-degree: 5%
 
 # Cijferoverzicht en Wijzigingsoverzicht
 
-## Visualisatie overzichtsaantal {#summary-number}
+## Visualisatie van samenvattingsnummer {#summary-number}
 
 Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukken dat in een project belangrijk is. Deze visualisatie werkt op de volgende manieren:
 
@@ -22,7 +24,7 @@ Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukk
 * Als er meer dan één cel is geselecteerd, wordt de eerste geselecteerde cel weergegeven.
 * Als de kolom is geselecteerd, wordt de eerste celwaarde in de kolom gekozen.
 
-Klik in de rechterbovenhoek op het tandwieltje voor de **visualisatie-instellingen** om de instellingen voor het samenvattingsnummer te configureren:
+Klik in de versnelling **Visualisatie-instellingen** rechtsboven om de instellingen voor Samenvattingsnummer te configureren:
 
 | Instelling | Definitie |
 |--- |--- |
@@ -32,7 +34,7 @@ Klik in de rechterbovenhoek op het tandwieltje voor de **visualisatie-instelling
 | Waarde samenvatten met | Kies of u de maximale, minimale, gemiddelde, mediaan of som voor een selectie gegevens wilt weergeven. |
 
 
-Klik in de rechterbovenhoek op het tandwieltje voor de **visualisatie-instellingen** om de instellingen voor het samenvattingsnummer te configureren:
+Klik in de versnelling **Visualisatie-instellingen** rechtsboven om de instellingen voor Samenvattingsnummer te configureren:
 
 | Instelling | Definitie |
 |--- |--- |
@@ -42,9 +44,9 @@ Klik in de rechterbovenhoek op het tandwieltje voor de **visualisatie-instelling
 | Waarde samenvatten met | Kies of u de maximale, minimale, gemiddelde, mediaan of som voor een selectie gegevens wilt weergeven. |
 
 
-## Visualisatie overzichtswijziging {#summary-change}
+## Visualisatie van overzichtswijziging {#summary-change}
 
-Gebruik de visualisatie van de Overzichtsverandering om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van de Summiere Verandering kan door de polariteit [van de](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) douanegebeurtenis of berekende metrisch&#39;s worden gecontroleerd [toont de Naar boven](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) Ontwikkeling als optie.
+Gebruik de visualisatie van de Overzichtsverandering om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van de Summiere Verandering kan door [de polariteit van de douanegebeurtenis ](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) of een berekende metrische [Toon de Naar boven optie als](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) worden gecontroleerd.
 
 Deze visualisatie werkt op de volgende manieren:
 
@@ -59,7 +61,7 @@ Deze visualisatie werkt op de volgende manieren:
 ![](assets/summary-change.png)
 
 
-Klik in de rechterbovenhoek op het tandwieltje voor de **visualisatie-instellingen** om de instellingen voor Samenvattingswijziging te configureren:
+Klik in de versnelling **Visualisatie-instellingen** rechtsboven om de instellingen voor Samenvattingswijziging te configureren:
 
 | Instelling | Definitie |
 |--- |--- |
