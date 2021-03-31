@@ -1,12 +1,13 @@
 ---
 description: Nadat u een rapport hebt uitgevoerd, kunt u het rapport aanpassen om de gegevens naar wens weer te geven en te analyseren. U kunt rapportgegevens filteren, wijzigen hoe gegevens grafisch worden weergegeven, granulariteit van datums wijzigen, enzovoort.
 title: Overzicht van rapporten aanpassen
-topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
+feature: Grondbeginselen van rapporten en analyses
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '877'
 ht-degree: 4%
 
 ---
@@ -41,7 +42,7 @@ Alleen beheerders kunnen een aangepast rapport maken. Wanneer u een douanerappor
 >* [Menu aanpassen](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
 
 
-## Selecteer een datum of een datumbereik {#task_9BEF7D4D839A4748B76E8500D1406C34}
+## Selecteer een datum- of datumbereik {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
 De stappen die heet beschrijven om te gebruiken kiezen de tijdsperioden voor uw rapportgegevens.
 
@@ -72,7 +73,7 @@ Wanneer u een dashboard opent met rapporten met verschillende datumbereiken, kun
 
 1. Klik op **[!UICONTROL Run Report]**.
 
-## Datums vergelijken {#task_95155C3700774B709F5FB81AE96B0824}
+## Datums {#task_95155C3700774B709F5FB81AE96B0824} vergelijken
 
 Stappen die beschrijven hoe u de kalender kunt gebruiken om datumvergelijkingen tussen gerangschikte rapporten in werking te stellen.
 
@@ -86,7 +87,7 @@ U kunt geen datums vergelijken tussen trended-rapporten.
 
 >[!NOTE]
 >
->Als u een datumvergelijking op zeer belangrijke metriek in een dashboard wilt uitvoeren, kunt u de gegevens in de Bouwer [van het](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) Rapport trekken gebruikend twee afzonderlijke verzoeken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
+>Als u een datumvergelijking op zeer belangrijke metriek in een dashboard wilt uitvoeren, kunt u de gegevens in [Report Builder ](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) trekken gebruikend twee afzonderlijke verzoeken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
 
 Datums vergelijken tussen gerangschikte rapporten in rapporten en analyses:
 
@@ -96,7 +97,7 @@ Datums vergelijken tussen gerangschikte rapporten in rapporten en analyses:
 1. Selecteer de datums die u wilt gebruiken.
 1. Klik op **[!UICONTROL Run Report]**.
 
-## Een percentage weergeven als grafiek {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
+## Een percentage weergeven als een grafiek {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
 Stappen die beschrijven hoe te om of te specificeren om het percentage in een rapportlijst als grafiek te tonen.
 
@@ -108,7 +109,7 @@ t_reports_graph_percent.xml
 
 Deze visualisatie is ook beschikbaar in dashboardrapporten.
 
-1. Voer een rapport uit dat percentages ondersteunt, zoals een [!UICONTROL Pages Report].
+1. Voer een rapport uit dat percentages, zoals [!UICONTROL Pages Report] steunt.
 1. Klik op **[!UICONTROL Percent Shown As: Graph]**.
 
 ## Rapportgegevens normaliseren {#task_8005B55E59BD479DA67BC618FF8BC94A}
@@ -126,7 +127,7 @@ Nadat u een rapport met vergeleken data in werking stelt, of voor vergelijkingen
 **Om rapportgegevens te normaliseren**
 
 1. Voer een rapport uit dat datumvergelijkingen ondersteunt.
-1. Klik **[!UICONTROL Compare Dates]** en geef de datum van de vergelijking op.
+1. Klik **[!UICONTROL Compare Dates]**, dan specificeer uw datumvergelijking.
 1. Klik op **[!UICONTROL Run Report]**.
 1. Klik op **[!UICONTROL Normalize Data: Yes]**.
 
@@ -140,9 +141,9 @@ t_reports_select_page.xml
 
  -->
 
-1. Genereer een rapport, bijvoorbeeld een rapport [!UICONTROL Page Views Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Page Views]**).
-1. Klik op de **[!UICONTROL Selected Page]** koppeling.
-1. Selecteer [!UICONTROL Choose Page]op de pagina&#39;s die u wilt weergeven.
+1. Genereer een rapport, zoals een [!UICONTROL Page Views Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Page Views]**).
+1. Klik op de koppeling **[!UICONTROL Selected Page]**.
+1. Selecteer op [!UICONTROL Choose Page] de pagina&#39;s die u wilt weergeven.
 1. Zoek de pagina.
 1. Klik op **[!UICONTROL OK.]**
 
@@ -173,11 +174,11 @@ Naast de grafische vertoning, geeft de lijst van het rapport u een percentagever
 **Rapportsuites vergelijken**
 
 1. Genereer een rapport waarmee u rapporten kunt vergelijken.
-1. Klik op de **[!UICONTROL Compare to Site]** koppeling.
+1. Klik op de koppeling **[!UICONTROL Compare to Site]**.
 1. Zoek de rapportsuite.
 1. Klik op **[!UICONTROL OK.]**
 
-## Geef de granulariteit van het rapport op {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
+## Rapportgranulariteit opgeven {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
 Stappen die beschrijven hoe de totalen van rapporten per uur, dag, week, maand, driemaandelijks, of jaarlijks worden weergegeven.
 
@@ -187,14 +188,14 @@ t_reports_granularity.xml
 
  -->
 
-De tijdsperiode van het rapport bepaalt welke granulariteitsopties beschikbaar zijn. U kunt bijvoorbeeld alleen selecteren **[!UICONTROL Hourly]** als u een tijdframe van één of twee dagen hebt geselecteerd. U kunt alleen **[!UICONTROL Yearly]** granulariteit selecteren als u meer dan een jaar hebt geselecteerd.
+De tijdsperiode van het rapport bepaalt welke granulariteitsopties beschikbaar zijn. U kunt bijvoorbeeld alleen **[!UICONTROL Hourly]** selecteren als u een tijdframe van één of twee dagen hebt geselecteerd. U kunt slechts **[!UICONTROL Yearly]** granularity selecteren als u meer dan één jaar hebt geselecteerd.
 
 **Rapportgranulariteit opgeven**
 
 1. Genereer een trendrapport, zoals **[!UICONTROL Site Content]** > **[!UICONTROL Pages.]**
-1. Klik op de **[!UICONTROL View by]** koppeling en klik vervolgens op een granulariteit.
+1. Klik op de koppeling **[!UICONTROL View by]** en klik vervolgens op een granulariteit.
 
-## Een dagrapport uitvoeren {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
+## Een rapport {#task_67CC818ACC3749839B69BDB2ED9AE6B8} voor de dag van de week uitvoeren
 
 Stappen die beschrijven hoe rapporten op een specifieke dag van de week, zoals over elke Maandag in een bepaalde datumwaaier in werking te stellen.
 
@@ -207,11 +208,11 @@ t_reports_day_of_week.xml
 Deze functie is alleen van toepassing op gefilterde rapporten met een datumbereik van week of dag.
 
 1. Voer een trended-rapport uit over een opgegeven datumbereik.
-1. Klik op de **[!UICONTROL Day of Week]** koppeling en klik vervolgens op een dag.
+1. Klik op de koppeling **[!UICONTROL Day of Week]** en klik vervolgens op een dag.
 
 ## Knop &#39;Uitproberen in werkruimte&#39; {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
-Als u op de **[!UICONTROL Try In Workspace]** knop boven aan een rapport klikt, wordt hetzelfde rapport in Analysis Workspace geladen.
+Als u op de knop **[!UICONTROL Try In Workspace]** boven aan een rapport klikt, wordt hetzelfde rapport in Analysis Workspace geladen.
 
 <!-- 
 
@@ -219,8 +220,8 @@ try_in_workspace.xml
 
  -->
 
-De meeste rapporten in Rapporten &amp; Analytics bevatten nu de knop &quot;Try in Workspace&quot;, waarmee u de huidige weergave in Analysis Workspace kunt reproduceren voor verdere aanpassing.
+De meeste rapporten in Rapporten &amp; Analytics omvatten nu de knoop van het &quot;Proberen in Werkruimte&quot;om u toe te staan om de huidige mening in Analysis Workspace voor verdere aanpassing te reproduceren.
 
 De knop is momenteel alleen beschikbaar als je gebruikersnaam volledige rechten heeft op Analysis Workspace.
 
-Raadpleeg de handleiding van [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) voor meer informatie over alle manieren waarop u uw rapport kunt aanpassen.
+Voor meer informatie over alle manieren kunt u uw rapport aanpassen, zie [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) gids.
