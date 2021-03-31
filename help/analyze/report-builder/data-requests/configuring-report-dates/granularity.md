@@ -1,20 +1,24 @@
 ---
 description: Voor Stap 1 van de Tovenaar van het Verzoek, kunt u een niveau van granulariteit op het gegevensverzoek toepassen. Korreligheid bepaalt het niveau van op tijd-gebaseerd detail dat in het rapport wordt omvat.
-title: Korreligheid
-topic: Report builder
+title: Granulariteit
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 2%
 
 ---
 
 
-# Korreligheid
+# Granulariteit
 
 Op de wizard Verzoek: Stap 1, kunt u een niveau van granulariteit op het gegevensverzoek toepassen. Korreligheid bepaalt het niveau van op tijd-gebaseerd detail dat in het rapport wordt omvat.
 
 Geldige waarden zijn Uur, Dag, Week, Maand, Kwart, Jaar en Geaggregeerd.
 
-## Hoe de Bouwer van het Rapport granulariteit verwerkt
+## Hoe Report Builder granulariteit verwerkt
 
-Stel dat u een datumbereik kiest voor een maand met [!UICONTROL Month] granulariteit. De verzoeken tonen totalen voor metrisch die op precies de waarde van één maand van gegevens wordt gebaseerd. Als de datumwaaier van uw verzoek één kwart omvat, toont het rapport drie cijfers: één voor elke maandeenheid, of fractie daarvan. Als vandaag 18 maart is, geeft de keuze van het laatste kwartaal een cijfer voor 1 januari - 31, een ander cijfer voor 1 februari - 28 en een laatste cijfer voor 1 maart - 17.
+Stel dat u een datumbereik voor een maand met granulariteit [!UICONTROL Month] kiest. De verzoeken tonen totalen voor metrisch die op precies de waarde van één maand van gegevens wordt gebaseerd. Als de datumwaaier van uw verzoek één kwart omvat, toont het rapport drie cijfers: één voor elke maandeenheid, of fractie daarvan. Als vandaag 18 maart is, geeft de keuze van het laatste kwartaal een cijfer voor 1 januari - 31, een ander cijfer voor 1 februari - 28 en een laatste cijfer voor 1 maart - 17.
