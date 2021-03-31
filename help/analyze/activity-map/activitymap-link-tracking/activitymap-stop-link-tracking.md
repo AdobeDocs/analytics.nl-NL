@@ -1,17 +1,21 @@
 ---
-description: Stappen voor het tegenhouden van verbinding het volgen in de Kaart van de Activiteit of Verouderde ClickMap.
-title: Koppelingen bijhouden stoppen
-topic: Activity map
+description: Stappen voor het tegenhouden van verbinding het volgen in Activity Map of Verouderde ClickMap.
+title: Link tracking stoppen
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
 
-# Koppelingen bijhouden stoppen
+# Link tracking stoppen
 
-Stappen voor het tegenhouden van verbinding het volgen in de Kaart van de Activiteit of Verouderde ClickMap.
+Stappen voor het tegenhouden van verbinding het volgen in Activity Map of Verouderde ClickMap.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -22,7 +26,7 @@ Stappen voor het tegenhouden van verbinding het volgen in de Kaart van de Activi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Activiteitenkaart </td> 
+   <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Verwijder de volgende inhoud uit het bestand Appmeasurement.js: 
     <code>
      /*
@@ -39,7 +43,7 @@ Stappen voor het tegenhouden van verbinding het volgen in de Kaart van de Activi
     </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> ClickMap (voorheen Bezoeker ClickMap) </td> 
+   <td colname="col1"> ClickMap (voorheen ClickMap bezoeker) </td> 
    <td colname="col2"> <p>Stel de variabele <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html"  > trackInlineStats</a> in op false (dit is de standaardwaarde). De syntaxis leest als volgt: 
      <code>
        s.trackInlineStats=false
