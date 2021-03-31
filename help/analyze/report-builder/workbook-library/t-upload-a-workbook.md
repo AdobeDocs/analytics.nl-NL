@@ -1,28 +1,29 @@
 ---
-description: Upload een werkboek van Excel van de Bouwer van het Rapport dat u wilt delen.
+description: Upload een werkboek van Report Builder Excel dat u wilt delen.
 title: Een werkmap uploaden
-topic: Report builder
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 4%
+source-wordcount: '142'
+ht-degree: 5%
 
 ---
 
 
 # Een werkmap uploaden
 
-Upload een werkboek van Excel van de Bouwer van het Rapport dat u wilt delen.
+Upload een werkboek van Report Builder Excel dat u wilt delen.
 
-Het [!UICONTROL Workbook Library] laat u een werkboek van Excel van de Bouwer van het Rapport uploaden dat u wilt delen. U kunt gedeelde werkboeken ook downloaden en bewerken. Wanneer het migreren van ExcelClient aan de Bouwer van het Rapport, wordt geadviseerd dat u werkboeken van de bewaarplaats ExcelClient downloadt en hen dan aan de bewaarplaats van de Bouwer van het Rapport uploadt.
+[!UICONTROL Workbook Library] laat u een werkboek van Report Builder Excel uploaden dat u wilt delen. U kunt gedeelde werkboeken ook downloaden en bewerken. Wanneer het migreren van ExcelClient aan Report Builder, wordt het geadviseerd dat u werkboeken van de bewaarplaats ExcelClient downloadt en dan hen aan de bewaarplaats van de Report Builder uploadt.
 
 >[!NOTE]
 >
->Slechts kunnen de werkboeken met de verzoeken van de Bouwer van het Rapport worden geupload. Ook, kunt u de rapporten van de Bouwer van het Rapport aan mensen verspreiden die geen Bouwer van het Rapport gebruiken. (Gebruikers hoeven zich niet aan te melden om de gegevens te zien.)
+>Alleen werkboeken met Report Builder-aanvragen kunnen worden geüpload. Ook, kunt u de rapporten van Report Builder aan mensen verspreiden die geen Report Builder gebruiken. (Gebruikers hoeven zich niet aan te melden om de gegevens te zien.)
 
 1. Maak een aanvraag en voer deze uit.
-1. Nadat u het rapport hebt opgeslagen, klik **[!UICONTROL Share]**.
+1. Nadat u het rapport hebt bewaard, klik **[!UICONTROL Share]**.
 1. Klik **[!UICONTROL Browse]** om van het werkboek de plaats te bepalen.
-1. Typ in het **[!UICONTROL Description]** veld een beschrijving en klik op **[!UICONTROL Upload]**.
+1. Typ in het veld **[!UICONTROL Description]** een beschrijving en klik vervolgens op **[!UICONTROL Upload]**.
