@@ -1,12 +1,13 @@
 ---
 description: Met bedekkingen kunt u op meerdere manieren gegevensvisualisatie configureren, zodat u de populariteit van koppelingen op een pagina gemakkelijk kunt zien en begrijpen.
 title: Aanpasbare overlays
-topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
+feature: Activity Map
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
@@ -24,11 +25,11 @@ Activity Map biedt drie typen overlays:
 * Bubble Overlay
 * Bedekking voor tussenruimten en Losers
 
-U kunt ook [overlayrendering configureren voor dynamische inhoud](/help/analyze/activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md).
+U kunt [bedekkende rendering ook configureren voor dynamische inhoud](/help/analyze/activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md).
 
-Als u overlays wilt wijzigen, opent u het deelvenster [](/help/analyze/activity-map/activitymap-overlay-settings.md) Overlayinstellingen en bewerkt u de beschikbare opties.
+Als u overlays wilt wijzigen, opent u het [deelvenster Overlayinstellingen](/help/analyze/activity-map/activitymap-overlay-settings.md) en bewerkt u de beschikbare opties.
 
-Als u de bedekking boven een bedekking plaatst, worden de [details](/help/analyze/activity-map/activitymap-overlay-details.md)van de bedekking weergegeven.
+Als u de bedekking boven een bedekking plaatst, worden de [details](/help/analyze/activity-map/activitymap-overlay-details.md) weergegeven.
 
 ## Verloopbedekking (Heatmap) {#section_06AF13DE05A1454D960176CD0DA921A6}
 
@@ -46,7 +47,7 @@ Deze meetgegevens worden boven op de pagina-koppelingen geplaatst als een soort 
 
 De bedekking van de Bubbel toont de bedekkingsinhoud (metrisch, percentage, of rang) in een kleine callout bel.
 
-Bubbelbedekkingen worden weergegeven wanneer u deze bedekking selecteert in Overlaytype op de werkbalk. . Bubble-overlays worden weergegeven voor alle koppelingen die overeenkomen met de selectie in [Activity Map-instellingen](/help/analyze/activity-map/activitymap-overlay-settings.md) (bovenste 30, bovenste 50, alles..). Verloopbedekkingen worden weergegeven als deze optie niet is geselecteerd.
+Bubbelbedekkingen worden weergegeven wanneer u deze bedekking selecteert in Overlaytype op de werkbalk. . Bubble-overlays worden weergegeven voor alle koppelingen die overeenkomen met de selectie in [Activity Map-instellingen](/help/analyze/activity-map/activitymap-overlay-settings.md) (bovenste 30, bovenste 50, alle..). Verloopbedekkingen worden weergegeven als deze optie niet is geselecteerd.
 
 ![](assets/bubble_overlay.png)
 
@@ -56,7 +57,7 @@ Bubbelbedekkingen worden weergegeven wanneer u deze bedekking selecteert in Over
 >
 >![](assets/bubbles_submenu.png)>
 
-## Bedekkingen voor tussenpersonen en verliezers {#section_EE80278E20C14824869BF5A27A4634C8}
+## Tussenruimers- en loser-overlays {#section_EE80278E20C14824869BF5A27A4634C8}
 
 **[!UICONTROL Gainers and losers overlays]** zijn alleen beschikbaar in de live modus. Zij melden veranderingen in real time in verbindingsactiviteit door de metriek van de huidige periode met metriek van de laatste periode te vergelijken. Ze geven je een visueel aantrekkelijke manier om trending in real-time te bekijken.
 
