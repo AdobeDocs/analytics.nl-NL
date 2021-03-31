@@ -1,20 +1,24 @@
 ---
 description: Bij aanvragen voor Roteren en Aangepaste layout kunt u voor numerieke waarden of tekenreekswaarden tekenreeksen of tekens aan cellen toevoegen of uitstellen.
-title: Tekst voorvullen en uitstellen naar cellen
-topic: Report builder
+title: Tekst voor en na cellen bijvoegen
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 15%
 
 ---
 
 
-# Tekst voorvullen en uitstellen naar cellen
+# Tekst voor en na cellen bijvoegen
 
 Bij aanvragen voor Roteren en Aangepaste layout kunt u voor numerieke waarden of tekenreekswaarden tekenreeksen of tekens aan cellen toevoegen of uitstellen.
 
-Deze optie is beschikbaar op de [!UICONTROL Request Wizard: Step 2].
+Deze optie is beschikbaar op [!UICONTROL Request Wizard: Step 2].
 
-**Tekst vóór:** Hiermee voegt u een voorvoegsel van numerieke waarden of tekenreekswaarden toe aan de cel.
+**Tekst voorvullen:** voegt een voorvoegsel van numerieke of tekenreekswaarden toe aan de cel.
 
-**Tekst uitstellen:** Voegt een numerieke waarde of tekenreekswaarde in de cel toe.
+**Tekst uitstellen:** voegt numerieke of tekenreekswaarden toe aan de cel.
