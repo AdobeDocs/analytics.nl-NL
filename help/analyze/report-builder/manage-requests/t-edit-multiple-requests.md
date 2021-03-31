@@ -1,10 +1,14 @@
 ---
 description: U kunt meerdere verzoeken tegelijk wijzigen op basis van de rapportsuite, granulariteit en datumbereik van de aanvraag.
 title: Meerdere aanvragen bewerken
-topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
+feature: Report Builder
+role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 2%
 
 ---
 
@@ -21,21 +25,21 @@ U kunt verscheidene verzoeken tezelfdertijd veranderen, die op de het rapportree
 
    >[!NOTE]
    >
-   >Als u aanvragen in cellen van afzonderlijke werkbladen wilt bewerken, wist u de [!UICONTROL All Sheets] optie in het [!UICONTROL Request Manager]werkblad. Standaard is dit selectievakje ingeschakeld als er aanvragen zijn op meerdere werkbladen.
+   >Als u aanvragen in cellen van afzonderlijke werkbladen wilt bewerken, schakelt u de optie [!UICONTROL All Sheets] op [!UICONTROL Request Manager] uit. Standaard is dit selectievakje ingeschakeld als er aanvragen zijn op meerdere werkbladen.
 
-1. Selecteer twee of meer aanvragen in het [!UICONTROL Request Manager] formulier en klik op **[!UICONTROL Edit Multiple]**.
+1. Selecteer twee of meer verzoeken in het formulier [!UICONTROL Request Manager] en klik op **[!UICONTROL Edit Multiple]**.
 
-   In het [!UICONTROL Edit Multiple Requests] formulier worden kolommen met informatie weergegeven: [!UICONTROL By Report Suite], [!UICONTROL By Segment], [!UICONTROL By Metric], [!UICONTROL By Date Range and Granularity], en [!UICONTROL By Group].
+   In het formulier [!UICONTROL Edit Multiple Requests] worden kolommen met informatie weergegeven: [!UICONTROL By Report Suite], [!UICONTROL By Segment], [!UICONTROL By Metric], [!UICONTROL By Date Range and Granularity] en [!UICONTROL By Group].
 1. Als u de weergave van aanvragen wilt groeperen, klikt u op een van de volgende opties:
 
-   * **Op rapportsuite:** Groepeert de vertoning van verzoeken door rapportreeks.
+   * **Op rapportsuite:** groepeert de weergave van aanvragen op rapportsuite.
    * **Op segment**: Groepeert de verzoeken die op de segmentnaam worden gebaseerd.
 
-      * **Segment** kiezen: Toont als geen segmenten voor de verzoeken bestaan. Als u segmenten wilt toevoegen, klikt u **[!UICONTROL Edit Group]** en selecteert u een segment in het [!UICONTROL Edit Group] deelvenster.
-   * **Met metrisch:** Zie Metrische gegevens [bewerken voor meerdere aanvragen](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
+      * **Segment** kiezen: Toont als geen segmenten voor de verzoeken bestaan. Als u segmenten wilt toevoegen, klikt u op **[!UICONTROL Edit Group]** en selecteert u een segment in het deelvenster [!UICONTROL Edit Group].
+   * **Op metrisch:** Zie Metriek  [uitgeven over veelvoudige verzoeken](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
-   * **Op datumbereik en Korreligheid:** Groepeert de weergave van verzoeken op datumbereik en tijdgranulariteit.
-   * **Op groep:** Groepeert de vertoning van verzoeken door reeks gegroepeerde verzoeken.
+   * **Op datumbereik en Korreligheid:** groepeert de weergave van verzoeken op datumbereik en tijdgranulariteit.
+   * **Door Groep:** Groepeert de vertoning van verzoeken door reeks gegroepeerde verzoeken.
 
 
-1. Klik op het [!UICONTROL Edit Multiple Requests] formulier **[!UICONTROL OK]**.
+1. Klik op [!UICONTROL Edit Multiple Requests] in het formulier.**[!UICONTROL OK]**
