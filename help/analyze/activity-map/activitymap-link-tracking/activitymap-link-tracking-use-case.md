@@ -5,10 +5,10 @@ uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 6%
+source-wordcount: '369'
+ht-degree: 5%
 
 ---
 
@@ -19,150 +19,219 @@ U kunt koppelingen onderscheiden door de koppelings-id aan te passen met behulp 
 
 Stel bijvoorbeeld dat u meerdere &quot;Kopen&quot;-koppelingen hebt die door Activity Map onder dezelfde koppelings-id en -regio worden geïdentificeerd:
 
-<table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Codevoorbeeld </th> 
-   <th colname="col2" class="entry"> Koppelings-id </th> 
-   <th colname="col3" class="entry"> Regio </th> 
-  </tr> 
+<table id="table_3020E2C0175D455C84E794CF51BE5A93">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Codevoorbeeld </th>
+   <th colname="col2" class="entry"> Koppelings-id </th>
+   <th colname="col3" class="entry"> Regio </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <code>
-      &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
-     &nbsp;&nbsp;&lt;div&gt; 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
-     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-     &nbsp;&nbsp;&lt;div&gt; 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
-     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-     &nbsp;&lt;div&gt; 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
-     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-    </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Kopen <p> </p> <p> </p> <p>Kopen </p> <p> </p> <p> </p> <p>Kopen </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>aanbevelingsvenster <p> </p> <p> </p> <p>aanbevelingsvenster </p> <p> </p> <p> </p> <p>aanbevelingsvenster </p> </td> 
-  </tr> 
- </tbody> 
+  <tbody>
+  <tr>
+   <td colname="col1">
+    <code>&lt;div&nbsp;id="recommendation&nbsp;panel"&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;div&gt;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;/div&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;div&gt;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;/div&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;div&gt;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;/div&gt;</code><br/>
+    <code>&lt;/div&gt;</code>
+   </td>
+   <td colname="col2">
+     <br/>
+     <br/>
+    Kopen<br/>
+     <br/>
+     <br/>
+    Kopen<br/>
+     <br/>
+     <br/>
+    Kopen<br/>
+     <br/>
+     <br/>
+   </td> 
+   <td colname="col3">
+     <br/>
+     <br/>
+    aanbevelingspaneel<br/>
+     <br/>
+     <br/>
+    Aanbevelingspaneel<br/>
+     <br/>
+     <br/>
+    aanbevelingspaneel<br/>
+     <br/>
+     <br/>
+   </td>
+  </tr>
+ </tbody>
 </table>
 
 Hoe kunt u uw webpagina en tags aanpassen om de waarden van deze koppelingen te onderscheiden? U hebt drie opties: U kunt de identiteitskaart van de Verbinding aanpassen, of het gebied aanpassen, of het dossier van de Module AppMeasurement ActivityMap aanpassen.
 
 ## Koppelings-id aanpassen met s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Door een unieke object-id te maken voor een koppeling of koppelingslocatie op een pagina, kunt u de Activity Map bijhouden verbeteren of Activity Map gebruiken om te rapporteren over een koppelingstype of -locatie, in plaats van de koppeling-URL. Klik [hier](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) voor meer informatie over de variabele s_objectID.
+Door een unieke object-id te maken, `s_objectID`, voor een koppeling- of koppelingslocatie op een pagina, kunt u de Activity Map bijhouden verbeteren of Activity Map gebruiken om te rapporteren over een koppelingstype of -locatie, in plaats van de URL van de koppeling. Klik [hier](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) voor meer informatie over `s_objectID` variabele.
 
 >[!IMPORTANT]
 >
->Een volgpuntkomma (;) is vereist wanneer s_objectID in Activity Map wordt gebruikt.
-
-<table id="table_9439A5F320304E439A19842CF3EBA456"> 
- <thead> 
-  <tr> 
-   <th colname="col02" class="entry"> Codevoorbeeld </th> 
-   <th colname="col2" class="entry"> Koppelings-id </th> 
-   <th colname="col3" class="entry"> Regio </th> 
-  </tr> 
+>Een volgpuntkomma (`;`) is vereist wanneer u `s_objectID` in Activity Map gebruikt.
+<table id="table_9439A5F320304E439A19842CF3EBA456">
+ <thead>
+  <tr>
+   <th colname="col02" class="entry"> Codevoorbeeld </th>
+   <th colname="col2" class="entry"> Koppelings-id </th>
+   <th colname="col3" class="entry"> Regio </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col02"> 
-    <code>
-      &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
-     &nbsp;&nbsp;&lt;div&gt; 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product1';"&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
-     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-     &nbsp;&nbsp;&lt;div&gt; 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product2';"&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
-     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-     &nbsp;&lt;div&gt; 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
-     &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
-    </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>aanbevelingen, deelvenster </p> <p> </p> <p> </p> <p>aanbevelingen, deelvenster </p> <p> </p> <p> </p> <p>aanbevelingen, deelvenster </p> <p> </p> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col02">
+    <code>&lt;div&nbsp;id="recommendation&nbsp;panel"&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;div&gt;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product1';"&nbsp;href="product1.html"&gt;Buy&lt;/a&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;/div&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;div&gt; </code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product2';"&nbsp;href="product2.html"&gt;Buy&lt;/a&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;/div&gt; </code><br/>
+    <code>&nbsp;&lt;div&gt; </code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;/div&gt;</code><br/>
+    <code>&lt;/div&gt;</code>
+   </td> 
+   <td colname="col2">
+     <br/>
+     <br/>
+    Product1<br/>
+     <br/>
+     <br/>
+    Product2<br/>
+     <br/>
+     <br/>
+    Product3<br/>
+     <br/>
+     <br/>
+   </td> 
+   <td colname="col3">
+     <br/>
+     <br/>
+    aanbevelingspaneel<br/>
+     <br/>
+     <br/>
+    Aanbevelingspaneel<br/>
+     <br/>
+     <br/>
+    aanbevelingspaneel<br/>
+     <br/>
+     <br/>
+   </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Gebied {#section_6B1EF302573B445DBAF44176D0A12DB9} aanpassen
 
-U kunt de regio aanpassen door ervoor te zorgen dat voor elke &quot;koop&quot;verbinding een eigen Gebied wordt bepaald. Hiervoor voegt u een parameter &quot;id&quot; toe aan een van de bovenliggende elementen van elke ankertag &quot;Buy&quot;.
+U kunt de regio aanpassen door ervoor te zorgen dat voor elke link &quot;Kopen&quot; een eigen regio is gedefinieerd. Hiervoor voegt u een parameter `"id"` toe aan een van de bovenliggende elementen van elke ankertag &quot;Buy&quot;.
 
 >[!NOTE]
+>U bent niet strikt beperkt tot de `"id"` parameter als gebiedsidentificatie. U kunt ook uw eigen id instellen met de JavaScript-variabele `"s.ActivityMap.regionIDAttribute"`.
 >
->U bent niet strikt beperkt tot de parameter &quot;id&quot; als regio-id. U kunt ook uw eigen id instellen met de JavaScript-variabele &quot;s.ActivityMap.regionIDAattribute&quot;.
-
-<table id="table_250DB52A869C466B942517BABA1C287B"> 
- <thead> 
-  <tr> 
-   <th colname="col02" class="entry"> Codevoorbeeld </th> 
-   <th colname="col2" class="entry"> Koppelings-id </th> 
-   <th colname="col3" class="entry"> Regio </th> 
-  </tr> 
+>
+><table id="table_250DB52A869C466B942517BABA1C287B">
+ <thead>
+  <tr>
+   <th colname="col02" class="entry"> Codevoorbeeld </th>
+   <th colname="col2" class="entry"> Koppelings-id </th>
+   <th colname="col3" class="entry"> Regio </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col02"> 
-    <code>
-      &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
-     &nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;a"&gt; 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
-     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-     &nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;b"&gt; 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
-     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-     &nbsp;&lt;div&nbsp;id="region&nbsp;c"&gt; 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
-     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-    </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Kopen </p> <p> </p> <p> </p> <p>Kopen </p> <p> </p> <p> </p> <p>Kopen </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p>regio a <p> </p> <p> </p> <p>regio b </p> <p> </p> <p> </p> <p>regio c </p> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col02">
+    <code>&lt;div&nbsp;id="recommendation&nbsp;panel"&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;a"&gt;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;/div&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;b"&gt;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;/div&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;c"&gt;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;/div&gt;</code><br/>
+    <code>&lt;/div&gt;</code>
+   </td> 
+   <td colname="col2">
+     <br/>
+     <br/>
+    Kopen<br/>
+     <br/>
+     <br/>
+    Kopen<br/>
+     <br/>
+     <br/>
+    Kopen<br/>
+     <br/>
+     <br/>
+   </td> 
+   <td colname="col3">
+     <br/>
+     <br/>
+    regio a<br/>
+     <br/>
+     <br/>
+    regio b<br/>
+     <br/>
+     <br/>
+    regio c<br/>
+     <br/>
+     <br/>
+   </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Pas het dossier {#section_B933BB9F944E4D5389002908A5A881F8} van ActivityMap van de ActiviteitMap App aan
 
 >[!CAUTION]
->
->Controleer of de gewijzigde code goed werkt. Adobe is niet verantwoordelijk voor het gedrag van de gewijzigde code.
+Controleer of de gewijzigde code goed werkt. Adobe is niet verantwoordelijk voor het gedrag van de gewijzigde code.
 
-Hier zijn een paar voorbeelden van** generische verbinding** verbinding/gebiedfuncties u (in gewijzigde vorm) in uw AppMeasurement.js- dossier kon omvatten.
-
-```
-s.ActivityMap.link = function(ele,linkName){ 
-if(linkName){ 
-return linkName; 
-} 
-if(ele){ 
-if(ele.tagName == 'A' && ele.href){ 
-return ele.href; 
-} 
-} 
-} 
-```
-
-LinkName wordt overgegaan tijdens vraag aan s.tl.
+Hier zijn een paar voorbeelden van **generische** verbinding/gebiedfuncties u (in gewijzigde vorm) in uw AppMeasurement.js- dossier kon omvatten.
 
 ```
-s.ActivityMap.region = function(ele){ 
-var className, 
-classNames = { 
-'header': 1, 
-'navbar': 1, 
-'left-content': 1, 
-'main-content': 1, 
-'footer': 1, 
-}; 
-  while( (ele && (ele = ele.parentNode))){ 
-if( (className=ele.className) && classNames[className]){ 
-return className; 
-} 
-} 
-return "BODY"; 
-} 
+s.ActivityMap.link = function(ele, linkName) {
+  if (linkName) {
+    return linkName;
+  }
+  if (ele) {
+    if (ele.tagName == 'A' && ele.href) {
+      return ele.href;
+    }
+  }
+}
 ```
 
+`linkName` wordt overgegaan tijdens vraag aan `s.tl()`.
+
+```
+s.ActivityMap.region = function(ele) {
+  var className,
+  classNames = {
+    'header': 1,
+    'navbar': 1,
+    'left-content': 1,
+    'main-content': 1,
+    'footer': 1,
+  }; 
+  while ((ele && (ele = ele.parentNode))) {
+    if ((className=ele.className) && classNames[className]) {
+      return className;
+    }
+  }
+  return "BODY";
+}
+```
