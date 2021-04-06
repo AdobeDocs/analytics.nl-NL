@@ -4,18 +4,26 @@ keywords: Analysis Workspace
 title: Nieuwe functies in Analysis Workspace
 feature: Basisprincipes van werkruimte
 role: Bedrijfs Praktijk, Beheerder
+exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
 workflow-type: tm+mt
-source-wordcount: '8121'
-ht-degree: 91%
+source-wordcount: '8216'
+ht-degree: 90%
 
 ---
-
 
 # Nieuwe functies in Analysis Workspace
 
 Voor toegang tot de de Nota&#39;s van de Versie van Adobe Experience Cloud als geheel, ga [hier](https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html).
+
+## Maart 2021
+
+| Functie | Doeldatum | Beschrijving |
+| --- | --- | --- |
+| [!UICONTROL Components] > [!UICONTROL User preferences] | 25 maart 2021 | Met de pagina [!UICONTROL Components] > [!UICONTROL User preferences] kunt u [!UICONTROL Analysis Workspace]-instellingen en de bijbehorende componenten voor uw gebruiker beheren. [!UICONTROL User preferences] van toepassing op alle nieuwe projecten en panels. <br>**Opmerking:** de volgende instellingen zijn verplaatst naar de  [!UICONTROL User preferences] pagina:<ul><li>Rapportinstellingen: Scheidingsteken voor duizendtallen (nu _Getalnotatie_)</li><li>Rapportinstellingen: CSV-scheidingsteken</li><li>Werkruimteprojecten: Help > Tips inschakelen</li><li>Werkruimteprojecten: Leeg deelvenster _Nieuwe projecten starten met dit deelvenster_, optie</li></ul> |
+| [!UICONTROL Histogram Smart Bucket Prediction] | 25 maart 2021 | [!UICONTROL Histogram Smart Bucket Prediction] biedt hulp bij histogrammen met hoge cardinaliteit door automatisch de juiste breedte en het juiste aantal emmers voor de gegevensspread te identificeren. Voor metingen met lage cardinaliteit gedraagt de visualisatie zich op dezelfde manier als voorheen. |
+
 
 ## Februari 2021
 
