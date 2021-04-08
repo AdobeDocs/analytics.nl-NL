@@ -1,14 +1,14 @@
 ---
 title: Cross-device Analytics
 description: Verander uw gegevens van apparaat-geconcentreerd in persoon-geconcentreerd door apparatengegevens samen te stikken.
+exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 translation-type: tm+mt
-source-git-commit: 16dd381909b3a49087b244f11881000401155a0a
+source-git-commit: 20ba12a4af4c73bfc981692ab630d9a5f648dc84
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
-
 
 # Cross-device Analytics
 
@@ -36,7 +36,7 @@ Zie de [Reis-IQ: Pagina](http://adobe.ly/aacda) van de Vonk van de Analyse van h
 Voor het gebruik van CDA is het volgende vereist. [Veldgebaseerde ](field-based-stitching.md) stitchingings- en  [Device ](device-graph.md) grafietechnieken hebben ook hun eigen specifieke voorwaarden.
 
 * Een contract moet worden ondertekend met Adobe die Adobe Analytics Ultimate omvat.
-* Apparaatanalyse wordt ingeschakeld op basis van een afzonderlijke rapportsuite. Adobe raadt een rapportsuite aan die apparaatoverschrijdende gegevens bevat. Dit houdt in dat gegevens van meerdere apparaattypen (web, app, enz.) worden gebruikt. Sommige organisaties noemen dit concept een &quot;globaal&quot; rapportenpakket, hoewel CDA vanuit geografisch oogpunt niet strikt algemeen hoeft te zijn.
+* De analyse van apparaten wordt toegelaten op een per-rapport-reeks basis. Adobe raadt een rapportsuite aan die apparaatoverschrijdende gegevens bevat. Dit houdt in dat gegevens van meerdere apparaattypen (web, app, enz.) worden gebruikt. Sommige organisaties noemen dit concept een &quot;globaal&quot; rapportenpakket, hoewel CDA vanuit geografisch oogpunt niet strikt algemeen hoeft te zijn.
 
 ## Beperkingen
 
@@ -45,8 +45,9 @@ Cross-Device Analytics is een baanbrekende en robuuste functie, maar heeft beper
 * CDA is alleen beschikbaar via Analysis Workspace.
 * Cross-Device Analytics werkt niet op meerdere rapportsuites en combineert ook geen gegevens van meerdere rapportsuites.
 * Adobe Analytics-rapportsuites kunnen niet worden toegewezen aan meer dan één IMS-org. Aangezien CDA apparaten vastlegt binnen een bepaalde rapportsuite, kan CDA niet worden gebruikt om gegevens te koppelen aan meerdere IMS-organen.
-* CDA is momenteel niet compatibel met Customer Attributes. Deze twee eigenschappen kunnen in afzonderlijke virtuele rapportreeksen samenvallen die de zelfde bronrapportreeks van verwijzingen voorzien.
+* Private Graph gebruikt dezelfde ID-syncs als de [Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=en#customer-attributes)-mogelijkheden in Experience Cloud en Adobe Analytics. De virtuele CDA-rapportensuites (op basis van een privégrafiek of op basis van een veld) zijn echter niet compatibel met de rest van de functie Kenmerken van klant. Met andere woorden, op kenmerken gebaseerde afmetingen van de klant zijn niet beschikbaar voor gebruik in virtuele CDA-rapportensuites.
 * CDA is momenteel niet compatibel met A4T.
 * Analytics voor verschillende apparaten maakt gebruik van een virtuele rapportsuite en de verwerking van de rapporttijd, die hun eigen beperkingen hebben. Zie [Virtuele rapportsuites](../vrs/vrs-about.md) en [Tijd verwerking rapporteren](../vrs/vrs-report-time-processing.md) voor meer informatie over deze beperkingen.
 * De 1.4-API wordt niet ondersteund. Power BI-connectors en Report Builder vertrouwen beide op de 1.4-API en zijn daarom niet compatibel met CDA.
 * Historische gegevens in de virtuele rapportsuite veranderen op basis van Adobe die apparaten herkent en aansluit. De gegevens in de bronrapportsuite veranderen niet.
+* Actief toezicht op het CDA-stitching-proces door Adobe is beperkt tot uitsluitend productierapporten.
