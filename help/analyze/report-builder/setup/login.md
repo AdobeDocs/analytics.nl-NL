@@ -3,21 +3,21 @@ description: Leer hoe u zich aanmeldt bij Report Builder met uw Experience Cloud
 title: Aanmelden bij Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
+exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 29eb20e5af815779aa3af5b7205e410b7165818b
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '195'
 ht-degree: 6%
 
 ---
-
 
 # Report Builder-aanmelding
 
 >[!IMPORTANT]
 >
->Report Builder versie 5.6.47 en hoger biedt alleen ondersteuning voor aanmelding bij Experience Cloud en biedt geen ondersteuning voor oudere aanmeldingen zoals Single Sign-On of de standaardaanmelding voor Site Catalyst. Tegen 30 april 2021 moeten alle gebruikers van Report Builder de invoegtoepassing voor Report Builder bijwerken naar versie 5.6.47 of hoger, die een kritieke update van het aanmeldingsproces bevat.
+>Report Builder versie 5.6.47 en hoger biedt alleen ondersteuning voor aanmelding bij Experience Cloud en biedt geen ondersteuning voor oudere aanmeldingen zoals Single Sign-On of de standaardaanmelding voor Site Catalyst. **Op 22 juli 2021 moeten alle gebruikers van de Report Builder de Report Builder Add-in bijwerken naar versie 5.6.47 of hoger. Dit omvat een kritieke update van het aanmeldingsproces.**
 
 Als u zich wilt aanmelden bij Report Builder, gebruikt u uw aanmeldingsaccount voor Experience Cloud.
 
@@ -43,4 +43,3 @@ Aanmelden bij Report Builder
    * Dubbelklik op een verzoek in Excel.
 
 1. Vul de velden op de pagina [!UICONTROL Login] in en klik op **[!UICONTROL OK]**.
-
