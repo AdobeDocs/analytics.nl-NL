@@ -1,14 +1,14 @@
 ---
 title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over apparaatanalyse
+exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
+source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
-
 
 # Veelgestelde vragen
 
@@ -97,3 +97,11 @@ Neem contact op met de accountmanager van uw organisatie als u wilt overschakele
 ## Hoe hanteert Adobe unieke limieten voor een eVar die wordt gebruikt in stitching op basis van velden?
 
 CDA trekt eVar dimensie-items vóór zij voor rapportering worden geoptimaliseerd. U hoeft zich geen zorgen te maken over unieke limieten in het kader van CDA. Nochtans, als u het gebruiken van die pro/eVar in een project van de Werkruimte probeerde, kunt u [ (Laag-verkeer) ](/help/technotes/low-traffic.md) afmetingspunt nog zien.
+
+## Hoeveel van mijn bedrijfsuitrustingen van het rapport kunnen voor CDA worden toegelaten?
+
+De veelvoudige rapportreeksen kunnen worden toegelaten, nochtans zal elke extra rapportreeks de algemene leveringstijd verhogen als de veelvoudige rapportreeksen tegelijkertijd worden gevraagd. CDA voegt geen rapportsuites samen. Elk rapportenpakket dat is ingeschakeld voor CDA, moet apparaatonafhankelijk zijn (met gegevens van meerdere oppervlakken, zoals het bureaublad, het mobiele web, de mobiele app enz.)
+
+## Als mijn Experience Cloud org (ook bekend als IMS org) meerdere bedrijven in verschillende regio&#39;s heeft, kan ik dan CDA voor al deze bedrijven inschakelen?
+
+Nee. Voor dezelfde org kan voor slechts één regio CDA ingeschakeld zijn.
