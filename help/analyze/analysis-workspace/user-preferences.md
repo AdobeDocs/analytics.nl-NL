@@ -1,15 +1,16 @@
 ---
 title: Gebruikersvoorkeuren instellen in Analysis Workspace
+description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebruikers.
 feature: Basisprincipes van werkruimte
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
+exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: bfbeac56917f4ff6b907c44f083638ee1e93c17e
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '215'
 ht-degree: 1%
 
 ---
-
 
 # Gebruikersvoorkeuren
 
