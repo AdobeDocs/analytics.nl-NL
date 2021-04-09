@@ -1,18 +1,18 @@
 ---
 description: Ontdek alles wat u met Advertising Analytics kunt doen in deze gedetailleerde handleiding, inclusief de vereiste machtigingen, en de beschikbare afmetingen en metriek.
 title: Een gids voor Advertising Analytics
+exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 translation-type: tm+mt
-source-git-commit: c588087b949093152435967f62e43758e9e86208
+source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 97%
+source-wordcount: '1253'
+ht-degree: 93%
 
 ---
 
-
 # Een gids voor Advertising Analytics
 
-Met Advertising Analytics kunt u alle data van Google en Bing paid search naast elkaar weergeven in Adobe Analytics. Vroeger moesten alle data van Google AdWords/DFA of Microsoft Bing Ads worden weergegeven in Adobe Advertising Cloud (AMO) of in Google/Bing. Nu worden de volgende data opgehaald in Adobe Analytics: impressies, klikken, kosten, kwaliteitsscore en gemiddelde positie, rechtstreeks vanuit de zoekmachines zowel als uit AMO ID-instanties (klik op Instanties).
+Met Advertising Analytics kunt u alle data van Google en Bing paid search naast elkaar weergeven in Adobe Analytics. Vroeger moesten alle data van Google AdWords/DFA of Microsoft Bing Ads worden weergegeven in Adobe Advertising Cloud (AMO) of in Google/Bing. De volgende gegevens worden nu opgehaald in Adobe Analytics: Impressies, klikken, Kosten gegevens van direct van de onderzoeksmotoren evenals een Instanties van identiteitskaart van AMO (klik Instanties). Kwaliteitsscore en gemiddelde posities worden niet meer verzameld omdat Google deze gegevens in september 2019 heeft gedepericeerd.
 
 >[!NOTE]
 >
@@ -117,5 +117,3 @@ Advertising Analytics voegt de volgende dimensies en cijfers toe aan Analysis Wo
 | AMO-impressies | Het aantal advertentie-impressies dat door het zoekprogramma wordt gerapporteerd. |
 | AMO-klikken | Het aantal klikken op advertenties dat door het zoekprogramma wordt gerapporteerd. |
 | AMO-kosten | De betaalde kosten voor elk trefwoord/advertentie zoals gemeld door de zoekmachine. |
-| Gem. Pos | Een berekende standaard die de gemiddelde positie van de advertenties weerspiegelt zoals door de zoekmachine wordt gerapporteerd. |
-| Gem. Kwaliteitsscore | Een berekende standaard die de gemiddelde kwaliteitsscore weerspiegelt die door de zoekmachine wordt gerapporteerd. |
