@@ -2,20 +2,20 @@
 description: Gegevensbronnen ondersteunen de volgende variabelen bij het verwerken van gegevens als een standaardserveraanroep (Algemeen > Volledige verwerking).
 title: Volledige verwerking
 topic: Ontwikkelaar en implementatie
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 4e8a79648b0573e68d9059c518f6ec8fb3d9a694
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '726'
 ht-degree: 9%
 
 ---
-
 
 # Volledige verwerking
 
 >[!IMPORTANT]
 >
->Adobe raadt klanten aan de [BDIA (Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) te gebruiken in plaats van volledige gegevensbronnen voor verwerking. Adobe is van plan in de toekomst volledige verwerkingsgegevensbronnen te vervangen. [Meer informatie](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe raadt klanten aan de [BDIA (Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) te gebruiken in plaats van volledige gegevensbronnen voor verwerking. Adobe is van plan de volledige gegevensbronnen voor de verwerking op 31 juli 2021 te vervangen. [Meer informatie](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Gegevensbronnen ondersteunen de volgende variabelen bij het verwerken van gegevens als een standaardserveraanroep (Algemeen > Volledige verwerking).
 
@@ -256,4 +256,3 @@ De volgende tabel bevat verkeersvariabelen die automatisch worden ingevuld wanne
   </tr> 
  </tbody> 
 </table>
-
