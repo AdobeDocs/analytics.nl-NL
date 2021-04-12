@@ -1,14 +1,14 @@
 ---
 description: Leer meer over de richtlijnen en aanbevelingen voor de toestemming van gebruikers om niet-essentiële cookies op apparaten of browsers op te slaan of te lezen.
 title: Wat zijn de CNIL-richtlijnen voor toestemming van de gebruiker en cookies
+exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
 translation-type: tm+mt
-source-git-commit: fefc2433ef42bae232a9a9afc1040be8d04b2bbe
+source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
-
 
 # Vrijstelling van CNIL-toestemming
 
@@ -18,7 +18,7 @@ De richtsnoeren voorzien in een beperkte vrijstelling van de toestemmingsvereist
 
 * 25 maanden maximale gegevensretentie.  U kunt de huidige instellingen voor gegevensbehoud bekijken via Analytics > Admin > Data Governance.  [Gegevens bewaren](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html)
 * Cookies van derden uitschakelen in ECID. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=en#id-service-api),  [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=en#id-service-api), en  [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=en#id-service-api)
-* Cookie-limiet van 13 maanden is ingesteld op een statische datum, niet schuiven.  U kunt de vervaldatum van het analytische cookie overschrijven met de variabele `cookieLifetime`.  [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html)
+* Cookiegrens van 13 maanden.  U kunt de vervaldatum van het analytische cookie overschrijven met de variabele `cookieLifetime`. Experience Cloud cookies, inclusief Analytics en ECID, verlengen de vervaldatum van de cookie met elk bezoek.  Als u een statische, niet-schuivende verlopen van cookies wilt instellen, kunt u: (1) schrijven aangepaste code om een datum in te stellen waarop de cookie moet worden verwijderd, of (2) gebruik uw CMP om de datum van de cookie opnieuw in te stellen.   [](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html) cookieLifetime en  [Experience Cloud Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=en#ec-cookies)
 * Beperkte reikwijdte. Het bereik van de cookie moet beperkt zijn tot één site of toepassing. [Browsercookies](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=en&quot;\l&quot;third-party-cookie-implementations)
 * Anonymiisatie. Anonymize het laatste octet van het IP Adres. [Algemene accountinstellingen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html)
 * ID bezoeker verbergen in rapportage.  De bezoeker-id&#39;s zijn standaard niet zichtbaar in Adobe Workspace en Adobe Reports and Analytics.  Bezoeker-id&#39;s zijn beschikbaar in Gegevensfeeds en Data Warehouse.  Toegang tot gegevensfeeds en -Data Warehouse kan worden beperkt door [Toegangsmachtigingen in Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391) en [Referentie gegevensfeed-kolom](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en#columns%2C-descriptions%2C-and-data-types)
