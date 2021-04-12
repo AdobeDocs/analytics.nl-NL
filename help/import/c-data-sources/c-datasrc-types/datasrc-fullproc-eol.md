@@ -1,20 +1,20 @@
 ---
 title: Einde van levensduur voor bronnen van volledige verwerkingsgegevens
 description: Redenen voor het einde van de levensduur en vergelijkingen tussen de API voor het invoegen van gegevens in bulk en de gegevensbronnen voor volledige verwerking.
+exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1208'
 ht-degree: 5%
 
 ---
-
 
 # Einde van levensduur voor bronnen van volledige verwerkingsgegevens
 
 Al enkele jaren kunt u met de Full Processing Data Sources gegevens op aanraakniveau naar Adobe Analytics verzenden. Deze gegevens zijn op dezelfde manier verwerkt als gegevens die zijn verzameld via onze JavaScript-bibliotheken en de SDK van de mobiele app. In 2020, gaf Adobe [Bulk API van de Invoeging van Gegevens](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) vrij, die de zelfde functies zoals Volledige Gegevensbronnen van de Verwerking, maar met extra eigenschappen uitvoert. Dit onderwerp verstrekt details over extra functionaliteit die door de Invoeging API van Gegevens van het Bulk wordt verstrekt en schetst verschillen in dossierformaten.
 
-Vanaf 25 maart, 2021, zal Adobe nieuwe Volledige verbindingen van de Gegevensbronnen van de Verwerking verhinderen worden gecreeerd. Bestaande verbindingen blijven ondersteund totdat de service volledig is afgekeurd. De afschrijving vindt plaats in 2021, maar er is nog geen specifieke datum vastgesteld.
+Vanaf 25 maart, 2021, zal Adobe nieuwe Volledige verbindingen van de Gegevensbronnen van de Verwerking verhinderen worden gecreeerd. De bestaande verbindingen zullen verder worden gesteund tot de dienst volledig verouderd op 31 Juli, 2021 is.
 
 ## Waarom zijn we aan het einde van deze functie?
 
