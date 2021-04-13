@@ -1,14 +1,14 @@
 ---
 description: Leer over wanneer en waarom de gegevensschakelaars van de Analyse zullen eind-van-leven worden.
 title: Vooraankondiging van einde van levensduur voor gegevensconnectors van Analytics
+exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
+source-git-commit: b1d4425a81fe4b3ee3ff7516ca7505698fe2ea3a
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '533'
 ht-degree: 11%
 
 ---
-
 
 # Einde van levensduur voor Adobe Data Connectors
 
@@ -81,7 +81,7 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | Lyris HQ | Vervangen |
 | MaritzCX (V 2.0) | Vervangen |
 | Merkle | Vervangen |
-| Officiële Oracle-Eloqua-integratie | Vervangen |
+| Officiële Oracle-Eloqua-integratie | Migreren naar Exchange |
 | optivo broadmail (Episerver) | Migreren naar Exchange |
 | Qualtrics v2 | Migreren naar Exchange |
 | Responsys 2.0 | Vervangen |
