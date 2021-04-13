@@ -3,7 +3,7 @@ title: Einde van levensduur voor bronnen van volledige verwerkingsgegevens
 description: Redenen voor het einde van de levensduur en vergelijkingen tussen de API voor het invoegen van gegevens in bulk en de gegevensbronnen voor volledige verwerking.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
+source-git-commit: 53b15f9c5895e856ff627fbc520d4743fbc57eba
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 5%
@@ -65,8 +65,8 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | linkName | linkName | Naam van koppeling. |
 | linkType | linkType | Type koppeling. Tot de ondersteunde waarden behoren: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF of link. |
-| list Bijvoorbeeld list2. | Niet ondersteund | Een gescheiden lijst met waarden die worden doorgegeven aan een variabele, en vervolgens worden gerapporteerd als afzonderlijke regelitems voor rapportage. |
-| marketingCloudVisitorID | Niet ondersteund | Marketing Cloud-id. Zie [Visitor Identification](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) en de Marketing Cloud Visitor ID Service. |
+| list Bijvoorbeeld list2. | Niet ondersteund | Een gescheiden lijst van waarden die worden doorgegeven aan een variabele, en vervolgens worden gerapporteerd als afzonderlijke regelitems voor rapportage |
+| marketingCloudVisitorID | Niet ondersteund | Marketing Cloud-id. Zie [Visitor-identificatie](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) en de Marketing Cloud Bezoeker-id-service |
 | Niet ondersteund | charSet | De ondersteunde tekenset voor uw website. Bijvoorbeeld UTF-8, ISO-8859-1 enzovoort. |
 | Niet ondersteund | clickAction | Object-id voor bezoeker op kaart klikken (oid) |
 | Niet ondersteund | clickActionType | Type object-id voor bezoeker op kaart klikken (punt) |
@@ -76,7 +76,7 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | Niet ondersteund | clickTag | Naam van objecttag voor bezoeker op kaart klikken (naar) |
 | Niet ondersteund | scXmlVer | Marketingrapporten XML aanvraagversienummer (bijvoorbeeld 1.0). |
 | Niet ondersteund | tijdzone | De tijdzone van de bezoeker verschuift van GMT in uren (bijvoorbeeld -8). |
-| pageName | pageName | Naam van de pagina. |
+| pageName | pageName | Naam van de pagina |
 | pageType | pageType | Type pagina (bijvoorbeeld &quot;Foutpagina&quot;). |
 | pageURL | pageURL | Pagina-URL (bijvoorbeeld https://www.example.com/index.html). |
 | plug-ins | plug-ins | Lijst met namen van plug-ins van browsers, gescheiden door puntkomma&#39;s. |
