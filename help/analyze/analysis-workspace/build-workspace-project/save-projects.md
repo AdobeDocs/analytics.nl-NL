@@ -5,9 +5,9 @@ feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
+source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '442'
 ht-degree: 2%
 
 ---
@@ -57,9 +57,14 @@ Voor **nieuwe** projecten die nooit zijn opgeslagen, kunnen niet-opgeslagen wijz
 
 ## Vorige versie {#previous-version} openen
 
+>[!NOTE]
+>
+>Eerdere projectversies zijn momenteel in beperkte versie beschikbaar.
+
 Een vorige versie van een project openen:
 
-1. Ga naar Project > Vorige versie openen
-1. Controleer de lijst met eerdere beschikbare versies. Tijdstempel en editor worden verschaft, naast notities als deze zijn toegevoegd toen de editor werd opgeslagen. Versies zonder aantekeningen worden gedurende 90 dagen opgeslagen; versies met notities worden gedurende 1 jaar opgeslagen .
-1. Selecteer een vorige versie en klik op Laden.
-1. De vorige versie wordt met een melding geladen. De vorige versie wordt pas de huidige opgeslagen versie van uw project als u op Opslaan klikt. Als u bij de geladen versie vandaan navigeert, ziet u bij het retourneren de laatst opgeslagen versie van het project.
+1. Ga naar **[!UICONTROL Project]** > **[!UICONTROL Open previous version]**
+1. Controleer de lijst met eerdere beschikbare versies.
+   [!UICONTROL Timestamp] en  [!UICONTROL Editor] worden getoond, naast  [!UICONTROL Notes] of zij werden toegevoegd toen het  [!UICONTROL Editor] bewaarde. Versies zonder aantekeningen worden gedurende 90 dagen opgeslagen; versies met notities worden gedurende 1 jaar opgeslagen .
+1. Selecteer een vorige versie en klik **[!UICONTROL Load]**.
+De vorige versie wordt vervolgens geladen met een melding. De vorige versie wordt pas de huidige opgeslagen versie van uw project als u **[!UICONTROL Save]** klikt. Als u bij de geladen versie vandaan navigeert, ziet u bij het retourneren de laatst opgeslagen versie van het project.
