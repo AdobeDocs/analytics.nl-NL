@@ -2,12 +2,13 @@
 description: Leer meer over de verschillende opslagopties, zoals automatisch opslaan, opslaan als en opslaan als sjabloon.
 title: Projecten opslaan
 feature: Basisprincipes van werkruimte
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
+exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 3%
+source-wordcount: '444'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +23,7 @@ Er zijn verschillende opslaghandelingen die u kunt uitvoeren in het menu **[!UIC
 | Handeling | Beschrijving |
 |---|---| 
 | **[!UICONTROL Save]** | Sla de wijzigingen in uw project op. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) extra tags toe te voegen. |
+| **[!UICONTROL Save with notes]** | Voordat uw project wordt opgeslagen, voegt u notities toe over de wijzigingen in het project. Notities worden opgeslagen met de projectversie en zijn beschikbaar voor alle editors onder Project > Vorige versie openen. |
 | **[!UICONTROL Save as]** | Maak een duplicaat van uw project. Dit heeft geen invloed op het oorspronkelijke project. |
 | **[!UICONTROL Save as template]** | Sla uw project op als een [aangepaste sjabloon](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar wordt voor uw organisatie onder **[!UICONTROL Project > New]** |
 
@@ -52,3 +54,12 @@ Voor **bestaande** projecten, bij het terugkeren naar Workspace, zal de gebruike
 ![](assets/project-recovery.png)
 
 Voor **nieuwe** projecten die nooit zijn opgeslagen, kunnen niet-opgeslagen wijzigingen niet worden hersteld.
+
+## Vorige versie {#previous-version} openen
+
+Een vorige versie van een project openen:
+
+1. Ga naar Project > Vorige versie openen
+1. Controleer de lijst met eerdere beschikbare versies. Tijdstempel en editor worden verschaft, naast notities als deze zijn toegevoegd toen de editor werd opgeslagen. Versies zonder aantekeningen worden gedurende 90 dagen opgeslagen; versies met notities worden gedurende 1 jaar opgeslagen .
+1. Selecteer een vorige versie en klik op Laden.
+1. De vorige versie wordt met een melding geladen. De vorige versie wordt pas de huidige opgeslagen versie van uw project als u op Opslaan klikt. Als u bij de geladen versie vandaan navigeert, ziet u bij het retourneren de laatst opgeslagen versie van het project.
