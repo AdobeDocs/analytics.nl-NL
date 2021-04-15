@@ -1,14 +1,14 @@
 ---
 title: Veelgestelde vragen over classificaties
 description: Veelgestelde vragen over classificaties.
+exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 translation-type: tm+mt
-source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
+source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # Veelgestelde vragen over classificaties
 
@@ -34,6 +34,8 @@ Ja, *maar daarbij telt u elk dimensie-item als een factureerbare serveraanroep.*
 * Het gebruik van de builder van de classificatieregel classificeert geen niet-bestaande items en brengt daarom geen extra kosten met zich mee.
 
 ## Hoe classificeer ik waarden die speciale karakters bevatten?
+
+Het gebruik van spaties met regelafstand en navolgende in classificatiegegevens en raakgegevens wordt niet ondersteund omdat Adobe Analytics de lege tekens uit deze gegevens afkapt.
 
 Het gebruik van speciale tekens zoals komma&#39;s of dubbele aanhalingstekens in rapportage wordt doorgaans niet aanbevolen. In sommige gevallen is het gebruik ervan echter noodzakelijk. Voer de volgende stappen uit als uw rapportwaarden tekens bevatten die u wilt classificeren:
 
