@@ -1,20 +1,20 @@
 ---
-description: Leer meer over de verschillende opslagopties, zoals automatisch opslaan, opslaan als en opslaan als sjabloon.
+description: Leer meer over de verschillende opslagopties, zoals automatisch opslaan, opslaan als, opslaan als sjabloon en eerdere versies openen.
 title: Projecten opslaan
 feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
+source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '438'
 ht-degree: 2%
 
 ---
 
 # Projecten opslaan
 
-Als u uw wijzigingen in een project wilt opslaan, gaat u naar het menu Werkruimte **[!UICONTROL Project]**. Bovendien slaat Adobe projecten in bepaalde gevallen automatisch op.
+Als u uw wijzigingen in een project wilt opslaan, gaat u naar het menu Werkruimte **[!UICONTROL Project]**. In bepaalde gevallen worden projecten ook automatisch opgeslagen in de werkruimte.
 
 ## Projectopties opslaan {#Save}
 
@@ -22,8 +22,8 @@ Er zijn verschillende opslaghandelingen die u kunt uitvoeren in het menu **[!UIC
 
 | Handeling | Beschrijving |
 |---|---| 
-| **[!UICONTROL Save]** | Sla de wijzigingen in uw project op. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) extra tags toe te voegen. |
-| **[!UICONTROL Save with notes]** | Voordat uw project wordt opgeslagen, voegt u notities toe over de wijzigingen in het project. Notities worden opgeslagen met de projectversie en zijn beschikbaar voor alle editors onder Project > Vorige versie openen. |
+| **[!UICONTROL Save]** | Sla de wijzigingen in uw project op. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) tags toe te voegen. |
+| **[!UICONTROL Save with notes]** | Voordat uw project wordt opgeslagen, voegt u notities toe over de wijzigingen in het project. Notities worden opgeslagen met de projectversie en zijn beschikbaar voor alle editors onder [!UICONTROL Project] > [!UICONTROL Open previous version]. |
 | **[!UICONTROL Save as]** | Maak een duplicaat van uw project. Dit heeft geen invloed op het oorspronkelijke project. |
 | **[!UICONTROL Save as template]** | Sla uw project op als een [aangepaste sjabloon](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar wordt voor uw organisatie onder **[!UICONTROL Project > New]** |
 
@@ -49,7 +49,7 @@ De browser waarschuwt dat niet-opgeslagen wijzigingen verloren gaan. U kunt kiez
 
 ### Browsercrashes of sessietijden uit
 
-Voor **bestaande** projecten, bij het terugkeren naar Workspace, zal de gebruiker een **projectterugwinning** modaal zien. Als u Ja selecteert, wordt het project hersteld met de automatisch opgeslagen lokale kopie. Met Nee verwijdert u de automatisch opgeslagen lokale kopie en opent u de laatst door de gebruiker opgeslagen versie van het project.
+Voor **bestaande** projecten, bij het terugkeren naar Werkruimte, zult u **de terugwinning van het Project** modaal zien. Als u Ja selecteert, wordt het project hersteld met de automatisch opgeslagen lokale kopie. Met Nee verwijdert u de automatisch opgeslagen lokale kopie en opent u de laatst door de gebruiker opgeslagen versie van het project.
 
 ![](assets/project-recovery.png)
 
