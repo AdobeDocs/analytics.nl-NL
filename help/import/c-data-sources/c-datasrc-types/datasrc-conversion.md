@@ -2,26 +2,26 @@
 description: Gegevensbronnen ondersteunen de volgende dimensies en metriek van conversiegegevens voor gegevenstypen die als conversie worden verwerkt.
 subtopic: Data sources
 title: Conversie
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
+exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
-
 
 # Conversie
 
 Gegevensbronnen ondersteunen de volgende dimensies en metriek van conversiegegevens voor gegevenstypen die als conversie worden verwerkt.
 
-## Afmetingen en metingen van omzetting {#section_FA1731B232B246DABEDF5A5D84159084}
+## Dimension voor omzetting en metriek {#section_FA1731B232B246DABEDF5A5D84159084}
 
-Als u een weergavegebeurtenis opgeeft, moet u ook de corresponderende gegevensdimensie (eVar) opgeven. Als u bijvoorbeeld Var2-weergaven opneemt, moet u Var2 met een waarde weergeven. Het aantal aangepaste gebeurtenissen en eVar-weergaven dat door een rapportsuite wordt ondersteund, is afhankelijk van het contract en verschilt per bedrijf.
+Als u een weergavegebeurtenis opgeeft, moet u ook de corresponderende gegevensdimensie (eVar) opgeven. Als u bijvoorbeeld eVar2-weergaven opneemt, moet u een waarde opgeven voor eVar2. Het aantal aangepaste gebeurtenissen en weergaven die door een rapportsuite worden ondersteund, is afhankelijk van het contract en verschilt per bedrijf.
 
-<p class="head"> <b>Omzetafmetingen</b> </p>
+<p class="head"> <b>Conversiedimensies</b> </p>
 
 | Kolomnaam | Beschrijving |
 |--- |--- |
@@ -42,9 +42,9 @@ Als u een weergavegebeurtenis opgeeft, moet u ook de corresponderende gegevensdi
 | Extra winkelwagentjes | Aantal toevoegingen aan winkelwagentjes. |
 | Kleurafopen | Aantal winkelwagentjes. |
 | Winkelwagentjes verwijderen | Aantal winkelwagentjes. |
-| Kleuraweergaven | Aantal winkelwagentjes. |
-| Afbeeldingen | Aantal kassa&#39;s. |
-| Gebeurtenis n | Aantal keren dat gebeurtenis n heeft plaatsgevonden. Geldige waarden voor n zijn geheel getal 1 - 100.  Als u een weergavegebeurtenis opgeeft, moet u ook de corresponderende gegevensdimensie (eVar) opgeven. Als u bijvoorbeeld Var2-weergaven opneemt, moet u Var2 met een waarde weergeven. |
+| Weergaven winkelwagen | Aantal winkelwagentjes. |
+| Betalingen | Aantal kassa&#39;s. |
+| Gebeurtenis n | Aantal keren dat gebeurtenis n heeft plaatsgevonden. Geldige waarden voor n zijn geheel getal 1 - 100.  Als u een weergavegebeurtenis opgeeft, moet u ook de corresponderende gegevensdimensie (eVar) opgeven. Als u bijvoorbeeld eVar2-weergaven opneemt, moet u een waarde opgeven voor eVar2. |
 | Diverse weergaven | Aantal malen dat eVar n is weergegeven. Geldige waarden voor n zijn geheel getal 1 - 250. |
 | Prijs | Productprijs. |
 | Orders | Aantal geplaatste bestellingen. |
