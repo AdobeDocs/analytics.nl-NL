@@ -1,16 +1,16 @@
 ---
 description: De Bouwer van het Segment verstrekt een canvas om Metrische Dimension, Segmenten, en Gebeurtenissen te slepen en te laten vallen om bezoekers te segmenteren die op containerhiërarchielogica, regels, en exploitanten worden gebaseerd. Met dit geïntegreerde ontwikkelprogramma kunt u eenvoudige of complexe segmenten maken en opslaan die bezoekerskenmerken en -acties identificeren voor bezoeken en pagina-einden.
 title: Segmenten maken
-topic: Segmenten
+feature: Segmenten
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
+exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1929'
 ht-degree: 1%
 
 ---
-
 
 # Segment Builder
 
@@ -244,4 +244,3 @@ Sjablonen worden aangeduid met het logo Adobe &quot;A&quot;. Hieronder vindt u e
   </tr> 
  </tbody> 
 </table>
-
