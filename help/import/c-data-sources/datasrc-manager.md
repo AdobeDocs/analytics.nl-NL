@@ -2,13 +2,16 @@
 description: Creeer, beheer, en bekijk het gebruik van gegevensbronnen in een rapportreeks.
 subtopic: Data sources
 title: Gegevensbronbeheer
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
+exl-id: a63137b8-deeb-4865-9be9-322416b00186
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 1%
 
 ---
-
 
 # Gegevensbronbeheer
 
@@ -18,27 +21,27 @@ Creeer, beheer, en bekijk het gebruik van gegevensbronnen in een rapportreeks.
 
 ## Tab maken {#section_74603FDA3D8842E49F1A51624A06DE20}
 
-Het [!UICONTROL Create] lusje laat u een nieuwe gegevensbron voor de momenteel geselecteerde rapportreeks vormen. Wanneer u een gegevensbron activeert, [!UICONTROL Data Sources Wizard] begeleidt u door het proces om een malplaatje van Gegevensbronnen tot stand te brengen, en leidt tot een plaats van FTP voor het uploaden van gegevens.
+Met het tabblad [!UICONTROL Create] kunt u een nieuwe gegevensbron configureren voor de momenteel geselecteerde rapportsuite. Wanneer u een gegevensbron activeert, begeleidt [!UICONTROL Data Sources Wizard] u door het proces om een malplaatje van Gegevensbronnen tot stand te brengen, en leidt tot een plaats van FTP voor het uploaden van gegevens.
 
-De selectie die u maakt op het tabblad Maken bepaalt de eerste velden in de sjabloon die wordt gemaakt. Zie Een [sjabloon](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)voor importbestanden genereren.
+De selectie die u maakt op het tabblad Maken bepaalt de eerste velden in de sjabloon die wordt gemaakt. Zie [Een sjabloon voor een importbestand genereren](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
-## Tab beheren {#section_DD559A6701CA45F1A85E56F840F48DBE}
+## Tab {#section_DD559A6701CA45F1A85E56F840F48DBE} beheren
 
 <table id="table_F74696EC855441328CFE0BF49C20D9B0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
+   <th colname="col1" class="entry"> <p>Optie </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Verwerking opnieuw starten </p> </td> 
-   <td colname="col2"> <p>Start de gegevensbronverwerking opnieuw die eerder is gestopt als gevolg van fouten of waarschuwingen. De verwerking gaat door tot de volgende fout wordt ontmoet. Gegevensbronnen stoppen de verwerking van een gegevensbronbestand alleen wanneer u <span class="uicontrol"> Stopverwerking op fouten</span>selecteert. </p> </td> 
+   <td colname="col2"> <p>Start de gegevensbronverwerking opnieuw die eerder is gestopt als gevolg van fouten of waarschuwingen. De verwerking gaat door tot de volgende fout wordt ontmoet. Gegevensbronnen stoppen de verwerking van een gegevensbronbestand alleen wanneer u <span class="uicontrol"> Stop-verwerking op fouten</span> selecteert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Volledige verwerking </p> </td> 
-   <td colname="col2"> <p>Instrueert Gegevensbronnen om het even welke open bezoeken in het dossier te sluiten en verwerking van het Brondossier van Gegevens te beëindigen alsof het volledig is. Dit is nuttig wanneer u bezoeken hebt die veelvoudige dossiers van Gegevensbronnen overspannen. Dit geldt alleen voor <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > volledige verwerking</a>. </p> </td> 
+   <td colname="col2"> <p>Instrueert Gegevensbronnen om het even welke open bezoeken in het dossier te sluiten en verwerking van het Brondossier van Gegevens te beëindigen alsof het volledig is. Dit is nuttig wanneer u bezoeken hebt die veelvoudige dossiers van Gegevensbronnen overspannen. Dit geldt alleen voor <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Volledige verwerking</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Deactiveren </p> </td> 
@@ -64,7 +67,7 @@ De selectie die u maakt op het tabblad Maken bepaalt de eerste velden in de sjab
    <td colname="col1"> <p>Status </p> </td> 
    <td colname="col2"> <p> De huidige status van het bestand. Mogelijke statuswaarden zijn onder andere: </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">In wachtrij (stap 1 van 3): Het bestand bestaat, maar de verwerking is nog niet gestart. Als het bestand niet binnen 30 minuten wordt weergegeven, controleert u of het bijbehorende <span class="filepath"> .fin</span> -bestand aanwezig is </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">In wachtrij (stap 1 van 3): Het bestand bestaat, maar de verwerking is nog niet gestart. Als het dossier niet binnen 30 minuten verschijnt, controleer dat het bijbehorende <span class="filepath"> .fin</span> dossier aanwezig is </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">Voorbereiden (stap 2 van 3): Het bestand wordt gecontroleerd op fouten of waarschuwingen </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">Verwerking (stap 3 van 3): Het bestand wordt verwerkt </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">Mislukt: Het bestand is niet verwerkt door fouten </li> 
