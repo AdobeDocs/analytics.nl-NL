@@ -2,16 +2,16 @@
 description: Het pakhuis van gegevens verstrekt een flexibele interface om douanerapporten in werking te stellen. Als u deze richtlijnen volgt, kunt u de tijd die nodig is om gegevens op te halen, verkorten.
 keywords: tips en trucs;fout;timeout;problemen oplossen
 title: Best practices voor Data Warehouse
-topic: Gegevenspakhuis
+feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
+exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 3%
 
 ---
-
 
 # Best practices voor Data Warehouse
 
