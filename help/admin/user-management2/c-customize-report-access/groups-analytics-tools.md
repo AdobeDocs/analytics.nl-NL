@@ -3,16 +3,16 @@ description: Schakel gebruikersmachtigingen in voor algemene items (facturering,
 keywords: groepen;machtigingen
 subtopic: Users and groups
 title: Toestemmingen voor Analytics-tools
-topic: Beheerprogramma's
+feature: Admin Tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
+exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 9%
 
 ---
-
 
 # Toestemmingen voor Analytics-tools
 
