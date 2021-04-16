@@ -3,16 +3,16 @@ description: Tabelgegevens die de kolommen in de gegevensinvoer beschrijven.
 keywords: Gegevensfeed;kolommen
 subtopic: data feeds
 title: Referentie gegevenskolom
-topic: Rapporten en analyses
+feature: Grondbeginselen van rapporten en analyses
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
+exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '3396'
 ht-degree: 0%
 
 ---
-
 
 # Referentie gegevenskolom
 
