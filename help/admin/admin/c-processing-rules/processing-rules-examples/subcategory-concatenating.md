@@ -2,13 +2,16 @@
 description: Met de optie Samenvoegen kunt u waarden vullen door andere waarden te combineren.
 subtopic: Processing rules
 title: Een subcategorie toevoegen door de categorie- en paginanaam samen te voegen
-topic: Admin tools
+feature: Admin Tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
+exl-id: 463280e0-e5d4-4cf9-9c30-fd699a378848
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 36%
 
 ---
-
 
 # Een subcategorie toevoegen door de categorie- en paginanaam samen te voegen
 
@@ -36,4 +39,3 @@ Met de optie Samenvoegen kunt u waarden vullen door andere waarden te combineren
 Bijvoorbeeld:
 
 ![](assets/add-subcategory-using-concat.png)
-
