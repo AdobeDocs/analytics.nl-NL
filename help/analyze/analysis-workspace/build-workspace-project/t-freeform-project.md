@@ -2,12 +2,12 @@
 description: Maak een project en voeg componenten (afmetingen, metriek, segmenten, datumbereiken) toe aan het deelvenster Vrije vorm.
 keywords: Analysis Workspace
 title: Een Workspace-project maken
-topic: Reports and analytics
+feature: Grondbeginselen van rapporten en analyses
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '732'
 ht-degree: 14%
 
 ---
@@ -23,13 +23,13 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
 
 1. Specificeer gebruikerstoestemming om projecten tot stand te brengen en te leiden.
 
-   Voordat u een Analysis Workspace-project kunt maken of beheren, moeten beheerders u toevoegen aan een groep waarvoor de **[!UICONTROL Create / Curate Projects in Analysis Workspace]** machtiging is ingeschakeld, of aan de **[!UICONTROL All Report Access]** gebruikersgroep. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groups](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html)).
+   Voordat u een Analysis Workspace-project maakt of leidt, moeten beheerders u aan een groep toevoegen met de machtiging **[!UICONTROL Create / Curate Projects in Analysis Workspace]** ingeschakeld of aan de gebruikersgroep **[!UICONTROL All Report Access]**. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groepen](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html)).
 
-1. Klik in het [!DNL Experience Cloud]deelvenster op **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
+1. Klik in [!DNL Experience Cloud] op **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
-   Alternatief, ga een voorwaartse schuine streep (/) in om de bar van het rapportonderzoek te openen, dan type *`workspace`*.
+   Alternatief, ga een voorwaartse schuine streep (/) in om de bar van het rapportonderzoek te openen, dan typ *`workspace`*.
 
    ![](assets/analysis-app-search.png)
 
@@ -38,15 +38,15 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
    U kunt kiezen of u een project wilt maken van
 
 * Een leeg project (standaard). Zie hieronder voor instructies.
-* Een standaardsjabloon. Deze sjablonen worden gemaakt door Adobe en uit de doos te verzenden. Zie [Sjablonen voor instructies](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
-* Een aangepaste sjabloon. Deze sjablonen worden gemaakt door gebruikers met beheerdersrechten. Zie [Sjablonen voor instructies](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* Een standaardsjabloon. Deze sjablonen worden gemaakt door Adobe en uit de doos te verzenden. Zie [Sjablonen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) voor instructies
+* Een aangepaste sjabloon. Deze sjablonen worden gemaakt door gebruikers met beheerdersrechten. Zie [Sjablonen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) voor instructies
 
    ![](assets/start_modal.png)
 
 1. Om een project van een leeg project tot stand te brengen, klik **[!UICONTROL Blank Project]**.
 
-   * Klik vervolgens **[!UICONTROL Create]** of
-   * Klik gewoon **[!UICONTROL Enter]**.
+   * Klik vervolgens op **[!UICONTROL Create]**, of
+   * Klik eenvoudig **[!UICONTROL Enter]**.
 
    Een leeg projectvertoningen, die een freeform paneel en een visualisatie van de gegevenslijst tonen.
 
@@ -73,13 +73,13 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
    <td colname="col2"> <p>Items die u naar het deelvenster of de projectgebieden van de interface kunt slepen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > Deelvenster Vrije vorm </a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > Deelvenster Vrije vorm  </a> </td> 
    <td colname="col2"> <p>Het canvas of de werkruimte waarmee u in Analysis Workspace werkt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1. Sla uw project op. Geef het project een naam, geef een beschrijving op (optioneel, maar nuttig) en typ het project (optioneel). Klik vervolgens op **[!UICONTROL Save Project]**.
+1. Sla uw project op. Geef het project een naam, geef een beschrijving op (optioneel, maar nuttig) en voer een label voor het project in (optioneel). Klik vervolgens op **[!UICONTROL Save Project]**.
 
    ![](assets/save_project.png)
 
@@ -93,7 +93,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
 
 ## Componenten en visualisaties toevoegen {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. Bouw uw project door *`components`* en aan het project *`visualizations`* te slepen.
+1. Bouw uw project door *`components`* en *`visualizations`* aan het project te slepen.
 
    **Onderdelen**
 
@@ -113,11 +113,11 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
   </tr> 
   <tr> 
    <td colname="col1"> Statistieken (groen) </td> 
-   <td colname="col2"> <p>Toepassen op projectniveau. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Voorkomen</span> is standaard metrisch voor de gegevenslijst. </p> </td> 
+   <td colname="col2"> <p>Toepassen op projectniveau. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> </span> Komt voor is standaard metrisch voor de gegevenslijst. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Segmenten (blauw) </td> 
-   <td colname="col2"> <p>Sleepbaar slechts op paneelniveau, maar u kunt gealigneerde segmenten in de gegevenslijst tot stand brengen. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segments </a> for more information. </p> </td> 
+   <td colname="col2"> <p>Sleepbaar slechts op paneelniveau, maar u kunt gealigneerde segmenten in de gegevenslijst tot stand brengen. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Zie <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segmenten </a> voor meer informatie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Datumbereiken en korreligheid (paars) </td> 
@@ -128,7 +128,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
 
 **[Visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-Het [!UICONTROL Visualizations] deelvenster bevat standaardgrafieken van Analytics, grafieken, donuts, gegevenstabellen, [cohortabellen](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) , Venn-diagrammen enzovoort. U kunt meerdere visualisaties naar uw project slepen en neerzetten.
+Het [!UICONTROL Visualizations] paneel verstrekt standaardgrafieken van Analytics, grafieken, donuts, gegevenstabellen, [cohort](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) lijsten, de diagrammen van venn, etc. U kunt meerdere visualisaties naar uw project slepen en neerzetten.
 
 ![Stap Resultaat](assets/visualizations.png)
 
@@ -136,7 +136,7 @@ Het [!UICONTROL Visualizations] deelvenster bevat standaardgrafieken van Analyti
 
 1. Stap
 
-## Met het snelmenu kunt u uw gegevens aanpassen {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
+## Gebruik het met de rechtermuisknop aangeklikte Menu om Uw Gegevens {#concept_8117C300F21843B99F4E1B9AB7B11B6F} aan te passen
 
 Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de cel in een tabel waarop u met de rechtermuisknop klikt.
 
@@ -211,4 +211,4 @@ Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de ce
  </tbody> 
 </table>
 
-Zie Interacties met [toetsenborden en muis in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor informatie over het kopiëren en selecteren van rijen.
+Zie [Interacties met toetsenborden en muis beschikbaar in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor informatie over het kopiëren en selecteren van rijen.
