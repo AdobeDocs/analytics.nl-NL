@@ -1,16 +1,16 @@
 ---
 description: Adobe vereist voorafgaande kennisgeving voor nieuwe accountinstellingen, verkeerspikes en verkeersverhogingen. Hardware moet vooraf worden toegewezen om latentie en mogelijke negatieve effecten voor het gehele systeem tot een minimum te beperken.
 title: Vereiste aanlooptijd voor traffic-toename
-topic: Admin tools
+feature: Admin Tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
+exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 translation-type: tm+mt
-source-git-commit: a114bef4679da24d4fd6323a55c9ccf52ac772ed
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 4%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
-
 
 # Vereiste aanlooptijd voor traffic-toename
 
@@ -20,7 +20,7 @@ De toewijzing van hardware wordt bepaald door waarschuwingen die via de gebruike
 
 >[!IMPORTANT]
 >
->Adobe kan geen verzoeken van de &quot;placeholder&quot;verkeersverandering aanpassen. Tenzij anders vermeld, moet u zo nauwkeurig mogelijk de voorgestelde aanlooptijd in acht nemen, inclusief het niet te vroeg verzenden van een waarschuwing. Zie [Plan een verkeerspiek](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) of [specificeer permanente verkeersverhoging](/help/admin/c-traffic-management/t-traffic-permanent.md).
+>Adobe kan geen verzoeken van de &quot;placeholder&quot;verkeersverandering aanpassen. Tenzij anders vermeld, moet u zo nauwkeurig mogelijk de voorgestelde aanlooptijd in acht nemen, inclusief het niet te vroeg verzenden van een waarschuwing. Zie [Plan een verkeerspin](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) of [Geef een permanente verkeersverhoging](/help/admin/c-traffic-management/t-traffic-permanent.md) op.
 
 Gebruik de volgende richtlijnen om te bepalen hoe ver van tevoren u een verkeersalarm moet voorleggen:
 
@@ -41,16 +41,16 @@ Gebruik de volgende richtlijnen om te bepalen hoe ver van tevoren u een verkeers
    <td colname="col3"> Geen aanlooptijd nodig </td>
   </tr>
   <tr>
-   <td colname="col1"> 1,000,000 - 5,000,000 </td>
+   <td colname="col1"> 1.000.000 - 5.000.000 </td>
    <td colname="col2"> Twee BEDRIJFSdagen </td>
    <td colname="col3" morerows="3"> Alle voor november-december beoogde verkeersverhogingen moeten uiterlijk op 1 september worden ingediend. Dit moet tijd toestaan om capaciteit indien nodig aan te kopen om vakantieverkeer op te vangen. </td>
   </tr>
   <tr>
-   <td colname="col1"> 5,000,000 - 10,000,000 </td>
+   <td colname="col1"> 5.000.000 - 10.000.000 </td>
    <td colname="col2"> Eén kalenderweek </td>
   </tr>
   <tr>
-   <td colname="col1"> 10,000,000 - 25,000,000 </td>
+   <td colname="col1"> 10.000.000 - 25.000.000 </td>
    <td colname="col2"> Twee kalenderweken </td>
   </tr>
   <tr>
