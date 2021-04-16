@@ -1,32 +1,35 @@
 ---
 description: Maakt een lijst van metriek en dimensies die door rapporten in real time worden gesteund. Classificaties worden ook ondersteund als u ze hebt gedefinieerd.
-title: Ondersteunde metriek en afmetingen in real time
-topic: Reports
+title: Ondersteunde cijfers en en dimensies in real time
+topic-fix: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
+exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 23%
 
 ---
 
-
-# Ondersteunde metriek en afmetingen in real time
+# Ondersteunde cijfers en en dimensies in real time
 
 Maakt een lijst van metriek en dimensies die door rapporten in real time worden gesteund. Classificaties worden ook ondersteund als u ze hebt gedefinieerd.
 
 ## Ondersteunde metriek {#section_514ED8B382494C47BFC0657894D1AF94}
 
-* Ontvangsten
+* Omzet
 * Orders
 * Eenheden
 * Houtskaarten
-* Kleuraweergaven
-* Afbeeldingen
-* Extra winkelwagentjes
-* Winkelwagentjes
+* Weergaven winkelwagen
+* Betalingen
+* Toevoegingen aan winkelwagen
+* Verwijderingen uit winkelwagen
 * Instanties
 * Aangepaste gebeurtenissen 1-100 (indien ingeschakeld in de rapportsuite)
 
-## Ondersteunde afmetingen {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## Ondersteunde Dimension {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
 * Pagina
 * Trefwoord zoeken
@@ -43,5 +46,4 @@ Maakt een lijst van metriek en dimensies die door rapporten in real time worden 
 * Aangepaste koppeling
 * Bestand downloaden
 * Koppeling afsluiten
-* De variabelen van het Inzicht van de douane (steunen) 1-75 (als toegelaten in de rapportreeks)
-
+* Custom Insight-variabelen (props) 1-75 (indien ingeschakeld in de rapportsuite)
