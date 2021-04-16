@@ -1,19 +1,22 @@
 ---
 description: De API's van de webservices bieden programmatische toegang tot marketingrapporten en andere suiteservices waarmee u beschikbare functionaliteit in de Analytics-interface kunt dupliceren en uitbreiden.
 title: Webservices
-topic: Admin tools
+feature: Admin Tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 100%
 
 ---
-
 
 # Webservices
 
 De API&#39;s van de webservices bieden programmatische toegang tot marketingrapporten en andere suiteservices waarmee u beschikbare functionaliteit in de Analytics-interface kunt dupliceren en uitbreiden.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Bedrijfsinstellingen]** > **[!UICONTROL Webservices]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Web Services]**
 
 ## Webservices beheren
 
