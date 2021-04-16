@@ -7,9 +7,9 @@ feature: Grondbeginselen van rapporten en analyses
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3405'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `page_event_var2` | Wordt alleen gebruikt in aanvragen voor het bijhouden van koppelingen. De aangepaste naam (indien opgegeven) van de koppeling. | varchar(100) |
 | `page_event_var3` | Niet meer gebruikt. Bevat gegevens van de module Enquête en Media. Bevolkt oudere videoverslagen in vorige versies van Adobe Analytics. | text |
 | `page_type` | Wordt gebruikt om de [Niet-gevonden ](/help/components/dimensions/pages-not-found.md)-dimensie te vullen. Wordt uitsluitend gebruikt voor 404 pagina&#39;s. Deze variabele moet leeg zijn of de waarde `ErrorPage` bevatten. | teken(20) |
-| `page_url` | De URL van de hit. Doorgehaald van aanvragen voor het bijhouden van koppelingen. | varchar(255) |
+| `page_url` | De URL van de hit. In de postvariant (post_page_url) wordt de waarde gestript voor aanvragen voor het bijhouden van koppelingen. | varchar(255) |
 | `pagename` | Wordt gebruikt om de [Page](/help/components/dimensions/page.md)-dimensie te vullen. Als de variabele [`pagename`](/help/implement/vars/page-vars/pagename.md) leeg is, gebruikt Analytics `page_url` in plaats daarvan. | varchar(100) |
 | `paid_search` | Markering die wordt ingesteld als de treffer overeenkomt met de detectie van betaalde zoekopdrachten. | tinyint zonder teken |
 | `partner_plugins` | Niet gebruikt. Onderdeel van een gesloopt onderdeel. | varchar(255) |
