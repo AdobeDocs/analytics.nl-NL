@@ -1,16 +1,16 @@
 ---
 description: Administratieve stappen voor vestiging real-time rapporten.
 title: Realtimerapporten configureren
-topic: Admin tools
+feature: Admin Tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
+exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '274'
 ht-degree: 2%
 
 ---
-
 
 # Realtimerapporten configureren
 
@@ -20,7 +20,7 @@ Het opzetten van rapporten in real time binnen [!UICONTROL Reports & Analytics] 
 
 1. Selecteer de rapportsuite waarvoor u realtime rapporten wilt inschakelen.
 
-   Navigeer naar **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** en selecteer de rapportsuite in het keuzemenu bovenaan:
+   Navigeer naar **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Real-Time]** en selecteer de rapportsuite in het keuzemenu bovenaan:**[!UICONTROL View All Reports > Site Metrics]**
 
    ![](assets/report_suite_selector.png)
 
@@ -28,16 +28,16 @@ Het opzetten van rapporten in real time binnen [!UICONTROL Reports & Analytics] 
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. Klik op **[!UICONTROL Configure]** (tandwielpictogram) om de [!UICONTROL Report Suite Manager]selectie uit te voeren.
+1. Klik **[!UICONTROL Configure]** (tandwielpictogram) om [!UICONTROL Report Suite Manager] in werking te stellen.
 
    (Ook beschikbaar onder **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]**.)
 
-1. Schakel de **[!UICONTROL Enable Real-Time]** instelling in.
+1. Schakel de instelling **[!UICONTROL Enable Real-Time]** in.
 1. Opstelling gegevensinzameling in real time voor maximaal drie rapporten, met één metrische en drie dimensies of classificaties per rapport.
 
    ![](assets/real_time_admin.png)
 
-   Zie [Ondersteunde statistieken en Dimension](/help/components/c-real-time-reporting/realtime-metrics.md)voor informatie over ondersteunde realtime-meetgegevens en -afmetingen.
+   Zie [Ondersteunde metriek en Dimension](/help/components/c-real-time-reporting/realtime-metrics.md) voor informatie over ondersteunde realtime metriek en dimensies.
 
    Als u classificaties hebt gemaakt, worden deze ingesprongen weergegeven onder de dimensie waarvoor ze zijn gedefinieerd:
 
@@ -47,7 +47,7 @@ Het opzetten van rapporten in real time binnen [!UICONTROL Reports & Analytics] 
    >
    >Voor één enkel rapport Real-Time, steunen wij momenteel niet toelatend dubbele dimensies, zelfs als een verschillende classificatie voor elke dimensie wordt geselecteerd.
 
-   Zie [Informatie over classificaties](/help/components/classifications/c-classifications.md)voor meer informatie over classificaties.
+   Zie [Informatie over classificaties](/help/components/classifications/c-classifications.md) voor meer informatie over classificaties.
 
    >[!NOTE]
    >
@@ -55,8 +55,8 @@ Het opzetten van rapporten in real time binnen [!UICONTROL Reports & Analytics] 
 
    ![](assets/warning_dimensions.png)
 
-1. Klik **[!UICONTROL Save]** of **[!UICONTROL Save and View Report]**.
+1. Klik op **[!UICONTROL Save]** of **[!UICONTROL Save and View Report]**.
 
-   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van rapporten in real time, zie [Looppas een Rapport](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html)in real time.
+   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van rapporten in real time, zie [Een Rapport in real time ](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html) in werking stellen.
 
 1. Door gebrek, hebben alle gebruikers toegang tot Echt - tijd rapporten.
