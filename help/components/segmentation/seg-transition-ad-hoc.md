@@ -1,13 +1,13 @@
 ---
 description: Als u gewend bent aan het werken met de Bouwer van het Segment in Ad Hoc Analysis, verklaart dit FAQ wat aan bestaande segmenten en omslagen gebeurt en welke acties u moet nemen.
-keywords: segmentation;segments
+keywords: segmentatie;segmenten
 title: Overgangshandleiding voor Ad Hoc Analysis
-topic: Segments
+feature: Segmenten
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Als u gewend bent aan het werken met de Bouwer van het Segment in Ad Hoc Analysi
 
 * De segmenten zijn universeel aan alle rapportseries. Eerder, waren de segmenten rapport-reeks specifiek.
 * Ad Hoc Analysis bevat updates voor de Segment Builder en een volledige update van Segment Manager.
-* U kunt nu segmenten labelen om deze later te ordenen en te doorzoeken in plaats van mappen te gebruiken. Eerder hebt u mappen gebruikt om uw segmenten [!DNL Ad Hoc Analysis] te ordenen.
+* U kunt nu segmenten labelen om deze later te ordenen en te doorzoeken in plaats van mappen te gebruiken. Eerder hebt u mappen in [!DNL Ad Hoc Analysis] gebruikt om uw segmenten te ordenen.
 
 ## Wat gebeurde er met mijn bestaande segmenten? {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -79,7 +79,7 @@ Nu de segmenten in veelvoudige rapportreeksen werken, zou u kunnen vinden dat u 
 
 Als het segment naar de Experience Cloud is gepubliceerd, kunt u het niet verwijderen of bewerken. U kunt de gekopieerde versie echter wel kopiëren en bewerken.
 
-## Meer informatie over wat er met uw bestaande segmenten gebeurt {#section_83ACAB256F394DCD8B424D8920BDD853}
+## Meer informatie over wat er met uw bestaande segmenten gebeurt{#section_83ACAB256F394DCD8B424D8920BDD853}
 
 <table id="table_0AE814A64D2A48ABB28402C4303F420E"> 
  <thead> 
