@@ -1,14 +1,17 @@
 ---
 description: Voordat u virtuele rapportsuites gaat maken, moet u rekening houden met een aantal zaken.
-keywords: Virtual Report Suite
+keywords: Virtuele rapportsuite
 title: Virtuele rapportsuites maken
-topic: Reports and analytics
+feature: Grondbeginselen van rapporten en analyses
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
+exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 4%
 
 ---
-
 
 # Virtuele rapportsuites maken
 
@@ -47,11 +50,11 @@ Voordat u virtuele rapportsuites gaat maken, moet u rekening houden met een aant
   </tr> 
   <tr> 
    <td colname="col1"> Groepen </td> 
-   <td colname="col2"> <p>Selecteer de machtigingsgroepen die u toegang tot dit VRS wilt hebben. (U kunt groepsmachtigingen ook beheren via <span class="ignoretag"><span class="uicontrol"> Beheer</span> &gt; <span class="uicontrol"> Gebruikersbeheer</span> &gt; <span class="uicontrol"> Groepen</span></span>.) </p> </td> 
+   <td colname="col2"> <p>Selecteer de machtigingsgroepen die u toegang tot dit VRS wilt hebben. (U kunt groepsmachtigingen ook beheren vanuit <span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Gebruikersbeheer</span> &gt; <span class="uicontrol"> Groepen</span></span>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bovenliggende rapportsuite </td> 
-   <td colname="col2"> <p>De rapportsuite waarvan deze virtuele rapportsuite de volgende instellingen overneemt. De meeste de dienstniveaus en eigenschappen (bijvoorbeeld, eVar montages, de Regels van de Verwerking, Classificaties, etc.) worden geërft. Als u deze overgeërfde instellingen wilt wijzigen in een VRS, moet u de bovenliggende rapportsuite bewerken (<span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span></span>). </p> </td> 
+   <td colname="col2"> <p>De rapportsuite waarvan deze virtuele rapportsuite de volgende instellingen overneemt. De meeste de dienstniveaus en eigenschappen (bijvoorbeeld, eVar montages, de Regels van de Verwerking, Classificaties, etc.) worden geërft. Als u wijzigingen wilt aanbrengen in deze overgeërfde instellingen op een VRS, moet u de bovenliggende rapportsuite bewerken (<span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Rapportsets</span></span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Tijdzone </td> 
@@ -59,8 +62,7 @@ Voordat u virtuele rapportsuites gaat maken, moet u rekening houden met een aant
   </tr> 
   <tr> 
    <td colname="col1"> Segmenten </td> 
-   <td colname="col2"> <p>U kunt slechts één segment toevoegen of segmenten <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html"  ></a>stapelen. </p> <p> <p>Opmerking:  Wanneer het stapelen van twee segmenten, worden zij aangesloten bij door EN verklaring. Dit kan niet in een OF verklaring worden veranderd. </p> </p> <p>Wanneer u probeert om een segment te schrappen of te wijzigen dat momenteel in een virtuele rapportreeks wordt gebruikt, toont een waarschuwing. </p> </td> 
+   <td colname="col2"> <p>U kunt slechts één segment toevoegen of u kunt <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html"  > stapelsegmenten</a>. </p> <p> <p>Opmerking:  Wanneer het stapelen van twee segmenten, worden zij aangesloten bij door EN verklaring. Dit kan niet in een OF verklaring worden veranderd. </p> </p> <p>Wanneer u probeert om een segment te schrappen of te wijzigen dat momenteel in een virtuele rapportreeks wordt gebruikt, toont een waarschuwing. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
