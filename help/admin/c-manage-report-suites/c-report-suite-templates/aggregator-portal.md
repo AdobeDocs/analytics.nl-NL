@@ -1,15 +1,18 @@
 ---
 description: Hiermee definieert u algemene instellingen voor een website die inhoud samenvoegt, zoals een nieuwsportaal.
-title: Samenvoegingsportaal
-topic: Admin tools
+title: Verzamel-portal
+feature: Admin Tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
+exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 22%
 
 ---
 
-
-# Samenvoegingsportaal
+# Verzamel-portal
 
 Hiermee definieert u algemene instellingen voor een website die inhoud samenvoegt, zoals een nieuwsportaal.
 
@@ -25,7 +28,7 @@ Hiermee definieert u algemene instellingen voor een website die inhoud samenvoeg
 | Referentieweergave | Teller (geen subrelaties) | `event2` |
 | Verwijzing klikt | Teller (geen subrelaties) | `event3` |
 
-| Aangepaste inzichtvariabelen | `s_code` variabele |
+| Custom Insight-variabelen | `s_code` variabele |
 |---|---|
 | Verkeerseigenschap 1 - 5 | `prop1, prop2, prop3, prop4, prop5` |
 
@@ -33,17 +36,16 @@ De volgende lijst bevat een lijst van de standaardhandelgebeurtenissen. De aanva
 
 | Standard Commerce-gebeurtenissen | Type | `s_code` variabele |
 |---|---|---|
-| Ontvangsten | Teller | `purchase` |
+| Omzet | Teller | `purchase` |
 | Orders | Teller | `purchase` |
 | Eenheden | Teller | `purchase` |
 | Houtskaarten | Teller | `scOpen` |
-| Kleuraweergaven | Teller | `scView` |
+| Weergaven winkelwagen | Teller | `scView` |
 | Instanties | Teller | N.v.t. |
-| Afbeeldingen | Teller | `scCheckout` |
-| Extra winkelwagentjes | Teller | `scAdd` |
-| Winkelwagentjes | Teller | `scRemove` |
+| Betalingen | Teller | `scCheckout` |
+| Toevoegingen aan winkelwagen | Teller | `scAdd` |
+| Verwijderingen uit winkelwagen | Teller | `scRemove` |
 | Bezoeken | Teller (geen subrelaties) | N.v.t. |
 | Paginaweergaven | Teller (geen subrelaties) | N.v.t. |
 | Dagelijkse unieke bezoekers | Teller (geen subrelaties) | N.v.t. |
 | Unieke bezoekers | Teller (geen subrelaties) | N.v.t. |
-
