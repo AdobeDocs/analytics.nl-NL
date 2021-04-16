@@ -1,21 +1,21 @@
 ---
-description: Informatie over hoe Adobe toegang biedt tot gegevensbronnen.
+description: Informatie over hoe Adobe toegang tot Gegevensbronnen verleent.
 subtopic: Data sources
 title: Hoe de Gegevensbronnen werken
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
+exl-id: 3d56ca3f-6c45-48d0-bbd2-53d6babfbb83
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 5%
 
 ---
 
-
 # Hoe de Gegevensbronnen werken
 
-Informatie over hoe Adobe toegang biedt tot gegevensbronnen.
+Informatie over hoe Adobe toegang tot Gegevensbronnen verleent.
 
 >[!NOTE]
 >
@@ -30,10 +30,10 @@ Er zijn twee methoden beschikbaar voor het verzenden van gegevens:
 
 ## FTP {#section_0E70022648F94061AF5B4AD6C7145243}
 
-U kunt op FTP gebaseerde gegevensbronnen tot stand brengen en beheren door marketingrapporten, die de dossieroverdracht van FTP gebruiken om gegevensdossiers in Gegevensbronnen in te voeren. Nadat u een gegevensbron hebt gemaakt, biedt Adobe u een FTP-locatie waarmee u gegevensbronbestanden kunt uploaden. Zodra geupload, vinden de Gegevensbronnen automatisch plaats en verwerken hen. Na verwerking zijn de gegevens beschikbaar voor marketingrapporten.
+U kunt op FTP gebaseerde gegevensbronnen tot stand brengen en beheren door marketingrapporten, die de dossieroverdracht van FTP gebruiken om gegevensdossiers in Gegevensbronnen in te voeren. Nadat u een gegevensbron hebt gemaakt, biedt Adobe u een FTP-locatie die u kunt gebruiken om gegevensbronbestanden te uploaden. Zodra geupload, vinden de Gegevensbronnen automatisch plaats en verwerken hen. Na verwerking zijn de gegevens beschikbaar voor marketingrapporten.
 
 ## API {#section_65DACC9CE00C437BBFDD02D19C25A4BD}
 
-Adobe biedt een API voor gegevensbronnen waarmee u uw toepassingen programmatisch kunt koppelen aan gegevensbronnen. Dit elimineert de behoefte aan een intermediaire server van FTP, en brengt gegevens via HTTP, ZEEP, en REST over.
+Adobe biedt een API van Gegevensbronnen aan die u programmatically uw toepassingen in Gegevensbronnen laat verbinden. Dit elimineert de behoefte aan een intermediaire server van FTP, en brengt gegevens via HTTP, ZEEP, en REST over.
 
-Zie [Gegevensbronnen API Documentatie](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api).
+Zie [Documentatie van de API van Gegevensbronnen](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api).
