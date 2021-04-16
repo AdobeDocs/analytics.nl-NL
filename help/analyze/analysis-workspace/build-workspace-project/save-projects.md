@@ -5,7 +5,7 @@ feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
+source-git-commit: cfeb681805108c9d9422d88b6d7146d0eb186204
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 2%
@@ -64,6 +64,9 @@ Voor **nieuwe** projecten die nooit zijn opgeslagen, kunnen niet-opgeslagen wijz
 Een vorige versie van een project openen:
 
 1. Ga naar **[!UICONTROL Project]** > **[!UICONTROL Open previous version]**
+
+   ![](assets/previous-versions.png)
+
 1. Controleer de lijst met eerdere beschikbare versies.
    [!UICONTROL Timestamp] en  [!UICONTROL Editor] worden getoond, naast  [!UICONTROL Notes] of zij werden toegevoegd toen het  [!UICONTROL Editor] bewaarde. Versies zonder aantekeningen worden gedurende 90 dagen opgeslagen; versies met notities worden gedurende 1 jaar opgeslagen .
 1. Selecteer een vorige versie en klik **[!UICONTROL Load]**.
