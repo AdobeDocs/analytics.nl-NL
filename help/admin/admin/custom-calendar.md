@@ -1,16 +1,16 @@
 ---
 description: Kalenderopties in een ander model dan het Gregoriaanse model. De opties omvatten de 4-4-5, 4-5-4, en 5-4-4 kalendermodellen, die allen als normen voor de kleinhandelsindustrie worden gebruikt. Daarnaast biedt rapportage een optie voor een volledig aanpasbare kalender die u zelf kunt instellen.
 title: Kalender aanpassen
-topic: Beheerprogramma's
+feature: Admin Tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
+exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
 
 ---
-
 
 # Kalender aanpassen
 
@@ -57,4 +57,3 @@ U kunt de kalender gebruiken om de eerste dag van de week en het jaar te bepalen
   </tr> 
  </tbody> 
 </table>
-
