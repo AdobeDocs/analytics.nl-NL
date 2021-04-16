@@ -2,16 +2,16 @@
 description: De verwerkingsregels vereenvoudigen gegevensverzameling en beheren inhoud aangezien het naar rapportering wordt verzonden.
 subtopic: Processing rules
 title: Overzicht van verwerkingsregels
-topic: Beheerprogramma's
+feature: Admin Tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
+exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 translation-type: tm+mt
-source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 2%
 
 ---
-
 
 # Overzicht van verwerkingsregels
 
