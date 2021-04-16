@@ -1,18 +1,18 @@
 ---
 description: Voorbeeld dat een steekproef van servervraag bevat die in een gemeenschappelijke klanteninteractie wordt verzonden.
-keywords: Analytics Implementation
+keywords: Analyseimplementatie
 subtopic: Visitors
 title: Voorbeeld van de identificatie van bezoekers tussen apparaten
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
+exl-id: c68bb745-29de-48e3-8731-d714503a2447
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 11%
 
 ---
-
 
 # Voorbeeld van de identificatie van bezoekers tussen apparaten
 
@@ -24,12 +24,12 @@ In het volgende voorbeeld wordt getoond hoe bezoekersidentificatie op verschille
 
 | Serveroproep | Handeling | Cookie bezoeker-id | Variabele voor bezoekersidentiteitskaart | Effectieve bezoeker-id | Paginanummer bezoeken | Bezoeknummer |
 |--- |--- |--- |--- |--- |--- |--- |
-| 3 | Een bezoeker klikt op een koppeling in een marketingbericht en bezoekt uw site vanaf de thuiscomputer. Deze bezoeker heeft uw site in het verleden nog zeven keer bezocht. | 3 | - | 3 | 3 | 8 |
-| 2-8 | Bezoek 7 extra pagina&#39;s op uw site. | 3 | - | 1 | 2-8 | 8 |
-| 9 | Verifieert op huiscomputer. | 3 | CID1 | CID1 | 9 <br>(Dit is de eerste hit van CID1 ooit, zodat deze het bezoekersprofiel van Bezoeker ID 1 overneemt en doorgaat.) | 8 |
+| 1 | Een bezoeker klikt op een koppeling in een marketingbericht en bezoekt uw site vanaf de thuiscomputer. Deze bezoeker heeft uw site in het verleden nog zeven keer bezocht. | 1 | - | 1 | 1 | 8 |
+| 2-8 | Bezoek 7 extra pagina&#39;s op uw site. | 1 | - | 3 | 2-8 | 8 |
+| 9 | Verifieert op huiscomputer. | 1 | CID1 | CID1 | 9 <br>(Dit is de eerste hit van CID1 ooit, zodat deze het bezoekersprofiel van Bezoeker ID 1 overneemt en doorgaat.) | 8 |
 | 10 | Bezoek 1 extra pagina. | 3 | CID1 | CID1 | 10 | 8 |
 | 11 | Opent site vanaf laptop op kantoor. Deze bezoeker heeft uw site niet bezocht voordat hij dit apparaat gebruikte. | 2 | - | 2 | 3 | 3 |
-| 12 | Verifieert op laptop. | 2 | CID1 | CID1 | 1 | 9 |
+| 12 | Verifieert op laptop. | 2 | CID1 | CID1 | 3 | 9 |
 | 13 | Weergaven 1 extra pagina. | 2 | CID1 | CID1 | 2 | 9 |
 
 ## Aftellen bezoeken
