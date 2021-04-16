@@ -1,16 +1,16 @@
 ---
 description: U kunt een nieuwe rapportreeks tot stand brengen door een vooraf bepaalde malplaatje te selecteren, of door één van uw bestaande rapportreeksen te gebruiken om als model te dienen.
 title: Nieuwe rapportsuite - instellingen
-topic: Beheerprogramma's
+feature: Admin Tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
+exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 2%
 
 ---
-
 
 # Nieuwe rapportsuite - instellingen
 
@@ -68,4 +68,3 @@ Beschrijvingen van de elementen die worden gebruikt wanneer [het creëren van ee
   </tr>  
  </tbody> 
 </table>
-
