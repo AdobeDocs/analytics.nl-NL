@@ -2,16 +2,16 @@
 description: Dit onderwerp verstrekt antwoorden op gemeenschappelijke vragen.
 subtopic: Data sources
 title: Veelgestelde vragen over gegevensbronnen
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
+exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 0%
 
 ---
-
 
 # Veelgestelde vragen over gegevensbronnen
 
@@ -19,7 +19,7 @@ Dit onderwerp verstrekt antwoorden op gemeenschappelijke vragen.
 
 ## Hoe kunnen wij off-line gegevens aan online gebeurtenissen binden? {#section_F48A9474A70D4CB8B449DE305F199AD6}
 
-Als u de gegevensbronnen van de transactie-id wilt koppelen aan online gebeurtenissen, moet u de Opname van de Transactie-id inschakelen. Zie Opname [van](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) transactie-id voor meer informatie.
+Als u de gegevensbronnen van de transactie-id wilt koppelen aan online gebeurtenissen, moet u de Opname van de Transactie-id inschakelen. Zie [Opname van transactie-id](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) voor meer informatie.
 
 ## Hoeveel kost het om de eigenschap van de Gegevensbron te gebruiken? {#section_0B84E3E8891B45E8970EA9D8AAD1ADEC}
 
@@ -86,7 +86,7 @@ Aangezien het proces van de Gegevensbron (&quot;voor Generische DS, niet-Verkeer
 
 ## Zijn de dossieruitbreidingen hoofdlettergevoelig voor een Gegevensbron uploadt of een classificatiedossier? {#section_710787BA4D8C403D8326D666807832B8}
 
-Als de extensies van een uploadbestand voor een gegevensbron of een classificatiebestand met hoofdletters worden weergegeven, worden de bestanden niet verwerkt. Bestandsextensies voor het uploaden van gegevensbron moeten in kleine letters worden weergegeven. Bijvoorbeeld, [!DNL file.TXT] en [!DNL file.FIN] wordt niet verwerkt. Evenzo, [!DNL .TAB] en [!DNL .FIN] zal niet worden verwerkt. Maar [!DNL .txt] en [!DNL .fin] worden verwerkt.
+Als de extensies van een uploadbestand voor een gegevensbron of een classificatiebestand met hoofdletters worden weergegeven, worden de bestanden niet verwerkt. Bestandsextensies voor het uploaden van gegevensbron moeten in kleine letters worden weergegeven. [!DNL file.TXT] en [!DNL file.FIN] worden bijvoorbeeld niet verwerkt. Op dezelfde manier worden [!DNL .TAB] en [!DNL .FIN] niet verwerkt. [!DNL .txt] en [!DNL .fin] worden echter verwerkt.
 
 ## Kan ik extra gebeurtenissen aan het geproduceerde malplaatje toevoegen of ben ik beperkt tot drie? {#section_F184913926DD43B1872956CED308ADB5}
 
@@ -103,7 +103,7 @@ Als u een Gegevensbrondossier hebt waar één of meerdere verslagen niet het zel
 
 Gegevensbroninformatie kan worden opgerold; De klantenservice van Adobe moet de rollup echter vanaf de historische datum opnieuw verwerken om de historische gegevens op te nemen. Als de huidige datum bijvoorbeeld 31 oktober 2015 is en u gegevens voor 1-15 augustus 2015 uploadt met behulp van gegevensbronnen, moet de rollup worden ingesteld om vanaf 1 augustus 2015 opnieuw te worden verwerkt, zodat de nieuw geïmporteerde gegevens worden opgenomen.
 
-Merk ook op dat de gegevens niet direct in een het rapportreeks van de rollup gebruikend Gegevensbronnen zouden moeten worden geupload. Als u deze gegevens in een rollup moet opnemen, moet u deze importeren in een standaardrapportenpakket, ook wel een *`child suite`* naar de rollup genoemd. Neem contact op met de klantenservice van Adobe voor meer informatie.
+Merk ook op dat de gegevens niet direct in een het rapportreeks van de rollup gebruikend Gegevensbronnen zouden moeten worden geupload. Als u deze gegevens in een rollup moet opnemen, moet u deze importeren in een standaard rapportsuite, ook wel *`child suite`* genoemd, naar de rollup. Neem contact op met de klantenservice van Adobe voor meer informatie.
 
 ## Waarom toont het Rapport van de Weergaven van de Pagina geen gegevens van Gegevensbronnen voor één enkele dag, maar het toont de correcte gegevens voor een week? {#section_E361A93AFDE1487989B4B0C4438EEDF7}
 
@@ -111,7 +111,7 @@ Gegevensbronnen rapporteren geen gegevens per uur. Wanneer u probeert om een rap
 
 ## Hoe worden de Unieke Bezoekers berekend in een Bron van de Bron van het Logboek van de Webserver uploadt? {#section_477FEDFD1DBE45278E7D09AFBD59CDAC}
 
-Het aantal Unieke Bezoekers in een web-server logboek wordt berekend als verschillende verschillende combinaties van *`IP Address`* en *`User Agent`* in het logboek van het Web. Elke unieke combinatie van deze twee items wordt berekend als een unieke bezoeker. Als de [!UICONTROL User Agent] kolom leeg is (of niet is opgenomen in het weblogbestand), kunnen we de tellingen van de unieke bezoeker niet identificeren en telt de volledige upload slechts als één unieke bezoeker (zelfs als er meerdere IP-adressen zijn).
+Het aantal unieke bezoekers in een webserverlogboek wordt berekend als de verschillende verschillende combinaties van *`IP Address`* en *`User Agent`* in het weblogbestand. Elke unieke combinatie van deze twee items wordt berekend als een unieke bezoeker. Als de [!UICONTROL User Agent] kolom leeg is (of niet inbegrepen in het Weblogboek) dan kunnen wij de Unieke tellingen van de Bezoeker niet identificeren, en het volledige uploaden zal tellen als enkel één Unieke Bezoeker (zelfs als er veelvoudige IP adressen zijn).
 
 ## In Gegevensbronnen, hoe kan ik zien welke login tot welke rapportreeks behoort? {#section_8EF9D22D5BE14C218724B06E78EF7DF4}
 
@@ -126,7 +126,7 @@ In versie 15, gedragen de Gegevensbronnen zich verschillend gebaseerd op het bro
 
 ## Zijn metriek die gebruikend een transactieID beschikbaar in de gegevensvoer van de Clickstream en gegevenspakhuis worden ingevoerd? {#section_01CD14CA3E11490CB2CBA433C649029E}
 
-De gegevensinvoer bevat alle gegevens van transactie-id&#39;s die zijn ontvangen. Als u echter transactie-id-gegevens uploadt voor een datum in het verleden, kunt u die gegevens alleen ophalen door de gegevensinvoer voor die dag opnieuw te downloaden.
+De gegevenstoevoer bevat alle gegevens van transactie-id&#39;s die zijn ontvangen. Als u echter transactie-id-gegevens uploadt voor een datum in het verleden, kunt u die gegevens alleen ophalen door de gegevensinvoer voor die dag opnieuw te downloaden.
 
 ## Zijn eVars die momenteel in het profiel van de Bezoeker blijven toegewezen aan metriek die met gegevensbronnen wordt geüpload? {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
@@ -139,7 +139,7 @@ Nee. Vars zijn de enige variabelen die in de momentopname van het bezoekersprofi
 
 ## Hoe werken numerieke gebeurtenissen en valutamarkten met gegevensbronnen?
 
-Volledige verwerking biedt alleen ondersteuning voor oudere gebeurtenislijstindelingen, met uitzondering van de waarde voor de gebeurtenis numeric/currency/Counter (meer dan 1) rechtstreeks in de lijst met gebeurtenissen, dat `"eventNN,eventKK"` niet `"eventNN=#.##"`. Dit betekent dat deze alleen ondersteuning biedt voor een tellergebeurtenis als deze wordt doorgegeven in de kolom Gebeurtenissen in het gegevensbronbestand en dat de waarde met 1 wordt verhoogd.
+Volledige verwerking biedt alleen ondersteuning voor oudere gebeurtenislijstindelingen, exclusief de waarde voor numerieke gebeurtenissen/valuta&#39;s/tellers (meer dan 1) die rechtstreeks in de lijst met gebeurtenissen staan, dat wil zeggen `"eventNN,eventKK"` niet `"eventNN=#.##"`. Dit betekent dat deze alleen ondersteuning biedt voor een tellergebeurtenis als deze wordt doorgegeven in de kolom Gebeurtenissen in het gegevensbronbestand en dat de waarde met 1 wordt verhoogd.
 
 Als er numerieke, valuta- of tellergebeurtenissen (meer dan 1) vereist zijn, gebruikt u de productlijst:
 
