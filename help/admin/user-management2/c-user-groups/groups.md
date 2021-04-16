@@ -2,16 +2,16 @@
 description: Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
 subtopic: Users and groups
 title: Gebruikersgroepsinstellingen
-topic: Admin tools
+feature: Admin Tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
+exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 2%
 
 ---
-
 
 # Instellingen gebruikersgroep (verouderd)
 
@@ -48,7 +48,7 @@ Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
      <ul id="ul_62D4A028A1194E02B2F0D364D01E741C"> 
       <li id="li_11ADAD0A625046409B4FCCEF1D14E1E6">Beschikbare rapportageopties </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Toont alle rapportreeksen waartoe deze groep toegang heeft. </p> <p>Selecteer de gewenste rapportsuites, dan klik <span class="uicontrol"> toevoegen</span>. </p> <p>De toegewezen rapportsuites verschijnen in de Reeksen van het <span class="wintitle"> Rapport inbegrepen in Groep</span>. </p> <p><b>Alle rapportsuite-toegang</b>: Wanneer u rapportsuites toevoegt om in een groep op te nemen, kunt u <span class="uicontrol"> Alle Toegang</span>van de Reeks van het Rapport specificeren. Deze instelling past groepsmachtigingen toe op alle huidige en toekomstige rapportsuites. </p> </td> 
+   <td colname="col2"> <p>Toont alle rapportreeksen waartoe deze groep toegang heeft. </p> <p>Selecteer de gewenste rapportsuites, dan klik <span class="uicontrol"> toevoegen </span>. </p> <p>De toegewezen rapportreeksen verschijnen in <span class="wintitle"> de Reeksen van het Rapport inbegrepen in Groep</span>. </p> <p><b>Alle rapportsuite-toegang</b>: Wanneer u rapportsuites toevoegt om in een groep op te nemen, kunt u  <span class="uicontrol"> Alle Toegang</span> van de Reeks van het Rapport specificeren. Deze instelling past groepsmachtigingen toe op alle huidige en toekomstige rapportsuites. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -63,20 +63,20 @@ Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
        <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Verkeersrapporten</b>: Hiermee krijgt u toegang tot alle rapporten die zijn gebaseerd op verkeer, zoals paginaweergaven, bezoeken en unieke bezoekers. </li> 
-       <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>Hulpmiddelen</b> (verleent toegang tot hulpmiddelen die in Rapporten &amp; Analytics zoals Uitsluiten door IP, Classificaties, en erfenisClickmap worden gebruikt.) </li> 
+       <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>Hulpmiddelen</b>  (verleent toegang tot hulpmiddelen die in Rapporten &amp; Analytics zoals Uitsluiten door IP, Classificaties, en erfenisClickmap worden gebruikt.) </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>Video- en mobiele rapporten</b> </li> 
-       <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>Padrapporten</b> (verleent toegang tot tekenrapporten zoals Volgende pagina, Uitvaldatum en Tijd besteed op pagina.) </li> 
+       <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>Padrapporten</b>  (verleent toegang tot tekenrapporten zoals Volgende pagina, Uitvaldatum en Tijd besteed op pagina.) </li> 
        <li id="li_D0B1B964C071441EAEC919DD7CC08E3D"><b>Aangepaste padrapporten</b> </li> 
-       <li id="li_D63F60FF2DD2418A876B53404634D12D"><b>Test en Doel </b>(verleent toegang tot de rapporten van het Doel als uw organisatie zowel Analytics als Doel gebruikt.) </li> 
+       <li id="li_D63F60FF2DD2418A876B53404634D12D"><b>Test en Doel  </b>(verleent toegang tot de rapporten van het Doel als uw organisatie zowel Analytics als Doel gebruikt.) </li> 
        <li id="li_03CE1718D51049D596DB061932D97506"><b>SearchCenter</b> </li> 
-       <li id="li_78AB0BCEDBA946718F90B6D7AB52CB80"><b>Webservices </b>(verleent toegang tot API-bronnen voor zowel rapportage als beheer.) </li> 
-       <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>Metriek</b> (verleent toegang tot metriek die in Rapporten &amp; Analytics wordt gebruikt, met inbegrip van standaardmetriek zoals paginameningen en andere metriek zoals douanegebeurtenissen.)</li> 
-       <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>Admin Console </b>(verleent toegang tot diverse componenten in het Menu Admin, zoals Logs en de montages van de Reeks van het Rapport.) </li> 
-       <li id="li_CF3FA04D402A47618401633BA8583010"><b>Rapport downloaden</b> (hiermee kunt u rapporten downloaden vanuit de gebruikersinterface voor analyse.) </li> 
-       <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>Enquête</b> (verleent toegang tot beoordelingsrapporten als uw organisatie ook de afgekeurde Adobe Survey-mogelijkheden gebruikt.) </li> 
-       <li id="li_9FC3F25F335641B5AC9232BDC2DCCECA"><b>Geavanceerde rapportering</b> (verleent toegang tot geavanceerde rapporten zoals de Kanalen van de Marketing, Anomaly Detection, Segments en Berekende Metrics.) </li> 
-       <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Sociaal</b> (maakt toegang tot rapporten mogelijk die zijn gegenereerd op basis van gegevens in Adobe Social.) </li> 
-       <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Gegevensconnectors </b>(Hiermee kunnen gebruikers gegevensconnectors maken, bijwerken of verwijderen.) </li> 
+       <li id="li_78AB0BCEDBA946718F90B6D7AB52CB80"><b>Webservices  </b>(verleent toegang tot API-bronnen voor zowel rapportage als beheer.) </li> 
+       <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>Metriek</b>  (verleent toegang tot metriek die in Rapporten &amp; Analytics wordt gebruikt, met inbegrip van standaardmetriek zoals paginameningen en andere metriek zoals douanegebeurtenissen.)</li> 
+       <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>Admin Console  </b>(verleent toegang tot diverse componenten in het Menu Admin, zoals Logs en de montages van de Reeks van het Rapport.) </li> 
+       <li id="li_CF3FA04D402A47618401633BA8583010"><b>Rapport downloaden</b>  (hiermee kunt u rapporten downloaden vanuit de gebruikersinterface voor analyse.) </li> 
+       <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>Enquête</b>  (verleent toegang tot beoordelingsrapporten als uw organisatie ook de afgekeurde Adobe Survey-mogelijkheden gebruikt.) </li> 
+       <li id="li_9FC3F25F335641B5AC9232BDC2DCCECA"><b>Geavanceerde rapportering</b>  (verleent toegang tot geavanceerde rapporten zoals de Kanalen van de Marketing, Anomaly Detection, Segments en Berekende Metrics.) </li> 
+       <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Sociaal</b>  (Maakt toegang tot rapporten mogelijk die zijn gegenereerd op basis van gegevens in Adobe Social.) </li> 
+       <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Gegevensconnectors  </b>(Hiermee kunnen gebruikers gegevensconnectors maken, bijwerken of verwijderen.) </li> 
       </ul> </p> 
    </td> 
   </tr> 
@@ -92,7 +92,7 @@ Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
      <ul id="ul_B573C170710545F0BF5CC3675A8F7ECA"> 
       <li id="li_238BA42873E24953A0D73443F36BD7C8">Aanpassen </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>De leden van de groep kunnen tot een ondergroep van de rapporten in de rapportgroep toegang hebben. Klik op <span class="uicontrol"> Aanpassen</span> om een pagina te openen waarop u de specifieke rapporten in de rapportgroep kunt selecteren waartoe groepsleden toegang hebben. </p> 
+   <td colname="col2"> <p>De leden van de groep kunnen tot een ondergroep van de rapporten in de rapportgroep toegang hebben. Klik <span class="uicontrol"> aanpassen </span> om een pagina te openen waar u de specifieke rapporten in de rapportgroep kunt selecteren die groepsleden kunnen toegang hebben tot. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
      <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytische gereedschappen</a>: Schakel gebruikersmachtigingen in voor algemene items (facturering, logbestanden, enz.), bedrijfsbeheer, tools, webservicetoegang, Report Builder en integratie van gegevensconnectors. </li> 
      <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"> Rapportsuite-gereedschappen</a>: Gebruikersmachtigingen inschakelen voor API-toegang, rapportbeheer, gereedschappen en rapporten en dashboarditems. </li> 
@@ -116,7 +116,7 @@ Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (All Access, Customize, No Access) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Machtigingen worden ondersteund voor klanten met actieve <span class="keyword"> Tagbeheer</span> -containers. Niet beschikbaar voor nieuwe gebruikers. </p> <p>Adobe raadt <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html"> Dynamic Tag Management</a> aan voor implementatie. </p> </td> 
+   <td colname="col2"> <p>Machtigingen worden ondersteund voor klanten met actieve <span class="keyword"> TagManager</span> containers. Niet beschikbaar voor nieuwe gebruikers. </p> <p>Adobe raadt <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html"> Dynamic Tag Management</a> aan voor implementatie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Gebruikersaanmeldingen toewijzen</b> </td> 
@@ -127,7 +127,7 @@ Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
      <ul id="ul_8C68B33A3847467DBDC58838E3E85612"> 
       <li id="li_9BA51B0001AA41DE949322083A6CE70D">Beschikbare gebruikers </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u alle momenteel gedefinieerde gebruikersaccounts weer. Selecteer de gewenste gebruikersaccounts en klik op <span class="uicontrol"> Toevoegen</span>. De toegewezen gebruikersrekeningen verschijnen op het gebied van de Leden <span class="uicontrol"> van de</span> Groep. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u alle momenteel gedefinieerde gebruikersaccounts weer. Selecteer de gewenste gebruikersrekeningen, dan klik <span class="uicontrol"> toevoegen </span>. De toegewezen gebruikersrekeningen verschijnen op <span class="uicontrol"> het gebied van de Groep Leden</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -138,4 +138,3 @@ Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
   </tr> 
  </tbody> 
 </table>
-
