@@ -1,16 +1,16 @@
 ---
 description: Het entrepot van gegevens verwijst naar het exemplaar van de gegevens van Analytics voor opslag en douanerapporten, die u kunt lopen door de gegevens te filtreren. U kunt rapporten vragen om geavanceerde gegevensrelaties van onbewerkte gegevens weer te geven op basis van uw unieke vragen. De rapporten van het gegevenspakhuis worden gemaild of via FTP verzonden, en kunnen tot 72 uren aan verwerking vergen. De verwerkingstijd is afhankelijk van de complexiteit van de query en de hoeveelheid gevraagde gegevens.
 title: Overzicht van Data Warehouse
-topic: Gegevenspakhuis
+feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
+exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 1%
 
 ---
-
 
 # Overzicht van Data Warehouse
 
@@ -77,4 +77,3 @@ In deze tabel worden de velden en opties op het tabblad [!UICONTROL Data Warehou
   </tr> 
  </tbody> 
 </table>
-
