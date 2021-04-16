@@ -1,26 +1,29 @@
 ---
 description: Beheer rapportgebruikers en groepen op de pagina van het Beheer van de Gebruiker, laat u gebruikers en groepen beheren, en controle toegang tot rapporten, hulpmiddelen en rapportreeksen.
 subtopic: Users and groups
-title: Overzicht van gebruikersbeheer
-topic: Admin tools
+title: Overzicht van User Management
+feature: Admin Tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
+exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 6%
 
 ---
 
-
-# Overzicht van gebruikersbeheer
+# Overzicht van User Management
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
 
 Beheer rapportgebruikers en groepen op de pagina van het Beheer van de Gebruiker, laat u gebruikers en groepen beheren, en controle toegang tot rapporten, hulpmiddelen en rapportreeksen.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Users]**
 
-## Beschrijving van gebruikersaccount {#section_14A7E169514A42A88E06387CC7C2E9AD}
+## Beschrijvingen gebruikersaccount {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
 **Huidig wachtwoord**
 
@@ -43,7 +46,7 @@ Beheer rapportgebruikers en groepen op de pagina van het Beheer van de Gebruiker
 
 | Element | Beschrijving |
 |---|---|
-| [!UICONTROL First Name] | De opgegeven naam van de gebruiker. |
+| [!UICONTROL First Name] | De door de gebruiker opgegeven naam. |
 | [!UICONTROL Last Name] | De achternaam van de gebruiker. |
 | [!UICONTROL Title] | (Optioneel) De functie van de gebruiker. |
 | [!UICONTROL Phone Number] | (Optioneel) Het telefoonnummer van de zakelijke gebruiker. |
@@ -79,7 +82,7 @@ Maakt een standaarddashboard voor een opgegeven rapportsuite.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Gebruiker</span> </td> 
-   <td colname="col2"> <p> Hiermee geeft u alleen de gebruiker de geselecteerde groep machtigingen. Selecteer de gewenste groepen in het veld <span class="uicontrol"> Beschikbare groepen</span> (links) en klik op <span class="uicontrol"> Toevoegen</span>. De toegewezen groepen worden weergegeven in het veld <span class="uicontrol"> Toegewezen groepen</span> (rechts). Zie <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groepen</a>voor informatie over het maken en beheren van groepen. </p> </td> 
+   <td colname="col2"> <p> Hiermee geeft u alleen de gebruiker de geselecteerde groep machtigingen. Selecteer de gewenste groepen in het <span class="uicontrol"> Beschikbare Groepen</span> gebied (op de linkerzijde), dan klik <span class="uicontrol"> toevoegen</span>. De toegewezen groepen verschijnen in <span class="uicontrol"> Toegewezen Groepen</span> gebied (op het recht). Zie <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groepen</a> voor informatie over het maken en beheren van groepen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,4 +95,3 @@ Maakt een standaarddashboard voor een opgegeven rapportsuite.
 | [!UICONTROL Custom Message] | Hiermee voegt u aanvullende inhoud toe aan het welkomstbericht. Het veld Aangepast bericht ondersteunt HTML, maar u kunt geen bijlagen opnemen. |
 | [!UICONTROL Preview Email] | Hiermee geeft u het welkomstbericht weer in een apart browservenster. |
 | [!UICONTROL Set as default Welcome Message] | Wijzigt het standaardwelkomstbericht om de aangepaste inhoud op te nemen die is opgegeven in het deelvenster Aangepast bericht. |
-
