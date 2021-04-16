@@ -2,16 +2,16 @@
 description: Definities van interface-elementen op de pagina's in de opbouwfunctie voor classificatieregel.
 subtopic: Classifications
 title: Classificatieregels - definities
-topic: Admin tools
+feature: Admin Tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
+exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 translation-type: tm+mt
-source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 1%
+source-wordcount: '877'
+ht-degree: 2%
 
 ---
-
 
 # Classificatieregels - definities
 
@@ -35,7 +35,7 @@ Op deze pagina worden de regels in een regelset weergegeven.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Selecteer rapportsets en -variabelen </p> </td> 
-   <td colname="col2"> <p><b>Rapportsuite</b> </p> <p>Het rapport is geschikt voor de toepassing van de regel. </p> <p><b>Variabele</b> </p> <p>U kunt slechts één variabele toepassen wanneer u een set classificatieregel maakt. Als u veelvoudige regelreeksen voor één variabele wilt tot stand brengen, moet u elke regel toepassen die op veelvoudige rapportreeksen wordt geplaatst. </p> <p>Opmerking: U kunt slechts de variabelen gebruiken u tot in uw rapportreeksen toegang hebt. Variabelen worden pas in het deelvenster <span class="wintitle"> Nieuwe regelset</span> weergegeven nadat voor die variabele ten minste één classificatie is gedefinieerd. </p> <p> U kunt classificaties maken voor een variabele in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span> &gt; <span class="uicontrol"> Traffic</span> &gt; <span class="uicontrol"> Traffic Classifications</span> (of <span class="uicontrol"> Conversion</span> <span class="uicontrol"></span>&gt; Conversion Classifications). Selecteer vervolgens de variabele en klik op <span class="uicontrol"> Classificatie</span>toevoegen. </p> <p>Zie <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  > Verkeersklassificaties</a> en <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  > Conversie-classificaties</a> in de Help bij Admin. </p> </td> 
+   <td colname="col2"> <p><b>Rapportsuite</b> </p> <p>Het rapport is geschikt voor de toepassing van de regel. </p> <p><b>Variabele</b> </p> <p>U kunt slechts één variabele toepassen wanneer u een set classificatieregel maakt. Als u veelvoudige regelreeksen voor één variabele wilt tot stand brengen, moet u elke regel toepassen die op veelvoudige rapportreeksen wordt geplaatst. </p> <p>Opmerking: U kunt slechts de variabelen gebruiken u tot in uw rapportreeksen toegang hebt. Variabelen worden alleen in het deelvenster <span class="wintitle"> Nieuwe regelset</span> weergegeven nadat ten minste één classificatie is gedefinieerd voor die variabele. </p> <p> U kunt classificaties maken op een variabele in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span> &gt; <span class="uicontrol"> Traffic</span> &gt; <span class="uicontrol"> Traffic Classifications</span> (of <span class="uicontrol"> Conversion</span> &gt; <span class="uicontrol"> Conversion Classifications</span>). Selecteer vervolgens de variabele en klik op <span class="uicontrol"> Classificatie toevoegen</span>. </p> <p>Zie <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  > Verkeersklassificaties</a> en <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  > Conversieclassificaties</a> in Admin Help. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activeren</span> </p> </td> 
@@ -47,7 +47,7 @@ Op deze pagina worden de regels in een regelset weergegeven.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configureer rapportsets en -variabelen </p> </td> 
-   <td colname="col2"> <p>Toont de <span class="wintitle"> Beschikbare pagina van de Reeksen</span> van het Rapport, waar u één of meerdere beschikbare rapportreeksen kunt selecteren voor al uw regelreeksen te gebruiken. (Deze pagina wordt ook weergegeven wanneer u de <span class="wintitle"> Classificatieregel Builder</span>voor het eerst uitvoert.) </p> <p>Deze functie is bedoeld om de laadtijd van de rapportsuite te verminderen, voor het geval dat er honderden beschikbare rapportageopensets zijn. </p> <p>De rapportsuites u hier selecteert worden ter beschikking gesteld op het regelniveau, wanneer u klikt <span class="uicontrol"> voeg Correcties</span> toe wanneer het creëren van een regel. </p> <p>Opmerking: Een rapportsuite wordt <span class="term"> alleen</span> beschikbaar wanneer voor de rapportsuite ten minste één classificatie is gedefinieerd voor de variabele in <span class="wintitle"> Admin Tools</span>. <p>(Zie <span class="term"> Variabele</span> in <a href="/help/components/classifications/crb/classification-rule-set.md"  > classificatiereeksen</a> voor een uitleg van deze voorwaarde.) </p> </p> </td> 
+   <td colname="col2"> <p>Toont <span class="wintitle"> Beschikbare pagina van het Rapport Suites</span>, waar u één of meerdere beschikbare rapportreeksen kunt selecteren voor al uw regelreeksen te gebruiken. (Deze pagina toont ook wanneer u eerst <span class="wintitle"> de Bouwer van de Regel van de Classificatie </span> in werking stelt.) </p> <p>Deze functie is bedoeld om de laadtijd van de rapportsuite te verminderen, voor het geval dat er honderden beschikbare rapportageopensets zijn. </p> <p>De rapportreeksen u hier selecteert worden ter beschikking gesteld op het regelniveau, wanneer u <span class="uicontrol"> toevoegt Suites</span> wanneer het creëren van een regel klikt. </p> <p>Opmerking: Een rapportsuite wordt alleen <span class="term"> beschikbaar wanneer voor de rapportsuite ten minste één classificatie is gedefinieerd voor de variabele in <span class="wintitle"> Admin Tools</span>.</span> <p>(Zie <span class="term"> Variabele</span> in <a href="/help/components/classifications/crb/classification-rule-set.md"  > Indelingsregelsets</a> voor een uitleg van deze voorwaarde.) </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regels overschrijven bestaande waarden </p> </td> 
@@ -59,10 +59,10 @@ Op deze pagina worden de regels in een regelset weergegeven.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Venster Opzoeken </p> </td> 
-   <td colname="col2"> <p>Wanneer u regels activeert en valideert, kunt u opgeven of de regels bestaande classificaties voor de betreffende toetsen moeten overschrijven. (Dit heeft alleen invloed op geclassificeerde sleutels die eerder binnen de opgegeven tijdsperiode zijn doorgegeven aan <span class="keyword"> Adobe Analytics</span> .) </p> <p>Als u geen <span class="term"> raadplegingsvenster</span>specificeert, kijken de regels ongeveer één maand terug (afhankelijk van huidige dag van de maand.) Bestaande classificaties worden alleen overschreven als u deze optie inschakelt. </p> <p><b>Dev Center</b>: De partners kunnen classificatieregels in het <span class="wintitle"> Dev Centrum</span>tot stand brengen. Deze regels worden opgesteld wanneer de klant een integratie activeert. In het <span class="wintitle"> Dev Centrum</span>, laat de optie <span class="uicontrol"> Overschrijven aangezien</span> de partner specificeren of de klant de overschrijvingswaarde kan bepalen wanneer het activeren van of het uitgeven van een integratie. </p> <p>Zie <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > hoe de Regels voor meer informatie over regelverwerking worden verwerkt</a> . </p> </td> 
+   <td colname="col2"> <p>Wanneer u regels activeert en valideert, kunt u opgeven of de regels bestaande classificaties voor de betreffende toetsen moeten overschrijven. (Alleen geclassificeerde sleutels die eerder zijn doorgegeven aan <span class="keyword"> Adobe Analytics</span> binnen de opgegeven tijdsperiode, worden beïnvloed.) </p> <p>Als u geen <span class="term"> raadplegingsvenster</span> specificeert, kijken de regels ongeveer één maand terug (afhankelijk van huidige dag van de maand.) Bestaande classificaties worden alleen overschreven als u deze optie inschakelt. </p> <p><b>Dev Center</b>: De partners kunnen classificatieregels in het  <span class="wintitle"> Dev Centrum</span> tot stand brengen. Deze regels worden opgesteld wanneer de klant een integratie activeert. In <span class="wintitle"> Dev Center</span>, laat <span class="uicontrol"> overschrijven Since</span> optie de partner specificeren of de klant de overschrijvingswaarde kan bepalen wanneer het activeren van of het uitgeven van een integratie. </p> <p>Zie <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Hoe de Regels worden verwerkt</a> voor meer informatie over regelverwerking. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Regel toevoegen </a> </td> 
+   <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Regel toevoegen  </a> </td> 
    <td colname="col2"> <p>Hiermee kunt u regels toevoegen aan de regelset. </p> <p>Opmerking:  Als een waarde tweemaal of meer in een reeks regels wordt aangepast, gebruikt het systeem de laatste regel om de waarde te classificeren. </p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ Op deze pagina worden de regels in een regelset weergegeven.
    <td colname="col2"> Dupliceert (kopieert) een regelreeks, zodat u de regel kunt toepassen die aan een andere variabele, of aan de zelfde variabele in een verschillende rapportreeks wordt geplaatst. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Testregelset </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Testregelset  </a> </p> </td> 
    <td colname="col2"> <p>Hiermee kunt u de geldigheid van een regelset testen. </p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ Op deze pagina worden de regels in een regelset weergegeven.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>Het regelnummer. </p> <p>Zie <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Hoe regels worden verwerkt</a> voor meer informatie. </p> </td> 
+   <td colname="col2"> <p>Het regelnummer. </p> <p>Zie <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Hoe worden de regels verwerkt</a> voor meer informatie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Regeltype selecteren</span> </td> 
@@ -96,7 +96,7 @@ Op deze pagina worden de regels in een regelset weergegeven.
      <li id="li_5C702D4F460841D38A59621A5161A3BC">Begint met </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">Eindigt met </li> 
      <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">Bevat </li> 
-     <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Gewone uitdrukking </a> </li> 
+     <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Gewone uitdrukking  </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -120,7 +120,7 @@ Op deze pagina worden de regels in een regelset weergegeven.
 
 ## Standaardexpressiepagina {#section_C932A5469E774841B2229965A154163C}
 
-U kunt reguliere expressies op de [!UICONTROL Regular Expression] pagina bewerken.
+U kunt reguliere expressies bewerken op de pagina [!UICONTROL Regular Expression].
 
 ![](assets/regex_tracking_code.png)
 
@@ -134,7 +134,7 @@ U kunt reguliere expressies op de [!UICONTROL Regular Expression] pagina bewerke
 
 Zie [Reguliere expressies in classificatieregels](/help/components/classifications/crb/classification-quickstart-rules.md).
 
-## Testpagina {#section_EC926F97901C4E65901413F9683AA70A}
+## Pagina {#section_EC926F97901C4E65901413F9683AA70A} testen
 
 Met deze pagina kunt u regels in een set testen.
 
@@ -143,5 +143,4 @@ Met deze pagina kunt u regels in een set testen.
 | Element | Beschrijving |
 |---|---|
 | Test uitvoeren | Wanneer u de regelreeks test, gebruik sleutels van het rapport om te zien hoe zij door de regelreeks zullen worden beïnvloed. |
-| Filter | Hiermee filtert u de waarden in het [!UICONTROL Results] deelvenster. |
-
+| Filter | Hiermee filtert u de waarden in het deelvenster [!UICONTROL Results]. |
