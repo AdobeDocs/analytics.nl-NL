@@ -2,16 +2,16 @@
 description: Vereisten om de DFA gegevensschakelaar met Adobe Analytics te gebruiken.
 keywords: DFA
 title: Vereisten
-topic: Gegevensconnectors
+feature: Data Connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
+exl-id: aa47c54f-d98a-47cb-806f-3f16d783c207
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # Vereisten{#prerequisites}
 
@@ -31,4 +31,3 @@ Ga als volgt te werk voordat u de Adobe Data Connectors-integratie voor DFA star
 * (Optioneel) Identificeer de gebeurtenissen Reports &amp; Analytics die DFA Cost-gegevens zullen opslaan. U kunt de naam van deze gebeurtenissen desgewenst wijzigen.
 * (Optioneel) Identificeer een gebeurtenis voor aangepaste variabelen en succesmeldingen voor Rapporten en Analytics waarin DFA-fouten en -onderbrekingen worden opgeslagen. Deze variabelen helpen om problemen te diagnostiseren die zich met de integratie zouden kunnen voordoen.
 * (Optioneel) Maak een speciaal e-mailaccount voor het ontvangen van informatie en meldingen in verband met de integratie van gegevensconnectors voor DFA.
-
