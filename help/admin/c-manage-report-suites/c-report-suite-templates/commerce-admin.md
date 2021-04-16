@@ -1,13 +1,16 @@
 ---
 description: Hiermee definieert u algemene instellingen voor een e-commercewebsite.
-title: Handel
-topic: Admin tools
+title: Commerce
+feature: Admin Tools
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
+exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 22%
 
 ---
-
 
 # Handel
 
@@ -26,7 +29,7 @@ Hiermee definieert u algemene instellingen voor een e-commercewebsite.
 | Registraties | Teller (geen subrelaties) | `event1` |
 | Aangepaste gebeurtenissen 1-5 | Teller (geen subrelaties) | `event1, event2, event3, event4, event5` |
 
-| Aangepaste inzichtvariabelen | `s_code` variabele |
+| Custom Insight-variabelen | `s_code` variabele |
 |---|---|
 | Verkeerseigenschap 1 - 5 | `prop1, prop2, prop3, prop4, prop5` |
 
@@ -34,17 +37,16 @@ De volgende lijst bevat een lijst van de standaardhandelgebeurtenissen. De aanva
 
 | Standard Commerce-gebeurtenissen | Type | `s_code` variabele |
 |---|---|---|
-| Ontvangsten | Teller | `purchase` |
+| Omzet | Teller | `purchase` |
 | Orders | Teller | `purchase` |
 | Eenheden | Teller | `purchase` |
 | Houtskaarten | Teller | `scOpen` |
-| Kleuraweergaven | Teller | `scView` |
+| Weergaven winkelwagen | Teller | `scView` |
 | Instanties | Teller | N.v.t. |
-| Afbeeldingen | Teller | `scCheckout` |
-| Extra winkelwagentjes | Teller | `scAdd` |
-| Winkelwagentjes | Teller | `scRemove` |
+| Betalingen | Teller | `scCheckout` |
+| Toevoegingen aan winkelwagen | Teller | `scAdd` |
+| Verwijderingen uit winkelwagen | Teller | `scRemove` |
 | Bezoeken | Teller (geen subrelaties) | N.v.t. |
 | Paginaweergaven | Teller (geen subrelaties) | N.v.t. |
 | Dagelijkse unieke bezoekers | Teller (geen subrelaties) | N.v.t. |
 | Unieke bezoekers | Teller (geen subrelaties) | N.v.t. |
-
