@@ -1,16 +1,16 @@
 ---
 description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse tot stand te brengen.
 title: Een verzoek voor een Data Warehouse maken
-topic: Gegevenspakhuis
+feature: Data Warehouse
 uuid: 7789fbb6-44a4-4cc5-9874-c63db4a6d74d
+exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
-
 
 # Een verzoek voor een Data Warehouse maken
 
