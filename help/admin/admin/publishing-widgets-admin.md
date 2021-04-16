@@ -1,20 +1,20 @@
 ---
 description: Een publicatiewidget is een container waarmee u marketingrapporten (bladwijzers en dashboards) op een webpagina kunt insluiten. De mensen in uw organisatie die geen toegang tot marketing rapporten hebben kunnen relevante gegevens bekijken.
 title: Widget publiceren
-topic: Admin tools
+feature: Admin Tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
+exl-id: 97ec07d8-29ad-4ef3-9227-bfdc14a59b97
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
 
-
 # Widget publiceren
 
-Een publicatiewidget is een container waarmee u Analytics-rapporten (bladwijzers en dashboards) op een webpagina kunt insluiten. Personen in uw organisatie die geen toegang hebben tot Analytics-rapporten, kunnen relevante gegevens weergeven.
+Een publicatiewidget is een container waarmee u analyserapporten (bladwijzers en dashboards) op een webpagina kunt insluiten. De mensen in uw organisatie die geen toegang tot de rapporten van de Analyse hebben kunnen relevante gegevens bekijken.
 
 U kunt bijvoorbeeld een dashboard opgeven, zodat bedrijfsleiders het aantal bezoekers van de pagina, het aantal unieke bezoekers van de pagina enzovoort kunnen bekijken.
 
@@ -24,7 +24,7 @@ U kunt bijvoorbeeld een dashboard opgeven, zodat bedrijfsleiders het aantal bezo
 >
 > Adobe is niet verantwoordelijk of aansprakelijk voor gegevens die via de publicatiewidget worden weergegeven.
 
-Omdat publicatiewidget grote verkeersvolumes kan aansturen, behoudt Adobe zich het recht voor om naar eigen goeddunken de publicatiewidgets van een bedrijf uit te schakelen voor oneigenlijk gebruik of overmatig verkeer dat de algehele prestaties beïnvloedt.
+Omdat het Publiceren Widget hoge verkeersvolumes kan drijven, behoudt Adobe zich het recht voor, naar eigen goeddunken, om het Publiceren widgets van een bedrijf voor oneigenlijk gebruik of bovenmatig verkeer onbruikbaar te maken dat een effect op algemene prestaties veroorzaakt.
 
 ## Problemen oplossen - Widget-cache publiceren
 
@@ -33,14 +33,14 @@ De eerste keer dat een gebruiker de geïmplementeerde publicatiewidget ziet, voe
 Als u gegevensverschillen ziet tussen de Publishing Widget en de rapportinterface, moet u mogelijk de cache van de Publishing Widget wissen.
 
 1. Klik in de publicatiewidget (zodat de widget focus heeft).
-1. Klik op **[!UICONTROL Save]** de widget.
+1. Klik op **[!UICONTROL Save]** op de widget.
 1. Voer de widget opnieuw uit. (In de voorvertoningsmodus wordt de cache van de widget niet gebruikt.)
 
 >[!NOTE]
 >
 >Het publiceren Widgets toont slechts de eerste kolom van gegevens in een rapport.
 
-## Widget-beschrijvingen publiceren {#section_D67478AECCA946B19A3E4C7071EB4871}
+## Widget-beschrijvingen {#section_D67478AECCA946B19A3E4C7071EB4871} publiceren
 
 | Element | Beschrijving |
 |--- |--- |
