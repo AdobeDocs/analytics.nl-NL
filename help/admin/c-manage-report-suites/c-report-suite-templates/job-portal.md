@@ -1,15 +1,18 @@
 ---
 description: Hiermee definieert u algemene instellingen voor een zoekwebsite voor een vacature of een carrière.
-title: Job Portal
-topic: Admin tools
+title: Vacatureportal
+feature: Admin Tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
+exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 23%
 
 ---
 
-
-# Job Portal
+# Vacatureportal
 
 Hiermee definieert u algemene instellingen voor een zoekwebsite voor een vacature of een carrière.
 
@@ -21,7 +24,7 @@ Hiermee definieert u algemene instellingen voor een zoekwebsite voor een vacatur
 
 Geen succesgebeurtenissen worden gevormd door dit malplaatje van de rapportreeks.
 
-| Aangepaste inzichtvariabelen | `s_code` variabele |
+| Custom Insight-variabelen | `s_code` variabele |
 |---|---|
 | Beveiligen/niet-beveiligen | `prop1` |
 | Verkeerseigenschap 2 - 5 | `prop2, prop3, prop4, prop5` |
@@ -30,17 +33,16 @@ De volgende lijst bevat een lijst van de standaardhandelgebeurtenissen. De aanva
 
 | Standard Commerce-gebeurtenissen | Type | `s_code` variabele |
 |---|---|---|
-| Ontvangsten | Teller | `purchase` |
+| Omzet | Teller | `purchase` |
 | Orders | Teller | `purchase` |
 | Eenheden | Teller | `purchase` |
 | Houtskaarten | Teller | `scOpen` |
-| Kleuraweergaven | Teller | `scView` |
+| Weergaven winkelwagen | Teller | `scView` |
 | Instanties | Teller | N.v.t. |
-| Afbeeldingen | Teller | `scCheckout` |
-| Extra winkelwagentjes | Teller | `scAdd` |
-| Winkelwagentjes | Teller | `scRemove` |
+| Betalingen | Teller | `scCheckout` |
+| Toevoegingen aan winkelwagen | Teller | `scAdd` |
+| Verwijderingen uit winkelwagen | Teller | `scRemove` |
 | Bezoeken | Teller (geen subrelaties) | N.v.t. |
 | Paginaweergaven | Teller (geen subrelaties) | N.v.t. |
 | Dagelijkse unieke bezoekers | Teller (geen subrelaties) | N.v.t. |
 | Unieke bezoekers | Teller (geen subrelaties) | N.v.t. |
-
