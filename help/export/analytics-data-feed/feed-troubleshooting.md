@@ -3,14 +3,14 @@ description: Deze sectie bevat informatie over algemene kwesties.
 keywords: Gegevensfeed;problemen oplossen
 title: Gegevensfeeds oplossen
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
+exl-id: 58531afe-5e0e-49b6-9c9f-9c857be8dc75
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
-
 
 # Gegevensfeeds oplossen
 
@@ -72,3 +72,9 @@ Sommige mobiele dragers (zoals T-Mobile en O1) verstrekken geen domeininfo voor 
 ## Overzicht van gegevensverwerking {#section_6346328F8D8848A7B81474229481D404}
 
 Vóór de verwerking van uur of daggegevens, wacht de gegevensvoer tot alle klappen die gegevensinzameling binnen het tijdsbestek (dag of uur) zijn ingegaan uit zijn geschreven aan gegevenspakhuis. Daarna, verzamelt de gegevensvoer de gegevens met timestamps die binnen het tijdskader vallen, het comprimeert, en verzendt het via FTP. Voor uurvoer worden de dossiers typisch geschreven aan gegevenspakhuis binnen 15-30 min na het uur, maar er is geen vastgestelde tijdspanne. Als er geen gegevens zijn met tijdstempels die binnen de tijdlijn vallen, probeert het proces het volgende tijdkader opnieuw. Het huidige gegevensvoederproces gebruikt `date_time` gebied om te bepalen welke treffers tot het uur behoren. Dit gebied is gebaseerd op de tijdzone van de rapportreeks.
+
+## &quot;Uourly&quot; versus &quot;Daily&quot; gegevensfeed-indelingen
+
+Voor gegevens die ouder zijn dan 7 dagen, worden de &quot;Uur&quot;dossiers van een dag gecombineerd in één enkel &quot;Dagelijks&quot;dossier.
+
+Voorbeeld: Op 9 maart 2021 wordt een nieuwe gegevensfeed gemaakt en de gegevens van 1 januari 2021 tot en met 9 maart worden als &quot;Uur&quot; geleverd. De &quot;Uurly&quot;-bestanden van vóór 2 maart 2021 worden echter gecombineerd tot één &quot;Dagelijks&quot;-bestand. U kunt alleen &#39;Uurly&#39;-bestanden extraheren uit gegevens die jonger zijn dan 7 dagen na de aanmaakdatum. In dit geval, van 2 maart tot en met 9 maart.
