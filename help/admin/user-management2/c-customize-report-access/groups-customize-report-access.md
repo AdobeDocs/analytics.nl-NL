@@ -3,16 +3,16 @@ description: U kunt groepsmachtigingen aanpassen aan Analytics-programma's, rapp
 keywords: groepen;machtigingen
 subtopic: Users and groups
 title: Rapporttoegang aanpassen - overzicht
-topic: Beheerprogramma's
+feature: Admin Tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
+exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
-
 
 # Rapporttoegang aanpassen - overzicht
 
@@ -102,4 +102,3 @@ U kunt bijvoorbeeld een groep maken met toegang tot meerdere analyseprogramma&#3
   </tr> 
  </tbody> 
 </table>
-
