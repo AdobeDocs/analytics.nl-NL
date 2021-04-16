@@ -1,17 +1,17 @@
 ---
 description: Veldbeschrijvingen voor de algemene instellingen in dynamisch tagbeheer voor de implementatie van Adobe Analytics.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
+keywords: Analyse-implementatie;implementatiemethode;dynamisch tagbeheer;dtm;algemene instellingen;eu-compatibiliteit;tekenset;valutacode;trackingserver;ssl-trackingserver
 title: Algemeen
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
+exl-id: f63e83bf-be87-4ea2-ba04-5c152e5d16d3
 translation-type: tm+mt
-source-git-commit: 0d699a50a764d9ea76771118c7cc083fb46cefe9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '305'
 ht-degree: 1%
 
 ---
-
 
 # Algemeen
 
@@ -28,15 +28,15 @@ Veldbeschrijvingen voor de algemene instellingen in DTM, voor de implementatie v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>EU-conformiteit voor <span class="keyword"> Adobe Analytics inschakelen </span> </p> </td> 
-   <td colname="col2"> <p> Hiermee wordt het bijhouden van gegevens op basis van het privacycookie van de EU in- of uitgeschakeld. </p> <p>Wanneer een pagina wordt geladen, controleert het systeem of wordt een koekje genoemd <span class="filepath"> sat_track </span> geplaatst (of de naam van het douanecookie die op de <span class="wintitle"> </span> Edit pagina van het Bezit wordt gespecificeerd). Overweeg de volgende informatie: </p> 
+   <td colname="col1"> <p>EU-compatibiliteit voor <span class="keyword"> Adobe Analytics </span> inschakelen </p> </td> 
+   <td colname="col2"> <p> Hiermee wordt het bijhouden van gegevens op basis van het privacycookie van de EU in- of uitgeschakeld. </p> <p>Wanneer een pagina wordt geladen, controleert het systeem of wordt een cookie met de naam <span class="filepath"> sat_track </span> ingesteld (of de aangepaste cookienaam die is opgegeven op de pagina <span class="wintitle"> Eigenschap bewerken </span>). Overweeg de volgende informatie: </p> 
     <ul id="ul_42A6D728F0BC4FBABB0069EFB66DCB01"> 
-     <li id="li_227CB14326344AA3980F20C7EACF2AD2"> <p> Als het cookie niet bestaat of als het cookie bestaat en op iets anders is ingesteld dan <span class="term"> true </span>, wordt het laden van het gereedschap overgeslagen wanneer deze instelling is ingeschakeld. Betekenis, zal om het even welk gedeelte van een regel die het hulpmiddel gebruikt niet van toepassing zijn. </p> <p>Als een regel analyses bevat van EU-conformiteit op en code van derden en het cookie is ingesteld op <span class="term"> false </span>, wordt de code van derden nog steeds uitgevoerd. De analytische variabelen worden echter niet ingesteld. </p> </li> 
+     <li id="li_227CB14326344AA3980F20C7EACF2AD2"> <p> Als het cookie niet bestaat of als het cookie bestaat en op iets anders is ingesteld dan <span class="term"> true </span>, wordt het laden van het gereedschap overgeslagen wanneer deze instelling is ingeschakeld. Betekenis, zal om het even welk gedeelte van een regel die het hulpmiddel gebruikt niet van toepassing zijn. </p> <p>Als een regel analyses bevat van de EU-conformiteit op en code van derden en de cookie is ingesteld op <span class="term"> false </span>, wordt de code van derden nog steeds uitgevoerd. De analytische variabelen worden echter niet ingesteld. </p> </li> 
      <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> Als het cookie bestaat maar is ingesteld op <span class="term"> true </span>, wordt het gereedschap normaal geladen. </li> 
-    </ul> <p>U bent verantwoordelijk voor het instellen van het cookie <span class="filepath"> sat_track </span> (of aangepaste benoemde cookie) op <span class="term"> false </span> als een bezoeker het cookie uitschakelt. U kunt dit bereiken met behulp van aangepaste code: </p> <p> 
+    </ul> <p>U bent verantwoordelijk voor het instellen van het <span class="filepath"> sat_track </span> (of aangepaste benoemde cookies) cookie op <span class="term"> false </span> als een bezoeker het cookie uitschakelt. U kunt dit bereiken met behulp van aangepaste code: </p> <p> 
      <code>
        _satellite.setCookie("sat_track",&amp;nbsp;"false"); 
-     </code> </p> <p> U moet ook een mechanisme hebben om die cookie in te stellen op <span class="term"> true </span> als u wilt dat een bezoeker zich later kan aanmelden: </p> <p> 
+     </code> </p> <p> U moet ook een mechanisme hebben om dat cookie in te stellen op <span class="term"> true </span> als u wilt dat een bezoeker zich later kan aanmelden: </p> <p> 
      <code>
        _satellite.setCookie("sat_track",&amp;nbsp;"true"); 
      </code> </p> </td> 
@@ -55,7 +55,7 @@ Veldbeschrijvingen voor de algemene instellingen in DTM, voor de implementatie v
   </tr> 
   <tr> 
    <td colname="col1"> <p>SSL-traceringsserver </p> </td> 
-   <td colname="col2"> <p>Het domein waarop de afbeeldingsaanvraag en het cookie worden geschreven. Wordt gebruikt voor beveiligde pagina's. Als deze niet is gedefinieerd, gaan SSL-gegevens naar <span class="term"> trackingServer </span>. </p> </td> 
+   <td colname="col2"> <p>Het domein waarop de afbeeldingsaanvraag en het cookie worden geschreven. Wordt gebruikt voor beveiligde pagina's. Indien niet gedefinieerd, gaan SSL-gegevens naar <span class="term"> trackingServer </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datacenter </p> </td> 
@@ -63,4 +63,3 @@ Veldbeschrijvingen voor de algemene instellingen in DTM, voor de implementatie v
   </tr> 
  </tbody> 
 </table>
-
