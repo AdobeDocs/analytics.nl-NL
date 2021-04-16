@@ -1,16 +1,16 @@
 ---
 description: Wanneer een rapport een groot aantal unieke waarden heeft, verstrekt Adobe functionaliteit om ervoor te zorgen dat de belangrijkste waarden in uw rapport verschijnen.
 title: Lage verkeerswaarde in Adobe Analytics
-topic: Metrics
+feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
+exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
-
 
 # Lage verkeerswaarde in Adobe Analytics
 
@@ -46,9 +46,9 @@ Laag-verkeersdrempels zijn niet zichtbaar in Analytics UI. Neem contact op met d
 
 De verschillende mogelijkheden behandelen laag-verkeerswaarden op verschillende manieren.
 
-* **Data Warehouse:** Er is geen limiet aan het aantal unieke waarden in rapporten over Data Warehouse. De unieke architectuur ervan maakt het mogelijk om een aantal unieke waarden te rapporteren.
+* **Data Warehouse:** Er is geen limiet aan het aantal unieke waarden in rapporten van de Data Warehouse. De unieke architectuur ervan maakt het mogelijk om een aantal unieke waarden te rapporteren.
    * In sommige beperkte scenario&#39;s, kunnen de laag-verkeerswaarden nog verschijnen. Voorbeelden zijn list vars, list props, merchandising Vars en de detailafmetingen van marketingkanalen.
 * **Segmentatie:** Als de segmentcriteria een variabele met een hoog aantal unieke waarden omvatten, worden de waarden die onder laag verkeer worden gevangen niet inbegrepen.
-* **Classificaties:** Indelingsrapporten zijn ook onderworpen aan unieke limieten. Als de waarde van de bovenliggende variabele van een classificatie wordt opgenomen onder laag verkeer, wordt de waarde niet geclassificeerd.
+* **classificaties:** classificatierapporten zijn ook onderworpen aan unieke limieten. Als de waarde van de bovenliggende variabele van een classificatie wordt opgenomen onder laag verkeer, wordt de waarde niet geclassificeerd.
    * De door de importeur verkregen waarden voor de indeling in laagverkeerssituaties kunnen in Data Warehouse worden bekeken. <!-- AN-115871 -->
-   * De waarden van de laag-verkeersclassificatie die door de regelbouwer worden verkregen *kunnen niet* in Data Warehouse worden bekeken. <!-- AN-122872 -->
+   * De waarden van de laag-verkeersclassificatie die door de regelbouwer *worden verkregen kunnen* niet in Data Warehouse worden bekeken. <!-- AN-122872 -->
