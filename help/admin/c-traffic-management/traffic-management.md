@@ -1,19 +1,22 @@
 ---
-description: De pagina van het Beheer van het Verkeer laat u verwachte veranderingen van het verkeersvolume specificeren. Met deze instellingen kan Adobe de juiste bronnen toewijzen om ervoor te zorgen dat uw verkeer tijdig kan worden bijgehouden en verwerkt.
-title: Verkeer beheren
-topic: Admin tools
+description: De pagina van het Beheer van het Verkeer laat u verwachte veranderingen van het verkeersvolume specificeren. Deze montages laten Adobe de aangewezen middelen toewijzen om ervoor te zorgen dat uw verkeer kan worden gevolgd en op tijd worden verwerkt.
+title: Traffic beheren
+feature: Admin Tools
 uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
+exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 8%
 
 ---
 
+# Traffic beheren
 
-# Verkeer beheren
+De pagina van het Beheer van het Verkeer laat u verwachte veranderingen van het verkeersvolume specificeren. Deze montages laten Adobe de aangewezen middelen toewijzen om ervoor te zorgen dat uw verkeer kan worden gevolgd en op tijd worden verwerkt.
 
-De pagina van het Beheer van het Verkeer laat u verwachte veranderingen van het verkeersvolume specificeren. Met deze instellingen kan Adobe de juiste bronnen toewijzen om ervoor te zorgen dat uw verkeer tijdig kan worden bijgehouden en verwerkt.
-
-Toegang krijgen tot [!UICONTROL Traffic Management]:
+Om tot [!UICONTROL Traffic Management] toegang te hebben:
 
 1. Klik **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, dan selecteer een rapportreeks.
 
