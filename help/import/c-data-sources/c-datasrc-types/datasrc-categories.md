@@ -2,13 +2,16 @@
 description: De categorieën van de gegevensbron identificeren verschillende gegevensbrontypes die gelijkaardige functionaliteit verstrekken.
 subtopic: Data sources
 title: Overzicht van gegevenstypen en categorieën
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
+exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 4%
 
 ---
-
 
 # Overzicht van gegevenstypen en categorieën
 
@@ -29,11 +32,11 @@ Categorieën bieden een manier om gegevensbronnen vanuit het perspectief van de 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Webserverlogbestanden </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md"   > Weblog </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md"   > Weblog  </a> </p> </td> 
    <td colname="col3"> <p>De meeste servers van het Web produceren logboekdossiers die elke gediende pagina registreren. Gebruikend deze gegevensbron, kunt u de logboekdossiers van de meeste de servergegevens van het Web verwerken en deze gegevens toevoegen aan uw rapporten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Cloud-uploaden voor advertenties </p> </td> 
+   <td colname="col1"> <p>Advertising Cloud Bulk uploaden </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversie </a> </p> </td> 
    <td colname="col3"> <p>Biedt handmatige en excel-geautomatiseerde bulkuploads in Advertising Cloud. </p> </td> 
   </tr> 
@@ -79,7 +82,7 @@ Categorieën bieden een manier om gegevensbronnen vanuit het perspectief van de 
  </tbody> 
 </table>
 
-## Customer Relationship Management (CRM) {#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
+## Beheer van klantrelaties (CRM) {#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
 
 <table id="table_5895659CAB2C415AB2AA59A2E6C75AD1"> 
  <thead> 
@@ -155,16 +158,16 @@ Categorieën bieden een manier om gegevensbronnen vanuit het perspectief van de 
   <tr> 
    <td colname="col1"> <p> </p> <p>Algemene gegevensbron (alleen overzichtsgegevens) </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversie </a> </p> </td> 
-   <td colname="col3"> <p>Gebruik deze gegevensbron als er geen betere overeenkomst is met het type gegevens dat u wilt importeren in marketingrapporten en analyses. </p> </td> 
+   <td colname="col3"> <p>Gebruik deze gegevensbron als er geen betere overeenkomst is met het type gegevens dat u in marketing reports and analytics wilt importeren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Algemene gegevensbron (volledige verwerking) </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Volledige verwerking </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Volledige verwerking  </a> </p> </td> 
    <td colname="col3"> <p>Hiermee kunt u logbestandsgegevens importeren. Deze gegevens worden verwerkt alsof ze zijn ontvangen door servers voor gegevensverzameling op het opgegeven tijdstip (elke hit ontvangt een tijdstempel). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>Algemene gegevensbron (transactie-id) </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md"   > Transactie-id </a> </p> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md"   > Bezoeker-id </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md"   > Transactie-id </a> </p> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md"   > Bezoekers-id </a> </p> </td> 
    <td colname="col3"> <p>Hiermee kunt u elke offlinegebeurtenis koppelen aan een online gebeurtenis. De transactie-id fungeert als een sleutel tussen de gebeurtenissen offline en online. </p> </td> 
   </tr> 
  </tbody> 
@@ -199,7 +202,7 @@ Categorieën bieden een manier om gegevensbronnen vanuit het perspectief van de 
  </tbody> 
 </table>
 
-## Leads en aanhalingstekens {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
+## Aanhalingstekens {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
 
 <table id="table_85B095414F6C4644A191A94AC0CAD13D"> 
  <thead> 
@@ -211,7 +214,7 @@ Categorieën bieden een manier om gegevensbronnen vanuit het perspectief van de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Loodgeneratie </p> </td> 
+   <td colname="col1"> <p>Lead generation </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversie </a> </p> </td> 
    <td colname="col3"> <p>Laat u informatie over de resultaten van de lood voor elke lood uploaden die op uw Website, met inbegrip van daadwerkelijke geproduceerde opbrengst wordt geproduceerd. </p> <p>Nadat de opbrengst correct aan lood IDs wordt toegeschreven, kunt u uw meest winstgevende campagnes en promoties identificeren. </p> </td> 
   </tr> 
@@ -227,4 +230,3 @@ Categorieën bieden een manier om gegevensbronnen vanuit het perspectief van de 
   </tr> 
  </tbody> 
 </table>
-
