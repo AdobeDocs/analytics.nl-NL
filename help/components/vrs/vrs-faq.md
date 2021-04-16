@@ -1,16 +1,19 @@
 ---
 description: Tips en aanbevolen procedures voor nieuwe gebruikers van virtuele rapportsuites.
-keywords: Virtual Report Suite
-title: VRS Veelgestelde vragen
-topic: Reports and analytics
+keywords: Virtuele rapportsuite
+title: Veelgestelde vragen over VRS
+feature: Grondbeginselen van rapporten en analyses
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
+exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 translation-type: tm+mt
-source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 0%
 
 ---
 
-
-# VRS Veelgestelde vragen
+# Veelgestelde vragen over VRS
 
 Tips en aanbevolen procedures voor nieuwe gebruikers van virtuele rapportsuites.
 
@@ -24,16 +27,16 @@ Tips en aanbevolen procedures voor nieuwe gebruikers van virtuele rapportsuites.
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Moet ik mijn implementatie van veelvoudige rapportreeksen in één enkele "globale"rapportreeks consolideren en dan virtuele rapportreeksen gebruiken om verschillende segmenten gegevens aan mijn gebruikers bloot te stellen?</b> </td> 
-   <td colname="col2"> <p>Misschien. Hier volgen enkele situaties waarin u kunt <b>overwegen om door te gaan met individuele rapportreeksen</b>: </p> 
+   <td colname="col2"> <p>Misschien. Hier zijn enkele omstandigheden waaronder u <b>kunt overwegen door te gaan met individuele rapportsuites</b>: </p> 
     <ul> 
      <li>Als u variabelen/dimensies met een groot aantal unieke waarden hebt, kan het consolideren in één enkele rapportreeks ertoe leiden dat u maandelijkse unieke waardemaxima in deze globale reeks overschrijdt, leidend tot beknotting ("Laag Verkeer"als lijnpunt in rapporten). </li> 
      <li>Als u real-time of "Huidige gegevens" rapportage voor afzonderlijke segmenten nodig hebt (bijvoorbeeld merken, bedrijfseenheden, enz.) van uw gegevens. </li> 
-     <li>Als uw verschillende rapportsuites elk unieke vereisten voor het bijhouden hebben (d.w.z., als zij de variabelen en gebeurtenissen van de Analyse van Adobe zeer verschillend gebruiken), merk op dat het consolideren aan een globale rapportreeks u geen extra variabelen of gebeurtenissen voor het volgen zal verlenen. </li> 
+     <li>Als uw verschillende rapportsuites elk unieke vereisten voor het volgen (d.w.z., als zij de variabelen en de gebeurtenissen van Adobe Analytics zeer verschillend gebruiken) hebben, merk op dat het consolideren aan een globale rapportreeks u geen extra variabelen of gebeurtenissen voor het volgen zal verlenen. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Welke montages op virtuele rapportsuites worden geërft van de reeks van het ouderrapport? </b> </td> 
-   <td colname="col2"> <p>Een virtuele rapportsuite (VRS) neemt de meeste serviceniveaus van de bovenliggende rapportsuite over, zoals eVar-instellingen, verwerkingsregels, classificaties, enzovoort. </p> <p>De volgende instellingen worden <b>NIET</b> overgeërfd: </p> 
+   <td colname="col1"> <b>Welke montages op virtuele rapportsuites worden geërft van de reeks van het ouderrapport?  </b> </td> 
+   <td colname="col2"> <p>Een virtuele rapportsuite (VRS) neemt de meeste serviceniveaus van de bovenliggende rapportsuite over, zoals eVar-instellingen, verwerkingsregels, classificaties, enzovoort. </p> <p>De volgende instellingen worden <b>NOT</b> overgeërfd: </p> 
     <ul> 
      <li>Set-id rapporteren </li> 
      <li>Naam rapportsuite </li> 
@@ -52,15 +55,15 @@ Tips en aanbevolen procedures voor nieuwe gebruikers van virtuele rapportsuites.
   </tr> 
   <tr> 
    <td colname="col1"> <b>Hoe worden virtuele rapportsuites behandeld in de Admin Console en Admin API? Kan ik eigenschappen tegen hen zoals de koffers van het basisrapport bewaren? </b> </td> 
-   <td colname="col2"> <p>Nee, virtuele rapportsuites worden <b>niet ondersteund voor de meeste beheerfuncties</b>. Zoals hierboven vermeld, erft VRS de meeste de dienstniveaus en eigenschappen van de ouder (bijvoorbeeld, eVar montages, de Regels van de Verwerking, Classificaties, enz.), zodat om een veranderingen in deze geërfte montages op VRS aan te brengen, moet u de ouderrapportreeks veranderen. </p> <p>Dientengevolge, worden de virtuele rapportsuites getoond in UI <b>slechts hier</b>: </p> 
+   <td colname="col2"> <p>Nee, virtuele rapportsuites worden <b>niet ondersteund voor de meeste Admin-functies</b>. Zoals hierboven vermeld, erft VRS de meeste de dienstniveaus en eigenschappen van de ouder (bijvoorbeeld, eVar montages, de Regels van de Verwerking, Classificaties, enz.), zodat om een veranderingen in deze geërfte montages op VRS aan te brengen, moet u de reeks van het ouderrapport veranderen. </p> <p>Dientengevolge, worden de virtuele rapportsuites getoond in UI <b>slechts hier</b>: </p> 
     <ul> 
-     <li>De virtuele Manager van de Reeks van het Rapport, waar u VRSs creeert en uitgeeft. <p>( <span class="ignoretag"><span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Components </span> &gt; <span class="uicontrol"> Virtual Report Suites </span> </span>) </p> </li> 
-     <li id="li_E2B3F61A3013402697DCF6E0D32A62DC"> De gebruikersbeheerinterface waarin u groepen met aangepaste machtigingen bewerkt. Dit staat VRS rekeningen toe om aan een toestemmingengroep worden toegevoegd en zou kunnen worden gebruikt om een groep tot stand te brengen die slechts toegang tot virtuele rapportsuites heeft (als Admin toegang tot de ouder wilde ontkennen en slechts gebruikers toegang tot specifieke segmenten toestaat). <p>( <span class="ignoretag"> Admin <span class="uicontrol"> &gt; </span> Gebruikersbeheer <span class="uicontrol"> </span> </span>) </p> </li> 
+     <li>De virtuele Manager van de Reeks van het Rapport, waar u VRSs creeert en uitgeeft. <p>( <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Components </span> &gt; <span class="uicontrol"> Virtual Report Suites </span> </span>) </p> </li> 
+     <li id="li_E2B3F61A3013402697DCF6E0D32A62DC"> De gebruikersbeheerinterface waarin u groepen met aangepaste machtigingen bewerkt. Dit staat VRS rekeningen toe om aan een toestemmingengroep worden toegevoegd en zou kunnen worden gebruikt om een groep tot stand te brengen die slechts toegang tot virtuele rapportsuites heeft (als Admin toegang tot de ouder wilde ontkennen en slechts gebruikers toegang tot specifieke segmenten toestaat). <p>( <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Gebruikersbeheer </span> </span>) </p> </li> 
     </ul> <p>Opmerking:  Wanneer u de API van de Diensten van het Web gebruikt en probeert om de montages van de Eigenschap tegen VRS te bewaren, zal een uitzondering worden geworpen. Functies kunnen alleen worden ingesteld op basis van een basisrapportsuite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> Ik controleerde "begin nieuw bezoek bij lancering." Waarom zie ik bezoeken die nog veel hoger zijn dan lanceringen?</b> </td> 
-   <td colname="col2"> <p> Als het selectievakje 'Nieuw bezoek starten bij starten' is ingeschakeld, geldt de time-out nog steeds. Dus als een gebruiker de app tien minuten gebruikt met een pauze van één minuut tussen elke actie, begint een nieuw bezoek bij het starten en worden negen extra bezoeken gemaakt wanneer het bezoek uitvalt. Als u het starten en bezoeken zo dicht mogelijk wilt houden wanneer u de optie "Nieuw bezoek starten bij starten" gebruikt, moet u een time-out gebruiken die langer is dan de sessietime-out die in de SDK is ingesteld. </p> </td> 
+   <td colname="col1"> <b> Ik controleerde "begin nieuw bezoek bij lancering." Waarom zie ik bezoeken nog veel hoger dan lanceringen?</b> </td> 
+   <td colname="col2"> <p> Als het selectievakje 'Nieuw bezoek starten bij starten' is ingeschakeld, geldt de time-out nog steeds. Dus als een gebruiker de app tien minuten gebruikt met een pauze van één minuut tussen elke actie, begint een nieuw bezoek bij het starten en worden er negen extra bezoeken gemaakt wanneer het bezoek uitvalt. Als u het starten en bezoeken zo dicht mogelijk wilt houden wanneer u de optie "Nieuw bezoek starten bij starten" gebruikt, moet u een time-out gebruiken die langer is dan de sessietime-out die in de SDK is ingesteld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> Ik stel "nieuw bezoek starten bij starten" in en stel een langere time-out in dan mijn SDK. Waarom zijn mijn lanceringen nog veel lager dan bezoeken?</b> </td> 
@@ -72,4 +75,3 @@ Tips en aanbevolen procedures voor nieuwe gebruikers van virtuele rapportsuites.
   </tr> 
  </tbody> 
 </table>
-
