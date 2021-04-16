@@ -2,16 +2,16 @@
 description: Informatie over de vereisten voor uw rapportreeks alvorens Gegevensbronnen te gebruiken.
 subtopic: Data sources
 title: Vereisten en uploadlimieten
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 1%
 
 ---
-
 
 # Vereisten en uploadlimieten
 
@@ -35,15 +35,15 @@ De volgende secties maken een lijst van beperkingen die op Gegevensbronnen en ge
 * Alleen gegevens met huidige of eerdere datums kunnen worden geïmporteerd. Probeer niet om toekomstige data in uw gegevens van Gegevensbronnen te gebruiken.
 * Voor alle rijen moet een datum worden opgegeven om mogelijkheden voor het maken van rapporten mogelijk te maken. Als een rij geen datum omvat, produceren de Gegevensbronnen een fout en verwerpt het dossier. De datum-/tijdnotatie verschilt per type gegevensbron:
 
-   * **Volledige gegevensbronnen** voor verwerking: Gebruik de datumnotatie ISO 8601 van `YYYY-MM-DDThh:mm:ss±UTC_offset` (bijvoorbeeld `2013-09-01T12:00:00-07:00`) of Unix Time Format (het aantal seconden dat is verstreken sinds 1 januari 1970).
+   * **Volledige gegevensbronnen** voor verwerking: Gebruik de datumnotatie ISO 8601  `YYYY-MM-DDThh:mm:ss±UTC_offset` (bijvoorbeeld  `2013-09-01T12:00:00-07:00`) of Unix Time Format (het aantal seconden dat is verstreken sinds 1 januari 1970).
 
-   * **Gegevensbronnen** voor standaard en integratie: Gebruik de volgende datumnotatie: `MM/DD/YYYY/HH/mm/SS` (bijvoorbeeld `01/01/2013/06/00/00`)
+   * **Gegevensbronnen** voor standaard en integratie: Gebruik de volgende datumnotatie:  `MM/DD/YYYY/HH/mm/SS` (bijvoorbeeld  `01/01/2013/06/00/00`)
 
 ## Algemeen {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
 * Wanneer u een Gegevensbrondossier uploadt, voeren de Gegevensbronnen basisgegevensbevestiging uit om ervoor te zorgen het dossier geen het formatteren fouten bevat. Als een fout in een bestand wordt aangetroffen, wordt een e-mailmelding verzonden en wordt de verwerking gestopt.
 * Gegevensvelden mogen geen puntkomma&#39;s bevatten. Gegevensbronnen slaan records over die een puntkomma bevatten.
-* De gegevens van het Logboek van het Web, het Verkeer, en sommige Generische groeperingen van Gegevensbronnen zijn niet beschikbaar in Data Warehouse of ontdekken. Zie [Gegevenstypen en Categorieën](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md)voor meer informatie.
+* De gegevens van het Logboek van het Web, het Verkeer, en sommige Generische groeperingen van Gegevensbronnen zijn niet beschikbaar in Data Warehouse of ontdekken. Zie [Gegevenstypen en Categorieën](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md) voor meer informatie.
 * Gegevensbronnen ondersteunen geserialiseerde gebeurtenissen niet.
 
 ## Ondersteuning voor meerdere bytes {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -90,7 +90,7 @@ Als u een UTF-8 of ISO-8859-1 dossier indient en uw rapportreeks niet wordt gevo
 * De fout wordt ontdekt tijdens omzetting, in welk geval u een bericht als &quot;Gevonden slecht karakter in dossier op positie 18 terwijl het omzetten van UTF-8 in ISO-8859-1&quot;ontvangt.
 * Het bestand wordt verwerkt zonder fouten, maar er staan onjuiste gegevens in het rapport.
 
-## Weblogbestanden uploaden {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## Weblogbestanden {#section_DD736FC971FE45C89AB310BEDC1FE707} uploaden
 
 * De nuttigste rapporten voor het bekijken van de gegevens van het Logboek van het Web zijn verkeersrapporten, zoals paginameningen.
 * Paginanamen worden weergegeven als de volledige URL, inclusief de queryreeks.
