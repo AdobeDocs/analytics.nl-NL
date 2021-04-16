@@ -1,18 +1,18 @@
 ---
 description: Gebruikersmachtigingen inschakelen voor API-toegang, rapportbeheer, gereedschappen en rapporten en dashboarditems.
-keywords: groups;permissions
+keywords: groepen;machtigingen
 subtopic: Users and groups
 title: Toestemmingen voor rapportsuitetools
-topic: Admin tools
+feature: Admin Tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
+exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
 translation-type: tm+mt
-source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1145'
 ht-degree: 9%
 
 ---
-
 
 # Toestemmingen voor rapportsuitetools
 
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 Gebruikersmachtigingen inschakelen voor API-toegang, rapportbeheer, gereedschappen en rapporten en dashboarditems.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
+**[!UICONTROL User Management]** >  **[!UICONTROL Groups]** >  **[!UICONTROL Report Access]** >  **[!UICONTROL Report Suite Tools]** >  **[!UICONTROL Customize]**
 
 De [!UICONTROL Customize Report Suite Tools] pagina verleent leden van een groep toegang tot de volgende punten.
 
@@ -30,7 +30,7 @@ De [!UICONTROL Customize Report Suite Tools] pagina verleent leden van een groep
 
 ## Veldbeschrijvingen
 
-De instellingen op deze pagina hebben betrekking op de rapportsuites die op de [!UICONTROL Define User Groups] pagina zijn geselecteerd.
+De instellingen op deze pagina hebben betrekking op de rapportsuites die zijn geselecteerd op de pagina [!UICONTROL Define User Groups].
 
 | Element | Beschrijving |
 |--- |--- |
@@ -40,7 +40,7 @@ De instellingen op deze pagina hebben betrekking op de rapportsuites die op de [
 | Rapportsets (lezen) | Staat een niet-admin gebruiker toe om de methodes van de rapportreeks in API te gebruiken. |
 | Rapportsets (schrijven) | Staat een niet-admin gebruiker toe om de methodes van de rapportreeks in API te gebruiken. |
 | **Rapportbeheer** |  |
-| Met deze instellingen hebt u toegang tot de menu-items in Beheer > Suite rapporteren > Instellingen bewerken ([Report Suite Manager](/help/admin/c-manage-report-suites/report-suites-admin.md)). |  |
+| Met deze instellingen krijgt u toegang tot de menu-items in Beheer > Rapportagesuites > Instellingen bewerken ([Suite-beheer rapporteren](/help/admin/c-manage-report-suites/report-suites-admin.md)). |  |
 | [Traffic-beheer](/help/admin/c-traffic-management/traffic-management.md) | Verleent toestemming aan het Beheer van het Verkeer. |
 | [Rapportbeheer](/help/admin/c-manage-report-suites/report-suites-admin.md) | Hiermee geeft u toestemming voor het beheren van rapportsuites. |
 | [Accountoverzicht](/help/admin/admin/general-acct-settings-admin.md) | Hiermee geeft u toestemming om accountinstellingen te bewerken voor een rapportsuite. |
@@ -77,11 +77,11 @@ De instellingen op deze pagina hebben betrekking op de rapportsuites die op de [
 | Oudere ClickMap | Hiermee krijgt u toegang tot het menu voor het oudere ClickMap-overlaygereedschap. |
 | Oudere installatie van Clickmap | Hiermee verleent u installatierechten aan het oudere ClickMap. |
 | Terugkerende bezoeken | Een verslag waarin het aantal bezoeken wordt vermeld wanneer het bezoeknummer groter is dan 1. In het rapport Retour Visits zijn niet-gekookte bezoekers opgenomen. |
-| [Classificaties Importeur](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) /Exporter en [Rule Builder](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Geconsolideerd in classificaties (zie hieronder). |
+| [Classificaties Importer](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) /Exporter en  [Rule Builder](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Geconsolideerd in classificaties (zie hieronder). |
 | Data feeds Manager | Hiermee worden rechten toegekend aan de gegevensfeed Analytics. |
 | Classificaties | Combineert de volgende machtigingen: &#39;Verkeersclassificaties&#39;, &#39;Video Classifications&#39;, &#39;Conversion Classifications&#39;, &#39;Classification Hierarchies&#39;, &#39;Classifications Manager&#39; en &#39;Classifications Importer/Exporter &amp; Rule Builder&#39;.  Opmerking:  Met deze toestemming, geven de gebruikers classificaties voor alle rapportreeksen uit, niet alleen geselecteerde één/s. |
 | [Contributieanalyse](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Rechten op het gebruik van bijdrageanalyse in Analysis Workspace worden toegekend. |
 | **Dashboarditems** |  |
-| De instellingen in Dashboard-items maken toegang mogelijk tot [rapporten](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) in Rapporten en Analyse:, Mijn aanbevolen rapporten, Samenvattingsrapport van bedrijf, Afbeelding, KPI/Gage-rapport, Totalen van de rapportsuite, Tekst, Rapportering, Overzichtsrapport van gebruik en Webbronnen |  |
+| De montages in DashboardPunten laten toegang tot [rapporlets](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) in Rapporten &amp; Analytics toe:, Mijn Geadviseerde Rapporten, het Samenvattingsrapport van het Bedrijf, Beeld, KPI/het Rapport van de Pagina, de Totalen van de Reeks van het Rapport, Tekst, Te Rapporteren, het Overzicht van het Gebruik Te rapporteren, en de Middelen van het Web |  |
 | **Overige** |  |
 | Sociaal | Controls access to the Social Management menu in the Report Suite Manager. |
