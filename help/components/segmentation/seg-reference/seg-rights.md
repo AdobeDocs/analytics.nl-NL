@@ -1,16 +1,16 @@
 ---
 description: Segmentfunctionaliteit verschilt nu meestal tussen gebruikers op beheerniveau en gebruikers zonder beheerdersrechten.
 title: Segmentrechten per rol
-topic: Segmenten
+feature: Segmenten
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
+exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 6%
 
 ---
-
 
 # Segmentrechten per rol
 
@@ -43,5 +43,3 @@ Segmentfunctionaliteit verschilt nu meestal tussen gebruikers op beheerniveau en
   </tr> 
  </tbody> 
 </table>
-
-
