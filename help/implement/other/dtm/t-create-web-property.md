@@ -1,17 +1,17 @@
 ---
 description: Een webeigenschap kan elke groepering van een of meer domeinen en subdomeinen met een bibliotheek met regels zijn, die in één ingesloten code is opgenomen.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
+keywords: Analyse - implementatie;implementatiemethode;dynamisch tagbeheer;dtm;webeigenschap;eigenschap
 title: Webeigenschap maken
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
+exl-id: f89381d0-bdf7-4e01-96a3-2ea160da2b44
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
-
 
 # Webeigenschap maken
 
@@ -19,11 +19,11 @@ Een webeigenschap kan elke groepering van een of meer domeinen en subdomeinen me
 
 >[!NOTE]
 >
->Alleen gebruikers met beheerdersrechten kunnen een eigenschap maken. Zie Groepen [maken en beheren in DTM](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html) in de documentatie over producten voor dynamisch tagbeheer voor meer informatie over rollen.
+>Alleen gebruikers met beheerdersrechten kunnen een eigenschap maken. Voor meer informatie over rollen, zie [Groepen in DTM](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html) in de Dynamische Documentatie van het Product van het Beheer van de Markering creëren en leiden.
 
 U kunt deze middelen beheren en bijhouden met DTM. Stel dat u meerdere websites hebt die op één sjabloon zijn gebaseerd en u dezelfde elementen op al deze websites wilt bijhouden. U kunt één webeigenschap op meerdere domeinen toepassen.
 
-Voor algemene informatie over Web eigenschappen en beste praktijken, zie de Eigenschappen [van het](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html) Web in de Dynamische Documentatie van het Product van het Beheer van de Markering.
+Zie [Web Properties](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html) in de documentatie over producten voor dynamisch tagbeheer voor algemene informatie over wegeigenschappen en aanbevolen werkwijzen.
 
 1. Navigeer naar de bedrijfspagina en klik op **[!UICONTROL Add Property]**.
 
@@ -48,7 +48,7 @@ Voor algemene informatie over Web eigenschappen en beste praktijken, zie de Eige
     <td colname="col2"> <p>De basis-URL van de eigenschap. </p> </td> 
     </tr> 
     <tr> 
-    <td colname="col1"> <span class="uicontrol"> Deze site omvat meerdere domeinen </span> </td> 
+    <td colname="col1"> <span class="uicontrol"> Deze site omvat meerdere domeinen  </span> </td> 
     <td colname="col2"> <p>U kunt domeinen toevoegen en verwijderen als u bezoekersgegevens tussen domeinen wilt behouden. Als deze optie is geselecteerd, blijven de gegevens voor het bezoek in de verschillende subdomeinen bestaan. </p> <p>Met deze instelling kunt u opgeven hoe u verkeer wilt bijhouden dat zich tussen de bijbehorende subdomeinen of domeinen verplaatst. Koppelingen naar subdomeinen worden behandeld als uitgaande koppelingen. Bezoeken naar subdomeinen worden afzonderlijk bijgehouden. </p> </td> 
     </tr> 
     </tbody> 
