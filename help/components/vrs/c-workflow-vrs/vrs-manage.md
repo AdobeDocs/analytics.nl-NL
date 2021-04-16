@@ -1,17 +1,17 @@
 ---
 description: Met de Virtual Report Suite Manager kunnen beheerders virtuele rapportsuites bewerken, toevoegen, labelen, verwijderen, hernoemen, goedkeuren, kopiëren, exporteren en filteren. Deze is niet zichtbaar voor gebruikers die geen beheerder zijn.
-keywords: Virtual Report Suite
+keywords: Virtuele rapportsuite
 title: Virtuele rapportsuites beheren
-topic: Reports and analytics
+feature: Grondbeginselen van rapporten en analyses
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
+exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '456'
 ht-degree: 3%
 
 ---
-
 
 # Virtuele rapportsuites beheren
 
@@ -23,7 +23,7 @@ Met de Virtual Report Suite Manager kunnen beheerders virtuele rapportsuites bew
 
 >[!NOTE]
 >
->In de Virtuele Manager van de Reeks van het Rapport, kunt u slechts uw eigen virtuele rapportreeksen zien. Je moet klikken **[!UICONTROL Show All]** om iedereen te zien.
+>In de Virtuele Manager van de Reeks van het Rapport, kunt u slechts uw eigen virtuele rapportreeksen zien. U moet **[!UICONTROL Show All]** klikken om iedereen anders&#39;s te zien.
 
 | Taak | Beschrijving |
 |--- |--- |
