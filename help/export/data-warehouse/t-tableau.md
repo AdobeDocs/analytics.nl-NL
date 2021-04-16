@@ -1,16 +1,16 @@
 ---
 description: De Data Warehouse kan rapporten in het dossierformaat leveren van de Uitvoer van Gegevens van Tableau (TDE) dat u gegevens en laag in extra gegevens van buiten Adobe Analytics visualiseert. U kunt deze informatie via e-mail verzenden of deze gegevens FTP-server verzenden.
 title: Tableau-gegevensbestand
-topic: Gegevenspakhuis
+feature: Data Warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
+exl-id: c9973eb6-9ca2-4a8d-94b0-4c7c9c70ab26
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
-
 
 # Tableau-gegevensbestand
 
