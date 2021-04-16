@@ -2,16 +2,16 @@
 description: Informatie over het malplaatje van de Gegevensbron .txt.
 subtopic: Data sources
 title: Referentie van bestand importeren
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
+exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 2%
 
 ---
-
 
 # Referentie van bestand importeren
 
@@ -22,11 +22,11 @@ Gebruik de Tovenaar van Gegevensbronnen om een het invoeren malplaatje te produc
 * Een hekje (#) geeft die rij aan als een opmerking.
 * Desgewenst kunt u aanvullende opmerkingen aan het bestand toevoegen.
 * Een opmerking die de titel van het sjabloonbestand weergeeft.
-* Een opmerking die een overzicht geeft van de namen van de externe metrische waarden en gegevensdimensies die in het [!UICONTROL Data Source Activation Wizard]dialoogvenster zijn opgegeven.
+* Een opmerking die een overzicht geeft van de namen van de externe metrische waarden en gegevensdimensies die zijn opgegeven in [!UICONTROL Data Source Activation Wizard].
 
 Kolomkoppen worden gebruikt om de gegevens in elke kolom van het gegevensbronbestand te identificeren. Er zijn drie typen kolomkoppen:
 
-**Datum**: (Vereist) Een tijdstempel voor elke gegevensrij in het bestand, in de indeling `m/d/yyyy`.
+**Datum**: (Vereist) Een tijdstempel voor elke gegevensrij in het bestand, in de indeling  `m/d/yyyy`.
 
 **Variabelen**: De namen van de rapportagevariabelen die zijn toegewezen aan de gegevensafmetingen van de gegevensbron.
 
@@ -56,13 +56,13 @@ Gebruik het malplaatje van de Gegevensbron om een Gegevensbrondossier tot stand 
    log_2009-01-01_13:30.txt
    ```
 
-* Om de verwerking van uw gegevensbronbestand te versnellen, raadt Adobe aan (metrische) gebeurtenisgegevens samen te voegen tot één rij per datum.
+* Om de verwerking van uw Gegevensbrondossier te versnellen, adviseert Adobe samenvoegend gebeurtenis (metrische) gegevens in één enkele rij per datum.
 
    Als uw gegevensbronbestand bijvoorbeeld een hyperlink en een afbeelding naar gebeurtenis 6 bevat, maakt u één gegevensrij die het totale aantal indrukken en indrukken voor elke dag bevat. U hoeft dus geen gegevensrijitem te maken voor elke advertentie die op een bepaalde dag is opgetreden.
 * Als u gegevens moet uploaden vanaf datums vóór de aanmaakdatum van de rapportsuite, neemt u contact op met uw accountmanager om de oudste datum te wijzigen waarvoor u rapporten kunt uitvoeren.
 
 **.FIN-bestand**
 
-Wanneer u klaar bent met het invullen van het gegevensbronbestand, kunt u het naar Analytics FTP. Er is echter een extra bestand nodig om uw gegevens te kunnen verwerken. U moet een leeg tekstbestand met dezelfde naam als het gegevensbestand uploaden, maar met een [!DNL .fin] extensie.
+Wanneer u klaar bent met het invullen van het gegevensbronbestand, kunt u het naar Analytics FTP. Er is echter een extra bestand nodig om uw gegevens te kunnen verwerken. U moet een leeg tekstbestand met dezelfde naam als het gegevensbestand uploaden, maar met de extensie [!DNL .fin].
 
-Als u bijvoorbeeld een aangeroepen gegevensbestand (met tabs als scheidingsteken) uploadt, moet u ook een leeg tekstbestand uploaden [!DNL myproductdata.txt]met de naam [!DNL myproductdata.fin]. Zonder het [!DNL .fin] bestand worden gegevens nooit verwerkt.
+Als u bijvoorbeeld een gegevensbestand met de naam [!DNL myproductdata.txt] (gescheiden door tabs) uploadt, moet u ook een leeg tekstbestand met de naam [!DNL myproductdata.fin] uploaden. Zonder het [!DNL .fin]-bestand worden gegevens nooit verwerkt.
