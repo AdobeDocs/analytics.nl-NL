@@ -1,29 +1,31 @@
 ---
-description: Met de sectie Permanent verkeer kunt u de verwachte verkeersniveaus wijzigen, zodat Adobe bronnen opnieuw kan toewijzen om het nieuwe verkeersniveau te verwerken.
-title: Permanente verkeersverhoging opgeven
-topic: Admin tools
+description: De Permanente secties van het Verkeer laten u verwachte verkeersniveaus veranderen zodat kan Adobe middelen opnieuw toewijzen om het nieuwe verkeersniveau te behandelen.
+title: Permanente traffic-toename opgeven
+feature: Admin Tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
+exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 9%
 
 ---
 
+# Permanente traffic-toename opgeven
 
-# Permanente verkeersverhoging opgeven
+De Permanente secties van het Verkeer laten u verwachte verkeersniveaus veranderen zodat kan Adobe middelen opnieuw toewijzen om het nieuwe verkeersniveau te behandelen.
 
-Met de sectie Permanent verkeer kunt u de verwachte verkeersniveaus wijzigen, zodat Adobe bronnen opnieuw kan toewijzen om het nieuwe verkeersniveau te verwerken.
-
-Gelieve te lezen de informatie over de [Vereiste Tijd van de Lood voor de Toename](/help/admin/c-traffic-management/traffic-lead-time.md) van het Verkeer alvorens u een permanente verkeersverhoging specificeert.
+Gelieve te lezen de informatie over [Vereiste Tijd van de Lood voor Verhogingen ](/help/admin/c-traffic-management/traffic-lead-time.md) alvorens u een permanente verkeersverhoging specificeert.
 
 1. Open Report Suite Manager door op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** te klikken.
-1. Selecteer een rapportsuite.
+1. Een rapportsuite selecteren.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic Management]** > **[!UICONTROL Permanent Traffic]**.
-1. Op het **[!UICONTROL New Expected Daily Page Views]** gebied, specificeer de totale verwachte dagelijkse paginameningen voor het nieuwe verkeersniveau.
+1. Geef in het veld **[!UICONTROL New Expected Daily Page Views]** de totaal verwachte dagelijkse paginaweergaven voor het nieuwe verkeersniveau op.
 
    Zorg ervoor dat u de totaal verwachte paginaweergaven opgeeft en niet alleen de extra paginaweergaven.
-1. Geef in het **[!UICONTROL Effective Date]** veld de datum op waarop het nieuwe verkeersniveau moet beginnen en klik op **[!UICONTROL Submit]**.
+1. Geef in het veld **[!UICONTROL Effective Date]** de datum op waarop het nieuwe verkeersniveau moet worden gestart en klik vervolgens op **[!UICONTROL Submit]**.
 
    >[!NOTE]
    >
-   >Als u een permanente toename van het verkeer wilt plannen, neemt u een telefoonnummer op in de contactgegevens van de gebruiker zodat Adobe indien nodig contact met u kan opnemen met vragen.
-
+   >Om een permanente verkeersverhoging te plannen, omvat een telefoonaantal in uw informatie van het gebruikerscontact zodat de Adobe u met vragen kan contacteren, indien nodig.
