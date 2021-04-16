@@ -1,18 +1,21 @@
 ---
-description: Zodra DFA en de inzamelingsservers van Adobe® kunnen communiceren, kunt u rapporten in Rapporten & Analytics produceren die DFA gegevens omvatten.
+description: Zodra DFA en Adobe® inzamelingsservers kunnen communiceren, kunt u rapporten in Rapporten & Analytics produceren die DFA gegevens omvatten.
 keywords: DFA
 title: Analyserapporten met DFA-gegevens
-topic: Data connectors
+feature: Data Connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
+exl-id: e8b2dc3d-0360-4232-9a24-aa14e52f25d5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 4%
 
 ---
 
-
 # Analyserapporten met DFA-gegevens{#analytics-reports-using-dfa-data}
 
-Zodra DFA en de inzamelingsservers van Adobe® kunnen communiceren, kunt u rapporten in Rapporten &amp; Analytics produceren die DFA gegevens omvatten.
+Zodra DFA en Adobe® inzamelingsservers kunnen communiceren, kunt u rapporten in Rapporten &amp; Analytics produceren die DFA gegevens omvatten.
 
 Voorverpakte DFA-rapporten bevatten het volgende:
 
@@ -35,7 +38,7 @@ Een DFA-rapport genereren:
 
 1. In de linkerzijnavigatie, selecteer de variabele van de Omzetting die de DFA klikthrough gegevens vangt, dan selecteer het gewenste DFA rapport.
 1. Klik op **[!UICONTROL Add Metrics]**. Hiermee wordt het dialoogvenster Metrische kiezer geopend.
-1. Controleer de afmetingen voor Impressies en klik op Metrisch in de **[!UICONTROL Available Metrics]** lijst en klik op **[!UICONTROL Apply]**.
+1. Controleer de afmetingen voor Impressies en klik op Metrisch in de lijst **[!UICONTROL Available Metrics]** en klik op **[!UICONTROL Apply]**.
 
    Het resulterende rapport geeft de gegevens van Impressies, Kliks en Inkomsten weer, zodat u kunt zien hoe uw DFA-services zich vertalen in een omzet van onderaf.
 Een DFA Ad Name-rapport geeft bijvoorbeeld de afbeeldingen, klikken en inkomstengegevens weer die rechtstreeks aan specifieke banneradvertenties in uw huidige DFA-advertentiecampagne zijn toe te schrijven:
@@ -46,7 +49,7 @@ Dit verslag heeft de volgende belangrijke kenmerken:
 
 * De rapportkopbal, geëtiketteerd Rapport DFA_Ad, toont de periode van de rapporttijd (Februari 2009), en wijst erop dat dit een Rangschikt rapport gebruikend een Horizontaal formaat van de Bar is.
 * De Grafiek zelf toont drie metriek (Impressions, Kliks, en Inkomsten) voor elke DFA Advertentie in het rapport.
-* De grafiek toont gegevens voor elke metrisch als percentage van metrisch totaal, eerder dan het gebruiken van de daadwerkelijke aantallen voor elke metrisch. U kunt dit wijzigen in het **[!UICONTROL Configure Report]** dialoogvenster.
+* De grafiek toont gegevens voor elke metrisch als percentage van metrisch totaal, eerder dan het gebruiken van de daadwerkelijke aantallen voor elke metrisch. U kunt dit wijzigen in het dialoogvenster **[!UICONTROL Configure Report]**.
 * Onder de grafiek, maakt een lijst DFA_Ad het rapport van de Naam de rapportdetails voor elk van DFA Ads, en toont zowel numerieke als percentagegegevens voor de prestaties van Advertentie.
 * Selecteer een specifieke DFA-advertentienaam om een menu te openen met opties voor meer informatie over die specifieke DFA-advertentie.
 * Elke metrische kolom bevat een kleursleutel die overeenkomt met de toegewezen kleur van de metrische waarde in de grafiek.
