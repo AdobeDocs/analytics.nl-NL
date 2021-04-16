@@ -1,18 +1,18 @@
 ---
 description: De identificatie van bezoekers tussen apparaten helpt u bezoekers over veelvoudige apparaten aan te sluiten. De identificatie van bezoekers tussen apparaten gebruikt de variabele van bezoekersidentiteitskaart, s.bezoekerID, om een gebruiker over apparaten te associëren.
-keywords: Analytics Implementation
+keywords: Analyseimplementatie
 subtopic: Visitors
 title: Gebruikers op verschillende apparaten verbinden
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
+exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
-
 
 # Gebruikers op verschillende apparaten verbinden
 
