@@ -1,16 +1,16 @@
 ---
 description: Beschrijft een gesuggereerde werkschema voor segmenten die met de Bouwer van het Segment worden gecreeerd en door de Manager van het Segment worden geleid.
 title: Overzicht van de segmentatieworkflow
-topic: Segmenten
+feature: Segmenten
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
+exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 2%
 
 ---
-
 
 # Overzicht van de segmentatieworkflow
 
