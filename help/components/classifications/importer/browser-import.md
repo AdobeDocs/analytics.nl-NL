@@ -2,16 +2,16 @@
 description: U kunt classificatiegegevens importeren (uploaden) via de browser. Deze methode beperkt het uploaden van classificatiegegevens tot één rapportsuite
 subtopic: Classifications
 title: Browserimport
-topic: Admin tools
+feature: Admin Tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
+exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 3%
+source-wordcount: '287'
+ht-degree: 4%
 
 ---
-
 
 # Browserimport
 
@@ -23,7 +23,7 @@ U kunt classificatiegegevens importeren (uploaden) via de browser. Deze methode 
 
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
-## Browser voor classificaties importeren - Veldbeschrijvingen {#section_F628C47081DA4026A4D30E3D3454B1DA}
+## Browser van classificaties de Invoer - de Beschrijvingen van het Gebied {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
 <table id="table_7FC7E510E7E74C2D9E8F316C5C6B66DB"> 
  <thead> 
@@ -69,6 +69,5 @@ t_upload_a_saint_data_file_via_web_browser.xml
 1. Configureer de **[!UICONTROL Browser Import]** velden.
 1. Klik op **[!UICONTROL Import File]**.
 1. Bekijk het statusvenster voor het verwerken van berichten.
-1. (Voorwaardelijk) Als u selecteerde **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specificeer waar u het resulterende dossier wilt opslaan wanneer de verwerking voltooit.
+1. (Voorwaardelijk) Als u **[!UICONTROL Automatically Download Classification File After Upload is Complete]** selecteerde, specificeer waar u het resulterende dossier wilt opslaan wanneer de verwerking voltooit.
 >Wanneer het importeren is gelukt, worden onmiddellijk de juiste wijzigingen in een exportbewerking weergegeven. Gegevenswijzigingen in rapporten duren echter maximaal vier uur wanneer u een browser importeert en maximaal 24 uur wanneer u een FTP-import gebruikt.
-
