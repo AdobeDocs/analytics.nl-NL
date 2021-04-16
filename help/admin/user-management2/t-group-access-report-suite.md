@@ -2,28 +2,31 @@
 description: Stappen die beschrijven hoe te om gebruikersgroepen aan een rapportreeks toe te wijzen.
 subtopic: Users and groups
 title: Gebruikersgroepen toewijzen aan een rapportsuite
-topic: Admin tools
+feature: Admin Tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
+exl-id: 8e2a36b8-4693-4bb2-9993-8887fd7c906d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 16%
 
 ---
-
 
 # Gebruikersgroepen toewijzen aan een rapportsuite
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat naar de [beheerconsole](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
 
 Stappen die beschrijven hoe te om gebruikersgroepen aan een rapportreeks toe te wijzen.
 
-De [!UICONTROL Report Suites] pagina laat u de reeksen van het bedrijfrapport bekijken en vormen. Analytics beheert rapportsuite-toegang via groepslidmaatschap. Voor eerste opstelling, creeer de noodzakelijke groepen (toewijzend rapportreeksen aan elke groep), dan wijs gebruikersrekeningen aan de aangewezen [groepen](/help/admin/user-management2/c-user-groups/groups.md)toe.
+Met de pagina [!UICONTROL Report Suites] kunt u de suites van bedrijfsrapporten weergeven en configureren. Analytics beheert rapportsuite-toegang via groepslidmaatschap. Voor eerste opstelling, creeer de noodzakelijke groepen (toewijzend rapportreeksen aan elke groep), dan wijs gebruikersrekeningen aan aangewezen [groepen](/help/admin/user-management2/c-user-groups/groups.md) toe.
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Klik op **[!UICONTROL Report Suites]**.
-1. Selecteer een rapportsuite.
-1. Selecteer onder **[!UICONTROL Report Suite Permissions Management]** Pagina de groepen die u wilt toewijzen aan de rapportsuite:
+1. Een rapportsuite selecteren.
+1. Selecteer onder **[!UICONTROL Report Suite Permissions Management]** pagina de groepen die u wilt toewijzen aan de rapportsuite:
 
    **[!UICONTROL Available Groups:]** Hiermee geeft u alle momenteel gedefinieerde groepen weer. Selecteer de gewenste groepen en klik op **[!UICONTROL Add]**. De toegewezen groepen worden weergegeven in het veld Groep die de groep bevat (rechts).
 
