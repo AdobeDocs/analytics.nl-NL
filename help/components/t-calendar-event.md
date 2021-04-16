@@ -1,16 +1,16 @@
 ---
 description: Stappen om kalendergebeurtenissen toe te voegen en gedeelde gebeurtenissen te beheren.
 title: Kalendergebeurtenissen
-topic: Reports and analytics
+feature: Grondbeginselen van rapporten en analyses
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
+exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 87%
+source-wordcount: '309'
+ht-degree: 86%
 
 ---
-
 
 # Kalendergebeurtenissen
 
@@ -35,6 +35,7 @@ Voor rapporten met trends in de loop van de tijd kunt u gebeurtenissen grafisch 
    1. Klik op **[!UICONTROL Push To Users]**.
    1. Klik op **[!UICONTROL Check All]** of schakel het selectievakje naast de gebruikersna(a)m(en) in.
    1. Klik op **[!UICONTROL Save]**.
+
    Hierdoor worden kalendergebeurtenissen veel bruikbaarder. Analisten hebben nu de mogelijkheid om een overlay op de rapporten van hun gebruikers af te dwingen om meer context te verstrekken.
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. Geef onder **[!UICONTROL Shared Calendar Events]** een van de volgende opties op:
@@ -43,4 +44,3 @@ Voor rapporten met trends in de loop van de tijd kunt u gebeurtenissen grafisch 
    |---|---|
    | **Op rapport** | Hiermee kunt u wijzigingen/updates zien die door de eigenaar van de gebeurtenis zijn aangebracht. |
    | **Delen opheffen** | Verwijdert deze gebeurtenis uit uw lijst met gedeelde gebeurtenissen. |
-
