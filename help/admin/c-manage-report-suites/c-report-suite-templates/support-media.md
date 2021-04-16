@@ -1,13 +1,16 @@
 ---
 description: Hiermee verschaft u algemene instellingen voor een website die artikelen en video's met productondersteuning biedt.
 title: Ondersteuningsmedia
-topic: Admin tools
+feature: Admin Tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
+exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 translation-type: tm+mt
-source-git-commit: ''
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 22%
 
 ---
-
 
 # Ondersteuningsmedia
 
@@ -21,7 +24,7 @@ Hiermee verschaft u algemene instellingen voor een website die artikelen en vide
 
 Geen succesgebeurtenissen worden gevormd door dit malplaatje van de rapportreeks.
 
-| Aangepaste inzichtvariabelen | `s_code` variabele |
+| Custom Insight-variabelen | `s_code` variabele |
 |---|---|
 | Beveiligen/niet-beveiligen | `prop1` |
 | Verkeerseigenschap 2 - 5 | `prop2, prop3, prop4, prop5` |
@@ -30,17 +33,16 @@ De volgende lijst bevat een lijst van de standaardhandelgebeurtenissen. De aanva
 
 | Standard Commerce-gebeurtenissen | Type | `s_code` variabele |
 |---|---|---|
-| Ontvangsten | Teller | `purchase` |
+| Omzet | Teller | `purchase` |
 | Orders | Teller | `purchase` |
 | Eenheden | Teller | `purchase` |
 | Houtskaarten | Teller | `scOpen` |
-| Kleuraweergaven | Teller | `scView` |
+| Weergaven winkelwagen | Teller | `scView` |
 | Instanties | Teller | N.v.t. |
-| Afbeeldingen | Teller | `scCheckout` |
-| Extra winkelwagentjes | Teller | `scAdd` |
-| Winkelwagentjes | Teller | `scRemove` |
+| Betalingen | Teller | `scCheckout` |
+| Toevoegingen aan winkelwagen | Teller | `scAdd` |
+| Verwijderingen uit winkelwagen | Teller | `scRemove` |
 | Bezoeken | Teller (geen subrelaties) | N.v.t. |
 | Paginaweergaven | Teller (geen subrelaties) | N.v.t. |
 | Dagelijkse unieke bezoekers | Teller (geen subrelaties) | N.v.t. |
 | Unieke bezoekers | Teller (geen subrelaties) | N.v.t. |
-
