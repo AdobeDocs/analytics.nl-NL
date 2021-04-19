@@ -1,11 +1,11 @@
 ---
 description: In Segmentbeheer kunt u op verschillende manieren segmenten curven, zoals delen, filteren, labelen, goedkeuren, kopiëren, verwijderen en markeren als favorieten.
 title: Segmenten beheren
-feature: Segmenten
+feature: Segmentatie
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 5%
@@ -33,7 +33,7 @@ Deze [Adobe Analytics video](https://docs.adobe.com/content/help/en/analytics-le
 |---|---|---|
 | 3 | Werkbalk Segmentbeheer | Nadat u een segment hebt gecontroleerd, wordt deze werkbalk weergegeven. De meeste beheertaken kunnen vanaf deze werkbalk worden voltooid. |
 | 2 | Filters tonen | Als u op het filterpictogram klikt, wordt het filtermenu weergegeven. U kunt filteren op Tags, Eigenaars, Alles tonen (alleen Admin), Mijne waarden, Favorieten, Goedgekeurd en Gedeeld met mij. |
-| 1 | Selectievakjes | Controleer een segment om het te beheren. |
+| 3 | Selectievakjes | Controleer een segment om het te beheren. |
 | 4 | Favorieten | Als u op de ster naast een segment klikt, wordt de ster geel en wordt het segment gemarkeerd als een favoriet. |
 | 5 | Segmenttitels en -beschrijvingen | Opgegeven in de Segment Builder. Als u de titel en beschrijving wilt bewerken, klikt u op de titelkoppeling. Hiermee gaat u terug naar de Segment Builder. |
 | 6 | Rapportsuites | Deze kolom geeft aan in welke rapportsuite het segment het laatst is opgeslagen. |
