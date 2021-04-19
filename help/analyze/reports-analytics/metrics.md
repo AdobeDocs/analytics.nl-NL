@@ -3,15 +3,15 @@ description: Metriek vormen de basis van rapporten en helpen u gegevensrelaties 
 title: Metrics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 feature: Grondbeginselen van rapporten en analyses
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
+exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
-
 
 # Metrisch
 
@@ -47,4 +47,3 @@ t_metrics_set_default.xml
 * Als u tussen rapporten beweegt, blijven de metriek die in het onlangs bekeken rapport wordt getoond. Om standaardmetriek in dat nieuwe rapport te tonen, klik [!UICONTROL Add Metrics] drop-down lijst, dan klik [!UICONTROL Show Defaults].
 
 * Als u op [!UICONTROL Clear Defaults] klikt, worden de standaardmetriek voor dat rapport verwijderd en worden de oorspronkelijke standaardmetriek voor dat rapport hersteld ( [!UICONTROL Page Views] voor props, en wat u ook hebt ingesteld in Admin Tools for eVars).
-
