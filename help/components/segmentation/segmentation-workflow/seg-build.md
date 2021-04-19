@@ -1,11 +1,11 @@
 ---
 description: De Bouwer van het Segment verstrekt een canvas om Metrische Dimension, Segmenten, en Gebeurtenissen te slepen en te laten vallen om bezoekers te segmenteren die op containerhiërarchielogica, regels, en exploitanten worden gebaseerd. Met dit geïntegreerde ontwikkelprogramma kunt u eenvoudige of complexe segmenten maken en opslaan die bezoekerskenmerken en -acties identificeren voor bezoeken en pagina-einden.
 title: Segmenten maken
-feature: Segmenten
+feature: Segmentatie
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '1929'
 ht-degree: 1%
