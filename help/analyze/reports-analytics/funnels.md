@@ -3,15 +3,15 @@ description: Met conversieverhoudingen wordt meestal de conversie gemeten tussen
 title: Conversiefunnel
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 feature: Grondbeginselen van rapporten en analyses
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
+exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '313'
 ht-degree: 2%
 
 ---
-
 
 # Conversiefunnel
 
@@ -36,4 +36,3 @@ De rapportlijst toont statistieken voor gemiddelde verkoop per klik-door, en gem
 >[!NOTE]
 >
 >Instanties in het kader van deze verslagen komen overeen met het totale aantal bezoeken waar een eVar of gebeurtenis is gedefinieerd.
-
