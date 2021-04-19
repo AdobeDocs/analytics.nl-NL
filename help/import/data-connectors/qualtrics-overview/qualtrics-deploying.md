@@ -33,12 +33,11 @@ Als u de integratie wilt activeren, moet u de wizard voor Qualtrict-integratie v
    | Adobe SiteCatalyst Token | [Uw Qualtrics Adobe Analytics-token genereren](../qualtrics-overview/qualtrics-token.md) |
 
 1. **Tovenaar Stap 2 - Veranderlijke Toewijzingen**
-| Lijst van de Reactie van Qualtrics | Selecteer een beschikbare lijstvariabele van uw rapportreeks. (Mogelijk moet u een nieuwe listVar inschakelen in Report Suite Manager.)  |
-|—|—|
-| ID kwaliteitsrespons  | Selecteer een beschikbare eVar of hulpmiddel uit uw rapportreeks. (Mogelijk moet u een nieuwe listVar inschakelen in Report Suite Manager.)  |
-| Traceerserver  |Geef de instelling voor de trackingserver (domein) op die u gebruikt om Adobe Analytics-gegevens bij te houden. Gebruik de 
-`trackingServerSecure` trackingserver als deze afwijkt van de standaardinstelling voor trackingservers.  |
-| Indieningen kwaliteitscontroles  | Selecteer een beschikbare gebeurtenis in de rapportsuite (hiervoor moet u mogelijk een nieuwe gebeurtenis inschakelen in de rapportsuite Manager).  |
+   | Lijst van de Reactie van Qualtrics | Selecteer een beschikbare lijstvariabele van uw rapportreeks. (Mogelijk moet u een nieuwe listVar inschakelen in Report Suite Manager.)  |
+   |---|---|
+   | ID kwaliteitsrespons  | Selecteer een beschikbare eVar of hulpmiddel uit uw rapportreeks. (Mogelijk moet u een nieuwe listVar inschakelen in Report Suite Manager.)  |
+   | Traceerserver  |Geef de instelling voor de trackingserver (domein) op die u gebruikt om Adobe Analytics-gegevens bij te houden. Gebruik de `trackingServerSecure` trackingserver als deze afwijkt van de standaardinstelling voor trackingservers.  |
+   | Indieningen kwaliteitscontroles  | Selecteer een beschikbare gebeurtenis in de rapportsuite (hiervoor moet u mogelijk een nieuwe gebeurtenis inschakelen in de rapportsuite Manager).  |
 
 1. **Wizard Stap 3**: Niets vereist, alleen informatie.
 
