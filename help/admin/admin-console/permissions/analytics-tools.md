@@ -1,11 +1,15 @@
 ---
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+title: Machtigingen voor productprofielen voor Analytics Tools
+description: Gebruik de machtigingsitems Analytics Tools om toegang te verlenen tot functies in Adobe Analytics.
+exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 translation-type: tm+mt
-source-wordcount: '547'
-ht-degree: 4%
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 3%
 
 ---
+
 # Machtigingen voor productprofielen voor Analytics Tools
 
 Met de machtigingsitems Analytics Tools hebt u toegang tot functies in Adobe Analytics. De punten van de toestemmingen van Hulpmiddelen van Analytics zijn niet op een rapportreeks van toepassing, maar eerder op Adobe Analytics als geheel.
