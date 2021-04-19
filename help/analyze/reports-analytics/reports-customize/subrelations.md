@@ -3,15 +3,15 @@ description: Volledige subrelaties worden ingeschakeld voor alle conversierappor
 title: Subrelaties
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
 feature: Grondbeginselen van rapporten en analyses
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
+exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
-
 
 # Subrelaties
 
@@ -56,4 +56,3 @@ In wezen volgen subrelaties deze stappen om uw rapport te vullen:
 * Isoleer de afbeeldingsaanvragen met de succesgebeurtenis(sen) die u in het rapport weergeeft.
 * Retourneer de persisted waarden van elke conversievariabele die in de subrelatie wordt gebruikt.
 * Organiseer de waarden op basis van de volgorde van de subrelatie. Als een variabele geen persisted waarde heeft (bijvoorbeeld als een eVar nog niet is gedefinieerd of verlopen), wordt deze onder Geen opgenomen.
-
