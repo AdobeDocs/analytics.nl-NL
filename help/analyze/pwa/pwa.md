@@ -1,15 +1,15 @@
 ---
 title: PWA voor Analytics
 description: Progressieve webapps voor Adobe Analytics
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
+exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 960274fde798287568ada9e6d8ec96783449dd99
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 3%
+source-wordcount: '289'
+ht-degree: 0%
 
 ---
-
 
 # PWA voor Adobe Analytics
 
@@ -27,7 +27,7 @@ Als u uw PWA-gegevens wilt verzamelen en analyseren met [!UICONTROL Analytics], 
 
 ## Offline bijhouden toevoegen om de doeltreffendheid van PWA te verhogen
 
-U kunt de doeltreffendheid van uw PWA verhogen door Adobe Analytics [offlinetraceringsmogelijkheden](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) met het te gebruiken. Deze functie is standaard uitgeschakeld, maar u kunt de volgende eigenschap toevoegen aan het bestand AppMeasurement.js om deze in te schakelen: `s.trackOffline=true;`.
+U kunt de doeltreffendheid van uw PWA verhogen door Adobe Analytics [offlinetraceringsmogelijkheden](/help/implement/vars/config-vars/trackoffline.md) met het te gebruiken. Deze functie is standaard uitgeschakeld, maar u kunt de volgende eigenschap toevoegen aan het bestand AppMeasurement.js om deze in te schakelen: `s.trackOffline=true;`.
 
 Bijvoorbeeld, in het volgende dossier AppMeetings.js, wordt het bezit toegevoegd aan het eind van `CONFIG SECTION`:
 
@@ -47,8 +47,8 @@ s.trackOffline=true
 *** 
 ```
 
-Zie [Code invoegen in het bestand AppMeasurement.js](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html) voor meer informatie over het bewerken van het bestand AppMeasurement.js.
+Zie [Code core AppMeasurement invoegen](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md) voor meer informatie over het bewerken van het bestand AppMeasurement.js.
 
-Zie [Het bestand AppMeasurement.js configureren voor voorbeelden van configuraties in het bestand AppMeasurement.js.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)
+Voor meer informatie over het vormen van het dossier AppMeasurement.js, zie [Overzicht van de variabelen van de Configuratie](/help/implement/vars/config-vars/configuration-variables.md) en de individuele variabelespecifieke pagina&#39;s in het zelfde subhoofdstuk.
 
-Voor meer informatie over de kenmerken van het dossier AppMeasurement.js, zie [Javascript implementatieoverzicht](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+Voor meer informatie over de kenmerken van het dossier AppMeasurement.js, zie [Javascript implementatieoverzicht](/help/implement/js/overview.md).
