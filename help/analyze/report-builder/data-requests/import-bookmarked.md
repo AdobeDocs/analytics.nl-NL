@@ -3,7 +3,7 @@ description: Alle bookmarked rapporten en dashboardrapporten zijn nu vermeld als
 title: Gebookmarkte rapporten en dashboardrapporten importeren
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

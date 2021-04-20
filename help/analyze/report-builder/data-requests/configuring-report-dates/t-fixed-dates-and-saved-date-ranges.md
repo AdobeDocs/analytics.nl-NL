@@ -3,7 +3,7 @@ description: Wanneer u een vaste datum of datumwaaier specificeert, toont de rap
 title: Vaste datums en opgeslagen datumbereiken
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

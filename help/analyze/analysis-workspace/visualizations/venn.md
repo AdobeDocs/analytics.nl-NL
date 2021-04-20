@@ -2,8 +2,8 @@
 description: Met de Venn-visualisatie kunt u maximaal drie segmenten (van Componenten) en één metrisch slepen om een Venn-diagram te maken.
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
-feature: Visualisaties
-role: Bedrijfs Praktijk, Beheerder
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

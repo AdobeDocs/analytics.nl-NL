@@ -2,7 +2,7 @@
 description: Nadat u een rapport hebt uitgevoerd, kunt u het rapport aanpassen om de gegevens naar wens weer te geven en te analyseren. U kunt rapportgegevens filteren, wijzigen hoe gegevens grafisch worden weergegeven, granulariteit van datums wijzigen, enzovoort.
 title: Overzicht van rapporten aanpassen
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 translation-type: tm+mt

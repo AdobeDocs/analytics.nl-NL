@@ -2,7 +2,7 @@
 title: Best practices en probleemoplossing rapporteren
 description: Tips voor aanbevolen procedures en probleemoplossing bij het genereren van rapporten.
 keywords: aanbevolen procedures;fout;timeout;problemen;traag
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: De interactieve Controles staan u toe om segmenten en datumwaaiers 
 title: Interactieve besturingselementen
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

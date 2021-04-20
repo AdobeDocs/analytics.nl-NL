@@ -2,7 +2,7 @@
 description: Virtuele rapportsuites en tagging met meerdere suite hebben verschillende voordelen. Leer wat het beste is voor uw organisatie.
 keywords: Virtual Report Suite,VRS
 title: Virtuele rapportreeksen en tagging met meerdere suite-overwegingen
-feature: Instellingen van rapportsuite
+feature: Report Suite Settings
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt

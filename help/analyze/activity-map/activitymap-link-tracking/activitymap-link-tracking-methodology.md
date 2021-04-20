@@ -3,7 +3,7 @@ description: Deze sectie is bedoeld voor Adobe Analytics-beheerders. Het concent
 title: Methode voor link tracking
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt

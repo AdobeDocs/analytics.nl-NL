@@ -3,7 +3,7 @@ description: Tabelgegevens die de kolommen in de gegevensinvoer beschrijven.
 keywords: Gegevensfeed;kolommen
 subtopic: data feeds
 title: Referentie gegevenskolom
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt

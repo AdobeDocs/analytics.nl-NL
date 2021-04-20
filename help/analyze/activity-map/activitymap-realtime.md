@@ -2,7 +2,7 @@
 description: Met analyses van realtime pagina's (Live Mode) kunt u resultaten behalen met een kleine granulariteit in real-time.
 title: Analyse van realtimepagina-analyse (Live)
 feature: Activity Map
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

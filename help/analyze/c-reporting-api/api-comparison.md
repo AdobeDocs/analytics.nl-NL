@@ -3,7 +3,7 @@ description: Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen 
 title: Vergelijking Analytics Rapportage-API
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
-role: Ontwikkelaar
+role: Developer
 translation-type: tm+mt
 source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Velddefinities voor roldatums in rapportbuilder.
 title: Definities wizard Aanvragen - doorlopende datums
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

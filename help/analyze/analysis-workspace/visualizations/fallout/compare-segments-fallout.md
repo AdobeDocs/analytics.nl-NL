@@ -3,8 +3,8 @@ description: U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraa
 keywords: fallout en segmentatie;segmenten in falloutanalyse;vergelijk segmenten in fallout
 title: Segmenten toepassen in een uitvalanalyse
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: Visualisaties
-role: Bedrijfs Praktijk, Beheerder
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

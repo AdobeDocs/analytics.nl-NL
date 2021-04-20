@@ -2,7 +2,7 @@
 description: Tips en aanbevolen procedures voor nieuwe gebruikers van virtuele rapportsuites.
 keywords: Virtuele rapportsuite
 title: Veelgestelde vragen over VRS
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Filteren op tags, eigenaars en andere filters (Alles weergeven, Mijne, Gedeeld met mij, Favorieten en Goedgekeurd.)
 title: Segmenten filteren
-feature: Segmentatie
+feature: Segmentation
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 translation-type: tm+mt

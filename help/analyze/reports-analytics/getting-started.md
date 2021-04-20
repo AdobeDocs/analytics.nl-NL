@@ -1,7 +1,7 @@
 ---
 description: Voordat u Reports and Analytics gebruikt, moet u deze basistaken voor aanmelding en installatie begrijpen en controleren hoe u toegang krijgt tot accountgegevens.
 title: Aan de slag met Reports and Analytics
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: De extracten van gegevens laten u de parameters kiezen u over zowel de x als y-as van het rapport zult bekijken, evenals het punt waardoor het rapport wordt gefiltreerd.
 subtopic: Schedule
 title: Data-uittreksel
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
 translation-type: tm+mt

@@ -2,8 +2,8 @@
 description: Gebruik de staafvisualisatie in een project van de Werkruimte.
 title: Balkgrafiek en gestapelde-balkgrafiek
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: Visualisaties
-role: Bedrijfs Praktijk, Beheerder
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

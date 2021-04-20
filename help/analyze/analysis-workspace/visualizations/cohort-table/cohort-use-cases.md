@@ -3,8 +3,8 @@ description: Gebruik voorbeelden van hoofdletters en kleine letters voor cohorta
 keywords: Analysis Workspace
 title: Gebruiksgevallen van cohortanalyse
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-feature: Visualisaties
-role: Bedrijfs Praktijk, Beheerder
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

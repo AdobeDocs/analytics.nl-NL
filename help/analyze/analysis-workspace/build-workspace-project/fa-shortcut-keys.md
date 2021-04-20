@@ -2,8 +2,8 @@
 description: De interactie van het toetsenbord, kortere wegsleutels en punt-en-klik gedrag beschikbaar in Analysis Workspace.
 keywords: Analysis Workspace
 title: Hotkeys (sneltoetsen)
-feature: Basisprincipes van werkruimte
-role: Bedrijfs Praktijk, Beheerder
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

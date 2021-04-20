@@ -2,7 +2,7 @@
 description: Volledige subrelaties worden ingeschakeld voor alle conversierapporten, zodat u elke eVar door een andere eVar kunt onderverdelen. Het menu Onderverdeling op in de rapporttabel komt overeen met het standaardmenu Analytics-rapportage, zodat selecties consistent blijven
 title: Subrelaties
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt

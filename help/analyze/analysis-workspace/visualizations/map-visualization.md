@@ -2,8 +2,8 @@
 description: Gebruik de kaartvisualisatie in een project van de Werkruimte.
 title: Kaart
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: Visualisaties
-role: Bedrijfs Praktijk, Beheerder
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

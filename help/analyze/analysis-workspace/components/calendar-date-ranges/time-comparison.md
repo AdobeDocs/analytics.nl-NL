@@ -2,8 +2,8 @@
 description: Met Datumvergelijking in Analysis Workspace kunt u elke kolom met een datumbereik gebruiken en een algemene datumvergelijking maken, zoals jaar-over-jaar, kwartaal-over-kwartaal, maand-over-maand enzovoort.
 title: Datumvergelijking
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-feature: Basisprincipes van werkruimte
-role: Bedrijfs Praktijk, Beheerder
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

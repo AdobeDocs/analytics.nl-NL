@@ -2,7 +2,7 @@
 description: 'Report Builder 5.2 steunt Adobe Analytics Verenigde Berekende Metriek. Naast andere innovaties hebben alle berekende standaarden nu een globale id: ze zijn niet meer beperkt tot één rapportsuite.'
 title: Berekende standaarden
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

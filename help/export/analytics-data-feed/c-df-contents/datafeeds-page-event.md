@@ -2,7 +2,7 @@
 description: Opzoektabel om het type hit te bepalen op basis van de waarde page_event.
 keywords: Gegevensfeed;pagina;gebeurtenis;pagina_gebeurtenis;post_page_event
 title: Pagina-gebeurtenis opzoeken
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 translation-type: tm+mt

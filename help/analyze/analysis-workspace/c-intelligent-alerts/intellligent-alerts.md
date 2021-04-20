@@ -2,8 +2,8 @@
 description: Het nieuwe systeem voor intelligente waarschuwingen biedt meer gedetailleerde controle over waarschuwingen en integreert de detectie van anomalieën met het waarschuwingssysteem.
 title: Overzicht van intelligente waarschuwingen
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-feature: AI-gereedschappen
-role: Bedrijfs Praktijk, Beheerder
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

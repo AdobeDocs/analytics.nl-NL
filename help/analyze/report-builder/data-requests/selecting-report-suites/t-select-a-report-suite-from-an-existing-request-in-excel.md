@@ -3,7 +3,7 @@ description: Stappen om u te helpen een rapportreeks van het bestaande verzoek s
 title: Een rapportsuite selecteren vanuit een bestaande aanvraag in Excel
 uuid: 92fe4823-6b8a-4178-9c94-fb4f5e03e4a5
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Gebruik de analyse van de Bijdrage om statistische anomalieën en correlaties in gegevens te identificeren.
 title: Overzicht van bijdrageanalyse
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI-gereedschappen
-role: Bedrijfs Praktijk, Beheerder
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Bronnen en koppelingen voor de API voor rapportage.
 title: Analytics Rapportage-API
 uuid: 68ec3490-6e47-4606-860d-dd5e89c574a1
 feature: API
-role: Ontwikkelaar
+role: Developer
 translation-type: tm+mt
 source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt

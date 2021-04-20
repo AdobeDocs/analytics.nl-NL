@@ -2,7 +2,7 @@
 description: Met conversieverhoudingen wordt meestal de conversie gemeten tussen de gebeurtenissen of punten van een conversieproces die beginnen, eindigen en mijlpaal. Nadat u de succesgebeurtenissen op uw plaats codeert, leidt het rapport tot de verhoudingen tussen deze verschillende succesgebeurtenissen en toont hen in een Rapport van het Trechter van de Omzetting.
 title: Conversiefunnel
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: Veldbeschrijvingen voor Verzoeken beheren in Report Builder.
 title: Aanvragen beheren - definities
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

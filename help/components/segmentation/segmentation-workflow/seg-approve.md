@@ -1,7 +1,7 @@
 ---
 description: Binnen de Manager van het Segment kunt u opstelling een werkschema dat het goedkeuren van segmenten voor diverse niveaus van toepassing, voor specifieke afdelingen of groepen, en verenigbaar met het rapporteringsbeleid omvat.
 title: Segmenten goedkeuren
-feature: Segmentatie
+feature: Segmentation
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
 translation-type: tm+mt

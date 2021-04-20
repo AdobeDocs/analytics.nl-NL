@@ -1,7 +1,7 @@
 ---
 description: Met de Segment Builder kunt u waarden vergelijken en beperken met behulp van geselecteerde operatoren.
 title: Vergelijkingsoperatoren voor segmenten
-feature: Segmentatie
+feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 translation-type: tm+mt

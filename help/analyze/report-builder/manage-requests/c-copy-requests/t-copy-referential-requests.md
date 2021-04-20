@@ -3,7 +3,7 @@ description: Een referentiële aanvraag gebruikt waarden uit cellen als invoer v
 title: Referentieaanvragen kopiëren
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

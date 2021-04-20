@@ -3,7 +3,7 @@ description: Net zoals u aanvragen kopieert en plakt, kunt u aanvragen ook verpl
 title: Aangrenzende aanvragen kopiëren
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

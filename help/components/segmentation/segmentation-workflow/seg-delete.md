@@ -1,7 +1,7 @@
 ---
 description: Hiermee geeft u een aantal overwegingen weer die u moet kennen voordat u segmenten verwijdert.
 title: Segmenten verwijderen
-feature: Segmentatie
+feature: Segmentation
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
 translation-type: tm+mt

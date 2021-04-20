@@ -3,7 +3,7 @@ description: Adobe Report Builder ondersteunt de indeling .xlsm waarmee u werkbo
 title: Macrowerkmappen plannen
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Vaak voorkomende problemen bij het gebruik van Report Builder met P
 title: Problemen met Power BI-integratie oplossen
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

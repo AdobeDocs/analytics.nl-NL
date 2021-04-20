@@ -3,7 +3,7 @@ description: Hiermee kunt u een filter met meerdere segmenten toepassen binnen d
 title: Klantsegmentering
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 feature: Activity Map
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

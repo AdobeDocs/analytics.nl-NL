@@ -2,7 +2,7 @@
 description: Een inleiding op de eigenschappen van een rapport, met inbegrip van de toolbar, kalender, en detaillijst.
 title: Rapportfuncties
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Niet zijn alle segmenten die in de Bouwer van het Segment worden gecreeerd compatibel met Data Warehouse. In deze tabel worden de ondersteunde functies weergegeven.
 title: Compatibiliteit van Data Warehouse-segmenten
-feature: Segmentatie
+feature: Segmentation
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 translation-type: tm+mt

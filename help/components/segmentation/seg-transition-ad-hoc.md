@@ -2,7 +2,7 @@
 description: Als u gewend bent aan het werken met de Bouwer van het Segment in Ad Hoc Analysis, verklaart dit FAQ wat aan bestaande segmenten en omslagen gebeurt en welke acties u moet nemen.
 keywords: segmentatie;segmenten
 title: Overgangshandleiding voor Ad Hoc Analysis
-feature: Segmentatie
+feature: Segmentation
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48

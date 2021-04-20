@@ -3,7 +3,7 @@ description: Nadat u rapporten met ingesloten verzoeken hebt gemaakt, kunt u voo
 title: Voorwaardelijke opmaak opgeven
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

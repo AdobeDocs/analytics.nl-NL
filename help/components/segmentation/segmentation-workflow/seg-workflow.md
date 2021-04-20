@@ -1,7 +1,7 @@
 ---
 description: Beschrijft een gesuggereerde werkschema voor segmenten die met de Bouwer van het Segment worden gecreeerd en door de Manager van het Segment worden geleid.
 title: Overzicht van de segmentatieworkflow
-feature: Segmentatie
+feature: Segmentation
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 translation-type: tm+mt

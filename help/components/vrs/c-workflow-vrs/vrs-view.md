@@ -2,7 +2,7 @@
 description: Klik op het pictogram i (Info) naast de naam van de rapportsuite voor meer informatie.
 keywords: Virtuele rapportsuite
 title: Gegevens van virtuele rapportsuite weergeven
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt

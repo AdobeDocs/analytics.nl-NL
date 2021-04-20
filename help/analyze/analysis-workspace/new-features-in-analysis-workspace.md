@@ -2,8 +2,8 @@
 description: Nieuwe functies in Analysis Workspace.
 keywords: Analysis Workspace
 title: Nieuwe functies in Analysis Workspace
-feature: Basisprincipes van werkruimte
-role: Bedrijfs Praktijk, Beheerder
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt
 source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac

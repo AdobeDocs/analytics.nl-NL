@@ -1,7 +1,7 @@
 ---
 description: Hoe te om één of meerdere segmenten op een rapport van het segmentspoor toe te passen.
 title: Segmenten selecteren en toepassen
-feature: Segmentatie
+feature: Segmentation
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
 translation-type: tm+mt

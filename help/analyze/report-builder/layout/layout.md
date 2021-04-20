@@ -3,7 +3,7 @@ description: In Stap 2 van de Tovenaar van het Verzoek venster kunt u de rapport
 title: Lay-out - stap 2 van de wizard Aanvragen
 uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

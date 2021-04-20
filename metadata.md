@@ -3,7 +3,7 @@ cloud: Experience Cloud
 product: analytics
 solution: Analytics
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.nl-NL
-type: Documentatie
+type: Documentation
 index: true
 feature-set: Analytics
 translation-type: tm+mt

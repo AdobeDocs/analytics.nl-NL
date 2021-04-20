@@ -2,8 +2,8 @@
 description: Deze werkruimte visualiseert zich als een lijngrafiek, maar met een gekleurd gebied onder de lijn.
 title: Gebied en gestapeld gebied
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: Visualisaties
-role: Bedrijfs Praktijk, Beheerder
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

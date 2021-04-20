@@ -3,7 +3,7 @@ description: Heb toegang tot extra informatiemiddelen voor de Activity Map van A
 title: Kennisbronnen
 uuid: 7ac780f6-b37f-4c96-93c0-67988798e318
 feature: Activity Map
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

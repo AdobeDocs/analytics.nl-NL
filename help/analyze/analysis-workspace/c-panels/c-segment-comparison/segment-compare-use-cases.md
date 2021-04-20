@@ -2,8 +2,8 @@
 title: Gebruiksgevallen van segmentvergelijking
 description: Leer praktijkvoorbeelden over hoe het paneel van de segmentvergelijking kan worden gebruikt om inzicht in de marketing strategie te krijgen.
 keywords: Segment-IQ
-feature: Deelvensters
-role: Bedrijfs Praktijk, Beheerder
+feature: Panels
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Hiermee geeft u de browserparameters weer die niet compatibel zijn 
 title: Problemen met browserextensies oplossen
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 feature: Activity Map
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

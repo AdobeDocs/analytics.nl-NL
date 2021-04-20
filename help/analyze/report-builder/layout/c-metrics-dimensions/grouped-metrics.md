@@ -3,7 +3,7 @@ description: U kunt deze twee metrische types in één en het zelfde verzoek nu 
 title: Verkeers- en commerce-cijfers combineren in dezelfde aanvraag
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 feature: Report Builder
-role: Bedrijfs Praktijk, Beheerder
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

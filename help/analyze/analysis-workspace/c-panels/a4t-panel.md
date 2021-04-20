@@ -1,8 +1,8 @@
 ---
 description: Met Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace analyseren.
 title: Analyses voor venster Doel (A4T)
-feature: Deelvensters
-role: Bedrijfs Praktijk, Beheerder
+feature: Panels
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
