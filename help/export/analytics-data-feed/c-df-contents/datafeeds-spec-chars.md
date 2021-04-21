@@ -3,13 +3,13 @@ description: Informatie over speciale tekens die worden gebruikt in de gegevensf
 keywords: Gegevensfeed;taak;speciale tekens;hit_data;multi-getaxeerde variabelen;events_list;products_list;mvars
 subtopic: data feeds
 title: Speciale tekens in gegevensfeeds
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Grondbeginselen van rapporten en analyses
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '344'
 ht-degree: 1%
 
 ---
