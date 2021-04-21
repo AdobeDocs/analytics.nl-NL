@@ -2,13 +2,13 @@
 description: Metriek vormen de basis van rapporten en helpen u gegevensrelaties te bekijken en te begrijpen en maken vergelijkingen tussen verschillende gegevenssets over uw website naast elkaar mogelijk. De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc.
 title: Metrics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Grondbeginselen van rapporten en analyses
 role: Business Practitioner, Administrator
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
