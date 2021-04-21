@@ -2,12 +2,12 @@
 description: Gebruiksvoorbeelden van datatabellen en segmenten, en gebruikscenario's voor Analysis Workspace.
 keywords: Analysis Workspace
 title: Analysis Workspace-gebruiksscenario's
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Grondbeginselen van rapporten en analyses
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 99%
 
 ---
