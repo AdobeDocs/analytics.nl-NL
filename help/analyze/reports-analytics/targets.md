@@ -2,13 +2,13 @@
 description: Met doelen kunt u de prestaties van uw website meten en de voortgang afstemmen op de doeldoelen. U kunt bijvoorbeeld het aantal bezoekers verhogen dat afkomstig is uit een geografisch gebied, de inkomsten per bestelling of het aantal bezoekers dat afkomstig is van een specifieke referentie.
 title: Targets
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Grondbeginselen van rapporten en analyses
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '585'
 ht-degree: 1%
 
 ---
