@@ -2,13 +2,13 @@
 description: Beschrijft hoe te om gemeenschappelijke metriek te berekenen gebruikend gegevensvoer.
 keywords: Gegevensfeed;taak;metriek;pre-kolom;post kolom;bots;datum filteren;gebeurtenistekenreeks;common;formules
 title: Metrische gegevens berekenen
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Grondbeginselen van rapporten en analyses
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
