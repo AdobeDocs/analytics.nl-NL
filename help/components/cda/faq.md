@@ -3,9 +3,9 @@ title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over apparaatanalyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1668'
 ht-degree: 0%
 
 ---
@@ -111,3 +111,7 @@ Nee. Voor dezelfde org kan voor slechts één regio CDA ingeschakeld zijn.
 Het voordeel van het 7 dagen terugspeelvenster is dat CDA verder in tijd kan terugkeren om te proberen om eerder anonieme gebeurtenissen met één of andere persoon te associëren die later binnen die 7 dagen het programma opende. De nadelen van het 7-dagen terugkijkvenster zijn 1) replay slechts één keer per week, en 2) de meest recente 7 dagen zijn onderhevig aan verandering.
 
 De voordelen van het gebruiken van het 1-dag replay terugkijkvenster zijn 1) replay looppas elke dag en 2) slechts gisteren is onderhevig aan verandering. Het nadeel van het venster van de 1-dagraadpleging is dat CDA slechts één dag kan terugkeren om te proberen om eerder anonieme gebeurtenissen met een persoon te associëren die gisteren het programma opende.
+
+## Wat gebeurt er met de opgeslagen gegevens in mijn virtuele CDA-rapportensuite(s) als mijn bedrijf besluit de kwaliteit van Analytics Ultimate te verlagen?
+
+Als een klant van Ultimate downloadt, hebben ze geen toegang meer tot opgeslagen gegevens. Alle eerder opgeslagen gegevens worden verwijderd. Dit betekent dat de virtuele CDA-rapportensuites nu geen cross-device stitching weerspiegelen. De gegevens zullen gelijkaardig aan de originele unstitched rapportreeks kijken.
