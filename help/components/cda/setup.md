@@ -1,14 +1,14 @@
 ---
 title: Apparaatanalyse instellen
 description: Configureer een virtuele rapportsuite om CDA in te schakelen.
+exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 translation-type: tm+mt
-source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
+source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
-
 
 # Apparaatanalyse instellen
 
@@ -18,9 +18,9 @@ Als aan alle voorwaarden is voldaan, voert u de volgende stappen uit om Apparaat
 >
 >Aan alle voorwaarden moet worden voldaan voordat u deze stappen uitvoert. Als niet aan alle voorwaarden wordt voldaan, is de functie niet beschikbaar of werkt deze niet. Zie [overzichtspagina](overview.md) en de gewenste het stitching methode ([Op gebied-gebaseerde het stitching](field-based-stitching.md) of [Apparaatgrafiek](device-graph.md), respectievelijk) voor eerste vereisten en beperkingen.
 
-## Neem contact op met de succesmanager van uw klant om CDA te voorzien voor uw rapportenpakket voor verschillende apparaten
+## Open een ticket met de klantenservice om CDA beschikbaar te stellen op uw rapportenpakket voor alle apparaten
 
-CDA is provisioned op uw cross-device rapportsuite door Adobe engineering. Neem contact op met de succesmanager van uw klant met de volgende informatie:
+CDA is provisioned op uw cross-device rapportsuite door Adobe engineering. Neem contact op met de klantenservice om dit proces te starten en bereid te zijn de volgende informatie te verstrekken:
 
 * Uw Adobe Experience Cloud org-id (een alfanumerieke tekenreeks die eindigt met @AdobeOrg)
 * De rapportsuite-id voor de rapportsuite voor verschillende apparaten die u wilt inschakelen met CDA
@@ -28,7 +28,7 @@ CDA is provisioned op uw cross-device rapportsuite door Adobe engineering. Neem 
 * Als u op het veld gebaseerde stitching wilt gebruiken, de eigenschap of de eVar die de gebruikersnaam bevat
 * Uw voorkeur voor afspeelfrequentie en terugkijklengte. De opties omvatten een replay eens per week met een 7 dagen terugkijkvenster, of een replay elke dag met een 1 dag terugkijkvenster.
 
-Zodra uw CSM van deze informatie voorziet, werken zij met de Techniek van Adobe om uw gekozen rapportreeks voor CDA verwerking toe te laten.
+Als u de klantenservice deze informatie verschaft, werken zij samen met Adobe Engineering om uw gekozen rapportenpakket in te schakelen voor CDA-verwerking.
 
 ## Maak een virtuele-rapportsuite voor meerdere apparaten om de apparaatweergave te bekijken
 
