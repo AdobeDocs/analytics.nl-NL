@@ -3,9 +3,9 @@ title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over apparaatanalyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1601'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Hoe kan ik CDA gebruiken om te zien hoe mensen zich van één apparatentype aan een ander bewegen?
 
-U kunt een stroomvisualisatie gebruiken met de dimensie Mobiel apparaattype.
+U kunt een [!UICONTROL Flow] visualisatie met de Mobiele dimensie van het Type van Apparaat gebruiken.
 
 1. Meld u aan bij Adobe Analytics en maak een nieuw leeg Workspace-project.
 2. Klik op het tabblad Visualisatie aan de linkerkant en sleep een stroomvisualisatie naar het canvas aan de rechterkant.
@@ -105,3 +105,9 @@ De veelvoudige rapportreeksen kunnen worden toegelaten, nochtans zal elke extra 
 ## Als mijn Experience Cloud org (ook bekend als IMS org) meerdere bedrijven in verschillende regio&#39;s heeft, kan ik dan CDA voor al deze bedrijven inschakelen?
 
 Nee. Voor dezelfde org kan voor slechts één regio CDA ingeschakeld zijn.
+
+## Wat zijn de voor- en nadelen van een 7-daagse replay in plaats van een 1-daagse replay?
+
+Het voordeel van het 7 dagen terugspeelvenster is dat CDA verder in tijd kan terugkeren om te proberen om eerder anonieme gebeurtenissen met één of andere persoon te associëren die later binnen die 7 dagen het programma opende. De nadelen van het 7-dagen terugkijkvenster zijn 1) replay slechts één keer per week, en 2) de meest recente 7 dagen zijn onderhevig aan verandering.
+
+De voordelen van het gebruiken van het 1-dag replay terugkijkvenster zijn 1) replay looppas elke dag en 2) slechts gisteren is onderhevig aan verandering. Het nadeel van het venster van de 1-dagraadpleging is dat CDA slechts één dag kan terugkeren om te proberen om eerder anonieme gebeurtenissen met een persoon te associëren die gisteren het programma opende.
