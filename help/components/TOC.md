@@ -5,9 +5,9 @@ user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: De hulp organiseert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, en alarm.
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '634'
 ht-degree: 54%
 
 ---
@@ -170,7 +170,6 @@ ht-degree: 54%
    + [Best practices](segmentation/best-practices.md)
 + Berekende statistieken {#calculated-metrics}
    + [Berekende en Geavanceerde berekende (Afgeleide) Metriek](c-calcmetrics/cm-overview.md)
-   + [Veelgestelde vragen](c-calcmetrics/cm-transition.md)
    + [Instructievideo&#39;s](c-calcmetrics/cm-videos.md)
    + Workflow voor berekende standaard {#calcmetric-workflow}
       + [Workflow voor berekende standaard](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
