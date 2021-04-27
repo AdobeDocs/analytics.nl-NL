@@ -3,10 +3,10 @@ description: Leer over wanneer en waarom de gegevensschakelaars van de Analyse z
 title: Vooraankondiging van einde van levensduur voor gegevensconnectors van Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: b1d4425a81fe4b3ee3ff7516ca7505698fe2ea3a
+source-git-commit: 9c8c201d4bb57f3594ca907c20e5985746b423f0
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 11%
+source-wordcount: '650'
+ht-degree: 9%
 
 ---
 
@@ -30,6 +30,12 @@ Elk bedrijf dat een integratieproject heeft opgezet, kreeg de mogelijkheid om zi
 
 Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice van Adobe.
 
+## Uitzondering: Adobe Campaign Classic
+
+De enige uitzondering op de datum van 1 augustus 2021 is de integratie van Adobe Campaign Classic. Deze integratie zal officieel afgekeurd worden op 1 maart 2022.
+
+Op 1 augustus 2021 wordt Adobe Campaign Classic samen met alle andere integraties verwijderd uit de interface voor gegevensconnectors. de bestaande integratie van campagnes zal echter tot 1 maart 2022 gegevens verzamelen en aan Adobe Analytics doorgeven. Op 1 maart 2022 zal de integratie ophouden gegevens te verzamelen en door te geven aan Adobe Analytics. Adobe Campaign bouwt een nieuwe integratie op de Uitwisseling van Adobe om de huidige Integratie van Verbindingen van Gegevens te vervangen. Adobe Campaign is van plan deze nieuwe integratie op tijd af te ronden, zodat klanten vóór de vervaldatum in maart 2022 naar de nieuwe integratie kunnen migreren.
+
 ## Partner-status gegevensconnector
 
 | Partner | Status |
@@ -37,7 +43,7 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | Acxiom | Vervangen |
 | Adform | Vervangen |
 | Aanpassen | Migreren naar Adobe Exchange |
-| Adobe Campaign | Migreren naar Adobe Exchange |
+| Adobe Campaign | Migreren naar Adobe Exchange (zie Opmerking hierboven) |
 | Apps | Migreren naar Adobe Exchange |
 | Apps | Vervangen |
 | AppsFlyer | Migreren naar Adobe Exchange |
