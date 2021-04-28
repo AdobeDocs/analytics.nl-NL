@@ -1,14 +1,14 @@
 ---
 title: IPs en domeinen die door Adobe Analytics worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die van Adobe afkomstig zijn, gebruik deze lijst om uw firewallmontages bij te werken.
+exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 translation-type: tm+mt
-source-git-commit: 80eab18fd133875c90ca72532867a8839938364f
+source-git-commit: 8986b30ca08224e2b992e8ed238e74e40e9a7b41
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
-
 
 # IPs en domeinen die door Adobe Analytics worden gebruikt
 
@@ -33,7 +33,7 @@ Adobe Analytics gebruikt de volgende hosts om de prestaties en de productervarin
 | Microsoft Azure Blob-opslag | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## Alle Adobe Analytics IP-adresblokken
+## Alle IP-adresblokken van Adobe Analytics Data Collection
 
 De volgende tabel bevat alle standaardservers voor gegevensverzameling en regionale servers voor gegevensverzameling voor Adobe Analytics. Ze omvatten geen afzonderlijke AWS-hosts.
 
@@ -113,7 +113,7 @@ Als uw organisatie verkiest om specifieke IP adreswaaiers toe te staan kunt u de
 
 ## AWS-hosts
 
-Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverzamelingsproces. De volgende tabel bevat AWS-hosts die zijn gereserveerd voor Adobe. Deze hosts zijn **niet** opgenomen in het hierboven vermelde bereik van aggregaten.
+Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverzamelingsproces. De volgende tabel bevat AWS-hosts die zijn gereserveerd voor Adobe. Deze hosts worden **niet** opgenomen in het hierboven vermelde bereik van geaggregeerde blokken.
 
 | Locatie | Host |
 | --- | --- |
