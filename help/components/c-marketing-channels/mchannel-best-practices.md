@@ -1,8 +1,8 @@
 ---
 title: Aanbevolen procedures voor het implementeren van Adobe Analytics Marketing Channel
-description: Bijgewerkte beste praktijken voor het gebruiken van de kanalen van de Marketing met Attribution IQ en Customer Journey Analytics
+description: Bijgewerkte beste praktijken voor het gebruiken van de Kanalen van de Marketing met Attribution IQ en Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 5422a051be1c55f394cf3f7fc5bb4f8822a7fb90
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Attribution IQ gebruiken met marketingkanalen - Aanbevolen werkwijzen
+# Attribution IQ met marketingkanalen - Aanbevolen werkwijzen
 
 [Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) Channelsare een waardevolle en krachtige functie van Adobe Analytics. De huidige richtlijnen met betrekking tot de implementatie van het Kanaal van de Marketing werden geformuleerd op een moment dat noch [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) noch [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases) bestonden.
 
@@ -38,6 +38,6 @@ Aangepaste toewijzingsmodellen die worden gebruikt met de dimensie Marketingkana
 
 Door de bedenktijd van de bezoeker in te stellen op het minimum van &quot;1 dag&quot; minimaliseert u de kans op het vasthouden van waarden. Omdat de modellen van de douaneattributie (AIQ) flexibele raadplegingsvensters toestaan, adviseren wij plaatsend de minimumwaarde om het effect van deze het plaatsen te minimaliseren.
 
-## Beste praktijken #5: De Verwerkingsregels van de Kanalen van de marketing bestaan slechts voor toegelaten kanalen
+## Beste praktijken #5: De Verwerkingsregels van de Kanalen van de marketing zouden slechts voor toegelaten kanalen moeten bestaan
 
 Zorg ervoor dat u om het even welke Regels van de Verwerking van het Kanaal van de Marketing voor gehandicapte kanalen verwijdert. De regels zouden slechts voor de Kanalen van de Marketing moeten bestaan die zoals toegelaten worden gecontroleerd.
