@@ -3,17 +3,20 @@ description: Voeg of laat marketing kanalen in de Manager van het Kanaal van de 
 subtopic: Marketing channels
 title: Marketingkanalen beheren
 feature: Grondbeginselen van rapporten en analyses
-uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '723'
 ht-degree: 2%
 
 ---
 
 # Marketingkanalen beheren
+
+>[!NOTE]
+>
+>Om de doeltreffendheid van de Kanalen van de Marketing voor Attribution IQ en Customer Journey Analytics te maximaliseren, hebben wij sommige [herziene beste praktijken](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
 
 Voeg of laat marketing kanalen in de Manager van het Kanaal van de Marketing toe. Voor rapportsuites die geen marketing kanalen hebben, laat een automatische opstelling u verscheidene kanalen voor u, samen met hun regels tot stand brengen. U kunt vooraf gedefinieerde kanalen naar wens bewerken of uw eigen kanalen maken (maximaal 25).
 
