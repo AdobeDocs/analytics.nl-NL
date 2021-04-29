@@ -1,14 +1,14 @@
 ---
 title: Verwerkingsregels voor marketingkanalen
 description: De de verwerkingsregels van het Kanaal van de marketing bepalen als een bezoeker voldoet aan de criteria die aan een kanaal worden toegewezen. De regels verwerken elke hit die een bezoeker op uw site aanbrengt. Wanneer een regel niet aan de criteria voor een kanaal voldoet, of als de regels niet correct worden gevormd, wijst het systeem de slag aan Geen Geïdentificeerd Kanaal toe.
+exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2098'
 ht-degree: 1%
 
 ---
-
 
 # Verwerkingsregels voor marketingkanalen
 
@@ -17,7 +17,8 @@ Regels voor de verwerking van marketingkanalen bepalen of een bezoeker voldoet a
 ![](assets/buckets_2.png)
 
 Aanvullende opmerkingen over verwerking:
-* De gegevens die met deze regels worden verzameld, zijn 100% permanent en regels die worden gewijzigd nadat gegevens zijn verzameld, zijn niet met terugwerkende kracht. Het wordt ten zeerste aanbevolen alle omstandigheden te evalueren en in overweging te nemen voordat u [!UICONTROL Marketing Channel Processing Rules] opslaat om te voorkomen dat gegevens die op onjuiste kanalen worden verzameld, worden verzameld.
+
+* De gegevens die met deze regels worden verzameld, zijn 100% permanent en regels die worden gewijzigd nadat gegevens zijn verzameld, zijn niet met terugwerkende kracht. We raden u ten zeerste aan alle omstandigheden te controleren en te overwegen voordat u [!UICONTROL Marketing Channel Processing Rules] opslaat om te voorkomen dat gegevens die op onjuiste kanalen worden verzameld, worden verzameld.
 * Het rapport kan tot 25 kanalen tegelijkertijd verwerken.
 * De regels kunnen tot variabelen toegang hebben die VISTA heeft geplaatst, maar kunnen tot geen gegevens toegang hebben die VISTA heeft geschrapt.
 * Twee marketingkanalen krijgen nooit krediet voor dezelfde gebeurtenis (zoals aankopen of klikken). Op deze manier verschillen de afzetkanalen van eVars (waar twee eVars kredieten voor dezelfde gebeurtenis kunnen ontvangen).
@@ -27,6 +28,7 @@ Aanvullende opmerkingen over verwerking:
 
 * Herzie de conceptuele informatie in [Aan de slag met de Kanalen van de Marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Maak een of meer kanalen zodat u er regels aan kunt toewijzen. Zie [Markeringskanalen toevoegen.](/help/components/c-marketing-channels/c-channels.md)
+* Herzie de beste praktijken voor het gebruiken van [!UICONTROL Marketing Channels] met [!UICONTROL Attribution IQ].
 
 ## Verwerkingsregels voor marketingkanalen maken
 
