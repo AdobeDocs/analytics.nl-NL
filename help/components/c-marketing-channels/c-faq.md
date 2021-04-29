@@ -2,9 +2,9 @@
 title: Veelgestelde vragen over marketingkanalen
 description: Veelgestelde vragen over marketingkanalen.
 translation-type: tm+mt
-source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -12,12 +12,16 @@ ht-degree: 0%
 
 # Veelgestelde vragen over marketingkanalen
 
+>[!NOTE]
+>
+>Om de doeltreffendheid van de Kanalen van de Marketing voor Attribution IQ en Customer Journey Analytics te maximaliseren, hebben wij sommige [herziene beste praktijken](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
+
 Veelgestelde vragen over marketingkanalen.
 
 ## Mijn volgcodes volgen geen patroon en ik heb duizenden die moeten worden gespecificeerd voor mijn kanaal van Verbonden.
 
 * Gebruik het eliminatieproces. Als uw e-mail en gelieerde kanalen dezelfde parameter voor de queryreeks gebruiken, maar u hebt slechts een paar codes voor het bijhouden van e-mail, kunt u de codes voor het bijhouden van e-mail opgeven in een regelset die e-mail definieert. Vervolgens classificeert u alle andere volgcodes met *`affiliates.`*
-* Voeg in uw e-mailsysteem een parameter voor de querytekenreeks toe aan alle bestemmingspagina-URL&#39;s, zoals *`&ch=eml`* de URL. Maak een regelset die detecteert of de parameter voor de query gelijk is *`eml`*. Als het niet bevat *`eml`*, is het een gelieerde.
+* Voeg in uw e-mailsysteem een parameter voor de querytekenreeks toe aan alle bestemmingspagina-URL&#39;s, zoals *`&ch=eml`*. Creeer een regelreeks ontdekkend of de parameter van de ch vraag *`eml`* evenaart. Als het *`eml`* niet bevat, is het een filiaal.
 
 ## Verwijzende domeinen bevatten meer gegevens dan ik verwacht.
 
@@ -31,11 +35,11 @@ Veelgestelde vragen over marketingkanalen.
 
 ## Waarom wordt al mijn laatste-aanrakingsverkeer toegeschreven aan een intern domein?
 
-* U hebt een regel die intern verkeer aanpast. Houd er rekening mee dat deze regels gelden voor elke hit die een bezoeker op uw site maakt, en niet alleen voor het eerste bezoek. Als u een regel hebt zoals *`Page URL exists`* zonder andere criteria, komt dat kanaal overeen op elke volgende hit op uw site, omdat een pagina-URL altijd bestaat.
+* U hebt een regel die intern verkeer aanpast. Houd er rekening mee dat deze regels gelden voor elke hit die een bezoeker op uw site maakt, en niet alleen voor het eerste bezoek. Als u een regel als *`Page URL exists`* zonder andere criteria hebt, wordt dat kanaal aangepast op elke volgende hit op uw site, omdat een pagina-URL altijd bestaat.
 
 ## Hoe zuivert ik verkeer dat in Geen Kanaal wordt getoond die op het rapport wordt geïdentificeerd?
 
-* Regels worden op volgorde verwerkt. Als er geen specifieke criteria zijn gevonden, vallen treffers onder een van de drie categorieën:
+* Regels worden op volgorde verwerkt. Als er geen specifieke criteria zijn gevonden, worden treffers ingedeeld in een van de drie categorieën:
 
 1. Geen referentie (een rechtstreeks bezoek).
 
@@ -45,13 +49,13 @@ Veelgestelde vragen over marketingkanalen.
 
 Zorg ervoor dat u een kanaal voor deze drie mogelijkheden hebt. Maak bijvoorbeeld regels die het volgende aangeven:
 
-1. **[!UICONTROL Referrer]** en **[!UICONTROL Does Not Exist]** en **[!UICONTROL Is First Page of Visit]**. (Zie [Direct.](/help/components/c-marketing-channels/c-faq.md))
+1. **[!UICONTROL Referrer]** en  **[!UICONTROL Does Not Exist]** en  **[!UICONTROL Is First Page of Visit]**. (Zie [Direct.](/help/components/c-marketing-channels/c-faq.md))
 
 2. **[!UICONTROL Referrer Matches Internal URL Filters]** en **[!UICONTROL Is First page of Visit]**. (Zie [Intern](/help/components/c-marketing-channels/c-faq.md).)
 
-3. **[!UICONTROL Referrer]** en **[!UICONTROL Exists]** en **[!UICONTROL Referrer Does Not Match Internal URL Filters]**.
+3. **[!UICONTROL Referrer]** en  **[!UICONTROL Exists]** en  **[!UICONTROL Referrer Does Not Match Internal URL Filters]**.
 
-Ten slotte maakt u een *ander* kanaal waarmee de resterende resultaten worden vastgelegd, zoals wordt beschreven in [Geen kanaal geïdentificeerd](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
+Ten slotte maakt u een *Ander kanaal* waarmee de resterende resultaten worden vastgelegd, zoals beschreven in [Geen kanaal geïdentificeerd](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 
 ## Relatie tussen eerste en laatste aanraking
 
@@ -63,11 +67,11 @@ De doorsnede waar de eerste staat gelijk aan de laatste aanraking is de diagonaa
 
 ## Redenen voor Geen kanaal geïdentificeerd {#no-channel-identified}
 
-Wanneer uw regels geen gegevens vangen, of als de regels niet correct worden gevormd, toont het rapport de gegevens in de [!UICONTROL No Channel Identified] rij op het rapport. U kunt een regelreeks tot stand brengen genoemd *Andere*, bijvoorbeeld, aan het eind van uw verwerkingsorde, die ook intern verkeer identificeert.
+Wanneer uw regels geen gegevens vangen, of als de regels niet correct worden gevormd, toont het rapport de gegevens in de [!UICONTROL No Channel Identified] rij op het rapport. U kunt een regelreeks creëren genoemd *Other*, bijvoorbeeld, aan het eind van uw verwerkingsorde, die ook intern verkeer identificeert.
 
 ![](assets/example_other.png)
 
-Dit soort regel dient als catch-all om ervoor te zorgen dat het kanaalverkeer altijd extern verkeer aanpast, en typisch niet omhoog in **[!UICONTROL No Channel Identified]**. Wees voorzichtig om geen regel te creëren die ook intern verkeer identificeert. Het plaatsen van de waarde van het kanaal aan **[!UICONTROL Referring Domain]** of aan **[!UICONTROL Page URL]** zijn de gemeenschappelijkste, nuttigste manieren om een efficiënte Andere regel tot stand te brengen.
+Dit soort regel dient als catch-all om ervoor te zorgen dat het kanaalverkeer altijd extern verkeer aanpast, en typisch niet omhoog in **[!UICONTROL No Channel Identified]** belandt. Wees voorzichtig om geen regel te creëren die ook intern verkeer identificeert. Het plaatsen van de waarde van het kanaal aan **[!UICONTROL Referring Domain]** of aan **[!UICONTROL Page URL]** zijn de gemeenschappelijkste, nuttigste manieren om een efficiënte Andere regel tot stand te brengen.
 
 >[!NOTE]
 >
@@ -75,7 +79,7 @@ Dit soort regel dient als catch-all om ervoor te zorgen dat het kanaalverkeer al
 
 ## Redenen voor intern (Sessie vernieuwen) {#internal}
 
-Interne laatste aanraking (Sessie vernieuwen) kan alleen optreden als dit ook de eerste aanraking was. Zie &quot;Verhouding tussen eerste en laatste aanraking&quot; hierboven. In de onderstaande scenario&#39;s wordt uitgelegd hoe Zitting vernieuwen een eersteklas kanaal kan zijn.
+Interne laatste aanraking (Sessie vernieuwen) kan alleen optreden als dit ook de eerste aanraking was. Zie &quot;Relatie tussen eerste en laatste aanraking&quot; hierboven. In de onderstaande scenario&#39;s wordt uitgelegd hoe Zitting vernieuwen een eersteklas kanaal kan zijn.
 
 * **Time-out** sessie: Een bezoeker komt naar de website en laat het tabblad vervolgens open in zijn browser om op een latere datum te gebruiken. De periode van de betrokkenheid van de bezoeker verloopt (of ze verwijderen hun cookies vrijwillig) en ze gebruiken het tabblad Openen om de website opnieuw te bezoeken. Aangezien de verwijzende URL een intern domein is, wordt het bezoek geclassificeerd als Sessie vernieuwen.
 
