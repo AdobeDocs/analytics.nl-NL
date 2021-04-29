@@ -5,9 +5,9 @@ user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: De hulp organiseert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, en alarm.
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '639'
 ht-degree: 54%
 
 ---
@@ -249,6 +249,7 @@ ht-degree: 54%
    + [Ondersteunde cijfers en dimensies in real time](c-real-time-reporting/realtime-metrics.md)
 + Marketingkanalen {#marketing-channels}
    + [Aan de slag met marketingkanalen](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Attribution IQ met marketingkanalen](c-marketing-channels/mchannel-best-practices.md)
    + [Marketingkanalen beheren](c-marketing-channels/c-channels.md)
    + [Verwerkingsregels voor marketingkanalen](c-marketing-channels/c-rules.md)
    + [Classificaties in marketingkanalen](c-marketing-channels/classifictions-mchannel.md)
