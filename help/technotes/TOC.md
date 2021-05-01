@@ -5,10 +5,10 @@ user-guide-title: Technische notities voor Analytics
 breadcrumb-title: Technische notities
 user-guide-description: Een kennisbasis die nuttige artikelen bevat die niet tot een specifiek analyseprogramma of specifieke component behoren.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 73%
+source-wordcount: '190'
+ht-degree: 70%
 
 ---
 
@@ -38,7 +38,9 @@ ht-degree: 73%
    + [Datums vergelijken met eerdere bereiken](event/compare-dates.md)
    + [Data afleiden die door gebeurtenissen worden beïnvloed](event/calcmetrics.md)
    + [Gebeurtenissen doorgeven aan gebruikers](event/communicate.md)
-+ [Browsercookies](cookies.md)
++ [Cookies] {#cookies}
+   + [Browsercookies](cookies/cookies.md)
+   + [Opties om het effect van browsercookiebeperkingen te beperken](cookies/cookieless.md)
 + [Dataretentie](data-retention.md)
 + [Gegevens uitsluiten](exclude-data.md)
 + [IPs en domeinen die door Adobe Analytics worden gebruikt](ip-addresses.md)
