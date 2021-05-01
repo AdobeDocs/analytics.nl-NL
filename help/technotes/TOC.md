@@ -5,7 +5,7 @@ user-guide-title: Technische notities voor Analytics
 breadcrumb-title: Technische notities
 user-guide-description: Een kennisbasis die nuttige artikelen bevat die niet tot een specifiek analyseprogramma of specifieke component behoren.
 translation-type: tm+mt
-source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
+source-git-commit: ebed6c96d82a5a93e53e015f1e89431d2d8abae4
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 70%
@@ -38,7 +38,7 @@ ht-degree: 70%
    + [Datums vergelijken met eerdere bereiken](event/compare-dates.md)
    + [Data afleiden die door gebeurtenissen worden beïnvloed](event/calcmetrics.md)
    + [Gebeurtenissen doorgeven aan gebruikers](event/communicate.md)
-+ [Cookies] {#cookies}
++ Cookies {#cookies}
    + [Browsercookies](cookies/cookies.md)
    + [Opties om het effect van browsercookiebeperkingen te beperken](cookies/cookieless.md)
 + [Dataretentie](data-retention.md)
