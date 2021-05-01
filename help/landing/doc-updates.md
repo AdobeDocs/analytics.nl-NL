@@ -2,14 +2,14 @@
 title: Technische documentatie-updates voor Adobe Analytics
 description: Belangrijke updates van de Adobe Analytics-documentatieopslagplaats.
 short-title: Analytics documentation updates
+exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 translation-type: tm+mt
-source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 90%
 
 ---
-
 
 # Technische documentatie-updates voor Adobe Analytics
 
@@ -36,7 +36,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 7 februari 2020 | Updates van [Analytics op verschillende apparaten](/help/components/cda/setup.md) en [Veelgestelde vragen](/help/components/cda/faq.md). |
 | 4 februari 2020 | Volledige herschrijving van de [Implementatiehandleiding](/help/implement/home.md). |
 | 22 januari 2020 | Bijgewerkte pagina voor vrijevormtabellen bevat nu ook informatie over de nieuwe [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
-| 13 januari 2020 | [Adobe Analytics en browsercookies](/help/technotes/cookies.md) toegevoegd. |
+| 13 januari 2020 | [Adobe Analytics en browsercookies](/help/technotes/cookies/cookies.md) toegevoegd. |
 | 29 november 2019 | Herziening van de [Documentatie over datafeed](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 november 2019 | Nieuw onderwerp over [Einde levensduur van IP-aanmeldingsbeperkingen afdwingen](/help/admin/company/login-restrictions-eol.md). |
 | 21 november 2019 | Nieuwe documentatieset voor [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html). |
