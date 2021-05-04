@@ -3,9 +3,9 @@ title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over apparaatanalyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
+source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1670'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Beide herkenningstekens worden berekend door Adobe op het tijdstip dat het rappo
 
 ## Hoe kan ik van de apparatengrafiek naar op gebied-gebaseerde het stitching bewegen, of vice versa?
 
-Neem contact op met de accountmanager van uw organisatie als u wilt overschakelen naar andere methoden voor identificatie van CDA. De accountmanager kan uw rapportsuite voorzien van de gewenste methode om personen te identificeren. *Historische gegevens van de vorige methode gaan verloren.*
+Via de klantenservice kan worden gevraagd om van apparaatgrafiek naar op het veld gebaseerde stitching of omgekeerd. Nochtans, kan het maken van zulk een schakelaar een paar weken of meer vergen om te voltooien en *historische vastgemaakte gegevens van de vorige methode worden verloren.*
 
 ## Hoe hanteert Adobe unieke limieten voor een eVar die wordt gebruikt in stitching op basis van velden?
 
