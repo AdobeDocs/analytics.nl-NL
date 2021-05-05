@@ -5,26 +5,26 @@ feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 482dcc04b7d68c6a555d318d8493c309e5899ae1
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Lage verkeerswaarde in Adobe Analytics
 
-Wanneer een rapport een groot aantal unieke waarden heeft, verstrekt Adobe functionaliteit om ervoor te zorgen dat de belangrijkste waarden in uw rapport verschijnen. Unieke variabelewaarden die worden verzameld na ongeveer 500.000 bestaande waarden worden vermeld onder een regelitem met de naam **(Low-Traffic)**.
+Wanneer een rapport vele unieke waarden heeft, verstrekt Adobe functionaliteit om ervoor te zorgen dat de belangrijkste waarden in uw rapport verschijnen. Unieke variabelewaarden die worden verzameld na ongeveer 500.000 bestaande waarden worden vermeld onder een regelitem met de naam **(Low-Traffic)**.
 
 ## Hoe het lage verkeer werkt
 
 * De rapportage wordt niet beïnvloed als de variabele in een bepaalde maand niet 500.000 unieke waarden bereikt.
 * Wanneer een variabele deze eerste drempel van 500.000 bereikt, beginnen de gegevens onder laag-verkeer te worden ingesloten. Elke waarde boven deze drempel doorloopt de volgende logica:
    * Als er al een waarde in rapporten staat, voegt u deze waarde op de gebruikelijke wijze toe.
-   * Als er nog geen waarde wordt gerapporteerd, controleert u of die waarde vandaag meer dan ongeveer tien keer is waargenomen. Als dit het geval is, voegt u deze waarde toe aan de rapportage. Als het niet meer dan tien keer is geteld, laat het onder laag verkeer.
+   * Als een waarde nog niet in rapportering is, zijn de &quot;aantal waarden gezien&quot;drempels afhankelijk van achtergrondconfiguraties. Ze vormen geen precieze &quot;10&quot; of &quot;100&quot; keer.
 * Als een rapportreeks meer dan 1.000.000 unieke waarden bereikt, wordt het agressievere filtreren toegepast:
    * Als er al een waarde in rapporten staat, voegt u deze waarde op de gebruikelijke wijze toe.
-   * Als er nog geen waarde wordt gerapporteerd, controleert u of die waarde vandaag meer dan ongeveer 100 keer is waargenomen. Als dit het geval is, voegt u de waarde toe aan de rapportage. Als dat niet het geval is, laat het dan onder laag verkeer.
+   * Als een waarde nog niet in rapportering is, zijn de &quot;aantal waarden gezien&quot;drempels afhankelijk van achtergrondconfiguraties. Ze vormen geen precieze &quot;10&quot; of &quot;100&quot; keer.
 
 >[!NOTE]
 >
