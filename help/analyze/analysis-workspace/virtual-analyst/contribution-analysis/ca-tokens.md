@@ -2,16 +2,16 @@
 description: Gebruik de analyse van de Bijdrage om statistische anomalieën en correlaties in gegevens te identificeren.
 title: Overzicht van bijdrageanalyse
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI Tools
+feature: AI-gereedschappen
 role: Business Practitioner, Administrator
+exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 6%
+source-wordcount: '1149'
+ht-degree: 3%
 
 ---
-
 
 # Overzicht van bijdrageanalyse
 
@@ -47,41 +47,14 @@ Het aantal runtimes per bedrijf wordt beperkt door maandelijkse tokens die worde
 
 ## Veelgestelde vragen {#section_11D0431AD2014B96AB9561CA66A367CE}
 
-<table id="table_357775E5058644099E26B15A6790E8AF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Vraag </th> 
-   <th colname="col2" class="entry"> Antwoord </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Waarom introduceerde Adobe tokens?  </b> </p> </td> 
-   <td colname="col2"> <p>De bijdrageanalyse is een van de meest representatieve mogelijkheden in Adobe Analytics geweest. Als u een klein aantal "volledige" reeksen per maand krijgt (in plaats van slechts 3 dimensies voor sommige Analyseproducten), kunt u beter zien wat een onbeperkte volledige Analyse van de Bijdrage voor u kan doen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Hoe werkt het tokeren in bijdrageanalyse? Kosten het een teken om een project met een bestaande Analyse van de Bijdrage te laden, of slechts wanneer het runnen van gloednieuwe?</b> </p> </td> 
-   <td colname="col2"> <p>Elk login bedrijf (niet elke gebruiker) krijgt een bepaald aantal tokens per maand, die u toestaan om "volledige"Analyse van de Bijdrage in Analysis Workspace in werking te stellen. </p> <p>Elke keer dat u een nieuwe bijdrageanalyse genereert, betaalt u één token. Het laden van projecten met vooraf uitgevoerde Analyses van de Bijdrage kost geen teken. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Zijn tokens van toepassing op de Analyse van de Bijdrage in Rapporten &amp; Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Nee. In de release van april 2018 worden geen bijdrageanalyse meer aangeboden in Reports &amp; Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Als mijn bedrijf uit tokens is en extra Analyses van de Bijdrage wil in werking stellen, wat kunnen wij doen?</b> </p> </td> 
-   <td colname="col2"> <p>U kunt een upgrade uitvoeren naar een ander Adobe Analytics-product, bijvoorbeeld van Standaard (2 tokens/maand) naar Ultimate (20 tokens/maand). U kunt niet alleen meer tokens kopen. U moet een upgrade uitvoeren binnen het bestaande pakketframework. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Hoe beperk ik toegang tot de Analyse van de Bijdrage?</b> </p> </td> 
-   <td colname="col2"> <p>Door gebrek, slechts hebben de beheerders toegang om de Analyses van de Bijdrage in werking te stellen, maar de beheerders kunnen toegang tot andere gebruikers verlenen door een toestemmingengroep in <a href="https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/admin-getting-started.html"  > Admin Console </a> te creëren. U zou toestemming moeten geven om de Analyse van de Bijdrage slechts aan gebruikers te gebruiken die een wettige reden hebben om het te gebruiken en worden vertrouwd om hun toegang niet te misbruiken. </p> <p>De toestemming wordt genoemd "Analyse van de Bijdrage"onder <span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Gebruikersbeheer</span> &gt; <span class="uicontrol"> geeft Groepen</span> uit &gt; <span class="uicontrol"> geeft Al Toegang van het Rapport</span> &gt; <span class="uicontrol"> a12/&gt; &gt; <span class="uicontrol"> Gereedschappen en rapporten</span></span>.</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Hoe weet ik hoeveel tokens mijn bedrijf per maand mag gebruiken en hoeveel tokens we in de huidige maand hebben gebruikt?</b> </p> </td> 
-   <td colname="col2"> <p>Ga naar <span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Bedrijfsinstellingen</span> &gt; <span class="uicontrol"> De Niveaus van de Toegang van de Eigenschap van de Mening</span></span>. Deze pagina bevat twee nieuwe objecten: </p> <p><img placement="break"  src="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Vraag | Antwoord |
+| --- | --- |
+| Waarom introduceerde Adobe tokens? | De bijdrageanalyse is een van de meest representatieve mogelijkheden in Adobe Analytics geweest. Als u een klein aantal &quot;volledige&quot; reeksen per maand krijgt (in plaats van slechts 3 dimensies voor sommige Analyseproducten), kunt u beter zien wat een onbeperkte volledige Analyse van de Bijdrage voor u kan doen. |
+| Hoe werkt het tokeren in bijdrageanalyse? Zijn de kosten een token om een project te laden met een bestaande bijdrageanalyse, of slechts wanneer een gloednieuwe wordt uitgevoerd? | Elk login bedrijf (niet elke gebruiker) krijgt een bepaald aantal tokens per maand, die u toestaan om &quot;volledige&quot;Analyse van de Bijdrage in Analysis Workspace in werking te stellen.  Elke keer dat u een nieuwe bijdrageanalyse genereert, betaalt u één token. Het laden van projecten met vooraf uitgevoerde Analyses van de Bijdrage kost geen teken. |
+| Zijn tokens van toepassing op de Analyse van de Bijdrage in Rapporten &amp; Analytics? | Nee. De bijdrageanalyse wordt vanaf april 2018 niet meer aangeboden in de rapporten en analyses. |
+| Als mijn bedrijf uit tokens is en extra Analyses van de Bijdrage wil in werking stellen, wat kunnen wij doen? | U kunt een upgrade uitvoeren naar een ander Adobe Analytics-product, bijvoorbeeld van Standaard (2 tokens/maand) naar Ultimate (20 tokens/maand). U kunt niet alleen meer tokens kopen. U moet een upgrade uitvoeren binnen het bestaande pakketframework. |
+| Hoe beperk ik toegang tot de Analyse van de Bijdrage? | Standaard hebben alleen beheerders toegang om Contribute-analyses uit te voeren. Beheerders kunnen echter toegang verlenen aan andere gebruikers door een machtigingengroep te maken in de [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html). U zou toestemming moeten geven om de Analyse van de Bijdrage slechts aan gebruikers te gebruiken die een wettige reden hebben om het te gebruiken en worden vertrouwd om hun toegang niet te misbruiken. De bevoegdheid wordt [!UICONTROL Contribution Analysis] genoemd onder [!UICONTROL Report Suite Tools]. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
+| Hoe weet ik hoeveel tokens mijn bedrijf per maand mag gebruiken en hoeveel tokens we in de huidige maand hebben gebruikt? | Ga naar [!UICONTROL Admin] > [!UICONTROL All Admin] >[!UICONTROL Company Settings Home] >[!UICONTROL View Feature Access Levels]. Zoeken onder<ul><li>Bijdrage-analyse: Aantal tokens voor maandgebruik</li><li>Bijdrage-analyse: Aantal Gebruikstokens die deze maand worden gebruikt</li></ul> |
 
 ## Toeslagrechten voor anomalische detectie en bijdrageanalyse {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
@@ -89,7 +62,7 @@ Hieronder volgt een lijst van de gedetailleerde rechten voor de analyse van Anom
 
 >[!IMPORTANT]
 >
->Anomaliedetectie en bijdrage-analyses zijn verwijderd uit de functieset met rapporten en analytics, en nu dus alleen beschikbaar via Analysis Workspace. Klanten van Adobe Analytics Select en Adobe Analytics Foundation hebben voortaan alleen via Workspace toegang tot anomaliedetectie voor dagelijkse granulariteit.
+>De analyse van de Anomaly Detection and Contribution is verwijderd uit de set met functies Reports &amp; Analytics en is nu alleen beschikbaar via Analysis Workspace. Klanten van Adobe Analytics Select en Adobe Analytics Foundation hebben voortaan alleen via Workspace toegang tot anomaliedetectie voor dagelijkse granulariteit.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
