@@ -1,12 +1,12 @@
 ---
 title: Bot verwijderen in Adobe Analytics
-description: 3 manieren om vlekken te verwijderen in Adobe Analytics
+description: Bommen verwijderen in Adobe Analytics
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 translation-type: tm+mt
-source-git-commit: b78e8303277b08a4c693283e45416f2e104268b7
+source-git-commit: bb8ccbf782a1431e5278a95923a42c9e9e9e862b
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 2%
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +21,13 @@ Zowel de standaard als de douanetriefiltermethoden worden gesteund in **[!UICONT
 | Type regel | Beschrijving |
 |--- |--- |
 | Standaardregels voor IAB-bot | Als u **[!UICONTROL Enable IAB Bot Filtering Rules]** selecteert, wordt de lijst met internationale spinnen en boten van [IAB&#39;s](https://www.iab.com/) (International Advertising Bureau&#39;s) gebruikt om beide typen verkeer te verwijderen. De meeste klanten selecteren deze optie op een minimum. |
-| Aangepaste botregels | U kunt de regels van de douanebot bepalen en toevoegen die op gebruikersagenten, IP adressen of IP waaiers worden gebaseerd. |
+| Aangepaste botregels | U kunt de regels van de douanebot bepalen en toevoegen die op gebruikersagenten, IP adressen, of IP waaiers worden gebaseerd. |
 
 Zie [Overzicht van beide regels](/help/admin/admin/bot-removal/bot-rules.md) voor meer informatie.
 
 ## Gebruik de [!UICONTROL websiteBot] plug-in om lettertypen te identificeren
 
-Met de insteekmodule websiteBot kunt u dynamisch bepalen of bezoekers van een bureaublad bots zijn. U kunt deze gegevens gebruiken om grotere nauwkeurigheid in alle types van rapportering te drijven, die u een betere manier geeft om wettig plaatsverkeer te meten.
+Met de [!UICONTROL websiteBot]-plug-in kunt u dynamisch bepalen of bezoekers van een bureaublad de meeste gebruikers hebben. U kunt deze gegevens gebruiken om grotere nauwkeurigheid in alle types van rapportering te drijven, die u een betere manier geeft om wettig plaatsverkeer te meten.
 
 Deze plug-in voert twee controles uit:
 
@@ -42,7 +42,7 @@ Bovendien biedt Adobe, aangezien bots snel morferen, verschillende andere kracht
 
 ### Stap 1: Geef de Experience Cloud-id van uw bezoekers door in een nieuwe gedeclareerde id
 
-Om te beginnen, zult u een nieuwe verklaarde identiteitskaart in [de Dienst van de Kern van Mensen](https://docs.adobe.com/content/help/nl-NL/core-services/interface/audiences/audience-library.html) willen tot stand brengen. U moet de Experience Cloud-id van uw bezoeker doorgeven in deze nieuwe gedeclareerde id, die u snel en eenvoudig kunt gebruiken met [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Gebruik de naam ECID voor de gedeclareerde id.
+Om te beginnen, creeer een nieuwe verklaarde identiteitskaart in [de Dienst van de Kern van Mensen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Geef de Experience Cloud-id van uw bezoeker door in deze nieuwe gedeclareerde id, die u snel en eenvoudig kunt gebruiken met [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html). Gebruik de naam ECID voor de gedeclareerde id.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -50,7 +50,7 @@ Hieronder wordt beschreven hoe deze id kan worden vastgelegd via het gegevensele
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Nadat dit gegevenselement is ingesteld, volgt u [deze instructies](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) om gedeclareerde id&#39;s door te geven aan het ECID-gereedschap in Launch.
+Nadat dit gegevenselement is ingesteld, volgt u [deze instructies](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) om gedeclareerde id&#39;s door te geven aan het ECID-gereedschap in Adobe Launch.
 
 ### Stap 2: Segmentatie gebruiken om vlekken te identificeren
 
@@ -60,18 +60,18 @@ Nu de ECID van uw bezoeker in een verklaarde identiteitskaart wordt overgegaan, 
 
 ### Stap 3: Alle [!DNL Experience Cloud IDs] uit het segment exporteren via Data Warehouse
 
-Nu u de bots gebruikend segmenten hebt geïdentificeerd, is de volgende stap hefboomwerking Data Warehouse om alle Experience Cloud IDs te halen verbonden aan dit segment. Dit is hoe u opstelling uw [verzoek Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) zou moeten:
+Nu u de bots gebruikend segmenten hebt geïdentificeerd, is de volgende stap Data Warehouse te gebruiken om alle Experience Cloud IDs te halen verbonden aan dit segment. Deze schermafbeelding laat zien hoe u uw [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)-verzoek instelt:
 
 ![](assets/bot-dwh-3.png)
 
-Vergeet niet Experience Cloud Visitor-id te gebruiken als uw dimensie en het Bots-segment toe te passen.
+Vergeet niet Experience Cloud Visitor-id te gebruiken als uw dimensie en het segment Bots toe te passen.
 
 ### Stap 4: Geef deze lijst terug naar Adobe als Attribuut van de Klant
 
-Zodra het rapport van de Data Warehouse aankomt, zult u een lijst van ECIDs hebben die van historische gegevens moeten worden gefiltreerd. Kopieer en plak deze ECID&#39;s in een leeg CSV-bestand met slechts twee kolommen, ECID en Bot-vlag.
+Zodra het rapport van de Data Warehouse aankomt, hebt u een lijst van ECIDs die van historische gegevens moet worden gefiltreerd. Kopieer en plak deze ECID&#39;s in een leeg CSV-bestand met slechts twee kolommen, ECID en Bot-vlag.
 
 * **ECID**: Zorg ervoor dat deze kolomkop overeenkomt met de naam die u aan de bovenstaande nieuwe gedeclareerde id hebt gegeven.
-* **Bodemvlag**: Voeg dit als het schemadimensie van het Attribuut van de Klant toe.
+* **Bodemvlag**: Voeg &#39;Bot Flag&#39; toe als schemadimensie van kenmerk van klant.
 
 Gebruik dit .CSV-bestand als het importbestand voor klantkenmerken en abonneer vervolgens uw rapportsuite(s) op het kenmerk Klant zoals beschreven in dit [blogbericht](https://theblog.adobe.com/link-digital-behavior-customers).
 
@@ -85,12 +85,12 @@ Als uw gegevensset eenmaal is verwerkt en geïntegreerd in Analysis Workspace, m
 
 ### Stap 6: Dit segment gebruiken als het filter Virtuele rapportsuite
 
-Tot slot zou u een [Virtuele Reeks van het Rapport](/help/components/vrs/vrs-about.md) moeten creëren die dit segment gebruikt om de geïdentificeerde bots uit te filtreren:
+Tot slot creeer een [Virtuele Reeks van het Rapport](/help/components/vrs/vrs-about.md) die dit segment gebruikt om de geïdentificeerde bots uit te filtreren:
 
 ![](assets/bot-vrs.png)
 
-Deze nieuwe, gesegmenteerde virtuele rapportsuite zal nu resulteren in een aanzienlijk schonere gegevensset, waarbij de geïdentificeerde bots volledig zijn verwijderd.
+Deze nieuwe gesegmenteerde Virtual Report Suite zal nu leiden tot een schonere set gegevens, waarbij de geïdentificeerde &#39;bots&#39; zijn verwijderd.
 
 ### Stap 7: Herhaal stap 2, 3 en 4 regelmatig
 
-Stel ten minste een maandelijkse herinnering in om nieuwe vlekken te identificeren en te filteren, wellicht voorafgaand aan de regelmatig geplande analyse.
+Stel ten minste een maandelijkse herinnering in om nieuwe vlekken te identificeren en te filteren, misschien vóór een regelmatig geplande analyse.
