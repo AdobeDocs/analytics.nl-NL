@@ -5,10 +5,10 @@ user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: 'Pas aan welke gegevens worden verzameld om meer uit Adobe Analytics te halen. '
 translation-type: tm+mt
-source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 89%
+source-wordcount: '376'
+ht-degree: 86%
 
 ---
 
@@ -158,35 +158,7 @@ ht-degree: 89%
    + [Launch-data-elementen Analytics-variabelen](launch/elements-to-variable.md)
 + Analytics implementeren op andere platforms {#other}
    + [Analytics implementeren met behulp van hardwarematige afbeeldingsaanvragen](other/hardcoded.md)
-   + Analytics implementeren met DTM {#dtm}
-      + [Implementatieoverzicht van Dynamic Tag Management](other/dtm/dtm-implementation-overview.md)
-      + [Webeigenschap maken](other/dtm/t-create-web-property.md)
-      + [Hostingopties configureren](other/dtm/t-configure-hosting.md)
-      + Kop- en voetteksten {#headers-footers}
-         + [Code voor kop- en voetteksten toevoegen](other/dtm/c-headers-footers/t-header-footer-code.md)
-         + [Code voor kop- en voetteksten controleren](other/dtm/c-headers-footers/t-verify-header-footer.md)
-      + Adobe Analytics-tool {#analytics-tool}
-         + [Adobe Analytics-tool toevoegen](other/dtm/c-aa-tool/analytics-dtm.md)
-         + [Algemeen](other/dtm/c-aa-tool/general-settings-analytics.md)
-         + [Bibliotheekbeheer](other/dtm/c-aa-tool/library-management.md)
-         + [Core AppMeasurement-code invoegen](other/dtm/c-aa-tool/t-appmeasurement-code.md)
-         + [Algemene variabelen](other/dtm/c-aa-tool/global-variables.md)
-         + [Paginaweergaven en -content](other/dtm/c-aa-tool/pageviews-content.md)
-         + [Link tracking](other/dtm/c-aa-tool/link-tracking.md)
-         + [Referrers en campagnes](other/dtm/c-aa-tool/referrers-campaigns.md)
-         + [Cookies](other/dtm/c-aa-tool/cookies-analytics.md)
-         + [Paginacode aanpassen](other/dtm/c-aa-tool/customize-page-code.md)
-         + [Veelgestelde vragen over de Adobe Analytics-tool](other/dtm/c-aa-tool/dtm-faq.md)
-      + [Een data-element maken](other/dtm/t-data-element.md)
-      + [Adobe Analytics handmatig implementeren (verouderd)](other/dtm/t-analytics-deploy.md)
-      + Regels {#rules}
-         + [Nieuwe regel maken](other/dtm/c-rules/t-rules-create.md)
-         + [Voorwaarden maken voor regels op basis van gebeurtenissen](other/dtm/c-rules/t-rules-event-conditions.md)
-         + [Voorwaarden maken voor regels voor het laden van pagina&#39;s](other/dtm/c-rules/t-rules-page-conditions.md)
-         + [Voorwaarden maken voor regels voor directe oproepen ](other/dtm/c-rules/t-rules-direct-conditions.md)
-         + [Acties instellen voor voorwaarden voor activeren](other/dtm/c-rules/t-rules-actions.md)
-         + [Niet-gepubliceerde regels voor Akamai-hosting testen](other/dtm/c-rules/t-test-rules-akamai.md)
-         + [Regels testen voor het downloaden van bibliotheken of FTP](other/dtm/c-rules/t-test-rules-ftp.md)
+   + [Analytics implementeren met DTM](other/dtm-implementation-overview.md)
    + [Analytics implementeren op Ajax](other/ajax.md)
    + [Analytics implementeren op AMP](other/amp.md)
    + [Analytics implementeren op digitale assistenten](other/digital-assistants.md)
