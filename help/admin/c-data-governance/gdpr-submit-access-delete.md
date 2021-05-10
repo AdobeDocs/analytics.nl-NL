@@ -2,19 +2,16 @@
 description: Hoe te om gegevenstoegang en schrappingsverzoeken in Adobe Analytics voor te leggen.
 title: Aanvragen voor toegang en verwijdering verzenden
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
+exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 99%
+source-wordcount: '1307'
+ht-degree: 96%
 
 ---
 
-
 # Aanvragen voor toegang en verwijdering verzenden
-
-
-## Overzicht {#section_BD70882995894C1CA19C205C49FEC23C}
 
 Als uw klanten (consumenten/geregistreerde personen) willen weten welke data u van hen onderhoudt, of als ze besluiten dat ze uit uw Analytics-eigenschappen willen worden verwijderd, bent u als datacontroller verantwoordelijk voor het reageren op deze aanvragen. De datacontroller bepaalt hoe uw organisatie communiceert met geregistreerde personen (bijvoorbeeld via een gebruikersportal voor de geregistreerde persoon), en beheert de interactie met de geregistreerde persoon. Het is ook de verantwoordelijkheid van de datacontroller om de lus met de geregistreerde persoon te sluiten wanneer de aanvraag is uitgevoerd. Met andere woorden: Adobe Experience Cloud zal, als dataverwerker, geen aanvragen rechtstreeks van geregistreerde personen accepteren of data direct naar hen retourneren. In plaats daarvan ontvangt Adobe alleen aanvragen van u als datacontroller ontvangen en data naar u retourneren.
 
@@ -22,7 +19,7 @@ Misschien wilt ook zeker weten dat uw mobiele apps en websites relevante pop-upb
 
 ## Toestemming van consumenten beheren {#section_3012015E7E8942519FB9279CF7057EAB}
 
-U bent als datacontroller verantwoordelijk voor het verkrijgen van uitdrukkelijke toestemming van geregistreerde personen voordat u data over hen verzamelt (mogelijk inclusief Adobe Analytics-data) en voor de [implementatie van een afmeldingsmechanisme](https://docs.adobe.com/content/help/nl-NL/dtm/using/tools/opt-in.html) op uw website. Hierdoor kunnen geregistreerde personen zich afmelden voor toekomstige dataverzameling in Adobe Experience Cloud.
+U bent als gegevenscontroller verantwoordelijk voor het verkrijgen van uitdrukkelijke toestemming van de betrokkenen voordat u gegevens over deze gegevens verzamelt (mogelijk met inbegrip van Adobe Analytics-gegevens) en voor het implementeren van een [opt-out mechanisme](https://www.adobe.com/privacy/opt-out.html#customeruse) op uw website. Hierdoor kunnen geregistreerde personen zich afmelden voor toekomstige dataverzameling in Adobe Experience Cloud.
 
 ## Gebruikers en hun data valideren {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
