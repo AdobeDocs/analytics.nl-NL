@@ -6,9 +6,9 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: 56d272b72d3274057668d3b45c416cb7487d56a2
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '513'
 ht-degree: 1%
 
 ---
@@ -43,10 +43,14 @@ Als een klikgebeurtenis op een element voorkomt, moet het element sommige contro
 * Is dit een `BUTTON`?
 
 Als het antwoord op om het even welke bovenstaande vragen ja is, dan wordt het element behandeld als verbinding en zal worden gevolgd.
- 
-Belangrijk:  Knoplabels met het kenmerktype=&quot;button&quot; worden door AppMeasurement niet als koppelingen beschouwd. U kunt in plaats hiervan type=&quot;button&quot; op de knoptags verwijderen en rol=&quot;button&quot; of submit=&quot;button&quot; toevoegen.
- 
-Belangrijk: Een ankertag met een &quot;href&quot; die begint met &quot;#&quot; wordt door AppMeasurement beschouwd als een interne doellocatie, niet als een koppeling (omdat u de pagina niet verlaat). Standaard houdt Activity Map deze interne doellocaties niet bij. Er worden alleen koppelingen bijgehouden waarmee de gebruiker naar een nieuwe pagina navigeert.
+
+>[!IMPORTANT]
+>
+>Knoplabels met het kenmerktype=&quot;button&quot; worden door AppMeasurement niet als koppelingen beschouwd. U kunt in plaats hiervan type=&quot;button&quot; op de knoptags verwijderen en rol=&quot;button&quot; of submit=&quot;button&quot; toevoegen.
+
+>[!IMPORTANT]
+>
+>Een ankertag met een &quot;href&quot; die begint met &quot;#&quot; wordt door AppMeasurement beschouwd als een interne doellocatie, niet als een koppeling (omdat u de pagina niet verlaat). Standaard houdt Activity Map deze interne doellocaties niet bij. Er worden alleen koppelingen bijgehouden waarmee de gebruiker naar een nieuwe pagina navigeert.
 
 ## Hoe houdt Activity Map andere visuele HTML-elementen bij?
 
@@ -55,7 +59,6 @@ a. Via de functie `s.tl()`.
 Als de klik via een `s.tl()` aanroeping voorkwam, dan zal de Activity Map ook deze klikgebeurtenis ontvangen en zal bepalen als een `linkName` koordvariabele werd gevonden. Tijdens `s.tl()` uitvoering, zal dat linkName als identiteitskaart van de Verbinding van de Activity Map worden geplaatst. Het aangeklikte element dat de `s.tl()` vraag voortkwam zal worden gebruikt om het gebied te bepalen. Voorbeeld:
 
 ```
-    
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
@@ -70,7 +73,9 @@ b. Via de variabele `s_objectID`. Voorbeeld:
     
     &lt;a> koppelen&lt;/a>&quot;
 
-Belangrijk:  Een volgpuntkomma (;) is vereist wanneer u `s_objectID` in Activity Map gebruikt.
+>[!IMPORTANT]
+>
+>Een volgpuntkomma (;) is vereist wanneer u `s_objectID` in Activity Map gebruikt.
 
 ## Kunt u mij enkele voorbeelden geven van koppelingen die worden bijgehouden?
 
