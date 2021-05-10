@@ -1,14 +1,14 @@
 ---
 description: Deze sectie bevat de belangrijkste concepten voor de Adobe Analytics, een korte beschrijving van het concept, en een specifieke documentatiekoppeling met extra informatie over het onderwerp.
 title: Adobe Analytics - Belangrijkste concepten
+exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 96%
+source-wordcount: '1834'
+ht-degree: 95%
 
 ---
-
 
 # Adobe Analytics - Belangrijkste concepten
 
@@ -25,8 +25,7 @@ Deze sectie bevat de belangrijkste concepten voor de Adobe Analytics, een korte 
 | Data Warehouse | Onbewerkte gegevens voor opslag en aangepaste rapporten, die u kunt uitvoeren door de data te filteren. Niveau niet bereikt. | [Data Warehouse Home](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Verenigt mobiele marketingmogelijkheden voor mobiele applicaties uit de hele Adobe Experience Cloud, zodat u de betrokkenheid van gebruikers met uw applicaties kunt begrijpen en verbeteren. | [Mobile Services Home](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors (voorheen Genesis) | Importeer trackingdata van applicaties van derden naar Analytics, zodat de prestaties op één centrale locatie volledig zichtbaar zijn. Met ingang van 1 augustus 2021 is Adobe voornemens de integratie van gegevensconnectors te beëindigen. | [Data Connectors Home](/help/import/data-connectors/data-connectors-eol.md) |
-| Dynamic Tag Management (DTM) | Hiermee kunt u uw Analytics-, Target- en andere tags op al uw sites beheren, ongeacht het aantal domeinen. | [DTM Home](/help/implement/other/dtm/dtm-implementation-overview.md) |
-| Adobe Launch | De volgende generatie mogelijkheden voor websitetags en mobiel SDK-beheer van Adobe. | [Adobe Launch Home](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
+| Adobe Experience Platform Launch | De volgende generatie mogelijkheden voor websitetags en mobiel SDK-beheer van Adobe. | [Adobe Experience Platform Launch home](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
 ## Belangrijke terminologie {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -109,7 +108,7 @@ Klik [hier](/help/technotes/terms.md) voor een uitgebreide woordenlijst met term
 | Implementatiehandleiding | Een beschrijving van dataverzamelingsvariabelen en details over het implementeren van code voor dataverzameling in JavaScript. | [Implementatiehandleiding](/help/implement/home.md) |
 | App-meting (s_code) | Globaal variabelenbeheer. | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | App-SDK’s | Aangepast pakket met een vooraf ingevulde versie van het configuratiebestand voor apps. | <ul><li>[iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
-| DTM en Adobe Launch | Zie Tools voor Analytics. |  |
+| Adobe Experience Platform Launch | Zie Tools voor Analytics. |  |
 | VISTA | Hiermee kunt u serverlogica toepassen om data te wijzigen of te segmenteren terwijl deze worden verzameld. | [VISTA-regels](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | Verwerkingsregels | Mogelijkheid om variabelen in te stellen, te wijzigen en te kopiëren in de Analytics-UI om te wijzigen welke data worden verzameld. | [Verwerkingsregels](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | Foutopsporingsopties | Er zijn verscheidene debuggers en pakketsniffers beschikbaar helpen uw implementatie, met inbegrip van debugger van Adobe Experience Cloud bevestigen. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=nl) |
