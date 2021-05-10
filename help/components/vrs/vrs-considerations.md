@@ -2,13 +2,13 @@
 description: Virtuele rapportsuites en tagging met meerdere suite hebben verschillende voordelen. Leer wat het beste is voor uw organisatie.
 keywords: Virtual Report Suite,VRS
 title: Virtuele rapportreeksen en tagging met meerdere suite-overwegingen
-feature: Report Suite Settings
+feature: Instellingen van rapportsuite
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1712'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,6 @@ Als u ervoor kiest om secundaire servervraag ten gunste van virtuele rapportsuit
    * Gebruik raakcontainers als u virtuele rapportsuites wederzijds wilt uitsluiten.
 2. Nadat u hebt bevestigd dat de virtuele rapportreeksen correct opstelling zijn, verwijder de secundaire identiteitskaart van de rapportreeks van uw implementatie. Secundaire rapportsuites verwijderen:
    * Klik in Adobe Experience Platform Launch op de X naast een rapportsuite die u niet meer wilt gebruiken.
-   * Zoek in DTM de eigenschap en het hulpprogramma Analytics. Verwijder de namen van de rapportsuite-id&#39;s die u niet meer wilt gebruiken in de velden Productieaccount-id en Staging Account ID.
    * Zoek in verouderde JavaScript-implementaties de variabele `s.account` en verwijder de id&#39;s van de rapportsuite die u niet meer wilt gebruiken.
    * Laat in alle gevallen alleen de id van de algemene rapportensuite/bovenliggende rapportsuite staan voor het verzamelen van gegevens voor uw sites en apps.
    * Navigeer naar Beheer > Rapportagesuites en verberg secundaire rapportsuites die niet meer worden gebruikt.
