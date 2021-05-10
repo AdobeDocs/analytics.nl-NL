@@ -2,14 +2,14 @@
 description: Beschrijft hoe te om doelvalutacodes voor multi-muntsteun te bepalen om te werken.
 title: Ondersteuning voor meerdere valuta's
 uuid: null
+exl-id: b67f459c-0636-4eac-af52-51846bb583b5
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
-
 
 # Ondersteuning voor meerdere valuta&#39;s
 
@@ -429,8 +429,6 @@ s.linkTrackEvents="None"
 ***
     
 ```
-
-Zie [Code invoegen in het bestand AppMeasurement.js](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html) voor meer informatie over het bewerken van het bestand AppMeasurement.js.
 
 ## Aanvullende opmerkingen bij de implementatie
 
