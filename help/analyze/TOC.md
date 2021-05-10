@@ -5,10 +5,10 @@ user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Adobe Analytics-dashboards, Report Builder en Activity Map.
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
 workflow-type: tm+mt
 source-wordcount: '1012'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -246,7 +246,7 @@ ht-degree: 88%
    + Aan de slag {#getting-started}
       + Aan de slag voor beheerders {#get-started-admins}
          + [Activity Map inschakelen](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Code voor voorbeeldimplementatie](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [Activity Map implementeren](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + Aan de slag voor gebruikers {#get-started-users}
          + [Browserplug-ins voor Activity Map installeren](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [Activity Map starten](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
