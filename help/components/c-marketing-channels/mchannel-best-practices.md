@@ -2,7 +2,7 @@
 title: Aanbevolen procedures voor het implementeren van Adobe Analytics Marketing Channel
 description: Bijgewerkte beste praktijken voor het gebruiken van de Kanalen van de Marketing met Attribution IQ en Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 402546c3110e78240e9379ea28957b070f22e697
+source-git-commit: 9e274e54b7ce494dc5a21961a842e4365cb2a084
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Attribution IQ met marketingkanalen - Aanbevolen werkwijzen
 
-[Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) Channelsare een waardevolle en krachtige functie van Adobe Analytics. De huidige richtlijnen met betrekking tot de implementatie van het Kanaal van de Marketing werden geformuleerd op een moment dat noch [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) noch [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases) bestonden.
+[Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) Channelsare een waardevolle en krachtige functie van Adobe Analytics. De huidige richtlijnen met betrekking tot de implementatie van het Kanaal van de Marketing werden geformuleerd op een moment dat noch [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) noch [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases) bestonden.
 
 Om de implementatie van uw marketingkanalen in de toekomst te controleren en ervoor te zorgen dat er consistentie is met Attribution IQ en met Customer Journey Analytics, geven we een reeks bijgewerkte best practices uit. Als u al marketingkanalen gebruikt, kunt u de beste opties kiezen uit deze nieuwe richtlijnen. Als u niet bekend bent met Marketing Channels, raden we u aan alle nieuwe aanbevolen procedures te volgen.
 
@@ -22,7 +22,7 @@ Aangezien de dimensies van het Kanaal van de Marketing van een traditionele defi
 
 ## Beste praktijken #1: Gebruik van Attribution IQ voor gecontroleerde analyse
 
-Wij adviseren gebruikend [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) in plaats van de bestaande attributie van het Kanaal van de Marketing om uw analyse van het Kanaal van de Marketing te verfijnen. Volg de andere beste praktijken om consistentie en robuuste controles over uw analyse met Attribution IQ te verzekeren.
+Wij adviseren gebruikend [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) in plaats van de bestaande attributie van het Kanaal van de Marketing om uw analyse van het Kanaal van de Marketing te verfijnen. Volg de andere beste praktijken om consistentie en robuuste controles over uw analyse met Attribution IQ te verzekeren.
 
 ![](assets/attribution.png)
 
