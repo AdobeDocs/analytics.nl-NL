@@ -1,30 +1,29 @@
 ---
 description: Met de Segment Builder kunt u waarden vergelijken en beperken met behulp van geselecteerde operatoren.
 title: Vergelijkingsoperatoren voor segmenten
-feature: Segmentation
+feature: Segmentatie
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 1%
+source-wordcount: '1041'
+ht-degree: 0%
 
 ---
 
 # Vergelijkingsoperatoren voor segmenten
 
-Met de Segment Builder kunt u waarden vergelijken en beperken met behulp van geselecteerde operatoren.
-
-Er zijn drie categorieën operatoren: Standaard, Data Warehouse en Afzonderlijke telling.
+Met de Segment Builder kunt u waarden vergelijken en beperken met behulp van geselecteerde operatoren. Er zijn drie categorieën operatoren: Standaard, Data Warehouse en Afzonderlijke telling.
 
 Het enige ondersteunde jokerteken is de asterisk: *. Als u naar * moet zoeken, kunt u er een backslash voor gebruiken.
 
 **Voorbeeld**: Stel dat je een paginanaam hebt met de naam &quot;Mijn coole product&quot;. De segmentregel &quot;Paginanaam komt overeen met My*product&quot; komt overeen met de bovenstaande paginanaam. De regel &quot;Paginanaam komt echter overeen met Mijn\\*product&quot; komt alleen overeen met de paginanaam &quot;Mijn*Product&quot;.
 
+## Standaardoperatoren
+
 | Operator | De geselecteerde afmeting, segment of metrische gebeurtenis... |
 |--- |--- |
-| **Standaard** |  |
 | equals | Retourneert items die exact overeenkomen voor een numerieke waarde of tekenreekswaarde. Opmerking:  Als u jokertekens gebruikt, gebruikt u de operator &quot;overeenkomsten&quot;. |
 | is niet gelijk aan | Retourneert alle items die niet exact overeenkomen met de ingevoerde waarde.  Opmerking:  Als u jokertekens gebruikt, gebruikt u de operator &quot;komt niet overeen&quot;. |
 | is gelijk aan een van de | Retourneert items die exact overeenkomen met een waarde in het invoerveld (maximaal 500 items). Als u bijvoorbeeld &quot;Zoekresultaten, homepage&quot; invoert met deze operator, komt dit overeen met &quot;Zoekresultaten&quot; en &quot;Homepage&quot; en telt u als 2 items. Het invoerveld voor deze operator wordt door komma&#39;s gescheiden. |
@@ -43,12 +42,22 @@ Het enige ondersteunde jokerteken is de asterisk: *. Als u naar * moet zoeken, k
 | komt niet overeen | Retourneert alle items die niet exact overeenkomen met de ingevoerde waarde. Opmerking:  Gebruik deze operator bij het gebruik van jokertekens (globbing). |
 | exists | Retourneert het aantal items dat bestaat. Als u bijvoorbeeld de dimensie Pagina&#39;s niet gevonden evalueert met de operator &quot;exist&quot;, wordt het aantal bestaande foutpagina&#39;s geretourneerd. |
 | bestaat niet | Retourneert alle items die niet bestaan. Als u bijvoorbeeld de afmetingen Pagina&#39;s niet gevonden hebt geëvalueerd met de operator &#39;&#39;bestaat niet&#39;&#39;, wordt het aantal pagina&#39;s geretourneerd waarop deze foutpagina niet bestaat. |
-| **Data Warehouse** |  |
+
+## Data Warehouse-operatoren
+
+| Operator | De geselecteerde afmeting, segment of metrische gebeurtenis... |
+| --- | --- |
 | is kleiner dan | Retourneert items waarvan het numerieke aantal kleiner is dan de ingevoerde waarde. |
 | is kleiner dan of gelijk aan | Retourneert items waarvan het numerieke getal kleiner dan of gelijk is aan de ingevoerde waarde. |
 | is groter dan | Retourneert items waarvan het numerieke aantal groter is dan de ingevoerde waarde. |
 | is groter dan of gelijk aan | Retourneert items waarvan het numerieke getal groter dan of gelijk is aan de ingevoerde waarde. |
-| **Aantal onderdelen** | U kunt op een duidelijke telling van punten binnen een afmeting segmenteren. Voorbeelden: &quot;Bezoekers die meer dan vijf verschillende producten bekeken hebben&quot; of &quot;Bezoek waarbij meer dan vijf verschillende pagina&#39;s werden bekeken.&quot; |
+
+## Operatoren voor onderscheiden aantallen
+
+U kunt op een duidelijke telling van punten binnen een afmeting segmenteren. Voorbeelden: &quot;Bezoekers die meer dan vijf verschillende producten bekeken hebben&quot; of &quot;Bezoek waarbij meer dan vijf verschillende pagina&#39;s werden bekeken.&quot;
+
+| Operator | De geselecteerde afmeting, segment of metrische gebeurtenis... |
+| --- | --- |
 | equals | Retourneert dimensieitems waarvan het unieke aantal gelijk is aan de ingevoerde waarde. |
 | is niet gelijk aan | Retourneert dimensieitems waarvan het unieke aantal niet gelijk is aan de ingevoerde waarde. |
 | is groter dan | Retourneert dimensieitems waarvan het unieke aantal groter is dan de ingevoerde waarde. |
