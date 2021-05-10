@@ -6,9 +6,9 @@ feature: Admin Tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '563'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer is verplaatst naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
 
 Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
 
@@ -110,14 +110,7 @@ Beschrijvingen van elementen op de Define pagina van de Gebruikersgroep.
   <tr> 
    <td colname="col1"><b>Alle rapportsets</b> </td> 
    <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
-      <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (All Access, Customize, No Access) </li> 
-     </ul> </p> </td> 
-   <td colname="col2"> <p>Machtigingen worden ondersteund voor klanten met actieve <span class="keyword"> TagManager</span> containers. Niet beschikbaar voor nieuwe gebruikers. </p> <p>Adobe raadt <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html"> Dynamic Tag Management</a> aan voor implementatie. </p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td colname="col1"><b>Gebruikersaanmeldingen toewijzen</b> </td> 
    <td colname="col2"> </td> 
