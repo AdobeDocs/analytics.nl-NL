@@ -4,14 +4,14 @@ title: Veelgestelde vragen over link tracking
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
 role: Business Practitioner, Administrator
+exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+source-git-commit: 56d272b72d3274057668d3b45c416cb7487d56a2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '518'
 ht-degree: 1%
 
 ---
-
 
 # Veelgestelde vragen over link tracking
 
@@ -28,114 +28,96 @@ Hier zijn enkele bekende gevallen waarin PII-gegevens kunnen worden verzameld me
 * Voor financiële instellingen kan het rekeningnummer als link worden weergegeven. Als u erop klikt, wordt de tekst van de koppeling verzameld.
 * Op websites voor gezondheidszorg kunnen ook PII-gegevens als koppelingen worden weergegeven. Als u op deze koppelingen klikt, wordt de tekst van de koppeling verzameld en worden er dus PII-gegevens verzameld.
 
-<table id="table_0951EAC617344156BAE43000CCD838AF">
- <tbody>
-  <tr>
-   <td colname="col1"> <b>V: Wanneer vindt het bijhouden van koppelingen plaats?</b> </td>
-   <td colname="col2"> A: Koppeling naar Activity Map en regio-identificatie treedt op wanneer gebruikers op een pagina klikken. </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <b>V: Wat wordt standaard bijgehouden?</b> </td>
-   <td colname="col2"> A: Als een klikgebeurtenis op een element voorkomt, moet het element sommige controles overgaan om te bepalen als AppMeasurement het als verbinding zal behandelen. Dit zijn de controles:
-    <ul id="ul_81B9A5A7F8534E71AEF68F2199A154F0">
-     <li id="li_49F6DDD9DC124AE5846EC5B7D7BEA20E">Is dit een <code>&lt;A&gt;</code> of <code>&lt;AREA&gt;</code> markering met een <code>"href"</code> bezit? </li>
-     <li id="li_77828D24D54343E5B9A1FF7345221781">Is er een <code>"onclick"</code> attribuut dat een <code>s_objectID</code> variabele plaatst? </li>
-     <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">Is dit een <code>&lt;INPUT&gt;</code> markering of <code>&lt;SUBMIT&gt;</code> knoop met een waarde of kindtekst? </li>
-     <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">Is dit een <code>&lt;INPUT&gt;</code> markering met type <code>&lt;IMAGE&gt;</code> en een <code>"src"</code> bezit? </li>
-     <li id="li_F34A0C986E8040109A1DDF88C26E56D5">Is dit een <code>&lt;BUTTON&gt;</code>? </li>
-    </ul>
-    Als het antwoord <b>Ja</b> op om het even welke bovenstaande vragen is, dan wordt het element behandeld als verbinding en zal worden gevolgd. <br/>
-     <br/>
-    Belangrijk: Knoplabels met het kenmerk  <code>type="button"</code> worden door AppMeasurement niet als koppelingen beschouwd. U kunt <code>type="button"</code> op de knoplabels verwijderen en <code>role="button"</code> of <code>submit="button"</code> toevoegen. <br/>
-     <br/>
-    Belangrijk: Een ankermarkering met een  <code>"href"</code> die met begint  <code>"#"</code> wordt beschouwd als een interne doelplaats door AppMeasurement, niet een verbinding (aangezien u niet de pagina verlaat.) Standaard houdt Activity Map deze interne doellocaties niet bij. Er worden alleen koppelingen bijgehouden waarmee de gebruiker naar een nieuwe pagina navigeert. </td> 
-  </tr>
-  <tr>
-   <td colname="col1"> <b>V: Hoe houdt Activity Map andere visuele HTML-elementen bij?</b> </td>
-   <td colname="col2">
-    <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5">
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via  <code>s.tl()</code> </b> <br/>
-       <br/>
-      functionAls de klik via een  <code>s.tl()</code> aanroeping voorkwam, dan zal de Activity Map ook deze klikgebeurtenis ontvangen en zal bepalen als een  <code>linkName</code> koordvariabele werd gevonden. Tijdens <code>s.tl()</code> uitvoering, dat <code>linkName</code> als identiteitskaart van de Verbinding van de Activity Map zal worden geplaatst. Het aangeklikte element dat de <code>s.tl()</code> vraag voortkwam zal worden gebruikt om het gebied te bepalen. <br/>
-       <br/>
-      Voorbeeld:  <br/>
-       <br/>
-      <code>&lt;img&nbsp;onclick="s.tl(true,'o','abc')"&nbsp;src="someimageurl.png"/&gt;</code><br/>
-       
-     </li>
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Via de  <code>s_objectID</code> </b> <br/>
-       <br/>
-      variableExample:  <br/>
-       <br/>
-      <code>&lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt;</code><br/>
-      <code>&lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;</code><br/>
-      <code>&nbsp;&nbsp;Link&nbsp;Text&nbsp;Here</code><br/>
-      <code>&lt;/a&gt;</code> <br/>
-       <br/>
-      Belangrijk: Een volgpuntkomma (<code>;</code>) is vereist bij gebruik  <code>s_objectID</code> in Activity Map.
-     </li>
-    </ol>
-   </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <b>V: Kunt u mij enkele voorbeelden geven van koppelingen die worden bijgehouden?</b> </td>
-   <td colname="col2">
-    <ol id="ol_697E5CE0B84D4A309DD80670697A02BA">
-     <li id="li_2C511EFD10F14F438B1F3A1BAB4B45E0">
-      <code>&lt;a&nbsp;href="/home"&gt;Home&lt;/a&gt;</code>
-     </li>
-     <li id="li_76F3DB36ED734132A2386871E6EB4929">
-      <code>&lt;input&nbsp;type="submit"&nbsp;value="Submit"/&gt;</code>
-     </li>
-     <li id="li_10CF9EDA224645169E7CDF74956DB98B">
-      <code>&lt;input&nbsp;type="image"&nbsp;src="submit-button.png"/&gt;</code>
-     </li>
-     <li id="li_9FA171D7F49547E798DE21869F73A402">
-      <code>&lt;p&nbsp;onclick="var&nbsp;s_objectID='custom&nbsp;link&nbsp;id';"&gt;</code><br/>
-      <code>&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;</code><br/>
-      <code>&nbsp;&nbsp;&lt;span&nbsp;class="subtitle"&gt;1.45USD&lt;/span&gt;</code><br/>
-      <code>&lt;/p&gt;</code>
-     </li>
-     <li id="li_C5D77589006E4514AA6F3AEB509A0BAF">
-      <code>&lt;div&nbsp;onclick="s.tl(true,'o','custom&nbsp;link&nbsp;id')"&gt;</code><br/>
-      <code>&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;</code><br/>
-      <code>&nbsp;&nbsp;&lt;span&nbsp;class="subtitle"&gt;1.45USD&lt;/span&gt;</code><br/>
-      <code>&lt;/div&gt;</code>
-     </li>
-    </ol>
-   </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <b>V: Kunt u mij enkele voorbeelden geven van koppelingen die NIET worden bijgehouden?</b> </td>
-   <td colname="col2">
-    <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547">
-     <li id="li_99372060646B43EF94C13A9C682CE693">Reden: Ankertag heeft geen geldige <code>"href"</code> <br/>
-       <br/>
-      <code>&lt;a&nbsp;name="innerAnchor"&gt;Section&nbsp;header&lt;/a&gt;</code><br/>
-       
-     </li>
-     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Reden: Geen <code>s_ObjectID</code> noch <code>s.tl()</code> aanwezig <br/>
-       <br/>
-      <code>&lt;p&nbsp;onclick="showPanel('market&nbsp;rates')"&gt;</code><br/>
-      <code>&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;</code><br/>
-      <code>&nbsp;&nbsp;&lt;span&nbsp;class="subtitle"&gt;1.45USD&lt;/span&gt;</code><br/>
-      <code>&lt;/p&gt;</code><br/>
-       
-     </li>
-     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Reden: Geen <code>s_ObjectID</code> noch <code>s.tl()</code> aanwezig <br/>
-       <br/>
-      <code>&lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="A"/&gt;</code><br/>
-      <code>&lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="B"/&gt;</code><br/>
-      <code>&lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="C"/&gt;</code><br/>
-       
-     </li>
-     <li id="li_9EBFCC58F3A94F30BA62156F14B15D55">Reden: <code>"src"</code>-eigenschap mist een formulier <code>input</code>-element <br/>
-       <br/>
-      <code>&lt;input&nbsp;type="image"/&gt;</code><br/>
-       
-     </li>
-    </ol>
-   </td>
-  </tr>
- </tbody>
-</table>
+## Wanneer vindt het bijhouden van koppelingen plaats?
+
+Koppeling naar Activity Map en regio-identificatie treedt op wanneer gebruikers op een pagina klikken.
+
+## Wat wordt standaard bijgehouden?
+
+Als een klikgebeurtenis op een element voorkomt, moet het element sommige controles overgaan om te bepalen als AppMeasurement het als verbinding zal behandelen. Dit zijn de controles:
+
+* Is dit een `A` of `AREA` markering met een `href` bezit?
+* Is er een `onclick` attribuut dat een `s_objectID` variabele plaatst?
+* Is dit een `INPUT` markering of `SUBMIT` knoop met een waarde of kindtekst?
+* Is dit een `INPUT` markering met type `IMAGE` en een `src` bezit?
+* Is dit een `BUTTON`?
+
+Als het antwoord op om het even welke bovenstaande vragen ja is, dan wordt het element behandeld als verbinding en zal worden gevolgd.
+ 
+Belangrijk:  Knoplabels met het kenmerktype=&quot;button&quot; worden door AppMeasurement niet als koppelingen beschouwd. U kunt in plaats hiervan type=&quot;button&quot; op de knoptags verwijderen en rol=&quot;button&quot; of submit=&quot;button&quot; toevoegen.
+ 
+Belangrijk: Een ankertag met een &quot;href&quot; die begint met &quot;#&quot; wordt door AppMeasurement beschouwd als een interne doellocatie, niet als een koppeling (omdat u de pagina niet verlaat). Standaard houdt Activity Map deze interne doellocaties niet bij. Er worden alleen koppelingen bijgehouden waarmee de gebruiker naar een nieuwe pagina navigeert.
+
+## Hoe houdt Activity Map andere visuele HTML-elementen bij?
+
+a. Via de functie `s.tl()`.
+
+Als de klik via een `s.tl()` aanroeping voorkwam, dan zal de Activity Map ook deze klikgebeurtenis ontvangen en zal bepalen als een `linkName` koordvariabele werd gevonden. Tijdens `s.tl()` uitvoering, zal dat linkName als identiteitskaart van de Verbinding van de Activity Map worden geplaatst. Het aangeklikte element dat de `s.tl()` vraag voortkwam zal worden gebruikt om het gebied te bepalen. Voorbeeld:
+
+```
+    
+<img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
+```
+
+b. Via de variabele `s_objectID`. Voorbeeld:
+
+    &quot;
+    
+    &lt;a>&lt;img>&lt;/a>
+    
+    &lt;a>Tekst hier&lt;/a>
+    
+    
+    &lt;a> koppelen&lt;/a>&quot;
+
+Belangrijk:  Een volgpuntkomma (;) is vereist wanneer u `s_objectID` in Activity Map gebruikt.
+
+## Kunt u mij enkele voorbeelden geven van koppelingen die worden bijgehouden?
+
+* `<a hef="/home?lang=en>Home</a>`
+* `<input type="submit" value="Submit"/>`
+* `<input type="image" src="submit-button.png"/>`
+* 
+
+```
+    <p onclick="var s_objectID='custom link id';">
+      <span class="title">Current Market Rates</span>
+      <span class="subtitle">1.45USD</span>
+    </p>
+```
+
+* 
+
+```
+    <div onclick="s.tl(true,'o','custom link id')">
+      <span class="title">Current Market Rates</span>
+      <span class="subtitle">1.45USD</span>
+    </div>
+```
+
+## Kunt u mij enkele voorbeelden geven van koppelingen die NIET worden bijgehouden?
+
+1. Reden: Ankertag heeft geen geldige `href`:
+   `<a name="innerAnchor">Section header</a>`
+
+1. Reden: Noch `s_ObjectID` noch `s.tl()` aanwezig:
+
+   ```
+   <p onclick="showPanel('market rates')">
+     <span class="title">Current Market Rates</span>
+     <span class="subtitle">1.45USD</span>
+   </p>
+   ```
+
+1. Reden: Noch `s_ObjectID` noch `s.tl()` aanwezig:
+
+   ``` 
+   <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
+   <input type="radio" onclick="changeState(this)" name="group1" value="B"/>
+   <input type="radio" onclick="changeState(this)" name="group1" value="C"/>
+   
+   ```  
+   
+1. Reden: In de eigenschap &quot;src&quot; ontbreekt een formulierinvoerelement:
+
+   `<input type="image"/>`
