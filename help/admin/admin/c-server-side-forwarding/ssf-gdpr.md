@@ -2,14 +2,14 @@
 description: Verklaart verhogingen aan server-kant door:sturen die door de EU verordening van de koekjesnaleving werden veroorzaakt.
 title: GDPR/ePrivacy-compliance en server-side doorsturen
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
+exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '524'
 ht-degree: 3%
 
 ---
-
 
 # GDPR/ePrivacy-compliance en server-side doorsturen
 
@@ -30,7 +30,6 @@ Voer deze stappen uit, afhankelijk van de implementatiemethode.
 | Implementatiemethode | Stappen |
 |--- |--- |
 | Adobe Experience Platform Launch | Ervan uitgaande dat u de extensie Adobe Analytics hebt geïnstalleerd, voegt u de volgende definitie van de variabele van de contextgegevens toe aan de aangepaste code-editor binnen de configuratie van een regel voor handelingen: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Opmerking:  Definieer de contextdata-variabele en stel deze in op 1 als een klant niet instemt met gerichte marketing. Stel de variabele `contextdata` in op *0* voor klanten die instemmen met gerichte marketing. |
-| DTM | Voeg de definitie van de variabele van de contextgegevens aan de redacteur van de Code van de Pagina van de Douane toe: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Opmerking:  Definieer de contextdata-variabele en stel deze in op 1 als een klant niet instemt met gerichte marketing. Stel de variabele contextdata in op 0 voor klanten die hebben ingestemd met gerichte marketing. |
 | AppMeasurement | Voeg de de veranderlijke definitie van contextgegevens aan het AppMeasurement.js- dossier toe:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Opmerking:  Definieer de contextdata-variabele en stel deze in op 1 als een klant niet instemt met gerichte marketing. Stel de variabele contextdata in op 0 voor klanten die hebben ingestemd met gerichte marketing. |
 
 ## Rapportage (optioneel) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
@@ -48,4 +47,3 @@ Om dit type van rapportering te vormen, kaart de nieuwe contextvariabele aan een
    1. Klik op **[!UICONTROL Add Rule.]**
    1. Overschrijf onder **[!UICONTROL Always Execute]** de waarde van de eigenschap die u hebt ingeschakeld met de contextvariabele &quot;cm.ssf(Context Data)&quot;.
    1. Klik op **[!UICONTROL Save]**.
-
