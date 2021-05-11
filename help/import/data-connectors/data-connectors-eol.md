@@ -3,9 +3,9 @@ description: Leer over wanneer en waarom de gegevensschakelaars van de Analyse z
 title: Vooraankondiging van einde van levensduur voor gegevensconnectors van Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '648'
 ht-degree: 9%
 
 ---
@@ -82,7 +82,7 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | MaritzCX (V 2.0) | Vervangen |
 | Merkle | Vervangen |
 | Officiële Oracle-Eloqua-integratie | Migreren naar Exchange |
-| optivo broadmail (Episerver) | Migreren naar Exchange |
+| optivo broadmail (Episerver) | Vervangen |
 | Qualtrics v2 | Migreren naar Exchange |
 | Responsys 2.0 | Vervangen |
 | Selligent | Vervangen |
