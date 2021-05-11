@@ -5,9 +5,9 @@ title: Classificatieregels
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1969'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ De classificatieregels kijken regelmatig naar niet-geclassificeerde termen. Als 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-De Bouwer van de Regel laat u een *`classification rule set`* tot stand brengen, die een lijst van *`classification rules`* is. Een regel komt overeen met criteria die u opgeeft en voert vervolgens een handeling uit.
+De Bouwer van de Regel laat u een *classificatieregel tot stand brengen die*, een lijst van *classificatieregels* is. Een regel komt overeen met criteria die u opgeeft en voert vervolgens een handeling uit.
 
 Classificatieregels zijn handig voor:
 
@@ -266,7 +266,7 @@ In dit resultaat geeft `a:b:1313` geen overeenkomst aan.
 | `a{3,}` | 3 of meer van een |
 | `a{3,6}` | Tussen 3 en 6 van een |
 
-Een goede bron voor het testen van de geldigheid van reguliere expressies is https://rubular.com/.
+Een goede bron voor het testen van de geldigheid van reguliere expressies is [https://rubular.com/](https://rubular.com/).
 
 ## Info over Prioriteit regel
 
@@ -284,9 +284,9 @@ Wat volgt een onderzoek-termijn regelvoorbeeld dat onderzoekstypes voor een atle
 
 | Regelnummer | Type regel | Overeenkomst | Classificatie instellen | Naar |
 |---|---|---|---|---|
-| 3 | Bevat | Cowboy | Zoektype | Team |
+| 1 | Bevat | Cowboy | Zoektype | Team |
 | 2 | Bevat | Fantastische | Zoektype | Fantastische |
-| 3 | Bevat | Romo | Zoektype | Speler |
+| 1 | Bevat | Romo | Zoektype | Speler |
 
 Als een gebruiker naar *`Cowboys fantasy Tony Romo`* zoekt, wordt de term *`Player`* geclassificeerd, omdat deze overeenkomt met de laatst opgegeven classificatie in de kolom Indeling instellen.
 
@@ -326,12 +326,12 @@ Voeg regels toe door een voorwaarde aan een classificatie aan te passen, en de a
 
    >[!NOTE]
    >
-   >Geef op deze pagina *`only`* een overzicht van de suites wanneer aan de volgende voorwaarden wordt voldaan:
+   >De de reeksvertoning van het rapport op deze pagina *slechts* wanneer de volgende voorwaarden worden voldaan:
    >
    >* De rapportsuites hebben minstens één die classificatie voor die variabele in [!UICONTROL Admin Tools] wordt bepaald.
       >
       >   
-      (Zie *`Variable`* in [Classificatiereeksen](/help/components/classifications/crb/classification-rule-set.md) voor een uitleg van deze voorwaarde.)
+      (Zie *Variabele* in [Classificatiereekensets](/help/components/classifications/crb/classification-rule-set.md) voor een uitleg van deze voorwaarde.)
       >
       >
    * U selecteerde de rapportreeks op de **[!UICONTROL Available Report Suites]** pagina, die vertoningen nadat u [Add Regelreeks](/help/components/classifications/crb/classification-rule-set.md) klikt om de regelreeks tot stand te brengen.
@@ -407,7 +407,7 @@ Stappen die beschrijven hoe classificatieregels moeten worden gevalideerd en gea
 
    ![](assets/overwrite_keys.png)
 
-1. (Optioneel) Als u classificaties wilt overschrijven, schakelt u **[!UICONTROL Overwrite classifications for]** *`<selection>`* in.
+1. (Optioneel) Als u classificaties wilt overschrijven, schakelt u **[!UICONTROL Overwrite classifications for]** &lt;*selection*>> in.
 
    Met deze optie kunt u bestaande classificaties voor desbetreffende toetsen overschrijven.
 
