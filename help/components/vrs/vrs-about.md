@@ -2,14 +2,13 @@
 description: De virtuele rapportreeksen segmenteren uw gegevens van Adobe Analytics zodat kunt u toegang tot elk segment controleren.
 title: Overzicht van virtuele rapportsuites
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
+source-git-commit: fb5de8ad4eee3e9017ab547823a7fa9132fa2457
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '790'
 ht-degree: 2%
 
 ---
-
 
 # Overzicht van virtuele rapportsuites
 
@@ -45,15 +44,15 @@ Virtuele rapportensuites helpen:
 
 Virtuele rapportsuites hebben de volgende beperkingen:
 
-* Om het even welke beperkingen van segmenten zijn op virtuele rapportsuites van toepassing
+* Eventuele beperkingen van segmenten gelden ook voor virtuele-rapportsuites
 
-   Een virtuele rapportsuite is niets meer dan een segment dat wordt toegepast op een rapportsuite. Omdat elke rapportreeks zijn eigen gegevenspakhuis en zijn eigen gegevensvoer heeft, leidt het gebruiken van veelvoudige rapportreeksen in sommige voordelen die de segmenten niet verstrekken.
+   Een virtuele rapportsuite is niets meer dan een segment dat wordt toegepast op een rapportsuite. Omdat elke rapportreeks zijn eigen Data Warehouse en zijn eigen Invoer van Gegevens heeft, die veelvoudige rapportreeksen gebruiken resulteert in sommige voordelen die de segmenten niet verstrekken.
 * Rapport in realtime
 * Instellingen en variabelenamen kunnen niet worden aangepast, zoals in een volledige rapportsuite
 
-## Virtual Report Suites vs. Multisuite Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Virtual Report Suites vs. Multi-suite Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
 
-| Capaciteit | Virtuele rapportsuite | Meerdere versies taggen |
+| Capaciteit | Virtuele rapportsuite | Tags voor meerdere suite |
 |--- |--- |--- |
 | Biedt real-time of &quot;Current Data&quot;-rapportage | Nee | Ja |
 | Werkt in alle analysegereedschappen (Analysis Workspace, Report Builder, enz.) | Ja. **Opmerking:** u kunt deze alleen in Rapporten en Analyse bewerken en identificeren als virtuele rapportsuite. Nochtans, kunt u hen in de drop-down van de rapportreeks in de andere hulpmiddelen selecteren. | Ja |
@@ -62,7 +61,7 @@ Virtuele rapportsuites hebben de volgende beperkingen:
 | Kan afzonderlijk worden toegevoegd aan machtigingengroepen | Ja | Ja |
 | Kan Admin-functies gebruiken om de afzonderlijke instellingen in dit rapportpakket te wijzigen (Admin > Rapportagesuites) | Nee (instellingen worden overgenomen van bovenliggend item) | Ja |
 
-## Virtuele rapportsets combineren en meerdere suite-tags {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## Virtuele rapportsets combineren en tags toepassen met meerdere suite {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
 In sommige gevallen zijn er voordelen verbonden aan zowel het gebruik van virtuele rapportsuites als het gebruik van tags met meerdere suite.
 
