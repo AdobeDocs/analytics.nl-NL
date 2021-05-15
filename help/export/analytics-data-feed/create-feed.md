@@ -2,10 +2,9 @@
 title: Een gegevensfeed maken of bewerken
 description: Leer hoe u een gegevensfeed maakt of bewerkt.
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-translation-type: tm+mt
-source-git-commit: 769f8cf2dc726df5b71b453f5bbcfb9f0e78e6d7
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -88,6 +87,15 @@ Alle kolommen zijn beschikbaar, ongeacht of ze gegevens bevatten. Een gegevensfe
 * **Te verwijderen tekens** verwijderen: Bij het verzamelen van gegevens kunnen sommige tekens (zoals nieuwe regels) problemen veroorzaken. Schakel dit selectievakje in als u deze tekens uit feed-bestanden wilt verwijderen.
 * **Compressie-indeling**: Het type compressie dat wordt gebruikt. Gzip geeft bestanden als uitvoer in `.tar.gz`-indeling. Zip output dossiers in `.zip` formaat.
 * **Type** verpakking: Eén bestand geeft het  `hit_data.tsv` bestand als uitvoer in één, mogelijk enorm bestand. Met meerdere bestanden worden uw gegevens gepagineerd in 2 GB blokken (ongecomprimeerd). Als er meerdere bestanden zijn geselecteerd en de niet-gecomprimeerde gegevens voor het rapportagevenster kleiner zijn dan 2 GB, wordt er één bestand verzonden. Adobe raadt u aan voor de meeste gegevensfeeds meerdere bestanden te gebruiken.
+* **Manifest**: Of Adobe al dan niet een  [manifest ](c-df-contents/datafeeds-contents.md#feed-manifest) dossier aan de bestemming zou moeten leveren wanneer geen gegevens voor een voederinterval worden verzameld. Als u Manifest File selecteert, ontvangt u een manifestbestand dat lijkt op het volgende wanneer geen gegevens worden verzameld:
+
+```text
+   Datafeed-Manifest-Version: 1.0
+    Lookup-Files: 0
+    Data-Files: 0
+    Total-Records: 0
+```
+
 * **Kolomsjablonen**: Adobe raadt u aan een kolomsjabloon te maken wanneer u veel gegevensfeeds maakt. Als u een kolomsjabloon selecteert, worden automatisch de opgegeven kolommen in de sjabloon opgenomen. Adobe biedt standaard ook diverse sjablonen.
 * **Beschikbare kolommen**: Alle beschikbare gegevenskolommen in Adobe Analytics. Klik [!UICONTROL Add all] om alle kolommen in een gegevensvoer te omvatten.
 * **Opgenomen kolommen**: De kolommen die in een gegevensfeed moeten worden opgenomen. Klik op [!UICONTROL Remove all] om alle kolommen uit een gegevensfeed te verwijderen.
