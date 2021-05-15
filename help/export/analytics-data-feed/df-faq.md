@@ -3,10 +3,9 @@ description: Veelgestelde vragen over gegevensfeeds
 keywords: Gegevensfeed;taak;vóór kolom;na kolom;hoofdlettergevoeligheid
 title: Veelgestelde vragen over gegevensfeeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 Veelgestelde vragen over gegevensfeeds.
 
-## Wilt u voedernamen uniek maken?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
+## Moeten voedernamen uniek zijn?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
 Namen van gegevensdoorvoerbestanden bestaan uit de rapportsuite-id en de datum. Om het even welke twee voer die voor zelfde RSID en datum(s) worden gevormd zal het zelfde dossier - naam hebben. Als deze feeds op dezelfde locatie worden geleverd, overschrijft het ene bestand het andere. Om te voorkomen dat een bestand wordt overschreven, kunt u geen feed maken die een bestaande feed op dezelfde locatie kan overschrijven.
 
@@ -70,17 +69,6 @@ Voor bepaalde tijdzones verandert de tijd tweemaal per jaar als gevolg van defin
 Bij het maken van STD -> DST-tijdovergangen (&quot;Voorjaar vooruit&quot;) ontvangt de klant slechts 23 bestanden. Het uur dat in de overgang van DST wordt overgeslagen wordt weggelaten. Als de overgang bijvoorbeeld plaatsvindt om 2 uur &#39;s nachts, krijgen ze een bestand voor 1 uur en een bestand voor 3 uur. Er is geen 2:00-bestand omdat het bij 2:00 STD 3:00 DST wordt.
 
 Bij het maken van DST -> STD-overgangen (&quot;Terugvallen&quot;) krijgt de klant 24 bestanden. Het uur van de overgang omvat echter eigenlijk twee uur aan gegevens. Als de overgang bijvoorbeeld om 2:00 uur plaatsvindt, wordt het bestand voor 1:00 met één uur vertraagd, maar bevat het gegevens voor twee uur. Het bevat gegevens van 1:00 DST aan 2:00 STD (die 3:00 DST zou zijn geweest). Het volgende bestand begint bij 2:00 STD.
-
-## Zal ik manifestdossiers ontvangen wanneer geen gegevens worden verzameld? {#section_72510794694D42A9A75C966B812AEB0F}
-
-U kunt naar keuze een gegevensvoer vormen om een duidelijk dossier te leveren als geen gegevens voor een specifieke periode worden verzameld. Als u deze optie inschakelt, ontvangt u een manifestbestand dat lijkt op het volgende:
-
-```text
-Datafeed-Manifest-Version: 1.0
- Lookup-Files: 0
- Data-Files: 0
- Total-Records: 0
-```
 
 ## Hoe behandelt Analytics de mislukte FTP-overdracht? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
