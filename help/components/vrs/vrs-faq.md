@@ -5,9 +5,9 @@ title: Veelgestelde vragen over VRS
 feature: Grondbeginselen van rapporten en analyses
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
-source-git-commit: 3f8c9d0309c7d4c023e0c936e0a713b24e1482f6
+source-git-commit: c93cd1b14cd6b8e803c4e06209153c8e69af077a
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,4 @@ Tips en aanbevolen procedures voor nieuwe gebruikers van virtuele rapportsuites.
 | Ik controleerde &quot;begin nieuw bezoek bij lancering.&quot; Waarom zie ik bezoeken die nog veel hoger zijn dan lanceringen? | Als het selectievakje &#39;Nieuw bezoek starten bij starten&#39; is ingeschakeld, geldt de time-out nog steeds. Dus als een gebruiker de app tien minuten gebruikt met een pauze van één minuut tussen elke actie, begint een nieuw bezoek bij het starten en worden er negen extra bezoeken gemaakt wanneer het bezoek uitvalt. Als u de start en het bezoek zo dicht mogelijk wilt houden bij het gebruik van de optie &quot;Nieuw bezoek starten bij starten&quot;, moet u een time-out gebruiken die langer is dan de sessietime-out die in de SDK is ingesteld. |
 | Ik stel &quot;nieuw bezoek starten bij starten&quot; in en stel een langere time-out in dan mijn SDK. Waarom zijn mijn lanceringen nog veel lager dan bezoeken? | Als de time-out hoger is dan de waarde die is ingesteld in de SDK, wordt er waarschijnlijk op de achtergrond in uw app hits verzonden en worden deze resultaten geregistreerd als nieuwe bezoeken. Controleer of dit het geval is door de dimensie hit type op de bovenliggende rapportsuite te gebruiken om te kijken of er achtergrondtreffers zijn.<br>**Opmerking**: Achtergrond- en voorgrondresultaten worden alleen gedifferentieerd in versie 4.13.6 en hoger van de SDK. Als u op een lagere versie werkt, worden alle treffers als voorgrond weergegeven. Als u op de juiste versie van de SDK werkt, schakelt u de instelling &#39;Achtergrondhits voorkomen bij een nieuw bezoek&#39; in.    Opmerking: Als u oudere verwerking voor achtergrondklappen in de admin console hebt onbruikbaar gemaakt, zullen zij niet in de ouderrapportreeks verschijnen maar in de virtuele rapportreeks. |
 | Welke versie van SDK moet ik achtergrondopdrachten bijhouden? | U moet versie 4.13.6 of hoger van de SDK zijn. |
-| Hoe kan ik de id van een Virtual Report Suite achterhalen? | In [Virtual Report Suite API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md). |
+| Hoe kan ik de id van een Virtual Report Suite achterhalen? | <ul><li>Door een project van de Werkruimte te openen, het klikken van de Selecteur van de Reeks van het Rapport en het zoeken naar de naam van een Virtuele Reeks van het Rapport in de onderzoeksdoos. De id wordt onder de naam in de zoekresultaten weergegeven:<br>![](assets/vrs-id.png)</li><li> Of, programmatically, in [Virtuele Reeks API van het Rapport](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md).</li></ul> |
