@@ -1,24 +1,23 @@
 ---
-title: Einde van de levensduur voor [!UICONTROL Enforce IP login restrictions]
-description: Meer informatie over de timing en implicaties voor het einde van de levensduur [!UICONTROL Enforce IP login restrictions]
-translation-type: tm+mt
-source-git-commit: 649a33253f7520b4d8e210043ceedd6345a49be7
+title: Einde van levensduur voor [!UICONTROL Enforce IP login restrictions]
+description: Meer informatie over de timing en implicaties voor [!UICONTROL Enforce IP login restrictions] aan het einde van de levensduur
+exl-id: 67d822ee-005b-46cf-80b4-a5aa4412d746
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
 
 ---
 
+# Einde van levensduur voor [!UICONTROL Enforce IP login restrictions]
 
-# Einde van de levensduur voor [!UICONTROL Enforce IP login restrictions]
-
-Met de functie voor het **[afdwingen van IP-aanmeldbeperkingen](/help/admin/company/security-manager.md)** in Adobe Analytics kunt u specifieke IP-adressen (die veilig worden geacht) toevoegen aan een lijst van gewenste personen, zodat u zich met succes kunt aanmelden en toegang hebt tot uw Adobe Analytics-omgeving. In veel gevallen, wordt deze eigenschap gebruikt aan opstelling een collectief IP adres als enig veilig IP adres dat de gebruikers kunnen login van. Daarom om Adobe Analytics te gebruiken, vereist dit gebruikers om bij een collectief bureau of het netwerk via VPN te zijn login.
+Met de functie **[Inlogbeperkingen voor IP afdwingen](/help/admin/company/security-manager.md)** in Adobe Analytics kunt u specifieke IP-adressen (die veilig worden geacht) toevoegen aan een lijst van gewenste personen, zodat u zich met succes kunt aanmelden en toegang hebt tot uw Adobe Analytics-omgeving. In veel gevallen, wordt deze eigenschap gebruikt aan opstelling een collectief IP adres als enig veilig IP adres dat de gebruikers kunnen login van. Daarom om Adobe Analytics te gebruiken, vereist dit gebruikers om bij een collectief bureau of het netwerk via VPN te zijn login.
 
 We zijn van plan om deze functie in januari 2021 te beëindigen.
 
 ## Waarom zijn we aan het einde van deze functie?
 
-Deze functie wordt in sommige gevallen onderbroken door de Experience Cloud-aanmeldmigratie en/of de Experience Cloud-aanmelding. Het is gekend om voor klanten te breken die **[!UICONTROL Customer Attributes]** of **[!UICONTROL Audience Library]**.
+Deze functie wordt in sommige gevallen onderbroken door de Experience Cloud-aanmeldmigratie en/of de Experience Cloud-aanmelding. Het is bekend dat deze functie wordt onderbroken voor klanten die **[!UICONTROL Customer Attributes]** of **[!UICONTROL Audience Library]** gebruiken.
 
 Bovendien, als u veelvoudige Oplossingen van Experience Cloud bezit, kunt u dit vereiste omzeilen door aan de Experience Cloud met één van de andere oplossingen het programma te openen, aangezien deze eigenschap niet bestaat of niet buiten Analytics zelf wordt gesteund. Gebruikers konden dit ook omzeilen via IP-spoofing.
 
@@ -26,9 +25,9 @@ Tot slot heeft Adobe een functionerende en veel superieure alternatieve oplossin
 
 ## Hoe beïnvloedt het verwijderen van deze functie u?
 
-Deze functie wordt in januari 2021 verwijderd voor alle klanten die deze functie hebben **[!UICONTROL Enforce IP login restrictions]** ingesteld. Op dat ogenblik, zullen om het even welke IP login beperkingen nog op zijn plaats niet meer worden afgedwongen. Als u login door IP adres nog moet beperken, zou u de geadviseerde oplossing van Single-Sign-On en Federated IDs (meer info en middelen hieronder) moeten herzien en uitvoeren.
+Voor elke klant die **[!UICONTROL Enforce IP login restrictions]** heeft ingesteld, wordt deze functie verwijderd in januari 2021. Op dat ogenblik, zullen om het even welke IP login beperkingen nog op zijn plaats niet meer worden afgedwongen. Als u login door IP adres nog moet beperken, zou u de geadviseerde oplossing van Single-Sign-On en Federated IDs (meer info en middelen hieronder) moeten herzien en uitvoeren.
 
-Bovendien wordt de **[!UICONTROL Enforce IP login restrictions]** instelling verwijderd uit **[!UICONTROL Admin]>[!UICONTROL Company Settings]>[!UICONTROL Security Manager]** in de gebruikersinterface Analytics (zoals hieronder wordt weergegeven).
+Daarnaast wordt de **[!UICONTROL Enforce IP login restrictions]**-instelling verwijderd uit **[!UICONTROL Admin]> [!UICONTROL All admin] > [!UICONTROL Company settings] >[!UICONTROL Security Manager]** in de analysefunctie (zoals hieronder wordt getoond).
 
 ![](assets/sec-manager2.png)
 
@@ -45,4 +44,4 @@ Zowel SSO als Federated IDs zijn superieure oplossingen aan de IP eigenschap van
 * [Single Sign On - veelvoorkomende vragen](https://helpx.adobe.com/enterprise/using/sso-faq.html)
 * [Door Adobe ondersteunde identiteitstypen](https://helpx.adobe.com/enterprise/using/identity.html)
 
-Als u uw steun voor IP Login Beperkingen wilt blijven uitdrukken en het verzoek om het door de Experience Cloud wordt verstrekt, kunt u voor deze eigenschap op onze pagina [van het](https://forums.adobe.com/ideas/11648)Forum stemmen.
+Als u uw steun voor IP Login Beperkingen wilt blijven uitdrukken en om het te verzoeken dat het door de Experience Cloud wordt verstrekt, kunt u voor deze eigenschap op onze [pagina van het Forum](https://forums.adobe.com/ideas/11648) stemmen.
