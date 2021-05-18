@@ -5,8 +5,7 @@ subtopic: Users and groups
 title: Wijzigingen in gebruikers- en groepstoestemmmingen
 feature: Admin Tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 3%
@@ -18,7 +17,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer zijn verplaatst naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer zijn verplaatst naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** ingetrokken.
 
 ## Wat is er veranderd? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
@@ -124,7 +123,7 @@ Hier is belangrijke nieuwe informatie over nieuwe en geplande updates en hoe zij
  </tbody> 
 </table>
 
-## Toestemming voor snelle referentie {#section_A3FDD8259F524B21A5489833533D1B28}
+## Snelle naslaggids voor machtigingen {#section_A3FDD8259F524B21A5489833533D1B28}
 
 De volgende tabel bevat een overzicht van taken en de plaats waar deze kunnen plaatsvinden (afhankelijk van de status van een bedrijf).
 
