@@ -5,8 +5,7 @@ title: Overzicht van User Management
 feature: Admin Tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 6%
@@ -17,13 +16,13 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** ingetrokken.
 
 Beheer rapportgebruikers en groepen op de pagina van het Beheer van de Gebruiker, laat u gebruikers en groepen beheren, en controle toegang tot rapporten, hulpmiddelen en rapportreeksen.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Users]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL All admin]** >  **[!UICONTROL User management]** >  **[!UICONTROL Edit Users]**
 
-## Beschrijvingen gebruikersaccount {#section_14A7E169514A42A88E06387CC7C2E9AD}
+## Beschrijving van gebruikersaccount {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
 **Huidig wachtwoord**
 
