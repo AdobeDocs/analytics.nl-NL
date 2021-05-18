@@ -4,8 +4,7 @@ title: Gebruikersgroep Data Warehouse toevoegen
 feature: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 10%
@@ -16,7 +15,7 @@ ht-degree: 10%
 
 Stappen die beschrijven hoe de beheerders Data Warehouse kunnen toelaten meldend toegang tot een groep gebruikers.
 
-1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]**.
 1. Klik op **[!UICONTROL Edit Groups]**.
 1. Klik op **[!UICONTROL Add New User Group]**.
 1. Typ in de sectie **[!UICONTROL Define User Group]** een naam in het veld Groepsnaam. Geef de volgende groepsinformatie:
