@@ -5,10 +5,9 @@ title: Workflow voor virtuele rapportsuites
 feature: Grondbeginselen van rapporten en analyses
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: cfdab79225f1025805652b2dee074fa49318bfc0
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '207'
 ht-degree: 3%
 
 ---
@@ -29,17 +28,8 @@ Zodra gecreeerd, wordt een virtuele rapportreeks behandeld enkel als een reeks v
 
 Klik het pictogram van Info naast de naam van de rapportreeks aan [meningsinformatie over het ](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](assets/step3_icon.png) Stel  [Groepmachtigingen ](/help/components/vrs/c-workflow-vrs/vrs-create.md) hiervoor in.
+![](assets/step3_icon.png) Open een project of een rapport en selecteer een virtuele rapportreeks om een gesegmenteerde mening van de gegevens te verstrekken.
 
-U voegt groepsmachtigingen toe als onderdeel van het maken van een virtuele rapportsuite.
-
-U kunt machtigingen voor groepen op twee manieren bewerken:
-
-* Bewerk de virtuele rapportsuite in Virtual Report Suite Manager.
-* Ga naar Beheer > Gebruikersbeheer > Groepen, selecteer dan de groep die toestemmingen aan de virtuele rapportreeks heeft en klik uitgeven.
-
-![](assets/step4_icon.png) Open een project of een rapport en selecteer een virtuele rapportreeks om een gesegmenteerde mening van de gegevens te verstrekken.
-
-![](assets/step5_icon.png) [](/help/components/vrs/c-workflow-vrs/vrs-manage.md) Beheer de virtuele rapportsuite.
+![](assets/step4_icon.png) [](/help/components/vrs/c-workflow-vrs/vrs-manage.md) Beheer de virtuele rapportsuite.
 
 Met de Virtual Report Suite Manager kunt u virtuele rapportsuites bewerken, toevoegen, labelen, verwijderen, hernoemen, goedkeuren, kopiëren, exporteren en filteren. Deze is niet zichtbaar voor gebruikers die geen beheerder zijn.
