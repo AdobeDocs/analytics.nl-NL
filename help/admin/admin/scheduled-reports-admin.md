@@ -4,8 +4,7 @@ title: Wachtrij voor geplande rapporten
 topic-fix: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 2%
@@ -16,7 +15,7 @@ ht-degree: 2%
 
 Laat Admin-vlakke gebruikers geplande rapporten over de organisatie zien en beheren.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Scheduled Reports]**
 
 De functies op beheerniveau in het Geplande Manager van Rapporten omvatten:
 
@@ -25,7 +24,7 @@ De functies op beheerniveau in het Geplande Manager van Rapporten omvatten:
 * Het nieuwe [lusje van de Rij](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) van het Rapport dat van alle rapporten een lijst maakt die voor uitvoering op het melden van servers een rij worden gevormd.
 * Het blootstellen van [Programma ID](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) in de interface van de Rij van het Rapport.
 
-## Alle geplande rapporten {#section_3F167CAAEEC24140B476CF95B7402690} tonen
+## Alle geplande rapporten weergeven {#section_3F167CAAEEC24140B476CF95B7402690}
 
 Op het tabblad **[!UICONTROL Report List]** kunt u **[!UICONTROL Show All Scheduled Reports]** in uw organisatie gebruiken, naast de versies die u persoonlijk hebt gepland.
 
@@ -41,7 +40,7 @@ Als u bijvoorbeeld wilt filteren op alle rapporten die per uur zijn gepland, gee
 
 ![](assets/advanced_filtering_schedl_reports.png)
 
-## Wachtrij {#section_03C866115D354BB182E90BF4D52F1E0B} rapporteren
+## Wachtrij rapporteren {#section_03C866115D354BB182E90BF4D52F1E0B}
 
 Deze rij laat u om het even welke geplande rapporten beheren en potentieel schrappen die de rij &quot;registreren&quot;zijn. (Geeft doorgaans een time-out na 4 uur aan.)
 
@@ -49,7 +48,7 @@ Deze rij laat u om het even welke geplande rapporten beheren en potentieel schra
 
 De Rij van het Rapport geeft u ook de capaciteit om &quot;een gepland rapport eens over te slaan&quot;. Klik enkel het blauwe pictogram in de **[!UICONTROL Manage]** kolom.
 
-## Schema-id {#section_568B70F4228C4229977CB85D2DCD53A1}
+## Plan-id {#section_568B70F4228C4229977CB85D2DCD53A1}
 
 Als u **[!UICONTROL Schedule ID]** in de interface van de Rij van het Rapport blootstelt helpt wanneer u de Zorg van de Cliënt van Adobe voor de resolutie van een geplande rapportkwestie moet contacteren.
 
