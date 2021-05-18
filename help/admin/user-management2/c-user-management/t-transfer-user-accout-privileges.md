@@ -5,8 +5,7 @@ title: Gebruikersaccountitems overdragen
 feature: Admin Tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 8%
@@ -17,11 +16,11 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** ingetrokken.
 
 Stappen die beschrijven hoe te om de punten van de gebruikersrekening (dashboards, berekende metriek, kalendergebeurtenissen, alarm, referenties, segmenten, de projecten van Analysis Workspace, en geplande projecten) van één gebruikersrekening aan dat van een andere gebruiker toe te wijzen.
 
-1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]**.
 1. Klik op **[!UICONTROL Edit Users]**.
 1. Zoek de gebruiker waarvan u elementen wilt overbrengen en schakel het selectievakje naast de rij van deze gebruiker in.
 1. Selecteer **[!UICONTROL Transfer Assets]** van de actiebar bij de bovenkant.
