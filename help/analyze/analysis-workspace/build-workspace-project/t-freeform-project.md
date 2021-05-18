@@ -4,8 +4,7 @@ keywords: Analysis Workspace
 title: Een Workspace-project maken
 feature: Grondbeginselen van rapporten en analyses
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 14%
@@ -23,7 +22,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
 
 1. Specificeer gebruikerstoestemming om projecten tot stand te brengen en te leiden.
 
-   Voordat u een Analysis Workspace-project maakt of leidt, moeten beheerders u aan een groep toevoegen met de machtiging **[!UICONTROL Create / Curate Projects in Analysis Workspace]** ingeschakeld of aan de gebruikersgroep **[!UICONTROL All Report Access]**. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groepen](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html)).
+   Voordat u een Analysis Workspace-project maakt of leidt, moeten beheerders u aan een groep toevoegen met de machtiging **[!UICONTROL Create / Curate Projects in Analysis Workspace]** ingeschakeld of aan de gebruikersgroep **[!UICONTROL All Report Access]**. (**[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > [Groepen](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html)).
 
 1. Klik in [!DNL Experience Cloud] op **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
@@ -136,7 +135,7 @@ Het [!UICONTROL Visualizations] paneel verstrekt standaardgrafieken van Analytic
 
 1. Stap
 
-## Gebruik het met de rechtermuisknop aangeklikte Menu om Uw Gegevens {#concept_8117C300F21843B99F4E1B9AB7B11B6F} aan te passen
+## Met het snelmenu kunt u uw gegevens aanpassen {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 
 Met het snelmenu kunt u de volgende handelingen uitvoeren, afhankelijk van de cel in een tabel waarop u met de rechtermuisknop klikt.
 
