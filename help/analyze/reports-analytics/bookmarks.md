@@ -6,8 +6,7 @@ uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 feature: Grondbeginselen van rapporten en analyses
 role: Business Practitioner, Administrator
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 2%
@@ -36,7 +35,7 @@ t_bookmarks_creating.xml
        |Openbaar maken| Hiermee maakt u deze bladwijzer beschikbaar voor gebruikers met toegang tot de rapportsuite.|
        |Rapport weergeven bij aanmelden| Het rapport wordt weergegeven wanneer u zich aanmeldt.|
    
-## Bladwijzers {#task_1EE793CB52EA467787817BBD98DEF150} beheren
+## Bladwijzers beheren {#task_1EE793CB52EA467787817BBD98DEF150}
 
 Nadat u rapportbladwijzers hebt gemaakt, kunt u deze beheren in [!UICONTROL Bookmark Manager]. U kunt uw bladwijzers en mappen vanaf een centrale locatie bewerken, verwijderen en ordenen.
 
@@ -46,7 +45,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Bookmarks]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Bookmarks]**.
 
 **Mijn bladwijzers**
 
