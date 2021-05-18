@@ -4,14 +4,13 @@ title: Activity Map-rapportage in Analytics
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '254'
 ht-degree: 7%
 
 ---
-
 
 # Activity Map-rapportage in Analytics
 
@@ -22,10 +21,10 @@ Beschrijft hoe te om toestemmingen te plaatsen en welke afmetingen in Analytics 
 Voordat gebruikers de afmetingen van de Activity Map kunnen rapporteren, moet u als beheerder
 
 * [Voeg gebruikers aan de Groep](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) van de Toegang van de Activity Map toe.
-* Voeg rapportsuites toe u toegang tot deze groep wilt hebben. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Activity Map Access]** > **[!UICONTROL Edit]**.
+* Voeg rapportsuites toe u toegang tot deze groep wilt hebben. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > **[!UICONTROL Groups]** > **[!UICONTROL Activity Map Access]** > **[!UICONTROL Edit]**.
 * De gebruikerstoegang tot dimensies aanpassen. Zie de onderstaande paragraaf.
 
-## Afmetingen van de analytische Activity Map {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
+## Afmetingen Activity Map analyse {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
 U kunt [gebruikerstoegang tot afmetingen](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html) op korrelig niveau aanpassen. Hier volgen de afmetingen voor de Activity Map die beschikbaar zijn in Analytics:
 
@@ -41,4 +40,3 @@ U kunt [gebruikerstoegang tot afmetingen](https://docs.adobe.com/content/help/en
 * Navigeer in Rapporten &amp; Analytics naar **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map]**.
 
 * Als u een koppeling en een gebied voor een specifieke pagina wilt bekijken, hoeft u alleen maar een onderverdeling te maken van de gewenste pagina voor Activity Map naar de Activity Map Koppelingen en regio.
-
