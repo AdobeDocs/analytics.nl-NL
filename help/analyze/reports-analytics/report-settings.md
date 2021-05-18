@@ -3,14 +3,13 @@ description: Instellingen die bepalen hoe alle rapporten worden weergegeven en i
 title: Rapport Weergave-instellingen en navigatie
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1464'
 ht-degree: 7%
 
 ---
-
 
 # Rapport Weergave-instellingen en navigatie
 
@@ -18,7 +17,7 @@ Instellingen die bepalen hoe alle rapporten worden weergegeven en informatie die
 
 ## Rapport Weergave-instellingen en navigatie {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All Components]** > **[!UICONTROL Report settings]**
 
 | Element | Beschrijving |
 |--- |--- |
@@ -26,7 +25,7 @@ Instellingen die bepalen hoe alle rapporten worden weergegeven en informatie die
 | Gerelateerde metrieksectie opnemen | Verwante metriek is nauw verwant met het rapport dat u momenteel bekijkt (bijvoorbeeld de bovenste vijf pagina&#39;s in het rapport met paginaweergaven). |
 | Internetgemiddelde tonen in sectie Details | Drukt de gemiddelde waarde voor een gegeven statistiek uit, die over verscheidene duizenden bedrijfswebsites wordt genomen. Wanneer toegelaten, verschijnt deze sectie als afzonderlijke kolom in de de samenvatting van het rapport en secties van de rapportdetails. Deze eigenschap wordt gebruikt slechts door de verkeersrapporten in de technologiegroep, evenals de onderzoeksmotoren, de talen, en de domeinrapporten. |
 | Standaard-Adobe weergeven | Negeert de montages in de Hulpmiddelen Admin, waar de beheerders rapportmenu&#39;s aanpassen om gebruikersvoorkeur te passen, terugkerend het rapportmenu aan standaardmontages. |
-| Kolombreedten afdwingen bij het weergeven van rapporten | Dwingt rapportkolombreedten tot een esthetisch aangename consistentie. Deze instelling is handig wanneer meer dan drie maateenheden worden weergegeven. |
+| Kolombreedten afdwingen bij het weergeven van rapporten | Dwingt rapportkolombreedten tot een esthetisch aangename consistentie. Deze instelling is handig wanneer meer dan drie metriek worden weergegeven. |
 | **Grafieken en grafieken** |  |
 | weekends markeren bij trendgrafieken | Hiermee markeert u de weekenddatums van trendrapportgrafieken verticaal. De tendenrapporten kunnen veel gemakkelijker zijn om te evalueren wanneer de weekends worden geïdentificeerd. |
 | Prognose opnemen in grafiek en overzicht | Hiermee wordt geschat in hoeverre een bepaalde statistiek zich in de toekomst zal voordoen. De voorspelling wordt weergegeven in de overzichtssectie van het rapport als deze optie is ingeschakeld. |
@@ -149,4 +148,3 @@ Als u het standaardmenu gebruikt, kunt u in de volgende tabel gemakkelijker de m
 | **Aangepaste rapporten** |  |  |
 |  | Alleen aangepaste rapporten zijn opgesteld. | Aangepaste rapporten |
 |  |  |  |
-
