@@ -1,14 +1,13 @@
 ---
 title: Aanmelden bij Adobe Analytics oplossen
 description: Stappen die moeten worden uitgevoerd wanneer u zich niet kunt aanmelden bij Adobe Analytics.
-translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+exl-id: e670a043-c55b-4717-9b60-613ea4d04382
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 2%
 
 ---
-
 
 # Aanmelden bij Adobe Analytics oplossen
 
@@ -28,7 +27,7 @@ Los problemen met het aanmelden bij Adobe Analytics op met de Experience Cloud.
 
 1. Navigeer naar [experience.adobe.com](https://experience.adobe.com). Als u geen toegang hebt tot deze site, is het mogelijk dat uw organisatie dit domein niet toestaat via uw firewall. Werk met het IT-team van uw organisatie om dit mogelijk te maken. Zie [IPs en domeinen die in Adobe Experience Cloud](https://helpx.adobe.com/nl/analytics/kb/adobe-ip-addresses.html) voor nuttige informatie worden gebruikt om aan uw team van IT te geven.
 
-2. Verifiëren met Adobe ID: Klik **[!UICONTROL Sign In with an Adobe ID]**. Als u zich niet kunt aanmelden, controleert u nogmaals of uw e-mailadres correct is getypt. Klik anders op de vraag **[!UICONTROL Reset password]** en volg de aanwijzingen om het Adobe ID-wachtwoord opnieuw in te stellen.
+2. Verifiëren met Adobe ID: Klik op **[!UICONTROL Sign In with an Adobe ID]**. Als u zich niet kunt aanmelden, controleert u nogmaals of uw e-mailadres correct is getypt. Klik anders op **[!UICONTROL Reset password]** en volg de aanwijzingen om het Adobe ID-wachtwoord opnieuw in te stellen.
 
 3. Access Analytics after authenticating: Klik op het pictogram met het 9-raster rechtsboven in het scherm en klik vervolgens op Analytics. Als u deze optie niet hebt of deze grijs is, werkt u samen met een productbeheerder binnen uw organisatie om ervoor te zorgen dat u de juiste machtigingen hebt om toegang te krijgen tot Analytics.
 
@@ -45,9 +44,9 @@ Als het wissen van de cookies/cache van de browser het probleem niet verhelpt, w
 >De volgende stappen voor het opnieuw instellen van het wachtwoord van een gebruiker zijn alleen van toepassing op verouderde Analytics ID&#39;s, niet op Adobe ID. Als uw organisatie Adobe ID gebruikt, kunt u gebruikersaccounts beheren op [adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Meld u aan bij Adobe Analytics met een account met beheerdersrechten.
-2. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
-3. Klik op het **[!UICONTROL Users]** tabblad en klik vervolgens **[!UICONTROL Edit]** naast de gewenste gebruiker.
-4. Wijzig het wachtwoord in een willekeurige waarde en schakel het selectievakje in **[!UICONTROL Require user to change password on next login]**.
+2. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]**.
+3. Klik op de tab **[!UICONTROL Users]** en klik vervolgens op **[!UICONTROL Edit]** naast de gewenste gebruiker.
+4. Wijzig het wachtwoord in een willekeurige waarde en schakel het selectievakje **[!UICONTROL Require user to change password on next login]** in.
 5. Stel de gebruiker op de hoogte van het nieuwe wachtwoord.
 
 ## Eenmalige aanmelding
