@@ -2,10 +2,9 @@
 title: Machtigingen voor productprofielen voor rapportsuite
 description: Begrijp elk toestemmingspunt onder de Hulpmiddelen van de Reeks van het Rapport.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '664'
 ht-degree: 3%
 
 ---
@@ -49,7 +48,7 @@ Gebruik deze pagina om elk toestemmingspunt onder de Hulpmiddelen van de Reeks v
 | Data feeds Manager | Hiermee krijgt u toegang tot Beheer > Gegevensfeeds in de bovenste navigatie Analytics. |
 | Rapport aangepaste Data Warehouse | Hiermee krijgt u toegang tot Gereedschappen > Data Warehouse in de bovenste navigatie Analytics. |
 | Dagelijkse terugkeerbezoeken | Hiermee krijgt u toegang tot Bezoekersbewaring > Dagelijkse terugkeerbezoeken in Rapporten en Analytics. |
-| Gegevensbronbeheer | Hiermee krijgt u toegang tot Beheer > Gegevensbronnen in de bovenste navigatie Analytics. Vereist het machtigingsitem &#39;Report Suite Mgmt&#39;. |
+| Gegevensbronbeheer | Geeft toegang tot Admin > Al admin > Gegevensbronnen in Analytics hoogste navigatie. Vereist het machtigingsitem &#39;Report Suite Mgmt&#39;. |
 | Exclusief door IP Adres | Hiermee krijgt u toegang tot Beheer > Uitsluiten door IP in de bovenste navigatie Analytics. |
 | Laatste 100 bezoekers | Niet gebruikt. |
 | Oudere ClickMap | Niet gebruikt. Gebruik in plaats hiervan Activity Map onder Analytics Tools. |
