@@ -1,14 +1,13 @@
 ---
 description: Importeer volggegevens van toepassingen van derden naar Analytics.
 title: Aan de slag met de gegevensconnectors van Analytics
-translation-type: tm+mt
-source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
+exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van gegevensconnectors
 
@@ -48,7 +47,7 @@ Voer de volgende handelingen uit voordat u de integratie van gegevensconnectors 
 U moet over een huidige account beschikken om de [!UICONTROL Data Connectors]-bestemmingspagina (console) te openen. U wordt ook aangeraden bekend te zijn met Adobe Analytics.
 
 1. Meld u aan bij de Adobe Experience Cloud.
-1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**.
+1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]**.
 1. Klik op **[!UICONTROL Add New]**.
 1. Ga door de **[!UICONTROL Add Integration]** interface.
 
