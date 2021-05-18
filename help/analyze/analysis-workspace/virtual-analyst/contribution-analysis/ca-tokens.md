@@ -5,8 +5,7 @@ uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 feature: AI-gereedschappen
 role: Business Practitioner, Administrator
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-translation-type: tm+mt
-source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 3%
@@ -54,9 +53,9 @@ Het aantal runtimes per bedrijf wordt beperkt door maandelijkse tokens die worde
 | Zijn tokens van toepassing op de Analyse van de Bijdrage in Rapporten &amp; Analytics? | Nee. De bijdrageanalyse wordt vanaf april 2018 niet meer aangeboden in de rapporten en analyses. |
 | Als mijn bedrijf uit tokens is en extra Analyses van de Bijdrage wil in werking stellen, wat kunnen wij doen? | U kunt een upgrade uitvoeren naar een ander Adobe Analytics-product, bijvoorbeeld van Standaard (2 tokens/maand) naar Ultimate (20 tokens/maand). U kunt niet alleen meer tokens kopen. U moet een upgrade uitvoeren binnen het bestaande pakketframework. |
 | Hoe beperk ik toegang tot de Analyse van de Bijdrage? | Standaard hebben alleen beheerders toegang om Contribute-analyses uit te voeren. Beheerders kunnen echter toegang verlenen aan andere gebruikers door een machtigingengroep te maken in de [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html). U zou toestemming moeten geven om de Analyse van de Bijdrage slechts aan gebruikers te gebruiken die een wettige reden hebben om het te gebruiken en worden vertrouwd om hun toegang niet te misbruiken. De bevoegdheid wordt [!UICONTROL Contribution Analysis] genoemd onder [!UICONTROL Report Suite Tools]. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
-| Hoe weet ik hoeveel tokens mijn bedrijf per maand mag gebruiken en hoeveel tokens we in de huidige maand hebben gebruikt? | Ga naar [!UICONTROL Admin] > [!UICONTROL All Admin] >[!UICONTROL Company Settings Home] >[!UICONTROL View Feature Access Levels]. Zoeken onder<ul><li>Bijdrage-analyse: Aantal tokens voor maandgebruik</li><li>Bijdrage-analyse: Aantal Gebruikstokens die deze maand worden gebruikt</li></ul> |
+| Hoe weet ik hoeveel tokens mijn bedrijf per maand mag gebruiken en hoeveel tokens we in de huidige maand hebben gebruikt? | Ga naar [!UICONTROL Admin] > [!UICONTROL All admin] >[!UICONTROL Company settings Home] >[!UICONTROL View Feature Access Levels]. Zoeken onder<ul><li>Bijdrage-analyse: Aantal tokens voor maandgebruik</li><li>Bijdrage-analyse: Aantal Gebruikstokens die deze maand worden gebruikt</li></ul> |
 
-## Toeslagrechten voor anomalische detectie en bijdrageanalyse {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
+## Toeslagrechten voor anomalische detectie en analyse van bijdragen {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
 Hieronder volgt een lijst van de gedetailleerde rechten voor de analyse van Anomaly Detection and Contribution in Analysis Workspace.
 
