@@ -1,26 +1,25 @@
 ---
 title: Exclusief door IP Adres
 description: Voorkomen dat gegevens die door bepaalde IP-adressen worden gegenereerd, in rapporten worden weergegeven.
-translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+exl-id: 315a3000-f043-434b-a677-d111aeed7971
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 3%
 
 ---
 
-
 # Exclusief door IP Adres
 
 U kunt gegevens van specifieke IP adressen, zoals interne website activiteiten, plaats het testen en werknemersgebruik, van uw rapporten uitsluiten. Het uitsluiten van gegevens verbetert rapportnauwkeurigheid door IP adresgegevens uit te sluiten. Bovendien, kunt u gegevens uit ontkenning van de dienst of andere kwaadwillige gebeurtenissen verwijderen die rapportgegevens kunnen scheeftrekken. U kunt uitsluiting configureren of uw firewall gebruiken.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclude by IP]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Exclude by IP]**
 
 >[!NOTE]
 >
 >Hits die door IP adres worden uitgesloten worden gefactureerd als [servervraag](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html).
 
-U kunt jokertekenindicatoren (*) gebruiken om een bereik van adressen uit te sluiten. Bijvoorbeeld, zou alle IP adressen tussen `[!DNL 0.0.*.0]` en `[!DNL 0.0.0.0]` `[!DNL 0.0.255.0]`uitsluiten. U kunt tot 50 verschillende IP adressen uitsluiten.
+U kunt jokertekenindicatoren (*) gebruiken om een bereik van adressen uit te sluiten. `[!DNL 0.0.*.0]` zou bijvoorbeeld alle IP-adressen tussen `[!DNL 0.0.0.0]` en `[!DNL 0.0.255.0]` uitsluiten. U kunt tot 50 verschillende IP adressen uitsluiten.
 
 >[!TIP]
 >
