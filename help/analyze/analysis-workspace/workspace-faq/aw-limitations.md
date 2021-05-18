@@ -1,16 +1,15 @@
 ---
 description: Lijst van bekende beperkingen in Adobe Analysis Workspace en de bijbehorende onderdelen
 title: Bekende beperkingen in Analysis Workspace
-feature: Workspace Basics
+feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
-
 
 # Bekende beperkingen in Analysis Workspace
 
@@ -53,7 +52,7 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 
 * Wanneer de verwerking van de rapporttijd wordt toegelaten, worden bepaalde componenten niet gesteund. Voor een volledige lijst, zie [De Verwerking van de Tijd van het Rapport](/help/components/vrs/vrs-report-time-processing.md).
 
-## Componenten > Rapportinstellingen
+## Componenten > Alle componenten > Rapportinstellingen
 
 * Sommige instellingen op de pagina [!UICONTROL Report Settings] zijn niet van toepassing. Analysis Workspace gebruikt alleen de [!UICONTROL Language/Currency/Encoding]-instellingen onderaan: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding] en [!UICONTROL CSV Separator Character].
 
