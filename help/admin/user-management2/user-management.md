@@ -5,8 +5,7 @@ title: User en Product Management
 feature: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 5%
@@ -19,9 +18,9 @@ Gebruikers, groepen en producten van Analytics in de Admin Console beheren.
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** ingetrokken.
 
-## Help-bronnen voor beheerders van Admin Consoles {#section_C13BBB89E4F248F193358BB3A59DD502}
+## Hulp Middelen voor de Beheerders van de Admin Console {#section_C13BBB89E4F248F193358BB3A59DD502}
 
 <table id="table_9263797773A749628E12BB3C1EBE620B"> 
  <thead> 
@@ -42,7 +41,7 @@ Gebruikers, groepen en producten van Analytics in de Admin Console beheren.
  </tbody> 
 </table>
 
-## Beschrijvingen van gebruikersbeheer {#section_7C19842A3D4249109A9399D4DF18DE75}
+## Beschrijving van gebruikersbeheer {#section_7C19842A3D4249109A9399D4DF18DE75}
 
 In de volgende tabel worden de elementen op het tabblad [!UICONTROL Users] in [!UICONTROL User Management] beschreven.
 
