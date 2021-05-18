@@ -1,25 +1,27 @@
 ---
 title: Communiceren met gevolgen voor gebruikers
 description: Leer effectieve manieren om het effect van een gebeurtenis in uw organisatie te communiceren.
-translation-type: tm+mt
-source-git-commit: 022d9cbfdae11d7efe1efb7fe503f4fdaa785be1
+exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 1%
 
 ---
 
-
 # De invloed van gebeurtenissen doorgeven aan gebruikers
 
-Als u gegevens hebt [die door een gebeurtenis](overview.md)worden beïnvloed, is het belangrijk om die gebeurtenis aan gebruikers in uw organisatie mee te delen.
+Als u gegevens [door een gebeurtenis](overview.md) hebt beïnvloed, is het belangrijk om die gebeurtenis aan gebruikers in uw organisatie mee te delen.
 
 * Ontwikkel een gemeenschappelijke ontkenning die u in mededelingen voor consistentie kunt gebruiken
 * Doorlopende communicatie bieden aan gebruikers van Analytics en belangrijke belanghebbenden tijdens en na de gebeurtenis
 * Plaats een kalenderherinnering voor volgende mijlpalen, zoals de volgende maand of het volgende jaar. Deze mededeling helpt gebruikers die rapporten bekijken in de toekomst herinneren aan de gevolgen in maand-over-maand of jaar-over-jaar rapporten.
 
-In de volgende secties van Adobe Analytics worden verschillende manieren weergegeven waarop u kunt communiceren met gebruikers in uw organisatie. U kunt ook andere methoden gebruiken dan Adobe Analytics, zoals e-mail, om te communiceren met gebruikers.
+In Adobe Analytics worden in de volgende secties verschillende manieren getoond waarop u kunt communiceren met gebruikers in uw organisatie. U kunt ook andere methoden buiten Adobe Analytics gebruiken, zoals e-mail, om te communiceren met gebruikers.
 
 ## Communiceren via het deelvenster of visualisatiebeschrijvingen
 
-Als u een Werkruimteproject hebt dat onder gebruikers in uw organisatie wordt gedeeld, kunt u het effect van een gebeurtenis door paneel of visualisatiebeschrijvingen meedelen. Klik met de rechtermuisknop op een deelvenster of visualisatiekoptekst en selecteer **[!UICONTROL Edit description]**.
+Als u een Werkruimteproject hebt dat onder gebruikers in uw organisatie wordt gedeeld, kunt u het effect van een gebeurtenis door paneel of visualisatiebeschrijvingen meedelen. Klik met de rechtermuisknop op een deelvenster of een visualisatiekop en selecteer **[!UICONTROL Edit description]**.
 
 ![Beschrijving van deelvenster](assets/panel_description.png)
 
@@ -33,7 +35,7 @@ U kunt het effect van een gebeurtenis ook communiceren via speciale tekstvisuali
 
 Voor elke trendvisualisatie in Workspace, kunt u in een reeks toevoegen die uw beïnvloede datumwaaier vertegenwoordigt.
 
-1. Maak een berekende metrische waarde met het segment &#39;Betrokken dagen&#39; door in de analyse [specifieke datums](segments.md)uitsluiten te volgen.
+1. Maak een berekende metrische waarde met het segment &#39;Betrokken dagen&#39; door [Specifieke datums in analyse uitsluiten](segments.md) te volgen.
 1. Voeg de gewenste metrische waarde toe aan het berekende metrische canvas.
 
    ![Metrisch](assets/calcmetric_event.png)
@@ -46,7 +48,7 @@ Voor elke trendvisualisatie in Workspace, kunt u in een reeks toevoegen die uw b
 
    ![Vrije-vormentabel](assets/calcmetric_freeform.png)
 
-1. Klik op het tandwielpictogram voor de kolominstellingen voor de berekende metrische waarde en schakel deze optie in **[!UICONTROL Interpret zero as no value]**.
+1. Klik op het tandwielpictogram voor kolominstellingen voor de berekende metrische waarde en schakel **[!UICONTROL Interpret zero as no value]** in.
 
    ![Berekende metrische instellingen](assets/calcmetric_zero_no_value.png)
 
@@ -56,9 +58,9 @@ Voor elke trendvisualisatie in Workspace, kunt u in een reeks toevoegen die uw b
 
 ## Een agendagebeurtenis gebruiken in Rapporten en Analyses
 
-Als u Rapporten &amp; Analytics gebruikt, kunt u een [kalendergebeurtenis](/help/components/t-calendar-event.md) gebruiken om beïnvloede dagen in om het even welk verlengd rapport te benadrukken. Deze methode is niet van toepassing op de werkruimte Analyse.
+Als u Rapporten &amp; Analytics gebruikt, kunt u [agendagebeurtenis ](/help/components/t-calendar-event.md) gebruiken om beïnvloede dagen in om het even welk trended rapport te benadrukken. Deze methode is niet van toepassing op Analysis Workspace.
 
-1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
+1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Calendar events]**.
 2. Voer de gewenste titel, het gewenste datumbereik en de notitietekst in.
 3. Klik op **[!UICONTROL Save]**.
 
