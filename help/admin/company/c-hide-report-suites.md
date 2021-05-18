@@ -5,8 +5,7 @@ title: Rapportsuites verbergen
 feature: Admin Tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 4%
@@ -25,7 +24,7 @@ Het verbergen van een rapportreeks verhindert het in het drop-down menu van de d
 >
 >Gegevens die vanaf uw site naar een verborgen rapportsuite worden verzonden, worden verder verzameld, verwerkt en gefactureerd. Met andere woorden, een rapportsuite wordt nooit volledig verwijderd.
 
-Als u de rapportsuite wilt verbergen, gaat u naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Hide Report Suites]**. Schakel het selectievakje **[!UICONTROL Hidden]** links van de naam van de rapportsuite in.
+Als u de rapportsuite wilt verbergen, gaat u naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Hide Report Suites]**. Schakel het selectievakje **[!UICONTROL Hidden]** links van de naam van de rapportsuite in.
 
 Als u de rapportsuite zichtbaar wilt maken, schakelt u het selectievakje **[!UICONTROL Hidden]** uit.
 
