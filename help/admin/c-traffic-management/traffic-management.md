@@ -4,8 +4,7 @@ title: Traffic beheren
 feature: Admin Tools
 uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 8%
@@ -18,6 +17,6 @@ De pagina van het Beheer van het Verkeer laat u verwachte veranderingen van het 
 
 Om tot [!UICONTROL Traffic Management] toegang te hebben:
 
-1. Klik **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, dan selecteer een rapportreeks.
+1. Klik **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**, dan selecteer een rapportreeks.
 
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic Management]** > *`<selection>`*.
