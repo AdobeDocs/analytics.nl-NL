@@ -3,9 +3,9 @@ description: Implementeer de gegevensconnector van Kampyle in Adobe Analytics.
 title: De integratie implementeren
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 4078d0be92c8ccd639e408e7372a5636938cad00
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '399'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Het implementeren van deze integratie is een eenvoudig proces waarbij de wizard 
 
 Om de integratie te activeren, voltooi de configuratietovenaar in de interface van Verbindingen van Gegevens.
 
-1. Meld u aan bij de Adobe Experience Cloud.
+1. Meld u aan bij [!DNL Adobe Experience Cloud].
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]**.
 1. Start de integratiewizard van Kampyle.
 1. Selecteer de gewenste rapportsuite en geef een naam op voor de integratie.
