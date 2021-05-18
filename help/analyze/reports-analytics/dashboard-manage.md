@@ -3,11 +3,10 @@ description: Gebruik Dashboard Manager om dashboards voor levering te kopiëren,
 subtopic: Dashboards
 title: Dashboardbeheer
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Reports & Analytics Basics
+feature: Grondbeginselen van rapporten en analyses
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -22,7 +21,7 @@ Gebruik Dashboard Manager om dashboards voor levering te kopiëren, te delen, te
 >
 >De beste manier om Dashboard Manager te gebruiken, is niet meer dan 300 dashboards te hebben voor één gebruiker. Houd er ook rekening mee dat de manager hieronder alle gedeelde dashboards laadt, dus wees verstandig met het delen van dashboards.
 
-Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]**.
 
 | Element | Beschrijving |
 |--- |--- |
@@ -36,7 +35,7 @@ Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL
 
 Stappen die beschrijven hoe de gedeelde opties voor dashboardbeheer worden gebruikt.
 
-1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]**.
 1. Zoek onder [!UICONTROL Shared Dashboards] het gedeelde dashboard (of het verouderde dashboard) dat u wilt beheren en kies een of meer van de volgende opties:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
