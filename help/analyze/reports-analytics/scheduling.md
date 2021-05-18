@@ -3,11 +3,10 @@ description: Informatie over het plannen, downloaden en verspreiden van rapporte
 subtopic: Schedule
 title: Rapport Planning en distributie
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Reports & Analytics Basics,Reports and analytics
+feature: Grondbeginselen van rapporten en analyses, rapporten en analyses
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 1%
@@ -40,7 +39,7 @@ Deze beperkingen gelden voor afzonderlijke geplande en gedownloade rapporten; da
 
 
 
-## Rapport {#task_27642CD33D484FD0BF59EBD159EEF52C} verzenden
+## Een rapport verzenden {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
 Stappen die beschrijven om rapporten in een verscheidenheid van formaten te downloaden en te e-mailen, en een rapport voor levering te plannen.
 
@@ -74,7 +73,7 @@ Stappen die beschrijven om rapporten in een verscheidenheid van formaten te down
 | Leveringsfrequentie | <ul><li>**Uur**: Levert e-mail elk uur, om het even welk ander uur, of een ander interval van uren.</li><li>**Dagelijks**: Verzendt de e-mail elke dag, elke andere dag, elke derde dag, of om het even welk ander interval van dagen. U kunt het ook elke weekdag laten verzenden.</li><li>**Wekelijks**: Verzendt het e-mailbericht elke week, andere week, elke derde week of elk ander interval van weken. U kunt ook opgeven welke dag van de week het wordt verzonden.</li><li>**Maandelijks**: Hiermee geeft u het interval op in een aantal maanden en u kunt ook de dag van de maand selecteren waarop de gegevens worden verzonden, of de dag van de week in een bepaalde week van de maand.</li><li>**Jaarlijks**: Hier geeft u de dag op van het jaar waarin het rapport wordt verzonden. U kunt dit ook doen op een bepaalde dag van de week in een willekeurige week van het jaar.</li><li>**Dag**: Is op de tijdzone van toepassing verbonden aan de geselecteerde rapportreeks.</li></ul> |
 | Opties voor eindaflevering | <ul><li>**Nooit eindigen**: Geeft geen einde aan.</li><li>**Einde na  `value` voorkomen**: Hier geeft u het aantal exemplaren op voordat de levering wordt beëindigd.</li><li>**Einde op**: Hier kunt u een specifieke datum opgeven. Als u de gegevens op de zelfde datum wilt verwerken zoals de rapportgegevens, bevat het rapport slechts gegevens die in het gegevensbestand op het tijdstip zijn gezet het rapport wordt verzonden. Omdat de volledige verwerking voor een dag tot 24 uren kan vergen, zouden de volledige gegevens niet op het tijdstip kunnen beschikbaar zijn het rapport wordt verzonden. Voor volledige gegevens stelt u altijd de verwerkingstijd in gedurende 24 uur na het einde van de verslagperiode.</li></ul> |
 
-## Een rapport {#task_0F7CF6D6ED54462CAE4A793E271AF7E5} afdrukken
+## Een rapport afdrukken {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
 Stappen die beschrijven hoe te om een rapport te drukken.
 
@@ -109,7 +108,7 @@ In [!UICONTROL Schedule Reports Manager], kunt u terugkomende rapportleveringen 
 
 [!UICONTROL Schedule Report Manager] toont de punten die een specifieke gebruiker heeft gecreeerd. Als de gebruikersaccount in de toepassing is uitgeschakeld, worden alle geplande leveringen gestopt.
 
-1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]** om de manager te openen.
+1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Scheduled reports]** om de manager te openen.
 
 ## Een rapportkoppeling delen {#task_9711DDE9E140451B8C914EC5513E21EC}
 
@@ -122,7 +121,7 @@ Wanneer de ontvanger op de koppeling klikt, vraagt het systeem aanmeldingsgegeve
 1. Voer een rapport uit.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.
 
-## Abonnement op geplande rapporten {#concept_6B48360F935740B6851BA85D32DEF637} opzeggen
+## Abonnement op geplande rapporten opzeggen {#concept_6B48360F935740B6851BA85D32DEF637}
 
 U kunt uw abonnement op geplande rapporten opzeggen. U zult niet meer het rapport ontvangen zelfs als uw gebruikersnaam aan het geplande rapport opnieuw wordt toegevoegd.
 
