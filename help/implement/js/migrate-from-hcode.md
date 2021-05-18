@@ -1,39 +1,38 @@
 ---
 title: Migreren naar AppMeasurement voor JavaScript
 description: Bepaal wat nodig is om uw implementatie van H Code te migreren.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-
 # Migreren naar AppMeasurement voor JavaScript
 
-Als uw implementatie nog steeds H-code gebruikt, raadt Adobe u ten zeerste aan te migreren naar de nieuwste versie van AppMeasurement. Het wordt aangeraden Analyses te implementeren via [Adobe Experience Platform Launch](../launch/overview.md) , maar een bijgewerkte JavaScript-implementatie kan worden gebruikt.
+Als uw implementatie nog steeds H-code gebruikt, raadt Adobe u ten zeerste aan te migreren naar de nieuwste versie van AppMeasurement. Het uitvoeren van Analytics door [Adobe Experience Platform Launch](../launch/overview.md) wordt geadviseerd, nochtans kan een bijgewerkte implementatie JavaScript worden gebruikt.
 
 De volgende opmerkelijke veranderingen zijn aanwezig in AppMeasurement wanneer vergeleken met de Code van H:
 
 * 3-7 keer sneller dan H-code.
 * Lichter dan H-code - 21kB niet gecomprimeerd versus H-code, die 33kB ongecomprimeerd is.
-* De bibliotheek en paginacode kunnen binnen de `<head>` markering worden opgesteld.
+* De bibliotheek- en paginacode kan worden geïmplementeerd in de tag `<head>`.
 * Bestaande H-code op paginaniveau is compatibel met AppMeasurement.
 * De bibliotheek biedt native hulpprogramma&#39;s voor het ophalen van queryparameters, het lezen en schrijven van cookies en het uitvoeren van geavanceerde koppelingen.
-* De bibliotheek ondersteunt geen dynamische variabelen voor accountconfiguratie (inclusief `dynamicAccountSelection`, `dynamicAccountMatch`en `dynamicAccountList`).
+* De bibliotheek ondersteunt geen dynamische accountconfiguratievariabelen (zoals `dynamicAccountSelection`, `dynamicAccountMatch` en `dynamicAccountList`).
 
 In de volgende stappen wordt een typische migratieworkflow beschreven.
 
-1. **Download het nieuwe AppMeasurement-bestand**: Open het nieuwe bestand door u aan te melden bij Adobe Analytics en vervolgens te navigeren naar Beheer > Codebeheer. Het gedownloade gecomprimeerde bestand bevat een geminiateerd `AppMeasurement.js` bestand, samen met de modules Media en Integrate.
-1. **Kopieer uw `s_code.js` aanpassingen naar`AppMeasurement.js`**: Verplaats alle code voor de `DO NOT ALTER ANYTHING BELOW THIS LINE` sectie `s_code.js` naar het begin van `AppMeasurement.js`.
-1. **Alle plug-ins** bijwerken: Gebruik de nieuwste versie van elke plug-in in het `s_code.js` bestand. Dit omvat de modules Media en Integrate.
-1. **Implementeer het bestand** AppMeasurement.js: Upload uw `AppMeasurement.js` bestand naar uw webserver.
-1. **Scriptverwijzingen bijwerken naar punt`AppMeasurement.js`**: Zorg ervoor dat alle pagina&#39;s naar elkaar verwijzen `AppMeasurement.js` in plaats van `s_code.js`.
+1. **Download het nieuwe AppMeasurement-bestand**: Open het nieuwe bestand door u aan te melden bij Adobe Analytics en vervolgens te navigeren naar Beheer > Alle beheerders > Codebeheer. Het gedownloade gecomprimeerde bestand bevat een geminiateerd `AppMeasurement.js`-bestand, samen met de modules Media en Integrate.
+1. **Kopieer uw  `s_code.js` aanpassingen naar`AppMeasurement.js`**: Verplaats alle code voor de  `DO NOT ALTER ANYTHING BELOW THIS LINE` sectie  `s_code.js` naar het begin van  `AppMeasurement.js`.
+1. **Alle plug-ins** bijwerken: Gebruik de nieuwste versie van elke plug-in in het  `s_code.js` bestand. Dit omvat de modules Media en Integrate.
+1. **Implementeer het bestand** AppMeasurement.js: Upload uw  `AppMeasurement.js` bestand naar uw webserver.
+1. **Scriptverwijzingen bijwerken naar punt`AppMeasurement.js`**: Zorg ervoor dat alle pagina&#39;s  `AppMeasurement.js` in plaats van  `s_code.js`verwijzen.
 
 ## Voorbeeld van toepassingscode
 
-Een typisch `AppMeasurement.js` bestand. Controleer of de configuratievariabelen boven de `doPlugins` functie zijn ingesteld.
+Een typisch `AppMeasurement.js` dossier. Zorg ervoor dat de configuratievariabelen boven de `doPlugins` functie worden geplaatst.
 
 ```js
 // Initialize AppMeasurement
