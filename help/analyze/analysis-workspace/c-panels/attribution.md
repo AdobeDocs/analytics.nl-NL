@@ -1,16 +1,15 @@
 ---
 title: Deelvenster voor attributie
 description: Het toewijzingspaneel in Analysis Workspace gebruiken en interpreteren.
-feature: Attribution
+feature: Attributie
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
+source-git-commit: e3005892edd0854f76956a500ca3a8927d0b31b1
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
-
 
 # Deelvenster voor attributie
 
@@ -40,6 +39,5 @@ Het [!UICONTROL Attribution] paneel is een gemakkelijke manier om een analyse te
 * **Vergelijkingstabel** kenmerk: Hiermee worden dezelfde gegevens weergegeven als het staafdiagram, dat als een tabel wordt weergegeven. Wanneer u verschillende kolommen of rijen in deze tabel selecteert, worden het staafdiagram en diverse andere visualisaties in het deelvenster gefilterd. Deze lijst doet gelijkaardig aan een andere Lijst Freeform in Werkruimte - toestaand u om componenten zoals metriek, segmenten, of onderverdelingen toe te voegen.
 * **Overlap diagram**: Een tekening van Venn die de hoogste drie afmetingspunten toont en hoe vaak zij gezamenlijk aan een omzetting deelnemen. De grootte van de ballonoverlapping geeft bijvoorbeeld aan hoe vaak conversies hebben plaatsgevonden wanneer een bezoeker aan beide dimensie-items werd blootgesteld. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
 * **Prestatiegegevens**: Hiermee kunt u maximaal drie kenmerkingsmodellen visueel vergelijken met behulp van een spreidingsgrafiek.
-* **Trended Performance**: Toont de trend van toegeschreven omzettingen voor het hoogste afmetingspunt. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
+* **Trended Performance**: Standaard wordt de trend van de conversieprestaties weergegeven op basis van het toewijzingsmodel voor de eerste dimensie in de aangrenzende tabel Freeform. U kunt verschillende afmetingsrijen in de lijst van Freeform selecteren om de trend voor de geselecteerde afmetingen (zoals Totale Ontvangsten voor elk attributiemodel voor Sociale Campagnes en Betaald Onderzoek) te tonen. Afwisselend, kunt u cellen in de kolommen voor om het even welke metrische en attributietype combinaties in de lijst van de Vrije vorm selecteren om de trended prestaties door afmetingswaarde voor de gespecificeerde attributiemodellen (zoals Totale Inkomsten door het Kanaal van de Marketing die laatste Aanraking en Eerste Toekenning gebruiken) te zien.
 * **Stroom**: Hiermee kunt u zien welke kanalen het meest worden gebruikt en in welke volgorde de bezoeker op reis is.
-
