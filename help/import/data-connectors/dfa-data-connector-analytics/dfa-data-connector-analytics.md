@@ -5,8 +5,7 @@ title: DFA Data Connector voor Adobe Analytics
 feature: Data Connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 exl-id: 35854556-c02f-410a-8e4d-2125404a6db4
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1736'
 ht-degree: 2%
@@ -23,7 +22,7 @@ In de steeds complexere en competitievere online markt van vandaag, moeten onlin
 
 De integratie DoubleClick for Advertisers (DFA) lost dit probleem op door Adobe® Data Connectors™ te gebruiken om Dubbelklik DFA toe te staan om gegevens automatisch door te geven aan Rapporten &amp; Analytics.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]**
 
 ![](assets/data-connectors-home.png)
 
