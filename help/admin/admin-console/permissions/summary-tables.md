@@ -1,14 +1,13 @@
 ---
 title: Adobe Analytics-machtigingen - overzichtstabellen
 description: Tabellen die een overzicht geven van de beschikbare Adobe Analytics-machtigingen in Admin Console.
-translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1271'
 ht-degree: 4%
 
 ---
-
 
 # Adobe Analytics-machtigingen - overzichtstabellen
 
@@ -26,7 +25,7 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Aangepaste kalender | x |  |  |  | Hiermee krijgt u toegang tot Algemeen > Kalender aanpassen in Report Suite Manager. |
 | Data feeds Manager | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Gegevensfeeds in de bovenste navigatie Analytics. |
 | API voor gegevensherstel | x |  |  |  | Biedt toegang tot de API voor gegevensherstel |
-| Gegevensbronbeheer | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Gegevensbronnen in de bovenste navigatie Analytics. Vereist het machtigingsitem &#39;Report Suite Mgmt&#39;. |
+| Gegevensbronbeheer | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Gegevensbronnen in de bovenste navigatie Analytics. Vereist het machtigingsitem &#39;Report Suite Mgmt&#39;. |
 | Standaardwaarden | x |  |  |  | Hiermee krijgt u toegang tot de afzonderlijke rapportsuite-instellingen > Standaardwaarden in Rapportsuite Manager. |
 | Exclusief door IP Adres | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Uitsluiten door IP in de bovenste navigatie Analytics. |
 | Zoekmethoden | x |  |  |  | Hiermee krijgt u toegang tot Conversie > Methoden zoeken in Report Suite Manager. |
@@ -74,20 +73,20 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 
 | Analyse | Beheer | Toegangsbeheer | Alleen-rapportfuncties | Vervangen | Beschrijving |
 | --- | --- | --- | --- | --- | --- |
-| Code Manager | x |  |  |  | Bewaren voor oudere doeleinden. Hiermee krijgt u toegang tot Beheer > Codebeheer. In de meeste gevallen gebruikt u de bibliotheken die in Adobe Experience Platform Launch zijn opgenomen. |
+| Code Manager | x |  |  |  | Bewaren voor oudere doeleinden. Hiermee krijgt u toegang tot Beheer > Alle beheerders > Codebeheer. In de meeste gevallen gebruikt u de bibliotheken die in Adobe Experience Platform Launch zijn opgenomen. |
 | Codebeheer - Webservices | x |  |  |  | Hiermee krijgt u toegang tot de codecontrole via de 1.4-API. |
-| Rapportageopties verbergen | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Bedrijfsinstellingen > Rapportsets verbergen. Biedt de mogelijkheid om een rapportsuite in de organisatie te verbergen, ongeacht de toegang tot de rapportsuite. |
-| Integraties (maken) | x |  |  |  | Biedt toegang tot Beheer > Gegevensconnectors en stelt de gebruiker in staat gegevensconnectors te maken. |
-| Integraties (verwijderen) | x |  |  |  | Biedt toegang tot Beheer > Gegevensconnectors en stelt de gebruiker in staat gegevensconnectors te verwijderen. |
-| Integraties (update) | x |  |  |  | Biedt toegang tot Beheer > Gegevensconnectors en stelt de gebruiker in staat bestaande verbindingsconfiguraties te wijzigen. |
-| Logboeken | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Logboeken. |
+| Rapportageopties verbergen | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Rapportsets verbergen. Biedt de mogelijkheid om een rapportsuite in de organisatie te verbergen, ongeacht de toegang tot de rapportsuite. |
+| Integraties (maken) | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Gegevensconnectors en kan de gebruiker gegevensconnectors maken. |
+| Integraties (verwijderen) | x |  |  |  | Hiermee krijgt de gebruiker toegang tot Beheer > Alle beheerders > Gegevensconnectors en kan de gebruiker gegevensconnectors verwijderen. |
+| Integraties (update) | x |  |  |  | Biedt toegang tot Beheer > Alle admin > Gegevensconnectors en stelt de gebruiker in staat bestaande verbindingsconfiguraties te wijzigen. |
+| Logboeken | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Logbestanden. |
 | Logboeken - Webservices | x |  |  |  | Biedt toegang tot pull-logs via de 1.4-API. |
-| Handelingen in behandeling | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Bedrijfsinstellingen > Handelingen in behandeling. |
-| Beveiliging | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Bedrijfsinstellingen > Beveiligingsbeheer. |
-| Gebruik van server calls | x |  |  |  | Biedt toegang tot Admin > Gebruik van de Vraag van de Server. |
-| Ondersteuning | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Bedrijfsinstellingen > Ondersteuningsgegevens. |
-| Traffic-beheer | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Verkeersbeheer. |
-| Webservices | x |  |  |  | Geeft toegang tot Admin > Bedrijfsinstellingen > Webservices. |
+| Handelingen in behandeling | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Handelingen in behandeling. |
+| Beveiliging | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Beveiligingsbeheer. |
+| Gebruik van server calls | x |  |  |  | Hiermee krijgt u toegang tot beheerprogramma > gebruik van serveroproepen. |
+| Ondersteuning | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Ondersteuningsinformatie. |
+| Traffic-beheer | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Verkeersbeheer. |
+| Webservices | x |  |  |  | Geeft toegang tot Admin > Al admin > de montages van het Bedrijf > de Diensten van het Web. |
 | Activity Map |  | x |  |  | Hiermee krijgt u toegang tot Gereedschappen > Activity Map. Hiermee kan de gebruiker de extensie Activity Map gebruiken. |
 | Ad Hoc Analysis-licentiegebruikers |  | x |  |  | Ad Hoc Analysis is aan het einde van zijn levensduur. [Meer informatie](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Analysis Workspace Access |  | x |  |  | Biedt toegang tot Analysis Workspace. Gebruikers moeten tot deze groep (voorkeur) of Rapporten &amp; Toegang Analytics behoren om Adobe Analytics te kunnen gebruiken. |
@@ -101,10 +100,10 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Huidige data |  |  | x |  | Hiermee schakelt u de optie in om de huidige gegevens in rapporten en analyses weer te geven. |
 | Toegang tot rapporten en analyses |  |  | x |  | Hiermee krijgt u toegang tot rapporten en analyses. Gebruikers moeten tot deze groep of Analysis Workspace Access (voorkeur) behoren om Adobe Analytics te kunnen gebruiken. |
 | Advertising Analytics-beheer |  |  |  | x | Niet gebruikt. |
-| Co-branding |  |  |  | x | Niet meer gebruikt. Hiermee krijgt u toegang tot Beheer > Bedrijfsinstellingen > Co-branding. |
+| Co-branding |  |  |  | x | Niet meer gebruikt. Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Co-branding. |
 | Excel-gebruikers |  |  |  | x | Niet gebruikt. |
 | Mobiele toepassingsbeheerder |  |  |  | x | Niet gebruikt. |
-| Machtigingsbeheer |  |  |  | x | Niet meer gebruikt. Hiermee krijgt u toegang tot de oudere gebruikersbeheerinterface via Beheer > Gebruikersbeheer. |
+| Machtigingsbeheer |  |  |  | x | Niet meer gebruikt. Hiermee krijgt u toegang tot de oudere gebruikersbeheerinterface via Beheer > Alle beheerders > Gebruikersbeheer. |
 | Machtigingen (lezen) - Webservices |  |  |  | x | Niet meer gebruikt. Hiermee kan de gebruiker de machtigingen voor verouderde analyses weergeven met de Admin API. Gebruik in plaats hiervan de Adobe Admin Console. |
 | Machtigingen (schrijven) - Webservices |  |  |  | x | Niet meer gebruikt. Hiermee kan de gebruiker de machtigingen voor verouderde analyses bewerken met de Admin API. Gebruik in plaats hiervan de Adobe Admin Console. |
 | Voorkeuren |  |  |  | x | Niet gebruikt. |
