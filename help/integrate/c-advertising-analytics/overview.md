@@ -2,11 +2,10 @@
 description: Ontdek alles wat u met Advertising Analytics kunt doen in deze gedetailleerde handleiding, inclusief de vereiste machtigingen, en de beschikbare afmetingen en metriek.
 title: Een gids voor Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-translation-type: tm+mt
-source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 93%
+source-wordcount: '1257'
+ht-degree: 91%
 
 ---
 
@@ -57,13 +56,13 @@ Analytics heeft twee machtigingen die automatisch worden verleend aan Analytics-
   <tr> 
    <td colname="col1"> <p>Advertising Analytics-beheer </p> </td> 
    <td colname="col2"> <p>Hiermee kunnen gebruikers zoekaccounts voor advertenties instellen/bewerken/weergeven. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Beheer</span> &gt; <span class="uicontrol"> Gebruikersbeheer</span> &gt; <span class="uicontrol"> groepen</span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken</span> &gt; <span class="uicontrol"> Analytics-tools aanpassen</span> &gt; <span class="uicontrol"> Advertising Analytics-beheer</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Beheer</span>  &gt;  <span class="uicontrol"> Alle beheerders  </span>  &gt;  <span class="uicontrol"> Gebruikersbeheer</span>  &gt;  <span class="uicontrol"> Groepen</span> &gt; Toegang tot <span class="uicontrol">  alle rapporten </span> bewerken &gt; Analytische gereedschappen  <span class="uicontrol">  </span>   <span class="uicontrol"> aanpassen&gt;Advertising Analytics-beheer</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Aanmelden bij adminconsole.adobe.com</span> &gt; <span class="uicontrol"> Producten</span> &gt; <span class="uicontrol"> Productprofiel</span> &gt; <span class="uicontrol"> Tabblad Toestemmingen</span> &gt; <span class="uicontrol"> Analytics-tools</span> &gt; <span class="uicontrol"> Advertising Analytics-beheer</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics-configuratie </p> </td> 
    <td colname="col2"> <p>Hiermee kunnen gebruikers rapportsuites configureren die moeten worden ingericht voor Advertising Analytics. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Beheer</span> &gt; <span class="uicontrol"> Gebruikersbeheer</span> &gt; <span class="uicontrol"> Groepen</span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken</span> &gt; <span class="uicontrol"> Rapportsuite-tools aanpassen</span> &gt; <span class="uicontrol"> Advertising Analytics-configuratie</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt;  <span class="uicontrol"> All admin  </span>  &gt;  <span class="uicontrol"> User management</span>  &gt;  <span class="uicontrol"> groups</span> &gt;  <span class="uicontrol"> Edit All Report Access</span> &gt;  <span class="uicontrol">  </span>   <span class="uicontrol"> Customize Report Suite Tools&gt;Advertising Analytics Configuration</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Aanmelden bij adminconsole.adobe.com</span> &gt; <span class="uicontrol"> Producten</span> &gt; <span class="uicontrol"> Productprofiel</span> &gt; <span class="uicontrol"> Tabblad Toestemmingen</span> &gt; <span class="uicontrol"> Rapportsuite-tools</span> &gt; <span class="uicontrol"> Advertising Analytics-configuratie</span></span> </td> 
   </tr> 
  </tbody> 
