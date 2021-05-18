@@ -4,14 +4,13 @@ title: Activity Map inschakelen
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '371'
 ht-degree: 7%
 
 ---
-
 
 # Activity Map inschakelen{#enable-activity-map}
 
@@ -23,7 +22,7 @@ De module Activity Map maakt deel uit van het bestand AppMeasurement.js (dat zic
 
 U kunt geen gegevens over de Activity Map verzamelen, tenzij u deze versie (of hoger) van AppMeasurement bijwerkt.
 
-1. Download de nieuwste AppMeasurement-code (AppMeasurement_Javascript-1.6.zip) door naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]** te gaan en [deze ](https://docs.adobe.com/content/help/en/analytics/implementation/js/overview.html) te implementeren.
+1. Download de nieuwste AppMeasurement-code (AppMeasurement_Javascript-1.6.zip) door naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** te gaan en [deze ](https://docs.adobe.com/content/help/en/analytics/implementation/js/overview.html) te implementeren.
 
    Wij hebben sommige [code van de steekproefimplementatie ](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) omvat om u te helpen de veranderingen visualiseren die aan de code door de module van de Activity Map te omvatten zijn aangebracht.
 
@@ -38,7 +37,7 @@ U kunt geen gegevens over de Activity Map verzamelen, tenzij u deze versie (of h
 
 1. Onderbreek dit rapport onderaan door **[!UICONTROL Activity Map Link by Region]** om de verbinding/het gebied voor die pagina te zien:  ![](assets/am_breakdown.png){width=&quot;400px&quot;}
 
-## Stap 2. Rapporten {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4} voor Activity Map inschakelen
+## Stap 2. Rapporten Activity Map inschakelen {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
 Eerst, moet u Activity Map rapporten op een rapport-reeks niveau toelaten.
 
@@ -49,7 +48,7 @@ Eerst, moet u Activity Map rapporten op een rapport-reeks niveau toelaten.
 
 1. Na ongeveer een uur, controleer [het Rapport van de Pagina van de Activity Map ](/help/analyze/activity-map/activitymap-reporting-analytics.md), dat alle pagina&#39;s toont waar de gebruikers op een verbinding klikten.
 
-## Stap 3. Gebruikers toevoegen aan toegangsgroep {#section_4C7A47BB7DEF4AFFBC276392467F9675} Activity Mappen
+## Stap 3. Gebruikers toevoegen aan de toegangsgroep Activity Map {#section_4C7A47BB7DEF4AFFBC276392467F9675}
 
 1. Klik op **[!UICONTROL Add Users to Group]**.
 
