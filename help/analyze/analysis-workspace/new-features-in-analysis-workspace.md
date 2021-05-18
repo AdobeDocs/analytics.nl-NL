@@ -5,9 +5,9 @@ title: Nieuwe functies in Analysis Workspace
 feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '8213'
+source-wordcount: '8217'
 ht-degree: 90%
 
 ---
@@ -435,7 +435,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 8 maart 2018.
    <td colname="col2"> <p>Voor de onlangs uitgebrachte aangepaste sjablonen hebben we het volgende veranderd: </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">Bovenaan het project (bij de titel) is een sjabloonpictogram toegevoegd om de modus Sjabloon bewerken beter te onderscheiden van het gebruik van een sjabloon als beginpunt voor een project. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">U kunt niet-beheerders toestaan om Workspace-projectsjablonen te maken (opslaan als) en te bewerken, op voorwaarde dat ze beschikken over de machtiging Projecten maken/cureren in Analysis Workspace. (<span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> User Management </span> &gt; <span class="uicontrol"> Groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> &gt; <span class="uicontrol"> Customize Analytics Tools </span> &gt; <span class="uicontrol"> Create/Curate Projects in Analysis Workspace </span> </span>). </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">U kunt niet-beheerders toestaan om Workspace-projectsjablonen te maken (opslaan als) en te bewerken, op voorwaarde dat ze beschikken over de machtiging Projecten maken/cureren in Analysis Workspace. ( <span class="ignoretag"> <span class="uicontrol"> Beheer </span> &gt; <span class="uicontrol"> Alle beheerders </span> &gt; <span class="uicontrol"> Gebruikersbeheer </span> &gt; <span class="uicontrol"> Groepen </span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span> &gt; <span class="uicontrol"> Analytische gereedschappen aanpassen </span> &gt; &lt;a 13/&gt; Create/Curate Projecten in Analysis Workspace </span> </span>).<span class="uicontrol"> </span></li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -545,7 +545,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bijdrage-analyse: <a href="https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > melding voor tokens </a> </p> </td> 
-   <td colname="col2"> <p>Als uw bedrijf een beperkt aantal tokens voor bijdrage-analyse heeft, wordt nu een melding weergegeven in de Analysis Workspace-interface wanneer u een token opgebruikt. Zo weet u precies hoeveel tokens u nog hebt.  </p> <p>(Beheerder-gebruikers: door de groepstoestemmingen te bewerken kunt u aangeven wie deze tokens wel en niet kan gebruiken. Deze toestemming heet "Anomaly Detection and Contribution Analysis" (Anomaliedetectie en bijdrage-analyse) en is te vinden onder <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> User Management </span>&gt; <span class="uicontrol"> Edit groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> <span class="uicontrol"> </span> <span class="uicontrol"> </span>&gt; Customize Report Suite Tools &amp; Reports.)  </p> </td> 
+   <td colname="col2"> <p>Als uw bedrijf een beperkt aantal tokens voor bijdrage-analyse heeft, wordt nu een melding weergegeven in de Analysis Workspace-interface wanneer u een token opgebruikt. Zo weet u precies hoeveel tokens u nog hebt.  </p> <p>(Beheerder-gebruikers: door de groepstoestemmingen te bewerken kunt u aangeven wie deze tokens wel en niet kan gebruiken. De toestemming wordt genoemd "Anomaly Detection and Contribution Analysis" onder <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> All admin </span> &gt; <span class="uicontrol"> User management </span> <span class="uicontrol"> Edit groups </span> &gt; <span class="uicontrol"> Edit All Report Access &lt;a1 1/&gt; &gt; <span class="uicontrol"> Rapportsuite-gereedschappen aanpassen </span> &gt; <span class="uicontrol"> Gereedschappen en rapporten </span>. ) </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV-bestanden met multi-bytetekens </p> </td> 
@@ -1249,4 +1249,4 @@ Als u een project opslaat, wordt de titel op het browsertabblad weergegeven als 
 
 Beheerders kunnen [!UICONTROL Analysis Workspace]-projecten van de ene gebruiker naar de andere overdragen.
 
-Navigeer naar **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Transfer]** om projecten over te dragen.
+Navigeer naar **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > **[!UICONTROL Transfer]** om projecten over te brengen.
