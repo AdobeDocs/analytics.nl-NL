@@ -3,8 +3,7 @@ description: Logbestanden waarmee u kunt zien wanneer gebruikers zich aanmelden,
 title: Logboeken
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 2%
@@ -15,13 +14,13 @@ ht-degree: 2%
 
 Logbestanden waarmee u kunt zien wanneer gebruikers zich aanmelden, hoe ze deze gebruiken, gebruiken, gebruiken, gebruiken, rapporten met suites en Admin wijzigen.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Logs]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Logs]**
 
 ## Beheerderslogboek {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
 Het beheerderlogboek rapporteert alle veranderingen die door beheerders in admin hulpmiddelen worden aangebracht. Het logboek verstrekt een gateway aan user-defined rapporten van om het even welke drie logboeken. U kunt zoeken naar gebeurtenissen die binnen een bepaald datumbereik overeenkomen met de geselecteerde criteria.
 
-## Gebruik- en toegangslogboek {#section_6FBAF92D9EA244809C45A78A2F0A7232}
+## Gebruik en toegangslogboek {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
 Met [!UICONTROL Usage and Access Log] kunt u het rapportgebruik op gebruikersaccountniveau evalueren. Zo worden bijvoorbeeld acties voor openen, maken, bijwerken, delen en verwijderen in Analysis Workspace bijgehouden. Hierdoor kunt u beter zien wie de werkruimte gebruikt en hoe vaak.
 
@@ -71,7 +70,7 @@ Met [!UICONTROL Usage and Access Log] kunt u het rapportgebruik op gebruikersacc
 | API-methode | Er is een API-aanroep gemaakt. |
 
 
-## Logboek voor wijziging van suite rapporteren {#section_3864966639414BBEA871F4D0352F56B6}
+## Logboek voor wijzigen van suite rapporteren {#section_3864966639414BBEA871F4D0352F56B6}
 
 In het logbestand Wijziging van rapportsuite worden de wijzigingen weergegeven die u buiten Admin hebt aangebracht in uw rapportsuites.
 
