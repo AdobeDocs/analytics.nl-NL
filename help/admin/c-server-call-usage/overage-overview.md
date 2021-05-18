@@ -2,14 +2,13 @@
 description: Overzicht van de functionaliteit voor het gebruik van Adobe Analytics-serveroproepen.
 title: Overzicht van serveroproepgebruik
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
-
 
 # Overzicht van serveroproepgebruik
 
@@ -81,7 +80,7 @@ Hier is een korte inleiding op essentiële terminologie voor het Gebruik van de 
  </tbody> 
 </table>
 
-## Machtiging {#section_FCC58EB635954A32990D4E67B52B4369} voor serveroproepgebruik
+## Machtiging voor serveroproepgebruik {#section_FCC58EB635954A32990D4E67B52B4369}
 
 De toestemming van het Gebruik van de Vraag van de Server wordt automatisch verleend aan Analytics Admins. Gebruikers kunnen het dashboard bekijken en waarschuwingen voor serveroproepen maken. Beheerders kunnen deze machtiging aan niet-beheerders verlenen.
 
@@ -103,7 +102,7 @@ De toestemming van het Gebruik van de Vraag van de Server wordt automatisch verl
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Meld u aan bij Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigeer naar <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Gebruikersbeheer </span> &gt; <span class="uicontrol"> Groepen </span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span> &gt; <span class="uicontrol"> Analytics Tools </span> &gt; <span class="uicontrol"> Aanpassen </span> &gt; &lt;a 13/&gt; Gebruik van serveroproep </span> </span><span class="uicontrol"> </span></li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigeer naar <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> All admin </span> &gt; <span class="uicontrol"> User management </span> &gt; <span class="uicontrol"> groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> &gt; <span class="uicontrol"> Analytics Tools </span> &gt; 113/&gt; </span> &gt; <span class="uicontrol"> Gebruik van serveroproep </span> </span> aanpassen<span class="uicontrol"> </span></li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
@@ -114,4 +113,3 @@ De toestemming van het Gebruik van de Vraag van de Server wordt automatisch verl
   </tr> 
  </tbody> 
 </table>
-
