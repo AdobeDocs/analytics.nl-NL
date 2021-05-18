@@ -5,8 +5,7 @@ title: Een sjabloon voor een importbestand genereren
 topic-fix: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 3%
@@ -26,7 +25,7 @@ De gegevensbronsjabloon is een .txt-bestand dat u met elke teksteditor kunt open
 Zie [Bestandsreferentie importeren](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) voor meer informatie.
 
 1. Meld u aan bij Analytics.
-1. Selecteer **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]** in de koptekst van de Intel Health Care Management Suite.
+1. Selecteer **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]** in de koptekst van de Intel Health Care Management Suite.
 1. Selecteer op het tabblad **[!UICONTROL Data Sources Create]** een sjablooncategorie en typ deze.
 1. Controleer de activeringsinstructies/informatie en klik op **[!UICONTROL Activate]**.
 
@@ -36,9 +35,9 @@ Zie [Bestandsreferentie importeren](/help/import/c-data-sources/datasrc-template
    |--- |--- |--- |
    | 1 | Naam | De malplaatjenaam die de Analyses in de Manager van Gegevensbronnen toont. |
    | 1 | E-mail | Het e-mailadres dat alle meldingen ontvangt die betrekking hebben op het gebruik van deze gegevensbronsjabloon. |
-   | 3 | Selectievakje voor bijbehorende kosten | Schakel het selectievakje in om aan te geven dat u de aan het gebruik van deze gegevensbronsjabloon gekoppelde kosten accepteert. |
+   | 1 | Selectievakje voor bijbehorende kosten | Schakel het selectievakje in om aan te geven dat u de aan het gebruik van deze gegevensbronsjabloon gekoppelde kosten accepteert. |
    | 2 | Metrisch kiezen | Selecteer de metriek die u wilt importeren met deze gegevensbron. Analytics raadt bepaalde metriek aan die op de Categorie en het Type van Gegevensbron wordt gebaseerd die in Stap 3 wordt geselecteerd.  Als u een andere metrische waarde wilt opgeven, typt u de naam in een leeg veld en schakelt u het selectievakje in om de metrische waarde in te schakelen. |
-   | 1 | Metrische gegevens toewijzen | Selecteer een gebeurtenis Analytics om elke geïmporteerde metrische waarde te ontvangen die is geselecteerd in Wizard pagina 2.  Deze zouden nieuwe, niet toegewezen Gebeurtenissen moeten zijn die u eerder namen hebt toegewezen die aan de ingevoerde metrische gegevens beantwoorden die zij door Gegevensbronnen zullen ontvangen.  Als een eVar-, product- of trackingcode-variabele een doelvariabele is en de geüploade waarden overeenkomen met bestaande vastgelegde waarden, voegen de geüploade gebeurtenissen in feite metriek toe aan bestaande waarden. Bijvoorbeeld, zou u metrisch van &quot;Offline Orden&quot;met een de gegevensdimensie van Producten kunnen tot stand brengen die reeds de Weergaven van het Product, Controles, en Orden als bestaande metriek heeft. |
+   | 3 | Metrische gegevens toewijzen | Selecteer een gebeurtenis Analytics om elke geïmporteerde metrische waarde te ontvangen die is geselecteerd in Wizard pagina 2.  Deze zouden nieuwe, niet toegewezen Gebeurtenissen moeten zijn die u eerder namen hebt toegewezen die aan de ingevoerde metrische gegevens beantwoorden die zij door Gegevensbronnen zullen ontvangen.  Als een eVar-, product- of trackingcode-variabele een doelvariabele is en de geüploade waarden overeenkomen met bestaande vastgelegde waarden, voegen de geüploade gebeurtenissen in feite metriek toe aan bestaande waarden. Bijvoorbeeld, zou u metrisch van &quot;Offline Orden&quot;met een de gegevensdimensie van Producten kunnen tot stand brengen die reeds de Weergaven van het Product, Controles, en Orden als bestaande metriek heeft. |
    | 4 | Dimension voor gegevens kiezen | Selecteer de gegevensafmetingen om de geïmporteerde metriek van deze gegevensbron uit te splitsen. Analytics raadt bepaalde gegevensafmetingen aan op basis van het gegevenstype Gegevensbron dat in stap 3 is geselecteerd.  Als u een andere gegevensdimensie wilt opgeven, typt u de naam in een leeg veld en schakelt u het selectievakje in om de gegevensdimensie in te schakelen. |
    | 5 | Dimension kaartgegevens | Selecteer een standaardrapport of eVar om elke ingevoerde gegevensdimensie te ontvangen die in pagina 4 van de Tovenaar wordt geselecteerd. |
 
