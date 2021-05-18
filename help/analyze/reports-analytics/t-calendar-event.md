@@ -2,16 +2,15 @@
 description: Stappen om kalendergebeurtenissen toe te voegen en gedeelde gebeurtenissen te beheren.
 title: Kalendergebeurtenissen
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
-feature: Calendar
+feature: Kalender
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: e89be5ce-3ec0-4b2d-8574-7bd2041ed18a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 95%
+source-wordcount: '310'
+ht-degree: 96%
 
 ---
-
 
 # Kalendergebeurtenissen
 
@@ -23,7 +22,7 @@ Stappen om kalendergebeurtenissen toe te voegen en gedeelde gebeurtenissen te be
 
 Voor rapporten met trends in de loop van de tijd kunt u gebeurtenissen grafisch weergeven en zien of campagnes of andere gebeurtenissen uw siteverkeer, omzet, of een ander cijfer hebben beïnvloed. Het instellen van een agendagebeurtenis omvat de naamgeving van de gebeurtenis, het instellen van de datums, het toevoegen van notities en het instellen van een pictogram. Als u bijvoorbeeld Social gebruikt, kunt u een kalendergebeurtenis maken om aan te tonen dat er een correlatie was tussen een toename van het siteverkeer en de vermelding van een product door een beroemdheid op Twitter.
 
-1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
+1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Calendar events]**.
 1. Klik op **[!UICONTROL Add New]**.
    1. Geef de kalendergebeurtenis een naam onder **[!UICONTROL Title]**.
    1. Geef de **[!UICONTROL Event Date]** op.
@@ -38,7 +37,7 @@ Voor rapporten met trends in de loop van de tijd kunt u gebeurtenissen grafisch 
    1. Klik op **[!UICONTROL Save]**.
 
    Hierdoor worden kalendergebeurtenissen veel bruikbaarder. Analisten hebben nu de mogelijkheid om een overlay op de rapporten van hun gebruikers af te dwingen om meer context te verstrekken.
-1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
+1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Calendar events]**.
 1. Geef onder Gedeelde agendagebeurtenissen een van de volgende opties op:
 
        | **Mij kopiëren** | Dit voegt een kopie toe aan uw lijst met gebeurtenissen onder dezelfde naam als het origineel. U kunt echter geen updates/wijzigingen zien die door de eigenaar van de gebeurtenis zijn aangebracht. |
