@@ -5,10 +5,9 @@ title: DFA-integratie
 feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '2593'
+source-wordcount: '2592'
 ht-degree: 0%
 
 ---
@@ -24,7 +23,7 @@ Stap door de Integratie van DFA-gegevensconnectors.
 De configuratiepagina&#39;s bieden een overzicht van de integratie, samen met nuttige koppelingen voor meer informatie. Aan deze integratie zijn zowel Adobe- als DoubleClick-kosten gekoppeld. Neem contact op met de desbetreffende vertegenwoordigers van de verkoper voor beide organisaties en zorg ervoor dat u de structuur van de kosten begrijpt.
 
 1. Meld u aan bij [!DNL Adobe Analytics].
-1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**.
+1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]**.
 
    ![](assets/data_connectors.png)
 
@@ -44,7 +43,7 @@ De configuratiepagina&#39;s bieden een overzicht van de integratie, samen met nu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 3 </td> 
+   <td colname="col1"> 1 </td> 
    <td colname="col2"> Integratienaam </td> 
    <td colname="col3"> De integratienaam die Genesis in de Actieve Lijst van de Integratie van de rapportreeks toont. </td> 
   </tr> 
