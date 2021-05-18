@@ -4,14 +4,13 @@ subtopic: Dashboards
 title: Dashboards en rapporten
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1692'
 ht-degree: 1%
 
 ---
-
 
 # Dashboards en rapporten
 
@@ -43,11 +42,11 @@ Houd er rekening mee dat bepaalde vaak weergegeven rapporten niet kunnen worden 
 
 Naast de dashboards die u creeert, zijn de volgende voorverpakte dashboards inbegrepen voor elke gebruiker:
 
-**[!UICONTROL Components]> [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] >[!UICONTROL Local Sites]**
+**[!UICONTROL Components]>  [!UICONTROL All components] >  [!UICONTROL Dashboards] >  [!UICONTROL Shared Dashboards] >[!UICONTROL Local Sites]**
 
 Met dit aanpasbare dashboard kunt u rapporten in de meegeleverde sjabloon plaatsen.
 
-**[!UICONTROL Components]>  [!UICONTROL Dashboards] >  [!UICONTROL Shared Dashboards] >[!UICONTROL Site Operations Dashboard]**
+**[!UICONTROL Components]>  [!UICONTROL All components] >  [!UICONTROL Dashboards] >  [!UICONTROL Shared Dashboards] >[!UICONTROL Site Operations Dashboard]**
 
 Dit dashboard biedt u een overzicht van de belangrijkste metriek met betrekking tot uw websiteverrichtingen. De rapporten op dit dashboard omvatten:
 
@@ -62,7 +61,7 @@ Gebruik [!UICONTROL Dashboard Manager] om dashboards uit te geven en te beheren,
 
 Zie [Dashboards beheren](/help/analyze/reports-analytics/dashboard-manage.md).
 
-## Een dashboard {#task_54EFBED59BDC4418A919E6EF84AB9CFF} maken
+## Een dashboard maken {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
 Stappen die beschrijven hoe u een dashboard maakt.
 
@@ -176,7 +175,7 @@ U kunt de volgende rapporten van de Inhoud van de Gebruiker tot stand brengen do
 
 1. Klik op **[!UICONTROL Save.]**
 
-## Gegevens van dashboard en rapportlet bewerken {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
+## Dashboard- en rapportgegevens bewerken {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
 
 U kunt gegevensinstellingen wijzigen op het dashboard- of rapportniveau. U kunt bijvoorbeeld de rapportsuite wijzigen, de rapportsuite vergrendelen, datums wijzigen, segmenten toepassen enzovoort. U kunt een dashboard ook personaliseren door de vertrouwelijkheidsverklaring van uw bedrijf op te nemen, en HTML, XML, Web API, en gegevens CSV in aangepaste rapportages te omvatten.
 
@@ -188,7 +187,7 @@ t_dashboard_edit.xml
 
 **Dashboard- en rapportgegevens bewerken**
 
-1. Klik **[!UICONTROL Components]** > **[!UICONTROL Dashboards]** > *dashboardnaam* om een dashboard te openen.
+1. Klik **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]** > *dashboardnaam* om een dashboard te openen.
 1. Klik op **[!UICONTROL Layout]**.
 
 | Naar | Doe dit |
@@ -206,7 +205,7 @@ t_dashboard_edit.xml
 | Een dashboard afdrukken | Klik in een dashboard op [!UICONTROL More] > Afdrukken. |
 | Een dashboard opslaan | Klik in een dashboard op Opslaan als en geef een naam op. |
 
-## Een dashboard {#task_603BDE7700B945699AF5514C2DEB81F7} cobrandmerken
+## Een dashboard onder een merknaam plaatsen {#task_603BDE7700B945699AF5514C2DEB81F7}
 
 Stappen die beschrijven hoe u een afbeelding uploadt voor weergave op een dashboard.
 
@@ -216,7 +215,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]**.
 1. Klik op [!UICONTROL Company Settings] op de pagina.**[!UICONTROL Co-Brand the Adobe Experience Cloud]**
 1. Klik op **[!UICONTROL Enable Co-Branding]**.
 1. Blader om de afbeelding te uploaden en klik vervolgens op **[!UICONTROL Save.]**
