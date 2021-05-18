@@ -1,14 +1,13 @@
 ---
 title: Queryparameters voor dataverzameling
 description: Vermeldt alle parameters van het vraagkoord die in beeldverzoeken worden gebruikt.
-translation-type: tm+mt
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
+source-git-commit: 7025d132da9d281da6d57973a195a5e86a39bf18
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '688'
 ht-degree: 5%
 
 ---
-
 
 # Queryparameters voor dataverzameling
 
@@ -46,6 +45,7 @@ De volgende lijst maakt een lijst van alle parameters van het vraagkoord Adobe g
 | `j` | Geen | De JavaScript-versie die in de browser is geïnstalleerd. |
 | `k` | Geen | Wordt gebruikt in de [Cookie-ondersteuning](/help/components/dimensions/cookie-support.md)-dimensie. |
 | `l1` -  `l3` | [`list1` -  `list3`](../vars/page-vars/list.md) | Lijstvariabelen. |
+| `lrt` | Geen | De &quot;laatste verzoektiming,&quot;die de roundtrip tijd voor het laatste verzoek, in milliseconden is. Deze wordt alleen verzonden wanneer meerdere aanvragen van een pagina worden verzonden of wanneer de pagina een toepassing van één pagina is (SPA). |
 | `mid` | Geen | Experience Cloud bezoeker-id. |
 | `ndh` | Geen | Markering die aangeeft of de afbeeldingsaanvraag afkomstig is van AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Hiermee kunt u bepalen waar cookies worden ingesteld. |
