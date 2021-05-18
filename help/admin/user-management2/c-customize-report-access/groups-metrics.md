@@ -6,8 +6,7 @@ title: Toestemmingen voor cijfers aanpassen
 feature: Admin Tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 10%
@@ -18,7 +17,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt de Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** ingetrokken.
+>Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** ingetrokken.
 
 Laat toestemmingen voor verkeersmetriek, omzettingsmetriek, douanegebeurtenissen, oplossingsgebeurtenissen, en inhoud bewust toe.
 
