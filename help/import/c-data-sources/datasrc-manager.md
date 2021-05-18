@@ -5,8 +5,7 @@ title: Gegevensbronbeheer
 topic-fix: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -17,7 +16,7 @@ ht-degree: 1%
 
 Creeer, beheer, en bekijk het gebruik van gegevensbronnen in een rapportreeks.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
 
 ## Tab maken {#section_74603FDA3D8842E49F1A51624A06DE20}
 
@@ -25,7 +24,7 @@ Met het tabblad [!UICONTROL Create] kunt u een nieuwe gegevensbron configureren 
 
 De selectie die u maakt op het tabblad Maken bepaalt de eerste velden in de sjabloon die wordt gemaakt. Zie [Een sjabloon voor een importbestand genereren](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
-## Tab {#section_DD559A6701CA45F1A85E56F840F48DBE} beheren
+## Tab beheren {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
 <table id="table_F74696EC855441328CFE0BF49C20D9B0"> 
  <thead> 
