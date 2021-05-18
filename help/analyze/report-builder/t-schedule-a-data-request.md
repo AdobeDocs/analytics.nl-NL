@@ -4,14 +4,13 @@ title: Een gegevensaanvraag plannen
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
-
 
 # Workbooks plannen
 
@@ -23,7 +22,7 @@ Bovendien, nadat u een werkboekprogramma in Report Builder creeert, kunt u het p
 
 >[!NOTE]
 >
->U moet Excel 2007 of het verenigbaarheidspak hebben geïnstalleerd om een werkboek te plannen. U kunt maximaal 10 geplande werkboeken per Report Builder licentie hebben. U kunt dit aantal echter verhogen door andere licenties af te trekken. Ga hiertoe naar **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**. Een werkboek dat is gepland (of geupload aan de Bibliotheek van het Werkboek) en niet (bijgewerkt, vervangen) in meer dan 28 maanden is aangeraakt zal worden geschrapt.
+>U moet Excel 2007 of het verenigbaarheidspak hebben geïnstalleerd om een werkboek te plannen. U kunt maximaal 10 geplande werkboeken per Report Builder licentie hebben. U kunt dit aantal echter verhogen door andere licenties af te trekken. Ga hiertoe naar **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Report Builder Reports]**. Een werkboek dat is gepland (of geupload aan de Bibliotheek van het Werkboek) en niet (bijgewerkt, vervangen) in meer dan 28 maanden is aangeraakt zal worden geschrapt.
 
 >[!NOTE]
 >
@@ -83,4 +82,3 @@ Bovendien, nadat u een werkboekprogramma in Report Builder creeert, kunt u het p
 1. Klik **[!UICONTROL OK]**, dan klik **[!UICONTROL Exit]**.
 
    Report Builder toont het geplande werkboek in [Geplande Manager van de Taak](/help/analyze/report-builder/r-arb-scheduled-reports.md).
-
