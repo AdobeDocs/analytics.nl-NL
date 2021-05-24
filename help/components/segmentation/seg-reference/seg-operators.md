@@ -4,10 +4,9 @@ title: Vergelijkingsoperatoren voor segmenten
 feature: Segmentatie
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-translation-type: tm+mt
-source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
+source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -28,7 +27,7 @@ Het enige ondersteunde jokerteken is de asterisk: *. Als u naar * moet zoeken, k
 | is niet gelijk aan | Retourneert alle items die niet exact overeenkomen met de ingevoerde waarde.  Opmerking:  Als u jokertekens gebruikt, gebruikt u de operator &quot;komt niet overeen&quot;. |
 | is gelijk aan een van de | Retourneert items die exact overeenkomen met een waarde in het invoerveld (maximaal 500 items). Als u bijvoorbeeld &quot;Zoekresultaten, homepage&quot; invoert met deze operator, komt dit overeen met &quot;Zoekresultaten&quot; en &quot;Homepage&quot; en telt u als 2 items. Het invoerveld voor deze operator wordt door komma&#39;s gescheiden. |
 | is niet gelijk aan | Hiermee worden items aangegeven die exact overeenkomen met een waarde in het invoerveld (maximaal 500 items) en worden vervolgens alleen items zonder deze waarden geretourneerd. Als u bijvoorbeeld &quot;Zoekresultaten, homepage&quot; invoert met deze operator, worden &quot;Zoekresultaten&quot; en &quot;Homepage&quot; geïdentificeerd en worden deze vervolgens uitgesloten van de geretourneerde items. Dit voorbeeld telt 2 objecten. Het invoerveld voor deze operator wordt door komma&#39;s gescheiden. |
-| contains | Retourneert items die de subtekenreeksen van de ingevoerde waarden vergelijken. Als de regel voor &quot;Pagina&quot; bijvoorbeeld &quot;Zoeken&quot; bevat, komt deze overeen met elke pagina waarop de subtekenreeks &quot;Zoeken&quot; staat, inclusief &quot;Zoekresultaten&quot;, &quot;Zoeken&quot; en &quot;Zoeken&quot;. |
+| contains | Retourneert items die de subtekenreeksen van de ingevoerde waarden vergelijken. Als de regel voor &quot;Pagina&quot; bijvoorbeeld &quot;Zoeken&quot; bevat, komt deze overeen met elke pagina waarop de subtekenreeks &quot;Zoeken&quot; staat, inclusief &quot;Zoekresultaten&quot;, &quot;Zoeken&quot; en &quot;Zoeken&quot;. De component &quot;contains&quot; is niet hoofdlettergevoelig in Adobe Analytics, maar is wel hoofdlettergevoelig in Customer Journey Analytics. |
 | bevat niet | Retourneert het omgekeerde van de regel &quot;contains&quot;. Met name worden alle items die overeenkomen met de ingevoerde waarde niet opgenomen in de ingevoerde waarden. Als de regel voor &quot;Pagina&quot; bijvoorbeeld geen &quot;Zoeken&quot; bevat, komt deze niet overeen met een pagina waarop de subtekenreeks &quot;Zoeken&quot; staat, inclusief &quot;Zoekresultaten&quot;, &quot;Zoeken&quot; en &quot;Zoeken&quot;. Deze waarden worden niet opgenomen in de resultaten. |
 | bevat alle | Retourneert items die worden vergeleken met de subtekenreeksen, inclusief meerdere waarden die aan elkaar zijn gekoppeld. Als u bijvoorbeeld &quot;Zoekresultaten&quot; invoert met deze operator, komen de resultaten van de zoekopdracht overeen met die van de zoekresultaten, maar niet met de resultaten van de zoekopdracht afzonderlijk. Deze komt overeen met de zoekresultaten en de gevonden resultaten samen. Het invoerveld voor deze operator wordt door spaties gescheiden (100 woorden). |
 | bevat niet alle | Identificeert items die worden vergeleken met subtekenreeksen, inclusief meerdere waarden die aan elkaar zijn gekoppeld, en retourneert alleen items zonder deze waarden. Als u bijvoorbeeld &quot;Zoekresultaten&quot; invoert met deze operator, worden &quot;Zoekresultaten&quot; en &quot;Zoekresultaten&quot; (maar niet &quot;Zoeken&quot; of &quot;Resultaten&quot; afzonderlijk) geïdentificeerd en worden deze items uitgesloten. Het invoerveld voor deze operator wordt door spaties gescheiden (100 woorden). |
@@ -38,7 +37,7 @@ Het enige ondersteunde jokerteken is de asterisk: *. Als u naar * moet zoeken, k
 | start niet met | Retourneert alle items die niet beginnen met de tekens of tekenreeksen van de ingevoerde waarden. Dit is het omgekeerde van de operator &quot;start with&quot;. |
 | eindigt met | Retourneert items die eindigen met het teken of de tekenreeksen van de ingevoerde waarde. |
 | eindigt niet met | Retourneert alle items die niet eindigen met de tekens of tekenreeksen van de ingevoerde waarde. Dit is het omgekeerde van de operator &quot;ends with&quot;. |
-| matches | Retourneert items die exact overeenkomen op basis van een opgegeven numerieke waarde of tekenreekswaarde. Opmerking:  Gebruik deze operator bij het gebruik van jokertekens (globbing). |
+| matches | Retourneert items die exact overeenkomen op basis van een opgegeven numerieke waarde of tekenreekswaarde. De clausule &quot;overeenkomsten&quot; is hoofdlettergevoelig in Adobe Analytics en in Customer Journey Analytics. **Opmerking**: Gebruik deze operator bij het gebruik van jokertekens (globbing). Voorbeelden van globbings:<ul><li>`a*e` zou overeenkomen  `ae`,  `abcde`,  `adobe`en  `a whole sentence`</li><li>`adob*` zou overeenkomen  `adobe`,  `adobe analytics`en  `adobo recipe`</li><li>`*dobe` zou overeenkomen  `dobe`,  `adobe`en  `cute little dobe`</li></ul> |
 | komt niet overeen | Retourneert alle items die niet exact overeenkomen met de ingevoerde waarde. Opmerking:  Gebruik deze operator bij het gebruik van jokertekens (globbing). |
 | exists | Retourneert het aantal items dat bestaat. Als u bijvoorbeeld de dimensie Pagina&#39;s niet gevonden evalueert met de operator &quot;exist&quot;, wordt het aantal bestaande foutpagina&#39;s geretourneerd. |
 | bestaat niet | Retourneert alle items die niet bestaan. Als u bijvoorbeeld de afmetingen Pagina&#39;s niet gevonden hebt geëvalueerd met de operator &#39;&#39;bestaat niet&#39;&#39;, wordt het aantal pagina&#39;s geretourneerd waarop deze foutpagina niet bestaat. |
