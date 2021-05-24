@@ -2,16 +2,15 @@
 description: Een uitvalvisualisatie configureren.
 title: Een uitvalvisualisatie configureren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: Visualizations
+feature: Visualisaties
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
+source-git-commit: d2edb8921afa2aeb7ce4b932f1e1320acac7de70
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 2%
 
 ---
-
 
 # Een uitvalvisualisatie configureren
 
@@ -53,7 +52,7 @@ U kunt plakken op eVars, met inbegrip van het verhandelen van eVars en [listVars
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Eventueel pad </p> <p>(Standaard) </p> </td> 
-   <td colname="col2"> <p>Bezoekers worden geteld die "uiteindelijk" landen op de volgende pagina in het pad, maar niet noodzakelijkerwijs bij de volgende hit. </p> </td> 
+   <td colname="col2"> <p>Bezoekers worden meegeteld dat "uiteindelijk" zal landen op de volgende pagina in het pad tijdens die sessie, maar niet noodzakelijkerwijs bij de volgende hit. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Volgende keer </p> </td> 
@@ -62,7 +61,7 @@ U kunt plakken op eVars, met inbegrip van het verhandelen van eVars en [listVars
  </tbody> 
 </table>
 
-## Afvalinstellingen {#section_0C7C89D72F0B4D6EB467F278AC979093}
+## Fallout-instellingen {#section_0C7C89D72F0B4D6EB467F278AC979093}
 
 | Instelling | Beschrijving |
 |--- |--- |
