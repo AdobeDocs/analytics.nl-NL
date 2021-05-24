@@ -2,10 +2,10 @@
 title: Machtigingen voor productprofielen voor Analytics Tools
 description: Gebruik de machtigingsitems Analytics Tools om toegang te verlenen tot functies in Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 3%
+source-wordcount: '494'
+ht-degree: 4%
 
 ---
 
@@ -21,16 +21,10 @@ Met de machtigingsitems Analytics Tools hebt u toegang tot functies in Adobe Ana
 | Logboeken | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Logbestanden. |
 | Logboeken - Webservices | Biedt toegang tot pull-logs via de 1.4-API. |
 | Traffic-beheer | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Verkeersbeheer. |
-| Machtigingsbeheer | Niet meer gebruikt. Hiermee krijgt u toegang tot de oudere gebruikersbeheerinterface via Beheer > Alle beheerders > Gebruikersbeheer. |
-| Machtigingen (lezen) - Webservices | Niet meer gebruikt. Hiermee kan de gebruiker de machtigingen voor verouderde analyses weergeven met de Admin API. Gebruik in plaats hiervan de Adobe Admin Console. |
-| Machtigingen (schrijven) - Webservices | Niet meer gebruikt. Hiermee kan de gebruiker de machtigingen voor verouderde analyses bewerken met de Admin API. Gebruik in plaats hiervan de Adobe Admin Console. |
 | Beveiliging | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Beveiligingsbeheer. |
 | Ondersteuning | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Ondersteuningsinformatie. |
 | Webservices | Geeft toegang tot Admin > Al admin > de montages van het Bedrijf > de Diensten van het Web. |
-| Single Sign-On | Niet meer gebruikt. Verleent toegang tot de vervangen Enige Sign-On Dienst. |
 | Handelingen in behandeling | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Handelingen in behandeling. |
-| Co-branding | Niet meer gebruikt. Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Co-branding. |
-| Voorkeuren | Niet gebruikt. |
 | Rapportageopties verbergen | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Rapportsets verbergen. Biedt de mogelijkheid om een rapportsuite in de organisatie te verbergen, ongeacht de toegang tot de rapportsuite. |
 | Excel-gebruikers | Niet gebruikt. |
 | Activity Map | Hiermee krijgt u toegang tot Gereedschappen > Activity Map. Hiermee kan de gebruiker de extensie Activity Map gebruiken. |
