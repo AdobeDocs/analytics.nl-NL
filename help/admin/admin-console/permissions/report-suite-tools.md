@@ -2,9 +2,9 @@
 title: Machtigingen voor productprofielen voor rapportsuite
 description: Begrijp elk toestemmingspunt onder de Hulpmiddelen van de Reeks van het Rapport.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '623'
 ht-degree: 3%
 
 ---
@@ -15,10 +15,6 @@ Gebruik deze pagina om elk toestemmingspunt onder de Hulpmiddelen van de Reeks v
 
 | Machtigingsitem voor Reeks-gereedschappen rapporteren | Beschrijving |
 |------|------|
-| Data Warehouse | Niet gebruikt. Gebruik in plaats hiervan &#39;Rapport Aangepaste Data Warehouse&#39;. |
-| Site Catalyst | Niet gebruikt. Gebruik in plaats hiervan &#39;Analysis Workspace Access&#39;. |
-| Rapportsets (lezen) | Niet gebruikt. |
-| Rapportsets (schrijven) | Niet gebruikt. |
 | Traffic-beheer | Niet gebruikt. |
 | Beheer van rapportsuite | Hiermee krijgt u toegang tot Rapportsuite Manager, maar wijzigingen zijn niet toegestaan. |
 | Accountoverzicht | Hiermee krijgt u toegang tot Algemeen > Algemene accountinstellingen in Report Suite Manager. |
@@ -27,7 +23,6 @@ Gebruik deze pagina om elk toestemmingspunt onder de Hulpmiddelen van de Reeks v
 | Betaalde zoekopdracht | Hiermee krijgt u toegang tot Algemeen > Betaalde zoekopdracht in Rapportbeheer. |
 | Aanpassing menu | Hiermee krijgt u toegang tot Algemeen > Menu&#39;s aanpassen in Report Suite Manager. |
 | Real Time Report Configuration | Verleent toegang tot Echt - tijd in de Manager van de Reeks van het Rapport. Gebruik het toestemmingspunt &quot;Rapport RealTime&quot;om toegang tot het rapport zelf te verlenen. |
-| Video-instellingen | Niet gebruikt. |
 | Verkeersvariabelen | Verleent toegang tot Verkeer > de Variabelen van het Verkeer in de Manager van de Reeks van het Rapport. |
 | Kanalen | Biedt toegang tot marketingkanalen, waaronder Marketing Channel Manager, Marketing Channel Processing Rules en Marketing Channel Expiration in Report Suite Manager. |
 | Kosten | Biedt toegang tot marketingkanalen > Kosten marketingkanaal in Report Suite Manager. |
@@ -38,7 +33,6 @@ Gebruik deze pagina om elk toestemmingspunt onder de Hulpmiddelen van de Reeks v
 | Variabelen weergeven | Hiermee krijgt u toegang tot Conversie > Variabelen weergeven in Report Suite Manager. |
 | Standaardwaarden | Hiermee krijgt u toegang tot de afzonderlijke rapportsuite-instellingen > Standaardwaarden in Rapportsuite Manager. |
 | Verwerkingsregels | Geeft toegang tot Algemeen > de Regels van de Verwerking en Algemeen > de Regels van de Bot in de Manager van de Reeks van het Rapport. |
-| Advertising Analytics-configuratie | Niet gebruikt. |
 | Anomaliedetectie | Biedt toegang tot Anomaly Detection in Analysis Workspace. |
 | Contributieanalyse | Hiermee krijgt u toegang tot het contextmenu &#39;Contributieanalyse uitvoeren&#39; in Analysis Workspace. |
 | Kanaalrapport | Hiermee krijgt u toegang tot het rapport Kanaaloverzicht in Rapporten en Analyses via de marketingkanalen. |
@@ -50,19 +44,13 @@ Gebruik deze pagina om elk toestemmingspunt onder de Hulpmiddelen van de Reeks v
 | Dagelijkse terugkeerbezoeken | Hiermee krijgt u toegang tot Bezoekersbewaring > Dagelijkse terugkeerbezoeken in Rapporten en Analytics. |
 | Gegevensbronbeheer | Geeft toegang tot Admin > Al admin > Gegevensbronnen in Analytics hoogste navigatie. Vereist het machtigingsitem &#39;Report Suite Mgmt&#39;. |
 | Exclusief door IP Adres | Hiermee krijgt u toegang tot Beheer > Uitsluiten door IP in de bovenste navigatie Analytics. |
-| Laatste 100 bezoekers | Niet gebruikt. |
-| Oudere ClickMap | Niet gebruikt. Gebruik in plaats hiervan Activity Map onder Analytics Tools. |
-| Oudere ClickMap installatie | Niet gebruikt. Gebruik in plaats hiervan Activity Map onder Analytics Tools. |
 | Terugkerende bezoeken | Hiermee krijgt u toegang tot Bezoekersbewaring > Bezoekopdrachten in Rapporten en Analyse. |
-| Overzichtsrapport van mobiele app | Niet gebruikt. |
 | Classificaties | Hiermee krijgt u toegang tot alle indelingsinstellingen in Rapportbeheer. Dit machtigingsitem omvat: <br>Verkeer > Verkeersclassificaties<br>Conversie > Conversieclassificaties<br>Conversie > Classificatiehiërarchieën<br>Marketingkanalen > Marketing Channel Classifications<br>App Management > App Classifications<br>Media Management > Media Classifications<br>AEM > AEM Assets Classifications<br>Adobe Campaign > Adobe Classifications |
 | Mijn aanbevolen rapporten | Hiermee krijgt u toegang tot Sitemetriek > Mijn aanbevolen rapporten in Rapporten en Analyse. |
-| Samenvattingsrapport van bedrijf | Niet gebruikt. |
-| Afbeelding | Niet gebruikt. |
-| KPI/Gage ReportLet | Niet gebruikt. |
-| Totalen van rapportsuite | Niet gebruikt. |
-| Tekstrapport | Niet gebruikt. |
-| Overzichtsrapport voor gebruik | Niet gebruikt. |
-| Webbronnen | Niet gebruikt. |
-| Sociaal | Niet gebruikt. |
+| Dashboard Image Reports &amp; Analyses | Biedt toegang tot Dashboard Reports. |
+| Dashboard Metric Gage Reports &amp; Analytics | Biedt toegang tot Dashboard Reports. |
+| Rapporten &amp; Analyse dashboard Report Suite Summary Report | Biedt toegang tot Dashboard Reports. |
+| Dashboard Rapporten &amp; AnalyseTekstrapportlet | Biedt toegang tot Dashboard Reports. |
+| Rapporten &amp; Analyse dashboard Report Suite Summary Report | Biedt toegang tot Dashboard Reports. |
+| Dashboard voor rapporten en analyses - extern rapport | Biedt toegang tot Dashboard Reports. |
 | API voor gegevensherstel | Biedt toegang tot de API voor gegevensherstel |
