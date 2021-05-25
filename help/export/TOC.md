@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Hulplijn exporteren
 user-guide-description: Gebruik Gegevensfeeds als u onbewerkte gegevens per uur of per dag wilt exporteren. Gebruik Data Warehouse om een spreadsheetuitvoer van gegevens op te halen.
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 84%
+source-wordcount: '283'
+ht-degree: 81%
 
 ---
 
@@ -27,6 +26,7 @@ ht-degree: 84%
       + [Referentie gegevenskolom](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Opzoeken van paginagebeurtenissen](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Opzoeken van mobiele kenmerken](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [Merchandising-instanties zoeken op in post_product_list](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Speciale tekens](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Te laat arriveren](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Veelgestelde vragen over gegevensinvoer](analytics-data-feed/df-faq.md)
@@ -49,7 +49,7 @@ ht-degree: 84%
    + Door Adobe gehoste FTP-accounts instellen {#set-up-ftp-accounts}
       + [FTP-accounts instellen - overzicht](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [Classificaties](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
-      + [Gegevensbronnen](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
+      + [Databronnen](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Gegevensfeeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Data Warehouse levert rapporten](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
