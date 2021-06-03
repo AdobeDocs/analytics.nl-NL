@@ -5,10 +5,9 @@ title: Conversievariabelen (eVar)
 feature: Admin Tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1577'
 ht-degree: 0%
 
 ---
@@ -29,7 +28,7 @@ Als verkeersmeting of het kleven gewenst is, wordt het gebruiken van verkeersvar
 
 >[!NOTE]
 >
->Er kan slechts één waarde worden opgeslagen in een eVar in een afbeeldingsaanvraag. Als de veelvoudige waarden in een waarde van de eVar worden gewenst, adviseren wij dat u [variabelen van de Lijst (lijstvars)](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) uitvoert.
+>Er kan slechts één waarde worden opgeslagen in een eVar in een afbeeldingsaanvraag. Als de veelvoudige waarden in een waarde van de eVar worden gewenst, adviseren wij dat u [variabelen van de Lijst (lijstvars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) uitvoert.
 
 ## Conversievariabelen - beschrijvingen {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -89,7 +88,7 @@ Beschrijvingen van velden die worden gebruikt wanneer [conversievariabelen bewer
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising</span> </p> <p>(alleen eVar) </p> </td> 
-   <td colname="col2"> <p>De variabelen van de koophandel kunnen één van twee syntaxis volgen: </p> <p> <b>Productsyntaxis</b>:</span> Koppelt de waarde van de eVar aan een product. Opmerking:  Als de Syntaxis van Producten wordt geselecteerd, is de Merchandising Bindende sectie van de Gebeurtenis gehandicapt en niet selecteerbaar voor uitgeven. Voor deze syntaxis zijn Binding Events niet van toepassing. </p> </p> <p> <b>Conversievariabele syntaxis</b>:</span> Koppelt de eVar alleen aan een product als er een bindingsgebeurtenis plaatsvindt. In dit geval selecteert u de gebeurtenissen die fungeren als Bindende gebeurtenissen. </p> <p>Als u deze instelling wijzigt zonder uw JavaScript-code dienovereenkomstig bij te werken, gaan er gegevens verloren. Zie <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html"> Variabelen veranderen</a>. </p> </td> 
+   <td colname="col2"> <p>De variabelen van de koophandel kunnen één van twee syntaxis volgen: </p> <p> <b>Productsyntaxis</b>:</span> Koppelt de waarde van de eVar aan een product. Opmerking:  Als de Syntaxis van Producten wordt geselecteerd, is de Merchandising Bindende sectie van de Gebeurtenis gehandicapt en niet selecteerbaar voor uitgeven. Voor deze syntaxis zijn Binding Events niet van toepassing. </p> </p> <p> <b>Conversievariabele syntaxis</b>:</span> Koppelt de eVar alleen aan een product als er een bindingsgebeurtenis plaatsvindt. In dit geval selecteert u de gebeurtenissen die fungeren als Bindende gebeurtenissen. </p> <p>Als u deze instelling wijzigt zonder uw JavaScript-code dienovereenkomstig bij te werken, gaan er gegevens verloren. Zie <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html"> Variabelen veranderen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising Binding-gebeurtenis</span> </p> <p>(alleen eVar) </p> </td> 
