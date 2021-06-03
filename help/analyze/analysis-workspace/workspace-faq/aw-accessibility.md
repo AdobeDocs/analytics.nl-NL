@@ -1,16 +1,15 @@
 ---
 description: Functies voor toegankelijkheidsondersteuning in Analysis Workspace
 title: Toegankelijkheid in Analysis Workspace
-feature: Workspace Basics
+feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 2%
+source-wordcount: '638'
+ht-degree: 1%
 
 ---
-
 
 # Toegankelijkheid in Analysis Workspace
 
@@ -50,7 +49,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rec
 
 ### Sneltoetsen (sneltoetsen)
 
-[!UICONTROL Analysis Workspace] biedt een uitgebreide set  [sneltoetsen ](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) voor een naadloze workflow. Hieronder worden enkele algemene sneltoetsen voor navigatie, het maken van analyses en democratisering van inzichten weergegeven.
+[!UICONTROL Analysis Workspace] biedt een uitgebreide set  [sneltoetsen ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) voor een naadloze workflow. Hieronder worden enkele algemene sneltoetsen voor navigatie, het maken van analyses en democratisering van inzichten weergegeven.
 
 #### Navigatie
 
@@ -71,7 +70,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt boven > omlaag en links > rec
 | Ctrl + Shift + D | Nieuw datumbereik |
 | Ctrl + Shift + E | Nieuw segment |
 | Ctrl + Z | Ongedaan maken |
-| Houd Shift ingedrukt (in de dropzone van het deelvenstersegment) | Een [dropdown-filter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) maken |
+| Houd Shift ingedrukt (in de dropzone van het deelvenstersegment) | Een [dropdown-filter](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) maken |
 
 #### democratisering
 
@@ -92,7 +91,7 @@ Een schermlezer leest tekst die op het computerscherm wordt weergegeven. De pagi
 
 [!UICONTROL Analysis Workspace] streeft naar WCAG 2.1 AA-conformiteit, inclusief vereisten voor kleurcontrast.
 
-Bovendien kunnen gebruikers hun eigen voorkeurskleurenpalet voor een project instellen onder **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Projectkleurenpalet](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html).
+Bovendien kunnen gebruikers hun eigen voorkeurskleurenpalet voor een project instellen onder **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Projectkleurenpalet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html).
 
 ## Vereiste veldvalidatie in componentbuilders
 
