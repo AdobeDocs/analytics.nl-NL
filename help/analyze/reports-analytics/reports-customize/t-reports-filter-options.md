@@ -5,10 +5,9 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Grondbeginselen van rapporten en analyses
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
@@ -55,7 +54,7 @@ Komt overeen als de termijn overal in het lijnpunt wordt gevonden. Dit werkt het
 
 **Bevat niet**
 
-Komt overeen als de termijn nergens in het lijnpunt wordt gevonden. U kunt &quot;unspecified&quot;, &quot;none&quot;, &quot;keyword unavailable&quot; en andere [speciale waarden](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html) filteren uit rapporten die &quot;bevat niet&quot; gebruiken.
+Komt overeen als de termijn nergens in het lijnpunt wordt gevonden. U kunt &quot;unspecified&quot;, &quot;none&quot;, &quot;keyword unavailable&quot; en andere [speciale waarden](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) filteren uit rapporten die &quot;bevat niet&quot; gebruiken.
 
 Bevat niet: `none`
 
@@ -160,7 +159,7 @@ Wanneer u tot deze filters toegang hebt, kunt u rapportmetriek voor de punten zi
 1. Als u naar een item wilt zoeken, typt u een tekenreeks in het veld **[!UICONTROL Search]**.
 1. Klik op **[!UICONTROL OK]**.
 
-## Een correlatiefilter {#task_065042E384DA4BF3864C58AF2B88D6E2} toevoegen
+## Een correlatiefilter toevoegen {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
 Stappen die beschrijven hoe u een correlatiefilter kunt toevoegen.
 
