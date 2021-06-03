@@ -6,9 +6,9 @@ title: Rapporttoegang aanpassen - overzicht
 feature: Admin Tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '563'
 ht-degree: 5%
 
 ---
@@ -61,12 +61,12 @@ U kunt bijvoorbeeld een groep maken met toegang tot meerdere analyseprogramma&#3
    <td colname="col2"> <p>U kunt machtigingen aanpassen om toegang tot afmetingen op te nemen of uit te sluiten (naast metriek). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Alle huidige afmetingen en metriek binnen aangepaste groepen zijn automatisch gemigreerd naar de nieuwe categorieën. Als metriek is ingeschakeld voor een bestaande groep, krijgt deze standaard alle nieuw toegestane afmetingen (eVars en inhoud behouden) en maatstaven. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Indelingsrechten (voorheen, SAINT): De toegang tot classificaties wordt bepaald door toegang tot <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html"> variabele</a> waarop de classificatie is gebaseerd. </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Indelingsrechten (voorheen, SAINT): De toegang tot classificaties wordt bepaald door toegang tot <a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html"> variabele</a> waarop de classificatie is gebaseerd. </li> 
     </ul> <p>Zie <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Dimension-machtigingen aanpassen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Wordt alleen aanbevolen voor nieuwe klanten of klanten met bedrijven <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html"> die zijn ingericht in de Experience Cloud</a>. Er is een migratie gepland voor bestaande <span class="keyword"> Analytics</span>-klanten naar het <span class="keyword"> Experience Cloud</span>-identiteitsbeheersysteem. </p> <p>Meer informatie is beschikbaar in <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> de Migratie van de Gebruiker van de Analyse aan de Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>Wordt alleen aanbevolen voor nieuwe klanten of klanten met bedrijven <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html"> die zijn ingericht in de Experience Cloud</a>. Er is een migratie gepland voor bestaande <span class="keyword"> Analytics</span>-klanten naar het <span class="keyword"> Experience Cloud</span>-identiteitsbeheersysteem. </p> <p>Meer informatie is beschikbaar in <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> de Migratie van de Gebruiker van de Analyse aan de Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inhoud behouden </p> </td> 
