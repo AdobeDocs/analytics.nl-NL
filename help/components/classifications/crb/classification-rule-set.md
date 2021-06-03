@@ -4,10 +4,9 @@ subtopic: Classifications
 title: Classificatieregelsets
 feature: Admin Tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '356'
 ht-degree: 3%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 3%
 
 Een regelset is een groep classificatieregels voor een specifieke variabele. U past een variabele op de regelreeks toe. Als u veelvoudige regelreeksen voor één variabele wilt tot stand brengen, moet u elke regel toepassen die op veelvoudige rapportreeksen wordt geplaatst.
 
-## De pagina van de Bouwer van de Regel van de classificatie {#section_C60B0888C76D49C596EF19F11808B718}
+## Pagina met indelingsregels {#section_C60B0888C76D49C596EF19F11808B718}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
@@ -60,7 +59,7 @@ Geef de classificatieregel een naam, pas de variabele toe en geef instellingen v
 
 1. (Vereiste) Definieer de classificatiestructuur in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-   (Zie [Classificaties](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in Admin Tools helpen bij het toevoegen van classificaties.)
+   (Zie [Classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in Admin Tools helpen bij het toevoegen van classificaties.)
 
    Variabelen worden pas in het deelvenster [!UICONTROL New Rule Set] weergegeven nadat voor die variabele ten minste één classificatie is gedefinieerd.
 
