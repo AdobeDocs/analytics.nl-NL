@@ -5,11 +5,10 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Grondbeginselen van rapporten en analyses
 role: Business Practitioner, Administrator
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 4%
+source-wordcount: '868'
+ht-degree: 3%
 
 ---
 
@@ -39,10 +38,10 @@ Alleen beheerders kunnen een aangepast rapport maken. Wanneer u een douanerappor
 
 >[!MORELIKETHIS]
 >
->* [Menu aanpassen](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
+>* [Menu aanpassen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
 
 
-## Selecteer een datum- of datumbereik {#task_9BEF7D4D839A4748B76E8500D1406C34}
+## Selecteer een datum of een datumbereik {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
 De stappen die heet beschrijven om te gebruiken kiezen de tijdsperioden voor uw rapportgegevens.
 
@@ -73,7 +72,7 @@ Wanneer u een dashboard opent met rapporten met verschillende datumbereiken, kun
 
 1. Klik op **[!UICONTROL Run Report]**.
 
-## Datums {#task_95155C3700774B709F5FB81AE96B0824} vergelijken
+## Datums vergelijken {#task_95155C3700774B709F5FB81AE96B0824}
 
 Stappen die beschrijven hoe u de kalender kunt gebruiken om datumvergelijkingen tussen gerangschikte rapporten in werking te stellen.
 
@@ -87,7 +86,7 @@ U kunt geen datums vergelijken tussen trended-rapporten.
 
 >[!NOTE]
 >
->Als u een datumvergelijking op zeer belangrijke metriek in een dashboard wilt uitvoeren, kunt u de gegevens in [Report Builder ](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) trekken gebruikend twee afzonderlijke verzoeken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
+>Als u een datumvergelijking op zeer belangrijke metriek in een dashboard wilt uitvoeren, kunt u de gegevens in [Report Builder ](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) trekken gebruikend twee afzonderlijke verzoeken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
 
 Datums vergelijken tussen gerangschikte rapporten in rapporten en analyses:
 
@@ -97,7 +96,7 @@ Datums vergelijken tussen gerangschikte rapporten in rapporten en analyses:
 1. Selecteer de datums die u wilt gebruiken.
 1. Klik op **[!UICONTROL Run Report]**.
 
-## Een percentage weergeven als een grafiek {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
+## Een percentage weergeven als grafiek {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
 Stappen die beschrijven hoe te om of te specificeren om het percentage in een rapportlijst als grafiek te tonen.
 
@@ -178,7 +177,7 @@ Naast de grafische vertoning, geeft de lijst van het rapport u een percentagever
 1. Zoek de rapportsuite.
 1. Klik op **[!UICONTROL OK.]**
 
-## Rapportgranulariteit opgeven {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
+## Geef de granulariteit van het rapport op {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
 Stappen die beschrijven hoe de totalen van rapporten per uur, dag, week, maand, driemaandelijks, of jaarlijks worden weergegeven.
 
@@ -195,7 +194,7 @@ De tijdsperiode van het rapport bepaalt welke granulariteitsopties beschikbaar z
 1. Genereer een trendrapport, zoals **[!UICONTROL Site Content]** > **[!UICONTROL Pages.]**
 1. Klik op de koppeling **[!UICONTROL View by]** en klik vervolgens op een granulariteit.
 
-## Een rapport {#task_67CC818ACC3749839B69BDB2ED9AE6B8} voor de dag van de week uitvoeren
+## Een dagrapport uitvoeren {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
 Stappen die beschrijven hoe rapporten op een specifieke dag van de week, zoals over elke Maandag in een bepaalde datumwaaier in werking te stellen.
 
@@ -224,4 +223,4 @@ De meeste rapporten in Rapporten &amp; Analytics omvatten nu de knoop van het &q
 
 De knop is momenteel alleen beschikbaar als je gebruikersnaam volledige rechten heeft op Analysis Workspace.
 
-Voor meer informatie over alle manieren kunt u uw rapport aanpassen, zie [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) gids.
+Voor meer informatie over alle manieren kunt u uw rapport aanpassen, zie [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) gids.
