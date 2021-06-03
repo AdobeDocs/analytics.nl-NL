@@ -2,16 +2,15 @@
 description: Maak werkruimteprojecten op basis van standaard- of aangepaste sjablonen.
 title: Sjablonen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-feature: Workspace Basics
+feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 3%
+source-wordcount: '1376'
+ht-degree: 1%
 
 ---
-
 
 # Sjablonen
 
@@ -19,7 +18,7 @@ U kunt kiezen of u een project wilt maken van:
 
 * **Leeg project (standaard)**: Zie Een Analysis Workspace-project [ ](/help/analyze/analysis-workspace/home.md)maken voor instructies.
 * **Standaardsjabloon**: Deze sjablonen worden gemaakt door Adobe en worden samen met het product verzonden.
-* **Aangepaste sjabloon**: Deze sjablonen kunnen worden gemaakt, gedeeld of verwijderd door gebruikers met beheerdersrechten of door niet-beheerders, op voorwaarde dat hun de  [!UICONTROL Analysis Workspace: Save as Template] machtiging is verleend in de Admin Console. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
+* **Aangepaste sjabloon**: Deze sjablonen kunnen worden gemaakt, gedeeld of verwijderd door gebruikers met beheerdersrechten of door niet-beheerders, op voorwaarde dat hun de  [!UICONTROL Analysis Workspace: Save as Template] machtiging is verleend in de Admin Console. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -57,7 +56,7 @@ Wanneer u een Workspace voor het eerst opent, zijn sjablonen beschikbaar in de l
 
 U kunt deze vooraf ingevulde sjablonen ongewijzigd gebruiken of deze aan uw behoeften aanpassen (door bijvoorbeeld metriek of visualisaties toe te voegen of te vervangen) en ze onder een andere naam op te slaan.
 
-Hier volgt een videozelfstudie op [Standaardsjablonen in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
+Hier volgt een videozelfstudie op [Standaardsjablonen in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Hier zijn beschikbare sjablonen en de vragen die elke sjabloon kan beantwoorden.
 
@@ -81,7 +80,7 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 
 * **Magento: Marketing en handel**: Deze sjabloon verdeelt uw e-commerceconversie door kanaalattributie op de markt te brengen en biedt inzicht door zoekwoord, landingspagina, geografische locatie en meer. Zie voor een video-overzicht:
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### Media
 
@@ -119,7 +118,7 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 
 >[!NOTE]
 >
->Het malplaatje van Mensen en zijn bijbehorende metrisch van Mensen is beschikbaar voor gebruik slechts als deel van [het ApparaatCo-op van Adobe Experience Cloud](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/data/people.html).
+>Het malplaatje van Mensen en zijn bijbehorende metrisch van Mensen is beschikbaar voor gebruik slechts als deel van [het ApparaatCo-op van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html).
 
 Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde versie van de Unieke metrische Bezoekers is. Met de sjabloon Personen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. Met de sjabloon kunt u
 
@@ -135,7 +134,7 @@ Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde ver
 
 <!--This content is mirrored in the CDA doc.-->
 
-Met deze sjabloon kunt u essentiële gegevens over de prestaties van verschillende apparaten bekijken. Deze is alleen beschikbaar voor klanten die toegang hebben tot [Apparaatanalyse](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA).
+Met deze sjabloon kunt u essentiële gegevens over de prestaties van verschillende apparaten bekijken. Deze is alleen beschikbaar voor klanten die toegang hebben tot [Apparaatanalyse](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html) (CDA).
 
 * **Bijzondere notitie voor de leden van de coopgrafiek**: Toont welk gedeelte van uw rapportreeks bezoekers in gebieden bevat waar de co-op grafiek wordt gesteund, en gebieden waar het niet wordt gesteund.
 * **Identificatie van gebruikers**: Hiermee kunt u zien hoe vaak bezoekers van uw site worden geïdentificeerd met methoden die zijn gebaseerd op Apparaatanalyse.
