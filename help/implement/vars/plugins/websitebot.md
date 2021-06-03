@@ -2,9 +2,9 @@
 title: websiteBot
 description: Identificeer bots dynamisch met behulp van muisbeweging.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: c4b44b573732e7bcdafdac539dec8ee7b680aa92
+source-git-commit: 03584622a570281474d6f6e0a580d453b8ad8fec
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -19,16 +19,19 @@ Met de `websiteBot`-plug-in kunt u dynamisch bepalen of bezoekers van een bureau
 
 Deze plug-in voert twee controles uit:
 
-* Eerst wordt met de variabele `navigator.UserAgent` bepaald of het apparaat een desktopapparaat of een mobiel apparaat is. Mobiele apparaten worden genegeerd.
-* Als het een desktopapparaat is, wordt er een gebeurtenislistener toegevoegd voor muisbewegingen.
+* Ten eerste wordt in het geval van een bureaubladapparaat een gebeurtenislistener toegevoegd voor muisbeweging.
+* Vervolgens wordt met de variabele `navigator.UserAgent` bepaald of het apparaat een desktopapparaat of een mobiel apparaat is. Mobiele apparaten worden genegeerd.
 
-Als de gebruikersagent zich op een bureaublad bevindt en er geen muisbeweging wordt gedetecteerd, stelt de insteekmodule de variabele `websiteBot` in op `true`. Als de gebruikersagent een mobiel apparaat is of als muisbeweging wordt gedetecteerd, stelt de insteekmodule de variabele `websiteBot` in op `false`.
+Als de gebruikersagent zich op een bureaublad bevindt en er geen muisbeweging wordt gedetecteerd, kan de plug-in
+
+* Maak een [!UICONTROL Direct Call] regelaanroep (voor Adobe Experience Platform Launch), of
+* Maak een `s.tl` vraag om erop te wijzen de bezoeker geen bot is.
 
 ## Vereisten
 
 Adobe raadt het volgende aan voordat u deze plug-in gebruikt:
 
-* **eVar-instellingen** configureren: Stel een eVar in onder  [Conversievariabelen in de instellingen van de rapportsuite ](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) . Stel de vervaldatum in op **Nooit** en de toewijzing op **&quot;Oorspronkelijke waarde (Eerste)&quot;**.
+* **eVar-instellingen** configureren: Stel een eVar in onder  [Conversievariabelen in de instellingen van de rapportsuite ](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) . Stel de vervaldatum in op **Nooit** en de toewijzing op **&quot;Oorspronkelijke waarde (Eerste)&quot;**. Deze eVar moet in beide gevallen worden vastgesteld: wanneer of de [!UICONTROL Direct Call] regel of `s.tl` vraag in brand wordt gestoken.
 * **Verzamel gebruikersagent in een afzonderlijke variabele**: Verzamel de userAgent-tekenreeks in een aparte variabele om de effectiviteit van deze insteekmodule te controleren. Stel een eVar in op `navigator.UserAgent` bij elke druk om deze gegevens te verzamelen.
 
 ## Plug-in installeren met de aangepaste code-editor van Launch
