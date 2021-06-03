@@ -2,8 +2,10 @@
 description: Voeg of beheer server alle gebruiksalarm toe. Wanneer u opstelling een alarm, het op alle rapportsuites in alle login bedrijven van een het facturerings bedrijf van toepassing is.
 title: Gebruikswaarschuwingen voor serveroproep
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 2%
 
 ---
 
@@ -14,9 +16,9 @@ Wanneer u opstelling een alarm, het op alle rapportsuites in alle login bedrijve
 
 ## Overzicht
 
-Een nieuwe waakzame geroepen categorie **[!UICONTROL Server Calls Usage Alert]** is een deel van het bestaande [Waakzame Beheer](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) gebruikersinterface.
+Een nieuwe waarschuwingscategorie met de naam **[!UICONTROL Server Calls Usage Alert]** maakt deel uit van de bestaande [Waarschuwingsbeheer](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)-gebruikersinterface.
 
-Het is pre-bevolkt met **1 standaardalarm** dat binnen om het even welk login bedrijf verschijnt dat toegang tot de eigenschap van het Gebruik van de Vraag van de Server heeft. Dit alarm brengt een bericht teweeg dat aan alle beheerders van het login bedrijf wordt gericht als één van de volgende criteria wordt voldaan:
+Het is vooraf bevolkt met **1 standaardalarm** die binnen om het even welk login bedrijf verschijnt die toegang tot de eigenschap van het Gebruik van de Vraag van de Server heeft. Dit alarm brengt een bericht teweeg dat aan alle beheerders van het login bedrijf wordt gericht als één van de volgende criteria wordt voldaan:
 
 * &quot;Om het even welk&quot;gebruik van de servervraag dat &quot;boven of gelijk aan&quot;100% voor om het even welk server-vraagtype is u gerechtigd aan, OF
 * &quot;Om het even welk&quot;gebruik van de servervraag dat &quot;boven of gelijk aan&quot;90% voor om het even welk server-vraagtype is u gerechtigd aan, OF
@@ -26,8 +28,8 @@ Het is pre-bevolkt met **1 standaardalarm** dat binnen om het even welk login be
 
 U kunt tot het gebruiksalarm van de servervraag op twee manieren toegang hebben:
 
-* Klik **[!UICONTROL Manage Alerts]** in de hogere juiste hoek op het Huidige lusje van het Gebruik of het Gebruik van de Reeks van het Rapport tabel, of
-* Ga naar **[!UICONTROL Components]** > **[!UICONTROL Alerts]** in Adobe Analytics.
+* Klik op **[!UICONTROL Manage Alerts]** in de rechterbovenhoek op het tabblad Huidig gebruik of het tabblad Gebruik van de rapportsuite, of
+* Navigeer naar **[!UICONTROL Components]** > **[!UICONTROL Alerts]** in Adobe Analytics.
 
 ## Waarschuwingen voor serveroproepgebruik maken {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
@@ -47,10 +49,12 @@ Als u aanvullende waarschuwingen wilt maken,
    * **Vervaldatum**: De vervaldatum is standaard één jaar vanaf de aanmaakdatum van de waarschuwing.
    * **Een waarschuwing verzenden wanneer**:
 
-      * Om het even welk van deze Metriek TriggerAdd het type van servervraag/s als metrisch en specificeer de waakzame drempel door de bepaling en de drempel te selecteren:
-         * is boven of gelijk aan
+      * Een van deze maateenheden activeert
+Voeg het type van servervraag/s als metrisch toe en specificeer de waakzame drempel door de bepaling en de drempel te selecteren:
+         * boven of gelijk aan
          * lager is dan of gelijk is
-      * MetGeef de drempel en voorwaarde op (boven of gelijk aan of onder of gelijk aan) voor de verbruiksperiode.
+      * Met
+Geef de drempel en voorwaarde voor de verbruiksperiode op (boven of gelijk aan of onder of gelijk aan).
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -65,12 +69,12 @@ Waarschuwingen beheren:
 
    | Handeling | Definitie |
    |--- |--- |
-   | + Toevoegen | U opent de [waarschuwingsfunctie](/help/admin/c-server-call-usage/scu-alerts.md) door te klikken [!UICONTROL + Add]. |
+   | + Toevoegen | Open [Alert Builder](/help/admin/c-server-call-usage/scu-alerts.md) door op [!UICONTROL + Add] te klikken. |
    | Tag | Label waarschuwingen om deze voor gebruiksgemak in te delen. |
    | Verwijderen | U kunt alle waarschuwingen verwijderen, behalve standaardwaarschuwingen. |
    | Naam wijzigen | U kunt de naam van alle waarschuwingen wijzigen, behalve standaardwaarschuwingen. |
    | Goedkeuren | Waarschuwingen goedkeuren om ze &quot;officieel&quot; te maken. |
    | In-/uitschakelen | U kunt alle waarschuwingen in- of uitschakelen, ook de standaardwaarschuwingen. |
-   | Vernieuwen | Wanneer een of meer waarschuwingen zijn geselecteerd, kunnen deze worden vernieuwd. Hierdoor worden de vervaldatums verlengd tot één jaar vanaf de dag waarop [!UICONTROL Renew] werd geklikt, ongeacht de oorspronkelijke vervaldatum. |
-   | Exporteren naar CSV | Zie Rapport [downloadverbruik](/help/admin/c-server-call-usage/report-suite-usage.md) |
+   | Vernieuwen | Wanneer een of meer waarschuwingen zijn geselecteerd, kunnen deze worden vernieuwd. Hiermee worden de vervaldatums van de clips uitgebreid tot één jaar vanaf de dag waarop [!UICONTROL Renew] is aangeklikt, ongeacht de oorspronkelijke vervaldatum. |
+   | Exporteren naar CSV | Zie [Rapport van het Gebruik van de download](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
