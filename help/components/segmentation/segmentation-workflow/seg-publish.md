@@ -1,14 +1,13 @@
 ---
 description: Hiermee kunt u het segment gebruiken voor marketingactiviteiten in de Audience Library, Target en Audience Manager.
 title: Segmenten publiceren naar Experience Cloud
-feature: Segmentation
+feature: Segmentatie
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 3%
+source-wordcount: '1261'
+ht-degree: 1%
 
 ---
 
@@ -25,10 +24,10 @@ We hebben ook het maximumaantal publiceerbare Adobe Analytics-segmenten verhoogd
 
 ## Vereisten
 
-* Zorg ervoor dat de rapportsuite waarin u dit segment opslaat [ingeschakeld is voor de Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). Anders kunt u het niet naar de Experience Cloud publiceren.
-* Zorg ervoor u in een rapportreeks werkt die [in kaart gebracht aan uw organisatie van Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html) is.
+* Zorg ervoor dat de rapportsuite waarin u dit segment opslaat [ingeschakeld is voor de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html). Anders kunt u het niet naar de Experience Cloud publiceren.
+* Zorg ervoor u in een rapportreeks werkt die [in kaart gebracht aan uw organisatie van Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) is.
 * Zorg ervoor dat uw organisatie Experience Cloud-id&#39;s gebruikt.
-* Voordat u segmenten kunt publiceren, moet uw beheerder de [!UICONTROL Segment Publishing]-machtiging toewijzen aan een productprofiel in de [Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) en u toevoegen aan het productprofiel.
+* Voordat u segmenten kunt publiceren, moet uw beheerder de [!UICONTROL Segment Publishing]-machtiging toewijzen aan een productprofiel in de [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) en u toevoegen aan het productprofiel.
 
 
 ## Overwegingen
@@ -36,7 +35,7 @@ We hebben ook het maximumaantal publiceerbare Adobe Analytics-segmenten verhoogd
 * **Limieten** voor rapportsuite: U kunt tot 75 segmenten per rapportreeks publiceren. Deze limiet geldt. Als u al 75 gepubliceerde segmenten hebt, kunt u geen extra segmenten publiceren tot u unpublish genoeg segmenten om onder de 75-segmentdrempel te krijgen.
 * **Lidmaatschapgrenzen**: Het publiek dat  [!DNL Experience Cloud] uit Adobe Analytics wordt gedeeld, mag niet meer dan 20 miljoen unieke leden tellen.
 * **Gegevensprivacy**: Het publiek wordt niet gefilterd op basis van de verificatiestatus van een bezoeker. Als een bezoeker in een niet-geverifieerde en geverifieerde status door uw site kan bladeren, kan een bezoeker door handelingen die plaatsvinden wanneer een bezoeker niet-geverifieerd is, toch worden opgenomen in een publiek. Bekijk [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html) om de volledige privacyimplicaties van het delen van publiek te begrijpen.
-* Voor een bespreking over de **verschillen tussen segmenten in [!DNL Adobe Analytics] en[!DNL Audience Manager]**, ga [hier](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
+* Voor een bespreking over de **verschillen tussen segmenten in [!DNL Adobe Analytics] en[!DNL Audience Manager]**, ga [hier](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
 ## Tijdlijn voor segmentpublicatie
 
@@ -97,7 +96,7 @@ De volgende schermafbeeldingen tonen u hoe te om AAM UUID op uw browser terug te
 
 **Methode 1: Adobe Experience Cloud Debugger gebruiken**
 
-1. Download en installeer [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html) in de Chrome Web Store.
+1. Download en installeer [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/testing-and-validation/debugger.html) in de Chrome Web Store.
 1. Start de foutopsporing wanneer u een pagina laadt.
 1. Blader naar de sectie Audience Manager en zoek de AAM UUID die op de huidige browserpagina is ingesteld.
 (`50814298273775797762943354787774730612` in het onderstaande voorbeeld)
@@ -108,14 +107,14 @@ De volgende schermafbeeldingen tonen u hoe te om AAM UUID op uw browser terug te
 
 1. Chrome Developer Tools starten voordat een pagina wordt geladen
 1. Laad de pagina en controleer Toepassingen > Cookies. De AAM UUID moet worden ingesteld in de externe
-Demdex cookie ([adobe.demdex.net](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html) in het onderstaande voorbeeld). De velddemdex is de AAM UUID-set
+Demdex cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) in het onderstaande voorbeeld). De velddemdex is de AAM UUID-set
 in de browser (`50814298273775797762943354787774730612` in het onderstaande voorbeeld).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
 ## Audience Manager [!UICONTROL Visitor Profile Viewer] gebruiken
 
-De AAM UUID in de browser wordt standaard gebruikt wanneer [!UICONTROL Visitor Profile Viewer] wordt geladen. Als u de taakuitvoering voor andere gebruikers verifieert, voert u een UUID in het veld UUID in en klikt u op [!UICONTROL Refresh]. Raadpleeg [Bezoekersprofielviewer](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/visitor-profile-viewer.html) voor meer informatie.
+De AAM UUID in de browser wordt standaard gebruikt wanneer [!UICONTROL Visitor Profile Viewer] wordt geladen. Als u de taakuitvoering voor andere gebruikers verifieert, voert u een UUID in het veld UUID in en klikt u op [!UICONTROL Refresh]. Raadpleeg [Bezoekersprofielviewer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html) voor meer informatie.
 
 ![](assets/aam-vpv.png)
 
