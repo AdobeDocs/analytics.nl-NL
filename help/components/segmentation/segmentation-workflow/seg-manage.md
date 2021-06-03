@@ -1,13 +1,12 @@
 ---
 description: In Segmentbeheer kunt u op verschillende manieren segmenten curven, zoals delen, filteren, labelen, goedkeuren, kopiëren, verwijderen en markeren als favorieten.
 title: Segmenten beheren
-feature: Segmentation
+feature: Segmentatie
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '422'
 ht-degree: 5%
 
 ---
@@ -23,17 +22,17 @@ De manager van het Segment van Analytics toont u alle segmenten u bezit en die m
 
 ## Hoe kan ik-video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-Deze [Adobe Analytics video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) geeft een kort overzicht van hoe te om de Manager van het Segment te gebruiken.
+Deze [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) geeft een kort overzicht van hoe te om de Manager van het Segment te gebruiken.
 
-## Gebruikersinterface segmentbeheer {#section_7FDCD12949BE4741A402DB83AB7B37DF}
+## Gebruikersinterface Segmentbeheer {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
 ![](assets/segment_manager_ui.png)
 
 | Aantal | UI-onderdeel | Beschrijving |
 |---|---|---|
-| 3 | Werkbalk Segmentbeheer | Nadat u een segment hebt gecontroleerd, wordt deze werkbalk weergegeven. De meeste beheertaken kunnen vanaf deze werkbalk worden voltooid. |
+| 1 | Werkbalk Segmentbeheer | Nadat u een segment hebt gecontroleerd, wordt deze werkbalk weergegeven. De meeste beheertaken kunnen vanaf deze werkbalk worden voltooid. |
 | 2 | Filters tonen | Als u op het filterpictogram klikt, wordt het filtermenu weergegeven. U kunt filteren op Tags, Eigenaars, Alles tonen (alleen Admin), Mijne waarden, Favorieten, Goedgekeurd en Gedeeld met mij. |
-| 3 | Selectievakjes | Controleer een segment om het te beheren. |
+| 1 | Selectievakjes | Controleer een segment om het te beheren. |
 | 4 | Favorieten | Als u op de ster naast een segment klikt, wordt de ster geel en wordt het segment gemarkeerd als een favoriet. |
 | 5 | Segmenttitels en -beschrijvingen | Opgegeven in de Segment Builder. Als u de titel en beschrijving wilt bewerken, klikt u op de titelkoppeling. Hiermee gaat u terug naar de Segment Builder. |
 | 6 | Rapportsuites | Deze kolom geeft aan in welke rapportsuite het segment het laatst is opgeslagen. |
