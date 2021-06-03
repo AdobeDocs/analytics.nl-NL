@@ -3,11 +3,10 @@ title: Technische documentatie-updates voor Adobe Analytics
 description: Belangrijke updates van de Adobe Analytics-documentatieopslagplaats.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-translation-type: tm+mt
-source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 90%
+source-wordcount: '412'
+ht-degree: 84%
 
 ---
 
@@ -15,10 +14,10 @@ ht-degree: 90%
 
 Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
-* Informatie over [!UICONTROL Customer Journey Analytics] vindt u [hier](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html).
-* Raadpleeg de recentste [Experience Cloud-releaseopmerkingen](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) voor een uitgebreide lijst met nieuwe Adobe Analytics-functies, Beheerdersopmerkingen en bugcorrectie.
+* Informatie over [!UICONTROL Customer Journey Analytics] vindt u [hier](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html).
+* Raadpleeg de recentste [Experience Cloud-releaseopmerkingen](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html) voor een uitgebreide lijst met nieuwe Adobe Analytics-functies, Beheerdersopmerkingen en bugcorrectie.
 * Raadpleeg [Nieuwe functies in de Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) in de handleiding voor tools voor details over nieuwe functies.
-* Zie [Audio en video meten in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) voor informatie over Adobe Analytics voor audio en video.
+* Zie [Audio en video meten in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) voor informatie over Adobe Analytics voor audio en video.
 
 ## Belangrijkste updatedetails
 
@@ -39,7 +38,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 13 januari 2020 | [Adobe Analytics en browsercookies](/help/technotes/cookies/cookies.md) toegevoegd. |
 | 29 november 2019 | Herziening van de [Documentatie over datafeed](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 november 2019 | Nieuw onderwerp over [Einde levensduur van IP-aanmeldingsbeperkingen afdwingen](/help/admin/company/login-restrictions-eol.md). |
-| 21 november 2019 | Nieuwe documentatieset voor [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html). |
+| 21 november 2019 | Nieuwe documentatieset voor [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html). |
 | 28 september 2019 | Nieuwe artikelen over [configuratievariabelen voor Javascript-implementatie](/help/implement/vars/config-vars/configuration-variables.md). |
 | 12 september 2019 | Nieuwe documentatie over [Traject-IQ: Analytics op verschillende apparaten](/help/components/cda/overview.md). |
 | 28 augustus 2019 | Nieuw artikel over [Progressieve Web Apps (PWA’s) voor Analytics](/help/analyze/pwa/pwa.md). |
