@@ -4,14 +4,13 @@ title: Report Builder installeren
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '126'
 ht-degree: 7%
 
 ---
-
 
 # Report Builder installeren
 
@@ -28,4 +27,4 @@ Stappen die beschrijven hoe u Report Builder kunt installeren.
 
 ## Toestemmingen
 
-Als u **[!UICONTROL Report Builder]** niet ziet als een menu-item onder **[!UICONTROL Tools]**, vraagt u uw Adobe Analytics-beheerder om ervoor te zorgen dat u deel uitmaakt van een productprofiel dat de volgende machtigingen bevat: &quot;Report Builder&quot;. Meer informatie over [Productprofielen](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html) en [Analyserechten](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html).
+Als u **[!UICONTROL Report Builder]** niet ziet als een menu-item onder **[!UICONTROL Tools]**, vraagt u uw Adobe Analytics-beheerder om ervoor te zorgen dat u deel uitmaakt van een productprofiel dat de volgende machtigingen bevat: &quot;Report Builder&quot;. Meer informatie over [Productprofielen](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) en [Analyserechten](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
