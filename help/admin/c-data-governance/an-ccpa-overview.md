@@ -2,14 +2,13 @@
 description: In dit document wordt beschreven wat u in Adobe Analytics moet doen om de CCPA-toegangs- en verwijderingsrechten van uw geregistreerde personen te ondersteunen.
 title: Adobe Analytics en CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: tm+mt
-source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
+exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 100%
+source-wordcount: '637'
+ht-degree: 97%
 
 ---
-
 
 # Adobe Analytics en CCPA
 
@@ -42,8 +41,8 @@ Zie [Rapportsuitedata labelen](/help/admin/c-data-governance/gdpr-setup-reportsu
 ## Vereisten
 
 * Maak u vertrouwd met [GDPR-terminologie.](/help/admin/c-data-governance/gdpr-terminology.md)
-* Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/organizations.html)
-* Wijs een Adobe Analytics-rapportsuite die u wilt instellen voor data-governance, toe aan [uw Experience Cloud-organisatie.](https://docs.adobe.com/content/help/nl-NL/core-services/interface/about-core-services/report-suite-mapping.html)
+* Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
+* Wijs een Adobe Analytics-rapportsuite die u wilt instellen voor data-governance, toe aan [uw Experience Cloud-organisatie.](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)
 * Stel voor elke rapportsuite een dataretentiebeleid in, zodat CCPA-verwijderings- en toegangsaanvragen kunnen worden gehonoreerd.
 
    Adobe Analytics kan u niet helpen bij het verwerken van aanvragen bij de Privacy Services-API, dat wil zeggen, het verwerken van toegangs- of verwijderingsaanvragen die u van uw eindgebruikers ontvangt, als de dataretentieperiode niet is ingesteld in Adobe Analytics. Neem contact op met de Customer Success Manager om de periode voor dataretentie in te stellen.
