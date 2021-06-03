@@ -2,14 +2,13 @@
 description: Begrijp de id's die zijn vastgelegd in de analysegegevens en bepaal welke u wilt gebruiken voor de aanvragen voor gegevensprivacy.
 title: Best practices voor labelen
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2706'
-ht-degree: 99%
+source-wordcount: '2700'
+ht-degree: 98%
 
 ---
-
 
 # Best practices voor labelen
 
@@ -48,14 +47,14 @@ Gebruik deze tabel om te bepalen welke soorten id&#39;s u gaat gebruiken wanneer
   <tr> 
    <td colname="col1"> <p>Cookie-id's </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://docs.adobe.com/content/help/nl-NL/core-services/interface/ec-cookies/cookies-privacy.html"> (Verouderd) Analytics-cookie </a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html"> Identity Service-cookie </a> (ECID), vroeger Marketing Cloud-id (MCID) genoemd </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html"> (Verouderd) Analytics-cookie </a> </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html"> Identity Service-cookie </a> (ECID), vroeger Marketing Cloud-id (MCID) genoemd </li> 
     </ul> </td> 
    <td colname="col2"> <p>Deze cookies identificeren een apparaat of, specifieker, een browser voor een gebruiker van een apparaat. Voor een gedeeld apparaat waar een gemeenschappelijke aanmelding wordt gebruikt, zou deze id kunnen gelden voor alle gebruikers van het apparaat. Adobe heeft een bepaald <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm"> gecombineerd JavaScript </a> gemaakt dat u op uw website kunt plaatsen om deze cookies te verzamelen als u wilt dat ze worden gebruikt voor Data Privacy-aanvragen. </p> <p>Gebruikers van de Adobe Analytics Mobile SDK hebben ook een Experience Cloud ID (ECID). Er zijn API-calls in de SDK om deze id te lezen, zodat u uw app deze kunt laten verzamelen voor een Data Privacy-aanvraag. </p> <p>Veel bedrijven beschouwen de browsercookie-id's als gedeelde apparaat-id's. Daardoor kunnen ze er in overleg met hun juridische teams voor kiezen om deze niet te gebruiken als acceptabele id's voor Data Privacy-aanvragen, of kunnen ze ervoor kiezen om slechts een heel beperkte hoeveelheid data te retourneren wanneer deze id's worden gebruikt, of kunnen ze ze uitsluitend accepteren voor verwijderingsaanvragen. </p> <p>Deze cookies hebben een ID-DEVICE-label dat niet kan worden gewijzigd (evenals I2- en DEL-DEVICE-labels). De standaardconfiguratie van Adobe Analytics retourneert alleen algemene informatie over het apparaat zoals apparaattype, besturingssysteem, browser, enzovoort. plus de tijd/datums waarop uw website is bezocht met gebruik van deze id's. Als u er echter voor kiest om deze id's te ondersteunen voor Data Privacy-aanvragen zoals hieronder besproken, kunt u ACC-ALL-labels toevoegen of verwijderen om precies de veldenreeks te configureren die u wilt laten retourneren voor een Data Privacy-toegangsaanvraag. </p> <p>Vooral als de rapportsuite overeenkomt met een mobiele app en uw mobiele app een aanmelding vereist, kunt u besluiten dat de Experience Cloud ID voor het apparaat overeenkomt met een specifieke gebruiker, en dat u daarom meer velden wilt labelen met ACC-ALL, inclusief de namen van bezochte pagina's, weergegeven producten, enzovoort. </p> <p>Opmerking:  Als u de optie “expandIds” opgeeft in uw Data Privacy-aanvraag, bevatten uw aanvragen altijd cookie-id's, plus eventuele andere id's die u opgeeft. Zie <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> Id-uitbreiding </a> voor meer informatie. In deze gevallen zullen de treffers die alleen een cookie-id hebben, maar geen andere id, alleen data retourneren met het label ACC-ALL als deel van de toegangsaanvraag. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Id's in aangepaste variabelen </p> </td> 
-   <td colname="col2"> <p>Sommige klanten plaatsen id's in <a href="https://docs.adobe.com/content/help/nl-NL/analytics/implementation/vars/page-vars/evar.html"> aangepaste traffic variabelen (props) of aangepaste conversievariabelen (eVars) </a>. De meest voorkomende is een CRM-id, maar andere zijn e-mailadressen, gebruikersnamen voor aanmelding, klantloyaliteitsnummers of hashes van deze waarden. </p> 
+   <td colname="col2"> <p>Sommige klanten plaatsen id's in <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html"> aangepaste traffic variabelen (props) of aangepaste conversievariabelen (eVars) </a>. De meest voorkomende is een CRM-id, maar andere zijn e-mailadressen, gebruikersnamen voor aanmelding, klantloyaliteitsnummers of hashes van deze waarden. </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">Als u een van deze id's wilt gebruiken voor Data Privacy-aanvragen, moet u het veld waar het in staat, een ID-PERSON-label geven. </li> 
      <li id="li_94541340B054436297C5565F074413DC">(Veel minder vaak) Als een id in een van deze aangepaste variabelen alleen een apparaat identificeert dat door meerdere personen kan worden gedeeld, kunt u in plaats daarvan een ID-DEVICE-label gebruiken. </li> 
@@ -115,4 +114,3 @@ Hoewel heel weinig velden een van de andere labels hebben, komt het vaak voor da
   </tr> 
  </tbody> 
 </table>
-
