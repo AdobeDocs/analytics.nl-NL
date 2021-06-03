@@ -2,10 +2,9 @@
 title: AppMeasurement gebruiken met iframes
 description: Open Adobe Analytics-variabelen in een iframe of een bovenliggende pagina terwijl u zich in een iframe bevindt.
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-translation-type: tm+mt
-source-git-commit: 40bf2bbb522a94a678d0da1a645d83a5121c93d0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 U kunt naar variabelen AppMeasurement van zowel kind als ouder iframes verwijzen. Het is noodzakelijk om alle variabelen in de zelfde plaats te bepalen waar de bibliotheek AppMeasurement bestaat. In de volgende voorbeelden wordt uitgelegd hoe u basisvariabelen en -methoden voor AppMeasurement binnen en buiten een iframe instelt.
 
-Als u Adobe Experience Platform Launch gebruikt, moet u ervoor zorgen dat het tracker-object algemeen toegankelijk is. Zie [Adobe Analytics-extensieoverzicht](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) in de gebruikershandleiding bij Starten.
+Als u Adobe Experience Platform Launch gebruikt, moet u ervoor zorgen dat het tracker-object algemeen toegankelijk is. Zie [Adobe Analytics-extensieoverzicht](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) in de gebruikershandleiding bij Starten.
 
 >[!CAUTION]
 >
@@ -66,5 +65,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * Net als bij andere JavaScript-code kunnen iframes alleen communiceren wanneer domeinen en protocol overeenkomen. Deze voorbeelden werken niet als de iframe-inhoud zich in een ander domein bevindt dan het bovenliggende domein.
 * Als AppMeasurement in een iframe verblijft, wordt de [`referrer`](../vars/page-vars/referrer.md) variabele geplaatst aan de ouder URL, niet daadwerkelijke verwijzende URL. U kunt de variabele `referrer` handmatig instellen om dit probleem op te lossen.
-* De [Adobe Experience Cloud debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) herkent geen afbeeldingsverzoeken die binnen iframes worden getriggerd.
+* De [Adobe Experience Cloud debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) herkent geen afbeeldingsverzoeken die binnen iframes worden getriggerd.
 * De Activity Map geeft de hitmap niet weer boven koppelingen die zijn geklikt binnen iframes. In plaats hiervan wordt het hele iframe gemarkeerd.
