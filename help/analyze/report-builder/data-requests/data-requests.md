@@ -3,14 +3,13 @@ description: De eerste stap bij het maken van een aanvraag in Report Builder.
 title: Data-aanvragen - stap 1 van de wizard Aanvragen
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 4%
+source-wordcount: '407'
+ht-degree: 2%
 
 ---
-
 
 # Data-aanvragen - stap 1 van de wizard Aanvragen
 
@@ -22,7 +21,7 @@ Op de wizard Verzoek: Stap 1 vorm, selecteert u de rapportreeks, rapporttype, se
 
 1. **Bereik selecteren**: Hiermee kunt u een rapportsuite-id selecteren in een cel in Excel. Zie [Rapportsets selecteren](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segment**: De segmenten zijn douanesubsets van gegevens, of gegevens die door regels worden gefilterd die u creeert. Segmenten zijn gebaseerd op hits, bezoeken en bezoekers. Zie [Analytics Segmentation Guide](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) voor meer informatie over segmenten.
+1. **Segment**: De segmenten zijn douanesubsets van gegevens, of gegevens die door regels worden gefilterd die u creeert. Segmenten zijn gebaseerd op hits, bezoeken en bezoekers. Zie [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) voor meer informatie over segmenten.
 
    Bijvoorbeeld, kunt u [!UICONTROL Pages Report] in werking stellen, en dan een segment van het Bezoek van de Eerste keer toepassen.
 
