@@ -2,10 +2,9 @@
 title: Verwerkingsregels voor marketingkanalen
 description: De de verwerkingsregels van het Kanaal van de marketing bepalen als een bezoeker voldoet aan de criteria die aan een kanaal worden toegewezen. De regels verwerken elke hit die een bezoeker op uw site aanbrengt. Wanneer een regel niet aan de criteria voor een kanaal voldoet, of als de regels niet correct worden gevormd, wijst het systeem de slag aan Geen Geïdentificeerd Kanaal toe.
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-translation-type: tm+mt
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2112'
 ht-degree: 1%
 
 ---
@@ -122,19 +121,19 @@ Voor de marketingkanaalregel zijn de [!UICONTROL Paid Search]-instellingen als v
 
 ![](assets/example_paid_search.png)
 
-Zie [Betaalde opsporing van het Onderzoek](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin voor meer informatie.
+Zie [Betaalde opsporing van het Onderzoek](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin voor meer informatie.
 
 ### Natuurlijk zoeken {#natural-search}
 
 Een natuurlijk onderzoek komt voor wanneer de bezoekers uw website door een onderzoek van het Web vinden, waar het onderzoeksmotor uw plaats zonder u voor de lijst te betalen rangschikte.
 
-Er is geen natuurlijke onderzoeksopsporing in Analytics. Nadat u de Detectie van het Gesteunde Onderzoek hebt ingesteld, weet het systeem dat als een onderzoeksverwijzer geen betaalde onderzoeksverwijzer was, het een natuurlijke onderzoeksverwijzer moet zijn. Zie [Betaalde opsporing van het Onderzoek](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin voor meer informatie.
+Er is geen natuurlijke onderzoeksopsporing in Analytics. Nadat u de Detectie van het Gesteunde Onderzoek hebt ingesteld, weet het systeem dat als een onderzoeksverwijzer geen betaalde onderzoeksverwijzer was, het een natuurlijke onderzoeksverwijzer moet zijn. Zie [Betaalde opsporing van het Onderzoek](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin voor meer informatie.
 
 Voor de regel voor marketingkanalen gelden de volgende instellingen voor Natuurlijk zoeken:
 
 ![](assets/example_natural_search.png)
 
-### {#display} weergeven
+### Weergave {#display}
 
 Deze regel identificeert bezoekers die afkomstig zijn van banneradvertenties. Het wordt geïdentificeerd door een parameter van het vraagkoord in de bestemmingsURL, in dit geval *`Ad_01`*. De de koordparameter van de vraag en de waarden het zoekt worden geëvalueerd als case-insensitive waarden.
 
@@ -146,7 +145,7 @@ Deze regel identificeert bezoekers die afkomstig zijn van e-mailcampagnes. Het w
 
 ![](assets/example_email.png)
 
-### Relaties {#afilliates}
+### Affiliates {#afilliates}
 
 Deze regel identificeert bezoekers die uit een gespecificeerde reeks verwijzende domeinen voortkomen. In de regel geeft u de domeinen van filialen weer die u wilt bijhouden:
 
@@ -170,7 +169,7 @@ Deze regel geldt voor bezoekers waarbij hun verwijzings-URL overeenkomt met de i
 
 ![](assets/int-channel1.png)
 
-Zie [Redenen voor Intern (Sessie vernieuwen)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html#internal) voor meer informatie over waarom dit kanaal voorkomt.
+Zie [Redenen voor Intern (Sessie vernieuwen)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal) voor meer informatie over waarom dit kanaal voorkomt.
 
 ### Direct {#direct}
 
