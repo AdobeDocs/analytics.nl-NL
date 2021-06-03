@@ -3,14 +3,13 @@ description: Server-kant het door:sturen wordt ontworpen voor klanten die gegeve
 solution: Audience Manager
 title: Overzicht van server-side doorsturen
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 2%
+source-wordcount: '836'
+ht-degree: 0%
 
 ---
-
 
 # Overzicht van server-side doorsturen
 
@@ -18,58 +17,57 @@ Server-kant het door:sturen wordt ontworpen voor klanten die gegevens van Analyt
 
 Server-kant het door:sturen verbetert op gegevensinzameling omdat het:
 
-* Vermindert vraag van de pagina. Met server-kant door:sturen, hoeven de [!DNL Audience Manager] klanten niet meer DIL voor gegevensinzameling te gebruiken omdat het van Analytics door:sturen. Het verwijderen van DIL betekent het elimineren van een `"/event"` vraag. Minder vraag helpt paginaoplaadtijden te verbeteren, wat voor een betere klantenervaring op uw plaats maakt.
-* Hiermee kunt u gebruikmaken van gegevensuitwisseling tussen Experience Cloud-oplossingen.
+* Vermindert vraag van de pagina. Met server-zij door:sturen, [!DNL Audience Manager] moeten de klanten niet meer DIL voor gegevensinzameling gebruiken omdat het van Analytics door:sturen. Het verwijderen van DIL betekent het elimineren van een `"/event"` vraag. Minder vraag helpt paginaoplaadtijden te verbeteren, wat voor een betere klantenervaring op uw plaats maakt.
+* Laat u uit gegevens voordeel halen delend onder Experience Cloud oplossingen.
 * Conform onze beste praktijken voor de implementatie en implementatie van code van de Audience Manager.
 
 >[!TIP]
 >
->Huidige klanten van de Audience Manager die Analytics gebruiken zouden aan server-zijdoor:sturen moeten migreren. De nieuwe klanten van Adobe Analytics en van de Audience Manager zouden server-zijdoor:sturen (in plaats van DIL) als standaardgegevensinzameling en overdrachtmethode moeten uitvoeren.
+>De huidige klanten van de Audience Manager die Analytics gebruiken zouden aan server-zijhet door:sturen moeten migreren. De nieuwe klanten van Adobe Analytics en van de Audience Manager zouden server-zijdoor:sturen (in plaats van DIL) als standaardgegevensinzameling en overdrachtmethode moeten uitvoeren.
 
 >[!IMPORTANT]
->Op verzoek van de EU-regeling voor de naleving van cookies hebben de voor de verwerking verantwoordelijken (Analytics-klanten) nu de mogelijkheid om gegevens vóór toestemming te beperken tot Adobe Analytics en te voorkomen dat deze gegevens aan de serverzijde worden doorgestuurd naar Adobe Audience Manager (AAM). Een nieuwe variabele van de implementatiecontext laat u treffers markeren waar de toestemming niet is ontvangen. De variabele, wanneer ingesteld, voorkomt dat deze treffers naar AAM worden verzonden totdat toestemming is ontvangen. Voor meer informatie, zie naleving [GDPR_ePrivacy en server-zijhet door:sturen](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md).
+>Op verzoek van de EU-regelgeving inzake naleving van cookies hebben de voor de verwerking verantwoordelijken (klanten van Analytics) nu de mogelijkheid om gegevens vóór de toestemming te beperken tot Adobe Analytics en te voorkomen dat deze gegevens aan de serverzijde worden doorgestuurd naar Adobe Audience Manager (AAM). Een nieuwe variabele van de implementatiecontext laat u treffers markeren waar de toestemming niet is ontvangen. Als de variabele is ingesteld, worden deze treffers niet naar AAM verzonden totdat de toestemming is ontvangen. Zie [GDPR_ePrivacy-compatibiliteit en server-side doorsturen](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md) voor meer informatie.
 
 Om te begrijpen waar uw organisatie in termen van het uitvoeren van server-kant het door:sturen is, ga door deze bevestigingsstappen:
 
-## ![step1_icon.png image](assets/step1_icon.png) Verify ECID service implementation
+## ![step1_icon.png ](assets/step1_icon.png) imageVerify ECID service implementation
 
-Controleer of de Experience Cloud ID-service (ECID) is geïmplementeerd door de aanvraag [voor het bijhouden van](https://docs.adobe.com/content/help/en/id-service/using/implementation/test-verify.html)Analytics te inspecteren.
+Controleer of de Experience Cloud ID-service (ECID) is geïmplementeerd door de [Analytics tracking request](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html) te inspecteren.
 
 Controleer op het tabblad Verzoek of er een ECID-waarde wordt ingesteld. Dit vertelt u dat de Dienst van de Identiteit correct wordt uitgevoerd, wat een noodzakelijke voorwaarde voor server-zijhet door:sturen is.
 
 * Ga door met stap 2 als u een ECID-waarde ziet.
-* Als u geen ECID-waarde ziet, [implementeert u Identiteitsservice](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) voordat u verdergaat met stap 2.
+* Als u geen ECID-waarde ziet, [implementeert u Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) voordat u verdergaat met stap 2.
 
-## ![step2_icon.png image](assets/step2_icon.png) Verifieer server-side het door:sturen implementatieversie
+## ![step2_icon.png ](assets/step2_icon.png) imageVerify server-side en implementatieversie voor doorsturen
 
-Verifieer of u reeds een versie van server-zijdoor:sturen uitgevoerd hebt, door het Analytics volgende verzoek [te](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)inspecteren.
+Verifieer of u reeds een versie van server-zijdoor:sturen uitgevoerd hebt, door [het Analytics volgende verzoek](/help/admin/admin/c-server-side-forwarding/ssf-verify.md) te inspecteren.
 
 Controleer op het tabblad &quot;Reactie&quot; of de reactie gegevens van de Audience Manager bevat. Indien u ziet:
 
-* Een **JSON-reactie van Audience Manager die items bevat zoals &quot;postbacks&quot; of &quot;dcs_region&quot;**: u hebt één of andere vorm van server-kant reeds toegelaten door:sturen. Ga door met stap 3.
+* A **JSON-reactie van Audience Manager die items bevat zoals &quot;postbacks&quot; of &quot;dcs_region&quot;**: u hebt één of andere vorm van server-kant reeds toegelaten door:sturen. Ga door met stap 3.
 * De **&quot;status&quot;:&quot;SUCCESS&quot;**: u hebt de uitgevoerde Module van het Beheer van de Publiek, maar heeft server niet behoorlijk gevormd door:sturen. Ga door met stap 3.
-* Een afbeelding **van** 2 x 2: u hebt server-kant het door:sturen niet of de uitgevoerde Module van het Beheer van de Publiek. U kunt dit als volgt corrigeren:
+* A **2 x 2 image**: u hebt server-kant het door:sturen niet of de uitgevoerde Module van het Beheer van de Publiek. U kunt dit als volgt corrigeren:
 
-   * **AAM-klanten met DIL**: De volgende twee items coördineren in nauwe samenhang:
+   * **AAM klanten met DIL**: De volgende twee items coördineren in nauwe samenhang:
 
-      1. Verwijder de DIL-code en installeer de paginacode [Audience Management Module](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) .
-      1. Schakel het doorsturen aan de serverzijde in de gebruikersinterface van Analytics Admin in zoals beschreven in stap 3. Als u deze instelling inschakelt voordat u DIL-code verwijdert, worden gegevens gedupliceerd en worden aanvullende serveraanroepen met facturering naar de Audience Manager gemaakt.
-   * **Nieuwe klanten** AAM - installeer de de paginacode van de Module [van het Beheer van de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) Publiek en ga aan stap 3 verder. De gegevens zullen niet naar Audience Manager worden verzonden tot server-kant het door:sturen in stap 3 wordt aangezet.
+      1. Verwijder de DIL-code en installeer de [Audience Management Module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)-paginacode.
+      1. Schakel het doorsturen aan de serverzijde in de UI Analytics Admin in zoals beschreven in stap 3. Als u deze instelling inschakelt voordat u de DIL-code verwijdert, worden gegevens gedupliceerd en worden aanvullende serveraanroepen met facturering naar de Audience Manager gemaakt.
+   * **Nieuwe AAM klanten**  - installeer de code van de  [Modulepage van het Beheer van de ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) Publiek en ga verder met stap 3. De gegevens zullen niet naar Audience Manager worden verzonden tot server-kant het door:sturen in stap 3 wordt aangezet.
 
 
-## ![step3_icon.png image](assets/step3_icon.png) Verifieer server-side het door:sturen implementatie van rapportreeks
+## ![step3_icon.png ](assets/step3_icon.png) imageVerify server-side implementatie van rapportsuite voor doorsturen
 
 Verifieer of u server-kant door:sturen op het rapport-reeks niveau, eerder dan de erfenis het volgen serverbenadering hebt uitgevoerd.
 
-Server-kant door:sturen op het rapport-reeks niveau wordt geadviseerd over de erfenis volgende serverbenadering omdat u op een fijner niveau kunt controleren welke gegevens van Analytics worden gedeeld. Het is ook een noodzakelijke voorwaarde voor de integratie van het publiek in Analytics.
+Server-kant door:sturen op het rapport-reeks niveau wordt geadviseerd over de erfenis volgende serverbenadering omdat u op een fijner niveau kunt controleren welke gegevens van Analytics worden gedeeld. Het is ook een noodzakelijke voorwaarde voor deze Audience Analytics-integratie.
 
-Ga naar **Analytics** > **Admin** > **Report Suites** > (selecteer **rapportsuites**) > **Edit Settings** **** ****>General > Server Side Forwarding. Als dit selectievakje is:
+Ga naar **Analytics** > **Admin** > **Report Suites** > (selecteer **report suites**) > **Edit Settings** > **General** > **Zijde door:sturen**. Als dit selectievakje is:
 
-* **Inactief** (U kunt geen selectie maken of het menu bestaat niet): u hebt de geselecteerde rapportsuites niet aan uw IMS Org in kaart gebracht. Zorg ervoor dat uw toepasselijke rapportsuite is toegewezen aan de juiste Experience Cloud-organisatie met behulp van de [rapporttoewijzingsinterface](https://docs.adobe.com/content/help/nl-NL/core-services/interface/about-core-services/report-suite-mapping.html).
+* **Inactief**  (U kunt geen selectie maken of het menu bestaat niet): u hebt de geselecteerde rapportsuites niet aan uw IMS Org in kaart gebracht. Zorg ervoor dat uw toepasselijke rapportsuites aan de juiste organisatie van de Experience Cloud worden in kaart gebracht gebruikend de  [Hulp van de Afbeelding van de Reeks van het Rapport](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 * **Uitgeschakeld**: U hebt niet de nieuwe server-kant het door:sturen aangezet. Lees de inhoud op de pagina en ga verder met het inschakelen van de functie.
-* **Ingeschakeld**: U wordt provisioned voor nieuwe server-kant door:sturen. U kunt deze integratie met de Audience Analytics ook instellen.
+* **Ingeschakeld**: U wordt provisioned voor nieuwe server-kant door:sturen. U kunt deze Audience Analytics-integratie ook instellen.
 
 >[!NOTE]
 >
->Gegevens worden pas weergegeven in andere Experience Cloud-oplossingen, zoals [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html) of [Soorten publiek](https://docs.adobe.com/content/help/nl-NL/core-services/interface/audiences/audience-library.html) , als alle drie de stappen zijn voltooid. Nadat deze instellingen zijn ingeschakeld, duurt het enkele uren voordat deze instellingen van kracht worden.
-
+>Gegevens worden pas weergegeven in andere Experience Cloud-oplossingen, zoals [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) of [Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) als alle drie de stappen zijn voltooid. Nadat deze instellingen zijn ingeschakeld, duurt het enkele uren voordat deze instellingen van kracht worden.
