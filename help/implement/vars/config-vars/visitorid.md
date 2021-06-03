@@ -1,37 +1,36 @@
 ---
 title: visitorID
 description: Gebruik een aangepaste bezoeker-id.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 4%
+source-wordcount: '247'
+ht-degree: 1%
 
 ---
 
+# bezoekerID
 
-# visitorID
-
-Adobe gebruikt verschillende methoden om bezoekers op uw site te identificeren. De `visitorID` variabele negeert alle andere methoden voor bezoekersidentificatie.
+Adobe gebruikt verschillende methoden om bezoekers op uw site te identificeren. De variabele `visitorID` negeert alle andere methoden voor bezoekersidentificatie.
 
 >[!IMPORTANT]
 >
->Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan de [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) .
+>Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
-## Bezoeker-id in Adobe Experience Platform starten
+## Bezoeker-id in Adobe Experience Platform Launch
 
-[!UICONTROL Visitor ID] is een veld onder de [!UICONTROL Cookies] accordeon wanneer u de Adobe Analytics-extensie configureert.
+[!UICONTROL Visitor ID] is een veld onder de  [!UICONTROL Cookies] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
 2. Klik op de gewenste eigenschap.
-3. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder Adobe Analytics.
-4. Breid de accordeon uit, die het [!UICONTROL Cookies] [!UICONTROL Visitor ID] veld onthult.
+3. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
+4. Vouw de accordeon [!UICONTROL Cookies] uit, zodat het veld [!UICONTROL Visitor ID] zichtbaar wordt.
 
 Wijs dit veld toe aan het gegevenselement dat uw aangepaste bezoeker-id bevat. Stel dit veld niet in op een statische waarde.
 
 ## s.bezoekerID in AppMeasurement en Launch de redacteur van de douanecode
 
-De `s.visitorID` variabele is een tekenreeks die een aangepaste unieke id voor de bezoeker bevat. Geldige waarden zijn alfanumerieke tekens tot 100 bytes. Gebruik geen streepjes, spaties, onderstrepingstekens of symbolen in deze variabele.
+De variabele `s.visitorID` is een tekenreeks die een aangepaste unieke id voor de bezoeker bevat. Geldige waarden zijn alfanumerieke tekens tot 100 bytes. Gebruik geen streepjes, spaties, onderstrepingstekens of symbolen in deze variabele.
 
 >[!WARNING]
 >
@@ -43,4 +42,4 @@ s.visitorID = "abc123";
 
 >[!CAUTION]
 >
->Een ongeldige implementatie van aangepaste gebruikers-id&#39;s voor bezoekers kan leiden tot onjuiste gegevens en slechte rapportprestaties. Als deze variabele een standaardwaarde bevat (zoals `"0"` of `"NULL"`), behandelt Adobe deze resultaten alsof ze dezelfde bezoeker zijn. Deze situatie resulteert in onjuiste gegevens, met lage aantallen bezoekers en bezoekersniveausegmenten niet zoals verwacht. De onjuist uitgevoerde identiteitskaart van de douanebezoeker introduceert ook zware lading op verwerkingsservers, verhoogt [latentie](/help/technotes/latency.md) en vermindert rapportprestaties.
+>Een ongeldige implementatie van aangepaste gebruikers-id&#39;s voor bezoekers kan leiden tot onjuiste gegevens en slechte rapportprestaties. Als deze variabele een standaardwaarde bevat (zoals `"0"` of `"NULL"`), behandelt Adobe deze treffers alsof ze dezelfde bezoeker zijn. Deze situatie resulteert in onjuiste gegevens, met lage aantallen bezoekers en bezoekersniveausegmenten niet zoals verwacht. Bij onjuist geïmplementeerde aangepaste gebruikers-id&#39;s wordt ook een zware belasting op de verwerkingsservers veroorzaakt, waardoor de latentie [toeneemt](/help/technotes/latency.md) en de rapportprestaties afnemen.
