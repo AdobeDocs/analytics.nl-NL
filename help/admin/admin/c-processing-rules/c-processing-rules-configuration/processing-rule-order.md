@@ -5,10 +5,9 @@ title: Verwerkingsvolgorde
 feature: Admin Tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -37,7 +36,7 @@ In de volgende tabellen worden de gegevens weergegeven die doorgaans beschikbaar
 | Door VISTA toegevoegde gegevens | Verwerkingsregels worden toegepast vóór VISTA. |
 | Bezoek het paginanummer | Als algemene regel, zijn de verwerkingsregels zich bewust van de gegevens die in de huidige slechts treffer zijn. Het paginanummer van de bezoekpagina wordt gecompileerd nadat de verwerkingsregels worden toegepast. |
 | Clean URL wordt toegevoegd als paginanaam als deze niet is ingesteld. | Nadat de verwerkingsregels en VISTA worden toegepast, wordt schone URL toegevoegd als paginanaam als er geen plaatste paginanaam is. Aangezien dit voorkomt nadat de verwerkingsregels worden toegepast, adviseren wij toevoegend een voorwaarde om te controleren als de paginanaam leeg is.  Als u Site Content > Pages Report uitvoert en u https://-waarden ziet voor paginanamen, is de paginanaam waarschijnlijk leeg en wordt de URL gebruikt.  U kunt een voorwaarde instellen om te testen op de naam van een lege pagina of om te testen of de paginanaam of de pagina-URL een specifieke waarde bevat. De paginanaam kan vervolgens naar wens worden ingesteld. |
-| Verwerkingsregels voor marketingkanalen | U kunt verwerkingsregels gebruiken om gegevens voor te bereiden voor verwerking door [Regels voor kanaalverwerking voor marketing](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-rules.html). |
+| Verwerkingsregels voor marketingkanalen | U kunt verwerkingsregels gebruiken om gegevens voor te bereiden voor verwerking door [Regels voor kanaalverwerking voor marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html). |
 | GEO-opzoekhandeling | Hieronder vallen ook de waarden van de postcode voor de bezoekerstatus en de bezoeker. |
 | Persistentie | Vars die zich in een vorige hit bevonden, blijven niet bij elke hit tijdens de regelverwerking behouden. Alleen eVars die zijn ingesteld op de huidige hit die wordt verwerkt, zijn beschikbaar. |
 
