@@ -3,16 +3,15 @@ description: Leer de grondbeginselen van het werken in een project van de Werkru
 keywords: Analysis Workspace
 title: Overzicht van projecten
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-feature: Workspace Basics
+feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 75c551de-297e-4c45-95e6-77472be6628a
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1356'
 ht-degree: 2%
 
 ---
-
 
 # Overzicht van projecten
 
@@ -31,10 +30,10 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 | [Nieuw project maken](/help/analyze/analysis-workspace/home.md) | Klik deze verbinding om een nieuw project van kras of van een [malplaatje](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#analysis-workspace) te beginnen die voor u wordt gecreeerd. |
 | Projecten beheren | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**). Hierin worden al uw projecten vermeld en kunt u projecten labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
 | Instellen als bestemmingspagina | Hiermee wordt deze pagina omgezet in de bestemmingspagina van uw werkruimte. |
-| [Tutorials weergeven](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | Hiermee gaat u naar de videozelfstudies van Analysis Workspace. |
+| [Tutorials weergeven](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | Hiermee gaat u naar de videozelfstudies van Analysis Workspace. |
 | Naam | Naam van het project van de Werkruimte. |
 | Eigenaar | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
-| Type | Geeft aan of dit een werkruimteproject of een [mobiel scorebord](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/mobapp/home.html) is. |
+| Type | Geeft aan of dit een werkruimteproject of een [mobiel scorebord](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html) is. |
 | [Projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Geeft uw rol voor het project aan: eigenaars, bewerken, dupliceren, weergeven. |
 | Tags | Tags die op het project zijn toegepast. |
 | Laatst gewijzigd | Datum en tijdstip waarop het project voor het laatst is gewijzigd. |
@@ -96,7 +95,7 @@ Afhankelijk van het beginpunt dat u voor uw projecten hebt gekozen, hebt u een [
 
 ![](assets/canvas.png)
 
-## Projectbeheer {#manager}
+## Projectmanager {#manager}
 
 Analysis Workspace-projecten kunnen worden beheerd onder **Analytics > Components > Projecten**. De projectmanager toont de punten die een specifieke gebruiker heeft gecreeerd. De eigendom van het project kan naar een nieuwe gebruiker worden overgedragen via Beheer > Gebruikers en middelen voor analyse > Middelen voor overdracht.
 
