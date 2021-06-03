@@ -5,10 +5,9 @@ title: Classificatieregels - definities
 feature: Admin Tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -35,7 +34,7 @@ Op deze pagina worden de regels in een regelset weergegeven.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Selecteer rapportsets en -variabelen </p> </td> 
-   <td colname="col2"> <p><b>Rapportsuite</b> </p> <p>Het rapport is geschikt voor de toepassing van de regel. </p> <p><b>Variabele</b> </p> <p>U kunt slechts één variabele toepassen wanneer u een set classificatieregel maakt. Als u veelvoudige regelreeksen voor één variabele wilt tot stand brengen, moet u elke regel toepassen die op veelvoudige rapportreeksen wordt geplaatst. </p> <p>Opmerking: U kunt slechts de variabelen gebruiken u tot in uw rapportreeksen toegang hebt. Variabelen worden alleen in het deelvenster <span class="wintitle"> Nieuwe regelset</span> weergegeven nadat ten minste één classificatie is gedefinieerd voor die variabele. </p> <p> U kunt classificaties maken op een variabele in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span> &gt; <span class="uicontrol"> Traffic</span> &gt; <span class="uicontrol"> Traffic Classifications</span> (of <span class="uicontrol"> Conversion</span> &gt; <span class="uicontrol"> Conversion Classifications</span>). Selecteer vervolgens de variabele en klik op <span class="uicontrol"> Classificatie toevoegen</span>. </p> <p>Zie <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  > Verkeersklassificaties</a> en <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  > Conversieclassificaties</a> in Admin Help. </p> </td> 
+   <td colname="col2"> <p><b>Rapportsuite</b> </p> <p>Het rapport is geschikt voor de toepassing van de regel. </p> <p><b>Variabele</b> </p> <p>U kunt slechts één variabele toepassen wanneer u een set classificatieregel maakt. Als u veelvoudige regelreeksen voor één variabele wilt tot stand brengen, moet u elke regel toepassen die op veelvoudige rapportreeksen wordt geplaatst. </p> <p>Opmerking: U kunt slechts de variabelen gebruiken u tot in uw rapportreeksen toegang hebt. Variabelen worden alleen in het deelvenster <span class="wintitle"> Nieuwe regelset</span> weergegeven nadat ten minste één classificatie is gedefinieerd voor die variabele. </p> <p> U kunt classificaties maken op een variabele in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span> &gt; <span class="uicontrol"> Traffic</span> &gt; <span class="uicontrol"> Traffic Classifications</span> (of <span class="uicontrol"> Conversion</span> &gt; <span class="uicontrol"> Conversion Classifications</span>). Selecteer vervolgens de variabele en klik op <span class="uicontrol"> Classificatie toevoegen</span>. </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  > Verkeersklassificaties</a> en <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  > Conversieclassificaties</a> in Admin Help. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activeren</span> </p> </td> 
@@ -134,7 +133,7 @@ U kunt reguliere expressies bewerken op de pagina [!UICONTROL Regular Expression
 
 Zie [Reguliere expressies in classificatieregels](/help/components/classifications/crb/classification-quickstart-rules.md).
 
-## Pagina {#section_EC926F97901C4E65901413F9683AA70A} testen
+## Testpagina {#section_EC926F97901C4E65901413F9683AA70A}
 
 Met deze pagina kunt u regels in een set testen.
 
