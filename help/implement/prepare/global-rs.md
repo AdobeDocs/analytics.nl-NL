@@ -1,14 +1,13 @@
 ---
 title: Algemene rapportsuites in Adobe Analytics
 description: Begrijp de voordelen en de vereisten aan het gebruiken van een globale rapportreeks.
-translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 2%
+source-wordcount: '872'
+ht-degree: 0%
 
 ---
-
 
 # Overwegingen voor algemene rapportsuites
 
@@ -42,8 +41,8 @@ Gebruik de volgende algemene richtlijnen om inzicht te krijgen in het proces van
    >
    >Zorg ervoor dat om het even welke bepaalde douanevariabele gelijkaardig over domeinen wordt gebruikt. Gebruik dezelfde eVar of gebeurtenis niet voor verschillende doeleinden op uw sites.
 1. Zorg ervoor dat elk domein een gegevenslaag heeft om gegevensinzameling te vereenvoudigen. Gegevens kunnen nog steeds zonder een gegevenslaag worden verzameld, maar de betrouwbaarheid en de levensduur van uw implementatie nemen af, vooral wanneer uw site opnieuw ontwerpen doorloopt.
-1. Gebruik Adobe Experience Platform Launch om Analytics te implementeren. De verschillende plaatsen zullen waarschijnlijk verschillende gegevenselementen vereisen. De regels van het gebruik specifiek voor elk domein om ervoor te zorgen elk gegevenselement correct bevolkt is, dan wijs die gegevenselementen aan hun respectieve eVars en gebeurtenissen toe. Zie [Overzicht starten](https://docs.adobe.com/content/help/en/launch/using/overview.html) in de Adobe Experience Platform Launch-gebruikershandleiding.
-1. Neem de [Adobe Experience Cloud-id-service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) op en gebruik de functie [appendVisitorIDsTo](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/appendvisitorid.html). Deze functie voegt bezoekersgegevens samen wanneer de gebruikers van één domein aan een ander klikken.
+1. Gebruik Adobe Experience Platform Launch om Analytics te implementeren. De verschillende plaatsen zullen waarschijnlijk verschillende gegevenselementen vereisen. De regels van het gebruik specifiek voor elk domein om ervoor te zorgen elk gegevenselement correct bevolkt is, dan wijs die gegevenselementen aan hun respectieve eVars en gebeurtenissen toe. Zie [Overzicht starten](https://experienceleague.adobe.com/docs/launch/using/overview.html) in de Adobe Experience Platform Launch-gebruikershandleiding.
+1. Neem de [Adobe Experience Cloud-id-service](https://experienceleague.adobe.com/docs/id-service/using/home.html) op en gebruik de functie [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html). Deze functie voegt bezoekersgegevens samen wanneer de gebruikers van één domein aan een ander klikken.
 
 ## Een bestaande implementatie aanpassen met een algemene rapportsuite
 
@@ -56,5 +55,5 @@ Het proces om een bestaande implementatie over veelvoudige plaatsen naar één e
 
 ## Gerelateerde pagina&#39;s
 
-[Het schakelen van multi-suite etiketteren naar een globaal rapportpakket en virtuele ](../../components/vrs/vrs-considerations.md)
-[rapportsuitesHet vergelijken van rollups en globale rapportsuites](../../admin/c-manage-report-suites/rollup-report-suite.md)
+[Overstappen van tagging met meerdere suite&#39;s naar een algemene rapportensuite en virtuele ](../../components/vrs/vrs-considerations.md)
+[rapportensuitesRollups vergelijken en algemene rapportsuites](../../admin/c-manage-report-suites/rollup-report-suite.md)
