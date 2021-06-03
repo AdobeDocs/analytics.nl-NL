@@ -1,14 +1,13 @@
 ---
 title: Een advertentieaccount instellen in Advertising Analytics
 description: Hiermee kunt u nieuwe advertentierekeningen maken en meerdere accounts toewijzen aan meerdere rapportensuites.
-translation-type: tm+mt
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+exl-id: f593c714-e85f-4000-85b2-6294cad81e25
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 6%
+source-wordcount: '844'
+ht-degree: 3%
 
 ---
-
 
 # Een advertentieaccount instellen
 
@@ -59,13 +58,13 @@ Vul **[!UICONTROL Tracking Settings]** volgende richtlijnen in:
 
    | Instelling | Beschrijving |
    |--- |--- |
-   | Type | <ul><li>**Automatisch:** Laat de Motor van Advertising Cloud beslissen hoe de het volgen parameters aan de het volgen malplaatjes/bestemmingsURLs van de Motor van het Onderzoek worden toegevoegd. Dit is de eenvoudigste benadering, maar kan niet in de beste geïntegreerde dataset resulteren.<br>**Belangrijk:** om een rekening van de onderzoeksmotor in &quot;Auto Wijze&quot;te vormen, bent u verantwoordelijk voor het nemen van de volgende acties:<br>- De &quot;s_kwcid&quot;parameter en de waarde zullen aan de rekeningen het volgen malplaatjes of het landen pagina URLs in de rekening worden toegevoegd die. Deze wordt aan het einde van de URL ingevoegd. Als gevolg hiervan kan aanvullende actie van uw kant vereist zijn als uw webserver een bepaald sleutelwaardepaar aan het einde van de URL vereist OF een update ter ondersteuning van een nieuw sleutelwaardepaar in de URL. **Opmerking:** Meer informatie over of u deze parameter moet toevoegen aan uw  [inhoudsbeveiligingsbeleid](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html).<br>- Daarnaast kunnen trefwoorden in de bestemmings-URL worden ingevoegd als onderdeel van de waarde &quot;s_kwcid&quot;, dus als deze speciale tekens of symbolen bevatten, moet u bevestigen dat uw webserver deze tekens kan ondersteunen (een voorbeeld van een speciale teken is &quot;+&quot;, dat wordt gebruikt in trefwoorden &quot;Uitgebreide overeenkomst gewijzigd&quot;).</li><li>**Handmatig:** Hiermee kunt u beheren hoe de volgparameters worden toegevoegd aan de trackingsjablonen/doel-URL&#39;s van de zoekmachine. [Raadpleeg deze handmatige voorbeelden voor het bijhouden van bestanden voor elke zoekfunctie](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
+   | Type | <ul><li>**Automatisch:** Laat de Motor van Advertising Cloud beslissen hoe de het volgen parameters aan de het volgen malplaatjes/bestemmingsURLs van de Motor van het Onderzoek worden toegevoegd. Dit is de eenvoudigste benadering, maar kan niet in de beste geïntegreerde dataset resulteren.<br>**Belangrijk:** om een rekening van de onderzoeksmotor in &quot;Auto Wijze&quot;te vormen, bent u verantwoordelijk voor het nemen van de volgende acties:<br>- De &quot;s_kwcid&quot;parameter en de waarde zullen aan de rekeningen het volgen malplaatjes of het landen pagina URLs in de rekening worden toegevoegd die. Deze wordt aan het einde van de URL ingevoegd. Als gevolg hiervan kan aanvullende actie van uw kant vereist zijn als uw webserver een bepaald sleutelwaardepaar aan het einde van de URL vereist OF een update ter ondersteuning van een nieuw sleutelwaardepaar in de URL. **Opmerking:** Meer informatie over of u deze parameter moet toevoegen aan uw  [inhoudsbeveiligingsbeleid](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).<br>- Daarnaast kunnen trefwoorden in de bestemmings-URL worden ingevoegd als onderdeel van de waarde &quot;s_kwcid&quot;, dus als deze speciale tekens of symbolen bevatten, moet u bevestigen dat uw webserver deze tekens kan ondersteunen (een voorbeeld van een speciale teken is &quot;+&quot;, dat wordt gebruikt in trefwoorden &quot;Uitgebreide overeenkomst gewijzigd&quot;).</li><li>**Handmatig:** Hiermee kunt u beheren hoe de volgparameters worden toegevoegd aan de trackingsjablonen/doel-URL&#39;s van de zoekmachine. [Raadpleeg deze handmatige voorbeelden voor het bijhouden van bestanden voor elke zoekfunctie](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
 1. In de sectie **[!UICONTROL Mapping]** kiest u welke rapportsuite(s) u wilt koppelen aan dit zoekprogrammaaccount. U moet ten minste één rapportsuite opgeven voordat u het advertentieaccount kunt opslaan. U kunt veelvoudige rekeningen aan veelvoudige rapportreeksen (1:1, 1:Velen, Velen:Velen) in kaart brengen. Merk op dat de gegevens die AMO van de onderzoeksmotor trekt eenvoudig aan om het even welke in kaart gebrachte rapportreeks wordt gekopieerd, zodat is er geen splitsing van gegevens.
 
    >[!IMPORTANT]
    >
-   >Alleen rapportsuites die [zijn toegewezen aan een Experience Cloud-organisatie](https://docs.adobe.com/content/help/nl-NL/core-services/interface/about-core-services/report-suite-mapping.html), zijn beschikbaar voor selectie. Raadpleeg [Problemen met Advertising Analytics oplossen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md) als uw rapportsuite niet wordt weergegeven.
+   >Alleen rapportsuites die [zijn toegewezen aan een Experience Cloud-organisatie](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html), zijn beschikbaar voor selectie. Raadpleeg [Problemen met Advertising Analytics oplossen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md) als uw rapportsuite niet wordt weergegeven.
 
    Voor **[!UICONTROL Mapping Settings]** die deze richtlijnen volgen:
 
@@ -79,7 +78,7 @@ Vul **[!UICONTROL Tracking Settings]** volgende richtlijnen in:
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Toewijzing van rapportsuite </p> </td> 
-      <td colname="col2"> <p>De rapportsuite-toewijzing bepaalt de rapportsuite die wordt gekoppeld aan dit zoekprogrammaaccount. Met andere woorden, het bepaalt in welke rapportsuite(s) de gegevens van de zoekmachine worden verzonden. </p> <p>Als u uw rapportenreeks niet vermeld ziet, kunt u <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  > uw rapportreeks aan een organisatie van Experience Cloud toewijzen</a> gebruikend dit hulpmiddel. </p> </td> 
+      <td colname="col2"> <p>De rapportsuite-toewijzing bepaalt de rapportsuite die wordt gekoppeld aan dit zoekprogrammaaccount. Met andere woorden, het bepaalt in welke rapportsuite(s) de gegevens van de zoekmachine worden verzonden. </p> <p>Als u uw rapportenreeks niet vermeld ziet, kunt u <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  > uw rapportreeks aan een organisatie van Experience Cloud toewijzen</a> gebruikend dit hulpmiddel. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -92,4 +91,3 @@ Vul **[!UICONTROL Tracking Settings]** volgende richtlijnen in:
 >[!NOTE]
 >
 >U moet ten minste 24 uur wachten voordat de zoekprogrammagegevens de analyserapporten invullen.
-
