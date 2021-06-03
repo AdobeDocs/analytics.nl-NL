@@ -2,17 +2,19 @@
 description: De integratie van de Verbindingen van Gegevens voor Silverpop gebruikt variabelen van de Analyse om diverse Silverpop metriek te volgen.
 title: Variabelen voor analytische integratie
 uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 0b8b31f5-65a8-41e0-97d1-d75fb1b91f62
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 4%
 
 ---
-
 
 # Variabelen voor analytische integratie{#analytics-integration-variables}
 
 De integratie van de Verbindingen van Gegevens voor Silverpop gebruikt variabelen van de Analyse om diverse Silverpop metriek te volgen.
 
-Nadat u de gebeurtenissen en gebeurtenissen hebt geïdentificeerd die u wilt gebruiken met de Silverpop-integratie, gebruikt u de Adobe Analytics Admin Console om deze in te schakelen (zie [Report Suites](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)).
+Na het identificeren van de Gebeurtenis en eVars om met de Silverpop integratie te gebruiken, gebruik de Admin Console van Adobe Analytics om hen (zie [Suites van het Rapport](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)) toe te laten.
 
 In de volgende tabel worden de variabelen voor Analytics beschreven die nodig zijn voor de Silverpop-integratie.
 
@@ -38,4 +40,3 @@ In de volgende tabel worden de variabelen voor Analytics beschreven die nodig zi
 | eVar | E-mailadres | Handmatig verzameld via Analytics-tags. | Het e-mailadres is bedoeld voor het handmatig verzamelen van het e-mailadres op aanmeldingspagina&#39;s, aanmeldingspagina&#39;s of andere pagina&#39;s waarop het e-mailadres wordt verzameld. Deze variabele wordt gebruikt om opnieuw op de markt te brengen aan gebruikers die ervoor gekozen hebben binnen om e-mail te ontvangen, maar kan niet reeds door een e-mail in het verleden hebben geklikt. |
 | eVar | Gedownload bestand | Handmatig verzameld via Analytics-tags. | Gedownload bestand geeft aan welk bestand een bezoeker heeft gedownload. |
 | eVar | Formuliernaam | Handmatig verzameld via Analytics-tags. | De Naam van het formulier geeft aan welke vorm een verlaten bezoeker heeft. |
-
