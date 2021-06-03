@@ -1,54 +1,53 @@
 ---
 title: Launch-data-elementen Analytics-variabelen
-description: Wijs gegevenselementen toe aan Analytics-variabelen zodat u deze als afmetingen kunt gebruiken in Analysis Workspace.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+description: Wijs gegevenselementen toe aan variabelen van de Analyse zodat u hen als afmetingen in Analysis Workspace kunt gebruiken.
+exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 7%
+source-wordcount: '434'
+ht-degree: 5%
 
 ---
 
-
 # Launch-data-elementen Analytics-variabelen
 
-Zodra u een bewaarplaats van gegevenselementen in de Lancering van het Adobe Experience Platform hebt, kunt u hen aan de dimensies van Analytics toewijzen.
+Als u een gegevensopslagruimte met gegevenselementen hebt in Adobe Experience Platform Launch, kunt u deze toewijzen aan Analytics-afmetingen.
 
 ## Vereisten
 
 [Gegevenslaagobjecten toewijzen aan gegevenselementen](layer-to-elements.md): Zorg ervoor dat u gegevenselementen begrijpt in Lancering, en dat u verscheidene hebt om met te werken.
 
-[Maak een document](../prepare/solution-design.md)voor het ontwerp van een oplossing: Een document van het oplossingsontwerp is essentieel om georganiseerd te blijven. Na uw document van het oplossingsontwerp vereenvoudigt de toewijzing van gegevenselementen aan de variabelen van Analytics.
+[Maak een document](../prepare/solution-design.md) voor het ontwerp van een oplossing: Een document van het oplossingsontwerp is essentieel om georganiseerd te blijven. Na uw document van het oplossingsontwerp vereenvoudigt de toewijzing van gegevenselementen aan variabelen van de Analyse.
 
-## Gegevenselementen toewijzen aan Analytics-variabelen
+## Gegevenselementen toewijzen aan analytische variabelen
 
-Als u een bibliotheek in Launch publiceert nadat u deze stappen hebt uitgevoerd, kunt u aangepaste afmetingen gebruiken in Analysis Workspace. U kunt Analytics-variabelen globaal of volgens afzonderlijke regels instellen.
+Als u een bibliotheek in Launch publiceert nadat u deze stappen hebt uitgevoerd, kunt u aangepaste afmetingen gebruiken in Analysis Workspace. U kunt variabelen van de Analyse globaal, of in individuele regels plaatsen.
 
 ### Algemene variabelen instellen
 
 Algemene variabelen zijn ideaal als u variabelewaarden wilt instellen op alle pagina&#39;s waar het gegevenselement aanwezig is.
 
-1. Ga naar [Adobe Experience Platform starten](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
+1. Ga naar [Adobe Experience Platform Launch](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
 1. Klik op de gewenste eigenschap Launch.
-1. Klik op de extensie [!UICONTROL Extensions tab]en klik vervolgens [!UICONTROL Configure] onder de extensie Adobe Analytics.
-1. Klik op de [!UICONTROL Global variables] accordeon, die de interface toont om globale variabelen toe te wijzen.
+1. Klik op [!UICONTROL Extensions tab] en klik vervolgens onder de extensie Adobe Analytics op [!UICONTROL Configure].
+1. Klik op de accordion [!UICONTROL Global variables], die de interface onthult om globale variabelen toe te wijzen.
 
 ### Variabelen in regels instellen
 
-Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op elke pagina wilt instellen. U definieert de criteria in de regel. Zie [Regels](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) in de de gebruikersgids van de Lancering van het Adobe Experience Platform.
+Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op elke pagina wilt instellen. U definieert de criteria in de regel. Zie [Regels](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html) in de Adobe Experience Platform Launch-gebruikershandleiding.
 
-1. Ga naar [Adobe Experience Platform starten](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
+1. Ga naar [Adobe Experience Platform Launch](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
 1. Klik op de gewenste eigenschap Launch.
-1. Klik op het [!UICONTROL Rules] tabblad en klik vervolgens op de gewenste regel (of maak een regel).
-1. Click the [!UICONTROL Add] button under [!UICONTROL Actions].
-1. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en stel de optie Variabelen [!UICONTROL Action Type] in.
-1. Klik op het pictogram ![Gegevenselement](assets/data-element.png) rechts van de gewenste Analytics-variabele. Het document [van het de](../prepare/solution-design.md) oplossingsontwerp van uw organisatie dicteert welke variabele van Analytics te gebruiken.
+1. Klik op het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak er een).
+1. Klik op de knop [!UICONTROL Add] onder [!UICONTROL Actions].
+1. Stel het vervolgkeuzemenu [!UICONTROL Extension] in op Adobe Analytics en [!UICONTROL Action Type] op Variabelen instellen.
+1. Klik op het pictogram ![Gegevenselement](assets/data-element.png) rechts van de gewenste variabele Analytics. Het [document van het oplossingsontwerp ](../prepare/solution-design.md) van uw organisatie bepaalt welke variabele Analytics aan gebruik.
 1. Selecteer het gewenste gegevenselement in het modale venster. Klik op [!UICONTROL Select].
-1. De naam van het gegevenselement wordt toegevoegd aan het tekstveld met `%` tekens. Als u bijvoorbeeld het gegevenselement &quot;Paginanaam&quot; een naam geeft, wordt de tekenreeks weergegeven `%Page name%` wanneer u een gegevenselement aan een variabele toewijst.
+1. De naam van het gegevenselement wordt toegevoegd aan het tekstveld dat wordt omringd door `%` tekens. Als u bijvoorbeeld het gegevenselement &quot;Paginanaam&quot; een naam geeft, ziet u de tekenreeks `%Page name%` wanneer u een gegevenselement toewijst aan een variabele.
 
 >[!TIP]
 >
->U kunt gegevenselementen in dezelfde variabele samenvoegen. Als u bijvoorbeeld een gegevenselement &#39;Hostname&#39; en een gegevenselement &#39;Pathname&#39; hebt, kunt u beide elementen combineren in één variabele `%Hostname%%Pathname%`.
+>U kunt gegevenselementen in dezelfde variabele samenvoegen. Als u bijvoorbeeld een gegevenselement &#39;Hostname&#39; en een gegevenselement &#39;Pathname&#39; hebt, kunt u beide elementen combineren in één variabele met `%Hostname%%Pathname%`.
 
 ## Volgende stappen
 
