@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Hulplijn exporteren
 user-guide-description: Gebruik Gegevensfeeds als u onbewerkte gegevens per uur of per dag wilt exporteren. Gebruik Data Warehouse om een spreadsheetuitvoer van gegevens op te halen.
-source-git-commit: 61f0327c8f443ffb2bc8845c0145c9c574e4e777
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 83%
+source-wordcount: '274'
+ht-degree: 77%
 
 ---
 
@@ -67,6 +67,6 @@ ht-degree: 83%
       + [Adobe-gegevens naar een extern FTP-account met SFTP verzenden](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Verstuur de verzoeken van het Data Warehouse naar servers SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Verbinding maken met Adobe via SFTP zonder wachtwoord](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspace-downloads](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Analysis Workspace-downloads](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html)
++ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)
