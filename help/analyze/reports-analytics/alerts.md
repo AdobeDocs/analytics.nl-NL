@@ -3,16 +3,15 @@ description: Gebruik waarschuwingen in Rapporten en Analyse.
 subtopic: Alerts
 title: Waarschuwingen
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-feature: Alerts
+feature: Waarschuwingen
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '866'
 ht-degree: 6%
 
 ---
-
 
 # Waarschuwingen
 
@@ -27,7 +26,7 @@ Met Intelligente waarschuwingen kunt u, net als met het nieuwe waarschuwingssyst
 
 U kunt dit nieuwe Alarmsysteem van **[!UICONTROL More]** > **[!UICONTROL Alerts]** in om het even welk rapport in Rapporten &amp; Analytics toegang hebben.
 
-Ga voor meer informatie naar de Analysis Workspace-documentatie op [Intelligente waarschuwingen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
+Ga voor meer informatie naar de Analysis Workspace-documentatie op [Intelligente waarschuwingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
 
 ## Een waarschuwing toevoegen {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -43,13 +42,13 @@ Navigeer naar de nieuwe waarschuwingsfunctie in het menu **[!UICONTROL Analytics
 
 1. Open in Rapporten en Analytics het rapport waarin u een waarschuwing wilt instellen.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
-1. Hiermee gaat u naar de [nieuwe waarschuwingsBuilder](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html).
+1. Hiermee gaat u naar de [nieuwe waarschuwingsBuilder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html).
 
 ## Bestaande waarschuwingen weergeven of bewerken {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Taakcontext
 
-1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Hiermee gaat u naar de nieuwe [Waarschuwingsmanager](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
+1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Hiermee gaat u naar de nieuwe [Waarschuwingsmanager](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
 
 ## Migratie van verouderde waarschuwingen {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -109,12 +108,12 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Waarschuwingen die gebruikmaken van participatiemetingen </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-participation.html"  > De metriek van de participatie  </a> is beschikbaar in Rapporten &amp; Analytics, maar is momenteel niet beschikbaar in het nieuwe alarmsysteem in Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metrics-participation.html"  > De metriek van de participatie  </a> is beschikbaar in Rapporten &amp; Analytics, maar is momenteel niet beschikbaar in het nieuwe alarmsysteem in Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Niet beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Maandelijkse waarschuwingen voor aangepaste kalenderrapporten </p> </td> 
-   <td colname="col2"> <p>Dit geldt alleen voor klanten met waarschuwingen die zijn ingesteld voor rapportsuites met <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > aangepaste begindatums voor maanden </a> (nationale detailhandelsfederatie/NRF en aangepaste kalendertypen). </p> <p>Het heeft geen invloed op waarschuwingen over Gregoriaanse of Gewijzigde Gregoriaanse kalenderrapportsuites. Eerder werden deze waarschuwingen verzonden op de eerste dag van de Gregoriaanse maand (bijvoorbeeld 1 januari, 1 februari enz.). Dit werkt niet met het nieuwe onderdeel Anomaly Detection van waarschuwingen, dat bij het opsporen van anomalieën rekening houdt met gegevens van vorige maanden. In de toekomst, zullen wij steun aan ons het plannen systeem voor douanecalendars toevoegen zodat zowel Alarm als Geplande Projecten kunnen worden gepland om op de eerste dag van de maand van de douanekalender in plaats van enkel de eerste dag van de Gregoriaanse maand te verzenden. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Dit geldt alleen voor klanten met waarschuwingen die zijn ingesteld voor rapportsuites met <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > aangepaste begindatums voor maanden </a> (nationale detailhandelsfederatie/NRF en aangepaste kalendertypen). </p> <p>Het heeft geen invloed op waarschuwingen over Gregoriaanse of Gewijzigde Gregoriaanse kalenderrapportsuites. Eerder werden deze waarschuwingen verzonden op de eerste dag van de Gregoriaanse maand (bijvoorbeeld 1 januari, 1 februari enz.). Dit werkt niet met het nieuwe onderdeel Anomaly Detection van waarschuwingen, dat bij het opsporen van anomalieën rekening houdt met gegevens van vorige maanden. In de toekomst, zullen wij steun aan ons het plannen systeem voor douanecalendars toevoegen zodat zowel Alarm als Geplande Projecten kunnen worden gepland om op de eerste dag van de maand van de douanekalender in plaats van enkel de eerste dag van de Gregoriaanse maand te verzenden. </p> <p> </p> </td> 
    <td colname="col3"> <p>Nog niet beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
   </tr> 
   <tr> 
@@ -133,4 +132,3 @@ deprecated_alerts.xml
   </tr> 
  </tbody> 
 </table>
-
