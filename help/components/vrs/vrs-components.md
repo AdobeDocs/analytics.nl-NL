@@ -2,14 +2,13 @@
 description: Virtuele rapportsuites kunnen worden gebogen om components.in Analysis Workspace op te nemen en uit te sluiten.
 title: Onderdeelselectie voor virtuele rapportsuites
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 12%
+source-wordcount: '385'
+ht-degree: 10%
 
 ---
-
 
 # Onderdeelselectie voor virtuele rapportsuites
 
@@ -72,4 +71,4 @@ Gebruik componentengroepen om bulkcomponenttoevoegingen aan uw virtuele rapportr
 
 ## Werking werkruimte {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Zie [Een project cureren en delen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html) voor meer informatie over cursus in Analysis Workspace.
+Zie [Een project cureren en delen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html) voor meer informatie over cursus in Analysis Workspace.
