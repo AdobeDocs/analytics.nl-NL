@@ -4,14 +4,13 @@ title: Koppelingen differentiëren die verwijzen naar dezelfde koppelings-id en 
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 5%
+source-wordcount: '364'
+ht-degree: 6%
 
 ---
-
 
 # Koppelingen differentiëren die verwijzen naar dezelfde koppelings-id en -regio
 
@@ -76,7 +75,7 @@ Hoe kunt u uw webpagina en tags aanpassen om de waarden van deze koppelingen te 
 
 ## Koppelings-id aanpassen met s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Door een unieke object-id te maken, `s_objectID`, voor een koppeling- of koppelingslocatie op een pagina, kunt u de Activity Map bijhouden verbeteren of Activity Map gebruiken om te rapporteren over een koppelingstype of -locatie, in plaats van de URL van de koppeling. Klik [hier](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) voor meer informatie over `s_objectID` variabele.
+Door een unieke object-id te maken, `s_objectID`, voor een koppeling- of koppelingslocatie op een pagina, kunt u de Activity Map bijhouden verbeteren of Activity Map gebruiken om te rapporteren over een koppelingstype of -locatie, in plaats van de URL van de koppeling. Klik [hier](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) voor meer informatie over `s_objectID` variabele.
 
 >[!IMPORTANT]
 >
@@ -134,7 +133,7 @@ Door een unieke object-id te maken, `s_objectID`, voor een koppeling- of koppeli
  </tbody>
 </table>
 
-## Gebied {#section_6B1EF302573B445DBAF44176D0A12DB9} aanpassen
+## Het gebied aanpassen {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
 U kunt de regio aanpassen door ervoor te zorgen dat voor elke link &quot;Kopen&quot; een eigen regio is gedefinieerd. Hiervoor voegt u een parameter `"id"` toe aan een van de bovenliggende elementen van elke ankertag &quot;Buy&quot;.
 
@@ -195,7 +194,7 @@ U kunt de regio aanpassen door ervoor te zorgen dat voor elke link &quot;Kopen&q
  </tbody>
 </table>
 
-## Pas het dossier {#section_B933BB9F944E4D5389002908A5A881F8} van ActivityMap van de ActiviteitMap App aan
+## Het bestand ActivityMap voor AppMeasurement-module aanpassen {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 Controleer of de gewijzigde code goed werkt. Adobe is niet verantwoordelijk voor het gedrag van de gewijzigde code.
