@@ -2,14 +2,13 @@
 description: In dit document wordt beschreven wat u in Adobe Analytics moet doen om de GDPR-toegangs- en verwijderingsrechten van uw geregistreerde personen te ondersteunen.
 title: Adobe Analytics en GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 97%
 
 ---
-
 
 # Adobe Analytics en GDPR
 
@@ -46,8 +45,8 @@ Zie [Rapportsuitedata labelen](/help/admin/c-data-governance/gdpr-setup-reportsu
 ## Vereisten {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
 * Maak u vertrouwd met [GDPR-terminologie.](/help/admin/c-data-governance/gdpr-terminology.md)
-* Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/organizations.html)
-* Wijs een Adobe Analytics-rapportsuite die u wilt instellen voor data-governance, toe aan [uw Experience Cloud-organisatie.](https://docs.adobe.com/content/help/nl-NL/core-services/interface/about-core-services/report-suite-mapping.html)
+* Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
+* Wijs een Adobe Analytics-rapportsuite die u wilt instellen voor data-governance, toe aan [uw Experience Cloud-organisatie.](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)
 * Stel voor elke rapportsuite een dataretentiebeleid in, zodat GDPR-verwijderings- en toegangsaanvragen kunnen worden gehonoreerd.
 
    >[!NOTE]
