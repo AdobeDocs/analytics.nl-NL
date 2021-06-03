@@ -3,20 +3,19 @@ description: De attributen van de klant worden opgeslagen in nieuw type van elem
 title: Klantkenmerken
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 22%
+source-wordcount: '122'
+ht-degree: 15%
 
 ---
-
 
 # Klantkenmerken
 
 De attributen van de klant worden opgeslagen in nieuw type van element genoemd VisAttr, dat als dimensie of metrisch kan worden gevormd.
 
-Raadpleeg [Experience Cloud Help](https://docs.adobe.com/content/help/nl-NL/core-services/interface/customer-attributes/attributes.html) voor meer informatie over het uploaden van klantkenmerken.
+Raadpleeg [Experience Cloud Help](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) voor meer informatie over het uploaden van klantkenmerken.
 
 * Als het als metrisch wordt gevormd, wordt VisAttr blootgesteld zowel als &quot;afmeting&quot;als metrisch.
 
@@ -26,4 +25,3 @@ Raadpleeg [Experience Cloud Help](https://docs.adobe.com/content/help/nl-NL/core
 * VisAttr ondersteunt alle eVar-meetgegevens.
 * VisAttr als metrische steunen &quot;emketization&quot;(als Tijd die op Plaats wordt uitgegeven: 0 tot en met 30, 31 tot en met 60, ...)
 * VisAttr is beschikbaar als segmentatiedimensie.
-
