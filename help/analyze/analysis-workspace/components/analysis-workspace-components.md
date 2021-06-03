@@ -1,30 +1,29 @@
 ---
 description: 'Componenten in Analysis Workspace bestaan uit afmetingen, metriek, segmenten en datumbereiken die u naar een project kunt slepen en neerzetten. '
 title: Overzicht van onderdelen
-feature: Workspace Basics
+feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 7%
+source-wordcount: '668'
+ht-degree: 5%
 
 ---
-
 
 # Overzicht van onderdelen
 
 Componenten in Analysis Workspace bestaan uit afmetingen, metriek, segmenten en datumbereiken die u naar een project kunt slepen en neerzetten.
 
-Als u het menu Componenten wilt openen, klikt u op het pictogram **[!UICONTROL Components]** in de linkertrack. U kunt schakelen tussen [Deelvensters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html), [Visualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) en Componenten van de linkerspoorpictogrammen of door [hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) te gebruiken.
+Als u het menu Componenten wilt openen, klikt u op het pictogram **[!UICONTROL Components]** in de linkertrack. U kunt schakelen tussen [Deelvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), [Visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) en Componenten van de linkerspoorpictogrammen of door [hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) te gebruiken.
 
 ![](assets/component-overview.png)
 
-U kunt ook de [Dichtheidsmontages van de Mening ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) voor het project aanpassen om meer waarden in de linkerspoorstaaf tegelijkertijd te zien door naar **[!UICONTROL Project > Project Info & Settings > View Density]** te gaan.
+U kunt ook de [Dichtheidsmontages van de Mening ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) voor het project aanpassen om meer waarden in de linkerspoorstaaf tegelijkertijd te zien door naar **[!UICONTROL Project > Project Info & Settings > View Density]** te gaan.
 
 ## Dimensies {#dimensions}
 
-[****](https://docs.adobe.com/content/help/en/analytics/components/dimensions/overview.html) Dimensies zijn tekstkenmerken die het gedrag van uw bezoeker beschrijven en die in uw analyse kunnen worden weergegeven, uitgesplitst en vergeleken. Ze zijn te vinden in de linkercomponentrails (oranje sectie) en worden doorgaans toegepast als rijen van een tabel.
+[****](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html) Dimensies zijn tekstkenmerken die het gedrag van uw bezoeker beschrijven en die in uw analyse kunnen worden weergegeven, uitgesplitst en vergeleken. Ze zijn te vinden in de linkercomponentrails (oranje sectie) en worden doorgaans toegepast als rijen van een tabel.
 
 Voorbeelden van afmetingen zijn [!UICONTROL Page Name], [!UICONTROL Marketing Channels], [!UICONTROL Device Type] en [!UICONTROL Products]. Dimension worden geleverd door Adobe en worden vastgelegd via uw aangepaste implementatie (eVar, Props, classificaties, enz.).
 
@@ -34,27 +33,27 @@ Voorbeelden van dimensie-items zijn [!UICONTROL Homepage] (binnen de [!UICONTROL
 
 ![](assets/dimensions.png)
 
-## Cijfers {#metrics}
+## Metrics {#metrics}
 
-[****](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) Metricare kwantitatieve maatstaven voor het gedrag van bezoekers. Ze zijn te vinden in het linkerspoor van de component (groene sectie) en worden doorgaans toegepast als kolommen van een tabel.
+[****](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html) Metricare kwantitatieve maatstaven voor het gedrag van bezoekers. Ze zijn te vinden in het linkerspoor van de component (groene sectie) en worden doorgaans toegepast als kolommen van een tabel.
 
-Voorbeelden van metriek zijn [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent] en [!UICONTROL Revenue/Order]. Metriek worden verstrekt door Adobe, of door uw douaneimplementatie ([!UICONTROL Success events]) gevangen, of gecreeerd gebruikend [Berekende metrische bouwer](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+Voorbeelden van metriek zijn [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent] en [!UICONTROL Revenue/Order]. Metriek worden verstrekt door Adobe, of door uw douaneimplementatie ([!UICONTROL Success events]) gevangen, of gecreeerd gebruikend [Berekende metrische bouwer](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
 
 ![](assets/metrics.png)
 
 ## Segmenten {#segments}
 
-[**De**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) segmentsfilters zijn publieksfilters die op uw analyse worden toegepast. Ze zijn te vinden in de linkercomponentrails (blauw gedeelte) en worden doorgaans toegepast boven aan een deelvenster of boven metrische kolommen in een tabel.
+[**De**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) segmentsfilters zijn publieksfilters die op uw analyse worden toegepast. Ze zijn te vinden in de linkercomponentrails (blauw gedeelte) en worden doorgaans toegepast boven aan een deelvenster of boven metrische kolommen in een tabel.
 
-Voorbeelden van segmenten zijn [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email] en [!UICONTROL Authenticated Hits]. Segmenten worden opgegeven door Adobe of gemaakt in de [dropzone](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) van het deelvenster of gemaakt met de [Segment builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+Voorbeelden van segmenten zijn [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email] en [!UICONTROL Authenticated Hits]. Segmenten worden opgegeven door Adobe of gemaakt in de [dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) van het deelvenster of gemaakt met de [Segment builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 
 ![](assets/segments.png)
 
 ## Datumbereik {#date-ranges}
 
-[**Datumbereiken**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) zijn de datums waarop u de analyse uitvoert. Ze zijn te vinden in de linkercomponentrails (paarse sectie) en worden doorgaans toegepast in de kalender van elk deelvenster.
+[**Datumbereiken**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) zijn de datums waarop u de analyse uitvoert. Ze zijn te vinden in de linkercomponentrails (paarse sectie) en worden doorgaans toegepast in de kalender van elk deelvenster.
 
-Voorbeelden van datumbereiken zijn juli 2019, [!UICONTROL Last 4 weeks] en [!UICONTROL This month]. Datumbereiken worden opgegeven door Adobe, toegepast in de [deelvensterkalender](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) of gemaakt met de [Datumbereikbuilder](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
+Voorbeelden van datumbereiken zijn juli 2019, [!UICONTROL Last 4 weeks] en [!UICONTROL This month]. Datumbereiken worden opgegeven door Adobe, toegepast in de [deelvensterkalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) of gemaakt met de [Datumbereikbuilder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
 
 ![](assets/date-ranges.png)
 
