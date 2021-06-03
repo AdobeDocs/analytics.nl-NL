@@ -3,10 +3,9 @@ description: Beschrijft hoe te om doelvalutacodes voor multi-muntsteun te bepale
 title: Ondersteuning voor meerdere valuta's
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -19,12 +18,12 @@ Doelvalutacodes worden op drie niveaus gedefinieerd:
 
 ## Paginaniveau
 
-U kunt een JavaScript-variabele voor de doelvaluta op paginaniveau instellen. De eigenaar van de site stelt deze variabele in met de toepasselijke drieletterige ISO 4217-valutacode (zoals hieronder in dit document wordt vermeld). Als de [currencyCode](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/currencycode.html) variabele niet op dit niveau wordt geplaatst, zal de standaardmunt het zelfde zijn die in de rapportreeks wordt gespecificeerd. Als de variabele op paginaniveau met de variabele in de rapportreeks wordt gespecificeerd in conflict is, zal de variabele in de rapportreeks belangrijkheid nemen.
+U kunt een JavaScript-variabele voor de doelvaluta op paginaniveau instellen. De eigenaar van de site stelt deze variabele in met de toepasselijke drieletterige ISO 4217-valutacode (zoals hieronder in dit document wordt vermeld). Als de [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) variabele niet op dit niveau wordt geplaatst, zal de standaardmunt het zelfde zijn die in de rapportreeks wordt gespecificeerd. Als de variabele op paginaniveau met de variabele in de rapportreeks wordt gespecificeerd in conflict is, zal de variabele in de rapportreeks belangrijkheid nemen.
 
 
 ## Niveau van rapportsuite
 
-De **basisvaluta** wordt gespecificeerd wanneer [het creëren van rapportreeksen](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). Dit is de standaardinstelling voor valuta en heeft voorrang op valutacodes die op paginaniveau zijn ingesteld. Als een rapportsuite orders bevat die Amerikaanse dollars, Euro en Britse Pounds accepteren en de rapportensuite een standaardvalutacode heeft ingesteld op US Dollars, vertaalt de back-end database alle transacties naar US Dollars.
+De **basisvaluta** wordt gespecificeerd wanneer [het creëren van rapportreeksen](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). Dit is de standaardinstelling voor valuta en heeft voorrang op valutacodes die op paginaniveau zijn ingesteld. Als een rapportsuite orders bevat die Amerikaanse dollars, Euro en Britse Pounds accepteren en de rapportensuite een standaardvalutacode heeft ingesteld op US Dollars, vertaalt de back-end database alle transacties naar US Dollars.
 
 Marketingrapporten gebruiken de wisselkoers op het moment dat de afbeeldingsaanvraag plaatsvindt om de valutanummers op paginaniveau om te zetten in de standaardwaarden van de rapportsuite. Rapportagesuites gebruiken &quot;US Dollars&quot; als de standaardvaluta.
 
