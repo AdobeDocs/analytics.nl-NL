@@ -5,11 +5,10 @@ title: Overzicht van succesgebeurtenissen
 feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 4%
+source-wordcount: '688'
+ht-degree: 2%
 
 ---
 
@@ -35,9 +34,9 @@ Afhankelijk van het type website zijn er vele soorten succesgebeurtenissen. Enke
 * **Hoge Tech**: Whitepaper downloaden, RFP, formuliervoltooiing, supportaanvragen
 * **Automobielindustrie**: Indiening van leads, aanvragen voor een prijsopgave, downloaden via brochure
 
-De [s.events](https://docs.adobe.com/content/help/nl-NL/analytics/implementation/vars/page-vars/events/event-serialization.html) variabele bepaalt een succesgebeurtenis.
+De [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) variabele bepaalt een succesgebeurtenis.
 
-## Pagina met succesgebeurtenissen - beschrijvingen {#section_681ECEC981694CABBDBF00E18165B447}
+## Pagina Gebeurtenissen geslaagd - beschrijvingen {#section_681ECEC981694CABBDBF00E18165B447}
 
 **[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Report Suites]** >  **[!UICONTROL Edit Settings]** >  **[!UICONTROL Conversion]** >  **[!UICONTROL Success Events]**
 
