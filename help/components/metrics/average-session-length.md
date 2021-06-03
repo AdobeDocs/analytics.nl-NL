@@ -1,19 +1,18 @@
 ---
 title: Gemiddelde sessielengte (mobiel)
 description: De gemiddelde sessielengte voor het mobiele apparaat.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-
 # Gemiddelde sessielengte (mobiel)
 
-De metrische waarde &#39;Gemiddelde sessielengte (mobiel)&#39; geeft de gemiddelde tijdsduur aan dat een bepaald afmetingsitem per afmetingsitem aanwezig is. Het is gelijkaardig aan de [Gemiddelde tijd op plaats](average-time-on-site.md) metrisch, behalve dit metrisch gebruikt mobiele SDK specifieke componenten als deel van zijn berekening.
+De metrische waarde &#39;Gemiddelde sessielengte (mobiel)&#39; geeft de gemiddelde tijdsduur aan dat een bepaald afmetingsitem per afmetingsitem aanwezig is. De methode is vergelijkbaar met de metrische [Gemiddelde tijd op de site](average-time-on-site.md), behalve dat bij deze metrische methode specifieke componenten van de mobiele SDK worden gebruikt als onderdeel van de berekening.
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrisch wordt berekend gebruikend de [mobiele metriek](https://docs.adobe.com/content/help/en/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html) `'Total session length' / ('Launches' - 'First launches'`.
+Deze metrische waarde wordt berekend met behulp van [mobiele metriek](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html) `'Total session length' / ('Launches' - 'First launches'`.
