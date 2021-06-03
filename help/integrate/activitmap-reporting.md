@@ -4,11 +4,10 @@ title: Activity Map-rapportage
 feature: Activity Map
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 15%
+source-wordcount: '144'
+ht-degree: 9%
 
 ---
 
@@ -30,4 +29,4 @@ Laat Analytics toe om gebruikersactiviteit te verzamelen die bij Activity Map (v
    | Koppelingen Activity Mappen | Hiermee geeft u alle verzamelde koppelingen op de hele website weer. |
    | Koppelingen en regio Activity Mappen | Hiermee geeft u alle verzamelde koppelingen met hun regio op de hele website weer. |
 
-Voor te vullen gegevens, verwijs naar [Activity Map documentatie](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/activity-map/activity-map.html) voor volledige implementatieinstructies.
+Voor te vullen gegevens, verwijs naar [Activity Map documentatie](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) voor volledige implementatieinstructies.
