@@ -2,14 +2,13 @@
 description: Veelgestelde vragen over Adobe Analytics-gegevensbeheer
 title: Veelgestelde vragen
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
-translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1804'
 ht-degree: 99%
 
 ---
-
 
 # Veelgestelde vragen
 
@@ -53,7 +52,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Hoe moeten datacontrollers denken over dataretentie in verband met Data Privacy?</b> </p> </td> 
-   <td colname="col2"> <p>In het algemeen bepaalt Data Privacy dat persoonlijke data doorgaans niet langer mogen worden bewaard dan nodig is voor het doel waarvoor ze zijn verzameld. </p> <p>Zoals Adobe in februari in zijn klantencommunicatie heeft uiteengezet, zullen we voor de meeste klanten een 25-maandenplan voor dataretentie aanhouden, tenzij er andere regelingen zijn getroffen (die aan de klant moeten worden gemeld en door de klant moeten worden goedgekeurd). Klanten moeten hun dataretentiebeleid instellen voordat Adobe een Data Privacy-aanvraag kan verwerken. </p> <p>In Adobe Analytics moeten klanten hun dataretentie instellen om hun Data Privacy-aanvragen te kunnen verwerken. Het huidige dataretentiebeleid van elke rapportsuite wordt weergegeven in de nieuwe Data Governance-beheergebruikersinterface. Klanten moeten contact opnemen met hun Adobe-vertegenwoordiger als ze hun dataretentiebeleid willen aanpassen. Raadpleeg <a href="https://docs.adobe.com/content/help/nl-NL/analytics/technotes/latency.html">Veelgestelde vragen over Adobe Analytics-dataretentie.</a> </p> </td> 
+   <td colname="col2"> <p>In het algemeen bepaalt Data Privacy dat persoonlijke data doorgaans niet langer mogen worden bewaard dan nodig is voor het doel waarvoor ze zijn verzameld. </p> <p>Zoals Adobe in februari in zijn klantencommunicatie heeft uiteengezet, zullen we voor de meeste klanten een 25-maandenplan voor dataretentie aanhouden, tenzij er andere regelingen zijn getroffen (die aan de klant moeten worden gemeld en door de klant moeten worden goedgekeurd). Klanten moeten hun dataretentiebeleid instellen voordat Adobe een Data Privacy-aanvraag kan verwerken. </p> <p>In Adobe Analytics moeten klanten hun dataretentie instellen om hun Data Privacy-aanvragen te kunnen verwerken. Het huidige dataretentiebeleid van elke rapportsuite wordt weergegeven in de nieuwe Data Governance-beheergebruikersinterface. Klanten moeten contact opnemen met hun Adobe-vertegenwoordiger als ze hun dataretentiebeleid willen aanpassen. Raadpleeg <a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html">Veelgestelde vragen over Adobe Analytics-dataretentie.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Kan een klant de standaardperiode voor dataretentie verkorten of verlengen?</b> </p> </td> 
