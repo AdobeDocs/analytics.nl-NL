@@ -5,11 +5,10 @@ title: De integratie gebruiken
 feature: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 exl-id: 11fc6382-da83-4320-9f2f-bf6ca096f0ae
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 10%
+source-wordcount: '161'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +22,7 @@ Nadat de implementatie is voltooid, kunt u beginnen met het gebruik van de extra
 
 Hieronder vindt u acties die u kunt ondernemen om waarde te krijgen van deze integratie vanuit Adobe Analytics.
 
-1. Creeer een Segment gebruikend de gegevens van de enquêtereactie (zie [een segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) creëren).
+1. Creeer een Segment gebruikend de gegevens van de enquêtereactie (zie [een segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) creëren).
 1. Pas het segment toe op belangrijke rapporten.
 
 ## Voorbeeld {#section-07051d0d60a44408a4e108034586c42f}
