@@ -1,16 +1,15 @@
 ---
 title: Wat is Analysis Workspace en hoe gebruik ik het?
 description: Analysis Workspace is het belangrijkste instrument voor analyse van Adobe Analytics. Het laat u panelen, lijsten, visualisaties, en andere componenten gebruiken om gegevens aan het leven te brengen, een dataset te leiden, projecten, onder andere mogelijkheden te delen en te plannen.
-feature: Workspace Basics
+feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 6%
+source-wordcount: '548'
+ht-degree: 1%
 
 ---
-
 
 # Overzicht van Analysis Workspace
 
@@ -34,35 +33,35 @@ Als u eenmaal bent aangemeld, moet de eerste stop de zelfstudie voor Analysis Wo
 
 ## Nieuw project maken {#new-project}
 
-Nu de zelfstudie is voltooid, kunt u beginnen met het bouwen van uw eerste project. Het **nieuwe project modal** voorziet u van verschillende opties om uw analyse te beginnen. U kunt kiezen om te beginnen van een leeg project of [leeg mobiel scorecard](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html), afhankelijk van of u van plan bent om uw analyse van browser of de mobiele app van Adobe Analytics te delen dashboards.
+Nu de zelfstudie is voltooid, kunt u beginnen met het bouwen van uw eerste project. Het **nieuwe project modal** voorziet u van verschillende opties om uw analyse te beginnen. U kunt kiezen om te beginnen van een leeg project of [leeg mobiel scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html), afhankelijk van of u van plan bent om uw analyse van browser of de mobiele app van Adobe Analytics te delen dashboards.
 
 ![](assets/create-new-project.png)
 
-U kunt ook met uw analyse beginnen van vooraf gebouwde **templates**, of Adobe-Geleverde standaardmalplaatjes of douanesjablonen die door uw organisatie werden gecreeerd. Er zijn verschillende sjablonen beschikbaar, afhankelijk van de analyse- of gebruikscase die u in gedachten hebt. [Meer weten ](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) over de verschillende beschikbare sjabloonopties?
+U kunt ook met uw analyse beginnen van vooraf gebouwde **templates**, of Adobe-Geleverde standaardmalplaatjes of douanesjablonen die door uw organisatie werden gecreeerd. Er zijn verschillende sjablonen beschikbaar, afhankelijk van de analyse- of gebruikscase die u in gedachten hebt. [Meer weten ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) over de verschillende beschikbare sjabloonopties?
 
-## Uw analyse {#analysis} samenstellen
+## Uw analyse maken {#analysis}
 
 In uw project van de Werkruimte, **worden de panelen, de lijsten, de visualisaties, en de componenten** betreden van de linkerspoorstaaf. Dit zijn uw projectbouwstenen.
 
 ### Onderdelen
 
-**** Componenten zijn dimensies, metriek, segmenten, of datumwaaiers, die allen in een kunnen worden gecombineerd  **[!UICONTROL Freeform table]** om uw bedrijfsvraag te beginnen beantwoorden. Zorg ervoor dat u bekend bent met elk [componenttype](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) voordat u in de analyse gaat duiken. Als u de componentterminologie onder de knie hebt, kunt u beginnen met slepen en neerzetten naar [uw analyse](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) in een **[!UICONTROL Freeform table]** bouwen.
+**** Componenten zijn dimensies, metriek, segmenten, of datumwaaiers, die allen in een kunnen worden gecombineerd  **[!UICONTROL Freeform table]** om uw bedrijfsvraag te beginnen beantwoorden. Zorg ervoor dat u bekend bent met elk [componenttype](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) voordat u in de analyse gaat duiken. Als u de componentterminologie onder de knie hebt, kunt u beginnen met slepen en neerzetten naar [uw analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) in een **[!UICONTROL Freeform table]** bouwen.
 
 ![](assets/build-components.png)
 
 ### Visualisaties
 
-**Visualisaties**, zoals een bar of lijngrafiek, worden dan toegevoegd bovenop de gegevens om het aan het leven visueel te brengen. Selecteer in de linkerbenedenhoek het middelste **[!UICONTROL Visualizations]**-pictogram om de volledige lijst met beschikbare [visualisaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) weer te geven.
+**Visualisaties**, zoals een bar of lijngrafiek, worden dan toegevoegd bovenop de gegevens om het aan het leven visueel te brengen. Selecteer in de linkerbenedenhoek het middelste **[!UICONTROL Visualizations]**-pictogram om de volledige lijst met beschikbare [visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) weer te geven.
 
 ![](assets/build-visualizations.png)
 
 ### Deelvensters
 
-**De** Comités worden gebruikt om uw analyse binnen een project te organiseren en kunnen vele lijsten &amp; visualisaties bevatten. Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren een volledige set analyses op basis van een paar gebruikersinvoer. Selecteer in de uiterst linkse rail het bovenste **[!UICONTROL Panels]**-pictogram om een volledige lijst met [beschikbare deelvensters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) weer te geven.
+**De** Comités worden gebruikt om uw analyse binnen een project te organiseren en kunnen vele lijsten &amp; visualisaties bevatten. Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren een volledige set analyses op basis van een paar gebruikersinvoer. Selecteer in de uiterst linkse rail het bovenste **[!UICONTROL Panels]**-pictogram om een volledige lijst met [beschikbare deelvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) weer te geven.
 
 ![](assets/build-panels.png)
 
 ## Aanvullende bronnen {#resources}
 
-* Adobe biedt honderden [Lesbestanden voor videotraining voor analyse](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html).
+* Adobe biedt honderden [Lesbestanden voor videotraining voor analyse](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
 * Zie [Nieuw in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) voor updates over nieuwe functies.
