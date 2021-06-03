@@ -2,16 +2,15 @@
 description: Gebruik de stroomvisualisatie in een project van de Werkruimte.
 title: Overzicht van stroom
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-feature: Visualizations
+feature: Visualisaties
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
-
 
 # Overzicht van stroom
 
@@ -27,7 +26,7 @@ Hiermee kunt u:
 >
 >Voor informatie over hoe de resultaten van het toepassen van segmenten op Stroom tussen Analysis Workspace en Rapporten &amp; Analytics zouden kunnen verschillen, zie [Segmentatie als Stichting voor Stroom &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Videozelfstudie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) voor stroomvisualisatie (4:56)
+[Videozelfstudie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) voor stroomvisualisatie (4:56)
 
 ## Inter-dimensionale stromen {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
