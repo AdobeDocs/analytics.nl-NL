@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Een Workspace-project maken
 feature: Grondbeginselen van rapporten en analyses
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 14%
+source-wordcount: '730'
+ht-degree: 13%
 
 ---
 
@@ -22,7 +22,7 @@ Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en t
 
 1. Specificeer gebruikerstoestemming om projecten tot stand te brengen en te leiden.
 
-   Voordat u een Analysis Workspace-project maakt of leidt, moeten beheerders u aan een groep toevoegen met de machtiging **[!UICONTROL Create / Curate Projects in Analysis Workspace]** ingeschakeld of aan de gebruikersgroep **[!UICONTROL All Report Access]**. (**[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > [Groepen](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html)).
+   Voordat u een Analysis Workspace-project maakt of leidt, moeten beheerders u aan een groep toevoegen met de machtiging **[!UICONTROL Create / Curate Projects in Analysis Workspace]** ingeschakeld of aan de gebruikersgroep **[!UICONTROL All Report Access]**. (**[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > [Groepen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)).
 
 1. Klik in [!DNL Experience Cloud] op **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
