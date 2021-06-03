@@ -1,16 +1,15 @@
 ---
 title: Dynamische versus statische dimensie-items in vrije-vormtabellen
 description: Hoe te met dynamische en statische afmetingspunten in lijsten in wisselwerking te staan.
-feature: Freeform Tables
+feature: Vrije-vormtabellen
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
-
 
 # Dynamische versus statische dimensie-items in vrije-vormtabellen
 
@@ -54,4 +53,4 @@ Items van het type Dimension van verschillende afmetingen kunnen aan dezelfde ta
 Dynamische en statische rijen gedragen zich anders in de vrije-vormtotale rij. Standaard:
 
 * Dynamische rijen worden samengevat op de server en worden niet-gedupliceerde cijfers zoals bezoeken of bezoekers
-* Statische rijen worden als client-side opgeteld en doen **niet** de-duplicate metriek. Als u de totale rijserver wilt berekenen, wijzigt u de rijinstelling in **Groot totaal tonen**. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* Statische rijen worden als client-side opgeteld en doen **niet** de-duplicate metriek. Als u de totale rijserver wilt berekenen, wijzigt u de rijinstelling in **Groot totaal tonen**. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
