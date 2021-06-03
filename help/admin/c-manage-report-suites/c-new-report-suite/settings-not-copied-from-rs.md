@@ -4,11 +4,10 @@ title: Instellingen die niet uit een bronrapportsuite zijn gekopieerd
 feature: Admin Tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 15%
+source-wordcount: '205'
+ht-degree: 10%
 
 ---
 
@@ -28,7 +27,7 @@ De volgende montages worden niet gekopieerd van malplaatje of gedupliceerde rapp
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Indelingsgegevens (classificatiestructuur wordt gekopieerd) </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> Documentatie van importmodule voor classificaties (geüpload)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> Documentatie van importmodule voor classificaties (geüpload)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opname van transactie-id inschakelen </p> </td> 
@@ -62,7 +61,7 @@ De volgende montages worden niet gekopieerd van malplaatje of gedupliceerde rapp
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bezoekerskaartbeheer </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Upgrade naar Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Upgrade naar Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA-regels </p> </td> 
