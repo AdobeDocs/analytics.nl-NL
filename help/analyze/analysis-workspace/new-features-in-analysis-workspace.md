@@ -5,16 +5,16 @@ title: Nieuwe functies in Analysis Workspace
 feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '8217'
-ht-degree: 90%
+source-wordcount: '8171'
+ht-degree: 89%
 
 ---
 
 # Nieuwe functies in Analysis Workspace
 
-Voor toegang tot de de Nota&#39;s van de Versie van Adobe Experience Cloud als geheel, ga [hier](https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html).
+Voor toegang tot de de Nota&#39;s van de Versie van Adobe Experience Cloud als geheel, ga [hier](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html).
 
 ## Maart 2021
 
@@ -40,15 +40,15 @@ Voor toegang tot de de Nota&#39;s van de Versie van Adobe Experience Cloud als g
 
 | Functie | Beschrijving |
 | --- | --- |
-| Lijnvisualisatie: [Gemiddelde trendlijnoptie verplaatsen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Moving average]** is toegevoegd aan de instellingen voor  [!UICONTROL Line] visualisatietendensen. Een voortschrijdend gemiddelde wordt ook wel een specifiek aantal gegevenspunten (bepaald door een **[!UICONTROL Periods]**-selectie) genoemd, gemiddeld gebruikt en het gemiddelde gebruikt als een punt op de regel. |
-| [Help-pagina voor prestaties](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Op de pagina met Help over Analysis Workspace-prestaties worden verschillende factoren weergegeven die van invloed zijn op de projectprestaties en worden koppelingen naar tips voor optimalisatie weergegeven. |
+| Lijnvisualisatie: [Gemiddelde trendlijnoptie verplaatsen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Moving average]** is toegevoegd aan de instellingen voor  [!UICONTROL Line] visualisatietendensen. Een voortschrijdend gemiddelde wordt ook wel een specifiek aantal gegevenspunten (bepaald door een **[!UICONTROL Periods]**-selectie) genoemd, gemiddeld gebruikt en het gemiddelde gebruikt als een punt op de regel. |
+| [Help-pagina voor prestaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Op de pagina met Help over Analysis Workspace-prestaties worden verschillende factoren weergegeven die van invloed zijn op de projectprestaties en worden koppelingen naar tips voor optimalisatie weergegeven. |
 
 ## September 2020
 
 | Functie | Beschrijving |
 | --- | --- |
-| [Download 50 kB items voor één dimensie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | U kunt nu 50.000 items downloaden voor één dimensie in een vrije-vormtabel, met toegepaste segmenten en filters. Hierdoor hebt u toegang tot meer dan de 400 rijen gegevens buiten Analysis Workspace. |
-| [Verbeteringen voor lijnvisualisatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>U kunt de x-as en de y-as van om het even welke [!UICONTROL Line] visualisatie tonen of verbergen. Dit is vooral handig wanneer uw [!UICONTROL Line]-visualisaties compacter zijn.</li><li>U kunt een minimum- en maximumwaardelabel bedekken op elke Lijnvisualisatie om de pieken en dalen snel in metrische vorm te markeren.</li><li>U kunt verschillende regressietendellijnen op om het even welke Lijn visualisatie bedekken om de trend in de gegevens gemakkelijker te zien. U kunt onder andere [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] en [!UICONTROL Quadratic] kiezen.</li></ul> |
+| [Download 50 kB items voor één dimensie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | U kunt nu 50.000 items downloaden voor één dimensie in een vrije-vormtabel, met toegepaste segmenten en filters. Hierdoor hebt u toegang tot meer dan de 400 rijen gegevens buiten Analysis Workspace. |
+| [Verbeteringen voor lijnvisualisatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>U kunt de x-as en de y-as van om het even welke [!UICONTROL Line] visualisatie tonen of verbergen. Dit is vooral handig wanneer uw [!UICONTROL Line]-visualisaties compacter zijn.</li><li>U kunt een minimum- en maximumwaardelabel bedekken op elke Lijnvisualisatie om de pieken en dalen snel in metrische vorm te markeren.</li><li>U kunt verschillende regressietendellijnen op om het even welke Lijn visualisatie bedekken om de trend in de gegevens gemakkelijker te zien. U kunt onder andere [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] en [!UICONTROL Quadratic] kiezen.</li></ul> |
 | Nieuwe datumbereiken | We hebben vijf nieuwe datumbereiken toegevoegd, zodat u kunt kiezen uit datumbereiken die geen gegevens van vandaag voor een gedeeltelijke dag bevatten: Laatste 7 volledige dagen, Laatste 14 volledige dagen, Laatste 30 volledige dagen, Laatste 60 volledige dagen, Laatste 90 volledige dagen |
 
 ## Augustus 2020
@@ -69,11 +69,11 @@ Nieuwe functies uitgebracht op 18 juni 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| Attribution IQ: algorithmische attributie | Het Algorithmic Attribution model in Analysis Workspace gebruikt statistische technieken om dynamisch de optimale allocatie van krediet voor de geselecteerde metrische waarde te bepalen. Beschikbaar voor klanten van Adobe Analytics Ultimate. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| Attribution IQ: aangepaste terugblikvensters | U kunt nu elk attributiemodel in Attribution IQ zo configureren dat er aanraakpunten aanwezig zijn van maximaal 90 dagen vóór de periode van de rapporttijd. Dit verhoogt doorgaans de attributienauwkeurigheid voor gebeurtenissen die zich vroegtijdig in de verslagperiode voordoen, door interacties die in de voorafgaande maand(en) hebben plaatsgevonden, te verklaren. Beschikbaar voor klanten van Adobe Analytics Foundation, Select, Premium, Premium, Premium Attribution, Premium Complete en Ultimate. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
-| Projectrollen voor gedeelde Workspace-projecten | Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Workspace-projecten voor alleen-weergeven | Workspace-projecten kunnen met gebruikers worden gedeeld als ‘alleen weergeven’. Wanneer een ontvanger voor Weergaven het gedeelde project opent, ontvangt hij/zij een beperktere projectervaring zonder linkerrail en met beperkte interactie. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Mogelijkheid om Workspace-projecten gezamenlijk te bewerken | Ontvangers die aan de rol voor Bewerken zijn toegevoegd, kunnen een project opslaan dat met hen is gedeeld. Dit geldt zowel voor beheerders als niet-beheerders. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Attribution IQ: algorithmische attributie | Het Algorithmic Attribution model in Analysis Workspace gebruikt statistische technieken om dynamisch de optimale allocatie van krediet voor de geselecteerde metrische waarde te bepalen. Beschikbaar voor klanten van Adobe Analytics Ultimate. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ: aangepaste terugblikvensters | U kunt nu elk attributiemodel in Attribution IQ zo configureren dat er aanraakpunten aanwezig zijn van maximaal 90 dagen vóór de periode van de rapporttijd. Dit verhoogt doorgaans de attributienauwkeurigheid voor gebeurtenissen die zich vroegtijdig in de verslagperiode voordoen, door interacties die in de voorafgaande maand(en) hebben plaatsgevonden, te verklaren. Beschikbaar voor klanten van Adobe Analytics Foundation, Select, Premium, Premium, Premium Attribution, Premium Complete en Ultimate. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Projectrollen voor gedeelde Workspace-projecten | Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Workspace-projecten voor alleen-weergeven | Workspace-projecten kunnen met gebruikers worden gedeeld als ‘alleen weergeven’. Wanneer een ontvanger voor Weergaven het gedeelde project opent, ontvangt hij/zij een beperktere projectervaring zonder linkerrail en met beperkte interactie. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Mogelijkheid om Workspace-projecten gezamenlijk te bewerken | Ontvangers die aan de rol voor Bewerken zijn toegevoegd, kunnen een project opslaan dat met hen is gedeeld. Dit geldt zowel voor beheerders als niet-beheerders. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Bijgewerkt leeg deelvenster | Het lege deelvenster bevat nu deelvensters en visualisaties, zodat u naadloos de analyseworkflow kunt kiezen die het beste voor u werkt. |
 | Deelvenster Snelle inzichten (25 juni 2020) | Quick Insights biedt richtlijnen voor niet-analisten en nieuwe gebruikers van Analysis Workspace hoe ze zakelijke vragen snel en eenvoudig kunnen beantwoorden. [Meer informatie...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Deelvenster Analytics for Target in Workspace (25 juni 2020) | Met het deelvenster Analytics for Target (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace met lift en vertrouwen analyseren. [Meer informatie...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -86,7 +86,7 @@ Nieuwe functies uitgebracht op 21 mei 2020.
 | Functie | Beschrijving |
 |--- |--- |
 | Automatisch Freeform-tabellen maken op basis van een leeg frame | Eerder kon u componenten niet direct in een leeg project of leeg paneel laten vallen; u moest eerst een Lijst Freeform toevoegen. U kunt componenten nu rechtstreeks in een leeg project of deelvenster neerzetten en een tabel voor vrije vorm wordt automatisch voor u gemaakt in een aanbevolen indeling. Bovendien zijn er verbeteringen toegevoegd in de manier waarop gemengde onderdeeltypen (zoals dimensies en cijfers) wanneer deze samen in een lege vrije-vormtabel worden neergezet. |
-| Toegankelijkheidsverbeteringen | Het Adobe Analytics-team heeft verschillende toegankelijkheidsverbeteringen doorgevoerd in Analysis Workspace, waaronder verbeterde toetsenbordnavigatie, kleurcontrast en ondersteuning voor schermlezers. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| Toegankelijkheidsverbeteringen | Het Adobe Analytics-team heeft verschillende toegankelijkheidsverbeteringen doorgevoerd in Analysis Workspace, waaronder verbeterde toetsenbordnavigatie, kleurcontrast en ondersteuning voor schermlezers. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## April 2020
 
@@ -102,7 +102,7 @@ Nieuwe functies uitgebracht op 12 maart 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| Ondersteuning voor meerdere rapportsuites in Workspace | U kunt data van meerdere rapportsuites nu in één enkel project samenbrengen en naast elkaar bekijken. [Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| Ondersteuning voor meerdere rapportsuites in Workspace | U kunt data van meerdere rapportsuites nu in één enkel project samenbrengen en naast elkaar bekijken. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | Sjabloon voor trainingszelfstudie | Met deze nieuwe standaardsjabloon leert u over algemene terminologie en wordt u stapsgewijs begeleid bij het bouwen van uw eerste analyse in Workspace. De sjabloon is beschikbaar als standaardsjabloon in het modale dialoogvenster voor nieuwe projecten en vervangt het huidige voorbeeldproject voor nieuwe gebruikers die geen andere projecten in hun lijst hebben. [Meer informatie...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## Februari 2020
@@ -111,8 +111,8 @@ Nieuwe functies uitgebracht op 20 februari 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| Nieuwe Workspace-sjabloon voor voor bedrijven die CDA (Cross-Device Analytics) gebruiken | In deze sjabloon ziet u hoe effectief CDA is bij het samenvoegen van bezoeken en leert u over exclusieve CDA-dimensies en metrics. Een rapportsuite met CDA is vereist. Zie [CDA (Cross-Device Analytics)](https://docs.adobe.com/content/help/nl-NL/analytics/components/cda/cda-setup.html) instellen voor meer informatie. |
-| Nieuwe sneltoetsen in Workspace | <ul><li>Alle deelvensters samenvouwen/uitvouwen: `alt + m`</li><li>Actief deelvenster samenvouwen/uitvouwen: `alt + ctrl + m`</li><li>Zoeken in linkerrail: `ctrl + /`</li><li>Naar volgend deelvenster gaan: `alt + Right Key`</li><li>Naar vorig deelvenster gaan: `alt + Left Key`</li></ul>[Meer informatie...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Nieuwe Workspace-sjabloon voor voor bedrijven die CDA (Cross-Device Analytics) gebruiken | In deze sjabloon ziet u hoe effectief CDA is bij het samenvoegen van bezoeken en leert u over exclusieve CDA-dimensies en metrics. Een rapportsuite met CDA is vereist. Zie [CDA (Cross-Device Analytics)](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html) instellen voor meer informatie. |
+| Nieuwe sneltoetsen in Workspace | <ul><li>Alle deelvensters samenvouwen/uitvouwen: `alt + m`</li><li>Actief deelvenster samenvouwen/uitvouwen: `alt + ctrl + m`</li><li>Zoeken in linkerrail: `ctrl + /`</li><li>Naar volgend deelvenster gaan: `alt + Right Key`</li><li>Naar vorig deelvenster gaan: `alt + Left Key`</li></ul>[Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Andere verbeteringen in Workspace | <ul><li>Wanneer een deelvenster of visualisatie in Workspace wordt geplaatst, schakelt de linkerrail nu automatisch naar componenten voor een naadloze workflow.</li><li>Sjablooncomponenten kunnen nu worden bewerkt (bijvoorbeeld voorzien van tags, als favoriet ingesteld of goedgekeurd).</li><li>De gefilterde metrische lijsten en segmentlijsten bevatten nu een plusknop (+) waarmee u een nieuwe component kunt toevoegen als u niet vindt wat u nodig hebt.</li></ul> |
 | Foutopsporing voor Workspace | Het Help-menu van Workspace bevat nu een optie voor foutopsporing, zodat u deze naadloos kunt inschakelen bij Workspace-verzoeken voor foutopsporing. [Meer informatie...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -122,7 +122,7 @@ Nieuwe functie uitgebracht op 16 januari 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| [Vrije-vormtabellen samenstellen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | Als u de functie voor samenstellen van tabellen inschakelt, kunt u allerlei dimensies, uitsplitsingen, metrics en segmenten plaatsen om tabellen te bouwen waarmee complexe zakelijke vragen worden beantwoord. Gegevens worden niet meteen bijgewerkt. In plaats daarvan vindt de update plaats nadat u op **[!UICONTROL Build]** klikt, zodat u tijd bespaart wanneer u weet welke tabel u wilt samenstellen. Bovendien biedt deze functie:<ul><li>**Voorvertoning**: u kunt een voorbeeld van de tabelindeling bekijken voordat gaat werken aan het renderen van echte gegevens.</li><li>**Flexibele instellingen voor rij en uitsplitsing**: u kunt nu een rij- en uitsplitsingsniveau instellen voor elke dimensierij. Eerder werden in Workspace standaardinstellingen ingesteld die pas konden worden gewijzigd nadat de gegevens waren geretourneerd.</li><li>**Uitsplitsing naar positie**: u kunt dimensierijen zo instellen dat ze altijd _worden uitgesplitst op positie_ in plaats van _op een bepaald item_ (de standaardinstelling).</li><li>**Handmatige statische rijvolgorde**: u kunt statische rijen handmatig ordenen, zodat tabelrijen precies zo worden weergegeven als nodig is. Voorheen konden statische rijen alleen worden gesorteerd op een kolom met metrics, of alfabetisch.</li></ul> |
+| [Vrije-vormtabellen samenstellen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | Als u de functie voor samenstellen van tabellen inschakelt, kunt u allerlei dimensies, uitsplitsingen, metrics en segmenten plaatsen om tabellen te bouwen waarmee complexe zakelijke vragen worden beantwoord. Gegevens worden niet meteen bijgewerkt. In plaats daarvan vindt de update plaats nadat u op **[!UICONTROL Build]** klikt, zodat u tijd bespaart wanneer u weet welke tabel u wilt samenstellen. Bovendien biedt deze functie:<ul><li>**Voorvertoning**: u kunt een voorbeeld van de tabelindeling bekijken voordat gaat werken aan het renderen van echte gegevens.</li><li>**Flexibele instellingen voor rij en uitsplitsing**: u kunt nu een rij- en uitsplitsingsniveau instellen voor elke dimensierij. Eerder werden in Workspace standaardinstellingen ingesteld die pas konden worden gewijzigd nadat de gegevens waren geretourneerd.</li><li>**Uitsplitsing naar positie**: u kunt dimensierijen zo instellen dat ze altijd _worden uitgesplitst op positie_ in plaats van _op een bepaald item_ (de standaardinstelling).</li><li>**Handmatige statische rijvolgorde**: u kunt statische rijen handmatig ordenen, zodat tabelrijen precies zo worden weergegeven als nodig is. Voorheen konden statische rijen alleen worden gesorteerd op een kolom met metrics, of alfabetisch.</li></ul> |
 
 ## Oktober 2019
 
@@ -130,7 +130,7 @@ Verbeteringen uitgebracht op 10 oktober 2019.
 
 | Verbetering | Beschrijving |
 |--- |--- |
-| Bijwerken naar totalen in vrije-vormtabellen | Vrije-vormtabellen bevatten nu twee totalen, een **[!UICONTROL Table total]** en een **[!UICONTROL Grand total]**. De rij Tabeltotaal werkt op basis van de toegepaste [rapportfilters](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html). Voorheen werden totalen alleen beïnvloed door segmentatie. [Meer informatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>Daarnaast zijn de opties **[!UICONTROL Show Totals]** en **[!UICONTROL Show Grand Total]** toegevoegd aan **[!UICONTROL Column Settings]**.<br/>Met deze wijziging in de vrije-vormtotalen worden afhankelijke visualisaties bijgewerkt (bijvoorbeeld gekoppelde **[!UICONTROL Summary Number]** visualisaties), net als geëxporteerde CSV- en PDF-data. |
+| Bijwerken naar totalen in vrije-vormtabellen | Vrije-vormtabellen bevatten nu twee totalen, een **[!UICONTROL Table total]** en een **[!UICONTROL Grand total]**. De rij Tabeltotaal werkt op basis van de toegepaste [rapportfilters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html). Voorheen werden totalen alleen beïnvloed door segmentatie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>Daarnaast zijn de opties **[!UICONTROL Show Totals]** en **[!UICONTROL Show Grand Total]** toegevoegd aan **[!UICONTROL Column Settings]**.<br/>Met deze wijziging in de vrije-vormtotalen worden afhankelijke visualisaties bijgewerkt (bijvoorbeeld gekoppelde **[!UICONTROL Summary Number]** visualisaties), net als geëxporteerde CSV- en PDF-data. |
 | Optie voor het verwijderen van Niet-opgegeven/Geen | Bij de rapportagefilters kunt u nu de optie &quot;Niet-opgegeven (Geen)&quot; gemakkelijk verwijderen. |
 | Paarse granulariteitscomponenten buiten gebruik | De paarse tijdcomponenten voor granulariteit (Minuut, Uur, Dag, Week, Maand, Kwartaal, Jaar) zijn verouderd en buiten gebruik gesteld. De paarse tijdcomponenten gedragen zich exact hetzelfde als hun oranje tegenhangers voor dimensies. De gebruikservaring is met deze verwijdering vereenvoudigd. U hoeft **geen actie** te ondernemen als u voorheen een van de paarse tijdcomponenten hebt gebruikt.<br/>Door deze wijziging is de naam van de paarse **[!UICONTROL Time]**-sectie ook gewijzigd in **[!UICONTROL Date Ranges]**. |
 
@@ -148,9 +148,9 @@ Verbeteringen uitgebracht op 18 juli 2019.
 
 | Verbetering | Beschrijving |
 |--- |--- |
-| Verbeteringen voor cohortanalyse | Er zijn nieuwe instellingen voor [cohortanalyse](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) toegevoegd: <ul><li>Alleen percentages weergeven</li><li>Percentages afronden naar dichtstbijzijnde gehele getal</li><li>Rij met gemiddelde percentages weergeven</li></ul> |
+| Verbeteringen voor cohortanalyse | Er zijn nieuwe instellingen voor [cohortanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) toegevoegd: <ul><li>Alleen percentages weergeven</li><li>Percentages afronden naar dichtstbijzijnde gehele getal</li><li>Rij met gemiddelde percentages weergeven</li></ul> |
 | Items van de afgelopen 18 maanden weergeven | In de linkerrail kunnen gebruikers voortaan _items van de afgelopen 18 maanden_ weergeven. De maximale periode was eerder zes maanden. Hierdoor kunnen pagina&#39;s of campagnes van het afgelopen jaar tot 18 maanden terug met elkaar worden vergeleken. |
-| Nieuwe Analysis Workspace-sjabloon | We hebben de nieuwe sjabloon [&quot;Magento: Marketing &amp; Commerce&quot;](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) toegevoegd aan Analysis Workspace. De sjabloon is specifiek ontworpen voor klanten van Magento e-commerce, maar elke retailer kan de sjabloon gebruiken voor unieke inzichten in hun bedrijfsactiviteiten. |
+| Nieuwe Analysis Workspace-sjabloon | We hebben de nieuwe sjabloon [&quot;Magento: Marketing &amp; Commerce&quot;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) toegevoegd aan Analysis Workspace. De sjabloon is specifiek ontworpen voor klanten van Magento e-commerce, maar elke retailer kan de sjabloon gebruiken voor unieke inzichten in hun bedrijfsactiviteiten. |
 
 ## Juni 2019
 
@@ -245,7 +245,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 13 september 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Nieuwe sjabloon voor audioverbruik</b> </p> </td> 
-   <td colname="col2"> <p>Zie <a href="https://docs.adobe.com/content/help/nl-NL/media-analytics/using/media-reports/media-workspace-templates.html"  > Audio-analytics</a>. </p> </td> 
+   <td colname="col2"> <p>Zie <a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html"  > Audio-analytics</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -544,7 +544,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
    <td colname="col2"> <p>Als u voorheen een project kopieerde of "opsloeg als", waren alle intrakoppelingen van het project gericht op het originele project, en niet op het gekopieerde project. </p> <p>De intrakoppelingen zijn relatief met betrekking tot het project waarin ze staan, nadat u het project hebt gekopieerd/opgeslagen als. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Bijdrage-analyse: <a href="https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > melding voor tokens </a> </p> </td> 
+   <td colname="col1"> <p>Bijdrage-analyse: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > melding voor tokens </a> </p> </td> 
    <td colname="col2"> <p>Als uw bedrijf een beperkt aantal tokens voor bijdrage-analyse heeft, wordt nu een melding weergegeven in de Analysis Workspace-interface wanneer u een token opgebruikt. Zo weet u precies hoeveel tokens u nog hebt.  </p> <p>(Beheerder-gebruikers: door de groepstoestemmingen te bewerken kunt u aangeven wie deze tokens wel en niet kan gebruiken. De toestemming wordt genoemd "Anomaly Detection and Contribution Analysis" onder <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> All admin </span> &gt; <span class="uicontrol"> User management </span> <span class="uicontrol"> Edit groups </span> &gt; <span class="uicontrol"> Edit All Report Access &lt;a1 1/&gt; &gt; <span class="uicontrol"> Rapportsuite-gereedschappen aanpassen </span> &gt; <span class="uicontrol"> Gereedschappen en rapporten </span>. ) </span> </p> </td> 
   </tr> 
   <tr> 
@@ -879,7 +879,7 @@ Nieuwe functies uitgebracht op 20 april 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > De sjabloon Personen </a> </p> </td> 
-   <td colname="col2"> <p>Opmerking: de sjabloon Personen en de gelijknamige bijbehorende metric kunnen alleen worden gebruikt als onderdeel van <a href="https://docs.adobe.com/content/help/nl-NL/device-co-op/using/data/people.html"  > Adobe Experience Cloud Device Co-op</a>. </p> <p>De sjabloon is gebaseerd op de metric Personen. Dit is een gededupliceerde versie van de metric voor unieke bezoekers. Met de sjabloon Personen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. </p> </td> 
+   <td colname="col2"> <p>Opmerking: de sjabloon Personen en de gelijknamige bijbehorende metric kunnen alleen worden gebruikt als onderdeel van <a href="https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html"  > Adobe Experience Cloud Device Co-op</a>. </p> <p>De sjabloon is gebaseerd op de metric Personen. Dit is een gededupliceerde versie van de metric voor unieke bezoekers. Met de sjabloon Personen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbeteringen voor Ongedaan maken/Opnieuw </p> </td> 
@@ -1047,7 +1047,7 @@ Nieuwe functies uitgebracht op 20 oktober 2016:
 
 Nieuwe functies uitgebracht op 16 juni 2016:
 
-* [Nieuwe groepsmachtigingen](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html) waarmee beheerders de toegang tot het **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**-tabblad kunnen toestaan of weigeren voor gebruikers. Vanaf 16 juni 2016 hebben alle gebruikers toegang tot dit tabblad. Als u iemand de toegang wilt ontzeggen, moet u de gebruiker verwijderen uit de Analysis Workspace-toegangsgroep.
+* [Nieuwe groepsmachtigingen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) waarmee beheerders de toegang tot het **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**-tabblad kunnen toestaan of weigeren voor gebruikers. Vanaf 16 juni 2016 hebben alle gebruikers toegang tot dit tabblad. Als u iemand de toegang wilt ontzeggen, moet u de gebruiker verwijderen uit de Analysis Workspace-toegangsgroep.
 * Het [deelvenster Segmentvergelijking](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) toont de statistisch meest significante verschillen tussen twee segmenten door een geautomatiseerde analyse van elke individuele metric en dimensie waar u toegang tot hebt.
 * [Met de nieuwe structuur van het projectmenu](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) kan dit hoogste menu eenvoudiger worden uitgebreid. Als u bijvoorbeeld een **nieuw cohortdeelvenster** maakt, hoeft u nu alleen maar een leeg deelvenster te maken en daarin een cohorttabelvisualisatie te plaatsen.
 * [Nieuwe linkerrail](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Deelvensters, visualisaties, componenten
