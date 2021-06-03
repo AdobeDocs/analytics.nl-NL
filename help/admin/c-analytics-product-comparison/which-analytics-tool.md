@@ -2,14 +2,13 @@
 description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe Analytics-hulpprogramma. De hulpmiddelen zouden in de orde moeten worden overwogen zij worden vermeld. Als een bepaald hulpmiddel niet aan de behoefte voldoet, ga naar volgende voor overweging.
 title: Welke Adobe Analytics-tool moet ik gebruiken?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
-source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
+exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 3%
+source-wordcount: '1153'
+ht-degree: 2%
 
 ---
-
 
 # Welke Adobe Analytics-tool moet ik gebruiken?
 
@@ -31,7 +30,7 @@ Voor meer informatie over de Vergelijking van het Product van Adobe Analytics, g
 * U krijgt toegang tot unieke videovisualisaties van Video Daypart en Viewer Drop-off.
 * Als u publicatielijsten in geplande rapporten wilt gebruiken.
 
-**[Gegevenswerkbenchmark ](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** moet worden gebruikt:
+**[Gegevenswerkbenchmark ](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** moet worden gebruikt:
 
 * De meest flexibele optie voor Analytics (tot op bezoekersniveau, analyse op raakniveau).
 * Om een multi-kanaaldataset van online en off-line interactie van CRM aan POS aan Web tot stand te brengen.
@@ -71,7 +70,7 @@ Voor meer informatie over de Vergelijking van het Product van Adobe Analytics, g
 
 * API voor gegevensinvoeging en API voor bulkgegevensinvoeging zijn beide methoden om verzamelingsgegevens op de server naar Adobe Analytics te verzenden. API-aanroepen voor het invoegen van gegevens worden één gebeurtenis tegelijk uitgevoerd. De API voor het invoegen van bulkgegevens accepteert CSV-bestanden met gebeurtenisgegevens, één gebeurtenis per rij. Als u aan een nieuwe implementatie van server-zijinzameling werkt, adviseren wij gebruikend de Invoeging API van de Gegevens van het Bulk.
 
-**[Klantkenmerken ](https://docs.adobe.com/content/help/nl-NL/core-services/interface/customer-attributes/attributes.html)** dienen te worden gebruikt:
+**[Klantkenmerken ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** dienen te worden gebruikt:
 
 * Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt en de gegevens aan Experience Cloud wilt uploaden.
 * Als u de gegevens van CRM voor diepere analyse in Analytics wilt gebruiken, of als het richten van criteria in Adobe Target.
