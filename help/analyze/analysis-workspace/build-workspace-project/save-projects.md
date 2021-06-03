@@ -1,14 +1,13 @@
 ---
 description: Leer meer over de verschillende opslagopties, zoals automatisch opslaan, opslaan als, opslaan als sjabloon en eerdere versies openen.
 title: Projecten opslaan
-feature: Workspace Basics
+feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-translation-type: tm+mt
-source-git-commit: cfeb681805108c9d9422d88b6d7146d0eb186204
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 2%
+source-wordcount: '436'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +24,11 @@ Er zijn verschillende opslaghandelingen die u kunt uitvoeren in het menu **[!UIC
 | **[!UICONTROL Save]** | Sla de wijzigingen in uw project op. Als het project wordt gedeeld, zullen de ontvangers van het project ook de veranderingen zien. Wanneer u uw project voor het eerst opslaat, wordt u gevraagd het project een naam, (optionele) beschrijving en (optionele) tags toe te voegen. |
 | **[!UICONTROL Save with notes]** | Voordat uw project wordt opgeslagen, voegt u notities toe over de wijzigingen in het project. Notities worden opgeslagen met de projectversie en zijn beschikbaar voor alle editors onder [!UICONTROL Project] > [!UICONTROL Open previous version]. |
 | **[!UICONTROL Save as]** | Maak een duplicaat van uw project. Dit heeft geen invloed op het oorspronkelijke project. |
-| **[!UICONTROL Save as template]** | Sla uw project op als een [aangepaste sjabloon](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar wordt voor uw organisatie onder **[!UICONTROL Project > New]** |
+| **[!UICONTROL Save as template]** | Sla uw project op als een [aangepaste sjabloon](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) die beschikbaar wordt voor uw organisatie onder **[!UICONTROL Project > New]** |
 
 ![](assets/save-project.png)
 
-## {#Autosave} automatisch opslaan
+## Automatisch opslaan {#Autosave}
 
 Bestaande projecten, d.w.z. projecten die minstens één keer eerder zijn opgeslagen, worden elke twee minuten automatisch opgeslagen op uw lokale computer. Nieuwe projecten die nog nooit zijn opgeslagen, worden momenteel niet automatisch opgeslagen.
 
