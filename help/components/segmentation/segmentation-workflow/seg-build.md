@@ -1,13 +1,12 @@
 ---
 description: De Bouwer van het Segment verstrekt een canvas om Metrische Dimension, Segmenten, en Gebeurtenissen te slepen en te laten vallen om bezoekers te segmenteren die op containerhiërarchielogica, regels, en exploitanten worden gebaseerd. Met dit geïntegreerde ontwikkelprogramma kunt u eenvoudige of complexe segmenten maken en opslaan die bezoekerskenmerken en -acties identificeren voor bezoeken en pagina-einden.
 title: Segmenten maken
-feature: Segmentation
+feature: Segmentatie
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1925'
 ht-degree: 1%
 
 ---
@@ -21,9 +20,9 @@ Er zijn verscheidene manieren om tot de Bouwer van het Segment toegang te hebben
 * **Bovenste navigatie** Analytics: Klik op  **[!UICONTROL Analytics]** >  **[!UICONTROL Components]** >  **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Klik  **[!UICONTROL Analytics]** >  **[!UICONTROL Workspace]**, open een project en klik  **[!UICONTROL + New]** >  **[!UICONTROL Create Segment]**.
 * **[!UICONTROL Reports & Analytics]**: Klik  **[!UICONTROL Analytics]** >  **[!UICONTROL Reports]**, open een bestaand rapport en klik het pictogram van Segmenten   ![](assets/segment_icon.png) in de linkernavigatie, dan klik  **[!UICONTROL Add]**.
-* **[!UICONTROL Report Builder]**:  [Segmenten toevoegen of bewerken in Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html).
+* **[!UICONTROL Report Builder]**:  [Segmenten toevoegen of bewerken in Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html).
 
-## Bouwcriteria {#section_F61C4268A5974C788629399ADE1E6E7C}
+## Builder-criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
 U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
 
@@ -63,7 +62,7 @@ U kunt regeldefinities en containers toevoegen om de segmenten te definiëren.
 1. **[!UICONTROL Value]**: De waarde die u hebt ingevoerd of geselecteerd voor de afmeting of het segment of metrisch.
 1. **[!UICONTROL X]**: (Verwijderen) Hiermee kunt u dit deel van de segmentdefinitie verwijderen.
 1. **[!UICONTROL Experience Cloud publishing]**: Als u een Adobe Analytics-segment naar de Experience Cloud publiceert, kunt u het segment gebruiken voor marketingactiviteiten in  [!DNL Audience Manager] en in andere activeringskanalen. [Meer informatie...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe beheren de vertaling van bezoekersgegevens in publiekssegmentatie. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan de Experience Cloud te delen. [Meer informatie...](https://docs.adobe.com/content/help/nl-NL/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL Audience library]**: Adobe beheren de vertaling van bezoekersgegevens in publiekssegmentatie. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan de Experience Cloud te delen. [Meer informatie...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Hiermee doorzoekt u de lijst met afmetingen, segmenten of metriek.
 1. **[!UICONTROL Dimensions]**: (Lijst) Klik de kopbal om uit te breiden.
 1. **[!UICONTROL Metrics]**: Klik op de koptekst om deze uit te vouwen.
@@ -92,7 +91,7 @@ Segmenten met ingesloten datumbereiken werken nog steeds anders in Analysis Work
 
 U wordt nu gebracht aan [de Manager van het Segment](/help/components/segmentation/segmentation-workflow/seg-manage.md), waar u, uw segment kunt etiketteren delen en beheren op veelvoudige manieren.
 
-## Containers {#section_1C38F15703B44474B0718CEF06639EFD} toevoegen
+## Containers toevoegen {#section_1C38F15703B44474B0718CEF06639EFD}
 
 U kunt [een kader van containers](/help/components/segmentation/seg-overview.md) bouwen en dan logische regels en exploitanten tussen plaatsen.
 
@@ -112,7 +111,7 @@ U kunt [een kader van containers](/help/components/segmentation/seg-overview.md)
 
    Selecteer een of meer regels en klik op **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**. Hierdoor verandert uw selectie in een aparte container.
 
-## Datumbereiken {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE} gebruiken
+## Datumbereiken gebruiken {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
 U kunt segmenten bouwen die het rollen datumwaaiers bevatten om vragen over aan de gang zijnde campagnes of gebeurtenissen te beantwoorden.
 
@@ -122,7 +121,7 @@ U creeert een container van het Bezoek en binnen het, voeg [!UICONTROL Last 60 d
 
 ![](assets/date-ranges.png)
 
-## Segmenten {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D} stapelen
+## Segmenten stapelen {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
 Het stapelen van segmenten werkt door de criteria in elk segment te combineren gebruikend een &quot;en&quot;exploitant, en dan de gecombineerde criteria toe te passen. Dit kan in een project van de Werkruimte direct of in segmentbouwer worden gedaan.
 
