@@ -1,16 +1,15 @@
 ---
 description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
-feature: Panels
+feature: Deelvensters
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 2%
+source-wordcount: '977'
+ht-degree: 1%
 
 ---
-
 
 # Overzicht van deelvensters
 
@@ -34,7 +33,7 @@ Het standaardstartvenster is het [!UICONTROL Freeform]-deelvenster, maar u kunt 
 
 ## Rapportsuite {#report-suite}
 
-Tabellen en visualisaties in een deelvenster leiden gegevens af van de [!UICONTROL report suite] die rechtsboven in het deelvenster is geselecteerd. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project, kunt u één of [vele rapportreeksen](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) afhankelijk van uw gevallen van het analysegebruik gebruiken. Als u één rapportsuite op alle deelvensters in een project wilt toepassen, **klikt u met de rechtermuisknop op de koptekst van het deelvenster > Rapportsuite toepassen op alle deelvensters**.
+Tabellen en visualisaties in een deelvenster leiden gegevens af van de [!UICONTROL report suite] die rechtsboven in het deelvenster is geselecteerd. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project, kunt u één of [vele rapportreeksen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) afhankelijk van uw gevallen van het analysegebruik gebruiken. Als u één rapportsuite op alle deelvensters in een project wilt toepassen, **klikt u met de rechtermuisknop op de koptekst van het deelvenster > Rapportsuite toepassen op alle deelvensters**.
 
 De lijst van rapportreeksen wordt gesorteerd op relevantie, die Adobe bepaalt gebaseerd op hoe onlangs en vaak de reeks door de huidige gebruiker is gebruikt, en hoe vaak de reeks binnen de organisatie wordt gebruikt.
 
@@ -82,7 +81,7 @@ Vervolgkeuzefilters maken:
 
 ![](assets/create-dropdown.png)
 
-[Bekijk de ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) video voor meer informatie over het toevoegen van vervolgkeuzefilters aan uw project.
+[Bekijk de ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) video voor meer informatie over het toevoegen van vervolgkeuzefilters aan uw project.
 
 ## Klikken met rechtermuisknop op menu {#right-click}
 
