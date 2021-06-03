@@ -5,11 +5,10 @@ title: Voorbereiden op het gebruik van gegevensbronnen
 topic-fix: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 5%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
@@ -23,19 +22,19 @@ Stappen die u kunt nemen om gegevensbronnen voor te bereiden
 * [Transactie-id](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
 * [Een geldig datumbereik voor gegevensbrongegevens identificeren](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
-## De metriek {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135} identificeren en een naam geven
+## De metriek identificeren en een naam geven {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
 Het is belangrijk om de metriek of de metingen te begrijpen die in uw gegevensbronnen, zoals *`Off-line Sales Revenue by Product`*, *`Returns by Product`*, of *`Ad Impressions by Campaign`* zijn. Dit zijn de namen die u met rapportmetriek (gebeurtenissen, steunen, en steunen) kunt associëren.
 
 Nadat u aangewezen metrisch-aan-gebeurtenis afbeeldingen voor de gegevens van Gegevensbronnen bepaalt, noem de gebeurtenissen met beschrijvende namen aangewezen voor de bijbehorende Metrische Gegevensbronnen anders.
 
-Zie [Gebeurtenissen met succes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in de Help voor beheerprogramma&#39;s.
+Zie [Gebeurtenissen met succes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in de Help voor beheerprogramma&#39;s.
 
 >[!NOTE]
 >
 >Adobe adviseert sterk het gebruiken van nieuwe, lege gebeurtenissen met de gegevens van Gegevensbronnen, maar in zeldzame gevallen zou het zinvol kunnen zijn om een reeds bestaande gebeurtenis te gebruiken.
 
-## De Dimension van Gegevens {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A} identificeren
+## Identificeer de Dimension van Gegevens {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
 Identificeer en verzamel de gegevens (rapporten) die u wilt gebruiken om de metriek te verdelen die door Gegevensbronnen wordt ingevoerd. Deze gegevens worden *`data dimensions`* genoemd.
 
@@ -51,9 +50,9 @@ Nadat u de gegevensafmetingen bepaalt om met een gegevensbron te gebruiken, inte
 
 Wanneer u Vars gebruikt, kunt u bestaande of nieuwe Vars gebruiken als gegevensafmetingen. Na het selecteren van een eVar om een gegevensdimensie van Gegevensbronnen te ontvangen, zorg ervoor u hen geschikt noemt.
 
-Zie [Gebeurtenissen met succes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in de Help bij Analytics.
+Zie [Gebeurtenissen met succes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in de Help bij Analytics.
 
-## Code voor bijhouden campagne {#section_468222796FF449ABAA90D88EB3264CB1}
+## Code bijhouden campagne {#section_468222796FF449ABAA90D88EB3264CB1}
 
 Naast het importeren van succesgebeurtenissen kunt u desgewenst gekoppelde eVar importeren. Als u bijvoorbeeld online activiteiten bijhoudt met een code voor bijhouden van campagne en over code voor het bijhouden van campagnes voor de offline metriek beschikt, kunt u de metriek importeren met de codes voor bijhouden van campagnes. Op deze manier kunt u zowel online als offline metriek weergeven in campagnerapporten.
 
