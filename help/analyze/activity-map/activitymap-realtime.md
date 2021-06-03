@@ -3,14 +3,13 @@ description: Met analyses van realtime pagina's (Live Mode) kunt u resultaten be
 title: Analyse van realtimepagina-analyse (Live)
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 7%
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
-
 
 # Analyse van pagina&#39;s in realtime (Live modus)
 
@@ -36,13 +35,13 @@ Als u wilt controleren op welk element het meest wordt geklikt in Live-modus:
 
 ## De latentie van gegevens als resultaat van configuratie A4T
 
-Nadat [A4T integration](https://docs.adobe.com/content/help/nl-NL/target/using/integrate/a4t/a4t.html) in Adobe Target wordt toegelaten, zult u extra 5-10 minuten van latentie in Adobe Analytics ervaren. Door deze latentieverhoging kunnen gegevens van Analytics en Target op dezelfde hit worden opgeslagen, zodat u tests kunt onderbreken op pagina en sitesectie.
+Nadat [A4T integration](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) in Adobe Target wordt toegelaten, zult u extra 5-10 minuten van latentie in Adobe Analytics ervaren. Door deze latentieverhoging kunnen gegevens van Analytics en Target op dezelfde hit worden opgeslagen, zodat u tests kunt onderbreken op pagina en sitesectie.
 
 Deze toename wordt weerspiegeld in alle Adobe Analytics-services en -gereedschappen, inclusief de live stream en real-time rapportage, en is van toepassing in de volgende scenario&#39;s:
 
 * Voor live stream, real-time rapporten en API-aanvragen en huidige gegevens voor verkeersvariabelen worden alleen hits met een aanvullende gegevens-id vertraagd.
 * Voor huidige gegevens over conversiemetriek, voltooide gegevens, en gegevensvoer, worden alle klappen een extra 5-7 minuten vertraagd.
 
-Houd er rekening mee dat de latentieverhoging begint nadat u [Identity Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) implementeert, zelfs als u deze integratie niet volledig hebt geïmplementeerd.
+Houd er rekening mee dat de latentieverhoging begint nadat u [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) implementeert, zelfs als u deze integratie niet volledig hebt geïmplementeerd.
 
 Meer informatie [hier](/help/analyze/activity-map/activitymap-standard-live.md).
