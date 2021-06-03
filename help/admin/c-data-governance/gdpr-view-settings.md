@@ -2,11 +2,13 @@
 description: Het dialoogvenster Data Governance in Admin Tools biedt een overzicht van welke rapportsuites zijn geconfigureerd voor data-governance, of ze zijn toegewezen aan een Experience Cloud-organisatie, en of er een dataretentiebeleid voor deze rapportsuite bestaat.
 title: Data Governance-instellingen voor een rapportsuite weergeven/beheren
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 98%
 
 ---
-
 
 # Data Governance-instellingen voor een rapportsuite weergeven/beheren
 
@@ -36,7 +38,7 @@ Het dialoogvenster Data Governance in Admin Tools biedt een overzicht van welke 
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Toegewezen</b>: Deze rapportsuite is al toegewezen aan dezelfde Experience Cloud-organisatie als het aanmeldingsbedrijf voor Analytics waarbij u bent aangemeld. Alleen rapportsuites met deze instelling kunnen worden gelabeld. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Rapportsuite toewijzen</b>: Als u op deze koppeling klikt, kunt u een <a href="https://docs.adobe.com/content/help/nl-NL/core-services/interface/about-core-services/report-suite-mapping.html"> rapportsuite toewijzen </a> aan een Experience Cloud-organisatie. <p>Dit betekent dat u wordt omgeleid naar de beheerpagina Experience Cloud-organisatie - Rapportsuites toewijzen, waar u de rapportsuite opzoekt en deze toewijst aan de betreffende organisatie. Zodra dat is gebeurd, gaat u terug naar deze Data Governance-gebruikersinterface. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Rapportsuite toewijzen</b>: Als u op deze koppeling klikt, kunt u een <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"> rapportsuite toewijzen </a> aan een Experience Cloud-organisatie. <p>Dit betekent dat u wordt omgeleid naar de beheerpagina Experience Cloud-organisatie - Rapportsuites toewijzen, waar u de rapportsuite opzoekt en deze toewijst aan de betreffende organisatie. Zodra dat is gebeurd, gaat u terug naar deze Data Governance-gebruikersinterface. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Toegewezen aan een andere organisatie</b>: Deze rapportsuite is al aan een andere Experience Cloud-organisatie toegewezen. </li> 
     </ul> </td> 
   </tr> 
@@ -62,4 +64,3 @@ Het dialoogvenster Data Governance in Admin Tools biedt een overzicht van welke 
   </tr> 
  </tbody> 
 </table>
-
