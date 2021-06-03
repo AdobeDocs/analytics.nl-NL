@@ -1,14 +1,13 @@
 ---
 description: Veelgestelde vragen over segmentatie.
 title: Veelgestelde vragen
-feature: Segmentation
+feature: Segmentatie
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2072'
-ht-degree: 2%
+source-wordcount: '2066'
+ht-degree: 1%
 
 ---
 
@@ -20,8 +19,8 @@ Beantwoord frequente vragen over segmentatiefuncties, toegang, machtigingen, bes
 
 * Segmentering in Analysis Workspace:
 
-   * U kunt [segmenten vergelijken](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
-   * Gebruik [segmenten als afmetingen](https://docs.adobe.com/content/help/nl-NL/core-services/interface/audiences/audience-library.html) in een vergelijking.
+   * U kunt [segmenten vergelijken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
+   * Gebruik [segmenten als afmetingen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in een vergelijking.
    * Gebruik segmenten in [fallout analyse](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * U kunt [veelvoudige segmenten op een rapport of een project ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) toepassen.
@@ -34,7 +33,7 @@ Beantwoord frequente vragen over segmentatiefuncties, toegang, machtigingen, bes
 
 Zie [Segmentering verbeteren in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) op het Digital Marketing Blog voor meer informatie.
 
-## Open de segmentatiehulpmiddelen {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## Toegang tot de segmentatiehulpmiddelen {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **Hoe kan ik de Segment Builder bereiken?**
 
@@ -74,7 +73,7 @@ De vervolgkeuzelijst met rapportsuite is verplaatst naast de datumkiezer in de r
 
 **Welke rechten en voorrechten moet ik gebruiken, creëren, en segmenten beheren?**
 
-Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen de Beheerders beslissen wie [toestemmingen zou moeten hebben om segmenten te creëren](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html) en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
+Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen de Beheerders beslissen wie [toestemmingen zou moeten hebben om segmenten te creëren](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
 
 Beheerders kunnen elk segment bewerken en segmenten delen met groepen en met iedereen in de organisatie. [Meer...](/help/components/segmentation/seg-reference/seg-rights.md)
 
@@ -96,7 +95,7 @@ Report Builder toont slechts segmenten die door u of segmenten worden gebouwd di
 
 Als het segment [werd gepubliceerd aan de Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md), kunt u niet het schrappen of het uitgeven. U kunt de gekopieerde versie echter wel kopiëren en bewerken.
 
-## Aanbevolen procedures {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
+## Aanbevolen werkwijzen {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
 **Wat zou ik met dubbele segmenten moeten doen die de zelfde naam hebben maar verschillende definities kunnen hebben?**
 Nu de segmenten in veelvoudige rapportreeksen werken, zou u kunnen vinden dat u veelvoudige segmenten met de zelfde naam hebt. We raden u aan
@@ -315,7 +314,7 @@ De volgende lijst bevat een lijst van afmetingen die in de Bouwer van het Segmen
  </tbody> 
 </table>
 
-## Veranderingen in op koord-Gebaseerde Dimension die bekende Waarden {#section_1A9EDEE5CBC44B5AA6262560052ABE77} hebben
+## Veranderingen in op koord-Gebaseerde Dimension die Bekende Waarden hebben {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 Op tekenreeks gebaseerde afmetingen met een bekende set waarden zijn gewijzigd in opsommingstypen. Wanneer u een segment maakt met deze afmetingen, wordt de lijst vooraf gevuld met alle bekende waarden en wordt alleen de operator ondersteund voor gelijkheid gebruikt. Zo kunt u snel de exacte waarden segmenteren die u zoekt, zonder dat u onbedoelde waarden hoeft te selecteren wanneer u minder restrictieve overeenkomsten gebruikt.
 
@@ -337,7 +336,7 @@ De volgende afmetingen zijn gewijzigd in opsommingslijsten:
 | lengte van mobiele bladwijzer | java ingeschakeld | betaalde zoekopdracht |
 | mobiele URL-lengte | taal |  |
 
-## Wijzigingen in Dimension op basis van een geheel getal met bekende waarden {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Wijzigingen in Dimension op basis van gehele getallen met bekende waarden {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Op gehele getallen gebaseerde afmetingen (zoals de breedte van de browser) met een bekende set waarden zijn opgedeeld in opsommingsbereiken, zodat u snel segmenten voor een bepaald bereik kunt definiëren. Deze opsommingslijsten worden toegevoegd met &quot; - Emmerd&quot;na de afmetingsnaam. Het volgende scherm toont aan hoe deze afmetingen gebruikend de vorige en nieuwe segmentbouwerinterfaces worden gesegmenteerd:
 
