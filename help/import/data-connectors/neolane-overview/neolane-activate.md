@@ -1,19 +1,21 @@
 ---
-description: Gebruik de configuratiewizard van Adobe Data Connectors om de integratie in te stellen.
+description: Gebruik de wizard Configuratie van Adobe Data Connectors om de integratie in te stellen.
 title: De integratie activeren
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: d36c26ad-09c4-4a4d-a653-670c18f2ab19
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 3%
 
 ---
 
-
 # De integratie activeren{#activate-the-integration}
 
-Gebruik de configuratiewizard van Adobe Data Connectors om de integratie in te stellen.
+Gebruik de wizard Configuratie van Adobe Data Connectors om de integratie in te stellen.
 
-1. Start [Gegevensconnectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) en klik **[!UICONTROL + Add New]** om een nieuwe integratie [toe te](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html)voegen.
-1. Selecteer in de **[!UICONTROL Show]** lijst de integratie van de **[!UICONTROL By Name]** Partner [!DNL ~~] en sleep deze naar een lege plug-in.
+1. Start [Gegevensconnectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html) en klik op **[!UICONTROL + Add New]** om [een nieuwe integratie toe te voegen](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html).
+1. Selecteer **[!UICONTROL Show]** in de lijst **[!UICONTROL By Name]** en sleep de integratie [!DNL ~Partner~] naar een lege plug-in.
 1. Voltooi de Tovenaar van de Integratie gebruikend de informatie in de volgende lijst:
 
 | Veld | Beschrijving |
@@ -25,7 +27,7 @@ Gebruik de configuratiewizard van Adobe Data Connectors om de integratie in te s
 | Geopend | Het totale aantal e-mailberichten wordt geopend. |
 | Persoon klikt | Aantal personen dat heeft geklikt. |
 | Verwerkt | Totaal aantal verwerkte e-mails. |
-| Uitzending-id | Deze id is een gecodeerde of numerieke weergave van een e-mailadres van het Neolane-systeem. Deze &quot;uitzending-id&quot; is gekoppeld aan het gedrag van downstreambezoekers op de site (het afzien van de Broadlog-id van het winkelwagentje, aankopen, enz.) die in het neolaansysteem wordt opgenomen en voor hermarketingdoeleinden kan worden gebruikt. |
+| Broadlog-id | Deze id is een gecodeerde of numerieke weergave van een e-mailadres van het Neolane-systeem. Deze &quot;uitzending-id&quot; is gekoppeld aan het gedrag van downstreambezoekers op de site (het afzien van de Broadlog-id van het winkelwagentje, aankopen, enz.) die in het neolaansysteem wordt opgenomen en voor hermarketingdoeleinden kan worden gebruikt. |
 | Gepland | Aantal e-mailberichten dat is gepland voor levering. |
 | Verzonden | Aantal verzonden e-mailberichten. |
 | Totaal Bounces | Aantal e-mailberichten dat niet aan ontvangers is bezorgd vanwege een leveringsprobleem. |
@@ -34,5 +36,5 @@ Gebruik de configuratiewizard van Adobe Data Connectors om de integratie in te s
 | Abonnement opgezegd | Het aantal bezoekers dat het e-mailbericht heeft geopend maar vervolgens op de koppeling Abonnement opzeggen heeft geklikt om toekomstige e-mailberichten van uw organisatie af te melden. |
 | Segmenten | Deze integratie leidt tot de partner-bepaalde segmenten die in de sectie van de Segmenten van de Partner worden getoond. Bovendien, kunt u bestaande Reeks-Vlakke segmenten van het Rapport selecteren om in de integratie te omvatten. |
 | Toegangsverzoeken | Schakel de aanbevolen toegangsrechten in. |
-| Gegevensverzameling | Selecteer **Insteekmodule** JavaScript als u de insteekmodule s_code.js als verzamelingsmodel voor deze integratie wilt gebruiken. Selecteer **Geautomatiseerde Oplossing** als u een geautomatiseerd inzamelingsmodel voor deze integratie wilt gebruiken, dan specificeer de unieke herkenningstekens die voor deze integratie worden gebruikt. Als u deze optie selecteert, geeft u de unieke id&#39;s op die voor deze integratie worden gebruikt: <ul><li>Parameter tekenreeks voor query-id van bericht: Deze waarde vertegenwoordigt de bericht-id die door uw e-mailpartner aan de URL van de bestemmingspagina is toegevoegd.</li><li>Parameter voor tekenreeks ontvangerid-query: Deze waarde vertegenwoordigt de ontvanger-id die door uw e-mailpartner is toegevoegd aan de URL van de bestemmingspagina.</li></ul> |
+| Gegevensverzameling | Selecteer **JavaScript-plug-in** als u de insteekmodule s_code.js wilt gebruiken als verzamelingsmodel voor deze integratie. Selecteer **Geautomatiseerde Oplossing** als u een geautomatiseerd inzamelingsmodel voor deze integratie wilt gebruiken, dan specificeer de unieke herkenningstekens die voor deze integratie worden gebruikt. Als u deze optie selecteert, geeft u de unieke id&#39;s op die voor deze integratie worden gebruikt: <ul><li>Parameter tekenreeks voor query-id van bericht: Deze waarde vertegenwoordigt de bericht-id die door uw e-mailpartner aan de URL van de bestemmingspagina is toegevoegd.</li><li>Parameter voor tekenreeks ontvangerid-query: Deze waarde vertegenwoordigt de ontvanger-id die door uw e-mailpartner is toegevoegd aan de URL van de bestemmingspagina.</li></ul> |
 | Dashboard en bladwijzergeneratie | Automatisch een dashboard en bladwijzers voor de integratie genereren. |
