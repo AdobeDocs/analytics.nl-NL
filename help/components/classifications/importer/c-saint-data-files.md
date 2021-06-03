@@ -4,10 +4,9 @@ subtopic: Classifications
 title: Classificatiedatabestanden
 feature: Admin Tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
@@ -164,7 +163,7 @@ Deze tekens hebben een speciale betekenis in een gegevensbestand. Gebruik deze w
 
 Campagnedatums zijn doorgaans bereiken (begin- en einddatum) die aan afzonderlijke campagnes zijn gekoppeld. Datums moeten worden weergegeven in de notatie JJJJ/MM/DD. Bijvoorbeeld 2013/06/15-2013/06/30.
 
-Zie [Conversieklassificaties](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html) voor meer informatie.
+Zie [Conversieklassificaties](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html) voor meer informatie.
 
 >[!NOTE]
 >
