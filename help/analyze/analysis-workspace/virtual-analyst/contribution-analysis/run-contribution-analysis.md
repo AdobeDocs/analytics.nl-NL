@@ -2,16 +2,15 @@
 description: Stel een rapport van de Analyse van de Bijdrage in een project van de Werkruimte in werking.
 title: Bijdrageanalyse uitvoeren
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-feature: AI Tools
+feature: AI-gereedschappen
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 5%
+source-wordcount: '573'
+ht-degree: 3%
 
 ---
-
 
 # Bijdrageanalyse uitvoeren
 
@@ -40,9 +39,9 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 
    * Een visualisatie die het aantal **Visits** op die dag toont.
    * Een maandelijkse **Bezoekt trendlijn** voor context.
-   * **De belangrijkste** Punten die tot deze anomalie hebben bijgedragen, die door de  [bijdragescore](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), plus metrisch in kwestie wordt gesorteerd, en een Unieke Metrisch van Bezoekers om metrisch in context vanuit een rangschikkend perspectief te zetten.
+   * **De belangrijkste** Punten die tot deze anomalie hebben bijgedragen, die door de  [bijdragescore](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), plus metrisch in kwestie wordt gesorteerd, en een Unieke Metrisch van Bezoekers om metrisch in context vanuit een rangschikkend perspectief te zetten.
 
-   * In de tabel [Gegenereerde segmenten](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Top Item Clusters) worden koppelingen van de bovenste items aangegeven op basis van de bijdragenscore, anomalieën en het totale percentage dat bijdraagt aan de afwijkende meting. Dit wordt vervolgens vastgelegd als een publiekssegment (bijdragesegment 1, bijdragesegment 2, enz.). Als u op de knop &quot;i&quot; (info) klikt, krijgt u een weergave van de definitie van elk automatisch segment, inclusief de items die er bovenaan staan:
+   * In de tabel [Gegenereerde segmenten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Top Item Clusters) worden koppelingen van de bovenste items aangegeven op basis van de bijdragenscore, anomalieën en het totale percentage dat bijdraagt aan de afwijkende meting. Dit wordt vervolgens vastgelegd als een publiekssegment (bijdragesegment 1, bijdragesegment 2, enz.). Als u op de knop &quot;i&quot; (info) klikt, krijgt u een weergave van de definitie van elk automatisch segment, inclusief de items die er bovenaan staan:
 
       ![](assets/auto_segment.png)
 
@@ -74,4 +73,3 @@ Het kan voorkomen dat u bepaalde dimensies wilt uitsluiten van de Contribute-ana
    ![](assets/excluded-dimensions.png)
 
 1. Verwijder gewoon ongewenste afmetingen door op de x naast de elementen te klikken en de lijst vervolgens op te slaan door op **[!UICONTROL Set as Default]** te klikken.
-
