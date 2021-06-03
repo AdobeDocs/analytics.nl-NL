@@ -3,14 +3,13 @@ description: Gegevens die worden verzameld op websites, mobiele apps of die word
 keywords: clickStream;data feed;datafeed;Data Feed
 title: Overzicht van gegevensinvoer voor analyse
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
-source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
+exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '559'
 ht-degree: 5%
 
 ---
-
 
 # Overzicht van gegevensinvoer voor analyse
 
@@ -68,4 +67,4 @@ Zodra u het basiswerkschema begrijpt van het verkrijgen van gegevensvoer, kunt u
 
 Video navigating the data feed interface:
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
