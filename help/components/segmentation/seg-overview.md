@@ -1,13 +1,12 @@
 ---
 description: Met segmenten kunt u subsets bezoekers identificeren op basis van kenmerken of interacties op de website. De segmenten worden ontworpen als gecodificeerde publieksinzichten die u voor uw specifieke behoeften kunt bouwen, en dan verifiëren, uitgeven, en delen met andere teamleden of gebruik in andere producten van de Adobe en de mogelijkheden van de Analyse.
 title: Informatie over segmenten en containers
-feature: Segmentation
+feature: Segmentatie
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '3676'
+source-wordcount: '3674'
 ht-degree: 0%
 
 ---
@@ -30,7 +29,7 @@ Segmenten kunnen op de volgende waarden worden gebaseerd:
 
 * Bezoekers op basis van kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht.
 * Bezoekers op basis van interacties: campagnes, sleutelwoordonderzoek, onderzoeksmotor.
-* Bezoekers op basis van uitgangen en binnenkomsten: bezoekers van Facebook, een gedefinieerde bestemmingspagina, verwijzend domein.
+* Bezoekers op basis van uitgangen en binnenkomsten: bezoekers uit Facebook, een gedefinieerde landingspagina, verwijzend domein.
 * Bezoekers op basis van aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id.
 
 Wanneer het bouwen van publiekssegmenten in de Bouwer van het Segment, bepaalt u voorwaarden gebruikend [!UICONTROL AND] en [!UICONTROL OR] exploitanten tussen containers.
@@ -60,9 +59,9 @@ Een opeenvolgend segment filtert gegevensreeksen die op gebruikersacties worden 
 
 ## Hoe kan ik-video {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-In deze video ziet u een kort overzicht van de containers voor segmenten en hoe u deze kunt gebruiken: [Containers voor segmenten in Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+In deze video ziet u een kort overzicht van de containers voor segmenten en hoe u deze kunt gebruiken: [Containers voor segmenten in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
-## Informatie over containers {#section_AF2A28BE92474DB386AE85743C71B2D6}
+## Over containers {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
 Een segment stelt voorwaarden in om een bezoeker te filteren op basis van zijn of haar kenmerken of interacties met uw site. Als u voorwaarden in een segment wilt instellen, stelt u regels in om bezoekers te filteren op basis van bezoekerskenmerken en/of navigatiekenmerken. Als u bezoekersgegevens verder wilt onderverdelen, kunt u filteren op basis van specifieke bezoeken en/of toeschouwers in de paginaweergave voor elke bezoeker. De Bouwer van het Segment verstrekt een eenvoudige architectuur om deze subsets te bouwen en regels als genestelde, hiërarchische Bezoeker, Bezoek, of de containers van het Actief toe te passen.
 
@@ -111,7 +110,7 @@ Actief containers bevatten op één pagina gebaseerde waarden:
 
 Met de container van de Logische Groep kunt u een afzonderlijke container binnen de segmentregels verstrekken om entiteiten te filteren die niet op hiërarchie worden gebaseerd. U kunt bijvoorbeeld een container toevoegen die in het segment is genest en die filters toepast op basis van de bezoeker. Voor dit type logica moet u de hiërarchie afbreken (aangezien u al een container op hoofdniveau van de Bezoeker hebt) om alleen voor geselecteerde bezoekers te filteren. Dit kan worden verwezenlijkt gebruikend de container van de Logische Groep. Zie [Voorbeelden van logische groepen](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) voor aanvullende informatie.
 
-## Containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70} nesten
+## Nesten van containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
 Wanneer u segmentcontainers maakt in andere containers, maakt u in wezen een segment binnen een segment. De volgende logica wordt gebruikt bij geneste containers:
 
@@ -160,7 +159,7 @@ De enige uitzondering op deze hiërarchie van containers is wanneer het gebruike
 
 ![](assets/logic_group_hierarchy.png)
 
-## Rapporten gebaseerd op containergegevens {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
+## Rapporten op basis van containergegevens {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
 
 Met containers kunt u verschillende gegevens op basis van rapportagewaarden filteren wanneer u segmenten splitst en deze op rapporten toepast.
 
