@@ -4,14 +4,13 @@ title: Realtimerapporten
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '259'
 ht-degree: 3%
 
 ---
-
 
 # Realtimerapporten
 
@@ -26,8 +25,8 @@ U kunt:
 * Gebruik een aangepaste gebeurtenis, winkelwagentje of een andere instantie.
 * Bekijk tot 20 uur historische gegevens in real time.
 
-In real time eerbiedigt toestemmingen voor gebruikers en groepen. Bijvoorbeeld, als u geen rechten hebt om opbrengst te zien, kunt u geen rapport in real time bekijken dat opbrengstgegevens omvat. eVars (conversiemetriek) worden niet ondersteund. Real-Time toestemmingen worden toegelaten in [Admin Hulpmiddelen](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
+In real time eerbiedigt toestemmingen voor gebruikers en groepen. Bijvoorbeeld, als u geen rechten hebt om opbrengst te zien, kunt u geen rapport in real time bekijken dat opbrengstgegevens omvat. eVars (conversiemetriek) worden niet ondersteund. Real-Time toestemmingen worden toegelaten in [Admin Hulpmiddelen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] zijn niet het zelfde als  [omvatten Huidige Gegevens](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html)  (de Recentie van Gegevens) eerder vrijgegeven eigenschap, die latentie voor standaardrapportering vermindert, door gegevens te tonen alvorens het wordt gebeëindigd.
+>[!UICONTROL Real-Time Reports] zijn niet het zelfde als  [omvatten Huidige Gegevens](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html)  (de Recentie van Gegevens) eerder vrijgegeven eigenschap, die latentie voor standaardrapportering vermindert, door gegevens te tonen alvorens het wordt gebeëindigd.
