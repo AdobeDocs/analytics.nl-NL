@@ -5,9 +5,9 @@ uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: Visualisaties
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 2d30969652991564379c37801b353803e73e5f8c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ U kunt zelfs segmenten binnen een aanraakpunt toevoegen. U kunt bijvoorbeeld seg
 
 Er geldt geen beperking voor het aantal stappen dat u kunt toevoegen of het aantal gebruikte dimensies.
 
-U kunt plakken op eVars, met inbegrip van het verhandelen van eVars en [listVars](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) (variabelen die veelvoudige waarden per klap, zoals producten, listVars, het verhandelen eVars en lijststeunen kunnen hebben). Stel dat iemand bijvoorbeeld naar schoenen kijkt, naar shirt op de ene pagina, en op de volgende pagina die ze bekijken, naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
+U kunt plakken op eVars, met inbegrip van het verhandelen van eVars en [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variabelen die veelvoudige waarden per klap, zoals producten, listVars, het verhandelen eVars en lijststeunen kunnen hebben). Stel dat iemand bijvoorbeeld naar schoenen kijkt, naar shirt op de ene pagina, en op de volgende pagina die ze bekijken, naar shirt, sokken. Het volgende productflowrapport van schoenen is shirt en sokken, NOT shirt.
 
 1. Sleep een [!UICONTROL Fallout] visualisatie van de drop-down Visualisaties in [!UICONTROL Freeform Table].
 
