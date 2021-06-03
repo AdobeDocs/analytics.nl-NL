@@ -6,10 +6,9 @@ title: Omleiding en aliassen
 topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -30,7 +29,7 @@ Hoewel er slechts twee soorten omleidingen zijn, kunnen deze op verschillende ma
 
 [!DNL Analytics] verzamelt enkele gegevens uit de browser en vertrouwt op bepaalde browsereigenschappen. Twee van deze eigenschappen, de &quot;Verwijzende URL&quot; (of &quot;verwijzende URL&quot;) en de &quot;Huidige URL&quot; kunnen worden gewijzigd door een omleiding aan de serverzijde. Omdat de browser weet dat er een URL is aangevraagd, maar een andere URL is geretourneerd, wist deze de URL waarnaar wordt verwezen. Het resultaat is dat de verwijzende URL leeg is en dat [!DNL Analytics] mogelijk aangeeft dat er geen referentie voor de pagina bestaat.
 
-## Voorbeeld: Bladeren zonder omleiding {#section_5C835A4D665A4625A23333C2C21F152D}
+## Voorbeeld: Bladeren zonder omleidingen {#section_5C835A4D665A4625A23333C2C21F152D}
 
 Overweeg het volgende hypothetische scenario waarin de gebruiker geen omleiding ontmoet:
 
@@ -47,7 +46,7 @@ Omleiding kan ertoe leiden dat de browser de werkelijke verwijzende URL weglaat.
 1. Op de adresbalk van het browservenster worden de zoektermen weergegeven die de gebruiker in het zoekveld `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` heeft getypt. De zoektermen worden opgenomen in de URL-querytekenreeksparameters die volgen op `https://www.google.com/search?`. De browser geeft ook een pagina weer die de zoekresultaten bevat, inclusief een koppeling naar een van uw domeinnamen: [!DNL https://www.flytohawaiiforfree.com/]. Dit *vanity* domein wordt gevormd om de gebruiker aan `https://www.example.com/` om te leiden.
 1. De gebruiker klikt op de koppeling `https://www.flytohawaiiforfree.com/` en wordt door de server omgeleid naar uw hoofdsite, `https://www.example.com`. Wanneer de omleiding plaatsvindt, gaan de gegevens die belangrijk zijn voor de [!DNL Analytics]-gegevensverzameling verloren omdat de browser de verwijzende URL wist. De oorspronkelijke zoekinformatie die in de [!DNL Analytics]-rapporten (bijvoorbeeld [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) wordt gebruikt, gaat dus verloren.
 
-## Omleidingen uitvoeren {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
+## Omleidingen implementeren {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
 Als u [!DNL Analytics]-gegevens uit omleidingen wilt vastleggen, moet u vier kleine wijzigingen aanbrengen in de code die de omleiding maakt en de [!DNL AppMeasurement] voor het JavaScript-bestand.
 
@@ -59,7 +58,7 @@ redirects_implement.xml
 
 Als u de volgende stappen uitvoert, blijft de informatie behouden die de oorspronkelijke referentie (bijvoorbeeld `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` in het bovenstaande scenario) aan uw site doorgeeft:
 
-## JavaScript-code {#section_87BB1D47D9C345C18339078824645CC4} negeren door verwijzing configureren
+## JavaScript-code overschrijven door verwijzing configureren {#section_87BB1D47D9C345C18339078824645CC4}
 
 <!-- 
 
@@ -85,7 +84,7 @@ s.pageURL=""
 >
 >Stel *`s.referrer`* slechts eenmaal in op de pagina. Als u deze meer dan één keer instelt met elke volgende aanroep of met elke gekoppelde klik die wordt bijgehouden, worden de referentie en verwante afmetingen, zoals zoekmachines en trefwoorden, dubbelgeteld.
 
-## Omleiding met getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
+## Omleiden met getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
 
 Hoewel [!UICONTROL getQueryParam] een gemakkelijke manier is om [!DNL Analytics] variabelen met de waarden van het vraagkoord te bevolken, moet het in verband met een tijdelijke variabele worden uitgevoerd zodat de wettige verwijzers niet worden beschreven wanneer het vraagkoord leeg is. De beste manier om [!UICONTROL getQueryParam] te gebruiken is in verbinding met de [!UICONTROL getValue] stop zoals die met volgende pseudo-code wordt geschetst.
 
@@ -115,7 +114,7 @@ Omdat de browser stroken die URL verwijzen, moet u het mechanisme vormen dat oml
 
 Omdat er vele manieren zijn om een omleiding uit te voeren, zou u met uw groep van Webverrichtingen of uw online advertentiepartner moeten controleren om de specifieke mechanismen te identificeren die omleidingen op uw website uitvoeren.
 
-## Leg de oorspronkelijke referentie {#section_7F1A77F447CF485385B456A64B174050} vast
+## De oorspronkelijke referentie vastleggen {#section_7F1A77F447CF485385B456A64B174050}
 
 <!-- 
 
@@ -150,7 +149,7 @@ redirects_verify_referrer.xml
 
 Voer een test uit om te controleren of de verwijzende, voortkomende URL ( *`s_server`*) en campagnevariabelen worden gevangen.
 
-Deze variabelen worden als de volgende parameters in [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) vertegenwoordigd.
+Deze variabelen worden als de volgende parameters in [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) vertegenwoordigd.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
