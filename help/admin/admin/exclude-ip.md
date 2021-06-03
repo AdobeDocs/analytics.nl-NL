@@ -2,10 +2,10 @@
 title: Exclusief door IP Adres
 description: Voorkomen dat gegevens die door bepaalde IP-adressen worden gegenereerd, in rapporten worden weergegeven.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 3%
+source-wordcount: '214'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ U kunt gegevens van specifieke IP adressen, zoals interne website activiteiten, 
 
 >[!NOTE]
 >
->Hits die door IP adres worden uitgesloten worden gefactureerd als [servervraag](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html).
+>Hits die door IP adres worden uitgesloten worden gefactureerd als [servervraag](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html).
 
 U kunt jokertekenindicatoren (*) gebruiken om een bereik van adressen uit te sluiten. `[!DNL 0.0.*.0]` zou bijvoorbeeld alle IP-adressen tussen `[!DNL 0.0.0.0]` en `[!DNL 0.0.255.0]` uitsluiten. U kunt tot 50 verschillende IP adressen uitsluiten.
 
