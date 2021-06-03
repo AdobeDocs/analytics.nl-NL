@@ -5,11 +5,10 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Grondbeginselen van rapporten en analyses
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 3%
+source-wordcount: '774'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +31,7 @@ In rapporten wordt via een hiërarchische kolomweergave genavigeerd. Klik **[!UI
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Zie [Beschrijvingen rapporteren](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html) voor meer informatie over afzonderlijke rapporten.
+Zie [Beschrijvingen rapporteren](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html) voor meer informatie over afzonderlijke rapporten.
 
 ## Zoeken naar rapporten {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -46,7 +45,7 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
 >
 >U kunt de rapportlijst ook doorzoeken op basis van eigenschap, eVar en gebeurtenisnummer. Voer op de zoekbalk de waarde voor de eigenschap, de eVar of het gebeurtenisnummer in.
 
-## Navigatieoverzicht {#section_A6A0A369207149BABE504753B48A42D7}
+## Overzicht van navigatie {#section_A6A0A369207149BABE504753B48A42D7}
 
 <table id="table_3BA295966BBC4C94ABDC3718D1894698"> 
  <thead> 
@@ -66,7 +65,7 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmenten <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Brings up the segment rail that lets you lets add or manage. U kunt tot de <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > interfaces van de Bouwer van het Segment </a> en <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > van de Manager van het Segment</a> van het segmentspoor ook toegang hebben. </td> 
+   <td colname="col2">Brings up the segment rail that lets you lets add or manage. U kunt tot de <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > interfaces van de Bouwer van het Segment </a> en <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > van de Manager van het Segment</a> van het segmentspoor ook toegang hebben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Cijfers <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -114,7 +113,7 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
   </tr> 
   <tr> 
    <td colname="col1">Rapportsuite Selector <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Hiermee kunt u <a href="https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html"  > basisrapportsuites</a> of <a href="https://docs.adobe.com/help/nl-NL/analytics/components/virtual-report-suites/vrs-about.html"  > virtuele rapportsuites</a> selecteren. </td> 
+   <td colname="col2">Hiermee kunt u <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  > basisrapportsuites</a> of <a href="https://docs.adobe.com/help/nl-NL/analytics/components/virtual-report-suites/vrs-about.html"  > virtuele rapportsuites</a> selecteren. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Kalender <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -125,4 +124,4 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
 
 ## Het menu Alle rapporten aanpassen {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Beheerders kunnen de rapporten in het menu Rapporten wijzigen. Zie [Menu Aanpassen](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html) in Admin Help.
+Beheerders kunnen de rapporten in het menu Rapporten wijzigen. Zie [Menu Aanpassen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) in Admin Help.
