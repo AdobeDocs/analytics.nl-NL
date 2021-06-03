@@ -4,14 +4,13 @@ title: Methode voor link tracking
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1000'
 ht-degree: 1%
 
 ---
-
 
 # Methode voor link tracking
 
@@ -19,7 +18,7 @@ Deze sectie is bedoeld voor Adobe Analytics-beheerders. Het concentreert zich op
 
 >[!IMPORTANT]
 >
->Elke koppeling waarin de tekst (niet de href) PII (Persoonlijk Identificeerbare Informatie) kan bevatten, moet expliciet worden geïmplementeerd met behulp van [s_objectID](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) of door de ActivityMap-linkverzameling met [s.ActivityMap.linkExclusions of s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) uit te sluiten. Voor meer informatie over hoe de Activity Map PII gegevens kan verzamelen, ga [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Elke koppeling waarin de tekst (niet de href) PII (Persoonlijk Identificeerbare Informatie) kan bevatten, moet expliciet worden geïmplementeerd met behulp van [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) of door de ActivityMap-linkverzameling met [s.ActivityMap.linkExclusions of s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) uit te sluiten. Voor meer informatie over hoe de Activity Map PII gegevens kan verzamelen, ga [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 De Activity Map baseert zijn verbinding het volgen op deze twee IDs:
 
@@ -36,7 +35,7 @@ Als de HTML een s_objectid heeft, dan wordt primaire identiteitskaart in gebreke
 * Bron
 * Handeling
 
-## Het gebruiken van InnerText versus het gebruiken van de Actie van de Verbinding (URL) {#section_70C3573E22274522A8CC035BF18EC468}
+## InnerText gebruiken in plaats van Koppeling (URL) {#section_70C3573E22274522A8CC035BF18EC468}
 
 Koppelingsactie is de actie die door de webpagina wordt uitgevoerd wanneer op de koppeling wordt geklikt. Dit is doorgaans de URL die wordt bezocht nadat op de koppeling is geklikt. Enkele kwesties u zou kunnen lopen wanneer het gebruiken van de Actie van de Verbinding zijn:
 
