@@ -2,16 +2,15 @@
 description: Gebruik de fallout visualisatie in een project van de Werkruimte.
 title: Overzicht van uitval
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-feature: Visualizations
+feature: Visualisaties
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '501'
 ht-degree: 2%
 
 ---
-
 
 # Overzicht van uitval
 
@@ -35,9 +34,9 @@ Een uitvalvisualisatie is handig voor het analyseren van:
 * Algemene verkeersstromen met een groter bereik: Van de mensen die de homepage zagen, toont deze stroom hoeveel er doorgingen om een onderzoek uit te voeren, en toen hoeveel van hen uiteindelijk naar een specifiek punt gingen kijken.
 * Correlaties tussen gebeurtenissen op uw site. Correlaties laten zien welk percentage van de mensen die naar je privacybeleid keken, een product heeft gekocht.
 
-[Videozelfstudie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)  voor het uitvalvisualiseren (4:15)
+[Videozelfstudie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)  voor het uitvalvisualiseren (4:15)
 
-## Segmentatie als basis voor stroom en fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
+## Segmentatie als basis voor flow en fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
 De segmenten die op de panelen van de Werkruimte worden toegepast werken lichtjes verschillend dan segmenten die op reserve en stroomrapporten in Rapporten &amp; Analytics worden toegepast. Meestal leveren ze precies dezelfde resultaten op. Het belangrijkste verschil is dat Rapporten &amp; Analytics het segment bij elke stap van de opeenvolging toepast. Dit kan tot iets verschillende resultaten leiden.
 
