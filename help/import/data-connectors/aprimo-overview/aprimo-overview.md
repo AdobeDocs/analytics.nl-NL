@@ -2,14 +2,13 @@
 description: Deze Adobe® Data Connectors™ e-mailintegratie combineert gedragsinformatie van Adobe Analytics® met e-mailmarketing om een krachtig hulpmiddel te creëren om succesmeting en doelpubliek opnieuw te definiëren met meer relevant overseinen.
 title: April Data Connector voor Adobe Analytics
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: cd5191c9-68fb-42ad-98f6-23d5a72878da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 1%
 
 ---
-
 
 # April Data Connector voor Adobe Analytics{#aprimo-data-connector-for-adobe-analytics}
 
@@ -72,4 +71,4 @@ Aan deze integratie kunnen terugkerende kosten en implementatiekosten verbonden 
 
 Voor deze integratie zijn Adobe Analytics-variabelen vereist om de metriek bij te houden.
 
-Na het identificeren van de Gebeurtenis en eVars om met deze integratie te gebruiken, moeten zij in de Admin Console van Adobe Analytics worden toegelaten (zie [Suites van het Rapport](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html) voor instructies).
+Na het identificeren van de Gebeurtenis en eVars om met deze integratie te gebruiken, moeten zij in de Admin Console van Adobe Analytics worden toegelaten (zie [Suites van het Rapport](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) voor instructies).
