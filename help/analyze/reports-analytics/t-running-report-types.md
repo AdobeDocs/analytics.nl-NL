@@ -5,11 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Grondbeginselen van rapporten en analyses
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 3%
+source-wordcount: '2253'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 3%
 Stappen bij het runnen van de verschillende rapporttypes.
 
 
-## Een gerangschikt rapport {#task_C570BA4A213F4F2EB7B30E012934BE7D} uitvoeren
+## Een gerangschikt rapport uitvoeren {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 In een gerangschikt rapport, toont de lijst de rangschikkingen van de rapportpagina&#39;s met betrekking tot metrisch, volgens aantal of percentage. De gerangschikte rapporten kunnen veelvoudige metriek in een rapport tonen.
 
@@ -34,7 +33,7 @@ t_reports_ranked.xml
 
    De gerangschikte rapporten kunnen tot 200 punten hebben die in de lijst (zoals producten, categorieën, Web-pagina&#39;s, etc.) en tien metriek (opbrengst, orden, meningen, etc.) worden vermeld.
 
-## Een vernieuwd rapport {#task_F03B4E760B9E4EA29FC3F654E6316887} uitvoeren
+## Een trendrapport uitvoeren {#task_F03B4E760B9E4EA29FC3F654E6316887}
 
 In trendrapporten worden metrische gegevens in de loop der tijd weergegeven. U gebruikt dit rapporttype wanneer u wilt zien hoe een segment van één tijdspanne aan volgende presteert.
 
@@ -51,7 +50,7 @@ De meeste rapporten van de Omzetting en van het Verkeer hebben een Gevorderde be
 1. Voer een conversie- of verkeersrapport uit, zoals **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
 1. Klik onder **[!UICONTROL Report Type]** op **[!UICONTROL Trended.]**
 
-## Een conversietrechter-rapport uitvoeren {#task_B926A74AA6A641138C2986C1635120CB}
+## Een Conversion-structuurrapport uitvoeren {#task_B926A74AA6A641138C2986C1635120CB}
 
 De rapporten van het Kanaal van de Omzetting tonen het percentage bezoekers die door een reeks gebeurtenissen zijn gegaan om een gewenste actie uit te voeren. U kunt bijvoorbeeld zien hoeveel bezoekers uw webpagina hebben bezocht door items aan een winkelwagentje toe te voegen en vervolgens een object aan te schaffen. Dit verslag toont ook het aantal mensen dat onderweg is gevallen.
 
@@ -63,9 +62,9 @@ t_reports_conversion_funnel.xml
 
 Als u dit rapport wilt uitvoeren, selecteert u een rapport, zoals een rapport Pagina&#39;s ( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
 
-Zie [Conversierapporten](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html) voor een beschrijving.
+Zie [Conversierapporten](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html) voor een beschrijving.
 
-## Een uitvalrapport uitvoeren {#task_8FD97C8260464F9DA731A93DB8F80184}
+## Een evaluatierapport uitvoeren {#task_8FD97C8260464F9DA731A93DB8F80184}
 
 In [!UICONTROL Fallout Report] ziet u het aantal bezoekers dat een vooraf opgegeven reeks pagina&#39;s heeft bezocht. Het toont ook omzettings en valutarieven tussen elke stap.
 
@@ -75,7 +74,7 @@ t_reports_fallout.xml
 
  -->
 
-Ontdek het nieuwe [Fallout Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) paneel in Analysis Workspace!
+Ontdek het nieuwe [Fallout Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) paneel in Analysis Workspace!
 
 1. Klik in [!UICONTROL Adobe Analytics] op **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Fallout]**.
 1. Klik op [!UICONTROL Fallout Report] op de pagina.**[!UICONTROL Launch the Fallout Report Builder]**
@@ -89,16 +88,16 @@ Ontdek het nieuwe [Fallout Analysis](https://docs.adobe.com/content/help/en/anal
 
 >[!MORELIKETHIS]
 >
->* [Beschrijving van evaluatierapport](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [Beschrijving van evaluatierapport](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
-## Een rapport voor paginastroom uitvoeren {#task_133E8B87C3F04DA0A42D10CBA499305B}
+## Een paginastroom-rapport uitvoeren {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 In de rapporten Paginastroom wordt de volgorde weergegeven waarin bezoekers de pagina&#39;s openen en door uw site navigeren. Dit rapport helpt antwoord
 
-Ontdek de nieuwe [Stroomvisualisatie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
+Ontdek de nieuwe [Stroomvisualisatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
 
-Voer een rapport [Paden](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) uit.
+Voer een rapport [Paden](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html) uit.
 
 Klik bijvoorbeeld op **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**.
 
@@ -114,7 +113,7 @@ De pagina Privacybeleid kan bijvoorbeeld in totaal 10.000 paginaweergaven bevatt
 
 Het relatieve percentage wordt weergegeven door de relatieve breedte van de lijn. Dit rapport geeft standaard vijf vertakkingen op het tweede niveau en vijf vertakkingen op het derde niveau weer. U kunt het aantal vertakkingen uitbreiden om tot tien vertakkingen op het tweede niveau en vijf vertakkingen op het derde niveau weer te geven. Dit verhoogt de hoogte van het rapport en hoogstwaarschijnlijk vereist schuiven om de volledige grafiek te bekijken.
 
-## Voer een Trechter-rapport {#task_2BBF6FACD48F479E8B2EE458919941CB} uit
+## Een treinstaprapport uitvoeren {#task_2BBF6FACD48F479E8B2EE458919941CB}
 
 U kunt succesgebeurtenissen selecteren en deze toevoegen aan een [!UICONTROL Purchase Conversion Funnel]-rapport of een [!UICONTROL Product Conversion Funnel]-rapport.
 
@@ -124,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Klik op **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Productconversietrechter](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
+1. Klik op **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Productconversietrechter](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
 
 ## Een marketingkanaalrapport uitvoeren {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -148,15 +147,15 @@ t_anomaly_view.xml
 
  -->
 
-Bekijk de nieuwe [Anomaly Detection and Contribution Analysis](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)-functies in Analysis Workspace!
+Bekijk de nieuwe [Anomaly Detection and Contribution Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)-functies in Analysis Workspace!
 
 **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
 
 >[!NOTE]
 >
->U kunt ook Anomaly Detection uitvoeren vanuit Analysis Workspace-projecten. [Meer...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>U kunt ook Anomaly Detection uitvoeren vanuit Analysis Workspace-projecten. [Meer...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-Raadpleeg de [Referentiehandleiding](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection) voor informatie over het instellen van Anomaly Detection.
+Raadpleeg de [Referentiehandleiding](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection) voor informatie over het instellen van Anomaly Detection.
 
 Bij Anomaly-detectie worden twee typen grafieken weergegeven: Een overzichtsgrafiek en individuele metriekaarten. Individuele metrische diagrammen worden alleen getoond als ten minste één anomalie voor die meting is gedetecteerd.
 
@@ -183,7 +182,7 @@ Bij Anomaly-detectie worden twee typen grafieken weergegeven: Een overzichtsgraf
         <li id="li_4090357A0D214BC7B1C3DE0615875554">Als de onderste grenzen en de verwachte waarde gelijk zijn, is de afwijking % -100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Anders is de afwijking % (laagste gebonden waarde - werkelijke waarde) / (verwachte waarde - laagste gebonden waarde) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Als u op <span class="uicontrol"> Segmenten tonen </span> klikt, wordt de segmentrail weergegeven waarmee u segmenten kunt toepassen op een afwijkingsdetectierapport. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  > Meer  </a> over segmentatie. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Als u op <span class="uicontrol"> Segmenten tonen </span> klikt, wordt de segmentrail weergegeven waarmee u segmenten kunt toepassen op een afwijkingsdetectierapport. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  > Meer  </a> over segmentatie. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Als u op <span class="uicontrol"> Metriek bewerken </span>klikt, kunt u metriek selecteren en deselecteren waarvoor u anomalieën wilt detecteren. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -236,11 +235,11 @@ U plaatst onafhankelijk van elkaar Ontdekking voor elke rapportreeks.
 
    ![](assets/ad_top_menu.png)
 
-   Zie [Analytics Segmentation Guide](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) voor meer informatie over het creëren van en het beheren van segmenten. 1. (Optioneel) Favoriet of bladwijzer voor het rapport.
+   Zie [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) voor meer informatie over het creëren van en het beheren van segmenten. 1. (Optioneel) Favoriet of bladwijzer voor het rapport.
 1. (Optioneel) Wijzig de einddatum van de weergaveperiode. De standaardwaarde is gisteren.
 1. U kunt nu beginnen met het interpreteren van het rapport. [Anomaly Detection-grafieken](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049) weergeven.
 
-## Een real-time rapport {#task_5D25929C918E40B18965222FA94176B0} uitvoeren
+## Een Real-Time rapport uitvoeren {#task_5D25929C918E40B18965222FA94176B0}
 
 Beschrijft om rapporten in real time te bekijken en te interpreteren.
 
@@ -254,7 +253,7 @@ reports_realtime.xml
 
 Real-Time rapportage biedt twee hoofdrapporten - een overzichtsrapport en een detailrapport. Ze bestaan elk uit een aantal verslagen.
 
-Voor informatie bij het vormen rapporten in real time, zie [de Gids van de Verwijzing van Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration).
+Voor informatie bij het vormen rapporten in real time, zie [de Gids van de Verwijzing van Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration).
 
 1. Bekijk het **[!UICONTROL Overview]** rapport en zijn componenten:  ![](assets/rtr_overview_report.png)
 
@@ -265,7 +264,7 @@ Voor informatie bij het vormen rapporten in real time, zie [de Gids van de Verwi
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Rapportsuite selecteren</strong></td> 
-   <td class="chdesc stentry"> Toont de rapportreeks die dit rapport in real time behandelt. Als u de rapportsuite wilt wijzigen, raadpleegt u <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  > Configuratie van realtime rapporten </a>. </td> 
+   <td class="chdesc stentry"> Toont de rapportreeks die dit rapport in real time behandelt. Als u de rapportsuite wilt wijzigen, raadpleegt u <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  > Configuratie van realtime rapporten </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Schakelen tussen rapporten</strong></td> 
