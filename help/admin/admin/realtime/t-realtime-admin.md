@@ -4,10 +4,9 @@ title: Configuratie van realtimerapporten
 feature: Admin Tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '274'
 ht-degree: 2%
 
 ---
@@ -57,6 +56,6 @@ Het opzetten van rapporten in real time binnen Rapporten &amp; Analytics bestaat
 
 1. Klik op **[!UICONTROL Save]** of **[!UICONTROL Save and View Report]**.
 
-   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van rapporten in real time, zie [Een Rapport in real time ](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html) in werking stellen.
+   Na deze eerste rapportinstelling kan het 20 minuten duren voordat de gegevens beginnen met streamen. Vanaf dat moment zijn de gegevens direct beschikbaar. Voor informatie bij het bekijken van rapporten in real time, zie [Een Rapport in real time ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html) in werking stellen.
 
 1. Door gebrek, hebben alle gebruikers toegang tot Echt - tijd rapporten.
