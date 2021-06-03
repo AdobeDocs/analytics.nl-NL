@@ -1,18 +1,17 @@
 ---
 title: XDM-gegevens gebruiken met Analytics
-description: 'Overzicht van het gebruik van XDM-gegevens van Experience Platform in Adobe Analytics '
-translation-type: tm+mt
-source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
+description: Overzicht van het gebruik van XDM-gegevens van Experience Platform in Adobe Analytics
+exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 0%
+source-wordcount: '249'
+ht-degree: 2%
 
 ---
 
-
 # Adobe Experience Platform Edge-gegevens gebruiken met Analytics
 
-U kunt de SDK [van het Web van](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) Adobe Experience Platform (AEP) gebruiken om gegevens naar Adobe Analytics te verzenden. Dit werkt door het Model van de Gegevens van de [Ervaring (XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) in een formaat te vertalen dat door Analytics wordt gebruikt.
+U kunt de [Adobe Experience Platform (AEP) Web SDK](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) gebruiken om gegevens naar Adobe Analytics te verzenden. Dit werkt door het [Gegevensmodel van de Ervaring (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) in een formaat te vertalen dat door Analytics wordt gebruikt.
 
 Analytics verzamelt XDM-gegevens via twee methoden:
 
@@ -21,16 +20,16 @@ Analytics verzamelt XDM-gegevens via twee methoden:
 
 ## Automatische toewijzing
 
-Automatische toewijzing is afhankelijk van een standaardschema [](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) in de XDM dat JSON-objecten automatisch vult die zijn opgenomen in de gegevensverzameling Analytics. De variabelen van Analytics die automatisch van XDM aan uw gevormde rapportreeksen worden in kaart gebracht vereisen geen ontwikkelaarssteun om op te nemen.
+Automatische toewijzing is afhankelijk van een standaardschema [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) in XDM dat JSON-objecten automatisch vult die zijn opgenomen in de standaardgegevensverzameling Analytics. De variabelen van Analytics die automatisch van XDM aan uw gevormde rapportreeksen worden in kaart gebracht vereisen geen ontwikkelaarssteun om op te nemen.
 
 ## Handmatige toewijzing
 
-[Handmatige toewijzing van XDM-gegevens aan Analytics](xdm-manual.md) is afhankelijk van [analytics-contextgegevensvariabelen](../vars/page-vars/contextdata.md) . Deze variabelen worden in JSON-objecten geplaatst die overeenkomen met de toepasselijke schema&#39;s. Typisch, voegt uw ontwikkelingsteam contextgegevens bij implementatie toe en dan Admins vastgestelde [verwerkingsregels](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) om die gegevens op gespecificeerde rapportreeksen toe te passen.
+[Handmatige toewijzing van XDM-gegevens aan ](xdm-manual.md) Analytics is afhankelijk van  [Analytics-](../vars/page-vars/contextdata.md) contextgegevens. Deze variabelen worden in JSON-objecten geplaatst die overeenkomen met de toepasselijke schema&#39;s. Typisch, voegt uw ontwikkelingsteam contextgegevens bij implementatie toe en dan Admins plaatste [verwerkingsregels](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) om die gegevens op gespecificeerde rapportreeksen toe te passen.
 
 ## Instellen
 
 Analytics instellen voor het ontvangen van XDM-gegevens:
 
-1. Installeer en [configureer](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/configuring-the-sdk.html) de [Adobe Experience Platform Web SDK](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/installing-the-sdk.html).
+1. Installeer en [configureer](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html).
 
 2. Controleer of de toepasselijke rapportsuites zijn toegewezen aan de gewenste gegevens. XDM-gegevens worden automatisch vanuit het Adobe Experience-platform naar de rapportsuite verzonden.
