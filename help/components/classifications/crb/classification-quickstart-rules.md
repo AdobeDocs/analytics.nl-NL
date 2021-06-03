@@ -4,10 +4,9 @@ subtopic: Classifications
 title: Classificatieregels
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
-source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1967'
 ht-degree: 1%
 
 ---
@@ -60,7 +59,7 @@ about_classification_rules.xml
 
 ## Belangrijke informatie over regels
 
-* Geef [groepsmachtigingen](https://docs.adobe.com/content/help/nl-NL/analytics/admin/user-product-management/user-groups/groups.html) op voor classificaties in [!UICONTROL Admin Tools].
+* Geef [groepsmachtigingen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) op voor classificaties in [!UICONTROL Admin Tools].
 
 * **Reguliere expressies**: De hulp is beschikbaar onder  [Reguliere Uitdrukkingen in de Regels](/help/components/classifications/crb/classification-quickstart-rules.md) van de Classificatie.
 
@@ -114,7 +113,7 @@ regex_classification_rules.xml
 >
 >Reguliere expressies zijn het meest geschikt voor het bijhouden van codes die gebruikmaken van scheidingstekens.
 
-## Reguliere expressie - codevoorbeeld {#section_2EF7951398EB4C2F8E52CEFAB4032669} bijhouden
+## Reguliere expressie - voorbeeld van code bijhouden {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
 >[!NOTE]
 >
@@ -159,7 +158,7 @@ In [!UICONTROL Rule Builder], vorm de regel als volgt:
 
 Zie [Reguliere expressies - Referentietabel](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) voor informatie over wat de tekens in een reguliere expressie betekenen.
 
-## Gewone uitdrukking - classificerend een Specifiek Karakter {#section_5D300C03FA484BADACBFCA983E738ACF}
+## Reguliere expressie - een specifiek teken classificeren {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 Een manier om een reguliere expressie te gebruiken, is het classificeren van een specifiek teken in een tekenreeks. Stel dat de volgende code twee belangrijke tekens bevat:
 
@@ -179,7 +178,7 @@ In [!UICONTROL Rule Builder], vorm de regel als volgt:
 | Gewone uitdrukking | `^.(s).*$` | Merk en motor | `$0` (Hiermee legt u de eerste twee tekens vast voor de merknaam en het zoekprogramma.) |
 | Gewone uitdrukking | `^.(s).*$` | Zoekmachine | `$1` (Hiermee legt u het tweede teken voor Google vast.) |
 
-## Gewone expressies - Overeenkomende volgcodes van variabele lengte {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
+## Reguliere expressies - overeenstemmende volgcodes van variabele lengte {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
 In dit voorbeeld wordt getoond hoe u specifieke tekens kunt identificeren tussen dubbele scheidingstekens wanneer u volgcodes van verschillende lengte hebt. Adobe raadt u aan één reguliere expressie te gebruiken voor elke trackingcode.
 
@@ -208,7 +207,7 @@ In [!UICONTROL Rule Builder], vorm de regel als volgt:
 | Gewone expressie voor overeenkomende tekenreeks a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
 | Gewone expressie voor overeenkomende tekenreeks a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
-## Reguliere expressies - Voorbeeld {#section_FCA88A612A4E4B099458E3EF7B60B59C} &quot;Bevat niet&quot;
+## Reguliere expressies - voorbeeld &quot;Bevat niet&quot; {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
 In dit voorbeeld wordt een reguliere expressie verschaft die overeenkomt met elke tekenreeks die geen specifieke tekens bevat, in dit geval `13`.
 
@@ -294,7 +293,7 @@ Stel dat u twee regels instelt in een set voor de volgende zoektermen:
 
 | Regelnummer | Type regel | Overeenkomst | Classificatie instellen | Naar |
 |---|---|---|---|---|
-| 1 | Bevat | Cowboy | Plaats | Dallas |
+| 3 | Bevat | Cowboy | Plaats | Dallas |
 | 2 | Bevat | Broncos | Plaats | Denver |
 
 Een gebruiker zoekt naar *`Cowboys vs. Broncos`*. Als de regelbouwer een conflict in regel het aanpassen vindt, is de classificatie voor de tweede regel (Ontkent) op dit onderzoek van toepassing.
