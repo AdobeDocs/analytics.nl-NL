@@ -2,16 +2,15 @@
 description: Een histogram is een nieuw visualisatietype in Analysis Workspace.
 title: Histogram
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
-feature: Visualizations
+feature: Visualisaties
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 3%
+source-wordcount: '359'
+ht-degree: 1%
 
 ---
-
 
 # Histogram
 
@@ -63,4 +62,4 @@ Vooraf gebouwde segmenten die in de lijst verschijnen zijn interne segmenten en 
 
 ![](assets/prebuilt_segments.png)
 
-Ga [hier](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) voor meer manieren om gegevenstabellen en andere visualisaties te beheren, zoals het uitvoeren van gegevensuitsplitsingen.
+Ga [hier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) voor meer manieren om gegevenstabellen en andere visualisaties te beheren, zoals het uitvoeren van gegevensuitsplitsingen.
