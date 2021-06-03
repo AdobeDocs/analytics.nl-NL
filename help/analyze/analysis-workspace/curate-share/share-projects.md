@@ -2,16 +2,15 @@
 description: Projectdeling en projectrollen in Workspace
 keywords: Analysis Workspace delen
 title: Projecten delen
-feature: Curate and Share
+feature: Curven en delen
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 3%
+source-wordcount: '1024'
+ht-degree: 0%
 
 ---
-
 
 # Projecten delen
 
@@ -19,7 +18,7 @@ Door een project te delen, stelt u het beschikbaar voor andere Analysis Workspac
 
 ## Projectrollen {#Roles}
 
-U kunt ontvangers aan één van drie projectrollen toevoegen. De rollen van het project zijn verbonden aan de gebruiker en specifieke projectidentiteitskaart Projectrollen zijn onafhankelijk van gebruikersmachtigingen die worden beheerd in de [Adobe Experience Cloud-beheerconsole](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/admin-getting-started.html).
+U kunt ontvangers aan één van drie projectrollen toevoegen. De rollen van het project zijn verbonden aan de gebruiker en specifieke projectidentiteitskaart Projectrollen zijn onafhankelijk van gebruikersmachtigingen die worden beheerd in de [Adobe Experience Cloud-beheerconsole](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 | Rol | Projectbeheersing |
 |---|---|
@@ -32,7 +31,7 @@ U kunt ontvangers aan één van drie projectrollen toevoegen. De rollen van het 
 
 ### Geen rol toegewezen (ontvangers projectkoppeling)
 
-Als een ontvanger geen rol wordt toegewezen en een [link](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) aan het project (**[!UICONTROL Share]>[!UICONTROL Get project link]**) ontvangt, zullen zij in een rol door gebrek worden geplaatst. Beheerders ontvangen **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]**.
+Als een ontvanger geen rol wordt toegewezen en een [link](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) aan het project (**[!UICONTROL Share]>[!UICONTROL Get project link]**) ontvangt, zullen zij in een rol door gebrek worden geplaatst. Beheerders ontvangen **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]**.
 
 ### Meerdere rollen toegewezen
 
@@ -55,20 +54,20 @@ Nadat deze componenten worden gedeeld, zullen deze in de drop-down Componenten v
 1. (Optioneel) Stel deze pagina in als de bestemmingspagina voor ontvangers.
 Deze instelling blijft niet bestaan. Het is een enkelvoudige actie op het moment van delen.
 1. Klik op Delen.
-U kunt **[!UICONTROL Curate and Share]** ook klikken om projectcuratie automatisch toe te passen. Als een project reeds is gedeeld, zullen deze knopen **[!UICONTROL Update]** en **[!UICONTROL Curate & Update]** zeggen. Meer informatie over [projectcuratie](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html).
+U kunt **[!UICONTROL Curate and Share]** ook klikken om projectcuratie automatisch toe te passen. Als een project reeds is gedeeld, zullen deze knopen **[!UICONTROL Update]** en **[!UICONTROL Curate & Update]** zeggen. Meer informatie over [projectcuratie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
 
 ![](assets/share-proj-modal.png)
 
 ## Delen naar groepen ontvangers {#Groups}
 
-Alle gebruikers kunnen projecten aan groepen delen, die een inzameling van ontvangers zijn. In Adobe Analytics worden groepen gedefinieerd door productprofielen in de [Adobe Experience Cloud-beheerconsole](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Alle gebruikers kunnen projecten aan groepen delen, die een inzameling van ontvangers zijn. In Adobe Analytics worden groepen gedefinieerd door productprofielen in de [Adobe Experience Cloud-beheerconsole](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 * Beheerders kunnen gegevens delen met elke groep, inclusief Alles.
 * Niet-beheerders kunnen delen met groepen waarvan zij lid zijn, met uitzondering van &quot;Alle&quot;.
 
 ## Een projectkoppeling delen {#Links}
 
-U kunt een verbinding een project onder **[!UICONTROL Share]>[!UICONTROL Get project link]** krijgen. Wanneer geklikt, zullen de ontvangers worden vereist om login alvorens in het project te landen. Als de ontvanger niet in een rol is geplaatst, zullen zij een standaardrol ontvangen. Beheerders ontvangen **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]**. [Leer ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) meer over het creëren van deelbare verbindingen aan de projecten van de Werkruimte.
+U kunt een verbinding een project onder **[!UICONTROL Share]>[!UICONTROL Get project link]** krijgen. Wanneer geklikt, zullen de ontvangers worden vereist om login alvorens in het project te landen. Als de ontvanger niet in een rol is geplaatst, zullen zij een standaardrol ontvangen. Beheerders ontvangen **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]**. [Leer ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) meer over het creëren van deelbare verbindingen aan de projecten van de Werkruimte.
 
 ## Projecten delen in de projectmanager {#Manager}
 
