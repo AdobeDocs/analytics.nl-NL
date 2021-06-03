@@ -2,11 +2,10 @@
 description: Deze sectie bevat de belangrijkste concepten voor de Adobe Analytics, een korte beschrijving van het concept, en een specifieke documentatiekoppeling met extra informatie over het onderwerp.
 title: Adobe Analytics - Belangrijkste concepten
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 95%
+source-wordcount: '1822'
+ht-degree: 93%
 
 ---
 
@@ -21,9 +20,9 @@ Deze sectie bevat de belangrijkste concepten voor de Adobe Analytics, een korte 
 | Analysis Workspace | Browseroplossing voor het bouwen van robuuste, aangepaste analyseprojecten en democratiserende inzichten. Biedt meer rapportflexibiliteit dan Reports and Analytics | [Analysis Workspace home](/help/analyze/analysis-workspace/home.md) |
 | Reports and Analytics (voorheen SiteCatalyst) | Browseroplossing voor rapportage en analyse. Startertool in het Analytics-pakket. | [Reports and Analytics home](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | Excel-invoegtoepassing waarmee u aangepaste verzoeken van de gegevens kunt maken op basis van Adobe Analytics-data, en deze visualiseren met Microsoft Excel. | [Report Builder Home](/help/analyze/report-builder/home.md) |
-| Data Workbench (voorheen Insight) | Ontworpen voor het verzamelen, verwerken, analyseren en visualiseren van data van zowel online als offline klanteninteracties via meerdere kanalen. | [Data Workbench-client](https://docs.adobe.com/content/help/en/data-workbench/using/client/t-open-ins.html) |
+| Data Workbench (voorheen Insight) | Ontworpen voor het verzamelen, verwerken, analyseren en visualiseren van data van zowel online als offline klanteninteracties via meerdere kanalen. | [Data Workbench-client](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | Onbewerkte gegevens voor opslag en aangepaste rapporten, die u kunt uitvoeren door de data te filteren. Niveau niet bereikt. | [Data Warehouse Home](/help/export/data-warehouse/data-warehouse.md) |
-| Adobe Mobile Services | Verenigt mobiele marketingmogelijkheden voor mobiele applicaties uit de hele Adobe Experience Cloud, zodat u de betrokkenheid van gebruikers met uw applicaties kunt begrijpen en verbeteren. | [Mobile Services Home](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| Adobe Mobile Services | Verenigt mobiele marketingmogelijkheden voor mobiele applicaties uit de hele Adobe Experience Cloud, zodat u de betrokkenheid van gebruikers met uw applicaties kunt begrijpen en verbeteren. | [Mobile Services Home](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors (voorheen Genesis) | Importeer trackingdata van applicaties van derden naar Analytics, zodat de prestaties op één centrale locatie volledig zichtbaar zijn. Met ingang van 1 augustus 2021 is Adobe voornemens de integratie van gegevensconnectors te beëindigen. | [Data Connectors Home](/help/import/data-connectors/data-connectors-eol.md) |
 | Adobe Experience Platform Launch | De volgende generatie mogelijkheden voor websitetags en mobiel SDK-beheer van Adobe. | [Adobe Experience Platform Launch home](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
@@ -59,7 +58,7 @@ Klik [hier](/help/technotes/terms.md) voor een uitgebreide woordenlijst met term
 | Klanttrajectrapporten | Hier wordt informatie weergegeven over het pad dat uw gebruikers door uw site of app volgen. Prop, eVars en gebeurtenissen kunnen in deze analyse in de Analysis Workspace worden gebruikt. | [Analysis Workspace Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics-paden](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | Marketingkanalen | Rapporten die u helpen ontdekken welke externe kanalen gebruikers naar uw site leiden en welke het meest effectief zijn voor conversie. Biedt attributieweergaven van eerste en laatste aanraking. Dit is het aangewezen externe rapport voor verkeersbronnen in Adobe Analytics (meer dan Campagnes of de Verkeersbronnen) omdat dit de meest uitgebreide blik geeft op betaalde en organische kanalen. | [Marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | Mobile | Hier wordt informatie weergegeven over websites die via een mobiel apparaat of tablet worden benaderd. | [Mobiel rapport](/help/components/dimensions/mobile-dimensions.md) |
-| Mobiele app | Geeft basisgebruiksgegevens weer over uw mobiele apps. Deze rapporten zijn beschikbaar zodra onze SDK is geïmplementeerd en de rapportage is ingeschakeld.  Daarnaast heeft Adobe Mobile Services een aparte mobiele app-interface gemaakt met uitgebreidere appdata, waarmee u de betrokkenheid van gebruikers bij uw apps kunt begrijpen en verbeteren.  Ga [hier](https://mobilemarketing.adobe.com) naar de interface. | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| Mobiele app | Geeft basisgebruiksgegevens weer over uw mobiele apps. Deze rapporten zijn beschikbaar zodra onze SDK is geïmplementeerd en de rapportage is ingeschakeld.  Daarnaast heeft Adobe Mobile Services een aparte mobiele app-interface gemaakt met uitgebreidere appdata, waarmee u de betrokkenheid van gebruikers bij uw apps kunt begrijpen en verbeteren.  Ga [hier](https://mobilemarketing.adobe.com) naar de interface. | [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Producten | Bepaalt hoe afzonderlijke producten en productgroepen (categorieën) bijdragen aan de diverse conversiecijfers zoals omzet of aantal betalingen. | [Productrapport](/help/components/dimensions/product.md) |
 | Segmentvergelijking | Ontdekt de statistisch meest significante verschillen tussen segmenten door een geautomatiseerde analyse van elk cijfer en elke dimensie waartoe u toegang hebt. | [Segmentvergelijking](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | Rapport Sitecontent | Geeft informatie weer over welke pagina&#39;s en gebieden van uw site het meest actief zijn en welke servers het meest worden gebruikt. | [Rapport Sitecontent](/help/components/dimensions/page.md) |
@@ -85,7 +84,7 @@ Klik [hier](/help/technotes/terms.md) voor een uitgebreide woordenlijst met term
 | --- | --- | --- |
 | Classificatie-import | Importeert metadata op vastgelegde dimensies via browser of FTP-upload. Handmatige methode vergeleken met Rule Builder. | [Classificatie-import](/help/components/classifications/importer/c-working-with-saint.md) |
 | Rule Builder | Maak automatisch metadataclassificaties van dimensies op basis van door de gebruiker gedefinieerde regels. | [Classification Rule Builder](/help/components/classifications/crb/classification-rule-builder.md) |
-| Klantkenmerken | CRM-data die naar Experience Cloud zijn geüpload voor gebruik in Adobe Analytics en Adobe Target. | [Klantkenmerken](https://docs.adobe.com/content/help/nl-NL/core-services/interface/customer-attributes/attributes.html) |
+| Klantkenmerken | CRM-data die naar Experience Cloud zijn geüpload voor gebruik in Adobe Analytics en Adobe Target. | [Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) |
 | Databronnen | Importeert offline cijfers in Analytics op dimensies of eenvoudig per dag. | [Databronnen](/help/import/c-data-sources/datasrc-home.md) |
 | Adobe Exchange Data Connectors | Zie [Analytics-tools.](/help/import/data-connectors/data-connectors-eol.md) |  |
 | Native integratie | Audience Analytics en Advertising Analytics. | Zie de sectie “Belangrijke rapporten”. |
@@ -107,7 +106,7 @@ Klik [hier](/help/technotes/terms.md) voor een uitgebreide woordenlijst met term
 | Bronnen voor ontwikkelaars | Documentatie met een overzicht van de bibliotheken die beschikbaar zijn voor het verzamelen van Analytics-data op alle beschikbare platforms (web, mobiele app, video, flash, enz.) | [Documenten voor ontwikkelaars](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | Implementatiehandleiding | Een beschrijving van dataverzamelingsvariabelen en details over het implementeren van code voor dataverzameling in JavaScript. | [Implementatiehandleiding](/help/implement/home.md) |
 | App-meting (s_code) | Globaal variabelenbeheer. | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
-| App-SDK’s | Aangepast pakket met een vooraf ingevulde versie van het configuratiebestand voor apps. | <ul><li>[iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
+| App-SDK’s | Aangepast pakket met een vooraf ingevulde versie van het configuratiebestand voor apps. | <ul><li>[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | Adobe Experience Platform Launch | Zie Tools voor Analytics. |  |
 | VISTA | Hiermee kunt u serverlogica toepassen om data te wijzigen of te segmenteren terwijl deze worden verzameld. | [VISTA-regels](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | Verwerkingsregels | Mogelijkheid om variabelen in te stellen, te wijzigen en te kopiëren in de Analytics-UI om te wijzigen welke data worden verzameld. | [Verwerkingsregels](/help/admin/admin/c-processing-rules/processing-rules.md) |
