@@ -2,18 +2,17 @@
 description: U hebt toegang tot deze functies door Geavanceerd tonen in de vervolgkeuzelijst Functies te selecteren.
 title: Verwijzing naar geavanceerde functies
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2906'
 ht-degree: 1%
 
 ---
 
-
 # Referentie: geavanceerde functies
 
-U hebt toegang tot deze functies door deze te controleren **[!UICONTROL Show Advanced]** in de **[!UICONTROL Functions]** vervolgkeuzelijst.
+U kunt deze functies openen door **[!UICONTROL Show Advanced]** in de vervolgkeuzelijst **[!UICONTROL Functions]** te controleren.
 
 ## Tabelfuncties versus rijfuncties {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -27,7 +26,7 @@ Bijvoorbeeld, als u metrisch van de Opbrengst hebt, en dan metrische vertoningen
 
 Aan de andere kant, als u twee metriek hebt die u geinteresseerd in bent, kan het niet eerlijk zijn om te zeggen dat één een hoger gemiddelde of een minimum heeft omdat sommige van zijn rijen nul waren, zodat zou u niet de parameter controleren om nullen te omvatten.
 
-## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
+## EN {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
 Retourneert de waarde van het argument ervan. Gebruik NOT om ervoor te zorgen dat een waarde niet gelijk is aan één bepaalde waarde.
 
@@ -58,7 +57,7 @@ Approximate Count Distinct (dimension)
 
 ### Voorbeeld: hoofdletter gebruiken {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
-Het geschatte onderscheid van de Telling (klant ID eVar) is een gemeenschappelijk gebruiksgeval voor deze functie.
+Het geschatte Verschil van de Telling (de eVar van identiteitskaart van de klant) is een gemeenschappelijk gebruiksgeval voor deze functie.
 
 Definitie voor een nieuwe berekende metrische waarde &quot;Benaderende Klanten&quot;:
 
@@ -70,7 +69,7 @@ Dit is hoe &quot;Benadert Klanten&quot;metrisch zou kunnen worden gebruikt in he
 
 ### Uniques Exceeded {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Net als Count() en RowCount(), geldt bij benadering de limiet voor Distinct() voor tellen die wordt overschreden voor [&#39;unicques&#39;s](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html). Als de limiet voor &quot;oneven overschreden&quot; binnen een bepaalde maand voor een dimensie wordt bereikt, wordt de waarde geteld als 1 dimensie-item.
+Net als Count() en RowCount(), geldt bij benadering onderscheid tussen tellen () voor [&quot;overschrijden&quot; limieten](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html). Als de limiet voor &quot;oneven overschreden&quot; binnen een bepaalde maand voor een dimensie wordt bereikt, wordt de waarde geteld als 1 dimensie-item.
 
 ### Telfuncties vergelijken {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -154,7 +153,7 @@ cdf_z( -3 ) ? 0.0013499
 
 ## Plakken (rij) {#concept_A14CDB1E419B4AA18D335E5BA2548346}
 
-Geeft als resultaat het kleinste gehele getal dat niet kleiner is dan een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product $569,34 heeft, gebruikt u de formule CEILING( *Opbrengst*) om inkomsten te afronden tot de dichtstbijzijnde dollar, ofwel $570.
+Geeft als resultaat het kleinste gehele getal dat niet kleiner is dan een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor omzet en een product $569,34 heeft, gebruikt u de formule CEILING ( *Revenue*) om inkomsten tot de dichtstbijzijnde dollar, of $570, te afronden.
 
 ```
 CEILING(metric)
@@ -231,12 +230,12 @@ CORREL.EXP(metric_X, metric_Y)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch_X* | Een metrisch die u met *metrisch_Y* zou willen correleren. |
-| *metrisch_Y* | Een metrisch die u met *metrisch_X* zou willen correleren. |
+| *metrisch_X* | Metrisch die u met *metrisch_Y* zou willen correleren. |
+| *metrisch_Y* | Metrisch die u met *metrisch_X* zou willen correleren. |
 
 ## Exponentiële regressie: Intercept (tabel) {#concept_0047206C827841AD936A3BE58EEE1514}
 
-Retourneert de onderschepping, *b*, tussen twee metrische kolommen ( *metrisch_X* en *metrisch_Y*) voor
+Retourneert de onderschepping, *b*, tussen twee metrische kolommen ( *metrische_X* en *metrische_Y*) voor
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
@@ -249,7 +248,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 ## Exponentiële regressie: Helling (tabel) {#concept_230991B0371E44308C52853EFA656F04}
 
-Retourneert de helling, *a*, tussen twee metrische kolommen ( *metrische_X* en *metrische_Y*) voor .
+Retourneert de helling *a* tussen twee metrische kolommen ( *metrische_X* en *metrische_Y*) voor .
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -262,7 +261,7 @@ SLOPE.EXP(metric_X, metric_Y)
 
 ## Vloer (rij) {#concept_D368150EC3684077B284EE471463FC31}
 
-Geeft als resultaat het grootste gehele getal dat niet groter is dan een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor inkomsten en een product heeft $569,34, gebruikt u de formule FLOOR( *Revenue*) om inkomsten naar beneden te afronden naar de dichtstbijzijnde dollar, ofwel $569.
+Geeft als resultaat het grootste gehele getal dat niet groter is dan een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor opbrengsten en een product $569,34 heeft, gebruikt u de formule FLOOR ( *Revenue*) om inkomsten naar de dichtstbijzijnde dollar te retourneren, oftewel $569.
 
 ```
 FLOOR(metric)
@@ -328,7 +327,7 @@ IF(logical_test, [value_if_true], [value_if_false])
 |---|---|
 | *logical_test* | Vereist. Elke waarde of expressie die kan worden geëvalueerd op TRUE of FALSE. |
 | *[value_if_true]* | De waarde die u wilt zijn teruggekeerd als het *logical_test* argument aan WAAR evalueert. (Dit argument wordt standaard ingesteld op 0 als het niet wordt opgenomen.) |
-| *[value_if_false]* | De waarde die u wilt worden geretourneerd als het argument *logical_test* naar FALSE evalueert. (Dit argument wordt standaard ingesteld op 0 als het niet wordt opgenomen.) |
+| *[value_if_false]* | De waarde die u wilt zijn teruggekeerd als het *logical_test* argument aan VALS evalueert. (Dit argument wordt standaard ingesteld op 0 als het niet wordt opgenomen.) |
 
 ## Minder dan {#concept_A4A85C0FDF944AACAD4B8B55699D1B11}
 
@@ -368,7 +367,7 @@ LOG10(metric)
 
 ## Logregressie: Correlatiecoëfficiënt (tabel) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-Retourneert de correlatiecoëfficiënt, *r*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor de regressievergelijking [!DNL Y = a ln(X) + b]. Deze wordt berekend met behulp van de CORREL-vergelijking.
+Retourneert de correlatiecoëfficiënt, *r*, tussen twee metrische kolommen (*metrische_X* en *metrische_Y*) voor de regressievergelijking [!DNL Y = a ln(X) + b]. Deze wordt berekend met behulp van de CORREL-vergelijking.
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -376,12 +375,12 @@ CORREL.LOG(metric_X,metric_Y)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch_X* | Een metrisch die u met *metrisch_Y* zou willen correleren. |
-| *metrisch_Y* | Een metrisch die u met *metrisch_X* zou willen correleren. |
+| *metrisch_X* | Metrisch die u met *metrisch_Y* zou willen correleren. |
+| *metrisch_Y* | Metrisch die u met *metrisch_X* zou willen correleren. |
 
 ## Logregressie: Intercept (tabel) {#concept_75A3282EDF54417897063DC26D4FA363}
 
-Retourneert de onderschepping *b* als de kleinste kwadratenregressie tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor de regressievergelijking [!DNL Y = a ln(X) + b]. Deze wordt berekend met behulp van de INTERCEPT-vergelijking.
+Retourneert de onderschepping *b* als de minst kwadraten regressie tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor de regressievergelijking [!DNL Y = a ln(X) + b]. Deze wordt berekend met behulp van de INTERCEPT-vergelijking.
 
 ```
 INTERCEPT.LOG(metric_X, metric_Y)
@@ -394,9 +393,9 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## Logboekregressie: Voorspeld Y (rij) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Berekent de voorspelde [!DNL y] waarden (metrisch_Y), gezien de bekende [!DNL x] waarden (metrisch_X) gebruikend de &quot;minste vierkantjes&quot;methode voor het berekenen van de lijn van best past gebaseerd op [!DNL Y = a ln(X) + b]. Deze wordt berekend met behulp van de ESTIMATE-vergelijking.
+Berekent de voorspelde [!DNL y] waarden (metrisch_Y), gegeven de bekende [!DNL x] waarden (metrisch_X) gebruikend de &quot;minste vierkanten&quot;methode voor het berekenen van de lijn van best past gebaseerd op [!DNL Y = a ln(X) + b]. Deze wordt berekend met behulp van de ESTIMATE-vergelijking.
 
-In regressieanalyse, berekent deze functie de voorspelde [!DNL y] waarden (*metrisch_Y*), gezien de bekende [!DNL x] waarden (*meetkunde_X*) gebruikend logaritme voor het berekenen van de lijn van best geschikt voor de regressievergelijking [!DNL Y = a ln(X) + b]. De [!DNL a] waarden komen overeen met elke x-waarde en [!DNL b] zijn een constante waarde.
+In regressieanalyse berekent deze functie de voorspelde [!DNL y] waarden (*metrisch_Y*), gegeven de bekende [!DNL x] waarden (*metrisch_X*) gebruikend logaritme voor het berekenen van de lijn van best geschikt voor de regressievergelijking [!DNL Y = a ln(X) + b]. De waarden [!DNL a] komen overeen met elke x-waarde en [!DNL b] is een constante waarde.
 
 ```
 ESTIMATE.LOG(metric_X, metric_Y)
@@ -409,7 +408,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 ## Logregressie: Helling (tabel) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-Retourneert de helling, *a*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor de regressievergelijking [!DNL Y = a ln(X) + b]. Het wordt berekend gebruikend de vergelijking van de REEKS.
+Retourneert de helling, *a*, tussen twee metrische kolommen (*metrische_X* en *metrische_Y*) voor de regressievergelijking [!DNL Y = a ln(X) + b]. Het wordt berekend gebruikend de vergelijking van de REEKS.
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -422,7 +421,7 @@ SLOPE.LOG(metric_A, metric_B)
 
 ## Natuurlijk logboek {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
-Retourneert de natuurlijke logaritme van een getal. Natuurlijke logaritmen zijn gebaseerd op de constante *e* (2,71828182845904). LN is het omgekeerde van de functie EXP.
+Retourneert de natuurlijke logaritme van een getal. Natuurlijke logaritmen zijn gebaseerd op de constante *e* (2.71828182845904). LN is het omgekeerde van de functie EXP.
 
 ```
 LN(metric)
@@ -446,7 +445,7 @@ NOT(logical)
 
 Het gebruik van NOT vereist weten of de expressies (&lt;, >, =, &lt;>, enz.) 0 of 1 waarden retourneren.
 
-## Not equal {#concept_EC010B7A9D2049099114A382D662FC16}
+## Niet gelijk {#concept_EC010B7A9D2049099114A382D662FC16}
 
 Retourneert alle items die niet exact overeenkomen met de ingevoerde waarde.
 
@@ -475,11 +474,11 @@ Retourneert de constante PI, 3.14159265358979, nauwkeurig tot 15 cijfers.
 PI()
 ```
 
-De [!DNL PI]functie heeft geen argumenten.
+De functie [!DNL PI]heeft geen argumenten.
 
 ## Stroomregressie: Correlatiecoëfficiënt (tabel) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
-Retourneert de correlatiecoëfficiënt, *r*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y = b*X].
+Retourneert de correlatiecoëfficiënt, *r*, tussen twee metrische kolommen (*metrische_X* en *metrische_Y*) voor [!DNL Y = b*X].
 
 ```
 CORREL.POWER(metric_X, metric_Y)
@@ -487,8 +486,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch_X* | Een metrisch die u met *metrisch_Y* zou willen correleren. |
-| *metrisch_Y* | Een metrisch die u met *metrisch_X* zou willen correleren. |
+| *metrisch_X* | Metrisch die u met *metrisch_Y* zou willen correleren. |
+| *metrisch_Y* | Metrisch die u met *metrisch_X* zou willen correleren. |
 
 ## Stroomregressie: Intercept (tabel) {#concept_7781C85597D64D578E19B212BDD1764F}
 
@@ -505,7 +504,7 @@ Retourneert de onderschepping, *b*, tussen twee metrische kolommen (*metrisch_X*
 
 ## Stroomregressie: Voorspeld Y (rij) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-Berekent de voorspelde [!DNL y] waarden ( [!DNL metric_Y]), op basis van de bekende [!DNL x] waarden ( [!DNL metric_X]) met behulp van de methode &quot;kleinste vierkantjes&quot; voor het berekenen van de regel die het best geschikt is voor [!DNL Y = b*X].
+Berekent de voorspelde [!DNL y] waarden ( [!DNL metric_Y]), gegeven de bekende [!DNL x] waarden ( [!DNL metric_X]) gebruikend de &quot;minste vierkanten&quot;methode voor het berekenen van de lijn van best geschikt voor [!DNL Y = b*X].
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -518,7 +517,7 @@ Berekent de voorspelde [!DNL y] waarden ( [!DNL metric_Y]), op basis van de beke
 
 ## Stroomregressie: Helling (tabel) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
-Retourneert de helling, *a*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y = b*X].
+Retourneert de helling, *a*, tussen twee metrische kolommen (*metrische_X* en *metrische_Y*) voor [!DNL Y = b*X].
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
@@ -531,7 +530,7 @@ SLOPE.POWER(metric_X, metric_Y)
 
 ## Quadratische regressie: Correlatiecoëfficiënt (tabel) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
-Retourneert de correlatiecoëfficiënt, *r*, tussen twee metrische kolommen (*metrische_X* en *metrische_Y*) voor [!DNL Y=(a*X+b)]****.
+Retourneert de correlatiecoëfficiënt, *r*, tussen twee metrische kolommen (*metrische_X* en *metrische_Y*) voor [!DNL Y=(a*X+b)]***.
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
@@ -539,12 +538,12 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch_X* | Een metrisch die u met *metrisch_Y* zou willen correleren. |
-| *metrisch_Y* | Een metrisch die u met *metrisch_X* zou willen correleren. |
+| *metrisch_X* | Metrisch die u met *metrisch_Y* zou willen correleren. |
+| *metrisch_Y* | Metrisch die u met *metrisch_X* zou willen correleren. |
 
 ## Quadratische regressie: Intercept (tabel) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
-Retourneert de onderschepping, *b*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y=(a*X+b)]****.
+Retourneert de onderschepping, *b*, tussen twee metrische kolommen (*metrische_X* en *metrische_Y*) voor [!DNL Y=(a*X+b)]****.
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
@@ -557,7 +556,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 ## Quadratische regressie: Voorspeld Y (rij) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
-Berekent de voorspelde [!DNL y] waarden (metrisch_Y), op basis van de bekende [!DNL x] waarden (metrisch_X) met behulp van de kleinste-kwadratenmethode voor het berekenen van de best fit met behulp van [!DNL Y=(a*X+b)]***.
+Berekent de voorspelde [!DNL y] waarden (metrisch_Y), gegeven de bekende [!DNL x] waarden (metrisch_X) gebruikend de minste vierkantsmethode voor het berekenen van de lijn van best fit gebruikend [!DNL Y=(a*X+b)]***.
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
@@ -570,7 +569,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 ## Quadratische regressie: Helling (tabel) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
-Retourneert de helling, *a*, tussen twee metrische kolommen (*metrisch_X* en metrisch_Y) voor [!DNL Y=(a*X+b)]***.
+Retourneert de helling, *a*, tussen twee metrische kolommen (*metrische_X* en metrische_Y) voor [!DNL Y=(a*X+b)]***.
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
@@ -591,8 +590,8 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch_X* | Een metrisch die u met *metrisch_Y* zou willen correleren. |
-| *metrisch_Y* | Een metrisch die u met *metrisch_X* zou willen correleren. |
+| *metrisch_X* | Metrisch die u met *metrisch_Y* zou willen correleren. |
+| *metrisch_Y* | Metrisch die u met *metrisch_X* zou willen correleren. |
 
 ## Wederkerige regressie: Intercept (tabel) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
@@ -609,7 +608,7 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 ## Wederkerige regressie: Voorspeld Y (rij) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
-Berekent de voorspelde [!DNL y] waarden (metrisch_Y), gezien de bekende [!DNL x] waarden (metrisch_X) gebruikend de minste vierkantsmethode voor het berekenen van de lijn van best past het gebruiken [!DNL Y = a/X+b].
+Berekent de voorspelde [!DNL y] waarden (metrisch_Y), gegeven de bekende [!DNL x] waarden (metrisch_X) gebruikend de minste vierkantsmethode voor het berekenen van de lijn van best past gebruikend [!DNL Y = a/X+b].
 
 ```
 ESTIMATE.RECIPROCAL(metric_X, metric_Y)
@@ -622,7 +621,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 ## Wederkerige regressie: Helling (tabel) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
-Retourneert de helling, *a*, tussen twee metrische kolommen (*metrisch_X* en *metrisch_Y*) voor [!DNL Y = a/X+b].
+Retourneert de helling, *a*, tussen twee metrische kolommen (*metrische_X* en *metrische_Y*) voor [!DNL Y = a/X+b].
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
@@ -653,9 +652,9 @@ Alias voor Z-score, d.w.z. de afwijking van het gemiddelde gedeeld door de stand
 
 Voert een t-test uit met t-score van col en n vrijheidsgraden.
 
-De handtekening is `t_test( x, n, m )`. Ondertussen roept het gewoon `m*cdf_t(-abs(x),n)`. (Dit is vergelijkbaar met de functie z-test die wordt uitgevoerd `m*cdf_z(-abs(x))`.
+De handtekening is `t_test( x, n, m )`. Onder, roept het eenvoudig `m*cdf_t(-abs(x),n)`. (Dit is gelijkaardig aan de z-testfunctie die `m*cdf_z(-abs(x))` in werking stelt.
 
-Hier `m` is het aantal staarten, en `n` is de vrijheidsgraad. Dit moeten getallen zijn (constant voor het gehele rapport, d.w.z. niet op rij-voor-rij-basis).
+Hier, `m` is het aantal staarten, en `n` is de graden van vrijheid. Dit moeten getallen zijn (constant voor het gehele rapport, d.w.z. niet op rij-voor-rij-basis).
 
 `X` is de t-test statistiek en zou vaak een formule (bv. zscore) zijn die op metrisch wordt gebaseerd en op elke rij wordt geëvalueerd.
 
@@ -669,7 +668,7 @@ De geretourneerde waarde is de waarschijnlijkheid dat de teststatistiek x gezien
    t_test( zscore(bouncerate), row-count-1, 2)
    ```
 
-1. Combineer het met `if` om zeer hoge of lage stuiterende tarieven te negeren, en de bezoeken van de telling op al het andere te tellen:
+1. Combineer het met `if` om zeer hoge of lage stuiterende tarieven te negeren, en bezoek op al het andere te tellen:
 
    ```
    if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
@@ -695,11 +694,11 @@ De vergelijking voor Z-score is:
 
 ![](assets/z_score.png)
 
-waar [!DNL x] de onbewerkte score is, [!DNL μ] is het gemiddelde van de populatie en [!DNL σ] is de standaardafwijking van de populatie.
+waarbij [!DNL x] de onbewerkte score is, [!DNL μ] het gemiddelde van de populatie is en [!DNL σ] de standaardafwijking van de populatie.
 
 >[!NOTE]
 >
->[!DNL μ] (mu) en (sigma[!DNL σ] ) worden automatisch berekend op basis van de meting.
+>[!DNL μ] (mu) en[!DNL σ]  (sigma) worden automatisch berekend op basis van de meting.
 
 Z-score (metrisch)
 
@@ -727,4 +726,3 @@ Retourneert de waarschijnlijkheid dat de huidige rij toevallig in de kolom kan w
 >[!NOTE]
 >
 >gaat ervan uit dat de waarden normaal worden verdeeld.
-
