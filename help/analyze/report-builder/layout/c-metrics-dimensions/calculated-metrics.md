@@ -3,14 +3,13 @@ description: 'Report Builder 5.2 steunt Adobe Analytics Verenigde Berekende Metr
 title: Berekende standaarden
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 15%
+source-wordcount: '359'
+ht-degree: 13%
 
 ---
-
 
 # Berekende standaarden
 
@@ -20,7 +19,7 @@ Report Builder 5.2 steunt Adobe Analytics Verenigde Berekende Metriek. Naast and
 >
 >De bestaande werkboeken zouden aan verzoeken met erfenis metrische IDs kunnen richten. Wanneer u Report Builder 5.2 gebruikt, zullen deze oudere metrische IDs in nieuwe globale identiteitskaart worden omgezet. Als u dit werkboek met een gebruiker van Report Builder v5.1 of vroeger deelt, zal die gebruiker niet de berekende metriek kunnen zien.
 
-Meer over om berekende metriek met de nieuwe Berekende Metrische Bouwer en Manager tot stand te brengen en te beheren, verwijs naar [Berekende Metriek](https://docs.adobe.com/content/help/nl-NL/analytics/components/calculated-metrics/cm-overview.html) Gids.
+Meer over om berekende metriek met de nieuwe Berekende Metrische Bouwer en Manager tot stand te brengen en te beheren, verwijs naar [Berekende Metriek](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) Gids.
 
 In Stap 2 van de Tovenaar van het Verzoek, kunt u berekende metriek filtreren en toepassen.
 
@@ -49,4 +48,3 @@ Beschikbare filters zijn:
 Nadat u de filters hebt geselecteerd, klik **[!UICONTROL Apply]** om hen op uw verzoek toe te passen. De geselecteerde metrische(n) worden nu toegevoegd aan de rapportlay-out.
 
 ![](assets/filtering_for_metric.png)
-
