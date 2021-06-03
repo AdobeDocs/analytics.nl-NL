@@ -1,26 +1,25 @@
 ---
 title: XDM-gegevens handmatig toewijzen aan Analyse
-description: 'XDM-gegevens handmatig toewijzen van Experience Platform aan Adobe Analytics '
-translation-type: tm+mt
-source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+description: XDM-gegevens handmatig toewijzen van Experience Platform aan Adobe Analytics
+exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
-
 # XDM-gegevens handmatig toewijzen aan Analyse
 
-De SDK van het Web van het Platform van de Ervaring van Adobe (AEP) omvat hulpmiddelen om u te helpen gegevens tussen het Platform en Analytics manueel in kaart brengen.
+De SDK van het Web van Adobe Experience Platform (AEP) bevat hulpmiddelen om u te helpen gegevens tussen het Platform en Analytics manueel in kaart te brengen.
 
-Voor XDM-gegevens die niet automatisch worden toegewezen aan Analytics, kunt u [contextgegevens](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) toevoegen die overeenkomen met uw [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html). Vervolgens kan het door de [verwerkingsregels](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) van Analytics worden gebruikt om analytische variabelen te vullen.
+Voor XDM-gegevens die niet automatisch aan Analytics worden toegewezen, kunt u [contextgegevens](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) toevoegen om uw [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) aan te passen. Dan kan het door Analytics [verwerkingsregels](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) worden gebruikt om de variabelen van de Analyse te bevolken.
 
-Ook, kunt u een standaardreeks acties en productlijsten gebruiken om gegevens met het Web SDK van AEP te verzenden of terug te winnen. Zie [Producten](https://docs.adobe.com/content/help/en/experience-platform/edge/implement/commerce.html)om dit te doen.
+Ook, kunt u een standaardreeks acties en productlijsten gebruiken om gegevens met het Web SDK van AEP te verzenden of terug te winnen. Zie [Producten](https://experienceleague.adobe.com/docs/experience-platform/edge/implement/commerce.html) om dit te doen.
 
 ## Contextgegevens
 
-Voor gebruik door Analytics worden XDM-gegevens afgevlakt met puntnotatie en beschikbaar gemaakt als `contextData`. In de volgende lijst met waardeparen ziet u een voorbeeld van `context data`:
+Te gebruiken door Analytics, worden de gegevens XDM afgevlakt gebruikend puntnotatie en ter beschikking gesteld als `contextData`. In de volgende lijst met waardeparen ziet u een voorbeeld van `context data`:
 
 ```javascript
 {
@@ -47,18 +46,18 @@ Voor gebruik door Analytics worden XDM-gegevens afgevlakt met puntnotatie en bes
 
 ## Verwerkingsregels
 
-Alle gegevens die door het randnetwerk worden verzameld, zijn toegankelijk via [verwerkingsregels](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html). In Analytics, kunt u verwerkingsregels gebruiken om contextgegevens in de variabelen van de Analyse op te nemen.
+Alle gegevens die door het randnetwerk worden verzameld, zijn toegankelijk via [verwerkingsregels](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html). In Analytics, kunt u verwerkingsregels gebruiken om contextgegevens in de variabelen van de Analyse op te nemen.
 
-In de volgende regel is Analytics bijvoorbeeld ingesteld op het vullen van **interne zoektermen (eVar2)** met de gegevens die zijn gekoppeld aan **a.x_atag.search.term(Context Data)**.
+In de volgende regel is Analytics bijvoorbeeld ingesteld op het vullen van **Interne zoektermen (eVar2)** met de gegevens die zijn gekoppeld aan **a.x_atag.search.term(Context Data)**.
 
 ![](assets/examplerule.png)
 
 
 ## XDM-schema
 
-Het Platform van de ervaring gebruikt schema&#39;s om de structuur van gegevens op een verenigbare en herbruikbare manier te beschrijven. Door gegevens consistent in verschillende systemen te definiëren, wordt het eenvoudiger om betekenis te behouden en zo waarde te verkrijgen van gegevens. De de contextgegevens van Analytics werken met de structuur die door schema wordt bepaald.
+Het Experience Platform gebruikt schema&#39;s om de structuur van gegevens op een verenigbare en herbruikbare manier te beschrijven. Door gegevens consistent in verschillende systemen te definiëren, wordt het eenvoudiger om betekenis te behouden en zo waarde te verkrijgen van gegevens. De de contextgegevens van Analytics werken met de structuur die door schema wordt bepaald.
 
-Het volgende voorbeeld toont hoe het [`event` bevel](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html) met de `xdm` optie kan worden gebruikt om gegevens met het Web SDK van AEP te verzenden en terug te winnen. In dit voorbeeld, past het `event` bevel het Schema [van de Details van de Handel van](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md) ExperienceEvent aan zodat productListItems `name` en de `SKU` waarden worden gevolgd:
+In het volgende voorbeeld wordt getoond hoe de opdracht [`event`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) kan worden gebruikt met de optie `xdm` om gegevens te verzenden en op te halen met de AEP Web SDK. In dit voorbeeld komt de opdracht `event` overeen met het [ExperienceEvent Commerce Details Schema](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md), zodat de waarden productListItems `name` en `SKU` worden bijgehouden:
 
 
 ```
@@ -83,4 +82,4 @@ alloy("event",{
 });
 ```
 
-Voor meer informatie bij het volgen van gebeurtenissen met het Web SDK van AEP, zie het [Volgen gebeurtenissen](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html).
+Zie [Gebeurtenissen bijhouden](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) voor meer informatie over het bijhouden van gebeurtenissen met de AEP Web SDK.
