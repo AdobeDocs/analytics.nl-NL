@@ -1,16 +1,15 @@
 ---
 title: Wat is Cohort Analyse en hoe werkt het?
 description: Dig dieper in de gegevens rond uw publiek en onderbreek in verwante groepen met de Analyse van de Cohort. Meer informatie over cohortanalyse in Analysis Workspace.
-feature: Visualizations
+feature: Visualisaties
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
-
 
 # Meer informatie over [!UICONTROL Cohort Analysis] in Adobe Analytics
 
@@ -28,7 +27,7 @@ Voorbeelden van wat u kunt doen met [!UICONTROL Cohort Analysis]:
 
 [!UICONTROL Cohort Analysis] is beschikbaar voor alle Adobe Analytics-klanten met toegangsrechten tot  [!UICONTROL Analysis Workspace].
 
-[Videozelfstudie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)  Cohortinganalyse (4:36)
+[Videozelfstudie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)  Cohortinganalyse (4:36)
 
 >[!IMPORTANT]
 >
@@ -72,4 +71,3 @@ Maak cohorten op basis van een geselecteerde afmeting en niet op basis van een t
 ![](assets/cohort-customizable-cohort-row.png)
 
 Voor instructies op hoe te opstelling en een cohortrapport in werking te stellen, ga naar [vorm een rapport van de Analyse van de Cohort](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
-
