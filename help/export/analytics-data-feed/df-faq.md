@@ -3,9 +3,9 @@ description: Veelgestelde vragen over gegevensfeeds
 keywords: Gegevensfeed;taak;vóór kolom;na kolom;hoofdlettergevoeligheid
 title: Veelgestelde vragen over gegevensfeeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
+source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Veelgestelde vragen over gegevensfeeds.
 
 ## Moeten voedernamen uniek zijn?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
-Namen van gegevensdoorvoerbestanden bestaan uit de rapportsuite-id en de datum. Om het even welke twee voer die voor zelfde RSID en datum(s) worden gevormd zal het zelfde dossier - naam hebben. Als deze feeds op dezelfde locatie worden geleverd, overschrijft het ene bestand het andere. Om te voorkomen dat een bestand wordt overschreven, kunt u geen feed maken die een bestaande feed op dezelfde locatie kan overschrijven.
+Namen van gegevensdoorvoerbestanden bestaan uit de rapportsuite-id en de datum. Om het even welke twee voer die voor zelfde RSID en datum(s) worden gevormd heeft de zelfde dossiernaam. Als deze feeds op dezelfde locatie worden geleverd, overschrijft het ene bestand het andere. Om te voorkomen dat een bestand wordt overschreven, kunt u geen feed maken die een bestaande feed op dezelfde locatie kan overschrijven.
 
 Wanneer u een feed probeert te maken terwijl een andere feed met dezelfde bestandsnaam bestaat, wordt het volgende bericht weergegeven:
 
@@ -28,7 +28,7 @@ Als deze fout optreedt, moet u rekening houden met de volgende tijdelijke oorzak
 
 ## Wanneer worden gegevens verwerkt? {#section_6346328F8D8848A7B81474229481D404}
 
-Vóór de verwerking van uur of daggegevens, wacht de gegevensvoer tot alle klappen die gegevensinzameling binnen het tijdsbestek (dag of uur) zijn ingegaan uit zijn geschreven aan gegevenspakhuis. Daarna, verzamelt de gegevensvoer de gegevens met timestamps die binnen het tijdskader vallen, het comprimeert, en verzendt het via FTP. Voor uurvoer worden de dossiers typisch geschreven aan gegevenspakhuis binnen 15-30 min na het uur, maar er is geen vastgestelde tijdspanne. Als er geen gegevens zijn met tijdstempels die binnen de tijdlijn vallen, probeert het proces het volgende tijdkader opnieuw. Het huidige gegevensvoederproces gebruikt `date_time` gebied om te bepalen welke treffers tot het uur behoren. Dit gebied is gebaseerd op de tijdzone van de rapportreeks.
+Vóór de verwerking van uur of daggegevens, wacht de gegevensvoer tot alle klappen die gegevensinzameling binnen het tijdsbestek (dag of uur) zijn ingegaan uit zijn geschreven aan gegevenspakhuis. Daarna, verzamelen de gegevensvoer de gegevens met tijdstempels die binnen het tijdskader vallen, het comprimeert, en verzendt het via FTP. Voor uurvoer worden de dossiers typisch geschreven aan gegevenspakhuis binnen 15-30 min na het uur, maar er is geen vastgestelde tijdspanne. Als er geen gegevens zijn met tijdstempels die binnen de tijdlijn vallen, probeert het proces het volgende tijdkader opnieuw. Het huidige gegevensvoederproces gebruikt `date_time` gebied om te bepalen welke treffers tot het uur behoren. Dit gebied is gebaseerd op de tijdzone van de rapportreeks.
 
 ## Wat is het verschil tussen kolommen met een `post_` prefix en kolommen zonder een `post_` prefix?
 
@@ -60,7 +60,7 @@ Sommige mobiele dragers (zoals T-Mobile en O1) verstrekken geen domeininfo voor 
 
 Voor gegevens die ouder zijn dan 7 dagen, worden de &quot;Uur&quot;dossiers van een dag gecombineerd in één enkel &quot;Dagelijks&quot;dossier.
 
-Voorbeeld: Op 9 maart 2021 wordt een nieuwe gegevensfeed gemaakt en de gegevens van 1 januari 2021 tot en met 9 maart worden als &quot;Uur&quot; geleverd. De &quot;Uurly&quot;-bestanden van vóór 2 maart 2021 worden echter gecombineerd tot één &quot;Dagelijks&quot;-bestand. U kunt alleen &#39;Uurly&#39;-bestanden extraheren uit gegevens die jonger zijn dan 7 dagen na de aanmaakdatum. In dit geval, van 2 maart tot en met 9 maart.
+Voorbeeld: Op 9 maart 2021 wordt een nieuwe gegevensfeed gemaakt en de gegevens van 1 januari 2021 tot en met 9 maart worden als &quot;Uur&quot; geleverd. De &quot;Uurly&quot;-bestanden vóór 2 maart 2021 worden echter gecombineerd tot één &quot;Dagelijks&quot; bestand. U kunt alleen &#39;Uurly&#39;-bestanden extraheren uit gegevens die jonger zijn dan 7 dagen na de aanmaakdatum. In dit geval, van 2 maart tot en met 9 maart.
 
 ## Wat is de impact van de zomertijd op de uurgegevens? {#section_70E867D942054DD09048E027A9474FFD}
 
@@ -72,7 +72,7 @@ Bij het maken van DST -> STD-overgangen (&quot;Terugvallen&quot;) krijgt de klan
 
 ## Hoe behandelt Analytics de mislukte FTP-overdracht? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
-Als een FTP-overdrachtfout optreedt (aanmelden geweigerd, verbinding verbroken, quota overschreden, enz.), probeert Adobe automatisch verbinding te maken en de gegevens maximaal drie keer te verzenden. Als de fouten aanhouden, wordt de feed gemarkeerd als mislukt en wordt een e-mailmelding verzonden.
+Als een FTP-overdracht mislukt (als gevolg van een afgewezen aanmelding, een verbroken verbinding, een quotafout of een andere uitgave), probeert Adobe automatisch verbinding te maken en de gegevens maximaal drie keer te verzenden. Als de fouten aanhouden, wordt de feed gemarkeerd als mislukt en wordt een e-mailmelding verzonden.
 
 Als een overdracht mislukt, kunt u een taak opnieuw uitvoeren totdat deze is gelukt.
 
@@ -82,13 +82,19 @@ Zie [Taken oplossen](jobs-troubleshooting.md) als er problemen zijn met het weer
 
 Nadat u het leveringsprobleem hebt geverifieerd/gecorrigeerd, voert u de taak opnieuw uit om de bestanden op te halen.
 
-## Wat is de instelling BucketOwnerFullControl voor Amazon S3-gegevensfeeds? {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## Wat is de instelling BucketOwnerFullControl voor Amazon S3-gegevensfeeds? {#BucketOwnerFullControl}
 
-Het gemeenschappelijke gebruiksgeval voor Amazon S3 is dat de de rekeningseigenaar van het Web van Amazon van de Diensten (AWS) een emmertje creeert, dan tot een gebruiker leidt die toestemming heeft om voorwerpen in dat emmertje tot stand te brengen, en dan geloofsbrieven voor die gebruiker verstrekt. In dit geval behoren de objecten van een gebruiker tot dezelfde account en heeft de rekeninghouder impliciet volledige controle over het object (lezen, verwijderen, enz.). Dit proces is vergelijkbaar met de manier waarop FTP-levering werkt.
+**** BucketOwnerFullController biedt cross-account rechten om objecten in andere emmers te maken.
 
-Met AWS kan een gebruiker ook objecten in een emmertje maken die bij een andere gebruikersaccount horen. Bijvoorbeeld, als twee gebruikers AWS, gebruikerA en userB, niet tot de zelfde rekening behoren AWS maar voorwerpen in andere emmers willen tot stand brengen. Als userA tot een emmer leidt, zeg bucketA, kan hij of zij een emmerbeleid tot stand brengen dat uitdrukkelijk userB toestaat om voorwerpen in bucketA tot stand te brengen alhoewel de gebruiker niet het emmertje bezit. Dit beleid kan voordelig zijn omdat het niet die userA en userB vereist om geloofsbrieven uit te wisselen. In plaats daarvan, verstrekt userB userA met hun rekeningsaantal, en userA leidt tot een emmerbeleid dat hoofdzakelijk zegt &quot;laat userB voorwerpen in bucketA tot stand brengen&quot;.
+Het gemeenschappelijke gebruiksgeval voor Amazon S3 is dat de de rekeningseigenaar van het Web van Amazon van de Diensten (AWS) een emmertje creeert, dan tot een gebruiker leidt die toestemming heeft om voorwerpen in dat emmertje tot stand te brengen, en dan geloofsbrieven voor die gebruiker verstrekt. In dit geval behoren de objecten van een gebruiker tot dezelfde account en heeft de rekeninghouder impliciet volledige controle over het object (lezen, verwijderen, enzovoort). Dit proces is vergelijkbaar met de manier waarop FTP-levering werkt.
 
-**** BucketOwnerFullController biedt cross-account rechten om objecten in andere emmers te maken. Als userB een voorwerp aan de emmer van userA uploadt, nog bezit userB dat voorwerp, en, door gebrek, wordt userA geen toestemmingen verleend aan dat voorwerp alhoewel userA het emmertje bezit. Dit komt doordat objecten geen machtigingen van het bovenliggende emmertje overnemen. UserB moet userA toestemmingen uitdrukkelijk verlenen omdat userB nog de eigenaar van objecten is. Om deze toestemming te verlenen, moet userB het voorwerp met een BucketOwnerFullControl ACL uploaden, die specificeert dat de bucket eigenaar (userA) volledige toestemmingen aan het voorwerp (lezen, schrijven, schrappen, enz.) wordt verleend, alhoewel het voorwerp &quot;bezeten&quot;door userB is.
+Met AWS kan een gebruiker ook objecten in een emmertje maken die bij een andere gebruikersaccount horen. Bijvoorbeeld, zeg twee gebruikers AWS, gebruikerA en userB, niet tot de zelfde rekening behoren AWS maar voorwerpen in andere emmers willen tot stand brengen. Als userA tot een emmer genoemd &quot;bucketA leidt,&quot;kunnen zij een emmerbeleid tot stand brengen dat uitdrukkelijk userB toestaat om voorwerpen in bucketA tot stand te brengen alhoewel de gebruiker niet het emmertje bezit. Dit beleid kan voordelig zijn omdat het userA en userB niet vereist om geloofsbrieven uit te wisselen. In plaats daarvan, verstrekt userB userA met hun rekeningsaantal, en userA leidt tot een emmerbeleid dat hoofdzakelijk zegt &quot;laat userB voorwerpen in bucketA tot stand brengen&quot;.
+
+Objecten nemen echter geen rechten over van het bovenliggende emmertje. Daarom als userB een voorwerp aan de emmer van userA uploadt, bezit userB nog steeds dat voorwerp, en, door gebrek, wordt userA geen toestemmingen verleend aan dat voorwerp alhoewel userA het emmertje bezit. UserB moet userA toestemmingen uitdrukkelijk verlenen omdat userB nog de eigenaar van objecten is. Om deze toestemming te verlenen, moet userB het voorwerp met een BucketOwnerFullControl ACL uploaden, die specificeert dat de bucket eigenaar (userA) volledige toestemmingen aan het voorwerp (lezen, schrijven, schrappen, etc.) wordt verleend, alhoewel het voorwerp &quot;bezeten&quot;door userB is.
+
+>[!NOTE]
+>
+>[!DNL Analytics] bepaalt niet als het emmertje een beleid heeft dat het geven van de emmereigenaar volledige controle van nieuwe voorwerpen vereist, of zelfs als de emmereigenaar in een verschillende rekening is dan de gebruiker die de gegevens schrijft. In plaats daarvan, [!DNL Analytics] voegt automatisch de emmereigenaar aan BucketOwnerFullControl ACL met elke voer toe uploadt.
 
 >[!MORELIKETHIS]
 >
