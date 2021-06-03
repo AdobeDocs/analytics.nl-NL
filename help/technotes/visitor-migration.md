@@ -5,11 +5,10 @@ title: Migratie van bezoekers
 topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 2%
+source-wordcount: '441'
+ht-degree: 1%
 
 ---
 
@@ -21,15 +20,15 @@ Met de migratie van bezoekers kunt u de identificatie-cookies van bezoekers beho
 
 * Overstappen van `2o7.net` naar `adobedc.net`.
 
-* U implementeert de [Experience Cloud Bezoeker ID Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) en gaat van een CNAME/first-party gegevensverzamelingsdomein naar `adobedc.net`, `2o7.net` of `omtrdc.net`
+* U implementeert de [Experience Cloud Bezoeker ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) en gaat van een CNAME/first-party gegevensverzamelingsdomein naar `adobedc.net`, `2o7.net` of `omtrdc.net`
 
-* Het bewegen naar een naam/de inzameling van de eerste-partijgegevens ( [Eerste-partijCookies)](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html).
+* Het bewegen naar een naam/de inzameling van de eerste-partijgegevens ( [Eerste-partijCookies)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Het bewegen van één CNAME aan een andere (veranderende domeinen).
 
 Nadat de bezoekersmigratie wordt gevormd, wanneer een gebruiker het nieuwe domein zonder een koekje van bezoekersidentiteitskaart bezoekt, leidt de server aan de vorige gegevensinzameling hostname opnieuw, wint om het even welke beschikbare koekjes van bezoekersidentiteitskaart terug, en richt dan terug naar het nieuwe domein. Als een bezoeker-id niet wordt gevonden op de vorige hostnaam, wordt een nieuwe id gegenereerd. Dit gebeurt slechts eenmaal per bezoeker.
 
-## Migratieproces van bezoeker {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## Migratieproces van bezoekers {#section_FF0C5C5CAEF343FFA1892B29311F7160}
 
 In de volgende tabel worden de taken weergegeven die zijn vereist voor bezoekersmigratie:
 
