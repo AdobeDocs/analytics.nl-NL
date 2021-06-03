@@ -5,10 +5,10 @@ title: User en Product Management
 feature: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 5%
+source-wordcount: '550'
+ht-degree: 3%
 
 ---
 
@@ -32,11 +32,11 @@ Gebruikers, groepen en producten van Analytics in de Admin Console beheren.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gebruikers-id's voor Analyse migreren naar de Admin Console </p> </td> 
-   <td colname="col2"> <p> Adobe helpt analysebeheerders om gebruikers-id's te migreren naar de Adobe Admin Console. Deze inspanning zal in golven voorkomen. Wanneer het uw beurt is om uw gebruikers te migreren, zal Adobe Analysebeheerders via e-mail met instructies op de hoogte brengen. Op dat moment is een <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> migratiehulpmiddel</a> beschikbaar in Analytics User Management om deze taak te vereenvoudigen. </p> <p>Belangrijk: Op de dag van de migratie van uw gebruikers, worden uw vroegere toestemmingsgroepen automatisch gekopieerd aan de Admin Console. U kunt geen nieuwe gebruikers meer uitnodigen of nieuwe groepen maken in Analytics Admin Tools. Bekijk de veelgestelde vragen en help in <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> Analytics User Migration to the Admin Console</a> voor informatie over hoe u zich op de migratie kunt voorbereiden en over de beheerfuncties die worden beïnvloed. </p> </td> 
+   <td colname="col2"> <p> Adobe helpt analysebeheerders om gebruikers-id's te migreren naar de Adobe Admin Console. Deze inspanning zal in golven voorkomen. Wanneer het uw beurt is om uw gebruikers te migreren, zal Adobe Analysebeheerders via e-mail met instructies op de hoogte brengen. Op dat moment is een <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> migratiehulpmiddel</a> beschikbaar in Analytics User Management om deze taak te vereenvoudigen. </p> <p>Belangrijk: Op de dag van de migratie van uw gebruikers, worden uw vroegere toestemmingsgroepen automatisch gekopieerd aan de Admin Console. U kunt geen nieuwe gebruikers meer uitnodigen of nieuwe groepen maken in Analytics Admin Tools. Bekijk de veelgestelde vragen en help in <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> Analytics User Migration to the Admin Console</a> voor informatie over hoe u zich op de migratie kunt voorbereiden en over de beheerfuncties die worden beïnvloed. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>De Admin Console starten </p> </td> 
-   <td colname="col2"> <p>Nadat uw gebruikersrekeningen worden gemigreerd, kunt u gebruikers en producten over alle oplossingen in de Admin Console beheren </p> <p>Navigeren naar: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Zie <a href="https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/admin-getting-started.html"> Gebruikers en producten van Experience Cloud beheren</a> voor updates voor gebruikers- en productbeheer van Experience Cloud in de Admin Console. </p> </td> 
+   <td colname="col2"> <p>Nadat uw gebruikersrekeningen worden gemigreerd, kunt u gebruikers en producten over alle oplossingen in de Admin Console beheren </p> <p>Navigeren naar: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html"> Gebruikers en producten van Experience Cloud beheren</a> voor updates voor gebruikers- en productbeheer van Experience Cloud in de Admin Console. </p> </td> 
   </tr> 
  </tbody> 
 </table>
