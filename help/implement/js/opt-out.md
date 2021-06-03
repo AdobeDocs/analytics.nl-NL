@@ -1,20 +1,19 @@
 ---
 title: Koppelingen uitschakelen
 description: Leer hoe u de optie om te weigeren koppelingen maakt voor bezoekers van uw site.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '576'
 ht-degree: 1%
 
 ---
-
 
 # Opt-outkoppelingen implementeren
 
 >[!IMPORTANT]
 >
->Adobe beveelt aan de opt-in-dienst te gebruiken, met name voor organisaties die zich bezighouden met de GDPR-regelgeving. Zie [Inschakelen-service overzicht](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) in de gebruikershandleiding van de Experience Cloud Identity Service.
+>Adobe beveelt aan de opt-in-dienst te gebruiken, met name voor organisaties die zich bezighouden met de GDPR-regelgeving. Zie [Inschakelen-serviceoverzicht](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) in de gebruikershandleiding voor de Experience Cloud-identiteitsservice.
 
 Sommige bezoekers van uw website hebben liever geen informatie over het bladeren in uw gegevensset. Adobe biedt bezoekers van uw website de mogelijkheid om te weigeren dat hun gegevens worden verzameld. Aan alle implementatietypen wordt tegemoetgekomen; uw organisatie is verantwoordelijk voor uw eigen privacybeleid en voor het naleven van uw ondertekende voorwaarden.
 
@@ -26,21 +25,21 @@ Wanneer een bezoeker een opt-out-URL bereikt, wordt hem gevraagd een uitschakelc
 
 ## URL uitschakelen
 
-De pagina om te weigeren voor uw organisatie is afhankelijk van de waarde van de [`trackingServer`](../vars/config-vars/trackingserver.md) variabele in uw implementatie.
+De pagina om te weigeren voor uw organisatie is afhankelijk van de variabele [`trackingServer`](../vars/config-vars/trackingserver.md) waarde in uw implementatie.
 
 * In Adobe Experience Platform Launch:
    1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) en klik op de gewenste eigenschap.
-   2. Klik op het [!UICONTROL Extensions] tabblad en klik vervolgens [!UICONTROL Configure] onder Adobe Analytics.
-   3. Klik op de [!UICONTROL General] accordeon en noteer de [!UICONTROL Tracking Server] waarde.
+   2. Klik op de tab [!UICONTROL Extensions] en klik vervolgens onder Adobe Analytics op [!UICONTROL Configure].
+   3. Klik op de accordeon [!UICONTROL General] en noteer de waarde [!UICONTROL Tracking Server].
 
 * In een JavaScript-implementatie:
    1. Open op uw webserver het bestand AppMeasurement.js dat op uw site wordt gebruikt, in een code- of teksteditor.
-   2. Noteer de waarde van de `trackingServer` variabele.
+   2. Noteer de waarde van de variabele `trackingServer`.
 
-* De [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)gebruiken:
+* Met de [Adobe Experience Cloud-foutopsporing](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html):
    1. Navigeer naar uw site met de Chrome-browser.
-   2. Open de Experience Cloud Debugger en ga naar de [!UICONTROL Network tab].
-   3. Noteer de [!UICONTROL Request URL - Hostname] waarde.
+   2. Open de Experience Cloud Debugger en ga naar [!UICONTROL Network tab].
+   3. Noteer de waarde [!UICONTROL Request URL - Hostname].
 
 Zodra u het `trackingServer` domein van uw implementatie hebt gevonden, voeg de weg `/optout.html` aan het eind toe. Bijvoorbeeld:
 
@@ -53,7 +52,7 @@ Er zijn instellingen die u automatisch op deze pagina kunt laden met querytekenr
 
 ### Landinstelling
 
-Schakel automatisch de taal van de opt-out-pagina uit door de parameter voor de `locale` queryreeks op te nemen. Wijs deze parameter van het vraagkoord één van de volgende waarden toe:
+Schakel automatisch de taal van de opt-out pagina door de `locale` parameter van het vraagkoord te omvatten. Wijs deze parameter van het vraagkoord één van de volgende waarden toe:
 
 * nl_NL (Engels, standaard)
 * bg_BG (Bulgaars)
@@ -78,17 +77,17 @@ Schakel automatisch de taal van de opt-out-pagina uit door de parameter voor de 
 * sk_SK (Slowaaks)
 * es_ES (Spaans)
 
-Hiermee wordt bijvoorbeeld de pagina om te weigeren in het Koreaans geladen. `https://example.data.adobedc.net/optout.html?locale=ko_KR`
+`https://example.data.adobedc.net/optout.html?locale=ko_KR` laadt bijvoorbeeld de pagina om te weigeren in het Koreaans.
 
 >[!TIP]
 >
->De waarde van de `en_US` querytekenreeks is niet vereist, omdat de pagina standaard in het Engels wordt geladen.
+>De `en_US` waarde van het vraagkoord wordt niet vereist, aangezien de pagina in het Engels door gebrek laadt.
 
 ### Popup
 
-Hiermee voegt u een knop Venster sluiten aan de pagina toe, zodat de optiepagina een pop-upvenster kan worden. Gebruik de parameter van het `popup` vraagkoord, en geef het een waarde van `1`.
+Hiermee voegt u een knop Venster sluiten aan de pagina toe, zodat de optiepagina een pop-upvenster kan worden. Gebruik de `popup` parameter van het vraagkoord, en geef het een waarde van `1`.
 
-Laadt bijvoorbeeld de pagina met de optie Weigeren met de knop Venster sluiten. `https://example.data.adobedc.net/optout.html?popup=1`
+`https://example.data.adobedc.net/optout.html?popup=1` laadt bijvoorbeeld de pagina om te weigeren met de knop Venster sluiten.
 
 >[!NOTE]
 >
@@ -96,12 +95,12 @@ Laadt bijvoorbeeld de pagina met de optie Weigeren met de knop Venster sluiten. 
 
 ### Weigeren met één klik
 
-Hiermee kan de gebruiker zich direct afmelden voor bijhouden. Voeg de twee parameters van het vraagkoord toe `opt_out` en `confirm_change`, die elk een waarde van geven `1`.
+Hiermee kan de gebruiker zich direct afmelden voor bijhouden. Voeg de twee parameters van het vraagkoord `opt_out` en `confirm_change` toe, die elk een waarde van `1` geven.
 
-Het uitschakelcookie wordt bijvoorbeeld `https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` onmiddellijk op de pagina van de bezoeker geïnstalleerd.
+`https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` installeert bijvoorbeeld onmiddellijk het uitschakelcookie op de pagina van de bezoeker.
 
 ### Aanmelden met één klik
 
-Hiermee kan de gebruiker onmiddellijk terugkeren naar het bijhouden van bestanden door het uitschakelcookie te verwijderen. Voeg de twee parameters van het vraagkoord toe `opt_in` en `confirm_change`, die elk een waarde van geven `1`.
+Hiermee kan de gebruiker onmiddellijk terugkeren naar het bijhouden van bestanden door het uitschakelcookie te verwijderen. Voeg de twee parameters van het vraagkoord `opt_in` en `confirm_change` toe, die elk een waarde van `1` geven.
 
-Hiermee verwijdert u bijvoorbeeld `https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` onmiddellijk het uitschakelcookie voor de bezoeker.
+`https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` verwijdert bijvoorbeeld onmiddellijk het uitschakelcookie voor de bezoeker.
