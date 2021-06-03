@@ -2,14 +2,13 @@
 description: Deze integratie combineert de kracht van een geïntegreerd feedbacksysteem voor het in de handel brengen van e-mail en de gedragsrapportage van Adobe Analytics om krachtige analyses en optimaliseringsmogelijkheden voor uw organisatie te creëren.
 title: optivo® broadmail Data Connector voor Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: fff63047-afa6-420d-9188-ec8ebe407a46
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
-
 
 # optivo® broadmail Data Connector voor Adobe Analytics{#optivo-broadmail-data-connector-for-adobe-analytics}
 
@@ -90,4 +89,4 @@ Deze integratie is beschikbaar voor [!DNL ~Partner~] klanten, nochtans zullen de
 
 Voor deze integratie zijn Adobe Analytics-variabelen vereist om de metriek bij te houden.
 
-Na het identificeren van de Gebeurtenis en eVars om met deze integratie te gebruiken, moeten zij in de Admin Console van Analytics worden toegelaten (zie [Suites van het Rapport](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html) voor instructies).
+Na het identificeren van de Gebeurtenis en eVars om met deze integratie te gebruiken, moeten zij in de Admin Console van Analytics worden toegelaten (zie [Suites van het Rapport](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) voor instructies).
