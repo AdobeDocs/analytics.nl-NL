@@ -2,9 +2,9 @@
 title: Een gegevensfeed maken of bewerken
 description: Leer hoe u een gegevensfeed maakt of bewerkt.
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
+source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '944'
 ht-degree: 1%
 
 ---
@@ -43,9 +43,19 @@ SFTP-ondersteuning voor gegevensfeeds is beschikbaar. Vereist een gastheer SFTP,
 
 ### S3
 
-U kunt feeds rechtstreeks naar Amazon S3-emmers verzenden. Vereist een naam van het Emmertje, een Sleutel identiteitskaart van de Toegang, en een Geheime Sleutel. Zie [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in de Amazon S3 docs voor meer informatie.
+U kunt feeds rechtstreeks naar Amazon S3-emmers verzenden. Dit bestemmingstype vereist een naam van het Emmertje, een Zeer belangrijke identiteitskaart van de Toegang, en een Geheime Sleutel. Zie [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in de Amazon S3 docs voor meer informatie.
 
 ![S3-info](assets/dest-s3.jpg)
+
+De gebruiker die u opgeeft voor het uploaden van gegevensfeeds, moet de volgende [machtigingen](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) hebben:
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+   >[!NOTE]
+   >
+   >Voor elke upload aan een Amazon S3 emmertje, [!DNL Analytics] voegt de emmereigenaar aan BucketOwnerFullControl ACL toe, al dan niet het emmertje een beleid heeft dat het vereist. Zie &quot;[Wat is de instelling BucketOwnerFullControl voor Amazon S3-gegevensfeeds?](df-faq.md#BucketOwnerFullControl)&quot; voor meer informatie
 
 De volgende 16 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het juiste handtekeningalgoritme wordt gebruikt):
 
