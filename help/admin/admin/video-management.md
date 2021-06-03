@@ -4,11 +4,10 @@ title: Videobeheer
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 22%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
 
@@ -18,4 +17,4 @@ U kunt een set aangepaste conversievariabelen (eVars) en aangepaste gebeurteniss
 
 **[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Report Suites]** >  **[!UICONTROL Edit Settings]** >  **[!UICONTROL Video Management]**.
 
-Zie [Video meten in Analytics](https://docs.adobe.com/content/help/nl-NL/media-analytics/using/media-overview.html).
+Zie [Video meten in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
