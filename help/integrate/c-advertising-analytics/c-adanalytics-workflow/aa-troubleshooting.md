@@ -2,21 +2,20 @@
 description: Problemen met Advertising Analytics oplossen en oplossen.
 title: Problemen met Advertising Analytics oplossen
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: 29e39a15-504a-4155-8794-aceb47046a54
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 9%
+source-wordcount: '173'
+ht-degree: 4%
 
 ---
-
 
 # Problemen met Advertising Analytics oplossen
 
 * [Ik zie mijn rapportsuite niet in de sectie Toewijzing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [Er treedt een fout op bij het verifiëren bij Google Adwords-account...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
-## Ik zie mijn Reeks van het Rapport in de sectie van de Afbeelding {#section_9CAACDE6445C492DBAE542BA74DE6316} niet
+## Ik zie mijn rapportsuite niet in de sectie Toewijzing {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
 U probeert [een nieuw Advertising Account in te stellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) en u ziet uw rapportsuite niet in de vervolgkeuzelijst **[!UICONTROL Select Report Suite]**. Hiervoor zijn twee mogelijke redenen:
 
@@ -30,7 +29,7 @@ U probeert [een nieuw Advertising Account in te stellen](/help/integrate/c-adver
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. De rapportsuite wordt niet toegewezen aan de Experience Cloud Org-id van de aanmeldingsgebruiker. </p> </td> 
-   <td colname="col2"> <p>Raadpleeg <a href="https://docs.adobe.com/content/help/nl-NL/core-services/interface/about-core-services/report-suite-mapping.html"  > Kaartrapportsuites aan een organisatie</a> voor instructies. </p> </td> 
+   <td colname="col2"> <p>Raadpleeg <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  > Kaartrapportsuites aan een organisatie</a> voor instructies. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. De rapportsuite is niet ingericht voor Advertising Analytics-rapportage. </p> </td> 
@@ -39,7 +38,7 @@ U probeert [een nieuw Advertising Account in te stellen](/help/integrate/c-adver
  </tbody> 
 </table>
 
-## Er treedt een fout op bij het verifiëren bij Google AdWords-account {#section_C99EA9A1946E4908B36778A331142B84}
+## Er is een fout opgetreden bij het verifiëren bij Google AdWords-account {#section_C99EA9A1946E4908B36778A331142B84}
 
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
@@ -55,4 +54,3 @@ U probeert [een nieuw Advertising Account in te stellen](/help/integrate/c-adver
   </tr> 
  </tbody> 
 </table>
-
