@@ -3,20 +3,19 @@ description: De optie FTP voor classificaties (SAINT) biedt meer flexibiliteit b
 keywords: ftp;sftp
 title: Classificaties
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
-translation-type: tm+mt
-source-git-commit: 7a70a5185b768dbc09deca5c8989693501af0cca
+exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 2%
+source-wordcount: '471'
+ht-degree: 0%
 
 ---
-
 
 # Classificaties
 
 De FTP-optie voor classificaties biedt meer flexibiliteit bij het uploaden van grote sets met classificatiegegevens, zoals de mogelijkheid om gegevens te uploaden naar meerdere rapportsets en gegevenssets te uploaden die groter zijn dan 50.000 rijen.
 
-Zie [classificaties](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) voor informatie over het downloaden van classificatiegegevens via FTP en het uploaden van gegevensbestanden via FTP (inclusief de stappen voor het maken van een FTP-account).
+Zie [classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html) voor informatie over het downloaden van classificatiegegevens via FTP en het uploaden van gegevensbestanden via FTP (inclusief de stappen voor het maken van een FTP-account).
 
 De tijd die het systeem nodig heeft om deze bestanden te importeren, varieert op basis van een aantal factoren. Als een geüpload bestand meer dan drie dagen op de FTP-server aanwezig is, kunt u contact opnemen met de door uw organisatie ondersteunde gebruikers om contact op te nemen met de klantenservice van Adobe.
 
@@ -24,7 +23,7 @@ Wanneer het importeren is gelukt, worden direct de juiste wijzigingen in een exp
 
 Zie [FTP-limieten en gegevensretentie](/help/export/ftp-and-sftp/ftp-limits.md) voor informatie over FTP-limieten en gegevensretentie.
 
-## Informatie over het `.fin`-bestand voor classificaties en gegevensbronnen die worden geüpload {#section_1484719F8A134EAE91212DBD8F15174F}
+## Informatie over het `.fin`-bestand voor geüploade classificaties en gegevensbronnen {#section_1484719F8A134EAE91212DBD8F15174F}
 
 Wanneer u een bestand met een classificatie of gegevensbron (`.tab` of `.txt`) uploadt, moet u voor het uploaden ook een leeg bestand uploaden met dezelfde naam als het gegevensbestand dat wordt geïmporteerd, maar met een .`.fin` extensie. Dit `.fin`-bestand is een voltooid bestand. Het doel van het bestand is om het systeem te laten weten dat het gegevensbestand volledig is geüpload naar de FTP-account. Met het bestand `.fin` kan Adobe herkennen dat u klaar bent met importeren.
 
