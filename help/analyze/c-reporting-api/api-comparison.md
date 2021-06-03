@@ -4,14 +4,13 @@ title: Vergelijking Analytics Rapportage-API
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 21%
+source-wordcount: '277'
+ht-degree: 12%
 
 ---
-
 
 # Vergelijking Analytics Rapportage-API
 
@@ -40,7 +39,7 @@ Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de onder
    <td colname="col5"> Volledig verwerkte, gefinaliseerde gegevens die worden gebruikt voor het trekken van grote gegevensuitvoer. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/nl-NL/analytics/technotes/latency.html"  > Latentie</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html"  > Latentie</a> </p> </td> 
    <td colname="col2"> 30-90 minuten </td> 
    <td colname="col3"> * Seconden -10 minuten </td> 
    <td colname="col4"> Seconden -10 minuten </td> 
@@ -54,7 +53,7 @@ Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de onder
    <td colname="col5"> Volledig </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://docs.adobe.com/content/help/nl-NL/analytics/landing/home.html"  > Rapportageinterfaces</a> </td> 
+   <td colname="col1"> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html"  > Rapportageinterfaces</a> </td> 
    <td colname="col2"> Analysis Workspace, Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Real-time rapport in Reports &amp; Analytics, Report Builder, 1.4 API </td> 
    <td colname="col4"> Alleen API </td> 
@@ -86,7 +85,7 @@ Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de onder
    <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > Analytics-API</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > Real-Time rapporten</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > Overzicht van Livestream</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,4 +94,3 @@ Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de onder
 
 * [Adobe/IO](https://www.adobe.io/)  - Een uitgebreide bron voor de technische documentatie en hulpmiddelen nodig om de technologieën van de Adobe in uw toepassingen te integreren.
 * [Data Workbench Query API](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
-
