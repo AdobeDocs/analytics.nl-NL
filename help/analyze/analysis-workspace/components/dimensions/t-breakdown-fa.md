@@ -3,16 +3,15 @@ description: Afmetingen en dimensies in Analysis Workspace onderverdelen.
 keywords: Analysis Workspace
 title: Uitsplitsingsdimensies
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Workspace Basics
+feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '224'
 ht-degree: 15%
 
 ---
-
 
 # Uitsplitsingsdimensies
 
@@ -31,9 +30,9 @@ U kunt uw data onbeperkt voor al uw specifieke vereisten opsplitsen, query&#39;s
    >
    >Het aantal uitsplitsingen dat in de tabel moet worden weergegeven, is beperkt tot 200. Deze limiet neemt toe voor exportuitsplitsingen.
 
-[Dimension en metriek toevoegen aan uw project in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html)  (11:39)
+[Dimension en metriek toevoegen aan uw project in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html)  (11:39)
 
-[Werken met Dimension in een tabel](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html)  voor vrije vorm (15:35)
+[Werken met Dimension in een tabel](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html)  voor vrije vorm (15:35)
 
 ## Toewijzingsmodellen toepassen op uitsplitsingen
 
