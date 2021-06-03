@@ -3,14 +3,13 @@ title: Los de gegevensinzameling van de Activity Map problemen op
 description: Bepalen waarom Activity Map-gegevens niet worden weergegeven in afbeeldingsaanvragen
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
-
 
 # Los de gegevensinzameling van de Activity Map problemen op
 
@@ -20,7 +19,7 @@ Als u geen gegevens voor Activity Map afmetingen ziet, gebruik deze pagina helpe
 
 Eerst, zorg ervoor dat AppMeasurement correct de gegevens van de Activity Map verzamelt.
 
-1. Download en installeer de [Adobe Experience Cloud Debugger Chrome Extension](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html).
+1. Download en installeer de [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html).
 2. Navigeer naar uw webpagina en klik op een koppeling.
 3. Open foutopsporing wanneer de volgende pagina wordt geladen. Valideer dat u de variabelen ziet van de Activity Map contextgegevens tussen `activitymap.` en `.activitymap`:
 
