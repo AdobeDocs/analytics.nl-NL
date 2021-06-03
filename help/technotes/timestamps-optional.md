@@ -5,10 +5,9 @@ title: Tijdstempels optioneel gebruiken
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -27,9 +26,9 @@ Tijdstempels optioneel is de standaardinstelling voor alle nieuwe rapportsuites.
 >
 >Tijdstempels Optioneel is de standaardinstelling voor alle nieuwe rapportsuites die worden gegenereerd op basis van een sjabloon. De nieuwe rapportreeksen die van een bestaande rapportreeks worden gekopieerd zullen montages van origineel erven.
 
-Zie [Tijdstempels optioneel](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/timestamp-optional.html) voor aanvullende instellingsinformatie.
+Zie [Tijdstempels optioneel](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) voor aanvullende instellingsinformatie.
 
-## Tijdstempels optioneel: Gegevens met tijdstempel en gegevens zonder tijdstempel integreren {#section_BF17CB593044462B993FD0D28EA56518}
+## Tijdstempels optioneel: Gegevens met tijdstempel en zonder tijdstempel integreren {#section_BF17CB593044462B993FD0D28EA56518}
 
 Met de functie Tijdstempels optioneel kunt u gegevens zonder tijdstempel combineren met gegevens met een tijdstempel zonder dat er gegevensverlies optreedt. Offlinegegevens met tijdstempels die op een mobiel apparaat worden gegenereerd, kunnen worden gecombineerd met live, niet-tijdstempelgegevens van een webpagina, of worden geïntegreerd met gegevens van elk platform via een tijdstempelaanroep aan de clientzijde.
 
@@ -69,7 +68,7 @@ Hieronder vindt u best practices en een aantal vereisten en beperkingen die u in
 
    Gegevens die niet op volgorde staan, kunnen gegevens bevatten die te laat aankomen bij het verzamelen van offlinegegevens en laat aankomen, of uit-of-synchronisatieklokken op mobiele offlineapparaten. Buiten-de-ordegegevens kunnen tijdberekeningen (zoals tijd bestede waarden), attributie (persistentie van de eVar), het aantal van het bezoek/bezoek tellingen, en het kleven rapporten negatief beïnvloeden.
 
-* Het gebruik van tijdstempels bij het instellen van een [s.bezoekerID](https://docs.adobe.com/content/help/en/analytics/technotes/visitor-identification.html) wordt niet aanbevolen. Dit kan leiden tot gegevens die niet op volgorde staan.
+* Het gebruik van tijdstempels bij het instellen van een [s.bezoekerID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html) wordt niet aanbevolen. Dit kan leiden tot gegevens die niet op volgorde staan.
 
 * Hybride apps die bestaan uit een app (tijdstempeling, offlinegegevens) die een webbrowser opent (niet-tijdstempels, live gegevens), mogen geen tijdstempels gebruiken. Dit leidt tot een onjuiste rapportage van de sessie.
 
