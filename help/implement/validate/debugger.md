@@ -2,10 +2,9 @@
 title: Legacy Adobe Experience Cloud Debugger
 description: Installeer de verouderde Adobe Experience Cloud-foutopsporing. Deze debugger inspecteert markeringen voor Analytics, Doel, Advertising Cloud, de Dienst van de Identiteit, en Lancering.
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit foutopsporingsprogramma wordt niet meer onderhouden. Adobe raadt in plaats daarvan aan de [Adobe Experience Cloud Debugger Chrome Extension](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) te gebruiken.
+>Dit foutopsporingsprogramma wordt niet meer onderhouden. Adobe raadt in plaats daarvan aan de [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) te gebruiken.
 
 [!UICONTROL Legacy Debugger] inspecteert markeringen voor de meeste diensten van Adobe Experience Cloud. Met het foutopsporingsprogramma kunt u zien welke gegevens op een bepaalde pagina op uw site naar Adobe worden verzonden. U kunt deze informatie gebruiken om de implementatie van uw organisatie problemen op te lossen of te bevestigen.
 
@@ -36,7 +35,7 @@ Elke browser heeft verschillende manieren om bladwijzers af te handelen, maar he
 
 #### Chroom
 
-Als u erop aandringt om [chrome uitbreiding ](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) niet te gebruiken, kan de erfenis debugger boekenmarklet in plaats daarvan worden gebruikt.
+Als u erop aandringt om [chrome uitbreiding ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) niet te gebruiken, kan de erfenis debugger boekenmarklet in plaats daarvan worden gebruikt.
 
 1. Klik op de drie stippen in de rechterbovenhoek en ga naar Bladwijzers > Bladwijzerbeheer. U kunt ook op `Ctrl` + `Shift` + `O` (Windows) of `Cmd` + `Shift` + `O` (Mac) drukken.
 2. Rechtsboven in de bladwijzermanager klikt u op de drie stippen en vervolgens op Nieuwe bladwijzer toevoegen.
