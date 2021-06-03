@@ -4,11 +4,10 @@ title: Databronnen
 feature: Admin Tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 8%
+source-wordcount: '167'
+ht-degree: 3%
 
 ---
 
@@ -24,4 +23,4 @@ Gegevensbronnen gebruiken om:
 
 Wanneer de Gegevensbronnen op een rapportreeks worden geactiveerd, wordt een plaats van FTP verstrekt zodat kunt u dossiers uploaden die in rapportering moeten worden geïntegreerd. Na het uploaden verwerken de Adobe-servers de gegevens automatisch en integreren deze in uw rapportsuite.
 
-Zie [Gegevensbronnen Help](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html).
+Zie [Gegevensbronnen Help](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html).
