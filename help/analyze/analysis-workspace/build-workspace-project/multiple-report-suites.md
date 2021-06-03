@@ -1,16 +1,15 @@
 ---
 title: Meerdere rapportsuites
 description: Leer hoe en waarom u projecten maakt in Workspace met meerdere rapportsuite
-feature: Workspace Basics
+feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
-
 
 # Meerdere rapportsuites
 
@@ -66,6 +65,6 @@ Met deze functie introduceren we het concept &quot;actief panel&quot; in plaats 
 
 1. (Optioneel) U kunt ook naar andere componentbuilders van Analytics gaan en ervoor zorgen dat deze nu een label van een rapportsuite tonen die
 
-   * Waar wordt een segment gemaakt: [Segment Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * Wanneer een berekende metrische waarde wordt gecreëerd: [Berekende metrische bouwer](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * Wanneer een waarschuwing wordt opgesteld: [Waarschuwing Builder](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
+   * Waar wordt een segment gemaakt: [Segment Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * Wanneer een berekende metrische waarde wordt gecreëerd: [Berekende metrische bouwer](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * Wanneer een waarschuwing wordt opgesteld: [Waarschuwing Builder](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).
