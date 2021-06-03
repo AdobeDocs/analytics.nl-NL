@@ -4,14 +4,13 @@ title: Segmenten beheren
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 3%
+source-wordcount: '892'
+ht-degree: 1%
 
 ---
-
 
 # Segmenten beheren
 
@@ -21,14 +20,14 @@ Report Builder heeft een segmentatiepaneel in Stap 1 van de wizard Verzoek waarm
 
 ![](assets/seg_dialog.png)
 
-## Segmenten {#section_B2BC136F9A53498D90C7C2ECC5DB892B} toevoegen of bewerken
+## Segmenten toevoegen of bewerken {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
 >[!NOTE]
 >
 >Om segmenten toe te voegen of uit te geven, lanceert de het segmentinterface van Report Builder de het segmentbouwer van Analytics in een venster van Microsoft Internet Explorer. Uw rapportbuildersessie blijft actief. Andere browsers dan Internet Explorer worden niet ondersteund voor deze bewerking.
 
 1. In het segmentpaneel van Stap 1 van de Tovenaar van het Verzoek, klik **[!UICONTROL Add]**.
-1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Voor informatie over hoe te om segmenten te bouwen, verwijs naar [segmentatie van Analytics](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html).
+1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Voor informatie over hoe te om segmenten te bouwen, verwijs naar [segmentatie van Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 1. Nadat u het segment hebt bepaald en bewaard, ga terug naar de Tovenaar van het Verzoek.
 1. Klik op het pictogram Vernieuwen om de segmentlijst te vernieuwen.
 
@@ -45,7 +44,7 @@ U kunt specifieke combinaties rapportafmetingen hebben die u in een segment zou 
 
    ![](assets/seg_in_context.png)
 
-   Zie [Segmentatiegids](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) voor meer informatie over containers.
+   Zie [Segmentatiegids](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) voor meer informatie over containers.
 
 1. De gebruikersinterface van Segment Builder wordt nu in Internet Explorer gestart. De UI van de Bouwer van het Segment zal met de container en de filter worden geïnitialiseerd u specificeerde.
 1. Nadat u een naam en een beschrijving aan het segment hebt toegevoegd, sparen het.
@@ -84,7 +83,7 @@ Beschikbare filters zijn:
 | Overige filters > Favorieten | Hiermee worden alle segmenten weergegeven die u als Favorieten hebt gemarkeerd. |
 | Overige filters > Goedgekeurd | Hiermee geeft u alle officieel goedgekeurde segmenten weer. |
 
-## Voeg een segmentcontrole aan een werkboek {#section_E3E5149A8464441FA5445A98DBD520AC} toe
+## Voeg een segmentcontrole aan een werkboek toe {#section_E3E5149A8464441FA5445A98DBD520AC}
 
 Het toevoegen van een segmentcontrole laat u segmenten van binnen een werkboek in plaats van het moeten in de Tovenaar van het Verzoek gaan.
 
@@ -103,11 +102,11 @@ Het toevoegen van een segmentcontrole laat u segmenten van binnen een werkboek i
 
    ![](assets/seg_control2.png)
 
-## De lijst met segmenten {#section_22E4A86789444B4A998532396B476EFB} vernieuwen
+## Lijst met segmenten vernieuwen {#section_22E4A86789444B4A998532396B476EFB}
 
 Wanneer u een nieuw segment toevoegt of een bestaand segment bewerkt, moet u op het pictogram Vernieuwen ( ![](assets/refresh_icon.png)) klikken om de lijst met segmenten in de cache te vernieuwen.
 
-## Segmenten beheren in verzoeken {#section_C3D63FCBE1A94369A319243313B03C93}
+## Segmenten in verschillende verzoeken beheren {#section_C3D63FCBE1A94369A319243313B03C93}
 
 Voorafgaand aan v5.4, laat Report Builder gebruikers segmenten op veelvoudige verzoeken veranderen. Dit proces heeft echter altijd de bestaande segmenten vervangen. De gebruikers die één nieuw segment aan elk verzoek wilden toevoegen konden dit niet doen, aangezien het toevoegen van het segment de vorige reeks segmenten zou verwijderen die reeds aan elk verzoek wordt toegewezen.
 
@@ -126,4 +125,3 @@ Met Report Builder 5.4 kunt u alle segmenten binnen meerdere aanvragen toevoegen
    | Segment(en) vervangen | Hiermee kunt u kiezen welk segment of welke segmenten door een of meer segmenten worden vervangen. |
    | Alle segmenten vervangen door | Hiermee kunt u een of meer segmenten kiezen om het huidige segment of de huidige segmenten te vervangen. |
    | Segment(en) verwijderen | Hiermee kunt u segmenten uit de aanvragen verwijderen. |
-
