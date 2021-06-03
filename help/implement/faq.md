@@ -1,14 +1,13 @@
 ---
 title: Veelgestelde vragen over implementatie
 description: Veelgestelde vragen over implementatie en koppelingen naar meer informatie.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 48%
+source-wordcount: '496'
+ht-degree: 47%
 
 ---
-
 
 # Veelgestelde vragen over de implementatie van Analytics
 
@@ -20,7 +19,7 @@ De Identity Service wijst een unieke, permanente id toe die kan worden gedeeld t
 
 ## Hoe kan ik momentopnamen van videotracering implementeren?
 
-Zie [Audio en video meten in Adobe Analytics](https://docs.adobe.com/content/help/nl-NL/media-analytics/using/media-overview.html).
+Zie [Audio en video meten in Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Kan een onderbreking van de service bij Adobe de prestaties beïnvloeden?
 
@@ -34,8 +33,8 @@ AppMeasurement maakt een afbeeldingsobject binnen de HTML-pagina en de browser v
 
 Soms zou een organisatie een implementatie wegens contractvervaldatum willen verwijderen of het aantal servervraag verminderen.
 
-* **Implementaties bij starten**: Schakel de Adobe Analytics-extensie op het [!UICONTROL Extensions] tabblad uit of verwijder deze. Publiceer de extensie vervolgens.
-* **Legacy AppMeasurement-implementaties**: Vervang de gehele inhoud van het `s_code.js` bestand door de volgende coderegel:
+* **Implementaties bij starten**: U kunt de Adobe Analytics-extensie op het  [!UICONTROL Extensions] tabblad uit- of verwijderen en vervolgens publiceren.
+* **Legacy AppMeasurement-implementaties**: Vervang de gehele inhoud van het  `s_code.js` bestand door de volgende coderegel:
 
 ```js
 var s = new Object();
@@ -46,15 +45,15 @@ var s = new Object();
 >Niet:
 >
 >* Verander de rapportreeks in een ongeldige waarde, aangezien het tot onnodige lading op Adobe servers leidt.
->* Verwijder het `s_code.js` bestand helemaal, tenzij u ook alle verwijzingen naar het bestand op elke pagina verwijdert.
->* Wijzig de `trackingServer` variabele om niet naar Adobe te wijzen. AppMeasurement verzendt nog beeldverzoeken, die 404 fouten terugkeren.
+>* Verwijder het `s_code.js`-bestand in zijn geheel, tenzij u ook alle verwijzingen naar het bestand op elke pagina verwijdert.
+>* Wijzig de variabele `trackingServer` om niet naar Adobe te wijzen. AppMeasurement verzendt nog beeldverzoeken, die 404 fouten terugkeren.
 
 
-## Ik heb AppMeturement uitgevoerd via een codeanalyse en het heeft het gebruik van AppMeasurement gemarkeerd `Math.random()` als een mogelijk beveiligingsrisico. Wordt `Math.random()` gebruikt met gevoelige gegevens?
+## Ik stelde AppMeturement door een codeanalysator in, en het benadrukte zijn gebruik van `Math.random()` als potentieel veiligheidsrisico. Wordt `Math.random()` gebruikt met om het even welke gevoelige gegevens?
 
-Nee. De aantallen die gebruiken `Math.random()` worden niet gebruikt om, gevoelige gegevens te maskeren te verzenden of te ontvangen. Gegevens die naar Adobe-gegevensverzamelingsservers worden verzonden, zijn afhankelijk van de beveiliging van de onderliggende HTTPS-verbinding. <!-- AN-173590 -->
+Nee. De aantallen die `Math.random()` gebruiken worden niet gebruikt om, gevoelige gegevens te maskeren te verzenden of te ontvangen. Gegevens die naar Adobe-gegevensverzamelingsservers worden verzonden, zijn afhankelijk van de beveiliging van de onderliggende HTTPS-verbinding. <!-- AN-173590 -->
 
-Toepassingsmeting gebruikt `Math.random()` drie belangrijke gebieden:
+AppMeturement gebruikt `Math.random()` op drie zeer belangrijke gebieden:
 
 * **Bemonstering**: Afhankelijk van uw implementatie, kon sommige informatie voor slechts een klein percentage bezoekers aan uw plaats worden verzameld. `Math.random()` wordt gebruikt om te bepalen of een bepaalde bezoeker gegevens zou moeten verzenden. Bij de meeste implementaties wordt geen sampling gebruikt.
 * **ID** terugvalbezoeker: Als de bezoeker-id niet uit cookies kan worden opgehaald, wordt een willekeurige bezoeker-id gegenereerd. Dit deel van AppMeasurement gebruikt twee vraag aan `Math.random()`.
