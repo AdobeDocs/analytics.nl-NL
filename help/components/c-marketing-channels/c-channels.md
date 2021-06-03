@@ -4,11 +4,10 @@ subtopic: Marketing channels
 title: Marketingkanalen beheren
 feature: Grondbeginselen van rapporten en analyses
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-translation-type: tm+mt
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 2%
+source-wordcount: '721'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +72,7 @@ Er zijn diverse instellingen die op elk kanaal op de pagina [!UICONTROL Marketin
 | Kanaalnaam | De vriendelijke naam van het marketingkanaal. |
 | Laatste aanraakkanaal overschrijven | Hiermee kunt u kiezen of u een bestaand, blijvend laatste aanraakkanaal wilt overschrijven met het geselecteerde kanaal. Als u dit selectievakje inschakelt, overschrijft elk kanaal (inclusief Direct en Intern) een bestaand laatste aanraakkanaal. Het resultaat is dat conversie wordt toegeschreven aan een kanaal dat geen krediet verdient. Met deze optie kunt u er bijvoorbeeld voor zorgen dat het Direct-kanaal geen conversiekrediet ontvangt als de gebruiker eerder via het Natural Search-kanaal was aangeschaft. |
 | Kanaaluitsplitsing | Hiermee kunt u een kanaal opsplitsen op basis van deze waarde. U kunt mogelijke kanaalonderverdelingen (subkanalen) toevoegen wanneer het creëren van [marketing kanaalclassificaties](/help/components/c-marketing-channels/classifictions-mchannel.md). |
-| Type | Hiermee bepaalt u hoe de gebruiker naar uw site is gekomen. U kunt Online of Offline selecteren. Gebruik online kanalen voor bezoekers die via een zoekmachine of e-mailcampagne komen. Offlinekanalen zijn van toepassing op bezoekers die uw site hebben gevonden via krantencoupons of advertenties in tijdschriften. De off-line kanalen omvatten gewoonlijk gegevens die door het melden van Gegevensbronnen worden ingevoerd. Zie [Gegevensbronnen](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html). Zie [Offlinegegevens toevoegen](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
+| Type | Hiermee bepaalt u hoe de gebruiker naar uw site is gekomen. U kunt Online of Offline selecteren. Gebruik online kanalen voor bezoekers die via een zoekmachine of e-mailcampagne komen. Offlinekanalen zijn van toepassing op bezoekers die uw site hebben gevonden via krantencoupons of advertenties in tijdschriften. De off-line kanalen omvatten gewoonlijk gegevens die door het melden van Gegevensbronnen worden ingevoerd. Zie [Gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html). Zie [Offlinegegevens toevoegen](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 | Kleur | Alleen rapporten en analyses: De kleur die aan dit marketingkanaal is gekoppeld. Deze kleur vertegenwoordigt het kanaal in het rapport van het Kanaal van de Marketing. |
 
 ### Beste werkwijzen overschrijven
