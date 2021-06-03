@@ -2,11 +2,10 @@
 product: analytics
 audience: all
 user-guide-title: Adobe Analytics-documentatie
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 88%
+source-wordcount: '118'
+ht-degree: 24%
 
 ---
 
@@ -15,18 +14,18 @@ ht-degree: 88%
 
 * [Home](home.md)
 * [Adobe Analytics-sleutelbegrippen](an-key-concepts.md)
-* [Hulplijn voor gereedschappen](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
-* [Beheerdershandleiding](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
-* [Handleiding voor onderdelen](https://docs.adobe.com/content/help/en/analytics/components/home.html)
-* [Handleiding voor exporteren](https://docs.adobe.com/content/help/en/analytics/export/home.html)
-* [Implementatiehandleiding](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
-* [Handleiding voor importeren](https://docs.adobe.com/content/help/en/analytics/import/home.html)
-* [Integratiehandleiding](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
-* [Handleiding voor technische notities](https://docs.adobe.com/content/help/en/analytics/technotes/home.html)
-* [Handleiding voor Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
-* [Handleiding voor Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
-* [Customer Journey Analytics-hulplijn](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
+* [Hulplijn voor gereedschappen](https://experienceleague.adobe.com/docs/analytics/analyze/home.html)
+* [Beheerdershandleiding](https://experienceleague.adobe.com/docs/analytics/admin/home.html)
+* [Handleiding voor onderdelen](https://experienceleague.adobe.com/docs/analytics/components/home.html)
+* [Handleiding voor exporteren](https://experienceleague.adobe.com/docs/analytics/export/home.html)
+* [Implementatiehandleiding](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
+* [Handleiding voor importeren](https://experienceleague.adobe.com/docs/analytics/import/home.html)
+* [Integratiehandleiding](https://experienceleague.adobe.com/docs/analytics/integration/home.html)
+* [Handleiding voor technische notities](https://experienceleague.adobe.com/docs/analytics/technotes/home.html)
+* [Handleiding voor Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)
+* [Handleiding voor Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)
+* [Customer Journey Analytics-hulplijn](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)
 * [Updates van de documentatie voor analyse](doc-updates.md)
-* [Release-opmerkingen](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+* [Release-opmerkingen](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 * [Adobe Analytics-functiereleases](an-releases.md)
 
