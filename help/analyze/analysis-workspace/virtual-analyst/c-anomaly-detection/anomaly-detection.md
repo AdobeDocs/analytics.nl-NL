@@ -2,24 +2,23 @@
 description: U kunt gegevensanomalieën contextafhankelijk weergeven en analyseren in Analysis Workspace.
 title: Overzicht van anomaliedetectie
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-feature: AI Tools
+feature: AI-gereedschappen
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 12%
+source-wordcount: '282'
+ht-degree: 8%
 
 ---
-
 
 # Overzicht van anomaliedetectie
 
 U kunt gegevensanomalieën contextafhankelijk weergeven en analyseren in Analysis Workspace.
 
-[Zelfstudie over](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html)  Anomaly Detection (4:53)
+[Zelfstudie over](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html)  Anomaly Detection (4:53)
 
-[Videozelfstudie](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html)  bijdrageanalyse (3:20)
+[Videozelfstudie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html)  bijdrageanalyse (3:20)
 
 >[!IMPORTANT]
 >
@@ -38,7 +37,7 @@ Voorbeelden van anomalieën die u kunt onderzoeken zijn:
 * Spikes in videobuffergebeurtenissen
 * Spikes in lage videobitsnelheden
 
-Zowel Anomaly Detection als [Contribution Analysis](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) zijn kernworkflows in Analysis Workspace. U kunt de Analyse van de Bijdrage tegen om het even welke dagelijkse anomalie in werking stellen en het resultaat in uw project van Analysis Workspace inbedden.
+Zowel Anomaly Detection als [Contribution Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) zijn kernworkflows in Analysis Workspace. U kunt de Analyse van de Bijdrage tegen om het even welke dagelijkse anomalie in werking stellen en het resultaat in uw project van Analysis Workspace inbedden.
 
 Analysis Workspace-algoritme voor het opsporen van anomalieën bevat
 
