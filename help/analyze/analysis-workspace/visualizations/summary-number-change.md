@@ -2,16 +2,15 @@
 description: Gebruik het Summiere Aantal en de visualisaties van de Verandering om belangrijke gegevenspunten in een project te tonen.
 title: Cijferoverzicht en Wijzigingsoverzicht
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-feature: Visualizations
+feature: Visualisaties
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 5%
+source-wordcount: '459'
+ht-degree: 3%
 
 ---
-
 
 # Cijferoverzicht en Wijzigingsoverzicht
 
@@ -46,7 +45,7 @@ Klik in de versnelling **Visualisatie-instellingen** rechtsboven om de instellin
 
 ## Visualisatie van overzichtswijziging {#summary-change}
 
-Gebruik de visualisatie van de Overzichtsverandering om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van de Summiere Verandering kan door [de polariteit van de douanegebeurtenis ](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) of een berekende metrische [Toon de Naar boven optie als](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) worden gecontroleerd.
+Gebruik de visualisatie van de Overzichtsverandering om de delta (verandering) tussen twee aantallen te tonen. De groene en rode kleur van de Summiere Verandering kan door [de polariteit van de douanegebeurtenis ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) of een berekende metrische [Toon de Naar boven optie als](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) worden gecontroleerd.
 
 Deze visualisatie werkt op de volgende manieren:
 
