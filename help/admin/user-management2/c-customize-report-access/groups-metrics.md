@@ -6,10 +6,10 @@ title: Toestemmingen voor cijfers aanpassen
 feature: Admin Tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 10%
+source-wordcount: '225'
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ De instellingen op de pagina Metriek aanpassen zijn van toepassing op de rapport
 
 ## Gebeurtenissen van oplossing
 
-Naast [Aangepaste gebeurtenissen](https://docs.adobe.com/content/help/nl-NL/analytics/implementation/vars/page-vars/events/event-serialization.html), omvat deze categorie gebeurtenissen voor de oplossing Analytics, waaronder Experience Manager (AEM), Advertising Cloud (AMO), Mobiel, Video en Sociaal.). Elke douanegroep met om het even welke metriek zal alle de oplossingsgebeurtenissen van de Analyse hebben als nieuwe metriek worden toegevoegd.
+Naast [Aangepaste gebeurtenissen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html), omvat deze categorie gebeurtenissen voor de oplossing Analytics, waaronder Experience Manager (AEM), Advertising Cloud (AMO), Mobiel, Video en Sociaal.). Elke douanegroep met om het even welke metriek zal alle de oplossingsgebeurtenissen van de Analyse hebben als nieuwe metriek worden toegevoegd.
 
 U kunt machtigingen instellen voor gebeurtenissen Custom Events and Analytics Solution (AEM, AMO, Mobile, Video en Social).
 
