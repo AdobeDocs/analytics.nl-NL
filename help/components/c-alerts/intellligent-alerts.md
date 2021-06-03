@@ -2,14 +2,13 @@
 description: Het nieuwe systeem voor intelligente waarschuwingen biedt meer gedetailleerde controle over waarschuwingen en integreert de detectie van anomalieën met het waarschuwingssysteem.
 title: Intelligente waarschuwingen
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
-translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '564'
 ht-degree: 6%
 
 ---
-
 
 # Intelligente waarschuwingen
 
@@ -19,7 +18,7 @@ Het nieuwe systeem voor intelligente waarschuwingen biedt meer gedetailleerde co
 
 >[!IMPORTANT]
 >
->Intelligente waarschuwingen zijn alleen beschikbaar voor Adobe [!DNL Analytics] Premier en Adobe [!DNL Analytics] Ultimate-klanten.
+>Intelligente waarschuwingen zijn alleen beschikbaar voor Adobe [!DNL Analytics] Premier- en Adobe [!DNL Analytics] Ultimate-klanten.
 
 De nieuwe Waakzame Bouwer en de Manager van de Waarschuwing vervangen de bestaande waakzame functionaliteit in Adobe [!DNL Analytics]. Met intelligente waarschuwingen kunt u
 
@@ -28,25 +27,25 @@ De nieuwe Waakzame Bouwer en de Manager van de Waarschuwing vervangen de bestaan
 * Een melding sturen via e-mail of sms, met koppelingen naar automatisch gegenereerde Analysis Workspace-projecten.
 * &#39;Gestapelde&#39; meldingen maken waarbij meerdere metrics zijn opgenomen in één waarschuwing.
 
-Onderdelen van het nieuwe waarschuwingssysteem zijn: Alert Builder, Alert Manager, Alert Voorproef, en betere in-context toegang tot het creëren van alarm. De oude gebruikersinterface van het waarschuwingssysteem is niet meer beschikbaar, maar de waarschuwingen worden gemigreerd. Sommige oude waarschuwingsfuncties [zijn niet meer beschikbaar](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/alerts.html).
+Onderdelen van het nieuwe waarschuwingssysteem zijn: Alert Builder, Alert Manager, Alert Voorproef, en betere in-context toegang tot het creëren van alarm. De oude gebruikersinterface van het waarschuwingssysteem is niet meer beschikbaar, maar de waarschuwingen worden gemigreerd. Enkele oudere waarschuwingsfuncties [zijn niet meer beschikbaar](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html).
 
 Er zijn vier manieren om naar de Waarschuwingsbouwer te gaan:
 
 * Met de volgende sneltoets in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Door rechtstreeks naar de waarschuwingsBuilder te gaan:  **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** .
-* Door een of meer vrije lijstitems van de lijstlijst te selecteren, met de rechtermuisknop te klikken en te selecteren **[!UICONTROL Create Alert from Selection]**. Hiermee wordt de waarschuwingsBuilder geopend en wordt de builder vooraf gevuld met de juiste maateenheden en filters die uit de tabel zijn toegepast. U kunt de waarschuwing vervolgens bewerken, indien nodig.
+* Door rechtstreeks naar de waarschuwingsBuilder te gaan:  **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
+* Door een of meer vrije lijstitems van de lijstlijst te selecteren, met de rechtermuisknop te klikken en **[!UICONTROL Create Alert from Selection]** te selecteren. Hiermee wordt de waarschuwingsBuilder geopend en wordt de builder vooraf gevuld met de juiste maateenheden en filters die uit de tabel zijn toegepast. U kunt de waarschuwing vervolgens bewerken, indien nodig.
 
    ![](assets/create-alert-from-selection.png)
 
-* Ga vanuit een [!UICONTROL Reports & Analytics] rapport naar **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Dit zal nieuwe Bouwer van de Waarschuwing openen en zal de bouwer met de aangewezen metriek en de filters pre-bevolken die van het rapport worden toegepast. U kunt de waarschuwing vervolgens bewerken, indien nodig.
+* Vanuit een [!UICONTROL Reports & Analytics]-rapport gaat u naar **[!UICONTROL More]** > **[!UICONTROL Add Alert]**. Dit zal nieuwe Bouwer van de Waarschuwing openen en zal de bouwer met de aangewezen metriek en de filters pre-bevolken die van het rapport worden toegepast. U kunt de waarschuwing vervolgens bewerken, indien nodig.
 
    ![](assets/add-alert.png)
 
 ## Veelgestelde vragen: Hoe waarschuwingen worden berekend en geactiveerd {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-De procentuele drempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen en 99% = 3 standaardafwijkingen. Afhankelijk van de tijdsgranulariteit die u kiest, worden [verschillende modellen](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) gebruikt om te berekenen hoe ver (hoeveel standaardafwijkingen) elk gegevenspunt van de norm is. Als u een lagere drempel instelt (bijvoorbeeld 90%), krijgt u meer anomalieën dan wanneer u een hogere drempel instelt (99%). 99,75% &amp; 99,99% drempels werden ingevoerd specifiek voor de uurgranulariteit zodat het niet zoveel anomalieën zou veroorzaken.
+De procentuele drempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen en 99% = 3 standaardafwijkingen. Afhankelijk van de tijdsgranulariteit die u kiest, worden [verschillende modellen](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) gebruikt om te berekenen hoe ver weg (hoeveel standaardafwijkingen) elk gegevenspunt van de norm is. Als u een lagere drempel instelt (bijvoorbeeld 90%), krijgt u meer anomalieën dan wanneer u een hogere drempel instelt (99%). 99,75% &amp; 99,99% drempels werden ingevoerd specifiek voor de uurgranulariteit zodat het niet zoveel anomalieën zou veroorzaken.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -58,7 +57,7 @@ De procentuele drempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>V: Hoe ver gaat de anomaliedetectie van de waarschuwing om anomalieën in de gegevens vast te stellen?</b> </p> </td> 
-   <td colname="col2"> <p>De duur van de training is afhankelijk van de geselecteerde korreligheid. Zie Statistische technieken die worden gebruikt in <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> voor meer informatie. Hier volgt een overzicht: </p> 
+   <td colname="col2"> <p>De duur van de training is afhankelijk van de geselecteerde korreligheid. Zie Statistische technieken gebruikt in <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> voor meer informatie. Hier volgt een overzicht: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Maandelijks = 15 maanden + zelfde marge vorig jaar </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Wekelijks = 15 weken + zelfde marge vorig jaar </li> 
@@ -71,13 +70,12 @@ De procentuele drempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen 
    <td colname="col2"> <p>Het gebruiken van absolute waarde zou alarm op dips evenals pieken nog teweegbrengen. U kunt waarschuwingen niet isoleren voor alleen dips of alleen pieken. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>V: Kan ik alarm vormen om slechts tijdens bepaalde uren van de dag (zoals kantooruren vs. niet-bedrijfsuren) teweeg te brengen? </b> </p> </td> 
+   <td colname="col1"> <p><b>V: Kan ik alarm vormen om slechts tijdens bepaalde uren van de dag (zoals kantooruren vs. niet-bedrijfsuren) teweeg te brengen?  </b> </p> </td> 
    <td colname="col2"> <p>Op dit moment, nee. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>V: Kan ik een tabel krijgen van de "verwachte waarden" die de stippellijn vormen, of een soort output van wat die waarden zijn? </b> </p> </td> 
-   <td colname="col2"> <p>Niet in Workspace, maar wel in Report Builder (zie deze video over <a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  > Anomaly Detection in Report Builder </a>). </p> <p>Onthoud dat Report Builder minder geavanceerde afwijkingsdetectiemethoden gebruikt. Het gebruikt een vaste opleidingsperiode van 30 dagen, vaste 95% interval. </p> </td> 
+   <td colname="col1"> <p><b>V: Kan ik een tabel krijgen van de "verwachte waarden" die de stippellijn vormen, of een soort output van wat die waarden zijn?  </b> </p> </td> 
+   <td colname="col2"> <p>Niet in Workspace, maar wel in Report Builder (zie deze video over <a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  > Anomaly Detection in Report Builder </a>). </p> <p>Onthoud dat Report Builder minder geavanceerde afwijkingsdetectiemethoden gebruikt. Het gebruikt een vaste opleidingsperiode van 30 dagen, vaste 95% interval. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
