@@ -5,10 +5,9 @@ title: FTP-import
 feature: Admin Tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 2%
 
 ---
@@ -75,7 +74,7 @@ t_create_an_ftp_account.xml
 
  -->
 
-Zie [FTP en sFTP](https://docs.adobe.com/content/help/en/analytics/export/ftp-and-sftp/ftp-overview.html) voor meer informatie over Adobe FTP-servers.
+Zie [FTP en sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html) voor meer informatie over Adobe FTP-servers.
 
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Klik **[!UICONTROL Import File]**, dan klik **[!UICONTROL FTP Import]**.
