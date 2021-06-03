@@ -2,16 +2,15 @@
 description: Alleen-weergeven projecten in Workspace
 keywords: Alleen-weergeven -projecten
 title: Alleen-weergeven -projecten
-feature: Curate and Share
+feature: Curven en delen
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 53372247-6902-4c7f-9132-38a1d453186c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '249'
 ht-degree: 3%
 
 ---
-
 
 # Alleen-weergeven -projecten
 
@@ -25,7 +24,7 @@ Uitgeschakelde interacties in een alleen-weergaveproject zijn onder meer:
 
 * Verborgen linkerspoor
 * Rapportsuite
-* Datumbereik paneelkalender. Opmerking: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in een [drop-down filter met datumwaaiers](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) toe.
+* Datumbereik paneelkalender. Opmerking: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in een [drop-down filter met datumwaaiers](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) toe.
 * Freeform-filtering
 * Vrije vorm # van zichtbare rijen
 * Instellingen voor rij, kolom of visualisatie voor vrije vorm
