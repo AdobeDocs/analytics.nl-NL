@@ -3,11 +3,13 @@ description: Overzicht van de data die Adobe Analytics verzamelt en andere priva
 keywords: privacy
 title: Privacyoverzicht
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 97%
 
 ---
-
 
 # Privacyoverzicht
 
@@ -89,7 +91,7 @@ Adobe Analytics verzamelt de volgende data:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe heeft de instelling IP-onzichtbaarmaking: ingeschakeld - IP verwijderd (x.x.x.x) standaard ingeschakeld voor alle klanten met een rapportsuite in EMEA. Met deze instelling wordt het IP-adres volledig vervangen door de waarde (x.x.x.x) na geografisch opzoeken van de locatie, en is niet meer beschikbaar als datapunt. <p>Deze basisvervangingsmethode kan niet worden herleid tot een uniek, specifiek IP-adres. De klant en Adobe hebben geen van beiden toegang tot het IP-adres. Het is onomkeerbaar geanonimiseerd. Meer informatie over andere instellingen voor IP-onzichtbaarmaking vindt u op </p> <p> <a href="https://docs.adobe.com/content/help/nl-NL/analytics/landing/home.html#General_Account_Settings"  >https://docs.adobe.com/content/help/nl-NL/analytics/landing/home.html#General_Account_Settings</a> </p> </td> 
+   <td colname="col2"> Adobe heeft de instelling IP-onzichtbaarmaking: ingeschakeld - IP verwijderd (x.x.x.x) standaard ingeschakeld voor alle klanten met een rapportsuite in EMEA. Met deze instelling wordt het IP-adres volledig vervangen door de waarde (x.x.x.x) na geografisch opzoeken van de locatie, en is niet meer beschikbaar als datapunt. <p>Deze basisvervangingsmethode kan niet worden herleid tot een uniek, specifiek IP-adres. De klant en Adobe hebben geen van beiden toegang tot het IP-adres. Het is onomkeerbaar geanonimiseerd. Meer informatie over andere instellingen voor IP-onzichtbaarmaking vindt u op </p> <p> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html#General_Account_Settings"  > https://experienceleague.adobe.com/docs/analytics/landing/home.html#General_Account_Settings  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Algemeen </td> 
