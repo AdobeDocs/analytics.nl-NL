@@ -4,9 +4,9 @@ title: Bekende beperkingen in Analysis Workspace
 feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 ## Componenten > Segmenten
 
 * Bepaalde metriek en afmetingen zijn niet segmenteerbaar, zoals [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], enz.
-* Adhocsegmenten die in de [dropzone van het deelvenster](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) worden gemaakt, worden niet weergegeven in de linkertrack van Workspace of in de component Segment, tenzij ze openbaar worden gemaakt. Dit kan worden gedaan door het segment uit te geven en **[!UICONTROL Make this segment public]** te selecteren.
+* Adhocsegmenten die in de [dropzone van het deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) worden gemaakt, worden niet weergegeven in de linkertrack van Workspace of in de component Segment, tenzij ze openbaar worden gemaakt. Dit kan worden gedaan door het segment uit te geven en **[!UICONTROL Make this segment public]** te selecteren.
 
 ## Componenten > Berekende cijfers
 
