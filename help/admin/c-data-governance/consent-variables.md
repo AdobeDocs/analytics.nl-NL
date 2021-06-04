@@ -3,11 +3,10 @@ description: Variabelen voor privacyrapportage in Data Privacy.
 title: Variabelen voor privacyrapportage
 feature: Admin Tools
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '422'
+ht-degree: 96%
 
 ---
 
@@ -63,13 +62,13 @@ Elke rapportsuite kan als volgt worden geconfigureerd:
 
 Er zijn drie contextdatavariabelen vooraf gedefinieerd om te werken met de voor privacyrapportagebeheer gereserveerde variabelen.  Elke implementatie-engineer moet zelf bepalen de instelling van deze variabelen moet worden beheerd en gehandhaafd.
 
-Zie [Contextdatavariabelen](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) voor algemene richtlijnen voor het implementeren van contextdatavariabelen.
+Zie [Contextdatavariabelen](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) voor algemene richtlijnen voor het implementeren van contextdatavariabelen.
 
 ### SSF
 
 * Contextdata: `contextData.['cm.ssf']`
 * Geaccepteerde waarden:
-   * 1 - Wanneer u de waarde 1 verzendt, geeft dit aan dat Server Side Forwarding zich in de status “opt-out” bevindt. De waarde 1 in combinatie met deze variabele blokkeert het delen van deze treffer met Adobe Audience Manager. Zie [AAM ePrivacy Compliance](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1 - Wanneer u de waarde 1 verzendt, geeft dit aan dat Server Side Forwarding zich in de status “opt-out” bevindt. De waarde 1 in combinatie met deze variabele blokkeert het delen van deze treffer met Adobe Audience Manager. Zie [AAM ePrivacy Compliance](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
    * 0 - Optioneel. Gebruik de waarde 0 voor klanten die hebben ingestemd met gerichte marketing. Als u de variabele niet instelt, krijgt u dezelfde resultaten.
 
 ### DMP
