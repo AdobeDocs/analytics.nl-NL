@@ -2,9 +2,9 @@
 description: Wat u moet weten over de migratie van de gebruikers-id voor Analytics naar de Admin Console in de Adobe Experience Cloud.
 title: Analytics-gebruikersmigratie naar de Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '3117'
+source-wordcount: '3116'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,7 @@ Belangrijke informatie over het migratieproces en de invloed ervan op het huidig
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zouden gebruikers die ik met het migratiehulpmiddel migreer de zelfde toestemmingen worden toegewezen die zij in Analytics hadden? </p> </td> 
-   <td colname="col2"> <p>Ja. Gebruikers die met dit gereedschap zijn gemigreerd, krijgen de machtigingen die ze momenteel in Analytics hebben. Bovendien zullen zij toegang tot hun activa van Analytics (zoals segmenten, projecten, berekende metriek, etc.) behouden wanneer zij tot Analytics via Experience Cloud toegang hebben. </p> </td> 
+   <td colname="col2"> <p>Ja. Gebruikers die met het gereedschap zijn gemigreerd, krijgen de machtigingen die ze momenteel in Analytics hebben. Bovendien zullen zij toegang tot hun activa van Analytics (zoals segmenten, projecten, berekende metriek, etc.) behouden wanneer zij tot Analytics via Experience Cloud toegang hebben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hebben gebruikers die ik naar de Admin Console migreer toegang tot Analytics gebruikend <span class="filepath"> my.omniture.com</span>? </p> </td> 
@@ -309,7 +309,7 @@ Belangrijke informatie over het migratieproces en de invloed ervan op het huidig
 
 U kunt dit migratieplan proactief aan uw huidige gebruikers willen meedelen. Hier volgt een sjabloon die u kunt aanpassen om al uw huidige gebruikers van Analytics te verzenden:
 
-Als u alle gebruikers een e-mail wilt sturen, navigeert u naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User management]** > [E-mailgebruikers](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html).**[!UICONTROL All admin]**
+Als u alle gebruikers een e-mail wilt sturen, navigeert u naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User management]** > [E-mailgebruikers](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html).**[!UICONTROL All admin]**
 
 **Betreft:** Binnenkort beschikbaar - Een nieuwe manier om u aan te melden bij Adobe Analytics en Adobe Experience Cloud.
 
