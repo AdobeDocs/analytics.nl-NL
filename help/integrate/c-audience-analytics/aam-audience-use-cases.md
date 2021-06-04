@@ -3,9 +3,9 @@ description: Gebruik koffers rond Advertising Analytics.
 title: Audience Analytics-gebruiksscenario's
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '213'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Als Uitgever van de Multimedia, kunt u uw 3de publiek vergelijken gebruikend [Se
 
 ## Prospectieanalyse {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-Als Detailhandelaar B2B, kunt u het gedrag van uw vooruitgangspubliek nu grondig analyseren vlak alvorens zij het gebruiken [sequentiële segmentatie](https://docs.adobe.com/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html) kopen, die u helpt begrijpen welke acties aansturen omzetting.
+Als Detailhandelaar B2B, kunt u het gedrag van uw vooruitgangspubliek nu grondig analyseren vlak alvorens zij het gebruiken [sequentiële segmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html) kopen, die u helpt begrijpen welke acties aansturen omzetting.
 
 ## Demografische gerichte {#section_F034DB721A06419283DBD29D4A1B444B}
 
