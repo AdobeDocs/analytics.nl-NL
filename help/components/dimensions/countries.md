@@ -1,14 +1,13 @@
 ---
 title: Landen
 description: Het land waar de treffer vandaan kwam.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
+source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
-
 
 # Landen
 
@@ -16,15 +15,11 @@ De dimensie &#39;Landen&#39; meldt het land waar de slachtoffers vandaan komen. 
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar interne opzoekregels van Adobe. De raadplegingswaarde is gebaseerd op het IP adres dat met de klap wordt verzonden. Adobe werkt samen met [Digital Element](https://www.digitalelement.com/) om zoekopdrachten tussen IP-adres en land te onderhouden. Deze dimensie werkt uit de doos voor alle implementaties.
+Deze afmeting verwijst raadplegingsregels intern aan Adobe. De raadplegingswaarde is gebaseerd op het IP adres dat met de klap wordt verzonden. Adobe werkt met [Digitaal Element](https://www.digitalelement.com/) samen om raadplegingen tussen IP adres en land te handhaven. Deze dimensie werkt uit de doos voor alle implementaties.
 
->[!TIP]
->
->Als uw organisatie strenge privacyverordeningen volgt waar het [verduisteren van IP adres](/help/admin/admin/general-acct-settings-admin.md) niet genoeg is, kunt u verzoeken om geolocatiegegevens volledig onbruikbaar te maken. Neem contact op met de klantenservice met de id van de rapportsuite en verzoek &#39;Geography&#39; uit te schakelen voor de rapportsuite.
+## Dimension-items
 
-## Dimensie-items
-
-Dimensie-items zijn landen over de hele wereld. Voorbeelden hiervan zijn `"United States"`, `"United Kingdom"`of `"India"`.
+Dimension-objecten omvatten landen over de hele wereld. Voorbeelden van waarden zijn `"United States"`, `"United Kingdom"` of `"India"`.
 
 ## Verschillen tussen gerapporteerde en werkelijke locatie
 
