@@ -1,32 +1,27 @@
 ---
 title: VS-staten
 description: De Amerikaanse staat van de bezoeker.
-translation-type: tm+mt
-source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
+exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
+source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
-
 # Amerikaanse staat
 
-De dimensie &#39;Amerikaanse staat&#39; meldt de staat van de bezoeker in de Verenigde Staten van Amerika. Het is vergelijkbaar met de dimensie [Regio](regions.md) &#39;s, maar deze dimensie is specifiek voor de Verenigde Staten. Het gebruik van deze dimensie is waardevol als u meer inzicht wilt dan [landen](countries.md) maar niet zo korrelig als [steden](cities.md).
+De dimensie &#39;Amerikaanse staat&#39; meldt de staat van de bezoeker in de Verenigde Staten van Amerika. Het is gelijkaardig aan [Regions](regions.md) dimensie, behalve dat is deze dimensie specifiek voor de Verenigde Staten. Het gebruik van deze dimensie is waardevol als u meer inzicht wilt hebben dan [Landen](countries.md) maar niet zo korrelig als [Steden](cities.md).
 
 ## Deze dimensie vullen met gegevens
 
 Deze afmeting verwijst raadplegingsregels intern aan Adobe. De raadplegingswaarde is gebaseerd op het IP adres dat met de klap wordt verzonden. Adobe werkt met [Digitaal Element](https://www.digitalelement.com/) samen om raadplegingen tussen IP adres en land te handhaven. Deze dimensie werkt uit de doos voor alle implementaties.
 
->[!TIP]
->
->Als uw organisatie strenge privacyverordeningen volgt waar het [verduisteren van IP adres](/help/admin/admin/general-acct-settings-admin.md) niet genoeg is, kunt u verzoeken om geolocatiegegevens volledig onbruikbaar te maken. Neem contact op met de klantenservice met de id van de rapportsuite en verzoek &#39;Geography&#39; uit te schakelen voor de rapportsuite.
-
 ## Dimension-items
 
-Tot de Dimension-items behoren regio&#39;s en het land waarin de regio woont. Voorbeelden hiervan zijn `"California"`, `"Texas"`of `"Virginia"`. Het dimensie-item `"Unspecified"` omvat alle internationale verkeer buiten de Verenigde Staten.
+Tot de Dimension-items behoren regio&#39;s en het land waarin de regio woont. Voorbeelden van waarden zijn `"California"`, `"Texas"` of `"Virginia"`. Het dimensie-item `"Unspecified"` omvat alle internationale verkeer buiten de Verenigde Staten.
 
-Deze dimensie kan `"AOL"`, een wijzerplaat-op Internet dienstverlener omvatten. De abonnees aan deze dienst worden toegewezen een toegangspunt. De gebruikers van AOL gebruiken het IP adres van dit toegangspunt. Aangezien deze afmeting op IP adres gebaseerd is, wordt de geolocatie van het toegangspunt gebruikt in plaats van de daadwerkelijke plaats van de bezoeker.
+Deze dimensie kan `"AOL"`, een inbelverbinding van Internet Service Provider omvatten. De abonnees aan deze dienst worden toegewezen een toegangspunt. De gebruikers van AOL gebruiken het IP adres van dit toegangspunt. Aangezien deze afmeting op IP adres gebaseerd is, wordt de geolocatie van het toegangspunt gebruikt in plaats van de daadwerkelijke plaats van de bezoeker.
 
 ## Verschillen tussen gerapporteerde en werkelijke locatie
 
