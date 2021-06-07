@@ -1,30 +1,25 @@
 ---
 title: US DMA
 description: Het aangewezen marktgebied van de hit.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
+source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
 
-
 # US DMA
 
-De dimensie &quot;DMA van de VS&quot; rapporteert het aangewezen marktgebied (DMA) van de bezoeker. Het is gebaseerd op de mediamarkten die door [Nielsen](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/)zijn samengesteld.
+De dimensie &quot;DMA van de VS&quot; rapporteert het aangewezen marktgebied (DMA) van de bezoeker. Het is gebaseerd op mediamarkten gecompileerd door [Nielsen](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/).
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar interne opzoekregels van Adobe. De raadplegingswaarde is gebaseerd op het IP adres dat met de klap wordt verzonden. Adobe werkt samen met Nielsen om raadplegingen tussen IP adres en DMA te handhaven. Deze dimensie werkt uit de doos voor alle implementaties.
+Deze afmeting verwijst raadplegingsregels intern aan Adobe. De raadplegingswaarde is gebaseerd op het IP adres dat met de klap wordt verzonden. Adobe partners met Nielsen om raadplegingen tussen IP adres en DMA te handhaven. Deze dimensie werkt uit de doos voor alle implementaties.
 
->[!TIP]
->
->Als uw organisatie strenge privacyverordeningen volgt waar het [verduisteren van IP adres](/help/admin/admin/general-acct-settings-admin.md) niet genoeg is, kunt u verzoeken om geolocatiegegevens volledig onbruikbaar te maken. Neem contact op met de klantenservice met de id van de rapportsuite en verzoek &#39;Geography&#39; uit te schakelen voor de rapportsuite.
+## Dimension-items
 
-## Dimensie-items
-
-Dimensie-items omvatten de DMA- en DMA-code van de bezoeker. De 3-cijfercode is geen postcode, maar de DMA-code van Nielsen. Voorbeelden hiervan zijn `"Dallas-Ft. Worth (623)"`, `"New York (501)"`of `"Los Angeles (803)"`. Het dimensie-item `"No Metro (0)"` omvat alle internationale verkeer buiten de Verenigde Staten.
+Dimension-items omvatten de DMA- en DMA-code van de bezoeker. De 3-cijfercode is geen postcode, maar de DMA-code van Nielsen. Voorbeelden van waarden zijn `"Dallas-Ft. Worth (623)"`, `"New York (501)"` of `"Los Angeles (803)"`. Het dimensie-item `"No Metro (0)"` omvat alle internationale verkeer buiten de Verenigde Staten.
 
 ## Verschillen tussen gerapporteerde en werkelijke locatie
 
