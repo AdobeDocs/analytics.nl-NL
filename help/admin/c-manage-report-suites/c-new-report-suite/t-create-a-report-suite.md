@@ -3,10 +3,9 @@ description: Een basiscontainer maken voor gegevensverzameling in Adobe Analytic
 title: Een rapportsuite maken
 feature: Admin Tools
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '372'
 ht-degree: 5%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 5%
 
 Een rapportenreeks is een silo van gegevens die Adobe Analytics gebruikt om rapporten te trekken. Een organisatie kan vele rapportreeksen hebben, elk die verschillende gegevensreeksen bevatten. Afzonderlijke rapportsuites waren in het verleden belangrijk, maar het hebben van één enkele rapportsuite is voordeliger geworden. Dankzij de introductie van [virtuele rapportesuites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) en de verwerking van de rapporttijd kunnen beheerders uw eigen subsets van gegevens maken, zodat ze over de flexibiliteit beschikken om zowel algemene als locatiespecifieke gegevens te verkrijgen.
 
-Dit artikel is ontworpen voor systeembeheerders of analytische beheerders ter voorbereiding op gegevensverzameling.
+Dit artikel is bedoeld voor systeembeheerders of Adobe Analytics-beheerders die zich moeten voorbereiden op gegevensverzameling.
 
 ## Vereisten
 
@@ -44,8 +43,8 @@ Dit betekent dat aan uw account niet de juiste machtigingen voor Analytics zijn 
 
 **Nadat u zich hebt aangemeld bij Adobe Analytics, ontbreken de pop-up en vervolgkeuzelijst Welkom bij Adobe Analytics.**
 
-Controleer of u zich hebt aangemeld via de Experience Cloud en niet via my.omniture.com. Gebruiker die zich via my.omniture.com aanmeldt, beschikt niet over de wizard om de rapportsuite in te stellen.
+Zorg ervoor dat u door [Experience Cloud ](https://experience.adobe.com), en niet door my.omniture.com hebt het programma geopend. Gebruiker die zich via my.omniture.com aanmeldt, beschikt niet over de wizard om de rapportsuite in te stellen.
 
 ## Volgende stappen
 
-[Een eigenschap maken en configureren voor Adobe Analytics in Launch](/help/implement/launch/create-analytics-property.md): Een gebied maken om uw analytische implementatie te beheren
+[Een eigenschap voor Adobe Analytics in Adobe Experience Platform Launch](/help/implement/launch/create-analytics-property.md) maken en configureren: Een gebied maken om uw analytische implementatie te beheren
