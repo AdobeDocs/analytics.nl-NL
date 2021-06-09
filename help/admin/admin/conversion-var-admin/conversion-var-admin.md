@@ -5,9 +5,9 @@ title: Conversievariabelen (eVar)
 feature: Admin Tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2501d0a7b9e11569dc9feb3da378d445f72bef3d
+source-git-commit: 212f9c66e2916e629693bf4bf61e767af164900a
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Een ander voorbeeld: Als een eVar in Mei wordt gebruikt om interne bevorderingen
 
 **Hoofdlettergevoeligheid**
 
-De hoofdletters en kleine letters die bij de rapportage worden gebruikt, zijn gebaseerd op de eerste waarde van de back-endsysteemregisters. Deze waarde kan de eerste instantie zijn die ooit wordt gezien of kan variëren met een bepaalde tijdsperiode (bijvoorbeeld maandelijks), afhankelijk van de verscheidenheid en hoeveelheid gegevens die aan de rapportsuite zijn gekoppeld.
+Vars zijn niet hoofdlettergevoelig. De hoofdletters en kleine letters die bij de rapportage worden gebruikt, zijn gebaseerd op de eerste waarde van de back-endsysteemregisters. Deze waarde kan de eerste instantie zijn die ooit wordt gezien of kan variëren met een bepaalde tijdsperiode (bijvoorbeeld maandelijks), afhankelijk van de verscheidenheid en hoeveelheid gegevens die aan de rapportsuite zijn gekoppeld.
 
 **Tellers**
 
