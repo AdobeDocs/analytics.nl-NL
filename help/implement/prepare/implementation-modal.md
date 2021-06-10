@@ -2,16 +2,16 @@
 title: Implementatiemodel
 description: Leer meer over de eerste klantervaring voor het implementeren van Adobe Analytics-implementatie.
 exl-id: 46d35adf-33f3-422c-abda-5f4b56f803aa
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 43f2702c5bc0e76e5e9bbb014d46802bd5ecda50
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 14%
+source-wordcount: '21'
+ht-degree: 19%
 
 ---
 
 # Implementatiemodel
 
-Zie [Een rapportsuite maken](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/create-report-suite.html).
+Zie [Een rapportsuite maken](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 
 
