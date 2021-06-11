@@ -4,11 +4,10 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: 'Pas aan welke gegevens worden verzameld om meer uit Adobe Analytics te halen. '
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 86%
+source-wordcount: '379'
+ht-degree: 85%
 
 ---
 
@@ -127,6 +126,7 @@ ht-degree: 86%
 + Implementatie van Adobe Analytics voorbereiden {#prepare}
    + [Een datalaag maken](prepare/data-layer.md)
    + [Overwegingen voor algemene rapportsuites](prepare/global-rs.md)
+   + [Tags implementeren met meerdere suite](prepare/multi-suite-tagging.md)
    + [Implementatiemodel](prepare/implementation-modal.md)
    + [Een document voor het ontwerp van een oplossing maken](prepare/solution-design.md)
    + [Een bestaande Adobe Analytics-implementatie op zich nemen](prepare/existing-implementation.md)
