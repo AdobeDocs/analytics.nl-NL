@@ -1,14 +1,13 @@
 ---
 title: Implementeren met AMP
 description: Adobe Analytics implementeren op AMP-pagina's.
-translation-type: tm+mt
-source-git-commit: c3c581eab8a4677831968574c9fb8d6f6eadd7e9
+exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
+source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
 
 ---
-
 
 # Implementeren met AMP
 
@@ -35,15 +34,15 @@ In de volgende tabel worden deze twee methoden vergeleken:
 | Uitvoeringsmoeilijkheden | Enigszins moeilijk | Relatief eenvoudig |
 | Adobe Experience Cloud-integratie | Niet ondersteund | Gedeeltelijke ondersteuning |
 
-Weeg de voor- en nadelen binnen uw organisatie om te bepalen welke methode u wilt gebruiken. Zie [AMP-voorbeelden1/> op Adobe&lt;itHub-opslagplaats voor voorbeeldcode.](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web)
+Weeg de voor- en nadelen binnen uw organisatie om te bepalen welke methode u wilt gebruiken. Zie [AMP voorbeelden](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) op Adobe GitHub bewaarplaats voor steekproefcode.
 
 >[!WARNING]
 >
->Gebruik niet zowel de `"adobeanalytics"`- als `"adobeanalytics_nativeConfig"`-sjablonen op dezelfde pagina met AMP. Als u dit probeert, kunt u fouten in de browserconsole genereren en bezoekers dubbel tellen.
+>Gebruik niet zowel de `"adobeanalytics"`- als `"adobeanalytics_nativeConfig"`-sjablonen op dezelfde pagina met AMP. Als u dit probeert, kunt u fouten in de browser console en dubbele tellingen bezoekers produceren.
 
 ## Methode 1: Gebruik de tag amp-analytics met de sjabloon &quot;adobeanalytics&quot;
 
-De sjabloon `"adobeanalytics"` voor het bijhouden van sjablonen gebruikt de HTML-tag `<amp-analytics>` om rechtstreeks een aanvraag voor het bijhouden van wijzigingen samen te stellen. U kunt raakverzoeken opgeven die worden geactiveerd bij specifieke paginagebeurtenissen, zoals wanneer de pagina zichtbaar wordt of bij een klik. Klik op gebeurtenissen om deze op bepaalde element-id&#39;s of -klassen toe te passen door een kiezer op te geven. U kunt de sjabloon laden door `type="adobeanalytics"` toe te voegen aan de tag amp-analytics.
+De volgende sjabloon `"adobeanalytics"` gebruikt de HTML-tag `<amp-analytics>` om rechtstreeks een volgende aanvraag samen te stellen. U kunt raakverzoeken opgeven die moeten worden geactiveerd bij specifieke paginagebeurtenissen, zoals wanneer de pagina zichtbaar wordt of wanneer u op een klik klikt. Klik gebeurtenissen kunnen worden aangepast om op bepaalde element-id&#39;s of -klassen toe te passen door een kiezer op te geven. U kunt de sjabloon laden door `type="adobeanalytics"` toe te voegen aan de tag amp-analytics.
 
 In het volgende codevoorbeeld worden twee triggers gedefinieerd: `pageLoad` en `click`. De trigger `pageLoad` wordt geactiveerd wanneer het document zichtbaar wordt en bevat de variabele `pageName` zoals gedefinieerd in de sectie `vars`. De tweede trigger `click` wordt geactiveerd wanneer op een knop wordt geklikt. `eVar1` wordt ingesteld voor deze gebeurtenis met de waarde  `button clicked`.
 
@@ -56,7 +55,7 @@ In het volgende codevoorbeeld worden twee triggers gedefinieerd: `pageLoad` en `
       },
       "vars": {
         "host": "example.data.adobedc.net",
-        "reportSuites": "reportSuiteID",
+        "reportSuites": "reportSuiteID1,reportSuiteID2",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
       "triggers": {
@@ -78,27 +77,27 @@ In het volgende codevoorbeeld worden twee triggers gedefinieerd: `pageLoad` en `
 </amp-analytics>
 ```
 
-In de `click` trigger kunt u een kiezer opgeven om ervoor te zorgen dat wanneer op het specifieke DOM-element wordt geklikt (in dit geval elke knop), het `buttonClick`-verzoek wordt geactiveerd en automatisch wordt ingesteld om deze hit aan te duiden als een aanroep om de koppeling te volgen.
+In de `click` trekker, kunt u een selecteur specificeren om ervoor te zorgen dat wanneer het specifieke element DOM (in dit geval, om het even welke knoop) wordt geklikt, het `buttonClick` verzoek in brand wordt gestoken en automatisch wordt geplaatst om deze klap als verbinding het volgen vraag aan te duiden.
 
-Daarnaast ondersteunt `amp-analytics` een aantal variabele vervangingen, zodat AMP gegevenswaarden kan leveren waarvan het gebruik bekend is. Zie [variabelen die in amp-analytics](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) op GitHub worden ondersteund voor meer informatie.
-
->[!NOTE]
->
->Afbeeldingsverzoeken die met deze methode naar Adobe worden verzonden, bevatten geen gegevens voor veel standaardrapporten (bijvoorbeeld browser, schermgrootte of referentie). Als u deze informatie in hits wilt opnemen, moet u ervoor zorgen dat deze worden opgenomen in de queryreeks voor afbeeldingsverzoeken. Zie [Query-parameters voor gegevensverzameling](../validate/query-parameters.md) voor meer informatie.
-
-Adobe identificeert bezoekers met een ingebouwde AMP-functie en stelt de cookie `adobe_amp_id` in. Deze bezoeker-id is uniek voor elke andere id die door Adobe Analytics is ingesteld (bijvoorbeeld het cookie `s_vi`). De Adobe Experience Cloud ID Service wordt niet ondersteund met deze implementatiemethode.
+Daarnaast ondersteunt `amp-analytics` een aantal variabelevervangingen, zodat AMP gegevenswaarden kan leveren waarvan het op de hoogte is. Zie [variabelen die in amp-analytics](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) op GitHub voor meer informatie worden gesteund.
 
 >[!NOTE]
 >
->AMP gebruikt CDN&#39;s om inhoud te leveren. Het is gestructureerd om voor elke CDN een andere unieke bezoeker te tellen waaruit een bezoeker inhoud ophaalt, waardoor het aantal unieke bezoekers kan toenemen.
+>Afbeeldingsverzoeken die met deze methode naar Adobe worden verzonden, bevatten geen gegevens voor veel standaardrapporten (bijvoorbeeld browser, schermgrootte of referentie). Als u deze informatie in klappen wilt omvatten, zorg ervoor zij als deel van het koord van de de vraagvraag van het beeldverzoek worden omvat. Zie [De parameters van de inzamelingsvraag van gegevens](../validate/query-parameters.md) voor meer informatie.
+
+Adobe identificeert bezoekers die een ingebouwde functie van AMP gebruiken, en plaatst het koekje `adobe_amp_id`. Deze bezoeker-id is uniek voor elke andere id die door Adobe Analytics is ingesteld (bijvoorbeeld het cookie `s_vi`). De Adobe Experience Cloud ID-service wordt niet ondersteund met deze implementatiemethode.
+
+>[!NOTE]
+>
+>AMP gebruikt CDN&#39;s om inhoud te leveren. Het is gestructureerd om een verschillende unieke bezoeker voor elke CDN te tellen een bezoeker ontvangt inhoud van, die unieke bezoekersaantallen kan opblazen.
 
 Het gebruik van een aparte rapportsuite voor AMP-pagina&#39;s wordt aanbevolen, omdat AMP unieke bezoekers identificeert.
 
-Deze oplossing vereist dat de trackingserver die u opgeeft in de eigenschap `host` overeenkomt met de trackingserver op uw hoofdsite, zodat uw bestaande besturingselementen voor het privacybeleid worden gerespecteerd. Anders maakt u een apart privacybeleid voor pagina&#39;s met AMP.
+Deze oplossing vereist dat de volgende server u in het `host` bezit specificeert de volgende server op uw belangrijkste plaats aanpast, zodat uw bestaande controles van het privacybeleid worden geëerbiedigd. Anders maakt u een apart privacybeleid voor pagina&#39;s met AMP.
 
 ## Methode 2: Gebruik de tag amp-analytics met de sjabloon &quot;adobeanalytics_nativeConfig&quot;
 
-De tag `"adobeanalytics_nativeConfig"` is eenvoudiger te implementeren, omdat deze dezelfde tagmethodologie gebruikt als voor uw normale webpagina&#39;s. Voeg het volgende toe aan uw `amp-analytics`-tag:
+De tag `"adobeanalytics_nativeConfig"` is eenvoudiger te implementeren, omdat deze dezelfde coderingsmethode gebruikt als voor normale webpagina&#39;s. Voeg het volgende toe aan uw `amp-analytics` markering:
 
 ```html
 <amp-analytics type="adobeanalytics_nativeConfig">
@@ -132,7 +131,7 @@ Er is ook een HTML-pagina vereist die wordt gehost op uw webservers:
   <body>
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
-      var s_account = "examplersid";
+      var s_account = "examplersid1,examplersid2";
       var s_trackingServer = "example.data.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
@@ -152,28 +151,28 @@ Er is ook een HTML-pagina vereist die wordt gehost op uw webservers:
 </html>
 ```
 
-Deze benadering verzendt gegevens naar een nutswebpagina door middel van query-tekenreeksparameters die aan de `iframeMessage` aanvraagparameter zijn toegevoegd. Deze querytekenreeksparameters kunnen elke gewenste naam hebben, zolang uw `stats.html`-pagina is geconfigureerd om gegevens van deze parameters te verzamelen.
+Deze benadering verzendt gegevens naar een nutWeb-pagina door vraagkoordparameters die aan `iframeMessage` verzoekparameter worden toegevoegd. Deze parameters van het vraagkoord kunnen worden genoemd wat u houdt, zolang uw `stats.html` pagina wordt gevormd om gegevens van hen te verzamelen.
 
-De sjabloon `"adobeanalytics_nativeConfig"` voegt ook parameters van queryreeksen toe op basis van de variabelen die worden vermeld in de sectie `extraUrlParams` van de tag amp-analytics. In het bovenstaande voorbeeld zijn de parameters `pageName` en `v1` opgenomen.
+De sjabloon `"adobeanalytics_nativeConfig"` voegt ook parameters van queryreeksen toe op basis van de variabelen in de sectie `extraUrlParams` van de tag amp-analytics. In het bovenstaande voorbeeld worden de parameters `pageName` en `v1` opgenomen.
 
 >[!IMPORTANT]
 >
->Uw `stats.html`-pagina moet worden gehost op een apart subdomein van het domein waarop de AMP zelf wordt gehost. Het AMP-framework staat geen iframes toe van hetzelfde subdomein waarop de AMP-pagina zelf bestaat. Als uw AMP bijvoorbeeld wordt gehost op `amp.example.com`, host u uw `stats.html`-pagina op een apart subdomein, zoals `ampmetrics.example.com`.
+>Uw `stats.html` pagina moet op een afzonderlijk subdomein van het domein worden ontvangen AMP zelf wordt ontvangen. Het AMP-framework staat geen iFrames toe van hetzelfde subdomein waarop de AMP-pagina zelf bestaat. Als uw AMP bijvoorbeeld wordt gehost op `amp.example.com`, host u uw `stats.html`-pagina op een afzonderlijk subdomein, zoals `ampmetrics.example.com`.
 
-Als u deze methode gebruikt en een gebruiker niet meer op uw primaire site hoeft te volgen, wordt het bijhouden van de gegevens op al uw AMP&#39;s ook uitgeschakeld. Het gebruik van deze hulpprogrammapagina betekent ook dat AMP de Adobe Experience Cloud ID Service kan ondersteunen. Een afzonderlijke rapportsuite is niet vereist.
+Als een gebruiker deze methode gebruikt en op uw primaire site niet meer wil bijhouden, wordt het bijhouden van de gegevens ook niet meer uitgevoerd op al uw AMP&#39;s. Het gebruik van deze hulpprogrammapagina betekent ook dat AMP de Adobe Experience Cloud ID Service kan ondersteunen. Een afzonderlijke rapportsuite is niet vereist.
 
-Met deze methode kunt u geen koppelingsreeksspatiëring en videoreeksspatiëring gebruiken. De tag `iframeMessage` in AMP kan slechts eenmaal per pagina worden geladen. U kunt dus geen andere afbeeldingsverzoeken verzenden nadat het frame is geladen. Voor deze methode zijn ook meer verwerkingsbronnen vereist, wat van invloed kan zijn op de schuifprestaties. Deze methode heeft geen invloed op de laadtijd van de pagina, aangezien alle bronnen asynchroon worden geladen.
+Koppelingen bijhouden en video bijhouden kunnen niet worden gebruikt met deze methode. De tag `iframeMessage` in AMP kan slechts één keer per pagina worden geladen. U kunt dus geen andere afbeeldingsverzoeken verzenden nadat het frame is geladen. Voor deze methode zijn ook meer verwerkingsbronnen nodig die de schuifprestaties kunnen beïnvloeden. Deze methode heeft geen invloed op de laadtijd van de pagina, aangezien alle bronnen asynchroon worden geladen.
 
 ## Veelgestelde vragen
 
-**Is videotracering beschikbaar voor beide methoden?**
+**Is video het volgen beschikbaar voor één van beide methode?**
 
-Nee. De AMP-standaard ondersteunt alleen triggers voor &quot;visible&quot;, &quot;click&quot; en &quot;timer&quot;. De tag biedt nog geen ondersteuning voor expliciete triggers voor het bijhouden van video&#39;s waarnaar de tag `amp-analytics` kan luisteren. Bovendien kan de sjabloon `"adobeanalytics_nativeConfig"` maar één keer worden geladen, zodat volgende afbeeldingsverzoeken nadat een pagina is geladen niet mogelijk zijn.
+Nee. De AMP-standaard ondersteunt alleen triggers voor &quot;visible&quot;, &quot;click&quot; en &quot;timer&quot;. De tag biedt nog geen ondersteuning voor expliciete triggers voor het bijhouden van video&#39;s waarnaar de tag `amp-analytics` kan luisteren. Bovendien kan de sjabloon `"adobeanalytics_nativeConfig"` slechts eenmaal worden geladen, zodat volgende afbeeldingsaanvragen nadat een pagina is geladen niet mogelijk zijn.
 
-**Hoe kan ik AMP-bezoekers onderscheiden van andere bezoekers in mijn data?**
+**Hoe kan ik AMP-bezoekers onderscheiden van anderen in mijn gegevens?**
 
-Voor alle AMP-pagina&#39;s verzamelt de [!UICONTROL JavaScript Version]-dimensie een waarde die vergelijkbaar is met `AMP vX.X`. U kunt ook een aangepaste dimensie instellen op &#39;AMP&#39;, zodat u deze bezoekers kunt segmenteren.
+Voor alle AMP-pagina&#39;s wordt met de [!UICONTROL JavaScript Version]-dimensie een waarde verzameld die vergelijkbaar is met `AMP vX.X`. U kunt ook een aangepaste dimensie instellen op &#39;AMP&#39;, zodat u deze bezoekers kunt segmenteren.
 
-**Hoe verhoudt deze implementatiemethode zich tot de Instant-artikelen van Facebook?**
+**Hoe verhoudt deze implementatiemethode zich tot Facebook Instant-artikelen?**
 
-Onmiddellijke Facebook-artikelen bieden ondersteuning voor een vergelijkbare oplossing als de `"adobeanalytics_nativeConfig"`-methode. De `stats.html`-pagina voor deze methode kan tegelijk voorzien in uw analysebehoeften voor zowel AMP als FIA. Zie [Onmiddellijke Facebook-artikelen](fb-instant-articles.md) voor meer informatie over het implementeren van tracering op FIA.
+Facebook Instant Articles ondersteunt een vergelijkbare oplossing als de `"adobeanalytics_nativeConfig"`-methode. De pagina `stats.html` voor deze methode kan uw analysebehoeften voor zowel AMP als FIA gelijktijdig dienen. Voor meer informatie bij het uitvoeren van het volgen op FIA, zie [Facebook Onmiddellijke Artikelen](fb-instant-articles.md).
