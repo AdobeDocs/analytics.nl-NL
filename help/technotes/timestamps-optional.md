@@ -5,9 +5,9 @@ title: Tijdstempels optioneel gebruiken
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Hieronder vindt u best practices en een aantal vereisten en beperkingen die u in
 
    Gegevens die niet op volgorde staan, kunnen gegevens bevatten die te laat aankomen bij het verzamelen van offlinegegevens en laat aankomen, of uit-of-synchronisatieklokken op mobiele offlineapparaten. Buiten-de-ordegegevens kunnen tijdberekeningen (zoals tijd bestede waarden), attributie (persistentie van de eVar), het aantal van het bezoek/bezoek tellingen, en het kleven rapporten negatief beïnvloeden.
 
-* Het gebruik van tijdstempels bij het instellen van een [s.bezoekerID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html) wordt niet aanbevolen. Dit kan leiden tot gegevens die niet op volgorde staan.
+* Het gebruik van tijdstempels bij het instellen van een [s.bezoekerID](/help/implement/vars/config-vars/visitorid.md) wordt niet aanbevolen. Dit kan leiden tot gegevens die niet op volgorde staan.
 
 * Hybride apps die bestaan uit een app (tijdstempeling, offlinegegevens) die een webbrowser opent (niet-tijdstempels, live gegevens), mogen geen tijdstempels gebruiken. Dit leidt tot een onjuiste rapportage van de sessie.
 
