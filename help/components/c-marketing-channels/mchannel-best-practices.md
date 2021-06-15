@@ -1,10 +1,9 @@
 ---
 title: Aanbevolen procedures voor het implementeren van Adobe Analytics Marketing Channel
 description: Bijgewerkte beste praktijken voor het gebruiken van de Kanalen van de Marketing met Attribution IQ en Customer Journey Analytics
-translation-type: tm+mt
-source-git-commit: 9e274e54b7ce494dc5a21961a842e4365cb2a084
+source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +25,7 @@ Wij adviseren gebruikend [Attribution IQ](https://experienceleague.adobe.com/doc
 
 ![](assets/attribution.png)
 
-* De configuratie van de dimensies het Kanaal van de Marketing en het Detail van het Kanaal van de Marketing vestigt te evalueren aanraakpunten, overeenkomstig elke Instantie van het Kanaal van de Marketing.
+* De configuratie van de dimensies van het Kanaal van de Marketing en het Detail van het Kanaal van de Marketing vestigt te evalueren aanraakpunten, die aan elke Instantie van het Kanaal van de Marketing beantwoorden.
 * Voor metrische analyse, zou uw organisatie zich op één of meerdere attributiemodel(en) moeten richten. Sla aangepaste maateenheden op met dit model, zodat u ze eenvoudig opnieuw kunt gebruiken.
 * Standaard worden gegevens toegewezen met gebruik van Last Touch en de instelling van de bezoekersperiode. De Attribution IQ metrische modellen bieden grotere controle over de raadplegingsvensters en meer verscheidenheid, met inbegrip van [algoritmische attributie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace).
 
@@ -34,7 +33,7 @@ Wij adviseren gebruikend [Attribution IQ](https://experienceleague.adobe.com/doc
 
 De directe en Interne kanalen/van het Sessievernieuwen worden niet geadviseerd voor gebruik met de modellen van de douaneattributie (Attribution IQ).
 
-Wat als uw organisatie reeds Directe en Zitting heeft gevormd verfrissen zich? In dit geval, adviseren wij dat u een classificatie voor uw Kanalen van de Marketing creeert en die twee kanalen ongeclassificeerd laat. De geclassificeerde dimensie zal de zelfde Attribution IQ resultaten opleveren alsof die kanalen nooit werden gevormd.
+Wat als uw organisatie reeds Directe en Zitting heeft gevormd verfrissen zich? In dit geval raden we u aan [een classificatie te maken](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=en) voor Eerste aanraking/Laatste aanraking en de kanalen voor Direct en Sessie vernieuwen ongeclassificeerd te laten. De geclassificeerde dimensie zal de zelfde Attribution IQ resultaten opleveren alsof die kanalen nooit werden gevormd.
 
 ![](assets/direct-session-refresh.png)
 
