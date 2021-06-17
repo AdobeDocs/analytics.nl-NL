@@ -5,9 +5,9 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Grondbeginselen van rapporten en analyses
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,9 @@ ht-degree: 0%
 
 Stappen bij het runnen van de verschillende rapporttypes.
 
-
 ## Een gerangschikt rapport uitvoeren {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 In een gerangschikt rapport, toont de lijst de rangschikkingen van de rapportpagina&#39;s met betrekking tot metrisch, volgens aantal of percentage. De gerangschikte rapporten kunnen veelvoudige metriek in een rapport tonen.
-
-<!-- 
-
-t_reports_ranked.xml
-
- -->
 
 1. Genereer een rapport, zoals een [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**).
 1. Klik in de rapportkoptekst op **[!UICONTROL Ranked.]**
@@ -37,12 +30,6 @@ t_reports_ranked.xml
 
 In trendrapporten worden metrische gegevens in de loop der tijd weergegeven. U gebruikt dit rapporttype wanneer u wilt zien hoe een segment van één tijdspanne aan volgende presteert.
 
-<!-- 
-
-t_reports_trended.xml
-
- -->
-
 De meeste rapporten van de Omzetting en van het Verkeer hebben een Gevorderde beschikbare mening. Met de [!UICONTROL Calendar] kunt u een verbetering weergeven voor uitsplitsingen naar tijdsperiode, zoals dagen van een maand, weken van een jaar, weken van een kwartaal, maanden van een jaar enzovoort. In trendrapporten worden trends weergegeven voor één meting (omzet, bestellingen, weergaven, enzovoort) voor maximaal vijf items (zoals producten, categorieën, webpagina&#39;s, enzovoort).
 
 **Een trendrapport uitvoeren**
@@ -50,29 +37,9 @@ De meeste rapporten van de Omzetting en van het Verkeer hebben een Gevorderde be
 1. Voer een conversie- of verkeersrapport uit, zoals **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
 1. Klik onder **[!UICONTROL Report Type]** op **[!UICONTROL Trended.]**
 
-## Een Conversion-structuurrapport uitvoeren {#task_B926A74AA6A641138C2986C1635120CB}
-
-De rapporten van het Kanaal van de Omzetting tonen het percentage bezoekers die door een reeks gebeurtenissen zijn gegaan om een gewenste actie uit te voeren. U kunt bijvoorbeeld zien hoeveel bezoekers uw webpagina hebben bezocht door items aan een winkelwagentje toe te voegen en vervolgens een object aan te schaffen. Dit verslag toont ook het aantal mensen dat onderweg is gevallen.
-
-<!-- 
-
-t_reports_conversion_funnel.xml
-
- -->
-
-Als u dit rapport wilt uitvoeren, selecteert u een rapport, zoals een rapport Pagina&#39;s ( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
-
-Zie [Conversierapporten](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html) voor een beschrijving.
-
 ## Een evaluatierapport uitvoeren {#task_8FD97C8260464F9DA731A93DB8F80184}
 
 In [!UICONTROL Fallout Report] ziet u het aantal bezoekers dat een vooraf opgegeven reeks pagina&#39;s heeft bezocht. Het toont ook omzettings en valutarieven tussen elke stap.
-
-<!-- 
-
-t_reports_fallout.xml
-
- -->
 
 Ontdek het nieuwe [Fallout Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) paneel in Analysis Workspace!
 
@@ -85,11 +52,6 @@ Ontdek het nieuwe [Fallout Analysis](https://experienceleague.adobe.com/docs/ana
 1. Klik op **[!UICONTROL Run Report]**.
 
    ![Stap Resultaat](assets/fallout_report.png)
-
->[!MORELIKETHIS]
->
->* [Beschrijving van evaluatierapport](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
-
 
 ## Een paginastroom-rapport uitvoeren {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
@@ -113,39 +75,15 @@ De pagina Privacybeleid kan bijvoorbeeld in totaal 10.000 paginaweergaven bevatt
 
 Het relatieve percentage wordt weergegeven door de relatieve breedte van de lijn. Dit rapport geeft standaard vijf vertakkingen op het tweede niveau en vijf vertakkingen op het derde niveau weer. U kunt het aantal vertakkingen uitbreiden om tot tien vertakkingen op het tweede niveau en vijf vertakkingen op het derde niveau weer te geven. Dit verhoogt de hoogte van het rapport en hoogstwaarschijnlijk vereist schuiven om de volledige grafiek te bekijken.
 
-## Een treinstaprapport uitvoeren {#task_2BBF6FACD48F479E8B2EE458919941CB}
-
-U kunt succesgebeurtenissen selecteren en deze toevoegen aan een [!UICONTROL Purchase Conversion Funnel]-rapport of een [!UICONTROL Product Conversion Funnel]-rapport.
-
-<!-- 
-
-t_reports_funnel.xml
-
- -->
-
-1. Klik op **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Productconversietrechter](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
-
 ## Een marketingkanaalrapport uitvoeren {#task_64ADED5CC75248319E06E3E029B47F78}
 
 De rapportage van het marketingkanaal biedt een overzichtsrapport van de eerste en laatste kanaaltoewijzing, met standaard rapportcijfers zoals omzet, bestellingen en kosten. Deze rapporten laten u toe om te analyseren hoeveel opbrengst elk kanaal produceert.
-
-<!-- 
-
-t_reports_marketing_channel.xml
-
- -->
 
 Zie [Marketing Channel](/help/components/c-marketing-channels/analyze-mc.md) Help voor meer informatie.
 
 ## Een Anomaly Detection-rapport uitvoeren {#task_4808C96327354D789C075823F5C3A049}
 
 Beschrijft hoe te om de Samenvatting en Individuele Metrische grafieken in Anomaly Detection te interpreteren.
-
-<!-- 
-
-t_anomaly_view.xml
-
- -->
 
 Bekijk de nieuwe [Anomaly Detection and Contribution Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)-functies in Analysis Workspace!
 
