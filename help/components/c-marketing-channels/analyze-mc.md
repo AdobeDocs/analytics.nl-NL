@@ -2,9 +2,9 @@
 title: Marketingkanalen analyseren
 description: Leer hoe u de dimensies Marketingkanalen in Workspace gebruikt.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '401'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ De Details van de Kanalen van de marketing duiken dieper in elk kanaal om u spec
 
 ## Kenmerkingsmodellen toepassen
 
-U kunt [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) gebruiken om verschillende attribuutmodellen onmiddellijk toe te passen:
+U kunt [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) gebruiken om verschillende attribuutmodellen onmiddellijk toe te passen:
 
 ![](assets/mc-viz5.png)
 
