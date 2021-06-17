@@ -3,10 +3,10 @@ description: Variabelen voor privacyrapportage in Data Privacy.
 title: Variabelen voor privacyrapportage
 feature: Admin Tools
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 96%
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,7 @@ Zie [Contextdatavariabelen](https://experienceleague.adobe.com/docs/analytics/im
 
 * Contextdata: `contextData.['cm.ssf']`
 * Geaccepteerde waarden:
-   * 1 - Wanneer u de waarde 1 verzendt, geeft dit aan dat Server Side Forwarding zich in de status “opt-out” bevindt. De waarde 1 in combinatie met deze variabele blokkeert het delen van deze treffer met Adobe Audience Manager. Zie [AAM ePrivacy Compliance](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1 - Wanneer u de waarde 1 verzendt, geeft dit aan dat Server Side Forwarding zich in de status “opt-out” bevindt. De waarde 1 in combinatie met deze variabele blokkeert het delen van deze treffer met Adobe Audience Manager. Zie [AAM ePrivacy Compliance](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=en).
    * 0 - Optioneel. Gebruik de waarde 0 voor klanten die hebben ingestemd met gerichte marketing. Als u de variabele niet instelt, krijgt u dezelfde resultaten.
 
 ### DMP
