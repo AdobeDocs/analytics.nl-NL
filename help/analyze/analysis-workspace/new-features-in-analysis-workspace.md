@@ -5,10 +5,10 @@ title: Nieuwe functies in Analysis Workspace
 feature: Basisprincipes van werkruimte
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '8171'
-ht-degree: 89%
+source-wordcount: '8164'
+ht-degree: 88%
 
 ---
 
@@ -111,7 +111,7 @@ Nieuwe functies uitgebracht op 20 februari 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| Nieuwe Workspace-sjabloon voor voor bedrijven die CDA (Cross-Device Analytics) gebruiken | In deze sjabloon ziet u hoe effectief CDA is bij het samenvoegen van bezoeken en leert u over exclusieve CDA-dimensies en metrics. Een rapportsuite met CDA is vereist. Zie [CDA (Cross-Device Analytics)](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html) instellen voor meer informatie. |
+| Nieuwe Workspace-sjabloon voor voor bedrijven die CDA (Cross-Device Analytics) gebruiken | In deze sjabloon ziet u hoe effectief CDA is bij het samenvoegen van bezoeken en leert u over exclusieve CDA-dimensies en metrics. Een rapportsuite met CDA is vereist. Zie [Apparaatanalyse instellen](/help/components/cda/setup.md) voor meer informatie. |
 | Nieuwe sneltoetsen in Workspace | <ul><li>Alle deelvensters samenvouwen/uitvouwen: `alt + m`</li><li>Actief deelvenster samenvouwen/uitvouwen: `alt + ctrl + m`</li><li>Zoeken in linkerrail: `ctrl + /`</li><li>Naar volgend deelvenster gaan: `alt + Right Key`</li><li>Naar vorig deelvenster gaan: `alt + Left Key`</li></ul>[Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Andere verbeteringen in Workspace | <ul><li>Wanneer een deelvenster of visualisatie in Workspace wordt geplaatst, schakelt de linkerrail nu automatisch naar componenten voor een naadloze workflow.</li><li>Sjablooncomponenten kunnen nu worden bewerkt (bijvoorbeeld voorzien van tags, als favoriet ingesteld of goedgekeurd).</li><li>De gefilterde metrische lijsten en segmentlijsten bevatten nu een plusknop (+) waarmee u een nieuwe component kunt toevoegen als u niet vindt wat u nodig hebt.</li></ul> |
 | Foutopsporing voor Workspace | Het Help-menu van Workspace bevat nu een optie voor foutopsporing, zodat u deze naadloos kunt inschakelen bij Workspace-verzoeken voor foutopsporing. [Meer informatie...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
