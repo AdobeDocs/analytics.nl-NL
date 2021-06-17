@@ -6,9 +6,9 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Waarschuwingen
 role: Business Practitioner, Administrator
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '828'
 ht-degree: 6%
 
 ---
@@ -104,11 +104,6 @@ deprecated_alerts.xml
   <tr> 
    <td colname="col1"> <p>Waarschuwingen met een ASI-sleuf als rapportsuite </p> </td> 
    <td colname="col2"> <p>U kunt geen ASI-sleuven meer maken of bewerken en deze zijn niet beschikbaar voor gebruik in Analysis Workspace. Daarom worden zij niet ondersteund door de nieuwe waarschuwingen. </p> <p> </p> </td> 
-   <td colname="col3"> <p>Niet beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Waarschuwingen die gebruikmaken van participatiemetingen </p> </td> 
-   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metrics-participation.html"  > De metriek van de participatie  </a> is beschikbaar in Rapporten &amp; Analytics, maar is momenteel niet beschikbaar in het nieuwe alarmsysteem in Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Niet beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
   </tr> 
   <tr> 
