@@ -3,9 +3,9 @@ description: 'Meer informatie over '
 title: Type cijfers en attributie
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '888'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het me
 
 >[!IMPORTANT]
 >
->In juli 2018 heeft [!DNL Analytics] [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) geïntroduceerd, die de manier waarop toewijzingsmodellen in berekende metriek worden geëvalueerd, heeft herzien. In het kader van deze wijziging zijn berekende maatstaven die een niet-standaard toewijzingsmodel gebruiken, gemigreerd naar nieuwe, verbeterde toewijzingsmodellen:
+>[Attribution ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) IQ heeft de manier herzien waarop toewijzingsmodellen in berekende metriek worden geëvalueerd. In het kader van deze wijziging zijn berekende maatstaven die een niet-standaard toewijzingsmodel gebruiken, gemigreerd naar nieuwe, verbeterde toewijzingsmodellen:
 >
 >* Raadpleeg de documentatie [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) voor een volledige lijst met ondersteunde niet-standaard toewijzingsmodellen en terugzoekvensters.
 >* De toewijzingsmodellen &quot;Marketing Channel Last Touch&quot; en &quot;Marketing Channel First Touch&quot; worden gemigreerd naar nieuwe toewijzingsmodellen &quot;Last Touch&quot; en &quot;First Touch&quot; (Opmerking: De &quot;Kanalen van de marketing&quot;zullen niet worden afgekeurd - slechts zullen de twee toewijzingsmodellen die in berekende metriek verschijnen).
@@ -72,9 +72,9 @@ Voor de eerste aanraking hierboven, alle $10 zou aan A worden gegeven. Voor de e
 | PROMO C | $ 1,67 | $0 | $ 2,50 |
 | Totaal | $ 10,00 | $ 10,00 | $ 10,00 |
 
-**Overzicht van de werking van lineaire toewijzing op 19 juli 2018**
+**Overzicht van hoe lineaire toewijzing nu werkt**
 
-Na 19 juli corrigeerden we dit gedrag in berekende metriek. In plaats van de blijvend waarden te gebruiken op basis van laatste aanraking of eerste aanraking, gebruikt [!DNL Analytics] nu alleen de waarden die zijn doorgegeven (de eerste rij van de bovenste tabel). Als zodanig hebben de instellingen voor dimensietoewijzing geen invloed meer op de manier waarop lineaire toewijzing wordt berekend (d.w.z. dat props en eVars op dezelfde manier worden behandeld), en de resultaten weerspiegelen wat oorspronkelijk is doorgegeven in plaats van de eerste of laatste aanraakwaarden die mogelijk hebben geduurd. In alle drie gevallen is A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50, en C = 10 * (1/4) = $2,50.
+In plaats van de blijvend waarden te gebruiken op basis van laatste aanraking of eerste aanraking, gebruikt [!DNL Analytics] nu alleen de waarden die zijn doorgegeven (de eerste rij van de bovenste tabel). Als zodanig hebben de instellingen voor dimensietoewijzing geen invloed meer op de manier waarop lineaire toewijzing wordt berekend (d.w.z. dat props en eVars op dezelfde manier worden behandeld), en de resultaten weerspiegelen wat oorspronkelijk is doorgegeven in plaats van de eerste of laatste aanraakwaarden die mogelijk hebben geduurd. In alle drie gevallen is A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50, en C = 10 * (1/4) = $2,50.
 
 | Waarden | Nieuwe eVar met laatste aanraking | Nieuwe eVar eerste aanraking | Nieuwe eigenschap |
 |---|---|---|---|
