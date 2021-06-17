@@ -5,9 +5,9 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Grondbeginselen van rapporten en analyses
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ In rapporten wordt via een hiërarchische kolomweergave genavigeerd. Klik **[!UI
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Zie [Beschrijvingen rapporteren](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html) voor meer informatie over afzonderlijke rapporten.
+Zie [Dimension](/help/components/dimensions/overview.md) voor meer informatie over afzonderlijke rapporten.
 
 ## Zoeken naar rapporten {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
