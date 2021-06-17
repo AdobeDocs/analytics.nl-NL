@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Grondbeginselen van rapporten en analyses
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 0%
+source-wordcount: '1253'
+ht-degree: 1%
 
 ---
 
@@ -57,23 +57,9 @@ Ontdek het nieuwe [Fallout Analysis](https://experienceleague.adobe.com/docs/ana
 
 In de rapporten Paginastroom wordt de volgorde weergegeven waarin bezoekers de pagina&#39;s openen en door uw site navigeren. Dit rapport helpt antwoord
 
-Ontdek de nieuwe [Stroomvisualisatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
-
-Voer een rapport [Paden](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html) uit.
+Bekijk de [Stroomvisualisatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
 
 Klik bijvoorbeeld op **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**.
-
-![](assets/page_flow.png)
-
-U leest dit rapport van links naar rechts, te beginnen met de geselecteerde pagina. De pagina&#39;s die na de geselecteerde pagina zijn weergegeven, worden weergegeven als een vertakking die zich naar rechts uitbreidt.
-
-Het percentage dat elke volgende pagina is weergegeven, wordt naast de naam van de pagina weergegeven. De breedte van de lijn die aan elke volgende pagina wordt verbonden toont dit relatieve percentage.
-
-**[!UICONTROL Path Views]**: Hiermee geeft u het aantal keer aan dat een pagina is weergegeven, wanneer deze is beperkt tot de weergegeven paden.
-
-De pagina Privacybeleid kan bijvoorbeeld in totaal 10.000 paginaweergaven bevatten, maar slechts 500 van deze paginaweergaven vond direct na de startpagina plaats. De term padweergave wordt dus gebruikt.
-
-Het relatieve percentage wordt weergegeven door de relatieve breedte van de lijn. Dit rapport geeft standaard vijf vertakkingen op het tweede niveau en vijf vertakkingen op het derde niveau weer. U kunt het aantal vertakkingen uitbreiden om tot tien vertakkingen op het tweede niveau en vijf vertakkingen op het derde niveau weer te geven. Dit verhoogt de hoogte van het rapport en hoogstwaarschijnlijk vereist schuiven om de volledige grafiek te bekijken.
 
 ## Een marketingkanaalrapport uitvoeren {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -83,109 +69,11 @@ Zie [Marketing Channel](/help/components/c-marketing-channels/analyze-mc.md) Hel
 
 ## Een Anomaly Detection-rapport uitvoeren {#task_4808C96327354D789C075823F5C3A049}
 
-Beschrijft hoe te om de Samenvatting en Individuele Metrische grafieken in Anomaly Detection te interpreteren.
-
-Bekijk de nieuwe [Anomaly Detection and Contribution Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)-functies in Analysis Workspace!
-
-**[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
-
->[!NOTE]
->
->U kunt ook Anomaly Detection uitvoeren vanuit Analysis Workspace-projecten. [Meer...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
-
-Raadpleeg de [Referentiehandleiding](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection) voor informatie over het instellen van Anomaly Detection.
-
-Bij Anomaly-detectie worden twee typen grafieken weergegeven: Een overzichtsgrafiek en individuele metriekaarten. Individuele metrische diagrammen worden alleen getoond als ten minste één anomalie voor die meting is gedetecteerd.
-
-<table id="table_88163CD8FC164342855D90D01F9C581A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Type grafiek </p> </th> 
-   <th colname="col2" class="entry"> <p>Wat doet u? </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Samenvattingsgrafiek </p> <p><img placement="break"  src="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
-      <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">Elke doos vertegenwoordigt één anomalie, die per dag wordt gevolgd, die aan metrisch hieronder beantwoordt. </li> 
-      <li id="li_8FC587D3FF4E452D83263CC7A10B6675">Groen geeft anomalieën boven de trendlijn aan, blauw onder de trendlijn. </li> 
-      <li id="li_25135AB691BF443599AF2A3A60E2E71A">Geeft de sterkte van de anomalie aan: Hoe groter de anomalie, hoe donkerder de kleur van het gegevenspunt en hoe verder weg van de trendlijn. </li> 
-      <li id="li_0C42AFA8897D420D8AB1A5D0F65B3B3A">Als u op individuele anomalieën klikt, wordt het individuele metrische diagram van die anomalie (onder het overzichtsdiagram) bovenaan weergegeven. </li> 
-      <li id="li_85C0F426952547B5A75D6BD31DE19CA5">De waarden voor het afwijkingspercentage (links van de grafiek) worden als volgt berekend: 
-       <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
-        <li id="li_1BAB2F50482745B69937DFAF1E09982E">Als de bovenste grenzen en de verwachte waarde gelijk zijn, is de afwijking % 100% </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">Anders is de afwijking % (werkelijke waarde - bovenste gebonden waarde) / (bovenste gebonden waarde - verwachte waarde) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">Als de onderste grenzen en de verwachte waarde gelijk zijn, is de afwijking % -100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Anders is de afwijking % (laagste gebonden waarde - werkelijke waarde) / (verwachte waarde - laagste gebonden waarde) * -100 </li> 
-       </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Als u op <span class="uicontrol"> Segmenten tonen </span> klikt, wordt de segmentrail weergegeven waarmee u segmenten kunt toepassen op een afwijkingsdetectierapport. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  > Meer  </a> over segmentatie. </li> 
-      <li id="li_1B41CABF13D1407886C68EE3BC201E60">Als u op <span class="uicontrol"> Metriek bewerken </span>klikt, kunt u metriek selecteren en deselecteren waarvoor u anomalieën wilt detecteren. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Individuele metrische grafiek </p> <p><img placement="break"  src="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_739C5687013743A29B63089FDA763F45"> 
-      <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">Hiermee worden afwijkende gegevenspunten voor afzonderlijke trended-metriek (inclusief berekende metriek) als punten weergegeven. </li> 
-      <li id="li_89FD847C65F04F48BCA7CD38D0EC51CD">Geeft de meest recente anomalie bovenaan weer, en plaatst secundair op aantal anomalieën. </li> 
-      <li id="li_98B97A9706DE4455B8D8850904CBDE03">Geeft een effen lijn weer om de gegevens aan te geven die momenteel zijn verzameld. Dit wordt vergeleken met de prognose en de foutenmarge om te bepalen of gegevenspunten anomalieën zijn. </li> 
-      <li id="li_0EEA38DDDC344BF3879430E67D74EB72">Geeft een stippellijn weer die een voorspelling weergeeft op basis van historische gegevens (d.w.z. de trainingsperiode). </li> 
-      <li id="li_035BD2725D004AEDB630BF8DFF4DA4F3">Hiermee geeft u de bovenste en onderste 95%-betrouwbaarheidsintervallen/grenzen in een grijze schaduw weer. </li> 
-      <li id="li_021A3D1F2EDB4319B9B39620EF1C038A">Hiermee kunt u afzonderlijke rapporten samenvouwen en uitvouwen door op de pijl-omhoog of -omlaag naast de naam van de metrische waarde te klikken. </li> 
-      <li id="li_722E4B9FC21047AC96D7B143197E293D">Verandert de orde waarin de metrische grafieken door aan boor-downs in het overzichtsrapport (zie hierboven) te antwoorden verschijnen </li> 
-      <li id="li_A2441169B185475AA68A64F81E6E40B8">Hiermee kunt u grafieken filteren door zoektermen te gebruiken, zoals "pagina" voor alle paginagerelateerde metriek. </li> 
-      <li id="li_F1BBBFCA8E2A43C29658E4FCAA36C904">Hiermee kunt u alle door u gedefinieerde metriek of alleen die met anomalieën weergeven. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Anomaly-detectie instellen {#task_AF347B34F56E44A6AE70E019B6EB2F08}
-
-Stappen voor het selecteren van rapportsuites, metriek, en opleiding/meningsperiodes voor anomalieopsporing.
-
-<!-- 
-
-t_anomaly_config.xml
-
- -->
-
-U plaatst onafhankelijk van elkaar Ontdekking voor elke rapportreeks.
-
-1. Ga naar  **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** .
-1. Selecteer de rapportreeks waarvoor u dagelijkse anomalieopsporing wilt volgen. Als u een lijst met rapportsuites wilt weergeven, klikt u op de keuzelijst Rapportsuite.
-1. Als u de metriek wilt selecteren en/of gefilterde metriek wilt definiëren, klikt u op **[!UICONTROL Edit Metrics]** rechtsboven in het scherm:  ![](assets/metrics_icon.png).
-
-   U kunt metriek van de lijst (met inbegrip van berekende metriek) van alle metriek of van een lijst van gevolgde metriek kiezen. U kunt ook filteren op specifieke termen om de lijst te verkleinen. 1. Nadat het rapport is gegenereerd, definieert u **[!UICONTROL Training Period]** en **[!UICONTROL View Period]** voor anomaliedetectie. (Beschouw de trainingsperiode als de ‘leerperiode’ voor het algoritme.)
-
-   ![](assets/view_training_periods.png)
-
-   Houd er rekening mee dat:
-
-* De trainingsperiode eindigt vlak voordat de weergaveperiode begint.
-* De standaardduur voor beide is 30 dagen en u kunt deze verlengen tot 60 of 90 dagen.
-* Als u de trainingsperiode verlengt, worden uw gegevens in een groter kader geplaatst en kan de grootte van een anomalie afnemen.
-
-   Het rapport Metrische gegevens van Anomaly-detectie wordt telkens vernieuwd wanneer u een parameter wijzigt.
-1. (Optioneel) Pas segmenten toe op het rapport door te klikken op **[!UICONTROL Show Segments]** en een of meer bestaande segmenten te selecteren of een nieuw segment te maken en het toe te passen.
-
-   ![](assets/ad_top_menu.png)
-
-   Zie [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) voor meer informatie over het creëren van en het beheren van segmenten. 1. (Optioneel) Favoriet of bladwijzer voor het rapport.
-1. (Optioneel) Wijzig de einddatum van de weergaveperiode. De standaardwaarde is gisteren.
-1. U kunt nu beginnen met het interpreteren van het rapport. [Anomaly Detection-grafieken](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049) weergeven.
+U kunt [Anomaly Detection and Contribution Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) alleen in Analysis Workspace uitvoeren.
 
 ## Een Real-Time rapport uitvoeren {#task_5D25929C918E40B18965222FA94176B0}
 
 Beschrijft om rapporten in real time te bekijken en te interpreteren.
-
-<!-- 
-
-reports_realtime.xml
-
- -->
 
 **[!UICONTROL Reports > Site Metrics > Real-Time]** .
 
