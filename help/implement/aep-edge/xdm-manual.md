@@ -2,9 +2,9 @@
 title: XDM-gegevens handmatig toewijzen aan Analyse
 description: XDM-gegevens handmatig toewijzen van Experience Platform aan Adobe Analytics
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ De SDK van het Web van Adobe Experience Platform (AEP) bevat hulpmiddelen om u t
 
 Voor XDM-gegevens die niet automatisch aan Analytics worden toegewezen, kunt u [contextgegevens](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) toevoegen om uw [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) aan te passen. Dan kan het door Analytics [verwerkingsregels](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) worden gebruikt om de variabelen van de Analyse te bevolken.
 
-Ook, kunt u een standaardreeks acties en productlijsten gebruiken om gegevens met het Web SDK van AEP te verzenden of terug te winnen. Zie [Producten](https://experienceleague.adobe.com/docs/experience-platform/edge/implement/commerce.html) om dit te doen.
+Ook, kunt u een standaardreeks acties en productlijsten gebruiken om gegevens met [AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) te verzenden of terug te winnen.
 
 ## Contextgegevens
 
