@@ -2,7 +2,7 @@
 title: IPs en domeinen die door Adobe Analytics worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die van Adobe afkomstig zijn, gebruik deze lijst om uw firewallmontages bij te werken.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 4460850971fe822ff8a0ebf3e3269d0e573fa1db
+source-git-commit: 31fa03e0d8bba457953e10aa537d22b2d69b84c1
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -127,9 +127,9 @@ Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverza
 | India | `65.0.114.116` |
 | India | `65.0.115.179` |
 | India | `65.0.25.111` |
-| India | `13.233.180.137` |
-| India | `65.0.111.130` |
-| India | `52.66.172.181` |
+| India | `3.7.24.204` |
+| India | `3.108.50.194` |
+| India | `3.108.177.136` |
 | Ierland | `18.202.158.78` |
 | Ierland | `54.72.205.114` |
 | Ierland | `54.78.36.71` |
