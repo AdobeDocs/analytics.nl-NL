@@ -3,10 +3,10 @@ description: Variabelen voor privacyrapportage in Data Privacy.
 title: Variabelen voor privacyrapportage
 feature: Admin Tools
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 95%
+source-wordcount: '416'
+ht-degree: 97%
 
 ---
 
@@ -62,7 +62,7 @@ Elke rapportsuite kan als volgt worden geconfigureerd:
 
 Er zijn drie contextdatavariabelen vooraf gedefinieerd om te werken met de voor privacyrapportagebeheer gereserveerde variabelen.  Elke implementatie-engineer moet zelf bepalen de instelling van deze variabelen moet worden beheerd en gehandhaafd.
 
-Zie [Contextdatavariabelen](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) voor algemene richtlijnen voor het implementeren van contextdatavariabelen.
+Zie [Contextdatavariabelen](/help/implement/vars/page-vars/contextdata.md) voor algemene richtlijnen voor het implementeren van contextdatavariabelen.
 
 ### SSF
 
