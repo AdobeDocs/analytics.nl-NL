@@ -4,9 +4,9 @@ description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace ge
 feature: Deelvensters
 role: Business Practitioner, Administrator
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1005'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,6 @@ In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbr
 | Kan ik anomaliedetectie uitvoeren? | Nee.  Anomaly-detectie is niet beschikbaar voor dit deelvenster. |
 | Waarom unieke bezoekers gebruiken in plaats van actieve sessies? | Door unieke bezoekers te gebruiken, kunt u ongewenste spikes verwijderen bij het weergeven van de grenzen (waar de sessies tegelijkertijd eindigen en beginnen). |
 | Wat betekent het om gelijktijdige kijkers bij hogere granulariteit dan minuut te hebben? | Met een granulariteit die groter is dan een minuut, zijn gelijktijdige viewers de som van unieke gelijktijdige viewers voor alle minuten binnen dat tijdbereik.  Gelijktijdige viewers op uurniveau zijn bijvoorbeeld de som van unieke gelijktijdige viewers voor alle minuten in het uur. |
-| Wat als ik meer dan 1 dag wil zien op het minuscule granulariteit? | Om tot gegevens bij miniem-vlakke granulariteit tot 1 maand tegelijkertijd toegang te hebben, kunt u Analytics 2.0 APIs gebruiken. Zie [Gelijktijdige Viewers JSON-rapportgegevens ophalen met Analytics 2.0 API&#39;s](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html) voor meer informatie. |
 | Geeft het deelvenster Werkruimte dezelfde informatie als het rapport Gelijktijdige viewers? | Nee.  In Analysis Workspace wordt onder Gelijktijdige viewers verstaan het aantal unieke bezoekers dat uw mediastream op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br><br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Door unieke bezoekersaccounts te gebruiken voor het verwijderen van ongewenste spikes bij het weergeven van grenzen, waarbij sessies tegelijkertijd worden beëindigd en gestart. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
