@@ -2,10 +2,9 @@
 title: Einde van levensduur voor bronnen van volledige verwerkingsgegevens
 description: Redenen voor het einde van de levensduur en vergelijkingen tussen de API voor het invoegen van gegevens in bulk en de gegevensbronnen voor volledige verwerking.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-translation-type: tm+mt
-source-git-commit: 53b15f9c5895e856ff627fbc520d4743fbc57eba
+source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1233'
 ht-degree: 5%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 5%
 
 Al enkele jaren kunt u met de Full Processing Data Sources gegevens op aanraakniveau naar Adobe Analytics verzenden. Deze gegevens zijn op dezelfde manier verwerkt als gegevens die zijn verzameld via onze JavaScript-bibliotheken en de SDK van de mobiele app. In 2020, gaf Adobe [Bulk API van de Invoeging van Gegevens](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) vrij, die de zelfde functies zoals Volledige Gegevensbronnen van de Verwerking, maar met extra eigenschappen uitvoert. Dit onderwerp verstrekt details over extra functionaliteit die door de Invoeging API van Gegevens van het Bulk wordt verstrekt en schetst verschillen in dossierformaten.
 
-Vanaf 25 maart, 2021, zal Adobe nieuwe Volledige verbindingen van de Gegevensbronnen van de Verwerking verhinderen worden gecreeerd. De bestaande verbindingen zullen verder worden gesteund tot de dienst volledig verouderd op 31 Juli, 2021 is.
+Vanaf 25 maart, 2021, zal Adobe nieuwe Volledige verbindingen van de Gegevensbronnen van de Verwerking verhinderen worden gecreeerd. De bestaande verbindingen zullen verder worden gesteund tot de dienst volledig verouderd op 31 Juli, 2021 is. Naast onze standaarddocumentatie, verstrekken wij een doorloop van [stappen nodig om gegevens via de Invoeging API](http://adobe.ly/aabdia) van Gegevens van de Bulk voor te leggen.
 
 ## Waarom zijn we aan het einde van deze functie?
 
@@ -89,7 +88,7 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | resolutie | resolutie | Monitorresolutie (bijvoorbeeld 1024x768). |
 | server | server | Servertekenreeks. |
 | state | state | Conversiestatekenreeks. |
-| timestamp | date | Gebruik de datumnotatie ISO 8601 van YYY-MM-DDThh:mm:ss±UTC_offset (bijvoorbeeld 2021-09-01T12:00:00-07:00) of Unix Time Format (het aantal seconden dat is verstreken sinds 1 januari 1970) ). |
+| timestamp | date | Gebruik de ISO 8601-datumnotatie van YYY-MM-DDThh:mm:ss±UTC_offset (bijvoorbeeld 2021-09-01T12:00:00-07:00 ) of Unix-tijdnotatie (het aantal seconden dat is verstreken sinds 1 januari 197 0). |
 | trackingServer | Niet ondersteund | Kan alleen via kolomkop worden opgegeven. |
 | transactionID | Niet ondersteund | Gemeenschappelijke waarde die wordt gebruikt om multikanaalsgebruikersactiviteiten voor rapportagedoeleinden aan elkaar te koppelen. Voor meer informatie, zie [de Gids van de Gebruiker van Gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources). |
 | userAgent | Niet ondersteund | Tekenreeks gebruikersagent |
