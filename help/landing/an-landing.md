@@ -2,7 +2,7 @@
 description: Verklaart de nieuwe ononderbroken strategie van de eigenschapversie voor Adobe Analytics
 title: Nieuwe Adobe Analytics-bestemmingspagina
 hide-in-toc: true
-source-git-commit: e81ffc2ae03dd3d45a0286d37d7851a4302ad3aa
+source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 De nieuwe landingspagina voor de Analyse van de Adobe brengt zowel Analysis Workspace als Rapporten &amp; Analytics in één enkele interface en toegangspunt onder de paraplu van de Werkruimte samen. Het kenmerkt een nieuwe de homepage van de projectmanager, een bijgewerkt rapportenmenu en gemoderniseerde rapporten, evenals een nieuwe het leren sectie om u met het worden effectiever beginnen te helpen.
 
-De nieuwe pagina verbetert de ontdekkingsmogelijkheden en begeleidt gebruikers van Rapporten &amp; van Analytics aan een betere rapportervaring in Workspace.
+De nieuwe pagina verbetert de ontdekkbaarheid en begeleidt gebruikers van Rapporten &amp; van Analytics aan een betere rapporteringservaring in Werkruimte.
 
 >[!NOTE]
 >
