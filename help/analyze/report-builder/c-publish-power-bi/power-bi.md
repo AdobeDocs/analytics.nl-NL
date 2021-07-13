@@ -3,15 +3,14 @@ description: Gebruik Report Builder met Microsoft Power BI.
 title: Publiceren naar Power BI - overzicht
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '959'
 ht-degree: 13%
 
 ---
-
 
 # Publiceren naar Power BI - overzicht
 
@@ -28,7 +27,7 @@ De combinatie van het rapportgenererende vermogen van Report Builder met de visu
 * Adobe Report Builder 5.5 [geïnstalleerd](/help/analyze/report-builder/setup/t-install-arb.md)
 * Active Microsoft-account waarmee u zich kunt aanmelden bij Power BI
 
-## Werkboek publiceren naar Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
+## Werkmap publiceren naar Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
 
 De geplande werkboeken zijn geformatteerde spreadsheets van Excel gevuld met gegevens van Adobe Analytics en verzonden op een regelmatig geplande basis.
 
@@ -58,7 +57,7 @@ De geplande werkboeken zijn geformatteerde spreadsheets van Excel gevuld met geg
 
 1. U kunt dan een gebied van dit werkboek vastzetten om het in om het even welk van uw dashboards van Power BI te omvatten.
 
-## Alle opgemaakte tabellen in het werkboek publiceren als tabellen {#section_7C54A54E75184DD6BAEF4ACCE241239A} voor Power BI-gegevenssets
+## Alle opgemaakte tabellen in het werkboek publiceren als Power BI-datasettabellen {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
 >[!NOTE]
 >
@@ -137,4 +136,3 @@ Elk gepland Report Builder verzoek zal als lijst in de dataset worden gepublicee
 1. U ziet ook een extra tabel met de naam **[!UICONTROL Legend]**. Als u een verzoek uit de context van de Report Builder neemt, kan het moeilijk zijn om te herinneren wat elk verzoek voor staat. Het doel van de Legende lijst is, bijvoorbeeld, om u de naam van elk verzoek onder Lijst ID te tonen. U kunt ook de andere Legend-kolommen toevoegen voor een volledige weergave van het verzoek.
 
    ![](assets/legend-table.png)
-
