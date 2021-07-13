@@ -2,9 +2,8 @@
 title: Intelligente gegevens vloeiend maken
 description: Leer hoe Intelligent Gegevens Vloeiend maken historische tendensen analyseert om de waarde van metrisch binnen een beïnvloede tijdspanne te voorspellen.
 feature: AI-gereedschappen
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: aa9f0a8f5b7b1780d0b0be729775c573e12caa35
+role: User, Admin
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 1%
