@@ -1,16 +1,15 @@
 ---
 title: Reis-IQ
 description: Begrijp de eigenschappen die omhoog IQ van de Reis, een reeks eigenschappen vormen die deel van Adobe Analytics uitmaken.
-feature: AI Tools
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: AI-gereedschappen
+role: User, Admin
+exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
-
 
 # Reis-IQ
 
