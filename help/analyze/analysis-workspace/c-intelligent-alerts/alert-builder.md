@@ -2,16 +2,15 @@
 description: Krijg alarm wanneer de projectcomponenten bepaalde drempels bereiken.
 title: Alert Builder
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-feature: AI Tools
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: AI-gereedschappen
+role: User, Admin
+exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
-
 
 # Alert Builder
 
