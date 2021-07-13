@@ -6,9 +6,9 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Basisprincipes van werkruimte
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1395'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ Voorbeelden van instellingen:
 | Laatst gewijzigd | Datum van laatste wijziging van het project. |
 | Tags | Hier worden alle tags weergegeven die op een project zijn toegepast om het eenvoudiger te categoriseren. |
 | Beschrijving | Een beschrijving is nuttig om het doel van een project te verduidelijken. U kunt dubbelklikken op de beschrijving om deze te bewerken. |
-| Aantal herhalingen in project | Geeft aan of herhalingsinstanties worden geteld in rapporten. Opmerking: Deze instelling is niet van toepassing op stroomvisualisaties of uitvullingen. |
+| Aantal herhalingen in project | Geeft aan of herhalingsinstanties worden geteld in rapporten. Met deze instelling (indien geactiveerd) worden bijvoorbeeld meerdere weergaven van opeenvolgende pagina&#39;s op dezelfde pagina behandeld als weergaven van meerdere pagina&#39;s. Als deze optie is uitgeschakeld, worden ze beschouwd als een weergave van één pagina (dit heeft alleen invloed op bepaalde maatstaven, zoals Bezoeken één pagina). **Opmerking**: Deze instelling is niet van toepassing op Wisselstroomvisualisaties of Fallout-visualisaties. |
 | [Kleurenpalet Project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | U kunt het categorische kleurenpalet veranderen dat in Workspace wordt gebruikt, door uit paletten te kiezen die uit-van-de-doos die voor kleurenblindheid zijn geoptimaliseerd, of door uw douanepalet te specificeren. Deze functie is van invloed op veel zaken in Workspace, waaronder de meeste visualisaties. |
 | [Dichtheid weergeven](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | Hiermee kunt u meer gegevens op het scherm zien door de verticale opvulling van de linkerspoorstaaf, vrije-vormtabellen en cohortabellen te verminderen. |
 
