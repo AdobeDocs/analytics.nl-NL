@@ -3,10 +3,9 @@ description: Met doelen kunt u de prestaties van uw website meten en de voortgan
 title: Targets
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 feature: Grondbeginselen van rapporten en analyses
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
-translation-type: tm+mt
-source-git-commit: 274348296f2215389377ec94ff4d39b1769e81cc
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 1%
@@ -21,7 +20,7 @@ Wanneer u doelen maakt, selecteert u welke maateenheden voor kenmerken of variab
 
 U kunt bijvoorbeeld het aantal unieke bezoekers van uw website meten en deze als doel gebruiken. Kies in dit geval de hele website. Als u echter het aantal unieke bezoekers van uw website vanuit Chicago als doel wilt instellen, kunt u die eVar opgeven in plaats van naar de gehele site te kijken.
 
-## [!UICONTROL Target] Veldbeschrijvingen  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## [!UICONTROL Target] Veldbeschrijvingen {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Targets]**
 
@@ -36,7 +35,7 @@ Beschrijvingen van de velden en opties op de pagina [!UICONTROL Add/Edit Target]
 | [!UICONTROL Period] | Hiermee kunt u de instellingen [!UICONTROL Date Range] en [!UICONTROL Granularity] van het doel definiëren. Afhankelijk van de specificaties van het datumbereik zijn sommige opties voor granulariteit niet van toepassing. Typ bij het invoeren van waarden voor de metriek een waarde voor elke instelling voor granulariteit. Als het datumbereik bijvoorbeeld de maand februari is en de selectie van de granulariteit wekelijks is, typt u een waarde voor elke week van de maand februari. [!UICONTROL Target] de rapporten tonen voor elke granularity het plaatsen. |
 | [!UICONTROL Values] | Hier kunt u doelwaarden voor de tijdsperiode en de geselecteerde metrische waarde opgeven. Dit zijn de doelnummers die u wilt bereiken. Bijvoorbeeld, als het doel op opbrengst was gebaseerd, en u voor $10.000 van opbrengst voor een bepaalde maand richtte, zou u 10000 op het waardegebied voor de maand ingaan. |
 
-## Een [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71} toevoegen
+## Een [!UICONTROL Target] toevoegen {#task_94915391E26E4F808F2538AA92BC7E71}
 
 Stappen die beschrijven hoe te om een doel toe te voegen.
 
@@ -45,7 +44,7 @@ Stappen die beschrijven hoe te om een doel toe te voegen.
 1. Configureer de opties die worden beschreven in [Beschrijving van doelveld](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Klik op **[!UICONTROL OK]**.
 
-## Een [!UICONTROL Target] {#task_946C558D2ECC4922ABD4A5A6183A095A} bewerken
+## Een [!UICONTROL Target] bewerken {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Targets]**.
 1. Klik in de kolom **[!UICONTROL Manage]** op het pictogram **[!UICONTROL Edit]**.
