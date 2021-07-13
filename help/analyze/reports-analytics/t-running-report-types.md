@@ -3,9 +3,9 @@ description: Stappen bij het runnen van de verschillende rapporttypes.
 title: Verschillende rapporttypen uitvoeren
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Grondbeginselen van rapporten en analyses
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 1%
