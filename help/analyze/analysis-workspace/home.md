@@ -2,9 +2,9 @@
 title: Wat is Analysis Workspace en hoe gebruik ik het?
 description: Analysis Workspace is het belangrijkste instrument voor analyse van Adobe Analytics. Het laat u panelen, lijsten, visualisaties, en andere componenten gebruiken om gegevens aan het leven te brengen, een dataset te leiden, projecten, onder andere mogelijkheden te delen en te plannen.
 feature: Basisprincipes van werkruimte
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 1%
@@ -25,13 +25,13 @@ Als u Analysis Workspace wilt gaan gebruiken, meldt u zich aan bij Adobe Analyti
 
 ![](assets/login-analytics.png)
 
-## De trainingszelfstudie {#training-tutorial} gebruiken
+## De zelfstudie Training gebruiken {#training-tutorial}
 
 Als u eenmaal bent aangemeld, moet de eerste stop de zelfstudie voor Analysis Workspace Training zijn, die u door algemene terminologie en stappen begeleidt voor het maken van uw eerste analyse in Workspace. Als u wilt beginnen met de zelfstudie, klikt u op **[!UICONTROL Create New Project]** en selecteert u **Training-zelfstudie** in het nieuwe projectmodale.
 
 ![](assets/training-tutorial.png)
 
-## Nieuw project maken {#new-project}
+## Een nieuw project maken {#new-project}
 
 Nu de zelfstudie is voltooid, kunt u beginnen met het bouwen van uw eerste project. Het **nieuwe project modal** voorziet u van verschillende opties om uw analyse te beginnen. U kunt kiezen om te beginnen van een leeg project of [leeg mobiel scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html), afhankelijk van of u van plan bent om uw analyse van browser of de mobiele app van Adobe Analytics te delen dashboards.
 
