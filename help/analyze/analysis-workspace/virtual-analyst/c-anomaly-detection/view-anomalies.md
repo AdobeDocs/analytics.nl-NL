@@ -2,22 +2,21 @@
 description: U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
 title: Anomalieën weergeven in Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-feature: AI Tools
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: AI-gereedschappen
+role: User, Admin
+exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '242'
 ht-degree: 4%
 
 ---
-
 
 # Anomalieën weergeven in Analysis Workspace
 
 U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
 
-## anomalieën in een tabel {#section_869A87B92B574A38B017A980ED8A29C5} weergeven
+## anomalieën in een tabel weergeven {#section_869A87B92B574A38B017A980ED8A29C5}
 
 In een Freeform-tabel uit de tijdreeks wordt nu automatisch elke rij gemarkeerd met een donkergrijze uitroepteken als er een gegevensanomalie is gedetecteerd.
 
@@ -45,4 +44,3 @@ Met het betrouwbaarheidsinterval voor Anomaly-detectie wordt de y-as van een vis
 U hebt de optie om het betrouwbaarheidsinterval toe te staan om de grafiek te schalen. Klik op het pictogram Instellingen (versnelling) en schakel **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]** in.
 
 ![](assets/scale-y-axis.png)
-
