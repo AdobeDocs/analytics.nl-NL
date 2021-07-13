@@ -2,16 +2,15 @@
 title: Overzicht van IQ van segment
 description: Meer informatie over wat de IQ van Adobe Analytics Segment is en hoe deze uw organisatie kan helpen.
 keywords: Analysis Workspace;Segment-IQ
-feature: AI Tools
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: AI-gereedschappen
+role: User, Admin
+exl-id: 8b8f63ae-2697-474d-9c51-5d90d31f55ef
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van IQ van segment
 
