@@ -2,10 +2,10 @@
 description: Leer over wanneer en waarom de gegevensschakelaars van de Analyse zullen eind-van-leven worden.
 title: Vooraankondiging van einde van levensduur voor gegevensconnectors van Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 9%
+source-wordcount: '662'
+ht-degree: 8%
 
 ---
 
@@ -44,12 +44,12 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | Apteligent | Vervangen |
 | BlueHornet eMarketing Suite | Vervangen |
 | Branch | Migreren naar Exchange |
-| BrightStor 2.0 | Vervangen |
+| BrightStor 2.0, BrightStor, BrightStor, BrightEdge Express | Vervangen |
 | Bronto-software | Vervangen |
 | CheetahMail van Experian | Migreren naar Exchange |
 | ClickTale | Vervangen |
 | Clicktale CA | Vervangen |
-| Leider 2.0 | Vervangen |
+| Conductor 2.0, Conductor, Conductor Organic Metrics | Vervangen |
 | ContactLab 2.0 (Contact verzendt Schakelaar) | Vervangen |
 | Coradiant TrueSight | Vervangen |
 | D&amp;B Bezoekersinlichting | Vervangen |
@@ -62,7 +62,7 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | DialogTech | Beschikbaar op Adobe Exchange |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Vervangen |
 | DREAM | Vervangen |
-| DREAMmail 2.0 | Vervangen |
+| DREAMmail 1.0, DREAMmail 2.0 | Vervangen |
 | Dynamisch signaal (Nital Vora) | Migreren naar Exchange |
 | eDialog Precision Central | Vervangen |
 | eC-boodschapper | Vervangen |
@@ -70,10 +70,11 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | emarsys xpress | Vervangen |
 | Epsilon Harmony | Migreren naar Exchange |
 | IedereenSociaal voor Adobe Analytics | Vervangen |
+| ExactTarget, ExactTarget 2.0 | Vervangen |
 | Fiksu | Vervangen |
-| Voorziening (v2.0) | Vervangen |
-| Foresee Feedback | Vervangen |
+| Voorzien (v2.0), Feedback voorzien, Resultaten | Vervangen |
 | Gigya | Vervangen |
+| Hootsuite | Vervangen |
 | hybris | Vervangen |
 | Kampyle (nu Medallia) Feedback Analytics (1.1) | Vervangen |
 | Listrak | Migreren naar Exchange |
@@ -83,11 +84,13 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | Officiële Oracle-Eloqua-integratie | Migreren naar Exchange |
 | optivo broadmail (Episerver) | Vervangen |
 | Qualtrics v2 | Migreren naar Exchange |
-| Responsys 2.0 | Vervangen |
+| Responsys 1.0, Responsys 2.0 | Vervangen |
+| Salesforce.com | Vervangen |
 | Selligent | Vervangen |
-| seoClarity 2.0 | Vervangen |
+| seoClarity, seoClarity 2.0 | Vervangen |
 | Silverpop Engage (v2.0) | Vervangen |
 | Sizmek | Vervangen |
+| SmartFOCUS Digital | Vervangen |
 | SpotEffects | Vervangen |
 | StrongMail Systems, Inc | Vervangen |
 | Syngergy!360 | Vervangen |
@@ -98,6 +101,7 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | WhatCounts Email | Vervangen |
 | wywy | Vervangen |
 | Yesmail Enterprise | Vervangen |
+| Zeta Interactive | Vervangen |
 
 ## Uitzondering: Adobe Campaign Classic
 
