@@ -2,16 +2,15 @@
 description: Hiermee worden hiërarchische gegevens (in een boomstructuur) weergegeven als een set geneste rechthoeken.
 title: Boomstructuur
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
-feature: Visualizations
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Visualisaties
+role: User, Admin
+exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 96%
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
-
 
 # Boomstructuur
 
