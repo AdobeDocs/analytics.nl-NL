@@ -2,9 +2,9 @@
 description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
 feature: Deelvensters
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 1%
@@ -83,7 +83,7 @@ Vervolgkeuzefilters maken:
 
 [Bekijk de ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) video voor meer informatie over het toevoegen van vervolgkeuzefilters aan uw project.
 
-## Klikken met rechtermuisknop op menu {#right-click}
+## Klikken met rechtermuisknop {#right-click}
 
 Aanvullende functionaliteit voor een deelvenster is beschikbaar door met de rechtermuisknop op de koptekst van het deelvenster te klikken.
 
