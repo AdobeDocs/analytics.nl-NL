@@ -1,11 +1,11 @@
 ---
-description: Een inleiding tot algemeen gebruikte termen van Webanalyse die in marketing rapporten worden gebruikt.
+description: Een inleiding tot algemeen gebruikte termen van marketinganalyse die in Rapporten & Analytics worden gebruikt.
 title: Algemene voorwaarden
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 feature: Grondbeginselen van rapporten en analyses, rapporten en analyses
 role: User, Admin
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Een inleiding op algemeen gebruikte Adobe Analytics termen gebruikt.
   </tr> 
   <tr> 
    <td> <p>Bezoek </p> </td> 
-   <td> <p>Een reeks paginaweergaven tijdens een sessie. Het bezoek eindigt slechts na 30 minuten inactiviteit of na 12 uur ononderbroken activiteit. (Deze tijdmeting is de industriestandaard voor webanalyse.) Bezoeken worden bijgehouden door cookies. Een bezoek begint wanneer een kijker tot een pagina toegang heeft. Een bezoek wordt soms bedoeld als <span class="term"> zitting</span>, maar het is geen browser zitting. Als u naar een andere site gaat, de browser sluit of de computer opnieuw opstart, wordt het bezoek niet beëindigd. </p> <p> Als de time-out bij inactiviteit optreedt terwijl een bezoeker een pagina leest, wordt het bezoek gesloten en verwerkt. Een nieuw bezoek begint wanneer de bezoeker door aan een andere pagina klikt. </p> <p>Als de datum tijdens een bezoek verandert, bijvoorbeeld wanneer u om middernacht een site bezoekt, wordt het bezoek toegeschreven aan de dag waarop het bezoek is begonnen. </p> </td> 
+   <td> <p>Een reeks paginaweergaven tijdens een sessie. Het bezoek eindigt slechts na 30 minuten inactiviteit of na 12 uur ononderbroken activiteit. (Deze tijdmeting is de industriestandaard voor marketinganalyse.) Bezoeken worden bijgehouden door cookies. Een bezoek begint wanneer een kijker tot een pagina toegang heeft. Een bezoek wordt soms bedoeld als <span class="term"> zitting</span>, maar het is geen browser zitting. Als u naar een andere site gaat, de browser sluit of de computer opnieuw opstart, wordt het bezoek niet beëindigd. </p> <p> Als de time-out bij inactiviteit optreedt terwijl een bezoeker een pagina leest, wordt het bezoek gesloten en verwerkt. Een nieuw bezoek begint wanneer de bezoeker door aan een andere pagina klikt. </p> <p>Als de datum tijdens een bezoek verandert, bijvoorbeeld wanneer u om middernacht een site bezoekt, wordt het bezoek toegeschreven aan de dag waarop het bezoek is begonnen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Unieke bezoeker </p> </td> 
@@ -62,7 +62,7 @@ Een inleiding op algemeen gebruikte Adobe Analytics termen gebruikt.
   </tr> 
   <tr> 
    <td> <p>Conversiegebeurtenissen (geslaagd) </p> </td> 
-   <td> <p>Conversiegebeurtenissen zijn de activiteiten op uw site die u wilt uitvoeren (belangrijke prestatie-indicatoren). Voor een e-commercesite kunnen conversiegebeurtenissen een gedetailleerde productweergave, een kassa of een aankoop zijn. Voor een productielocatie voor leads kan de gebeurtenis een formuliervoltooiing zijn. Conversiegebeurtenissen worden op de site geteld en hebben hun eigen rapporten waaruit blijkt hoeveel van deze gebeurtenissen hebben plaatsgevonden. Deze gebeurtenissen worden ook metriek om in andere rapporten te zetten en kunnen tonen waarom de omzettingsgebeurtenissen plaatsvonden, of wat tot hun het gebeuren bijdroeg. </p> <p>De uitzondering op de regel van één gebeurtenis die één metrisch wordt is de gebeurtenis van de Aankoop, die drie metriek voortbrengt: Ontvangsten, bestellingen en eenheden. </p> <p>Er bestaan meer omzettingsmetriek die hier niet worden gedefinieerd, maar omzettingsmetriek vormen de stichting van uw Analytics van het Web, waarop andere metriek en rapporten worden gebouwd. </p> </td> 
+   <td> <p>Conversiegebeurtenissen zijn de activiteiten op uw site die u wilt uitvoeren (belangrijke prestatie-indicatoren). Voor een e-commercesite kunnen conversiegebeurtenissen een gedetailleerde productweergave, een kassa of een aankoop zijn. Voor een productielocatie voor leads kan de gebeurtenis een formuliervoltooiing zijn. Conversiegebeurtenissen worden op de site geteld en hebben hun eigen rapporten waaruit blijkt hoeveel van deze gebeurtenissen hebben plaatsgevonden. Deze gebeurtenissen worden ook metriek om in andere rapporten te zetten en kunnen tonen waarom de omzettingsgebeurtenissen plaatsvonden, of wat tot hun het gebeuren bijdroeg. </p> <p>De uitzondering op de regel van één gebeurtenis die één metrisch wordt is de gebeurtenis van de Aankoop, die drie metriek voortbrengt: Ontvangsten, bestellingen en eenheden. </p> <p>Er zijn meer omzettingsmetriek die hier niet worden bepaald, maar omzettingsmetriek vormen de stichting van uw marketing analyses, waarop andere metriek en rapporten worden gebouwd. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Kanaal </p> </td> 
