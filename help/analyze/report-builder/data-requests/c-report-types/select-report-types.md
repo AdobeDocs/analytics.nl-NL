@@ -3,15 +3,14 @@ description: U kunt het type van het basisrapport voor uw gegevensverzoek, zoals
 title: Overzicht van rapporttypen
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 6%
+source-wordcount: '114'
+ht-degree: 7%
 
 ---
-
 
 # Overzicht van rapporttypen
 
@@ -22,4 +21,3 @@ U kunt slechts één type van het basisrapport voor een waaier van spreadsheetce
 Met de zoekbalk voor automatisch aanvullen kunt u naar rapporten zoeken. Zodra u een rapport van deze controle hebt geselecteerd, zal de boommening automatisch de passende knoop selecteren.
 
 ![](assets/search_reports.png)
-
