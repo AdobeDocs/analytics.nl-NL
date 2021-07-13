@@ -3,16 +3,15 @@ description: U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraa
 keywords: fallout en segmentatie;segmenten in falloutanalyse;vergelijk segmenten in fallout
 title: Segmenten toepassen in een uitvalanalyse
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: Visualizations
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Visualisaties
+role: User, Admin
+exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '401'
 ht-degree: 2%
 
 ---
-
 
 # Segmenten toepassen in een uitvalanalyse
 
@@ -48,7 +47,7 @@ Als u bijvoorbeeld wilt zien hoe uw gebruikers in de VS zich ontwikkelen en de n
 
 U kunt ook een AND-aanraakpunt maken door het Amerikaanse gebruikerssegment naar een ander controlepunt te slepen.
 
-## Segmenten in uitval vergelijken {#section_E0B761A69B1545908B52E05379277B56}
+## Segmenten vergelijken bij uitvallen {#section_E0B761A69B1545908B52E05379277B56}
 
 U kunt een onbeperkt aantal segmenten vergelijken in de Fallout-visualisatie.
 
