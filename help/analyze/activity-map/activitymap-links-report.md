@@ -3,15 +3,14 @@ description: Het koppelingenrapport rapporteert over de koppelingen die op de hu
 title: Rapport Koppelingen
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: d17b1bde-1785-461d-a1d8-66bd9739fc78
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '752'
 ht-degree: 1%
 
 ---
-
 
 # Rapport Koppelingen
 
@@ -66,7 +65,7 @@ In de standaardmodus worden in het rapport &quot;Koppelingen op pagina&quot; kop
 
 Wanneer u op een specifieke verbinding wilt binnen nul, kunt u naar een verwante termijn op het **[!UICONTROL Filter Data]** gebied zoeken. Alleen de koppelingen die overeenkomen met de zoekopdracht, hebben bedekkingen. Zonder een filter worden de overlays die zijn opgegeven in [Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) weergegeven.
 
-## Actieve modus {#section_AC1967217B5A4532ACB01D33636F6770}
+## Live-modus {#section_AC1967217B5A4532ACB01D33636F6770}
 
 In Live modus worden in het rapport Koppelingen op pagina trendgegevens weergegeven die enkele minuten beslaan.
 
@@ -115,7 +114,7 @@ In Live modus worden in het rapport Koppelingen op pagina trendgegevens weergege
  </tbody> 
 </table>
 
-## {#section_4B8E8233C21247CAA70DAEC2156548AD} sorteren en filteren
+## Sorteren en filteren {#section_4B8E8233C21247CAA70DAEC2156548AD}
 
 Soms moet u alleen de resultaten van een bepaald paginagebied (bijvoorbeeld het linkervenster) analyseren om te bepalen hoe u de inhoud van dat specifieke gebied van de webpagina wilt ordenen.
 
