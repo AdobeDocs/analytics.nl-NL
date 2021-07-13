@@ -3,15 +3,14 @@ description: Voordat u items aan het werkblad toewijst, moet u controleren of he
 title: Cijfers en dimensies toewijzen aan cellen
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '658'
 ht-degree: 2%
 
 ---
-
 
 # Cijfers en dimensies toewijzen aan cellen
 
