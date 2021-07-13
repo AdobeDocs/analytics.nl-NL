@@ -3,15 +3,14 @@ description: Nadat u rapporten hebt gemaakt met ingesloten aanvragen, kunt u dez
 title: Een werkmap met aanvragen opslaan
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 3%
 
 ---
-
 
 # Een werkmap met aanvragen opslaan
 
