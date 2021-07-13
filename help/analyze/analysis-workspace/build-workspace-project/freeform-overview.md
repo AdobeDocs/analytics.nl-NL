@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Overzicht van projecten
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Basisprincipes van werkruimte
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Binnen een project, verstrekt het menu opties om uw project te beheren, componen
 | Invoegen | Nieuwe deelvensters of visualisaties invoegen vanuit dit menu. U kunt ook nieuwe deelvensters en visualisaties invoegen vanuit de linkerrails. |
 | [Onderdelen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) | Creeer nieuw segment, berekende metrisch, datumwaaier, of waakzame componenten van uw project. U kunt ook nieuwe componenten maken vanaf de linkerspoorstaaf. Als uw componentendefinities onlangs zijn veranderd, vernieuw Componenten zal de recentste definities terugwinnen. |
 | [Delen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) | U kunt PDF/CSV-projecten curven, delen en plannen voor ontvangers in uw organisatie. |
-| Help | Toegang tot Help-documentatie, video&#39;s en de Analytics [Experience League-community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). De zichtbaarheid van werkruimteterminfo en de foutopsporing [beheren. ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) Meer informatie over de werkruimte en factoren die van invloed zijn op de prestaties van het project [a1/>.](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
+| Help | Toegang tot Help-documentatie, video&#39;s en de gemeenschap [Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). De zichtbaarheid van werkruimteterminfo en de foutopsporing [beheren. ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) Meer informatie over de werkruimte en factoren die van invloed zijn op de prestaties van het project [a1/>.](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | Knop Delen of Eigenaar | Als u in een Eigen bent of voor het project uitgeeft, geeft de knoop van het Aandeel in top-right u met één klik toegang om uw projectontvangers te beheren. Als u in een Duplicaat of rol van de Mening voor het project bent, zult u de naam van de projecteigenaar zien. |
 
 ### Projectinfo en -instellingen {#info-settings}
