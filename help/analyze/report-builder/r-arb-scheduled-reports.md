@@ -3,15 +3,14 @@ description: De beschrijvingen van het gebied voor de Geplande Manager van de Ta
 title: Gepland Taakbeheer
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---
-
 
 # Gepland Taakbeheer
 
@@ -36,4 +35,3 @@ De Geplande Manager van de Taak laat u een lijst van bestaande geplande rapporte
 | Status | De status geeft aan of het rapport is verzonden of niet is verzonden. |
 | E-mail/FTP | Het e-mailadres of FTP-adres van de ontvanger van het rapport. |
 | Bestandsindeling | De leveringsindeling van het rapport, zoals Excel, PDF, HTML, enzovoort. |
-
