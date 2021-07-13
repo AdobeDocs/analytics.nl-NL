@@ -3,15 +3,14 @@ description: Aanbevolen werkwijzen Power BI.
 title: Best practices
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '140'
 ht-degree: 4%
 
 ---
-
 
 # Aanbevolen procedures
 
@@ -24,4 +23,3 @@ Als u een verzoek in uw werkboek schrapt, zorg ervoor u geen visualisatie hebt d
 * Indien mogelijk geen aanvragen verwijderen die u in Report Builder hebt gemaakt
 * Zorg ervoor dat als u verzoeken op Report Builder verwijdert, u ook de overeenkomstige visualisatie in Power BI verwijdert.
 * Als u niet zeker bent: verwijder verzoeken u niet meer nodig hebt, dan herpubliceert en naar Power BI gaat om te zien welke visualisaties gebroken hebben
-
