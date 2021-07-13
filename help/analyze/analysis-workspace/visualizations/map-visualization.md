@@ -2,16 +2,15 @@
 description: Gebruik de kaartvisualisatie in een project van de Werkruimte.
 title: Kaart
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: Visualizations
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Visualisaties
+role: User, Admin
+exl-id: a60544b4-27b6-413a-96ce-ab9487594422
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '623'
 ht-degree: 3%
 
 ---
-
 
 # Kaart
 
@@ -25,7 +24,7 @@ Visualisatie op de kaart in Analysis Workspace
 * Ondersteuning voor PDF-export.
 * Gebruikt WebGL voor beeldvertoning. Als uw grafische stuurprogramma&#39;s geen ondersteuning bieden voor WebGL-rendering, moet u de stuurprogramma&#39;s mogelijk bijwerken.
 
-## Een kaartvisualisatie maken {#section_61BBFA3A7BFD48DA8D305A69D9416299}
+## Een kaart visualiseren {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
 1. Sleep **[!UICONTROL Map]** vanuit de lijst met visualisaties naar een deelvenster voor vrije vorm:
 
