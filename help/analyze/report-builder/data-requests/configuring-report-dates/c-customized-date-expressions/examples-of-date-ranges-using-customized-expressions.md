@@ -3,15 +3,14 @@ description: Voorbeelden, notities en syntaxisnotities over het gebruik van datu
 title: Voorbeelden van datumbereiken met aangepaste expressies
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '402'
 ht-degree: 5%
 
 ---
-
 
 # Voorbeelden van datumbereiken met aangepaste expressies
 
@@ -22,7 +21,7 @@ De tabel gaat ervan uit dat de datum van vandaag maandag 10 november 2011 is, me
 | Voorbeeld | Datumbereik | Expressie aanpassen | Datum Bereik rapport |
 |---|---|---|---|
 |  |  | **Van** | **Naar** |  |
-| 3 | Twee weken geleden | cw-2w | cw-1w-1d | 26 okt tot 1 nov. |
+| 1 | Twee weken geleden | cw-2w | cw-1w-1d | 26 okt tot 1 nov. |
 | 2 | Eerste drie dagen van de vijfde maand van het afgelopen jaar | cy-1y+4m | cy-1y+4m+2d | 1 mei tot en met 3 mei 2010 |
 | 3 | Een volledige week, vanaf 4 weken geleden | cw-4w | cw-3w-1d | 12 okt tot en met 18 okt. |
 | 4 | Vorige week in het voorgaande jaar | cw-53w | cw-52w-1d | nov. t/m 9 nov. 2010 |
@@ -51,4 +50,3 @@ Aangepaste expressies die de meeste datumbereiken beslaan, kunnen worden gemaakt
 * De afkorting mag niet met een nul worden voorgevuld. 0w is bijvoorbeeld niet toegestaan.
 * De volgende operatoren worden gebruikt om afkortingen samen te voegen: + -
 * Omdat datumbereiken moeten worden herkend ten opzichte van de huidige periode, begint de eerste term in een expressie altijd met c.
-
