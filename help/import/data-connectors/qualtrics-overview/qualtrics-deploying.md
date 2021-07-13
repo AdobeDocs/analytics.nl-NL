@@ -5,8 +5,7 @@ title: De integratie implementeren
 feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 85d199e71fb65e9026156b146201da2e5be37111
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 5%
@@ -17,7 +16,7 @@ ht-degree: 5%
 
 Het implementeren van deze integratie is een eenvoudig proces waarvoor de volgende acties nodig zijn.
 
-## Voltooiing van de Tovenaar van de Integratie van Adobe{#completing-the-adobe-integration-wizard}
+## Voltooiend de Tovenaar van de Integratie van Adobe{#completing-the-adobe-integration-wizard}
 
 Als u de integratie wilt activeren, moet u de wizard voor Qualtrict-integratie voltooien in de interface Data Connectors
 
@@ -33,11 +32,12 @@ Als u de integratie wilt activeren, moet u de wizard voor Qualtrict-integratie v
    | Adobe SiteCatalyst Token | [Uw Qualtrics Adobe Analytics-token genereren](../qualtrics-overview/qualtrics-token.md) |
 
 1. **Tovenaar Stap 2 - Veranderlijke Toewijzingen**
-   | Lijst van de Reactie van Qualtrics | Selecteer een beschikbare lijstvariabele van uw rapportreeks. (Mogelijk moet u een nieuwe listVar inschakelen in Report Suite Manager.)  |
+
+   | Antwoordlijst voor kwaltrics | Selecteer een beschikbare lijstvariabele van uw rapportreeks. (Mogelijk moet u een nieuwe listVar inschakelen in Report Suite Manager.) |
    |---|---|
-   | ID kwaliteitsrespons  | Selecteer een beschikbare eVar of hulpmiddel uit uw rapportreeks. (Mogelijk moet u een nieuwe listVar inschakelen in Report Suite Manager.)  |
-   | Traceerserver  |Geef de instelling voor de trackingserver (domein) op die u gebruikt om Adobe Analytics-gegevens bij te houden. Gebruik de `trackingServerSecure` trackingserver als deze afwijkt van de standaardinstelling voor trackingservers.  |
-   | Indieningen kwaliteitscontroles  | Selecteer een beschikbare gebeurtenis in de rapportsuite (hiervoor moet u mogelijk een nieuwe gebeurtenis inschakelen in de rapportsuite Manager).  |
+   | Qualtrics Response ID | Selecteer een beschikbare eVar of hulpmiddel van uw rapportreeks. (Mogelijk moet u een nieuwe listVar inschakelen in Report Suite Manager.) |
+   | Trackingserver | Geef de instelling voor de trackingserver (domein) op die u gebruikt om Adobe Analytics-gegevens bij te houden. Gebruik de `trackingServerSecure`-trackingserver als deze afwijkt van de standaardinstelling voor trackingservers. |
+   | Indieningen kwaliteitscontroles | Selecteer een beschikbare gebeurtenis in uw rapportsuite (het kan zijn dat u een nieuwe gebeurtenis moet inschakelen in de rapportsuite Manager). |
 
 1. **Wizard Stap 3**: Niets vereist, alleen informatie.
 
@@ -51,7 +51,7 @@ Als u de integratie wilt activeren, moet u de wizard voor Qualtrict-integratie v
 
 1. **Wizard Stap 5**: Controleer de configuratie en klik op  **[!UICONTROL Activate Now]**.
 
-## Het toelaten van de Integratie in de Reeks van het Onderzoek van Qualtrics{#enabling-the-integration-in-qualtrics-research-suite}
+## Integratie in Qualtrics Research Suite inschakelen{#enabling-the-integration-in-qualtrics-research-suite}
 
 Nadat u de integratietovenaar hebt voltooid, moet u de integratie activeren voor elke Qualtrics-enquête die u wilt verbinden.
 
