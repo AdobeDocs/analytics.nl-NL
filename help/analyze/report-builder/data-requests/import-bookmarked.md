@@ -3,15 +3,14 @@ description: Alle bookmarked rapporten en dashboardrapporten zijn nu vermeld als
 title: Gebookmarkte rapporten en dashboardrapporten importeren
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 19813950-2495-4a75-aacb-587b59bf2484
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '337'
 ht-degree: 4%
 
 ---
-
 
 # Gebookmarkte rapporten en dashboardrapporten importeren
 
@@ -40,4 +39,3 @@ De geïmporteerde bladwijzerplaat zal de rapportsuite, het geselecteerde segment
 >[!IMPORTANT]
 >
 >Het datumbereik wordt ingesteld op hetzelfde datumbereik, maar als een statisch datumbereik, zelfs als dit datumbereik een verschuivingsdatumbereik is in de bladwijzer Rapporten en analyse.
-
