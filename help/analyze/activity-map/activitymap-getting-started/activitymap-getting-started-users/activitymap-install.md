@@ -3,15 +3,14 @@ description: Het installatieproces is afhankelijk van de browser die u gebruikt.
 title: Browserplug-ins voor Activity Map installeren
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '354'
 ht-degree: 5%
 
 ---
-
 
 # Browserplug-ins voor Activity Map installeren{#install-activity-map-browser-plug-ins}
 
