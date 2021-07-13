@@ -2,21 +2,20 @@
 description: Met de functie Metrische gegevens bewerken in meerdere verzoeken kunt u eenvoudig metrische gegevens toevoegen, verwijderen of vervangen in een bestaande aanvraag of in een groep verzoeken.
 title: Cijfers bewerken in meerdere aanvragen
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '535'
 ht-degree: 4%
 
 ---
-
 
 # Cijfers bewerken in meerdere aanvragen
 
 Met de functie Metrische gegevens bewerken in meerdere verzoeken kunt u eenvoudig metrische gegevens toevoegen, verwijderen of vervangen in een bestaande aanvraag of in een groep verzoeken.
 
-## Metrisch {#section_3FBDA9668039404895059618D70FCBCD} toevoegen
+## Metrisch toevoegen {#section_3FBDA9668039404895059618D70FCBCD}
 
 Houd rekening met het volgende:
 
@@ -34,7 +33,7 @@ Een of meer metriek toevoegen:
 
 1. Vernieuw het verzoek om werkelijke gegevens te bekijken. Tot u verfrist, zult u off-line gegevens zien.
 
-## Metrische {#section_D773AAC7B30C4FBEBDB66B203C217818} vervangen
+## Metrisch vervangen {#section_D773AAC7B30C4FBEBDB66B203C217818}
 
 Houd rekening met het volgende:
 
@@ -58,7 +57,7 @@ Een metrisch object vervangen
 1. Selecteer welke metrische waarde moet worden vervangen en welke metrische waarde deze vervangt.
 1. Vernieuw de aanvraag. Tot u verfrist, zult u off-line gegevens zien.
 
-## Metrisch {#section_D3CD5BAC7670416593B633B2B8423C60} verwijderen
+## Metrische gegevens verwijderen {#section_D3CD5BAC7670416593B633B2B8423C60}
 
 Houd rekening met het volgende:
 
@@ -77,4 +76,3 @@ Metrische gegevens verwijderen:
 
 1. Selecteer een of meer metriek die u uit de aanvraag wilt verwijderen.
 1. Vernieuw de aanvraag. Tot u verfrist, zult u off-line gegevens zien.
-
