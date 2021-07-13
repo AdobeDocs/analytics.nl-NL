@@ -2,9 +2,9 @@
 description: 'Componenten in Analysis Workspace bestaan uit afmetingen, metriek, segmenten en datumbereiken die u naar een project kunt slepen en neerzetten. '
 title: Overzicht van onderdelen
 feature: Basisprincipes van werkruimte
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 5%
@@ -27,7 +27,7 @@ U kunt ook de [Dichtheidsmontages van de Mening ](https://experienceleague.adobe
 
 Voorbeelden van afmetingen zijn [!UICONTROL Page Name], [!UICONTROL Marketing Channels], [!UICONTROL Device Type] en [!UICONTROL Products]. Dimension worden geleverd door Adobe en worden vastgelegd via uw aangepaste implementatie (eVar, Props, classificaties, enz.).
 
-Elke dimensie bevat ook **dimensiepunten** binnen het. U vindt Dimension-items in de linkercomponentrails door op de pijl naar rechts naast de naam van een dimensie te klikken (de items zijn geel).
+Elke dimensie bevat ook **dimensiepunten** binnen het. U vindt Dimension-items in de linkercomponentrails door op de pijl naar rechts naast de naam van een willekeurige dimensie te klikken (de items zijn geel).
 
 Voorbeelden van dimensie-items zijn [!UICONTROL Homepage] (binnen de [!UICONTROL Page]-dimensie), [!UICONTROL Paid Search] (binnen de [!UICONTROL Marketing Channel]-dimensie), [!UICONTROL Tablet] (binnen de [!UICONTROL Mobile Device Type]-dimensie), enzovoort.
 
