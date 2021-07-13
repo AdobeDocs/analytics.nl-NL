@@ -3,12 +3,12 @@ description: Informatie over het plannen, downloaden en verspreiden van rapporte
 subtopic: Schedule
 title: Rapport Planning en distributie
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Grondbeginselen van rapporten en analyses, rapporten en analyses
+feature: Grondbeginselen van rapporten en analyses
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a589e2dffd52749ec3e243815451fe3ed2396509
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1623'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Stappen die beschrijven om rapporten in een verscheidenheid van formaten te down
 |--- |--- |
 | Rapport nu verzenden | Verzendt het rapport onmiddellijk. |
 | Plan voor later | Geeft opties weer om een tijdframe en leveringsopties op te geven. |
-| Tijdschema rapport | **Vast**: Voorkomt dat de datum vooruit gaat naarmate de tijd verstrijkt. **Rollen**: Hiermee kan de datum worden vervroegd in de tijd. Enkele overwegingen:<ul><li>Als u Rolling voor zowel de begin als einddata selecteert, en u een dagrapport voor de vorige dag selecteert, ontvangt u elke dag een e-mail met een rapport voor de vorige dag.</li><li>Als u Vast voor de beginnende dag selecteert, en het rollen voor de einddag, ontvangt u op de eerste dag een rapport voor de vorige dag. De tweede dag ontvangt u een rapport voor de vorige twee dagen, en op de derde dag ontvangt u een rapport voor de vorige drie dagen, etc.</li><li>Als u Vast hebt geselecteerd voor zowel de begin- als de einddatum, ontvangt u elke dag een identiek rapport voor de opgegeven dagen.</li><li>U kunt geen roldatum en een vaste einddatum selecteren.</li></ul> |
+| Tijdschema rapport | **Vast**: Voorkomt dat de datum vooruit gaat naarmate de tijd verstrijkt. **Rollen**: Hiermee kan de datum worden vervroegd in de tijd. Enkele overwegingen:<ul><li>Als u Rolling voor zowel de begin als einddata selecteert, en u een dagrapport voor de vorige dag selecteert, ontvangt u elke dag een e-mail met een rapport voor de vorige dag.</li><li>Als u Vast voor de beginnende dag selecteert, en het rollen voor de einddag, ontvangt u op de eerste dag een rapport voor de vorige dag. De tweede dag ontvangt u een rapport voor de vorige twee dagen, en op de derde dag ontvangt u een rapport voor de vorige drie dagen, etc.</li><li>Als u Vast hebt geselecteerd voor zowel de begin- als de einddatum, ontvangt u elke dag een identiek rapport voor de opgegeven dagen.</li><li>U kunt geen schuivende begindatum en een vaste einddatum selecteren.</li></ul> |
 | Leveringsfrequentie | <ul><li>**Uur**: Levert e-mail elk uur, om het even welk ander uur, of een ander interval van uren.</li><li>**Dagelijks**: Verzendt de e-mail elke dag, elke andere dag, elke derde dag, of om het even welk ander interval van dagen. U kunt het ook elke weekdag laten verzenden.</li><li>**Wekelijks**: Verzendt het e-mailbericht elke week, andere week, elke derde week of elk ander interval van weken. U kunt ook opgeven welke dag van de week het wordt verzonden.</li><li>**Maandelijks**: Hiermee geeft u het interval op in een aantal maanden en u kunt ook de dag van de maand selecteren waarop de gegevens worden verzonden, of de dag van de week in een bepaalde week van de maand.</li><li>**Jaarlijks**: Hier geeft u de dag op van het jaar waarin het rapport wordt verzonden. U kunt dit ook doen op een bepaalde dag van de week in een willekeurige week van het jaar.</li><li>**Dag**: Is op de tijdzone van toepassing verbonden aan de geselecteerde rapportreeks.</li></ul> |
 | Opties voor eindaflevering | <ul><li>**Nooit eindigen**: Geeft geen einde aan.</li><li>**Einde na  `value` voorkomen**: Hier geeft u het aantal exemplaren op voordat de levering wordt beëindigd.</li><li>**Einde op**: Hier kunt u een specifieke datum opgeven. Als u de gegevens op de zelfde datum wilt verwerken zoals de rapportgegevens, bevat het rapport slechts gegevens die in het gegevensbestand op het tijdstip zijn gezet het rapport wordt verzonden. Omdat de volledige verwerking voor een dag tot 24 uren kan vergen, zouden de volledige gegevens niet op het tijdstip kunnen beschikbaar zijn het rapport wordt verzonden. Voor volledige gegevens stelt u altijd de verwerkingstijd in gedurende 24 uur na het einde van de verslagperiode.</li></ul> |
 
