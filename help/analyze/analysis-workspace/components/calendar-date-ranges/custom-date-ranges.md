@@ -3,16 +3,15 @@ description: Maak aangepaste datumbereiken in Analysis Workspace en sla deze op 
 keywords: Analysis Workspace
 title: Aangepaste datumbereiken maken
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-feature: Workspace Basics
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Basisprincipes van werkruimte
+role: User, Admin
+exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '244'
 ht-degree: 4%
 
 ---
-
 
 # Aangepaste datumbereiken maken
 
@@ -36,7 +35,7 @@ U kunt dit aangepaste datumbereik naar een kolom slepen naast een aangepast maan
 
 ![](assets/date-range-two-months-table.png)
 
-## Gebruik een roldatumbereik van 7 dagen {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## Een 7-daags roldatumbereik gebruiken {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
 Een datumbereik is van toepassing op paneelniveau. Als u een datumbereik aan uw project wilt toevoegen, klikt u op **Handelingen** > **Deelvenster toevoegen** en geeft u een nieuw datumbereik op.
 
