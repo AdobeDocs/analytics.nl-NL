@@ -3,15 +3,14 @@ description: U kunt een datumbereik opgeven door cellen te selecteren in een wer
 title: Datums uit een cel
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e10573cc-984e-4202-a797-c2c9bec2af96
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '158'
 ht-degree: 6%
 
 ---
-
 
 # Datums uit een cel
 
