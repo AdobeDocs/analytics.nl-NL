@@ -2,16 +2,15 @@
 title: Overzicht van het vergelijkingspaneel voor segmenten
 description: Leer hoe u het vergelijkingspaneel voor segmenten gebruikt, onderdeel van de IQ voor segmenten in Analysis Workspace.
 keywords: Analysis Workspace;Segment-IQ
-feature: Panels
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Deelvensters
+role: User, Admin
+exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1131'
 ht-degree: 4%
 
 ---
-
 
 # Overzicht van het vergelijkingspaneel voor segmenten
 
