@@ -3,16 +3,15 @@ description: Maak een cohort en voer een rapport voor cohortanalyse uit in Analy
 keywords: Analysis Workspace
 title: Een cohortanalyserapport uitvoeren
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-feature: Visualizations
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Visualisaties
+role: User, Admin
+exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
-
 
 # Een [!UICONTROL Cohort Analysis]-rapport configureren
 
@@ -59,4 +58,3 @@ Maak een cohort en voer een [!UICONTROL Cohort Analysis]-rapport uit in Analysis
    >[!NOTE]
    >
    >U moet uw project bewaren alvorens de kromming beschikbaar is.
-
