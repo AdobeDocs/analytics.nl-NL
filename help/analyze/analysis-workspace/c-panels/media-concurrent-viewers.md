@@ -2,9 +2,9 @@
 title: Deelvenster voor gelijktijdige mediaviewers
 description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace gebruiken en interpreteren.
 feature: Deelvensters
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 1%
@@ -55,7 +55,7 @@ De enige metrische waarde die in dit deelvenster kan worden gebruikt, zijn Gelij
 
 | Metrisch | Beschrijving |
 |---|---|
-| Gelijktijdige viewers | Aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br><br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Unieke bezoekersaccounts gebruiken voor het verwijderen van ongewenste &quot;pieken&quot; bij showgrenzen (waar sessies tegelijkertijd eindigen en starten). |
+| Gelijktijdige viewers | Aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br><br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Unieke bezoekersaccounts gebruiken voor het verwijderen van ongewenste &quot;pieken&quot; bij showgrenzen (waar sessies op hetzelfde moment eindigen en beginnen). |
 
 In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbron wilt weergeven, klikt u met de rechtermuisknop op het lijndiagram en downloadt u dit als een CSV-bestand.  Uitsplitsingen naar reeksen worden opgenomen.
 
