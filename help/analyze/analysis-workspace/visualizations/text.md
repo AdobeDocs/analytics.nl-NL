@@ -2,22 +2,21 @@
 description: Hiermee kunt u door de gebruiker gedefinieerde tekst toevoegen aan uw werkruimte.
 title: Tekst
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-feature: Visualizations
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Visualisaties
+role: User, Admin
+exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '167'
 ht-degree: 1%
 
 ---
-
 
 # Tekst
 
 U kunt user-defined tekst aan uw project van de Werkruimte toevoegen door een tekstvisualisaties of een paneel/visualisatiebeschrijvingen (klik kopbal met de rechtermuisknop aan > **[!UICONTROL Edit description]**) te gebruiken. U kunt ook de opmaak van de tekst wijzigen, hyperlinks toevoegen en afbeeldingen toevoegen.
 
-## Opmaak {#format} aanpassen
+## Opmaak aanpassen {#format}
 
 Wanneer u het tekstvak of de beschrijving bewerkt, kunt u de tekengrootte (kopniveaus), de kleur, de opmaak (vet, cursief, onderstrepen) en de uitlijning van geselecteerde tekst aanpassen. U kunt ook opsommingstekens en genummerde lijsten toevoegen.
 
