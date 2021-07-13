@@ -3,15 +3,14 @@ description: Activity Map is een Adobe Analytics-toepassing die is ontworpen om 
 title: Overzicht van Activity Map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 27%
+source-wordcount: '284'
+ht-degree: 28%
 
 ---
-
 
 # Overzicht van Activity Map
 
@@ -55,4 +54,3 @@ Met Activity Map kunt u verschillende weergaven instellen om visueel de versnell
 * [Activity Map-rapportage in Analytics](activitymap-reporting-analytics.md)
 * [Problemen met browserextensies oplossen](troubleshooting-browser-extensions.md)
 * [Kennisbronnen](activitymap-info-resources.md)
-
