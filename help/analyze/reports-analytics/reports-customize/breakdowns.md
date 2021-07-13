@@ -3,10 +3,9 @@ description: De onderverdelingen van het gebruik wanneer u meer over wilt weten 
 title: Uitsplitsingen
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 feature: Grondbeginselen van rapporten en analyses
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -23,7 +22,7 @@ Als u een rapport opsplitst door *`Referrer Type`*, zou u een gegevenspunt voor 
 
 U kunt elke analytische variabele (eVar of eigenschap) opsplitsen met een andere variabele. Het **[!UICONTROL Breakdown By]** menu in de rapportlijst past het standaardAnalytics rapporteringsmenu aan, die selecties verenigbaar houden
 
-## Uitsplitsingsrapport {#task_F685624830E64C829C8BE6435A107F69} uitvoeren
+## Een uitsplitsingsrapport uitvoeren {#task_F685624830E64C829C8BE6435A107F69}
 
 Stappen die beschrijven hoe te om een breekrapport in werking te stellen.
 
