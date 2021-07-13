@@ -2,16 +2,15 @@
 description: Met de val in Analysis Workspace kunt u dimensies en metriek combineren en afstemmen als aanraakpunten in trechters en workflows. Dit geeft u meer flexibiliteit bij het bepalen van de gebruikersstappen u wilt onderzoeken.
 title: Interdimensionale uitval
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-feature: Visualizations
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Visualisaties
+role: User, Admin
+exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '165'
+ht-degree: 3%
 
 ---
-
 
 # Interdimensionale uitval
 
@@ -30,4 +29,3 @@ U kunt metriek aan deze mengeling ook toevoegen. In dit voorbeeld hebben we de m
 Bovendien kunt u verschillende afmetingen en metriek in EN controlepunten combineren. Sleep gewoon een andere dimensie of metrische waarde boven op een bestaande dimensie:
 
 ![](assets/interdimensional-fallout3.png)
-
