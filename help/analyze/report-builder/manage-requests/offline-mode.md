@@ -3,15 +3,14 @@ description: In de offlinemodus worden plaatsaanduidingsgegevens geretourneerd o
 title: Offline modus voor het maken en bewerken van aanvragen
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '181'
 ht-degree: 9%
 
 ---
-
 
 # Offline modus voor het maken en bewerken van aanvragen
 
@@ -36,4 +35,3 @@ Offlinemodus inschakelen:
    >[!IMPORTANT]
    >
    >Zorg ervoor u Off-line Wijze onbruikbaar maakt alvorens uw verzoeken met echte gegevens in werking te stellen. Ga hiertoe gewoon terug naar **[!UICONTROL Options]** en verwijder het vinkje.
-
