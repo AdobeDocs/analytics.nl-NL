@@ -2,9 +2,9 @@
 description: Leer meer over de verschillende opslagopties, zoals automatisch opslaan, opslaan als, opslaan als sjabloon en eerdere versies openen.
 title: Projecten opslaan
 feature: Basisprincipes van werkruimte
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Voor **bestaande** projecten, bij het terugkeren naar Werkruimte, zult u **de te
 
 Voor **nieuwe** projecten die nooit zijn opgeslagen, kunnen niet-opgeslagen wijzigingen niet worden hersteld.
 
-## Vorige versie {#previous-version} openen
+## Vorige versie openen {#previous-version}
 
 >[!NOTE]
 >
