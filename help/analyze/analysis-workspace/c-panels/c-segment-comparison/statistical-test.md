@@ -4,10 +4,9 @@ keywords: Analysis Workspace;Segment-IQ
 title: Statistische tests bij segmentvergelijking
 feature: Grondbeginselen van rapporten en analyses
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 2%
@@ -24,7 +23,7 @@ Een score van 0 betekent dat er geen verschil is tussen de twee segmenten en een
 
 In de Bovenste lijst van Metriek, gebruikt het Hulpmiddel van de Vergelijking van het Segment een twee steekproef Mann-Whitney U Test, die een nonparametric gelijkheidstest is die wordt gebruikt om de eendimensionale kansverdelingen van elke metrisch voor elk overwogen segment te vergelijken. De verschilscore in de metriekentabel is een combinatie van de p-waarde van het berekende U-statistiek (die aangeeft hoe stochastisch verschillend de twee segmenten over een bepaalde metrische waarde worden verdeeld) en de relatieve grootte van het waargenomen verschil. Een grote verschilscore (dicht bij 1) betekent dat de specifieke maatstaf een groot relatief verschil heeft en een hoog statistisch vertrouwen heeft dat de segmenten verschillend zijn.
 
-## Items met de bovenste dimensie en verschilscores voor de bovenste segmenten {#section_8073ADA6053B44C9A23FDC5ED4AF2AC4}
+## Items met de bovenste dimensie en de verschilscores voor de bovenste segmenten {#section_8073ADA6053B44C9A23FDC5ED4AF2AC4}
 
 Voor het berekenen van de verschilscore op de bovenste Dimension-items en de bovenste segmentverschiltabellen wordt een algoritme voor het differentiëren van het relatieve risico gebruikt (vergelijkbaar met de risicoverhouding, hoewel een verschil wordt gebruikt in plaats van een verhouding). Een risicoverschil wordt berekend door de cumulatieve incidenties van een dimensie-item (of overlapping met een segment uit de segmenttabel) van het ene geselecteerde segment af te trekken van het andere. Een hoge verschilscore (dicht bij 1) betekent dat het specifieke dimensie-item of het tertiaire segment in een van de geselecteerde segmenten en niet in de andere segmenten een vooraanstaande positie innam.
 
