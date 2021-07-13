@@ -3,9 +3,9 @@ description: Met filters kunt u het rapport beperken en regelitems die overeenko
 title: Rapportdata filteren
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Grondbeginselen van rapporten en analyses
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -147,7 +147,7 @@ t_reports_filter_specific.xml
 
  -->
 
-Bepaalde rapporten bevatten een filter dat specifiek is voor dat rapport. Met een [!UICONTROL Purchase Conversion Funnel Report] kunt u bijvoorbeeld filteren op webpagina&#39;s. Met een [!UICONTROL Geosegmentation Report] kunt u filteren op geografische regio. Aanvullende rapporten hebben andere filters die specifiek zijn voor die rapporten.
+Bepaalde rapporten bevatten een filter dat specifiek is voor dat rapport. Met een [!UICONTROL Purchase Conversion Funnel Report] kunt u bijvoorbeeld filteren op webpagina&#39;s. Met een [!UICONTROL Geosegmentation Report] kunt u filteren op geografische regio. Aanvullende rapporten hebben andere filters die specifiek zijn voor deze rapporten.
 
 Wanneer u tot deze filters toegang hebt, kunt u rapportmetriek voor de punten zien die in de lijst worden gespecificeerd.
 
