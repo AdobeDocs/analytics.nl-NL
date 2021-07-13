@@ -3,10 +3,9 @@ description: Metriek vormen de basis van rapporten en helpen u gegevensrelaties 
 title: Metrics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 feature: Grondbeginselen van rapporten en analyses
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 1%
