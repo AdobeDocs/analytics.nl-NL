@@ -5,10 +5,9 @@ title: Virtuele rapportreeksen en tagging met meerdere suite-overwegingen
 feature: Instellingen van rapportsuite
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 1cd14244b81fbf8d1e4c6f0642f181fd4b60705d
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -85,7 +84,9 @@ Zo is per rapportsuite slechts één Google DCM toegestaan. Veel bedrijven hebbe
 
 ### Samenvattingsgegevensbronnen
 
-Met samenvattingsgegevensbronnen kunt u samengevoegde metriek op rapportniveau importeren in Adobe Analytics. Aangezien samenvattingsgegevensbronuploads geaggregeerde metriek bevatten, kunnen ze niet worden gesegmenteerd. Aangezien het VRS gebruikend segmentatie werkt, zijn alle gegevens die gebruikend summiere gegevensbronnen worden ingevoerd niet beschikbaar in virtuele rapportreeksen. De summiere gegevensbronnen zijn slechts zichtbaar in de bron rapportreeks.
+Met samenvattingsgegevensbronnen kunt u samengevoegde metriek op rapportniveau importeren in Adobe Analytics. Omdat samenvattingsgegevensbronuploads geaggregeerde metriek *zonder bezoekersidentiteitskaart* bevatten, kunnen zij niet in [!UICONTROL Visit] en [!UICONTROL Visitor] containers worden gesegmenteerd. Aangezien VRS gebruikend segmentatie werkt, zullen de gegevens die gebruikend summiere gegevensbronnen worden ingevoerd niet beschikbaar in virtuele rapportsuites zijn als het segment met een Bezoek of een container van de Bezoeker wordt gebouwd.
+
+De summiere gegevensbronnen tonen omhoog in de virtuele rapportreeks als een container van het Actief wordt gebruikt en als die container van het Actief regels heeft die worden geconditioneerd om de gegevensbroninformatie te omvatten.
 
 >[!TIP]
 >
