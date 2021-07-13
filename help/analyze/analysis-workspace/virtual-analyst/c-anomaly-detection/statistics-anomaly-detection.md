@@ -1,16 +1,15 @@
 ---
 description: Gegevensinconsistenties kunnen grote problemen veroorzaken. Leer hoe u statistische anomalieën kunt identificeren met afwijkende detectietechnieken van Adobe. Ga vandaag aan de slag.
 title: Statistische technieken voor anomaliedetectie
-feature: AI Tools
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: AI-gereedschappen
+role: User, Admin
+exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
-
 
 # Statistische technieken voor anomaliedetectie
 
@@ -59,13 +58,13 @@ U ziet de dramatische verbetering van de prestaties op kerstdag en Nieuwjaarsdag
 
 ![](assets/anomaly_statistics.png)
 
-## Anomalydetectie voor korrelvormigheid per uur {#section_014C9E9209AF43F8A03D5D46E3B3AEE7}
+## Anomaly-detectie voor korrelvormigheid per uur {#section_014C9E9209AF43F8A03D5D46E3B3AEE7}
 
 Uurgegevens zijn gebaseerd op dezelfde tijdreeksalgoritmebenadering als het algoritme voor dagelijkse granulariteit. Zij is echter sterk afhankelijk van twee trendpatronen: de cyclus van 24 uur en de cyclus van weekenddagen. Om deze twee seizoenseffecten in aanmerking te nemen, bouwt het uuralgoritme twee afzonderlijke modellen voor een weekend en een weekdag volgens dezelfde hierboven beschreven aanpak.
 
 De trainingsvensters voor trends per uur zijn gebaseerd op een terugzoekvenster van 336 uur.
 
-## Anomalische detectie voor wekelijkse en maandelijkse granulariteit {#section_5D421576BFBC4B24A58DFCC0A6407545}
+## Anomalische detectie voor wekelijkse en maandelijkse granulariteiten {#section_5D421576BFBC4B24A58DFCC0A6407545}
 
 Wekelijks- en maandtrends vertonen niet dezelfde wekelijkse of dagelijkse trends die worden aangetroffen bij dagelijkse of uurmatige granulariteiten, zodat een dergelijk afzonderlijk algoritme wordt gebruikt. Voor elke week en elke maand wordt een tweestapsdetectieaanpak gebruikt, die bekend staat als de Gegeneraliseerde Extreme Studentized Deviate (GESD) test. Bij deze test wordt rekening gehouden met het maximumaantal verwachte anomalieën in combinatie met de aangepaste box-plot-aanpak (een niet-parametrische methode voor de detectie van uitbijters) om het maximumaantal uitschieters te bepalen. De twee stappen zijn:
 
