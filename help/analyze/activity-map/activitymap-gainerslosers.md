@@ -3,15 +3,14 @@ description: Met bedekkingen kunt u op meerdere manieren gegevensvisualisatie co
 title: Aanpasbare overlays
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 1%
 
 ---
-
 
 # Aanpasbare overlays
 
@@ -57,11 +56,10 @@ Bubbelbedekkingen worden weergegeven wanneer u deze bedekking selecteert in Over
 >
 >![](assets/bubbles_submenu.png)>
 
-## Tussenruimers- en loser-overlays {#section_EE80278E20C14824869BF5A27A4634C8}
+## Bedekkingen voor tussenpersonen en verliezers {#section_EE80278E20C14824869BF5A27A4634C8}
 
 **[!UICONTROL Gainers and losers overlays]** zijn alleen beschikbaar in de live modus. Zij melden veranderingen in real time in verbindingsactiviteit door de metriek van de huidige periode met metriek van de laatste periode te vergelijken. Ze geven je een visueel aantrekkelijke manier om trending in real-time te bekijken.
 
 Deze overlayranks in real time worden gebaseerd op veranderingen in de metrische waarde tussen de vorige en huidige periodes geklikt die.
 
 ![](assets/gainers_losers.png)
-
