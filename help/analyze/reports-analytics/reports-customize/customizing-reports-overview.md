@@ -3,9 +3,9 @@ description: Nadat u een rapport hebt uitgevoerd, kunt u het rapport aanpassen o
 title: Overzicht van rapporten aanpassen
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Grondbeginselen van rapporten en analyses
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 3%
