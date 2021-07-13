@@ -2,16 +2,15 @@
 description: Gebruik de staafvisualisatie in een project van de Werkruimte.
 title: Balkgrafiek en gestapelde-balkgrafiek
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: Visualizations
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Visualisaties
+role: User, Admin
+exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 9%
+source-wordcount: '89'
+ht-degree: 10%
 
 ---
-
 
 # Balkgrafiek en gestapelde-balkgrafiek
 
@@ -23,7 +22,7 @@ Bij deze visualisatie worden verticale balken weergegeven die verschillende waar
 
 Met een keuzelijst met granulariteit in de visualisatie-instellingen kunt u een trendvisualisatie (bijvoorbeeld lijn, balk) wijzigen van dagelijks naar wekelijks, enz.
 
-## Stapel {#section_9EA83779AE964635907EE5031A785A49}
+## Stapel gestapeld {#section_9EA83779AE964635907EE5031A785A49}
 
 Deze visualisatie is als een staafdiagram, maar met de reeksstaven bovenop elkaar gestapeld.
 
@@ -32,4 +31,3 @@ Deze visualisatie is als een staafdiagram, maar met de reeksstaven bovenop elkaa
 Met een nieuwe visualisatie-instelling op staafgestapelde visualisaties verandert u het diagram in een &#39;100% gestapelde&#39; visualisatie:
 
 ![](assets/stacked_100_percent.png)
-
