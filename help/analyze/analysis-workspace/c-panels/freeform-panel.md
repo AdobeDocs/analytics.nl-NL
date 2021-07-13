@@ -1,20 +1,18 @@
 ---
 description: Meer informatie over vrije-vormvensters
 title: Deelvenster Vrije vorm
-feature: Panels
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Deelvensters
+role: User, Admin
+exl-id: 20354931-29a6-4180-b24a-73da24b40061
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '25'
+ht-degree: 20%
 
 ---
-
 
 # Deelvenster Vrije vorm
 
 Een deelvenster Vrije vorm is een leeg deelvenster met een vrije-vormentabel als begintoestand.
 
 ![](assets/freeform-panel.png)
-
