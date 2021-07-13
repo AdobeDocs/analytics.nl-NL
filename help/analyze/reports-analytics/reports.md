@@ -2,10 +2,9 @@
 title: Rapporten
 description: De afmetingen en metriek die Rapporten & Analytics voor elk rapport gebruiken.
 feature: Grondbeginselen van rapporten en analyses
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1866'
 ht-degree: 0%
@@ -131,10 +130,10 @@ Bevat een rapport dat inzicht geeft in waar bezoekers vandaan kwamen voordat ze 
 
 ## Campagnes
 
-Bevat rapporten hoofdzakelijk rond [het Volgen code](/help/components/dimensions/tracking-code.md) afmeting.
+Bevat rapporten hoofdzakelijk rond de [het Volgen code](/help/components/dimensions/tracking-code.md) dimensie.
 
 * Kanaal voor conversie van campagne: Meldt click-through, [Checkouts](/help/components/metrics/checkouts.md), [Orders](/help/components/metrics/orders.md), en [Revenue](/help/components/metrics/revenue.md) in een kanaalrapport. De metrische klikdoorhalingen is gelijkaardig aan [Instanties](/help/components/metrics/instances.md) metrisch in context van [het Volgen code](/help/components/dimensions/tracking-code.md) afmeting. Een gelijkaardige visualisatie wordt bereikt in Analysis Workspace gebruikend [Fallout visualization](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Trackingcode: Hiermee gebruikt u de [Code bijhouden](/help/components/dimensions/tracking-code.md)-dimensie.
+* Trackingcode: Hiermee gebruikt u de [dimensie Code bijhouden](/help/components/dimensions/tracking-code.md).
 
 ## Producten
 
