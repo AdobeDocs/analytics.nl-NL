@@ -1,16 +1,15 @@
 ---
 description: Het kleurenpalet voor visualisatie in Analysis Workspace gebruiken
 title: Wat zijn visualisatiekleurenpaletten en hoe werken ze?
-feature: Workspace Basics
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Basisprincipes van werkruimte
+role: User, Admin
+exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
-
 
 # Kleurenpaletten voor visualisatie
 
@@ -36,4 +35,3 @@ Houd rekening met het volgende:
 
 1. Als u uw eigen palet wilt opgeven, selecteert u **[!UICONTROL Custom Palette]** onder de vooraf ingestelde opties.
 1. Geef maximaal 16 hexadecimale waarden met komma&#39;s als scheidingsteken op (bijvoorbeeld #00a4e4) voor de kleuren die u wilt gebruiken. Als u bijvoorbeeld slechts vier waarden wilt gebruiken, worden deze kleuren automatisch herhaald in visualisaties die meer kleuren bevatten.
-
