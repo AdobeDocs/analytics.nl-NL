@@ -3,15 +3,14 @@ description: Hierdoor wordt het gebruik van Report Builder verder geïntegreerd 
 title: De functie Report Builder oproepen vanuit Microsoft Excel-functies
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 3%
 
 ---
-
 
 # De functie Report Builder oproepen vanuit Microsoft Excel-functies
 
@@ -39,7 +38,7 @@ Ga naar [!UICONTROL Formulas] > [!UICONTROL Insert Function] om deze functies bi
 
 ![](assets/arb_functions.png)
 
-## Gebruik deze functies in een formule {#section_034311081C8D4D7AA9275C1435A087CD}
+## Deze functies in een formule gebruiken {#section_034311081C8D4D7AA9275C1435A087CD}
 
 De formule
 
@@ -49,7 +48,7 @@ De formule
 
 Hiermee wordt &#39;&#39;Als de waarde in cel P5 tekst is of leeg is, vernieuwt u het bereik in cel P9.&#39;&#39;
 
-## Report Builder-functies gebruiken met formaatbesturing {#section_26123090B5BD49748C8D8ED7A1C5ED84}
+## Report Builder-functies gebruiken met formaatcontrole {#section_26123090B5BD49748C8D8ED7A1C5ED84}
 
 U kunt een macro aan een controle nu toewijzen u creeerde en die controle kan een functie zijn die een werkboekverzoek vernieuwt. De functie AsyncRefreshActiveWorksheet vernieuwt bijvoorbeeld alle aanvragen in een werkblad. Soms wilt u echter alleen bepaalde verzoeken vernieuwen, niet alle.
 
@@ -78,4 +77,3 @@ De twee functies die een parameter nemen, kunnen met de Controle van het Formaat
 1. Open de lijst van rapportbuilderparameters onder [!UICONTROL Formulas] > [!UICONTROL Insert Function] [!UICONTROL Adobe.ReportBuilder.Bridge].
 
 1. Kies een van de twee functies die eindigen met AltTextParam en klik op **[!UICONTROL OK]**.
-
