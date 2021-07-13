@@ -3,10 +3,9 @@ description: Een inleiding op de eigenschappen van een rapport, met inbegrip van
 title: Rapportfuncties
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Grondbeginselen van rapporten en analyses
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 1%
@@ -25,7 +24,7 @@ Een voorbeeld van een rapport Pagina&#39;s ( **[!UICONTROL Reports]** > **[!UICO
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
-## Werkbalk {#section_0D674177AE6C4A71B07234DB25910ECD} rapporteren
+## Werkbalk Rapport {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Deel uw rapportgegevens met de besluitvormers die uw plaats of marketing strategieën kunnen veranderen die op de gegevens worden gebaseerd.
 
@@ -49,7 +48,7 @@ Geef de datum op door op de kalenderknop te klikken en een datumbereik te select
 
 Zie [Een datum- of datumbereik selecteren](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) en [Vergelijkende datums](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
-## Grafiektype {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
+## Type grafiek {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
 Selecteer het type grafiek of grafiek dat u wilt zien:
 
@@ -65,7 +64,7 @@ Afhankelijk van het type grafiek dat u hebt geselecteerd, ziet u doorgaans de bo
 
 Zie [Rapporten aanpassen.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
 
-## Cijfers {#section_8B8F9EC72B864E29B91039E7B7381EAD}
+## Metrics {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
 Voeg metriek aan uw rapport toe. Beheerders kunnen standaardmetriek opgeven.
 
