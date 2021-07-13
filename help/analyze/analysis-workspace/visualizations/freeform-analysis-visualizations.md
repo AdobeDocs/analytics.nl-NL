@@ -3,9 +3,9 @@ description: Geef uw gegevens visueel weer met visualisaties.
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
 feature: Visualisaties
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 4%
@@ -80,7 +80,7 @@ Een label voor een legenda bewerken:
 
 Hier is een [verbinding aan een video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) op dit onderwerp.
 
-## Klikken met rechtermuisknop op menu {#right-click}
+## Klikken met rechtermuisknop {#right-click}
 
 Aanvullende functionaliteit voor een visualisatie is beschikbaar door met de rechtermuisknop op de visualisatiekop te klikken. De instellingen variëren per visualisatie. Enkele beschikbare instellingen zijn:
 
@@ -97,7 +97,7 @@ Aanvullende functionaliteit voor een visualisatie is beschikbaar door met de rec
 | Visualisatiekoppeling ophalen | Hiermee kunt u iemand doorsturen naar een specifieke visualisatie binnen een project. Wanneer op de koppeling wordt geklikt, moet de ontvanger zich aanmelden voordat deze wordt omgeleid naar de exacte visualisatie die is gekoppeld aan. |
 | Opnieuw starten | (Werkt voor stroom, venn, Histogram) Hiermee verwijdert u de configuratie voor de huidige visualisatie zodat u deze volledig opnieuw kunt configureren. |
 
-## Visueel pictogram {#quick-viz} maken
+## Visueel pictogram maken {#quick-viz}
 
 Als u niet zeker weet welke visualisatie u wilt kiezen, klikt u op het pictogram **[!UICONTROL Create Visual]** in een tabelrij (beschikbaar bij de muisaanwijzer). Dit is de snelste manier om een visualisatie toe te voegen. Als u erop klikt, vraagt Analysis Workspace om een goed opgeleide schatting te maken van de mate waarin visualisatie het beste aansluit bij uw gegevens. Als u bijvoorbeeld 1 rij hebt geselecteerd, wordt er een trendlijngrafiek gemaakt. Als u 3 geselecteerde segmentrijen hebt, zal het tot een diagram van de Venn leiden.
 
