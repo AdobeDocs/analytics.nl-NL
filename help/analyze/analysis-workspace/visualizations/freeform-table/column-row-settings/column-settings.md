@@ -2,22 +2,21 @@
 description: Met kolominstellingen kunt u kolomopmaak configureren, waarvan sommige voorwaardelijk kunnen zijn.
 title: Kolominstellingen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-feature: Freeform Tables
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Vrije-vormtabellen
+role: User, Admin
+exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '704'
 ht-degree: 20%
 
 ---
-
 
 # [!UICONTROL Column Settings]
 
 [!UICONTROL Column Settings] Laat u kolom het formatteren vormen, wat waarvan voorwaardelijk kan zijn.
 
-## [!UICONTROL Column Settings] {#edit-column-settings} bewerken
+## [!UICONTROL Column Settings] bewerken {#edit-column-settings}
 
 Als u [!UICONTROL Column Settings] wilt openen, sleept u een tabel voor vrije vorm naar het project en klikt u op het tandwielpictogram in de kolomkop.
 
