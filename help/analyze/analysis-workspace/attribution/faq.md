@@ -1,16 +1,15 @@
 ---
 title: Veelgestelde vragen over attributie
 description: Antwoorden op veelgestelde vragen over attributie.
-feature: Attribution
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Attributie
+role: User, Admin
+exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
-
 
 # Veelgestelde vragen over attributie
 
@@ -23,7 +22,7 @@ Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt di
 Sommige op bezoek-gebaseerde metriek, zoals [Ingangen](/help/components/metrics/entries.md) of [Bounce Rate](/help/components/metrics/bounce-rate.md), kunnen gegevens aan een periode vóór de het rapportvenster begindatumwaaier toeschrijven. Deze situatie is toe te schrijven aan attributiemodellen die een terugkijkvenster gebruiken, dat bepaalt hoe ver achtereigenschap zou moeten kijken om krediet voor metriek te geven. Het gemeenschappelijkste scenario is wanneer de bezoeken middernacht overspannen. Bijvoorbeeld:
 
 1. Een gebruiker bezoekt op 7 september om 23:55 uur uw homepage.
-1. Zij bezoeken verschillende pagina&#39;s, waarvan de laatste om 12.05 uur op 8 september plaatsvond.
+1. Zij bezoeken verschillende pagina&#39;s, waarvan de laatste om 12.05 september plaatsvond.
 1. Een week later voert u een dagelijks trendrapport uit met het datumbereik van 8 september tot 14 september.
 
 Metriek op basis van een hit, zoals [Paginaweergaven](/help/components/metrics/page-views.md), zou leiden tot de verwachte uitvoer; gegevens die elke dag van 8 september tot en met 14 september zijn doorgestuurd. Uit de op een bezoek gebaseerde cijfers zou echter ook blijken dat dit bezoek op 7 september heeft plaatsgevonden. De toegeschreven ingang van het bezoek vond op 7 september plaats, en het terugkijkvenster is standaard 1 september - 31 september.
