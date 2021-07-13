@@ -3,9 +3,9 @@ description: Een overzicht van het menu Rapporten in Rapporten & Analytics.
 title: Menu Rapporten
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Grondbeginselen van rapporten en analyses
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 1%
