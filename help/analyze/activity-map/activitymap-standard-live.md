@@ -3,15 +3,14 @@ description: Activity Map biedt twee basismodi voor aanvullende rapportage van p
 title: Standaardmodus versus Live-modus
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2364e7b0-443a-49a8-b084-403501f52360
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '392'
 ht-degree: 3%
 
 ---
-
 
 # Standaardmodus versus Live-modus
 
@@ -34,7 +33,7 @@ V: Wat gebeurt er als een pagina koppelingen met dezelfde naam in afzonderlijke 
 
 A: Het hangt van af hoe u de verbindingsgegevens samenvoegt. In Activity Map, bekijken wij identiteitskaart|Gebied voor een bepaalde pagina, zodat zouden de toegewezen gegevens voor de &quot;Verbinding ID|Gebied&quot;combinatie zijn. In dit geval, omdat de regio verschilt, zou de link|regio verschillend zijn, en daarom zullen alle toegewezen inkomsten voor de eerste verbinding|regio verschillen van alle toegewezen inkomsten voor de tweede verbinding. Maar in Adobe Analytics UI, kunt u enkel het rapport van identiteitskaart van de verbinding (in plaats van het rapport van de Verbinding|van het Gebied) voor een bepaalde pagina (pagina bekijken die door Verbinding wordt opgesplitst). In dat geval zouden de opbrengsten over beide regio&#39;s worden geaggregeerd.
 
-## Actieve modus {#section_D619B77D89A840F0B1C2DEA2715A516A}
+## Live-modus {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
 In **Live Modus** worden de analysegegevens in stappen van 1 minuut tot 15 minuten weergegeven, op een trendmatige manier. In deze modus gaat het om het analyseren en volgen van trends op de webpagina voor de korte termijn.
 
@@ -45,4 +44,3 @@ De live modus reageert op de behoeften van publicatieorganisaties. Deze organisa
 >Virtuele rapportsets zijn alleen in de standaardmodus niet compatibel met de live modus.
 
 ![](assets/live_mode.png)
-
