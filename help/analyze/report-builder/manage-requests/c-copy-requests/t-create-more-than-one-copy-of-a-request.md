@@ -3,15 +3,14 @@ description: U kunt meer dan één kopie van een origineel verzoek maken door ee
 title: Meer dan één kopie van een aanvraag maken
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 5b929821-e7ca-48e4-9196-0a6734a9566e
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 13%
+source-wordcount: '127'
+ht-degree: 14%
 
 ---
-
 
 # Meer dan één kopie van een aanvraag maken
 
