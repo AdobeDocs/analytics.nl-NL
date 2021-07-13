@@ -2,16 +2,15 @@
 description: Bekijk de hoogste waarden van een dimensie alvorens het in een project te gebruiken.
 title: Voorvertoningsdimensies
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-feature: Workspace Basics
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Basisprincipes van werkruimte
+role: User, Admin
+exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 28%
 
 ---
-
 
 # Voorvertoningsdimensies
 
