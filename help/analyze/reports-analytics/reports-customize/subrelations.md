@@ -3,10 +3,9 @@ description: Volledige subrelaties worden ingeschakeld voor alle conversierappor
 title: Subrelaties
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
 feature: Grondbeginselen van rapporten en analyses
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -19,7 +18,7 @@ Volledige subrelaties worden ingeschakeld voor alle conversierapporten, zodat u 
 
 ![](assets/subrelations.png)
 
-## Hoe werkt Subrelaties {#section_5BD862BB74FE411B96B59204520E4631}
+## Hoe Subrelaties werken {#section_5BD862BB74FE411B96B59204520E4631}
 
 Neem het volgende voorbeeld om te laten zien hoe subrelaties werken:
 
