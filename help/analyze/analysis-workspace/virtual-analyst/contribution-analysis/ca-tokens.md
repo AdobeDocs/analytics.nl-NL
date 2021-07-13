@@ -3,9 +3,9 @@ description: Gebruik de analyse van de Bijdrage om statistische anomalieën en c
 title: Overzicht van bijdrageanalyse
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 feature: AI-gereedschappen
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 3%
