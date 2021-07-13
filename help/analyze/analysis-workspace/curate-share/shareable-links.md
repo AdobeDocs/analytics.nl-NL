@@ -3,9 +3,9 @@ description: Leer hoe u deelbare koppelingen naar projecten of visualisaties maa
 keywords: Analysis Workspace delen
 title: Deelbare koppelingen maken
 feature: Curven en delen
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen, met inbegrip van de capaciteit om een verbinding aan een project of een specifiek deel van een project te krijgen. Gebruikers die een koppeling ontvangen, moeten zich aanmelden bij Adobe Analytics voordat ze aan het project kunnen deelnemen.
 
-## Projectkoppeling {#project-link} ophalen
+## Projectkoppeling ophalen {#project-link}
 
 Als u een koppeling naar het volledige project wilt delen, gaat u naar **[!UICONTROL Share > Get project link]**. Als de ontvanger van de verbinding geen [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) is toegewezen, ontvangen Admins **[!UICONTROL Can edit]** en niet-admins **[!UICONTROL Can duplicate]** ervaringen.
 
 ![](assets/get-project-link.png)
 
-## Deelvenster- of visualisatiekoppeling {#panel-link} ophalen
+## Deelvenster of visualisatiekoppeling ophalen {#panel-link}
 
 U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoals een deelvenster of een afzonderlijke visualisatie. Dit wordt soms ook wel intra-linking genoemd. Dit kan nuttig zijn om de aandacht van uw gebruikers op zeer belangrijke inzichten binnen het project te vestigen.
 
