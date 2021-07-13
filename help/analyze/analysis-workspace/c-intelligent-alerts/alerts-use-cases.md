@@ -2,20 +2,19 @@
 description: Gebruik gevallen voor intelligente waarschuwingen.
 title: Intelligente waarschuwingen - gebruiksgevallen
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-feature: AI Tools
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: AI-gereedschappen
+role: User, Admin
+exl-id: a03312ff-47df-451c-9dfa-0597b3a183cb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 8%
+source-wordcount: '87'
+ht-degree: 9%
 
 ---
 
-
 # Intelligente waarschuwingen - gebruiksgevallen
 
-## Eenvoudig alarm maken, gefilterd door twee segmenten {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## Eenvoudige waarschuwing maken, gefilterd door twee segmenten {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
 <!-- 
 
@@ -40,4 +39,3 @@ Dit vult onmiddellijk de Waakzame Bouwer vooraf in om een alarm met correcte met
 Het stapelen alarm zorgt ervoor dat de alarm wordt gecombineerd en u krijgt geen aantal afzonderlijke alarm.
 
 ![](assets/alerts_example2.png)
-
