@@ -2,22 +2,22 @@
 description: Verklaart hoe de nieuwe landingspagina zowel Analysis Workspace als Rapporten & Analytics in één enkele interface en toegangspunt onder de paraplu van de Werkruimte samenbrengt.
 title: Nieuwe Adobe Analytics-bestemmingspagina
 role: User, Admin
-source-git-commit: d932a02375f6f124d84dd275cd1134bb25ff76ec
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2988'
 ht-degree: 0%
 
 ---
 
 # Nieuwe Adobe Analytics-bestemmingspagina
 
-De nieuwe landingspagina voor de Analyse van de Adobe brengt zowel Analysis Workspace als Rapporten &amp; Analytics in één enkele interface en toegangspunt onder de paraplu van de Werkruimte samen. Het kenmerkt een nieuwe de homepage van de projectmanager, een bijgewerkt rapportenmenu, gemoderniseerde rapporten, en een nieuwe het leren sectie om u te helpen met effectiever worden begonnen.
+De nieuwe landingspagina voor Adobe Analytics brengt zowel Analysis Workspace als Reports &amp; Analytics samen in één interface en toegangspunt onder de Workspace-paraplu. Het kenmerkt een nieuwe de homepage van de projectmanager, een bijgewerkt rapportenmenu, gemoderniseerde rapporten, en een nieuwe het leren sectie om u te helpen met effectiever worden begonnen.
 
 De nieuwe pagina verbetert de ontdekkbaarheid en begeleidt gebruikers van Rapporten &amp; van Analytics aan een betere rapporteringservaring in Werkruimte.
 
 >[!IMPORTANT]
 >
->Deze landingspagina wordt binnenkort in Public Beta weergegeven. Het is een optioneel startpunt. U kunt desgewenst de bestaande openingspagina gebruiken, of dat nu Workspace of Reports is. Als u toch besluit om u aan te melden bij het bètaprogramma, opent u de pagina en klikt u op **[!UICONTROL Provide feedback]** boven aan het scherm om uw feedback en eventuele fouten vast te leggen. U kunt op elk gewenst moment de optie Weigeren of weer deelnemen aan het bètaprogramma. Alle werk dat in de bètagebruikersinterface wordt gedaan, wordt verwerkt in de bestaande/huidige werkruimte.
+>Deze landingspagina wordt vanaf 21 juli 2021 in Open Beta weergegeven. Het is een optioneel startpunt. U kunt desgewenst de bestaande openingspagina gebruiken, of dat nu Workspace of Reports is. Als u toch besluit om u aan te melden bij het bètaprogramma, opent u de pagina en klikt u op **[!UICONTROL Provide feedback]** boven aan het scherm om uw feedback en eventuele fouten vast te leggen. U kunt op elk gewenst moment de optie Weigeren of weer deelnemen aan het bètaprogramma. Alle werk dat in de bètagebruikersinterface wordt gedaan, wordt verwerkt in de bestaande/huidige werkruimte.
 
 ## De nieuwe bestemmingspagina openen {#access-landing}
 
