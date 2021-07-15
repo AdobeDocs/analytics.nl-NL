@@ -5,7 +5,7 @@ title: Conversievariabelen (eVar)
 feature: Admin Tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Beschrijvingen van velden die worden gebruikt wanneer [conversievariabelen bewer
 | [!UICONTROL Merchandising]  (alleen eVar) | De variabelen van de koophandel kunnen één van twee syntaxis volgen:<ul><li>**[!UICONTROL Products Syntax]**: Koppelt de waarde van de eVar aan een product. **Opmerking**: Als deze optie  [!UICONTROL Products Syntax] is geselecteerd, wordt de  [!UICONTROL Merchandising Binding Event] sectie uitgeschakeld en kan deze niet worden geselecteerd voor bewerking. Voor deze syntaxis is [!UICONTROL Binding Events] niet van toepassing.</li><li>**[!UICONTROL Conversion Variable Syntax]**: Koppelt de eVar alleen aan een product als er een  [!UICONTROL Binding Event] probleem optreedt. In dit geval selecteert u de gebeurtenissen die als [!UICONTROL Binding Events] fungeren.  Als u deze instelling wijzigt zonder uw JavaScript-code dienovereenkomstig bij te werken, gaan er gegevens verloren. Zie [Variabelen in-/uitschakelen](/help/components/dimensions/evar-merchandising.md).</li></ul> |
 | [!UICONTROL Merchandising Binding Event] (alleen eVar) | Als Verplaatsen aan [!UICONTROL Conversion Variable Syntax] wordt geplaatst, binden de geselecteerde gebeurtenissen de huidige eVar waarde met een product. Als u een [!UICONTROL Binding Event] wilt gebruiken, stelt u [!UICONTROL Allocation] in op [!UICONTROL Most Recent]. Als [!UICONTROL Allocation] aan [!UICONTROL Original Value] wordt geplaatst, blijft de eerste eVar productband tot de eVar verloopt. U kunt meerdere gebeurtenissen selecteren door Ctrl (Windows) of cmd (Mac) ingedrukt te houden en op meerdere items in de lijst te klikken. U kunt een gebeurtenis alleen selecteren wanneer [!UICONTROL Conversion Variable Syntax] is geselecteerd. |
 
-**Verlopen**
+### Verlopen
 
 `eVars` verlopen na een door u opgegeven tijdsperiode. Nadat de eVar is verlopen, ontvangt het geen krediet meer voor succesgebeurtenissen. eVars kunnen ook worden geconfigureerd om te verlopen bij succesgebeurtenissen. Als je bijvoorbeeld een interne aanbieding hebt die aan het einde van een bezoek vervalt, ontvangt de interne aanbieding alleen kredieten voor aankopen of registraties die plaatsvinden tijdens het bezoek waarin ze zijn geactiveerd.
 
@@ -58,10 +58,10 @@ Als u bijvoorbeeld de vervaldatum van een eVar wijzigt van 30 tot 90 dagen, blij
 
 Een ander voorbeeld: Als een eVar in Mei wordt gebruikt om interne bevorderingen te weerspiegelen en na 21 dagen verloopt, en in juni wordt het gebruikt om interne onderzoekssleutelwoorden te vangen, dan zou u op 1 Juni de afloop van, of het terugstellen van, de variabele moeten dwingen. Als u dat doet, blijven de interne promotiewaarden buiten de verslagen van juni.
 
-**Hoofdlettergevoeligheid**
+### Hoofdlettergevoeligheid
 
 Vars zijn niet hoofdlettergevoelig. De hoofdletters en kleine letters die bij de rapportage worden gebruikt, zijn gebaseerd op de eerste waarde van de back-endsysteemregisters. Deze waarde kan de eerste instantie zijn die ooit wordt gezien of kan variëren met een bepaalde tijdsperiode (bijvoorbeeld maandelijks), afhankelijk van de verscheidenheid en hoeveelheid gegevens die aan de rapportsuite zijn gekoppeld.
 
-**Tellers**
+### Tellers
 
 Terwijl eVars het vaakst worden gebruikt om koordwaarden te houden, kunnen zij ook worden gevormd om als tellers te handelen. Variabelen zijn nuttig als tellers wanneer u probeert te tellen het aantal acties een gebruiker vóór een gebeurtenis neemt. U kunt bijvoorbeeld een eVar gebruiken om het aantal interne zoekopdrachten vast te leggen voordat u de aankoop doet. Telkens wanneer een bezoeker zoekt, moet de eVar de waarde &#39;+1&#39; bevatten. Als een bezoeker vier keer vóór een aankoop zoekt, ziet u een exemplaar voor elk totaal aantal: 1,00, 2,00, 3,00 en 4,00. Alleen de 4,00 ontvangen echter krediet voor het aankoopevenement (bestellingen en inkomstencijfers). Alleen positieve getallen zijn toegestaan als waarden van een eVar-teller.
