@@ -4,8 +4,7 @@ title: Menu aanpassen
 feature: Admin Tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -24,37 +23,11 @@ De menuwijzigingen gelden voor alle gebruikers die toegang krijgen tot de rappor
 
 ## Aanpassingsbeschrijvingen menu {#section_B0D224DACB914A378902A4E0E1234889}
 
-<table id="table_E609632569EB499184E56618C2CEF742"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Kalender </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Nieuwe map</span> </td> 
-   <td colname="col2"> <p> Hiermee wordt een nieuwe map toegevoegd boven het geselecteerde item. U moet ten minste één rapport aan een map toevoegen voordat de map zichtbaar is. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Naam wijzigen</span> </td> 
-   <td colname="col2"> <p> Hiermee kunt u de naam wijzigen van het geselecteerde item. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Standaardnaam</span> </td> 
-   <td colname="col2"> <p> Hiermee herstelt u de standaardnaam van het geselecteerde item. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Zichtbaarheid in-/uitschakelen</span> </td> 
-   <td colname="col2"> <p> Verbergt (toont) het momenteel geselecteerde punt. Verborgen items worden weergegeven met een grijs lijnpatroon in de pagina Aanpassing menu. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Verwijderen</span> </td> 
-   <td colname="col2"> <p> Hiermee verwijdert u het momenteel geselecteerde item uit het menu. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Standaardwaarden herstellen</span> </td> 
-   <td colname="col2"> <p> Hiermee herstelt u de oorspronkelijke staat van het menu. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Kalender | Beschrijving |
+|--- |--- |
+| Nieuwe map | Hiermee wordt een nieuwe map toegevoegd boven het geselecteerde item. U moet ten minste één rapport aan een map toevoegen voordat de map zichtbaar is. |
+| Naam wijzigen | Hiermee kunt u de naam wijzigen van het geselecteerde item. |
+| Standaardnaam | Hiermee herstelt u de standaardnaam van het geselecteerde item. |
+| Zichtbaarheid in-/uitschakelen | Verbergt (toont) het momenteel geselecteerde punt. Verborgen items worden weergegeven met een grijs lijnpatroon in de pagina Aanpassing menu. |
+| Verwijderen | Hiermee verwijdert u het momenteel geselecteerde item uit het menu. |
+| Standaardwaarden herstellen | Hiermee herstelt u de oorspronkelijke staat van het menu. |
