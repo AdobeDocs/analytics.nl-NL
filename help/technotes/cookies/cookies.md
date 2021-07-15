@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics- en browsercookies
 description: Leer hoe de preventiemaatregelen voor het bijhouden van fouten invloed hebben op cookies van derden en van andere bedrijven die door Adobe Analytics zijn ingesteld.
-source-git-commit: b2f606e74aa0d2ab0f01ab7cbfc795bfd7cda461
+source-git-commit: 2a0cc52664bbeaae66d6160d74fad4840bf692b8
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 0%
@@ -20,7 +20,7 @@ In dit document wordt uitgelegd wat de invloed is van de traceerpreventiemaatreg
 
 ### Beperkingen van cookies van andere bedrijven
 
-Cookies die in een context van derden worden gebruikt, worden op grote schaal afgekeurd. Firefox en Safari blokkeren cookies van derden standaard vanaf respectievelijk 2019 en 2020. Chrome heeft plannen aangekondigd om ergens in 2022 de ondersteuning van cookies van derden stop te zetten. Als ze dat doen, zijn cookies van andere leveranciers onbruikbaar.
+Cookies die in een context van derden worden gebruikt, worden op grote schaal afgekeurd. Firefox en Safari blokkeren cookies van derden standaard vanaf respectievelijk 2019 en 2020. Chrome heeft plannen aangekondigd om ergens in 2023 de ondersteuning van cookies van derden stop te zetten. Als ze dat doen, zijn cookies van andere leveranciers onbruikbaar.
 
 Bovendien staat Chrome momenteel alleen toe dat cookies functioneren in een context van derden als hun kenmerk &quot;SameSite&quot; is ingesteld op Geen en de cookies zijn gemarkeerd als veilig, wat betekent dat ze alleen kunnen worden gebruikt via HTTPS. Meer informatie is beschikbaar in de sectie &quot;[Wat is het Cookie attribuut SameSite, en hoe beïnvloedt het Analytics?](#samesite-effect)&quot;
 
@@ -30,7 +30,7 @@ De bezoeker-id-service gebruikt het cookie &quot;[demdex.net](https://experience
 
 In browsers waar cookies van derden worden geblokkeerd, is interdomeintracering niet beschikbaar.
 
-### First-party koekjesbeperkingen {#limitations-first-party-cookies}
+### Beperkingen van cookies van eerste partij {#limitations-first-party-cookies}
 
 Cookies van eerste bedrijven zijn toegestaan in alle grote browsers. Apple beperkt echter de levensduur van cookies van eerste bedrijven die door Adobe zijn ingesteld via het Intelligent Tracking Program (ITP). Dit is van invloed op Safari en op alle browsers op iOS en iPadOS.
 
@@ -123,7 +123,7 @@ Bevestig dat uw configuratie JavaScript HTTPS voor alle vraag aan de diensten va
 
 Als uw plaats de dienst van identiteitskaart van de Bezoeker van Experience Cloud gebruikt, richt de dienst derdeHTTP- vraag aan zijn eindpunt HTTPS opnieuw, dat latentie kan verhogen maar betekent dat u niet wordt vereist om uw configuratie te veranderen.
 
-#### Wijzig de waarde SameSite wanneer u één CNAME gebruikt voor meerdere domeinen {#samesite-one-cname}
+#### Wijzig de waarde van SameSite wanneer u één CNAME voor meerdere domeinen gebruikt {#samesite-one-cname}
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ Adobe raadt klanten aan de impact binnen hun eigen bedrijf te meten voordat ze d
 
       >[!NOTE]
       >
-      >De specifieke browsers die door ITP worden beïnvloed hangen af van of u een implementatie CNAME gebruikte. Zie &quot;[Chronologie van belangrijkste veranderingen in beleid ITP](#ITP-timeline)&quot;voor meer detail.
+      >De specifieke browsers die door ITP worden beïnvloed hangen af van of u een implementatie CNAME gebruikte. Zie &quot;[Chronologie van belangrijke veranderingen in beleid ITP](#ITP-timeline)&quot;voor meer detail.
 
       ![Segment voor ITP-bezoekers](/help/technotes/assets/itp-visitor-segment.png)
 
