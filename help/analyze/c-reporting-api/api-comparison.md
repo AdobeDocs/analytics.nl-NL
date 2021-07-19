@@ -5,10 +5,10 @@ uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
 exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 12%
+source-wordcount: '267'
+ht-degree: 13%
 
 ---
 
@@ -93,4 +93,3 @@ Een vergelijkingstabel voor Analytics die APIs melden. Koppelingen naar de onder
 **Gerelateerde Help**
 
 * [Adobe/IO](https://www.adobe.io/)  - Een uitgebreide bron voor de technische documentatie en hulpmiddelen nodig om de technologieën van de Adobe in uw toepassingen te integreren.
-* [Data Workbench Query API](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
