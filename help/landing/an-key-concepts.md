@@ -2,9 +2,9 @@
 description: Deze sectie bevat de belangrijkste concepten voor de Adobe Analytics, een korte beschrijving van het concept, en een specifieke documentatiekoppeling met extra informatie over het onderwerp.
 title: Adobe Analytics - Belangrijkste concepten
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1816'
 ht-degree: 93%
 
 ---
@@ -58,7 +58,7 @@ Klik [hier](/help/technotes/terms.md) voor een uitgebreide woordenlijst met term
 | Klanttrajectrapporten | Hier wordt informatie weergegeven over het pad dat uw gebruikers door uw site of app volgen. Prop, eVars en gebeurtenissen kunnen in deze analyse in de Analysis Workspace worden gebruikt. | [Analysis Workspace Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics-paden](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | Marketingkanalen | Rapporten die u helpen ontdekken welke externe kanalen gebruikers naar uw site leiden en welke het meest effectief zijn voor conversie. Biedt attributieweergaven van eerste en laatste aanraking. Dit is het aangewezen externe rapport voor verkeersbronnen in Adobe Analytics (meer dan Campagnes of de Verkeersbronnen) omdat dit de meest uitgebreide blik geeft op betaalde en organische kanalen. | [Marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | Mobile | Hier wordt informatie weergegeven over websites die via een mobiel apparaat of tablet worden benaderd. | [Mobiel rapport](/help/components/dimensions/mobile-dimensions.md) |
-| Mobiele app | Geeft basisgebruiksgegevens weer over uw mobiele apps. Deze rapporten zijn beschikbaar zodra onze SDK is geïmplementeerd en de rapportage is ingeschakeld.  Daarnaast heeft Adobe Mobile Services een aparte mobiele app-interface gemaakt met uitgebreidere appdata, waarmee u de betrokkenheid van gebruikers bij uw apps kunt begrijpen en verbeteren.  Ga [hier](https://mobilemarketing.adobe.com) naar de interface. | [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
+| Mobiele app | Geeft basisgebruiksgegevens weer over uw mobiele apps. Deze rapporten zijn beschikbaar zodra onze SDK is geïmplementeerd en de rapportage is ingeschakeld.  Daarnaast heeft Adobe Mobile Services een aparte mobiele app-interface gemaakt met uitgebreidere appdata, waarmee u de betrokkenheid van gebruikers bij uw apps kunt begrijpen en verbeteren. | [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Producten | Bepaalt hoe afzonderlijke producten en productgroepen (categorieën) bijdragen aan de diverse conversiecijfers zoals omzet of aantal betalingen. | [Productrapport](/help/components/dimensions/product.md) |
 | Segmentvergelijking | Ontdekt de statistisch meest significante verschillen tussen segmenten door een geautomatiseerde analyse van elk cijfer en elke dimensie waartoe u toegang hebt. | [Segmentvergelijking](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | Rapport Sitecontent | Geeft informatie weer over welke pagina&#39;s en gebieden van uw site het meest actief zijn en welke servers het meest worden gebruikt. | [Rapport Sitecontent](/help/components/dimensions/page.md) |
