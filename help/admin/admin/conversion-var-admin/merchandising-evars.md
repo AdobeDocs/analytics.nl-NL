@@ -1,7 +1,7 @@
 ---
 title: Merchandising Vars en productzoekmethoden
 description: Een diepe duik in de concepten achter het verhandelen van eVars en hoe zij gegevens verwerken en toewijzen.
-source-git-commit: cbc3fe2be4f2bca604a218cfd5dfbb121e6a7a5c
+source-git-commit: 9c71c9e94177c9510ca6af050c9de6fb54c8dc6f
 workflow-type: tm+mt
 source-wordcount: '5307'
 ht-degree: 0%
@@ -383,6 +383,6 @@ Als u bijvoorbeeld `s.eVar1="Internal Keyword Search"` op zichzelf instelt, word
 
 Samengevat, zonder extra configuratie, is metrisch uit-van-de-doos Instanties voor een koopvaardigende eVar minder dan nuttig. Gelukkig geeft Adobe [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en) vrij. Hiermee kunt u meerdere attributiemodellen toepassen op elke aangepaste metrische waarde die Adobe Analytics verzamelt. Metriek die deze attributiemodellen toepassen gebruikt niet de waarden in de post_evar kolommen of de waarden die aan om het even welk bepaald product worden gebonden. In plaats daarvan gebruiken deze meetgegevens alleen de waarden die via de afbeeldingsaanvragen zelf worden doorgegeven (of waarden die via de verwerkingsregels van Adobe Analytics worden vastgelegd). U kunt de eigenschappen in Attribution IQ gebruiken om een correct toegewezen instanties metrisch voor alle koopwaar te krijgen die de Veranderlijke Syntaxis van de Omzetting gebruiken.
 
-![](assets/merch-evars3.png)
+![](assets/attribution-select.png)
 
 Wanneer het toevoegen van een instantie metrisch voor een koophandel-eVar aan een rapport, zou het juiste model van de Attribution IQ het &quot;Laatste aanraakmodel&quot;model zijn. De instelling voor Venster opzoeken voor het model is in dit geval niet van belang. De reden is dat een &#39;gedwongen&#39; laatste aanraakattributiemodel altijd exemplaarkredieten geeft aan elke individuele waarde die via een aanvraag wordt doorgegeven. Dit ongeacht of de eigenlijke attributie-/bindingsinstellingen van de eVar zijn ingesteld op &#39;Meest recente (laatste)&#39; als &#39;Oorspronkelijke waarde (eerste)&#39;.
