@@ -2,14 +2,13 @@
 description: De tijdverwerking van het rapport is een virtuele het rapportreeks plaatsen die gegevens om op een niet destructieve, retroactieve manier toelaat worden verwerkt.
 title: Verwerking rapportduur
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
-translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
+source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
-
 
 # Verwerking rapportduur
 
@@ -31,7 +30,7 @@ De Verwerking van de Tijd van het rapport is een fundamenteel verschillende mani
 
 Deze verwerkingsarchitectuur maakt veel flexibelere rapportageopties mogelijk. Bijvoorbeeld, kunt u de periode van de bezoekonderbreking in om het even welke tijdsduur veranderen u op een niet destructieve manier wilt en die veranderingen worden weerspiegeld in uw persistentie en segmentcontainers retroactief alsof u die montages had toegepast alvorens de gegevens werden verzameld. Bovendien, kunt u om het even welk aantal virtuele rapportreeksen tot stand brengen, elk met de verschillende opties van de Verwerking van de Tijd van het Rapport die op de zelfde reeks van het basisrapport worden gebaseerd, zonder om het even welke gegevens in de reeks van het basisrapport te veranderen.
 
-De Verwerking van de Tijd van het rapport staat ook Analytics toe om achtergrondklappen te verhinderen nieuwe bezoeken te beginnen en staat [mobiele SDK](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) toe om rapportering te vertellen om een nieuw bezoek te beginnen wanneer een gebeurtenis van de Lancering van de App wordt teweeggebracht.
+De Verwerking van de Tijd van het rapport staat ook Analytics toe om achtergrondklappen te verhinderen nieuwe bezoeken te beginnen en staat [mobiele SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) toe om rapportering te vertellen om een nieuw bezoek te beginnen wanneer een gebeurtenis van de Lancering van de App wordt teweeggebracht.
 
 De volgende configuratieopties zijn momenteel beschikbaar aan virtuele rapportreeksen met toegelaten de Verwerking van de Tijd van het Rapport:
 
@@ -41,7 +40,7 @@ De volgende configuratieopties zijn momenteel beschikbaar aan virtuele rapportre
 * **Start een nieuw bezoek bij elke App Launch:** Naast de time-out van het bezoek kunt u een bezoek afdwingen om te beginnen wanneer een App Launch-gebeurtenis is opgenomen vanuit de mobiele SDK&#39;s, ongeacht het inactiviteitsvenster. Dit het plaatsen beïnvloedt metrisch bezoek en de container van het bezoekensegment, evenals de logica van de bezoekafloop op eVars.
 * **Nieuwe bezoeker starten met gebeurtenis:** een nieuwe sessie start wanneer een gebeurtenis wordt geactiveerd, ongeacht of er een time-out voor een sessie is opgetreden. De nieuwe sessie bevat de gebeurtenis die deze heeft gestart. Bovendien kunt u meerdere gebeurtenissen gebruiken om een sessie te starten en een nieuwe sessie wordt geactiveerd als een van deze gebeurtenissen in de gegevens wordt waargenomen. Dit het plaatsen zal uw bezoektelling, de container van de de segmentatie van het bezoek, en de logica van de bezoekafloop op eVars beïnvloeden.
 
-De Verwerking van de Tijd van het rapport steunt niet alle metriek en dimensies beschikbaar in traditionele Analytics rapportering. Virtuele rapportsuites die de Verwerking van de Tijd van het Rapport gebruiken zijn slechts toegankelijk in Analysis Workspace en zullen niet in [!UICONTROL Reports & Analytics], Data Warehouse, Report Builder, de Diervoeders van Gegevens, of rapporteringsAPI toegankelijk zijn.
+De Verwerking van de Tijd van het rapport steunt niet alle metriek en dimensies beschikbaar in traditionele Analytics rapportering. Virtuele rapportsuites die de Verwerking van de Tijd van het Rapport gebruiken zijn slechts toegankelijk in Analysis Workspace en is niet toegankelijk in [!UICONTROL Reports & Analytics], Data Warehouse, Report Builder, Gegevensvoer, of rapporteringsAPI.
 
 Bovendien verwerkt de Tijd van het Rapport slechts gegevens die uit binnen de rapporteringsdatumwaaier (die als &quot;datumvenster&quot;hieronder wordt bedoeld) komen. Dit betekent dat de waarden van de eVar die aan &quot;nooit verlopen&quot;voor een bezoeker vóór de rapporteringsdatumwaaier worden geplaatst niet in de rapporteringsvensters blijven en niet in rapporten verschijnen. Dit betekent ook dat de metingen van de klantenloyaliteit uitsluitend gebaseerd zijn op de gegevens in de rapporteringsdatumwaaier en niet op de volledige geschiedenis voorafgaand aan de rapporteringsdatumwaaier.
 
