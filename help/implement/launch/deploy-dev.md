@@ -1,28 +1,31 @@
 ---
 title: Adobe Analytics implementeren in een ontwikkelomgeving
-description: Leer hoe u Adobe Experience Platform Launch kunt gebruiken om Adobe Analytics in uw ontwikkelomgeving te implementeren.
+description: Leer hoe u tags kunt gebruiken om Adobe Analytics in uw ontwikkelomgeving te implementeren.
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '592'
 ht-degree: 1%
 
 ---
 
 # Implementeer een analytische implementatie in een ontwikkelomgeving
 
-Nadat een eigenschap is gemaakt en geconfigureerd in Launch, kunnen de bibliotheken worden geïmplementeerd en kan de code op uw site worden geïmplementeerd.
+Nadat u een eigenschap tag hebt gemaakt en geconfigureerd, kunnen de bibliotheken worden geïmplementeerd en kan de code op uw site worden geïmplementeerd.
+
+>[!NOTE]
+>Adobe Experience Platform Launch is omgedoopt tot een reeks technologieën voor gegevensverzameling in Experience Platform. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. Raadpleeg het volgende [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) voor een geconsolideerde referentie van de terminologische wijzigingen.
 
 ## Vereisten
 
-[Een eigenschap maken en configureren voor Adobe Analytics in Launch](create-analytics-property.md): Open het hulpprogramma en maak ruimte voor de implementatie van Analytics.
+[Een eigenschap voor tags maken en configureren voor Adobe Analytics](create-analytics-property.md): Open het hulpprogramma en maak ruimte voor de implementatie van Analytics.
 
 ## adapters en omgevingen maken
 
-De lancering past vele organisatorische werkschema&#39;s in het opstellen van code aan. Ga als volgt te werk om de minimaal vereiste componenten voor een analytische implementatie te maken. Als beheerder van de Lancering, kunt u binnen uw organisatie werken om het correcte werkschema voor het opstellen van de oplossingen van Adobe te vestigen.
+De markeringen passen vele organisatorische werkschema&#39;s in het opstellen van code aan. Ga als volgt te werk om de minimaal vereiste componenten voor een analytische implementatie te maken. Als tagbeheerder kunt u binnen uw organisatie de juiste workflow voor het implementeren van Adobe-oplossingen instellen.
 
 1. Ga naar [Adobe Experience Platform Launch](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
-2. Klik op de eigenschap Starten die u op uw site wilt implementeren.
+2. Klik op de eigenschap tag die u op uw site wilt implementeren.
 3. Klik op het tabblad Adapters en klik vervolgens op Adapter toevoegen.
 4. Geef deze de naam &quot;Akamai&quot; en selecteer Akamai in het vervolgkeuzemenu type. Klik op Opslaan.
 5. Ga naar het tabblad Omgevingen en klik vervolgens op Nieuwe omgeving maken.
@@ -35,16 +38,16 @@ De lancering past vele organisatorische werkschema&#39;s in het opstellen van co
 Ondanks alle tot dusver aangebrachte wijzigingen en configuraties is er geen code gepubliceerd. Als u een bibliotheek maakt die ruwweg is vertaald als een verzameling wijzigingen, kunt u code publiceren die op uw site wordt gebruikt.
 
 1. Ga naar [Adobe Experience Platform Launch](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
-2. Klik op de eigenschap Starten die u op uw site wilt implementeren.
+2. Klik op de eigenschap tag die u op uw site wilt implementeren.
 3. Klik op het tabblad Publiceren en klik vervolgens op Nieuwe bibliotheek toevoegen.
 4. Geef de bibliotheek de naam &#39;Aanvankelijke wijzigingen&#39; en selecteer de ontwikkelomgeving.
 5. Klik op Alle gewijzigde bronnen toevoegen. Hierin worden automatisch Adobe Analytics, Identity Service en Core vermeld.
 6. Klik op Opslaan.
 7. Klik op het scherm met de publicatieworkflow op het vervolgkeuzemenu naast de nieuwe bibliotheek en klik op Samenstellen voor ontwikkeling. Na een paar seconden wordt de gele stip in de bibliotheek groen om aan te geven dat het samenstellen is gelukt.
 8. Ga naar het tabblad Milieu en klik vervolgens op de ontwikkelomgeving.
-9. Kopieer onder &#39;Start installeren&#39; de codeblokken en geef deze door aan de eigenaars van de website van uw organisatie.
+9. Kopieer de codeblokken onder &#39;Installatietags&#39; en geef deze door aan de eigenaars van de website van uw organisatie.
 
-## Starten installeren in de ontwikkelomgeving van uw website
+## Tags installeren in de ontwikkelomgeving van uw website
 
 Als u de code van uw website beheert, implementeert u de twee codeblokken op hun respectievelijke locaties (in de tag `<head>` en net boven de afsluitende tag `</body>`) op elke pagina van uw site. Deze code wordt algemeen geplaatst in het overkoepelende malplaatje van de plaats. Een lege pagina die alleen implementatiecode bevat, ziet er als volgt uit:
 
@@ -71,8 +74,8 @@ Een algemene reden is dat er al elementen bestaan in andere bibliotheken die wor
 
 ## Documentatie en aanvullende middelen
 
-- [Aan de slag met starten](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html): Meer informatie over de basisworkflow van Launch
-- [Publicatie](https://experienceleague.adobe.com/docs/launch/using/reference/publish/overview.html) starten: Meer informatie over publiceren en omgevingen
+- [Snelstartgids](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): De basisworkflow van de implementatie van tags leren
+- [Overzicht](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en) van publicatie: Meer informatie over publiceren en omgevingen
 
 ## Volgende stappen
 
