@@ -1,30 +1,35 @@
 ---
-title: Een eigenschap Analytics maken in Launch
-description: Met Adobe Experience Platform Launch maakt u een spatie om aan te passen hoe gegevens worden verzameld.
+title: Een eigenschap Analytics maken in tags
+description: Maak een spatie om aan te passen hoe gegevens worden verzameld met tags.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: c46feec3f08b78ca7882193ab86914db49617c1c
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 3%
+source-wordcount: '579'
+ht-degree: 1%
 
 ---
 
-# Een eigenschap Analytics maken in Adobe Experience Platform Launch
+# Een eigenschap voor de tag Analytics maken
 
-Adobe Experience Platform Launch is het hulpprogramma waarmee u Experience Cloud-oplossingen kunt integreren op uw website (inclusief Analytics). Deze pagina schetst specifiek hoe een beheerder van de Lancering een basisimplementatie van Adobe Analytics kan krijgen correct wordt gevormd.
+Met tags in Adobe Experience Platform kunt u Experience Cloud-oplossingen integreren in uw website (inclusief Analytics). Deze pagina schetst specifiek hoe een markeringsbeheerder een basisimplementatie van Adobe Analytics kan krijgen correct wordt gevormd.
+
+>[!NOTE]
+>Adobe Experience Platform Launch is omgedoopt tot een reeks technologieën voor gegevensverzameling in Experience Platform. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. Raadpleeg het volgende [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) voor een geconsolideerde referentie van de terminologische wijzigingen.
 
 ## Vereisten
 
-[Maak een rapportsuite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Een silo maken voor analysegegevens die moeten worden verzameld
+[Maak een rapportsuite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Maak een silo voor analysegegevens die moeten worden verzameld.
 
-## Een eigenschap maken en vitale extensies installeren
+## Een eigenschap voor tags maken en vitale extensies installeren
 
 Eigenschappen zijn overkoepelende containers die u gebruikt om tags te beheren. Met extensies kunt u productspecifieke tags installeren en configureren.
 
-1. Ga naar [launch.adobe.com](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
+1. Ga naar [experience.adobe.com](https://experience.adobe.com) en meld u aan wanneer u hierom wordt gevraagd.
+1. Selecteer **[!UICONTROL Launch / Data Collection]**.
+1. Klik **[!UICONTROL Go to Launch / Data Collection]**, dan selecteer **[!UICONTROL Tags]**.
 1. Klik op **[!UICONTROL New Property]**.
 1. Geef uw eigenschap een naam, zoals de titel van uw website, en voer het domein in waarop u Analytics wilt implementeren. Klik op **[!UICONTROL Save]**.
-1. Klik op de nieuwe eigenschap om de instellingen in te voeren.
+1. Klik op de nieuwe tageigenschap om de instellingen in te voeren.
 1. Klik op de tab **[!UICONTROL Extensions]** en klik vervolgens op **[!UICONTROL Catalog]**.
 1. Ga naar Identiteitsservice en klik vervolgens op **[!UICONTROL Install]**.
 1. Alle instellingen, inclusief de Experience Cloud Organisatie-id, moeten al zijn ingevuld. Klik op **[!UICONTROL Save]**.
@@ -34,8 +39,10 @@ Eigenschappen zijn overkoepelende containers die u gebruikt om tags te beheren. 
 
 Gegevenselementen zijn verwijzingen naar specifieke delen van uw site om variabelewaarden te verzamelen.
 
-1. Ga naar [launch.adobe.com](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
-1. Klik op de eigenschap Starten die u op uw site wilt implementeren.
+1. Ga naar [experience.adobe.com](https://experience.adobe.com) en meld u aan wanneer u hierom wordt gevraagd.
+1. Selecteer **[!UICONTROL Launch / Data Collection]**.
+1. Klik **[!UICONTROL Go to Launch / Data Collection]**, dan selecteer **[!UICONTROL Tags]**.
+1. Klik op de eigenschap tag die u op uw site wilt implementeren.
 1. Klik op de tab **[!UICONTROL Data Elements]** en klik vervolgens op **[!UICONTROL Create New Data Element]**.
 1. Geef het gegevenselement de volgende instellingen:
 
@@ -55,8 +62,10 @@ Gegevenselementen zijn verwijzingen naar specifieke delen van uw site om variabe
 
 Regels wijzen gegevenselementen aan de veranderlijke waarden van de Analyse in kaart, en bepalen wanneer die waarden naar Adobe worden verzonden.
 
-1. Ga naar [launch.adobe.com](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
-1. Klik op de eigenschap Starten die u op uw site wilt implementeren.
+1. Ga naar [experience.adobe.com](https://experience.adobe.com) en meld u aan wanneer u hierom wordt gevraagd.
+1. Selecteer **[!UICONTROL Launch / Data Collection]**.
+1. Klik **[!UICONTROL Go to Launch / Data Collection]**, dan selecteer **[!UICONTROL Tags]**.
+1. Klik op de eigenschap tag die u op uw site wilt implementeren.
 1. Klik **[!UICONTROL Create New Rule]** en noem het `Global Rule`.
 1. Klik op **[!UICONTROL Add]** naast gebeurtenissen en voer de volgende instellingen in:
    * Extensie: Kern
@@ -80,9 +89,9 @@ Regels wijzen gegevenselementen aan de veranderlijke waarden van de Analyse in k
 
 ## Documentatie en aanvullende middelen
 
-* [Adobe Analytics-extensiedocumentatie](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en#extensions-ref): Volledige documentatie specifiek voor de Adobe Analytics-extensie in Adobe Experience Platform Launch.
-* [Aan de slag met starten](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en#get-started): Volledige documentatie voor Starten, met inbegrip van een meer diepgaande gids aan de slag
-* [Adobe Experience Platform Launch-kanaal](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): Leer hoe u Starten via video&#39;s kunt gebruiken
+* [Adobe Analytics-extensiedocumentatie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en): Volledige documentatie die specifiek is voor de Adobe Analytics-extensie in tags.
+* [Aan de slag met tags](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): Volledige documentatie voor tags, inclusief een uitgebreidere gids om aan de slag te gaan
+* [Adobe Experience Platform Launch-kanaal](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): Leer hoe u tags kunt gebruiken via video&#39;s
 
 ## Volgende stappen
 
