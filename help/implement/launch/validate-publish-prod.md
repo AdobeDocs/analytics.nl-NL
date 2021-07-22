@@ -1,18 +1,20 @@
 ---
 title: Een ontwikkelimplementatie valideren en publiceren naar productie
-description: Leer hoe u Adobe Experience Platform Launch kunt gebruiken om Adobe Analytics in uw productieomgeving te implementeren.
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+description: Leer hoe u Adobe Experience Platform-tags kunt gebruiken om Adobe Analytics in uw productieomgeving te implementeren.
+exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
 
-
 # Een ontwikkelimplementatie valideren en publiceren naar productie
 
-Zodra uw Adobe Experience Platform Launch-bibliotheek naar de productie is geduwd, kan uw organisatie beginnen Adobe Analytics te gebruiken om basisrapporten te trekken.
+Zodra uw tagbibliotheek aan productie wordt geduwd, kan uw organisatie beginnen Adobe Analytics te gebruiken om basisrapporten te trekken.
+
+>[!NOTE]
+>Adobe Experience Platform Launch is omgedoopt tot een reeks technologieën voor gegevensverzameling in Experience Platform. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. Raadpleeg het volgende [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) voor een geconsolideerde referentie van de terminologische wijzigingen.
 
 ## Vereisten
 
@@ -22,10 +24,10 @@ Zodra uw Adobe Experience Platform Launch-bibliotheek naar de productie is geduw
 
 Foutopsporing in Experience Cloud is een Chrome-plug-in die alle Experience Cloud-tags op een pagina weergeeft.
 
-1. Open [Chrome Web Browser](https://www.google.com/chrome/) en ga naar [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) op de Winkel van het Web van Chrome om de uitbreiding te installeren.
-2. Navigeer naar uw ontwikkelingswebsite waarop u Starten hebt geïmplementeerd.
+1. Open [Chrome Web Browser](https://www.google.com/chrome/) en ga naar [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) in de Chrome Web Store om de extensie te installeren.
+2. Navigeer naar uw ontwikkelingswebsite waarop u tags hebt geïmplementeerd.
 3. Klik op het Adobe Experience Cloud-foutopsporingspictogram rechtsboven in Chrome
-4. Als alles correct is geïmplementeerd, ziet u de inhoud in Adobe Analytics, Adobe Experience Platform Launch en de Adobe Experience Cloud Visitor ID-service:
+4. Als alles correct is geïmplementeerd, ziet u de inhoud in Adobe Analytics, tags en de Adobe Experience Cloud Visitor ID-service:
 
 ![foutopsporing][assets/debugger.png]
 
@@ -33,22 +35,24 @@ Foutopsporing in Experience Cloud is een Chrome-plug-in die alle Experience Clou
 
 Zodra u hebt bevestigd u gegevens ziet, kunt u uw implementatie aan de levende versie van uw plaats duwen.
 
-1. Ga naar [Adobe Experience Platform Launch](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
-2. Klik op de eigenschap Starten die u op uw site wilt implementeren.
-3. Klik op het tabblad Publiceren en zoek de bibliotheek in de ontwikkelingskolom.
-4. Klik op het vervolgkeuzemenu in de bibliotheek en selecteer Verzenden voor goedkeuring. Klik op Verzenden in het modale venster.
-5. Klik nogmaals op het vervolgkeuzemenu van de bibliotheek (nu in de kolom Verzenden) en selecteer Samenstellen voor opslaan.
-6. Na enkele ogenblikken wordt het geel gekleurde licht op de bibliotheek groen, wat aangeeft dat het is gemaakt.
-7. Klik nogmaals op het vervolgkeuzemenu van de bibliotheek en selecteer Goedkeuren voor publicatie.
-8. Klik nogmaals op het vervolgkeuzemenu van de bibliotheek (nu in de kolom Goedgekeurd) en selecteer Samenstellen en Publiceren op productie.
-9. Ga naar het tabblad Milieu en klik op Productomgeving.
-10. Kopieer de koptekst- en voettekstcode voor de productie en geef deze door aan de eigenaars van uw website. Vraag of zij deze code in de productieomgeving van uw site willen implementeren.
+1. Ga naar [experience.adobe.com](https://experience.adobe.com) en meld u aan wanneer u hierom wordt gevraagd.
+1. Selecteer **[!UICONTROL Launch / Data Collection]**.
+1. Klik **[!UICONTROL Go to Launch / Data Collection]**, dan selecteer **[!UICONTROL Tags]**.
+1. Klik op de eigenschap tag die u op uw site wilt implementeren.
+1. Klik op het tabblad **[!UICONTROL Publishing]** en zoek de bibliotheek in de ontwikkelingskolom.
+1. Klik op het vervolgkeuzemenu in de bibliotheek en selecteer **[!UICONTROL Submit for Approval]**. Klik **[!UICONTROL Submit]** op het modale venster.
+1. Klik nogmaals op het vervolgkeuzemenu van de bibliotheek (nu in de kolom Verzenden) en selecteer **[!UICONTROL Build for Staging]**.
+1. Na enkele ogenblikken wordt het geel gekleurde licht op de bibliotheek groen, wat aangeeft dat het is gemaakt.
+1. Klik nogmaals op het vervolgkeuzemenu van de bibliotheek en selecteer **[!UICONTROL Approve for Publishing]**.
+1. Klik nogmaals op het vervolgkeuzemenu van de bibliotheek (nu in de kolom [!UICONTROL Approved]) en selecteer **[!UICONTROL Build and Publish to Production]**.
+1. Ga naar het tabblad Omgevingen en klik op **[!UICONTROL Production Environment]**.
+1. Kopieer de koptekst- en voettekstcode voor de productie en geef deze door aan de eigenaars van uw website. Vraag of zij deze code in de productieomgeving van uw site willen implementeren.
 
 ## De productieimplementatie valideren
 
 Bevestig dat u gegevens op de live versie van uw site ziet en dat u met de officiële gegevensverzameling voor Adobe Analytics begint.
 
-1. Nadat u van de eigenaars van uw website hebt bevestigd dat ze de opstartcode hebben geproduceerd, navigeert u naar de homepage van uw website in Chrome en opent u Adobe Experience Cloud Debugger.
+1. Nadat u van de eigenaars van uw website hebt bevestigd dat ze de code naar de productie hebben geduwd, navigeert u naar de homepage van uw website in Chrome en opent u [!UICONTROL Adobe Experience Cloud debugger].
 2. Als alles werkt, zou u gelijkaardige gegevens aan uw tests in uw ontwikkelomgeving moeten zien. U verzamelt nu gegevens op uw site en kunt nu Adobe Analytics gebruiken voor rapportage.
 
 ## Problemen oplossen
@@ -58,7 +62,7 @@ Bevestig dat u gegevens op de live versie van uw site ziet en dat u met de offic
 Open op uw site de ontwikkelaarsconsole van de browser (doorgaans F12). Bekijk de broncode van de pagina en zorg ervoor het volgende wordt voldaan:
 
 * De console bevat geen JavaScript-fouten. Werk samen met de eigenaars van uw website om ervoor te zorgen dat alle JS-fouten worden opgelost.
-* Koptekstcode is correct geïmplementeerd: Zorg ervoor dat de koptekstcode zich binnen de `<head>` tag bevindt en dat het bestand bestaat.
+* Koptekstcode is correct geïmplementeerd: Zorg ervoor dat de koptekstcode zich binnen de tag `<head>` bevindt en dat het bestand bestaat.
 * De bibliotheek AppMeasurement bestaat: Navigeer rechtstreeks naar de JS-bron om ervoor te zorgen dat het JS-bestand code bevat. Als dit niet het geval is, moet u ervoor zorgen dat elke omgeving is gemaakt en dat de bibliotheek naar de desbetreffende omgeving wordt gepubliceerd.
 * Bezig met interfereren van plug-ins: Bepaalde Chrome-plug-ins kunnen voorkomen dat verzoeken om afbeeldingen worden geactiveerd. Schakel plug-ins uit die het verzenden van gegevens naar Adobe kunnen stoppen.
 
@@ -66,5 +70,5 @@ Open op uw site de ontwikkelaarsconsole van de browser (doorgaans F12). Bekijk d
 
 Nu een basisimplementatie is ingesteld, kan uw rol binnen uw organisatie van invloed zijn op welk pad u meer wilt weten over:
 
-* [Maak een document](../prepare/solution-design.md)voor het ontwerp van een oplossing: Maak een plan voor hoe u douanevariabelen wilt gebruiken, dan hen opnemen in uw implementatie
+* [Maak een document](../prepare/solution-design.md) voor het ontwerp van een oplossing: Maak een plan voor hoe u douanevariabelen wilt gebruiken, dan hen opnemen in uw implementatie
 * [Ga aan de slag met Analysis Workspace](/help/analyze/analysis-workspace/home.md): Ga naar Adobe Analytics met de vlaggenschipfunctie van het gereedschap.
