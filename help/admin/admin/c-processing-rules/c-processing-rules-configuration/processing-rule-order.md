@@ -5,9 +5,9 @@ title: Verwerkingsvolgorde
 feature: Admin Tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ In de volgende tabellen worden de gegevens weergegeven die doorgaans beschikbaar
 |--- |--- |
 | Dynamische variabele zoekopdracht | Variabelen worden dynamisch gevuld door informatie uit HTTP-headers of andere variabelen te halen. `s.eVar5="D=c1"` zal bijvoorbeeld de waarde van prop1 in eVar5 zetten. |
 | AppMeasurement | Functies en insteekmodules die in AppMeturement worden gebruikt, worden uitgevoerd in de browser of de clienttoepassing. |
-| Tagbeheer | Regels die zijn gedefinieerd in Adobe Launch of Dynamic Tag Management worden uitgevoerd zoals gedefinieerd. |
+| Tagbeheer | De regels die in UI van de Inzameling van Gegevens worden bepaald worden uitgevoerd zoals bepaald. |
 | Bot-regels | [Met beide ](/help/admin/admin/bot-removal/bot-rules.md) linialen kunt u verkeer verwijderen dat wordt gegenereerd door bekende spinnen en bots uit uw rapportsuite. |
 
 ## Na verwerking regels
