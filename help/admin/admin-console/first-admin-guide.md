@@ -1,14 +1,13 @@
 ---
 title: Eerste Adobe Analytics-beheerdershandleiding
 description: Begrijp hoe te beginnen met Adobe Analytics, algemene roltypes, en het programma openen aan UI.
-translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
-
 
 # Eerste Adobe Analytics-beheerdershandleiding
 
@@ -19,7 +18,7 @@ Een eerste beheerder is het uitgangspunt om de rest van de organisatie toe te la
 Als uw organisatie Adobe Analytics heeft aangeschaft, moet u rekening houden met een aantal belangrijke rollen:
 
 * **Adobe Analytics-beheerders:** deze gebruikers hebben volledige toegang tot alles in Adobe Analytics, inclusief instellingen voor rapportsuite en gebruikersmachtigingen. Afhankelijk van de structuur van uw organisatie kunnen verschillende personen of teams verantwoordelijk zijn voor verschillende facetten van het analysebeheer. Eén persoon is bijvoorbeeld verantwoordelijk voor de aanwijzing van de variabelen die in een implementatie moeten worden gebruikt. Een andere persoon kan voor het toelaten van gebruikers verantwoordelijk zijn om rapporten correct te trekken door iedereen te verzekeren heeft de correcte toestemmingen. Identificeer minstens één gebruiker die voor de montages en gebruikerstoestemmingen van het het rapportpakket van de Analyse kan verantwoordelijk zijn, en zij kunnen andere beheerders van Analytics van daar uitnodigen.
-* **Adobe Experience Platform Launch-beheerders:** Deze gebruikers hebben volledige toegang tot alles in het Experience Platform Launch, inclusief publicatiemachtigingen, het maken van containers en gebruikersmachtigingen. Deze gebruikers zijn niet noodzakelijkerwijs programmeurs, maar het is nuttig om ten minste een beginner op de hoogte te hebben van HTML, CSS en JavaScript. Ze zijn verantwoordelijk voor het werken met de eigenaars van de website van uw organisatie om de code van het Experience Platform Launch op uw site te implementeren. Identificeer minstens één gebruiker die voor de implementatie van uw organisatie verantwoordelijk is, en zij kunnen andere beheerders van het Experience Platform Launch van daar uitnodigen.
+* **Adobe Experience Platform Launch-beheerders:** Deze gebruikers hebben volledige toegang tot alles in de gebruikersinterface voor gegevensverzameling (voorheen Experience Platform Launch genoemd), inclusief publicatiemachtigingen, het maken van containers en gebruikersmachtigingen. Deze gebruikers zijn niet noodzakelijkerwijs programmeurs, maar het is nuttig om ten minste een beginner op de hoogte te hebben van HTML, CSS en JavaScript. Ze zijn verantwoordelijk voor het werken met de eigenaars van de website van uw organisatie om de Experience Platforms-tags op uw site te implementeren. Identificeer minstens één gebruiker die voor de implementatie van uw organisatie verantwoordelijk is, en zij kunnen andere beheerders van het Experience Platform Launch van daar uitnodigen.
 * **Ondersteuningsafgevaardigden**: Deze gebruikers, ook wel ondersteunde gebruikers genoemd, hebben geen extra bevoegdheden in de interface Analytics. In plaats daarvan krijgen ze extra privileges wanneer ze communiceren met de klantenservice van Adobe. Deze gebruikers zijn bijna altijd ook Analytics-beheerders, omdat dit de klantenservice helpt problemen met hen op te lossen. Identificeer ten minste één Analytics-beheerder die verantwoordelijk is voor het faciliteren van de interactie tussen eindgebruikers en de klantenservice van Adobe.
 * **Eigenaars van websites:** Deze personen of teams zijn verantwoordelijk voor de codering en ontwikkeling van uw website. Ze hebben geen accounts nodig, maar ze willen samenwerken met beheerders van Experience Platforms Launch om de code van het Experience Platform Launch te verkrijgen en deze te implementeren op uw website.
 * **Eindgebruikers:** deze gebruikers bekijken doorgaans rapporten en zoeken antwoorden op zakelijke vragen. Analysebeheerders verlenen deze gebruikers machtigingen om in het product te werken.
@@ -41,9 +40,9 @@ Systeembeheerders hebben geen directe toegang tot producten, maar ze kunnen zich
 1. Voer het e-mailadres in waar u volledige toegang tot Analytics wilt geven en wijs hieraan het nieuwe volledige toegangsprofiel voor beheerders toe. Klik op Opslaan.
 1. De gebruiker heeft nu volledige toegang tot Adobe Analytics.
 
-## Toegang tot productbeheer voor Experience Platform Launch verlenen
+## Het verlenen van de toegang van productadmin voor de Inzameling van Gegevens in Experience Platform (vroeger genoemd Lancering)
 
-Toegang tot productbeheer voor Experience Platform Launch is vrijwel gelijk aan het verlenen van toegang tot productbeheer voor Analytics.
+Toegang tot productbeheer voor tags in Experience Platform is vrijwel gelijk aan het verlenen van toegang tot productbeheer voor Analytics.
 
 1. Meld u aan bij de Admin Console met uw Adobe ID-referenties.
 1. Klik bovenaan op het tabblad Producten. Alle producten die door uw organisatie worden aangeschaft, staan links. Klik Experience Platform Launch door Adobe, dan klik de Nieuwe knoop van het Profiel.
