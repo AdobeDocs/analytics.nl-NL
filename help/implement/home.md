@@ -2,10 +2,10 @@
 title: Adobe Analytics implementeren
 description: Implementeer Adobe Analytics op uw website, eigenschap of applicatie.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 92%
+source-wordcount: '359'
+ht-degree: 77%
 
 ---
 
@@ -28,16 +28,15 @@ De JavaScript-code verzendt een afbeeldingsaanvraag voor Adobe-dataverzamelingse
 
 Voor Adobe Analytics is code binnen uw website, mobiele app of andere applicatie vereist om data naar servers voor dataverzameling te verzenden. Er zijn verschillende methoden om deze code te implementeren, afhankelijk van het platform en de behoeften van uw organisatie.
 
-* **Adobe Experience Platform Launch:** De gestandaardiseerde en aanbevolen methode voor de implementatie van Adobe Analytics. Plaats een ladertag op elke pagina en gebruik de interface van Launch om te bepalen hoe elke variabele wordt gedefinieerd.
-* **Dynamisch tagbeheer**: Dynamic Tag Management is beëindigd.
-* **Verouderde JavaScript:** De oude handmatige methode voor de implementatie van Adobe Analytics. Geeft een overzicht van de variabelen en instellingen die in een implementatie worden gebruikt, wat handig kan zijn voor Launch-implementaties waarbij regels met aangepaste code worden gebruikt.
+* **Tags Adobe Experience Platform**: De gestandaardiseerde en aanbevolen methode voor de implementatie van Adobe Analytics. Plaats een loader-tag op elke pagina en gebruik de interface voor gegevensverzameling om te bepalen hoe elke variabele wordt gedefinieerd.
+* **Verouderde JavaScript:** De oude handmatige methode voor de implementatie van Adobe Analytics. Omlijnt variabelen en montages die in een implementatie worden gebruikt, die voor ta implementaties kunnen nuttig zijn gebruikend regels met douanecode.
 * **Mobile SDK:** speciale bibliotheken om data gemakkelijk vanuit uw mobiele app naar Adobe te verzenden.
 
 ## Belangrijke artikelen voor de implementatie van Analytics
 
 * [Een bestaande Adobe Analytics-implementatie op zich nemen](/help/implement/prepare/existing-implementation.md)
 * [Adobe-foutopsporing](validate/debugger.md)
-* [Een eigenschap maken in Experience Platform Launch](launch/create-analytics-property.md)
+* [Een tag-eigenschap maken in Experience Platform](launch/create-analytics-property.md)
 * [AppMeasurement-updates](appmeasurement-updates.md)
 
 ## Meer Analytics-gebruikershandleidingen
