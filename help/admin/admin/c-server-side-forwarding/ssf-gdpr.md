@@ -3,10 +3,9 @@ description: Verklaart verhogingen aan server-kant door:sturen die door de EU ve
 title: GDPR/ePrivacy-compliance en server-side doorsturen
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '526'
 ht-degree: 3%
 
 ---
@@ -29,7 +28,7 @@ Voer deze stappen uit, afhankelijk van de implementatiemethode.
 
 | Implementatiemethode | Stappen |
 |--- |--- |
-| Adobe Experience Platform Launch | Ervan uitgaande dat u de extensie Adobe Analytics hebt geïnstalleerd, voegt u de volgende definitie van de variabele van de contextgegevens toe aan de aangepaste code-editor binnen de configuratie van een regel voor handelingen: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Opmerking:  Definieer de contextdata-variabele en stel deze in op 1 als een klant niet instemt met gerichte marketing. Stel de variabele `contextdata` in op *0* voor klanten die instemmen met gerichte marketing. |
+| Tags in Adobe Experience Platform | Ervan uitgaande dat u de Adobe Analytics-extensie hebt geïnstalleerd, voegt u de volgende definitie van de variabele van de contextgegevens toe aan de aangepaste code-editor binnen de actieconfiguratie van een Regel: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Opmerking:  Definieer de contextdata-variabele en stel deze in op 1 als een klant niet instemt met gerichte marketing. Stel de variabele `contextdata` in op *0* voor klanten die instemmen met gerichte marketing. |
 | AppMeasurement | Voeg de de veranderlijke definitie van contextgegevens aan het AppMeasurement.js- dossier toe:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Opmerking:  Definieer de contextdata-variabele en stel deze in op 1 als een klant niet instemt met gerichte marketing. Stel de variabele contextdata in op 0 voor klanten die hebben ingestemd met gerichte marketing. |
 
 ## Rapportage (optioneel) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
