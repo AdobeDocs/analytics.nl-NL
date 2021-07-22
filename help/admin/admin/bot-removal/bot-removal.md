@@ -2,9 +2,9 @@
 title: Bot verwijderen in Adobe Analytics
 description: Bommen verwijderen in Adobe Analytics
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Bovendien biedt Adobe, aangezien bots snel morferen, verschillende andere kracht
 
 ### Stap 1: Geef de Experience Cloud-id van uw bezoekers door in een nieuwe gedeclareerde id
 
-Om te beginnen, creeer een nieuwe verklaarde identiteitskaart in [de Dienst van de Kern van Mensen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Geef de Experience Cloud-id van uw bezoeker door in deze nieuwe gedeclareerde id, die u snel en eenvoudig kunt gebruiken met [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html). Gebruik de naam ECID voor de gedeclareerde id.
+Om te beginnen, creeer een nieuwe verklaarde identiteitskaart in [de Dienst van de Kern van Mensen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Geef de Experience Cloud-id van uw bezoeker door in deze nieuwe gedeclareerde id, die u snel en eenvoudig kunt gebruiken met [tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en). Gebruik de naam ECID voor de gedeclareerde id.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -49,7 +49,7 @@ Hieronder wordt beschreven hoe deze id kan worden vastgelegd via het gegevensele
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Nadat dit gegevenselement is ingesteld, volgt u [deze instructies](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) om gedeclareerde id&#39;s door te geven aan het ECID-gereedschap in Adobe Launch.
+Als dit gegevenselement is ingesteld, volgt u [deze instructies](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) om gedeclareerde id&#39;s met tags in Adobe Experience Platform door te geven aan het ECID-gereedschap.
 
 ### Stap 2: Segmentatie gebruiken om vlekken te identificeren
 
