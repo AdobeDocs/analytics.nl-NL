@@ -2,9 +2,9 @@
 title: Apparaatgrafiek
 description: Begrijp de eerste vereisten en de beperkingen van het stitching van gegevens gebruikend de apparatengrafiek.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Als u Apparaatanalyse wilt implementeren met de grafiekmethode van het apparaat,
 
 * Alle voorwaarden die op [overzichtspagina](overview.md) worden vermeld.
 * Uw organisatie moet de Adobe Experience Platform Identity Service Co-op Graph of Private Graph gebruiken. Zie [Homepagina](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) in de gebruikershandleiding van de Co-op van het Apparaat.
-* Uw implementatie moet de nieuwste versie van de Experience Cloud ID-service gebruiken. Zie [Startpagina](https://experienceleague.adobe.com/docs/id-service/using/home.html) in de gebruikershandleiding van de Experience Cloud Identiteitsservice. Bij de meeste implementaties met Adobe Experience Platform Launch is ECID waarschijnlijk al geïmplementeerd.
+* Uw implementatie moet de nieuwste versie van de Experience Cloud ID-service gebruiken. Zie [Startpagina](https://experienceleague.adobe.com/docs/id-service/using/home.html) in de gebruikershandleiding van de Experience Cloud Identiteitsservice. Bij de meeste implementaties met tags in Adobe Experience Platform is ECID waarschijnlijk al geïmplementeerd.
 * Uw implementatie moet de functie `setCustomerIDs` (of het equivalent van SDK) aanroepen wanneer een individu kan worden geïdentificeerd, zoals wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Zie [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) in de gebruikershandleiding van de Experience Cloud Identiteitsservice.
 
 ## Specifieke beperkingen voor de apparaatgrafiek
