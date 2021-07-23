@@ -2,9 +2,9 @@
 title: AppMeasurement gebruiken met iframes
 description: Open Adobe Analytics-variabelen in een iframe of een bovenliggende pagina terwijl u zich in een iframe bevindt.
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 U kunt naar variabelen AppMeasurement van zowel kind als ouder iframes verwijzen. Het is noodzakelijk om alle variabelen in de zelfde plaats te bepalen waar de bibliotheek AppMeasurement bestaat. In de volgende voorbeelden wordt uitgelegd hoe u basisvariabelen en -methoden voor AppMeasurement binnen en buiten een iframe instelt.
 
-Als u Adobe Experience Platform Launch gebruikt, moet u ervoor zorgen dat het tracker-object algemeen toegankelijk is. Zie [Adobe Analytics-extensieoverzicht](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) in de gebruikershandleiding bij Starten.
+Als u tags gebruikt in Adobe Experience Platform, moet u ervoor zorgen dat het tracker-object algemeen toegankelijk is. Zie [Overzicht van Adobe Analytics-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html).
 
 >[!CAUTION]
 >
