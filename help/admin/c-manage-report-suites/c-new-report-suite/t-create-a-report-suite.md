@@ -3,10 +3,10 @@ description: Een basiscontainer maken voor gegevensverzameling in Adobe Analytic
 title: Een rapportsuite maken
 feature: Admin Tools
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,4 +47,4 @@ Zorg ervoor dat u door [Experience Cloud ](https://experience.adobe.com), en nie
 
 ## Volgende stappen
 
-[Een eigenschap voor Adobe Analytics in Adobe Experience Platform Launch](/help/implement/launch/create-analytics-property.md) maken en configureren: Een gebied maken om uw analytische implementatie te beheren
+[Een Adobe Analytics-eigenschap voor tags maken  ](/help/implement/launch/create-analytics-property.md): Een gebied maken om uw analytische implementatie te beheren
