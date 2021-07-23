@@ -1,14 +1,13 @@
 ---
 title: Cookie-ondersteuning
 description: Hiermee bepaalt u of de browser cookies ondersteunt.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
-
 
 # Cookie-ondersteuning
 
@@ -16,12 +15,12 @@ De dimensie &#39;Cookie support&#39; rapporteert als de browser cookies voor een
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verzamelt gegevens van het [`k` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken. AppMeasurement probeert een cookie met de naam in te stellen `s_cc`en detecteert vervolgens of het cookie bestaat. Het resultaat is de parameterwaarde van de queryreeks `Y` (als de browser cookies ondersteunt en ingeschakeld heeft) of `N` (als de browser cookies heeft uitgeschakeld). Als u AppMeasurement gebruikt (bijvoorbeeld via Adobe Experience Platform Launch), werkt deze dimensie buiten het vak. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u de parameter van het `k` vraagkoord op elke slag met de waarde `Y` of `N`opneemt.
+Deze afmeting verzamelt gegevens van [`k` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken. AppMeasurement probeert om een koekje te plaatsen genoemd `s_cc`, dan ontdekt als het koekje bestaat. Het resultaat is de parameterwaarde `Y` voor de querytekenreeks (als de browser cookies ondersteunt en ingeschakeld heeft) of `N` (als de browser cookies heeft uitgeschakeld). Als u AppMeasurement gebruikt (zoals door markeringen in Adobe Experience Platform), werkt deze afmeting uit de doos. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u `k` vraagkoordparameter op elke slag met de waarde `Y` of `N` omvat.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items omvatten `Enabled`, `Disabled`en `Unknown`.
+Dimension-items zijn onder andere `Enabled`, `Disabled` en `Unknown`.
 
 * **`Enabled`**: De browser ondersteunt cookies en heeft deze ingeschakeld.
 * **`Disabled`**: De browser ondersteunt geen cookies of de bezoeker heeft deze uitgeschakeld.
-* **`Unknown`**: AppMeasurement kon koekjessteun niet bepalen. De `k` queryreeks is niet aanwezig in de afbeeldingsaanvraag.
+* **`Unknown`**: AppMeasurement kon koekjessteun niet bepalen. De query-tekenreeks `k` is niet aanwezig in de afbeeldingsaanvraag.
