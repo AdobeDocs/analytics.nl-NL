@@ -1,14 +1,13 @@
 ---
 title: Browserbreedte - gespaard
 description: De breedte van het browservenster in pixels.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Browserbreedte
 
@@ -24,10 +23,10 @@ De breedte van de browser is altijd kleiner dan of gelijk aan de schermbreedte, 
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie wint gegevens van het [`bw` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeturement verzamelt deze gegevens met behulp van de JavaScript-variabele `window.innerWidth` in de browser. Als u een bibliotheek AppMeasurement gebruikt (zoals door Adobe Experience Platform Launch), werkt deze afmeting uit de doos. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u de parameter van het `bw` vraagkoord op de eerste klap van elk bezoek omvat.
+Deze dimensie wint gegevens van [`bw` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens met behulp van de JavaScript-variabele `window.innerWidth` in de browser. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u `bw` parameter van het vraagkoord op de eerste klap van elk bezoek omvat.
 
 Adobe blijft de browserbreedte voor een bezoek behouden. Als de breedte van de browser halverwege het bezoek wordt aangepast, wordt de aanpassing niet geregistreerd.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items omvatten alle verzamelde browserbreedten, geclassificeerd in groepen van 100 pixels. Als de browserbreedte van een hit bijvoorbeeld is `1280`, wordt deze gegroepeerd in het dimensie-item `1200 to 1299`.
+Dimension-items omvatten alle verzamelde browserbreedten, geclassificeerd in groepen van 100 pixels. Als de browserbreedte van een hit bijvoorbeeld `1280` is, wordt deze gegroepeerd in het dimensie-item `1200 to 1299`.
