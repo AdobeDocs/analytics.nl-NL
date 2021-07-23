@@ -1,37 +1,36 @@
 ---
 title: cookieDomain
 description: De cookieDomain-variabele helpt het domein te bepalen waarop cookies moeten worden ingesteld.
-translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '178'
 ht-degree: 1%
 
 ---
-
 
 # cookieDomain
 
 >[!IMPORTANT]
 >
->Deze variabele wordt uitgeschakeld. Gebruik [`trackingServer`](trackingserver.md) in plaats hiervan.
+>Deze variabele wordt uitgeschakeld. Gebruik in plaats hiervan [`trackingServer`](trackingserver.md).
 
-De `cookieDomain` variabele bepaalt het domein waar AppMeturement koekjes plaatst. U kunt deze variabele gebruiken om het cookiedomein uitdrukkelijk te plaatsen in plaats van het gebruiken van de [`cookieDomainPeriods`](cookiedomainperiods.md) variabele.
+De `cookieDomain` variabele bepaalt het domein waar AppMeturement koekjes plaatst. U kunt deze variabele gebruiken om het cookiedomein uitdrukkelijk te plaatsen in plaats van het gebruiken van [`cookieDomainPeriods`](cookiedomainperiods.md) variabele.
 
-Deze variabele hoeft alleen te worden gebruikt als aan **beide** voorwaarden is voldaan:
+Deze variabele hoeft alleen te worden gebruikt als **beide** aan de volgende voorwaarden voldoen:
 
-* Als uw implementatie cookies van de eerste fabrikant gebruikt. Deze variabele wordt niet vereist met implementaties die een [`trackingServer`](trackingserver.md) waarde bevatten `sc.adobedc.net`.
-* Als het achtervoegsel van het domein een punt bevat. Bijvoorbeeld, `example.co.uk` kon de `cookieDomain` variabele gebruiken om uitdrukkelijk te verklaren dat het koekjesdomein is `example.co.uk` en niet `co.uk`.
+* Als uw implementatie cookies van de eerste fabrikant gebruikt. Deze variabele is niet vereist bij implementaties die een [`trackingServer`](trackingserver.md) waarde gebruiken die `sc.adobedc.net` bevat.
+* Als het achtervoegsel van het domein een punt bevat. `example.co.uk` kan bijvoorbeeld de variabele `cookieDomain` gebruiken om expliciet aan te geven dat het cookiedomein `example.co.uk` is en niet `co.uk`.
 
-Slechts een klein aantal implementaties heeft gebruik voor de `cookieDomain` variabele, en zelfs dan, kunnen de alternatieve variabelen zoals in plaats daarvan [`cookieDomainPeriods`](cookiedomainperiods.md) worden gebruikt.
+Slechts een klein aantal implementaties heeft gebruik voor de `cookieDomain` variabele, en zelfs dan, kunnen de alternatieve variabelen zoals [`cookieDomainPeriods`](cookiedomainperiods.md) in plaats daarvan worden gebruikt.
 
-## Cookie-domein in Adobe Experience Platform Launch
+## Cookie-domein in Adobe Experience Platform-gegevensverzameling
 
-Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
-## s.cookieDomain in aangepaste code-editor voor AppMeasurement en Launch
+## s.cookieDomain in AppMeasurement en aangepaste code-editor
 
-De `cookieDomain` variabele is een tekenreeks en wordt ingesteld op het domein waarop u cookies wilt opslaan.
+De variabele `cookieDomain` is een tekenreeks en wordt ingesteld op het domein waarop u cookies wilt opslaan.
 
 ```js
 s.cookieDomain = "stats.example.com";
