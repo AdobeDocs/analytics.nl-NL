@@ -1,9 +1,9 @@
 ---
 title: Merchandising Vars en productzoekmethoden
 description: Een diepe duik in de concepten achter het verhandelen van eVars en hoe zij gegevens verwerken en toewijzen.
-source-git-commit: 9c71c9e94177c9510ca6af050c9de6fb54c8dc6f
+source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
 workflow-type: tm+mt
-source-wordcount: '5307'
+source-wordcount: '5294'
 ht-degree: 0%
 
 ---
@@ -112,9 +112,9 @@ Als de toewijzingsinstelling van een standaard eVar gelijk is aan &quot;Recentst
 
 **Instelling voor de toewijzing van eVar (binding) wijzigen**
 
-Zoals eerder vermeld, hebben alle handelsversies van eVars met conversievariabele syntaxis alleen de toewijzing &quot;Meest recente (laatste)&quot;.  Dit is wat de &quot;Allocation&quot;instelling eigenlijk voor het verhandelen van eVars betekent: Zoals eerder is geïmpliceerd, bepaalt deze instelling niet welke waarden in de kolom `post_evar` worden ingevoegd als een bezoeker de site blijft gebruiken. In plaats daarvan bepaalt de Allocation-instelling voor merchandising Vars welke eVar-waarde aan een product wordt gekoppeld en hoe dergelijke producten hun succesgebeurtenissen terugplaatsen naar de eVar-waarden waaraan zij zijn gebonden.
+Zoals eerder vermeld, hebben alle handelsversies van eVars met conversievariabele syntaxis alleen de toewijzing &quot;Meest recente (laatste)&quot;. De Allocation-instelling voor het verhandelen van eVars bepaalt dus niet welke waarden in de post_evar-kolom worden ingevoegd omdat een bezoeker de site blijft gebruiken. In plaats daarvan, bepaalt dit het plaatsen welke waarde van eVar aan een product bindt en hoe dergelijke producten hun succesgebeurtenissen terug naar de waarden van de eVar toewijzen zij aan zijn gebonden.
 
-Bespreek wat er gebeurt als de Allocatie-instelling (binding) van een eVar voor handelsdoeleinden gelijk is aan &quot;Oorspronkelijke waarde (eerste)&quot;. Producten die naast de kolom `post_evar` zijn geplaatst en die niet eerder aan de overeenkomstige &quot;pre-verwerkte&quot;eVar van post_evar zijn gebonden zullen aan de waarde in `post_evar` kolom worden gebonden. Deze binding tussen eVar en product verandert nooit totdat de eVar verloopt volgens de instellingen bij &quot;Verlopen na&quot; in de rapportsuite-instellingen.
+Het volgende gebeurt wanneer de toewijzingsinstelling van een eVar die de transactie aanbrengt (dat wil zeggen binding) gelijk is aan &quot;Oorspronkelijke waarde (eerst)&quot;: Alle producten die naast de kolom post_evar zijn ingesteld en die niet eerder zijn gebonden aan de corresponderende &quot;voorbewerkte&quot; eVar van de kolom post_evar, worden gebonden aan de waarde in de kolom post_evar.  Deze binding tussen eVar en product verandert nooit totdat de eVar verloopt volgens de instelling &quot;Na verlopen&quot; in de rapportsuite-instellingen.
 
 Telkens wanneer een afbeeldingsaanvraag voldoet aan de criteria die een al gebonden product anders zouden binden aan de laatst ingestelde waarde voor eVar, dwingt de instelling &quot;Oorspronkelijke waarde (eerst)&quot; de servers van de Adobe Analytics-gegevensverzameling dergelijke verdere pogingen te negeren. Het tegenovergestelde gebeurt bij het verhandelen van eVars met de instelling Toewijzing (binding) gelijk aan &quot;Recentste (laatste)&quot;. Telkens wanneer een afbeeldingsverzoek voldoet aan de criteria die een product binden aan een eVar voor handelsdoeleinden, bindt het product zich (en bindt het opnieuw) aan de meest recente waarde die in de eVar is doorgegeven, of aan de waarde die (altijd) in de kolom `post_evar` staat.
 
@@ -132,7 +132,7 @@ De vervaldatum voor een eVar kan plaatsvinden wanneer een succesgebeurtenis word
 
 Voor de Methode van het Vinden van het Product, zou de beste praktijken voor het plaatsen van een het verhandelen eVar het moeten plaatsen gelijk aan
 
-* Of de hoeveelheid tijd die een product in een winkelwagentje van een plaats wordt gehouden alvorens de plaats automatisch het uit het karretje verwijdert
+* Of de hoeveelheid tijd die een product in het winkelwagentje van een plaats wordt gehouden alvorens de plaats automatisch het uit het karretje verwijdert (b.v. 14 dagen, 30 dagen, enz.)
 * OF wanneer de aankoopgebeurtenis plaatsvindt.
 
 In beide gevallen worden producten die een bezoeker koopt, in aanmerking genomen als bestelling/eenheid/inkomstenkrediet voor de handelswaarde van de eVar waaraan de producten op dat moment gebonden waren.
@@ -168,11 +168,16 @@ Als u &quot;interne sleutelwoordonderzoek&quot;aan product ID 12345 wilt binden,
 
 `s.products=";12345;;;;eVar1=internal keyword search";`
 
-Eventuele succesgebeurtenissen (winkelwagentjes, aankopen) die tegelijkertijd met productID 12345 worden vastgelegd, worden zowel aan product-id 12345 als aan de `eVar1`-waarde van &quot;interne trefwoordzoekopdracht&quot; toegevoegd. De enige manier waarop een andere `eVar1`-waarde krediet kreeg voor succesgebeurtenissen geassocieerd met product-id 12345 is als `eVar1` later is ingesteld op een **different**-waarde binnen de productvariabele (naast product-id 12345). Voorbeeld:
+Eventuele succesgebeurtenissen (winkelwagentjes, aankopen) die tegelijkertijd met productID 12345 worden vastgelegd, worden zowel aan product-id 12345 als aan de eVar1-waarde van &quot;interne trefwoordzoekactie&quot; toegevoegd. De enige manier waarop een andere eVar1-waarde krediet ontvangt voor succesgebeurtenissen in verband met product-id 12345 is als eVar1 later op een andere waarde binnen de productvariabele werd ingesteld (naast product-id 12345).
 
-`s.products=";12345;;;;eVar1=internal campaign";`
+Bijvoorbeeld:
 
-Deze configuratie verandert de band van productidentiteitskaart 12345 van de `eVar1` waarde van &quot;interne sleutelwoordonderzoek&quot;in de `eVar1` waarde van &quot;interne campagne&quot;. Deze rebinding vindt plaats telkens wanneer de Syntaxis van het Product wordt gebruikt en de (bindende) het plaatsen van de Toewijzing voor de eVar wordt geplaatst aan &quot;Recentste (Laatste)&quot;. Wat gebeurt er als de instelling voor Toewijzing (binding) in plaats daarvan is ingesteld op Oorspronkelijke waarde (eerste)? Vervolgens wordt met de instelling eVar1 gelijk aan &quot;interne campagne&quot; naast product-id 12345 de product-id 12345 niet opnieuw gebonden aan de eVar1-waarde van &quot;interne campagne&quot;. De binding blijft bij de oorspronkelijk gebonden waarde: interne trefwoordzoekopdracht.
+```
+s.products=";12345;;;;eVar1=internal campaign";
+```
+
+Met deze variabele wordt de binding van product-id 12345 gewijzigd van de eVar1-waarde van &quot;interne trefwoordzoekopdracht&quot; in de eVar1-waarde van &quot;interne campagne&quot;. Deze wijziging van de binding vindt ook plaats wanneer de eVar is geconfigureerd voor het gebruik van productsyntaxis en de instelling Toewijzing (binding) van &quot;Recentste (laatste)&quot;. Als de instelling voor Toewijzing (binding) in plaats daarvan zou worden ingesteld op &quot;Oorspronkelijke waarde (Eerste)&quot;, zou het instellen van eVar1 gelijk aan &quot;interne campagne&quot; naast product-id 12345 de product-id 12345 niet opnieuw binden aan de eVar1-waarde van &quot;interne campagne&quot;. In plaats daarvan, zou de band met de oorspronkelijk verbindende waarde blijven - &quot;interne sleutelwoordonderzoek&quot;.
+
 
 ### Uitdagingen van productsyntaxis
 
@@ -195,6 +200,7 @@ De volgende waarden zouden allen 1 orde, 1 eenheid, en $79.95 van opbrengst hebb
 * eVar1-waarde van &quot;interne trefwoordzoekopdracht&quot;
 * eVar3 waarde van &quot;niet-interne campagne&quot;
 * eVar4 van &quot;niet-browse&quot;
+* eVar5 waarde van &quot;niet-cross-sell&quot;
 
 Dit is een correcte toewijzing, wat geen kwestie is. Het belangrijkste dilemma met deze aanpak is het bepalen hoe en wanneer de Vars van de Methode voor het vinden van producten moeten worden geplaatst.
 
@@ -216,9 +222,8 @@ Deze code bindt de bovenstaande eVar-waarden correct aan het product &quot;sanda
 
 Als een bezoeker besluit het product te &quot;vinden&quot; door op een koppeling naar de productdetailpagina te klikken, moet de ontwikkelaar ook:
 
-* Geef de details van de productzoekmethode (zoals hierboven is weergegeven) door van de pagina met zoekmethoden naar de pagina met productdetails en * * Verzamel dezelfde variabelewaarde van de producten uit de items die net van de vorige pagina zijn doorgegeven.
-
-Deze oplossing vereist een hoog niveau van ingewikkeldheid die misschien niet uitvoerbaar is.
+* Geef de details van de productzoekmethode (zoals hierboven is weergegeven) door van de pagina met zoekmethoden naar de pagina met productdetails, en
+* Maak dezelfde variabelewaarde van de productvariabele opnieuw van de items die net zijn doorgegeven vanaf de vorige pagina.
 
 ### Waar productsyntaxis nuttig is
 
@@ -238,7 +243,7 @@ In dit geval krijgen zowel `eVar10` (childSKU) waarden van &quot;tshirt123-m-blu
 
 ### Uitdagingen met &quot;Recentste&quot; toewijzing
 
-U kunt extra problemen ondervinden door de instelling Toewijzing (binding) van &quot;Meest recente (laatste)&quot; te gebruiken. In veel webbrowservaringen &quot;zoeken&quot; bezoekers een product dat ze al hebben bekeken en/of aan het winkelwagentje hebben toegevoegd. Dit gebeurt gewoonlijk tijdens een volgende bezoek of vlak voordat ze besluiten een aankoop te voltooien. Stel dat ze tijdens hun eerste bezoek aan de site het product &quot;sandal123&quot; hebben gevonden via de trefwoordzoekopdracht &quot;sandalen&quot;. Ze voegden het meteen toe aan het winkelwagentje vanaf de pagina met zoekresultaten met trefwoorden. De code die de winkelwagentje toevoegt, wordt als volgt ingesteld:
+U kunt extra problemen ondervinden door de instelling Toewijzing (binding) van &quot;Meest recente (laatste)&quot; te gebruiken. In veel webbrowservaringen &quot;zoeken&quot; bezoekers een product dat ze al hebben bekeken en/of aan het winkelwagentje hebben toegevoegd. Dit gebeurt gewoonlijk tijdens een volgende bezoek of vlak voordat ze besluiten een aankoop te voltooien. Stel dat een bezoeker tijdens een bezoek aan de site het product &quot;sandal123&quot; vindt via de trefwoordzoekopdracht &quot;sandalen&quot;. Zij voegen het onmiddellijk aan het karretje van de pagina van de sleutelwoordonderzoeksresultaten toe. De code die de winkelwagentje toevoegt, wordt als volgt ingesteld:
 
 ```
 s.linkTrackVars="products,events";
@@ -248,7 +253,7 @@ s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-
 
 Als gevolg hiervan zijn alle eVar-waarden in deze afbeeldingsaanvraag gebonden aan het product &quot;sandal123&quot;.
 
-Stel je nu voor dat de bezoeker het product niet koopt tijdens dit bezoek, maar drie dagen later terugkeert naar de site. Ze weten dat ze het product &quot;sandals123&quot; al aan het winkelwagentje hebben toegevoegd. Maar ze willen er nog meer over leren voordat ze de aankoop doen. In plaats van het gebruiken van een sleutelwoordonderzoek om het product te vinden, doorbladert de bezoeker door de plaats. Ze eindigen in de sectie &quot;Womens > schoenen > sandalen&quot; waarin de winkels bladeren vlak voordat ze het product &quot;opnieuw vinden&quot;. Wanneer ze uiteindelijk de productdetailpagina voor het product &quot;sandal123&quot; vinden, worden de variabelen als volgt ingesteld (bij het laden van de pagina):
+Stel nu dat de bezoeker het product niet koopt tijdens dit bezoek, maar drie dagen later terugkeert naar de site met het &quot;sandals123&quot;-product nog steeds in de winkelwagen. De bezoeker wil meer over het product leren alvorens de aankoop te maken. Maar in plaats van het gebruiken van een sleutelwoordonderzoek om het product te vinden, doorbladert de bezoeker door de plaats. Ze eindigen in de sectie &quot;Womens > schoenen > sandalen&quot; waarin de winkels bladeren vlak voordat ze het product &quot;opnieuw vinden&quot;. Wanneer ze uiteindelijk de productdetailpagina voor het product &quot;sandal123&quot; vinden, worden de variabelen als volgt ingesteld (bij het laden van de pagina):
 
 ```
 s.events="prodView";
