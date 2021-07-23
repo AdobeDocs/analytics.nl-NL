@@ -1,14 +1,13 @@
 ---
 title: Een datalaag maken
 description: Leer wat een gegevenslaag in uw implementatie Analytics is, en hoe het kan worden gebruikt om variabelen in Adobe Analytics in kaart te brengen.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '483'
 ht-degree: 2%
 
 ---
-
 
 # Een datalaag maken
 
@@ -16,7 +15,7 @@ Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site dat alle var
 
 ## Vereisten
 
-[Maak een document](solution-design.md) voor het ontwerp van een oplossing. Het is belangrijk dat uw organisatie zich uitlijnt op de vereisten voor bijhouden. Zorg ervoor dat u met een document van het oplossingsontwerp alvorens ontwikkelingsteams in uw organisatie wordt voorbereid te benaderen.
+[Creeer een document](solution-design.md)  van het oplossingsontwerp - het is belangrijk voor uw organisatie zich op het volgen vereisten te richten. Zorg ervoor dat u met een document van het oplossingsontwerp alvorens ontwikkelingsteams in uw organisatie wordt voorbereid te benaderen.
 
 ## Workflow
 
@@ -27,15 +26,15 @@ Bij het implementeren van Adobe Analytics met een gegevenslaag worden doorgaans 
    >[!NOTE]
    >
    >De volgende Adobe aanbevolen gegevenslaagspecificaties is optioneel. Als u reeds een gegevenslaag hebt, of anders verkiest om Adobe geen specificaties te volgen, zorg ervoor dat uw organisatie zich op welke specificatie richt te volgen.
-1. **Valideer uw gegevenslaag met een browserconsole**: Zodra een gegevenslaag wordt gecreeerd, kunt u bevestigen dat het gebruikend om het even welke browser ontwikkelaarsconsole werkt. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend de `F12` sleutel. Een waarde van een voorbeeldvariabele zou `digitalData.page.pageInfo.pageID`zijn.
-1. **Adobe Experience Platform Launch gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Maak gegevenselementen in Launch en wijs deze toe aan de JavaScript-kenmerken die in de gegevenslaag worden beschreven.
-1. **Gebruik de extensie Adobe Analytics in Launch om gegevenselementen toe te wijzen aan analytische variabelen**: Na uw document van het oplossingsontwerp, wijs elk gegevenselement aan de aangewezen variabele Analytics toe.
+1. **Valideer uw gegevenslaag met een browserconsole**: Zodra een gegevenslaag wordt gecreeerd, kunt u bevestigen dat het gebruikend om het even welke browser ontwikkelaarsconsole werkt. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend `F12` sleutel. Een waarde van een voorbeeldvariabele zou `digitalData.page.pageInfo.pageID` zijn.
+1. **Adobe Experience Platform-tags gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Maak gegevenselementen in de gebruikersinterface voor gegevensverzameling in Adobe Experience Platform en wijs deze toe aan de JavaScript-kenmerken die in de gegevenslaag worden beschreven.
+1. **Gebruik de Adobe Analytics-tagextensie om gegevenselementen toe te wijzen aan analytische variabelen**: Na uw document van het oplossingsontwerp, wijs elk gegevenselement aan de aangewezen variabele Analytics toe.
 
 ## Specificaties
 
-Adobe raadt u aan de Digital Data Layer [van de](https://www.w3.org/2013/12/ceddl-201312.pdf) Customer Experience te volgen, zoals deze door de [Customer Experience Digital Data Community Group](https://www.w3.org/community/custexpdata/)wordt geschetst. Gebruik de volgende secties om te begrijpen hoe de elementen van de gegevenslaag met Adobe Analytics in wisselwerking staan.
+Adobe raadt u aan de [Klantenervaring met digitale gegevenslaag](https://www.w3.org/2013/12/ceddl-201312.pdf) te volgen die wordt beschreven door de [Klantenervaring met Digital Data Community Group](https://www.w3.org/community/custexpdata/). Gebruik de volgende secties om te begrijpen hoe de elementen van de gegevenslaag met Adobe Analytics in wisselwerking staan.
 
-Het aanbevolen overkoepelende gegevenslaagobject is `digitalData`. In het volgende voorbeeld wordt een enigszins uitgebreid JSON-gegevenslaagobject met voorbeeldwaarden weergegeven:
+Het te gebruiken overkoepelende gegevenslaagobject is `digitalData`. In het volgende voorbeeld wordt een enigszins uitgebreid JSON-gegevenslaagobject met voorbeeldwaarden weergegeven:
 
 ```js
 digitalData = {
@@ -167,14 +166,14 @@ digitalData = {
 }
 ```
 
-Gebruik het rapport [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) voor meer informatie over elk object en subobject. Niet alle sites gebruiken alle objecten; als u bijvoorbeeld een nieuwssite host, is het onwaarschijnlijk dat u deze voor de `digitalData.product` objectenarray hebt gebruikt.
+Gebruik het [Rapport van de Ervaring van de Klant Digitale Gegevens](https://www.w3.org/2013/12/ceddl-201312.pdf) voor details op elk voorwerp en subvoorwerp. Niet alle sites gebruiken alle objecten; Als u bijvoorbeeld een nieuwssite host, is het onwaarschijnlijk dat u deze array gebruikt.`digitalData.product`
 
 Gegevenslagen zijn uitbreidbaar; als u specifieke vereisten voor uw organisatie hebt, kunt u voorwerpen in uw gegevenslaag omvatten om die behoeften aan te passen.
 
 ## Waarden voor gegevenslagen instellen
 
-Gegevenslagen genereren doorgaans aan de serverzijde, waarbij wordt verwezen naar dezelfde objecten die worden gebruikt om de site-inhoud samen te stellen. Bepaal de de gegevenslaag van de plaats die op het volgen vereisten wordt gebaseerd die in het document [van het de](solution-design.md)oplossingsontwerp van uw organisatie worden geplaatst.
+Gegevenslagen genereren doorgaans aan de serverzijde, waarbij wordt verwezen naar dezelfde objecten die worden gebruikt om de site-inhoud samen te stellen. Stel de gegevenslaag van de site in op basis van de traceervereisten die zijn ingesteld in het document [oplossingsontwerp](solution-design.md) van uw organisatie.
 
 ## Volgende stappen
 
-[Gegevenslaagobjecten toewijzen aan gegevenselementen](../launch/layer-to-elements.md): Gebruik de gegevenslaag van uw site in Adobe Experience Platform Launch.
+[Gegevenslaagobjecten toewijzen aan gegevenselementen](../launch/layer-to-elements.md): Gebruik de gegevenslaag van uw site in Adobe Experience Platform.
