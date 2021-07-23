@@ -2,9 +2,9 @@
 title: Algemene rapportsuites in Adobe Analytics
 description: Begrijp de voordelen en de vereisten aan het gebruiken van een globale rapportreeks.
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Gebruik de volgende algemene richtlijnen om inzicht te krijgen in het proces van
    >
    >Zorg ervoor dat om het even welke bepaalde douanevariabele gelijkaardig over domeinen wordt gebruikt. Gebruik dezelfde eVar of gebeurtenis niet voor verschillende doeleinden op uw sites.
 1. Zorg ervoor dat elk domein een gegevenslaag heeft om gegevensinzameling te vereenvoudigen. Gegevens kunnen nog steeds zonder een gegevenslaag worden verzameld, maar de betrouwbaarheid en de levensduur van uw implementatie nemen af, vooral wanneer uw site opnieuw ontwerpen doorloopt.
-1. Gebruik Adobe Experience Platform Launch om Analytics te implementeren. De verschillende plaatsen zullen waarschijnlijk verschillende gegevenselementen vereisen. De regels van het gebruik specifiek voor elk domein om ervoor te zorgen elk gegevenselement correct bevolkt is, dan wijs die gegevenselementen aan hun respectieve eVars en gebeurtenissen toe. Zie [Overzicht starten](https://experienceleague.adobe.com/docs/launch/using/overview.html) in de Adobe Experience Platform Launch-gebruikershandleiding.
+1. Gebruik labels in Adobe Experience Platform om Analytics te implementeren. De verschillende plaatsen zullen waarschijnlijk verschillende gegevenselementen vereisen. De regels van het gebruik specifiek voor elk domein om ervoor te zorgen elk gegevenselement correct bevolkt is, dan wijs die gegevenselementen aan hun respectieve eVars en gebeurtenissen toe. Raadpleeg het [overzicht van tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 1. Neem de [Adobe Experience Cloud-id-service](https://experienceleague.adobe.com/docs/id-service/using/home.html) op en gebruik de functie [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html). Deze functie voegt bezoekersgegevens samen wanneer de gebruikers van één domein aan een ander klikken.
 
 ## Een bestaande implementatie aanpassen met een algemene rapportsuite
@@ -50,8 +50,8 @@ Het proces om een bestaande implementatie over veelvoudige plaatsen naar één e
 
 1. Bepaal als u één van uw bestaande rapportreeksen wilt gebruiken, of begin vers met een nieuwe rapportreeks. Als u het gebruik voor bestaande variabelen in uw implementatie wilt veranderen, wordt het beginnen met een nieuwe rapportreeks geadviseerd.
 2. Bepaal een cutooverdatum waarop u wilt overschakelen naar een algemene rapportsuite. De beste tijd om een cutover te maken is tussen twee significante rapporteringsperioden, of naast belangrijke veranderingen in uw plaats. Voorbeelden zijn het begin van een fiscaal kwartaal of jaar, tijdens het vernieuwen van een site of het wijzigen van een nieuw tagbeheersysteem.
-3. Voer de bovenstaande stappen uit (maak een rapportsuite, verzamel rapportagevereisten in een document voor het ontwerp van de oplossing en stel een gegevenslaag op elke site in). Bij het implementeren van Starten valideert u uw implementatie met een ontwikkelingsversie van uw website.
-4. Zodra u hebt bevestigd dat uw implementatie aan dev werkt, duw uw implementatie van de Lancering live op de cutooverdatum.
+3. Voer de bovenstaande stappen uit (maak een rapportsuite, verzamel rapportagevereisten in een document voor het ontwerp van de oplossing en stel een gegevenslaag op elke site in). Wanneer u tags implementeert in Adobe Experience Platform, valideert u uw implementatie met een ontwikkelingsversie van uw website.
+4. Zodra u hebt bevestigd dat uw implementatie aan dev werkt, druk uw implementatie van markeringen live op de cutooverdatum.
 
 ## Gerelateerde pagina&#39;s
 
