@@ -2,14 +2,14 @@
 title: Een eigenschap Analytics maken in tags
 description: Maak een spatie om aan te passen hoe gegevens worden verzameld met tags.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
 
-# Een eigenschap voor de tag Analytics maken
+# Een Adobe Analytics-tageigenschap maken
 
 Met tags in Adobe Experience Platform kunt u Experience Cloud-oplossingen integreren in uw website (inclusief Analytics). Deze pagina schetst specifiek hoe een markeringsbeheerder een basisimplementatie van Adobe Analytics kan krijgen correct wordt gevormd.
 
