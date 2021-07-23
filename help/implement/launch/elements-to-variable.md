@@ -2,10 +2,10 @@
 title: Taggegevenselementen toewijzen aan analytische variabelen
 description: Wijs gegevenselementen toe aan variabelen van de Analyse zodat u hen als afmetingen in Analysis Workspace kunt gebruiken.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 1%
+source-wordcount: '475'
+ht-degree: 0%
 
 ---
 
@@ -30,16 +30,20 @@ Als u een tagbibliotheek publiceert nadat u deze stappen hebt uitgevoerd, kunt u
 
 Algemene variabelen zijn ideaal als u variabelewaarden wilt instellen op alle pagina&#39;s waar het gegevenselement aanwezig is.
 
-1. Ga naar [Adobe Experience Platform Launch](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
+1. Ga naar `experience.adobe.com` en meld u aan wanneer u hierom wordt gevraagd.
+1. Selecteer [!UICONTROL Launch / Data Collection].
+1. Klik [!UICONTROL Go to Launch / Data Collection], dan selecteer [!UICONTROL Tags].
 1. Klik op de gewenste tageigenschap.
 1. Klik op [!UICONTROL Extensions tab] en klik vervolgens onder de extensie Adobe Analytics op [!UICONTROL Configure].
 1. Klik op de accordion [!UICONTROL Global variables], die de interface onthult om globale variabelen toe te wijzen.
 
 ### Variabelen in regels instellen
 
-Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op elke pagina wilt instellen. U definieert de criteria in de regel. Zie [Regels](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html) in de Adobe Experience Platform Launch-gebruikershandleiding.
+Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op elke pagina wilt instellen. U definieert de criteria in de regel. Zie [Rules](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) in de documentatie van de Gegevensverzameling van Adobe Experience Platform.
 
-1. Ga naar [Adobe Experience Platform Launch](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
+1. Ga naar `experience.adobe.com` en meld u aan wanneer u hierom wordt gevraagd.
+1. Selecteer [!UICONTROL Launch / Data Collection].
+1. Klik [!UICONTROL Go to Launch / Data Collection], dan selecteer [!UICONTROL Tags].
 1. Klik op de gewenste tageigenschap.
 1. Klik op het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak er een).
 1. Klik op de knop [!UICONTROL Add] onder [!UICONTROL Actions].
