@@ -1,14 +1,13 @@
 ---
 title: Besturingssysteem
 description: Het besturingssysteem van de bezoeker.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Besturingssysteem
 
@@ -16,8 +15,8 @@ De dimensie &#39;Besturingssysteem&#39; geeft het besturingssysteem en de versie
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar een interne opzoektabel van Adobe. De opzoekwaarde is gebaseerd op de `User-Agent` HTTP-header in afbeeldingsaanvragen. Als u een bibliotheek AppMeasurement gebruikt (zoals door Adobe Experience Platform Launch), werkt deze afmeting uit de doos.
+Deze dimensie verwijst naar een raadplegingstabel intern aan Adobe. De opzoekwaarde is gebaseerd op de HTTP-header `User-Agent` in afbeeldingsaanvragen. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items omvatten besturingssystemen die bezoekers gebruiken. Voorbeelden zijn `"Windows 10"`, `"OS X 10.15"`en `"Android 9"`.
+Dimension-items bevatten besturingssystemen die bezoekers gebruiken. Voorbeelden zijn `"Windows 10"`, `"OS X 10.15"` en `"Android 9"`.
