@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: 'Pas aan welke gegevens worden verzameld om meer uit Adobe Analytics te halen. '
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 80%
+source-wordcount: '382'
+ht-degree: 77%
 
 ---
 
@@ -151,7 +151,7 @@ ht-degree: 80%
    + [Problemen met AppMeasurement oplossen](js/troubleshooting.md)
 + Analyses implementeren met tags in Adobe Experience Platform {#launch}
    + [Overzicht van codes](launch/overview.md)
-   + [Een eigenschap voor de tag Analytics maken](launch/create-analytics-property.md)
+   + [Een Adobe Analytics-tageigenschap maken](launch/create-analytics-property.md)
    + [Distribueren naar een ontwikkelomgeving](launch/deploy-dev.md)
    + [Valideren en publiceren naar productie](launch/validate-publish-prod.md)
    + [Datalaagobjecten toewijzen aan data-elementen](launch/layer-to-elements.md)
