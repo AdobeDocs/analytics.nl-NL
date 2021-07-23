@@ -1,14 +1,13 @@
 ---
 title: Taal
 description: De voorkeurstaal in de browser.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 1%
 
 ---
-
 
 # Taal
 
@@ -20,8 +19,8 @@ De dimensie &#39;Taal&#39; toont de bovenste talen waarin bezoekers inhoud lieve
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar een interne opzoektabel van Adobe. De opzoekwaarde is gebaseerd op de `Accept-Language` HTTP-header in afbeeldingsaanvragen. Als u een bibliotheek AppMeasurement gebruikt (zoals door Adobe Experience Platform Launch), werkt deze afmeting uit de doos.
+Deze dimensie verwijst naar een raadplegingstabel intern aan Adobe. De opzoekwaarde is gebaseerd op de HTTP-header `Accept-Language` in afbeeldingsaanvragen. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items bevatten vriendelijke namen van de voorkeurstalen van bezoekers. Voorbeelden zijn `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`en `"Spanish (Spain)"`. Als een afbeeldingsaanvraag geen geldige taal in de HTTP-header bevat, is het dimensiepunt `"None"`.
+Dimension-items bevatten vriendelijke namen van de voorkeurstalen van bezoekers. Voorbeelden zijn `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"` en `"Spanish (Spain)"`. Als een beeldverzoek geen geldige taal in de kopbal van HTTP bevat, is het afmetingspunt `"None"`.
