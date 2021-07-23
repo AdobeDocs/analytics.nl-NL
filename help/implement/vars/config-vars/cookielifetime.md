@@ -1,14 +1,13 @@
 ---
 title: cookieLifetime
 description: Overschrijf de vervaldatum voor cookies die door AppMeasurement worden gemaakt.
-translation-type: tm+mt
-source-git-commit: 7c0d363cc3d0f504d638479b02bf4435491b22fd
+exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 1%
+source-wordcount: '224'
+ht-degree: 0%
 
 ---
-
 
 # cookieLifetime
 
@@ -18,28 +17,30 @@ Cookies die door AppMeasurement worden ingesteld, hebben doorgaans een vervaldat
 >
 >Deze variabele is van invloed op unieke aantallen bezoekers en attributie. Wees voorzichtig wanneer u deze variabele instelt.
 
-## Cookie Lifetime in Adobe Experience Platform Launch
+## Cookie Lifetime in Adobe Experience Platform-tags
 
-Cookie Lifetime is een vervolgkeuzelijst onder de [!UICONTROL Cookies] accordeon bij het configureren van de Adobe Analytics-extensie.
+Cookie Lifetime is een vervolgkeuzelijst onder de accordeon [!UICONTROL Cookies] wanneer u de Adobe Analytics-extensie configureert.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
-3. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder Adobe Analytics.
-4. Vouw de [!UICONTROL Cookies] accordeon uit, zodat het [!UICONTROL Cookie Lifetime] vervolgkeuzemenu zichtbaar wordt.
+1. Ga naar `experience.adobe.com` en meld u aan wanneer u hierom wordt gevraagd.
+1. Selecteer [!UICONTROL Launch / Data Collection].
+1. Klik [!UICONTROL Go to Launch / Data Collection], dan selecteer [!UICONTROL Tags].
+1. Klik op de gewenste eigenschap.
+1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
+1. Breid [!UICONTROL Cookies] accordeon uit, die [!UICONTROL Cookie Lifetime] dropdown openbaart.
 
 Deze vervolgkeuzelijst bevat de volgende waarden:
 
 * **Standaard**: Cookie verloopt na twee jaar.
 * **Geen**: AppMeasurement stelt geen cookies in.
 * **Sessie**: De cookie verloopt aan het einde van de sessie van de bezoeker.
-* **Seconden**: Het cookie verloopt nadat het opgegeven aantal seconden is verstreken. Als u deze vervolgkeuzelijst bijvoorbeeld instelt op [!UICONTROL Seconds] en plaatst `86400` in het aangepaste veld, verlopen cookies na precies 24 uur.
+* **Seconden**: Het cookie verloopt nadat het opgegeven aantal seconden is verstreken. Als u deze vervolgkeuzelijst bijvoorbeeld instelt op [!UICONTROL Seconds] en `86400` in het aangepaste veld plaatst, worden cookies na precies 24 uur gedwongen te verlopen.
 
-## s.cookieLifetime in aangepaste code-editor voor AppMeasurement en Launch
+## s.cookieLifetime in de redacteur van de de douanecode van AppMeturement en van de Inzameling van Gegevens
 
-De `s.cookieLifetime` variabele is een tekenreeks die de vervaldatum bepaalt van cookies die door AppMeasurement zijn ingesteld.
+De variabele `s.cookieLifetime` is een tekenreeks die de vervaldatum bepaalt van cookies die door AppMeasurement zijn ingesteld.
 
-* Indien ingesteld op `SESSION`, verlopen cookies die door AppMeasurement zijn ingesteld, nadat de browsersessie is voltooid.
-* Indien ingesteld op `NONE`, probeert AppMeasurement geen cookies in te stellen.
+* Indien ingesteld op `SESSION`, verlopen cookies die zijn ingesteld door AppMeasurement nadat de browsersessie is voltooid.
+* Indien ingesteld op `NONE`, probeert AppMeasurement niet om cookies in te stellen.
 * Indien ingesteld op een tekenreeks met een geheel getal, verlopen cookies die door AppMeasurement zijn ingesteld, nadat het opgegeven aantal seconden is verstreken.
 
 ```js
