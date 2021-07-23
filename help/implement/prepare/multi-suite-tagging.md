@@ -2,7 +2,7 @@
 description: Leer hoe u tagging met meerdere suite implementeert om een verzoek om een image naar meerdere rapportsuite te verzenden.
 title: Tags implementeren met meerdere suite
 exl-id: null
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Om multi-suite het etiketteren uit te voeren, moet u identiteitskaart van de Reeks van het Rapport (RSID) voor de globale rapportreeks en ook RSIDs voor de toepasselijke reeksen van het kindrapport in de volgende code voor uw webpagina&#39;s en apps omvatten.
 
-* Voor Adobe Experience Platform Launch-implementaties geeft u elk van de rapportsuites voor de [[!DNL Analytics] extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) op.
+* Voor Adobe Experience Platform-tagimplementaties geeft u elk van de rapportsuites op voor de [[!DNL Analytics] extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html).
 
 * Voor verouderde implementaties van JavaScript en mobiele SDK, scheidt RSIDs met komma&#39;s en geen ruimten (`rsid1,rsid2,rsid3` etc.).
 
