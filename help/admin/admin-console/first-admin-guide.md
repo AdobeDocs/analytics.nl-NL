@@ -2,9 +2,9 @@
 title: Eerste Adobe Analytics-beheerdershandleiding
 description: Begrijp hoe te beginnen met Adobe Analytics, algemene roltypes, en het programma openen aan UI.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
@@ -40,23 +40,23 @@ Systeembeheerders hebben geen directe toegang tot producten, maar ze kunnen zich
 1. Voer het e-mailadres in waar u volledige toegang tot Analytics wilt geven en wijs hieraan het nieuwe volledige toegangsprofiel voor beheerders toe. Klik op Opslaan.
 1. De gebruiker heeft nu volledige toegang tot Adobe Analytics.
 
-## Het verlenen van de toegang van productadmin voor de Inzameling van Gegevens in Experience Platform (vroeger genoemd Lancering)
+## Het verlenen van product admin toegang voor de Inzameling van Gegevens in Experience Platform
 
-Toegang tot productbeheer voor tags in Experience Platform is vrijwel gelijk aan het verlenen van toegang tot productbeheer voor Analytics.
+Toegang tot productbeheer voor gegevensverzameling in Experience Platform is vrijwel gelijk aan het verlenen van toegang tot productbeheer voor Analytics.
 
 1. Meld u aan bij de Admin Console met uw Adobe ID-referenties.
-1. Klik bovenaan op het tabblad Producten. Alle producten die door uw organisatie worden aangeschaft, staan links. Klik Experience Platform Launch door Adobe, dan klik de Nieuwe knoop van het Profiel.
-1. Geef dit profiel de naam &#39;volledige beheerderstoegang Experience Platform Launch&#39; en klik op Gereed.
-1. Klik op de pagina Productprofielen op het nieuwe profiel en klik vervolgens op het tabblad Machtigingen.
-1. Klik op een van de machtigingsregelitems. Als Auto-include beschikbaar is, laat het toe. Als automatisch opnemen niet beschikbaar is, klikt u op Alles toevoegen. Met beide opties worden alle machtigingsitems naar de rechterkolom verplaatst.
-1. Klik op Opslaan. Herhaal bovenstaande stap voor alle machtigingscategorieën.
-1. Zodra alle toestemmingscategorieën aan het profiel worden verleend, ga terug naar de pagina van het Overzicht door Overzicht bij de bovenkant te klikken.
-1. Klik onder het Experience Platform Launch bij Adobe op Gebruikers toewijzen.
-1. Voer het e-mailadres in waar u volledige toegang tot Analytics wilt geven en wijs hieraan het nieuwe volledige toegangsprofiel voor beheerders toe. Klik op Opslaan.
-1. De gebruiker heeft nu volledige toegang tot het Experience Platform Launch.
+1. Klik op het tabblad **[!UICONTROL Products]** bovenaan. Alle producten die door uw organisatie worden aangeschaft, staan links. Klik **[!UICONTROL Experience Platform Launch by Adobe]**, dan klik **[!UICONTROL New Profile]**.
+1. Geef dit profiel de naam &#39;volledige beheerderstoegang Experience Platform Launch&#39; en klik vervolgens op **[!UICONTROL Done]**.
+1. Klik op de pagina **[!UICONTROL Product Profiles]** op het nieuwe profiel en klik vervolgens op het tabblad **[!UICONTROL Permissions]**.
+1. Klik op een van de machtigingsregelitems. Als **[!UICONTROL Auto-include]** beschikbaar is, laat het toe. Als auto-omvat niet beschikbaar is, klik **[!UICONTROL Add all]**. Met beide opties worden alle machtigingsitems naar de rechterkolom verplaatst.
+1. Klik op **[!UICONTROL Save]**. Herhaal bovenstaande stap voor alle machtigingscategorieën.
+1. Zodra alle toestemmingscategorieën aan het profiel worden verleend, ga terug naar de pagina van het Overzicht door **[!UICONTROL Overview]** bij de bovenkant te klikken.
+1. Klik onder de tegel [!UICONTROL Experience Platform Launch by Adobe] op **[!UICONTROL Assign Users]**.
+1. Voer het e-mailadres in waar u volledige toegang tot Analytics wilt geven en wijs hieraan het nieuwe volledige toegangsprofiel voor beheerders toe. Klik op **[!UICONTROL Save]**.
+1. De gebruiker heeft nu volledige toegang tot de Inzameling van de Gegevens van het Experience Platform.
 
 ## Volgende stappen
 
 [Een rapportsuite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) maken: Laat uw Analytics-beheerder zich aanmelden bij het hulpprogramma en maak een rapportsuite voor gegevensverzameling
 
-[Een eigenschap maken in Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Laat uw Experience Platform Launch-beheerder zich aanmelden bij het hulpprogramma en maak een eigenschap die u op uw site wilt implementeren
+[Een eigenschap](/help/implement/launch/create-analytics-property.md) voor de tag Analytics maken: Laat uw beheerder van gegevensverzameling zich aanmelden bij het gereedschap en maak een eigenschap die u op uw site wilt implementeren
