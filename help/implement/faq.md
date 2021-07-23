@@ -2,10 +2,10 @@
 title: Veelgestelde vragen over implementatie
 description: Veelgestelde vragen over implementatie en koppelingen naar meer informatie.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 47%
+source-wordcount: '501'
+ht-degree: 42%
 
 ---
 
@@ -23,7 +23,7 @@ Zie [Audio en video meten in Adobe Analytics](https://experienceleague.adobe.com
 
 ## Kan een onderbreking van de service bij Adobe de prestaties beïnvloeden?
 
-Nee. Het JavaScript-bestand wordt niet op Adobe-servers gehost, dus een Adobe-storing heeft geen invloed op uw AppMeasurement-bibliotheek. Als u Adobe Experience Platform Launch gebruikt, wordt het JavaScript-bestand gehost door Akamai of op een door uw organisatie bepaalde serverlocatie.
+Nee. Het JavaScript-bestand wordt niet op Adobe-servers gehost, dus een Adobe-storing heeft geen invloed op uw AppMeasurement-bibliotheek. Als u tags gebruikt in Adobe Experience Platform, wordt het JavaScript-bestand gehost door Akamai of op een door uw organisatie bepaalde serverlocatie.
 
 ## Kan het verzenden van data van de browser naar Adobe-services de prestaties verminderen?
 
@@ -33,7 +33,7 @@ AppMeasurement maakt een afbeeldingsobject binnen de HTML-pagina en de browser v
 
 Soms zou een organisatie een implementatie wegens contractvervaldatum willen verwijderen of het aantal servervraag verminderen.
 
-* **Implementaties bij starten**: U kunt de Adobe Analytics-extensie op het  [!UICONTROL Extensions] tabblad uit- of verwijderen en vervolgens publiceren.
+* **Implementaties met tags in Adobe Experience Platform**: U kunt de Adobe Analytics-extensie op het  [!UICONTROL Extensions] tabblad uit- of verwijderen en vervolgens publiceren.
 * **Legacy AppMeasurement-implementaties**: Vervang de gehele inhoud van het  `s_code.js` bestand door de volgende coderegel:
 
 ```js
