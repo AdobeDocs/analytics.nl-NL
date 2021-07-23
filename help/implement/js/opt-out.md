@@ -2,10 +2,10 @@
 title: Koppelingen uitschakelen
 description: Leer hoe u de optie om te weigeren koppelingen maakt voor bezoekers van uw site.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 1%
+source-wordcount: '583'
+ht-degree: 0%
 
 ---
 
@@ -27,19 +27,22 @@ Wanneer een bezoeker een opt-out-URL bereikt, wordt hem gevraagd een uitschakelc
 
 De pagina om te weigeren voor uw organisatie is afhankelijk van de variabele [`trackingServer`](../vars/config-vars/trackingserver.md) waarde in uw implementatie.
 
-* In Adobe Experience Platform Launch:
-   1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) en klik op de gewenste eigenschap.
-   2. Klik op de tab [!UICONTROL Extensions] en klik vervolgens onder Adobe Analytics op [!UICONTROL Configure].
-   3. Klik op de accordeon [!UICONTROL General] en noteer de waarde [!UICONTROL Tracking Server].
+* In de gebruikersinterface van de Adobe Experience Platform-gegevensverzameling:
+   1. Ga naar `experience.adobe.com` en meld u aan wanneer u hierom wordt gevraagd.
+   1. Selecteer [!UICONTROL Launch / Data Collection].
+   1. Klik [!UICONTROL Go to Launch / Data Collection], dan selecteer [!UICONTROL Tags].
+   1. Klik op de gewenste eigenschap.
+   1. Klik op de tab [!UICONTROL Extensions] en klik vervolgens onder Adobe Analytics op [!UICONTROL Configure].
+   1. Klik op de accordeon [!UICONTROL General] en noteer de waarde [!UICONTROL Tracking Server].
 
 * In een JavaScript-implementatie:
    1. Open op uw webserver het bestand AppMeasurement.js dat op uw site wordt gebruikt, in een code- of teksteditor.
-   2. Noteer de waarde van de variabele `trackingServer`.
+   1. Noteer de waarde van de variabele `trackingServer`.
 
 * Met de [Adobe Experience Cloud-foutopsporing](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html):
    1. Navigeer naar uw site met de Chrome-browser.
-   2. Open de Experience Cloud Debugger en ga naar [!UICONTROL Network tab].
-   3. Noteer de waarde [!UICONTROL Request URL - Hostname].
+   1. Open de Experience Cloud Debugger en ga naar [!UICONTROL Network tab].
+   1. Noteer de waarde [!UICONTROL Request URL - Hostname].
 
 Zodra u het `trackingServer` domein van uw implementatie hebt gevonden, voeg de weg `/optout.html` aan het eind toe. Bijvoorbeeld:
 
