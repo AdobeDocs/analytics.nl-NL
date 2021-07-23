@@ -1,35 +1,36 @@
 ---
 title: charSet
 description: De charSet-variabele bepaalt welke codering Adobe gebruikt om uw afbeeldingsverzoek te parseren.
-translation-type: tm+mt
-source-git-commit: 70410af433f540764b71bd29a81ff9d8210cb95c
+exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 2%
+source-wordcount: '189'
+ht-degree: 1%
 
 ---
 
-
 # charSet
 
-De charSet-variabele wordt door Adobe gebruikt om binnenkomende gegevens om te zetten in UTF-8 voor opslag en rapportage door Analytics. De meeste sites hoeven deze variabele niet in te stellen.
+De charSet-variabele wordt door Adobe gebruikt om inkomende gegevens om te zetten in UTF-8 voor opslag en rapportage door Analytics. De meeste sites hoeven deze variabele niet in te stellen.
 
-Stel deze variabele alleen in als u onjuiste waarden ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) in rapporten ziet. U kunt deze variabele per pagina instellen als uw site verschillende coderingen op verschillende pagina&#39;s gebruikt.
+Stel deze variabele alleen in als u onjuiste waarden ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) ziet in rapporten. U kunt deze variabele per pagina instellen als uw site verschillende coderingen op verschillende pagina&#39;s gebruikt.
 
-## Tekenset in Adobe Experience Platform starten
+## Tekenset in Adobe Experience Platform
 
-Tekenset is een veld onder de [!UICONTROL General] accordeon tijdens het configureren van de Adobe Analytics-extensie.
+Tekenset is een veld onder de accordeon [!UICONTROL General] wanneer u de Adobe Analytics-extensie configureert.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
-3. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder Adobe Analytics.
-4. Breid de accordeon uit, die het [!UICONTROL General] [!UICONTROL Character Set] veld onthult.
+1. Ga naar `experience.adobe.com` en meld u aan wanneer u hierom wordt gevraagd.
+1. Selecteer [!UICONTROL Launch / Data Collection].
+1. Klik [!UICONTROL Go to Launch / Data Collection], dan selecteer [!UICONTROL Tags].
+1. Klik op de gewenste eigenschap.
+1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL General] uit, zodat het veld [!UICONTROL Character Set] zichtbaar wordt.
 
-U kunt een vooraf ingestelde tekenset of een aangepaste tekenset gebruiken. Wijzig de waarde niet van `UTF-8` tenzij u onjuiste waarden in rapporten ziet.
+U kunt een vooraf ingestelde tekenset of een aangepaste tekenset gebruiken. Wijzig de waarde niet vanaf `UTF-8`, tenzij er onjuiste waarden in rapporten staan.
 
-## s.charSet in AppMeasurement en Launch, aangepaste code-editor
+## s.charSet in AppMeasurement en aangepaste code-editor
 
-De `charSet` variabele is een tekenreeks. Als u in Adobe Analytics onjuiste waarden hebt, stelt u deze variabele in op dezelfde waarde als de `<meta charset="">` HTML-tag op uw site.
+De variabele `charSet` is een tekenreeks. Als u in Adobe Analytics onjuiste waarden hebt, stelt u deze variabele in op dezelfde waarde als de HTML-tag `<meta charset="">` op uw site.
 
 ```js
 s.charSet = "UTF-8";
