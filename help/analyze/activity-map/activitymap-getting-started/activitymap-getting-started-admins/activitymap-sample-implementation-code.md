@@ -4,13 +4,13 @@ title: Activity Map implementeren
 feature: Activity Map
 role: User, Admin
 exl-id: d7ca35df-8fbe-4e87-b1e9-e1a77d5f420f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Activity Map implementeren
 
-Activity Map kan met een controledoos in de Uitbreiding van Adobe Experience Platform Launch voor Adobe Analytics, onder [het Volgen van de Verbinding](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en#link-tracking) worden uitgevoerd.
+Activity Map kan worden geïmplementeerd met een selectievakje in de Adobe Analytics-tagextensie voor, onder [Koppeling bijhouden](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en).
