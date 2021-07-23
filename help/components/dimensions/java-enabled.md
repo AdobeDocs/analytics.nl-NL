@@ -1,14 +1,13 @@
 ---
 title: Java ingeschakeld
 description: Hiermee wordt bepaald of Java is ingeschakeld in de browser.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Java ingeschakeld
 
@@ -16,12 +15,12 @@ De dimensie &#39;Java ingeschakeld&#39; bepaalt of Java is ingeschakeld voor de 
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie wint gegevens van het [`v` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens door te detecteren of Java is ingeschakeld in de browser. Als u een bibliotheek AppMeasurement gebruikt (zoals door Adobe Experience Platform Launch), werkt deze afmeting uit de doos. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u de parameter van het `v` vraagkoord omvat die &quot;Y&quot;of &quot;N&quot;bevat als u deze afmeting zou willen gebruiken.
+Deze dimensie wint gegevens van [`v` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens door te detecteren of Java is ingeschakeld in de browser. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u `v` parameter van het vraagkoord omvat die &quot;Y&quot;of &quot;N&quot;bevat als u deze afmeting zou willen gebruiken.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items zijn &quot;Ingeschakeld&quot;, &quot;Uitgeschakeld&quot; en &quot;Onbekend&quot;.
+Dimension-items zijn &quot;Ingeschakeld&quot;, &quot;Uitgeschakeld&quot; en &quot;Onbekend&quot;.
 
-* **Ingeschakeld**: Java is ingeschakeld in de browser. De `v` queryreeks bevatte de waarde &quot;Y&quot;.
-* **Uitgeschakeld**: Java is uitgeschakeld in de browser of ondersteunt Java anders niet. De `v` queryreeks bevatte de waarde &quot;N&quot;.
-* **Onbekend**: AppMeasurement kon de steun van Java niet bepalen. De `v` queryreeks is niet aanwezig in de afbeeldingsaanvraag.
+* **Ingeschakeld**: Java is ingeschakeld in de browser. De query-tekenreeks `v` bevatte de waarde &quot;Y&quot;.
+* **Uitgeschakeld**: Java is uitgeschakeld in de browser of ondersteunt Java anders niet. De query-tekenreeks `v` bevatte de waarde &quot;N&quot;.
+* **Onbekend**: AppMeasurement kon de steun van Java niet bepalen. De query-tekenreeks `v` is niet aanwezig in de afbeeldingsaanvraag.
