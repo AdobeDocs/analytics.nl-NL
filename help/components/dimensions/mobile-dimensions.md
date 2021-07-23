@@ -1,14 +1,13 @@
 ---
 title: Mobiele afmetingen
 description: Dimension die op het IP adres van het apparaat worden gebaseerd.
-translation-type: tm+mt
-source-git-commit: 76605232c180fb6a3d4c181614f43b75e1d06cd5
+exl-id: fa460888-513d-4d14-93b1-33d308e0758a
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Mobiele afmetingen
 
@@ -19,7 +18,7 @@ De mobiele afmetingen bieden inzicht in de eigenschappen van mobiele apparaten d
 ## Deze afmetingen vullen met gegevens
 
 Deze dimensies verwijzen naar opzoekregels die intern zijn aan Adobe. [!UICONTROL Mobile Carrier] raadplegingen worden bepaald door IP adres, gebruikend gegevens wij van NetAcuity (een Digitaal product van Elementen) krijgen.
-Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via Adobe Experience Platform Launch), werken alle mobiele afmetingen buiten het vak.
+Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werken alle mobiele afmetingen buiten het vak.
 
 ## Beschrijvingen van mobiele afmetingen
 
