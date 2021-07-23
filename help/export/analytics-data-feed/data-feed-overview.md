@@ -4,9 +4,9 @@ keywords: clickStream;data feed;datafeed;Data Feed
 title: Overzicht van gegevensinvoer voor analyse
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '557'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ Gegevensfeeds zijn een krachtige manier om onbewerkte gegevens uit Adobe Analyti
 Zorg ervoor dat u aan alle volgende vereisten voldoet voordat u gegevensfeeds gebruikt.
 
 * Houd een FTP-site en aanmeldingsgegevens bij de hand. Gegevensfeeds kunnen alleen naar een serverdoel worden verzonden. Uw organisatie biedt doorgaans FTP-referenties. Adobe kan een FTP-locatie op uw verzoek een bescheiden hoeveelheid opslagruimte bieden. Neem contact op met de klantenservice om een FTP-bestemming aan te vragen voor gegevensfeeds.
-* Een werkende implementatie die gegevens naar de servers van de Adobe- gegevensinzameling verzendt. Zie [Een implementatie valideren en publiceren in Launch](/help/implement/launch/validate-publish-prod.md) in de gebruikershandleiding Implementeren.
+* Een werkende implementatie die gegevens naar de servers van de Adobe- gegevensinzameling verzendt. Zie [Een implementatie valideren en publiceren](/help/implement/launch/validate-publish-prod.md) in de gebruikershandleiding Implementeren.
 * Uw account is een productbeheerder voor Analytics of uw account behoort tot een productprofiel met toegang tot gegevensfeeds.
 
 ## Aan de slag
