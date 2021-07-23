@@ -1,14 +1,13 @@
 ---
 title: Wat is de currencyCode-variabele en hoe gebruik ik deze?
 description: Voor eCommerce-sites stelt de valuta in waarin de pagina handelt.
-translation-type: tm+mt
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
-
 
 # currencyCode
 
@@ -26,14 +25,16 @@ Als `currencyCode` is gedefinieerd en anders is dan de valuta van de rapportsuit
 
 Deze variabele blijft niet bestaan tussen treffers. Zorg ervoor dat deze variabele op elke pagina wordt bepaald die opbrengst of muntgebeurtenissen impliceert.
 
-## Valutacode in Adobe Experience Platform Launch
+## Valutacode in Adobe Experience Platform-tags
 
 Valutacode is een veld onder de accordion [!UICONTROL General] bij het configureren van de Adobe Analytics-extensie.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
-2. Klik op de gewenste eigenschap.
-3. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
-4. Vouw de accordeon [!UICONTROL General] uit, zodat het veld [!UICONTROL Currency Code] zichtbaar wordt.
+1. Ga naar `experience.adobe.com` en meld u aan wanneer u hierom wordt gevraagd.
+1. Selecteer [!UICONTROL Launch / Data Collection].
+1. Klik [!UICONTROL Go to Launch / Data Collection], dan selecteer [!UICONTROL Tags].
+1. Klik op de gewenste eigenschap.
+1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
+1. Vouw de accordeon [!UICONTROL General] uit, zodat het veld [!UICONTROL Currency Code] zichtbaar wordt.
 
 U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. Als u een aangepaste valutacode gebruikt, moet u controleren of de code geldig is.
 
@@ -42,12 +43,12 @@ U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. 
 Valutacode wordt doorgegeven aan de Adobe Experience Platform Mobile SDK&#39;s via contextgegevensvariabelen in de Adobe Analytics-extensie.
 
 1. Stel de valutacode in een contextgegevensvariabele in tijdens `trackState` of `trackAction`.
-2. Maak een verwerkingsregel in de Adobe Analytics-beheerconsole voor de rapportsuite. Stel de regel in om de variabele Valutacode te overschrijven.
-3. Geef de valutacode aan de `products` variabele in uw vraag aan `trackState` of `trackAction` door.
+1. Maak een verwerkingsregel in de Adobe Analytics-beheerconsole voor de rapportsuite. Stel de regel in om de variabele Valutacode te overschrijven.
+1. Geef de valutacode aan de `products` variabele in uw vraag aan `trackState` of `trackAction` door.
 
 U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. Als u een aangepaste valutacode gebruikt, moet u controleren of de code geldig is.
 
-## s.currencyCode in AppMeasurement en Launch, aangepaste code-editor
+## s.currencyCode in de redacteur van de de douanecode van AppMeasurement en van de Inzameling van Gegevens
 
 De variabele `s.currencyCode` is een tekenreeks die een code van drie letters bevat die de valuta op de pagina vertegenwoordigt.
 
