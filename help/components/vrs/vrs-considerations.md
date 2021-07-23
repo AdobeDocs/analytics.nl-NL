@@ -5,9 +5,9 @@ title: Virtuele rapportreeksen en tagging met meerdere suite-overwegingen
 feature: Instellingen van rapportsuite
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 1cd14244b81fbf8d1e4c6f0642f181fd4b60705d
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Als u ervoor kiest om secundaire servervraag ten gunste van virtuele rapportsuit
    * Als beste praktijken, overweeg het gebruiken van [segment het stapelen](/help/components/segmentation/segmentation-workflow/seg-build.md) zodat kunt u een segment in één plaats uitgeven en het hebben op alle afhankelijke virtuele rapportreeksen van toepassing zijn.
    * Gebruik raakcontainers als u virtuele rapportsuites wederzijds wilt uitsluiten.
 2. Nadat u hebt bevestigd dat de virtuele rapportreeksen correct opstelling zijn, verwijder de secundaire identiteitskaart van de rapportreeks van uw implementatie. Secundaire rapportsuites verwijderen:
-   * Klik in Adobe Experience Platform Launch op de X naast een rapportsuite die u niet meer wilt gebruiken.
+   * In de UI van de Inzameling van Gegevens in Adobe Experience Platform, klik &quot;x&quot;naast om het even welke rapportsuites die u niet meer wilt gebruiken.
    * Zoek in verouderde JavaScript-implementaties de variabele `s.account` en verwijder de id&#39;s van de rapportsuite die u niet meer wilt gebruiken.
    * Laat in alle gevallen alleen de id van de algemene rapportensuite/bovenliggende rapportsuite staan voor het verzamelen van gegevens voor uw sites en apps.
    * Navigeer naar Beheer > Rapportagesuites en verberg secundaire rapportsuites die niet meer worden gebruikt.
