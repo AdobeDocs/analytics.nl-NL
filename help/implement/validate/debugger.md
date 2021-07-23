@@ -1,10 +1,10 @@
 ---
 title: Legacy Adobe Experience Cloud Debugger
-description: Installeer de verouderde Adobe Experience Cloud-foutopsporing. Deze debugger inspecteert markeringen voor Analytics, Doel, Advertising Cloud, de Dienst van de Identiteit, en Lancering.
+description: Installeer de verouderde Adobe Experience Cloud-foutopsporing. Deze debugger inspecteert markeringen voor Analytics, Doel, Advertising Cloud, de Dienst van de Identiteit, en de markeringen van de Inzameling van Gegevens.
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
