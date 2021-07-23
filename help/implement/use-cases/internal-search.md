@@ -1,10 +1,9 @@
 ---
 title: Interne zoektermen vastleggen
 description: Gebruik een aangepaste variabele om interne zoektermen vast te leggen.
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,7 @@ Interne zoekrapportage is een integraal onderdeel van veel organisaties en is ge
 
 ## Een eVar maken voor intern zoeken
 
-Volg de beheerder van [conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) om een nieuwe eVar te maken voor intern zoeken. Geef de eVar een gemakkelijk herkenbare naam (zoals &quot;Interne onderzoekstermijn&quot;), en registreer de nieuwe eVar in het het ontwerpdocument [van de](../prepare/solution-design.md)Oplossing van uw organisatie.
+Volg [Conversievariabelen admin](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) om een nieuwe eVar te creëren gewijd aan intern onderzoek. Geef de eVar een gemakkelijk herkenbare naam (zoals &quot;Interne onderzoekstermijn&quot;), en registreer de nieuwe eVar in het [document van het het ontwerpontwerp van de Oplossing](../prepare/solution-design.md) van uw organisatie.
 
 ## Intern zoekwoord bepalen
 
@@ -32,21 +31,21 @@ Als de interne zoekopdracht van uw site geen URL gebruikt, zoekt u naar de zoekt
 
 ## Wijs de parameter van het vraagkoord aan een gegevenselement toe
 
-Follow [Map data layer objects to data elements](../launch/layer-to-elements.md). Selecteer bij het selecteren van de **[!UICONTROL Data Element Type]** optie **[!UICONTROL Query string parameter]** in plaats van **[!UICONTROL JavaScript Variable]**. Plaats de gewenste parameter van het vraagkoord (typisch `q`) in het tekstgebied.
+Volg [Gegevenslaagobjecten toewijzen aan gegevenselementen](../launch/layer-to-elements.md). Selecteer **[!UICONTROL Data Element Type]** in plaats van **[!UICONTROL JavaScript Variable]** bij het selecteren van **[!UICONTROL Query string parameter]**. Plaats de gewenste parameter van het vraagkoord (typisch `q`) in het tekstgebied.
 
 ## Het gegevenselement toewijzen aan de eVar
 
-Follow [Map Launch data elements to Analytics variables](../launch/elements-to-variable.md). Zorg ervoor dat u de zelfde eVar selecteert die u in de montages van de Reeks van het Rapport creeerde.
+Volg [Gegevenselementen toewijzen aan analytische variabelen](../launch/elements-to-variable.md). Zorg ervoor dat u de zelfde eVar selecteert die u in de montages van de Reeks van het Rapport creeerde.
 
-## Implementatieproces starten
+## Implementatie van tags starten
 
-Volg [Implementeer een analytische implementatie in een ontwikkelomgeving](../launch/deploy-dev.md). Nadat u hebt bevestigd dat het programma in uw ontwikkelomgeving werkt, kunt u een ontwikkelimplementatie [valideren en publiceren naar productie](../launch/validate-publish-prod.md).
+Volg [Implementeer een analytische implementatie in een ontwikkelomgeving](../launch/deploy-dev.md). Nadat u hebt bevestigd dat het programma in uw ontwikkelomgeving werkt, kunt u [een ontwikkelimplementatie valideren en publiceren naar productie](../launch/validate-publish-prod.md).
 
 ## Rapporteren in werkruimte
 
 Geef uw implementatie wat tijd om gegevens te verzamelen, dan kunt u beginnen de dimensie in Analysis Workspace te gebruiken.
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your AdobeID credentials.
-2. Als u niet automatisch bij Adobe Analytics wordt aangemeld, klikt u op het pictogram met het 9-raster rechtsboven en selecteert u **[!UICONTROL Analytics]**.
-3. Klik op het **[!UICONTROL Workspace]** tabblad en maak een nieuw project.
+1. Meld u aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) met uw Adobe-id-referenties.
+2. Als u niet automatisch het programma wordt geopend aan Adobe Analytics, klik het 9-rasterpictogram in het hoogste recht, en selecteer **[!UICONTROL Analytics]**.
+3. Klik op het tabblad **[!UICONTROL Workspace]** en maak een nieuw project.
 4. Zoek de naam van de eVar die u onder Dimension hebt gemaakt en sleep deze naar het canvas van de werkruimte.
