@@ -1,14 +1,13 @@
 ---
 title: tl
 description: Verzend een verbinding het volgen vraag aan Adobe.
-translation-type: tm+mt
-source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
+exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
-
 
 # tl
 
@@ -16,20 +15,20 @@ De methode `tl()` is een belangrijke kerncomponent voor Adobe Analytics. Het nee
 
 Als [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) of [`trackExternalLinks`](../config-vars/trackexternallinks.md) worden toegelaten, roept AppMeasurement automatisch de `tl()` methode om downloadverbinding te verzenden en verbindingsvolgende gegevens weg te gaan. Als uw organisatie er de voorkeur aan geeft meer controle te hebben over de koppelingen en hun gedrag, kunt u de methode `tl()` handmatig aanroepen. Aangepaste koppelingen kunnen alleen handmatig worden bijgehouden.
 
-## Aanroep voor het bijhouden van koppelingen in Adobe Experience Platform Launch
+## Aanroep voor bijhouden van koppelingen met tags in Adobe Experience Platform
 
-De lancering heeft een specifieke plaats plaatste een verbinding volgende vraag.
+De UI van de Inzameling van Gegevens heeft een specifieke plaats reeks een verbinding het volgen vraag.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 1. Klik onder [!UICONTROL Actions] op het pictogram &#39;+&#39;
 1. Stel het [!UICONTROL Extension]-vervolgkeuzemenu in op Adobe Analytics en [!UICONTROL Action Type] op Band verzenden.
 1. Klik op het keuzerondje `s.tl()`.
 
-U kunt geen optionele argumenten instellen in Launch.
+U kunt geen optionele argumenten instellen in de gebruikersinterface voor gegevensverzameling.
 
-## s.tl()-methode in de aangepaste code-editor van AppMeasurement en Launch
+## s.tl()-methode in AppMeturement en aangepaste code-editor
 
 Roep de methode `s.tl()` wanneer u een volgende vraag naar Adobe wilt verzenden.
 
