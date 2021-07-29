@@ -2,9 +2,9 @@
 title: Wat is de currencyCode-variabele en hoe gebruik ik deze?
 description: Voor eCommerce-sites stelt de valuta in waarin de pagina handelt.
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,11 @@ Als `currencyCode` is gedefinieerd en anders is dan de valuta van de rapportsuit
 
 Deze variabele blijft niet bestaan tussen treffers. Zorg ervoor dat deze variabele op elke pagina wordt bepaald die opbrengst of muntgebeurtenissen impliceert.
 
-## Valutacode in Adobe Experience Platform-tags
+## Valutacode met tags in Adobe Experience Platform
 
 Valutacode is een veld onder de accordion [!UICONTROL General] bij het configureren van de Adobe Analytics-extensie.
 
-1. Ga naar `experience.adobe.com` en meld u aan wanneer u hierom wordt gevraagd.
-1. Selecteer [!UICONTROL Launch / Data Collection].
-1. Klik [!UICONTROL Go to Launch / Data Collection], dan selecteer [!UICONTROL Tags].
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
 1. Vouw de accordeon [!UICONTROL General] uit, zodat het veld [!UICONTROL Currency Code] zichtbaar wordt.
@@ -48,7 +46,7 @@ Valutacode wordt doorgegeven aan de Adobe Experience Platform Mobile SDK&#39;s v
 
 U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. Als u een aangepaste valutacode gebruikt, moet u controleren of de code geldig is.
 
-## s.currencyCode in de redacteur van de de douanecode van AppMeasurement en van de Inzameling van Gegevens
+## s.currencyCode in AppMeasurement en aangepaste code-editor
 
 De variabele `s.currencyCode` is een tekenreeks die een code van drie letters bevat die de valuta op de pagina vertegenwoordigt.
 
