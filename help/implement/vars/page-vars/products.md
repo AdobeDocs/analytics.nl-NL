@@ -1,51 +1,50 @@
 ---
 title: products
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
+# producten
 
-# products
-
-De `products` variabele houdt producten en eigenschappen bij die aan hen worden gebonden. Deze variabele wordt doorgaans ingesteld op afzonderlijke productpagina&#39;s, winkelwagenpagina&#39;s en pagina&#39;s met aankoopbevestiging. Dit is een variabele met meerdere waarden. Dit betekent dat u meerdere producten in dezelfde hit kunt verzenden en dat Adobe de waarde parseert in verschillende dimensieitems.
+Met de variabele `products` worden producten en eigenschappen bijgehouden die aan de variabelen zijn gekoppeld. Deze variabele wordt doorgaans ingesteld op afzonderlijke productpagina&#39;s, winkelwagenpagina&#39;s en pagina&#39;s met aankoopbevestiging. Dit is een variabele met meerdere waarden. Dit betekent dat u meerdere producten in dezelfde hit kunt verzenden en dat Adobe de waarde parseert in verschillende dimensieitems.
 
 >[!NOTE]
 >
->Als deze variabele in een hit zonder een winkelwagentgebeurtenis in de [`events`](events/events-overview.md) variabele wordt geplaatst, [toont](/help/components/metrics/product-views.md) de metrische toename van de Weergaven van het Product met 1. Zorg ervoor dat u de juiste winkelwagentgebeurtenis instelt bij elke treffer met de `products` variabele.
+>Als deze variabele in een slag zonder een het winkelwagentgebeurtenis in [`events`](events/events-overview.md) variabele wordt geplaatst, [de metrische verhogingen van de Weergaven van het Product](/help/components/metrics/product-views.md) met 1. Zorg ervoor dat u de juiste winkelwagengebeurtenis instelt bij elke treffer met de variabele `products`.
 
-## Producten in Adobe Experience Platform Launch
+## Producten met labels in Adobe Experience Platform
 
-Er is geen specifiek veld in Launch om deze variabele in te stellen. er zijn echter meerdere extensies van derden die u helpen.
+Er is geen specifiek gebied in de UI van de Inzameling van Gegevens om deze variabele te plaatsen; er zijn echter meerdere extensies van derden die u helpen.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
-3. Ga naar het [!UICONTROL Extensions] tabblad en klik [!UICONTROL Catalog] om alle beschikbare extensies weer te geven.
+3. Ga naar het tabblad [!UICONTROL Extensions] en klik vervolgens op [!UICONTROL Catalog] om alle beschikbare extensies weer te geven.
 4. Zoek naar de term &quot;product&quot;, die verscheidene uitbreidingen beschikbaar om te helpen plaatsen deze variabele openbaart.
 
 U kunt één van deze uitbreidingen gebruiken, of u kunt de redacteur van de douanecode gebruiken na syntaxis AppMeasurement hieronder.
 
-## s.products in AppMeasurement en Launch de redacteur van de douanecode
+## s.products in AppMeasurement en de redacteur van de douanecode
 
-De `s.products` variabele is een tekenreeks die meerdere gescheiden velden per product bevat. Elk afzonderlijk product kan tot 100 bytes over alle gebieden bevatten. Scheid elk veld met een puntkomma (`;`) in de tekenreeks.
+De variabele `s.products` is een tekenreeks die meerdere gescheiden velden per product bevat. Elk afzonderlijk product kan tot 100 bytes over alle gebieden bevatten. Scheid elk gebied met een puntkomma (`;`) in het koord.
 
-* **Categorie** (optioneel): De overkoepelende productcategorie. Uw organisatie bepaalt hoe producten in categorieën worden gegroepeerd.
-* **Productnaam** (verplicht): De naam van het product.
-* **Hoeveelheid** (facultatief): Hoeveel van dit product zit in de kar. Dit veld is alleen van toepassing op hits met de koopgebeurtenis.
-* **Prijs** (optioneel): De totale prijs van het product als decimaal. Indien meer dan één hoeveelheid is, de totale prijs en niet de individuele productprijs. Lijn de valuta van deze waarde uit zodat deze overeenkomt met de [`currencyCode`](../config-vars/currencycode.md) variabele. Plaats het valutasymbool niet in dit veld. Dit veld is alleen van toepassing op hits met de koopgebeurtenis.
-* **Gebeurtenissen** (optioneel): Gebeurtenissen die aan het product zijn gekoppeld. Maak meerdere gebeurtenissen gescheiden met een pipe (`|`). See [events](events/events-overview.md) for more information.
-* **eVars** (optioneel): Merchandising eVars gekoppeld aan het product. Meerdere merchandising Vars scheiden met een pipe (`|`). Zie [Verkopen Vars](evar-merchandising.md) voor meer informatie.
+* **Categorie**  (optioneel): De overkoepelende productcategorie. Uw organisatie bepaalt hoe producten in categorieën worden gegroepeerd.
+* **Productnaam**  (vereist): De naam van het product.
+* **Hoeveelheid**  (optioneel): Hoeveel van dit product zit in de kar. Dit veld is alleen van toepassing op hits met de koopgebeurtenis.
+* **Prijs**  (optioneel): De totale prijs van het product als decimaal. Indien meer dan één hoeveelheid is, de totale prijs en niet de individuele productprijs. Lijn de valuta van deze waarde uit zodat deze overeenkomt met de variabele [`currencyCode`](../config-vars/currencycode.md). Plaats het valutasymbool niet in dit veld. Dit veld is alleen van toepassing op hits met de koopgebeurtenis.
+* **Gebeurtenissen**  (optioneel): Gebeurtenissen die aan het product zijn gekoppeld. Scheidt veelvoudige gebeurtenissen met een pijp (`|`). Zie [events](events/events-overview.md) voor meer informatie.
+* **eVars**  (optioneel): Merchandising eVars gekoppeld aan het product. De veelvoudige koopvaardigende eVars van de afbakening met een pijp (`|`). Zie [merchandising Vars](evar-merchandising.md) voor meer informatie.
 
 ```js
 // Set a single product using all available fields
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Deze variabele ondersteunt meerdere producten in dezelfde hit. Het is waardevol voor winkelwagentjes en aankopen die meerdere producten bevatten. Terwijl er een grens 100 byte per product is, is de totale lengte voor de `products` variabele 64K. Scheid elk product met een komma (`,`) in de tekenreeks.
+Deze variabele ondersteunt meerdere producten in dezelfde hit. Het is waardevol voor winkelwagentjes en aankopen die meerdere producten bevatten. Terwijl er een grens 100 byte per product is, is de totale lengte voor `products` variabele 64K. Scheid elk product met een komma (`,`) in het koord.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
@@ -58,7 +57,7 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 ## Voorbeelden
 
-De `products` variabele is flexibel wanneer velden worden weggelaten en meerdere producten worden opgenomen. Dankzij deze flexibiliteit kunt u gemakkelijk een scheidingsteken missen, waardoor uw implementatie onjuiste gegevens naar Adobe stuurt.
+De variabele `products` is flexibel wanneer het weglaten van gebieden en het omvatten van veelvoudige producten. Dankzij deze flexibiliteit kunt u gemakkelijk een scheidingsteken missen, waardoor uw implementatie onjuiste gegevens naar Adobe stuurt.
 
 ```js
 // Include only product and category. Common on individual product pages
@@ -97,7 +96,7 @@ s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
-Als u de `digitalData` gegevenslaag [gebruikt, kunt u de](../../prepare/data-layer.md)`digitalData.product` objectarray doorlopen:
+Als u de `digitalData` [gegevenslaag](../../prepare/data-layer.md) gebruikt, kunt u de `digitalData.product` objectarray doorlopen:
 
 ```js
 for(var i=0; i<digitalData.product.length; i++) {
