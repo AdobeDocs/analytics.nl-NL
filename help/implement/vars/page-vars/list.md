@@ -1,20 +1,19 @@
 ---
 title: list
 description: Aangepaste variabelen die meerdere waarden in dezelfde hit bevatten.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
-
 
 # list
 
 De variabelen van de lijst zijn douanevariabelen die u kunt gebruiken hoe u zou willen. Ze werken op dezelfde manier als Vars, maar ze kunnen meerdere waarden in dezelfde hit bevatten. Lijstvariabelen hebben geen tekenlimiet.
 
-Zorg ervoor u registreert hoe u elke lijstvariabele en hun logica in uw document [van het](../../prepare/solution-design.md)oplossingsontwerp gebruikt.
+Zorg ervoor u registreert hoe u elke lijstvariabele en hun logica in uw [document van het oplossingsontwerp](../../prepare/solution-design.md) gebruikt.
 
 >[!NOTE]
 >
@@ -24,11 +23,11 @@ Zorg ervoor u registreert hoe u elke lijstvariabele en hun logica in uw document
 
 Zorg ervoor dat u elke lijstvariabele in de montages van de rapportreeks vormt alvorens hen in uw implementatie te gebruiken. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/list-var-admin.md) in de handleiding Admin.
 
-## Variabelen weergeven in Adobe Experience Platform starten
+## Variabelen weergeven met tags in Adobe Experience Platform
 
-Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
-## s.list1 - s.list3 in de redacteur van de de douanecode van de Meetings en van de Lancering
+## s.list1 - s.list3 in AppMeasurement en de redacteur van de douanecode
 
 Elke lijstvariabele is een koord dat douanewaarden specifiek voor uw organisatie bevat. Zij hebben geen maximum aantal bytes; elke individuele waarde heeft echter een maximum van 255 bytes. Het scheidingsteken dat u gebruikt wordt bepaald wanneer vestiging de variabele in de montages van de rapportreeks. Gebruik geen spaties bij het scheiden van meerdere items.
 
@@ -39,7 +38,7 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 >[!TIP]
 >
->Als u dubbele waarden instelt in dezelfde hit, worden alle instanties van deze waarden gedupliceerd door Adobe. Als u bijvoorbeeld instelt `s.list1 = "Example,Example";`, wordt één exemplaar geteld in rapporten.
+>Als u dubbele waarden instelt in dezelfde hit, worden alle instanties van die waarden door Adobe gedupliceerd. Als u bijvoorbeeld `s.list1 = "Example,Example";` instelt, wordt één instantie geteld in rapporten.
 
 ## Lijsproeven met lijstvariabelen vergelijken
 
@@ -47,4 +46,4 @@ De steunen van de lijst en lijstvariabelen kunnen allebei veelvoudige waarden in
 
 * Elke eigenschap kan een lijst-eigenschap worden. U kunt in feite maximaal 75 lijstprofielen hebben, als elke eigenschap een lijst-eigenschap is. Er zijn slechts drie keuzelijsten beschikbaar.
 * Keuzerondjes voor lijsten hebben een limiet van 100 bytes voor de gehele variabele. Lijstvariabelen hebben een limiet van 255 bytes per waarde en geen limiet voor het totale aantal bytes.
-* Lijstprofielen blijven alleen behouden wanneer ze worden ingesteld. Lijstvariabelen hebben de gewenste vervalinstelling. Nochtans, met de verwerking [van de](/help/components/vrs/vrs-report-time-processing.md)rapporttijd, kunt u douanetoewijzing op zowel lijsteigenschappen als lijstvariabelen toepassen.
+* Lijstprofielen blijven alleen behouden wanneer ze worden ingesteld. Lijstvariabelen hebben de gewenste vervalinstelling. Nochtans, met [rapporttijdverwerking](/help/components/vrs/vrs-report-time-processing.md), kunt u douaneattributie op zowel lijststeunen als lijstvariabelen toepassen.
