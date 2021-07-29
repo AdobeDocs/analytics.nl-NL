@@ -2,10 +2,10 @@
 title: writeSecureCookies
 description: Hiermee staat u toe dat AppMeasurement cookies instelt met het kenmerk Secure.
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
-source-git-commit: b93cd06c2a8867f4848dc317e426b73dcfbb5dfd
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 1%
+source-wordcount: '232'
+ht-degree: 0%
 
 ---
 
@@ -21,16 +21,16 @@ Meer informatie over Analytics cookies [hier](https://experienceleague.adobe.com
 >
 >Als u de variabele `writeSecureCookies` inschakelt, moet u ervoor zorgen dat alle inhoud op uw site veilig via HTTPS wordt aangeboden. AppMeasurement werkt niet als deze variabele wordt toegelaten en u onveilige inhoud op uw pagina hebt.
 
-## Beveiligde cookies schrijven in Adobe Experience Platform Launch
+## Beveiligde cookies schrijven met tags in Adobe Experience Platform
 
 [!UICONTROL Write secure cookies] is een selectievakje onder de  [!UICONTROL Cookies] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
 4. Breid [!UICONTROL Cookies] accordeon uit, die [!UICONTROL Write secure cookies] checkbox openbaart.
 
-## s.writeSecureCookies in AppMeasurement en Launch, aangepaste code-editor
+## s.writeSecureCookies in AppMeasurement en aangepaste code-editor
 
 De variabele `s.writeSecureCookies` is een Booleaanse waarde die bepaalt of AppMeturement het kenmerk Secure instelt bij het maken van een cookie. De standaardwaarde is `false`. Stel deze variabele in op `true` als alle inhoud op uw site veilig is en u cookies die door AppMeasurement zijn ingesteld, het kenmerk Secure wilt laten gebruiken.
 
