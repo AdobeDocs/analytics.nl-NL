@@ -1,22 +1,21 @@
 ---
 title: dynamicAccountList
 description: Bepaal logica op hoe uw implementatie zijn rapportreeks bepaalt.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-
 # s.dynamicAccountList
 
 >[!IMPORTANT]
 >
->Dynamische accounts worden alleen ondersteund met behulp van verouderde JavaScript-implementaties (H Code). Deze variabelen worden niet ondersteund in de huidige AppMeasurement-bibliotheken of Adobe Experience Platform Launch.
+>Dynamische accounts worden alleen ondersteund met behulp van verouderde JavaScript-implementaties (H Code). Deze variabelen worden niet ondersteund in de huidige AppMeasurement-bibliotheken of de gebruikersinterface voor gegevensverzameling.
 
-De `s.dynamicAccountList` variabele bepaalt dynamisch de waarde van `s_account`. Wanneer `dynamicAccountSelection` deze is ingesteld op `true`, wordt de `dynamicAccountMatch` variabele vergeleken met `dynamicAccountList`. Als een gelijke wordt gevonden, wordt de passende identiteitskaart van de rapportreeks gebruikt.
+De variabele `s.dynamicAccountList` bepaalt dynamisch de waarde van `s_account`. Wanneer `dynamicAccountSelection` is ingesteld op `true`, wordt de variabele `dynamicAccountMatch` vergeleken met `dynamicAccountList`. Als een gelijke wordt gevonden, wordt de passende identiteitskaart van de rapportreeks gebruikt.
 
 ## Syntaxis
 
@@ -36,7 +35,7 @@ Alleen standaard ASCII-tekens mogen in de tekenreeks worden gebruikt. Neem geen 
 
 ## Voorbeelden
 
-Voor alle volgende voorbeelden is de pagina-URL `https://example.com/path2/?prod_id=12345`, wordt de `dynamicAccountSelection` variabele ingesteld op `true`, en wordt de `s_account` variabele ingesteld op `examplersid`.
+Voor alle volgende voorbeelden is de pagina-URL `https://example.com/path2/?prod_id=12345`, de variabele `dynamicAccountSelection` ingesteld op `true` en de variabele `s_account` ingesteld op `examplersid`.
 
 ```js
 // In this example, the report suite that receives data is examplersid1.
@@ -55,7 +54,7 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 ## Punten, vragen en tips
 
 * De regels in deze variabele worden vermeld worden toegepast in een orde van links naar rechts. Als de `dynamicAccountMatch` variabele meer dan één regel aanpast, wordt de uiterst linkse regel gebruikt om de rapportreeks te bepalen. Dientengevolge, plaats meer generische regels aan het recht van de lijst.
-* Als er geen regels overeenkomen, wordt de standaard rapportsuite in `s_account` gebruikt.
+* Als er geen regels overeenkomen, wordt de standaardrapportsuite in `s_account` gebruikt.
 * Als uw pagina wordt opgeslagen op de vaste schijf van iemand of wordt vertaald via een vertaalprogramma op internet (zoals vertaalde pagina&#39;s van Google), werkt de dynamische accountselectie waarschijnlijk niet.
-* De `dynamicAccountSelection` regels gelden alleen voor het gedeelte van de URL dat is opgegeven in `dynamicAccountMatch`.
-* Gebruik het [!DNL Adobe Experience Cloud Debugger] om de reeks van het bestemmingsrapport te testen.
+* De `dynamicAccountSelection` regels zijn slechts op de sectie van URL van toepassing die in `dynamicAccountMatch` wordt gespecificeerd.
+* Gebruik [!DNL Adobe Experience Cloud Debugger] om de reeks van het bestemmingsrapport te testen.
