@@ -2,10 +2,10 @@
 title: visitorID
 description: Gebruik een aangepaste bezoeker-id.
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 1%
+source-wordcount: '251'
+ht-degree: 0%
 
 ---
 
@@ -17,18 +17,18 @@ Adobe gebruikt verschillende methoden om bezoekers op uw site te identificeren. 
 >
 >Adobe raadt u af deze variabele te gebruiken. Gebruik in plaats hiervan [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
-## Bezoeker-id in Adobe Experience Platform Launch
+## Bezoeker-id met tags in Adobe Experience Platform
 
 [!UICONTROL Visitor ID] is een veld onder de  [!UICONTROL Cookies] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
 4. Vouw de accordeon [!UICONTROL Cookies] uit, zodat het veld [!UICONTROL Visitor ID] zichtbaar wordt.
 
 Wijs dit veld toe aan het gegevenselement dat uw aangepaste bezoeker-id bevat. Stel dit veld niet in op een statische waarde.
 
-## s.bezoekerID in AppMeasurement en Launch de redacteur van de douanecode
+## s.bezoekerID in AppMeturement en de douane code redacteur
 
 De variabele `s.visitorID` is een tekenreeks die een aangepaste unieke id voor de bezoeker bevat. Geldige waarden zijn alfanumerieke tekens tot 100 bytes. Gebruik geen streepjes, spaties, onderstrepingstekens of symbolen in deze variabele.
 
