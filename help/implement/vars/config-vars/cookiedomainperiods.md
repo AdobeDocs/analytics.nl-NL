@@ -2,9 +2,9 @@
 title: cookieDomainPeriods
 description: Help AppMeasurement weet welk domein cookies moeten worden opgeslagen als het achtervoegsel van uw domein een punt bevat.
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,11 @@ Met de variabele `cookieDomainPeriods` kan AppMeasurement bepalen waar Analytics
 >
 >Houd geen rekening met subdomeinen voor deze variabele. Stel bijvoorbeeld `cookieDomainPeriods` niet in op de voorbeeld-URL `store.toys.example.com`. AppMeasurement door gebrek erkent dat de koekjes op `example.com`, zelfs op URLs met vele subdomeinen zouden moeten worden opgeslagen.
 
-## Domeinperioden in Adobe Experience Platform Launch
+## Domeinperioden met tags in Adobe Experience Platform
 
 Domeintermijnen is een veld onder de accordeon [!UICONTROL Cookies] wanneer u de extensie Adobe Analytics configureert.
 
-1. Ga naar `experience.adobe.com` en meld u aan wanneer u hierom wordt gevraagd.
-1. Selecteer [!UICONTROL Launch / Data Collection].
-1. Klik [!UICONTROL Go to Launch / Data Collection], dan selecteer [!UICONTROL Tags].
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
 1. Vouw de accordeon [!UICONTROL Cookies] uit, zodat het veld [!UICONTROL Domain Periods] zichtbaar wordt.
