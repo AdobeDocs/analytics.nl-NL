@@ -3,9 +3,9 @@ description: Implementeer de gegevensconnector van Kampyle in Adobe Analytics.
 title: De integratie implementeren
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
-source-git-commit: 4078d0be92c8ccd639e408e7372a5636938cad00
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '401'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Het implementeren van deze integratie is een eenvoudig proces waarbij de wizard Adobe Integration wordt voltooid, de insteekmodule code (JavaScript) wordt geïmplementeerd en de integratie wordt gecontroleerd.
 
-## Voltooi de Tovenaar van de Integratie van de Adobe{#complete-the-adobe-integration-wizard}
+## Voltooi de wizard Adobe Integration{#complete-the-adobe-integration-wizard}
 
 Om de integratie te activeren, voltooi de configuratietovenaar in de interface van Verbindingen van Gegevens.
 
@@ -36,28 +36,28 @@ Om de integratie te activeren, voltooi de configuratietovenaar in de interface v
 1. Schakel het selectievakje in om het Kampyle Integration-dashboard automatisch voor u te maken (aanbevolen).
 1. Herzie alle configuratiepunten en klik **[!UICONTROL Activate Now]**.
 
-## Stel het Voorwerp van de Configuratie van de Integratie {#deploy-the-integration-configuration-object} op
+## Implementeer het Configuration-object Integratie{#deploy-the-integration-configuration-object}
 
 Nadat u de integratietovenaar hebt voltooid, implementeert u het integratieconfiguratieobject in uw webeigenschap. In veel gevallen, is de gemakkelijkste manier om het voorwerp van de integratieconfiguratie op te stellen het met uw de plaatsingscode van Adobe Analytics te omvatten.
 
 >[!NOTE]
 >
->Als u Adobe Experience Platform Launch gebruikt, kunt u het integratieconfiguratieobject eenvoudig via dat gereedschap toevoegen.
+>Als u tags gebruikt in Adobe Experience Platform, kunt u het integratieconfiguratieobject eenvoudig toevoegen met dat gereedschap.
 
 1. Navigeer naar het tabblad **[!UICONTROL Resources]** > **[!UICONTROL Support]** van de integratie.
-1. Download en sla de **[!UICONTROL Kampyle Integration Code (JS)]**-bron op. De code ziet er ongeveer als volgt uit:
+2. Download en sla de **[!UICONTROL Kampyle Integration Code (JS)]**-bron op. De code ziet er ongeveer als volgt uit:
 
    ```
    /* Kampyle:  Integration configuration settings */
      window.k_sc_param = { "version":1.1 }
    ```
 
-1. Implementeer de code met een van de volgende methoden:
+3. Implementeer de code met een van de volgende methoden:
 
-   * Gebruik Adobe Experience Platform Launch.
+   * Gebruik tags in Adobe Experience Platform.
    * Lever de code aan het organisatorische middel dat uw plaatsing van Adobe Analytics handhaaft.
 
-## De integratie verifiëren{#verify-the-integration}
+## De integratie controleren{#verify-the-integration}
 
 Valideer dat de integratie gegevens met succes overbrengt door een paar controles te voltooien.
 
@@ -71,7 +71,7 @@ Bekijk uw integratie-instellingen voor Kampyle in de Adobe Experience Cloud door
 
 ![Logboek voor integratieactiviteiten](assets/integration_activity_log.png)
 
-### Adobe Gegevens rapporteren {#section-1ae9f0a5e6bc40988478ff55aefd56ac}
+### Adobe Rapportgegevens {#section-1ae9f0a5e6bc40988478ff55aefd56ac}
 
 Bekijk uw Kampyle-feedbackrapporten met Adobe Analytics door naar de Kampyle-rapportage te navigeren binnen de juiste menustructuur.
 
