@@ -1,15 +1,14 @@
 ---
 title: trackInlineStats
 description: Activiteitenoverzicht in uw implementatie in- of uitschakelen.
-keywords: disable activity map
-translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+keywords: activiteitenoverzicht uitschakelen
+exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '186'
 ht-degree: 1%
 
 ---
-
 
 # trackInlineStats
 
@@ -17,20 +16,20 @@ Activiteitenoverzicht is een functie in Adobe Analytics die gegevens verzamelt o
 
 Wanneer toegelaten, verzamelt AppMeturement informatie over de verbinding en verzendt die gegevens in het volgende beeldverzoek. De informatie van elke klik wordt opgeslagen in een gekookt geëtiketteerd `s_sq`.
 
-## Klikmap inschakelen in Adobe Experience Platform Launch
+## Klikmap inschakelen met tags in Adobe Experience Platform
 
-[!UICONTROL Enable Clickmap] is een selectievakje onder de [!UICONTROL Link Tracking] accordeon wanneer u de extensie Adobe Analytics configureert.
+[!UICONTROL Enable Clickmap] is een selectievakje onder de  [!UICONTROL Link Tracking] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
-3. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder Adobe Analytics.
-4. Vouw de [!UICONTROL Link Tracking] accordeon uit, zodat het [!UICONTROL Enable Clickmap] selectievakje zichtbaar wordt.
+3. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
+4. Breid [!UICONTROL Link Tracking] accordeon uit, die [!UICONTROL Enable Clickmap] checkbox openbaart.
 
 Klik op het selectievakje om Activiteit maps bijhouden in te schakelen.
 
-## s.trackInlineStats in AppMeasurement en Launch, aangepaste code-editor
+## s.trackInlineStats in AppMeasurement en aangepaste code-editor
 
-Het `s.trackInlineStats` is een Booleaanse waarde die het bijhouden van activiteitenkaarten in- of uitschakelt. De standaardwaarde is `false`. Plaats deze waarde aan `true` als u de gegevensinzameling van de kaart van de Activiteit wilt toelaten.
+De `s.trackInlineStats` is een Booleaanse waarde die het bijhouden van activiteitenkaarten in- of uitschakelt. De standaardwaarde is `false`. Stel deze waarde in op `true` als u gegevensverzameling van activiteitstoewijzingen wilt inschakelen.
 
 ```js
 s.trackInlineStats = true;
