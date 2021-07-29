@@ -1,14 +1,13 @@
 ---
 title: getTimeToComplete
 description: Meet de tijd die u nodig hebt om een taak te voltooien.
-translation-type: tm+mt
-source-git-commit: 37a3a44053260d9cdb2a3797e07f6d34592abc1f
+exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
-
 
 # Adobe-plug-in: getTimeToComplete
 
@@ -18,11 +17,11 @@ ht-degree: 0%
 
 Met de `getTimeToComplete`-plug-in wordt bijgehouden hoeveel tijd een gebruiker nodig heeft om een proces op een site te voltooien. De &quot;klok&quot;begint wanneer `start` actie wordt geroepen en beëindigt wanneer `stop` actie wordt geroepen. Adobe raadt u aan deze plug-in te gebruiken als er een workflow op de site is die enige tijd in beslag neemt en u wilt weten hoeveel tijd bezoekers nodig hebben om deze te voltooien. Het is niet nodig deze plug-in te gebruiken als de workflow op uw site een korte periode (minder dan 3 seconden) in beslag neemt omdat de granulariteit slechts tot de volledige seconde is.
 
-## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
+## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -34,11 +33,11 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Type handeling: getTimeToComplete initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
 1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
@@ -86,7 +85,7 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
 
 s.prop1 legt vast hoeveel tijd nodig is om het aankoopproces te voltooien
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 Als u verscheidene tijdopnemers wilt hebben die tezelfdertijd lopen (om verschillende processen te meten), zult u het cn koekjesargument manueel moeten plaatsen.  Als u bijvoorbeeld wilt meten hoeveel tijd een aankoop nodig heeft om te voltooien, stelt u de volgende code in...
 
