@@ -2,9 +2,9 @@
 description: Verklaart de nieuwe ononderbroken strategie van de eigenschapversie voor Adobe Analytics
 title: Adobe Analytics-functiereleases
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Bij elke functierelease kan de tijdlijn variëren van RTP tot GA. Het doel is om
 
 ## Functiemarkeringen
 
-De vlaggen van de eigenschap worden gebruikt om de zichtbaarheid van nieuwe eigenschappen tijdens versie te controleren. Adobe raadt aan app.launch.com toe te voegen aan de [lijst van gewenste personen](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html) van uw firewall voor een optimale ervaring tijdens de release. Kort nadat GA is bereikt, wordt de vlag verwijderd.
+De vlaggen van de eigenschap worden gebruikt om de zichtbaarheid van nieuwe eigenschappen tijdens versie te controleren. Adobe raadt aan `app.launchdarkly.com` toe te voegen aan [lijst van gewenste personen](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html) voor een optimale ervaring tijdens de release. Kort nadat GA is bereikt, wordt de vlag verwijderd.
 
 U kunt uw actieve eigenschapmarkeringen op elk ogenblik bekijken onder **Hulp > over Werkruimte > Actieve eigenschapmarkeringen**.
 
