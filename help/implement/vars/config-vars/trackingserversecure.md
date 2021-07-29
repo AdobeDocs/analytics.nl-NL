@@ -2,10 +2,10 @@
 title: trackingServerSecure
 description: Bepaal de locatie waar afbeeldingsaanvragen worden verzonden op HTTPS-pagina's.
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '280'
+ht-degree: 1%
 
 ---
 
@@ -17,18 +17,18 @@ Adobe verzamelt gegevens op uw site door een afbeeldingsaanvraag te ontvangen di
 >
 >Als u deze waarde wijzigt, zoekt AppMeasurement naar cookies op een andere locatie. Het unieke aantal bezoekers kan tijdelijk in de rapportage springen, omdat bezoekerscookies op de nieuwe locatie worden ingesteld.
 
-## SSL-traceringsserver in Adobe Experience Platform Launch
+## SSL-traceringsserver gebruikt tags in Adobe Experience Platform
 
 [!UICONTROL SSL Tracking Server] is een veld onder de  [!UICONTROL General] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
 4. Vouw de accordeon [!UICONTROL General] uit, zodat het veld [!UICONTROL SSL Tracking Server] zichtbaar wordt.
 
 Als dit veld niet wordt ingevuld, wordt standaard de waarde in de variabele [`trackingServer`](trackingserver.md) gebruikt.
 
-## s.trackingServerSecure in de aangepaste code-editor van AppMeasurement en Launch
+## s.trackingServerSecure in AppMeasurement en aangepaste code-editor
 
 De variabele `s.trackingServerSecure` is een tekenreeks die de locatie bevat voor het verzenden van verzoeken om afbeeldingen. Het is bijna altijd een subdomein van uw site. De moderne privacy praktijken in browsers maken over het algemeen derde koekjes onbetrouwbaar. Als deze variabele leeg is, wordt de waarde in de variabele `s.trackingServer` gebruikt.
 
