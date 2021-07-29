@@ -1,14 +1,13 @@
 ---
 title: getPageName
 description: Maak een eenvoudig te lezen pageName van het huidige websitepad.
-translation-type: tm+mt
-source-git-commit: 063da38c105072944a46ec0ab31930623b7974c8
+exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
-
 
 # Adobe-plug-in: getPageName
 
@@ -18,11 +17,11 @@ ht-degree: 0%
 
 Met de insteekmodule `getPageName` kunt u de huidige URL gemakkelijk lezen en een vriendelijke versie met opmaak gebruiken. Adobe raadt u aan deze insteekmodule te gebruiken als u een waarde [`pageName`](../page-vars/pagename.md) wilt instellen die gemakkelijk te begrijpen is in de rapportage. Deze insteekmodule is niet nodig als u al een naamgevingsstructuur hebt voor de variabele `pageName`, bijvoorbeeld via een gegevenslaag. Het wordt best gebruikt wanneer u geen andere oplossing hebt om `pageName` variabele te plaatsen.
 
-## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
+## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -34,11 +33,11 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Type handeling: Initialize getPageName
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
 1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
@@ -89,7 +88,7 @@ s.pageName = getPageName()
 s.pageName = "mail.google.com|mail|u|0";
 ```
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 Als de huidige URL...
 
@@ -109,7 +108,7 @@ s.pageName = getPageName("gmail")
 s.pageName = "gmail|mail|u|0";
 ```
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 Als de huidige URL...
 
