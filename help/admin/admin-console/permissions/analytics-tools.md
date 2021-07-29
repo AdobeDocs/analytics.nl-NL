@@ -2,9 +2,9 @@
 title: Machtigingen voor productprofielen voor Analytics Tools
 description: Gebruik de machtigingsitems Analytics Tools om toegang te verlenen tot functies in Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Met de machtigingsitems Analytics Tools hebt u toegang tot functies in Adobe Ana
 | Machtigingsitem Analytics | Beschrijving |
 |----|----|
 | [!UICONTROL Server Call Usage] | Biedt toegang tot Admin > Gebruik van de Vraag van de Server. |
-| [!UICONTROL Code Manager] | Bewaren voor oudere doeleinden. Hiermee krijgt u toegang tot Beheer > Alle beheerders > Codebeheer. In de meeste gevallen moet u in plaats daarvan de bibliotheken gebruiken die zijn opgenomen in de gegevensverzameling van Adobe Experience Platform. |
+| [!UICONTROL Code Manager] | Bewaren voor oudere doeleinden. Hiermee krijgt u toegang tot Beheer > Alle beheerders > Codebeheer. In de meeste gevallen gebruikt u in plaats hiervan de bibliotheken die zijn opgenomen in de gebruikersinterface voor gegevensverzameling. |
 | [!UICONTROL Code Manager - Web Services] | Hiermee krijgt u toegang tot de codecontrole via de 1.4-API. |
 | [!UICONTROL Logs] | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Logbestanden. |
 | [!UICONTROL Logs - Web Services] | Biedt toegang tot pull-logs via de 1.4-API. |
