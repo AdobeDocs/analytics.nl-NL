@@ -1,14 +1,13 @@
 ---
 title: getVisitNum
 description: Volg het huidige bezoeknummer van een bezoeker.
-translation-type: tm+mt
-source-git-commit: fb1cdcb53732be46037a79587fc2541e629496e3
+exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
-
 
 # Adobe-plug-in: getVisitNum
 
@@ -18,11 +17,11 @@ ht-degree: 0%
 
 De `getVisitNum` plug-in retourneert het bezoeknummer voor alle bezoekers die binnen het gewenste aantal dagen naar de site komen. Analysis Workspace heeft een dimensie &#39;Visit Number&#39; die vergelijkbare functionaliteit biedt. Adobe raadt u aan deze plug-in te gebruiken als u meer controle wilt over de manier waarop het bezoeknummer wordt verhoogd. Deze insteekmodule is niet nodig als de ingebouwde dimensie Visit Number in Analysis Workspace voldoende is voor uw rapportagevereisten.
 
-## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
+## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -34,11 +33,11 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Type handeling: Initialiseren getVisitNum
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
 1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
@@ -80,7 +79,7 @@ Voor een bezoeker die niet binnen de laatste 365 dagen aan de plaats is geweest,
 s.prop1=s.getVisitNum();
 ```
 
-### Voorbeeld 3
+### Voorbeeld 2
 
 Voor een bezoeker die binnen 364 dagen na zijn/haar eerste bezoek naar de site terugkeert, zal de volgende code s.prop1 gelijk aan 2 plaatsen:
 
@@ -94,7 +93,7 @@ Als deze bezoeker binnen 364 dagen na zijn/haar tweede bezoek terugkeert naar de
 s.prop1=s.getVisitNum(365);
 ```
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 Voor een bezoeker die binnen 179 dagen na zijn/haar eerste bezoek naar de site terugkeert, zal de volgende code s.prop1 gelijk aan 2 plaatsen:
 
