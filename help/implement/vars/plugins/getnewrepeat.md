@@ -1,14 +1,13 @@
 ---
 title: getNewRepeat
 description: Traceeractiviteiten van nieuwe versus herhaalde bezoekers.
-translation-type: tm+mt
-source-git-commit: 9d44226202cd690d069f9c0c85c8af2ef8fd0106
+exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
-
 
 # Adobe-plug-in: getNewRepeat
 
@@ -18,11 +17,11 @@ ht-degree: 0%
 
 Met de insteekmodule `getNewRepeat` kunt u bepalen of een bezoeker van de site een nieuwe bezoeker of een herhaalde bezoeker binnen een gewenst aantal dagen is. Adobe raadt u aan deze insteekmodule te gebruiken als u bezoekers wilt identificeren als &#39;nieuw&#39; met behulp van een aangepast aantal dagen. Deze insteekmodule is niet nodig als de afmetingen van de nieuwe bezoeker/de nieuwe bezoeker in Analysis Workspace voldoen aan de behoeften van uw organisatie.
 
-## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
+## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -34,11 +33,11 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Type handeling: getNewRepeat initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
 1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
@@ -84,7 +83,7 @@ Als de bezoeker vanaf 31 minuten tot 30 dagen na het aanroepen van de laatste ke
 s.eVar1=s.getNewRepeat();
 ```
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 Als de bezoeker niet minstens 30 dagen sinds de laatste keer dat s.getNewRepeat() werd geroepen, aan de plaats is geweest, zal de volgende code s.eVar1 gelijk aan de waarde van &quot;Nieuw&quot;plaatsen en s.eVar1 gelijk aan de waarde van &quot;Nieuw&quot;(met elke nieuwe vraag) tijdens het resterende gedeelte van het bezoek van de bezoeker aan de plaats blijven plaatsen.
 
