@@ -1,34 +1,33 @@
 ---
 title: useBeacon
 description: Met useBeacon kunt u AppMeasurement forceren om de sendBeacon-API voor browsers te gebruiken
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
 
-
 # useBeacon
 
-De meeste moderne browsers beschikken over de native methode `navigator.sendBeacon()`. Het verzendt asynchroon een kleine hoeveelheid gegevens over HTTP naar een Webserver. AppMeasurement kan de `navigator.sendBeacon()` methode gebruiken als de `useBeacon` variabele wordt toegelaten. Het is handig om koppelingen af te sluiten en andere situaties te creëren waarin u informatie wilt verzenden voordat de pagina wordt verwijderd.
+De meeste moderne browsers hebben de native methode `navigator.sendBeacon()`. Het verzendt asynchroon een kleine hoeveelheid gegevens over HTTP naar een Webserver. AppMeasurement kan de `navigator.sendBeacon()` methode gebruiken als `useBeacon` variabele wordt toegelaten. Het is handig om koppelingen af te sluiten en andere situaties te creëren waarin u informatie wilt verzenden voordat de pagina wordt verwijderd.
 
-Als `useBeacon` deze optie is ingeschakeld, gebruikt de volgende hit die naar Adobe wordt verzonden de `navigator.sendBeacon()` methode van de browser in plaats van een standaard `GET` afbeeldingsaanvraag. Deze variabele is van toepassing op zowel [`s.t()`](../functions/t-method.md) afbeeldingsaanvragen als [`s.tl()`](../functions/tl-method.md) afbeeldingsaanvragen. Hiervoor is AppMeasurement 2.17.0 of hoger vereist.
+Wanneer `useBeacon` is ingeschakeld, gebruikt de volgende hit die naar Adobe wordt verzonden de methode `navigator.sendBeacon()` van de browser in plaats van een standaardafbeeldingsaanvraag `GET`. Deze variabele is van toepassing op afbeeldingsaanvragen [`s.t()`](../functions/t-method.md) en [`s.tl()`](../functions/tl-method.md). Hiervoor is AppMeasurement 2.17.0 of hoger vereist.
 
 >[!TIP]
 >
->AppMeasurement schakelt automatisch `useBeacon` voor het afsluiten van afbeeldingsaanvragen voor koppelingen in.
+>AppMeasurement schakelt automatisch `useBeacon` in voor verzoeken om verbindingsafbeeldingen.
 
-De `useBeacon` variabele wordt genegeerd wanneer de bezoeker een browser gebruikt die geen ondersteuning biedt `navigator.sendBeacon()`. Het gebruik van deze variabele vereist AppMeasurement 2.16.0 of hoger.
+De variabele `useBeacon` wordt genegeerd wanneer de bezoeker een browser gebruikt die `navigator.sendBeacon()` niet ondersteunt. Het gebruik van deze variabele vereist AppMeasurement 2.16.0 of hoger.
 
-## Band gebruiken bij starten van Adobe Experience Platform
+## Baken gebruiken met tags in Adobe Experience Platform
 
-Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
-## s.useBeacon in de redacteur van de douanecode van AppMeasurement en van de Lancering
+## s.useBeacon in AppMeasurement en aangepaste code-editor
 
-De `s.useBeacon` variabele is een Booleaanse waarde die bepaalt of AppMeturement de `navigator.sendBeacon()` methode van de browser gebruikt. De standaardwaarde is `false`. Stel deze variabele in op `true` voordat u een functie tracking aanroept als u de asynchrone aard van `navigator.sendBeacon()`de variabele wilt gebruiken.
+De `s.useBeacon` variabele is een booleaanse waarde die bepaalt of AppMeturement de browser `navigator.sendBeacon()` methode gebruikt. De standaardwaarde is `false`. Stel deze variabele in op `true` voordat u een functie tracking aanroept als u de asynchrone aard van `navigator.sendBeacon()` wilt gebruiken.
 
 ```js
 s.useBeacon = true;
@@ -36,4 +35,4 @@ s.useBeacon = true;
 
 >[!NOTE]
 >
->Nadat een volgende vraag loopt, wordt deze variabele teruggesteld aan `false`. Als uw implementatie meerdere verzoeken om afbeeldingen verzendt in dezelfde pagina die wordt geladen (zoals toepassingen van één pagina), stelt u deze variabele in op `true` vóór elke volgende aanroep.
+>Na een volgende vraaglooppas, wordt deze variabele teruggesteld aan `false`. Als uw implementatie meerdere afbeeldingsaanvragen verzendt in dezelfde paginalading (zoals toepassingen van één pagina), stelt u deze variabele in op `true` vóór elke volgende aanroep.
