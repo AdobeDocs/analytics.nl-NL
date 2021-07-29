@@ -2,9 +2,9 @@
 title: cookieLifetime
 description: Overschrijf de vervaldatum voor cookies die door AppMeasurement worden gemaakt.
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,11 @@ Cookies die door AppMeasurement worden ingesteld, hebben doorgaans een vervaldat
 >
 >Deze variabele is van invloed op unieke aantallen bezoekers en attributie. Wees voorzichtig wanneer u deze variabele instelt.
 
-## Cookie Lifetime in Adobe Experience Platform-tags
+## Cookie Lifetime met tags in Adobe Experience Platform
 
 Cookie Lifetime is een vervolgkeuzelijst onder de accordeon [!UICONTROL Cookies] wanneer u de Adobe Analytics-extensie configureert.
 
-1. Ga naar `experience.adobe.com` en meld u aan wanneer u hierom wordt gevraagd.
-1. Selecteer [!UICONTROL Launch / Data Collection].
-1. Klik [!UICONTROL Go to Launch / Data Collection], dan selecteer [!UICONTROL Tags].
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
 1. Breid [!UICONTROL Cookies] accordeon uit, die [!UICONTROL Cookie Lifetime] dropdown openbaart.
@@ -35,7 +33,7 @@ Deze vervolgkeuzelijst bevat de volgende waarden:
 * **Sessie**: De cookie verloopt aan het einde van de sessie van de bezoeker.
 * **Seconden**: Het cookie verloopt nadat het opgegeven aantal seconden is verstreken. Als u deze vervolgkeuzelijst bijvoorbeeld instelt op [!UICONTROL Seconds] en `86400` in het aangepaste veld plaatst, worden cookies na precies 24 uur gedwongen te verlopen.
 
-## s.cookieLifetime in de redacteur van de de douanecode van AppMeturement en van de Inzameling van Gegevens
+## s.cookieLifetime in AppMeasurement en aangepaste code-editor
 
 De variabele `s.cookieLifetime` is een tekenreeks die de vervaldatum bepaalt van cookies die door AppMeasurement zijn ingesteld.
 
