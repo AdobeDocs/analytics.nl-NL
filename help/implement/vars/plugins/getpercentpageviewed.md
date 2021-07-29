@@ -2,9 +2,9 @@
 title: getPercentPageViewed
 description: Haal het percentage op van de pagina die de bezoeker heeft weergegeven.
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 77192bdec509fed0b2a7c49112b7b430ff677a3c
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Met de insteekmodule `getPercentPageViewed` wordt de schuifactiviteit van een bezoeker gemeten om te zien hoeveel van een pagina deze weergeeft voordat naar een andere pagina wordt gegaan. Deze insteekmodule is niet nodig als de pagina&#39;s klein van hoogte zijn of als u de scrollactiviteit niet wilt meten.
 
-## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
+## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -33,9 +33,9 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Type handeling: getPercentPageViewed initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
 1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
@@ -96,7 +96,7 @@ if(s._ppvPreviousPage)
 
 **Opmerking**: Als een volledige pagina zichtbaar is wanneer deze wordt geladen, zijn zowel de afmetingen Hoogste weergegeven percentage als Oorspronkelijk weergegeven percentage gelijk aan 100. Zowel de getoonde als de beschikbare mappen zijn gelijk aan 1.   Wanneer een volledige pagina NIET zichtbaar is wanneer deze wordt geladen maar de bezoeker de pagina nooit omlaag schuift voordat deze naar de volgende pagina gaat, zijn zowel de afmetingen Hoogste percentage weergegeven als Oorspronkelijk percentage weergegeven gelijk aan dezelfde waarde.
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 Stel dat s.prop5 opzij is gezet om een opgerold-up &quot;paginatype&quot;eerder dan de volledige paginanaam te vangen.
 
