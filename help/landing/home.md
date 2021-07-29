@@ -2,10 +2,10 @@
 title: Technische documentatiehandleidingen voor Adobe Analytics
 description: Analytics-gebruikershandleidingen en -bronnen
 exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 82%
+source-wordcount: '425'
+ht-degree: 80%
 
 ---
 
@@ -17,7 +17,7 @@ Welkom bij de startpagina van het product en de technische documentatie van Adob
 
 [![Beheer](assets/admin_50px.png)](/help/admin/home.md) [Beheerdershandleiding](/help/admin/home.md) - Ontdek meer over het beheer van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportsuites, bedrijfsinstellingen, databeheer, aantal serveroproepen, verkeerbeheer en meer.
 
-[![Implementatie](assets/implement_50px.png)](/help/implement/home.md) [Implementatiehandleiding](/help/implement/home.md) – Pas aan welke data worden verzameld om meer profijt uit Adobe Analytics te halen. Bevat content over [!UICONTROL Adobe Experience Platform Launch] en JavaScript-implementaties.
+[![Implementatie](assets/implement_50px.png)](/help/implement/home.md) [Implementatiehandleiding](/help/implement/home.md) – Pas aan welke data worden verzameld om meer profijt uit Adobe Analytics te halen. Bevat het gebruik van tags in Adobe Experience Platform- en JavaScript-implementaties.
 
 [![Onderdelen](assets/components_50px.png)](/help/components/home.md) [Handleiding voor onderdelen](/help/components/home.md) – Krijg inzicht in de functies waarmee uw data worden georganiseerd. De onderdelen omvatten segmenten, berekende standaarden, virtuele rapportreeksen, alarm, en meer. Deze handleiding bevat ook een variabelenlijst waarin alle beschikbare dimensies en cijfers worden uitgelegd.
 
