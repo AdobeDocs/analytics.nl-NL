@@ -1,14 +1,13 @@
 ---
 title: getVisitDuration
 description: Houd bij hoeveel tijd een bezoeker tot dusver op de site is geweest.
-translation-type: tm+mt
-source-git-commit: ca8e563118dcc74dfa718bd203db295faf4e9aa6
+exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
-
 
 # Adobe-plug-in: getVisitDuration
 
@@ -18,11 +17,11 @@ ht-degree: 0%
 
 Met de `getVisitDuration`-plug-in wordt de hoeveelheid tijd in minuten bijgehouden die de bezoeker tot dan toe op de site heeft doorgebracht. Adobe raadt u aan deze plug-in te gebruiken als u de cumulatieve tijd op de site tot dat moment wilt bijhouden of als u wilt bijhouden hoeveel tijd het kost om een activiteit uit te voeren. Deze plug-in houdt de hoeveelheid tijd tussen gebeurtenissen niet bij; Als u deze functionaliteit wilt gebruiken, gebruikt u de [`getTimeBetweenEvents`](gettimebetweenevents.md) plug-in.
 
-## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
+## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -34,11 +33,11 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Type handeling: getVisitDuration initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
 1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
@@ -79,7 +78,7 @@ s.eVar10 = s.getVisitDuration();
 
 ...stelt eVar10 altijd in op het aantal minuten dat is verstreken sinds de bezoeker de site heeft aangeland
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 De volgende code...
 
@@ -89,7 +88,7 @@ if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
 
 ...gebruikt de insteekmodule inList om te controleren of de variabele events de aankoopgebeurtenis bevat.  In dat geval wordt eVar10 ingesteld op het aantal minuten tussen het begin van het bezoek van de bezoeker en het tijdstip van aankoop.
 
-### Voorbeeld 3
+### Voorbeeld 2
 
 De volgende code...
 
