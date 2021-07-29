@@ -4,9 +4,9 @@ description: Bepalen waarom Activity Map-gegevens niet worden weergegeven in afb
 feature: Activity Map
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Eerst, zorg ervoor dat AppMeasurement correct de gegevens van de Activity Map ve
 Controleer elk van de volgende opties om te controleren of er Activity Map-componenten aanwezig zijn:
 
 * **AppMeasurement-versie**: Activity Map wordt ondersteund op versie 1.6 en hoger. Veel problemen met randhoofdletters en kleine letters worden opgelost wanneer u een upgrade uitvoert naar de nieuwste stabiele versie van AppMeasurement.
-* **Activity Map module**: Controleer of de  `AppMeasurement_Module_Activity_Map` module aanwezig is in het  `AppMeasurement.js` bestand. Als uw implementatie gebruikmaakt van Adobe Experience Platform Data Collection (Launch), controleert u **[!UICONTROL Enable ClickMap]** bij het configureren van de extensie Analytics onder **[!UICONTROL Link tracking]**.
+* **Activity Map module**: Controleer of de  `AppMeasurement_Module_Activity_Map` module aanwezig is in het  `AppMeasurement.js` bestand. Als uw implementatie Adobe Experience Platform gebruikt om gegevens te verzamelen, moet **[!UICONTROL Enable ClickMap]** worden gecontroleerd bij het configureren van de extensie Analytics onder **[!UICONTROL Link tracking]**.
 * **Het  `s_sq` cookie**: Activity Map hangt af van het  `s_sq` cookie voor gegevensverzameling.
    * Zorg ervoor dat de `cookieDomainPeriods` variabele correct wordt geplaatst, vooral voor regionale domeinen zoals `*.co.uk` of `*.co.jp`.
    * Zorg ervoor dat de `linkInternalFilters` variabele aan gewenste waarden wordt geplaatst. Als een aangeklikte koppeling niet overeenkomt met interne filters, beschouwt de Activity Map deze als een exit-koppeling en worden er geen gegevens verzameld.
