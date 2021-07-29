@@ -1,42 +1,41 @@
 ---
 title: registerPreTrackCallback
-description: Maak callback-functies voordat u een hit naar Adobe verzendt.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+description: Creeer callback functies alvorens een klap naar Adobe te verzenden.
+exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
 
-
 # registerPreTrackCallback
 
-Met de `registerPreTrackCallback` variabele kan uw organisatie een JavaScript-functie koppelen nadat een URL voor een afbeeldingsaanvraag is gecompileerd, maar voordat deze wordt verzonden. U kunt deze variabele gebruiken om gegevens te verzenden die door AppMeasurement aan een partner of interne infrastructuur worden verzameld.
+Met de variabele `registerPreTrackCallback` kan uw organisatie een JavaScript-functie koppelen nadat een URL voor een afbeeldingsaanvraag is gecompileerd, maar voordat deze wordt verzonden. U kunt deze variabele gebruiken om gegevens te verzenden die door AppMeasurement aan een partner of interne infrastructuur worden verzameld.
 
 >[!IMPORTANT]
 >
->Roep geen het volgen vraag zoals [`t()`](t-method.md) of [`tl()`](tl-method.md) binnen de [`registerPostTrackCallback`](registerposttrackcallback.md) variabele. De volgende functies in deze variabele veroorzaken een oneindige lijn van beeldverzoeken!
+>Roep geen volgende vraag zoals [`t()`](t-method.md) of [`tl()`](tl-method.md) binnen de [`registerPostTrackCallback`](registerposttrackcallback.md) variabele. De volgende functies in deze variabele veroorzaken een oneindige lijn van beeldverzoeken!
 
-Elke keer dat u de `registerPreTrackCallback` variabele aanroept, koppelt u die functie om te worden uitgevoerd telkens wanneer een afbeeldingsaanvraag-URL wordt gecompileerd. Registreer dezelfde functie niet meerdere keren tijdens het laden van dezelfde pagina.
+Elke keer dat u de variabele `registerPreTrackCallback` aanroept, koppelt u die functie om te worden uitgevoerd telkens wanneer een afbeeldingsverzoek-URL wordt gecompileerd. Registreer dezelfde functie niet meerdere keren tijdens het laden van dezelfde pagina.
 
 >[!NOTE]
 >
->De timing en de volgorde van de functies die tussen `registerPreTrackCallback` en `registerPostTrackCallback` worden uitgevoerd, zijn niet gegarandeerd. Vermijd afhankelijkheden tussen deze twee functies.
+>De timing en volgorde van functies die tussen `registerPreTrackCallback` en `registerPostTrackCallback` worden geactiveerd, zijn niet gegarandeerd. Vermijd afhankelijkheden tussen deze twee functies.
 
-## Terugbellen voor track registreren bij starten van Adobe Experience Platform
+## Pre-track callback registreren met tags in Adobe Experience Platform
 
-Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
-## s.registerPreTrackCallback in AppMeasurement en Launch, aangepaste code-editor
+## s.registerPreTrackCallback in AppMeasurement en aangepaste code-editor
 
-Het `s.registerPreTrackCallback` is een functie die een functie als het enige argument gebruikt. De geneste functie wordt uitgevoerd vlak voordat een afbeeldingsaanvraag wordt verzonden.
+`s.registerPreTrackCallback` is een functie die een functie als zijn enige argument neemt. De geneste functie wordt uitgevoerd vlak voordat een afbeeldingsaanvraag wordt verzonden.
 
 ```js
 s.registerPreTrackCallback(function(){/* Desired code */});
 ```
 
-Als u de afbeeldingsaanvraag-URL in de code wilt gebruiken, verwijst u naar het `requestUrl` tekenreeksargument in de geneste functie. U kunt de `requestUrl` variabele voor uw gewenste gebruik ontleden; het aanpassen van deze variabele heeft geen invloed op de gegevensverzameling.
+Als u de afbeeldingsaanvraag-URL in uw code wilt gebruiken, verwijst u naar het tekenreeksargument `requestUrl` in de geneste functie. U kunt de `requestUrl` variabele voor uw gewenst gebruik ontleden; het aanpassen van deze variabele heeft geen invloed op de gegevensverzameling.
 
 ```js
 s.registerPreTrackCallback(function(requestUrl){
@@ -44,7 +43,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-U kunt aanvullende argumenten in de functie opnemen, die in de geneste functie kan worden gebruikt: `s.registerPreTrackCallback`
+U kunt aanvullende argumenten in de functie `s.registerPreTrackCallback` opnemen, die in de geneste functie kan worden gebruikt:
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
@@ -57,4 +56,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 
 >[!NOTE]
 >
->Het instellen van paginariabelen of het wijzigen van de `requestUrl` tekenreeks binnen deze functie heeft **geen** invloed op de afbeeldingsaanvraag die kort na deze functieaanroep wordt verzonden. Gebruik in plaats hiervan de [`doPlugins()`](doplugins.md) variabele.
+>Als u paginariabelen instelt of de `requestUrl`-tekenreeks in deze functie wijzigt, heeft dit **niet** invloed op de afbeeldingsaanvraag die kort na deze functieaanroep wordt verzonden. Gebruik in plaats hiervan de variabele [`doPlugins()`](doplugins.md).
