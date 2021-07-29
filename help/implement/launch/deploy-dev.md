@@ -2,10 +2,10 @@
 title: Adobe Analytics implementeren in een ontwikkelomgeving
 description: Leer hoe u tags kunt gebruiken om Adobe Analytics in uw ontwikkelomgeving te implementeren.
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+source-git-commit: ea6812c8e596773abb8a05bbdb37bc641967c9b8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 1%
+source-wordcount: '594'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Nadat u een eigenschap tag hebt gemaakt en geconfigureerd, kunnen de bibliotheke
 
 De markeringen passen vele organisatorische werkschema&#39;s in het opstellen van code aan. Ga als volgt te werk om de minimaal vereiste componenten voor een analytische implementatie te maken. Als tagbeheerder kunt u binnen uw organisatie de juiste workflow voor het implementeren van Adobe-oplossingen instellen.
 
-1. Ga naar [Adobe Experience Platform Launch](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de eigenschap tag die u op uw site wilt implementeren.
 3. Klik op het tabblad Adapters en klik vervolgens op Adapter toevoegen.
 4. Geef deze de naam &quot;Akamai&quot; en selecteer Akamai in het vervolgkeuzemenu type. Klik op Opslaan.
@@ -37,7 +37,7 @@ De markeringen passen vele organisatorische werkschema&#39;s in het opstellen va
 
 Ondanks alle tot dusver aangebrachte wijzigingen en configuraties is er geen code gepubliceerd. Als u een bibliotheek maakt die ruwweg is vertaald als een verzameling wijzigingen, kunt u code publiceren die op uw site wordt gebruikt.
 
-1. Ga naar [Adobe Experience Platform Launch](https://launch.adobe.com) en meld u aan als u hierom wordt gevraagd.
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de eigenschap tag die u op uw site wilt implementeren.
 3. Klik op het tabblad Publiceren en klik vervolgens op Nieuwe bibliotheek toevoegen.
 4. Geef de bibliotheek de naam &#39;Aanvankelijke wijzigingen&#39; en selecteer de ontwikkelomgeving.
