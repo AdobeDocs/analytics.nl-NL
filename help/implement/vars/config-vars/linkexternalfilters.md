@@ -1,47 +1,46 @@
 ---
 title: linkExternalFilters
 description: Gebruik de variabele linkExternalFilters om het automatisch volgen van de afsluitverbinding te helpen.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 1%
+source-wordcount: '301'
+ht-degree: 0%
 
 ---
 
-
 # linkExternalFilters
 
-AppMeasurement biedt de capaciteit om verbindingen automatisch te volgen die buiten uw plaats richten. Als [`trackExternalLinks`](trackexternallinks.md) deze optie is ingeschakeld, wordt een verzoek om een afbeelding naar rechts verzonden wanneer een bezoeker op een koppeling klikt om uw site te verlaten. De `linkExternalFilters` en [`linkInternalFilters`](linkinternalfilters.md) variabelen bepalen welke verbindingen als intern/extern worden beschouwd.
+AppMeasurement biedt de capaciteit om verbindingen automatisch te volgen die buiten uw plaats richten. Als [`trackExternalLinks`](trackexternallinks.md) is ingeschakeld, wordt een verzoek om een afbeelding naar de rechterkant van de Adobe verzonden wanneer een bezoeker op een koppeling klikt om uw site te verlaten. De variabelen `linkExternalFilters` en [`linkInternalFilters`](linkinternalfilters.md) bepalen welke verbindingen als intern/extern worden beschouwd.
 
-Als deze variabele een waarde bevat, gedraagt het automatisch volgen van de uitgangsverbinding zich als een lijst van gewenste personen. Als een koppelingsklik niet aan om het even welke `linkExternalFilters` waarden aanpast, wordt het beschouwd als geen uitgangsverbinding. De volledige URL wordt op basis van deze variabele gecontroleerd. Als [`linkLeaveQueryString`](linkleavequerystring.md) wordt toegelaten, wordt het vraagkoord ook onderzocht.
+Als deze variabele een waarde bevat, gedraagt het automatisch volgen van de uitgangsverbinding zich als een lijst van gewenste personen. Als een verbindingsklik geen `linkExternalFilters` waarden aanpast, wordt het niet beschouwd als een uitgangsverbinding. De volledige URL wordt op basis van deze variabele gecontroleerd. Als [`linkLeaveQueryString`](linkleavequerystring.md) wordt toegelaten, wordt het vraagkoord ook onderzocht.
 
 >[!TIP]
 >
->Gebruik deze variabele alleen als u precies weet welke domeinen u als exit-koppelingen wilt beschouwen. Veel organisaties vinden dat het gebruiken voldoende `linkInternalFilters` is voor hun behoeften voor het bijhouden van de exit-koppeling en gebruiken deze functie niet `linkExternalFilters`.
+>Gebruik deze variabele alleen als u precies weet welke domeinen u als exit-koppelingen wilt beschouwen. Vele organisaties vinden dat het gebruiken van `linkInternalFilters` voldoende voor hun behoeften van het uitgangsverbinding volgen is, en gebruiken `linkExternalFilters` niet.
 
-Als u zowel `linkInternalFilters` als `linkExternalFilters` gelijktijdig gebruikt, moet de geklikte verbinding aanpassen `linkExternalFilters` en niet aanpassen **** `linkInternalFilters` om als uitgangsverbinding te worden beschouwd. Als een geklikte koppeling overeenkomt met zowel de afsluitings- als de downloadkoppelingscriteria, heeft het type downloadkoppeling prioriteit.
+Als u zowel `linkInternalFilters` als `linkExternalFilters` gelijktijdig gebruikt, moet de aangeklikte verbinding `linkExternalFilters` **en** niet `linkInternalFilters` aanpassen om als uitgangsverbinding te worden beschouwd. Als een geklikte koppeling overeenkomt met zowel de afsluitings- als de downloadkoppelingscriteria, heeft het type downloadkoppeling prioriteit.
 
-## Uitgaande Verbindingen - Spoor in de Lancering van het Adobe Experience Platform
+## Uitgaande koppelingen - Bijhouden met tags in Adobe Experience Platform
 
-Het veld Track is een lijst met door komma&#39;s gescheiden filters (meestal domeinen) die tijdens het configureren van de Adobe Analytics-extensie onder de [!UICONTROL Link Tracking] accordeon valt.
+Het gebied van het Spoor is een komma-gescheiden lijst van filters (gewoonlijk domeinen) onder [!UICONTROL Link Tracking] accordion wanneer het vormen van de uitbreiding van Adobe Analytics.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
-3. Ga naar het [!UICONTROL Extensions] tabblad en klik vervolgens op de [!UICONTROL Configure] knop onder Adobe Analytics.
-4. Breid de accordeon uit, die het [!UICONTROL Link Tracking] [!UICONTROL Outbound Links - Track] veld onthult.
+3. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
+4. Vouw de accordeon [!UICONTROL Link Tracking] uit, zodat het veld [!UICONTROL Outbound Links - Track] zichtbaar wordt.
 
 Plaats filters die u altijd als extern wilt beschouwen in dit veld. Scheid meerdere domeinen met een komma zonder spatie.
 
-## s.linkExternalFilters in de aangepaste code-editor van AppMeasurement en Launch
+## s.linkExternalFilters in AppMeasurement en aangepaste code-editor
 
-De `s.linkExternalFilters` variabele is een tekenreeks met filters (zoals domeinen) die u als afsluitkoppelingen wilt gebruiken. Scheid meerdere domeinen met een komma zonder spaties.
+De variabele `s.linkExternalFilters` is een tekenreeks met filters (zoals domeinen) die u kunt gebruiken om koppelingen af te sluiten. Scheid meerdere domeinen met een komma zonder spaties.
 
 ```js
 s.linkExternalFilters = "example.com,example.net,example.org";
 ```
 
-Bekijk het volgende implementatievoorbeeld alsof dit is ingeschakeld `adobe.com`:
+Bekijk het volgende implementatievoorbeeld alsof het zich op `adobe.com` bevond:
 
 ```html
 <script>
