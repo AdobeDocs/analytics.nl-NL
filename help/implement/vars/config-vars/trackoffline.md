@@ -1,20 +1,19 @@
 ---
 title: trackOffline
 description: Schakel offline bijhouden in of uit. Hiermee wordt gewijzigd hoe AppMeturement gegevens verzamelt.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
-
 
 # trackOffline
 
 Offline bijhouden is een optionele manier om gegevens te verzamelen in Adobe Analytics. Als een bezoeker de verbinding met internet verbreekt maar door uw site blijft bladeren, worden treffers opgeslagen in een offline wachtrij totdat het apparaat opnieuw verbinding maakt met internet. Offlinetracering wordt meestal gebruikt voor mobiele toepassingen.
 
-De `trackOffline` variabele bepaalt of u het offline volgen in uw implementatie wilt gebruiken.
+De variabele `trackOffline` bepaalt als u off-line het volgen in uw implementatie wilt gebruiken.
 
 >[!IMPORTANT]
 >
@@ -23,18 +22,18 @@ De `trackOffline` variabele bepaalt of u het offline volgen in uw implementatie 
 Indien deze optie is ingeschakeld, gebruikt AppMeasurement het volgende proces om gegevens naar Adobe te verzenden:
 
 * Wanneer u een verzoek voor een afbeelding compileert, wordt een parameter voor de queryreeks voor een tijdstempel opgenomen.
-* Als het apparaat de servers van de de gegevensinzameling van Adobe niet kan bereiken, wordt de slag opgeslagen plaatselijk op het apparaat.
-* Tijdens elke volgende druk probeert AppMeturement een beeldverzoek naar Adobe te verzenden.
-   * Als Adobe-gegevensverzamelingsservers niet worden bereikt, wordt de hit toegevoegd aan de wachtrij op het apparaat.
-   * Als het Adobe-gegevensverzamelingsservers kan bereiken, worden de hit en de wachtrij met hits verzonden terwijl het apparaat offline was.
+* Als het apparaat geen Adobe gegevensverzamelingsservers kan bereiken, wordt de hit lokaal op het apparaat opgeslagen.
+* Tijdens elke volgende hit probeert AppMeasurement een afbeeldingsverzoek naar Adobe te verzenden.
+   * Als het geen servers van de Adobe- gegevensinzameling kan bereiken, wordt de klap toegevoegd aan de rij op het apparaat.
+   * Als het de servers van de gegevensinzameling van de Adobe kan bereiken, worden de slag en de rij van klappen terwijl het apparaat off-line was verzonden.
 
-## Offline volgen in Adobe Experience Platform starten
+## Offline volgen met tags in Adobe Experience Platform
 
-Er is geen specifiek veld in Launch om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
-## s.trackOffline in AppMeasurement en Launch, aangepaste code-editor
+## s.trackOffline in AppMeasurement en aangepaste code-editor
 
-De `s.trackOffline` variabele is een Booleaanse waarde die het offline bijhouden in- of uitschakelt. De standaardwaarde is `false`. Stel deze waarde in op `true` als u offline bijhouden wilt inschakelen.
+De variabele `s.trackOffline` is een Booleaanse waarde die het offline bijhouden in- of uitschakelt. De standaardwaarde is `false`. Stel deze waarde in op `true` als u offline bijhouden wilt inschakelen.
 
 ```js
 s.trackOffline = true;
