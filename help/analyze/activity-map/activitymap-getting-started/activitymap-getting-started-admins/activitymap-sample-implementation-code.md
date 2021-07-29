@@ -1,13 +1,13 @@
 ---
-description: Activity Map implementeren met Starten
+description: Activity Map implementeren met tags in Adobe Experience Platform.
 title: Activity Map implementeren
 feature: Activity Map
 role: User, Admin
 exl-id: d7ca35df-8fbe-4e87-b1e9-e1a77d5f420f
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '46'
+ht-degree: 4%
 
 ---
 
