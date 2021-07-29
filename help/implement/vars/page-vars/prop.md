@@ -1,43 +1,42 @@
 ---
 title: prop
 description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
 
-
 # prop
 
-*Deze Help-pagina beschrijft hoe u instructies kunt implementeren. Voor informatie over hoe de steunen als afmeting werken, zie[steun](/help/components/dimensions/prop.md)in de de gebruikersgids van Componenten.*
+*Deze Help-pagina beschrijft hoe u instructies kunt implementeren. Voor informatie over hoe de steunen als afmeting werken, zie [prop](/help/components/dimensions/prop.md) in de de gebruikersgids van Componenten.*
 
 Props zijn aangepaste variabelen die u op de gewenste manier kunt gebruiken. Ze blijven niet bestaan na de hit die ze zijn ingesteld.
 
 >[!TIP]
 >
->Adobe raadt u in de meeste gevallen aan [eVars](evar.md) te gebruiken. In eerdere versies van Adobe Analytics hadden props en eVars voor- en nadelen voor elkaar. Adobe heeft echter verbeteringen aangebracht in Vars waarin vrijwel alle gevallen van gebruik voor props zijn opgenomen.
+>Adobe raadt u in de meeste gevallen aan [eVars](evar.md) te gebruiken. In vorige versies van Adobe Analytics hadden props en eVars voor- en nadelen. Adobe heeft echter verbeteringen doorgevoerd in de mate waarin ze bijna alle gevallen van gebruik voor props naleven.
 
-Als u een document [van het](/help/implement/prepare/solution-design.md)oplossingsontwerp hebt, kunt u deze douanedimensies aan waarden toewijzen specifiek voor uw organisatie. Het aantal beschikbare proefdrukken is afhankelijk van uw contract met Adobe. Er zijn maximaal 75 props beschikbaar als uw contract met Adobe dit ondersteunt.
+Als u een [document van het oplossingsontwerp](/help/implement/prepare/solution-design.md) hebt, kunt u deze douanedimensies aan waarden toewijzen specifiek voor uw organisatie. Het aantal beschikbare props is afhankelijk van uw contract met Adobe. Er zijn maximaal 75 props beschikbaar als uw contract met Adobe dit ondersteunt.
 
-## Props in Adobe Experience Platform Launch
+## Props met tags in Adobe Experience Platform
 
-U kunt eigenschappen instellen tijdens het configureren van de Analytics-extensie (globale variabelen) of onder regels.
+U kunt eigenschappen instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Meld u aan bij [launch.adobe.com](https://launch.adobe.com) met uw Adobe-id-referenties.
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
-4. Klik onder [!UICONTROL Actions]op een bestaande [!UICONTROL Adobe Analytics - Set Variables] handeling of klik op het pictogram ‘+’.
-5. Stel het [!UICONTROL Extension] vervolgkeuzemenu in op Adobe Analytics en [!UICONTROL Action Type] op [!UICONTROL Set Variables].
-6. Zoek de [!UICONTROL Props] sectie.
+4. Klik onder [!UICONTROL Actions] op een bestaande handeling [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
+5. Stel het vervolgkeuzemenu [!UICONTROL Extension] in op Adobe Analytics en [!UICONTROL Action Type] op [!UICONTROL Set Variables].
+6. Zoek de sectie [!UICONTROL Props].
 
-U kunt een eigenschap instellen op een waarde of een gegevenselement. U kunt de waarde ook uit een andere Analytics-variabele kopiëren.
+U kunt een eigenschap instellen op een waarde of een gegevenselement. U kunt de waarde ook uit een andere variabele Analytics kopiëren.
 
-## s.prop1 - s.prop75 in AppMeasurement en Launch de redacteur van de douanecode
+## s.prop1 - s.prop75 in AppMeasurement en de douane redacteur van de code
 
-Elke prop-variabele is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. De maximale lengte is 100 bytes. Als waarden langer zijn dan 100 bytes, worden deze automatisch afgekapt wanneer ze naar Adobe worden verzonden.
+Elke prop-variabele is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. De maximale lengte is 100 bytes. waarden die langer zijn dan 100 bytes, worden automatisch afgekapt wanneer ze naar Adobe worden verzonden.
 
 ```js
 s.prop1 = "Example custom value";
@@ -53,7 +52,7 @@ Schakel lijsteigenschappen in de instellingen van de rapportsuite in. Zie [Verke
 
 >[!TIP]
 >
->In implementaties worden veel gebruikte scheidingstekens gevormd door een komma (`,`), een dubbele punt (`:`), een puntkomma (`;`) of een pipe (`|`). U kunt elk scheidingsteken gebruiken dat het beste bij uw implementatie past.
+>De gemeenschappelijke afbakeningen die in implementaties worden gebruikt zijn een komma (`,`), dubbelepunt (`:`), puntkomma (`;`), of pijp (`|`). U kunt elk scheidingsteken gebruiken dat het beste bij uw implementatie past.
 
 ### Lijsteigenschappen instellen
 
