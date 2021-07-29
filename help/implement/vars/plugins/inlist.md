@@ -1,14 +1,13 @@
 ---
 title: inList
 description: Controleer of een waarde is opgenomen in een andere door tekens gescheiden waarde.
-translation-type: tm+mt
-source-git-commit: 27d151abe9bdf52c6eabdc3e9c785a99d08f971e
+exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
-
 
 # Adobe-plug-in: inList
 
@@ -18,11 +17,11 @@ ht-degree: 0%
 
 Met de insteekmodule `inList` kunt u controleren of er al een waarde bestaat binnen een tekenreeks met scheidingstekens of een JavaScript-arrayobject. Verschillende andere plug-ins zijn afhankelijk van de `inList` plug-in om te werken. Deze insteekmodule biedt een duidelijk voordeel ten opzichte van de JavaScript-methode `indexOf()`, waarbij gedeeltelijke tekenreeksen niet overeenkomen. Als u deze insteekmodule bijvoorbeeld hebt gebruikt om te controleren op `"event2"`, komt deze niet overeen met een tekenreeks die `"event25"` bevat. Deze insteekmodule is niet nodig als u niet hoeft te controleren op waarden in afgebakende tekenreeksen of arrays, of als u uw eigen `indexOf()` logica wilt gebruiken.
 
-## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
+## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -34,11 +33,11 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Type handeling: Initialiseren inList
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
 1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
@@ -85,7 +84,7 @@ if(s.inList(s.events,"event22"))
 
 ...de voorwaardelijke if-instructie is waar
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 Indien...
 
@@ -101,7 +100,7 @@ if(s.inList(s.events,"event2"))
 
 ...de voorwaardelijke if-instructie is false omdat de inList-aanroep geen exacte overeenkomst heeft gemaakt tussen event2 en een van de gescheiden waarden in s.events
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 Indien...
 
@@ -170,5 +169,3 @@ if(s.inList(s.linkTrackVars,"eVar1","|"))
 ### v1.0 (2009)
 
 * Eerste release.
-
-
