@@ -2,9 +2,9 @@
 title: charSet
 description: De charSet-variabele bepaalt welke codering Adobe gebruikt om uw afbeeldingsverzoek te parseren.
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '192'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,7 @@ Stel deze variabele alleen in als u onjuiste waarden ([mojibake](https://en.wiki
 
 Tekenset is een veld onder de accordeon [!UICONTROL General] wanneer u de Adobe Analytics-extensie configureert.
 
-1. Ga naar `experience.adobe.com` en meld u aan wanneer u hierom wordt gevraagd.
-1. Selecteer [!UICONTROL Launch / Data Collection].
-1. Klik [!UICONTROL Go to Launch / Data Collection], dan selecteer [!UICONTROL Tags].
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
 1. Vouw de accordeon [!UICONTROL General] uit, zodat het veld [!UICONTROL Character Set] zichtbaar wordt.
