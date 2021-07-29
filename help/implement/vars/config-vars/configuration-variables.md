@@ -2,9 +2,9 @@
 title: Configuratievariabelen
 description: Gebruik configuratievariabelen om te bepalen hoe gegevens worden verzameld.
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '123'
 ht-degree: 4%
 
 ---
@@ -19,9 +19,7 @@ In JavaScript-implementaties met `AppMeasurement.js` worden configuratievariabel
 
 In implementaties die Adobe Experience Platform-tags gebruiken, worden configuratievariabelen doorgaans gevonden door de Adobe Analytics-extensie te configureren:
 
-1. Ga naar `experience.adobe.com` en meld u aan wanneer u hierom wordt gevraagd.
-1. Selecteer [!UICONTROL Launch / Data Collection].
-1. Klik [!UICONTROL Go to Launch / Data Collection], dan selecteer [!UICONTROL Tags].
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de eigenschap die u wilt bewerken.
 1. Klik op de tab [!UICONTROL Extensions] en klik vervolgens onder Adobe Analytics op [!UICONTROL Configure].
 
