@@ -2,9 +2,9 @@
 description: Deze sectie bevat de belangrijkste concepten voor de Adobe Analytics, een korte beschrijving van het concept, en een specifieke documentatiekoppeling met extra informatie over het onderwerp.
 title: Adobe Analytics - Belangrijkste concepten
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1815'
 ht-degree: 93%
 
 ---
@@ -24,7 +24,7 @@ Deze sectie bevat de belangrijkste concepten voor de Adobe Analytics, een korte 
 | Data Warehouse | Onbewerkte gegevens voor opslag en aangepaste rapporten, die u kunt uitvoeren door de data te filteren. Niveau niet bereikt. | [Data Warehouse Home](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Verenigt mobiele marketingmogelijkheden voor mobiele applicaties uit de hele Adobe Experience Cloud, zodat u de betrokkenheid van gebruikers met uw applicaties kunt begrijpen en verbeteren. | [Mobile Services Home](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors (voorheen Genesis) | Importeer trackingdata van applicaties van derden naar Analytics, zodat de prestaties op één centrale locatie volledig zichtbaar zijn. Met ingang van 1 augustus 2021 is Adobe voornemens de integratie van gegevensconnectors te beëindigen. | [Data Connectors Home](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | De volgende generatie mogelijkheden voor websitetags en mobiel SDK-beheer van Adobe. | [Adobe Experience Platform Launch home](https://experienceleague.adobe.com/docs/launch/using/home.html) |
+| Tags in Adobe Experience Platform | De volgende generatie mogelijkheden voor websitetags en mobiel SDK-beheer van Adobe. | [Overzicht van codes](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) |
 
 ## Belangrijke terminologie {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -107,7 +107,7 @@ Klik [hier](/help/technotes/terms.md) voor een uitgebreide woordenlijst met term
 | Implementatiehandleiding | Een beschrijving van dataverzamelingsvariabelen en details over het implementeren van code voor dataverzameling in JavaScript. | [Implementatiehandleiding](/help/implement/home.md) |
 | App-meting (s_code) | Globaal variabelenbeheer. | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | App-SDK’s | Aangepast pakket met een vooraf ingevulde versie van het configuratiebestand voor apps. | <ul><li>[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
-| Adobe Experience Platform Launch | Zie Tools voor Analytics. |  |
+| Tags in Adobe Experience Platform | Zie Tools voor Analytics. |  |
 | VISTA | Hiermee kunt u serverlogica toepassen om data te wijzigen of te segmenteren terwijl deze worden verzameld. | [VISTA-regels](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | Verwerkingsregels | Mogelijkheid om variabelen in te stellen, te wijzigen en te kopiëren in de Analytics-UI om te wijzigen welke data worden verzameld. | [Verwerkingsregels](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | Foutopsporingsopties | Er zijn verscheidene debuggers en pakketsniffers beschikbaar helpen uw implementatie, met inbegrip van debugger van Adobe Experience Cloud bevestigen. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=nl) |
