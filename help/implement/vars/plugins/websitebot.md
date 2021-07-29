@@ -2,9 +2,9 @@
 title: websiteBot
 description: Identificeer bots dynamisch met behulp van muisbeweging.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: e76cf660bb14b8a69e44d300afcc4e712147de5b
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ Deze plug-in voert twee controles uit:
 
 Als de gebruikersagent zich op een bureaublad bevindt en er geen muisbeweging wordt gedetecteerd, kan de plug-in
 
-* Maak een [!UICONTROL Direct Call] regelaanroep (voor Adobe Experience Platform Launch), of
-* Maak een `s.tl` vraag om erop te wijzen de bezoeker geen bot is.
+* Maak een directe vraag regel gebruikend markeringen in Adobe Experience Platform, of
+* Maak een koppelingsspoorvraag om erop te wijzen dat de bezoeker geen bot is.
 
 ## Vereisten
 
@@ -34,12 +34,12 @@ Adobe raadt het volgende aan voordat u deze plug-in gebruikt:
 * **eVar-instellingen** configureren: Stel een eVar in onder  [Conversievariabelen in de instellingen van de rapportsuite ](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) . Stel de vervaldatum in op **Nooit** of **Visit** en toerekening aan **&quot;Oorspronkelijke waarde (Eerste)&quot;**. Deze eVar moet in beide gevallen worden vastgesteld: wanneer of de [!UICONTROL Direct Call] regel of `s.tl` vraag in brand wordt gestoken.
 * **Verzamel gebruikersagent in een afzonderlijke variabele**: Verzamel de userAgent-tekenreeks in een aparte variabele om de effectiviteit van deze insteekmodule te controleren. Stel een eVar in op `navigator.UserAgent` bij elke druk om deze gegevens te verzamelen.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
 1. Voeg een nieuwe `websiteBot` regel toe.
 1. Voeg een **Gebeurtenis van de Beweging van de muis** aan de `websiteBot` regel, met deze douanecode toe:
 
-   ```
+   ```js
    trigger(document.addEventListener('mousemove', function detectMouseMove() {   
     document.removeEventListener('mousemove', detectMouseMove, false);   
     if (!
@@ -115,5 +115,5 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 ### 0.11 (3 juni 2021)
 
 * Code van bijgewerkte insteekmodule AppMeasurement
-* De bijgewerkte sectie van de Lancering met uitgebreide instructies.
+* Sectie met aangepaste code-editors bijgewerkt met uitgebreide instructies.
 * Bijgewerkte sectie &quot;De plug-in gebruiken&quot;.
