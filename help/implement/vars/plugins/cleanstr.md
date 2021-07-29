@@ -1,14 +1,13 @@
 ---
 title: cleanStr
 description: Alle overbodige tekens uit een tekenreeks verwijderen of vervangen.
-translation-type: tm+mt
-source-git-commit: c1a19f79eba3e992747a14146ca93306f84b355b
+exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 1%
+source-wordcount: '526'
+ht-degree: 0%
 
 ---
-
 
 # Adobe-plug-in: cleanStr
 
@@ -16,13 +15,13 @@ ht-degree: 1%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `cleanStr`-plug-in verwijdert of vervangt u alle overbodige tekens uit een tekenreeks, zoals HTML-labeltekens, extra witruimten, tabs en geretourneerde nieuwe regels/onderkomens. Het vervangt ook linker/juiste enkele citaten (`‘` en `’`) met rechte enige citaten (`'`). Adobe raadt u aan deze plug-in te gebruiken als u overbodige tekens wilt verwijderen uit variabele waarden en de functie &#39;Tekst opschonen&#39; in Launch voldoet niet aan de implementatievereisten. Deze plug-in is niet nodig als de verzamelde gegevens geen overbodige tekens bevatten of als de functie &#39;Tekst opschonen&#39; in Launch voldoende is.
+Met de `cleanStr`-plug-in verwijdert of vervangt u alle overbodige tekens uit een tekenreeks, zoals HTML-labeltekens, extra witruimten, tabs en geretourneerde nieuwe regels/onderkomens. Het vervangt ook linker/juiste enkele citaten (`‘` en `’`) met rechte enige citaten (`'`). Adobe raadt u aan deze plug-in te gebruiken als u overbodige tekens wilt verwijderen uit variabele waarden en de functie &#39;Tekst opschonen&#39; in Adobe Experience Platform voldoet niet aan de implementatievereisten. Deze insteekmodule is niet nodig als de verzamelde gegevens geen overbodige tekens bevatten of als de functie &#39;Tekst opschonen&#39; in de gebruikersinterface voor gegevensverzameling voldoende is.
 
-## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
+## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -34,11 +33,11 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Type handeling: CleanStr initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
 1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
@@ -82,7 +81,7 @@ s.eVar1 = cleanStr(s.eVar1)
 
 ...eVar1 wordt ingesteld op gelijk aan &quot;this is a message string&quot; (met alle extra spaties en alle tabtekens verwijderd)
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 Indien...
 
