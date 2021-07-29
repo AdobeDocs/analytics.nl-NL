@@ -2,7 +2,7 @@
 title: Koppelingen uitschakelen
 description: Leer hoe u de optie om te weigeren koppelingen maakt voor bezoekers van uw site.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -27,10 +27,8 @@ Wanneer een bezoeker een opt-out-URL bereikt, wordt hem gevraagd een uitschakelc
 
 De pagina om te weigeren voor uw organisatie is afhankelijk van de variabele [`trackingServer`](../vars/config-vars/trackingserver.md) waarde in uw implementatie.
 
-* In de gebruikersinterface van de Adobe Experience Platform-gegevensverzameling:
-   1. Ga naar `experience.adobe.com` en meld u aan wanneer u hierom wordt gevraagd.
-   1. Selecteer [!UICONTROL Launch / Data Collection].
-   1. Klik [!UICONTROL Go to Launch / Data Collection], dan selecteer [!UICONTROL Tags].
+* In de UI voor gegevensverzameling:
+   1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
    1. Klik op de gewenste eigenschap.
    1. Klik op de tab [!UICONTROL Extensions] en klik vervolgens onder Adobe Analytics op [!UICONTROL Configure].
    1. Klik op de accordeon [!UICONTROL General] en noteer de waarde [!UICONTROL Tracking Server].
