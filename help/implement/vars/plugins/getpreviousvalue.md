@@ -1,14 +1,13 @@
 ---
 title: getPreviousValue
 description: Hiermee wordt de laatste waarde opgehaald die in een variabele is doorgegeven.
-translation-type: tm+mt
-source-git-commit: a58e57438fdbac6f2e84c5f85388dff3a43dbd3b
+exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
-
 
 # Adobe-plug-in: getPreviousValue
 
@@ -18,11 +17,11 @@ ht-degree: 0%
 
 Met de `getPreviousValue`-plug-in kunt u een variabele instellen op een waarde die bij een vorige hit is ingesteld. Deze insteekmodule is niet nodig als de implementatie alle gewenste waarden in de huidige hit bevat.
 
-## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
+## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -34,11 +33,11 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Type handeling: getPreviousValue initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
 1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
@@ -78,7 +77,7 @@ s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 * De code herstelt vervolgens het cookie &quot;gpv_Page&quot;, waardoor deze gelijk is aan de huidige waarde van s.pageName
 * Als s.pageName niet op het tijdstip wordt geplaatst deze code loopt, dan zal de code de vervaldatum voor de huidige waarde van het koekje terugstellen
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 De volgende codesets s.prop7 is gelijk aan de laatste waarde die in s.pageName wordt overgegaan, maar slechts als event1 ook bevat binnen s.events is, zoals die via de insteekmodule inList wordt bepaald, op het tijdstip dat de vraag plaatsvindt.
 
