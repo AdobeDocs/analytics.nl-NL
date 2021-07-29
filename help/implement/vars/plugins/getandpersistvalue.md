@@ -1,14 +1,13 @@
 ---
 title: getAndPersistValue
 description: Sla een waarde op die later kan worden opgehaald.
-translation-type: tm+mt
-source-git-commit: a2970e05abf0d1f963175db6e3554aa0e3034a70
+exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
-
 
 # Adobe-plug-in: getAndPersistValue
 
@@ -16,13 +15,13 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `getAndPersistValue`-plug-in kunt u een waarde opslaan in een cookie die later tijdens een bezoek kan worden opgehaald. Deze rol komt overeen met de functie [!UICONTROL Storage duration] in Adobe Experience Platform Launch. Adobe raadt u aan deze plug-in te gebruiken als u automatisch een variabele Analytics tot dezelfde waarde wilt behouden in volgende hits nadat de variabele is ingesteld. Deze plug-in is niet nodig als de functie [!UICONTROL Storage duration] van Launch voldoende is of als u variabelen niet op dezelfde waarde hoeft in te stellen en aan te houden bij volgende treffers. Voor de ingebouwde persistentie van eVars is het gebruik van deze plug-in niet vereist, omdat deze variabelen de server-side voor-Adobe blijven.
+Met de `getAndPersistValue`-plug-in kunt u een waarde opslaan in een cookie die later tijdens een bezoek kan worden opgehaald. Deze rol komt overeen met de functie [!UICONTROL Storage duration] die tags gebruikt in Adobe Experience Platform. Adobe raadt u aan deze plug-in te gebruiken als u automatisch een variabele Analytics tot dezelfde waarde wilt behouden in volgende hits nadat de variabele is ingesteld. Deze insteekmodule is niet nodig als de functie [!UICONTROL Storage duration] in Adobe Experience Platform voldoende is. Het is ook niet nodig om deze plug-in te gebruiken als u variabelen niet op dezelfde waarde hoeft in volgende treffers in te stellen en te behouden. Voor de ingebouwde persistentie van eVars is het gebruik van deze plug-in niet vereist, omdat deze variabelen de server-side voor-Adobe blijven.
 
-## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
+## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -34,11 +33,11 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Type handeling: getAndPersistValue initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
 1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
