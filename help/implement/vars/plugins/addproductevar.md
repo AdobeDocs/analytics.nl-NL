@@ -1,14 +1,13 @@
 ---
 title: addProductEvar
 description: Voegt merchandising Vars aan de productvariabele toe.
-translation-type: tm+mt
-source-git-commit: abed7197898d6c27448069350c9f2217d58293c4
+exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 1%
+source-wordcount: '537'
+ht-degree: 0%
 
 ---
-
 
 # Adobe-plug-in: addProductEvar
 
@@ -22,11 +21,11 @@ Met de `addProductEvar`-plug-in kunt u eenvoudig een Adobe Analytics-eVar voor h
 >
 >Deze plug-in vervangt eVars die al in een product voorkomen niet. Er worden alleen waarden toegevoegd die u instelt met deze insteekmodule. Wees voorzichtig bij het toevoegen van eVars die al voor dat product bestaan.
 
-## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
+## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -38,11 +37,11 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Type handeling: AddProductEvar initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
 1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
