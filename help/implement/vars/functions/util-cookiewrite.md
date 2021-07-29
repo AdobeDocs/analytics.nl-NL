@@ -1,29 +1,31 @@
 ---
 title: Util.cookieWrite
 description: Schrijft een waarde voor een cookie.
-translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 2%
 
 ---
 
-
 # Util.cookieWrite
 
-Met cookies kunt u informatie opslaan en ophalen op meerdere pagina&#39;s in hetzelfde domein. Gebruik de `Util.cookieWrite()` methode om een waarde in te stellen op een cookie. U kunt de [`Util.cookieRead()`](util-cookieread.md) methode gebruiken om waarden terug te winnen die gebruikend worden geplaatst `Util.cookieWrite()`.
+Met cookies kunt u informatie opslaan en ophalen op meerdere pagina&#39;s in hetzelfde domein. Gebruik de methode `Util.cookieWrite()` om een waarde in te stellen op een cookie. Met de methode [`Util.cookieRead()`](util-cookieread.md) kunt u waarden ophalen die zijn ingesteld met `Util.cookieWrite()`.
 
-## Cookies instellen in Adobe Experience Platform Launch
+## Cookies instellen met tags in Adobe Experience Platform
 
-Het starten biedt niet de mogelijkheid cookies in de interface in te stellen. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+De UI van de Inzameling van Gegevens verstrekt niet de capaciteit om koekjes in de interface te plaatsen. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
-## s.Util.cookieWrite() in de aangepaste code-editor AppMeasurement en Launch
+## s.Util.cookieWrite() in AppMeasurement en aangepaste code-editor
 
-Roep de `s.Util.cookieWrite()` methode aan om een koekje aan een gewenste waarde te plaatsen.
+Roep de methode `s.Util.cookieWrite()` aan om een koekje aan een gewenste waarde te plaatsen.
 
 ```js
 s.Util.cookieWrite("example_cookie","Example cookie value")
 ```
 
-Er is een optioneel derde argument beschikbaar dat bepaalt wanneer het cookie verloopt. Cookies die zijn ingesteld met gebruik van `s.Util.cookieWrite()` verlopen standaard aan het einde van de browsersessie.
+Er is een optioneel derde argument beschikbaar dat bepaalt wanneer het cookie verloopt. Cookies die zijn ingesteld met `s.Util.cookieWrite()` verlopen standaard aan het einde van de browsersessie.
 
 ```js
 // Set a cookie with an expiration 6 months from now
