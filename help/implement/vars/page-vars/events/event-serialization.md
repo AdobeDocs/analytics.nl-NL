@@ -2,11 +2,10 @@
 title: Gebeurtenisserialisatie
 description: Help metrische gegevens op uw site te dupliceren.
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-translation-type: tm+mt
-source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 1%
+source-wordcount: '321'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +31,11 @@ Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niv
 >
 >Als u de gebeurtenis [`purchase`](event-purchase.md) wilt dedupliceren, gebruikt u in plaats daarvan de variabele [`purchaseID`](../purchaseid.md).
 
-## Gebeurtenis-id&#39;s gebruiken in Adobe Experience Platform Launch
+## Gebeurtenis-id&#39;s gebruiken met tags in Adobe Experience Platform
 
 U kunt het veld voor de gebeurtenis-id instellen tijdens het configureren van de extensie Analytics (globale variabelen) of als een handeling in een regel.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
 3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
 4. Klik onder [!UICONTROL Actions] op een bestaande handeling [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
@@ -45,7 +44,7 @@ U kunt het veld voor de gebeurtenis-id instellen tijdens het configureren van de
 
 Geldige waarden zijn alfanumerieke tekens met een lengte tot 20 bytes. Als u een waarde invoert die langer is dan 20 bytes, wordt de waarde door het systeem ingekort tot de eerste 20 bytes.
 
-## Gebeurtenis-id&#39;s gebruiken in de aangepaste code-editor van AppMeasurement en Launch
+## Gebeurtenis-id&#39;s gebruiken in AppMeasurement en aangepaste code-editor
 
 De rangschikking van de gebeurtenis maakt deel uit van `s.events` variabele. Wijs een id toe aan elke gebeurtenis met een dubbele punt in de tekenreeks.
 
