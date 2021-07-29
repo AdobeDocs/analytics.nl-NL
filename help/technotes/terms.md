@@ -2,9 +2,9 @@
 title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
    * Custom Insight, een historische naam voor variabele van het douaneverkeer.
 * **KPI:** Afkorting voor prestatiekernindicator. Metriek die een bedrijf helpen begrijpen hoe hun plaats presteert. Elke organisatie heeft verschillende KPI&#39;s die verschillende aspecten van hun zaken meten. Zie [Een document voor het ontwerp van een oplossing maken](/help/implement/prepare/solution-design.md) in de gebruikershandleiding Implementeren.
 * **Latentie:** De vertraging tussen wanneer gegevens worden verzameld en wanneer deze beschikbaar zijn in rapporten. De typische latentie in een rapportreeks is 30-90 minuten. Zie [Latentie](/help/technotes/latency.md) in de gebruikershandleiding voor technische notities.
-* **Starten:korte versie voor Adobe Experience Platform Launch, oplossing voor huidige implementatie** van Adobe. Zie [Overzicht](https://experienceleague.adobe.com/docs/launch/using/overview.html) in de Adobe Experience Platform Launch-gebruikershandleiding.
+* **Starten:** niet meer gebruikt als een term. De verkorte oude tags in Adobe Experience Platform, Adobe huidige implementatieoplossing. Zie [Overzicht van tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) in de Adobe Experience Platform-gebruikershandleiding.
 * **Lijst, eigenschap:** een instelling die een typische verkeersvariabele omzet ter ondersteuning van meerdere waarden in dezelfde hit. Elke variabele van het aangepaste verkeer kan een lijsteigenschap worden als de instelling is ingeschakeld. Zie [prop](../implement/vars/page-vars/prop.md) in de gebruikershandleiding Implementeren.
 * **List var:** Een afzonderlijke variabele, gescheiden van conversievariabelen. Lijstvariabelen ondersteunen meerdere waarden in dezelfde hit en de waarden van variabelen blijven behouden tijdens een bezoek, net als conversievariabelen. Slechts drie lijstvars zijn beschikbaar aan een organisatie. Zie [list](/help/implement/vars/page-vars/list.md) in de gebruikershandleiding Implementeren.
 * **Aanmeldingsbedrijf:** een verzameling van rapportsuites die door uw organisatie worden gebruikt. Sommige organisaties hebben veelvoudige login bedrijven die op verschillende delen van hun organisatie van toepassing zijn.
