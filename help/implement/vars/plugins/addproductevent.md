@@ -1,14 +1,13 @@
 ---
 title: addProductEvent
 description: Voegt aangepaste gebeurtenissen toe aan de variabele producten en gebeurtenissen.
-translation-type: tm+mt
-source-git-commit: 3359ed8e7ef7979be57ca5ec9ca1803fc52afe88
+exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
-
 
 # Adobe-plug-in: addProductEvent
 
@@ -18,11 +17,11 @@ ht-degree: 0%
 
 Met de insteekmodule `addProductEvent` wordt een numerieke of valutagebeurtenis toegevoegd aan de variabele [`products`](../page-vars/products.md). Adobe raadt u aan deze plug-in te gebruiken als u een numerieke of valutagebeurtenis wilt toevoegen aan de variabele `products` zonder dat u zich zorgen hoeft te maken over de indeling van de productreeks. Deze insteekmodule is niet nodig als u geen numerieke of valutagebeurtenissen gebruikt in de variabele `products`.
 
-## De insteekmodule installeren met de Adobe Experience Platform Launch-extensie
+## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
 1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
@@ -34,11 +33,11 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
    * Type handeling: AddProductEvent initialiseren
 1. Sla de wijzigingen in de regel op en publiceer deze.
 
-## Plug-in installeren met de aangepaste code-editor van Launch
+## Plug-in installeren met aangepaste code-editor
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u met uw Adobe-id aan bij [launch.adobe.com](https://launch.adobe.com).
+1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
 1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
 1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
@@ -84,7 +83,7 @@ s.addProductEvent("event35", "25");
 
 De bovenstaande code stelt ook de `s.events` variabele in op `"purchase,event35"`
 
-### Voorbeeld 2
+### Voorbeeld 3
 
 Met de volgende code wordt de variabele `s.products` ingesteld op `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
