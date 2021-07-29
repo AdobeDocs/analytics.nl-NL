@@ -2,10 +2,10 @@
 title: Adobe Analytics-machtigingen - overzichtstabellen
 description: Tabellen die een overzicht geven van de beschikbare Adobe Analytics-machtigingen in Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1271'
+ht-degree: 4%
 
 ---
 
@@ -73,7 +73,7 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 
 | Analyse | Beheer | Toegangsbeheer | Alleen-rapportfuncties | Vervangen | Beschrijving |
 | --- | --- | --- | --- | --- | --- |
-| Code Manager | x |  |  |  | Bewaren voor oudere doeleinden. Hiermee krijgt u toegang tot Beheer > Alle beheerders > Codebeheer. In de meeste gevallen moet u in plaats daarvan de bibliotheken gebruiken die zijn opgenomen in de gegevensverzameling van Adobe Experience Platform. |
+| Code Manager | x |  |  |  | Bewaren voor oudere doeleinden. Hiermee krijgt u toegang tot Beheer > Alle beheerders > Codebeheer. In de meeste gevallen gebruikt u in plaats hiervan de bibliotheken die zijn opgenomen in de gebruikersinterface voor gegevensverzameling. |
 | Codebeheer - Webservices | x |  |  |  | Hiermee krijgt u toegang tot de codecontrole via de 1.4-API. |
 | Rapportageopties verbergen | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Rapportsets verbergen. Biedt de mogelijkheid om een rapportsuite in de organisatie te verbergen, ongeacht de toegang tot de rapportsuite. |
 | Integraties (maken) | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Gegevensconnectors en kan de gebruiker gegevensconnectors maken. |
