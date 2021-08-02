@@ -2,9 +2,9 @@
 title: products
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Met de variabele `products` worden producten en eigenschappen bijgehouden die aa
 
 >[!NOTE]
 >
->Als deze variabele in een slag zonder een het winkelwagentgebeurtenis in [`events`](events/events-overview.md) variabele wordt geplaatst, [de metrische verhogingen van de Weergaven van het Product](/help/components/metrics/product-views.md) met 1. Zorg ervoor dat u de juiste winkelwagengebeurtenis instelt bij elke treffer met de variabele `products`.
+>Als deze variabele in een slag zonder de [`events`](events/events-overview.md) variabele wordt geplaatst, [de metrische toename van de Weergaven van het Product](/help/components/metrics/product-views.md) met 1. Zorg ervoor dat u de aangewezen gebeurtenissen bij elke slag met `products` variabele plaatst.
 
 ## Producten met labels in Adobe Experience Platform
 
