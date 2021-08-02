@@ -2,9 +2,9 @@
 title: getNewRepeat
 description: Traceeractiviteiten van nieuwe versus herhaalde bezoekers.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -69,42 +69,42 @@ Deze plug-in gebruikt een cookie met de naam `"s_nr[LENGTH]"`, waarbij `[LENGTH]
 
 ### Voorbeeld 1
 
-De volgende code stelt s.eVar1 gelijk aan de waarde van &quot;Nieuw&quot;voor nieuwe bezoekers en zal s.eVar1 blijven plaatsen gelijk aan de waarde van &quot;Nieuw&quot;(met elke nieuwe vraag) tijdens het resterende gedeelte van het bezoek van de bezoeker aan de plaats.
+De volgende code stelt `eVar1` in op de waarde van `"New"` voor nieuwe bezoekers en blijft `eVar1` instellen op de waarde van `"New"` (met elke nieuwe oproep) gedurende de rest van het bezoek van de bezoeker aan de site.
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### Voorbeeld 2
 
-Als de bezoeker vanaf 31 minuten tot 30 dagen na het aanroepen van de laatste keer terugkeert naar de site, stelt de volgende code s.eVar1 gelijk aan de waarde van &quot;Repeat&quot; en blijft s.eVar1 gelijk aan de waarde van &quot;Repeat&quot; (met elke nieuwe aanroep) gedurende het resterende gedeelte van het bezoek van de bezoeker aan de site.
+Als de bezoeker op een willekeurig moment van 31 minuten tot 30 dagen sinds de laatste keer dat `getNewRepeat()` werd aangeroepen, terugkeert naar de site, stelt de volgende code `eVar1` in op de waarde van `"Repeat"` en blijft `eVar1` op de waarde van `"Repeat"` (met elke nieuwe aanroep) gedurende het resterende gedeelte van het bezoek van de bezoeker aan de site.
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### Voorbeeld 3
 
-Als de bezoeker niet minstens 30 dagen sinds de laatste keer dat s.getNewRepeat() werd geroepen, aan de plaats is geweest, zal de volgende code s.eVar1 gelijk aan de waarde van &quot;Nieuw&quot;plaatsen en s.eVar1 gelijk aan de waarde van &quot;Nieuw&quot;(met elke nieuwe vraag) tijdens het resterende gedeelte van het bezoek van de bezoeker aan de plaats blijven plaatsen.
+Als de bezoeker niet minstens 30 dagen sinds de laatste keer `getNewRepeat()` werd geroepen is geweest, plaatst de volgende code `eVar1` aan de waarde van `"New"` en blijft `eVar1` aan de waarde van `"New"` (met elke nieuwe vraag) tijdens het resterende deel van het bezoek van de bezoeker aan de plaats plaatsen.
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### Voorbeeld 4
 
-Als de bezoeker 31 minuten tot 365 dagen (d.w.z. 1 jaar) sinds de laatste keer dat s.getNewRepeat() werd aangeroepen terugkeert naar de site, zal de volgende code s.eVar1 gelijk stellen aan de waarde van &quot;Repeat&quot; en zal s.eVar1 gelijk blijven aan de waarde van &quot;Repeat&quot; (met elke nieuwe vraag) gedurende de rest van de bezoeker bezoek aan de site .
+Als de bezoeker 31 minuten tot 365 dagen (d.w.z. 1 jaar) sinds de laatste keer dat `getNewRepeat()` werd aangeroepen, terugkeert naar de site, stelt de volgende code `eVar1` in op de waarde van `"Repeat"` en blijft `eVar1` op de waarde van `"Repeat"` (met elke nieuwe aanroep) gedurende het resterende bezoek van de bezoeker aan de site.
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ### Voorbeeld 5
 
-Als de bezoeker niet minstens 365 dagen (d.w.z. 1 jaar) sinds de laatste keer s.getNewRepeat() is geroepen geweest, zal de volgende code s.eVar1 gelijk aan de waarde van &quot;Nieuw&quot;plaatsen en s.eVar1 gelijk aan de waarde van &quot;Nieuw&quot;(met elke nieuwe vraag) tijdens het resterende bezoek van de bezoeker aan de plaats blijven plaatsen.
+Als de bezoeker niet minstens 365 dagen (d.w.z. 1 jaar) sinds de laatste keer `getNewRepeat()` werd geroepen, plaatst de volgende code `eVar1` aan de waarde van `"New"` en blijft `eVar1` aan de waarde van `"New"` (met elke nieuwe vraag) tijdens het resterende deel van het bezoek van de bezoeker aan de plaats plaatsen.
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ## Versiehistorie
