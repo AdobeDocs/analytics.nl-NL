@@ -6,10 +6,9 @@ title: Referentie gegevenskolom
 feature: Grondbeginselen van rapporten en analyses
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3409'
 ht-degree: 0%
 
 ---
@@ -275,7 +274,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `visit_referrer` | De eerste referentie van het bezoek. | varchar(255) |
 | `visit_search_engine` | Numerieke id van de eerste zoekfunctie van het bezoek. Hiermee wordt `search_engines.tsv` opzoekopdracht gebruikt. | small int zonder teken |
 | `visit_start_page_url` | De eerste URL van het bezoek. | varchar(255) |
-| `visit_start_pagename` | De naam van de eerste pagina van het bezoek. | varchar(100) |
+| `visit_start_pagename` | De waarde Paginanaam in de eerste hit van het bezoek. | varchar(100) |
 | `visit_start_time_gmt` | Tijdstempel (in Unix-tijd) van de eerste hit van het bezoek. | int |
 | `weekly_visitor` | Markering om te bepalen of de treffer een nieuwe wekelijkse bezoeker is. | tinyint zonder teken |
 | `yearly_visitor` | Markering om te bepalen of de treffer een nieuwe jaarlijkse bezoeker is. | tinyint zonder teken |
