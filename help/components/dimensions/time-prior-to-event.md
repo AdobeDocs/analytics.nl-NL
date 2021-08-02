@@ -1,14 +1,13 @@
 ---
 title: Tijd vóór de gebeurtenis
 description: De hoeveelheid tijd tussen metrisch en eerste klap van het bezoek.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
+source-git-commit: 2c363dce63768101356a6f43ea1e45ae8dd7b139
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
-
 
 # Tijd vóór de gebeurtenis
 
@@ -18,6 +17,6 @@ De dimensie &#39;Tijd voorafgaand aan gebeurtenis&#39; rapporteert de hoeveelhei
 
 Hoewel deze dimensie technisch uit de doos voor alle implementaties werkt, werkt het best met douane en aankoopgebeurtenissen. Adobe raadt u aan aangepaste gebeurtenissen op uw site te implementeren. Als u douanegebeurtenissen uitvoert, wordt geen extra implementatie vereist voor deze dimensie.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items bevatten op tijd gebaseerde emmers die variëren van `"Less than 1 minute"` tot `"More than 15 hours"`. Als een bezoeker bijvoorbeeld 23 minuten had geduurd van zijn eerste hit tot een aankoop, zou hij onder het item `"10 to 30 minutes"` Dimensie horen.
+Dimension-items bevatten op tijd gebaseerde emmers tussen `"Less than 1 minute"` en `"More than 15 hours"`. Als een bezoeker bijvoorbeeld 23 minuten had geduurd van de eerste hit tot een aankoop, hoort deze onder het dimensie-item `"10 to 30 minutes"`. De emmers kunnen niet voor dit metrisch worden aangepast.
