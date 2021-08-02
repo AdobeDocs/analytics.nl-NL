@@ -4,10 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Adobe Analytics-dashboards, Report Builder en Activity Map.
-translation-type: tm+mt
-source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
+source-git-commit: 064674c3fa19f485850c4af6298c134d640d17bd
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1013'
 ht-degree: 87%
 
 ---
@@ -25,7 +24,7 @@ ht-degree: 87%
       + [Sjablonen](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Meerdere rapportsuites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Hotkeys (sneltoetsen)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-      + [Kleurenpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
+      + [Kleurpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Dichtheid weergeven](analysis-workspace/build-workspace-project/view-density.md)
    + Onderdelen {#components}
       + [Overzicht van onderdelen](analysis-workspace/components/analysis-workspace-components.md)
@@ -33,7 +32,7 @@ ht-degree: 87%
          + [Voorvertoningsdimensies](analysis-workspace/components/dimensions/view-dimensions.md)
          + [Uitsplitsingsdimensies](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [Tijduitsplitsende dimensies](analysis-workspace/components/dimensions/time-parting-dimensions.md)
-      + [Cijfers](analysis-workspace/components/apply-create-metrics.md)
+      + [Metrics](analysis-workspace/components/apply-create-metrics.md)
       + [Segmenten](analysis-workspace/components/t-freeform-project-segment.md)
       + Kalender- en datumbereiken {#calendar-date-ranges}
          + [Overzicht van kalender- en datumbereiken](analysis-workspace/components/calendar-date-ranges/calendar.md)
@@ -89,7 +88,7 @@ ht-degree: 87%
          + [Overzicht van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Gebruiksgevallen van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Statistische tests bij segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Projecten selecteren of delen {#curate-share}
+   + Projecten voor curven, delen en plannen {#curate-share}
       + [Menu Delen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
       + [Projecten delen](analysis-workspace/curate-share/share-projects.md)
@@ -178,7 +177,7 @@ ht-degree: 87%
       + Overzicht van cijfers en dimensies {#metrics-dimension}
          + [Overzicht van cijfers en en dimensies](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
          + [Cijfers en dimensies toevoegen](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
-         + [Berekende statistieken](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
+         + [Berekende standaarden](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
          + [Verkeers- en commerce-cijfers combineren in dezelfde aanvraag](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
          + [Toegangsrechten van gebruikers voor dimensies en cijfers](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
          + [Cijfers wijzigen - velddefinities](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
@@ -276,7 +275,7 @@ ht-degree: 87%
    + [Kennisbronnen](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
    + [Aan de slag met Reports and Analytics](reports-analytics/getting-started.md)
-   + [Adobe Analytics - belangrijke concepten](reports-analytics/key-concepts.md)
+   + [Adobe Analytics - Belangrijkste concepten](reports-analytics/key-concepts.md)
    + Overzicht van de rapportinterface {#reporting-interface}
       + [Over dataverzameling](reports-analytics/overview/overview-data-collection.md)
       + [Menu Rapporten](reports-analytics/overview/reports-menu.md)
@@ -300,8 +299,8 @@ ht-degree: 87%
    + [Dashboardbeheer](reports-analytics/dashboard-manage.md)
    + [Data-uittreksel](reports-analytics/data-extract.md)
    + [Taalrapporten](reports-analytics/funnels.md)
-   + [Cijfers](reports-analytics/metrics.md)
-   + [Doelen](reports-analytics/targets.md)
+   + [Metrisch](reports-analytics/metrics.md)
+   + [Targets](reports-analytics/targets.md)
    + [Waarschuwingen](reports-analytics/alerts.md)
    + [Kalendergebeurtenissen](reports-analytics/t-calendar-event.md)
    + [Veelgestelde vragen](reports-analytics/frequently-asked-questions.md)
