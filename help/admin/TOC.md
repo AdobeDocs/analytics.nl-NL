@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over het beheren van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 90%
@@ -56,7 +56,7 @@ ht-degree: 90%
    + [Widget publiceren](admin/publishing-widgets-admin.md)
    + [Voorkeurenbeheer](admin/preferences-manager.md)
    + [Privacy-instellingen](admin/privacy-settings.md)
-   + [Privacy-instellingen](admin/privacy-reporting.md)
+   + [Privacy-rapportage](admin/privacy-reporting.md)
    + Verwerkingsregels {#processing-rules}
       + [Overzicht van verwerkingsregels](admin/c-processing-rules/processing-rules.md)
       + Configuratie van verwerkingsregels {#processing-rules-configuration}
