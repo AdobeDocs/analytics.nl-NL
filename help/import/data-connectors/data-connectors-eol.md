@@ -2,7 +2,7 @@
 description: Leer over wanneer en waarom de gegevensschakelaars van de Analyse zullen eind-van-leven worden.
 title: Vooraankondiging van einde van levensduur voor gegevensconnectors van Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 711020fc00aaaf546b2daf343c28634f7a693b50
+source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 8%
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 Al meer dan tien jaar streeft Adobe Analytics ernaar de beste oplossing voor web- en marketinganalyses te bieden om aan de behoeften van klanten te voldoen. Naarmate technologie en bedrijfsbehoeften evolueren, streven we ernaar voortdurend aan de hoogste standaarden te voldoen.  Helaas voldoen de API&#39;s die deze integratie mogelijk maken niet meer aan deze normen en zijn ze niet houdbaar in de moderne Adobe Analytics-technologie-infrastructuur.
 
-**Met ingang van 1 augustus 2021** heeft Adobe de integratie van gegevensconnectors beëindigd. Het einde van de levensduur maakt deel uit van de levenscyclus van elk technologisch product en de Adobe is erop gericht de overgang zo naadloos mogelijk te maken voor onze klanten en partners. Veel van deze integraties zijn beschikbaar via Adobe Exchange en kunnen ook in de toekomst worden gebruikt.
+**Met ingang van 19 augustus 2021** zal Adobe de integratie van gegevensconnectors beëindigen. Het einde van de levensduur maakt deel uit van de levenscyclus van elk technologisch product en de Adobe is erop gericht de overgang zo naadloos mogelijk te maken voor onze klanten en partners. Veel van deze integraties zijn beschikbaar via Adobe Exchange en kunnen ook in de toekomst worden gebruikt.
 
 ## Waarom zijn we aan het einde van deze functie?
 
