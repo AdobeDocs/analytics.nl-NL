@@ -4,10 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: De hulp organiseert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, en alarm.
-translation-type: tm+mt
-source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
+source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '642'
 ht-degree: 54%
 
 ---
@@ -103,6 +102,7 @@ ht-degree: 54%
    + [Postcode](dimensions/zip-code.md)
 + Cijfers {#metrics}
    + [Overzicht van cijfers](metrics/overview.md)
+   + [Aantal herhalingen](metrics/count-repeat-instances.md)
    + [Gemiddelde paginadiepte](metrics/average-page-depth.md)
    + [Gemiddelde paginaweergaven per bezoek](metrics/average-page-views-per-visit.md)
    + [Gemiddelde sessielengte](metrics/average-session-length.md)
@@ -246,7 +246,7 @@ ht-degree: 54%
 + Realtimerapportage {#real-time-reporting}
    + [Overzicht van realtimerapportage](c-real-time-reporting/realtime.md)
    + [Realtimerapporten configureren](c-real-time-reporting/t-realtime-admin.md)
-   + [Ondersteunde cijfers en dimensies in real time](c-real-time-reporting/realtime-metrics.md)
+   + [Ondersteunde cijfers en en dimensies in real time](c-real-time-reporting/realtime-metrics.md)
 + Marketingkanalen {#marketing-channels}
    + [Aan de slag met marketingkanalen](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution IQ met marketingkanalen](c-marketing-channels/mchannel-best-practices.md)
