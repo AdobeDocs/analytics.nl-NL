@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: De hulp organiseert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, en alarm.
-source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
+source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '644'
 ht-degree: 54%
 
 ---
@@ -231,6 +231,7 @@ ht-degree: 54%
       + [Classificatiesjabloon](classifications/importer/c-download-saint-data.md)
       + [Browser- en FTP-import](classifications/importer/import-file.md)
       + [Browserimport](classifications/importer/browser-import.md)
+      + [Browser exporteren](classifications/importer/browser-export.md)
       + [FTP-import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Verwerkingstijd](classifications/importer/processing-time.md)
       + [Problemen oplossen](classifications/importer/troubleshooting.md)
