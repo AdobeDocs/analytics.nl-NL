@@ -5,7 +5,7 @@ title: FTP-import
 feature: Admin Tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 2%
@@ -43,12 +43,6 @@ Maak een FTP-account voordat u gegevens uploadt via FTP. Zie [Een FTP-account ma
 
 ## Classificaties importeren via FTP {#task_132C36830B69418B8C929E39838EF01D}
 
-<!-- 
-
-t_upload_a_saint_data_file_via_ftp.xml
-
- -->
-
 Stappen die beschrijven hoe u een FTP-account kunt gebruiken om classificaties te importeren in Adobe Analytics.
 
 Zie [Een FTP-account maken](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF) voor meer informatie over het maken van een FTP-account.
@@ -67,12 +61,6 @@ Met regelmatige intervallen haalt Adobe geüploade gegevensbestanden op waaraan 
 ## Een FTP-account maken {#task_C019268E6C934C7C95F4326F42A22CCF}
 
 Maak een FTP-account voordat u gegevens uploadt via FTP. >
-
-<!-- 
-
-t_create_an_ftp_account.xml
-
- -->
 
 Zie [FTP en sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html) voor meer informatie over Adobe FTP-servers.
 
