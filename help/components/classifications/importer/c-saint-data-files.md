@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Classificatiedatabestanden
 feature: Admin Tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1736'
 ht-degree: 0%
 
 ---
@@ -178,6 +178,9 @@ Zie [Conversieklassificaties](https://experienceleague.adobe.com/docs/analytics/
 * Het betrokken datumbereik moet een begindatum en (optioneel) een einddatum bevatten.
 
 Campagnes classificeren op basis van datumbereik:
+
+>[!IMPORTANT]
+>Deze optie is niet beschikbaar voor rapportsuites die zijn ingeschakeld voor de nieuwe classificatiearchitectuur.
 
 1. Meld u aan bij [!DNL Analytics] en ga naar Beheer > Classificaties.
 1. Klik op het tabblad **[!UICONTROL Browser Export]**, controleer of de instellingen voor de classificatie waarvoor de datum is ingeschakeld correct zijn en klik vervolgens op Bestand exporteren.
