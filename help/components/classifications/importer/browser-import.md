@@ -5,11 +5,10 @@ title: Browserimport
 feature: Admin Tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 4%
+source-wordcount: '333'
+ht-degree: 3%
 
 ---
 
@@ -23,51 +22,24 @@ U kunt classificatiegegevens importeren (uploaden) via de browser. Deze methode 
 
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
-## Browser van classificaties de Invoer - de Beschrijvingen van het Gebied {#section_F628C47081DA4026A4D30E3D3454B1DA}
+## Browser voor classificaties importeren - Veldbeschrijvingen {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
-<table id="table_7FC7E510E7E74C2D9E8F316C5C6B66DB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Rapportsuite selecteren </td> 
-   <td colname="col2"> <p>De rapportsuite waar u de classificatiegegevens wilt importeren. Het bestand met importgegevens moet overeenkomen met de indeling van de gegevensset in de rapportsuite. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Te classificeren gegevensset </td> 
-   <td colname="col2"> <p>De gegevensset die de classificaties ontvangt. De drop-down lijst omvat alle rapporten in uw rapportreeksen die voor classificaties worden gevormd. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Te importeren bestand selecteren </td> 
-   <td colname="col2"> <p>Hiermee kunt u het bestand met importgegevens zoeken dat u wilt uploaden. </p> <p>Opmerking:  De maximale bestandsgrootte voor uploaden is 1 MB. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Gegevens bij conflicten overschrijven </td> 
-   <td colname="col2"> <p>Overschrijft automatisch bestaande gegevens die conflicteren met de geïmporteerde gegevens. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Classificatiebestand automatisch downloaden nadat het importeren is voltooid </td> 
-   <td colname="col2"> <p>Hiermee wordt automatisch een door tabs gescheiden bestand gedownload dat de gegevensset vertegenwoordigt met de nieuw geüploade classificatiegegevens. Adobe genereert dit bestand automatisch voor u als bij het importeren unieke id's worden gemaakt of als er fouten optreden. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Element | Beschrijving |
+| --- | --- |
+| Rapportsuite selecteren | De rapportsuite waar u de classificatiegegevens wilt importeren. Het bestand met importgegevens moet overeenkomen met de indeling van de gegevensset in de rapportsuite. |
+| Te classificeren gegevensset | De gegevensset die de classificaties ontvangt. De drop-down lijst omvat alle rapporten in uw rapportreeksen die voor classificaties worden gevormd. |
+| Te importeren bestand selecteren | Hiermee kunt u het bestand met importgegevens zoeken dat u wilt uploaden.  Opmerking:  De maximale bestandsgrootte voor uploaden is 1 MB. |
+| Gegevens bij conflicten overschrijven | Overschrijft automatisch bestaande gegevens die conflicteren met de geïmporteerde gegevens.<br>**Belangrijk**: Deze optie is niet beschikbaar voor rapportsuites die zijn ingeschakeld voor de nieuwe classificatiearchitectuur. |
+| Classificatiebestand automatisch downloaden nadat het importeren is voltooid | Hiermee wordt automatisch een door tabs gescheiden bestand gedownload dat de gegevensset vertegenwoordigt met de nieuw geüploade classificatiegegevens. Adobe genereert dit bestand automatisch voor u als bij het importeren unieke id&#39;s worden gemaakt of als er fouten optreden.<br>**Belangrijk**: Deze optie is niet beschikbaar voor rapportsuites die zijn ingeschakeld voor de nieuwe classificatiearchitectuur. |
+
 
 ## Classificaties importeren via de browser {#task_D7D51CB6FB35437AB68599B1B23FEAC1}
-
-<!-- 
-
-t_upload_a_saint_data_file_via_web_browser.xml
-
- -->
 
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Klik op **[!UICONTROL Import File]**.
 1. Configureer de **[!UICONTROL Browser Import]** velden.
 1. Klik op **[!UICONTROL Import File]**.
 1. Bekijk het statusvenster voor het verwerken van berichten.
-1. (Voorwaardelijk) Als u **[!UICONTROL Automatically Download Classification File After Upload is Complete]** selecteerde, specificeer waar u het resulterende dossier wilt opslaan wanneer de verwerking voltooit.
+1. (Voorwaardelijk) Als u **[!UICONTROL Automatically Download Classification File After Upload is Complete]** selecteerde, specificeer waar u het resulterende dossier wilt opslaan wanneer de verwerking voltooit. Merk op dat deze optie niet beschikbaar is voor rapportsuites die voor de Nieuwe Architectuur van de Classificatie worden toegelaten.
+
 >Wanneer het importeren is gelukt, worden onmiddellijk de juiste wijzigingen in een exportbewerking weergegeven. Gegevenswijzigingen in rapporten duren echter maximaal vier uur wanneer u een browser importeert en maximaal 24 uur wanneer u een FTP-import gebruikt.
