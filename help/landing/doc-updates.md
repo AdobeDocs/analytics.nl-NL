@@ -3,10 +3,10 @@ title: Technische documentatie-updates voor Adobe Analytics
 description: Belangrijke updates van de Adobe Analytics-documentatieopslagplaats.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 22f82125b5a0bb14c4446cb89b43889a3e4d8b5a
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 84%
+source-wordcount: '741'
+ht-degree: 50%
 
 ---
 
@@ -19,12 +19,30 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 * Raadpleeg [Nieuwe functies in de Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) in de handleiding voor tools voor details over nieuwe functies.
 * Zie [Audio en video meten in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) voor informatie over Adobe Analytics voor audio en video.
 
-## Belangrijkste updatedetails
+## Details over belangrijke documentatie-updates
 
 | Datum | Beschrijving |
 |---|---|
+| 5 augustus 2021 | Nieuw onderwerp op [Aantal herhaalde instanties](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
+| 23 juli 2021 | Diepgaande bespreking van [Merchandising Vars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
+| 15 juli 2021 | Nieuwe documentatie toegevoegd op [Adobe Analytics-landingspagina](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) |
+| 15 juni 2021 | Bijgewerkte [Beste werkwijzen voor marketingkanalen](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
+| 3 juni 2021 | Bijgewerkt de documentatie om [Data Feed Implementation](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) en [here](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl) beter uit te leggen. |
+| 25 mei 2021 | Bijgewerkt van de documentatie over [gevoeligheid voor hoofdletters/kleine letters in rapportage](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html). |
+| 13 mei 2021 | Updates voor [Data Warehouse-API-aanvragen](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Ze ondersteunen nu &#39;Uren&#39;. |
+| maart, april 2021 | Updates voor Adobe Analytics-dashboards [Executive guide](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html) en [Curatorhulplijn](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) |
+| 25 maart 2021 | [API-updates voor ](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) gegevensherstel (filteren voor URL&#39;s, querytekenreeksen, bij tekens en meer) |
+| 25 maart 2021 | Nieuwe [Gebruikslogbestand-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)-documentatie |
+| 14 januari 2021 | Optie voor taalselectie van toegevoegde analysedashboards. |
 | november 2020 | Nieuwe evaluatiedocumenten van de implementatie: <ul><li>[Volledige evaluatie van implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Gericht overzicht van implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
+| 23 oktober 2020 | Verbeteringen toegevoegd aan de documentatie van Adobe Analytics-dashboads. In de mobiele scorecard in Workspace komt de opmaak van de scorecard nu overeen met die van de app. |
+| 17 september 2020 | Nieuwe documentatie op [Deelvenster Mediagelijktijdige viewer in Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html) |
+| 31 augustus 2020 | Verbeteringen toegevoegd aan [veldgebaseerde documentatie voor stitching](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html) in Apparaatanalyse. |
 | 21 juli 2020 | Belangrijke updates en herzieningen van [Apparaatanalyse](/help/components/cda/overview.md). Toegevoegd [Op veld gebaseerde stitching](/help/components/cda/field-based-stitching.md). |
+| 18 juni 2021 | Nieuwe documentatie op [Attribution IQ: Algorithmic Attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| 18 juni 2021 | Nieuwe documentatie op [Attribution IQ: Aangepaste opzoekvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
+| 31 Mei 2020 | Nieuwe documentatie op [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
+| 21 mei 2020 | Nieuwe documentatie voor [Adobe Analytics-dashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html) |
 | 28 april 2020 | Toegevoegde documentatie met cijfers over [Contentsnelheid](/help/components/metrics/content-velocity.md). |
 | 12 maart 2020 | Toegevoegde updates van [Segmenten publiceren naar Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 maart 2020 | Updates van CDA-stitchinglatentie. |
