@@ -4,7 +4,7 @@ subtopic: Marketing channels
 title: Marketingkanalen beheren
 feature: Grondbeginselen van rapporten en analyses
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Hier volgen enkele richtlijnen voor het maken van kanalen:
 
    Zie [Machtigingen voor marketingkanalen](/help/components/c-marketing-channels/c-channel-report-access.md).
 
-## Marketingkanalen {#add-mktg-channels} toevoegen
+## Marketingkanalen toevoegen {#add-mktg-channels}
 
 Voeg marketingkanalen toe in de Marketing Channel Manager.
 
@@ -85,7 +85,7 @@ U kunt het beste de optie last-touch negeren uitschakelen voor Direct en Intern 
 
 Alvorens de kanalen en de kanaalgegevens in het rapport kunnen worden getoond, creeer de kanalen en de onderliggende regels die gegevens verwerken. U kunt ook opgeven hoe lang de [periode van de betrokkenheid van bezoekers](/help/components/c-marketing-channels/visitor-engagement.md) moet duren.
 
-Adobe biedt verschillende vooraf gedefinieerde kanalen tijdens een [automatische installatie](/help/components/c-marketing-channels/c-getting-started-mchannel.md) die u naar wens kunt bewerken. Daarnaast kunt u deze instelling wijzigen en aangepaste regels definiëren binnen [Regels voor de verwerking van kanalen voor marketing](/help/components/c-marketing-channels/c-rules.md).
+Adobe biedt verschillende vooraf gedefinieerde kanalen tijdens een [automatische installatie](/help/components/c-marketing-channels/c-getting-started-mchannel.md) die u naar wens kunt bewerken. Bovendien, kunt u deze opstelling wijzigen en douaneregels binnen [de verwerkingsregels van het Kanaal van de marketing](/help/components/c-marketing-channels/c-rules.md) bepalen.
 
 >[!NOTE]
 >
