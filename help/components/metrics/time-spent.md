@@ -1,14 +1,13 @@
 ---
 title: Hoe Tijd besteed wordt berekend in Adobe Analytics
 description: Een geaggregeerde pagina van de gebruikte afmetingen en metriek in de tijd.
-translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
+source-git-commit: 085fd95da383671a51ce1e5888bea3db92c038bd
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1453'
 ht-degree: 6%
 
 ---
-
 
 # Overzicht van de tijd
 
@@ -22,6 +21,7 @@ Verschillende [!UICONTROL 'time spent'] metriek en afmetingen worden aangeboden 
 | [!UICONTROL Time spent per visit] (Seconden) | *Totaal aantal gebruikte seconden / (bezoek-grenzen)*<br> Geeft de gemiddelde hoeveelheid tijd aan dat bezoekers interageren met een specifieke dimensie-item tijdens elk bezoek. | Analysis Workspace, rapporten en analyses |
 | [!UICONTROL Time spent per visitor] (Seconden) | *Totaal aantal gebruikte seconden/unieke*<br> bezoekerGeeft de gemiddelde hoeveelheid tijd aan dat bezoekers interageren met een specifiek dimensie-item over het leven van de bezoeker (duur van hun cookie). | Analysis Workspace, rapporten en analyses |
 | [!UICONTROL Average time spent on site] (Seconden) | Vertegenwoordigt de totale hoeveelheid tijd bezoekers met een specifiek afmetingspunt, per opeenvolging met een afmetingspunt in wisselwerking staan. Het is niet alleen beperkt tot &quot;site&quot;-gemiddelden, zoals de naam suggereert. Zie de sectie &#39;Hoe tijd besteed wordt&#39; voor meer informatie over reeksen.<br>**Opmerking**: Deze maatstaf verschilt zeer waarschijnlijk van &#39;Tijd per bezoek&#39; op het niveau van dimensiepunten als gevolg van de verschillen in de noemer in de berekening. | Analysis Workspace, Reports &amp; Analytics (weergegeven in minuten), Report Builder (weergegeven in minuten) |
+| [!UICONTROL Average time on site] | Dit is het zelfde metrisch zoals *Gemiddelde tijd die aan plaats (Seconden) wordt doorgebracht*, behalve geformatteerd als Tijd (hh:mm:ss) | Analysis Workspace |
 | [!UICONTROL Average time spent on page] | Vervangen metrisch.<br> In plaats daarvan raden we u aan &quot;Gemiddelde tijd die ter plekke wordt doorgebracht&quot; te gebruiken als er een gemiddelde tijd voor een dimensie-item nodig is. | Report Builder (wanneer een dimensie zich in het verzoek bevindt) |
 | [!UICONTROL Total session length], ook bekend als  [!UICONTROL Previous session length] | Alleen mobiele App SDK. <br>De volgende keer dat de app wordt gestart, is bepaald voor de vorige sessie. Deze maateenheid wordt berekend in seconden en telt niet wanneer de toepassing op de achtergrond wordt uitgevoerd, alleen wanneer deze wordt gebruikt. Dit is metrisch op sessieniveau.<br>Voorbeeld: We installeren app ABC, starten deze en gebruiken deze gedurende 2 minuten en sluiten de app vervolgens. Over deze sessietijd worden geen gegevens verzonden. De volgende keer dat we de app starten, wordt [!UICONTROL Previous Session Length] verzonden met de waarde 120. | Analysis Workspace, Rapporten &amp; Analyse, Report Builder, Mobiele Diensten UI |
 | [!UICONTROL Average session length] (mobiel) | *Totale sessieduur / (Starten - Eerste starten)Alleen*<br> mobiele app-SDK. Dit is metrisch op sessieniveau. | Report Builder, gebruikersinterface voor mobiele services |
@@ -94,7 +94,7 @@ A: Omdat [!UICONTROL Average Time Spent on Site] van ongebroken opeenvolgingen v
 
 Neem bijvoorbeeld het volgende bezoek.
 
-| hit# | 1 | 2 | 1 |
+| hit# | 3 | 2 | 3 |
 |---|---|---|---|
 | **Seconden besteed** | 30 | 100 | 10 |
 | **Paginanaam** | Home | Product | Home |
@@ -108,7 +108,7 @@ Dit heeft tot gevolg dat deze meetgegevens bij een bezoek vergelijkbare resultat
 
 Veronderstel de volgende reeks servervraag voor één enkele bezoeker binnen één enkel bezoek is:
 
-| Naar hit# | 1 | 2 | 1 | 4 | 5 | 6 | 7 |
+| Naar hit# | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |---|---|---|---|---|---|---|---|
 | **Bezoek verstreken tijd (in sec)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Seconden besteed** | 30 | 50 | 100 | 10 | 40 | 60 | - |
@@ -132,8 +132,8 @@ Op basis van de bovenstaande tabel worden de gebruikte tijdwaarden als volgt ber
 
 | eVar1 | Totaal aantal bestede seconden | Tijd besteed per bezoek | Tijd besteed per bezoeker | Aantal reeksen | Gemiddelde tijd besteed aan site |
 |---|---|---|---|---|---|
-| Rood | 30+50=80 | 80/1=80 | 80/1=80 | 1 | 80/1=80 |
-| Blauw | 10+40+60=110 | 110/1=110 | 110/1=110 | 1 | 110/1=110 |
+| Rood | 30+50=80 | 80/1=80 | 80/1=80 | 3 | 80/1=80 |
+| Blauw | 10+40+60=110 | 110/1=110 | 110/1=110 | 3 | 110/1=110 |
 | Onbekende tijd | 100 | - | - | - | - |
 
 Tijd besteed per bezoek (korrelig): 290
