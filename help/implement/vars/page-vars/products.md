@@ -2,9 +2,9 @@
 title: products
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
+source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ U kunt één van deze uitbreidingen gebruiken, of u kunt de redacteur van de dou
 
 ## s.products in AppMeasurement en de redacteur van de douanecode
 
-De variabele `s.products` is een tekenreeks die meerdere gescheiden velden per product bevat. Elk afzonderlijk product kan tot 100 bytes over alle gebieden bevatten. Scheid elk gebied met een puntkomma (`;`) in het koord.
+De variabele `s.products` is een tekenreeks die meerdere gescheiden velden per product bevat. Scheid elk gebied met een puntkomma (`;`) in het koord.
 
-* **Categorie**  (optioneel): De overkoepelende productcategorie. Uw organisatie bepaalt hoe producten in categorieën worden gegroepeerd.
-* **Productnaam**  (vereist): De naam van het product.
+* **Categorie**  (optioneel): De overkoepelende productcategorie. Uw organisatie bepaalt hoe producten in categorieën worden gegroepeerd. De maximumlengte voor dit veld is 100 bytes.
+* **Productnaam**  (vereist): De naam van het product. De maximumlengte voor dit veld is 100 bytes.
 * **Hoeveelheid**  (optioneel): Hoeveel van dit product zit in de kar. Dit veld is alleen van toepassing op hits met de koopgebeurtenis.
 * **Prijs**  (optioneel): De totale prijs van het product als decimaal. Indien meer dan één hoeveelheid is, de totale prijs en niet de individuele productprijs. Lijn de valuta van deze waarde uit zodat deze overeenkomt met de variabele [`currencyCode`](../config-vars/currencycode.md). Plaats het valutasymbool niet in dit veld. Dit veld is alleen van toepassing op hits met de koopgebeurtenis.
 * **Gebeurtenissen**  (optioneel): Gebeurtenissen die aan het product zijn gekoppeld. Scheidt veelvoudige gebeurtenissen met een pijp (`|`). Zie [events](events/events-overview.md) voor meer informatie.
@@ -44,11 +44,11 @@ De variabele `s.products` is een tekenreeks die meerdere gescheiden velden per p
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Deze variabele ondersteunt meerdere producten in dezelfde hit. Het is waardevol voor winkelwagentjes en aankopen die meerdere producten bevatten. Terwijl er een grens 100 byte per product is, is de totale lengte voor `products` variabele 64K. Scheid elk product met een komma (`,`) in het koord.
+Deze variabele ondersteunt meerdere producten in dezelfde hit. Het is waardevol voor winkelwagentjes en aankopen die meerdere producten bevatten. De maximumlengte voor de gehele `products`-tekenreeks is 64K. Scheid elk product met een komma (`,`) in het koord.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
+s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
 >[!IMPORTANT]
@@ -99,11 +99,11 @@ s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;e
 Als u de `digitalData` [gegevenslaag](../../prepare/data-layer.md) gebruikt, kunt u de `digitalData.product` objectarray doorlopen:
 
 ```js
-for(var i=0; i<digitalData.product.length; i++) {
+for(var i = 0; i < digitalData.product.length; i++) {
     // Add individual product info to the product string
     s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
     // If there are more products, add a comma
-    if(i != digitalData.product.length-1) {
+    if(i != digitalData.product.length - 1) {
         s.products += ",";
     }
 }
