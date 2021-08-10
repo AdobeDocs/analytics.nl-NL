@@ -5,14 +5,17 @@ title: Nieuwe functies in Analysis Workspace
 feature: Basisprincipes van werkruimte
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 27b04baf5fff026261468678f4b1c49756b4636c
 workflow-type: tm+mt
-source-wordcount: '8164'
+source-wordcount: '8178'
 ht-degree: 88%
 
 ---
 
 # Nieuwe functies in Analysis Workspace
+
+>[!IMPORTANT]
+>Verdere Analysis Workspace-updates zijn toegevoegd aan de pagina [Adobe Analytics Documentation Updates](/help/landing/doc-updates.md).
 
 Voor toegang tot de de Nota&#39;s van de Versie van Adobe Experience Cloud als geheel, ga [hier](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html).
 
