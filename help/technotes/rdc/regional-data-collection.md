@@ -1,14 +1,13 @@
 ---
 title: Regionale dataverzameling
 description: Informatie over regionale gegevensverzameling
-translation-type: tm+mt
-source-git-commit: 731209e28dab9f17e06948614149a4c99938fdae
+exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
+source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
-
 
 # Regionale dataverzameling
 
@@ -26,7 +25,7 @@ De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk
 |---------------------|-------------------|
 | Standaard | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney, China* |
 
-Opmerking: Als uw verzoek van het beeld van de Analyse naar `adobedc`, `2o7.net` `omtrdc.net` of eindpunten wordt verzonden, dan hebt u derdegegevensinzameling. U kunt dit bepalen als u één van beide eindpunt in URL van uw verzoeken ziet.
+Opmerking: Als uw verzoek van het beeld Analytics naar `adobedc`, `2o7.net` of `omtrdc.net` eindpunten wordt verzonden, dan hebt u derdegegevensinzameling. U kunt dit bepalen als u één van beide eindpunt in URL van uw verzoeken ziet.
 
 *China RDC vereist het China Add-on pakket. Zie de opmerking &#39;Belangrijk&#39; hierboven.
 
@@ -49,7 +48,6 @@ Opmerking: Experience Edge Global biedt de beste prestaties voor uw eindgebruike
 | Voordeel | Beschrijving |
 | --- | --- |
 | Prestaties | Met de RDC maken uw bezoekers verbinding met de dichtstbijzijnde DCC. Dit zorgt voor de snelste responstijd, wat resulteert in nauwkeurigere tracking en snellere laadtijden. |
-| Redundantie | In het geval van een verstoring in communicatie met DCC, wordt de gegevensinzameling automatisch verpletterd aan volgende dichtstbijzijnde DCC, die de dienstcontinuïteit verzekeren. |
 | Redundantie | In het geval van een verstoring in communicatie tussen DCC en uw DPC, bewaart de infrastructuur van RDC van Adobe gegevens plaatselijk, dan door:sturen het aan DPC wanneer de mededelingen worden hersteld. |
 
 ## Hoe werkt RDC?
