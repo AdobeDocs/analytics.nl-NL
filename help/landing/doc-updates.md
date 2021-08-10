@@ -3,10 +3,10 @@ title: Technische documentatie-updates voor Adobe Analytics
 description: Belangrijke updates van de Adobe Analytics-documentatieopslagplaats.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 27b04baf5fff026261468678f4b1c49756b4636c
+source-git-commit: 784a2ab3bf825473c9ced7a1d79f2cc7bfc8f8e7
 workflow-type: tm+mt
-source-wordcount: '2647'
-ht-degree: 51%
+source-wordcount: '2801'
+ht-degree: 49%
 
 ---
 
@@ -47,8 +47,15 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 14 januari 2021 | Optie voor taalselectie van toegevoegde analysedashboards. |
 | 14 januari 2021 | Documentatie over hoe u beelden aan de projecten van de Werkruimte kunt toevoegen door naar een openbaar beeld URL te verwijzen. |
 | 14 januari 2021 | Gecombineerde bron- en instellingenbeheer voor werkruimtevisualisatie: De [!UICONTROL Data Source] manager (punt) en montagemanager (toestel) voor visualisaties zijn gecombineerd in één pop-up, zodat kunt u uw bron en montages van de zelfde plaats gemakkelijk beheren. |
+| **december 2020** |  |
+| 7 december 2020 | Gewijzigd op alle relevante pagina&#39;s om het eindpunt &quot;adobedc.net&quot; op te nemen of te vervangen. |
+| 8 december 2020 | Updates voor de [pagina Nieuw project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html) in Workspace. |
 | **November 2020** |  |
-| november 2020 | Nieuwe evaluatiedocumenten van de implementatie: <ul><li>[Volledige evaluatie van implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Gericht overzicht van implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
+| 24 november 2020 | Updates voor de pagina [Overzicht van deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) in Workspace. |
+| 24 november 2020 | Nieuwe evaluatiedocumenten van de implementatie: <ul><li>[Volledige evaluatie van implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Gericht overzicht van implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
+| 24 november 2020 | Bijgewerkte Analysis Workspace [Visualizations overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) pagina. |
+| 12 november 2020 | Nieuwe pagina op [Overgenomen Adobe Analytics-implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=en). |
+| 2 november 2020 | Bijgewerkt document op [FTP voor classificaties](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=en). |
 | **Oktober 2020** |  |
 | 23 oktober 2020 | Visualisatie werkruimtelijn: [Gemiddelde trendlijnoptie verplaatsen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): Deze instelling is toegevoegd aan de instellingen voor [!UICONTROL Line] visualisatietendline. Een voortschrijdend gemiddelde wordt ook wel een specifiek aantal gegevenspunten (bepaald door een **[!UICONTROL Periods]**-selectie) genoemd, gemiddeld gebruikt en het gemiddelde gebruikt als een punt op de regel. |
 | 23 oktober 2020 | De werkruimte [pagina van de Hulp van Prestaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) toont de verschillende factoren die projectprestaties en verbindingen aan uiteinden voor optimalisering beïnvloeden. |
@@ -94,12 +101,15 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 20 februari 2020 | Foutopsporing in werkruimte is toegevoegd aan het menu Help, zodat u deze op een naadloze manier kunt inschakelen voor het opsporen van fouten in werkruimteverzoeken. [Meer informatie...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 18 februari 2020 | Toegevoegde variabele [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md). |
 | 12 februari 2020 | Updates en reorganisatie van de documentatie over [Marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
+| 12 februari 2020 | Nieuwe sneltoetsen toegevoegd aan [deze werkruimdepagina](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 7 februari 2020 | Updates van [Analytics op verschillende apparaten](/help/components/cda/setup.md) en [Veelgestelde vragen](/help/components/cda/faq.md). |
 | 4 februari 2020 | Volledige herschrijving van de [Implementatiehandleiding](/help/implement/home.md). |
 | 22 januari 2020 | Bijgewerkte pagina voor vrijevormtabellen bevat nu ook informatie over de nieuwe [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | **Januari 2020** |  |
+| 24 januari 2020 | Updates voor de pagina [Rijinstellingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=en) in Workspace. |
 | 16 januari 2020 | Nieuwe documentatie op [Freeform Table Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html). Als u de functie voor samenstellen van tabellen inschakelt, kunt u allerlei dimensies, uitsplitsingen, metrics en segmenten plaatsen om tabellen te bouwen waarmee complexe zakelijke vragen worden beantwoord. Gegevens worden niet meteen bijgewerkt. In plaats daarvan vindt de update plaats nadat u op **[!UICONTROL Build]** klikt, zodat u tijd bespaart wanneer u weet welke tabel u wilt samenstellen. Bovendien biedt deze functie:<ul><li>**Voorvertoning**: u kunt een voorbeeld van de tabelindeling bekijken voordat gaat werken aan het renderen van echte gegevens.</li><li>**Flexibele instellingen voor rij en uitsplitsing**: u kunt nu een rij- en uitsplitsingsniveau instellen voor elke dimensierij. Eerder werden in Workspace standaardinstellingen ingesteld die pas konden worden gewijzigd nadat de gegevens waren geretourneerd.</li><li>**Uitsplitsing naar positie**: u kunt dimensierijen zo instellen dat ze altijd _worden uitgesplitst op positie_ in plaats van _op een bepaald item_ (de standaardinstelling).</li><li>**Handmatige statische rijvolgorde**: u kunt statische rijen handmatig ordenen, zodat tabelrijen precies zo worden weergegeven als nodig is. Voorheen konden statische rijen alleen worden gesorteerd op een kolom met metrics, of alfabetisch.</li></ul> |
 | 13 januari 2020 | [Adobe Analytics en browsercookies](/help/technotes/cookies/cookies.md) toegevoegd. |
+| 13 januari 2020 | Gewijzigd [Welk Hulpmiddel zou ik ](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html) pagina moeten gebruiken. |
 | **2019** |  |
 | 29 november 2019 | Herziening van de [Documentatie over datafeed](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 november 2019 | Nieuw onderwerp over [Einde levensduur van IP-aanmeldingsbeperkingen afdwingen](/help/admin/company/login-restrictions-eol.md). |
