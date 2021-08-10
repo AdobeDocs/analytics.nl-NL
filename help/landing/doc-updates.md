@@ -3,7 +3,7 @@ title: Technische documentatie-updates voor Adobe Analytics
 description: Belangrijke updates van de Adobe Analytics-documentatieopslagplaats.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 22f82125b5a0bb14c4446cb89b43889a3e4d8b5a
+source-git-commit: 185ea7f120d918db52233a321dfa629c6bc1c8ee
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 50%
@@ -22,7 +22,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 ## Details over belangrijke documentatie-updates
 
 | Datum | Beschrijving |
-|---|---|
+| --- | --- |
 | 5 augustus 2021 | Nieuw onderwerp op [Aantal herhaalde instanties](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
 | 23 juli 2021 | Diepgaande bespreking van [Merchandising Vars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | 15 juli 2021 | Nieuwe documentatie toegevoegd op [Adobe Analytics-landingspagina](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) |
