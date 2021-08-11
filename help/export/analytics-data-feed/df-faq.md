@@ -3,9 +3,9 @@ description: Veelgestelde vragen over gegevensfeeds
 keywords: Gegevensfeed;taak;vóór kolom;na kolom;hoofdlettergevoeligheid
 title: Veelgestelde vragen over gegevensfeeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,10 @@ Gegevensfeeds omvatten geen bots die zijn gefilterd door [Regels voor Admin-cons
 Sommige spreadsheeteditors, met name Microsoft Excel, afronden automatisch grote aantallen. De `event_list` kolom bevat vele komma-afgebakende aantallen, soms veroorzakend Excel om het als groot aantal te behandelen. De laatste cijfers worden afgerond op `000`.
 
 Adobe raadt u aan `hit_data.tsv`-bestanden niet automatisch te openen in Microsoft Excel. Gebruik in plaats daarvan het dialoogvenster Gegevens importeren van Excel en zorg ervoor dat alle velden worden behandeld als tekst.
+
+## Worden kolommen zoals `hitid_high`, `hitid_low`, `visid_high`, en `visid_low` gegarandeerd uniek aan de slag of het bezoek?
+
+In bijna alle gevallen, identificeert de aaneenschakeling van `hitid_high` en `hitid_low` uniek een aanraakeffect. Hetzelfde concept geldt voor de aaneenschakeling van `visid_high` en `visid_low` voor bezoeken. Nochtans, kunnen de verwerkingsanomalieën slechts zelden twee klusjes veroorzaken om het zelfde raakidentiteitskaart te delen. Adobe raadt u aan geen workflows voor gegevensinvoer te maken die onflexibel zijn als elke hit uniek is.
 
 ## Waarom ontbreekt informatie van de domeinkolom voor sommige dragers? {#section_B7508D65370442C7A314EAED711A2C75}
 
