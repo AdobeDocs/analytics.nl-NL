@@ -2,7 +2,7 @@
 description: Verklaart hoe de nieuwe landingspagina zowel Analysis Workspace als Rapporten & Analytics in één enkele interface en toegangspunt onder de paraplu van de Werkruimte samenbrengt.
 title: Nieuwe Adobe Analytics-bestemmingspagina
 role: User, Admin
-source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
+source-git-commit: ebf11e981da25ab154968acda49456862f38874f
 workflow-type: tm+mt
 source-wordcount: '2988'
 ht-degree: 0%
@@ -18,6 +18,8 @@ De nieuwe pagina verbetert de ontdekkbaarheid en begeleidt gebruikers van Rappor
 >[!IMPORTANT]
 >
 >Deze landingspagina wordt vanaf 21 juli 2021 in Open Beta weergegeven. Het is een optioneel startpunt. U kunt desgewenst de bestaande openingspagina gebruiken, of dat nu Workspace of Reports is. Als u toch besluit om u aan te melden bij het bètaprogramma, opent u de pagina en klikt u op **[!UICONTROL Provide feedback]** boven aan het scherm om uw feedback en eventuele fouten vast te leggen. U kunt op elk gewenst moment de optie Weigeren of weer deelnemen aan het bètaprogramma. Alle werk dat in de bètagebruikersinterface wordt gedaan, wordt verwerkt in de bestaande/huidige werkruimte.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
 ## De nieuwe bestemmingspagina openen {#access-landing}
 
