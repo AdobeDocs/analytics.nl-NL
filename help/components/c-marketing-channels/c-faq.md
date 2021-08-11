@@ -1,8 +1,7 @@
 ---
 title: Veelgestelde vragen over marketingkanalen
 description: Veelgestelde vragen over marketingkanalen.
-translation-type: tm+mt
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -25,21 +24,21 @@ Veelgestelde vragen over marketingkanalen.
 
 ## Verwijzende domeinen bevatten meer gegevens dan ik verwacht.
 
-* Verwijzende domeinen zouden te hoog in de lijst van de verwerkingsregel kunnen zijn. Het zou één van de laatste (of laatste) regelreeksen moeten zijn, omdat de verwerkingsorde belangrijk is.
+Verwijzende domeinen zouden te hoog in de lijst van de verwerkingsregel kunnen zijn. Het zou één van de laatste (of laatste) regelreeksen moeten zijn, omdat de verwerkingsorde belangrijk is.
 
 ## Ik heb een regel gecreeerd die een parameter van het vraagkoord aanpast en het werkt niet.
 
-* Controleer of de parameternaam is opgegeven in de parametervelden van de querytekenreeks (meestal een alfanumerieke waarde). Zorg er ook voor dat de parameterwaarde wordt opgegeven na de operator, zoals in het volgende voorbeeld van een e-mailregel wordt getoond.
+Controleer of de parameternaam is opgegeven in de parametervelden van de querytekenreeks (meestal een alfanumerieke waarde). Zorg er ook voor dat de parameterwaarde wordt opgegeven na de operator, zoals in het volgende voorbeeld van een e-mailregel wordt getoond.
 
-   ![](assets/example_email.png)
+![](assets/example_email.png)
 
 ## Waarom wordt al mijn laatste-aanrakingsverkeer toegeschreven aan een intern domein?
 
-* U hebt een regel die intern verkeer aanpast. Houd er rekening mee dat deze regels gelden voor elke hit die een bezoeker op uw site maakt, en niet alleen voor het eerste bezoek. Als u een regel als *`Page URL exists`* zonder andere criteria hebt, wordt dat kanaal aangepast op elke volgende hit op uw site, omdat een pagina-URL altijd bestaat.
+U hebt een regel die intern verkeer aanpast. Houd er rekening mee dat deze regels gelden voor elke hit die een bezoeker op uw site maakt, en niet alleen voor het eerste bezoek. Als u een regel als *`Page URL exists`* zonder andere criteria hebt, wordt dat kanaal aangepast op elke volgende hit op uw site, omdat een pagina-URL altijd bestaat.
 
 ## Hoe zuivert ik verkeer dat in Geen Kanaal wordt getoond die op het rapport wordt geïdentificeerd?
 
-* Regels worden op volgorde verwerkt. Als er geen specifieke criteria zijn gevonden, worden treffers ingedeeld in een van de drie categorieën:
+Regels worden op volgorde verwerkt. Als er geen specifieke criteria zijn gevonden, worden treffers ingedeeld in een van de drie categorieën:
 
 1. Geen referentie (een rechtstreeks bezoek).
 
