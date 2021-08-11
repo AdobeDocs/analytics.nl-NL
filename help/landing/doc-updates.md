@@ -3,10 +3,10 @@ title: Technische documentatie-updates voor Adobe Analytics
 description: Belangrijke updates van de Adobe Analytics-documentatieopslagplaats.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 784a2ab3bf825473c9ced7a1d79f2cc7bfc8f8e7
+source-git-commit: 5d10cf7728d63f7d772061b2e917ba6332bacf3c
 workflow-type: tm+mt
-source-wordcount: '2801'
-ht-degree: 49%
+source-wordcount: '2787'
+ht-degree: 48%
 
 ---
 
@@ -16,7 +16,6 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 * Informatie over [!UICONTROL Customer Journey Analytics] vindt u [hier](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html).
 * Raadpleeg de recentste [Experience Cloud-releaseopmerkingen](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html) voor een uitgebreide lijst met nieuwe Adobe Analytics-functies, Beheerdersopmerkingen en bugcorrectie.
-* Raadpleeg [Nieuwe functies in de Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) in de handleiding voor tools voor details over nieuwe functies.
 * Zie [Audio en video meten in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) voor informatie over Adobe Analytics voor audio en video.
 
 ## Details over belangrijke documentatie-updates
@@ -101,7 +100,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 20 februari 2020 | Foutopsporing in werkruimte is toegevoegd aan het menu Help, zodat u deze op een naadloze manier kunt inschakelen voor het opsporen van fouten in werkruimteverzoeken. [Meer informatie...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 18 februari 2020 | Toegevoegde variabele [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md). |
 | 12 februari 2020 | Updates en reorganisatie van de documentatie over [Marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| 12 februari 2020 | Nieuwe sneltoetsen toegevoegd aan [deze werkruimdepagina](https://docs.adobe.com/content/help/nl-NL/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 12 februari 2020 | Nieuwe sneltoetsen toegevoegd aan [deze werkruimdepagina](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=en) |
 | 7 februari 2020 | Updates van [Analytics op verschillende apparaten](/help/components/cda/setup.md) en [Veelgestelde vragen](/help/components/cda/faq.md). |
 | 4 februari 2020 | Volledige herschrijving van de [Implementatiehandleiding](/help/implement/home.md). |
 | 22 januari 2020 | Bijgewerkte pagina voor vrijevormtabellen bevat nu ook informatie over de nieuwe [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
@@ -109,7 +108,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 24 januari 2020 | Updates voor de pagina [Rijinstellingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=en) in Workspace. |
 | 16 januari 2020 | Nieuwe documentatie op [Freeform Table Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html). Als u de functie voor samenstellen van tabellen inschakelt, kunt u allerlei dimensies, uitsplitsingen, metrics en segmenten plaatsen om tabellen te bouwen waarmee complexe zakelijke vragen worden beantwoord. Gegevens worden niet meteen bijgewerkt. In plaats daarvan vindt de update plaats nadat u op **[!UICONTROL Build]** klikt, zodat u tijd bespaart wanneer u weet welke tabel u wilt samenstellen. Bovendien biedt deze functie:<ul><li>**Voorvertoning**: u kunt een voorbeeld van de tabelindeling bekijken voordat gaat werken aan het renderen van echte gegevens.</li><li>**Flexibele instellingen voor rij en uitsplitsing**: u kunt nu een rij- en uitsplitsingsniveau instellen voor elke dimensierij. Eerder werden in Workspace standaardinstellingen ingesteld die pas konden worden gewijzigd nadat de gegevens waren geretourneerd.</li><li>**Uitsplitsing naar positie**: u kunt dimensierijen zo instellen dat ze altijd _worden uitgesplitst op positie_ in plaats van _op een bepaald item_ (de standaardinstelling).</li><li>**Handmatige statische rijvolgorde**: u kunt statische rijen handmatig ordenen, zodat tabelrijen precies zo worden weergegeven als nodig is. Voorheen konden statische rijen alleen worden gesorteerd op een kolom met metrics, of alfabetisch.</li></ul> |
 | 13 januari 2020 | [Adobe Analytics en browsercookies](/help/technotes/cookies/cookies.md) toegevoegd. |
-| 13 januari 2020 | Gewijzigd [Welk Hulpmiddel zou ik ](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html) pagina moeten gebruiken. |
+| 13 januari 2020 | Gewijzigd [Welk Hulpmiddel van Adobe Analytics zou moeten ik ](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en) pagina gebruiken. |
 | **2019** |  |
 | 29 november 2019 | Herziening van de [Documentatie over datafeed](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 november 2019 | Nieuw onderwerp over [Einde levensduur van IP-aanmeldingsbeperkingen afdwingen](/help/admin/company/login-restrictions-eol.md). |
