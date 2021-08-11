@@ -6,9 +6,9 @@ title: Referentie gegevenskolom
 feature: Grondbeginselen van rapporten en analyses
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3407'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `hier1 - hier5` | Wordt gebruikt door hiërarchievariabelen. Bevat een lijst met gescheiden waarden. Het scheidingsteken wordt gekozen onder de instellingen van de rapportsuite. | varchar(255) |
 | `hit_source` | Geeft aan uit welke bron de treffer afkomstig is. De bronnen 1, 2 en 6 van de it worden gefactureerd. <br>1: Standaardverzoek om afbeelding zonder tijdstempel  <br>2: Standaardverzoek om afbeelding met tijdstempel  <br>3: Live uploaden van gegevensbron met tijdstempels  <br>4: Niet gebruikt  <br>5: Generieke gegevensbronupload  <br>6: Uploaden gegevensbron volledige verwerking  <br>7: TransactieID-gegevensbron uploaden  <br>8: niet meer gebruikt; Eerdere versies van Adobe Advertising Cloud-gegevensbronnen  <br>9: niet meer gebruikt; Adobe Social summary metrics  <br>10: Audience Manager server-kant gebruikt door:sturen | tinyint zonder teken |
 | `hit_time_gmt` | De timestamp van de de gegevensverzamelingsservers van de hit Adobe ontvingen de slag, die in Unix tijd wordt gebaseerd. | int |
-| `hitid_high` | Wordt gebruikt in combinatie met `hitid_low` om een treffer op unieke wijze te identificeren. | bigint zonder teken |
-| `hitid_low` | Wordt gebruikt in combinatie met `hitid_high` om een treffer op unieke wijze te identificeren. | bigint zonder teken |
+| `hitid_high` | Wordt gebruikt in combinatie met `hitid_low` om een hit te identificeren. | bigint zonder teken |
+| `hitid_low` | Wordt gebruikt in combinatie met `hitid_high` om een hit te identificeren. | bigint zonder teken |
 | `homepage` | Niet meer gebruikt. Geeft aan of de huidige URL de homepage van de browser is. | teken(1) |
 | `hourly_visitor` | Markering om te bepalen of de treffer een nieuwe uurbezoeker is. | tinyint zonder teken |
 | `ip` | IP Adres, dat op de kopbal van HTTP van het beeldverzoek wordt gebaseerd. | teken(20) |
