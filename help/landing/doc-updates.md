@@ -3,10 +3,10 @@ title: Technische documentatie-updates voor Adobe Analytics
 description: Belangrijke updates van de Adobe Analytics-documentatieopslagplaats.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 5d10cf7728d63f7d772061b2e917ba6332bacf3c
+source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
 workflow-type: tm+mt
-source-wordcount: '2787'
-ht-degree: 48%
+source-wordcount: '2872'
+ht-degree: 46%
 
 ---
 
@@ -41,10 +41,10 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 25 maart 2021 | [API-updates voor ](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) gegevensherstel (filteren voor URL&#39;s, querytekenreeksen, bij tekens en meer) |
 | 25 maart 2021 | Nieuwe [Gebruikslogbestand-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)-documentatie |
 | **Februari 2021** |  |
-| 4 februari 2021 | Componentselectie: De drop-down/drop zonecomponent die in [!UICONTROL Quick Insights] wordt gevonden zal aan alle dalingsstreken in [!UICONTROL Workspace] worden toegevoegd. Dankzij deze verbetering kunt u kiezen uit een vervolgkeuzelijst met compatibele componenten of de ruimte blijven gebruiken als een neerzetzone. |
+| 4 februari 2021 | Componentselectie: De drop-down/drop zonecomponent die in [!UICONTROL Quick Insights] wordt gevonden werd toegevoegd aan alle dalingsstreken in [!UICONTROL Workspace]. Met deze verbetering kunt u kiezen uit een vervolgkeuzelijst met compatibele componenten of de ruimte blijven gebruiken als een neerzetzone. |
 | **Januari 2021** |  |
-| 14 januari 2021 | Optie voor taalselectie van toegevoegde analysedashboards. |
-| 14 januari 2021 | Documentatie over hoe u beelden aan de projecten van de Werkruimte kunt toevoegen door naar een openbaar beeld URL te verwijzen. |
+| 14 januari 2021 | Optie voor taalselectie toegevoegd aan documentatie bij het dashboard voor Analytics. |
+| 14 januari 2021 | Toegevoegde documentatie over hoe u beelden aan de projecten van de Werkruimte kunt toevoegen door naar een openbare beeld URL te verwijzen. |
 | 14 januari 2021 | Gecombineerde bron- en instellingenbeheer voor werkruimtevisualisatie: De [!UICONTROL Data Source] manager (punt) en montagemanager (toestel) voor visualisaties zijn gecombineerd in één pop-up, zodat kunt u uw bron en montages van de zelfde plaats gemakkelijk beheren. |
 | **december 2020** |  |
 | 7 december 2020 | Gewijzigd op alle relevante pagina&#39;s om het eindpunt &quot;adobedc.net&quot; op te nemen of te vervangen. |
@@ -110,14 +110,20 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 13 januari 2020 | [Adobe Analytics en browsercookies](/help/technotes/cookies/cookies.md) toegevoegd. |
 | 13 januari 2020 | Gewijzigd [Welk Hulpmiddel van Adobe Analytics zou moeten ik ](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en) pagina gebruiken. |
 | **2019** |  |
+| 19 december 2020 | De standaard [FTP-gegevensopslaglimiet](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en) is gewijzigd in 10 GB. |
 | 29 november 2019 | Herziening van de [Documentatie over datafeed](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 november 2019 | Nieuw onderwerp over [Einde levensduur van IP-aanmeldingsbeperkingen afdwingen](/help/admin/company/login-restrictions-eol.md). |
 | 21 november 2019 | Nieuwe documentatieset voor [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html). |
+| 21 november 2019 | Bijgewerkt [Veelgestelde vragen over Audience Analytics-workflow](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en) om de beschikbaarheid in LiveStream aan te geven. |
+| 25 oktober 2019 | Bijgewerkte pagina [Adobe Analytics Key Concepts](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html?lang=en). |
 | 10 oktober 2019 | Totalen van tabel voor vrije vorm bijwerken: deze bevatten nu twee totalen, a **[!UICONTROL Table total]** en a **[!UICONTROL Grand total]**. De rij Tabeltotaal werkt op basis van de toegepaste [rapportfilters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html). Voorheen werden totalen alleen beïnvloed door segmentatie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>Daarnaast zijn de opties **[!UICONTROL Show Totals]** en **[!UICONTROL Show Grand Total]** toegevoegd aan **[!UICONTROL Column Settings]**.<br/>Met deze wijziging in de vrije-vormtotalen worden afhankelijke visualisaties bijgewerkt (bijvoorbeeld gekoppelde **[!UICONTROL Summary Number]** visualisaties), net als geëxporteerde CSV- en PDF-data. |
-| Oktober 10,2019 | In Workspace is de mogelijkheid om &quot;Niet-gespecificeerd (geen)&quot; gemakkelijk te verwijderen toegevoegd als optie voor het rapporteren van filters. |
-| Oktober 10,2019 | In Workspace zijn componenten voor paarse granulariteit (Minuut, Uur, Dag, Week, Maand, Kwartaal, Jaar) afgekeurd. De paarse tijdcomponenten gedragen zich exact hetzelfde als hun oranje tegenhangers voor dimensies. De gebruikservaring is met deze verwijdering vereenvoudigd. U hoeft **geen actie** te ondernemen als u voorheen een van de paarse tijdcomponenten hebt gebruikt.<br/>Door deze wijziging is de naam van de paarse **[!UICONTROL Time]**-sectie ook gewijzigd in **[!UICONTROL Date Ranges]**. |
+| Oktober 10,2019 | In Workspace is de mogelijkheid om ‘Niet-gespecificeerd (geen)’ gemakkelijk te verwijderen toegevoegd als optie voor het rapporteren van filters. |
+| Oktober 10,2019 | In Workspace zijn componenten voor paarse granulariteit (Minuut, Uur, Dag, Week, Maand, Kwartaal, Jaar) afgekeurd. U hoeft **geen actie** te ondernemen als u voorheen een van de paarse tijdcomponenten hebt gebruikt.<br/>Door deze wijziging is de naam van de paarse **[!UICONTROL Time]**-sectie ook gewijzigd in **[!UICONTROL Date Ranges]**. |
+| 1 oktober 2019 | Nieuw artikel op [totalen werkruimte](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace?lang=en). |
 | 28 september 2019 | Nieuwe artikelen over [configuratievariabelen voor Javascript-implementatie](/help/implement/vars/config-vars/configuration-variables.md). |
+| 19 september 2019 | Herziene segmentatiedocumentatie om [Logische Groepcontainers](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=en#logic-group-containers) uit te leggen. |
 | 12 september 2019 | Nieuwe documentatie over [Traject-IQ: Analytics op verschillende apparaten](/help/components/cda/overview.md). |
+| 12 september 2019 | [Berekende metriektotalen](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=en) document bijwerken. |
 | 28 augustus 2019 | Nieuw artikel over [Progressieve Web Apps (PWA’s) voor Analytics](/help/analyze/pwa/pwa.md). |
 | 8 augustus 2019 | Nieuw artikel over [Berekende standaarden - totalen](/help/components/c-calcmetrics/cm-totals.md). |
 | 8 augustus 2019 | Verduidelijking over [sessiedata met tijdstempels](/help/admin/admin/timestamp-optional.md). | 8 augustus 2019 | In Workspace verhoogde Adobe de limiet van items die in een vervolgkeuzefilter kunnen worden geplaatst, van 50 tot 200. Deze verbetering is nuttig voor een groot aantal gebruikssituaties, zoals het toevoegen van alle landen (195) aan een filter, of alle staten en provincies in de VS (52). |
