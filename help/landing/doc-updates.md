@@ -1,12 +1,12 @@
 ---
 title: Technische documentatie-updates voor Adobe Analytics
-description: Belangrijke updates van de Adobe Analytics-documentatieopslagplaats.
+description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
+source-git-commit: 75f83491c448df2e2f6b2083fcb533d86c1f215d
 workflow-type: tm+mt
-source-wordcount: '2872'
-ht-degree: 46%
+source-wordcount: '2828'
+ht-degree: 45%
 
 ---
 
@@ -27,7 +27,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 5 augustus 2021 | Bijgewerkte classificatiedocumentatie op [templates](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [browser import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) en [browser export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) om opties aan te geven die niet beschikbaar zijn voor rapportsuites die zijn ingeschakeld voor de Nieuwe classificatiearchitectuur. |
 | 2 augustus 2021 | Meerdere pagina&#39;s zijn bijgewerkt om de herbranding van [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) weer te geven |
 | **juli 2021** |  |
-| 23 juli 2021 | Diepgaande bespreking van [Merchandising Vars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
+| 23 juli 2021 | Nieuwe diepgaande bespreking van [Merchandising Vars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | 15 juli 2021 | Nieuwe documentatie toegevoegd op de nieuwe [Adobe Analytics-landingspagina](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) |
 | **Juni 2021** |  |
 | 15 juni 2021 | Bijgewerkte [Beste werkwijzen voor marketingkanalen](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
@@ -70,19 +70,18 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 21 juli 2020 | Belangrijke updates en herzieningen van [Apparaatanalyse](/help/components/cda/overview.md). Toegevoegd [Op veld gebaseerde stitching](/help/components/cda/field-based-stitching.md). |
 | 16 juli 2020 | Nieuwe voorinstellingen voor datumbereik in Workspace. Vier nieuwe datumbereiken toegevoegd: ([!UICONTROL This week/month/quarter/year (excluding today)]). Dit laat u van datumwaaiers kiezen die delen-daggegevens van vandaag niet omvatten. |
 | **Juni 2020** |  |
-| 25 juni 2020 | Het deelvenster Snelle inzichten in Workspace biedt hulp aan niet-analisten en nieuwe gebruikers van Analysis Workspace om snel en eenvoudig zakelijke vragen te beantwoorden. [Meer informatie...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| 25 juni 2020 | Met Analytics for Target panel in Workspace kunt u uw Adobe Target-activiteiten en -ervaringen met optillen en vertrouwen analyseren. [Meer informatie...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| 25 juni 2020 | Nieuwe documentatie voor [deelvenster Snelle inzichten](/help/analyze/analysis-workspace/c-panels/quickinsight.md) in Workspace. Het biedt niet-analisten en nieuwe gebruikers van Analysis Workspace hulp bij het snel en eenvoudig beantwoorden van zakelijke vragen. |
+| 25 juni 2020 | Nieuwe documentatie voor [Analytics voor het paneel van het Doel](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) in Werkruimte. Hiermee kunt u uw Adobe Target-activiteiten en -ervaringen analyseren, met lippendienst en vertrouwen. |
 | 18 juni 2020 | Nieuwe documentatie op [Attribution IQ: Algorithmic Attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
 | 18 juni 2020 | Nieuwe documentatie op [Attribution IQ: Aangepaste opzoekvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
-| 18 juni 2020 | Projectrollen voor gedeelde Workspace-projecten. Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 18 juni 2020 | Documentatie over hoe de projecten van de Werkruimte aan gebruikers kunnen worden gedeeld zoals &quot;kan slechts bekijken&quot;. Wanneer een ontvanger voor Weergaven het gedeelde project opent, ontvangt hij/zij een beperktere projectervaring zonder linkerrail en met beperkte interactie. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 18 juni 2020 | Nieuwe documentatie over de rollen van het Project voor gedeelde projecten van de Werkruimte. Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 18 juni 2020 | Alleen-weergeven werkruimteprojecten: Werkruimteprojecten kunnen aan gebruikers worden gedeeld als &quot;Alleen kan bekijken&quot;. Wanneer een ontvanger voor Weergaven het gedeelde project opent, ontvangt hij/zij een beperktere projectervaring zonder linkerrail en met beperkte interactie. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 18 juni 2020 | Mogelijkheid om Workspace-projecten gezamenlijk te bewerken. Ontvangers die aan de rol voor Bewerken zijn toegevoegd, kunnen een project opslaan dat met hen is gedeeld. Dit geldt zowel voor beheerders als niet-beheerders. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 18 juni 2020 | Nieuwe documentatie voor [Projectrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) voor gedeelde projecten van de Werkruimte. Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. |
+| 18 juni 2020 | Nieuwe documentatie op [ &quot;slechts van de Mening&quot;Werkruimteprojecten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html). Projecten kunnen aan gebruikers worden gedeeld omdat alleen &quot;Kan bekijken&quot;. Wanneer een ontvanger voor Weergaven het gedeelde project opent, ontvangt hij/zij een beperktere projectervaring zonder linkerrail en met beperkte interactie. |
+| 18 juni 2020 | Nieuwe documentatie over [Projectrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) voor gedeelde projecten van de Werkruimte. Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. |
+| 18 juni 2020 | Nieuwe documentatie over [Werkruimteprojecten voor gezamenlijke bewerking](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Ontvangers die aan de rol voor Bewerken zijn toegevoegd, kunnen een project opslaan dat met hen is gedeeld. Dit geldt zowel voor beheerders als niet-beheerders. |
 | **Mei 2020** |  |
 | 31 Mei 2020 | Nieuwe documentatie op [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | 21 mei 2020 | Nieuwe documentatie voor [Adobe Analytics-dashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html) |
-| 21 mei 2020 | Documentatie over toegankelijkheidsverbeteringen in Analysis Workspace, waaronder verbeterde toetsenbordnavigatie, kleurcontrast en ondersteuning voor schermlezers. [Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| 21 mei 2020 | Nieuwe documentatie over [toegankelijkheidsverbeteringen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) naar Analysis Workspace, waaronder verbeterde toetsenbordnavigatie, kleurcontrast en ondersteuning voor schermlezers. |
 | **April 2020** |  |
 | 28 april 2020 | Toegevoegde documentatie met cijfers over [Contentsnelheid](/help/components/metrics/content-velocity.md). |
 | 16 april 2020 | Documentatie over het automatisch bouwen van [!UICONTROL Freeform Tables] vanuit een lege status. Voorheen kon u componenten niet rechtstreeks in een leeg project of leeg deelvenster plaatsen en moest u eerst een vrije-vormtabel toevoegen. Nu kunt u componenten direct in een leeg project of deelvenster plaatsen. Een vrije-vormtabel wordt automatisch voor u gemaakt in een aanbevolen indeling. Bovendien zijn er verbeteringen aangebracht in de manier waarop gemengde componenttypen (zoals dimensies en metrics) worden verwerkt wanneer ze samen in een lege [!UICONTROL Freeform Table] worden geplaatst. |
