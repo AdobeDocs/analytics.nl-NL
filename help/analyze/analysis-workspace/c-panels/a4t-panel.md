@@ -4,9 +4,9 @@ title: Analyses voor venster Doel (A4T)
 feature: Deelvensters
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1101'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # Analyses voor venster Doel (A4T)
 
 Met het deelvenster Analyse voor doel (A4T) kunt u uw Adobe Target-activiteiten en -ervaringen in Analysis Workspace analyseren. Het stelt u ook in staat om optillen en vertrouwen te zien voor maximaal drie succesmetingen. Navigeer naar een rapportsuite met A4T-componenten om het deelvenster A4T te openen. Klik vervolgens op het deelvensterpictogram helemaal links en sleep het deelvenster Analyse voor doel naar uw Analysis Workspace-project.
+
+Hier volgt een kort video-overzicht van het deelvenster A4T:
+
+>[!VIDEO](https://video.tv.adobe.com/v/37247/?quality=12)
 
 ## Deelvensterinvoer {#Input}
 
