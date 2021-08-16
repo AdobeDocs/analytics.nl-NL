@@ -5,20 +5,20 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualisaties
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Lijn
 
-De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt.
+De [!UICONTROL Line] visualisatie vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een [!UICONTROL Line] grafiek kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt.
 
 ![Lijnvisualisatie](assets/line-viz.png)
 
-Klik op het tandwielpictogram rechtsboven in de lijnvisualisatie om toegang te krijgen tot [**beschikbare visualisatie-instellingen**](freeform-analysis-visualizations.md). Instellingen worden gecategoriseerd in:
+Klik op het tandwielpictogram rechtsboven in de [!UICONTROL Line] visualisatie om toegang te krijgen tot [**beschikbare visualisatie-instellingen**](freeform-analysis-visualizations.md). Instellingen worden gecategoriseerd in:
 
 * **Algemeen**: Instellingen die gemeenschappelijk zijn voor verschillende visualisatietypen
 * **As**: Instellingen die van invloed zijn op de x- of y-as van de lijnvisualisatie
@@ -39,6 +39,10 @@ Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 ## Trendline-bedekking tonen
 
 Onder **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, kunt u verkiezen om een regressie of het bewegen gemiddelde trendline aan uw lijnreeks toe te voegen. Met behulp van trendlines wordt een duidelijker patroon in de gegevens weergegeven.
+
+Hier volgt een video over het toevoegen van trendlines aan lijnvisualisaties:
+
+>[!VIDEO](https://video.tv.adobe.com/v/330176/?quality=12)
 
 >[!TIP]
 >
