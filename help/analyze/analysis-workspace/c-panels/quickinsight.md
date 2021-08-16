@@ -4,9 +4,9 @@ title: Deelvenster Snelle inzichten
 feature: Deelvensters
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,10 @@ Om dit te helpen, en gebaseerd op het gebruik van uw eigen bedrijf van gegevensc
 * Leer de terminologie en woordenschat voor basiscomponenten en stukken van [!UICONTROL Analysis Workspace].
 * Doe eenvoudige onderverdelingen van dimensies, voeg veelvoudige metriek toe, of vergelijk segmenten gemakkelijk binnen [!UICONTROL Freeform table].
 * U kunt verschillende visualisatietypen wijzigen of uitproberen om snel en intuïtief het zoekgereedschap voor uw analyse te vinden.
+
+Hier volgt een video-overzicht van het deelvenster [!UICONTROL Quick Insights]:
+
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basistoets
 
