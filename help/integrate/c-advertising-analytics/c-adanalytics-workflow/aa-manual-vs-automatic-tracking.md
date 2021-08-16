@@ -2,16 +2,20 @@
 description: Het volgen bepaalt hoe de gegevens van de Motor van het Onderzoek door uw implementatie van Adobe Analytics worden gevolgd. Dit is een vereiste stap om de Adobe Analytics-gegevens correct aan te vullen met de zoekengine-gegevens.
 title: Handmatige modus voor bijhouden en Automatische modus
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 1%
+source-wordcount: '606'
+ht-degree: 0%
 
 ---
 
 # Tracking: handmatige modus en automatische modus
 
 Het volgen bepaalt hoe de gegevens van de Motor van het Onderzoek door uw implementatie van Adobe Analytics worden gevolgd. Dit is een vereiste stap om de Adobe Analytics-gegevens correct aan te vullen met de zoekengine-gegevens.
+
+Hier volgt een video-overzicht van het implementeren van de trackingsjabloon voor Advertising Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 Twee traceringsmodi worden ondersteund: Automatische modus en Handmatige modus.
 
