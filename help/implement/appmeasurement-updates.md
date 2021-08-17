@@ -3,7 +3,7 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 376b577211f927be5a896c2a20c8a2fc55437b85
 workflow-type: tm+mt
 source-wordcount: '2167'
 ht-degree: 3%
@@ -20,7 +20,7 @@ U kunt de recentste versie van AppMeasurement in [de Manager van de Code ](/help
 
 ## Versie 2.22.1
 
-Releasedatum: **12 augustus 2021**
+Releasedatum: **17 augustus 2021**
 
 * Klanten die opt-out gebruiken hebben de server-side het door:sturen opt-out parameters niet kunnen gezien wanneer het volgen van verbindingen. De correcties in deze release zorgen ervoor dat de markeringen voor niet-deelname worden verzonden als deze aanwezig zijn bij het bijhouden van koppelingen.
 
