@@ -3,7 +3,7 @@ description: De virtuele rapportreeksen segmenteren uw gegevens van Adobe Analyt
 title: Overzicht van virtuele rapportsuites
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: fb5de8ad4eee3e9017ab547823a7fa9132fa2457
+source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 De virtuele rapportreeksen segmenteren uw gegevens van Adobe Analytics zodat kunt u toegang tot elk segment controleren.
 
-Vele klanten hebben gegevens die in een globaal rapportpakket stromen, maar ook gegevens die in kleinere rapportseries stromen. Zij plaatsen een variabele aan veelvoudige rapportreeksen, en verzenden hun gegevens naar meer dan één rapportreeks. Dit wordt bedoeld als *multisuite tagging*, of *basis/ouderrapportsuites*.
+Vele klanten hebben gegevens die in een globaal rapportpakket stromen, maar ook gegevens die in kleinere rapportseries stromen. Zij plaatsen een variabele aan veelvoudige rapportreeksen, en verzenden hun gegevens naar meer dan één rapportreeks. Dit wordt bedoeld als *multi-suite het etiketteren*, of *basis/ouderrapportsuites*.
 
 Bijvoorbeeld, zouden alle gegevens in één rapportreeks kunnen worden verzameld, maar dan kunt u de secundaire rapportreeksen opzetten zodat andere mensen in uw bedrijf toegang tot een deel van de gegevens hebben, maar niet allen. De gegevens kunnen per gebied worden verdeeld. U hebt mogelijk verschillende websites voor verschillende landen. Andere voorbeelden kunnen specifieke merken zijn die tot een groter bedrijf behoren, maar die elk hun eigen marketing teams hebben.
 
