@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Adobe Analytics-dashboards, Report Builder en Activity Map.
-source-git-commit: 064674c3fa19f485850c4af6298c134d640d17bd
+source-git-commit: fcecd58f75425f31d7807f38cf9cbf0f3f276f5e
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1016'
 ht-degree: 87%
 
 ---
@@ -100,6 +100,7 @@ ht-degree: 87%
       + [Overzicht van attributie](analysis-workspace/attribution/overview.md)
       + [Attributiemodellen en terugzoekvensters](analysis-workspace/attribution/models.md)
       + [Algoritmische attributie](analysis-workspace/attribution/algorithmic.md)
+      + [Aanbevolen werkwijzen voor kenmerken](analysis-workspace/attribution/best-practices.md)
       + [Veelgestelde vragen](analysis-workspace/attribution/faq.md)
    + [Reis-IQ](analysis-workspace/journey-iq.md)
    + [Segment-IQ](analysis-workspace/segment-iq.md)
