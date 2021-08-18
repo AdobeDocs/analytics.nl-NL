@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: De hulp organiseert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, en alarm.
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
+source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 53%
+source-wordcount: '649'
+ht-degree: 52%
 
 ---
 
@@ -195,10 +195,11 @@ ht-degree: 53%
       + [Totalen van berekende standaard](c-calcmetrics/cm-totals.md)
 + Virtuele rapportsuites {#virtual-report-suites}
    + [Overzicht van virtuele rapportsuites](vrs/vrs-about.md)
-   + [Onderdeelselectie voor virtuele rapportsuites](vrs/vrs-components.md)
+   + [Virtuele rapportsuite - componentcursus](vrs/vrs-components.md)
    + [VRS-ondersteuning in Mobile Services](vrs/vrs-mobile-services.md)
    + [Contextbewuste sessies](vrs/vrs-mobile-visit-processing.md)
    + [Verwerking rapportduur](vrs/vrs-report-time-processing.md)
+   + [A4T-overwegingen](vrs/vrs-a4t.md)
    + [Veelgestelde vragen over VRS](vrs/vrs-faq.md)
    + [Overwegingen bij labels voor VRS en globale/multi-suites](vrs/vrs-considerations.md)
    + VRS-workflow {#vrs-workflow}
