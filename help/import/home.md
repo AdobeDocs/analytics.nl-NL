@@ -1,14 +1,13 @@
 ---
 title: Handleiding voor importeren van analysemogelijkheden
 description: Deze gids verklaart hoe te om gegevens in Analytics te krijgen gebruikend Gegevensbronnen, de Invoeging API van Gegevens, en de Verbindingen van Gegevens.
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 85%
+source-wordcount: '132'
+ht-degree: 83%
 
 ---
-
 
 # Handleiding voor importeren van analysemogelijkheden
 
@@ -22,7 +21,7 @@ In deze handleiding wordt uitgelegd hoe u gegevens in Analytics kunt opnemen. He
 
 ## Meer gebruikershandleidingen voor Analytics
 
-[Analytics-gebruikershandleidingen](/help/landing/home.md)
+[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Belangrijke bronnen voor Analytics
 
