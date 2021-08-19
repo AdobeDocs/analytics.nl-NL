@@ -1,14 +1,13 @@
 ---
 title: Handleiding voor exporteren van analysemogelijkheden
 description: In deze handleiding worden manieren beschreven om gegevens uit Adobe Analytics op te halen met behulp van gegevensfeeds en Data Warehouse.
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 88%
+source-wordcount: '153'
+ht-degree: 86%
 
 ---
-
 
 # Handleiding voor exporteren van analysemogelijkheden
 
@@ -25,9 +24,9 @@ In deze handleiding worden manieren beschreven waarop u gegevens uit Adobe Analy
 * [Data Warehouse](data-warehouse/data-warehouse.md)
 * [Exporteren naar FTP](ftp-and-sftp/ftp-overview.md)
 
-## Meer gebruikershandleidingen voor Analytics
+## Meer Analytics-gebruikershandleidingen
 
-[Analytics-gebruikershandleidingen](/help/landing/home.md)
+[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Belangrijke bronnen voor Analytics
 
