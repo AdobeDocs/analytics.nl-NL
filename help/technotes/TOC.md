@@ -4,18 +4,18 @@ audience: all
 user-guide-title: Technische notities voor Analytics
 breadcrumb-title: Technische notities
 user-guide-description: Een kennisbasis die nuttige artikelen bevat die niet tot een specifiek analyseprogramma of specifieke component behoren.
-translation-type: tm+mt
-source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 68%
+source-wordcount: '200'
+ht-degree: 69%
 
 ---
 
 
-# Technische notities voor analyse {#technotes}
+# Technische notities voor Analytics {#technotes}
 
 + [Technische notities voor Analytics](home.md)
++ [Documentatie-updates](doc-updates.md)
 + Adobe Analytics voor gebruikers van Google Analytics {#ga-to-aa}
    + [Help voor gebruikers van Adobe Analytics voor Google Analytics](ga-to-aa/home.md)
    + [Accounts en rapportsuites](ga-to-aa/accounts.md)
@@ -44,12 +44,14 @@ ht-degree: 68%
    + [Opties om het effect van browsercookiebeperkingen te beperken](cookies/cookieless.md)
 + [Dataretentie](data-retention.md)
 + [Gegevens uitsluiten](exclude-data.md)
++ [Functiereleases](releases.md)
 + [IPs en domeinen die door Adobe Analytics worden gebruikt](ip-addresses.md)
 + [Latentie](latency.md)
 + [Waarde voor weinig verkeer](low-traffic.md)
 + [De verwerkingsregels voor mobiele services migreren naar Adobe Analytics](migrate-mobile.md)
 + [Ondersteuning voor meerdere valuta&#39;s](multicurrency.md)
 + [Privacyoverzicht](privacy-overview.md)
++ [Progressieve webapps](pwa.md)
 + [Omleiding en aliassen](redirects.md)
 + Regionale dataverzameling {#rdc}
    + [Help bij regionale dataverzameling](rdc/regional-data-collection.md)
