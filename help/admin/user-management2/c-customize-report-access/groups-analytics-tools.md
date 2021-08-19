@@ -6,9 +6,9 @@ title: Toestemmingen voor Analytics-tools
 feature: Admin Tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '609'
 ht-degree: 5%
 
 ---
@@ -62,7 +62,7 @@ De instellingen op deze pagina hebben betrekking op de rapportsuites die zijn ge
 | Webservicetoegang | Laat de toegang van de Diensten van het Web voor niet-beheerders toe. Genereert de geloofsbrieven van de Dienst van het Web. |
 | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Leden van deze groep krijgen toegang tot [!UICONTROL Report Builder] licenties. |
 | [Analyse ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) WorkspaceAccess | Biedt gebruikers toegang tot Analysis Workspace, de aanbevolen rapportinterface voor [!DNL Adobe Analytics]. |
-| [Rapporten en analyses](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html) | Hiermee geeft u gebruikers toegang tot rapporten en analyses. |
+| [Rapporten en analyses](/help/analyze/reports-analytics/getting-started.md) | Hiermee geeft u gebruikers toegang tot rapporten en analyses. |
 | [Berekend metrisch ontwerp](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) | Hiermee geeft u gebruikers toestemming om berekende metriek te maken. |
 | [Segment maken](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) | Hiermee geeft u gebruikers toestemming om segmenten te maken. |
 | **Data Connectors** |  |
