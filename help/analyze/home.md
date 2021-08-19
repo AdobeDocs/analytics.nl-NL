@@ -4,10 +4,10 @@ description: Productdocumentatie en zelfhulp voor Analysis Workspace, Adobe Anal
 feature: Basisprincipes van werkruimte
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 75%
+source-wordcount: '222'
+ht-degree: 76%
 
 ---
 
@@ -28,14 +28,13 @@ Deze handleiding bevat productdocumentatie en zelfhulp voor de volgende rapporta
 
 * [Adobe Analytics-dashboards - overzicht](/help/analyze/mobile-app/home.md)
 * [Aan de slag met Analysis Workspace](analysis-workspace/home.md)
-* [Progressieve webtoepassingen voor Adobe Analytics](/help/analyze/pwa/pwa.md)
 * [Welke Adobe Analytics-tool moet ik gebruiken?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Aan de slag met Report Builder](report-builder/home.md)
 * [Activity Map voor Aan de slag](activity-map/activity-map.md)
 
 ## Meer Analytics-gebruikershandleidingen
 
-[Analytics-gebruikershandleidingen](/help/landing/home.md)
+[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Belangrijke bronnen voor Analytics
 
