@@ -5,10 +5,10 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 27%
+source-wordcount: '290'
+ht-degree: 26%
 
 ---
 
@@ -57,4 +57,3 @@ Hier volgt een video-overzicht van de Activity Map:
 * [Activity Map-gebruikersinterface](activitymap-user-interface.md)
 * [Activity Map-rapportage in Analytics](activitymap-reporting-analytics.md)
 * [Problemen met browserextensies oplossen](troubleshooting-browser-extensions.md)
-* [Kennisbronnen](activitymap-info-resources.md)
