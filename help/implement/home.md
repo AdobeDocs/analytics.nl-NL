@@ -2,9 +2,9 @@
 title: Adobe Analytics implementeren
 description: Implementeer Adobe Analytics op uw website, eigenschap of applicatie.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '363'
 ht-degree: 77%
 
 ---
@@ -41,7 +41,7 @@ Voor Adobe Analytics is code binnen uw website, mobiele app of andere applicatie
 
 ## Meer Analytics-gebruikershandleidingen
 
-[Analytics-gebruikershandleidingen](/help/landing/home.md)
+[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Belangrijke bronnen voor Analytics
 
