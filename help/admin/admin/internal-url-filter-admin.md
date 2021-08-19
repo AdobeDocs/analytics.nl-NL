@@ -4,19 +4,19 @@ title: Interne URL-filters
 feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 3%
 
 ---
 
+
 # Interne URL-filters
 
-**[!UICONTROL Admin > Report Suites > Edit Settings > General > Internal URL Filters > Add Filter]**
-
 Interne URL-filters identificeren de referenties die u intern voor uw site beschouwt. Zij helpen verkeersbronnen rapporteren bevolken gegevens en helpen intern verkeer filtreren.
+
+**[!UICONTROL Admin]** >  **[!UICONTROL Report Suites]** >  **[!UICONTROL Edit Settings]** >  **[!UICONTROL General]** >  **[!UICONTROL Internal URL Filters]**
 
 Een verwijzing, of verwijzende pagina, is typisch de pagina waarvan een bezoeker uw plaats inging. Als u wilt voorkomen dat gegevens worden schuingetrokken, kunt u interne referenties verwijderen. In rapporten worden gefilterde verwijzingen uitgesloten van de [Referrers](/help/components/dimensions/referrer.md)-dimensie, de [Verwijzende domeinen](/help/components/dimensions/referring-domain.md)-dimensie en andere afmetingen van de verkeersbron.
 
