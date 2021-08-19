@@ -1,14 +1,13 @@
 ---
 title: Analytics Components-handleiding
 description: Meer informatie over de verschillende componenten die Adobe Analytics biedt.
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 80%
+source-wordcount: '214'
+ht-degree: 79%
 
 ---
-
 
 # Analytics Components-handleiding
 
@@ -30,11 +29,11 @@ Met Analytics Components kunt u de analyse van uw data verfijnen en versterken. 
 ## Belangrijke artikelen over Analytics Components
 
 * [Dimensies](dimensions/overview.md)
-* [Cijfers](metrics/overview.md)
+* [Metrics](metrics/overview.md)
 
 ## Meer Analytics-gebruikershandleidingen
 
-[Analytics-gebruikershandleidingen](/help/landing/home.md)
+[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Belangrijke bronnen voor Analytics
 
