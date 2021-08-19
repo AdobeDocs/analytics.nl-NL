@@ -1,14 +1,13 @@
 ---
 title: Technische notities voor Analytics
 description: Deze handleiding biedt nuttige informatie over onderwerpen die niet tot een specifieke analysetool of onderdeel behoren.
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 93%
+source-wordcount: '96'
+ht-degree: 89%
 
 ---
-
 
 # Technische notities voor Analytics
 
@@ -21,7 +20,7 @@ Deze handleiding biedt nuttige informatie over onderwerpen die niet tot een spec
 
 ## Meer Analytics-gebruikershandleidingen
 
-[Analytics-gebruikershandleidingen](/help/landing/home.md)
+[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Andere bronnen voor Analytics
 
