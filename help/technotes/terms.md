@@ -2,10 +2,10 @@
 title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '2439'
-ht-degree: 0%
+source-wordcount: '2554'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
    * Verouderde beheerprogramma&#39;s, waarbij de instellingen van de rapportsuite in Adobe Analytics worden beheerd. In vorige versies van Adobe Analytics werden gebruikersmachtigingen hier ook beheerd. Zie [Admin Tools](/help/admin/admin/c-admin-tools.md) in de Admin-gebruikershandleiding.
    * De Adobe admin console, waar de producttoegang wordt voorzien en de gebruikerstoestemmingen worden beheerd. Zie [Admin Console](/help/admin/admin-console/home.md) in de Admin gebruikershandleiding.
 * **Toewijzing:** Als een conversievariabele tijdens een bezoek meer dan één waarde aantreft, bepaalt de toewijzingsinstelling van de variabele welke waarde wordt behouden. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de Admin gebruikershandleiding.
+* **Analysis Workspace:** Browser oplossing voor het bouwen van robuuste, aangepaste analyseprojecten en het democratiseren van inzichten. Biedt meer rapportflexibiliteit dan Reports and Analytics.
 * **Anomaly:** Gedetecteerd met statistische modellering om onverwachte tendensen in gegevens automatisch te vinden. Het model analyseert metriek en bepaalt een ondergrens, bovengrens, en verwachte waaier van waarden. Zie [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) in de Analyze gebruikershandleiding.
 * **AppMeasurement:** de codebibliotheek die wordt gebruikt om gegevens te verzamelen en te verzenden naar Adobe. Zie [Homepage](/help/implement/home.md) van de gebruikershandleiding van Implementeren.
 * **ASI-sleuf:** bestaat niet meer. In vorige versies van Adobe Analytics, verstrekte de groeven van ASI een tijdelijke container van de rapportreeks om gesegmenteerde gegevens te bekijken. In de huidige versie van Adobe Analytics, kunnen de segmenten onmiddellijk op om het even welk rapport worden toegepast.
@@ -44,10 +45,11 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Kenmerken van klant:** een Experience Cloud-functie waarmee kenmerkgegevens kunnen worden geüpload. Zie [Kenmerken van klanten](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in de gebruikershandleiding voor Core Services.
 * **gedelegeerde voor klantenondersteuning:** een aangewezen gebruiker die gemachtigd is rechtstreeks met de klantenservice van Adobe te communiceren. Zie [Vertegenwoordigers voor klantenondersteuning](https://helpx.adobe.com/experience-cloud/supported-users.html) in de knowledgebase van de Experience Cloud.
 * **Gegevensverzamelingsserver:** Adobe-servers die gegevens ontvangen en verwerken. De verzoeken van het beeld worden verzonden naar de servers van de inzameling van Adobe voor gebruik in rapportering.
-* **Gegevensconnectors:** een volledige ontwikkelingsoplossing waarmee een derde het uploaden van gegevens naar Adobe Analytics kan automatiseren. De klanten van die derde kunnen een gegevensschakelaar gebruiken om hun gegevens in Adobe Analytics te verrijken. De meeste gegevensschakelaars gebruiken een gelijkaardige werkschema dat in Gegevensbronnen wordt gebruikt. Zie Gegevensverbindingen in de gebruikershandleiding bij Importeren.
+* **Gegevensconnectors:** een volledige ontwikkelingsoplossing waarmee een derde het uploaden van gegevens naar Adobe Analytics kan automatiseren. De klanten van die derde kunnen een gegevensschakelaar gebruiken om hun gegevens in Adobe Analytics te verrijken. De meeste gegevensschakelaars gebruiken een gelijkaardige werkschema dat in Gegevensbronnen wordt gebruikt. Zie [Gegevensconnectors](/help/import/data-connectors/data-connectors-eol.md) in de gebruikershandleiding bij Importeren.
 * **Gegevensfeed:** Een onbewerkte gegevensexport die elke hit als een rij weergeeft en variabelen als afzonderlijke kolommen. Meestal gebruikt voor het exporteren van Adobe Analytics-gegevens naar een database van derden. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding bij Exporteren.
 * **Gegevensbronnen:** Hiermee kan een gebruiker gegevens uit een bestand uploaden naar Adobe Analytics. Het bestand wordt doorgaans uit een FTP-site opgehaald. Zie [Gegevensbronnen](/help/import/c-data-sources/datasrc-home.md) in de de gebruikersgids van de Invoer.
 * **Data Warehouse:** Een functie in Adobe Analytics waarmee u grotere rapporten kunt aanvragen. Zie [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) in de de gebruikersgids van de Uitvoer.
+* **Data Workbench:** Vroeger bekend als Insight. Ontworpen voor het verzamelen, verwerken, analyseren en visualiseren van data van zowel online als offline klanteninteracties via meerdere kanalen.
 * **Dimension:** Een componenttype dat variabele waarden bevat, zoals tekst. Voorbeelden zijn Paginanaam, Trackingcode of Referentiedomein. Een metrisch is typisch zijn tegenhanger.
 * **serienummering van gebeurtenissen:** het proces van uitvoeringsmaatregelen om het verzamelen van dubbele gebeurtenissen te voorkomen. Zie [Gebeurtenisserialisatie](../implement/vars/page-vars/events/event-serialization.md) in de gebruikershandleiding Implementeren.
 * **eVar:** Zie de conversievariabele.
@@ -71,6 +73,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Aanmeldingsbedrijf:** een verzameling van rapportsuites die door uw organisatie worden gebruikt. Sommige organisaties hebben veelvoudige login bedrijven die op verschillende delen van hun organisatie van toepassing zijn.
 * **Marketing, kanaal:** een functie in Adobe Analytics die hits categoriseert op basis van hun aankomst op uw site. De logica die wordt gebruikt om klappen te categoriseren kan worden aangepast gebruikend de verwerkingsregels van het Kanaal van de Marketing. Zie [Aan de slag met Marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) in de gebruikershandleiding van Componenten.
 * **Metrisch:** een componenttype dat kwantitatieve gegevens bevat. Metrische waarden bevatten doorgaans getallen, zoals Paginaweergaven, Bezoekingen en Opbrengst. Een dimensie is doorgaans de tegenhanger ervan.
+* **Mobiele services:** biedt mobiele marketingmogelijkheden voor mobiele toepassingen vanuit de hele Adobe Experience Cloud, zodat u de betrokkenheid van gebruikers met uw toepassingen begrijpt en verbetert. Zie [Overzicht van mobiele services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html).
 * **Tags toevoegen met meerdere suite:** het verzenden van dezelfde hit naar meerdere rapportsuites. Met de introductie van virtuele rapporteringssuites is deze praktijk grotendeels niet langer nodig. De meeste tagging-inspanningen met meerdere suite bieden ruimte voor een wereldwijd rapportenpakket.
 * **Normalisatie:** Een manier om een visualisatie te organiseren die alle metriek neemt en hen aan gelijke verhoudingen dwingt, die een gemakkelijkere vergelijking van tendensen toestaan.
 * **Voorvallen:** Een type metrische waarde dat aangeeft hoeveel keer een dimensie-item wordt ingesteld of blijvend. Zie [Voorvallen](/help/components/metrics/occurrences.md) metrisch in de de gebruikersgids van Componenten.
@@ -85,7 +88,9 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Prop:** Zie de variabele Verkeer.
 * **Rangschikt rapport:** Een rapportformaat dat typisch een dimensie met metrisch volgt. Met dit type rapport kunt u de bovenste items weergeven, zoals de meest bekeken pagina&#39;s op uw site. Zie ook Trended-rapport.
 * **In real time:** Toont gevormde variabelen zodra het met weinig tot geen latentie wordt verzameld. Zie [Real-time rapporten](/help/admin/admin/realtime/realtime.md) in de Admin gebruikershandleiding.
+* **Report Builder:** Een Microsoft Excel-invoegtoepassing waarmee u aangepaste aanvragen van Adobe Analytics-gegevens kunt samenstellen.
 * **Rapportsuite:** een overkoepelende container waarnaar u gegevens verzendt. Alle rapporten in Adobe Analytics verwijzen naar een rapportsuite.
+* **Rapporten en analyse:** voorheen bekend als SiteCatalyst. Browseroplossing voor rapportage en analyse. Startertool in het Analytics-pakket.
 * **Verschuivend datumbereik:** een type relatief datumbereik dat verandert als de tijd doorloopt. Een rapport dat de laatste 7 dagen weergeeft, kan bijvoorbeeld worden beschouwd als een doorlopend datumbereik. Zie ook het statische datumbereik.
 * **RSID:** Afkorting voor rapportsuite-id. Een rapportsuite heeft zowel een vriendelijke naam als een rapportsuite-id.
 * **s.t():** De naam van de functie in een AppMeasurement-bibliotheek die een paginaweergaveverzoek voor afbeeldingen verzendt. Sommige bibliotheken AppMeasurement gebruiken `s.track()` in plaats daarvan. Zie [t](../implement/vars/functions/t-method.md) in de gebruikershandleiding Implementeren.
@@ -98,7 +103,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Serienummering:** Zie Gebeurtenisserialisatie.
 * **Serveraanroep:** alternatieve naam voor een verzoek of treffer voor een afbeelding, meestal gebruikt voor facturering.
 * **Enkelvoudige toegang:** een bezoek waar een dimensie slechts één unieke waarde had. Het bezoek kan meerdere treffers hebben, zolang er niet meerdere unieke waarden zijn. Zie [Enige toegang](/help/components/metrics/single-access.md) metrisch in de de gebruikersgids van Componenten. Zie ook Stuiteren.
-* **SiteCatalyst:** Niet meer gebruikt als een term. De vroegere productnaam voor Adobe Analytics.
+* **SiteCatalyst:** Niet meer gebruikt als een term. Een vroegere productnaam voor Adobe Analytics.
 * **Het ontwerpdocument van de oplossing:** ook gekend als verwijzing van het oplossingsontwerp, of SDR. Een intern document dat door een organisatie wordt gehandhaafd die schetst hoe de douanevariabelen worden gebruikt, en de logica die wordt gebruikt om hen te bevolken. Zie [Een document voor het ontwerp van een oplossing maken](/help/implement/prepare/solution-design.md) in de gebruikershandleiding Implementeren.
 * **Subrelatie:** niet meer gebruikt als term; vervangen door uitsplitsingen naar dimensie. In eerdere versies van Adobe Analytics konden in subrelaties conversievariabelen worden ingedeeld. Zie [Afmetingen onderbreken](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in de gebruikershandleiding Analyseren.
 * **Succesgebeurtenis:** Een bijgehouden actie die een gebruiker heeft uitgevoerd. Uw organisatie bepaalt welke gebeurtenissen worden bijgehouden en welke succesgebeurtenisvariabelen u gebruikt om deze bij te houden. Zie [Aangepaste gebeurtenissen](/help/components/metrics/custom-events.md) in de gebruikershandleiding voor componenten.
