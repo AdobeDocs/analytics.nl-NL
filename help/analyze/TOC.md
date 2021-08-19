@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Adobe Analytics-dashboards, Report Builder en Activity Map.
-source-git-commit: fcecd58f75425f31d7807f38cf9cbf0f3f276f5e
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 87%
+source-wordcount: '985'
+ht-degree: 86%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 87%
 # Handleiding Analytics-tools {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
++ [Openingspagina](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Overzicht van Analysis Workspace](analysis-workspace/home.md)
    + [Nieuwe functies in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
@@ -273,10 +274,8 @@ ht-degree: 87%
    + [Activity Map-rapportage in Analytics](activity-map/activitymap-reporting-analytics.md)
    + [Browserextensie problemen oplossen](activity-map/troubleshooting-browser-extensions.md)
    + [Gegevensverzameling oplossen](activity-map/troubleshoot-data-collection.md)
-   + [Kennisbronnen](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
    + [Aan de slag met Reports and Analytics](reports-analytics/getting-started.md)
-   + [Adobe Analytics - Belangrijkste concepten](reports-analytics/key-concepts.md)
    + Overzicht van de rapportinterface {#reporting-interface}
       + [Over dataverzameling](reports-analytics/overview/overview-data-collection.md)
       + [Menu Rapporten](reports-analytics/overview/reports-menu.md)
@@ -310,11 +309,5 @@ ht-degree: 87%
    + [Adobe Analytics-dashboards - overzicht](mobile-app/home.md)
    + [Curator-handleiding](mobile-app/curator.md)
    + [Snelle handleiding voor executive gebruikers](mobile-app/executive.md)
-+ Progressieve webapps {#pwa}
-   + [Progressieve webapps](pwa/pwa.md)
-+ Analytics Rapportage-API {#analytics-reporting-api}
-   + [Overzicht van Analytics Rapportage-API](c-reporting-api/c-reporting-api.md)
-   + [Vergelijking Analytics Rapportage-API](c-reporting-api/api-comparison.md)
-   + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
-+ Labs {#tech-previews}
-   + [Overzicht van labs](tech-previews/overview.md)
++ [API voor rapportage](reporting-api.md)
++ [Labs](labs.md)
