@@ -3,7 +3,7 @@ title: Intelligente gegevens vloeiend maken
 description: Leer hoe Intelligent Gegevens Vloeiend maken historische tendensen analyseert om de waarde van metrisch binnen een beïnvloede tijdspanne te voorspellen.
 feature: AI-gereedschappen
 role: User, Admin
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 In zeldzame gevallen kunnen sommige factoren de gegevenskwaliteit beïnvloeden. Het verkeer, de implementatieveranderingen, of de dienstverstoringen kunnen allen de integriteit van de verzamelde gegevens beïnvloeden. Zij maken ook een analyse ingewikkelder van de manier waarop de gebeurtenis de volledigheid van de gegevens kan hebben beïnvloed.
 
-Intelligente gegevenseffening is een prototype in [Analytics Labs](/help/analyze/tech-previews/overview.md) dat kan helpen deze mening te voltooien door historische tendensen te analyseren om de waarde van metrisch binnen de beïnvloede tijdspanne te voorspellen. Het prototype past geavanceerde machine het leren algoritmen toe om de verwachte waarden voor metriek over de tijdspanne te plotten die wordt geanalyseerd.
+Intelligente gegevenseffening is een prototype in [Analytics Labs](/help/analyze/labs.md) dat kan helpen deze mening te voltooien door historische tendensen te analyseren om de waarde van metrisch binnen de beïnvloede tijdspanne te voorspellen. Het prototype past geavanceerde machine het leren algoritmen toe om de verwachte waarden voor metriek over de tijdspanne te plotten die wordt geanalyseerd.
 
 ## Intelligente gegevens vloeiend maken
 
