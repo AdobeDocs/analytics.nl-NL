@@ -1,14 +1,13 @@
 ---
 title: Analytics Integration
 description: Leer hoe u gegevens van andere locaties kunt integreren in Adobe Analytics.
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 92%
+source-wordcount: '167'
+ht-degree: 90%
 
 ---
-
 
 # Analyseintegratie
 
@@ -31,7 +30,7 @@ Configureer integratie met andere Adobe Experience Cloud-oplossingen zoals Audie
 
 ## Meer Analytics-gebruikershandleidingen
 
-[Analytics-gebruikershandleidingen](/help/landing/home.md)
+[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Belangrijke bronnen voor Analytics
 
