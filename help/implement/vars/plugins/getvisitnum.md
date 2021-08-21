@@ -2,9 +2,9 @@
 title: getVisitNum
 description: Volg het huidige bezoeknummer van een bezoeker.
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## De plug-in gebruiken
 
-De methode `getVisitNum` gebruikt de volgende argumenten:
+De functie `getVisitNum` gebruikt de volgende argumenten:
 
 * **`rp`** (optioneel, geheel getal OF tekenreeks): Het aantal dagen voordat de teller van het bezoeknummer opnieuw wordt ingesteld.  Wordt standaard ingesteld op `365` wanneer niet ingesteld.
    * Wanneer dit argument `"w"` is, stelt de teller aan het eind van de week (deze Zaterdag om 11:59 PM) terug
@@ -65,89 +65,31 @@ De methode `getVisitNum` gebruikt de volgende argumenten:
    * Als dit argument `"y"` is, wordt de teller aan het einde van het jaar opnieuw ingesteld (31 december)
 * **`erp`** (optioneel, Booleaans): Wanneer het  `rp` argument een getal is, bepaalt dit argument of de vervaldatum van het bezoeknummer moet worden verlengd. Als de set wordt ingesteld op `true`, worden volgende hits op uw site de teller van het bezoeknummer opnieuw ingesteld. Indien ingesteld op `false`, worden volgende treffers voor uw site niet uitgebreid wanneer de teller van het bezoeknummer opnieuw wordt ingesteld. Wordt standaard ingesteld op `true`. Dit argument is niet geldig wanneer het argument `rp` een tekenreeks is.
 
-Het aantal bezoekers neemt toe wanneer de bezoeker na 30 minuten inactiviteit terugkeert naar uw site. Als deze methode wordt aangeroepen, wordt een geheel getal geretourneerd dat het huidige bezoeknummer van de bezoeker vertegenwoordigt.
+Het aantal bezoekers neemt toe wanneer de bezoeker na 30 minuten inactiviteit terugkeert naar uw site. Als deze functie wordt aangeroepen, wordt een geheel getal geretourneerd dat het huidige bezoeknummer van de bezoeker vertegenwoordigt.
 
 Deze plug-in stelt een cookie van de eerste fabrikant met de naam `"s_vnc[LENGTH]"` in, waarbij `[LENGTH]` de waarde is die wordt doorgegeven aan het argument `rp`. Bijvoorbeeld `"s_vncw"`, `"s_vncm"`, of `"s_vnc365"`. De waarde van het cookie is een combinatie van een Unix-tijdstempel die aangeeft wanneer de bezoekteller opnieuw wordt ingesteld, zoals het einde van de week, het einde van de maand of na 365 dagen inactiviteit. Het bevat ook het huidige bezoeknummer. Met deze insteekmodule wordt een ander cookie met de naam `"s_ivc"` ingesteld op `true` en vervalt het cookie na 30 minuten inactiviteit.
 
-## Voorbeelden van aanroepen
-
-### Voorbeeld 1
-
-Voor een bezoeker die niet binnen de laatste 365 dagen aan de plaats is geweest, zal de volgende code s.prop1 aan de waarde van 1 plaatsen:
+## Voorbeelden
 
 ```js
-s.prop1=s.getVisitNum();
+// Sets prop4 to the visit number, storing the value in a cookie that expires in 365 days
+// The cookie value is reset only if there are 365+ days of inactivity or the visitor clears their cookies.
+s.prop4 = getVisitNum();
+
+// Sets eVar4 to the visit number, storing the value in a cookie that expires in 200 days
+// The cookie value is reset only if there are 200+ days of inactivity or the visitor clears their cookies.
+s.eVar4 = getVisitNum(200);
+
+// Sets eVar16 to the visit number, storing the value in a cookie that expires in 90 days.
+// The cookie value is reset after 90 days, regardless of how many visits that happen in those 90 days.
+s.eVar16 = getVisitNum(90,false);
+
+// Track the visit number unique to the week, month, and year, all in separate variables
+// The plug-in automatically creates three separate cookies to track these values
+s.prop1 = getVisitNum("w");
+s.prop2 = getVisitNum("m");
+s.prop3 = getVisitNum("y");
 ```
-
-### Voorbeeld 2
-
-Voor een bezoeker die binnen 364 dagen na zijn/haar eerste bezoek naar de site terugkeert, zal de volgende code s.prop1 gelijk aan 2 plaatsen:
-
-```js
-s.prop1=s.getVisitNum(365);
-```
-
-Als deze bezoeker binnen 364 dagen na zijn/haar tweede bezoek terugkeert naar de site, stelt de volgende code s.prop1 in op 3:
-
-```js
-s.prop1=s.getVisitNum(365);
-```
-
-### Voorbeeld 3
-
-Voor een bezoeker die binnen 179 dagen na zijn/haar eerste bezoek naar de site terugkeert, zal de volgende code s.prop1 gelijk aan 2 plaatsen:
-
-```js
-s.prop1=s.getVisitNum(180,false);
-```
-
-Als deze bezoeker echter 1 of meer dagen na zijn/haar tweede bezoek terugkeert naar de site, stelt de volgende code s.prop1 in op 1:
-
-```js
-s.prop1=s.getVisitNum(180,false);
-```
-
-Wanneer het tweede argument in de vraag aan vals is, zal de routine die bepaalt wanneer het bezoekaantal &quot;teruggesteld&quot;aan 1 zou moeten zijn &quot;x&quot;aantal dagen - in dit voorbeeld, 365 dagen - na het eerste bezoek van de bezoeker aan de plaats doen.
-
-Wanneer het tweede argument gelijk is aan true (of helemaal niet is ingesteld), stelt de plug-in het bezoeknummer pas in op 1 na het aantal &quot;x&quot; dagen - in dit voorbeeld 365 dagen - van inactiviteit van de bezoeker.
-
-### Voorbeeld 4
-
-Voor alle bezoekers die voor het eerst in de huidige week - die op zondag begint - naar de site komen, zal de volgende code s.prop1 gelijk aan 1 plaatsen:
-
-```js
-s.prop1=s.getVisitNum("w");
-```
-
-### Voorbeeld 5
-
-Voor alle bezoekers die voor het eerst in de huidige maand - die op de eerste dag van elke maand begint - naar de plaats komen zal de volgende code s.prop1 aan 1 plaatsen:
-
-```js
-s.prop1=s.getVisitNum("m");
-```
-
-Houd er rekening mee dat de getVisitNum-plug-in geen rekening houdt met op de detailhandel gebaseerde kalenders (bijvoorbeeld 4-5-4, 4-4-5, enz.)
-
-### Voorbeeld 6
-
-Voor alle bezoekers die voor het eerst in het huidige jaar - dat op 1 Januari begint - naar de plaats komen zal de volgende code s.prop1 aan 1 plaatsen:
-
-```js
-s.prop1=s.getVisitNum("y");
-```
-
-### Voorbeeld 7
-
-Als u het bezoeknummer van een bezoeker voor de week, het bezoeknummer van een bezoeker voor de maand, en het bezoeknummer van een bezoeker voor het jaar - allen binnen verschillende variabelen van de Analyse - wilt volgen, zou u code moeten gebruiken die op het volgende lijkt:
-
-```js
-s.prop1=s.getVisitNum("w");
-s.prop2=s.getVisitNum("m");
-s.prop3=s.getVisitNum("y");
-```
-
-In dit geval maakt de plug-in drie verschillende cookies - één voor elk van de verschillende tijdsperioden - om het individuele bezoeknummer per tijdsperiode bij te houden.
 
 ## Versiehistorie
 
