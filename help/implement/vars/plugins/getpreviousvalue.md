@@ -2,9 +2,9 @@
 title: getPreviousValue
 description: Hiermee wordt de laatste waarde opgehaald die in een variabele is doorgegeven.
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -56,80 +56,58 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 ## De plug-in gebruiken
 
-De methode `getPreviousValue` gebruikt de volgende argumenten:
+De functie `getPreviousValue` gebruikt de volgende argumenten:
 
 * **`v`** (tekenreeks, vereist): De variabele met de waarde die u wilt doorgeven aan de volgende afbeeldingsaanvraag. Een veelgebruikte variabele is `s.pageName` om de vorige paginawaarde terug te winnen.
 * **`c`** (tekenreeks, optioneel): De naam van het cookie waarin de waarde wordt opgeslagen.  Als dit argument niet is ingesteld, wordt standaard `"s_gpv"` ingesteld.
 
-Wanneer u deze methode aanroept, wordt de tekenreekswaarde in het cookie geretourneerd. De insteekmodule herstelt dan de vervaldatum van het cookie en wijst er de variabelewaarde aan toe vanuit het argument `v`. Het cookie verloopt na 30 minuten inactiviteit.
+Wanneer u deze functie aanroept, wordt de tekenreekswaarde in het cookie geretourneerd. De insteekmodule herstelt dan de vervaldatum van het cookie en wijst er de variabelewaarde aan toe vanuit het argument `v`. Het cookie verloopt na 30 minuten inactiviteit.
 
-## Voorbeelden van aanroepen
-
-### Voorbeeld 1
-
-De volgende code...
+## Voorbeelden
 
 ```js
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
-```
+// 1. Sets prop7 to the cookie value contained in gpv_Page
+// 2. Resets the gpv_Page cookie value to the page variable
+// 3. If the page variable is not set, reset the gpv_Page cookie expiration
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 
-* Stelt s.prop7 eerst in op de waarde die in s.pageName is doorgegeven in het vorige afbeeldingsverzoek (dat wil zeggen de waarde die is opgeslagen in het cookie &quot;gpv_Page&quot;).
-* De code herstelt vervolgens het cookie &quot;gpv_Page&quot;, waardoor deze gelijk is aan de huidige waarde van s.pageName
-* Als s.pageName niet op het tijdstip wordt geplaatst deze code loopt, dan zal de code de vervaldatum voor de huidige waarde van het koekje terugstellen
+// Sets prop7 to the cookie value contained in gpv_Page, but only if event1 is in the events variable.
+if(inList(s.events,"event1")) s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 
-### Voorbeeld 3
+// Sets prop7 to the cookie value contained in gpv_Page, but only if the page variable is currently set on the page
+if(s.pageName) s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 
-De volgende codesets s.prop7 is gelijk aan de laatste waarde die in s.pageName wordt overgegaan, maar slechts als event1 ook bevat binnen s.events is, zoals die via de insteekmodule inList wordt bepaald, op het tijdstip dat de vraag plaatsvindt.
-
-```js
-if(s.inList(s.events,"event1")) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
-```
-
-### Voorbeeld 3
-
-De volgende codesets s.prop7 is gelijk aan de laatste waarde die in s.pageName wordt doorgegeven, maar alleen als s.pageName momenteel op de pagina tegelijkertijd is ingesteld.
-
-```js
-if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
-```
-
-### Voorbeeld 4
-
-De volgende codesets s.eVar10 is gelijk aan de waarde die in s.eVar1 is doorgegeven in de vorige afbeeldingsaanvraag.   De vorige eVar1-waarde zou zijn opgenomen in het cookie &quot;s_gpv&quot;.  De code stelt vervolgens het &#39;s_gpv&#39;-cookie in op de huidige waarde van s.eVar1.
-
-```js
-s.eVar10 = s.getPreviousValue(s.eVar1)
+// Sets eVar10 equal to the cookie value contained in s_gpv, then sets the s_gpv cookie to the current value of eVar1.
+s.eVar10 = getPreviousValue(s.eVar1);
 ```
 
 ## Onwaarschijnlijke Kwartels
 
-Als de variabele die aan het v-argument is gekoppeld, op een nieuwe waarde is ingesteld en de insteekmodule getPreviousValue wordt uitgevoerd MAAR een aanroep van de Analytics-server NIET tegelijkertijd wordt verzonden, wordt de nieuwe v-argumentwaarde de volgende keer dat de insteekmodule wordt uitgevoerd, nog steeds als de &quot;vorige waarde&quot; beschouwd.
+Als de variabele die is gekoppeld aan het argument `v` op een nieuwe waarde is ingesteld en de `getPreviousValue`-insteekmodule BUT een analytische serveraanroep NIET tegelijkertijd wordt verzonden, wordt de nieuwe `v`-argumentwaarde nog steeds beschouwd als de &quot;vorige waarde&quot; de volgende keer dat de insteekmodule wordt uitgevoerd.
 Stel bijvoorbeeld dat de volgende code op de eerste pagina van het bezoek wordt uitgevoerd:
 
 ```js
-s.pageName="home"
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.pageName = "Home";
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Deze code zou een servervraag veroorzaken waar het pageName argument aan &quot;huis&quot;gelijk is en het p7 (prop7) argument niet wordt geplaatst.  Nochtans, zou de vraag aan s.getPreviousValue de waarde van s.pageName (d.w.z. &quot;home&quot;) in het cookie dat in de aanroep is opgegeven (bijvoorbeeld het cookie &quot;gpv_Page&quot;).
-Ga er nu van uit dat onmiddellijk daarna op dezelfde pagina de volgende code wordt uitgevoerd (om welke reden dan ook):
+Deze code produceert een servervraag waar `pageName` &quot;Huis&quot;is en prop7 niet wordt geplaatst.  Nochtans, slaat de vraag aan `getPreviousValue` de waarde van `pageName` in `gpv_Page` koekje op. Stel dat onmiddellijk daarna op dezelfde pagina de volgende code wordt uitgevoerd:
 
 ```js
-s.pageName="happy value"
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.pageName = "New value";
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-Aangezien de functie s.t() niet in dit codeblok wordt uitgevoerd, wordt er geen andere afbeeldingsaanvraag gemaakt.  Wanneer de functiecode s.getPreviousValue() deze keer wordt uitgevoerd, wordt s.prop7 echter ingesteld op de vorige waarde van s.pageName (dat wil zeggen: &quot;home&quot;) en slaat vervolgens de nieuwe waarde van s.pageName (d.w.z. &quot;happy value&quot;) in het cookie &quot;gpv_Page&quot;.
-Stel dat de bezoeker naar een andere pagina navigeert en de volgende code op deze pagina wordt uitgevoerd:
+Aangezien de functie `t()` niet in dit codeblok wordt uitgevoerd, wordt geen ander afbeeldingsverzoek verzonden.  Wanneer de `getPreviousValue`-functiecode deze keer wordt uitgevoerd, wordt `prop7` echter ingesteld op de vorige waarde van `pageName` (&quot;Home&quot;) en wordt de nieuwe waarde van `pageName` (&quot;Nieuwe waarde&quot;) opgeslagen in het `gpv_Page`-cookie. Ga er vervolgens van uit dat de bezoeker naar een andere pagina navigeert en dat de volgende code op deze pagina wordt uitgevoerd:
 
 ```js
-s.pageName="page 2"
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.pageName = "Page 2";
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Wanneer de s.t () vraagfunctie loopt, zal het tot een beeldverzoek leiden waar s.pageName=&quot;pagina 2&quot;en s.prop7 aan &quot;gelukkig waarde&quot;is, die de waarde van s.pageName was toen de laatste vraag aan getPreviousValue plaatsvond.   De s.prop7 waarde van &quot;huis&quot;was nooit in om het even welk echt beeldverzoek ingesloten alhoewel &quot;huis&quot;de eerste waarde was die in s.pageName wordt overgegaan.
+Wanneer de functie `t()` wordt uitgevoerd, wordt een afbeeldingsaanvraag gemaakt waarbij `pageName` &quot;Pagina 2&quot; is en `prop7` &quot;Nieuwe waarde&quot;, wat de waarde was van `pageName` toen de laatste aanroep naar `getPreviousValue` plaatsvond. De `prop7`-waarde van `"Home"` was nooit opgenomen in een afbeeldingsaanvraag, ook al was &quot;Home&quot; de eerste waarde die aan `pageName` werd doorgegeven.
 
 ## Versiehistorie
 
