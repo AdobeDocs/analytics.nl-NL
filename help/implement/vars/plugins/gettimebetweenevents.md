@@ -2,9 +2,9 @@
 title: getTimeBetweenEvents
 description: Meet de hoeveelheid tijd tussen twee gebeurtenissen.
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## De plug-in gebruiken
 
-De methode `getTimeBetweenEvents` gebruikt de volgende argumenten:
+De functie `getTimeBetweenEvents` gebruikt de volgende argumenten:
 
 * **`ste`** (vereist, tekenreeks): Start timergebeurtenissen. Een door komma&#39;s gescheiden tekenreeks van Analytics-gebeurtenissen naar &quot;start de timer&quot;.
 * **`rt`** (vereist, Booleaans): Optie timer opnieuw starten. Stel in op `true` als u de timer opnieuw wilt starten telkens wanneer de variabele `events` een gebeurtenis start timer bevat. Stel de waarde in op `false` als u niet wilt dat de timer opnieuw wordt gestart wanneer er een gebeurtenis start timer wordt weergegeven.
@@ -81,54 +81,28 @@ De methode `getTimeBetweenEvents` gebruikt de volgende argumenten:
 * **`bml`** (optioneel, nummer): De lengte van de afrondingsbenchmark volgens de vorm van het  `fmt` argument. Als het argument `fmt` bijvoorbeeld `"s"` is en dit argument `2` is, wordt de geretourneerde waarde afgerond naar de dichtstbijzijnde benchmark van 2 seconden. Als `fmt` argument `"m"` is en dit argument `0.5` is, wordt de terugkeerwaarde afgerond aan de dichtstbijzijnde half-minieme benchmark.
 * **`rte`** (optioneel, tekenreeks): Door komma&#39;s gescheiden tekenreeks van gebeurtenissen Analytics die de timer verwijderen of verwijderen. Heeft als standaardwaarde niets.
 
-Wanneer deze methode wordt aangeroepen, wordt een geheel getal geretourneerd dat de hoeveelheid tijd vertegenwoordigt tussen de gebeurtenis start timer en de gebeurtenis stop timer in de gewenste indeling.
+Als deze functie wordt aangeroepen, wordt een geheel getal geretourneerd dat de hoeveelheid tijd vertegenwoordigt tussen de gebeurtenis start timer en de gebeurtenis stop timer in de gewenste indeling.
 
 ## Voorbeelden van aanroepen
 
-### Voorbeeld 1
-
-De volgende code...
-
 ```js
+// The timer starts or restarts when the events variable contains event1
+// The timer stops and resets when the events variable contains event2
+// The timer resets when the events variable contains event3 or the visitor closes their browser
+// Sets eVar1 to the number of seconds between event1 and event2, rounded to the nearest 2-second benchmark
 s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, "event3");
+
+// The timer starts when the events variable contains event1. It does NOT restart with subsequent hits that also contain event1
+// The timer records a "lap" when the events variable contains event2. It does not stop the timer.
+// The timer resets when the events variable contains event3 or if more than 20 days pass since the timer started
+// The timer is stored in a cookie labeled "s_20"
+// Sets eVar4 to the number of hours between event1 and event2, rounded to the nearest 90-minute benchmark
+s.eVar4 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
+
+// Similar to the above timer in eVar4, except the return value is returned in seconds/minutes/hours/days depending on the timer length.
+// The timer expires after 1 day.
+s.eVar4 = getTimeBetweenEvents("event1", true, "event2", true);
 ```
-
-...functioneert als volgt:
-
-* De timer start wanneer s.events event1 bevat.
-* De timer wordt telkens opnieuw gestart wanneer s.events event1 bevat
-* De timer stopt wanneer s.events event2 bevat
-* De timer wordt opnieuw ingesteld (d.w.z. gaat naar 0 seconden) telkens wanneer s.events event2 bevat
-* De timer wordt ook opnieuw ingesteld wanneer s.events gebeurtenis3 OF bevat wanneer de bezoeker zijn/haar browser sluit
-* Wanneer een werkelijke tijd tussen event1 en event2 wordt geregistreerd, stelt de plug-in eVar1 in op het aantal seconden tussen de twee gebeurtenissen die worden ingesteld, afgerond op de dichtstbijzijnde 2-secondenstandaard (bijvoorbeeld 0 seconden, 2 seconden, 4 seconden, 10 seconden, 184 seconden enz.)
-* Als s.events event2 bevat voordat een timer is gestart, wordt eVar1 helemaal niet ingesteld.
-
-### Voorbeeld 3
-
-De volgende code...
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
-```
-
-...functioneert als volgt:
-
-* De timer start wanneer s.events event1 bevat.
-* De timer wordt NIET telkens opnieuw gestart als s.events event1 bevat, maar de oorspronkelijke timer blijft actief
-* De timer stopt NIET wanneer s.events event2 bevat, maar de insteekmodule neemt de tijd op sinds de oorspronkelijke gebeurtenis1-instelling is opgenomen
-* De timer wordt opgeslagen in een cookie met de naam &quot;s_20&quot;
-* De timer wordt alleen opnieuw ingesteld wanneer s.events event3 OF bevat wanneer 20 dagen zijn verstreken sinds de timer is gestart
-* Wanneer een tijd tussen (de originele) gebeurtenis1 en event2 wordt geregistreerd, stelt de plug-in eVar1 in op het aantal uren tussen de twee gebeurtenissen die worden ingesteld, afgerond op de dichtstbijzijnde benchmark van 1/2 uur (bijvoorbeeld 0 uur, 1,5 uur, 3 uur, 7,5 uur, 478,5 uur enz.)
-
-### Voorbeeld 2
-
-De volgende code...
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true);
-```
-
-...vergelijkbare resultaten zal opleveren als in het eerste bovenstaande voorbeeld; de waarde van eVar1 wordt echter geretourneerd in seconden, minuten, uren of dagen, afhankelijk van de uiteindelijke lengte van de timer.  De timer verloopt ook 1 dag nadat deze voor het eerst is ingesteld in plaats van op het moment dat de bezoeker de browser sluit.
 
 ## Versiehistorie
 
