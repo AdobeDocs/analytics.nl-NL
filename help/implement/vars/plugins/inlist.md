@@ -2,9 +2,9 @@
 title: inList
 description: Controleer of een waarde is opgenomen in een andere door tekens gescheiden waarde.
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -57,96 +57,48 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## De plug-in gebruiken
 
-De methode `inList` gebruikt de volgende argumenten:
+De functie `inList` retourneert een Booleaanse waarde, afhankelijk van de invoer. De volgende argumenten worden gebruikt:
 
 * **`lv`** (vereist, tekenreeks of array): Een gescheiden lijst met waarden of een JavaScript-arrayobject dat moet worden doorzocht
 * **`vtc`** (vereist, tekenreeks): De waarde waarnaar moet worden gezocht
 * **`d`** (optioneel, tekenreeks): Het scheidingsteken dat wordt gebruikt voor het scheiden van afzonderlijke waarden in het  `lv` argument. Heeft als standaardwaarde een komma (`,`).
-* **`cc`** (optioneel, Booleaans): Indien ingesteld op  `true`, wordt een hoofdlettergevoelige controle uitgevoerd. Indien ingesteld op `false` of weggelaten, wordt een niet-hoofdlettergevoelige controle uitgevoerd. Wordt standaard ingesteld op `false`.
+* **`cc`** (optioneel, Booleaans): Indien ingesteld op  `true` of  `1`, wordt een hoofdlettergevoelige controle uitgevoerd. Indien ingesteld op `false` of weggelaten, wordt een niet-hoofdlettergevoelige controle uitgevoerd. Wordt standaard ingesteld op `false`.
 
-Als deze methode wordt aangeroepen, wordt `true` geretourneerd als er een overeenkomst wordt gevonden en `false` als er geen overeenkomst wordt gevonden.
+Als deze functie wordt aangeroepen, wordt `true` geretourneerd als er een overeenkomst wordt gevonden en `false` als er geen overeenkomst wordt gevonden.
 
-## Voorbeelden van aanroepen
-
-### Voorbeeld 1
-
-Indien...
+## Voorbeelden
 
 ```js
-s.events="event22,event24";
-```
+// Returns true
+s.events = "event22,event24";
+if(inList(s.events,"event22")) {
+    // Code will execute
+}
 
-...en de volgende code wordt uitgevoerd...
+// Returns false because event2 is not an exact match in the string
+s.events = "event22,event24";
+if(inList(s.events,"event2")) {
+    // Code will not execute
+}
 
-```js
-if(s.inList(s.events,"event22"))
-```
+// Returns true because of the NOT operator
+s.events = "event22,event24";
+if(!inList(s.events,"event23")) {
+    // Code will execute
+}
 
-...de voorwaardelijke if-instructie is waar
-
-### Voorbeeld 3
-
-Indien...
-
-```js
-s.events="event22,event24";
-```
-
-...en de volgende code wordt uitgevoerd...
-
-```js
-if(s.inList(s.events,"event2"))
-```
-
-...de voorwaardelijke if-instructie is false omdat de inList-aanroep geen exacte overeenkomst heeft gemaakt tussen event2 en een van de gescheiden waarden in s.events
-
-### Voorbeeld 3
-
-Indien...
-
-```js
-s.events="event22,event24";
-```
-
-...en de volgende code wordt uitgevoerd...
-
-```js
-if(!s.inList(s.events,"event23"))
-```
-
-...de voorwaardelijke if-instructie is waar omdat de aanroep inList geen exacte overeenkomst heeft gemaakt tussen event23 en een van de gescheiden-waarden in s.events (let op de operator &quot;NOT&quot; aan het begin van de aanroep van de variabele inList).
-
-### Voorbeeld 4
-
-Indien...
-
-```js
+// Returns false because of the case-sensitive check
 s.events = "event22,event23";
-```
+if(inList(s.events,"EVenT23","",true)) {
+    // Code will not execute
+}
 
-...en de volgende code wordt uitgevoerd...
-
-```js
-if(s.inList(s.events,"EVenT23","",1))
-```
-
-...de voorwaardelijke if-instructie is false.  Hoewel dit voorbeeld niet praktisch is, toont het de behoefte aan gebruiksvoorzichtigheid wanneer het gebruiken van de case gevoelige vlag aan.
-
-### Voorbeeld 5
-
-Indien...
-
-```js
+// Returns false because of a mismatched delimiter, treating "events,eVar1" as a single value
 s.linkTrackVars = "events,eVar1";
+if(inList(s.linkTrackVars,"eVar1","|")) {
+    // Code will not execute
+}
 ```
-
-...en de volgende code wordt uitgevoerd...
-
-```js
-if(s.inList(s.linkTrackVars,"eVar1","|"))
-```
-
-...de voorwaardelijke if-instructie is false.  De waarde van het d-argument dat in de aanroep wordt doorgegeven (d.w.z. &quot;|&quot;) gaat ervan uit dat de individuele waarden in s.linkTrackVars worden afgebakend door een pipe-teken, terwijl de waarden in werkelijkheid door een komma worden afgebakend.  In dit geval probeert de plug-in een overeenkomst te maken tussen de gehele waarde van s.linkTrackVars (dat wil zeggen &quot;events,eVar1&quot;) en de waarde waarnaar moet worden gezocht (d.w.z. &quot;eVar1&quot;).
 
 ## Versiehistorie
 
