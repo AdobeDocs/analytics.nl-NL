@@ -2,9 +2,9 @@
 title: getQueryParam
 description: Haal de waarde van de parameter van het vraagkoord van een URL uit.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -55,132 +55,58 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## De plug-in gebruiken
 
-De methode `getQueryParam` gebruikt de volgende argumenten:
+De functie `getQueryParam` gebruikt de volgende argumenten:
 
 * **`qsp`** (vereist): Een door komma&#39;s gescheiden lijst met parameters voor queryreeksen die moet worden gezocht binnen de URL. Het is niet hoofdlettergevoelig.
 * **`de`** (optioneel): Het scheidingsteken dat moet worden gebruikt als meerdere parameters van queryreeksen overeenkomen. Heeft als standaardwaarde een lege tekenreeks.
 * **`url`** (optioneel): Een aangepaste URL, tekenreeks of variabele waaruit de parameterwaarden voor de queryreeks moeten worden geëxtraheerd. Wordt standaard ingesteld op `window.location`.
 
-Als deze methode wordt aangeroepen, wordt een waarde geretourneerd die afhankelijk is van de bovenstaande argumenten en de URL:
+Als deze functie wordt aangeroepen, wordt een waarde geretourneerd die afhankelijk is van de bovenstaande argumenten en de URL:
 
-* Wanneer geen overeenkomende parameter voor een querytekenreeks wordt gevonden, retourneert de methode een lege tekenreeks.
-* Wanneer een overeenkomende parameter voor een querytekenreeks wordt gevonden, retourneert de methode de parameterwaarde voor de queryreeks.
-* Als een overeenkomende parameter voor een querytekenreeks wordt gevonden maar de waarde leeg is, retourneert de methode `true`.
-* Wanneer meerdere overeenkomende parameters voor queryreeksen worden gevonden, retourneert de methode een tekenreeks met elke parameterwaarde die door de tekenreeks in het argument `de` wordt gescheiden.
+* Als er geen overeenkomende parameter voor een querytekenreeks wordt gevonden, retourneert de functie een lege tekenreeks.
+* Als een overeenkomende parameter voor een querytekenreeks wordt gevonden, retourneert de functie de parameterwaarde voor de queryreeks.
+* Als een overeenkomende parameter voor een querytekenreeks wordt gevonden maar de waarde leeg is, retourneert de functie `true`.
+* Als er meerdere overeenkomende parameters voor queryreeksen worden gevonden, retourneert de functie een tekenreeks met elke parameterwaarde die door de tekenreeks in het argument `de` wordt gescheiden.
 
-## Voorbeelden van aanroepen
-
-### Voorbeeld 1
-
-Als de huidige URL als volgt is:
+## Voorbeelden
 
 ```js
-http://www.abc123.com/?cid=trackingcode1
+// Given the URL https://example.com/?cid=trackingcode
+// Sets the campaign variable to "trackingcode"
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode:123"
+s.campaign = getQueryParam('cid,ecid',':');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode123"
+s.campaign = getQueryParam('cid,ecid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123#location
+// Sets the campaign variable to "123"
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com/#location&cid=trackingcode&ecid=123
+// Sets the campaign variable to "123"
+// The plug-in replaces the URL's hash character with a question mark if a question mark doesn't exist.
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com
+// Does not set the campaign variable to a value.
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com
+// Sets the campaign variable to "trackingcode"
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid','',s.pageURL);
+
+// Given the URL https://example.com
+// Sets eVar2 to "123|trackingcode|true|300"
+s.eVar1 = "https://example.com/?cid=trackingcode&ecid=123#location&pos=300";
+s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ```
-
-Met de volgende code wordt s.campagne ingesteld op &#39;trackingcode1&#39;:
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-### Voorbeeld 2
-
-Als de huidige URL als volgt is:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-Met de volgende code wordt s.campagne ingesteld op &#39;trackingcode1:123456&#39;:
-
-```js
-s.campaign=s.getQueryParam('cid,ecid',':');
-```
-
-### Voorbeeld 3
-
-Als de huidige URL als volgt is:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-Met de volgende code wordt s.campagne ingesteld op &#39;trackingcode1123456&#39;:
-
-```js
-s.campaign=s.getQueryParam('cid,ecid');
-```
-
-### Voorbeeld 4
-
-Als de huidige URL als volgt is:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
-```
-
-Met de volgende code wordt s.campagne ingesteld op &quot;123456&quot;:
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-### Voorbeeld 5
-
-Als de huidige URL als volgt is:
-
-```js
-http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
-```
-
-Met de volgende code wordt s.campagne ingesteld op &quot;123456&quot;
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-**Opmerking:** de insteekmodule vervangt de URL naar het hashteken van de controle door een vraagteken als er geen vraagteken bestaat.  Als de URL een vraagteken bevat dat voor het hashteken komt, vervangt de insteekmodule de URL naar het hashteken van de controle door een en-teken;
-
-### Voorbeeld 6
-
-Als de huidige URL de volgende is...
-
-```js
-http://www.abc123.com/
-```
-
-...en als de variabele s.testURL als volgt is ingesteld:
-
-```js
-s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
-```
-
-De volgende code stelt s.campagne helemaal niet in:
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-De volgende code stelt s.campagne echter in op &#39;trackingcode1&#39;:
-
-```js
-s.campaign=s.getQueryParam('cid','',s.testURL);
-```
-
-**Opmerking:** de derde parameter kan elke tekenreeks/variabele zijn die de code gebruikt om de parameters van de queryreeks te zoeken in
-
-De volgende code stelt s.eVar2 in op &quot;123456|trackingcode1|true|300&quot;:
-
-```js
-s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
-```
-
-* De waarde 123456 is afkomstig van de parameter ecid in de variabele s.testURL
-* De waarde van trackingCode1 is afkomstig van de parameter cid in de variabele s.testURL
-* De waarde true is afkomstig van het bestaan (maar niet de waarde) van de parameter location na het hash-teken in de variabele s.testURL
-
-De waarde 300 is afkomstig van de waarde van de parameter pos in de variabele s.testURL
 
 ## Versiehistorie
 
