@@ -2,9 +2,9 @@
 title: rfl
 description: Verwijder een specifieke waarde uit een tekenreeks met een teken als scheidingsteken.
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 
 ## De plug-in gebruiken
 
-De methode `rfl` gebruikt de volgende argumenten:
+De functie `rfl` gebruikt de volgende argumenten:
 
 * **`lv`** (vereist, tekenreeks): Een variabele (of tekenreeks) die een lijst met gescheiden waarden bevat
 * **`vr`** (vereist, tekenreeks): De waarde die u uit het  `lv` argument wilt verwijderen. Adobe adviseert tegen het verwijderen van veelvoudige waarden tijdens één enkele `rfl` vraag.
@@ -70,7 +70,7 @@ De methode `rfl` gebruikt de volgende argumenten:
 * **`d2`** (optioneel, tekenreeks): Het scheidingsteken dat u de retourtekenreeks wilt gebruiken. Heeft standaard dezelfde waarde als het argument `d1`.
 * **`df`** (optioneel, Booleaans): Indien  `true`, slechts dubbele instanties van het  `vr` argument van het  `lv` argument in plaats van alle instanties. Wordt standaard ingesteld op `false` wanneer niet ingesteld.
 
-Wanneer deze methode wordt aangeroepen, wordt een gewijzigde tekenreeks geretourneerd die het argument `lv` bevat, maar zonder instanties (of dubbele instanties) van de waarde die is opgegeven in het argument `vr`.
+Als deze functie wordt aangeroepen, wordt een gewijzigde tekenreeks geretourneerd die het argument `lv` bevat, maar zonder instanties (of dubbele instanties) van de waarde die is opgegeven in het argument `vr`.
 
 ## Voorbeelden van aanroepen
 
@@ -85,7 +85,7 @@ s.events = "event22,event24,event25";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.events = s.rfl(s.events,"event24");
+s.events = rfl(s.events,"event24");
 ```
 
 ...de uiteindelijke waarde van s.events zal zijn :
@@ -105,7 +105,7 @@ s.events = "event22,event24,event25";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.events = s.rfl(s.events,"event26");
+s.events = rfl(s.events,"event26");
 ```
 
 ...de uiteindelijke waarde van s.events zal zijn :
@@ -127,7 +127,7 @@ s.events = "event22,event24,event25";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.events = s.rfl(s.events);
+s.events = rfl(s.events);
 ```
 
 ...de uiteindelijke waarde van s.events zal zijn :
@@ -136,7 +136,7 @@ s.events = s.rfl(s.events);
 s.events = "";
 ```
 
-Als het argument lv of het argument vr in een s.rfl vraag leeg zijn, dan zal de stop - binnen niets terugkeren
+Als het argument `lv` of `vr` in een `rfl` vraag leeg zijn, dan keert de stop-binnen niets terug.
 
 ### Voorbeeld 4
 
@@ -149,7 +149,7 @@ s.prop4 = "hello|people|today";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.eVar5 = s.rfl(s.prop4,"people","|");
+s.eVar5 = rfl(s.prop4,"people","|");
 ```
 
 ...de definitieve waarde van s.prop4 zal nog zijn...
@@ -164,7 +164,7 @@ s.prop4 = "hello|people|today";
 s.eVar5 = "hello|today";
 ```
 
-Houd er rekening mee dat de insteekmodule alleen een waarde retourneert. de variabele die via het lv - argument wordt doorgegeven , wordt niet opnieuw ingesteld .
+Houd er rekening mee dat de insteekmodule alleen een waarde retourneert. de variabele die door het argument `lv` wordt doorgegeven, wordt niet opnieuw ingesteld.
 
 ### Voorbeeld 5
 
@@ -177,7 +177,7 @@ s.prop4 = "hello|people|today";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.prop4 = s.rfl(s.prop4,"people");
+s.prop4 = rfl(s.prop4,"people");
 ```
 
 ...de definitieve waarde van s.prop4 zal nog zijn...
@@ -186,7 +186,7 @@ s.prop4 = s.rfl(s.prop4,"people");
 s.prop4 = "hello|people|today";
 ```
 
-U moet het argument d1 instellen wanneer de waarde van het argument lv een ander scheidingsteken bevat dan de standaardwaarde (dus komma).
+Zorg ervoor dat u het argument `d1` instelt in gevallen waarin de argumentwaarde `lv` een ander scheidingsteken bevat dan de standaardwaarde (d.w.z. komma).
 
 ### Voorbeeld 6
 
@@ -199,7 +199,7 @@ s.events = "event22,event23,event25";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.events = s.rfl(s.events,"EVenT23");
+s.events = rfl(s.events,"EVenT23");
 ```
 
 ...de uiteindelijke waarde van s.events zal zijn :
@@ -221,7 +221,7 @@ s.events = "event22,event23:12345,event25";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.events = s.rfl(s.events,"event23");
+s.events = rfl(s.events,"event23");
 ```
 
 ...de uiteindelijke waarde van s.events zal zijn :
@@ -241,7 +241,7 @@ s.events = "event22,event23:12345,event25";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.events = s.rfl(s.events,"event23:12345");
+s.events = rfl(s.events,"event23:12345");
 ```
 
 ...de uiteindelijke waarde van s.events zal zijn :
@@ -250,7 +250,7 @@ s.events = s.rfl(s.events,"event23:12345");
 s.events = "event22,event23:12345,event25";
 ```
 
-Wanneer u een gebeurtenis moet verwijderen die serienummering en/of numerieke/valutasyntaxis gebruikt, zou u slechts de gebeurtenis zelf (d.w.z. zonder de rangschikking/numerieke/muntwaarden) in de s.rfl vraag moeten specificeren.
+Wanneer u een gebeurtenis moet verwijderen die rangschikking en/of numerieke/muntsyntaxis gebruikt, zou u slechts de gebeurtenis zelf (d.w.z. zonder de rangschikking/numerieke/muntwaarden) in `rfl` vraag moeten specificeren.
 
 ### Voorbeeld 9
 
@@ -263,7 +263,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.events = s.rfl(s.events,"event23");
+s.events = rfl(s.events,"event23");
 ```
 
 ...de uiteindelijke waarde van s.events zal zijn :
@@ -283,7 +283,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.events = s.rfl(s.events,"event23", "", "",true);
+s.events = rfl(s.events,"event23", "", "",true);
 ```
 
 ...de uiteindelijke waarde van s.events zal zijn :
@@ -303,7 +303,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.events = s.rfl(s.events,"event23", "", "|",true);
+s.events = rfl(s.events,"event23", "", "|",true);
 ```
 
 ...de uiteindelijke waarde van s.events zal zijn :
@@ -323,7 +323,7 @@ s.events = "event22,event23,event24,event25";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.events = s.rfl(s.events,"event23,event24");
+s.events = rfl(s.events,"event23,event24");
 ```
 
 ...de uiteindelijke waarde van s.events zal zijn :
@@ -332,7 +332,7 @@ s.events = s.rfl(s.events,"event23,event24");
 s.events = "event22,event23,event24,event25";
 ```
 
-Het instellen van meerdere waarden in het vr-argument wordt niet ondersteund. De rfl-logica in het bovenstaande voorbeeld zou eerst de waarden in het lv-argument (d.w.z. s.events) opsplitsen en vervolgens proberen om elke gescheiden waarde te koppelen aan de volledige waarde van het vr-argument (d.w.z. &quot;event23,event24&quot;).
+Het instellen van meerdere waarden in het argument `vr` wordt niet ondersteund. De `rfl`-logica in het bovenstaande voorbeeld zou eerst de waarden in het `lv`-argument (d.w.z. s.events) opsplitsen en vervolgens proberen elke gescheiden waarde te koppelen aan de complete `vr`-argumentwaarde (d.w.z. `"event23,event24"`).
 
 ### Voorbeeld 13
 
@@ -345,8 +345,8 @@ s.events = "event22,event23,event24,event25";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.events = s.rfl(s.events,"event23");
-s.events = s.rfl(s.events,"event24");
+s.events = rfl(s.events,"event23");
+s.events = rfl(s.events,"event24");
 ```
 
 ...de uiteindelijke waarde van s.events zal zijn :
@@ -355,7 +355,7 @@ s.events = s.rfl(s.events,"event24");
 s.events = "event22,event25");
 ```
 
-Elke waarde die uit de lijst moet worden verwijderd, moet zich binnen de eigen aanroep s.rfl bevinden.
+Elke waarde die uit de lijst moet worden verwijderd, moet binnen de eigen `rfl`-aanroep worden opgenomen.
 
 ### Voorbeeld 14
 
@@ -368,7 +368,7 @@ s.linkTrackVars = "events,eVar1,eVar2,eVar3";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.linkTrackVars = s.rfl(s.linkTrackVars,"eVar2", ",", ",", false);
+s.linkTrackVars = rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 ```
 
 ...de uiteindelijke waarde van s.linkTrackVars is:
@@ -377,7 +377,7 @@ s.linkTrackVars = s.rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-De laatste drie argumenten (d.w.z. &quot;,&quot;,&quot;,&quot;, vals) aan het eind van deze s.rfl vraag zijn niet noodzakelijk maar &quot;richten ook niets&quot;door daar te zijn aangezien zij de standaardmontages aanpassen.
+De laatste drie argumenten (d.w.z. &quot;,&quot;,&quot;,&quot;, vals) aan het eind van deze `rfl` vraag is niet noodzakelijk maar &quot;richt ook niets&quot;door daar te zijn aangezien zij de standaardmontages aanpassen.
 
 ### Voorbeeld 15
 
@@ -390,7 +390,7 @@ s.events = "event22,event23,event24";
 ...en de volgende code wordt uitgevoerd...
 
 ```js
-s.rfl(s.events,"event23");
+rfl(s.events,"event23");
 ```
 
 ...de definitieve waarde van s.events zal nog zijn:
@@ -399,7 +399,7 @@ s.rfl(s.events,"event23");
 s.events = "event22,event23,event24";
 ```
 
-Vergeet ook niet dat de insteekmodule alleen een waarde retourneert. de variabele die via het lv - argument wordt doorgegeven , wordt niet opnieuw ingesteld .
+Vergeet ook niet dat de insteekmodule alleen een waarde retourneert. de variabele die door het argument `lv` wordt doorgegeven, wordt niet opnieuw ingesteld.
 
 ## Versiehistorie
 
