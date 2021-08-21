@@ -2,9 +2,9 @@
 title: getTimeToComplete
 description: Meet de tijd die u nodig hebt om een taak te voltooien.
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -57,51 +57,31 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## De plug-in gebruiken
 
-De methode `getTimeToComplete` gebruikt de volgende argumenten:
+De functie `getTimeToComplete` gebruikt de volgende argumenten:
 
 * **`sos`** (optioneel, tekenreeks): Instellen op  `"start"` wanneer u de timer wilt starten. Stel in op `"stop"` wanneer u de timer wilt stoppen. Wordt standaard ingesteld op `"start"`.
 * **`cn`** (optioneel, tekenreeks): De naam van het cookie waarin de begintijd wordt opgeslagen. Wordt standaard ingesteld op `"s_gttc"`.
 * **`exp`** (optioneel, geheel getal): Het aantal dagen dat de cookie (en timer) verloopt. Wordt standaard ingesteld op `0`, hetgeen het einde van de browsersessie vertegenwoordigt.
 
-Het roepen van deze methode keert een koord terug dat het aantal dagen, uren, notulen en/of seconden bevat het tussen `"start"` en `"stop"` actie nam.
+Als deze functie wordt aangeroepen, wordt een tekenreeks geretourneerd die het aantal dagen, uren, minuten en/of seconden bevat dat is verstreken tussen de handeling `"start"` en `"stop"`.
 
-## Voorbeelden van aanroepen
-
-### Voorbeeld 1
-
-Gebruik deze aanroepen om de tijd te bepalen tussen het moment waarop een bezoeker het uitcheckproces start en het moment waarop hij of zij een aankoop doet.
-
-Start de timer wanneer de bezoeker het uitchecken start:
+## Voorbeelden
 
 ```js
-if(s.events.indexOf("scCheckout") > -1) s.getTimeToComplete("start");
+// Start the timer when the visitor starts the checkout
+if(s.events.indexOf("scCheckout") > -1) getTimeToComplete("start");
+
+// Stop the timer when the visitor makes the purchase and set prop1 to the time difference between stop and start
+// Sets prop1 to the amount of time it took to complete the purchase process
+if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
+
+// Simultaneously track the time it takes to complete a purchase and to fill out a registration form
+// Stores each timer in their own respective cookies so they run independently
+if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
 ```
-
-Stop de tijdopnemer wanneer de bezoeker de aankoop maakt en reeks prop1 aan het tijdverschil tussen stop en begin:
-
-```js
-if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
-```
-
-s.prop1 legt vast hoeveel tijd nodig is om het aankoopproces te voltooien
-
-### Voorbeeld 3
-
-Als u verscheidene tijdopnemers wilt hebben die tezelfdertijd lopen (om verschillende processen te meten), zult u het cn koekjesargument manueel moeten plaatsen.  Als u bijvoorbeeld wilt meten hoeveel tijd een aankoop nodig heeft om te voltooien, stelt u de volgende code in...
-
-```javascript
-if(s.inList(s.events, "scCheckout")) s.getTimeToComplete("start", "gttcpurchase");
-if(s.inList(s.events, "purchase")) s.prop1 = s.getTimeToComplete("start", "gttcpurchase");
-```
-
-...maar als u (tezelfdertijd) ook wilt meten hoeveel tijd nodig is om een registratieformulier in te vullen, zou u ook de volgende code uitvoeren:
-
-```js
-if(s.inList(s.events, "event1")) s.getTimeToComplete("start", "gttcregister", 7);
-if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregister", 7);
-```
-
-In het tweede voorbeeld is event1 bedoeld om het begin vast te leggen van een registratieproces dat tot 7 dagen kan duren om te voltooien, om welke reden dan ook, en event2 is bedoeld om de voltooiing van de registratie vast te leggen.  s.prop2 legt vast hoeveel tijd nodig is om het registratieproces te voltooien
 
 ## Versiehistorie
 
