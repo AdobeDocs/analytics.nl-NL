@@ -2,7 +2,7 @@
 title: manageVars
 description: Wijzig de waarden van meerdere analytische variabelen tegelijk.
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -57,7 +57,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## De plug-in gebruiken
 
-De methode `manageVars` gebruikt de volgende argumenten:
+De functie `manageVars` gebruikt de volgende argumenten:
 
 * **`cb`** (vereist, tekenreeks): De naam van een callback-functie die de plug-in gebruikt om de variabelen Analytics te manipuleren. U kunt een functie van de Adobe zoals `cleanStr` of uw eigen douanefunctie gebruiken.
 * **`l`** (optioneel, tekenreeks): Een door komma&#39;s gescheiden lijst met variabelen van Analytics die u wilt manipuleren. De standaardwaarde is ALLE Adobe Analytics-variabelen indien deze niet zijn ingesteld, waaronder:
@@ -79,7 +79,7 @@ De methode `manageVars` gebruikt de volgende argumenten:
    * Alle contextgegevensvariabelen
 * **`Il`** (optioneel, Booleaans): Stel deze optie in op  `false` als u de lijst met variabelen die in het  ** argument zijn gedeclareerd, wilt  `l` uitsluiten in plaats van ze op te nemen. Wordt standaard ingesteld op `true`.
 
-Het aanroepen van deze methode retourneert niets. In plaats daarvan worden de waarden van de variabelen van de Analyse veranderd die op de gewenste callback functie worden gebaseerd.
+Het aanroepen van deze functie retourneert niets. In plaats daarvan worden de waarden van de variabelen van de Analyse veranderd die op de gewenste callback functie worden gebaseerd.
 
 ## Voorbeelden van aanroepen
 
@@ -88,7 +88,7 @@ Het aanroepen van deze methode retourneert niets. In plaats daarvan worden de wa
 De volgende code...
 
 ```js
-s.manageVars("lowerCaseVars");
+manageVars("lowerCaseVars");
 ```
 
 ...Hiermee wijzigt u de waarden van alle hierboven beschreven variabelen in lagere versies.  De enige uitzondering hierop zijn de gebeurtenisvariabele, zoals sommige gebeurtenissen (bijvoorbeeld scAdd, scCheckout, enz.) zijn hoofdlettergevoelig en mogen niet worden verlaagd
@@ -98,17 +98,17 @@ s.manageVars("lowerCaseVars");
 De volgende code...
 
 ```js
-s.manageVars("lowerCaseVars", "events", false);
+manageVars("lowerCaseVars", "events", false);
 ```
 
 ...produceert in wezen het zelfde resultaat zoals het eerste voorbeeld aangezien de gebeurtenisvariabele niet door gebrek wordt verminderd.
 
-### Voorbeeld 3
+### Voorbeeld 2
 
 De volgende code...
 
 ```js
-s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
+manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
 
 ...alleen de waarden van eVar1, eVar2, eVar3 en list2 wijzigen (bijvoorbeeld kleine letters)
@@ -118,7 +118,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 De volgende code...
 
 ```js
-s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
+manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
 ...wijzigt (bijvoorbeeld in kleine letters) de waarden van alle hierboven beschreven variabelen, behalve voor eVar1, eVar2, eVar3 en list2
@@ -128,7 +128,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 De volgende code...
 
 ```js
-s.manageVars("cleanStr");
+manageVars("cleanStr");
 ```
 
 ...wijzigt de waarden van alle hierboven beschreven variabelen, inclusief de gebeurtenisvariabelen.  Specifiek, doet de schoonStr callback functie het volgende aan de waarde van elke variabelen:
