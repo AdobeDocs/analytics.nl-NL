@@ -2,7 +2,7 @@
 title: Getallensuite
 description: Cijfers maken en manipuleren voor gebruik in andere JavaScript-variabelen.
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 0%
@@ -67,24 +67,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Plug-ins gebruiken
 
-De methode `zeroPad` gebruikt de volgende argumenten:
+De functie `zeroPad` gebruikt de volgende argumenten:
 
-* **num** (vereist, geheel getal): The number to pad. De methode rondt de waarde van dit argument af als het decimalen bevat.
+* **num** (vereist, geheel getal): The number to pad. De functie rondt de waarde van dit argument af als het decimalen bevat.
 * **nod** (required, integer): Het aantal cijfers in de uiteindelijke geretourneerde waarde. Als het aantal toe te voegen cijfers minder dan het aantal cijfers heeft aan te vullen, dan voegt de stop - binnen nul aan het begin van het `num` argument toe.
 
-De methode `randomNumber` gebruikt de volgende argumenten:
+De functie `randomNumber` gebruikt de volgende argumenten:
 
 * **nod**  (optioneel, geheel getal): Het aantal cijfers in het willekeurige getal dat u wilt genereren. De maximumwaarde is 17 cijfers. De standaardwaarde is 10 cijfers.
 
-De methode `twoDecimals` gebruikt de volgende argumenten:
+De functie `twoDecimals` gebruikt de volgende argumenten:
 
 * **val** (vereist, nummer): Een getal (vertegenwoordigd door een tekenreeks of een object Number) dat u naar het dichtstbijzijnde honderdste wilt afronden.
 
 ## Retourneert
 
-* De **zeroPad** methode keert een koord terug gelijk aan `num` argument maar met een specifiek aantal nul die aan het begin van zijn waarde wordt toegevoegd, die ervoor zorgt dat de terugkeerwaarde het correcte aantal cijfers heeft.
-* De methode **randomNumber** retourneert een tekenreeks die gelijk is aan een willekeurig getal met het gewenste aantal cijfers.
-* De **twoDecimals** methode keert een aantalvoorwerp terug dat aan de dichtstbijzijnde honderdste wordt afgerond.
+* De functie **zeroPad** keert een koord terug gelijk aan `num` argument maar met een specifiek aantal nul die aan het begin van zijn waarde wordt toegevoegd, die ervoor zorgt dat de terugkeerwaarde het correcte aantal cijfers heeft.
+* De functie **randomNumber** retourneert een tekenreeks die gelijk is aan een willekeurig getal met het gewenste aantal cijfers.
+* De functie **twoDecimals** keert een aantalvoorwerp terug dat aan de dichtstbijzijnde honderdste wordt afgerond.
 
 ## Voorbeelden van aanroepen
 
