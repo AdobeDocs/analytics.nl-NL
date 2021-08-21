@@ -2,9 +2,9 @@
 title: getVisitDuration
 description: Houd bij hoeveel tijd een bezoeker tot dusver op de site is geweest.
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 ## De plug-in gebruiken
 
-De methode `getVisitDuration` gebruikt geen argumenten. Deze geeft een van de volgende waarden:
+De functie `getVisitDuration` gebruikt geen argumenten. Deze geeft een van de volgende waarden:
 
 * `"first hit of visit"`
 * `"less than a minute"`
@@ -66,37 +66,16 @@ De methode `getVisitDuration` gebruikt geen argumenten. Deze geeft een van de vo
 
 Deze plug-in maakt een cookie van de eerste partij met de naam `"s_dur"`. Dit is het aantal milliseconden dat is verstreken sinds de bezoeker op de site is beland. Het cookie verloopt na 30 minuten inactiviteit.
 
-## Voorbeelden van aanroepen
-
-### Voorbeeld 1
-
-De volgende code...
+## Voorbeelden
 
 ```js
-s.eVar10 = s.getVisitDuration();
+// Always sets eVar10 to the number of minutes passed since the visitor first landed on the site
+s.eVar10 = getVisitDuration();
+
+// Checks if the events variable contains the purchase event.
+// If it does, sets eVar56 to the number of minutes between the start of the visit and the time of purchase
+if(inList(s.events, "purchase")) s.eVar56 = getVisitDuration();
 ```
-
-...stelt eVar10 altijd in op het aantal minuten dat is verstreken sinds de bezoeker de site heeft aangeland
-
-### Voorbeeld 3
-
-De volgende code...
-
-```js
-if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
-```
-
-...gebruikt de insteekmodule inList om te controleren of de variabele events de aankoopgebeurtenis bevat.  In dat geval wordt eVar10 ingesteld op het aantal minuten tussen het begin van het bezoek van de bezoeker en het tijdstip van aankoop.
-
-### Voorbeeld 2
-
-De volgende code...
-
-```js
-s.prop10 = s.getVisitDuration();
-```
-
-...stelt prop10 altijd in op het aantal minuten dat is verstreken sinds de bezoeker de site heeft aangeland.  Dit is handig als voor prop10 het plakken is ingeschakeld.  Als u de metrische waarde ‘exits’ toevoegt aan het rapport prop10, wordt een korrelig, ‘scatterplot’ weergegeven met de melding hoe lang een bezoek duurde in minuten voordat een bezoeker de site verliet.
 
 ## Versiehistorie
 
