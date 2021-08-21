@@ -2,10 +2,10 @@
 title: Overzicht van plug-ins
 description: Plak code op uw site om nieuwe functionaliteit te introduceren.
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: '366'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,3 @@ Elke organisatie heeft verschillende implementatiebehoeften, zodat u kunt beslui
 4. Valideer uw implementatie en publiceer.
 
 Veel organisaties roepen insteekmodules aan met behulp van de functie [`doPlugins`](../functions/doplugins.md). Hoewel deze functie niet vereist is, beschouwt Adobe het als een goede praktijk om te gebruiken. AppMeasurement roept deze functie vlak voordat een afbeeldingsverzoek wordt gecompileerd en verzonden. Dit is ideaal omdat verschillende plug-ins afhankelijk zijn van andere analytische variabelen.
-
-## Plug-ins gebruiken met niet-standaard trackingobjecten
-
-Plug-ins werken standaard niet met andere trackingobjecten dan `s`. U kunt echter wel insteekcode wijzigen om ruimte te maken voor het aangepaste trackingobject. Vervang binnen een bepaalde plug-in alle verwijzingen naar `s` door het gewenste trackingobject.
