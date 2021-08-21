@@ -2,9 +2,9 @@
 title: apl (appendToList)
 description: Voeg waarden toe aan variabelen die meerdere waarden ondersteunen.
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## De plug-in gebruiken
 
-De methode `apl` gebruikt de volgende argumenten:
+De functie `apl` gebruikt de volgende argumenten:
 
 * **`lv`** (vereist, tekenreeks): De variabele die een lijst met gescheiden items bevat waaraan een nieuwe waarde moet worden toegevoegd
 * **`vta`** (vereist, tekenreeks): Een door komma&#39;s gescheiden lijst met de nieuwe waarden die aan de waarde van het  `lv` argument moeten worden toegevoegd.
@@ -71,231 +71,59 @@ De methode `apl` gebruikt de volgende argumenten:
 * **`d2`** (optioneel, tekenreeks): Het uitvoerscheidingsteken. Wordt standaard ingesteld op dezelfde waarde als `d1` wanneer deze niet is ingesteld.
 * **`cc`** (optioneel, Booleaans): Een markering die aangeeft of een hoofdlettergevoelige controle wordt gebruikt. Bij `true` is de duplicatiecontrole hoofdlettergevoelig. Als `false` of niet ingesteld, is de duplicatiecontrole niet hoofdlettergevoelig. Wordt standaard ingesteld op `false`.
 
-De methode `apl` retourneert de waarde van het argument `lv` plus eventuele niet-gedupliceerde waarden in het argument `vta`.
+De functie `apl` retourneert de waarde van het argument `lv` plus eventuele niet-gedupliceerde waarden in het argument `vta`.
 
-## Voorbeelden van aanroepen
-
-### Voorbeeld 1
-
-Indien...
+## Voorbeelden
 
 ```js
+// Set the events variable to "event22,event24,event23".
 s.events = "event22,event24";
-```
+s.events = apl(s.events,"event23");
 
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... de uiteindelijke waarde van s.events zal zijn :
-
-```js
-s.events = "event22,event24,event23";
-```
-
-### Voorbeeld 3
-
-Indien...
-
-```js
+// The events variable remains unchanged because the apl function does not add duplicate values
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"event23");
 
-...en de volgende code wordt uitgevoerd...
+// Set the events variable to "event23" if the events variable is blank
+s.events = "";
+s.events = apl(s.events,"event23");
 
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... de definitieve waarde van s.events zal nog zijn:
-
-```js
-s.events = "event22,event23";
-```
-
-In dit voorbeeld heeft de apl-aanroep geen wijzigingen aangebracht in s.events aangezien s.events al &quot;event23&quot; bevatte
-
-### Voorbeeld 2
-
-Indien...
-
-```js
-s.events = ""; //blank value
-```
-
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... de uiteindelijke waarde van s.events is..
-
-```js
-s.events = "event23";
-```
-
-### Voorbeeld 4
-
-Indien...
-
-```js
+// Append a value to eVar5. The value of prop4 remains unchanged.
+// The value of eVar5 is "hello|people|today".
 s.prop4 = "hello|people";
-```
+s.eVar5 = apl(s.prop4, "today", "|");
 
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.eVar5 = s.apl(s.prop4, "today", "|");
-```
-
-... de definitieve waarde van s.prop4 zal nog zijn...
-
-```js
+// Sets prop4 to "hello|people,today". Be mindful of correct delimiters!
 s.prop4 = "hello|people";
-```
+s.prop4 = apl(s.prop4, "today");
 
-...maar de uiteindelijke waarde van s.eVar5 zal
-
-```js
-s.eVar5 = "hello|people|today";
-```
-
-Houd er rekening mee dat de insteekmodule alleen een waarde retourneert. de variabele die door het lv - argument wordt doorgegeven , wordt niet noodzakelijkerwijs &quot; opnieuw ingesteld &quot; .
-
-### Voorbeeld 5
-
-Indien...
-
-```js
-s.prop4 = "hello|people";
-```
-
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.prop4 = s.apl(s.prop4, "today");
-```
-
-... de definitieve waarde van s.prop4 zal zijn..
-
-```js
-s.prop4 = "hello|people,today";
-```
-
-Zorg ervoor dat het scheidingsteken consistent blijft tussen wat er in de waarde van het argument lv staat en wat er in de argumenten d1/d2 staat
-
-### Voorbeeld 6
-
-Indien...
-
-```js
+// Sets the events variable to "event22,event23,EVentT23". Be mindful of capitalization when using the cc argument!
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"EVenT23", ",", ",", true);
 
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.events = s.apl(s.events,"EVenT23", ",", ",", true);
-```
-
-... de uiteindelijke waarde van s.events zal zijn :
-
-```js
-s.events = "event22,event23,EVentT23";
-```
-
-Hoewel dit voorbeeld niet praktisch is, toont het de behoefte aan gebruiksvoorzichtigheid wanneer het gebruiken van de case gevoelige vlag aan.
-
-### Voorbeeld 7
-
-Indien...
-
-```js
+// Sets the events variable to "event22,event23,event24,event25".
 s.events = "event22,event23";
-```
+s.events = apl(s.events, "event23,event24,event25");
 
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.events = s.apl(s.events, "event23,event24,event25");
-```
-
-... de uiteindelijke waarde van s.events zal zijn :
-
-```js
-s.events = "event22,event23,event24,event25");
-```
-
-De plug-in voegt &quot;event23&quot; niet toe aan s.events omdat deze al bestaat in s.events.  Nochtans, zal het zowel event24 als event25 aan s.events toevoegen omdat geen van beiden eerder in s.events bevatte.
-
-### Voorbeeld 8
-
-Indien...
-
-```js
+// Sets linkTrackVars to "events,eVar1,campaign".
+// The last three arguments at the end of this apl call are not necessary because they match the default argument values.
 s.linkTrackVars = "events,eVar1";
-```
+s.linkTrackVars = apl(s.linkTrackVars, "campaign", ",", ",", false);
 
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
-```
-
-... de uiteindelijke waarde van s.linkTrackVars is:
-
-```js
-s.linkTrackVars = "events,eVar1,campaign";
-```
-
-De laatste drie argumenten (d.w.z. &quot;,&quot;, &quot;,&quot;, false) aan het einde van deze appel-aanroep zijn niet nodig, maar hebben ook geen &quot;nadelige invloed&quot; doordat deze worden ingesteld omdat deze overeenkomen met de standaardargumentwaarden.
-
-### Voorbeeld 9
-
-Indien...
-
-```js
+// This apl call does not do anything because the code does not assign the returned value to a variable.
 s.events = "event22,event24";
+apl(s.events, "event23");
+
+// Sets the list2 variable to "apple-APPLE-Apple".
+// Since the two delimiter arguments are different, the value passed in is delimited by "|", then joined together by "-".
+s.list2 = "apple|APPLE";
+s.list2 = apl(s.list2, "Apple", "|", "-", true);
+
+// Sets the list3 variable to "value1,value1,value1" (unchanged).
+// Only new values are deduplicated. Existing duplicate values remain.
+s.list3 = "value1,value1,value1";
+s.list3 = apl(s.list3,"value1");
 ```
-
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.apl(s.events, "event23");
-```
-
-... de definitieve waarde van s.events zal nog zijn:
-
-```js
-s.events = "event22,event24";
-```
-
-Als u de plug-in helemaal zelf uitvoert (zonder de geretourneerde waarde aan een variabele toe te wijzen), wordt de variabele die door het lv-argument is doorgegeven, niet opnieuw ingesteld.
-
-### Voorbeeld 10
-
-Indien...
-
-```js
-s.list2 = "casesensitivevalue|casesensitiveValue"
-```
-
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
-```
-
-... de definitieve waarde van s.list2 zal zijn:
-
-```js
-s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
-```
-
-Aangezien de twee delimiter argumenten verschillend zijn, zal de binnen overgegaan waarde door het eerste delimiter argument (&quot;|&quot;) worden afgebakend en dan samengevoegd door het tweede delimiter argument (&quot;-&quot;)
 
 ## Versiehistorie
 
@@ -323,7 +151,7 @@ Aangezien de twee delimiter argumenten verschillend zijn, zal de binnen overgega
 
 ### 2.5 (18 februari 2016)
 
-* Gebruikt nu de `inList` methode voor vergelijkingsverwerking
+* Gebruikt nu de functie `inList` voor vergelijkingsverwerking
 
 ### 2.0 (26 januari 2016)
 
