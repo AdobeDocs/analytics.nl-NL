@@ -2,9 +2,9 @@
 title: getPageName
 description: Maak een eenvoudig te lezen pageName van het huidige websitepad.
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -57,145 +57,43 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## De plug-in gebruiken
 
-De methode `getPageName` gebruikt de volgende argumenten:
+De functie `getPageName` gebruikt de volgende argumenten:
 
 * **`si`** (optioneel, tekenreeks): Een id die wordt ingevoegd aan het begin van de tekenreeks die de id van de site vertegenwoordigt. Deze waarde kan een numerieke id of een vriendelijke naam zijn. Wanneer deze niet is ingesteld, wordt standaard het huidige domein gebruikt.
 * **`qv`** (optioneel, tekenreeks): Een door komma&#39;s gescheiden lijst met parameters van queryreeksen die, indien gevonden in de URL, worden toegevoegd aan de tekenreeks
 * **`hv`** (optioneel, tekenreeks): Een door komma&#39;s gescheiden lijst met parameters gevonden in de URL-hash die, indien gevonden in de URL, aan de tekenreeks wordt toegevoegd
 * **`de`** (optioneel, tekenreeks): Het scheidingsteken voor het opsplitsen van afzonderlijke delen van de tekenreeks. Heeft als standaardwaarde een pipe (`|`).
 
-De methode retourneert een tekenreeks met een gebruiksvriendelijke versie van de URL. Deze tekenreeks wordt doorgaans toegewezen aan de variabele `pageName`, maar kan ook in andere variabelen worden gebruikt.
+De functie retourneert een tekenreeks met een gebruiksvriendelijke versie van de URL. Deze tekenreeks wordt doorgaans toegewezen aan de variabele `pageName`, maar kan ook in andere variabelen worden gebruikt.
 
-## Voorbeelden van aanroepen
-
-### Voorbeeld 1
-
-Als de huidige URL...
+## Voorbeelden
 
 ```js
-https://mail.google.com/mail/u/0/#inbox
-```
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "mail.example.com|mail|u|0".
+s.pageName = getPageName();
 
-...en de volgende code wordt uitgevoerd...
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "example|mail|u|0".
+s.pageName = getPageName("example");
 
-```js
-s.pageName = getPageName()
-```
+// Given the URL https://www.example.com/, sets the page variable to "www.example.com|home".
+// When the code runs on a URL that does not contain a path, it always adds the value of "home" to the end of the return value.
+s.pageName = getPageName();
 
-...de definitieve waarde van s.pageName zal zijn:
+// Given the URL https://www.example.com/, sets the page variable to "example|home".
+s.pageName = getPageName("example","","","|");
 
-```js
-s.pageName = "mail.google.com|mail|u|0";
-```
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "www.example.com|en|booking|room-booking.html".
+s.pageName = getPageName();
 
-### Voorbeeld 3
-
-Als de huidige URL...
-
-```js
-https://mail.google.com/mail/u/0/#inbox
-```
-
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.pageName = getPageName("gmail")
-```
-
-...de definitieve waarde van s.pageName zal zijn:
-
-```js
-s.pageName = "gmail|mail|u|0";
-```
-
-### Voorbeeld 3
-
-Als de huidige URL...
-
-```js
-https://www.google.com/
-```
-
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.pageName = getPageName()
-```
-
-...de definitieve waarde van s.pageName zal zijn:
-
-```js
-s.pageName = "www.google.com|home"
-```
-
-**Opmerking**: Wanneer de code wordt uitgevoerd op een URL die geen pad bevat, wordt altijd de waarde &quot;home&quot; toegevoegd aan het einde van de geretourneerde waarde
-
-### Voorbeeld 4
-
-Als de huidige URL...
-
-```js
-https://www.google.com/
-```
-
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.pageName = getPageName("google","","","|")
-```
-
-...de definitieve waarde van s.pageName zal zijn:
-
-```js
-s.pageName = "google|home"
-```
-
-### Voorbeeld 5
-
-Als de huidige URL...
-
-```js
-https://www.hotelrooms.com/en/booking/room-booking.html?cid=1235#/step2&arrive=2018-05-26&depart=2018-05-27&numGuests=2
-```
-
-...en de volgende code wordt uitgevoerd...
-
-```js
-s.pageName = getPageName()
-```
-
-...de definitieve waarde van s.pageName zal zijn:
-
-```js
-s.pageName = "www.hotelrooms.com|en|booking|room-booking.html"
-```
-
-Als de volgende code echter wordt uitgevoerd...
-
-```js
-s.pageName = getPageName("hotelrooms","cid","arrive,numGuests",": ")
-```
-
-...de definitieve waarde van s.pageName zal zijn:
-
-```js
-s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-05-26: numGuests=2"
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "example: en: booking: room-booking.html: cid=1235: arrive=05-26: numGuests=2"
+s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 ```
 
 ## Upgrade uitvoeren vanaf vorige versies
 
-Versie 4.0+ van de insteekmodule getPageName is niet afhankelijk van het bestaan van het te gebruiken object AppMeasurement van Adobe Analytics (d.w.z. het object &#39;s&#39;).  Als u verkiest om aan deze versie te bevorderen, ben zeker om de code te veranderen die stop-binnen roept door om het even welke instanties van het &quot;s&quot;voorwerp uit de vraag te verwijderen.
-Wijzig bijvoorbeeld het volgende:
-
-```js
-s.pageName = s.getPageName();
-```
-
-...op dit punt:
-
-```js
-s.pageName = getPageName();
-```
+Versie 4.0+ van de `getPageName`-plug-in is niet afhankelijk van het bestaan van het object AppMeasurement van Adobe Analytics (dat wil zeggen het object `s`). Als u aan deze versie bevordert, verander de code die de stop-binnen door om het even welke instanties van het `s` voorwerp uit de vraag te verwijderen. Wijzig bijvoorbeeld `s.getPageName();` in `getPageName();`.
 
 ## Versiehistorie
 
