@@ -2,9 +2,9 @@
 title: getTimeSinceLastVisit
 description: Meet de hoeveelheid tijd die tussen twee bezoeken is verstreken.
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 ## De plug-in gebruiken
 
-De methode `getTimeSinceLastVisit` gebruikt geen argumenten. Het retourneert de hoeveelheid tijd die is verstreken sinds de bezoeker voor het laatst naar de site is gekomen. Deze tijd wordt als volgt geplakt:
+De functie `getTimeSinceLastVisit` gebruikt geen argumenten. Het retourneert de hoeveelheid tijd die is verstreken sinds de bezoeker voor het laatst naar de site is gekomen. Deze tijd wordt als volgt geplakt:
 
 * De tijd tussen 30 minuten en een uur sinds het laatste bezoek is ingesteld op de dichtstbijzijnde halftijdse benchmark. Bijvoorbeeld, `"30.5 minutes"`, `"53 minutes"`
 * De tijd tussen een uur en een dag wordt afgerond aan de dichtstbijzijnde benchmark van kwartier. Bijvoorbeeld, `"2.25 hours"`, `"7.5 hours"`
@@ -70,22 +70,21 @@ De methode `getTimeSinceLastVisit` gebruikt geen argumenten. Het retourneert de 
 
 Deze plug-in maakt een cookie van de eerste partij met de naam `"s_tslv"` die is ingesteld op een Unix-tijdstempel van de huidige tijd. Het cookie verloopt na twee jaar inactiviteit.
 
-## Voorbeelden van aanroepen
+## Voorbeelden
 
-### Voorbeeld 1
+```js
+// Given a visitor's first visit to the site
+// Sets prop1 to "New Visitor"
+s.prop1 = getTimeSinceLastVisit();
 
-Als een gloednieuwe bezoeker naar de site komt en de volgende code op de eerste pagina van het bezoek wordt uitgevoerd...
+// 35 minutes later, the same visitor returns
+// Sets prop1 to "35 minutes"
+s.prop1 = getTimeSinceLastVisit();
 
-```javascript
-s.prop1 = s.getTimeSinceLastVisit();
-s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be included on the first hit of the visit
+// 4 days later, the same visitor returns
+// Sets prop1 to "4 days"
+s.prop1 = getTimeSinceLastVisit();
 ```
-
-...de waarde van s.prop1 zal aan &quot;Nieuwe Bezoeker&quot;worden geplaatst.
-
-Als dezelfde code op hetzelfde domein wordt uitgevoerd na 35 minuten inactiviteit, wordt de waarde van s.prop1 ingesteld op &quot;35 minuten&quot;.
-
-Als dezelfde code op hetzelfde domein wordt uitgevoerd na 4 dagen van verdere inactiviteit, wordt de waarde van s.prop1 ingesteld op &quot;4 dagen&quot;.
 
 ## Versiehistorie
 
