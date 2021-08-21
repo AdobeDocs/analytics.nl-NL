@@ -2,9 +2,9 @@
 title: cleanStr
 description: Alle overbodige tekens uit een tekenreeks verwijderen of vervangen.
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -57,51 +57,24 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## De plug-in gebruiken
 
-De methode `cleanStr` gebruikt de volgende argumenten:
+De functie `cleanStr` gebruikt de volgende argumenten:
 
 * **`str`** (vereist, tekenreeks): De waarde die u wilt verwijderen voor HTML-codering, extra witruimte, tabs of andere overbodige tekens.
 
-De methode retourneert de waarde van het argument `str`, waarbij alle overbodige tekens zijn verwijderd.
+De functie retourneert de waarde van het argument `str`, waarbij alle overbodige tekens zijn verwijderd.
 
 ## Voorbeelden
 
-### Voorbeeld 1
-
-Stel het volgende in (waar de punten spaties vertegenwoordigen en de pijlen tabtekens zijn
-
 ```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-Wanneer u de volgende code uitvoert...
-
-```js
+// Returns the value "this is a messystring". Note that both tabs and extra spaces are present in the original string.
+// Multiple spaces are reduced to one, while tabs are omitted entirely.
+s.eVar1 = "  this  is a      messy  string    ";
 s.eVar1 = cleanStr(s.eVar1)
+
+// This function call does not do anything because the code does not assign the returned value to a variable.
+s.eVar1 = "  this  is a      messy  string    ";
+cleanStr(s.eVar1);
 ```
-
-...eVar1 wordt ingesteld op gelijk aan &quot;this is a message string&quot; (met alle extra spaties en alle tabtekens verwijderd)
-
-### Voorbeeld 3
-
-Indien...
-
-```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-...en de volgende code wordt uitgevoerd...
-
-```js
-cleanStr(s.eVar1)
-```
-
-...de uiteindelijke waarde van s.eVar1 blijft :
-
-```js
-"»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-Als u de plug-in helemaal zelf uitvoert (zonder de geretourneerde waarde aan een variabele toe te wijzen), wordt de variabele die door het str-argument is doorgegeven, niet opnieuw ingesteld.
 
 ## Versiehistorie
 
