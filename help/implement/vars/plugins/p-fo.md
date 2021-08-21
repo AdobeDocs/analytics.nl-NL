@@ -2,9 +2,9 @@
 title: p_fo (alleen Pagina eerste)
 description: Zorg ervoor dat bepaalde routines slechts één keer per pagina worden geactiveerd.
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## De plug-in gebruiken
 
-De methode `p_fo` gebruikt de volgende argumenten:
+De functie `p_fo` gebruikt de volgende argumenten:
 
 * **on** (required, string): De naam van het JavaScript-object dat door de insteekmodule wordt gemaakt als het object nog niet op de pagina bestaat.
 
-Als het object nog niet bestaat, retourneert deze methode `true` en wordt het object gemaakt. Als het object al bestaat, retourneert deze methode `false`.
+Als het object nog niet bestaat, retourneert deze functie `true` en wordt het object gemaakt. Als het object al bestaat, retourneert deze functie `false`.
 
 ## Voorbeelden van aanroepen
 
@@ -71,14 +71,14 @@ De volgende code controleert of het object &quot;myobject&quot; op de pagina aan
 
 Als het object &quot;myobject&quot; echter al bestaat wanneer de p_fo-aanroep plaatsvindt, retourneert de p_fo-functie de waarde false en wordt de voorwaardelijke instructie dus als false beschouwd.  In dit geval wordt de code binnen de voorwaardelijke instructie niet uitgevoerd.
 
-```javascript
-if(s.p_fo("myobject"))
+```js
+if(p_fo("myobject"))
 {
   console.log("hello");
 }
 ```
 
-**OPMERKING:** Telkens wanneer een nieuw paginaobject/DOM wordt geladen (of de huidige pagina opnieuw wordt geladen), bestaat het object dat in het argument on is opgegeven, niet meer en retourneert de insteekmodule p_fo dus opnieuw true wanneer de pagina volledig is geladen.
+**OPMERKING:** Telkens wanneer een nieuw paginaobject/DOM wordt geladen (of de huidige pagina opnieuw wordt geladen), bestaat het object dat is opgegeven in het argument on niet meer en retourneert de insteekmodule p_fo dus opnieuw de waarde wanneer deze wordt uitgevoerd nadat de pagina is geladen.
 
 ## Versiehistorie
 
