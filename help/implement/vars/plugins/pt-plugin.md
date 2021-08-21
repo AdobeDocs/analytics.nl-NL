@@ -2,7 +2,7 @@
 title: pt
 description: Hiermee wordt een functie uitgevoerd op een lijst met variabelen.
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de insteekmodule `pt` wordt een functie of methode op een lijst met variabelen voor Analytics uitgevoerd. U kunt bijvoorbeeld de methode [`clearVars`](../functions/clearvars.md) selectief op verschillende variabelen uitvoeren zonder de methode telkens handmatig aan te roepen. Verscheidene andere stop-ins hangen van deze code af correct in werking te stellen. Deze insteekmodule is niet nodig als u een specifieke functie niet hoeft uit te voeren voor meer dan één variabele Analytics tegelijk, of als u geen afhankelijke insteekmodules gebruikt.
+Met de insteekmodule `pt` wordt een functie of methode op een lijst met variabelen voor Analytics uitgevoerd. U kunt bijvoorbeeld de functie [`clearVars`](../functions/clearvars.md) selectief op verschillende variabelen uitvoeren zonder de functie telkens handmatig aan te roepen. Verscheidene andere stop-ins hangen van deze code af correct in werking te stellen. Deze insteekmodule is niet nodig als u een specifieke functie niet hoeft uit te voeren voor meer dan één variabele Analytics tegelijk, of als u geen afhankelijke insteekmodules gebruikt.
 
 ## Plug-in installeren met tags in Adobe Experience Platform
 
@@ -57,14 +57,14 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ## De plug-in gebruiken
 
-De methode `pt` gebruikt de volgende argumenten:
+De functie `pt` gebruikt de volgende argumenten:
 
 * **`l`** (vereist, tekenreeks): Een lijst met variabelen die de functie in het  `cf` argument kan gebruiken.
 * **`de`** (optioneel, tekenreeks): Het scheidingsteken dat de lijst met variabelen in het  `l` argument scheidt. Heeft als standaardwaarde een komma (`,`).
 * **`cf`** (vereist, tekenreeks): De naam van de callback functie in het voorwerp AppMeasurement die tegen elk van de variabelen in het  `l` argument moet worden geroepen.
 * **`fa`** (optioneel, tekenreeks): Als de functie in het  `cf` argument om extra argumenten roept wanneer het loopt, omvat hen hier. Wordt standaard ingesteld op `undefined`.
 
-Het roepen van deze methode keert een waarde terug als de callback functie (in het `cf` argument) een waarde terugkeert.
+Het roepen van deze functie keert een waarde terug als de callback functie (in het `cf` argument) een waarde terugkeert.
 
 ## Voorbeelden van aanroepen
 
@@ -72,7 +72,7 @@ Het roepen van deze methode keert een waarde terug als de callback functie (in h
 
 De volgende code maakt deel uit van de stop getQueryParam.  Het stelt de getParameterValue helperfunctie tegen elk van de zeer belangrijk-waardeparen in werking die in het querystring van URL (fullQueryString) bevat zijn.  Als u elk sleutelwaardepaar anders wilt extraheren, moet fullQueryString worden gescheiden en worden gesplitst met het teken &quot;&amp;&quot; en ampersand. De parameterKey verwijst naar de parameter van het vraagkoord dat de stop - binnen specifiek probeert uit het vraagkoord te halen
 
-```javascript
+```js
 returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
@@ -84,7 +84,7 @@ var returnValue = "",
   parametersLength = parameters.length;
 for(var i = 0; i < parametersLength; i++)
 {
-  returnValue = s.getParameterValue(parameters[i], parameterKey);
+  returnValue = getParameterValue(parameters[i], parameterKey);
   if(returnValue !== "") break;
 }
 ```
