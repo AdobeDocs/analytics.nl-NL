@@ -2,9 +2,9 @@
 title: getValOnce
 description: Voorkomen dat een variabele Analytics tweemaal achter elkaar op dezelfde waarde wordt ingesteld.
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -59,36 +59,27 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## De plug-in gebruiken
 
-De methode `getValOnce` gebruikt de volgende argumenten:
+De functie `getValOnce` gebruikt de volgende argumenten:
 
 * **`vtc`** (vereist, tekenreeks): De variabele die moet worden gecontroleerd en gecontroleerd of deze eerder is ingesteld op een identieke waarde
 * **`cn`** (optioneel, tekenreeks): De naam van het cookie dat de te controleren waarde bevat. Heeft als standaardwaarde `"s_gvo"`
 * **`et`** (optioneel, geheel getal): De vervaldatum van de cookie in dagen (of minuten, afhankelijk van het  `ep` argument). Wordt standaard ingesteld op `0`, die aan het einde van de browsersessie vervalt
 * **`ep`** (optioneel, tekenreeks): Stel dit argument alleen in als het  `et` argument ook is ingesteld. Stel dit argument in op `"m"` als u het argument `et` in minuten in plaats van dagen wilt laten verlopen. Standaard ingesteld op `"d"`, die het argument `et` in dagen instelt.
 
-Wanneer het argument `vtc` en de waarde van het cookie overeenkomen, retourneert deze methode een lege tekenreeks. Wanneer het argument `vtc` en de waarde van het cookie niet overeenkomen, retourneert de methode het argument `vtc` als een tekenreeks.
+Als het argument `vtc` en de koekjeswaarde aanpassen, keert deze functie een leeg koord terug. Als het argument `vtc` en de koekjeswaarde niet aanpassen, keert de functie het `vtc` argument als koord terug.
 
-## Voorbeelden van aanroepen
-
-### Voorbeeld 1
-
-Gebruik deze vraag om de zelfde waarde te verhinderen binnen aan s.campagne meer dan eens in een rij voor volgende 30 dagen wordt overgegaan:
+## Voorbeelden
 
 ```js
-s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
+// Prevent the same value from being passed in to the campaign variable more than once in a row for next 30 days
+s.campaign = getValOnce(s.campaign,"s_campaign",30);
+
+// Prevent the same value from being passed in to eVar2 more than once in a row for the browser session
+s.eVar2 = getValOnce(s.eVar2,"s_ev2");
+
+// Prevent the same value from being passed in to eVar8 more than once in a row for 10 minutes
+s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 ```
-
-In de bovengenoemde vraag, zal het elektrische toestel eerst de waarde reeds in het s_campagne koekje met de waarde vergelijken die uit de huidige s.campagne variabele komt.   Als een gelijke niet wordt gemaakt, zal de stop-binnen het s_campagne koekje gelijk aan de nieuwe waarde plaatsen die uit s.campagne komt en dan de nieuwe waarde terugkeren.   Deze vergelijking vindt plaats in de komende 30 dagen
-
-### Voorbeeld 2
-
-Gebruik deze aanroep om te voorkomen dat dezelfde waarde tijdens de gehele sessie wordt ingesteld:
-
-```js
-s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
-```
-
-Met deze code wordt voorkomen dat dezelfde waarde meerdere keren achter een gebruikerssessie in s.eVar2 wordt doorgegeven.  Het negeert ook de &quot;m&quot;waarde in het argument (aan het eind van de vraag) aangezien de vervaltijd aan 0 wordt geplaatst.   De code slaat ook de vergelijkingswaarde in het s_ev2 koekje op.
 
 ## Versiehistorie
 
