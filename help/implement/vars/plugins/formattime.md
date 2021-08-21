@@ -2,9 +2,9 @@
 title: formatTime
 description: Zet een aantal seconden in zijn equivalent in notulen, uren, enz. om.
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## De plug-in gebruiken
 
-De methode `formatTime` gebruikt de volgende argumenten:
+De functie `formatTime` gebruikt de volgende argumenten:
 
 * **`ns`** (vereist, geheel getal): Het aantal seconden dat moet worden omgezet of geformatteerd
 * **`tf`** (optioneel, tekenreeks): Het type indeling waarin de seconden moeten worden geretourneerd. is standaard ingesteld op seconden
@@ -67,7 +67,7 @@ De methode `formatTime` gebruikt de volgende argumenten:
    * Stel in op `"s"` als u de tijd in seconden wilt (standaard afgerond op de dichtstbijzijnde benchmark van 5 seconden).
 * **`bml`** (optioneel, nummer): De lengte van de afrondingsbenchmarks. Standaardwaarden voor de benchmarks in het argument `tf`
 
-De methode retourneert het aantal seconden dat is opgemaakt met de eenheid die u opgeeft in het argument `tf`. Als het argument `tf` niet is ingesteld:
+De functie retourneert het aantal seconden dat is opgemaakt met de eenheid die u opgeeft in het argument `tf`. Als het argument `tf` niet is ingesteld:
 
 * Iets minder dan een minuut wordt afgerond naar de dichtstbijzijnde benchmark van 5 seconden
 * Alles tussen een minuut en een uur wordt afgerond naar de dichtstbijzijnde benchmark van 1/2 minuten
@@ -76,82 +76,31 @@ De methode retourneert het aantal seconden dat is opgemaakt met de eenheid die u
 
 ## Voorbeelden
 
-### Voorbeeld 1
-
-De volgende code...
-
 ```js
-s.eVar1 = s.formatTime(38242);
+// Sets eVar1 to "10.5 hours".
+// 38242 seconds equals 10 hours, 37 minutes, and 22 seconds. Since the tf argument is not set, the value returned is the number of seconds converted to the nearest quarter-hour benchmark.
+s.eVar1 = formatTime(38242);
+
+// Sets eVar4 to "10.75 hours".
+// 38250 seconds equals 10 hours, 37 minutes, and 30 seconds. This value rounds up to the nearest quarter hour.
+s.eVar4 = formatTime(38250);
+
+// Sets eVar9 to "637.5 minutes".
+s.eVar9 = formatTime(38242, "m");
+
+// Sets eVar14 to "640 minutes".
+// The tf argument forces the returned value to minutes, while the bml argument forces the value to the nearest 20-minute increment.
+s.eVar14 = formatTime(38242, "m", 20);
+
+// Sets eVar2 to "126 seconds", the closest 2-second benchmark to 125 seconds.
+s.eVar2 = formatTime(125, "s", 2);
+
+// Sets eVar7 to "3 minutes", the closest 3-minute benchmark to 125 seconds.
+s.eVar7 = formatTime(125, "m", 3);
+
+// Sets eVar55 to "2.4 minutes, the closest 2/5-minute benchmark to 145 seconds.
+s.eVar55 = formatTime(145, "m", .4);
 ```
-
-...zal s.eVar1 gelijk aan &quot;10.5 uren&quot;plaatsen
-
-Het argument dat wordt doorgegeven - 38242 seconden - is gelijk aan 10 uur, 37 minuten en 22 seconden.  Aangezien het tf-argument niet in deze aanroep is ingesteld en het aantal seconden dat wordt doorgegeven tussen een uur en een dag ligt, retourneert de insteekmodule het aantal seconden dat naar de meest overeenkomende benchmark van een kwartier is geconverteerd.
-
-### Voorbeeld 2
-
-De volgende code...
-
-```js
-s.eVar1 = s.formatTime(38250);
-```
-
-...zal s.eVar1 gelijk aan &quot;10.75 uren&quot;plaatsen
-Het argument dat wordt doorgegeven - 38250 seconden - is gelijk aan 10 uur, 37 minuten en 30 seconden.  Wanneer het aantal seconden wordt afgerond dat in dit geval aan de dichtstbijzijnde benchmark van het kwartuur wordt doorgegeven, wordt de eindwaarde ingesteld op 10,75 uur
-
-### Voorbeeld 3
-
-De volgende code...
-
-```js
-s.eVar1 = s.formatTime(38242, "m");
-```
-
-...zal s.eVar1 gelijk stellen aan &quot;637.5 minuten&quot;
-
-In dit geval dwingt het argument &quot;m&quot; de plug-in de seconden om te zetten naar de dichtstbijzijnde benchmark van halve minuut
-
-### Voorbeeld 4
-
-De volgende code...
-
-```js
-s.eVar1 = s.formatTime(38242, "m", 20);
-```
-
-...zal s.eVar1 gelijk aan &quot;640 minuten&quot;plaatsen
-
-Met de argumentwaarde tf (&quot;m&quot;) wordt de insteekmodule gedwongen de seconden in minuten om te zetten, maar met de argumentwaarde bml (20) wordt de insteekmodule ook gedwongen om de minuscule conversie naar de dichtstbijzijnde benchmark van 20 minuten af te ronden.
-
-### Voorbeeld 5
-
-De volgende code...
-
-```js
-s.eVar1 = s.formatTime(125, "s", 2);
-```
-
-...zal s.eVar1 gelijk aan &quot;126 seconden&quot;plaatsen, die het dichtst 2 tweede benchmark aan 125 seconden is
-
-### Voorbeeld 6
-
-De volgende code...
-
-```js
-s.eVar1 = s.formatTime(125, "m", 3);
-```
-
-...zal s.eVar1 gelijk stellen aan &quot;3 minuten&quot;, wat de dichtstbijzijnde 3-minieme benchmark aan 125 seconden is
-
-### Voorbeeld 7
-
-De volgende code...
-
-```js
-s.eVar1 = s.formatTime(145, "m", .4);
-```
-
-...zal s.eVar1 gelijk stellen aan &quot;2,4 minuten&quot;, de dichtstbijzijnde 2/5-minuten-benchmark (bv. .4 = 2/5) tot 145 seconden
 
 ## Versiehistorie
 
