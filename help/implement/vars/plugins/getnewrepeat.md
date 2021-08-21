@@ -2,9 +2,9 @@
 title: getNewRepeat
 description: Traceeractiviteiten van nieuwe versus herhaalde bezoekers.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -57,54 +57,22 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## De plug-in gebruiken
 
-De methode `getNewRepeat` gebruikt de volgende argumenten:
+De functie `getNewRepeat` gebruikt de volgende argumenten:
 
 * **`d`** (geheel getal, optioneel): Het minimumaantal dagen dat is vereist tussen bezoeken waarop bezoekers terugkeren naar  `"New"`. Als dit argument niet is ingesteld, wordt het standaard ingesteld op 30 dagen.
 
-Deze methode retourneert de waarde van `"New"` als de cookie die door de plug-in is ingesteld, niet bestaat of is verlopen. De waarde `"Repeat"` wordt geretourneerd als het cookie dat door de plug-in is ingesteld, bestaat en de tijd sinds de huidige hit en de tijd die in het cookie is ingesteld, langer is dan 30 minuten. Deze methode keert de zelfde waarde voor een volledig bezoek terug.
+Deze functie retourneert de waarde van `"New"` als de cookie die door de plug-in is ingesteld, niet bestaat of is verlopen. De waarde `"Repeat"` wordt geretourneerd als het cookie dat door de plug-in is ingesteld, bestaat en de tijd sinds de huidige hit en de tijd die in het cookie is ingesteld, langer is dan 30 minuten. Deze functie retourneert dezelfde waarde voor een volledig bezoek.
 
 Deze plug-in gebruikt een cookie met de naam `"s_nr[LENGTH]"`, waarbij `[LENGTH]` gelijk is aan het argument `d`. Het cookie bevat een Unix-tijdstempel die de huidige tijd en de huidige status van de bezoeker (`"New"` of `"Repeat"`) vertegenwoordigt.
 
-## Voorbeelden van aanroepen
-
-### Voorbeeld 1
-
-De volgende code stelt `eVar1` in op de waarde van `"New"` voor nieuwe bezoekers en blijft `eVar1` instellen op de waarde van `"New"` (met elke nieuwe oproep) gedurende de rest van het bezoek van de bezoeker aan de site.
+## Voorbeelden
 
 ```js
+// Sets eVar1 to "New" if it is the visitor's first visit to the site, or they have not visited in at least 30 days. Otherwise, sets eVar1 to "Repeat".
 s.eVar1 = getNewRepeat();
-```
 
-### Voorbeeld 2
-
-Als de bezoeker op een willekeurig moment van 31 minuten tot 30 dagen sinds de laatste keer dat `getNewRepeat()` werd aangeroepen, terugkeert naar de site, stelt de volgende code `eVar1` in op de waarde van `"Repeat"` en blijft `eVar1` op de waarde van `"Repeat"` (met elke nieuwe aanroep) gedurende het resterende gedeelte van het bezoek van de bezoeker aan de site.
-
-```js
-s.eVar1 = getNewRepeat();
-```
-
-### Voorbeeld 3
-
-Als de bezoeker niet minstens 30 dagen sinds de laatste keer `getNewRepeat()` werd geroepen is geweest, plaatst de volgende code `eVar1` aan de waarde van `"New"` en blijft `eVar1` aan de waarde van `"New"` (met elke nieuwe vraag) tijdens het resterende deel van het bezoek van de bezoeker aan de plaats plaatsen.
-
-```js
-s.eVar1 = getNewRepeat();
-```
-
-### Voorbeeld 4
-
-Als de bezoeker 31 minuten tot 365 dagen (d.w.z. 1 jaar) sinds de laatste keer dat `getNewRepeat()` werd aangeroepen, terugkeert naar de site, stelt de volgende code `eVar1` in op de waarde van `"Repeat"` en blijft `eVar1` op de waarde van `"Repeat"` (met elke nieuwe aanroep) gedurende het resterende bezoek van de bezoeker aan de site.
-
-```js
-s.eVar1 = getNewRepeat(365);
-```
-
-### Voorbeeld 5
-
-Als de bezoeker niet minstens 365 dagen (d.w.z. 1 jaar) sinds de laatste keer `getNewRepeat()` werd geroepen, plaatst de volgende code `eVar1` aan de waarde van `"New"` en blijft `eVar1` aan de waarde van `"New"` (met elke nieuwe vraag) tijdens het resterende deel van het bezoek van de bezoeker aan de plaats plaatsen.
-
-```js
-s.eVar1 = getNewRepeat(365);
+// Sets eVar2 to "New" if it is the visitor's first visit to the site, or they have not visited in at least a year (365 days). Otherwise, sets eVar2 to "Repeat".
+s.eVar2 = getNewRepeat(365);
 ```
 
 ## Versiehistorie
