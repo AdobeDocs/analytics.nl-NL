@@ -2,9 +2,9 @@
 title: addProductEvent
 description: Voegt aangepaste gebeurtenissen toe aan de variabele producten en gebeurtenissen.
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -57,84 +57,51 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## De plug-in gebruiken
 
-De methode `addProductEvent` gebruikt de volgende argumenten:
+De functie `addProductEvent` gebruikt de volgende argumenten:
 
 * **`en`** (vereist, tekenreeks): De gebeurtenis die aan de laatste ingang in de  `products` variabele moet worden toegevoegd. Als de `products` variabele leeg is, dan wordt een &quot;lege&quot;productingang gecreeerd met de gebeurtenis (en zijn waarde) in bijlage.
-* **`ev`** (vereist, tekenreeks): De waarde die is toegewezen aan de gebeurtenis numeric of currency in het  `en` argument.  Wordt standaard ingesteld op `1` wanneer niet ingesteld.
+* **`ev`** (vereist, tekenreeks): De waarde die is toegewezen aan de gebeurtenis numeric of currency in het  `en` argument.  Wordt standaard ingesteld op `1` wanneer niet ingesteld. Getallen die niet in tekenreeksaanhalingstekens zijn opgenomen, zijn ook geldig.
 * **`ap`** (optioneel, Booleaans): Als de productvariabele momenteel meer dan één productvermelding bevat, voegt een waarde van  `true` (of  `1`) de gebeurtenis aan alle productvermeldingen toe.  Wordt standaard ingesteld op `false` wanneer niet ingesteld.
 
 De `addProductEvent` retourneert niets. In plaats daarvan worden de gebeurtenis en de waarde ervan toegevoegd aan de variabele `products`. De insteekmodule voegt de gebeurtenis ook automatisch toe aan de variabele [`events`](../page-vars/events/events-overview.md), omdat deze daar ook verplicht is.
 
 ## Cookies
 
-Met de insteekmodule addProductEvent worden geen cookies gemaakt of gebruikt
+De functie `addProductEvent` maakt of gebruikt geen cookies.
 
-## Voorbeelden van aanroepen
-
-### Voorbeeld 1
-
-Met de volgende code wordt de variabele `s.products` ingesteld op `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
+## Voorbeelden
 
 ```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-s.events="purchase";
-s.addProductEvent("event35", "25");
-```
+// Sets the products variable to ";product1;3;300,;product2;2;122,;product3;1;25;event35=25".
+// Also sets the events variable to "purchase,event35".
+s.products = ";product1;3;300,;product2;2;122,;product3;1;25";
+s.events = "purchase";
+addProductEvent("event35", "25");
 
-De bovenstaande code stelt ook de `s.events` variabele in op `"purchase,event35"`
+// Sets the products variable to ";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25".
+s.products = ";product1;3;300,;product2;2;122,;product3;1;25";
+addProductEvent("event35", 25, true);
 
-### Voorbeeld 3
-
-Met de volgende code wordt de variabele `s.products` ingesteld op `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
-
-```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25";
-s.addProductEvent("event35", 25, 1);
-```
-
-Wanneer het derde argument in `addProductEvent` vraag `true` (of `1`) is, heeft elke productingang de gebeurtenis die in de vraag wordt gespecificeerd die aan zijn waarde wordt toegevoegd.
-
-### Voorbeeld 2
-
-Met de volgende code wordt de variabele `s.products` ingesteld op `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
-
-```js
+// Sets the products variable to ";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
+// Also sets the s.events variable to "purchase,event2,event33,event34,event35".
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
 s.events="purchase,event2";
-s.addProductEvent("event33", "12");
-s.addProductEvent("event34", "10");
-s.addProductEvent("event35", "15");
-```
+addProductEvent("event33", "12");
+addProductEvent("event34", "10");
+addProductEvent("event35", "15");
 
-De bovenstaande code stelt ook de `s.events` variabele in op `"purchase,event2,event33,event34,event35"`
-
-### Voorbeeld 4
-
-Met de volgende code wordt de variabele `s.products` ingesteld op `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
-
-```js
+// Sets the products variable to ";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15".
+// Also sets the events variable to "purchase,event2,event33,event34,event35".
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
-s.addProductEvent("event33", "12", 1);
-s.addProductEvent("event34", 10, 1);
-s.addProductEvent("event35", "15", 1);
+addProductEvent("event33", "12", 1);
+addProductEvent("event34", 10, 1);
+addProductEvent("event35", "15", 1);
+
+// If the products variable isn't already set, sets it to ";;;;event35=25".
+// Also appends event35 to the events variable.
+addProductEvent("event35", "25");
 ```
-
-De bovenstaande code stelt ook de `s.events` variabele in op `"purchase,event2,event33,event34,event35"`.
-
->[!NOTE]
->
->Het tweede argument in de vraag kan of een geheel **of** een koord zijn die een geheel/aantal vertegenwoordigen
-
-### Voorbeeld 5
-
-Als `s.products` nog niet is ingesteld, stelt de volgende code deze in op `";;;;event35=25"`
-
-```js
-s.addProductEvent("event35", "25");
-```
-
-De bovenstaande code voegt `"event35"` ook toe aan het einde van `s.events` **of**, als `s.events` nog niet is ingesteld, stelt de bovenstaande code `s.events` in op `"event35"`
 
 ## Versiehistorie
 
