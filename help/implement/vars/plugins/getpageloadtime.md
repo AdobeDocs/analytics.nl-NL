@@ -2,9 +2,9 @@
 title: getPageLoadTime
 description: Houd bij hoeveel tijd een pagina nodig heeft om te laden.
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## De plug-in gebruiken
 
-De methode `getPageLoadTime` gebruikt geen argumenten. Wanneer het roepen van deze methode, keert het niets terug. In plaats daarvan worden de volgende variabelen ingesteld:
+De functie `getPageLoadTime` gebruikt geen argumenten. Wanneer deze functie wordt aangeroepen, retourneert deze niets. In plaats daarvan worden de volgende variabelen ingesteld:
 
 * `s._pltPreviousPage`: De vorige pagina zodat u de laadtijd kunt omzetten in de vorige pagina
 * `s._pltLoadTime`: De tijd in seconden die de vorige pagina nodig had om te laden
@@ -67,29 +67,22 @@ Met de insteekmodule getPageLoadTime worden twee cookies van de eerste fabrikant
 * `s_plt`: De tijd, in seconden, die de vorige pagina nam om te laden. Verloopt aan het einde van de browsersessie.
 * `s_pltp` De waarde van de  `s.pageName` variabele zoals die is opgenomen in de vorige Adobe Analytics-afbeeldingsaanvraag. Verloopt aan het einde van de browsersessie.
 
-## Voorbeelden van aanroepen
-
-### Voorbeeld 1
-
-De volgende code uitvoeren...
+## Voorbeeld
 
 ```js
+// 1. Run the getPageLoadTime function if the pageName variable is set
+// 2. Set prop10 to the load time of the previous page
+// 3. Set eVar10 to the name of the previous page
+// 4. Set event100 to the load time (in seconds) of the previous page. A numeric event is required to capture this value.
+// You can then use event100 in calculated metrics to obtain the average page load time per page.
 if(s.pageName) s.getPageLoadTime();
 if(s._pltPreviousPage)
 {
   s.prop10 = s._pltLoadTime;
-  s.prop11 = s._pltPreviousPage
-  s.eVar10 = prop11;
+  s.eVar10 = s._pltPreviousPage
   s.events = "event100=" + s._pltLoadTime;
 }
 ```
-
-...doet het volgende:
-
-* De getPageLoadTime-insteekmodule uitvoeren wanneer s.pageName is ingesteld
-* Stel s.prop10 in op de laadtijd van de vorige pagina
-* Stel s.prop11 en s.eVar10 in op de naam van de vorige pagina (zoals opgenomen in s.pageName)
-* Stel event100, een aangepaste numerieke gebeurtenis, in op de laadtijd van de vorige pagina.   Als u in dit geval een aangepaste gebeurtenis gebruikt, kunt u de totale hoeveelheid tijd ophalen voor alle paginaladingen van de vorige pagina (van alle bezoekers/bezoekers). Zo kunt u een berekende metrische waarde gebruiken voor de gemiddelde laadtijd van de pagina voor elke pagina
 
 ## Versiehistorie
 
