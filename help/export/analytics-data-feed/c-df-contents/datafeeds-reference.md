@@ -6,9 +6,9 @@ title: Referentie gegevenskolom
 feature: Grondbeginselen van rapporten en analyses
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
 workflow-type: tm+mt
-source-wordcount: '3407'
+source-wordcount: '3422'
 ht-degree: 0%
 
 ---
@@ -199,8 +199,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `state` | Staatvariabele. | varchar(50) |
 | `stats_server` | Niet gebruiken. Adobe interne server die de hit heeft verwerkt. | teken(30) |
 | `t_time_info` | Lokale tijd voor de bezoeker. Indeling is: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Wordt gebruikt in Adobe Target-integratie. | text |
-| `tnt_action` | Wordt gebruikt in Adobe Target-integratie. | text |
+| `tnt` | Wordt gebruikt in Adobe Target-integratie. Vertegenwoordigt alle tests momenteel gekwalificeerd voor. Indeling is: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | text |
+| `tnt_action` | Wordt gebruikt in Adobe Target-integratie. Geeft alle tests aan waarvoor de hit geschikt is. | text |
 | `tnt_post_vista` | Niet meer gebruikt. Gebruik in plaats hiervan `post_tnt`. | text |
 | `transactionid` | Een unieke id waarbij verschillende gegevenspunten later via gegevensbronnen kunnen worden geüpload. Verzameld met de variabele [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
 | `truncated_hit` | Een markering die aangeeft dat de afbeeldingsaanvraag is afgebroken. Geeft aan dat een gedeeltelijke hit is ontvangen. <br>Y: Hit was afgekapt; gedeeltelijke treffer ontvangen  <br>N: Hit is niet afgekapt; volledige hit ontvangen | teken(1) |
