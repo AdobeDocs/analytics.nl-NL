@@ -2,9 +2,9 @@
 title: IPs en domeinen die door Adobe Analytics worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die van Adobe afkomstig zijn, gebruik deze lijst om uw firewallmontages bij te werken.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: d941e4308352d6228e73bc7f7443a36ffd374b0c
+source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ De volgende tabel bevat alle standaardservers voor gegevensverzameling en region
 
 ## Gegevensverzameling en FTP IP-adresblokken
 
-Als uw organisatie verkiest om specifieke IP adreswaaiers toe te staan kunt u de volgende lijst gebruiken. Alle bereiken in deze sectie zijn opgenomen in de bovenstaande tabel.
+Als uw organisatie verkiest om specifieke IP adreswaaiers toe te staan kunt u de volgende lijst gebruiken. Alle bereiken in deze sectie zijn opgenomen in de bovenstaande tabel. FTP-verbindingen voor Data Warehouse en gegevensfeeds zijn alleen afkomstig van de locaties Londen, Oregon en Singapore.
 
 | Locatie | IP-bereik (CIDR-notatie) |
 | --- | --- |
