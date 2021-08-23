@@ -2,9 +2,9 @@
 title: XDM-gegevens gebruiken met Analytics
 description: Overzicht van het gebruik van XDM-gegevens van Experience Platform in Adobe Analytics
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
-source-git-commit: 501b64c7704c234b21a5ccb428883bc6fcaf166a
+source-git-commit: 3def20b348713b580429e342ad3319963cae6549
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '270'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Analytics verzamelt XDM-gegevens via twee methoden:
 
 ## Automatische toewijzing
 
-Automatische toewijzing is afhankelijk van een standaardschema [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) in XDM dat JSON-objecten automatisch vult die zijn opgenomen in de standaardgegevensverzameling Analytics. De variabelen van Analytics die automatisch van XDM aan uw gevormde rapportreeksen worden in kaart gebracht vereisen geen ontwikkelaarssteun om op te nemen.
+Automatische toewijzing is afhankelijk van een standaardschema [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) in XDM dat JSON-objecten automatisch vult die zijn opgenomen in de standaardgegevensverzameling Analytics. De variabelen van Analytics die automatisch van XDM aan uw gevormde rapportreeksen worden in kaart gebracht vereisen geen ontwikkelaarssteun om op te nemen. Zie [Variabelen die automatisch in Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html) in de de gebruikersgids van SDK van het Web van het Platform worden in kaart gebracht.
 
 ## Handmatige toewijzing
 
