@@ -1,12 +1,12 @@
 ---
 description: Veelgestelde vragen over segmentatie.
 title: Veelgestelde vragen
-feature: Segmentatie
+feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: '2074'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Beantwoord frequente vragen over segmentatiefuncties, toegang, machtigingen, bes
 * U kunt [Opeenvolgende segmenten](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) tot stand brengen.
 * De naam van de container Paginaweergave is gewijzigd in de container Actief om aan te geven dat in deze container alle typen gegevens worden gesegmenteerd, en niet alleen de paginaweergaven. De aanroepen voor het bijhouden van koppelingen en trackhandelingen van de mobiele SDK&#39;s worden bijvoorbeeld allemaal opgenomen of uitgesloten in de aanraakcontainer. Merk op dat er geen verandering in de manier was deze container werkt - het werd eenvoudig anders genoemd.
 
-Zie [Segmentering verbeteren in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) op het Digital Marketing Blog voor meer informatie.
+Zie [Segmentatie verbeteren in Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) op het blog van de Adobe voor meer informatie.
 
 ## Toegang tot de segmentatiehulpmiddelen {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,9 +39,9 @@ Zie [Segmentering verbeteren in Adobe Analytics](https://blogs.adobe.com/digital
 
 U kunt tot de Bouwer van het Segment toegang hebben door:
 
-* Een bestaand rapport weergeven en klikken op het pictogram Segmenten ![](assets/segment_icon.png) in de linkernavigatie. Klik in de segmenttrack die wordt weergegeven op **[!UICONTROL Add]** of
+* Een bestaand rapport weergeven en op het pictogram Segmenten ![Segmentpictogram](assets/segment_icon.png) in de linkernavigatie klikken. Klik in de segmenttrack die wordt weergegeven op **[!UICONTROL Add]** of
 
-* Klik boven aan Segmentbeheer op **[!UICONTROL + Add]**.  ![](assets/add_button.png)
+* Klik boven aan Segmentbeheer op **[!UICONTROL + Add]**.  ![Knop Toevoegen](assets/add_button.png)
 
    of
 
@@ -53,13 +53,13 @@ Toegang tot Segmentbeheer via:
 
 * Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in de bovenste navigatie. Klik vervolgens op **[!UICONTROL Segments]**, of
 
-* Een bestaand rapport weergeven en klikken op het pictogram Segmenten ![](assets/segment_icon.png) in de linkernavigatie. Klik vervolgens op **[!UICONTROL Manage]**, of
+* Een bestaand rapport weergeven en op het pictogram Segmenten ![Segmentpictogram](assets/segment_icon.png) in de linkernavigatie klikken. Klik vervolgens op **[!UICONTROL Manage]**, of
 
 * Druk op de schuine streep &#39;/&#39; in de interface en zoek naar segmentmanager.
 
 **Waar ging het verouderde segment neerzetten?**
 
-De segmentdrop-down in Rapporten &amp; Analytics is vervangen door een veel meer eigenschaprijke [de interface van de Bouwer van het Segment](/help/components/segmentation/segmentation-workflow/seg-workflow.md) die u toestaat om &quot;universele&quot;segmenten tot stand te brengen bruikbaar over rapportsuites en over de oplossingen van Adobe Analytics. Als u een lijst met bestaande segmenten wilt weergeven, klikt u op het pictogram Segmenten ![](assets/segment_icon.png)
+De segmentdrop-down in Rapporten &amp; Analytics is vervangen door een veel meer eigenschaprijke [de interface van de Bouwer van het Segment](/help/components/segmentation/segmentation-workflow/seg-workflow.md) die u toestaat om &quot;universele&quot;segmenten tot stand te brengen bruikbaar over rapportsuites en over de oplossingen van Adobe Analytics. Als u een lijst met bestaande segmenten wilt weergeven, klikt u op het pictogram Segmenten ![Segmentpictogram](assets/segment_icon.png)
 
 in de linkernavigatie en de vertoningen van de segmentspoorstaaf.
 
@@ -67,7 +67,7 @@ in de linkernavigatie en de vertoningen van de segmentspoorstaaf.
 
 De vervolgkeuzelijst met rapportsuite is verplaatst naast de datumkiezer in de rechterbovenhoek van elk rapport of dashboard.
 
-![](assets/report_suite_selector.png)
+![Selector rapportsuite](assets/report_suite_selector.png)
 
 ## Toestemmingen {#section_648DFA3A882146C485A84ED014EEC707}
 

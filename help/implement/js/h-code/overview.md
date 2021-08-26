@@ -2,7 +2,7 @@
 title: H Code JavaScript-implementatieoverzicht
 description: Leer de workflow voor het implementeren van H-code op uw site.
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -39,4 +39,4 @@ Het JavaScript-bestand wordt in de browser van de bezoeker in de cache geplaatst
 
 ## H-codecompressie
 
-Als u zich zorgen maakt over de downloadgrootte van het `s_code.js`-bestand, raadt Adobe aan het `s_code.js`-bestand te comprimeren met GZIP. GZIP wordt ondersteund door alle grote browsers en biedt betere prestaties dan JavaScript-compressie. Zie [Apache Module mod_deflate](http://httpd.apache.org/docs/current/mod/mod_deflate.html) in de documentatie van Apache.
+Als u zich zorgen maakt over de downloadgrootte van het `s_code.js`-bestand, raadt Adobe aan het `s_code.js`-bestand te comprimeren met GZIP. GZIP wordt ondersteund door alle grote browsers en biedt betere prestaties dan JavaScript-compressie. Zie [Apache Module mod_deflate](https://httpd.apache.org/docs/current/mod/mod_deflate.html) in de documentatie van Apache.

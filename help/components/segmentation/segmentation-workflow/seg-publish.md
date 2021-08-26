@@ -1,12 +1,12 @@
 ---
 description: Hiermee kunt u het segment gebruiken voor marketingactiviteiten in de Audience Library, Target en Audience Manager.
 title: Segmenten publiceren naar Experience Cloud
-feature: Segmentatie
+feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 190c05f7c0bf8c8ae0524a5635ff468a053abedd
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1229'
 ht-degree: 1%
 
 ---
@@ -25,10 +25,8 @@ We hebben ook het maximumaantal publiceerbare Adobe Analytics-segmenten verhoogd
 ## Vereisten
 
 * Zorg ervoor dat de rapportsuite waarin u dit segment opslaat [ingeschakeld is voor de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html). Anders kunt u het niet naar de Experience Cloud publiceren.
-* Zorg ervoor u in een rapportreeks werkt die [in kaart gebracht aan uw organisatie van Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) is.
 * Zorg ervoor dat uw organisatie Experience Cloud-id&#39;s gebruikt.
 * Voordat u segmenten kunt publiceren, moet uw beheerder de [!UICONTROL Segment Publishing]-machtiging toewijzen aan een productprofiel in de [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) en u toevoegen aan het productprofiel.
-
 
 ## Overwegingen
 

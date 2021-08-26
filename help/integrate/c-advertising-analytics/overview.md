@@ -2,10 +2,10 @@
 description: Ontdek alles wat u met Advertising Analytics kunt doen in deze gedetailleerde handleiding, inclusief de vereiste machtigingen, en de beschikbare afmetingen en metriek.
 title: Een gids voor Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 90%
+source-wordcount: '1226'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,6 @@ Deze integratie is gericht op de volgende doelgroepen:
 
 * Deze functionaliteit is beschikbaar voor klanten die geen advertenties maken in de cloud of in een andere indeling dan AMO.
 * U moet een Adobe Analytics-beheerder zijn om toegang te hebben tot Advertising Analytics. Vervolgens kunt u [toegang verlenen](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) aan niet-beheerders.
-* Elke Analytics-rapportsuite waarin u de zoekdata van Google/Bing wilt bekijken, moet worden [toegewezen aan uw Experience Cloud-organisatie](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 * Voor elke rapportsuite waarin u de zoekdata van Google/Bing wilt weergeven, moet u [deze rapportsuite(s) inschakelen voor Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 
 * U hebt aanmeldingsgegevens nodig voor een gebruiker met bewerkingsmachtiging voor de zoekaccount(s) die u wilt integreren met Adobe Analytics, zoals een account-id en wachtwoord-id van Google.

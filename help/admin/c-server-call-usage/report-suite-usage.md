@@ -3,9 +3,9 @@ description: Het lusje van het Gebruik van de Reeks van het Rapport verstrekt de
 title: Gebruik van rapportsuites weergeven
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '418'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ Het lusje van het Gebruik van de Reeks van het Rapport verstrekt de gegevens van
 
 >[!IMPORTANT]
 >
->Als een rapportsuite niet [is gekoppeld aan een Experience Cloud-organisatie](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html), worden de gebruiksgegevens niet weergegeven in dit dashboard. Een facturerings-id kan ook aan meerdere Experience Cloud Orgs zijn gekoppeld. er is niet altijd een 1:1-relatie tussen een org en een facturerings-id.
+>Als een rapportsuite niet is gekoppeld aan een Experience Cloud-organisatie, worden de gebruiksgegevens niet weergegeven in dit dashboard. Een facturerings-id kan ook aan meerdere Experience Cloud Orgs zijn gekoppeld. er is niet altijd een 1:1-relatie tussen een org en een facturerings-id.
 
 Het dashboard Gebruik rapportsuite
 

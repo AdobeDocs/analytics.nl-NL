@@ -3,9 +3,9 @@ title: Technische documentatie-updates voor Adobe Analytics
 description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 9bbbba053946d2d4c2a0e45dc4c70fe398e3fa3b
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2847'
+source-wordcount: '2841'
 ht-degree: 44%
 
 ---
@@ -31,7 +31,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 2 augustus 2021 | Meerdere pagina&#39;s zijn bijgewerkt om de herbranding van [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) weer te geven |
 | **juli 2021** |  |
 | 23 juli 2021 | Nieuwe diepgaande bespreking van [Merchandising Vars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
-| 15 juli 2021 | Nieuwe documentatie toegevoegd op de nieuwe [Adobe Analytics-landingspagina](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) |
+| 15 juli 2021 | Nieuwe documentatie toegevoegd op de nieuwe [Adobe Analytics-landingspagina](/help/analyze/landing.md) |
 | **Juni 2021** |  |
 | 15 juni 2021 | Bijgewerkte [Beste werkwijzen voor marketingkanalen](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
 | 3 juni 2021 | Bijgewerkt de documentatie om [Data Feed Implementation](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) en [here](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl) beter uit te leggen. |
@@ -114,7 +114,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | **2019** |  |
 | 19 december 2020 | De standaard [FTP-gegevensopslaglimiet](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en) is gewijzigd in 10 GB. |
 | 29 november 2019 | Herziening van de [Documentatie over datafeed](/help/export/analytics-data-feed/data-feed-overview.md). |
-| 25 november 2019 | Nieuw onderwerp over [Einde levensduur van IP-aanmeldingsbeperkingen afdwingen](/help/admin/company/login-restrictions-eol.md). |
+| 25 november 2019 | Nieuw onderwerp op Eind-van-leven voor de Inloggen van de Afdwingen IP. |
 | 21 november 2019 | Nieuwe documentatieset voor [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html). |
 | 21 november 2019 | Bijgewerkt [Veelgestelde vragen over Audience Analytics-workflow](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en) om de beschikbaarheid in LiveStream aan te geven. |
 | 25 oktober 2019 | Bijgewerkte pagina [Adobe Analytics Key Concepts](/help/technotes/terms.md). |

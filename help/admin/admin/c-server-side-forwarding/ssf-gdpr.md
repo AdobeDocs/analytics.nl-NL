@@ -3,7 +3,7 @@ description: Verklaart verhogingen aan server-kant door:sturen die door de EU ve
 title: GDPR/ePrivacy-compliance en server-side doorsturen
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # GDPR/ePrivacy-compliance en server-side doorsturen
 
-Deze sectie verklaart verhogingen aan server-kant door:sturen die door [EU koekjesnalevingsverordening ](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm) werden veroorzaakt, die op 30 september 2017 van kracht werd.
+Deze sectie verklaart verhogingen aan server-kant door:sturen die door [EU koekjesnalevingsverordening ](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+gelijksoortige+technologieën) werden veroorzaakt, die op 30 september 2017 van kracht werd.
 
 Server-kant door:sturen wordt gebruikt om gegevens van Adobe Analytics aan andere [!DNL Experience Cloud Solutions], zoals Audience Manager, in echt te delen - tijd. Wanneer toegelaten, server-zijhet door:sturen staat ook Analytics toe om gegevens aan andere oplossingen van Experience Cloud te duwen en voor die oplossingen om gegevens aan Analytics tijdens het proces van de gegevensinzameling te duwen.
 

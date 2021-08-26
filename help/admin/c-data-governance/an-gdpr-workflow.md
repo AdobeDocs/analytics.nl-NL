@@ -3,10 +3,10 @@ description: Geeft een overzicht van de stappen waarmee uw Adobe Analytics-imple
 title: Privacyworkflow
 uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 93%
+source-wordcount: '279'
+ht-degree: 31%
 
 ---
 
@@ -14,11 +14,8 @@ ht-degree: 93%
 
 In deze workflow worden de stappen beschreven die u moet uitvoeren om uw Adobe Analytics-implementatie gereed te maken om Data Privacy-toegangs- en verwijderingsrechten van geregistreerde personen te ondersteunen.
 
-| Taakbeschrijving | Koppelingen naar instructies en meer informatie |
-|--- |--- |
-| **Stap 1**: Zorg ervoor dat al uw rapportsuites die data kunnen bevatten die relevant zijn voor Data Privacy, zijn toegewezen aan uw Experience Cloud-organisatie (of IMS).  Data Privacy-aanvragen worden verzonden via een Experience Cloud-organisatie en worden toegepast op alle rapportsuites die door deze organisatie worden geclaimd. Aanvragen zullen niet gelden voor rapportsuites die niet aan deze organisatie zijn toegewezen, ook niet als ze deel uitmaken van uw aanmeldingsbedrijf. | Raadpleeg [Rapportsuites aan een organisatie toewijzen](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html). |
-| **Stap 2**: Stel uw dataretentiebeleid in. | Er moet een dataretentiebeleid aanwezig zijn, anders kan Adobe geen toegangs-/verwijderingsaanvragen voor Data Privacy-data behandelen.  Zie deze [Veelgestelde vragen over Analytics-dataretentie](/help/technotes/data-retention.md) voor meer informatie. |
-| **Stap 3**: Maak u vertrouwd met DULE/Data Privacy-labels, Adobe Analytics-id&#39;s, naamruimten en id-uitbreiding. | Lees de volgende onderwerpen in deze documentatieset:<ul><li>[Data Privacy-labels voor Analytics-variabelen](/help/admin/c-data-governance/gdpr-labels.md)</li><li>[Best practices voor labelen](/help/admin/c-data-governance/gdpr-analytics-ids.md)</li></ul> |
-| **Stap 4**: Wijs identiteit, gevoeligheid en Data Governance-labels toe aan elke variabele in een rapportsuite.  Opmerking: Bedenk dat de labels steeds moeten worden gecontroleerd wanneer een nieuwe rapportsuite wordt gemaakt of wanneer een nieuwe variabele in een bestaande rapportsuite wordt ingeschakeld. U dient de labeling mogelijk ook te herzien wanneer integraties van nieuwe oplossingen worden ingeschakeld, omdat deze nieuwe variabelen kunnen laten zien waarvoor een label nodig is. Een herimplementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, waardoor eveneens updates van labels nodig kunnen zijn. | Volg de instructies in [Rapportsuitedata labelen](/help/admin/c-data-governance/gdpr-setup-reportsuite.md). |
-| **Stap 5**: Maak verbinding met de Adobe Data Privacy-API en verzend toegangs- en verwijderingsaanvragen. | Als klant van Adobe Analytics kunt u afzonderlijke Data Privacy-aanvragen verzenden voor toegang tot en verwijdering van klantdata door de [Adobe Experience Cloud Data Privacy-API](https://www.adobe.io/apis/experienceplatform/gdpr.html) op te roepen. U kunt Analytics-id&#39;s (zoals beschreven in de sectie [Best practices voor labelen](/help/admin/c-data-governance/gdpr-analytics-ids.md)) in de aanvragen verzenden met hun respectieve naamruimte-id&#39;s (databron-id&#39;s). |
-| **Stap 6**: Bekijk en beheer de Data Privacy-instellingen van uw rapportsuite. | Volg de instructies in [Data Governance-instellingen van rapportsuite weergeven](/help/admin/c-data-governance/gdpr-view-settings.md). |
+1. **Stel uw beleid voor gegevensbewaring in.** Een beleid van het gegevensbehoud wordt vereist voor Adobe aan de gegevenstoegang van de Privacy van de dienst of schrapt verzoeken.  Zie [Veelgestelde vragen over gegevensbewaring](/help/technotes/data-retention.md) voor meer informatie.
+1. **U kunt uzelf vertrouwd maken met de labels DULE/Data Privacy, Adobe Analytics-id&#39;s, naamruimten en ID-uitbreiding.** Zie de Etiketten van de Privacy van  [Gegevens voor de ](/help/admin/c-data-governance/gdpr-labels.md) Variabelen van de Analyse en  [Etikettering Beste praktijken](/help/admin/c-data-governance/gdpr-analytics-ids.md).
+1. **Wijs identiteit, gevoeligheid, en de etiketten van het gegevensbeheer aan elke variabele in een rapportreeks toe.** De etikettering moet worden herzien telkens als een nieuwe rapportreeks wordt gecreeerd of wanneer de nieuwe variabele binnen een bestaande rapportreeks wordt toegelaten. Controleer ook de etikettering wanneer de nieuwe oplossingsintegratie wordt toegelaten, aangezien zij nieuwe variabelen kunnen blootstellen die etikettering kunnen vereisen. Een nieuwe implementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, wat ook updates van labels kan vereisen. Zie [Gegevens van de Reeks van het Rapport van het Etiket](/help/admin/c-data-governance/gdpr-setup-reportsuite.md).
+1. **Maak verbinding met de Adobe Data Privacy API en verzend Toegang en schrap Verzoeken.** Als klant van Adobe Analytics kunt u afzonderlijke Data Privacy-aanvragen verzenden voor toegang tot en verwijdering van klantdata door de [Adobe Experience Cloud Data Privacy-API](https://www.adobe.io/apis/experienceplatform/gdpr.html) op te roepen. U kunt Analytics-id&#39;s (zoals beschreven in de sectie [Best practices voor labelen](/help/admin/c-data-governance/gdpr-analytics-ids.md)) in de aanvragen verzenden met hun respectieve naamruimte-id&#39;s (databron-id&#39;s).
+1. **Bekijk en beheer de privacyinstellingen van uw rapportsuite.** Zie De instellingen voor [ gegevensbeheer van de rapportsuite ](/help/admin/c-data-governance/gdpr-view-settings.md)weergeven.

@@ -5,9 +5,9 @@ title: DFA-integratie
 feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2590'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ De configuratiepagina&#39;s bieden een overzicht van de integratie, samen met nu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 1 </td> 
+   <td colname="col1"> 3 </td> 
    <td colname="col2"> Integratienaam </td> 
    <td colname="col3"> De integratienaam die Genesis in de Actieve Lijst van de Integratie van de rapportreeks toont. </td> 
   </tr> 
@@ -68,7 +68,7 @@ De configuratiepagina&#39;s bieden een overzicht van de integratie, samen met nu
    <td colname="col3"> <p>De DFA adverteerder-id of de bovenliggende Floodlight Configuration-id. Gegevensconnectors gebruiken deze id om de DFA-adverteerder te identificeren die moet worden bijgehouden (versie 1.5 van de integratie). Deze Advertiser-id wordt niet gebruikt in versie 2.0 van de integratie. De bovenliggende Floodlight-configuratie-id wordt opgezocht en gebruikt. Zie de instructies op het scherm </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 1 </td> 
+   <td colname="col1"> 3 </td> 
    <td colname="col2"> DFA Ad Variable </td> 
    <td colname="col3"> De eVar van Analytics die DFA campagnerekenmerk, beelden, ontvangt en gegevens klikt. Dit is doorgaans de eVar Code bijhouden ( <span class="varname"> s.campagne </span>), maar u kunt elke beschikbare eVar kiezen. Gegevensconnectors voegen ook de volgende DFA-gerelateerde classificaties toe aan de geselecteerde eVar: <p><b>Campagnes</b>: Een inzameling van advertenties die aan veelvoudige plaatsen worden gediend die gemeenschappelijk overseinen dragen. </p> <p><b>Sitenaam</b>: De locatie waar de advertentie werd aangeboden. </p> <p><b>Advertentienaam</b>: De Advertentienaam, zoals die in uw DFA rekening wordt bepaald. </p> <p><b>Naam</b> plaatsing site: De website en de pagina waarop de advertentie is geplaatst. </p> <p><b>Leveringsgereedschap</b>: Dubbelklik voor adverteerders. </p> <p><b>Kanaal</b>: Banner Ad. </p> <p><b>Kostenstructuur</b>: CPM, CPC, of Vast, die op de kostenstructuur van de advertentie wordt gebaseerd. </p> <p><b>Creatieve naam</b>: De naam van de creatieve id die is gekoppeld aan een advertentie-/plaatsing-/creatieve id. </p> <p><b>DFA &gt; Zoekmiddeldeduplicatie</b>: Geeft aan dat DFA waarden moet plaatsen in variabelen van het zoekcentrum wanneer DFA-doorklikbewerkingen of View-through plaatsvinden.  </a> . </p> </td> 
   </tr> 
@@ -120,13 +120,13 @@ De configuratiepagina&#39;s bieden een overzicht van de integratie, samen met nu
 
 Zodra Genesis uw het rapportreeks van Analytics voor de integratie DFA heeft gevormd, moet u het volgende doen om uw Website en milieu te vormen DFA om de integratie te steunen:
 
-### Verifieer de Ruimte van het Koekje op het Domein{#verify-cookie-space-on-the-domain}
+### Cookie-ruimte verifiëren op het domein{#verify-cookie-space-on-the-domain}
 
 Voor de integratie van gegevensconnectors voor DFA moet u een cookie instellen op het domein van de pagina.
 
 Hoewel het zeldzaam is, hebben sommige domeinen de maximumkoekjescapaciteit voor sommige browsers van het Web bereikt. Vermijd beïnvloedend het doorbladeren van een bezoeker ervaring op uw Website, raadpleeg uw netwerkverrichtingen, ontwikkelingsteam, of techniekgroep om te verifiëren dat het toevoegen van een ander koekje aan het domein van de pagina&#39;s die voor de integratie worden gebruikt DFA niet de gebruikerservaring zal beïnvloeden. U moet ook een naam voor het cookie selecteren.
 
-### Werk uw vraag-Koord DFA Parameter{#update-your-dfa-query-string-parameter} bij
+### Werk uw DFA Vraag-Koord Parameter bij{#update-your-dfa-query-string-parameter}
 
 Als u reeds Ad campagnes met Adobe Analytics vóór de integratie DFA hebt gevolgd, is het mogelijk dat alle campagnes (e-mail, onderzoek, of banner) de zelfde parameter van het vraagkoord gebruiken om verwijzende campagne ID op de landende pagina te identificeren.
 
@@ -136,7 +136,7 @@ Om te begrijpen wanneer om mening-door en klikgegevens van DFA gegevens voor uw 
 >
 >Hoewel de variabele Campagne voor andere campagnes kan worden gebruikt, gebruik het niet voor campagnes DFA. Als u de variabele van de Campagne aan een DFA campagne landende pagina plaatst, kan Adobe geen beelden vastbinden en aan DFA campagne klikken-doorhalingen klikken. Eenmaal per bezoek controleren Adobe-verzamelingsservers DFA-servers op een eerdere klik- of view-through. Daarom neemt u de DFA-insteekcode alleen op gemeenschappelijke bestemmingspagina&#39;s op om onnodige omleidingen te voorkomen die het laden van pagina&#39;s kunnen vertragen, met name voor gebruikers met tragere internetverbindingen.
 
-## De Code van de Inzameling van Gegevens van uw Website{#update-your-web-site-s-data-collection-code} bijwerken
+## De code van de Gegevensverzameling van uw website bijwerken{#update-your-web-site-s-data-collection-code}
 
 De Genesis-integratie voor DFA maakt gebruik van de DFA Floodlight Configuration ID (dfa_SPOTID), die de consistentie van rapporten tussen DFA en het gegevensverzamelingssysteem van Adobe verbetert.
 
@@ -149,7 +149,7 @@ Om de integratie DFA op uw Website toe te laten, moet u uw code van de gegevensi
 * Module voor DFA integreren
 * Toevoeging aan uw Code van de Inzameling
 
-### Module voor DFA {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b} integreren
+### Module voor DFA integreren {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
 De DFA-integratie maakt gebruik van de Adobe Experience Cloud Integrate Module, die functionaliteit toevoegt aan uw kerncode voor het verzamelen van JavaScript-gegevens ( `s_code.js`). De module Integrate maakt deel uit van het ZIP-bestand wanneer u de AppMeasurement for Javascript-code downloadt van de codecanager. Neem alleen contact op met uw Adobe Consultant als u extra hulp nodig hebt om het te vinden.
 
@@ -176,7 +176,7 @@ var dfaConfig = {
    tEvar:             "eVar17", 
    errorEvar:         "eVar59", 
    timeoutEvent:      "event76", 
-   requestURL:         "http://fls.doubleclick.net/ 
+   requestURL:         "https://fls.doubleclick.net/ 
 json?spot=[SPOTID]&src=[CSID]&var=[VAR]&host=integrate.112.2o7.net%2 
 Fdfa_echo%3Fvar%3D[VAR]%26AQE%3D1%26A2S%3D1&ord=[RAND]", 
  
@@ -223,7 +223,7 @@ De toevoeging van de Code van de Inzameling omvat extra stop-ins die de verricht
 >
 >Een van de mechanismen die de plug-in gebruikt om onnodige DFA-query&#39;s te voorkomen, is een op domeinen gebaseerd bezoekcookie. Een reeks van het integratierapport die veelvoudige domeinen overspant breidt klik-door en mening-door gegevens uit wanneer de bezoekers domeinen na een DFA-Beïnvloed mening-door of klik-door kruisen.
 
-## Bevestigend een Succesvolle Integratie DFA{#confirming-a-successful-dfa-integration}
+## Bevestiging een Succesvolle Integratie DFA{#confirming-a-successful-dfa-integration}
 
 Nadat u alle noodzakelijke updates van de Website hebt gemaakt, kunt u een kijker van het netwerkverkeer, zoals Charles*, de Hulpmiddelen van de Ontwikkelaar van Chrome, of Firebug*, gebruiken om te bevestigen DFA communiceert met de servers van de Adobe inzameling.
 

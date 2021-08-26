@@ -3,9 +3,9 @@ description: 'Meer informatie over '
 title: Type cijfers en attributie
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '871'
 ht-degree: 4%
 
 ---
@@ -27,14 +27,11 @@ Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het me
 
 >[!IMPORTANT]
 >
->[Attribution ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) IQ heeft de manier herzien waarop toewijzingsmodellen in berekende metriek worden geëvalueerd. In het kader van deze wijziging zijn berekende maatstaven die een niet-standaard toewijzingsmodel gebruiken, gemigreerd naar nieuwe, verbeterde toewijzingsmodellen:
+>[Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) IQ heeft de manier herzien waarop toewijzingsmodellen in berekende metriek worden geëvalueerd. In het kader van deze wijziging zijn berekende maatstaven die een niet-standaard toewijzingsmodel gebruiken, gemigreerd naar nieuwe, verbeterde toewijzingsmodellen:
 >
->* Raadpleeg de documentatie [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) voor een volledige lijst met ondersteunde niet-standaard toewijzingsmodellen en terugzoekvensters.
+>* Zie [Attributiemodellen en lookback windows](/help/analyze/analysis-workspace/attribution/models.md) voor een volledige lijst met ondersteunde niet-standaard attributiemodellen en terugzoekvensters.
 >* De toewijzingsmodellen &quot;Marketing Channel Last Touch&quot; en &quot;Marketing Channel First Touch&quot; worden gemigreerd naar nieuwe toewijzingsmodellen &quot;Last Touch&quot; en &quot;First Touch&quot; (Opmerking: De &quot;Kanalen van de marketing&quot;zullen niet worden afgekeurd - slechts zullen de twee toewijzingsmodellen die in berekende metriek verschijnen).
 >* Bovendien zullen we de manier corrigeren waarop de lineaire toewijzing wordt berekend. Voor klanten die berekende metriek met &quot;Lineaire&quot;toewijzingsmodellen gebruiken, kunnen de rapporten lichtjes veranderen om het nieuwe, gecorrigeerde attributiemodel te weerspiegelen. Deze wijziging in berekende metriek wordt weerspiegeld in Analysis Workspace, Reports &amp; Analytics, de Reporting API, en Report Builder. Zie **Hoe Lineaire toewijzing werkt (vanaf 19 juli 2018**, hieronder voor meer informatie.
-
->
-
 
 
 ## Hoe de lineaire toewijzing werkt (vanaf 19 juli 2018)

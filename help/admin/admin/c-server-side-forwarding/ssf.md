@@ -4,9 +4,9 @@ solution: Audience Manager
 title: Overzicht van server-side doorsturen
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Server-kant door:sturen op het rapport-reeks niveau wordt geadviseerd over de er
 
 Ga naar **Analytics** > **Admin** > **Report Suites** > (selecteer **report suites**) > **Edit Settings** > **General** > **Zijde door:sturen**. Als dit selectievakje is:
 
-* **Inactief**  (U kunt geen selectie maken of het menu bestaat niet): u hebt de geselecteerde rapportsuites niet aan uw IMS Org in kaart gebracht. Zorg ervoor dat uw toepasselijke rapportsuites aan de juiste organisatie van de Experience Cloud worden in kaart gebracht gebruikend de  [Hulp van de Afbeelding van de Reeks van het Rapport](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
+* **Inactief**  (U kunt geen selectie maken of het menu bestaat niet): u hebt de geselecteerde rapportsuites niet aan een IMS Org in kaart gebracht. Neem contact op met de klantenservice om ervoor te zorgen dat de rapportsuite correct is toegewezen.
 * **Uitgeschakeld**: U hebt niet de nieuwe server-kant het door:sturen aangezet. Lees de inhoud op de pagina en ga verder met het inschakelen van de functie.
 * **Ingeschakeld**: U wordt provisioned voor nieuwe server-kant door:sturen. U kunt deze Audience Analytics-integratie ook instellen.
 

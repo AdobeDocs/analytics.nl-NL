@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over het beheren van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '723'
 ht-degree: 90%
 
 ---
@@ -125,7 +125,6 @@ ht-degree: 90%
    + [Co-branding](company/co-branding-admin.md)
    + [Rapportsuites verbergen](company/c-hide-report-suites.md)
    + [Security Manager](company/security-manager.md)
-   + [Einde levensduur van IP-aanmeldingsbeperkingen afdwingen](company/login-restrictions-eol.md)
 + Rapportsuites beheren {#manage-report-suites}
    + [Rapportsuitebeheer](c-manage-report-suites/report-suites-admin.md)
    + [Samenvatting en global report suites](c-manage-report-suites/rollup-report-suite.md)

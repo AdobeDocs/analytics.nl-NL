@@ -2,10 +2,10 @@
 title: Een advertentieaccount instellen in Advertising Analytics
 description: Hiermee kunt u nieuwe advertentierekeningen maken en meerdere accounts toewijzen aan meerdere rapportensuites.
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 3%
+source-wordcount: '805'
+ht-degree: 4%
 
 ---
 
@@ -64,24 +64,24 @@ Vul **[!UICONTROL Tracking Settings]** volgende richtlijnen in:
 
    >[!IMPORTANT]
    >
-   >Alleen rapportsuites die [zijn toegewezen aan een Experience Cloud-organisatie](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html), zijn beschikbaar voor selectie. Raadpleeg [Problemen met Advertising Analytics oplossen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md) als uw rapportsuite niet wordt weergegeven.
+   >Alleen rapportsuites die zijn toegewezen aan een Experience Cloud-organisatie, kunnen worden geselecteerd. Raadpleeg [Problemen met Advertising Analytics oplossen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md) als uw rapportsuite niet wordt weergegeven.
 
    Voor **[!UICONTROL Mapping Settings]** die deze richtlijnen volgen:
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Instelling </th> 
-      <th colname="col2" class="entry"> Beschrijving </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Toewijzing van rapportsuite </p> </td> 
-      <td colname="col2"> <p>De rapportsuite-toewijzing bepaalt de rapportsuite die wordt gekoppeld aan dit zoekprogrammaaccount. Met andere woorden, het bepaalt in welke rapportsuite(s) de gegevens van de zoekmachine worden verzonden. </p> <p>Als u uw rapportenreeks niet vermeld ziet, kunt u <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  > uw rapportreeks aan een organisatie van Experience Cloud toewijzen</a> gebruikend dit hulpmiddel. </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   <thead> 
+   <tr> 
+   <th colname="col1" class="entry"> Instelling </th> 
+   <th colname="col2" class="entry"> Beschrijving </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+   <td colname="col1"> <p>Toewijzing van rapportsuite </p> </td> 
+   <td colname="col2"> <p>De rapportsuite-toewijzing bepaalt de rapportsuite die wordt gekoppeld aan dit zoekprogrammaaccount. Met andere woorden, het bepaalt in welke rapportsuite(s) de gegevens van de zoekmachine worden verzonden. </p> </td>
+   </tr> 
+   </tbody> 
+   </table>
 
 1. Klik op **[!UICONTROL Save]**.
 1. Nadat u het bestand hebt opgeslagen, wordt een lijst met voorbehouden weergegeven. U wordt gevraagd te bevestigen dat u hebt gelezen en dat u deze overeenkomst begrijpt. Klik op het selectievakje en klik vervolgens op **[!UICONTROL OK]**.

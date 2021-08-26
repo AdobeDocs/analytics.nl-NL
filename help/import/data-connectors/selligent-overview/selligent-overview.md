@@ -2,14 +2,13 @@
 description: Gebruik de Selligent gegevensconnector met Adobe Analytics.
 title: Slimme gegevensconnector voor Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: baeabd9c-10bc-4733-8779-abfa81807c54
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 2%
 
 ---
-
 
 # Slimme gegevensconnector voor Adobe Analytics{#selligent-data-connector-for-adobe-analytics}
 
@@ -54,7 +53,7 @@ Hier worden de acties weergegeven die u in Adobe Analytics moet ondernemen voord
 | Extern bijhouden | Als u momenteel niet de beste praktijken van het toelaten van externe het volgen voor elke e-mailcampagne volgt u verzendt, moet u dit doen om een succesvolle integratie te verzekeren. Zie de sectie Selecteren hieronder voor meer informatie. |
 | Privacynaleving | Als u de functie voor het bijhouden van de identiteit van de ontvanger of de bezoeker inschakelt, worden hiermee persoonlijke identificeerbare gegevens van uw sitebezoekers mogelijk bijgehouden. Dit heeft gevolgen voor de persoonlijke levenssfeer en vereist de implementatie van de juiste procedures door uw organisatie, zoals kennisgeving aan en toestemming van uw sitebezoekers. |
 
-## Analysevariabelen configureren voor selectie{#configure-analytics-variables-for-selligent}
+## Analysevariabelen configureren voor kiezen{#configure-analytics-variables-for-selligent}
 
 Deze integratie vereist 2 eVars die voor elke implementatie van de rapportreeks worden gereserveerd.
 
@@ -90,7 +89,7 @@ Naast deze eVars kunnen enkele gebeurtenissen worden gereserveerd, afhankelijk v
   </tr> 
   <tr> 
    <td colname="col1"> Gebeurtenis </td> 
-   <td colname="col2"> Geleverd </td> 
+   <td colname="col2"> Afgeleverd </td> 
    <td colname="col3"> Het aantal geleverde e-mails opslaan. </td> 
    <td colname="col4"> <p><b>Type</b>: Numeriek </p> <p><b>Deelname</b>: Ingeschakeld </p> </td> 
   </tr> 
@@ -127,11 +126,11 @@ Als u deze integratie met gegevensconnectors wilt gebruiken, hebt u een geldig, 
 
 Tijdens deze integratie-instelling hebt u de volgende informatie nodig over uw account met de optie &#39;SELECT&#39;:
 
-* **Adobe Service-URL**:
+* **URL** van Adobe-service:
 
    De URL kan worden afgeleid van de URL die wordt gebruikt om u aan te melden bij de oplossing voor het selecteren van marketing. Vervang het deel &quot;/simweb/login.aspx&quot; van de URL door &quot;/automation/omniture.asmx&quot;
 
-   Bijvoorbeeld: `http://<client-specific install url>/automation/omniture.asmx`
+   Bijvoorbeeld: `https://<client-specific install url>/automation/omniture.asmx`
 
 * **Parameters queryreeks:** deze worden toegevoegd aan de URL van de bestemmingspagina voor bericht-id en Ontvanger-id (bezoeker-id). Dit zijn altijd MID en RID voor respectievelijk Bericht-ID en Ontvanger-ID.
 

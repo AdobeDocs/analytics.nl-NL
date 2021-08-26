@@ -2,8 +2,7 @@
 title: Cross-device Analytics
 description: Verander uw gegevens van apparaat-geconcentreerd in persoon-geconcentreerd door apparatengegevens samen te stikken.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-translation-type: tm+mt
-source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -29,7 +28,7 @@ Wanneer de apparaten worden vastgezet, veranderlijke persistentie wordt gedragen
 
 Uit een geest van partnerschap en transparantie willen wij dat onze klanten zich bewust zijn van ons gebruik van Microsoft Azure in combinatie met Cross-Device Analytics. Adobe gebruikt Azure om grafiekgegevens van apparaten op te slaan en om overspannen-apparaat het stitching uit te voeren. Als dusdanig, worden de gegevens van Adobe Analytics overgegaan - en - tussen Adobe verwerkend centrum en Adobe geleverde instanties van Microsoft Azure.
 
-Zie de [Reis-IQ: Pagina](http://adobe.ly/aacda) van de Vonk van de Analyse van het Apparaat voor meer informatie over de mogelijkheden en de eigenschappen van Analytics van het Apparaat.
+Zie de [Reis-IQ: Pagina](https://adobe.ly/aacda) van de Vonk van de Analyse van het Apparaat voor meer informatie over de mogelijkheden en de eigenschappen van Analytics van het Apparaat.
 
 ## Vereisten
 
