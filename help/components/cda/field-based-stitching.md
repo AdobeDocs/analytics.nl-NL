@@ -2,9 +2,9 @@
 title: Veldgebaseerde stitching
 description: Begrijp de eerste vereisten en de beperkingen van het stitching van gegevens gebruikend op gebied-gebaseerde stitching.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
+source-git-commit: 71148b13e3fb72dfe09f5f25f11d5e12f30e0bc0
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,8 @@ Als u Cross-Device Analytics wilt implementeren met behulp van op het veld gebas
 >Als niet aan alle voorwaarden wordt voldaan, kan het zijn dat u Cross-Device Analytics of slechte resultaten niet kunt inschakelen bij het koppelen van gegevens.
 
 * Alle voorwaarden die op [overzichtspagina](overview.md) worden vermeld.
-* Uw implementatie moet een proxy of eVar instellen die een individu waar mogelijk op unieke wijze identificeert, bijvoorbeeld wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Geef de gewenste identificatievariabele door aan uw accountmanager wanneer deze is ingericht voor stitching op basis van velden.
+* Uw implementatie moet een proxy of eVar instellen die een individu waar mogelijk op unieke wijze identificeert, bijvoorbeeld wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Wijs geen standaardwaarde aan de eigenschap of de eVar toe.
+* Geef de gewenste identificatievariabele door aan uw accountmanager wanneer deze is ingericht voor stitching op basis van velden.
 
 ## Beperkingen die specifiek zijn voor stitching in het veld
 

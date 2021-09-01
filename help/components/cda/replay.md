@@ -1,14 +1,13 @@
 ---
 title: Hoe herspeelt u
 description: Begrijp het concept "replay"in Cross-Device Analytics
-translation-type: tm+mt
-source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
+exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
+source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
-
 
 # Hoe herspeelt u
 
@@ -48,6 +47,10 @@ Zowel niet-geverifieerde als geverifieerde hits op nieuwe apparaten worden als a
 * **Als u stitching op basis van velden gebruikt, worden** niet-geverifieerde treffers op herkende apparaten vanaf dat punt live-stitched.
 
    Attributie werkt zodra de identificerende douanevariabele aan een apparaat bindt. In het bovenstaande voorbeeld worden alle treffers, behalve hits 1 en 3, live-gezet (ze gebruiken allemaal de id `Bob`). Attributie werkt bij hits 1 en 3 na het opnieuw afspelen van stitching.
+
+>[!NOTE]
+>
+>Tijdgestempelde hits ouder dan 12 uur worden niet in de live flow vastgezet. Deze hits worden echter wel opgenomen in de optie voor opnieuw afspelen, zolang ze maar in het terugkijkvenster voor opnieuw afspelen vallen.
 
 ### Replay stitching
 

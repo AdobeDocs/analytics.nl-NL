@@ -2,10 +2,9 @@
 title: Apparaatanalyse instellen
 description: Configureer een virtuele rapportsuite om CDA in te schakelen.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-translation-type: tm+mt
-source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
+source-git-commit: 040805039c04f4ae8d9d13b764f9f72355eb36e7
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -27,6 +26,7 @@ CDA is provisioned op uw cross-device rapportsuite door Adobe engineering. Neem 
 * Welke methode van CDA wilt u gebruiken (op gebied-gebaseerde het stitching, Adobe privé grafiek, of Adobe coop grafiek)
 * Als u op het veld gebaseerde stitching wilt gebruiken, de eigenschap of de eVar die de gebruikersnaam bevat
 * Uw voorkeur voor afspeelfrequentie en terugkijklengte. De opties omvatten een replay eens per week met een 7 dagen terugkijkvenster, of een replay elke dag met een 1 dag terugkijkvenster.
+De standaardinstelling is wekelijks opnieuw afspelen met een terugkijkvenster van 7 dagen. In dit geval kunnen gegevens in de laatste week worden gewijzigd (aangezien deze geleidelijk worden bijgewerkt).
 
 Als u de klantenservice deze informatie verschaft, werken zij samen met Adobe Engineering om uw gekozen rapportenpakket in te schakelen voor CDA-verwerking.
 
@@ -51,7 +51,7 @@ Beheerders die toegang hebben tot het maken van virtuele rapportsuites, kunnen a
 Houd rekening met de volgende wijzigingen wanneer Apparaatanalyse is ingeschakeld voor een virtuele rapportsuite:
 
 * Er verschijnt een nieuw apparaatpictogram naast de naam van de virtuele rapportsuite. Dit pictogram is exclusief voor virtuele rapportsuites op meerdere apparaten.
-* Er is een nieuwe dimensie beschikbaar met het label [Identified state](../dimensions/identified-state.md). Deze dimensie bepaalt of de Experience Cloud-id op die hit bekend is door de apparaatgrafiek op dat moment.
-* Er zijn nieuwe meetgegevens beschikbaar met de labels [Mensen](../metrics/people.md) en [Unieke apparaten](../metrics/unique-devices.md).
+* Er is een nieuwe dimensie beschikbaar met het label [Identified state](../dimensions/identified-state.md).
+* Nieuwe meetgegevens met het label [Mensen](../metrics/people.md), [Unieke apparaten](../metrics/unique-devices.md), Herkende personen, Niet-geïdentificeerde personen en Personen met Experience Cloud-id zijn beschikbaar.
 * De metrische [Unieke bezoekers](../metrics/unique-visitors.md) is niet beschikbaar, aangezien het met &quot;Mensen&quot;en &quot;Unieke Apparaten&quot;wordt vervangen.
 * Bij het maken van segmenten wordt de segmentcontainer &#39;Visitor&#39; vervangen door een container &#39;Person&#39;.

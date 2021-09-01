@@ -2,10 +2,9 @@
 title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over apparaatanalyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-translation-type: tm+mt
-source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
+source-git-commit: 966e013cb6119696cbd058368c90f2bbef0bc9ae
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1776'
 ht-degree: 0%
 
 ---
@@ -115,3 +114,11 @@ De voordelen van het gebruiken van het 1-dag replay terugkijkvenster zijn 1) rep
 ## Wat gebeurt er met de opgeslagen gegevens in mijn virtuele CDA-rapportensuite(s) als mijn bedrijf besluit de kwaliteit van Analytics Ultimate te verlagen?
 
 Als een klant van Ultimate downloadt, hebben ze geen toegang meer tot opgeslagen gegevens. Alle eerder opgeslagen gegevens worden verwijderd. Dit betekent dat de virtuele CDA-rapportensuites nu geen cross-device stitching weerspiegelen. De gegevens zullen gelijkaardig aan de originele unstitched rapportreeks kijken.
+
+## Waarom is het totale aantal treffers verschillend tussen mijn bronrapportreeks en CDA virtuele rapportenreeks?
+
+CDA gebruikt een complexe parallelle verwerkingspijpleiding, met veelvoudige afhankelijke componenten. Een gegevensmismatch van ongeveer 1% voor het totale aantal treffers tussen de originele rapportreeks en de virtuele CDA rapportenreeks wordt verwacht. Het heeft minimale invloed op de mogelijkheden van andere apparaten.
+
+## Waarom wordt de metrische waarde &quot;Identified People&quot; opgevoerd?
+
+Als het aantal iets hoger dan verwacht is, kan een waarde van de eVar tot meer dan één geïdentificeerde persoon toe te schrijven aan [knoeiboelbotsingen](/help/implement/validate/hash-collisions.md) behoren. Als de telling veel hoger is dan verwacht, neemt u contact op met de klantenservice voor extra stappen voor het oplossen van problemen.

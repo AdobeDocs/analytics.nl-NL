@@ -1,23 +1,22 @@
 ---
 title: CDA Workspace-sjabloon
 description: Beschrijft elk gebied in het malplaatje CDA binnen Analysis Workspace.
-translation-type: tm+mt
-source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
+exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
+source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
-
 
 # CDA Workspace-sjabloon
 
 Adobe biedt een sjabloon om essentiële gegevens over de prestaties van verschillende apparaten te bekijken.
 
-1. Navigeer naar [Experience.adobe.com](https://experiencecloud.adobe.com) en meld u aan met uw Adobe-id-referenties.
+1. Navigeer naar [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) en meld u aan met uw AdobeID-referenties.
 1. Klik op het pictogram met het 9-raster bovenaan en klik vervolgens op Analytics.
 1. Klik [!UICONTROL Workspace] bij de bovenkant, dan klik [!UICONTROL Create New Project].
-1. Zoek de &quot;Reis-IQ: Sjabloon &quot;Cross-Device Analytics&quot; en klik vervolgens op [!UICONTROL Create].
+1. Zoek de sjabloon &quot;Cross-Device Analysis&quot; en klik op [!UICONTROL Create].
 1. Wijzig desgevraagd de rapportsuite in een pakket dat CDA ondersteunt.
 
 Er wordt een Analysis Workspace-project gemaakt dat meerdere deelvensters bevat. Bovenaan wordt een inhoudsopgave en een inleiding weergegeven, zodat context aan het rapport en navigatie naar afzonderlijke rapporten mogelijk zijn. Klik op een koppeling in de inhoudsopgave of vouw de accordeon van een deelvenster uit om die rapporten weer te geven.
