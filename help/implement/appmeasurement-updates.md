@@ -3,9 +3,9 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 376b577211f927be5a896c2a20c8a2fc55437b85
+source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2197'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,12 @@ Cumulatieve releaseopmerkingen voor [!DNL AppMeasurement] voor JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 U kunt de recentste versie van AppMeasurement in [de Manager van de Code ](/help/admin/admin/code-manager-admin.md) downloaden.
+
+## Versie 2.2.2
+
+Releasedatum: **7 september 2021**
+
+* Deze update zorgt ervoor dat `opt.dmp` en `opt.sell` altijd worden opgenomen bij het bijhouden van koppelingen. Hier volgt een [volledige lijst van toestemmingsvariabelen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
 
 ## Versie 2.22.1
 
