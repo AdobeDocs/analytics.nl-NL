@@ -2,10 +2,10 @@
 description: Leer over wanneer en waarom de gegevensschakelaars van de Analyse zullen eind-van-leven worden.
 title: Vooraankondiging van einde van levensduur voor gegevensconnectors van Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
+source-git-commit: f034baca23980ae70d83bc6488e13fc610a43ab1
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 8%
+source-wordcount: '685'
+ht-degree: 4%
 
 ---
 
@@ -13,17 +13,17 @@ ht-degree: 8%
 
 Al meer dan tien jaar streeft Adobe Analytics ernaar de beste oplossing voor web- en marketinganalyses te bieden om aan de behoeften van klanten te voldoen. Naarmate technologie en bedrijfsbehoeften evolueren, streven we ernaar voortdurend aan de hoogste standaarden te voldoen.  Helaas voldoen de API&#39;s die deze integratie mogelijk maken niet meer aan deze normen en zijn ze niet houdbaar in de moderne Adobe Analytics-technologie-infrastructuur.
 
-**Met ingang van 19 augustus 2021** zal Adobe de integratie van gegevensconnectors beëindigen. Het einde van de levensduur maakt deel uit van de levenscyclus van elk technologisch product en de Adobe is erop gericht de overgang zo naadloos mogelijk te maken voor onze klanten en partners. Veel van deze integraties zijn beschikbaar via Adobe Exchange en kunnen ook in de toekomst worden gebruikt.
+**Met ingang van 19 augustus 2021** heeft Adobe de integratie van gegevensconnectors beëindigd. Het einde van de levensduur maakt deel uit van de levenscyclus van elk technologisch product en de Adobe is erop gericht de overgang zo naadloos mogelijk te maken voor onze klanten en partners. Veel van deze integraties zijn beschikbaar via Adobe Exchange en kunnen ook in de toekomst worden gebruikt.
 
 ## Waarom zijn we aan het einde van deze functie?
 
-Deze functie wordt aangedreven door oudere technologie die niet meer levensvatbaar of ondersteund is. We hebben een nieuwe standaard in het [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud) dat moet worden gebruikt voor alle integraties waarvoor aanbod en ondersteuning gewenst is.
+Deze functie wordt aangedreven door oudere technologie die niet meer levensvatbaar of ondersteund is. De [Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud) is nu de plaats om de huidige integratie voor Adobe-oplossingen te zoeken.
 
 ## Hoe beïnvloedt het verwijderen van deze functie u?
 
 Als u een Partner van de Adobe bent, kunnen de details over het migreren van uw integratie aan ons nieuwe programma van de Uitwisseling van de Adobe [hier ](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) in onze documentatie vinden.
 
-Als u een klant van de Verbinding van Gegevens bent en wilt verzoeken dat de integratie u gebruikt zou moeten worden gemigreerd, zou u *alle verzoeken rechtstreeks aan de Partner van de Integratie* moeten leiden. Het verzenden van een aanvraag naar Adobe via de klantenservice heeft niet hetzelfde gewenste effect.
+Als u een klant van de Verbinding van Gegevens bent en wilt verzoeken dat de integratie u gebruikt zou moeten worden gemigreerd, zou u *alle verzoeken rechtstreeks aan de Partner van de Integratie* moeten leiden. De partner moet zich ertoe verbinden zich aan het bewegen aan nieuwe APIs. Helaas kan de klantenservice van Adobe partners niet dwingen naar de nieuwe API&#39;s te gaan.
 
 Elk bedrijf dat een integratieproject heeft opgezet, kreeg de mogelijkheid om zijn integratie naar de beurs van Adobe te migreren of zijn integratie te beëindigen. Hieronder volgt een samenvatting van elke huidige integratie en het bijbehorende besluit.
 
@@ -37,18 +37,18 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | --- | --- |
 | Acxiom | Vervangen |
 | Adform | Vervangen |
-| Aanpassen | Migreren naar Adobe Exchange |
-| Adobe Campaign | Migreren naar Adobe Exchange (zie Opmerking hieronder) |
-| Apps | Migreren naar Adobe Exchange |
+| Aanpassen | Migreren naar de nieuwste API&#39;s |
+| Adobe Campaign | Migreren naar de nieuwste API&#39;s (zie Opmerking hieronder) |
+| Apps | Migreren naar de nieuwste API&#39;s |
 | Apps | Vervangen |
-| AppsFlyer | Migreren naar Adobe Exchange |
+| AppsFlyer | Migreren naar de nieuwste API&#39;s |
 | April Enterprise Marketing Engagement | Vervangen |
 | Apteligent | Vervangen |
 | BlueHornet eMarketing Suite | Vervangen |
-| Branch | Migreren naar Exchange |
+| Branch | Migreren naar de nieuwste API&#39;s |
 | BrightStor 2.0, BrightStor, BrightStor, BrightEdge Express | Vervangen |
 | Bronto-software | Vervangen |
-| CheetahMail van Experian | Migreren naar Exchange |
+| CheetahMail van Experian | Migreren naar de nieuwste API&#39;s |
 | ClickTale | Vervangen |
 | Clicktale CA | Vervangen |
 | Conductor 2.0, Conductor, Conductor Organic Metrics | Vervangen |
@@ -61,31 +61,31 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | Delivra | Vervangen |
 | Demandbase CA | Vervangen |
 | Demandbase v3 | Vervangen |
-| DialogTech | Beschikbaar op Adobe Exchange |
+| DialogTech | Migreren naar de nieuwste API&#39;s |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Vervangen |
 | DREAM | Vervangen |
 | DREAMmail 1.0, DREAMmail 2.0 | Vervangen |
-| Dynamisch signaal (Nital Vora) | Migreren naar Exchange |
+| Dynamisch signaal (Nital Vora) | Migreren naar de nieuwste API&#39;s |
 | eDialog Precision Central | Vervangen |
 | eC-boodschapper | Vervangen |
 | Emailvision Campaign Commander | Vervangen |
 | emarsys xpress | Vervangen |
-| Epsilon Harmony | Migreren naar Exchange |
+| Epsilon Harmony | Migreren naar de nieuwste API&#39;s |
 | IedereenSociaal voor Adobe Analytics | Vervangen |
 | ExactTarget, ExactTarget 2.0 | Vervangen |
 | Fiksu | Vervangen |
 | Voorzien (v2.0), Feedback voorzien, Resultaten | Vervangen |
 | Gigya | Vervangen |
-| Hootsuite | Migreren naar Exchange |
+| Hootsuite | Migreren naar de nieuwste API&#39;s |
 | hybris | Vervangen |
 | Kampyle (nu Medallia) Feedback Analytics (1.1) | Vervangen |
-| Listrak | Migreren naar Exchange |
+| Listrak | Migreren naar de nieuwste API&#39;s |
 | Lyris HQ | Vervangen |
 | MaritzCX (V 2.0) | Vervangen |
 | Merkle | Vervangen |
-| Officiële Oracle-Eloqua-integratie | Migreren naar Exchange |
+| Officiële Oracle-Eloqua-integratie | Migreren naar de nieuwste API&#39;s |
 | optivo broadmail (Episerver) | Vervangen |
-| Qualtrics v2 | Migreren naar Exchange |
+| Qualtrics v2 | Migreren naar de nieuwste API&#39;s |
 | Responsys 1.0, Responsys 2.0 | Vervangen |
 | Salesforce.com | Vervangen |
 | Selligent | Vervangen |
