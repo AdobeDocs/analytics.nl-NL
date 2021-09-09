@@ -3,12 +3,12 @@ description: Tabelgegevens die de kolommen in de gegevensinvoer beschrijven.
 keywords: Gegevensfeed;kolommen
 subtopic: data feeds
 title: Referentie gegevenskolom
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
+source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3420'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `page_event_var2` | Wordt alleen gebruikt in aanvragen voor het bijhouden van koppelingen. De aangepaste naam (indien opgegeven) van de koppeling. | varchar(100) |
 | `page_event_var3` | Niet meer gebruikt. Bevat gegevens van de module Enquête en Media. Bevolkt oudere videoverslagen in vorige versies van Adobe Analytics. | text |
 | `page_type` | Wordt gebruikt om de [Niet-gevonden ](/help/components/dimensions/pages-not-found.md)-dimensie te vullen. Wordt uitsluitend gebruikt voor 404 pagina&#39;s. Deze variabele moet leeg zijn of de waarde `ErrorPage` bevatten. | teken(20) |
-| `page_url` | De URL van de hit. In de postvariant (post_page_url) wordt de waarde gestript voor aanvragen voor het bijhouden van koppelingen. | varchar(255) |
+| `page_url` | De URL van de hit. Merk op dat `post_page_url` voor verbinding het volgen beeldverzoeken wordt gestript en een gegevenstype van varchar (255) gebruikt. | text |
 | `pagename` | Wordt gebruikt om de [Page](/help/components/dimensions/page.md)-dimensie te vullen. Als de variabele [`pagename`](/help/implement/vars/page-vars/pagename.md) leeg is, gebruikt Analytics `page_url` in plaats daarvan. | varchar(100) |
 | `paid_search` | Markering die wordt ingesteld als de treffer overeenkomt met de detectie van betaalde zoekopdrachten. | tinyint zonder teken |
 | `partner_plugins` | Niet gebruikt. Onderdeel van een gesloopt onderdeel. | varchar(255) |
