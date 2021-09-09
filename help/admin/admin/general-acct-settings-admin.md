@@ -4,10 +4,9 @@ title: Algemene accountinstellingen
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d509de3ff49d996f821803f0a93c3184db4af1d3
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -30,3 +29,8 @@ Deze montages bevatten het uitgeven opties voor de functionaliteit van de basisr
 | IP Obfuscatie | Zet IP adressen in niet-herkenbare koorden, hoofdzakelijk verwijderend hen uit de gegevensopslag van Adobe. Wanneer IP de Verduistering wordt toegelaten, worden de originele IP adressen permanent verloren. <br> **Opmerking**: De IP adressen worden overal in Analytics, met inbegrip van Data Warehouse verduisterd. Nochtans, wordt IP die in Doel plaatst gecontroleerd afzonderlijk, zodat heeft dit het plaatsen geen effect op Doel.<br> Als IP de verduistering wordt toegelaten, al nodig verwerking met inbegrip van IP het filtreren/uitsluiting, zowel worden de regels als de raadplegingen van de Geosegmentatie gedaan alvorens het IP adres wordt verduisterd. U hoeft niets te wijzigen wanneer u IP-verduistering inschakelt.<ul><li>Als u **Uitgeschakeld** inschakelt, blijft het IP-adres in de gegevens staan.</li><li>Als u **IP-adres verduisteren** inschakelt, verandert de IP in twee dubbele punten, gevolgd door een gehashte waarde (bijvoorbeeld `::1932023538`).</li><li>Als u **IP-adres verwijderen** inschakelt, wordt het IP-adres vervangen door `::X.X.X.X` in de gegevens, na geo-lookup.</li></ul>**Opmerking**: Deze instelling kan wijzigingen in aangepaste  [zowel ](/help/admin/admin/bot-removal/bot-rules.md) linialen als  [IP-uitsluitingen](/help/admin/admin/exclude-ip.md) vereisen. |
 | Opslag van transactie-id | Hiermee kunt u [Transactie-id](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md) gegevensbronnen gebruiken. |
 | Data Warehouse inschakelen | Hiermee schakelt u de gebruikersinterface van de Data Warehouse in via Analytics > Tools > Data Warehouse. |
+| Zip-optie | Hier kunt u de postcode opgeven in plaats van wat onze IP-opzoekopdracht van de geo oplevert. |
+| Ondersteuning voor multibyte-tekens | Bij multibyte-tekenondersteuning worden tekens in de rapportsuite opgeslagen met UTF-8. Na ontvangst zet het systeem gegevens van de tekenset van uw webpagina om in de tekenset UTF-8, zodat u elke taal in uw marketingrapporten kunt gebruiken. Neem contact op met uw accountmanager of de klantenservice om de multibyte-tekenondersteuning voor een bestaande rapportsuite te wijzigen. |
+| Geactiveerd | Geeft aan of deze rapportsuite is geactiveerd of niet. |
+| Basisvaluta | Hier kunt u de basis [currency](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=en) voor deze rapportsuite opgeven. |
+| Organisatie-id | De id die is gekoppeld aan uw Experience Cloud-bedrijf dat u hebt ingericht. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg. |
