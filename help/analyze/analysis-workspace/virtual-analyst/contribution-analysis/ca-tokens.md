@@ -2,12 +2,12 @@
 description: Gebruik de analyse van de Bijdrage om statistische anomalieën en correlaties in gegevens te identificeren.
 title: Overzicht van bijdrageanalyse
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI-gereedschappen
+feature: AI Tools
 role: User, Admin
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1147'
 ht-degree: 3%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 3%
 # Overzicht van bijdrageanalyse
 
 De Analyse van de bijdrage ontdekt verborgen patronen binnen uw gegevens om statistische anomalieën te verklaren en correlaties achter onverwachte klantenacties, uit-van-verbindende waarden, en plotselinge pieken of vallen voor geselecteerde metriek over convergent publiekssegmenten te identificeren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25443/?quality=12)
 
 Er is iets gebeurd. Waarom? Uw Anomaly Detection-rapport laat een ongewone spike in orders zien en u wilt weten waarom. Wat gebeurde er met het gewone? Wie reageert op welke campagne of verwijzing? Is er iets viraal gegaan? Wat zijn de specifieke factoren die aan deze anomalie hebben bijgedragen? En misschien nog belangrijker: Hoe kan ik belangrijke informatie over mijn klant vangen en deze prestaties herhalen? (Of, als een daling in metrisch of een toename in negatieve metrisch voorkwam, hoe kan ik het in de toekomst vermijden?)
 

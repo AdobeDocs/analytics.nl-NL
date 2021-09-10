@@ -3,9 +3,9 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe A
 title: Welke Adobe Analytics-tool moet ik gebruiken?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1163'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,11 @@ Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe Analytics-hulp
 
 Voor meer informatie over de Vergelijking van het Product van Adobe Analytics, ga [hier](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 
-## Adobe Analytics Reporting User Interfaces {#user-interfaces}
+Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden vergeleken:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
+
+## Adobe Analytics die gebruikersinterfaces rapporteert {#user-interfaces}
 
 **[De](/help/analyze/analysis-workspace/home.md)** Werkruimten van de analyse zouden de go-aan gebruikersinterface voor al uw rapportering en analysebehoeften moeten zijn. Adobe blijft in dit product investeren en maandelijks updates uitbrengen. Als er een taak is die u niet kunt uitvoeren in Analysis Workspace, kunt u de andere interfaces hieronder overwegen.**
 

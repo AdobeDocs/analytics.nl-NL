@@ -1,10 +1,10 @@
 ---
 description: Een deelvenster is een verzameling tabellen en visualisaties
 title: Overzicht van deelvensters
-feature: Deelvensters
+feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Sleep een segment van de linkerspoorstaaf naar de neerzetzone van het deelvenste
 
 ### Ad-hocsegmentfilters
 
-Niet-segmentcomponenten kunnen ook rechtstreeks naar de dropzone worden gesleept om ad-hocsegmenten te maken, waardoor u tijd en moeite bespaart om naar de Segment Builder te gaan. Segmenten die op deze manier worden gemaakt, worden automatisch gedefinieerd als raaksegmenten. Deze definitie kan worden gewijzigd door op het informatiepictogram (i) naast het segment te klikken, vervolgens op het pictogram voor het bewerken van de vorm van een potlood te klikken en dit te bewerken in de Segment Builder.
+Niet-segmentcomponenten kunnen ook rechtstreeks in de dalingsstreek worden gesleept om ad-hocsegmenten tot stand te brengen, die u de tijd en de inspanning besparen om naar de Bouwer van het Segment te gaan. Segmenten die op deze manier worden gemaakt, worden automatisch gedefinieerd als raaksegmenten. Deze definitie kan worden gewijzigd door op het informatiepictogram (i) naast het segment te klikken, vervolgens op het pictogram voor het bewerken van de vorm van een potlood te klikken en dit te bewerken in de Segment Builder.
 
 Ad-hocsegmenten zijn lokaal voor het project en verschijnen niet in uw linkerspoor tenzij u ze openbaar maakt.
 
