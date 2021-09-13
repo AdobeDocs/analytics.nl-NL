@@ -1,12 +1,12 @@
 ---
 title: Wat is Cohort Analyse en hoe werkt het?
 description: Dig dieper in de gegevens rond uw publiek en onderbreek in verwante groepen met de Analyse van de Cohort. Meer informatie over cohortanalyse in Analysis Workspace.
-feature: Visualisaties
+feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,10 @@ Met de volgende mogelijkheden kunt u de cohorten die u maakt, nauwkeurig instell
 Het cohortrapport [!UICONTROL Retention] retourneert bezoekers: in elke gegevenscel worden het onbewerkte aantal en het onbewerkte percentage bezoekers in de cohort weergegeven die de actie in die periode hebben uitgevoerd . U kunt maximaal 3 cijfers en maximaal 10 segmenten opnemen.
 
 ![](assets/retention-report.png)
+
+Hier volgt een video over het berekenen van rolretentie:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
 
 ### [!UICONTROL Churn] Tabel
 

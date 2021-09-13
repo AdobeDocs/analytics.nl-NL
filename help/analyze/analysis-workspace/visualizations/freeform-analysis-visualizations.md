@@ -5,9 +5,9 @@ title: Overzicht van visualisaties
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1073'
 ht-degree: 4%
 
 ---
@@ -100,3 +100,9 @@ Aanvullende functionaliteit voor een visualisatie is beschikbaar door met de rec
 Als u niet zeker weet welke visualisatie u wilt kiezen, klikt u op het pictogram **[!UICONTROL Create Visual]** in een tabelrij (beschikbaar bij de muisaanwijzer). Dit is de snelste manier om een visualisatie toe te voegen. Als u erop klikt, vraagt Analysis Workspace om een goed opgeleide schatting te maken van de mate waarin visualisatie het beste aansluit bij uw gegevens. Als u bijvoorbeeld 1 rij hebt geselecteerd, wordt er een trendlijngrafiek gemaakt. Als u 3 geselecteerde segmentrijen hebt, zal het tot een diagram van de Venn leiden.
 
 ![](assets/quick-viz.png)
+
+## De schaalas wijzigen in visualisaties
+
+Hier volgt een video-overzicht:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
