@@ -2,11 +2,11 @@
 description: Maak een project en voeg componenten (afmetingen, metriek, segmenten, datumbereiken) toe aan het deelvenster Vrije vorm.
 keywords: Analysis Workspace
 title: Een Workspace-project maken
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '727'
 ht-degree: 13%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 13%
 # Een Workspace-project maken
 
 Maak een project en voeg componenten (afmetingen, metriek, segmenten, datumbereiken) toe aan het deelvenster Vrije vorm.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
 
 Dit artikel vertrouwt u met de de interfaceelementen van Analysis Workspace en toont hoe te om een project tot stand te brengen.
 

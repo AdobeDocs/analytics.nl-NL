@@ -2,13 +2,13 @@
 description: Gebruik de kaartvisualisatie in een project van de Werkruimte.
 title: Kaart
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: Visualisaties
+feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 3%
+source-wordcount: '633'
+ht-degree: 2%
 
 ---
 
@@ -89,3 +89,9 @@ Als u op **tandwielpictogram** klikt, worden de volgende visualisatie-instelling
 | Stijlen: Type kaart | U kunt kiezen uit Standaard, Streets, Helder, Licht, Donker en Satelliet. |
 | Clusterstraal | Hiermee groepeert u gegevenspunten die binnen het opgegeven aantal pixels liggen. De standaardwaarde is 50. |
 | Aangepaste maximale waarde | Hiermee kunt u de drempelwaarde voor de maximale waarde voor de kaart wijzigen. Als u deze waarde aanpast, wordt de schaal voor de waarden voor luchtbellen/heatmap (kleur en grootte) aangepast ten opzichte van de aangepaste maximale waarde die is ingesteld. |
+
+## Een geparseerde heatmap maken
+
+Hier volgt een video over het onderwerp:
+
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)

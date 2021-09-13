@@ -1,19 +1,21 @@
 ---
 title: Deelvenster voor attributie
 description: Het toewijzingspaneel in Analysis Workspace gebruiken en interpreteren.
-feature: Attributie
+feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 1%
+source-wordcount: '439'
+ht-degree: 0%
 
 ---
 
 # Deelvenster voor attributie
 
 Het [!UICONTROL Attribution] paneel is een gemakkelijke manier om een analyse te bouwen die diverse attributiemodellen vergelijkt. Het is een eigenschap in [Attribution IQ](../attribution/overview.md) die u een specifieke werkruimte geeft om attributiemodellen te gebruiken en te vergelijken.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## Een deelvenster met kenmerken maken
 

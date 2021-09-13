@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Overzicht van Audience Analytics
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 Adobe Audience Manager (AAM) is een krachtig platform voor gegevensbeheer waarmee u unieke publieksprofielen kunt maken van de integratie van gegevens van de eerste partij, de tweede partij/partner en derden. Voor adverteerders helpen deze profielen de meest waardevolle segmenten te definiëren die over elk digitaal kanaal kunnen worden gebruikt.
 
 Met de Audience Analytics-integratie kunt u AAM publieksgegevens, zoals demografische informatie (bijvoorbeeld geslacht of inkomensniveau), psychografische informatie (bijvoorbeeld interesses en hobby&#39;s), CRM-gegevens en imitatiegegevens in elke analyseworkflow opnemen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
 
 ## Belangrijkste voordelen {#section_94816D17283349E0BA28521BE55BB868}
 
