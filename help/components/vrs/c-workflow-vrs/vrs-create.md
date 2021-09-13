@@ -2,12 +2,12 @@
 description: Voordat u virtuele rapportsuites gaat maken, moet u rekening houden met een aantal zaken.
 keywords: Virtuele rapportsuite
 title: Virtuele rapportsuites maken
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '662'
 ht-degree: 3%
 
 ---
@@ -43,6 +43,10 @@ Definieer deze instellingen op het tabblad [!UICONTROL Settings] en klik op **[!
 Definieer deze instellingen op het tabblad [!UICONTROL Visit Definition] en klik op **[!UICONTROL Continue]**.
 
 ![](assets/visit-definition.png)
+
+Hier is een video over hoe te om een bezoekdefinitie in een virtuele rapportreeks aan te passen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
 | Element | Beschrijving |
 | --- |--- |

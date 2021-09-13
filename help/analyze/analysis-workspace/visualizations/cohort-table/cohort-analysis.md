@@ -4,9 +4,9 @@ description: Dig dieper in de gegevens rond uw publiek en onderbreek in verwante
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,10 @@ Hier volgt een video over het berekenen van rolretentie:
 Een [!UICONTROL Churn]-cohort is het omgekeerde van een retentietabel en toont de bezoekers die in de loop der tijd niet of niet aan de retourcriteria voor uw cohort hebben voldaan. U kunt maximaal 3 cijfers en maximaal 10 segmenten opnemen.
 
 ![](assets/churn-report.png)
+
+Hier is een video over de analyse van de kurn:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
 
 ### [!UICONTROL Rolling Calculation]
 
