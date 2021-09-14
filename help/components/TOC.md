@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: De hulp organiseert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, en alarm.
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '658'
 ht-degree: 52%
 
 ---
@@ -118,6 +118,7 @@ ht-degree: 52%
    + [Aangepaste gebeurtenissen](metrics/custom-events.md)
    + [Geopend](metrics/entries.md)
    + [Gesloten](metrics/exits.md)
+   + [Geïdentificeerde personen](metrics/identified-people.md)
    + [Instanties](metrics/instances.md)
    + [Mobiele weergaven](metrics/mobile-views.md)
    + [Nieuwe contracten](metrics/new-engagements.md)
@@ -127,6 +128,7 @@ ht-degree: 52%
    + [Gebeurtenissen van Page](metrics/page-events.md)
    + [Paginaweergaven](metrics/page-views.md)
    + [Pagina&#39;s niet gevonden](metrics/pages-not-found.md)
+   + [Personen met Experience Cloud-id](metrics/people-with-exp-cloud-id.md)
    + [Mensen](metrics/people.md)
    + [Productweergaven](metrics/product-views.md)
    + [Opnieuw geladen](metrics/reloads.md)
@@ -138,6 +140,7 @@ ht-degree: 52%
    + [Tijd besteed per bezoeker](metrics/time-spent-per-visitor.md)
    + [Overzicht van de tijd](metrics/time-spent.md)
    + [Totaal aantal bestede seconden](metrics/total-seconds-spent.md)
+   + [Niet-geïdentificeerde personen](metrics/unidentified-people.md)
    + [Unieke apparaten](metrics/unique-devices.md)
    + [Unieke bezoekers](metrics/unique-visitors.md)
    + [Eenheden](metrics/units.md)
