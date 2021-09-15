@@ -2,7 +2,7 @@
 title: linkDownloadFileTypes
 description: Bestandsextensies bepalen die automatisch worden bijgehouden als downloadkoppelingen.
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 49bf0a459a096e011ff60724aa5bee4fb7721a21
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -19,14 +19,13 @@ Gebruik `linkDownloadFileTypes` om aan te passen welke dossieruitbreidingen u al
 >
 >Alleen de werkelijke klikken worden automatisch bijgehouden. De volgende typen koppelingen worden niet automatisch bijgehouden:
 >
-> * Het bestand wordt automatisch gedownload wanneer een pagina wordt geladen
-> * Downloads die na een omleiding teweegbrengen
-> * Klik met de rechtermuisknop en selecteer Doel opslaan als...
-> * Koppelingen die JavaScript gebruiken, zoals `javascript:openLink()`
+>* Het bestand wordt automatisch gedownload wanneer een pagina wordt geladen
+>* Downloads die na een omleiding teweegbrengen
+>* Klik met de rechtermuisknop en selecteer Doel opslaan als...
+>* Koppelingen die JavaScript gebruiken, zoals `javascript:openLink()`
 
 >
-> 
-Voor deze downloadtypes, kunt u [`tl()`](../functions/tl-method.md) methode manueel roepen.
+>Voor deze downloadtypes, kunt u [`tl()`](../functions/tl-method.md) methode manueel roepen.
 
 Als een geklikte koppeling overeenkomt met zowel de afsluitings- als de downloadkoppelingscriteria, heeft het type downloadkoppeling prioriteit.
 
