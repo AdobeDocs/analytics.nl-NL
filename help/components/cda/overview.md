@@ -2,9 +2,9 @@
 title: Cross-device Analytics
 description: Verander uw gegevens van apparaat-geconcentreerd in persoon-geconcentreerd door apparatengegevens samen te stikken.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 844df9d632f9e9cceb6c882f81360a83891e2143
+source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,8 @@ ht-degree: 0%
 
 Apparaatanalyse is een functie waarmee analyses worden getransformeerd van een apparaatgecentreerde weergave naar een persoonlijke weergave. Dit heeft tot gevolg dat analisten begrip hebben voor het gedrag van gebruikers in browsers, apparaten of apps. Adobe ondersteunt twee overkoepelende workflows om apparaatgegevens aan elkaar te koppelen:
 
-* [**Veldgebaseerde stitching**](field-based-stitching.md): Staat u toe om een variabele van de Analyse als basis voor dwars-apparaat het stitching in een virtuele rapportreeks te kiezen. Gebruikt deterministische aanpassing om apparaten aan elkaar te koppelen. Adobe raadt aan om voor de meeste deterministische gevallen van overeenkomend gebruik op basis van veldomstandigheden te kiezen.
+* [**Veldgebaseerde stitching**](field-based-stitching.md): Aanbevolen optie voor stitching omdat alleen deterministische overeenkomsten worden gebruikt om apparaten aan elkaar te koppelen.
+Staat u toe om een variabele van de Analyse als basis voor dwars-apparaat het stitching in een virtuele rapportreeks te kiezen.
 * [**Apparaatgrafiek**](device-graph.md): CDA communiceert met een apparaatgrafiek om apparaten aan elkaar te hechten. De co-op grafiek gebruikt zowel deterministische als probabilistische aanpassing.
 
 >[!NOTE]
@@ -56,3 +57,5 @@ Cross-Device Analytics is een baanbrekende en robuuste functie, maar heeft beper
 * CDA is momenteel niet compatibel met de Adobe Analytics [Data Repair API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)
 * Historische gegevens in de virtuele rapportsuite veranderen op basis van Adobe die apparaten herkent en aansluit. De gegevens in de bronrapportsuite veranderen niet.
 * De gegevens in de vorm van titching volgen een latentie van 8 tot 12 uur.
+* Toewijzingsgeschiedenisgegevens voor een bepaald apparaat worden maximaal één jaar opgeslagen.
+* Als een apparaat een zeer hoog aantal ingangen van de afbeeldingsgeschiedenis binnen een jaar bereikt, wordt de het in kaart brengen geschiedenis beknot. De exacte limiet is afhankelijk van de gebruikte optie voor stitching.

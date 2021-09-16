@@ -2,16 +2,16 @@
 title: Veldgebaseerde stitching
 description: Begrijp de eerste vereisten en de beperkingen van het stitching van gegevens gebruikend op gebied-gebaseerde stitching.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 71148b13e3fb72dfe09f5f25f11d5e12f30e0bc0
+source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Veldgebaseerde stitching
 
-Cross-Device Analytics biedt twee verschillende methoden om gegevens aan elkaar te koppelen. Deze methode vertrouwt op een variabele Analytics, zoals [prop](/help/implement/vars/page-vars/prop.md) of [eVar](/help/implement/vars/page-vars/evar.md), om een persoonsidentificatie te bevatten. Het gebruikt die variabele als basis om apparaten samen te verbinden.
+Cross-Device Analytics biedt twee verschillende methoden om gegevens aan elkaar te koppelen. Deze methode vertrouwt op een variabele Analytics, zoals [prop](/help/implement/vars/page-vars/prop.md) of [eVar](/help/implement/vars/page-vars/evar.md), om een persoonsidentificatie te bevatten. Het gebruikt die variabele als basis om apparaten samen te verbinden. Adobe raadt deze optie aan voor meer transparantie en voorspelbaarheid bij het bijhouden van bezoekers.
 
 ## Vereisten die specifiek zijn voor veldomstandigheden
 

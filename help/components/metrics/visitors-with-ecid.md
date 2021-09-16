@@ -2,7 +2,7 @@
 title: Bezoekers met Experience Cloud ID
 description: Het aantal unieke bezoekers dat de Adobe Experience Cloud ID-service gebruikt.
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: d16128491569b93f4c470e21b84742cda13b3d2f
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 2%
@@ -11,7 +11,7 @@ ht-degree: 2%
 
 # Bezoekers met Experience Cloud ID
 
-De metrische &#39;Bezoekers met Experience Cloud-id&#39; toont het aantal unieke bezoekers dat door Adobe is geïdentificeerd met de [Experience Cloud-id-service](https://experienceleague.adobe.com/docs/id-service/using/home.html). Deze dimensie is nuttig om met [Unieke bezoekers](unique-visitors.md) metrisch te vergelijken om ervoor te zorgen de meerderheid van bezoekers aan uw plaats de dienst van identiteitskaart gebruikt. Als een groot deel van bezoekers de de dienstkoekjes van identiteitskaart niet gebruikt, kan het op een kwestie binnen uw implementatie wijzen.
+De metrische &#39;Bezoekers met Experience Cloud-id&#39; toont het aantal unieke bezoekers dat door Adobe is geïdentificeerd met de [Experience Cloud-id-service](https://experienceleague.adobe.com/docs/id-service/using/home.html). Deze maatstaf is handig om te vergelijken met de maatstaf [Unieke bezoekers](unique-visitors.md) om ervoor te zorgen dat de meeste bezoekers van uw site de id-service gebruiken. Als een groot deel van bezoekers de de dienstkoekjes van identiteitskaart niet gebruikt, kan het op een kwestie binnen uw implementatie wijzen.
 
 >[!NOTE]
 >

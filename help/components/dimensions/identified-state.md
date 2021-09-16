@@ -1,18 +1,17 @@
 ---
 title: Status geïdentificeerd
 description: Een markering die de herkenning door de apparaatgrafiek bepaalt.
-translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
+source-git-commit: 1a58c3e87f5918c91b891faa6027f5ad8b6024b9
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
-
 # Status geïdentificeerd
 
-De dimensie &#39;Identified state&#39; is specifiek voor [Cross-Device Analytics](../cda/overview.md) virtuele rapportsuites. Het meldt of Experience Cloud-id wordt herkend door de apparaatgrafiek op het moment dat het rapport wordt uitgevoerd. Deze dimensie is handig om te begrijpen hoe goed CDA gegevens heft of comprimeert.
+De dimensie &#39;Identified state&#39; is specifiek voor [Cross-Device Analytics](../cda/overview.md) virtuele rapportsuites. Er wordt gemeld of treffers worden geïdentificeerd (vastgezet) of niet door het systeem op het moment dat het rapport wordt uitgevoerd. Deze dimensie is handig om te begrijpen hoe goed CDA gegevens heft of comprimeert.
 
 ## Deze dimensie vullen met gegevens
 
@@ -22,5 +21,5 @@ Zolang u [Cross-Device Analytics](../cda/overview.md) voor een virtuele rapportr
 
 Dimension-items zijn onder andere `"Identified"` en `"Unidentified"`.
 
-* **`"Identified"`**: De apparaatgrafiek herkent de Experience Cloud-id die aan de treffer is gekoppeld.
-* **`"Unidentified"`**: De apparaatgrafiek herkent de Experience Cloud-id niet of de treffer heeft geen Experience Cloud-id.
+* **`"Identified"`**: De hit wordt toegewezen aan een persoon.
+* **`"Unidentified"`**: De treffer wordt niet toegewezen aan een persoon en kan niet worden toegewezen door een attributiemethode.

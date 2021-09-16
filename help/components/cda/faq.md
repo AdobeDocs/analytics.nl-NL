@@ -2,9 +2,9 @@
 title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over apparaatanalyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 966e013cb6119696cbd058368c90f2bbef0bc9ae
+source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ U kunt een [!UICONTROL Flow] visualisatie met de Mobiele dimensie van het Type v
 
 ## Kan ik zien hoe mensen schakelen tussen verschillende gebruikerservaringen (bijvoorbeeld desktopbrowser versus mobiele browser versus mobiele app)?
 
-Als u het type mobiel apparaat gebruikt, zoals hierboven is geïllustreerd, kunt u zien hoe mensen van het ene type mobiel apparaat naar het andere bewegen. U kunt echter desktopbrowsers onderscheiden van mobiele browsers. Een manier om dit te doen is een eVar te maken die vastlegt of de ervaring is opgedaan in een desktopbrowser, mobiele browser of mobiele app. Maak vervolgens een stroomdiagram zoals hierboven beschreven, waarbij u uw &quot;ervaring&quot;-eVar gebruikt in plaats van de dimensie Mobiel apparaattype. Dit geeft een iets andere weergave op gedrag tussen apparaten.
+In het bovenstaande voorbeeld voor Type mobiele apparaat kunt u zien hoe mensen schakelen tussen typen mobiele apparaten en apparaattypen. U kunt er echter geen onderscheid mee maken tussen desktopbrowsers en mobiele browsers. Als u dit inzicht wilt, kunt u een aangepaste variabele maken (zoals een proxy of eVar) die registreert of de ervaring is opgedaan in een desktopbrowser, mobiele browser of mobiele app. U kunt dan een Stroomdiagram zoals hierboven beschreven tot stand brengen, gebruikend de douanevariabele in plaats van de Mobiele dimensie van het Type van Apparaat. Deze methode biedt een iets andere weergave van gedrag tussen apparaten.
 
 ## Hoe ver gaat de CDA bezoekers verstikken?
 
@@ -53,7 +53,7 @@ Klanten die al een aangepaste bezoeker-id gebruiken, kunnen een upgrade uitvoere
 In sommige situaties is het mogelijk dat meerdere personen zich aanmelden bij hetzelfde apparaat. De voorbeelden omvatten een gedeeld apparaat thuis, gedeelde PCs in een bibliotheek, of een kiosk in een detailhandelsafzet.
 
 * **Als u een apparaatgrafiek** gebruikt, is de mogelijkheid om gedeelde apparaten af te handelen beperkt. De apparaatgrafiek gebruikt een algoritme om de eigendom van een &quot;cluster&quot;te bepalen, en kan elke keer veranderen dat de cluster wordt gepubliceerd. Gebruikers van het gedeelde apparaat zijn afhankelijk van de cluster waartoe zij behoren.
-* **Als u op velden gebaseerde stitching** gebruikt, worden andere id&#39;s overschreven door de proxy of de eVar die u kiest om aangemelde gebruikers te helpen identificeren. Gedeelde apparaten worden beschouwd als afzonderlijke personen, zelfs als ze van hetzelfde apparaat afkomstig zijn.
+* **Als het gebruiken van op gebied-gebaseerde het stitching**, prop of de eVar die u verkiest te helpen het programma geopende gebruikers identificeren treedt andere herkenningstekens met voeten. Gedeelde apparaten worden beschouwd als afzonderlijke personen, zelfs als ze van hetzelfde apparaat afkomstig zijn.
 
 ## Hoe behandelt CDA situaties waarin één enkele persoon VEEL apparaten/ECIDs heeft?
 
@@ -64,11 +64,16 @@ In sommige situaties kan een individuele gebruiker een groot aantal ECID&#39;s k
 
 ## Wat is het verschil tussen de norm Mensen in CDA en de norm van de Unieke Bezoekers buiten CDA?
 
-De [People](/help/components/metrics/people.md) metrisch is gelijkaardig aan [Unieke bezoekers](/help/components/metrics/unique-visitors.md) metrisch in die zin dat het over het aantal unieke individuen rapporteert. Wanneer u echter Apparaatanalyse gebruikt, worden unieke bezoekers gecombineerd wanneer ze anders worden opgenomen als twee afzonderlijke unieke bezoekers buiten CDA. De metrische waarde &#39;Mensen&#39; vervangt de metrische waarde &#39;Unieke bezoekers&#39; wanneer Apparaatanalyse is ingeschakeld. Er is een nieuwe metrische waarde beschikbaar, [Unieke apparaten](/help/components/metrics/unique-devices.md), die ongeveer gelijk is aan Unieke bezoekers buiten de functie voor apparaatanalyse.
+Zowel [Mensen](/help/components/metrics/people.md) als [Unieke bezoekers](/help/components/metrics/unique-visitors.md) meetgegevens zijn bedoeld om verschillende bezoekers (individuen) te tellen. Houd er echter rekening mee dat twee verschillende apparaten bij dezelfde persoon kunnen horen. CDA wijst de twee apparaten toe aan dezelfde persoon, terwijl de twee apparaten worden geregistreerd als twee afzonderlijke &#39;Unieke bezoekers&#39; buiten CDA.
 
 ## Wat is het verschil tussen de &quot;Unieke Apparaten&quot;-norm in CDA en de &quot;Unieke Bezoekers&quot;-norm buiten CDA?
 
-Deze twee metriek zijn ruwweg gelijkwaardig aan elkaar.
+Deze twee metriek zijn ruwweg gelijkwaardig aan elkaar. De verschillen tussen de twee metriek komen voor wanneer:
+
+* Een gedeeld apparaat wordt toegewezen aan meerdere personen. In dit scenario wordt 1 unieke bezoeker geteld, terwijl meerdere unieke apparaten worden geteld.
+* Een apparaat heeft zowel niet-vastgezet als vastgezet verkeer van de zelfde bezoeker. Bijvoorbeeld, produceerde browser geïdentificeerde gestippeld verkeer + historisch anoniem verkeer dat niet werd vastgemaakt. In dit geval wordt 1 unieke bezoeker geteld, terwijl 2 unieke apparaten worden geteld.
+
+Zie [Unieke apparaten](/help/components/metrics/unique-devices.md) voor meer voorbeelden en details over hoe het werkt.
 
 ## Kan ik CDA-meetgegevens opnemen met behulp van de 2.0-API?
 
@@ -93,9 +98,9 @@ Beide herkenningstekens worden berekend door Adobe op het tijdstip dat het rappo
 
 Via de klantenservice kan worden gevraagd om van apparaatgrafiek naar op het veld gebaseerde stitching of omgekeerd. Nochtans, kan het maken van zulk een schakelaar een paar weken of meer vergen om te voltooien en *historische vastgemaakte gegevens van de vorige methode worden verloren.*
 
-## Hoe hanteert Adobe unieke limieten voor een eVar die wordt gebruikt in stitching op basis van velden?
+## Hoe hanteert Adobe unieke limieten voor een proxy of eVar die wordt gebruikt bij veldoverstikken?
 
-CDA trekt eVar dimensie-items vóór zij voor rapportering worden geoptimaliseerd. U hoeft zich geen zorgen te maken over unieke limieten in het kader van CDA. Nochtans, als u het gebruiken van die pro/eVar in een project van de Werkruimte probeerde, kunt u [ (Laag-verkeer) ](/help/technotes/low-traffic.md) afmetingspunt nog zien.
+CDA haalt de elementen van de identificatievariabele dimensies voordat deze zijn geoptimaliseerd voor rapportage. U hoeft zich geen zorgen te maken over unieke limieten in het kader van CDA. Nochtans, als u het gebruiken van die steun of eVar in een project van de Werkruimte probeerde, kunt u nog [ (Laag-verkeer)](/help/technotes/low-traffic.md) afmetingspunt zien.
 
 ## Hoeveel van mijn bedrijfsuitrustingen van het rapport kunnen voor CDA worden toegelaten?
 
@@ -119,6 +124,12 @@ Als een klant van Ultimate downloadt, hebben ze geen toegang meer tot opgeslagen
 
 CDA gebruikt een complexe parallelle verwerkingspijpleiding, met veelvoudige afhankelijke componenten. Een gegevensmismatch van ongeveer 1% voor het totale aantal treffers tussen de originele rapportreeks en de virtuele CDA rapportenreeks wordt verwacht. Het heeft minimale invloed op de mogelijkheden van andere apparaten.
 
-## Waarom wordt de metrische waarde &quot;Identified People&quot; opgevoerd?
+## Waarom wordt de metrische waarde &#39;Identified People&#39; opgevoerd?
 
-Als het aantal iets hoger dan verwacht is, kan een waarde van de eVar tot meer dan één geïdentificeerde persoon toe te schrijven aan [knoeiboelbotsingen](/help/implement/validate/hash-collisions.md) behoren. Als de telling veel hoger is dan verwacht, neemt u contact op met de klantenservice voor extra stappen voor het oplossen van problemen.
+Het aantal metrisch van &quot;Geïdentificeerde Mensen&quot;kan lichtjes hoger zijn als de herkenningsteken prop/waarde in een [knoeiboelbotsing](/help/implement/validate/hash-collisions.md) loopt.
+
+Het aantal metrische waarden voor &#39;Identified People&#39; kan aanzienlijk hoger zijn als id prop/eVar hoofdlettergevoelig is. `bob` en `Bob` worden bijvoorbeeld verondersteld om de zelfde persoon te zijn, maar de gevalgevoeligheid dwingt deze twee waarden om verschillend te zijn.
+
+## Waarom zie ik waarden wanneer het bekijken van het herkenningsteken prop/eVar met de metrische &quot;Niet-geïdentificeerde Mensen&quot;?
+
+Deze situatie komt gewoonlijk voor wanneer een bezoeker zowel voor authentiek verklaarde als niet voor authentiek verklaarde klusjes in het rapporteringsvenster produceert en [Replay](replay.md) nog niet in werking heeft gesteld. Voordat de bezoeker opnieuw wordt afgespeeld, behoort hij tot de dimensies &#39;Niet-geïdentificeerd&#39; en &#39;Identified&#39; in de [Geïdentificeerde status](/help/components/dimensions/identified-state.md), waardoor sommige bezoekers niet-geïdentificeerde hits aan een id kunnen toewijzen. Bezoekers blijven in deze status totdat de replay wordt uitgevoerd (dagelijks of wekelijks, afhankelijk van hoe uw organisatie CDA instelt). Het runnen van rapporten over slechts na-replay gegevens verlicht deze situatie.
