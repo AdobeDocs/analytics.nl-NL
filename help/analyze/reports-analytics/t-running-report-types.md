@@ -2,12 +2,12 @@
 description: Stappen bij het runnen van de verschillende rapporttypes.
 title: Verschillende rapporttypen uitvoeren
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1237'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Beschrijft om rapporten in real time te bekijken en te interpreteren.
 
 Real-Time rapportage biedt twee hoofdrapporten - een overzichtsrapport en een detailrapport. Ze bestaan elk uit een aantal verslagen.
 
-Voor informatie bij het vormen rapporten in real time, zie [de Gids van de Verwijzing van Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration).
+Zie [Real-time reporting overview](/help/components/c-real-time-reporting/realtime.md) voor meer informatie.
 
 1. Bekijk het **[!UICONTROL Overview]** rapport en zijn componenten:  ![](assets/rtr_overview_report.png)
 
@@ -145,7 +145,7 @@ Voor informatie bij het vormen rapporten in real time, zie [de Gids van de Verwi
    </tr> 
    </table>
 
-1. Klik op een lijstitem in het primaire rapport om de weergave **[!UICONTROL Details]** voor dat lijstitem te starten:  ![](assets/rtr_detail_report.png)
+2. Klik op een lijstitem in het primaire rapport om de weergave **[!UICONTROL Details]** voor dat lijstitem te starten:  ![](assets/rtr_detail_report.png)
 
    | **Trend Report voor item** | Presenteert de trendlijn van het punt dat in het Rapport van het Overzicht voor de laatste notulen N werd geselecteerd. N is configureerbaar door de selecteur van de Waaier van de Tijd. |
    |---|---|
