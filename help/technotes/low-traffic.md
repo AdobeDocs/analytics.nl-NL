@@ -4,10 +4,9 @@ title: Lage verkeerswaarde in Adobe Analytics
 feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-translation-type: tm+mt
-source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
+source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -27,6 +26,9 @@ Wanneer een rapport vele unieke waarden heeft, verstrekt Adobe functionaliteit o
    * Als een waarde nog niet in rapporten wordt gezien, zal het in [!UICONTROL Low-Traffic] lijnpunt verschijnen. Als een waarde die in het [!UICONTROL Low-Traffic] lijnpunt is inbegrepen een significant aantal tijden binnen een korte tijd wordt gezien, zal het beginnen als zijn eigen lijnpunt te worden erkend. Het significante aantal tijden dat een punt moet worden gezien heeft vele gebiedsdelen, zoals het aantal verwerkingsservers en daemons die gegevens voor die bepaalde rapportreeks verwerken.
 
 Waarom verplaatst Adobe een punt van [!UICONTROL Low Traffic] lijnpunt aan zijn eigen lijnpunt? Deze verplaatsing herkent bijvoorbeeld een populaire nieuwe pagina of een nieuw item dat later in de maand is toegevoegd (nadat de unieke waarden zijn overschreden) en dat veel resultaten/weergaven oplevert. De verplaatsing is niet bedoeld om alles af te vangen wat een bepaald aantal hits/weergaven per dag of per maand oplevert.
+
+>[!NOTE]
+>De opzoektelling van de pagina omvat niet alleen waarden voor [!UICONTROL pagename]/[!UICONTROL page_url]. De pagina raadpleginglijst omvat verscheidene kolommen/gebieden zoals [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url], en de klikcontext (de oude gegevens van Clickmap).
 
 ## Unieke limietdrempels wijzigen
 
