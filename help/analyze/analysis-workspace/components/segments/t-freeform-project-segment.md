@@ -5,24 +5,42 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 8cd5d5ec1525e29779a13330dfeaeae120dfdd56
+source-git-commit: 0aee84be83b2e5916ecf6ffdd4171ed4ef612b5b
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '498'
 ht-degree: 1%
 
 ---
 
 # Segmenten {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
-U kunt
+U kunt verschillende typen segmenten maken, afhankelijk van de complexiteit die ze moeten hebben, of ze alleen op dit project moeten worden toegepast, enzovoort. Hier volgt een overzicht van segmenttypen:
 
-## Segment per spoor {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
+| Segmenttype | Waar gemaakt? | Waar van toepassing? | Meerdere containers? | UI-kleur |
+| --- | --- | --- | --- |
+| Segment componentlijst | [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | Voor alle projecten, van links spoor | Ja | Blauw |
+| Snel segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Alleen projectniveau | Nee | Grijs? |
+| Ad-hocsegmenten: | Zie hieronder | Alleen projectniveau | Nee | ? |
+| - Ad hoc-projectsegment van Workspace | Slepen en neerzetten in segment? in een nieuw project |  |  |  |
+| - Op basis van cijfers berekend segment | Berekende metrische builder |  |  |  |
+| - op VRS gebaseerd segment | Samenstellen van virtuele rapportsuite |  |  |  |
+| - Segmentbouwer &quot;apply&quot; | Segment builder |  |  |  |
+
+Voor een diepgaande bespreking van segmentatie in Adobe Analytics, ga [hier](/help/components/segmentation/seg-overview.md).
+
+## Segmenten in de lijst met componenten in het linkerspoor {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 Het segmentspoor onder het menu van Componenten toont segmenten evenals segmentmalplaatjes, zoals die door deze pictogrammen worden bedoeld:
 
 ![](assets/segment_icons.png)
 
 [Segmenten gebruiken in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html) (6:46)
+
+## Ad-hocsegmenten (tijdelijk) in Analysis Workspace
+
+Hier volgt een video over ad-hocsegmenten:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
 ## Segmenten maken {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -62,8 +80,4 @@ Er bestaan verschillende andere methoden voor het toepassen van segmenten op een
 | Delen > Project delen of Delen > Projectgegevens krommen | In [Curate en Aandeel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), leer hoe de segmenten die u op het project toepast in gedeelde analyse voor de ontvanger beschikbaar zijn. |
 | Segmenten gebruiken als Dimension | Video: [Segmenten gebruiken als Dimension in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=en) |
 
-## Ad-hocsegmenten (tijdelijk) in Analysis Workspace
 
-Hier volgt een video over ad-hocsegmenten:
-
->[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
