@@ -2,12 +2,12 @@
 description: Nieuwe functies in Analysis Workspace.
 keywords: Analysis Workspace
 title: Nieuwe functies in Analysis Workspace
-feature: Basisprincipes van werkruimte
+feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
-source-wordcount: '8176'
+source-wordcount: '8174'
 ht-degree: 88%
 
 ---
@@ -359,7 +359,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 10 mei 2018.
    <td colname="col2"> <p>Rechtsonder in de interface vindt u de tips van de dag (samen met een korte video). Deze tips zijn bedoeld om u vertrouwd te maken met een groot aantal interessante functies van Analysis Workspace. U kunt deze tips desgewenst negeren. U kunt ze namelijk altijd later bekijken via <span class="uicontrol">Help</span> &gt; <span class="uicontrol">Tips</span>. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segmentsjablonen </a> en <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > sjablonen voor berekende standaarden </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Segmentsjablonen </a> en <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > sjablonen voor berekende standaarden </a></b> </p> </td> 
    <td colname="col2"> <p>De linkerrail biedt nu segmentsjablonen en sjablonen voor berekende standaarden. </p> </td> 
   </tr> 
   <tr> 
@@ -605,7 +605,7 @@ Nieuwe functies uitgebracht op 26 oktober 2017.
    <td colname="col2"> <p>Schakel nu eenvoudig tussen tijdsgranulariteiten wanneer de dimensie in de databron een tijddimensie is. U kunt de granulariteit instellen via een vervolgkeuzelijst in de visualisatie-instellingen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Volledige dimensies en gebeurtenissen in de neerzetzone voor een segment</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Volledige dimensies en gebeurtenissen in de neerzetzone voor een segment</a> </p> </td> 
    <td colname="col2"> <p>Voorheen kon u alleen dimensie-items, datumbereiken of segmenten plaatsen in de neerzetzone voor segmenten. Nu kunt u een volledige dimensie of gebeurtenis neerzetten. In beide gevallen maakt Analysis Workspace "Hit"-segmenten van het type "exists". </p> <p>Voorbeelden: "Hit where eVar1 exists" of "Hit where event1 exists". </p> <p>Opmerking: berekende standaarden kunnen niet in een segmentzone worden geplaatst. Alleen die dimensies/metrics waarvoor u segmenten kunt bouwen komen in aanmerking voor de segmentzone. </p> </td> 
   </tr> 
   <tr> 
@@ -935,7 +935,7 @@ Nieuwe functie uitgebracht op 19 januari 2017:
    <td colname="col2"> <p>Ondersteuning toegevoegd voor uitvalvisualisaties in CSV-indeling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Datumbereiken in segmenten </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Datumbereiken in segmenten </a> </p> </td> 
    <td colname="col2"> <p>U kunt datumbereiken plaatsen op neerzetzones voor segmenten (bijvoorbeeld zones voor deelvenstersegmenten, voor uitvalvisualisatiesegmenten enzovoort). De datumbereiken worden automatisch omgezet in segmenten. Bij de datumbereiken kan het gaan om aangepaste en niet-aangepaste waarden, maar niet om granulariteiten zoals uur/dag/week/maand/kwartaal/jaar. </p> </td> 
   </tr> 
   <tr> 
@@ -1058,7 +1058,7 @@ Nieuwe functies uitgebracht op 16 juni 2016:
 * [Trendselectie](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (lijndiagram) op een gerangschikte tabel is nu gekoppeld.
 * [Pictogram &quot;Create Visual&quot;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) (Zichtbaar maken): als u op dit pictogram klikt, wordt er een intelligente schatting gedaan van uw volgende handeling (staafdiagram, Venn...).
 * Uitgebreide functionaliteit voor [handmatige rijen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-* Neerzetzone voor [toevoegen van segment](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)
+* Neerzetzone voor [toevoegen van segment](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)
 * Kleine updates:
 
    * Optie om alle visualisaties in een deelvenster en alle deelvensters in een project te verwijderen. (Voorheen moest u minstens één visualisatie of één paneel behouden.)

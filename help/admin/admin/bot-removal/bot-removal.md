@@ -2,9 +2,9 @@
 title: Bot verwijderen in Adobe Analytics
 description: Bommen verwijderen in Adobe Analytics
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Als dit gegevenselement is ingesteld, volgt u [deze instructies](https://experie
 
 ### Stap 2: Segmentatie gebruiken om vlekken te identificeren
 
-Nu de ECID van uw bezoeker in een verklaarde identiteitskaart wordt overgegaan, kunt u [segmentatie in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) gebruiken om bezoekers te identificeren die als bots handelen. Bots worden vaak gedefinieerd door hun gedrag: één toegangsbezoek, ongebruikelijke gebruikersagenten, onbekende apparaat/browser informatie, geen referentie, nieuwe bezoekers, ongebruikelijke landingspagina&#39;s, enz. Gebruik de bevoegdheden van de boor-downs van de Werkruimte en segmentatie om de bots te identificeren die het filtreren IAB en uw de boomregels van de rapportsuite hebben omzeild. Hier ziet u bijvoorbeeld een schermafbeelding van een segment dat u kunt gebruiken:
+Nu de ECID van uw bezoeker in een verklaarde identiteitskaart wordt overgegaan, kunt u [segmentatie in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) gebruiken om bezoekers te identificeren die als bots handelen. Bots worden vaak gedefinieerd door hun gedrag: één toegangsbezoek, ongebruikelijke gebruikersagenten, onbekende apparaat/browser informatie, geen referentie, nieuwe bezoekers, ongebruikelijke landingspagina&#39;s, enz. Gebruik de bevoegdheden van de boor-downs van de Werkruimte en segmentatie om de bots te identificeren die het filtreren IAB en uw de boomregels van de rapportsuite hebben omzeild. Hier ziet u bijvoorbeeld een schermafbeelding van een segment dat u kunt gebruiken:
 
 ![](assets/bot-filter-seg1.png)
 
