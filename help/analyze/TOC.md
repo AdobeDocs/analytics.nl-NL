@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Adobe Analytics-dashboards, Report Builder en Activity Map.
-source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
+source-git-commit: 366e595d38124a767e2c0d0e4ce4bd8cf9683707
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 86%
+source-wordcount: '991'
+ht-degree: 85%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 86%
       + Segmenten {#segments}
          + [Segmenten maken](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Snelle segmenten](analysis-workspace/components/segments/quick-segments.md)
+         + [Ad-hocsegmenten](analysis-workspace/components/segments/ad-hoc-segments.md)
       + Kalender- en datumbereiken {#calendar-date-ranges}
          + [Overzicht van kalender- en datumbereiken](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Aangepaste datumbereiken maken](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)

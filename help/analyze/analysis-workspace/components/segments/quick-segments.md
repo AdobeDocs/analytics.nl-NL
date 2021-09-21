@@ -3,9 +3,9 @@ description: Gebruik snelle segmenten in Analysis Workspace.
 title: Snelle segmenten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
+source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,22 @@ U kunt snelle segmenten binnen een project tot stand brengen om de ingewikkeldhe
    ![](assets/quick-seg2.png)
 
 1. Klik **[!UICONTROL Apply]** om dit segment op het paneel toe te passen.
-Het segment wordt bovenaan weergegeven. Let op de grijze balk, in tegenstelling tot de blauwe balk voor componentniveausegmenten aan de linkerkant.
+Het segment wordt bovenaan weergegeven. Let op de grijze zijbalk, in tegenstelling tot de blauwe balk voor segmenten op componentniveau links.
 
    ![](assets/quick-seg3.png)
 
-1. In het snelsegment
+## Snelle segmenten openbaar maken
+
+U kunt ervoor kiezen om deze segmenten openbaar (algemeen) te maken door de volgende stappen uit te voeren:
+
+1. Houd de muisaanwijzer boven het snelsegment en klik op het pictogram &quot;i&quot;.
+1. Klik op **[!UICONTROL Open builder]**.
+Dit opent het segment in de Bouwer van het Segment.
+   >[!NOTE]
+   >Nadat u het segment hebt toegepast of opgeslagen in Segment Builder, kunt u het segment niet meer bewerken in de Quick Segment Builder.
+1. Klik op **[!UICONTROL OK]**.
+1. Klik in de Segment Builder op **[!UICONTROL Apply]**.
+1. Ga terug naar Workspace en zie hoe het segment nu een blauw zijpaneel heeft, wat aangeeft dat het segment deel uitmaakt van de componentbibliotheek.
+
+   ![](assets/quick-seg4.png)
+
