@@ -5,9 +5,9 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 65c955e25714591b8c4b2359969717d13626b322
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -56,4 +56,9 @@ Er bestaan verschillende andere methoden voor het toepassen van segmenten op een
 | Delen > Project delen of Delen > Projectgegevens krommen | In [Curate en Aandeel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), leer hoe de segmenten die u op het project toepast in gedeelde analyse voor de ontvanger beschikbaar zijn. |
 | Segmenten gebruiken als Dimension | Video: [Segmenten gebruiken als Dimension in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=en) |
 
+## Segment-IQ
 
+Segment-IQ omvat de volgende kenmerken:
+
+* [Het vergelijkingspaneel van het segment:](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) de kerneigenschap in Segment IQ. Sleep twee segmenten naar het deelvenster en bekijk een uitgebreid rapport met statistisch significante verschillen en overlappingen tussen de twee soorten publiek.
+* [Segmenten vergelijken in fallout:](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) Zie hoe verschillende soorten publiek met elkaar vergelijken in de context van een fallout-visualisatie.

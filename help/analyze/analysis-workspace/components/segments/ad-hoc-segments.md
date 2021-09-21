@@ -3,9 +3,9 @@ description: Gebruik ad-hocsegmenten in Analysis Workspace.
 title: Ad-hocsegmenten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 27c9a3f8f8faeda934827eac6797dd39ba7dd2ca
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,8 @@ Hier ziet u hoe u een segment voor het Twitter-verwijzende domein kunt maken:
 
    Dit segment wordt automatisch toegepast in uw deelvenster en u kunt de resultaten direct zien.
 
-1. Naar
+1. Voeg maximaal drie ad-hocsegmenten toe aan een deelvenster.
+1. Als u besluit dat u dit segment wilt opslaan, raadpleegt u de sectie &quot;Ad-hocsegmenten openbaar maken&quot;.
 
 Houd rekening met het volgende:
 
@@ -46,3 +47,4 @@ U kunt ervoor kiezen om deze segmenten openbaar (algemeen) te maken door de volg
 1. Klik in het informatievenster dat wordt weergegeven op **[!UICONTROL Make public]**.
 
    ![](assets/segment-info.png)
+
