@@ -3,9 +3,9 @@ description: Gebruik snelle segmenten in Analysis Workspace.
 title: Snelle segmenten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8cd5d5ec1525e29779a13330dfeaeae120dfdd56
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -39,3 +39,11 @@ U kunt snelle segmenten binnen een project tot stand brengen om de ingewikkeldhe
 
    Hier is een voorbeeld van een segment waarin afmetingen en metriek worden gecombineerd:
 
+   ![](assets/quick-seg2.png)
+
+1. Klik **[!UICONTROL Apply]** om dit segment op het paneel toe te passen.
+Het segment wordt bovenaan weergegeven. Let op de grijze balk, in tegenstelling tot de blauwe balk voor componentniveausegmenten aan de linkerkant.
+
+   ![](assets/quick-seg3.png)
+
+1. In het snelsegment

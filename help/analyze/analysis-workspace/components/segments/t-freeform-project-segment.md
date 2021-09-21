@@ -5,9 +5,9 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 0aee84be83b2e5916ecf6ffdd4171ed4ef612b5b
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 1%
 
 U kunt verschillende typen segmenten maken, afhankelijk van de complexiteit die ze moeten hebben, of ze alleen op dit project moeten worden toegepast, enzovoort. Hier volgt een overzicht van segmenttypen:
 
-| Segmenttype | Waar gemaakt? | Waar van toepassing? | Meerdere containers? | UI-kleur |
-| --- | --- | --- | --- |
-| Segment componentlijst | [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | Voor alle projecten, van links spoor | Ja | Blauw |
-| Snel segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Alleen projectniveau | Nee | Grijs? |
-| Ad-hocsegmenten: | Zie hieronder | Alleen projectniveau | Nee | ? |
-| - Ad hoc-projectsegment van Workspace | Slepen en neerzetten in segment? in een nieuw project |  |  |  |
-| - Op basis van cijfers berekend segment | Berekende metrische builder |  |  |  |
-| - op VRS gebaseerd segment | Samenstellen van virtuele rapportsuite |  |  |  |
-| - Segmentbouwer &quot;apply&quot; | Segment builder |  |  |  |
+| Segmenttype | Waar gemaakt? | Waar van toepassing? | Meerdere containers? |
+| --- | --- | --- | 
+| Segment componentlijst | [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | Alle projecten, links | Ja | Blauw |
+| Snel segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Alleen projectniveau | Nee |
+| Ad-hocsegmenten: | Zie hieronder | Alleen projectniveau | Nee |
+| - Ad hoc-projectsegment van Workspace | Slepen en neerzetten in segment? in een nieuw project |  |  |
+| - Op basis van cijfers berekend segment | Berekende metrische builder |  |  |
+| - op VRS gebaseerd segment | Samenstellen van virtuele rapportsuite |  |  |
+| - Segmentbouwer &quot;apply&quot; | Segment builder |  |  |
 
 Voor een diepgaande bespreking van segmentatie in Adobe Analytics, ga [hier](/help/components/segmentation/seg-overview.md).
 
