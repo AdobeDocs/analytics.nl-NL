@@ -5,9 +5,9 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -19,10 +19,10 @@ U kunt verschillende typen segmenten maken in Workspace, afhankelijk van hoe com
 
 | Segmenttype | Waar gemaakt? | Waar van toepassing? | Wanneer gebruiken |
 | --- | --- | --- | --- |
-| Segment componentlijst | Klik +, wat u aan [de Bouwer van het Segment ](/help/components/segmentation/segmentation-workflow/seg-build.md) neemt | Al uw projecten van de Werkruimte | Voor complexere segmenten, opeenvolgende segmenten |
-| Snel segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Het niveau van het project, maar kan sparen en aan uw segmentlijst toevoegen. | Flexibiliteit om een of meer regels toe te voegen/te bewerken |
+| Segment op lijst met componenten | Klik +, wat u aan [de Bouwer van het Segment ](/help/components/segmentation/segmentation-workflow/seg-build.md) neemt | Al uw projecten van de Werkruimte | Voor complexere segmenten, opeenvolgende segmenten |
+| Snel segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Flexibiliteit om een of meer regels toe te voegen/te bewerken |
 | Ad-hocsegmenten: |  |  |  |
-| - Ad-hoc projectsegment van de Werkruimte | [Sleep in segment dalingsstreek in een project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Het niveau van het project, maar kan sparen en aan uw segmentlijst toevoegen. | Voor standaardsegmenten met één regel (geen limiet) |
+| - Ad-hoc projectsegment van de Werkruimte | [Sleep in segment dalingsstreek in een project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Voor standaardsegmenten met één regel (geen limiet) |
 | - Op basis van cijfers berekend segment | [Berekende metrische builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Op berekende individuele metrieke waarde | Segment/s toepassen binnen uw metrische definitie |
 | - op VRS gebaseerd segment | [Samenstellen van virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Naar afzonderlijke virtuele rapportsuite | Segment/s toepassen binnen uw VRS-definitie |
 
@@ -38,7 +38,7 @@ In Analysis Workspace kunt u verschillende typen segmenten maken:
 * [Ad-hocsegmenten](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
 * De regelmatige segmenten van de componentenlijst die omhoog in de segmentbibliotheek (zie hieronder) beëindigen
 
-### Segmenten voor componentlijst maken {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
+### Segmenten maken voor lijsten met componenten {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 De segmentrail onder het menu Componenten toont
 * Segmenten die u of uw bedrijf heeft gemaakt

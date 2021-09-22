@@ -3,9 +3,9 @@ description: Gebruik snelle segmenten in Analysis Workspace.
 title: Snelle segmenten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Snelle segmenten
 
-U kunt snelle segmenten binnen een project tot stand brengen om de ingewikkeldheid van volledige [segmentbouwer](/help/components/segmentation/segmentation-workflow/seg-build.md) te mijden. Voor een vergelijking van wat de snelle segmenten tegenover volledige component-vlakke segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+U kunt snelle segmenten binnen een project tot stand brengen om de ingewikkeldheid van volledige [segmentbouwer](/help/components/segmentation/segmentation-workflow/seg-build.md) te mijden. Voor een vergelijking van wat de snelle segmenten versus volledig-afgewerkte component-lijst segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 >[!IMPORTANT]
 > Snelle segmenten worden momenteel beperkt getest en zijn nog niet algemeen beschikbaar.
@@ -56,7 +56,7 @@ Het segment wordt bovenaan weergegeven. Let op de grijze zijbalk in tegenstellin
 U kunt snelle segmenten opslaan door deze stappen te volgen.
 
 >[!IMPORTANT]
->Nadat u het segment hebt opgeslagen, kunt u het niet meer bewerken in de Quick Segment Builder, alleen in de gewone Segment Builder.
+>Zodra u sparen of het segment toepast, kunt u het niet meer uitgeven in de Snelle Bouwer van het Segment, slechts in de regelmatige Bouwer van het Segment.
 
 1. Houd de muisaanwijzer boven het snelsegment en selecteer het pictogram Info (&quot;i&quot;).
 1. **[!UICONTROL Save segment]** selecteren
@@ -65,13 +65,11 @@ U kunt snelle segmenten opslaan door deze stappen te volgen.
 
 1. Laat de naam ongewijzigd of wijzig de naam van het segment.
 
-1. Ga terug naar Workspace en zie hoe het segment nu een blauw zijpaneel heeft, wat aangeeft dat het segment deel uitmaakt van de componentbibliotheek.
+   Ga terug naar Workspace en zie hoe het segment nu een blauw zijpaneel heeft. Dit geeft aan dat het bestand niet langer kan worden bewerkt of geopend in de Quick Segment Builder. En door het op te slaan, wordt het onderdeel van de componentenlijst.
 
    ![](assets/quick-seg4.png)
 
-## Segmenten beschikbaar maken voor al uw projecten
-
-Nadat u het segment hebt bewaard, kunt u verkiezen om het aan uw lijst van de segmentcomponent toe te voegen en het ter beschikking te stellen van al uw projecten.
+Nadat u het segment hebt toegepast, kunt u verkiezen om het aan uw lijst van de segmentcomponent toe te voegen en het ter beschikking te stellen van al uw projecten.
 
 1. Houd de cursor boven het opgeslagen segment en selecteer het potloodpictogram.
 
@@ -81,13 +79,9 @@ Nadat u het segment hebt bewaard, kunt u verkiezen om het aan uw lijst van de se
 
 1. Selecteren naast **[!UICONTROL Make this segment available to all your projects and add it to your component list.]**
 1. Klik op **[!UICONTROL Save]**.
-1. Het segment zal nu in uw lijst van de segmentcomponent voor al uw projecten verschijnen.
-1. U kunt het segment ook [delen](/help/components/segmentation/segmentation-workflow/t-seg-share.md).
+1. Het segment verschijnt nu in uw lijst van de segmentcomponent voor al uw projecten.
+1. U kunt ook [het segment](/help/components/segmentation/segmentation-workflow/t-seg-share.md) met andere mensen in uw organisatie delen.
 
-## Een snel segment omzetten in een ad-hocsegment
+## Wat zijn projectgebonden segmenten?
 
-1. Houd de cursor boven het opgeslagen segment en selecteer het potloodpictogram.
-
-1. Bij de bovenkant van de Bouwer van het Segment, klik **[!UICONTROL Apply]**.
-
-Voor meer informatie over ad-hocsegmenten gaat u [hier](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
+De project-enige segmenten zijn of snelle segmenten of de projectsegmenten van de ad-hoc Werkruimte. Wanneer het uitgeven van/het openen van hen in de segmentbouwer dan zal het project-enige vakje verschijnen. Als ze een snel segment toepassen in de builder maar het selectievakje voor het beschikbaar stellen niet inschakelen, is het segment nog steeds een segment dat alleen in het project kan worden geopend, maar niet meer in de builder voor kwaliteitscontrole. Als zij de doos controleren en OPSLAAN is het nu een component-lijst segment.

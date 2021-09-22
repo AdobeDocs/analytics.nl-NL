@@ -3,23 +3,23 @@ description: Gebruik ad-hocsegmenten in Analysis Workspace.
 title: Ad-hocsegmenten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 1%
+source-wordcount: '368'
+ht-degree: 0%
 
 ---
 
 
-# Ad-hocsegmenten
+# Ad-hocprojectsegmenten
 
-Hier volgt een video over het maken van ad-hocsegmenten:
+Hier volgt een video over het maken van ad-hocprojectsegmenten:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-U kunt ad hoc segmenten tot stand brengen als u wilt snel onderzoeken hoe een segment uw project zou kunnen beïnvloeden, zonder naar de Bouwer van het Segment te gaan. Beschouw deze segmenten als tijdelijke segmenten op projectniveau. Ze maken normaal gesproken geen deel uit van uw segment &#39;bibliotheek&#39;, zoals componentsegmenten in de linkerrail. U kunt de bestanden echter opslaan, zoals hieronder wordt weergegeven.
+U kunt ad hoc projectsegmenten tot stand brengen als u wilt snel onderzoeken hoe een segment uw project zou kunnen beïnvloeden, zonder naar de Bouwer van het Segment te gaan. Beschouw deze segmenten als tijdelijke segmenten op projectniveau. Ze maken normaal gesproken geen deel uit van uw segment &#39;bibliotheek&#39;, zoals componentsegmenten in de linkerrail. U kunt de bestanden echter opslaan, zoals hieronder wordt weergegeven.
 
-Voor een vergelijking van welke ad-hoc segmenten versus volledig-afgewerkte component-vlakke segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+Voor een vergelijking van welke ad-hoc projectsegmenten versus volledig-afgewerkte component-vlakke segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 1. Zet om het even welk componenttype (afmeting, afmeting punt, gebeurtenis, metrisch, segment, segmentmalplaatje, datumwaaier) in de segment dalingsstreek bij de bovenkant van een paneel neer. Componenttypen worden automatisch omgezet in segmenten.
 Hier ziet u hoe u een segment voor het Twitter-verwijzende domein kunt maken:
@@ -41,7 +41,7 @@ Houd rekening met het volgende:
 >
 >Segmenten die op deze manier worden gemaakt, bevinden zich intern in het project.
 
-## Ad-hocsegmenten opslaan {#ad-hoc-save}
+## Ad-hocprojectsegmenten opslaan {#ad-hoc-save}
 
 U kunt deze segmenten opslaan door de volgende stappen uit te voeren:
 
@@ -50,3 +50,6 @@ U kunt deze segmenten opslaan door de volgende stappen uit te voeren:
 
    ![](assets/segment-info.png)
 
+## Wat zijn projectgebonden segmenten?
+
+De project-enige segmenten zijn of snelle segmenten of de projectsegmenten van de ad-hoc Werkruimte. Wanneer het uitgeven van/het openen van hen in de segmentbouwer dan zal het project-enige vakje verschijnen. Als ze een snel segment toepassen in de builder maar het selectievakje voor het beschikbaar stellen niet inschakelen, is het segment nog steeds een segment dat alleen in het project kan worden geopend, maar niet meer in de builder voor kwaliteitscontrole. Als zij de doos controleren en OPSLAAN is het nu een component-lijst segment.
