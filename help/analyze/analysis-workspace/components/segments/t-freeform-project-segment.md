@@ -5,12 +5,13 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 65c955e25714591b8c4b2359969717d13626b322
+source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
+
 
 # Segmenten {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
@@ -18,14 +19,16 @@ U kunt verschillende typen segmenten maken in Workspace, afhankelijk van hoe com
 
 | Segmenttype | Waar gemaakt? | Waar van toepassing? | Wanneer gebruiken |
 | --- | --- | --- | --- |
-| Segment componentlijst | [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | Algemeen/openbaar | Voor complexe segmenten, opeenvolgende segmenten |
-| Snel segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Projectniveau, maar kan openbaar maken | Flexibiliteit en controle om regels, namen en meerdere regels toe te voegen/te bewerken |
+| Segment componentlijst | Klik +, wat u aan [de Bouwer van het Segment ](/help/components/segmentation/segmentation-workflow/seg-build.md) neemt | Al uw projecten van de Werkruimte | Voor complexere segmenten, opeenvolgende segmenten |
+| Snel segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Het niveau van het project, maar kan sparen en aan uw segmentlijst toevoegen. | Flexibiliteit om een of meer regels toe te voegen/te bewerken |
 | Ad-hocsegmenten: |  |  |  |
-| - Ad hoc-projectsegment van Workspace | [Sleep in segment dalingsstreek in een project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Projectniveau, maar kan openbaar maken | Voor standaardsegmenten met één regel |
+| - Ad-hoc projectsegment van de Werkruimte | [Sleep in segment dalingsstreek in een project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Het niveau van het project, maar kan sparen en aan uw segmentlijst toevoegen. | Voor standaardsegmenten met één regel (geen limiet) |
 | - Op basis van cijfers berekend segment | [Berekende metrische builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Op berekende individuele metrieke waarde | Segment/s toepassen binnen uw metrische definitie |
 | - op VRS gebaseerd segment | [Samenstellen van virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Naar afzonderlijke virtuele rapportsuite | Segment/s toepassen binnen uw VRS-definitie |
 
-Voor een diepgaande bespreking van segmentatie in Adobe Analytics, ga [hier](/help/components/segmentation/seg-overview.md).
+Hier volgt een video over het gebruik van segmenten in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
 
 ## Segmenten maken {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -37,11 +40,22 @@ In Analysis Workspace kunt u verschillende typen segmenten maken:
 
 ### Segmenten voor componentlijst maken {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
-Het segmentspoor onder het menu van Componenten toont segmenten evenals segmentmalplaatjes, zoals die door deze pictogrammen worden bedoeld:
+De segmentrail onder het menu Componenten toont
+* Segmenten die u of uw bedrijf heeft gemaakt
+* Segmentsjablonen, zoals aangegeven door het Adobe-pictogram:
 
 ![](assets/segment_icons.png)
 
-[Segmenten gebruiken in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html) (6:46)
+Als u een segment van dit type wilt maken, hebt u twee opties. Beiden nemen u aan [de Bouwer van het Segment](/help/components/segmentation/segmentation-workflow/seg-build.md) in Adobe Analytics.
+
+* Klik in de linkertrack op het plusteken (+) naast [!UICONTROL Segments]:
+
+![](assets/create-seg.png)
+
+of
+
+* Ga naar [!UICONTROL Components] > [!UICONTROL Segments] en klik vervolgens op [!UICONTROL + Add].
+
 
 ### Andere methoden voor het toepassen van segmenten {#section_10FF2E309BA84618990EA5B473015894}
 
@@ -58,7 +72,11 @@ Er bestaan verschillende andere methoden voor het toepassen van segmenten op een
 
 ## Segment-IQ
 
-Segment-IQ omvat de volgende kenmerken:
+Segment-IQ (ook wel Segment Comparison genoemd) omvat de volgende kenmerken:
 
 * [Het vergelijkingspaneel van het segment:](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) de kerneigenschap in Segment IQ. Sleep twee segmenten naar het deelvenster en bekijk een uitgebreid rapport met statistisch significante verschillen en overlappingen tussen de twee soorten publiek.
 * [Segmenten vergelijken in fallout:](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) Zie hoe verschillende soorten publiek met elkaar vergelijken in de context van een fallout-visualisatie.
+
+## Meer informatie
+
+Voor een diepgaande bespreking van segmentatie in Adobe Analytics, ga [hier](/help/components/segmentation/seg-overview.md).
