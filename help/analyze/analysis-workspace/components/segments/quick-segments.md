@@ -3,9 +3,9 @@ description: Gebruik snelle segmenten in Analysis Workspace.
 title: Snelle segmenten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
+source-git-commit: ef232d1227430bb2430ca1da09756f5dd5106b1f
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -13,38 +13,39 @@ ht-degree: 0%
 
 # Snelle segmenten
 
-U kunt snelle segmenten binnen een project tot stand brengen om de ingewikkeldheid van volledige [segmentbouwer](/help/components/segmentation/segmentation-workflow/seg-build.md) te mijden. Voor een vergelijking van wat de snelle segmenten versus volledig-afgewerkte component-lijst segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+U kunt snelle segmenten binnen een project tot stand brengen om de ingewikkeldheid van volledige [segmentbouwer](/help/components/segmentation/segmentation-workflow/seg-build.md) te mijden. Voor een vergelijking van wat de snelle segmenten versus volledig-afgewerkte component-lijst segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md). De snelle segmenten staan voor maximaal 3 regels toe en passen geen genestelde containers, of opeenvolgende segmenten aan.
 
 >[!IMPORTANT]
 > Snelle segmenten worden momenteel beperkt getest en zijn nog niet algemeen beschikbaar.
 
 ## Snelle segmenten maken
 
-1. Klik in een tabel voor vrije vorm op het pictogram filter+ in de koptekst van het deelvenster:
+Klik in een tabel voor vrije vorm op het pictogram filter+ in de koptekst van het deelvenster:
 
-   ![](assets/quick-seg1.png)
+![](assets/quick-seg1.png)
 
-   Let op:
+| Instelling | Beschrijving |
+| --- | --- |
+| Naam | De standaardnaam van een segment is een combinatie van de regels in het segment. U kunt de naam van het segment wijzigen. |
+| Opnemen/uitsluiten | U kunt componenten in uw segmentdefinitie omvatten of uitsluiten, maar niet allebei. |
+| Handje/Bezoek/Bezoeker container | De snelle segmenten omvatten één [segmentcontainer](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) slechts die u een afmeting/metrisch/datumwaaier in (of het van) het segment laat uitsluiten. [!UICONTROL Visitor] bevat overkoepelende gegevens die specifiek zijn voor de bezoeker in verschillende bezoeken en paginaweergaven. Met een container [!UICONTROL Visit] kunt u regels instellen om de gegevens van de bezoeker op basis van bezoeken af te splitsen. Met een container [!UICONTROL Hit] kunt u bezoekersinformatie afsplitsen op basis van afzonderlijke paginaweergaven. De standaardcontainer is [!UICONTROL Hit]. |
+| Onderdelen (Dimension/metrisch/datumbereik) | Definieer maximaal 3 regels door de afmetingen van componenten en/of metriek en/of datumbereiken toe te voegen. Er zijn drie manieren om de juiste component te vinden:<ul><li>Begin het typen en [!UICONTROL Quick Segment] bouwer vindt automatisch de aangewezen component.</li><li>Gebruik de vervolgkeuzelijst om de component te zoeken.</li><li>Sleep componenten vanuit de linkerspoorstaaf.</li></ul> |
+| Operator | Gebruik het vervolgkeuzemenu om standaardoperatoren zoals `contains` en [!UICONTROL Distinct Count] te zoeken. |
+| plusteken (+) | Een andere regel toevoegen |
+| en/of kwalificaties | U kunt &quot;EN&quot;of &quot;OF&quot;bepalende eigenschappen aan de regels toevoegen, maar u kunt &quot;EN&quot;en &quot;OF&quot;in één enkele segmentdefinitie niet mengen. |
+| Toepassen | Pas dit segment toe op het deelvenster. |
+| Opbouwfunctie openen | Opent de Segment Builder. |
+| Annuleren | Annuleer dit snelle segment - pas het niet toe. |
+| Datumbereik | De validator gebruikt het datumbereik van het deelvenster voor het opzoeken van de gegevens. Maar elk datumbereik dat in een snel segment wordt toegepast, overschrijft het datumbereik van het deelvenster boven in het deelvenster. |
+| Voorvertoning (rechtsboven) | Hiermee kunt u zien of u een geldig segment hebt en hoe breed het segment is. Geeft de uitsplitsing aan van de gegevensset die u kunt verwachten wanneer u dit segment toepast. |
 
-   - Er is één segmentcontainer slechts die u een afmeting/metrisch/datumwaaier in (of het van) het segment laat uitsluiten laat omvatten.
-   - U kunt de container instellen op Actief, Bezoek of Bezoekerniveau. Standaard is Actief.
+Hier is een voorbeeld van een segment waarin afmetingen en metriek worden gecombineerd:
 
-1. Voeg op drie manieren een dimensie/metrisch/datumbereik toe:
+![](assets/quick-seg2.png)
 
-   - Begin te typen en [!UICONTROL Quick Segment builder] vindt automatisch de aangewezen component.
-   - Gebruik de vervolgkeuzelijst om de component te zoeken.
-   - Sleep componenten vanuit de linkerspoorstaaf.
-
-1. Geef de eerste regel op, bijvoorbeeld `Page equals workspace`. U kunt tot drie regels in een segmentdefinities hebben. Klik op het plusteken (+) om een andere regel toe te voegen. U kunt &quot;EN&quot;of &quot;OF&quot;bepalende eigenschappen aan de regels toevoegen, maar u kunt &quot;EN&quot;en &quot;OF&quot;in één enkele segmentdefinitie niet mengen.
-
-   Hier is een voorbeeld van een segment waarin afmetingen en metriek worden gecombineerd:
-
-   ![](assets/quick-seg2.png)
-
-1. Klik **[!UICONTROL Apply]** om dit segment op het paneel toe te passen.
 Het segment wordt bovenaan weergegeven. Let op de grijze zijbalk in tegenstelling tot de blauwe zijbalk voor segmenten op componentniveau in de segmentbibliotheek aan de linkerkant.
 
-   ![](assets/quick-seg3.png)
+![](assets/quick-seg3.png)
 
 ## Snel segmenten bewerken
 
@@ -53,7 +54,7 @@ Het segment wordt bovenaan weergegeven. Let op de grijze zijbalk in tegenstellin
 
 ## Snelle segmenten opslaan
 
-U kunt snelle segmenten opslaan door deze stappen te volgen.
+U kunt snelle segmenten opslaan in de constructor Quick Segments of door deze stappen uit te voeren.
 
 >[!IMPORTANT]
 >Zodra u sparen of het segment toepast, kunt u het niet meer uitgeven in de Snelle Bouwer van het Segment, slechts in de regelmatige Bouwer van het Segment.
