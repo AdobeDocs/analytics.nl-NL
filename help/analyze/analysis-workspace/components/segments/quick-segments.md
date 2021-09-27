@@ -3,9 +3,9 @@ description: Gebruik snelle segmenten in Analysis Workspace.
 title: Snelle segmenten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 5ac3b11c559b03df2c08efc5a1a64c76ee1cf28e
+source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -107,4 +107,4 @@ Nadat u het segment hebt toegepast, kunt u verkiezen om het aan uw lijst van de 
 
 ## Wat zijn projectgebonden segmenten?
 
-De project-enige segmenten zijn of snelle segmenten of de projectsegmenten van de ad-hoc Werkruimte. Wanneer het uitgeven van/het openen van hen in de Bouwer van het Segment, zal het project-enige vakje verschijnen. Als u een snel segment toepast in de builder maar niet het vakje ter beschikking stellen controleert, dan is het nog een project-slechts segment maar het kan niet meer in de Snelle Bouwer van het Segment worden geopend. Als u het vakje en SAVE controleert, is het nu een component-lijst segment.
+De project-enige segmenten zijn of snelle segmenten of de projectsegmenten van de ad-hoc Werkruimte. Wanneer het uitgeven van/het openen van hen in [!UICONTROL Segment Builder], zal het project-enige vakje verschijnen. Als u een snel segment toepast in de builder maar niet het vakje ter beschikking stellen controleert, dan is het nog een project-slechts segment maar het kan niet meer in [!UICONTROL Quick Segment Builder] worden geopend. Als u het vakje controleert en **[!UICONTROL SAVE]** klikt, is het nu een component-lijst segment.
