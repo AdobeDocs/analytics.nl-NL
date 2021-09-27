@@ -3,9 +3,9 @@ description: Gebruik snelle segmenten in Analysis Workspace.
 title: Snelle segmenten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
+source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '881'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Het segment wordt bovenaan weergegeven. Let op de zijbalk met een blauw streepje
 
 ## Snelle segmenten opslaan
 
-U kunt ervoor kiezen om snelle segmenten op te slaan in de constructor Snel segment of in de Segment Builder.
+U kunt snelle segmenten opslaan in [!UICONTROL Quick Segment Builder] of in [!UICONTROL Segment Builder].
 
 >[!IMPORTANT]
 >Zodra u sparen of het segment toepast, kunt u het niet meer uitgeven in de Snelle Bouwer van het Segment, slechts in de regelmatige Bouwer van het Segment.
