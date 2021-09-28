@@ -1,10 +1,10 @@
 ---
-title: Tijd van afspelen media besteed deelvenster
+title: Media afspelen tijd besteed, deelvenster
 description: Het deelvenster Media Playback Time Spent in Analysis Workspace gebruiken en interpreteren.
 feature: Panels
 role: User, Admin
 exl-id: null
-source-git-commit: c799efba2ddffc3f419fdac4187355d33e78a9ca
+source-git-commit: 74ef44c4afba6d2dffb2b10fa473baee3be16a23
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 0%
