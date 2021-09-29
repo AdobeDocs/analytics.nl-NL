@@ -3,10 +3,10 @@ description: Gebruik snelle segmenten in Analysis Workspace.
 title: Snelle segmenten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
+source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 1%
 
 U kunt snelle segmenten binnen een project tot stand brengen om de ingewikkeldheid van volledige [segmentbouwer](/help/components/segmentation/segmentation-workflow/seg-build.md) te mijden. Snelle segmenten
 
-* Alleen toepassen op specifieke projecten (u kunt dit wijzigen).
-* Maximaal 3 regels toestaan
+* Alleen van toepassing op projecten waarin ze zijn gemaakt (u kunt dit wijzigen).
+* Sta voor maximaal 3 regels toe.
 * Plaats geen geneste containers of opeenvolgende regels.
-* Werken in deelvensters met meerdere rapportsuites
+* Werken in projecten met meerdere rapportsuites.
 
 Voor een vergelijking van wat de snelle segmenten versus volledig-afgewerkte component-lijst segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 

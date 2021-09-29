@@ -2,9 +2,9 @@
 title: Unieke apparaten
 description: Het aantal unieke apparaten.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 407111f6016fe8595f1d5c3464e36dfd4d314630
+source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,7 @@ Merk op dat deze metrische waarde niet aan [Unieke Bezoekers](unique-visitors.md
 
 ![Aantal unieke apparaten](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-Het bekijken van deze gegevens in een virtuele CDA rapportreeks alvorens [Replay](/help/components/cda/replay.md) zou tonen:
+Het bekijken van deze gegevens in een virtuele CDA rapportreeks alvorens [Replay](/help/components/cda/replay.md) potentieel stitches unauthenticated hits zouden tonen:
 
 * **5 unieke apparaten**: 1 voor niet-geverifieerd Bob + 2 voor Bob + 1 voor Alice + 1 voor Charles
 * **4  [Personen](people.md)**: 1  [Niet-geïdentificeerde personen](unidentified-people.md) + 3  [geïdentificeerde personen](identified-people.md).
-

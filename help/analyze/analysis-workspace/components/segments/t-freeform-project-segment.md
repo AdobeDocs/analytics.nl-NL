@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 63f833ffb3578614d7148bfcc6c786d4ddc8a2a8
+source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ U kunt verschillende typen segmenten maken in Workspace, afhankelijk van hoe com
 | Segment op lijst met componenten | Klik +, wat u aan [de Bouwer van het Segment ](/help/components/segmentation/segmentation-workflow/seg-build.md) neemt | Al uw projecten van de Werkruimte | Voor complexere segmenten, opeenvolgende segmenten |
 | Snel segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Flexibiliteit om een of meer regels toe te voegen/te bewerken |
 | Ad-hocsegmenten: |  |  |  |
-| - Ad-hoc projectsegment van de Werkruimte | [Sleep in segment dalingsstreek in een project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Voor segmenten met één regel (geen limiet) |
+| - Ad-hoc projectsegment van de Werkruimte | [Sleep in segment dalingsstreek in een project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Alleen project, maar u kunt het segment opslaan en toevoegen aan uw segmentlijst. | Voor segmenten met één regel |
 | - Op basis van cijfers berekend segment | [Berekende metrische builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Op berekende individuele metrieke waarde | Segment/s toepassen binnen uw metrische definitie |
 | - op VRS gebaseerd segment | [Samenstellen van virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Naar afzonderlijke virtuele rapportsuite | Segment/s toepassen binnen uw VRS-definitie |
 

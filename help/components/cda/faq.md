@@ -2,9 +2,9 @@
 title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over apparaatanalyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
+source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -128,8 +128,8 @@ CDA gebruikt een complexe parallelle verwerkingspijpleiding, met veelvoudige afh
 
 Het aantal metrisch van &quot;Geïdentificeerde Mensen&quot;kan lichtjes hoger zijn als de herkenningsteken prop/waarde in een [knoeiboelbotsing](/help/implement/validate/hash-collisions.md) loopt.
 
-Het aantal metrische waarden voor &#39;Identified People&#39; kan aanzienlijk hoger zijn als id prop/eVar hoofdlettergevoelig is. `bob` en `Bob` worden bijvoorbeeld verondersteld om de zelfde persoon te zijn, maar de gevalgevoeligheid dwingt deze twee waarden om verschillend te zijn.
+Voor op veld gebaseerde stitching is de aangepaste id-variabele hoofdlettergevoelig. Het aantal van metrische waarden &quot;Identified People&quot;kan beduidend hoger zijn als de herkenningswaarden niet geval aanpassen. Als bijvoorbeeld `bob` en `Bob` worden verzonden en verwacht dezelfde persoon te zijn, interpreteert CDA deze twee waarden als afzonderlijk.
 
-## Waarom zie ik waarden wanneer het bekijken van het herkenningsteken prop/eVar met de metrische &quot;Niet-geïdentificeerde Mensen&quot;?
+## Waarom zie ik bij het bekijken van de id prop/eVar niet-nul waarden voor de &#39;Unidentified People&#39;-meting?
 
-Deze situatie komt gewoonlijk voor wanneer een bezoeker zowel voor authentiek verklaarde als niet voor authentiek verklaarde klusjes in het rapporteringsvenster produceert en [Replay](replay.md) nog niet in werking heeft gesteld. Voordat de bezoeker opnieuw wordt afgespeeld, behoort hij tot de dimensies &#39;Niet-geïdentificeerd&#39; en &#39;Identified&#39; in de [Geïdentificeerde status](/help/components/dimensions/identified-state.md), waardoor sommige bezoekers niet-geïdentificeerde hits aan een id kunnen toewijzen. Bezoekers blijven in deze status totdat de replay wordt uitgevoerd (dagelijks of wekelijks, afhankelijk van hoe uw organisatie CDA instelt). Het runnen van rapporten over slechts na-replay gegevens verlicht deze situatie.
+Deze situatie komt gewoonlijk voor wanneer een bezoeker zowel voor authentiek verklaarde als niet voor authentiek verklaarde klusjes in het rapporteringsvenster produceert. De bezoeker behoort tot zowel &#39;Unidentified&#39; als &#39;Identified&#39; in de [Identified State](/help/components/dimensions/identified-state.md)-dimensie, waardoor een kenmerk van niet-geïdentificeerde hits wordt toegewezen aan een id. Dit scenario kan veranderen na [Replay](replay.md) looppas, afhankelijk van replay frequentie en succestarief.
