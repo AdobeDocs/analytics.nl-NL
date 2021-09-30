@@ -3,10 +3,10 @@ description: Gebruik snelle segmenten in Analysis Workspace.
 title: Snelle segmenten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '833'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Voor een vergelijking van wat de snelle segmenten versus volledig-afgewerkte com
 
 ## Vereisten
 
-Gebruikers hebben de [!UICONTROL Segment Creation]-machtiging in de [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) nodig om snelle segmenten te kunnen maken.
+Iedereen kan een [!UICONTROL Quick Segment] creëren. Nochtans, hebt u [!UICONTROL Segment Creation] toestemming in [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) nodig om een snelle segmenten te kunnen bewaren of het in [!UICONTROL Segment Builder] te openen.
 
 ## Snelle segmenten maken
 
@@ -56,7 +56,7 @@ Hier is een voorbeeld van een segment waarin afmetingen en metriek worden gecomb
 
 Het segment wordt bovenaan weergegeven. Let op de zijbalk met een blauw streepjespatroon, in tegenstelling tot de blauwe zijbalk voor segmenten op componentniveau in de segmentbibliotheek aan de linkerkant.
 
-![](assets/quick-seg3.png)
+![](assets/quick-seg5.png)
 
 ## Snel segmenten bewerken
 
@@ -73,24 +73,15 @@ U kunt snelle segmenten opslaan in [!UICONTROL Quick Segment Builder] of in [!UI
 ### Opslaan in de builder van Quick Segment
 
 1. Zodra u het snelle segment hebt toegepast, houdt u de muisaanwijzer boven het segment en selecteert u het pictogram Info (&quot;i&quot;).
+
+   ![](assets/quick-seg6.png)
+
 1. Klik op **[!UICONTROL Make available to all projects and add to your component list]**.
 1. (Optioneel) Wijzig de naam van het segment.
 1. Klik op **[!UICONTROL Save]**.
 
 U ziet hoe de zijbalk van het segment verandert van gestreept blauw in blauw. Het wordt nu weergegeven in uw lijst met componenten in de linkerrails.
 
-### Opslaan in Segment Builder
-
-1. Houd de muisaanwijzer boven het snelsegment en selecteer het pictogram Info (&quot;i&quot;).
-1. **[!UICONTROL Save segment]** selecteren
-
-   ![](assets/save-quick-seg.png)
-
-1. Laat de naam ongewijzigd of wijzig de naam van het segment.
-
-   Ga terug naar Workspace en zie hoe het segment nu een blauw zijpaneel heeft. Dit geeft aan dat het bestand niet langer kan worden bewerkt of geopend in de Quick Segment Builder. En door het op te slaan, wordt het onderdeel van de componentenlijst.
-
-   ![](assets/quick-seg4.png)
 
 Nadat u het segment hebt toegepast, kunt u verkiezen om het aan uw lijst van de segmentcomponent toe te voegen en het ter beschikking te stellen van al uw projecten.
 

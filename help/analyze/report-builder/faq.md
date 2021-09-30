@@ -4,9 +4,9 @@ description: Veelgestelde vragen over Report Builder.
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ Als alternatief voor het gebruiken van deze functies van Excel, adviseert Adobe 
 
 Report Builder ondersteunt werkboeken tot de volgende limieten:
 
-* **1000 verzoeken**: Een werkboek kan tot 1000 gegevensverzoeken in één enkel werkboek bevatten. Als u rapporten of projecten hebt die meer dan 1000 verzoeken vereisen, adviseert Adobe om hen te scheiden in veelvoudige werkboeken.
+* **1000 verzoeken**: Één enkel werkboek kan tot 1000 gegevensverzoeken bevatten. Als u rapporten of projecten hebt die meer dan 1000 verzoeken vereisen, adviseert Adobe om hen te scheiden in veelvoudige werkboeken.
 * **20.000 aanvragen per uur per bedrijf**: Report Builder gebruikt de API voor analyserapportage om gegevens op te halen. Elke individuele aanvraag gebruikt een API-aanroep wanneer deze wordt gemaakt of vernieuwd. Als uw organisatie meer dan 20.000 API vraag in een bepaald uur accumuleert, moet u tot het volgende uur wachten om gegevens opnieuw terug te winnen.
-* **4-uurs verwerkingstijd**: Geplande time-out rapporten na verwerking langer dan 4 uur. Als uw werkboek vele complexe verzoeken gebruikend grote gegevensreeksen bevat, kan het geplande rapport ontbreken.
+* **4-uurs verwerkingstijd**: De geplande tijd van rapporten uit na verwerking meer dan 4 uren. Als uw werkboek vele complexe verzoeken gebruikend grote gegevensreeksen bevat, kan het geplande rapport ontbreken.
