@@ -3,9 +3,9 @@ description: Gebruik snelle segmenten in Analysis Workspace.
 title: Snelle segmenten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 34824daca188119bfe366fea101053f2547a2f6d
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -61,16 +61,13 @@ Het segment wordt bovenaan weergegeven. Let op de zijbalk met een blauw streepje
 ## Snel segmenten bewerken
 
 1. Houd de cursor boven het snelle segment en selecteer het potloodpictogram.
-1. Bewerk de segmentdefinitie of de segmentnaam.
+1. Bewerk de segmentdefinitie en/of de segmentnaam.
+1. Klik op [!UICONTROL Apply].
 
 ## Snelle segmenten opslaan
 
-U kunt snelle segmenten opslaan in [!UICONTROL Quick Segment Builder] of in [!UICONTROL Segment Builder].
-
 >[!IMPORTANT]
 >Zodra u sparen of het segment toepast, kunt u het niet meer uitgeven in de Snelle Bouwer van het Segment, slechts in de regelmatige Bouwer van het Segment.
-
-### Opslaan in de builder van Quick Segment
 
 1. Zodra u het snelle segment hebt toegepast, houdt u de muisaanwijzer boven het segment en selecteert u het pictogram Info (&quot;i&quot;).
 
@@ -81,20 +78,6 @@ U kunt snelle segmenten opslaan in [!UICONTROL Quick Segment Builder] of in [!UI
 1. Klik op **[!UICONTROL Save]**.
 
 U ziet hoe de zijbalk van het segment verandert van gestreept blauw in blauw. Het wordt nu weergegeven in uw lijst met componenten in de linkerrails.
-
-
-Nadat u het segment hebt toegepast, kunt u verkiezen om het aan uw lijst van de segmentcomponent toe te voegen en het ter beschikking te stellen van al uw projecten.
-
-1. Houd de cursor boven het opgeslagen segment en selecteer het potloodpictogram.
-
-1. Boven aan de Segment Builder ziet u dit dialoogvenster:
-
-   ![](assets/project-only.png)
-
-1. Selecteren naast **[!UICONTROL Make this segment available to all your projects and add it to your component list.]**
-1. Klik op **[!UICONTROL Save]**.
-1. Het segment verschijnt nu in uw lijst van de segmentcomponent voor al uw projecten.
-1. U kunt ook [het segment](/help/components/segmentation/segmentation-workflow/t-seg-share.md) met andere mensen in uw organisatie delen.
 
 ## Wat zijn projectgebonden segmenten?
 
