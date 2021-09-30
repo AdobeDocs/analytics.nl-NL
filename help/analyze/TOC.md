@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Adobe Analytics-dashboards, Report Builder en Activity Map.
-source-git-commit: d395feb9a2d08f1c9e670d593b250c2d9bfa83f5
+source-git-commit: b3ed242a677ada3eef61b79ecb4167d834ee132e
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 85%
+source-wordcount: '1005'
+ht-degree: 84%
 
 ---
 
@@ -312,6 +312,8 @@ ht-degree: 85%
 + Adobe Analytics-dashboards {#mobapp}
    + [Adobe Analytics-dashboards - overzicht](mobile-app/home.md)
    + [Curator-handleiding](mobile-app/curator.md)
+   + [Een scorecard maken](mobile-app/create-scorecard.md)
+   + [Stel managers in om scorecards te gebruiken](mobile-app/set-up-execs.md)
    + [Snelle handleiding voor executive gebruikers](mobile-app/executive.md)
 + [API voor rapportage](reporting-api.md)
 + [Labs](labs.md)
