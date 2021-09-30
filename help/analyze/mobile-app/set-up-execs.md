@@ -3,9 +3,9 @@ description: Een scorecard voor analytische dashboards maken
 title: Een scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1015'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,20 @@ ht-degree: 0%
 
 In sommige gevallen hebben uitvoerende gebruikers wellicht extra hulp nodig om de app te openen en te gebruiken. Deze sectie verstrekt informatie om u te helpen die hulp verlenen.
 
-## Systeemvereisten voor de uitvoerende gebruikers
+## Zorg ervoor dat gebruikers van apps toegang hebben tot Adobe Analytics
+
+1. Stel nieuwe gebruikers in de [Experience Cloud Admin Console](/help/admin/admin-console/permissions/product-profile.md) in.
+
+1. Om scorecards te kunnen delen, moet u app gebruikers toestemmingen verlenen om tot scorecard componenten zoals Analysis Workspace, de rapportsuites toegang te hebben die scorecards op, evenals segmenten, metriek en dimensies gebaseerd zijn.
+
+## Systeemvereisten voor gebruikers van de app
 
 Om ervoor te zorgen dat de uitvoerende gebruikers toegang tot uw scorecards op app hebben, zorg ervoor dat:
 
 * De minimale vereisten voor mobiele besturingssystemen op hun apparaten zijn iOS versie 10 of hoger, of Android versie 4.4 (KitKat) of hoger
-* Ze hebben een geldige aanmelding bij Adobe Analytics
-* U hebt op de juiste wijze mobiele scoreborden voor hen gemaakt en deze scoreborden met hen gedeeld
-* Ze hebben toegang tot Analysis Workspace en de rapportensuite waarop het scorebord is gebaseerd
-* Zij hebben toegang tot de Componenten die het Scorecard omvat. U kunt een optie selecteren wanneer u uw scoreborden deelt naar **[!UICONTROL Share embedded components]**.
+* Ze hebben een geldige aanmelding bij Adobe Analytics.
+* U hebt op de juiste wijze mobiele scorecards voor hen gemaakt en deze scorecards met hen gedeeld.
+* Zij hebben toegang tot de Componenten die scorecard omvat. Merk op dat u een optie kunt selecteren wanneer het delen van uw scorecards aan **[!UICONTROL Share embedded components]**.
 
 ## Help-managers om app te downloaden en installeren
 
