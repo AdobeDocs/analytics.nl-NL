@@ -3,7 +3,7 @@ description: Een scorecard voor analytische dashboards maken
 title: Een scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Zodra gedownload en geïnstalleerd, kunnen de uitvoerende gebruikers zich in app
 
 ![Welkomstscherm van app](assets/welcome.png)
 
-## Help managers toegang te krijgen tot uw scorebord
+## Help managers toegang te krijgen tot uw scorecard
 
 1. Gebruikers met een zelfstudie moeten zich aanmelden bij de app.
 

@@ -3,15 +3,19 @@ description: Een Adobe Analytics-dashboards scorecard maken
 title: Een scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
 
 
 # Een scorecard maken
+
+De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Als u wilt beginnen met, kunt u de video van de Adobe Analytics-dashboards Scorecard Builder bekijken:
+
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 Een Adobe Analytics-scorecard toont belangrijke gegevensvisualisaties voor uitvoerende gebruikers in een getimede lay-out, zoals hieronder getoond:
 
@@ -21,16 +25,16 @@ Als curator van dit scorecard, kunt u de Scorecard Bouwer gebruiken om te vormen
 
 ![Scorecard Builder](assets/scorecard_builder.png)
 
-Als u het scorebord wilt maken, moet u het volgende doen:
+U moet het volgende doen om het scorebord te maken:
 
 1. Open de sjabloon [!UICONTROL Blank Mobile Scorecard].
 2. Configureer het scorebord met gegevens en sla het op.
 
 ## Toegang krijgen tot de sjabloon [!UICONTROL Blank Mobile Scorecard]
 
-U kunt tot het [!UICONTROL Blank Mobile Scorecard] malplaatje op één van de volgende manieren toegang hebben:
+U kunt tot het [!UICONTROL Blank Mobile Scorecard] malplaatje of toegang hebben door een nieuw project, of van het menu van Hulpmiddelen te creëren.
 
-**Een nieuw project maken**
+### Een nieuw project maken
 
 1. Open Adobe Analytics en klik op het tabblad **[!UICONTROL Workspace]**.
 1. Klik **[!UICONTROL Create project]** en selecteer **[!UICONTROL Blank mobile scorecard]** projectmalplaatje.
@@ -38,7 +42,7 @@ U kunt tot het [!UICONTROL Blank Mobile Scorecard] malplaatje op één van de vo
 
 ![Scorecard-sjabloon](assets/new_template.png)
 
-of
+### Sjabloon voor gereedschappen
 
 1. Selecteer **[!UICONTROL Analytics dashboards (Mobile App)]** in het menu **[!UICONTROL Tools]**.
 1. Klik op de knop **[!UICONTROL Create new scorecard]** in het volgende scherm.
@@ -58,52 +62,71 @@ Het scorebordsjabloon implementeren:
 
    *Van elke tegel, kunt u tot een gedetailleerde mening toegang hebben die extra informatie over metrisch, zoals hoogste punten voor een lijst van verwante afmetingen toont.*
 
+### Afmetingen of metingen toevoegen
 
-1. Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept u een afmeting uit het linkerdeelvenster en zet u deze op een tegel neer. U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL DMA Region]** in dit voorbeeld) toevoegen aan de **[!UICONTROL Unique Visitors]**-meting door deze naar de tegel te slepen en neer te zetten; De afmetingen die u toevoegt, worden weergegeven onder de sectie voor de verdeling van de tegelspecifieke **[!UICONTROL Properties]**. U kunt meerdere afmetingen aan elke tegel toevoegen.
+Een gerelateerde dimensie toevoegen aan een metrische waarde:
 
-   ![Afmetingen toevoegen](assets/layer_dimensions.png)
+Sleep een afmeting van het linkerpaneel en zet het op een tegel neer.
 
-   Wanneer u op een tegel in de Scorecard Builder klikt, toont het rechtse spoor de eigenschappen en de kenmerken verbonden aan die tegel. In deze rail, kunt u nieuwe **[!UICONTROL Title]** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
+U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL DMA Region]** in dit voorbeeld) toevoegen aan de **[!UICONTROL Unique Visitors]**-meting door deze naar de tegel te slepen en neer te zetten; De afmetingen die u toevoegt, worden weergegeven onder de sectie voor de verdeling van de tegelspecifieke **[!UICONTROL Properties]**. U kunt meerdere afmetingen aan elke tegel toevoegen.
 
-   ![Eigenschappen, tegel](assets/properties_tile.png)
+![Afmetingen toevoegen](assets/layer_dimensions.png)
 
-   Als u op tegels klikt, wordt in een dynamische pop-up ook weergegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen afmeting op de tegel is toegepast, is de afbraakdimensie **hour** of **days**, afhankelijk van het standaarddatumbereik.
+### Eigenschappen van tegels weergeven en configureren
 
-   ![Onderverdeling_weergave](assets/break_view.png)
+Wanneer u in de Scorecard Builder op een tegel klikt, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel zijn gekoppeld. In deze rail, kunt u nieuwe **[!UICONTROL Title]** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
 
-   Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
+![Eigenschappen, tegel](assets/properties_tile.png)
 
-1. Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer. Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [configureert en past filters voor uw Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) op dezelfde manier toe als in Adobe Analytics Workspace.
+Als u op tegels klikt, wordt in een dynamische pop-up ook weergegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen afmeting op de tegel is toegepast, is de afbraakdimensie **hour** of **days**, afhankelijk van het standaarddatumbereik.
 
-   ![Segmenten maken voor filter](assets/segment_ui.png)
+![Onderverdeling_weergave](assets/break_view.png)
 
-1. Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door **x** te klikken die verschijnt wanneer u over de component, zoals hieronder voor **Eerste Bezoekingen** segment toont:
+Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
 
-   ![Remove_components](assets/new_remove.png)
+### Segmenten toepassen
 
-1. U kunt combinaties van datumbereiken toevoegen en verwijderen die u in uw scorecard kunt selecteren door de vervolgkeuzelijst met datumbereiken te selecteren.
+Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer.
 
-   ![Nieuwe scorekaart](assets/new_score_card.png)
+Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [configureert en past filters voor uw Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) op dezelfde manier toe als in Adobe Analytics Workspace.
 
-   Elke nieuwe scorecard begint met 6 datumwaaiercombinaties die zich op de gegevens van vandaag en gisteren concentreren. U kunt overbodige datumbereiken verwijderen door op de x te klikken of u kunt elke datumbereikcombinatie bewerken door op het potlood te klikken.
+![Segmenten maken voor filter](assets/segment_ui.png)
 
-   ![Nieuwe scorekaart2](assets/new_score_card2.png)
+### Componenten verwijderen
 
-   Als u een primaire datum wilt maken of wijzigen, gebruikt u de vervolgkeuzelijst om een van de beschikbare datumbereiken te selecteren of sleept u een datumcomponent van de rechterrail naar de neerzetzone.
+Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door **x** te klikken die verschijnt wanneer u over de component, zoals hieronder voor **Eerste Bezoekingen** segment toont:
 
-   ![Nieuwe scorekaart3](assets/new_score_card3.png)
+![Remove_components](assets/new_remove.png)
 
-   Als u een vergelijkingsdatum wilt maken, kunt u een keuze maken uit handige voorinstellingen voor algemene tijdvergelijkingen in het keuzemenu. U kunt ook een datumcomponent slepen en neerzetten vanaf de rechterrail.
+### Datumbereiken
 
-   ![Nieuwe scorekaart4](assets/new_score_card4.png)
+U kunt combinaties van datumbereiken toevoegen en verwijderen die u in uw scorecard kunt selecteren door de vervolgkeuzelijst met datumbereiken te selecteren.
 
-   Als het gewenste datumbereik nog niet is gemaakt, kunt u een nieuw datumbereik maken door op het kalenderpictogram te klikken.
+![Nieuwe scorekaart](assets/new_score_card.png)
 
-   ![Nieuwe scorekaart4](assets/new_score_card5.png)
+Elke nieuwe scorecard begint met 6 datumwaaiercombinaties die zich op de gegevens van vandaag en gisteren concentreren. U kunt overbodige datumbereiken verwijderen door op de x te klikken of u kunt elke datumbereikcombinatie bewerken door op het potlood te klikken.
 
-1. Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component voor het datumbereik kunt maken en opslaan. Als u het scorebord een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
+![Nieuwe scorekaart2](assets/new_score_card2.png)
 
-   ![Naming_Scorecards](assets/new_name.png)
+Als u een primaire datum wilt maken of wijzigen, gebruikt u de vervolgkeuzelijst om een van de beschikbare datumbereiken te selecteren of sleept u een datumcomponent van de rechterrail naar de neerzetzone.
+
+![Nieuwe scorekaart3](assets/new_score_card3.png)
+
+Als u een vergelijkingsdatum wilt maken, kunt u een keuze maken uit handige voorinstellingen voor algemene tijdvergelijkingen in het keuzemenu. U kunt ook een datumcomponent slepen en neerzetten vanaf de rechterrail.
+
+![Nieuwe scorekaart4](assets/new_score_card4.png)
+
+Als het gewenste datumbereik nog niet is gemaakt, kunt u een nieuw datumbereik maken door op het kalenderpictogram te klikken.
+
+![Nieuwe scorekaart5](assets/new_score_card5.png)
+
+Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component voor het datumbereik kunt maken en opslaan.
+
+## Een scorecard een naam geven
+
+Als u het scorebord een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
+
+![Naming_Scorecards](assets/new_name.png)
 
 ## De scorecard delen
 

@@ -1,12 +1,12 @@
 ---
 description: Instructies voor het gebruik van de dashboards scorecards.
 title: Handleiding voor Adobe Analytics-dashboards
-feature: Analysedashboards
+feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,11 @@ ht-degree: 0%
 
 De volgende informatie biedt handige gebruikers informatie over aanbevolen procedures voor het gebruik en weergeven van Adobe Analytics-dashboards. Zie [Adobe Analytics dashboards In-App Experience](https://youtu.be/QXqQ_PkArbA) voor een video waarin deze informatie wordt getoond.
 
-
 ## Inleiding
 
 Adobe Analytics-dashboards bieden altijd en overal inzicht vanuit Adobe Analytics.  Met de app hebben gebruikers mobiele toegang tot intuïtieve scorecards. Scorecards zijn een inzameling van zeer belangrijke metriek en andere componenten die in een tegellay-out worden voorgesteld die u voor meer gedetailleerde onderverdelingen en trended rapporten kunt tikken. Dashboards worden ondersteund op zowel iOS- als Android-besturingssystemen.
 
-## Meer informatie over deze handleiding
-
-Deze handleiding is bedoeld om uitvoerende gebruikers te helpen bij het lezen en interpreteren van scoreborden op analytische dashboards. Met de app kunnen uitvoerende gebruikers snel en gemakkelijk een brede weergave van belangrijke samenvattingsgegevens op hun eigen mobiele apparaten bekijken.
+Deze gids is bedoeld om uitvoerende gebruikers te helpen scorecards op de dashboards van Analytics lezen en interpreteren. Met de app kunnen uitvoerende gebruikers snel en gemakkelijk een brede weergave van belangrijke samenvattingsgegevens op hun eigen mobiele apparaten bekijken.
 
 ## Verklarende woordenlijst
 
