@@ -3,9 +3,9 @@ description: Een Adobe Analytics-dashboards scorecard maken
 title: Een scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Als curator van dit scorecard, kunt u de Scorecard Bouwer gebruiken om te vormen
 U moet het volgende doen om het scorebord te maken:
 
 1. Open de sjabloon [!UICONTROL Blank Mobile Scorecard].
-2. Configureer het scorebord met gegevens en sla het op.
+2. Vorm scorecard met gegevens en bewaar het.
 
 ## Toegang krijgen tot de sjabloon [!UICONTROL Blank Mobile Scorecard]
 
@@ -42,10 +42,10 @@ U kunt tot het [!UICONTROL Blank Mobile Scorecard] malplaatje of toegang hebben 
 
 ![Scorecard-sjabloon](assets/new_template.png)
 
-### Sjabloon voor gereedschappen
+### Menu Gereedschappen
 
 1. Selecteer **[!UICONTROL Analytics dashboards (Mobile App)]** in het menu **[!UICONTROL Tools]**.
-1. Klik op de knop **[!UICONTROL Create new scorecard]** in het volgende scherm.
+1. Klik op **[!UICONTROL Create new scorecard]** in het volgende scherm.
 
 ## Vorm scorecard met gegevens en bewaar het
 
@@ -60,29 +60,15 @@ Het scorebordsjabloon implementeren:
    ![Tegels toevoegen](assets/build_list.png)
 
 
-   *Van elke tegel, kunt u tot een gedetailleerde mening toegang hebben die extra informatie over metrisch, zoals hoogste punten voor een lijst van verwante afmetingen toont.*
+1. Van elke tegel, kunt u tot een gedetailleerde mening toegang hebben die extra informatie over metrisch, zoals hoogste punten voor een lijst van verwante afmetingen toont.
 
 ### Afmetingen of metingen toevoegen
 
-Een gerelateerde dimensie toevoegen aan een metrische waarde:
+Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept u een afmeting uit het linkerdeelvenster en zet u deze op een tegel neer.
 
-Sleep een afmeting van het linkerpaneel en zet het op een tegel neer.
-
-U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL DMA Region]** in dit voorbeeld) toevoegen aan de **[!UICONTROL Unique Visitors]**-meting door deze naar de tegel te slepen en neer te zetten; De afmetingen die u toevoegt, worden weergegeven onder de sectie voor de verdeling van de tegelspecifieke **[!UICONTROL Properties]**. U kunt meerdere afmetingen aan elke tegel toevoegen.
+U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL Marketing Channel]** in dit voorbeeld) toevoegen aan de **[!UICONTROL Unique Visitors]**-meting door deze naar de tegel te slepen. Uitsplitsingen naar Dimension worden weergegeven onder de sectie [!UICONTROL Drill Ins] (uitsplitsing) van de tegelspecifieke sectie **[!UICONTROL Properties]**. U kunt meerdere afmetingen aan elke tegel toevoegen.
 
 ![Afmetingen toevoegen](assets/layer_dimensions.png)
-
-### Eigenschappen van tegels weergeven en configureren
-
-Wanneer u in de Scorecard Builder op een tegel klikt, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel zijn gekoppeld. In deze rail, kunt u nieuwe **[!UICONTROL Title]** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
-
-![Eigenschappen, tegel](assets/properties_tile.png)
-
-Als u op tegels klikt, wordt in een dynamische pop-up ook weergegeven hoe de uitsplitsingsweergave wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen afmeting op de tegel is toegepast, is de afbraakdimensie **hour** of **days**, afhankelijk van het standaarddatumbereik.
-
-![Onderverdeling_weergave](assets/break_view.png)
-
-Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
 
 ### Segmenten toepassen
 
@@ -92,13 +78,7 @@ Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de teg
 
 ![Segmenten maken voor filter](assets/segment_ui.png)
 
-### Componenten verwijderen
-
-Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door **x** te klikken die verschijnt wanneer u over de component, zoals hieronder voor **Eerste Bezoekingen** segment toont:
-
-![Remove_components](assets/new_remove.png)
-
-### Datumbereiken
+### Datumbereiken toevoegen
 
 U kunt combinaties van datumbereiken toevoegen en verwijderen die u in uw scorecard kunt selecteren door de vervolgkeuzelijst met datumbereiken te selecteren.
 
@@ -122,13 +102,57 @@ Als het gewenste datumbereik nog niet is gemaakt, kunt u een nieuw datumbereik m
 
 Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component voor het datumbereik kunt maken en opslaan.
 
+### Visualisaties toepassen
+
+De dashboards van de Analyse biedt nu vier visualisaties die groot inzicht in afmetingspunten aanbieden. Pas een andere visualisatie toe door [!UICONTROL chart type] van de eigenschappen van een tegel te veranderen:
+
+![Tegeleigenschappen](assets/properties.png)
+
+**[!UICONTROL Donut]visualisatie**
+
+Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. Gebruik een donutgrafiek wanneer het vergelijken van percentages van een totaal. Stel bijvoorbeeld dat u wilt zien welke advertentieplatform heeft bijgedragen aan het totale aantal unieke bezoekers:
+
+![Donut visualisatie](assets/donut-viz.png)
+
+**[!UICONTROL Line]visualisatie**
+
+De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een grafiek van de Lijn kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt.
+
+**[!UICONTROL Horizontal Bar]visualisatie**
+
+Deze visualisatie toont horizontale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen.
+
+### Eigenschappen van tegels weergeven en configureren
+
+Wanneer u in de Scorecard Builder op een tegel klikt, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel zijn gekoppeld. In deze rail, kunt u nieuwe **[!UICONTROL Title]** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
+
+![Eigenschappen, tegel](assets/properties_tile.png)
+
+Wanneer u op tegels klikt, wordt in een dynamische pop-up weergegeven hoe de weergave Bodeminks (Onderverdeling) wordt weergegeven voor de uitvoerende gebruiker in de app. Als er geen afmeting op de tegel is toegepast, is de afbraakdimensie **hour** of **days**, afhankelijk van het standaarddatumbereik.
+
+De onderverdelingen verfijnen uw analyse door metriek en afmetingen door andere metriek en afmetingen, zoals in dit detailhandelsvoorbeeld letterlijk te breken:
+
+* Unieke Visitors, metrisch uitgesplitst naar advertentie-Platform (AMO-id)
+* Bezoeken uitgesplitst naar productcategorie (detailhandel)
+* Totaal ontvangsten uitgesplitst naar productnaam
+
+![Onderverdeling_weergave](assets/break_view.png)
+
+Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
+
+### Componenten verwijderen
+
+Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door **x** te klikken die verschijnt wanneer u over de component, zoals hieronder voor **Eerste Bezoekingen** segment toont:
+
+![Remove_components](assets/new_remove.png)
+
 ## Een scorecard een naam geven
 
 Als u het scorebord een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
 
 ![Naming_Scorecards](assets/new_name.png)
 
-## De scorecard delen
+## Een scorecard delen
 
 U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
@@ -136,10 +160,10 @@ U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
 1. Vul in het **[!UICONTROL Share mobile scorecard]**-formulier de velden met:
 
-   * De naam van het scorebord opgeven
-   * Beschrijving van het scorebord
+   * De naam van de scorecard opgeven
+   * Een beschrijving van de scorecard
    * Relatieve tags toevoegen
-   * De ontvangers voor het scorebord opgeven
+   * Het specificeren van de ontvangers voor scorecard
 
 1. Klik op **[!UICONTROL Share]**.
 
@@ -147,4 +171,4 @@ U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
 Nadat u een scorecard hebt gedeeld, kunnen uw ontvangers tot het op hun dashboards van Analytics toegang hebben. Als u verdere veranderingen in scorecard in de Scorecard Bouwer aanbrengt, zullen zij automatisch in gedeelde scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het Scorecard op hun app verfrist.
 
-Als u het Scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u de scorecard opnieuw willen delen (en **[!UICONTROL Share embedded components]** optie) controleren om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.
+Als u de scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u de scorecard opnieuw willen delen (en **[!UICONTROL Share embedded components]** optie) controleren om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.

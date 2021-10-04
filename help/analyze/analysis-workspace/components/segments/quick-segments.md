@@ -3,9 +3,9 @@ description: Gebruik snelle segmenten in Analysis Workspace.
 title: Snelle segmenten
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 34824daca188119bfe366fea101053f2547a2f6d
+source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ U kunt snelle segmenten binnen een project tot stand brengen om de ingewikkeldhe
 Voor een vergelijking van wat de snelle segmenten versus volledig-afgewerkte component-lijst segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 >[!IMPORTANT]
-> Snelle segmenten worden momenteel beperkt getest en zijn nog niet algemeen beschikbaar.
+> Snelle segmenten worden momenteel beperkt getest en zijn over het algemeen beschikbaar op 21 oktober 2021.
 
 ## Vereisten
 
