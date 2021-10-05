@@ -3,9 +3,9 @@ description: Een Adobe Analytics-dashboards scorecard maken
 title: Een scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
+source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component v
 
 ### Visualisaties toepassen
 
-De dashboards van de Analyse biedt nu vier visualisaties die groot inzicht in afmetingspunten aanbieden. Pas een andere visualisatie toe door [!UICONTROL chart type] van de eigenschappen van een tegel te veranderen:
+De dashboards van de Analyse bieden vier visualisaties die u groot inzicht in afmetingspunten en metriek geven. Schakel over naar een andere visualisatie door de [!UICONTROL chart type] van de eigenschappen van een tegel te wijzigen:
 
 ![Tegeleigenschappen](assets/properties.png)
 
@@ -117,6 +117,8 @@ Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven 
 **[!UICONTROL Line]visualisatie**
 
 De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een grafiek van de Lijn kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt.
+
+
 
 **[!UICONTROL Horizontal Bar]visualisatie**
 
