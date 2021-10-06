@@ -3,9 +3,9 @@ description: Een Adobe Analytics-dashboards scorecard maken
 title: Een scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
+source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Het scorebordsjabloon implementeren:
 
 1. Van elke tegel, kunt u tot een gedetailleerde mening toegang hebben die extra informatie over metrisch, zoals hoogste punten voor een lijst van verwante afmetingen toont.
 
-### Afmetingen of metingen toevoegen
+## Afmetingen of metingen toevoegen
 
 Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept u een afmeting uit het linkerdeelvenster en zet u deze op een tegel neer.
 
@@ -70,7 +70,7 @@ U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL Marketing Channel]** in 
 
 ![Afmetingen toevoegen](assets/layer_dimensions.png)
 
-### Segmenten toepassen
+## Segmenten toepassen
 
 Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer.
 
@@ -78,7 +78,7 @@ Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de teg
 
 ![Segmenten maken voor filter](assets/segment_ui.png)
 
-### Datumbereiken toevoegen
+## Datumbereiken toevoegen
 
 U kunt combinaties van datumbereiken toevoegen en verwijderen die u in uw scorecard kunt selecteren door de vervolgkeuzelijst met datumbereiken te selecteren.
 
@@ -102,11 +102,21 @@ Als het gewenste datumbereik nog niet is gemaakt, kunt u een nieuw datumbereik m
 
 Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component voor het datumbereik kunt maken en opslaan.
 
-### Visualisaties toepassen
+## Visualisaties toepassen
 
-De dashboards van de Analyse bieden vier visualisaties die u groot inzicht in afmetingspunten en metriek geven. Schakel over naar een andere visualisatie door de [!UICONTROL chart type] van de eigenschappen van een tegel te wijzigen:
+De dashboards van de Analyse bieden vier visualisaties die u groot inzicht in afmetingspunten en metriek geven. Schakel over naar een andere visualisatie door de [!UICONTROL chart type] van een tegel [!UICONTROL Properties] te wijzigen. Selecteer gewoon de rechtertegel en wijzig vervolgens het diagramtype.
 
 ![Tegeleigenschappen](assets/properties.png)
+
+U kunt ook op het pictogram [!UICONTROL Visualizations] in de linkertrack klikken en de rechtervisualisatie naar de tegel slepen:
+
+![Visualisaties](assets/vizs.png)
+
+**[!UICONTROL Summary Number]**
+
+Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukken dat in een project belangrijk is.
+
+![Samenvattingsnummer](assets/sparkline.png)
 
 **[!UICONTROL Donut]visualisatie**
 
@@ -116,15 +126,29 @@ Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven 
 
 **[!UICONTROL Line]visualisatie**
 
-De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een grafiek van de Lijn kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt.
+De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek toont afmetingen in tijd maar werkt met om het even welke visualisatie. U visualiseert de dimensie van de productcategorie in dit voorbeeld.
 
+![Lijnvisualisatie](assets/line.png)
 
 
 **[!UICONTROL Horizontal Bar]visualisatie**
 
-Deze visualisatie toont horizontale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen.
+Deze visualisatie toont horizontale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen. Als u bijvoorbeeld gemakkelijk wilt zien wat uw beste producten zijn, gebruikt u [!UICONTROL Horizontal Bar] voor uw voorkeursvisualisatie.
 
-### Eigenschappen van tegels weergeven en configureren
+![horizontale balk](assets/horizontal.png)
+
+**Dimensie- [!UICONTROL Unspecified] items verwijderen**
+
+Als u [!UICONTROL Unspecified] afmetingspunten uit uw gegevens wilt verwijderen, doe het volgende:
+
+1. Selecteer de juiste tegel.
+1. Selecteer in de rechtertrack onder **[!UICONTROL Drill ins]** de pijl naar rechts naast het dimensie-item waarvan **[!UICONTROL Unspecified]** items u wilt verwijderen.
+
+   ![ongespecificeerd](assets/unspecified.png)
+
+1. Klik op het pictogram naast **[!UICONTROL Unspecified]** om niet-opgegeven gegevens uit de rapportage te verwijderen. (U kunt ook elk ander dimensie-item verwijderen.)
+
+## Eigenschappen van tegels weergeven en configureren
 
 Wanneer u in de Scorecard Builder op een tegel klikt, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel zijn gekoppeld. In deze rail, kunt u nieuwe **[!UICONTROL Title]** voor de tegel verstrekken en anders de tegel vormen door componenten te specificeren in plaats van hen te slepen en te laten vallen van de linkerspoorstaaf.
 
@@ -142,7 +166,7 @@ De onderverdelingen verfijnen uw analyse door metriek en afmetingen door andere 
 
 Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
 
-### Componenten verwijderen
+## Componenten verwijderen
 
 Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door **x** te klikken die verschijnt wanneer u over de component, zoals hieronder voor **Eerste Bezoekingen** segment toont:
 
