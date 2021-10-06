@@ -3,9 +3,9 @@ description: Een Adobe Analytics-dashboards scorecard maken
 title: Een scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
+source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
@@ -112,32 +112,32 @@ U kunt ook op het pictogram [!UICONTROL Visualizations] in de linkertrack klikke
 
 ![Visualisaties](assets/vizs.png)
 
-**[!UICONTROL Summary Number]**
+### [!UICONTROL Summary Number]
 
 Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukken dat in een project belangrijk is.
 
-![Samenvattingsnummer](assets/sparkline.png)
+![Samenvattingsnummer](assets/summary-number.png)
 
-**[!UICONTROL Donut]visualisatie**
+### [!UICONTROL Donut]
 
 Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. Gebruik een donutgrafiek wanneer het vergelijken van percentages van een totaal. Stel bijvoorbeeld dat u wilt zien welke advertentieplatform heeft bijgedragen aan het totale aantal unieke bezoekers:
 
 ![Donut visualisatie](assets/donut-viz.png)
 
-**[!UICONTROL Line]visualisatie**
+### [!UICONTROL Line]
 
 De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek toont afmetingen in tijd maar werkt met om het even welke visualisatie. U visualiseert de dimensie van de productcategorie in dit voorbeeld.
 
 ![Lijnvisualisatie](assets/line.png)
 
 
-**[!UICONTROL Horizontal Bar]visualisatie**
+### [!UICONTROL Horizontal Bar]
 
 Deze visualisatie toont horizontale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen. Als u bijvoorbeeld gemakkelijk wilt zien wat uw beste producten zijn, gebruikt u [!UICONTROL Horizontal Bar] voor uw voorkeursvisualisatie.
 
 ![horizontale balk](assets/horizontal.png)
 
-**Dimensie- [!UICONTROL Unspecified] items verwijderen**
+### [!UICONTROL Unspecified] dimensie-items verwijderen
 
 Als u [!UICONTROL Unspecified] afmetingspunten uit uw gegevens wilt verwijderen, doe het volgende:
 
