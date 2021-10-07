@@ -1,19 +1,19 @@
 ---
 description: Een Adobe Analytics-dashboards scorecard maken
-title: Een scorecard maken
+title: Een mobiele scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
 
 
-# Een scorecard maken
+# Een mobiele scorecard maken
 
-De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over hoe te om dashboards voor uitvoerende gebruikers te vormen en te presenteren. Als u wilt beginnen met, kunt u de video van de Adobe Analytics-dashboards Scorecard Builder bekijken:
+De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over om mobiele scorecards voor uitvoerende gebruikers te vormen en voor te stellen. Als u wilt beginnen met, kunt u de video van de Adobe Analytics-dashboards Scorecard Builder bekijken:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -103,6 +103,10 @@ Als het gewenste datumbereik nog niet is gemaakt, kunt u een nieuw datumbereik m
 Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component voor het datumbereik kunt maken en opslaan.
 
 ## Visualisaties toepassen
+
+Bekijk een video over visualisaties voor mobiele scorecards:
+
+>[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
 De dashboards van de Analyse bieden vier visualisaties die u groot inzicht in afmetingspunten en metriek geven. Schakel over naar een andere visualisatie door de [!UICONTROL chart type] van een tegel [!UICONTROL Properties] te wijzigen. Selecteer gewoon de rechtertegel en wijzig vervolgens het diagramtype.
 

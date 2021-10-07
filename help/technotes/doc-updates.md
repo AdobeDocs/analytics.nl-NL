@@ -3,9 +3,9 @@ title: Technische documentatie-updates voor Adobe Analytics
 description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2860'
 ht-degree: 44%
 
 ---
@@ -22,14 +22,16 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Datum | Beschrijving |
 | --- | --- |
-| **augustus 2021** |  |
+| **Oktober 2021** |  |
+| 7 oktober 2021 | Nieuwe documentatie over [visualisaties voor mobiele scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
+| **Augustus 2021** |  |
 | 18 augustus 2021 | Gereviseerde structuur op hoofdniveau en geconsolideerd tot één [landingspagina](https://experienceleague.adobe.com/docs/analytics.html) |
 | 18 augustus 2021 | Nieuw onderwerp op [A4T en virtuele rapportreeksen](/help/components/vrs/vrs-a4t.md) |
 | 18 augustus 2021 | Nieuw onderwerp op [Beste praktijken van de Attributie](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5 augustus 2021 | Nieuw onderwerp op [Aantal herhaalde instanties](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
 | 5 augustus 2021 | Bijgewerkte classificatiedocumentatie op [templates](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [browser import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) en [browser export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) om opties aan te geven die niet beschikbaar zijn voor rapportsuites die zijn ingeschakeld voor de Nieuwe classificatiearchitectuur. |
 | 2 augustus 2021 | Meerdere pagina&#39;s zijn bijgewerkt om de herbranding van [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) weer te geven |
-| **juli 2021** |  |
+| **Juli 2021** |  |
 | 23 juli 2021 | Nieuwe diepgaande bespreking van [Merchandising Vars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | 15 juli 2021 | Nieuwe documentatie toegevoegd op de nieuwe [Adobe Analytics-landingspagina](/help/analyze/landing.md) |
 | **Juni 2021** |  |
