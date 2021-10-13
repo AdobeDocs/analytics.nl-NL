@@ -3,9 +3,9 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
+source-git-commit: 7f27e92b1fc378516423bc971b05e34880897ec9
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2214'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,12 @@ Cumulatieve releaseopmerkingen voor [!DNL AppMeasurement] voor JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 U kunt de recentste versie van AppMeasurement in [de Manager van de Code ](/help/admin/admin/code-manager-admin.md) downloaden.
+
+## Versie 2.2.2.3
+
+Releasedatum: **11 oktober 2021**
+
+* Bijgewerkte dossiers die de documentatie van de Hulp van verwijzingen voorzien om aan de huidige plaatsen van de Hulp te richten.
 
 ## Versie 2.2.2
 
@@ -320,7 +326,7 @@ Releasedatum: **18 juni 2015**
 
 Releasedatum: **21 mei 2015**
 
-* Vanaf iOS SDK versie 4.5 kunt u met een nieuwe iOS-extensie gebruiksgegevens verzamelen van uw Apple Watch-apps, Today-widgets, widgets voor fotobewerking en alle andere iOS-extensies. Zie [iOS-extensie-implementatie](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html) in de gebruikershandleiding voor mobiele services.
+* Vanaf iOS SDK versie 4.5 kunt u met een nieuwe iOS-extensie gebruiksgegevens verzamelen van uw Apple Watch-apps, hedendaagse widgets, widgets voor fotobewerking en alle andere iOS-extensie-apps. Zie [iOS-extensie-implementatie](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html) in de gebruikershandleiding voor mobiele services.
 * Vanaf Android SDK versie 4.5 kunt u met een nieuwe Android-extensie gegevens verzamelen van uw Android-webtoepassing die kan worden gebruikt. Zie [Android-variabelen](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html) in de gebruikershandleiding voor mobiele services.
 * Opname van de Bezoeker-API 1.4.
 * Bijgewerkte module van het Beheer van het Publiek om DIL versie 6.0 te gebruiken.
