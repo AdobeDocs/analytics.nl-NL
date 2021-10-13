@@ -2,9 +2,10 @@
 description: Verklaart hoe de landingspagina zowel Analysis Workspace als Rapporten & Analytics in één enkele interface en toegangspunt onder de paraplu van de Werkruimte samenbrengt.
 title: Adobe Analytics-landingspagina
 role: User, Admin
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
+source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
 workflow-type: tm+mt
-source-wordcount: '2925'
+source-wordcount: '3173'
 ht-degree: 0%
 
 ---
@@ -90,6 +91,8 @@ Het tabblad [!UICONTROL Reports] consolideert drie sets rapporten:
 
 Zoals eerder vermeld, zijn hier alleen de meest gebruikte rapporten die voorheen waren gegroepeerd in Rapporten &amp; Analytics beschikbaar. Een handvol zelden gebruikte of niet langer relevante rapporten werd niet overgezet. Zie de veelgestelde vragen hieronder voor meer informatie.
 
+### Menu&#39;s en submenu&#39;s
+
 Hier zijn de menu&#39;s en hun submenu&#39;s. Als u geen specifiek rapport kunt vinden, doe &quot;Onderzoek op pagina&quot;om het te vinden.
 
 | Menu-item | Rapporten onder dit menu-item |
@@ -99,7 +102,34 @@ Hier zijn de menu&#39;s en hun submenu&#39;s. Als u geen specifiek rapport kunt 
 | **[!UICONTROL Conversion]** | <ul><li>Producten > Producten (Welke producten drijven mijn belangrijkste metriek?)</li><li>Producten > Prestaties van het Product (Welke producten presteren het best?)</li><li>Producten > Categorieën (Wat zijn mijn best presterende productcategorieën?</li><li>Winkelwagentje > Kaarten (Hoeveel gebruikers hebben een product aan winkelwagentje toegevoegd)</li><li>Winkelwagentje > Kart-weergaven (Hoe vaak bekeken mijn bezoekers hun winkelwagentjes?)</li><li>Winkelwagentje > Winkelwagentjes toevoegen (Hoe vaak voegen gebruikers een product toe aan hun winkelwagentje?)</li><li>Winkelwagentje > Winkelwagentjes (Hoe vaak verwijderen gebruikers een product uit hun winkelwagentje?)</li><li>Aankopen > Opbrengsten (Hoe kan ik inkomsten genereren)</li><li>Aankopen > Bestellingen (Hoe voer ik mijn bestellingen uit?)</li><li>Aankopen > Eenheden (hoeveel eenheden verkoop ik?)</li><li>[Magento: handel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#commerce)</li></ul> |
 | **[!UICONTROL Audience]** | <ul><li>Mensen metrisch (Hoeveel mensen communiceren met mijn merk?)</li><li>Bezoekersprofiel > Overzicht van locatie (Welke locaties drijven het meeste gebruik onder gebruikers)</li><li>Bezoekersprofiel > Geosegmentatie > Geo County&#39;s, Geo US States, Geo Regions, Geo Cities, Geo US DMA (Welke geografische gebieden bezoekt mijn gebruiker?)</li><li>Bezoekersprofiel > Talen (Welke taal hebben mijn gebruikers liever?)</li><li>Bezoekersprofiel > Tijdzones (Welke tijdzones bezoekt mijn gebruiker?)</li><li>Bezoekersprofiel > Domeinen (Welke ISP&#39;s gebruiken mijn bezoekers om mijn site te openen?)</li><li>Bezoekersprofiel > Hoofdniveaudomeinen (Welke domeinen drijven verkeer naar mijn plaats?)</li><li>Bezoekersprofiel > Technologie > Overzicht van technologie (Welke technologieën gebruiken mensen om mijn site te openen?)</li><li>Bezoekersprofiel > Technologie > Browsers, Browsertype, Browserbreedte, Browserhoogte (Welke bedrijfs browser, browserversie en de breedte en hoogte gebruiken mensen om mijn site te openen?)</li><li>Bezoekersprofiel > Technologie > Besturingssysteem, Type besturingssysteem (Welk besturingssysteem en welke versie daarvan worden door mijn bezoekers gebruikt?)</li><li>Bezoekersprofiel > Technologie > Mobiele provider (Welke mobiele dragers gebruiken mijn bezoekers om mijn site te openen?)</li><li>Bezoekersretentie > Terugkeerfrequentie (hoeveel tijd verstrijkt tussen het huidige bezoek van mijn gebruiker en eerdere bezoeken?)</li><li>Bezoekersretentie > Retourbezoeken (Hoeveel van mijn bezoeken retourneren mijn gebruikers?)</li><li>Bezoekersregistratie > Bezoek nummer (tijdens het bezoek aan het getalsegment worden de meeste van mijn belangrijkste meetgegevens geactiveerd)</li><li>Bezoekersbewaring > Verkoop > Klantenloyaliteit (tot welk loyaliteitssegment behoren mijn gebruikers?)</li><li>Bezoekersregistratie > Verkoopcyclus > Dagen voor eerste aankoop (hoeveel dagen zijn verstreken tussen het eerste bezoek van mijn gebruikers en de eerste aankoop?)</li><li>Bezoekersregistratie > Verkoopcyclus > Dagen sinds laatste aankoop (hoeveel dagen zijn verstreken tussen het huidige bezoek van mijn gebruikers en de laatste aankoop? )</li><li>Bezoekersbewaring > Mobiel > Apparaten en apparaattypen (Welke apparaten en apparaattypen gebruiken mijn bezoekers?)</li><li>Bezoekersregistratie > Mobiel > Fabrikant (welke fabrikant van mobiele apparaten gebruikt mijn bezoekers?)</li><li>Bezoekersbehoud > Mobiel > Schermgrootte, Schermhoogte, Schermbreedte (Welke grootte/hoogte/breedte van mobiel scherm hebben mijn bezoekers?)</li><li>Bezoekersfunctie > Mobiel > [Gebruik van mobiele apps](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>Bezoekersregistratie > Mobiel > [Mobiele App-reizen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>Bezoekersfunctie > Mobiel > [Metrische mobiele apps](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>Bezoekersregistratie > Mobiel > [Mobiele app messaging](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>Bezoekersfunctie > Mobiele apparaten > [Prestaties van mobiele apps](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>Bezoekersregistratie > Mobiele apparatuur > [Behoud van mobiele apps](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li></ul> |
 | **[!UICONTROL Acquisition]** | <ul><li>Marketingkanalen > Eerste aanraakkanaal, Eerste aanraakkanaal detail (Welk eerste aanraakkanaal en welk specifiek eerste aanraakkanaal presteert het beste?)</li><li>Marketingkanalen > Eerste laatste kanaal, Eerste laatste kanaal detail (Welk laatste aanraakkanaal en welk specifiek laatste aanraakkanaal presteert het beste?)</li><li>Campagnes > Campagnes (Welke campagnes drijven mijn belangrijkste metriek?)</li><li>Campagnes > De prestaties van de Campagne (Welke campagnes drijven de meeste opbrengst?)</li><li>Campagnes > Code bijhouden (Welke codes voor het bijhouden van campagnes werken het beste?)</li><li>[Webverwerving](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#web)</li><li>[Mobiele aanschaf](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics: betaalde zoekopdracht](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#advertising)</li><li>Trefwoorden zoeken - alles, betaald, natuurlijk (Welke zoektrefwoorden en trefwoorden voor betaald/natuurlijk zoeken zorgen ervoor dat mijn belangrijkste meetgegevens het beste zijn?)</li><li>Zoekprogramma&#39;s - allemaal, betaald, natuurlijk (Welke zoekprogramma&#39;s en betaalde/natuurlijke zoekprogramma&#39;s drijven mijn belangrijkste maatstaven het beste?)</li><li>Alle zoekpaginanummering (Welke zoekpagina bezoekt mijn gebruiker?)</li><li>Verwijzend domeinen (Welke domeinen drijven verkeer aan mijn plaats?)</li><li>Oorspronkelijke verwijzende domeinen (wat waren de eerste domeingebruikers alvorens mijn plaats te bezoeken?)</li><li>Referors (Aan welke URL&#39;s hebben mijn gebruikers deelgenomen voordat ze naar mijn site hebben geklikt?)</li><li>Typen referenties (tot welke categorie behoren mijn verwijzende URL&#39;s?)</li></ul> |
-| **[!UICONTROL Company reports]** | Meldt dat uw bedrijf voor uw gebruik heeft gemaakt. |
+| **[!UICONTROL Company reports]** | Meldt dat uw bedrijf voor uw gebruik heeft gemaakt. Zie &quot;Een bedrijfsrapport maken&quot; hieronder. |
+
+### Locatie van sjablonen (nu rapporten genoemd)
+
+| Naam van rapport (sjabloon) | Rapportlocatie |
+| --- | --- |
+| Lesbestand voor training | Populairste > Zelfstudie Training |
+| Verbruik van webinhoud | Engagement > Web Content Consumption |
+| Verbruik media-inhoud | Engagement > Media Content Consumption |
+| Apparaatanalyse | Betrokkenheid > Apparaatanalyse |
+| Webinhoud | Betrokkenheid > Behouden web |
+| Audioverbruik van media | Betrokkenheid > Audioverbruik van media |
+| Recente media, Frequentie, Loyalty | Engagement > Media Recency, Frequency, Loyalty |
+| ITP-effect | Betrokkenheid > ITP Impact |
+| Productprestaties | Conversie > Producten > Productprestaties |
+| Magento: Marketing en handel | Conversie > Magento: Marketing en handel |
+| Metrisch met personen | Publiek > Metrische personen |
+| Locatieoverzicht | Publiek > Bezoekersprofiel > Locatieoverzicht |
+| Overzicht van technologie | Publiek > Bezoekersprofiel > Technologie > Overzicht van technologie |
+| Gebruik van mobiele toepassingen | Publiek > Mobiel > Gebruik van mobiele app |
+| Mobiele App-reizen | Publiek > Mobiel > Mobiele App-reizen |
+| Metrisch voor mobiele apps | Publiek > Mobiel > Mobiele App Messaging |
+| Prestaties van mobiele apps | Publiek > Mobiel > Mobiele App Performance |
+| Behoud mobiele toepassing | Publiek > Mobiel > Mobiele app Retentie |
+| Campagneprestaties | Acquisitie > Campagnes > Campagneprestaties |
+| Mobiele overname | Acquisitie > Mobiele overname |
+| Web Acquisition | Acquisitie > Web Acquisition |
+| Advertising Analytics: Betaalde zoekopdracht | Acquisitie > Advertising Analytics: Betaalde zoekopdracht |
 
 ### Het tabblad Rapporten gebruiken
 
@@ -118,6 +148,21 @@ Voor huidige gebruikers van Rapporten &amp; Analytics, hier is een korte inleidi
    * U kunt een of meer segmenten naar de neerzetzone Segment bovenaan slepen. Sleep bijvoorbeeld het segment [!UICONTROL Mobile Customers] en bekijk de wijziging in de resultaten.
    * U kunt het datumbereik wijzigen door naar de kalender in de rechterbovenhoek te gaan.
    * U kunt afmetingsonderverdelingen toevoegen, in andere metriek slepen, en over het algemeen het rapport aanpassen op om het even welke manier u wenst.
+
+### Een (aangepast) bedrijfsrapport maken
+
+De rapporten van de douane worden genoemd de Rapporten van het Bedrijf en worden gevonden in het menu van de Rapporten van het Bedrijf (zie hieronder). Eerder gemaakte en nieuwe bestanden worden hier weergegeven.
+
+Om een nieuw rapport van het Bedrijf tot stand te brengen,
+
+1. Stel de werkruimte in op de gewenste staat.
+1. Open het menu [!UICONTROL Project] en klik **[!UICONTROL Save as company report…]**.
+
+   ![Bedrijfsrapport](assets/company-report.png)
+
+1. Voeg alle gewenste velden toe aan het modaal en sla het op.
+
+   Het rapport wordt toegevoegd aan de lijst van de Rapporten van het Bedrijf en is beschikbaar aan die in uw bedrijf.
 
 Meer leeropties:
 
