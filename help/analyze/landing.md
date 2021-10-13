@@ -3,9 +3,9 @@ description: Verklaart hoe de landingspagina zowel Analysis Workspace als Rappor
 title: Adobe Analytics-landingspagina
 role: User, Admin
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
+source-git-commit: 99e8c0ca05a319a5dd196293a6538b7cba4a5896
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3174'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ Om een nieuw rapport van het Bedrijf tot stand te brengen,
 
 1. Voeg alle gewenste velden toe aan het modaal en sla het op.
 
-   Het rapport wordt toegevoegd aan de lijst van de Rapporten van het Bedrijf en is beschikbaar aan die in uw bedrijf.
+   Het rapport wordt toegevoegd aan de lijst van de Rapporten van het Bedrijf en is beschikbaar aan die in uw login bedrijf.
 
 Meer leeropties:
 
