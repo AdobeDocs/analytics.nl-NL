@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Integration-handleiding
 breadcrumb-title: Integratiehandleiding
 user-guide-description: Configureer integratie met andere Adobe Experience Cloud-oplossingen, zoals Audience Manager, Advertising Cloud en Target.
-source-git-commit: caecae51d7921ecec63d3922bc5902b94379a7fb
+source-git-commit: 877bb63cd96cd2d91094f7c2b39b3046c2255b81
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 65%
+source-wordcount: '175'
+ht-degree: 60%
 
 ---
 
@@ -37,10 +37,10 @@ ht-degree: 65%
       + [Advertentieaccounts beheren](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Problemen met Advertising Analytics oplossen](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Veelgestelde vragen](c-advertising-analytics/aa-faq.md)
-+ [Analyses voor Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
-+ [Analytics voor Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
-+ [Adobe Campaign-rapportage in Analytics](adobe-campaign.md)
-+ [Analysegegevens integreren met Campaign Classic](analytics-to-campaign-classic.md)
++ [Adobe Analytics voor Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
++ [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
++ [Adobe Campaign-rapportage in Adobe Analytics](adobe-campaign.md)
++ [Adobe Analytics-gegevens integreren met Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [AEM Assets-rapportage](aem-assets-reporting.md)
 + [Activity Map-rapportage](activitmap-reporting.md)
 + [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)
