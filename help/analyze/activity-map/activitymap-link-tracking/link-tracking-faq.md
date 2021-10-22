@@ -5,9 +5,9 @@ uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 2a20ce50f773c82856da59154bb212f1fca2b7ea
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Veelgestelde vragen over het volgen van koppelingen in Activity Map.
 
 >[!CAUTION]
 >
->Als u het bijhouden van Activity Mappen inschakelt, **verzamelt u mogelijk PII-gegevens (Persoonlijk identificeerbare gegevens).** Deze gegevens kunnen op zichzelf of met andere informatie worden gebruikt om één persoon te identificeren, contact op te nemen of te vinden, of om een persoon in context te identificeren.
+>Door Activity Map bijhouden in te schakelen, **u kunt persoonlijk identificeerbare gegevens (PII) verzamelen.** Deze gegevens kunnen op zichzelf of met andere informatie worden gebruikt om één persoon te identificeren, contact op te nemen of te vinden, of om een persoon in context te identificeren.
 
 Hier zijn enkele bekende gevallen waarin PII-gegevens kunnen worden verzameld met behulp van Activity Map bijhouden:
 
@@ -35,11 +35,11 @@ Koppeling naar Activity Map en regio-identificatie treedt op wanneer gebruikers 
 
 Als een klikgebeurtenis op een element voorkomt, moet het element sommige controles overgaan om te bepalen als AppMeasurement het als verbinding zal behandelen. Dit zijn de controles:
 
-* Is dit een `A` of `AREA` markering met een `href` bezit?
-* Is er een `onclick` attribuut dat een `s_objectID` variabele plaatst?
-* Is dit een `INPUT` markering of `SUBMIT` knoop met een waarde of kindtekst?
-* Is dit een `INPUT` markering met type `IMAGE` en een `src` bezit?
-* Is dit een `BUTTON`?
+* Is dit `A` of `AREA` tag met een `href` eigenschap?
+* Is er een `onclick` kenmerk dat een `s_objectID` variabele?
+* Is dit `INPUT` tag of `SUBMIT` knop met een waarde of onderliggende tekst?
+* Is dit `INPUT` tag met type `IMAGE` en `src` eigenschap?
+* Is dit `BUTTON`?
 
 Als het antwoord op om het even welke bovenstaande vragen ja is, dan wordt het element behandeld als verbinding en zal worden gevolgd.
 
@@ -53,28 +53,28 @@ Als het antwoord op om het even welke bovenstaande vragen ja is, dan wordt het e
 
 ## Hoe houdt Activity Map andere visuele HTML-elementen bij?
 
-a. Via de functie `s.tl()`.
+a. Via de `s.tl()` functie.
 
-Als de klik via een `s.tl()` aanroeping voorkwam, dan zal de Activity Map ook deze klikgebeurtenis ontvangen en zal bepalen als een `linkName` koordvariabele werd gevonden. Tijdens `s.tl()` uitvoering, zal dat linkName als identiteitskaart van de Verbinding van de Activity Map worden geplaatst. Het aangeklikte element dat de `s.tl()` vraag voortkwam zal worden gebruikt om het gebied te bepalen. Voorbeeld:
+Als de klik heeft plaatsgevonden via een `s.tl()` de aanroeping, dan zal de Activity Map deze klikgebeurtenis ook ontvangen en zal bepalen als `linkName` tekenreeksvariabele gevonden. Tijdens `s.tl()` uitvoering, zal dat linkName als identiteitskaart van de Verbinding van de Activity Map worden geplaatst. Het aangeklikte element dat voortkwam uit `s.tl()` er zal een oproep worden gedaan om de regio te bepalen . Voorbeeld:
 
 ```
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
-b. Via de variabele `s_objectID`. Voorbeeld:
+b. Via de `s_objectID` variabele. Voorbeeld:
 
+    &quot; 
+    
+    &lt;img onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot; src=&quot;someimageurl.png&quot; />
+    &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot;>
+    Tekst hier koppelen
+    &lt;/a>
+    
     &quot;
-    
-    &lt;a>&lt;img>&lt;/a>
-    
-    &lt;a>Tekst hier&lt;/a>
-    
-    
-    &lt;a> koppelen&lt;/a>&quot;
 
 >[!IMPORTANT]
 >
->Een volgpuntkomma (;) is vereist wanneer u `s_objectID` in Activity Map gebruikt.
+>Een volgpuntkomma (;) is vereist bij gebruik `s_objectID` in Activity Map.
 
 ## Kunt u mij enkele voorbeelden geven van koppelingen die worden bijgehouden?
 
@@ -119,7 +119,7 @@ b. Via de variabele `s_objectID`. Voorbeeld:
 1. Reden: Ankertag heeft geen geldige `href`:
    `<a name="innerAnchor">Section header</a>`
 
-1. Reden: Noch `s_ObjectID` noch `s.tl()` aanwezig:
+1. Reden: Geen `s_ObjectID` noch `s.tl()` aanwezig:
 
    ```
    <p onclick="showPanel('market rates')">
@@ -128,7 +128,7 @@ b. Via de variabele `s_objectID`. Voorbeeld:
    </p>
    ```
 
-1. Reden: Noch `s_ObjectID` noch `s.tl()` aanwezig:
+1. Reden: Geen `s_ObjectID` noch `s.tl()` aanwezig:
 
    ``` 
    <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
@@ -140,3 +140,4 @@ b. Via de variabele `s_objectID`. Voorbeeld:
 1. Reden: In de eigenschap &quot;src&quot; ontbreekt een formulierinvoerelement:
 
    `<input type="image"/>`
+
