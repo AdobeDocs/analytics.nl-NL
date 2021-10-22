@@ -5,10 +5,10 @@ uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a6b38c6e7a34c876524ebe15514ac205898549d0
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Deze sectie is bedoeld voor Adobe Analytics-beheerders. Het concentreert zich op
 
 >[!IMPORTANT]
 >
->Elke koppeling waarin de tekst (niet de href) PII (Persoonlijk Identificeerbare Informatie) kan bevatten, moet expliciet worden geïmplementeerd met behulp van [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) of door de ActivityMap-linkverzameling met [s.ActivityMap.linkExclusions of s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) uit te sluiten. Voor meer informatie over hoe de Activity Map PII gegevens kan verzamelen, ga [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Elke koppeling waarin de tekst (niet de href) PII (Persoonlijk Identificeerbare Informatie) kan bevatten, moet expliciet worden geïmplementeerd met behulp van [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) of door ActivityMap-linkverzameling uit te sluiten met [s.ActivityMap.linkExclusions of s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Ga voor meer informatie over hoe Activity Map PII-gegevens kan verzamelen naar [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 De Activity Map baseert zijn verbinding het volgen op deze twee IDs:
 
@@ -56,7 +56,7 @@ Met dit nieuwe kenmerk kunnen gebruikers een tekenreeks opgeven die representati
 
 Voor bijvoorbeeld een koppeling &quot;Contact opnemen&quot; in de menusectie van de webpagina wil de gebruiker wellicht een parameter voor het gebied &quot;Menu&quot; doorgeven. Op dezelfde manier kan voor een koppeling &quot;Contact opnemen&quot; in de voettekst van de webpagina de parameter region worden ingesteld op &quot;footer&quot;.
 
-De waarde van het Gebied van de Verbinding wordt niet geplaatst op de verbinding zelf, maar op één element van HTML omhoog de boom van DOM HTML die dat gebied omvat.
+De waarde van het Gebied van de Verbinding wordt niet geplaatst op de verbinding zelf, maar op één element van HTML omhoog de HTML boom DOM die dat gebied omvat.
 Het gebruik van het koppelingsgebied heeft de volgende voordelen:
 
 * Het helpt verbindingen met zelfde primaire identiteitskaart onderscheiden.
@@ -69,7 +69,7 @@ Het gebruik van het koppelingsgebied heeft de volgende voordelen:
 
 U kunt de parameter Regio voor een koppeling aanpassen (standaard is koppeling-id): Een tag die is ingesteld op &#39;ID&#39; gebruikt alle HTML-elementen met de parameter &#39;id&#39; als een regio. Als u de tag Regio instelt op &quot;id&quot;, worden zeer waarschijnlijk veel afzonderlijke gebieden geretourneerd (zo veel als er verschillende &quot;id&#39;s&quot; op de pagina staan). Als u een meer aangepaste implementatie wilt, kunt u de tag region ook instellen op iets specifiekers, zoals &quot;region_id&quot;.
 
-Hieronder kunt u HTML-voorbeelden weergeven met het kenmerk &#39;id&#39; van het standaardgebied.
+Hieronder kunt u een voorbeeld van HTML weergeven met het kenmerk &#39;id&#39; van het standaardgebied.
 
 ```
 <div id="content">
@@ -117,102 +117,105 @@ s.ActivityMap.regionIDAttribute = "lpos";
 
 Deze variabelen worden alleen ter referentie vermeld. De Activity Map zou behoorlijk uit de doos moeten worden gevormd, maar u kunt uw implementatie aanpassen gebruikend deze variabelen.
 
-<table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Naam variabele </th> 
-   <th colname="col2" class="entry"> Voorbeeld </th> 
-   <th colname="col3" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
-   <td colname="col2"> Wordt standaard ingesteld op de parameter "id". U kunt dit instellen op een andere parameter. </td> 
-   <td colname="col3"> Tekenreeks die het tagkenmerk identificeert dat moet worden gebruikt als regio-id van een bovenliggend element (parent, parent.parent, ...) van s.linkObject, dat wil zeggen <b>het element waarop is geklikt</b>. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.link </td> 
-   <td colname="col2"> 
-    <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags</code><br/>
-    <code>function(clickedElement)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;linkId;</code><br/>
-    <code>&nbsp;&nbsp;if&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A')&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title');</code><br/>
-    <code>&nbsp;&nbsp;}</code><br/>
-    <code>&nbsp;&nbsp;return&nbsp;linkId;</code><br/>
-    <code>}</code> </td>
-   <td colname="col3"> Functie die het aangeklikte HTMLElement ontvangt en een koordwaarde zou moeten terugkeren die <b>de verbinding vertegenwoordigt die </b> werd geklikt. <br/>
-      <br/>
-     Wanneer de geretourneerde waarde false is (null, undefined, empty string, 0), wordt geen koppeling bijgehouden. </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.region </td> 
-   <td colname="col2"> 
-        <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region</code><br/>
-    <code>function(clickedElement)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;regionId,&nbsp;className;</code><br/>
-    <code>&nbsp;&nbsp;while&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement&nbsp;=&nbsp;clickedElement.parentNode))&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(regionId)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;regionId.toLowerCase();</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;}</code><br/>
-    <code>&nbsp;&nbsp;}</code><br/>
-    <code>}</code> </td> 
-   <td colname="col3"> Functie die het aangeklikte HTMLElement ontvangt en een koordwaarde zou moeten terugkeren die <b>het gebied vertegenwoordigt waar de verbinding wanneer geklikt</b> werd gevonden. <br/>
-      <br/>
-     Wanneer de geretourneerde waarde false is (null, undefined, empty string, 0), wordt geen koppeling bijgehouden. </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.linkExclusions </td> 
-   <td colname="col2"> 
-     <code>//&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class</code><br/>
-    <code>&lt;style&gt;</code><br/>
-    <code>.linkExcluded&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;display:&nbsp;block;</code><br/>
-    <code>&nbsp;&nbsp;height:&nbsp;1px;</code><br/>
-    <code>&nbsp;&nbsp;left:&nbsp;-9999px;</code><br/>
-    <code>&nbsp;&nbsp;overflow:&nbsp;hidden;</code><br/>
-    <code>&nbsp;&nbsp;position:&nbsp;absolute;</code><br/>
-    <code>&nbsp;&nbsp;width:&nbsp;1px;</code><br/>
-    <code>}</code><br/>
-    <code>&lt;/style&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;script&gt;</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
-    <code>&nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2';</code><br/>
-    <code>&lt;/script&gt;</code> </td> 
-   <td colname="col3"> Tekenreeks die een door komma's gescheiden lijst met tekenreeksen ontvangt waarnaar moet worden gezocht in koppelingstekst. Indien gevonden, wordt de koppeling uitgesloten van Activity Map. Als deze niet is ingesteld, wordt niet geprobeerd de koppeling niet meer te volgen op Activity Map. </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.regionExclusions </td> 
-   <td colname="col2"> 
-    <code>//&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap</code><br/>
-    <code>&lt;div&nbsp;id="links-included"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
-    <code>&lt;/div&gt;</code><br/>
-    <code>&lt;div&nbsp;id="links-excluded"&gt;&nbsp;</code><br/>
-    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
-    <code>&lt;/div&gt;</code><br/>
-    <code>&lt;script&gt;</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
-    <code>&nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded';</code><br/>
-    <code>&lt;/script&gt;</code> </td> 
-   <td colname="col3"> Tekenreeks die een door komma's gescheiden lijst met tekenreeksen ontvangt waarnaar in regiotekst moet worden gezocht. Indien gevonden, wordt de koppeling uitgesloten van Activity Map. Als deze niet is ingesteld, wordt niet geprobeerd de koppeling niet meer te volgen op Activity Map. </td>
-  </tr>
- </tbody>
-</table>
+### `s.ActivityMap.regionIDAttribute`
+
+Tekenreeks die het tagkenmerk identificeert dat moet worden gebruikt als regio-id van een bovenliggend (bovenliggend, bovenliggend, ...)-element van `s.linkObject`, d.w.z. **het element waarop is geklikt**.
+
+**Voorbeeld**
+
+Wordt standaard ingesteld op de parameter &quot;id&quot;. U kunt dit instellen op een andere parameter.
+
+### `s.ActivityMap.link`
+
+Functie die de geklikte `HTMLElement` en moet een tekenreekswaarde retourneren die staat voor de koppeling waarop is geklikt. Wanneer de geretourneerde waarde false is (null, undefined, empty string, 0), wordt geen koppeling bijgehouden.
+
+**Voorbeeld**
+
+```
+// only ever use "title" attributes from A tags
+function(clickedElement) {
+  var linkId;
+  if (clickedElement && clickedElement.tagName.toUpperCase() === 'A') {
+    linkId = clickedElement.getAttribute('title');
+  }
+  return linkId;
+}
+```
+
+### `s.ActivityMap.region`
+
+Functie die het aangeklikte HTMLElement ontvangt en een koordwaarde moet terugkeren die vertegenwoordigt **het gebied waar de verbinding werd gevonden toen klikte.** Wanneer de geretourneerde waarde false is (null, undefined, empty string, 0), wordt geen koppeling bijgehouden.
+
+**Voorbeeld**
+
+```
+// only ever use lowercase version of tag name concatenated with first className as the region
+function(clickedElement) {
+  var regionId, className;
+  while (clickedElement && (clickedElement = clickedElement.parentNode)) {
+    regionId = clickedElement.tagName;
+    if (regionId) {
+      return regionId.toLowerCase();
+    }
+  }
+}
+```
+
+### `s.ActivityMap.linkExclusions`
+
+Tekenreeks die een door komma&#39;s gescheiden lijst met tekenreeksen ontvangt waarnaar moet worden gezocht in koppelingstekst. Indien gevonden, wordt de koppeling uitgesloten van Activity Map. Als deze niet is ingesteld, wordt niet geprobeerd de koppeling niet meer te volgen op Activity Map.
+
+**Voorbeeld**
+
+```
+// Exclude links tagged with a special linkExcluded CSS class
+<style>
+.linkExcluded {
+  display: block;
+  height: 1px;
+  left: -9999px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+</style>
+<a href="next-page.html">
+  Link is tracked because link does not have hidden text matching the filter. 
+</a>
+<a href="next-page.html">
+  Link not tracked because s.ActivityMap.linkExclusions is set and this link has hidden text matching the filter.
+  <span class="linkExcluded">exclude-link1</span>
+</a>
+<a href="next-page.html">
+  Link not tracked because s.ActivityMap.linkExclusions is set and this link has hidden text matching the filter.
+  <span class="linkExcluded">exclude-link2</span>
+</a>
+<script>
+  var s = s_gi('samplersid');
+  s.ActivityMap.linkExclusions = 'exclude-link1,exclude-link2';
+</script>
+```
+
+### `s.ActivityMap.regionExclusions`
+
+Tekenreeks die een door komma&#39;s gescheiden lijst met tekenreeksen ontvangt waarnaar in regiotekst moet worden gezocht. Indien gevonden, wordt de koppeling uitgesloten van Activity Map. Als deze niet is ingesteld, wordt niet geprobeerd de koppeling niet meer te volgen op Activity Map.
+
+**Voorbeeld**
+
+```
+// Exclude regions on the page from its links being trackable by ActivityMap
+<div id="links-included">
+  <a href="next-page.html">
+    Link is tracked because s.ActivityMap.regionExclusions is set but does not match the filter.
+  </a>
+</div>
+<div id="links-excluded"> 
+  <a href="next-page.html">
+    Link not tracked because s.ActivityMap.regionExclusions is set and this link matches the filter.
+  </a>
+</div>
+<script>
+  var s = s_gi('samplersid');
+  s.ActivityMap.regionExclusions = 'links-excluded';
+</script>
+```
