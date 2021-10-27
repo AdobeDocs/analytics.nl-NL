@@ -3,10 +3,10 @@ description: Toont voorbeelden op hoe te om gegevens voor raakgegevens, toegangs
 title: Voorbeelden van labels
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: fe277bea867dc67e8693673a547adecccf169332
+source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 67%
+source-wordcount: '814'
+ht-degree: 63%
 
 ---
 
@@ -147,7 +147,7 @@ Met een verwijderingsaanvraag waarbij de API-waarden in de eerste rij van de tab
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">AID=77 <br>(waarde expandIDs is niet van belang)</th>
+    <th colspan="5" style="text-align:center">AID=77 <br>(Waarde van expandIDs is niet van belang)</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -362,8 +362,9 @@ Met een verwijderingsaanvraag waarbij de API-waarden in de eerste rij van de tab
 
 Let op het volgende:
 
-* Cellen op rijen die `user=Mary` en een `DEL-DEVICE` of `DEL-PERSON` etiket bevatten worden beïnvloed, evenals cellen met een `DEL-DEVICE` etiket op rijen die om het even welke identiteitskaart van de Bezoeker bevatten (AID) die op een rij die `user=Mary` bevatten voorkwamen.
-* ExpexpandIDs het plaatsen breidt zich niet aan de vraag uit om waarden in MyEvar3 te omvatten, die een identiteitskaart-APPARAAT etiket heeft, wanneer `user=Mary`. ExpandIDs breidt zich slechts uit om bezoeker IDs (HULPs in dit voorbeeld, maar ook ECID) op rijen te omvatten waar `user=Mary`.
-* `MyEvar2` in de vierde en vijfde rij wordt bijgewerkt omdat deze rijen dezelfde waarden voor de bezoekersidentiteitskaart bevatten als die op de eerste en tweede rij. Dientengevolge, omvat de uitbreiding van identiteitskaart hen voor apparaat-vlakke schrappingen.
-* De waarden van `MyEvar2` in rijen twee en vijf komen zowel vóór als na schrapping overeen. Na de verwijdering komen deze echter niet meer overeen met de waarde N die in de laatste rij voorkomt, omdat die rij niet is bijgewerkt als onderdeel van de verwijderingsaanvraag.
-* `MyEvar3` gedraagt zich heel anders dan zonder de id-uitbreiding, omdat zonder id-uitbreiding geen `ID-DEVICES` overeenkwam. Nu komt `AAID` overeen met de eerste vijf rijen.
+* Cellen op rijen die `user=Mary` en `DEL-PERSON` het label wordt beïnvloed.
+* Vanwege ID-uitbreiding bevatten cellen op rijen die `AAID=77`, `AAID=88` of `AAID=99` (Dit zijn de waarden van de STEUN op rijen die `user=Mary`) en `DEL-DEVICE` het label wordt beïnvloed. Dit omvat cellen met een `DEL-DEVICE` label op rijen waar `user=Mary`. Dit veroorzaakt cellen in rijen 4 en 5 (evenals rijen 1-3) met `DEL-DEVICE` labels (AID, MyEvar2 en MyEvar3) die u wilt verduisteren.
+* De instelling expandIDs breidt zich niet uit naar de aanroep om waarden op te nemen die aanwezig zijn in MyEvar3 (`X`, `Y` en `Z`), dat een ID-DEVICE-label heeft, wanneer `user=Mary`. ExpandIDs breidt zich slechts uit om Bezoeker IDs (HULPs in dit voorbeeld, maar ook ECID) op rijen te omvatten waar `user=Mary`. De laatste twee rijen die MyEvar3-waarden bevatten van `X` en `Z` geen invloed hebben.
+* `MyEvar2` in de vierde en vijfde rij wordt bijgewerkt omdat deze rijen dezelfde waarden voor de bezoeker-id bevatten (`77` en `88`) als op de eerste en de tweede rij. Dientengevolge, omvat de uitbreiding van identiteitskaart hen voor apparaat-vlakke schrappingen.
+* De waarden van `MyEvar2` in de rijen twee en vijf komen zowel voor als na de schrapping overeen. Na het verwijderen komen ze echter niet meer overeen met de waarde `N` die in de laatste rij voorkomt, omdat die rij niet als deel van het schrappingsverzoek werd bijgewerkt.
+* `MyEvar3` gedraagt zich heel anders dan zonder de id-uitbreiding, omdat zonder id-uitbreiding geen `ID-DEVICES` overeenkwam. Nu, `AAID` komt overeen met de eerste vijf rijen.
