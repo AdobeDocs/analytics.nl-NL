@@ -4,16 +4,20 @@ title: Overzicht van deelvensters
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1025'
 ht-degree: 1%
 
 ---
 
 # Overzicht van deelvensters
 
-A [!UICONTROL panel] is een verzameling tabellen en visualisaties. U hebt toegang tot deelvensters via het pictogram linksboven in Workspace of via een [leeg deelvenster](blank-panel.md). Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van een tijdsperiode, een rapport of een analyse. De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace:
+A [!UICONTROL panel] is een verzameling tabellen en visualisaties. U hebt toegang tot deelvensters via het pictogram linksboven in Workspace of via een [leeg deelvenster](blank-panel.md). Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van een tijdsperiode, een rapport of een analyse.
+
+## Deelvenstertypen
+
+De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace:
 
 | Vensternaam | Beschrijving |
 | --- | --- |
