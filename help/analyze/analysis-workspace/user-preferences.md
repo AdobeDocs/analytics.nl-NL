@@ -1,19 +1,19 @@
 ---
 title: Gebruikersvoorkeuren instellen in Analysis Workspace
-description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebruikers.
-feature: Basisprincipes van werkruimte
+description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebruikers en een voorkeur voor donkere thema's.
+feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '255'
 ht-degree: 1%
 
 ---
 
 # Gebruikersvoorkeuren
 
-Met de pagina [!UICONTROL Components] > [!UICONTROL User preferences] kunt u instellingen voor Analysis Workspace en de bijbehorende componenten op gebruikersniveau beheren. De voorkeur van de gebruiker is op alle *nieuwe* projecten of panelen van toepassing.
+De [!UICONTROL Components] > [!UICONTROL User preferences] kunt u de instellingen voor Analysis Workspace en de bijbehorende componenten op gebruikersniveau beheren. Gebruikersvoorkeuren gelden voor alle *new* projecten of panels.
 
 ![Gebruikersvoorkeuren](assets/user-preferences.png)
 
@@ -28,7 +28,7 @@ Algemene voorkeuren zijn van toepassing op uw Adobe Analytics-ervaring in de bro
 
 ## Projectvoorkeuren
 
-Projectvoorkeuren zijn van toepassing op nieuwe projecten en nieuwe deelvensters die in Analysis Workspace zijn gemaakt. Bepaalde voorkeuren kunnen ook per project worden beheerd onder [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL Project info & settings].
+Projectvoorkeuren zijn van toepassing op nieuwe projecten en nieuwe deelvensters die in Analysis Workspace zijn gemaakt. Bepaalde voorkeuren kunnen ook per project worden beheerd in het kader van [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL Project info & settings].
 
 | Sectie | Voorkeur | Opties |
 | --- | --- | --- |
@@ -41,3 +41,13 @@ Projectvoorkeuren zijn van toepassing op nieuwe projecten en nieuwe deelvensters
 |  | [Type deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Vrije vorm (standaard)</li><li>Leeg</li><li>Snelle inzichten</li></ul> |
 |  | Getalnotatie | <ul><li>1.000.00 (standaard)</li><li>1 000 00</li><li>1 000 00</li></ul> |
 |  | CSV-scheidingsteken | <ul><li>Komma (standaard)</li><li>Puntkomma</li><li>Colon</li><li>Pijp</li><li>Periode</li><li>Spatie</li><li>Tab</li></ul> |
+
+## [!UICONTROL Dark theme]
+
+Als u liever een donkere achtergrond voor uw Adobe Analytics-gebruikersinterface hebt, kunt u schakelen tussen [!UICONTROL Dark theme].
+
+1. Klik op het gebruikerspictogram Experience Cloud rechtsboven.
+
+   ![donkerthema](assets/dark-theme.png)
+
+1. Verplaats de **[!UICONTROL Dark theme]** naar rechts.
