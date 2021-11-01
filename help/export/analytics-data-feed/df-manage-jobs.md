@@ -1,14 +1,13 @@
 ---
 title: Taken voor gegevensinvoer beheren
 description: Leer hoe u afzonderlijke taken in gegevensfeeds beheert.
-translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+exl-id: b17e333e-290f-42e4-b304-1e34282237a7
+source-git-commit: 963e66b05cc401956211c28b9ffeb9aad6bed604
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
-
 
 # Taken voor gegevensinvoer beheren
 
@@ -16,8 +15,8 @@ Taken zijn afzonderlijke taken die een gecomprimeerd bestand als uitvoer geven. 
 
 Voer het taakbeheer van de Gegevens van de toegang door deze stappen te volgen:
 
-1. Meld u aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
-2. Klik op het 9-rastermenu in de rechterbovenhoek en klik vervolgens op [!UICONTROL Analytics].
+1. Aanmelden bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
+2. Klik in het menu met 9-rasters rechtsboven en klik vervolgens op [!UICONTROL Analytics].
 3. Klik in het bovenste menu op [!UICONTROL Admin] > [!UICONTROL Data Feeds].
 4. Klik boven aan het tabblad Taken.
 
@@ -51,17 +50,17 @@ Elke baan toont verscheidene kolommen die informatie over het verstrekken. Klik 
 
 ![Kolompictogram](assets/job-cols.jpg)
 
-* **ID** feed: Hiermee geeft u de feed-id weer, een unieke id. Taken die door dezelfde feed worden gemaakt, hebben dezelfde feed-id.
+* **Feed-id**: Hiermee geeft u de feed-id weer, een unieke id. Taken die door dezelfde feed worden gemaakt, hebben dezelfde feed-id.
 * **Taak-id**: Een unieke id voor de taak. Alle taken hebben een andere taak-id.
-* **Naam** van feed: Vereiste kolom. Geeft de naam van de feed weer. Taken die door dezelfde feed worden gemaakt, hebben dezelfde voedernaam.
+* **Naam van feed**: Vereiste kolom. Geeft de naam van de feed weer. Taken die door dezelfde feed worden gemaakt, hebben dezelfde voedernaam.
 * **Rapportsuite**: De rapportsuite verwijst naar gegevens van de taak.
-* **ID** rapportsuite: De unieke id van de rapportsuite.
+* **ID van rapportsuite**: De unieke id van de rapportsuite.
 * **Begintijd**: De tijd waarop de taak is gestart. Datum en tijd worden getoond in de de tijdzone van de rapportreeks met GMT compensatie. De dagelijkse voer begint typisch dichtbij middernacht in de tijdzone van de rapportreeks.
 * **Status**: De status van het diervoeder.
    * Wachten op gegevens: De taak is operationeel en de gegevens voor het rapportvenster worden verzameld.
    * Verwerking: De taak maakt de gegevensbestanden en bereidt zich voor op het verzenden ervan.
    * Voltooid: De taak is voltooid zonder problemen.
-   * Mislukt: De taak is niet voltooid. Zie [Problemen met taken oplossen](jobs-troubleshooting.md) om de oorzaak van fouten te achterhalen.
+   * Mislukt: De taak is niet voltooid. Zie [Problemen met gegevensfeeds oplossen](troubleshooting.md) om te helpen de oorzaak van mislukking bepalen.
    * Wachten op exporteren: De gegevens voor het rapportagevenster zijn nog niet volledig verwerkt.
    * Geen gegevens: Er zijn geen gegevens in de rapportsuite voor het gewenste rapportvenster.
 * **Voltooiingstijd**: De tijd waarop de taak is voltooid. Datum en tijd worden getoond in de de tijdzone van de rapportreeks met GMT compensatie.

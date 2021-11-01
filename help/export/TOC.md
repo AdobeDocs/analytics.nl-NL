@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Hulplijn exporteren
 user-guide-description: Gebruik Gegevensfeeds als u onbewerkte gegevens per uur of per dag wilt exporteren. Gebruik Data Warehouse om een spreadsheetuitvoer van gegevens op te halen.
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 77%
+source-wordcount: '275'
+ht-degree: 76%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 77%
       + [Te laat arriveren](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Veelgestelde vragen over gegevensinvoer](analytics-data-feed/df-faq.md)
    + [Aanbevolen werkwijzen voor gegevensinvoer](analytics-data-feed/data-feeds-best-practices.md)
-   + [Taken oplossen](analytics-data-feed/jobs-troubleshooting.md)
+   + [Gegevensfeeds oplossen](analytics-data-feed/troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Overzicht van Data Warehouse](data-warehouse/data-warehouse.md)
    + [Gebruikersgroep Data Warehouse toevoegen](data-warehouse/t-dw-group.md)
