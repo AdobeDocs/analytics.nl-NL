@@ -1,9 +1,10 @@
 ---
 title: Merchandising Vars en productzoekmethoden
 description: Een diepe duik in de concepten achter het verhandelen van eVars en hoe zij gegevens verwerken en toewijzen.
-source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
+exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
+source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
 workflow-type: tm+mt
-source-wordcount: '5294'
+source-wordcount: '5289'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ In dit zeer gedetailleerde document worden de concepten achter het verhandelen v
 
 ## Overzicht
 
-Door eVars voor handelsdoeleinden te gebruiken, kunt u elke succesvolle activiteit toewijzen aan de waarden die door de eVars worden vastgelegd op een niveau *per product* in plaats van een niveau *per-visit/per-order*.
+Door het gebruik van merchandising kunt u elke succesvolle activiteit toewijzen aan de waarden die door de eVars op een *per product* niveau in plaats van een *per bezoek/per bestelling* niveau.
 
 Hoewel de meeste websites voor de detailhandel veel manieren hebben om producten te vinden, beschouwt Adobe het volgende als de fundamentele methoden om producten te vinden die elke retailklant in Adobe Analytics moet volgen:
 
@@ -61,7 +62,7 @@ Meer informatie over deze instellingen vindt u in de secties onder de tabel.
 
 | Instelling | Beschrijving |
 |--- | --- |
-| Naam | De naam, of de rapporteringsdimensie die de variabele moet worden geassocieerd met. Als `eVar1` bedoeld is om Methoden van het Vinden van het Product te vangen, dan zou het gebied van de Naam voor `eVar1` aan &quot;Methoden van het Vinden van het Product&quot;moeten worden geplaatst. |
+| Naam | De naam, of de rapporteringsdimensie die de variabele moet worden geassocieerd met. Indien `eVar1` is bedoeld om Product het Vinden Methoden, dan het gebied van de Naam voor te vangen `eVar1` moet worden ingesteld op &quot;Product Finding Methods&quot;. |
 | Merchandising | Het type syntaxis dat wordt gebruikt om de waarden van de eVar voor handelsdoeleinden vast te leggen |
 | Toewijzing | De hulp bepaalt de waarde van de koopvaardigende eVar die krediet zou moeten ontvangen wanneer een succesvolle gebeurtenis plaatsvindt. |
 | Verlopen na | Hiermee wordt bepaald wanneer bestaande bindingen van producten en eVar niet langer van kracht moeten zijn. |
@@ -76,25 +77,25 @@ Wanneer de instelling &#39;Enable Merchandising&#39; is ingesteld op &#39;Enable
 
 ### Merchandising
 
-Deze optie is niet beschikbaar voor standaard eVars. Met de instelling [!UICONTROL Merchandising] kunt u [!UICONTROL Conversion Variable Syntax] of [!UICONTROL Product Syntax] kiezen als de methode voor het vastleggen van de waarde van de eVar.
+Deze optie is niet beschikbaar voor standaard eVars. De [!UICONTROL Merchandising] met deze instelling kunt u kiezen [!UICONTROL Conversion Variable Syntax] of [!UICONTROL Product Syntax] als de methode voor het vastleggen van de waarde van de eVar.
 
-**[!UICONTROL Conversion Variable Syntax]** betekent dat u de waarde van de eVar in een eigen variabele instelt. Met de syntaxis van omzetvariabele wordt de waarde `eVar1` van &quot;intern sleutelwoordonderzoek&quot; bijvoorbeeld als volgt ingesteld binnen de paginacode (of de code AppMeasurement, AEP Web SDK-code, enzovoort):
+**[!UICONTROL Conversion Variable Syntax]** betekent dat u de waarde van de eVar in een eigen variabele instelt. Met de syntaxis van omzetvariabele kunt u bijvoorbeeld de opdracht `eVar1` De waarde van &quot;intern sleutelwoordonderzoek&quot;wordt geplaatst als volgt binnen de paginacode (of de code AppMeasurement, de code van SDK van het Web AEP, etc.):
 
 `s.eVar1="internal keyword search";`
 
-Bij **[!UICONTROL Product Syntax]** wordt de eVar echter alleen ingesteld binnen de productvariabele van Adobe Analytics. De variabele Analytics products bestaat uit zes verschillende porties per product:
+Met **[!UICONTROL Product Syntax]** De eVar wordt echter alleen binnen de productvariabele Adobe Analytics geplaatst. De variabele Analytics products bestaat uit zes verschillende porties per product:
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Category] is een verouderd kenmerk en wordt niet langer aanbevolen als een haalbare optie om de prestaties van de productcategorie bij te houden.  Zijn enkel bestaan toont aan waarom in de meeste implementaties van de productvariabele, één enkele puntkomma het productID gedeelte van de veranderlijke waarde voorafgaat.
-* [!UICONTROL Quantity] en  [!UICONTROL Revenue] zijn nuttig wanneer een productaankoop wordt gevolgd.
+* [!UICONTROL Category] wordt niet langer aanbevolen als een haalbare optie om de prestaties van de productcategorie bij te houden.  Zijn enkel bestaan toont aan waarom in de meeste implementaties van de productvariabele, één enkele puntkomma het productID gedeelte van de veranderlijke waarde voorafgaat.
+* [!UICONTROL Quantity] en [!UICONTROL Revenue] zijn nuttig wanneer een productaankoop wordt gevolgd.
 * [!UICONTROL Events] is nuttig voor het opnemen van aangepaste incrementele of valutawaarden die niet als inkomsten hoeven te worden geteld (zoals verzendkosten, kortingen, enz.)
 
 Merchandising eVars die worden gevormd om de Syntaxis van het Product te gebruiken worden geplaatst binnen het definitieve gedeelte van de productvariabele. Stel bijvoorbeeld dat een bezoeker een interne trefwoordzoekopdracht heeft gebruikt om de product-id &quot;12345&quot; te zoeken. De op productsyntaxis gebaseerde manier voor het instellen van eVar1 in dit voorbeeld ziet er als volgt uit:
 
 `s.products=";12345;;;;eVar1=internal keyword search";`
 
-U ziet dat er nog door puntkomma&#39;s gescheiden plaatsaanduidingen zijn voor de hoeveelheid, inkomsten en gebeurtenisgedeelten van de productvariabele.  Zonder deze placeholders, zou `eVar1` het plaatsen van intern sleutelwoordonderzoek volledig genegeerd worden.
+U ziet dat er nog door puntkomma&#39;s gescheiden plaatsaanduidingen zijn voor de hoeveelheid, inkomsten en gebeurtenisgedeelten van de productvariabele.  Zonder deze plaatsaanduidingen `eVar1` het instellen van interne trefwoordzoekopdrachten wordt volledig genegeerd.
 
 ### Toewijzing
 
@@ -104,11 +105,11 @@ Begrijpen wat dit het plaatsen betekent begrip van het verschil tussen de toewij
 
 **Standaardinstelling voor eVar-toewijzing**
 
-Wanneer om het even welke eVar met standaardsyntaxis uit een beeldverzoek wordt verzameld, voegen de de verwerkingsservers van Adobe Analytics gegevens in een andere gegevensbestandkolom in, genoemd een `post_evar` kolom. Aangezien eVars blijvend moeten zijn - ze verlopen op een bepaald punt na de huidige hit in de meeste gevallen - stellen de servers vervolgens deze `post_evar`-kolom in op elke volgende aanvraag voor een image. Deze wordt ingesteld op de laatste waarde die wordt doorgegeven aan het corresponderende eVar. Voor standaard eVars, wanneer een succesgebeurtenis plaatsvindt, gebruikt Adobe Analytics de `post_evar` kolom in plaats van de gewone eVar kolom om de eVar waarde te bepalen die krediet voor de gebeurtenis zou moeten worden verleend.
+Wanneer om het even welke eVar met standaardsyntaxis uit een beeldverzoek wordt verzameld, voegen de de verwerkingsservers van Adobe Analytics gegevens in een andere gegevensbestandkolom in, genoemd `post_evar` kolom. Aangezien eVars blijvend moeten zijn - ze verlopen in de meeste gevallen op een bepaald punt na de huidige hit - stellen de servers deze vervolgens in `post_evar` op elke volgende afbeeldingsaanvraag. Deze wordt ingesteld op de laatste waarde die wordt doorgegeven aan het corresponderende eVar. Voor standaard eVars gebruikt Adobe Analytics de instelling `post_evar` kolom in plaats van de gewone kolom eVar om de waarde te bepalen van de eVar die krediet voor de gebeurtenis zou moeten worden verleend.
 
-Voor standaard eVars bepaalt de toewijzingsinstelling of de eerste of laatste eVar-waarde die tijdens een bepaalde periode is verzameld, wordt ingevoegd in de kolom `post_evar`. Als de Allocation-instelling voor een standaard eVar gelijk is aan &quot;Oorspronkelijke waarde (eerst)&quot;, wordt de eerste eVar die van de bezoeker wordt verzameld, ingevoegd in de kolom `post_evar` voor alle volgende afbeeldingsaanvragen. Dit gaat door voor alle toekomstige verzoeken die van browser van deze bezoeker worden verzonden tot de eVar volgens zijn &quot;Verloopt na&quot;het plaatsen verloopt.
+Voor standaard eVars bepaalt de toewijzingsinstelling of de eerste of laatste eVar-waarde die gedurende een bepaalde periode is verzameld, wordt ingevoegd in het `post_evar` kolom. Als de Allocation-instelling voor een standaard eVar gelijk is aan &quot;Oorspronkelijke waarde (eerst)&quot;, wordt de eerste eVar die van de bezoeker is verzameld, ingevoegd in het dialoogvenster `post_evar` voor alle volgende afbeeldingsaanvragen. Dit gaat door voor alle toekomstige verzoeken die van browser van deze bezoeker worden verzonden tot de eVar volgens zijn &quot;Verloopt na&quot;het plaatsen verloopt.
 
-Als de toewijzingsinstelling van een standaard eVar gelijk is aan &quot;Recentste (laatste)&quot;, wordt de meest recente eVar-waarde die bij de bezoeker is verzameld, in de kolom `post_evar` ingevuld voor alle volgende afbeeldingsaanvragen. De &quot;Recentste (Laatste)&quot;toewijzing impliceert dat de `post_evar` waarde telkens als zijn overeenkomstige eVar aan een nieuwe waarde in om het even welk beeldverzoek wordt geplaatst verandert. De toewijzing van de &quot;Originele Waarde (Eerste)&quot;impliceert dat de `post_evar` kolom niet over klappen verandert alhoewel zijn overeenkomstige eVar aan een verschillende waarde in een toekomstig beeldverzoek zou kunnen worden geplaatst.
+Als de toewijzingsinstelling van een standaard eVar gelijk is aan &quot;Recentste (laatste)&quot;, wordt de meest recente eVar die van de bezoeker is opgehaald, in het dialoogvenster `post_evar` voor alle volgende afbeeldingsaanvragen. &quot;Recentste (laatste)&quot; toewijzing houdt in dat de `post_evar` De waarde verandert telkens wanneer de corresponderende eVar wordt ingesteld op een nieuwe waarde in een afbeeldingsaanvraag. De toewijzing &quot;Oorspronkelijke waarde (eerste)&quot; houdt in dat de `post_evar` de kolom verandert niet over klappen alhoewel zijn overeenkomstige eVar aan een verschillende waarde in een toekomstig beeldverzoek zou kunnen worden geplaatst.
 
 **Instelling voor de toewijzing van eVar (binding) wijzigen**
 
@@ -116,7 +117,7 @@ Zoals eerder vermeld, hebben alle handelsversies van eVars met conversievariabel
 
 Het volgende gebeurt wanneer de toewijzingsinstelling van een eVar die de transactie aanbrengt (dat wil zeggen binding) gelijk is aan &quot;Oorspronkelijke waarde (eerst)&quot;: Alle producten die naast de kolom post_evar zijn ingesteld en die niet eerder zijn gebonden aan de corresponderende &quot;voorbewerkte&quot; eVar van de kolom post_evar, worden gebonden aan de waarde in de kolom post_evar.  Deze binding tussen eVar en product verandert nooit totdat de eVar verloopt volgens de instelling &quot;Na verlopen&quot; in de rapportsuite-instellingen.
 
-Telkens wanneer een afbeeldingsaanvraag voldoet aan de criteria die een al gebonden product anders zouden binden aan de laatst ingestelde waarde voor eVar, dwingt de instelling &quot;Oorspronkelijke waarde (eerst)&quot; de servers van de Adobe Analytics-gegevensverzameling dergelijke verdere pogingen te negeren. Het tegenovergestelde gebeurt bij het verhandelen van eVars met de instelling Toewijzing (binding) gelijk aan &quot;Recentste (laatste)&quot;. Telkens wanneer een afbeeldingsverzoek voldoet aan de criteria die een product binden aan een eVar voor handelsdoeleinden, bindt het product zich (en bindt het opnieuw) aan de meest recente waarde die in de eVar is doorgegeven, of aan de waarde die (altijd) in de kolom `post_evar` staat.
+Telkens wanneer een afbeeldingsaanvraag voldoet aan de criteria die een al gebonden product anders zouden binden aan de laatst ingestelde waarde voor eVar, dwingt de instelling &quot;Oorspronkelijke waarde (eerst)&quot; de servers van de Adobe Analytics-gegevensverzameling dergelijke verdere pogingen te negeren. Het tegenovergestelde gebeurt bij het verhandelen van eVars met de instelling Toewijzing (binding) gelijk aan &quot;Recentste (laatste)&quot;. Elke keer dat een afbeeldingsaanvraag voldoet aan de criteria die een product aan een eVar voor handelsdoeleinden binden, bindt het product zichzelf aan de meest recente waarde die in de eVar is doorgegeven, of aan de waarde die (altijd) in de `post_evar` kolom.
 
 Zoals eerder vermeld, staat de handelVars u toe om succesgebeurtenissen aan eVar waarden per-productbasis in plaats van per-bezoek/per-ordebasis toe te wijzen. Dus telkens als een gebonden product een succesgebeurtenis (zoals een winkelwagentje toevoegen of kopen) aan het product heeft gekoppeld, geeft de succesgebeurtenis zijn krediet aan zowel het product als de waarde van de eVar waar het product op dat moment aan gebonden is.
 
@@ -155,7 +156,7 @@ Door gebrek, bindt het plaatsen een product aan een het verhandelen eVar waarde 
 
 ### Herstellen
 
-Met de instelling Herstellen kunt u onmiddellijk alle waarden van eVar verlopen voor alle bezoekers die momenteel een waarde `post_evar` hebben in de Adobe Analytics backend-database. Het elimineert ook alle huidige product/eVar banden.
+Met de instelling Opnieuw instellen kunt u alle waarden van eVar onmiddellijk ‘verlopen’ voor alle bezoekers die momenteel een `post_evar` in de Adobe Analytics-back-enddatabase. Het elimineert ook alle huidige product/eVar banden.
 
 >[!IMPORTANT]
 >Adobe raadt u niet aan de instelling Opnieuw instellen te gebruiken, tenzij u van plan bent de eVar opnieuw te beginnen met een volledig &#39;schone lei&#39; aan gegevens vanaf het moment dat de resetten worden uitgevoerd.
@@ -232,14 +233,14 @@ Productsyntaxis is nog steeds handig wanneer
 * Meerdere producten met dezelfde product-id&#39;s hebben tegelijkertijd te maken met en
 * De eVars die aan dergelijke producten worden gebonden, moeten verschillende waarden per product-id hebben.
 
-Veel kledingproducten hebben bijvoorbeeld &#39;Onderliggende SKU&#39;s&#39;, die de grootte, kleur, stijl en andere kenmerken aangeven. Deze kenmerken scheiden één onderliggend product van andere producten die tot hetzelfde bovenliggende product behoren. Stel dat u besluit een gemiddeld blauw t-shirt en een groot rood t-shirt te kopen. Veronderstel dat beide overhemden de ouderproduct identiteitskaart van &quot;tshirt123&quot;hebben en `eVar10` is gevormd om kind SKUs te vangen. De variabelen op de pagina voor aankoopbevestiging worden als volgt ingesteld:
+Veel kledingproducten hebben bijvoorbeeld &#39;Onderliggende SKU&#39;s&#39;, die de grootte, kleur, stijl en andere kenmerken aangeven. Deze kenmerken scheiden één onderliggend product van andere producten die tot hetzelfde bovenliggende product behoren. Stel dat u besluit een gemiddeld blauw t-shirt en een groot rood t-shirt te kopen. Stel dat beide overhemden de oorspronkelijke product-id &quot;tshirt123&quot; hebben en `eVar10` is gevormd om kind SKUs te vangen. De variabelen op de pagina voor aankoopbevestiging worden als volgt ingesteld:
 
 ```
 s.events='purchase';
 s.products=';tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tshirt123-l-red"
 ```
 
-In dit geval krijgen zowel `eVar10` (childSKU) waarden van &quot;tshirt123-m-blue&quot; als &quot;tshirt123-l-red&quot; krediet voor de aankoop van hun respectieve instanties van product-id &quot;tshirt123&quot;.
+In dit geval zijn beide `eVar10` (childSKU) waarden van &quot;tshirt123-m-blue&quot; en &quot;tshirt123-l-red&quot; krijgen krediet voor de aankoop van hun respectieve exemplaren van product-id &quot;tshirt123&quot;.
 
 ### Uitdagingen met &quot;Recentste&quot; toewijzing
 
@@ -298,7 +299,7 @@ U hoeft zich geen zorgen te maken over het doorgeven van gegevens van pagina naa
 
 Zoals eerder is uitgelegd, hebben alle handelsversies die gebruikmaken van de syntaxis van de conversievariabele de toewijzingsinstelling &quot;Meest recent (Laatste)&quot;. Wanneer een eVar gelijk is aan een waarde, blijft die waarde bij alle volgende treffers (via de kolom post_evar) bestaan. Het blijft bestaan tot het aan een verschillende waarde wordt geplaatst of tot de eVar verloopt. Daarom binden alle producten waarmee iemand communiceert nadat de eVars zijn ingesteld, als deze nog niet aan deze eVars zijn gebonden, aan de waarden &#39;Meest recente (laatste)&#39; die in de eVar zijn doorgegeven.
 
-Aan de hand van ons bovenstaande voorbeeld is de waarde `eVar2` van &quot;sandalen&quot; en de waarde eVar1 van &quot;intern zoeken naar trefwoorden&quot;, enzovoort. blijven staan op alle pagina&#39;s die worden gezien nadat de sleutelwoordzoekopdracht plaatsvond. Ze blijven bestaan totdat de eVars met andere waarden worden overschreven. Een bezoeker klikt op een koppeling naar de productdetailpagina voor de product-id &quot;sandal123&quot; op de pagina met zoekresultaten met trefwoorden.  Vervolgens bindt de product-id &quot;sandal123&quot; (als deze nog niet is gebonden) zich aan elk van de waarden in de kolommen post_evar, of aan de eVar-waarden die zijn verzameld op de vorige pagina (zoekresultaten).
+Aan de hand van ons bovenstaande voorbeeld `eVar2` de waarde van &quot;sandalen&quot; en de eVar1-waarde van &quot;intern zoeken naar trefwoorden&quot;, enz. blijven staan op alle pagina&#39;s die worden gezien nadat de sleutelwoordzoekopdracht plaatsvond. Ze blijven bestaan totdat de eVars met andere waarden worden overschreven. Een bezoeker klikt op een koppeling naar de productdetailpagina voor de product-id &quot;sandal123&quot; op de pagina met zoekresultaten met trefwoorden.  Vervolgens bindt de product-id &quot;sandal123&quot; (als deze nog niet is gebonden) zich aan elk van de waarden in de kolommen post_evar, of aan de eVar-waarden die zijn verzameld op de vorige pagina (zoekresultaten).
 
 Er is nog één ding om met de Veranderlijke Syntaxis van de Omzetting te heroverwegen. Het is dat de bindende gebeurtenissen opstelling moeten zijn om een waarde van de eVar aan een product te binden. Als u een eVar voor handelsdoeleinden (in de eigen variabele) naast een product (in de productvariabele) in een Adobe Analytics-afbeeldingsaanvraag instelt, hoeft de eVar-waarde niet noodzakelijkerwijs aan het product te worden gebonden.  In plaats daarvan, bepaalt de Merchandising Bindende instelling van de Gebeurtenis, die in de Manager van de Reeks van het Rapport wordt geplaatst, de criteria die een waarde van de eVar aan een product binden
 
@@ -312,11 +313,11 @@ Dit is wat er gebeurt wanneer een van deze bindingsgebeurtenissen zich in een af
 Hier volgt een overzicht van de aanbevolen procedures. Met de beste resultaten kunnen ze de productzoekmethode eenvoudig implementeren. Adobe raadt aan dat clients elk van hun productzoekmethoden (in het algemeen) als volgt configureren:
 
 * Merchandising Enabled: Ingeschakeld
-* Verwisselingssyntaxis [a1/>: Conversievariabele syntaxis]
+* Merchandising [syntaxis]: Conversievariabele syntaxis
 * Toewijzing [binding]: Oorspronkelijke waarde (eerste)
 * Verlopen na: De hoeveelheid tijd die een product in een winkelwagentje blijft voordat het automatisch wordt verwijderd (bijvoorbeeld 14 dagen, 30 dagen, enz.).  Als dit niet het geval is, loopt u af na de gebeurtenis &quot;purchase&quot;
 * Type: Tekst
-* Verwisselende bindingsgebeurtenissen:  Productweergave, winkelwagentje toevoegen en aanschaffen
+* Verwisselende bindingsgebeurtenissen: Productweergave, winkelwagentje toevoegen en aanschaffen
 
 ## Wat doen Bindende Gebeurtenissen eigenlijk?
 
@@ -363,7 +364,7 @@ post_eVar4="non-browse";
 post_eVar5="non-cross sell";
 ```
 
-Veronderstel eVar1, eVar2, eVar3, eVar4, en eVar5 zijn gevormd om `prodView` als bindende gebeurtenis te gebruiken. Als om het even welk van deze eVars niet wordt gevormd om prodView als bindende gebeurtenis te gebruiken, dan zal het binden tussen dat (misconfigured) eVar en de productvariabele niet plaatsvinden.
+Veronderstel eVar1, eVar2, eVar3, eVar4, en eVar5 zijn gevormd om te gebruiken `prodView` als een bindingsgebeurtenis. Als om het even welk van deze eVars niet wordt gevormd om prodView als bindende gebeurtenis te gebruiken, dan zal het binden tussen dat (misconfigured) eVar en de productvariabele niet plaatsvinden.
 
 Binding produceert enkele zeer interessante resultaten, die in de waarde van de post_products kolom kunnen worden gezien. De binding transformeert de bovenstaande code en stelt nog een paar postkolommen in, als volgt:
 
@@ -380,13 +381,13 @@ Dit betekent dat met Binding &quot;de waarden van de Syntaxis van de Variabele v
 
 Wanneer een standaard eVar wordt verzonden in een de servervraag van Analytics, krijgt de waarde in zijn post_evar kolom altijd een Instantie die aan het wordt toegewezen. Instanties geven het aantal keren aan dat een eVar is ingesteld op een bepaalde waarde in een afbeeldingsaanvraag.
 
-Stel bijvoorbeeld dat `eVar10` een standaard-eVar is met [!UICONTROL Last Touch]-kenmerk. Als u `s.eVar10="hello world"` op om het even welke pagina plaatst, wordt de waarde van &quot;hello wereld&quot;overgegaan over tot post_evar10 kolom wanneer Adobe de slag verwerkt. De metrische varianten zijn gelijk aan &quot;1&quot; voor elke `eVar10`-instelling van `hello world`. Onthoud dat een instantie niet altijd wordt opgenomen wanneer de kolom post_evar een waarde heeft. In plaats daarvan bepaalt de kolom post_evar welke waarde de instantie krijgt wanneer een instantie wordt geregistreerd.
+Stel bijvoorbeeld dat `eVar10` is een standaard eVar met [!UICONTROL Last Touch] attributie. Als u `s.eVar10="hello world"` op om het even welke pagina, wordt de waarde van &quot;hello wereld&quot;overgegaan tot post_evar10 kolom wanneer Adobe de slag verwerkt. De metrische instanties zijn gelijk aan &quot;1&quot; voor elk individu `eVar10` instellen van `hello world`. Onthoud dat een instantie niet altijd wordt opgenomen wanneer de kolom post_evar een waarde heeft. In plaats daarvan bepaalt de kolom post_evar welke waarde de instantie krijgt wanneer een instantie wordt geregistreerd.
 
 Instanties voor een eVar geven toewijzing aan de waarden die de eVar verzamelt. Maar dit gebeurt alleen wanneer een product dat aan de waarde van de eVar-waarde gebonden was, tegelijkertijd &quot;interactie&quot; had.
 
-Als u bijvoorbeeld `s.eVar1="Internal Keyword Search"` op zichzelf instelt, wordt aan de eVar1-waarde van &quot;Intern trefwoord zoeken&quot; geen enkele Instantie-metrisch krediet toegekend. Een instantie WORDT op dat punt geregistreerd. Nochtans, tenzij een product aan die &quot;Interne waarde van het Sleutelwoord van het Onderzoek&quot;tezelfdertijd `eVar1` wordt geplaatst wordt gebonden, wordt de instantie toegeschreven aan het Niet gespecificeerde emmertje. Met andere woorden, de waarde `eVar1` van &quot;Interne Onderzoek van het Sleutelwoord&quot;kan een Instantie krijgen. Maar dit gebeurt alleen wanneer een product dat is gebonden aan de waarde van &quot;Intern trefwoord zoeken&quot; wordt weergegeven in de productvariabele in dezelfde afbeeldingsaanvraag.
+Stel bijvoorbeeld `s.eVar1="Internal Keyword Search"` op zich geeft geen metrische creditering van de Instantie aan de waarde eVar1 van &quot;Interne Onderzoek van het Sleutelwoord&quot;. Een instantie WORDT op dat punt geregistreerd. Nochtans, tenzij een product aan die &quot;Interne waarde van het Onderzoek van het Sleutelwoord&quot;tezelfdertijd gebonden is `eVar1` is ingesteld, wordt de instantie toegewezen aan het niet-opgegeven emmertje. Met andere woorden: `eVar1` De waarde van &quot;Intern Sleutelwoord Onderzoek&quot; kan een Instantie krijgen. Maar dit gebeurt alleen wanneer een product dat is gebonden aan de waarde van &quot;Intern trefwoord zoeken&quot; wordt weergegeven in de productvariabele in dezelfde afbeeldingsaanvraag.
 
-Samengevat, zonder extra configuratie, is metrisch uit-van-de-doos Instanties voor een koopvaardigende eVar minder dan nuttig. Gelukkig geeft Adobe [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en) vrij. Hiermee kunt u meerdere attributiemodellen toepassen op elke aangepaste metrische waarde die Adobe Analytics verzamelt. Metriek die deze attributiemodellen toepassen gebruikt niet de waarden in de post_evar kolommen of de waarden die aan om het even welk bepaald product worden gebonden. In plaats daarvan gebruiken deze meetgegevens alleen de waarden die via de afbeeldingsaanvragen zelf worden doorgegeven (of waarden die via de verwerkingsregels van Adobe Analytics worden vastgelegd). U kunt de eigenschappen in Attribution IQ gebruiken om een correct toegewezen instanties metrisch voor alle koopwaar te krijgen die de Veranderlijke Syntaxis van de Omzetting gebruiken.
+Samengevat, zonder extra configuratie, is metrisch uit-van-de-doos Instanties voor een koopvaardigende eVar minder dan nuttig. Gelukkig kwam Adobe vrij [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en). Hiermee kunt u meerdere attributiemodellen toepassen op elke aangepaste metrische waarde die Adobe Analytics verzamelt. Metriek die deze attributiemodellen toepassen gebruikt niet de waarden in de post_evar kolommen of de waarden die aan om het even welk bepaald product worden gebonden. In plaats daarvan gebruiken deze meetgegevens alleen de waarden die via de afbeeldingsaanvragen zelf worden doorgegeven (of waarden die via de verwerkingsregels van Adobe Analytics worden vastgelegd). U kunt de eigenschappen in Attribution IQ gebruiken om een correct toegewezen instanties metrisch voor alle koopwaar te krijgen die de Veranderlijke Syntaxis van de Omzetting gebruiken.
 
 ![](assets/attribution-select.png)
 
