@@ -2,13 +2,12 @@
 description: Gebruiksvoorbeelden van datatabellen en segmenten, en gebruikscenario's voor Analysis Workspace.
 keywords: Analysis Workspace
 title: Analysis Workspace-gebruiksscenario's
-feature: Grondbeginselen van rapporten en analyses
+feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 99%
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -62,3 +61,8 @@ Stel dat u marketinganalist bent voor een retailer in outdoorskleding en u wordt
 
    Nu kunt u het rapport [delen](/help/analyze/analysis-workspace/curate-share/curate.md) met de merchandisingteams.
 
+## Cross-sell Analysis in Analysis Workspace
+
+Hier volgt een video over dit onderwerp:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
