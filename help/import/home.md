@@ -2,10 +2,10 @@
 title: Handleiding voor importeren van analysemogelijkheden
 description: Deze gids verklaart hoe te om gegevens in Analytics te krijgen gebruikend Gegevensbronnen, de Invoeging API van Gegevens, en de Verbindingen van Gegevens.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 83%
+source-wordcount: '140'
+ht-degree: 78%
 
 ---
 
@@ -19,7 +19,11 @@ In deze handleiding wordt uitgelegd hoe u gegevens in Analytics kunt opnemen. He
 * **[API voor gegevensinvoeging](c-data-insertion-api/c-data-insertion-api.md)**: Gegevens rechtstreeks via een API naar de gegevensverzameling van Adobe verzenden.
 * **[Data Connectors](data-connectors/getting-started-data-connectors.md)**: Werk samen met een ondersteunde derde partij om hun gegevens over te brengen naar Adobe Analytics en uw rapportenpakket te verrijken.
 
-## Meer gebruikershandleidingen voor Analytics
+Hier volgt een video-overzicht van Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+## Meer Analytics-gebruikershandleidingen
 
 [Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html)
 

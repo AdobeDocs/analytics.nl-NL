@@ -2,16 +2,20 @@
 title: Adobe Analytics implementeren
 description: Implementeer Adobe Analytics op uw website, eigenschap of applicatie.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 77%
+source-wordcount: '371'
+ht-degree: 75%
 
 ---
 
 # Adobe Analytics implementeren
 
 ![Banner](../../assets/doc_banner_implement.png)
+
+Hier volgt een video-overzicht van Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 Voor Adobe is code op uw site of applicatie vereist om data naar de servers voor dataverzameling van Adobe te verzenden. De volgende stappen geven aan hoe een normale implementatie werkt.
 
@@ -21,7 +25,7 @@ Voor Adobe is code op uw site of applicatie vereist om data naar de servers voor
 De JavaScript-code verzendt een afbeeldingsaanvraag voor Adobe-dataverzamelingservers. De paginadata die u in uw implementatie hebt gedefinieerd, worden verzonden als onderdeel van een querytekenreeks in deze afbeeldingsaanvraag.
 
 4. Adobe retourneert een transparante pixelafbeelding.
-5. Adobe-servers slaan verzamelde gegevens op in een of meer *rapportreeksen*.
+5. Adobe-servers slaan verzamelde gegevens op in een of meer *rapportsuites*.
 6. De data van de rapportsuite worden ingevuld in rapporten die u in een webbrowser kunt openen.
 
    Het uitvoeren van de JavaScript-code gebeurt snel en heeft geen merkbare invloed op de laadtijden van de pagina. Op deze manier kunt u de pagina&#39;s tellen die worden weergegeven wanneer een bezoeker op **[!UICONTROL Reload]** of **[!UICONTROL Back]** klikt om naar een pagina te gaan, omdat de JavaScript-code ook wordt uitgevoerd wanneer de pagina uit de cache wordt opgehaald.
