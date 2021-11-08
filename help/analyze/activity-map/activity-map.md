@@ -5,9 +5,9 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '292'
 ht-degree: 26%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 26%
 # Overzicht van Activity Map
 
 >[!NOTE]
->Leer hoe de Activity Map Toepassingen van de enig-Pagina (SPA) op onze [FAQ](/help/analyze/activity-map/activitymap-faq.md) pagina steunt.
+>Leer hoe Activity Map toepassingen van één pagina (SPA) op onze steunt [Veelgestelde vragen](/help/analyze/activity-map/activitymap-faq.md) pagina.
 
 >[!IMPORTANT]
 >Op 16 januari 2020 begon Adobe Analytics naar een nieuw domein te gaan: https://experience.adobe.com/analytics. Door deze wijziging kan de Activity Map in bepaalde gevallen stoppen met werken voor bepaalde klanten. Zoals u weet, wordt de Activity Map ingespoten in de klantenpagina in iframe (één iframe voor de toolbar van de Activity Map en één iframe voor het Onderste Comité van de Activity Map). Mogelijk hebt u op uw webpagina een Content Security Policy-instructie ingesteld voor &quot;frame-src&quot; die &quot;.adobe.com&quot; niet bevat. In dat geval werkt de Activity Map niet meer aan een dergelijke webpagina.
@@ -24,21 +24,17 @@ Activity Map is een Adobe Analytics-toepassing die is ontworpen om linkactivitei
 
 Met Activity Map kunt u verschillende weergaven instellen om visueel de versnelling van klantactiviteiten te identificeren, marketinginitiatieven te kwantificeren en op de behoeften en het gedrag van het publiek in te spelen.
 
-Hier volgt een video-overzicht van de Activity Map:
-
->[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
-
-**Aan de slag voor beheerders**
+## Aan de slag voor beheerders
 
 * [Activity Map inschakelen](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [Code voor voorbeeldimplementatie](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**Aan de slag voor gebruikers**
+## Aan de slag voor gebruikers
 
 * [Browserplug-ins voor Activity Map installeren](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Activity Map starten](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**Activity Mappen**
+## Activity Mappen
 
 * [Robuuste link tracking](lnk-tracking-overview.md)
 * [Standaardmodus versus Live-modus](activitymap-standard-live.md)
@@ -57,3 +53,13 @@ Hier volgt een video-overzicht van de Activity Map:
 * [Activity Map-gebruikersinterface](activitymap-user-interface.md)
 * [Activity Map-rapportage in Analytics](activitymap-reporting-analytics.md)
 * [Problemen met browserextensies oplossen](troubleshooting-browser-extensions.md)
+
+## Video&#39;s
+
+Video-overzicht van Activity Map:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
+
+Activity Map inschakelen, uitschakelen en aanpassen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25878/?quality=12)

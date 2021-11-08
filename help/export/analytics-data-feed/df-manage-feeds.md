@@ -1,23 +1,26 @@
 ---
 title: Gebruikersinterface voor gegevensinvoer
 description: Leer hoe te om de interface van de gegevensvoer te navigeren.
-translation-type: tm+mt
-source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
+exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '636'
 ht-degree: 1%
 
 ---
-
 
 # Gegevensfeeds beheren
 
 Met de gegevensvoedermanager kunt u gegevensfeeds voor uw organisatie maken, bewerken en verwijderen. Als u toestemmingen hebt om tot de manager van de gegevensvoer toegang te hebben, kunt u gegevensvoer voor alle rapportreeksen beheren zichtbaar aan u.
 
+Hier volgt een video over de interface van Data Feeds Management:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+
 Voer de volgende stappen uit om toegang te krijgen tot gegevensbeheer:
 
-1. Meld u aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
-2. Klik op het 9-rastermenu in de rechterbovenhoek en klik vervolgens op [!UICONTROL Analytics].
+1. Aanmelden bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
+2. Klik in het menu met 9-rasters rechtsboven en klik vervolgens op [!UICONTROL Analytics].
 3. Klik in het bovenste menu op [!UICONTROL Admin] > [!UICONTROL Data Feeds].
 
 ![Menu Gegevensinvoer](assets/AdminMenu.png)
@@ -28,7 +31,7 @@ Wanneer het aankomen aan de pagina van de gegevensvoedermanager, kijkt de interf
 
 ![Gegevensfeeds](assets/feeds.png)
 
-Als er geen feeds zijn ingesteld, wordt op de pagina een [!UICONTROL Create New Data Feed]-knop weergegeven.
+Als er geen feeds zijn ingesteld, wordt op de pagina een [!UICONTROL Create New Data Feed] knop.
 
 ### Filters en zoeken
 
@@ -48,7 +51,7 @@ Klik op het tabblad Taken om afzonderlijke taken weer te geven die door elk van 
 
 ### Toevoegen
 
-Klik bij de tabbladen feeds en jobs op + [!UICONTROL Add] om een nieuwe feed te maken. Zie [Een feed toevoegen](create-feed.md) voor meer informatie.
+Klik op + bij de tabbladen feeds en taken [!UICONTROL Add] om een nieuwe feed te maken. Zie [Een feed toevoegen](create-feed.md) voor meer informatie .
 
 ### Kolommen
 
@@ -56,14 +59,14 @@ Elk gecreeerd voer toont verscheidene kolommen die informatie over het verstrekk
 
 ![Kolompictogram](assets/cols.jpg)
 
-* **Naam** van feed: Vereiste kolom. Geeft de naam van de feed weer.
-* **ID** feed: Hiermee geeft u de feed-id weer, een unieke id.
+* **Naam van feed**: Vereiste kolom. Geeft de naam van de feed weer.
+* **Feed-id**: Hiermee geeft u de feed-id weer, een unieke id.
 * **Rapportsuite**: De rapportsuite waarin de feed verwijst naar gegevens van.
-* **ID** rapportsuite: De unieke id van de rapportsuite.
+* **ID van rapportsuite**: De unieke id van de rapportsuite.
 * **Gegevenskolommen**: Welke gegevenskolommen actief zijn voor het voer. In de meeste gevallen zijn er te veel kolommen om in deze indeling weer te geven.
 * **Interval**: Vermeld of het diervoeder per uur of per dag is.
 * **Doeltype**: Het doeltype voor de feed. Bijvoorbeeld FTP, Amazon S3 of Azure.
-* **Host** bestemming: De locatie waar het bestand wordt geplaatst. Bijvoorbeeld, `ftp.example.com`.
+* **Host bestemming**: De locatie waar het bestand wordt geplaatst. Bijvoorbeeld, `ftp.example.com`.
 * **Eigenaar**: De gebruikersaccount waarmee de feed is gemaakt.
 * **Status**: De status van het diervoeder.
    * Actief: Het voer is operationeel.
@@ -80,8 +83,8 @@ Elk gecreeerd voer toont verscheidene kolommen die informatie over het verstrekk
 
 Klik op het selectievakje naast een gegevensfeed om beschikbare acties weer te geven.
 
-* **Taakgeschiedenis**: Alle taken weergeven die aan deze gegevensfeeds zijn gekoppeld. Neemt u automatisch aan [beheer baaninterface](df-manage-jobs.md).
-* **Verwijderen**: Hiermee verwijdert u de gegevensfeed en stelt u de status in op  [!UICONTROL Deleted].
-* **Kopiëren**: Hiermee  [maakt u een nieuwe ](create-feed.md) feed met alle instellingen van de huidige feed. U kunt een gegevensfeed niet kopiëren als er meerdere zijn geselecteerd.
-* **Pauzeren**: Stopt de verwerking voor de feed en stelt de status in op  [!UICONTROL Inactive].
+* **Taakgeschiedenis**: Alle taken weergeven die aan deze gegevensfeeds zijn gekoppeld. Hiermee gaat u automatisch naar de [interface voor beheer van taken](df-manage-jobs.md).
+* **Verwijderen**: Hiermee verwijdert u de gegevensfeed en stelt u de status in op [!UICONTROL Deleted].
+* **Kopiëren**: Neemt u [een nieuwe feed maken](create-feed.md) met alle instellingen van de huidige feed. U kunt een gegevensfeed niet kopiëren als er meerdere zijn geselecteerd.
+* **Pauzeren**: Stopt de verwerking van de feed en stelt de status in op [!UICONTROL Inactive].
 * **Activeren**: Alleen beschikbaar voor inactieve feeds. Hiermee worden verwerkingsgegevens opgehaald waar deze zijn weggelaten, en worden zo nodig datums teruggezet.

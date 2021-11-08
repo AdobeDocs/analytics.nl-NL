@@ -1,12 +1,12 @@
 ---
 title: Attributiemodellen en terugzoekvensters
 description: Hoe verschillende soorten attributie krediet verdelen tussen dimensie-items.
-feature: Attributie
+feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 Het attribuutconcept in Adobe Analytics vereist twee componenten:
 
-* **Attributiemodel:** Het model beschrijft de distributie van conversies naar de hits in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking.
-* **Het terugkijkvenster van de Attributie:** Het terugkijkvenster beschrijft welke groepen klappen voor elk model worden overwogen. Bijvoorbeeld bezoek of bezoeker.
+* **Attributiemodel:** Het model beschrijft de distributie van omzettingen in de klappen in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking.
+* **Het terugkijkvenster van de attributen:** In het terugzoekvenster wordt beschreven welke groepen hits worden beschouwd voor elk model. Bijvoorbeeld bezoek of bezoeker.
 
 ## Attributiemodellen
 
@@ -30,7 +30,7 @@ Het attribuutconcept in Adobe Analytics vereist twee componenten:
 | ![J-Shaped](assets/j_shaped.png) | J-Shaped | Geeft 60% krediet aan de laatste interactie, 20% krediet aan de eerste interactie, en verdeelt de resterende 20% aan om het even welke aanraakpunten tussenin. Voor conversies met één aanraakpunt wordt 100% krediet gegeven. Voor conversies met twee aanraakpunten wordt 75% aan de laatste interactie besteed en wordt 25% aan de eerste. | Dit model is ideaal voor diegenen die aan vinders en sluiters voorrang geven, maar zich willen concentreren op het sluiten van interacties. De J-Vormen attributie wordt vaak gebruikt door teams die een evenwichtigere benadering kiezen en meer krediet aan kanalen willen geven die een omzetting sluiten. |
 | ![Omgekeerde J-vorm](assets/inverse_j.png) | Omgekeerd J | Biedt 60% krediet aan het eerste aanraakpunt, 20% aan het laatste aanraakpunt en verdeelt de resterende 20% aan de tussenliggende aanraakpunten. Voor conversies met één aanraakpunt wordt 100% krediet gegeven. Voor conversies met twee aanraakpunten wordt 75% aan de eerste interactie toegekend en wordt 25% aan de laatste toegekend. | Dit model is ideaal voor diegenen die prioriteit geven aan vinders en sluiters, maar zich willen richten op het zoeken naar interacties. De attributie Inverse J wordt gebruikt door teams die een evenwichtigere benadering kiezen en meer krediet willen geven aan kanalen die een omzetting in gang hebben gezet. |
 | ![Aangepast](assets/custom.png) | Aangepast | Hiermee kunt u de gewichten opgeven die u wilt geven aan de eerste aanraakpunten, de laatste aanraakpunten en de tussenliggende aanraakpunten. De opgegeven waarden worden genormaliseerd tot 100%, zelfs als de ingevoerde aangepaste getallen niet bij 100 komen. Voor conversies met één aanraakpunt wordt 100% krediet gegeven. Voor interactie met twee aanraakpunten wordt de middelste parameter genegeerd. De eerste en laatste aanraakpunten worden vervolgens genormaliseerd tot 100% en de kredieten worden dienovereenkomstig toegewezen. | Dit model is ideaal voor diegenen die volledige controle over hun attributiemodel willen en specifieke behoeften hebben die andere attributiemodellen niet vervullen. |
-| ![Tijdverlies](assets/time_decay.png) | Verval | Volgt een exponentieel verval met een aangepaste parameter voor de halfwaardetijd, waarbij de standaardwaarde 7 dagen is. Het gewicht van elk kanaal is afhankelijk van de hoeveelheid tijd die is verstreken tussen het starten van het aanraakpunt en de uiteindelijke conversie. De formule die wordt gebruikt om krediet te bepalen is `2^(-t/halflife)`, waarbij `t` de hoeveelheid tijd tussen een aanraakpunt en een omzetting is. Alle aanraakpunten worden vervolgens genormaliseerd tot 100%. | Ideaal voor teams die regelmatig videoreclame uitvoeren of op de markt komen tegen gebeurtenissen met een vooraf bepaalde datum. Hoe langer een conversie plaatsvindt na een marketinggebeurtenis, hoe minder krediet wordt gegeven. |
+| ![Tijdverlies](assets/time_decay.png) | Verval | Volgt een exponentieel verval met een aangepaste parameter voor de halfwaardetijd, waarbij de standaardwaarde 7 dagen is. Het gewicht van elk kanaal is afhankelijk van de hoeveelheid tijd die is verstreken tussen het starten van het aanraakpunt en de uiteindelijke conversie. De formule die wordt gebruikt om het krediet te bepalen is `2^(-t/halflife)`, waarbij `t` is de hoeveelheid tijd tussen een aanraakpunt en een conversie. Alle aanraakpunten worden vervolgens genormaliseerd tot 100%. | Ideaal voor teams die regelmatig videoreclame uitvoeren of op de markt komen tegen gebeurtenissen met een vooraf bepaalde datum. Hoe langer een conversie plaatsvindt na een marketinggebeurtenis, hoe minder krediet wordt gegeven. |
 | ![Deelname](assets/participation.png) | Deelname | Biedt 100% krediet aan alle unieke aanraakpunten. Het totale aantal omzettingen wordt opgevoerd in vergelijking met andere attributiemodellen. De participatie dedupliceert kanalen die veelvoudige tijden worden gezien. | Uitstekend om te begrijpen hoe vaak klanten aan een bepaalde interactie worden blootgesteld. Mediaorganisaties gebruiken dit model vaak om de snelheid van de inhoud te berekenen. De detailhandelorganisaties gebruiken vaak dit model om te begrijpen welke delen van hun plaats aan omzetting kritiek zijn. |
 | ![Algorithmic](assets/algorithmic.png) | [Algorithmic](algorithmic.md) | Gebruikt statistische technieken om dynamisch de optimale allocatie van krediet voor de geselecteerde maatstaf vast te stellen. | Nuttig om guesswork of heuristiek te voorkomen wanneer u het juiste toewijzingsmodel voor uw bedrijf kiest. |
 
@@ -38,11 +38,15 @@ Het attribuutconcept in Adobe Analytics vereist twee componenten:
 
 Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken om aanraakpunten op te nemen. Attributiemodellen die meer krediet geven aan de eerste interacties zien grotere verschillen bij het weergeven van verschillende terugkijkvensters.
 
-* **Bezoek het terugkijkvenster:** kijkt terug naar het begin van het bezoek waar een omzetting plaatsvond. De terugkijkvensters van het bezoek zijn smal, aangezien zij niet voorbij het bezoek kijken. De raadplegingsvensters van het bezoek respecteren de gewijzigde bezoekdefinitie in virtuele rapportreeksen.
+* **Het terugkijkvenster van de bezoek:** Kijkt terug naar het begin van het bezoek waar een conversie plaatsvond. De terugkijkvensters van het bezoek zijn smal, aangezien zij niet voorbij het bezoek kijken. De raadplegingsvensters van het bezoek respecteren de gewijzigde bezoekdefinitie in virtuele rapportreeksen.
 
-* **Het terugkijkvenster van de bezoeker:** Zoekt naar alle bezoeken file tot de eerste van de maand van de huidige datumwaaier. De terugkijkvensters van de bezoeker zijn breed, aangezien zij vele bezoeken kunnen overspannen. De terugkijker van de bezoeker overweegt alle waarden van het begin van de maand van de de datumwaaier van het rapport. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de terugzoekdatum van de bezoeker 1 september tot en met 30 september.
+* **Het terugkijkvenster van de bezoeker:** Kijkt naar alle bezoeken terug tot de eerste van de maand van de huidige datumwaaier. De terugkijkvensters van de bezoeker zijn breed, aangezien zij vele bezoeken kunnen overspannen. De terugkijker van de bezoeker overweegt alle waarden van het begin van de maand van de de datumwaaier van het rapport. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de terugzoekdatum van de bezoeker 1 september tot en met 30 september.
 
-* **Aangepast terugkijkvenster:** Hiermee kunt u het attributievenster buiten het bereik van de rapportdatum uitvouwen, tot maximaal 90 dagen. Aangepaste terugzoekvensters worden geëvalueerd bij elke conversie in de rapportageperiode. Voor een conversie die bijvoorbeeld op 20 februari plaatsvindt, zou een terugkijkvenster van 10 dagen alle afmetingsaanraakpunten van 10 tot 20 februari in het attributiemodel evalueren.
+* **Aangepast terugzoekvenster:** Hiermee kunt u het toewijzingsvenster langer maken dan het bereik van de rapportdatum, tot maximaal 90 dagen. Aangepaste terugzoekvensters worden geëvalueerd bij elke conversie in de rapportageperiode. Voor een conversie die bijvoorbeeld op 20 februari plaatsvindt, zou een terugkijkvenster van 10 dagen alle afmetingsaanraakpunten van 10 tot 20 februari in het attributiemodel evalueren.
+
+   Hier volgt een video over aangepaste terugzoekvensters:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
 
 ## Voorbeeld
 
@@ -54,15 +58,15 @@ Bekijk het volgende voorbeeld:
 
 Afhankelijk van het terugkijkvenster en het attributiemodel, ontvangen de kanalen verschillende kredieten. Hieronder volgen enkele belangrijke voorbeelden:
 
-* Met **first touch** en een **visit lookback window**, kijkt de attributie naar slechts het derde bezoek. Tussen e-mail en display was e-mail de eerste, dus e-mail krijgt 100% krediet voor de aankoop van $50.
-* Met behulp van **first touch** en een **bezoekersvenster opzoeken**, bekijkt de attributie alle drie de bezoeken. De betaalde zoekopdracht was de eerste, dus krijgt deze 100% krediet voor de aankoop van $50.
-* Met behulp van **linear** en een **visit lookback window** wordt de creditering verdeeld tussen e-mail en de weergave. Beide kanalen krijgen elk $25 krediet.
-* Met behulp van **linear** en een **terugkijkvenster van bezoekers**, wordt de creditering verdeeld tussen betaalde onderzoek, sociale, e-mail, en vertoning. Elk kanaal krijgt $12,50 krediet voor deze aankoop.
-* Met behulp van **J-vormig** en een **terugkijkvenster van de bezoeker**, wordt de creditering verdeeld tussen betaalde onderzoek, sociale, e-mail, en vertoning.
+* Gebruiken **eerste aanraking** en **terugzoekvenster bezoeken** De toeschrijving gaat alleen naar het derde bezoek. Tussen e-mail en display was e-mail de eerste, dus e-mail krijgt 100% krediet voor de aankoop van $50.
+* Gebruiken **eerste aanraking** en **terugkijkvenster bezoeker** De toeschrijving kijkt naar alle drie de bezoeken. De betaalde zoekopdracht was de eerste, dus krijgt deze 100% krediet voor de aankoop van $50.
+* Gebruiken **lineair** en **terugzoekvenster bezoeken**, krediet wordt verdeeld tussen e-mail en weergave. Beide kanalen krijgen elk $25 krediet.
+* Gebruiken **lineair** en **terugkijkvenster bezoeker** De creditering wordt verdeeld tussen betaalde zoekopdrachten, sociale gegevens, e-mailgegevens en weergavegegevens. Elk kanaal krijgt $12,50 krediet voor deze aankoop.
+* Gebruiken **J-vormig** en **terugkijkvenster bezoeker** De creditering wordt verdeeld tussen betaalde zoekopdrachten, sociale gegevens, e-mailgegevens en weergavegegevens.
    * 60% krediet wordt gegeven aan vertoning, voor $30.
    * 20% krediet wordt gegeven voor betaalde zoekopdrachten, voor $10.
    * De resterende 20% is verdeeld tussen sociale media en e-mail, wat elk $5 geeft.
-* Met **Tijdverlies** en een **terugkijkvenster van de bezoeker**, wordt de krediet verdeeld tussen betaalde onderzoek, sociale, e-mail, en vertoning. De standaardhalfwaardetijd van 7 dagen gebruiken:
+* Gebruiken **Tijdverlies** en **terugkijkvenster bezoeker** De creditering wordt verdeeld tussen betaalde zoekopdrachten, sociale gegevens, e-mailgegevens en weergavegegevens. De standaardhalfwaardetijd van 7 dagen gebruiken:
    * Tussenruimte van 0 dagen tussen aanraakpunt weergeven en conversie. `2^(-0/7) = 1`
    * Tussenruimte van 0 dagen tussen aanraakpunt en conversie via e-mail. `2^(-0/7) = 1`
    * Tussenruimte van 6 dagen tussen sociale aanraakpunten en conversie. `2^(-6/7) = 0.552`

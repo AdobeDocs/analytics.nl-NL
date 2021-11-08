@@ -3,13 +3,13 @@ description: Afmetingen en dimensies in Analysis Workspace onderverdelen.
 keywords: Analysis Workspace
 title: Uitsplitsingsdimensies
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Basisprincipes van werkruimte
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 15%
+source-wordcount: '216'
+ht-degree: 16%
 
 ---
 
@@ -19,8 +19,8 @@ Afmetingen en dimensies in Analysis Workspace onderverdelen.
 
 U kunt uw data onbeperkt voor al uw specifieke vereisten opsplitsen, query&#39;s bouwen met relevante metrics, dimensies, segmenten, tijdlijnen en andere uitsplitsingswaarden voor de analyse.
 
-1. [Maak een ](/help/analyze/analysis-workspace/home.md) project met een gegevenstabel.
-1. Klik in de datatabel met de rechtermuisknop op een regelitem en selecteer **[!UICONTROL Breakdown]** > *`<item>`*.
+1. [Een project maken](/help/analyze/analysis-workspace/home.md) met een datatabel.
+1. Klik in de gegevenstabel met de rechtermuisknop op een regelitem en selecteer **[!UICONTROL Breakdown]** > *`<item>`*.
 
    ![Stap Resultaat](assets/fa_data_table_actions.png)
 
@@ -30,12 +30,22 @@ U kunt uw data onbeperkt voor al uw specifieke vereisten opsplitsen, query&#39;s
    >
    >Het aantal uitsplitsingen dat in de tabel moet worden weergegeven, is beperkt tot 200. Deze limiet neemt toe voor exportuitsplitsingen.
 
-[Dimension en metriek toevoegen aan uw project in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html?lang=en)  (11:39)
-
-[Werken met Dimension in een tabel](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html)  voor vrije vorm (15:35)
-
 ## Toewijzingsmodellen toepassen op uitsplitsingen
 
-Voor elke uitsplitsing binnen een tabel kan ook een toewijzingsmodel worden toegepast. Dit attributiemodel kan hetzelfde zijn of verschillen van de bovenliggende kolom. Bijvoorbeeld, kunt u lineaire Orden op uw afmeting van de Kanalen van de Marketing analyseren maar U-Vormde Orden op de specifieke het volgen codes binnen een Kanaal toepassen. Als u het toewijzingsmodel wilt bewerken dat is toegepast op een indeling, beweegt u de muisaanwijzer over het splitsingsmodel en klikt u op **[!UICONTROL Edit]**:
+Voor elke uitsplitsing binnen een tabel kan ook een toewijzingsmodel worden toegepast. Dit attributiemodel kan hetzelfde zijn of verschillen van de bovenliggende kolom. Bijvoorbeeld, kunt u lineaire Orden op uw afmeting van de Kanalen van de Marketing analyseren maar U-Vormde Orden op de specifieke het volgen codes binnen een Kanaal toepassen. Als u het toewijzingsmodel wilt bewerken dat op een indeling is toegepast, plaatst u de muisaanwijzer boven het indelingsmodel en klikt u op **[!UICONTROL Edit]**:
 
 ![Onderbrekingsinstellingen](assets/breakdown_settings.png)
+
+## Video&#39;s
+
+Afmetingen en metriek toevoegen aan uw project in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
+
+Werken met afmetingen in een tabel voor vrije vorm:
+
+>[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
+
+Hier volgt een video over afmetingsonderverdelingen op positie:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)

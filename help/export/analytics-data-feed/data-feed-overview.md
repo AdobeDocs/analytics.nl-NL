@@ -4,9 +4,9 @@ keywords: clickStream;data feed;datafeed;Data Feed
 title: Overzicht van gegevensinvoer voor analyse
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 5%
 
 ---
@@ -28,43 +28,47 @@ Zorg ervoor dat u aan alle volgende vereisten voldoet voordat u gegevensfeeds ge
 1. Meld u met uw Adobe ID aan bij [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 2. Klik op het pictogram met 9 vierkantjes rechtsboven in het venster en klik vervolgens op het gekleurde Analytics-logo.
 3. Navigeer in de bovenste navigatiebalk naar Beheer > Gegevensfeeds.
-4. Klik op [!UICONTROL Add]. Er wordt een nieuwe pagina weergegeven met drie hoofdcategorieën: [!UICONTROL Feed information], [!UICONTROL Destination] en [!UICONTROL Data Column Definitions].
-5. Vul [!UICONTROL Feed Information] velden in.
+4. Klik op [!UICONTROL Add]. Er wordt een nieuwe pagina weergegeven met drie hoofdcategorieën: [!UICONTROL Feed information], [!UICONTROL Destination], en [!UICONTROL Data Column Definitions].
+5. Uitvullen [!UICONTROL Feed Information] velden.
    * Naam: Elke gewenste naam, zoals &quot;Gegevensinvoer testen&quot;.
    * Rapportsuite: Selecteer de gewenste rapportsuite.
    * E-mail indien voltooid: Voer uw e-mail in.
    * Diervoederinterval: Selecteer het gewenste interval (per uur of per dag).
-   * Vertraging bij verwerking: Kan als [!UICONTROL No Delay] worden verlaten.
+   * Vertraging bij verwerking: Kan worden gelaten zoals [!UICONTROL No Delay].
    * Begin- en einddatum: Selecteer een begindatum van enkele dagen geleden en vandaag als einddatum.
-6. Vul [!UICONTROL Destination] velden in.
+6. Uitvullen [!UICONTROL Destination] velden.
    * Type: FTP
    * Host: Voer de gewenste FTP-doel-URL in. Bijvoorbeeld, `ftp://ftp.omniture.com`.
    * Pad: Kan leeg blijven
    * Gebruikersnaam: Voer de gebruikersnaam in die u wilt aanmelden bij de FTP-site.
    * Wachtwoord en wachtwoord bevestigen: Voer het wachtwoord in om u aan te melden bij de FTP-site.
-7. [!UICONTROL Data Column Definitions] invullen.
+7. Uitvullen [!UICONTROL Data Column Definitions].
    * Selecteer de meest recente sjabloon &#39;All Adobe Columns&#39; in de vervolgkeuzelijst.
    * Compressie-indeling: Gzip
    * Type verpakking: Meerdere bestanden
    * Manifest: Geen bestand
-8. Klik in de rechterbovenhoek op [!UICONTROL Save].
+8. Klikken [!UICONTROL Save] in de rechterbovenhoek.
 9. Als de gegevens eenmaal zijn opgeslagen, worden historische gegevens verwerkt. Wanneer de gegevens een dag lang zijn verwerkt, wordt het bestand op de FTP-site geplaatst.
 10. Meld u aan bij de FTP-site met Windows Verkenner of een toegewezen FTP-client.
 11. Download het gecomprimeerde gegevensbestand naar uw lokale computer.
-12. Pak het gecomprimeerde bestand uit met een programma dat `.tar.gz`-bestandsextensies ondersteunt.
-13. Open het `hit_data.tsv` dossier in uw spreadsheet of gegevensbestandtoepassing van keus om ruwe gegevens voor die dag te zien.
+12. Het gecomprimeerde bestand decomprimeren met een programma dat ondersteuning biedt `.tar.gz` bestandsextensies.
+13. Open de `hit_data.tsv` in uw spreadsheet of databasetoepassing van keuze om onbewerkte gegevens voor die dag weer te geven.
 
 ## Volgende stappen
 
 Zodra u het basiswerkschema begrijpt van het verkrijgen van gegevensvoer, kunt u met teams binnen uw organisatie werken om ruwe gegevens in een gegevensbestand op te slaan of in te voeren.
 
-* [Een gegevensfeed](create-feed.md) maken: Technische details voor het maken van een gegevensfeed, waarbij afzonderlijke velden gedetailleerder worden uitgelegd
-* [Gegevensfeeds](df-manage-feeds.md) beheren: Meer informatie over navigeren in de interface voor gegevensinvoer
-* [Inhoud](c-df-contents/datafeeds-contents.md) van gegevenfeed: Begrijp wat binnen het samengeperste dossier is
-* [Definities](c-df-contents/datafeeds-reference.md) gegevenskolom: Een uitgebreide lijst van alle beschikbare kolommen
+* [Een gegevensfeed maken](create-feed.md): Technische details voor het maken van een gegevensfeed, waarbij afzonderlijke velden gedetailleerder worden uitgelegd
+* [Gegevensfeeds beheren](df-manage-feeds.md): Meer informatie over navigeren in de interface voor gegevensinvoer
+* [Inhoud gegevensfeed](c-df-contents/datafeeds-contents.md): Begrijp wat binnen het samengeperste dossier is
+* [Definities gegevenskolom](c-df-contents/datafeeds-reference.md): Een uitgebreide lijst van alle beschikbare kolommen
 
 ## Aanvullende bronnen
 
 Video navigating the data feed interface:
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
+>[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+
+Video over het zoeken naar de id van uw gegevensfeed:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
