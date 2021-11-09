@@ -1,12 +1,12 @@
 ---
 title: Meerdere rapportsuites
 description: Leer hoe en waarom u projecten maakt in Workspace met meerdere rapportsuite
-feature: Basisprincipes van werkruimte
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,13 @@ Deze mogelijkheid is handig als u bijvoorbeeld
 
 * Bouw een dashboard van metriek en visualisaties om uit te melden aan andere organisaties. U kunt nu gegevens van diverse rapportsuites in het zelfde project trekken.
 
+Hier is een video over het onderwerp:
+
+>[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
+
 ## Rapportsuite toepassen op alle deelvensters
 
-U kunt een rapportsuite op alle deelvensters tegelijk toepassen door met de rechtermuisknop op de koptekst van een deelvenster te klikken en **[!UICONTROL Apply Report Suite to All Panels]** te selecteren.
+U kunt een rapportsuite op alle deelvensters tegelijk toepassen door met de rechtermuisknop op de koptekst van een deelvenster te klikken en **[!UICONTROL Apply Report Suite to All Panels]**.
 
 ![](assets/apply-rs-all-panels.png)
 
@@ -35,7 +39,7 @@ Met deze functie introduceren we het concept &quot;actief panel&quot; in plaats 
 >U kunt slepen en neerzetten in elk deelvenster dat zich in dezelfde rapportsuite bevindt als het actieve deelvenster. Door naar een inactief deelvenster van dezelfde rapportsuite te slepen, wordt het deelvenster actief.
 
 | Taak | Actief deelvenster | Inactief deelvenster |
-|---|---|---|
+| --- | --- | --- |
 | Rapportsuite wijzigen | Ja | Nee |
 | Componenten slepen en neerzetten | Ja | Ja, voor elk deelvenster dat zich in dezelfde rapportsuite bevindt als uw actieve deelvenster. |
 | Visualisaties slepen en neerzetten | Ja | Ja, voor elk deelvenster dat zich in dezelfde rapportsuite bevindt als uw actieve deelvenster. |
@@ -50,7 +54,7 @@ Met deze functie introduceren we het concept &quot;actief panel&quot; in plaats 
 
 
    >[!NOTE]
-   >Soms wordt een banner weergegeven tijdens het laden van een project (of het overschakelen naar een rapportsuite), waarbij niet alle componenten die in het project zijn opgenomen, in de rapportsuite zijn opgenomen. De ontbrekende componenten worden weergegeven. Volg [deze instructies](/help/admin/admin-console/permissions/product-profile.md) om toestemmingen aan de vereiste metriek/afmetingen te plaatsen.
+   >Soms wordt een banner weergegeven tijdens het laden van een project (of het overschakelen naar een rapportsuite), waarbij niet alle componenten die in het project zijn opgenomen, in de rapportsuite zijn opgenomen. De ontbrekende componenten worden weergegeven. Volg [deze instructies](/help/admin/admin-console/permissions/product-profile.md) om machtigingen in te stellen voor de vereiste maateenheden/afmetingen.
 
    ![](assets/incompat-rs.png)
 
@@ -61,10 +65,10 @@ Met deze functie introduceren we het concept &quot;actief panel&quot; in plaats 
 
 1. Wijzig het deelvenster in een andere rapportsuite. U ziet hoe het componentlabel (momenteel actieve rapportsuite) en de weergegeven componenten worden bijgewerkt op basis van de nieuwe rapportsuite.
 
-1. Gebruik een sneltoets (`shift` tijdens het slepen) om een inactief deelvenster om te zetten in een actief deelvenster.
+1. Een sneltoets gebruiken (`shift` tijdens het slepen) om een inactief deelvenster om te zetten in een actief deelvenster.
 
 1. (Optioneel) U kunt ook naar andere componentbuilders van Analytics gaan en ervoor zorgen dat deze nu een label van een rapportsuite tonen die
 
    * Waar wordt een segment gemaakt: [Segment Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
    * Wanneer een berekende metrische waarde wordt gecreëerd: [Berekende metrische bouwer](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * Wanneer een waarschuwing wordt opgesteld: [Waarschuwing Builder](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).
+   * Wanneer een waarschuwing wordt opgesteld: [Alert Builder](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).

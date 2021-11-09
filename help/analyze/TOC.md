@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Adobe Analytics-dashboards, Report Builder en Activity Map.
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 84%
@@ -60,7 +60,7 @@ ht-degree: 84%
       + Uitval {#fallout}
          + [Overzicht van uitval](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Een uitvalvisualisatie configureren](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [Interdimensionale uitval](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [Multidimensionale uitval](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Segmenten toepassen in een uitvalanalyse](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Stroom {#flow}
          + [Overzicht van stroom](analysis-workspace/visualizations/c-flow/flow.md)
@@ -93,7 +93,7 @@ ht-degree: 84%
          + [Overzicht van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Gebruiksgevallen van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Statistische tests bij segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Projecten voor curven, delen en plannen {#curate-share}
+   + De projecten van de cursus, van het Aandeel, en van het Programma {#curate-share}
       + [Menu Delen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
       + [Projecten delen](analysis-workspace/curate-share/share-projects.md)
