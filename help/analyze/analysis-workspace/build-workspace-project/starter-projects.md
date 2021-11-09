@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1392'
 ht-degree: 1%
 
 ---
@@ -123,6 +123,10 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 >[!NOTE]
 >
 >Het malplaatje van Mensen en zijn bijbehorende metrisch van Mensen is beschikbaar voor gebruik slechts als deel van [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html).
+
+Video-overzicht van de sjabloon Personen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde versie van de Unieke metrische Bezoekers is. Met de sjabloon Personen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. Met de sjabloon kunt u
 

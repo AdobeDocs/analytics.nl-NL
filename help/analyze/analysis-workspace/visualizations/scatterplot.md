@@ -1,13 +1,13 @@
 ---
 title: Spreidingsdiagram
 description: Een visualisatie die de relatie tussen maximaal drie metriek toont.
-feature: Visualisaties
+feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 3%
+source-wordcount: '118'
+ht-degree: 2%
 
 ---
 
@@ -22,3 +22,7 @@ De scatterplot visualisatie toont het verband tussen afmetingspunten en tot drie
 * Alle volgende kolommen in een vrije-vormlijst worden genegeerd door de scatterplot visualisatie.
 
 ![Spreidingsdiagram](assets/scatter.png)
+
+Hier is een video over scatterplot-visualisaties:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)

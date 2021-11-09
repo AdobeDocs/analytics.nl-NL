@@ -2,19 +2,23 @@
 title: Overzicht van het vergelijkingspaneel voor segmenten
 description: Leer hoe u het vergelijkingspaneel voor segmenten gebruikt, onderdeel van de IQ voor segmenten in Analysis Workspace.
 keywords: Analysis Workspace;Segment-IQ
-feature: Deelvensters
+feature: Panels
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1137'
 ht-degree: 4%
 
 ---
 
 # Overzicht van het vergelijkingspaneel voor segmenten
 
-Het vergelijkingspaneel Segment is een hulpprogrammaonderdeel van [Segment IQ](../../segment-iq.md) dat de statistisch meest significante verschillen tussen een onbeperkt aantal segmenten ontdekt. De functie doorloopt een geautomatiseerde analyse van alle dimensies en metriek waartoe u toegang hebt. Het ontdekt automatisch zeer belangrijke kenmerken van de publiekssegmenten die KPIs van uw bedrijf drijven en laat u zien hoeveel om het even welke segmenten overlappen.
+Het vergelijkingspaneel Segment maakt deel uit van [Segment-IQ](../../segment-iq.md) dat ontdekt de statistisch meest significante verschillen tussen een onbeperkt aantal segmenten. De functie doorloopt een geautomatiseerde analyse van alle dimensies en metriek waartoe u toegang hebt. Het ontdekt automatisch zeer belangrijke kenmerken van de publiekssegmenten die KPIs van uw bedrijf drijven en laat u zien hoeveel om het even welke segmenten overlappen.
+
+Hier volgt een video over het vergelijken van segmenten:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
 
 ## Een vergelijkingspaneel voor segmenten maken
 
@@ -31,11 +35,11 @@ Het vergelijkingspaneel Segment is een hulpprogrammaonderdeel van [Segment IQ](.
 
    ![Soorten publiek vergelijken](assets/compare-audiences.png)
 
-   Nadat u een segment naar het deelvenster hebt gesleept, maakt Analytics automatisch een [!UICONTROL 'Everyone Else']-segment dat alle NOT-elementen bevat in het segment dat u hebt gekozen. Het is een vaak gebruikt segment in het vergelijkingspaneel, maar u kunt het wel verwijderen en een ander keuzesegment vergelijken.
+   Nadat u een segment naar het deelvenster hebt gesleept, wordt automatisch een [!UICONTROL 'Everyone Else'] segment dat iedereen NIET in het segment omvat u koos. Het is een vaak gebruikt segment in het vergelijkingspaneel, maar u kunt het wel verwijderen en een ander keuzesegment vergelijken.
 
    ![Alle anderen](assets/everyone-else.png)
 
-1. Nadat u hebt bepaald welke twee segmenten moeten worden vergeleken, klikt u op [!UICONTROL Build].
+1. Als u hebt bepaald welke twee segmenten moeten worden vergeleken, klikt u op [!UICONTROL Build].
 
    Deze actie begint een achterste proces dat statistische verschillen tussen de twee geselecteerde segmenten en alle dimensies, metriek en andere segmenten zoekt. Een voortgangsbalk boven in het deelvenster geeft de resterende tijd aan totdat elke meting en dimensie wordt geanalyseerd. De meest gebruikte metriek, de afmetingen, en de segmenten worden voorrang gegeven aan looppas eerst zodat zijn de meest relevante resultaten op een geschikte manier teruggekeerd.
 
@@ -43,12 +47,12 @@ Het vergelijkingspaneel Segment is een hulpprogrammaonderdeel van [Segment IQ](.
 
 Soms is het gewenst om bepaalde afmetingen, maateenheden of segmenten uit te sluiten van segmentvergelijkingen. U wilt bijvoorbeeld het segment &#39;Amerikaanse mobiele gebruikers&#39; vergelijken met &#39;Duitse mobiele gebruikers&#39;. Het zou niet zinvol zijn om geografische dimensies op te nemen, aangezien deze segmenten al deze verschillen inhouden.
 
-1. Nadat de gewenste twee segmenten in het paneel zijn, klik [!UICONTROL 'Show Advanced Options'].
-1. Sleep componenten die u wilt uitsluiten naar het [!UICONTROL Excluded Components]-deelvenster.
+1. Klik op [!UICONTROL 'Show Advanced Options'].
+1. Sleep componenten die u wilt uitsluiten naar de [!UICONTROL Excluded Components] deelvenster.
 
    ![Uitgesloten onderdelen](assets/excluded-components.png)
 
-Klik [!UICONTROL 'Set as default'] om uw huidige componenten in alle toekomstige segmentvergelijkingen automatisch uit te sluiten. Als u uitgesloten componenten wilt uitgeven, klik een componenttype, dan klik &quot;X&quot;naast een component om het in uw analyse opnieuw op te nemen. Klik op Alles wissen om alle componenten opnieuw op te nemen in de segmentvergelijking.
+Klikken [!UICONTROL 'Set as default'] om uw huidige componenten in alle toekomstige segmentvergelijkingen automatisch uit te sluiten. Als u uitgesloten componenten wilt uitgeven, klik een componenttype, dan klik &quot;X&quot;naast een component om het in uw analyse opnieuw op te nemen. Klik op Alles wissen om alle componenten opnieuw op te nemen in de segmentvergelijking.
 
 ![Uitgesloten afmetingen](assets/excluded-dimensions.png)
 
@@ -92,7 +96,7 @@ Rechts van de tabel Metriek bevindt zich een gekoppelde visualisatie. U kunt een
 
 ### Bovenste afmetingen
 
-Toont de statistisch meest significante afmetingspunten over al uw dimensies. Elke rij toont het percentage van elk segment dat dit afmetingspunt tentoonstelt. Deze tabel kan bijvoorbeeld laten zien dat 100% van de bezoekers in &#39;Segment A&#39; het afmetingitem &#39;Browsertype: Google&quot;, terwijl slechts 19,6% van &#39;Segment B&#39; dit dimensie-item had. Een verschilscore van 1 betekent dat deze statistisch significant is, terwijl een verschilscore van 0 betekent dat er geen statistische significantie is.
+Toont de statistisch meest significante afmetingspunten over al uw dimensies. Elke rij toont het percentage van elk segment dat dit afmetingspunt tentoonstelt. Deze tabel kan bijvoorbeeld laten zien dat 100% van de bezoekers in &#39;Segment A&#39; het afmetingitem &#39;Browsertype: Google&quot;, terwijl slechts 19,6% van &quot;Segment B&quot; dit aspect had. Een verschilscore van 1 betekent dat deze statistisch significant is, terwijl een verschilscore van 0 betekent dat er geen statistische significantie is.
 
 Deze visualisatie lijkt op vrije-vormtabellen in Analysis Workspace. Als u een diepgaande analyse van een specifiek dimensie-item wilt uitvoeren, plaatst u de muisaanwijzer boven een lijstitem en klikt u op &#39;Zichtbaar maken&#39;. Er wordt een nieuwe tabel gemaakt om dat specifieke dimensie-item te analyseren. Als een dimensie-item irrelevant is voor uw analyse, plaatst u de muisaanwijzer boven het lijstitem en klikt u op de X-toets om het item te verwijderen.
 
