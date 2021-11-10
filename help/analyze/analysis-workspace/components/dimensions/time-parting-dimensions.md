@@ -2,19 +2,23 @@
 description: Bij tijdpartering wordt de tijdstempel van verzamelde hits gebruikt en wordt de reeks in betekenisvollere afmetingen opgedeeld, zoals "Uur van dag" of "Dag van week".
 title: Tijduitsplitsende dimensies
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Basisprincipes van werkruimte
+feature: Workspace Basics
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 3%
+source-wordcount: '237'
+ht-degree: 2%
 
 ---
 
 # Tijduitsplitsende dimensies
 
 Bij tijdpartering wordt de tijdstempel van verzamelde hits gebruikt en wordt de reeks in betekenisvollere afmetingen opgedeeld, zoals &quot;Uur van dag&quot; of &quot;Dag van week&quot;.
+
+Hier volgt een video over de afmetingen voor tijdpartering:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
 
 De tijd-ontledende dimensies zijn gebaseerd op de tijdzone van de rapportreeks of virtuele rapportreeks. Deze afmetingen zijn beschikbaar in Analysis Workspace en kunnen helpen om de volgende vragen te beantwoorden:
 
@@ -25,12 +29,12 @@ De tijd-ontledende dimensies zijn gebaseerd op de tijdzone van de rapportreeks o
 
 >[!NOTE]
 >
->De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Om tijd-ontledende dimensies in andere oplossingen van Analytics te gebruiken, kunt u [getTimeParting stop-in](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html) uitvoeren.
+>De afmetingen voor tijdpartering zijn alleen beschikbaar in Analysis Workspace. Als u tijdparterende dimensies wilt gebruiken in andere analytische oplossingen, kunt u het gereedschap [getTimeParting, plug-in](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html).
 
 Afmetingen van tijdpartering in Analysis Workspace zijn onder andere:
 
 | Dimension | Voorbeeldwaarden |
-|--- |--- |
+| --- | --- |
 | Uur van dag | 0-23 |
 | AM/PM | AM, PM |
 | Weekdag | Maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag |

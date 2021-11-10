@@ -2,12 +2,12 @@
 description: Met een interdimensionale stroom kunt u gebruikerspaden in verschillende dimensies bekijken.
 title: Interdimensionale stromen
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-feature: Visualisaties
+feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 1%
 # Interdimensionale stromen
 
 Met een interdimensionale stroom kunt u gebruikerspaden in verschillende dimensies bekijken.
+
+Hier volgt een video over tekstomloop en multidimensionale tekstdoorloop in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
 Een afmetingslabel boven aan elke stroomkolom maakt het gebruik van meerdere dimensies in een stroomvisualisatie intuïtiever:
 
@@ -24,17 +28,17 @@ We zullen naar twee gebruiksgevallen kijken: een gebruiksgeval voor apps en een 
 
 ## Eerste hoofdletter gebruiken: app {#section_3D31D37B9C9F4134AE46C96291E41294}
 
-De [!UICONTROL Action Name] dimensie werd toegevoegd aan de stroom, met het hoogste teruggekeerde punt dat [!UICONTROL ItemAdded] is:
+De [!UICONTROL Action Name] dimensie werd toegevoegd aan de stroom, met het hoogste teruggekeerde punt die [!UICONTROL ItemAdded]:
 
 ![](assets/multi-dimensional-flow.png)
 
 Als u de interactie tussen schermen/pagina&#39;s en acties in deze app wilt verkennen, kunt u de paginadimensie naar meerdere plaatsen slepen, afhankelijk van wat u wilt verkennen:
 
-* Sleep het naar een van de uiteinden van de neerzetzone (binnen de met zwart omgezette rechthoekige zone die wordt weergegeven) naar **vervang** de bovenste resultaten aan de uiteinden:
+* Sleep het naar een van de uiteinden van de neerzetzone (binnen de met zwart omgezette rechthoekige zone die wordt weergegeven) naar **vervangen** de belangrijkste resultaten aan de uiteinden:
 
    ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
-* Sleep het naar de witruimte aan het einde (let op de zwarte haak) om **aan** de visualisatie toe te voegen:
+* Sleep het naar de witruimte aan het einde (let op de zwarte haak) om **toevoegen aan** visualisatie:
 
    ![](assets/multi-dimensional-flow4.png)
 

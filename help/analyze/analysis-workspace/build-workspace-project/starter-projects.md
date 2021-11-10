@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1399'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,10 @@ Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappe
 * **Lesbestand voor training - Interne zoekanalyse**: Met de zelfstudie Intern zoeken kunt u begrijpen wat uw bezoekers zoeken op de website of de app, maar niet vinden. Door dit type gegevens te analyseren, kunt u optimalisatiemogelijkheden voor de oppervlakkigheid van inhoud bieden.
 
 * **Lesbestand voor training - Marketinganalyse**: Deze zelfstudie laat u zien hoe u een marketinganalyse voor uw managers kunt samenstellen, inclusief welke aangepaste afmetingen en metriek belangrijk zijn.
+
+Hier is een video over de [!UICONTROL Training Tutorial] sjabloon:
+
+>[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
 ### Reclame
 
