@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Hier volgt een video-overzicht van het delen van projecten:
 U kunt ontvangers aan één van drie projectrollen toevoegen. De rollen van het project zijn verbonden aan de gebruiker en specifieke projectidentiteitskaart De rollen van het project zijn onafhankelijk van gebruikerstoestemmingen die in [Adobe Experience Cloud-beheerconsole](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 | Rol | Projectbeheersing |
-|---|---|
+| --- | --- |
 | Kan bewerken | Ontvangers kunnen **[!UICONTROL Save]** veranderingen in een project en functie als mede-eigenaars. Deze rol is nuttig als u een project met andere collega&#39;s wilt cobeheren; dit omvat het uitgeven, schrappen, en het wijzigen van ontvankelijke lijsten voor een gedeeld project. <br>Opmerking: Analysis Workspace biedt momenteel geen ondersteuning voor live samenwerken. Het wordt daarom aanbevolen dat slechts één gebruiker een project tegelijk bewerkt. Als projecten tegelijkertijd worden opgeslagen, blijft de laatste versie behouden. |
 | Kan dupliceren | Ontvangers kunnen **[!UICONTROL Save as]** en toegang hebben tot de linkerspoorstaaf. Projectinteracties zijn in deze rol niet beperkt. Deze rol is nuttig als u een project aan gebruikers wilt delen die de gegevens van uw organisatie en hoe te om Analysis Workspace begrijpen, maar u wilt niet uw project veranderen. |
 | Kan worden weergegeven | Ontvangers kunnen niet Opslaan als en hebben geen toegang tot de linkerrail. De interactie tussen projecten is ook beperkt. Deze rol is handig als u een project wilt delen met gebruikers die minder bekend zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Adobe Analytics in het algemeen. U wilt echter nog steeds dat ze gegevens en inzichten in een veilige omgeving gebruiken.<br>Meer informatie over de [Kan projectervaring bekijken](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
@@ -88,6 +88,12 @@ Als Project A en B zijn geselecteerd, worden ontvangers 4 en 7 toegevoegd aan de
 * Project B: 4, 5, 6, 7
 
 ![](assets/mult-proj-sharing.png)
+
+## Ingesloten componenten delen
+
+Hier volgt een video over het onderwerp:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
 
 ## Veelgestelde vragen {#FAQs}
 
