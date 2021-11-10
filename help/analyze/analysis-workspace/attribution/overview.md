@@ -1,13 +1,13 @@
 ---
 title: Overzicht van attributie
 description: Het concept om krediet van een succesgebeurtenis toe te wijzen aan meerdere dimensies.
-feature: Attributie
+feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 52%
+source-wordcount: '435'
+ht-degree: 50%
 
 ---
 
@@ -42,6 +42,12 @@ Adobe Analytics verbetert de attributie doordat u de volgende punten naar eigen 
 Attribution IQ biedt de volgende kenmerken:
 
 * [Kenmerk, deelvenster](../c-panels/attribution.md): Neem om het even welke afmeting en metrisch, en vergelijk het snel met verschillende attributiemodellen.
-* [Kenmerk toepassen op een metrische waarde](../visualizations/freeform-table/column-row-settings/column-settings.md): Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
-* [Toewijzing toepassen op een uitsplitsing](../components/dimensions/t-breakdown-fa.md): Gebruik een niet-wanbetalingskenmerk voor een uitsplitsing.
-* [Kenmerkingsmodellen](../components/apply-create-metrics.md) vergelijken: Zie snel hoe verschillende attributiemodellen bij elke meting worden vergeleken.
+* [Kenmerken toepassen op metrisch](../visualizations/freeform-table/column-row-settings/column-settings.md): Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
+* [Toewijzing op een uitsplitsing toepassen](../components/dimensions/t-breakdown-fa.md): Gebruik een niet-wanbetalingskenmerk voor een uitsplitsing.
+* [Kenmerkingsmodellen vergelijken](../components/apply-create-metrics.md): Zie snel hoe verschillende attributiemodellen bij elke meting worden vergeleken.
+
+## Video&#39;s
+
+Hier volgt een video over het gebruik van verschillende Attribution IQ-modellen met segmenten, in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)

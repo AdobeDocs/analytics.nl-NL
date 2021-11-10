@@ -2,9 +2,9 @@
 title: Een datalaag maken
 description: Leer wat een gegevenslaag in uw implementatie Analytics is, en hoe het kan worden gebruikt om variabelen in Adobe Analytics in kaart te brengen.
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
@@ -13,28 +13,32 @@ ht-degree: 2%
 
 Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site dat alle variabelenwaarden bevat die in uw implementatie worden gebruikt. Hierdoor kunt u uw implementatie beter beheren en eenvoudiger onderhouden.
 
+Hier volgt een video over het gebruik van gegevenslagen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
+
 ## Vereisten
 
-[Creeer een document](solution-design.md)  van het oplossingsontwerp - het is belangrijk voor uw organisatie zich op het volgen vereisten te richten. Zorg ervoor dat u met een document van het oplossingsontwerp alvorens ontwikkelingsteams in uw organisatie wordt voorbereid te benaderen.
+[Een document voor het ontwerp van een oplossing maken](solution-design.md) - Het is belangrijk dat uw organisatie zich aanpast aan de traceervereisten. Zorg ervoor dat u met een document van het oplossingsontwerp alvorens ontwikkelingsteams in uw organisatie wordt voorbereid te benaderen.
 
 ## Workflow
 
 Bij het implementeren van Adobe Analytics met een gegevenslaag worden doorgaans de volgende stappen uitgevoerd:
 
-1. **Werk met uw team van de plaatsontwikkeling om een gegevenslaag** uit te voeren: Uw team van de plaatsontwikkeling is hoofdzakelijk verantwoordelijk voor het ervoor zorgen van het voorwerp van de gegevenslaag bevolkt met correcte waarden. Controleer deze pagina met uw team van de plaatsontwikkeling om ervoor te zorgen de verwachtingen tussen teams worden gericht.
+1. **Werk met uw team van de plaatsontwikkeling om een gegevenslaag uit te voeren**: Uw team van de plaatsontwikkeling is hoofdzakelijk verantwoordelijk voor het ervoor zorgen van het voorwerp van de gegevenslaag bevolkt met correcte waarden. Controleer deze pagina met uw team van de plaatsontwikkeling om ervoor te zorgen de verwachtingen tussen teams worden gericht.
 
    >[!NOTE]
    >
    >De volgende Adobe aanbevolen gegevenslaagspecificaties is optioneel. Als u reeds een gegevenslaag hebt, of anders verkiest om Adobe geen specificaties te volgen, zorg ervoor dat uw organisatie zich op welke specificatie richt te volgen.
-1. **Valideer uw gegevenslaag met een browserconsole**: Zodra een gegevenslaag wordt gecreeerd, kunt u bevestigen dat het gebruikend om het even welke browser ontwikkelaarsconsole werkt. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend `F12` sleutel. Een waarde van een voorbeeldvariabele zou `digitalData.page.pageInfo.pageID` zijn.
+1. **Valideer uw gegevenslaag met een browserconsole**: Zodra een gegevenslaag wordt gecreeerd, kunt u bevestigen dat het gebruikend om het even welke browser ontwikkelaarsconsole werkt. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend `F12` toets. Een waarde van een voorbeeldvariabele zou `digitalData.page.pageInfo.pageID`.
 1. **Adobe Experience Platform-tags gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Maak gegevenselementen in de gebruikersinterface voor gegevensverzameling in Adobe Experience Platform en wijs deze toe aan de JavaScript-kenmerken die in de gegevenslaag worden beschreven.
-1. **Gebruik de Adobe Analytics-tagextensie om gegevenselementen toe te wijzen aan analytische variabelen**: Na uw document van het oplossingsontwerp, wijs elk gegevenselement aan de aangewezen variabele Analytics toe.
+1. **De Adobe Analytics-tagextensie gebruiken om gegevenselementen toe te wijzen aan analytische variabelen**: Na uw document van het oplossingsontwerp, wijs elk gegevenselement aan de aangewezen variabele Analytics toe.
 
 ## Specificaties
 
-Adobe raadt u aan de [Klantenervaring met digitale gegevenslaag](https://www.w3.org/2013/12/ceddl-201312.pdf) te volgen die wordt beschreven door de [Klantenervaring met Digital Data Community Group](https://www.w3.org/community/custexpdata/). Gebruik de volgende secties om te begrijpen hoe de elementen van de gegevenslaag met Adobe Analytics in wisselwerking staan.
+Adobe beveelt aan de [Klantenervaring met digitale gegevenslaag](https://www.w3.org/2013/12/ceddl-201312.pdf) door de [Klantervaring met Digital Data Community Group](https://www.w3.org/community/custexpdata/). Gebruik de volgende secties om te begrijpen hoe de elementen van de gegevenslaag met Adobe Analytics in wisselwerking staan.
 
-Het te gebruiken overkoepelende gegevenslaagobject is `digitalData`. In het volgende voorbeeld wordt een enigszins uitgebreid JSON-gegevenslaagobject met voorbeeldwaarden weergegeven:
+Het aanbevolen overkoepelende gegevenslaagobject is `digitalData`. In het volgende voorbeeld wordt een enigszins uitgebreid JSON-gegevenslaagobject met voorbeeldwaarden weergegeven:
 
 ```js
 digitalData = {
@@ -166,13 +170,13 @@ digitalData = {
 }
 ```
 
-Gebruik het [Rapport van de Ervaring van de Klant Digitale Gegevens](https://www.w3.org/2013/12/ceddl-201312.pdf) voor details op elk voorwerp en subvoorwerp. Niet alle sites gebruiken alle objecten; Als u bijvoorbeeld een nieuwssite host, is het onwaarschijnlijk dat u deze array gebruikt.`digitalData.product`
+Gebruik de [Klantenervaring met digitale gegevenslaag](https://www.w3.org/2013/12/ceddl-201312.pdf) rapporteren voor details over elk object en subobject. Niet alle sites gebruiken alle objecten; als u bijvoorbeeld een nieuwssite host, is het onwaarschijnlijk dat u het programma `digitalData.product` objectarray.
 
 Gegevenslagen zijn uitbreidbaar; als u specifieke vereisten voor uw organisatie hebt, kunt u voorwerpen in uw gegevenslaag omvatten om die behoeften aan te passen.
 
 ## Waarden voor gegevenslagen instellen
 
-Gegevenslagen genereren doorgaans aan de serverzijde, waarbij wordt verwezen naar dezelfde objecten die worden gebruikt om de site-inhoud samen te stellen. Stel de gegevenslaag van de site in op basis van de traceervereisten die zijn ingesteld in het document [oplossingsontwerp](solution-design.md) van uw organisatie.
+Gegevenslagen genereren doorgaans aan de serverzijde, waarbij wordt verwezen naar dezelfde objecten die worden gebruikt om de site-inhoud samen te stellen. Stel de gegevenslaag van de site in op basis van de traceervereisten die zijn ingesteld in de [document ontwerp oplossing](solution-design.md).
 
 ## Volgende stappen
 
