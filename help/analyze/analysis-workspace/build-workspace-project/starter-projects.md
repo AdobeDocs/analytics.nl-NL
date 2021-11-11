@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
 workflow-type: tm+mt
-source-wordcount: '1408'
-ht-degree: 1%
+source-wordcount: '1395'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ U kunt kiezen of u een project wilt maken van:
 
 ![](assets/start_modal.png)
 
-## Een aangepaste sjabloon maken {#create-custom-template}
+## Aangepaste sjablonen maken {#create-custom-template}
 
 Gebruikers met beheerdersrechten kunnen elk project dat ze maken, omzetten in een aangepaste sjabloon. Hieronder wordt beschreven hoe:
 
@@ -41,9 +41,7 @@ Hier volgt een video over het maken en beheren van aangepaste sjablonen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### Handelingen die u kunt uitvoeren op aangepaste sjablonen
-
-![](assets/custom_templates.png)
+### Aangepaste sjablonen beheren {#manage-custom-template}
 
 | Handeling | Beschrijving |
 |--- |--- |
@@ -66,11 +64,7 @@ Hier zijn beschikbare sjablonen en de vragen die elke sjabloon kan beantwoorden.
 
 ### Training
 
-Deze standaardmalplaatjes lopen u door gemeenschappelijke terminologie en stappen voor het bouwen van uw eerste analyse in Werkruimte. Zij zijn beschikbaar als standaardmalplaatje in Nieuw Project modaal en vervangen het steekproefproject dat vandaag voor nieuwe gebruikers bestaat die geen andere projecten in hun lijst hebben.
-
-* **Lesbestand voor training - Interne zoekanalyse**: Met de zelfstudie Intern zoeken kunt u begrijpen wat uw bezoekers zoeken op de website of de app, maar niet vinden. Door dit type gegevens te analyseren, kunt u optimalisatiemogelijkheden voor de oppervlakkigheid van inhoud bieden.
-
-* **Lesbestand voor training - Marketinganalyse**: Deze zelfstudie laat u zien hoe u een marketinganalyse voor uw managers kunt samenstellen, inclusief welke aangepaste afmetingen en metriek belangrijk zijn.
+Dit standaardmalplaatje begeleidt u door gemeenschappelijke terminologie en stappen voor het bouwen van uw eerste analyse in Werkruimte. De sjabloon is beschikbaar als standaardsjabloon in het modale dialoogvenster voor nieuwe projecten en vervangt het huidige voorbeeldproject voor nieuwe gebruikers die geen andere projecten in hun lijst hebben.
 
 Hier is een video over de [!UICONTROL Training Tutorial] sjabloon:
 
@@ -80,38 +74,40 @@ Hier is een video over de [!UICONTROL Training Tutorial] sjabloon:
 
 >[!IMPORTANT]
 >
->Advertentiesjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor Advertising Cloud.
+>Advertentiesjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
 
 * **Betaalde zoekmachines**: In deze sjabloon worden onder andere de advertentietrends, advertentieplatoren, trefwoorden, accounts, campagnes en meer afgebroken.
 
 ### Commerce
 
-* **Magento: Marketing en handel**: Deze sjabloon verdeelt uw e-commerceconversie door kanaalattributie op de markt te brengen en biedt inzicht door zoekwoord, landingspagina, geografische locatie en meer. Zie voor een video-overzicht:
+* **Magento: Marketing en handel**: Deze sjabloon verdeelt uw e-commerceconversie door kanaalattributie op de markt te brengen en biedt inzicht door zoekwoord, landingspagina, geografische locatie en meer. Hier volgt een videodemo over de [Magento: Template voor marketing en handel](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html).
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+### Gegevensverzameling
+
+* **ITP-effect**: Begrijp hoe de ITP van Apple uw gegevens beïnvloedt en hoe te om rapportering dienovereenkomstig aan te passen.
 
 ### Media
 
-* **Audioverbruik**: Welke inhoud wordt het meest verbruikt en betrekt gebruikers? Hier volgt een video over de sjabloon Audioverbruik:
+* **Inhoudsverbruik**: Wie zijn mijn loyale lezers?
+* **Frequentie - Loyalty**: Welke inhoud wordt het meest verbruikt en betrekt gebruikers?
+* **Streaming media-verbruik**: Biedt trends en meetwaarden voor het mediaconsumptie op alle digitale apparaten. Hier volgt een video over de sjabloon voor het streamen van mediaconsumptie:
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
-
-* **Frequentie - Loyalty**: Wie zijn mijn loyale lezers?
 
 ### Mobile
 
 >[!IMPORTANT]
 >
->Mobiele sjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor Mobiel.
+>Mobiele sjablonen zijn alleen beschikbaar als uw rapportsuite is ingeschakeld voor analytische toepassingen voor mobiele apparaten.
 
-* **Berichten:** Richt zich op in-app en duw overseinenprestaties.
-* **Locatie:** Bevat een Kaart met locatiegegevens.
-* **Belangrijkste cijfers:** Houd een impuls op de belangrijkste metriek van uw app.
-* **Toepassingsgebruik:** Hoeveel gebruikers van apps, lanceert, en lanceert eerst app had, en wat was de gemiddelde zittingslengte?
 * **Overname:** Zie hoe mobiele verwervingskoppelingen werken.
+* **Toepassingsgebruik:** Hoeveel gebruikers van apps, lanceert, en lanceert eerst app had, en wat was de gemiddelde zittingslengte?
+* **Reizen:** Wat zijn de opvallende gebruikspatronen voor mijn app?
+* **Belangrijkste cijfers:** Houd een impuls op de belangrijkste metriek van uw app.
+* **Locatie:** Bevat een Kaart met locatiegegevens.
+* **Berichten:** Richt zich op in-app en duw overseinenprestaties.
 * **Prestaties:** Hoe presteert de app en waar hebben gebruikers problemen?
 * **Behoud:** Wie zijn mijn loyale gebruikers en wat doen ze?
-* **Reizen:** Wat zijn de opvallende gebruikspatronen voor mijn app?
 
 ### Detailhandel
 
@@ -121,6 +117,7 @@ Hier is een video over de [!UICONTROL Training Tutorial] sjabloon:
 ### Web
 
 * **Overname:** Wat zijn de hoogste verkeersbestuurders aan mijn website?
+* **AEM overzicht van de siteprestaties:** Hoe presteert mijn Adobe Experience Manager-site?
 * **Inhoudsverbruik:** Wat zijn de beste plaatsen waar mensen op mijn site gaan?
 * **Behoud:** Welke soorten gebruikers waarschijnlijk loyale gebruikers van mijn plaats zijn?
 * **Technologie:** Welke technologie gebruiken mensen om tot mijn plaats toegang te hebben?
@@ -130,10 +127,6 @@ Hier is een video over de [!UICONTROL Training Tutorial] sjabloon:
 >[!NOTE]
 >
 >Het malplaatje van Mensen en zijn bijbehorende metrisch van Mensen is beschikbaar voor gebruik slechts als deel van [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html).
-
-Video-overzicht van de sjabloon Personen:
-
->[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde versie van de Unieke metrische Bezoekers is. Met de sjabloon Personen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. Met de sjabloon kunt u
 
