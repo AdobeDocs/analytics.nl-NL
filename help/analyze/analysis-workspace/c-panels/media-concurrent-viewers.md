@@ -1,12 +1,12 @@
 ---
 title: Deelvenster voor gelijktijdige mediaviewers
 description: Het deelvenster Mediagelijktijdige viewers in Analysis Workspace gebruiken en interpreteren.
-feature: Deelvensters
+feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1012'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ Klanten van Media Analytics kunnen gelijktijdige viewers analyseren om te begrij
 In Analysis Workspace is Gelijktijdige viewers het aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.
 
 Met het deelvenster Mediagelijktijdige viewers kunt u in de loop van de tijd gelijktijdige viewers analyseren, met details over de piekfrequentie en de mogelijkheid om af te breken en te vergelijken.  Navigeer naar een rapportsuite met Media Analytics-componenten ingeschakeld om het deelvenster Mediagelijktijdige viewers te openen. Klik vervolgens op het deelvensterpictogram helemaal links en sleep het deelvenster naar uw Analysis Workspace-project.
+
+Hier volgt een video-overzicht van dit deelvenster:
+
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Deelvensterinvoer {#Input}
 
@@ -55,7 +59,7 @@ De enige metrische waarde die in dit deelvenster kan worden gebruikt, zijn Gelij
 
 | Metrisch | Beschrijving |
 |---|---|
-| Gelijktijdige viewers | Aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br><br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Unieke bezoekersaccounts gebruiken voor het verwijderen van ongewenste &quot;pieken&quot; bij showgrenzen (waar sessies op hetzelfde moment eindigen en beginnen). |
+| Gelijktijdige viewers | Aantal unieke bezoekers dat uw mediastream(s) op een bepaald tijdstip weergeeft, ongeacht het aantal sessies.<br><br>Dit is anders dan de Gelijktijdige viewer die rapporteert in de sectie Rapporten, waarin Gelijktijdige actieve sessies worden gebruikt.  Unieke bezoekersaccounts gebruiken voor het verwijderen van ongewenste &quot;pieken&quot; bij showgrenzen (waar sessies tegelijkertijd eindigen en starten). |
 
 In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbron wilt weergeven, klikt u met de rechtermuisknop op het lijndiagram en downloadt u dit als een CSV-bestand.  Uitsplitsingen naar reeksen worden opgenomen.
 

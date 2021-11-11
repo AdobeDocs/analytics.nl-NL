@@ -4,9 +4,9 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 De [!UICONTROL Components] > [!UICONTROL User preferences] kunt u de instellingen voor Analysis Workspace en de bijbehorende componenten op gebruikersniveau beheren. Gebruikersvoorkeuren gelden voor alle *new* projecten of panels.
 
 ![Gebruikersvoorkeuren](assets/user-preferences.png)
+
+Hier volgt een korte video over gebruikersvoorkeuren:
+
+>[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
 ## Algemene voorkeuren
 
