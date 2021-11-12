@@ -3,9 +3,9 @@ description: Een uitvoerige lijst en beschrijvingen van de configuratievariabele
 title: Data- en codereferentie server-side doorsturen
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f1e1a30e29faab66995b683acbf6748aeeec91fc
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
@@ -16,43 +16,41 @@ Een uitvoerige lijst en beschrijvingen van de configuratievariabelen, de kopball
 
 ## Configuratievariabelen {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameters die vooraf zijn ingesteld met `d_*` identificeren speciale sleutelwaardeparen op systeemniveau die worden gebruikt door onze [gegevensverzamelingsservers](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Zie ook [Ondersteunde kenmerken voor DCS API-aanroepen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parameters vooraf ingesteld met `d_*` identificeer speciale, systeem-vlakke zeer belangrijke paren die door ons worden gebruikt [gegevensverzamelingsservers](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Zie ook [Ondersteunde kenmerken voor DCS API-aanroepen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Parameter | Beschrijving |
 |--- |--- |
-| d_rs | (Krijgt geplaatst met erfenis/het volgen-server-gebaseerde server-zijdoor:sturen) <br>Reeks aan de rapportsuites die binnen met de slag aan Analytics worden overgegaan. |
-| d_dst_filter | (Haalt reeks met op rapport-reeks-gebaseerde server-kant door:sturen) <br>Reeks aan de de reeks IDs van het rapport die binnen met de slag aan Analytics worden overgegaan. |
-| d_dst | Stel d_dst=1 <br>in als het verzoek aan Analytics inhoud over het doel verwacht dat wordt teruggestuurd naar de client. |
+| d_rs | (Krijgt geplaatst met erfenis/het volgen-server-gebaseerde server-zijdoor:sturen) <br>Stel dit in op de rapportsuites die met de hit aan Analytics worden doorgegeven. |
+| d_dst_filter | (Krijgt reeks met op rapport-reeks-gebaseerde server-kant door:sturen)  <br>Stel deze optie in op de id&#39;s van de rapportsuite die met de hit aan Analytics zijn doorgegeven. |
+| d_dst | D_dst=1 instellen  <br>als het verzoek aan Analytics inhoud over de bestemming verwacht dat terug naar de cliënt wordt verzonden. |
 | d_mid | De Experience Cloud-id die aan Analytics is doorgegeven. |
 
 ## HTTP-headers {#section_0549705E76004F9585224AEF872066C0}
 
 Deze kopballen zijn gebieden bevatten informatie zoals verzoeken om gegevens en reacties in een vraag van HTTP.
 
-<!-- Meike, missing link in table below: "See Understanding Calls to the Demdex Domain" -->
-
-| HTTP-header | Beschrijving |
-|--- |--- |
-| Host | Dit wordt geplaatst aan de specifieke de gastheernaam van de gegevensinzameling van de cliënt die in het de gastheer configuratiedossier van Analytics wordt gespecificeerd. Het verschijnt zoals   `host name .demdex.net` .  Zie het Begrijpen van Vraag aan het Domein van de Index. |
-| Gebruikersagent | Reeks aan de gebruiker-Agent kopbal die binnen tot Analytics wordt overgegaan. |
-| X-Original-User-Agent | Slechts plaats als een afwisselende gebruikersagent door één van deze kopballen werd gespecificeerd: </br>`X-Device-User-Agent\ ` </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
-| X-Forwarded-For | Stel dit in op het IP-adres van de client die het verzoek indient. Analytics heeft de inkomende `X-Forwarded-For`-header al geparseerd en het juiste IP-adres bepaald dat moet worden gebruikt. |
-| Accept-Language | Stel de koptekst `Accept-Language` in die wordt doorgegeven aan Analytics. |
-| Verwijzing | Stel de URL van de pagina in die wordt doorgegeven aan Analytics of wordt opgehaald via de verwijzingkop die wordt doorgegeven aan Analytics. |
+| HTTP-header | Beschrijving | h_ keys geaccepteerd door Audience Manager |
+| --- | --- | --- |
+| Host | Dit wordt geplaatst aan de specifieke de gastheernaam van de gegevensinzameling van de cliënt die in het de gastheer configuratiedossier van Analytics wordt gespecificeerd. Het verschijnt zoals `host name .demdex.net`. Zie [Inzicht krijgen in oproepen van het demdex-domein](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). | `h_host` |
+| Gebruikersagent | Reeks aan de gebruiker-Agent kopbal die binnen tot Analytics wordt overgegaan. | `h_user-agent` |
+| Accept-Language | Instellen op de  `Accept-Language`  doorgegeven aan Analytics. | `h_accept-language` |
+| Verwijzing | Instellen op de pagina-URL die wordt doorgegeven aan Analytics of die wordt verzameld via de `Referer` doorgegeven aan Analytics. | `h_referer` |
+| Referrer | Instellen op de pagina-URL die wordt doorgegeven aan Analytics of die wordt verzameld via de `Referrer` doorgegeven aan Analytics. | `h_referrer` |
+| IP | Signal die wordt geproduceerd van IP van de gastheer die het verzoek naar DCS verzendt. | `h_ip` |
 
 ## Door de klant gedefinieerde signalen {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameters die vooraf met `c_` zijn gedefinieerd, identificeren door de klant gedefinieerde variabelen. Zie ook [Ondersteunde Attributen voor Vraag DCS API](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parameters vooraf ingesteld met `c_` door de klant gedefinieerde variabelen identificeren. Zie ook [Ondersteunde kenmerken voor DCS API-aanroepen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Signaal | Beschrijving |
 |--- |--- |
 | c_browserWidth en c_browserHeight | Breedte en hoogte van browservenster. |
 | c_campagne | Instellen op s.campagne. |
 | c_channel | Instellen op s.channel. |
-| c_clientDateTime | Tijdstempel opgemaakt als   dd/mm/jjjj uu:mm:ss W TZ.    TZ is in minuten en komt overeen met de geretourneerde waarde van de methode Date.getTimezoneOffset. |
+| c_clientDateTime | Tijdstempel opgemaakt als dd/mm/yyy hh:mm:ss W TZ.    TZ is in minuten en komt overeen met de geretourneerde waarde van de methode Date.getTimezoneOffset. |
 | c_colorDepth | Opgegeven als 16- of 32-bits kleur. |
 | c_connectionType | Hiermee wordt het verbindingstype opgegeven. De volgende opties zijn beschikbaar:<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | Voorbeelden:<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>Signaal:  c_contextData.category=news</li></ul> |
+| c_contextData.* | Voorbeelden:<ul><li>AppMeasurement: s.contextData</li><li>[&quot;categorie&quot;] = &quot;nieuws&quot;;</li><li>Signaal: c_contextData.category=news</li></ul> |
 | c_cookiesEnabled | Hiermee bepaalt u of cookies kunnen worden ingeschakeld. De volgende opties zijn beschikbaar: ja, nee, onbekend |
 | c_currencyCode | Type valuta dat voor de transactie wordt gebruikt. |
 | c_evar# | Aangepaste gebeurtenissen |
@@ -67,7 +65,7 @@ Parameters die vooraf met `c_` zijn gedefinieerd, identificeren door de klant ge
 | c_linkExitURL | De afsluitings-URL. |
 | c_list# | Aangepaste lijstvariabelen. |
 | c_longitude | Numerieke lengtegraad. |
-| c_mediaPlayerType | Voor aanvragen voor het bijhouden van mediastromen. De volgende opties zijn beschikbaar:  andere, primetime |
+| c_mediaPlayerType | Voor aanvragen voor het bijhouden van mediastromen. De volgende opties zijn beschikbaar: andere, primetime |
 | c_pageName | De paginanaam (indien ingesteld). |
 | c_pageURL | Het adres van de pagina in de adresbalk van de browser. |
 | c_products | De producttekenreeks (ingesteld door s.products ). |
