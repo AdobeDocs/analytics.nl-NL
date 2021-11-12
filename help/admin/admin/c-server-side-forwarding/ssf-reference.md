@@ -3,7 +3,7 @@ description: Een uitvoerige lijst en beschrijvingen van de configuratievariabele
 title: Data- en codereferentie server-side doorsturen
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 4bfe2005e48a0ed6aabdc66f58980ca687e174c6
+source-git-commit: 47026c5256039cf3fd9ff5d9a301778160ada9b6
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 3%
@@ -29,7 +29,7 @@ Parameters vooraf ingesteld met `d_*` identificeer speciale, systeem-vlakke zeer
 
 Deze kopballen zijn gebieden bevatten informatie zoals verzoeken om gegevens en reacties in een vraag van HTTP.
 
-| HTTP-header | Beschrijving | h_ keys geaccepteerd door Audience Manager |
+| HTTP-header | Beschrijving | h_ key geaccepteerd door Audience Manager |
 | --- | --- | --- |
 | Host | Dit wordt geplaatst aan de specifieke de gastheernaam van de gegevensinzameling van de cliënt die in het de gastheer configuratiedossier van Analytics wordt gespecificeerd. Het verschijnt zoals `host name .demdex.net`. Zie [Inzicht krijgen in oproepen van het demdex-domein](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). | `h_host` |
 | Gebruikersagent | Reeks aan de gebruiker-Agent kopbal die binnen tot Analytics wordt overgegaan. | `h_user-agent` |
