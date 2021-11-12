@@ -3,9 +3,9 @@ description: Een uitvoerige lijst en beschrijvingen van de configuratievariabele
 title: Data- en codereferentie server-side doorsturen
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 47026c5256039cf3fd9ff5d9a301778160ada9b6
+source-git-commit: 4f29245a80e54f3fbc5a830075d066b31d23c628
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,8 @@ Deze kopballen zijn gebieden bevatten informatie zoals verzoeken om gegevens en 
 | Accept-Language | Instellen op de  `Accept-Language`  doorgegeven aan Analytics. | `h_accept-language` |
 | Verwijzing | Instellen op de pagina-URL die wordt doorgegeven aan Analytics of die wordt verzameld via de `Referer` doorgegeven aan Analytics. | `h_referer` |
 | Referrer | Instellen op de pagina-URL die wordt doorgegeven aan Analytics of die wordt verzameld via de `Referrer` doorgegeven aan Analytics. | `h_referrer` |
-| IP | Signal die wordt geproduceerd van IP van de gastheer die het verzoek naar DCS verzendt. | `h_ip` |
+
+Bovendien `h_ip` Het signaal wordt geproduceerd van IP van de gastheer die het verzoek naar DCS verzendt.
 
 ## Door de klant gedefinieerde signalen {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
