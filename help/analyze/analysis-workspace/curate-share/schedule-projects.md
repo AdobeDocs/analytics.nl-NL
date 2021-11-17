@@ -3,15 +3,15 @@ description: Geplande Analysis Workspace-projecten beheren
 keywords: Analysis Workspace
 title: Beheer geplande projecten
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 5%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
 
-# Beheer geplande projecten
+# Geplande projectmanager
 
 Geplande Analysis Workspace-projecten beheren.
 
@@ -28,6 +28,10 @@ In de Geplande Manager van Projecten, kunt u terugkomende projectleveringen uitg
 De Geplande Manager van Projecten toont de punten die een specifieke gebruiker heeft gecreeerd. Als de gebruikersaccount in de toepassing is uitgeschakeld, worden alle geplande leveringen gestopt.
 
 ![](assets/scheduled-projects.png)
+
+## Projectbeheertaken plannen
+
+In de [!UICONTROL Scheduled projects] UI, kunt u:
 
 * Bewerk de geplande projecten.
 * Bekijk identiteitskaart van het Programma van een project (die hoofdzakelijk voor het zuiveren doeleinden wordt gebruikt).
