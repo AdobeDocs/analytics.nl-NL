@@ -2,9 +2,9 @@
 title: Regionale dataverzameling
 description: Informatie over regionale gegevensverzameling
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: e020e768b7a3a5495fcc86cb3fd1fbc5a421d224
+source-git-commit: e2fd69043e198d855dddd316b04215fde9f52cad
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,11 @@ De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk
 |---------------------|-------------------|
 | Standaard | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney, China* |
 
-Opmerking: Als uw verzoek voor een analyseafbeelding naar de `adobedc`, `2o7.net` of `omtrdc.net` eindpunten, dan hebt u derdegegevensinzameling. U kunt dit bepalen als u één van beide eindpunt in URL van uw verzoeken ziet.
-
 *China RDC vereist het China Add-on pakket. Zie de opmerking &#39;Belangrijk&#39; hierboven.
+
+>[!NOTE]
+>
+>Als uw verzoek voor een analyseafbeelding naar de `adobedc`, `2o7.net` of `omtrdc.net` eindpunten, dan hebt u derdegegevensinzameling. U kunt dit bepalen als u één van beide eindpunt in URL van uw verzoeken ziet.
 
 ## First-party HTTPS gegevensinzameling
 
@@ -43,7 +45,8 @@ Opmerking: Als uw verzoek voor een analyseafbeelding naar de `adobedc`, `2o7.net
 *Alleen China en de RDC-typen wereldwijd + China vereisen het China Add-on-pakket. Zie de opmerking &#39;Belangrijk&#39; hierboven. Global + China zal gegevens die afkomstig zijn uit China naar onze China RDC leiden en gegevens van buiten China naar de dichtstbijzijnde RDC buiten China doorsturen.
 
 >[!NOTE]
->De ervaring Edge Global en Global + China levert de beste prestaties voor uw eindgebruikers. Als u een ander type van BDC wilt gebruiken, gelieve de Zorg van de Adobe van de Klant voor hulp te contacteren.
+>
+>Experience Edge Global biedt de beste prestaties voor uw eindgebruikers.  Als u een ander type van BDC wilt gebruiken, gelieve de Zorg van de Adobe van de Klant voor hulp te contacteren.
 
 ## Voordelen van de RDC
 
