@@ -2,9 +2,9 @@
 title: Regionale dataverzameling
 description: Informatie over regionale gegevensverzameling
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
+source-git-commit: e020e768b7a3a5495fcc86cb3fd1fbc5a421d224
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '498'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ De Adobe Experience Cloud maakt gebruik van regionale gegevensverzameling (Regio
 
 >[!IMPORTANT]
 >
->Het China RDC (China Performance Optimization) Add-on Package is een aanrekbare add-on voor Adobe Analytics. Adobe&#39; Performance Optimization in mainland China stelt klanten in China in staat om gegevens rechtstreeks naar China edge node te verzenden in plaats van naar andere locaties wereldwijd. Hierdoor worden de laadtijden van de pagina en de gegevensnauwkeurigheid verbeterd ten opzichte van het verzenden van de gegevens naar knooppunten buiten China. Neem voor meer informatie contact op met je Adobe-verkoper.
+>Het China RDC (China Performance Optimization) Add-on Package is een aanrekbare add-on voor Adobe Analytics. De Optimalisering van Prestaties van Adobe in het vasteland van China laat klanten met gebruikers binnen China toe om die gegevens te hebben die rechtstreeks naar het de randknoop van China, in plaats van andere plaatsen globaal worden verzonden. Hierdoor worden de laadtijden van de pagina en de gegevensnauwkeurigheid verbeterd ten opzichte van het verzenden van de gegevens naar knooppunten buiten China. Neem voor meer informatie contact op met je Adobe-verkoper.
 
 De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk van de verandering):
 
@@ -25,7 +25,7 @@ De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk
 |---------------------|-------------------|
 | Standaard | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney, China* |
 
-Opmerking: Als uw verzoek van het beeld Analytics naar `adobedc`, `2o7.net` of `omtrdc.net` eindpunten wordt verzonden, dan hebt u derdegegevensinzameling. U kunt dit bepalen als u één van beide eindpunt in URL van uw verzoeken ziet.
+Opmerking: Als uw verzoek voor een analyseafbeelding naar de `adobedc`, `2o7.net` of `omtrdc.net` eindpunten, dan hebt u derdegegevensinzameling. U kunt dit bepalen als u één van beide eindpunt in URL van uw verzoeken ziet.
 
 *China RDC vereist het China Add-on pakket. Zie de opmerking &#39;Belangrijk&#39; hierboven.
 
@@ -34,20 +34,22 @@ Opmerking: Als uw verzoek van het beeld Analytics naar `adobedc`, `2o7.net` of `
 | RDC-type | Centra voor gegevensverzameling |
 |---------------------|-------------------|
 | Algemeen (standaard) | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
+| Wereldwijd + China* | China*, Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
 | Alleen Amerika | Oregon, Virginia |
 | Alleen Europa | Ierland, Parijs |
 | Alleen Azië - Stille Oceaan | Mumbai, Singapore, Tokio, Sydney |
 | Alleen China* | Peking |
 
-*China RDC vereist het China Add-on pakket. Zie de opmerking &#39;Belangrijk&#39; hierboven.
+*Alleen China en de RDC-typen wereldwijd + China vereisen het China Add-on-pakket. Zie de opmerking &#39;Belangrijk&#39; hierboven. Global + China zal gegevens die afkomstig zijn uit China naar onze China RDC leiden en gegevens van buiten China naar de dichtstbijzijnde RDC buiten China doorsturen.
 
-Opmerking: Experience Edge Global biedt de beste prestaties voor uw eindgebruikers.  Als u een alternatief type van BDC wilt gebruiken, gelieve de Zorg van de Adobe van de Klant voor hulp te contacteren.
+>[!NOTE]
+>De ervaring Edge Global en Global + China levert de beste prestaties voor uw eindgebruikers. Als u een ander type van BDC wilt gebruiken, gelieve de Zorg van de Adobe van de Klant voor hulp te contacteren.
 
 ## Voordelen van de RDC
 
 | Voordeel | Beschrijving |
 | --- | --- |
-| Prestaties | Met de RDC maken uw bezoekers verbinding met de dichtstbijzijnde DCC. Dit zorgt voor de snelste responstijd, wat resulteert in nauwkeurigere tracking en snellere laadtijden. |
+| Prestaties | Met RDC maken uw bezoekers verbinding met de dichtstbijzijnde DCC. Dit zorgt voor de snelste responstijd, wat resulteert in nauwkeurigere tracking en snellere laadtijden. |
 | Redundantie | In het geval van een verstoring in communicatie tussen DCC en uw DPC, bewaart de infrastructuur van RDC van Adobe gegevens plaatselijk, dan door:sturen het aan DPC wanneer de mededelingen worden hersteld. |
 
 ## Hoe werkt RDC?
