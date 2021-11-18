@@ -2,10 +2,10 @@
 title: Handleiding voor importeren van analysemogelijkheden
 description: Deze gids verklaart hoe te om gegevens in Analytics te krijgen gebruikend Gegevensbronnen, de Invoeging API van Gegevens, en de Verbindingen van Gegevens.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 78%
+source-wordcount: '149'
+ht-degree: 60%
 
 ---
 
@@ -17,7 +17,7 @@ In deze handleiding wordt uitgelegd hoe u gegevens in Analytics kunt opnemen. He
 
 * **[Gegevensbronnen](c-data-sources/datasrc-home.md)**: Upload een bestand naar een toegewezen Adobe FTP-site. Adobe haalt het bestand op en neemt de gegevens op in de rapportsuite.
 * **[API voor gegevensinvoeging](c-data-insertion-api/c-data-insertion-api.md)**: Gegevens rechtstreeks via een API naar de gegevensverzameling van Adobe verzenden.
-* **[Data Connectors](data-connectors/getting-started-data-connectors.md)**: Werk samen met een ondersteunde derde partij om hun gegevens over te brengen naar Adobe Analytics en uw rapportenpakket te verrijken.
+* **Gegevensconnectors**: Met ingang van 19 augustus 2021 heeft Adobe de integratie van gegevensconnectors beëindigd. Veel van deze integraties zijn beschikbaar via [Adobe Exchange](https://exchange.adobe.com/experiencecloud.analytics.html#product) en kan verder worden gebruikt.
 
 Hier volgt een video-overzicht van Adobe Analytics:
 

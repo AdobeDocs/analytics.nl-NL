@@ -2,7 +2,7 @@
 description: Leer over wanneer en waarom de gegevensschakelaars van de Analyse zullen eind-van-leven worden.
 title: Vooraankondiging van einde van levensduur voor gegevensconnectors van Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 82e1c1d75db53f97b2f1858e26f6b369d157f834
+source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 3%
@@ -11,9 +11,9 @@ ht-degree: 3%
 
 # Einde van levensduur voor Adobe Data Connectors
 
-Al meer dan tien jaar streeft Adobe Analytics ernaar de beste oplossing voor web- en marketinganalyses te bieden om aan de behoeften van klanten te voldoen. Naarmate technologie en bedrijfsbehoeften evolueren, streven we ernaar voortdurend aan de hoogste standaarden te voldoen.  Helaas voldoen de API&#39;s die deze integratie mogelijk maken, niet meer aan deze normen en zijn ze niet houdbaar in de moderne Adobe Analytics-technologie-infrastructuur.
-
 **19 augustus 2021** Adobe heeft de integratie van gegevensconnectors beëindigd. Het einde van de levensduur maakt deel uit van de levenscyclus van elk technologisch product en de Adobe is erop gericht de overgang zo naadloos mogelijk te maken voor onze klanten en partners. Veel van deze integraties zijn beschikbaar via Adobe Exchange en kunnen ook in de toekomst worden gebruikt.
+
+Al meer dan tien jaar streeft Adobe Analytics ernaar de beste oplossing voor web- en marketinganalyses te bieden om aan de behoeften van klanten te voldoen. Naarmate technologie en bedrijfsbehoeften evolueren, streven we ernaar voortdurend aan de hoogste standaarden te voldoen.  Helaas voldoen de API&#39;s die deze integratie mogelijk maken, niet meer aan deze normen en zijn ze niet houdbaar in de moderne Adobe Analytics-technologie-infrastructuur.
 
 ## Waarom zijn we aan het einde van deze functie?
 
@@ -62,7 +62,7 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 | Demandbase CA | Vervangen |
 | Demandbase v3 | Vervangen |
 | DialogTech | Migreren naar de nieuwste API&#39;s |
-| [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Vervangen |
+| [DoubleClick for Advertisers (DFA)] | Vervangen |
 | DREAM | Vervangen |
 | DREAMmail 1.0, DREAMmail 2.0 | Vervangen |
 | Dynamisch signaal (Nital Vora) | Migreren naar de nieuwste API&#39;s |

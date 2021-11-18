@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Handleiding voor importeren van analysemogelijkheden
 breadcrumb-title: Hulplijn importeren
 user-guide-description: 'Gegevens van externe bronnen in Analytics opnemen, in bulk of real-time. '
-translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: a9d0cc251e8902f3c9c3cd9c31cbc71ae6ee20e9
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 92%
+source-wordcount: '126'
+ht-degree: 72%
 
 ---
 
@@ -34,101 +33,14 @@ ht-degree: 92%
       + [Verkeer](c-data-sources/c-datasrc-types/datasrc-traffic.md)
       + [Conversie](c-data-sources/c-datasrc-types/datasrc-conversion.md)
       + [Transactie-id](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
-      + [Bezoeker-id](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+      + [Bezoekers-id](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
       + [Volledige verwerking](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
       + [Einde van levensduur voor volledige verwerking](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
    + [Transactie- en klantintegratie](c-data-sources/datasrc-integrating-offline-data.md)
    + [Transactie-id en bezoekersprofielen](c-data-sources/datasrc-tid-visitor-profile.md)
    + [Veelgestelde vragen over gegevensbronnen](c-data-sources/datasrc-faq.md)
-+ [API voor gegevensinvoer](c-data-insertion-api/c-data-insertion-api.md)
++ [API voor data-invoer](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
-   + [Aan de slag met Analytics Data Connectors](data-connectors/getting-started-data-connectors.md)
    + [Einde van levensduur voor gegevensconnectors van Analytics](data-connectors/data-connectors-eol.md)
-   + appFigures Data Connector voor Adobe Analytics {#appfigures}
-      + [appFigures - overzicht](data-connectors/appfigures-overview/appfigures-overview.md)
-      + [Voordat u deze integratie activeert](data-connectors/appfigures-overview/appfigures-before-activation.md)
-      + [De integratie configureren](data-connectors/appfigures-overview/t-appfigures-integration.md)
-      + [Statistieken en dimensies](data-connectors/appfigures-overview/appfigures-metrics.md)
-      + [Toepassingsgegevens segmenteren](data-connectors/appfigures-overview/appfigures-segment-filter.md)
-   + April Data Connector voor Adobe Analytics {#aprimo}
-      + [April Data Connector voor Adobe Analytics](data-connectors/aprimo-overview/aprimo-overview.md)
-      + [De integratie activeren](data-connectors/aprimo-overview/t-aprimo-activate.md)
-      + [Adobe Analytics-plug-incode](data-connectors/aprimo-overview/aprimo-sitecatalyst-code.md)
-   + ContactLab-gegevensconnector voor Adobe Analytics {#contactlab}
-      + [ContactLab-gegevensconnector voor Adobe Analytics](data-connectors/c-contactlab-data-connector-for-adobe-analytics/c-contactlab-data-connector-for-adobe-analytics.md)
-      + [De integratie implementeren](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration.md)
-   + Datran Data Connector voor Adobe Analytics {#datran}
-      + [Datran Data Connector voor Adobe Analytics](data-connectors/datran-integration-overview/datran-integration-overview.md)
-      + [Voorbereiden op de e-mailintegratie van Data Connectors](data-connectors/datran-integration-overview/datran-configuring-integration.md)
-      + [De wizard voor integratie van Data Connectors uitvoeren](data-connectors/datran-integration-overview/t-datran-wizard.md)
-   + Delivra Data Connector voor Adobe Analytics {#delivra}
-      + [Delivra Data Connector voor Adobe Analytics](data-connectors/delivra-integration-overview/delivra-integration-overview.md)
-      + [Voorbereiden op de e-mailintegratie van Data Connectors](data-connectors/delivra-integration-overview/delivra-configuring-the-genesis-delivra-integration.md)
-      + [De wizard voor integratie van Data Connectors uitvoeren](data-connectors/delivra-integration-overview/t-delivra-running-the-genesis-integration-wizard.md)
-   + Demandbase Data Connector voor Adobe Analytics {#demandbase}
-      + [Demandbase Data Connector voor Adobe Analytics](data-connectors/demandbase-home/demandbase-home.md)
-      + [De integratie implementeren](data-connectors/demandbase-home/demandbase-deploying.md)
-      + [De integratie gebruiken](data-connectors/demandbase-home/demandbase-using-integration.md)
-      + [Standaardafmetingen demandbasis](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
-      + [Aangepaste afmetingen op basis van vereisten](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
-   + DFA Data Connector voor Adobe Analytics {#dfa}
-      + [DFA Integration End-of-Life-informatie](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
-      + [DFA Data Connector voor Adobe Analytics](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
-      + [Vereisten](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
-      + [Integratiefuncties](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
-      + [Variabelen en gebeurtenissen analyseren](data-connectors/dfa-data-connector-analytics/dfa-analytics-variables-and-events.md)
-      + [DFA-integratie](data-connectors/dfa-data-connector-analytics/dfa-integration.md)
-      + [Analyserapporten met DFA-gegevens](data-connectors/dfa-data-connector-analytics/dfa-analytics-reports.md)
-      + [Metrische verschillen met elkaar verzoenen](data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)
-      + [Veelgestelde vragen](data-connectors/dfa-data-connector-analytics/dfa-faq.md)
-      + [Max. vertraging](data-connectors/dfa-data-connector-analytics/maxdelay.md)
-   + DreamMail Data Connector voor Adobe Analytics {#dreammail}
-      + [DreamMail Data Connector voor Adobe Analytics](data-connectors/dreammail-overview/dreammail-overview.md)
-      + [De integratie activeren](data-connectors/dreammail-overview/t-dreammail-activate.md)
-      + [Code plug-in Analytics](data-connectors/dreammail-overview/dreammail-analytics-code.md)
-   + Dynamic Signal VoiceStorm Data Connector voor Adobe Analytics {#dynamicsignal}
-      + [Dynamic Signal VoiceStorm Data Connector voor Adobe Analytics](data-connectors/dynamic-signal-for-analytics/dynamic-signal-for-analytics.md)
-      + [De integratie implementeren](data-connectors/dynamic-signal-for-analytics/dynamic-signal-deploy-integration.md)
-      + [De integratie gebruiken](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration.md)
-   + Emarsys-gegevensconnector voor Adobe Analytics {#emarsys}
-      + [Emarsys-gegevensconnector voor Adobe Analytics](data-connectors/emarsys-overview/emarsys-overview.md)
-      + [Voorbereiden op de e-mailintegratie van Data Connectors](data-connectors/emarsys-overview/emarsys-configure-integration.md)
-      + [Variabelen voor analyse](data-connectors/emarsys-overview/emarsys-variables.md)
-      + [De wizard voor integratie van Data Connectors uitvoeren](data-connectors/emarsys-overview/emarsys-wizard.md)
-   + Kampyle Data Connector voor Adobe Analytics {#kampyle}
-      + [Kampyle Data Connector voor Adobe Analytics](data-connectors/kampyle-home/kampyle-home.md)
-      + [De integratie implementeren](data-connectors/kampyle-home/kampyle-deploy.md)
-      + [De integratie gebruiken](data-connectors/kampyle-home/kampyle-integration.md)
-   + Lyris Data Connector voor Adobe Analytics {#lyris}
-      + [Lyris Data Connector voor Adobe Analytics](data-connectors/lyris-overview/lyris-overview.md)
-      + [De integratie implementeren](data-connectors/lyris-overview/lyris-deploy-integration.md)
-   + Neolane Ozon Data Connector voor Adobe Analytics {#neolane}
-      + [Neolane Ozon Data Connector voor Adobe Analytics](data-connectors/neolane-overview/neolane-overview.md)
-      + [De integratie activeren](data-connectors/neolane-overview/neolane-activate.md)
-      + [Adobe Analytics-plug-incode](data-connectors/neolane-overview/neolane-plugin-code.md)
-   + optivo Broadmail Data Connector voor Adobe Analytics {#optivo}
-      + [optivo Broadmail Data Connector voor Adobe Analytics](data-connectors/optivo-overview/optivo-overview.md)
-      + [De integratie activeren](data-connectors/optivo-overview/optivo-activate.md)
-      + [Adobe Analytics-plug-incode](data-connectors/optivo-overview/optivo-plugin-code.md)
-   + Kwaliteitsgegevensconnector voor Adobe Analytics {#qualtrics}
-      + [Kwaliteitsgegevensconnector voor Adobe Analytics](data-connectors/qualtrics-overview/qualtrics-overview.md)
-      + [De integratie implementeren](data-connectors/qualtrics-overview/qualtrics-deploying.md)
-      + [De integratie gebruiken](data-connectors/qualtrics-overview/qualtrics-integration.md)
-      + [Qualtriciteitsorganisatie-id zoeken](data-connectors/qualtrics-overview/qualtrics-org-id.md)
-      + [Uw Qualtrics Adobe Analytics-token genereren](data-connectors/qualtrics-overview/qualtrics-token.md)
-   + Responsys Data Connector voor Adobe Analytics {#responsys}
-      + [Responsys Data Connector voor Adobe Analytics](data-connectors/responsys-home/responsys-home.md)
-      + [De integratie implementeren](data-connectors/responsys-home/responsys-deploy/responsys-deploy.md)
-      + [Integratie controleren](data-connectors/responsys-home/responsys-verify.md)
-   + Slimme gegevensconnector voor Adobe Analytics {#selligent}
-      + [Slimme gegevensconnector voor Adobe Analytics](data-connectors/selligent-overview/selligent-overview.md)
-      + [De integratie implementeren](data-connectors/selligent-overview/selligent-deploy-integration.md)
-      + [Insteekmodulecode voor parameters voor query-tekenreeks](data-connectors/selligent-overview/selligent-plugin-code.md)
-   + Silverpop Data Connector voor Adobe Analytics {#silverpop}
-      + [Silverpop Data Connector voor Adobe Analytics](data-connectors/silverpop-overview/silverpop-overview.md)
-      + [Voordat u deze integratie activeert](data-connectors/silverpop-overview/silverpop-before-activation/silverpop-before-activation.md)
-      + [Variabelen voor analytische integratie](data-connectors/silverpop-overview/silverpop-variables.md)
-      + [Silverpop-integratie](data-connectors/silverpop-overview/silverpop-wizard.md)
-      + [Code plug-in Analytics](data-connectors/silverpop-overview/silverpop-analytics-code.md)
 + Gebruiksscenario&#39;s importeren {#use-cases}
    + [Betaalde zoekgegevens importeren met behulp van gegevensbronnen](use-cases/paid-search-metrics.md)
