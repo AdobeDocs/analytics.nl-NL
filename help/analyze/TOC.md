@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Adobe Analytics-dashboards, Report Builder en Activity Map.
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+source-git-commit: 3266dd5547c1967e424534a13a3f8dc29aa1189e
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 84%
+source-wordcount: '1011'
+ht-degree: 83%
 
 ---
 
@@ -87,7 +87,10 @@ ht-degree: 84%
       + [Leeg deelvenster](analysis-workspace/c-panels/blank-panel.md)
       + [Deelvenster Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
       + [Deelvenster voor gelijktijdige mediaviewers](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Media afspelen tijd besteed, deelvenster](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + Tijd van afspelen van media besteed {#media-playback-timespent}
+         + [Overzicht](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [Invoer- en uitvoerinstellingen](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
+         + [Veelgestelde vragen](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
       + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
       + Deelvenster Segmentvergelijking {#segment-comparison}
          + [Overzicht van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
