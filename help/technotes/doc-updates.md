@@ -3,9 +3,9 @@ title: Technische documentatie-updates voor Adobe Analytics
 description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 7a8a4d6c7a7addc1e5432d0f8d092caa64feb1eb
+source-git-commit: 579279798d67536fde182386ec0cf8db36785cc2
 workflow-type: tm+mt
-source-wordcount: '2899'
+source-wordcount: '2900'
 ht-degree: 43%
 
 ---
@@ -24,7 +24,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | --- | --- |
 | **Oktober 2021** |  |
 | 21 oktober 2021 | Nieuwe documentatie over [Snelle segmenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) in Analysis Workspace |
-| 21 oktober 2021 | Nieuwe documentatie op de [Tijd van afspelen van media besteed](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html) in Analysis Workspace. |
+| 21 oktober 2021 | Nieuwe documentatie op de [Tijd van afspelen van media besteed](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html) in Analysis Workspace. |
 | 7 oktober 2021 | Nieuwe documentatie over [visualisaties voor mobiele scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
 | **Augustus 2021** |  |
 | 18 augustus 2021 | Herziene structuur op hoofdniveau en geconsolideerd tot één structuur [Openingspagina](https://experienceleague.adobe.com/docs/analytics.html) |
@@ -63,7 +63,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 12 november 2020 | Nieuwe pagina op [Overgenomen Adobe Analytics-implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=en). |
 | 2 november 2020 | Bijgewerkt document op [FTP voor classificaties](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=en). |
 | **Oktober 2020** |  |
-| 23 oktober 2020 | Visualisatie werkruimtelijn: [Gemiddelde trendline verplaatsen, optie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): Deze instelling is toegevoegd aan [!UICONTROL Line] instellingen voor visualisatietendline. Ook gekend als voortschrijdend gemiddelde, gebruikt een voortschrijdend gemiddelde een specifiek aantal gegevenspunten (die door a worden bepaald **[!UICONTROL Periods]** ), wordt het gemiddelde genomen en wordt het gemiddelde gebruikt als een punt op de regel. |
+| 23 oktober 2020 | Visualisatie werkruimtelijn: [Gemiddelde trendline verplaatsen, optie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): Deze instelling is toegevoegd aan [!UICONTROL Line] instellingen voor visualisatietendline. Ook gekend als voortschrijdend gemiddelde, gebruikt een voortschrijdend gemiddelde een specifiek aantal gegevenspunten (die door a worden bepaald **[!UICONTROL Periods]** (selecteert), gemiddeld deze en gebruikt het gemiddelde als een punt op de regel. |
 | 23 oktober 2020 | De werkruimte [Help-pagina voor prestaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) toont de verschillende factoren die projectprestaties en verbindingen aan uiteinden voor optimalisering beïnvloeden. |
 | 23 oktober 2020 | Verbeteringen toegevoegd aan de documentatie van Adobe Analytics-dashboads. In de mobiele scorecard in Workspace komt de opmaak van de scorecard nu overeen met die van de app. |
 | **September 2020** |  |
