@@ -5,20 +5,20 @@ title: User en Product Management
 feature: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f184cc7a98f0b15e2b96d5132e2a35b12d0f3556
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '548'
 ht-degree: 3%
 
 ---
 
 # User en Product Management
 
-Gebruikers, groepen en producten van Analytics in de Admin Console beheren.
+Manage Analytics users, groups, and products in the Admin Console.
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer gaat over naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, wordt Help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** ingetrokken.
+>Gebruiker- en productbeheer is verplaatst naar de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren. Nadat alle klanten zijn gemigreerd, help-inhoud voor **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** worden ingetrokken.
 
 ## Hulp Middelen voor de Beheerders van de Admin Console {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -32,18 +32,18 @@ Gebruikers, groepen en producten van Analytics in de Admin Console beheren.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gebruikers-id's voor Analyse migreren naar de Admin Console </p> </td> 
-   <td colname="col2"> <p> Adobe helpt analysebeheerders om gebruikers-id's te migreren naar de Adobe Admin Console. Deze inspanning zal in golven voorkomen. Wanneer het uw beurt is om uw gebruikers te migreren, zal Adobe Analysebeheerders via e-mail met instructies op de hoogte brengen. Op dat moment is een <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> migratiehulpmiddel</a> beschikbaar in Analytics User Management om deze taak te vereenvoudigen. </p> <p>Belangrijk: Op de dag van de migratie van uw gebruikers, worden uw vroegere toestemmingsgroepen automatisch gekopieerd aan de Admin Console. U kunt geen nieuwe gebruikers meer uitnodigen of nieuwe groepen maken in Analytics Admin Tools. Bekijk de veelgestelde vragen en help in <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> Analytics User Migration to the Admin Console</a> voor informatie over hoe u zich op de migratie kunt voorbereiden en over de beheerfuncties die worden beïnvloed. </p> </td> 
+   <td colname="col2"> <p> Adobe helpt analysebeheerders om gebruikers-id's te migreren naar de Adobe Admin Console. Deze inspanning zal in golven voorkomen. Wanneer het uw beurt is om uw gebruikers te migreren, zal Adobe Analysebeheerders via e-mail met instructies op de hoogte brengen. At that time, a <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> migration tool</a> will be available in Analytics User Management to simplify this task. </p> <p>Belangrijk: Op de dag van de migratie van uw gebruikers, worden uw vroegere toestemmingsgroepen automatisch gekopieerd aan de Admin Console. U kunt geen nieuwe gebruikers meer uitnodigen of nieuwe groepen maken in Analytics Admin Tools. Bekijk de veelgestelde vragen en help in <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> Analyse van gebruikersmigratie naar de Admin Console</a> voor informatie over de voorbereiding van de migratie en over de desbetreffende administratieve functies. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>De Admin Console starten </p> </td> 
-   <td colname="col2"> <p>Nadat uw gebruikersrekeningen worden gemigreerd, kunt u gebruikers en producten over alle oplossingen in de Admin Console beheren </p> <p>Navigeren naar: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html"> Gebruikers en producten van Experience Cloud beheren</a> voor updates voor gebruikers- en productbeheer van Experience Cloud in de Admin Console. </p> </td> 
+   <td colname="col2"> <p>Nadat uw gebruikersrekeningen worden gemigreerd, kunt u gebruikers en producten over alle oplossingen in de Admin Console beheren </p> <p>Navigeren naar: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Zie voor hulp <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html"> Gebruikers en producten van Experience Cloud beheren</a> voor updates van Experience Cloud gebruiker en productbeheer in de Admin Console. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Beschrijving van gebruikersbeheer {#section_7C19842A3D4249109A9399D4DF18DE75}
 
-In de volgende tabel worden de elementen op het tabblad [!UICONTROL Users] in [!UICONTROL User Management] beschreven.
+In de volgende tabel worden de elementen in de [!UICONTROL Users] tab in [!UICONTROL User Management].
 
 <table id="table_6F81D1095EB945D8995FF971B65BA52A"> 
  <thead> 
@@ -62,16 +62,16 @@ In de volgende tabel worden de elementen op het tabblad [!UICONTROL Users] in [!
    <td colname="col2"> Het aantal gebruikersaccounts dat momenteel wordt gebruikt voor dit bedrijf. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Aantal resterende gebruikersaanmeldingen</span> </td> 
-   <td colname="col2"> Het verschil tussen het maximum van de gebruikersrekening en het aantal bestaande gebruikersrekeningen. </td> 
+   <td colname="col1"> <span class="wintitle"> Number of User Logins Remaining</span> </td> 
+   <td colname="col2"> The difference between the user account maximum and the number of existing user accounts. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Nieuwe gebruiker toevoegen</span> </td> 
-   <td colname="col2"> <p>Hiermee kunt u een gebruikersaccount aan het bedrijf toevoegen. Deze koppeling is alleen beschikbaar als het aantal resterende gebruikersaanmeldingen groter is dan 0. </p> <p>Zie <a href="/help/admin/user-management2/c-user-management/users.md"> Gebruikers</a>. </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Add New User</span> </td> 
+   <td colname="col2"> <p>Lets you add a user account to the company. This link is available only if the Number of User Logins Remaining is greater than 0. </p> <p>Zie <a href="/help/admin/user-management2/c-user-management/users.md"> Gebruikers</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rapport downloaden</span> </td> 
-   <td colname="col2">Exporteert de inhoud van de tabel <span class="wintitle"> Users</span> naar een door tabs gescheiden bestand. </td> 
+   <td colname="col2">Exports the contents of the <span class="wintitle"> Users</span> table to a tab-delimited file. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Aanmelden</span> </td> 
@@ -87,11 +87,11 @@ In de volgende tabel worden de elementen op het tabblad [!UICONTROL Users] in [!
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Titel</span> </td> 
-   <td colname="col2"> De functie van de gebruiker. </td> 
+   <td colname="col2"> The user's job title. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Beheer</span> </td> 
-   <td colname="col2"> Hiermee wordt opgegeven of de gebruikersaccount beheerdersrechten heeft. </td> 
+   <td colname="col2"> Specifies if the user account has administrative privileges. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Laatste aanmelding</span> </td> 
@@ -99,15 +99,15 @@ In de volgende tabel worden de elementen op het tabblad [!UICONTROL Users] in [!
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Tijd maken</span> </td> 
-   <td colname="col2"> Geeft de datum en tijd weer waarop de aanmeldingsaccount is gemaakt. </td> 
+   <td colname="col2"> Shows the date and time when the login account was created. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Verloopt</span> </td> 
    <td colname="col2"> Hiermee geeft u indien van toepassing de account bij verlopen weer. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Beheren</span> </td> 
-   <td colname="col2"> Verzekert verbindingen voor het beheer van de gebruikersrekening. </td> 
+   <td colname="col1"> <span class="wintitle"> Manage</span> </td> 
+   <td colname="col2"> Provides links for user account management. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Bewerken</span> </td> 
@@ -119,7 +119,7 @@ In de volgende tabel worden de elementen op het tabblad [!UICONTROL Users] in [!
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Overdracht</span> </td> 
-   <td colname="col2">Wijs de voorrechten (toestemmingen en middeltoegang) van één gebruikersrekening aan een andere toe. <p>Zie <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> Rechten van gebruikersaccounts overdragen</a>. </p> </td> 
+   <td colname="col2">Wijs de voorrechten (toestemmingen en middeltoegang) van één gebruikersrekening aan een andere toe. <p>Zie <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> Gebruikersaccountrechten overdragen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Aanmelden als deze gebruiker</span> </td> 
