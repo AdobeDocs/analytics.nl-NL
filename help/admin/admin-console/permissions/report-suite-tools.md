@@ -1,17 +1,17 @@
 ---
-title: Machtigingen voor productprofielen voor rapportsuite
+title: Productprofielmachtigingen voor Report Suite Tools in Adobe Admin Console
 description: Begrijp elk toestemmingspunt onder de Hulpmiddelen van de Reeks van het Rapport.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '631'
 ht-degree: 3%
 
 ---
 
 # Machtigingen voor productprofielen voor rapportsuite
 
-Gebruik deze pagina om elk toestemmingspunt onder de Hulpmiddelen van de Reeks van het Rapport te begrijpen.
+Gebruik deze pagina om elk machtigingsitem onder Report Suite Tools in Adobe Admin Console te begrijpen.
 
 | Machtigingsitem voor Reeks-gereedschappen rapporteren | Beschrijving |
 |------|------|
@@ -45,7 +45,7 @@ Gebruik deze pagina om elk toestemmingspunt onder de Hulpmiddelen van de Reeks v
 | Gegevensbronbeheer | Geeft toegang tot Admin > Al admin > Gegevensbronnen in Analytics hoogste navigatie. Vereist het machtigingsitem &#39;Report Suite Mgmt&#39;. |
 | Exclusief door IP Adres | Hiermee krijgt u toegang tot Beheer > Uitsluiten door IP in de bovenste navigatie Analytics. |
 | Terugkerende bezoeken | Hiermee krijgt u toegang tot Bezoekersbewaring > Bezoekopdrachten in Rapporten en Analyse. |
-| Classificaties | Hiermee krijgt u toegang tot alle indelingsinstellingen in Rapportbeheer. Dit machtigingsitem omvat: <br>Verkeer > Verkeersclassificaties<br>Conversie > Conversieclassificaties<br>Conversie > Classificatiehiërarchieën<br>Marketingkanalen > Marketing Channel Classifications<br>App Management > App Classifications<br>Media Management > Media Classifications<br>AEM > AEM Assets Classifications<br>Adobe Campaign > Adobe Classifications |
+| Classificaties | Hiermee krijgt u toegang tot alle indelingsinstellingen in Rapportbeheer. Dit machtigingsitem omvat: <br>Verkeer > Verkeersclassificaties<br>Conversie > Conversie-classificaties<br>Conversie > Classificatiehiërarchie<br>Marketing Channels > Marketing Channel Classifications<br>App Management > App Classifications<br>Media Management > Media Classifications<br>AEM > AEM Assets Classifications<br>Adobe Campaign > Adobe-classificaties |
 | Mijn aanbevolen rapporten | Hiermee krijgt u toegang tot Sitemetriek > Mijn aanbevolen rapporten in Rapporten en Analyse. |
 | Dashboard Image Reports &amp; Analyses | Biedt toegang tot Dashboard Reports. |
 | Dashboard Metric Gage Reports &amp; Analytics | Biedt toegang tot Dashboard Reports. |

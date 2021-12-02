@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over het beheren van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 22bf5b376f1f5a5c1b6efea419cae9bd0c77991d
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 90%
+source-wordcount: '659'
+ht-degree: 89%
 
 ---
 
@@ -149,29 +149,12 @@ ht-degree: 90%
    + [Een rapportsuitegroep maken](c-manage-report-suites/t-create-rs-group.md)
 + User en Product Management (verouderd) {#user-product-management}
    + [User en Product Management](user-management2/user-management.md)
-   + [Gebruikersgroepen toewijzen aan een rapportsuite](user-management2/t-group-access-report-suite.md)
-   + User Management {#user-management}
-      + [Overzicht van User Management](user-management2/c-user-management/users.md)
-      + [Een gebruikersaccount toevoegen](user-management2/c-user-management/t-add-user-account.md)
-      + [Wijzigingen in gebruikers- en groepstoestemmmingen](user-management2/c-user-management/permissions-changes.md)
-      + [Gebruikersaccountitems overdragen](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
-      + [Een gebruiker aan een groep toevoegen](user-management2/c-user-management/t-add-user-to-group.md)
-      + Gebruikers migreren naar Adobe Admin Console {#migrate-users}
-         + [Analytics-gebruikersmigratie naar de Admin Console](user-management2/user-migration/c-migration-tool.md)
-         + [Analytics-gebruikersaccounts voor Adobe ID’s migreren](user-management2/user-migration/t-migrate-users.md)
-         + [Analytics-gebruikersaccounts voor Enterprise en Federated ID’s migreren](user-management2/user-migration/migrate-enterprise.md)
-         + [Verouderde logins uitschakelen](user-management2/user-migration/t-disable-legacy-login.md)
-         + [API&#39;s die door de migratie worden beïnvloed](user-management2/user-migration/developer.md)
-   + Gebruikersgroepen {#user-groups}
-      + [Een gebruikersgroep toevoegen](user-management2/c-user-groups/t-user-group.md)
-      + [Gebruikersgroepsinstellingen](user-management2/c-user-groups/groups.md)
-   + Rapporttoegang aanpassen {#customize-report-access}
-      + [Rapporttoegang aanpassen - overzicht](user-management2/c-customize-report-access/groups-customize-report-access.md)
-      + [Toestemmingen voor Analytics-tools](user-management2/c-customize-report-access/groups-analytics-tools.md)
-      + [Toestemmingen voor rapportsuitetools](user-management2/c-customize-report-access/groups-report-suite-tools.md)
-      + [Toestemmingen voor cijfers aanpassen](user-management2/c-customize-report-access/groups-metrics.md)
-      + [Toestemmingen voor dimensies aanpassen](user-management2/c-customize-report-access/groups-dimensions.md)
-   + [E-mailgebruikers](user-management2/t-email-users.md)
+   + Gebruikers migreren naar Adobe Admin Console {#migrate-users}
+      + [Analytics-gebruikersmigratie naar de Admin Console](user-management2/user-migration/c-migration-tool.md)
+      + [Analytics-gebruikersaccounts voor Adobe ID’s migreren](user-management2/user-migration/t-migrate-users.md)
+      + [Analytics-gebruikersaccounts voor Enterprise en Federated ID’s migreren](user-management2/user-migration/migrate-enterprise.md)
+      + [Verouderde logins uitschakelen](user-management2/user-migration/t-disable-legacy-login.md)
+      + [API&#39;s die door de migratie worden beïnvloed](user-management2/user-migration/developer.md)
 + Data Governance {#data-governance}
    + [Adobe Analytics en GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics en CCPA](c-data-governance/an-ccpa-overview.md)
