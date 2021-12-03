@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Classificatieregels
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: c04e749f7db6971572701e839de0829777b8c58e
+source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
 workflow-type: tm+mt
 source-wordcount: '1959'
 ht-degree: 1%
@@ -257,7 +257,7 @@ In dit resultaat `a:b:1313` geeft geen overeenkomst aan.
 | `\W` | Willekeurig niet-woordteken |
 | `\b` | Willekeurige woordgrens |
 | `(...)` | Alle ingesloten gegevens vastleggen |
-| `(a|b)` | a of b |
+| `(a\b)` | a of b |
 | `a?` | Nul of een van een |
 | `a*` | Nul of meer van een |
 | `a+` | Een of meer van een |
