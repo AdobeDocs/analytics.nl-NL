@@ -3,8 +3,7 @@ title: Invoer en uitvoer van het deelvenster Media Playback Time Spelling
 description: Wat zijn de instellingen voor invoer en uitvoer van de afspeeltijd van media?
 feature: Panels
 role: User, Admin
-exl-id: null
-source-git-commit: 6a82b998d6ff079f5e100d2ea09d160f6e9f8c8a
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%

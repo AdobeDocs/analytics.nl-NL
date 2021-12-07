@@ -1,8 +1,7 @@
 ---
 title: Merchandising-instanties zoeken op in post_product_list
 description: Zoek de Merchandising-eVar-instantie voor elke opzoekwaarde in de kolom post_product_list in een gegevensfeed.
-exl-id: null
-source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 86%
@@ -11,7 +10,7 @@ ht-degree: 86%
 
 # Merchandising-instanties zoeken op in post_product_list
 
-In Gegevensfeeds kan de kolom [post_product_list](datafeeds-reference.md) de merchandising-eVar-instanties bevatten. Elke eVar wordt vertegenwoordigd door een aantal.
+In de feeds van Gegevens, [post_product_list](datafeeds-reference.md) kan de merchandising-eVar-instanties bevatten. Elke eVar wordt vertegenwoordigd door een aantal.
 
 De Merchandising eVar instance lookup voor post_product_list is verschillend van event_list raadplegingskolom in de Diervoed van Gegevens.
 
