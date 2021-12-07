@@ -2,9 +2,9 @@
 title: Regionale dataverzameling
 description: Informatie over regionale gegevensverzameling
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: e2fd69043e198d855dddd316b04215fde9f52cad
+source-git-commit: 1cf95a2bf57aacd6b0b5bdb1c3bf31d1b31339e0
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ De Adobe Experience Cloud maakt gebruik van regionale gegevensverzameling (Regio
 
 De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk van de verandering):
 
-## Gegevensverzameling van derden en HTTP
+## Gegevensverzameling van derden
 
 | RDC-type | Centra voor gegevensverzameling |
 |---------------------|-------------------|
@@ -31,7 +31,7 @@ De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk
 >
 >Als uw verzoek voor een analyseafbeelding naar de `adobedc`, `2o7.net` of `omtrdc.net` eindpunten, dan hebt u derdegegevensinzameling. U kunt dit bepalen als u één van beide eindpunt in URL van uw verzoeken ziet.
 
-## First-party HTTPS gegevensinzameling
+## Gegevensverzameling van eerste partijen
 
 | RDC-type | Centra voor gegevensverzameling |
 |---------------------|-------------------|
