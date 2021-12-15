@@ -4,17 +4,14 @@ title: Aan de slag met Reports and Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met rapporten en analyses
-
->[!NOTE]
->Dit product is toegelaten voor verkoop in Noord-Amerika en andere regio&#39;s waar het product daadwerkelijk wordt verkocht en voldoet mogelijk niet aan de vereisten voor verkoop in andere landen of regio&#39;s.
 
 Voordat u Rapporten en Analyses gebruikt, moet u deze basisaanmeldings- en instellingstaken begrijpen, en weten hoe u toegang hebt tot accountgegevens.
 
@@ -102,3 +99,6 @@ Stappen die beschrijven hoe te om de interfacetaal te veranderen. U kunt de Repo
 1. Klik in de voettekst van de pagina op de actieve taal in het dialoogvenster **[!UICONTROL Language]** en selecteert u de gewenste taal.
 
 U kunt de documentatie en de startpagina openen vanuit de Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
+
+>[!NOTE]
+>Dit product mag worden verkocht in Noord-Amerika en andere regio&#39;s waar het product daadwerkelijk wordt verkocht. Het mag niet voldoen aan de lokale vereisten voor verkoop in andere landen of regio&#39;s.
