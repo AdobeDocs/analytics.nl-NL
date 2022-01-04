@@ -4,9 +4,9 @@ title: Rapport Weergave-instellingen en navigatie
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1551'
 ht-degree: 7%
 
 ---
@@ -14,6 +14,9 @@ ht-degree: 7%
 # Rapport Weergave-instellingen en navigatie
 
 Instellingen die bepalen hoe alle rapporten worden weergegeven en informatie die de standaardmenuopties toewijst aan hun locatie in het vereenvoudigde menu.
+
+>[!IMPORTANT]
+>Effectief **31 december 2023**, is Adobe voornemens de rapporten en analyses en de bijbehorende rapporten en functies te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en de onderliggende technologie die de rapporten &amp; Analytics van de macht niet meer aan de technologienormen van Adobe voldoen. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 
 ## Rapport Weergave-instellingen en navigatie {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
@@ -25,7 +28,7 @@ Instellingen die bepalen hoe alle rapporten worden weergegeven en informatie die
 | Gerelateerde metrieksectie opnemen | Verwante metriek is nauw verwant met het rapport dat u momenteel bekijkt (bijvoorbeeld de bovenste vijf pagina&#39;s in het rapport met paginaweergaven). |
 | Internetgemiddelde tonen in sectie Details | Drukt de gemiddelde waarde voor een gegeven statistiek uit, die over verscheidene duizenden bedrijfswebsites wordt genomen. Wanneer toegelaten, verschijnt deze sectie als afzonderlijke kolom in de de samenvatting van het rapport en secties van de rapportdetails. Deze eigenschap wordt gebruikt slechts door de verkeersrapporten in de technologiegroep, evenals de onderzoeksmotoren, de talen, en de domeinrapporten. |
 | Standaard-Adobe weergeven | Negeert de montages in de Hulpmiddelen Admin, waar de beheerders rapportmenu&#39;s aanpassen om gebruikersvoorkeur te passen, terugkerend het rapportmenu aan standaardmontages. |
-| Kolombreedten afdwingen bij het weergeven van rapporten | Dwingt rapportkolombreedten tot een esthetisch aangename consistentie. Deze instelling is handig wanneer meer dan drie maateenheden worden weergegeven. |
+| Kolombreedten afdwingen bij het weergeven van rapporten | Dwingt rapportkolombreedten tot een esthetisch aangename consistentie. Deze instelling is handig wanneer meer dan drie metriek worden weergegeven. |
 | **Grafieken en grafieken** |  |
 | weekends markeren bij trendgrafieken | Hiermee markeert u de weekenddatums van trendrapportgrafieken verticaal. De tendenrapporten kunnen veel gemakkelijker zijn om te evalueren wanneer de weekends worden geïdentificeerd. |
 | Prognose opnemen in grafiek en overzicht | Hiermee wordt geschat in hoeverre een bepaalde statistiek zich in de toekomst zal voordoen. De voorspelling wordt weergegeven in de overzichtssectie van het rapport als deze optie is ingeschakeld. |

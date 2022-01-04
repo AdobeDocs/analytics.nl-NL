@@ -2,12 +2,12 @@
 description: Een inleiding op de eigenschappen van een rapport, met inbegrip van de toolbar, kalender, en detaillijst.
 title: Rapportfuncties
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '403'
 ht-degree: 1%
 
 ---
@@ -16,11 +16,14 @@ ht-degree: 1%
 
 Een inleiding op de eigenschappen van een rapport, met inbegrip van de toolbar, kalender, en detaillijst.
 
-In dit voorbeeld wordt een [!UICONTROL Pages Report] getoond. De configuratieopties kunnen variëren, afhankelijk van het rapport dat u in werking stelt. In plaats van Trended of Ranked te selecteren in een [!UICONTROL Site Content]-rapport, kunt u bijvoorbeeld de granulariteit en de paginanaam voor een [!UICONTROL Site Metrics]-rapport opgeven.
+In dit voorbeeld wordt een [!UICONTROL Pages Report]. De configuratieopties kunnen variëren, afhankelijk van het rapport dat u in werking stelt. In plaats van bijvoorbeeld Trended of Ranked te selecteren in een [!UICONTROL Site Content] rapport, zou u granulariteit en paginanaam voor een kunnen specificeren [!UICONTROL Site Metrics] verslag.
+
+>[!IMPORTANT]
+>Effectief **31 december 2023**, is Adobe voornemens de rapporten en analyses en de bijbehorende rapporten en functies te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en de onderliggende technologie die de rapporten &amp; Analytics van de macht niet meer aan de technologienormen van Adobe voldoen. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 
 ## Voorbeeld van paginapport {#section_288CC85536684C2DB184141358481EF0}
 
-Een voorbeeld van een rapport Pagina&#39;s ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
+Een voorbeeld van een Pagina-rapport ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
@@ -30,7 +33,7 @@ Deel uw rapportgegevens met de besluitvormers die uw plaats of marketing strateg
 
 ![](assets/toolbar.png){width=&quot;672px&quot;}
 
-Raadpleeg ook [Een rapport aanpassen](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Zie ook [Een rapport aanpassen](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Koptekst en instellingen rapporteren {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -38,7 +41,7 @@ Toont rapportmontages en laat u het rapporttype, uitgezochte metriek, en meer vo
 
 ![](assets/settings_header.png){width=&quot;672px&quot;}
 
-Zie [Een rapport aanpassen](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) voor meer informatie.
+Zie [Een rapport aanpassen](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) voor meer informatie .
 
 ## Kalender {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -46,7 +49,7 @@ Geef de datum op door op de kalenderknop te klikken en een datumbereik te select
 
 ![](assets/calendar_large.png){width=&quot;672px&quot;}
 
-Zie [Een datum- of datumbereik selecteren](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) en [Vergelijkende datums](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Zie [Een datum- of datumbereik selecteren](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) en [Vergelijkingsdatums](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Type grafiek {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
@@ -70,7 +73,7 @@ Voeg metriek aan uw rapport toe. Beheerders kunnen standaardmetriek opgeven.
 
 ![](assets/metrics.png)
 
-Zie [Metriek.](/help/analyze/reports-analytics/metrics.md)
+Zie [Metrisch.](/help/analyze/reports-analytics/metrics.md)
 
 ## Detailtabel {#section_449A5DC848744F65A10DA12E189B835D}
 

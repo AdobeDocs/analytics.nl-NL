@@ -4,9 +4,9 @@ title: Aan de slag met Reports and Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,9 @@ ht-degree: 0%
 # Aan de slag met rapporten en analyses
 
 Voordat u Rapporten en Analyses gebruikt, moet u deze basisaanmeldings- en instellingstaken begrijpen, en weten hoe u toegang hebt tot accountgegevens.
+
+>[!IMPORTANT]
+>Effectief **31 december 2023**, is Adobe voornemens de rapporten en analyses en de bijbehorende rapporten en functies te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en de onderliggende technologie die de rapporten &amp; Analytics van de macht niet meer aan de technologienormen van Adobe voldoen. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 
 Rapportering biedt inzicht in uw traditionele webkanalen en in evoluerende kanalen zoals mobiele netwerken, video en sociale netwerken. Voorbeelden van rapporten zijn:
 
@@ -30,9 +33,6 @@ Rapportering biedt inzicht in uw traditionele webkanalen en in evoluerende kanal
 ## Browservereisten en systeemvereisten
 
 Browser en systeemvereisten om zich aan te melden bij de interface Rapporten &amp; Analytics.
-
->[!NOTE]
->Op 13 november 2018 werd de ondersteuning voor Internet Explorer 11 in Adobe Analytics beëindigd door Adobe. Schakel zo snel mogelijk over naar Microsoft Edge of een andere ondersteunde browser.
 
 * Voorkeursbrowsers: Laatste versies van Firefox, Chrome, Safari of Edge.
 * Cookies en JavaScript moeten zijn ingeschakeld.
