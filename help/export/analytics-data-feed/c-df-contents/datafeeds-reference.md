@@ -6,9 +6,9 @@ title: Referentie gegevenskolom
 feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 20a4ee51d0eace9cdcb5e0aeff5704b9a757a1eb
+source-git-commit: 0884c5a13fba7a22589e2962a4d79f4a6525dd8a
 workflow-type: tm+mt
-source-wordcount: '3432'
+source-wordcount: '3445'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `latlon1` | Locatie (tot 10 km) | varchar(255) |
 | `latlon23` | Locatie (tot 100 m) | varchar(255) |
 | `latlon45` | Locatie (tot 1 m) | varchar(255) |
-| `mc_audiences` | Lijst met Audience Manager segment-id&#39;s waartoe de bezoeker behoort. | text |
+| `mc_audiences` | Lijst met Audience Manager segment-id&#39;s waartoe de bezoeker behoort. De `post_mc_audiences` kolom wijzigt het scheidingsteken in `--**--`. | text |
 | `mcvisid` | Experience Cloud-bezoeker-id. 128-bits getal dat bestaat uit twee samengevoegde 64-bits getallen opgevuld tot 19 cijfers. | varchar(255) |
 | `mobile_id` | Als de gebruiker een mobiel apparaat gebruikt, is dit de numerieke id van het apparaat. | int |
 | `mobileaction` | Mobiele handeling. Automatisch verzameld bij `trackAction` wordt opgeroepen in Mobiele services. Hiermee kunt u in de app automatisch tekenen met handelingen. | varchar(100) |
@@ -146,7 +146,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `mobilerelaunchcampaigntrackingcode` | Verzameld op basis van de variabele contextgegevens `a.launch.campaign.trackingcode`. Wordt gebruikt in aankopen als de code voor het bijhouden van de opstartiecampagne. | varchar(255) |
 | `mobileresolution` | Resolutie van het mobiele apparaat. `[Width] x [Height]` in pixels. | varchar(255) |
 | `monthly_visitor` | Markering die aangeeft dat de bezoeker uniek is voor de huidige maand. | tinyint zonder teken |
-| `mvvar1` - `mvvar3` | Variabele waarden weergeven. Bevat een lijst met gescheiden waarden, afhankelijk van de implementatie. | text |
+| `mvvar1` - `mvvar3` | Variabele waarden weergeven. Bevat een lijst met gescheiden waarden, afhankelijk van de implementatie. De `post_mvvar1` - `post_mvvar3` kolommen vervangen door het originele scheidingsteken `--**--`. | text |
 | `namespace` | Niet gebruikt. Onderdeel van een gesloopt onderdeel. | varchar(50) |
 | `new_visit` | Markering die bepaalt of de huidige treffer een nieuw bezoek is. Wordt ingesteld door Adobe-servers na 30 minuten inactiviteit van het bezoek. | tinyint zonder teken |
 | `os` | Numerieke id die het besturingssysteem van de bezoeker vertegenwoordigt. Op basis van de `user_agent` kolom. Gebruiksmiddelen `os` opzoeken. | int zonder teken |
