@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Hulplijn exporteren
 user-guide-description: Gebruik Gegevensfeeds als u onbewerkte gegevens per uur of per dag wilt exporteren. Gebruik Data Warehouse om een spreadsheetuitvoer van gegevens op te halen.
-source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
+source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 76%
+source-wordcount: '279'
+ht-degree: 75%
 
 ---
 
@@ -62,6 +62,7 @@ ht-degree: 76%
    + [De passieve FTP-modus gebruiken](ftp-and-sftp/ftp-passive.md)
    + [FTP-verwerkingstijd](ftp-and-sftp/ftp-processing.md)
    + Secure File Transfer Protocol {#secure-file-transfer-protocol}
+      + [Upgrade van SFTP-services - Veelgestelde vragen](ftp-and-sftp/c-sftp/sftp-upgrade.md)
       + [Secure File Transfer Protocol - overzicht](ftp-and-sftp/c-sftp/ftp-sftp.md)
       + [Verbinding maken met een Adobe FTP-account met SFTP](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
       + [Adobe-gegevens naar een extern FTP-account met SFTP verzenden](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
