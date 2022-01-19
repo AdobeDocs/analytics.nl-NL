@@ -3,7 +3,7 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: d9999d45476a70cee49f83d009ce95b9b4931529
+source-git-commit: 71c4b4d7381dcdf79c550f968c8f720d87c63126
 workflow-type: tm+mt
 source-wordcount: '2263'
 ht-degree: 3%
@@ -20,7 +20,7 @@ U kunt de meest recente versie van AppMeasurement downloaden in de [Codebeheer](
 
 ## Versie 2.2.4
 
-Releasedatum: **11 januari 2022**
+Releasedatum: **18 januari 2022**
 
 * De vraag van het verbinden volgen `s.tl()` controleert nu of het object dat eraan wordt doorgegeven, een `href` kenmerk van type `string`. Als het geen `string`, dan zal het de `href` in plaats van mislukt. Dit kan voorkomen wanneer u `svg` objecten naar de aanroep voor het bijhouden van koppelingen.
 
