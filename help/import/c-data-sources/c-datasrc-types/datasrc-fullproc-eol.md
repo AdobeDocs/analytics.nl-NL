@@ -2,28 +2,28 @@
 title: Einde van levensduur voor bronnen van volledige verwerkingsgegevens
 description: Redenen voor het einde van de levensduur en vergelijkingen tussen de API voor het invoegen van gegevens in bulk en de gegevensbronnen voor volledige verwerking.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1225'
 ht-degree: 5%
 
 ---
 
 # Einde van levensduur voor bronnen van volledige verwerkingsgegevens
 
-Al enkele jaren kunt u met de Full Processing Data Sources gegevens op aanraakniveau naar Adobe Analytics verzenden. Deze gegevens zijn op dezelfde manier verwerkt als gegevens die zijn verzameld via onze JavaScript-bibliotheken en de SDK van de mobiele app. In 2020, gaf Adobe [Bulk API van de Invoeging van Gegevens](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) vrij, die de zelfde functies zoals Volledige Gegevensbronnen van de Verwerking, maar met extra eigenschappen uitvoert. Dit onderwerp verstrekt details over extra functionaliteit die door de Invoeging API van Gegevens van het Bulk wordt verstrekt en schetst verschillen in dossierformaten.
+Gedurende verscheidene jaren, lieten de Volledige Bronnen van Gegevens van de Verwerking u toe om raakvlakke gegevens aan Adobe Analytics voor te leggen. Deze gegevens zijn op dezelfde manier verwerkt als gegevens die zijn verzameld via onze JavaScript-bibliotheken en de SDK van de mobiele app. In 2020 heeft Adobe de [API voor het invoegen van bulkgegevens](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), die de zelfde functies zoals Volledige Gegevensbronnen van de Verwerking, maar met extra eigenschappen uitvoert. Dit onderwerp verstrekt details over extra functionaliteit die door de Invoeging API van Gegevens van het Bulk wordt verstrekt en schetst verschillen in dossierformaten.
 
-Vanaf 25 maart, 2021, zal Adobe nieuwe Volledige verbindingen van de Gegevensbronnen van de Verwerking verhinderen worden gecreeerd. De bestaande verbindingen zullen verder worden gesteund tot de dienst volledig verouderd op 31 Juli, 2021 is. Naast onze standaarddocumentatie, verstrekken wij een doorloop van [stappen nodig om gegevens via de Invoeging API](https://adobe.ly/aabdia) van Gegevens van de Bulk voor te leggen.
+Vanaf 25 maart 2021, verhinderde Adobe nieuwe Volledige verbindingen van de Gegevensbronnen van de Verwerking worden gecreeerd. De bestaande verbindingen werden gesteund tot de dienst volledig werd afgekeurd op 31 Januari, 2022. Naast onze standaarddocumentatie bieden we een doorloop van de [stappen nodig voor het verzenden van gegevens via de API voor het invoegen van gegevens in bulk](https://adobe.ly/aabdia).
 
-## Waarom zijn we aan het einde van deze functie?
+## Waarom hebben we deze functie aan het einde van de levensduur?
 
-De BDIA (Bulk Data Insertion API) biedt extra functionaliteit en bestrijkt alle gebruiksgevallen die worden ondersteund door Volledige verwerking. We geloven dat u beter van dienst bent met de API voor het invoegen van gegevens in bulk.
+De BDIA (Bulk Data Insertion API) biedt extra functionaliteit en bestrijkt alle gebruiksgevallen die worden ondersteund door Volledige verwerking. U kunt beter werken met de API voor het invoegen van gegevens in bulk.
 
 ## Belangrijkste verschillen tussen de volledige gegevensbronnen van de Verwerking en de Invoeging API van de Gegevens van het Bulk
 
 * Bij het invoegen van bulkgegevens kunnen meerdere bestanden worden verzonden die parallel kunnen worden verwerkt. U kunt Bezoekersgroepen gebruiken om de continuïteit van de bezoeker en de toewijzing van de eVar te garanderen.
 * De Invoeging van de Gegevens van het bulk heeft gegevensbevestiging evenals fout behandelende mogelijkheden, zo verwijderend sommige administratieve werk van het voorleggen van klapgegevens.
-* Bulk gegevens invoegen ondersteunt verschillende opties voor bezoekers-id&#39;s. U kunt zowel de Analytics-id als de Marketing Cloud-id verzenden (zie [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) voor meer informatie). Bovendien, kunt u uw eigen identiteitskaart als [zaad gebruiken voor het produceren van ECID](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#customer-id-and-experience-cloud-visitor-id-seeds).
+* Bulk gegevens invoegen ondersteunt verschillende opties voor bezoekers-id&#39;s. U kunt zowel de analyse-id als de Marketing Cloud-id verzenden (zie [Identiteitsservice](https://experienceleague.adobe.com/docs/id-service/using/home.html) voor meer informatie). Bovendien kunt u uw eigen id als een [zaaigoed voor het genereren van een ECID](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#customer-id-and-experience-cloud-visitor-id-seeds).
 * De toevoeging van bulkgegevens steunt de Variabelen van Lijst en van de Context- Gegevens.
 * De toevoeging van bulkgegevens steunt geen Activity Map gegevens.
 
@@ -48,14 +48,14 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | colorDepth | colorDepth | Kleurdiepte van monitor in bits (bijvoorbeeld 24) |
 | connectionType | connectionType | Verbindingstype van de bezoeker (LAN of modem) |
 | contextData.key | Niet ondersteund | Sleutelwaardeparen worden in opgegeven door de koptekst &quot;contextData.product&quot; of &quot;contextData.color&quot; te noemen |
-| cookiesEnabled | cookiesEnabled | `Y` of  `N` voor als de bezoeker cookies van een eerste sessie ondersteunt |
+| cookiesEnabled | cookiesEnabled | `Y` of `N` for if the bezoeker supports first-party session cookies |
 | currencyCode | currencyCode | Valutacode inkomsten (bijvoorbeeld `USD`) |
 | clientID.[customerIDType].authState | Niet ondersteund | De geverifieerde status van de bezoeker. Ondersteunde waarden zijn: 0, 1, 2, UNKNOWN, AUTHENTICATED, LOGGED_OUT of &#39;&#39; (hoofdlettergevoelig). Twee opeenvolgende enkele citaten (&#39;&#39;) veroorzaken dat de waarde wordt weggelaten van het vraagkoord, dat aan 0 vertaalt wanneer de slag wordt gemaakt. Houd rekening met de ondersteunde numerieke waarden voor authState: 0 = UNKNOWN, 1 = AUTHENTICATED, 2 = LOGGED_OUT. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
 | clientID.[customerIDType].id | Niet ondersteund | De klant-id die moet worden gebruikt. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
 | clientID.[customerIDType].isMCSeed | Niet ondersteund | Of dit het zaad voor identiteitskaart van de Bezoeker van de Marketing Cloud is of niet. Ondersteunde waarden zijn: 0, 1, TRUE, FALSE, &#39;&#39; (hoofdlettergevoelig). Als u 0, FALSE of twee opeenvolgende enkele aanhalingstekens (&#39;&#39;) gebruikt, wordt de waarde weggelaten uit de querytekenreeks. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
-| eVarN | eVarN, d.w.z. `<eVar2>`..`<eVar>` | Naam van conversie-eVar. U kunt maximaal 75 eVars ( eVar1 - eVar75 ) hebben. U kunt de naam van de eVar (eVar12) of een vriendelijke naam (Advertentiecampagne 3) opgeven. |
-| events | gebeurtenissen | [De koord](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars) van gebeurtenissen, geformatteerd gebruikend de zelfde syntaxis zoals de variabele s.events. Bijvoorbeeld: scAdd,event1,event7 |
-| hierN | hierN, d.w.z. `<hier2>`..`</hier2>` | Hiërarchienaam. U kunt maximaal vijf hiërarchieën gebruiken ( hier1 - hier5 ). U kunt de standaardhiërarchienaam `hier2` of een vriendelijke naam (Yankees) specificeren. |
+| eVarN | eVarN, d.w.z. `<eVar2>`...`<eVar>` | Naam van conversie-eVar. U kunt maximaal 75 eVars ( eVar1 - eVar75 ) hebben. U kunt de naam van de eVar (eVar12) of een vriendelijke naam (Advertentiecampagne 3) opgeven. |
+| events | gebeurtenissen | [Tekenreeks gebeurtenissen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars), opgemaakt met dezelfde syntaxis als de variabele s.events. Bijvoorbeeld: scAdd,event1,event7 |
+| hierN | hierN, d.w.z. `<hier2>`...`</hier2>` | Hiërarchienaam. U kunt maximaal vijf hiërarchieën gebruiken ( hier1 - hier5 ). U kunt de standaardhiërarchienaam opgeven `hier2` of een vriendelijke naam (Yankees). |
 | homePage | homePage | Y of N — is de huidige pagina op de homepage van de bezoeker. |
 | ipaddress | Niet ondersteund | Het IP-adres van de bezoeker. |
 | javaEnabled | javaEnabled | Y of N — Heeft de bezoeker Java ingeschakeld? |
@@ -65,7 +65,7 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | linkType | linkType | Type koppeling. Tot de ondersteunde waarden behoren: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF of link. |
 | list Bijvoorbeeld list2. | Niet ondersteund | Een gescheiden lijst van waarden die worden doorgegeven aan een variabele, en vervolgens worden gerapporteerd als afzonderlijke regelitems voor rapportage |
-| marketingCloudVisitorID | Niet ondersteund | Marketing Cloud-id. Zie [Visitor-identificatie](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) en de Marketing Cloud Bezoeker-id-service |
+| marketingCloudVisitorID | Niet ondersteund | Marketing Cloud-id. Zie [Identificatie bezoeker](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) en de Marketing Cloud Visitor ID Service |
 | Niet ondersteund | charSet | De ondersteunde tekenset voor uw website. Bijvoorbeeld UTF-8, ISO-8859-1 enzovoort. |
 | Niet ondersteund | clickAction | Object-id voor bezoeker op kaart klikken (oid) |
 | Niet ondersteund | clickActionType | Type object-id voor bezoeker op kaart klikken (punt) |
@@ -80,7 +80,7 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | pageURL | pageURL | Pagina-URL (bijvoorbeeld https://www.example.com/index.html). |
 | plug-ins | plug-ins | Lijst met namen van plug-ins van browsers, gescheiden door puntkomma&#39;s. |
 | products | producten | Lijst met alle producten op de pagina. Scheid producten met een komma. Bijvoorbeeld: Sport;Ball;1;5.95,Speelgoed; Boven;1:1.99. |
-| prop1 - prop75 | propN, d.w.z. `<prop2>`..`</prop2>` | Eigenschapcontrole# (bijvoorbeeld Sportsectie). |
+| prop1 - prop75 | propN, d.w.z. `<prop2>`...`</prop2>` | Eigenschapcontrole# (bijvoorbeeld Sportsectie). |
 | propN | propN | Eigenschapswaarden voor uw eigenschappen. |
 | purchaseID | purchaseID | Aankoop-id-nummer. |
 | referrer | referentie | URL voor paginaverwijzing. |
@@ -88,9 +88,9 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | resolutie | resolutie | Monitorresolutie (bijvoorbeeld 1024x768). |
 | server | server | Servertekenreeks. |
 | state | state | Conversiestatekenreeks. |
-| timestamp | date | Gebruik de ISO 8601-datumnotatie van YYY-MM-DDThh:mm:ss±UTC_offset (bijvoorbeeld 2021-09-01T12:00:00-07:00 ) of Unix-tijdnotatie (het aantal seconden dat is verstreken sinds 1 januari 197 0). |
+| timestamp | date | De ISO 8601-datumnotatie van YYY-MM-DDThh gebruiken:mm:ss±UTC_offset (bijvoorbeeld, 2021-09-01T12:00:00-07:00 ) of Unix Time Format (het aantal seconden dat is verstreken sinds 1 januari 1970). |
 | trackingServer | Niet ondersteund | Kan alleen via kolomkop worden opgegeven. |
-| transactionID | Niet ondersteund | Gemeenschappelijke waarde die wordt gebruikt om multikanaalsgebruikersactiviteiten voor rapportagedoeleinden aan elkaar te koppelen. Voor meer informatie, zie [de Gids van de Gebruiker van Gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources). |
+| transactionID | Niet ondersteund | Gemeenschappelijke waarde die wordt gebruikt om multikanaalsgebruikersactiviteiten voor rapportagedoeleinden aan elkaar te koppelen. Zie voor meer informatie de [Gebruikershandleiding voor gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources). |
 | userAgent | Niet ondersteund | Tekenreeks gebruikersagent |
-| visitorID | bezoekerID | Analyse-id van bezoeker. Zie [Visitor Identification](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
+| visitorID | bezoekerID | Analyse-id van bezoeker. Zie [Identificatie bezoeker](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
 | zip | zip | ZIP-code conversie. |

@@ -3,9 +3,9 @@ description: Gegevensbronnen ondersteunen de volgende variabelen bij het verwerk
 title: Volledige verwerking
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 7%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->Adobe raadt klanten aan de [BDIA (Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) te gebruiken in plaats van volledige gegevensbronnen voor verwerking. Adobe is van plan de volledige gegevensbronnen voor de verwerking op 31 juli 2021 te vervangen. [Meer informatie](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe raadt u aan de [BDIA (Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) in plaats van volledige verwerkingsgegevensbronnen. Adobe heeft volledige verwerkingsgegevensbronnen vervangen op 31 januari 2022. [Meer informatie](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Gegevensbronnen ondersteunen de volgende variabelen bij het verwerken van gegevens als een standaardserveraanroep (Algemeen > Volledige verwerking).
 
@@ -27,7 +27,7 @@ Gegevens van gegevensbronnen van volledige verwerking worden verwerkt alsof deze
 
 Gegevens van gegevensbronnen voor volledige verwerking worden verwerkt met behulp van afzonderlijke bezoekersprofielen. Zelfs als de bezoekersidentiteitskaart in geüploade gegevens overeenkomt met gegevens die zijn verzameld met JavaScript of een andere AppMeasurement-bibliotheek, worden de bezoekersprofielen niet verbonden vanuit het oogpunt van eVar-toewijzing.
 
-Bijvoorbeeld, bezoekt een gebruiker met een bezoekersidentiteitskaart van `"user@example.com"` uw plaats van een marketing campagne genoemd &quot;Verkoop van de Lente&quot;, die in de campagnevariabele wordt opgeslagen. Als u later een transactie uploadt met dezelfde bezoeker-id, ontvangt de campagne &quot;Verkoop voorjaar&quot; geen kredieten voor geüploade inkomsten- of succesgebeurtenissen met behulp van volledige verwerkingsgegevensbronnen.
+Bijvoorbeeld een gebruiker met een bezoeker-id van `"user@example.com"` bezoekt uw site vanuit een marketingcampagne met de naam &quot;Spring Sale&quot;, die is opgeslagen in de variabele campagne. Als u later een transactie uploadt met dezelfde bezoeker-id, ontvangt de campagne &quot;Verkoop voorjaar&quot; geen kredieten voor geüploade inkomsten- of succesgebeurtenissen met behulp van volledige verwerkingsgegevensbronnen.
 
 ## Kolomverwijzing {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -52,18 +52,18 @@ Bijvoorbeeld, bezoekt een gebruiker met een bezoekersidentiteitskaart van `"user
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Opmerking:  Deze variabele wordt ook ondersteund door standaardgegevensbronnen als <code> currency code </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Opmerking: Deze variabele wordt ook ondersteund door standaardgegevensbronnen als <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>Valutacode van de opbrengst (bijvoorbeeld, USD). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p>Gebruik de datumnotatie ISO 8601 van <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (bijvoorbeeld <code> 2013-09-01T12:00:00-07:00 </code>) of Unix Time Format (het aantal seconden dat is verstreken sinds 1 januari 1970). </p> </td> 
+   <td colname="col3"> <p>De ISO 8601-datumnotatie gebruiken van <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (bijvoorbeeld <code> 2013-09-01T12:00:00-07:00 </code>) of Unix Time Format (het aantal seconden dat is verstreken sinds 1 januari 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
-   <td colname="col2"> <p>eVar<i>N</i>, d.w.z. &lt;eVar2&gt;..&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Naam van conversie-eVar. U kunt maximaal 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>) hebben. </p> <p>U kunt de naam van de eVar (eVar12) of een vriendelijke naam (Advertentiecampagne 3) opgeven. </p> </td> 
+   <td colname="col2"> <p>eVar<i>N</i>, d.w.z. &lt;evar2&gt;...&lt;/evar2&gt; </p> </td> 
+   <td colname="col3"> <p>Naam van conversie-eVar. U kunt maximaal 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>U kunt de naam van de eVar (eVar12) of een vriendelijke naam (Advertentiecampagne 3) opgeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -74,9 +74,9 @@ Bijvoorbeeld, bezoekt een gebruiker met een bezoekersidentiteitskaart van `"user
     </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>hier<i>N</i> </p> </td> 
-   <td colname="col2"> <p>hier<i>N</i>, d.w.z. &lt;hier2&gt;..&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>Hiërarchienaam. U kunt maximaal vijf hiërarchieën hebben ( <span class="varname"> hier1 </span> - <span class="varname"> hier5 </span>). </p> <p>U kunt de standaardhiërarchienaam ( <span class="varname"> hier2 </span>) of een vriendelijke naam ( <span class="term"> Yankees </span>) specificeren. </p> </td> 
+   <td colname="col1"> <p>kassier<i>N</i> </p> </td> 
+   <td colname="col2"> <p>kassier<i>N</i>, d.w.z. &lt;hier2&gt;...&lt;/hier2&gt; </p> </td> 
+   <td colname="col3"> <p>Hiërarchienaam. U kunt maximaal vijf hiërarchieën gebruiken ( <span class="varname"> hier1 </span> - <span class="varname"> hier5 </span>). </p> <p>U kunt de standaardhiërarchienaam opgeven ( <span class="varname"> hier2 </span>) of een vriendelijke naam ( <span class="term"> Yankees </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -120,8 +120,8 @@ Bijvoorbeeld, bezoekt een gebruiker met een bezoekersidentiteitskaart van `"user
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
-   <td colname="col2"> <p>prop<i>N</i>, d.w.z. &lt;prop2&gt;..&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>Eigenschap#-tekenreeks (bijvoorbeeld <span class="term"> Sportsectie </span>). </p> </td> 
+   <td colname="col2"> <p>prop<i>N</i>, d.w.z. &lt;prop2&gt;...&lt;/prop2&gt; </p> </td> 
+   <td colname="col3"> <p>Eigenschap#-tekenreeks (bijvoorbeeld <span class="term"> Sectie Sport </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -171,7 +171,7 @@ De volgende tabel bevat verkeersvariabelen die automatisch worden ingevuld wanne
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>De ondersteunde tekenset voor uw website. Bijvoorbeeld UTF-8, ISO-8859-1 enzovoort. </p> <p>Zie de whitepaper <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  > Multi-Byte Character Sets </a> (Internationalization) voor een complete lijst. </p> </td> 
+   <td colname="col2"> <p>De ondersteunde tekenset voor uw website. Bijvoorbeeld UTF-8, ISO-8859-1 enzovoort. </p> <p>Zie de <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  > Tekensets met meerdere bytes </a> (Internationalisatie) whitepaper voor een volledige lijst. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
