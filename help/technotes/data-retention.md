@@ -1,14 +1,13 @@
 ---
 title: Beleid voor gegevensbewaring
 description: Een beleid van het gegevensbehoud bepaalt hoe lang Adobe uw gegevens opslaat.
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
+source-git-commit: 879a51fd03c97316591639889d3fff4d22a9eb4c
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
-
 
 # Beleid voor gegevensbewaring
 
@@ -33,6 +32,10 @@ Adobe moet in zijn rol als gegevensverwerker passende maatregelen nemen om zijn 
 
 Zodra de gegevens uw beleid van het gegevensbehoud overschrijden, behoudt Adobe het recht om het zonder optie voor terugwinning te schrappen. U moet ervoor zorgen dat alle gegevens die u wilt behouden zich binnen het beleid van uw organisatie voor het bewaren van gegevens bevinden.
 
+## Huidig beleid voor gegevensbehoud weergeven/beheren
+
+De dialoog over gegevensbeheer in [!UICONTROL Admin] De hulpmiddelen verstrekken een overzicht waarvan de rapportreeksen voor gegevensbeheer zijn gevormd. Het wijst ook erop of zij aan een organisatie van de Experience Cloud in kaart zijn gebracht, en of een beleid van het gegevensbehoud voor deze rapportreeks op zijn plaats is. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)
+
 ## Veelgestelde vragen
 
 **Hoe kan ik beslissen over de bewaartermijn van gegevens van mijn organisatie?**
@@ -45,7 +48,7 @@ Het beleid van het gegevensbehoud bepaalt een het rollen venster van het gegeven
 
 **Kan ik een kopie van mijn gegevens aanvragen voordat deze worden verwijderd?**
 
-Ja. Adobe kan een historische gegevensstortplaats van onbewerkte, raakvlakke gegevens verstrekken. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding bij Exporteren voor meer informatie. Neem contact op met de accountmanager van uw organisatie als u vereisten voor gegevensexport hebt die buiten het bereik vallen van wat de interface kan bieden. Er kunnen speciale accommodaties worden gemaakt; de kosten kunnen variëren.
+Ja. Adobe kan een historische gegevensstortplaats van onbewerkte, raakvlakke gegevens verstrekken. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding voor exporteren voor meer informatie. Neem contact op met de accountmanager van uw organisatie als u vereisten voor gegevensexport hebt die buiten het bereik vallen van wat de interface kan bieden. Er kunnen speciale accommodaties worden gemaakt; de kosten kunnen variëren.
 
 **Wanneer verwijdert Adobe gegevens?**
 

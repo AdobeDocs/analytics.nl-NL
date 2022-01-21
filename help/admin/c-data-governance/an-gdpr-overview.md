@@ -3,10 +3,10 @@ description: In dit document wordt beschreven wat u in Adobe Analytics moet doen
 title: Adobe Analytics en GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 879a51fd03c97316591639889d3fff4d22a9eb4c
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 96%
+source-wordcount: '598'
+ht-degree: 98%
 
 ---
 
@@ -54,8 +54,3 @@ Zie [Rapportsuitedata labelen](/help/admin/c-data-governance/gdpr-setup-reportsu
 
 * Controleer uw toestemmingen: als u de Data Governance-beheerinterface van Adobe Analytics wilt gebruiken, moet u een Adobe Analytics-beheerder zijn.
 
-## AdobePrivacyJS: Identiteitsoplossing aan de clientzijde voor GDPR-verzoeken
-
-Hier volgt een video-overzicht van dit onderwerp:
-
->[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)
