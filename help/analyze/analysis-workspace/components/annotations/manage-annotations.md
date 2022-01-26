@@ -1,26 +1,37 @@
 ---
-title: Manage annotations
-description: How to manage annotations in Workspace.
+title: Annotaties beheren
+description: Annotaties beheren in Workspace.
 role: User, Admin
-source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
+source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Manage annotations
-
-[!UICONTROL Components][!UICONTROL Annotations]
-
-[!UICONTROL Annotations]
+# Annotaties beheren
 
 >[!NOTE]
 >
->[!UICONTROL Annotations]
+>Deze functie is momenteel in beperkte tests.
 
-## Annotations Manager user interface
+De [!UICONTROL Components] > [!UICONTROL Annotations] de manager biedt vele manieren aan om annotaties te beheren, zoals het delen, het filtreren, het etiketteren, het goedkeuren, het kopiëren, het schrappen, en het merken als favorieten.
 
-insert image
+De [!UICONTROL Annotations] de manager toont u alle annotaties u bezit die aan al uw projecten zijn geweest, en die met u zijn gedeeld.
+
+>[!NOTE]
+>
+>[!UICONTROL Annotations] dat u voor een specifiek project creeerde slechts niet in de manager verschijnt.
+
+## Gebruikersinterface van Annotatiebeheer
+
+| UI-element | Beschrijving |
+| --- | --- | 
+| Titel en beschrijving |  |
+| Rapportsuite |  |
+| Eigenaar |  |
+| Toegepast datumbereik |  |
+| Gedeeld met |  |
+| Datum gewijzigd |  |
 

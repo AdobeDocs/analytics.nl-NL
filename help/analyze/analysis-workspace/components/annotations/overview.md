@@ -1,35 +1,38 @@
 ---
-title: Annotations overview
-description: How to use annotations in Workspace.
+title: Overzicht van annotaties
+description: Annotaties gebruiken in Workspace.
 role: User, Admin
-source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
+source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
-# Annotations overview
+# Overzicht van annotaties
 
-Annotations enable you to effectively communicate data nuances and insights about your data to your organization. [!UICONTROL Calendar events][!DNL Reports & Analytics]
+>[!NOTE]
+>
+>Deze functie is momenteel in beperkte tests.
 
-## Visibility
+Met annotaties kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. Met annotaties kunt u kalendergebeurtenissen koppelen aan specifieke afmetingen/metriek. U kunt gebeurtenissen grafisch tonen en zien of de campagnes of andere gebeurtenissen uw plaatsverkeer, opbrengst, of een andere metrisch hebben beïnvloed. Voorheen verwezen naar [!UICONTROL Calendar events] in [!DNL Reports & Analytics]kunt u bovendien een datum voor gegevensproblemen, feestdagen, het starten van campagnes enzovoort als annoteren.
 
-Annotations are visible in a variety of ways:
+## Zichtbaarheid
 
-* Insert line viz image>
+Annotaties zijn op verschillende manieren zichtbaar:
 
-* Insert freeform table
+* Lijnafbeelding invoegen>
 
-* Insert PDF
+* Vrije-vormtabel invoegen
 
+* PDF invoegen
 
-## Turn annotations on or off
+## Annotaties in- of uitschakelen
 
-Annotations can be turned on or off in a few places:
+Annotaties kunnen op een paar plaatsen worden in- of uitgeschakeld:
 
-* Visualization level: Visualization settings > Show annotations
+* Visualisatieniveau: Visualisatie-instellingen > Annotaties tonen
 
-* Project level: Project info &amp; settings > Show annotations
+* Projectniveau: Projectinfo en -instellingen > Notities tonen
 
-* User level: Components > User preferences > Data > Show annotations
+* Gebruikersniveau: Componenten > Gebruikersvoorkeuren > Gegevens > Notities tonen
