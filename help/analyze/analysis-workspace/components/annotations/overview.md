@@ -2,9 +2,10 @@
 title: Overzicht van annotaties
 description: Annotaties gebruiken in Workspace.
 role: User, Admin
-source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
+solution: Analytics
+source-git-commit: ba7a3193ef01f5865300554ed0ebb610146ebc5a
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ Met annotaties kunt u op effectieve wijze contextuele gegevensnuances en inzicht
 
 ## Zichtbaarheid
 
-Annotaties zijn op verschillende manieren zichtbaar:
+U kunt annotaties op verschillende manieren weergeven:
 
 * Lijnafbeelding invoegen>
 
