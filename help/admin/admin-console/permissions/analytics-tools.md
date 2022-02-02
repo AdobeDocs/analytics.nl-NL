@@ -2,9 +2,9 @@
 title: Machtigingen voor productprofielen voor Analytics Tools
 description: Gebruik de machtigingsitems Analytics Tools om toegang te verlenen tot functies in Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,6 @@ Met de machtigingsitems Analytics Tools hebt u toegang tot functies in Adobe Ana
 | [!UICONTROL Segment Creation] | Biedt de mogelijkheid om segmenten te maken en te delen met alle analysemogelijkheden. |
 | [!UICONTROL Advertising Analytics Management] | Niet gebruikt. |
 | [!UICONTROL Segment Publishing] | Biedt de mogelijkheid om een segment tot een Experience Cloud-publiek te maken wanneer u een segment maakt of bewerkt. |
-| [!UICONTROL Integrations (Create)] | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Gegevensconnectors en kan de gebruiker gegevensconnectors maken. |
-| [!UICONTROL Integrations (Update)] | Biedt toegang tot Beheer > Alle admin > Gegevensconnectors en stelt de gebruiker in staat bestaande verbindingsconfiguraties te wijzigen. |
-| [!UICONTROL Integrations (Delete)] | Hiermee krijgt de gebruiker toegang tot Beheer > Alle beheerders > Gegevensconnectors en kan de gebruiker gegevensconnectors verwijderen. |
+| [!UICONTROL Integrations (Create)] | Niet gebruikt. Gegevensconnectors zijn niet meer beschikbaar. |
+| [!UICONTROL Integrations (Update)] | Niet gebruikt. |
+| [!UICONTROL Integrations (Delete)] | Niet gebruikt. |
