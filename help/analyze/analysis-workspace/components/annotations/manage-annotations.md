@@ -2,10 +2,10 @@
 title: Annotaties beheren
 description: Annotaties beheren in Workspace.
 role: User, Admin
-source-git-commit: c4ffa987cd652b3e8f36fadf61ee6a395365fda0
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 0%
+source-wordcount: '458'
+ht-degree: 1%
 
 ---
 
@@ -47,23 +47,18 @@ Het uitgeven van een aantekening betekent dat u datumwaaiers, kleuren, werkingsg
 
 Beide opties laten u terug in de Bouwer van Annotaties. In dat geval kunt u de benodigde aanpassingen aanbrengen en de nieuwe versie opslaan.
 
-## Annotaties delen
+## Overige annotatietaken
 
-![](assets/share-ann.png)
+Met Annotatiebeheer kunnen beheerders annotaties bewerken, toevoegen, labelen, verwijderen, hernoemen, goedkeuren, kopiëren, exporteren en filteren. Deze is niet zichtbaar voor gebruikers die geen beheerder zijn.
 
-1. Selecteer de annotatie(s) die u wilt delen en klik op [!UICONTROL Share].
+Selecteer slechts één of meerdere annotaties en de bar van de Taak verschijnt.
 
-1. In de [!UICONTROL Share Component] zoeken naar de personen of groepen met wie u de annotaties wilt delen.
-
-1. Onder [!UICONTROL Organization], ....
-
-1. Klik op [!UICONTROL Save].
-
-## Tagannotaties
-
-Ga als volgt te werk
-
-
-
-
-
+| Taak | Beschrijving |
+| --- | --- |
+| Toevoegen | Hiermee gaat u naar de builder van Annotaties waar u nieuwe annotaties kunt maken. |
+| Tag | Alle gebruikers kunnen codes voor annotaties maken en een of meer tags toepassen op een annotatie. U kunt echter alleen labels zien voor de segmenten die u bezit. Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:<ul><li>Tags die zijn gebaseerd op teamnamen, zoals Sociale marketing, Mobiele marketing</li><li>Projectlabels (analysetags), zoals analyse van de pagina Entry</li><li>Categorielabels: Mannen; geografie</li><li>Workflowlabels: Gecurreerd voor (een specifieke bedrijfseenheid); Goedgekeurd</li></ul> |
+| Verwijderen | Als u een annotatie verwijdert, wordt deze verwijderd uit elk project in uw organisatie. |
+| Naam wijzigen | Als u de naam van een annotatie wijzigt, wordt de naam van de annotatie gewijzigd in alle projecten waarop de annotatie is toegepast. |
+| Kopiëren | Hiermee maakt u een afzonderlijke kopie met een eigen annotatie-id, maar met dezelfde naam en definitie. |
+| Exporteren naar CSV | Exporteer de annotatiedefinitie naar een CSV-bestand. |
+| Filter (linkerspoor) | Filteren op tags, rapportsuite, eigenaars en andere filters (Mijne, Goedgekeurd, Favorieten, Gedeeld met mij en Alles tonen). |

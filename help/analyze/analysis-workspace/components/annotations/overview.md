@@ -3,9 +3,9 @@ title: Overzicht van annotaties
 description: Annotaties gebruiken in Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: 0516696ee9d51ac843c659390ae99d8337812cbb
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Deze functie is momenteel in beperkte tests.
 
-Met annotaties kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. Met deze sjablonen kunt u kalendergebeurtenissen koppelen aan specifieke afmetingen/metriek. U kunt een datum- of datumbereik annoteren voor gegevensproblemen, feestdagen, het starten van campagnes, enzovoort. U kunt gebeurtenissen dan grafisch tonen en zien of de campagnes of andere gebeurtenissen uw plaatsverkeer, opbrengst, of een andere metrisch hebben beïnvloed.
+Met annotaties kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. Met deze sjablonen kunt u kalendergebeurtenissen koppelen aan specifieke afmetingen/metriek. U kunt een datum- of datumbereik annoteren met bekende gegevensproblemen, feestdagen, startacties voor campagnes, enzovoort. U kunt gebeurtenissen dan grafisch tonen en zien of de campagnes of andere gebeurtenissen uw plaatsverkeer, opbrengst, of een andere metrisch hebben beïnvloed.
 
 Bijvoorbeeld, laten wij zeggen u projecten deelt u met uw organisatie creeerde. U merkt een dip of een piek in verkeer of andere gegevens, en u bindt een aantekening aan de beïnvloede metriek, dimensies of segmenten. Deze annotaties verschijnen dan in een lijst of een lijnvisualisatie en verstrekken gegevenscontext voor u en de consumenten van uw projecten van de Werkruimte.
 
@@ -38,7 +38,7 @@ Beheerders kunnen echter de opdracht [!UICONTROL Annotation Creation] toestemmin
 
 ## Annotaties weergeven
 
-U kunt annotaties op verschillende manieren weergeven: als [!UICONTROL Line] visualisatie (aangezien het trendgegevens is), als [!UICONTROL Freeform] tabel, a [!UICONTROL Bar] of in een geëxporteerd .pdf-bestand.
+U kunt annotaties op verschillende manieren weergeven: in een [!UICONTROL Line] visualisatie (aangezien het trendgegevens is), in een [!UICONTROL Freeform] tabel, a [!UICONTROL Bar] of in een geëxporteerd .pdf-bestand.
 
 ### Lijnvisualisatie
 
