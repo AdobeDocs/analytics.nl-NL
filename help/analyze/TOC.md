@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Adobe Analytics-dashboards, Report Builder en Activity Map.
-source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1020'
 ht-degree: 83%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 83%
          + [Overzicht van annotaties](analysis-workspace/components/annotations/overview.md)
          + [Annotaties maken](analysis-workspace/components/annotations/create-annotations.md)
          + [Annotaties beheren](analysis-workspace/components/annotations/manage-annotations.md)
+         + [Annotaties weergeven](analysis-workspace/components/annotations/view-annotations.md)
       + Dimensies {#dimensions}
          + [Voorvertoningsdimensies](analysis-workspace/components/dimensions/view-dimensions.md)
          + [Uitsplitsingsdimensies](analysis-workspace/components/dimensions/t-breakdown-fa.md)

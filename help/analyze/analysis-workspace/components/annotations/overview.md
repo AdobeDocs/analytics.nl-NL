@@ -3,9 +3,9 @@ title: Overzicht van annotaties
 description: Annotaties gebruiken in Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -36,26 +36,6 @@ Standaard kunnen alleen beheerders annotaties maken. Gebruikers hebben rechten o
 
 Beheerders kunnen echter de opdracht [!UICONTROL Annotation Creation] toestemming (Analytics Tools) aan gebruikers via [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en).
 
-## Annotaties weergeven
-
-U kunt annotaties op verschillende manieren weergeven: in een [!UICONTROL Line] visualisatie (aangezien het trendgegevens is), in een [!UICONTROL Freeform] tabel, a [!UICONTROL Bar] of in een geëxporteerd .pdf-bestand.
-
-### Lijnvisualisatie
-
-volgen
-
-### Vrije-vormentabel
-
-volgen
-
-### Staafdiagram
-
-volgen
-
-### PDF-bestand
-
-volgen
-
 ## Annotaties in- of uitschakelen
 
 Annotaties kunnen op verschillende niveaus worden in- of uitgeschakeld:
@@ -66,3 +46,6 @@ Annotaties kunnen op verschillende niveaus worden in- of uitgeschakeld:
 
 * Op gebruikersniveau: [!UICONTROL Components] > [!UICONTROL User preferences] > [!UICONTROL Data] > [!UICONTROL Show annotations]
 
+![](assets/show-ann.png)
+
+![](assets/show-ann2.png)
