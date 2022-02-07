@@ -1,15 +1,19 @@
 ---
 title: De huidige Adobe Analytics-releaseopmerkingen weergeven
 description: Opmerkingen bij de release Latest Analytics
-source-git-commit: f8c2d98e49ead838781b175aa9f22712d6802a9d
+source-git-commit: e19299820a03783215d8425b937a0935311d9e7b
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '861'
 ht-degree: 5%
 
 ---
 
 
 # Opmerkingen bij de nieuwste Adobe Analytics-release
+
+**Januari 2022**
+
+Meer informatie over de nieuwste release-updates voor [Adobe Experience Cloud-producten](https://business.adobe.com/products/adobe-experience-cloud-products.html). De nieuwste zelfhulpdocumentatie, zelfstudies en cursussen over Experience League.
 
 ## Nieuwe functies in Adobe Analytics {#aa-features}
 
