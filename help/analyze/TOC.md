@@ -3,24 +3,25 @@ product: analytics
 audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
-user-guide-description: Biedt gebruiksaanwijzingen voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics en hulpprogramma's zoals Adobe Analytics-dashboards, Report Builder en Activity Map.
-source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
+user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Adobe Analytics Dashboards, Report Builder and Activity Map.
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 83%
+source-wordcount: '1030'
+ht-degree: 82%
 
 ---
 
 
-# Handleiding Analytics-tools {#analyze}
+# Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
-+ [Openingspagina](landing.md)
++ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Overzicht van Analysis Workspace](analysis-workspace/home.md)
    + [Nieuwe functies in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Projecten {#build-workspace-project}
-      + [Overzicht van projecten](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Projects overview](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
       + [Sjablonen](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Meerdere rapportsuites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
@@ -31,7 +32,7 @@ ht-degree: 83%
       + [Overzicht van onderdelen](analysis-workspace/components/analysis-workspace-components.md)
       + Annotaties {#annotations}
          + [Overzicht van annotaties](analysis-workspace/components/annotations/overview.md)
-         + [Annotaties maken](analysis-workspace/components/annotations/create-annotations.md)
+         + [Create annotations](analysis-workspace/components/annotations/create-annotations.md)
          + [Annotaties beheren](analysis-workspace/components/annotations/manage-annotations.md)
          + [Annotaties weergeven](analysis-workspace/components/annotations/view-annotations.md)
       + Dimensies {#dimensions}
@@ -42,7 +43,7 @@ ht-degree: 83%
       + Segmenten {#segments}
          + [Segmenten maken](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Snelle segmenten](analysis-workspace/components/segments/quick-segments.md)
-         + [Ad-hocsegmenten](analysis-workspace/components/segments/ad-hoc-segments.md)
+         + [Ad-hoc segments](analysis-workspace/components/segments/ad-hoc-segments.md)
       + Kalender- en datumbereiken {#calendar-date-ranges}
          + [Overzicht van kalender- en datumbereiken](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Aangepaste datumbereiken maken](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
@@ -55,17 +56,17 @@ ht-degree: 83%
          + Instellingen voor kolommen en rijen {#column-row-settings}
             + [Kolominstellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Rij-instellingen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
-            + [Dynamische versus statische items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+            + [Dynamic vs. Static items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Pagineren, filteren en tabellen sorteren](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
          + [Workspace-totalen](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohorttabel {#cohort-table}
          + [Wat is Cohort Analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [Een rapport Cohortanalyse configureren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [Configure a Cohort Analysis report](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Gebruiksgevallen van Cohort Analyse](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Uitval {#fallout}
          + [Overzicht van uitval](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Een uitvalvisualisatie configureren](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [Multidimensionale uitval](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [Multi-dimensional fallout](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Segmenten toepassen in een uitvalanalyse](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Stroom {#flow}
          + [Overzicht van stroom](analysis-workspace/visualizations/c-flow/flow.md)
@@ -87,7 +88,7 @@ ht-degree: 83%
       + [Boomstructuur](analysis-workspace/visualizations/treemap.md)
    + Deelvensters {#panels}
       + [Overzicht van deelvensters](analysis-workspace/c-panels/panels.md)
-      + [Analyses voor venster Doel (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + [Analytics for Target (A4T) panel](analysis-workspace/c-panels/a4t-panel.md)
       + [Deelvenster voor attributie](analysis-workspace/c-panels/attribution.md)
       + [Leeg deelvenster](analysis-workspace/c-panels/blank-panel.md)
       + [Deelvenster Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
@@ -101,20 +102,20 @@ ht-degree: 83%
          + [Overzicht van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Gebruiksgevallen van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Statistische tests bij segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + De projecten van de cursus, van het Aandeel, en van het Programma {#curate-share}
+   + Curate, Share, and Schedule projects {#curate-share}
       + [Menu Delen](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Cursieve projecten](analysis-workspace/curate-share/curate.md)
-      + [Projecten delen](analysis-workspace/curate-share/share-projects.md)
-      + [Deelbare koppelingen maken](analysis-workspace/curate-share/shareable-links.md)
+      + [Curate projects](analysis-workspace/curate-share/curate.md)
+      + [Share projects](analysis-workspace/curate-share/share-projects.md)
+      + [Create shareable links](analysis-workspace/curate-share/shareable-links.md)
       + [Alleen-weergeven -projecten](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- of CSV-bestanden downloaden](analysis-workspace/curate-share/download-send.md)
       + [Projecten plannen](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [Overzicht van attributie](analysis-workspace/attribution/overview.md)
-      + [Attributiemodellen en terugzoekvensters](analysis-workspace/attribution/models.md)
+      + [Attribution models and lookback windows](analysis-workspace/attribution/models.md)
       + [Algoritmische attributie](analysis-workspace/attribution/algorithmic.md)
-      + [Aanbevolen werkwijzen voor kenmerken](analysis-workspace/attribution/best-practices.md)
-      + [Veelgestelde vragen](analysis-workspace/attribution/faq.md)
+      + [Attribution best practices](analysis-workspace/attribution/best-practices.md)
+      + [FAQ](analysis-workspace/attribution/faq.md)
    + [Reis-IQ](analysis-workspace/journey-iq.md)
    + [Segment-IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
@@ -252,7 +253,7 @@ ht-degree: 83%
       + [Problemen met Power BI-integratie oplossen](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Adobe Analytics-contentpakketten voor Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic-macro&#39;s](report-builder/vba.md)
-   + [Report Builder oplossen](report-builder/troubleshoot.md)
+   + [Report Builder troubleshooting](report-builder/troubleshoot.md)
    + [Report Builder Veelgestelde vragen](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Overzicht van Activity Map](activity-map/activity-map.md)
@@ -311,17 +312,17 @@ ht-degree: 83%
    + [Dashboardbeheer](reports-analytics/dashboard-manage.md)
    + [Data-uittreksel](reports-analytics/data-extract.md)
    + [Taalrapporten](reports-analytics/funnels.md)
-   + [Metrisch](reports-analytics/metrics.md)
+   + [Metrics](reports-analytics/metrics.md)
    + [Targets](reports-analytics/targets.md)
    + [Waarschuwingen](reports-analytics/alerts.md)
    + [Kalendergebeurtenissen](reports-analytics/t-calendar-event.md)
    + [Veelgestelde vragen](reports-analytics/frequently-asked-questions.md)
    + [Problemen oplossen](reports-analytics/report-troubleshooting.md)
-+ Adobe Analytics-dashboards {#mobapp}
++ Adobe Analytics dashboards {#mobapp}
    + [Adobe Analytics-dashboards - overzicht](mobile-app/home.md)
    + [Curatorintro](mobile-app/curator.md)
    + [Een mobiele scorecard maken](mobile-app/create-scorecard.md)
-   + [Stel managers in voor het gebruik van dashboards](mobile-app/set-up-execs.md)
+   + [Set up executives to use dashboards](mobile-app/set-up-execs.md)
    + [Snelle handleiding voor executive gebruikers](mobile-app/executive.md)
-+ [API voor rapportage](reporting-api.md)
++ [Reporting API](reporting-api.md)
 + [Labs](labs.md)

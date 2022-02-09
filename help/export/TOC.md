@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Hulplijn exporteren
 user-guide-description: Gebruik Gegevensfeeds als u onbewerkte gegevens per uur of per dag wilt exporteren. Gebruik Data Warehouse om een spreadsheetuitvoer van gegevens op te halen.
-source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 75%
+source-wordcount: '289'
+ht-degree: 71%
 
 ---
 
 
-# Handleiding voor exporteren van analysemogelijkheden {#export}
+# Adobe Analytics Export Guide {#export}
 
 + [Handleiding voor exporteren van analysemogelijkheden](home.md)
++ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Gegevensfeed Analytics {#analytics-data-feed}
    + [Overzicht van gegevensinvoer](analytics-data-feed/data-feed-overview.md)
    + [Een gegevensfeed maken of bewerken](analytics-data-feed/create-feed.md)

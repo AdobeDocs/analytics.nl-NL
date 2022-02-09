@@ -4,17 +4,18 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: 'Pas aan welke gegevens worden verzameld om meer uit Adobe Analytics te halen. '
-source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 76%
+source-wordcount: '391'
+ht-degree: 73%
 
 ---
 
 
-# Analytics-implementatiehandleiding {#implementation}
+# Adobe Analytics-implementatiehandleiding {#implementation}
 
 + [Adobe Analytics implementeren](home.md)
++ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [Releaseopmerkingen bij AppMeasurement](appmeasurement-updates.md)
 + Variabelen, functies en methoden van Analytics {#vars}
    + [Overzicht](vars/overview.md)
@@ -50,7 +51,7 @@ ht-degree: 76%
       + [visitorID](vars/config-vars/visitorid.md)
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
-   + Paginabariabelen {#page-vars}
+   + Paginariabelen {#page-vars}
       + [Overzicht van paginavariabelen](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
@@ -174,7 +175,7 @@ ht-degree: 76%
    + [Pakketbewaking](validate/packet-monitor.md)
    + [Hash-botsingen](validate/hash-collisions.md)
 + [Veelgestelde vragen](faq.md)
-+ Uw implementatie {#review} controleren
++ Uw implementatie controleren {#review}
    + [Gerichte revisie (na elke release van de website)](review/focused-review.md)
    + [Volledige controle (elke 6 maanden)](review/full-review.md)
    + [De bovenste 5 KPI&#39;s definiëren](review/define-kpis.md)

@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: De hulp organiseert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, en alarm.
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 52%
+source-wordcount: '667'
+ht-degree: 51%
 
 ---
 
 
-# [!DNL Analytics] Components-handleiding {#components}
+# [!DNL Adobe Analytics] Components-handleiding {#components}
 
 + [Analytics Components-handleiding](home.md)
++ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensies {#dimensions}
    + [Overzicht van Dimension](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -226,7 +227,7 @@ ht-degree: 52%
    + [Intelligente waarschuwingen - gebruiksscenario&#39;s](c-alerts/alerts-use-cases.md)
 + Classificaties {#classifications}
    + [Overzicht van classificaties](classifications/c-classifications.md)
-   + Indelingsimporteur {#classifications-importer}
+   + Invoerder van classificaties {#classifications-importer}
       + [Importeren van classificaties - overzicht](classifications/importer/c-working-with-saint.md)
       + [Classificatiedatabestanden](classifications/importer/c-saint-data-files.md)
       + [Classificatiedata verwijderen](classifications/importer/t-delete-classification-data.md)
