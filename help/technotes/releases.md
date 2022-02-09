@@ -1,17 +1,17 @@
 ---
-description: Verklaart de nieuwe ononderbroken strategie van de eigenschapversie voor Adobe Analytics
+description: Verklaart de ononderbroken strategie van de eigenschapversie voor Adobe Analytics
 title: Adobe Analytics-functiereleases
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 492f2333d07d887ce89d549306b05ee0df02fe90
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '374'
 ht-degree: 1%
 
 ---
 
 # Adobe Analytics-functiereleases
 
-In het verleden volgden Adobe Analytics-functiereleases een vast maandelijks schema. Vanaf april 2020 is Adobe Analytics overgestapt op een doorlopend leveringsmodel dat een meer schaalbare, gefaseerde benadering van eigenschapplaatsing toestaat.
+De versies van Adobe Analytics werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat.
 
 ## Releasestrategie
 
@@ -27,9 +27,9 @@ Bij elke functierelease kan de tijdlijn variëren van RTP tot GA. Het doel is om
 
 ## Functiemarkeringen
 
-De vlaggen van de eigenschap worden gebruikt om de zichtbaarheid van nieuwe eigenschappen tijdens versie te controleren. Adobe raadt aan `app.launchdarkly.com` toe te voegen aan [lijst van gewenste personen](/help/technotes/ip-addresses.md) voor een optimale ervaring tijdens de release. Kort nadat GA is bereikt, wordt de vlag verwijderd.
+De vlaggen van de eigenschap worden gebruikt om de zichtbaarheid van nieuwe eigenschappen tijdens versie te controleren. Adobe raadt u aan `app.launchdarkly.com` op uw firewall [lijst van gewenste personen](/help/technotes/ip-addresses.md) voor een optimale ervaring tijdens de afgifte. Kort nadat GA is bereikt, wordt de vlag verwijderd.
 
-U kunt uw actieve eigenschapmarkeringen op elk ogenblik bekijken onder **Hulp > over Werkruimte > Actieve eigenschapmarkeringen**.
+U kunt op elk gewenst moment de vlaggen van uw actieve functie weergeven **Help > Info over Werkruimte > Markeringen voor actieve functies**.
 
 ## Voordelen
 
@@ -39,5 +39,5 @@ Met gefaseerde releases kan Adobe het implementatieproces van de software beter 
 
 | Vraag | Antwoord |
 | --- | --- |
-| Kan ik vroege toegang tot een eigenschap vragen? | Nee. Vroegtijdige toegang wordt niet verleend.<br>Als u de concepten van de vroege Analyse wilt testen, moedigen wij u aan om te proberen  [Adobe Analytics ](/help/analyze/labs.md) Labs om feedback over onze industrie-leidende innovaties te verstrekken. |
-| Heeft deze releasestrategie invloed op mijn toegang tot functies? | Nee. Zodra een functie GA heeft bereikt, hebt u toegang tot de functie als deze in het pakket Analytics is opgenomen.<br>U kunt de details van uw pakket Analytics onder de Niveaus van de Toegang van de  [Eigenschap bekijken](/help/admin/company/feature-access-levels.md). |
+| Kan ik vroege toegang tot een eigenschap vragen? | Nee. Vroegtijdige toegang wordt niet verleend.<br>Als u de concepten van de vroege Analyse wilt testen, moedigen wij u aan om te proberen [Adobe Analytics Labs](/help/analyze/labs.md) om feedback te geven over onze toonaangevende innovaties. |
+| Heeft deze releasestrategie invloed op mijn toegang tot functies? | Nee. Zodra een functie GA heeft bereikt, hebt u toegang tot de functie als deze in het pakket Analytics is opgenomen.<br>U kunt de details van het pakket Analytics weergeven onder [Toegangsniveaus voor functies](/help/admin/company/feature-access-levels.md). |
