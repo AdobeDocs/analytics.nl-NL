@@ -5,7 +5,7 @@ title: Nieuwe functies in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
+source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
 workflow-type: tm+mt
 source-wordcount: '8174'
 ht-degree: 88%
@@ -15,7 +15,7 @@ ht-degree: 88%
 # Nieuwe functies in Analysis Workspace
 
 >[!IMPORTANT]
->Verdere Analysis Workspace-updates zijn toegevoegd aan de pagina [Adobe Analytics Documentation Updates](/help/technotes/doc-updates.md).
+>Meer Analysis Workspace-updates zijn toegevoegd aan de [Updates van Adobe Analytics-documentatie](/help/release-notes/doc-updates.md) pagina.
 
 Zie [Opmerkingen bij de release van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html) voor updates van het overkoepelende product.
 
@@ -23,27 +23,27 @@ Zie [Opmerkingen bij de release van Adobe Experience Cloud](https://experiencele
 
 | Functie | Doeldatum | Beschrijving |
 | --- | --- | --- |
-| [!UICONTROL Components] > [!UICONTROL User preferences] | 25 maart 2021 | Met de pagina [!UICONTROL Components] > [!UICONTROL User preferences] kunt u [!UICONTROL Analysis Workspace]-instellingen en de bijbehorende componenten voor uw gebruiker beheren. [!UICONTROL User preferences] van toepassing op alle nieuwe projecten en panels. <br>**Opmerking:** de volgende instellingen zijn verplaatst naar de  [!UICONTROL User preferences] pagina:<ul><li>Rapportinstellingen: Scheidingsteken voor duizendtallen (nu _Getalnotatie_)</li><li>Rapportinstellingen: CSV-scheidingsteken</li><li>Werkruimteprojecten: Help > Tips inschakelen</li><li>Werkruimteprojecten: Leeg deelvenster _Nieuwe projecten starten met dit deelvenster_, optie</li></ul> |
+| [!UICONTROL Components] > [!UICONTROL User preferences] | 25 maart 2021 | De [!UICONTROL Components] > [!UICONTROL User preferences] pagina laat u toe leiden [!UICONTROL Analysis Workspace] instellingen en de bijbehorende componenten voor uw gebruiker. [!UICONTROL User preferences] van toepassing op alle nieuwe projecten en panels. <br>**Opmerking:** de volgende instellingen zijn verplaatst naar de [!UICONTROL User preferences] pagina:<ul><li>Rapportinstellingen: Scheidingsteken voor duizendtallen (nu _Getalnotatie_)</li><li>Rapportinstellingen: CSV-scheidingsteken</li><li>Werkruimteprojecten: Help > Tips inschakelen</li><li>Werkruimteprojecten: Leeg deelvenster _Nieuwe projecten starten met dit deelvenster_ option</li></ul> |
 | [!UICONTROL Histogram Smart Bucket Prediction] | 25 maart 2021 | [!UICONTROL Histogram Smart Bucket Prediction] biedt hulp bij histogrammen met hoge cardinaliteit door automatisch de juiste breedte en het juiste aantal emmers voor de gegevensspread te identificeren. Voor metingen met lage cardinaliteit gedraagt de visualisatie zich op dezelfde manier als voorheen. |
 
 ## Februari 2021
 
 | Functie | Doeldatum | Beschrijving |
 | --- | --- | --- |
-| Componentselectie | 4 februari 2021 | De drop-down/drop zonecomponent die in [!UICONTROL Quick Insights] wordt gevonden zal aan alle dalingsstreken in [!UICONTROL Workspace] worden toegevoegd. Dankzij deze verbetering kunt u kiezen uit een vervolgkeuzelijst met compatibele componenten of de ruimte blijven gebruiken als een neerzetzone. |
+| Componentselectie | 4 februari 2021 | De component drop-down/drop zone gevonden in [!UICONTROL Quick Insights] wordt toegevoegd aan alle neerzetzones in [!UICONTROL Workspace]. Dankzij deze verbetering kunt u kiezen uit een vervolgkeuzelijst met compatibele componenten of de ruimte blijven gebruiken als een neerzetzone. |
 
 ## Januari 2021
 
 | Functie | Doeldatum | Beschrijving |
 | --- | --- | --- |
 | Afbeeldings-URL&#39;s | 14 januari 2021 | U kunt afbeeldingen toevoegen aan Workspace-projecten door te verwijzen naar een openbare afbeeldings-URL. |
-| Beheer van gecombineerde bron en instellingen voor visualisatie | 14 januari 2021 | De [!UICONTROL Data Source] manager (punt) en montagemanager (toestel) voor visualisaties zijn gecombineerd in één pop-up, zodat kunt u uw bron en montages van de zelfde plaats gemakkelijk beheren. |
+| Beheer van gecombineerde bron en instellingen voor visualisatie | 14 januari 2021 | De [!UICONTROL Data Source] Beheer (punt) en instellingenbeheer (versnelling) voor visualisatie zijn gecombineerd tot één pop-up, zodat u de bron en instellingen eenvoudig vanaf dezelfde locatie kunt beheren. |
 
 ## Oktober 2020
 
 | Functie | Beschrijving |
 | --- | --- |
-| Lijnvisualisatie: [Gemiddelde trendlijnoptie verplaatsen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Moving average]** is toegevoegd aan de instellingen voor  [!UICONTROL Line] visualisatietendensen. Een voortschrijdend gemiddelde wordt ook wel een specifiek aantal gegevenspunten (bepaald door een **[!UICONTROL Periods]**-selectie) genoemd, gemiddeld gebruikt en het gemiddelde gebruikt als een punt op de regel. |
+| Lijnvisualisatie: [Gemiddelde trendline verplaatsen, optie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Moving average]** is toegevoegd aan [!UICONTROL Line] instellingen voor visualisatietendline. Ook gekend als voortschrijdend gemiddelde, gebruikt een voortschrijdend gemiddelde een specifiek aantal gegevenspunten (die door a worden bepaald **[!UICONTROL Periods]** (selecteert), gemiddeld deze en gebruikt het gemiddelde als een punt op de regel. |
 | [Help-pagina voor prestaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Op de pagina met Help over Analysis Workspace-prestaties worden verschillende factoren weergegeven die van invloed zijn op de projectprestaties en worden koppelingen naar tips voor optimalisatie weergegeven. |
 
 ## September 2020
@@ -51,7 +51,7 @@ Zie [Opmerkingen bij de release van Adobe Experience Cloud](https://experiencele
 | Functie | Beschrijving |
 | --- | --- |
 | [Download 50 kB items voor één dimensie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | U kunt nu 50.000 items downloaden voor één dimensie in een vrije-vormtabel, met toegepaste segmenten en filters. Hierdoor hebt u toegang tot meer dan de 400 rijen gegevens buiten Analysis Workspace. |
-| [Verbeteringen voor lijnvisualisatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>U kunt de x-as en de y-as van om het even welke [!UICONTROL Line] visualisatie tonen of verbergen. Dit is vooral handig wanneer uw [!UICONTROL Line]-visualisaties compacter zijn.</li><li>U kunt een minimum- en maximumwaardelabel bedekken op elke Lijnvisualisatie om de pieken en dalen snel in metrische vorm te markeren.</li><li>U kunt verschillende regressietendellijnen op om het even welke Lijn visualisatie bedekken om de trend in de gegevens gemakkelijker te zien. U kunt onder andere [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] en [!UICONTROL Quadratic] kiezen.</li></ul> |
+| [Verbeteringen voor lijnvisualisatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>U kunt de x-as en de y-as van om het even welk tonen of verbergen [!UICONTROL Line] visualisatie. Dit kan vooral handig zijn als uw [!UICONTROL Line] visualisaties zijn compacter.</li><li>U kunt een minimum- en maximumwaardelabel bedekken op elke Lijnvisualisatie om de pieken en dalen snel in metrische vorm te markeren.</li><li>U kunt verschillende regressietendellijnen op om het even welke Lijn visualisatie bedekken om de trend in de gegevens gemakkelijker te zien. Opties omvatten [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] en [!UICONTROL Quadratic].</li></ul> |
 | Nieuwe datumbereiken | We hebben vijf nieuwe datumbereiken toegevoegd, zodat u kunt kiezen uit datumbereiken die geen gegevens van vandaag voor een gedeeltelijke dag bevatten: Laatste 7 volledige dagen, Laatste 14 volledige dagen, Laatste 30 volledige dagen, Laatste 60 volledige dagen, Laatste 90 volledige dagen |
 
 ## Augustus 2020
@@ -114,7 +114,7 @@ Nieuwe functies uitgebracht op 20 februari 2020.
 
 | Functie | Beschrijving |
 |--- |--- |
-| Nieuwe Workspace-sjabloon voor voor bedrijven die CDA (Cross-Device Analytics) gebruiken | In deze sjabloon ziet u hoe effectief CDA is bij het samenvoegen van bezoeken en leert u over exclusieve CDA-dimensies en metrics. Een rapportsuite met CDA is vereist. Zie [Apparaatanalyse instellen](/help/components/cda/setup.md) voor meer informatie. |
+| Nieuwe Workspace-sjabloon voor voor bedrijven die CDA (Cross-Device Analytics) gebruiken | In deze sjabloon ziet u hoe effectief CDA is bij het samenvoegen van bezoeken en leert u over exclusieve CDA-dimensies en metrics. Een rapportsuite met CDA is vereist. Zie [Apparaatanalyse instellen](/help/components/cda/setup.md) voor meer informatie . |
 | Nieuwe sneltoetsen in Workspace | <ul><li>Alle deelvensters samenvouwen/uitvouwen: `alt + m`</li><li>Actief deelvenster samenvouwen/uitvouwen: `alt + ctrl + m`</li><li>Zoeken in linkerrail: `ctrl + /`</li><li>Naar volgend deelvenster gaan: `alt + Right Key`</li><li>Naar vorig deelvenster gaan: `alt + Left Key`</li></ul>[Meer informatie...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Andere verbeteringen in Workspace | <ul><li>Wanneer een deelvenster of visualisatie in Workspace wordt geplaatst, schakelt de linkerrail nu automatisch naar componenten voor een naadloze workflow.</li><li>Sjablooncomponenten kunnen nu worden bewerkt (bijvoorbeeld voorzien van tags, als favoriet ingesteld of goedgekeurd).</li><li>De gefilterde metrische lijsten en segmentlijsten bevatten nu een plusknop (+) waarmee u een nieuwe component kunt toevoegen als u niet vindt wat u nodig hebt.</li></ul> |
 | Foutopsporing voor Workspace | Het Help-menu van Workspace bevat nu een optie voor foutopsporing, zodat u deze naadloos kunt inschakelen bij Workspace-verzoeken voor foutopsporing. [Meer informatie...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
@@ -438,7 +438,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 8 maart 2018.
    <td colname="col2"> <p>Voor de onlangs uitgebrachte aangepaste sjablonen hebben we het volgende veranderd: </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">Bovenaan het project (bij de titel) is een sjabloonpictogram toegevoegd om de modus Sjabloon bewerken beter te onderscheiden van het gebruik van een sjabloon als beginpunt voor een project. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">U kunt niet-beheerders toestaan om Workspace-projectsjablonen te maken (opslaan als) en te bewerken, op voorwaarde dat ze beschikken over de machtiging Projecten maken/cureren in Analysis Workspace. ( <span class="ignoretag"> <span class="uicontrol"> Beheer </span> &gt; <span class="uicontrol"> Alle beheerders </span> &gt; <span class="uicontrol"> Gebruikersbeheer </span> &gt; <span class="uicontrol"> Groepen </span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span> &gt; <span class="uicontrol"> Analytische gereedschappen aanpassen </span> &gt; &lt;a 13/&gt; Create/Curate Projecten in Analysis Workspace </span> </span>).<span class="uicontrol"> </span></li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">U kunt niet-beheerders toestaan om Workspace-projectsjablonen te maken (opslaan als) en te bewerken, op voorwaarde dat ze beschikken over de machtiging Projecten maken/cureren in Analysis Workspace. ( <span class="ignoretag"> <span class="uicontrol"> Beheer </span>  &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer </span>  &gt; <span class="uicontrol"> Groepen </span>  &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span>  &gt; <span class="uicontrol"> Analyseprogramma's aanpassen </span>  &gt; <span class="uicontrol"> Projecten maken/krullen in Analysis Workspace </span> </span>). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -548,7 +548,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bijdrage-analyse: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > melding voor tokens </a> </p> </td> 
-   <td colname="col2"> <p>Als uw bedrijf een beperkt aantal tokens voor bijdrage-analyse heeft, wordt nu een melding weergegeven in de Analysis Workspace-interface wanneer u een token opgebruikt. Zo weet u precies hoeveel tokens u nog hebt.  </p> <p>(Beheerder-gebruikers: door de groepstoestemmingen te bewerken kunt u aangeven wie deze tokens wel en niet kan gebruiken. De toestemming wordt genoemd "Anomaly Detection and Contribution Analysis" onder <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> All admin </span> &gt; <span class="uicontrol"> User management </span> <span class="uicontrol"> Edit groups </span> &gt; <span class="uicontrol"> Edit All Report Access &lt;a1 1/&gt; &gt; <span class="uicontrol"> Rapportsuite-gereedschappen aanpassen </span> &gt; <span class="uicontrol"> Gereedschappen en rapporten </span>. ) </span> </p> </td> 
+   <td colname="col2"> <p>Als uw bedrijf een beperkt aantal tokens voor bijdrage-analyse heeft, wordt nu een melding weergegeven in de Analysis Workspace-interface wanneer u een token opgebruikt. Zo weet u precies hoeveel tokens u nog hebt.  </p> <p>(Beheerder-gebruikers: door de groepstoestemmingen te bewerken kunt u aangeven wie deze tokens wel en niet kan gebruiken. De toestemming wordt genoemd "Anomaly Detection and Contribution Analysis" onder <span class="uicontrol"> Analyse </span> &gt; <span class="uicontrol"> Beheer </span> &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer </span>&gt; <span class="uicontrol"> Groepen bewerken </span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span> &gt; <span class="uicontrol"> De rapportsuite-gereedschappen aanpassen </span> &gt; <span class="uicontrol"> Gereedschappen en rapporten </span>. )  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV-bestanden met multi-bytetekens </p> </td> 
@@ -1180,7 +1180,7 @@ Het nieuwe segment wordt weergegeven in de [!UICONTROL Segments]-groep in het [!
 
 ## Nieuw segment toevoegen
 
-De neerzetzone **[!UICONTROL Drop a Segment here]** is toegevoegd, zodat u segmenten naar een project kunt slepen en neerzetten.
+De **[!UICONTROL Drop a Segment here]** dropzone is toegevoegd, zodat u segmenten naar een project kunt slepen en neerzetten.
 
 ![](assets/add-new-segment.png)
 
@@ -1252,4 +1252,4 @@ Als u een project opslaat, wordt de titel op het browsertabblad weergegeven als 
 
 Beheerders kunnen [!UICONTROL Analysis Workspace]-projecten van de ene gebruiker naar de andere overdragen.
 
-Navigeer naar **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > **[!UICONTROL Transfer]** om projecten over te brengen.
+Navigeren naar **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > **[!UICONTROL Transfer]** projecten over te dragen.

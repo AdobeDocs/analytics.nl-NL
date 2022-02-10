@@ -2,9 +2,9 @@
 title: De huidige Adobe Analytics-releaseopmerkingen weergeven
 description: Opmerkingen bij de release Latest Analytics
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
+source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '638'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ Meer informatie over de nieuwste release-updates voor [Adobe Experience Cloud-pr
 
 ## Nieuwe functies in Adobe Analytics {#aa-features}
 
-| Functie | Beschrijving | [Doeldatum](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) |
+| Functie | Beschrijving | [Doeldatum](releases.md) |
 | ----------- | ---------- | ------- |
 | Modus voor voorvertoning van mobiel scorecard-project | Start een voorvertoning van hoe uw mobiele scorecard eruit zal zien in de app Analytics dashboards, rechtstreeks vanuit de scorecard builder. In de voorvertoningsmodus kunnen gebruikers op dezelfde manier werken met filters en grafieken als in de app, zodat ze een voorvertoning van de ervaring kunnen bekijken voordat ze de scorecard opslaan en delen. Gebruikers kunnen de apparaatkiezer ook in de voorvertoningsmodus gebruiken om te zien hoe hun scorecard er op verschillende apparaten uitziet. | 16 februari 2022 |
 

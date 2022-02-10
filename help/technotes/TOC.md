@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Technische notities voor Analytics
 breadcrumb-title: Technische notities
 user-guide-description: Een kennisbasis die nuttige artikelen bevat die niet tot een specifiek analyseprogramma of specifieke component behoren.
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: fac5627cec2a398aaca8272fefe8497fbb8fb315
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '196'
 ht-degree: 69%
 
 ---
@@ -15,7 +15,6 @@ ht-degree: 69%
 # Technische notities voor Analytics {#technotes}
 
 + [Technische notities voor Analytics](home.md)
-+ [Documentatie-updates](doc-updates.md)
 + Adobe Analytics voor gebruikers van Google Analytics {#ga-to-aa}
    + [Help voor gebruikers van Adobe Analytics voor Google Analytics](ga-to-aa/home.md)
    + [Accounts en rapportsuites](ga-to-aa/accounts.md)
@@ -44,7 +43,6 @@ ht-degree: 69%
    + [Opties om het effect van browsercookiebeperkingen te beperken](cookies/cookieless.md)
 + [Dataretentie](data-retention.md)
 + [Gegevens uitsluiten](exclude-data.md)
-+ [Functiereleases](releases.md)
 + [IPs en domeinen die door Adobe Analytics worden gebruikt](ip-addresses.md)
 + [Latentie](latency.md)
 + [Waarde voor weinig verkeer](low-traffic.md)
