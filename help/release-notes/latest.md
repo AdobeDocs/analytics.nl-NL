@@ -2,28 +2,28 @@
 title: De huidige Adobe Analytics-releaseopmerkingen weergeven
 description: Opmerkingen bij de release Latest Analytics
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 16e74d5374fd761af973ca7af9dd1c4022010911
+source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 7%
+source-wordcount: '646'
+ht-degree: 5%
 
 ---
 
-# Opmerkingen bij de nieuwste Adobe Analytics-release
+# Opmerkingen bij de huidige Adobe Analytics-release (februari 2022)
 
 >[!IMPORTANT]
 >
 >Deze releaseopmerkingen bevatten pre-releasegegevens die kunnen worden gewijzigd.
 
-**16 februari 2022**
+**Laatste update**: 10 februari 2022
 
 Meer informatie over de nieuwste release-updates voor [Adobe Experience Cloud-producten](https://business.adobe.com/products/adobe-experience-cloud-products.html). De nieuwste zelfhulpdocumentatie, zelfstudies en cursussen over Experience League.
 
 ## Nieuwe functies in Adobe Analytics {#aa-features}
 
-| Functie | Beschrijving | Doeldatum |
+| Functie | Beschrijving | [Doeldatum](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) |
 | ----------- | ---------- | ------- |
-| Geen nieuwe functies deze maand | N.v.t. | Zie [Algemene beschikbaarheid](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) |
+| Modus voor voorvertoning van mobiel scorecard-project | Start een voorvertoning van hoe uw mobiele scorecard eruit zal zien in de app Analytics dashboards, rechtstreeks vanuit de scorecard builder. In de voorvertoningsmodus kunnen gebruikers op dezelfde manier werken met filters en grafieken als in de app, zodat ze een voorvertoning van de ervaring kunnen bekijken voordat ze de scorecard opslaan en delen. Gebruikers kunnen de apparaatkiezer ook in de voorvertoningsmodus gebruiken om te zien hoe hun scorecard er op verschillende apparaten uitziet. | 16 februari 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
