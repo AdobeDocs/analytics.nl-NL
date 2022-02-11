@@ -1,21 +1,19 @@
 ---
 description: Voorbeelden van gegevensprivacylabels voor Adobe Analytics-variabelen
 title: Data Privacy-labels voor Analytics-variabelen
-uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
 workflow-type: tm+mt
-source-wordcount: '3642'
-ht-degree: 99%
+source-wordcount: '3906'
+ht-degree: 95%
 
 ---
 
-
 # Data Privacy-labels voor Analytics-variabelen
 
-## Waarom labels toewijzen aan uw data? {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
+## Waarom labels toewijzen aan uw data? {#why-label}
 
-Veel Adobe-klanten beschikken over juridische teams die de dataprivacywetten (GDPR, CCPA, enzovoort) hebben beoordeeld en die hun eigen conclusies hebben getrokken over de manier waarop data moeten worden verwerkt om te voldoen aan de wetgeving inzake databescherming. De juridische interpretaties kunnen per bedrijf verschillen en de gewenste instellingen voor dataverwerking kunnen ook per klant verschillen. Aangezien klanten verschillende voorkeuren voor Data Privacy-dataverwerking hebben en verschillende datasets, maakt Adobe het mogelijk voor klanten, als datacontrollers, hun gewenste instellingen aan te passen voor de Data Privacy-dataverwerking van hun unieke data. Hierdoor kan elke afzonderlijke klant Data Privacy-aanvragen verwerken op de manier door voor het merk en de unieke dataset van deze klant het meest zinnig is.
+Veel klanten van Adobe hebben juridische teams die de wetten van de Privacy van Gegevens (GDPR, CCPA, enz.) hebben herzien. Deze teams hebben mogelijk hun eigen conclusies getrokken over de manier waarop gegevens moeten worden verwerkt om te voldoen aan de privacywetten voor gegevens. De juridische interpretaties kunnen per bedrijf verschillen en de gewenste instellingen voor dataverwerking kunnen ook per klant verschillen. Aangezien klanten verschillende voorkeuren voor Data Privacy-dataverwerking hebben en verschillende datasets, maakt Adobe het mogelijk voor klanten, als datacontrollers, hun gewenste instellingen aan te passen voor de Data Privacy-dataverwerking van hun unieke data. Hierdoor kan elke afzonderlijke klant Data Privacy-aanvragen verwerken op de manier door voor het merk en de unieke dataset van deze klant het meest zinnig is.
 
 Adobe Analytics biedt tools voor het labelen van data op basis van de gevoeligheid en contractuele beperkingen ervan. Labels zijn belangrijk en handig voor het volgende: (1) geregistreerde personen identificeren, (2) bepalen welke data moeten worden geretourneerd als onderdeel van een toegangsaanvraag, en (3) datavelden identificeren die moeten worden verwijderd als onderdeel van een verwijderingsaanvraag.
 
@@ -23,7 +21,7 @@ Voordat u kunt achterhalen welke labels op welke variabelen/velden moeten worden
 
 De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels voor identiteitsdata, gevoelige data en data-governance.
 
-## DULE-labels {#section_B2E78130957647338495EF37DE21D6BC}
+## DULE-labels {#dule-labels}
 
 >[!NOTE]
 >
@@ -90,7 +88,7 @@ De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels
 
 Met Data Governance-labels kunnen gebruikers data classificeren die privacygerelateerde overwegingen en contractuele voorwaarden vertegenwoordigen waardoor deze voldoen aan regelgeving en bedrijfsbeleid.
 
-**Data Privacy-toegangslabels**
+### Data Privacy-toegangslabels
 
 <table id="table_663EFF43A454498386F7F3E60875E0F8"> 
  <thead> 
@@ -121,7 +119,7 @@ Met Data Governance-labels kunnen gebruikers data classificeren die privacygerel
 
 Weinig variabelen zullen een van de andere labels krijgen, maar de verwachting is dat de toegangslabels op veel van uw variabelen zullen worden toegepast. Het is echter aan u om in overleg met uw juridische team te beslissen welke door u verzamelde data met geregistreerde personen moeten worden gedeeld.
 
-**Data Privacy-verwijderingslabels**
+### Data Privacy-verwijderingslabels
 
 <table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
  <thead> 
@@ -164,7 +162,7 @@ Weinig variabelen zullen een van de andere labels krijgen, maar de verwachting i
  </tbody> 
 </table>
 
-**Data Privacy-identiteitslabels**
+### Data Privacy-identiteitslabels
 
 <table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
  <thead> 
@@ -178,7 +176,7 @@ Weinig variabelen zullen een van de andere labels krijgen, maar de verwachting i
   <tr> 
    <td colname="col1"> <p>Geen </p> </td> 
    <td colname="col2"> <p>Deze variabele bevat geen id die wordt gebruikt voor Data Privacy-aanvragen. </p> </td> 
-   <td colname="col3"> <p>U hoeft een van deze andere labels alleen maar in te stellen als dit veld een id bevat die u gebruikt bij het verzenden van toegangsaanvragen of het verwijderen van aanvragen via de API of UI van Data Privacy. </p> </td> 
+   <td colname="col3"> <p>U hoeft alleen een van deze andere labels in te stellen als dit veld een id bevat die u gebruikt bij het verzenden van toegangs- of verwijderingsverzoeken via de [Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) of de gebruikersinterface. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -205,11 +203,17 @@ Weinig variabelen zullen een van de andere labels krijgen, maar de verwachting i
  </tbody> 
 </table>
 
+| Label | Definitie | Overige vereisten |
+| --- | --- | --- |
+| Geen | Deze variabele bevat geen id die wordt gebruikt voor Data Privacy-aanvragen. | U hoeft alleen een van deze andere labels in te stellen als dit veld een id bevat die u gebruikt bij het verzenden van toegangs- of verwijderingsverzoeken via het dialoogvenster [Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) of UI. |
+| ID-APPARAAT | Dit veld bevat een id die kan worden gebruikt om een apparaat te identificeren voor een Data Privacy-aanvraag, maar die geen onderscheid kan maken tussen verschillende gebruikers van een gedeeld apparaat.  U hoeft dit label niet te specificeren voor alle variabelen die id&#39;s bevatten (daar zijn de I1/I2-labels voor). Gebruik dit label als u Data Privacy-aanvragen verzendt met id&#39;s die in deze variabele zijn opgeslagen, en u deze variabele wilt doorzoeken naar de opgegeven id. | Vereist ook label I1 of I2.<ul><li>Kan niet worden ingesteld voor gebeurtenissen</li><li>Kan niet worden ingesteld voor merchandising-eVars</li><li>Kan worden ingesteld voor classificaties</li></ul> |
+| ID-PERSON | Dit veld bevat een id die kan worden gebruikt om een geverifieerde gebruiker (een specifieke persoon) te identificeren voor een Data Privacy-aanvraag.  U hoeft dit label niet te specificeren voor alle variabelen die id&#39;s bevatten (daar zijn de I1/I2-labels voor). Gebruik dit label als u Data Privacy-aanvragen gaat verzenden met id&#39;s die in deze variabele zijn opgeslagen, en u deze variabele wilt doorzoeken naar de opgegeven id. | Vereist ook label I1 of I2.<ul><li>Kan niet worden ingesteld voor gebeurtenissen</li><li>Kan niet worden ingesteld voor merchandising-eVars</li><li>Kan worden ingesteld voor classificaties</li></ul> |
+
 ## Een naamruimte opgeven wanneer u een variabele labelt als ID-DEVICE of ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 Wanneer u een variabele als ID-DEVICE of ID-PERSON labelt, wordt u gevraagd om een naamruimte op te geven. U kunt een eerder gedefinieerde naamruimte gebruiken of een nieuwe naamruimte definiëren.
 
-**Een eerder gedefinieerde naamruimte gebruiken**
+### Een eerder gedefinieerde naamruimte gebruiken
 
 Als u eerder een id-label hebt toegewezen aan andere variabelen in een van de rapportsuites in uw aanmeldingsbedrijf, kunt u één van deze bestaande naamruimten selecteren. U moet de naamruimte opnieuw gebruiken als deze variabele hetzelfde soort id&#39;s bevat als andere variabelen die al zijn gelabeld met deze naamruimte, en als u alle variabelen wilt doorzoeken bij het verzenden van een aanvraag.
 
@@ -218,7 +222,7 @@ Als u eerder een id-label hebt toegewezen aan andere variabelen in een van de ra
 
 ![](assets/namespace.png)
 
-**Een nieuwe naamruimte definiëren**
+### Een nieuwe naamruimte definiëren
 
 U kunt ook een nieuwe naamruimte definiëren. We raden u aan naamruimtetekenreeksen te beperken tot alfanumerieke tekens, plus onderstrepingstekens, streepjes en spaties. Deze worden geconverteerd naar kleine letters.
 
@@ -483,4 +487,4 @@ Er zijn vijf standaardvariabelen die tijdstempels bevatten:
 
 Voor de code voor het genereren van de bestanden die voor Data Privacy-toegangsaanvragen worden geretourneerd, moet minstens één van de eerste drie tijdstempelvariabelen in de toegangsaanvraag zijn opgenomen (een ACC-label hebben dat van toepassing is op het type aanvraag). Als geen van deze zijn opgenomen, wordt Aangepaste tijdstip treffer in UTC worden behandeld alsof het een ACC-ALL-label heeft.
 
-Het CSV-bestand op trefferniveau dat voor Data Privacy-aanvragen wordt geretourneerd, converteert de waarden in deze velden van Unix-tijdstempels naar datum-/tijdvelden met de notatie JJJJ-MM-DD UU:MM:SS (bijvoorbeeld 2018-05-01 13:49:22). In het HTML-overzichtsbestand worden deze tijdstempelwaarden afgekapt waardoor ze alleen de datum JJJJ-MM-DD bevatten, om het aantal unieke waarden te beperken dat voor deze velden kan voorkomen.
+Het CSV-bestand op raakniveau dat wordt geretourneerd voor verzoeken om toegang tot gegevensprivacy converteert de waarden in deze velden van unieke tijdstempels naar datum-/tijdvelden met de notatie YYYY-MM-DD HH:MM:SS (bijvoorbeeld 2018-05-01 13):49:22). In het HTML-overzichtsbestand worden deze tijdstempelwaarden afgekapt waardoor ze alleen de datum JJJJ-MM-DD bevatten, om het aantal unieke waarden te beperken dat voor deze velden kan voorkomen.

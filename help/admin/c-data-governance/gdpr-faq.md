@@ -3,10 +3,10 @@ description: Veelgestelde vragen over Adobe Analytics-gegevensbeheer
 title: Veelgestelde vragen
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
 workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Hoe ondersteunt Adobe Analytics toegangs- en verwijderingsaanvragen voor eindgebruikers (geregistreerde personen) die door klanten (datacontrollers) zijn gevalideerd?</b> </p> </td> 
-   <td colname="col2"> <p>Wanneer verschillende Data Privacy-regels (GDPR, CCPA) van kracht worden, ondersteunt Adobe Analytics de verwerking van geverifieerde aanvragen die door datacontrollers zijn verzonden naar de Data Privacy-API van Experience Cloud, om een geautomatiseerder proces mogelijk te maken. De Data Privacy-API van Adobe is ontworpen om individuele aanvragen om rechten (bijvoorbeeld toegangs- en verwijderingsrechten) te verwerken voor data van onze klanten die zijn opgeslagen in Adobe Experience Cloud-oplossingen. Dit is flexibel en er wordt geschaald op basis van het aantal datatoegangs- en verwijderingsaanvragen dat uw bedrijf van geregistreerde personen ontvangt. Met de Data Privacy-API kan de klant ook de status controleren van de honorering van datatoegangs- en verwijderingsaanvragen. </p> <p>Zie de <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html"> Data Privacy-API-documentatie voor meer informatie. </a> </p> </td> 
+   <td colname="col2"> <p>Wanneer verschillende Data Privacy-regels (GDPR, CCPA) van kracht worden, ondersteunt Adobe Analytics de verwerking van geverifieerde aanvragen die door datacontrollers zijn verzonden naar de Data Privacy-API van Experience Cloud, om een geautomatiseerder proces mogelijk te maken. De Data Privacy-API van Adobe is ontworpen om individuele aanvragen om rechten (bijvoorbeeld toegangs- en verwijderingsrechten) te verwerken voor data van onze klanten die zijn opgeslagen in Adobe Experience Cloud-oplossingen. Dit is flexibel en er wordt geschaald op basis van het aantal datatoegangs- en verwijderingsaanvragen dat uw bedrijf van geregistreerde personen ontvangt. De Privacy Service-API biedt de klant ook de mogelijkheid om de status te controleren van de manier waarop de verzoeken om gegevenstoegang en -verwijdering worden uitgevoerd. </p> <p>Zie voor meer informatie <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Privacy Service-API-documentatie. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wie is verantwoordelijk voor het ontvangen, accepteren en honoreren Data Privacy-aanvragen van eindgebruikers?</b> </p> </td> 
