@@ -1,10 +1,10 @@
 ---
-title: De huidige Adobe Analytics-releaseopmerkingen weergeven
-description: Opmerkingen bij de release Latest Analytics
+title: Opmerkingen bij de release Latest Analytics
+description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 581c7888153b7fefdcadeb240d01582b3b2bd47a
+source-git-commit: 511e3f4c621137d76b40fcc04ea849a0bba9e3fa
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '673'
 ht-degree: 5%
 
 ---
@@ -24,6 +24,7 @@ Meer informatie over de nieuwste release-updates voor [Adobe Experience Cloud-pr
 | Functie | Beschrijving | [Doeldatum](releases.md) |
 | ----------- | ---------- | ------- |
 | Modus voor voorvertoning van mobiel scorecard-project | Start een voorvertoning van hoe uw mobiele scorecard eruit zal zien in de app Analytics dashboards, rechtstreeks vanuit de scorecard builder. In de voorvertoningsmodus kunnen gebruikers op dezelfde manier werken met filters en grafieken als in de app, zodat ze een voorvertoning van de ervaring kunnen bekijken voordat ze de scorecard opslaan en delen. Gebruikers kunnen de apparaatkiezer ook in de voorvertoningsmodus gebruiken om te zien hoe hun scorecard er op verschillende apparaten uitziet. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 16 februari 2022 |
+| API-projecteindpunt | Analysis Workspace-projecten toevoegen, bewerken of verwijderen met behulp van de API. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 1 feb. 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -35,11 +36,9 @@ Meer informatie over de nieuwste release-updates voor [Adobe Experience Cloud-pr
 * Probleem verholpen met trage rapportagetijden. (AN-280055)
 * Correctie van problemen met classificaties waarbij niet alle dimensie-items werden ingedeeld. (AN-280031)
 
-
 ### Extra correcties in Adobe Analytics
 
 AN-268093, AN-273820, AN-274435, AN-274904, AN-275356, AN-275947, AN-276160, AN 276258, AN-276705, AN-277051, AN-277957, AN-278693, AN-278882, AN-279000, AN-2 79046, AN-279362, AN-279460, AN-279488, AN-279554, AN-279572, AN-279663, AN-27 9755, AN-279825, AN-280002, AN-280013, AN-280019, AN-280033, AN-280086, AN-280 232, AN-280264, AN-280288, AN-280342, AN-280347, AN-280360, AN-280370, AN-2807 24, AN-280830, AN-280941, AN-281353, AN-281424, AN-281533
-
 
 ## Belangrijke berichten voor [!DNL Analytics]-beheerders
 
@@ -55,4 +54,3 @@ Voor de meest recente updates over AppMeasurement-releases (versie 2.22.4) raadp
 
 >[!MORELIKETHIS]
 >[[!DNL Customer Journey Analytics] releaseopmerkingen](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
-
