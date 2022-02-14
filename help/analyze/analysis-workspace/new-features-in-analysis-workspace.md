@@ -5,9 +5,9 @@ title: Nieuwe functies in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
+source-git-commit: c818db35524d6c0d416ee2560943526f19842c5e
 workflow-type: tm+mt
-source-wordcount: '8174'
+source-wordcount: '8164'
 ht-degree: 88%
 
 ---
@@ -548,7 +548,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 18 januari 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bijdrage-analyse: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > melding voor tokens </a> </p> </td> 
-   <td colname="col2"> <p>Als uw bedrijf een beperkt aantal tokens voor bijdrage-analyse heeft, wordt nu een melding weergegeven in de Analysis Workspace-interface wanneer u een token opgebruikt. Zo weet u precies hoeveel tokens u nog hebt.  </p> <p>(Beheerder-gebruikers: door de groepstoestemmingen te bewerken kunt u aangeven wie deze tokens wel en niet kan gebruiken. De toestemming wordt genoemd "Anomaly Detection and Contribution Analysis" onder <span class="uicontrol"> Analyse </span> &gt; <span class="uicontrol"> Beheer </span> &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer </span>&gt; <span class="uicontrol"> Groepen bewerken </span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span> &gt; <span class="uicontrol"> De rapportsuite-gereedschappen aanpassen </span> &gt; <span class="uicontrol"> Gereedschappen en rapporten </span>. )  </p> </td> 
+   <td colname="col2"> <p>Als uw bedrijf een beperkt aantal tokens voor bijdrage-analyse heeft, wordt nu een melding weergegeven in de Analysis Workspace-interface wanneer u een token opgebruikt. Zo weet u precies hoeveel tokens u nog hebt. </p> <p>(Beheerder-gebruikers: door de groepstoestemmingen te bewerken kunt u aangeven wie deze tokens wel en niet kan gebruiken. De toestemming wordt genoemd "Anomaly Detection and Contribution Analysis" onder <span class="uicontrol"> Analyse </span> &gt; <span class="uicontrol"> Beheer </span> &gt; <span class="uicontrol"> Alle beheerders </span>  &gt; <span class="uicontrol"> Gebruikersbeheer </span>&gt; <span class="uicontrol"> Groepen bewerken </span> &gt; <span class="uicontrol"> Alle rapporttoegang bewerken </span> &gt; <span class="uicontrol"> De rapportsuite-gereedschappen aanpassen </span> &gt; <span class="uicontrol"> Gereedschappen en rapporten </span>. ) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV-bestanden met multi-bytetekens </p> </td> 
@@ -598,7 +598,7 @@ Nieuwe functies uitgebracht op 26 oktober 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Kaartvisualisatie </a> </p> </td> 
-   <td colname="col2"> <p>Met de nieuwe kaartvisualisatie kunt u direct uw klantinteracties bekijken binnen de context van hun locatie. Van een macroweergave (wereldwijd) tot een microweergave (stad): voortaan kunt u gemakkelijk in- en uitzoomen op diverse hiërarchische niveaus in de visualisatie en clusters van gebruikers bekijken in meerdere regio's. </p> <p>U kunt locatiedata visualiseren via IP-adressen (voor niet-mobiele datasets) of data over de breedte- en lengtegraad in Analysis Workspace tot leven brengen (voor klanten met de mobiele SDK).  </p> </td> 
+   <td colname="col2"> <p>De nieuwe Visualisatie van de Kaart laat u uw klanteninteractie binnen de context van hun plaats gemakkelijk bekijken. Van een macroweergave (wereldwijd) tot een microweergave (stad): voortaan kunt u gemakkelijk in- en uitzoomen op diverse hiërarchische niveaus in de visualisatie en clusters van gebruikers bekijken in meerdere regio's. </p> <p>U kunt locatiegegevens visualiseren via IP-adres (voor niet-mobiele gegevenssets) of u kunt breedte- en lengtegegevens (voor klanten die de Mobile SDK gebruiken) tot leven brengen in Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > Granulariteit instellen voor trendvisualisaties </a> </p> </td> 
