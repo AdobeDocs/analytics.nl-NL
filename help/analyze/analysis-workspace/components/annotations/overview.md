@@ -3,7 +3,8 @@ title: Overzicht van annotaties
 description: Annotaties gebruiken in Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
+exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
+source-git-commit: 38170806d0fbf6ae373ae089872f8d25306f416e
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -18,7 +19,9 @@ ht-degree: 0%
 
 Met annotaties kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. Met deze sjablonen kunt u kalendergebeurtenissen koppelen aan specifieke afmetingen/metriek. U kunt een datum- of datumbereik annoteren met bekende gegevensproblemen, feestdagen, startacties voor campagnes, enzovoort. U kunt gebeurtenissen dan grafisch tonen en zien of de campagnes of andere gebeurtenissen uw plaatsverkeer, opbrengst, of een andere metrisch hebben beïnvloed.
 
-Bijvoorbeeld, laten wij zeggen u projecten deelt u met uw organisatie creeerde. U merkt een dip of een piek in verkeer of andere gegevens, en u bindt een aantekening aan de beïnvloede metriek, dimensies of segmenten. Deze annotaties verschijnen dan in een lijst of een lijnvisualisatie en verstrekken gegevenscontext voor u en de consumenten van uw projecten van de Werkruimte.
+Stel dat u projecten deelt met uw organisatie. Als u een sterke toename in verkeer door een verkoopgebeurtenis had, kon u een annotatie van de &quot;lanceringsdatum van de Campagne&quot;tot stand brengen en het werkingsgebied voor uw volledige rapportreeks. Wanneer uw gebruikers gegevensreeksen bekeken die die datum omvatten, zouden zij de annotatie binnen hun projecten, naast hun gegevens zien.
+
+![](assets/multi-day.png)
 
 Houd dit in gedachten:
 
