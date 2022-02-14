@@ -2,13 +2,13 @@
 title: Annotaties weergeven
 description: Annotaties weergeven in Workspace.
 role: User, Admin
-source-git-commit: 0985a31596103a0325509a66a6bde7688e24e9bd
+exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
+source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '174'
+ht-degree: 1%
 
 ---
-
 
 # Annotaties weergeven
 
@@ -34,3 +34,9 @@ Annotaties worden iets anders weergegeven, afhankelijk van het feit of ze één 
 Aangezien u de muisaanwijzer niet boven pictogrammen in een .pdf-bestand kunt plaatsen, bevat dit bestand (na het exporteren) onder in een deelvenster notities met uitleg. Hier volgt een voorbeeld:
 
 ![](assets/ann-pdf.png)
+
+## Annotaties weergeven die niet zijn gebaseerd op datums
+
+Soms is een aantekening niet gekoppeld aan een datum, maar aan een bepaalde dimensie. In dat geval worden ze alleen in een summiere annotatie in de rechterbenedenhoek weergegeven. Hier volgt een voorbeeld:
+
+![](assets/non-date.png)
