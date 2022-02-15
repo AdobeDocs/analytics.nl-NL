@@ -2,7 +2,7 @@
 description: Leer over wanneer en waarom de gegevensschakelaars van de Analyse zullen eind-van-leven worden.
 title: Vooraankondiging van einde van levensduur voor gegevensconnectors van Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
+source-git-commit: 44b869a269fdf3a52d8ef132787a66a8284cf6c3
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 3%
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 Al meer dan tien jaar streeft Adobe Analytics ernaar de beste oplossing voor web- en marketinganalyses te bieden om aan de behoeften van klanten te voldoen. Naarmate technologie en bedrijfsbehoeften evolueren, streven we ernaar voortdurend aan de hoogste standaarden te voldoen.  Helaas voldoen de API&#39;s die deze integratie mogelijk maken, niet meer aan deze normen en zijn ze niet houdbaar in de moderne Adobe Analytics-technologie-infrastructuur.
 
-## Waarom zijn we aan het einde van deze functie?
+## Waarom hebben we deze functie aan het einde van de levensduur?
 
-Deze functie wordt aangedreven door oudere technologie die niet meer levensvatbaar of ondersteund is. De [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) is nu de plaats om de huidige integratie voor Adobe oplossingen te vinden.
+Deze functie werd aangedreven door oudere technologie die niet meer levensvatbaar of ondersteund is. De [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) is nu de plaats om de huidige integratie voor Adobe oplossingen te vinden.
 
 ## Hoe beïnvloedt het verwijderen van deze functie u?
 
@@ -107,6 +107,6 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 
 ## Uitzondering: Adobe Campaign Classic
 
-De enige uitzondering op de datum van 1 augustus 2021 is de integratie van Adobe Campaign Classic. Deze integratie zal officieel afgekeurd worden op 1 maart 2022.
+De enige uitzondering op de datum van 1 augustus 2021 is de integratie van Adobe Campaign Classic. Deze integratie zal officieel afgekeurd worden op 17 augustus 2022.
 
-Op 1 augustus 2021 wordt Adobe Campaign Classic samen met alle andere integraties verwijderd uit de interface voor gegevensconnectors. de bestaande integratie van campagnes zal echter tot 1 maart 2022 gegevens verzamelen en aan Adobe Analytics doorgeven. Op 1 maart 2022 zal de integratie ophouden gegevens te verzamelen en door te geven aan Adobe Analytics. Als u deze integratie gebruikt, moet u naar de nieuwe schakelaar Campaign-Analytics vóór 1 Maart, 2022 bewegen. Meer informatie in [Adobe Campaign Classic-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html).
+Op 1 augustus 2021 wordt Adobe Campaign Classic samen met alle andere integraties verwijderd uit de interface voor gegevensconnectors. de bestaande integratie van campagnes zal echter tot 17 augustus 2022 gegevens verzamelen en aan Adobe Analytics doorgeven. Op 17 augustus 2022 zal de integratie ophouden gegevens te verzamelen en door te geven aan Adobe Analytics. Als u deze integratie gebruikt, moet u naar de nieuwe schakelaar Campaign-Analytics vóór 17 augustus 2022 bewegen. Meer informatie in [Adobe Campaign Classic-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html).
