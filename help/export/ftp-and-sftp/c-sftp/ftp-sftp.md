@@ -2,9 +2,9 @@
 description: SFTP is een veilig protocol voor het overbrengen van gegevens dat ervoor zorgt dat niemand uw gegevens maar u kan zien. De Diensten van de Techniek van Adobe kunnen opstelling een rekening SFTP om uw gegevens veilig te behouden.
 keywords: ftp;sftp
 title: Secure File Transfer Protocol - overzicht
-uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
+feature: FTP Export
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 9%
@@ -19,9 +19,9 @@ SFTP is een veilig protocol voor het overbrengen van gegevens dat ervoor zorgt d
 
 Dit betekent dat Adobe het bestand &#39;duwen&#39; op uw servers. In wezen leveren we het aan uw eindpunt.
 
-[Gegevens ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) Warehouse en  [Analytics Data ](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html) Feedback kan gegevens via SFTP duwen.
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) en [Gegevensfeed Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html) gegevens via SFTP kunnen verzenden.
 
-De volgende Analytics-gereedschappen **kunnen**-pushgegevens niet via SFTP gebruiken:
+De volgende analysefuncties **kan** pushgegevens via SFTP:
 
 * Rapporten en analyses
 * Ad Hoc Analysis

@@ -2,15 +2,14 @@
 description: Instructies voor het instellen van een beveiligde overdracht met Adobe FTP-servers.
 keywords: ftp;sftp
 title: Verbinding maken met een Adobe FTP-account met SFTP
-uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+feature: FTP Export
+exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 11%
 
 ---
-
 
 # Verbinding maken met een Adobe FTP-account met SFTP
 
@@ -25,14 +24,14 @@ Instructies voor het instellen van een beveiligde overdracht met Adobe FTP-serve
 
    Als u in een milieu van Vensters bent, gebruik puttyGen om de sleutels tot stand te brengen.
 
-1. Maak een bestand met de naam [!DNL authorized_keys] (geen extensie).
-1. Kopieer de inhoud van de openbare sleutel naar [!DNL authorized_keys].
-1. [!DNL authorized_keys] uploaden naar een FTP-account:
+1. Een bestand met de naam [!DNL authorized_keys] (geen extensie).
+1. De inhoud van de openbare sleutel kopiëren naar [!DNL authorized_keys].
+1. Uploaden [!DNL authorized_keys] naar een FTP-account:
 
    * Maak verbinding met de Adobe FTP-account.
-   * Maak een map [!DNL .ssh] (als deze nog niet bestaat).
-   * Upload het [!DNL authorized_keys] dossier aan [!DNL .ssh] folder.
+   * Een [!DNL .ssh] directory (als deze nog niet bestaat).
+   * Upload de [!DNL authorized_keys] aan de [!DNL .ssh] directory.
 
 1. Test de verbinding door u met SFTP aan te melden bij de FTP-account.
 
-Zie [Verbinding maken met Adobe via sFTP zonder wachtwoord_ voor meer informatie.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md).
+Zie voor meer informatie [Hoe te om met Adobe via sFTP zonder een Wachtwoord te verbinden...](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md).

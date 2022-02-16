@@ -2,9 +2,9 @@
 description: Gegevens die worden verzameld op websites, mobiele apps of die worden geüpload met behulp van webservice-API's of gegevensbronnen, worden verwerkt en opgeslagen in Adobe Data Warehouse. Deze onbewerkte klikstreamgegevens vormen de gegevensset die door Adobe Analytics wordt gebruikt.
 keywords: clickStream;data feed;datafeed;Data Feed
 title: Overzicht van gegevensinvoer voor analyse
-uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
+feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 5%
@@ -23,7 +23,7 @@ Zorg ervoor dat u aan alle volgende vereisten voldoet voordat u gegevensfeeds ge
 * Een werkende implementatie die gegevens naar de servers van de Adobe- gegevensinzameling verzendt. Zie [Een implementatie valideren en publiceren](/help/implement/launch/validate-publish-prod.md) in de gebruikershandleiding Implementeren.
 * Uw account is een productbeheerder voor Analytics of uw account behoort tot een productprofiel met toegang tot gegevensfeeds.
 
-## Aan de slag
+## Steps to get started
 
 1. Meld u met uw Adobe ID aan bij [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 2. Klik op het pictogram met 9 vierkantjes rechtsboven in het venster en klik vervolgens op het gekleurde Analytics-logo.

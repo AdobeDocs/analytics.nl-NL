@@ -1,14 +1,14 @@
 ---
 title: Los de leveringstijden van het verzoek van de Data Warehouse problemen op
 description: Bepaal potentiële kwesties met een verzoek van de Data Warehouse dat leveringstijden kan verlengen.
-translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+feature: Data Warehouse
+exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
 
 ---
-
 
 # Los de leveringstijden van het verzoek van de Data Warehouse problemen op
 
@@ -25,9 +25,9 @@ Een bepaald verzoek om Data Warehouse kan overal van minder dan een uur tot vers
 
 Als u de verzoeken van het gegevenspakhuis constant lange tijd ziet, denk na veranderend uw verzoeken om het volgende aan te passen:
 
-* **Gebruik een segment met een kleiner gegevensvoorbeeld**: Hoe minder gegevens een aanvraag bevat, hoe sneller een rapport wordt geretourneerd.
-* **Voer aanvragen in stappen van 14 dagen of minder** uit: Kleinere aanvragen worden sneller verwerkt dan grote aanvragen.
-* **Gebruik minder onderverdelingen:** Vele onderverdelingen in een verzoek van de Data Warehouse verhogen exponentieel de tijd het aan proces neemt.
+* **Een segment gebruiken dat een kleiner gegevensvoorbeeld bevat**: Hoe minder gegevens een aanvraag bevat, hoe sneller een rapport wordt geretourneerd.
+* **Verzoeken uitvoeren in stappen van maximaal 14 dagen**: Kleinere aanvragen worden sneller verwerkt dan grote aanvragen.
+* **Gebruik minder onderverdelingen:** Vele onderverdelingen in een verzoek van de Data Warehouse verhogen exponentieel de tijd het neemt om te verwerken.
 
 >[!IMPORTANT]
 >
@@ -36,5 +36,5 @@ Als u de verzoeken van het gegevenspakhuis constant lange tijd ziet, denk na ver
 Als u deze types van rapporten op een geschiktere manier vereist, overweeg de volgende alternatieven:
 
 * **Analysis Workspace**: Hoewel de onbeperkte afmetingspunten niet beschikbaar zijn, omvat het bijna alle andere gebruiksgevallen die de Data Warehouse verstrekt.
-* **Gegevensinvoer**: Neemt alle ruwe gegevens in een rapportreeks dagelijks en verzendt het naar een plaats van FTP. U kunt deze gegevens vervolgens in uw eigen database importeren en query&#39;s uitvoeren om de gegevens te verkrijgen die u zoekt.
-* **Oplossing** voor Custom Engineering Services: De Diensten van de Techniek van Adobe kunnen een douaneoplossing voor uw organisatie tegen extra kosten verstrekken. Neem contact op met de accountmanager van uw organisatie voor meer informatie.
+* **Gegevensfeed**: Neemt alle ruwe gegevens in een rapportreeks dagelijks en verzendt het naar een plaats van FTP. U kunt deze gegevens vervolgens in uw eigen database importeren en query&#39;s uitvoeren om de gegevens te verkrijgen die u zoekt.
+* **Oplossing voor Custom Engineering Services**: De Diensten van de Techniek van Adobe kunnen een douaneoplossing voor uw organisatie tegen extra kosten verstrekken. Neem contact op met de accountmanager van uw organisatie voor meer informatie.

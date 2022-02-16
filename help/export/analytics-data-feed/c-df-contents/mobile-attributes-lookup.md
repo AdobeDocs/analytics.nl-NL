@@ -1,24 +1,24 @@
 ---
 title: Opzoeken van mobiele kenmerken
 description: Bestand opzoeken voor mobiele kenmerken.
-translation-type: tm+mt
-source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
+feature: Data Feeds
+exl-id: d5130716-2bf2-42ce-811e-26a5081efc18
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
 
 ---
 
-
 # Opzoeken van mobiele kenmerken
 
 Mobiele kenmerken tonen de eigenschappen van het mobiele apparaat in de hit. Dit bestand wordt weergegeven wanneer:
 
 * Dynamische zoekopdrachten worden ingeschakeld. Een medewerker van de support in uw organisatie kan contact opnemen met de klantenservice met de gewenste feed-id om dynamische zoekopdrachten mogelijk te maken.
-* De kolom `mobile_id` wordt opgenomen.
-* De kolom `user_agent` is uitgesloten. Deze uitsluiting is vereist vanwege licentieovereenkomsten met DeviceAtlas.
+* De `mobile_id` wordt opgenomen.
+* De `user_agent` kolom is uitgesloten. Deze uitsluiting is vereist vanwege licentieovereenkomsten met DeviceAtlas.
 
-Download [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv) of verwijs hier naar de lijst:
+Downloaden [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv)of verwijs hier naar de lijst:
 
 * `mobile_id`
 * `Manufacturer`

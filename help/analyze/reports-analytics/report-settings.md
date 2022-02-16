@@ -1,10 +1,10 @@
 ---
 description: Instellingen die bepalen hoe alle rapporten worden weergegeven en informatie die de standaardopties in het menu Vereenvoudigd op hun locatie afstemt.
 title: Rapport Weergave-instellingen en navigatie
-uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '1551'
 ht-degree: 7%

@@ -1,15 +1,14 @@
 ---
 description: Verstrekt gerangschikte verdelingsrapporten in Data Warehouse, die door dalende metrische waarde wordt gesorteerd.
 title: Sorteren op metrisch
-uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+feature: Data Warehouse
+exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 15%
 
 ---
-
 
 # Sorteren op metrisch
 
@@ -30,12 +29,11 @@ Verwijs naar de kolom &quot;Lay-out Rapport&quot; in deze tabel om te bepalen ho
 
 | Sorteren op metrisch? | Heeft Metrisch? | Heeft uitsplitsingen? | Datum granulariteit? | Max. aantal rijen ingesteld? | Rapportindeling |
 |---|---|---|---|---|---|
-| Nee | Ja of Nee | Ja of Nee | Ja of Nee | Ja of Nee | 3 |
-| Ja | Nee | Ja of Nee | Ja of Nee | Ja of Nee | 3 |
-| Ja | Ja | Nee | Nee | N.v.t. | 3 |
-| Ja | Ja | Nee | Ja of Nee | Nee | 3 |
+| Nee | Ja of Nee | Ja of Nee | Ja of Nee | Ja of Nee | 1 |
+| Ja | Nee | Ja of Nee | Ja of Nee | Ja of Nee | 1 |
+| Ja | Ja | Nee | Nee | N.v.t. | 1 |
+| Ja | Ja | Nee | Ja of Nee | Nee | 1 |
 | Ja | Ja | Ja | Nee | Nee | 2 |
 | Ja | Ja | Nee | Ja | Ja | 3 |
-| Ja | Ja | Ja | Ja of Nee | Ja | 1 |
+| Ja | Ja | Ja | Ja of Nee | Ja | 3 |
 | Ja | Ja | Ja | Ja | Nee | 4 |
-

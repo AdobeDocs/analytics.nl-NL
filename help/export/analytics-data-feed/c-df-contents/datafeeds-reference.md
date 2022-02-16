@@ -3,10 +3,9 @@ description: Tabelgegevens die de kolommen in de gegevensinvoer beschrijven.
 keywords: Gegevensfeed;kolommen
 subtopic: data feeds
 title: Referentie gegevenskolom
-feature: Reports & Analytics Basics
-uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
+feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 0884c5a13fba7a22589e2962a4d79f4a6525dd8a
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '3445'
 ht-degree: 0%
@@ -44,7 +43,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `click_action_type` | Niet meer gebruikt. Het type van verbinding van het erfenis hulpmiddel Clickmap.<br>0: HREF-URL<br>1: Aangepaste id<br>2: JavaScript-gebeurtenis onClick<br>3: Formulierelement | tinyint zonder teken |
 | `click_context` | Niet meer gebruikt. De paginanaam waar de verbinding voorkwam. Deel van het oude Clickmap-gereedschap. | varchar(255) |
 | `click_context_type` | Niet meer gebruikt. Geeft aan of click_context een paginanaam heeft of standaard de pagina-URL heeft.<br>0: Pagina-URL<br>1: Paginanaam | tinyint zonder teken |
-| `click_sourceid` | Niet meer gebruikt. Numerieke id voor de locatie op de pagina van de aangeklikte koppeling. Deel van het oude Clickmap-gereedschap. | int zonder teken |
+| `click_sourceid` | No longer used. Numerieke id voor de locatie op de pagina van de aangeklikte koppeling. Deel van het oude Clickmap-gereedschap. | int zonder teken |
 | `click_tag` | Niet meer gebruikt. Type HTML-element waarop is geklikt. | teken(10) |
 | `clickmaplink` | Koppeling naar Activity Map | varchar(255) |
 | `clickmaplinkbyregion` | Activity Map per regio | varchar(255) |
@@ -69,8 +68,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `duplicated_from` | Wordt alleen gebruikt in rapportsuites die de VISTA-regels voor raakkopieën bevatten. Geeft aan uit welke rapportsuite de treffer is gekopieerd. | varchar(40) |
 | `ef_id` | De `ef_id` gebruikt in Adobe Advertising Cloud-integraties. | varchar(255) |
 | `evar1 - evar250` | Aangepaste variabelen 1-250. Gebruikt in [eVar](/help/components/dimensions/evar.md) afmetingen. Elke organisatie gebruikt eVars anders. De beste plaats voor meer informatie over hoe uw organisatie respectieve eVars bevolkt zou een document van het oplossingsontwerp specifiek voor uw organisatie zijn. | varchar(255) |
-| `event_list` | Door komma&#39;s gescheiden lijst met numerieke id&#39;s die gebeurtenissen vertegenwoordigen die tijdens de hit worden geactiveerd. Bevat zowel standaardgebeurtenissen als aangepaste gebeurtenissen 1-1000. Gebruiksmiddelen `event.tsv` opzoeken. | text |
-| `exclude_hit` | Markering die aangeeft dat de treffer van rapportage is uitgesloten. De `visit_num` wordt niet verhoogd voor uitgesloten treffers.<br>1: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>2: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>3: Niet meer gebruikt. Uitsluiting van gebruikersagent<br>4: Uitsluiting op basis van IP-adres<br>5: Ontbrekende informatie over digitale raakgeluiden, zoals `page_url`, `pagename`, `page_event`, of `event_list`<br>6: JavaScript heeft hit bij proces niet correct verwerkt<br>7: Accountspecifieke uitsluiting, zoals in een VISTA-regeling<br>8: Niet gebruikt. Alternatieve accountspecifieke uitsluiting.<br>9: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>10: Ongeldige valutacode<br>11: Druk op het ontbreken van een tijdstempel in een rapportsuite met alleen een tijdstempel of op een hit die een tijdstempel bevat in een rapportsuite zonder een tijdstempel<br>12: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>13: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>14: Doeltreffer die niet overeenkomt met een treffer voor Analytics<br>15: Momenteel niet gebruikt.<br>16: Advertising Cloud-hit die niet overeenkomt met een Analytics-hit | tinyint zonder teken |
+| `event_list` | Door komma&#39;s gescheiden lijst met numerieke id&#39;s die gebeurtenissen vertegenwoordigen die tijdens de hit worden geactiveerd. Includes both default events and custom events 1-1000. Gebruiksmiddelen `event.tsv` opzoeken. | text |
+| `exclude_hit` | Markering die aangeeft dat de treffer van rapportage is uitgesloten. De `visit_num` wordt niet verhoogd voor uitgesloten treffers.<br>1: Niet gebruikt. Part of a scrapped feature.<br>2: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>3: Niet meer gebruikt. Uitsluiting van gebruikersagent<br>4: Uitsluiting op basis van IP-adres<br>5: Ontbrekende informatie over digitale raakgeluiden, zoals `page_url`, `pagename`, `page_event`, of `event_list`<br>6: JavaScript heeft hit bij proces niet correct verwerkt<br>7: Accountspecifieke uitsluiting, zoals in een VISTA-regeling<br>8: Niet gebruikt. Alternatieve accountspecifieke uitsluiting.<br>9: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>10: Ongeldige valutacode<br>11: Druk op het ontbreken van een tijdstempel in een rapportsuite met alleen een tijdstempel of op een hit die een tijdstempel bevat in een rapportsuite zonder een tijdstempel<br>12: Niet gebruikt. Part of a scrapped feature.<br>13: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>14: Doeltreffer die niet overeenkomt met een treffer voor Analytics<br>15: Momenteel niet gebruikt.<br>16: Advertising Cloud-hit die niet overeenkomt met een Analytics-hit | tinyint zonder teken |
 | `first_hit_page_url` | De allereerste URL van de bezoeker. | varchar(255) |
 | `first_hit_pagename` | Variabele gebruikt in de [Invoerpagina origineel](/help/components/dimensions/entry-dimensions.md) dimensie. De oorspronkelijke naam van de ingangspagina van de bezoeker. | varchar(100) |
 | `first_hit_ref_domain` | Variabele gebruikt in de [Origineel verwijzend domein](/help/components/dimensions/original-referring-domain.md) dimensie. Gebaseerd op `first_hit_referrer`. Het allereerste verwijzende domein van de bezoeker. | varchar(100) |
@@ -94,7 +93,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `j_jscript` | Versie van JavaScript wordt ondersteund door de browser. | teken(5) |
 | `java_enabled` | Markering die aangeeft of Java is ingeschakeld. <br>Y: Ingeschakeld <br>N: Uitgeschakeld <br>U: Onbekend | teken(1) |
 | `javascript` | Opzoeken-id van JavaScript-versie, gebaseerd op `j_jscript`. Gebruikt opzoektabel. | tinyint zonder teken |
-| `language` | Numerieke id van taal. Gebruiksmiddelen `languages.tsv` opzoektabel. | small int zonder teken |
+| `language` | Numerieke id van taal. Gebruiksmiddelen `languages.tsv` opzoektabel. | smallint unsigned |
 | `last_hit_time_gmt` | Tijdstempel (in Unix-tijd) van de voorgaande hit. Wordt gebruikt om de [Dagen sinds laatste bezoek](/help/components/dimensions/days-since-last-visit.md) dimensie. | int |
 | `last_purchase_num` | Variabele gebruikt in de [Klantenloyaliteit](/help/components/dimensions/customer-loyalty.md) dimensie. Het aantal eerdere aankopen dat de bezoeker heeft gedaan. <br>0: Geen eerdere aankopen (geen klant) <br>1: 1 eerdere aankoop (nieuwe klant) <br>2: 2 eerdere aankopen (retourklant) <br>3: 3 of meer eerdere aankopen (loyale klant) | int zonder teken |
 | `last_purchase_time_gmt` | Gebruikt in de [Dagen sinds laatste aankoop](/help/components/dimensions/days-since-last-purchase.md) dimensie. Tijdstempel (in Unix-tijd) van de laatste aanschaf. Voor eerste aankopen en bezoekers die nog niet eerder een aankoop hebben gedaan, is deze waarde `0`. | int |
@@ -117,10 +116,10 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `mobilecampaignmedium` | Marketing medium, zoals banner of e-mail. Bevolkt door Mobile App Acquisition. | varchar(255) |
 | `mobilecampaignname` | Naam van de campagne, die ook in de campagnevariabele wordt opgeslagen. Bevolkt door Mobile App Acquisition. | varchar(255) |
 | `mobilecampaignsource` | Originele referentie, zoals nieuwsbrief of sociaal medianetwerk. Bevolkt door Mobile App Acquisition. | varchar(255) |
-| `mobilecampaignterm` | Betaalde trefwoorden of andere termen die u met deze overname wilt bijhouden. Bevolkt door Mobile App Acquisition. | varchar(255) |
+| `mobilecampaignterm` | Paid keywords or other terms you want to track with this acquisition. Bevolkt door Mobile App Acquisition. | varchar(255) |
 | `mobiledayofweek` | Het nummer van de weekdag waarop de app is gestart. | varchar(255) |
 | `mobiledayssincefirstuse` | Aantal dagen sinds de app voor de eerste keer is uitgevoerd. | varchar(255) |
-| `mobiledayssincelastupgrade` | Verzameld van de variabele van contextgegevens a.DaysSinceLastUpgrade. Het aantal dagen dat is verstreken sinds de vorige sessie. | varchar(255) |
+| `mobiledayssincelastupgrade` | Verzameld van de variabele van contextgegevens a.DaysSinceLastUpgrade. The number of days that have passed since the previous session. | varchar(255) |
 | `mobiledayssincelastuse` | Aantal dagen sinds de app voor de laatste keer is uitgevoerd. | varchar(255) |
 | `mobiledeeplinkid` | Verzameld op basis van de variabele contextgegevens `a.deeplink.id`. Wordt gebruikt in overnamerapporten als een identifier voor een koppeling naar een mobiele overname. | varchar(255) |
 | `mobiledevice` | Naam van mobiel apparaat. In iOS wordt de notatie opgeslagen als een door komma&#39;s gescheiden tekenreeks van 2 cijfers. Het eerste getal vertegenwoordigt de apparaatgeneratie en het tweede getal vertegenwoordigt de apparaatfamilie. | varchar(255) |
@@ -143,8 +142,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `mobilerelaunchcampaignmedium` | Mobiele services, startmedium | varchar(255) |
 | `mobilerelaunchcampaignsource` | Bron voor mobiele services | varchar(255) |
 | `mobilerelaunchcampaignterm` | Starten van mobiele services | varchar(255) |
-| `mobilerelaunchcampaigntrackingcode` | Verzameld op basis van de variabele contextgegevens `a.launch.campaign.trackingcode`. Wordt gebruikt in aankopen als de code voor het bijhouden van de opstartiecampagne. | varchar(255) |
-| `mobileresolution` | Resolutie van het mobiele apparaat. `[Width] x [Height]` in pixels. | varchar(255) |
+| `mobilerelaunchcampaigntrackingcode` | Verzameld op basis van de variabele contextgegevens `a.launch.campaign.trackingcode`. Used in acquisition as the tracking code for launch campaign. | varchar(255) |
+| `mobileresolution` | Resolution of the mobile device. `[Width] x [Height]` in pixels. | varchar(255) |
 | `monthly_visitor` | Markering die aangeeft dat de bezoeker uniek is voor de huidige maand. | tinyint zonder teken |
 | `mvvar1` - `mvvar3` | Variabele waarden weergeven. Bevat een lijst met gescheiden waarden, afhankelijk van de implementatie. De `post_mvvar1` - `post_mvvar3` kolommen vervangen door het originele scheidingsteken `--**--`. | text |
 | `namespace` | Niet gebruikt. Onderdeel van een gesloopt onderdeel. | varchar(50) |
@@ -156,7 +155,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `page_event_var2` | Wordt alleen gebruikt in aanvragen voor het bijhouden van koppelingen. De aangepaste naam (indien opgegeven) van de koppeling. | varchar(100) |
 | `page_event_var3` | Niet meer gebruikt. Bevat gegevens van de module Enquête en Media. Bevolkt oudere videoverslagen in vorige versies van Adobe Analytics. | text |
 | `page_type` | Wordt gebruikt om de [Pagina&#39;s niet gevonden](/help/components/dimensions/pages-not-found.md) dimensie. Wordt uitsluitend gebruikt voor 404 pagina&#39;s. Deze variabele moet leeg zijn of de waarde bevatten `ErrorPage`. | teken(20) |
-| `page_url` | De URL van de hit. Let op: `post_page_url` wordt gestript voor het volgen van verbinding beeldverzoeken en gebruikt een gegevenstype van varchar (255). | text |
+| `page_url` | De URL van de hit. Note that `post_page_url` is stripped for link tracking image requests and uses a data type of varchar(255). | text |
 | `pagename` | Wordt gebruikt om de [Pagina](/help/components/dimensions/page.md) dimensie. Als de [`pagename`](/help/implement/vars/page-vars/pagename.md) variabele is leeg, Analytics gebruikt `page_url` in plaats daarvan. | varchar(100) |
 | `paid_search` | Markering die wordt ingesteld als de treffer overeenkomt met de detectie van betaalde zoekopdrachten. | tinyint zonder teken |
 | `partner_plugins` | Niet gebruikt. Onderdeel van een gesloopt onderdeel. | varchar(255) |
@@ -178,8 +177,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `s_kwcid` | Trefwoord-id gebruikt in Adobe Advertising Cloud-integratie. | varchar(255) |
 | `s_resolution` | Waarde van resolutie voor onbewerkt scherm. Opgenomen met de JavaScript-functie `screen.width x screen.height`. | teken(20) |
 | `search_engine` | Numerieke id die staat voor de zoekengine die de bezoeker naar uw site heeft doorverwezen. Gebruiksmiddelen `search_engines.tsv` opzoeken. | small int zonder teken |
-| `search_page_num` | Wordt gebruikt door de [Alle zoekpaginanummers](/help/components/dimensions/all-search-page-rank.md) dimensie. Hiermee geeft u aan op welke pagina met zoekresultaten uw site is weergegeven voordat de gebruiker op uw site heeft geklikt. | small int zonder teken |
-| `secondary_hit` | Markering die secundaire treffers volgt. Doorgaans zijn deze regels afkomstig van taggen met meerdere suite en VISTA-regels die treffers kopiëren. | tinyint zonder teken |
+| `search_page_num` | Used by the [All Search Page Rank](/help/components/dimensions/all-search-page-rank.md) dimension. Hiermee geeft u aan op welke pagina met zoekresultaten uw site is weergegeven voordat de gebruiker op uw site heeft geklikt. | small int zonder teken |
+| `secondary_hit` | Flag that tracks secondary hits. Typically originates from multi-suite tagging and VISTA rules that copy hits. | tinyint zonder teken |
 | `service` | Niet gebruikt. Gebruiken `page_event` in plaats daarvan. | teken(2) |
 | `socialaccountandappids` | Niet meer gebruikt. Sociale account en toepassings-id&#39;s | varchar(255) |
 | `socialassettrackingcode` | Niet meer gebruikt. Variabele voor sociale campagne | varchar(255) |
@@ -202,8 +201,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `tnt` | Wordt gebruikt in Adobe Target-integratie. Vertegenwoordigt alle tests momenteel gekwalificeerd voor. Indeling is: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | text |
 | `tnt_action` | Wordt gebruikt in Adobe Target-integratie. Geeft alle tests aan waarvoor de hit geschikt is. | text |
 | `tnt_post_vista` | Niet meer gebruikt. Gebruiken `post_tnt` in plaats daarvan. | text |
-| `transactionid` | Een unieke id waarbij verschillende gegevenspunten later via gegevensbronnen kunnen worden geüpload. Verzameld met de [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variabele. | text |
-| `truncated_hit` | Een markering die aangeeft dat de afbeeldingsaanvraag is afgebroken. Geeft aan dat een gedeeltelijke hit is ontvangen. <br>Y: Hit was afgekapt; gedeeltelijke treffer ontvangen <br>N: Hit is niet afgekapt; volledige hit ontvangen | teken(1) |
+| `transactionid` | A unique identifier where various data points can be uploaded later via data sources. Verzameld met de [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variabele. | text |
+| `truncated_hit` | A flag indicating that the image request was truncated. Geeft aan dat een gedeeltelijke hit is ontvangen. <br>Y: Hit was afgekapt; gedeeltelijke treffer ontvangen <br>N: Hit is niet afgekapt; volledige hit ontvangen | teken(1) |
 | `ua_color` | Niet meer gebruikt. Eerder gebruikt als fallback voor kleurdiepte. | teken(20) |
 | `ua_os` | Niet meer gebruikt. Voorheen gebruikt als fallback voor besturingssysteem. | teken(80) |
 | `ua_pixels` | Niet meer gebruikt. Vroeger gebruikt als fallback voor browserhoogte en -breedte. | teken(20) |

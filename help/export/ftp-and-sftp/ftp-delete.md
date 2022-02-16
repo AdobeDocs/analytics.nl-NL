@@ -2,15 +2,14 @@
 description: Met het FTP-beleid Adobe wordt automatisch de toegang uitgeschakeld tot FTP-accounts die 90 opeenvolgende dagen inactief blijven.
 keywords: ftp;sftp
 title: FTP-gegevens en FTP-accounts verwijderen
-uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+feature: FTP Export
+exl-id: accf2f8d-c22c-4684-ba85-73a286325d0c
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 5%
 
 ---
-
 
 # FTP-gegevens en FTP-accounts verwijderen
 
@@ -28,4 +27,3 @@ Om ons in dit proces te helpen, en ervoor te zorgen blijft het verbeterde milieu
 
 * Verwijder uitgaande gegevens uit het FTP-systeem nadat de gegevens zijn overgebracht naar de interne omgeving. Adobe identificeert en verwijdert eventuele bestanden die na 90 dagen op het systeem blijven.
 * Adobe op de hoogte stellen wanneer FTP-accounts niet meer nodig zijn, zodat ze kunnen worden gedeactiveerd en verwijderd.
-

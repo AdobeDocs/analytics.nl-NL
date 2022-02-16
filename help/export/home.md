@@ -2,10 +2,10 @@
 title: Handleiding voor exporteren van analysemogelijkheden
 description: In deze handleiding worden manieren beschreven om gegevens uit Adobe Analytics op te halen met behulp van gegevensfeeds en Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 81%
+source-wordcount: '173'
+ht-degree: 76%
 
 ---
 
@@ -17,6 +17,7 @@ In deze handleiding worden manieren beschreven waarop u gegevens uit Adobe Analy
 
 * **Gegevensfeeds:** Een uurs- of dagelijkse export van onbewerkte gegevens ontvangen. Elke rij is een individuele klap, en elke kolom is een variabele. Gegevensfeeds worden doorgaans naar FTP-sites verzonden.
 * **Data Warehouse:** Gebruik een aanvraagwizard om een spreadsheetuitvoer van gegevens op te halen. Het Data Warehouse gebruikt een verschillende verwerkingsarchitectuur om het even welk aantal rijen en om het even welk aantal unieke waarden toe te staan.
+* **FTP en SFTP:** Aanbevolen procedures voor het gebruik van FTP en SFTP met Adobe
 
 Hier volgt een video-overzicht van Adobe Analytics:
 

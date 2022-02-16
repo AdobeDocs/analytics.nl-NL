@@ -2,15 +2,14 @@
 description: Verbinding maken zonder wachtwoord met FTP-accounts is alleen mogelijk met zowel een SFTP-verbinding als een alternatieve verificatiemethode. Dit omvat een reeks van twee dossiers (één om op de rekening van FTP te verblijven en andere om op uw computer te verblijven) genoemd een openbare en privé zeer belangrijke combinatie.
 keywords: ftp;sftp
 title: Verbinding maken met Adobe via SFTP zonder wachtwoord
-uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+feature: FTP Export
+exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 2%
 
 ---
-
 
 # Verbinding maken met Adobe via SFTP zonder wachtwoord
 
@@ -18,7 +17,7 @@ Verbinding maken zonder wachtwoord met FTP-accounts is alleen mogelijk met zowel
 
 Dit is niet minder veilig dan wachtwoordverificatie. Het is een andere vorm van het voor authentiek verklaren die niet de gebruiker vereist om een wachtwoord in te typen telkens. Als deze bestanden correct worden gebruikt, kan de computer zich aanmelden zonder dat een wachtwoord hoeft te worden opgegeven. Dit moet per computer worden ingesteld. Alle andere verbindingen die deze zeer belangrijke dossiers niet gebruiken moeten nog een wachtwoord specificeren.
 
-SFTP (Secure File Transfer Protocol) wordt vereist door sommige clients voor het verzenden van vertrouwelijke gegevens. Een SFTP-verbinding is veiliger dan een normale FTP-verbinding omdat gecodeerde gegevenscommunicatie hierdoor mogelijk is. Standaard zijn alle Adobe FTP-accounts gereed voor SFTP. Een verbinding SFTP kan met een geldige gebruikersbenaming en een wachtwoord worden geopend door een cliënt van SFTP te gebruiken die op haven 22 (normale verbindingen van FTP verbindt die niet veilige gebruikshaven 21 zijn).
+SFTP (Secure File Transfer Protocol) wordt vereist door sommige clients voor het verzenden van vertrouwelijke gegevens. Een SFTP-verbinding is veiliger dan een normale FTP-verbinding omdat gecodeerde gegevenscommunicatie hierdoor mogelijk is. Standaard zijn alle Adobe FTP-accounts gereed voor SFTP. Een verbinding SFTP kan met een geldige gebruikersbenaming en een wachtwoord worden geopend door een cliënt van SFTP te gebruiken die op haven 22 (normale verbindingen van FTP verbindt die niet-veilige gebruikshaven 21 zijn).
 
 Als u SFTP gebruikt, is het mogelijk om onder specifieke omstandigheden persoonlijke sleutels te gebruiken om zonder wachtwoord verbinding te maken met de account. Met deze methode kan de computer sleutelbestanden gebruiken voor verificatie in plaats van gebruikelijke wachtwoordverificatie. Dit betekent dat alleen de computer met de persoonlijke sleutel verbinding kan maken zonder wachtwoord. Alle andere computers/gebruikers moeten nog wachtwoordauthentificatie gebruiken (tenzij de privé sleutels opstelling ook op deze andere computers zijn).
 
@@ -65,7 +64,7 @@ Als u SFTP gebruikt, is het mogelijk om onder specifieke omstandigheden persoonl
 
 1. Upload Public key naar FTP-account (klant).
 
-   Upload en test de openbare sleutel. Maak verbinding met de FTP-account van Adobe en maak een [!DNL .ssh]-map, als deze nog niet bestaat. Upload het [!DNL authorized_keys] dossier aan deze [!DNL .ssh] folder. Dit kan op verschillende manieren worden gedaan (opdrachtregel, grafische FTP-client, enzovoort). Het enige wat nodig is, is de mogelijkheid om een map te maken en een bestand te uploaden.
+   Upload en test de openbare sleutel. Maak verbinding met de Adobe FTP-account en maak een [!DNL .ssh] directory, als deze nog niet bestaat. Upload de [!DNL authorized_keys] bestand naar dit bestand [!DNL .ssh] directory. Dit kan op verschillende manieren worden gedaan (opdrachtregel, grafische FTP-client, enzovoort). Het enige wat nodig is, is de mogelijkheid om een map te maken en een bestand te uploaden.
 
    Hier, opnieuw, is een voorbeeld van het doen van dit gebruikend een shell van UNIX.
 
@@ -98,4 +97,3 @@ Als u SFTP gebruikt, is het mogelijk om onder specifieke omstandigheden persoonl
    
    sftp>
    ```
-

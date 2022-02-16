@@ -2,15 +2,14 @@
 description: Voor alle Adobe FTP-accounts geldt een maximale gegevensopslag van 2 GB (of 63 bestanden). De bestanden worden gedurende 90 dagen op deze FTP-accounts bewaard.
 keywords: ftp;sftp
 title: FTP-beperkingen en gegevensopslag
-uuid: deb807c9-e988-4587-b518-881857cad1cf
-translation-type: tm+mt
-source-git-commit: 19de1233201bfeba88014209f5d288db67787f83
+feature: FTP Export
+exl-id: ffd6bdcb-ebca-4ad3-b467-5ab2b984ca72
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 12%
 
 ---
-
 
 # FTP-beperkingen en gegevensopslag
 

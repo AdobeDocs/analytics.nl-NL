@@ -1,10 +1,10 @@
 ---
 description: Met de functie Metrische gegevens bewerken in meerdere verzoeken kunt u eenvoudig metrische gegevens toevoegen, verwijderen of vervangen in een bestaande aanvraag of in een groep verzoeken.
 title: Cijfers bewerken in meerdere aanvragen
-uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
+feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 4%
@@ -20,14 +20,14 @@ Met de functie Metrische gegevens bewerken in meerdere verzoeken kunt u eenvoudi
 Houd rekening met het volgende:
 
 * Metrische gegevens kunnen alleen worden toegevoegd aan aanvragen voor draaitermindeling. Als sommige van de geselecteerde aanvragen Aangepaste layouts zijn, kunnen geen metriek worden toegevoegd. De reden is dat Report Builder niet weet waar in het spreadsheet om nieuwe metrisch te plaatsen, aangezien de lay-out wordt aangepast.
-* Als u alleen Aangepaste layout-aanvragen hebt geselecteerd, is de optie **[!UICONTROL Add Metric/s]** niet beschikbaar.
+* Als u alleen Aangepaste layout-aanvragen hebt geselecteerd, worden de **[!UICONTROL Add Metric/s]** is niet beschikbaar.
 * Door het toevoegen van metrisch/s wordt een aanvraag groter en kan dit overlappen met een ander verzoek. Zorg ervoor dat er voldoende ruimte is voor uw verzoek om metriek toe te voegen.
 * Als de toegevoegde metrische waarde al aanwezig is in een van de geselecteerde aanvragen, wordt deze niet toegevoegd aan dat verzoek.
 
 Een of meer metriek toevoegen:
 
-1. Selecteer een of meer verzoeken in Excel en klik met de rechtermuisknop om **[!UICONTROL Edit Metrics]** te selecteren. (Of klik op **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** om de groep te wijzigen verzoeken te selecteren.)
-1. Selecteer **[!UICONTROL Add Metric(s)]**en selecteer de metriek om toe te voegen.
+1. Selecteer een of meer aanvragen in Excel en klik met de rechtermuisknop om deze te selecteren **[!UICONTROL Edit Metrics]**. (Of klik op **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** om de groep verzoeken te selecteren die moet worden gewijzigd.)
+1. Selecteren **[!UICONTROL Add Metric(s)]**en selecteer de metriek om toe te voegen.
 
    ![](assets/add_metric.png)
 
@@ -48,9 +48,9 @@ Houd rekening met het volgende:
 
 Een metrisch object vervangen
 
-1. Selecteer een of meer verzoeken in Excel en klik met de rechtermuisknop om **[!UICONTROL Edit Metrics]** te selecteren. (Of klik op **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** om de groep te wijzigen verzoeken te selecteren.)
+1. Selecteer een of meer aanvragen in Excel en klik met de rechtermuisknop om deze te selecteren **[!UICONTROL Edit Metrics]**. (Of klik op **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** om de groep verzoeken te selecteren die moet worden gewijzigd.)
 
-1. Selecteer **[!UICONTROL Replace Metric]**.
+1. Selecteren **[!UICONTROL Replace Metric]**.
 
    ![](assets/replace_metric.png)
 
@@ -68,9 +68,9 @@ Houd rekening met het volgende:
 
 Metrische gegevens verwijderen:
 
-1. Selecteer een of meer verzoeken in Excel en klik met de rechtermuisknop om **[!UICONTROL Edit Metrics]** te selecteren. (Of klik op **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** om de groep te wijzigen verzoeken te selecteren.)
+1. Selecteer een of meer aanvragen in Excel en klik met de rechtermuisknop om deze te selecteren **[!UICONTROL Edit Metrics]**. (Of klik op **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** om de groep verzoeken te selecteren die moet worden gewijzigd.)
 
-1. Selecteer **[!UICONTROL Remove Metric(s)]**.
+1. Selecteren **[!UICONTROL Remove Metric(s)]**.
 
    ![](assets/remove_metric.png)
 

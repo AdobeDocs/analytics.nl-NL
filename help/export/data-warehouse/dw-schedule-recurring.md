@@ -1,15 +1,14 @@
 ---
 description: De verzoeken van het programma in Data Warehouse om op een herhalende basis te lopen.
 title: Een terugkerend verzoek plannen
-uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Data Warehouse
+exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 26%
 
 ---
-
 
 # Een terugkerend verzoek plannen
 
@@ -19,7 +18,7 @@ Om verzoeken van de Data Warehouse voor Dagelijks/Maandelijks/Jaarlijks te plann
 
 1. Selecteer onder [!UICONTROL Reporting Date] de optie **[!UICONTROL Preset]**.
 
-1. Klik onder [!UICONTROL Schedule Delivery] op **[!UICONTROL Advanced Delivery Options]**.
+1. Onder [!UICONTROL Schedule Delivery], klikt u op **[!UICONTROL Advanced Delivery Options]**.
 
 1. Ga naar het tabblad Planningsopties en selecteer **[!UICONTROL Schedule for later]**.
 1. Selecteer de gewenste instellingen voor [!UICONTROL Delivery Frequency] en [!UICONTROL End Delivery Options].
@@ -27,4 +26,3 @@ Om verzoeken van de Data Warehouse voor Dagelijks/Maandelijks/Jaarlijks te plann
    ![](assets/dw_schedule.png)
 
 1. Klik op **[!UICONTROL Schedule]**.
-

@@ -2,21 +2,19 @@
 description: Informatie over speciale tekens die worden gebruikt in de gegevensfeed.
 keywords: Gegevensfeed;taak;speciale tekens;hit_data;multi-getaxeerde variabelen;events_list;products_list;mvars
 subtopic: data feeds
-title: Speciale tekens in gegevensfeeds
-feature: Grondbeginselen van rapporten en analyses
-uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
+title: Special characters in data feeds
+feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '341'
 ht-degree: 1%
 
 ---
 
-# Speciale tekens in gegevensfeeds
+# Special characters in data feeds
 
-Adobe gebruikt escape-logica om ervoor te zorgen dat waarden die naar gegevensverzamelingsservers worden verzonden, geen bestanden voor gegevensinvoer beschadigen of negatief beïnvloeden. De volgende karakters worden gereserveerd door Adobe voor de volgende doeleinden in `hit_data.tsv`.
+Adobe gebruikt escape-logica om ervoor te zorgen dat waarden die naar gegevensverzamelingsservers worden verzonden, geen bestanden voor gegevensinvoer beschadigen of negatief beïnvloeden. De volgende tekens worden door Adobe gereserveerd voor de volgende doeleinden in `hit_data.tsv`.
 
 ## Speciale tekens in een kolom
 
@@ -24,15 +22,15 @@ Adobe gebruikt escape-logica om ervoor te zorgen dat waarden die naar gegevensve
 |--- |--- |
 | `\t` | Geeft een tab aan. Hiermee wordt het einde van een kolom of gegevensveld gemarkeerd. |
 | `\n` | Vertegenwoordigt een nieuwe regel. Hiermee markeert u het einde van een rij of treffer. |
-| `\` | Backslash. Hiermee worden tekens verwijderd als deze worden verzonden als onderdeel van gegevensverzameling. |
+| `\` | Backslash. Escapes characters when sent as part of data collection. |
 
-Wanneer deze gereserveerde waarden worden voorafgegaan door een backslash, zijn ze verzonden als onderdeel van gegevensverzameling.
+When these reserved values are preceded by a backslash, they were sent as part of data collection.
 
 | Teken | Beschrijving |
 |--- |--- |
-| `\\t` | De waarde &#39;`\t`&#39; is verzonden tijdens de gegevensverzameling, en wordt beschermd door Adobe. |
-| `\\n` | De waarde &#39;`\n`&#39; is verzonden tijdens de gegevensverzameling, en wordt beschermd door Adobe. |
-| `\\` | De waarde &#39;`\`&#39; is verzonden tijdens de gegevensverzameling, en wordt beschermd door Adobe. |
+| `\\t` | De waarde &#39;`\t`&#39; is verzonden tijdens gegevensverzameling, beschermd door Adobe. |
+| `\\n` | De waarde &#39;`\n`&#39; is verzonden tijdens gegevensverzameling, beschermd door Adobe. |
+| `\\` | De waarde &#39;`\`&#39; is verzonden tijdens gegevensverzameling, beschermd door Adobe. |
 
 Een bezoeker van uw site gebruikt bijvoorbeeld een interne zoekopdracht en zoekt naar &quot;zoeken\ntekenreeks&quot;. U vult eVar1 met &quot;zoek\ntekenreeks&quot; en verzendt die waarde naar Adobe. Adobe ontvangt deze hit en escapeert de nieuwe regel die in de tekenreeks is opgenomen. De werkelijke waarde die in onbewerkte gegevens wordt geplaatst, is &quot;search\\nstring&quot;.
 
@@ -43,15 +41,15 @@ De volgende tekens hebben een speciale betekenis in kolommen die meerdere waarde
 | Teken | Beschrijving |
 |--- |--- |
 | `,` | Komma. Geeft het einde van een individuele waarde aan. Hiermee worden de tekenreeksen van producten, gebeurtenis-id&#39;s of andere waarden gescheiden. |
-| `;` | Halfdubbele punt. Geeft het einde van een individuele waarde in `product_list` aan. Hiermee scheidt u velden binnen één productreeks. |
-| `=` | Gelijk aan teken. Wijst een waarde toe aan een gebeurtenis in `product_list`. |
+| `;` | Halfdubbele punt. Vertegenwoordigt het einde van een afzonderlijke waarde in `product_list`. Hiermee scheidt u velden binnen één productreeks. |
+| `=` | Gelijk aan teken. Hiermee wordt een waarde toegewezen aan een gebeurtenis in `product_list`. |
 | `^` | Caret. Hiermee worden tekens verwijderd als deze worden verzonden als onderdeel van gegevensverzameling. |
 
 Wanneer deze gereserveerde waarden worden voorafgegaan door een invoegpunt, zijn ze verzonden als onderdeel van de gegevensverzameling.
 
 | Teken | Beschrijving |
 |--- |--- |
-| `^,` | De waarde &#39;`,`&#39; is verzonden tijdens de gegevensverzameling, en wordt beschermd door Adobe. |
-| `^;` | De waarde &#39;`;`&#39; is verzonden tijdens de gegevensverzameling, en wordt beschermd door Adobe. |
-| `^=` | De waarde &#39;`=`&#39; is verzonden tijdens de gegevensverzameling, en wordt beschermd door Adobe. |
-| `^^` | De waarde &#39;`^`&#39; is verzonden tijdens de gegevensverzameling, en wordt beschermd door Adobe. |
+| `^,` | The value &#39;`,`&#39; was sent during data collection, escaped by Adobe. |
+| `^;` | De waarde &#39;`;`&#39; is verzonden tijdens gegevensverzameling, beschermd door Adobe. |
+| `^=` | De waarde &#39;`=`&#39; is verzonden tijdens gegevensverzameling, beschermd door Adobe. |
+| `^^` | De waarde &#39;`^`&#39; is verzonden tijdens gegevensverzameling, beschermd door Adobe. |

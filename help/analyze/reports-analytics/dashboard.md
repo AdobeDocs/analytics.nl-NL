@@ -2,10 +2,10 @@
 description: Een dashboard is een verzameling miniatuurrapporten die rapportagelijsten worden genoemd. Een dashboard is vooral handig als het verwante rapporten bevat die u volledige overzichten geven van bepaalde aspecten van uw site, zoals methoden, bezoekersprofielen enzovoort.
 subtopic: Dashboards
 title: Dashboards en rapporten
-uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '1692'
 ht-degree: 1%
@@ -18,11 +18,11 @@ Een dashboard is een verzameling miniatuurrapporten die rapportagelijsten worden
 
 ## Dashboards en rapporten {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
 
-Een dashboard is een verzameling miniatuurrapporten met de naam *`reportlets`*. Een dashboard is vooral handig als het verwante rapporten bevat die u volledige overzichten geven van bepaalde aspecten van uw site, zoals methoden, bezoekersprofielen enzovoort.
+Een dashboard is een verzameling miniatuurrapporten die *`reportlets`*. Een dashboard is vooral handig als het verwante rapporten bevat die u volledige overzichten geven van bepaalde aspecten van uw site, zoals methoden, bezoekersprofielen enzovoort.
 
-U kunt de meeste marketingrapporten toevoegen aan een dashboard, inclusief grafisch intensieve rapporten zoals [!UICONTROL Fallout Report], [!UICONTROL Conversion Funnel Report] en [!UICONTROL Pathfinder Report].
+U kunt de meeste marketingrapporten toevoegen aan een dashboard, inclusief grafisch intensieve rapporten zoals de [!UICONTROL Fallout Report], [!UICONTROL Conversion Funnel Report]en de [!UICONTROL Pathfinder Report].
 
-U kunt een dashboard ook instellen als bestemmingspagina, dashboards delen met andere gebruikers, en hen voor levering plannen. Als u een dashboard (of een bladwijzer) niet instelt als bestemmingspagina, wordt het [!UICONTROL My Recommended Reports] dashboard weergegeven. **[!UICONTROL My Recommended Reports]** toont het  **[!UICONTROL Key Metrics]** rapport plus uw vijf het vaakst bekeken rapporten. Het is dynamisch en gebaseerd op de werkelijke rapporten die u het meest bekijkt.
+U kunt een dashboard ook instellen als bestemmingspagina, dashboards delen met andere gebruikers, en hen voor levering plannen. Als u een dashboard (of een bladwijzer) niet instelt als openingspagina, wordt [!UICONTROL My Recommended Reports] dashboard wordt weergegeven. **[!UICONTROL My Recommended Reports]** toont de **[!UICONTROL Key Metrics]** plus uw vijf meest bekeken rapporten. Het is dynamisch en gebaseerd op de werkelijke rapporten die u het meest bekijkt.
 
 Houd er rekening mee dat bepaalde vaak weergegeven rapporten niet kunnen worden onderbroken en niet kunnen worden weergegeven. Deze omvatten:
 
@@ -35,18 +35,18 @@ Houd er rekening mee dat bepaalde vaak weergegeven rapporten niet kunnen worden 
 
 >[!NOTE]
 >
->Het dashboard **[!UICONTROL Site Overview]** wordt niet meer vermeld in Rapporten &amp; Analytics. Er zijn echter nog een paar omstandigheden waarin u enkele of alle verslagen zult zien.
+>De **[!UICONTROL Site Overview]** Het dashboard wordt niet meer vermeld in Rapporten &amp; Analytics. Er zijn echter nog een paar omstandigheden waarin u enkele of alle verslagen zult zien.
 
-* Als u bijvoorbeeld slechts drie vaak bekeken rapporten hebt, zullen Rapporten &amp; Analytics twee rapporten van het dashboard van het Overzicht van de Plaats nemen om **[!UICONTROL My Recommended Reports]** dashboard te voltooien.
-* Nieuwe de rapportreeksen van het merk zullen ook aanvankelijk nog de rapporten van het Overzicht van de Plaats omvatten, tot zij door uw vaak bekeken rapporten worden vervangen. Toch wordt het dashboard nu **[!UICONTROL My Recommended Reports]** genoemd.
+* Als u bijvoorbeeld slechts drie vaak bekeken rapporten hebt, nemen Rapporten en Analytics twee rapporten van het dashboard Overzicht van de Site om het **[!UICONTROL My Recommended Reports]** dashboard.
+* Nieuwe de rapportreeksen van het merk zullen ook aanvankelijk nog de rapporten van het Overzicht van de Plaats omvatten, tot zij door uw vaak bekeken rapporten worden vervangen. Toch wordt het dashboard nu **[!UICONTROL My Recommended Reports]**.
 
 Naast de dashboards die u creeert, zijn de volgende voorverpakte dashboards inbegrepen voor elke gebruiker:
 
-**[!UICONTROL Components]>  [!UICONTROL All components] >  [!UICONTROL Dashboards] >  [!UICONTROL Shared Dashboards] >[!UICONTROL Local Sites]**
+**[!UICONTROL Components]> [!UICONTROL All components] > [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] >[!UICONTROL Local Sites]**
 
 Met dit aanpasbare dashboard kunt u rapporten in de meegeleverde sjabloon plaatsen.
 
-**[!UICONTROL Components]>  [!UICONTROL All components] >  [!UICONTROL Dashboards] >  [!UICONTROL Shared Dashboards] >[!UICONTROL Site Operations Dashboard]**
+**[!UICONTROL Components]> [!UICONTROL All components] > [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] >[!UICONTROL Site Operations Dashboard]**
 
 Dit dashboard biedt u een overzicht van de belangrijkste metriek met betrekking tot uw websiteverrichtingen. De rapporten op dit dashboard omvatten:
 
@@ -57,7 +57,7 @@ Dit dashboard biedt u een overzicht van de belangrijkste metriek met betrekking 
 * Tekstrapport
 * Samenvattingsrapport van bedrijf
 
-Gebruik [!UICONTROL Dashboard Manager] om dashboards uit te geven en te beheren, en hen voor DirectAccess toe te laten.
+Gebruik de [!UICONTROL Dashboard Manager] om dashboards uit te geven en te beheren, en hen voor DirectAccess toe te laten.
 
 Zie [Dashboards beheren](/help/analyze/reports-analytics/dashboard-manage.md).
 
@@ -76,21 +76,21 @@ Voordat u een rapport (als een rapport) aan een dashboard toevoegt, definieert u
 1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
 1. Klik op **[!UICONTROL Add Dashboard]**.
 1. Typ een naam voor het dashboard.
-1. Klik **[!UICONTROL 3 x 2]** of **[!UICONTROL 2 x 2]** om te specificeren hoeveel rapporten u op de dashboardpagina wilt.
+1. Klikken **[!UICONTROL 3 x 2]** of **[!UICONTROL 2 x 2]** om op te geven hoeveel rapporten u op de dashboardpagina wilt opnemen.
 1. Configureer de paginalay-out van het dashboard:
 
    * **[!UICONTROL Add Page]**: Hiermee voegt u een lege pagina toe aan het dashboard, waarop u inhoud kunt slepen om rapporten te maken.
    * **[!UICONTROL Paper]**: Hier kunt u een papierformaat opgeven, zoals Liggend, Staand en A4.
-   * **[!UICONTROL Find Content]**: Hiermee kunt u naar inhoud in de menu&#39;s  [!UICONTROL Add Content] en  [!UICONTROL Dashboard Contents] menu&#39;s zoeken.
+   * **[!UICONTROL Find Content]**: Hiermee kunt u zoeken naar inhoud in het dialoogvenster [!UICONTROL Add Content] en [!UICONTROL Dashboard Contents] menu&#39;s.
 
 1. Voeg beschikbare inhoud toe aan het dashboard door items naar het rapportcanvas te slepen.
 
-   Zie [Een rapport maken](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) en [Dashboardinstellingen bewerken](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
+   Zie [Een rapportlet maken](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) en [Dashboardinstellingen bewerken](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
 1. Klik op **[!UICONTROL Save.]**
 
-   Als u een dashboard opslaat, wordt dit beschikbaar in het menu **[!UICONTROL Dashboard]**. Het nieuwe dashboard is ook beschikbaar in [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** > **[!UICONTROL Dashboards]** > **[!UICONTROL Manager]**), waar u kunt uitgeven, organiseren, delen, plannen, archiefdashboards, en meer. (Zie [Dashboards beheren](/help/analyze/reports-analytics/dashboard-manage.md).)
+   Als u een dashboard opslaat, maakt u het beschikbaar in het dialoogvenster **[!UICONTROL Dashboard]** -menu. Het nieuwe dashboard is ook beschikbaar in het deelvenster [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** > **[!UICONTROL Dashboards]** > **[!UICONTROL Manager]**), waar u kunt bewerken, organiseren, delen, plannen, archiefdashboards, en meer. (Zie [Dashboards beheren](/help/analyze/reports-analytics/dashboard-manage.md).)
 
-1. (Optioneel) Als u het dashboard wilt instellen als de bestemmingspagina, klikt u op **[!UICONTROL More Options]** > **[!UICONTROL Set as Landing Page]**.
+1. (Optioneel) Als u het dashboard wilt instellen als bestemmingspagina, klikt u op **[!UICONTROL More Options]** > **[!UICONTROL Set as Landing Page]**.
 
 ## Een rapport maken {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
@@ -104,10 +104,10 @@ t_dashboard_add_report.xml
 
 1. Voer een rapport uit.
 1. Klik op **[!UICONTROL Dashboard.]**
-1. Geef op de pagina [!UICONTROL Add Reportlet] het rapport een naam en selecteer vervolgens een dashboard uit **[!UICONTROL Place in Dashboard]**.
+1. Op de [!UICONTROL Add Reportlet] pagina, noem het rapport, dan selecteer een dashboard van **[!UICONTROL Place in Dashboard]**.
 1. (Optioneel) Configureer het datumbereik.
 
-   * **[!UICONTROL Rolling]**: Hiermee wijzigt u de datum in de tijd, afhankelijk van de tijdsperiode (dagelijks, maandelijks, enzovoort). Als vandaag bijvoorbeeld 17 januari is, kunt u de datums voor 15 en 16 januari instellen. Als u vervolgens **[!UICONTROL Rolling]** selecteert, worden op 27 januari gegevens voor 25-26 januari in het rapport weergegeven.
+   * **[!UICONTROL Rolling]**: Hiermee wijzigt u de datum in de tijd, afhankelijk van de tijdsperiode (dagelijks, maandelijks, enzovoort). Als vandaag bijvoorbeeld 17 januari is, kunt u de datums voor 15 en 16 januari instellen. Selecteer vervolgens **[!UICONTROL Rolling]** Op 27 januari geeft het rapport gegevens weer voor 25-26 januari.
    * **[!UICONTROL Fixed]**: Voorkomt dat de datum vooruit gaat in de tijd.
 
 1. (Optioneel) Hef de lijst met publicatiedistributie op.
@@ -116,7 +116,7 @@ t_dashboard_add_report.xml
 
 1. Klik op **[!UICONTROL Create New]**.
 
-   Het rapport wordt toegevoegd aan het **[!UICONTROL Dashboard Contents]** menu in de dashboardredacteur.
+   Het rapport wordt toegevoegd aan de **[!UICONTROL Dashboard Contents]** in de dashboardeditor.
 
 ## Inhoud toevoegen aan een dashboard {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
@@ -128,10 +128,10 @@ t_dashboard_content.xml
 
  -->
 
-1. Open een dashboard en klik op **[!UICONTROL Layout]**.
-1. Klik op **[!UICONTROL Add Content]** en sleep items naar het dashboard.
+1. Open een dashboard en klik vervolgens op **[!UICONTROL Layout]**.
+1. Klikken **[!UICONTROL Add Content]** en sleep items naar het dashboard.
 
-   In het menu [!UICONTROL Add Content] wordt rapportinhoud van andere dashboards, verouderde dashboards en gedeelde dashboards weergegeven.
+   De [!UICONTROL Add Content] wordt de rapportinhoud van andere dashboards, erfenis dashboards, en gedeelde dashboards weergegeven.
 
    >[!NOTE]
    >
@@ -144,7 +144,7 @@ t_dashboard_content.xml
    * Samenvatting bedrijf: Toont paginameningen voor veelvoudige rapportreeksen en metriek die u selecteert.
    * Metrische markering: Toont een maat dat u vertelt waar uw metriekcijfers met betrekking tot de drempels zijn u specificeert.
 
-      U kunt metrisch, grafiektype, kleurenwaaier, en drempelwaarden selecteren. Als het aantal metrieke stijgt boven de drempel Groter dan, wijst het meetbereik dit in rapportlet aan, gebruikend de kleur boven het Groter dan gebied. Als het aantal metrische waarden lager is dan de drempelwaarde, geeft het meetbereik dit aan in het rapport, waarbij de kleur boven het veld Kleiner dan wordt gebruikt. De waarden die u in deze velden opgeeft, zijn de aftelbare waarde van de metrische waarde, zoals het aantal paginaweergaven, de dollarbedragen, de tekstweergave, enzovoort. (Gebruik geen speciale tekens.)
+      U kunt metrisch, grafiektype, kleurenwaaier, en drempelwaarden selecteren. Als het aantal metrische verhogingen boven de Groter dan drempel, wijst het meetbereik dit in het rapport aan, gebruikend de kleur boven het Groter dan gebied. Als het aantal metrische waarden lager is dan de drempelwaarde, geeft het meetbereik dit aan in het rapport, waarbij de kleur boven het veld Kleiner dan wordt gebruikt. De waarden die u in deze velden opgeeft, zijn de aftelbare waarde van de metrische waarde, zoals het aantal paginaweergaven, de dollarbedragen, de tekstweergave, enzovoort. (Gebruik geen speciale tekens.)
    * Overzicht van rapportsuite: Toont geselecteerde metrisch en zijn totaal of hoge en lage waarden voor een rapportreeks.
    * Gebruiksoverzicht: Toont gegevens over interfacetoegang door mensen in uw organisatie. Dit rapport kan gegevens door gebruikersnaamtoegang, rapporttoegang, of rapportreekstoegang tonen.
 U kunt de volgende rapporten van de Inhoud van de Gebruiker tot stand brengen door URLs te verstrekken. Als een afbeelding of andere bron-URL niet begint met https://, zien Internet Explorer-gebruikers mogelijk een waarschuwing over gemengde inhoud. U kunt de waarschuwing voor gemengde inhoud in uw browser veiligheidsmontages onbruikbaar maken.
@@ -152,9 +152,9 @@ U kunt de volgende rapporten van de Inhoud van de Gebruiker tot stand brengen do
    *Inhoud gebruiker:*
 
    * Extern rapport: Hiermee kunt u een extern rapport toevoegen in de indelingen .xml en .csv.
-   * HTML: Hiermee kunt u een aangepast HTML-rapport toevoegen. De URL moet HTTP of HTTPS gebruiken. Anders, ziet u een `Specified URL could not be retrieved` fout. In de inhoud van het document worden alle codes met kenmerken die de gegevens gebruiken: en javascript: protocollen worden verwijderd. Scripts, frames, applets, gebeurtenishandlers, flash en andere ingesloten objecten worden verwijderd. Als bronnen worden opgegeven met behulp van niet-HTTPS, krijgen IE-gebruikers een waarschuwing over gemengde inhoud.
-   * Afbeelding: Hiermee kunt u een dashboard maken op basis van een afbeeldings-URL. Als de URL het HTTP-protocol gebruikt, geeft Internet Explorer een waarschuwing voor gemengde inhoud weer. Als u een URL gebruikt met HTTPS, wordt de waarschuwing verwijderd. Alle andere protocollen geven een `Specified URL could not be retrieved` fout uit.
-   * RSS: Hiermee kunt u een RSS-webfeed toevoegen. Moet HTTP of HTTPS zijn. Anders, ziet u een `Specified URL could not be retrieved` fout.
+   * HTML: Hiermee kunt u een aangepast HTML-rapport toevoegen. De URL moet HTTP of HTTPS gebruiken. Anders ziet u een `Specified URL could not be retrieved` fout. In de inhoud van het document worden alle codes met kenmerken die de gegevens gebruiken: en javascript: protocollen worden verwijderd. Scripts, frames, applets, gebeurtenishandlers, flash en andere ingesloten objecten worden verwijderd. Als bronnen worden opgegeven met behulp van niet-HTTPS, krijgen IE-gebruikers een waarschuwing over gemengde inhoud.
+   * Afbeelding: Hiermee kunt u een dashboard maken op basis van een afbeeldings-URL. Als de URL het HTTP-protocol gebruikt, geeft Internet Explorer een waarschuwing voor gemengde inhoud weer. Als u een URL gebruikt met HTTPS, wordt de waarschuwing verwijderd. Alle andere protocollen geven a uit `Specified URL could not be retrieved` fout.
+   * RSS: Hiermee kunt u een RSS-webfeed toevoegen. Moet HTTP of HTTPS zijn. Anders ziet u een `Specified URL could not be retrieved` fout.
    * Tekst: Hiermee kunt u XHTML-code gebruiken om uw eigen gegevens te maken. Gebruik HTTP of HTTPS voor een URL. Afbeeldingen die in de tekstrapportinhoud worden gebruikt en het HTTP-protocol hebben tot gevolg dat IE-gebruikers een waarschuwing over gemengde inhoud ontvangen. Afbeeldingen die met andere protocollen worden geleverd, worden niet in het rapport weergegeven.
 
    **Mijn dashboards**
@@ -187,22 +187,22 @@ t_dashboard_edit.xml
 
 **Dashboard- en rapportgegevens bewerken**
 
-1. Klik **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]** > *dashboardnaam* om een dashboard te openen.
+1. Klikken **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]** > *naam dashboard* om een dashboard te openen.
 1. Klik op **[!UICONTROL Layout]**.
 
 | Naar | Doe dit |
 |--- |--- |
 | De rapportsuite van een dashboard wijzigen | Klik het menu in de kopbal van de Experience Cloud, dan selecteer een rapportreeks. |
-| Een rapportsuite wijzigen | Klik in het rapport op de naam van de rapportsuite en selecteer vervolgens een rapportsuite in het menu [!UICONTROL Report Suite]. |
-| Een segment toepassen op een dashboard | Klik in de koptekst Experience Cloud op [!UICONTROL Show Segments] en selecteer vervolgens een segment. |
+| Een rapportsuite wijzigen | Klik in het rapport op de naam van de rapportsuite en selecteer vervolgens een rapportsuite in het menu [!UICONTROL Report Suite] -menu. |
+| Een segment toepassen op een dashboard | Klik in de koptekst Experience Cloud op [!UICONTROL Show Segments]Selecteer vervolgens een segment. |
 | Een segment toepassen op een rapportpunt | Klik in het dashboard op Lay-out om een dashboard te bewerken.   Klik in het rapport op de naam van de rapportsuite, selecteer een waarde in het veld Segment en klik op Bijwerken. |
-| Een rapportsuite vergrendelen (voorkomt dat de rapportsuite wordt gewijzigd in een rapportsuite) | Klik in het rapport op de naam van de rapportsuite en schakel vervolgens [!UICONTROL Lock Report Suite] in. Klik op Bijwerken. |
+| Een rapportsuite vergrendelen (voorkomt dat de rapportsuite wordt gewijzigd in een rapportsuite) | Klik in het rapport op de naam van de rapportsuite en schakel vervolgens de optie [!UICONTROL Lock Report Suite]. Klik op Bijwerken. |
 | Een rapportdatum wijzigen | Klik op de kalender voor een dashboard. (Alle rapporten in het dashboard weerspiegelen de wijziging.)<br>Voor een rapport, klik de datumverbinding, dan vorm de kalender. |
-| Een dashboard een naam geven | Open een dashboard en klik vervolgens op [!UICONTROL More] > [!UICONTROL Rename]. |
+| Een dashboard een naam geven | Open een dashboard en klik vervolgens op  [!UICONTROL More] >  [!UICONTROL Rename]. |
 | Een dashboardarchief weergeven | Klik op  [!UICONTROL More] >  [!UICONTROL View Archive]. |
-| Het dashboard instellen als een openingspagina | Klik in een dashboard op [!UICONTROL More] > [!UICONTROL Set As Landing Page]. |
-| Een dashboard downloaden | Klik in een dashboard op [!UICONTROL More] > Downloaden. |
-| Een dashboard afdrukken | Klik in een dashboard op [!UICONTROL More] > Afdrukken. |
+| Het dashboard instellen als een openingspagina | Klik in een dashboard op  [!UICONTROL More] > [!UICONTROL Set As Landing Page]. |
+| Een dashboard downloaden | Klik in een dashboard op  [!UICONTROL More] > Downloaden. |
+| Een dashboard afdrukken | Klik in een dashboard op  [!UICONTROL More] > Afdrukken. |
 | Een dashboard opslaan | Klik in een dashboard op Opslaan als en geef een naam op. |
 
 ## Een dashboard onder een merknaam plaatsen {#task_603BDE7700B945699AF5514C2DEB81F7}
@@ -216,11 +216,11 @@ t_dashboard_branding.xml
  -->
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]**.
-1. Klik op [!UICONTROL Company Settings] op de pagina.**[!UICONTROL Co-Brand the Adobe Experience Cloud]**
+1. Op de [!UICONTROL Company Settings] pagina, klikt u op **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Klik op **[!UICONTROL Enable Co-Branding]**.
 1. Blader om de afbeelding te uploaden en klik vervolgens op **[!UICONTROL Save.]**
 
-   Upload een afbeelding van 100 bij 30 px voor het beste resultaat wanneer u de afbeelding in een browser weergeeft. Upload een afbeelding van 417 px bij 125 px (300 dpi) voor de beste resultaten in PDF-uitvoer. Grote afbeeldingen worden verkleind tot het formaat, terwijl de hoogte-breedteverhouding behouden blijft.
+   Upload een afbeelding van 100 bij 30 px voor het beste resultaat wanneer u de afbeelding in een browser weergeeft. Upload voor de beste resultaten in PDF-uitvoer een afbeelding van 417 bij 125 px (300 dpi). Grote afbeeldingen worden verkleind tot het formaat, terwijl de hoogte-breedteverhouding behouden blijft.
 
 ## Segmenten gebruiken met dashboards {#concept_ED030C3713D54D03971FB7B209285750}
 
@@ -234,5 +234,5 @@ segments_dashboards.xml
 
 Segmenten kunnen op twee niveaus worden toegepast: op een volledig dashboard of op een specifiek rapport.
 
-* **Rapportletniveau**: Klik  **[!UICONTROL Layout]**, dan de rapportreeks van rapportlet u wilt segmenteren. Er verschijnt een modaal venster waarin u kunt toevoegen welk segment of welke segmenten in het rapport worden gebruikt of wijzigen.
+* **Rapportageniveau**: Klikken **[!UICONTROL Layout]** Dan de rapportsuite van het rapport dat u wilt segmenteren. Er verschijnt een modaal venster waarin u kunt toevoegen welk segment of welke segmenten in het rapport worden gebruikt of wijzigen.
 * **Dashboardniveau**: Klik op het pictogram Segment in de linkernavigatie, controleer het gewenste segment of de segmenten en klik op Toepassen. De geselecteerde segmenten overschrijven en vervangen segmenten op rapportageniveau.

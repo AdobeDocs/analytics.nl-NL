@@ -2,10 +2,10 @@
 description: Verstrekt antwoorden en het oplossen van problemensuggesties aan enkele van de vaakst gestelde vragen van Analytics.
 keywords: Analyses voor probleemoplossing
 title: Veelgestelde vragen
-uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
