@@ -1,8 +1,9 @@
 ---
 title: Systeemvereisten
 description: De systeemvereisten voor het gebruik van Adobe Analytics.
+feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 5%
@@ -24,7 +25,7 @@ De meeste Adobe Analytics-oplossingen, waaronder Analysis Workspace, zijn gebase
 
 >[!NOTE]
 >
->Op 13 november 2018 is de ondersteuning voor Microsoft Internet Explorer 11 in Adobe Analytics beëindigd.
+>Op 13 november 2018 werd de ondersteuning voor Microsoft Internet Explorer 11 in Adobe Analytics beëindigd.
 
 ## Systeemvereisten voor niet-browseroplossingen
 

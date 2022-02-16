@@ -2,12 +2,10 @@
 description: Valutacodes gebruikt in de Experience Cloud.
 title: Valutacodes
 feature: Admin Tools
-uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
 exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -181,9 +179,9 @@ Valutacodes gebruikt in de Experience Cloud.
 | XAU | Goud |
 | XCD | Oost-Caribische dollars |
 | XDR | Bijzondere trekkingsrechten van het Internationaal Monetair Fonds |
-| XOF | Communaut順 financiële 貥 Afrikaanse Francs BCEAO |
+| XOF | Communaut順inanci貥 Afrikaanse Francs BCEAO |
 | XPD | Palladium Ounces |
-| XPF | Comptoirs Fran硩 s du Pacifique Francs |
+| XPF | Comptoirs Fran硩s du Pacifique Francs |
 | XPT | Platinum Ounces |
 | YER | Jemen Rials |
 | ZAR | Zuid-Afrika Rand |

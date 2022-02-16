@@ -2,12 +2,10 @@
 description: De het Factureren pagina laat u tot factureringsinformatie, met inbegrip van verkeersdetails voor elke rapportreeks toegang hebben. Alleen een geautoriseerde beheerder heeft toegang tot deze pagina.
 title: Facturering
 feature: Admin Tools
-uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -20,17 +18,17 @@ De het Factureren pagina laat u tot factureringsinformatie, met inbegrip van ver
 >
 >Neem contact op met uw accountmanager als de toegang tot het tabblad Facturering voor uw bedrijf is uitgeschakeld.
 
-De gegevens van het verkeersoverzicht van de factureringspagina laten u paginameningsgegevens in rapporten met factureerbare servervraag op uw factuur correleren. Op de pagina [!UICONTROL Billing] kunt u het volgende doen:
+De gegevens van het verkeersoverzicht van de factureringspagina laten u paginameningsgegevens in rapporten met factureerbare servervraag op uw factuur correleren. De [!UICONTROL Billing] kunt u het volgende doen:
 
 * Controleer uw factuur.
 * Verdeling van de kosten per rapportenpakket voor interne boekhoudingen.
 * Bekijk de distributie van primaire en secundaire servervraag.
 
-Op de pagina [!UICONTROL Billing] worden gegevens per maand gerangschikt.
+De [!UICONTROL Billing] de pagina organiseert informatie door maand.
 
 Om maandelijkse gegevens van het verkeersoverzicht te bekijken, bepaal de plaats van de maand waar u verkeersgegevens wilt bekijken, dan klik **[!UICONTROL View]**.
 
-Het resulterende [!UICONTROL Monthly Invoice] rapport bevat de volgende informatie:
+Het resultaat [!UICONTROL Monthly Invoice] het rapport bevat de volgende informatie :
 
 | Kolom | Beschrijving |
 |--- |--- |
@@ -39,17 +37,17 @@ Het resulterende [!UICONTROL Monthly Invoice] rapport bevat de volgende informat
 | Primaire serveraanroepen | Aanvragen die rechtstreeks zijn ontvangen van de browsers van de websitebezoeker of de API voor het invoegen van gegevens. Deze groep bevat primaire Hits (paginaweergaven), primaire aangepaste gebeurtenissen, primaire downloadgebeurtenissen en primaire afsluitgebeurtenissen. |
 | Secundaire serveraanroepen | Kopieën van primaire servervraag die door multi-suite markeringen wordt gecreeerd of door een VISTA regel wordt gekopieerd/wordt bewogen.  Als een secundaire servervraag (niet gekopieerd) aan een verschillende rapportreeks door een regel VISTA is verplaatst, identificeert de Factureringspagina deze overdracht met een negatief aantal. In dit geval, worden de geaccumuleerde secundaire vraag afgetrokken van de primaire servervraag. |
 | Totaal aantal serveraanroepen | Het gecombineerde totaal van primaire en secundaire server roept voor deze rapportreeks bij de bepaalde plaats. |
-| Paginaweergaven | De totalen van de paginaweergave voor elke rapportsuite. U kunt de waarden van de paginaweergave bevestigen in   Sitegegevens > Paginaweergaven. |
+| Paginaweergaven | De totalen van de paginaweergave voor elke rapportsuite. U kunt de waarden van de paginaweergave bevestigen in Site Metrics > Paginaweergaven. |
 | Downloads | De totalen van de download voor elke rapportreeks. U kunt de downloadwaarden bevestigen in Site Content > Links > Bestandsdownloads. |
 | Aangepaste koppelingen | De verbindingstotalen van de douane voor elke rapportreeks. U kunt de waarden voor aangepaste koppelingen bevestigen in Site-inhoud > Koppelingen > Aangepaste koppelingen. |
 | Koppelingen afsluiten | De verbindingstotalen van de uitgang voor elke rapportreeks. U kunt de waarden voor de afsluitkoppelingen bevestigen in Site Content > Links > Koppelingen afsluiten. |
 
 >[!NOTE]
 >
->Om een het werk exemplaar van [!UICONTROL Monthly Invoice] rapport te verkrijgen, kopieer het op uw klembord, dan kleef het in een spreadsheetprogramma zoals Microsoft Excel*.
+>Om een werkexemplaar van te verkrijgen [!UICONTROL Monthly Invoice] rapport, kopieer het naar het klembord en plak het in een spreadsheetprogramma zoals Microsoft Excel*.
 
-## Datum van rapportage versus verwerkingsdatum {#section_51A48C2F223F4904BE1407C13333C457}
+## Datum van rapportage versus datum van verwerking {#section_51A48C2F223F4904BE1407C13333C457}
 
-In het rapporterende gebruikersinterface, worden de gepresenteerde gegevens altijd verbonden aan **Rapporterende Datum**, die timestamp is die aan de gebeurtenis wordt vastgemaakt.
+In de rapportgebruikersinterface worden de gepresenteerde gegevens altijd gekoppeld aan de **Datum van rapportage**, dit is de tijdstempel die aan de gebeurtenis is gekoppeld.
 
-Bij gebruik/facturering daarentegen wordt altijd de **Verwerkingsdatum** gebruikt of wanneer de gegevens daadwerkelijk in het systeem zijn verwerkt. Vanwege standaardwachttijden, gegevensimport of verschillen in tijdzone van gebeurtenissen (alles wordt verwerkt in Pacific Time) komen de Datum en de datum van verzending van de rapportage gewoonlijk niet volledig overeen.
+Bij gebruik/facturering daarentegen wordt altijd het volgende gebruikt: **Verwerkingsdatum** of wanneer de gegevens daadwerkelijk in het systeem zijn verwerkt. Vanwege standaardwachttijden, gegevensinvoer of verschillen in tijdzone van gebeurtenissen (alles wordt verwerkt in Pacific Time) komen de Datum en de datum van verwerking van de rapportage gewoonlijk niet volledig overeen.

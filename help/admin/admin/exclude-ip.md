@@ -2,7 +2,8 @@
 title: Exclusief door IP Adres
 description: Voorkomen dat gegevens die door bepaalde IP-adressen worden gegenereerd, in rapporten worden weergegeven.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -17,13 +18,13 @@ U kunt gegevens van specifieke IP adressen, zoals interne website activiteiten, 
 
 >[!NOTE]
 >
->Hits die door IP adres worden uitgesloten worden gefactureerd als [servervraag](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html).
+>Hits die door IP adres worden uitgesloten worden gefactureerd [serveraanroepen](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html).
 
-U kunt jokertekenindicatoren (*) gebruiken om een bereik van adressen uit te sluiten. `[!DNL 0.0.*.0]` zou bijvoorbeeld alle IP-adressen tussen `[!DNL 0.0.0.0]` en `[!DNL 0.0.255.0]` uitsluiten. U kunt tot 50 verschillende IP adressen uitsluiten.
+U kunt jokertekenindicatoren (*) gebruiken om een bereik van adressen uit te sluiten. Bijvoorbeeld: `[!DNL 0.0.*.0]` zou alle IP adressen tussen uitsluiten `[!DNL 0.0.0.0]` en `[!DNL 0.0.255.0]`. U kunt tot 50 verschillende IP adressen uitsluiten.
 
 >[!TIP]
 >
->De privé IP adressen te hoeven niet worden uitgesloten. Slechts bereiken de externe IP adressen de servers van de Adobe gegevensinzameling. De privé adressen omvatten `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`, en `169.254.*.*`.
+>De privé IP adressen te hoeven niet worden uitgesloten. Slechts bereiken de externe IP adressen de servers van de Adobe gegevensinzameling. Privéadressen omvatten `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`, en `169.254.*.*`.
 
 ## Gevolgen van IP Obfuscation {#section_51B7529FFF16449CA016FDC51D87E2CA}
 

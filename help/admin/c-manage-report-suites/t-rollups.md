@@ -1,14 +1,12 @@
 ---
 description: Stappen die beschrijven hoe te om een het rapportreeks van het omvergooien tot stand te brengen.
 title: Een overzichtsrapportsuite maken
-feature: Admin Tools
-uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
+feature: Report Suite Settings
 exl-id: 0aac9063-d915-4484-92c0-c84a75704ac2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 14%
+source-wordcount: '96'
+ht-degree: 12%
 
 ---
 
@@ -18,11 +16,11 @@ Stappen die beschrijven hoe te om een het rapportreeks van het omvergooien tot s
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] is het enige hulpmiddel dat rolluprapporten steunt, en Adobe adviseert niet meer het gebruiken van rollups. Zie &quot;[De reeksbenaderingen van het rapport](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)&quot;voor alternatieven.
+>[!DNL Reports & Analytics] is het enige hulpmiddel dat rolluprapporten steunt, en Adobe adviseert niet meer het gebruiken van rollups. Zie &quot;[Methoden van rapportsuite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)&quot; voor alternatieven.
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Klik in [!UICONTROL Report Suite Groups] op **[!UICONTROL Add]** naast de kop **[!UICONTROL Rollups]**.
-1. Geef in het dialoogvenster **[!UICONTROL Create a New Rollup]** de volgende informatie op:
+1. In [!UICONTROL Report Suite Groups], klikt u op **[!UICONTROL Add]** naast de **[!UICONTROL Rollups]** kop.
+1. In de **[!UICONTROL Create a New Rollup]** geeft u de volgende informatie op:
 
    **[!UICONTROL Report Suite ID:]** De rapportsuite-id van de rollup.
 

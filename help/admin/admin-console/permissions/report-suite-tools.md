@@ -2,7 +2,8 @@
 title: Productprofielmachtigingen voor Report Suite Tools in Adobe Admin Console
 description: Begrijp elk toestemmingspunt onder de Hulpmiddelen van de Reeks van het Rapport.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 3%

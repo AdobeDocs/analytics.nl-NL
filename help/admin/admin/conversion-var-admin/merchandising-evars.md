@@ -1,8 +1,9 @@
 ---
 title: Merchandising Vars en productzoekmethoden
 description: Een diepe duik in de concepten achter het verhandelen van eVars en hoe zij gegevens verwerken en toewijzen.
+feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '5289'
 ht-degree: 0%
@@ -91,7 +92,7 @@ Met **[!UICONTROL Product Syntax]** De eVar wordt echter alleen binnen de produc
 * [!UICONTROL Quantity] en [!UICONTROL Revenue] zijn nuttig wanneer een productaankoop wordt gevolgd.
 * [!UICONTROL Events] is nuttig voor het opnemen van aangepaste incrementele of valutawaarden die niet als inkomsten hoeven te worden geteld (zoals verzendkosten, kortingen, enz.)
 
-Merchandising eVars die worden gevormd om de Syntaxis van het Product te gebruiken worden geplaatst binnen het definitieve gedeelte van de productvariabele. Stel bijvoorbeeld dat een bezoeker een interne trefwoordzoekopdracht heeft gebruikt om de product-id &quot;12345&quot; te zoeken. De op productsyntaxis gebaseerde manier voor het instellen van eVar1 in dit voorbeeld ziet er als volgt uit:
+Merchandising eVars die worden gevormd om de Syntaxis van het Product te gebruiken worden geplaatst binnen het definitieve gedeelte van de productvariabele. Stel dat een bezoeker een interne trefwoordzoekopdracht heeft gebruikt om de product-id &quot;12345&quot; te zoeken. De op productsyntaxis gebaseerde manier voor het instellen van eVar1 in dit voorbeeld ziet er als volgt uit:
 
 `s.products=";12345;;;;eVar1=internal keyword search";`
 
@@ -136,7 +137,7 @@ Voor de Methode van het Vinden van het Product, zou de beste praktijken voor het
 * Of de hoeveelheid tijd die een product in het winkelwagentje van een plaats wordt gehouden alvorens de plaats automatisch het uit het karretje verwijdert (b.v. 14 dagen, 30 dagen, enz.)
 * OF wanneer de aankoopgebeurtenis plaatsvindt.
 
-In beide gevallen worden producten die een bezoeker koopt, in aanmerking genomen als bestelling/eenheid/inkomstenkrediet voor de handelswaarde van de eVar waaraan de producten op dat moment gebonden waren.
+In beide gevallen worden producten die een bezoeker koopt, in aanmerking genomen voor het betaal-/eenheidskrediet dat is toegewezen aan de waarde van de eVar waar de producten op dat moment aan gebonden waren.
 
 ### Type
 
@@ -152,14 +153,14 @@ Merchandising Binding Event die een product aan een waarde van de eVar door meer
 * Via een winkelwagentje
 * Via een aankoopgebeurtenis
 
-Door gebrek, bindt het plaatsen een product aan een het verhandelen eVar waarde wanneer om het even welke andere gebeurtenis/eVar (koophandel of norm) in het zelfde beeldverzoek zoals het product bevat.
+Standaard bindt de instelling een product aan een waarde voor het verhandelen van eVar wanneer een andere gebeurtenis/eVar (merchandising of standard) zich in dezelfde afbeeldingsaanvraag als het product bevindt.
 
 ### Herstellen
 
 Met de instelling Opnieuw instellen kunt u alle waarden van eVar onmiddellijk ‘verlopen’ voor alle bezoekers die momenteel een `post_evar` in de Adobe Analytics-back-enddatabase. Het elimineert ook alle huidige product/eVar banden.
 
 >[!IMPORTANT]
->Adobe raadt u niet aan de instelling Opnieuw instellen te gebruiken, tenzij u van plan bent de eVar opnieuw te beginnen met een volledig &#39;schone lei&#39; aan gegevens vanaf het moment dat de resetten worden uitgevoerd.
+>Adobe raadt u niet aan de instelling Herstellen te gebruiken, tenzij u van plan bent om de eVar opnieuw te beginnen met een volledig &#39;schone lei&#39; aan gegevens vanaf het moment dat de reset plaatsvindt.
 
 ## Welke instellingen moet u gebruiken?
 
@@ -267,11 +268,11 @@ De vraag is: Welke waarden van de eVar zouden krediet voor de aankoop moeten kri
 
 Een oplossing voor dit probleem is het wijzigen van de instelling Toewijzing (binding) van de eVar voor handelsdoeleinden van &quot;Recentste (laatste)&quot; in &quot;Oorspronkelijke waarde (eerste)&quot;. Op deze manier krijgen de oorspronkelijke eVar waarden die aan het product &quot;sandal123&quot; zijn gebonden, krediet wanneer de aankoop plaatsvindt, ongeacht hoe vaak de bezoeker het product &quot;hervindt&quot;.
 
-Als de bezoeker een product aan het winkelwagentje toevoegt maar het nooit koopt, staat de eVar vervaldatum toe dat een nieuwe waarde van de zoekmethode aan het product wordt gebonden. De vervaldatum van de eVar moet gelijk zijn aan de tijd dat een product op een website in het winkelwagentje kan blijven voordat het automatisch wordt verwijderd.
+Als de bezoeker een product aan het winkelwagentje toevoegt maar het nooit koopt, staat de eVar vervaldatum toe dat een nieuwe waarde van de zoekmethode aan het product wordt gebonden. De vervaldatum van de eVar moet gelijk zijn aan de tijd dat een product door een website in het winkelwagentje kan blijven voordat het automatisch wordt verwijderd.
 
 ### Conversievariabele-syntaxis gebruiken
 
-Laten we terugkeren naar de &quot;productsyntaxis&quot; vs. Vraag met de naam &quot;Conversion Variable Syntax&quot;. Adobe heeft een gemakkelijkere methode ontdekt voor zowel het verzamelen van de product het vinden methode koopt eVars en het binden van hun waarden aan producten die bezoekers hebben gevonden: Het gebruik van de Syntaxis van de Variabele van de Omzetting vermindert het implementatiewerk dat de ontwikkelaars van de cliënt voor verantwoordelijk zijn. Het biedt nog steeds dezelfde - of betere - informatie dan de methode van de Syntaxis van het Product. De ontwikkelaars moeten eenvoudig de plaatsingsinstructies volgen die zij werden gegeven, en de rest code kan in het dossier van SDK van het Web Adobe AppMeasurement/AEP worden geplaatst.
+Laten we terugkeren naar de &quot;productsyntaxis&quot; vs. Vraag met de naam &quot;Conversion Variable Syntax&quot;. Adobe heeft een gemakkelijkere methode ontdekt voor zowel het verzamelen van de productbepalingsmethode die eVars verkoopt als het binden van hun waarden aan producten die bezoekers hebben gevonden: Het gebruik van de Syntaxis van de Variabele van de Omzetting vermindert het implementatiewerk dat de ontwikkelaars van de cliënt voor verantwoordelijk zijn. Het biedt nog steeds dezelfde - of betere - informatie dan de methode van de Syntaxis van het Product. De ontwikkelaars moeten eenvoudig de plaatsingsinstructies volgen die zij werden gegeven, en de rest code kan in het dossier van SDK van het Web Adobe AppMeasurement/AEP worden geplaatst.
 
 Kijk bijvoorbeeld naar de aanbevolen oplossing voor het bijhouden van de interne zoekprestaties voor trefwoorden. Er wordt aangegeven dat op de pagina met zoekresultaten met trefwoorden het trefwoord waarnaar wordt gezocht met een proxy (bijvoorbeeld prop4) en een andere proxy (bijvoorbeeld prop5) door de code wordt vastgelegd. Deze profielen volgen het aantal resultaten die van het onderzoek worden getoond. Telkens wanneer een Adobe Analytics-verzoek om een afbeelding wordt gegenereerd op de pagina met zoekresultaten, werd gebruikgemaakt van de gegevenslaagobjecten (of paginacode) die door de ontwikkelaars zijn geïmplementeerd om de bovenstaande variabelen (de props) in te vullen.
 

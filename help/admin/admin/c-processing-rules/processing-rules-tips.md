@@ -2,13 +2,11 @@
 description: Deze sectie bevat richtlijnen voor het testen van verwerkingsregels en een lijst met veelvoorkomende fouten die moeten worden vermeden.
 subtopic: Processing rules
 title: Tips en trucs voor verwerkingsregels
-feature: Admin Tools
-uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
+feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 2%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 2%
 
 Deze sectie bevat richtlijnen voor het testen van verwerkingsregels en een lijst met veelvoorkomende fouten die moeten worden vermeden.
 
-## Regels {#section_F092D2FECDE24082AE9FC6F8BE87F29F} voor testverwerking
+## Testverwerkingsregels {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
 
 Deze sectie bevat sommige richtlijnen om testverwerkingsregels te helpen alvorens zij aan productie worden opgesteld.
 
@@ -27,7 +25,7 @@ Voor om het even welke criteria die op een onderzoek worden gebaseerd, zoals als
 
 **Testregels voor het lezen van variabelen**
 
-Maak een lege HTML-pagina op uw bureaublad, neem de s_code van uw site op en stel de variabele `s.account` in op een dev-rapportsuite. Als uw regels gebaseerd zijn op referentie, verwijzend domein, etc., neem sommige steekproef URLs van het levende verwijzersrapport, plaats `s.referrer` variabele met één van die waarden en laad de pagina. Op dezelfde manier kunt u `s.pageURL` instellen als de regel is gebaseerd op de URL-waarde van de pagina. Dit proces kan voor om het even welke variabelen worden gebruikt.
+Maak een lege pagina met HTML op uw bureaublad, neem de s_code van uw site op en stel de `s.account` variabele aan een dev- rapportreeks. Als uw regels zijn gebaseerd op referentie, verwijzend domein, etc., neem sommige steekproef URLs van het levende verwijzersrapport, plaats `s.referrer` met een van deze waarden en laad de pagina. Als de regel is gebaseerd op de waarde van de pagina-URL, kunt u ook instellen `s.pageURL`. Dit proces kan voor om het even welke variabelen worden gebruikt.
 
 **Een Dev Report Suite gebruiken**
 
@@ -43,7 +41,7 @@ Het is ook belangrijk om de verwerkingsvolgorde in overweging te nemen. In het v
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## Overschrijven van waarden {#section_49FCCA31E31A433EA2EF5EAF91443DAF} voorkomen
+## Overschrijven van waarden voorkomen {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
 In het volgende voorbeeld worden op de site twee variabelen met contextgegevens gebruikt om zoektermen vast te leggen: search_keyword en search_term. Nochtans, gebaseerd op de configuratie, wordt de search_keyword waarde altijd beschreven, zelfs als search_term leeg is.
 

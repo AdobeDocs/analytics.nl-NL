@@ -2,7 +2,8 @@
 description: Systeemvereisten en een vergelijking van Analysis Workspace, Reports & Analytics, Report Builder, Data Warehouse en Data Workbench
 title: Analytics-productvergelijking en -vereisten
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+feature: Analytics Basics
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 38%
@@ -13,7 +14,7 @@ ht-degree: 38%
 
 Deze pagina bevat een vergelijking van verschillende Adobe Analytics-producten: Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds en Analytics API 2.0.
 
-Ga [hier](/help/admin/c-analytics-product-comparison/which-analytics-tool.md) voor meer informatie over het Adobe Analytics-product dat u wilt gebruiken.
+Ga voor meer informatie over welk Adobe Analytics-product u wilt gebruiken naar [hier](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
 | Productnaam en Help-koppeling | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Rapporten en analyses](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) | [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analyse API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
@@ -21,7 +22,7 @@ Ga [hier](/help/admin/c-analytics-product-comparison/which-analytics-tool.md) vo
 | **Korreligheid gegevens** | Samengevoegd | Samengevoegd | Samengevoegd | Samengevoegd | Actief | Actief | Samengevoegd |
 | **Experience Cloud-id (ECID) beschikbaar** | Nee | Nee | Nee | Ja | Ja | Ja | Nee |
 | **Tijdstempel beschikbaar** | Nee | Nee | Nee | Nee | Ja | Ja | Nee |
-| **Niveau van verwerking** | Volledig verwerkt | Volledig verwerkt, met afzonderlijk [real-time rapport](/help/components/c-real-time-reporting/realtime.md) | Volledig verwerkt, met afzonderlijk [real-time rapport](/help/components/c-real-time-reporting/realtime.md) | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt |
+| **Niveau van verwerking** | Volledig verwerkt | Volledig verwerkt, met aparte [real-time rapport](/help/components/c-real-time-reporting/realtime.md) | Volledig verwerkt, met aparte [real-time rapport](/help/components/c-real-time-reporting/realtime.md) | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt |
 | **Gegevens van het filter Admin bot inbegrepen** <br> [Meer informatie](/help/admin/admin/bot-removal/bot-removal.md) | Nee | Ja, afzonderlijke beide rapporten | Ja, afzonderlijke beide rapporten | Nee | Nee | Nee | Nee |
 | **Laag verkeer (Uniques overschreden) verschijnt** <br> [Meer informatie](/help/technotes/low-traffic.md) | Ja | Ja | Ja | Nee | Nee | Nee | Ja |
 | **Zichtbare rijlimiet (vóór paginering)** | 400 | 200 | 50000 | Onbeperkt | Onbeperkt | Onbeperkt | 50000 |
@@ -36,5 +37,5 @@ Ga [hier](/help/admin/c-analytics-product-comparison/which-analytics-tool.md) vo
 | **Kromming** <br> [Meer informatie](/help/analyze/analysis-workspace/curate-share/curate.md) | Ja - Project en vrijwillige VUT | Nee | Nee | Nee | Nee | Nee | Ja - alleen VRS |
 | **Projectdeling** <br> [Meer informatie](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Ja, met projectrollen | Ja | Ja | Nee | Ja | Nee | Nee |
 | **Geplande levering** | Ja | Ja | Ja | Ja | Nee | Ja | Nee |
-| **Leveringsbestemmingen** | E-mail | E-mail | E-mail, FTP, SFTP, [publiceren naar Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | E-mail, FTP. Neem contact op met de klantenservice voor extra bestemmingsondersteuning, zoals SFTP, Azure Blob, Amazon S3 | - | FTP, SFTP, Azure Blob, Amazon S3 | - |
+| **Leveringsbestemmingen** | E-mail | E-mail | E-mail, FTP, SFTP [publiceren naar Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | E-mail, FTP. Neem contact op met de klantenservice voor extra bestemmingsondersteuning, zoals SFTP, Azure Blob, Amazon S3 | - | FTP, SFTP, Azure Blob, Amazon S3 | - |
 | **Tijdverwerking van VRS-rapport** <br> [Meer informatie](/help/components/vrs/vrs-report-time-processing.md) | Ja | Nee | Nee | Nee | Nee | Nee | Ja |

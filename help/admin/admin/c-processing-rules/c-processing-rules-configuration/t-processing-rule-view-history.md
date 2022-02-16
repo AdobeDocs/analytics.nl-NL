@@ -2,14 +2,12 @@
 description: Wijzigingen in de verwerkingsregels kunnen worden weergegeven in Historie.
 subtopic: Processing rules
 title: Verwerkingsregelgeschiedenis weergeven
-feature: Admin Tools
-uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
+feature: Processing Rules
 exl-id: 29587190-9243-4480-a7dc-6293cbcb2007
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 40%
+source-wordcount: '38'
+ht-degree: 36%
 
 ---
 
@@ -21,4 +19,4 @@ Wijzigingen in de verwerkingsregels kunnen worden weergegeven in Historie.
 1. Een rapportsuite selecteren.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]**.
 
-1. Klik op het tabblad **[!UICONTROL Processing Rules]** op de pagina **[!UICONTROL View History]**.
+1. Op de **[!UICONTROL Processing Rules]** pagina, klikt u op de knop **[!UICONTROL View History]** tab.

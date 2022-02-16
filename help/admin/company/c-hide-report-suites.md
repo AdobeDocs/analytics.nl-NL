@@ -2,13 +2,12 @@
 description: Hiermee kunt u rapportsuites verbergen in de gebruikersinterface van Adobe Analytics.
 keywords: rapportsuite verwijderen
 title: Rapportsuites verbergen
-feature: Admin Tools
-uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
+feature: Company Settings
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 4%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
@@ -24,12 +23,12 @@ Het verbergen van een rapportreeks verhindert het in het drop-down menu van de d
 >
 >Gegevens die vanaf uw site naar een verborgen rapportsuite worden verzonden, worden verder verzameld, verwerkt en gefactureerd. Met andere woorden, een rapportsuite wordt nooit volledig verwijderd.
 
-Als u de rapportsuite wilt verbergen, gaat u naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Hide Report Suites]**. Schakel het selectievakje **[!UICONTROL Hidden]** links van de naam van de rapportsuite in.
+Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Hide Report Suites]**. Controleer de **[!UICONTROL Hidden]** Schakel het selectievakje links van de naam van de rapportsuite in.
 
-Als u de rapportsuite zichtbaar wilt maken, schakelt u het selectievakje **[!UICONTROL Hidden]** uit.
+Als u de rapportsuite zichtbaar wilt maken, schakelt u de optie **[!UICONTROL Hidden]** selectievakje.
 
-Als u alleen verborgen rapportsuites wilt weergeven, selecteert u **[!UICONTROL View]** > **[!UICONTROL Only Hidden Report Suites]** onder **[!UICONTROL Company Settings]**.
+Als u alleen verborgen rapportsuites wilt weergeven, gaat u naar **[!UICONTROL Company Settings]**, selecteert u **[!UICONTROL View]** > **[!UICONTROL Only Hidden Report Suites]**.
 
-Als u alleen zichtbare rapportsuites wilt weergeven, selecteert u **[!UICONTROL View]** > **[!UICONTROL Only Visible Report Suites]** onder **[!UICONTROL Company Settings]**.
+Alleen zichtbare rapportsuites weergeven, onder **[!UICONTROL Company Settings]**, selecteert u **[!UICONTROL View]** > **[!UICONTROL Only Visible Report Suites]**.
 
 De standaardwaarde is **[!UICONTROL View]** > **[!UICONTROL All]**.

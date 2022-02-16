@@ -1,18 +1,18 @@
 ---
 description: Een basiscontainer maken voor gegevensverzameling in Adobe Analytics
 title: Een rapportsuite maken
-feature: Admin Tools
+feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 5%
 
 ---
 
 # Een rapportsuite maken
 
-Een rapportenreeks is een silo van gegevens die Adobe Analytics gebruikt om rapporten te trekken. Een organisatie kan vele rapportreeksen hebben, elk die verschillende gegevensreeksen bevatten. Afzonderlijke rapportsuites waren in het verleden belangrijk, maar het hebben van één enkele rapportsuite is voordeliger geworden. Dankzij de introductie van [virtuele rapportesuites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) en de verwerking van de rapporttijd kunnen beheerders uw eigen subsets van gegevens maken, zodat ze over de flexibiliteit beschikken om zowel algemene als locatiespecifieke gegevens te verkrijgen.
+Een rapportenreeks is een silo van gegevens die Adobe Analytics gebruikt om rapporten te trekken. Een organisatie kan vele rapportreeksen hebben, elk die verschillende gegevensreeksen bevatten. Afzonderlijke rapportsuites waren in het verleden belangrijk, maar het hebben van één enkele rapportsuite is voordeliger geworden. De invoering van [virtuele rapportsuites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) en de verwerking van de rapporttijd staat beheerders toe om uw eigen ondergroepen van gegevens tot stand te brengen, die de flexibiliteit toestaan om zowel globale als plaats-specifieke gegevens te verkrijgen.
 
 Dit artikel is bedoeld voor systeembeheerders of Adobe Analytics-beheerders die zich moeten voorbereiden op gegevensverzameling.
 
@@ -24,13 +24,13 @@ Dit artikel is bedoeld voor systeembeheerders of Adobe Analytics-beheerders die 
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Klik op **[!UICONTROL Create New]** > **[!UICONTROL Report Suite]**.
-1. Om de montages van een rapportreeks, in de malplaatjelijst te kopiëren, selecteer of een vooraf bepaald malplaatje of een bestaande rapportreeks om als [malplaatje te gebruiken.](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+1. Om de montages van een rapportreeks, in de malplaatjelijst te kopiëren, selecteer of een vooraf bepaald malplaatje of een bestaande rapportreeks als [sjabloon.](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
 
    >[!NOTE]
    >
-   >Alleen instellingen kunnen worden gekopieerd, niet de gegevens. Als de klantenservice de instellingen overschrijdt, moet u een schriftelijke bevestiging geven aan de disclaimer die door de klantenservice is verstrekt over de betrokken risico&#39;s. Zie [Instellingen niet gekopieerd uit een bronrapportsuite](/help/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) voor meer informatie.
+   >Alleen instellingen kunnen worden gekopieerd, niet de gegevens. Als de klantenservice de instellingen overschrijdt, moet u een schriftelijke bevestiging geven aan de disclaimer die door de klantenservice is verstrekt over de betrokken risico&#39;s. Zie [Instellingen die niet uit een bronrapportsuite zijn gekopieerd](/help/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) voor meer informatie .
 
-1. Vul de velden in die worden beschreven in [New Report Suite.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+1. Vul de velden in die worden beschreven in [Nieuwe rapportsuite.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. Klik op **[!UICONTROL Create Report Suite]**.
 
 Een rapportsuite-id mag maximaal 40 bytes lang zijn. Een rapportsuite-vriendelijke naam heeft een maximumlengte van 255 bytes.
@@ -43,8 +43,8 @@ Dit betekent dat aan uw account niet de juiste machtigingen voor Analytics zijn 
 
 **Nadat u zich hebt aangemeld bij Adobe Analytics, ontbreken de pop-up en vervolgkeuzelijst Welkom bij Adobe Analytics.**
 
-Zorg ervoor dat u door [Experience Cloud ](https://experience.adobe.com), en niet door my.omniture.com hebt het programma geopend. Gebruiker die zich via my.omniture.com aanmeldt, beschikt niet over de wizard om de rapportsuite in te stellen.
+Zorg ervoor dat u zich door hebt aangemeld [Experience Cloud](https://experience.adobe.com)en niet via my.omniture.com. Gebruiker die zich via my.omniture.com aanmeldt, beschikt niet over de wizard om de rapportsuite in te stellen.
 
 ## Volgende stappen
 
-[Een Adobe Analytics-eigenschap voor tags maken  ](/help/implement/launch/create-analytics-property.md): Een gebied maken om uw analytische implementatie te beheren
+[Een Adobe Analytics-tageigenschap maken ](/help/implement/launch/create-analytics-property.md): Een gebied maken om uw analytische implementatie te beheren

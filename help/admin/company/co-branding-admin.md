@@ -1,13 +1,12 @@
 ---
 description: Op de pagina Co-branding afbeelding beheren kunt u uw bedrijfslogo in gedownloade rapporten weergeven.
 title: Co-branding
-feature: Admin Tools
-uuid: 918db633-44bb-4502-bd04-98a6337a166c
+feature: Company Settings
 exl-id: 0297086d-4bff-44ab-9ad2-4f036215a2f9
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 6%
+source-wordcount: '62'
+ht-degree: 3%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 6%
 
 Op de pagina Co-branding van afbeeldingen beheren kunt u uw bedrijfslogo weergeven in gedownloade rapporten en analyses en verouderde dashboards. Co-branding wordt niet gebruikt in Analysis Workspace.
 
-**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL All admin]** >  **[!UICONTROL Company settings]** >  **[!UICONTROL Co-Brand the Adobe Experience Cloud]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Co-Brand the Adobe Experience Cloud]**
 
 Gebruik de volgende richtlijnen voor afbeeldingen voor de beste resultaten:
 

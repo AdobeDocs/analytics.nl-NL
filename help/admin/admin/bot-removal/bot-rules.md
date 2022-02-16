@@ -1,11 +1,9 @@
 ---
 description: Met beide regels kunt u verkeer verwijderen dat wordt gegenereerd door bekende spinnen en bots uit uw rapportsuite. Door beide verkeer te verwijderen, kunt u de gebruikersactiviteit op uw website nauwkeuriger meten.
-subtopic: Bot rules
 title: Bot Rules - overzicht
 feature: Admin Tools
-uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 0%

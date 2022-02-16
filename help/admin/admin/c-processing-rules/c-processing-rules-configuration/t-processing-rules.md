@@ -2,14 +2,12 @@
 description: De verwerkingsregels worden vastgesteld voor de rapportsuites.
 subtopic: Processing rules
 title: Verwerkingsregels maken
-feature: Admin Tools
-uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
+feature: Processing Rules
 exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 7%
+source-wordcount: '131'
+ht-degree: 6%
 
 ---
 
@@ -20,14 +18,14 @@ De verwerkingsregels worden vastgesteld voor de rapportsuites.
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Selecteer een rapportsuite.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]**.
-1. Klik op **[!UICONTROL Processing Rules]** op de pagina.**[!UICONTROL Add Rule]**
-1. Klik **[!UICONTROL Add Condition]** en selecteer dan wanneer de regel van toepassing is.
+1. Op de **[!UICONTROL Processing Rules]** pagina, klikt u op **[!UICONTROL Add Rule]**.
+1. Klikken **[!UICONTROL Add Condition]** en selecteer vervolgens wanneer de regel van toepassing is.
 
-   Als u meer dan één voorwaarde toevoegt, klik **[!UICONTROL All]** drop down doos om te selecteren welke voorwaarden voor de toe te passen regel moeten aanpassen. Als u geen voorwaarden toevoegt, wordt de gedefinieerde actie altijd uitgevoerd.
+   Als u meerdere voorwaarden toevoegt, klikt u op de knop **[!UICONTROL All]** keuzelijst om aan te geven welke voorwaarden moeten overeenkomen met de regel die moet worden toegepast. Als u geen voorwaarden toevoegt, wordt de gedefinieerde actie altijd uitgevoerd.
 
-1. Klik **[!UICONTROL Add Action]** en selecteer dan de actie u uitgevoerd wilt wanneer de voorwaarden aanpassen.
+1. Klikken **[!UICONTROL Add Action]** en selecteer vervolgens de actie die u wilt uitvoeren wanneer de voorwaarden overeenkomen.
 1. Voeg een nota toe die details op de regel bevat en klik dan **[!UICONTROL Save]**.
 
    Als u meerdere regels hebt, sleept u deze naar de pagina om de verwerkingsvolgorde te wijzigen.
 
-   Zie [Voorbeelden van Regels van de Verwerking](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md) voor informatie over de soorten regels u kunt tot stand brengen.
+   Zie [Voorbeelden van verwerkingsregels](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md) voor meer informatie over de soorten regels die u kunt maken.

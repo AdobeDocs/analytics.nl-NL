@@ -1,14 +1,12 @@
 ---
-description: Een rapportsuite definieert de volledige, onafhankelijke rapportage op een gekozen website, een set websites of een subset van webpagina's. Doorgaans is een rapportenpakket één website, maar het kan een globaal segment zijn waar u verscheidene aantallen van plaatsen hebt gecombineerd om totalen te krijgen. Wanneer u zich bij om het even welke oplossing van Adobe Analytics aanmeldt, selecteert u één te gebruiken rapportreeks (behalve wanneer u roll-ups gebruikt die rapportreeksen combineren). Bovendien kan een rapportsuite kleiner zijn dan een website als u rapporten voor een gedeelte van uw site wilt uitvoeren. De oplossingen van Analytics groeperen en rapporteren over deze gegevensopslag. Met Beheer Report Suite Manager kunt u de regels definiëren die bepalen hoe gegevens in een rapportsuite worden verwerkt.
+description: Een rapportsuite definieert de volledige, onafhankelijke rapportage op een gekozen website, een set websites of een subset van webpagina's.
 title: Rapportsuitebeheer
-feature: Admin Tools
-uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
+feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 2%
+source-wordcount: '427'
+ht-degree: 3%
 
 ---
 
@@ -20,11 +18,11 @@ Een rapportsuite definieert de volledige, onafhankelijke rapportage op een gekoz
 
 >[!NOTE]
 >
->Virtuele rapportsets worden beheerd via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Raadpleeg de documentatie [Virtual Report Suite](/help/components/vrs/vrs-about.md).
+>Virtuele rapportsets worden beheerd via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Raadpleeg de [Documentatie van Virtual Report Suite](/help/components/vrs/vrs-about.md).
 
-## Beschrijvingen {#section_0C94DC9EACDA4F5891F5CD63EE80B125} rapporteren in Suite Manager
+## Beschrijvingen van rapportmanager {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-In de volgende tabel worden de elementen op de pagina [!UICONTROL Report Suite Manager] beschreven.
+In de volgende tabel worden de elementen in de [!UICONTROL Report Suite Manager] pagina.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -36,7 +34,7 @@ In de volgende tabel worden de elementen op de pagina [!UICONTROL Report Suite M
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rapportsuite selecteren</span> </td> 
-   <td colname="col2"> <p>De <span class="wintitle"> Manager van de Reeks van het Rapport</span> benadrukt een geselecteerde rapportreeks. U kunt veelvoudige rapportreeksen met <span class="uicontrol"> Ctrl+click</span> of <span class="uicontrol"> Shift+click</span> selecteren. </p> <p>Een geselecteerde rapportsuite blijft geselecteerd totdat u een andere rapportsuite selecteert. </p> </td> 
+   <td colname="col2"> <p>De <span class="wintitle"> Report Suite Manager</span> benadrukt een geselecteerde rapportreeks. U kunt veelvoudige rapportreeksen selecteren met <span class="uicontrol"> Ctrl+klikken</span> of <span class="uicontrol"> Shift+klikken</span>. </p> <p>Een geselecteerde rapportsuite blijft geselecteerd totdat u een andere rapportsuite selecteert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Download</span> </td> 
@@ -52,11 +50,11 @@ In de volgende tabel worden de elementen op de pagina [!UICONTROL Report Suite M
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Opgeslagen zoekopdrachten</span> </td> 
-   <td colname="col2"> <p>Een dynamische groep die de functie <span class="wintitle"> Geavanceerd zoeken</span> gebruikt om een reeks criteria te bepalen die zijn leden bepaalt. Als u rapportsuites toevoegt of wijzigt in <span class="wintitle"> Report Suite Manager</span>, voegt <span class="wintitle"> Saved Search</span> automatisch die rapportsuites toe die aan zijn criteria voldoen. </p> </td> 
+   <td colname="col2"> <p>Een dynamische groep die de klasse <span class="wintitle"> Geavanceerd zoeken</span> gebruiken om een reeks criteria te definiëren die de leden bepaalt. Terwijl u rapportsuites toevoegt of wijzigt in het dialoogvenster <span class="wintitle"> Report Suite Manager</span>de <span class="wintitle"> Opgeslagen zoekopdracht</span> voegt automatisch die rapportsuites toe die aan zijn criteria voldoen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rolluizen</span> </td> 
-   <td colname="col2"> <p>Een rollup is één rapportreeks die de volgende gegevens van verscheidene andere rapportreeksen combineert. </p> <p>Zie <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup Report Suites</a>. </p> </td> 
+   <td colname="col2"> <p>Een rollup is één rapportreeks die de volgende gegevens van verscheidene andere rapportreeksen combineert. </p> <p>Zie <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup-rapportoplossingen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Instellingen bewerken</span> </td> 
@@ -68,7 +66,7 @@ In de volgende tabel worden de elementen op de pagina [!UICONTROL Report Suite M
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Kolommen aanpassen</span> </td> 
-   <td colname="col2">Hiermee kunt u kolommen kiezen om toe te voegen aan <span class="wintitle"> Report Suite Manager</span>. </td> 
+   <td colname="col2">Hiermee kunt u kolommen kiezen die u wilt toevoegen aan de <span class="wintitle"> Report Suite Manager</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rapportsuite-id</span> </td> 

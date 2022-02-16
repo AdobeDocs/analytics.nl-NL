@@ -1,14 +1,12 @@
 ---
 description: Adobe vereist voorafgaande kennisgeving voor nieuwe accountinstellingen, verkeerspikes en verkeersverhogingen. Hardware moet vooraf worden toegewezen om latentie en mogelijke negatieve effecten voor het gehele systeem tot een minimum te beperken.
 title: Vereiste aanlooptijd voor traffic-toename
-feature: Admin Tools
-uuid: aa3fb882-51b0-458f-917b-7c54d5659623
+feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 5%
+source-wordcount: '332'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +18,7 @@ De toewijzing van hardware wordt bepaald door waarschuwingen die via de gebruike
 
 >[!IMPORTANT]
 >
->Adobe kan geen verzoeken van de &quot;placeholder&quot;verkeersverandering aanpassen. Tenzij anders vermeld, moet u zo nauwkeurig mogelijk de voorgestelde aanlooptijd in acht nemen, inclusief het niet te vroeg verzenden van een waarschuwing. Zie [Plan een verkeerspin](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) of [Geef een permanente verkeersverhoging](/help/admin/c-traffic-management/t-traffic-permanent.md) op.
+>Adobe kan geen verzoeken van de &quot;placeholder&quot;verkeersverandering aanpassen. Tenzij anders vermeld, moet u zo nauwkeurig mogelijk de voorgestelde aanlooptijd in acht nemen, inclusief het niet te vroeg verzenden van een waarschuwing. Zie [Plan een verkeerspiek](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) of [Permanente verkeersverhoging opgeven](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
 Gebruik de volgende richtlijnen om te bepalen hoe ver van tevoren u een verkeersalarm moet voorleggen:
 

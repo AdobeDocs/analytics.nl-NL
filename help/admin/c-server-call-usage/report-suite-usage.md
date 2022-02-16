@@ -1,9 +1,9 @@
 ---
 description: Het lusje van het Gebruik van de Reeks van het Rapport verstrekt de gegevens van het servergebruik voor elke rapportreeks in alle Login bedrijven verbonden aan uw Facturerend bedrijf, voor de huidige gebruiksperiode.
 title: Gebruik van rapportsuites weergeven
-uuid: c609ed99-9acc-4023-905a-81a40dd07a79
+feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Het dashboard Gebruik rapportsuite
 * Toont percentage van algemeen gebruik per categorie van de servervraag.
 * Wordt dagelijks bijgewerkt.
 * Kan worden gedownload.
-* Hiermee hebt u toegang tot de interface **[!UICONTROL Manage Alerts]**.
+* Hiermee krijgt u toegang tot de **[!UICONTROL Manage Alerts]** UI.
 
 ![](assets/report-suite-usage.png)
 
@@ -42,7 +42,7 @@ Het dashboard Gebruik rapportsuite
 
 ## Gebruiksrapport downloaden {#section_D7345660B5E043CD8850954216509A3D}
 
-Met deze optie kunt u huidige gebruiksgegevens en gegevens downloaden uit tijdsperiodes voorafgaand aan de huidige gebruiksperiode (van januari 2015). Het rapport wordt gedownload als een CSV-bestand.
+Met deze optie kunt u huidige gebruiksgegevens en gegevens downloaden uit tijdsperioden voorafgaand aan de huidige gebruiksperiode (van januari 2015). Het rapport wordt gedownload als een CSV-bestand.
 
 1. Selecteer minstens één rapportsuite.
 1. Klik op **[!UICONTROL Download Report]**.
@@ -53,8 +53,8 @@ Met deze optie kunt u huidige gebruiksgegevens en gegevens downloaden uit tijdsp
 |--- |--- |
 | Bestandsnaam | Hardcoded naam: Gebruiksrapport `day and time of report creation.csv` |
 | Opgenomen rapportageopties | Om het even welke rapportreeksen u op de pagina van het Gebruik van de Server van het Rapport selecteerde zijn inbegrepen in deze lijst. |
-| Inclusief vraagtypes | Geef een willekeurige combinatie van deze opties op:  Alle Vraag (Gebrek), Primair, Secundair, Mobiel Primair, Secundair Mobiel. |
-| Tijdbereik | U kunt de huidige gebruiksperiode kiezen of een aangepast bereik opgeven.  Voor een douanewaaier, specificeer het Begin van de Waaier en het Eind van de Waaier. <br>**Opmerking:** u kunt vóór januari 2015 geen gebruiksgegevens downloaden  </br>. |
+| Opgenomen vraagtypes | Geef een willekeurige combinatie van deze opties op: Alle Vraag (Gebrek), Primair, Secundair, Mobiel Primair, Secundair Mobiel. |
+| Tijdbereik | U kunt de huidige gebruiksperiode kiezen of een aangepast bereik opgeven.  Voor een douanewaaier, specificeer het Begin van de Waaier en het Eind van de Waaier. <br>**Opmerking:** U kunt vóór januari 2015 geen gebruiksgegevens downloaden </br>. |
 
 1. Klik op **[!UICONTROL Download]**.
 

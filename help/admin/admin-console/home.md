@@ -2,7 +2,8 @@
 title: Analyses in de Adobe Admin Console
 description: Leer de Adobe Admin Console te gebruiken om analyseproducten en -gebruikers te beheren.
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 7%
@@ -11,7 +12,7 @@ ht-degree: 7%
 
 # Analyses in de Adobe Admin Console
 
-Met de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) kunt u producten en gebruikers van Analytics beheren. Adobe Admin Console bevindt zich op [adminconsole.adobe.com](https://adminconsole.adobe.com/).
+Gebruik de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) om analyseproducten en -gebruikers te beheren. Adobe Admin Console bevindt zich op [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 
 In dit hoofdstuk worden de concepten uitgelegd die u moet begrijpen voor productprofielen en -machtigingen die specifiek zijn voor Analytics in de Adobe Admin Console.
 

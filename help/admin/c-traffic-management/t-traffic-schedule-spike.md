@@ -1,8 +1,9 @@
 ---
 title: Een traffic-piek plannen
 description: De partner met Adobe om ervoor te zorgen de hoog-verkeersgebeurtenissen geen latentie ervaren.
+feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 2%
@@ -15,14 +16,14 @@ Adobe probeert aan partner met cliënten ervoor te zorgen dat een hoog-verkeersg
 
 De geavanceerde server-zijgegevens die met verscheidene specifiek personeel in evenwicht brengen worden gebruikt om ervoor te zorgen dat alle klanten de meest bijgewerkte mogelijke rapporten hebben. Aangezien uw organisatie Adobe van pieken in verkeer op de hoogte brengt, kan Adobe ervoor zorgen dat de plotselinge toename in verkeer een positieve ervaring is. Als de Adobe niet op de hoogte wordt gebracht van een toename van het verkeer, kan de latentie tijdens kritieke verslagperioden toenemen.
 
-Gelieve te lezen de informatie over [Vereiste Tijd van de Lood voor de Toename van het Verkeer ](/help/admin/c-traffic-management/traffic-lead-time.md) alvorens u een verkeerspiek plant.
+Lees de informatie over [Vereiste Leadtijd voor de Toename van het Verkeer](/help/admin/c-traffic-management/traffic-lead-time.md) voordat u een verkeersspiek plant.
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**.
 1. Een rapportsuite selecteren.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic Management]** > **[!UICONTROL Schedule Spike]**.
-1. Geef in het veld **[!UICONTROL Spike Start Date]** de datum op waarop de verkeerspiek moet beginnen.
-1. Geef in het veld **[!UICONTROL Spike End Date]** de datum op waarop de verkeerspiek moet eindigen.
-1. Geef in het veld **[!UICONTROL Expected Daily Page Views During Spike]** de totale verwachte weergaven van de dagelijkse pagina op tijdens de periode van de verkeersspiek en klik vervolgens op **[!UICONTROL Submit]**.
+1. In de **[!UICONTROL Spike Start Date]** veld, geeft u de datum op waarop de verkeerspiek moet beginnen.
+1. In de **[!UICONTROL Spike End Date]** veld, geeft u de datum op waarop de verkeerspiek moet eindigen.
+1. In de **[!UICONTROL Expected Daily Page Views During Spike]** veld, geeft u de totaal verwachte weergaven van de dagelijkse pagina tijdens de periode van de verkeersspiegel op en klikt u vervolgens op **[!UICONTROL Submit]**.
 
    Zorg ervoor dat u de totaal verwachte paginaweergaven opgeeft en niet alleen de extra paginaweergaven.
 
@@ -42,6 +43,6 @@ Wanneer de klanten Adobe van verkeerspikes voor elke rapportreeks op de hoogte b
 
 Adobe wil ervoor zorgen dat uw ervaring met actuele rapportage consistent is. Om deze taak het meest effectief te doen, adviseert Adobe hoogst het volgende:
 
-* Plan alle verkeerspikes volgens [Vereiste Lead Tijd voor Verhogingen](traffic-lead-time.md). **Het is vooral belangrijk dat alle in de maanden november-december verwachte verkeersopstoppingen tegen 15 september** gepland zijn. Als u de deadline mist, plant dan zo snel mogelijk uw punt. Minder doorlooptijd is beter dan geen, en Adobe werkt met de huidige middelen om uw rapportsuites het best aan te passen.
+* Plan alle verkeerspikes volgens [Vereiste Leadtijd voor de Toename van het Verkeer](traffic-lead-time.md). **Het is vooral belangrijk dat alle in de maanden november-december verwachte verkeersopstoppingen tegen 15 september zijn gepland**. Als u de deadline mist, plant dan zo snel mogelijk uw punt. Minder doorlooptijd is beter dan geen, en Adobe werkt met de huidige middelen om uw rapportsuites het best aan te passen.
 * Als Adobe contact u betreffende een geplande verkeerspiek contacteert, ben zeker om mee te delen als rapportering in real time of volledige verwerking het melden belangrijker is. Sommige organisaties vertrouwen meer op Real-Time rapportering dan andere. Begrijpen welk type van rapportering u gebruikt kan Adobe helpen rangschikken dienovereenkomstig.
 * Door contact op te nemen met uw accountmanager kunnen de belangrijkste rapporten worden weergegeven en wanneer u deze ophaalt, kunt u ze helpen voor u te pleiten.

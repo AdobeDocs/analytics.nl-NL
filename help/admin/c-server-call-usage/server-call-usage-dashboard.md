@@ -1,15 +1,14 @@
 ---
 description: Hoe te om het huidige gebruik van de servervraag in Adobe Analytics te bekijken.
 title: Huidig gebruik van server calls weergeven
-uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+feature: Server Call Usage
+exl-id: 07eac732-b9d6-41ab-be34-5688eaa8166e
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 3%
 
 ---
-
 
 # Huidig gebruik van server calls weergeven
 
@@ -21,7 +20,7 @@ ht-degree: 3%
 
 Het huidige verbruiksdashboard
 
-* Toont een onderbreking van uw verbruik van de servervraag en verplichting over elk van uw server-vraag types. Deze weergave kan verschillen voor verschillende klanten en is consistent met wat uw contract bevat. Bijvoorbeeld, kunt u zich voor 4 afzonderlijke types van servervraag, Primair en Secundair voor Web en Primair en Secundair voor Mobiel hebben aangemeld. In dat geval bestaat dit standpunt uit vier tabbladen, één voor elk type. Binnen elk tabblad kunt u het verbruik voor de huidige gebruiksperiode weergeven.
+* Toont een onderbreking van uw verbruik van de servervraag en verplichting over elk van uw server-vraag types. Deze weergave kan verschillen voor verschillende klanten en is consistent met wat uw contract bevat. Bijvoorbeeld, kunt u zich voor 4 afzonderlijke types van servervraag, Primair en Secundair voor Web en Primair en Secundair voor Mobiel hebben aangemeld. In dat geval bestaat dit standpunt uit vier tabbladen, één voor elk type. Binnen elke tab kunt u het verbruik voor de huidige gebruiksduur bekijken.
 * Vergelijkt huidig gebruik (groene lijn) met uw contractuele gebruiksgrens (rode lijn).
 
    ![](assets/current_period.png)
@@ -30,7 +29,7 @@ Het huidige verbruiksdashboard
 
    >[!NOTE]
    >
-   >Als u het gebruik voor een vorige periode wilt bekijken, moet u [Gebruik van de Reeks van het Rapport ](/help/admin/c-server-call-usage/report-suite-usage.md) tabel gaan en de gebruiksgegevens voor een vorige periode downloaden.
+   >Als u het gebruik van een vorige periode wilt bekijken, moet u naar [Gebruik van rapportsuite](/help/admin/c-server-call-usage/report-suite-usage.md) en downloadt u de gebruiksgegevens voor een vorige periode.
 
 * Maakt een lijst van het percentage gebruikte vraag (in percentages en ruwe gegevens), en het percentage van de gebruikte gebruiksperiode (in percentages en ruwe gegevens).
 * Standaard wordt deze standaard dagelijks bijgewerkt met een 5-daagse verwerkingslatentie.

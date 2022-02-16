@@ -1,9 +1,9 @@
 ---
 description: Hiermee worden API's weergegeven die door de gebruikersmigratie worden beïnvloed
 title: API's die worden beïnvloed door de migratie van gebruikers
-uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
+feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # API&#39;s die worden beïnvloed door de gebruikersmigratie{#apis-affected-by-the-migration}
 
-Adobe migreert alle aanmeldingsbedrijven voor Analytics ver van [!DNL my.omniture.com] naar verificatie via de Adobe Experience Cloud. Zodra een bedrijf met deze migratie begint, zullen de programmatic gebruikersverwezenlijking en het beheer door de Analytics-specifieke toestemmingen en de methodes `GetLoginKey` beschikbaar via v1.3 en v1.4 van Analytics Admin API niet meer worden gesteund. Dergelijke acties zullen nu over de Experience Cloud via [!DNL adobe.io] worden toegelaten.
+Adobe migreert alle aanmeldingsbedrijven voor Analytics ver van [!DNL my.omniture.com] en op verificatie via de Adobe Experience Cloud. Zodra een bedrijf met deze migratie begint, programmatic gebruikersverwezenlijking en beheer door de Analytics-Specifieke toestemmingen en `GetLoginKey` methoden die beschikbaar zijn via v1.3 en v1.4 van de API voor Analytics Admin worden niet meer ondersteund. Dergelijke acties worden nu in de hele Experience Cloud ingeschakeld via [!DNL adobe.io].
 
 ## Betrokken API-methoden {#section-d19051ac26cc49aeb124f767c4760254}
 

@@ -2,13 +2,11 @@
 description: Met verwerkingsregels kunt u gegevens wijzigen op basis van gedefinieerde voorwaarden. Wanneer kenmerken of waarden overeenkomen met gedefinieerde voorwaarden, kunnen waarden worden ingesteld en verwijderd en kunnen gebeurtenissen worden ingesteld.
 subtopic: Processing rules
 title: De werking van verwerkingsregels
-feature: Admin Tools
-uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
+feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 2%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 2%
 
 Met verwerkingsregels kunt u gegevens wijzigen op basis van gedefinieerde voorwaarden. Wanneer kenmerken of waarden overeenkomen met gedefinieerde voorwaarden, kunnen waarden worden ingesteld en verwijderd en kunnen gebeurtenissen worden ingesteld.
 
-De verwerkingsregels worden toegepast op gegevens aangezien het wordt verzameld, en de regels worden toegepast op alle gegevens die door de bibliotheken AppMeasurement en door de Invoeging API van Gegevens komen. De verwerkingsregels zijn ook van toepassing op de volledige gegevensbronnen en de loggegevens. Deze bronnen bevatten gegevens die een *`hit`* of een actie vertegenwoordigen die een gebruiker neemt. De verwerkingsregels zijn niet van toepassing op andere gegevensbronnen.
+De verwerkingsregels worden toegepast op gegevens aangezien het wordt verzameld, en de regels worden toegepast op alle gegevens die door de bibliotheken AppMeasurement en door de Invoeging API van Gegevens komen. De verwerkingsregels zijn ook van toepassing op de volledige gegevensbronnen en de loggegevens. Deze bronnen bevatten gegevens die een *`hit`* of een handeling die een gebruiker uitvoert. De verwerkingsregels zijn niet van toepassing op andere gegevensbronnen.
 
 ## Belangrijke concepten {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -41,15 +39,15 @@ De volgende lijst bevat zeer belangrijke concepten u moet begrijpen wanneer het 
   </tr> 
   <tr> 
    <td colname="col1"> <p>De verwerkingsregels worden onmiddellijk toegepast op de rapportsuite nadat ze zijn opgeslagen. </p> </td> 
-   <td colname="col2"> <p>Wijzigingen in de verwerkingsregels moeten binnen enkele minuten na opslaan zichtbaar zijn in de rapportsuite. Wanneer het testen van verwerkingsregels, adviseren wij vormend <a href="/help/admin/admin/realtime/t-realtime-admin.md"> rapporten in real time</a> in uw reeks van het testrapport zodat kunt u de resultaten van een verwerkingsregel snel zien. </p> </td> 
+   <td colname="col2"> <p>Wijzigingen in de verwerkingsregels moeten binnen enkele minuten na opslaan zichtbaar zijn in de rapportsuite. Bij het testen van verwerkingsregels raden we aan om te configureren <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time rapporten</a> in uw reeks van het testrapport zodat kunt u de resultaten van een verwerkingsregel snel zien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>De verwerkingsregels zijn de enige manier om tot de variabelen van contextgegevens toegang te hebben. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Een contextgegevensvariabele naar een eVar kopiëren  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Een contextgegevensvariabele naar een eVar kopiëren </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>De verwerkingsregels worden toegepast vóór de regels van VISTA en de regels van het Kanaal van de Marketing. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> Verwerkingsvolgorde  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> Verwerkingsvolgorde </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dit kan niet worden uitgesloten. </p> </td> 
@@ -81,11 +79,11 @@ De volgende lijst bevat zeer belangrijke concepten u moet begrijpen wanneer het 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Waardevergelijkingen in de gebruikersinterface zijn niet hoofdlettergevoelig. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Waarden opschonen in een rapport  </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Waarden opschonen in een rapport </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Namen van contextgegevensvariabelen mogen alleen alfanumerieke tekens, onderstrepingstekens en punten bevatten. Eventuele extra tekens worden verwijderd. </p> </td> 
-   <td colname="col2"> <p>Bijvoorbeeld, wordt de variabele <code> login_page-home</code> automatisch <code> login_pagehome</code>. Alle gegevens die naar de variabele <code> login_page-home</code> worden verzonden, worden toegewezen onder <code> login_pagehome</code>. </p> <p>Contextgegevensvariabelen die niet-ondersteunde tekens bevatten, kunnen niet worden toegevoegd aan de interface Verwerkingsregels. </p> </td> 
+   <td colname="col2"> <p>De variabele met contextgegevens <code> login_page-home</code> automatisch wordt <code> login_pagehome</code>. Alle gegevens die naar de <code> login_page-home</code> variabele wordt toegewezen onder <code> login_pagehome</code>. </p> <p>Contextgegevensvariabelen die niet-ondersteunde tekens bevatten, kunnen niet worden toegevoegd aan de interface Verwerkingsregels. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caret (^) is een speciaal karakter in het systeem van verwerkingsregels. </p> </td> 
@@ -102,8 +100,8 @@ U kunt een regel zonder voorwaarden maken om gedefinieerde handelingen altijd ui
 
 Variabelen worden niet automatisch gecontroleerd op waarden voordat handelingen worden uitgevoerd. Bijvoorbeeld, bevat Prop1 een waarde van &quot;iets&quot;, en eVar1 is leeg. Als u Prop1 instelt op gelijk aan eVar1, zijn beide waarden leeg. Als u dit moet vermijden, voegt u een voorwaarde toe om de aanwezigheid van een waarde te controleren.
 
-## Handelingen voor verwerkingsregel {#section_E2285C9D008442C7BF136E52A9A4CC06}
+## Handelingen voor regelverwerking {#section_E2285C9D008442C7BF136E52A9A4CC06}
 
 Met handelingen worden paginariabelen ingesteld, paginariabelen verwijderd of gebeurtenissen geactiveerd. Handelingen kunnen ook waarden samenvoegen die in een rapport worden weergegeven.
 
-U kunt bijvoorbeeld `category:product` weergeven door twee variabelen samen te voegen.
+U kunt bijvoorbeeld `category:product` door twee variabelen samen te voegen.

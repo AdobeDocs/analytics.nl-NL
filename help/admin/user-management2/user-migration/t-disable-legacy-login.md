@@ -1,29 +1,30 @@
 ---
 description: Leer hoe u oude aanmeldingsgegevens voor Analytics-gebruikers uitschakelt.
 title: Verouderde logins uitschakelen
-uuid: 085874b2-10bf-4a56-a337-f3104428d71e
-translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+feature: Admin Tools
+exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+workflow-type: tm+mt
+source-wordcount: '174'
+ht-degree: 3%
 
 ---
-
 
 # Verouderde logins uitschakelen{#disable-legacy-logins}
 
 Leer hoe u oude aanmeldingsgegevens voor Analytics-gebruikers uitschakelt.
 
-Nadat uw gebruikers zijn gemigreerd van het verouderde Analytics-gebruikersbeheersysteem naar de Adobe Admin Console, kunt u hun oude aanmeldingsgegevens uitschakelen. Als u oude aanmeldingen uitschakelt, worden gebruikers omgeleid naar de aanmeldingsgegevens voor de Experience Cloud als ze de oudere aanmelding willen gebruiken.
+Nadat uw gebruikers zijn gemigreerd van het verouderde Analytics-gebruikersbeheersysteem naar de Adobe Admin Console, kunt u hun oude aanmeldingsgegevens uitschakelen. Als u oude aanmeldingspogingen uitschakelt, worden gebruikers omgeleid naar de Experience Cloud-aanmelding als ze de oude aanmelding proberen te gebruiken.
 
-1. Open het gereedschap Migratie in **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**.
-1. Zoek in de [!DNL User Information] sectie het domein met de gebruikers waarmee u wilt werken en klik op **[!UICONTROL Select Users]**.
+1. Het migratiehulpprogramma openen in **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**.
+1. In de [!DNL User Information] , zoekt u het domein met de gebruikers waarmee u wilt werken, en klikt u op **[!UICONTROL Select Users]**.
 1. Selecteer de gebruikers met verouderde logins die u wilt uitschakelen.
 
    ![](assets/user-info.png)
 
-   Gebruikers die hiervoor in aanmerking komen, hebben de status &quot;status&quot; *`Migrated`* onder de kolom &quot;Migratiestatus&quot;. U kunt de oudere aanmelding van een gebruiker pas uitschakelen nadat deze is gemigreerd.
-1. Klik **[!UICONTROL Disable Legacy Login]** en klik vervolgens op **[!UICONTROL Done]**.
+   De in aanmerking komende gebruikers hebben de status *`Migrated`* onder de kolom Migratiestatus. U kunt de oudere aanmelding van een gebruiker pas uitschakelen nadat deze is gemigreerd.
+1. Klikken **[!UICONTROL Disable Legacy Login]** en klik vervolgens op **[!UICONTROL Done]**.
 
-   Schakel Oudere aanmelding uit om aan te geven welke gebruikers hun oude [!DNL my.omniture.com] gebruikersnaam en wachtwoord kunnen blijven gebruiken.
+   Schakel Oudere aanmelding uit om aan te geven welke gebruikers hun bestaande versie kunnen blijven gebruiken [!DNL my.omniture.com] gebruikersnaam en wachtwoord.
 
-   U kunt oudere aanmeldingen niet uitschakelen voor een gebruiker die nog moet worden gemigreerd. Als de functie eenmaal is uitgeschakeld, moet de gebruiker de Cloud-id van Experience gebruiken om zich aan te melden en toegang te krijgen tot Analytics.
-
+   U kunt oudere aanmeldingen niet uitschakelen voor een gebruiker die nog moet worden gemigreerd. Als de Experience Cloud-id eenmaal is uitgeschakeld, moet de gebruiker zich aanmelden en toegang krijgen tot Analytics.
