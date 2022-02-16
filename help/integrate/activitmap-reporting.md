@@ -2,12 +2,11 @@
 description: Administratieve stappen voor het toelaten van Activity Map rapportering in Analytics.
 title: Activity Map-rapportage
 feature: Activity Map
-uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 9%
+source-wordcount: '142'
+ht-degree: 7%
 
 ---
 
@@ -29,4 +28,4 @@ Laat Analytics toe om gebruikersactiviteit te verzamelen die bij Activity Map (v
    | Koppelingen Activity Mappen | Hiermee geeft u alle verzamelde koppelingen op de hele website weer. |
    | Koppelingen en regio Activity Mappen | Hiermee geeft u alle verzamelde koppelingen met hun regio op de hele website weer. |
 
-Voor te vullen gegevens, verwijs naar [Activity Map documentatie](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) voor volledige implementatieinstructies.
+Voor gegevens die moeten worden gevuld, raadpleegt u de [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) voor volledige implementatieinstructies.
