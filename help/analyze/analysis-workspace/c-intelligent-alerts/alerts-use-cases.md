@@ -1,13 +1,12 @@
 ---
 description: Gebruik gevallen voor intelligente waarschuwingen.
 title: Intelligente waarschuwingen - gebruiksgevallen
-uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-feature: AI-gereedschappen
+feature: Alerts
 role: User, Admin
 exl-id: a03312ff-47df-451c-9dfa-0597b3a183cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 9%
 
 ---
@@ -26,7 +25,7 @@ Update screenshots for better readability.
 
 ## Een waarschuwing maken op basis van een tabelselectie {#section_AE6D42E1255D498D908A2FA60370A419}
 
-In de Lijsten van de Vrije Vorm, kunt u binnen-context alarm nu tot stand brengen door een lijstrij met de rechtermuisknop aan te klikken en **[!UICONTROL Create Alert from Selection]** te selecteren.
+In de Lijsten van de Vrije Vorm, kunt u binnen-context alarm nu tot stand brengen door een lijstrij met de rechtermuisknop aan te klikken en te selecteren **[!UICONTROL Create Alert from Selection]**.
 
 ![](assets/alert_selection.png)
 

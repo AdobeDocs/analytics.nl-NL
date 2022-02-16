@@ -1,13 +1,12 @@
 ---
 description: Stel een rapport van de Analyse van de Bijdrage in een project van de Werkruimte in werking.
 title: Bijdrageanalyse uitvoeren
-uuid: 5282a5f9-0771-4974-93cb-335204bde114
-feature: AI-gereedschappen
+feature: AI Tools
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '571'
 ht-degree: 3%
 
 ---
@@ -28,20 +27,20 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 
    ![](assets/run_ca.png)
 
-* Houd de muisaanwijzer boven een afwijkend gegevenspunt in een lijndiagram in een lijndiagram. Klik op de koppeling **[!UICONTROL Analyze]** die wordt weergegeven.
+* Houd de muisaanwijzer boven een afwijkend gegevenspunt in een lijndiagram in een lijndiagram. Klik op de knop **[!UICONTROL Analyze]** koppeling die wordt weergegeven.
 
    ![](assets/contribution-analysis.png)
 
-1. (Optioneel) Nadat u in het lijndiagram of een tabel op **[!UICONTROL Run Contribution Analysis]** hebt geklikt, kunt u het bereik van de analyse beperken (en zo de analyse versnellen) met [de afmetingen](#section_F6932F4BF74544B5872164E7B1E0C6FC) uitsluiten.
+1. (Optioneel) Nadat u hebt geklikt **[!UICONTROL Run Contribution Analysis]** in of de lijngrafiek of een lijst, kunt u het werkingsgebied van (en zo versnellen) de analyse door [exclusief afmetingen](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
 1. Wacht terwijl de analyse van uw bijdrage wordt geladen. Dit kan veel tijd in beslag nemen, afhankelijk van de grootte van uw rapportenpakket en het aantal dimensies. De analyse van de bijdrage voert analyse op de hoogste 50.000 punten per dimensie uit.
 1. Analysis Workspace laadt vervolgens een nieuw deelvenster voor de analyse van bijdragen rechtstreeks in dit project. U zult veel vertrouwde panelen opmerken als u Analyse van de Bijdrage in Rapporten &amp; Analytics eerder hebt gebruikt:
 
-   * Een visualisatie die het aantal **Visits** op die dag toont.
-   * Een maandelijkse **Bezoekt trendlijn** voor context.
-   * **De belangrijkste** Punten die tot deze anomalie hebben bijgedragen, die door de  [bijdragescore](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), plus metrisch in kwestie wordt gesorteerd, en een Unieke Metrisch van Bezoekers om metrisch in context vanuit een rangschikkend perspectief te zetten.
+   * Een visualisatie die het aantal **Bezoeken** op die dag.
+   * Maandelijks **Bezoekt trendlijn** voor context.
+   * **Bovenste items** die tot deze anomalie heeft bijgedragen, gesorteerd door de [bijdragescore](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), plus de metrische waarde in kwestie, en een Unieke metrische bezoeker om metrisch in context vanuit een grootteperspectief te zetten.
 
-   * In de tabel [Gegenereerde segmenten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Top Item Clusters) worden koppelingen van de bovenste items aangegeven op basis van de bijdragenscore, anomalieën en het totale percentage dat bijdraagt aan de afwijkende meting. Dit wordt vervolgens vastgelegd als een publiekssegment (bijdragesegment 1, bijdragesegment 2, enz.). Als u op de knop &quot;i&quot; (info) klikt, krijgt u een weergave van de definitie van elk automatisch segment, inclusief de items die er bovenaan staan:
+   * De [Gegenereerde segmenten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Top Item Clusters) de lijst identificeert verenigingen van hoogste punten die op de Score van de Bijdrage, anomalievoorvallen, en algemeen percentage worden gebaseerd die tot anomalische metrisch bijdragen. Dit wordt vervolgens vastgelegd als een publiekssegment (bijdragesegment 1, bijdragesegment 2, enz.). Als u op de knop &quot;i&quot; (info) klikt, krijgt u een weergave van de definitie van elk automatisch segment, inclusief de items die er bovenaan staan:
 
       ![](assets/auto_segment.png)
 
@@ -61,15 +60,15 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 
 Het kan voorkomen dat u bepaalde dimensies wilt uitsluiten van de Contribute-analyse. Het kan bijvoorbeeld zijn dat u helemaal niets aan uw browser of hardware kunt schelen en dat u de analyse wilt versnellen door deze te verwijderen.
 
-1. Nadat u **[!UICONTROL Run Contribution Analysis]** (of **[!UICONTROL Analyze]** in een lijngrafiek) hebt geklikt, toont het **[!UICONTROL Excluded Dimensions]** paneel.
+1. Nadat u hebt geklikt **[!UICONTROL Run Contribution Analysis]** (of **[!UICONTROL Analyze]** in een lijngrafiek), de **[!UICONTROL Excluded Dimensions]** wordt weergegeven.
 
-1. Sleep gewoon ongewenste afmetingen naar het **[!UICONTROL Excluded Dimensions]**-deelvenster en sla de lijst op door op **[!UICONTROL Set as Default]** te klikken. U kunt ook op **[!UICONTROL Clear All]** klikken om opnieuw te beginnen met het selecteren van de afmetingen die u wilt uitsluiten.
+1. Sleep alleen ongewenste afmetingen naar de **[!UICONTROL Excluded Dimensions]** en sla de lijst vervolgens op door op **[!UICONTROL Set as Default]**. Of klik op **[!UICONTROL Clear All]** om opnieuw te beginnen met het selecteren van afmetingen die moeten worden uitgesloten.
 
    ![](assets/exclude_dimensions.png)
 
-1. Klik nogmaals op **[!UICONTROL Run Contribution Analysis]** nadat u afmetingen hebt toegevoegd om uit te sluiten (of wanneer u dit niet wilt doen).
+1. Nadat u de afmetingen hebt toegevoegd om uit te sluiten (of ervoor hebt gekozen niet om te kiezen), klikt u op **[!UICONTROL Run Contribution Analysis]** opnieuw.
 1. Als u ooit de lijst van uitgesloten afmetingen moet herzien, enkel dubbelklik Dimension, en de lijst van uitgesloten dimensies toont:
 
    ![](assets/excluded-dimensions.png)
 
-1. Verwijder gewoon ongewenste afmetingen door op de x naast de elementen te klikken en de lijst vervolgens op te slaan door op **[!UICONTROL Set as Default]** te klikken.
+1. Verwijder ongewenste afmetingen door op de x naast de ongewenste afmetingen te klikken en de lijst vervolgens op te slaan door op **[!UICONTROL Set as Default]**.

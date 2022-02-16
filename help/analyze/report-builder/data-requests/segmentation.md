@@ -1,13 +1,12 @@
 ---
 description: Adobe Analytics-segmenten toevoegen, bewerken, toepassen en filteren in Report Builder.
 title: Segmenten beheren
-uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
@@ -24,10 +23,10 @@ Report Builder heeft een segmentatiepaneel in Stap 1 van de wizard Verzoek waarm
 
 >[!NOTE]
 >
->Om segmenten toe te voegen of uit te geven, lanceert de het segmentinterface van Report Builder de het segmentbouwer van Analytics in een venster van Microsoft Internet Explorer. Uw rapportbuildersessie blijft actief. Andere browsers dan Internet Explorer worden niet ondersteund voor deze bewerking.
+>Om segmenten toe te voegen of uit te geven, lanceert de het segmentinterface van de Report Builder de segmentbouwer van Analytics in een venster van Microsoft Internet Explorer. Uw rapportbuildersessie blijft actief. Andere browsers dan Internet Explorer worden niet ondersteund voor deze bewerking.
 
 1. In het segmentpaneel van Stap 1 van de Tovenaar van het Verzoek, klik **[!UICONTROL Add]**.
-1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Voor informatie over hoe te om segmenten te bouwen, verwijs naar [segmentatie van Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
+1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Voor informatie over hoe te om segmenten te bouwen, verwijs naar [Segmentatie van analyse](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 1. Nadat u het segment hebt bepaald en bewaard, ga terug naar de Tovenaar van het Verzoek.
 1. Klik op het pictogram Vernieuwen om de segmentlijst te vernieuwen.
 
@@ -40,11 +39,11 @@ Report Builder heeft een segmentatiepaneel in Stap 1 van de wizard Verzoek waarm
 U kunt specifieke combinaties rapportafmetingen hebben die u in een segment zou willen veranderen. U kunt deze segmenten van de interface van Report Builder tot stand brengen. Selecteer bijvoorbeeld een paar pagina&#39;s in een paginaaanvraaguitvoer en maak een segment op basis van deze waarden.
 
 1. Selecteer de punten van de rapportoutput u in een segment wilt veranderen.
-1. Klik met de rechtermuisknop om **[!UICONTROL Create In-Context Segment in]** te selecteren en geef de rechtercontainer op (Container bezoekt, Container bezoeker, Container bezoeker).
+1. Klik met de rechtermuisknop om te selecteren **[!UICONTROL Create In-Context Segment in]** en geeft u de rechtercontainer op (de container van Hits, de container van Visitor, de container van de bezoeker).
 
    ![](assets/seg_in_context.png)
 
-   Zie [Segmentatiegids](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) voor meer informatie over containers.
+   Zie voor meer informatie over containers de [Segmenteringsgids](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 
 1. De gebruikersinterface van Segment Builder wordt nu in Internet Explorer gestart. De UI van de Bouwer van het Segment zal met de container en de filter worden geïnitialiseerd u specificeerde.
 1. Nadat u een naam en een beschrijving aan het segment hebt toegevoegd, sparen het.
@@ -53,11 +52,11 @@ U kunt specifieke combinaties rapportafmetingen hebben die u in een segment zou 
 
 ## Segmenten zoeken en toepassen {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Om het even welke segmenten die in Rapporten &amp; Analytics, Report Builder, of Data Warehouse werden gecreeerd verschijnen in deze segmentlijst. Klik op het pictogram Vernieuwen ( ![](assets/refresh_icon.png)) om de lijst te vernieuwen.
+Om het even welke segmenten die in Rapporten &amp; Analytics, Report Builder, of Data Warehouse werden gecreeerd verschijnen in deze segmentlijst. Als u de lijst wilt vernieuwen, klikt u op het pictogram Vernieuwen ( ![](assets/refresh_icon.png).
 
 U kunt één of veelvoudige segmenten op om het even welk bepaald verzoek toepassen. Dit omvat opeenvolgende segmenten.
 
-1. Ga naar **[!UICONTROL Segment]** drop-down lijst en klik kleine benedenpijl in **[!UICONTROL Choose Segment]** doos om alle segmenten te tonen.
+1. Ga naar de **[!UICONTROL Segment]** vervolgkeuzelijst en klik op de kleine pijl-omlaag in het dialoogvenster **[!UICONTROL Choose Segment]** om alle segmenten weer te geven.
 
    ![](assets/seg_list.png)
 
@@ -69,15 +68,15 @@ U kunt één of veelvoudige segmenten op om het even welk bepaald verzoek toepas
 
 ## Segmenten filteren {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtersegmenten** door op het pictogram Filter te klikken:   ![](assets/segment_filter.png)
+**Filter** segmenten door op het pictogram Filter te klikken:  ![](assets/segment_filter.png)
 
 Beschikbare filters zijn:
 
 | Filternaam | Beschrijving |
 |---|---|
-| Tags | Hiermee kunt u filteren op segmenten met specifieke tags. Merk op dat de filters van de Markering de exploitant EN gebruiken. Als u twee markeringen controleert, toont de juiste ruit segmenten die met **allebei** markeringen zijn geëtiketteerd. |
-| Eigenaars | Hiermee kunt u segmenten filteren op eigenaar. Merk op dat eigenaarfilters de operator OR gebruiken. Als u twee eigenaars controleert, toont de juiste ruit segmenten die door **of** eigenaar worden bezeten. |
-| Overige filters > Alleen *naam van rapportsuite* | Als u &quot;slechts *rapportreeksnaam*&quot;filter in de Bouwer van het Segment in [!DNL marketing reports & analytics] toepast, en dan het Geavanceerde Filter in [!DNL report builder] toont, zal de Geavanceerde filter het segment voor de geselecteerde rapportreeks slechts tonen. |
+| Tags | Hiermee kunt u filteren op segmenten met specifieke tags. Merk op dat de filters van de Markering de exploitant EN gebruiken. Als u twee labels controleert, ziet u in het rechterdeelvenster segmenten die zijn gecodeerd **beide** -tags. |
+| Eigenaars | Hiermee kunt u segmenten filteren op eigenaar. Merk op dat eigenaarfilters de operator OR gebruiken. Als u twee eigenaars controleert, toont de juiste ruit segmenten die door worden bezeten **ofwel** eigenaar. |
+| Overige filters > Alleen *naam rapportsuite* | Als u de optie Alleen *naam rapportsuite*&quot;, filter in de Bouwer van het Segment in [!DNL marketing reports & analytics]en geeft u vervolgens het geavanceerde filter weer in [!DNL report builder], zal de Geavanceerde filter het segment voor de geselecteerde rapportreeks slechts tonen. |
 | Overige filters > Mine | Toont alle segmenten die u bezit. |
 | Overige filters > Met mij gedeeld | Hiermee geeft u alle segmenten weer die anderen met u hebben gedeeld. |
 | Overige filters > Favorieten | Hiermee worden alle segmenten weergegeven die u als Favorieten hebt gemarkeerd. |
@@ -87,7 +86,7 @@ Beschikbare filters zijn:
 
 Het toevoegen van een segmentcontrole laat u segmenten van binnen een werkboek in plaats van het moeten in de Tovenaar van het Verzoek gaan.
 
-1. Klik het pictogram van de Controle ( ![](assets/control_icon.png)) naast de segment drop-down.
+1. Klik op het pictogram Besturing ( ![](assets/control_icon.png)) naast de vervolgkeuzelijst segment.
 
    ![](assets/seg_control.png)
 
@@ -98,13 +97,13 @@ Het toevoegen van een segmentcontrole laat u segmenten van binnen een werkboek i
    * Als niet gecontroleerd, worden de bijbehorende verzoekparameters bijgewerkt, maar de verzoeken worden niet verfrist.
 
 1. Specificeer de hogere linkercelplaats van de segmentcontrole.
-1. Klik **[!UICONTROL OK]** en de segmentcontrole verschijnt in de gespecificeerde plaats.
+1. Klikken **[!UICONTROL OK]** en de segmentcontrole verschijnt in de gespecificeerde plaats.
 
    ![](assets/seg_control2.png)
 
 ## Lijst met segmenten vernieuwen {#section_22E4A86789444B4A998532396B476EFB}
 
-Wanneer u een nieuw segment toevoegt of een bestaand segment bewerkt, moet u op het pictogram Vernieuwen ( ![](assets/refresh_icon.png)) klikken om de lijst met segmenten in de cache te vernieuwen.
+Wanneer u een nieuw segment toevoegt of een bestaand segment bewerkt, klikt u op het pictogram Vernieuwen ( ![](assets/refresh_icon.png) om de caching lijst van segmenten te verfrissen.
 
 ## Segmenten in verschillende verzoeken beheren {#section_C3D63FCBE1A94369A319243313B03C93}
 

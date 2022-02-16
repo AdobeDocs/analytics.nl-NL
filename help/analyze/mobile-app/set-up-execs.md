@@ -1,15 +1,15 @@
 ---
-description: Een scorecard voor analytische dashboards maken
-title: Een scorecard maken
+description: Uitvoerende gebruikers hebben mogelijk extra hulp nodig om de app te openen en te gebruiken. Deze sectie verstrekt informatie om u te helpen die hulp verlenen.
+title: Uitvoerende gebruikers instellen met de app
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
+exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
-
 
 # Uitvoerende gebruikers instellen met de app
 
@@ -17,7 +17,7 @@ In sommige gevallen hebben uitvoerende gebruikers wellicht extra hulp nodig om d
 
 ## Zorg ervoor dat gebruikers van apps toegang hebben tot Adobe Analytics
 
-1. Stel nieuwe gebruikers in de [Experience Cloud Admin Console](/help/admin/admin-console/permissions/product-profile.md) in.
+1. Nieuwe gebruikers instellen in het dialoogvenster [Experience Cloud Admin Console](/help/admin/admin-console/permissions/product-profile.md).
 
 1. Om scorecards te kunnen delen, moet u app gebruikers toestemmingen verlenen om tot scorecard componenten zoals Analysis Workspace, de rapportsuites toegang te hebben die scorecards op, evenals segmenten, metriek en dimensies gebaseerd zijn.
 
@@ -28,19 +28,19 @@ Om ervoor te zorgen dat de uitvoerende gebruikers toegang tot uw scorecards op a
 * De minimale mobiele besturingssysteemvereisten op hun apparaten zijn iOS versie 10 of hoger, of Android versie 4.4 (KitKat) of hoger
 * Ze hebben een geldige aanmelding bij Adobe Analytics.
 * U hebt op de juiste wijze mobiele scorecards voor hen gemaakt en deze scorecards met hen gedeeld.
-* Zij hebben toegang tot de Componenten die scorecard omvat. Merk op dat u een optie kunt selecteren wanneer het delen van uw scorecards aan **[!UICONTROL Share embedded components]**.
+* Zij hebben toegang tot de Componenten die scorecard omvat. Let op: u kunt een optie selecteren wanneer u uw scorecards deelt naar **[!UICONTROL Share embedded components]**.
 
 ## Help-managers om app te downloaden en installeren
 
 **Voor uitvoerende gebruikers op iOS:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **Voor uitvoerende gebruikers op Android:**
 
-Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volg de aanwijzingen om de app te downloaden, installeren en openen:
+Klik op de volgende koppeling (deze is ook beschikbaar in Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) en volgt u de aanwijzingen om de app te downloaden, installeren en openen:
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
@@ -52,13 +52,13 @@ Zodra gedownload en geïnstalleerd, kunnen de uitvoerende gebruikers zich in app
 
 1. Gebruikers met een zelfstudie moeten zich aanmelden bij de app.
 
-   Het **[!UICONTROL Choose a company]** scherm verschijnt. Dit scherm maakt een lijst van de login bedrijven waartot de uitvoerende gebruiker behoort.
+   De **[!UICONTROL Choose a company]** wordt weergegeven. Dit scherm maakt een lijst van de login bedrijven waartot de uitvoerende gebruiker behoort.
 
 1. Heb hen tikken de naam van het login bedrijf of Experience Cloud Org die op scorecard van toepassing is u deelde.
 
    De Scorecard lijst toont dan alle scorecards die met het uitvoerend onder dat login bedrijf zijn gedeeld.
 
-1. Laat ze deze lijst sorteren op **[!UICONTROL Most recently modified]**, indien van toepassing.
+1. Deze lijst laten sorteren op **[!UICONTROL Most recently modified]**, indien van toepassing.
 
 1. Laat ze op de naam van het scorebord tikken om het weer te geven.
 
@@ -97,7 +97,7 @@ Aanvullende informatie over tegels:
 
 ## Toepassingsvoorkeuren wijzigen
 
-Tik op de bovenstaande optie **[!UICONTROL Preferences]** om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
+Tik op de knop **[!UICONTROL Preferences]** hierboven weergegeven. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
 
 ![Donkere modus](assets/darkmode.png)
 

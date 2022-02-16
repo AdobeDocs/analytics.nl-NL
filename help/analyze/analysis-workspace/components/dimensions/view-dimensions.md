@@ -1,14 +1,13 @@
 ---
 description: Bekijk de hoogste waarden van een dimensie alvorens het in een project te gebruiken.
 title: Voorvertoningsdimensies
-uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-feature: Basisprincipes van werkruimte
+feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 28%
+source-wordcount: '186'
+ht-degree: 29%
 
 ---
 
@@ -30,4 +29,4 @@ Nu, door gebrek, tonen wij dynamische waarden in plaats van statische degenen, m
 
 Wanneer u de cursor boven een dimensie houdt en op de grijze pijl-rechts naast de dimensie klikt, wordt een lijst met de bijbehorende dimensie-items weergegeven. Een lijst met dimensie-items toont doorgaans de bovenste items voor de laatste 30 dagen.
 
-Als u omlaag naar de onderkant van de lijst schuift, ziet u een **[!UICONTROL Show Top Items From Last 6 Months]**. Klik op deze optie om items met de bovenste dimensie van de afgelopen 180 dagen weer te geven.
+Als u omlaag schuift naar de onderkant van de lijst, ziet u een **[!UICONTROL Show Top Items From Last 6 Months]**. Klik op deze optie om items met de bovenste dimensie van de afgelopen 180 dagen weer te geven.

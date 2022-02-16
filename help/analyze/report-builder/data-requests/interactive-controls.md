@@ -1,13 +1,12 @@
 ---
 description: De interactieve Controles staan u toe om segmenten en datumwaaiers voor één of meerdere verzoeken direct van het aantekenvel uit te geven. Dit geeft u meer flexibiliteit wanneer het bijwerken van de verzoeken van de rapportaannemer.
 title: Interactieve besturingselementen
-uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -24,11 +23,9 @@ Interactieve besturingselementen zijn gemaakt als reactie op een algemene workfl
 >[!IMPORTANT]
 >
 >De interactieve besturingselementen werken alleen als Report Builder v5.0 is geïnstalleerd. >
->* Als u Microsoft Excel op Vensters in werking stelt maar een lagere versie van rapportbouwer in werking stelt, of als u geen geïnstalleerde rapportbouwer hebt: U kunt de waarde in de interactieve controle veranderen, maar het zal niet het bijbehorende verzoek verfrissen, noch de bijbehorende parameters van het verzoek bijwerken.
->* Als u Excel op MAC in werking stelt, zal het veranderen van de waarde in de controle het volgende bericht veroorzaken om worden getoond: &quot;De macro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39; kan niet worden gevonden.&quot;
-
+>* Als u Microsoft Excel op Vensters in werking stelt maar een lagere versie van rapportbouwer in werking stelt, of als u rapportbouwer niet hebt geïnstalleerd: U kunt de waarde in de interactieve controle veranderen, maar het zal niet het bijbehorende verzoek verfrissen, noch de bijbehorende parameters van het verzoek bijwerken.
+>* Als u Excel op Mac in werking stelt, zal het veranderen van de waarde in de controle het volgende bericht veroorzaken om worden getoond: &quot;De macro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39; kan niet worden gevonden.&quot;
 >
-
 
 
 >[!IMPORTANT]
@@ -37,8 +34,8 @@ Interactieve besturingselementen zijn gemaakt als reactie op een algemene workfl
 
 ## Interactief besturingselement voor datumbereik implementeren {#section_39B228F2D2C44985863D31424C953280}
 
-1. In Stap 1 van de Tovenaar van het Verzoek selecteert, bijvoorbeeld, het **[!UICONTROL Page]** rapport.
-1. Klik naast de vervolgkeuzelijst **[!UICONTROL Commonly Used Dates]** op het pictogram **[!UICONTROL Control Settings]**:
+1. In Stap 1 van de Tovenaar van het Verzoek selecteert, bijvoorbeeld **[!UICONTROL Page]** verslag.
+1. Naast de **[!UICONTROL Commonly Used Dates]** klikt u op de knop **[!UICONTROL Control Settings]** pictogram:
 
    ![](assets/date_range_control.png)
 
@@ -70,7 +67,7 @@ Interactieve besturingselementen zijn gemaakt als reactie op een algemene workfl
 
 Het uitvoeren van de interactieve segmentcontrole is gelijkaardig aan het uitvoeren van de controle van de datumwaaier.
 
-1. In Stap 1 van de Tovenaar van het Verzoek, naast **[!UICONTROL Segment]** drop-down lijst, selecteer het pictogram van de Montages van de Controle van het Segment:
+1. In Stap 1 van de Tovenaar van het Verzoek, naast **[!UICONTROL Segment]** vervolgkeuzelijst, selecteert u het pictogram Instellingen Segmentbeheer:
 
    ![](assets/segment_interactive_1.png)
 

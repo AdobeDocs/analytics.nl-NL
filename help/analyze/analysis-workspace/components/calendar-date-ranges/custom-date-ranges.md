@@ -2,13 +2,12 @@
 description: Maak aangepaste datumbereiken in Analysis Workspace en sla deze op als tijdcomponenten.
 keywords: Analysis Workspace
 title: Aangepaste datumbereiken maken
-uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-feature: Basisprincipes van werkruimte
+feature: Calendar
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 4%
 
 ---
@@ -27,7 +26,7 @@ De volgende waaier van de douanedatum toont een datumwaaier voor &quot;twee maan
 
 ![](assets/date-range-two-months-ago.png)
 
-Het aangepaste datumbereik wordt boven aan het deelvenster [!UICONTROL Date Range] in uw project weergegeven:
+Het aangepaste datumbereik wordt boven aan het dialoogvenster [!UICONTROL Date Range] deelvenster in uw project:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
@@ -45,10 +44,10 @@ U kunt bijvoorbeeld een datumbereik maken dat een rolvenster van 7 dagen opgeeft
 
 ![](assets/create_date_range.png)
 
-Gebruik *`rolling daily`*.
+Gebruiken *`rolling daily`*.
 
-* De begininstellingen zijn *`current day minus 14 days`*.
+* De instellingen voor Start worden *`current day minus 14 days`*.
 
-* De instellingen voor Einde zijn *`current day minus 7 days`*.
+* De instellingen voor Einde worden *`current day minus 7 days`*.
 
 Dit datumbereik kan een component zijn die u naar elke vrije-vormtabel sleept.

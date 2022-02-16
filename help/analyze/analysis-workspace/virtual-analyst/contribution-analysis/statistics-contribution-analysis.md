@@ -1,13 +1,12 @@
 ---
 description: De bijdrageanalyse is een intensief machinaal leerproces dat bedoeld is om contribuanten aan een waargenomen anomalie in Adobe Analytics aan het licht te brengen. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
 title: Statistische technieken in bijdrageanalyse
-uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
-feature: AI-gereedschappen
+feature: AI Tools
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '330'
 ht-degree: 3%
 
 ---

@@ -1,13 +1,13 @@
 ---
 description: Gegevensinconsistenties kunnen grote problemen veroorzaken. Leer hoe u statistische anomalieën kunt identificeren met afwijkende detectietechnieken van Adobe. Ga vandaag aan de slag.
 title: Statistische technieken voor anomaliedetectie
-feature: AI-gereedschappen
+feature: Anomaly Detection
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 1%
+source-wordcount: '792'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Afhankelijk van de in het verslag gebruikte datum van granulariteit worden drie 
 
 Voor dagelijkse granularity- rapporten, overweegt het algoritme verscheidene belangrijke factoren om de nauwkeurigste mogelijke resultaten te leveren. Ten eerste bepaalt het algoritme welk type model moet worden toegepast op basis van beschikbare gegevens waarvan we kiezen uit een van de twee klassen - een op tijdreeksen gebaseerd model of een uitbijsteringsdetectiemodel (functionele filtering genoemd).
 
-De modelselectie van tijdreeksen is gebaseerd op de volgende combinaties voor het type fout, trend en seizoensgebondenheid (ETS) zoals beschreven door [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Specifiek, probeert het algoritme de volgende combinaties:
+De modelselectie van tijdreeksen is gebaseerd op de volgende combinaties voor het type fout, trend en seizoensgebondenheid (ETS), zoals beschreven in [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Specifiek, probeert het algoritme de volgende combinaties:
 
 1. ANA (additieve fout, geen trend, additieve seizoensgebondenheid)
 1. AAA (additieve fout, additieve trend, additieve seizoensgebondenheid)
@@ -40,7 +40,7 @@ Na modelselectie past het algoritme vervolgens de resultaten aan op basis van va
 * Cyber maandag
 * 24-26 december
 * Januari 1
-* 31 december
+* December 31
 
 Deze feestdagen werden gekozen op basis van een uitgebreide statistische analyse van vele datapunten van klanten om vast te stellen welke vakanties het meest tot het hoogste aantal trends van klanten hebben beïnvloed. Hoewel de lijst zeker niet uitputtend voor alle klanten of bedrijfscycli is, ontdekten wij dat het toepassen van deze vakanties beduidend de prestaties van het algoritme over het algemeen voor bijna alle datasets van klanten verbeterde.
 

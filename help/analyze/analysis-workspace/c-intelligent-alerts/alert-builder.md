@@ -1,13 +1,12 @@
 ---
 description: Krijg alarm wanneer de projectcomponenten bepaalde drempels bereiken.
 title: Alert Builder
-uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-feature: AI-gereedschappen
+feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -25,9 +24,9 @@ U kunt de waarschuwingsfunctie op vier manieren openen:
 * Met de volgende sneltoets in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Door naar **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** te gaan.
-* Door één of meerdere punten van de vrije lijstlijn van de vrije vorm te selecteren, klik met de rechtermuisknop aan en selecterend **[!UICONTROL Create Alert from Selection]**.
-* Vanuit een rapport Rapporten &amp; Analytics door naar **[!UICONTROL More]** > **[!UICONTROL Add Alert]** te gaan.
+* Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
+* Door een of meer vrije regelitems voor tabellen te selecteren, klikt u met de rechtermuisknop en selecteert u **[!UICONTROL Create Alert from Selection]**.
+* Vanuit een rapport Rapporten &amp; Analytics gaat u naar **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 ## Waarschuwingen samenstellen
 
@@ -55,7 +54,7 @@ Geef op waar de waarschuwing kan worden verzonden. Een waarschuwing kan naar een
 
 >[!IMPORTANT]
 >
->Het telefoonnummer moet worden voorafgegaan door een &quot;+&quot; en een [landcode](https://countrycode.org/).
+>Het telefoonnummer moet worden voorafgegaan door een plusteken (+) en een [landcode](https://countrycode.org/).
 
 De e-mail die een gebruiker zou ontvangen zodra een alarm is teweeggebracht kijkt gelijkaardig aan dit:
 
@@ -71,7 +70,7 @@ Stel de vervaldatum van de waarschuwing in.
 
 * Sleep metriek naar het canvas waar triggers worden toegevoegd.
 
-   Een **&quot;incompatibele componenten&quot;** bericht zal verschijnen als niet alle componenten (metriek/afmetingen/segmenten) in het alarm compatibel met de momenteel geselecteerde rapportreeks zijn.
+   An **&quot;incompatibele componenten&quot;** Het bericht verschijnt als niet alle componenten (metriek/afmetingen/segmenten) in het alarm compatibel zijn met de momenteel geselecteerde rapportreeks.
 * Bepaal de drempel die metrisch moet overschrijden alvorens een alarm wordt geplaatst. U kunt deze waarde instellen op een drempel en vervolgens op een van de volgende voorwaarden:
 
    * abnormaal
@@ -99,6 +98,6 @@ De interactieve waarschuwingsvoorvertoning laat zien hoe vaak, ongeveer, een waa
 
 Als u bijvoorbeeld de tijdsgranulariteit instelt op dagelijks, kan de voorvertoning u vertellen dat de waarschuwing gedurende een bepaalde metrische x-maal in de afgelopen 30 of 31 dagen zou zijn geactiveerd.
 
-Als u vindt dat teveel alarm zou teweeggebracht zijn, kunt u de drempel in [Alert Manager](/help/components/c-alerts/alert-manager.md) aanpassen.
+Als u vindt dat te veel waarschuwingen zijn geactiveerd, kunt u de drempel in het dialoogvenster [Waarschuwingsbeheer](/help/components/c-alerts/alert-manager.md).
 
 ![](assets/alert_preview.png)

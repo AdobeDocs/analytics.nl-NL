@@ -1,13 +1,12 @@
 ---
-description: Beperkingen bij het gebruik van Report Builder en Microsoft-Power BI.
+description: Beperkingen bij het gebruik van Report Builder- en Microsoft-Power BI.
 title: Beperkingen en specificaties
-uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '622'
 ht-degree: 1%
 
 ---
@@ -70,5 +69,5 @@ Door gebrek, zal de naam van werkboekfilename (zonder de uitbreiding .xlsx) word
 Houd rekening met het volgende:
 
 * Het label mag geen combinatie zijn van letters en cijfers die kunnen worden verward met een rij- en kolomadres. A100 kan bijvoorbeeld geen label zijn, omdat dit het adres van een cel in een werkblad is.
-* De volgende tekens zijn geen geldige labeltekens: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; en `'~', ' '`. Ze worden vervangen door een onderstrepingsteken.
-* Wanneer u een ongeldige naam ingaat, zal een waarschuwingsbericht worden getoond dat een auto-geproduceerde naam zal voorstellen. Als u **[!UICONTROL Yes]** klikt, zal deze naam worden gebruikt. Als u **[!UICONTROL No]** klikt, zal Geavanceerde UI van de Tovenaar u de nieuwe naam laten ingaan.
+* De volgende tekens zijn geen geldige labeltekens: `'#', '@', '!', '$', '^', '&', '&#42;', '`&quot;, en `'~', ' '` . Ze worden vervangen door een onderstrepingsteken.
+* Wanneer u een ongeldige naam ingaat, zal een waarschuwingsbericht worden getoond dat een auto-geproduceerde naam zal voorstellen. Als u op **[!UICONTROL Yes]**, wordt deze naam gebruikt. Als u op **[!UICONTROL No]**, zal Geavanceerde UI van de Tovenaar u de nieuwe naam laten ingaan.

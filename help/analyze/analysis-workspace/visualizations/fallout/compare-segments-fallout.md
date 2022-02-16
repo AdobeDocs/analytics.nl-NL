@@ -2,11 +2,10 @@
 description: U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoegen en de belangrijkste workflows in verschillende segmenten in Analysis Workspace vergelijken.
 keywords: fallout en segmentatie;segmenten in falloutanalyse;vergelijk segmenten in fallout
 title: Segmenten toepassen in een uitvalanalyse
-uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 2%
@@ -27,7 +26,7 @@ U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoeg
 
 ## Een segment maken van een aanraakpunt {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Maak een segment van een bepaald aanraakpunt waarin u bijzonder geïnteresseerd bent en dat u op andere rapporten kunt toepassen. U doet dit door met de rechtermuisknop op het aanraakpunt te klikken en **[!UICONTROL Create segment from touchpoint]** te selecteren.
+1. Maak een segment van een bepaald aanraakpunt waarin u bijzonder geïnteresseerd bent en dat u op andere rapporten kunt toepassen. U doet dit door met de rechtermuisknop op het aanraakpunt te klikken en **[!UICONTROL Create segment from touchpoint]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -55,7 +54,7 @@ Hier volgt een video over het vergelijken van segmenten in de uitval:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
 
-1. Selecteer de segmenten die u wilt vergelijken in de [!UICONTROL Segments]-rail aan de linkerkant. In ons voorbeeld hebben we twee segmenten geselecteerd: Amerikaanse gebruikers en gebruikers buiten de VS.
+1. Selecteer de segmenten die u wilt vergelijken in het dialoogvenster [!UICONTROL Segments] spoorstaaf links. In ons voorbeeld hebben we twee segmenten geselecteerd: Amerikaanse gebruikers en gebruikers buiten de VS.
 1. Sleep ze naar de neerzetzone Segment bovenaan.
 
    ![](assets/segment-drop.png)

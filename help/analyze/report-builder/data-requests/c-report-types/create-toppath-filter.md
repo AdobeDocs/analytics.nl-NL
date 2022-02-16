@@ -1,14 +1,13 @@
 ---
 description: Beschrijft hoe te om wegrapporten met vooraf bepaalde filters tot stand te brengen.
 title: Padrapporten filteren door afhankelijke aanvragen toe te voegen
-uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 9%
+source-wordcount: '173'
+ht-degree: 8%
 
 ---
 
@@ -16,9 +15,9 @@ ht-degree: 9%
 
 Beschrijft hoe te om wegrapporten met vooraf bepaalde filters tot stand te brengen.
 
-Marketing Reports &amp; Analytics biedt een aantal standalone rapporten die de belangrijkste wegrapporten met vooraf bepaalde filters zijn, zoals [!UICONTROL Next] en [!UICONTROL Previous Site Section] rapporten, Ingang en [!UICONTROL Exit Site Section] rapporten, en [!UICONTROL Single Site Section] rapport.
+Marketing Reports &amp; Analytics biedt een aantal standalone rapporten die de belangrijkste padrapporten met vooraf gedefinieerde filters zijn, zoals [!UICONTROL Next] en [!UICONTROL Previous Site Section] rapporten, toegang en [!UICONTROL Exit Site Section] verslagen, en [!UICONTROL Single Site Section] verslag.
 
-Report Builder biedt deze niet aan als zelfstandige rapporten, maar u kunt ze wel maken via de contextmenu&#39;s **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]**. De volgende rapporten zijn beschikbaar:
+Report Builder biedt deze niet aan als zelfstandige rapporten, maar u kunt ze maken via de **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** contextmenu&#39;s. De volgende rapporten zijn beschikbaar:
 
 * Pad > Pagina-uitval
 * Pad > Pad naar item
@@ -30,12 +29,12 @@ Report Builder biedt deze niet aan als zelfstandige rapporten, maar u kunt ze we
 * Pad > Pad item > Als invoerpagina
 * Pad > Pad afsluiten > Als eindpagina
 
-1. Selecteer veelvoudige rijen van een bestaand verzoek, dan klik **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]** met de rechtermuisknop aan.
+1. Selecteer meerdere rijen uit een bestaande aanvraag en klik met de rechtermuisknop **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**.
 
-   (Let op: u moet ten minste drie rijen selecteren als u het menu-item **[!UICONTROL Page Fallout]** wilt zien.)
+   (Let op: u moet ten minste drie rijen selecteren als u de **[!UICONTROL Page Fallout]** menu-item.)
 
    ![](assets/dependen_request.png)
 
-1. Selecteer het vooraf gedefinieerde filter, bijvoorbeeld **[!UICONTROL Previous Page]**.
+1. Selecteer bijvoorbeeld het vooraf gedefinieerde filter **[!UICONTROL Previous Page]**.
 
    De wizard Verzoek wordt weergegeven. De metrische waarde voor Vorige pagina is al geselecteerd. 1. Ga door met het verfijnen van uw verzoek in de wizard Verzoek en het genereren van uw verzoek.

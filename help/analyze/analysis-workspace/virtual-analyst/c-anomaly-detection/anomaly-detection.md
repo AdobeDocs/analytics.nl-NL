@@ -1,11 +1,10 @@
 ---
 description: U kunt gegevensanomalieën contextafhankelijk weergeven en analyseren in Analysis Workspace.
 title: Overzicht van anomaliedetectie
-uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-feature: AI Tools
+feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 9%
@@ -20,7 +19,7 @@ U kunt gegevensanomalieën contextafhankelijk weergeven en analyseren in Analysi
 
 >[!IMPORTANT]
 >
->Anomaly Detection is removed from the Reports &amp; Analytics feature set and is now available only via Analysis Workspace. Klanten van Adobe Analytics Select en Adobe Analytics Foundation hebben voortaan alleen via Workspace toegang tot anomaliedetectie voor dagelijkse granulariteit. Voor meer informatie, zie [Anomaly Detection and Contribution Analysis Entitlements](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
+>Anomaly Detection is removed from the Reports &amp; Analytics feature set and is now available only via Analysis Workspace. Klanten van Adobe Analytics Select en Adobe Analytics Foundation hebben voortaan alleen via Workspace toegang tot anomaliedetectie voor dagelijkse granulariteit. Zie voor meer informatie [Anomaly Detection and Contribution Analysis Entitlements](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
 
 Anomaly Detection biedt een statistische methode om te bepalen hoe een bepaalde metrische waarde is gewijzigd ten opzichte van eerdere gegevens.
 
@@ -35,7 +34,7 @@ Voorbeelden van anomalieën die u kunt onderzoeken zijn:
 * Spikes in videobuffergebeurtenissen
 * Spikes in lage videobitsnelheden
 
-Zowel Anomaly Detection als [Contribution Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) zijn kernworkflows in Analysis Workspace. U kunt de Analyse van de Bijdrage tegen om het even welke dagelijkse anomalie in werking stellen en het resultaat in uw project van Analysis Workspace inbedden.
+Zowel Anomaly Detection als [Bijdrage-analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) zijn kernworkflows in Analysis Workspace. U kunt de Analyse van de Bijdrage tegen om het even welke dagelijkse anomalie in werking stellen en het resultaat in uw project van Analysis Workspace inbedden.
 
 Analysis Workspace-algoritme voor het opsporen van anomalieën bevat
 

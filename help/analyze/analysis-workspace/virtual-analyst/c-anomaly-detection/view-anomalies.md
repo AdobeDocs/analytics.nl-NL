@@ -1,14 +1,13 @@
 ---
 description: U kunt anomalieën in een lijst of in een lijngrafiek bekijken.
 title: Anomalieën weergeven in Analysis Workspace
-uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-feature: AI-gereedschappen
+feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +32,7 @@ Als u op een witte stip klikt, wordt deze groen en wordt het volgende weergegeve
 * De datum waarop de anomalie is opgetreden
 * De onbewerkte waarde van de anomalie
 * De percentagewaarde boven of onder de verwachte waarde, die door de stevige groene lijn wordt vertegenwoordigd.
-* De koppeling Analyseren om [Contributieanalyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) te starten.
+* De koppeling Analyseren om te starten [Bijdrage-analyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).
 
 ![](assets/anomaly_linechart.png)
 
@@ -41,6 +40,6 @@ Als u veelvoudige metriek in het lijndiagram hebt, tonen wij slechts de anomalie
 
 Met het betrouwbaarheidsinterval voor Anomaly-detectie wordt de y-as van een visualisatie niet automatisch geschaald om de grafiek beter leesbaar te maken.
 
-U hebt de optie om het betrouwbaarheidsinterval toe te staan om de grafiek te schalen. Klik op het pictogram Instellingen (versnelling) en schakel **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]** in.
+U hebt de optie om het betrouwbaarheidsinterval toe te staan om de grafiek te schalen. Klik op het pictogram Instellingen (versnelling) en controleer **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]**.
 
 ![](assets/scale-y-axis.png)

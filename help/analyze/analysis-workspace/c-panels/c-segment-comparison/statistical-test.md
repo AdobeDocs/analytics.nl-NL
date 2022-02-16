@@ -2,13 +2,12 @@
 description: Elk van de bovenste vergelijkingstabellen toont een verschilscore die door verscheidene statistische tests afhankelijk van wordt berekend die wordt gemaakt; nochtans, ongeacht welke test wordt gebruikt, wordt de verschilscore getoond als waarde tussen 0 en 1.
 keywords: Analysis Workspace;Segment-IQ
 title: Statistische tests bij segmentvergelijking
-feature: Grondbeginselen van rapporten en analyses
-uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
+feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '467'
 ht-degree: 2%
 
 ---

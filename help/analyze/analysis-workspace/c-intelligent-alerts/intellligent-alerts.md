@@ -1,13 +1,12 @@
 ---
-description: Het nieuwe systeem voor intelligente waarschuwingen biedt meer gedetailleerde controle over waarschuwingen en integreert de detectie van anomalieën met het waarschuwingssysteem.
+description: Het nieuwe systeem van de Intelligente Alarm staat voor meer korrelige controle over alarm toe en integreert anomalieopsporing met het waakzame systeem.
 title: Overzicht van intelligente waarschuwingen
-uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-feature: AI-gereedschappen
+feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '353'
 ht-degree: 7%
 
 ---
@@ -16,7 +15,7 @@ ht-degree: 7%
 
 Intelligente waarschuwingen zorgen voor meer korrelige controle over waarschuwingen en integreren anomaliedetectie met het waarschuwingssysteem.
 
-Hier volgt een videozelfstudie op [Intelligente waarschuwingen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+Hier volgt een videozelfstudie [Intelligente waarschuwingen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Overzicht
 
@@ -29,17 +28,14 @@ De nieuwe Alert Builder en Alert Manager in Analysis Workspace vervangen de best
 
 Er zijn vier manieren om naar de Waarschuwingsbouwer te gaan:
 
-* Ga rechtstreeks naar de Alert Builder:  **[!UICONTROL Components]** > **[!UICONTROL Alerts]**
-* De sneltoets in Workspace gebruiken: `Ctrl + Shift + A` (Windows) of `Cmd + Shift + A` (Mac)
-* Het selecteren van één of meerdere punt/s van de vrije lijstlijn van de vrije vorm, het met de rechtermuisknop klikken en het selecteren **[!UICONTROL Create Alert from Selection]**. Hiermee opent u de waarschuwingsfunctie en vult u de juiste metingen en filters die uit de tabel zijn toegepast, vooraf in. U kunt de waarschuwing desgewenst bewerken.
+| Methode | Details |
+| --- | --- |
+| Ga rechtstreeks naar de waarschuwingsfunctie | **[!UICONTROL Components]** > **[!UICONTROL Alerts]** |
+| De sneltoets in Workspace gebruiken | `Ctrl + Shift + A` (Windows) of `Cmd + Shift + A` (Mac) |
+| Selecteer een of meer vrije regelitems voor tabellen | Klik met de rechtermuisknop en selecteer **[!UICONTROL Create Alert from Selection]**. Hierdoor wordt het [!UICONTROL Alert Builder] en vult de juiste maateenheden en filters die uit de tabel zijn toegepast vooraf in. U kunt de waarschuwing desgewenst bewerken. ![Berichtgeving maken van selectie](assets/create-alert-from-selection.png) |
+| Vanuit een rapport Rapporten &amp; Analyse | Ga naar  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Dit opent de waakzame bouwer en vult vooraf de aangewezen metriek en de filters die van het rapport worden toegepast. U kunt de waarschuwing desgewenst bewerken. ![Waarschuwing toevoegen](assets/add-alert.png) |
 
-   ![Berichtgeving maken van selectie](assets/create-alert-from-selection.png)
-
-* Vanuit een rapport Rapporten &amp; Analytics door naar **[!UICONTROL More]** > **[!UICONTROL Add Alert]** te gaan. Dit opent de waakzame bouwer en vult vooraf de aangewezen metriek en de filters die van het rapport worden toegepast. U kunt de waarschuwing desgewenst bewerken.
-
-   ![Waarschuwing toevoegen](assets/add-alert.png)
-
-De percentagedrempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen en 99% = 3 standaardafwijkingen. Afhankelijk van de tijdsgranulariteit die u kiest, worden [verschillende modellen](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) gebruikt om te berekenen hoe ver weg (hoeveel standaardafwijkingen) elk gegevenspunt van de norm is. Als u een lagere drempel instelt (bijvoorbeeld 90%), krijgt u meer anomalieën dan wanneer u een hogere drempel instelt (99,75%).
+De percentagedrempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen en 99% = 3 standaardafwijkingen. Afhankelijk van de tijdsgranulariteit die u kiest, [verschillende modellen](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) worden gebruikt om te berekenen hoe ver weg (hoeveel standaardafwijkingen) elk gegevenspunt van de norm is. Als u een lagere drempel instelt (bijvoorbeeld 90%), krijgt u meer anomalieën dan wanneer u een hogere drempel instelt (99,75%).
 
 >[!IMPORTANT]
 >
@@ -54,4 +50,4 @@ Als een waarschuwing afwijkende detectie gebruikt, varieert de trainingsperiode 
 * Dagelijkse granulariteit: 35 dagen + zelfde waaier vorig jaar
 * Uurgranulariteit: 336 uur
 
-Zie [Statistische technieken gebruikt in Anomaly Detection](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) voor meer informatie.
+Zie [Statistische technieken voor anomalische detectie](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) voor meer informatie .

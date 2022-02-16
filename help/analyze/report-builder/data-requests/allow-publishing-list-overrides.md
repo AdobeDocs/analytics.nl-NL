@@ -1,14 +1,13 @@
 ---
 description: Wanneer u een rapport plant, kunt u een het publiceren lijst kiezen voor distributie te gebruiken.
 title: Overschrijvingen van publicatielijsten toestaan
-uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 feature: Report Builder
 role: User, Admin
 exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +17,11 @@ Wanneer u een rapport plant, kunt u een het publiceren lijst kiezen voor distrib
 
 Publicatielijsten worden ingesteld in Analytics Admin-programma&#39;s.
 
-Zie [Publicatielijstbeheer](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html) in de naslaggids voor analysemogelijkheden.
+Zie [Publicatielijstbeheer](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html) in de Naslaggids voor analysemogelijkheden.
 
-Navigeer naar het venster [!UICONTROL Request Wizard: Step 1] om deze functie in te schakelen.
+Als u deze functie wilt inschakelen, navigeert u naar de [!UICONTROL Request Wizard: Step 1] venster.
 
-Als u [!UICONTROL Allow Publishing List Override] toelaat, vervangt de rapportreeks die aan elke ontvanger in de het publiceren lijst wordt toegewezen de rapportreeks voor dit verzoek. Bovendien als het werkboek verscheidene rapportreeksen bevat, wordt identiteitskaart van de rapportreeks verbonden aan de het publiceren lijst gebruikt.
+Als u [!UICONTROL Allow Publishing List Override], vervangt de rapportsuite die aan elke ontvanger in de publicatielijst is toegewezen de rapportsuite voor deze aanvraag. Bovendien als het werkboek verscheidene rapportreeksen bevat, wordt identiteitskaart van de rapportreeks verbonden aan de het publiceren lijst gebruikt.
 
 Deze optie is niet beschikbaar voor rapportsuites die u van cellen selecteert.
 

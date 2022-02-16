@@ -1,15 +1,15 @@
 ---
 description: Gebruik ad-hocsegmenten in Analysis Workspace.
 title: Ad-hocsegmenten
-feature: Workspace Basics
+feature: Segmentation
 role: User, Admin
-source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
+exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
 
 ---
-
 
 # Ad-hocprojectsegmenten
 
@@ -19,7 +19,7 @@ Hier volgt een video over het maken van ad-hocprojectsegmenten:
 
 U kunt ad hoc projectsegmenten tot stand brengen als u wilt snel onderzoeken hoe een segment uw project zou kunnen beïnvloeden, zonder naar de Bouwer van het Segment te gaan. Beschouw deze segmenten als tijdelijke segmenten op projectniveau. Ze maken normaal gesproken geen deel uit van uw segment &#39;bibliotheek&#39;, zoals componentsegmenten in de linkerrail. U kunt de bestanden echter opslaan, zoals hieronder wordt weergegeven.
 
-Voor een vergelijking van welke ad-hoc projectsegmenten versus volledig-afgewerkte component-vlakke segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+Voor een vergelijking van welke ad hoc projectsegmenten versus volledig-afgewerkte component-vlakke segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 1. Zet om het even welk componenttype (afmeting, afmeting punt, gebeurtenis, metrisch, segment, segmentmalplaatje, datumwaaier) in de segment dalingsstreek bij de bovenkant van een paneel neer. Componenttypen worden automatisch omgezet in segmenten.
 Hier ziet u hoe u een segment voor het Twitter-verwijzende domein kunt maken:
@@ -33,7 +33,7 @@ Hier ziet u hoe u een segment voor het Twitter-verwijzende domein kunt maken:
 
 Houd rekening met het volgende:
 
-* U **kunt niet** de volgende componenttypen in de segmentzone laten vallen: berekende metriek en afmetingen/metriek waarvan u geen segmenten kunt bouwen.
+* U **kan** Zet de volgende componenttypen neer in de segmentzone: berekende metriek en afmetingen/metriek waarvan u geen segmenten kunt bouwen.
 * Voor volledige afmetingen en gebeurtenissen maakt Analysis Workspace &#39;bestaande&#39; raaksegmenten. Voorbeelden: `Hit where eVar1 exists` of `Hit where event1 exists`.
 * Als &quot;niet gespecificeerd&quot;of &quot;niets&quot;in de segment dalingsstreek wordt gelaten vallen, wordt het automatisch omgezet in een &quot;bestaat niet&quot;segment zodat het correct in segmentatie wordt behandeld.
 
@@ -52,4 +52,4 @@ U kunt deze segmenten opslaan door de volgende stappen uit te voeren:
 
 ## Wat zijn projectgebonden segmenten?
 
-De project-enige segmenten zijn of snelle segmenten of de projectsegmenten van de ad-hoc Werkruimte. Wanneer het uitgeven van/het openen van hen in de segmentbouwer dan zal het project-enige vakje verschijnen. Als ze een snel segment toepassen in de builder maar het selectievakje voor het beschikbaar stellen niet inschakelen, is het segment nog steeds een segment dat alleen in het project kan worden geopend, maar niet meer in de builder voor kwaliteitscontrole. Als zij de doos controleren en OPSLAAN is het nu een component-lijst segment.
+De project-enige segmenten zijn of snelle segmenten of de projectsegmenten van de ad-hoc Werkruimte. Wanneer het uitgeven van/het openen van hen in de segmentbouwer dan zal het project-enige vakje verschijnen. Als ze een snel segment toepassen in de builder maar het selectievakje voor het beschikbaar maken niet inschakelen, is het segment nog steeds een segment dat alleen in het project kan worden geopend, maar niet meer in de builder voor kwaliteitscontrole. Als zij de doos controleren en OPSLAAN is het nu een component-lijst segment.
