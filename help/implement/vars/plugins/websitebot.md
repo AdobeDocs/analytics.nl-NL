@@ -1,8 +1,9 @@
 ---
 title: websiteBot
 description: Identificeer bots dynamisch met behulp van muisbeweging.
+feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -15,12 +16,12 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `websiteBot`-plug-in kunt u dynamisch bepalen of bezoekers van een bureaublad de meeste gebruikers hebben. U kunt deze gegevens gebruiken om grotere nauwkeurigheid in alle types van rapportering te drijven, die u een betere manier geeft om wettig plaatsverkeer te meten.
+De `websiteBot` Met de insteekmodule kunt u dynamisch vaststellen of bezoekers van een bureaublad de meeste gebruikers hebben. U kunt deze gegevens gebruiken om grotere nauwkeurigheid in alle types van rapportering te drijven, die u een betere manier geeft om wettig plaatsverkeer te meten.
 
 Deze plug-in voert twee controles uit:
 
 * Ten eerste wordt in het geval van een bureaubladapparaat een gebeurtenislistener toegevoegd voor muisbeweging.
-* Vervolgens wordt met de variabele `navigator.UserAgent` bepaald of het apparaat een desktopapparaat of een mobiel apparaat is. Mobiele apparaten worden genegeerd.
+* Vervolgens wordt bepaald of het apparaat een bureaublad of een mobiel apparaat is met het `navigator.UserAgent` variabele. Mobiele apparaten worden genegeerd.
 
 Als de gebruikersagent zich op een bureaublad bevindt en er geen muisbeweging wordt gedetecteerd, kan de plug-in
 
@@ -31,13 +32,13 @@ Als de gebruikersagent zich op een bureaublad bevindt en er geen muisbeweging wo
 
 Adobe raadt het volgende aan voordat u deze plug-in gebruikt:
 
-* **eVar-instellingen** configureren: Stel een eVar in onder  [Conversievariabelen in de instellingen van de rapportsuite ](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) . Stel de vervaldatum in op **Nooit** of **Visit** en toerekening aan **&quot;Oorspronkelijke waarde (Eerste)&quot;**. Deze eVar moet in beide gevallen worden vastgesteld: wanneer of de [!UICONTROL Direct Call] regel of `s.tl` vraag in brand wordt gestoken.
-* **Verzamel gebruikersagent in een afzonderlijke variabele**: Verzamel de userAgent-tekenreeks in een aparte variabele om de effectiviteit van deze insteekmodule te controleren. Stel een eVar in op `navigator.UserAgent` bij elke druk om deze gegevens te verzamelen.
+* **eVar-instellingen configureren**: Een eVar instellen onder [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de instellingen van de rapportsuite. Vervaldatum instellen op **Nooit** of **Bezoek** en toewijzing aan **&quot;Oorspronkelijke waarde (eerste)&quot;**. Deze eVar moet in beide gevallen worden vastgesteld: wanneer [!UICONTROL Direct Call] of de `s.tl` de vraag wordt ontbrand.
+* **Gebruikersagent in een afzonderlijke variabele verzamelen**: Verzamel de userAgent-tekenreeks in een aparte variabele om de effectiviteit van deze insteekmodule te controleren. Een eVar instellen op `navigator.UserAgent` op elke hit om deze gegevens te verzamelen.
 
 ## Plug-in installeren met aangepaste code-editor
 
-1. Voeg een nieuwe `websiteBot` regel toe.
-1. Voeg een **Gebeurtenis van de Beweging van de muis** aan de `websiteBot` regel, met deze douanecode toe:
+1. Een nieuwe toevoegen `websiteBot` regel.
+1. Voeg een **Listener voor muisverplaatsing** aan de `websiteBot` regel, met deze aangepaste code:
 
    ```js
    trigger(document.addEventListener('mousemove', function detectMouseMove() {   
@@ -72,11 +73,11 @@ Adobe raadt het volgende aan voordat u deze plug-in gebruikt:
       }))
    ```
 
-1. Voeg een [!UICONTROL Direct Call] regel toe die een baken Analytics gebruikend `websiteBot` als herkenningsteken in brand steken. In dit voorbeeld wordt een `s.tl`-aanroep gebruikt:
+1. Voeg een [!UICONTROL Direct Call] regel die een Analytics-baken brandt met `websiteBot` als de id. In dit voorbeeld wordt een `s.tl` oproep:
 
    ![websiteBot-id](assets/websitebot.png)
 
-1. Vervaag de Adobe Analytics - Vastgestelde Variabelen &amp; Adobe Analytics - verzend de acties van het baken in de [!UICONTROL Direct Call] regel.  In het volgende voorbeeld wordt een manier getoond om dit te doen:
+1. De Adobe Analytics in brand steken - Variabelen en Adobe Analytics instellen - Handelingen baken verzenden in de [!UICONTROL Direct Call] regel.  In het volgende voorbeeld wordt een manier getoond om dit te doen:
 
    ![Bandbakacties verzenden](assets/websitebot2.png)
 
@@ -94,7 +95,7 @@ Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het 
 
 ## De plug-in gebruiken
 
-De `websiteBot` stop in brand een `s.tl` vraag als niet-bot verkeer wordt ontdekt.
+De `websiteBot` insteekmodule brandt een `s.tl` vraag als niet-bot verkeer wordt ontdekt.
 
 ## Voorbeelden
 
@@ -115,5 +116,5 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 ### 0.11 (3 juni 2021)
 
 * Code van bijgewerkte insteekmodule AppMeasurement
-* Sectie met aangepaste code-editors bijgewerkt met uitgebreide instructies.
+* De bijgewerkte sectie van de douaneredacteur van de code met uitgebreide instructies.
 * Bijgewerkte sectie &quot;De plug-in gebruiken&quot;.

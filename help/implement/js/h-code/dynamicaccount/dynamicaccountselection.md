@@ -1,8 +1,9 @@
 ---
 title: dynamicAccountSelection
 description: Met de variabele dynamicAccountSelection kunt u dynamische accountselectie in- of uitschakelen.
+feature: Implementation Basics
 exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 2%
@@ -15,11 +16,11 @@ ht-degree: 2%
 >
 >Dynamische accounts worden alleen ondersteund met behulp van verouderde JavaScript-implementaties (H Code). Deze variabelen worden niet ondersteund in de huidige AppMeasurement-bibliotheken of de gebruikersinterface voor gegevensverzameling.
 
-De variabele `dynamicAccountSelection` is een Booleaanse waarde die bepaalt of een dynamische accountselectie wordt gebruikt.
+De `dynamicAccountSelection` variabele is een Booleaanse waarde die bepaalt of de dynamische accountselectie wordt gebruikt.
 
-Als dit is ingesteld op `true`, zoekt het JavaScript-bestand naar `dynamicAccountMatch` en `dynamicAccountList`.
+Indien ingesteld op `true`, kijkt het JavaScript-bestand naar `dynamicAccountMatch` en `dynamicAccountList`.
 
-Indien ingesteld op `false`, of als deze variabele niet is gedefinieerd, worden de variabelen `dynamicAccountMatch` en `dynamicAccountList` genegeerd.
+Indien ingesteld op `false`of als deze variabele niet is gedefinieerd, wordt de `dynamicAccountMatch` en `dynamicAccountList` variabelen worden genegeerd.
 
 Als deze variabele niet is gedefinieerd, is de standaardwaarde `false`.
 

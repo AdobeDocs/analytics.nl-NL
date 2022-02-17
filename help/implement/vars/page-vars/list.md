@@ -1,8 +1,9 @@
 ---
 title: list
 description: Aangepaste variabelen die meerdere waarden in dezelfde hit bevatten.
+feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 De variabelen van de lijst zijn douanevariabelen die u kunt gebruiken hoe u zou willen. Ze werken op dezelfde manier als Vars, maar ze kunnen meerdere waarden in dezelfde hit bevatten. Lijstvariabelen hebben geen tekenlimiet.
 
-Zorg ervoor u registreert hoe u elke lijstvariabele en hun logica in uw [document van het oplossingsontwerp](../../prepare/solution-design.md) gebruikt.
+Zorg ervoor u registreert hoe u elke lijstvariabele en hun logica in uw gebruikt [document ontwerp oplossing](../../prepare/solution-design.md).
 
 >[!NOTE]
 >
@@ -38,7 +39,7 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 >[!TIP]
 >
->Als u dubbele waarden instelt in dezelfde hit, worden alle instanties van die waarden door Adobe gedupliceerd. Als u bijvoorbeeld `s.list1 = "Example,Example";` instelt, wordt één instantie geteld in rapporten.
+>Als u dubbele waarden instelt in dezelfde hit, worden alle instanties van die waarden door Adobe gedupliceerd. Als u bijvoorbeeld `s.list1 = "Example,Example";`, wordt één exemplaar geteld in rapporten.
 
 ## Lijsproeven met lijstvariabelen vergelijken
 
@@ -46,4 +47,4 @@ De steunen van de lijst en lijstvariabelen kunnen allebei veelvoudige waarden in
 
 * Elke eigenschap kan een lijst-eigenschap worden. U kunt in feite maximaal 75 lijstprofielen hebben, als elke eigenschap een lijst-eigenschap is. Er zijn slechts drie keuzelijsten beschikbaar.
 * Keuzerondjes voor lijsten hebben een limiet van 100 bytes voor de gehele variabele. Lijstvariabelen hebben een limiet van 255 bytes per waarde en geen limiet voor het totale aantal bytes.
-* Lijstprofielen blijven alleen behouden wanneer ze worden ingesteld. Lijstvariabelen hebben de gewenste vervalinstelling. Nochtans, met [rapporttijdverwerking](/help/components/vrs/vrs-report-time-processing.md), kunt u douaneattributie op zowel lijststeunen als lijstvariabelen toepassen.
+* Lijstprofielen blijven alleen behouden wanneer ze worden ingesteld. Lijstvariabelen hebben de gewenste vervalinstelling. Met [rapporttijdverwerking](/help/components/vrs/vrs-report-time-processing.md)kunt u aangepaste attributie toepassen op zowel lijsteigenschappen als lijstvariabelen.

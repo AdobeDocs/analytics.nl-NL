@@ -1,8 +1,9 @@
 ---
 title: Getallensuite
 description: Cijfers maken en manipuleren voor gebruik in andere JavaScript-variabelen.
+feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 De Numbers Suite bevat een aantal JavaScript-functies. Deze bevat de volgende plug-ins:
 
-* **`zeroPad`**: Voeg een specifiek aantal nullen aan het begin van een getal toe. Deze insteekmodule is handig als een variabele een bepaald aantal cijfers vereist, bijvoorbeeld als u werkt met JavaScript-datumobjecten en de maand en dag van een datum wilt opmaken met twee cijfers in plaats van slechts één cijfer. Bijvoorbeeld `01/09/2020` in plaats van `1/9/2020`.
+* **`zeroPad`**: Voeg een specifiek aantal nullen aan het begin van een getal toe. Deze insteekmodule is handig als een variabele een bepaald aantal cijfers vereist, bijvoorbeeld als u werkt met JavaScript-datumobjecten en de maand en dag van een datum wilt opmaken met twee cijfers in plaats van slechts één cijfer. Bijvoorbeeld: `01/09/2020` in plaats van `1/9/2020`.
 * **`randomNumber`**: Genereer een willekeurig getal met een specifiek aantal cijfers. Deze plug-in is handig als u tags van derden implementeert en een willekeurig nummer voor het opbouwen van cache wilt.
 * **`twoDecimals`**: Rond een getal af naar het dichtstbijzijnde honderdste. Deze insteekmodule is handig voor valutadoeleinden, zodat u een getal kunt afronden naar een geldige valutawaarde.
 
@@ -25,10 +26,10 @@ De Numbers Suite bevat een aantal JavaScript-functies. Deze bevat de volgende pl
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
-1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
@@ -41,10 +42,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
-1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -67,24 +68,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Plug-ins gebruiken
 
-De functie `zeroPad` gebruikt de volgende argumenten:
+De `zeroPad` function gebruikt de volgende argumenten:
 
 * **num** (vereist, geheel getal): The number to pad. De functie rondt de waarde van dit argument af als het decimalen bevat.
-* **nod** (required, integer): Het aantal cijfers in de uiteindelijke geretourneerde waarde. Als het aantal toe te voegen cijfers minder dan het aantal cijfers heeft aan te vullen, dan voegt de stop - binnen nul aan het begin van het `num` argument toe.
+* **knip** (vereist, geheel getal): Het aantal cijfers in de uiteindelijke geretourneerde waarde. Als het aantal cijfers dat moet worden gecomprimeerd kleiner is dan het aantal cijfers dat moet worden gedraaid, worden er door de plug-in nullen aan het begin van het blok toegevoegd `num` argument.
 
-De functie `randomNumber` gebruikt de volgende argumenten:
+De `randomNumber` function gebruikt de volgende argumenten:
 
-* **nod**  (optioneel, geheel getal): Het aantal cijfers in het willekeurige getal dat u wilt genereren. De maximumwaarde is 17 cijfers. De standaardwaarde is 10 cijfers.
+* **knip** (optioneel, geheel getal): Het aantal cijfers in het willekeurige getal dat u wilt genereren. De maximumwaarde is 17 cijfers. De standaardwaarde is 10 cijfers.
 
-De functie `twoDecimals` gebruikt de volgende argumenten:
+De `twoDecimals` function gebruikt de volgende argumenten:
 
-* **val** (vereist, nummer): Een getal (vertegenwoordigd door een tekenreeks of een object Number) dat u naar het dichtstbijzijnde honderdste wilt afronden.
+* **val** (verplicht, nummer): Een getal (vertegenwoordigd door een tekenreeks of een object Number) dat u naar het dichtstbijzijnde honderdste wilt afronden.
 
 ## Retourneert
 
-* De functie **zeroPad** keert een koord terug gelijk aan `num` argument maar met een specifiek aantal nul die aan het begin van zijn waarde wordt toegevoegd, die ervoor zorgt dat de terugkeerwaarde het correcte aantal cijfers heeft.
-* De functie **randomNumber** retourneert een tekenreeks die gelijk is aan een willekeurig getal met het gewenste aantal cijfers.
-* De functie **twoDecimals** keert een aantalvoorwerp terug dat aan de dichtstbijzijnde honderdste wordt afgerond.
+* De **zeroPad** functie retourneert een tekenreeks die gelijk is aan de `num` argument maar met een specifiek aantal nullen toegevoegd aan het begin van zijn waarde, die ervoor zorgt dat de terugkeerwaarde het correcte aantal cijfers heeft.
+* De **randomNumber** Deze functie retourneert een tekenreeks die gelijk is aan een willekeurig getal met het gewenste aantal cijfers.
+* De **tweeDecimals** function retourneert een Number-object afgerond naar het dichtstbijzijnde honderdste.
 
 ## Voorbeelden van aanroepen
 

@@ -1,8 +1,9 @@
 ---
 title: Taggegevenselementen toewijzen aan analytische variabelen
 description: Wijs gegevenselementen toe aan variabelen van de Analyse zodat u hen als afmetingen in Analysis Workspace kunt gebruiken.
+feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Als u een opslagplaats hebt met taggegevenselementen, kunt u deze toewijzen aan 
 
 [Gegevenslaagobjecten toewijzen aan gegevenselementen](layer-to-elements.md): Zorg ervoor dat u de elementen van de markeringsgegevens begrijpt, en dat u verscheidene hebt om met te werken.
 
-[Maak een document](../prepare/solution-design.md) voor het ontwerp van een oplossing: Een document van het oplossingsontwerp is essentieel om georganiseerd te blijven. Na uw document van het oplossingsontwerp vereenvoudigt de toewijzing van gegevenselementen aan variabelen van de Analyse.
+[Een document voor het ontwerp van een oplossing maken](../prepare/solution-design.md): Een document van het oplossingsontwerp is essentieel om georganiseerd te blijven. Na uw document van het oplossingsontwerp vereenvoudigt de toewijzing van gegevenselementen aan variabelen van de Analyse.
 
 ## Gegevenselementen toewijzen aan analytische variabelen
 
@@ -30,23 +31,23 @@ Als u een tagbibliotheek publiceert nadat u deze stappen hebt uitgevoerd, kunt u
 
 Algemene variabelen zijn ideaal als u variabelewaarden wilt instellen op alle pagina&#39;s waar het gegevenselement aanwezig is.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
-1. Klik op [!UICONTROL Extensions tab] en klik vervolgens onder de extensie Adobe Analytics op [!UICONTROL Configure].
-1. Klik op de accordion [!UICONTROL Global variables], die de interface onthult om globale variabelen toe te wijzen.
+1. Klik op de knop [!UICONTROL Extensions tab]en klik vervolgens op [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Klik op de knop [!UICONTROL Global variables] accordion, die de interface onthult om globale variabelen toe te wijzen.
 
 ### Variabelen in regels instellen
 
-Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op elke pagina wilt instellen. U definieert de criteria in de regel. Zie [Rules](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) in de documentatie van Adobe Experience Platform-tags.
+Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op elke pagina wilt instellen. U definieert de criteria in de regel. Zie [Regels](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) in de Adobe Experience Platform-tagdocumentatie.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
-1. Klik op het tabblad [!UICONTROL Rules] en klik vervolgens op de gewenste regel (of maak er een).
-1. Klik op de knop [!UICONTROL Add] onder [!UICONTROL Actions].
-1. Stel het vervolgkeuzemenu [!UICONTROL Extension] in op Adobe Analytics en [!UICONTROL Action Type] op Variabelen instellen.
-1. Klik op het pictogram ![Gegevenselement](assets/data-element.png) rechts van de gewenste variabele Analytics. Het [document van het oplossingsontwerp ](../prepare/solution-design.md) van uw organisatie bepaalt welke variabele Analytics aan gebruik.
+1. Klik op de knop [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
+1. Klik op de knop [!UICONTROL Add] knop onder [!UICONTROL Actions].
+1. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] om variabelen in te stellen.
+1. Klik op de knop ![Gegevenselement](assets/data-element.png) rechts van de gewenste variabele Analytics. De [document ontwerp oplossing](../prepare/solution-design.md) Hiermee bepaalt u welke variabele Analytics moet worden gebruikt.
 1. Selecteer het gewenste gegevenselement in het modale venster. Klik op [!UICONTROL Select].
-1. De naam van het gegevenselement wordt toegevoegd aan het tekstveld dat wordt omringd door `%` tekens. Als u bijvoorbeeld het gegevenselement &quot;Paginanaam&quot; een naam geeft, ziet u de tekenreeks `%Page name%` wanneer u een gegevenselement toewijst aan een variabele.
+1. De naam van het gegevenselement wordt toegevoegd aan het tekstveld dat wordt omgeven door `%` tekens. Als u bijvoorbeeld het gegevenselement &quot;Paginanaam&quot; een naam geeft, wordt de tekenreeks weergegeven `%Page name%` bij het toewijzen van een gegevenselement aan een variabele.
 
 >[!TIP]
 >

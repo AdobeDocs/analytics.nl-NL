@@ -1,8 +1,9 @@
 ---
 title: apl (appendToList)
 description: Voeg waarden toe aan variabelen die meerdere waarden ondersteunen.
+feature: Variables
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `apl`-plug-in kunt u veilig nieuwe waarden toevoegen aan door lijsten gescheiden variabelen, zoals [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md) en andere.
+De `apl` kunt u veilig nieuwe waarden toevoegen aan door lijsten gescheiden variabelen, zoals [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md)en andere.
 
 * Als de waarde die u wilt toevoegen niet in de variabele bestaat, voegt de code de waarde aan het einde van de tekenreeks toe.
 * Als de waarde die u wilt toevoegen al in de variabele bestaat, wijzigt deze plug-in de waarde niet. Hierdoor kan uw implementatie dubbele waarden voorkomen.
@@ -27,10 +28,10 @@ Adobe raadt u aan deze plug-in te gebruiken als u nieuwe waarden wilt toevoegen 
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
-1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
@@ -43,10 +44,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
-1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -63,15 +64,15 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## De plug-in gebruiken
 
-De functie `apl` gebruikt de volgende argumenten:
+De `apl` function gebruikt de volgende argumenten:
 
 * **`lv`** (vereist, tekenreeks): De variabele die een lijst met gescheiden items bevat waaraan een nieuwe waarde moet worden toegevoegd
-* **`vta`** (vereist, tekenreeks): Een door komma&#39;s gescheiden lijst met de nieuwe waarden die aan de waarde van het  `lv` argument moeten worden toegevoegd.
-* **`d1`** (optioneel, tekenreeks): Het scheidingsteken dat wordt gebruikt om de afzonderlijke waarden te scheiden die al in het  `lv` argument staan.  Heeft als standaardwaarde een komma (`,`).
-* **`d2`** (optioneel, tekenreeks): Het uitvoerscheidingsteken. Wordt standaard ingesteld op dezelfde waarde als `d1` wanneer deze niet is ingesteld.
-* **`cc`** (optioneel, Booleaans): Een markering die aangeeft of een hoofdlettergevoelige controle wordt gebruikt. Bij `true` is de duplicatiecontrole hoofdlettergevoelig. Als `false` of niet ingesteld, is de duplicatiecontrole niet hoofdlettergevoelig. Wordt standaard ingesteld op `false`.
+* **`vta`** (vereist, tekenreeks): Een door komma&#39;s gescheiden lijst met de nieuwe waarden die aan de `lv` waarde van het argument.
+* **`d1`** (optioneel, tekenreeks): Het scheidingsteken dat wordt gebruikt om de afzonderlijke waarden te scheiden die al in het dialoogvenster `lv` argument.  Heeft als standaardwaarde een komma (`,`) wanneer niet ingesteld.
+* **`d2`** (optioneel, tekenreeks): Het uitvoerscheidingsteken. Heeft standaard dezelfde waarde als `d1` wanneer niet ingesteld.
+* **`cc`** (optioneel, Booleaans): Een markering die aangeeft of een hoofdlettergevoelige controle wordt gebruikt. Indien `true`De duplicatiecontrole is hoofdlettergevoelig. Indien `false` of niet ingesteld, is de duplicatiecontrole niet hoofdlettergevoelig. Standaardwaarden: `false`.
 
-De functie `apl` retourneert de waarde van het argument `lv` plus eventuele niet-gedupliceerde waarden in het argument `vta`.
+De `apl` functie retourneert de waarde van de `lv` plus eventuele niet-gedupliceerde waarden in het dialoogvenster `vta` argument.
 
 ## Voorbeelden
 
@@ -133,28 +134,28 @@ s.list3 = apl(s.list3,"value1");
 
 ### 3.2 (25 september 2019)
 
-* De compatibiliteitsproblemen met `apl` aanroepen waarbij oudere versies van de plug-in werden gebruikt, zijn opgelost.
+* Compatibiliteitsproblemen met `apl` aanroepen die oudere versies van de plug-in gebruikten
 * Verwijderde consolewaarschuwingen om grootte te verminderen
-* `inList 2.1` toegevoegd
+* Toegevoegd `inList 2.1`
 
 ### 3.1 (22 april 2018)
 
-* `d2` argument wordt nu standaard ingesteld op de waarde van het  `d1` argument
+* `d2` argument wordt nu standaard ingesteld op de waarde van de `d1` argument indien niet ingesteld
 
 ### 3.0 (16 april 2018)
 
 * Volledige heranalyse/herschrijven van plug-in
 * Geavanceerde foutcontrole toegevoegd
-* Het argument `vta` accepteert nu meerdere waarden tegelijk
-* Het argument `d2` toegevoegd om de geretourneerde waarde op te maken
-* Het argument `cc` is gewijzigd in een booleaanse waarde
+* De `vta` argument accepteert nu meerdere waarden tegelijk
+* De `d2` argument om de geretourneerde waarde op te maken
+* De `cc` argument naar een Booleaanse waarde
 
 ### 2.5 (18 februari 2016)
 
-* Gebruikt nu de functie `inList` voor vergelijkingsverwerking
+* Gebruikt nu de `inList` functie voor vergelijkingsverwerking
 
 ### 2.0 (26 januari 2016)
 
 * `d` (Scheidingsteken) argument nu optioneel (wordt standaard een komma)
 * `u` (Markering voor hoofdlettergevoeligheid) argument is nu optioneel (wordt standaard ingesteld op hoofdlettergevoelig)
-* Ongeacht het argument `u` (hoofdlettergevoeligheid) voegt de plug-in geen waarde meer toe aan een lijst als de waarde al in de lijst bestaat
+* Ongeacht de `u` (Markering voor hoofdlettergevoeligheid) voegt de plug-in geen waarde meer toe aan een lijst als de waarde al in de lijst voorkomt

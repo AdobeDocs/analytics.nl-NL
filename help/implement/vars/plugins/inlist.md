@@ -1,8 +1,9 @@
 ---
 title: inList
 description: Controleer of een waarde is opgenomen in een andere door tekens gescheiden waarde.
+feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -15,16 +16,16 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de insteekmodule `inList` kunt u controleren of er al een waarde bestaat binnen een tekenreeks met scheidingstekens of een JavaScript-arrayobject. Verschillende andere plug-ins zijn afhankelijk van de `inList` plug-in om te werken. Deze insteekmodule biedt een duidelijk voordeel ten opzichte van de JavaScript-methode `indexOf()`, waarbij gedeeltelijke tekenreeksen niet overeenkomen. Als u deze insteekmodule bijvoorbeeld hebt gebruikt om te controleren op `"event2"`, komt deze niet overeen met een tekenreeks die `"event25"` bevat. Deze insteekmodule is niet nodig als u niet hoeft te controleren op waarden in afgebakende tekenreeksen of arrays, of als u uw eigen `indexOf()` logica wilt gebruiken.
+De `inList` kunt u controleren of er al een waarde bestaat binnen een afgebakende tekenreeks of een JavaScript-arrayobject. Verschillende andere plug-ins zijn afhankelijk van de `inList` insteekmodule werkt. Deze insteekmodule biedt een duidelijk voordeel ten opzichte van de JavaScript-methode `indexOf()` waarbij de waarde niet overeenkomt met een gedeeltelijke tekenreeks. Als u deze insteekmodule bijvoorbeeld hebt gebruikt om te controleren op `"event2"`, komt deze niet overeen met een tekenreeks die `"event25"`. Deze insteekmodule is niet nodig als u niet hoeft te controleren op waarden in afgebakende tekenreeksen of arrays, of als u uw eigen insteekmodule wilt gebruiken `indexOf()` logica.
 
 ## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
-1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
@@ -37,10 +38,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
-1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -57,14 +58,14 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## De plug-in gebruiken
 
-De functie `inList` retourneert een Booleaanse waarde, afhankelijk van de invoer. De volgende argumenten worden gebruikt:
+De `inList` functie retourneert een Booleaanse waarde, afhankelijk van de invoer. De volgende argumenten worden gebruikt:
 
 * **`lv`** (vereist, tekenreeks of array): Een gescheiden lijst met waarden of een JavaScript-arrayobject dat moet worden doorzocht
 * **`vtc`** (vereist, tekenreeks): De waarde waarnaar moet worden gezocht
-* **`d`** (optioneel, tekenreeks): Het scheidingsteken dat wordt gebruikt voor het scheiden van afzonderlijke waarden in het  `lv` argument. Heeft als standaardwaarde een komma (`,`).
-* **`cc`** (optioneel, Booleaans): Indien ingesteld op  `true` of  `1`, wordt een hoofdlettergevoelige controle uitgevoerd. Indien ingesteld op `false` of weggelaten, wordt een niet-hoofdlettergevoelige controle uitgevoerd. Wordt standaard ingesteld op `false`.
+* **`d`** (optioneel, tekenreeks): Het scheidingsteken dat wordt gebruikt voor het scheiden van afzonderlijke waarden in het dialoogvenster `lv` argument. Heeft als standaardwaarde een komma (`,`) wanneer niet ingesteld.
+* **`cc`** (optioneel, Booleaans): Indien ingesteld op `true` of `1`, wordt een onderscheid gemaakt tussen hoofdletters en kleine letters. Indien ingesteld op `false` of weggelaten, dan wordt een case-insensitive controle gemaakt. Standaardwaarden: `false`.
 
-Als deze functie wordt aangeroepen, wordt `true` geretourneerd als er een overeenkomst wordt gevonden en `false` als er geen overeenkomst wordt gevonden.
+Deze functie aanroepen retourneert `true` als het een gelijke vindt, en `false` als er geen overeenkomst wordt gevonden.
 
 ## Voorbeelden
 
@@ -108,7 +109,7 @@ if(inList(s.linkTrackVars,"eVar1","|")) {
 
 ### v2.1 (26 september 2019)
 
-* Optie voor argument `cc` toegevoegd om geen booleaanse waarde te zijn. `1` is bijvoorbeeld een geldige controlewaarde voor hoofdletters en kleine letters.
+* De optie voor de `cc` argument om geen booleaanse waarde te zijn. Bijvoorbeeld: `1` is een geldige controlewaarde voor hoofdletters en kleine letters.
 
 ### v2.0 (17 april 2018)
 

@@ -1,8 +1,9 @@
 ---
 title: getPercentPageViewed
 description: Haal het percentage op van de pagina die de bezoeker heeft weergegeven.
+feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 0%
@@ -15,16 +16,16 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de insteekmodule `getPercentPageViewed` wordt de schuifactiviteit van een bezoeker gemeten om te zien hoeveel van een pagina deze weergeeft voordat naar een andere pagina wordt gegaan. Deze insteekmodule is niet nodig als de pagina&#39;s klein van hoogte zijn of als u de scrollactiviteit niet wilt meten.
+De `getPercentPageViewed` insteekmodule meet de schuifactiviteit van een bezoeker om te zien hoeveel van een pagina deze bekijkt voordat deze naar een andere pagina gaat. Deze insteekmodule is niet nodig als de pagina&#39;s klein van hoogte zijn of als u de scrollactiviteit niet wilt meten.
 
 ## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
-1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
@@ -35,10 +36,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 ## Plug-in installeren met aangepaste code-editor
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
-1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -55,10 +56,10 @@ function getPercentPageViewed(pid,ch){var n=pid,r=ch;function p(){if(window.ppvI
 
 ## De plug-in gebruiken
 
-De functie `getPercentPageViewed` gebruikt de volgende argumenten:
+De `getPercentPageViewed` function gebruikt de volgende argumenten:
 
-* **`pid`** (optioneel, tekenreeks): Een op pagina gebaseerde id die u kunt correleren met de percentages die worden verschaft door de metingen van de plug-in.  Wordt standaard ingesteld op de variabele `pageName`.
-* **`ch`** (optioneel, Booleaans): Stel deze in op  `false` (of  `0`) als u niet wilt dat de insteekmodule rekening houdt met wijzigingen die na de eerste keer laden in de grootte van een pagina zijn aangebracht. Indien weggelaten, is dit argument standaard `true`. Adobe beveelt in de meeste gevallen aan dit argument weg te laten.
+* **`pid`** (optioneel, tekenreeks): Een op pagina gebaseerde id die u kunt correleren met de percentages die worden verschaft door de metingen van de plug-in.  Wordt standaard ingesteld op `pageName` variabele.
+* **`ch`** (optioneel, Booleaans): Stel deze in op `false` (of `0`) als u niet wilt dat de insteekmodule rekening houdt met wijzigingen die na de eerste keer laden in de grootte van een pagina zijn aangebracht. Indien weggelaten, wordt dit argument standaard ingesteld op `true`. Adobe beveelt in de meeste gevallen aan dit argument weg te laten.
 
 Het aanroepen van deze functie retourneert niets; in plaats daarvan worden de volgende variabelen ingesteld :
 
@@ -71,7 +72,7 @@ Het aanroepen van deze functie retourneert niets; in plaats daarvan worden de vo
 
 Wijs één of meerdere van deze variabelen aan eVars toe om afmetingsgegevens in rapporten te zien.
 
-Deze plug-in maakt een cookie van de eerste fabrikant met de naam `s_ppv` die de bovenstaande waarden bevat. Deze verloopt aan het einde van de browsersessie.
+Met deze plug-in maakt u een cookie van de eerste fabrikant, genaamd `s_ppv` die de bovenstaande waarden bevat. Deze verloopt aan het einde van de browsersessie.
 
 ## Voorbeelden
 
@@ -110,7 +111,7 @@ if(_ppvPreviousPage)
 
 ### v4.0 (7 oktober 2019)
 
-* Toegevoegde `s._ppvFoldsSeen`- en `s._ppvFoldsAvailable`-oplossingen
+* Toegevoegd `s._ppvFoldsSeen` en `s._ppvFoldsAvailable` oplossingen
 
 ### v3.01 (13 augustus 2018)
 

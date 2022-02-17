@@ -1,8 +1,9 @@
 ---
 title: Implementeren met tags in Adobe Experience Platform
 description: Leer hoe u Adobe Analytics implementeert met tags
+feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -24,8 +25,8 @@ Alle klanten met een actief Adobe Experience Cloud-contract kunnen tags gebruike
 
 De volgende stappen volgen voor het uitvoeren van een implementatie met tags:
 
-1. **Toegang tot tags** verkrijgen: U kunt toegang tot Platforms tags verkrijgen via een systeembeheerder in uw organisatie.
-2. **Een eigenschap** voor tags maken: Eigenschappen zijn overkoepelende containers die worden gebruikt om te verwijzen naar tagbeheergegevens.
+1. **Toegang tot tags vergroten**: U kunt toegang tot Platforms tags verkrijgen via een systeembeheerder in uw organisatie.
+2. **Een tag-eigenschap maken**: Eigenschappen zijn overkoepelende containers die worden gebruikt om te verwijzen naar tagbeheergegevens.
 3. **Distribueren naar een ontwikkelomgeving**: Zorg voor een omgeving waarin u de ontwikkeling van tags kunt doorlopen.
 4. **Valideren en publiceren naar productie**: Zorg ervoor dat alles werkt en publiceer het live.
 
@@ -35,6 +36,6 @@ Zie [Een eigenschap voor de tag Analytics maken](create-analytics-property.md) o
 
 Tags kunnen in hoge mate worden aangepast. Meer informatie over hoe u optimaal kunt profiteren van Adobe Analytics door de juiste gegevens op te nemen in uw implementatie.
 
-* [Documentatie](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en#) over tags: Leer hoe de interface werkt en welke extensies beschikbaar zijn.
+* [Documentatie over tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en#): Leer hoe de interface werkt en welke extensies beschikbaar zijn.
 * [Adobe Analytics-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en): Gebruik de extensie Analytics om gegevens naar Adobe Analytics te verzenden.
 * [Implementatievariabelen](../vars/overview.md): Bepaal welke variabelen u naar de servers van de gegevensinzameling wilt verzenden.

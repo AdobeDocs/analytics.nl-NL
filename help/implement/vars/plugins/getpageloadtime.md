@@ -1,8 +1,9 @@
 ---
 title: getPageLoadTime
 description: Houd bij hoeveel tijd een pagina nodig heeft om te laden.
+feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -15,16 +16,16 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-De `getPageLoadTime` plug-in gebruikt het JavaScript-prestatieobject om te meten hoeveel tijd het duurt voordat een pagina volledig is geladen. Adobe raadt u aan deze plug-in te gebruiken als u wilt meten hoelang het duurt om pagina&#39;s te laden.
+De `getPageLoadTime` de insteekmodule gebruikt het JavaScript-prestatieobject zodat u kunt meten hoeveel tijd het duurt voordat een pagina volledig is geladen. Adobe raadt u aan deze plug-in te gebruiken als u wilt meten hoelang het duurt om pagina&#39;s te laden.
 
 ## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
-1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
@@ -37,10 +38,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
-1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -57,7 +58,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## De plug-in gebruiken
 
-De functie `getPageLoadTime` gebruikt geen argumenten. Wanneer deze functie wordt aangeroepen, retourneert deze niets. In plaats daarvan worden de volgende variabelen ingesteld:
+De `getPageLoadTime` gebruiken geen argumenten. Wanneer deze functie wordt aangeroepen, retourneert deze niets. In plaats daarvan worden de volgende variabelen ingesteld:
 
 * `s._pltPreviousPage`: De vorige pagina zodat u de laadtijd kunt omzetten in de vorige pagina
 * `s._pltLoadTime`: De tijd in seconden die de vorige pagina nodig had om te laden
@@ -65,7 +66,7 @@ De functie `getPageLoadTime` gebruikt geen argumenten. Wanneer deze functie word
 Met de insteekmodule getPageLoadTime worden twee cookies van de eerste fabrikant gemaakt:
 
 * `s_plt`: De tijd, in seconden, die de vorige pagina nam om te laden. Verloopt aan het einde van de browsersessie.
-* `s_pltp` De waarde van de  `s.pageName` variabele zoals die is opgenomen in de vorige Adobe Analytics-afbeeldingsaanvraag. Verloopt aan het einde van de browsersessie.
+* `s_pltp` De waarde van de `s.pageName` variabele zoals opgenomen in de vorige Adobe Analytics-afbeeldingsaanvraag. Verloopt aan het einde van de browsersessie.
 
 ## Voorbeeld
 

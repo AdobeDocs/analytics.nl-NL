@@ -1,8 +1,9 @@
 ---
 title: rfl
 description: Verwijder een specifieke waarde uit een tekenreeks met een teken als scheidingsteken.
+feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `rfl`-plug-in kunt u &quot;veilig&quot; waarden verwijderen uit afgebakende tekenreeksen, zoals [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md) en andere. Deze plug-in is handig als u specifieke waarden uit een tekenreeks met scheidingstekens wilt verwijderen zonder dat u zich zorgen hoeft te maken over scheidingstekens. Verscheidene andere stop-ins hangen van deze code af correct in werking te stellen. Deze insteekmodule is niet nodig als u een specifieke functie niet hoeft uit te voeren voor meer dan één variabele Analytics tegelijk, of als u geen afhankelijke insteekmodules gebruikt.
+De `rfl` Met de insteekmodule kunt u &quot;veilig&quot; waarden verwijderen uit afgebakende tekenreeksen, zoals [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md)en andere. Deze plug-in is handig als u specifieke waarden uit een tekenreeks met scheidingstekens wilt verwijderen zonder dat u zich zorgen hoeft te maken over scheidingstekens. Verscheidene andere stop-ins hangen van deze code af correct in werking te stellen. Deze insteekmodule is niet nodig als u een specifieke functie niet hoeft uit te voeren voor meer dan één variabele Analytics tegelijk, of als u geen afhankelijke insteekmodules gebruikt.
 
 De plug-in gebruikt de volgende logica:
 
@@ -26,10 +27,10 @@ De plug-in gebruikt de volgende logica:
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
-1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
@@ -42,10 +43,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
-1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -62,15 +63,15 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 
 ## De plug-in gebruiken
 
-De functie `rfl` gebruikt de volgende argumenten:
+De `rfl` function gebruikt de volgende argumenten:
 
 * **`lv`** (vereist, tekenreeks): Een variabele (of tekenreeks) die een lijst met gescheiden waarden bevat
-* **`vr`** (vereist, tekenreeks): De waarde die u uit het  `lv` argument wilt verwijderen. Adobe adviseert tegen het verwijderen van veelvoudige waarden tijdens één enkele `rfl` vraag.
-* **`d1`** (optioneel, tekenreeks): Het scheidingsteken dat het  `lv` argument gebruikt. Heeft als standaardwaarde een komma (`,`).
-* **`d2`** (optioneel, tekenreeks): Het scheidingsteken dat u de retourtekenreeks wilt gebruiken. Heeft standaard dezelfde waarde als het argument `d1`.
-* **`df`** (optioneel, Booleaans): Indien  `true`, slechts dubbele instanties van het  `vr` argument van het  `lv` argument in plaats van alle instanties. Wordt standaard ingesteld op `false` wanneer niet ingesteld.
+* **`vr`** (vereist, tekenreeks): De waarde die u uit het dialoogvenster `lv` argument. Adobe raadt u af meerdere waarden tijdens één stap te verwijderen `rfl` vraag.
+* **`d1`** (optioneel, tekenreeks): Het scheidingsteken dat de `lv` argument gebruikt. Heeft als standaardwaarde een komma (`,`).
+* **`d2`** (optioneel, tekenreeks): Het scheidingsteken dat u de retourtekenreeks wilt gebruiken. Heeft als standaardwaarde dezelfde waarde als de `d1` argument.
+* **`df`** (optioneel, Booleaans): Indien `true`, slechts dubbele instanties van `vr` argument van de `lv` in plaats van alle instanties. Standaardwaarden: `false` wanneer niet ingesteld.
 
-Als deze functie wordt aangeroepen, wordt een gewijzigde tekenreeks geretourneerd die het argument `lv` bevat, maar zonder instanties (of dubbele instanties) van de waarde die is opgegeven in het argument `vr`.
+Als deze functie wordt aangeroepen, wordt een gewijzigde tekenreeks geretourneerd die de `lv` -argument, maar zonder instanties (of dubbele instanties) van de waarde die is opgegeven in het dialoogvenster `vr` argument.
 
 ## Voorbeelden van aanroepen
 
@@ -94,7 +95,7 @@ s.events = rfl(s.events,"event24");
 s.events = "event22,event25";
 ```
 
-### Voorbeeld 3
+### Voorbeeld 2
 
 Indien...
 
@@ -136,7 +137,7 @@ s.events = rfl(s.events);
 s.events = "";
 ```
 
-Als het argument `lv` of `vr` in een `rfl` vraag leeg zijn, dan keert de stop-binnen niets terug.
+Indien `lv` argument of `vr` argument is leeg in een `rfl` roept, dan keert de stop-binnen niets terug.
 
 ### Voorbeeld 4
 
@@ -164,7 +165,7 @@ s.prop4 = "hello|people|today";
 s.eVar5 = "hello|today";
 ```
 
-Houd er rekening mee dat de insteekmodule alleen een waarde retourneert. de variabele die door het argument `lv` wordt doorgegeven, wordt niet opnieuw ingesteld.
+Houd er rekening mee dat de insteekmodule alleen een waarde retourneert. de variabele die wordt doorgegeven via het dialoogvenster `lv` argument.
 
 ### Voorbeeld 5
 
@@ -186,7 +187,7 @@ s.prop4 = rfl(s.prop4,"people");
 s.prop4 = "hello|people|today";
 ```
 
-Zorg ervoor dat u het argument `d1` instelt in gevallen waarin de argumentwaarde `lv` een ander scheidingsteken bevat dan de standaardwaarde (d.w.z. komma).
+Zorg ervoor dat u de `d1` in gevallen waarin `lv` argumentwaarde bevat een ander scheidingsteken dan de standaardwaarde (d.w.z. komma).
 
 ### Voorbeeld 6
 
@@ -250,7 +251,7 @@ s.events = rfl(s.events,"event23:12345");
 s.events = "event22,event23:12345,event25";
 ```
 
-Wanneer u een gebeurtenis moet verwijderen die rangschikking en/of numerieke/muntsyntaxis gebruikt, zou u slechts de gebeurtenis zelf (d.w.z. zonder de rangschikking/numerieke/muntwaarden) in `rfl` vraag moeten specificeren.
+Wanneer u een gebeurtenis moet verwijderen die serienummering en/of numerieke/valutasyntaxis gebruikt, moet u alleen de gebeurtenis zelf opgeven (dat wil zeggen zonder de serienummering/numerieke/valutawaarden) in het dialoogvenster `rfl` vraag.
 
 ### Voorbeeld 9
 
@@ -332,7 +333,7 @@ s.events = rfl(s.events,"event23,event24");
 s.events = "event22,event23,event24,event25";
 ```
 
-Het instellen van meerdere waarden in het argument `vr` wordt niet ondersteund. De `rfl`-logica in het bovenstaande voorbeeld zou eerst de waarden in het `lv`-argument (d.w.z. s.events) opsplitsen en vervolgens proberen elke gescheiden waarde te koppelen aan de complete `vr`-argumentwaarde (d.w.z. `"event23,event24"`).
+Meerdere waarden instellen in het dialoogvenster `vr` argument wordt niet ondersteund. De `rfl` logica in het bovenstaande voorbeeld zou eerst de waarden in de `lv` argument (d.w.z. s.events) probeert dan om elke afgebakende waarde aan volledige overeen te stemmen `vr` argumentwaarde (d.w.z. `"event23,event24"`).
 
 ### Voorbeeld 13
 
@@ -355,7 +356,7 @@ s.events = rfl(s.events,"event24");
 s.events = "event22,event25");
 ```
 
-Elke waarde die uit de lijst moet worden verwijderd, moet binnen de eigen `rfl`-aanroep worden opgenomen.
+Elke waarde die uit de lijst moet worden verwijderd, moet binnen de eigen waarde vallen `rfl` vraag.
 
 ### Voorbeeld 14
 
@@ -377,7 +378,7 @@ s.linkTrackVars = rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-De laatste drie argumenten (d.w.z. &quot;,&quot;,&quot;,&quot;, vals) aan het eind van deze `rfl` vraag is niet noodzakelijk maar &quot;richt ook niets&quot;door daar te zijn aangezien zij de standaardmontages aanpassen.
+De laatste drie argumenten (d.w.z. &quot;,&quot;,&quot;,&quot;, false) aan het einde van dit dialoogvenster `rfl` de vraag is niet noodzakelijk maar ook &quot; doet niets pijn &quot; door daar te zijn aangezien zij de standaardmontages aanpassen.
 
 ### Voorbeeld 15
 
@@ -399,7 +400,7 @@ rfl(s.events,"event23");
 s.events = "event22,event23,event24";
 ```
 
-Vergeet ook niet dat de insteekmodule alleen een waarde retourneert. de variabele die door het argument `lv` wordt doorgegeven, wordt niet opnieuw ingesteld.
+Vergeet ook niet dat de insteekmodule alleen een waarde retourneert. de variabele die wordt doorgegeven via het dialoogvenster `lv` argument.
 
 ## Versiehistorie
 
@@ -414,7 +415,7 @@ Vergeet ook niet dat de insteekmodule alleen een waarde retourneert. de variabel
 ### 2.0 (16 april 2018)
 
 * Puntrelease (opnieuw gecompileerd, kleiner codeformaat).
-* De behoefte aan de `join`-plug-in is verwijderd.
+* De noodzaak van de `join` insteekmodule.
 
 ### 1.0 (18 juli 2016)
 

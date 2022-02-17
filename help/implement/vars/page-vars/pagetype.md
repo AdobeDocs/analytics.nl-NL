@@ -1,8 +1,9 @@
 ---
 title: pageType
 description: Bepaal of de huidige pagina een fout van 404 is.
+feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 1%
@@ -11,7 +12,7 @@ ht-degree: 1%
 
 # pageType
 
-De variabele `pageType` is een vlag die wordt gebruikt om foutenpagina&#39;s op uw plaats, zoals 404 fouten aan te wijzen. Als deze variabele de tekenreeks `errorPage` bevat, wordt de dimensie &#39;Pagina&#39;s niet gevonden&#39; gevuld.
+De `pageType` variabele is een vlag die wordt gebruikt om foutenpagina&#39;s op uw plaats, zoals 404 fouten aan te wijzen. Als deze variabele de tekenreeks bevat `errorPage`, wordt de dimensie &#39;Pagina&#39;s niet gevonden&#39; gevuld.
 
 >[!IMPORTANT]
 >
@@ -23,7 +24,7 @@ Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele t
 
 ## s.pageType in AppMeasurement en aangepaste code-editor
 
-De variabele `s.pageType` is een tekenreeks waarbij de waarde `errorPage` de enige geldige waarde is. Stel deze variabele in op deze waarde op een foutpagina op uw site, bijvoorbeeld op 404 pagina&#39;s.
+De `s.pageType` variabele is een tekenreeks waarbij de waarde `errorPage` is de enige geldige waarde. Stel deze variabele in op deze waarde op een foutpagina op uw site, bijvoorbeeld op 404 pagina&#39;s.
 
 ```js
 s.pageType = "errorPage";

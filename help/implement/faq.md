@@ -1,8 +1,9 @@
 ---
 title: Veelgestelde vragen over implementatie
 description: Veelgestelde vragen over implementatie en koppelingen naar meer informatie.
+feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 42%
@@ -33,8 +34,8 @@ AppMeasurement maakt een afbeeldingsobject binnen de HTML-pagina en de browser v
 
 Soms zou een organisatie een implementatie wegens contractvervaldatum willen verwijderen of het aantal servervraag verminderen.
 
-* **Implementaties met tags in Adobe Experience Platform**: U kunt de Adobe Analytics-extensie op het  [!UICONTROL Extensions] tabblad uit- of verwijderen en vervolgens publiceren.
-* **Legacy AppMeasurement-implementaties**: Vervang de gehele inhoud van het  `s_code.js` bestand door de volgende coderegel:
+* **Implementaties met tags in Adobe Experience Platform**: De Adobe Analytics-extensie in- of uitschakelen in het dialoogvenster [!UICONTROL Extensions] te publiceren.
+* **Legacy AppMeasurement-implementaties**: De volledige inhoud van uw `s_code.js` bestand met de volgende coderegel:
 
 ```js
 var s = new Object();
@@ -45,16 +46,16 @@ var s = new Object();
 >Niet:
 >
 >* Verander de rapportreeks in een ongeldige waarde, aangezien het tot onnodige lading op Adobe servers leidt.
->* Verwijder het `s_code.js`-bestand in zijn geheel, tenzij u ook alle verwijzingen naar het bestand op elke pagina verwijdert.
->* Wijzig de variabele `trackingServer` om niet naar Adobe te wijzen. AppMeasurement verzendt nog beeldverzoeken, die 404 fouten terugkeren.
+>* Verwijder de `s_code.js` , tenzij u ook alle verwijzingen naar het bestand op elke pagina verwijdert.
+>* Wijzig de `trackingServer` variabele om vanaf Adobe te wijzen. AppMeasurement verzendt nog beeldverzoeken, die 404 fouten terugkeren.
 
 
-## Ik stelde AppMeturement door een codeanalysator in, en het benadrukte zijn gebruik van `Math.random()` als potentieel veiligheidsrisico. Wordt `Math.random()` gebruikt met om het even welke gevoelige gegevens?
+## Ik heb AppMeturement uitgevoerd via een codeanalyse en het heeft het gebruik van AppMeturement gemarkeerd als `Math.random()` als een potentieel veiligheidsrisico. Is `Math.random()` gebruikt met gevoelige gegevens?
 
-Nee. De aantallen die `Math.random()` gebruiken worden niet gebruikt om, gevoelige gegevens te maskeren te verzenden of te ontvangen. Gegevens die naar Adobe-gegevensverzamelingsservers worden verzonden, zijn afhankelijk van de beveiliging van de onderliggende HTTPS-verbinding. <!-- AN-173590 -->
+Nee. De gebruikte getallen `Math.random()` niet worden gebruikt om gevoelige gegevens te maskeren, te verzenden of te ontvangen. Gegevens die naar Adobe-gegevensverzamelingsservers worden verzonden, zijn afhankelijk van de beveiliging van de onderliggende HTTPS-verbinding. <!-- AN-173590 -->
 
-AppMeturement gebruikt `Math.random()` op drie zeer belangrijke gebieden:
+Toepassingsmeting gebruikt `Math.random()` op drie belangrijke gebieden :
 
-* **Bemonstering**: Afhankelijk van uw implementatie, kon sommige informatie voor slechts een klein percentage bezoekers aan uw plaats worden verzameld. `Math.random()` wordt gebruikt om te bepalen of een bepaalde bezoeker gegevens zou moeten verzenden. Bij de meeste implementaties wordt geen sampling gebruikt.
-* **ID** terugvalbezoeker: Als de bezoeker-id niet uit cookies kan worden opgehaald, wordt een willekeurige bezoeker-id gegenereerd. Dit deel van AppMeasurement gebruikt twee vraag aan `Math.random()`.
+* **Monster**: Afhankelijk van uw implementatie, kon sommige informatie voor slechts een klein percentage bezoekers aan uw plaats worden verzameld. `Math.random()` wordt gebruikt om te bepalen of een bepaalde bezoeker gegevens zou moeten verzenden. Bij de meeste implementaties wordt geen sampling gebruikt.
+* **ID terugvalbezoeker**: Als de bezoeker-id niet uit cookies kan worden opgehaald, wordt een willekeurige bezoeker-id gegenereerd. In dit deel van AppMeasurement worden twee aanroepen van `Math.random()`.
 * **Cache busting**: Aan het einde van de afbeeldingsaanvraag-URL&#39;s wordt een willekeurig getal toegevoegd om te voorkomen dat de browser in cache wordt geplaatst.

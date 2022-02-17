@@ -1,13 +1,11 @@
 ---
-description: De identificatie van bezoekers tussen apparaten helpt u bezoekers over veelvoudige apparaten aan te sluiten. De identificatie van bezoekers tussen apparaten gebruikt de variabele van bezoekersidentiteitskaart, s.bezoekerID, om een gebruiker over apparaten te associëren.
+description: Met de identificatie van bezoekers tussen apparaten kunt u bezoekers op meerdere apparaten aansluiten. De identificatie van bezoekers tussen apparaten gebruikt de variabele van bezoekersidentiteitskaart, s.bezoekerID, om een gebruiker over apparaten te associëren.
 keywords: Analyseimplementatie
 subtopic: Visitors
 title: Gebruikers op verschillende apparaten verbinden
-topic-fix: Developer and implementation
-uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
+feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -18,15 +16,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie [Apparaatanalyse](/help/components/cda/overview.md) in de gebruikershandleiding voor componenten.
+>Deze methode voor het identificeren van bezoekers op verschillende apparaten wordt niet langer aanbevolen. Zie [Apparaatanalyse](/help/components/cda/overview.md) in de gebruikershandleiding van Componenten.
 
-De identificatie van bezoekers tussen apparaten helpt u bezoekers over veelvoudige apparaten aan te sluiten. De identificatie van bezoekers tussen apparaten gebruikt de `visitorID` variabele om een gebruiker over apparaten te associëren. De variabele `visitorID` krijgt de hoogste prioriteit bij het identificeren van unieke bezoekers.
+Met de identificatie van bezoekers tussen apparaten kunt u bezoekers op meerdere apparaten aansluiten. De identificatie van bezoekers van verschillende apparaten gebruikt de `visitorID` variabele om een gebruiker op verschillende apparaten te koppelen. De `visitorID` variabele krijgt de hoogste prioriteit bij het identificeren van unieke bezoekers .
 
 Wanneer u een treffer verzendt met een aangepaste bezoeker-id, controleert Adobe op alle bezoekersprofielen die een overeenkomende bezoeker-id hebben. Als er al een bezoekersprofiel in het systeem aanwezig is, wordt dat profiel vanaf dat punt gebruikt en wordt het vorige bezoekersprofiel niet meer gebruikt.
 
-Het plaatsen van `visitorID` variabele wordt typisch geplaatst na authentificatie, of nadat een bezoeker één of andere andere actie uitvoert die u toestaat om hen onafhankelijk van het apparaat uniek te identificeren dat wordt gebruikt. Effectieve id&#39;s bevatten een hash van hun gebruikersnaam, e-mailadres of een interne id die geen persoonlijk identificeerbare informatie bevat.
+De instelling `visitorID` De variabele wordt typisch geplaatst na authentificatie, of nadat een bezoeker één of andere andere actie uitvoert die u toestaat om hen onafhankelijk van het apparaat uniek te identificeren dat wordt gebruikt. Effectieve id&#39;s bevatten een hash van hun gebruikersnaam, e-mailadres of een interne id die geen persoonlijk identificeerbare informatie bevat.
 
-Nadat de klant zich vanaf elk apparaat heeft aangemeld, zijn deze allemaal gekoppeld aan hetzelfde gebruikersprofiel. Als de bezoeker zich later afmeldt op een apparaat, blijven ze tot hetzelfde bezoekersprofiel behoren, omdat Adobe inziet dat het browsercookie op elk apparaat tot hetzelfde bezoekersprofiel behoort. Adobe raadt u aan de variabele `visitorID` te gebruiken als het browsercookie wordt verwijderd.
+Nadat de klant zich vanaf elk apparaat heeft aangemeld, zijn deze allemaal gekoppeld aan hetzelfde gebruikersprofiel. Als de bezoeker zich later afmeldt op een apparaat, blijven ze tot hetzelfde bezoekersprofiel behoren, omdat Adobe inziet dat het browsercookie op elk apparaat tot hetzelfde bezoekersprofiel behoort. Adobe raadt u aan de `visitorID` variabel wanneer het browsercookie wordt verwijderd.
 
 ## Beperkingen
 

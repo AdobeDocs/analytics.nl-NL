@@ -1,8 +1,9 @@
 ---
 title: linkLeaveQueryString
 description: Staat het behoud van vraagkoorden in verbinding het volgen dimensies toe.
+feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -13,11 +14,11 @@ ht-degree: 0%
 
 AppMeasurement strips vraagt tekenreeksen van verbinding het volgen URLs door gebrek. Gebruik de `linkLeaveQueryString` variabele om vraagkoorden in verbinding het volgen dimensies te bewaren.
 
-Bij sommige afsluitkoppelingen en downloadkoppelingen kan het belangrijke gedeelte van de URL zich in de queryreeks bevinden. Bijvoorbeeld, bevat een downloadverbinding zoals `https://example.com/download.asp?filename=myfile.exe` belangrijke verbindingsinformatie in het vraagkoord.
+Bij sommige afsluitkoppelingen en downloadkoppelingen kan het belangrijke gedeelte van de URL zich in de queryreeks bevinden. Bijvoorbeeld een downloadkoppeling, zoals `https://example.com/download.asp?filename=myfile.exe` bevat belangrijke koppelingsinformatie in het vraagkoord.
 
 Als de informatie van het verbinden niet in URLs op uw plaats is, is het gebruiken van deze variabele niet noodzakelijk. Door querytekenreeksen te verwijderen uit URL&#39;s die koppelingen bijhouden, beperkt u het aantal unieke waarden dat de dimensie bevat.
 
-Als u `linkLeaveQueryString` inschakelt, worden alle dimensies voor het bijhouden van koppelingen toegepast (inclusief aangepaste koppelingen, afsluitkoppelingen en downloadkoppelingen).
+Inschakelen `linkLeaveQueryString` is van toepassing op alle afmetingen voor het bijhouden van koppelingen (inclusief aangepaste koppelingen, afsluitkoppelingen en downloadkoppelingen).
 
 >[!TIP]
 >
@@ -25,21 +26,21 @@ Als u `linkLeaveQueryString` inschakelt, worden alle dimensies voor het bijhoude
 
 ## URL-parameters behouden met tags in Adobe Experience Platform
 
-[!UICONTROL Keep URL Parameters] is een selectievakje onder de  [!UICONTROL Link Tracking] accordeon bij het configureren van de Adobe Analytics-extensie.
+[!UICONTROL Keep URL Parameters] is een selectievakje onder [!UICONTROL Link Tracking] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
-3. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
-4. Breid [!UICONTROL Link Tracking] accordeon uit, die [!UICONTROL Keep URL Parameters] checkbox openbaart.
+3. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder Adobe Analytics.
+4. Breid uit [!UICONTROL Link Tracking] accordion, die de [!UICONTROL Keep URL Parameters] selectievakje.
 
 Schakel dit vakje in als u querytekenreeksen wilt opnemen in de afmetingen voor het bijhouden van koppelingen.
 
 ## s.linkLeaveQueryString in AppMeasurement en aangepaste code-editor
 
-De variabele `s.linkLeaveQueryString` is een booleaanse waarde. De standaardwaarde is `false`.
+De `s.linkLeaveQueryString` variable is a boolean. De standaardwaarde is `false`.
 
-* Als deze variabele wordt geplaatst aan `true`, vraagkoorden in verbinding het volgen URLs worden bewaard.
-* Als deze variabele wordt geplaatst aan `false` of niet bepaald, worden de vraagkoorden gestript van verbinding het volgen URLs.
+* Als deze variabele is ingesteld op `true`, querytekenreeksen blijven behouden in URL&#39;s voor het bijhouden van koppelingen.
+* Als deze variabele is ingesteld op `false` of niet gedefinieerd, querytekenreeksen worden verwijderd van URL&#39;s voor het bijhouden van koppelingen.
 
 ```js
 s.linkLeaveQueryString = true;
@@ -47,9 +48,9 @@ s.linkLeaveQueryString = true;
 
 ## Voorbeeld
 
-Wees voorzichtig wanneer het plaatsen van deze variabele aan waar, aangezien het verbindingsvolgende filters zoals [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md), en [`linkDownloadFiletypes`](linkdownloadfiletypes.md) kan beïnvloeden.
+Wees voorzichtig wanneer u deze variabele instelt op true, aangezien dit invloed kan hebben op koppelingsvolgfilters, zoals [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md), en [`linkDownloadFiletypes`](linkdownloadfiletypes.md).
 
-Bekijk het volgende voorbeeld alsof het op `adobe.com` was:
+Bekijk het volgende voorbeeld alsof het was `adobe.com`:
 
 ```html
 <script>

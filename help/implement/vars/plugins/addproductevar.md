@@ -1,8 +1,9 @@
 ---
 title: addProductEvar
 description: Voegt merchandising Vars aan de productvariabele toe.
+feature: Variables
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `addProductEvar`-plug-in kunt u eenvoudig een Adobe Analytics-eVar voor handelsdoeleinden toevoegen die productsyntaxis gebruikt voor de productvariabele zonder dat u zich zorgen hoeft te maken of de bestaande inhoud van de productvariabele wordt gewijzigd/verplaatst/verwijderd. Adobe raadt u aan deze plug-in te gebruiken als u eenvoudig handelsversies van productsyntaxis wilt toevoegen aan de variabele [`products`](../page-vars/products.md). U hoeft de `addProductEvar` plug-in niet te gebruiken als u geen gebruikmaken van merchandising Vars met productsyntaxis.
+De `addProductEvar` Met de plug-in kunt u eenvoudig een Adobe Analytics-eVar voor het verhandelen van producten toevoegen die productsyntaxis gebruikt voor de productvariabele zonder dat u zich zorgen hoeft te maken of de bestaande inhoud van de productvariabele wordt gewijzigd/verplaatst/verwijderd. Adobe raadt u aan deze plug-in te gebruiken als u eenvoudig handelsversies van productsyntaxis wilt toevoegen aan de [`products`](../page-vars/products.md) variabele. U hoeft de `addProductEvar` insteekmodule als u geen elektronische handelsversies met productsyntaxis gebruikt.
 
 >[!NOTE]
 >
@@ -25,10 +26,10 @@ Met de `addProductEvar`-plug-in kunt u eenvoudig een Adobe Analytics-eVar voor h
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
-1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
@@ -41,10 +42,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
-1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -61,13 +62,13 @@ function addProductEvar(en,ev,ap){var e=en,f=ev,d=ap;if("-v"===e)return{plugin:"
 
 ## De plug-in gebruiken
 
-De `addProductEvar` plug-in gebruikt de volgende argumenten:
+De `addProductEvar` de plug-in gebruikt de volgende argumenten:
 
 * **`en`** (vereist, tekenreeks): De eVar die moet worden toegevoegd aan de laatste vermelding die momenteel in de productvariabele is opgenomen. Als de productvariabele leeg is, maakt de plug-in een &quot;leeg&quot; product-item met de waarde eVar aan het einde van de vermelding.
 * **`ev`** (vereist, tekenreeks): De waarde die aan de eVar is toegewezen.
-* **`ap`** (optioneel, Booleaans): Als de productvariabele momenteel meer dan één productvermelding bevat, voegt de waarde true (of 1) de eVar toe aan  **** alle productvermeldingen.  De standaardwaarde is false (of 0). Hiermee wordt de eVar alleen toegevoegd aan het **last**-item in de productvariabele.
+* **`ap`** (optioneel, Booleaans): Als de productvariabele momenteel meer dan één productitem bevat, voegt een waarde waar (of 1) de eVar toe aan **alles** de productgegevens.  De standaardwaarde is false (of 0), waardoor de eVar alleen wordt toegevoegd aan de eigenschap **last** de vermelding in de productvariabele.
 
-De `addProductEvar` plug-in retourneert niets. In plaats daarvan worden de eVar (en de eVar-waarde) die in het argument `en` en `ev` zijn opgegeven, aan de variabele `products` toegevoegd.
+De `addProductEvar` retourneert niets. In plaats daarvan worden de eVar (en de waarde van de eVar) toegevoegd die zijn opgegeven in het dialoogvenster `en` en `ev` voor de `products` variabele.
 
 ## Voorbeelden
 

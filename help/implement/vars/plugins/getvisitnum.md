@@ -1,8 +1,9 @@
 ---
 title: getVisitNum
 description: Volg het huidige bezoeknummer van een bezoeker.
+feature: Variables
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 0%
@@ -15,16 +16,16 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-De `getVisitNum` plug-in retourneert het bezoeknummer voor alle bezoekers die binnen het gewenste aantal dagen naar de site komen. Analysis Workspace heeft een dimensie &#39;Visit Number&#39; die vergelijkbare functionaliteit biedt. Adobe raadt u aan deze plug-in te gebruiken als u meer controle wilt over de manier waarop het bezoeknummer wordt verhoogd. Deze insteekmodule is niet nodig als de ingebouwde dimensie Visit Number in Analysis Workspace voldoende is voor uw rapportagevereisten.
+De `getVisitNum` retourneert het bezoeknummer voor alle bezoekers die binnen het gewenste aantal dagen naar de site komen. Analysis Workspace heeft een dimensie &#39;Visit Number&#39; die vergelijkbare functionaliteit biedt. Adobe raadt u aan deze plug-in te gebruiken als u meer controle wilt over de manier waarop het bezoeknummer wordt verhoogd. Deze insteekmodule is niet nodig als de ingebouwde dimensie Visit Number in Analysis Workspace voldoende is voor uw rapportagevereisten.
 
 ## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
-1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
@@ -37,10 +38,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
-1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -57,17 +58,17 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## De plug-in gebruiken
 
-De functie `getVisitNum` gebruikt de volgende argumenten:
+De `getVisitNum` function gebruikt de volgende argumenten:
 
-* **`rp`** (optioneel, geheel getal OF tekenreeks): Het aantal dagen voordat de teller van het bezoeknummer opnieuw wordt ingesteld.  Wordt standaard ingesteld op `365` wanneer niet ingesteld.
-   * Wanneer dit argument `"w"` is, stelt de teller aan het eind van de week (deze Zaterdag om 11:59 PM) terug
-   * Wanneer dit argument `"m"` is, stelt de teller aan het eind van de maand (de laatste dag van deze maand) terug
-   * Als dit argument `"y"` is, wordt de teller aan het einde van het jaar opnieuw ingesteld (31 december)
-* **`erp`** (optioneel, Booleaans): Wanneer het  `rp` argument een getal is, bepaalt dit argument of de vervaldatum van het bezoeknummer moet worden verlengd. Als de set wordt ingesteld op `true`, worden volgende hits op uw site de teller van het bezoeknummer opnieuw ingesteld. Indien ingesteld op `false`, worden volgende treffers voor uw site niet uitgebreid wanneer de teller van het bezoeknummer opnieuw wordt ingesteld. Wordt standaard ingesteld op `true`. Dit argument is niet geldig wanneer het argument `rp` een tekenreeks is.
+* **`rp`** (optioneel, geheel getal OF tekenreeks): Het aantal dagen voordat de teller van het bezoeknummer opnieuw wordt ingesteld.  Standaardwaarden: `365` wanneer niet ingesteld.
+   * Wanneer dit argument `"w"`, de tellerherstelt aan het einde van de week (deze zaterdag om 23:59 uur)
+   * Wanneer dit argument `"m"`, de tellerherstelt aan het einde van de maand (de laatste dag van deze maand)
+   * Wanneer dit argument `"y"`, de tegenposten aan het einde van het jaar (31 december)
+* **`erp`** (optioneel, Booleaans): Wanneer de `rp` argument is een getal, dit argument bepaalt of de vervaldatum van het bezoeknummer moet worden verlengd. Indien ingesteld op `true`, worden bij volgende treffers naar uw site de teller van het bezoeknummer opnieuw ingesteld. Indien ingesteld op `false`, worden volgende hits op uw site niet uitgebreid wanneer de teller van het bezoeknummer opnieuw wordt ingesteld. Standaardwaarden: `true`. Dit argument is niet geldig wanneer het `rp` argument is een tekenreeks.
 
 Het aantal bezoekers neemt toe wanneer de bezoeker na 30 minuten inactiviteit terugkeert naar uw site. Als deze functie wordt aangeroepen, wordt een geheel getal geretourneerd dat het huidige bezoeknummer van de bezoeker vertegenwoordigt.
 
-Deze plug-in stelt een cookie van de eerste fabrikant met de naam `"s_vnc[LENGTH]"` in, waarbij `[LENGTH]` de waarde is die wordt doorgegeven aan het argument `rp`. Bijvoorbeeld `"s_vncw"`, `"s_vncm"`, of `"s_vnc365"`. De waarde van het cookie is een combinatie van een Unix-tijdstempel die aangeeft wanneer de bezoekteller opnieuw wordt ingesteld, zoals het einde van de week, het einde van de maand of na 365 dagen inactiviteit. Het bevat ook het huidige bezoeknummer. Met deze insteekmodule wordt een ander cookie met de naam `"s_ivc"` ingesteld op `true` en vervalt het cookie na 30 minuten inactiviteit.
+Deze plug-in stelt een cookie van de eerste fabrikant in, die `"s_vnc[LENGTH]"` waar `[LENGTH]` is de waarde die aan de `rp` argument. Bijvoorbeeld: `"s_vncw"`, `"s_vncm"`, of `"s_vnc365"`. De waarde van het cookie is een combinatie van een Unix-tijdstempel die aangeeft wanneer de bezoekteller opnieuw wordt ingesteld, zoals het einde van de week, het einde van de maand of na 365 dagen inactiviteit. Het bevat ook het huidige bezoeknummer. Met deze insteekmodule wordt een cookie met de naam `"s_ivc"` die is ingesteld op `true` en verloopt na 30 minuten inactiviteit.
 
 ## Voorbeelden
 
@@ -99,18 +100,18 @@ s.prop3 = getVisitNum("y");
 
 ### 4.11 (30 september 2019)
 
-* Probleem verholpen waarbij het argument `erp` expliciet werd ingesteld op `false`.
+* Het probleem waarbij de `erp` argument is expliciet ingesteld op `false`.
 
 ### 4.1 (21 mei 2018)
 
-* De `endOfDatePeriod`-plug-in is bijgewerkt naar v1.1.
+* De `endOfDatePeriod` plug-in naar v1.1.
 
 ### 4.0 (17 april 2018)
 
 * Puntrelease (opnieuw gecompileerd, kleiner codeformaat).
-* Cookieargumenten zijn verwijderd omdat de plug-in nu dynamisch cookies genereert op basis van het argument `rp`)
+* Cookieargumenten zijn verwijderd omdat de plug-in nu dynamisch cookies genereert op basis van de `rp` argument)
 
 ### 3.0 (5 juni 2016)
 
 * Volledige revisie
-* Gecombineerd alle vorige oplossingen beschikbaar in diverse versies van de `getVisitNum` stop-in.
+* Gecombineerd alle vorige oplossingen beschikbaar in diverse versies van `getVisitNum` insteekmodule.

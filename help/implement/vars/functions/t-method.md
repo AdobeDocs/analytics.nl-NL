@@ -1,8 +1,9 @@
 ---
 title: t
 description: Verzend een vraag van de paginamening het volgen aan Adobe.
+feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # t()
 
-De methode `t()` is een belangrijke kerncomponent voor Adobe Analytics. Het neemt alle variabelen die van Analytics op de pagina worden bepaald, compileert hen in een beeldverzoek, en verzendt die gegevens naar de servers van de Adobe- gegevensinzameling.
+De `t()` Deze methode is een belangrijk kernonderdeel van Adobe Analytics. Het neemt alle variabelen die van Analytics op de pagina worden bepaald, compileert hen in een beeldverzoek, en verzendt die gegevens naar de servers van de Adobe- gegevensinzameling.
 
 Neem bijvoorbeeld de volgende JavaScript-code:
 
@@ -27,7 +28,7 @@ s.eVar1 = "Example dimension item";
 s.t();
 ```
 
-Wanneer u de methode `t()` uitvoert, worden alle gedefinieerde variabelen Analytics uitgevoerd en wordt op basis van deze variabelen een URL gemaakt. Sommige variabelen van de Analyse bepalen URL van het beeld, terwijl andere variabelen vraagkoordparameterwaarden bepalen.
+De `t()` Alle gedefinieerde variabelen voor Analytics worden gebruikt en op basis van deze variabelen een URL geformuleerd. Sommige variabelen van de Analyse bepalen URL van het beeld, terwijl andere variabelen vraagkoordparameterwaarden bepalen.
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
@@ -39,22 +40,22 @@ Adobe ontvangt het beeldverzoek, dan ontleedt de verzoekkopbal, URL, en de param
 
 De UI van de Inzameling van Gegevens heeft een specifieke plaats reeks een pagina mening volgende vraag.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
-3. Ga naar het [!UICONTROL Rules] lusje, dan klik de gewenste regel (of creeer een regel).
-4. Klik onder [!UICONTROL Actions] op het pictogram &#39;+&#39;
-5. Stel het [!UICONTROL Extension]-vervolgkeuzemenu in op Adobe Analytics en [!UICONTROL Action Type] op Band verzenden.
-6. Klik op het keuzerondje `s.t()`.
+3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
+4. Onder [!UICONTROL Actions], klikt u op het pictogram &#39;+&#39;
+5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] om baken te verzenden.
+6. Klik op de knop `s.t()` keuzerondje.
 
 ## s.t()-methode in AppMeasurement en aangepaste code-editor
 
-Roep de methode `s.t()` wanneer u een volgende vraag naar Adobe wilt verzenden.
+Roep de `s.t()` methode wanneer u een volgende vraag naar Adobe wilt verzenden.
 
 ```js
 s.t();
 ```
 
-U kunt een object ook als argument gebruiken om variabelewaarden te overschrijven. Zie [variabele overschrijvingen](../../js/overrides.md) voor meer informatie.
+U kunt een object ook als argument gebruiken om variabelewaarden te overschrijven. Zie [variabele overschrijvingen](../../js/overrides.md) voor meer informatie .
 
 ```js
 var y = new Object();

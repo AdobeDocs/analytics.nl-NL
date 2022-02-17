@@ -1,8 +1,9 @@
 ---
 title: getGeoCoordinates
 description: De geoLocation van een bezoeker volgen.
+feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -15,16 +16,16 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de `getGeoCoordinates`-plug-in kunt u de breedte en lengte van bezoekersapparaten vastleggen. Adobe raadt u aan deze plug-in te gebruiken als u geo-locatiegegevens wilt vastleggen in variabelen van Analytics.
+De `getGeoCoordinates` kunt u de breedte en lengte van bezoekersapparaten vastleggen. Adobe raadt u aan deze plug-in te gebruiken als u geo-locatiegegevens wilt vastleggen in variabelen van Analytics.
 
 ## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
-1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
@@ -37,10 +38,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
-1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -57,17 +58,17 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 ## De plug-in gebruiken
 
-De functie `getGeoCoordinates` gebruikt geen argumenten. Deze geeft een van de volgende waarden:
+De `getGeoCoordinates` gebruiken geen argumenten. Deze geeft een van de volgende waarden:
 
 * `"geo coordinates not available"`: Voor apparaten waarvoor geen gegevens over de geolocatie beschikbaar zijn op het moment dat de plug-in wordt uitgevoerd. Deze waarde komt vaak voor bij de eerste treffer van het bezoek, vooral wanneer bezoekers eerst toestemming moeten geven om hun locatie te volgen.
 * `"error retrieving geo coordinates"`: Wanneer de plug-in fouten aantreft bij het ophalen van de locatie van het apparaat
-* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Waar  [LATITUDE]/[] LONGITUDE de breedte en lengte zijn
+* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Wanneer [LATITUDE]/[LONGITUDE] zijn respectievelijk de lengte- en breedtegraad
 
 >[!NOTE]
 >
->Coördinaatwaarden worden afgerond tot op het dichtstbijzijnde vierde decimaal. De waarde van `"40.438635333"` wordt bijvoorbeeld afgerond naar `"40.4386"` om het aantal unieke waarden te beperken dat moet worden vastgelegd. De waarden zijn dicht genoeg om de exacte locatie van het apparaat binnen ongeveer 10 meter te bepalen.
+>Coördinaatwaarden worden afgerond tot op het dichtstbijzijnde vierde decimaal. De waarde van bijvoorbeeld `"40.438635333"` is afgerond naar `"40.4386"` om het aantal unieke waarden te beperken dat moet worden vastgelegd. De waarden zijn dicht genoeg om de exacte locatie van het apparaat binnen ongeveer 10 meter te bepalen.
 
-Deze insteekmodule gebruikt een cookie met de naam `"s_ggc"` om coördinaten op te slaan tussen treffers, indien nodig.
+Deze plug-in gebruikt een cookie met de naam `"s_ggc"` om coördinaten tussen treffers op te slaan indien nodig.
 
 ## Voorbeelden
 

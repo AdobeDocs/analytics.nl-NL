@@ -1,17 +1,20 @@
 ---
 title: Hash-botsingen
 description: Beschrijft wat een knoeiboelbotsing is en hoe het zich kan manifesteren.
-translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+feature: Validation
+exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 2%
 
 ---
 
-
 # Hash-botsingen
 
-Adobe behandelt prop- en eVar-waarden als tekenreeksen, zelfs als de waarde een getal is. Soms zijn deze tekenreeksen honderden tekens lang, andere keren zijn ze kort. Als u ruimte wilt besparen, de prestaties wilt verbeteren en alles op dezelfde grootte wilt plaatsen, worden de tekenreeksen niet rechtstreeks in de verwerking gebruikt. In plaats daarvan wordt voor elke waarde een 32-bits of 64-bits hash berekend. Alle rapporten lopen op deze gehakte waarden, waar elke knoeiboel door de originele tekst wordt vervangen. Hashes verhoogt drastisch de prestaties van de rapporten van de Analyse.
+Adobe beschouwt de waarde van de eigenschap en van de eVar als koorden, zelfs als de waarde een aantal is. Soms zijn deze tekenreeksen honderden tekens lang, andere keren zijn ze kort. Als u ruimte wilt besparen, de prestaties wilt verbeteren en alles op dezelfde grootte wilt plaatsen, worden de tekenreeksen niet rechtstreeks in de verwerking gebruikt. In plaats daarvan wordt voor elke waarde een 32-bits of 64-bits hash berekend. Alle rapporten lopen op deze gehakte waarden, waar elke knoeiboel door de originele tekst wordt vervangen. Hashes verhoogt drastisch de prestaties van de rapporten van de Analyse.
 
-Voor de meeste velden wordt de tekenreeks eerst omgezet in kleine letters (waardoor het aantal unieke waarden wordt verminderd). Waarden worden maandelijks gehasht (de eerste keer dat ze elke maand worden gezien). Van maand tot maand is er een kleine mogelijkheid dat twee unieke variabele waarden hash aan de zelfde waarde. Dit concept wordt een *hash-botsing* genoemd.
+Voor de meeste velden wordt de tekenreeks eerst omgezet in kleine letters (waardoor het aantal unieke waarden wordt verminderd). Waarden worden maandelijks gehasht (de eerste keer dat ze elke maand worden gezien). Van maand tot maand is er een kleine mogelijkheid dat twee unieke veranderlijke waarden aan de zelfde waarde hakken. Dit concept wordt een *hash-botsing*.
 
 De botsingen van de as kunnen zich in het melden als volgt manifesteren:
 
@@ -25,7 +28,7 @@ De waarschijnlijkheid van knoeiboelbotsingen neemt met het aantal unieke waarden
 <table id="table_6A49D1D5932E485DB2083154897E5074"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> eVar62 String-waarde </th> 
+   <th colname="col1" class="entry"> eVar62 tekenreekswaarde </th> 
    <th colname="col2" class="entry"> Hash </th> 
   </tr> 
  </thead>
@@ -50,7 +53,7 @@ Als u een segment bouwt dat bezoeken zoekt waar eVar62= &quot;waarde 500&quot;, 
 <table id="table_5FCF0BCDA5E740CCA266A822D9084C49"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> eVar62 String-waarde </th> 
+   <th colname="col1" class="entry"> eVar62 tekenreekswaarde </th> 
    <th colname="col2" class="entry"> Hash </th> 
   </tr> 
  </thead>
@@ -76,4 +79,4 @@ Als u een segment bouwt dat bezoeken zoekt waar eVar62= &quot;waarde 500&quot;, 
 
 Wanneer het zelfde segment opnieuw loopt, zoekt het de knoeiboel van &quot;waarde 500&quot;, vindt 123, en het rapport keert alle bezoeken terug die knoeiboel 123 bevatten. Nu zullen bezoeken die op 18 februari hebben plaatsgevonden in de resultaten worden opgenomen.
 
-Deze situatie kan problemen veroorzaken wanneer het gebruiken van Analytics. Adobe blijft onderzoeken hoe u de kans op deze hash-botsingen in de toekomst kunt verkleinen. De suggesties om deze situatie te vermijden zijn manieren te vinden om de unieke waarden tussen variabelen te verspreiden, onnodige waarden met verwerkingsregels te verwijderen, of anders het aantal waarden per variabele te verminderen.
+Deze situatie kan problemen veroorzaken wanneer het gebruiken van Analytics. Adobe blijft onderzoeken hoe de kans op deze hash-botsingen in de toekomst kan worden verkleind. De suggesties om deze situatie te vermijden zijn manieren te vinden om de unieke waarden tussen variabelen te verspreiden, onnodige waarden met verwerkingsregels te verwijderen, of anders het aantal waarden per variabele te verminderen.

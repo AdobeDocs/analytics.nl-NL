@@ -1,8 +1,9 @@
 ---
 title: bezoekerNameSpace
 description: Variabele in ruste die het cookie domein heeft bepaald.
+feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -13,9 +14,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze variabele wordt uitgeschakeld. Gebruik in plaats hiervan [`trackingServer`](trackingserver.md).
+>Deze variabele wordt uitgeschakeld. Gebruiken [`trackingServer`](trackingserver.md) in plaats daarvan.
 
-In vorige versies van Adobe Analytics, gebruikte AppMeasurement `visitorNameSpace` variabele om het subdomein van `2o7.net` te bepalen waar de bezoekerskoekjes worden opgeslagen. De toenemende privacy praktijken in moderne browsers maken derdekoekjes minder betrouwbaar. Met de introductie van de variabelen `trackingServer` en [`trackingServerSecure`](trackingserversecure.md) is `visitorNameSpace` niet meer nodig.
+In eerdere versies van Adobe Analytics gebruikte AppMeturement de `visitorNameSpace` variabele om het subdomein van te helpen bepalen `2o7.net` waar bezoekerscookies worden opgeslagen. De toenemende privacy praktijken in moderne browsers maken derdekoekjes minder betrouwbaar. Met de invoering van de `trackingServer` en [`trackingServerSecure`](trackingserversecure.md) variabelen, `visitorNameSpace` is niet meer nodig.
 
 >[!TIP]
 >
@@ -23,20 +24,20 @@ In vorige versies van Adobe Analytics, gebruikte AppMeasurement `visitorNameSpac
 
 ## Naamruimte van bezoekers met tags in Adobe Experience Platform
 
-[!UICONTROL Visitor Namespace] is een veld onder de  [!UICONTROL Cookies] accordeon bij het configureren van de Adobe Analytics-extensie.
+[!UICONTROL Visitor Namespace] is een veld onder de [!UICONTROL Cookies] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste eigenschap.
-3. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder Adobe Analytics.
-4. Vouw de accordeon [!UICONTROL Cookies] uit, zodat het veld [!UICONTROL Visitor Namespace] zichtbaar wordt.
+3. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder Adobe Analytics.
+4. Breid uit [!UICONTROL Cookies] accordion, die de [!UICONTROL Visitor Namespace] veld.
 
-Adobe raadt u af dit veld te gebruiken. Gebruik in plaats hiervan `trackingServer` en `trackingServerSecure`.
+Adobe raadt u af dit veld te gebruiken. Gebruiken `trackingServer` en `trackingServerSecure` in plaats daarvan.
 
 ## s.bezoekorNamespace in AppMeasurement en de aangepaste code-editor
 
-De variabele `s.visitorNamespace` is een tekenreeks die een unieke waarde per organisatie bevat. Oude AppMeturement-bibliotheken hebben deze unieke waarde automatisch opgenomen wanneer ze zijn gedownload van eerdere versies van Adobe Analytics. De huidige bibliotheken AppMeasurement gebruiken deze variabele niet tenzij `trackingServer` en `trackingServerSecure` niet worden geplaatst.
+De `s.visitorNamespace` variabele is een tekenreeks die een unieke waarde per organisatie bevat. Oude AppMeturement-bibliotheken hebben deze unieke waarde automatisch opgenomen wanneer ze zijn gedownload van eerdere versies van Adobe Analytics. De huidige bibliotheken AppMeasurement gebruiken deze variabele niet tenzij `trackingServer` en `trackingServerSecure` niet ingesteld.
 
-Als deze variabele nog steeds door uw organisatie wordt vereist, kiest u een waarde die uw organisatie vertegenwoordigt. U kunt deze waarde opslaan in een [document van het oplossingsontwerp](../../prepare/solution-design.md).
+Als deze variabele nog steeds door uw organisatie wordt vereist, kiest u een waarde die uw organisatie vertegenwoordigt. U kunt deze waarde opslaan in een [document ontwerp oplossing](../../prepare/solution-design.md).
 
 ```js
 // If trackingServer is not set, cookies are stored under example.112.2o7.net

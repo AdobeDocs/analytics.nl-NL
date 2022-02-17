@@ -1,8 +1,9 @@
 ---
 title: Analyses implementeren voor digitale assistenten
 description: Adobe Analytics implementeren op digitale assistenten, zoals Amazon Alexa of Google Home.
+feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Als u alleen maar geïnteresseerd bent in het opnemen van wat er met de klant is
 
 ## Nieuwe installaties
 
-Voor sommige digitale medewerkers, krijgt u een bericht wanneer iemand de vaardigheid installeert, vooral wanneer de authentificatie betrokken is. Adobe raadt aan een Install-gebeurtenis te verzenden door de variabele `a.InstallEvent=1` van de contextgegevens in te stellen. Deze functie is niet beschikbaar voor alle digitale assistenten, maar is handig wanneer u deze functie gebruikt om de retentie te bekijken. De volgende codesteekproef verzendt de Install gebeurtenis, installeert Datum, en waarden AppID in de variabelen van contextgegevens.
+Voor sommige digitale medewerkers, krijgt u een bericht wanneer iemand de vaardigheid installeert, vooral wanneer de authentificatie betrokken is. Adobe raadt u aan een Install-gebeurtenis te verzenden door de variabele met contextgegevens in te stellen `a.InstallEvent=1`. Deze functie is niet beschikbaar voor alle digitale assistenten, maar is handig wanneer u deze functie gebruikt om de retentie te bekijken. De volgende codesteekproef verzendt de Install gebeurtenis, installeert Datum, en waarden AppID in de variabelen van contextgegevens.
 
 ```text
 GET
@@ -57,7 +58,7 @@ Host:
 
 ## Meerdere assistenten of meerdere apps
 
-Uw organisatie wil waarschijnlijk apps voor meerdere platforms. De beste manier is om bij elke aanvraag een toepassings-id op te nemen. Deze variabele kan in de `a.AppID` variabele van contextgegevens worden geplaatst. Volg de notatie van `[AppName] [BundleVersion]`, bijvoorbeeld BigMac voor Alexa 1.2:
+Uw organisatie wil waarschijnlijk apps voor meerdere platforms. De beste manier is om bij elke aanvraag een toepassings-id op te nemen. Deze variabele kan worden ingesteld in het dialoogvenster `a.AppID` contextgegevensvariabele. Volg de notatie van `[AppName] [BundleVersion]`, bijvoorbeeld BigMac voor Alexa 1.2:
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
@@ -73,9 +74,9 @@ Cache-Control: no-cache
 
 ## Identificatie gebruiker/bezoeker
 
-Adobe Analytics gebruikt [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) om interacties in de tijd aan dezelfde persoon te koppelen. De meeste digitale assistenten retourneren een `userID` die u kunt gebruiken om de activiteit voor verschillende gebruikers te behouden. In de meeste gevallen is deze waarde wat u kunt doorgeven als een unieke id. Sommige platforms retourneren een id die langer is dan de 100 toegestane tekens. In deze gevallen, adviseert Adobe dat u het unieke herkenningsteken aan een vaste lengtewaarde gebruikend een standaard het hakken algoritme, zoals MD5 of Sha1 hakt.
+Adobe Analytics gebruikt de [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) om interacties in de loop van de tijd aan dezelfde persoon te koppelen. De meeste digitale assistenten retourneren een `userID` die u kunt gebruiken om de activiteit voor verschillende gebruikers te houden. In de meeste gevallen is deze waarde wat u kunt doorgeven als een unieke id. Sommige platforms retourneren een id die langer is dan de 100 toegestane tekens. In deze gevallen, adviseert Adobe dat u het unieke herkenningsteken aan een vaste lengtewaarde gebruikend een standaard het hakken algoritme, zoals MD5 of Sha1 hakt.
 
-Het gebruiken van de Dienst van identiteitskaart verstrekt de meeste waarde wanneer u ECIDs over verschillende apparaten (bijvoorbeeld, Web aan digitale medewerker) in kaart brengt. Als uw app een mobiele toepassing is, gebruikt u de SDK&#39;s van het Experience Platform ongewijzigd en verzendt u de gebruikers-id met de methode `setCustomerID`. Als uw app echter een service is, gebruikt u de door de service opgegeven gebruikers-id als de ECID en stelt u deze in op `setCustomerID`.
+Het gebruiken van de Dienst van identiteitskaart verstrekt de meeste waarde wanneer u ECIDs over verschillende apparaten (bijvoorbeeld, Web aan digitale medewerker) in kaart brengt. Als uw app een mobiele toepassing is, gebruikt u de SDK&#39;s van het Experience Platform ongewijzigd en verzendt u de gebruikers-id met de `setCustomerID` methode. Als uw app echter een service is, gebruikt u de door de service opgegeven gebruikers-id als de ECID en stelt u deze in `setCustomerID`.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
@@ -87,18 +88,18 @@ Cache-Control: no-cache
 
 Omdat digitale assistenten conversatief zijn, hebben ze vaak het concept van een sessie. Bijvoorbeeld:
 
-**Consumenten:** &quot;Ok Google, bel een taxi voor mij&quot;
+**Consumenten:** &quot;Ok Google, bel een taxi voor me.&quot;
 
 **Google:**: &quot;Natuurlijk, hoe laat zou je willen?&quot;
 
-**Consumenten:** &quot;8:30 pm&quot;
+**Consumenten:** &quot;20:30&quot;
 
-**Google:**  &quot;Geluiden goed, de driver is om 20:30 uur&quot;
+**Google:** &quot;Het klinkt goed, de bestuurder zal om 20:30 zijn&quot;
 
 De zittingen zijn belangrijk om context te houden, en de hulp verzamelt meer details om de digitale medewerker natuurlijker te maken. Wanneer het uitvoeren van Analytics op een gesprek, zijn er twee dingen om te doen wanneer een nieuwe zitting is begonnen:
 
-1. **Naar Audience Manager** gaan: Krijg de relevante segmenten die een gebruiker een deel van is zodat u de reactie kunt aanpassen. (Deze persoon komt momenteel bijvoorbeeld in aanmerking voor de multikanaalskorting.)
-2. **Verzenden in een nieuwe sessie of startgebeurtenis**: Wanneer u de eerste reactie naar Analytics verzendt, neemt u een startgebeurtenis op. Gewoonlijk kan dit worden verzonden door contextgegevens van `a.LaunchEvent=1` in te stellen.
+1. **Uitgaan naar Audience Manager**: Krijg de relevante segmenten die een gebruiker een deel van is zodat u de reactie kunt aanpassen. (Deze persoon komt momenteel bijvoorbeeld in aanmerking voor de multikanaalskorting.)
+2. **Verzenden in een nieuwe sessie of startgebeurtenis**: Wanneer u de eerste reactie naar Analytics verzendt, neemt u een startgebeurtenis op. Dit kan meestal worden verzonden door contextgegevens in te stellen van `a.LaunchEvent=1`.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
@@ -110,7 +111,7 @@ Cache-Control: no-cache
 
 Elk van de digitale assistenten heeft algoritmen die intenties detecteren en vervolgens de intentie doorgeven aan de &quot;App&quot;, zodat de app weet wat ze moeten doen. Deze intenties vormen een beknopte weergave van het verzoek.
 
-Als een gebruiker bijvoorbeeld zegt: &quot;Siri, Stuur John $20 voor het avondeten vanuit mijn bankapp&quot;, dan kan de intentie iets zijn als *sendMoney*.
+Als een gebruiker bijvoorbeeld zegt: &quot;Siri, Stuur John $20 voor het avondeten vanuit mijn bankapp&quot;, dan kan de bedoeling iets als *sendMoney*.
 
 Door elk van deze verzoeken als een eVar in te dienen, kunt u tekenrapporten uitvoeren over elk van de intents voor conversatie-apps. Zorg ervoor dat uw toepassing aanvragen ook zonder intentie kan verwerken. Adobe raadt aan &#39;Geen intentie opgegeven&#39; door te geven aan de gegevensvariabele van de intentcontext, in plaats van de variabele weg te laten.
 
@@ -162,10 +163,10 @@ Terwijl de meeste platforms niet het apparaat blootstellen dat de gebruiker aan 
 
 Voorbeeld: `":Audio:Camera:Screen:Video:"`
 
-De voorloopdubbele en navolgende dubbele punten helpen u bij het maken van segmenten. Geef bijvoorbeeld alle resultaten weer met de mogelijkheden `:Audio:`.
+De voorloopdubbele en navolgende dubbele punten helpen u bij het maken van segmenten. Alle treffers bijvoorbeeld tonen met `:Audio:` mogelijkheden.
 
-* [Amazon-](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference) mogelijkheden met Amazon Alexa
-* [Google-](https://developers.google.com/actions/assistant/surface-capabilities) mogelijkheden via Handelingen op Google
+* [Amazon-mogelijkheden](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference) Amazon Alexa gebruiken
+* [Google-mogelijkheden](https://developers.google.com/actions/assistant/surface-capabilities) Handelingen gebruiken in Google
 
 ## Voorbeelden
 

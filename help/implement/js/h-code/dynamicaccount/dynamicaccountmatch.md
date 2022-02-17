@@ -1,8 +1,9 @@
 ---
 title: dynamicAccountMatch
 description: De variabele dynamicAccountMatch bepaalt naar welke waarde in dynamische accounts moet worden gekeken.
+feature: Implementation Basics
 exl-id: 3b68f2e6-1bd9-4b16-9d03-a87c9217e1b7
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 >
 >Dynamische accounts worden alleen ondersteund met behulp van verouderde JavaScript-implementaties (H Code). Deze variabelen worden niet ondersteund in de huidige AppMeasurement-bibliotheken of -tags in Adobe Experience Platform.
 
-De variabele `dynamicAccountMatch` is de waarde die `dynamicAccountList` bekijkt en zijn waarden vergelijkt. Wanneer `dynamicAccountSelection` niet is ingesteld op `true`, wordt deze variabele genegeerd.
+De `dynamicAccountMatch` variabele is de waarde die `dynamicAccountList` bekijkt en vergelijkt zijn waarden. Indien `dynamicAccountSelection` is niet ingesteld op `true`, wordt deze variabele genegeerd.
 
 Als deze variabele niet is gedefinieerd, is de standaardwaarde `window.location.host`.
 
@@ -43,5 +44,5 @@ s.dynamicAccountMatch =  location.hostname + location.pathname + location.search
 
 ## Aanvullende opmerkingen
 
-* Op pagina&#39;s die op een vaste schijf worden opgeslagen, zijn niet meerdere `location`-variabelen gedefinieerd (`location.host` is bijvoorbeeld leeg). Zorg ervoor `s_account` een standaardrapportreeks bevat.
-* Wanneer een pagina wordt vertaald via een vertaalengine op het web, zoals Google, werkt het selecteren van dynamische accounts niet naar behoren. Vul de variabele `s_account` aan de serverzijde voor nauwkeuriger tracering.
+* Pagina&#39;s die zijn opgeslagen op een vaste schijf hebben niet meerdere `location` gedefinieerde variabelen (bijvoorbeeld `location.host` is leeg). Controleer of `s_account` bevat een standaardrapportsuite.
+* Wanneer een pagina wordt vertaald via een vertaalengine op het web, zoals Google, werkt het selecteren van dynamische accounts niet naar behoren. Vul de optie `s_account` variabele server-kant.

@@ -1,8 +1,9 @@
 ---
 title: Util.cookieWrite
 description: Schrijft een waarde voor een cookie.
+feature: Variables
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
@@ -11,7 +12,7 @@ ht-degree: 2%
 
 # Util.cookieWrite
 
-Met cookies kunt u informatie opslaan en ophalen op meerdere pagina&#39;s in hetzelfde domein. Gebruik de methode `Util.cookieWrite()` om een waarde in te stellen op een cookie. Met de methode [`Util.cookieRead()`](util-cookieread.md) kunt u waarden ophalen die zijn ingesteld met `Util.cookieWrite()`.
+Met cookies kunt u informatie opslaan en ophalen op meerdere pagina&#39;s in hetzelfde domein. Gebruik de `Util.cookieWrite()` methode om een waarde in te stellen op een cookie. U kunt de [`Util.cookieRead()`](util-cookieread.md) methode om waarden op te halen die zijn ingesteld met `Util.cookieWrite()`.
 
 ## Cookies instellen met tags in Adobe Experience Platform
 
@@ -19,13 +20,13 @@ De UI van de Inzameling van Gegevens verstrekt niet de capaciteit om koekjes in 
 
 ## s.Util.cookieWrite() in AppMeasurement en aangepaste code-editor
 
-Roep de methode `s.Util.cookieWrite()` aan om een koekje aan een gewenste waarde te plaatsen.
+Roep de `s.Util.cookieWrite()` een methode om een cookie in te stellen op de gewenste waarde.
 
 ```js
 s.Util.cookieWrite("example_cookie","Example cookie value")
 ```
 
-Er is een optioneel derde argument beschikbaar dat bepaalt wanneer het cookie verloopt. Cookies die zijn ingesteld met `s.Util.cookieWrite()` verlopen standaard aan het einde van de browsersessie.
+Er is een optioneel derde argument beschikbaar dat bepaalt wanneer het cookie verloopt. Cookies ingesteld met `s.Util.cookieWrite()` verlopen standaard aan het einde van de browsersessie.
 
 ```js
 // Set a cookie with an expiration 6 months from now

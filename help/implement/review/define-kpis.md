@@ -1,14 +1,14 @@
 ---
 title: De bovenste 5 KPI's definiëren
 description: Zorg ervoor dat uw belangrijkste prestatie-indicatoren en de bijbehorende maatstaven en dimensies nauw aansluiten bij uw bedrijfsbehoeften.
-translation-type: tm+mt
-source-git-commit: 145b31d01b7ec52ae3c65035774a5be54abbc51a
+feature: Implementation Basics
+exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 1%
 
 ---
-
 
 # De bovenste 5 KPI&#39;s definiëren
 

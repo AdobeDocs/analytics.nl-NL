@@ -1,8 +1,9 @@
 ---
 title: Adobe Analytics implementeren in een ontwikkelomgeving
 description: Leer hoe u tags kunt gebruiken om Adobe Analytics in uw ontwikkelomgeving te implementeren.
+feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: ea6812c8e596773abb8a05bbdb37bc641967c9b8
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Nadat u een eigenschap tag hebt gemaakt en geconfigureerd, kunnen de bibliotheke
 
 De markeringen passen vele organisatorische werkschema&#39;s in het opstellen van code aan. Ga als volgt te werk om de minimaal vereiste componenten voor een analytische implementatie te maken. Als tagbeheerder kunt u binnen uw organisatie de juiste workflow voor het implementeren van Adobe-oplossingen instellen.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de eigenschap tag die u op uw site wilt implementeren.
 3. Klik op het tabblad Adapters en klik vervolgens op Adapter toevoegen.
 4. Geef deze de naam &quot;Akamai&quot; en selecteer Akamai in het vervolgkeuzemenu type. Klik op Opslaan.
@@ -37,7 +38,7 @@ De markeringen passen vele organisatorische werkschema&#39;s in het opstellen va
 
 Ondanks alle tot dusver aangebrachte wijzigingen en configuraties is er geen code gepubliceerd. Als u een bibliotheek maakt die ruwweg is vertaald als een verzameling wijzigingen, kunt u code publiceren die op uw site wordt gebruikt.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de eigenschap tag die u op uw site wilt implementeren.
 3. Klik op het tabblad Publiceren en klik vervolgens op Nieuwe bibliotheek toevoegen.
 4. Geef de bibliotheek de naam &#39;Aanvankelijke wijzigingen&#39; en selecteer de ontwikkelomgeving.
@@ -49,7 +50,7 @@ Ondanks alle tot dusver aangebrachte wijzigingen en configuraties is er geen cod
 
 ## Tags installeren in de ontwikkelomgeving van uw website
 
-Als u de code van uw website beheert, implementeert u de twee codeblokken op hun respectievelijke locaties (in de tag `<head>` en net boven de afsluitende tag `</body>`) op elke pagina van uw site. Deze code wordt algemeen geplaatst in het overkoepelende malplaatje van de plaats. Een lege pagina die alleen implementatiecode bevat, ziet er als volgt uit:
+Als u de code van uw website beheert, implementeert u de twee codeblokken op de respectievelijke locaties (in het gedeelte `<head>` -tag en net boven het sluiten `</body>` -tag) op elke pagina van uw site. Deze code wordt algemeen geplaatst in het overkoepelende malplaatje van de plaats. Een lege pagina die alleen implementatiecode bevat, ziet er als volgt uit:
 
 ```html
 <!doctype html>
@@ -75,8 +76,8 @@ Een algemene reden is dat er al elementen bestaan in andere bibliotheken die wor
 ## Documentatie en aanvullende middelen
 
 - [Snelstartgids](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): De basisworkflow van de implementatie van tags leren
-- [Overzicht](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en) van publicatie: Meer informatie over publiceren en omgevingen
+- [Overzicht van publicatie](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en): Meer informatie over publiceren en omgevingen
 
 ## Volgende stappen
 
-[Valideer uw analytische implementatie en publiceer naar productie](validate-publish-prod.md): Begin waarde uit Adobe Analytics te halen.
+[Uw analytische implementatie valideren en publiceren naar productie](validate-publish-prod.md): Begin waarde uit Adobe Analytics te halen.

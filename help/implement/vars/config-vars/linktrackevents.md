@@ -1,8 +1,9 @@
 ---
 title: linkTrackEvents
 description: Bepaal welke gebeurtenissen moeten worden opgenomen in aanvragen voor het bijhouden van koppelingen.
+feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 3%
@@ -11,9 +12,9 @@ ht-degree: 3%
 
 # linkTrackEvents
 
-Sommige implementaties willen niet alle variabelen in alle verbinding het volgen beeldverzoeken omvatten. Gebruik [`linkTrackVars`](linktrackvars.md) en `linkTrackEvents` variabelen om afmetingen en metriek in [`tl()`](../functions/tl-method.md) vraag selectief te omvatten.
+Sommige implementaties willen niet alle variabelen in alle verbinding het volgen beeldverzoeken omvatten. Gebruik de [`linkTrackVars`](linktrackvars.md) en `linkTrackEvents` te selecteren variabelen om afmetingen en metriek op te nemen in [`tl()`](../functions/tl-method.md) oproepen.
 
-Deze variabele wordt niet gebruikt voor de vraag van de paginamening ([`t()`](../functions/t-method.md) methode).
+Deze variabele wordt niet gebruikt voor paginaweergaveaanroepen ([`t()`](../functions/t-method.md) methode).
 
 ## Gebeurtenissen in koppelingsvolgaanroepen met tags in Adobe Experience Platform
 
@@ -21,15 +22,15 @@ Als u geen aangepaste code gebruikt, worden in Adobe Experience Platform automat
 
 >[!IMPORTANT]
 >
->Als u gebeurtenissen in de UI van de Inzameling van Gegevens gebruikend de redacteur van de douanecode plaatst, moet u de gebeurtenis in `linkTrackEvents` ook gebruikend douanecode omvatten.
+>Als u gebeurtenissen in de UI van de Inzameling van Gegevens gebruikend de redacteur van de douanecode plaatst, moet u de gebeurtenis omvatten in `linkTrackEvents` ook aangepaste code gebruiken.
 
 ## s.linkTrackEvents in AppMeasurement en aangepaste code-editor
 
-De `s.linkTrackEvents` variabele is een koord dat een komma-afgebakende lijst van gebeurtenissen bevat die u in verbinding het volgen beeldverzoeken (`tl()` methode) wilt omvatten. Aan de volgende drie criteria moet worden voldaan om meetgegevens op te nemen in treffers voor het bijhouden van koppelingen:
+De `s.linkTrackEvents` variabele is een tekenreeks met een door komma&#39;s gescheiden lijst met gebeurtenissen die u wilt opnemen in aanvragen voor het bijhouden van koppelingen (`tl()` methode). Aan de volgende drie criteria moet worden voldaan om meetgegevens op te nemen in treffers voor het bijhouden van koppelingen:
 
-* Stel de gewenste gebeurtenis in de variabele [`events`](../page-vars/events/events-overview.md) in. Bijvoorbeeld, `s.events = "event1";`.
-* Stel de variabele `events` in `linkTrackVars` in. Bijvoorbeeld, `s.linkTrackVars = "events";`.
-* Stel de gewenste gebeurtenis in de variabele `linkTrackEvents` in. Bijvoorbeeld, `s.linkTrackEvents = "event1";`.
+* Stel de gewenste gebeurtenis in de [`events`](../page-vars/events/events-overview.md) variabele. Bijvoorbeeld, `s.events = "event1";`.
+* Stel de `events` variabele in `linkTrackVars`. Bijvoorbeeld, `s.linkTrackVars = "events";`.
+* Stel de gewenste gebeurtenis in de `linkTrackEvents` variabele. Bijvoorbeeld, `s.linkTrackEvents = "event1";`.
 
 ```js
 s.linkTrackEvents = "event1,event2,event3,purchase";
@@ -39,11 +40,11 @@ De standaardwaarde voor deze variabele is een lege tekenreeks. Als deze variabel
 
 >[!TIP]
 >
->Vermijd het gebruik van de object-id Analytics (`s.`) bij het opgeven van gebeurtenissen in deze variabele. `s.linkTrackEvents = "event1";` is bijvoorbeeld juist, terwijl `s.linkTrackEvents = "s.event1";` onjuist is.
+>Gebruik de id van het object Analytics (`s.`) wanneer het specificeren van gebeurtenissen in deze variabele. Bijvoorbeeld: `s.linkTrackEvents = "event1";` is correct, terwijl `s.linkTrackEvents = "s.event1";` is onjuist.
 
 ## Voorbeeld
 
-De volgende functie voor het bijhouden van koppelingen bevat alleen `event1` (niet `event2`) in het afbeeldingsverzoek dat naar Adobe wordt verzonden:
+De volgende functie voor het bijhouden van koppelingen bevat alleen `event1` (niet `event2`) in de afbeeldingsaanvraag die naar Adobe wordt verzonden:
 
 ```js
 s.events = "event1,event2";

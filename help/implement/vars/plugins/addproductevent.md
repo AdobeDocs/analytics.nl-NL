@@ -1,8 +1,9 @@
 ---
 title: addProductEvent
 description: Voegt aangepaste gebeurtenissen toe aan de variabele producten en gebeurtenissen.
+feature: Variables
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -15,16 +16,16 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de insteekmodule `addProductEvent` wordt een numerieke of valutagebeurtenis toegevoegd aan de variabele [`products`](../page-vars/products.md). Adobe raadt u aan deze plug-in te gebruiken als u een numerieke of valutagebeurtenis wilt toevoegen aan de variabele `products` zonder dat u zich zorgen hoeft te maken over de indeling van de productreeks. Deze insteekmodule is niet nodig als u geen numerieke of valutagebeurtenissen gebruikt in de variabele `products`.
+De `addProductEvent` voegt een numerieke of valutagebeurtenis toe aan de [`products`](../page-vars/products.md) variabele. Adobe raadt u aan deze plug-in te gebruiken als u een numerieke of valutagebeurtenis aan de `products` variabel zonder dat u zich zorgen hoeft te maken over de indeling van de productreeks. Deze insteekmodule is niet nodig als u geen numerieke of valutagebeurtenissen gebruikt in het dialoogvenster `products` variabele.
 
 ## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
-1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
@@ -37,10 +38,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
-1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -57,17 +58,17 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## De plug-in gebruiken
 
-De functie `addProductEvent` gebruikt de volgende argumenten:
+De `addProductEvent` function gebruikt de volgende argumenten:
 
-* **`en`** (vereist, tekenreeks): De gebeurtenis die aan de laatste ingang in de  `products` variabele moet worden toegevoegd. Als de `products` variabele leeg is, dan wordt een &quot;lege&quot;productingang gecreeerd met de gebeurtenis (en zijn waarde) in bijlage.
-* **`ev`** (vereist, tekenreeks): De waarde die is toegewezen aan de gebeurtenis numeric of currency in het  `en` argument.  Wordt standaard ingesteld op `1` wanneer niet ingesteld. Getallen die niet in tekenreeksaanhalingstekens zijn opgenomen, zijn ook geldig.
-* **`ap`** (optioneel, Booleaans): Als de productvariabele momenteel meer dan één productvermelding bevat, voegt een waarde van  `true` (of  `1`) de gebeurtenis aan alle productvermeldingen toe.  Wordt standaard ingesteld op `false` wanneer niet ingesteld.
+* **`en`** (vereist, tekenreeks): De gebeurtenis die moet worden toegevoegd aan de laatste vermelding in het dialoogvenster `products` variabele. Als de `products` De variabele is leeg en er wordt een &quot;leeg&quot; product-item gemaakt waaraan de gebeurtenis (en de waarde ervan) is gekoppeld.
+* **`ev`** (vereist, tekenreeks): De waarde die is toegewezen aan de gebeurtenis nummeren of Valuta in het dialoogvenster `en` argument.  Standaardwaarden: `1` wanneer niet ingesteld. Getallen die niet in tekenreeksaanhalingstekens zijn opgenomen, zijn ook geldig.
+* **`ap`** (optioneel, Booleaans): Als de productvariabele momenteel meer dan één productitem bevat, is een waarde van `true` (of `1`) voegt de gebeurtenis toe aan alle ingangen van het product.  Standaardwaarden: `false` wanneer niet ingesteld.
 
-De `addProductEvent` retourneert niets. In plaats daarvan worden de gebeurtenis en de waarde ervan toegevoegd aan de variabele `products`. De insteekmodule voegt de gebeurtenis ook automatisch toe aan de variabele [`events`](../page-vars/events/events-overview.md), omdat deze daar ook verplicht is.
+De `addProductEvent` retourneert niets. In plaats daarvan worden de gebeurtenis en de waarde ervan toegevoegd aan de `products` variabele. De insteekmodule voegt de gebeurtenis ook automatisch toe aan de [`events`](../page-vars/events/events-overview.md) variabel, aangezien het daar ook verplicht is.
 
 ## Cookies
 
-De functie `addProductEvent` maakt of gebruikt geen cookies.
+De `addProductEvent` geen cookies maken of gebruiken.
 
 ## Voorbeelden
 

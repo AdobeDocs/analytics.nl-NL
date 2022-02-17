@@ -1,8 +1,9 @@
 ---
 title: XDM-gegevens handmatig toewijzen aan Analyse
 description: XDM-gegevens handmatig toewijzen van Experience Platform aan Adobe Analytics
+feature: AEP Edge
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -13,13 +14,13 @@ ht-degree: 0%
 
 De SDK van het Web van Adobe Experience Platform (AEP) bevat hulpmiddelen om u te helpen gegevens tussen het Platform en Analytics manueel in kaart te brengen.
 
-Voor XDM-gegevens die niet automatisch aan Analytics worden toegewezen, kunt u [contextgegevens](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) toevoegen om uw [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) aan te passen. Dan kan het door Analytics [verwerkingsregels](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) worden gebruikt om de variabelen van de Analyse te bevolken.
+Voor XDM-gegevens die niet automatisch worden toegewezen aan Analytics, kunt u toevoegen [contextgegevens](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) om overeen te komen met uw [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html). Vervolgens kan het worden gebruikt door Analytics [verwerkingsvoorschriften](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) om analytische variabelen te vullen.
 
-Ook, kunt u een standaardreeks acties en productlijsten gebruiken om gegevens met [AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) te verzenden of terug te winnen.
+U kunt ook een standaardset handelingen en productlijsten gebruiken om gegevens te verzenden of op te halen met de [AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
 ## Contextgegevens
 
-Te gebruiken door Analytics, worden de gegevens XDM afgevlakt gebruikend puntnotatie en ter beschikking gesteld als `contextData`. In de volgende lijst met waardeparen ziet u een voorbeeld van `context data`:
+Voor gebruik door Analytics worden XDM-gegevens afgevlakt met puntnotatie en beschikbaar gemaakt als `contextData`. In de volgende lijst met waardeparen ziet u een voorbeeld van `context data`:
 
 ```javascript
 {
@@ -46,9 +47,9 @@ Te gebruiken door Analytics, worden de gegevens XDM afgevlakt gebruikend puntnot
 
 ## Verwerkingsregels
 
-Alle gegevens die door het randnetwerk worden verzameld, zijn toegankelijk via [verwerkingsregels](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html). In Analytics, kunt u verwerkingsregels gebruiken om contextgegevens in de variabelen van de Analyse op te nemen.
+Alle gegevens die door het Edge-netwerk worden verzameld, zijn toegankelijk via [verwerkingsvoorschriften](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html). In Analytics, kunt u verwerkingsregels gebruiken om contextgegevens in de variabelen van de Analyse op te nemen.
 
-In de volgende regel is Analytics bijvoorbeeld ingesteld op het vullen van **Interne zoektermen (eVar2)** met de gegevens die zijn gekoppeld aan **a.x_atag.search.term(Context Data)**.
+In de volgende regel is Analytics bijvoorbeeld ingesteld op vullen **Interne zoektermen (eVar2)** met de gegevens die **a.x_atag.search.term(Context Data)**.
 
 ![](assets/examplerule.png)
 
@@ -57,7 +58,7 @@ In de volgende regel is Analytics bijvoorbeeld ingesteld op het vullen van **Int
 
 Het Experience Platform gebruikt schema&#39;s om de structuur van gegevens op een verenigbare en herbruikbare manier te beschrijven. Door gegevens consistent in verschillende systemen te definiëren, wordt het eenvoudiger om betekenis te behouden en zo waarde te verkrijgen van gegevens. De de contextgegevens van Analytics werken met de structuur die door schema wordt bepaald.
 
-In het volgende voorbeeld wordt getoond hoe de opdracht [`event`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) kan worden gebruikt met de optie `xdm` om gegevens te verzenden en op te halen met de AEP Web SDK. In dit voorbeeld komt de opdracht `event` overeen met het [ExperienceEvent Commerce Details Schema](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md), zodat de waarden productListItems `name` en `SKU` worden bijgehouden:
+In het volgende voorbeeld wordt getoond hoe het [`event` command](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) kan worden gebruikt met de `xdm` optie om gegevens met het Web SDK van AEP te verzenden en terug te winnen. In dit voorbeeld wordt `event` de opdracht komt overeen met de opdracht [ExperienceEvent Commerce — Details Schema](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md) zodat de productListItems `name` en `SKU` waarden worden bijgehouden:
 
 
 ```
@@ -82,4 +83,4 @@ alloy("event",{
 });
 ```
 
-Zie [Gebeurtenissen bijhouden](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) voor meer informatie over het bijhouden van gebeurtenissen met de AEP Web SDK.
+Voor meer informatie over het volgen van gebeurtenissen met het Web SDK van AEP, zie [Gebeurtenissen bijhouden](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html).

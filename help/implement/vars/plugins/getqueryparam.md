@@ -1,8 +1,9 @@
 ---
 title: getQueryParam
 description: Haal de waarde van de parameter van het vraagkoord van een URL uit.
+feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -15,18 +16,18 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-Met de insteekmodule `getQueryParam` kunt u de waarde van elke querytekenreeksparameter in een URL extraheren. Het is nuttig om campagnecodes, zowel intern als extern, uit het landen van pagina URLs te halen. Het is ook nuttig wanneer het halen van onderzoekstermijnen of andere parameters van het vraagkoord.
+De `getQueryParam` Met de insteekmodule kunt u de waarde extraheren van elke parameter voor queryreeksen in een URL. Het is nuttig om campagnecodes, zowel intern als extern, uit het landen van pagina URLs te halen. Het is ook nuttig wanneer het halen van onderzoekstermijnen of andere parameters van het vraagkoord.
 
-Deze plug-in biedt robuuste functies voor het parseren van complexe URL&#39;s, waaronder hashes en URL&#39;s die meerdere parameters voor queryreeksen bevatten. Als u slechts eenvoudige de parameterbehoeften van het vraagkoord hebt, adviseert Adobe het gebruiken van de URL parametereigenschappen gebruikend markeringen in Adobe Experience Platform of de [`Util.getQueryParam()`](../functions/util-getqueryparam.md) methode inbegrepen in AppMeasurement.
+Deze plug-in biedt robuuste functies voor het parseren van complexe URL&#39;s, waaronder hashes en URL&#39;s die meerdere parameters voor queryreeksen bevatten. Als u alleen eenvoudige parametervereisten voor queryreeksen hebt, raadt Adobe u aan de URL-parameterfuncties te gebruiken met tags in Adobe Experience Platform of de klasse [`Util.getQueryParam()`](../functions/util-getqueryparam.md) methode die is opgenomen in AppMeasurement.
 
 ## Plug-in installeren met tags in Adobe Experience Platform
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het tabblad [!UICONTROL Extensions] en klik op de knop [!UICONTROL Catalog]
-1. De extensie [!UICONTROL Common Analytics Plugins] installeren en publiceren
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
    * Voorwaarde: Geen
    * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
@@ -39,10 +40,10 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar het [!UICONTROL Extensions] lusje, dan klik [!UICONTROL Configure] knoop onder de uitbreiding van Adobe Analytics.
-1. Breid [!UICONTROL Configure tracking using custom code] accordeon uit, die [!UICONTROL Open Editor] knoop openbaart.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
@@ -55,18 +56,18 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## De plug-in gebruiken
 
-De functie `getQueryParam` gebruikt de volgende argumenten:
+De `getQueryParam` function gebruikt de volgende argumenten:
 
 * **`qsp`** (vereist): Een door komma&#39;s gescheiden lijst met parameters voor queryreeksen die moet worden gezocht binnen de URL. Het is niet hoofdlettergevoelig.
 * **`de`** (optioneel): Het scheidingsteken dat moet worden gebruikt als meerdere parameters van queryreeksen overeenkomen. Heeft als standaardwaarde een lege tekenreeks.
-* **`url`** (optioneel): Een aangepaste URL, tekenreeks of variabele waaruit de parameterwaarden voor de queryreeks moeten worden geëxtraheerd. Wordt standaard ingesteld op `window.location`.
+* **`url`** (optioneel): Een aangepaste URL, tekenreeks of variabele waaruit de parameterwaarden voor de queryreeks moeten worden geëxtraheerd. Standaardwaarden: `window.location`.
 
 Als deze functie wordt aangeroepen, wordt een waarde geretourneerd die afhankelijk is van de bovenstaande argumenten en de URL:
 
 * Als er geen overeenkomende parameter voor een querytekenreeks wordt gevonden, retourneert de functie een lege tekenreeks.
 * Als een overeenkomende parameter voor een querytekenreeks wordt gevonden, retourneert de functie de parameterwaarde voor de queryreeks.
-* Als een overeenkomende parameter voor een querytekenreeks wordt gevonden maar de waarde leeg is, retourneert de functie `true`.
-* Als er meerdere overeenkomende parameters voor queryreeksen worden gevonden, retourneert de functie een tekenreeks met elke parameterwaarde die door de tekenreeks in het argument `de` wordt gescheiden.
+* Als een overeenkomende parameter voor een querytekenreeks wordt gevonden maar de waarde leeg is, wordt de functie geretourneerd `true`.
+* Als er meerdere overeenkomende parameters voor queryreeksen worden gevonden, retourneert de functie een tekenreeks met elke parameterwaarde die door de tekenreeks in het dialoogvenster `de` argument.
 
 ## Voorbeelden
 
@@ -125,7 +126,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 3.2 (15 mei 2018)
 
-* `findParameterValue`- en `getParameterValue`-functies verplaatst naar de functie `getQueryParam`
+* Verplaatst `findParameterValue` en `getParameterValue` in de `getQueryParam` function
 
 ### 3.1 (10 mei 2018)
 
@@ -134,7 +135,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 3.0 (16 april 2018)
 
 * Puntrelease (opnieuw gecompileerd, kleiner codeformaat).
-* De naam van hulplijnfuncties is gewijzigd in `findParameterValue` en `getParameterValue` voor leesbaarheidsdoeleinden.
+* De naam van hulplijnfuncties wijzigen in `findParameterValue` en `getParameterValue` voor leesbaarheidsdoeleinden.
 * Verwijderde de behoefte om een argument toe te voegen om parameters in het knoeiboel te vinden URL
 
 ### 2.5 (8 januari 2016)
@@ -143,7 +144,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 2,4
 
-* De parameter `h` is toegevoegd, zodat de code parameters van queryreeksen kan zoeken die na het hash-teken (`#`) zijn gevonden
+* De `h` parameter, waardoor de code kan zoeken naar parameters van queryreeksen die na de hash (`#`) teken
 
 ### 2,3
 

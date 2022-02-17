@@ -1,8 +1,9 @@
 ---
 title: Problemen met H-code-implementaties oplossen
 description: Leer enkele algemene problemen met verouderde JavaScript-implementaties.
+feature: Implementation Basics
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%
@@ -17,13 +18,13 @@ Hieronder vindt u stappen voor het oplossen van problemen die specifiek zijn voo
 
 >[!NOTE]
 >
->Hoewel voor H-code-implementaties naar code moet worden verwezen in de `<body>`-tag, moet voor andere implementaties (zoals het gebruik van tags in Adobe Experience Platform) naar code worden verwezen in de `<head>`-tag.
+>Hoewel voor H-code-implementaties naar code moet worden verwezen in het dialoogvenster `<body>` -tag, andere implementaties (zoals het gebruik van tags in Adobe Experience Platform) vereisen dat naar code wordt verwezen in de `<head>` tag.
 
-Met de analysecode wordt een onzichtbare afbeelding van 1 x 1 pixel gemaakt. Eerder was het gebruikelijk om de `s_code.js` verwijzing in `<head>` markering te plaatsen. Door de code hier te plaatsen, kon de afbeelding de paginalay-out op geen enkele manier beïnvloeden. Het wordt ook sneller uitgevoerd, waardoor u paginaweergaven kunt tellen voor het gedeeltelijk laden van de pagina.
+Met de analysecode wordt een onzichtbare afbeelding van 1 x 1 pixel gemaakt. Voorheen was het een gangbare praktijk om de `s_code.js` in de `<head>` tag. Door de code hier te plaatsen, kon de afbeelding de paginalay-out op geen enkele manier beïnvloeden. Het wordt ook sneller uitgevoerd, waardoor u paginaweergaven kunt tellen voor het gedeeltelijk laden van de pagina.
 
-Bepaalde elementen van de code vereisen echter het bestaan van het object `<body>`. Als de JavaScript-code Analytics zich in de tag `<head>` bevindt, wordt deze uitgevoerd voordat het object `<body>` bestaat. Hierdoor worden in uw implementatie geen [!UICONTROL ClickMap]-gegevens verzameld, worden bestanden niet automatisch bijgehouden bij het downloaden of afsluiten van koppelingen, of gegevens van het verbindingstype. Het plaatsen van de manuscriptverwijzing naar `s_code.js` in de `<head>` markering werkt, maar het resultaat is een zeer beperkte versie van Analytics.
+Bepaalde elementen van de code vereisen echter het bestaan van de `<body>` object. Als de JavaScript-code Analytics voorkomt in het dialoogvenster `<head>` -tag, wordt deze uitgevoerd vóór de `<body>` object bestaat. Hierdoor wordt uw implementatie niet verzameld [!UICONTROL ClickMap] gegevens, het automatisch volgen van dossierdownloads of uitgangsverbindingen, of verbindingstype gegevens. De scriptverwijzing plaatsen naar `s_code.js` in de `<head>` -tag werkt, maar het resultaat is een zeer beperkte versie van Analytics.
 
-De analysecode kan overal binnen de `<body>` markering van een goed gevormde HTML- pagina worden geplaatst. Adobe raadt u aan de analytische code zo dicht mogelijk boven aan de tag `<body>` te plaatsen. Zorg ervoor dat paginariabelen worden ingesteld nadat het bestand `s_code.js` is geladen.
+De analysecode kan overal binnen `<body>` -tag van een goed gevormde HTML-pagina. Adobe raadt u aan om de analysecode zo dicht mogelijk bij de bovenkant van de `<body>` -tag indien mogelijk. Zorg ervoor dat alle paginariabelen zijn ingesteld na het dialoogvenster `s_code.js` bestand wordt geladen.
 
 >[!TIP]
 >

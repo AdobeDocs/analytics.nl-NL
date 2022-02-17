@@ -1,8 +1,9 @@
 ---
 title: Een eigenschap Analytics maken in tags
 description: Maak een spatie om aan te passen hoe gegevens worden verzameld met tags.
+feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 1%
@@ -18,28 +19,28 @@ Met tags in Adobe Experience Platform kunt u Experience Cloud-oplossingen integr
 
 ## Vereisten
 
-[Maak een rapportsuite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Maak een silo voor analysegegevens die moeten worden verzameld.
+[Een rapportsuite maken](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Maak een silo voor analysegegevens die moeten worden verzameld.
 
 ## Een eigenschap voor tags maken en vitale extensies installeren
 
 Eigenschappen zijn overkoepelende containers die u gebruikt om tags te beheren. Met extensies kunt u productspecifieke tags installeren en configureren.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op **[!UICONTROL New Property]**.
 1. Geef uw eigenschap een naam, zoals de titel van uw website, en voer het domein in waarop u Analytics wilt implementeren. Klik op **[!UICONTROL Save]**.
 1. Klik op de nieuwe tageigenschap om de instellingen in te voeren.
-1. Klik op de tab **[!UICONTROL Extensions]** en klik vervolgens op **[!UICONTROL Catalog]**.
-1. Ga naar Identiteitsservice en klik vervolgens op **[!UICONTROL Install]**.
+1. Klik op de knop **[!UICONTROL Extensions]** tab, en klik vervolgens op **[!UICONTROL Catalog]**.
+1. Identiteitsservice zoeken en klik vervolgens op **[!UICONTROL Install]**.
 1. Alle instellingen, inclusief de Experience Cloud Organisatie-id, moeten al zijn ingevuld. Klik op **[!UICONTROL Save]**.
-1. Zoek Adobe Analytics weer in de extensiecatalogus en klik op **[!UICONTROL Install]**.
+1. Ga terug in de extensiecatalogus naar Adobe Analytics en klik op **[!UICONTROL Install]**.
 
 ## Gegevenselementen maken voor Adobe Analytics
 
 Gegevenselementen zijn verwijzingen naar specifieke delen van uw site om variabelewaarden te verzamelen.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de eigenschap tag die u op uw site wilt implementeren.
-1. Klik op de tab **[!UICONTROL Data Elements]** en klik vervolgens op **[!UICONTROL Create New Data Element]**.
+1. Klik op de knop **[!UICONTROL Data Elements]** tab, en klik vervolgens op **[!UICONTROL Create New Data Element]**.
 1. Geef het gegevenselement de volgende instellingen:
 
    * Naam: Paginanaam
@@ -58,19 +59,19 @@ Gegevenselementen zijn verwijzingen naar specifieke delen van uw site om variabe
 
 Regels wijzen gegevenselementen aan de veranderlijke waarden van de Analyse in kaart, en bepalen wanneer die waarden naar Adobe worden verzonden.
 
-1. Meld u aan bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de eigenschap tag die u op uw site wilt implementeren.
-1. Klik **[!UICONTROL Create New Rule]** en noem het `Global Rule`.
-1. Klik op **[!UICONTROL Add]** naast gebeurtenissen en voer de volgende instellingen in:
+1. Klikken **[!UICONTROL Create New Rule]** en noem deze `Global Rule`.
+1. Klikken **[!UICONTROL Add]** naast gebeurtenissen en voer de volgende instellingen in:
    * Extensie: Kern
    * Type gebeurtenis: Bibliotheek geladen (pagina boven)
    * Naam: Kern - Bibliotheek geladen (pagina boven)
    * Volgorde: 50
 1. Klik op **[!UICONTROL Keep Changes]**.
-1. Klik onder **[!UICONTROL Actions]** op **[!UICONTROL Add]** en voer de volgende instellingen in:
+1. Onder **[!UICONTROL Actions]**, klikt u op **[!UICONTROL Add]** en voer de volgende instellingen in:
    * Extensie: Adobe Analytics
    * Type handeling: Variabelen instellen
-   * Paginanaam: Klik op het containerpictogram en selecteer het gegevenselement `Page Name`.
+   * Paginanaam: Klik op het containerpictogram en selecteer de `Page Name` gegevenselement.
    * Campagne: De parameter van de vraag met een waarde van `cid`
 1. Klik op **[!UICONTROL Keep Changes]**.
 1. Klik op het plusteken naast handelingen om nog een handeling toe te voegen en voer de volgende instellingen in:
@@ -79,7 +80,7 @@ Regels wijzen gegevenselementen aan de veranderlijke waarden van de Analyse in k
    * Naam: Adobe Analytics - Send Beacon
    * Tekstspatiëring: s.t()
 1. Klik op **[!UICONTROL Keep Changes]**.
-1. Controleer of u de gebeurtenis en twee handelingen hebt ingesteld en klik op **[!UICONTROL Save]**.
+1. Controleer of u de gebeurtenis en twee handelingen hebt ingesteld en klik vervolgens op **[!UICONTROL Save]**.
 
 ## Documentatie en aanvullende middelen
 
