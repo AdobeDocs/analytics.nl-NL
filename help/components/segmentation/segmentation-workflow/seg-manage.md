@@ -1,13 +1,12 @@
 ---
 description: In Segmentbeheer kunt u op verschillende manieren segmenten curven, zoals delen, filteren, labelen, goedkeuren, kopiëren, verwijderen en markeren als favorieten.
 title: Segmenten beheren
-feature: Segmentatie
-uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
+feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 5%
+source-wordcount: '421'
+ht-degree: 4%
 
 ---
 
@@ -18,11 +17,11 @@ In Segmentbeheer kunt u op verschillende manieren segmenten curven, zoals delen,
 De manager van het Segment van Analytics toont u alle segmenten u bezit en die met u zijn gedeeld. Gebruikers op beheerniveau kunnen alle segmenten in de organisatie zien. Dit overzicht bevat de gebruikersinterface en de mogelijkheden van Segmentbeheer. Open Segmentbeheer via
 
 * Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]** in de bovenste navigatie.
-* Een bestaand rapport weergeven en klikken op het pictogram Segmenten ![](assets/segment_icon.png) in de linkernavigatie. Klik vervolgens op **[!UICONTROL Manage]**.
+* Een bestaand rapport weergeven en op het pictogram Segmenten klikken  ![](assets/segment_icon.png) in de linkernavigatie. Klik vervolgens op **[!UICONTROL Manage]**.
 
 ## Hoe kan ik-video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-Deze [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) geeft een kort overzicht van hoe te om de Manager van het Segment te gebruiken.
+Dit [Adobe Analytics-video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) geeft een kort overzicht van hoe te om de Manager van het Segment te gebruiken.
 
 ## Gebruikersinterface Segmentbeheer {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
@@ -32,7 +31,7 @@ Deze [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-l
 |---|---|---|
 | 1 | Werkbalk Segmentbeheer | Nadat u een segment hebt gecontroleerd, wordt deze werkbalk weergegeven. De meeste beheertaken kunnen vanaf deze werkbalk worden voltooid. |
 | 2 | Filters tonen | Als u op het filterpictogram klikt, wordt het filtermenu weergegeven. U kunt filteren op Tags, Eigenaars, Alles tonen (alleen Admin), Mijne waarden, Favorieten, Goedgekeurd en Gedeeld met mij. |
-| 1 | Selectievakjes | Controleer een segment om het te beheren. |
+| 3 | Selectievakjes | Controleer een segment om het te beheren. |
 | 4 | Favorieten | Als u op de ster naast een segment klikt, wordt de ster geel en wordt het segment gemarkeerd als een favoriet. |
 | 5 | Segmenttitels en -beschrijvingen | Opgegeven in de Segment Builder. Als u de titel en beschrijving wilt bewerken, klikt u op de titelkoppeling. Hiermee gaat u terug naar de Segment Builder. |
 | 6 | Rapportsuites | Deze kolom geeft aan in welke rapportsuite het segment het laatst is opgeslagen. |

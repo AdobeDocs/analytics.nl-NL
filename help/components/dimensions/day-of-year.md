@@ -1,14 +1,14 @@
 ---
 title: Dag van het jaar
 description: De numerieke dag van het jaar, ongeacht welk jaar.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
 
 ---
-
 
 # Dag van het jaar
 
@@ -18,6 +18,6 @@ De dimensie &#39;Dag van het jaar&#39; rapporteert de numerieke dag van een bepa
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items omvatten de getallen `1` (1 januari) tot `366` (31 december op schrikkeljaar), die de dag van het jaar vertegenwoordigen waarop de treffer heeft plaatsgevonden.
+Dimension-items bevatten de getallen `1` (1 januari t/m `366` (31 december op schrikkeljaar), de dag van het jaar waarin de treffer plaatsvond.

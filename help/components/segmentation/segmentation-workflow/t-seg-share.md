@@ -2,13 +2,11 @@
 description: Afhankelijk van uw toestemmingen, kunt u segmenten met uw volledige organisatie, groepen, of individuele gebruikers delen.
 title: Segmenten delen
 feature: Segmentation
-uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 2%
+source-wordcount: '262'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +20,9 @@ Afhankelijk van uw toestemmingen, kunt u segmenten met uw volledige organisatie,
 
 Wanneer zou u segmenten met het volledige bedrijf tegenover enkel een groep gebruikers of individuen moeten delen? Hier volgen enkele aanbevolen procedures:
 
-* Als Admin, deel een segment met **[!UICONTROL All]** als het van nut voor het volledige bedrijf is en iedereen het comfortabel gebruikt. In dit geval, zou u ook moeten nadenken makend tot het een [goedgekeurd](/help/components/segmentation/segmentation-workflow/seg-approve.md) segment.
+* Als beheerder deelt u een segment met **[!UICONTROL All]** als het van nut is voor het hele bedrijf en iedereen het comfortabel gebruikt. In dit geval moet u ook overwegen om het een [goedgekeurd](/help/components/segmentation/segmentation-workflow/seg-approve.md) segment.
 
-* Als Admin, deel een segment met specifieke **[!UICONTROL Group]** als het segment goede bedrijfswaarde voor dat team verstrekt. Dit type segment niet officieel goedkeuren.
+* Als beheerder deelt u een segment met een specifieke **[!UICONTROL Group]** als het segment goede bedrijfswaarde voor dat team verstrekt. Dit type segment niet officieel goedkeuren.
 * Als Admin of een individuele gebruiker, deel een segment met andere individuen om een segment te behandelen en te bevestigen. Als het niet nuttig blijkt, kan het worden verworpen. Dit type segment niet officieel goedkeuren.
 
 1. Markeer in Segmentbeheer het selectievakje naast het segment dat u wilt delen. De werkbalk voor segmentbeheer wordt weergegeven:
@@ -35,8 +33,8 @@ Wanneer zou u segmenten met het volledige bedrijf tegenover enkel een groep gebr
 
    ![](assets/sharing_segments.png)
 
-   Als u een beheerder bent, kunt u **[!UICONTROL All]** selecteren of van **[!UICONTROL Groups]** en **[!UICONTROL Users]** in uw organisatie kiezen. Als niet-beheerder kunt u alleen individuele gebruikers zien. Gebruik het veld **[!UICONTROL Search]** om te zoeken naar groepen of gebruikers. 1. Klik op **[!UICONTROL Share]**.
+   Als u een beheerder bent, kunt u **[!UICONTROL All]** of kies uit **[!UICONTROL Groups]** en **[!UICONTROL Users]** in uw organisatie. Als niet-beheerder kunt u alleen individuele gebruikers zien. Gebruik de **[!UICONTROL Search]** naar groepen of gebruikers te zoeken. 1. Klikken **[!UICONTROL Share]**.
 
    Het pictogram Gedeeld wordt weergegeven naast het segment:  ![](assets/share_icon.png)
 
-1. U kunt filteren op segmenten die met u worden gedeeld door naar **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]** te gaan.
+1. U kunt filteren op segmenten die met u worden gedeeld door naar **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.

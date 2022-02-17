@@ -1,12 +1,14 @@
 ---
 description: Toont om segmenten binnen Berekende Metrische Bouwer te stapelen en te vervangen.
 title: Segmenten stapelen en vervangen
-uuid: f6d4db9e-d982-4731-b342-7e49dee02035
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Calculated Metrics
+exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 11%
 
 ---
-
 
 # Segmenten stapelen en vervangen
 
@@ -23,4 +25,3 @@ In het canvas van de Definitie, eenvoudig laat vallen het nieuwe segment naast b
 Plaats het nieuwe segment in het canvas Definition gewoon boven op het bestaande segment:
 
 ![](assets/cm_replace_seg.png)
-

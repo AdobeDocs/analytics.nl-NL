@@ -1,14 +1,14 @@
 ---
 title: Jaar
 description: Het jaar dat metrisch voorkwam.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: 872fb659-fb19-40ac-b371-e89c5a5d0274
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # Jaar
 
@@ -18,6 +18,6 @@ De dimensie &#39;Year&#39; meldt het jaar dat een bepaalde metrische waarde is o
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items omvatten een bepaald jaar, met de datums tussen haakjes.
+Dimension-items bevatten een bepaald jaar, met de datums tussen haakjes.

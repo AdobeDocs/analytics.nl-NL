@@ -1,16 +1,14 @@
 ---
 description: (Optioneel) Voordat u classificaties importeert in marketingrapporten, kunt u een sjabloon downloaden waarmee u een bestand met classificatiegegevens kunt maken. Het gegevensbestand gebruikt uw gewenste classificaties als kolomrubrieken, dan organiseert de rapportgegevensreeks onder de aangewezen classificatiekoppen.
-subtopic: Classifications
 title: Classificatiesjabloon
-feature: Admin Tools
-uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
+feature: Classifications
+exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '342'
 ht-degree: 3%
 
 ---
-
 
 # Classificatiesjabloon
 
@@ -36,7 +34,7 @@ De template bevat de momenteel gedefinieerde classificaties (kolomkoppen) van ee
 >
 >De methode van het Malplaatje beperkt uw download van classificatiegegevens tot één enkele rapportreeks.
 
-Zie [Informatie over classificatiegegevensbestanden](/help/components/classifications/importer/c-saint-data-files.md) voor meer informatie over de structuur van het gegevensbestand.
+Zie voor meer informatie over de structuur van het gegevensbestand [Over classificatiegegevensbestanden](/help/components/classifications/importer/c-saint-data-files.md).
 
 ## Een gegevenssjabloon voor classificaties downloaden (optioneel) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
@@ -47,9 +45,8 @@ De sjabloon biedt de bestandsindeling die u voor classificaties moet volgen.
 >De methode van het Malplaatje beperkt uw gegevensdownload tot één enkele rapportreeks.
 
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
-1. Op **[!UICONTROL Download Template]** lusje, specificeer [de configuratie van het gegevensmalplaatje](/help/components/classifications/importer/c-download-saint-data.md).
+1. Op de **[!UICONTROL Download Template]** tabblad, geeft u de [gegevenssjabloonconfiguratie](/help/components/classifications/importer/c-download-saint-data.md).
 1. Klik op **[!UICONTROL Download]**.
 1. Sla het sjabloonbestand op uw lokale systeem op.
 
-   Het sjabloonbestand is een door tabs gescheiden gegevensbestand ( [!DNL .tab] bestandsnaamextensie) dat door de meeste spreadsheettoepassingen wordt ondersteund.
-
+   Het sjabloonbestand is een door tabs gescheiden gegevensbestand ( [!DNL .tab] bestandsnaamextensie) die door de meeste spreadsheettoepassingen wordt ondersteund.

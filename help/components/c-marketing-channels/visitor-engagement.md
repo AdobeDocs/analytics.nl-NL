@@ -2,13 +2,11 @@
 description: Leer hoe u verloopt over betrokkenheid van bezoekers in marketingkanalen.
 subtopic: Marketing channels
 title: Vervaldatum marketingkanaal
-feature: Grondbeginselen van rapporten en analyses
-uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
+feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
-translation-type: tm+mt
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om de doeltreffendheid van de Kanalen van de Marketing voor Attribution IQ en Customer Journey Analytics te maximaliseren, hebben wij sommige [herziene beste praktijken](/help/components/c-marketing-channels/mchannel-best-practices.md) gepubliceerd.
+>Om de doeltreffendheid van de Marketing Kanalen voor Attribution IQ en Customer Journey Analytics te maximaliseren, hebben wij sommige gepubliceerd [herziene beste praktijken](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Leer hoe u de verloopperiode of de periode voor de betrokkenheid van bezoekers opgeeft voor marketingkanalen.
 
@@ -41,12 +39,12 @@ Expiratie-instellingen bestaan uit de volgende instellingen:
 | Nooit | De periode van de betrokkenheid van de bezoeker loopt niet af. |
 | Kanaal opnieuw instellen | Verloopt alle perioden voor betrokkenheid van bezoekers.  Als u alle gegevens van het marketingkanaal opnieuw moet instellen, kunt u alle perioden van de betrokkenheid van bezoekers verlopen. Mogelijk moet u gegevens opnieuw instellen als uw verwerkingsregels eerder onjuist zijn geconfigureerd. Alle waarden voor het eerste en laatste aanraakkanaal verlopen onmiddellijk en worden opnieuw ingesteld wanneer bezoekers terugkeren. |
 
-## Vervaldatum marketingkanaal definiëren {#define-expiration}
+## Vervaldatum van marketingkanalen definiëren {#define-expiration}
 
 Geef de periode voor de betrokkenheid van de bezoeker op.
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-2. Klik in [!UICONTROL Report Suite Manager] op **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Expiration]**.
+2. In de [!UICONTROL Report Suite Manager], klikt u op **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Expiration]**.
 
    ![](assets/mchannel_expiration.png)
 

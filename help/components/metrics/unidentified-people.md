@@ -1,7 +1,9 @@
 ---
 title: Niet-geïdentificeerde personen
 description: Het aantal bezoekers dat niet werd geïdentificeerd door Apparaatanalyse.
-source-git-commit: 0e3ebcb7a28623c12876391e2204afa43e341d9c
+feature: Metrics
+exl-id: 00df1a5a-1a99-4783-acf6-8d8ab0293e6f
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Niet-geïdentificeerde personen
 
-De metrische waarde &#39;Niet-geïdentificeerde personen&#39; is een [Analyse van verschillende apparaten](../cda/overview.md) die het aantal bezoekers telt dat CDA niet kon identificeren.
+De maatstaf &#39;Niet-geïdentificeerde Mensen&#39; is een [Apparaatanalyse](../cda/overview.md) Metrische waarde die het aantal bezoekers telt dat CDA niet kon identificeren.
 
 ## Hoe deze metrische waarde wordt berekend
 

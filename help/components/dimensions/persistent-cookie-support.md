@@ -1,10 +1,11 @@
 ---
 title: Permanente ondersteuning voor cookies
 description: Hiermee wordt bepaald of de bezoeker blijvende cookies kan ondersteunen.
+feature: Dimensions
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
-source-git-commit: 82d6137bc9229bbaa997c6856690bf76c20b755c
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -19,10 +20,10 @@ Adobe bepaalt de waarde van deze afmeting server-kant die op de bron van het her
 
 ## Dimension-items
 
-* **`Enabled`**: De bezoekersidentificatie van de hit is afkomstig van een bron die doorgaans aanhoudt. De gemeenschappelijkste voorbeelden omvatten `aid`, `fid`, of `mid` parameters van het vraagkoord, aangezien zij hun waarden uit een koekje afleiden.
-* **`Disabled`**: De bezoekersidentificatie van de hit kwam van een bron die Adobe niet als blijvend herkent, zoals IP + user agent string. Dit dimensiepunt omvat ook aangepaste bezoekers-id&#39;s die de variabele [`visitorID`](/help/implement/vars/config-vars/visitorid.md) gebruiken.
+* **`Enabled`**: De bezoekersidentificatie van de hit is afkomstig van een bron die doorgaans aanhoudt. De meest voorkomende voorbeelden zijn `aid`, `fid`, of `mid` query-tekenreeksparameters, aangezien deze hun waarden afleiden van een cookie.
+* **`Disabled`**: De bezoekersidentificatie van de hit kwam van een bron die Adobe niet als blijvend herkent, zoals IP + user agent string. Dit dimensie-item bevat ook aangepaste id&#39;s voor bezoekers die de opdracht [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variabele.
 
 ## Verschil tussen &#39;Cookie support&#39; en &#39;Permanente ondersteuning voor cookies&#39;
 
-* **Ondersteuning** voor cookie: AppMeasurement probeert een generiek cookie in te stellen. Het item Dimensie is gebaseerd op de vraag of het cookie correct is ingesteld.
-* **Ondersteuning voor** permanente cookies: Het item Dimensie is gebaseerd op het feit of de id van de hit afkomstig is van een permanente bron, zoals een cookie.
+* **Cookie-ondersteuning**: AppMeasurement probeert een generiek cookie in te stellen. Het item Dimensie is gebaseerd op de vraag of het cookie correct is ingesteld.
+* **Permanente ondersteuning voor cookies**: Het item Dimensie is gebaseerd op het feit of de id van de hit afkomstig is van een permanente bron, zoals een cookie.

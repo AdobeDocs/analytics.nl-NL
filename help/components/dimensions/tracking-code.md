@@ -1,14 +1,14 @@
 ---
 title: Trackingcode
 description: De naam van de code of campagne voor bijhouden.
-translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+feature: Dimensions
+exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 1%
 
 ---
-
 
 # Trackingcode
 
@@ -16,7 +16,7 @@ De dimensie &#39;Tracking Code&#39; geeft een overzicht van de namen van trackin
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie wint gegevens van het [`v0` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeturement verzamelt deze gegevens met behulp van de [`campaign`](/help/implement/vars/page-vars/campaign.md) variabele.
+Deze dimensie haalt gegevens van terug [`v0` querytekenreeks](/help/implement/validate/query-parameters.md) in afbeeldingsaanvragen. AppMeturement verzamelt deze gegevens met de [`campaign`](/help/implement/vars/page-vars/campaign.md) variabele.
 
 ## Dimension-items
 
@@ -32,7 +32,7 @@ Sommige gebruikers die de verwerkingsregels van het opstellings marketing kanaal
    2. Een gebruiker plaatst een koppeling naar uw site met een trackingcode op een sociale-mediasite en verschillende vrienden klikken op die koppeling naar uw site.
 
    Aangezien &#39;Sociale netwerken&#39; de eerste verwerkingsregel voor marketingkanalen is, verwijzen deze gebruikers naar het marketingkanaal &#39;Sociale netwerken&#39; en niet naar het marketingkanaal voor volgcodes.
-* **Andere marketingkanalen kunnen kenmerk** stelen: Als u werkt met een standaard dimensie voor het bijhouden van codes, hoeft u zich geen zorgen te maken over andere delen van de site die de kenmerken stelen. Bij marketingkanalen kan een gebruiker echter een andere regel gebruiken, waardoor een andere toewijzing wordt verkregen. Bijvoorbeeld:
+* **Andere marketingkanalen kunnen toeschrijving stelen**: Als u werkt met een standaard dimensie voor het bijhouden van codes, hoeft u zich geen zorgen te maken over andere delen van de site die de kenmerken stelen. Bij marketingkanalen kan een gebruiker echter een andere regel gebruiken, waardoor een andere toewijzing wordt verkregen. Bijvoorbeeld:
    1. U hebt &#39;Trackingcodes&#39; als eerste kanaal en &#39;Direct&#39; als tweede kanaal.
    2. Een gebruiker arriveert eerst via een trackingcode naar uw site, maar verlaat vervolgens de site.
    3. De volgende dag typen ze uw URL in hun adresbalk en kopen ze deze vervolgens.

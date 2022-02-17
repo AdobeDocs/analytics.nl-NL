@@ -1,8 +1,9 @@
 ---
 title: Browsertype
 description: De organisatie die de browser heeft gemaakt.
+feature: Dimensions
 exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -15,8 +16,8 @@ De dimensie Browsertype geeft een overzicht van organisaties die de browser hebb
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar een raadplegingstabel intern aan Adobe. De opzoekwaarde is gebaseerd op de HTTP-header `User-Agent` in afbeeldingsaanvragen. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak.
+Deze dimensie verwijst naar een raadplegingstabel intern aan Adobe. De opzoekwaarde is gebaseerd op de `User-Agent` HTTP-header in afbeeldingsaanvragen. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak.
 
 ## Dimension-items
 
-Dimension-items omvatten organisaties die browsers maken. Veelvoorkomende dimensie-items zijn `"Google"` (de makers van [!DNL Chrome]), `"Apple"` (de makers van [!DNL Safari]), `"Microsoft"` (de makers van [!DNL Edge]) en `"Mozilla"` (de makers van [!DNL Firefox]).
+Dimension-items omvatten organisaties die browsers maken. Items met een gemeenschappelijke dimensie omvatten `"Google"` (de opstellers van [!DNL Chrome]), `"Apple"` (de opstellers van [!DNL Safari]), `"Microsoft"` (de opstellers van [!DNL Edge]), en `"Mozilla"` (de opstellers van [!DNL Firefox]).

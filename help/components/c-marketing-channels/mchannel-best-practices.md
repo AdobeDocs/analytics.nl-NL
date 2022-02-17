@@ -1,17 +1,18 @@
 ---
 title: Aanbevolen procedures voor het implementeren van Adobe Analytics Marketing Channel
 description: Bijgewerkte beste praktijken voor het gebruiken van de Kanalen van de Marketing met Attribution IQ en Customer Journey Analytics
-source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
+feature: Marketing Channels
+exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
 
+# Attribution IQ met de Kanalen van de Marketing - Beste praktijken
 
-# Attribution IQ met marketingkanalen - Aanbevolen werkwijzen
-
-[Marketing ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) Channelsare een waardevolle en krachtige functie van Adobe Analytics. De huidige richtlijnen met betrekking tot de implementatie van het Kanaal van de Marketing werden geformuleerd op een moment dat noch [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) noch [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases) bestonden.
+[Marketingkanalen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) zijn een waardevol en krachtig kenmerk van Adobe Analytics. De huidige leidraad betreffende de implementatie van het Kanaal van de Marketing werd geformuleerd op een ogenblik dat geen van beiden [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)  noch [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases) bestaan.
 
 Om de implementatie van uw marketingkanalen in de toekomst te controleren en ervoor te zorgen dat er consistentie is met Attribution IQ en met Customer Journey Analytics, geven we een reeks bijgewerkte best practices uit. Als u al marketingkanalen gebruikt, kunt u de beste opties kiezen uit deze nieuwe richtlijnen. Als u niet bekend bent met Marketing Channels, raden we u aan alle nieuwe aanbevolen procedures te volgen.
 
@@ -21,19 +22,19 @@ Aangezien de dimensies van het Kanaal van de Marketing van een traditionele defi
 
 ## Beste praktijken #1: Gebruik van Attribution IQ voor gecontroleerde analyse
 
-Wij adviseren gebruikend [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) in plaats van de bestaande attributie van het Kanaal van de Marketing om uw analyse van het Kanaal van de Marketing te verfijnen. Volg de andere beste praktijken om consistentie en robuuste controles over uw analyse met Attribution IQ te verzekeren.
+We raden u aan [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) in plaats van de bestaande toewijzing van het Kanaal van de Marketing om uw analyse van het Kanaal van de Marketing te verfijnen. Volg de andere beste praktijken om consistentie en robuuste controles over uw analyse met Attribution IQ te verzekeren.
 
 ![](assets/attribution.png)
 
 * De configuratie van de dimensies van het Kanaal van de Marketing en het Detail van het Kanaal van de Marketing vestigt te evalueren aanraakpunten, die aan elke Instantie van het Kanaal van de Marketing beantwoorden.
 * Voor metrische analyse, zou uw organisatie zich op één of meerdere attributiemodel(en) moeten richten. Sla aangepaste maateenheden op met dit model, zodat u ze eenvoudig opnieuw kunt gebruiken.
-* Standaard worden gegevens toegewezen met gebruik van Last Touch en de instelling van de bezoekersperiode. De Attribution IQ metrische modellen bieden grotere controle over de raadplegingsvensters en meer verscheidenheid, met inbegrip van [algoritmische attributie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace).
+* Standaard worden gegevens toegewezen met gebruik van Last Touch en de instelling van de bezoekersperiode. De Attribution IQ metrische modellen bieden grotere controle over de raadplegingsvensters en meer verscheidenheid, met inbegrip van [algoritmische toewijzing](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace).
 
 ## Beste praktijken #2: Geen directe en Sessiekanaaldefinities
 
 De directe en Interne kanalen/van het Sessievernieuwen worden niet geadviseerd voor gebruik met de modellen van de douaneattributie (Attribution IQ).
 
-Wat als uw organisatie reeds Directe en Zitting heeft gevormd verfrissen zich? In dit geval raden we u aan [een classificatie te maken](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=en) voor Eerste aanraking/Laatste aanraking en de kanalen voor Direct en Sessie vernieuwen ongeclassificeerd te laten. De geclassificeerde dimensie zal de zelfde Attribution IQ resultaten opleveren alsof die kanalen nooit werden gevormd.
+Wat als uw organisatie reeds Directe en Zitting heeft gevormd verfrissen zich? In dit geval raden we u aan [een classificatie maken](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=en) voor Eerste aanraking/Laatste aanraking en laat de kanalen van de Vernieuwingen van Direct en van de Zitting niet geclassificeerd. De geclassificeerde dimensie zal de zelfde Attribution IQ resultaten opleveren alsof die kanalen nooit werden gevormd.
 
 ![](assets/direct-session-refresh.png)
 

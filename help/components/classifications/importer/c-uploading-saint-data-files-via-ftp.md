@@ -1,14 +1,12 @@
 ---
 description: Gegevensbestanden uploaden via FTP.
-subtopic: Classifications
 title: FTP-import
-feature: Admin Tools
-uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
+feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 2%
+source-wordcount: '693'
+ht-degree: 1%
 
 ---
 
@@ -39,22 +37,22 @@ Als u uw uniques voor de maand hebt overschreden, zult u de overeenkomstige clas
 >
 >De tijd die nodig is om een bestand met classificatiegegevens te verwerken, is afhankelijk van de grootte van het bestand en het huidige aantal bestanden dat al wordt verwerkt door Adobe. De verwerking van gegevensbestanden duurt gewoonlijk niet langer dan 72 uur.
 
-Maak een FTP-account voordat u gegevens uploadt via FTP. Zie [Een FTP-account maken](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF) voor meer informatie.
+Maak een FTP-account voordat u gegevens uploadt via FTP. Zie voor meer informatie [Een FTP-account maken](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## Classificaties importeren via FTP {#task_132C36830B69418B8C929E39838EF01D}
 
 Stappen die beschrijven hoe u een FTP-account kunt gebruiken om classificaties te importeren in Adobe Analytics.
 
-Zie [Een FTP-account maken](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF) voor meer informatie over het maken van een FTP-account.
+Ga voor meer informatie over het maken van een FTP-account naar [Een FTP-account maken](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
-1. Klik **[!UICONTROL Import File]**, dan klik **[!UICONTROL FTP Import]**.
-1. Klik op **[!UICONTROL View]** naast de FTP-account die u wilt gebruiken.
+1. Klikken **[!UICONTROL Import File]** en klik vervolgens op **[!UICONTROL FTP Import]**.
+1. Klik naast de FTP-account die u wilt gebruiken op **[!UICONTROL View]**.
 1. Gebruik de FTP-toegangsgegevens (Host, Aanmelden, Wachtwoord) om toegang te krijgen tot de FTP-server via een door u gekozen FTP-client.
-1. Upload het gegevensbestand ( [!DNL .tab] of [!DNL .txt]) aan de server van FTP.
+1. Het gegevensbestand uploaden ( [!DNL .tab] of [!DNL .txt]) naar de FTP-server.
 1. Na het uploaden van het gegevensbestand, upload een FIN dossier dat erop wijst het dossier klaar is te verwerken.
 
-   Het FIN-bestand is een leeg bestand met dezelfde naam als het gegevensbestand, met de bestandsnaamextensie [!DNL .fin]. Als uw gegevensbestand bijvoorbeeld [!DNL classdata1.tab] is, is de bestandsnaam FIN [!DNL classdata1.fin].
+   Het FIN-bestand is een leeg bestand met dezelfde naam als het gegevensbestand, met een [!DNL .fin] bestandsnaamextensie. Als het gegevensbestand bijvoorbeeld [!DNL classdata1.tab], de FIN-bestandsnaam is [!DNL classdata1.fin].
 
 Met regelmatige intervallen haalt Adobe geüploade gegevensbestanden op waaraan een FIN-bestand is gekoppeld. Adobe importeert ze in de rapportsuite en gegevenssets die zijn opgegeven in de FTP-accountconfiguratie.
 
@@ -65,8 +63,8 @@ Maak een FTP-account voordat u gegevens uploadt via FTP. >
 Zie [FTP en sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html) voor meer informatie over Adobe FTP-servers.
 
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
-1. Klik **[!UICONTROL Import File]**, dan klik **[!UICONTROL FTP Import]**.
-1. Klik op het tabblad **[!UICONTROL Import File]** op **[!UICONTROL Add New]**.
+1. Klikken **[!UICONTROL Import File]** en klik vervolgens op **[!UICONTROL FTP Import]**.
+1. Op de **[!UICONTROL Import File]** tabblad, klikt u op **[!UICONTROL Add New]**.
 1. Geef de FTP-accountgegevens op:
 
    | Element | Beschrijving |

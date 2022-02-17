@@ -1,14 +1,14 @@
 ---
 title: 'Metrische uitleg van paginaweergaven | Adobe Analytics '
 description: Leer hoe de pagina metrisch weergeeft in Adobe Analytics en begrijp ook het verschil tussen paginaweergaven en bezoeken.
-translation-type: tm+mt
-source-git-commit: c588087b949093152435967f62e43758e9e86208
+feature: Metrics
+exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
 
 ---
-
 
 # Meer informatie over paginaweergaven met Adobe Analytics
 
@@ -16,9 +16,9 @@ De metrische weergave &#39;Paginaweergaven&#39; toont het aantal keren dat een b
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrische tellingen alle het volgen vraag van de paginamening ([`t()`](/help/implement/vars/functions/t-method.md)) in een rapportreeks. Voor dimensies omvat dit ook treffers waarbij een dimensie-item wordt gedefinieerd of blijvend wordt gemaakt. Het omvat geen verbinding het volgen vraag ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Deze metrische waarde telt alle het volgen vraag van de paginamening ([`t()`](/help/implement/vars/functions/t-method.md)) in een rapportenpakket. Voor dimensies omvat dit ook treffers waarbij een dimensie-item wordt gedefinieerd of blijvend wordt gemaakt. Het omvat geen verbinding het volgen vraag ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Vergelijken met vergelijkbare cijfers
 
-* **Paginaweergaven versus  [bezoeken](visits.md)**: In de paginaweergaven wordt het aantal keer geteld dat een pagina wordt weergegeven. Bezoekingen tellen het aantal sessies voor bezoekers. Een bezoek bestaat uit een of meer pagina&#39;s.
-* **Paginaweergaven versus  [Pagina-gebeurtenissen](page-events.md)**: De meningen van de pagina tellen het aantal pagina mening het volgen vraag (`t()`), en sluit verbinding het volgen vraag (`tl()`) uit. Pagina-gebeurtenissen zijn het tegenovergestelde; het telt het aantal verbinding het volgen vraag, en sluit paginameningen uit.
+* **Paginaweergaven versus [Bezoeken](visits.md)**: In de paginaweergaven wordt het aantal keer geteld dat een pagina wordt weergegeven. Bezoekingen tellen het aantal sessies voor bezoekers. Een bezoek bestaat uit een of meer pagina&#39;s.
+* **Paginaweergaven versus [Gebeurtenissen van Page](page-events.md)**: Paginaweergaven tellen het aantal aanroepen voor het bijhouden van paginaweergaven (`t()`), en sluit verbinding het volgen vraag ( uit`tl()`). Pagina-gebeurtenissen zijn het tegenovergestelde; het telt het aantal verbinding het volgen vraag, en sluit paginameningen uit.

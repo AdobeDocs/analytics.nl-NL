@@ -1,14 +1,14 @@
 ---
 title: Alle zoekpaginanummers
 description: Bepaal welke pagina op een zoekmachine een bezoeker door aan uw site heeft geklikt.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
 
 ---
-
 
 # Alle zoekpaginanummers
 
@@ -16,8 +16,8 @@ De dimensie &#39;Alle rang van zoekpagina&#39; geeft inzicht in welke pagina met
 
 ## Deze dimensie vullen met gegevens
 
-Om deze dimensie aan het werk slechts te krijgen vereist dat uw rapportreeks [Interne filters](/help/admin/admin/internal-url-filter-admin.md) URL correct opstelling heeft. AppMeasurement vult automatisch deze dimensie zonder enige veranderingen van de implementatiecode.
+Om deze dimensie te laten werken is het alleen nodig dat uw rapportenpakket [Interne URL-filters](/help/admin/admin/internal-url-filter-admin.md) correct ingesteld. AppMeasurement vult automatisch deze dimensie zonder enige veranderingen van de implementatiecode.
 
-## Dimensie-items
+## Dimension-items
 
 Als een bezoeker vanuit een zoekprogramma naar uw site klikt, is de waarde van deze dimensie &quot;Pagina zoeken&quot;, gevolgd door het paginanummer waarop de bezoeker heeft geklikt. Als een hit niet afkomstig is van een zoekmachine, is de waarde van deze dimensie &quot;Niet gespecificeerd&quot;.

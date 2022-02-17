@@ -1,14 +1,14 @@
 ---
 title: Winkelwagentjes
 description: Het aantal treffers waarbij een bezoeker een product uit zijn winkelwagentje heeft verwijderd.
-translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+feature: Metrics
+exl-id: 74b9677e-89c7-4409-8bd3-99707436def0
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 0%
 
 ---
-
 
 # Winkelwagentjes
 
@@ -16,4 +16,4 @@ De maatstaf &#39;Winkelwagentjes&#39; toont het aantal keren dat een bezoeker ie
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrische waarde telt het aantal treffers waar `scRemove` in de [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabele bestaat.
+Deze metrische waarde telt het aantal treffers waar `scRemove` bestaat in de [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabele.

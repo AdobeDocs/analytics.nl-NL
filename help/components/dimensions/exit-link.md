@@ -1,14 +1,14 @@
 ---
 title: Koppeling afsluiten
 description: De naam van de afsluitkoppeling.
-translation-type: tm+mt
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+feature: Dimensions
+exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
 
 ---
-
 
 # Koppeling afsluiten
 
@@ -16,9 +16,9 @@ De dimensie &#39;Verbinding van de Uitgang&#39; meldt de namen van uitgangsverbi
 
 ## Deze dimensie vullen met gegevens
 
-Deze afmeting verzamelt gegevens van [`pev2` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken voor treffers die ook `pe` vraagkoord met de waarde van `lnk_e` hebben. Als de query-tekenreeks `pe` een andere waarde heeft in de hit, worden met deze dimensie geen gegevens verzameld.
+Deze dimensie verzamelt gegevens van de [`pev2` querytekenreeks](/help/implement/validate/query-parameters.md) in afbeeldingsaanvragen voor treffers die ook `pe` querytekenreeks met de waarde van `lnk_e`. Als de `pe` queryreeks heeft een andere waarde in de hit, deze dimensie verzamelt geen gegevens.
 
-Als u gegevens naar deze afmeting wilt verzenden gebruikend AppMeasurement, verzend een [`tl()`](/help/implement/vars/functions/tl-method.md) beeldverzoek met een koppelingstype argument van `"e"`. Vul het argument voor de naam van de koppeling met de gewenste waarde.
+Als u gegevens naar deze afmeting wilt verzenden gebruikend AppMeasurement, verzend een [`tl()`](/help/implement/vars/functions/tl-method.md) afbeeldingsverzoek met een koppelingstype-argument van `"e"`. Vul het argument voor de naam van de koppeling met de gewenste waarde.
 
 ## Dimension-items
 

@@ -1,15 +1,12 @@
 ---
 description: Adobe Analytics ondersteunt classificatiemodellen op één niveau en op meerdere niveaus. Met een classificatiehiërarchie kunt u een classificatie toepassen op een classificatie.
-subtopic: Classifications
 title: Informatie over subclassificaties
-feature: Admin Tools
-uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
+feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 8%
+source-wordcount: '644'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +16,7 @@ Adobe Analytics ondersteunt classificatiemodellen op één niveau en die op meer
 
 >[!NOTE]
 >
->Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] dat wordt gebruikt om [!UICONTROL Hierarchy]-rapporten te maken. Zie [Classificatiehiërarchieën](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) voor meer informatie over classificatiehiërarchieën.
+>Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] gebruikt om te maken [!UICONTROL Hierarchy] rapporten. Voor meer informatie over classificatiehiërarchieën raadpleegt u [Classificatiehiërarchieën](/help/admin/admin/conversion-var-admin/classification-hierarchies.md).
 
 Bijvoorbeeld:
 
@@ -32,21 +29,21 @@ Elke classificatie in dit model is onafhankelijk en komt overeen met een nieuw s
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Zie [Classificatiegegevensbestanden](/help/components/classifications/importer/c-saint-data-files.md) voor meer informatie over het gegevensbestand.
+Zie voor meer informatie over het gegevensbestand [Classificatiegegevensbestanden](/help/components/classifications/importer/c-saint-data-files.md).
 
 Classificaties op meerdere niveaus bestaan uit ouder- en onderliggende classificaties. Bijvoorbeeld:
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Bovenliggende classificaties:** een bovenliggende classificatie is elke classificatie die een bijbehorende onderliggende classificatie heeft. Een classificatie kan zowel een ouderclassificatie als een kindclassificatie zijn. De bovenliggende classificaties komen overeen met classificaties op één niveau.
+**Bovenliggende classificaties:** Een ouderclassificatie is om het even welke classificatie die een bijbehorende kindclassificatie heeft. Een classificatie kan zowel een ouderclassificatie als een kindclassificatie zijn. De bovenliggende classificaties komen overeen met classificaties op één niveau.
 
-**Onderliggende classificaties:** Een onderliggend classificatienummer is een classificatie die een andere classificatie heeft als bovenliggend in plaats van de variabele. Onderliggende classificaties bieden aanvullende informatie over hun ouderclassificatie. Een [!UICONTROL Campaigns]-classificatie kan bijvoorbeeld een onderliggende classificatie van eigenaar van campagne hebben. [!UICONTROL Numeric] classificaties functioneren ook als metriek in classificatierapporten.
+**Onderliggende classificaties:** Een onderliggende classificatie is een classificatie die een andere classificatie heeft als de bovenliggende klasse in plaats van de variabele. Onderliggende classificaties bieden aanvullende informatie over hun ouderclassificatie. Bijvoorbeeld een [!UICONTROL Campaigns] de classificatie zou een de kindclassificatie van de Eigenaar van de Campagne kunnen hebben. [!UICONTROL Numeric] classificaties functioneren ook als metriek in classificatierapporten.
 
 Elke classificatie, bovenliggend of onderliggend, vormt één gegevenskolom in het gegevensbestand. De kolomkop voor een onderliggende classificatie met de volgende notatie:
 
 `<parent_name>^<child_name>`
 
-Zie [Classificatiegegevensbestanden](/help/components/classifications/importer/c-saint-data-files.md) voor meer informatie over de gegevensbestandsindeling.
+Voor meer informatie over de indeling van het gegevensbestand raadpleegt u [Classificatiegegevensbestanden](/help/components/classifications/importer/c-saint-data-files.md).
 
 Bijvoorbeeld:
 
@@ -59,7 +56,7 @@ Hoewel het dossiermalplaatje voor een classificatie op meerdere niveaus complexe
 
 >[!NOTE]
 >
->Als de kolom [!UICONTROL Key] in een gegevensbestand leeg is, genereert Adobe automatisch unieke sleutels voor elke gegevensrij. U voorkomt mogelijke bestandsbeschadiging wanneer u een gegevensbestand uploadt met classificatiegegevens van het tweede niveau of het hogere niveau door elke rij van de kolom [!UICONTROL Key] te vullen met een asterisk (*).
+>Als de [!UICONTROL Key] in een gegevensbestand leeg is, genereert Adobe automatisch unieke sleutels voor elke gegevensrij. Als u mogelijke bestandsbeschadiging wilt voorkomen tijdens het uploaden van een gegevensbestand met classificatiegegevens op tweede of hoger niveau, vult u elke rij van de [!UICONTROL Key] kolom met een asterisk (*).
 
 ## Voorbeelden
 
@@ -71,7 +68,7 @@ Hoewel het dossiermalplaatje voor een classificatie op meerdere niveaus complexe
 
 Wanneer u gegevensbestanden uploadt voor deze productclassificatie, kunt u de classificatiegegevens uploaden als één bestand of als meerdere bestanden (zie hieronder). Door de kleurcode in bestand 1 en de kleurnaam in bestand 2 te scheiden, hoeven de gegevens over de kleurnaam (die mogelijk slechts een paar rijen zijn) alleen te worden bijgewerkt wanneer nieuwe kleurcodes worden gemaakt. Hiermee verwijdert u het kleurnaamveld (CODE^COLOR) uit het vaker bijgewerkte bestand 1 en verkleint u de bestandsgrootte en complexiteit bij het genereren van het gegevensbestand.
 
-### Productclassificatie - Enkel bestand {#section_E8C5E031869C449F9B636F5EB3BFEC17}
+### Productclassificatie - Eén bestand {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
 | SLEUTEL | PRODUCTNAAM | PRODUCTGEGEVENS | GENDER | GROOTTE | CODE | CODE^KLEUR |
 |---|---|---|---|---|---|---|

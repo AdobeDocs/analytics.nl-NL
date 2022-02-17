@@ -1,32 +1,31 @@
 ---
 description: Gebruik waarschuwingen in Analysis Workspace.
 title: Alert Builder
-uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Alerts
+exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
-
 # Alert Builder
 
 >[!IMPORTANT]
 >
->Intelligente waarschuwingen zijn alleen beschikbaar voor Adobe [!DNL Analytics] Premier- en Adobe [!DNL Analytics] Ultimate-klanten.
+>Intelligente waarschuwingen zijn beschikbaar voor Adobe [!DNL Analytics] Primair en Adobe [!DNL Analytics] Alleen ultieme klanten.
 
 U kunt de waarschuwingsfunctie op vier manieren openen:
 
 * Met de volgende sneltoets in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Door naar **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** te gaan.
-* Door één of meerdere punten van de vrije lijstlijn van de vrije vorm te selecteren, klik met de rechtermuisknop aan en selecterend **[!UICONTROL Create Alert from Selection]**.
-* Vanuit een [!UICONTROL Reports & Analytics]-rapport gaat u naar **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
+* Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
+* Door een of meer vrije regelitems voor tabellen te selecteren, klikt u met de rechtermuisknop en selecteert u **[!UICONTROL Create Alert from Selection]**.
+* Van binnen een [!UICONTROL Reports & Analytics] rapport, door **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
-De waarschuwingsinterface van de Bouwer is vertrouwd aan degenen die segmenten of berekende metriek in [!DNL Analytics] hebben gebouwd:
+De interface van de Bouwer van de Alarm is vertrouwd aan degenen die ingebouwde segmenten of berekende metriek in hebben [!DNL Analytics]:
 
 ![](assets/alert_builder.png)
 
@@ -44,11 +43,11 @@ Geef op wanneer u de metrische waarde wilt controleren: Uur, Dagelijks, Wekelijk
 
 **Ontvangers**
 
-Geef op waar de waarschuwing kan worden verzonden. Er kan een waarschuwing worden verzonden naar een [!DNL Analytics]-gebruiker, een [!DNL Analytics]-groep, een onbewerkt e-mailadres of een telefoonnummer.
+Geef op waar de waarschuwing kan worden verzonden. Een waarschuwing kan naar een [!DNL Analytics] gebruiker, en [!DNL Analytics] groep, een onbewerkt e-mailadres of een telefoonnummer.
 
 >[!IMPORTANT]
 >
->Het telefoonnummer moet worden voorafgegaan door een &quot;+&quot; en een [landcode](https://countrycode.org/).
+>Het telefoonnummer moet worden voorafgegaan door een plusteken (+) en een [landcode](https://countrycode.org/).
 
 **Vervaldatum**
 
@@ -60,7 +59,7 @@ Stel de vervaldatum van de waarschuwing in.
 
 * Sleep metriek naar het canvas waar triggers worden toegevoegd.
 
-   Merk op dat een **&quot;incompatibele componenten&quot;** bericht zal verschijnen als niet alle componenten (metriek/afmetingen/segmenten) in het alarm compatibel met de momenteel geselecteerde rapportreeks zijn.
+   Let erop dat een **&quot;incompatibele componenten&quot;** Het bericht verschijnt als niet alle componenten (metriek/afmetingen/segmenten) in het alarm compatibel zijn met de momenteel geselecteerde rapportreeks.
 
 * Bepaal de drempel die metrisch moet overschrijden alvorens een alarm wordt geplaatst. U kunt deze waarde instellen op een drempel en vervolgens op een van de volgende voorwaarden:
 
@@ -86,12 +85,12 @@ Aanvullende filters worden toegevoegd met behulp van de instructie AND.
 
 U kunt EN of OF regels toevoegen door het tandwielpictogram te klikken.
 
-## Voorvertoning waarschuwing {#section_10D75BA7B77E4C5FAF58A719C082E070}
+## Waarschuwingsvoorvertoning {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
 De interactieve waarschuwingsvoorvertoning laat zien hoe vaak, ongeveer, een waarschuwing wordt geactiveerd op basis van eerdere ervaringen.
 
 Als u bijvoorbeeld de tijdsgranulariteit instelt op dagelijks, kan de voorvertoning u vertellen dat de waarschuwing gedurende een bepaalde metrische x-maal in de afgelopen 30 of 31 dagen zou zijn geactiveerd.
 
-Als u vindt dat teveel alarm zou teweeggebracht zijn, kunt u de drempel in [Alert Manager](/help/components/c-alerts/alert-manager.md) aanpassen.
+Als u vindt dat te veel waarschuwingen zijn geactiveerd, kunt u de drempel in het dialoogvenster [Waarschuwingsbeheer](/help/components/c-alerts/alert-manager.md).
 
 ![](assets/alert_preview.png)

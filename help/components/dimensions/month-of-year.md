@@ -1,14 +1,14 @@
 ---
 title: Maand van jaar
 description: De numerieke maand van het jaar, ongeacht welk jaar.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: ed2887f2-46e7-48a4-b337-f59177c7558c
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
 
 ---
-
 
 # Maand van jaar
 
@@ -18,6 +18,6 @@ De dimensie &#39;Maand van jaar&#39; rapporteert de maand van een bepaald jaar a
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items omvatten maanden van het jaar (`January` tot en met `December`) die de maand van het jaar vertegenwoordigen waarop de treffer heeft plaatsgevonden.
+Dimension-items omvatten maanden van het jaar (`January` tot `December`), die de maand van het jaar vertegenwoordigt waarop de treffer heeft plaatsgevonden.

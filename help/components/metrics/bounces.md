@@ -1,14 +1,14 @@
 ---
 title: Bounces
 description: Het aantal bezoeken met precies één treffer.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+feature: Metrics
+exl-id: fb83957c-9955-4b32-bc0f-53de92e2ba2c
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
 
 ---
-
 
 # Bounces
 
@@ -20,4 +20,4 @@ Als een bezoek uit exact één hit bestaat, wordt de hit beschouwd als een stuit
 
 >[!NOTE]
 >
->Als een bezoeker zowel een paginaweergave als een vraag voor het bijhouden van koppelingen activeert, wordt het bezoek niet beschouwd als een stuit. U kunt ook [Bezoeken](single-page-visits.md) naar één pagina gebruiken.
+>Als een bezoeker zowel een paginaweergave als een vraag voor het bijhouden van koppelingen activeert, wordt het bezoek niet beschouwd als een stuit. Gebruik [Eén pagina bezoeken](single-page-visits.md) in plaats daarvan.

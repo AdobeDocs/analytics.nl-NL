@@ -1,14 +1,14 @@
 ---
 title: Kwart
 description: Het kwart waarop metrisch voorkwam.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: e7c837d2-f891-4029-b520-4bc6c4387622
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
 
 ---
-
 
 # Kwart
 
@@ -18,6 +18,6 @@ De dimensie &#39;Kwart&#39; rapporteert het kwartaal dat een bepaalde metrische 
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items omvatten het kwartaal en het jaar van een bepaalde datum.
+Dimension-posten omvatten het kwartaal en het jaar van drie maanden van een bepaalde datum.

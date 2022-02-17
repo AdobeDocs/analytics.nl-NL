@@ -2,12 +2,10 @@
 description: Niet zijn alle segmenten die in de Bouwer van het Segment worden gecreeerd compatibel met Data Warehouse. In deze tabel worden de ondersteunde functies weergegeven.
 title: Compatibiliteit van Data Warehouse-segmenten
 feature: Segmentation
-uuid: 370258c5-8614-4434-871c-41753ed77f5c
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '342'
 ht-degree: 6%
 
 ---
@@ -47,20 +45,20 @@ Niet alle segmenten die in de Segment Builder zijn gemaakt, zijn compatibel met 
   </tr> 
   <tr> 
    <td> <b>Dimensies</b> </td> 
-   <td>Sleep en laat vallen een afmeting in <span class="uicontrol"> Definities </span> gebied van de Bouwer van het Segment om over zijn productverenigbaarheid te weten te komen. Deze afmetingen worden bijvoorbeeld alleen ondersteund in Analysis Workspace, Reports &amp; Analytics: 
+   <td>Sleep een dimensie naar de Segment Builder <span class="uicontrol"> Definities</span> voor meer informatie over de compatibiliteit van producten. Deze afmetingen worden bijvoorbeeld alleen ondersteund in Analysis Workspace, Reports &amp; Analytics: 
     <ul> 
      <li>Entry-server </li> 
      <li>Invoercategorie </li> 
      <li>Invoerdatum </li> 
      <li>Alle zoekpaginanummers </li> 
     </ul> </td> 
-   <td> Sleep en laat vallen een afmeting in <span class="uicontrol"> Definities </span> gebied van de Bouwer van het Segment om over zijn productverenigbaarheid te weten te komen. Deze afmetingen worden bijvoorbeeld alleen ondersteund in Data Warehouse: 
+   <td> Sleep een dimensie naar de Segment Builder <span class="uicontrol"> Definities</span> voor meer informatie over de compatibiliteit van producten. Deze afmetingen worden bijvoorbeeld alleen ondersteund in Data Warehouse: 
     <ul> 
      <li>IP-adres </li> 
      <li>Pagina-URL </li> 
      <li>Bezoekers-id </li> 
      <li>Experience Cloud-bezoeker-id </li> 
-    </ul> <p>De volgende afmetingen <b>kunnen niet </b>worden gebruikt in Data Warehouse segmenten: </p> 
+    </ul> <p>De volgende afmetingen <b>kan </b>worden gebruikt in Data Warehouse-segmenten: </p> 
     <ul> 
      <li>Alle zoekpaginanummers </li> 
      <li>AM/PM </li> 
@@ -68,7 +66,7 @@ Niet alle segmenten die in de Segment Builder zijn gemaakt, zijn compatibel met 
      <li>Weekdag </li> 
      <li>Dag van het Jaar </li> 
      <li>Zakelijke eenheid voor toegang </li> 
-     <li>Item (alle Dimension die beginnen met Invoer, behalve Itempagina) </li> 
+     <li>Item (alle Dimension die beginnen met Invoer, behalve Invoerpagina) </li> 
      <li>Afsluiten (alle Dimension die beginnen met Afsluiten, behalve Koppeling afsluiten en Pagina afsluiten) </li> 
      <li>Hiërarchie (alle Dimension beginnen met hiërarchie) </li> 
      <li>Hit Depth </li> 
@@ -101,4 +99,4 @@ Niet alle segmenten die in de Segment Builder zijn gemaakt, zijn compatibel met 
  </tbody> 
 </table>
 
-*Opmerking: Data Warehouse biedt geen ondersteuning voor alle gevallen waarin een  `exclusion` of een  `without` container wordt gebruikt  `AND/OR`. Wanneer u een dergelijke combinatie gebruikt, worden alleen de segmenten die opnieuw kunnen worden geschreven als `A AND NOT B` (of **deze eigenschap opnemen**en **dit kenmerk uitsluiten**) ondersteund in de Data Warehouse.*
+*Opmerking: Data Warehouse ondersteunt niet alle gevallen van het gebruik van een `exclusion` of `without` container gebruiken `AND/OR`. Wanneer het gebruiken van zulk een combinatie, slechts die segmenten die kunnen worden herschreven zoals `A AND NOT B`, (of **dit kenmerk**en **deze eigenschap uitsluiten**) worden ondersteund in Data Warehouse.*

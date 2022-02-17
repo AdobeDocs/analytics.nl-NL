@@ -1,13 +1,14 @@
 ---
 title: Veelgestelde vragen over marketingkanalen
 description: Veelgestelde vragen over marketingkanalen.
-source-git-commit: 9d4470dd297227333c6043572820053d7eb5e899
+feature: Marketing Channels
+exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 0%
 
 ---
-
 
 # Veelgestelde vragen over marketingkanalen
 
@@ -74,7 +75,7 @@ Dit soort regel dient als catch-all om ervoor te zorgen dat het kanaalverkeer al
 
 >[!NOTE]
 >
->Er zou nog wat kanaalverkeer kunnen zijn dat in de Geen Geïdentificeerde categorie van het Kanaal kan vallen. Bijvoorbeeld: Een bezoeker komt naar de site en bladwijzers op een pagina en tijdens hetzelfde bezoek komt de pagina via de bladwijzer terug. Aangezien dit niet de eerste pagina van het bezoek is, zal het noch in het directe kanaal noch in het andere kanaal gaan omdat er geen verwijzend domein is.
+>Er zou nog één of ander kanaalverkeer kunnen zijn dat in de Geen Geïdentificeerde categorie van het Kanaal kan vallen. Bijvoorbeeld: Een bezoeker komt naar de site en bladwijzers op een pagina en tijdens hetzelfde bezoek komt de pagina via de bladwijzer terug. Aangezien dit niet de eerste pagina van het bezoek is, zal het noch in het directe kanaal noch in het andere kanaal gaan omdat er geen verwijzend domein is.
 
 ## Redenen voor intern (Sessie vernieuwen) {#internal}
 

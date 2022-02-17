@@ -1,7 +1,9 @@
 ---
 title: Geïdentificeerde personen
 description: Het aantal personen dat door Apparaatanalyse wordt geïdentificeerd.
-source-git-commit: c6faacbc4b5365c500237682c3ec2ef71448be80
+feature: Metrics
+exl-id: eb98aa7f-d5e7-403f-b3b7-a9b0f7ccd502
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Geïdentificeerde personen
 
-De metrische waarde &#39;Identified People&#39; is een [Cross-Device Analytics](../cda/overview.md)-meting die het aantal bezoekers telt dat door CDA wordt geïdentificeerd.
+De metrische waarde &#39;Identified People&#39; is een [Apparaatanalyse](../cda/overview.md) Metrisch die het aantal bezoekers telt die door CDA worden geïdentificeerd.
 
 ## Hoe deze metrische waarde wordt berekend
 

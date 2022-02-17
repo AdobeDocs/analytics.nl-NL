@@ -1,9 +1,9 @@
 ---
 description: Het systeem van de Intelligente Alarm staat voor meer korrelige controle over alarm toe en integreert anomalieopsporing met het waakzame systeem.
 title: Intelligente waarschuwingen
-uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
+feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 6%
@@ -71,7 +71,7 @@ De procentuele drempels zijn standaardafwijkingen. 95% = 2 standaardafwijkingen 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Als ik alleen op een dip in gedrag of slechts een piek in gedrag wil worden geattendeerd, kan ik de anomalie gebruiken of moet ik absolute waarde gebruiken?</b> </p> </td> 
-   <td colname="col2"> <p>Het gebruiken van absolute waarde zou alarm op dips evenals pieken nog teweegbrengen. U kunt waarschuwingen niet isoleren voor alleen dips of alleen pieken. </p> </td> 
+   <td colname="col2"> <p>Het gebruiken van absolute waarde zou alarm op dips evenals pieken nog teweegbrengen. U kunt waarschuwingen niet isoleren voor alleen dips of pieken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Kan ik alarm vormen om slechts tijdens bepaalde uren van de dag (zoals kantooruren vs. niet-bedrijfsuren) teweeg te brengen? </b> </p> </td> 

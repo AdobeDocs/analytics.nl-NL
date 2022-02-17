@@ -1,9 +1,9 @@
 ---
 description: 'Meer informatie over '
 title: Type cijfers en attributie
-uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 4%
@@ -20,18 +20,18 @@ Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het me
 
 | Metrisch type | Definitie |
 |---|---|
-| Standaard | Deze metriek zijn de zelfde metriek die in standaard [!DNL Analytics] rapportering wordt gebruikt. Als een formule uit één enkele norm bestond, toont het identieke gegevens aan zijn niet-berekende-metrische tegenhanger. Standaardmetriek zijn handig voor het maken van berekende metriek die specifiek is voor elk afzonderlijk regelitem. Bijvoorbeeld, [Orders] / [Visits] neemt orden voor dat specifieke lijnpunt en verdeelt het door het aantal bezoeken voor dat specifieke lijnpunt. |
-| Totaal | Gebruik het totaal voor de rapportageperiode in elke post. Als een formule uit één enkel totaal metrisch bestond, toont het het zelfde totale aantal op elk lijnpunt. De totale metriek zijn nuttig om berekende metriek tot stand te brengen die met plaats totale gegevens vergelijkt. Bijvoorbeeld [Bestellingen] / [Totaal aantal bezoeken] toont het aandeel van bestellingen tegen ALLE bezoeken aan uw plaats, niet alleen de bezoeken aan het specifieke lijnpunt. |
+| Standaard | Deze cijfers zijn dezelfde maatstaven die standaard worden gebruikt [!DNL Analytics] rapportage. Als een formule uit één enkele norm bestond, toont het identieke gegevens aan zijn niet-berekende-metrische tegenhanger. Standaardmetriek zijn handig voor het maken van berekende metriek die specifiek is voor elk afzonderlijk regelitem. Bijvoorbeeld: [Orders] / [Bezoeken] neemt orders voor dat specifieke lijnpunt en verdeelt het door het aantal bezoeken voor dat specifieke lijnpunt. |
+| Totaal | Gebruik het totaal voor de rapportageperiode in elke post. Als een formule uit één enkel totaal metrisch bestond, toont het het zelfde totale aantal op elk lijnpunt. De totale metriek zijn nuttig om berekende metriek tot stand te brengen die met plaats totale gegevens vergelijkt. Bijvoorbeeld: [Orders] / [Totaal aantal bezoeken] geeft het aantal bestellingen tegen ALLE bezoeken aan uw site weer, niet alleen de bezoeken aan het specifieke onderdeel. |
 
 ## Model kolomkenmerk
 
 >[!IMPORTANT]
 >
->[Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) IQ heeft de manier herzien waarop toewijzingsmodellen in berekende metriek worden geëvalueerd. In het kader van deze wijziging zijn berekende maatstaven die een niet-standaard toewijzingsmodel gebruiken, gemigreerd naar nieuwe, verbeterde toewijzingsmodellen:
+>[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) herzien de manier waarop toewijzingsmodellen in berekende meetwaarden worden geëvalueerd. In het kader van deze wijziging zijn berekende maatstaven die een niet-standaard toewijzingsmodel gebruiken, gemigreerd naar nieuwe verbeterde toewijzingsmodellen:
 >
->* Zie [Attributiemodellen en lookback windows](/help/analyze/analysis-workspace/attribution/models.md) voor een volledige lijst met ondersteunde niet-standaard attributiemodellen en terugzoekvensters.
+>* Voor een volledige lijst met ondersteunde niet-standaard toewijzingsmodellen en terugzoekvensters raadpleegt u [Attributiemodellen en terugzoekvensters](/help/analyze/analysis-workspace/attribution/models.md).
 >* De toewijzingsmodellen &quot;Marketing Channel Last Touch&quot; en &quot;Marketing Channel First Touch&quot; worden gemigreerd naar nieuwe toewijzingsmodellen &quot;Last Touch&quot; en &quot;First Touch&quot; (Opmerking: De &quot;Kanalen van de marketing&quot;zullen niet worden afgekeurd - slechts zullen de twee toewijzingsmodellen die in berekende metriek verschijnen).
->* Bovendien zullen we de manier corrigeren waarop de lineaire toewijzing wordt berekend. Voor klanten die berekende metriek met &quot;Lineaire&quot;toewijzingsmodellen gebruiken, kunnen de rapporten lichtjes veranderen om het nieuwe, gecorrigeerde attributiemodel te weerspiegelen. Deze wijziging in berekende metriek wordt weerspiegeld in Analysis Workspace, Reports &amp; Analytics, de Reporting API, en Report Builder. Zie **Hoe Lineaire toewijzing werkt (vanaf 19 juli 2018**, hieronder voor meer informatie.
+>* Bovendien zullen we de manier corrigeren waarop de lineaire toewijzing wordt berekend. Voor klanten die berekende metriek met &quot;Lineaire&quot;toewijzingsmodellen gebruiken, kunnen de rapporten lichtjes veranderen om het nieuwe, gecorrigeerde attributiemodel te weerspiegelen. Deze verandering in berekende metriek zal in Analysis Workspace, Rapporten &amp; Analytics, de Rapporterende API, en Report Builder worden weerspiegeld. Zie voor meer informatie **Hoe Lineaire toewijzing werkt (vanaf 19 juli 2018)**, hieronder.
 
 
 ## Hoe de lineaire toewijzing werkt (vanaf 19 juli 2018)
@@ -71,7 +71,7 @@ Voor de eerste aanraking hierboven, alle $10 zou aan A worden gegeven. Voor de e
 
 **Overzicht van hoe lineaire toewijzing nu werkt**
 
-In plaats van de blijvend waarden te gebruiken op basis van laatste aanraking of eerste aanraking, gebruikt [!DNL Analytics] nu alleen de waarden die zijn doorgegeven (de eerste rij van de bovenste tabel). Als zodanig hebben de instellingen voor dimensietoewijzing geen invloed meer op de manier waarop lineaire toewijzing wordt berekend (d.w.z. dat props en eVars op dezelfde manier worden behandeld), en de resultaten weerspiegelen wat oorspronkelijk is doorgegeven in plaats van de eerste of laatste aanraakwaarden die mogelijk hebben geduurd. In alle drie gevallen is A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50, en C = 10 * (1/4) = $2,50.
+In plaats van de blijvende waarden te gebruiken op basis van de laatste aanraking of de eerste aanraking, [!DNL Analytics] gebruikt nu alleen de waarden die zijn doorgegeven (de eerste rij van de bovenste tabel). Als zodanig hebben de instellingen voor dimensietoewijzing geen invloed meer op de manier waarop lineaire toewijzing wordt berekend (d.w.z. dat props en eVars op dezelfde manier worden behandeld), en de resultaten weerspiegelen wat oorspronkelijk is doorgegeven in plaats van de eerste of laatste aanraakwaarden die mogelijk hebben geduurd. In alle drie gevallen is A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50, en C = 10 * (1/4) = $2,50.
 
 | Waarden | Nieuwe eVar met laatste aanraking | Nieuwe eVar eerste aanraking | Nieuwe eigenschap |
 |---|---|---|---|

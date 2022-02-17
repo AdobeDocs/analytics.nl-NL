@@ -1,41 +1,41 @@
 ---
 title: Type referentie
 description: Het type referentie, afhankelijk van waar de bezoeker vandaan komt.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
-
 # Type referentie
 
-De dimensie &#39;Type referentie&#39; rapporteert welke generieke kanalen bezoekers hebben aangeklikt om op uw site te komen. Adobe hanteert de regels voor elk dimensie-item, in tegenstelling tot [marketingkanalen](marketing-channel.md), waar uw organisatie regels voor elk kanaal bijhoudt.
+De dimensie &#39;Type referentie&#39; rapporteert welke generieke kanalen bezoekers hebben aangeklikt om op uw site te komen. Adobe handhaaft de regels voor elk afmetingspunt, in tegenstelling tot [Marketingkanalen](marketing-channel.md), waar uw organisatie regels voor elk kanaal handhaaft.
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar meerdere interne opzoektabellen van Adobe. Elke waarde is gebaseerd op de [referentie](referrer.md) van de hit, die afhankelijk is van [interne URL-filters](/help/admin/admin/internal-url-filter-admin.md). Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
+Deze dimensie verwijst naar veelvoudige raadplegingslijsten intern aan Adobe. Elke waarde is gebaseerd op de [referentie](referrer.md) van de hit, die afhankelijk is van [Interne URL-filters](/help/admin/admin/internal-url-filter-admin.md). Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items bevatten het type referentie van de hit. Specifieke waarden zijn onder meer:
+Dimension-items bevatten het type referentie van de hit. Specifieke waarden zijn onder meer:
 
 * **Getypte/bladwijzer**: Er bestaan geen verwijzingsgegevens voor de hit.
-* **Zoekprogramma**&#39;s: De referentie is afkomstig van een herkend zoekprogramma dat een trefwoordqueryreeks bevat.
+* **Zoekprogramma&#39;s**: De referentie is afkomstig van een herkend zoekprogramma dat een trefwoordqueryreeks bevat.
 * **Sociale netwerken:**: Referergegevens behoorden tot een door Adobe erkend sociaal netwerk.
-* **Andere websites**: Referergegevens behoorden niet tot een zoekprogramma of sociaal netwerk dat door Adobe wordt herkend.
-* **Harde schijf**: Referrer is afkomstig van een lokale kopie van een webpagina op de vaste schijf van de bezoeker.
-* **E-mail**: Referrer is afkomstig van een URL met een protocol van `imap://` of `mail://`. Omvat de online e-maildiensten niet, aangezien deze typisch `https://` protocol gebruiken.
+* **Andere websites**: Referergegevens behoorden niet tot een zoekmachine of sociaal netwerk dat door Adobe wordt herkend.
+* **Vaste schijf**: Referrer is afkomstig van een lokale kopie van een webpagina op de vaste schijf van de bezoeker.
+* **E-mail**: Referrer is afkomstig van een URL met een protocol van `imap://` of `mail://`. Omvat geen online e-maildiensten, aangezien deze typisch gebruiken `https://` protocol.
 
 ### Sociale netwerken
 
-De volgende lijst verwijst naar de opzoektabel voor sociale netwerken die Adobe gebruikt. Adobe biedt deze lijst als een belediging aan Adobe Analytics-klanten. Als u wilt adviseren dat Adobe een domein aan deze lijst toevoegt, een steunafgevaardigde in uw organisatie hebben contact met de Klantenservice.
+De volgende lijst verwijst naar de &quot;Sociale netwerken&quot;raadplegingslijst die Adobe gebruikt. Adobe geeft deze lijst als een belediging aan klanten van Adobe Analytics. Als u zou willen adviseren dat Adobe een domein aan deze lijst toevoegt, een steunafgevaardigde in uw organisatie hebben contacteer de Zorg van de Klant.
 
 >[!NOTE]
 >
->Deze lijst is verschillend dan de standaardlijst van sociale netwerken in de verwerkingsregels [van het Kanaal van de](../c-marketing-channels/c-rules.md)Marketing.
+>Deze lijst is anders dan de standaardlijst met sociale netwerken in [Verwerkingsregels voor distributiekanalen](../c-marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `t.163.com`
@@ -197,7 +197,7 @@ De volgende lijst verwijst naar de opzoektabel voor sociale netwerken die Adobe 
 
 ### Zoekprogramma&#39;s in het item Andere websites
 
-Wanneer u specifieke domeinen in de dimensie van het type van &quot;Referrer&quot;bekijkt, kunnen er domeinen zijn die u onder &quot;de motoren van het Onderzoek&quot;zou verwachten die in plaats daarvan onder &quot;Andere websites&quot;worden vermeld. U ziet bijvoorbeeld `'google.com'` onder &#39;Andere websites&#39;.
+Wanneer u specifieke domeinen in de dimensie van het type van &quot;Referrer&quot;bekijkt, kunnen er domeinen zijn die u onder &quot;de motoren van het Onderzoek&quot;zou verwachten die in plaats daarvan onder &quot;Andere websites&quot;worden vermeld. U ziet bijvoorbeeld `'google.com'` onder &quot;Andere websites&quot;.
 
-* **Zoekmachinedomeinen in het dimensiepunt**&#39;Zoekprogramma&#39;s&#39;: De referentie voldoet aan alle criteria om door Adobe als zoekprogramma te worden geclassificeerd. Het verwijzende domein is een geldige onderzoeksmotor, ** en verwijzende URL bevat een parameter van het sleutelwoordvraagkoord.
-* **Zoekprogrammadomeinen in het dimensiemenu** Andere websites: De verwijzende URL voldeed niet aan alle criteria om te classificeren als zoekmachine. Algemene voorbeelden zijn subdomeinen die zijn toegewezen aan andere functies dan zoekopdrachten. Bijvoorbeeld, `mail.google.com` `autos.yahoo.com` of zijn geen onderzoeksmotoren, maar verblijven op een top-level domein algemeen verbonden aan onderzoek. Deze subdomeinen bevatten geen queryreeks voor trefwoorden, daarom worden deze opgenomen onder &#39;Andere websites&#39; in plaats van &#39;Zoekprogramma&#39;s&#39;.
+* **Zoekmachinedomeinen in het dimensiemenu &#39;Zoekprogramma&#39;s&#39;**: De referentie voldoet aan alle criteria om te classificeren als een zoekmachine op Adobe. Het verwijzende domein is een geldige onderzoeksmotor, *en* De verwijzende URL bevat een parameter van het sleutelwoordvraagkoord.
+* **Zoekmachinedomeinen in het item Andere websites**: De verwijzende URL voldeed niet aan alle criteria om te classificeren als zoekmachine. Algemene voorbeelden zijn subdomeinen die zijn toegewezen aan andere functies dan zoekopdrachten. Bijvoorbeeld: `mail.google.com` of `autos.yahoo.com` zijn geen zoekmachines, maar bevinden zich op een topdomein dat vaak aan zoekopdrachten is gekoppeld. Deze subdomeinen bevatten geen queryreeks voor trefwoorden, daarom worden deze opgenomen onder &#39;Andere websites&#39; in plaats van &#39;Zoekprogramma&#39;s&#39;.

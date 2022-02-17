@@ -1,30 +1,30 @@
 ---
 title: Hoogte
 description: Het aantal hits in het bezoek.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 7%
 
 ---
 
-
 # Hoogte
 
-De dimensie &#39;De diepte van de Kit&#39; meldt hoe ver een bezoek aan een bepaalde hit is. Deze dimensie is handig als u wilt weten tot in welke mate bezoekers acties op uw site uitvoeren. Bij de bitdiepte worden alle typen resultaten geteld, inclusief paginaweergaven ([`t()`](/help/implement/vars/functions/t-method.md))en treffers voor het bijhouden van koppelingen ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+De dimensie &#39;De diepte van de Kit&#39; meldt hoe ver een bezoek aan een bepaalde hit is. Deze dimensie is handig als u wilt weten tot in welke mate bezoekers acties op uw site uitvoeren. Met de optie Pit-diepte worden alle typen resultaten geteld, inclusief paginaweergaven ([`t()`](/help/implement/vars/functions/t-method.md)) en links bijhouden ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Deze dimensie vullen met gegevens
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensie-items
+## Dimension-items
 
-Items voor de dimensie bevatten de tekenreeks `"Hit Depth"` gevolgd door een getal dat het aantal hits in het bezoek vertegenwoordigt. Het item Dimensie van `"Hit Depth 1"` staat voor de eerste hit van het bezoek, terwijl het item Dimensie de achtste hit van het bezoek `"Hit Depth 8"` vertegenwoordigt.
+Dimension-items bevatten de tekenreeks `"Hit Depth"` gevolgd door een nummer dat het aantal bezoekers in het bezoek aangeeft. Het item Dimensie van `"Hit Depth 1"` staat voor de eerste hit van het bezoek, terwijl het item Dimensie `"Hit Depth 8"` staat voor de achtste hit van het bezoek .
 
 ## Vergelijking met diepte bezoek
 
-Bij een stippeldiepte worden alle typen treffers geteld, zoals de paginaweergave en de resultaten van het bijhouden van koppelingen. Alleen diepte zoeken in stappen voor treffers in de paginaweergave _en het_ item voor de [pagina](page.md) -dimensie is niet hetzelfde als de waarde op de vorige pagina. De diepte van het bezoek is ook een op bezoek-gebaseerde dimensie, die het betekent is de zelfde waarde voor alle treffers in het bezoek. In de volgende tabel wordt een voorbeeldoverzicht beschreven en wordt uitgelegd hoe u de diepte van een hit en een bezoek bekijkt:
+Bij een stippeldiepte worden alle typen treffers geteld, zoals de paginaweergave en de resultaten van het bijhouden van koppelingen. Alleen dieptealleen stappen voor treffers in de paginaweergave bezoeken _en_ de [Pagina](page.md) Dimensie-item is niet hetzelfde als de waarde op de vorige pagina. De diepte van het bezoek is ook een op bezoek-gebaseerde dimensie, die het betekent is de zelfde waarde voor alle treffers in het bezoek. In de volgende tabel wordt een voorbeeldoverzicht beschreven en wordt uitgelegd hoe u de diepte van een hit en een bezoek bekijkt:
 
 | Paginareeks | Hoogte | Voegt u af naar de diepte van het bezoek? | Diepte bezoeken |
 | --- | --- | --- | --- |

@@ -1,8 +1,9 @@
 ---
 title: Kleurdiepte
 description: De kleurdiepte van het apparaat.
+feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -15,11 +16,11 @@ De dimensie &#39;Kleurdiepte&#39; rapporteert hoeveel kleuren het apparaat onder
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar een opzoektabel en zet de bitwaarde om in een beter leesbare indeling. Het verzamelt gegevens van [`c` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken. AppMeturement gebruikt `screen.colorDepth` variabele om het koord van de de vraagvraag van het beeldverzoek te bevolken. Als u AppMeasurement gebruikt (zoals door markeringen in Adobe Experience Platform), werkt deze afmeting uit de doos. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u `c` de parameter van het vraagkoord op elke slag met een geldige beetjewaarde omvat.
+Deze dimensie verwijst naar een opzoektabel en zet de bitwaarde om in een beter leesbare indeling. Het verzamelt gegevens van [`c` querytekenreeks](/help/implement/validate/query-parameters.md) in afbeeldingsaanvragen. AppMeasurement gebruikt de `screen.colorDepth` variabele om de queryreeks voor de afbeeldingsaanvraag te vullen. Als u AppMeasurement gebruikt (zoals door markeringen in Adobe Experience Platform), werkt deze afmeting uit de doos. Als u een methode voor gegevensverzameling buiten AppMeasurement gebruikt (bijvoorbeeld via de API), moet u de methode `c` de parameter van het vraagkoord op elke slag met een geldige beetjewaarde.
 
 ## Dimension-items
 
-Dimension-items bevatten het aantal kleuren dat door het apparaat wordt ondersteund. Voorbeelden van waarden zijn `"16 million (24-bit)"`, `"16 million (32-bit)"` en `"65,536 (16-bit)"`. Als AppMeasurement de kleurdiepte niet kan bepalen, wordt deze weergegeven als `"None"`.
+Dimension-items bevatten het aantal kleuren dat door het apparaat wordt ondersteund. Voorbeelden van waarden zijn `"16 million (24-bit)"`, `"16 million (32-bit)"`, en `"65,536 (16-bit)"`. Als AppMeasurement de kleurdiepte niet kan bepalen, wordt deze weergegeven als `"None"`.
 
 >[!TIP]
 >

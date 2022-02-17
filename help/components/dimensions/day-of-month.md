@@ -1,14 +1,14 @@
 ---
 title: Dag van de maand
 description: De numerieke dag van de maand, ongeacht welke maand.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: 6d27aa9f-ce75-4a27-bb92-3acabe3975a1
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
 
 ---
-
 
 # Dag van de maand
 
@@ -18,6 +18,6 @@ De dimensie &#39;Dag van de maand&#39; rapporteert de numerieke dag van een bepa
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items bevatten de getallen `1` - `31`die de dag van de maand aangeven waarop de treffer heeft plaatsgevonden.
+Dimension-items bevatten de getallen `1` - `31`, die de dag van de maand vertegenwoordigt waarop de treffer heeft plaatsgevonden.

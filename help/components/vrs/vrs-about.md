@@ -1,9 +1,9 @@
 ---
 description: De virtuele rapportreeksen segmenteren uw gegevens van Adobe Analytics zodat kunt u toegang tot elk segment controleren.
 title: Overzicht van virtuele rapportsuites
-uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
+feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 2%
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 De virtuele rapportreeksen segmenteren uw gegevens van Adobe Analytics zodat kunt u toegang tot elk segment controleren.
 
-Vele klanten hebben gegevens die in een globaal rapportpakket stromen, maar ook gegevens die in kleinere rapportseries stromen. Zij plaatsen een variabele aan veelvoudige rapportreeksen, en verzenden hun gegevens naar meer dan één rapportreeks. Dit wordt bedoeld als *multi-suite het etiketteren*, of *basis/ouderrapportsuites*.
+Vele klanten hebben gegevens die in een globaal rapportpakket stromen, maar ook gegevens die in kleinere rapportseries stromen. Zij plaatsen een variabele aan veelvoudige rapportreeksen, en verzenden hun gegevens naar meer dan één rapportreeks. Dit wordt *taggen met meerdere suite*, of *basis-/hoofdrapportsuites*.
 
 Bijvoorbeeld, zouden alle gegevens in één rapportreeks kunnen worden verzameld, maar dan kunt u de secundaire rapportreeksen opzetten zodat andere mensen in uw bedrijf toegang tot een deel van de gegevens hebben, maar niet allen. De gegevens kunnen per gebied worden verdeeld. U hebt mogelijk verschillende websites voor verschillende landen. Andere voorbeelden kunnen specifieke merken zijn die tot een groter bedrijf behoren, maar die elk hun eigen marketing teams hebben.
 
-Met een *virtuele rapportsuite* (VRS) kunt u dit vertakkende concept reproduceren door segmenten te gebruiken in plaats van meerdere rapportsuites. De gegevens worden verzonden naar één rapportreeks, dan wordt verdeeld volgens segmenten. Gebruikend het veelvoudige merkvoorbeeld, zou u prop voor het merk kunnen plaatsen dat een punt tot behoort. Gebruikend segmenten, kunt u over de punten rapporteren die aan elke eigenschap worden toegewezen. Elk van deze segmenten wordt zijn eigen mening, effectief creërend een nieuwe rapportreeks. U verzendt geen gegevens specifiek naar dat segment, slechts naar de globale rapportreeks, maar het functioneert in uw rapporten alsof het een verschillende rapportreeks was.
+A *virtuele rapportsuite* (VRS) staat u toe om dit vertakkende concept te reproduceren, gebruikend segmenten in plaats van veelvoudige rapportsuites. De gegevens worden verzonden naar één rapportreeks, dan wordt verdeeld volgens segmenten. Gebruikend het veelvoudige merkvoorbeeld, zou u prop voor het merk kunnen plaatsen dat een punt tot behoort. Gebruikend segmenten, kunt u over de punten rapporteren die aan elke eigenschap worden toegewezen. Elk van deze segmenten wordt zijn eigen mening, effectief creërend een nieuwe rapportreeks. U verzendt geen gegevens specifiek naar dat segment, slechts naar de globale rapportreeks, maar het functioneert in uw rapporten alsof het een verschillende rapportreeks was.
 
 Een virtuele rapportreeks erft de meeste de dienstniveaus van de reeks van het basisrapport, zoals eVar montages, de Regels van de Verwerking, Classificaties, enz. De volgende instellingen worden NIET overgeërfd:
 
@@ -55,7 +55,7 @@ Virtuele rapportsuites hebben de volgende beperkingen:
 | Capaciteit | Virtuele rapportsuite | Tags voor meerdere suite |
 |--- |--- |--- |
 | Biedt real-time of &quot;Current Data&quot;-rapportage | Nee | Ja |
-| Werkt in alle analysegereedschappen (Analysis Workspace, Report Builder, enz.) | Ja. **Opmerking:** u kunt deze alleen in Rapporten en Analyse bewerken en identificeren als virtuele rapportsuite. Nochtans, kunt u hen in de drop-down van de rapportreeks in de andere hulpmiddelen selecteren. | Ja |
+| Werkt in alle analysegereedschappen (Analysis Workspace, Report Builder, enz.) | Ja. **Opmerking:** U kunt deze alleen in Rapporten en Analyse bewerken en identificeren als virtuele-rapportsuite. Nochtans, kunt u hen in de drop-down van de rapportreeks in de andere hulpmiddelen selecteren. | Ja |
 | Kan gegevens uploaden (via classificaties, gegevensfeeds, enz.) | Nee | Ja |
 | Ondersteunt het maken van DL-rapporten, bladwijzers, dashboards, doelen, waarschuwingen, segmenten, berekende metriek... | Ja | Ja |
 | Kan afzonderlijk worden toegevoegd aan machtigingengroepen | Ja | Ja |

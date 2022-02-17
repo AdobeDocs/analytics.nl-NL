@@ -1,11 +1,12 @@
 ---
 title: Browser
 description: De naam en versie van de gebruikte browser.
+feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '178'
+ht-degree: 1%
 
 ---
 
@@ -15,10 +16,10 @@ De dimensie Browser rapporteert de naam en de versie van de browser die de hit v
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar een raadplegingstabel intern aan Adobe. De opzoekwaarde is gebaseerd op de HTTP-header `User-Agent` in afbeeldingsaanvragen. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak.
+Deze dimensie verwijst naar een raadplegingstabel intern aan Adobe. De opzoekwaarde is gebaseerd op de `User-Agent` HTTP-header in afbeeldingsaanvragen. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak.
 
 ## Dimension-items
 
 Dimension-items omvatten de gebruikte browsernamen en -versies. Verschillende versies van dezelfde browser zijn afzonderlijke dimensie-items.
 
-Sommige dimensie-items bevatten `"(unknown version)"` in plaats van hun versienummer. Dit afmetingspunt verwijst naar een recente browser versie die Adobe niet aan hun raadplegingslijsten heeft toegevoegd. Aangezien browsers vaak bijwerken, is `"(unknown version)"` voor bepaalde browser gemeenschappelijk en tijdelijk. Adobe werkt opzoektabellen doorgaans bij tijdens maandelijkse onderhoudsreleases.
+Sommige dimensie-items bevatten `"(unknown version)"` in plaats van hun versienummer. Dit afmetingspunt verwijst naar een recente browser versie die Adobe niet aan hun raadplegingslijsten heeft toegevoegd. Aangezien browsers vaak worden bijgewerkt, worden de `"(unknown version)"` voor een bepaalde browser algemeen en tijdelijk is. Adobe werkt opzoektabellen doorgaans bij tijdens maandelijkse onderhoudsreleases.

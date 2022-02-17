@@ -1,15 +1,14 @@
 ---
 description: Met de Calculated Metrics Builder kunt u statistische en wiskundige functies toepassen om geavanceerde berekende metriek te bouwen.
 title: Referentie van basisfuncties
-uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
-source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
+feature: Calculated Metrics
+exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 1%
 
 ---
-
 
 # Referentie: basisfuncties
 
@@ -19,7 +18,7 @@ Hier volgt een alfabetische lijst van de functies en hun definities.
 
 >[!NOTE]
 >
->Wanneer [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere expressies van metriek ook toegestaan. [!DNL MAXV(metrics)] staat bijvoorbeeld ook [!DNL MAXV(PageViews + Visits)] toe.
+>Wanneer [!DNL metric] wordt geïdentificeerd als een argument in een functie, worden andere expressies van metriek ook toegestaan. Bijvoorbeeld: [!DNL MAXV(metrics)] staat ook [!DNL MAXV(PageViews + Visits)].
 
 ## Tabelfuncties versus rijfuncties {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -37,9 +36,9 @@ ABS(metric)
 |---|---|
 | *metrisch* | De metrische waarde waarvoor u de absolute waarde wilt. |
 
-## Maximum aantal kolommen {#concept_B25518D717D24F82B65CDE49A153D3A3}
+## Maximum kolom {#concept_B25518D717D24F82B65CDE49A153D3A3}
 
-Retourneert de hoogste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
+Retourneert de grootste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
 
 ```
 MAXV(metric)
@@ -49,7 +48,7 @@ MAXV(metric)
 |---|---|
 | *metrisch* | Een metrisch die u zou willen geëvalueerd hebben. |
 
-## Minimum aantal kolommen {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
+## Minimaal kolom {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
 Retourneert de laagste waarde in een set dimensieelementen voor een metrische kolom. MINV evalueert verticaal binnen één enkele kolom (metrisch) over afmetingselementen.
 
@@ -61,7 +60,7 @@ MINV(metric)
 |---|---|
 | *metrisch* | Een metrisch die u zou willen geëvalueerd hebben. |
 
-## Kolomsom {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
+## Aantal kolommen {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
 Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toe.
 
@@ -87,7 +86,7 @@ COUNT(metric)
 
 ## Exponent (rij) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
-Retourneert *e* tot de macht van een bepaald getal. De constante *e* is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXP is het omgekeerde van LN, de natuurlijke logaritme van een aantal.
+Retourneert *e* verhoogd tot de macht van een bepaald getal. De constante *e* is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXP is het omgekeerde van LN, de natuurlijke logaritme van een aantal.
 
 ```
 EXP(metric)
@@ -95,9 +94,9 @@ EXP(metric)
 
 | Argument | Beschrijving |
 |---|---|
-| *metrisch* | De exponent die op de basis *e* wordt toegepast. |
+| *metrisch* | De exponent die op de basis wordt toegepast *e*. |
 
-## Uitbreiden {#concept_941578534F1E4583B1BEB067C8113A21}
+## Uitstel {#concept_941578534F1E4583B1BEB067C8113A21}
 
 Power Operator
 
@@ -166,7 +165,7 @@ PERCENTILE(metric,k)
 | *metrisch* | De metrische kolom die relatieve status definieert. |
 | *k* | De percentielwaarde in het bereik 0 tot en met 100. |
 
-## Kwart (tabel) {#concept_BFD37F0F23A24AD181407142233FA151}
+## Kwartaal (tabel) {#concept_BFD37F0F23A24AD181407142233FA151}
 
 Retourneert de kwartiel van waarden voor een metrische waarde. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven. MINV, MEDIAN en MAXV retourneren dezelfde waarde als QUARTILE wanneer quart gelijk is aan respectievelijk 0 (nul), 2 en 4.
 
@@ -179,11 +178,11 @@ QUARTILE(metric,quart)
 | *metrisch* | De metrische waarde waarvoor u de kwartielwaarde wilt. |
 | *kwart* | Geeft aan welke *value moet worden geretourneerd. |
 
-*If *quart* = 0, KWALITEIT keert de minimumwaarde terug. Als *quart* = 1, retourneert QUARTILE het eerste kwartiel (25 percentiel). Als *quart* = 2, retourneert QUARTILE het eerste kwartiel (50 percentiel). Als *quart* = 3, retourneert QUARTILE het eerste kwartiel (75 percentiel). Als *quart* = 4, KWALITEIT de maximumwaarde terugkeert.
+* Als *kwart* = 0, QUARTILE keert de minimumwaarde terug. Indien *kwart* = 1, QUARTILE retourneert het eerste kwartiel (25 percentiel). Indien *kwart* = 2, retourneert QUARTILE het eerste kwartiel (50 percentiel). Indien *kwart* = 3, QUARTILE retourneert het eerste kwartiel (75 percentiel). Indien *kwart* = 4, QUARTILE keert de maximumwaarde terug.
 
-## Afgerond {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
+## Rond {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
-Geeft als resultaat het dichtstbijzijnde gehele getal voor een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor opbrengsten en een product $569,34 heeft, gebruikt u de formule Round ( *Revenue*) om inkomsten naar de dichtstbijzijnde dollar te afronden, oftewel $569. Een product dat $569,51 rapporteert, wordt afgerond naar de dichtstbijzijnde dollar, ofwel $570.
+Geeft als resultaat het dichtstbijzijnde gehele getal voor een bepaalde waarde. Als u bijvoorbeeld wilt voorkomen dat decimalen van valuta worden gerapporteerd voor de omzet en een product $569,34 heeft, gebruikt u de formule Round( *Ontvangsten*) om de omzet naar de dichtstbijzijnde dollar te afronden, ofwel $569. Een product dat $569,51 rapporteert, wordt afgerond naar de dichtstbijzijnde dollar, ofwel $570.
 
 ```
 ROUND(metric)
@@ -218,7 +217,7 @@ Het minimum van de kolommen in elke rij.
 
 De som van de kolommen van elke rij.
 
-## Vierkantswortel (rij) {#concept_6460DFA51EC24527A2317970FB76D404}
+## Vierkante hoofdmap (rij) {#concept_6460DFA51EC24527A2317970FB76D404}
 
 Retourneert de positieve vierkantswortel van een getal. De vierkantswortel van een getal is de waarde van dat getal dat tot de macht 1/2 wordt verheven.
 
@@ -238,7 +237,7 @@ De vergelijking voor STDEV is:
 
 ![](assets/std_dev.png)
 
-waarbij *x* de waarde van elk monster (*metrisch*) is, *x̄* het populatiegemiddelde is en *n* de populatiegrootte.
+Wanneer *x* de waarde van elk monster (*metrisch*), *x̄* is de gemiddelde bevolking en *n* is de bevolkingsgrootte.
 
 ```
 STDEV(metric)
@@ -256,7 +255,7 @@ De vergelijking voor VARIANCE is:
 
 ![](assets/variance_eq.png)
 
-waarbij *x* de waarde van elk monster (*metrisch*) is, *x̄* het populatiegemiddelde is en *n* de populatiegrootte.
+Wanneer *x* de waarde van elk monster (*metrisch*), *x̄* is de gemiddelde bevolking en *n* is de bevolkingsgrootte.
 
 ```
 VARIANCE(metric)
@@ -276,7 +275,7 @@ Als u de hele kolom hebt doorlopen, hebt u één totaal. Vervolgens deelt u dat 
 
 Als voorbeeld, laten wij zeggen u een drie-puntenkolom hebt:
 
-3
+1
 
 2
 

@@ -1,28 +1,30 @@
 ---
 description: Verklaart hoe te om metrisch tot stand te brengen die toont welke Kanalen van de Marketing in rijorden bijwonen. Dit kan aan om het even welke dimensie of succesgebeurtenis van belang worden aangepast.
-title: Metrisch met instructies
-uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+title: Cijfers voor hulp bij bestellingen
+feature: Calculated Metrics
+exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 3%
 
 ---
 
-
-# Metrisch met instructies
+# Cijfers voor hulp bij bestellingen
 
 Verklaart hoe te om metrisch tot stand te brengen die toont welke Kanalen van de Marketing in rijorden bijwonen. Dit kan aan om het even welke dimensie of succesgebeurtenis van belang worden aangepast.
 
 1. In de Berekende Bouwer van Metriek, noem metrische &quot;Begeleide Orders&quot;.
-1. In het canvas van de Definitie, sleep in metrische orde. Pas vervolgens het toewijzingsmodel aan met het instellingenversnelling door het **[!UICONTROL Use non-default attribution models]** selectievakje in te schakelen.
+1. In het canvas van de Definitie, sleep in metrische orde. Pas vervolgens het toewijzingsmodel aan met het instellingenset door de **[!UICONTROL Use non-default attribution models]** selectievakje.
 
    ![](assets/attr-model.png)
 
-1. Selecteren **[!UICONTROL Custom]** als attributiemodel. Wijzig de gewichten in 0 (startpunt), 100 (speler) en 0 (dichter).
+1. Selecteren **[!UICONTROL Custom]** als het attributiemodel. Wijzig de gewichten in 0 (startpunt), 100 (speler) en 0 (dichter).
 
    ![](assets/custom-attr-model.png)
 
 1. Sla de metrische waarde op.
-1. Creeer een vrije vormlijst in de Werkruimte van de Analyse met de afmeting van het Kanaal van de Marketing, Orden en uw nieuwe Begeleidende metrische Orden.
+1. Creeer een vrije vormlijst in Analysis Workspace met de afmeting van het Kanaal van de Marketing, Orders en uw nieuwe Begeleidende metrische Orden.
 
    ![](assets/mktg-channel-assists.png)
 

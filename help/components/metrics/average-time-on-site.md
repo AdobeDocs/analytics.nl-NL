@@ -1,20 +1,20 @@
 ---
 title: Gemiddelde tijd op de site
 description: De gemiddelde hoeveelheid tijd bestond een bepaald afmetingspunt tussen treffers.
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+feature: Metrics
+exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
 
 ---
 
-
 # Gemiddelde tijd op de site
 
-De metrische waarde &#39;Gemiddelde tijd op site&#39; geeft de hoeveelheid tijd aan die tussen hits voor een bepaald afmetingsitem is verstreken. Dit metrisch is nuttig wanneer u gemiddelde tijd wilt zien die voor specifieke afmetingspunten wordt doorgebracht. U kunt metrisch in tijd ook trenderen om te zien hoe de algemene tijd bestede veranderingen. Deze metrische weergave wordt weergegeven in `HH:MM:SS` indeling.
+De metrische waarde &#39;Gemiddelde tijd op site&#39; geeft de hoeveelheid tijd aan die tussen hits voor een bepaald afmetingsitem is verstreken. Dit metrisch is nuttig wanneer u gemiddelde tijd wilt zien die voor specifieke afmetingspunten wordt doorgebracht. U kunt metrisch in tijd ook trenderen om te zien hoe de algemene tijd bestede veranderingen. Deze metrische weergave wordt weergegeven in `HH:MM:SS` gebruiken.
 
-Deze metrische waarde heeft betrekking op de [tijd die per bezoek](../dimensions/time-spent-per-visit.md) wordt doorgebracht afmeting.
+Deze metrische waarde is gerelateerd aan de [Tijd besteed per bezoek](../dimensions/time-spent-per-visit.md) dimensie.
 
 ## Hoe deze metrische waarde wordt berekend
 
@@ -35,24 +35,24 @@ Neem bijvoorbeeld het volgende bezoek:
 | `12:25:40` | `Product page A` |
 
 
-Als u gemiddelde tijd op plaats voor het afmetingspunt wilt `Product page A`, neem eerst de hoeveelheid tijd tussen treffers voor die afmeting verstreek:
+Als u een gemiddelde tijd op plaats voor het afmetingspunt wilt `Product page A`, neemt eerst de hoeveelheid tijd die tussen treffers voor die dimensie verstreek:
 
 * **12:04:20 - 12:05:30** - 1 minuut 10 seconden
 * **12:05:30 - 12:07:00** - 1 minuut 30 seconden
 * **12:07:40 - 12:08:10** - 30 seconden
-* **12:25:40 - ?** - Niet inbegrepen
+* **12:25:40 . ?** - Niet inbegrepen
 
-De totale hoeveelheid tijd die voor `Product page A` wordt besteed is `00:03:10`. Dit bezoek heeft twee volgreeksen opgeleverd. de eerste reeks voor de twee opeenvolgende waarden en de tweede voor het uitchecken. Het laatste resultaat van het bezoek is geen opeenvolging, aangezien er geen eindtimestamp is.
+De totale hoeveelheid tijd die is besteed voor `Product page A` is `00:03:10`. Dit bezoek heeft twee volgreeksen opgeleverd. de eerste reeks voor de twee opeenvolgende waarden en de tweede voor het uitchecken. Het laatste resultaat van het bezoek is geen opeenvolging, aangezien er geen eindtimestamp is.
 
 De gemiddelde tijd op locatie voor `Product page A` is `00:01:35`.
 
 >[!NOTE]
 >
->Deze metrische toont een waarde van `"Invalid"` als het afmetingspunt slechts treffers bevat die in een bezoek het laatst waren. Deze metrisch vereist een verdere slag om bestede tijd te volgen.
+>Deze metrisch toont een waarde van `"Invalid"` als het dimensie-item alleen resultaten bevat die het laatst tijdens een bezoek zijn geweest. Deze metrisch vereist een verdere slag om bestede tijd te volgen.
 
 ## Gemiddelde tijd besteed aan plaats (seconden)
 
-De metrische waarde &#39;Gemiddelde tijd die aan plaats (seconden) wordt doorgebracht&#39; toont de zelfde gegevens die als geheel in plaats van in `HH:MM:SS` formaat worden voorgesteld. Deze metrische waarde is het meest waardevol als component binnen berekende metriek.
+De metrische waarde &#39;Gemiddelde tijd besteed aan site (seconden)&#39; geeft dezelfde gegevens weer als een geheel getal in plaats van in `HH:MM:SS` gebruiken. Deze metrische waarde is het meest waardevol als component binnen berekende metriek.
 
 ## De totalen van de uitsplitsing komen niet overeen met het item van de bovenliggende regel
 
@@ -65,13 +65,13 @@ De metrische &#39;Gemiddelde tijd op locatie&#39; gebruikt ononderbroken reeksen
 | `12:02:10` | `Home` | `Foxes` |
 | `12:02:20` | `(None; exit link click)` | `(None; exit link click)` |
 
-Voor de berekening van de gemiddelde tijd ter plaatse voor de dimensie-item `Home` wordt de volgende berekening gebruikt:
+Gemiddelde tijd op locatie berekenen voor het dimensie-item `Home` zou de volgende berekening gebruiken:
 
 ```text
 (30 + 10) / 2 = 20 seconds average time on site
 ```
 
-Als u een verdeling gebruikend de dimensie van de secties [van de](../dimensions/site-section.md) Plaats toepaste, zou het de volgende berekening gebruiken:
+Als u een onderverdeling toepast met behulp van [Site-secties](../dimensions/site-section.md) afmeting, wordt de volgende berekening gebruikt:
 
 ```text
 (30 + 10) / 1 = 40 seconds average time on site
@@ -81,6 +81,6 @@ Aangezien er één sequentie in de afsplitsingsdimensie was, gebruikt deze een a
 
 ## Percentage boven 100%
 
-Deze metrische waarde bevat vaak percentages boven 100%. De noemer is de gemiddelde tijd van de volledige afmeting ter plaatse, en de teller is de gemiddelde tijd van het afmetingspunt op plaats. Als de gemiddelde tijd van de volledige afmeting op plaats lager is dan de gemiddelde tijd van een bepaald afmetingspunt op plaats, zult u percentages boven 100% zien. Door gerangschikte rapporten te sorteren op deze metrische waarde wordt een afwijkende gemiddelde tijd op plaatswaarden getoond, die typisch niet waardevol is. Adobe raadt aan om in gerangschikte rapporten een andere maatstaf te gebruiken, zoals [Visits](visits.md).
+Deze metrische waarde bevat vaak percentages boven 100%. De noemer is de gemiddelde tijd van de volledige afmeting ter plaatse, en de teller is de gemiddelde tijd van het afmetingspunt op plaats. Als de gemiddelde tijd van de volledige afmeting op plaats lager is dan de gemiddelde tijd van een bepaald afmetingspunt op plaats, zult u percentages boven 100% zien. Door gerangschikte rapporten te sorteren op deze metrische waarde wordt een afwijkende gemiddelde tijd op plaatswaarden getoond, die typisch niet waardevol is. Adobe raadt aan om te sorteren met een andere waarde, zoals [Bezoeken](visits.md), in gerangschikte verslagen.
 
-Zie [Tijd besteed overzicht](time-spent.md) voor meer algemene informatie over bestede tijd.
+Zie [Overzicht van de tijd](time-spent.md) voor meer algemene informatie over de bestede tijd.

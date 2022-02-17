@@ -1,14 +1,14 @@
 ---
 title: Kwartaal van het jaar
 description: Het numerieke kwartaal van het jaar, ongeacht welk jaar.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: 0de5f916-9cc1-4594-9dfc-68ef831dcc0a
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
 
 ---
-
 
 # Kwartaal van het jaar
 
@@ -18,6 +18,6 @@ De dimensie &#39;Kwartaal van het jaar&#39; vermeldt het kwartaal van een bepaal
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items omvatten numerieke kwartalen van het jaar (`1` tot en met `4`) die het kwartaal van het jaar vertegenwoordigen waarop de treffer heeft plaatsgevonden.
+Dimension-items omvatten numerieke kwartalen van het jaar (`1` tot `4`), die het kwartaal van het jaar vertegenwoordigt waarop de treffer heeft plaatsgevonden.

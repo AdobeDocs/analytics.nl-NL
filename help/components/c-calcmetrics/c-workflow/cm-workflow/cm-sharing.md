@@ -1,25 +1,27 @@
 ---
 description: Afhankelijk van uw machtigingen kunt u statistieken delen met uw hele organisatie, groepen of individuele gebruikers.
-title: Berekende maatstaven delen
-uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+title: Berekende standaard delen
+feature: Calculated Metrics
+exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 3%
 
 ---
 
-
-# Berekende maatstaven delen
+# Berekende standaard delen
 
 Afhankelijk van uw machtigingen kunt u statistieken delen met uw hele organisatie, groepen of individuele gebruikers.
 
-| Rol | Machtigingen |
+| Rol | Toestemmingen |
 |---|---|
 | Beheerder | Kan metriek met allen, met Groepen, en met Gebruikers delen. Groepen worden ingesteld als machtigingsgroepen in de beheerconsole. |
 | Niet-beheerder | Metrische gegevens kunnen alleen met individuele gebruikers worden gedeeld. |
 
 Wanneer zou u metriek met het volledige bedrijf tegenover enkel een groep gebruikers of individuen moeten delen? Hier volgen enkele aanbevolen procedures:
 
-* Als Admin, deel metrisch met **[!UICONTROL All]** als het van nut aan het volledige bedrijf is en iedereen het comfortabel gebruikt. In dit geval, zou u ook moeten overwegen om van het tot goedgekeurde metrisch te maken.
+* Als Admin, deel metrisch met **[!UICONTROL All]** als het van nut is voor het hele bedrijf en iedereen het comfortabel gebruikt. In dit geval, zou u ook moeten overwegen om van het tot goedgekeurde metrisch te maken.
 * Als Admin, deel metrisch met specifiek **[!UICONTROL Group]** als metrisch goede bedrijfswaarde voor dat team verstrekt.
 * Als Admin of een individuele gebruiker, deel metrisch met andere individuen om het te behandelen en te bevestigen. Als het niet nuttig blijkt, kan het worden verworpen. Deze metrische methode niet officieel goedkeuren.
 
@@ -27,15 +29,14 @@ Wanneer zou u metriek met het volledige bedrijf tegenover enkel een groep gebrui
 
    ![](assets/cm_task_bar.png)
 
-1. Klik op het **[!UICONTROL Share]** pictogram.
+1. Klik op de knop **[!UICONTROL Share]** pictogram.
 
    ![](assets/cm_share.png)
 
-   Als u een beheerder bent, kunt u in uw organisatie een keuze maken **[!UICONTROL All]** of kiezen uit **[!UICONTROL Groups]** en (omlaag schuiven naar) **[!UICONTROL Users]** . Als niet-beheerder kunt u alleen individuele gebruikers zien. Gebruik het **[!UICONTROL Search]** veld om te zoeken naar groepen of gebruikers
+   Als u een beheerder bent, kunt u **[!UICONTROL All]** of kies uit **[!UICONTROL Groups]** en (omlaag schuiven naar) **[!UICONTROL Users]** in uw organisatie. Als niet-beheerder kunt u alleen individuele gebruikers zien. Gebruik de **[!UICONTROL Search]** veld waarin naar groepen of gebruikers kan worden gezocht
 
 1. Klik op **[!UICONTROL Share]**.
 
    Het pictogram Gedeeld wordt weergegeven naast de metrische waarde:  ![](assets/share_icon.png)
 
-1. U kunt filteren op metriek die met u wordt gedeeld door naar **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]** te gaan.
-
+1. U kunt filteren op metriek die met u wordt gedeeld door naar **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.

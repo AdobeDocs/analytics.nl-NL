@@ -2,10 +2,9 @@
 description: Voordat u virtuele rapportsuites gaat maken, moet u rekening houden met een aantal zaken.
 keywords: Virtuele rapportsuite
 title: Virtuele rapportsuites maken
-feature: Reports & Analytics Basics
-uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
+feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 3%
@@ -17,7 +16,7 @@ ht-degree: 3%
 Voordat u virtuele rapportsuites gaat maken, moet u rekening houden met een aantal zaken.
 
 * Gebruikers die geen beheerder zijn, kunnen de Virtual Report Suite Manager niet zien.
-* Virtuele rapportsuites kunnen niet worden gedeeld. &quot;Delen&quot; wordt uitgevoerd via groepen/machtigingen.
+* Virtuele rapportsuites kunnen niet worden gedeeld. &quot;Delen&quot; gebeurt via groepen/machtigingen.
 * In de Virtuele Manager van de Reeks van het Rapport, kunt u slechts uw eigen virtuele rapportreeksen zien. U moet op Alles tonen klikken om iedereen te zien.
 
 1. Ga naar **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**.
@@ -27,7 +26,7 @@ Voordat u virtuele rapportsuites gaat maken, moet u rekening houden met een aant
 
 ## Instellingen definiëren
 
-Definieer deze instellingen op het tabblad [!UICONTROL Settings] en klik op **[!UICONTROL Continue]**.
+Op de [!UICONTROL Settings] , definieert u deze instellingen en klikt u op **[!UICONTROL Continue]**.
 
 | Element | Beschrijving |
 | --- |--- |
@@ -36,11 +35,11 @@ Definieer deze instellingen op het tabblad [!UICONTROL Settings] en klik op **[!
 | Tags | U kunt codes toevoegen om uw rapportsuites te organiseren. |
 | Bron | De rapportsuite waarvan deze virtuele rapportsuite de volgende instellingen overneemt. De meeste de dienstniveaus en eigenschappen (bijvoorbeeld, eVar montages, de Regels van de Verwerking, Classificaties, etc.) worden geërft. Als u wijzigingen wilt aanbrengen in deze overgeërfde instellingen op een VRS, moet u de bovenliggende rapportsuite bewerken ( Admin > Rapportsets). |
 | Tijdzone | Het kiezen van een tijdzone is optioneel. Als u een tijdzone kiest, wordt deze samen met de VRS opgeslagen. Als u niet kiest, wordt de tijdzone van de ouderrapportreeks gebruikt.  Als u een VRS bewerkt, wordt de tijdzone die met de VRS is opgeslagen, weergegeven in de vervolgkeuzelijst. Als VRS werd gecreeerd alvorens de steun van de tijdzone werd toegevoegd, wordt de de tijdzone van de ouderrapportreeks getoond in de drop-down selecteur. |
-| Segmenten | U kunt slechts één segment toevoegen of segmenten stapelen.   Opmerking:  Wanneer het stapelen van twee segmenten, worden zij aangesloten bij door EN verklaring. Dit kan niet in een OF verklaring worden veranderd. Wanneer u probeert om een segment te schrappen of te wijzigen dat momenteel in een virtuele rapportreeks wordt gebruikt, toont een waarschuwing. |
+| Segmenten | U kunt slechts één segment toevoegen of segmenten stapelen.   Opmerking: Wanneer het stapelen van twee segmenten, worden zij aangesloten bij door EN verklaring. Dit kan niet in een OF verklaring worden veranderd. Wanneer u probeert om een segment te schrappen of te wijzigen dat momenteel in een virtuele rapportreeks wordt gebruikt, toont een waarschuwing. |
 
 ## Definitie van bezoek definiëren
 
-Definieer deze instellingen op het tabblad [!UICONTROL Visit Definition] en klik op **[!UICONTROL Continue]**.
+Op de [!UICONTROL Visit Definition] , definieert u deze instellingen en klikt u op **[!UICONTROL Continue]**.
 
 ![](assets/visit-definition.png)
 
@@ -62,12 +61,12 @@ Hier is een video over hoe te om een bezoekdefinitie in een virtuele rapportreek
 
 ![](assets/components.png)
 
-1. Schakel op het tabblad [!UICONTROL Components] het selectievakje in om de curatie toe te passen en componenten voor deze virtuele rapportsuite in Analysis Workspace op te nemen, uit te sluiten en een andere naam te geven.
-Zie [Virtual Report Suite Component Curation](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites) voor meer informatie over VRS-curatie.
+1. Op de [!UICONTROL Components] schakelt u het selectievakje in om de curatie toe te passen voor het opnemen, uitsluiten en hernoemen van componenten voor deze virtuele rapportsuite in Analysis Workspace.
+Zie voor meer informatie over VRS-curven [Virtual Report Suite Component Curation](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites).
 
-1. Sleep componenten (afmetingen, metriek, segmenten, of datumwaaiers) die u in VRS in [!UICONTROL Included Components] sectie wilt omvatten.
+1. Sleep componenten (afmetingen, metriek, segmenten, of datumwaaiers) die u in VRS in wilt omvatten [!UICONTROL Included Components] sectie.
 
-1. Wanneer u wordt gedaan, klik **[!UICONTROL Save]**.
+1. Als u klaar bent, klikt u op **[!UICONTROL Save]**.
 
 ## Gegevens voorvertonen
 

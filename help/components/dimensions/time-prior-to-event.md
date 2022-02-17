@@ -1,8 +1,9 @@
 ---
 title: Tijd vóór de gebeurtenis
 description: De hoeveelheid tijd tussen metrisch en eerste klap van het bezoek.
+feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-source-git-commit: 2c363dce63768101356a6f43ea1e45ae8dd7b139
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -19,4 +20,4 @@ Hoewel deze dimensie technisch uit de doos voor alle implementaties werkt, werkt
 
 ## Dimension-items
 
-Dimension-items bevatten op tijd gebaseerde emmers tussen `"Less than 1 minute"` en `"More than 15 hours"`. Als een bezoeker bijvoorbeeld 23 minuten had geduurd van de eerste hit tot een aankoop, hoort deze onder het dimensie-item `"10 to 30 minutes"`. De emmers kunnen niet voor dit metrisch worden aangepast.
+Dimension-items bevatten op tijd gebaseerde emmers die variëren van `"Less than 1 minute"` tot `"More than 15 hours"`. Als een bezoeker bijvoorbeeld 23 minuten had geduurd van zijn eerste hit tot een aankoop, zou hij onder de `"10 to 30 minutes"` dimensie-item. De emmers kunnen niet voor dit metrisch worden aangepast.

@@ -1,14 +1,14 @@
 ---
 title: Betaalde zoekopdracht
 description: Hiermee onderscheidt u metriek van betaald en natuurlijk zoeken.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # Betaalde zoekopdracht
 
@@ -16,8 +16,8 @@ Met de dimensie &#39;Betaald zoeken&#39; kunt u naar elke meting kijken en deze 
 
 ## Deze dimensie vullen met gegevens
 
-De enige vereiste voor deze dimensie om behoorlijk te werken moet [Betaalde onderzoeksopsporing](/help/admin/admin/paid-search-detection/paid-search-detection.md) hebben correct in de montages van de rapportreeks wordt gevormd. Als de betaalde onderzoeksopsporing correct wordt gevormd en een rapportreeks gegevens heeft, werkt deze dimensie altijd.
+Deze dimensie kan alleen goed functioneren als [Betaalde zoekdetectie](/help/admin/admin/paid-search-detection/paid-search-detection.md) correct geconfigureerd in de instellingen van de rapportsuite. Als de betaalde onderzoeksopsporing correct wordt gevormd en een rapportreeks gegevens heeft, werkt deze dimensie altijd.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items bevatten twee statische waarden: `"Natural"` en `"Paid"`. Als een bezoek criteria voor een onderzoeksmotor aanpast en ook betaalde onderzoeksopsporing aanpast, behoort het tot het `"Paid"` afmetingspunt. Als een bezoek criteria voor een onderzoeksmotor aanpast en betaalde onderzoeksopsporing *niet* aanpast, behoort het tot het `"Natural"` afmetingspunt.
+Dimension-items bevatten twee statische waarden: `"Natural"` en `"Paid"`. Als een bezoek criteria voor een onderzoeksmotor aanpast en ook betaalde onderzoeksopsporing aanpast, behoort het tot `"Paid"` dimensie-item. Als een bezoek voldoet aan de criteria voor een zoekmachine en *niet* zoeken met betaald zoeken, hoort bij de `"Natural"` dimensie-item.

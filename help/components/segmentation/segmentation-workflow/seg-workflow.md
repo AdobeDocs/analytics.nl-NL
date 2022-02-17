@@ -2,12 +2,10 @@
 description: Beschrijft een gesuggereerde werkschema voor segmenten die met de Bouwer van het Segment worden gecreeerd en door de Manager van het Segment worden geleid.
 title: Overzicht van de segmentatieworkflow
 feature: Segmentation
-uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '240'
 ht-degree: 2%
 
 ---
@@ -15,12 +13,6 @@ ht-degree: 2%
 # Overzicht van de segmentatieworkflow
 
 Beschrijft een gesuggereerde werkschema voor segmenten die met de Bouwer van het Segment worden gecreeerd en door de Manager van het Segment worden geleid.
-
-<!-- 
-
-seg_workflow.xml
-
- -->
 
 ![](assets/seg_workflow.png)
 
@@ -35,7 +27,7 @@ Zie Controlelijst voor segmentplanning voor hulp bij het plannen en ordenen van 
 
 Maak en bewerk segmenten voor gebruik in alle analysemogelijkheden.
 
-Zie [Sequentiële segmenten maken](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) voor het bouwen van segmenten met de operator THEN.
+Zie [Opeenvolgende segmenten maken](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) voor hoe te om segmenten met de exploitant te bouwen THEN.
 
 ![](assets/step3_icon.png) [ Segmenten labelen](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 

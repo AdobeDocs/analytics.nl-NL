@@ -1,10 +1,11 @@
 ---
 title: Monitorresolutie
 description: De resolutie van de monitor van de bezoeker in pixel.
+feature: Dimensions
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -23,8 +24,8 @@ Browserafmetingen zijn altijd kleiner dan monitorresolutie, omdat browsernavigat
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie wint gegevens van [`s` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken terug. AppMeasurement verzamelt deze gegevens met behulp van de JavaScript-variabele `screen.width` en `screen.height` in de browser. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u een methode van de gegevensinzameling buiten AppMeasurement (zoals door API) gebruikt, zorg ervoor dat u `s` parameter van het vraagkoord in beeldverzoeken omvat.
+Deze dimensie haalt gegevens van terug [`s` querytekenreeks](/help/implement/validate/query-parameters.md) in afbeeldingsaanvragen. AppMeturement verzamelt deze gegevens met behulp van de JavaScript-variabele `screen.width` en `screen.height` in de browser. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u een methode voor gegevensverzameling buiten AppMeasurement gebruikt (bijvoorbeeld via de API), moet u de methode `s` parameter querytekenreeks in afbeeldingsaanvragen.
 
 ## Dimension-items
 
-Dimension-items bevatten alle verzamelde monitorresoluties. Voorbeelden van waarden zijn `1920 x 1080`, `1366 x 768` en `1280 x 720`.
+Dimension-items bevatten alle verzamelde monitorresoluties. Voorbeelden van waarden zijn `1920 x 1080`, `1366 x 768`, en `1280 x 720`.

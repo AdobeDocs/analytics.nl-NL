@@ -1,14 +1,14 @@
 ---
 title: Tijd besteed aan pagina
 description: De hoeveelheid tijd die een bezoeker op de pagina heeft doorgebracht.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
 
 ---
-
 
 # Tijd besteed aan pagina
 
@@ -24,7 +24,7 @@ Deze dimensie is waardevol wanneer u wilt begrijpen hoe lang bezoekers op uw sit
 >
 >De tijd die wordt besteed wordt niet gemeten voor de laatste hit van het bezoek aangezien er geen volgende beeldverzoek is om verstreken tijd te meten. Dit concept geldt ook voor bezoeken die bestaan uit één enkele hit (een stuit).
 
-Deze dimensie is gebaseerd op hit, wat betekent dat de waarde voor elke hit anders is. Vergelijk deze dimensie met [Tijd besteed per bezoek](time-spent-per-visit.md), die een op bezoek-gebaseerde dimensie is. Hogere doorgebrachte tijd betekent dat een bezoeker langer op een pagina bleef (hit).
+Deze dimensie is gebaseerd op hit, wat betekent dat de waarde voor elke hit anders is. Vergelijk deze dimensie met [Tijd besteed per bezoek](time-spent-per-visit.md), een op bezoeken gebaseerde dimensie. Hogere doorgebrachte tijd betekent dat een bezoeker langer op een pagina bleef (hit).
 
 ![Tijd besteed aan pagina](../metrics/assets/time-spent2.png)
 
@@ -32,11 +32,11 @@ Deze dimensie is gebaseerd op hit, wat betekent dat de waarde voor elke hit ande
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensie-items
+## Dimension-items
 
 Er zijn meerdere afmetingen voor de tijd die aan de pagina wordt doorgebracht:
 
-* **Tijd besteed aan pagina - gespaard**: De hoeveelheid tijd wordt opgesloten. Dimensie-items variëren van `"Less than 15 seconds"` tot `"More than 30 minutes"`. De tijd tussen paginaweergaven duurt gewoonlijk niet langer dan 30 minuten; de tijd tussen de paginaweergaven kan echter meer dan 30 minuten bedragen als u hits met een tijdstempel of gegevensbronnen gebruikt.
+* **Tijd doorgebracht op pagina - ingesloten**: De hoeveelheid tijd wordt opgesloten. Dimension-items kunnen variëren van `"Less than 15 seconds"` tot `"More than 30 minutes"`. De tijd tussen paginaweergaven duurt gewoonlijk niet langer dan 30 minuten; de tijd tussen de paginaweergaven kan echter meer dan 30 minuten bedragen als u hits met een tijdstempel of gegevensbronnen gebruikt.
 * **Tijd besteed aan pagina - korrelig**: Elk aantal seconden is een uniek afmetingsitem.
 
-Zie [Tijd besteed overzicht](../metrics/time-spent.md) voor meer algemene informatie over bestede tijd.
+Zie [Overzicht van de tijd](../metrics/time-spent.md) voor meer algemene informatie over de bestede tijd.

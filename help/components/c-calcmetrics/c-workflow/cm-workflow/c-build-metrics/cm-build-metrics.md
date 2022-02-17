@@ -1,9 +1,9 @@
 ---
 description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimension, Metriek, Segmenten, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
 title: Cijfers samenstellen
-uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
+feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 1%
@@ -16,12 +16,12 @@ De Berekende Bouwer van Metriek verstrekt een canvas om Dimension, Metriek, Segm
 
 Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
 
-* Open in Analysis Workspace een project en klik op **[!UICONTROL + New]** > **[!UICONTROL Create Metric]**.
-* Ga in [!DNL Analytics] naar **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
+* Open in Analysis Workspace een project en klik op  **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
+* In [!DNL Analytics], ga naar **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
 
-* Klik **[!UICONTROL + Add]** bij de bovenkant van [Berekende Metrische Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), of
+* Klikken **[!UICONTROL + Add]** boven aan het dialoogvenster [Berekend metrisch beheer](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), of
 
-* Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open om het even welk rapport en klik het pictogram van Metriek ![](assets/metrics_icon.png) om metriek te tonen, dan klik **[!UICONTROL Add]**.
+* Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, opent u een willekeurig rapport en klikt u op het pictogram Metriek  ![](assets/metrics_icon.png) om de metrieke spoorstaaf te verhogen, dan klik **[!UICONTROL Add]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -36,7 +36,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Titel  </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Titel </span> </td> 
    <td colname="col3"> <p>De naam van de metrische waarde is verplicht. U kunt metrisch opslaan tenzij het wordt genoemd. </p> </td> 
   </tr> 
   <tr> 
@@ -44,30 +44,30 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
    <td colname="col3"> <p>Geef het een gebruikersvriendelijke beschrijving om te tonen waarvoor het wordt gebruikt en het van gelijkaardige degenen te onderscheiden. </p> <p>De beschrijving wordt ook weergegeven in een rapport. Het is beter NIET om de formule in de beschrijving te zetten - in plaats daarvan, beschrijf wat deze metrisch zou moeten en niet zouden moeten worden gebruikt. (De formule wordt geproduceerd aangezien u metrisch bouwt, onder de Summiere rubriek. Dientengevolge, is het niet nodig om de formule aan de beschrijving toe te voegen.) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Indeling  </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Indeling </span> </td> 
    <td colname="col3"> <p>U kunt kiezen uit Decimaal, Tijd, Percentage en Valuta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Decimalen  </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Decimalen </span> </td> 
    <td colname="col3"> <p>Toont hoeveel decimalen in het rapport zullen worden getoond. Het maximumaantal decimalen dat u kunt opgeven, is 10. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Naar boven trends tonen als...  </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Naar boven trends tonen als... </span> </td> 
    <td colname="col3"> <p>Deze metrische polariteit die toont of de Analyse een stijgende trend in metrisch als goed (groen) of slecht (rood) zou moeten beschouwen. Als gevolg hiervan zal de grafiek van het rapport als groen of rood worden weergegeven wanneer het omhoog gaat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Tags  </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Tags </span> </td> 
    <td colname="col3"> <p>Tags zijn een goede manier om metriek in te delen. Alle gebruikers kunnen tags maken en een of meer tags toepassen op een metrische waarde. U kunt echter alleen labels zien voor de segmenten die u bezit of die met u zijn gedeeld. Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags: 
      <ul id="ul_9A6CE5F179424687A39F2D5C1A953258"> 
-      <li id="li_A8815F2D8D284874AD701A7B103D82A3">Tags die zijn gebaseerd op <b>teamnamen</b>, zoals Sociale marketing, Mobiele marketing. </li> 
-      <li id="li_A51A4515A541488E9D90296A955E9F4F"><b></b> Projecttags (analysetags), zoals analyse op de pagina. </li> 
-      <li id="li_B4605470A7094026AC168420B64BBCC3"><b></b> Categorielabels: Mannen; geografie. </li> 
-      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>Workflowtags </b> : goed te keuren; Gecurreerd voor (een specifieke bedrijfseenheid) </li> 
+      <li id="li_A8815F2D8D284874AD701A7B103D82A3">Tags gebaseerd op <b>teamnamen</b>, zoals Sociale marketing, Mobiele marketing. </li> 
+      <li id="li_A51A4515A541488E9D90296A955E9F4F"><b>Project</b> tags (analysetags), zoals analyse van de pagina Invoer. </li> 
+      <li id="li_B4605470A7094026AC168420B64BBCC3"><b>Categorie</b> tags: Mannen; geografie. </li> 
+      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>Workflow</b> tags: goed te keuren; Gecurreerd voor (een specifieke bedrijfseenheid) </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Samenvatting  </span> </td> 
-   <td colname="col3"> <p>De <span class="uicontrol"> Summiere </span> formule werkt op om het even welk ogenblik bij u een verandering in de metrische definitie aanbrengt. Deze formule wordt ook weergegeven in de metrische rail links wanneer u de muisaanwijzer boven een metrische waarde houdt en op het pictogram <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> klikt. </p> </td> 
+   <td colname="col2"> <span class="uicontrol"> Samenvatting </span> </td> 
+   <td colname="col3"> <p>De <span class="uicontrol"> Samenvatting </span> de formule werkt op om het even welk ogenblik bij u een verandering in de metrische definitie aanbrengt. Deze formule wordt ook weergegeven in de metrische rail links als u de muisaanwijzer boven een metrische waarde houdt en op de knop <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> pictogram. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Definitie </span> </td> 
@@ -78,19 +78,19 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Operator  </span> </td> 
-   <td colname="col3"> <p>Gedeeld door ( <img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" />) is de standaardexploitant, plus er zijn +, -, en xexploitanten. </p> </td> 
+   <td colname="col2"> <span class="uicontrol"> Operator </span> </td> 
+   <td colname="col3"> <p>Gedeeld door ( <img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is de standaardoperator, plus de operatoren +, - en x. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Voorvertoning  </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Voorvertoning </span> </td> 
    <td colname="col3"> <p>Hiermee kunt u snel informatie lezen over mogelijke fouten. De voorvertoning beslaat de laatste 90 dagen. Dit is een manier om aanvankelijk te graven of u de juiste componenten voor uw metrisch hebt geselecteerd. Een onverwacht resultaat zou betekenen u een tweede blik bij de metrische definitie moet nemen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Productcompatibiliteit  </span> </td> 
-   <td colname="col3"> <p>De verenigbaarheid van het product toont u of metrisch met <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > Huidige Gegevens </a>, met volledig Verwerkte Gegevens, of slechts met de rapporten van het Kanaal van de Marketing (first-touch toewijzing) compatibel is. <p>Opmerking:  De huidige Gegevens steunen niet alle metriek. Metriek die segmenten of functies bevatten, is niet compatibel met de huidige gegevens. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Meer... </a> </p> </p> </td> 
+   <td colname="col2"> <span class="uicontrol"> Productcompatibiliteit </span> </td> 
+   <td colname="col3"> <p>De verenigbaarheid van het product toont u of metrisch compatibel is met <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > Huidige gegevens </a>, met volledig verwerkte gegevens of alleen met marketingrapporten (first-touch-toewijzing). <p>Opmerking: De huidige Gegevens steunen niet alle metriek. Metriek die segmenten of functies bevatten, is niet compatibel met de huidige gegevens. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Meer... </a> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Toevoegen  </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Toevoegen </span> </td> 
    <td colname="col3"> <p>Voor alle soorten berekende metriek, kunt u containers en statische aantallen aan de definitie toevoegen. Voor geavanceerde berekende metriek, kunt u segmenten en functies ook toevoegen. </p> <p> 
      <ul id="ul_607C1B303F334062BC620317667DE490"> 
       <li id="li_53462789B8AF4F1AA9B45565D37CF22B">Containers werken als een wiskundige expressie en bepalen de volgorde van bewerkingen. Dus alles in een container wordt verwerkt voor de volgende bewerking. </li> 
@@ -99,12 +99,12 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> Versnellingspictogram ( <span class="uicontrol"> Metrisch type </span>, <span class="uicontrol"> Kenmerk </span>) </td> 
-   <td colname="col3"> <p>Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u het metrische type- en kenmerkmodel </a> opgeven.<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > </a></p> </td> 
+   <td colname="col2"> Pictogram vistuig ( <span class="uicontrol"> Metrisch type </span>, <span class="uicontrol"> Attributie </span>) </td> 
+   <td colname="col3"> <p>Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u de instelling <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > Metrische type- en attributiemodellen </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> + Nieuw  </span> </td> 
-   <td colname="col3"> <p>Hiermee kunt u een nieuwe component maken, zoals een nieuw segment (waarmee u naar <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder </a> gaat). </p> </td> 
+   <td colname="col2"> <span class="uicontrol"> + Nieuw </span> </td> 
+   <td colname="col3"> <p>Hiermee kunt u een nieuwe component maken, zoals een nieuw segment (dat u naar het <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder </a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Componenten zoeken </p> </td> 
@@ -134,7 +134,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lijst met functies </p> </td> 
-   <td colname="col3"> <p>(Alleen geavanceerde berekende metriek) Functies worden in twee lijsten onderverdeeld: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Standaard </a> (wordt het vaakst gebruikt) en <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Geavanceerd </a>. </p> </td> 
+   <td colname="col3"> <p>(Alleen geavanceerde berekende metriek) Functies worden in twee lijsten onderverdeeld: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Basis </a> (meest gebruikt) en <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Geavanceerd </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Selector rapportsuite </p> </td> 

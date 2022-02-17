@@ -1,14 +1,14 @@
 ---
 title: Gemiddelde paginadiepte
 description: Hoeveel pagina's gemiddeld bestaat de dimensie.
-translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+feature: Metrics
+exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
 
 ---
-
 
 # Gemiddelde paginadiepte
 
@@ -16,13 +16,13 @@ De metrische waarde &#39;Gemiddelde paginadiepte&#39; laat zien hoe ver in een b
 
 >[!TIP]
 >
->Gebruik deze metrische waarde naast een andere metrische waarde (zoals [Bezoekingen](visits.md)) om betere inzichten te verkrijgen. Als u deze metrische waarde op zich gebruikt, krijgt u dimensie-items die afwijkende paginadiepten bevatten, wat normaal gesproken niet waardevol is.
+>Deze metrische waarde gebruiken naast een andere metrische waarde (zoals [Bezoeken](visits.md)) om beter inzicht te krijgen. Als u deze metrische waarde op zich gebruikt, krijgt u dimensie-items die afwijkende paginadiepten bevatten, wat normaal gesproken niet waardevol is.
 
 ## Hoe deze metrische waarde wordt berekend
 
-De eerste pagina van een bezoek heeft een paginadiepte van `0`. De volgende pagina heeft een paginadiepte van 1 en verhoogt elke paginaweergave tot het einde van het bezoek. Deze metrische toename slechts met ([`t()`](/help/implement/vars/functions/t-method.md)) vraag van de paginamening, en niet verbinding het volgen ([`tl()`](/help/implement/vars/functions/tl-method.md)) vraag.
+De eerste pagina van een bezoek heeft een paginadiepte van `0`. De volgende pagina heeft een paginadiepte van 1 en verhoogt elke paginaweergave tot het einde van het bezoek. Deze metrische waarde neemt alleen toe met de paginaweergave ([`t()`](/help/implement/vars/functions/t-method.md)) vraag, en geen verbinding het volgen ([`tl()`](/help/implement/vars/functions/tl-method.md)) oproepen.
 
-Voor een bepaald afmetingspunt, voeg alle paginadiepten voor dat afmetingspunt toe, en verdeel het door bezoeken. Het resulterende getal is de gemiddelde paginadiepte, afgerond naar het dichtstbijzijnde gehele getal. Dimension-items met een gemiddelde paginadiepte `0` betekenen dat deze vaak op de eerste pagina van het bezoek voorkomen.
+Voor een bepaald afmetingspunt, voeg alle paginadiepten voor dat afmetingspunt toe, en verdeel het door bezoeken. Het resulterende getal is de gemiddelde paginadiepte, afgerond naar het dichtstbijzijnde gehele getal. Dimension-items met een gemiddelde paginadiepte van `0` het betekent dat het vaak op de eerste pagina van het bezoek stond.
 
 Neem bijvoorbeeld het volgende voorbeeld van een bezoek:
 
@@ -30,7 +30,7 @@ Neem bijvoorbeeld het volgende voorbeeld van een bezoek:
 Page1 > Page2 > Page2 > Page3 > Page4 > Page2
 ```
 
-Als we een gemiddelde paginadrediepte voor het dimensie-item `Page2`willen, wordt deze als volgt berekend:
+Als we een gemiddelde paginadiepte voor het dimensie-item wilden `Page2`, wordt deze als volgt berekend:
 
 ```text
 If 'Count repeat instances' is enabled:
@@ -46,4 +46,4 @@ If 'Count repeat instances' is disabled:
 
 ## Percentage boven 100%
 
-Deze metrische waarde bevat vaak percentages boven 100%. De noemer is de gemiddelde paginadiepte van de gehele dimensie en de teller is de gemiddelde paginadiepte van het dimensie-item. Als de gemiddelde paginadiepte van de gehele dimensie lager is dan de gemiddelde paginadiepte van een bepaald dimensie-item, ziet u percentages boven 100%. Als u gerangschikte rapporten op basis van deze norm sorteert, worden afwijkende gemiddelde dieptewaarden van de pagina weergegeven. Dit is doorgaans niet waardevol. Adobe raadt aan om in gerangschikte rapporten een andere maatstaf te gebruiken, zoals [Visits](visits.md).
+Deze metrische waarde bevat vaak percentages boven 100%. De noemer is de gemiddelde paginadiepte van de gehele dimensie en de teller is de gemiddelde paginadiepte van het dimensie-item. Als de gemiddelde paginadiepte van de gehele dimensie lager is dan de gemiddelde paginadiepte van een bepaald dimensie-item, ziet u percentages boven 100%. Als u gerangschikte rapporten op basis van deze norm sorteert, worden afwijkende gemiddelde dieptewaarden van de pagina weergegeven. Dit is doorgaans niet waardevol. Adobe raadt aan om te sorteren met een andere waarde, zoals [Bezoeken](visits.md), in gerangschikte verslagen.

@@ -1,14 +1,14 @@
 ---
 title: Laatste aanraakkanaal
 description: Het meest recente marketingkanaal binnen het aflopen van de betrokkenheid van de bezoeker.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
 
 ---
-
 
 # Laatste aanraakkanaal
 
@@ -16,9 +16,9 @@ De afmeting &#39;Laatste aanraakkanaal&#39; rapporteert het meest recente market
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst direct naar kanaalnamen die u in de manager [van het](/help/admin/admin/marketing-channels-admin.md)Kanaal van de Marketing hebt bepaald.
+Deze dimensie verwijst rechtstreeks naar kanaalnamen die u in het dialoogvenster [Marketing Channel Manager](/help/admin/admin/marketing-channels-admin.md).
 
-Elke hit die naar Adobe-servers voor gegevensverzameling wordt verzonden, wordt uitgevoerd volgens de verwerkingsregels van uw rapportsuite voor marketingkanalen. Het herhaalt door elke regel in numerieke orde tot het een gelijke vindt, waarin dat marketing kanaal aan de slag bindt. Het laatste aanraakkanaal blijft bij de bezoeker aanwezig totdat deze de site niet langer bezoekt dan de periode van de betrokkenheid van de bezoeker (standaard 30 dagen).
+Elke hit die naar de servers van de gegevensinzameling van de Adobe wordt verzonden loopt door de verwerkingsregels van het Kanaal van de Marketing van uw rapportreeks. Het herhaalt door elke regel in numerieke orde tot het een gelijke vindt, waarin dat marketing kanaal aan de slag bindt. Het laatste aanraakkanaal blijft bij de bezoeker aanwezig totdat deze de site niet langer bezoekt dan de periode van de betrokkenheid van de bezoeker (standaard 30 dagen).
 
 Als u deze dimensie op een specifieke waarde wilt plaatsen, zijn de volgende stappen vereist:
 
@@ -26,6 +26,6 @@ Als u deze dimensie op een specifieke waarde wilt plaatsen, zijn de volgende sta
 * Plaats een de verwerkingsregel van het Kanaal van de Marketing die de gewenste criteria voor de slag bevat.
 * Het resultaat van de bezoeker op uw site moet overeenkomen met de criteria die worden beschreven in de verwerkingsregel voor marketingkanalen.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items bevatten elke kanaalnaam in het marketingkanaalbeheer. Standaard bevatten waarden `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`en `"Referring domains"`. U kunt kanalen toevoegen of schrappen in de het kanaalmanager van de Marketing, die de waarden van deze afmeting beïnvloedt.
+Dimension-items bevatten een kanaalnaam in de marketingkanaalmanager. Standaard bevatten waarden `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`, en `"Referring domains"`. U kunt kanalen toevoegen of schrappen in de het kanaalmanager van de Marketing, die de waarden van deze afmeting beïnvloedt.

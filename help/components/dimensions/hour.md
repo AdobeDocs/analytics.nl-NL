@@ -1,14 +1,14 @@
 ---
 title: Uur
 description: Het uur waarop metrisch voorkwam.
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+feature: Dimensions
+exl-id: 323c46dd-87d0-487a-b954-e5ccbc1b919d
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
 
 ---
-
 
 # Uur
 
@@ -27,4 +27,4 @@ De punten van Dimension omvatten een bepaald uur binnen de de datumwaaier van ee
 De Tijd van de Besparing van het daglicht is een praktijk waarbij de klokken een uur vooruit in de lente worden geplaatst, en een uur in de herfst terugzetten. Als de tijdzone van een rapportreeks DST gebruikt, past Adobe gegevens dienovereenkomstig voor dat uur aan.
 
 * **Wanneer zomertijd begint**: In maart, tonen de rapporten typisch een uurhiaat in gegevens waar de Tijd van de Besparing van het Daglicht begint. Het uur bestond niet, dus het maakt geen deel uit van gegevensverzameling. Let op: een kleine hoeveelheid gegevens kan dit uur nog wel bereiken. De servers van de gegevensinzameling van Adobe nemen verscheidene seconden (tot een minuut) om de aanpassingen van DST in overweging te nemen.
-* **Wanneer zomertijd eindigt**: In november, tonen de rapporten typisch een dubbel-gestapeld uur waar de Tijd van de Besparing van het Daglicht beëindigt. Het uur gebeurde twee keer, dus beide uren worden samengevoegd in rapporten.
+* **Wanneer de zomertijd eindigt**: In november, tonen de rapporten typisch een dubbel-gestapeld uur waar de Tijd van de Besparing van het Daglicht beëindigt. Het uur gebeurde twee keer, dus beide uren worden samengevoegd in rapporten.

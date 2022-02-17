@@ -1,14 +1,14 @@
 ---
 title: Voorvallen
 description: Het aantal treffers dat een variabele is ingesteld of geduurd.
-translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+feature: Metrics
+exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 1%
 
 ---
-
 
 # Voorvallen
 
@@ -16,9 +16,9 @@ De metrische waarde &#39;Voorkomt&#39; toont het aantal treffers waar een bepaal
 
 ## Hoe deze metrische waarde wordt berekend
 
-Van alle klare resultaten in een rapportreeks, omvat klappen waar een afmetingspunt wordt bepaald of voortgeduurd. Bepaalde afmetingen, zoals [eVars](../dimensions/evar.md), blijven bestaan na de hit waarop ze zijn ingesteld. Deze metrische tellingen zowel aanvankelijke als persistelde waarden.
+Van alle klare resultaten in een rapportreeks, omvat klappen waar een afmetingspunt wordt bepaald of voortgeduurd. Sommige afmetingen, zoals [eVars](../dimensions/evar.md)blijven staan na de hit waarop ze zijn ingesteld. Deze metrische tellingen zowel aanvankelijke als persistelde waarden.
 
 ## Vergelijken met vergelijkbare cijfers
 
-* **Voorvallen vs.[instanties](instances.md)**: Komt tellingsklappen voor waar een afmetingspunt werd geplaatst of voortgeduurd. Exemplaren bevatten geen treffers op plaatsen waar een dimensie-item aanwezig blijft.
-* **Voorvallen versus[paginaweergaven](page-views.md)**: Voorvallen omvatten alle raaktypen, waaronder oproepen voor het bijhouden van paginaweergaven ([`t()`](/help/implement/vars/functions/t-method.md)) en aanroepen voor het bijhouden van koppelingen ([`tl()`](/help/implement/vars/functions/tl-method.md)). De metrische paginaweergaven omvatten slechts de volgende vraag van de paginamening, en sluit verbinding het volgen vraag uit.
+* **Voorvallen vs. [Instanties](instances.md)**: Komt tellingsklappen voor waar een afmetingspunt werd geplaatst of voortgeduurd. Exemplaren bevatten geen treffers op plaatsen waar een dimensie-item aanwezig blijft.
+* **Voorvallen vs. [Paginaweergaven](page-views.md)**: Voorvallen omvatten alle raaktypen, inclusief aanroepen voor het bijhouden van paginaweergaven ([`t()`](/help/implement/vars/functions/t-method.md)) en koppelings volgende vraag ([`tl()`](/help/implement/vars/functions/tl-method.md)). De metrische paginamening omvat slechts de volgende vraag van de paginamening, en sluit verbinding het volgen vraag uit.

@@ -1,20 +1,20 @@
 ---
 title: Eén pagina bezoeken
 description: Een vlag die aangeeft dat het bezoek uit één pagina bestond.
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+feature: Dimensions
+exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
-
 # Eén pagina bezoeken
 
-*In deze Help-pagina wordt beschreven hoe &#39;Bezoeken van één pagina&#39; werkt als een dimensie. Zie de metrische bezoeken[van](../metrics/single-page-visits.md)Enige pagina voor meer informatie.*
+*In deze Help-pagina wordt beschreven hoe &#39;Bezoeken van één pagina&#39; werkt als een dimensie. Zie de [Eén pagina bezoeken](../metrics/single-page-visits.md) metrisch voor meer informatie.*
 
-De dimensie &#39;Bezoeken van één pagina&#39; meldt het aantal bezoeken dat uit één unieke [pagina](page.md) -dimensie bestond. Dit is de afmetingsvorm van de metrische [Single-page bezoeken](../metrics/single-page-visits.md) .
+De dimensie &quot;Bezoeken van één pagina&quot; geeft het aantal bezoeken weer dat uit één unieke [Pagina](page.md) dimensie-item. Het is de dimensie van de [Eén pagina bezoeken](../metrics/single-page-visits.md) metrisch.
 
 Deze dimensie wordt meestal gebruikt als een component binnen [segmentatie](../segmentation/seg-home.md). Het wordt typisch niet gebruikt als dimensie in rapporten.
 

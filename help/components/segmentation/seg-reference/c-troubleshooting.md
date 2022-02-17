@@ -1,26 +1,25 @@
 ---
 description: Los en los kwesties met betrekking tot segmenten problemen op.
 title: Segmentproblemen oplossen
-uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Segmentation
+exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
-
 # Segmentproblemen oplossen
 
-## Fout: &quot;Niet-compatibele elementen in dit segment&quot; {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## Fout: &quot;Niet-compatibele elementen in dit segment&quot; {#incompatible}
 
 Deze fout treedt op wanneer u een segment probeert op te slaan in de map Data Warehouse waarin het segment elementen bevat die niet compatibel zijn met Data Warehouse. Voer een van de volgende twee handelingen uit om deze fout op te lossen:
 
 * Het segment opslaan in een andere map
 * Verwijder of verander de incompatibele gedeelten van het segment.
 
-## Waarom retourneert mijn segment helemaal geen gegevens? {#section_999749CBBE984142AEA49A6E68E6730A}
+## Waarom retourneert mijn segment helemaal geen gegevens? {#no-data}
 
 Mogelijke redenen:
 
@@ -28,7 +27,7 @@ Mogelijke redenen:
 * Het rapport ondersteunt segmentatie niet.
 * Er zijn geen gegevens die overeenkomen met de segmenteringscriteria.
 
-## Waarom kan ik niet het segment zien dat ik in de Manager van het Segment creeerde? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## Waarom kan ik niet het segment zien dat ik in de Manager van het Segment creeerde? {#invisible}
 
 Mogelijke redenen:
 
@@ -40,11 +39,10 @@ Mogelijke redenen:
 * Het segment is niet opgeslagen.
 * IP adres kan bij het eind van de gebruiker worden geblokkeerd.
 
-## Waarom lijken de gegevens van de Pagina die na het toepassen van een segment worden getoond onjuist? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## Waarom lijken de gegevens van de Pagina die na het toepassen van een segment worden getoond onjuist? {#page-data}
 
 Mogelijke redenen:
 
 * De regels/de exploitanten zijn onjuist voor het vereiste resultaat.
 * Onjuiste toepassing van containers op het segment.
 * De variabelen van het verkeer die aan segment worden gebruikt worden niet behoorlijk geplaatst of zijn verlopen.
-

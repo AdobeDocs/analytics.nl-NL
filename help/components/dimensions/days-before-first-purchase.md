@@ -1,14 +1,14 @@
 ---
 title: Dagen vóór eerste aankoop
 description: Het aantal dagen tussen het eerste bezoek van een bezoeker en de eerste aankoop.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: 651f9d55-49b9-402a-b7c7-ba4fba62c695
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
 
 ---
-
 
 # Dagen vóór eerste aankoop
 
@@ -18,8 +18,8 @@ Nadat een bezoeker zijn eerste aankoop heeft gedaan, behoren ze tot hetzelfde di
 
 ## Deze dimensie vullen met gegevens
 
-Adobe vult deze dimensie automatisch in op basis van de [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) gebeurtenis in uw implementatie. Als u de `purchase` gebeurtenis op uw site implementeert, werkt deze dimensie altijd.
+Deze dimensie wordt automatisch door Adobe gevuld op basis van de [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) -gebeurtenis in uw implementatie. Als u de `purchase` op uw site werkt deze dimensie altijd.
 
-## Dimensie-items
+## Dimension-items
 
-Dimension-items bevatten het aantal dagen tussen het eerste bezoek van een bezoeker aan uw site en de eerste aankoop. Elk aantal dagen is een apart onderdeel met een eigen dimensie, waarbij &quot;Zelfde dag&quot; plaatsvindt waar het eerste bezoek van een bezoeker en de eerste aankoop op dezelfde dag hebben plaatsgevonden.
+Dimension-objecten bevatten het aantal dagen tussen het eerste bezoek van een bezoeker aan uw site en de eerste aankoop. Elk aantal dagen is een apart onderdeel met een eigen dimensie, waarbij &quot;Zelfde dag&quot; plaatsvindt waar het eerste bezoek van een bezoeker en de eerste aankoop op dezelfde dag hebben plaatsgevonden.

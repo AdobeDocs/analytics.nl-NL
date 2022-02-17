@@ -1,14 +1,14 @@
 ---
 title: Klantenloyaliteit
 description: Categorieën gebaseerd op het aantal eerdere aankopen dat een bezoeker heeft gedaan.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
 
 ---
-
 
 # Klantenloyaliteit
 
@@ -16,15 +16,15 @@ De dimensie &#39;Klantenloyaliteit&#39; rapporteert het aantal bezoekers van uw 
 
 ## Deze dimensie vullen met gegevens
 
-Adobe vult deze dimensie automatisch in op basis van de [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) gebeurtenis in uw implementatie. Als u de `purchase` gebeurtenis op uw site implementeert, werkt deze dimensie altijd.
+Deze dimensie wordt automatisch door Adobe gevuld op basis van de [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) -gebeurtenis in uw implementatie. Als u de `purchase` op uw site werkt deze dimensie altijd.
 
-## Dimensie-items
+## Dimension-items
 
-Dimensie-items zijn onder andere:
+Dimension-items zijn onder andere:
 
 * **Geen klant**: Op het moment van de treffer heeft de bezoeker nog nooit een aankoop gedaan.
 * **Nieuwe klanten**: Op het moment van de treffer heeft de bezoeker één aankoop gedaan.
 * **Retourklanten**: Op het moment van de treffer heeft de bezoeker twee aankopen gedaan.
-* **Klanten** met goede naam: Op het moment van de treffer heeft de bezoeker drie of meer aankopen gedaan.
+* **Kredietklanten**: Op het moment van de treffer heeft de bezoeker drie of meer aankopen gedaan.
 
-Wanneer een bezoeker een aankoop doet (de `purchase` gebeurtenis activeert), worden die hit en alle volgende treffers naar het volgende &quot;emmertje&quot; verplaatst. Als een bezoeker bijvoorbeeld voor het eerst een product van uw site koopt, gaan deze van &quot;Geen klant&quot; naar &quot;Nieuwe klanten&quot;, met de bestelling &quot;Nieuwe klanten&quot;. Aan de dimensie-item &quot;Geen klant&quot; kunnen geen orders worden toegewezen.
+Wanneer een bezoeker een aankoop doet (activeert de `purchase` (gebeurtenis), die hit en alle volgende hits gaan naar de volgende &quot;emmertje&quot;. Als een bezoeker bijvoorbeeld voor het eerst een product van uw site koopt, gaan deze van &quot;Geen klant&quot; naar &quot;Nieuwe klanten&quot;, met de bestelling &quot;Nieuwe klanten&quot;. Aan de dimensie-item &quot;Geen klant&quot; kunnen geen orders worden toegewezen.

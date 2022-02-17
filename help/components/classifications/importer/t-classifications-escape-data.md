@@ -1,15 +1,12 @@
 ---
 description: Stappen die beschrijven hoe indelingsgegevens in het classificatiebestand kunnen worden verwijderd.
-subtopic: Classifications
 title: Classificatiedata omzeilen
-feature: Admin Tools
-uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
+feature: Classifications
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 10%
+source-wordcount: '96'
+ht-degree: 8%
 
 ---
 
@@ -25,11 +22,11 @@ Stappen die beschrijven hoe indelingsgegevens in het classificatiebestand kunnen
 
    >[!NOTE]
    >
-   >Als u de indeling v2.1 wilt opgeven, schakelt u **[!UICONTROL Quoted Output]** in wanneer u het bestand exporteert op de pagina [!UICONTROL Classification Importer] ( [!UICONTROL Browser Export] of [!UICONTROL FTP Export]).
+   >Als u de indeling v2.1 wilt opgeven, schakelt u **[!UICONTROL Quoted Output]** bij het exporteren van het bestand op het tabblad [!UICONTROL Classification Importer] pagina ( [!UICONTROL Browser Export] of [!UICONTROL FTP Export]).
 
 1. Omring het veld met speciale tekens tussen dubbele aanhalingstekens (`"`).
 
-Een dubbel aanhalingsteken kan in een beschermde cel verschijnen door het met twee dubbele aanhalingstekens (`" "`) te vervangen. Bijvoorbeeld:
+Een dubbel aanhalingsteken kan in een beschermde cel verschijnen door het met twee dubbele aanhalingstekens te vervangen (`" "`). Bijvoorbeeld:
 
 ```
 My String "of data"

@@ -2,9 +2,8 @@
 description: Veelgestelde vragen over segmentatie.
 title: Veelgestelde vragen
 feature: Segmentation
-uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '2074'
 ht-degree: 1%
@@ -19,19 +18,19 @@ Beantwoord frequente vragen over segmentatiefuncties, toegang, machtigingen, bes
 
 * Segmentering in Analysis Workspace:
 
-   * U kunt [segmenten vergelijken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
-   * Gebruik [segmenten als afmetingen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in een vergelijking.
-   * Gebruik segmenten in [fallout analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
+   * U kunt [vergelijken, segmenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
+   * Gebruiken [segmenten als afmetingen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in een vergelijking.
+   * Segmenten gebruiken in [valutanotatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
-* U kunt [veelvoudige segmenten op een rapport of een project ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) toepassen.
+* U kunt [pas veelvoudige segmenten op een rapport of een project toe](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 * De segmenten zijn universeel aan alle rapportseries.
 * De [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) vereenvoudigt het maken van segmenten.
-* Met [Segmentbeheer](/help/components/segmentation/segmentation-workflow/seg-workflow.md) kunt u [workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) instellen met functies voor segmentdeling, codering, verificatie en goedkeuring.
-* U kunt [tagsegmenten](/help/components/segmentation/segmentation-workflow/seg-workflow.md) later organiseren en zoeken in plaats van mappen te gebruiken.
-* U kunt [Opeenvolgende segmenten](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) tot stand brengen.
+* De [Segmentbeheer](/help/components/segmentation/segmentation-workflow/seg-workflow.md) laat u opstelling [workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) met functies voor segmentdeling, codering, verificatie en goedkeuring.
+* U kunt [tagsegmenten](/help/components/segmentation/segmentation-workflow/seg-workflow.md) om later te organiseren en te zoeken in plaats van omslagen te gebruiken.
+* U kunt [Opeenvolgende segmenten](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 * De naam van de container Paginaweergave is gewijzigd in de container Actief om aan te geven dat in deze container alle typen gegevens worden gesegmenteerd, en niet alleen de paginaweergaven. De aanroepen voor het bijhouden van koppelingen en trackhandelingen van de mobiele SDK&#39;s worden bijvoorbeeld allemaal opgenomen of uitgesloten in de aanraakcontainer. Merk op dat er geen verandering in de manier was deze container werkt - het werd eenvoudig anders genoemd.
 
-Zie [Segmentatie verbeteren in Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) op het blog van de Adobe voor meer informatie.
+Zie de [Segmentering verbeteren in Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) Meer informatie vindt u op de Adobe Blog.
 
 ## Toegang tot de segmentatiehulpmiddelen {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,7 +38,7 @@ Zie [Segmentatie verbeteren in Adobe Analytics](https://blog.adobe.com/en/publis
 
 U kunt tot de Bouwer van het Segment toegang hebben door:
 
-* Een bestaand rapport weergeven en op het pictogram Segmenten ![Segmentpictogram](assets/segment_icon.png) in de linkernavigatie klikken. Klik in de segmenttrack die wordt weergegeven op **[!UICONTROL Add]** of
+* Een bestaand rapport weergeven en op het pictogram Segmenten klikken  ![Segmentpictogram](assets/segment_icon.png) in de linkernavigatie. Klik in de segmenttrack die wordt weergegeven op **[!UICONTROL Add]**, of
 
 * Klik boven aan Segmentbeheer op **[!UICONTROL + Add]**.  ![Knop Toevoegen](assets/add_button.png)
 
@@ -51,15 +50,15 @@ U kunt tot de Bouwer van het Segment toegang hebben door:
 
 Toegang tot Segmentbeheer via:
 
-* Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in de bovenste navigatie. Klik vervolgens op **[!UICONTROL Segments]**, of
+* Ga naar  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in de bovenste navigatie. Klik vervolgens op **[!UICONTROL Segments]**, of
 
-* Een bestaand rapport weergeven en op het pictogram Segmenten ![Segmentpictogram](assets/segment_icon.png) in de linkernavigatie klikken. Klik vervolgens op **[!UICONTROL Manage]**, of
+* Een bestaand rapport weergeven en op het pictogram Segmenten klikken  ![Segmentpictogram](assets/segment_icon.png) in de linkernavigatie. Klik vervolgens op **[!UICONTROL Manage]**, of
 
 * Druk op de schuine streep &#39;/&#39; in de interface en zoek naar segmentmanager.
 
 **Waar ging het verouderde segment neerzetten?**
 
-De segmentdrop-down in Rapporten &amp; Analytics is vervangen door een veel meer eigenschaprijke [de interface van de Bouwer van het Segment](/help/components/segmentation/segmentation-workflow/seg-workflow.md) die u toestaat om &quot;universele&quot;segmenten tot stand te brengen bruikbaar over rapportsuites en over de oplossingen van Adobe Analytics. Als u een lijst met bestaande segmenten wilt weergeven, klikt u op het pictogram Segmenten ![Segmentpictogram](assets/segment_icon.png)
+Het segment drop-down in Rapporten &amp; Analytics is vervangen door een veel meer eigenschap rijk [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) interface die u toestaat om &quot;universele&quot;segmenten tot stand te brengen bruikbaar over rapportsuites en over de oplossingen van Adobe Analytics. Als u een lijst met bestaande segmenten wilt weergeven, klikt u op het pictogram Segmenten  ![Segmentpictogram](assets/segment_icon.png)
 
 in de linkernavigatie en de vertoningen van de segmentspoorstaaf.
 
@@ -73,13 +72,13 @@ De vervolgkeuzelijst met rapportsuite is verplaatst naast de datumkiezer in de r
 
 **Welke rechten en voorrechten moet ik gebruiken, creëren, en segmenten beheren?**
 
-Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Nochtans, kunnen de Beheerders beslissen wie [toestemmingen zou moeten hebben om segmenten te creëren](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) en hen aan specifieke groepen kunnen toewijzen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
+Standaard kunnen alle gebruikers persoonlijke segmenten maken en bewerken. Beheerders kunnen echter bepalen wie [machtigingen om segmenten te maken](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) en kan ze toewijzen aan specifieke groepen. Deze segmenten kunnen rechtstreeks met andere gebruikers van Analytics worden gedeeld.
 
 Beheerders kunnen elk segment bewerken en segmenten delen met groepen en met iedereen in de organisatie. [Meer...](/help/components/segmentation/seg-reference/seg-rights.md)
 
 **Kan ik alle segmenten in mijn bedrijf zien?**
 
-Ja, kunnen Admins alle segmenten binnen [!DNL Analysis Workspace] en [!DNL Reports & Analytics] gebruikersinterfaces zien.
+Ja, beheerders kunnen alle segmenten binnen de [!DNL Analysis Workspace] en [!DNL Reports & Analytics] gebruikersinterfaces.
 
 De ad hoc Analysesegmenten en de vertoningssegmenten van de Report Builder die u bezit en segmenten die met u worden gedeeld.
 
@@ -87,13 +86,13 @@ De ad hoc Analysesegmenten en de vertoningssegmenten van de Report Builder die u
 
 Ja, kunnen alle segmenten worden beheerd in de Manager van het Segment. Segmentbeheer geeft segmenten weer die zichtbaar zijn voor de eigenaar (gebruiker die het segment heeft gemaakt), gedeelde gebruikers en beheerders. De segmentkiezer geeft segmenten weer die eigendom zijn van en gedeeld worden met de gebruiker.
 
-Beheerders kunnen alle segmenten binnen de Analysis Workspace en [!DNL Reports & Analytics] gebruikersinterfaces zien.
+Beheerders kunnen alle segmenten in de Analysis Workspace en [!DNL Reports & Analytics] gebruikersinterfaces.
 
 Report Builder toont slechts segmenten die door u of segmenten worden gebouwd die specifiek met u zijn gedeeld.
 
 **Waarom kan ik dit segment niet verwijderen?**
 
-Als het segment [werd gepubliceerd aan de Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md), kunt u niet het schrappen of het uitgeven. U kunt de gekopieerde versie echter wel kopiëren en bewerken.
+Als het segment [gepubliceerd aan de Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md), kunt u deze niet verwijderen of bewerken. U kunt de gekopieerde versie echter wel kopiëren en bewerken.
 
 ## Aanbevolen werkwijzen {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -109,7 +108,7 @@ Nu de segmenten in veelvoudige rapportreeksen werken, zou u kunnen vinden dat u 
 * Bekijk de segmenten die u hebt.
 * Voeg deze waar van toepassing toe aan de segmentbibliotheek.
 * Goedkeuren van canonieke segmenten.
-* Segmenten labelen volgens de [aanbevolen werkwijzen](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Segmenten labelen volgens [best practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Oudere segmenten beheren {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -167,7 +166,7 @@ Bestaande rapporten waarop deze segmenten zijn toegepast, blijven correct werken
 
 **Wat gebeurt er met Admin-segmenten (ook wel &quot;algemene&quot; segmenten genoemd)?**
 
-**** Adminsegments zal in de nieuwe segmentinterface worden gemigreerd en zal verschijnen als segmenten die met iedereen worden gedeeld.
+**Beheer** De segmenten zullen in de nieuwe segmentinterface worden gemigreerd en zullen verschijnen als segmenten die met iedereen worden gedeeld.
 
 De eigenaar van deze segmenten wordt ingesteld op de beheerder met de oudste account in de lijst met beheergebruikers van het aanmeldingsbedrijf. Alle beheerders kunnen deze segmenten echter verwijderen, bewerken en delen.
 

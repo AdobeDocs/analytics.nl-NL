@@ -1,9 +1,9 @@
 ---
 description: 'Het segmenteren op individuele metriek staat u toe om metrische vergelijkingen binnen het zelfde rapport te maken. '
 title: Gesegmenteerde cijfers
-uuid: 88f9829b-76e4-4598-9494-084a91602bc1
+feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Laten we zeggen dat u verschillende aspecten van een &quot;Duitse bezoeker&quot;
 
    >[!NOTE]
    >
-   >U kunt dit ook doen in [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md), maar wij hebben het werkschema vereenvoudigd door dimensies ter beschikking te stellen in Berekende Metrische Bouwer. &quot;Adhoc&quot; betekent dat het segment niet zichtbaar is in de **[!UICONTROL Segments]** lijst in de linkerspoorstaaf. U kunt het echter openbaar maken door de muisaanwijzer boven het pictogram &quot;i&quot; naast het symbool te plaatsen en op **[!UICONTROL Make public]** te klikken.
+   >U kunt dit ook doen in het dialoogvenster [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md), maar we hebben de workflow vereenvoudigd door afmetingen beschikbaar te maken in de Calculated Metric Builder. &quot;Ad hoc&quot; betekent dat het segment niet zichtbaar is in de **[!UICONTROL Segments]** lijst in de linkerspoorstaaf. U kunt het echter openbaar maken door de muisaanwijzer boven het pictogram &quot;i&quot; naast het pictogram te plaatsen en op **[!UICONTROL Make public]**.
 
 1. Als u geen vergelijkbaar segment hebt, maakt u een segment met de naam &quot;Internationale Bezoekers&quot;, waarbij &quot;Landen&quot; niet gelijk is aan &quot;Duitsland&quot;.
 1. Bouw en bewaar metrisch genoemd &quot;Duitse Bezoekers&quot;door het segment van Duitsland in het canvas van de Definitie te slepen en de Unieke Bezoekers metrisch binnen het te slepen:
@@ -38,7 +38,7 @@ Laten we zeggen dat u verschillende aspecten van een &quot;Duitse bezoeker&quot;
    ![](assets/german-visitors.png)
 
 1. Herhaal Stap 3 met het Internationale segment van Bezoekers en de Unieke metrisch van Bezoekers om Internationale metrische Bezoekers tot stand te brengen.
-1. In Analysis Workspace, sleep **[!UICONTROL Page]** Dimension in een Lijst van de Vrije Vorm en sleep de 2 nieuwe berekende metriek naast elkaar aan de bovenkant:
+1. Sleep in Analysis Workspace de **[!UICONTROL Page]** Dimension in een lijst van de Vrije Vorm en sleep de 2 nieuwe berekende metriek naast elkaar aan de bovenkant:
 
    ![](assets/workspace-pages.png)
 

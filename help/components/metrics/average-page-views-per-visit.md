@@ -1,14 +1,14 @@
 ---
 title: Gemiddelde paginaweergaven per bezoek
 description: Het gemiddelde aantal keren dat een dimensie-item tijdens een bezoek werd weergegeven.
-translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+feature: Metrics
+exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
 
 ---
-
 
 # Gemiddelde paginaweergaven per bezoek
 
@@ -16,7 +16,7 @@ De afmeting &#39;Gemiddelde paginaweergaven per bezoek&#39; toont hoeveel pagina
 
 >[!TIP]
 >
->Gebruik deze metrische waarde naast een andere metrische waarde (zoals [Bezoekingen](visits.md)) om betere inzichten te verkrijgen. Als u deze metrisch op zich gebruikt, krijgt u afmetingspunten die afwijkende paginameningen per bezoek bevatten, die typisch niet waardevol is.
+>Deze metrische waarde gebruiken naast een andere metrische waarde (zoals [Bezoeken](visits.md)) om beter inzicht te krijgen. Als u deze metrisch op zich gebruikt, krijgt u afmetingspunten die afwijkende paginameningen per bezoek bevatten, die typisch niet waardevol is.
 
 ## Hoe deze metrische waarde wordt berekend
 
@@ -24,4 +24,4 @@ Deze metrische waarde wordt berekend met behulp van de formule [`Page views`](pa
 
 ## Percentage boven 100%
 
-Deze metrische waarde bevat vaak percentages boven 100%. De noemer is de gemiddelde paginaweergaven van de hele dimensie per bezoek, en de teller is de gemiddelde paginaweergaven per bezoek van het dimensie-item. Als de gemiddelde paginaweergaven van de gehele dimensie per bezoek lager zijn dan de gemiddelde paginaweergaven per bezoek van een bepaald dimensie-item, ziet u percentages boven 100%. Als u gerangschikte rapporten sorteert op basis van deze maateenheid, worden afwijkende gemiddelde paginaweergaven per bezoek weergegeven. Dit is doorgaans niet waardevol. Adobe raadt aan om in gerangschikte rapporten een andere maatstaf te gebruiken, zoals [Visits](visits.md).
+Deze metrische waarde bevat vaak percentages boven 100%. De noemer is de gemiddelde paginaweergaven van de hele dimensie per bezoek, en de teller is de gemiddelde paginaweergaven per bezoek van het dimensie-item. Als de gemiddelde paginaweergaven van de gehele dimensie per bezoek lager zijn dan de gemiddelde paginaweergaven per bezoek van een bepaald dimensie-item, ziet u percentages boven 100%. Als u gerangschikte rapporten sorteert op basis van deze maateenheid, worden afwijkende gemiddelde paginaweergaven per bezoek weergegeven. Dit is doorgaans niet waardevol. Adobe raadt aan om te sorteren met een andere waarde, zoals [Bezoeken](visits.md), in gerangschikte verslagen.

@@ -1,13 +1,14 @@
 ---
 description: U kunt de Classification Rule Builder niet combineren met subclassificaties.
 title: Subclassificaties en de Rule Builder
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+feature: Classifications
+exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 2%
 
 ---
-
 
 # Subclassificaties en de Rule Builder
 
@@ -23,11 +24,11 @@ Stel de volgende code in:
 
 `channel:broad_campaign:creative`
 
-Met een classificatiehiërarchie kunt u een classificatie toepassen op een classificatie (*`sub-classification`* genoemd). Dit betekent dat u de importer kunt gebruiken als een relationele database, met meerdere tabellen. In de ene tabel worden volledige volgcodes toegewezen aan sleutels en in de andere tabel worden deze codes toegewezen aan andere tabellen.
+Met een classificatiehiërarchie kunt u een classificatie toepassen op een classificatie (ook wel *`sub-classification`*). Dit betekent dat u de importer kunt gebruiken als een relationele database, met meerdere tabellen. In de ene tabel worden volledige volgcodes toegewezen aan sleutels en in de andere tabel worden deze codes toegewezen aan andere tabellen.
 
 ![](assets/sub_class_table.png)
 
-Nadat u deze structuur op zijn plaats hebt, kunt u [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md) gebruiken om kleine dossiers te uploaden die slechts de raadplegingslijsten (de groene en rode lijsten in het voorafgaande beeld) bijwerken. Dan, kunt u de regelbouwer gebruiken om de belangrijkste classificatielijst bijgewerkt te houden.
+Nadat u deze structuur hebt ingesteld, kunt u de opdracht [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md) om kleine dossiers te uploaden die slechts de raadplegingslijsten (de groene en rode lijsten in het voorafgaande beeld) bijwerken. Dan, kunt u de regelbouwer gebruiken om de belangrijkste classificatielijst bijgewerkt te houden.
 
 De volgende taak beschrijft hoe te om dit te verwezenlijken.
 
@@ -37,17 +38,17 @@ De stappen van het voorbeeld die beschrijven hoe u sub-classificaties kunt uploa
 
 >[!NOTE]
 >
->Deze stappen beschrijven hoe te om het gebruiksgeval te verwezenlijken dat in [Subclassificaties en de Bouwer van de Regel wordt beschreven](/help/components/classifications/crb/sub-classification-rule-builder.md).
+>In deze stappen wordt beschreven hoe u het in [Subclassificaties en de Rule Builder](/help/components/classifications/crb/sub-classification-rule-builder.md).
 
-1. Creëer classificaties en subclassificaties in [Classification Manager](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html).
+1. Classificaties en subclassificaties maken in de [Classificatiebeheer](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html).
 
    Voorbeeld:
 
    ![Stapinfo](assets/sub_class_create.png)
 
-1. In [de Bouwer van de Regel van classificaties](/help/components/classifications/crb/classification-rule-builder.md), classificeer de sub-classificatiesleutel van de originele het volgen code.
+1. In de [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md), classificeert u de subclassificatiesleutel van de oorspronkelijke trackingcode.
 
-   U voert dit uit gebruikend een regelmatige uitdrukking. In dit voorbeeld zou de regel voor het vullen *`Broad Campaign code`* deze reguliere expressie gebruiken:
+   U voert dit uit gebruikend een regelmatige uitdrukking. In dit voorbeeld wordt de regel voor vullen *`Broad Campaign code`* zou deze reguliere expressie gebruiken:
 
    | `#` | Type regel | Overeenkomst | Classificatie instellen | Naar |
    |---|---|---|---|---|
@@ -56,7 +57,7 @@ De stappen van het voorbeeld die beschrijven hoe u sub-classificaties kunt uploa
 
    >[!NOTE]
    >
-   >Op dit punt, bevolkt u niet de sub-classificaties *`Campaign Type`* en *`Campaign Director`*.
+   >U vult nu de subclassificaties niet in *`Campaign Type`* en *`Campaign Director`*.
 
 1. Upload een classificatiebestand dat alleen de opgegeven subclassificaties bevat.
 
@@ -64,13 +65,13 @@ De stappen van het voorbeeld die beschrijven hoe u sub-classificaties kunt uploa
 
    Voorbeeld:
 
-   | Sleutel | Kanaal | Code brede campagne | Code&amp;amp voor uitgebreide campagne;Hoed;Type campagne | Code&amp;amp voor uitgebreide campagne;Hoed;Campagne voor Director | ... |
+   | Sleutel | Kanaal | Code brede campagne | Code&amp;hoed voor brede campagne;Type campagne | Code&amp;hoed voor uitgebreide campagne;Campagne voor Director | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | Merk | Suzanne |  |
    | * |  | 222 | Merk | Frank |  |
 
 1. Upload een klein bestand (zoals hierboven weergegeven) om de opzoektabellen te onderhouden.
 
-   U zou dit dossier, bijvoorbeeld, uploaden wanneer nieuw *`Broad Campaign code`* wordt geïntroduceerd. Dit bestand is van toepassing op eerder geclassificeerde waarden. En als u een nieuwe subclassificatie maakt (zoals *`Creative Theme`* als een subclassificatie van *`Creative code`*), uploadt u alleen het bestand voor de subclassificatie in plaats van het volledige classificatiebestand.
+   U kunt dit bestand bijvoorbeeld uploaden wanneer u een nieuw bestand *`Broad Campaign code`* wordt ingevoerd. Dit bestand is van toepassing op eerder geclassificeerde waarden. En als u een nieuwe subclassificatie maakt (zoals *`Creative Theme`* als een subclassificatie van *`Creative code`*) uploadt u alleen het bestand voor de subclassificatie in plaats van het hele classificatiebestand.
 
    Voor de rapportage van deze subclassificaties werken deze precies op de bovenste classificaties. Dit vermindert de beheerslast die nodig is om ze te gebruiken.—>

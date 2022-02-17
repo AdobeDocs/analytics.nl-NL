@@ -1,14 +1,14 @@
 ---
 title: Opnieuw geladen
 description: Het aantal keren dat de pagina opnieuw is geladen.
-translation-type: tm+mt
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
+feature: Metrics
+exl-id: 9539a733-9e9f-48b3-b8ab-8d969de27f87
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 3%
 
 ---
-
 
 # Opnieuw geladen
 
@@ -16,4 +16,4 @@ De metrische waarde &#39;Opnieuw laden&#39; toont het aantal keren dat een afmet
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrische waarde telt het aantal treffers waar de [`Page`](../dimensions/page.md) afmeting de zelfde waarde zoals vorige klap bevat.
+Deze metrische waarde telt het aantal treffers waar [`Page`](../dimensions/page.md) dimensie bevat dezelfde waarde als de vorige hit.

@@ -1,14 +1,14 @@
 ---
 title: Bezoek nummer
 description: Het nde bezoek van de bezoeker.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Dimensions
+exl-id: daef34b3-c270-476d-a45c-a20be6138c6b
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
 
 ---
-
 
 # Bezoek nummer
 
@@ -18,6 +18,6 @@ De dimensierapporten &#39;Visitenummer&#39; die de bezoeker bezoeken, zijn momen
 
 Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite gegevens bevat, werkt deze dimensie.
 
-## Dimensie-items
+## Dimension-items
 
-Tot de items op de afmeting behoren de tekenreeks `"Visit number"` gevolgd door de numerieke representatie van het bezoek dat de bezoeker momenteel aandoet. Als de bezoeker bijvoorbeeld nog nooit eerder naar uw site is geweest, behoort het eerste bezoek tot het dimensie-item `"Visit number 1"`. Als dit het dertiende bezoek van de bezoeker aan uw plaats is, behoren zij tot het afmetingspunt `"Visit number 13"`.
+Dimension-items bevatten de tekenreeks `"Visit number"` gevolgd door de numerieke weergave van het bezoek dat de bezoeker momenteel aanbrengt. Als de bezoeker bijvoorbeeld nog nooit eerder naar uw site is geweest, behoort het eerste bezoek tot het dimensie-item `"Visit number 1"`. Als dit het dertiende bezoek van de bezoeker aan uw plaats is, behoren zij tot het afmetingspunt `"Visit number 13"`.

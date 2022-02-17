@@ -1,14 +1,14 @@
 ---
 title: Totalen van berekende standaard
 description: Leer hoe berekende metriettotalen verschillen in Analysesoftware
-translation-type: tm+mt
-source-git-commit: bbe2b96960fd5aa6df331a77fdf5b04a769b6e84
+feature: Calculated Metrics
+exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 1%
 
 ---
-
 
 # Totalen van berekende standaard
 
@@ -16,9 +16,9 @@ Hoe berekende metrische totalen worden getoond verschilt tussen [!DNL Reports & 
 
 ## Berekende metrische totalen in [!DNL Reports & Analytics]
 
-Wanneer u rapporten in bekijkt [!DNL Reports & Analytics], tonen de berekende metriek altijd `n/a` onder het totaal. Aangezien alle berekende metriek user-defined zijn, zijn er vele omstandigheden waar dit totaal geen steek houdt. Bekijk het volgende voorbeeld:
+Wanneer u rapporten bekijkt in [!DNL Reports & Analytics], berekende metriek altijd weergeven `n/a` onder het totaal. Aangezien alle berekende metriek user-defined zijn, zijn er vele omstandigheden waar dit totaal geen steek houdt. Bekijk het volgende voorbeeld:
 
-Uw organisatie heeft de berekende metrisch `orders` / `visits` gecreeerd om het percentage bezoeken te bepalen dat iets op uw plaats kocht. Als u deze metrisch in een productrapport bracht, worden verscheidene producten toegeschreven aan één enkele orde. Verschillende producten worden aan één enkel bezoek toegeschreven. Indien in dit verslag een berekend metrisch totaal is opgenomen, rijzen de volgende vragen:
+Uw organisatie heeft berekend metrisch gecreeerd `orders` / `visits` om het percentage te bepalen van bezoeken dat iets op uw plaats kocht. Als u deze metrisch in een productrapport bracht, worden verscheidene producten toegeschreven aan één enkele orde. Verschillende producten worden aan één enkel bezoek toegeschreven. Indien in dit verslag een berekend metrisch totaal is opgenomen, rijzen de volgende vragen:
 
 | Vraag | Antwoord |
 |---|---|
@@ -29,8 +29,8 @@ Aangezien er geen logische en concrete methode is om te bepalen of een berekende
 
 * Creeer berekende metrisch die de Totale versies van de metriek omvat die u wilt omvatten.
 * Creeer een rapport van het Uittreksel van Gegevens, dat kan worden gepland.
-* Create a data request within [!DNL ReportBuilder].
-* Gebruik [!DNL Analysis Workspace] (zie hieronder).
+* Een gegevensverzoek maken binnen [!DNL ReportBuilder].
+* Gebruiken [!DNL Analysis Workspace] (zie hieronder).
 
 ## Berekende metrische totalen in [!DNL Analysis Workspace]
 
@@ -38,8 +38,7 @@ Wanneer u gegevens in Analysis Workspace bekijkt, worden de berekende metrische 
 
 Wanneer totalen worden weergegeven, worden ze vaak berekend aan de serverzijde, wat betekent dat het totaal gegevens zoals bezoeken of bezoekers dedupliceert. Onder bepaalde omstandigheden worden berekende metriek aan de clientzijde gegenereerd door de rijen van de tabel bij elkaar op te tellen. Dit betekent dat het totaal metriek zoals bezoekers of bezoekers niet dedupliceert. Dit gebeurt:
 
-* Wanneer [statische rijen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) worden gebruikt in Freeform-tabellen en de **[!UICONTROL Show as sum of current rows]** optie (standaard) is geselecteerd.
-* In de [Donut-visualisatie](/help/analyze/analysis-workspace/visualizations/donut.md), zodat de aantallen tot 100% in elkaar optellen.
+* Wanneer [statische rijen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) worden gebruikt in Freeform-tabellen en de **[!UICONTROL Show as sum of current rows]** (standaard) is geselecteerd.
+* In de [Donut visualisatie](/help/analyze/analysis-workspace/visualizations/donut.md), zodat getallen oplopen tot 100%.
 
-Voor meer informatie over totalen in Analysis Workspace gaat u naar de totalen van de [werkruimte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=en#static-row-total).
-
+Ga voor meer informatie over totalen in Analysis Workspace naar [Totalen werkruimte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=en#static-row-total).

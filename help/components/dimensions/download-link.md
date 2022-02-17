@@ -1,14 +1,14 @@
 ---
 title: Koppeling downloaden
 description: De naam van de downloadkoppeling.
-translation-type: tm+mt
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+feature: Dimensions
+exl-id: 078014a2-1f09-4177-9575-b44c5da25816
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
 
 ---
-
 
 # Koppeling downloaden
 
@@ -20,9 +20,9 @@ De dimensie &#39;Download link&#39; rapporteert de namen van downloadkoppelingen
 
 ## Deze dimensie vullen met gegevens
 
-Deze afmeting verzamelt gegevens van [`pev2` vraagkoord](/help/implement/validate/query-parameters.md) in beeldverzoeken voor treffers die ook `pe` vraagkoord met de waarde van `lnk_d` hebben. Als de query-tekenreeks `pe` een andere waarde heeft in de hit, worden met deze dimensie geen gegevens verzameld.
+Deze dimensie verzamelt gegevens van de [`pev2` querytekenreeks](/help/implement/validate/query-parameters.md) in afbeeldingsaanvragen voor treffers die ook `pe` querytekenreeks met de waarde van `lnk_d`. Als de `pe` queryreeks heeft een andere waarde in de hit, deze dimensie verzamelt geen gegevens.
 
-Als u gegevens naar deze afmeting wilt verzenden gebruikend AppMeasurement, verzend een [`tl()`](/help/implement/vars/functions/tl-method.md) beeldverzoek met een koppelingstype argument van `"d"`. Vul het argument voor de naam van de koppeling met de gewenste waarde.
+Als u gegevens naar deze afmeting wilt verzenden gebruikend AppMeasurement, verzend een [`tl()`](/help/implement/vars/functions/tl-method.md) afbeeldingsverzoek met een koppelingstype-argument van `"d"`. Vul het argument voor de naam van de koppeling met de gewenste waarde.
 
 ## Dimension-items
 

@@ -1,11 +1,11 @@
 ---
 description: De berekende metrierechten verschillen tussen gebruikers op beheerdersniveau en gebruikers zonder beheerdersrechten.
 title: Berekende metrieke op rol-gebaseerde rechten
-uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
+feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,9 @@ De berekende metrierechten verschillen tussen gebruikers op beheerdersniveau en 
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Gebruikers op beheerniveau</b> </td> 
-   <td colname="col02"> Beheerders kunnen berekende metriek maken en <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html"  > groepen </a> maken om de rechten van gebruikers om berekende metriek tot stand te brengen te beperken. </td> 
+   <td colname="col02"> Beheerders kunnen berekende metriek maken en in de Admin Console productprofielen maken om de rechten van gebruikers om berekende metriek te maken te beperken. </td> 
    <td colname="col2"> Kan met volledig bedrijf, met gebruikersgroepen, en met individuele gebruikers delen. </td> 
-   <td colname="col3"> <span class="keyword"> Rapporten en analyses</span>: Kan weergeven/bewerken/verwijderen/enzovoort. hun eigen berekende cijfers en die van andere gebruikers. <p> <span class="keyword"> Report Builder  </span>: Kan weergeven/bewerken/verwijderen/enzovoort. haar eigen berekende maatstaven en de maatstaven die ermee worden gedeeld. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Rapporten en analyses</span>: Kan weergeven/bewerken/verwijderen/enzovoort. hun eigen berekende cijfers en die van andere gebruikers. <p> <span class="keyword"> Report Builder </span>: Kan weergeven/bewerken/verwijderen/enzovoort. haar eigen berekende maatstaven en de maatstaven die ermee worden gedeeld. </p> </td> 
    <td colname="col4"> Kan berekende metriek goedkeuren als canonicaal. </td> 
    <td colname="col5"> Kan berekende waarden toepassen in de hele organisatie. </td> 
   </tr> 

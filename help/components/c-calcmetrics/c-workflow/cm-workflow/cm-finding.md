@@ -1,24 +1,26 @@
 ---
 description: Beschrijft de twee belangrijkste manieren om uw metriek het sorteren en het filtreren te vinden.
-title: Metrische gegevens zoeken
-uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+title: Cijfers zoeken
+feature: Calculated Metrics
+exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 2%
 
 ---
 
-
-# Metrische gegevens zoeken
+# Cijfers zoeken
 
 Beschrijft de twee belangrijkste manieren om uw metriek te vinden: sorteren en filteren.
 
 ## Sorteren {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-Wanneer u een rapport opent en het pictogram Metriek links van een rapport klikt ![](assets/metrics_icon.png) om de spoorstaaf van Metriek omhoog te brengen, toont de **[!UICONTROL Sort By]** drop-down lijst in de Kiezer van de Striek vier sorteeropties:
+Wanneer u een rapport opent en op het pictogram Metriek klikt  ![](assets/metrics_icon.png) links van een rapport over de metrieke spoorlijn, de **[!UICONTROL Sort By]** In de vervolgkeuzelijst Metrisch selecteren worden vier sorteeropties weergegeven:
 
 ![](assets/cm_sort.png)
 
-| Option | Wanneer gebruikt u het |
+| Optie | Wanneer gebruikt u het |
 |---|---|
 | Alfabetisch | Nuttig als u de naam kent. |
 | Aanbevolen | De gemeenschappelijke metriek die de mensen in het rapport gebruiken - dit wordt verzameld door het achtereind van metrieke gebruikers algemeen met dit rapport gebruiken. |
@@ -27,7 +29,7 @@ Wanneer u een rapport opent en het pictogram Metriek links van een rapport klikt
 
 ## Filteren - Geavanceerde selectie {#section_33818CC048C04F098703AC229693F8CA}
 
-Wanneer u een rapport opent en het pictogram Metriek klikt, dan klik **[!UICONTROL Manage]**. Klik nu op het pictogram Filter. U kunt op verschillende manieren filteren.
+Wanneer u een rapport opent en op het pictogram Metriek klikt, klikt u op **[!UICONTROL Manage]**. Klik nu op het pictogram Filter. U kunt op verschillende manieren filteren.
 
 ![](assets/cm_advanced_sel.png)
 
@@ -41,15 +43,15 @@ Wanneer u een rapport opent en het pictogram Metriek klikt, dan klik **[!UICONTR
  <tbody> 
   <tr> 
    <td colname="col1"> Alle metriek tonen in deze rapportsuite. </td> 
-   <td colname="col2"><span class="ignoretag"><span class="uicontrol"> Overige filters</span> &gt; Alle <span class="uicontrol"> tonen</span></span> </td> 
+   <td colname="col2"><span class="ignoretag"><span class="uicontrol"> Overige filters</span> &gt; <span class="uicontrol"> Alles tonen</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Alleen de cijfers tonen die u hebt </td> 
-   <td colname="col2"><span class="uicontrol"> Overige filters</span> &gt; <span class="uicontrol"> Mijnbouw</span> </td> 
+   <td colname="col2"><span class="uicontrol"> Overige filters</span> &gt; <span class="uicontrol"> Mijn</span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Metrische gegevens weergeven die door iemand anders met mij zijn gedeeld </td> 
-   <td colname="col2">Eigenaars <span class="uicontrol"></span> of <p><span class="uicontrol"> Overige filters</span> &gt; <span class="uicontrol"> Met mij gedeeld</span> </p> </td> 
+   <td colname="col2">Willekeurig <span class="uicontrol"> Eigenaars</span> of <p><span class="uicontrol"> Overige filters</span> &gt; <span class="uicontrol"> Gedeeld met mij</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Toon slechts metriek die door het bedrijf worden goedgekeurd. </td> 
@@ -57,8 +59,7 @@ Wanneer u een rapport opent en het pictogram Metriek klikt, dan klik **[!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> Filter op de metriek voor een project u aan werkt. </td> 
-   <td colname="col2">Een van de <span class="uicontrol"> tags</span>. </td> 
+   <td colname="col2">Een van de <span class="uicontrol"> Tags</span>. </td> 
   </tr> 
  </tbody> 
 </table>
-

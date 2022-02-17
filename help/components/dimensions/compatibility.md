@@ -1,18 +1,18 @@
 ---
-title: Compatibiliteit met Analytics-afmetingen
-description: Referentie voor Analytics-afmetingen en -rapporten.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+title: Compatibiliteit met analytische Dimension
+description: Referentie voor analytische afmetingen en rapporten.
+feature: Dimensions
+exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 8%
 
 ---
 
+# Compatibiliteit met analytische Dimension
 
-# Compatibiliteit met Analytics-afmetingen
-
-Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de respectievelijke Analytics-mogelijkheden.
+Deze pagina bevat een overzicht van de afmetingen die worden ondersteund in de respectievelijke analysemogelijkheden.
 
 >[!NOTE]
 >
@@ -20,13 +20,13 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de
 
 >[!NOTE]
 >
->Er zijn enkele overlappingen waarbij Analytics-gereedschappen verschillende termen gebruiken voor vergelijkbare dimensies. Rapporten en Analytics gebruiken bijvoorbeeld `browserwidth` terwijl Analysis Workspace dit gebruikt `browserwidthbucketed`.
+>Er zijn enkele overlappingen waarbij de analysefuncties verschillende termen gebruiken voor vergelijkbare afmetingen. Rapporten en analyses gebruiken bijvoorbeeld `browserwidth` terwijl Analysis Workspace `browserwidthbucketed`.
 
-## Dimensies die worden ondersteund in zowel Rapporten als Analytics en Analysis Workspace
+## Dimension die zowel in Rapporten &amp; Analytics als Analysis Workspace worden ondersteund
 
-| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |---|---|
-| Analytics voor Target | `targetraw` |
+| Analyses voor doel | `targetraw` |
 | Soorten publiek-id | `mcaudiences` |
 | Browser | `browser` |
 | Browsertype | `browsertype` |
@@ -37,8 +37,8 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de
 | Cookie-ondersteuning | `cookie` |
 | Landen | `geocountry` |
 | Klantloyaliteit | `customerloyalty` |
-| Aangepaste conversievars | `evar1`, `evar2`enz. |
-| Custom Insight Vars | `prop1`, `prop2`enz. |
+| Aangepaste conversievars | `evar1`, `evar2`, enz. |
+| Custom Insight Vars | `prop1`, `prop2`, enz. |
 | Aangepaste koppeling | `customlink` |
 | Dagen vóór eerste aankoop | `daysbeforefirstpurchase` |
 | Dagen sinds laatste aankoop | `dayssincelastpurchase` |
@@ -102,9 +102,9 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de
 | Bezoeknummer | `visitnumber` |
 | Postcode | `zip` |
 
-## Afmetingen worden alleen ondersteund in Analysis Workspace
+## Dimension die alleen in Analysis Workspace worden ondersteund
 
-| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | AM/PM | `timepartampm` |
 | Browserhoogte - Emmerd | `browserheightbucketed` |
@@ -155,7 +155,7 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de
 
 ## Afmetingen met behoud van inhoud worden alleen ondersteund in Analysis Workspace
 
-| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Activity Map XY | `clickmapxy` |
 | Mediasessie-id | `videosessionid` |
@@ -164,9 +164,9 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de
 | Nielsen Channel Asset | `nielsenchannelasset` |
 | Nielsen-inhoudstype | `nielsencontenttype` |
 
-## Afmetingen worden alleen ondersteund in Rapporten en Analytics
+## Dimension die alleen worden ondersteund in rapporten en analyses
 
-| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Browserhoogte | `browserheight` |
 | Browserbreedte | `browserwidth` |
@@ -185,7 +185,7 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de
 
 ### Video (Media Analytics)
 
-| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Inhoud | `video` |
 | Segment Inhoud | `videosegment` |
@@ -235,7 +235,7 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de
 
 ### Adobe Social
 
-| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Voorwaarden | `socialterm` |
 | Sociale Platforms/eigenschappen | `socialcontentprovider` |
@@ -257,7 +257,7 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de
 
 ### Mobile SDK
 
-| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Eerste startdatum | `mobileinstalldate` |
 | Toepassings-id | `mobileappid` |
@@ -294,14 +294,14 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de
 
 ### Adobe Advertising Cloud (AMO)
 
-| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | AMO EF-ID | `amo_ef_id` |
 | AMO-id | `amo_cid` |
 
 ### Activity Map
 
-| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Koppeling Activity Mappen per regio | `clickmaplinkbyregion` |
 | Activity Map | `clickmapregion` |
@@ -310,9 +310,9 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund door de
 
 ### Nielsen Integration
 
-Raadpleeg de extensie [Nielsen voor meer informatie over het implementeren van deze integratie](https://exchange.adobe.com/experiencecloud.details.101361.html).
+Voor meer informatie over hoe te om deze integratie uit te voeren, zie [Nielsen Extension](https://exchange.adobe.com/experiencecloud.details.101361.html).
 
-| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Nielsen AdModel | `nielsenadmodel` |
 | Nielsen Segment C | `nielsensegmentc` |
@@ -333,7 +333,7 @@ Raadpleeg de extensie [Nielsen voor meer informatie over het implementeren van d
 
 ### Adobe Experience Manager (AEM)
 
-| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Element-id | `aemassetid` |
 | Middelbron | `aemassetsource` |
@@ -343,6 +343,6 @@ Raadpleeg de extensie [Nielsen voor meer informatie over het implementeren van d
 
 ### Adobe Campaign
 
-| Naam van dimensie (zichtbaar in gebruikersinterface van Analytics) | Dimensie-id (wordt gebruikt in API-aanvragen) |
+| Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |
 | Uitgevoerde levering-id van Adobe Campaign | `ac_delivery_internal_name` |

@@ -2,12 +2,10 @@
 description: Filteren op tags, eigenaars en andere filters (Alles weergeven, Mijne, Gedeeld met mij, Favorieten en Goedgekeurd.)
 title: Segmenten filteren
 feature: Segmentation
-uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '153'
 ht-degree: 3%
 
 ---
@@ -18,7 +16,7 @@ Filteren op tags, eigenaars en andere filters (Alles weergeven, Mijne, Gedeeld m
 
 Door te filteren kunt u gemakkelijker naar segmenten in de segmentrail zoeken.
 
-1. Klik in Segmentbeheer op het pictogram **[!UICONTROL Filters]**:  ![](assets/filter_icon.png)
+1. Klik in Segmentbeheer op de knop **[!UICONTROL Filters]** pictogram:  ![](assets/filter_icon.png)
 
    ![](assets/filtering.png)
 
@@ -28,9 +26,9 @@ Door te filteren kunt u gemakkelijker naar segmenten in de segmentrail zoeken.
    |---|---|
    | Tags | Hiermee kunt u filteren op segmenten met specifieke [tags](/help/components/segmentation/segmentation-workflow/seg-tag.md). De kolom Codes wordt standaard weergegeven. |
    | Eigenaars | Hiermee kunt u segmenten filteren op eigenaar. |
-   | Overige filters > Alles tonen | **(Alleen beheerder)** Hiermee geeft u alle segmenten, de eigenaar en de laatste datum weer waarop ze zijn gewijzigd. |
+   | Overige filters > Alles tonen | **(Alleen beheerder)** Toont alle segmenten, hun eigenaar, en de laatste datum zij werden gewijzigd. |
    | Overige filters > Mine | Toont alle segmenten die u bezit. |
-   | Overige filters > Met mij gedeeld | Toont alle segmenten die anderen [met u deelden](/help/components/segmentation/segmentation-workflow/t-seg-share.md). |
-   | Overige filters > Favorieten | Toont alle segmenten u als [Favorieten ](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) merkte. |
-   | Overige filters > Goedgekeurd | Toont alle officieel [goedgekeurde ](/help/components/segmentation/segmentation-workflow/seg-approve.md) segmenten. |
+   | Overige filters > Met mij gedeeld | Alle segmenten tonen die anderen [gedeeld](/help/components/segmentation/segmentation-workflow/t-seg-share.md) met u. |
+   | Overige filters > Favorieten | Hiermee worden alle segmenten weergegeven die u hebt gemarkeerd als [Favorieten](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
+   | Overige filters > Goedgekeurd | Alle officieel tonen [goedgekeurd](/help/components/segmentation/segmentation-workflow/seg-approve.md) segmenten. |
    | Segmenten zoeken | Hiermee kunt u naar segmenten op naam zoeken. |
