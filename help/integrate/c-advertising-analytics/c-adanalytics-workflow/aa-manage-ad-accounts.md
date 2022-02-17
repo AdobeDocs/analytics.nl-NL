@@ -1,19 +1,18 @@
 ---
 description: Accounts beheren in Advertising Analytics.
 title: Advertentieaccounts beheren
-uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Advertising Analytics
+exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 7%
 
 ---
 
-
 # Advertentieaccounts beheren
 
-U kunt tot Beheer UI toegang hebben door aan **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]** te navigeren.
+U kunt tot Beheer UI toegang hebben door te navigeren aan **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
 
 ![](assets/manage_ad_accounts.png)
 
@@ -27,11 +26,11 @@ U kunt tot Beheer UI toegang hebben door aan **[!UICONTROL Admin]** > **[!UICONT
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Handelingen</b> </p> </td> 
-   <td colname="col2"> <p><b>Opmerking: Handelingen worden alleen weergegeven als u ten minste één advertentieaccount hebt geselecteerd.  </b> </p> </td> 
+   <td colname="col2"> <p><b>Opmerking: Handelingen worden alleen weergegeven als u ten minste één advertentieaccount hebt geselecteerd. </b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Toevoegen </p> </td> 
-   <td colname="col2"> <p>Neemt u aan <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > de Rekening van de Reclame van de Opstelling </a> UI. </p> </td> 
+   <td colname="col2"> <p>Hiermee gaat u naar de <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > Advertentieaccount instellen</a> UI. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Naam wijzigen </p> </td> 
@@ -43,7 +42,7 @@ U kunt tot Beheer UI toegang hebben door aan **[!UICONTROL Admin]** > **[!UICONT
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pauzeren </p> </td> 
-   <td colname="col2"> <p>Hiermee deactiveert u de account. Klik op <span class="uicontrol"> Activeren</span> om de toepassing opnieuw te activeren. </p> </td> 
+   <td colname="col2"> <p>Hiermee deactiveert u de account. Klik op <span class="uicontrol"> Activeren</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Kolomkoppen</b> </p> </td> 
@@ -79,4 +78,3 @@ U kunt tot Beheer UI toegang hebben door aan **[!UICONTROL Admin]** > **[!UICONT
   </tr> 
  </tbody> 
 </table>
-

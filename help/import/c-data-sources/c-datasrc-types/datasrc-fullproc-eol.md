@@ -1,8 +1,9 @@
 ---
 title: Einde van levensduur voor bronnen van volledige verwerkingsgegevens
 description: Redenen voor het einde van de levensduur en vergelijkingen tussen de API voor het invoegen van gegevens in bulk en de gegevensbronnen voor volledige verwerking.
+feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 5%

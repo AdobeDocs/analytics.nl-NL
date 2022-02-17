@@ -3,9 +3,9 @@ description: Stappen die u kunt nemen om gegevensbronnen voor te bereiden
 subtopic: Data sources
 title: Voorbereiden op het gebruik van gegevensbronnen
 topic-fix: Developer and implementation
-uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%
@@ -24,11 +24,11 @@ Stappen die u kunt nemen om gegevensbronnen voor te bereiden
 
 ## De metriek identificeren en een naam geven {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
-Het is belangrijk om de metriek of de metingen te begrijpen die in uw gegevensbronnen, zoals *`Off-line Sales Revenue by Product`*, *`Returns by Product`*, of *`Ad Impressions by Campaign`* zijn. Dit zijn de namen die u met rapportmetriek (gebeurtenissen, steunen, en steunen) kunt associëren.
+Het is belangrijk om de metriek of de metingen te begrijpen die in uw gegevensbronnen, zoals *`Off-line Sales Revenue by Product`*, *`Returns by Product`*, of *`Ad Impressions by Campaign`*. Dit zijn de namen die u met rapportmetriek (gebeurtenissen, steunen, en steunen) kunt associëren.
 
 Nadat u aangewezen metrisch-aan-gebeurtenis afbeeldingen voor de gegevens van Gegevensbronnen bepaalt, noem de gebeurtenissen met beschrijvende namen aangewezen voor de bijbehorende Metrische Gegevensbronnen anders.
 
-Zie [Gebeurtenissen met succes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in de Help voor beheerprogramma&#39;s.
+Zie [Gebeurtenissen geslaagd](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in de Help bij Admin Tools.
 
 >[!NOTE]
 >
@@ -36,11 +36,11 @@ Zie [Gebeurtenissen met succes](https://experienceleague.adobe.com/docs/analytic
 
 ## Identificeer de Dimension van Gegevens {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
-Identificeer en verzamel de gegevens (rapporten) die u wilt gebruiken om de metriek te verdelen die door Gegevensbronnen wordt ingevoerd. Deze gegevens worden *`data dimensions`* genoemd.
+Identificeer en verzamel de gegevens (rapporten) die u wilt gebruiken om de metriek te verdelen die door Gegevensbronnen wordt ingevoerd. Deze gegevens worden bekend als *`data dimensions`*.
 
 Bijvoorbeeld, als een Gegevensbronnen metrische maatregelen en indrukkingen, is uw gegevensdimensie waarschijnlijk de campagne volgende code. Als u off-line verkoop meet, zou u productcode (of SKU) als uw gegevensdimensie kunnen willen gebruiken.
 
-U kunt veelvoudige gegevensafmetingen aan metrisch bepalen, maar elke metrisch moet een relevante waarde, of een combinatie waarden, voor elke bijbehorende gegevensdimensie verstrekken. Als u bijvoorbeeld een Offlineverkoop importeert en koppelt aan de gegevensafmetingen *`Product`* en *`Partner`*, moet de Offlineverkoop relevant zijn voor elke combinatie van product en partner (bijvoorbeeld Totale inkomsten).
+U kunt veelvoudige gegevensafmetingen aan metrisch bepalen, maar elke metrisch moet een relevante waarde, of een combinatie waarden, voor elke bijbehorende gegevensdimensie verstrekken. Bijvoorbeeld, als u metrisch van de Verkoop van de Off-line invoert en het met associeert *`Product`* en *`Partner`* gegevensdimensies, moet de off-line metrische waarde van de Verkoop voor elke combinatie van product en partner (bijvoorbeeld, Totale Inkomsten) relevant zijn.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Nadat u de gegevensafmetingen bepaalt om met een gegevensbron te gebruiken, inte
 
 Wanneer u Vars gebruikt, kunt u bestaande of nieuwe Vars gebruiken als gegevensafmetingen. Na het selecteren van een eVar om een gegevensdimensie van Gegevensbronnen te ontvangen, zorg ervoor u hen geschikt noemt.
 
-Zie [Gebeurtenissen met succes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in de Help bij Analytics.
+Zie [Gebeurtenissen geslaagd](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in de Help bij Analytics.
 
 ## Code bijhouden campagne {#section_468222796FF449ABAA90D88EB3264CB1}
 

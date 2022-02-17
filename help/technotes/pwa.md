@@ -2,8 +2,9 @@
 title: PWA voor Analytics
 description: Progressieve webapps voor Adobe Analytics
 role: User, Admin
+feature: Progressive Web Apps
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -22,13 +23,13 @@ Adobe Analytics werkt net zo naadloos met PWA als met traditionele websites. Hoe
 
 ## Uw PWA Analytics-gegevens ophalen
 
-Als u uw PWA-gegevens wilt verzamelen en analyseren met [!UICONTROL Analytics], hoeft u geen configuratiewijzigingen aan te brengen. [!UICONTROL Analytics] biedt automatisch dezelfde functionaliteit en functies als bij een traditionele website.
+Om uw PWA gegevens met te verzamelen en te analyseren [!UICONTROL Analytics]hoeft u geen configuratiewijzigingen aan te brengen. [!UICONTROL Analytics] biedt automatisch dezelfde functionaliteit en functies als bij een traditionele website.
 
 ## Offline bijhouden toevoegen om de doeltreffendheid van PWA te verhogen
 
-U kunt de doeltreffendheid van uw PWA verhogen door Adobe Analytics [offlinetraceringsmogelijkheden](/help/implement/vars/config-vars/trackoffline.md) met het te gebruiken. Deze functie is standaard uitgeschakeld, maar u kunt de volgende eigenschap toevoegen aan het bestand AppMeasurement.js om deze in te schakelen: `s.trackOffline=true;`.
+U kunt de effectiviteit van uw PWA verhogen door Adobe Analytics te gebruiken [mogelijkheden voor offline bijhouden](/help/implement/vars/config-vars/trackoffline.md) ermee. Deze functie is standaard uitgeschakeld, maar u kunt de volgende eigenschap toevoegen aan het bestand AppMeasurement.js om deze in te schakelen: `s.trackOffline=true;`.
 
-Bijvoorbeeld, in het volgende dossier AppMeetings.js, wordt het bezit toegevoegd aan het eind van `CONFIG SECTION`:
+In het volgende bestand AppMeturement.js wordt de eigenschap bijvoorbeeld toegevoegd aan het einde van het dialoogvenster `CONFIG SECTION`:
 
 ```
 /************************** CONFIG SECTION **************************/ 
@@ -46,6 +47,6 @@ s.trackOffline=true
 *** 
 ```
 
-Voor meer informatie over het vormen van het dossier AppMeasurement.js, zie [Overzicht van de variabelen van de Configuratie](/help/implement/vars/config-vars/configuration-variables.md) en de individuele variabelespecifieke pagina&#39;s in het zelfde subhoofdstuk.
+Zie voor meer informatie over het configureren van het bestand AppMeasurement.js [Overzicht van configuratievariabelen](/help/implement/vars/config-vars/configuration-variables.md) en de afzonderlijke variabelespecifieke pagina&#39;s in hetzelfde subhoofdstuk.
 
-Voor meer informatie over de kenmerken van het dossier AppMeasurement.js, zie [overzicht van de implementatie JavaScript](/help/implement/js/overview.md).
+Voor meer informatie over de kenmerken van het bestand AppMeasurement.js raadpleegt u de [Overzicht van JavaScript-implementatie](/help/implement/js/overview.md).

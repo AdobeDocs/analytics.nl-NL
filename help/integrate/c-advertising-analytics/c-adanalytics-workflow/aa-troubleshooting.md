@@ -1,9 +1,9 @@
 ---
 description: Problemen met Advertising Analytics oplossen en oplossen.
 title: Problemen met Advertising Analytics oplossen
-uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
+feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 4%
@@ -13,11 +13,11 @@ ht-degree: 4%
 # Problemen met Advertising Analytics oplossen
 
 * [Ik zie mijn rapportsuite niet in de sectie Toewijzing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
-* [Er treedt een fout op bij het verifiëren bij Google Adwords-account...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
+* [Er treedt een fout op bij het verifiëren bij Google Adwords Account...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## Ik zie mijn rapportsuite niet in de sectie Toewijzing {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-U probeert [een nieuw Advertising Account in te stellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) en u ziet uw rapportsuite niet in de vervolgkeuzelijst **[!UICONTROL Select Report Suite]**. Hiervoor zijn twee mogelijke redenen:
+U probeert [Een nieuwe advertentieaccount instellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) en u ziet uw rapportsuite niet in de **[!UICONTROL Select Report Suite]** vervolgkeuzelijst. Hiervoor zijn twee mogelijke redenen:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -33,7 +33,7 @@ U probeert [een nieuw Advertising Account in te stellen](/help/integrate/c-adver
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. De rapportsuite is niet ingericht voor Advertising Analytics-rapportage. </p> </td> 
-   <td colname="col2"> <p>Raadpleeg <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > Providingrapport Suite</a> voor instructies. </p> </td> 
+   <td colname="col2"> <p>Zie <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > Voorzorgsrapportsuite</a> voor instructies. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +49,7 @@ U probeert [een nieuw Advertising Account in te stellen](/help/integrate/c-adver
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Verificatie op Google AdWords met een e-mailaccount dat ook is gekoppeld aan een AdWords Manager-account werkt niet. </p> </td> 
+   <td colname="col1"> <p>Het verifiëren aan Google AdWords met een e-mailrekening die ook met een Rekening van de Manager AdWords wordt verbonden zal niet werken. </p> </td> 
    <td colname="col2"> <p>Gebruik voor verificatie een andere e-mail die aan hetzelfde AdWords-account is gekoppeld. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,12 +1,10 @@
 ---
 description: Wijst de browser om naar een nieuwe locatie zonder tussenkomst van de gebruiker. Ze worden uitgevoerd in de webbrowser (omleiding client-side) of op de webserver (omleiding server-side).
 keywords: Analyseimplementatie
-subtopic: Redirects
 title: Omleiding en aliassen
-topic-fix: Developer and implementation
-uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
+feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 0%
@@ -23,32 +21,32 @@ Wijst de browser om naar een nieuwe locatie zonder tussenkomst van de gebruiker.
 
 Omdat omleidingen geen gebruikersinteractie vereisen, worden omleidingen vaak uitgevoerd zonder dat de gebruiker dit merkt. Het enige wat aangeeft dat er een omleiding is opgetreden, is de adresbalk van de browser. Op de adresbalk wordt een URL weergegeven die afwijkt van de koppeling die de browser oorspronkelijk heeft aangevraagd.
 
-Hoewel er slechts twee soorten omleidingen zijn, kunnen deze op verschillende manieren worden geïmplementeerd. Bijvoorbeeld, cliënt-zijomleiding kan voorkomen omdat de Web-pagina waaraan een gebruiker zijn of haar browser heeft gericht scripting of speciale HTML- code bevat die browser aan een andere URL opnieuw richt. Server-side omleidingen kunnen optreden omdat de pagina serverscripts bevat of omdat de webserver zo is geconfigureerd dat de gebruiker naar een andere URL wijst.
+Hoewel er slechts twee soorten omleidingen zijn, kunnen deze op verschillende manieren worden geïmplementeerd. Bijvoorbeeld, cliënt-zijomleiding kan voorkomen omdat de Web-pagina waaraan een gebruiker zijn of haar browser heeft gericht scripting of speciale HTML code bevat die browser aan een andere URL opnieuw richt. Server-side omleidingen kunnen optreden omdat de pagina serverscripts bevat of omdat de webserver zo is geconfigureerd dat de gebruiker naar een andere URL wijst.
 
 ## Analyse en omleiding {#concept_F9132879D0CB4AC1BE7AF45E388A47F7}
 
-[!DNL Analytics] verzamelt enkele gegevens uit de browser en vertrouwt op bepaalde browsereigenschappen. Twee van deze eigenschappen, de &quot;Verwijzende URL&quot; (of &quot;verwijzende URL&quot;) en de &quot;Huidige URL&quot; kunnen worden gewijzigd door een omleiding aan de serverzijde. Omdat de browser weet dat er een URL is aangevraagd, maar een andere URL is geretourneerd, wist deze de URL waarnaar wordt verwezen. Het resultaat is dat de verwijzende URL leeg is en dat [!DNL Analytics] mogelijk aangeeft dat er geen referentie voor de pagina bestaat.
+[!DNL Analytics] verzamelt enkele gegevens uit de browser en vertrouwt op bepaalde browsereigenschappen. Twee van deze eigenschappen, de &quot;Verwijzende URL&quot; (of &quot;verwijzende URL&quot;) en de &quot;Huidige URL&quot; kunnen worden gewijzigd door een omleiding aan de serverzijde. Omdat de browser weet dat er een URL is aangevraagd, maar een andere URL is geretourneerd, wist deze de URL waarnaar wordt verwezen. Het resultaat is dat de verwijzende URL leeg is, en [!DNL Analytics] zou kunnen melden dat geen verwijzer voor de pagina bestond.
 
 ## Voorbeeld: Bladeren zonder omleidingen {#section_5C835A4D665A4625A23333C2C21F152D}
 
 Overweeg het volgende hypothetische scenario waarin de gebruiker geen omleiding ontmoet:
 
-1. De gebruiker wijst zijn of haar browser aan `www.google.com`, en typt, &quot;kortingsvliegtickets&quot;in het onderzoeksgebied, en klikt dan **[!UICONTROL Search]** knoop.
-1. De browser geeft de zoekresultaten weer, inclusief een koppeling naar uw site, [!DNL https://www.example.com/]. Nadat de zoekresultaten zijn weergegeven, geeft de adresbalk van de browser de zoektermen weer die de gebruiker in het zoekveld heeft ingevoerd ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). De zoektermen worden opgenomen in de URL-querytekenreeksparameters die volgen op `https://www.google.com/search?`.
-1. De gebruiker klikt op de koppeling naar uw hypothetische site [!DNL https://www.example.com/]. Wanneer de gebruiker op deze koppeling klikt en op de [!DNL example.com]-website landt, gebruikt [!DNL Analytics] JavaScript om de verwijzende URL ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) en de huidige URL ( `https://www.example.com/`) te verzamelen.
-1. [!DNL Analytics] rapporteert de informatie die tijdens deze interactie is verzameld in diverse rapporten, zoals  [!UICONTROL Referring Domains],  [!UICONTROL Search Engines]en  [!DNL Search Keywords].
+1. Gebruiker wijst zijn of haar browser aan `www.google.com`en typt u &quot;tickets met korting&quot; in het zoekveld en klikt u vervolgens op de knop **[!UICONTROL Search]** knop.
+1. In de browser worden de zoekresultaten weergegeven, inclusief een koppeling naar uw site. [!DNL https://www.example.com/]. Nadat de zoekresultaten zijn weergegeven, ziet u op de adresbalk van de browser de zoektermen die de gebruiker in het zoekveld heeft ingevoerd ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). U ziet dat de zoektermen zijn opgenomen in de volgende URL-parameters voor queryreeksen `https://www.google.com/search?`.
+1. De gebruiker klikt op de koppeling naar uw hypothetische site [!DNL https://www.example.com/]. Wanneer de gebruiker op deze koppeling klikt en op de koppeling landt [!DNL example.com] website, [!DNL Analytics] gebruikt JavaScript om de verwijzende URL te verzamelen ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) en de huidige URL ( `https://www.example.com/`).
+1. [!DNL Analytics] rapporteert de informatie die tijdens deze interactie in diverse rapporten wordt verzameld, zoals [!UICONTROL Referring Domains], [!UICONTROL Search Engines], en [!DNL Search Keywords].
 
 ## Voorbeeld: Bladeren met omleidingen {#section_921DDD32932847848C4A901ACEF06248}
 
 Omleiding kan ertoe leiden dat de browser de werkelijke verwijzende URL weglaat. Overweeg het volgende scenario:
 
-1. De gebruiker wijst zijn of haar browser aan `https://www.google.com`, en types, *disconteer vliegtuigtickets* in het onderzoeksgebied, en klikt dan **[!UICONTROL Search]** knoop.
-1. Op de adresbalk van het browservenster worden de zoektermen weergegeven die de gebruiker in het zoekveld `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` heeft getypt. De zoektermen worden opgenomen in de URL-querytekenreeksparameters die volgen op `https://www.google.com/search?`. De browser geeft ook een pagina weer die de zoekresultaten bevat, inclusief een koppeling naar een van uw domeinnamen: [!DNL https://www.flytohawaiiforfree.com/]. Dit *vanity* domein wordt gevormd om de gebruiker aan `https://www.example.com/` om te leiden.
-1. De gebruiker klikt op de koppeling `https://www.flytohawaiiforfree.com/` en wordt door de server omgeleid naar uw hoofdsite, `https://www.example.com`. Wanneer de omleiding plaatsvindt, gaan de gegevens die belangrijk zijn voor de [!DNL Analytics]-gegevensverzameling verloren omdat de browser de verwijzende URL wist. De oorspronkelijke zoekinformatie die in de [!DNL Analytics]-rapporten (bijvoorbeeld [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) wordt gebruikt, gaat dus verloren.
+1. Gebruiker wijst zijn of haar browser aan `https://www.google.com`en typen *korting op vliegtickets* in het zoekveld en klik vervolgens op de knop **[!UICONTROL Search]** knop.
+1. De adresbalk van het browservenster bevat de zoektermen die de gebruiker in het zoekveld heeft getypt `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. U ziet dat de zoektermen zijn opgenomen in de volgende URL-parameters voor queryreeksen `https://www.google.com/search?`. De browser geeft ook een pagina weer die de zoekresultaten bevat, inclusief een koppeling naar een van uw domeinnamen: [!DNL https://www.flytohawaiiforfree.com/]. Dit *ijdelheid* domein wordt gevormd om de gebruiker aan om te leiden `https://www.example.com/`.
+1. De gebruiker klikt op de koppeling `https://www.flytohawaiiforfree.com/` en wordt door de server omgeleid naar uw hoofdsite, `https://www.example.com`. Wanneer de omleiding plaatsvindt, zijn de gegevens die belangrijk zijn voor [!DNL Analytics] gegevensverzameling gaat verloren omdat de browser de verwijzende URL wist. De oorspronkelijke zoekinformatie die in de [!DNL Analytics] rapporten (bijvoorbeeld [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) is verloren.
 
 ## Omleidingen implementeren {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
-Als u [!DNL Analytics]-gegevens uit omleidingen wilt vastleggen, moet u vier kleine wijzigingen aanbrengen in de code die de omleiding maakt en de [!DNL AppMeasurement] voor het JavaScript-bestand.
+Om vast te leggen [!DNL Analytics] gegevens uit omleidingen, moeten vier kleine wijzigingen worden aangebracht in de code die leidt tot omleiding en de [!DNL AppMeasurement] voor JavaScript-bestand.
 
 <!-- 
 
@@ -56,7 +54,7 @@ redirects_implement.xml
 
  -->
 
-Als u de volgende stappen uitvoert, blijft de informatie behouden die de oorspronkelijke referentie (bijvoorbeeld `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` in het bovenstaande scenario) aan uw site doorgeeft:
+Als u de volgende stappen uitvoert, blijft de informatie behouden die de oorspronkelijke referentie bevat (bijvoorbeeld `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` in het bovenstaande scenario) naar uw site wordt verzonden:
 
 ## JavaScript-code overschrijven door verwijzing configureren {#section_87BB1D47D9C345C18339078824645CC4}
 
@@ -66,7 +64,7 @@ redirects_js_override.xml
 
  -->
 
-Het codefragment hieronder toont twee variabelen JavaScript, *`s_referrer`* en *`s_pageURL`*. Deze code wordt op de laatste landingspagina van de omleiding geplaatst.
+In het onderstaande codefragment worden twee JavaScript-variabelen weergegeven. *`s_referrer`* en *`s_pageURL`*. Deze code wordt op de laatste landingspagina van de omleiding geplaatst.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -82,11 +80,11 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->Stel *`s.referrer`* slechts eenmaal in op de pagina. Als u deze meer dan één keer instelt met elke volgende aanroep of met elke gekoppelde klik die wordt bijgehouden, worden de referentie en verwante afmetingen, zoals zoekmachines en trefwoorden, dubbelgeteld.
+>Set *`s.referrer`* slechts eenmaal op de pagina. Als u deze meer dan één keer instelt met elke volgende aanroep of met elke gekoppelde klik die wordt bijgehouden, worden de referentie en verwante afmetingen, zoals zoekmachines en trefwoorden, dubbelgeteld.
 
 ## Omleiden met getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
 
-Hoewel [!UICONTROL getQueryParam] een gemakkelijke manier is om [!DNL Analytics] variabelen met de waarden van het vraagkoord te bevolken, moet het in verband met een tijdelijke variabele worden uitgevoerd zodat de wettige verwijzers niet worden beschreven wanneer het vraagkoord leeg is. De beste manier om [!UICONTROL getQueryParam] te gebruiken is in verbinding met de [!UICONTROL getValue] stop zoals die met volgende pseudo-code wordt geschetst.
+Terwijl de [!UICONTROL getQueryParam] is een gemakkelijke manier om te vullen [!DNL Analytics] variabelen met de waarden van het vraagkoord, moet het in samenhang met een tijdelijke variabele worden uitgevoerd zodat de wettige verwijzers niet worden beschreven wanneer het vraagkoord leeg is. De beste manier om te gebruiken [!UICONTROL getQueryParam] in verband met de [!UICONTROL getValue] zoals beschreven met de volgende pseudo-code.
 
 ```js
 // AppMeasurement 1.x 
@@ -110,7 +108,7 @@ redirects_modify_mechanism.xml
 
  -->
 
-Omdat de browser stroken die URL verwijzen, moet u het mechanisme vormen dat omleiding (bijvoorbeeld, de Webserver, server-zijcode, cliënt-zijcode) behandelt om de originele verwijzingsinformatie over te gaan. Als u ook de URL van de aliaskoppeling wilt opnemen, moet dit ook worden doorgegeven aan de uiteindelijke bestemmingspagina. Gebruik de variabele *`s_pageURL`* om de huidige URL te overschrijven.
+Omdat de browser stroken die URL verwijzen, moet u het mechanisme vormen dat omleiding (bijvoorbeeld, de Webserver, server-zijcode, cliënt-zijcode) behandelt om de originele verwijzingsinformatie over te gaan. Als u ook de URL van de aliaskoppeling wilt opnemen, moet dit ook worden doorgegeven aan de uiteindelijke bestemmingspagina. Gebruik de *`s_pageURL`* variabele om de huidige URL te overschrijven.
 
 Omdat er vele manieren zijn om een omleiding uit te voeren, zou u met uw groep van Webverrichtingen of uw online advertentiepartner moeten controleren om de specifieke mechanismen te identificeren die omleidingen op uw website uitvoeren.
 
@@ -122,7 +120,7 @@ redirects_referrer.xml
 
  -->
 
-Normaal gesproken krijgt [!DNL Analytics] de verwijzende URL van de eigenschap [!UICONTROL document.referrer] van de browser en de huidige URL van de eigenschap [!UICONTROL document.location]. Door waarden aan *`referrer`* en *`pageURL`* variabelen door te geven, kunt u de standaardverwerking met voeten treden. Door een waarde tot de verwijzingsvariabele over te gaan, vertelt u [!DNL Analytics] om de verwijzingsinformatie in het [!UICONTROL document.referrer] bezit te negeren en een alternatieve waarde te gebruiken die u bepaalt.
+Normaal gesproken [!DNL Analytics] ontvangt de verwijzende URL van de browser [!UICONTROL document.referrer] en de huidige URL vanuit de [!UICONTROL document.location] eigenschap. Door waarden door te geven aan de *`referrer`* en *`pageURL`* variabelen kunt u de standaardverwerking overschrijven. Door een waarde aan de verwijzende variabele door te geven, vertelt u [!DNL Analytics] om de verwijzende informatie in te negeren [!UICONTROL document.referrer] en om een alternatieve waarde te gebruiken die u definieert.
 
 Daarom zou de definitieve versie van de landingspagina de volgende code moeten bevatten om de problemen te verhelpen die in het scenario van &quot;kortingstickets&quot; zijn geïntroduceerd.
 
@@ -147,9 +145,9 @@ redirects_verify_referrer.xml
 
  -->
 
-Voer een test uit om te controleren of de verwijzende, voortkomende URL ( *`s_server`*) en campagnevariabelen worden gevangen.
+Voer een test uit om te controleren of de verwijzende URL ( *`s_server`*) en campagnevariabelen worden vastgelegd.
 
-Deze variabelen worden als de volgende parameters in [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) vertegenwoordigd.
+Deze variabelen worden als de volgende parameters in de [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
@@ -162,18 +160,18 @@ Deze variabelen worden als de volgende parameters in [Experience Cloud Debugger]
  <tbody> 
   <tr> 
    <td> <p>Oorspronkelijke verwijzing </p> </td> 
-   <td> <p> <span class="filepath"> https://www.google.com/search%3F hl%3Den %26ie%3DUTF826q%3 Dkorting%2Baarlijn%2Btickets  </span> </p> </td> 
-   <td> <p> <span class="filepath"> r=https:/ref=www.google.com/search?hl=en&amp;ie=UTF -8&amp;q=discon+air+tickets  </span> </p> </td> 
+   <td> <p> <span class="filepath"> https://www.google.com/search%3F hl%3Den %26ie%3DUTF826q%3 Dkorting%2Baarlijn%2Btickets </span> </p> </td> 
+   <td> <p> <span class="filepath"> r=https:/ref=www.google.com/search?hl=en&amp;ie=UTF -8&amp;q=discon+air+tickets </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Pagina-URL </p> </td> 
-   <td> <p> <span class="filepath"> https://www.flytohawaiiforfree.com  </span> </p> </td> 
-   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com  </span> </p> <p>Deze waarde wordt weergegeven in de DigitalPulse-foutopsporing als de variabele <span class="varname"> pageURL wordt gebruikt.</span> </p> </td> 
+   <td> <p> <span class="filepath"> https://www.flytohawaiiforfree.com </span> </p> </td> 
+   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>Deze waarde wordt weergegeven in de DigitalPulse-foutopsporing als <span class="varname"> pageURL </span> variable wordt gebruikt. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>URL van laatste bestemmingspagina </p> </td> 
-   <td> <p> <span class="filepath"> https://www.example.com  </span> </p> </td> 
-   <td> <p>Deze waarde wordt NIET weergegeven in de DigitalPulse-foutopsporing als de <span class="varname"> pageURL </span>-variabele wordt gebruikt. </p> </td> 
+   <td> <p> <span class="filepath"> https://www.example.com </span> </p> </td> 
+   <td> <p>Deze waarde wordt NIET weergegeven in de DigitalPulse-foutopsporing als de <span class="varname"> pageURL </span> variable wordt gebruikt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -202,4 +200,4 @@ hp=N
 [AQE]
 ```
 
-Nadat u hebt gecontroleerd of de Adobe deze variabelen weergeeft in de URL, is het altijd handig om te bevestigen dat de zoektermen en het oorspronkelijke verwijzende domein (vóór de omleiding) het verkeer registreren in rapporten.[!UICONTROL Debugger]
+Na te hebben gecontroleerd dat de Adobe [!UICONTROL Debugger] Hiermee geeft u deze variabelen weer. Het is altijd handig om te bevestigen dat de zoektermen en het oorspronkelijke verwijzende domein (vóór de omleiding) het verkeer in rapporten registreren.

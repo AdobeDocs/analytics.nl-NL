@@ -2,8 +2,9 @@
 description: Gegevensbronnen ondersteunen de volgende variabelen bij het verwerken van gegevens als een standaardserveraanroep (Algemeen > Volledige verwerking).
 title: Volledige verwerking
 topic-fix: Developer and implementation
+feature: Data Sources
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 7%

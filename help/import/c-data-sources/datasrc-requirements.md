@@ -3,9 +3,9 @@ description: Informatie over de vereisten voor uw rapportreeks alvorens Gegevens
 subtopic: Data sources
 title: Vereisten en uploadlimieten
 topic-fix: Developer and implementation
-uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 1%
@@ -34,15 +34,15 @@ De volgende secties maken een lijst van beperkingen die op Gegevensbronnen en ge
 * Alleen gegevens met huidige of eerdere datums kunnen worden geïmporteerd. Probeer niet om toekomstige data in uw gegevens van Gegevensbronnen te gebruiken.
 * Voor alle rijen moet een datum worden opgegeven om mogelijkheden voor het maken van rapporten mogelijk te maken. Als een rij geen datum omvat, produceren de Gegevensbronnen een fout en verwerpt het dossier. De datum-/tijdnotatie verschilt per type gegevensbron:
 
-   * **Volledige gegevensbronnen** voor verwerking: Gebruik de datumnotatie ISO 8601  `YYYY-MM-DDThh:mm:ss±UTC_offset` (bijvoorbeeld  `2013-09-01T12:00:00-07:00`) of Unix Time Format (het aantal seconden dat is verstreken sinds 1 januari 1970).
+   * **Volledige gegevensverwerkingsbronnen**: De ISO 8601-datumnotatie gebruiken van `YYYY-MM-DDThh:mm:ss±UTC_offset` (bijvoorbeeld `2013-09-01T12:00:00-07:00`) of Unix Time Format (het aantal seconden dat is verstreken sinds 1 januari 1970).
 
-   * **Gegevensbronnen** voor standaard en integratie: Gebruik de volgende datumnotatie:  `MM/DD/YYYY/HH/mm/SS` (bijvoorbeeld  `01/01/2013/06/00/00`)
+   * **Gegevensbronnen voor standaard en integratie**: Gebruik de volgende datumnotatie: `MM/DD/YYYY/HH/mm/SS` (bijvoorbeeld `01/01/2013/06/00/00`)
 
 ## Algemeen {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
 * Wanneer u een Gegevensbrondossier uploadt, voeren de Gegevensbronnen basisgegevensbevestiging uit om ervoor te zorgen het dossier geen het formatteren fouten bevat. Als een fout in een bestand wordt aangetroffen, wordt een e-mailmelding verzonden en wordt de verwerking gestopt.
 * Gegevensvelden mogen geen puntkomma&#39;s bevatten. Gegevensbronnen slaan records over die een puntkomma bevatten.
-* De gegevens van het Logboek van het Web, het Verkeer, en sommige Generische groeperingen van Gegevensbronnen zijn niet beschikbaar in Data Warehouse of ontdekken. Zie [Gegevenstypen en Categorieën](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md) voor meer informatie.
+* De gegevens van het Logboek van het Web, het Verkeer, en sommige Generische groeperingen van Gegevensbronnen zijn niet beschikbaar in Data Warehouse of ontdekken. Zie voor meer informatie [Gegevenstypen en categorieën](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md).
 * Gegevensbronnen ondersteunen geserialiseerde gebeurtenissen niet.
 
 ## Ondersteuning voor meerdere bytes {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -67,7 +67,7 @@ Gegevensbronnen ondersteunen multibyte-codering. De Bronnen van gegevens probere
   </tr> 
   <tr> 
    <td colname="col1"> ISO-8859-1 (ook bekend als Latin-1 of Windows-1252) </td> 
-   <td colname="col2"> Ondersteund. Microsoft Excel slaat in deze indeling op wanneer u een "door tabs gescheiden" export kiest. De rapportsuite moet de landinstelling ISO-8859-1 gebruiken. </td> 
+   <td colname="col2"> Ondersteund. Microsoft Excel wordt in deze indeling opgeslagen wanneer u een "door tabs gescheiden" export kiest. De rapportsuite moet de landinstelling ISO-8859-1 gebruiken. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-16 Little-endian, met Byte Order Mark (FF FE) </td> 

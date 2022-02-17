@@ -1,8 +1,9 @@
 ---
 title: IPs en domeinen die door Adobe Analytics worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die van Adobe afkomstig zijn, gebruik deze lijst om uw firewallmontages bij te werken.
+feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
@@ -29,7 +30,7 @@ Adobe Analytics gebruikt de volgende hosts om de prestaties en de productervarin
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
 | Geniet | `esp.aptrinsic.com`, `esp-m.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
-| Microsoft Azure Blob-opslag | `awaascicdprodva7.blob.core.windows.net` |
+| Microsoft Azure Blob Storage | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
 ## Alle IP-adresblokken van Adobe Analytics Data Collection
@@ -112,7 +113,7 @@ Als uw organisatie verkiest om specifieke IP adreswaaiers toe te staan kunt u de
 
 ## AWS-hosts
 
-Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverzamelingsproces. De volgende tabel bevat AWS-hosts die zijn gereserveerd voor Adobe. Deze hosts worden **niet** opgenomen in het hierboven vermelde bereik van geaggregeerde blokken.
+Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverzamelingsproces. De volgende tabel bevat AWS-hosts die zijn gereserveerd voor Adobe. Deze hosts zijn **niet** opgenomen in het hierboven vermelde geaggregeerde blokbereik.
 
 | Locatie | Host |
 | --- | --- |

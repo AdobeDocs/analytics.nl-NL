@@ -1,9 +1,9 @@
 ---
 description: Analytics en Audience Manager gebruiken beide segmenten. Een segment Analytics is echter niet precies hetzelfde als een segment Audience Manager. Deze verschillen dragen deels bij aan de discrepanties die u zult zien in uw Analytics en Audience Manager rapporten. Dientengevolge, is het belangrijk en nuttig om deze verschillen te proberen te begrijpen wanneer u met segmenten in beide oplossingen begint te werken.
 title: Inzicht in segmenten in Analytics en Audience Manager
-uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
+feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Audience Manager segment lidmaatschap is dynamisch. Gebruikers kunnen een segmen
 
 Een segment van de Audience Manager wordt vermeld als publiek in Analytics.
 
-Voor meer informatie, verwijs naar [De Gegevens van de Bevolking van het Segment in de Bouwer van het Segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) en [Signalen, Verrichtingen, en Segmenten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
+Raadpleeg voor meer informatie [Behandelings- en segmentpopulatiegegevens in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) en [Signalen, Traits en Segmenten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Analysesegmenten {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
@@ -44,4 +44,4 @@ Een segment van Analytics is een het filtreren mechanisme voor gegevens in uw ra
 
    In Analytics daarentegen worden bezoekers opgenomen in of uitgesloten van een segment dat is gebaseerd op het bereik van de rapportdatum. Eén bezoeker heeft bijvoorbeeld vorige maand een aankoop gedaan. In AAM zou die bezoeker in een &quot;koper&quot;segment, ongeacht de datumwaaier worden opgenomen. In Analytics, zou een rapport dat op deze maand wordt gebaseerd de bezoeker in het segment niet omvatten. Nochtans, zou een rapport dat op deze maand &amp; vorige maand wordt gebaseerd de bezoeker in het segment omvatten.
 
-Zie [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) voor meer informatie.
+Zie de [Handleiding voor analysegmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) voor meer informatie .

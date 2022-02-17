@@ -3,9 +3,9 @@ description: Creeer, beheer, en bekijk het gebruik van gegevensbronnen in een ra
 subtopic: Data sources
 title: Gegevensbronbeheer
 topic-fix: Developer and implementation
-uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
+feature: Data Sources
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -20,9 +20,9 @@ Creeer, beheer, en bekijk het gebruik van gegevensbronnen in een rapportreeks.
 
 ## Tab maken {#section_74603FDA3D8842E49F1A51624A06DE20}
 
-Met het tabblad [!UICONTROL Create] kunt u een nieuwe gegevensbron configureren voor de momenteel geselecteerde rapportsuite. Wanneer u een gegevensbron activeert, begeleidt [!UICONTROL Data Sources Wizard] u door het proces om een malplaatje van Gegevensbronnen tot stand te brengen, en leidt tot een plaats van FTP voor het uploaden van gegevens.
+De [!UICONTROL Create] kunt u een nieuwe gegevensbron voor de momenteel geselecteerde rapportreeks vormen. Wanneer u een gegevensbron activeert, [!UICONTROL Data Sources Wizard] begeleidt u door het proces om een malplaatje van Gegevensbronnen tot stand te brengen, en leidt tot een plaats van FTP voor het uploaden van gegevens.
 
-De selectie die u maakt op het tabblad Maken bepaalt de eerste velden in de sjabloon die wordt gemaakt. Zie [Een sjabloon voor een importbestand genereren](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
+De selectie die u maakt op het tabblad Maken bepaalt de eerste velden in de sjabloon die wordt gemaakt. Zie [Een bestandssjabloon importeren genereren](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
 ## Tab beheren {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
@@ -36,7 +36,7 @@ De selectie die u maakt op het tabblad Maken bepaalt de eerste velden in de sjab
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Verwerking opnieuw starten </p> </td> 
-   <td colname="col2"> <p>Start de gegevensbronverwerking opnieuw die eerder is gestopt als gevolg van fouten of waarschuwingen. De verwerking gaat door tot de volgende fout wordt ontmoet. Gegevensbronnen stoppen de verwerking van een gegevensbronbestand alleen wanneer u <span class="uicontrol"> Stop-verwerking op fouten</span> selecteert. </p> </td> 
+   <td colname="col2"> <p>Start de gegevensbronverwerking opnieuw die eerder is gestopt als gevolg van fouten of waarschuwingen. De verwerking gaat door tot de volgende fout wordt ontmoet. Gegevensbronnen stoppen de verwerking van een gegevensbronbestand alleen wanneer u <span class="uicontrol"> Verwerking stoppen bij fouten</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Volledige verwerking </p> </td> 
@@ -48,7 +48,7 @@ De selectie die u maakt op het tabblad Maken bepaalt de eerste velden in de sjab
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verwerking stoppen bij fouten/waarschuwingen </p> </td> 
-   <td colname="col2"> <p> Instrueert de Motor van de Verwerking van Gegevensbronnen om verwerking tegen te houden wanneer het een fout ontmoet. De gegevensbron hervat de verwerking pas als u Verwerking opnieuw starten selecteert. De optie Verwerking stoppen bij waarschuwingen is alleen van toepassing op <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Volledige verwerking</a>. </p> <p>Wanneer de Gegevensbronnen een dossierfout ontmoeten, brengt het u op de hoogte van de fout. Het systeem verplaatst het gegevensbronbestand met de fout naar een map met de naam <span class="filepath"> files_with_errors</span> op de FTP-server. Nadat u het probleem hebt opgelost, leg het dossier van Gegevensbronnen voor verwerking opnieuw voor. </p> </td> 
+   <td colname="col2"> <p> Instrueert de Motor van de Verwerking van Gegevensbronnen om verwerking tegen te houden wanneer het een fout ontmoet. De gegevensbron hervat de verwerking pas als u Verwerking opnieuw starten selecteert. De optie Verwerking stoppen bij waarschuwingen is alleen van toepassing op <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Volledige verwerking</a>. </p> <p>Wanneer de Gegevensbronnen een dossierfout ontmoeten, brengt het u op de hoogte van de fout. Het systeem verplaatst het Gegevensbrondossier met de fout in een omslag genoemd <span class="filepath"> files_with_errors</span> op de FTP-server. Nadat u het probleem hebt opgelost, leg het dossier van Gegevensbronnen voor verwerking opnieuw voor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configureren </p> </td> 
@@ -66,7 +66,7 @@ De selectie die u maakt op het tabblad Maken bepaalt de eerste velden in de sjab
    <td colname="col1"> <p>Status </p> </td> 
    <td colname="col2"> <p> De huidige status van het bestand. Mogelijke statuswaarden zijn onder andere: </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">In wachtrij (stap 1 van 3): Het bestand bestaat, maar de verwerking is nog niet gestart. Als het dossier niet binnen 30 minuten verschijnt, controleer dat het bijbehorende <span class="filepath"> .fin</span> dossier aanwezig is </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">In wachtrij (stap 1 van 3): Het bestand bestaat, maar de verwerking is nog niet gestart. Als het bestand niet binnen 30 minuten wordt weergegeven, controleert u of het bijbehorende bestand <span class="filepath"> .fin</span> bestand aanwezig </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">Voorbereiden (stap 2 van 3): Het bestand wordt gecontroleerd op fouten of waarschuwingen </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">Verwerking (stap 3 van 3): Het bestand wordt verwerkt </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">Mislukt: Het bestand is niet verwerkt door fouten </li> 

@@ -1,14 +1,14 @@
 ---
 description: Afhankelijk van het bekeken specifieke rapport kunnen in Adobe Analytics de rapporten Unspecified, None, Other of Unknown worden weergegeven. Over het algemeen betekent dit regelitem dat de variabele niet is gedefinieerd of anderszins niet beschikbaar is.
 title: Niet opgegeven, Geen, Overige en Onbekend in rapportage
-translation-type: tm+mt
-source-git-commit: fc54cb27f365015b6c7716d68bfc4cbe80b40b8b
+feature: Analytics Basics
+exl-id: 35451239-91f3-400a-981e-8c3fbc0e4185
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
 
 ---
-
 
 # &quot;Unspecified&quot;, &quot;None&quot;, &quot;Other&quot; en &quot;Unknown&quot; in reporting
 
@@ -41,4 +41,4 @@ Hoewel iets zeldzaam kan zijn in de rapportage, kan &quot;Overige&quot; voorkome
 
 In de meeste gevallen is het veilig om deze lijstitems te negeren. U kunt het zoekfilter desgewenst gebruiken om de filters te verwijderen.
 
-Sommige achtergrondgegevensvariabelen gebruiken de waarde `::unspecified::` in het rapporteren, hoewel het niet in de interface wordt getoond. Als een zoekfilter gegevens niet kan uitsluiten, probeert u deze waarde (inclusief de dubbele punten) te gebruiken.
+Voor sommige gegevensvariabelen van het type backend wordt de waarde gebruikt `::unspecified::` in rapportering, hoewel het niet in de interface wordt getoond. Als een zoekfilter gegevens niet kan uitsluiten, probeert u deze waarde (inclusief de dubbele punten).

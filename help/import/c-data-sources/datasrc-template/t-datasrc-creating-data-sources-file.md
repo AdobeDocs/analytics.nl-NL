@@ -3,9 +3,9 @@ description: Het sjabloonbestand voor importeren is ontworpen om het importeren 
 subtopic: Data sources
 title: Een sjabloon voor een importbestand genereren
 topic-fix: Developer and implementation
-uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
+feature: Data Sources
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 3%
@@ -16,18 +16,18 @@ ht-degree: 3%
 
 Het sjabloonbestand voor importeren is ontworpen om het importeren te starten.
 
-U bent niet beperkt tot de kolommen die in de sjabloon zijn gedefinieerd. U kunt zo nodig extra kolommen toevoegen, zolang de metrische waarde of de definitie voor het geselecteerde gegevenstype voor gegevensverwerking wordt ondersteund. U kunt de ondersteunde metriek en afmetingen voor elk type in de volgende secties bekijken: [Weblog](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md), [Verkeer](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md), [Conversie](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md), [Transactie ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md), [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md), [Volledige verwerking](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)). Bijvoorbeeld, voor een type van verkeersgegevens, kunt u een kolom voor om het even welke metrisch of dimensies toevoegen die in [Verkeer](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) worden vermeld.
+U bent niet beperkt tot de kolommen die in de sjabloon zijn gedefinieerd. U kunt zo nodig extra kolommen toevoegen, zolang de metrische waarde of de definitie voor het geselecteerde gegevenstype voor gegevensverwerking wordt ondersteund. U kunt de ondersteunde metriek en afmetingen voor elk type in de volgende secties bekijken: [Weblog](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md), [Verkeer](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md), [Conversie](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md), [Transactie-id](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md), [Bezoeker-id](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md), [Volledige verwerking](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)). Bij een gegevenstype voor verkeersgegevens kunt u bijvoorbeeld een kolom toevoegen voor metrische waarden of dimensies die worden vermeld in [Verkeer](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md).
 
 Nadat u de sjabloon hebt gemaakt, kunt u de sjabloon downloaden, uw gegevens in de sjabloon invoeren en de gegevens vervolgens uploaden naar de FTP-site Gegevensbronnen. Zodra verwerkt door de Gegevensbronserver, zijn de ingevoerde gegevens beschikbaar voor gebruik in uw rapporten van Analytics.
 
 De gegevensbronsjabloon is een .txt-bestand dat u met elke teksteditor kunt openen. Het is echter het eenvoudigst om met de sjabloon te werken met Microsoft Excel of een andere spreadsheettoepassing. De sjablooninhoud varieert op basis van uw selecties in de wizard Activering gegevensbron.
 
-Zie [Bestandsreferentie importeren](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) voor meer informatie.
+Zie [Bestandsverwijzing importeren](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) voor meer informatie.
 
 1. Meld u aan bij Analytics.
-1. Selecteer **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]** in de koptekst van de Intel Health Care Management Suite.
-1. Selecteer op het tabblad **[!UICONTROL Data Sources Create]** een sjablooncategorie en typ deze.
-1. Controleer de activeringsinstructies/informatie en klik op **[!UICONTROL Activate]**.
+1. Selecteer in de koptekst van de Intel Health Care Management Suite de optie **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
+1. Op de **[!UICONTROL Data Sources Create]** selecteert u een sjablooncategorie en typt u.
+1. Controleer de activeringsinstructies/informatie en klik vervolgens op **[!UICONTROL Activate]**.
 
    Stap Resultaat 1. Selecteer opties voor het genereren van sjablonen in de wizard Activering gegevensbron.
 

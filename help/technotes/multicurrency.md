@@ -1,9 +1,9 @@
 ---
 description: Beschrijft hoe te om doelvalutacodes voor multi-muntsteun te bepalen om te werken.
 title: Ondersteuning voor meerdere valuta's
-uuid: null
+feature: Analytics Basics
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 0%
@@ -18,19 +18,19 @@ Doelvalutacodes worden op drie niveaus gedefinieerd:
 
 ## Paginaniveau
 
-U kunt een JavaScript-variabele voor de doelvaluta op paginaniveau instellen. De eigenaar van de site stelt deze variabele in met de toepasselijke drieletterige ISO 4217-valutacode (zoals hieronder in dit document wordt vermeld). Als de [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) variabele niet op dit niveau wordt geplaatst, zal de standaardmunt het zelfde zijn die in de rapportreeks wordt gespecificeerd. Als de variabele op paginaniveau met de variabele in de rapportreeks wordt gespecificeerd in conflict is, zal de variabele in de rapportreeks belangrijkheid nemen.
+U kunt een JavaScript-variabele voor de doelvaluta instellen op paginaniveau. De eigenaar van de site stelt deze variabele in met de toepasselijke drieletterige ISO 4217-valutacode (zoals hieronder in dit document wordt vermeld). Als de [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) De variabele wordt niet op dit niveau ingesteld, de standaardvaluta is dezelfde als die in de rapportsuite is opgegeven. Als de variabele op paginaniveau met de variabele in de rapportreeks wordt gespecificeerd in conflict is, zal de variabele in de rapportreeks belangrijkheid nemen.
 
 
 ## Niveau van rapportsuite
 
-De **basisvaluta** wordt gespecificeerd wanneer [het creëren van rapportreeksen](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). Dit is de standaardinstelling voor valuta en heeft voorrang op valutacodes die op paginaniveau zijn ingesteld. Als een rapportsuite orders bevat die Amerikaanse dollars, Euro en Britse Pounds accepteren en de rapportensuite een standaardvalutacode heeft ingesteld op US Dollars, vertaalt de back-end database alle transacties naar US Dollars.
+De **basisvaluta** wordt opgegeven wanneer [maken, rapportsuites](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). Dit is de standaardinstelling voor valuta en heeft voorrang op valutacodes die op paginaniveau zijn ingesteld. Als een rapportsuite orders bevat die Amerikaanse dollars, Euro en Britse Pounds accepteren en de rapportensuite een standaardvalutacode heeft ingesteld op US Dollars, vertaalt de back-end database alle transacties naar US Dollars.
 
 Marketingrapporten gebruiken de wisselkoers op het moment dat de afbeeldingsaanvraag plaatsvindt om de valutanummers op paginaniveau om te zetten in de standaardwaarden van de rapportsuite. Rapportagesuites gebruiken &quot;US Dollars&quot; als de standaardvaluta.
 
 
 ## Rapportniveau
 
-Gebruikers kunnen de standaard gerapporteerde valuta voor gebruikersaanmelding instellen. Dit kan door **de verbinding van Opties van de Vertoning** in om het even welk Rapport van de Omzetting worden betreden. Marketingrapporten gebruiken de wisselkoers op het moment dat het rapport wordt uitgevoerd om rapport-suite valutawaarden om te zetten in op rapporten gebaseerde valutawaarden.
+Gebruikers kunnen de standaard gerapporteerde valuta voor gebruikersaanmelding instellen. Dit is toegankelijk via de **Weergaveopties**  koppeling in een omzettingsrapport. Marketingrapporten gebruiken de wisselkoers op het moment dat het rapport wordt uitgevoerd om rapport-suite valutawaarden om te zetten in op rapporten gebaseerde valutawaarden.
 
 ## Ondersteunde valutacodes (ISO 4217)
 
@@ -414,7 +414,7 @@ ZWD Zimbabwe Dollars (ZWD)
 
 ## Voorbeeld van AppMeasurement.js
 
-De variabele `currencyCode` kan globaal in het AppMeturement.js- dossier worden bepaald. Als de currencyCode-variabele in dit bestand wordt gedefinieerd, wordt voor alle valutatransacties een uniforme valutacode gebruikt. In het onderstaande voorbeeld wordt Euros opgegeven als de variabele `currencyCode` in het `CONFIG SECTION` van het bestand AppMeasurement.js. Alle aankoopgebeurtenissen worden geïnterpreteerd door rapportage als &quot;Euro&quot; - transacties.
+De `currencyCode` kan globaal worden gedefinieerd in het bestand AppMeasurement.js. Als de currencyCode-variabele in dit bestand wordt gedefinieerd, wordt voor alle valutatransacties een uniforme valutacode gebruikt. In het onderstaande voorbeeld wordt Euros opgegeven als de `currencyCode` in de `CONFIG SECTION` van het bestand AppMeasurement.js. Alle aankoopgebeurtenissen worden geïnterpreteerd door rapportage als &quot;Euro&quot; - transacties.
 
 ```
 /************************** CONFIG SECTION **************************/ 
@@ -431,8 +431,8 @@ s.linkTrackEvents="None"
 
 ## Aanvullende opmerkingen bij de implementatie
 
-* Hoewel valutacodes tussen pagina&#39;s kunnen veranderen, moeten alle conversielijnitems die op een bepaald paginaverzoek worden gedefinieerd dezelfde valuta gebruiken (bijvoorbeeld, kunt u Euro, British Pounds en US Dollars niet op dezelfde paginaweergave hebben gedefinieerd). Als u geen valutawissel wilt uitvoeren, moet u de waarde van currencyCode leeg laten. Hierdoor worden de verzonden waarden rechtstreeks doorgegeven aan rapporten zonder conversie.
+* Hoewel valutacodes tussen pagina&#39;s kunnen veranderen, moeten alle conversielijnitems die op een bepaald paginaverzoek zijn gedefinieerd dezelfde valuta gebruiken (bijvoorbeeld, kunt u Euro, British Pounds en US Dollars niet op dezelfde paginaweergave hebben gedefinieerd). Als u geen valutawissel wilt uitvoeren, moet u de waarde van currencyCode leeg laten. Hierdoor worden de verzonden waarden rechtstreeks doorgegeven aan rapporten zonder conversie.
 
-* Als een ongeldige currencyCode wordt ingesteld (een waarde die niet voorkomt in de lijst met ondersteunde valutacodes), wordt de gehele hit uitgesloten en worden voor die transactie geen gegevens verzameld. Voordat u `currencyCode` instelt in productie, gebruikt u een testrapportsuite om te controleren of de gegevens zijn verzameld en de valutaomrekening correct is.
+* Als een ongeldige currencyCode wordt ingesteld (een waarde die niet voorkomt in de lijst met ondersteunde valutacodes), wordt de gehele hit uitgesloten en worden voor die transactie geen gegevens verzameld. Voor het instellen `currencyCode` in productie, gebruik een reeks van het testrapport om te verifiëren dat de gegevens worden verzameld en de valutaconversie correct is.
 
 * Valuta&#39;s die geen punt (.) gebruiken omdat het scheidingsteken moet worden gewijzigd om de punt te gebruiken in plaats van het typische scheidingsteken. Zweedse kroon, die bijvoorbeeld een komma (,) gebruikt, moet worden gewijzigd om een punt in plaats van een komma te gebruiken. Analytics gebruikt de komma om waarden te scheiden en de gegevens worden niet correct doorgegeven. De periode geeft de waarde correct door aan rapporten.

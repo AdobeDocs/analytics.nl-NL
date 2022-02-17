@@ -3,9 +3,9 @@ description: Gegevensbronnen bieden twee extra manieren om gebeurtenissen te int
 subtopic: Data sources
 title: Transactie- en klantintegratie
 topic-fix: Developer and implementation
-uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Deze integratie associeert off-line gegevens met een specifieke online transacti
 
 De transactie-id kan worden in-/uitgeschakeld vanuit de gebruikersinterface, zonder betrokkenheid van ClientCare:
 
-Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer rapportsuite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
+Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Selecteer een rapportsuite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
@@ -42,16 +42,16 @@ Als u wilt zien of Opname van transactie-id is ingeschakeld, navigeert u naar **
 
 ![](assets/transaction-ID-recording-active.png)
 
-Op het tabblad [!UICONTROL Manage] wordt de status van Transactie-id-opname weergegeven.
+De [!UICONTROL Manage] geeft de status van Transactie ID-opname weer.
 
 ## Klantenintegratie {#section_9F4AAD710D2543BDA834090A98115FBF}
 
 Klant-id&#39;s worden gebruikt om de offlineactiviteit van een klant op te geven en aan online activiteiten te koppelen. Deze dienen te worden gebruikt wanneer:
 
-* Een klant-id wordt ingevuld in de variabele *`visitorID`*.
+* Een klant-id wordt ingevuld in het gedeelte *`visitorID`* variabele.
 * Er is geen aangewezen punt waar de klantenactiviteit zich off-line beweegt, zoals een voorloodsvoorlegging of een aankoop.
 
-Om dit type van gegevensbron te vormen, zie [Bezoeker ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+Om dit type van gegevensbron te vormen, zie [Bezoeker-id](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 
 ## Transactieintegratie {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 

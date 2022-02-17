@@ -1,8 +1,9 @@
 ---
 title: Sessies in Adobe Analytics oplossen
 description: Leer hoe u problemen kunt oplossen wanneer u zich afmeldt bij Adobe Analytics.
+feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # Sessies in Adobe Analytics oplossen
 
-Deze pagina gaat over het oplossen van problemensessies, wat betekent dat u zich met succes kunt aanmelden maar problemen hebt die aangemeld blijven. Zie [Problemen met het aanmelden bij Adobe Analytics](troubleshoot-login.md) oplossen als zich problemen voordoen bij het aanmelden bij Adobe Analytics.
+Deze pagina gaat over het oplossen van problemensessies, wat betekent dat u zich met succes kunt aanmelden maar problemen hebt die aangemeld blijven. Als er problemen optreden bij het aanmelden bij Adobe Analytics, raadpleegt u [Aanmelden bij Adobe Analytics oplossen](troubleshoot-login.md).
 
 Bijna alle op zitting-gebaseerde kwesties komen uit het aangepaste collectieve netwerk van een organisatie voort. Als u zich bij Adobe Analytics kunt aanmelden maar problemen hebt met het aanmelden, gebruikt u dit artikel om de oorzaak te achterhalen.
 

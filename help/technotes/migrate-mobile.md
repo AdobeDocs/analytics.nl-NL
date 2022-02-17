@@ -1,14 +1,14 @@
 ---
 description: Meer informatie over het migreren van verwerkingsregels voor mobiele services naar Adobe Analytics
 title: De verwerkingsregels voor mobiele services migreren naar Adobe Analytics
-translation-type: tm+mt
-source-git-commit: d6601640d06f65dd1ddd09cb9bde0267df20eec3
+feature: Processing Rules
+exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
 
 ---
-
 
 # De verwerkingsregels voor mobiele services migreren naar Adobe Analytics
 
@@ -24,9 +24,9 @@ Als u mobiele services gebruikt voor aanvullende functionaliteit, zoals verwerki
 
 Nochtans, als u om het even welke extra verwerkingsregels in Mobiele Diensten UI (voorbij de Metriek van de Levenscyclus) plaatst, zou u die over moeten migreren zodat u hen in Analytics kunt uitgeven/schrappen nadat u toegang tot de Mobiele Diensten verliest.
 
-1. Meld u aan bij `experience.adobe.com` en ga naar Mobiele services.
+1. Aanmelden bij `experience.adobe.com` en ga naar Mobiele services.
 1. Klik op het tandwielpictogram van een mobiele app waarvan u contextvariabele toewijzingen naar Adobe Analytics wilt migreren.
-1. Klik op het **[!UICONTROL Manage Variables and Metrics]** menu-item en vervolgens op het **[!UICONTROL Custom Variables]** tabblad. Hier, kunt u zien welke de veranderlijke afbeeldingen van de Context (contextgegevens) aan de configuratie zijn toegevoegd. Noteer deze configuraties (of neem een schermafbeelding). Voorbeeld:
+1. Klik op de knop **[!UICONTROL Manage Variables and Metrics]** menu-item en klik vervolgens op **[!UICONTROL Custom Variables]** tab. Hier, kunt u zien welke de veranderlijke afbeeldingen van de Context (contextgegevens) aan de configuratie zijn toegevoegd. Noteer deze configuraties (of neem een schermafbeelding). Voorbeeld:
 
    ![Contextvariabele](assets/context-var.png)
 
@@ -58,9 +58,9 @@ Hier volgt een fragment van de Mobile App Usage-sjabloon:
 
 De sjablonen openen:
 
-1. Meld u aan bij Analytics `experience.adobe.com` en selecteer deze.
+1. Aanmelden bij `experience.adobe.com` en selecteert u Analytics.
 1. Zorg ervoor u in een rapportreeks bent die voor de Mobiele Diensten wordt toegelaten.
-1. Klik op het **[!UICONTROL Workspace]** tabblad.
+1. Klik op de knop **[!UICONTROL Workspace]** tab.
 1. Klik op **[!UICONTROL Create New Project]**.
 1. Selecteer een van de mobiele sjablonen en klik op **[!UICONTROL Create]**.
 
@@ -77,4 +77,4 @@ Als u mobiele services gebruikt voor betaalde functionaliteit, hebt u geen leven
 
 * Voor de Verbindingen van de Aankoop, kunnen wij u aan de Partners van Adobe richten om aan uw behoefte te voldoen.
 * Push Messaging en In-app Messaging zijn beschikbaar in Adobe Campaign Standard en Adobe Campaign Classic (alleen Push). De onderliggende gegevensset die voor het bepalen van de focus wordt gebruikt, is echter anders. We raden u aan om samen met uw Adobe-accountteam migratieopties voor berichtengegevens te bepalen.
-* Voor de functionaliteit van de Plaats, wordt u aangemoedigd om de nieuwe Dienst [van de Plaats van](https://www.adobe.com/experience-platform/location-service.html)Adobe Experience Platform over te nemen, die voor alle klanten van AEP vrij is.
+* Voor de functie Locatie wordt u aangeraden het nieuwe [Adobe Experience Platform-locatieservice](https://www.adobe.com/experience-platform/location-service.html), die voor alle AEP-klanten gratis is.

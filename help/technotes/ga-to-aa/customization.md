@@ -1,75 +1,75 @@
 ---
 title: Aanpassing rapporteren in Adobe Analytics
 description: Leer hoe u rapporten kunt aanpassen in Adobe Analytics
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+feature: Third-party Integration
+exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
 
 ---
 
-
 # Rapporten aanpassen
 
-Op externe platforms, zoals Google Analytics, zijn verschillende aanpassingsopties beschikbaar. Met deze aanpassingen kan een gebruiker dashboards, aangepaste rapporten, opgeslagen rapporten en aangepaste waarschuwingen maken. Omdat de Werkruimte van de Analyse gebruikers toestaat om rapporten van een leeg canvas te bouwen, worden de meeste aanpassingen direct gebouwd in het hulpmiddel.
+Op platforms van derden, zoals Google Analytics, zijn verschillende aanpassingsopties beschikbaar. Met deze aanpassingen kan een gebruiker dashboards, aangepaste rapporten, opgeslagen rapporten en aangepaste waarschuwingen maken. Omdat Analysis Workspace gebruikers in staat stelt rapporten op te stellen op basis van een leeg canvas, worden de meeste aanpassingen rechtstreeks in het gereedschap ingebouwd.
 
-Deze pagina veronderstelt de gebruiker een basiskennis van het gebruiken heeft [!UICONTROL Analysis Workspace]. Zie Een basisrapport [maken in de Analyse Workspace voor Google Analytics-gebruikers](reports/create-report.md) als u nog niet bekend bent met het hulpprogramma in Adobe Analytics.
+Deze pagina gaat ervan uit dat de gebruiker een basiskennis heeft van het gebruik van [!UICONTROL Analysis Workspace]. Zie [Een basisrapport maken in Analysis Workspace voor gebruikers van Google Analytics](reports/create-report.md) als u het gereedschap nog niet kent in Adobe Analytics.
 
 ## Dashboards
 
-De [!UICONTROL Analysis Workspace] architectuur is gebaseerd op het concept van dashboardwidgets. Projecten in [!UICONTROL Analysis Workspace] zijn ongeveer gelijk aan dashboards in Google Analytics. Visualisaties in [!UICONTROL Analysis Workspace] zijn ongeveer gelijk aan widgets in Google Analytics.
+De [!UICONTROL Analysis Workspace] architectuur wordt gebouwd gelijkaardig aan het concept dashboardwidgets. Projecten in [!UICONTROL Analysis Workspace] zijn ongeveer gelijk aan dashboards in Google Analytics. Visualisaties in [!UICONTROL Analysis Workspace] Dit is bij benadering het equivalent van widgets in Google Analytics.
 
 ### Inhoud toevoegen aan een project
 
-1. Klik op het [!UICONTROL Visualizations] pictogram aan de linkerkant en sleep de gewenste visualisatie naar de werkruimte.
-2. Klik op het [!UICONTROL Components] pictogram aan de linkerkant en sleep de gewenste afmetingen en afmetingen naar de visualisatie om deze te vullen met gegevens.
+1. Klik op de knop [!UICONTROL Visualizations] aan de linkerkant en sleep de gewenste visualisatie naar de werkruimte.
+2. Klik op de knop [!UICONTROL Components] aan de linkerkant en sleep de gewenste afmetingen en afmetingen naar de visualisatie om deze te vullen met gegevens.
 3. Sleep de randen van de visualisatie om het formaat te wijzigen en sleep de titel van de visualisatie om het te verplaatsen.
 
 Alle Google Analytics-widgets zijn beschikbaar in [!UICONTROL Analysis Workspace]:
 
-* De **metrische widget** is ongeveer gelijk aan de [!UICONTROL Summary Number] visualisatie.
-* De **tijdlijnwidget** is ongeveer gelijk aan de [!UICONTROL Line] visualisatie.
+* De **Metrische widget** is ongeveer gelijk aan de [!UICONTROL Summary Number] visualisatie.
+* De **Tijdlijnwidget** is ongeveer gelijk aan de [!UICONTROL Line] visualisatie.
 * De **Geomap-widget** is ongeveer gelijk aan de [!UICONTROL Map] visualisatie.
-* De **tabelwidget** is ongeveer gelijk aan de [!UICONTROL Freeform Table] visualisatie.
-* De **schijfwidget** is ongeveer gelijk aan de [!UICONTROL Donut] visualisatie.
-* De **balkwidget** is ongeveer gelijk aan de [!UICONTROL Bar] visualisatie.
+* De **Tabelwidget** is ongeveer gelijk aan de [!UICONTROL Freeform Table] visualisatie.
+* De **Schijfwidget** is ongeveer gelijk aan de [!UICONTROL Donut] visualisatie.
+* De **Widget Bar** is ongeveer gelijk aan de [!UICONTROL Bar] visualisatie.
 
-[!UICONTROL Analysis Workspace] bevat veel meer visualisatieopties om gegevens te presenteren op een manier die het beste aansluit bij uw rapportagebehoeften. Zie [Visualisaties in de Werkruimte](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) van de Analyse in de Gids van de Gebruiker van de Analyse voor meer informatie.
+[!UICONTROL Analysis Workspace] bevat veel meer visualisatieopties om gegevens te presenteren op een manier die het beste aansluit bij uw rapportagebehoeften. Zie [Visualisaties in Analysis Workspace](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) in de Analyze Handleiding voor meer informatie.
 
 ### Projecten delen
 
 Als u klaar bent met het toevoegen van inhoud aan een project, kunt u deze delen.
 
-* Ga naar **[!UICONTROL Share > Share Project]**. Ontvangers zijn andere gebruikers in uw organisatie die Adobe Analytics-accounts hebben.
+* Ga naar **[!UICONTROL Share > Share Project]**. Ontvangers zijn andere gebruikers in uw organisatie die een Adobe Analytics-account hebben.
 * Ga naar **[!UICONTROL Share > Get Project Link]**. Hiervoor moet u zich binnen uw organisatie nog aanmelden bij Adobe Analytics.
 
 ### Projecten exporteren
 
-Naast PDF kunt u ook CSV-bestanden [!UICONTROL Analysis Workspace] exporteren.
+Naast PDF [!UICONTROL Analysis Workspace] biedt een CSV-export aan.
 
-1. Klik op *[!UICONTROL Share]* > *[!UICONTROL Send File Now]*, waarmee u een modaal venster opent.
+1. Klikken *[!UICONTROL Share]* > *[!UICONTROL Send File Now]*, waarmee een modaal venster wordt geopend.
 2. Geef het bestandstype en de ontvangers op.
 3. Klik op [!UICONTROL Send Now].
 
 ## Aangepaste rapporten
 
-Wanneer u een aangepast rapport maakt in Google Analytics, lijken de vereiste velden op de workflow voor het maken van een visualisatie in de werkruimte. Dimensies, metriek en filterdefinities zijn vergelijkbaar tussen platforms. In de Werkruimte van de Analyse, in plaats van het selecteren van afmetingen en metriek van een lijst, worden de afmetingen en de metriek gesleept op een vrije vormlijst.
+Wanneer u een aangepast rapport maakt in Google Analytics, lijken de vereiste velden op de workflow voor het maken van een visualisatie in de werkruimte. De definities Dimension, Metriek en Filter zijn op verschillende platforms vergelijkbaar. In Analysis Workspace worden afmetingen en metriek niet uit een lijst geselecteerd, maar naar een vrije-vormtabel gesleept.
 
 ### Berekende metriek in douanerapporten
 
-Aangepaste rapporten zijn een van de weinige gebieden in Google Analytics die het gebruik van berekende metriek toestaat. Omdat de Werkruimte van de Analyse als canvas werkt, werken de berekende metriek retroactief en in om het even welke context.
+Aangepaste rapporten zijn een van de weinige gebieden in Google Analytics die het gebruik van berekende maatstaven toestaan. Omdat Analysis Workspace als een canvas werkt, werken berekende metriek retroactief en in elke context.
 
 Een berekende metrische waarde maken:
 
-1. Klik op het pictogram **+** bij de metrische lijst om de lijst te openen [!UICONTROL Calculated Metric Builder].
+1. Klik op de knop **+** pictogram bij de metrische lijst om het [!UICONTROL Calculated Metric Builder].
 2. Geef de berekende metrische waarde een naam en geef een indeling op.
 3. Sleep metrische componenten naar het definitiegebied en gebruik de dropdowns tussen elke component om een exploitant aan te wijzen.
 4. Zodra berekende metrisch de gewenste formule bevat, klik sparen om terug naar uw werkruimte te gaan.
 5. Sleep de nieuw gedefinieerde berekende metrische waarde naar de werkruimte.
 
-   Meer informatie over [berekende meetgegevens](/help/components/c-calcmetrics/cm-overview.md) vindt u in de gebruikershandleiding voor componenten.
+   Meer informatie over [Berekende cijfers](/help/components/c-calcmetrics/cm-overview.md) in de gebruikershandleiding van Componenten.
 
 ## Aangepaste waarschuwingen
 
-Alarm is beschikbaar op beide platforms. Gebruik in Adobe Analytics het navigatiemenu voor de koptekst en ga naar *[!UICONTROL Components]* > *[!UICONTROL Alerts]*. Zie [Intelligente waarschuwingen](/help/components/c-alerts/intellligent-alerts.md) in de Gebruikershandleiding van Componenten voor meer informatie.
+Alarm is beschikbaar op beide platforms. Gebruik in Adobe Analytics het navigatiemenu voor de koptekst en ga naar *[!UICONTROL Components]* > *[!UICONTROL Alerts]*. Zie [Intelligente waarschuwingen](/help/components/c-alerts/intellligent-alerts.md) in de gebruikershandleiding van Componenten voor meer informatie.

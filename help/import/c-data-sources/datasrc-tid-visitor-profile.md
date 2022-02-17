@@ -2,10 +2,9 @@
 description: Gebruik transactie-id in gegevensbronnen om online en offline gegevens aan elkaar te koppelen.
 title: Transactie-id en bezoekersprofielen
 topic-fix: Developer and implementation
-uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
+feature: Data Sources
 exl-id: ca5f9e8d-853f-4444-a8fd-a20933ef33d7
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 1%
@@ -32,7 +31,7 @@ Variabele vervaldatum wordt niet in aanmerking genomen voor transactie-id&#39;s,
 
 **Producten**
 
-Productinformatie (van `s.products`) is niet opgenomen in de &quot;momentopname&quot; van het bezoekersprofiel, zodat moet u alle bijbehorende productgegevens in het gegevensbronbestand en de transactie-id uploaden. Merk op dat u slechts één product per rij kunt specificeren, zodat zou u veelvoudige rijen met zelfde transactieID kunnen moeten uploaden om alle producten te omvatten.
+Productinformatie (van `s.products`) is niet opgenomen in de &quot;momentopname&quot; van het bezoekersprofiel, dus moet u de bijbehorende productgegevens in het gegevensbronbestand en de transactie-id uploaden. Merk op dat u slechts één product per rij kunt specificeren, zodat zou u veelvoudige rijen met zelfde transactieID kunnen moeten uploaden om alle producten te omvatten.
 
 **Geüploade eVar persistentie**
 
@@ -42,7 +41,7 @@ Vars die zijn geüpload met de gegevensbronnen van de transactie-id, worden toeg
 
 Het bezoekersprofiel &quot;momentopname&quot;verbonden aan een transactie ID is verkiesbaar voor schrapping na 90 dagen, hoewel het daadwerkelijke schrappingsprogramma varieert. Indien nodig kunt u contact opnemen met de klantenservice van Adobe om het verloopvenster te verlengen. Als een rij wordt geüpload na het verloopvenster van de transactie-id, worden de gegevens in de rij opgenomen, maar geen van de gegevens in het bezoekersprofiel &quot;momentopname&quot; wordt gecrediteerd als het profiel is verwijderd.
 
-## Uitsplitsingen en segmentatie met gebruik van transactie-id&#39;s {#section_A4D39291200A42C496122FDB9EF6EF68}
+## Uitsplitsingen en segmentatie met behulp van transactie-id&#39;s {#section_A4D39291200A42C496122FDB9EF6EF68}
 
 Vars die zijn geüpload met behulp van gegevensbronnen kunnen worden gebruikt voor het uitsplitsen van eVars die zijn opgenomen in de &quot;momentopname&quot; van het bezoekersprofiel. Aangezien deze gegevens los staan van het huidige bezoekersprofiel, kunt u niet uitsplitsen naar andere eVars die vóór of nadat de transactie-id is ingesteld, zijn ingesteld maar geen deel uitmaken van de &quot;momentopname&quot;.
 

@@ -2,9 +2,9 @@
 description: Overzicht van de data die Adobe Analytics verzamelt en andere privacyoverwegingen.
 keywords: privacy
 title: Privacyoverzicht
-uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
+feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Adobe Analytics verzamelt de volgende data:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe heeft de instelling IP-onzichtbaarmaking: ingeschakeld - IP verwijderd (x.x.x.x) standaard ingeschakeld voor alle klanten met een rapportsuite in EMEA. Met deze instelling wordt het IP-adres volledig vervangen door de waarde (x.x.x.x) na geografisch opzoeken van de locatie, en is niet meer beschikbaar als datapunt. <p>Deze basisvervangingsmethode kan niet worden herleid tot een uniek, specifiek IP-adres. De klant en Adobe hebben geen van beiden toegang tot het IP-adres. Het is onomkeerbaar geanonimiseerd. Voor meer informatie over andere IP verduisteringsmontages, zie </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">Algemene </a> accountinstellingen in de gebruikershandleiding voor beheerders.</p> </td>
+   <td colname="col2"> Adobe heeft de instelling IP-onzichtbaarmaking: ingeschakeld - IP verwijderd (x.x.x.x) standaard ingeschakeld voor alle klanten met een rapportsuite in EMEA. Met deze instelling wordt het IP-adres volledig vervangen door de waarde (x.x.x.x) na geografisch opzoeken van de locatie, en is niet meer beschikbaar als datapunt. <p>Deze basisvervangingsmethode kan niet worden herleid tot een uniek, specifiek IP-adres. De klant en Adobe hebben geen van beiden toegang tot het IP-adres. Het is onomkeerbaar geanonimiseerd. Voor meer informatie over andere IP verduisteringsmontages, zie </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">Algemene accountinstellingen</a> in de handleiding voor Admin-gebruikers.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Algemeen </td> 

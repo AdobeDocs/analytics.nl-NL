@@ -1,9 +1,9 @@
 ---
 description: Er zijn meetgegevens voor bezoekers in Adobe Analytics en Adobe Audience Manager die vergelijkbare definities hebben, maar die om verschillende redenen niet volledig zijn uitgelijnd.
 title: Verschillen in aantal bezoekers
-uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
+feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 3%
@@ -72,4 +72,4 @@ AAM Bevolking van segmenten in realtime en Bezoekers voor analysemogelijkheden m
  </tbody> 
 </table>
 
-Zie [Segmenten begrijpen in Analytics en Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) voor meer uitleg over de nuances tussen Analytics en Audience Manager data en segmentatie.
+Zie [Segmenten begrijpen in Analytics en Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) voor aanvullende uitleg over de nuances tussen de gegevens van Analytics en Audience Manager en de segmentatie.

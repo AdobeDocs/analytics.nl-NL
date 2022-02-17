@@ -3,9 +3,9 @@ title: Een advertentieaccount instellen in Advertising Analytics
 description: Hiermee kunt u nieuwe advertentierekeningen maken en meerdere accounts toewijzen aan meerdere rapportensuites.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '795'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Beheerders kunnen ook [toegang verlenen aan niet-beheerders](/help/integrate/c-a
    | --- | --- |
    | Type | U hebt twee opties: Google AdWords en Microsoft Bing Ads.  Opmerking: Yahoo Gemini werd op 31 maart 2019 door Microsoft Bing geabsorbeerd. Als gevolg hiervan is de optie voor een Yahoo Gemini-advertentieaccount niet meer beschikbaar. |
    | Accountnaam | U kunt deze accountnaam instellen op elke gewenste naam. Dit is de vriendschappelijke naam van de rekening die in UI zal verschijnen. |
-   | OAuth Token | **Opmerking:**  OAuth is een open norm voor toegangsdelegatie, algemeen gebruikt als manier om websites of toepassingen toegang tot hun informatie op andere websites te verlenen maar zonder hen de wachtwoorden te geven. U zult opmerken dat u aan een derde URL (efrontier.com) zult worden verpletterd. Adobe gebruikt efrontier om het OAuth authentificatieproces voor alle drie onderzoeksmotoren te aandrijven. Als u Internet Explorer 11 (of vroeger) gebruikt, zult u niet het token Oauth voor om het even welke drie onderzoeksmotoren met succes kunnen terugwinnen. Gebruik in plaats hiervan andere webbrowsers.<p>Klikken **[!UICONTROL Retrieve Token]** start het OAuth2-verificatieproces. Dit betekent dat u zich met uw gegevens moet aanmelden bij uw Google/Bing-zoekaccount. Afhankelijk van de zoekengine die u hebt gekozen, is het proces iets anders: <ul><li>Google-trefwoorden: Google-account-id opgeven</li><li>Microsoft Bing: Geef de Bing-account-id en de Bing-klant-id op.</li></ul>Zie [Account-id zoeken](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) voor informatie over deze id&#39;s. Nadat u zich hebt aangemeld, kunt u de **[!UICONTROL OAuth Token]** veldweergaven **[!UICONTROL Retrieved]**. |
+   | OAuth Token | **Opmerking:**  OAuth is een open norm voor toegangsdelegatie, algemeen gebruikt als manier om websites of toepassingen toegang tot hun informatie op andere websites te verlenen maar zonder hen de wachtwoorden te geven. U zult opmerken dat u aan een derde URL (efrontier.com) zult worden verpletterd. Adobe gebruikt efrontier om het OAuth authentificatieproces voor alle drie onderzoeksmotoren te aandrijven. Als u Internet Explorer 11 (of vroeger) gebruikt, zult u niet het token Oauth voor om het even welke drie onderzoeksmotoren met succes kunnen terugwinnen. Gebruik in plaats hiervan andere webbrowsers.<p>Klikken **[!UICONTROL Retrieve Token]** start het OAuth2-verificatieproces. U wordt gevraagd u aan te melden bij uw Google/Bing-zoekaccount met uw referenties. Afhankelijk van de zoekengine die u hebt gekozen, is het proces iets anders: <ul><li>Google-trefwoorden: Google-account-id opgeven</li><li>Microsoft Bing: Geef de Bing-account-id en de Bing-klant-id op.</li></ul>Zie [Account-id zoeken](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) voor informatie over deze id&#39;s. Nadat u zich hebt aangemeld, kunt u de **[!UICONTROL OAuth Token]** veldweergaven **[!UICONTROL Retrieved]**. |
 
 1. In de **[!UICONTROL Tracking]** in, geeft u informatie over hoe de gegevens van de zoekmachine worden bijgehouden door uw Adobe Analytics-implementatie. Dit is een vereiste stap om de Adobe Analytics-gegevens correct aan te vullen met de zoekengine-gegevens.
 Vul de **[!UICONTROL Tracking Settings]** deze richtsnoeren volgen :

@@ -3,10 +3,9 @@ description: Informatie over het malplaatje van de Gegevensbron .txt.
 subtopic: Data sources
 title: Referentie van bestand importeren
 topic-fix: Developer and implementation
-uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
+feature: Data Sources
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 2%
@@ -22,11 +21,11 @@ Gebruik de Tovenaar van Gegevensbronnen om een het invoeren malplaatje te produc
 * Een hekje (#) geeft die rij aan als een opmerking.
 * Desgewenst kunt u aanvullende opmerkingen aan het bestand toevoegen.
 * Een opmerking die de titel van het sjabloonbestand weergeeft.
-* Een opmerking die een overzicht geeft van de namen van de externe metrische waarden en gegevensdimensies die zijn opgegeven in [!UICONTROL Data Source Activation Wizard].
+* Een opmerking die de namen opsomt van de externe metrische waarden en gegevensdimensies die zijn opgegeven in het dialoogvenster [!UICONTROL Data Source Activation Wizard].
 
 Kolomkoppen worden gebruikt om de gegevens in elke kolom van het gegevensbronbestand te identificeren. Er zijn drie typen kolomkoppen:
 
-**Datum**: (Vereist) Een tijdstempel voor elke gegevensrij in het bestand, in de indeling  `m/d/yyyy`.
+**Datum**: (Vereist) Een tijdstempel voor elke gegevensrij in het bestand, in de notatie `m/d/yyyy`.
 
 **Variabelen**: De namen van de rapportagevariabelen die zijn toegewezen aan de gegevensafmetingen van de gegevensbron.
 
@@ -63,6 +62,6 @@ Gebruik het malplaatje van de Gegevensbron om een Gegevensbrondossier tot stand 
 
 **.FIN-bestand**
 
-Wanneer u klaar bent met het invullen van het gegevensbronbestand, kunt u het naar Analytics FTP. Er is echter een extra bestand nodig om uw gegevens te kunnen verwerken. U moet een leeg tekstbestand met dezelfde naam als het gegevensbestand uploaden, maar met de extensie [!DNL .fin].
+Wanneer u klaar bent met het invullen van het gegevensbronbestand, kunt u het naar Analytics FTP. Er is echter een extra bestand nodig om uw gegevens te kunnen verwerken. U moet een leeg tekstbestand met dezelfde naam als het gegevensbestand uploaden, maar met een [!DNL .fin] extensie.
 
-Als u bijvoorbeeld een gegevensbestand met de naam [!DNL myproductdata.txt] (gescheiden door tabs) uploadt, moet u ook een leeg tekstbestand met de naam [!DNL myproductdata.fin] uploaden. Zonder het [!DNL .fin]-bestand worden gegevens nooit verwerkt.
+Als u bijvoorbeeld een gegevensbestand (met tabs als scheidingsteken) uploadt, genaamd [!DNL myproductdata.txt], moet u ook een leeg tekstbestand uploaden met de naam [!DNL myproductdata.fin]. Zonder de [!DNL .fin] bestand, gegevens worden nooit verwerkt.

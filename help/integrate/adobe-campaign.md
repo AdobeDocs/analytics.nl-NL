@@ -1,14 +1,14 @@
 ---
 description: Meer informatie over het inschakelen van Adobe Campaign-rapporten in Adobe Analytics
 title: Hoe integreer ik Adobe Campaign Reporting in Adobe Analytics?
-translation-type: tm+mt
-source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
+feature: Campaign Integration
+exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 95%
 
 ---
-
 
 # Adobe Campaign-rapportage
 

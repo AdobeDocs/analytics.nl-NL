@@ -3,10 +3,9 @@ description: Gegevensbronnen ondersteunen de volgende dimensies en metriek van c
 subtopic: Data sources
 title: Conversie
 topic-fix: Developer and implementation
-uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
+feature: Data Sources
 exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 5%
@@ -17,7 +16,7 @@ ht-degree: 5%
 
 Gegevensbronnen ondersteunen de volgende dimensies en metriek van conversiegegevens voor gegevenstypen die als conversie worden verwerkt.
 
-## Dimension voor omzetting en metriek {#section_FA1731B232B246DABEDF5A5D84159084}
+## Dimension voor conversie en metriek {#section_FA1731B232B246DABEDF5A5D84159084}
 
 Als u een weergavegebeurtenis opgeeft, moet u ook de corresponderende gegevensdimensie (eVar) opgeven. Als u bijvoorbeeld eVar2-weergaven opneemt, moet u een waarde opgeven voor eVar2. Het aantal aangepaste gebeurtenissen en weergaven die door een rapportsuite worden ondersteund, is afhankelijk van het contract en verschilt per bedrijf.
 
@@ -26,7 +25,7 @@ Als u een weergavegebeurtenis opgeeft, moet u ook de corresponderende gegevensdi
 | Kolomnaam | Beschrijving |
 |--- |--- |
 | Trackingcode | Naam van trackingcode. |
-| Datum | Gebruik de volgende datumnotatie:  MM/DD/YYYY/HH/mm/SS (bijvoorbeeld 01/01/2015/06/00/00) |
+| Datum | Gebruik de volgende datumnotatie: MM/DD/YYYY/HH/mm/SS (bijvoorbeeld 01/01/2015/06/00/00) |
 | Categorie | Naam categorie.  Als u een categorie opgeeft, moet u ook een product selecteren. |
 | Kanaal | Kanaalnaam. |
 | Varn | Varkensnaam. Geldige waarden voor n zijn geheel getal 1 - 250. |

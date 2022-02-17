@@ -1,14 +1,14 @@
 ---
 title: Veelgestelde vragen
 description: Krijg antwoorden op veelgestelde vragen wanneer u overschakelt van een extern platform naar Adobe.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Third-party Integration
+exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 68%
 
 ---
-
 
 # Veelgestelde vragen
 
@@ -20,15 +20,15 @@ Neem contact op met de accountmanager van uw organisatie als uw organisatie vast
 
 Adobe raadt het exporteren van historische data niet aan, omdat dit een complex proces is dat uw organisatie veel geld kost. Het is eveneens onmogelijk om de identificatie van bezoekers naadloos aan Adobe door te geven, aangezien bezoekersinformatie op verschillende platforms in verschillende cookies en verschillende indelingen is opgeslagen.
 
-**Ik ben gewend aan een segmentatievervolgmenu in veel van mijn rapporten. How can I recreate that in[!UICONTROL Analysis Workspace]?**
+**Ik ben gewend aan een segmentatievervolgmenu in veel van mijn rapporten. Hoe kan ik dat opnieuw maken in [!UICONTROL Analysis Workspace]?**
 
-Dropdown filters are a flexible and robust feature in [!UICONTROL Analysis Workspace] that allows a segmentation dropdown. Vanuit een werkruimteproject:
+Dropdown filters zijn een flexibele en robuuste eigenschap in [!UICONTROL Analysis Workspace] dat een segmentatiestorp mogelijk maakt. Vanuit een werkruimteproject:
 
 1. Ctrl+klik (Windows) of cmd+klik (Mac) op de onderdelen die u wilt opnemen in het vervolgkeuzemenu. U bent niet beperkt tot alleen segmenten; elk onderdeel kan in een vervolgkeuzemenu worden opgenomen.
 2. Sleep de groep onderdelen naar het werkruimtegebied genaamd &#39;Segment hier neerzetten&#39;. Houd Shift ingedrukt voordat dit loslaat.
 
-Users accessing this [!UICONTROL Workspace] project can now use this dropdown to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Adobe Analytics Tools guide for more information.
+Gebruikers die dit openen [!UICONTROL Workspace] Het project kan dit dropdown nu gebruiken om segmenten of andere componenten op het project toe te passen. Zie [Overzicht deelvensters](/help/analyze/analysis-workspace/c-panels/panels.md) in de handleiding Adobe Analytics Tools voor meer informatie.
 
 **Ik ben gewend om op een dimensie-item te klikken om een drilldown te zien. Hoe kan ik die eenvoudige workflow repliceren in de Analysis Workspace?**
 
-Dimensie-items in [!UICONTROL Analysis Workspace] zijn ook gemakkelijk te splitsen. Open het door met de rechtermuisknop te klikken in plaats van met de linkermuisknop te klikken. Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. U kunt dezelfde verdeling op veelvoudige afmetingspunten toepassen door ctrl+click (Vensters) of cmd+click (MAC) op elke waarde te gebruiken.
+Dimension-items in [!UICONTROL Analysis Workspace] beschikken ook over een eenvoudige workflow voor storingen. Open het door met de rechtermuisknop te klikken in plaats van met de linkermuisknop te klikken. Klik met de rechtermuisknop op een dimensie-item, klik op **[!UICONTROL Breakdown]selecteert u vervolgens de gewenste component. U kunt dezelfde verdeling toepassen op meerdere afmetingsitems door Ctrl+klikken (Windows) of cmd+klikken (Mac) op elke waarde te gebruiken.
