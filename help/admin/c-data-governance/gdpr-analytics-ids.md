@@ -1,9 +1,9 @@
 ---
 description: Begrijp de id's die zijn vastgelegd in de analysegegevens en bepaal welke u wilt gebruiken voor de aanvragen voor gegevensprivacy.
 title: Best practices voor labelen
-uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
+feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '2700'
 ht-degree: 98%

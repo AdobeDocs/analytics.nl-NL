@@ -1,15 +1,14 @@
 ---
 description: Het labelen van rapportsuitedata betekent dat u labels voor identiteit, gevoeligheid en data-governance toevoegt aan elke variabele in een bepaalde rapportsuite. Zorg ervoor dat u zichzelf eerst vertrouwd maakt met de labels en de bijbehorende definities.
 title: Rapportsuitedata labelen
-uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+feature: Data Governance
+exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 100%
 
 ---
-
 
 # Rapportsuitedata labelen
 
@@ -93,4 +92,3 @@ Als u dezelfde DULE/Data Privacy-instellingen wilt toepassen op meerdere rapport
    >Controleer altijd de doelrapportsuites om te zien of de labels goed zijn gekopieerd. Dit is vooral belangrijk voor variabelen met ID- of DEL-labels.
 
 1. Klik op **[!UICONTROL Apply]**.
-

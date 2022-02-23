@@ -1,9 +1,9 @@
 ---
 description: Het dialoogvenster Data Governance in Admin Tools biedt een overzicht van welke rapportsuites zijn geconfigureerd voor data-governance, of ze zijn toegewezen aan een Experience Cloud-organisatie, en of er een dataretentiebeleid voor deze rapportsuite bestaat.
 title: Data Governance-instellingen voor een rapportsuite weergeven/beheren
-uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
+feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%

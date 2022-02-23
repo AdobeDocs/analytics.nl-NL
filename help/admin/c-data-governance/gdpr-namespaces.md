@@ -1,15 +1,14 @@
 ---
 description: Elke id die u wilt kunnen zoeken, krijgt een naamruimte toegewezen, een aangepaste tekenreeks die deze id identificeert in elke variabele waarin deze wordt gebruikt in al uw rapportsuites.
 title: Naamruimten
-uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+feature: Data Governance
+exl-id: 421572c2-2789-48bc-b530-d48216799724
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 100%
 
 ---
-
 
 # Naamruimten
 

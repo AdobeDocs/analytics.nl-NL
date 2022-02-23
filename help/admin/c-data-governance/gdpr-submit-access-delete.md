@@ -1,10 +1,9 @@
 ---
 description: Hoe te om gegevenstoegang en schrappingsverzoeken in Adobe Analytics voor te leggen.
 title: Aanvragen voor toegang en verwijdering verzenden
-uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
+feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 96%
@@ -19,7 +18,7 @@ Misschien wilt ook zeker weten dat uw mobiele apps en websites relevante pop-upb
 
 ## Toestemming van consumenten beheren {#section_3012015E7E8942519FB9279CF7057EAB}
 
-U bent als gegevenscontroller verantwoordelijk voor het verkrijgen van uitdrukkelijke toestemming van de betrokkenen voordat u gegevens over deze gegevens verzamelt (mogelijk met inbegrip van Adobe Analytics-gegevens) en voor het implementeren van een [opt-out mechanisme](https://www.adobe.com/privacy/opt-out.html#customeruse) op uw website. Hierdoor kunnen geregistreerde personen zich afmelden voor toekomstige dataverzameling in Adobe Experience Cloud.
+U, als de gegevensbeheerder, bent verantwoordelijk voor het verkrijgen van uitdrukkelijke toestemming van de betrokkenen voordat u gegevens over hen verzamelt (mogelijk met inbegrip van Adobe Analytics-gegevens) en voor het implementeren van een [opt-out-mechanisme](https://www.adobe.com/privacy/opt-out.html#customeruse) op uw website. Hierdoor kunnen geregistreerde personen zich afmelden voor toekomstige dataverzameling in Adobe Experience Cloud.
 
 ## Gebruikers en hun data valideren {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
