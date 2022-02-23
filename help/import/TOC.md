@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding voor importeren van analysemogelijkheden
 breadcrumb-title: Hulplijn importeren
 user-guide-description: 'Gegevens van externe bronnen in Analytics opnemen, in bulk of real-time. '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 64%
    + [Transactie- en klantintegratie](c-data-sources/datasrc-integrating-offline-data.md)
    + [Transactie-id en bezoekersprofielen](c-data-sources/datasrc-tid-visitor-profile.md)
    + [Veelgestelde vragen over gegevensbronnen](c-data-sources/datasrc-faq.md)
++ [API voor data-invoer in bulk](bulk-data-insertion-api/bulk-data-insert.md)
 + [API voor data-invoer](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Einde van levensduur voor gegevensconnectors van Analytics](data-connectors/data-connectors-eol.md)

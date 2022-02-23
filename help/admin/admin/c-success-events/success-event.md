@@ -2,9 +2,9 @@
 description: Gebeurtenissen met succes zijn handelingen die kunnen worden bijgehouden. U bepaalt wat een succesgebeurtenis is. Als een bezoeker bijvoorbeeld een item aanschaft, kan de aankoopgebeurtenis als de succesgebeurtenis worden beschouwd.
 keywords: event
 title: Overzicht van succesgebeurtenissen
-feature: Admin Tools
+feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 2%
