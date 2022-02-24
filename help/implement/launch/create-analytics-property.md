@@ -3,9 +3,9 @@ title: Een eigenschap Analytics maken in tags
 description: Maak een spatie om aan te passen hoe gegevens worden verzameld met tags.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 0763f2624d46eb282b7b4c94f7d103d8e9ad8095
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Eigenschappen zijn overkoepelende containers die u gebruikt om tags te beheren. 
 1. Geef uw eigenschap een naam, zoals de titel van uw website, en voer het domein in waarop u Analytics wilt implementeren. Klik op **[!UICONTROL Save]**.
 1. Klik op de nieuwe tageigenschap om de instellingen in te voeren.
 1. Klik op de knop **[!UICONTROL Extensions]** tab, en klik vervolgens op **[!UICONTROL Catalog]**.
-1. Identiteitsservice zoeken en klik vervolgens op **[!UICONTROL Install]**.
+1. Zoek &#39;Experience Cloud ID-service&#39; en klik op **[!UICONTROL Install]**.
 1. Alle instellingen, inclusief de Experience Cloud Organisatie-id, moeten al zijn ingevuld. Klik op **[!UICONTROL Save]**.
 1. Ga terug in de extensiecatalogus naar Adobe Analytics en klik op **[!UICONTROL Install]**.
 
