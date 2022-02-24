@@ -3,9 +3,9 @@ description: Hiermee worden API's weergegeven die door de gebruikersmigratie wor
 title: API's die worden beïnvloed door de migratie van gebruikers
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,6 @@ Als uw bedrijf om het even welk van deze methodes niet gebruikt, wordt geen acti
 Voor aanvullende informatie:
 
 * [Algemene informatie over gebruikersbeheer](https://helpx.adobe.com/enterprise/help/users.html)
-* [Gebruikerbeheer-API&#39;s via adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
+* [Gebruikerbeheer-API&#39;s via adobe.io](https://developer.adobe.com/UMAPI/)
 * [Gebruikersbeheer-API-forum](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [Migratie van toegang en beheer van analysegebruikers naar Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)

@@ -3,9 +3,9 @@ description: Wat u moet weten over de migratie van de gebruikers-id voor Analyti
 title: Analytics-gebruikersmigratie naar de Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '3113'
+source-wordcount: '3109'
 ht-degree: 0%
 
 ---
@@ -280,7 +280,7 @@ Belangrijke informatie over het migratieproces en de invloed ervan op het huidig
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruikersbeheer-API's <a href="https://helpx.adobe.com/enterprise/help/identity.html"> Door Adobe ondersteunde identiteitstypen</a> </p> </td> 
-   <td colname="col2"> <p> Beheerders die naar de Admin Console migreren, moeten<a href="https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html"> gebruikersbeheer-API's</a> aangeboden bij Adobe I/O voor programmatic toegang tot gebruikersrekeningen in de Admin Console. </p> <p>De API's voor analysebevoegdheden worden uitgeschakeld wanneer u de migratie wilt inschakelen. </p> </td> 
+   <td colname="col2"> <p> Beheerders die naar de Admin Console migreren, moeten<a href="https://developer.adobe.com/UMAPI/"> gebruikersbeheer-API's</a> aangeboden bij Adobe I/O voor programmatic toegang tot gebruikersrekeningen in de Admin Console. </p> <p>De API's voor analysebevoegdheden worden uitgeschakeld wanneer u de migratie wilt inschakelen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Webservicereferenties </p> </td> 

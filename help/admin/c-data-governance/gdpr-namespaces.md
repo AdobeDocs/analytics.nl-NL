@@ -3,10 +3,10 @@ description: Elke id die u wilt kunnen zoeken, krijgt een naamruimte toegewezen,
 title: Naamruimten
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ De naamruimtetekenreeks wordt gebruikt om velden te identificeren die u wilt doo
 * Een typeveld dat voor de meeste Adobe Analytics-aanvragen de waarde “analytics” bevat.
 * Een “value”-veld met de id waarnaar Analytics moet zoeken in de gekoppelde naamruimtevariabelen van al uw rapportsuites.
 
-Raadpleeg de [Experience Cloud Data Privacy API-documentatie](https://docs.adobe.com/content/help/nl-NL/experience-platform/privacy/home.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) voor meer informatie.
+Raadpleeg de [Experience Cloud Data Privacy API-documentatie](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) voor meer informatie.
 
 ## Cookie-id
 
@@ -74,7 +74,7 @@ Het is ook acceptabel om `"namespaceId": 4` te gebruiken in plaats van of in aan
 
 Als de indeling van het waardegedeelte van een van deze cookie-id&#39;s niet de indeling volgt die voor die id is beschreven, mislukt de Data Privacy-aanvraag met de fout “Waarde is niet correct opgemaakt”.
 
-Deze cookie-id&#39;s worden doorgaans verzameld met het nieuwe [JavaScript voor privacy](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm). Dit biedt automatisch alle relevante code-/waardeparen voor deze JSON-id&#39;s.
+Deze cookie-id&#39;s worden doorgaans verzameld met het nieuwe [JavaScript voor privacy](https://developer.adobe.com/experience-platform-apis/references/privacy-service/). Dit biedt automatisch alle relevante code-/waardeparen voor deze JSON-id&#39;s.
 
 Deze JavaScript-code vult de JSON in met andere code/waardeparen naast de bovenvermelde (naamruimte, type, waarde), maar de bovenvermelde velden zijn het belangrijkst voor de Analytics Data Privacy-verwerking, en de enige velden die u moet opgeven als u de id&#39;s op een andere manier verzamelt.
 

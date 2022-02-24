@@ -3,9 +3,9 @@ description: De tijdverwerking van het rapport is een virtuele het rapportreeks 
 title: Verwerking rapportduur
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -30,14 +30,14 @@ Tijdens de gegevensverwerking van Analytics, stromen de gegevens door de pijplei
 
 Deze verwerkingsarchitectuur maakt veel flexibelere rapportageopties mogelijk. Bijvoorbeeld, kunt u de periode van de bezoekonderbreking in om het even welke tijdsduur veranderen u op een niet destructieve manier wilt en die veranderingen worden weerspiegeld in uw persistentie en segmentcontainers retroactief alsof u die montages had toegepast alvorens de gegevens werden verzameld. Bovendien, kunt u om het even welk aantal virtuele rapportreeksen tot stand brengen, elk met de verschillende opties van de Verwerking van de Tijd van het Rapport die op de zelfde reeks van het basisrapport worden gebaseerd, zonder om het even welke gegevens in de reeks van het basisrapport te veranderen.
 
-[!UICONTROL Report Time Processing] biedt Analytics ook de mogelijkheid om te voorkomen dat achtergrondhits nieuwe bezoeken beginnen en biedt de [mobiele SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) om te melden dat de rapportage een nieuw bezoek moet starten wanneer een gebeurtenis App Launch wordt gestart.
+[!UICONTROL Report Time Processing] biedt Analytics ook de mogelijkheid om te voorkomen dat achtergrondhits nieuwe bezoeken beginnen en biedt de [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) om te melden dat de rapportage een nieuw bezoek moet starten wanneer een gebeurtenis App Launch wordt gestart.
 
 ## Configuratieopties
 
 De volgende configuratieopties zijn momenteel beschikbaar aan virtuele rapportreeksen met toegelaten de Verwerking van de Tijd van het Rapport:
 
 * **[!UICONTROL Visit Timeout]:** De time-outinstelling voor een bezoek definieert de hoeveelheid inactiviteit die een unieke bezoeker moet hebben voordat een nieuw bezoek automatisch wordt gestart. De standaardwaarde is 30 minuten. Als u de time-out van het bezoek bijvoorbeeld instelt op 15 minuten, wordt een nieuwe bezoekgroep gemaakt voor elke reeks verzamelde hits, gescheiden door 15 minuten inactiviteit. Deze instelling is niet alleen van invloed op uw aantal bezoeken, maar ook op de manier waarop de containers van het bezoekensegment worden geëvalueerd en op de logica voor het verlopen van bezoeken voor alle eVars die tijdens het bezoek verlopen. Als u de time-out van het bezoek verlaagt, neemt het totale aantal bezoeken in uw rapportage waarschijnlijk toe, terwijl een langere time-out van het bezoek het totale aantal bezoeken in uw rapportage waarschijnlijk zal verminderen.
-* **[!UICONTROL Mobile App Visit Settings]:** Voor rapportsuites met gegevens die zijn gegenereerd door mobiele apps via de [Adobe Mobile SDK&#39;s](https://www.adobe.io/apis/cloudplatform/mobile.html), zijn er aanvullende bezoekinstellingen beschikbaar. Deze instellingen zijn niet-destructief en hebben alleen invloed op treffers die zijn verzameld via de mobiele SDK&#39;s. Deze instellingen zijn niet van invloed op gegevens die buiten de SDK voor mobiele apparaten worden verzameld.
+* **[!UICONTROL Mobile App Visit Settings]:** Voor rapportsuites met gegevens die zijn gegenereerd door mobiele apps via de [Adobe Mobile SDK&#39;s](https://experienceleague.adobe.com/docs/mobile.html), zijn er aanvullende bezoekinstellingen beschikbaar. Deze instellingen zijn niet-destructief en hebben alleen invloed op treffers die zijn verzameld via de mobiele SDK&#39;s. Deze instellingen zijn niet van invloed op gegevens die buiten de SDK voor mobiele apparaten worden verzameld.
 * **[!UICONTROL Prevent Background Hits from starting a new Visit]:** Achtergrondhits worden verzameld door de SDK&#39;s van mobiele apparaten wanneer de toepassing zich in de achtergrondstatus bevindt.
 * **[!UICONTROL Start a New Visit upon each App Launch]:** Naast de time-out bij een bezoek kunt u een bezoek forceren om te beginnen wanneer een gebeurtenis App Launch is opgenomen vanuit de SDK&#39;s voor mobiele apparaten, ongeacht het inactiviteitsvenster. Dit het plaatsen beïnvloedt metrisch bezoek en de container van het bezoekensegment, evenals de logica van de bezoekafloop op eVars.
 * **[!UICONTROL Start New Visit with Event]:** Een nieuwe sessie wordt gestart wanneer een gebeurtenis wordt geactiveerd, ongeacht of er een time-out voor een sessie is opgetreden. De nieuwe sessie bevat de gebeurtenis die deze heeft gestart. Bovendien kunt u meerdere gebeurtenissen gebruiken om een sessie te starten en een nieuwe sessie wordt geactiveerd als een van deze gebeurtenissen in de gegevens wordt waargenomen. Dit het plaatsen zal uw bezoektelling, de container van de de segmentatie van het bezoek, en de logica van de bezoekafloop op eVars beïnvloeden.

@@ -3,9 +3,9 @@ description: Veelgestelde vragen over Adobe Analytics-gegevensbeheer
 title: Veelgestelde vragen
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1802'
 ht-degree: 97%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Hoe weten Adobe-klanten (datacontrollers) welke Data Privacy-aanvragen horen bij welke id's in Adobe Analytics voor Data Privacy-verwerking?</b> </p> </td> 
-   <td colname="col2"> <p>De datacontrollers zullen bepalen hoe de identiteit voor aanvragen van de geregistreerde personen kan worden opgelost. Overweeg het gebruik van de <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">Adobe Data Privacy-tag voor het ophalen van id's. </a> Uw ontwikkelingsteams besparen tijd door onze Data Privacy-tag voor het ophalen van id's te gebruiken om gebruikers-id's (cookie-id's) vast te leggen en deze gebruikers-id's via de Data Privacy-API te verzenden naar de relevante oplossingen in de Adobe Experience Cloud voor Data Privacy-aanvraagverwerking. </p> <p>De Data Privacy-API kan een breed scala aan klant-id's in meerdere Adobe-oplossingen ondersteunen. Als een geregistreerde persoon aanvraag verzendt samen met een id (aangepaste variabele - prop of eVar), scant Adobe Analytics vervolgens de gehele bewaarde geschiedenis van de data die voor de betreffende id zijn verzameld. Raadpleeg de documentatie bij Analytics over <a href="/help/admin/c-data-governance/gdpr-namespaces.md"> naamruimten voor meer informatie over het configureren van aangepaste id's die zijn opgeslagen in Analytics Props of eVars.</a>
+   <td colname="col2"> <p>De datacontrollers zullen bepalen hoe de identiteit voor aanvragen van de geregistreerde personen kan worden opgelost. Overweeg het gebruik van de <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Adobe Data Privacy-tag voor het ophalen van id's. </a> Uw ontwikkelingsteams besparen tijd door onze Data Privacy-tag voor het ophalen van id's te gebruiken om gebruikers-id's (cookie-id's) vast te leggen en deze gebruikers-id's via de Data Privacy-API te verzenden naar de relevante oplossingen in de Adobe Experience Cloud voor Data Privacy-aanvraagverwerking. </p> <p>De Data Privacy-API kan een breed scala aan klant-id's in meerdere Adobe-oplossingen ondersteunen. Als een geregistreerde persoon aanvraag verzendt samen met een id (aangepaste variabele - prop of eVar), scant Adobe Analytics vervolgens de gehele bewaarde geschiedenis van de data die voor de betreffende id zijn verzameld. Raadpleeg de documentatie bij Analytics over <a href="/help/admin/c-data-governance/gdpr-namespaces.md"> naamruimten voor meer informatie over het configureren van aangepaste id's die zijn opgeslagen in Analytics Props of eVars.</a>
     </p> </td> 
   </tr> 
   <tr> 
