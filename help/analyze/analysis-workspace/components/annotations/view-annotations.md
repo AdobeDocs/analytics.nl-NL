@@ -4,7 +4,7 @@ description: Annotaties weergeven in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Annotaties worden iets anders weergegeven, afhankelijk van het feit of ze één 
 | Datum | Weergave |
 | --- | --- |
 | **Eén dag** | ![](assets/single-day.png) |
-| **Datumbereik** | Het pictogram verandert en wanneer u de muisaanwijzer op het pictogram plaatst, wordt het datumbereik weergegeven.<p>![](assets/multi-day.png)<p>In een tabel wordt op elke datum in het datumbereik een pictogram weergegeven.<p>![](assets/multi-day-table.png)<p>Let op het volgende: op dagen waarop meer dan één annotatie is gekoppeld, is het pictogram grijs. |
+| **Datumbereik** | Het pictogram verandert en wanneer u de muisaanwijzer op het pictogram plaatst, wordt het datumbereik weergegeven.<p>![](assets/multi-day.png)<p>In een tabel wordt op elke datum in het datumbereik een pictogram weergegeven.<p>![](assets/multi-day-table.png)<p>Let op het volgende: op dagen waarop meer dan één annotatie is gekoppeld, wordt het pictogram weergegeven in een grijze kleur. |
 
 ## Annotaties weergeven in een overzichtstabel
 
