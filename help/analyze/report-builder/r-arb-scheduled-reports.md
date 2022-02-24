@@ -4,9 +4,9 @@ title: Gepland Taakbeheer
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 68a8eb3452d3f86bb59140ab5842667094198dee
+source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '622'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Het doel van deze pauze is onze geplande takengegevensbestand effectief te beher
 | [!UICONTROL Publishing Options] | In deze kolom wordt Power BI weergegeven als een van de [Publicatieopties voor Power BI](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html) is geselecteerd. |
 | [!UICONTROL Schedule] | Het geplande type levering. |
 | [!UICONTROL File Format] | Het leveringsformaat van het rapport, zoals Excel, PDF, HTML, etc. |
-| [!UICONTROL Reactivate] | Wanneer een gepland werkboek niet in werking stelt, probeert Report Builder om het werkboek tweemaal om de vijftien minuten in werking te stellen. Na drie mislukte pogingen deactiveert Report Builder het programma en toont de Reactivate knoop. Wanneer u een werkboek opnieuw activeert, begint de geplande levering opnieuw van de tijd het werd gedeactiveerd.  Bijvoorbeeld, als een gepland werkboek 14 dagen geleden werd gedeactiveerd, en u het vandaag opnieuw activeert, loopt het voor elke ontbrekende dag en zal 14 keer worden geleverd. Als u niet het werkboek voor de ontbrekende dagen wordt geleverd, kunt u het geplande werkboek schrappen en dan een nieuw gepland werkboek creëren gebruikend de zelfde het plannen parameters.   Opmerking: U zou geen werkboek moeten reactiveren tenzij u de reden kent het systeem het onbruikbaar maakte. Één het oplossen van problemenoplossing moet een gedeactiveerd werkboek downloaden, en het op de cliëntkant verfrissen. Als u geen fouten ziet, moet u het opnieuw kunnen activeren. |
+| [!UICONTROL Reactivate] | Wanneer een gepland werkboek niet in werking stelt, probeert Report Builder om het werkboek tweemaal om de vijftien minuten in werking te stellen. Na drie mislukte pogingen deactiveert Report Builder het programma en toont de Reactivate knoop. Wanneer u een werkboek opnieuw activeert, begint de geplande levering opnieuw van de tijd het werd gedeactiveerd.<p>Bijvoorbeeld, als een gepland werkboek 14 dagen geleden werd gedeactiveerd, en u het vandaag opnieuw activeert, loopt het voor elke ontbrekende dag en zal 14 keer worden geleverd. Als u niet het werkboek voor de ontbrekende dagen wordt geleverd, kunt u het geplande werkboek schrappen en dan een nieuw gepland werkboek creëren gebruikend de zelfde het plannen parameters.<p>**Opmerking:** Activeer een werkboek niet tenzij u de reden kent het systeem het onbruikbaar maakte. Om problemen op te lossen, download een gedeactiveerd werkboek en vernieuw het op de cliëntkant. Als u geen fouten ziet, moet u het opnieuw kunnen activeren. |
 | [!UICONTROL Last sent] | De datum en het tijdstip waarop het rapport voor het laatst is verzonden. |
 | **Het tabblad Ontvanger** |  |
 | [!UICONTROL Recipient email] | De e-mailontvanger van het rapport. |
