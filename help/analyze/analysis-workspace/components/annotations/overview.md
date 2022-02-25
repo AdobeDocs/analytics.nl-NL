@@ -5,9 +5,9 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Met annotaties kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. Met deze sjablonen kunt u kalendergebeurtenissen koppelen aan specifieke afmetingen/metriek. U kunt een datum- of datumbereik annoteren met bekende gegevensproblemen, feestdagen, startacties voor campagnes, enzovoort. U kunt gebeurtenissen dan grafisch tonen en zien of de campagnes of andere gebeurtenissen uw plaatsverkeer, opbrengst, of een andere metrisch hebben beïnvloed.
 
-Stel dat u projecten deelt met uw organisatie. Als u een sterke toename in verkeer door een verkoopgebeurtenis had, kon u een annotatie van de &quot;lanceringsdatum van de Campagne&quot;tot stand brengen en het werkingsgebied voor uw volledige rapportreeks. Wanneer uw gebruikers gegevensreeksen bekeken die die datum omvatten, zouden zij de annotatie binnen hun projecten, naast hun gegevens zien.
+Stel dat u projecten deelt met uw organisatie. Als u een sterke toename in het verkeer door een marketing campagne had, kon u een annotatie van de &quot;lanceringsdatum van de Campagne&quot;tot stand brengen en het werkingsgebied voor uw volledige rapportreeks. Wanneer uw gebruikers om het even welke gegevensreeksen bekijken die die datum omvatten, zien zij de aantekening binnen hun projecten, naast hun gegevens.
 
 ![](assets/multi-day.png)
 
