@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
-user-guide-description: De hulp organiseert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, en alarm.
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+user-guide-description: De hulp beheert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, alarm, marketing kanalen, classificaties, en leert over de Analysemogelijkheden van het Apparaat.
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 51%
+source-wordcount: '674'
+ht-degree: 50%
 
 ---
 

@@ -3,16 +3,16 @@ product: analytics
 audience: end-user
 user-guide-title: Handleiding voor importeren van analysemogelijkheden
 breadcrumb-title: Hulplijn importeren
-user-guide-description: 'Gegevens van externe bronnen in Analytics opnemen, in bulk of real-time. '
-source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
+user-guide-description: 'Breng gegevens van externe bronnen naar Adobe Analytics, in bulk of real-time. '
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '141'
+ht-degree: 65%
 
 ---
 
 
-# Adobe Analytics-importgids {#import}
+# Adobe Analytics Import Guide {#import}
 
 + [Handleiding voor importeren van analysemogelijkheden](home.md)
 + [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)

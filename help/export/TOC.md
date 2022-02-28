@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Hulplijn exporteren
-user-guide-description: Gebruik Gegevensfeeds als u onbewerkte gegevens per uur of per dag wilt exporteren. Gebruik Data Warehouse om een spreadsheetuitvoer van gegevens op te halen.
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+user-guide-description: Gebruik Gegevensfeeds als u onbewerkte gegevens per uur of per dag wilt exporteren. Gebruik Data Warehouse om een spreadsheetuitvoer van gegevens op te halen. Leer hoe u met FTP en SFTP bestanden kunt overbrengen tussen computers en servers.
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 71%
+source-wordcount: '303'
+ht-degree: 68%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 71%
       + [Te laat arriveren](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Veelgestelde vragen over gegevensinvoer](analytics-data-feed/df-faq.md)
    + [Aanbevolen werkwijzen voor gegevensinvoer](analytics-data-feed/data-feeds-best-practices.md)
-   + [Gegevensfeeds oplossen](analytics-data-feed/troubleshooting.md)
+   + [Troubleshoot Data feeds](analytics-data-feed/troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Overzicht van Data Warehouse](data-warehouse/data-warehouse.md)
    + [Gebruikersgroep Data Warehouse toevoegen](data-warehouse/t-dw-group.md)
    + [Een verzoek voor een Data Warehouse maken](data-warehouse/t-dw-create-request.md)
-   + [Leveringstijd aanvraag](data-warehouse/delivery-time.md)
+   + [Request delivery time](data-warehouse/delivery-time.md)
    + [Tableau-gegevensbestand](data-warehouse/t-tableau.md)
    + [Sorteren op metrisch](data-warehouse/sorting-by-metric.md)
    + [Een terugkerend verzoek plannen](data-warehouse/dw-schedule-recurring.md)

@@ -3,10 +3,10 @@ product: analytics
 audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
-user-guide-description: Leer over het beheren van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 5a2319c5f2084891319ce59893eb27273bc72486
+user-guide-description: Learn about Analytics administration tasks, such managing users and products in the Experience Cloud Admin Console, configuring report suites, and more.
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '673'
 ht-degree: 87%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 87%
    + [Marketingkanalen](admin/marketing-channels-admin.md)
    + [Menuaanpassing](admin/customize-menus.md)
    + [Metrische zichtbaarheid](admin/metric-visibility.md)
-   + [Toepassingsbeheer](admin/mobile-management.md)
+   + [App management](admin/mobile-management.md)
    + Paid search-detectie {#paid-search-detection}
       + [Overzicht van paid search-detectie](admin/paid-search-detection/paid-search-detection.md)
       + [Paid search-detectie configureren](admin/paid-search-detection/t-paid-search-detection.md)
@@ -112,8 +112,8 @@ ht-degree: 87%
    + [Analyses in de Adobe Admin Console](admin-console/home.md)
    + Toestemmingen {#permissions}
       + [Machtigingen voor Analytics in Admin Console](admin-console/permissions/summary-tables.md)
-      + [Productprofielen voor Adobe Analytics](admin-console/permissions/product-profile.md)
-      + [Machtigingen voor productprofielen voor rapportsuite](admin-console/permissions/report-suite-tools.md)
+      + [Product profiles for Adobe Analytics](admin-console/permissions/product-profile.md)
+      + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
       + [Machtigingen voor productprofielen voor Analytics Tools](admin-console/permissions/analytics-tools.md)
    + [Eerste Adobe Analytics-beheerdershandleiding](admin-console/first-admin-guide.md)
 + Bedrijfsinstellingen {#company-settings}
