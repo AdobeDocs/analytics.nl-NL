@@ -3,17 +3,14 @@ title: Implementeren met tags in Adobe Experience Platform
 description: Leer hoe u Adobe Analytics implementeert met tags
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
 
 # Implementeren met tags in Adobe Experience Platform
-
->[!NOTE]
->Adobe Experience Platform Launch is omgedoopt tot een reeks technologieën voor gegevensverzameling in Experience Platform. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. Raadpleeg het volgende [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) voor een geconsolideerde referentie van de terminologische wijzigingen.
 
 Tijdens de levensduur van Adobe Analytics heeft Adobe verschillende methoden aangeboden om code op uw site te implementeren voor gegevensverzameling. Aanbevolen Adobe is via tags in Adobe Experience Platform.
 

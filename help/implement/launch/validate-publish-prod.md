@@ -3,9 +3,9 @@ title: Een ontwikkelimplementatie valideren en publiceren naar productie
 description: Leer hoe u Adobe Experience Platform-tags kunt gebruiken om Adobe Analytics in uw productieomgeving te implementeren.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -14,27 +14,22 @@ ht-degree: 0%
 
 Zodra uw tagbibliotheek aan productie wordt geduwd, kan uw organisatie beginnen Adobe Analytics te gebruiken om basisrapporten te trekken.
 
->[!NOTE]
->Adobe Experience Platform Launch is omgedoopt tot een reeks technologieën voor gegevensverzameling in Experience Platform. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. Raadpleeg het volgende [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) voor een geconsolideerde referentie van de terminologische wijzigingen.
-
 ## Vereisten
 
 [Implementeer uw analytische implementatie in uw ontwikkelomgeving](deploy-dev.md): Er moet een analytische implementatie naar uw ontwikkelomgeving worden gepubliceerd om deze pagina te kunnen volgen.
 
 ## Valideer uw dev implementatie gebruikend debugger van de Experience Cloud
 
-Foutopsporing in Experience Cloud is een Chrome-plug-in die alle Experience Cloud-tags op een pagina weergeeft.
+Foutopsporing Experience Cloud is een extensie die alle Experience Cloud-tags op een pagina weergeeft.
 
-1. Openen [Chrome-webbrowser](https://www.google.com/chrome/) en ga naar [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) in de Chrome Web Store om de extensie te installeren.
+1. Installeer de extensie voor een van de [Chroom](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) of [Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/).
 2. Navigeer naar uw ontwikkelingswebsite waarop u tags hebt geïmplementeerd.
-3. Klik op het Adobe Experience Cloud-foutopsporingspictogram rechtsboven in Chrome
-4. Als alles correct is geïmplementeerd, ziet u de inhoud in Adobe Analytics, tags en de Adobe Experience Cloud Visitor ID-service:
-
-![foutopsporing][assets/debugger.png]
+3. Klik op het Adobe Experience Cloud-foutopsporingspictogram in uw browser.
+4. Als alles correct is geïmplementeerd, ziet u de inhoud in Adobe Analytics, tags en de Adobe Experience Cloud Visitor ID-service.
 
 ## Implementeer uw dev-implementatie in stappen/vooruit
 
-Zodra u hebt bevestigd u gegevens ziet, kunt u uw implementatie aan de levende versie van uw plaats duwen.
+Nadat u hebt bevestigd dat u gegevens ziet, kunt u uw implementatie naar de live versie van uw site duwen.
 
 1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de eigenschap tag die u op uw site wilt implementeren.
@@ -45,7 +40,7 @@ Zodra u hebt bevestigd u gegevens ziet, kunt u uw implementatie aan de levende v
 1. Klik nogmaals op het vervolgkeuzemenu van de bibliotheek en selecteer **[!UICONTROL Approve for Publishing]**.
 1. Klik nogmaals op het vervolgkeuzemenu van de bibliotheek (nu in het dialoogvenster [!UICONTROL Approved] kolom) en selecteer **[!UICONTROL Build and Publish to Production]**.
 1. Ga naar het tabblad Omgevingen en klik op **[!UICONTROL Production Environment]**.
-1. Kopieer de koptekst- en voettekstcode voor de productie en geef deze door aan de eigenaars van uw website. Vraag of zij deze code in de productieomgeving van uw site willen implementeren.
+1. Kopieer de installatiecode voor de productie en geef deze door aan de eigenaars van uw website. Vraag of zij deze code in de productieomgeving van uw site willen implementeren.
 
 ## De productieimplementatie valideren
 
@@ -63,7 +58,7 @@ Open op uw site de ontwikkelaarsconsole van de browser (doorgaans F12). Bekijk d
 * De console bevat geen JavaScript-fouten. Werk samen met de eigenaars van uw website om ervoor te zorgen dat alle JS-fouten worden opgelost.
 * Koptekstcode is correct geïmplementeerd: Zorg ervoor dat de koptekstcode zich in de `<head>` en of het bestand bestaat.
 * De bibliotheek AppMeasurement bestaat: Navigeer rechtstreeks naar de JS-bron om ervoor te zorgen dat het JS-bestand code bevat. Als dit niet het geval is, moet u ervoor zorgen dat elke omgeving is gemaakt en dat de bibliotheek naar de desbetreffende omgeving wordt gepubliceerd.
-* Bezig met interfereren van plug-ins: Bepaalde Chrome-plug-ins kunnen voorkomen dat verzoeken om afbeeldingen worden geactiveerd. Schakel plug-ins uit die het verzenden van gegevens naar Adobe kunnen stoppen.
+* Bezig met interfereren met extensies: Sommige extensies, zoals advertentieverblokkers, kunnen voorkomen dat verzoeken om afbeeldingen worden afgebroken. Schakel extensies uit die kunnen voorkomen dat gegevens naar Adobe worden verzonden.
 
 ## Volgende stappen
 

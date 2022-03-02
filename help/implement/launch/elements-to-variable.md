@@ -3,19 +3,17 @@ title: Taggegevenselementen toewijzen aan analytische variabelen
 description: Wijs gegevenselementen toe aan variabelen van de Analyse zodat u hen als afmetingen in Analysis Workspace kunt gebruiken.
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
 
+
 # Taggegevenselementen toewijzen aan analytische variabelen
 
 Als u een opslagplaats hebt met taggegevenselementen, kunt u deze toewijzen aan Analytics-afmetingen.
-
->[!NOTE]
->Adobe Experience Platform Launch is omgedoopt tot een reeks technologieën voor gegevensverzameling in Experience Platform. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. Raadpleeg het volgende [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) voor een geconsolideerde referentie van de terminologische wijzigingen.
 
 ## Vereisten
 

@@ -3,19 +3,16 @@ title: Datalaagobjecten toewijzen aan data-elementen
 description: Configureer codes die u van uw gegevenslaag wilt lezen.
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 5%
+source-wordcount: '292'
+ht-degree: 6%
 
 ---
 
 # Datalaagobjecten toewijzen aan data-elementen
 
 Als uw organisatie een gegevenslaag op uw site heeft gemaakt en geïmplementeerd, kunt u gegevenslaagobjecten toewijzen aan gegevenselementen binnen tags.
-
->[!NOTE]
->Adobe Experience Platform Launch is omgedoopt tot een reeks technologieën voor gegevensverzameling in Experience Platform. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. Raadpleeg het volgende [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) voor een geconsolideerde referentie van de terminologische wijzigingen.
 
 ## Vereisten
 
