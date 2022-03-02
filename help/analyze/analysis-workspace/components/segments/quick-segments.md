@@ -4,9 +4,9 @@ title: Snelle segmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '842'
 ht-degree: 1%
 
 ---
@@ -15,15 +15,11 @@ ht-degree: 1%
 
 U kunt snelle segmenten binnen een project maken om de complexiteit van de volledige [segmentbuilder](/help/components/segmentation/segmentation-workflow/seg-build.md). Snelle segmenten
 
-* Alleen van toepassing op projecten waarin ze zijn gemaakt (u kunt dit wijzigen).
+* Toepassen als [projectgebonden segmenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
 * Sta voor maximaal 3 regels toe.
 * Plaats geen geneste containers of opeenvolgende regels.
-* Werken in projecten met meerdere rapportsuites.
 
 Voor een vergelijking van wat de snelle segmenten tegenover volledige component-lijst segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
-
->[!IMPORTANT]
-> Snelle segmenten worden momenteel beperkt getest en zijn over het algemeen beschikbaar op 21 oktober 2021.
 
 ## Vereisten
 
@@ -81,14 +77,16 @@ Het segment wordt bovenaan weergegeven. Let op de zijbalk met een blauw streepje
 1. (Optioneel) Wijzig de naam van het segment.
 1. Klik op **[!UICONTROL Save]**.
 
-U ziet hoe de zijbalk van het segment verandert van gestreept blauw in blauw. Het wordt nu weergegeven in uw lijst met componenten in de linkerrails.
+U ziet hoe de zijbalk van het segment verandert van gestreept blauw in blauw. Het wordt nu ook weergegeven in uw lijst met onderdelen van het linkerspoor.
 
 ## Wat zijn projectgebonden segmenten?
 
-De project-enige segmenten zijn of snelle segmenten of de projectsegmenten van de ad-hoc Werkruimte. Wanneer u deze in het dialoogvenster [!UICONTROL Segment Builder], verschijnt het vak Alleen project. Als u een snel segment toepast in de builder maar het selectievakje voor het beschikbaar maken niet inschakelt, is het segment nog steeds een segment dat alleen in het project kan worden geopend, maar niet meer in het dialoogvenster [!UICONTROL Quick Segment Builder].
+Alleen voor projecten bestemde segmenten zijn segmenten die alleen van toepassing zijn op het huidige project waarin ze zijn gemaakt. Ze zijn niet beschikbaar in andere projecten en kunnen niet worden gedeeld met andere gebruikers. Ze zijn bedoeld voor een snelle verkenning van uw gegevens zonder dat u een segment hoeft te maken en op te slaan in de linkerrail. U kunt projectgebonden segmenten maken in de neerzetzone van het deelvenster door middel van snelle segmenten of [ad-hocsegmenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+
+Als een project-slechts segment in wordt geopend [!UICONTROL Segment Builder], verschijnt een bericht dat alleen voor het project geldt. Als u &quot;Dit segment beschikbaar maken..&quot; niet inschakelt. en klik op **[!UICONTROL APPLY]**, blijft het segment een project-slechts segment. Opmerking: als u een Snel segment van de Bouwer van het Segment toepast, kan het niet meer in worden geopend [!UICONTROL Quick Segment Builder].
 
 ![Alleen project uitgeschakeld](assets/project-only-unchecked.png)
 
-Als u het selectievakje inschakelt en klikt u op **[!UICONTROL SAVE]**, is het nu een component-lijst segment.
+Als u &quot;Dit segment beschikbaar maken..&quot; selecteert en klik op **[!UICONTROL SAVE]**, wordt het segment beschikbaar in de linkerlijst van spoorcomponenten voor gebruik in andere projecten. Het kan ook met andere gebruikers van de Manager van het Segment worden gedeeld.
 
 ![Alleen project gecontroleerd](assets/project-only-checked.png)
