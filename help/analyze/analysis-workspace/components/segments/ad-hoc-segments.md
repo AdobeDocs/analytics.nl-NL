@@ -4,31 +4,29 @@ title: Ad-hocsegmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: f50e3d9a1d3c1705c55a14af0e42a0da3ac00955
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
+source-wordcount: '311'
+ht-degree: 1%
 
 ---
 
 # Ad-hocprojectsegmenten
 
+Met ad-hocprojectsegmenten kunt u een component rechtstreeks naar de neerzetzone van het deelvenster slepen om een segment te maken. Het segment wordt een [segment op projectniveau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F) lokaal aan het huidige project.
+
 Hier volgt een video over het maken van ad-hocprojectsegmenten:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-U kunt ad hoc projectsegmenten tot stand brengen als u wilt snel onderzoeken hoe een segment uw project zou kunnen beïnvloeden, zonder naar de Bouwer van het Segment te gaan. Beschouw deze segmenten als tijdelijke segmenten op projectniveau. Ze maken normaal gesproken geen deel uit van uw segment &#39;bibliotheek&#39;, zoals componentsegmenten in de linkerrail. U kunt de bestanden echter opslaan, zoals hieronder wordt weergegeven.
-
-Voor een vergelijking van welke ad hoc projectsegmenten versus volledig-afgewerkte component-vlakke segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
-
-1. Zet om het even welk componenttype (afmeting, afmeting punt, gebeurtenis, metrisch, segment, segmentmalplaatje, datumwaaier) in de segment dalingsstreek bij de bovenkant van een paneel neer. Componenttypen worden automatisch omgezet in segmenten.
+1. Zet om het even welk componenttype (afmeting, afmeting punt, gebeurtenis, metrisch, segment, segmentmalplaatje, datumwaaier) in de segment dalingsstreek bij de bovenkant van een paneel neer. Componenttypen worden automatisch omgezet in ad-hocsegmenten of [Snelle segmenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) indien compatibel.
 Hier ziet u hoe u een segment voor het Twitter-verwijzende domein kunt maken:
 
    ![](assets/ad-hoc1.png)
 
    Dit segment wordt automatisch toegepast in uw deelvenster en u kunt de resultaten direct zien.
 
-1. U kunt een onbeperkt aantal componenten aan een paneel toevoegen.
+1. U kunt een onbeperkt aantal segmenten aan een deelvenster toevoegen.
 1. Raadpleeg de onderstaande sectie als u besluit dat u dit segment wilt opslaan.
 
 Houd rekening met het volgende:
@@ -37,19 +35,15 @@ Houd rekening met het volgende:
 * Voor volledige afmetingen en gebeurtenissen maakt Analysis Workspace &#39;bestaande&#39; raaksegmenten. Voorbeelden: `Hit where eVar1 exists` of `Hit where event1 exists`.
 * Als &quot;niet gespecificeerd&quot;of &quot;niets&quot;in de segment dalingsstreek wordt gelaten vallen, wordt het automatisch omgezet in een &quot;bestaat niet&quot;segment zodat het correct in segmentatie wordt behandeld.
 
->[!NOTE]
->
->Segmenten die op deze manier worden gemaakt, bevinden zich intern in het project.
+Voor een vergelijking van de verschillende segmenten die u binnen een project kunt maken en toepassen, gaat u [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
-## Ad-hocprojectsegmenten opslaan {#ad-hoc-save}
+## Ad-hocsegmenten opslaan {#ad-hoc-save}
 
-U kunt deze segmenten opslaan door de volgende stappen uit te voeren:
+Ad-hocsegmenten kunnen beschikbaar worden gesteld aan andere projecten door ze op te slaan.
 
 1. Houd de cursor boven het segment in de neerzetzone en klik op het pictogram &quot;i&quot;.
-1. Klik in het informatievenster dat wordt weergegeven op **[!UICONTROL Save]**.
+1. Klik het uitgeven potlood om naar de Bouwer van het Segment te gaan.
+1. Controleren **[!UICONTROL Make available to all projects and add to your component list]**.
+1. Klik op **[!UICONTROL SAVE]**.
 
-   ![](assets/segment-info.png)
-
-## Wat zijn projectgebonden segmenten?
-
-De project-enige segmenten zijn of snelle segmenten of de projectsegmenten van de ad-hoc Werkruimte. Wanneer het uitgeven van/het openen van hen in de segmentbouwer dan zal het project-enige vakje verschijnen. Als ze een snel segment toepassen in de builder maar het selectievakje voor het beschikbaar maken niet inschakelen, is het segment nog steeds een segment dat alleen in het project kan worden geopend, maar niet meer in de builder voor kwaliteitscontrole. Als zij de doos controleren en OPSLAAN is het nu een component-lijst segment.
+Zodra bewaard, is het segment beschikbaar in uw linkerspoorcomponentenlijst en kan met andere gebruikers van de Manager van het Segment worden gedeeld.
