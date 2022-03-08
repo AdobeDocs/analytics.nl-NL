@@ -2,21 +2,22 @@
 description: Verklaart hoe de landingspagina zowel Analysis Workspace als Rapporten & Analytics in één enkele interface en toegangspunt onder de paraplu van de Werkruimte samenbrengt.
 title: Adobe Analytics-landingspagina
 role: User, Admin
+feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 6a5637aaf51d84463633e71fb781c03dba2ad277
+source-git-commit: ec11508218082b62fffa7541662a1e12ae5245d9
 workflow-type: tm+mt
-source-wordcount: '3513'
+source-wordcount: '3428'
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics-landingspagina
 
-De landingspagina voor Adobe Analytics brengt zowel Analysis Workspace als Reports &amp; Analytics samen in één interface en toegangspunt onder de Workspace-paraplu. Het kenmerkt een de homepage van de projectmanager, een bijgewerkt rapportenmenu, gemoderniseerde rapporten, en een het leren sectie om u te helpen met effectiever worden begonnen.
+De landingspagina van Adobe Analytics bevat beide [!DNL Analysis Workspace] en [!DNL Reports & Analytics] in één interface en toegangspunt onder de [!DNL Workspace] paraplu. Het kenmerkt een de homepage van de projectmanager, een bijgewerkt rapportenmenu, gemoderniseerde rapporten, en een het leren sectie om u te helpen met effectiever worden begonnen.
 
 >[!IMPORTANT]
 >
->Deze landingspagina wordt vanaf 21 juli 2021 in Open Beta weergegeven. Het is een optioneel startpunt. U kunt desgewenst de bestaande openingspagina gebruiken, of dat nu Workspace of Reports is. Als u toch besluit zich aan te melden bij het bètaprogramma, opent u de pagina en klikt u op **[!UICONTROL Provide feedback]** boven aan het scherm om uw feedback en eventuele fouten vast te leggen. U kunt op elk gewenst moment de optie Weigeren of weer deelnemen aan het bètaprogramma. Alle werk dat in de bètagebruikersinterface wordt gedaan, wordt verwerkt in de bestaande/huidige werkruimte.
+>Deze openingspagina bevindt zich momenteel in het bètaprogramma Openen. Het is een optioneel startpunt. Desgewenst kunt u de bestaande landingspagina gebruiken, ongeacht of dat [!UICONTROL Workspace] of [!UICONTROL Reports]. Als u toch besluit zich aan te melden bij het bètaprogramma, opent u de pagina en klikt u op **[!UICONTROL Provide feedback]** boven aan het scherm om uw feedback en eventuele fouten vast te leggen. U kunt op elk gewenst moment de optie Weigeren of weer deelnemen aan het bètaprogramma. Elk werk dat in de bètagebruikersinterface wordt uitgevoerd, wordt overgenomen in de bestaande/huidige [!UICONTROL Workspace] ervaring.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -28,14 +29,14 @@ De landingspagina voor Adobe Analytics brengt zowel Analysis Workspace als Repor
 
 | Functie | Beschrijving | Schermafbeelding |
 | --- | --- | --- |
-| Uitbreiden [!UICONTROL Projects] tabel naar volledig scherm | Als u de ruimte voor de tabel wilt vergroten, klikt u op het hamburger-menupictogram. Deze actie zal de linker-spoorlusjes doen ineenstorten. | ![Tabel uitvouwen](assets/landing-collapse.png) |
+| Uitbreiden [!UICONTROL Projects] tabel naar volledig scherm | Klik op het hamburger-menupictogram om de tabel uit te vouwen. Deze actie zal de linker-spoorlusjes doen ineenstorten. | ![Tabel uitvouwen](assets/landing-collapse.png) |
 | Kolombreedte aanpassen | Eerder was de kolombreedte vast. Nu kunt u het aanpassen door het kolomscheidingsteken te slepen. |  |
-| Vastgezette items opnieuw ordenen | Als u vastgezette items omhoog en omlaag wilt verplaatsen, klikt u op de ellips naast het vastgezette item en selecteert u[!UICONTROL  Move up] of [!UICONTROL Move down]. | ![Vastgezette items verplaatsen](assets/move-up-down.png) |
+| Vastgezette items opnieuw ordenen | Als u vastgezette items omhoog en omlaag wilt verplaatsen, klikt u op de ellips naast het vastgezette item en selecteert u **[!UICONTROL Move up]** of **[!UICONTROL Move down]**. | ![Vastgezette items verplaatsen](assets/move-up-down.png) |
 | Nieuwe tabelkolommen | Klik op de knop [!UICONTROL Customize table] aan de rechterbovenhoek van de tabel. De nieuwe tabelkolommen omvatten: <ul><li>**[!UICONTROL Scheduled]**: Instellen op [!UICONTROL On] wanneer een project gepland is of [!UICONTROL Off] wanneer dat niet het geval is. Klik op de knop [!UICONTROL On] de verbinding laat u informatie over het geplande project zien. U kunt ook [de projectplanning bewerken](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) als u de eigenaar van het project bent.</li><li>**[!UICONTROL Project ID]**: Projectidentiteitskaart kan voor het zuiveren projecten worden gebruikt.</li><li>**[!UICONTROL Longest Date Range]**: De langere datumwaaiers verhogen projectingewikkeldheid en kunnen verwerking en ladingstijden verhogen. </li><li>**[!UICONTROL Number of Queries]**: Een hoger aantal projectvragen verhoogt projectingewikkeldheid en kan verwerking en ladingstijden verhogen.</li></ul> | ![Nieuwe kolommen](assets/new-columns.png) |
 | Eén klik om een rapport te openen | Eerder moest u dubbelklikken. |  |
-| Nieuwe koppelingen naar rapporten en analyserapporten | <ul><li>Rapporten > Publiek > Bots</li><li>Rapporten > Publiek > Bodempagina&#39;s<li>Rapporten > Betrokkenheid > Echt - tijd</li></ul> | ![Nieuwe koppelingen](assets/report-links.png) |
-| Nieuwe out-of-the-box rapporten | <ul><li>Rapporten > Meest populair > Volgende pagina</li><li>Rapporten > Meest populair > Vorige pagina</li><li>Rapporten > Betrokkenheid > Paginaanalyse > Paginaoverzicht</li></ul>Merk op dat deze rapporten in het formaat van de Werkruimte zijn en configuratie en bouw vereisen. De uitvoer bestaat uit een deelvenster met meetgegevens op hoog niveau, trendgegevens, [!UICONTROL Flow] visualisatie en nog veel meer. U kunt deze rapporten en veranderingsdimensies, afmetingspunten, enz. ook wijzigen. Deze rapporten zijn ook beschikbaar als deelvensters onder Workspace-deelvensters. | ![Volgende pagina](assets/next-page.png) |
-| [!UICONTROL Create new] modal is back | Wanneer u op [!UICONTROL Create new] in Workspace, krijgt u opnieuw de keus tussen een Leeg project en een Lege mobiele scorecard. U kunt ook kiezen uit sjablonen die uw bedrijf heeft gemaakt. | ![Nieuw maken](assets/create-new.png) |
+| Nieuwe koppelingen naar **[!UICONTROL Reports & Analytics]** rapporten | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bot Pages]**<li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**</li></ul> | ![Nieuwe koppelingen](assets/report-links.png) |
+| Nieuwe out-of-the-box rapporten | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Next page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Previous page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Page analysis]** > **[!UICONTROL Page summary]**</li></ul>Deze rapporten zijn opgenomen in [!UICONTROL Workspace] formatteren en vereisen configuratie en bouwstijl. De uitvoer bestaat uit een deelvenster met meetgegevens op hoog niveau, trendgegevens, [!UICONTROL Flow] visualisatie en nog veel meer. U kunt deze rapporten wijzigen en dimensies, dimensie-items, enz. wijzigen. Deze rapporten zijn ook beschikbaar als deelvensters onder Workspace-deelvensters. | ![Volgende pagina](assets/next-page.png) |
+| **[!UICONTROL Create new]** modal is back | Wanneer u op **[!UICONTROL Create new]** in Workspace hebt u opnieuw de keuze tussen een [!UICONTROL Blank project] en [!UICONTROL Blank mobile scorecard]. U kunt ook kiezen uit sjablonen die uw bedrijf heeft gemaakt. | ![Nieuw maken](assets/create-new.png) |
 | Ook beschikbaar in CJA | Deze openingspagina, in een gewijzigde vorm, zal ook beschikbaar zijn in CJA. |  |
 
 {style=&quot;table-layout:auto&quot;}
@@ -72,26 +73,26 @@ Nadat u zich bij Adobe Experience Cloud en Analytics hebt aangemeld, schakelt u 
 | UI-element | Definitie |
 | --- | --- |
 | ... Meer | Laat u [!UICONTROL View Tutorials], en [Gebruikersvoorkeuren bewerken](/help/analyze/analysis-workspace/user-preferences.md). |
-| Project maken | Met het keuzemenu kunt u een [!UICONTROL Workspace project] of [!UICONTROL Mobile project]. |
-| Minder/meer tonen | Hiermee schakelt u tussen het niet weergeven en weergeven van de banner: ![Bovenste banner](assets/top-banner.png) |
-| Leeg project | Hiermee maakt u een lege waarde [Werkruimteproject](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en) zodat u kunt vullen. |
-| Lege mobiele scorecard | Hiermee maakt u een lege waarde [mobiele scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=en) zodat u kunt vullen. |
-| Training openen | Hiermee opent u de zelfstudie Workspace-training die nieuwe gebruikers stapsgewijs begeleidt bij het ontwikkelen van een project. |
-| Opmerkingen bij de release openen | Hiermee opent u het Adobe Analytics-gedeelte van de meest recente Adobe Experience Cloud-releaseopmerkingen. |
+| [!UICONTROL Create project] | Met het keuzemenu kunt u een [!UICONTROL Workspace project] of [!UICONTROL Mobile project]. |
+| [!UICONTROL Show less/more] | Hiermee schakelt u tussen het niet weergeven en weergeven van de banner: ![Bovenste banner](assets/top-banner.png) |
+| [!UICONTROL Blank project] | Hiermee maakt u een lege waarde [Werkruimteproject](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en) zodat u kunt vullen. |
+| [!UICONTROL Blank mobile scorecard] | Hiermee maakt u een lege waarde [mobiele scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=en) zodat u kunt vullen. |
+| [!UICONTROL Open Training Tutorial] | Hiermee opent u de zelfstudie Workspace-training die nieuwe gebruikers stapsgewijs begeleidt bij het ontwikkelen van een project. |
+| [!UICONTROL Open release notes] | Hiermee opent u het Adobe Analytics-gedeelte van de meest recente Adobe Experience Cloud-releaseopmerkingen. |
 | Filterpictogram | U kunt filteren op tags, rapportsuites, eigenaars, typen en andere filters (Mijne, Gedeeld met mij, Favorieten en Goedgekeurd) |
 | Zoekbalk | De zoekopdracht bevat nu alle kolommen in de tabel. |
 | Selectievak | Wanneer u op dit vak naast een of meer projecten klikt, worden de projectbeheeracties weergegeven die u kunt uitvoeren: Verwijderen, labelen, Vastzetten, Goedkeuren, Delen, Naam wijzigen, Kopiëren en Exporteren naar CSV. U hebt mogelijk geen machtigingen om al deze handelingen uit te voeren. |
-| Favorieten | Als u een project bevoordeelt, wordt er een ster achter geplaatst en wordt het als een favoriet gemarkeerd waarop u kunt filteren. |
-| Naam | De naam van het project. |
+| [!UICONTROL Favorites] | Als u een project bevoordeelt, wordt er een ster achter geplaatst en wordt het als een favoriet gemarkeerd waarop u kunt filteren. |
+| [!UICONTROL Name] | De naam van het project. |
 | Pictogram Vastzetten | Je kunt objecten vastzetten en ze *altijd* boven aan de lijst. |
 | Info (i), pictogram | Als u op het pictogram Info klikt, wordt de volgende informatie over dit project weergegeven: Type, de Rol van het Project, Eigenaar, Beschrijving, en wie het met wordt gedeeld. Het geeft ook aan wie kan [bewerken of dupliceren](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) dit project. |
 | Ovaal (...) | Wanneer u op de ellips naast een project klikt, worden de projectbeheeracties weergegeven die u kunt uitvoeren: Verwijderen, labelen, Vastzetten, Goedkeuren, Delen, Naam wijzigen, Kopiëren en Exporteren naar CSV. Mogelijk hebt u geen machtigingen om al deze handelingen uit te voeren. |
-| Type | Wijst erop of dit type een project van de Werkruimte of een Mobiele scorecard is. |
-| Tags | U kunt rapporten labelen om deze in groepen te ordenen. |
-| Projectrol | De rollen van het project verwijzen naar of u de projecteigenaar bent, en of u toestemmingen hebt om het project uit te geven of te dupliceren. |
-| Rapportsuite | Tabellen en visualisaties in een deelvenster leiden gegevens af van de rapportsuite die rechtsboven in het deelvenster is geselecteerd. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project, kunt u één of vele rapportreeksen gebruiken afhankelijk van uw analysegereedschappen. De lijst van rapportsuites wordt gesorteerd op relevantie. Adobe definieert relevantie op basis van hoe recent en vaak de suite door de huidige gebruiker is gebruikt en hoe vaak de suite binnen de organisatie wordt gebruikt. |
-| Eigenaar | De persoon die het project heeft gemaakt. |
-| Laatst geopend | Toen dit project voor het laatst door u werd geopend. |
+| [!UICONTROL Type] | Wijst erop of dit type een project van de Werkruimte of een Mobiele scorecard is. |
+| [!UICONTROL Tags] | U kunt rapporten labelen om deze in groepen te ordenen. |
+| [!UICONTROL Project Role] | De rollen van het project verwijzen naar of u de projecteigenaar bent, en of u toestemmingen hebt om het project uit te geven of te dupliceren. |
+| [!UICONTROL Report Suite] | Tabellen en visualisaties in een deelvenster leiden gegevens af van de rapportsuite die rechtsboven in het deelvenster is geselecteerd. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project, kunt u één of vele rapportreeksen gebruiken afhankelijk van uw analysegereedschappen. De lijst van rapportsuites wordt gesorteerd op relevantie. Adobe definieert relevantie op basis van hoe recent en vaak de suite door de huidige gebruiker is gebruikt en hoe vaak de suite binnen de organisatie wordt gebruikt. |
+| [!UICONTROL Owner] | De persoon die het project heeft gemaakt. |
+| [!UICONTROL Last opened] | Toen dit project voor het laatst door u werd geopend. |
 | Tabelpictogram aanpassen | (Rechtsboven) Als u kolommen wilt toevoegen aan of verwijderen uit de lijst met projecten, kunt u dit doen door ze te selecteren of te deselecteren. |
 | &lt; (Terug) | Deze knoop in een project van de Werkruimte of een rapport neemt u terug naar uw meest recente het landen paginaconfiguratie. De paginasonfiguratie die u had toen u de openingspagina verliet, zal aanhouden wanneer u terugkeert. |
 
@@ -203,10 +204,10 @@ De pagina Leren bevat praktische videolessen en zelfstudies, plus koppelingen na
 
 | Vraag | Antwoord |
 | --- | --- |
-| Waar zijn de malplaatjes die ik aan het zien in Werkruimte gewend ben? | Deze sjablonen worden gegroepeerd onder de [!UICONTROL Reports] tab. |
+| Waar zijn de malplaatjes die ik aan binnen gewend ben te zien [!UICONTROL Workspace]? | Deze sjablonen worden gegroepeerd onder de [!UICONTROL Reports] tab. |
 | Kan ik me afmelden voor de bètaversie? | U kunt de bètaversie op elk gewenst moment uitschakelen. |
-| Wordt het werk dat ik doe in de interface van het bètaprogramma overgedragen naar de werkruimte voor productie? | Ja, al het werk dat in de bètaversie wordt gedaan, gaat over naar de oude/huidige werkruimte. |
-| Zijn mijn huidige rapporten en analytische favorieten overgebleven? | Nee, ze worden NIET overgedragen. Eventuele voordelen van Workspace-projecten worden echter overgedragen. |
+| Wordt het werk dat ik doe in de interface van het bètaprogramma overgedragen naar de productie? [!UICONTROL Workspace] ervaring? | Ja, al het werk dat in de bètaversie wordt verricht, gaat over naar het oude/huidige [!UICONTROL Workspace] ervaring. |
+| Zijn mijn huidige [!DNL Reports & Analytics] de overgedragen gunsten? | Nee, ze worden NIET overgedragen. Alle [!UICONTROL Workspace] de projectvoordelen worden overgedragen . |
 | Is er een maximum aantal projecten dat ik kan vastzetten? | Nee, er is geen limiet voor het aantal projecten dat u kunt vastzetten. |
-| Kunnen beheerders deze bestemmingspagina voor hun gebruikers aanwijzen? | Nee, beheerders kunnen de bestemmingspagina niet aanwijzen namens gebruikers. Individuele gebruikers moeten de schakeloptie zelf inschakelen. |
-| Zijn alle rapporten die momenteel in Rapporten &amp; Analytics bestaan nog beschikbaar? | Nee, de volgende rapporten werden geleidelijk afgeschaft, op basis van algemene gebruiksgegevens: <ul><li>Alle aangepaste eVars/props/events/classificaties<li>Mijn aanbevolen rapporten</li><li>Uur/Dagelijks/Wekelijks/Maandelijks/Driemaandelijks/Jaarlijks unieke bezoekers</li><li>DagelijksWekelijks/Maandelijks/Driemaandelijks/Jaarlijks unieke klanten</li><li>Naamdiepte van handeling</li><li>Overzicht van handelsnaam</li><li>Dashboard toevoegen</li><li>Leeftijd</li><li>Audioondersteuning</li><li>Factureringsgegevens</li><li>Klikt op pagina</li><li>Kleurdiepte</li><li>Cookie-ondersteuning</li><li>Cookies</li><li>Verbindingstypen</li><li>Creatieve elementen</li><li>Type creditcard</li><li>Crosssell</li><li>Aangepaste gebeurtenissengordens</li><li>Aangepaste koppelingen</li><li>Klant-id</li><li>Dag van de week</li><li>Naam van handeling item</li><li>Handelingsnaam afsluiten</li><li>Koppelingen afsluiten</li><li>Uitval</li><li>Bestanden downloaden</li><li>Zoeken in winkel</li><li>Volledige paden</li><li>Geslacht</li><li>Hit Type VISTA-regel</li><li>Ondersteuning van afbeeldingen</li><li>Java</li><li>JavaScript</li><li>JavaScript-versie</li><li>Bladwijzers beheren</li><li>Dashboards beheren</li><li>Kleurdiepte van monitor</li><li>Monitorresoluties</li><li>Nieuwsbrieven</li><li>Naam van volgende handeling</li><li>Volgende actienaam doorloop</li><li>Null-zoekopdrachten</li><li>Besturingssysteem</li><li>Ordercontrole</li><li>Pagina van dag</li><li>Pagina&#39;s niet gevonden</li><li>Pathfinder</li><li>Padlengte</li><li>Vorige handelsnaam</li><li>Vorige handelsnaam</li><li>Productactiviteit</li><li>Productkosten</li><li>Productafdeling</li><li>Productcategorie</li><li>Productnaam</li><li>Productbeoordelingen</li><li>Productseizoen</li><li>Productaandelen</li><li>Productzoomen</li><li>Opnieuw laden</li><li>Zoekopdrachten</li><li>Servers</li><li>Eén pagina bezoeken</li><li>Verzendgegevens</li><li>Sitehiërarchie</li><li>Sociale opmerkingen</li><li>Tijdstip van de dag</li><li>Tijd besteed aan actienaam</li><li>Video-ondersteuning</li><li>Bezoekerstatus</li></ul> |
+| Kunnen beheerders deze bestemmingspagina voor hun gebruikers aanwijzen? | Nee, beheerders kunnen de landingspagina niet aanwijzen namens gebruikers. Individuele gebruikers moeten de schakeloptie zelf inschakelen. |
+| Zijn alle rapporten die momenteel bestaan in [!DNL Reports & Analytics] nog steeds beschikbaar? | Nee, de volgende rapporten werden geleidelijk afgeschaft, op basis van algemene gebruiksgegevens: <ul><li>Alle aangepaste eVars/props/events/classificaties<li>Mijn aanbevolen rapporten</li><li>Uur/Dagelijks/Wekelijks/Maandelijks/Driemaandelijks/Jaarlijks unieke bezoekers</li><li>DagelijksWekelijks/Maandelijks/Driemaandelijks/Jaarlijks unieke klanten</li><li>Naamdiepte van handeling</li><li>Overzicht van handelsnaam</li><li>Dashboard toevoegen</li><li>Leeftijd</li><li>Audioondersteuning</li><li>Factureringsgegevens</li><li>Klikt op pagina</li><li>Kleurdiepte</li><li>Cookie-ondersteuning</li><li>Cookies</li><li>Verbindingstypen</li><li>Creatieve elementen</li><li>Type creditcard</li><li>Crosssell</li><li>Aangepaste gebeurtenissengordens</li><li>Aangepaste koppelingen</li><li>Klant-id</li><li>Dag van de week</li><li>Naam van handeling item</li><li>Handelingsnaam afsluiten</li><li>Koppelingen afsluiten</li><li>Uitval</li><li>Bestanden downloaden</li><li>Zoeken in winkel</li><li>Volledige paden</li><li>Geslacht</li><li>Hit Type VISTA-regel</li><li>Ondersteuning van afbeeldingen</li><li>Java</li><li>JavaScript</li><li>JavaScript-versie</li><li>Bladwijzers beheren</li><li>Dashboards beheren</li><li>Kleurdiepte van monitor</li><li>Monitorresoluties</li><li>Nieuwsbrieven</li><li>Naam van volgende handeling</li><li>Volgende actienaam doorloop</li><li>Null-zoekopdrachten</li><li>Besturingssysteem</li><li>Ordercontrole</li><li>Pagina van dag</li><li>Pagina&#39;s niet gevonden</li><li>Pathfinder</li><li>Padlengte</li><li>Vorige handelsnaam</li><li>Vorige handelsnaam</li><li>Productactiviteit</li><li>Productkosten</li><li>Productafdeling</li><li>Productcategorie</li><li>Productnaam</li><li>Productbeoordelingen</li><li>Productseizoen</li><li>Productaandelen</li><li>Productzoomen</li><li>Opnieuw laden</li><li>Zoekopdrachten</li><li>Servers</li><li>Eén pagina bezoeken</li><li>Verzendgegevens</li><li>Sitehiërarchie</li><li>Sociale opmerkingen</li><li>Tijdstip van de dag</li><li>Tijd besteed aan actienaam</li><li>Video-ondersteuning</li><li>Bezoekerstatus</li></ul> |

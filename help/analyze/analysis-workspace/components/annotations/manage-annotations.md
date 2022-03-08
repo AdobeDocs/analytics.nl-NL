@@ -4,10 +4,10 @@ description: Annotaties beheren in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 0d20c6debdb71b86aefa43e78900453f15d83e8f
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '654'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,21 @@ Het uitgeven van een aantekening betekent dat u datumwaaiers, kleuren, werkingsg
 
 * In de [!UICONTROL Annotations Manager]klikt u op de titel van de aantekening.
 
-Beide opties laten u terug in de Bouwer van Annotaties. In dat geval kunt u de benodigde aanpassingen aanbrengen en de nieuwe versie opslaan.
+Beide opties laten u terugkeren in de [!UICONTROL Annotations Builder]. In dat geval kunt u de benodigde aanpassingen aanbrengen en de nieuwe versie opslaan.
+
+## Annotaties delen
+
+Houd rekening met het volgende wanneer u annotaties deelt of met annotaties werkt die met u zijn gedeeld:
+
+* Laten we zeggen dat u een project maakt met alleen-projecten annotaties en dat u het project vervolgens deelt met een andere gebruiker. Deze annotaties worden weergegeven, maar kunnen niet worden bewerkt of verwijderd door iemand waarmee u het project deelt.
+
+* Als u een annotatie opslaat en deze rechtstreeks deelt met een gebruiker, kunnen deze de annotatie alleen bewerken/verwijderen als deze beheerdersrechten heeft.
+
+* Als het project met u wordt gedeeld, wordt het alleen in dat project weergegeven. Als de annotatie rechtstreeks met u wordt gedeeld, wordt deze weergegeven in alle projecten waarin die annotatie kan worden weergegeven.
+
+## Aantekeningen en tijdzones
+
+Alle annotaties worden gemaakt met een tijdstempel, maar geen uren- of tijdzonegegevens. Op rapporttijdstip wordt de tijdzone van de rapportsuite van het deelvenster altijd toegepast. Een annotatie die voor kerstdag is gemaakt, gebeurt dus op 25 december - ongeacht in welk tijdzone van de rapportsuite u zich bevindt. Een ander voorbeeld is Nieuwjaarsdag. Elk uur begint een andere tijdzone met vuurwerk tijdens het nieuwe jaar. Om 10.00 uur &#39;s avonds in de Amerikaanse Mountain Time staat de Amerikaanse oostkust in brand omdat het al 12.00 uur &#39;s morgens is.
 
 ## Overige annotatietaken
 
@@ -56,10 +70,10 @@ Selecteer slechts één of meerdere annotaties en de bar van de Taak verschijnt.
 
 | Taak | Beschrijving |
 | --- | --- |
-| Toevoegen | Hiermee gaat u naar de builder van Annotaties waar u nieuwe annotaties kunt maken. |
-| Tag | Alle gebruikers kunnen codes voor annotaties maken en een of meer tags toepassen op een annotatie. U kunt echter alleen labels zien voor de segmenten die u bezit. Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:<ul><li>Tags die zijn gebaseerd op teamnamen, zoals Sociale marketing, Mobiele marketing</li><li>Projectlabels (analysetags), zoals analyse van de pagina Entry</li><li>Categorielabels: Mannen; geografie</li><li>Workflowlabels: Gecurreerd voor (een specifieke bedrijfseenheid); Goedgekeurd</li></ul> |
-| Verwijderen | Als u een annotatie verwijdert, wordt deze verwijderd uit elk project in uw organisatie. |
-| Naam wijzigen | Als u de naam van een annotatie wijzigt, wordt de naam van de annotatie gewijzigd in alle projecten waarop de annotatie is toegepast. |
-| Kopiëren | Hiermee maakt u een afzonderlijke kopie met een eigen annotatie-id, maar met dezelfde naam en definitie. |
-| Exporteren naar CSV | Exporteer de annotatiedefinitie naar een CSV-bestand. |
-| Filter (linkerspoor) | Filteren op tags, rapportsuite, eigenaars en andere filters (Mijne, Goedgekeurd, Favorieten, Gedeeld met mij en Alles tonen). |
+| [!UICONTROL Add] | Hiermee gaat u naar de builder van Annotaties waar u nieuwe annotaties kunt maken. |
+| [!UICONTROL Tag] | Alle gebruikers kunnen codes voor annotaties maken en een of meer tags toepassen op een annotatie. U kunt echter alleen codes zien voor de annotaties die u hebt. Welke soorten markeringen moet u creëren? Hier volgen enkele suggesties voor handige tags:<ul><li>Tags die zijn gebaseerd op teamnamen, zoals Sociale marketing, Mobiele marketing</li><li>Projectlabels (analysetags), zoals analyse van de pagina Entry</li><li>Categorielabels: Mannen; geografie</li><li>Workflowlabels: Gecurreerd voor (een specifieke bedrijfseenheid); Goedgekeurd</li></ul> |
+| [!UICONTROL Delete] | Als u een annotatie verwijdert, wordt deze verwijderd uit elk project in uw organisatie. |
+| [!UICONTROL Rename] | Als u de naam van een annotatie wijzigt, wordt de naam van de annotatie gewijzigd in alle projecten waarop de annotatie is toegepast. |
+| [!UICONTROL Copy] | Hiermee maakt u een afzonderlijke kopie met een eigen annotatie-id, maar met dezelfde naam en definitie. |
+| [!UICONTROL Export to CSV] | Exporteer de annotatiedefinitie naar een CSV-bestand. |
+| [!UICONTROL Filter] (linkerspoor) | Filteren op tags, rapportsuite, eigenaars en andere filters (Mijne, Goedgekeurd, Favorieten, Gedeeld met mij en Alles tonen). |
