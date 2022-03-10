@@ -3,9 +3,9 @@ description: Leer meer over de richtlijnen en aanbevelingen voor de toestemming 
 title: Wat zijn de CNIL-richtlijnen voor toestemming van de gebruiker en cookies
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 99bbc9d6cc4d50c39b7f689a9bd84ee95a008691
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ De richtsnoeren voorzien in een beperkte vrijstelling van de toestemmingsvereist
 
 De volgende aanvullende overwegingen zijn van toepassing:
 
+* Adobe Analytics exploiteert datacentra in de Verenigde Staten, het Verenigd Koninkrijk en Singapore om alle klanten flexibiliteit te bieden bij het verzamelen, verwerken en opslaan van hun gegevens op regionaal niveau. Bij het configureren van de eerste configuratie van Adobe Analytics selecteren klanten hun gewenste locatie voor het datacenter. De gegevens van klanten worden uiteindelijk opgeslagen binnen hun geselecteerde gebied voor het kernAnalytics product.
 * Overweeg de opt-in status in een variabele Analytics te verzamelen om opted-in gegevens van opted-out gegevens voor segmentatie, virtuele rapportreeksen te scheiden, of aan route aan afzonderlijke eindpunten.
 * Geen meting buiten de site of de toepassing zonder voorafgaande toestemming, bijvoorbeeld geen offsite campagnes, e-mailcampagnes of iFrames.
 * Het verzamelen van persoonsgegevens in variabelen is niet toegestaan zonder toestemming. [Experience Cloud-activiteiten beheren op basis van toestemming van gebruiker](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en%22%20\l%20%22implementation#implementation)
