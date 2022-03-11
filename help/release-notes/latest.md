@@ -3,10 +3,10 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 5%
+source-wordcount: '908'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,8 @@ AN-268093, AN-273820, AN-274435, AN-274904, AN-275356, AN-275947, AN-276160, AN 
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
-| 2022 ISO-regioupdates | 11 maart 2021 | Adobe voert op 10 juni 2022 updates voor de ISO-regio uit voor 2022. Verwacht dat er na deze release kleine updates worden weergegeven. |
+| Oudere geplande rapporten gepauzeerd | 11 maart 2022 | Effectief **15 april 2022**, is Adobe voornemens alle geplande rapporten met een aanmaakdatum van meer dan twee jaar (aangemaakt vóór 31 januari 2020) te pauzeren. Er worden geen rapporten of gegevens verwijderd. Alleen rapporten die ouder zijn dan twee jaar worden gepauzeerd en er worden geen aanvullende geplande rapporten verzonden. [Meer informatie](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
+| 2022 ISO-regioupdates | 11 maart 2021 | Adobe voert 2022 ISO-regioupdates uit op **10 juni 2022**. Verwacht dat er na deze release kleine updates worden weergegeven. |
 | De manier wijzigen waarop Analytics omgaat met A4T-gegevens die via Experience Edge zijn verzameld | 25 februari 2022 | Aan **7 maart 2022**, zullen we wijzigen hoe we bepaalde doelgerelateerde gegevens verwerken die via Experience Edge naar Adobe Analytics worden verzonden. Bij het gebruik van de Adobe Experience Platform Web SDK met Analytics en Target werden sommige verpersoonlijkingsgebeurtenissen geteld in [!DNL Adobe Analytics] als [!UICONTROL Page Views]. Dit leidde tot opgeblazen aantallen van de paginamening en extra servervraag. Met de verandering, zal de verpersoonlijkingsvraag zonder de inhoud van Analytics worden genegeerd. Aanroepen van personalisatie met A4T-gegevens zullen de A4T-gegevens opnemen, maar zullen niet worden opgenomen als factureerbare serveraanroepen. Evenmin zal dit van invloed zijn op paginaweergaven of metriek van koppelingsgebeurtenissen. |
 | Oudere geplande Report Builder-taken pauzeren | 24 februari 2022 | **15 april 2022** Adobe is van plan alle geplande Report Builder-taken die meer dan twee jaar geleden zijn gemaakt, te pauzeren. Deze pauze is met name van toepassing op alle taken die vóór 31 januari 2020 zijn gemaakt. Er worden geen taken, werkboeken of gegevens verwijderd. Taken die ouder zijn dan twee jaar worden echter onderbroken en er worden geen extra geplande taken verzonden. [Meer informatie](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | Verlopen van de lijst van gewenste personen EOL-extensie voor verouderde integratie van Analytics OAuth/JWT | 14 januari 2022 | Aan **25 mei 2022** de [Analytics 1.3 API, 1.4 SOAP API en Legacy Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) De verlenging van de lijst van gewenste personen verloopt. Het werd aangeboden klanten te voorzien die erfenis gebruiken [!DNL Adobe Analytics] OAuth/JWT geloofsbrieven extra tijd om hun cliëntintegratie te migreren aan [Adobe IMS-referenties](https://developer.adobe.com/console). Deze vervaldatum beïnvloedt (maar is niet beperkt tot) [!DNL Adobe Analytics Livestream] en [!DNL Adobe Campaign] klanten die hun vereiste IMS-migratie niet hebben voltooid. Klanten die op dit moment verouderde [!DNL Analytics] OAuth/JWT-referenties via de extensie lijst van gewenste personen en die de migratie naar IMS-referenties op 25 mei 2022 niet hebben voltooid, verliezen de toegang tot Adobe-services. Livestream-klanten kunnen naar deze [instructies](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) over het migreren van hun clienttoepassingen naar IMS-referenties. [!DNL Campaign] klanten kunnen hun Adobe account team bereiken over de upgrade naar de nieuwste versie van [!DNL Campaign]. |

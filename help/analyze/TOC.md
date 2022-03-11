@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Hoe kan ik-instructies voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics, evenals hulpmiddelen zoals Adobe Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1039'
 ht-degree: 81%
 
 ---
@@ -298,6 +298,7 @@ ht-degree: 81%
       + [Adobe Analytics voor iOS](reports-analytics/overview/app-ios.md)
    + [Rapport Weergave-instellingen en navigatie](reports-analytics/report-settings.md)
    + [Rapport Planning en distributie](reports-analytics/scheduling.md)
+   + [Aankondiging einde van de levensduur voor geplande rapporten](reports-analytics/scheduled-reports-eol.md)
    + [Rapporttypen](reports-analytics/reports.md)
    + [Verschillende rapporttypen uitvoeren](reports-analytics/t-running-report-types.md)
    + Rapporten aanpassen {#customize-reports}
