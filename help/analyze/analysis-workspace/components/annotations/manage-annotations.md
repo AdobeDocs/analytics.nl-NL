@@ -4,7 +4,7 @@ description: Annotaties beheren in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 0d20c6debdb71b86aefa43e78900453f15d83e8f
+source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -60,7 +60,9 @@ Houd rekening met het volgende wanneer u annotaties deelt of met annotaties werk
 
 ## Aantekeningen en tijdzones
 
-Alle annotaties worden gemaakt met een tijdstempel, maar geen uren- of tijdzonegegevens. Op rapporttijdstip wordt de tijdzone van de rapportsuite van het deelvenster altijd toegepast. Een annotatie die voor kerstdag is gemaakt, gebeurt dus op 25 december - ongeacht in welk tijdzone van de rapportsuite u zich bevindt. Een ander voorbeeld is Nieuwjaarsdag. Elk uur begint een andere tijdzone met vuurwerk tijdens het nieuwe jaar. Om 10.00 uur &#39;s avonds in de Amerikaanse Mountain Time staat de Amerikaanse oostkust in brand omdat het al 12.00 uur &#39;s morgens is.
+Alle annotaties worden gemaakt met een tijdstempel, maar geen uren- of tijdzonegegevens. Op rapporttijdstip wordt de tijdzone van de rapportsuite van het deelvenster altijd toegepast. Een annotatie die voor kerstdag is gemaakt, gebeurt dus op 25 december - ongeacht in welk tijdzone van de rapportsuite u zich bevindt.
+
+Een ander voorbeeld is Nieuwjaarsdag. Elk uur begint een andere tijdzone met vuurwerk tijdens het nieuwe jaar. Om 10.00 uur &#39;s avonds in de Amerikaanse Mountain Time staat de Amerikaanse oostkust in brand omdat het al 12.00 uur &#39;s morgens is.
 
 ## Overige annotatietaken
 
