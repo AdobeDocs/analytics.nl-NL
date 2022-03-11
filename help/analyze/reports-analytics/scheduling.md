@@ -6,9 +6,9 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1674'
 ht-degree: 1%
 
 ---
@@ -30,16 +30,16 @@ Vanwege verschillen in verwerkingsmechanismen en platforms hebben de verschillen
 
 Deze beperkingen gelden voor afzonderlijke geplande en gedownloade rapporten; dashboards zijn beperkt tot de hoeveelheid ruimte beschikbaar binnen een rapport.
 
->[!NOTE]
->
->De &quot;Tijd van de Levering&quot;/&quot;Tijd van Dag&quot;ingegaan door de gebruiker specificeert de tijd dat het rapport met verwerking zou moeten beginnen, niet de tijd dat het daadwerkelijk zal worden geleverd. De werkelijke tijd die het verslag zal krijgen, is in de eerste plaats gebaseerd op de tijd die het kost om het te verwerken (complexe en grote verslagen duren langer om dan eenvoudigere verslagen te verwerken). Bijvoorbeeld, als een rapport 15 minuten aan verwerking vergt, dan zal de daadwerkelijke leveringstijd minstens 15 minuten voorbij de oorspronkelijk gespecificeerde &quot;Tijd van de Levering&quot;/&quot;Tijd van Dag zijn.
->Bovendien zijn er een aantal andere factoren die de vertraging nog kunnen vergroten voordat het verslag daadwerkelijk wordt uitgebracht:
->
-> * **Vele verschillende programma&#39;s van het zelfde type tezelfdertijd in werking stellen** (bijvoorbeeld veel dashboards enz.) kan het systeem overladen. Het plannende systeem staat slechts een paar (5-10) rapporten van om het even welk één type toe om gelijktijdig te lopen, zodat wanneer meer dan 5-10 allen tegelijkertijd gepland zijn, zullen sommigen in lijn op andere rapporten moeten wachten te beëindigen alvorens zij met verwerking kunnen beginnen. Deze kwestie kan worden verlicht door de rapporten van een bedrijf op gestaffelde tijden door dag of uur, eerder dan gelijktijdig te plannen.
-> * Naast het specifieke rapporttype (dashboards, enz.), zullen de rapporten ook in lijn wachten als het bedrijf heeft **meer dan 15-20 van om het even welk type van rapport dat tegelijkertijd (over alle verschillende rapporttypes) wordt gepland**. Dit kan worden verlicht door onthutsende planningstijden in plaats van vele tezelfdertijd te hebben lopen.
-> * **Problemen bij downstreamdiensten** dat de Planner zich op baseert ook levering van rapporten kan beïnvloeden. Bijvoorbeeld, als u onafhankelijk APIs gebruikt om rapporten in werking te stellen en de API verzoekrij te vullen, dan kunnen uw geplande rapporten langzaam leveren terwijl u voor die bron concurreert.
-> * **Vertraging rapportsuite** (een vertraging in het verzamelen van gegevens) kan sommige geplande rapporten ook vertragen.
+## Leveringstijd versus verwerkingstijd
 
+De &quot;Tijd van de Levering&quot;of &quot;Tijd van Dag&quot;ingegaan door de gebruiker specificeert de tijd dat het rapport met verwerking zou moeten beginnen, niet de tijd dat het daadwerkelijk zal worden geleverd. Wanneer het verslag wordt uitgebracht, is het in de eerste plaats gebaseerd op de tijd die het kost om te verwerken. Het verwerken van complexe en grote rapporten duurt langer dan het vereenvoudigen van rapporten. Bijvoorbeeld, als een rapport 15 minuten aan verwerking vergt, dan zal de daadwerkelijke leveringstijd minstens 15 minuten voorbij de oorspronkelijk gespecificeerde &quot;Tijd van de Levering&quot;of &quot;Tijd van Dag&quot;zijn.
+
+Bovendien zijn er een aantal andere factoren die de vertraging nog kunnen vergroten voordat het verslag daadwerkelijk wordt uitgebracht:
+
+* **Vele verschillende programma&#39;s van het zelfde type tezelfdertijd in werking stellen** (bijvoorbeeld veel dashboards enz.) kan het systeem overladen. Het planningssysteem staat slechts een paar (5-10) rapporten van om het even welk één type toe om gelijktijdig te lopen. Wanneer meer dan 5-10 allen in één keer gepland zijn, zullen sommigen in lijn op andere rapporten moeten wachten te beëindigen alvorens zij met verwerking kunnen beginnen. Deze kwestie kan worden verlicht door de rapporten van een bedrijf op gestaffelde tijden door dag of uur, eerder dan gelijktijdig te plannen.
+* Naast het specifieke rapporttype (dashboards, enz.), zullen de rapporten ook in lijn wachten als het bedrijf heeft **meer dan 15-20 van om het even welk type van rapport dat tegelijkertijd (over alle verschillende rapporttypes) wordt gepland**. Dit kan worden verlicht door onthutsende planningstijden in plaats van vele tezelfdertijd te hebben lopen.
+* **Problemen bij downstreamdiensten** dat de Planner zich op baseert ook levering van rapporten kan beïnvloeden. Bijvoorbeeld, als u onafhankelijk APIs gebruikt om rapporten in werking te stellen en de API verzoekrij te vullen, dan kunnen uw geplande rapporten langzaam leveren terwijl u voor die bron concurreert.
+* **Vertraging rapportsuite** (een vertraging in het verzamelen van gegevens) kan sommige geplande rapporten ook vertragen.
 
 
 ## Een rapport verzenden {#task_27642CD33D484FD0BF59EBD159EEF52C}
@@ -59,7 +59,7 @@ Stappen die beschrijven om rapporten in een verscheidenheid van formaten te down
 1. Klikken **[!UICONTROL Advanced Delivery Options]** om een leveringsschema op te geven.
 
 | Optie | Beschrijving |
-|--- |--- |
+| --- |--- |
 | Rapportbestandsnaam | Specificeert de naam van het rapport. De standaardindeling is `<report name> for <suite> - <report date range>`. Als u een aangepaste naam wilt opgeven, selecteert u [!UICONTROL Custom]. |
 | Rapportindeling | Hier kunt u de indelingen PDF, CSV, Excel, HTML, Word of Mobiel opgeven voor levering. Als u CSV selecteert, kunt u ook de codering voor CSV opgeven:<ul><li>Shift-JIS: Japanse tekencodering.</li><li>EUC-JP: Uitgebreide Unix-code, voornamelijk voor Japans, Koreaans en Vereenvoudigd Chinees.</li></ul> |
 | Rapportinhoud | <ul><li>Aantal rijen in de tabel: Hiermee geeft u het aantal rijen op dat zichtbaar moet zijn in de tabel van het rapport dat u verzendt.</li><li>Taal voor kop- en voettekst: Hier geeft u de taal van de kop- en voettekst op.</li><li>Opmerkingen: Geeft de tekst aan die aan het begin van het rapport wordt weergegeven.</li></ul> |
@@ -119,7 +119,7 @@ Stappen die beschrijven hoe te om een rapport te delen door een rapportverbindin
 
 Wanneer de ontvanger op de koppeling klikt, vraagt het systeem aanmeldingsgegevens aan (bedrijfsnaam, gebruikersnaam en wachtwoord). Na het programma openen, wordt de ontvanger getoond het rapport dat door de originele gebruiker wordt geproduceerd. Standaardmachtigingsbeperkingen zijn van toepassing.
 
-**Een rapportkoppeling delen**
+Een rapportkoppeling delen
 
 1. Voer een rapport uit.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.
