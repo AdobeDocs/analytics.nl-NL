@@ -1,14 +1,14 @@
 ---
 description: Hiermee geeft u webpagina's weer en geeft u de paginaweergaven in real-time weer, zodat u sneller kunt begrijpen wat er op uw site gebeurt.
-title: Realtimerapporten
+title: Overzicht van realtimerapporten
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
@@ -25,8 +25,8 @@ U kunt:
 * Gebruik een aangepaste gebeurtenis, winkelwagentje of een andere instantie.
 * Bekijk tot 20 uur historische gegevens in real time.
 
-In real time eerbiedigt toestemmingen voor gebruikers en groepen. Bijvoorbeeld, als u geen rechten hebt om opbrengst te zien, kunt u geen rapport in real time bekijken dat opbrengstgegevens omvat. eVars (conversiemetriek) worden niet ondersteund. Real-Time toestemmingen worden toegelaten in [Admin Hulpmiddelen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
+In real time eerbiedigt toestemmingen voor gebruikers en groepen. Bijvoorbeeld, als u geen rechten hebt om opbrengst te zien, kunt u geen rapport in real time bekijken dat opbrengstgegevens omvat. eVars (conversiemetriek) worden niet ondersteund. Real-Time toestemmingen worden toegelaten in [Admin Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] zijn niet het zelfde als  [omvatten Huidige Gegevens](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html)  (de Recentie van Gegevens) eerder vrijgegeven eigenschap, die latentie voor standaardrapportering vermindert, door gegevens te tonen alvorens het wordt gebeëindigd.
+>[!UICONTROL Real-Time Reports] zijn niet gelijk aan [Huidige gegevens opnemen](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Recency van Gegevens) eigenschap die eerder werd vrijgegeven, die latentie voor standaardrapportering verminderden, door gegevens te tonen alvorens het wordt gebeëindigd.

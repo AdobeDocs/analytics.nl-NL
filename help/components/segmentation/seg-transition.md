@@ -1,11 +1,11 @@
 ---
 description: Veelgestelde vragen over segmentatie.
-title: Veelgestelde vragen
+title: Veelgestelde vragen voor segmentatie
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2076'
 ht-degree: 1%
 
 ---

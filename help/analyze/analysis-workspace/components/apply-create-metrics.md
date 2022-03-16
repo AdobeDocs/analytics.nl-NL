@@ -1,17 +1,17 @@
 ---
 description: Er zijn twee manieren om metriek in Analysis Workspace te gebruiken.
-title: Metrics
+title: Metriek in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '270'
 ht-degree: 5%
 
 ---
 
-# Metrisch
+# Metrics
 
 Er zijn twee manieren om metriek in Analysis Workspace te gebruiken.
 

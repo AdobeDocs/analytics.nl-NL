@@ -1,12 +1,12 @@
 ---
 description: Met de functie Gegevensbronnen kunt u gegevens uit offlinebronnen importeren naar Analytics. Deze gegevens kunnen na het importeren op dezelfde manier worden verwerkt en verwerkt als gegevens die native zijn verzameld.
-title: Databronnen
+title: Gegevensbronnen voor beheerders
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 2%
+source-wordcount: '167'
+ht-degree: 1%
 
 ---
 
