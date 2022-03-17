@@ -4,9 +4,9 @@ title: Snelle segmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
+source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Het segment wordt bovenaan weergegeven. Let op de zijbalk met een blauw streepje
 1. (Optioneel) Wijzig de naam van het segment.
 1. Klik op **[!UICONTROL Save]**.
 
-U ziet hoe de zijbalk van het segment verandert van gestreept blauw in blauw. Het wordt nu ook weergegeven in uw lijst met onderdelen van het linkerspoor.
+De zijbalk van het segment verandert van gestreept blauw in lichter blauw. Het wordt nu ook weergegeven in uw lijst met onderdelen van het linkerspoor.
 
 ## Wat zijn projectgebonden segmenten?
 
