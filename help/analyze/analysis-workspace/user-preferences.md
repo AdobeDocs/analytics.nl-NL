@@ -4,10 +4,10 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+source-git-commit: 941b2b472301c3e99f268ab98976de348573ae1b
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 1%
+source-wordcount: '271'
+ht-degree: 2%
 
 ---
 
@@ -45,6 +45,7 @@ Projectvoorkeuren zijn van toepassing op nieuwe projecten en nieuwe deelvensters
 |  | [Type deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Vrije vorm (standaard)</li><li>Leeg</li><li>Snelle inzichten</li></ul> |
 |  | Getalnotatie | <ul><li>1.000.00 (standaard)</li><li>1 000 00</li><li>1 000 00</li></ul> |
 |  | CSV-scheidingsteken | <ul><li>Komma (standaard)</li><li>Puntkomma</li><li>Colon</li><li>Pijp</li><li>Periode</li><li>Spatie</li><li>Tab</li></ul> |
+|  | Vrije-vormentabel | <ul><li>anomalieën tonen </li><li>Meerdere regels tonen</li><li>Annotaties tonen</li></ul> |
 
 ## [!UICONTROL Dark theme]
 
