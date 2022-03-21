@@ -3,14 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d9892291d5386c3faaec0da06084a1ce7695a78a
+source-git-commit: 99572e3ed2b519b5479a31680a48c17e2aed4fd9
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '886'
 ht-degree: 4%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (maart 2022)
+
+**Laatst bijgewerkt: 21 maart 2022**
 
 >[!IMPORTANT]
 >
@@ -24,7 +26,7 @@ ht-degree: 4%
 | Functie | Beschrijving | [Doeldatum](releases.md) |
 | ----------- | ---------- | ------- |
 | Annotaties in werkruimte | Met annotaties in Workspace kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. [Meer informatie](/help/analyze/analysis-workspace/components/annotations/overview.md) | 23 maart 2022 |
-| Adobe Analytics-bestemmingspagina-updates | Updates van de bestemmingspagina van de gezamenlijke werkruimte/Rapporten &amp; Analytics die bruikbaarheid en gemakkelijkere navigatie verbeteren. [Meer informatie](/help/analyze/landing.md) | TBD |
+| Adobe Analytics-bestemmingspagina-updates | Updates van de bestemmingspagina van de gezamenlijke werkruimte/Rapporten &amp; Analytics die bruikbaarheid en gemakkelijkere navigatie verbeteren. [Meer informatie](/help/analyze/landing.md) | 1 april 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
