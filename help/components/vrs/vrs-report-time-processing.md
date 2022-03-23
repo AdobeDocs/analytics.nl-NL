@@ -5,9 +5,9 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: a2d3336ec89823a764ce073526836b6af70f0b76
+source-git-commit: 00577a87f1f6ec69619dd17f18597dabe4c59bd2
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Deze verwerkingsarchitectuur maakt veel flexibelere rapportageopties mogelijk. B
 De volgende configuratieopties zijn momenteel beschikbaar aan virtuele rapportreeksen met toegelaten de Verwerking van de Tijd van het Rapport:
 
 * **[!UICONTROL Visit Timeout]:** De time-outinstelling voor een bezoek definieert de hoeveelheid inactiviteit die een unieke bezoeker moet hebben voordat een nieuw bezoek automatisch wordt gestart. De standaardwaarde is 30 minuten. Als u de time-out van het bezoek bijvoorbeeld instelt op 15 minuten, wordt een nieuwe bezoekgroep gemaakt voor elke reeks verzamelde hits, gescheiden door 15 minuten inactiviteit. Deze instelling is niet alleen van invloed op uw aantal bezoeken, maar ook op de manier waarop de containers van het bezoekensegment worden geëvalueerd en op de logica voor het verlopen van bezoeken voor alle eVars die tijdens het bezoek verlopen. Als u de time-out van het bezoek verlaagt, neemt het totale aantal bezoeken in uw rapportage waarschijnlijk toe, terwijl een langere time-out van het bezoek het totale aantal bezoeken in uw rapportage waarschijnlijk zal verminderen.
-* **[!UICONTROL Mobile App Visit Settings]:** Voor rapportsuites met gegevens die zijn gegenereerd door mobiele apps via de [Adobe Mobile SDK&#39;s](https://experienceleague.adobe.com/docs/mobile.html), zijn er aanvullende bezoekinstellingen beschikbaar. Deze instellingen zijn niet-destructief en hebben alleen invloed op treffers die zijn verzameld via de mobiele SDK&#39;s. Deze instellingen zijn niet van invloed op gegevens die buiten de SDK voor mobiele apparaten worden verzameld.
+* **[!UICONTROL Mobile App Visit Settings]:** Voor rapportsuites met gegevens die zijn gegenereerd door mobiele apps via de [Adobe Mobile SDK&#39;s](https://experienceleague.adobe.com/docs/mobile.html), zijn er aanvullende bezoekinstellingen beschikbaar. Deze instellingen zijn niet-destructief en hebben alleen invloed op treffers die zijn verzameld via de SDK&#39;s van Mobile. Deze instellingen zijn niet van invloed op gegevens die buiten de SDK voor mobiele apparaten worden verzameld.
 * **[!UICONTROL Prevent Background Hits from starting a new Visit]:** Achtergrondhits worden verzameld door de SDK&#39;s van mobiele apparaten wanneer de toepassing zich in de achtergrondstatus bevindt.
 * **[!UICONTROL Start a New Visit upon each App Launch]:** Naast de time-out bij een bezoek kunt u een bezoek forceren om te beginnen wanneer een gebeurtenis App Launch is opgenomen vanuit de SDK&#39;s voor mobiele apparaten, ongeacht het inactiviteitsvenster. Dit het plaatsen beïnvloedt metrisch bezoek en de container van het bezoekensegment, evenals de logica van de bezoekafloop op eVars.
 * **[!UICONTROL Start New Visit with Event]:** Een nieuwe sessie wordt gestart wanneer een gebeurtenis wordt geactiveerd, ongeacht of er een time-out voor een sessie is opgetreden. De nieuwe sessie bevat de gebeurtenis die deze heeft gestart. Bovendien kunt u meerdere gebeurtenissen gebruiken om een sessie te starten en een nieuwe sessie wordt geactiveerd als een van deze gebeurtenissen in de gegevens wordt waargenomen. Dit het plaatsen zal uw bezoektelling, de container van de de segmentatie van het bezoek, en de logica van de bezoekafloop op eVars beïnvloeden.
@@ -88,3 +88,4 @@ Hieronder volgt een lijst van afmetingen en metriek die afhankelijk van de gesel
 * **Niet-commerciële eVars/gereserveerde eVars:** Waarden die in een eVar zijn ingesteld, blijven alleen behouden als de waarde binnen het bereik van de rapportdatum is ingesteld vanwege het venster Tijdverwerkingsdatum rapporteren. Bovendien kunnen op tijd gebaseerde vervaldatums een uur vroeg of een uur laat verlopen als de persistentie een zomertijdwijziging omvat.
 * **Merchandising Vars/reserved Vars:** Zie hierboven. Daarnaast wordt voor de conversiesyntaxis, waarbij de binding is ingesteld op &quot;een gebeurtenis&quot;, in plaats daarvan &quot;een hit&quot; gebruikt.
 * **Type hit:** Deze dimensie geeft aan of een hit op de voor- of achtergrond staat.
+* **Dimension met (laag verkeer) of &quot;Uniques Exceeded&quot;:** Het (Laag-verkeer) lijnpunt wordt bepaald lichtjes verschillend wanneer het gebruiken van de Verwerking van de Tijd van het Rapport, en is gewaarborgd niet om te passen wat wanneer het melden op de Reeks van het basisrapport wordt waargenomen. Bovendien, zijn de punten van de afmetingslijn die geen deel van Laag-verkeer uitmaken niet gewaarborgd om 100% van de gegevens voor dat lijnpunt te vertegenwoordigen, in tegenstelling tot een Reeks van het basisrapport. Deze verschillen worden groter naarmate het aantal unieke waarden in een dimensie groter wordt.
