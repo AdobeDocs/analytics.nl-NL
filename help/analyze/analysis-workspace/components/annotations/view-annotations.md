@@ -4,9 +4,9 @@ description: Annotaties weergeven in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 70dc0fedc6ba16cb521af7a94524a4df99200d25
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '250'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Deze functie is momenteel in beperkte tests.
+>De geleidelijke implementatie van deze functie start op 23 maart 2022. Algemene beschikbaarheid: 11 april 2022.
 
 Annotaties worden iets anders weergegeven, afhankelijk van het feit of ze één dag of een datumbereik beslaan.
 

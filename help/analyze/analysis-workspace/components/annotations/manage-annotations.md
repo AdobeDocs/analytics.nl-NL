@@ -4,9 +4,9 @@ description: Annotaties beheren in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Deze functie is momenteel in beperkte tests.
+>De geleidelijke implementatie van deze functie start op 23 maart 2022. Algemene beschikbaarheid: 11 april 2022.
 
 De [!UICONTROL Components] > [!UICONTROL Annotations] de manager biedt vele manieren aan om annotaties te beheren, zoals het delen, het filtreren, het etiketteren, het goedkeuren, het kopiëren, het schrappen, en het merken als favorieten.
 

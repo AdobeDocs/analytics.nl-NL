@@ -4,9 +4,9 @@ description: Hoe te om annotaties in Werkruimte tot stand te brengen.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: ce2e7352793384e2b7561498cbbaae973c661e66
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Deze functie is momenteel in beperkte tests.
+>De geleidelijke implementatie van deze functie start op 23 maart 2022. Algemene beschikbaarheid: 11 april 2022.
 
 1. U kunt op verschillende manieren annotaties maken:
 
