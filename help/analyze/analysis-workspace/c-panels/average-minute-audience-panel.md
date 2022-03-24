@@ -4,18 +4,15 @@ description: Het deelvenster Mediagemiddelde - Minuut publiek in Analysis Worksp
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 86f546da8a5eaded5abb4ee2ce8d4a536818574a
+source-git-commit: 31228b1a2e19a6b83dd7b5cbbde0f5692b0b8fc5
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1313'
 ht-degree: 1%
 
 ---
 
-# Deelvenster Gemiddelde media - geluid
 
->[!NOTE]
->
->Deze functie is momenteel in beperkte tests.
+# Deelvenster Gemiddelde media - geluid
 
 Klanten van Media Analytics kunnen het gemiddelde minieme publiek deelvenster gebruiken om het gemiddelde verbruik van hun inhoud beter te begrijpen. Het gemiddelde minutenpubliek maakt vergelijkingen van programmering van om het even welke lengte of genre mogelijk. Bovendien kunnen klanten dit digitale gemiddelde minieme publiek vergelijken of toevoegen aan lineaire gemiddelde de minmetriek van TV. Dit deelvenster biedt meer flexibiliteit om het gemiddelde publiek voor aangepaste tijdsperiodes te meten en om te bepalen wanneer de classificatie van de duur na het feit is bijgewerkt. Het huidige gemiddelde minieme publiek metrisch werkt slechts als de duur bij verwerkingstijd beschikbaar is.
 
