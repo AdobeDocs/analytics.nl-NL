@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a6fc5b196e91803506398816ac24ae7a495a8e0a
+source-git-commit: 0eb88df05909be28877ac266655f7959cc086044
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '985'
 ht-degree: 4%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 4%
 # Opmerkingen bij de huidige Adobe Analytics-release (maart 2022)
 
 **Laatst bijgewerkt: 23 maart 2022**
-
->[!IMPORTANT]
->
->De volgende inhoud bevat pre-releasegegevens en kan worden gewijzigd.
 
 * Voor opmerkingen bij de release van februari 2022 gaat u [hier](/help/release-notes/2022.md).
 * Meer informatie over de nieuwste release-updates voor [Adobe Experience Cloud-producten](https://business.adobe.com/products/adobe-experience-cloud-products.html). De nieuwste zelfhulpdocumentatie, zelfstudies en cursussen over Experience League.
