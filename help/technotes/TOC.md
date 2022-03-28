@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Technische notities voor Analytics
 breadcrumb-title: Technische notities
 user-guide-description: Een kennisbasis die nuttige artikelen bevat die niet tot een specifiek analyseprogramma of specifieke component behoren.
-source-git-commit: fac5627cec2a398aaca8272fefe8497fbb8fb315
+source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 69%
+source-wordcount: '200'
+ht-degree: 68%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 69%
 + [IPs en domeinen die door Adobe Analytics worden gebruikt](ip-addresses.md)
 + [Latentie](latency.md)
 + [Waarde voor weinig verkeer](low-traffic.md)
-+ [De verwerkingsregels voor mobiele services migreren naar Adobe Analytics](migrate-mobile.md)
++ [Mobile Services-verwerkingsregels migreren naar Adobe Analytics](migrate-mobile.md)
 + [Ondersteuning voor meerdere valuta&#39;s](multicurrency.md)
 + [Privacyoverzicht](privacy-overview.md)
 + [Progressieve webapps](pwa.md)
@@ -54,6 +54,7 @@ ht-degree: 69%
 + Regionale dataverzameling {#rdc}
    + [Help bij regionale dataverzameling](rdc/regional-data-collection.md)
    + [SSL-certificeringslicentie](rdc/ssl-cert-licensing.md)
+   + [Ondersteunde HTTPS-versleutelingsalgoritmen](rdc/encryption-algos.md)
 + [Beveiligingsbronnen](security.md)
 + [Gebruikte termen (verklarende woordenlijst)](terms.md)
 + [Tijdstempels optioneel](timestamps-optional.md)
