@@ -4,10 +4,10 @@ description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '3032'
-ht-degree: 42%
+source-wordcount: '3105'
+ht-degree: 41%
 
 ---
 
@@ -24,13 +24,16 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Datum | Beschrijving |
 | --- | --- |
 | **maart 2022** |  |
+| Nieuw onderwerp op ondersteunde HTTPS-versleutelingsalgoritmen | [Ondersteunde HTTPS-versleutelingsalgoritmen](/help/technotes/rdc/encryption-algos.md) voor klanten met het niveau van de cipher veiligheid die aan &quot;Hoog&quot;wordt geplaatst. |
 | Nieuwe documentatie over notities in werkruimte | [Annotaties in werkruimte](/help/analyze/analysis-workspace/components/annotations/overview.md) stelt u in staat om contextuele gegevensnuances en inzichten effectief aan uw organisatie mee te delen. |
 | Adobe Analytics-bestemmingspagina-updates | [Updates](/help/analyze/landing.md) naar de gemeenschappelijke bestemmingspagina van Workspace/Reports &amp; Analytics die bruikbaarheid en gemak van navigatie verbetert. |
 | [!UICONTROL Next item] of [!UICONTROL Previous item] Deelvenster Werkruimte | In dit deelvenster kunt u items verkennen die een dimensie-item van uw keuze volgen of er aan voorafgaan. |
 | [!UICONTROL Page Summary] Deelvenster Werkruimte | Dit deelvenster biedt een diepgaande analyse van de pagina die u kiest. |
-| **Februari 2022** |  |
+| Nieuw onderwerp bij het pauzeren van oudere geplande rapporten | Effectief **15 april 2022**, is Adobe voornemens [onderbreek alle geplande rapporten met een aanmaakdatum van meer dan twee jaar](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| **Februari 2022** |
 | Modus voor voorvertoning van mobiel scorecard-project | De [voorbeeldmodus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) kunt u een voorvertoning van de ervaring weergeven voordat u een scorecard opslaat en deelt. |
 | API-projecteindpunt | Analysis Workspace-projecten toevoegen, bewerken of verwijderen met behulp van de API. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
+| Bijgewerkt onderwerp bij het pauzeren van oudere geplande Report Builder taken | **15 april 2022**, is Adobe voornemens [pauzeren alle geplande Report Builder taken die meer dan twee jaar geleden zijn gemaakt](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **Oktober 2021** |  |
 | 21 oktober 2021 | Nieuwe documentatie over [Snelle segmenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) in Analysis Workspace |
 | 21 oktober 2021 | Nieuwe documentatie op de [Tijd van afspelen van media besteed](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html) in Analysis Workspace. |

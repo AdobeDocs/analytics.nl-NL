@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1086'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 3%
 * Problemen verholpen met het deelvenster A4T-werkruimte. (AN-281594; AN-282418)
 * Probleem verholpen waarbij sommige gebruikers geen toegang hadden tot Adobe Analytics. (AN-282776)
 * Oplossing voor problemen met enkele nieuw gemaakte rapportsuites die geen gegevens verzamelden. (AN-283114, AN-283311)
-* Oplossing voor problemen waarbij Win11 niet kon worden gedetecteerd met de dimensie Besturingssysteem. (AN-275569, AN-275727; AN-280335)
 * Correctie van problemen met verkeerd verzonden e-mails met gegevensfeeds. (AN-280255; AN-282051)
 
 
