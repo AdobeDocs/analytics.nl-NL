@@ -1,43 +1,42 @@
 ---
-description: Wanneer een rapport een groot aantal unieke waarden heeft, verstrekt Adobe functionaliteit om ervoor te zorgen dat de belangrijkste waarden in uw rapport verschijnen.
+description: Wanneer een rapport een groot aantal unieke waarden heeft, gebruikt Adobe het de afmetingspunt van het Laag-Verkeer om rapportprestaties te verbeteren.
 title: Lage verkeerswaarde in Adobe Analytics
 feature: Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: e087c50784a99eb4e664021b243ad38c3b95e538
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Lage verkeerswaarde in Adobe Analytics
 
-Wanneer een rapport vele unieke waarden heeft, verstrekt Adobe functionaliteit om ervoor te zorgen dat de belangrijkste waarden in uw rapport verschijnen. Unieke variabelewaarden die na ongeveer 500.000 bestaande waarden worden verzameld, worden vermeld onder een regelitem met de naam **[!UICONTROL Low-Traffic]**.
+Wanneer een rapport vele unieke waarden heeft, verstrekt Adobe functionaliteit om ervoor te zorgen dat de belangrijkste waarden in uw rapport verschijnen. Unieke variabelewaarden die worden verzameld na ongeveer 500.000 bestaande waarden worden vermeld onder een dimensie-item met het label **[!UICONTROL Low-Traffic]**.
 
 ## Hoe [!UICONTROL Low-Traffic] werken
 
 * De rapportage wordt niet beïnvloed als de variabele in een bepaalde maand niet 500.000 unieke waarden bereikt.
-* Wanneer een variabele deze eerste drempel van 500.000 bereikt, beginnen de gegevens onder laag-verkeer te worden ingesloten. Elke waarde boven deze drempel doorloopt de volgende logica:
+* Wanneer een variabele 500.000 unieke waarden bereikt, worden de gegevens ingesloten onder [!UICONTROL Low-Traffic]. Elke waarde boven deze drempel doorloopt de volgende logica:
    * Als er al een waarde wordt weergegeven in rapporten, voegt u deze waarde op de gebruikelijke manier toe.
-   * Als er nog geen waarde wordt weergegeven in rapporten, wordt deze weergegeven in het dialoogvenster [!UICONTROL Low-Traffic] regelitem. Als een waarde is opgenomen in de [!UICONTROL Low-Traffic] line item wordt binnen een korte tijd gezien als een significant aantal keren, en wordt opgenomen als een eigen lijstitem. Het significante aantal tijden dat een punt moet worden gezien heeft vele gebiedsdelen, zoals het aantal verwerkingsservers en daemons die gegevens voor die bepaalde rapportreeks verwerken.
-* Als een rapportreeks meer dan 1.000.000 unieke waarden bereikt, wordt het agressievere filtreren toegepast:
-   * Als er al een waarde wordt weergegeven in rapporten, voegt u deze waarde op de gebruikelijke manier toe.
-   * Als er nog geen waarde wordt weergegeven in rapporten, wordt deze weergegeven in het dialoogvenster [!UICONTROL Low-Traffic] regelitem. Als een waarde is opgenomen in de [!UICONTROL Low-Traffic] line item wordt binnen een korte tijd gezien als een significant aantal keren, en wordt opgenomen als een eigen lijstitem. Het significante aantal tijden dat een punt moet worden gezien heeft vele gebiedsdelen, zoals het aantal verwerkingsservers en daemons die gegevens voor die bepaalde rapportreeks verwerken.
+   * Als een waarde nog niet in rapporten wordt gezien, wordt het aanvankelijk ingesloten in [!UICONTROL Low-Traffic] dimensie-item.
+   * Als een waarde onder wordt ingesloten [!UICONTROL Low-Traffic] wordt in die maand ergens in dubbele cijfers gezien, begint het als zijn eigen afmetingspunt te worden erkend. Instanties die zijn verzameld voordat ze aan de drempelwaarde voldoen, blijven onder [!UICONTROL Low-Traffic]. De nauwkeurige drempel heeft vele gebiedsdelen, zoals het aantal servers die gegevens voor de rapportreeks en tijd tussen elke instantie van het afmetingspunt verwerken.
+* Als een rapportreeks meer dan 1.000.000 unieke waarden bereikt, wordt het agressievere filtreren toegepast. Unieke waarden vereisen instanties in de drievoudige cijfers alvorens als zijn eigen afmetingspunt wordt erkend.
 
-Waarom verplaatst Adobe een item van de [!UICONTROL Low Traffic] lijstitem naar eigen lijstitem? Deze verplaatsing herkent bijvoorbeeld een populaire nieuwe pagina of een nieuw item dat later in de maand is toegevoegd (nadat de unieke waarden zijn overschreden) en dat veel resultaten/weergaven oplevert. De verplaatsing is niet bedoeld om alles af te vangen wat een bepaald aantal hits/weergaven per dag of per maand oplevert.
+Deze logica staat Adobe toe om rapporteringsmogelijkheden te optimaliseren terwijl nog het toestaan van uw organisatie om over cruciale afmetingspunten te rapporteren die later in de maand worden verzameld. Uw organisatie voert bijvoorbeeld een site uit met miljoenen artikelen en een nieuw artikel werd populair aan het einde van de maand (nadat beide unieke drempels zijn overschreden). U kunt de prestaties van dat artikel nog steeds analyseren zonder dat het onder [!UICONTROL Low-Traffic]. Merk op dat deze logica niet bedoeld is om alles op te heffen dat een bepaald aantal paginameningen per dag of per maand krijgt.
 
 >[!NOTE]
->De opzoektelling van de pagina bevat niet alleen waarden voor de [!UICONTROL pagename]/[!UICONTROL page_url]. De opzoektabel van de pagina bevat meerdere kolommen/velden, zoals [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url]en de klikcontext (de oude gegevens Clickmap).
+>De [Pagina](../components/dimensions/page.md) de dimensie gebruikt verscheidene achterste kolommen die allen aan unieke drempels tellen, met inbegrip van `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`, en `click_context`. Deze achterste kolommen kunnen [!UICONTROL Low-Traffic] logica die moet worden toegepast ruim voordat het aantal unieke pagina-afmetingsitems in Workspace 500.000 bereikt.
 
 ## Unieke limietdrempels wijzigen
 
-Drempelwaarden zijn standaard 500.000 en 1 miljoen unieke waarden. Deze grenswaarden kunnen per variabele worden gewijzigd. Neem contact op met de accountmanager van uw organisatie om deze wijziging aan te vragen. Neem bij het aanvragen van een wijziging de volgende gegevens op:
+Drempelwaarden zijn standaard 500.000 en 1 miljoen unieke waarden. Deze grenswaarden kunnen per variabele worden gewijzigd. Neem contact op met de klantenservice van Adobe of de accountmanager van uw organisatie om deze wijziging aan te vragen. Neem bij het aanvragen van een wijziging de volgende gegevens op:
 
 * De rapportsuite-id
 * De variabele waarvoor u de drempel wilt verhogen
 * Zowel de eerste als de tweede gewenste drempel
 
-Wijzigingen in drempelwaarden kunnen van invloed zijn op de prestaties van rapporten. Adobe raadt u ten zeerste aan een goede beoordeling te gebruiken wanneer u een verhoging tot unieke waarden in een variabele aanvraagt.
+Wijzigingen in drempelwaarden kunnen van invloed zijn op de prestaties van rapporten. Adobe raadt u ten zeerste aan een goede beoordeling te gebruiken wanneer u een verhoging tot unieke waarden in een variabele aanvraagt. Verhoog alleen de unieke limieten voor variabelen die essentieel zijn voor de rapportagebehoeften van uw organisatie.
 
 Laag-verkeersdrempels zijn niet zichtbaar in Analytics UI. Neem contact op met de klantenservice van Adobe als u meer informatie wilt over bestaande drempelwaarden.
 
