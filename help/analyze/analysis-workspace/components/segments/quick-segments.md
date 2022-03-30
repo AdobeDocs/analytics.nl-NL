@@ -4,9 +4,9 @@ title: Snelle segmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
+source-git-commit: 7434a941f3e5a47a3f5d5a28320a3fc396dd3740
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '852'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,10 @@ U kunt snelle segmenten binnen een project maken om de complexiteit van de volle
 * Plaats geen geneste containers of opeenvolgende regels.
 
 Voor een vergelijking van wat de snelle segmenten tegenover volledige component-lijst segmenten kunnen doen, ga [hier](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+
+Hier volgt een video-overzicht van snelle segmenten:
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## Vereisten
 
