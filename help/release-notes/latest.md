@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2665aadca6d11aca99bfc522f9f7e54311dadf77
+source-git-commit: 433a750ddf4aca56fd9fbe5ec2482f66cf45125f
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ AN-256929; AN-270937; AN-272158; AN-275130; AN-277830; AN-278635; AN-279066; AN-
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
-| Wijzigen in de manier waarop Analytics omgaat met A4T-gegevens die via Experience Edge zijn verzameld | 31 maart 2022 | Aan **7 maart 2022**, hebben wij veranderd hoe wij sommige vraag die van de Rand van de Ervaring komt behandelen die de inhoud van het Doel voorgenomen voor A4T rapportering omvat. Vanaf 7 maart zijn alle treffers met A4T-rapportinhoud gewijzigd, zodat ze niet werden behandeld als gebeurtenissen Paginaweergave of Koppeling. **Vanaf 31 maart 2022** We hebben onze logica gewijzigd en zo selectiever gemaakt dat de standaardgebeurtenissen Paginaweergave en Klikken niet worden gewijzigd. Voorwaarts, zullen de enige gebeurtenissen die zullen worden gewijzigd verpersoonlijking-slechts vraag zijn die slechts A4T inhoud heeft. |
+| Wijzigen in de manier waarop Analytics omgaat met A4T-gegevens die via Experience Edge zijn verzameld | 31 maart 2022 | Aan **7 maart 2022**, hebben wij veranderd hoe wij sommige vraag die uit de Rand van de Ervaring komt behandelen die inhoud van het Doel voor Analytics voor het Rapport van het Doel (A4T) voorgenomen omvat. Vanaf 7 maart zijn alle treffers met A4T-rapportinhoud gewijzigd, zodat ze niet werden behandeld als gebeurtenissen Paginaweergave of Koppeling. **Vanaf 31 maart 2022** We hebben onze logica gewijzigd en zo selectiever gemaakt dat de standaardgebeurtenissen Paginaweergave en Klikken niet worden gewijzigd. Voorwaarts, zullen de enige gebeurtenissen die zullen worden gewijzigd verpersoonlijking-slechts vraag zijn die slechts A4T inhoud heeft. |
 | Bijwerken naar voor bepaalde klanten ondersteunde versleutelingsmethoden voor browsers | 28 maart 2022 | Adobe biedt twee cipher veiligheidsniveaus aan om aan verschillende klantenbehoeften voor veiligheid op de inzameling van gegevens van eerste partij te voldoen. Aan **23 juni 2022** wij zullen steun voor bepaalde encryptiealgoritmen HTTPS, die als ciphers worden bekend, voor klanten met hun veiligheidsniveau verwijderen dat aan &quot;Hoog&quot;wordt geplaatst. Dit betekent dat sommige oudere besturingssystemen geen gegevens meer naar Analytics kunnen verzenden omdat deze geen ondersteuning bieden voor moderne versleutelingsmethoden. Klanten die de standaardinstellingen voor standaardcursorbeveiliging gebruiken, worden niet beïnvloed. Er is al rechtstreeks contact opgenomen met alle klanten die momenteel gebruikmaken van de instelling &quot;Hoog&quot;. Een gedetailleerde lijst van de ciphers die door deze verandering worden beïnvloed is te vinden [hier](/help/technotes/rdc/encryption-algos.md). |
 | Oudere geplande rapporten onderbreken | 11 maart 2022 | Effectief **15 april 2022**, is Adobe voornemens alle geplande rapporten met een aanmaakdatum van meer dan twee jaar (aangemaakt vóór 31 januari 2020) te pauzeren. Er worden geen rapporten of gegevens verwijderd. Alleen rapporten die ouder zijn dan twee jaar worden gepauzeerd en er worden geen aanvullende geplande rapporten verzonden. [Meer informatie](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | 2022 ISO-regioupdates | 11 maart 2021 | Adobe voert 2022 ISO-regioupdates uit op **10 juni 2022**. Verwacht dat er na deze release kleine geo-informatie wordt bijgewerkt. |
