@@ -3,9 +3,9 @@ description: Gegevensbestanden uploaden via FTP.
 title: FTP-import
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 5edf3e6684b3572616f76db3f7c3bf0cf58ed408
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---
@@ -55,6 +55,8 @@ Ga voor meer informatie over het maken van een FTP-account naar [Een FTP-account
    Het FIN-bestand is een leeg bestand met dezelfde naam als het gegevensbestand, met een [!DNL .fin] bestandsnaamextensie. Als het gegevensbestand bijvoorbeeld [!DNL classdata1.tab], de FIN-bestandsnaam is [!DNL classdata1.fin].
 
 Met regelmatige intervallen haalt Adobe geüploade gegevensbestanden op waaraan een FIN-bestand is gekoppeld. Adobe importeert ze in de rapportsuite en gegevenssets die zijn opgegeven in de FTP-accountconfiguratie.
+
+Nadat Adobe Analytics bestanden heeft gelezen en verwerkt die in de FTP-map zijn geüpload, worden de bestanden automatisch verwijderd.
 
 ## Een FTP-account maken {#task_C019268E6C934C7C95F4326F42A22CCF}
 
