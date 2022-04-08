@@ -1,46 +1,47 @@
 ---
-title: Annotaties maken
-description: Hoe te om annotaties in Werkruimte tot stand te brengen.
+title: Create annotations
+description: How to create annotations in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+source-git-commit: 6a63c480220fa963cf1dc00acdd5e482dc2bab38
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
-# Annotaties maken
+# Create annotations
 
 >[!NOTE]
 >
->De geleidelijke implementatie van deze functie start op 23 maart 2022. Algemene beschikbaarheid: 11 april 2022.
+>Gradual rollout of this feature starts March 23, 2022. General Availability: April 11, 2022.
 
-1. U kunt op verschillende manieren annotaties maken:
+1. To create annotations, you have several ways to get started:
 
-| Aanmaakmethode | Details |
+| Creation method | Details |
 | --- | --- |
-| **Ga naar [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Annotation].** | De pagina Annotatiebeheer wordt geopend. Klikken [!UICONTROL Create New Annotation] en de [!UICONTROL Annotation builder] wordt geopend. |
-| **Klik met de rechtermuisknop op een punt in een tabel.** | [!UICONTROL The Annotation builder] wordt geopend. Merk op dat, door gebrek, de aantekeningen die op deze manier worden gecreeerd slechts in het project zichtbaar zijn waar zij werden gecreeerd. Maar u kunt ze beschikbaar maken voor alle projecten. U ziet ook dat de datum/data en metrische gegevens, enz. al zijn ingevuld.<p>![](assets/annotate-table.png) |
-| **Klik met de rechtermuisknop op een punt in een [!UICONTROL Line] grafiek.** | De [!UICONTROL Annotation builder] wordt geopend. Merk op dat, door gebrek, de aantekeningen die op deze manier worden gecreeerd slechts in het project zichtbaar zijn waar zij werden gecreeerd. Maar u kunt ze beschikbaar maken voor alle projecten. U ziet ook dat de datum/data en metrische gegevens, enz. al zijn ingevuld.<p>![](assets/annotate-line.png) |
-| **Ga in Workspace naar [!UICONTROL Components] > [!UICONTROL Create annotation].** | De [!UICONTROL Annotation builder] wordt geopend. |
-| **Deze hotkey gebruiken** om de aannemer van de Annotatie te openen: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Houd er rekening mee dat u met de sneltoets een annotatie maakt voor de huidige datum zonder dat er een bereik (afmetingen of metriek) is geselecteerd. |
+| **[!UICONTROL Analytics][!UICONTROL Components][!UICONTROL Annotation]** | The Annotations Manager page opens. [!UICONTROL Create New Annotation][!UICONTROL Annotation builder] |
+| **** | [!UICONTROL The Annotation builder] Note that, by default, annotations created this way are visible only in the project where they were created. But you can make them available to all projects. Also notice that the date/s and any metric, etc., have already been populated.<p>![](assets/annotate-table.png) |
+| **[!UICONTROL Line]** | [!UICONTROL Annotation builder] Note that, by default, annotations created this way are visible only in the project where they were created. But you can make them available to all projects. Also notice that the date/s and any metric, etc., have already been populated.<p>![](assets/annotate-line.png) |
+| **[!UICONTROL Components][!UICONTROL Create annotation]** | [!UICONTROL Annotation builder] |
+| ****`ctrl``shift``shift``command` | Note that by using the hotkey to create an annotation, you create a single-day annotation for the current date, without any pre-selected scope (metrics or dimensions). |
+| **[](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/annotations/)** | The Analytics 2.0 Annotations APIs allow you to create, update, or retrieve annotations programmatically through Adobe I/O. These APIs use the same data and methods that Adobe uses inside the product UI. |
 
-1. Vul de [!UICONTROL Annotation builder] elementen.
+1. [!UICONTROL Annotation builder]
 
    ![](assets/ann-builder.png)
 
    | Element | Beschrijving |
    | --- | --- |
-   | [!UICONTROL Project-only Annotation] | Standaard wordt de annotatie toegepast op het huidige project. Als u dit selectievakje inschakelt, kunt u de annotatie beschikbaar stellen voor alle projecten die u bezit.<p> ![](assets/project-only.png) |
-   | [!UICONTROL Title] | Geef de annotatie een naam, bijvoorbeeld &quot;Herdenkingsdag&quot; |
-   | [!UICONTROL Description] | (Optioneel) Geef een beschrijving van de annotatie, bijvoorbeeld &quot;Publieke vakantie waargenomen in de VS&quot;. |
-   | [!UICONTROL Tags] | (Optioneel) Organiseer annotaties door een tag te maken of toe te passen. |
-   | [!UICONTROL Applied date] | Selecteer de datum of het datumbereik dat aanwezig moet zijn om de annotatie zichtbaar te maken. |
-   | [!UICONTROL Color] | Pas een kleur toe op de annotatie. De annotatie wordt in het project weergegeven met de geselecteerde kleur. De kleur kan worden gebruikt om annotaties te categoriseren, zoals feestdagen, externe gebeurtenissen, problemen bij het bijhouden van wijzigingen, enzovoort. |
-   | [!UICONTROL Scope] | (Optioneel) Sleep de metriek die de annotatie activeert en zet deze neer. Vervolgens sleept u alle afmetingen of segmenten die als filters fungeren (zodat de annotatie zichtbaar is). Als u geen bereik opgeeft, wordt de annotatie toegepast op al uw gegevens.<ul><li>**[!UICONTROL Any of these metrics are present]**: Sleep en zet tot 10 metriek neer die de annotatie zal teweegbrengen om te tonen.</li><li>**[!UICONTROL With all of these filters]**: Sleep tot 10 dimensies of segmenten die worden gefilterd wanneer de annotatie wordt weergegeven.</li></ul><p>Gebruik hoofdletters/kleine letters: Een eVar is gestopt met het verzamelen van gegevens voor een specifiek datumbereik. Sleep de eVar naar de **[!UICONTROL Any of these metrics are present]** . Of uw [!UICONTROL Visits] metrisch rapporteert geen gegevens - volg het zelfde proces.<p>**Opmerking:** Elke annotatie die wordt toegepast op een component die vervolgens wordt gebruikt als onderdeel van een berekende definitie van metrisch object of segment, neemt de annotatie NIET automatisch over. De gewenste berekende metrisch moet ook aan de werkingsgebiedsectie worden toegevoegd om de aantekening te tonen. Er moet echter een nieuwe annotatie worden gemaakt voor elk segment dat u met dezelfde informatie wilt annoteren.<p>Voorbeeld: U past een aantekening toe op [!UICONTROL Orders] op een bepaalde dag. Vervolgens gebruikt u [!UICONTROL Orders] in een berekende metrische waarde voor hetzelfde datumbereik. De nieuwe berekende metrische waarde zal niet automatisch de aantekening voor orden tonen; de berekende metrische waarde moet ook aan de bereiksectie worden toegevoegd om de aantekening te tonen. |
-   | [!UICONTROL Apply to all report suites] | Standaard wordt de annotatie toegepast op de oorspronkelijke rapportsuite. Als u dit selectievakje inschakelt, kunt u de annotatie toepassen op alle rapportsuites in het bedrijf. |
+   | [!UICONTROL Project-only Annotation] | By default, the annotation applies to the current project. By checking this box, you can make the annotation available to all projects that you own.<p> ![](assets/project-only.png) |
+   | [!UICONTROL Title] | Name the annotation, e.g. &quot;Memorial Day&quot; |
+   | [!UICONTROL Description] | (Optional) Provide a description for the annotation, e.g. &quot;Public holiday observed in the US&quot;. |
+   | [!UICONTROL Tags] | (Optional) Organize annotations by creating or applying a tag. |
+   | [!UICONTROL Applied date] | Select the date or date range that needs to be present for the annotation to be visible. |
+   | [!UICONTROL Color] | Apply a color to the annotation. The annotation appears in the project with the selected color. Color can be used to categorize annotations, such as public holidays, external events, tracking issues, etc. |
+   | [!UICONTROL Scope] | (Optional) Drag and drop the metrics that trigger the annotation. Then drag and drop any dimensions or segments that act as as filters (i.e., that the annotation will be visible with). If you don&#39;t specify a scope, the annotation will apply to all your data.<ul><li>**[!UICONTROL Any of these metrics are present]**</li><li>**[!UICONTROL With all of these filters]**</li></ul><p>Use cases: An eVar has stopped collecting data for a specific date range. **[!UICONTROL Any of these metrics are present]** [!UICONTROL Visits]<p>**** The desired calculated metric must also be added to the scope section to display the annotation. However, a new annotation should be created for any segment that you wish to annotate with the same information.<p>[!UICONTROL Orders] [!UICONTROL Orders] The new calculated metric will not automatically display the annotation for orders; the calculated metric must be also be added to the scope section for the annotation to be displayed. |
+   | [!UICONTROL Apply to all report suites] | By default, the annotation applies to the originating report suite. By checking this box, you can make the annotation apply to all report suites in the company. |
 
    {style=&quot;table-layout:auto&quot;}
 
