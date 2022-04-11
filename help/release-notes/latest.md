@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 14881de9527796430f13199a6fc5d06452a94a60
+source-git-commit: 587de061b1a395892be55a1898dde9f3204f285c
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (maart 2022)
 
-**Laatst bijgewerkt: 6 april 2022**
+**Laatst bijgewerkt: 31 maart 2022**
 
 * Voor opmerkingen bij de release van februari 2022 gaat u [hier](/help/release-notes/2022.md).
 * Ga voor opmerkingen bij de release Customer Journey Analytics naar [hier](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
@@ -21,14 +21,12 @@ ht-degree: 3%
 
 ## Nieuwe functies in Adobe Analytics {#aa-features}
 
-**Laatst bijgewerkt: 6 april 2022**
-
 | Functie | Beschrijving | [Doeldatum](releases.md) |
 | ----------- | ---------- | ------- |
 | Annotaties in werkruimte | Met annotaties in Workspace kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. [Meer informatie](/help/analyze/analysis-workspace/components/annotations/overview.md) | De geleidelijke uitrol start op 23 maart 2022. Algemene beschikbaarheid: 11 april 2022 |
 | Adobe Analytics-bestemmingspagina-updates | Updates van de landingspagina van de gezamenlijke werkruimte/Rapporten &amp; Analytics die de bruikbaarheid en het gemak van navigatie verbetert. [Meer informatie](/help/analyze/landing.md) | 1 april 2022 |
-| [!UICONTROL Next item] of [!UICONTROL Previous item] Deelvenster Werkruimte | De [!UICONTROL Next or Previous item] kunt u zoeken naar items die een dimensie-item van uw keuze volgen of er vooraf aan gaan. Gebruik deze optie bijvoorbeeld als u de volgende of vorige pagina&#39;s naar een specifieke productpagina, een marketingkanaal of zelfs naar een apparaattype wilt bekijken. Dit deelvenster gaat verder dan oudere rapporten (verouderde rapporten), omdat u hiermee elke dimensie kunt bekijken en geen nieuwe implementatie nodig hebt om inzichten op te halen. | 20 april 2022 |
-| [!UICONTROL Page Summary] Deelvenster Werkruimte | De [!UICONTROL Page Summary] biedt een diepgaande analyse van de pagina die u kiest. Het biedt dezelfde details als oudere rapporten en analyses [!UICONTROL Page Summary] verslag, nog veel meer. | 20 april 2022 |
+| [!UICONTROL Next item] of [!UICONTROL Previous item] Deelvenster Werkruimte | De [!UICONTROL Next or Previous item] kunt u zoeken naar items die een dimensie-item van uw keuze volgen of er vooraf aan gaan. Gebruik deze optie bijvoorbeeld als u de volgende of vorige pagina&#39;s naar een specifieke productpagina, een marketingkanaal of zelfs naar een apparaattype wilt bekijken. Dit deelvenster gaat verder dan oudere rapporten (verouderde rapporten), omdat u hiermee elke dimensie kunt bekijken en geen nieuwe implementatie nodig hebt om inzichten op te halen. | 1 april 2022 |
+| [!UICONTROL Page Summary] Deelvenster Werkruimte | De [!UICONTROL Page Summary] biedt een diepgaande analyse van de pagina die u kiest. Het biedt dezelfde details als oudere rapporten en analyses [!UICONTROL Page Summary] verslag, nog veel meer. | 1 april 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
