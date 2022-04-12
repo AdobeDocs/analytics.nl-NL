@@ -3,17 +3,17 @@ title: Aankondiging einde van de levensduur voor geplande rapporten
 description: Adobe is van plan alle geplande rapporten met een aanmaakdatum van meer dan twee jaar te pauzeren.
 feature: Reports & Analytics Basics
 role: User, Admin
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
-
 # Aankondiging einde van de levensduur voor geplande rapporten
 
-Met ingang van 15 april 2022 is Adobe voornemens alle geplande rapporten met een aanmaakdatum van meer dan twee jaar te onderbreken (alle taken die vóór 31 januari 2020 zijn gemaakt). Er worden geen rapporten of gegevens verwijderd. Alleen rapporten die ouder zijn dan twee jaar worden gepauzeerd en er worden geen aanvullende geplande rapporten verzonden.
+Met ingang van 21 april 2022 is Adobe voornemens alle geplande rapporten met een aanmaakdatum van meer dan twee jaar te onderbreken (alle taken die vóór 31 januari 2020 zijn gemaakt). Er worden geen rapporten of gegevens verwijderd. Alleen rapporten die ouder zijn dan twee jaar worden gepauzeerd en er worden geen aanvullende geplande rapporten verzonden.
 
 Alle geplande rapporten die nog moeten worden verzonden, kunnen opnieuw worden geactiveerd door u eenvoudig aan te melden bij Analytics en het dialoogvenster [!UICONTROL Scheduled Reports] manager. Klik op de knop [!UICONTROL Edit] en een nieuwe geplande tijd en vervaldatum instellen. Voor elk rapport dat opnieuw wordt geactiveerd, geldt een standaardvervaldatum van 9 maanden, tenzij een kortere vervaldatum wordt gekozen.
 

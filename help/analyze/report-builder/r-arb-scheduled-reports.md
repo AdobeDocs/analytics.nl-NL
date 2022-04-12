@@ -4,7 +4,7 @@ title: Gepland Taakbeheer
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 1%
@@ -17,7 +17,7 @@ De [!UICONTROL Scheduled Task Manager] laat u een lijst van bestaande geplande r
 
 ## Oudere geplande taken pauzeren
 
-**15 april 2022** Adobe is van plan alle geplande Report Builder-taken die meer dan twee jaar geleden zijn gemaakt, te pauzeren. Deze pauze is specifiek van toepassing op **alle taken die vóór 31 januari 2020 zijn gemaakt**. Er worden geen taken, werkboeken of gegevens verwijderd. Taken die ouder zijn dan twee jaar, worden onderbroken en er worden geen extra geplande taken verzonden.
+**Met ingang van 21 april 2022** Adobe is van plan alle geplande Report Builder-taken die meer dan twee jaar geleden zijn gemaakt, te pauzeren. Deze pauze is specifiek van toepassing op **alle taken die vóór 31 januari 2020 zijn gemaakt**. Er worden geen taken, werkboeken of gegevens verwijderd. Taken die ouder zijn dan twee jaar, worden onderbroken en er worden geen extra geplande taken verzonden.
 
 Om het even welke taken die u wenst om het verzenden te hervatten kunnen worden opnieuw geactiveerd. Meld u aan bij Report Builder en start de [!UICONTROL Scheduled Task Manager]. Klikken **[!UICONTROL Reactivate]** voor de geplande taak wilt u het verzenden hervatten. Voor elke opnieuw geactiveerde taak geldt een standaardvervaldatum van 18 maanden, tenzij een kortere vervaldatum wordt gekozen.
 
