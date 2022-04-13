@@ -3,9 +3,9 @@ title: Productweergaven
 description: Het aantal weergaven aan productpagina's.
 feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: eb13c3e828bc6d4c547f4529ee7a15182bbbf046
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ De metrische weergave &#39;Productweergave&#39; toont het aantal keren dat een p
 Deze metrische waarde telt het aantal treffers die aanpassen **ofwel** van het volgende:
 
 * De waarde `prodView` bestaat in de [`events`](/help/implement/vars/page-vars/events/events-overview.md) variabele; of
-* De [`products`](/help/implement/vars/page-vars/products.md) variabele wordt ingesteld en er zijn geen winkelwagentgebeurtenissen in de `events` variabele. Elke gebeurtenis die niet van toepassing is (`event1` - `event1000`) is een winkelwagentje.
+* De [`products`](/help/implement/vars/page-vars/products.md) variabele wordt ingesteld en de `events` variable is empty.
