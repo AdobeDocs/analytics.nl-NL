@@ -3,14 +3,14 @@ title: Veelgestelde vragen over migratie naar Adobe Analytics
 description: Krijg antwoorden op veelgestelde vragen wanneer u overschakelt van een extern platform naar Adobe.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 66%
+source-wordcount: '405'
+ht-degree: 64%
 
 ---
 
-# Veelgestelde vragen
+# Veelgestelde vragen over migratie naar Adobe Analytics
 
 **Hoe kan ik mijn historische gegevens migreren van mijn externe platform naar Adobe Analytics?**
 

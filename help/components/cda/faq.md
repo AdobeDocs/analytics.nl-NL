@@ -2,9 +2,9 @@
 title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over apparaatanalyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ CDA haalt de elementen van de identificatievariabele dimensies voordat deze zijn
 
 ## Hoeveel van mijn bedrijfsuitrustingen van het rapport kunnen voor CDA worden toegelaten?
 
-De veelvoudige rapportreeksen kunnen worden toegelaten, nochtans zal elke extra rapportreeks de algemene leveringstijd verhogen als de veelvoudige rapportreeksen tegelijkertijd worden gevraagd. CDA voegt geen rapportsuites samen. Elk rapportenpakket dat is ingeschakeld voor CDA, moet apparaatonafhankelijk zijn (met gegevens van meerdere oppervlakken, zoals het bureaublad, het mobiele web, de mobiele app enz.)
+Met ingang van 1 mei 2022, zal om het even welke nieuwe implementatie van CDA tot een maximum van drie rapportreeks IDs (RSIDs) per klant worden beperkt. CDA voegt geen rapportsuites samen. Elk rapportenpakket dat is ingeschakeld voor CDA, moet apparaatonafhankelijk zijn (met gegevens van meerdere oppervlakken, zoals het bureaublad, het mobiele web, de mobiele app enz.).
 
 ## Als mijn Experience Cloud org (ook bekend als IMS org) meerdere bedrijven in verschillende regio&#39;s heeft, kan ik dan CDA voor al deze bedrijven inschakelen?
 

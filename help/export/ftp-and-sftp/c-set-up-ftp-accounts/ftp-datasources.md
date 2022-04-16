@@ -4,14 +4,14 @@ keywords: ftp;sftp
 title: Overzicht van gegevensbronnen
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 1%
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
-# Databronnen
+# Op FTP gebaseerde gegevensbronnen
 
 U kunt Analytics gebruiken om op FTP-Gebaseerde Gegevensbronnen tot stand te brengen en te beheren, die de dossieroverdracht van FTP gebruiken om off-line of historische gegevens in de Experience Cloud in te voeren.
 
