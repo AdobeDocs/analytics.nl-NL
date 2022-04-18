@@ -5,7 +5,7 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 591c7af7fe721b94b4da0c1f09f63f88603f9af9
+source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
 workflow-type: tm+mt
 source-wordcount: '3445'
 ht-degree: 0%
@@ -103,15 +103,15 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `mc_audiences` | Lijst met Audience Manager segment-id&#39;s waartoe de bezoeker behoort. De `post_mc_audiences` kolom wijzigt het scheidingsteken in `--**--`. | text |
 | `mcvisid` | Experience Cloud-bezoeker-id. 128-bits getal dat bestaat uit twee samengevoegde 64-bits getallen opgevuld tot 19 cijfers. | varchar(255) |
 | `mobile_id` | Als de gebruiker een mobiel apparaat gebruikt, is dit de numerieke id van het apparaat. | int |
-| `mobileaction` | Mobile-actie. Automatisch verzameld bij `trackAction` wordt aangeroepen in Mobile Services. Hiermee kunt u in de app automatisch tekenen met handelingen. | varchar(100) |
-| `mobileappid` | Mobile-toepassings-id. Hiermee slaat u de toepassingsnaam en -versie op in de volgende indeling: `[AppName] [BundleVersion]` | varchar(255) |
+| `mobileaction` | Mobiele handeling. Automatisch verzameld bij `trackAction` wordt opgeroepen in Mobiele services. Hiermee kunt u in de app automatisch tekenen met handelingen. | varchar(100) |
+| `mobileappid` | Mobiele toepassings-id. Hiermee slaat u de toepassingsnaam en -versie op in de volgende indeling: `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | Wordt gebruikt in de Apteligent-gegevensconnector. De toepassings-id die in Apteligent wordt gebruikt. | varchar(255) |
 | `mobileappperformancecrashid` | Wordt gebruikt in de Apteligent-gegevensconnector. De crash-id die in Apteligent wordt gebruikt. | varchar(255) |
 | `mobileappstoreobjectid` | Wordt gebruikt in de gegevensaansluiting AppFigures. Object-id van App store. | varchar(255) |
 | `mobilebeaconmajor` | Belangrijkste baken voor mobiele services | varchar(100) |
-| `mobilebeaconminor` | Mobile Services beacon minor | varchar(100) |
+| `mobilebeaconminor` | Kleine beperking van het baken voor mobiele services | varchar(100) |
 | `mobilebeaconproximity` | Bandennabijheid mobiele services | varchar(255) |
-| `mobilebeaconuuid` | Mobile Services beacon UUID | varchar(100) |
+| `mobilebeaconuuid` | Mobile Services-baken UUID | varchar(100) |
 | `mobilecampaigncontent` | De naam of id van de inhoud die de koppeling heeft weergegeven. Bevolkt door Mobile App Acquisition. | varchar(255) |
 | `mobilecampaignmedium` | Marketing medium, zoals banner of e-mail. Bevolkt door Mobile App Acquisition. | varchar(255) |
 | `mobilecampaignname` | Naam van de campagne, die ook in de campagnevariabele wordt opgeslagen. Bevolkt door Mobile App Acquisition. | varchar(255) |
@@ -122,9 +122,9 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `mobiledayssincelastupgrade` | Verzameld van de variabele van contextgegevens a.DaysSinceLastUpgrade. Het aantal dagen dat is verstreken sinds de vorige sessie. | varchar(255) |
 | `mobiledayssincelastuse` | Aantal dagen sinds de app voor de laatste keer is uitgevoerd. | varchar(255) |
 | `mobiledeeplinkid` | Verzameld op basis van de variabele contextgegevens `a.deeplink.id`. Wordt gebruikt in overnamerapporten als een identifier voor een koppeling naar een mobiele overname. | varchar(255) |
-| `mobiledevice` | Mobile-apparaatnaam. In iOS wordt de notatie opgeslagen als een door komma&#39;s gescheiden tekenreeks van 2 cijfers. Het eerste getal vertegenwoordigt de apparaatgeneratie en het tweede getal vertegenwoordigt de apparaatfamilie. | varchar(255) |
+| `mobiledevice` | Naam van mobiel apparaat. In iOS wordt de notatie opgeslagen als een door komma&#39;s gescheiden tekenreeks van 2 cijfers. Het eerste getal vertegenwoordigt de apparaatgeneratie en het tweede getal vertegenwoordigt de apparaatfamilie. | varchar(255) |
 | `mobilehourofday` | Definieert het uur van de dag waarop de app is gestart. Volg de numerieke notatie van 24 uur. | varchar(255) |
-| `mobileinstalldate` | Mobile-installatiedatum. Verstrekt de datum van de eerste keer een gebruiker de mobiele app opent. | varchar(255) |
+| `mobileinstalldate` | Datum mobiele installatie. Verstrekt de datum van de eerste keer een gebruiker de mobiele app opent. | varchar(255) |
 | `mobilelaunchessincelastupgrade` | Verzameld van de variabele van contextgegevens a.LaunchesSinceUpgrade. Meldt het aantal keren dat de installatie is gestart sinds de laatste upgrade. | varchar(255) |
 | `mobilelaunchnumber` | Elke keer dat de mobiele app wordt gestart, neemt deze met één toe. | varchar(255) |
 | `mobileltv` | Niet meer gebruikt. Bevolkt door trackLifetimeValue-methoden. | varchar(255) |
@@ -134,14 +134,14 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `mobilemessagepushoptin` | Verzameld op basis van de variabele contextgegevens `a.push.optin`. Stel dit in op &quot;true&quot; wanneer de gebruiker het verzenden via pushberichten inschakelt. anders is de waarde &quot;false&quot;. | varchar(255) |
 | `mobilemessagepushpayloadid` | Verzameld op basis van de variabele contextgegevens `a.push.payloadid`. Gebruikt in duw overseinen als nuttige ladings herkenningsteken. | varchar(255) |
 | `mobileosenvironment` | Verzameld op basis van de variabele contextgegevens `a.OSEnvironment`. Frames in de OS-omgeving, zoals Android of iOS. | varchar(255) |
-| `mobileosversion` | Versie van besturingssysteem Mobile Services | varchar(255) |
+| `mobileosversion` | Versie van besturingssysteem voor mobiele services | varchar(255) |
 | `mobileplaceaccuracy` | Verzameld op basis van de variabele contextgegevens `a.loc.acc`. Geeft de nauwkeurigheid van de GPS in meters aan op het moment van verzameling. | varchar(255) |
 | `mobileplacecategory` | Verzameld op basis van de variabele contextgegevens `a.loc.category`. Beschrijft de categorie van een specifieke plaats. | varchar(255) |
 | `mobileplaceid` | Verzameld op basis van de variabele contextgegevens `a.loc.id`. Identificatiecode voor een bepaald aandachtspunt. | varchar(255) |
 | `mobilerelaunchcampaigncontent` | Inhoud voor mobiele services starten | varchar(255) |
 | `mobilerelaunchcampaignmedium` | Mobiele services, startmedium | varchar(255) |
-| `mobilerelaunchcampaignsource` | Mobile Services-startbron | varchar(255) |
-| `mobilerelaunchcampaignterm` | Mobile Services-introductieperiode | varchar(255) |
+| `mobilerelaunchcampaignsource` | Bron voor mobiele services | varchar(255) |
+| `mobilerelaunchcampaignterm` | Starten van mobiele services | varchar(255) |
 | `mobilerelaunchcampaigntrackingcode` | Verzameld op basis van de variabele contextgegevens `a.launch.campaign.trackingcode`. Wordt gebruikt in aankopen als de code voor het bijhouden van de opstartiecampagne. | varchar(255) |
 | `mobileresolution` | Resolutie van het mobiele apparaat. `[Width] x [Height]` in pixels. | varchar(255) |
 | `monthly_visitor` | Markering die aangeeft dat de bezoeker uniek is voor de huidige maand. | tinyint zonder teken |
@@ -198,7 +198,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `state` | Staatvariabele. | varchar(50) |
 | `stats_server` | Niet gebruiken. Adobe interne server die de hit heeft verwerkt. | teken(30) |
 | `t_time_info` | Lokale tijd voor de bezoeker. Indeling is: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Wordt gebruikt in Adobe Target-integratie. Vertegenwoordigt alle tests momenteel gekwalificeerd voor. Indeling is: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | text |
+| `tnt` | Wordt gebruikt in Adobe Target-integratie. Vertegenwoordigt alle tests momenteel gekwalificeerd voor. Indeling is: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
 | `tnt_action` | Wordt gebruikt in Adobe Target-integratie. Geeft alle tests aan waarvoor de hit geschikt is. | text |
 | `tnt_post_vista` | Niet meer gebruikt. Gebruiken `post_tnt` in plaats daarvan. | text |
 | `transactionid` | Een unieke id waarbij verschillende gegevenspunten later via gegevensbronnen kunnen worden geüpload. Verzameld met de [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variabele. | text |
@@ -264,7 +264,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `visid_low` | Wordt gebruikt in combinatie met `visid_high` om een bezoeker op unieke wijze te identificeren. | bigint zonder teken |
 | `visid_new` | Markering om te bepalen of de treffer een onlangs gegenereerde bezoeker-id bevat. | teken(1) |
 | `visid_timestamp` | Als de bezoeker-id pas is gegenereerd, geeft u het tijdstempel (in Unix-tijd) op van het tijdstip waarop de bezoeker-id is gegenereerd. | int |
-| `visid_type` | Niet voor extern gebruik; intern gebruikt door Adobe voor verwerkingsoptimalisaties. Numerieke id die de methode vertegenwoordigt die wordt gebruikt om de bezoeker te identificeren.<br>0: Aangepaste bezoeker-id of onbekend/niet van toepassing<br>1: IP en gebruikersagent fallback <br>2: HTTP Mobile Subscriber Header <br>3: Verouderde cookie-waarde (`s_vi`) <br>4: Waarde van fallback-cookie (`s_fid`) <br>5: Identiteitsservice | tinyint zonder teken |
+| `visid_type` | Niet voor extern gebruik; intern gebruikt door Adobe voor verwerkingsoptimalisaties. Numerieke id die de methode vertegenwoordigt die wordt gebruikt om de bezoeker te identificeren.<br>0: Aangepaste bezoeker-id of onbekend/niet van toepassing<br>1: IP en gebruikersagent fallback <br>2: Koptekst van HTTP Mobile-abonnee <br>3: Verouderde cookie-waarde (`s_vi`) <br>4: Waarde van fallback-cookie (`s_fid`) <br>5: Identiteitsservice | tinyint zonder teken |
 | `visit_keywords` | Variabele gebruikt in de [Trefwoord zoeken](/help/components/dimensions/search-keyword.md) dimensie. Deze kolom gebruikt een niet-standaard karaktergrens van varchar (244) om achterste die logica aan te passen door Adobe wordt gebruikt. | varchar(244) |
 | `visit_num` | Variabele gebruikt in de [Bezoek nummer](/help/components/dimensions/visit-number.md) dimensie. Begint bij 1, en verhoogt telkens als een nieuw bezoek per bezoeker begint. | int zonder teken |
 | `visit_page_num` | Variabele gebruikt in de [Hoogte](/help/components/dimensions/hit-depth.md) dimensie. Verhoogt met 1 voor elke hit die de gebruiker genereert. Hiermee herstelt u elk bezoek. | int zonder teken |
