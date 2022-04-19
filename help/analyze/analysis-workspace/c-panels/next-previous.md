@@ -3,9 +3,9 @@ description: Een deelvenster waarin de volgende of vorige dimensie-items voor ee
 title: Volgend of vorig deelvenster met items
 feature: Panels
 role: User, Admin
-source-git-commit: 73fa048164c67c6c381ce5e223bb178f9ab1833f
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Volgend of vorig deelvenster met items
 
-De [!UICONTROL Next or previous item] deelvenster dat is gestart als een rapport in Rapporten en Analytics, onder [!UICONTROL Reports] > [!UICONTROL Most popular] > [!UICONTROL Next page/Previous page]. Dit deelvenster Werkruimte bevat een aantal tabellen en visualisaties om het volgende of vorige dimensie-item voor een specifieke dimensie gemakkelijk te identificeren. U kunt bijvoorbeeld bekijken naar welke pagina&#39;s klanten het vaakst zijn gegaan nadat ze de startpagina hebben bezocht.
+De [!UICONTROL Next or previous item] deelvenster dat is gestart als een rapport in Rapporten en Analytics, onder [!UICONTROL Reports] > [!UICONTROL Most popular] > [!UICONTROL Next page/Previous page]. Het is nu ook een deelvenster Werkruimte. Dit paneel bevat een aantal lijsten en visualisaties om het volgende of vorige afmetingspunt voor een specifieke afmeting gemakkelijk te identificeren. U kunt bijvoorbeeld bekijken naar welke pagina&#39;s klanten het vaakst zijn gegaan nadat ze de startpagina hebben bezocht.
 
 ## Het deelvenster openen
 

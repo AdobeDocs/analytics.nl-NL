@@ -3,9 +3,9 @@ description: In het deelvenster Paginaoverzicht staan overzichtsgegevens voor ee
 title: Het deelvenster Paginaoverzicht
 feature: Panels
 role: User, Admin
-source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Het deelvenster Paginaoverzicht
 
-De [!UICONTROL Page summary] begon als een rapport in Rapporten &amp; Analytics, onder Rapporten > Betrokkenheid > de analyse van de Pagina > het overzicht van de Pagina. In dit deelvenster kunt u eenvoudig belangrijke statistieken over specifieke pagina&#39;s bekijken.
+De [!UICONTROL Page summary] begon als een rapport in Rapporten &amp; Analytics, onder Rapporten > Betrokkenheid > de analyse van de Pagina > het overzicht van de Pagina. Het is nu ook een deelvenster Werkruimte. In dit deelvenster kunt u eenvoudig belangrijke statistieken over specifieke pagina&#39;s bekijken.
 
 ## Het deelvenster openen
 
