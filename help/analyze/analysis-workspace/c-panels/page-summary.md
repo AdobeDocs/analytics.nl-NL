@@ -3,13 +3,13 @@ description: In het deelvenster Paginaoverzicht staan overzichtsgegevens voor ee
 title: Het deelvenster Paginaoverzicht
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
+source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
-
 
 # Het deelvenster Paginaoverzicht
 
@@ -26,12 +26,12 @@ U hebt vanuit [!UICONTROL Reports] of binnen [!UICONTROL Workspace].
 
 ## Deelvensterinvoer {#Input}
 
-U kunt de [!UICONTROL Next or previous item] met deze invoerinstellingen:
+U kunt de [!UICONTROL Page summary] met deze invoerinstellingen:
 
 | Instelling | Beschrijving |
 | --- | --- |
 | Segment (of andere component) dropzone | U kunt segmenten of andere componenten slepen en neerzetten om de resultaten van het deelvenster verder te filteren. |
-| Pagina-dimensie-item | Van de drop-down lijst, selecteer het afmetingspunt waarvan belangrijkste statistieken u wilt onderzoeken. |
+| Pagina-dimensie-item | Selecteer in de vervolgkeuzelijst het item Paginadimensie waarvan u de belangrijkste statistieken wilt bekijken. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -56,3 +56,7 @@ De [!UICONTROL Page summary] retourneert een uitgebreide set metrische gegevens 
 | [!UICONTROL Flow] | Een stroomdiagram met de geselecteerde pagina als brandpunt. U kunt verder naar de gegevens gaan, net als in alle andere [Stroomdiagram](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
 
 {style=&quot;table-layout:auto&quot;}
+
+![Het deelvenster Paginaoverzicht](assets/page-sum1.png)
+
+![Metriek en stroom](assets/page-sum2.png)
