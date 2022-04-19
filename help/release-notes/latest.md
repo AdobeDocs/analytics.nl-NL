@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c101a98e2d2d73fecc39054289f516411d7d529a
+source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '982'
 ht-degree: 3%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 3%
 | Functie | Beschrijving | [Doeldatum](releases.md) |
 | ----------- | ---------- | ------- |
 | Adobe Analytics-bestemmingspagina-updates | Updates van de landingspagina van de gezamenlijke werkruimte/Rapporten &amp; Analytics die de bruikbaarheid en het gemak van navigatie verbetert. [Meer informatie](/help/analyze/landing.md) | 20 april 2022 |
-| [!UICONTROL Next item] of [!UICONTROL Previous item] Deelvenster Werkruimte | De [!UICONTROL Next or Previous item] kunt u zoeken naar items die een dimensie-item van uw keuze volgen of er vooraf aan gaan. Gebruik deze optie bijvoorbeeld als u de volgende of vorige pagina&#39;s naar een specifieke productpagina, een marketingkanaal of zelfs naar een apparaattype wilt bekijken. Dit deelvenster gaat verder dan oudere rapporten (verouderde rapporten), omdat u hiermee elke dimensie kunt bekijken en geen nieuwe implementatie nodig hebt om inzichten op te halen. | 20 april 2022 |
-| [!UICONTROL Page Summary] Deelvenster Werkruimte | De [!UICONTROL Page Summary] biedt een diepgaande analyse van de pagina die u kiest. Het biedt dezelfde details als oudere rapporten en analyses [!UICONTROL Page Summary] verslag, nog veel meer. | 20 april 2022 |
+| [!UICONTROL Next item] of [!UICONTROL Previous item] Deelvenster Werkruimte | De [!UICONTROL Next or Previous item] kunt u zoeken naar items die een dimensie-item van uw keuze volgen of er vooraf aan gaan. Gebruik deze optie bijvoorbeeld als u de volgende of vorige pagina&#39;s naar een specifieke productpagina, een marketingkanaal of zelfs naar een apparaattype wilt bekijken. Dit deelvenster gaat verder dan oudere rapporten (verouderde rapporten), omdat u hiermee elke dimensie kunt bekijken en geen nieuwe implementatie nodig hebt om inzichten op te halen. [Meer informatie](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 20 april 2022 |
+| [!UICONTROL Page Summary] Deelvenster Werkruimte | De [!UICONTROL Page Summary] biedt een diepgaande analyse van de pagina die u kiest. Het biedt dezelfde details als oudere rapporten en analyses [!UICONTROL Page Summary] verslag, nog veel meer. [Meer informatie](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 20 april 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 

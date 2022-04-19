@@ -4,10 +4,10 @@ description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
+source-git-commit: 716b57203cd15ec646792ce1cf5ca47340c23421
 workflow-type: tm+mt
-source-wordcount: '3105'
-ht-degree: 41%
+source-wordcount: '3143'
+ht-degree: 40%
 
 ---
 
@@ -23,6 +23,10 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Datum | Beschrijving |
 | --- | --- |
+| **April 2022** |  |
+| Adobe Analytics-bestemmingspagina-updates | Updates van de gemeenschappelijke [De landingspagina Werkruimte/Rapporten &amp; Analyse](/help/analyze/landing.md) dat de bruikbaarheid en het gemak van navigatie verbetert. |
+| Nieuw onderwerp over [!UICONTROL Page Summary] deelvenster | [Het deelvenster Paginaoverzicht](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
+| Nieuw onderwerp over [!UICONTROL Next/Previous item] deelvenster | [Deelvenster Volgende/vorige dimensie-item](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **maart 2022** |  |
 | Nieuw onderwerp op ondersteunde HTTPS-versleutelingsalgoritmen | [Ondersteunde HTTPS-versleutelingsalgoritmen](/help/technotes/rdc/encryption-algos.md) voor klanten met het niveau van de cipher veiligheid die aan &quot;Hoog&quot;wordt geplaatst. |
 | Nieuwe documentatie over notities in werkruimte | [Annotaties in werkruimte](/help/analyze/analysis-workspace/components/annotations/overview.md) stelt u in staat om contextuele gegevensnuances en inzichten effectief aan uw organisatie mee te delen. |
