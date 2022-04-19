@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Hoe kan ik-instructies voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics, evenals hulpmiddelen zoals Adobe Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+source-git-commit: e865cd474b5b4a3251ed6e7cf6dae1f604f5a9c8
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 81%
+source-wordcount: '1047'
+ht-degree: 80%
 
 ---
 
@@ -98,6 +98,8 @@ ht-degree: 81%
          + [Overzicht](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Invoer- en uitvoerinstellingen](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Veelgestelde vragen](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [Volgend of vorig deelvenster met items](analysis-workspace/c-panels/next-previous.md)
+      + [Het deelvenster Paginaoverzicht](analysis-workspace/c-panels/page-summary.md)
       + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
       + Deelvenster Segmentvergelijking {#segment-comparison}
          + [Overzicht van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
