@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b93b27fac0a9e3364512bb8a27ad64c7eb379dd1
+source-git-commit: 80e7241fd35e5c745c2341182983613f537ce224
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1008'
 ht-degree: 3%
 
 ---
 
 # Huidige Adobe Analytics-releaseopmerkingen (april 2022)
 
-**Laatste update**: 19 april 2022
+**Laatste update**: 20 april 2022
 
 * Voor opmerkingen bij de release van maart 2022 gaat u [hier](/help/release-notes/2022.md).
 
