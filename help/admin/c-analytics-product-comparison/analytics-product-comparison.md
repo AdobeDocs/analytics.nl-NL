@@ -3,10 +3,10 @@ description: Systeemvereisten en een vergelijking van Analysis Workspace, Report
 title: Analytics-productvergelijking en -vereisten
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 38%
+source-wordcount: '422'
+ht-degree: 36%
 
 ---
 
@@ -18,7 +18,7 @@ Ga voor meer informatie over welk Adobe Analytics-product u wilt gebruiken naar 
 
 | Productnaam en Help-koppeling | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Rapporten en analyses](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) | [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analyse API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **Toegangsmethode** | [Browser](/help/admin/sys-reqs.md) | [Browser](/help/admin/sys-reqs.md) | [MS Excel voor Windows](/help/analyze/report-builder/setup/system-requirements.md) | Opstelling door browser. [Meer informatie](/help/admin/sys-reqs.md) | [Windows 64-bits](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html) | Opstelling door browser. [Meer informatie](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API-gereedschappen. Aanmelden met Adobe I/O-referenties. [Meer informatie](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **Toegangsmethode** | [Browser](/help/admin/sys-reqs.md) | [Browser](/help/admin/sys-reqs.md) | [MS Excel voor Windows](/help/analyze/report-builder/setup/system-requirements.md) | Opstelling door browser. [Meer informatie](/help/admin/sys-reqs.md) | [Windows 64-bits](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html) | Opstelling door browser. [Meer informatie](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API-gereedschappen. Aanmelden met Adobe Developer-referenties. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Korreligheid gegevens** | Samengevoegd | Samengevoegd | Samengevoegd | Samengevoegd | Actief | Actief | Samengevoegd |
 | **Experience Cloud-id (ECID) beschikbaar** | Nee | Nee | Nee | Ja | Ja | Ja | Nee |
 | **Tijdstempel beschikbaar** | Nee | Nee | Nee | Nee | Ja | Ja | Nee |

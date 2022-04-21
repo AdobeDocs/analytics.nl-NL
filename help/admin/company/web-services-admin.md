@@ -3,10 +3,10 @@ description: De API's van de webservices bieden programmatische toegang tot mark
 title: Webservices
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 90%
+source-wordcount: '231'
+ht-degree: 81%
 
 ---
 
@@ -20,9 +20,9 @@ De API&#39;s van de webservices bieden programmatische toegang tot marketingrapp
 
 In de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) u kunt de toestemmingen bijwerken om die gebruikers te omvatten die toegang tot de Diensten APIs van het Web nodig hebben.
 
-## WSDL: Download de Webservices-API WSDL voor Webservices-ontwikkelaars.
+## WSDL: Download de Webservices-API WSDL voor Webservices-ontwikkelaars
 
-Bezoek [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), waar u documentatie, voorbeeldcode en forums vindt over de API&#39;s van de Webservices. Klik op Overzicht van de Webservices-API&#39;s voor meer informatie.
+Bezoek [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/), die documentatie, steekproefcode, en forums verwant met de Diensten APIs van het Web verstrekt. Klik op Overzicht van de Webservices-API&#39;s voor meer informatie.
 
 ## Filteropties
 
