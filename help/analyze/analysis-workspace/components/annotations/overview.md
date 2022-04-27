@@ -5,18 +5,14 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+source-git-commit: c2d799b9663c29c2d2bcc9c6ca643404cfc18bf5
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
 # Overzicht van annotaties
-
->[!NOTE]
->
->De geleidelijke implementatie van deze functie start op 23 maart 2022. Algemene beschikbaarheid: 11 april 2022.
 
 Met annotaties in Workspace kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. Met deze sjablonen kunt u kalendergebeurtenissen koppelen aan specifieke afmetingen/metriek. U kunt een datum- of datumbereik annoteren met bekende gegevensproblemen, feestdagen, startacties voor campagnes, enzovoort. U kunt gebeurtenissen dan grafisch tonen en zien of de campagnes of andere gebeurtenissen uw plaatsverkeer, opbrengst, of een andere metrisch hebben beïnvloed.
 
