@@ -3,24 +3,25 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 80e7241fd35e5c745c2341182983613f537ce224
+source-git-commit: c29515da8c74ad3332aa9797db9de505af7fe3aa
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1056'
 ht-degree: 3%
 
 ---
 
 # Huidige Adobe Analytics-releaseopmerkingen (april 2022)
 
-**Laatste update**: 20 april 2022
+**Laatste update**: 28 april 2022
 
-* Voor opmerkingen bij de release van maart 2022 gaat u [hier](/help/release-notes/2022.md).
+## Gerelateerde bronnen
 
-* Ga voor opmerkingen bij de release Customer Journey Analytics naar [hier](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en).
+* [Opmerkingen bij de vorige release voor 2022](/help/release-notes/2022.md)
+* [Opmerkingen bij de release Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [Opmerkingen bij de release Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* De nieuwste release-updates voor [Adobe Experience Cloud-producten](https://business.adobe.com/products/adobe-experience-cloud-products.html)
 
-* Voor opmerkingen bij de release Media Analytics gaat u naar [hier](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=en).
-
-* Meer informatie over de nieuwste release-updates voor [Adobe Experience Cloud-producten](https://business.adobe.com/products/adobe-experience-cloud-products.html). De nieuwste zelfhulpdocumentatie, zelfstudies en cursussen over Experience League.
+## Nieuwe functies in Adobe Analytics
 
 | Functie | Beschrijving | [Doeldatum](releases.md) |
 | ----------- | ---------- | ------- |
@@ -34,12 +35,12 @@ ht-degree: 3%
 ## Oplossingen in Adobe Analytics
 
 * Probleem verholpen in Gegevensfeeds waarbij de begin- en einddatum automatisch werden gewijzigd nadat de gegevensfeed was opgeslagen tijdens het maken vanuit de interface Gegevensfeed. De data werden met één dag bijgewerkt. (AN-281262)
-
 * Probleem verholpen waardoor geplande projecten niet konden worden vernieuwd via e-mailkoppeling. (AN-283622)
+* Probleem verholpen waarbij recente releases van Apple Safari en Microsoft Edge niet correct werden geïdentificeerd in de opzoektabel van het type Adobe browser. Vergelijkbaar met wanneer [browserversies worden bijgewerkt](/help/components/dimensions/browser.md)In updates van opzoektabellen voor browsertypen worden alleen gegevens gecorrigeerd die naar voren worden verplaatst. De opzoektabellen voor de browserversie zijn bijgewerkt op 20 april en de opzoektabellen voor het browsertype zijn bijgewerkt op 28 april. (AN-284872; AN-285753; AN-286257)
 
 ### Extra correcties in Adobe Analytics
 
-AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761;
+AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761
 
 ## Belangrijke kennisgevingen voor Adobe Analytics-beheerders
 
