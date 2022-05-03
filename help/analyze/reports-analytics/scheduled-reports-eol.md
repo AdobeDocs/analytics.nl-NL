@@ -4,9 +4,9 @@ description: Adobe is van plan alle geplande rapporten met een aanmaakdatum van 
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+source-git-commit: d3309815de29264c743f30a236c99a55fc731413
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ Op het moment dat het rapport vervalt, wordt het geplande rapport gepauzeerd. He
 
 Het doel van deze actie is om onze geplande rapporten effectief te beheren en te onderhouden terwijl we ons voorbereiden op het eerder aangekondigde einde-van-leven voor Rapporten &amp; Analytics. Dit zal dienen als ons nieuwe governancebeleid dat voortschrijdt:
 
+* Na 15 april 2022 kunnen geen nieuwe geplande rapporten worden gemaakt.
 * Na 15 april 2022 hebben alle geplande rapporten een maximale vervaldatum van 9 maanden.
 * Na 9 maanden worden de verlopen taken gepauzeerd en kunnen, indien nodig, opnieuw worden geactiveerd tot 31 december 2023.
 * Op 31 december 2023 worden rapporten en analyses afgekeurd.
