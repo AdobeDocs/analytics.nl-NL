@@ -4,7 +4,7 @@ solution: Analytics
 title: Implementatie van server-side doorsturen controleren
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 5%
@@ -25,7 +25,7 @@ Om de status van server-zijhet door:sturen te controleren:
 
 >[!CAUTION]
 >
->Als de reactie het sleutelwaardepaar bevat `"status":"SUCCESS"` of een 2 x 2 beeld, dan server-zijdoor:sturen * wordt niet* correct gevormd. Gelieve te zorgen ervoor dat de Dienst van de Identiteit behoorlijk wordt opgesteld, hebt u de module van de Meting van de App opgesteld, dat de toepasselijke rapportreeks aan correcte IMS Org in kaart is gebracht, en dat server-zijhet door:sturen in de Analytics admin console is toegelaten.
+>Als de reactie het sleutelwaardepaar bevat `"status":"SUCCESS"` of een 2 x 2 beeld, dan server-zijdoor:sturen * wordt niet* correct gevormd. Gelieve te zorgen ervoor dat de Dienst van de Identiteit behoorlijk wordt opgesteld, hebt u de module van de Meting van de App opgesteld, dat de toepasselijke rapportreeks aan correcte organisatie ID in kaart is gebracht, en dat server-side het door:sturen in de Analytics admin console is toegelaten.
 
 >[!MORELIKETHIS]
 >

@@ -3,7 +3,7 @@ description: Problemen met Advertising Analytics oplossen en oplossen.
 title: Problemen met Advertising Analytics oplossen
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 4%
@@ -29,7 +29,7 @@ U probeert [Een nieuwe advertentieaccount instellen](/help/integrate/c-advertisi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. De rapportsuite wordt niet toegewezen aan de Experience Cloud Org-id van de aanmeldingsgebruiker. </p> </td> 
-   <td colname="col2"> <p>Neem contact op met de klantenservice om de rapportsuite toe te wijzen aan een IMS-org.</p> </td> 
+   <td colname="col2"> <p>Neem contact op met de klantenservice om de rapportsuite toe te wijzen aan een organisatie-id.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. De rapportsuite is niet ingericht voor Advertising Analytics-rapportage. </p> </td> 

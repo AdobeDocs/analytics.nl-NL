@@ -4,7 +4,7 @@ solution: Analytics
 title: Overzicht van server-side doorsturen
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Server-kant door:sturen op het rapport-reeks niveau wordt geadviseerd over de er
 
 Ga naar **Analyse** > **Beheer** > **Rapportageopties** > (selecteer **rapportsuites**) > **Instellingen bewerken** > **Algemeen** > **Server Side Forwarding**. Als dit selectievakje is:
 
-* **Inactief** (U kunt geen selectie maken of het menu bestaat niet): u hebt de geselecteerde rapportsuites niet aan een IMS Org in kaart gebracht. Neem contact op met de klantenservice om ervoor te zorgen dat de rapportsuite correct is toegewezen.
+* **Inactief** (U kunt geen selectie maken of het menu bestaat niet): u hebt niet de geselecteerde rapportsuites in kaart gebracht aan een organisatieidentiteitskaart Neem contact op met de klantenservice om ervoor te zorgen dat de rapportsuite correct is toegewezen.
 * **Uitgeschakeld**: U hebt niet de nieuwe server-kant het door:sturen aangezet. Lees de inhoud op de pagina en ga verder met het inschakelen van de functie.
 * **Ingeschakeld**: U wordt provisioned voor nieuwe server-kant door:sturen. U kunt deze Audience Analytics-integratie ook instellen.
 

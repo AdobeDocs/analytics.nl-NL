@@ -2,9 +2,9 @@
 title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over apparaatanalyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1930'
 ht-degree: 0%
 
 ---
@@ -106,9 +106,9 @@ CDA haalt de elementen van de identificatievariabele dimensies voordat deze zijn
 
 Met ingang van 1 mei 2022, zal om het even welke nieuwe implementatie van CDA tot een maximum van drie rapportreeks IDs (RSIDs) per klant worden beperkt. CDA voegt geen rapportsuites samen. Elk rapportenpakket dat is ingeschakeld voor CDA, moet apparaatonafhankelijk zijn (met gegevens van meerdere oppervlakken, zoals het bureaublad, het mobiele web, de mobiele app enz.).
 
-## Als mijn Experience Cloud org (ook bekend als IMS org) meerdere bedrijven in verschillende regio&#39;s heeft, kan ik dan CDA voor al deze bedrijven inschakelen?
+## Als mijn organisatie-id meerdere bedrijven in verschillende regio&#39;s heeft, kan ik dan CDA voor al deze bedrijven inschakelen?
 
-Nee. Voor dezelfde org kan voor slechts één regio CDA ingeschakeld zijn.
+Nee. Voor dezelfde organisatie-id kan voor slechts één regio CDA ingeschakeld zijn.
 
 ## Wat zijn de voor- en nadelen van een 7-daagse replay in plaats van een 1-daagse replay?
 

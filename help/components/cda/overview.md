@@ -2,7 +2,7 @@
 title: Cross-device Analytics
 description: Verander uw gegevens van apparaat-geconcentreerd in persoon-geconcentreerd door apparatengegevens samen te stikken.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 47824be19d3cc25b3120ce9aed6938f69fe0e096
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Cross-Device Analytics is een baanbrekende en robuuste functie, maar heeft beper
 
 * CDA is alleen beschikbaar via Analysis Workspace.
 * Cross-Device Analytics werkt niet op meerdere rapportsuites en combineert ook geen gegevens van meerdere rapportsuites.
-* Adobe Analytics-rapportsuites kunnen niet worden toegewezen aan meer dan één IMS-org. Aangezien CDA apparaten vastlegt binnen een bepaalde rapportsuite, kan CDA niet worden gebruikt om gegevens te koppelen aan meerdere IMS-organen.
+* Adobe Analytics-rapportreeksen kunnen niet aan meerdere organisatie-id&#39;s worden toegewezen. Aangezien CDA apparaten in een bepaalde rapportsuite vastlegt, kan CDA niet worden gebruikt om gegevens aan te sluiten op meerdere organisatie-id&#39;s.
 * CDA gebruikt een complexe verwerkingspijpleiding, met veelvoudige afhankelijke componenten. Dit wordt parallel uitgevoerd met de rapportworkflow voor basisanalysemogelijkheden. Daarom wordt een gegevensmismatch van ongeveer 1% voor het totale aantal treffers tussen de originele rapportreeks en de virtuele CDA rapportenreeks verwacht.
 * Analytics voor verschillende apparaten maakt gebruik van een virtuele rapportsuite en de verwerking van de rapporttijd, die hun eigen beperkingen hebben. Ze ondersteunen momenteel bijvoorbeeld geen variabelen van marketingkanalen. Zie [Virtuele rapportsuites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en) en [Tijdverwerking rapporteren](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en#report-time-processing-limitations) voor meer informatie over deze beperkingen .
 * Private Graph gebruikt dezelfde id-syncs als de id [Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#customer-attributes) gevonden in Experience Cloud en Adobe Analytics. De virtuele CDA-rapportensuites (op basis van een privégrafiek of op basis van een veld) zijn echter niet compatibel met de rest van de functie Kenmerken van klant. Met andere woorden, de op kenmerken-gebaseerde afmetingen van de Klant zijn niet beschikbaar voor gebruik met CDA virtuele rapportsuites.
