@@ -5,7 +5,7 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: c2d799b9663c29c2d2bcc9c6ca643404cfc18bf5
+source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -30,13 +30,13 @@ Houd dit in gedachten:
 
 * Zij kunnen op de rapportreeks van toepassing zijn waarin zij (gebrek) werden gecreeerd of op alle rapportsuites.
 
-## Toestemmingen
+## Toestemmingen {#permissions}
 
 Standaard kunnen alleen beheerders annotaties maken. Gebruikers hebben rechten om annotaties weer te geven zoals ze doen met andere onderdelen van Analytics (zoals segmenten, berekende metriek, enz.).
 
 Beheerders kunnen echter de opdracht [!UICONTROL Annotation Creation] toestemming (Analytics Tools) aan gebruikers via [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en).
 
-## Annotaties in- of uitschakelen
+## Annotaties in- of uitschakelen {#on-off}
 
 Annotaties kunnen op verschillende niveaus worden in- of uitgeschakeld:
 
