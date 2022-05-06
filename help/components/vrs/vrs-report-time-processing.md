@@ -5,34 +5,30 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 0bab340afcffdf337d0ff6bacb0351d744c1d9a5
+source-git-commit: ec4edb257490d326ab8f8de51a4ab9412a2b4a28
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 0%
+source-wordcount: '1262'
+ht-degree: 1%
 
 ---
 
 # Verwerking rapportduur
 
-[!UICONTROL Report time processing] is een instelling voor een virtuele rapportsuite waarmee gegevens op niet-destructieve, retroactieve wijze kunnen worden verwerkt.
-
->[!NOTE]
->
->[!UICONTROL Report Time Processing] is alleen beschikbaar voor Analysis Workspace.
+[!UICONTROL Report time processing] is een instelling voor een virtuele rapportsuite waarmee gegevens in Analysis Workspace op niet-destructieve, retroactieve wijze kunnen worden verwerkt.
 
 [!UICONTROL Report Time Processing] beïnvloedt slechts de gegevens in de virtuele rapportreeks en beïnvloedt geen gegevens of gegevensinzameling in de reeks van het basisrapport. Het verschil tussen [!UICONTROL Report Time Processing] en traditionele analytische verwerking het best wordt begrepen gebruikend het volgende diagram:
 
-![Google1](assets/google1.jpg)
+![Traditionele verwerkingsleiding](assets/google1.jpg)
 
 Tijdens de gegevensverwerking van Analytics, stromen de gegevens door de pijpleiding van de gegevensinzameling en in een preprocessing stap, die gegevens voor rapportering voorbereidt. Bij deze voorbewerkingsstap worden de logica voor het verlopen van het bezoek en de persistentielogica van de eVar toegepast (onder andere) op de gegevens terwijl deze worden verzameld. Het primaire nadeel van dit voorbewerkingsmodel is dat elke configuratie vooraf moet worden uitgevoerd voordat gegevens worden verzameld. Dit betekent dat wijzigingen in de instellingen voor voorbewerking alleen van toepassing zijn op nieuwe gegevens vanaf dat moment. Dit is problematisch als de gegevens uit orde aankomen of als de montages verkeerd werden gevormd.
 
 [!UICONTROL Report Time Processing] Dit is een fundamenteel andere manier om analysegegevens voor rapportage te verwerken. In plaats van de verwerkingslogica vooraf te bepalen alvorens de gegevens worden verzameld, negeert de Analytics de gegevensreeks tijdens de preprocessing stap en past deze logica toe telkens als een rapport wordt in werking gesteld:
 
-![Google2](assets/google2.jpg)
+![Tijdverwerkingspijplijn rapporteren](assets/google2.jpg)
 
-Deze verwerkingsarchitectuur maakt veel flexibelere rapportageopties mogelijk. Bijvoorbeeld, kunt u de periode van de bezoekonderbreking in om het even welke tijdsduur veranderen u op een niet destructieve manier wilt en die veranderingen worden weerspiegeld in uw persistentie en segmentcontainers retroactief alsof u die montages had toegepast alvorens de gegevens werden verzameld. Bovendien, kunt u om het even welk aantal virtuele rapportreeksen tot stand brengen, elk met de verschillende opties van de Verwerking van de Tijd van het Rapport die op de zelfde reeks van het basisrapport worden gebaseerd, zonder om het even welke gegevens in de reeks van het basisrapport te veranderen.
+Deze verwerkingsarchitectuur maakt veel flexibelere rapportageopties mogelijk. Bijvoorbeeld, kunt u de periode van de bezoekonderbreking in om het even welke tijdsduur veranderen u op een niet destructieve manier wilt en die veranderingen worden weerspiegeld in uw persistentie van de eVar en segmentcontainers voor de volledige rapporteringsperiode. Bovendien, kunt u om het even welk aantal virtuele rapportreeksen tot stand brengen, elk met de verschillende opties van de Verwerking van de Tijd van het Rapport die op de zelfde reeks van het basisrapport worden gebaseerd, zonder om het even welke gegevens in de reeks van het basisrapport te veranderen.
 
-[!UICONTROL Report Time Processing] biedt Analytics ook de mogelijkheid om te voorkomen dat achtergrondhits nieuwe bezoeken beginnen en biedt de [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) om te melden dat de rapportage een nieuw bezoek moet starten wanneer een gebeurtenis App Launch wordt gestart.
+[!UICONTROL Report Time Processing] biedt Analytics ook de mogelijkheid om te voorkomen dat achtergrondhits nieuwe bezoeken beginnen en biedt de [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) om een nieuw bezoek te beginnen wanneer een gebeurtenis van de Lancering van de App wordt teweeggebracht.
 
 ## Configuratieopties
 
@@ -54,23 +50,23 @@ De Verwerking van de Tijd van het rapport steunt niet alle metriek en dimensies 
 
 Bovendien verwerkt de Tijd van het Rapport slechts gegevens die uit binnen de rapporteringsdatumwaaier (die als &quot;datumvenster&quot;hieronder wordt bedoeld) komen. Dit betekent dat de waarden van de eVar die aan &quot;nooit verlopen&quot;voor een bezoeker vóór de rapporteringsdatumwaaier worden geplaatst niet in de rapporteringsvensters blijven en niet in rapporten verschijnen. Dit betekent ook dat de metingen van de klantenloyaliteit uitsluitend gebaseerd zijn op de gegevens in de rapporteringsdatumwaaier en niet op de volledige geschiedenis voorafgaand aan de rapporteringsdatumwaaier.
 
-Hieronder volgt een lijst met metriek en afmetingen die momenteel niet worden ondersteund bij het gebruik van de Verwerking van de Tijd van het Rapport:
+De volgende afmetingen en metriek worden niet gesteund met de Verwerking van de Tijd van het Rapport:
 
-* **Analyses voor doel:** Momenteel niet ondersteund. Toekomstige steun is gepland.
-* **Analyses voor voor voor Advertising Cloud gereserveerde metriek/afmetingen:** Momenteel niet ondersteund. Toekomstige steun is gepland.
-* **Single Access Metric:** Permanent niet ondersteund.
-* **Lijstvariabelen:** Momenteel niet ondersteund. Toekomstige steun is gepland.
-* **Counter Vars:** Permanent niet ondersteund.
-* **Variabelen marketingkanalen:** Momenteel niet ondersteund. Toekomstige steun is gepland.
-* **Dagen sinds laatste aankoop Dimension:** Vanwege de aard van het venster Verwerkingsdatum van de Tijd van het Rapport, wordt deze dimensie niet gesteund.
-* **Dagen vóór eerste aankoop Dimension:** Vanwege de aard van het venster Verwerkingsdatum van de Tijd van het Rapport, wordt deze dimensie niet gesteund.
-* **Dimension van retourfrequentie:** Vanwege de aard van het venster Verwerkingsdatum van de Tijd van het Rapport, wordt deze dimensie niet gesteund. Een alternatieve benadering die metrische meting van de bezoektelling in een segment gebruikt is mogelijk, of gebruikend bezoek metrisch in een histogramrapport.
-* **Dagen sinds laatste bezoek Dimension:** Vanwege de aard van het venster Verwerkingsdatum van de Tijd van het Rapport, wordt deze dimensie niet gesteund.
-* **Oorspronkelijke Dimension van invoerpagina:** Vanwege de aard van het venster Verwerkingsdatum van de Tijd van het Rapport, wordt deze dimensie niet gesteund.
-* **Lineaire toewijzingsvariabelen:** Momenteel niet ondersteund. Toekomstige steun is gepland.
-* **Oorspronkelijke Dimension van verwijzend domein:** Momenteel niet ondersteund. Toekomstige steun is gepland.
-* **Bezoek nummer:** Vanwege de aard van het venster Verwerkingsdatum van de Tijd van het Rapport, wordt deze metrische waarde niet gesteund. Als alternatief voor mobiele apps kunt u een berekende maatstaf gebruiken, inclusief bezoekers/bezoeken met de installatiemethode van de app om nieuwe bezoekers of bezoeken te identificeren.
-* **Gegevensbronnen van transactie-id:** Momenteel niet ondersteund. Toekomstige steun is gepland.
+* **Analyses voor doel**
+* **Analyses voor Advertising Cloud-afmetingen/metriek**
+* **Counter Vars**
+* **Dagen vóór eerste aankoop**
+* **Dagen sinds laatste aankoop**
+* **Dagen sinds laatste bezoek**
+* **Oorspronkelijke invoerpagina**
+* **Lineaire toewijzing Vars**
+* **Lijstvars**
+* **Afmetingen marketingkanalen**
+* **Origineel verwijzingsdomein**
+* **Retourfrequentie**
+* **Eenmalige toegang**
+* **Gegevensbronnen van transactie-id**
+* **Bezoeknummer**
 
 ## Betrokken afmetingen en metriek
 

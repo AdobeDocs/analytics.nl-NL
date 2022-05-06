@@ -1,16 +1,16 @@
 ---
 description: Hiermee geeft u webpaginaverkeer weer en geeft u paginaweergaven in real-time weer. Verstrekt activeerbare gegevens om uw bedrijfsbesluiten op te baseren.
-title: Real-time rapporten in Adobe Analytics
+title: Realtimerapporten
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: f0d2508b64b835a030258c7437c10b7c8654b5ed
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
-# Real-time rapporten in Adobe Analytics
+# Realtimerapporten
 
 Hiermee geeft u webpaginaverkeer weer en geeft u paginaweergaven in real-time weer. Verstrekt activeerbare gegevens om uw bedrijfsbesluiten op te baseren.
 
