@@ -1,35 +1,36 @@
 ---
-title: Aankondiging einde van de levensduur voor geplande rapporten
-description: Adobe is van plan alle geplande rapporten met een aanmaakdatum van meer dan twee jaar te pauzeren.
+title: End-of-life notice for scheduled reports
+description: Adobe intends to pause all scheduled reports that have a creation date greater than two years.
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: d3309815de29264c743f30a236c99a55fc731413
+source-git-commit: 35e5f056f962066a068ca1f0247c5b550efc2edc
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# Aankondiging einde van de levensduur voor geplande rapporten
+# End-of-life notice for scheduled reports
 
-Met ingang van 21 april 2022 is Adobe voornemens alle geplande rapporten met een aanmaakdatum van meer dan twee jaar te onderbreken (alle taken die vóór 31 januari 2020 zijn gemaakt). Er worden geen rapporten of gegevens verwijderd. Alleen rapporten die ouder zijn dan twee jaar worden gepauzeerd en er worden geen aanvullende geplande rapporten verzonden.
+**** No reports or data were deleted. Only reports identified as older than two years were paused, and no additional scheduled reports can be sent.
 
-Alle geplande rapporten die nog moeten worden verzonden, kunnen opnieuw worden geactiveerd door u eenvoudig aan te melden bij Analytics en het dialoogvenster [!UICONTROL Scheduled Reports] manager. Klik op de knop [!UICONTROL Edit] en een nieuwe geplande tijd en vervaldatum instellen. Voor elk rapport dat opnieuw wordt geactiveerd, geldt een standaardvervaldatum van 9 maanden, tenzij een kortere vervaldatum wordt gekozen.
+[!UICONTROL Scheduled Reports] [!UICONTROL Edit] Any report that gets reactivated will have a default expiration of 9 months, unless a shorter expiration date is chosen.
 
-Voor rapporten met een aanmaakdatum van minder dan twee jaar zonder vervaldatum (of met een vervaldatum van meer dan twee jaar) wordt een standaardvervaldatum van 9 maanden toegepast. De nieuwe vervaldatum is 15 december 2022. U kunt deze vervaldatum wijzigen in minder dan 9 maanden, maar niet langer.
+Any report with a creation date less than two years with no expiration date (or with an expiration date longer than two years) will have a default 9-month expiration date applied. The new expiration date will be December 15, 2022. You can edit this expiration date to be less than 9 months, but not greater.
 
-Ten slotte is voor alle bewerkingen van een bestaand gepland rapport zonder vervaldatum een vervaldatum van maximaal negen maanden vereist. Anders kunt u geen bewerkingen of wijzigingen in het rapport opslaan.
+Finally, any edits to an existing scheduled report with no expiration date require an expiration date of 9 months or less. Otherwise, you cannot save any edits or changes to the report.
 
-Op het moment dat het rapport vervalt, wordt het geplande rapport gepauzeerd. Het rapport kan echter opnieuw worden geactiveerd met een nieuwe vervaldatum van 9 maanden. Er worden geen rapporten of gegevens verwijderd.
+At the time of expiration, the scheduled report will be paused. However, the report can be reactivated with a new 9-month expiration date. No reports or data will be deleted.
 
-## Nieuw governancebeleid
+## New governance policy
 
-Het doel van deze actie is om onze geplande rapporten effectief te beheren en te onderhouden terwijl we ons voorbereiden op het eerder aangekondigde einde-van-leven voor Rapporten &amp; Analytics. Dit zal dienen als ons nieuwe governancebeleid dat voortschrijdt:
+The purpose of this action is to effectively manage and maintain our scheduled reports as we prepare for the previously announced end-of-life for Reports &amp; Analytics. This will serve as our new governance policy moving forward:
 
-* Na 15 april 2022 kunnen geen nieuwe geplande rapporten worden gemaakt.
-* Na 15 april 2022 hebben alle geplande rapporten een maximale vervaldatum van 9 maanden.
-* Na 9 maanden worden de verlopen taken gepauzeerd en kunnen, indien nodig, opnieuw worden geactiveerd tot 31 december 2023.
-* Op 31 december 2023 worden rapporten en analyses afgekeurd.
+* No new scheduled reports can be created after April 21, 2022.
+* After April 21, 2022, all scheduled reports have a maximum expiration date of 9 months.
+* After 9 months, expired tasks are paused and can be reactivated, if still needed, until December 31, 2023.
+* On December 31, 2023, Reports &amp; Analytics will be deprecated.
+* You can no longer set up new Data Extracts. Existing ones will continue to run, but no new ones can be scheduled.
 
-Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice van Adobe.
+For additional questions or support, please reach out to Adobe Customer Care.
