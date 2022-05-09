@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c29515da8c74ad3332aa9797db9de505af7fe3aa
+source-git-commit: 43869c683ca30c94157c6822b53f02a917f6e3ff
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1156'
 ht-degree: 3%
 
 ---
 
 # Huidige Adobe Analytics-releaseopmerkingen (april 2022)
 
-**Laatste update**: 28 april 2022
+**Laatste update**: 9 mei 2022
 
 ## Gerelateerde bronnen
 
@@ -46,6 +46,7 @@ AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
+| **SFTP-upgrade** | 9 mei 2022 | Eerder, hadden wij meegedeeld dat Adobe zijn Secure File Transfer Protocol (SFTP) diensten in mei 2022 zou bevorderen om betere veiligheid voor dossieroverdracht te verstrekken. We hebben deze upgrade uitgesteld tot de zomer van 2022. Wanneer deze wijziging plaatsvindt, worden bepaalde SFTP-clientconfiguraties niet meer ondersteund. Dit is alleen van invloed op gegevens die via SFTP naar Adobe Analytics worden verzonden of van worden opgehaald. Dit heeft geen invloed op het FTP-protocol. Om onderbreking van de dienst te vermijden, gelieve ervoor te zorgen dat uw cliënten SFTP (code, hulpmiddelen, de diensten) in overeenstemming met de gedetailleerde veranderingen zijn [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html). |
 | **CDA-machtiging (Cross-Device Analytics)** | 13 april 2022 | Effectief **1 mei 2022**, elke nieuwe toepassing van [CDA](/help/components/cda/overview.md) zijn beperkt tot een maximum van drie reeks IDs van het rapport (RSIDs) per klant. |
 | **Wijzigen in hoe Adobe Analytics omgaat met A4T-gegevens die via Experience Edge zijn verzameld** | 31 maart 2022 | Op 7 maart 2022 veranderde Analytics hoe het sommige vraag die van de Rand van de Ervaring kwam behandelde die inhoud van het Doel voorgenomen voor Analytics voor het Rapport van het Doel (A4T) omvatten. Vanaf 7 maart worden alle hits met A4T-rapportinhoud gewijzigd, zodat ze niet worden behandeld als gebeurtenissen Paginaweergave of Koppeling. Starten **31 maart 2022** De logica is selectiever, zodat de standaardgebeurtenissen Paginaweergave en Klikken niet worden gewijzigd. Voorwaarts, zijn de enige gebeurtenissen die worden gewijzigd verpersoonlijking-slechts vraag die slechts A4T inhoud heeft. |
 | **Bijwerken naar voor bepaalde klanten ondersteunde versleutelingsmethoden voor browsers** | 28 maart 2022 | Adobe biedt twee cipher veiligheidsniveaus aan om aan verschillende klantenbehoeften voor veiligheid op de inzameling van gegevens van eerste partij te voldoen. Aan **23 juni 2022** ondersteuning wordt verwijderd voor bepaalde HTTPS-versleutelingsalgoritmen, ook wel &#39;ciphers&#39; genoemd, voor klanten met hun beveiligingsniveau ingesteld op &#39;High&#39;. Dit betekent dat sommige oudere besturingssystemen geen gegevens meer naar Analytics kunnen verzenden omdat deze geen ondersteuning bieden voor moderne versleutelingsmethoden. Klanten die de standaardinstellingen voor standaardcursorbeveiliging gebruiken, worden niet beïnvloed. Er is al rechtstreeks contact opgenomen met alle klanten die momenteel gebruikmaken van de instelling &quot;Hoog&quot;. Hier vindt u een gedetailleerde lijst van de ciphers die door deze wijziging worden beïnvloed. |
