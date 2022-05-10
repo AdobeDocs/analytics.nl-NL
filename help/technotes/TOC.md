@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Technische notities voor Analytics
 breadcrumb-title: Technische notities
 user-guide-description: Een kennisbasis die nuttige artikelen bevat die niet tot een specifiek analyseprogramma of specifieke component behoren.
-source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
+source-git-commit: 1539649c758814d64a6f5c6dddff262df831d691
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,6 @@ ht-degree: 68%
    + [Datums vergelijken met eerdere bereiken](event/compare-dates.md)
    + [Data afleiden die door gebeurtenissen worden beïnvloed](event/calcmetrics.md)
    + [Gebeurtenissen doorgeven aan gebruikers](event/communicate.md)
-   + [Intelligente gegevens vloeiend maken](event/intelligent-data-smoothing.md)
 + Cookies {#cookies}
    + [Browsercookies](cookies/cookies.md)
    + [Opties om het effect van browsercookiebeperkingen te beperken](cookies/cookieless.md)
@@ -46,7 +45,7 @@ ht-degree: 68%
 + [IPs en domeinen die door Adobe Analytics worden gebruikt](ip-addresses.md)
 + [Latentie](latency.md)
 + [Waarde voor weinig verkeer](low-traffic.md)
-+ [Mobile Services-verwerkingsregels migreren naar Adobe Analytics](migrate-mobile.md)
++ [De verwerkingsregels voor mobiele services migreren naar Adobe Analytics](migrate-mobile.md)
 + [Ondersteuning voor meerdere valuta&#39;s](multicurrency.md)
 + [Privacyoverzicht](privacy-overview.md)
 + [Progressieve webapps](pwa.md)
