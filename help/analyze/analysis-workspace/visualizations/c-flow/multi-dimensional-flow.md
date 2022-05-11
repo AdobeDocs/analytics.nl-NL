@@ -5,7 +5,7 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -14,9 +14,7 @@ ht-degree: 1%
 
 # Interdimensionale stromen
 
-Met een interdimensionale stroom kunt u gebruikerspaden in verschillende dimensies bekijken.
-
-Hier volgt een video over tekstomloop en multidimensionale tekstdoorloop in Analysis Workspace:
+Met een interdimensionale stroom kunt u gebruikerspaden in verschillende dimensies bekijken. Hier volgt een video over tekstomloop en multidimensionale tekstdoorloop in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -26,7 +24,7 @@ Een afmetingslabel boven aan elke stroomkolom maakt het gebruik van meerdere dim
 
 We zullen naar twee gebruiksgevallen kijken: een gebruiksgeval voor apps en een gebruiksgeval voor het web.
 
-## Eerste hoofdletter gebruiken: app {#section_3D31D37B9C9F4134AE46C96291E41294}
+## Eerste hoofdletter gebruiken: app {#app}
 
 De [!UICONTROL Action Name] dimensie werd toegevoegd aan de stroom, met het hoogste teruggekeerde punt die [!UICONTROL ItemAdded]:
 
@@ -56,7 +54,7 @@ Dit is wat gebeurt als u een andere dimensie van de Naam van de Actie op het ein
 
 Op deze manier kunt u diepgaande inzichten en mogelijke wijzigingen aanbrengen in de app die u analyseert.
 
-## Hoofdlettergebruik twee: web {#section_8D55983FA0C84926995270052AE01CD8}
+## Hoofdlettergebruik twee: web {#web}
 
 In dit geval kunt u zien hoe u kunt analyseren welke campagnes de meeste items naar een website sturen.
 

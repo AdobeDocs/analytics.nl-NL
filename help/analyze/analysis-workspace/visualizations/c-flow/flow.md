@@ -5,7 +5,7 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Hier volgt een videozelfstudie over stroomvisualisatie:
 
 ## Inter-dimensionale stromen {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-U kunt de [stroom tussen dimensies](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mannen, dan naar de afdeling van Schoenen kunnen gaan.
+U kunt de [stroom tussen dimensies](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mens, dan naar de afdeling van Schoenen kunnen gaan.
 
 Elke kolom kan een andere dimensie hebben. Sleep een afmeting en daling in een dalingsstreek om die afmeting aan het diagram toe te voegen.
 
