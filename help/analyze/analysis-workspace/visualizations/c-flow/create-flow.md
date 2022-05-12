@@ -3,13 +3,13 @@ description: Gebruik de stroomvisualisatie in een project van de Werkruimte.
 title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
-source-git-commit: 141daf54e845970254f478e8c3e95be2239013c5
+exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
+source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 2%
+source-wordcount: '729'
+ht-degree: 1%
 
 ---
-
 
 # Een stroomvisualisatie configureren
 
@@ -17,13 +17,13 @@ ht-degree: 2%
 >
 >Deze nieuwe versie van de [!UICONTROL Flow] visualisatie vindt momenteel plaats in een persoonlijke bèta. Zie [deze pagina](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) voor de huidige functionaliteit.
 
-Met Flow kunt u de exacte reizen bijhouden die uw klanten maken via uw website of uw app. Het traceert een pad door uw dimensies (en dimensie-items) of metriek. Elke stroom heeft een uitgangspunt en een eindpunt, en metrisch of dimensie (of punt) die u volgt.
+Met de bijgewerkte stroomvisualisatie kunt u de reis begrijpen die voortvloeit uit of leidt tot een specifieke conversiegebeurtenis op uw website of uw app. Het traceert een pad door uw dimensies (en dimensie-items) of metriek. Met stroom kunt u het begin of einde van het pad configureren waarin u bent geïnteresseerd, of alle paden analyseren die door een dimensie- of dimensie-item lopen.
 
 De nieuwe [!UICONTROL flow] De ervaring verbetert uw werkschema op verscheidene manieren:
 
-* Hierdoor kunnen metriek worden bijgehouden, naast dimensies en dimensie-items.
+* U kunt er nu voor kiezen om het pad te beginnen of te beëindigen met de combinatie van een metrische en een plakdimensie.
 * Bevat [!UICONTROL Advanced Settings] om u te laten verder aanpassen [!UICONTROL flow].
-* Het laat u vormen [!UICONTROL flow] voordat u het gaat bouwen.
+* De nieuwe &quot;bouwstijl&quot;knoop bespaart tijd in analyse door u toe te staan om de reis allen in één keer te vormen, dan vraag, dan automatisch bouwt veelvoudige kolommen en knopen in één &#x200B;.
 
 ![Nieuwe Flow-interface](assets/new-flow.png)
 
@@ -53,7 +53,7 @@ De nieuwe [!UICONTROL flow] De ervaring verbetert uw werkschema op verscheidene 
    | --- | --- |
    | **[!UICONTROL Include repeat instances]** | Stroomvisualisaties zijn gebaseerd op instanties van een dimensie. Met deze instelling kunt u herhaalde exemplaren, zoals opnieuw laden van pagina&#39;s, opnemen of uitsluiten. Herhalingen kunnen echter niet worden verwijderd uit Flow-visualisaties met multigetaxeerde afmetingen, zoals listVars, listProps, s.product, merchandising Vars, enz. Standaard = uitgeschakeld. |
    | **[!UICONTROL Wrap labels]** | Normaal gesproken worden de labels op de Flow-elementen ingekort om de schermruimte op te slaan, maar u kunt het volledige label zichtbaar maken door dit selectievakje in te schakelen.  Standaard = uitgeschakeld. |
-   | **[!UICONTROL Limit to Entries/Exits]** | Resultaten beperkt tot paden wanneer het eerste/laatste aanraakpunt is en entry/exit. |
+   | **[!UICONTROL Limit to first/last occurrence]** | Beperk paden tot paden die beginnen/eindigen met de eerste/laatste instantie van een dimensie/item/metrisch. |
    | **[!UICONTROL Number of Columns]** | Hiermee bepaalt u hoeveel kolommen u in het stroomdiagram wilt opnemen. |
    | **[!UICONTROL Items expanded per Column]** | Hoeveel punten u in elke kolom wilt. |
    | **[!UICONTROL Flow Container]** | <ul><li>Bezoek</li><li>Bezoeker</li></ul> Hiermee kunt u schakelen tussen Bezoek en Bezoeker om het plakken van bezoekers te analyseren. Met deze instellingen kunt u de betrokkenheid van bezoekers op bezoekersniveau (verschillende bezoeken) begrijpen of de analyse beperken tot één bezoek. |
