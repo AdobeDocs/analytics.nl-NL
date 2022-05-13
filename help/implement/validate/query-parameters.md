@@ -3,9 +3,9 @@ title: Queryparameters voor dataverzameling
 description: Vermeldt alle parameters van het vraagkoord die in beeldverzoeken worden gebruikt.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '710'
 ht-degree: 5%
 
 ---
@@ -55,7 +55,7 @@ De volgende lijst maakt een lijst van alle parameters van het vraagkoord Adobe g
 | `p` | Geen | Niet meer gebruikt. Lijst met plug-ins die in de browser worden gebruikt. |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Gebruikt in de [Pagina](/help/components/dimensions/page.md) dimensie. |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Gebruikt in de [Pagina&#39;s niet gevonden](/help/components/dimensions/pages-not-found.md) dimensie. |
-| `pccr` | Geen | Alleen ingesteld voor nieuwe bezoekers en altijd ingesteld op `true`. Hiermee voorkomt u een oneindige omleiding. |
+| `pccr` | Geen | Alleen ingesteld voor nieuwe bezoekers en altijd ingesteld op `true`. Hiermee voorkomt u een oneindige omleiding als een bezoeker cookies weigert. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Bepaalt het type aangepaste koppeling. Vereist voor [Aangepaste koppelingen](/help/components/dimensions/custom-link.md), [Koppelingen downloaden](/help/components/dimensions/download-link.md), en [Koppelingen afsluiten](/help/components/dimensions/exit-link.md). |
 | `pev1` | Geen | De URL waarop de aangepaste koppeling is opgetreden. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Aangepaste naam voor koppelingsvriendelijk. |
@@ -77,6 +77,7 @@ De volgende lijst maakt een lijst van alle parameters van het vraagkoord Adobe g
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [Trackingcode](/help/components/dimensions/tracking-code.md) dimensie. |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md)of aangepaste conversieafmetingen. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Variabele voor bezoekersidentiteitskaart |
+| `vidn` | Geen | Ingesteld op AppMeasurement voor nieuwe bezoekers. Bevat de id-waarde die is opgeslagen in het bezoekerscookie. |
 | `vmk` | `vmk` | Niet meer gebruikt. De migratiesleutel van de bezoeker, die implementaties van derde aan eerste-partijkoekjes hielp migreren. |
 | `vvp` | `variableProvider` | Wordt gebruikt in gegevensconnectors. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Gebruikt met Gegevensbronnen om online en off-line gegevens samen te binden. |
