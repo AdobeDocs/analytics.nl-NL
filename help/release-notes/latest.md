@@ -3,16 +3,20 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 43869c683ca30c94157c6822b53f02a917f6e3ff
+source-git-commit: aa4dc06dc1719f398c29aeca40051d88f339ce42
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 3%
+source-wordcount: '872'
+ht-degree: 6%
 
 ---
 
-# Huidige Adobe Analytics-releaseopmerkingen (april 2022)
+# Huidige Adobe Analytics-releaseopmerkingen (mei 2022)
 
-**Laatste update**: 9 mei 2022
+**Laatste update**: 11 mei 2022
+
+>[!NOTE]
+>
+>Deze pagina bevat pre-releasegegevens en kan worden gewijzigd.
 
 ## Gerelateerde bronnen
 
@@ -25,24 +29,23 @@ ht-degree: 3%
 
 | Functie | Beschrijving | [Doeldatum](releases.md) |
 | ----------- | ---------- | ------- |
-| Adobe Analytics-bestemmingspagina-updates | Updates van de landingspagina van de gezamenlijke werkruimte/Rapporten &amp; Analytics die de bruikbaarheid en het gemak van navigatie verbetert. [Meer informatie](/help/analyze/landing.md) | 20 april 2022 |
-| [!UICONTROL Next item] of [!UICONTROL Previous item] Deelvenster Werkruimte | De [!UICONTROL Next or Previous item] kunt u zoeken naar items die een dimensie-item van uw keuze volgen of er vooraf aan gaan. Gebruik deze optie bijvoorbeeld als u de volgende of vorige pagina&#39;s naar een specifieke productpagina, een marketingkanaal of zelfs naar een apparaattype wilt bekijken. Dit deelvenster gaat verder dan oudere rapporten (verouderde rapporten), omdat u hiermee elke dimensie kunt bekijken en geen nieuwe implementatie nodig hebt om inzichten op te halen. [Meer informatie](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 20 april 2022 |
-| [!UICONTROL Page Summary] Deelvenster Werkruimte | De [!UICONTROL Page Summary] biedt een diepgaande analyse van de pagina die u kiest. Het biedt dezelfde details als oudere rapporten en analyses [!UICONTROL Page Summary] verslag, nog veel meer. [Meer informatie](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 20 april 2022 |
-| Verwijderde eis van `x-proxy-global-company-id` header voor 2.0 API-aanroepen | Voor de API&#39;s van Adobe Analytics 2.0 is het niet langer nodig `x-proxy-global-company-id` header, aangezien deze informatie deel uitmaakt van het eindpunt URL. U kunt deze koptekst wel invoegen, maar er treedt geen fout meer op als deze ontbreekt. | 20 april 2022 |
+| Geen nieuwe functies deze maand | N.v.t. | N.v.t. |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Oplossingen in Adobe Analytics
+### Oplossingen in Adobe Analytics
 
-* Probleem verholpen in Gegevensfeeds waarbij de begin- en einddatum automatisch werden gewijzigd nadat de gegevensfeed was opgeslagen tijdens het maken vanuit de interface Gegevensfeed. De data werden met één dag bijgewerkt. (AN-281262)
-* Probleem verholpen waardoor geplande projecten niet konden worden vernieuwd via e-mailkoppeling. (AN-283622)
-* Probleem verholpen waarbij recente releases van Apple Safari en Microsoft Edge niet correct werden geïdentificeerd in de opzoektabel van het type Adobe browser. Vergelijkbaar met wanneer [browserversies worden bijgewerkt](/help/components/dimensions/browser.md)In updates van opzoektabellen voor browsertypen worden alleen gegevens gecorrigeerd die naar voren worden verplaatst. De opzoektabellen voor de browserversie zijn bijgewerkt op 20 april en de opzoektabellen voor het browsertype zijn bijgewerkt op 28 april. (AN-284872; AN-285753; AN-286257)
+(Oplossingen voor meerdere klanten)
+
+N.v.t.
 
 ### Extra correcties in Adobe Analytics
 
-AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761
+(Oplossingen voor individuele klanten)
 
-## Belangrijke kennisgevingen voor Adobe Analytics-beheerders
+AN-274429; AN-280918; AN-280945; AN-282884; AN-283565; AN-284785; AN-284814; AN-284854; AN-285253; AN-285432; AN-285535; AN-286255; AN-286340; AN-286434; AN-286454; AN-286630; AN-286716; AN-286854; AN-286911
+
+### Belangrijke kennisgevingen voor Adobe Analytics-beheerders
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
@@ -58,9 +61,7 @@ AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-
 
 {style=&quot;table-layout:auto&quot;}
 
-## AppMeasurement {#appm}
+### AppMeasurement
 
 Voor de meest recente updates over AppMeasurement-releases (versie 2.22.4) raadpleegt u [AppMeasurement voor JavaScript-releaseopmerkingen](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en).
 
->[!MORELIKETHIS]
->[[!DNL Customer Journey Analytics] releaseopmerkingen](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
