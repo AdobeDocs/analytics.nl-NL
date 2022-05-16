@@ -4,9 +4,9 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
+source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,10 @@ De nieuwe [!UICONTROL flow] De ervaring verbetert uw werkschema op verscheidene 
 1. Als u metrisch kiest, moet u ook verstrekken [!UICONTROL Pathing Dimension], zoals u hier ziet, die u gebruikt om het pad samen te stellen. De standaardwaarde is [!UICONTROL Page].
 
    ![schilderdimensie](assets/pathing-dim.png)
+
+   >[!IMPORTANT]
+   >
+   >Berekende metriek kunnen niet in de  **[!UICONTROL Starts with]** of **[!UICONTROL Ends with]** dropzones.
 
 1. (Optioneel) Klik op **[!UICONTROL Show Advanced Settings]** Geavanceerde instellingen configureren:
 
