@@ -4,9 +4,9 @@ title: Ad-hocsegmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
-source-git-commit: f50e3d9a1d3c1705c55a14af0e42a0da3ac00955
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '319'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Voor een vergelijking van de verschillende segmenten die u binnen een project ku
 
 ## Ad-hocsegmenten opslaan {#ad-hoc-save}
 
-Ad-hocsegmenten kunnen beschikbaar worden gesteld aan andere projecten door ze op te slaan.
+Ad hoc segmenten kunnen aan andere projecten ter beschikking worden gesteld door hen te bewaren.
 
 1. Houd de cursor boven het segment in de neerzetzone en klik op het pictogram &quot;i&quot;.
 1. Klik het uitgeven potlood om naar de Bouwer van het Segment te gaan.

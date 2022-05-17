@@ -4,9 +4,9 @@ title: Segmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 5e9894e3b7ea3e6c36e45b3683c08a1c767df8f0
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ U kunt verschillende typen segmenten maken in Workspace, afhankelijk van hoe com
 | Segment op lijst met componenten | Klik +, wat u aan [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | Al uw projecten van de Werkruimte | Voor complexere segmenten, opeenvolgende segmenten |
 | Snel segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [Alleen project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), maar u kunt de segmentlijst wel opslaan en uitbreiden. | Flexibiliteit om een of meer regels toe te voegen/te bewerken |
 | Ad-hocsegmenten: |  |  |  |
-| - Ad-hoc projectsegment van de Werkruimte | [Sleep in segment dalingsstreek in een project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [Alleen project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), maar u kunt de segmentlijst wel opslaan en uitbreiden. | Voor segmenten met één regel |
+| - Ad hoc-projectsegment van Workspace | [Sleep in segment dalingsstreek in een project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [Alleen project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), maar u kunt de segmentlijst wel opslaan en uitbreiden. | Voor segmenten met één regel |
 | - Op basis van cijfers berekend segment | [Berekende metrische builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Op berekende individuele metrieke waarde | Segment/s toepassen binnen uw metrische definitie |
 | - op VRS gebaseerd segment | [Samenstellen van virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Naar afzonderlijke virtuele rapportsuite | Segment/s toepassen binnen uw VRS-definitie |
 
