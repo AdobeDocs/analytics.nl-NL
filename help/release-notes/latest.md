@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: aa4dc06dc1719f398c29aeca40051d88f339ce42
+source-git-commit: 31387d369428727a486a19b986bf9d891a36e714
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 6%
+source-wordcount: '877'
+ht-degree: 4%
 
 ---
 
 # Huidige Adobe Analytics-releaseopmerkingen (mei 2022)
 
-**Laatste update**: 11 mei 2022
+**Laatste update**: 17 mei 2022
 
 >[!NOTE]
 >
@@ -43,14 +43,14 @@ N.v.t.
 
 (Oplossingen voor individuele klanten)
 
-AN-274429; AN-280918; AN-280945; AN-282884; AN-283565; AN-284785; AN-284814; AN-284854; AN-285253; AN-285432; AN-285535; AN-286255; AN-286340; AN-286434; AN-286454; AN-286630; AN-286716; AN-286854; AN-286911
+AN-274429; AN-279640; AN-280918; AN-280945; AN-282884; AN-283565; AN-284785; AN-284814; AN-284854; AN-284989; AN-285244; AN-285253; AN-285432; AN-285528; AN-285535; AN-285710; AN-286255; AN-286340; AN-286434; AN-286454; AN-286630; AN-286716; AN-286854; AN-286911
 
 ### Belangrijke kennisgevingen voor Adobe Analytics-beheerders
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
 | **SFTP-upgrade** | 9 mei 2022 | Eerder, hadden wij meegedeeld dat Adobe zijn Secure File Transfer Protocol (SFTP) diensten in mei 2022 zou bevorderen om betere veiligheid voor dossieroverdracht te verstrekken. We hebben deze upgrade uitgesteld tot de zomer van 2022. Wanneer deze wijziging plaatsvindt, worden bepaalde SFTP-clientconfiguraties niet meer ondersteund. Dit is alleen van invloed op gegevens die via SFTP naar Adobe Analytics worden verzonden of van worden opgehaald. Dit heeft geen invloed op het FTP-protocol. Om onderbreking van de dienst te vermijden, gelieve ervoor te zorgen dat uw cliënten SFTP (code, hulpmiddelen, de diensten) in overeenstemming met de gedetailleerde veranderingen zijn [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html). |
-| **CDA-machtiging (Cross-Device Analytics)** | 13 april 2022 | Effectief **1 mei 2022**, elke nieuwe toepassing van [CDA](/help/components/cda/overview.md) zijn beperkt tot een maximum van drie reeks IDs van het rapport (RSIDs) per klant. |
+| **CDA-machtiging (Cross-Device Analytics)** | 13 april 2022 | Effectief **1 mei 2022**, eventuele nieuwe implementaties van [CDA](/help/components/cda/overview.md) zijn beperkt tot een maximum van drie reeks IDs van het rapport (RSIDs) per klant. |
 | **Wijzigen in hoe Adobe Analytics omgaat met A4T-gegevens die via Experience Edge zijn verzameld** | 31 maart 2022 | Op 7 maart 2022 veranderde Analytics hoe het sommige vraag die van de Rand van de Ervaring kwam behandelde die inhoud van het Doel voorgenomen voor Analytics voor het Rapport van het Doel (A4T) omvatten. Vanaf 7 maart worden alle hits met A4T-rapportinhoud gewijzigd, zodat ze niet worden behandeld als gebeurtenissen Paginaweergave of Koppeling. Starten **31 maart 2022** De logica is selectiever, zodat de standaardgebeurtenissen Paginaweergave en Klikken niet worden gewijzigd. Voorwaarts, zijn de enige gebeurtenissen die worden gewijzigd verpersoonlijking-slechts vraag die slechts A4T inhoud heeft. |
 | **Bijwerken naar voor bepaalde klanten ondersteunde versleutelingsmethoden voor browsers** | 28 maart 2022 | Adobe biedt twee cipher veiligheidsniveaus aan om aan verschillende klantenbehoeften voor veiligheid op de inzameling van gegevens van eerste partij te voldoen. Aan **23 juni 2022** ondersteuning wordt verwijderd voor bepaalde HTTPS-versleutelingsalgoritmen, ook wel &#39;ciphers&#39; genoemd, voor klanten met hun beveiligingsniveau ingesteld op &#39;High&#39;. Dit betekent dat sommige oudere besturingssystemen geen gegevens meer naar Analytics kunnen verzenden omdat deze geen ondersteuning bieden voor moderne versleutelingsmethoden. Klanten die de standaardinstellingen voor standaardcursorbeveiliging gebruiken, worden niet beïnvloed. Er is al rechtstreeks contact opgenomen met alle klanten die momenteel gebruikmaken van de instelling &quot;Hoog&quot;. Hier vindt u een gedetailleerde lijst van de ciphers die door deze wijziging worden beïnvloed. |
 | **Oudere geplande rapporten onderbreken** | 12 april 2022 | Effectief **20 april 2022**, is Adobe voornemens alle geplande rapporten met een aanmaakdatum van meer dan twee jaar (aangemaakt vóór 31 januari 2020) te pauzeren. Er worden geen rapporten of gegevens verwijderd. Alleen rapporten die ouder zijn dan twee jaar worden gepauzeerd en er worden geen aanvullende geplande rapporten verzonden. Meer informatie |
