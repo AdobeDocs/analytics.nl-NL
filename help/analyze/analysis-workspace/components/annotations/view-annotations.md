@@ -4,9 +4,9 @@ description: Annotaties weergeven in Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '243'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ Annotaties worden iets anders weergegeven, afhankelijk van het feit of ze één 
 | **Eén dag** | ![](assets/single-day.png)<p>Wanneer u de aanwijzer boven de annotatie houdt, kunt u de details van de annotatie bekijken. U kunt deze bewerken door het penpictogram te selecteren of door de annotatie te verwijderen:<p> ![](assets/hover.png) |
 | **Datumbereik** | Het pictogram verandert en wanneer u de muisaanwijzer op het pictogram plaatst, wordt het datumbereik weergegeven.<p>![](assets/multi-day.png)<p>Wanneer u deze optie selecteert in het lijndiagram, worden de metagegevens van de annotatie weergegeven en kunt u deze bewerken of verwijderen:![](assets/multi-hover.png)<p>In een tabel wordt op elke datum in het datumbereik een pictogram weergegeven.<p>![](assets/multi-day-table.png) |
 | **Overlappende annotaties** | Op dagen waarop meerdere annotaties zijn gekoppeld, wordt het pictogram weergegeven in een grijze kleur.<p>![](assets/grey.png)<p>Wanneer u de cursor boven het grijze pictogram houdt, worden alle overlappende annotaties weergegeven:<p>![](assets/overlap.png) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Annotaties weergeven in een .pdf-bestand
 
