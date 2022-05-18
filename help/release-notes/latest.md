@@ -3,10 +3,10 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b300ec0f40eacc43463e9e42e7ff8f7cfedc15cb
+source-git-commit: 3243780b2bb1f7507dc5815f71c448a8be7f62cd
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 4%
+source-wordcount: '897'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 | Functie | Beschrijving | [Doeldatum](releases.md) |
 | ----------- | ---------- | ------- |
-| Geen nieuwe functies deze maand | N.v.t. | N.v.t. |
+| De afmetingen en metriek van de levenscyclus populeren via Experience Edge | Veel gebeurtenissen in de levenscyclus worden nu automatisch toegewezen aan XDM-velden. Gebeurtenissen die niet automatisch worden toegewezen, kunnen naar Adobe worden verzonden via sleutelwaardeparen in vrije vorm. [Meer informatie - binnenkort beschikbaar] | 27 mei 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
