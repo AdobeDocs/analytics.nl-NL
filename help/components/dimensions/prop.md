@@ -3,7 +3,7 @@ title: Prop
 description: Een aangepaste dimensie die u kunt gebruiken in rapporten.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Props zijn standaard niet hoofdlettergevoelig. Als u dezelfde waarde in verschil
 
 U kunt hoofdlettergevoelig maken. U kunt hoofdlettergevoeligheid ook uitschakelen voor elke aanwijzing nadat deze is ingeschakeld. Neem contact op met de klantenservice van Adobe met de id van de rapportsuite en de gewenste variabelen om hoofdlettergevoeligheid in/uit te schakelen.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Als u de gevoeligheid van hoofdletters/kleine letters in-/uitschakelen, leidt dit tot onverwachte resultaten met segmenten en tot problemen met filters. Adobe beveelt ten zeerste aan deze instelling te schakelen tussen twee belangrijke tijdsperiodes, zoals het begin van een maand of jaar.
 

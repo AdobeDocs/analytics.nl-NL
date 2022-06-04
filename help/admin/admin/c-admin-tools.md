@@ -3,7 +3,7 @@ description: Index van beheerprogramma's in Adobe Analytics.
 title: Admin Tools
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 34%
@@ -14,7 +14,7 @@ ht-degree: 34%
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Open niet meerdere Admin-tabbladen in dezelfde browser. Dit kan ertoe leiden dat u per ongeluk montages aan de verkeerde rapportreeks bewaart. Als u, bijvoorbeeld, regelreeksen moet vergelijken en hen aan een nieuwe rapportreeks kopieert, adviseren wij dat u nieuwe browser opent of een het schermschot neemt om regelreeksen te vergelijken.
 

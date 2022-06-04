@@ -2,9 +2,9 @@
 title: Apparaatgrafiek
 description: Begrijp de eerste vereisten en de beperkingen van het stitching van gegevens gebruikend de apparatengrafiek.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -17,21 +17,21 @@ Cross-Device Analytics biedt twee verschillende methoden om gegevens aan elkaar 
 
 Adobe biedt twee typen apparaatgrafieken als onderdeel van de ID-service:
 
-* **Grafiek** naast elkaar: Een opslagplaats van hashed apparaat ID&#39;s die om het even welke klant kan bijdragen tot en van verwijzingen voorzien. Aangezien dit type apparaatgrafiek een gezamenlijke grafiek is, komt deze meestal overeen met meer apparaten dan een persoonlijke grafiek.
+* **Grafiek met meerdere uiteinden**: Een opslagplaats van hashed apparaat ID&#39;s die om het even welke klant kan bijdragen tot en van verwijzingen voorzien. Aangezien dit type apparaatgrafiek een gezamenlijke grafiek is, komt deze meestal overeen met meer apparaten dan een persoonlijke grafiek.
 * **Privégrafiek**: Een opslagplaats van hashed apparaat ID&#39;s die slechts uw organisatie van verwijzingen voorziet.
 
 ## Specifieke voorwaarden voor de apparaatgrafiek
 
 Als u Apparaatanalyse wilt implementeren met de grafiekmethode van het apparaat, is het volgende vereist. Werk met teams binnen uw organisatie en uw Adobe-accountmanager om ervoor te zorgen dat u aan alle volgende voorwaarden voldoet.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Als niet aan alle voorwaarden wordt voldaan, kan het zijn dat u Cross-Device Analytics of slechte resultaten niet kunt inschakelen bij het koppelen van gegevens.
 
-* Alle voorwaarden die op [overzichtspagina](overview.md) worden vermeld.
-* Uw organisatie moet de Adobe Experience Platform Identity Service Co-op Graph of Private Graph gebruiken. Zie [Homepagina](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) in de gebruikershandleiding van de Co-op van het Apparaat.
-* Uw implementatie moet de nieuwste versie van de Experience Cloud ID-service gebruiken. Zie [Startpagina](https://experienceleague.adobe.com/docs/id-service/using/home.html) in de gebruikershandleiding van de Experience Cloud Identiteitsservice. Bij de meeste implementaties met tags in Adobe Experience Platform is ECID waarschijnlijk al geïmplementeerd.
-* Uw implementatie moet de functie `setCustomerIDs` (of het equivalent van SDK) aanroepen wanneer een individu kan worden geïdentificeerd, zoals wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Zie [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) in de gebruikershandleiding van de Experience Cloud Identiteitsservice.
+* Alle voorwaarden die op de [overzichtspagina](overview.md).
+* Uw organisatie moet de Adobe Experience Platform Identity Service Co-op Graph of Private Graph gebruiken. Zie de [Startpagina](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) in de gebruikershandleiding voor cogebruikers van apparaten.
+* Uw implementatie moet de nieuwste versie van de Experience Cloud ID-service gebruiken. Zie de [Startpagina](https://experienceleague.adobe.com/docs/id-service/using/home.html) in de gebruikershandleiding van de Experience Cloud Identity Service. Bij de meeste implementaties met tags in Adobe Experience Platform is ECID waarschijnlijk al geïmplementeerd.
+* Uw implementatie moet de `setCustomerIDs` functie (of SDK-equivalent) wanneer een individu kan worden geïdentificeerd, bijvoorbeeld wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Zie [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) in de gebruikershandleiding van de Experience Cloud Identity Service.
 
 ## Specifieke beperkingen voor de apparaatgrafiek
 
@@ -42,4 +42,4 @@ Als u Apparaatanalyse wilt implementeren met de grafiekmethode van het apparaat,
 
 ## Volgende stappen
 
-Als uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u [Apparaatanalyse instellen](setup.md).
+Zodra uw organisatie aan alle vereisten voldoet en de beperkingen begrijpt, kunt u beginnen [Apparaatanalyse instellen](setup.md).

@@ -3,7 +3,7 @@ description: Opeenvolgende segmenten worden gemaakt met behulp van de operator T
 title: Opeenvolgende segmenten maken
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 1%
@@ -399,7 +399,7 @@ Als op 1 juni 2019, om 00:01, een hit naar pagina A wordt weergegeven als &quot;
 * [!UICONTROL Within] kunt u bijhouden op jaar, maand, dag, uur en minuut om bezoeken te zoeken.
 * [!UICONTROL Within] kan alleen worden toegepast op een [!UICONTROL Hit] container, omdat dit het enige niveau is waarvoor een dergelijke fijne korreligheid wordt gedefinieerd.
 
->[!IMPORTANT]
+>[!TIP]
 >
 >In een &quot;binnen&quot;clausule, binnen tussen VEREN verklaringen, kunt u, bijvoorbeeld, &quot;binnen 1 onderzoek sleutelwoordinstantie&quot;toevoegen, &quot;binnen 1 eVar 47 instantie&quot;. Dit beperkt het segment tot binnen één instantie van een dimensie.
 

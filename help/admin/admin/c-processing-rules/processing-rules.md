@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Overzicht van verwerkingsregels
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 2%
+source-wordcount: '329'
+ht-degree: 3%
 
 ---
 
@@ -28,11 +28,7 @@ De verwerkingsregels vereenvoudigen gegevensverzameling en beheren inhoud aangez
 
 Beheerders hebben het recht om verwerkingsregels te gebruiken **standaard**. Beheerders kunnen deze rechten ook aan niet-beheerders toekennen via de interface Admin Tools. Zie voor instructies []
 
-![](assets/processing-rules.png)
-
->[!IMPORTANT]
->
->Omdat de verwerkingsregels de gegevens van Analytics permanent beïnvloeden, adviseert Adobe sterk dat de beheerders van de verwerkingsregels certificeringstraining in Adobe Analytics ontvangen, en met alle bronnen van gegevens voor uw rapportreeksen vertrouwd zijn (standaardwebsites, mobiele plaatsen, mobiele apps, de Invoeging API van Gegevens, etc.). Kennis van de contextgegevensvariabelen en standaardvariabelen die op verschillende platforms zijn ingevuld, zal helpen te voorkomen dat gegevens per ongeluk worden verwijderd of gewijzigd.
+![Verwerkingsregels](assets/processing-rules.png)
 
 ## Contextgegevens gebruiken om gegevensverzameling te vereenvoudigen {#section_09EEA03612D24C15839631AA9E9668D8}
 

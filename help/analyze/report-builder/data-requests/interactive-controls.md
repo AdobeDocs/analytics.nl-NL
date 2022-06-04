@@ -4,7 +4,7 @@ title: Interactieve besturingselementen
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Interactieve besturingselementen zijn gemaakt als reactie op een algemene workfl
 >
 
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Wijzig de naam van het besturingselement niet. (Om de naam te zien, plaats de nadruk op de controle en de controlenaam verschijnt net boven het net van Excel, in de hogere linkerhoek.)
 

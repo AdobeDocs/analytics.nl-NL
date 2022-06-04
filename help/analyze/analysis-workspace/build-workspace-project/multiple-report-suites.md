@@ -4,7 +4,7 @@ description: Leer hoe en waarom u projecten maakt in Workspace met meerdere rapp
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -35,7 +35,7 @@ U kunt een rapportsuite op alle deelvensters tegelijk toepassen door met de rech
 
 Met deze functie introduceren we het concept &quot;actief panel&quot; in plaats van &quot;inactief panel&quot;. U kunt het actieve deelvenster herkennen aan de lichtblauwe rand eromheen. Als u gewoon in een deelvenster klikt, wordt dat deelvenster omgezet in het actieve deelvenster.
 
->[!IMPORTANT]
+>[!TIP]
 >U kunt slepen en neerzetten in elk deelvenster dat zich in dezelfde rapportsuite bevindt als het actieve deelvenster. Door naar een inactief deelvenster van dezelfde rapportsuite te slepen, wordt het deelvenster actief.
 
 | Taak | Actief deelvenster | Inactief deelvenster |

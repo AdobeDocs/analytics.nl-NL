@@ -3,7 +3,7 @@ title: contextData
 description: Met contextgegevensvariabelen kunt u aangepaste variabelen definiëren op elke pagina die door verwerkingsregels kan worden gelezen.
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -35,7 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## De verwerkingsregels van het gebruik om analysevariabelen te bevolken
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Contextgegevensvariabelen worden verwijderd nadat de verwerkingsregels zijn uitgevoerd. Als u geen verwerkingsregels hebt die waarden in variabelen plaatsen, worden die gegevens permanent verloren!
 

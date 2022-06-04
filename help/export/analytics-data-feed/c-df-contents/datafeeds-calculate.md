@@ -4,7 +4,7 @@ keywords: Gegevensfeed;taak;metriek;pre-kolom;post kolom;bots;datum filteren;geb
 title: Metrische gegevens berekenen
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Beschrijft hoe te om gemeenschappelijke metriek te berekenen gebruikend gegevensvoer.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Hits die normaal gesproken van Adobe Analytics worden uitgesloten, worden opgenomen in gegevensfeeds. Gebruiken `exclude_hit > 0` om uitgesloten klappen uit vragen over ruwe gegevens te verwijderen. Gegevensbronnen worden ook opgenomen in gegevensfeeds. Als u gegevensbronnen wilt uitsluiten, sluit dan alle rijen uit met `hit_source = 5,7,8,9`.
 

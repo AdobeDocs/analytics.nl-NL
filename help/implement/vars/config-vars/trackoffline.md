@@ -3,7 +3,7 @@ title: trackOffline
 description: Schakel offline bijhouden in of uit. Hiermee wordt gewijzigd hoe AppMeturement gegevens verzamelt.
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Offline bijhouden is een optionele manier om gegevens te verzamelen in Adobe Ana
 
 De `trackOffline` de variabele bepaalt als u off-line het volgen in uw implementatie wilt gebruiken.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >U moet uw rapportreeks vormen om timestamped hits goed te keuren alvorens deze variabele toe te laten. Als een rapportsuite geen treffers met tijdstempels accepteert en deze variabele is ingeschakeld, gaan die gegevens verloren en kunnen deze niet worden hersteld.
 

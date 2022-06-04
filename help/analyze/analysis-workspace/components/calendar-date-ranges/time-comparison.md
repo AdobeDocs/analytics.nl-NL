@@ -4,7 +4,7 @@ title: Datumvergelijking
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 6%
@@ -31,7 +31,7 @@ De analyse vereist context, en vaak wordt die context verstrekt door een vorige 
 
    ![](assets/compare-time.png)
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
    >Deze klikoptie is gehandicapt voor metrische rijen, de rijen van de datumwaaier, en de rijen van de tijddimensie.
 
@@ -93,7 +93,7 @@ Met een nieuwe instelling voor alle tabellen kunt u **[!UICONTROL Align Dates fr
 
 ![](assets/date-comparison-setting.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Deze instelling is **uitgeschakeld** (niet ingeschakeld) voor alle bestaande projecten en **enabled** (gecontroleerd) voor alle nieuwe projecten.
 
