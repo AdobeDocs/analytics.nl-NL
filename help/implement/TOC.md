@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: 'Pas aan welke gegevens worden verzameld om meer uit Adobe Analytics te halen. '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 73%
+source-wordcount: '402'
+ht-degree: 69%
 
 ---
 
@@ -131,6 +131,22 @@ ht-degree: 73%
    + [Implementatiemodel](prepare/implementation-modal.md)
    + [Een document voor het ontwerp van een oplossing maken](prepare/solution-design.md)
    + [Een bestaande Adobe Analytics-implementatie op zich nemen](prepare/existing-implementation.md)
++ Analyses implementeren met gebruik van Experience Platform Edge {#aep-edge}
+   + [Overzicht van Experience Edge](aep-edge/overview.md)
+   + [Variabele toewijzen](aep-edge/variable-mapping.md)
+   + Web SDK {#web-sdk}
+      + [Overzicht van Web SDK](aep-edge/web-sdk/overview.md)
+   + Mobile SDK {#mobile-sdk}
+      + [Overzicht van Mobile SDK](aep-edge/mobile-sdk/overview.md)
+   + Edge-API {#edge-api}
+      + [Overzicht van Edge API](aep-edge/edge-api/overview.md)
++ Analyses implementeren met tags in Adobe Experience Platform {#launch}
+   + [Overzicht van codes](launch/overview.md)
+   + [Een Adobe Analytics-tageigenschap maken](launch/create-analytics-property.md)
+   + [Distribueren naar een ontwikkelomgeving](launch/deploy-dev.md)
+   + [Valideren en publiceren naar productie](launch/validate-publish-prod.md)
+   + [Datalaagobjecten toewijzen aan data-elementen](launch/layer-to-elements.md)
+   + [Taggegevenselementen toewijzen aan analytische variabelen](launch/elements-to-variable.md)
 + Analytics implementeren met JavaScript {#js}
    + [JavaScript-overzicht](js/overview.md)
    + [Opt-outkoppelingen implementeren](js/opt-out.md)
@@ -150,13 +166,6 @@ ht-degree: 73%
       + [Voorbeeld van bezoek](js/xdevice-visid/visit-example.md)
       + [Veelgestelde vragen over verouderde cross-device](js/xdevice-visid/xdevice-faq.md)
    + [Problemen met AppMeasurement oplossen](js/troubleshooting.md)
-+ Analyses implementeren met tags in Adobe Experience Platform {#launch}
-   + [Overzicht van codes](launch/overview.md)
-   + [Een Adobe Analytics-tageigenschap maken](launch/create-analytics-property.md)
-   + [Distribueren naar een ontwikkelomgeving](launch/deploy-dev.md)
-   + [Valideren en publiceren naar productie](launch/validate-publish-prod.md)
-   + [Datalaagobjecten toewijzen aan data-elementen](launch/layer-to-elements.md)
-   + [Taggegevenselementen toewijzen aan analytische variabelen](launch/elements-to-variable.md)
 + Analytics implementeren op andere platforms {#other}
    + [Analytics implementeren met behulp van hardwarematige afbeeldingsaanvragen](other/hardcoded.md)
    + [Analytics implementeren met DTM](other/dtm-implementation-overview.md)
@@ -179,6 +188,3 @@ ht-degree: 73%
    + [Gerichte revisie (na elke release van de website)](review/focused-review.md)
    + [Volledige controle (elke 6 maanden)](review/full-review.md)
    + [De bovenste 5 KPI&#39;s definiëren](review/define-kpis.md)
-+ XDM-data gebruiken met Analytics {#aep-edge}
-   + [AEP Web-SDK gebruiken](aep-edge/xdmoverview.md)
-   + [XDM-gegevens handmatig toewijzen aan Analyse](aep-edge/xdm-manual.md)

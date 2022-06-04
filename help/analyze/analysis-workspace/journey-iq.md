@@ -1,12 +1,11 @@
 ---
 title: Reis-IQ
 description: Begrijp de eigenschappen die omhoog IQ van de Reis, een reeks eigenschappen vormen die deel van Adobe Analytics uitmaken.
-feature: AI-gereedschappen
 role: User, Admin
 exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -19,8 +18,8 @@ De IQ van de reis is een reeks eigenschappen die makkelijk te gebruiken, volledi
 
 Reis IQ omvat de volgende kenmerken:
 
-* [Cohortanalyse:](visualizations/cohort-table/cohort-analysis.md) Behoud en betrokkenheid van klanten visualiseren om te begrijpen waar een kind voorkomt.
-* [Contextbewuste sessies:](../../components/vrs/vrs-report-time-processing.md) wijzig de definitie van een bezoek, ook wanneer een bezoek uitvalt en voorkomt dat achtergrondgeluiden een nieuw bezoek beginnen. Gebruikt een eigenschap genoemd de verwerking van de rapporttijd, een deel van virtuele rapportreeksen.
+* [Cohortanalyse:](visualizations/cohort-table/cohort-analysis.md) Behoud en betrokkenheid van klanten visualiseren om te begrijpen waar het klonen gebeurt.
+* [Contextbewuste sessies:](../../components/vrs/vrs-report-time-processing.md) Wijzig de definitie van een bezoek, bijvoorbeeld wanneer een bezoek uitkomt en wanneer achtergrondgeluiden het begin van een nieuw bezoek verhinderen. Gebruikt een eigenschap genoemd de verwerking van de rapporttijd, een deel van virtuele rapportreeksen.
 * [Stroomanalyse:](visualizations/c-flow/flow.md) Begrijp waar de gebruikers navigeer en waar zij kwamen.
-* [Fallout-analyse:](visualizations/fallout/fallout-flow.md) Vastleggen wanneer een klant zich terugtrekt en begrijpen waar de klant naartoe gaat.
-* [Apparaatanalyse:](../../components/cda/overview.md) Voeg naadloos gedrag van meerdere apparaten samen om beter te begrijpen welke aanraakpunten elk apparaat krijgt.
+* [Falloutanalyse:](visualizations/fallout/fallout-flow.md) Vastleggen wanneer een klant zich terugtrekt en begrijpen waar deze naartoe gaat.
+* [Apparaatanalyse:](../../components/cda/overview.md) Voeg naadloos gedrag van meerdere apparaten samen om beter te begrijpen wat aanraakpunten elk apparaat krijgt.
