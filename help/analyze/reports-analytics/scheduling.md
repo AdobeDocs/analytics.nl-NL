@@ -6,9 +6,9 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
+source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1729'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 Informatie over het plannen, downloaden en verspreiden van rapporten.
 
 >[!IMPORTANT]
->Met ingang van 15 april 2022 is Adobe voornemens alle geplande rapporten met een aanmaakdatum van meer dan twee jaar te onderbreken (alle taken die vóór 31 januari 2020 zijn gemaakt). Er worden geen rapporten of gegevens verwijderd. Alleen rapporten die ouder zijn dan twee jaar worden gepauzeerd en er worden geen aanvullende geplande rapporten verzonden. [Meer informatie](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>Op 21 april 2022 hebben we aangekondigd dat verschillende functies die specifiek zijn voor geplande rapporten, zullen worden vervangen ter voorbereiding op het eerder aangekondigde einde van de levensduur van Reports &amp; Analytics. Deze functies omvatten de mogelijkheid om nieuwe rapporten en nieuwe gegevensextracten te plannen. In antwoord op verzoeken van klanten die een uitbreiding willen en om de overgang van Rapporten &amp; Analytics te vergemakkelijken, hebben wij besloten om de toegang tot deze eigenschappen tot 31 januari 2023 te verlengen. Houd er rekening mee dat de vervaltijden voor zowel rapporten als gegevensextracten beperkt blijven tot negen maanden. aan het einde van deze periode wordt de levering van rapporten en gegevensuittreksels gepauzeerd , tenzij het schema opnieuw wordt geactiveerd . [Meer informatie](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Wanneer u een rapport voor levering in een toepassing van Adobe Analytics plant, kunt u de Plannende en hulpmiddelen van de Distributie gebruiken om te bekijken welke dossiers automatisch zijn verzonden en de leveringen te wijzigen of te eindigen.
 
