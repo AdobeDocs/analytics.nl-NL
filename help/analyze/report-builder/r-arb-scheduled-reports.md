@@ -4,10 +4,10 @@ title: Gepland Taakbeheer
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 1%
+source-wordcount: '736'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +17,20 @@ De [!UICONTROL Scheduled Task Manager] laat u een lijst van bestaande geplande r
 
 ## Oudere geplande taken pauzeren
 
-**Met ingang van 21 april 2022** Adobe is van plan alle geplande Report Builder-taken die meer dan twee jaar geleden zijn gemaakt, te pauzeren. Deze pauze is specifiek van toepassing op **alle taken die vóór 31 januari 2020 zijn gemaakt**. Er worden geen taken, werkboeken of gegevens verwijderd. Taken die ouder zijn dan twee jaar, worden onderbroken en er worden geen extra geplande taken verzonden.
+Op 21 april 2022 hebben we wijzigingen doorgevoerd in de geplande taken in Report Builder als onderdeel van onze inspanningen om de prestaties en prestaties te optimaliseren. Deze wijzigingen omvatten het verwijderen van de mogelijkheid om geplande leveringen &#39;end na x occurrences&#39; te laten beëindigen. In antwoord op verschillende verzoeken van klanten die meer tijd zoeken om alternatieven te onderzoeken en te implementeren, hebben we besloten deze optie op beperkte wijze te herstellen tot **31 jan. 2023**.
+
+U kunt Report Builder-taken per uur blijven plannen en deze na maximaal 99 exemplaren laten beëindigen. De terugdraaiing geldt alleen voor uurwerk. het &quot; einde na x &quot; komt niet voor alle andere leveringsintervallen ( dagelijks , wekelijks , maandelijks en jaarlijks ) .
+
+Deze optie wordt afgekeurd op 31 januari 2023.
+Neem voor meer vragen of ondersteuning contact op met de klantenservice van Adobe.
+
+Deze pauze is specifiek van toepassing op **alle taken die vóór 31 januari 2020 zijn gemaakt**. Er worden geen taken, werkboeken of gegevens verwijderd. Taken die ouder zijn dan twee jaar, worden onderbroken en er worden geen extra geplande taken verzonden.
 
 Om het even welke taken die u wenst om het verzenden te hervatten kunnen worden opnieuw geactiveerd. Meld u aan bij Report Builder en start de [!UICONTROL Scheduled Task Manager]. Klikken **[!UICONTROL Reactivate]** voor de geplande taak wilt u het verzenden hervatten. Voor elke opnieuw geactiveerde taak geldt een standaardvervaldatum van 18 maanden, tenzij een kortere vervaldatum wordt gekozen.
 
 Bovendien geldt voor elke taak waarvoor de aanmaakdatum minder dan twee jaar bedraagt en waarvoor geen huidige vervaldatum (of met een vervaldatum van meer dan twee jaar) geldt, een standaardvervaldatum van 18 maanden. De nieuwe vervaldatum is 15 oktober 2023. U kunt deze vervaldatum wijzigen in minder dan 18 maanden, maar niet langer. Op het moment van aflopen wordt de taak gepauzeerd. U kunt de taak echter opnieuw activeren met een nieuwe vervaldatum van 18 maanden. Er worden geen taken, werkboeken of gegevens verwijderd.
 
-Het doel van deze pauze is onze geplande takengegevensbestand effectief te beheren en te handhaven om optimale prestaties en levering voor vereiste taken en werkboeken te verzekeren. Dit zal dienen als ons nieuwe governancebeleid. Na 15 april 2022 hebben alle taken een maximale vervaldatum van 18 maanden. Na 18 maanden worden de verlopen taken gepauzeerd en kunnen deze zo nodig opnieuw worden geactiveerd.
+Het doel van deze pauze is onze geplande takengegevensbestand effectief te beheren en te handhaven om optimale prestaties en levering voor vereiste taken en werkboeken te verzekeren. Dit zal dienen als ons nieuwe governancebeleid. Na 31 januari 2023 hebben alle taken een maximale vervaldatum van 18 maanden. Na 18 maanden worden de verlopen taken gepauzeerd en kunnen deze zo nodig opnieuw worden geactiveerd.
 
 ## Geplande taken configureren
 
