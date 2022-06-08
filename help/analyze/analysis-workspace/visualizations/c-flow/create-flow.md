@@ -4,7 +4,7 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
+source-git-commit: 2ce17ecd45810e1c567e99423271dbc2d5288485
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Deze nieuwe versie van de [!UICONTROL Flow] visualisatie vindt momenteel plaats in een persoonlijke bèta. Zie [deze pagina](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) voor de huidige functionaliteit.
+>Deze nieuwe versie van de [!UICONTROL Flow] de visualisatie wordt momenteel beperkt getest . Zie [deze pagina](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) voor de huidige functionaliteit.
 
 Met de bijgewerkte stroomvisualisatie kunt u de reis begrijpen die voortvloeit uit of leidt tot een specifieke conversiegebeurtenis op uw website of uw app. Het traceert een pad door uw dimensies (en dimensie-items) of metriek. Met stroom kunt u het begin of einde van het pad configureren waarin u bent geïnteresseerd, of alle paden analyseren die door een dimensie- of dimensie-item lopen.
 
