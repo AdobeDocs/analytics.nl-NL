@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 8666c32ffe907ad486778fa382404807459be03c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 | Functie | Beschrijving | [Doeldatum](releases.md) |
 | ----------- | ---------- | ------- |
-| De afmetingen en metriek van de levenscyclus populeren via Experience Edge | Gegevens over de mobiele levenscyclus die via Experience Edge worden verzonden, worden nu weergegeven in Analytics-rapportage. Raadpleeg de documentatie voor meer informatie over de gegevens over de levenscyclus die via Experience Edge worden verzameld en over de manier waarop deze overeenkomen met de bestaande levenscyclusrapportage. [Meer informatie - binnenkort beschikbaar] | 27 mei 2022 |
+| De afmetingen en metriek van de levenscyclus populeren via Experience Edge | Gegevens over de mobiele levenscyclus die via Experience Edge worden verzonden, worden nu weergegeven in Analytics-rapportage. Raadpleeg de documentatie voor meer informatie over de gegevens over de levenscyclus die via Experience Edge worden verzameld en over de manier waarop deze overeenkomen met de bestaande levenscyclusrapportage. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 27 mei 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
