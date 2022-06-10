@@ -4,7 +4,7 @@ title: Het deelvenster Paginaoverzicht
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -53,7 +53,7 @@ De [!UICONTROL Page summary] retourneert een uitgebreide set metrische gegevens 
 | [!UICONTROL Reloads] | De [!UICONTROL Reloads] metrisch toont het aantal tijden een afmetingspunt tijdens een herlading aanwezig was. Een bezoeker die zijn browser vernieuwt, is de meest gebruikelijke manier om een nieuwe laadbewerking te starten. |
 | [!UICONTROL Entries] | De [!UICONTROL Entries] Met de metrische waarde wordt aangegeven hoe vaak een bepaald dimensie-item wordt vastgelegd als de eerste waarde in een bezoek. |
 | [!UICONTROL Exits] | De [!UICONTROL Exits] Met de metrische waarde wordt aangegeven hoe vaak een bepaald dimensie-item wordt vastgelegd als de laatste waarde in een bezoek. |
-| [!UICONTROL Flow] | Een stroomdiagram met de geselecteerde pagina als brandpunt. U kunt verder naar de gegevens gaan, net als in alle andere [Stroomdiagram](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
+| [!UICONTROL Flow] | Een stroomdiagram met de geselecteerde pagina als brandpunt. U kunt verder naar de gegevens gaan, net als in alle andere [Stroomdiagram](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style=&quot;table-layout:auto&quot;}
 
