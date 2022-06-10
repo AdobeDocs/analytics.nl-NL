@@ -3,7 +3,7 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 76190c666b8506e4b3acc1c80e08e60ca1736759
+source-git-commit: cf291c4d46a6bff9e1c61804ca7e897ee1d4e4d5
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 2%
@@ -18,7 +18,6 @@ ht-degree: 2%
 
 **Laatste update**: 10 juni 2022
 
-
 ## Gerelateerde bronnen
 
 * [Opmerkingen bij de vorige release voor 2022](/help/release-notes/2022.md)
@@ -32,7 +31,7 @@ ht-degree: 2%
 | ----------- | ---------- | ------- |
 | Nieuwe interface voor stroomvisualisatie | Biedt extra functionaliteit voor onze stroomvisualisatie om deze krachtiger en beter in staat te maken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 15 juni 2022 |
 | Annotaties delen op mobiele scorecards | U kunt annotaties weergeven die zijn gemaakt in Workspace, in Mobiele Scorecards. Hierdoor kunt u contextuele gegevensnuances en inzichten over uw organisatie en campagnes rechtstreeks delen binnen Mobile Scorecard-projecten, die kunnen worden weergegeven in de mobiele app Analytics dashboards. Meer informatie (volgen) | 15 juni 2022 |
-| Ondersteuning voor productsyntaxisversie van Merchandising Variables met Edge Collection | U kunt nu de variabelen voor het wijzigen van de handel instellen met behulp van het equivalent van de productsyntaxis door de relevante XDM-velden in te stellen. Meer informatie over productsyntaxis voor handelsvariabelen vinden [hier](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en). Zie de toewijzingen voor productsyntaxis [hier](https://experienceleague.corp.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 15 juni 2022 |
+| Ondersteuning voor productsyntaxisversie van Merchandising Variables met Edge Collection | U kunt nu de variabelen voor het wijzigen van de handel instellen met behulp van het equivalent van de productsyntaxis door de relevante XDM-velden in te stellen. Meer informatie over productsyntaxis voor handelsvariabelen vinden [hier](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en). Zie de toewijzingen voor productsyntaxis [hier](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 15 juni 2022 |
 | De afmetingen en metriek van de levenscyclus populeren via Experience Edge | Gegevens over de mobiele levenscyclus die via Experience Edge worden verzonden, worden nu weergegeven in Analytics-rapportage. Zie de documentatie voor meer informatie over welke XDM-velden zijn toegewezen aan bestaande rapportage over de mobiele levenscyclus. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 27 mei 2022 |
 | Ervaring met nieuwe classificaties - Fase 1 | Deze gefaseerde release van een nieuwe gebruikerservaring voor classificatiesets verbetert de zichtbaarheid van classificatiegegevens die eigendom zijn van klanten aanzienlijk. GA wordt begin 2023 geraamd. | Beperkte tests starten 15 juni 2022 |
 
