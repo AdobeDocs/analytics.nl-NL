@@ -3,10 +3,10 @@ title: campaign
 description: Vul de dimensie 'Code bijhouden' in.
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 1%
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -16,12 +16,16 @@ De `campaign` variabele is gewijd aan het verzamelen van volgcodes op uw plaats.
 
 Deze variabele vult de dimensie &#39;Tracking Code&#39; in.
 
-## Campagne met tags in Adobe Experience Platform
+## Campagne die de SDK van het Web gebruikt
+
+Campagne is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `marketing.trackingCode`.
+
+## Campagne met de Adobe Analytics-extensie
 
 U kunt campagne of terwijl het vormen van de uitbreiding van Analytics (globale variabelen) of onder regels plaatsen.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 4. Onder [!UICONTROL Actions]klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
 5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
@@ -29,7 +33,7 @@ U kunt campagne of terwijl het vormen van de uitbreiding van Analytics (globale 
 
 U kunt campagne aan een waarde of een parameter van het vraagkoord plaatsen.
 
-## s.campagne in AppMeasurement en de redacteur van de douanecode
+## s.campagne in AppMeasurement en de de coderedacteur van de uitbreiding van de Analyse van de douanecode
 
 De `s.campaign` variabele is een tekenreeks die doorgaans een trackingcode bevat die wordt gebruikt bij marketingactiviteiten. De maximale lengte is 255 bytes. waarden die langer zijn dan 255 bytes, worden automatisch afgekapt wanneer ze naar Adobe worden verzonden.
 

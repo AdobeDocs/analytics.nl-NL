@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Verwerkingsvolgorde
 feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: 790c3a02fbdf896cba0933dcd7a2b2efd5a19f15
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 2%
+source-wordcount: '503'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ In de volgende tabellen worden de gegevens weergegeven die doorgaans beschikbaar
 |--- |--- |
 | [Dynamische variabelen](/help/implement/vars/page-vars/dynamic-variables.md) | Variabelen die dynamisch worden gevuld door informatie uit HTTP-headers of andere variabelen te halen. |
 | [AppMeasurement](/help/implement/home.md) | Functies en insteekmodules die worden gebruikt in AppMeturement-bibliotheken, worden uitgevoerd in de browser of de clienttoepassing. |
-| [Implementatie van tags](/help/implement/launch/overview.md) | Regels die zijn gedefinieerd in de gebruikersinterface voor gegevensverzameling. |
+| [Implementatie van tags](/help/implement/launch/overview.md) | Regels die zijn gedefinieerd in de Adobe Analytics-extensie in Adobe Experience Platform Data Collection. |
 | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html) | Gegevens die via de SDK van het Web worden verzameld, worden naar Adobe Experience Edge verzonden en vervolgens naar de gewenste rapportsuite doorgestuurd. |
 | [Bot-regels](/help/admin/admin/bot-removal/bot-rules.md) | Hiermee kunt u verkeer verwijderen dat wordt gegenereerd door bekende spinnen en bots. |
 

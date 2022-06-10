@@ -3,9 +3,9 @@ title: registerPostTrackCallback
 description: Creeer callback functies na het verzenden van een klap naar Adobe.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,29 @@ Elke keer dat u de `registerPostTrackCallback` variabele, verbindt u die functie
 >
 >De timing en volgorde van functies die worden geactiveerd tussen [`registerPreTrackCallback`](registerpretrackcallback.md) en `registerPostTrackCallback` niet gegarandeerd zijn. Vermijd afhankelijkheden tussen deze twee functies.
 
-## Bijschrift achteraf registreren met tags in Adobe Experience Platform
+## Natrack Callback die de uitbreiding van SDK van het Web gebruikt
 
-Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Binnenkort verkrijgbaar!
 
-## s.registerPostTrackCallback in AppMeasurement en aangepaste code-editor
+## Natrack Callback die manueel SDK van het Web uitvoert
+
+U kunt een JavaScript-belofte gebruiken wanneer u een gebeurtenis verzendt om een functie te registreren nadat gegevens naar Adobe zijn verzonden.
+
+```js
+alloy("sendEvent",{
+  "xdm": {}
+}).then(function(result) {
+  Console.Log("Data was successfully sent.");
+});
+```
+
+Zie [Reacties van gebeurtenissen afhandelen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) in de documentatie van SDK van het Web voor meer informatie.
+
+## Navolgende callback registreren met Adobe Analytics-extensie
+
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+
+## s.registerPostTrackCallback in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
 
 De `s.registerPostTrackCallback` is een functie die een functie als het enige argument neemt. De geneste functie wordt direct uitgevoerd nadat een afbeeldingsaanvraag is verzonden.
 

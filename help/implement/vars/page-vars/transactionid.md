@@ -3,9 +3,9 @@ title: transactionID
 description: Gebruik deze variabele om online en offline gegevens aan elkaar te koppelen.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ Wanneer u `transactionID` Bij een hit maakt Adobe een &quot;momentopname&quot; v
 
 Standaard onthoudt Adobe alle waarden van de transactie-id (gekoppeld en ongekoppeld) gedurende maximaal 90 dagen. Als uw offline interactieproces langer is dan 90 dagen, neemt u contact op met de klantenservice om deze limiet te verlengen.
 
-## Transactie-id met tags in Adobe Experience Platform
+## Transactie-id met Adobe Analytics-extensie
 
 U kunt transactie-id instellen tijdens het configureren van de extensie Analytics (globale variabelen) of onder regels.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 4. Onder [!UICONTROL Actions]klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
 5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
@@ -35,7 +35,7 @@ U kunt transactie-id instellen tijdens het configureren van de extensie Analytic
 
 U kunt transactie-id instellen op elke tekenreekswaarde, inclusief gegevenselementen.
 
-## s.transactionID in AppMeasurement en de redacteur van de douanecode
+## s.transactionID in AppMeasurement en de de coderedacteur van de de uitbreidingsuitbreiding van de Analyse
 
 De `s.transactionID` variabele is een tekenreeks die een unieke id voor een transactie bevat. Geldige waarden zijn alfanumerieke tekens met een lengte van maximaal 100 bytes. De standaardwaarde is een lege tekenreeks.
 

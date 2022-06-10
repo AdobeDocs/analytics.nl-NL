@@ -3,9 +3,9 @@ title: doPlugins
 description: Vorm logica vlak voordat een slag wordt gecompileerd en verzonden naar Adobe.
 feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,32 @@ De `doPlugins` De variabele fungeert als een &#39;laatste aanroep&#39; om waarde
 
 Gebruik de `doPlugins` variabele om insteekcode aan te roepen en definitieve veranderlijke waarden in te stellen vlak alvorens een beeldverzoek wordt gecompileerd en verzonden naar Adobe.
 
-## Plug-ins die tags gebruiken in Adobe Experience Platform
+## Gebruik voor Gebeurtenis verzendt callback code gebruikend de uitbreiding van SDK van het Web
 
-Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+In plaats van `doPlugins`, gebruikt de Web SDK `onBeforeEventSend` met vergelijkbare functionaliteit.
+
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** knop onder [!UICONTROL Adobe Experience Platform Web SDK].
+1. Onder [!UICONTROL Data Collection]klikt u op de knop **[!UICONTROL Edit on before event send callback code]** knop.
+1. Plaats de gewenste code in de editor.
+
+## Gebruiken `onBeforeEventSend` manueel het uitvoeren van SDK van het Web
+
+In plaats van `doPlugins`, gebruikt de Web SDK `onBeforeEventSend` met vergelijkbare functionaliteit. Zie [Gebeurtenissen globaal wijzigen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
+
+```js
+// Set the trackingCode XDM field to "New value"
+alloy("configure", {
+  "onBeforeEventSend": function(content) {
+    content.xdm.marketing.trackingCode = "New value";
+  }
+})
+```
+
+## Plug-ins die de Adobe Analytics-extensie gebruiken
+
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
 ## s.doPlugins in AppMeasurement en aangepaste code
 
@@ -31,7 +54,7 @@ Stel de `s.doPlugins` aan een functie die gewenste code bevat. De functie wordt 
 s.doPlugins = function() {/* Desired code */};
 ```
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Een functie instellen op de `doPlugins` variabele slechts eenmaal in uw implementatie. Als u de `doPlugins` meerdere keren variabele, alleen de meest recente code wordt gebruikt.
 

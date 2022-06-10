@@ -3,9 +3,9 @@ title: contextData
 description: Met contextgegevensvariabelen kunt u aangepaste variabelen definiëren op elke pagina die door verwerkingsregels kan worden gelezen.
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,17 @@ Met contextgegevensvariabelen kunt u aangepaste variabelen definiëren op elke p
 
 Contextgegevensvariabelen zijn handig voor ontwikkelingsteams om gegevens te verzamelen in benoemde elementen in plaats van genummerde variabelen. In plaats van ontwikkelingsteams bijvoorbeeld te vragen, wijst u de auteur van de pagina toe aan `eVar10`, kunt u vragen dat ze deze toewijzen aan `s.contextData["author"]` in plaats daarvan. Een beheerder van Analytics in uw organisatie kan dan verwerkingsregels tot stand brengen om de variabelen van de contextgegevens in analytische variabelen voor het melden in kaart te brengen. Ontwikkelingsteams zouden zich uiteindelijk alleen zorgen maken over de variabelen van de contextgegevens in plaats van over de vele paginabereiken die Adobe aanbiedt.
 
-## Contextgegevensvariabelen die tags gebruiken in Adobe Experience Platform
+## Contextgegevensvariabelen die de SDK van het Web gebruiken
 
-De UI van de Inzameling van Gegevens heeft geen specifieke plaats om de variabelen van contextgegevens te plaatsen. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Als een XDM-veld niet [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html), wordt het automatisch opgenomen als variabele van contextgegevens. U kunt vervolgens [Verwerkingsregels](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) om de variabele van contextgegevens aan de gewenste variabele Analytics toe te wijzen.
 
-## s.contextData in AppMeasurement en aangepaste code-editor
+Terwijl het beste praktijken is om gegevens aan de correcte gebieden XDM in de Datstream in kaart te brengen, bereikt deze methode gelijkaardige resultaten.
+
+## Contextgegevensvariabelen die de extensie Adobe Analytics gebruiken
+
+Adobe Experience Platform-gegevensverzameling heeft geen specifieke locatie voor het instellen van contextgegevensvariabelen. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+
+## s.contextData in AppMeturement en de de coderedacteur van de de uitbreidingsuitbreiding van de Analyse
 
 De `s.contextData` De variabele neemt niet direct een waarde. Stel in plaats daarvan de eigenschappen van deze variabele in op een tekenreeks.
 

@@ -3,9 +3,9 @@ title: tl
 description: Verzend een verbinding het volgen vraag aan Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -16,20 +16,38 @@ De `tl()` Deze methode is een belangrijk kernonderdeel van Adobe Analytics. Het 
 
 Indien [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) of [`trackExternalLinks`](../config-vars/trackexternallinks.md) worden ingeschakeld, roept AppMeturement automatisch de `tl()` methode voor het verzenden van de downloadkoppeling en het afsluiten van koppelingsvolggegevens. Als uw organisatie liever meer controle heeft over de koppelingen en het gedrag ervan, kunt u de `tl()` handmatig. Aangepaste koppelingen kunnen alleen handmatig worden bijgehouden.
 
-## Aanroep voor bijhouden van koppelingen met tags in Adobe Experience Platform
+## Koppelingen bijhouden met de SDK van het web
 
-De UI van de Inzameling van Gegevens heeft een specifieke plaats reeks een verbinding het volgen vraag.
+SDK van het Web maakt geen onderscheid tussen vraag van de paginamening en verbinding het volgen vraag; beide gebruiken `sendEvent` gebruiken. Als u wilt dat Adobe Analytics een bepaalde gebeurtenis tellen als een koppelingenvolgvraag, zorg ervoor dat uw XDM gegevens omvat `web.webInteraction.name`, `web.webInteraction.URL`, en `web.webInteraction.type`.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klik op de gewenste eigenschap.
+```js
+alloy("sendEvent", {
+  "xdm": {
+    "web": {
+      "webInteraction": {
+        "name": "My Custom Link",
+        "URL": "https://example.com",
+        "type": "other"
+      }
+    }
+  }
+});
+```
+
+## Koppelingen bijhouden met de Adobe Analytics-extensie
+
+De extensie Adobe Analytics heeft een specifieke locatie om een aanroep voor het bijhouden van koppelingen in te stellen.
+
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
-1. Onder [!UICONTROL Actions], klikt u op het pictogram &#39;+&#39;
-1. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] om baken te verzenden.
+1. Onder [!UICONTROL Actions], klikt u op de gewenste handeling of klikt u op de knop **&#39;+&#39;** pictogram om een handeling toe te voegen.
+1. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar **[!UICONTROL Adobe Analytics]** en de [!UICONTROL Action Type] tot **[!UICONTROL Send Beacon]**.
 1. Klik op de knop `s.tl()` keuzerondje.
 
-U kunt geen optionele argumenten instellen in de gebruikersinterface voor gegevensverzameling.
+U kunt geen optionele argumenten instellen in de extensie Analytics.
 
-## s.tl()-methode in AppMeturement en aangepaste code-editor
+## s.tl()-methode in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 
 Roep de `s.tl()` methode wanneer u een volgende vraag naar Adobe wilt verzenden.
 

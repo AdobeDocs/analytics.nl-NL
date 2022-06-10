@@ -3,12 +3,13 @@ title: cookieDomainPeriods
 description: Help AppMeasurement weet welk domein cookies moeten worden opgeslagen als het achtervoegsel van uw domein een punt bevat.
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
+
 
 # cookieDomainPeriods
 
@@ -23,18 +24,22 @@ De `cookieDomainPeriods` Met de variabele kan AppMeasurement bepalen waar Analyt
 >
 >Houd geen rekening met subdomeinen voor deze variabele. Niet instellen `cookieDomainPeriods` in de voorbeeld-URL `store.toys.example.com`. AppMeasurement herkent standaard dat cookies moeten worden opgeslagen op `example.com`, zelfs op URL&#39;s met veel subdomeinen.
 
-## Domeinperioden met tags in Adobe Experience Platform
+## Domeinperiodes met de SDK van het Web
+
+De SDK van het Web kan het correcte domein van de koekjesopslag zonder deze variabele bepalen.
+
+## Domeinperioden die de Adobe Analytics-extensie gebruiken
 
 Domeinperioden is een veld onder de [!UICONTROL Cookies] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder Adobe Analytics.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 1. Breid uit [!UICONTROL Cookies] accordion, die de [!UICONTROL Domain Periods] veld.
 
 Stel dit veld in op `3` alleen in domeinen die een punt in zijn achtervoegsel bevatten. Anders kan dit veld leeg blijven.
 
-## s.cookieDomainPeriods in AppMeasurement en de aangepaste code-editor
+## s.cookieDomainPeriods in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 
 De `cookieDomainPeriods` variabele is een tekenreeks die doorgaans wordt ingesteld op `"3"`, alleen op domeinen die een punt in het achtervoegsel bevatten. De standaardwaarde is `"2"`, waarin de meeste domeinen passen.
 

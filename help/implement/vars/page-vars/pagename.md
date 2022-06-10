@@ -3,9 +3,9 @@ title: pageName
 description: De naam van de pagina op uw site.
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,16 @@ Als deze variabele niet op een bepaalde pagina volgende vraag wordt bepaald, [`p
 >
 >De servers van de Adobe gegevensinzameling verwijderen deze afmeting van allen [koppeling bijhouden](/help/implement/vars/functions/tl-method.md) verzoeken om afbeeldingen. Als u deze dimensie wilt weergeven in het bijhouden van koppelingen, kunt u deze dimensie kopiëren naar een [eVar](evar.md).
 
-## Paginanaam met tags in Adobe Experience Platform
+## Paginanaam met de Web SDK
+
+Pagina is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `web.webPageDetails.name`.
+
+## Paginanaam met de Adobe Analytics-extensie
 
 U kunt paginanaam instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 4. Onder [!UICONTROL Actions]klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
 5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
@@ -33,7 +37,7 @@ U kunt paginanaam instellen tijdens het configureren van de extensie Analytics (
 
 U kunt de paginanaam instellen op elke tekenreekswaarde, inclusief gegevenselementen.
 
-## s.pageName in AppMeasurement en aangepaste code-editor
+## s.pageName in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
 De `s.pageName` variabele is een tekenreeks die doorgaans de naam van de pagina bevat. Het heeft een maximumwaarde van 100 bytes; langere waarden worden afgekapt. Deze afkapping omvat ook gevallen waarin de waarde terugvalt `pageURL` als deze variabele leeg is.
 

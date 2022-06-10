@@ -3,9 +3,9 @@ title: zip
 description: Vul handmatig de dimensie 'Postcode' in als de instellingen van de rapportsuite dit toestaan.
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,12 @@ De `zip` met variabele kunt u de dimensie &#39;Postcode&#39; handmatig vullen al
 >
 >Zorg ervoor dat de [!UICONTROL Zip Option] in rapportsuite worden de instellingen ingesteld op de gewenste waarde. U kunt deze variabele niet gebruiken als [!UICONTROL geo zip] wordt altijd gebruikt. Zie [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md) in de gebruikershandleiding voor Admin voor meer informatie.
 
-## Postcode met tags in Adobe Experience Platform
+## Postcode met Adobe Analytics-extensie
 
 U kunt Postcode instellen tijdens het configureren van de extensie Analytics (globale variabelen) of onder regels.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 4. Onder [!UICONTROL Actions]klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
 5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
@@ -31,7 +31,7 @@ U kunt Postcode instellen tijdens het configureren van de extensie Analytics (gl
 
 U kunt postcode instellen op elke tekenreekswaarde, inclusief gegevenselementen.
 
-## s.zip in AppMeasurement en aangepaste code-editor
+## s.zip in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
 De `s.zip` variabele is een tekenreeks die doorgaans een ZIP-code bevat, maar die een willekeurige gewenste waarde van maximaal 50 bytes kan bevatten.
 

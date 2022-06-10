@@ -3,9 +3,9 @@ title: trackOffline
 description: Schakel offline bijhouden in of uit. Hiermee wordt gewijzigd hoe AppMeturement gegevens verzamelt.
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,15 @@ Indien deze optie is ingeschakeld, gebruikt AppMeasurement het volgende proces o
    * Als het geen servers van de Adobe- gegevensinzameling kan bereiken, wordt de klap toegevoegd aan de rij op het apparaat.
    * Als het de servers van de gegevensinzameling van de Adobe kan bereiken, worden de slag en de rij van klappen terwijl het apparaat off-line was verzonden.
 
-## Offline volgen met tags in Adobe Experience Platform
+## Offline bijhouden met de Web SDK
 
-Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+De SDK van het Web ondersteunt offline bijhouden niet.
 
-## s.trackOffline in AppMeasurement en aangepaste code-editor
+## Offline bijhouden met de Adobe Analytics-extensie
+
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+
+## s.trackOffline in AppMeturement en de de coderedacteur van de de uitbreidingsuitbreiding van de Analyse
 
 De `s.trackOffline` variabele is een Booleaanse waarde die offline bijhouden in- of uitschakelt. De standaardwaarde is `false`. Deze waarde instellen op `true` als u offline bijhouden wilt inschakelen.
 

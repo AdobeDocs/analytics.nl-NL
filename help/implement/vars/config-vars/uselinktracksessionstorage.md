@@ -3,9 +3,9 @@ title: useLinkTrackSessionStorage
 description: Gegevens voor het bijhouden van koppelingen opslaan in sessieopslag in plaats van een cookie.
 feature: Variables
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,15 @@ Het gebruiken van browser zittingsopslag voor verbinding het volgen komt met ver
 
 AppMeturement verwijdert de gegevens van de verbinding van de zittingsopslag na het verzenden van een klap naar Adobe. Deze verloopt ook automatisch wanneer het browsertabblad wordt gesloten.
 
-## Opslag van koppelingsspoorsessies gebruiken met tags in Adobe Experience Platform
+## De opslag van de de zittingszitting van het verbindingsspoor gebruiken gebruikend Web SDK
 
-Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+De SDK van het Web ondersteunt deze functionaliteit niet.
 
-## s.useLinkTrackSessionStorage in AppMeasurement en aangepaste code-editor
+## De opslag van de verbindingsspoorzitting gebruiken gebruikend de uitbreiding van Adobe Analytics
+
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+
+## s.useLinkTrackSessionStorage in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 
 De `s.useLinkTrackSessionStorage` De variabele is een Booleaanse waarde die bepaalt of AppMeetings sessieopslag gebruikt voor gegevens voor het bijhouden van koppelingen in plaats van de `s_sq` cookie. De standaardwaarde is `false`. Deze variabele instellen op `true` als u wilt dat AppMeasurement sessieopslag gebruikt in plaats van de `s_sq` cookie voor het bijhouden van koppelingen en Activity Map.
 

@@ -3,9 +3,9 @@ title: Overzicht van plug-ins
 description: Plak code op uw site om nieuwe functionaliteit te introduceren.
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Plug-ins zijn codefragmenten die verschillende geavanceerde functies uitvoeren o
 
 Adobe biedt verschillende manieren om een bepaalde plug-in te installeren:
 
-1. De extensie &#39;Common Analytics Plugins&#39; gebruiken met tags in Adobe Experience Platform
+1. De extensie &#39;Common Analytics Plugins&#39; gebruiken met de Web SDK of de Adobe Analytics-extensie
 2. Plug-incode plakken met de aangepaste code-editor
 3. Plak de insteekcode in uw `AppMeasurement.js` file
 

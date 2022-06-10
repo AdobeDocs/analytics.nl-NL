@@ -3,9 +3,9 @@ title: Adobe Analytics implementeren in een ontwikkelomgeving
 description: Leer hoe u tags kunt gebruiken om Adobe Analytics in uw ontwikkelomgeving te implementeren.
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Nadat u een eigenschap tag hebt gemaakt en geconfigureerd, kunnen de bibliotheke
 
 De markeringen passen vele organisatorische werkschema&#39;s in het opstellen van code aan. Ga als volgt te werk om de minimaal vereiste componenten voor een analytische implementatie te maken. Als tagbeheerder kunt u binnen uw organisatie de juiste workflow voor het implementeren van Adobe-oplossingen instellen.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de eigenschap tag die u op uw site wilt implementeren.
 3. Klikken **[!UICONTROL Hosts]** en klik vervolgens op **[!UICONTROL Add Host]**.
 4. Naam geven `"Adobe managed"`en selecteert u **[!UICONTROL Managed by Adobe]** in het vervolgkeuzemenu type. Klik op Opslaan.
@@ -36,7 +36,7 @@ De markeringen passen vele organisatorische werkschema&#39;s in het opstellen va
 
 Ondanks alle tot dusver aangebrachte wijzigingen en configuraties is er geen code gepubliceerd. Als u een bibliotheek maakt die ruwweg is vertaald als een verzameling wijzigingen, kunt u code publiceren die op uw site wordt gebruikt.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de eigenschap tag die u op uw site wilt implementeren.
 3. Klik op de knop **[!UICONTROL Publishing Flow]** tab, en klik vervolgens op **[!UICONTROL Add Library]**. Zie [Overzicht van publicatie](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) in de documentatie van Markeringen voor meer informatie rond deze pagina.
 4. De bibliotheek een naam geven `'Initial changes'`en selecteert u de ontwikkelomgeving.

@@ -3,9 +3,9 @@ title: s_objectID
 description: De Activity Map van de hulp identificeert unieke verbindingen op uw plaats.
 feature: Variables
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ De `s_objectID` De variabele verstrekt een uniek herkenningsteken voor een verbi
 
 Als de nauwkeurigheid van de Activity Map van cruciaal belang is voor uw organisatie, raadt Adobe aan de `s_objectID` in de `onClick` gebeurtenis van koppelingen op uw site. Zie [Gebruiksgevallen voor het bijhouden van koppelingen Activity Mappen](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md) in de gebruikershandleiding Analyseren voor meer informatie.
 
-## Object-id met tags in Adobe Experience Platform
+## Object-id met Adobe Analytics-extensie
 
-Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
-## s_objectID in AppMeasurement en aangepaste code-editor
+## s_objectID in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
 De `s_objectID` variable is a global variable (variabele die onafhankelijk van het object Analytics tracking werkt) (`s` standaard). Geldige waarden voor deze variabele kunnen elke willekeurige tekenreeks met een lengte tot 100 bytes zijn. Als deze variabele niet is gedefinieerd, gebruikt de Activity Map de koppelings-URL als de id voor de koppeling.
 

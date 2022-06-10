@@ -4,9 +4,9 @@ title: Veelgestelde vragen en werkruimte voor probleemoplossing
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '543'
 ht-degree: 35%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 35%
 
 | Vraag | Antwoord |
 |--- |--- |
-| Wat zijn de eerste vereisten voor het gebruik van Analysis Workspace? | [Gegevens naar Adobe Analytics verzenden met tags in Adobe Experience Platform](/help/implement/launch/validate-publish-prod.md): Voor het gebruik van Analysis Workspace is een werkende implementatie vereist. Zorg dat uw organisatie data naar Adobe verzendt voordat u de tool gebruikt. Andere implementaties, zoals oudere handmatige implementaties, kunnen ook werken. |
+| Wat zijn de eerste vereisten voor het gebruik van Analysis Workspace? | [Gegevens naar Adobe Analytics verzenden met de Adobe Analytics-extensie](/help/implement/launch/validate-publish-prod.md): Voor het gebruik van Analysis Workspace is een werkende implementatie vereist. Zorg dat uw organisatie data naar Adobe verzendt voordat u de tool gebruikt. Andere implementaties, zoals oudere handmatige implementaties, kunnen ook werken. |
 | Wat zijn de vereisten inzake beheer en toegang voor Analysis Workspace? | Zie [Beheervereisten](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
 | Heeft het gebruik van Analysis Workspace invloed op gegevensverzameling? | Aangezien Analysis Workspace een rapportagetool is, heeft de tool geen invloed op de dataverzameling. U kunt componenten lukraak naar een project slepen om te zien wat er gebeurt, zonder negatieve gevolgen. Sleep verschillende combinaties van dimensies en metrics naar uw Workspace-project om te zien wat er beschikbaar is. Als u per ongeluk een ongeldige component naar uw Workspace-project sleept of een stap terug wilt gaan, drukt u op Ctrl + Z (Windows) of Cmd + Z (Mac) om de laatste uitgevoerde actie ongedaan te maken. U kunt ook met een schone lei beginnen door in het menu linksboven te klikken op *[!UICONTROL Project] > [!UICONTROL New]*. |
 | Hoeveel rapportsuites kunnen in een project van Analysis Workspace worden getoond? | U kunt nu projecten in Analysis Workspace maken met gegevens van meer [meerdere rapportsuites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html). |

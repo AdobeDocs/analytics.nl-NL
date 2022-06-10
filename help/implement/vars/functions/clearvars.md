@@ -3,9 +3,9 @@ title: clearVars
 description: Wist de volgende waarden van het instantieobject. Deze functie verwijdert de elementen (plaatst hen als "undefined.")
 feature: Variables
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -29,17 +29,21 @@ Deze methode heeft geen argumenten en retourneert geen waarde. Het enige doel hi
 * `zip`
 * `campaign`
 
-## Variabelen wissen met tags in Adobe Experience Platform
+## Variabelen wissen met de SDK van het web
+
+Wanneer u gegevens naar Adobe verzendt gebruikend het Web SDK, worden alle gegevens XDM automatisch ontruimd.
+
+## Variabelen wissen met de Adobe Analytics-extensie
 
 Plaats de Duidelijke actie van Variabelen wanneer het vormen van een regel.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 4. Onder [!UICONTROL Actions], klikt u op het pictogram &#39;+&#39;
 5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] tot [!UICONTROL Clear Variables].
 
-## s.clearVars() in AppMeasurement en aangepaste code-editor
+## s.clearVars() in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 
 U kunt de `s.clearVars()` methode op een willekeurige locatie in de implementatie nadat u de instantie van het object Analytics hebt geïnstantieerd.
 

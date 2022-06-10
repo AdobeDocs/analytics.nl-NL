@@ -4,9 +4,9 @@ description: Leer welke variabelen u in de gegevens kunt omvatten u naar Adobe v
 keywords: toepassingsmeting,variabelen,vars,configuratie,pagina,implementatie
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Analytics biedt een aantal variabelen voor het verzamelen van analysegegevens. V
 
 ## Variabelen en uitvoeringsmethoden
 
-Adobe biedt meerdere manieren om Adobe Analytics te implementeren. Elke pagina bevat een sectie over het implementeren van de variabele met behulp van tags in Adobe Experience Platform en AppMeasurement voor JavaScript.
+Adobe biedt meerdere manieren om Adobe Analytics te implementeren. Elke pagina biedt een sectie over hoe te om de variabele uit te voeren gebruikend het Web SDK, gebruikend de uitbreiding van Adobe Analytics, en gebruikend AppMeasurement voor JavaScript.
 
 Hier volgt een video over het configureren van variabelen in Adobe Analytics:
 

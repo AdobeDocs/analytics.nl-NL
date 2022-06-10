@@ -3,9 +3,9 @@ title: Aankoopgebeurtenis
 description: Gebruik de aankoopgebeurtenis om gegevens te verzamelen voor de metriek 'Bestellingen', 'Eenheden' en 'Opbrengst'.
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -22,20 +22,28 @@ Wanneer u een aankoopgebeurtenis instelt, heeft dit invloed op de volgende metri
 
 >[!NOTE]
 >
->Ontvangsten worden niet vermenigvuldigd met het veld Hoeveelheid. Bijvoorbeeld: `s.products="Womens;Socks;5;4.50"` niet $ 22,50 aan inkomsten besteedt; het geeft $4,50. Zorg ervoor dat uw implementatie de totale opbrengsten voor het vermelde aantal doorgeeft. Bijvoorbeeld,`s.products="Womens;Socks;5;22.50"`.
+>Ontvangsten worden niet vermenigvuldigd met het veld Hoeveelheid. Bijvoorbeeld: `s.products="Womens;Socks;5;4.50"` niet $ 22,50 aan inkomsten besteedt; het geeft $4,50. Zorg ervoor dat uw implementatie de totale opbrengsten voor het vermelde aantal doorgeeft. Bijvoorbeeld, `s.products="Womens;Socks;5;22.50"`.
 
-## Aankoopgebeurtenis instellen met labels in Adobe Experience Platform
+## De aankoopgebeurtenis instellen met de Web SDK
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
+De aankoopgebeurtenis is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder verschillende XDM-velden:
+
+* Bestellingen worden toegewezen aan `commerce.purchases.value`.
+* Eenheden worden toegewezen aan de som van alle eenheden `productListItems[].quantity` velden.
+* Opbrengsten worden toegewezen aan de som van alle `productListItems[].priceTotal` velden.
+
+## De aankoopgebeurtenis instellen met de extensie Adobe Analytics
+
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 4. Onder [!UICONTROL Actions]klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
 5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL Events] en stelt u de vervolgkeuzelijst voor gebeurtenissen in op [!UICONTROL purchase].
 
-Andere afhankelijke variabelen zoals `products` en `purchaseID` heeft geen specifieke velden in de gebruikersinterface voor gegevensverzameling. Gebruik de aangepaste code-editor die volgt op de syntaxis AppMeasurement voor deze variabelen.
+Andere afhankelijke variabelen zoals `products` en `purchaseID` hebben geen specifieke velden in de extensie Analytics in Adobe Experience Platform Data Collection. Gebruik de aangepaste code-editor die volgt op de syntaxis AppMeasurement voor deze variabelen.
 
-## Stel de aankoopgebeurtenis in in AppMeasurement en de aangepaste code-editor
+## Stel de aanschafgebeurtenis in AppMeasurement en de aangepaste code-editor voor de extensie Analytics in
 
 De aankoopgebeurtenis is een tekenreeks die is ingesteld als onderdeel van de gebeurtenisvariabele.
 

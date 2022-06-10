@@ -3,9 +3,9 @@ title: Een datalaag maken
 description: Leer wat een gegevenslaag in uw implementatie Analytics is, en hoe het kan worden gebruikt om variabelen in Adobe Analytics in kaart te brengen.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '489'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ Bij het implementeren van Adobe Analytics met een gegevenslaag worden doorgaans 
    >
    >De volgende Adobe aanbevolen gegevenslaagspecificaties is optioneel. Als u reeds een gegevenslaag hebt, of anders verkiest om Adobe geen specificaties te volgen, zorg ervoor dat uw organisatie zich op welke specificatie richt te volgen.
 1. **Valideer uw gegevenslaag met een browserconsole**: Zodra een gegevenslaag wordt gecreeerd, kunt u bevestigen dat het gebruikend om het even welke browser ontwikkelaarsconsole werkt. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend `F12` toets. Een waarde van een voorbeeldvariabele zou `digitalData.page.pageInfo.pageID`.
-1. **Adobe Experience Platform-tags gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Maak gegevenselementen in de gebruikersinterface voor gegevensverzameling in Adobe Experience Platform en wijs deze toe aan de JavaScript-kenmerken die in de gegevenslaag worden beschreven.
+1. **Adobe Experience Platform-gegevensverzameling gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Maak gegevenselementen in de gegevensverzameling van Adobe Experience Platform en wijs deze toe aan de JavaScript-kenmerken die in de gegevenslaag worden beschreven.
 1. **De Adobe Analytics-tagextensie gebruiken om gegevenselementen toe te wijzen aan analytische variabelen**: Na uw document van het oplossingsontwerp, wijs elk gegevenselement aan de aangewezen variabele Analytics toe.
 
 ## Specificaties

@@ -3,9 +3,9 @@ title: Een ontwikkelimplementatie valideren en publiceren naar productie
 description: Leer hoe u Adobe Experience Platform-tags kunt gebruiken om Adobe Analytics in uw productieomgeving te implementeren.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Foutopsporing Experience Cloud is een extensie die alle Experience Cloud-tags op
 
 Nadat u hebt bevestigd dat u gegevens ziet, kunt u uw implementatie naar de live versie van uw site duwen.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de eigenschap tag die u op uw site wilt implementeren.
 1. Klik op de knop **[!UICONTROL Publishing]** en zoek de bibliotheek in de ontwikkelingskolom.
 1. Klik op het vervolgkeuzemenu in de bibliotheek en selecteer vervolgens **[!UICONTROL Submit for Approval]**. Klikken **[!UICONTROL Submit]** in het modale venster.

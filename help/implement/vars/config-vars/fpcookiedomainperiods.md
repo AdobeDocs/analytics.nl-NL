@@ -3,9 +3,9 @@ title: fpcookieDomainPeriods
 description: Help AppMeasurement weet welk domein cookies moeten worden opgeslagen als het achtervoegsel van uw domein een punt bevat.
 feature: Variables
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,22 @@ De `fpCookieDomainPeriods` Met de variabele kan AppMeasurement bepalen waar Anal
 >
 >Houd geen rekening met subdomeinen voor deze variabele. Niet instellen `fpCookieDomainPeriods` in de voorbeeld-URL `store.toys.example.com`. AppMeasurement herkent standaard dat cookies moeten worden opgeslagen op `example.com`, zelfs op URL&#39;s met veel subdomeinen.
 
-## Domeinperioden van de eerste partij met tags in Adobe Experience Platform
+## De periodes van het eerste partijdomein die SDK van het Web gebruiken
+
+De SDK van het Web kan het correcte domein van de koekjesopslag zonder deze variabele bepalen.
+
+## Domeintermijnen van de eerste partij die de uitbreiding van Adobe Analytics gebruiken
 
 Domeintermijnen van de eerste partij is een gebied onder [!UICONTROL Cookies] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
-3. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder Adobe Analytics.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
+3. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 4. Breid uit [!UICONTROL Cookies] accordion, die de [!UICONTROL First-party Domain Periods] veld.
 
 Stel dit veld in op `3` alleen in domeinen die een punt in zijn achtervoegsel bevatten. Anders kan dit veld leeg blijven.
 
-## s.fpCookieDomainPeriods in AppMeasurement en de douane-code-editor
+## s.fpCookieDomainPeriods in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
 
 De `fpCookieDomainPeriods` variabele is een tekenreeks die doorgaans wordt ingesteld op `"3"`, alleen op domeinen die een punt in het achtervoegsel bevatten. De standaardwaarde is `"2"`, waarin de meeste domeinen passen.
 

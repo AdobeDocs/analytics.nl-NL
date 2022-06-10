@@ -3,10 +3,10 @@ title: trackingServerSecure
 description: Bepaal de locatie waar afbeeldingsaanvragen worden verzonden op HTTPS-pagina's.
 feature: Variables
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 1%
+source-wordcount: '430'
+ht-degree: 0%
 
 ---
 
@@ -18,18 +18,43 @@ Adobe verzamelt gegevens op uw site door een afbeeldingsaanvraag te ontvangen di
 >
 >Als u deze waarde wijzigt, zoekt AppMeasurement naar cookies op een andere locatie. Het unieke aantal bezoekers kan tijdelijk in de rapportage springen, omdat bezoekerscookies op de nieuwe locatie worden ingesteld.
 
-## SSL-traceringsserver gebruikt tags in Adobe Experience Platform
+## Het domein van de rand die de uitbreiding van SDK van het Web gebruikt
+
+Het gebruik van Web SDK [!UICONTROL Edge domain] om zowel Tracking Server als Secure Tracking Server te verwerken. U kunt het gewenste [!UICONTROL Edge domain] waarde wanneer het vormen van de uitbreiding van SDK van het Web.
+
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** knop onder [!UICONTROL Adobe Experience Platform Web SDK].
+1. Stel het gewenste **[!UICONTROL Edge domain]** tekstveld.
+
+Zie [De extensie Adobe Experience Platform Web SDK configureren](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) in de documentatie van SDK van het Web voor meer informatie.
+
+>[!TIP]
+>
+>Als uw organisatie zich van een AppMeasurement of de uitbreiding van Analytics aan SDK van het Web beweegt, kan dit gebied de zelfde waarde gebruiken bevat `trackingServerSecure` (of `trackingServer`).
+
+## Het domein van de rand voert manueel het Web SDK uit
+
+De SDK configureren met [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html). Het veld is een tekenreeks die het domein bepaalt waarnaar gegevens moeten worden verzonden.
+
+```json
+alloy("configure", {
+  "edgeDomain": "data.example.com"
+});
+```
+
+## SSL-traceringsserver met de Adobe Analytics-extensie
 
 [!UICONTROL SSL Tracking Server] is een veld onder de [!UICONTROL General] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
-3. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder Adobe Analytics.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
+3. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 4. Breid uit [!UICONTROL General] accordion, die de [!UICONTROL SSL Tracking Server] veld.
 
 Als dit veld niet wordt ingevuld, wordt standaard de waarde in het dialoogvenster [`trackingServer`](trackingserver.md) variabele.
 
-## s.trackingServerSecure in AppMeasurement en aangepaste code-editor
+## s.trackingServerSecure in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
 De `s.trackingServerSecure` variabele is een tekenreeks die de locatie bevat waar verzoeken om afbeeldingen moeten worden verzonden. Het is bijna altijd een subdomein van uw site. De moderne privacy praktijken in browsers maken over het algemeen derde koekjes onbetrouwbaar. Als deze variabele leeg is, wordt de waarde in het dialoogvenster `s.trackingServer` variabele.
 

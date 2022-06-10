@@ -3,9 +3,9 @@ title: Util.getQueryParam
 description: Retourneert de waarde van een querytekenreeksparameter.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 Parameters van queryreeksen in een browser-URL bevatten vaak belangrijke gegevens voor Analytics. Gebruik de `Util.getQueryParam()` methode om gegevens van het vraagkoord terug te winnen.
 
-## Parametergegevens voor queryreeksen ophalen met tags in Adobe Experience Platform
+## Krijg de parametergegevens van het vraagkoord gebruikend de uitbreiding van Adobe Analytics en de uitbreiding van SDK van het Web
 
 U kunt de parametergegevens van het vraagkoord krijgen door waarden in gegevenselementen te plaatsen.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Data Elements] klikt u op het gewenste gegevenselement (of maakt u een gegevenselement).
-4. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar [!UICONTROL Core]en de [!UICONTROL Data Element Type] tot [!UICONTROL Query String Parameter].
+4. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar **[!UICONTROL Core]** en de [!UICONTROL Data Element Type] tot **[!UICONTROL Query String Parameter]**.
 5. Voer de parameter voor de querytekenreeks in het tekstveld in.
 
-De parameterwaarde van het vraagkoord wordt opgeslagen in het gegevenselement. U kunt dan naar het gegevenselement in regels verwijzen om de variabelen van de Analyse toe te wijzen.
+De parameterwaarde van het vraagkoord wordt opgeslagen in het gegevenselement. U kunt dan naar het gegevenselement in regels verwijzen om de gewenste variabelen toe te wijzen.
 
-## s.Util.getQueryParam() in AppMeasurement en aangepaste code-editor
+## s.Util.getQueryParam() in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 
 Roep de `s.Util.getQueryParam()` methode om een waarde van het vraagkoord van browser URL terug te winnen. Het tekenreeksargument met een querytekenreeksparameter is vereist. Deze methode retourneert een tekenreeks die u kunt toewijzen aan variabelen van Analytics:
 

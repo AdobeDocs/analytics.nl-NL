@@ -3,9 +3,9 @@ title: Taggegevenselementen toewijzen aan analytische variabelen
 description: Wijs gegevenselementen toe aan variabelen van de Analyse zodat u hen als afmetingen in Analysis Workspace kunt gebruiken.
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Als u een tagbibliotheek publiceert nadat u deze stappen hebt uitgevoerd, kunt u
 
 Algemene variabelen zijn ideaal als u variabelewaarden wilt instellen op alle pagina&#39;s waar het gegevenselement aanwezig is.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Klik op de knop [!UICONTROL Extensions tab]en klik vervolgens op [!UICONTROL Configure] onder de extensie Adobe Analytics.
 1. Klik op de knop [!UICONTROL Global variables] accordion, die de interface onthult om globale variabelen toe te wijzen.
@@ -38,7 +38,7 @@ Algemene variabelen zijn ideaal als u variabelewaarden wilt instellen op alle pa
 
 Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op elke pagina wilt instellen. U definieert de criteria in de regel. Zie [Regels](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) in de Adobe Experience Platform-tagdocumentatie.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Klik op de knop [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 1. Klik op de knop [!UICONTROL Add] knop onder [!UICONTROL Actions].

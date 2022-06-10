@@ -3,9 +3,9 @@ title: linkLeaveQueryString
 description: Staat het behoud van vraagkoorden in verbinding het volgen dimensies toe.
 feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -24,18 +24,22 @@ Inschakelen `linkLeaveQueryString` is van toepassing op alle afmetingen voor het
 >
 >Deze variabele heeft geen invloed op afmetingen buiten het bijhouden van koppelingen. Het beïnvloedt slechts douaneverbindingen, uitgangsverbindingen, en downloadverbindingen.
 
-## URL-parameters behouden met tags in Adobe Experience Platform
+## De koorden van de verbindingsvraag van de handvatverbinding gebruikend Web SDK
+
+Tekenreeksen voor query&#39;s worden niet uit het XDM-veld verwijderd `web.webInteraction.URL`. Als u querytekenreeksen uit dit XDM-veld wilt verwijderen, kunt u deze bewerken met `onBeforeEventSend`.
+
+## URL-parameters behouden met de Adobe Analytics-extensie
 
 [!UICONTROL Keep URL Parameters] is een selectievakje onder [!UICONTROL Link Tracking] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
-3. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder Adobe Analytics.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
+3. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 4. Breid uit [!UICONTROL Link Tracking] accordion, die de [!UICONTROL Keep URL Parameters] selectievakje.
 
 Schakel dit vakje in als u querytekenreeksen wilt opnemen in de afmetingen voor het bijhouden van koppelingen.
 
-## s.linkLeaveQueryString in AppMeasurement en aangepaste code-editor
+## s.linkLeaveQueryString in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 
 De `s.linkLeaveQueryString` variable is a boolean. De standaardwaarde is `false`.
 

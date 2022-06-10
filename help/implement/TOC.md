@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: 'Pas aan welke gegevens worden verzameld om meer uit Adobe Analytics te halen. '
-source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '401'
 ht-degree: 69%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 69%
       + [Overzicht van Mobile SDK](aep-edge/mobile-sdk/overview.md)
    + Edge-API {#edge-api}
       + [Overzicht van Edge API](aep-edge/edge-api/overview.md)
-+ Analyses implementeren met tags in Adobe Experience Platform {#launch}
++ Analyses implementeren met de extensie Adobe Analytics {#launch}
    + [Overzicht van codes](launch/overview.md)
    + [Een Adobe Analytics-tageigenschap maken](launch/create-analytics-property.md)
    + [Distribueren naar een ontwikkelomgeving](launch/deploy-dev.md)

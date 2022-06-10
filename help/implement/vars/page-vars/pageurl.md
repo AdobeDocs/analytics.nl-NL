@@ -3,9 +3,9 @@ title: pageURL
 description: Hef de automatisch verzamelde pagina-URL op uw site op.
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,16 @@ AppMeasurement verzamelt automatisch de pagina-URL in elke hit. Als u de pagina-
 >
 >Deze variabele is geen beschikbare dimensie in Analysis Workspace. Deze optie is alleen beschikbaar in Data Warehouse- en gegevensfeeds. Bovendien verwijderen de servers van de gegevensinzameling van Adobe deze afmeting van allen [koppeling bijhouden](/help/implement/vars/functions/tl-method.md) verzoeken om afbeeldingen. Als u pagina-URL wilt gebruiken als een dimensie in Analysis Workspace of als u deze dimensie wilt gebruiken in het bijhouden van koppelingen, kunt u overwegen de URL door te geven `pageURL` variabele in een [eVar](evar.md) bij elke hit.
 
-## Pagina-URL met tags in Adobe Experience Platform
+## Pagina-URL met de Web SDK
 
-De UI van de Inzameling van Gegevens bevolkt automatisch pagina URL. U kunt echter de URL van de pagina overschrijven tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
+Pagina-URL is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `web.webPageDetails.URL`.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
+## Pagina-URL met de Adobe Analytics-extensie
+
+De extensie Analytics in Adobe Experience Platform Data Collection vult automatisch pagina-URL in. U kunt echter de URL van de pagina overschrijven tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
+
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
 3. Ga naar de **[!UICONTROL Rules]** klikt u op de gewenste regel (of maakt u een regel).
 4. Onder **[!UICONTROL Actions]** klikt u op een bestaande **[!UICONTROL Adobe Analytics - Set Variables]** of klik op het pictogram &#39;+&#39;.
 5. Stel de **[!UICONTROL Extension]** en de **[!UICONTROL Action Type]** tot **[!UICONTROL Set Variables]**.
@@ -31,7 +35,7 @@ De UI van de Inzameling van Gegevens bevolkt automatisch pagina URL. U kunt echt
 
 U kunt de pagina-URL instellen op elke gewenste tekenreekswaarde.
 
-## s.pageURL in AppMeasurement en aangepaste code-editor
+## s.pageURL in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
 De `s.pageURL` variabele is een tekenreeks die de URL van de pagina bevat. AppMeasurement verzamelt deze variabele automatisch, nochtans kunt u zijn waarde indien gewenst met voeten treden.
 

@@ -3,9 +3,9 @@ title: t
 description: Verzend een vraag van de paginamening het volgen aan Adobe.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -36,18 +36,40 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe ontvangt het beeldverzoek, dan ontleedt de verzoekkopbal, URL, en de parameters van het vraagkoord. Servers voor gegevensverzameling retourneren vervolgens een transparante afbeelding van 1 x 1 pixels, die onzichtbaar op uw site wordt weergegeven.
 
-## Aanroep voor bijhouden van paginaweergave met tags in Adobe Experience Platform
+## Gebeurtenis verzenden met de Web SDK-extensie
 
-De UI van de Inzameling van Gegevens heeft een specifieke plaats reeks een pagina mening volgende vraag.
+Gebruik een handeling om het verzenden van XDM-gebeurtenisgegevens naar Adobe te configureren. De DataStream ontvangt deze gegevens, past om het even welke gevormde afbeeldingen toe, en door:sturen die gegevens aan Adobe Analytics als het de toegevoegde dienst aan die DataStream is.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
-3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
-4. Onder [!UICONTROL Actions], klikt u op het pictogram &#39;+&#39;
-5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] om baken te verzenden.
-6. Klik op de knop `s.t()` keuzerondje.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
+1. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
+1. Onder [!UICONTROL Actions], klikt u op de gewenste handeling of klikt u op de knop **&#39;+&#39;** pictogram om een handeling toe te voegen.
+1. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar **[!UICONTROL Adobe Experience Platform Web SDK]** en de [!UICONTROL Action Type] tot **[!UICONTROL Send event]**.
 
-## s.t()-methode in AppMeasurement en aangepaste code-editor
+## Gebeurtenis handmatig verzenden met implementatie van de Web SDK
+
+Gebruik de `sendEvent` gebruiken om gegevens naar Adobe te verzenden. De DataStream ontvangt deze gegevens, past om het even welke gevormde afbeeldingen toe, en door:sturen die gegevens aan Adobe Analytics als het de toegevoegde dienst aan die DataStream is.
+
+```js
+alloy("sendEvent", {
+  "xdm": {}
+});
+```
+
+Zie [Gebeurtenissen bijhouden](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) in de documentatie van SDK van het Web voor meer informatie.
+
+## Aanroep voor bijhouden van paginaweergave met de Adobe Analytics-extensie
+
+De extensie Adobe Analytics in Adobe Experience Platform Data Collection heeft een specifieke locatie ingesteld die een aanroep voor het bijhouden van de paginaweergave bevat.
+
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
+1. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
+1. Onder [!UICONTROL Actions], klikt u op de gewenste handeling of klikt u op de knop **&#39;+&#39;** pictogram om een handeling toe te voegen.
+1. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar **[!UICONTROL Adobe Analytics]** en de [!UICONTROL Action Type] tot **[!UICONTROL Send Beacon]**.
+1. Klik op de knop `s.t()` keuzerondje.
+
+## s.t()-methode in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 
 Roep de `s.t()` methode wanneer u een volgende vraag naar Adobe wilt verzenden.
 

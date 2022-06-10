@@ -3,9 +3,9 @@ title: events
 description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw site beheert.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,29 @@ Dimension en metriek zijn essentiële onderdelen van rapporten. De `events` de v
 
 Alvorens gebeurtenissen uit te voeren, zorg ervoor dat u creeert en hen vormt onder [Gebeurtenissen met succes](/help/admin/admin/c-success-events/success-event.md) in de instellingen van de rapportsuite. Als u aangepaste gebeurtenissen wilt gebruiken bij het bijhouden van koppelingen, controleert u of [`linkTrackVars`](../../config-vars/linktrackvars.md) en [`linkTrackEvents`](../../config-vars/linktrackevents.md) correct zijn ingesteld.
 
-## Gebeurtenissen met tags in Adobe Experience Platform
+## Gebeurtenissen die de SDK van het Web gebruiken
+
+Aangepaste gebeurtenissen zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de volgende XDM-velden:
+
+* Aangepaste gebeurtenissen 1-100 worden toegewezen aan `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
+* Aangepaste gebeurtenissen 101-200 worden toegewezen aan `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
+* Dit patroon herhaalt elke 100 gebeurtenissen naar `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
+* Bestellingen worden toegewezen aan `commerce.purchases.value`.
+* Eenheden worden toegewezen aan de som van alle eenheden `productListItems[].quantity` velden.
+* Opbrengsten worden toegewezen aan de som van alle `productListItems[].priceTotal` velden.
+* Productweergaven worden toegewezen aan `commerce.productListViews.value`.
+* Karretjes worden toegewezen aan `commerce.productListOpens.value`.
+* Extra winkelwagentjes worden toegewezen aan `commerce.productListAdds.value`.
+* Winkelwagentjes worden toegewezen aan `commerce.productListRemovals.value`.
+* Wisselweergaven worden toegewezen aan `commerce.productListViews.value`.
+* Afbeeldingen worden toegewezen aan `commerce.checkouts.value`.
+
+## Gebeurtenissen die de extensie Adobe Analytics gebruiken
 
 U kunt gebeurtenissen instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 4. Onder [!UICONTROL Actions]klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
 5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
@@ -34,7 +51,7 @@ Er zijn verschillende functies beschikbaar:
 * Een optioneel tekstveld voor een gebeurteniswaarde. U kunt een valuta voor valutagebeurtenissen opnemen of een geheel getal voor gebeurtenissen buiten de valuta om deze meerdere keren te verhogen. Als u bijvoorbeeld `event1` onder de vervolgkeuzelijst en inclusief `10` in dit veld, stappen `event1` 10 bij de rapportage.
 * Een knop om een andere gebeurtenis toe te voegen. Er geldt geen redelijke limiet voor het aantal gebeurtenissen dat u in een hit kunt opnemen.
 
-## s.events in AppMeasurement en aangepaste code-editor
+## s.events in AppMeturement en de de coderedacteur van de uitbreiding van de Analyse van de douanecode
 
 De `s.events` variabele is een tekenreeks die een door komma&#39;s gescheiden lijst met gebeurtenissen bevat die in de hit moeten worden opgenomen. Er is geen bytelimiet voor deze variabele, zodat de variabele niet wordt afgekapt. Geldige waarden zijn:
 

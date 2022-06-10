@@ -3,9 +3,9 @@ title: Module integreren
 description: De integrate Module staat de partners van Adobe toe om hun inspanningen van de gegevensinzameling met uw organisatie te integreren.
 feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '881'
 ht-degree: 2%
 
 ---
@@ -41,9 +41,9 @@ Voor het verkrijgen van modulecode moet een gebruiker toegang hebben tot product
 
 ### Plaats de module Integreren in uw implementatie
 
-Voor de implementatie van de integrate Module op uw site hebt u toegang nodig tot de gebruikersinterface voor gegevensverzameling in Adobe Experience Platform. Als u een oudere JavaScript-implementatie gebruikt, hebt u toegang tot de broncode van de website van uw organisatie nodig.
+Voor de implementatie van de integrate-module op uw site hebt u toegang tot de Adobe Experience Platform-gegevensverzameling nodig. Als u een oudere JavaScript-implementatie gebruikt, hebt u toegang tot de broncode van de website van uw organisatie nodig.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de eigenschap Tag die u wilt bewerken.
 1. Klik op het tabblad Extensies en klik vervolgens op Configureren onder Adobe Analytics.
 1. Open de accordeon &#39;Tracker configureren met aangepaste code&#39; en klik op &#39;&lt;/> Editor openen&#39;.

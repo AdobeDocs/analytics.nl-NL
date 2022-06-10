@@ -3,9 +3,9 @@ title: cleanStr
 description: Alle overbodige tekens uit een tekenreeks verwijderen of vervangen.
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-De `cleanStr` Met de plug-in verwijdert of vervangt u alle overbodige tekens uit een tekenreeks, zoals HTML-tagtekens, extra witruimten, tabs en regeleinden. Het vervangt ook enkele aanhalingstekens naar links/rechts (`‘` en `’`) met rechte enkele aanhalingstekens (`'`). Adobe raadt u aan deze plug-in te gebruiken als u overbodige tekens wilt verwijderen uit variabele waarden en de functie &#39;Tekst opschonen&#39; in Adobe Experience Platform voldoet niet aan de implementatievereisten. Deze insteekmodule is niet nodig als de verzamelde gegevens geen overbodige tekens bevatten of als de functie &#39;Tekst opschonen&#39; in de gebruikersinterface voor gegevensverzameling voldoende is.
+De `cleanStr` Met de plug-in verwijdert of vervangt u alle overbodige tekens uit een tekenreeks, zoals HTML-tagtekens, extra witruimten, tabs en regeleinden. Het vervangt ook enkele aanhalingstekens naar links/rechts (`‘` en `’`) met rechte enkele aanhalingstekens (`'`). Adobe raadt u aan deze plug-in te gebruiken als u overbodige tekens wilt verwijderen uit variabele waarden en de functie &#39;Tekst opschonen&#39; in Adobe Experience Platform Data Collection niet voldoet aan uw implementatiebehoeften. Deze insteekmodule is niet nodig als de verzamelde gegevens geen overbodige tekens bevatten of als de functie &#39;Tekst opschonen&#39; in Adobe Experience Platform Data Collection voldoende is.
 
-## Plug-in installeren met tags in Adobe Experience Platform
+## De plug-in installeren met de Web SDK of de Adobe Analytics-extensie
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klik op de gewenste eigenschap.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
 1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
@@ -38,9 +38,9 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
 1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.

@@ -3,10 +3,10 @@ title: Veelgestelde vragen over implementatie
 description: Veelgestelde vragen over implementatie en koppelingen naar meer informatie.
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 42%
+source-wordcount: '507'
+ht-degree: 41%
 
 ---
 
@@ -34,7 +34,7 @@ AppMeasurement maakt een afbeeldingsobject binnen de HTML-pagina en de browser v
 
 Soms zou een organisatie een implementatie wegens contractvervaldatum willen verwijderen of het aantal servervraag verminderen.
 
-* **Implementaties met tags in Adobe Experience Platform**: De Adobe Analytics-extensie in- of uitschakelen in het dialoogvenster [!UICONTROL Extensions] te publiceren.
+* **Implementaties met Adobe Experience Platform-gegevensverzameling**: Schakel de toepasselijke extensie Adobe Analytics, Web SDK of Mobile SDK uit of verwijder deze in het dialoogvenster [!UICONTROL Extensions] te publiceren.
 * **Legacy AppMeasurement-implementaties**: De volledige inhoud van uw `s_code.js` bestand met de volgende coderegel:
 
 ```js

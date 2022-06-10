@@ -3,9 +3,9 @@ title: prop
 description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,16 @@ Props zijn aangepaste variabelen die u op de gewenste manier kunt gebruiken. Ze 
 
 Als u een [document ontwerp oplossing](/help/implement/prepare/solution-design.md)kunt u deze aangepaste afmetingen toewijzen aan waarden die specifiek zijn voor uw organisatie. Het aantal beschikbare props is afhankelijk van uw contract met Adobe. Er zijn maximaal 75 props beschikbaar als uw contract met Adobe dit ondersteunt.
 
-## Props met tags in Adobe Experience Platform
+## Proefpersonen die de SDK van het Web gebruiken
+
+Props zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.props.prop1` tot `_experience.analytics.customDimensions.props.prop75`.
+
+## Wordt gebruikt met de Adobe Analytics-extensie
 
 U kunt eigenschappen instellen tijdens het configureren van de extensie Analytics (algemene variabelen) of onder regels.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 4. Onder [!UICONTROL Actions]klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
 5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
@@ -35,7 +39,7 @@ U kunt eigenschappen instellen tijdens het configureren van de extensie Analytic
 
 U kunt een eigenschap instellen op een waarde of een gegevenselement. U kunt de waarde ook uit een andere variabele Analytics kopiëren.
 
-## s.prop1 - s.prop75 in AppMeasurement en de douane redacteur van de code
+## s.prop1 - s.prop75 in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
 
 Elke prop-variabele is een tekenreeks die aangepaste waarden bevat die specifiek zijn voor uw organisatie. De maximale lengte is 100 bytes. waarden die langer zijn dan 100 bytes, worden automatisch afgekapt wanneer ze naar Adobe worden verzonden.
 

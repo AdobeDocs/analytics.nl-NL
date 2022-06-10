@@ -3,10 +3,10 @@ title: linkTrackVars
 description: Geef op welke variabelen u wilt opnemen in aanvragen voor het bijhouden van koppelingen.
 feature: Variables
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 2%
+source-wordcount: '338'
+ht-degree: 1%
 
 ---
 
@@ -16,15 +16,19 @@ Sommige implementaties willen niet alle variabelen in alle verbinding het volgen
 
 Deze variabele wordt niet gebruikt voor paginaweergaveaanroepen ([`t()`](../functions/t-method.md) methode).
 
-## Variabelen in koppelingsvolgaanroepen met tags in Adobe Experience Platform
+## Bepaal welke variabelen om in een gebeurtenis te omvatten XDM gebruikend het Web SDK
 
-Adobe Experience Platform vult deze variabele automatisch op de achtergrond in op basis van variabelen die in de interface zijn ingesteld. Deze variabele wordt daarom altijd ingesteld in implementaties met tags in Adobe Experience Platform.
+De SDK van het Web sluit bepaalde gebieden voor verbinding het volgen vraag niet uit. U kunt echter de opdracht `onBeforeEventSend` callback om gewenste gebieden te ontruimen of te plaatsen alvorens de gegevens naar Adobe worden verzonden. Zie [Gebeurtenissen globaal wijzigen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
+
+## Variabelen in koppelingsvolgaanroepen met de Adobe Analytics-extensie
+
+Deze variabele wordt automatisch ingevuld op de achtergrond op basis van variabelen die in de interface zijn ingesteld. De variabele wordt dus altijd ingesteld in implementaties met de Adobe Analytics-extensie.
 
 >[!IMPORTANT]
 >
->Als u variabelen instelt met de aangepaste code-editor, moet u de variabele opnemen in `linkTrackVars` ook aangepaste code gebruiken.
+>Als u variabelen instelt met de aangepaste code-editor, moet u de variabelen opnemen in `linkTrackVars` ook aangepaste code gebruiken.
 
-## s.linkTrackVars in AppMeasurement en aangepaste code-editor
+## s.linkTrackVars in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
 De `s.linkTrackVars` variabele is een tekenreeks met een door komma&#39;s gescheiden lijst met variabelen die u wilt opnemen in aanvragen voor het bijhouden van koppelingen (`tl()` methode). Aan beide volgende criteria moet worden voldaan om afmetingen op te nemen in het volgen van koppelingen:
 

@@ -3,9 +3,9 @@ title: getAndPersistValue
 description: Sla een waarde op die later kan worden opgehaald.
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 >
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
-De `getAndPersistValue` kunt u een waarde opslaan in een cookie die later tijdens een bezoek kan worden opgehaald. Het vervult een soortgelijke rol als de [!UICONTROL Storage duration] gebruiken met tags in Adobe Experience Platform. Adobe raadt u aan deze plug-in te gebruiken als u automatisch een variabele Analytics tot dezelfde waarde wilt behouden in volgende hits nadat de variabele is ingesteld. Deze insteekmodule is niet nodig als de [!UICONTROL Storage duration] is voldoende. Het is ook niet nodig om deze plug-in te gebruiken als u variabelen niet op dezelfde waarde hoeft in volgende treffers in te stellen en te behouden. Voor de ingebouwde persistentie van eVars is het gebruik van deze plug-in niet vereist, aangezien eVars server-side voor Adobe blijft bestaan.
+De `getAndPersistValue` kunt u een waarde opslaan in een cookie die later tijdens een bezoek kan worden opgehaald. Het vervult een soortgelijke rol als de [!UICONTROL Storage duration] in de Adobe Analytics-extensie in Adobe Experience Platform Data Collection. Adobe raadt u aan deze plug-in te gebruiken als u automatisch een variabele Analytics tot dezelfde waarde wilt behouden in volgende hits nadat de variabele is ingesteld. Deze insteekmodule is niet nodig als de [!UICONTROL Storage duration] volstaat. Het is ook niet nodig om deze plug-in te gebruiken als u variabelen niet op dezelfde waarde hoeft in volgende treffers in te stellen en te behouden. Voor de ingebouwde persistentie van eVars is het gebruik van deze plug-in niet vereist, aangezien eVars server-side voor Adobe blijft bestaan.
 
-## Plug-in installeren met tags in Adobe Experience Platform
+## De plug-in installeren met de Web SDK of de Adobe Analytics-extensie
 
 Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klik op de gewenste eigenschap.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
 1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
 1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
@@ -38,9 +38,9 @@ Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
 
 Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder de extensie Adobe Analytics.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder de extensie Adobe Analytics.
 1. Breid uit [!UICONTROL Configure tracking using custom code] accordion, die de [!UICONTROL Open Editor] knop.
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.

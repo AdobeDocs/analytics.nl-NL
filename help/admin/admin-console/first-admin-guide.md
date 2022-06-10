@@ -3,9 +3,9 @@ title: Eerste Adobe Analytics-beheerdershandleiding
 description: Begrijp hoe te beginnen met Adobe Analytics, algemene roltypes, en het programma openen aan UI.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '913'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Een eerste beheerder is het uitgangspunt om de rest van de organisatie toe te la
 Als uw organisatie Adobe Analytics heeft aangeschaft, moet u rekening houden met een aantal belangrijke rollen:
 
 * **Adobe Analytics-beheerders:** Deze gebruikers hebben volledige toegang tot alles in Adobe Analytics, inclusief instellingen voor rapportsuite en gebruikersmachtigingen. Afhankelijk van de structuur van uw organisatie kunnen verschillende personen of teams verantwoordelijk zijn voor verschillende facetten van het analysebeheer. Eén persoon is bijvoorbeeld verantwoordelijk voor de aanwijzing van de variabelen die in een implementatie moeten worden gebruikt. Een andere persoon kan voor het toelaten van gebruikers verantwoordelijk zijn om rapporten correct te trekken door iedereen te verzekeren heeft de correcte toestemmingen. Identificeer minstens één gebruiker die voor de montages en gebruikerstoestemmingen van het het rapportpakket van de Analyse kan verantwoordelijk zijn, en zij kunnen andere beheerders van Analytics van daar uitnodigen.
-* **Beheerders van gegevensverzameling:** Deze gebruikers hebben volledige toegang tot alles in de UI van de Inzameling van Gegevens (vroeger UI van het Experience Platform Launch), met inbegrip van het publiceren toestemmingen, het creëren van containers, en gebruikerstoestemmingen. Deze gebruikers zijn niet noodzakelijkerwijs programmeurs, maar het is nuttig om ten minste een beginner op de hoogte te hebben van HTML, CSS en JavaScript. Ze zijn verantwoordelijk voor het werken met de eigenaars van de website van uw organisatie om de Experience Platforms-tags op uw site te implementeren. Identificeer minstens één gebruiker die voor de implementatie van uw organisatie verantwoordelijk is, en zij kunnen andere beheerders van de gegevensinzameling van daar uitnodigen.
+* **Beheerders van gegevensverzameling:** Deze gebruikers hebben volledige toegang tot alles in de Gegevensverzameling van Adobe Experience Platform, met inbegrip van het publiceren toestemmingen, het creëren van containers, en gebruikerstoestemmingen. Deze gebruikers zijn niet noodzakelijkerwijs programmeurs, maar het is nuttig om ten minste een beginner op de hoogte te hebben van HTML, CSS en JavaScript. Ze zijn verantwoordelijk voor het werken met de eigenaars van uw website om tags op uw site te laten implementeren. Identificeer minstens één gebruiker die voor de implementatie van uw organisatie verantwoordelijk is, en zij kunnen andere beheerders van de gegevensinzameling van daar uitnodigen.
 * **Ondersteuningsafgevaardigden**: Deze gebruikers, ook wel ondersteunde gebruikers genoemd, hebben geen extra bevoegdheden in de interface Analytics. In plaats daarvan krijgen ze extra privileges wanneer ze communiceren met de klantenservice van Adobe. Deze gebruikers zijn bijna altijd ook Analytics-beheerders, omdat dit de klantenservice helpt problemen met hen op te lossen. Identificeer ten minste één Analytics-beheerder die verantwoordelijk is voor het faciliteren van de interactie tussen eindgebruikers en de klantenservice van Adobe.
 * **Eigenaars van websites:** Deze personen of teams zijn verantwoordelijk voor de codering en ontwikkeling van uw website. Ze hebben geen accounts nodig, maar ze willen samenwerken met beheerders voor gegevensverzameling om de tagcode op uw website te plaatsen en te implementeren.
 * **Eindgebruikers:** deze gebruikers bekijken typisch rapporten en zoeken antwoorden op bedrijfsvragen. Analysebeheerders verlenen deze gebruikers machtigingen om in het product te werken.

@@ -3,9 +3,9 @@ title: Datalaagobjecten toewijzen aan data-elementen
 description: Configureer codes die u van uw gegevenslaag wilt lezen.
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '294'
 ht-degree: 6%
 
 ---
@@ -20,9 +20,9 @@ Als uw organisatie een gegevenslaag op uw site heeft gemaakt en geïmplementeerd
 
 ## Tags gebruiken om gegevenselementen te maken
 
-[Gegevenselementen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) zijn componenten in de UI van de Inzameling van Gegevens die u over het hulpmiddel kunt gebruiken. U kunt waarden van variabelen toewijzen in de Adobe Analytics-extensie met behulp van gegevenselementen.
+[Gegevenselementen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) Dit zijn componenten in Adobe Experience Platform Data Collection die u over het hulpmiddel kunt gebruiken. U kunt waarden van variabelen toewijzen in de Adobe Analytics-extensie met behulp van gegevenselementen.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Klik op de knop **[!UICONTROL Data Elements]** tab, en klik vervolgens op **[!UICONTROL Add Data Element]**.
 

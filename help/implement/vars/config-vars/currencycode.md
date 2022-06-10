@@ -3,9 +3,9 @@ title: Wat is de currencyCode-variabele en hoe gebruik ik deze?
 description: Voor eCommerce-sites stelt de valuta in waarin de pagina handelt.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,17 @@ Indien `currencyCode` is gedefinieerd en verschilt van de valuta van de rapports
 
 Deze variabele blijft niet bestaan tussen treffers. Zorg ervoor dat deze variabele op elke pagina wordt bepaald die opbrengst of muntgebeurtenissen impliceert.
 
-## Valutacode met tags in Adobe Experience Platform
+## Valutacode die de Web SDK gebruikt
+
+Valutacode is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `commerce.order.currencyCode`.
+
+## Valutacode die de extensie Adobe Analytics gebruikt
 
 Valutacode is een veld onder de [!UICONTROL General] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klik op de gewenste eigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder Adobe Analytics.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
 1. Breid uit [!UICONTROL General] accordion, die de [!UICONTROL Currency Code] veld.
 
 U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. Als u een aangepaste valutacode gebruikt, moet u controleren of de code geldig is.
@@ -47,7 +51,7 @@ Valutacode wordt doorgegeven aan de Adobe Experience Platform Mobile SDK&#39;s v
 
 U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. Als u een aangepaste valutacode gebruikt, moet u controleren of de code geldig is.
 
-## s.currencyCode in AppMeasurement en aangepaste code-editor
+## s.currencyCode in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
 De `s.currencyCode` variable is a string, containing a 3 letter uppercase code representing the currency on the page.
 

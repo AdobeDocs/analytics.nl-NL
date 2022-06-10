@@ -3,9 +3,9 @@ title: dynamicAccountSelection
 description: Met de variabele dynamicAccountSelection kunt u dynamische accountselectie in- of uitschakelen.
 feature: Implementation Basics
 exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '86'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Dynamische accounts worden alleen ondersteund met behulp van verouderde JavaScript-implementaties (H Code). Deze variabelen worden niet ondersteund in de huidige AppMeasurement-bibliotheken of de gebruikersinterface voor gegevensverzameling.
+>Dynamische accounts worden alleen ondersteund met behulp van verouderde JavaScript-implementaties (H Code). Deze variabelen worden niet ondersteund in de huidige AppMeasurement-bibliotheken of Adobe Experience Platform Data Collection.
 
 De `dynamicAccountSelection` variabele is een Booleaanse waarde die bepaalt of de dynamische accountselectie wordt gebruikt.
 

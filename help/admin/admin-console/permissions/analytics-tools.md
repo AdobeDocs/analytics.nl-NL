@@ -3,9 +3,9 @@ title: Machtigingen voor productprofielen voor Analytics Tools
 description: Gebruik de machtigingsitems Analytics Tools om toegang te verlenen tot functies in Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Met de machtigingsitems Analytics Tools hebt u toegang tot functies in Adobe Ana
 | Machtigingsitem Analytics | Beschrijving |
 |----|----|
 | [!UICONTROL Server Call Usage] | Biedt toegang tot Admin > Gebruik van de Vraag van de Server. |
-| [!UICONTROL Code Manager] | Bewaren voor oudere doeleinden. Hiermee krijgt u toegang tot Beheer > Alle beheerders > Codebeheer. In de meeste gevallen gebruikt u in plaats hiervan de bibliotheken die zijn opgenomen in de gebruikersinterface voor gegevensverzameling. |
+| [!UICONTROL Code Manager] | Bewaren voor oudere doeleinden. Hiermee krijgt u toegang tot Beheer > Alle beheerders > Codebeheer. In de meeste gevallen gebruikt u in plaats daarvan de bibliotheken in de Adobe Analytics-extensie in de Adobe Experience Platform-gegevensverzameling. |
 | [!UICONTROL Code Manager - Web Services] | Hiermee krijgt u toegang tot de codecontrole via de 1.4-API. |
 | [!UICONTROL Logs] | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Logbestanden. |
 | [!UICONTROL Logs - Web Services] | Biedt toegang tot pull-logs via de 1.4-API. |
@@ -42,6 +42,6 @@ Met de machtigingsitems Analytics Tools hebt u toegang tot functies in Adobe Ana
 | [!UICONTROL Segment Creation] | Biedt de mogelijkheid om segmenten te maken en te delen met alle analysemogelijkheden. |
 | [!UICONTROL Advertising Analytics Management] | Niet gebruikt. |
 | [!UICONTROL Segment Publishing] | Biedt de mogelijkheid om een segment tot een Experience Cloud-publiek te maken wanneer u een segment maakt of bewerkt. |
-| [!UICONTROL Integrations (Create)] | Niet gebruikt. Gegevensconnectors zijn niet meer beschikbaar. |
+| [!UICONTROL Integrations (Create)] | Niet gebruikt. Data Connectors is aan het einde van zijn levensduur. |
 | [!UICONTROL Integrations (Update)] | Niet gebruikt. |
 | [!UICONTROL Integrations (Delete)] | Niet gebruikt. |

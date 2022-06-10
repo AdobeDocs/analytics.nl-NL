@@ -3,10 +3,10 @@ title: linkTrackEvents
 description: Bepaal welke gebeurtenissen moeten worden opgenomen in aanvragen voor het bijhouden van koppelingen.
 feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 3%
+source-wordcount: '320'
+ht-degree: 2%
 
 ---
 
@@ -16,15 +16,19 @@ Sommige implementaties willen niet alle variabelen in alle verbinding het volgen
 
 Deze variabele wordt niet gebruikt voor paginaweergaveaanroepen ([`t()`](../functions/t-method.md) methode).
 
-## Gebeurtenissen in koppelingsvolgaanroepen met tags in Adobe Experience Platform
+## Bepaal welke gebeurtenissen van Analytics in een gebeurtenis te omvatten XDM gebruikend het Web SDK
+
+De SDK van het Web sluit bepaalde gebieden voor verbinding het volgen vraag niet uit. U kunt echter de opdracht `onBeforeEventSend` callback om gewenste gebieden te ontruimen of te plaatsen alvorens de gegevens naar Adobe worden verzonden. Zie [Gebeurtenissen globaal wijzigen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in de documentatie van SDK van het Web voor meer informatie.
+
+## Gebeurtenissen in koppelingencontrole voor aanroepen met de Adobe Analytics-extensie
 
 Als u geen aangepaste code gebruikt, worden in Adobe Experience Platform automatisch gedefinieerde gebeurtenissen opgenomen in resultaten voor het bijhouden van koppelingen.
 
 >[!IMPORTANT]
 >
->Als u gebeurtenissen in de UI van de Inzameling van Gegevens gebruikend de redacteur van de douanecode plaatst, moet u de gebeurtenis omvatten in `linkTrackEvents` ook aangepaste code gebruiken.
+>Als u gebeurtenissen instelt in de aangepaste code-editor van de extensie Analytics, moet u de gebeurtenis opnemen in `linkTrackEvents` ook aangepaste code gebruiken.
 
-## s.linkTrackEvents in AppMeasurement en aangepaste code-editor
+## s.linkTrackEvents in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
 De `s.linkTrackEvents` variabele is een tekenreeks met een door komma&#39;s gescheiden lijst met gebeurtenissen die u wilt opnemen in aanvragen voor het bijhouden van koppelingen (`tl()` methode). Aan de volgende drie criteria moet worden voldaan om meetgegevens op te nemen in treffers voor het bijhouden van koppelingen:
 

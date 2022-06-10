@@ -3,9 +3,9 @@ title: timestamp
 description: Stel handmatig de tijdstempel van de hit in.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ De `timestamp` Met variabele wordt handmatig de tijdstempel van de hit ingesteld
 >
 >Gebruik deze variabele niet als uw rapportsuite niet expliciet is geconfigureerd voor het accepteren van treffers met een tijdstempel. AppMeasurement stelt automatisch de tijd van een hit voor rapportsuites in die timestamped klappen niet steunen. Als u een hit met deze variabele naar een rapportsuite verzendt die geen tijdstempels ondersteunt, gaan die gegevens permanent verloren.
 
-## Tijdstempel met tags in Adobe Experience Platform
+## Tijdstempel met Adobe Analytics-extensie
 
-Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
 
-## s.timestamp in AppMeasurement en de redacteur van de douanecode
+## s.timestamp in AppMeasurement en de de coderedacteur van de de uitbreiding van de Analyse van de douanecode
 
 De `s.timestamp` variabele is een tekenreeks die de datum en tijd van de hit bevat. Geldige tijdstempelindelingen zijn [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) en [Unix time](https://en.wikipedia.org/wiki/Unix_time).
 

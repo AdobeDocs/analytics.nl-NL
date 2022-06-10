@@ -3,10 +3,10 @@ title: Adobe Analytics implementeren
 description: Implementeer Adobe Analytics op uw website, eigenschap of applicatie.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 74%
+source-wordcount: '428'
+ht-degree: 64%
 
 ---
 
@@ -33,7 +33,8 @@ De JavaScript-code verzendt een afbeeldingsaanvraag voor Adobe-dataverzamelingse
 
 Voor Adobe Analytics is code binnen uw website, mobiele app of andere applicatie vereist om data naar servers voor dataverzameling te verzenden. Er zijn verschillende methoden om deze code te implementeren, afhankelijk van het platform en de behoeften van uw organisatie.
 
-* **Tags Adobe Experience Platform**: De gestandaardiseerde en aanbevolen methode voor de implementatie van Adobe Analytics. Plaats een loader-tag op elke pagina en gebruik de interface voor gegevensverzameling om te bepalen hoe elke variabele wordt gedefinieerd.
+* **Web SDK**: De gestandaardiseerde en aanbevolen methode voor de implementatie van Adobe Analytics. Installeer de SDK-extensie van het Web in de gegevensverzameling van Adobe Experience Platform, gebruik een loader-tag op elke pagina en verzend gegevens naar Adobe Experience Platform Edge in een voor uw organisatie geschikte indeling. Experience Edge stuurt binnenkomende gegevens door naar Adobe Analytics in de juiste indeling.
+* **Adobe Analytics-extensie**: Installeer de extensie Adobe Analytics in Adobe Experience Platform Data Collection. Plaats een loader-tag op elke pagina en gebruik de extensie Analytics om te bepalen hoe elke variabele wordt gedefinieerd.
 * **Verouderde JavaScript:** De oude handmatige methode voor de implementatie van Adobe Analytics. Omlijnt variabelen en montages die in een implementatie worden gebruikt, die voor ta implementaties kunnen nuttig zijn gebruikend regels met douanecode.
 * **Mobile SDK:** speciale bibliotheken om data gemakkelijk vanuit uw mobiele app naar Adobe te verzenden.
 

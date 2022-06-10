@@ -3,10 +3,10 @@ title: s_gi()
 description: Creeer en spoor instanties van AppMeasurement.
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '480'
+ht-degree: 0%
 
 ---
 
@@ -14,18 +14,43 @@ ht-degree: 1%
 
 De `s_gi()` de functie concretiseert of vindt een geval van AppMeasurement door identiteitskaart van de rapportreeks. AppMeasurement houdt elke gemaakte instantie bij, en `s_gi()` retourneert de bestaande instantie voor een rapportsuite als deze bestaat. Wanneer een instantie niet bestaat, wordt een nieuwe instantie gemaakt.
 
-## s_gi() tags gebruiken in Adobe Experience Platform
+## Instantieer een volgende voorwerp gebruikend de uitbreiding van SDK van het Web
+
+De extensie Web SDK instantieert en beheert het volgende object voor u. U kunt de naam van het volgende object echter aanpassen in de extensie-instellingen:
+
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder Adobe Experience Platform Web SDK.
+1. Wijzig de [!UICONTROL Name] naar de gewenste waarde. De standaardwaarde is `alloy`.
+
+## Instantiëren van een trackingobject dat de SDK van het web handmatig implementeert
+
+De volgende code laadt de SDK van het Web en concretiseert een volgend voorwerp. U kunt de naam van het volgende object aanpassen door de tekenreeks te wijzigen `"alloy"` aan het einde van het inline script naar de gewenste waarde.
+
+```js
+<script>
+  !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+  []).push(o),n[o]=function(){var u=arguments;return new Promise(
+  function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+  (window,["alloy"]);
+</script>
+<script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
+```
+
+Zie [De SDK installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in de documentatie van SDK van het Web voor meer informatie.
+
+## Een trackingobject instantiëren met de Adobe Analytics-extensie
 
 De extensie Analytics instantieert en beheert het volgende object voor u. U kunt echter ook een algemeen volgobject instellen in het dialoogvenster [!UICONTROL Library Management] accordeon bij het configureren van de Adobe Analytics-extensie.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
-3. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Configure] onder Adobe Analytics.
-4. Breid uit [!UICONTROL Library Management] en selecteert u een ander keuzerondje dan [!UICONTROL Manage the library for me].
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** onder Adobe Analytics.
+1. Breid uit [!UICONTROL Library Management] en selecteert u een ander keuzerondje dan [!UICONTROL Manage the library for me].
 
 In het tekstveld voor algemene variabelen kunt u een aangepast tekstobject bijhouden instellen. De standaardwaarde is `s`.
 
-## s_gi() in AppMeasurement en aangepaste code-editor
+## s_gi() in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 
 Roep de `s_gi()` gebruiken om een trackingobject te instantiëren. Zijn enige argument bevat een komma-afgebakende koord van rapportreeks IDs. Het argument van ID van de rapportsuite is vereist.
 

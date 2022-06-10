@@ -3,9 +3,9 @@ title: Gebeurtenisserialisatie
 description: Help metrische gegevens op uw site te dupliceren.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,18 @@ Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niv
 >
 >Als u de duplicatie van de [`purchase`](event-purchase.md) -gebeurtenis, gebruik de [`purchaseID`](../purchaseid.md) in plaats daarvan variabele.
 
-## Gebeurtenis-id&#39;s gebruiken met tags in Adobe Experience Platform
+## Gebeurtenis-id&#39;s gebruiken met de Web SDK
+
+Serienummering voor gebeurtenissen is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de gewenste XDM-gebeurtenis `id`. Het volledige XDM-pad is afhankelijk van de gebeurtenis die u wilt serialiseren.
+
+Als u bijvoorbeeld de metrisch met de kunsttoevoegingen wilt serialiseren, stelt u de optie `commerce.productListAdds.id` XDM gebied aan de gewenste rangschikkingswaarde. Als u Aangepaste gebeurtenis 20 wilt serialiseren, stelt u de optie `_experience.analytics.event1to100.event20` XDM gebied aan de gewenste rangschikkingswaarde.
+
+## Gebeurtenis-id&#39;s gebruiken met de Adobe Analytics-extensie
 
 U kunt het veld voor de gebeurtenis-id instellen tijdens het configureren van de extensie Analytics (globale variabelen) of als een handeling in een regel.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 4. Onder [!UICONTROL Actions]klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
 5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
@@ -45,7 +51,7 @@ U kunt het veld voor de gebeurtenis-id instellen tijdens het configureren van de
 
 Geldige waarden zijn alfanumerieke tekens met een lengte tot 20 bytes. Als u een waarde invoert die langer is dan 20 bytes, wordt de waarde door het systeem ingekort tot de eerste 20 bytes.
 
-## Gebeurtenis-id&#39;s gebruiken in AppMeasurement en aangepaste code-editor
+## Gebeurtenis-id&#39;s gebruiken in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
 De rangschikking van gebeurtenissen maakt deel uit van `s.events` variabele. Wijs een id toe aan elke gebeurtenis met een dubbele punt in de tekenreeks.
 

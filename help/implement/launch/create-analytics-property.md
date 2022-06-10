@@ -3,9 +3,9 @@ title: Een eigenschap Analytics maken in tags
 description: Maak een spatie om aan te passen hoe gegevens worden verzameld met tags.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Met tags in Adobe Experience Platform kunt u Experience Cloud-oplossingen integr
 
 Eigenschappen zijn overkoepelende containers die u gebruikt om tags te beheren. Met extensies kunt u productspecifieke tags installeren en configureren.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op **[!UICONTROL New Property]**.
 1. Geef uw eigenschap een naam, zoals de titel van uw website, en voer het domein in waarop u Analytics wilt implementeren. Klik op **[!UICONTROL Save]**.
 1. Klik op de nieuwe tageigenschap om de instellingen in te voeren.
@@ -37,7 +37,7 @@ Zie de volledige documentatie voor de [Adobe Analytics-extensie](https://experie
 
 Gegevenselementen zijn verwijzingen naar specifieke delen van uw site om variabelewaarden te verzamelen.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de eigenschap tag die u op uw site wilt implementeren.
 1. Klik op de knop **[!UICONTROL Data Elements]** tab, en klik vervolgens op **[!UICONTROL Add Data Element]**.
 1. Geef het gegevenselement de volgende instellingen:
@@ -58,7 +58,7 @@ Gegevenselementen zijn verwijzingen naar specifieke delen van uw site om variabe
 
 Regels wijzen gegevenselementen aan de veranderlijke waarden van de Analyse in kaart, en bepalen wanneer die waarden naar Adobe worden verzonden.
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de eigenschap tag die u op uw site wilt implementeren.
 1. Klik op de knop **[!UICONTROL Rules]** tab, en klik vervolgens op **[!UICONTROL Add Rule]**. Naam geven `Global Rule`.
 1. Klikken **[!UICONTROL Add]** naast gebeurtenissen en voer de volgende instellingen in:

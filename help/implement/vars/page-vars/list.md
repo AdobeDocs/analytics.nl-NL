@@ -3,9 +3,9 @@ title: list
 description: Aangepaste variabelen die meerdere waarden in dezelfde hit bevatten.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,15 @@ Zorg ervoor u registreert hoe u elke lijstvariabele en hun logica in uw gebruikt
 
 Zorg ervoor dat u elke lijstvariabele in de montages van de rapportreeks vormt alvorens hen in uw implementatie te gebruiken. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/list-var-admin.md) in de handleiding Admin.
 
-## Variabelen weergeven met tags in Adobe Experience Platform
+## Variabelen weergeven die de SDK van het web gebruiken
 
-Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Lijstvariabelen zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.lists.list1` tot `_experience.analytics.customDimensions.lists.list3`.
 
-## s.list1 - s.list3 in AppMeasurement en de redacteur van de douanecode
+## Variabelen weergeven die de extensie Adobe Analytics gebruiken
+
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+
+## s.list1 - s.list3 in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
 
 Elke lijstvariabele is een koord dat douanewaarden specifiek voor uw organisatie bevat. Zij hebben geen maximum aantal bytes; elke individuele waarde heeft echter een maximum van 255 bytes. Het scheidingsteken dat u gebruikt wordt bepaald wanneer vestiging de variabele in de montages van de rapportreeks. Gebruik geen spaties bij het scheiden van meerdere items.
 

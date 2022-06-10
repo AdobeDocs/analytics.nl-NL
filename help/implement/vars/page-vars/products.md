@@ -3,9 +3,9 @@ title: products
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -18,18 +18,29 @@ De `products` met variabele tracks kunt u producten en eigenschappen bijhouden d
 >
 >Als deze variabele wordt ingesteld in een hit zonder de opdracht [`events`](events/events-overview.md) variabele, de [Productweergaven](/help/components/metrics/product-views.md) metrische stappen met 1. Zorg ervoor dat u de juiste gebeurtenissen instelt voor elke hit met de knop `products` variabele.
 
-## Producten met labels in Adobe Experience Platform
+## Producten die SDK van het Web gebruiken
 
-Er is geen specifiek gebied in de UI van de Inzameling van Gegevens om deze variabele te plaatsen; er zijn echter meerdere extensies van derden die u helpen.
+Producten zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder verschillende XDM-velden:
 
-1. Aanmelden bij de [UI voor gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-2. Klik op de gewenste eigenschap.
+* Categorie is toegewezen aan `productListItems[].name`.
+* Product is toegewezen aan `productListItems[]._id`.
+* Aantal is toegewezen aan `productListItems[].quantity`.
+* Prijs is toegewezen aan `productListItems[].priceTotal`.
+* Merchandising eVars worden toegewezen aan `productListItems._experience.analytics.customDimensions.eVars.eVar1` tot `productListItems._experience.analytics.customDimensions.eVars.eVar250`, afhankelijk van welke eVar u aan een product wilt binden.
+* Merchandising-gebeurtenissen worden toegewezen aan `productListItems[]._experience.analytics.event1to100.event1.value` tot `productListItems._experience.analytics.event901to1000.event1000.value`, afhankelijk van welke gebeurtenis u aan een product wilt binden.
+
+## Producten die de extensie Adobe Analytics gebruiken
+
+Er is geen specifiek veld in Adobe Experience Platform Data Collection om deze variabele in te stellen; er zijn echter meerdere extensies van derden die u helpen.
+
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Extensions] tab, en klik vervolgens op [!UICONTROL Catalog] om alle beschikbare extensies weer te geven.
 4. Zoek naar de term &quot;product&quot;, die verscheidene uitbreidingen beschikbaar om te helpen plaatsen deze variabele openbaart.
 
 U kunt één van deze uitbreidingen gebruiken, of u kunt de redacteur van de douanecode gebruiken na syntaxis AppMeasurement hieronder.
 
-## s.products in AppMeasurement en de redacteur van de douanecode
+## s.products in AppMeasurement en de de coderedacteur van de uitbreiding van de Analyse
 
 De `s.products` variabele is een tekenreeks die meerdere gescheiden velden per product bevat. Elk veld scheiden met een puntkomma (`;`) in de tekenreeks.
 

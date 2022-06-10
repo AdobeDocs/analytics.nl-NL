@@ -3,9 +3,9 @@ title: purchaseID
 description: Gededupliceerde hits op basis van een unieke aankoop-id.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,15 @@ Wanneer Adobe een hit herkent als een dubbele aankoop, worden alle conversiegege
 
 De aankoop-id&#39;s gelden voor alle bezoekers en verlopen niet. Als een bezoeker een bepaalde aankoop-id instelt, stelt een andere bezoeker die aankoop-id een jaar later in, dan wordt de tweede aankoop gedupliceerd.
 
-## ID aanschaffen met tags in Adobe Experience Platform
+## Aankoop-id met de web SDK
 
-Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+Aankoop-id is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `commerce.order.purchaseID`.
 
-## s.purchaseID in AppMeasurement en aangepaste code-editor
+## Aankoop-id met Adobe Analytics-extensie
+
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+
+## s.purchaseID in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
 De `s.purchaseID` variable is a string that contains a unique identifier to a purchase. Deze wordt ingesteld op hetzelfde resultaat als een aankoopgebeurtenis. Gebruik alleen alfanumerieke tekens om deze variabele te vullen.
 

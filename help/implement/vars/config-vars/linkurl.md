@@ -3,9 +3,9 @@ title: linkURL
 description: Overschrijf het automatisch gegenereerde gebruik van de koppeling-URL AppMeasurement in koppelingsvolgaanroepen.
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '144'
 ht-degree: 1%
 
 ---
@@ -14,11 +14,15 @@ ht-degree: 1%
 
 Wanneer een verbinding het volgen vraag naar Adobe wordt verzonden, ontdekken de servers van de gegevensinzameling automatisch URL. Gebruik de `linkURL` variabele om de gedetecteerde URL te overschrijven.
 
-## URL koppelen met tags in Adobe Experience Platform
+## URL koppelen met de SDK van het Web
 
-Er is geen specifiek gebied in de Inzameling van Gegevens UI om deze variabele te gebruiken. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+URL koppeling is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `web.webInteraction.URL`.
 
-## s.linkURL in AppMeasurement en aangepaste code-editor
+## URL koppelen met de Adobe Analytics-extensie
+
+Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van deze variabele. Gebruik de douane code redacteur, na syntaxis AppMeasurement.
+
+## s.linkURL in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
 De `s.linkURL` variabele is een tekenreeks die de URL bevat van de browser toen op de koppeling werd geklikt. Deze variabele vult geen dimensies in die beschikbaar zijn in de rapportage.
 
