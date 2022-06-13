@@ -4,10 +4,10 @@ title: Problemen met Power BI-integratie oplossen
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: b98fbf52ab9fefef9c19e82f440ca9f5a81f933f
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,3 +42,26 @@ Laat een Microsoft-beheerder de instelling Gebruikers kunnen de toepassing regis
 Gebruikers kunnen toegang verlenen door het volgende te gebruiken: [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
 Beheerders die toegang voor elke instantie hebben verkregen, gebruiken het volgende [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+
+## De API-limiet bereiken
+
+Rapportage in Power BI werkt met de API voor analyserapportage, zodat de API-drempelwaarden van toepassing zijn. Voor Analytics 2.0 APIs, wordt de throttle grens geplaatst bij 120 vraag per minuut, per gebruiker, ongeacht rapportreeks of bedrijf. Wanneer de throttle grens wordt gepasseerd, keert de server een HTTP 429 status aan de gebruiker met deze berichtinhoud terug:
+
+```
+too many requests
+{"error_code":"429050","message":"Too many requests"}
+```
+
+Adobe raadt u aan *naleven* de volgende richtsnoeren:
+
+* Maak veelvoudige, kleinere verzoeken in plaats van een grote, enige aanvraag.
+* Vraag gegevens eenmaal aan en cachegeheugen deze in.
+* U mag niet sneller dan een interval van 30 minuten opiniepeilen voor nieuwe gegevens.
+* Trek historische gegevens en verhoogt het regelmatig in plaats van om de volledige gegevensreeks te verzoeken.
+
+Adobe raadt u aan *vermijden* het volgende:
+
+* zoveel mogelijk gegevens in één aanvraag aanvragen
+* Vraag elke dag één jaar aan gegevens bij daggranulariteit om een rolend venster van 12 maanden. Adobe raadt u aan in plaats daarvan de gegevens van de nieuwe dag op te vragen en deze samen te voegen met de bestaande gegevens van vorige dagen.
+* Een webpagina met een widget voor siteprestaties besturen door elke keer dat de webpagina wordt geladen een API-verzoek in te dienen
+* Migreren vanaf 1,4
