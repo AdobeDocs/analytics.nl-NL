@@ -3,9 +3,9 @@ title: tl
 description: Verzend een verbinding het volgen vraag aan Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ Indien [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) of [`trackEx
 
 ## Koppelingen bijhouden met de SDK van het web
 
-SDK van het Web maakt geen onderscheid tussen vraag van de paginamening en verbinding het volgen vraag; beide gebruiken `sendEvent` gebruiken. Als u wilt dat Adobe Analytics een bepaalde gebeurtenis tellen als een koppelingenvolgvraag, zorg ervoor dat uw XDM gegevens omvat `web.webInteraction.name`, `web.webInteraction.URL`, en `web.webInteraction.type`.
+SDK van het Web maakt geen onderscheid tussen vraag van de paginamening en verbinding het volgen vraag; beide gebruiken `sendEvent` gebruiken. Als u wilt dat Adobe Analytics een bepaalde XDM-gebeurtenis telt als een aanroep voor het bijhouden van koppelingen, moet u ervoor zorgen dat uw XDM-gegevens worden opgenomen in of toegewezen aan `web.webInteraction.name`, `web.webInteraction.URL`, en `web.webInteraction.type`.
+
+* Naam koppelen aan `web.webInteraction.name`.
+* URL-koppelingen koppelen naar `web.webInteraction.URL`.
+* Typekaarten koppelen aan `web.webInteraction.type`. Geldige waarden zijn `other` (Aangepaste koppelingen), `download` (Koppelingen downloaden) en `exit` (Koppelingen afsluiten).
 
 ```js
 alloy("sendEvent", {
