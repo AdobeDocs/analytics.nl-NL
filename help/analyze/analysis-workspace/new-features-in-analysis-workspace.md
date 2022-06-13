@@ -5,7 +5,7 @@ title: Nieuwe functies in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
+source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
 workflow-type: tm+mt
 source-wordcount: '8164'
 ht-degree: 88%
@@ -169,7 +169,7 @@ Verbetering uitgebracht op 9 mei 2019.
 
 | Verbetering | Beschrijving |
 |--- |--- |
-| Er is een nieuwe instelling toegevoegd aan de instellingen voor flowvisualisatie: Include Repeat Instances (Inclusief herhalingsinstanties). | [Flowinstellingen](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md) |
+| Er is een nieuwe instelling toegevoegd aan de instellingen voor flowvisualisatie: Include Repeat Instances (Inclusief herhalingsinstanties). | [Flowinstellingen](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 
 ## April 2019
 
@@ -811,7 +811,7 @@ Nieuwe functies uitgebracht op 8 juni 2017.
     </ul> </td>
   </tr>
   <tr>
-   <td colname="col1"> Verbeteringen <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b> in flowvisualisaties</b></a> </td>
+   <td colname="col1"> Verbeteringen <a href="/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md"  > <b> in flowvisualisaties</b></a> </td>
    <td colname="col2">
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1">
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Er is een nieuwe visualisatie-instelling toegevoegd met de naam <span class="wintitle"> Disable Label Truncation (Labelafkapping uitschakelen) </span> (standaard = uitgeschakeld). </li>

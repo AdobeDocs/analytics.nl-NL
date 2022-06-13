@@ -4,7 +4,7 @@ description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 716b57203cd15ec646792ce1cf5ca47340c23421
+source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
 workflow-type: tm+mt
 source-wordcount: '3143'
 ht-degree: 40%
@@ -27,7 +27,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Adobe Analytics-bestemmingspagina-updates | Updates van de gemeenschappelijke [De landingspagina Werkruimte/Rapporten &amp; Analyse](/help/analyze/landing.md) dat de bruikbaarheid en het gemak van navigatie verbetert. |
 | Nieuw onderwerp over [!UICONTROL Page Summary] deelvenster | [Het deelvenster Paginaoverzicht](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Nieuw onderwerp over [!UICONTROL Next/Previous item] deelvenster | [Deelvenster Volgende/vorige dimensie-item](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
-| **maart 2022** |  |
+| **Maart 2022** |  |
 | Nieuw onderwerp op ondersteunde HTTPS-versleutelingsalgoritmen | [Ondersteunde HTTPS-versleutelingsalgoritmen](/help/technotes/rdc/encryption-algos.md) voor klanten met het niveau van de cipher veiligheid die aan &quot;Hoog&quot;wordt geplaatst. |
 | Nieuwe documentatie over notities in werkruimte | [Annotaties in werkruimte](/help/analyze/analysis-workspace/components/annotations/overview.md) stelt u in staat om contextuele gegevensnuances en inzichten effectief aan uw organisatie mee te delen. |
 | Adobe Analytics-bestemmingspagina-updates | [Updates](/help/analyze/landing.md) naar de gemeenschappelijke bestemmingspagina van Workspace/Reports &amp; Analytics die bruikbaarheid en gemak van navigatie verbetert. |
@@ -157,7 +157,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 13 juni 2019 | Nieuwe filters uit de doos aan het linkerspooronderzoek in Workspace toegevoegd. Naast de al beschikbare filters (Dimensies, Metrics, Goedgekeurd, enz.) zijn nu ook nieuwe filters, zoals voor berekende standaarden, klantkenmerken, eVars, props, video, enzovoorts. toegevoegd zodat u snel en gemakkelijk de gewenste componenten kunt vinden. |
 | 4 juni 2019 | Nieuwe handleiding getiteld [Overgang van een analyseplatform van derden naar Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | 30 mei 2019 | Herziening van de [Datafeed-kolomverwijzing](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
-| 09 mei 2019 | Er is een nieuwe instelling toegevoegd aan de instellingen voor flowvisualisatie: Include Repeat Instances (Inclusief herhalingsinstanties). Zie [Stroominstellingen](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md) |
+| 09 mei 2019 | Er is een nieuwe instelling toegevoegd aan de instellingen voor flowvisualisatie: Include Repeat Instances (Inclusief herhalingsinstanties). Zie [Stroominstellingen](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 11 april 2019 | Verbeteringen voor best practices voor optimalisatie werkruimte: [Prestaties optimaliseren](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11 april 2019 | Updates van [Workspace-prestaties optimaliseren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14 maart 2019 | Belangrijke update van [Regionale Data Collection](/help/technotes/rdc/regional-data-collection.md). |

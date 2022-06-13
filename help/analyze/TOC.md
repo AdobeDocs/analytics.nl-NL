@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Hoe kan ik-instructies voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics, evenals hulpmiddelen zoals Adobe Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
+source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1046'
 ht-degree: 80%
 
 ---
@@ -71,7 +71,6 @@ ht-degree: 80%
       + Stroom {#flow}
          + [Overzicht van stroom](analysis-workspace/visualizations/c-flow/flow.md)
          + [Een stroomvisualisatie configureren](analysis-workspace/visualizations/c-flow/create-flow.md)
-         + [Stroominstellingen](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Interdimensionale stromen](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histogram](analysis-workspace/visualizations/histogram.md)
       + [Kaart](analysis-workspace/visualizations/map-visualization.md)
