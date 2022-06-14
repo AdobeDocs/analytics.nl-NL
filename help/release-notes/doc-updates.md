@@ -4,10 +4,10 @@ description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+source-git-commit: 94e9f0688de4dd5b3d2a36d8eb68b0963bc67071
 workflow-type: tm+mt
-source-wordcount: '3143'
-ht-degree: 40%
+source-wordcount: '3303'
+ht-degree: 38%
 
 ---
 
@@ -23,6 +23,12 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Datum | Beschrijving |
 | --- | --- |
+| **Juni 2022** |  |
+| Bijgewerkte documentatie voor stroomvisualisatie | Op basis van de [nieuwe interface](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
+| Documentatie over het delen van annotaties in mobiele scorecards | U kunt [annotaties die zijn gemaakt in Workspace, in Mobile Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
+| Documentatie over de productsyntaxisversie van het Merchandising Variables met de Inzameling van de Rand | U kunt nu de variabelen voor het wijzigen van de handel instellen met behulp van het equivalent van de productsyntaxis door de relevante XDM-velden in te stellen. Meer informatie over productsyntaxis voor handelsvariabelen vinden [hier](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en). Zie de toewijzingen voor productsyntaxis [hier](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). |
+| **Mei 2022** |  |
+| De afmetingen en metriek van de levenscyclus populeren via Experience Edge | Gegevens over de mobiele levenscyclus die via Experience Edge worden verzonden, worden nu weergegeven in Analytics-rapportage. Zie de documentatie voor meer informatie over welke XDM-velden zijn toegewezen aan bestaande rapportage over de mobiele levenscyclus. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
 | **April 2022** |  |
 | Adobe Analytics-bestemmingspagina-updates | Updates van de gemeenschappelijke [De landingspagina Werkruimte/Rapporten &amp; Analyse](/help/analyze/landing.md) dat de bruikbaarheid en het gemak van navigatie verbetert. |
 | Nieuw onderwerp over [!UICONTROL Page Summary] deelvenster | [Het deelvenster Paginaoverzicht](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
