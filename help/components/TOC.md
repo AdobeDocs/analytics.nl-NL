@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: De hulp beheert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, alarm, marketing kanalen, classificaties, en leert over de Analysemogelijkheden van het Apparaat.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 50%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -227,6 +227,18 @@ ht-degree: 50%
    + [Intelligente waarschuwingen - gebruiksscenario&#39;s](c-alerts/alerts-use-cases.md)
 + Classificaties {#classifications}
    + [Overzicht van classificaties](classifications/c-classifications.md)
+   + Classificatiesets {#sets}
+      + [Overzicht van classificatiesets](classifications/sets/overview.md)
+      + [Classification Sets Manager](classifications/sets/set-manager.md)
+      + [Taakbeheer classificatieset](classifications/sets/job-manager.md)
+      + [Een classificatieset maken](classifications/sets/create.md)
+      + [Instellingen voor classificatieset](classifications/sets/settings.md)
+   + Builder voor classificatieregels {#classifications-rulebuilder}
+      + [Workflow van de Builder voor classificatieregels](classifications/crb/classification-rule-builder.md)
+      + [Classificatieregelsets](classifications/crb/classification-rule-set.md)
+      + [Classificatieregels](classifications/crb/classification-quickstart-rules.md)
+      + [Classificatieregels - definities](classifications/crb/classification-rule-definitions.md)
+      + [Subclassificaties en de Rule Builder](classifications/crb/sub-classification-rule-builder.md)
    + Invoerder van classificaties {#classifications-importer}
       + [Importeren van classificaties - overzicht](classifications/importer/c-working-with-saint.md)
       + [Classificatiedatabestanden](classifications/importer/c-saint-data-files.md)
@@ -241,12 +253,6 @@ ht-degree: 50%
       + [FTP-export](classifications/importer/ftp-export.md)
       + [Verwerkingstijd](classifications/importer/processing-time.md)
       + [Problemen oplossen](classifications/importer/troubleshooting.md)
-   + Builder voor classificatieregels {#classifications-rulebuilder}
-      + [Workflow van de Builder voor classificatieregels](classifications/crb/classification-rule-builder.md)
-      + [Classificatieregelsets](classifications/crb/classification-rule-set.md)
-      + [Classificatieregels](classifications/crb/classification-quickstart-rules.md)
-      + [Classificatieregels - definities](classifications/crb/classification-rule-definitions.md)
-      + [Subclassificaties en de Rule Builder](classifications/crb/sub-classification-rule-builder.md)
    + [Subclassificaties](classifications/c-sub-classifications.md)
    + [Veelgestelde vragen over classificaties](classifications/faq.md)
 + [Kalendergebeurtenissen](t-calendar-event.md)

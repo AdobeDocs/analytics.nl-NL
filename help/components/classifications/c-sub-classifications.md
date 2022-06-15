@@ -1,16 +1,16 @@
 ---
 description: Adobe Analytics ondersteunt classificatiemodellen op één niveau en op meerdere niveaus. Met een classificatiehiërarchie kunt u een classificatie toepassen op een classificatie.
-title: Informatie over subclassificaties
+title: Subclassificaties
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 611f20718c0af133f2daf3fe44e8a5b9ea97336b
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Informatie over subclassificaties
+# Subclassificaties
 
 Adobe Analytics ondersteunt classificatiemodellen op één niveau en die op meerdere niveaus. Met een classificatiehiërarchie kunt u een classificatie toepassen op een classificatie.
 
@@ -88,6 +88,6 @@ Wanneer u gegevensbestanden uploadt voor deze productclassificatie, kunt u de cl
 
 | SLEUTEL | CODE | CODE^KLEUR |
 |---|---|---|
-| * | 01 | Steen |
-| * | 03 | Heather |
-| * | 23 | Aqua |
+| &#42; | 01 | Steen |
+| &#42; | 03 | Heather |
+| &#42; | 23 | Aqua |
