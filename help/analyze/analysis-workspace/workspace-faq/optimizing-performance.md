@@ -4,9 +4,9 @@ title: Analysis Workspace-prestatiefactoren en -optimalisatie
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 568000a7da84301f8a7c5a48a68a146e4af5f105
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '1943'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,6 @@ Aanvullende factoren die niet zijn opgenomen in Help > Prestaties zijn onder and
 | Complexiteit van visualisatie (segmenten, meetgegevens, filters) | Het type visualisatie (bijvoorbeeld fallout versus een vrije-vormlijst) dat op zich aan een project wordt toegevoegd beïnvloedt niet zeer veel projectprestaties. Het is de complexiteit van de visualisatie die de verwerkingstijd vergroot. | Factoren die complexiteit toevoegen aan een visualisatie zijn:<ul><li>Bereik van gevraagde gegevens</li><li>Aantal toegepaste segmenten; bijvoorbeeld segmenten die worden gebruikt als rijen van een vrije-vormtabel</li><li>Gebruik van complexe segmenten</li><li>[Statisch item](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html) rijen of kolommen in vrije-vormtabellen</li><li>Filters die worden toegepast op rijen in vrije-vormtabellen</li><li>Aantal inbegrepen metriek, vooral berekende metriek die segmenten gebruiken</li></ul> | Als u merkt dat uw projecten niet zo snel laden zoals u zou willen, probeer vervangend sommige segmenten met steunen en filters, waar mogelijk.<br><br>Als u zich voortdurend gebruikend segmenten en berekende metriek voor gegevenspunten vindt die voor uw zaken belangrijk zijn, denk na verbeterend uw implementatie om deze gegevenspunten directer te vangen. Door het gebruik van tags in Adobe Experience Platform en verwerkingsregels voor Adobe kunnen implementatiewijzigingen snel en eenvoudig worden geïmplementeerd. |
 | Grootte van rapportsuite | De hoeveelheid gegevens die in uw rapportsuite wordt verzameld. | - | Raadpleeg uw implementatieteam of een Adobe-expert om te bepalen of er implementatieverbeteringen zijn die kunnen worden aangebracht om de algehele ervaring in Adobe Analytics te verbeteren. |
 | Gelijktijdige query&#39;s | Het aantal vragen die door uw organisatie aan Adobe tezelfdertijd worden gevraagd. Elke organisatie heeft recht op minimaal vijf gelijktijdige query&#39;s. | Als een rapport lange tijd neemt, typisch is het toe te schrijven aan het feit dat het in een rij met andere rapporten is. Dit betekent uw organisatie probeert om vele gezamenlijke verzoeken tegen een specifieke rapportreeks in werking te stellen. De vragen kunnen van API verzoeken, rapporteringsUIs (Analysis Workspace, Rapporten &amp; Analytics, Report Builder, enz.), geplande projecten, geplande rapporten, gepland alarm, en gezamenlijke gebruikers komen die het melden verzoeken. | Verspreid uw verzoeken en programma&#39;s voor de rapportreeks gelijkmatiger door de dag. Verplaats uw verzoeken waar mogelijk naar tijden buiten de piek. Maandochtenden, dinsdagochtend en de eerste van elke maand zijn de hoogste rapportagetijden. |
-| Capaciteit datacenter | De hoeveelheid rapporteringscapaciteit u en andere klanten binnen een Adobe gegevenscentrum delen. | Dit wordt beïnvloed door het aantal gezamenlijke vragen die door uw organisatie en andere organisaties binnen uw gegevenscentrum worden gemaakt. | Uw organisatie heeft recht op een ingestelde capaciteit en als het systeem onder een lichte belasting staat, zal Adobe meer capaciteit naar u verschuiven, boven en boven uw recht op vergoeding. |
 
 ## Tips om de productiviteit in Analysis Workspace te verhogen
 
