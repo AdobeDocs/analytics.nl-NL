@@ -1,13 +1,13 @@
 ---
 title: Indelingssetbeheer
 description: Classificatiesets beheren in Adobe Analytics.
-source-git-commit: fae00c7ba48d9595628f68e63fd16e37a6a4c84a
+exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
-
 
 # Indelingssetbeheer
 
@@ -41,7 +41,7 @@ De volgende knoppen zijn beschikbaar in het venster Indelingssetbeheer:
 
 * **[!UICONTROL Add]**: [Maken](create.md) een classificatieset.
 * **[!UICONTROL Search by title]**: Zoeken naar classificatiesets op naam.
-* **[!UICONTROL Load more]**: In het Beheer van de classificatieset worden aanvankelijk maximaal 1000 classificatiesets weergegeven. Klik op deze knop om nog 1000 classificatiesets te laden.
+* **[!UICONTROL Load more]**: In eerste instantie worden maximaal 1000 classificatiesets weergegeven in het venster Indelingssetbeheer. Klik op deze knop om nog 1000 classificatiesets te laden.
 * **Kolommen tonen/verbergen**: Zichtbaarheid van elke kolom in-/uitschakelen [!UICONTROL Classification Set].
 
 Selecteer een of meer classificatiesets door op het selectievakje naast de gewenste classificatieset te klikken. Als u een classificatieset selecteert, worden de volgende opties weergegeven:

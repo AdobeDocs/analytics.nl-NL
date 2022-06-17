@@ -1,13 +1,13 @@
 ---
 title: Een classificatieset maken
 description: Beschikbare velden en beschrijvingen bij het maken van een classificatieset.
-source-git-commit: 7347fe573aaab86bdef51a9d74cbef0e091739d4
+exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
-
 
 # Een classificatieset maken
 
@@ -21,5 +21,7 @@ Wanneer u een classificatieset maakt, zijn de volgende velden beschikbaar.
 * **[!UICONTROL Column Name]**: De naam van de classificatiedimensie die u wilt maken. Dit veld is de naam van de dimensie die in Analysis Workspace wordt gebruikt en de kolomnaam bij het exporteren van classificatiegegevens.
 * **[!UICONTROL Type]**: Keuzerondjes die het type classificatie aangeven. Primaire classificaties worden doorgaans gebruikt; Opzoekclassificaties worden weergegeven [Subclassificaties](../c-sub-classifications.md).
 * **[!UICONTROL Subscriptions]** De rapportsuite en de dimensie waarop deze classificatieset van toepassing is. De steun voor veelvoudige Reeksen van het Rapport is gepland.
+
+![Een classificatieset maken](../assets/classification-set-create.png)
 
 Als er voor een bepaalde rapportsuite +-variabele een classificatieset bestaat, wordt in plaats daarvan de classificatie toegevoegd aan het schema.

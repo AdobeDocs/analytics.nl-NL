@@ -1,13 +1,13 @@
 ---
 title: Classificatieset-instellingen
 description: Een classificatieset maken of bewerken.
-source-git-commit: c9465ea0524225494aa5067d00ca5e7aba4bca92
+exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
+source-git-commit: c849f216f8dda83070fc3f8d8b1c25fba4d2786a
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Classificatieset-instellingen
 
@@ -39,5 +39,27 @@ Momenteel geconfigureerde classificatieafmetingen voor dit abonnement weergeven.
 
 * **[!UICONTROL Upload]**: Upload classificatiegegevens handmatig voor een of meer classificatiedimensies. JSON-, CSV-, TSV- en TAB-bestanden worden ondersteund. Wanneer u een geldig bestand uploadt, wordt een tabelvoorbeeld weergegeven met gegevens die u wilt classificeren.
    * **[!UICONTROL File encoding]**: Selecteer de juiste bestandencodering met deze vervolgkeuzelijst. Geldige opties zijn [!UICONTROL UTF-8] en [!UICONTROL Latin1].
-   * **[!UICONTROL List delimiter]**: Selecteer het juiste lijstscheidingsteken. Als u een gedownload bestand of sjabloonbestand gebruikt, controleert u of [!UICONTROL List delimiter] hier komt overeen met [!UICONTROL List delimiter] wanneer het bestand is gedownload.
+   * **[!UICONTROL List delimiter]**: Selecteer het juiste lijstscheidingsteken. Als u een gedownload bestand of sjabloonbestand gebruikt, moet u ervoor zorgen dat de [!UICONTROL List delimiter] hier komt overeen met [!UICONTROL List delimiter] wanneer het bestand is gedownload.
    * **[!UICONTROL Apply]**: Sla de geüploade classificatiegegevens op in de classificatieset.
+
+   ![Uploaden van classificatieset](../assets/classification-set-upload.png)
+
+* **[!UICONTROL Download]**: Download sleutelwaarden en hun classificatiekolommen.
+   * **[!UICONTROL Rows]**: Het maximumaantal rijen dat in het downloadbestand moet worden opgenomen.
+   * **[!UICONTROL Download rows received between]**: Een kalenderdatumkiezer waarmee u sleutelwaarden kunt filteren op het moment dat ze in de rapportage worden weergegeven. Als er geen sleutelwaarde is verzameld in dit datumbereik, wordt deze niet weergegeven in het gedownloade bestand.
+   * **[!UICONTROL Data returned]**: Een vervolgkeuzelijst waarmee u sleutelwaarden kunt filteren die in het gedownloade bestand zijn opgenomen op basis van de bijbehorende classificatiegegevens.
+      * **[!UICONTROL All classified values]**: Hiermee worden rijen opgenomen waarvan de classificatiegegevens in ten minste één kolom zijn opgenomen.
+      * **[!UICONTROL All unclassified values]**: Hier vindt u rijen waarin classificatiegegevens ontbreken in ten minste één kolom.
+   * **[!UICONTROL File format]**: Vervolgkeuzelijst die de bestandsindeling bepaalt waarin het downloadbestand zich bevindt. Opties omvatten [!UICONTROL JSON], [!UICONTROL Comma separated values], en [!UICONTROL Excel tab separated values].
+   * **[!UICONTROL File encoding]**: Vervolgkeuzelijst die de bestandencodering bepaalt. Opties omvatten [!UICONTROL UTF-8] en [!UICONTROL Latin1]. UTF-8 wordt aanbevolen.
+   * **[!UICONTROL List delimiters]**: Vervolgkeuzelijst die het lijstscheidingsteken bepaalt dat classificatiekolommen op elke rij scheidt.
+
+   ![Downloaden van classificatieset](../assets/classification-set-download.png)
+
+* **[!UICONTROL Template]**: Download een sjabloonbestand. Dit bestand lijkt op het [!UICONTROL Download] , behalve dat het classificatiegegevens of sleutelwaarden bevat.
+   * **[!UICONTROL File format]**: Vervolgkeuzelijst die de bestandsindeling bepaalt waarin het sjabloonbestand zich bevindt. Opties omvatten [!UICONTROL Comma separated values], en [!UICONTROL Excel tab separated values].
+   * **[!UICONTROL File encoding]**: Vervolgkeuzelijst die de bestandencodering bepaalt. Opties omvatten [!UICONTROL UTF-8] en [!UICONTROL Latin1]. UTF-8 wordt aanbevolen.
+   * **[!UICONTROL List delimiters]**: Vervolgkeuzelijst die het lijstscheidingsteken bepaalt dat classificatiekolommen op elke rij scheidt.
+* **[!UICONTROL Job history]**: Een snelkoppeling die u naar de [Taakbeheer](job-manager.md), waarin alleen de banen voor deze classificatieset worden weergegeven.
+
+   ![Classificatieset-sjabloon](../assets/classification-set-template.png)

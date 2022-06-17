@@ -1,13 +1,13 @@
 ---
 title: Overzicht van classificatiesets
 description: Classificatiesets gebruiken om classificatiegegevens te beheren.
-source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van classificatiesets
 
@@ -15,7 +15,7 @@ Classificatiesets bieden één interface voor het beheer van classificaties en r
 
 >[!NOTE]
 >
->Deze functie is momenteel in beperkte versie beschikbaar. Als u toegang wilt tot deze functie, neemt u contact op met de klantenservice van Adobe of met uw accountmanager, die uw verzoek voor levering kan doorsturen naar het team van Classificatieset.
+>Deze functie is momenteel in beperkte versie beschikbaar. Als u toegang wilt tot deze functie, neemt u contact op met de klantenservice van de Adobe of met uw accountmanager, die uw verzoek kan doorsturen naar het indelingsteam voor levering.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**
 
