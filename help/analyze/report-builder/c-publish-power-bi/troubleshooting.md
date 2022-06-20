@@ -4,10 +4,10 @@ title: Problemen met Power BI-integratie oplossen
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
+source-git-commit: f6f65f34c4d8caf04eb3ea47108e36e5b9adf24f
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 2%
+source-wordcount: '405'
+ht-degree: 1%
 
 ---
 
@@ -45,4 +45,4 @@ Beheerders die toegang voor elke instantie hebben verkregen, gebruiken het volge
 
 ## De API-limiet bereiken
 
-Rapportage in Power BI werkt met de API voor analyserapportage, zodat de API-drempelwaarden van toepassing zijn. Zie voor meer informatie [Wat is de tariefgrens voor API vraag?](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
+Rapportage in Power BI werkt met de API voor analyserapportage, zodat de API-drempelwaarden van toepassing zijn. Zie voor meer informatie [Foutcodes voor webservices](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
