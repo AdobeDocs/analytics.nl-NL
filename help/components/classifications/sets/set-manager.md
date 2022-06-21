@@ -2,9 +2,9 @@
 title: Indelingssetbeheer
 description: Classificatiesets beheren in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,7 @@ De volgende kolommen zijn beschikbaar in het Manager van de Indelingsreeks:
 * **[!UICONTROL Subscriptions]**: Het aantal abonnementen, of het aantal Reeksen van het Rapport dat deze Classificatiereeks op van toepassing is.
 * **[!UICONTROL Owner]**: De eigenaar van de classificatieset.
 * **[!UICONTROL Classifications]**: Het aantal classificatiedimensies dat de classificatieset bevat.
-* **[!UICONTROL Automated]**: Geeft aan of de classificatieset is geconfigureerd om automatisch gegevens van een FTP-site te ophalen.
 * **[!UICONTROL Last Modified]**: De datum en tijd waarop de classificatieset voor het laatst is gewijzigd.
-* **[!UICONTROL FTP Host + Path]**: Indien geautomatiseerd, de FTP-locatie waaruit de Classificatieset gegevens ophaalt.
 
 ## Opties maken of bewerken
 
