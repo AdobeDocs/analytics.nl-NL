@@ -4,9 +4,9 @@ description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 94e9f0688de4dd5b3d2a36d8eb68b0963bc67071
+source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
 workflow-type: tm+mt
-source-wordcount: '3303'
+source-wordcount: '3351'
 ht-degree: 38%
 
 ---
@@ -24,6 +24,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Datum | Beschrijving |
 | --- | --- |
 | **Juni 2022** |  |
+| Experience Platform Edge-documentatie | Nieuwe artikelen over Adobe Analytics-implementatie via [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en), en [Edge-API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en). |
 | Bijgewerkte documentatie voor stroomvisualisatie | Op basis van de [nieuwe interface](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
 | Documentatie over het delen van annotaties in mobiele scorecards | U kunt [annotaties die zijn gemaakt in Workspace, in Mobile Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
 | Documentatie over de productsyntaxisversie van het Merchandising Variables met de Inzameling van de Rand | U kunt nu de variabelen voor het wijzigen van de handel instellen met behulp van het equivalent van de productsyntaxis door de relevante XDM-velden in te stellen. Meer informatie over productsyntaxis voor handelsvariabelen vinden [hier](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en). Zie de toewijzingen voor productsyntaxis [hier](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). |
