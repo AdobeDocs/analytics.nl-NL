@@ -3,7 +3,7 @@ title: products
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 3edb7208f4b11a2fa58a2f7c696444ab998a6bfe
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -22,8 +22,8 @@ De `products` met variabele tracks kunt u producten en eigenschappen bijhouden d
 
 Producten zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder verschillende XDM-velden:
 
-* Categorie is toegewezen aan `productListItems[].name`.
-* Product is toegewezen aan `productListItems[]._id`.
+* Categorie is toegewezen aan `productListItems[].lineItemId`.
+* Product is toegewezen aan `productListItems[].name`.
 * Aantal is toegewezen aan `productListItems[].quantity`.
 * Prijs is toegewezen aan `productListItems[].priceTotal`.
 * Merchandising eVars worden toegewezen aan `productListItems._experience.analytics.customDimensions.eVars.eVar1` tot `productListItems._experience.analytics.customDimensions.eVars.eVar250`, afhankelijk van welke eVar u aan een product wilt binden.
