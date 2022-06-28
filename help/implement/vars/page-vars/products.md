@@ -3,9 +3,9 @@ title: products
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3edb7208f4b11a2fa58a2f7c696444ab998a6bfe
+source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,11 @@ Producten zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.
 * Prijs is toegewezen aan `productListItems[].priceTotal`.
 * Merchandising eVars worden toegewezen aan `productListItems._experience.analytics.customDimensions.eVars.eVar1` tot `productListItems._experience.analytics.customDimensions.eVars.eVar250`, afhankelijk van welke eVar u aan een product wilt binden.
 * Merchandising-gebeurtenissen worden toegewezen aan `productListItems[]._experience.analytics.event1to100.event1.value` tot `productListItems._experience.analytics.event901to1000.event1000.value`, afhankelijk van welke gebeurtenis u aan een product wilt binden.
+
+>[!NOTE]
+>
+>`lineItemId` moet worden toegevoegd als een aangepast veld omdat dit geen deel uitmaakt van het standaardschema voor analysegebeurtenissen. In de toekomst zullen we een speciaal &#39;categorie&#39;-veld toevoegen.
+
 
 ## Producten die de extensie Adobe Analytics gebruiken
 
