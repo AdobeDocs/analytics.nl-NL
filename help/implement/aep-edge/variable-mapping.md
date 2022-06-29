@@ -2,9 +2,9 @@
 title: Variabeletoewijzing analyseren in Adobe Experience Edge
 description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen aan analytische variabelen.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 66724724788c406fff3abf30c711090accd2d632
+source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge 
 | --- | --- |
 | `application.id` | De mobiele dimensie [Toepassings-id](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `application.isClose` | Helpt de mobiele metrische waarde te definiëren [Crashes](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isInstall` | Helpt u te bepalen wanneer u de mobiele meting wilt verhogen [Eerste keer starten](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isLaunch` | Helpt u te bepalen wanneer u de mobiele meting wilt verhogen [Eerste keer starten](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.closeType` | Hiermee wordt bepaald of een close-gebeurtenis vastloopt of niet. Geldige waarden zijn `close` (Een levenscyclussessie eindigt en er is een pauze-gebeurtenis ontvangen voor de vorige sessie) en `unknown` (Een levenscyclussessie eindigt zonder pauze-gebeurtenis). Hiermee stelt u de [Crashes](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) metrisch. |
 | `application.isInstall` | De mobiele metrisch [Installaties](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | De mobiele metrisch [Starten](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
@@ -28,10 +30,15 @@ In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge 
 | `commerce.checkouts.value` | Verhoogt de [Afbeeldingen](../../components/metrics/checkouts.md) met de gewenste hoeveelheid. |
 | `commerce.order.currencyCode` | Hiermee stelt u de [currencyCode](../vars/config-vars/currencycode.md) configuratievariabele. |
 | `commerce.order.purchaseID` | Hiermee stelt u de [purchaseID](../vars/page-vars/purchaseid.md) paginavariabele. |
+| `commerce.productListAdds.id` | Toepassingen [gebeurtenisserienummering](../vars/page-vars/events/event-serialization.md) aan de [Extra winkelwagentjes](../../components/metrics/cart-additions.md) metrisch. |
 | `commerce.productListAdds.value` | Verhoogt de [Extra winkelwagentjes](../../components/metrics/cart-additions.md) metrisch. |
+| `commerce.productListOpens.id` | Toepassingen [gebeurtenisserienummering](../vars/page-vars/events/event-serialization.md) aan de [Houtskaarten](../../components/metrics/carts.md) metrisch. |
 | `commerce.productListOpens.value` | Verhoogt de [Houtskaarten](../../components/metrics/carts.md) metrisch. |
+| `commerce.productListRemovals.id` | Toepassingen [gebeurtenisserienummering](../vars/page-vars/events/event-serialization.md) aan de [Winkelwagentjes](../../components/metrics/cart-removals.md) metrisch. |
 | `commerce.productListRemovals.value` | Verhoogt de [Winkelwagentjes](../../components/metrics/cart-removals.md) metrisch. |
+| `commerce.productListViews.id` | Toepassingen [gebeurtenisserienummering](../vars/page-vars/events/event-serialization.md) aan de [Kleuraweergaven](../../components/metrics/cart-views.md) metrisch. |
 | `commerce.productListViews.value` | Verhoogt de [Kleuraweergaven](../../components/metrics/cart-views.md) metrisch. |
+| `commerce.productViews.id` | Toepassingen [gebeurtenisserienummering](../vars/page-vars/events/event-serialization.md) aan de [Productweergaven](../../components/metrics/product-views.md) metrisch. |
 | `commerce.productViews.value` | Verhoogt de [Productweergaven](../../components/metrics/product-views.md) metrisch. |
 | `commerce.purchases.value` | Verhoogt de [Orders](../../components/metrics/orders.md) metrisch. |
 | `device.model` | De mobiele dimensie [Apparaatnaam](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
@@ -49,7 +56,8 @@ In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge 
 | `environment.connectionType` | Hiermee stelt u de [Verbindingstype](../../components/dimensions/connection-type.md) dimensie. |
 | `environment.ipV4` | Wordt gebruikt als fallback [unieke bezoeker](../../components/metrics/unique-visitors.md) identificatiemethode. Doorgaans gevuld met de `X-Forwarded-For` HTTP-header. |
 | `environment.language` | De mobiele dimensie Locale. |
-| `environment.operatingSystemVersion` | De mobiele dimensie [Versie besturingssysteem](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.operatingSystem` | De mobiele dimensie [Besturingssysteem](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.operatingSystemVersion` | Hiermee stelt u de [Versie besturingssysteem](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) dimensie. |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Hiermee worden de respectievelijke instellingen ingesteld [eVar](../../components/dimensions/evar.md) dimensie. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Het scheidingsteken dat voor een gegeven wordt gebruikt [List Prop](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Een tekenreeks die de respectievelijke [List Prop](../vars/page-vars/prop.md#list-props) waarden. |
@@ -117,12 +125,6 @@ In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge 
 {style=&quot;table-layout:auto&quot;}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
-<!--| `commerce.productListAdds.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Additions](../../components/metrics/cart-additions.md) metric. |-->
-<!--| `commerce.productListOpens.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Carts](../../components/metrics/carts.md) metric. |-->
-<!--| `commerce.productListRemovals.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Removals](../../components/metrics/cart-removals.md) metric. |-->
-<!--| `commerce.productListViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Views](../../components/metrics/cart-views.md) metric. |-->
-<!--| `commerce.productViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Product Views](../../components/metrics/product-views.md) metric. |-->
-<!--| `environment.operatingSystem` | The mobile dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |-->
 
 ## Andere XDM-velden toewijzen aan analytische variabelen
 
