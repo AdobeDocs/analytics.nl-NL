@@ -2,9 +2,9 @@
 title: Een classificatieset maken
 description: Beschikbare velden en beschrijvingen bij het maken van een classificatieset.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Een classificatieset maken
 
 U kunt de Manager van de Reeks van de Classificatie gebruiken om een Classificatiereeks tot stand te brengen.
+
+>[!NOTE]
+>
+>Deze functie is momenteel in beperkte versie beschikbaar. Als u toegang wilt tot deze functie, neemt u contact op met de klantenservice van de Adobe of met uw accountmanager, die uw verzoek kan doorsturen naar het indelingsteam voor levering.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > **[!UICONTROL Add]**
 

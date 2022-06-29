@@ -2,9 +2,9 @@
 title: Indelingssetbeheer
 description: Classificatiesets beheren in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Indelingssetbeheer
 
 Met de Classification Set Manager kunt u classificatiesets maken, bewerken of verwijderen.
+
+>[!NOTE]
+>
+>Deze functie is momenteel in beperkte versie beschikbaar. Als u toegang wilt tot deze functie, neemt u contact op met de klantenservice van de Adobe of met uw accountmanager, die uw verzoek kan doorsturen naar het indelingsteam voor levering.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]**
 

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: De hulp beheert uw gegevens gebruikend componenten zoals segmenten, berekende metriek, virtuele rapportsuites, alarm, marketing kanalen, classificaties, en leert over de Analysemogelijkheden van het Apparaat.
-source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '693'
+ht-degree: 49%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 0%
    + Classificatiesets {#sets}
       + [Overzicht van classificatiesets](classifications/sets/overview.md)
       + [Classification Sets Manager](classifications/sets/set-manager.md)
-      + [Taakbeheer classificatieset](classifications/sets/job-manager.md)
+      + [Indelingsset taakbeheer](classifications/sets/job-manager.md)
       + [Een classificatieset maken](classifications/sets/create.md)
       + [Instellingen voor classificatieset](classifications/sets/settings.md)
    + Builder voor classificatieregels {#classifications-rulebuilder}

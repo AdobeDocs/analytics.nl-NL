@@ -2,9 +2,9 @@
 title: Taakbeheer voor classificatieset
 description: Huidige en voltooide classificatietaken weergeven die zijn gegenereerd uit classificatiesets.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Indelingsset taakbeheer
 
 Met de Classificatieset Taakbeheer kunt u huidige en voltooide classificatietaken zien die zijn gegenereerd op basis van classificatiesets. U kunt deze interface ook gebruiken om classificatiegegevens of sjablonen voor een bepaalde taak te downloaden of aanvullende gegevens te uploaden naar een taak.
+
+>[!NOTE]
+>
+>Deze functie is momenteel in beperkte versie beschikbaar. Als u toegang wilt tot deze functie, neemt u contact op met de klantenservice van de Adobe of met uw accountmanager, die uw verzoek kan doorsturen naar het indelingsteam voor levering.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Jobs]**
 
