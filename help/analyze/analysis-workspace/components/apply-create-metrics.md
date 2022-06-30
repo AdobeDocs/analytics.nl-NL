@@ -4,36 +4,42 @@ title: Metriek in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 56fd6dd8450df3ffea78154fafa1e858d5a653a7
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Metrics
 
-Er zijn twee manieren om metriek in Analysis Workspace te gebruiken.
+Met cijfers kunt u gegevenspunten in Analysis Workspace kwantificeren. Deze worden meestal gebruikt als kolommen in een visualisatie en zijn gekoppeld aan afmetingen.
 
-* U kunt een standaard metrische, berekende metrische of berekende metrische sjabloon slepen vanuit de [!UICONTROL Components] aan de tabel:
+Adobe biedt verschillende typen maateenheden voor gebruik in Analysis Workspace:
 
-   ![](assets/metrics_icons.png)
+* **Standaardwaarden**: De meeste metriek die u in projecten gebruikt zijn standaardmetriek. Voorbeelden zijn [Paginaweergaven](/help/components/metrics/page-views.md), [Ontvangsten](/help/components/metrics/revenue.md), of [Aangepaste gebeurtenissen](/help/components/metrics/custom-events.md). Zie [Overzicht van statistieken](/help/components/metrics/overview.md) in de gebruikershandleiding van Componenten voor meer informatie.
 
-   >[!NOTE]
-   >
-   >Hoewel dit schijnbaar eenvoudig is, is het gebruik van metriek vrij krachtig. U kunt metriek aan een rapport toevoegen door aangewezen metrisch aan de metrieke sectie van een lijst te slepen. U kunt afmetingen ook onderverdelen door metriek, die u verfijnde controle over de lijstmening geven. Voorts kunt u metrisch als afmeting en een afmeting als metrisch opnemen om een overlooprapport tot stand te brengen. Speel rond met de diverse componenten en zie wat u kunt doen. De mogelijkheden zijn eindeloos.
+   ![Standaard metrisch](assets/standard-metric.png)
 
-* U kunt ook op **[!UICONTROL Components]** > **[!UICONTROL New Metric]**. Hiermee gaat u naar de [Berekende metrische bouwer](/help/components/c-calcmetrics/cm-overview.md), waar u aangepaste metriek kunt maken op basis van bestaande metriek.
+* **Berekende cijfers**: Door de gebruiker gedefinieerde meetwaarden die zijn gebaseerd op standaardmeetwaarden, statische getallen of algoritmische functies. Door de gebruiker gedefinieerde berekende meetwaarden geven een rekenprijspictogram weer in de lijst met beschikbare componenten. Zie [Overzicht van berekende statistieken](/help/components/c-calcmetrics/cm-overview.md) in de gebruikershandleiding van Componenten voor meer informatie.
 
-Hier is een video over het werken met metriek in een lijst Freeform:
+   ![Berekende metrische waarde](assets/calculated-metric.png)
+
+* **Berekende metrische sjablonen**: Adobe-bepaalde metriek die zich gelijkaardig aan berekende metriek gedragen. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica ervan aan te passen. De berekende metrische malplaatjes tonen een Adobe pictogram in de lijst van beschikbare componenten.
+
+   ![Berekende metrische sjabloon](assets/calculated-metric-template.png)
+
+Metriek is flexibel in het gebruik binnen Analysis Workspace. Sleep metrisch aan een lege lijst Freeform om te zien die metrisch over de de datumperiode van het project trended. U kunt metrisch ook slepen wanneer een afmeting aanwezig is om dat metrisch vergeleken bij elk afmetingspunt te zien. Als u een metrische waarde boven op een bestaande metrische koptekst sleept, wordt deze vervangen en als u een metrische waarde naast een koptekst sleept, ziet u beide meetgegevens naast elkaar.
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
 ## Berekende standaarden
 
-Om het gemakkelijker te maken om snel berekende metriek tot stand te brengen, **[!UICONTROL Create metric from selection]** is toegevoegd aan het met de rechtermuisknop aanklikken van de kolom in de Lijsten van de Vrije Vorm. Deze optie wordt weergegeven wanneer een of meer cellen met kopteksten zijn geselecteerd.
+Met berekende meetwaarden kunt u gemakkelijk zien hoe de meetgegevens op elkaar betrekking hebben met behulp van eenvoudige operatoren of statistische functies. U kunt op verschillende manieren berekende metriek maken:
 
-![](assets/calc_metrics.png)
+* Klik op het plusteken naast de koptekst Metriek onder de lijst met componenten aan de linkerkant.
+* Ga naar **[!UICONTROL Componets]** > **[!UICONTROL Calculated Metrics]** > **[!UICONTROL Add]**.
+* Klik met de rechtermuisknop op een kolomkop > **[!UICONTROL Create metric from selection]** wanneer een of meer cellen van de kopkolom zijn geselecteerd. Deze optie leidt automatisch tot berekende metrisch voor u zonder het moeten de Berekende Metrische Bouwer van de Regel gebruiken.
 
 [Berekende waarden: Metriek zonder implementatie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
