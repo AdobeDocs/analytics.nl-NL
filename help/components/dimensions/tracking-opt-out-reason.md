@@ -3,14 +3,16 @@ title: Redenen voor opt-out bijhouden
 description: Hiermee wordt een voorvertoning weergegeven van de gegevens die worden uitgesloten als u Privacy-instellingen hebt ingeschakeld.
 feature: Dimensions
 exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
-source-git-commit: 4c896fe930b52e440f8b91725fa6451faaa76fc8
+source-git-commit: b7209b914695423099266f5c507eaa34c2b98bc5
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
 # Redenen voor opt-out bijhouden
+
+*Deze pagina verwijst naar de dimensie waarmee u potentiële gegevensgevolgen van het toelaten van bepaalde montages van de Reeks van het Rapport kunt zien. Het heeft geen betrekking op de [Adobe Experience Cloud ID Opt-in Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html).*
 
 De dimensie &#39;Optie om te weigeren volgen&#39; fungeert als voorvertoning van gegevens die worden uitgesloten als u Privacy-instellingen hebt ingeschakeld. Deze dimensie wordt vooral gebruikt om te bepalen of uw implementatie negatief zou beïnvloeden als u toeliet [Privacy-instellingen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) onder Instellingen van rapportsuite.
 
