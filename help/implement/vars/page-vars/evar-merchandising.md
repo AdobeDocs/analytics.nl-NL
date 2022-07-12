@@ -4,9 +4,9 @@ description: Aangepaste variabelen die aan afzonderlijke producten zijn gekoppel
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 2624a18896f99aadcfe0a04538ece21c370a28b9
+source-git-commit: 9a94e910d4e837bb9808b5662beebe6214ed4174
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ XDM-structuur:
 Resulterende &#39;products&#39;-parameter doorgegeven aan Analytics:
 
 ```js
-pl = ;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large
+pl = ”;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large”
 ```
 
 ## Implementeren met syntaxis van conversievariabelen
@@ -107,6 +107,8 @@ De waarde `"Aviary"` for `eVar1` is toegewezen aan het product `"Canary"`. Alle 
 
 U kunt dezelfde informatie opgeven met XDM-velden die zijn toegewezen aan Analytics-velden. U kunt een lijst van alle afbeeldingen van XDM aan de parameters van Analytics zien [hier](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). XDM die het voorbeeld hierboven weerspiegelt zou als het volgende kijken:
 
+Stel de eVar in op dezelfde of vorige gebeurtenisaanroep:
+
 ```js
                   "_experience": {
                       "analytics": {
@@ -116,7 +118,12 @@ U kunt dezelfde informatie opgeven met XDM-velden die zijn toegewezen aan Analyt
                               }
                           }
                       }
-                  },
+                  }
+```
+
+Stel de bindingsgebeurtenis en -waarden voor de productreeks in:
+
+```js
                   "commerce": {
                       "productViews" : {
                           "value" : 1
