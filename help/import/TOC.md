@@ -12,7 +12,7 @@ ht-degree: 65%
 ---
 
 
-# Adobe Analytics Import Guide {#import}
+# Adobe Analytics-importgids {#import}
 
 + [Handleiding voor importeren van analysemogelijkheden](home.md)
 + [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
@@ -43,6 +43,6 @@ ht-degree: 65%
 + [API voor data-invoer in bulk](bulk-data-insertion-api/bulk-data-insert.md)
 + [API voor data-invoer](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
-   + [Einde van levensduur voor gegevensconnectors van Analytics](data-connectors/data-connectors-eol.md)
+   + [Einde van levensduur voor Analytics Data Connectors](data-connectors/data-connectors-eol.md)
 + Gebruiksscenario&#39;s importeren {#use-cases}
    + [Betaalde zoekgegevens importeren met behulp van gegevensbronnen](use-cases/paid-search-metrics.md)

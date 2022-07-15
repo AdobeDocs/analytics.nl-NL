@@ -40,7 +40,7 @@ ht-degree: 55%
    + [Veelgestelde vragen](c-advertising-analytics/aa-faq.md)
 + [Adobe Analytics voor Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
 + [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
-+ [Adobe Campaign reporting in Adobe Analytics](adobe-campaign.md)
++ [Adobe Campaign-rapportage in Adobe Analytics](adobe-campaign.md)
 + [Adobe Analytics-gegevens integreren met Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [AEM Assets-rapportage](aem-assets-reporting.md)
 + [Activity Map-rapportage](activitmap-reporting.md)
