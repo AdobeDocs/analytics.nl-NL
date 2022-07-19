@@ -4,9 +4,9 @@ keywords: Gegevensfeed;taak;vóór kolom;na kolom;hoofdlettergevoeligheid
 title: Veelgestelde vragen over gegevensfeeds
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: ef228e7d7ba41e934fe7a74db15ce112be2c13d8
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -15,59 +15,57 @@ ht-degree: 0%
 
 Veelgestelde vragen over gegevensfeeds.
 
-## Moeten voedernamen uniek zijn?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
+## Moeten voedernamen uniek zijn?{#unique}
 
 Namen van gegevensdoorvoerbestanden bestaan uit de rapportsuite-id en de datum. Om het even welke twee voer die voor zelfde RSID en datum(s) worden gevormd heeft de zelfde dossiernaam. Als deze feeds op dezelfde locatie worden geleverd, overschrijft het ene bestand het andere. Om te voorkomen dat een bestand wordt overschreven, kunt u geen feed maken die een bestaande feed op dezelfde locatie kan overschrijven.
 
-Wanneer u een feed probeert te maken terwijl een andere feed met dezelfde bestandsnaam bestaat, wordt het volgende bericht weergegeven:
-
-Als deze fout optreedt, moet u rekening houden met de volgende tijdelijke oorzaken:
+Als u een feed probeert te maken terwijl een andere feed met dezelfde bestandsnaam bestaat, wordt een foutbericht weergegeven. Overweeg de volgende tijdelijke oorzaken:
 
 * Het leveringspad wijzigen
 * Wijzig indien mogelijk de datums
 * Wijzig indien mogelijk de rapportsuite
 
-## Wanneer worden gegevens verwerkt? {#section_6346328F8D8848A7B81474229481D404}
+## Wanneer worden gegevens verwerkt? {#processed}
 
 Vóór de verwerking van uur of daggegevens, wacht de gegevensvoer tot alle klappen die gegevensinzameling binnen het tijdsbestek (dag of uur) zijn ingegaan uit zijn geschreven aan gegevenspakhuis. Daarna, verzamelen de gegevensvoer de gegevens met tijdstempels die binnen het tijdskader vallen, het comprimeert, en verzendt het via FTP. Voor uurvoer worden de dossiers typisch geschreven aan gegevenspakhuis binnen 15-30 min na het uur, maar er is geen vastgestelde tijdspanne. Als er geen gegevens zijn met tijdstempels die binnen de tijdlijn vallen, probeert het proces het volgende tijdkader opnieuw. Het huidige gegevensinvoerproces gebruikt de `date_time` om te bepalen welke treffers tot het uur behoren. Dit gebied is gebaseerd op de tijdzone van de rapportreeks.
 
-## Wat is het verschil tussen kolommen met een `post_` prefix en kolommen zonder a `post_` voorvoegsel?
+## Wat is het verschil tussen kolommen met een `post_` prefix en kolommen zonder a `post_` voorvoegsel? {#post}
 
 Kolommen zonder de `post_` bevatten precies dezelfde gegevens als die naar de gegevensverzameling zijn verzonden. Kolommen met een `post_` bevat na verwerking de waarde. De voorbeelden die een waarde kunnen veranderen zijn veranderlijke persistentie, verwerkingsregels, de regels van VISTA, muntomzetting, of andere server-zijlogica Adobe van toepassing. Adobe raadt u aan de `post_` versie van een kolom indien mogelijk.
 
 Als een kolom geen `post_` versie (bijvoorbeeld `visit_num`), kan de kolom als een postkolom worden beschouwd.
 
-## Hoe verwerken gegevensfeeds hoofdlettergevoeligheid?
+## Hoe verwerken gegevensfeeds hoofdlettergevoeligheid? {#case}
 
 In Adobe Analytics worden de meeste variabelen voor rapportagedoeleinden als niet-hoofdlettergevoelig beschouwd. &#39;sneeuw&#39;, &#39;sneeuw&#39;, &#39;SNOW&#39; en &#39;sNow&#39; worden bijvoorbeeld allemaal beschouwd als dezelfde waarde. Hoofdlettergevoeligheid blijft behouden in gegevensfeeds.
 
 Als u verschillende variaties ziet van dezelfde waarde tussen kolommen die niet na het plaatsen worden weergegeven (bijvoorbeeld &#39;sneeuw&#39; in de voorkolom en &#39;sneeuw&#39; in de postkolom), gebruikt uw implementatie zowel waarden in hoofdletters als in kleine letters op uw site. De gevalvariatie in de postkolom werd eerder overgegaan en in het virtuele koekje opgeslagen, of rond de zelfde tijd voor die rapportreeks verwerkt.
 
-## Worden bots gefilterd door de regels van de Admin console bot inbegrepen in gegevensvoer?
+## Worden bots gefilterd door de regels van de Admin console bot inbegrepen in gegevensvoer? {#bots}
 
 Gegevensfeeds omvatten geen bommen gefilterd door [Regels voor bot in de beheerconsole](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html).
 
-## Waarom zie ik meerdere `000` waarden in de `event_list` of `post_event_list` kolom voor gegevensinvoer?
+## Waarom zie ik meerdere `000` waarden in de `event_list` of `post_event_list` kolom voor gegevensinvoer? {#values}
 
 Sommige spreadsheeteditors, met name Microsoft Excel, laten grote aantallen automatisch rond. De `event_list` de kolom bevat vele komma-afgebakende aantallen, soms veroorzakend Excel om het als groot aantal te behandelen. Hiermee worden de laatste verschillende cijfers afgerond op `000`.
 
 Adobe raadt u aan het bestand niet automatisch te openen `hit_data.tsv` bestanden in Microsoft Excel. Gebruik in plaats daarvan het dialoogvenster Gegevens importeren van Excel en zorg ervoor dat alle velden worden behandeld als tekst.
 
-## Kolommen zijn als `hitid_high`, `hitid_low`, `visid_high`, en `visid_low` gegarandeerd uniek zijn voor de hit of het bezoek?
+## Kolommen zijn als `hitid_high`, `hitid_low`, `visid_high`, en `visid_low` gegarandeerd uniek zijn voor de hit of het bezoek? {#hitid}
 
 In bijna alle gevallen is de samenvoeging van `hitid_high` en `hitid_low` een treffer op unieke wijze identificeren. Hetzelfde concept geldt voor de samenvoeging van `visid_high` en `visid_low` voor bezoeken. Nochtans, kunnen de verwerkingsanomalieën slechts zelden twee klusjes veroorzaken om het zelfde raakidentiteitskaart te delen. Adobe raadt u aan geen workflows voor gegevensinvoer te maken die onflexibel zijn als elke hit uniek is.
 
-## Waarom ontbreekt informatie van de domeinkolom voor sommige dragers? {#section_B7508D65370442C7A314EAED711A2C75}
+## Waarom ontbreekt informatie van de domeinkolom voor sommige dragers? {#domain}
 
 Sommige mobiele dragers (zoals T-Mobile en O1) verstrekken geen domeininfo voor omgekeerde DNS raadplegingen meer. Daarom zijn die gegevens niet beschikbaar voor domeinrapportering.
 
-## Waarom kan ik &quot;Uurly&quot;-bestanden niet extraheren uit gegevens die ouder zijn dan zeven dagen?
+## Waarom kan ik &quot;Uurly&quot;-bestanden niet extraheren uit gegevens die ouder zijn dan zeven dagen? {#hourly}
 
 Voor gegevens die ouder zijn dan 7 dagen, worden de &quot;Uur&quot;dossiers van een dag gecombineerd in één enkel &quot;Dagelijks&quot;dossier.
 
 Voorbeeld: Op 9 maart 2021 wordt een nieuwe gegevensfeed gemaakt en de gegevens van 1 januari 2021 tot en met 9 maart worden als &quot;Uur&quot; geleverd. De &quot;Uurly&quot;-bestanden vóór 2 maart 2021 worden echter gecombineerd tot één &quot;Dagelijks&quot; bestand. U kunt alleen &#39;Uurly&#39;-bestanden extraheren uit gegevens die jonger zijn dan 7 dagen na de aanmaakdatum. In dit geval, van 2 maart tot en met 9 maart.
 
-## Wat is de impact van de zomertijd op de uurgegevens? {#section_70E867D942054DD09048E027A9474FFD}
+## Wat is de impact van de zomertijd op de uurgegevens? {#dst}
 
 Voor bepaalde tijdzones verandert de tijd tweemaal per jaar als gevolg van definities van zomertijd (DST). Het voer van gegevens respecteert de tijdzone waarvoor de rapportreeks wordt gevormd. Als de tijdzone voor de rapportreeks één is die geen DST gebruikt, blijft de dossierlevering normaal als een andere dag verdergaan. Als de tijdzone van de rapportreeks één is die DST gebruikt, wordt de dossierlevering veranderd voor het uur waarin de tijdverandering (gewoonlijk 2:00 am) voorkomt.
 
@@ -75,7 +73,7 @@ Bij het maken van STD -> DST-tijdovergangen (&quot;Voorjaar vooruit&quot;) ontva
 
 Bij het maken van DST -> STD-overgangen (&quot;Terugvallen&quot;) krijgt de klant 24 bestanden. Het uur van de overgang omvat echter eigenlijk twee uur aan gegevens. Als de overgang bijvoorbeeld om 2:00 uur plaatsvindt, wordt het bestand voor 1:00 met één uur vertraagd, maar bevat het gegevens voor twee uur. Het bevat gegevens van 1:00 DST aan 2:00 STD (die 3:00 DST zou zijn geweest). Het volgende bestand begint bij 2:00 STD.
 
-## Hoe behandelt Analytics de mislukte FTP-overdracht? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
+## Hoe behandelt Analytics de mislukte FTP-overdracht? {#ftp-failure}
 
 Als een FTP-overdracht mislukt (als gevolg van een afgewezen aanmelding, een verbroken verbinding, een quotafout of een andere uitgave), probeert Adobe automatisch verbinding te maken en de gegevens maximaal drie keer te verzenden. Als de fouten aanhouden, wordt de feed gemarkeerd als mislukt en wordt een e-mailmelding verzonden.
 
@@ -83,7 +81,7 @@ Als een overdracht mislukt, kunt u een taak opnieuw uitvoeren totdat deze is gel
 
 Als er problemen optreden bij het weergeven van een gegevensfeed op uw FTP-site, raadpleegt u [Problemen met gegevensfeeds oplossen](troubleshooting.md).
 
-## Hoe kan ik een baan opnieuw sturen? {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
+## Hoe kan ik een baan opnieuw sturen? {#resend}
 
 Nadat u het leveringsprobleem hebt geverifieerd/gecorrigeerd, voert u de taak opnieuw uit om de bestanden op te halen.
 
