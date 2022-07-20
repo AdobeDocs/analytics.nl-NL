@@ -2,9 +2,9 @@
 title: Variabeletoewijzing analyseren in Adobe Experience Edge
 description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen aan analytische variabelen.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1342'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,6 @@ In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge 
 
 | XDM-veldpad | Dimensie en beschrijving van analyses |
 | --- | --- |
-| `application.id` | De mobiele dimensie [Toepassings-id](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `application.isClose` | Helpt de mobiele metrische waarde te definiëren [Crashes](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isInstall` | Helpt u te bepalen wanneer u de mobiele meting wilt verhogen [Eerste keer starten](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | Helpt u te bepalen wanneer u de mobiele meting wilt verhogen [Eerste keer starten](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
@@ -128,7 +127,7 @@ In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge 
 
 ## Andere XDM-velden toewijzen aan analytische variabelen
 
-Als er dimensies of metriek zijn die u aan Adobe Analytics wilt toevoegen, kunt u dit door [Contextgegevensvariabelen](../vars/page-vars/contextdata.md). Alle XDM-veldelementen worden naar Adobe Analytics verzonden als contextgegevens met het voorvoegsel `a.x`. U kunt deze variabele van contextgegevens aan de gewenste variabele van Analyse dan in kaart brengen gebruikend [Verwerkingsregels](../../admin/admin/c-processing-rules/processing-rules.md). Als u bijvoorbeeld de volgende gebeurtenis verzendt:
+Als er dimensies of metriek zijn die u aan Adobe Analytics wilt toevoegen, kunt u dit door [Contextgegevensvariabelen](../vars/page-vars/contextdata.md). Alle XDM-veldelementen die niet automatisch worden toegewezen, worden naar Adobe Analytics verzonden als contextgegevens met het voorvoegsel a.x. U kunt deze variabele van contextgegevens aan de gewenste variabele van Analyse dan in kaart brengen gebruikend [Verwerkingsregels](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=en). Als u bijvoorbeeld de volgende gebeurtenis verzendt:
 
 ```js
 alloy("event",{

@@ -4,9 +4,9 @@ keywords: Gegevensfeed;taak;vóór kolom;na kolom;hoofdlettergevoeligheid
 title: Veelgestelde vragen over gegevensfeeds
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: ef228e7d7ba41e934fe7a74db15ce112be2c13d8
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,5 @@ Objecten nemen echter geen rechten over van het bovenliggende emmertje. Daarom a
 
 >[!NOTE]
 >
->[!DNL Analytics] bepaalt niet als het emmertje een beleid heeft dat het geven van de emmereigenaar volledige controle van nieuwe voorwerpen vereist, of zelfs als de emmereigenaar in een verschillende rekening is dan de gebruiker die de gegevens schrijft. In plaats daarvan, [!DNL Analytics] voegt automatisch de emmereigenaar aan BucketOwnerFullControl ACL met elke voer toe uploadt.
+>Adobe Analytics bepaalt niet of het emmertje een beleid heeft dat het geven van volledige controle van nieuwe voorwerpen vereist, of zelfs als de emmereigenaar in een verschillende rekening is dan de gebruiker die de gegevens schrijft. In plaats daarvan voegt Analytics automatisch de eigenaar van het emmertje toe aan de `BucketOwnerFullControl` ACL met elke voer uploadt.
+
