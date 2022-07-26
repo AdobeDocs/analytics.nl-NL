@@ -3,9 +3,9 @@ title: list
 description: Aangepaste variabelen die meerdere waarden in dezelfde hit bevatten.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,6 @@ Zorg ervoor u registreert hoe u elke lijstvariabele en hun logica in uw gebruikt
 ## Lijstvariabelen instellen in de instellingen van de rapportsuite
 
 Zorg ervoor dat u elke lijstvariabele in de montages van de rapportreeks vormt alvorens hen in uw implementatie te gebruiken. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/list-var-admin.md) in de handleiding Admin.
-
-## Variabelen weergeven die de SDK van het web gebruiken
-
-Lijstvariabelen zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.lists.list1` tot `_experience.analytics.customDimensions.lists.list3`.
 
 ## Variabelen weergeven die de extensie Adobe Analytics gebruiken
 
