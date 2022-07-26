@@ -3,7 +3,7 @@ title: events
 description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw site beheert.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
+source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -22,9 +22,7 @@ Aangepaste gebeurtenissen zijn [toegewezen voor Adobe Analytics](https://experie
 
 * Aangepaste gebeurtenissen 1-100 worden toegewezen aan `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Aangepaste gebeurtenissen 101-200 worden toegewezen aan `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* Dit patroon herhaalt elke 100 gebeurtenissen naar `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
-* `eventx.value` wordt gebruikt om de waarde op te geven.
-* `eventx.id` wordt gebruikt om identiteitskaart voor rangschikking te specificeren.
+* Dit patroon herhaalt elke 100 gebeurtenissen naar `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` wordt gebruikt om de waarde op te geven. `eventx.id` wordt gebruikt om identiteitskaart voor rangschikking te specificeren.
 * Bestellingen worden toegewezen aan `commerce.purchases.value`.
 * Eenheden worden toegewezen aan de som van alle eenheden `productListItems[].quantity` velden.
 * Opbrengsten worden toegewezen aan de som van alle `productListItems[].priceTotal` velden.
