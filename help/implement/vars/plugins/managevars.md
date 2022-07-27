@@ -3,9 +3,9 @@ title: manageVars
 description: Wijzig de waarden van meerdere analytische variabelen tegelijk.
 feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 0%
 
 De `manageVars` kunt u de waarden van meerdere analytische variabelen tegelijk bewerken. U kunt ook waarden instellen op kleine letters of overbodige tekens uit meerdere variabelewaarden tegelijk verwijderen. Adobe raadt u aan deze plug-in te gebruiken als u de waarde van meerdere variabelen tegelijk wilt opruimen.
 
-## De plug-in installeren met de Web SDK of de Adobe Analytics-extensie
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
-1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
-1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
-   * Type handeling: ManageVars initialiseren
-1. Sla de wijzigingen in de regel op en publiceer deze.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize manageVars
+1. Save and publish the changes to the rule.-->
 
 ## Plug-in installeren met aangepaste code-editor
 

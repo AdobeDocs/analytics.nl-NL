@@ -3,9 +3,9 @@ title: getAndPersistValue
 description: Sla een waarde op die later kan worden opgehaald.
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 0%
 
 De `getAndPersistValue` kunt u een waarde opslaan in een cookie die later tijdens een bezoek kan worden opgehaald. Het vervult een soortgelijke rol als de [!UICONTROL Storage duration] in de Adobe Analytics-extensie in Adobe Experience Platform Data Collection. Adobe raadt u aan deze plug-in te gebruiken als u automatisch een variabele Analytics tot dezelfde waarde wilt behouden in volgende hits nadat de variabele is ingesteld. Deze insteekmodule is niet nodig als de [!UICONTROL Storage duration] volstaat. Het is ook niet nodig om deze plug-in te gebruiken als u variabelen niet op dezelfde waarde hoeft in volgende treffers in te stellen en te behouden. Voor de ingebouwde persistentie van eVars is het gebruik van deze plug-in niet vereist, aangezien eVars server-side voor Adobe blijft bestaan.
 
-## De plug-in installeren met de Web SDK of de Adobe Analytics-extensie
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
-1. Klik op de gewenste tageigenschap.
-1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
-1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
-1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
-   * Voorwaarde: Geen
-   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
-1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
-   * Extensie: Gebruikelijke plug-ins voor Analytics
-   * Type handeling: getAndPersistValue initialiseren
-1. Sla de wijzigingen in de regel op en publiceer deze.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getAndPersistValue
+1. Save and publish the changes to the rule.-->
 
 ## Plug-in installeren met aangepaste code-editor
 
