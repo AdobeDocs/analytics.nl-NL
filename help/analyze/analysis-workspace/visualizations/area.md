@@ -1,14 +1,14 @@
 ---
-description: Deze werkruimte visualiseert zich als een lijngrafiek, maar met een gekleurd gebied onder de lijn.
+description: Het gebied visualiseert zich als een lijngrafiek, maar met een gekleurd gebied onder de lijn.
 title: Gebied en gestapeld gebied
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: Visualisaties
+feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+source-git-commit: 82ba19e600f141f967148399cc1697f0bba189db
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 8%
+source-wordcount: '106'
+ht-degree: 7%
 
 ---
 
