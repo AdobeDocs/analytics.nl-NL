@@ -3,9 +3,9 @@ description: Gebruik de belangrijkste metrische samenvatting visualisatie om met
 title: Samenvatting van metrische sleutel
 feature: Visualizations
 role: User, Admin
-source-git-commit: a126f51c82cf7b23f4e03134c2d870d216dadc47
+source-git-commit: 73de5dca8584d8d04b57a0d50dffcb57cfeefb08
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
 
-De belangrijkste Metrische Summiere visualisatie laat u zien hoe belangrijke metrisch binnen één enkel tijdkader trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Het biedt de voordelen van meerdere visualisaties die in één visualisatie worden gecombineerd:
+De [!UICONTROL Key metric summary] Met visualisatie kunt u zien hoe een belangrijke metrische waarde binnen één tijdsbestek trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. Het biedt de voordelen van meerdere visualisaties die in één visualisatie worden gecombineerd:
 
 * **[!UICONTROL Line]** visualisaties die tonen hoe metrisch voor de primaire en vergelijkingsdatumwaaiers trendt
 
@@ -62,7 +62,7 @@ Opmerking:
 
 * De **[!UICONTROL Previous period]** lijngrafiek (altijd grijs weergegeven) komt overeen met de **[!UICONTROL Comparison date range]** in de configuratiestap.
 
-* Als er tijdens de configuratie geen vergelijkingsdatumbereik is geselecteerd of als dit bereik verborgen is in de visualisatie-instellingen (meer onder de instellingen), wordt alleen de lijngrafiek voor het primaire datumbereik weergegeven. De samenvattingswijziging wordt verborgen.
+* Als een vergelijkingsdatumbereik niet is opgegeven tijdens de configuratie of verborgen is in de visualisatie-instellingen, wordt alleen de lijngrafiek voor het primaire datumbereik weergegeven. De samenvattingswijziging wordt verborgen.
 
 * Vanaf hier kunt u de cursor boven de lijngrafieken houden om de statistieken voor afzonderlijke dagen weer te geven:
 
@@ -76,16 +76,16 @@ De Belangrijkste metrische samenvatting biedt veelvoudige flexibele montages aan
 
 | Instelling | Beschrijving |
 | --- | --- |
-| Percentage wijziging benadrukken | Samenvattingswijziging in opvallende vetgedrukte tekst weergeven in het midden van de visualisatie |
-| Nummerwaarde benadrukken | Samenvattingsnummer in opvallende, vette letters weergeven in het midden van de visualisatie |
-| Legenda zichtbaar | De legenda onder aan de visualisatie weergeven of verbergen |
-| Annotaties tonen | Annotaties die zijn toegevoegd door een beheerder tonen of verbergen |
-| Meerdere regels tonen | Lijngrafieken onder aan het diagram weergeven of verbergen. Als de legenda is verborgen, wordt deze niet langer visueel doorverwezen naar de regels |
-| Min. en max. tonen op vonklines | Minimum- en maximumwaarden tonen of verbergen in primaire diagrammen en vergelijkingslijngrafieken |
-| Vergelijking tonen | Vergelijkingsgegevens tonen of verbergen. Wanneer deze optie is verborgen, worden zowel het vergelijkingsregeldiagram als de summiere wijzigingsobjecten verborgen. |
-| Totaal aantal tonen | Samenvattingsnummer tonen of verbergen |
-| Raw-verschil tonen | Onbewerkt verschil tonen of verbergen tussen de totale waarde van de metrische waarde in het primaire datumbereik en het secundaire datumbereik |
-| Afkorting | Afkorting van numerieke waarden om gecommuniceerde inzichten te vereenvoudigen (bijvoorbeeld 20.000 -> 20K) |
+| **[!UICONTROL Emphasize percent change]** | Samenvattingswijziging in opvallende vetgedrukte tekst weergeven in het midden van de visualisatie |
+| **[!UICONTROL Emphasize number value]** | Samenvattingsnummer in opvallende, vette letters weergeven in het midden van de visualisatie |
+| **[!UICONTROL Legend visible]** | De legenda onder aan de visualisatie weergeven of verbergen |
+| **[!UICONTROL Show annotations]** | Annotaties die zijn toegevoegd door een beheerder tonen of verbergen |
+| **[!UICONTROL Show sparklines]** | Lijngrafieken onder aan het diagram weergeven of verbergen. Als de legenda is verborgen, wordt deze niet langer visueel doorverwezen naar de regels |
+| **[!UICONTROL Show min and max on sparklines]** | Minimum- en maximumwaarden tonen of verbergen in primaire diagrammen en vergelijkingslijngrafieken |
+| **[!UICONTROL Show comparison]** | Vergelijkingsgegevens tonen of verbergen. Wanneer deze optie is verborgen, worden zowel het vergelijkingsregeldiagram als de summiere wijzigingsobjecten verborgen. |
+| **[!UICONTROL Show total number]** | Samenvattingsnummer tonen of verbergen |
+| **[!UICONTROL Show raw difference]** | Onbewerkt verschil tonen of verbergen tussen de totale waarde van de metrische waarde in het primaire datumbereik en het secundaire datumbereik |
+| **[!UICONTROL Abbreviate value]** | Afkorting van numerieke waarden om gecommuniceerde inzichten te vereenvoudigen (bijvoorbeeld 20.000 -> 20K) |
 
 ## Visualisatie bewerken
 
