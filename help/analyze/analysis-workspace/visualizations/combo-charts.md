@@ -3,10 +3,10 @@ description: Hiermee kunt u eenvoudig vergelijkingsgegevens visualiseren in Anal
 title: Visualisatie van combinatiekaarten
 feature: Visualizations
 role: User, Admin
-source-git-commit: e2cd08ae4109e037f8b54edf21239fa6fa659896
+source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 1%
+source-wordcount: '697'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +30,9 @@ Een [!UICONTROL Combo chart] tot
 Houd er rekening mee dat u
 
 * Meerdere vergelijkingen in één vergelijking toevoegen [!UICONTROL Combo chart].
-* Als u een of meer vergelijkingen toevoegt, moeten deze van hetzelfde type zijn, zoals Tijdsperiode.
+* Als u een of meer vergelijkingen toevoegt, moeten deze van hetzelfde type zijn, zoals [!UICONTROL Time comparison].
 * U kunt maximaal vijf vergelijkingen maken.
-* U kunt een filter op metrisch toepassen.
+* U kunt maximaal drie filters (segmenten) toepassen op een metrische waarde.
 
 ## Een combinatieschema samenstellen
 
@@ -46,9 +46,9 @@ Houd er rekening mee dat u
 
    | Vergelijkingstype lijn | Definitie |
    | --- | --- |
-   | Tijdsperiode | Het meest voorkomende type vergelijking: deze periode wordt bijvoorbeeld vergeleken met 4 weken geleden. Als u Tijd selecteerde, maak een secundaire selectie over welke tijdspanne u wilt vergelijken.<p>![](assets/combo-time-period.png) |
-   | Extra metrisch | U kunt bijvoorbeeld [!UICONTROL Revenue] naar een andere metrische waarde.<p>![](assets/combo-2metrics.png) |
-   | -functie | U kunt een functie als [!UICONTROL Average] in de vergelijking. Hieronder vindt u een lijst met ondersteunde functies.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Time comparison]** | Het meest voorkomende type vergelijking: deze periode wordt bijvoorbeeld vergeleken met 4 weken geleden. Als u [!UICONTROL Time comparison]kiest u een tweede tijdsperiode die u wilt vergelijken.<p>![](assets/combo-time-period.png) |
+   | **[!UICONTROL Additional metric]** | U kunt bijvoorbeeld [!UICONTROL Revenue] naar een andere metrische waarde.<p>![](assets/combo-2metrics.png) |
+   | **[!UICONTROL Function]** | U kunt een functie als [!UICONTROL Average] in de vergelijking. Hieronder vindt u een lijst met ondersteunde functies.<p>![](assets/combo-functions.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -66,11 +66,13 @@ Als u **[!UICONTROL Function]** als de [!UICONTROL Line comparison type], wordt 
 
 | -functie | Definitie |
 | --- | --- |
-| **[!UICONTROL Cumulative average]** | Retourneert het gemiddelde van de laatste N-rijen. |
-| **[!UICONTROL Sum]** | Hiermee worden alle numerieke waarden toegevoegd voor een metrische waarde in een kolom (over de elementen van een dimensie) |
-| **[!UICONTROL Exponent]** | Retourneert *e* verhoogd tot de macht van een bepaald getal. |
+| **[!UICONTROL Column Sum]** | Hiermee worden alle numerieke waarden toegevoegd voor een metrische waarde in een kolom (over de elementen van een dimensie) |
+| **[!UICONTROL Cumulative Average]** | Retourneert het gemiddelde van de laatste N-rijen. |
+| **[!UICONTROL Median]** | Retourneert de mediaan voor een metrische waarde in een kolom. De mediaan is het getal in het midden van een reeks getallen, dat wil zeggen dat de helft van de getallen waarden heeft die groter zijn dan of gelijk zijn aan de mediaan, en de helft kleiner dan of gelijk is aan de mediaan. |
+| **[!UICONTROL Cumulative]** | De cumulatieve som van N rijen. |
+| **[!UICONTROL Column Maximum]** | Retourneert de grootste waarde in een set dimensieelementen voor een metrische kolom. |
 | **[!UICONTROL Mean]** | Retourneert het rekenkundig gemiddelde (of gemiddelde) voor een metrische waarde. |
-| **[!UICONTROL Quartile]** | Retourneert de kwartiel van waarden voor een metrische waarde. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven. |
+| **[!UICONTROL Column Minimum]** | Retourneert de laagste waarde in een set dimensieelementen voor een metrische kolom. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -90,13 +92,15 @@ Klik op het tandwielpictogram rechtsboven in een keuzelijst met invoervak om de 
 
 | Instelling | Definitie |
 | --- | --- |
+| **[!UICONTROL Visualization type]** | Hiermee kunt u overschakelen op een ander visualisatietype. |
+| **[!UICONTROL Granularity]** | Voor getreneerde visualisaties kunt u de tijdsgranulariteit (dag, week, maand, enz.) wijzigen in deze vervolgkeuzelijst. |
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Percentages]** | Hiermee geeft u waarden weer in percentages. |
 | **[!UICONTROL Legend visible]** | Hiermee kunt u de gedetailleerde legendetekst voor de visualisatie van Combo-diagrammen verbergen. |
-| **[!UICONTROL Granularity]** | Voor getreneerde visualisaties kunt u de tijdsgranulariteit (dag, week, maand, enz.) wijzigen in deze vervolgkeuzelijst. |
+| **[!UICONTROL Limit max items]** | Hiermee verkleint u het aantal items op de X-as. Als u een grote gegevensset hebt, kunt u alleen de eerste 10 items tonen (of een waarde die u kiest). |
 | **[!UICONTROL Overlays]** | Streepjes weergeven of verbergen op lijnen. |
 | **[!UICONTROL Axis]** |  |
-| **[!UICONTROL Display dual axis]** | Is slechts van toepassing als u twee metriek hebt - u kunt een y-as op de linkerzijde (voor één metrisch) en op het recht (voor andere metrisch) hebben. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
+| **[!UICONTROL Display dual axis]** | Is slechts van toepassing als u twee metriek hebt - u kunt een y-as op de linkerzijde (voor één metrisch) en op het recht (voor andere metrisch) hebben. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. De kleur van de twee assen komt overeen met de kleur van de tabel, tenzij er meerdere vergelijkingen zijn. In dat geval is de kleur voor alle vergelijkingen grijs. |
 | **[!UICONTROL Normalization]** | Dwingt metriek tot gelijke verhoudingen. Dit is handig wanneer uitgezette metriek van zeer verschillende grootten zijn. |
 | **[!UICONTROL Show x-axis]** | Geef de x-as weer of verberg deze. |
 | **[!UICONTROL Show y-axis]** | Geef de y-as weer of verberg deze. |
