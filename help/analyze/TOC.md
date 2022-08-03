@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Hoe kan ik-instructies voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics, evenals hulpmiddelen zoals Adobe Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: eb45e267835fcf91010dd87deb13707082dbf736
+source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1053'
 ht-degree: 80%
 
 ---
@@ -73,20 +73,21 @@ ht-degree: 80%
          + [Overzicht van stroom](analysis-workspace/visualizations/c-flow/flow.md)
          + [Een stroomvisualisatie configureren](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Interdimensionale stromen](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [Histogram](analysis-workspace/visualizations/histogram.md)
-      + [Samenvatting van metrische sleutel](analysis-workspace/visualizations/key-metric.md)
-      + [Kaart](analysis-workspace/visualizations/map-visualization.md)
-      + [Venn](analysis-workspace/visualizations/venn.md)
       + [Gebied en gestapeld gebied](analysis-workspace/visualizations/area.md)
       + [Balkgrafiek en gestapelde-balkgrafiek](analysis-workspace/visualizations/bar.md)
       + [Staafdiagram](analysis-workspace/visualizations/bullet-graph.md)
+      + [Combodiagram](analysis-workspace/visualizations/combo-charts.md)
       + [Cirkeldiagram](analysis-workspace/visualizations/donut.md)
+      + [Histogram](analysis-workspace/visualizations/histogram.md)
       + [Horizontale-balkgrafiek en horizontale-balkgrafiek gestapeld](analysis-workspace/visualizations/horizontal-bar.md)
+      + [Samenvatting van metrische sleutel](analysis-workspace/visualizations/key-metric.md)
       + [Lijn](analysis-workspace/visualizations/line.md)
+      + [Kaart](analysis-workspace/visualizations/map-visualization.md)
       + [Spreidingsdiagram](analysis-workspace/visualizations/scatterplot.md)
       + [Cijferoverzicht en Wijzigingsoverzicht](analysis-workspace/visualizations/summary-number-change.md)
       + [Tekst](analysis-workspace/visualizations/text.md)
       + [Boomstructuur](analysis-workspace/visualizations/treemap.md)
+      + [Venn](analysis-workspace/visualizations/venn.md)
    + Deelvensters {#panels}
       + [Overzicht van deelvensters](analysis-workspace/c-panels/panels.md)
       + [Analyses voor venster Doel (A4T)](analysis-workspace/c-panels/a4t-panel.md)
