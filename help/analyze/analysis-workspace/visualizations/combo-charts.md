@@ -3,13 +3,13 @@ description: Hiermee kunt u eenvoudig vergelijkingsgegevens visualiseren in Anal
 title: Visualisatie van combinatiekaarten
 feature: Visualizations
 role: User, Admin
-source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
+exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
+source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # Combodiagram
 
@@ -47,8 +47,8 @@ Houd er rekening mee dat u
    | Vergelijkingstype lijn | Definitie |
    | --- | --- |
    | **[!UICONTROL Time comparison]** | Het meest voorkomende type vergelijking: deze periode wordt bijvoorbeeld vergeleken met 4 weken geleden. Als u [!UICONTROL Time comparison]kiest u een tweede tijdsperiode die u wilt vergelijken.<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL Additional metric]** | U kunt bijvoorbeeld [!UICONTROL Revenue] naar een andere metrische waarde.<p>![](assets/combo-2metrics.png) |
    | **[!UICONTROL Function]** | U kunt een functie als [!UICONTROL Average] in de vergelijking. Hieronder vindt u een lijst met ondersteunde functies.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Secondary metric]** | U kunt bijvoorbeeld [!UICONTROL Revenue] naar een andere metrische waarde.<p>![](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -107,5 +107,3 @@ Klik op het tandwielpictogram rechtsboven in een keuzelijst met invoervak om de 
 | **[!UICONTROL Anchor y-axis at zero]** | Als alle waarden die in het diagram worden uitgezet aanzienlijk boven nul liggen, wordt de onderkant van de y-as NON-ZERO ingesteld als de standaardinstelling van het diagram. Als u dit vakje inschakelt, wordt de y-as gedwongen tot nul (en wordt het diagram opnieuw getekend). |
 
 {style=&quot;table-layout:auto&quot;}
-
-
