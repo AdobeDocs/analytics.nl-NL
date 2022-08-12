@@ -3,16 +3,16 @@ title: Upgrade van SFTP-services - Veelgestelde vragen
 description: Veelgestelde vragen over de geplande SFTP-services-upgrade in mei 2022.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 43869c683ca30c94157c6822b53f02a917f6e3ff
+source-git-commit: 970c3d9d4e5c8e2779a99c287f6aedcbe02fbb7c
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '439'
 ht-degree: 2%
 
 ---
 
 # Upgrade van SFTP-services - Veelgestelde vragen
 
-In de zomer van 2022 zal Adobe Analytics zijn Secure File Transfer Protocol bijwerken [SFTP] om de beveiliging van bestandsoverdrachten te verbeteren. Door deze wijziging worden sommige SFTP-clientconfiguraties niet meer ondersteund. Dit is alleen van invloed op gegevens die via SFTP naar Adobe Analytics worden verzonden of van worden opgehaald. Het FTP-protocol wordt niet beïnvloed. Om onderbreking van de dienst te vermijden, gelieve uw cliënten SFTP (code, hulpmiddelen, de diensten) in overeenstemming met de hieronder gespecificeerde veranderingen te zijn.
+Aan **7 september 2022**, Adobe Analytics zal zijn Secure File Transfer Protocol bijwerken [SFTP] om de beveiliging van bestandsoverdrachten te verbeteren. Door deze wijziging worden sommige SFTP-clientconfiguraties niet meer ondersteund. Dit is alleen van invloed op gegevens die via SFTP naar Adobe Analytics worden verzonden of van worden opgehaald. Het FTP-protocol wordt niet beïnvloed. Om onderbreking van de dienst te vermijden, gelieve uw cliënten SFTP (code, hulpmiddelen, de diensten) in overeenstemming met de hieronder gespecificeerde veranderingen te zijn.
 
 ## Hoe kan ik bepalen welke algoritmen, verbindingstypes, en protocollen momenteel door mijn organisatie worden gebruikt?
 
