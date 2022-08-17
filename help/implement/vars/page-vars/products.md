@@ -3,9 +3,9 @@ title: products
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,7 @@ Producten zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.
 
 >[!NOTE]
 >
->`lineItemId` moet worden toegevoegd als een aangepast veld omdat dit geen deel uitmaakt van het standaardschema voor analysegebeurtenissen. In de toekomst zullen we een speciaal &#39;categorie&#39;-veld toevoegen.
-
+>`lineItemId` moet worden toegevoegd als een aangepast veld omdat dit nog geen deel uitmaakt van het standaardschema voor analysegebeurtenissen. Adobe is van plan in de toekomst een speciaal veld &#39;Categorie&#39; toe te voegen.
 
 ## Producten die de extensie Adobe Analytics gebruiken
 
