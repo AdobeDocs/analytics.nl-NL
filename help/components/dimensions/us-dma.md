@@ -3,16 +3,16 @@ title: US DMA
 description: Het aangewezen marktgebied van de hit.
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 89e8c9ac085d020db954790331103846c9dbc7a1
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
 # US DMA
 
-De dimensie &quot;DMA van de VS&quot; rapporteert het aangewezen marktgebied (DMA) van de bezoeker. Het is gebaseerd op mediamarkten die zijn samengesteld door [Nielsen](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/).
+De dimensie &quot;DMA van de VS&quot; rapporteert het aangewezen marktgebied (DMA) van de bezoeker. Het is gebaseerd op mediamarkten die zijn samengesteld door [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/).
 
 ## Deze dimensie vullen met gegevens
 
