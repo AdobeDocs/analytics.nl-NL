@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 903139cdc11770f035ca36911c0d5dbf778c62be
+source-git-commit: 21b8e21a0f5488e4e8702d5e7538360add1cd621
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 2%
+source-wordcount: '1264'
+ht-degree: 1%
 
 ---
 
 # Huidige Adobe Analytics-releaseopmerkingen (augustus 2022)
 
-**Laatste update**: 12 augustus 2022
+**Laatste update**: 19 augustus 2022
 
 ## Gerelateerde bronnen
 
@@ -25,7 +25,8 @@ ht-degree: 2%
 
 | Functie | Beschrijving | [Doeldatum](releases.md) |
 | ----------- | ---------- | ------- |
-| Geen nieuwe functies deze maand |  |  |
+| Steun voor Variabelen van de Lijst in XDM voor de Inzameling van de Rand | Hiermee kunnen klanten gegevens verzamelen via Experience Edge/Web SDK om XDM te gebruiken om de inhoud van de Variabele van de Lijst op te geven. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en#list-variables-using-the-web-sdk) | 18 augustus 2022 |
+| Gebruik van het gebied van SKU in XDM voor de Inzameling van de Rand wanneer het plaatsen van de Variabelen van het productkoord | Hiermee kunnen klanten gegevens verzamelen via Experience Edge/Web SDK om de SKU-waarde te gebruiken om het productveld in de productvariabele in te stellen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=en#products-using-the-web-sdk) | 18 augustus 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -41,6 +42,7 @@ AN-274281; AN-280956; AN-285670; AN-288176; AN-289221; AN-289665; AN-289768; AN-
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
+| **Bijwerken naar apparaatraadplegingen als gevolg van Google Client Hints** | 19 augustus 2022 | Vanaf oktober 2022 gebruikt Adobe naast de gebruikersagent ook clienttips voor het afleiden van bepaalde apparaatgegevens voor hits die afkomstig zijn van Chromium-browsers, zoals Google Chrome en Microsoft Edge. Dit is een reactie op het plan van Google om de informatie die van het koord van de Agent van de Gebruiker in plaats van gegevens geleidelijk te verminderen die via cliëntwenken worden overgegaan. Meer informatie over clienttips [hier](https://web.dev/user-agent-client-hints/).<p> Tegen Oktober, zowel zullen de de inzamelingsbibliotheken van AppMeasurement als van SDK van het Web inzameling van cliëntwenken steunen en het vormen of aan hoge entropy cliëntwenken worden verzameld. Als deel van deze verandering, zal Adobe de Atlas van het Apparaat voor alle apparatenraadplegingen met betrekking tot de Agent van de Gebruiker gebruiken. Apparaataturen worden momenteel alleen gebruikt voor mobiele hits. Deze updates kunnen resulteren in kleine wijzigingen in apparaatinformatie die historisch zijn afgeleid van de gebruikersagent, met name browser, type browser, besturingssysteem, besturingssysteemtype en mobiel apparaat. |
 | **SFTP-upgrade** | 12 augustus 2022 | Eerder, hadden wij meegedeeld dat Adobe zijn Secure File Transfer Protocol (SFTP) diensten in mei 2022 zou bevorderen om betere veiligheid voor dossieroverdracht te verstrekken. We hebben deze upgrade uitgesteld tot **7 september 2022**. Wanneer deze wijziging plaatsvindt, worden bepaalde SFTP-clientconfiguraties niet meer ondersteund. Dit is alleen van invloed op gegevens die via SFTP naar Adobe Analytics worden verzonden of van worden opgehaald. Dit heeft geen invloed op het FTP-protocol. Om onderbreking van de dienst te vermijden, gelieve ervoor te zorgen dat uw cliënten SFTP (code, hulpmiddelen, de diensten) in overeenstemming met de gedetailleerde veranderingen zijn [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html). |
 | **Bijwerken naar nieuwe NetAcuity carrier-database** | 11 juli 2022 | **Vanaf oktober 2022**, aan de vervoerder gerelateerde informatie die is opgeslagen in de `carrier` in Adobe Analytics Data Warehouse and Analytics Data Feeds wordt gewijzigd. Historisch, is het gegevensformaat in die kolom geweest `<domain>:<ISP>`. Adobe heeft een interne raadplegingstabel bijgehouden om deze in kaart te brengen `<domain>:<ISP>` waarden in dragernamen voor rapportagedoeleinden in Adobe Analytics-rapportagehulpprogramma&#39;s (Analysis Workspace, Reports &amp; Analytics, Reporting API, data magazijn, LiveStream, enz.). Het opzoekbestand (`carrier.tsv`) wordt ook geleverd met Gegevensfeeds, zodat u dezelfde toewijzingen kunt gebruiken.<p>Deze update verbetert onze dragertoewijzingen door een nauwkeuriger dragergegevensbestand van NetAcuity te gebruiken. Het formaat van de gegevens in de dragerkolom in de Doopvonken van Gegevens zal in de toekomst veranderen. In plaats van `<domain>:<ISP>`, bevat het een dragernaam. Adobe zal de raadplegingstabel blijven gebruiken om zoveel mogelijk continuïteit met het verleden te handhaven rapportering. Meldend hulpmiddelen waar de raadplegingen door Adobe (Analysis Workspace, Rapporten &amp; Analytics, het melden API, gegevenspakhuis, LiveStream, enz.) worden toegepast zal profiteren van nauwkeurigere toewijzingen. Sommige toewijzingen - vooral voor internationale domeinen en ISPs - zullen meer dan anderen veranderen wanneer wij het nieuwe gegevensbestand goedkeuren. Het gegevensfeeds drager raadplegingsdossier (`carrier.tsv`) de oude toewijzingen behouden en de nieuwe toewijzingen toevoegen.<p>De verbinding van de Bron van Analytics brengt momenteel niet het dragergebied in kaart, zodat is de dragerrapportering momenteel niet beschikbaar in AEP, CJA etc. Daarom zal het gebruik van het nieuwe dragergegevensbestand niets in AEP beïnvloeden dat op gegevens gebaseerd is die door de Analytics Source Connector worden verstrekt. |
 | **Verbeterde IP-naar-geolocatietoewijzing** | 11 juli 2022 | Onze leverancier voor IP raadplegingen, Digitaal Element, bevordert aan een nieuwe betere dataset (de Puls van NetAcuity) voor IP-aan-geolocatiekaart. Adobe Analytics zal deze nieuwe dataset goedkeuren in het **oktober 2022** tijdframe. De nieuwe database is nauwkeuriger dan vorige versies. Sommige IP-aan-geo afbeeldingen zullen veranderen/verbeteren wanneer het nieuwe gegevensbestand wordt goedgekeurd.<p>Alle Adobe Analytics-gereedschappen (Analysis Workspace, Reports &amp; Analytics, Reporting API, data-magazijn, LiveStream, gegevensfeeds enz.) automatisch voordeel halen uit de nieuwe verbeterde toewijzingen. De indeling van de gegevens in gegevensfeeds wordt niet gewijzigd. De gegevens CJA die door de Bronschakelaar van de Analyse worden verstrekt zullen automatisch uit de nieuwe afbeeldingen voordeel halen. |
