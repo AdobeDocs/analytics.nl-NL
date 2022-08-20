@@ -3,9 +3,9 @@ title: list
 description: Aangepaste variabelen die meerdere waarden in dezelfde hit bevatten.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,10 @@ Lijstvariabelen zijn [toegewezen voor Adobe Analytics](https://experienceleague.
     }
 }
 ```
+
+>[!NOTE]
+>
+>Het Adobe XDM-schema bevat `key` objecten naast `value` objecten in elk `list[]` array. Adobe gebruikt deze `key` objecten bij het verzenden van gegevens naar Adobe Analytics.
 
 Als uw organisatie een ander scheidingsteken nodig heeft dan een komma (&#39;`,`&#39;), kunt u het volledige lijstkoord, met inbegrip van de gewenste afbakeningen, in een douaneXDM gebied overgaan. Zorg ervoor dat de lijstvariabele wordt gevormd om het gewenste afbakeningsteken binnen goed te keuren [Instellingen van rapportsuite](/help/admin/admin/conversion-var-admin/list-var-admin.md).
 
