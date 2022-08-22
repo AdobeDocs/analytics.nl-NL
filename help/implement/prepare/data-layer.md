@@ -3,20 +3,16 @@ title: Een datalaag maken
 description: Leer wat een gegevenslaag in uw implementatie Analytics is, en hoe het kan worden gebruikt om variabelen in Adobe Analytics in kaart te brengen.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Een datalaag maken
 
-Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site dat alle variabelenwaarden bevat die in uw implementatie worden gebruikt. Hierdoor kunt u uw implementatie beter beheren en eenvoudiger onderhouden.
-
-Hier volgt een video over het gebruik van gegevenslagen:
-
->[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
+Een gegevenslaag is een raamwerk van JavaScript-objecten op uw site die de variabelenwaarden bevatten die worden gebruikt in uw analytische implementatie. Het staat grotere controle en gemakkelijker onderhoud toe wanneer het toewijzen van waarden aan de variabelen van de Analyse.
 
 ## Vereisten
 
@@ -31,145 +27,18 @@ Bij het implementeren van Adobe Analytics met een gegevenslaag worden doorgaans 
    >[!NOTE]
    >
    >De volgende Adobe aanbevolen gegevenslaagspecificaties is optioneel. Als u reeds een gegevenslaag hebt, of anders verkiest om Adobe geen specificaties te volgen, zorg ervoor dat uw organisatie zich op welke specificatie richt te volgen.
-1. **Valideer uw gegevenslaag met een browserconsole**: Zodra een gegevenslaag wordt gecreeerd, kunt u bevestigen dat het gebruikend om het even welke browser ontwikkelaarsconsole werkt. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend `F12` toets. Een waarde van een voorbeeldvariabele zou `digitalData.page.pageInfo.pageID`.
-1. **Adobe Experience Platform-gegevensverzameling gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Maak gegevenselementen in de gegevensverzameling van Adobe Experience Platform en wijs deze toe aan de JavaScript-kenmerken die in de gegevenslaag worden beschreven.
-1. **De Adobe Analytics-tagextensie gebruiken om gegevenselementen toe te wijzen aan analytische variabelen**: Na uw document van het oplossingsontwerp, wijs elk gegevenselement aan de aangewezen variabele Analytics toe.
+1. **Valideer uw gegevenslaag met een browserconsole**: Zodra een gegevenslaag wordt gecreeerd, kunt u bevestigen dat het gebruikend om het even welke browser ontwikkelaarsconsole werkt. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend `F12` toets. Een waarde van een voorbeeldvariabele zou `adobeDataLayer.page.title`.
+1. **Adobe Experience Platform-gegevensverzameling gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Deze stap is afhankelijk van de implementatiemethode van uw organisatie:
+   * **Als het gebruiken van SDK van het Web**: Wijs de gewenste gegevenslaagobjecten toe aan de gewenste XDM-velden in Adobe Experience Platform Edge. Zie [Variabeletoewijzing Analyse](../aep-edge/variable-mapping.md) om de gewenste afbeelding van de gegevenslaag te bepalen.
+   * **Indien de extensie Analytics wordt gebruikt**: Maak gegevenselementen onder Tags in de gegevensverzameling van Adobe Experience Platform en wijs deze toe aan de gewenste gegevenslaagobjecten. Wijs vervolgens binnen de extensie Analytics elk gegevenselement toe aan de juiste variabele Analytics.
 
 ## Specificaties
 
-Adobe beveelt aan de [Klantenervaring met digitale gegevenslaag](https://www.w3.org/2013/12/ceddl-201312.pdf) door de [Klantervaring met Digital Data Community Group](https://www.w3.org/community/custexpdata/). Gebruik de volgende secties om te begrijpen hoe de elementen van de gegevenslaag met Adobe Analytics in wisselwerking staan.
+Adobe raadt u aan de [Gegevenslaag Adobe-client](https://github.com/adobe/adobe-client-data-layer/wiki) voor nieuwe of geherstructureerde implementaties.
 
-Het aanbevolen overkoepelende gegevenslaagobject is `digitalData`. In het volgende voorbeeld wordt een enigszins uitgebreid JSON-gegevenslaagobject met voorbeeldwaarden weergegeven:
+Uw organisatie is vrij om andere specificaties van de gegevenslaag te gebruiken, zoals [Klantenervaring met digitale gegevenslaag](https://www.w3.org/2013/12/ceddl-201312.pdf)of een andere aangepaste gegevenslaag. Het is van het grootste belang dat de lagen worden uitgelijnd op een consistente gegevenslaag die voldoet aan de behoeften van uw organisatie.
 
-```js
-digitalData = {
-    pageInstanceID: "Example page - production",
-    page: {
-        pageInfo: {
-            pageID: "5093",
-            pageName: "Example page",
-            destinationURL: "https://example.com/index.html",
-            referringURL: "https://example.com/referrer.html",
-            sysEnv: "desktop",
-            variant: "2",
-            version: "1.14",
-            breadCrumbs: ["Home","Example group","Example page"],
-            author: "J Smith",
-            issueDate: "Example date",
-            effectiveDate: "Example date",
-            expiryData: "Example date",
-            language: "en-US",
-            geoRegion: "US",
-            industryCodes: "Example industry codes",
-            publisher: "Example publisher"
-        },
-        category: {
-            primaryCategory: "Example page category",
-            subCategory: "Sub-category example"
-        },
-        attributes: {
-            country: "US",
-            language: "en-US"
-        }
-    },
-    product: [{
-        productInfo: {
-            productID: "4859",
-            productName: "Example product",
-            description: "Example description",
-            productURL: "https://example.com/product.html",
-            productImage: "https://example.com/product_image.png",
-            productThumbnail: "https://example.com/product_thumbnail.png",
-            manufacturer: "Example manufacturer",
-            quantity: 1,
-            size: "Product size"
-        },
-        category: {
-            primaryCategory: "Example product category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    cart: {
-        cartID: "934856",
-        price: {
-            basePrice: 200.00,
-            voucherCode: "EXAMPLEVOUCHER1",
-            voucherDiscount: 0.50,
-            currency: "USD",
-            taxRate: 0.20,
-            shipping: 5.00,
-            shippingMethod: "UPS",
-            priceWithTax: 120,
-            cartTotal: 125
-        }
-    },
-    transaction: {
-        transactionID: "694025",
-        profile: {
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com"
-            },
-            address: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            },
-            shippingAddress: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            }
-        }
-    },
-    event: [{
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    component: [{
-        componentInfo: {
-            componentID: "4921",
-            componentName: "Example component"
-        },
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    user: [{
-        segment: "Premium membership",
-        profile: [{
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com",
-                language: "en-US",
-                returningStatus: "New"
-            },
-            social: {
-                facebook: "examplefacebookid",
-                twitter: "exampletwitterhandle"
-            }
-        }]
-    }],
-    privacy: {
-        accessCategories: [{
-            categoryName: "Default",
-            domains: "adobedtm.com"
-        }]
-    },
-    version: "1.0"
-}
-```
+
 
 Gebruik de [Klantenervaring met digitale gegevenslaag](https://www.w3.org/2013/12/ceddl-201312.pdf) rapporteren voor details over elk object en subobject. Niet alle sites gebruiken alle objecten; als u bijvoorbeeld een nieuwssite host, is het onwaarschijnlijk dat u het programma `digitalData.product` objectarray.
 
