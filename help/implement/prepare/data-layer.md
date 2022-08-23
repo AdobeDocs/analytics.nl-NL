@@ -3,10 +3,10 @@ title: Een datalaag maken
 description: Leer wat een gegevenslaag in uw implementatie Analytics is, en hoe het kan worden gebruikt om variabelen in Adobe Analytics in kaart te brengen.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
+source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '468'
+ht-degree: 2%
 
 ---
 
@@ -36,11 +36,7 @@ Bij het implementeren van Adobe Analytics met een gegevenslaag worden doorgaans 
 
 Adobe raadt u aan de [Gegevenslaag Adobe-client](https://github.com/adobe/adobe-client-data-layer/wiki) voor nieuwe of geherstructureerde implementaties.
 
-Uw organisatie is vrij om andere specificaties van de gegevenslaag te gebruiken, zoals [Klantenervaring met digitale gegevenslaag](https://www.w3.org/2013/12/ceddl-201312.pdf)of een andere aangepaste gegevenslaag. Het is van het grootste belang dat de lagen worden uitgelijnd op een consistente gegevenslaag die voldoet aan de behoeften van uw organisatie.
-
-
-
-Gebruik de [Klantenervaring met digitale gegevenslaag](https://www.w3.org/2013/12/ceddl-201312.pdf) rapporteren voor details over elk object en subobject. Niet alle sites gebruiken alle objecten; als u bijvoorbeeld een nieuwssite host, is het onwaarschijnlijk dat u het programma `digitalData.product` objectarray.
+Uw organisatie is vrij om andere specificaties van de gegevenslaag te gebruiken, zoals [Klantenervaring met digitale gegevenslaag](https://www.w3.org/2013/12/ceddl-201312.pdf)of een andere aangepaste specificatie. Het is van het grootste belang dat de lagen worden uitgelijnd op een consistente gegevenslaag die voldoet aan de behoeften van uw organisatie.
 
 Gegevenslagen zijn uitbreidbaar; als u specifieke vereisten voor uw organisatie hebt, kunt u voorwerpen in uw gegevenslaag omvatten om die behoeften aan te passen.
 
