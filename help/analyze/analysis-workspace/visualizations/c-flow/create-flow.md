@@ -4,9 +4,9 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
+source-git-commit: c0e590dab9e45768cf8f8bd20f17d7f5306f41bd
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1257'
 ht-degree: 1%
 
 ---
@@ -135,10 +135,10 @@ Home > Producten > Toevoegen aan winkelwagentje > Producten > Toevoegen aan wink
 * [!UICONTROL Page] schilderdimensie
 * [!UICONTROL Visit] container
 
-Als &quot;Beperken tot eerste/laatste voorkomen&quot; is uitgeschakeld, telt deze enkele reeks hits 2 exemplaren van &quot;Toevoegen aan winkelwagentje&quot;.
+Indien **[!UICONTROL Limit to first/last occurrence]** is *uitgeschakeld*En deze enkele reeks hits telt 2 keer &quot;Toevoegen aan winkelwagentje&quot;.
 Verwachte stroomuitvoer: &quot;Toevoegen aan winkelwagentje&quot; (2) —> &quot;Producten&quot; (1) -> &quot;Facturering&quot; (1)
 
-Als &quot;Beperking tot eerste/laatste voorkomen&quot; echter is ingeschakeld, wordt alleen de eerste keer dat &quot;Toevoegen aan winkelwagentje&quot; voorkomt in de analyse opgenomen.
+Als **[!UICONTROL Limit to first/last occurrence]** is *enabled*In de analyse wordt alleen het eerste exemplaar van &quot;Toevoegen aan winkelwagentje&quot; opgenomen.
 Verwachte stroomuitvoer: &quot;Toevoegen aan winkelwagentje&quot; (1) —> &quot;Producten&quot; (1)
 
 ### Bekijk dezelfde reeks resultaten, maar gebruik daarbij de volgende instellingen:
