@@ -3,10 +3,10 @@ description: Het dialoogvenster Data Governance in Admin Tools biedt een overzic
 title: Data Governance-instellingen voor een rapportsuite weergeven/beheren
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 538d5bcea449ecb868ff9ebcce4ca742f91b4a87
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 75%
 
 ---
 
@@ -17,49 +17,19 @@ Het dialoogvenster Data Governance in Admin Tools biedt een overzicht van welke 
 1. Meld u aan bij Adobe Experience Cloud.
 1. Ga naar  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]**.
 
-   U ziet rapportsuites die deel van uw aanmeldingsbedrijf uitmaken:
+>[!NOTE]
+>
+>Als dit menu-item niet zichtbaar is, moet u deze toevoegen aan een [productprofiel in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) met machtigingen voor deze functionaliteit.
+
+1. Bekijk alle rapportsuites die deel van uw login bedrijf uitmaken:
 
    ![](assets/privacy_setup_an.png)
 
-<table id="table_448292730FF0475E9DCB731882F9A29B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Instelling </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Rapportsuites </p> </td> 
-   <td colname="col2"> <p>De eerste rij vermeldt de friendly name van de rapportsuite. De tweede rij bevat de interne naam van de rapportsuite. Als u labels voor een rapportsuite mag instellen, is de eerste rij een klikbare koppeling die u naar de labelpagina brengt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Organisatietoewijzing </p> </td> 
-   <td colname="col2"> 
-    <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
-     <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Toegewezen</b>: Deze rapportsuite is al toegewezen aan dezelfde Experience Cloud-organisatie als het aanmeldingsbedrijf voor Analytics waarbij u bent aangemeld. Alleen rapportsuites met deze instelling kunnen worden gelabeld. </li>
-     <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Toegewezen aan een andere organisatie</b>: Deze rapportsuite is al aan een andere Experience Cloud-organisatie toegewezen. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dataretentiebeleid </p> </td> 
-   <td colname="col2"> <p>Voor de Analytics Data Privacy-implementatie hebt u een dataretentiebeleid nodig. </p> <p>Met deze instelling wordt het volgende getoond: </p> 
-    <ul> 
-     <li>of er een dataretentiebeleid is voor deze rapportsuite, en </li> 
-     <li>hoe lang de data door Adobe worden bewaard voordat ze worden verwijderd. De standaard dataretentieperiode is 25 maanden. </li> 
-    </ul> <p>Opmerking:  Adobe Analytics kan u niet helpen bij het verwerken van aanvragen bij de Data Privacy-API, dat wil zeggen, het verwerken van toegangs- of verwijderingsaanvragen die u van uw eindgebruikers ontvangt, als de dataretentieperiode niet is ingesteld. Neem contact op met de Customer Success Manager om de periode voor dataretentie in te stellen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Groepen </p> </td> 
-   <td colname="col2"> <p>Groeperingsfunctionaliteit is momenteel niet geïmplementeerd. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Linkerzijbalk </p> </td> 
-   <td colname="col2"> <p>Klik op het trechterpictogram om de zijbalk te openen of te sluiten. </p> <p>In de sectie Organisatietoewijzing wordt het aantal rapportsuites weergegeven dat in elk van de beschreven categorieën valt. </p> <p>In de sectie Dataretentiebeleid wordt elk uniek dataretentiebeleid weergegeven dat momenteel geldt voor uw organisatie, en het aantal rapportsuites dat aan dit retentiebeleid is toegewezen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Exporteren naar CSV </p> </td> 
-   <td colname="col2"> <p>Als u het selectievakje naast een of meer rapportsuites selecteert, wordt de optie <span class="uicontrol">Exporteren naar CSV</span> weergegeven. Met deze optie kunt u een CSV-bestand downloaden met alle huidige labeldefinities voor alle variabelen voor alle geselecteerde rapportsuites. </p> <p>We adviseren dat uw juridische team uw labelkeuzes controleert, en deze optie maakt die controle mogelijk. U kunt het CSV-bestand met het team delen, zodat ze de controle niet hoeven uit te voeren terwijl ze zijn aangemeld bij de Data Governance-gebruikersinterface. </p> <p><img placement="break"  src="assets/export_csv.png" width="300px" id="image_5FE821B2D07B402D8E0F6FE53D6FC52E" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Instelling | Beschrijving |
+| --- | --- |
+| **[!UICONTROL Report Suites]** | De eerste rij vermeldt de friendly name van de rapportsuite. De tweede rij bevat de interne naam van de rapportsuite. Als u labels voor een rapportsuite mag instellen, is de eerste rij een klikbare koppeling die u naar de labelpagina brengt. |
+| **[!UICONTROL Organization Mapping]** | <ul><li>Toegewezen: Deze rapportsuite is al toegewezen aan dezelfde Experience Cloud-organisatie als het aanmeldingsbedrijf voor Analytics waarbij u bent aangemeld. Alleen rapportsuites met deze instelling kunnen worden gelabeld.</li><li>Toegewezen aan een andere organisatie: Deze rapportsuite is al aan een andere Experience Cloud-organisatie toegewezen.</li></ul> |
+| **[!UICONTROL Data Retention Policy]** | Voor de Analytics Data Privacy-implementatie hebt u een dataretentiebeleid nodig. Met deze instelling wordt het volgende getoond:<ul><li>of er een dataretentiebeleid is voor deze rapportsuite, en</li><li>hoe lang de data door Adobe worden bewaard voordat ze worden verwijderd. De standaard dataretentieperiode is 25 maanden.</li></ul>**Opmerking**: Adobe Analytics kan u niet helpen bij het verwerken van aanvragen voor de Data Privacy API, dat wil zeggen, het verwerken van verzoeken om toegang of verwijdering die u van uw eindgebruikers ontvangt, als de bewaarperiode voor gegevens niet is ingesteld. Neem contact op met de Customer Success Manager om de periode voor dataretentie in te stellen. |
+| **[!UICONTROL Groups]** | Groeperingsfunctionaliteit is momenteel niet geïmplementeerd. |
+| Linkerzijbalk | Klik op het trechterpictogram om de zijbalk te openen of te sluiten. De [!UICONTROL Organization Mapping] geeft het aantal rapportsuites weer dat in elk van de beschreven categorieën valt. De [!UICONTROL Data Retention Policy] de sectie toont elk uniek beleid van het gegevensbehoud momenteel op zijn plaats voor uw organisatie en het aantal rapportsuites die dat behoudbeleid werden toegewezen. |
+| **[!UICONTROL Export to CSV]** | Als u het selectievakje naast een of meer rapportsuites selecteert, wordt de optie Exporteren naar CSV weergegeven. Met deze optie kunt u een CSV-bestand downloaden met alle huidige labeldefinities voor alle variabelen voor alle geselecteerde rapportsuites. We adviseren dat uw juridische team uw labelkeuzes controleert, en deze optie maakt die controle mogelijk. U kunt het CSV-bestand met het team delen, zodat ze de controle niet hoeven uit te voeren terwijl ze zijn aangemeld bij de Data Governance-gebruikersinterface. |
