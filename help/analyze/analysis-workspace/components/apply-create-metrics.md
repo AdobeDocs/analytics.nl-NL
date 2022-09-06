@@ -4,10 +4,10 @@ title: Metriek in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 56fd6dd8450df3ffea78154fafa1e858d5a653a7
+source-git-commit: e0a10540bdfbd9fa3694ff3c7a8585eeb87eaad8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '396'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +38,7 @@ Metriek is flexibel in het gebruik binnen Analysis Workspace. Sleep metrisch aan
 Met berekende meetwaarden kunt u gemakkelijk zien hoe de meetgegevens op elkaar betrekking hebben met behulp van eenvoudige operatoren of statistische functies. U kunt op verschillende manieren berekende metriek maken:
 
 * Klik op het plusteken naast de koptekst Metriek onder de lijst met componenten aan de linkerkant.
-* Ga naar **[!UICONTROL Componets]** > **[!UICONTROL Calculated Metrics]** > **[!UICONTROL Add]**.
+* Ga naar **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]** > **[!UICONTROL Add]**.
 * Klik met de rechtermuisknop op een kolomkop > **[!UICONTROL Create metric from selection]** wanneer een of meer cellen van de kopkolom zijn geselecteerd. Deze optie leidt automatisch tot berekende metrisch voor u zonder het moeten de Berekende Metrische Bouwer van de Regel gebruiken.
 
 [Berekende waarden: Metriek zonder implementatie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
