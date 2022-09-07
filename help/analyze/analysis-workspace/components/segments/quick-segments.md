@@ -4,9 +4,9 @@ title: Snelle segmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Het segment wordt bovenaan weergegeven. Let op de zijbalk met een blauw streepje
 ## Snelle segmenten opslaan
 
 >[!IMPORTANT]
->Zodra u sparen of het segment toepast, kunt u het niet meer uitgeven in de Snelle Bouwer van het Segment, slechts in de regelmatige Bouwer van het Segment.
+>Zodra u sparen of het segment toepast, kunt u het niet meer uitgeven in de Snelle Bouwer van het Segment, slechts in de regelmatige Bouwer van het Segment. Alleen Adobe Analytics-productbeheerders en de maker van het snelsegment kunnen wijzigingen in een bestaand snelsegment opslaan.
 
 1. Zodra u het snelle segment hebt toegepast, houdt u de muisaanwijzer boven het segment en selecteert u het pictogram Info (&quot;i&quot;).
 
