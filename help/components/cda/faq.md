@@ -2,9 +2,9 @@
 title: Veelgestelde vragen over Cross-device Analytics
 description: Veelgestelde vragen over apparaatanalyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ De cross-device stitching van CDA vindt plaats in twee gelijktijdige processen.
 
 * Het tweede proces wordt &#39;replay&#39; genoemd. Tijdens replay, gaat CDA achterwaarts in tijd en herstelt historische gegevens, waar mogelijk, binnen een gespecificeerd terugkijkvenster. Dit terugkijkvenster is of 1 dag of 7 dagen, afhankelijk van hoe u CDA vroeg om worden gevormd. Tijdens het afspelen probeert CDA hits opnieuw te verklaren waar de persoon voordien onbekend was.
 
-* **Als u een apparaatgrafiek gebruikt**, houdt Adobe apparatenafbeeldingen in de Grafiek Co-op en Privé Grafiek ongeveer 6 maanden. Een ECID die langer dan zes maanden geen activiteit heeft, wordt uit de grafiek verwijderd. Gegevens die al in de CDA zijn vermeld, worden niet beïnvloed, maar latere treffers voor die ECID worden als een nieuwe persoon behandeld.
+* **Als u een apparaatgrafiek gebruikt**, houdt Adobe de afbeeldingen van de Grafiek van het Apparaat ongeveer 6 maanden. Een ECID die langer dan zes maanden geen activiteit heeft, wordt uit de grafiek verwijderd. Dit heeft geen invloed op gegevens die al in de CDA zijn vermeld; latere treffers voor die ECID worden als een nieuwe persoon behandeld.
 
 ## Hoe verwerkt CDA treffers met tijdstempels?
 
@@ -71,7 +71,7 @@ Beide [Mensen](/help/components/metrics/people.md) en [Unieke bezoekers](/help/c
 Deze twee metriek zijn ruwweg gelijkwaardig aan elkaar. De verschillen tussen de twee metriek komen voor wanneer:
 
 * Een gedeeld apparaat wordt toegewezen aan meerdere personen. In dit scenario wordt 1 unieke bezoeker geteld, terwijl meerdere unieke apparaten worden geteld.
-* Een apparaat heeft zowel niet-vastgezet als vastgezet verkeer van de zelfde bezoeker. Bijvoorbeeld, produceerde browser geïdentificeerde gestippeld verkeer + historisch anonieme verkeer dat niet werd vastgemaakt. In dit geval wordt 1 unieke bezoeker geteld, terwijl 2 unieke apparaten worden geteld.
+* Een apparaat heeft zowel niet-vastgezet als vastgezet verkeer van de zelfde bezoeker. Bijvoorbeeld, produceerde browser geïdentificeerde gestippeld verkeer + historisch anoniem verkeer dat niet werd vastgemaakt. In dit geval wordt 1 unieke bezoeker geteld, terwijl 2 unieke apparaten worden geteld.
 
 Zie [Unieke apparaten](/help/components/metrics/unique-devices.md) voor meer voorbeelden en details over hoe het werkt.
 

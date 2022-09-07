@@ -2,9 +2,9 @@
 title: Cross-device Analytics
 description: Verander uw gegevens van apparaat-geconcentreerd in persoon-geconcentreerd door apparatengegevens samen te stikken.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,7 @@ Apparaatanalyse is een functie waarmee analyses worden getransformeerd van een a
 
 * [**Veldgebaseerde stitching**](field-based-stitching.md): Aanbevolen optie voor stitching omdat alleen deterministische overeenkomsten worden gebruikt om apparaten aan elkaar te koppelen.
 Staat u toe om een variabele van de Analyse als basis voor dwars-apparaat het stitching in een virtuele rapportreeks te kiezen.
-* [**Apparaatgrafiek**](device-graph.md): CDA communiceert met een apparaatgrafiek om apparaten aan elkaar te hechten. De co-op grafiek gebruikt zowel deterministische als probabilistische aanpassing.
-
->[!NOTE]
->
->Meer informatie over de [Apparaatcoop-einde van levensduur](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html).
+* [**Apparaatgrafiek**](device-graph.md): CDA communiceert met een apparaatgrafiek om apparaten aan elkaar te hechten.
 
 Met CDA kunt u vragen beantwoorden zoals:
 

@@ -5,9 +5,9 @@ subtopic: Visitors
 title: Gebruikers op verschillende apparaten verbinden
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ Nadat de klant zich vanaf elk apparaat heeft aangemeld, zijn deze allemaal gekop
 Het gebruik van uw eigen aangepaste bezoeker-id&#39;s geeft u meer controle over de manier waarop bezoekers worden geïdentificeerd, maar de beperkingen ervan zijn van toepassing.
 
 * **Deduplicatie van bezoeker is niet retroactief**: Als een bezoeker voor het eerst toegang krijgt tot uw site en vervolgens wordt geverifieerd, worden twee unieke bezoekers geteld. Één unieke bezoeker telt automatisch voor generische identiteitskaart van de Analyse, en een andere tellingen voor identiteitskaart van de douanebezoeker wanneer zij login. Dit dupliceren van unieke bezoekers wordt altijd getoond wanneer een bezoeker een nieuw apparaat gebruikt of zijn cookies wist.
-* **Incompatibiliteit met de Experience Cloud ID-service**: Sinds de introductie van de identificatie van bezoekers op verschillende apparaten heeft Adobe krachtigere en betrouwbaardere manieren beschikbaar gemaakt om bezoekers op verschillende apparaten te volgen. Deze nieuwe identificatiemethoden zijn niet compatibel met de overschrijving van de aangepaste bezoeker-id. Als u van plan bent om de Dienst van identiteitskaart, de Analytics van het Apparaat (CDA), of co-op van het Apparaat te gebruiken, adviseert Adobe sterk tegen het gebruiken van `visitorID` variabele.
+* **Incompatibiliteit met de Experience Cloud ID-service**: Sinds de introductie van de identificatie van bezoekers op verschillende apparaten heeft Adobe krachtigere en betrouwbaardere manieren beschikbaar gemaakt om bezoekers op verschillende apparaten te volgen. Deze nieuwe identificatiemethoden zijn niet compatibel met de overschrijving van de aangepaste bezoeker-id. Als u van plan bent om de Dienst van identiteitskaart of de Analytics van het Apparaat (CDA) te gebruiken, adviseert Adobe sterk tegen het gebruiken van `visitorID` variabele.

@@ -4,9 +4,9 @@ title: Sjablonen
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1298'
 ht-degree: 4%
 
 ---
@@ -123,19 +123,15 @@ Hier is een video over de [!UICONTROL Training Tutorial] sjabloon:
 
 ### Mensen
 
->[!NOTE]
->
->Het malplaatje van Mensen en zijn bijbehorende metrisch van Mensen is beschikbaar voor gebruik slechts als deel van [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html).
+Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde versie van de Unieke metrische Bezoekers is. Met de sjabloon Personen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. Met de sjabloon kunt u:
 
-Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde versie van de Unieke metrische Bezoekers is. Met de sjabloon Personen wordt gemeten hoe vaak consumenten die meerdere apparaten gebruiken, met uw merk communiceren. Met de sjabloon kunt u
-
-* Segmenteer uw gegevens voor de VS/Canada versus de rest van de wereld. De Device Co-op is momenteel alleen beschikbaar in Noord-Amerika.
-* Vergelijk de maatstaven Personen en Unieke bezoekers naast elkaar.
-* Zie de &quot;compressiesnelheid&quot;, een berekende maatstaf die berekent hoeveel kleiner de personenmetrische waarde is als een percentage van Unieke bezoekers.
+* Segmenteer uw gegevens voor VS/Canada versus de rest van de wereld
+* De maatstaven Personen en Unieke bezoekers naast elkaar vergelijken
+* Zie de &quot;compressiesnelheid&quot;, een berekende maatstaf die berekent hoeveel kleiner de personenmeting is als een percentage van Unieke bezoekers
 * Vergelijk de totalen van het apparaattype die uw klanten gebruiken
-* Zie hoeveel gemiddelde apparaten per persoon worden gebruikt.
-* Ontdek hoe u segmenten kunt stapelen met de metrische modus Personen.
-* Onderzoek hoe het gebruiken van identiteitskaart van de Experience Cloud in uw milieu de doeltreffendheid van de metrische Mensen verbetert.
+* Zie hoeveel gemiddelde apparaten per persoon worden gebruikt
+* Ontdek hoe u segmenten stapelen met de personenmetrische methode kunt gebruiken
+* Onderzoek hoe het gebruiken van identiteitskaart van de Experience Cloud in uw milieu de doeltreffendheid van de metrische Mensen verbetert
 
 ### Reis-IQ: Sjabloon voor apparaatanalyse
 
@@ -143,10 +139,8 @@ Dit malplaatje is gebaseerd op metrisch van Mensen, dat een de-gedupliceerde ver
 
 Met deze sjabloon kunt u essentiële gegevens over de prestaties van verschillende apparaten bekijken. Het is alleen beschikbaar voor klanten die toegang hebben tot [Apparaatanalyse](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en) (CDA).
 
-* **Speciale notitie voor leden van de coopgrafiek**: Toont welk gedeelte van uw rapportreeks bezoekers in gebieden bevat waar de co-op grafiek wordt gesteund, en gebieden waar het niet wordt gesteund.
 * **Identificatie van de gebruikers**: Hiermee kunt u zien hoe vaak bezoekers van uw site worden geïdentificeerd met methoden die zijn gebaseerd op Apparaatanalyse.
 * **Grootte publiek meten**: Geeft een vergelijking van &#39;Unieke apparaten&#39; in vergelijking met &#39;Mensen&#39;. Het aandeel van deze twee getallen wordt &#39;apparaatcompressie&#39; genoemd, een berekende metrische waarde die zichtbaar is in dit deelvenster. Deze compressiemetrie is afhankelijk van een groot aantal factoren:
-   * **De grafiek Coop of Privé gebruiken**: In het algemeen zien organisaties die het apparaatco-op gebruiken doorgaans betere compressiesnelheden dan organisaties die de persoonlijke grafiek gebruiken.
    * **Aanmeldfrequentie**: Hoe meer gebruikers zich aanmelden op uw site, hoe meer Adobe bezoekers op verschillende apparaten kan identificeren en aanhechten. Sites met een lage aanmeldingsfrequentie hebben ook een lage compressiesnelheid.
    * **Experience Cloud ID-dekking**: Alleen bezoekers met een ECID kunnen worden aangesloten. Een lager percentage bezoekers van uw site met een ECID correleert met lagere compressiesnelheden.
    * **Meervoudig apparaatgebruik**: Als bezoekers van uw site niet meerdere apparaten gebruiken, ziet u lagere compressiesnelheden.

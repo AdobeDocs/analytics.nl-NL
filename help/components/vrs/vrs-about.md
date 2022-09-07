@@ -3,9 +3,9 @@ description: De virtuele rapportreeksen segmenteren uw gegevens van Adobe Analyt
 title: Overzicht van virtuele rapportsuites
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '782'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,6 @@ Virtuele rapportensuites helpen:
 * Vereenvoudig implementatie door u toe te staan om één enkele identiteitskaart van de Reeks van het Rapport (RSID) over alle plaatsen/domeinen te gebruiken. Als alle gegevens in één rapportenpakket zijn opgenomen, kunnen klanten analyses uitvoeren terwijl we de volgende generatie van Adobe Analytics naderen.
 * Zakelijke gebruikers in uw organisatie zien altijd alleen de gegevenssegmenten die voor hen relevant zijn.
 * Verbeter veiligheid door Admin gebruikers toe te staan om gegevenstoegang gemakkelijker en korter na implementatie te controleren.
-* De mogelijkheid bieden om deel te nemen aan Device Co-op
 * Personmetrisch
 * Een weergave van gegevens voor één klant (in de toekomst)
 * De capaciteit om onbeperkte virtuele rapportsuites tot stand te brengen om gegevens te segmenteren

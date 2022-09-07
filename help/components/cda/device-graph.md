@@ -2,23 +2,16 @@
 title: Apparaatgrafiek
 description: Begrijp de eerste vereisten en de beperkingen van het stitching van gegevens gebruikend de apparatengrafiek.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
 
 # Apparaatgrafiek
 
-Cross-Device Analytics biedt twee verschillende methoden om gegevens aan elkaar te koppelen. Bij deze methode wordt de Adobe Experience Platform Identity Service Co-op grafiek of de Private Graph gebruikt om gegevens aan elkaar te koppelen. CDA communiceert regelmatig met de apparatengrafiek om apparaten samen te verbinden.
-
-## Verschillen tussen co-op grafiek en privé grafiek
-
-Adobe biedt twee typen apparaatgrafieken als onderdeel van de ID-service:
-
-* **Grafiek met meerdere uiteinden**: Een opslagplaats van hashed apparaat ID&#39;s die om het even welke klant kan bijdragen tot en van verwijzingen voorzien. Aangezien dit type apparaatgrafiek een gezamenlijke grafiek is, komt deze meestal overeen met meer apparaten dan een persoonlijke grafiek.
-* **Privégrafiek**: Een opslagplaats van hashed apparaat ID&#39;s die slechts uw organisatie van verwijzingen voorziet.
+Analytics voor verschillende apparaten kan de persoonlijke grafiek gebruiken om gegevens aan elkaar te koppelen. De privégrafiek is een opslagplaats van hashed apparaat-id&#39;s die specifiek is voor uw organisatie. CDA communiceert regelmatig met de apparatengrafiek om apparaten samen te verbinden.
 
 ## Specifieke voorwaarden voor de apparaatgrafiek
 
