@@ -2,9 +2,9 @@
 title: Apparaatanalyse instellen
 description: Configureer een virtuele rapportsuite om CDA in te schakelen.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
+source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Als aan alle voorwaarden is voldaan, voert u de volgende stappen uit om Apparaat
 
 >[!IMPORTANT]
 >
->Aan alle voorwaarden moet worden voldaan voordat u deze stappen uitvoert. Als niet aan alle voorwaarden wordt voldaan, is de functie niet beschikbaar of werkt deze niet. Zie [overzichtspagina](overview.md) en de gewenste het stitching methode ([Op gebied-gebaseerde het stitching](field-based-stitching.md) of [Apparaatgrafiek](device-graph.md), respectievelijk) voor eerste vereisten en beperkingen.
+>Aan alle voorwaarden moet worden voldaan voordat u deze stappen uitvoert. Als niet aan alle voorwaarden wordt voldaan, is de functie niet beschikbaar of werkt deze niet. Zie de [overzichtspagina](overview.md) en de gewenste methode ([Veldgebaseerde stitching](field-based-stitching.md) of [Apparaatgrafiek](device-graph.md), respectievelijk) voor voorwaarden en beperkingen.
 
 ## Open een ticket met de klantenservice om CDA beschikbaar te stellen op uw rapportenpakket voor alle apparaten
 
@@ -23,7 +23,7 @@ CDA is provisioned op uw cross-device rapportsuite door Adobe engineering. Neem 
 
 * Uw Adobe Experience Cloud org-id (een alfanumerieke tekenreeks die eindigt met @AdobeOrg)
 * De rapportsuite-id voor de rapportsuite voor verschillende apparaten die u wilt inschakelen met CDA
-* Welke methode van CDA wilt u gebruiken (op gebied-gebaseerde het stitching, Adobe privé grafiek, of Adobe coop grafiek)
+* Welke methode van CDA wilt u gebruiken (Op gebied-gebaseerde Stitching of de Grafiek van het Apparaat van Adobe)
 * Als u op het veld gebaseerde stitching wilt gebruiken, de eigenschap of de eVar die de gebruikersnaam bevat
 * Uw voorkeur voor afspeelfrequentie en terugkijklengte. De opties omvatten een replay eens per week met een 7 dagen terugkijkvenster, of een replay elke dag met een 1 dag terugkijkvenster.
 De standaardinstelling is wekelijks opnieuw afspelen met een terugkijkvenster van 7 dagen. In dit geval kunnen gegevens in de laatste week worden gewijzigd (aangezien deze geleidelijk worden bijgewerkt).
@@ -34,7 +34,7 @@ Als u de klantenservice deze informatie verschaft, werken zij samen met Adobe En
 
 Beheerders die toegang hebben tot het maken van virtuele rapportsuites, kunnen als volgt virtuele CDA-rapportensuites maken:
 
-1. Navigeer naar [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) en meld u aan met uw AdobeID-referenties.
+1. Navigeren naar [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) en meld u aan met uw Adobe-id.
 2. Klik op het pictogram met het 9-raster bovenaan en klik vervolgens op Analytics.
 3. Houd de muis boven Componenten en klik vervolgens op Virtuele rapportsets.
 4. Klik op Toevoegen.
@@ -51,7 +51,7 @@ Beheerders die toegang hebben tot het maken van virtuele rapportsuites, kunnen a
 Houd rekening met de volgende wijzigingen wanneer Apparaatanalyse is ingeschakeld voor een virtuele rapportsuite:
 
 * Er verschijnt een nieuw apparaatpictogram naast de naam van de virtuele rapportsuite. Dit pictogram is exclusief voor virtuele rapportsuites op meerdere apparaten.
-* Er is een nieuwe dimensie beschikbaar met het label [Identified state](../dimensions/identified-state.md).
-* Nieuwe meetgegevens met het label [Personen](../metrics/people.md), [Unieke apparaten](../metrics/unique-devices.md), [Geïdentificeerde personen](../metrics/identified-people.md), [Niet-geïdentificeerde personen](../metrics/unidentified-people.md) en [Personen met Experience Cloud-id](../metrics/people-with-exp-cloud-id.md) zijn beschikbaar.
-* De metrische [Unieke bezoekers](../metrics/unique-visitors.md) is niet beschikbaar, aangezien het met &quot;Mensen&quot;en &quot;Unieke Apparaten&quot;wordt vervangen.
+* Een nieuwe dimensie [Status geïdentificeerd](../dimensions/identified-state.md) is beschikbaar.
+* Nieuwe metriek met label [Mensen](../metrics/people.md), [Unieke apparaten](../metrics/unique-devices.md), [Geïdentificeerde personen](../metrics/identified-people.md), [Niet-geïdentificeerde personen](../metrics/unidentified-people.md), en [Personen met Experience Cloud-id](../metrics/people-with-exp-cloud-id.md) zijn beschikbaar.
+* De metrische [Unieke bezoekers](../metrics/unique-visitors.md) is niet beschikbaar, omdat deze wordt vervangen door &#39;Mensen&#39; en &#39;Unieke apparaten&#39;.
 * Bij het maken van segmenten wordt de segmentcontainer &#39;Visitor&#39; vervangen door een container &#39;Person&#39;.

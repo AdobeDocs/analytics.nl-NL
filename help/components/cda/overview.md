@@ -2,7 +2,7 @@
 title: Cross-device Analytics
 description: Verander uw gegevens van apparaat-geconcentreerd in persoon-geconcentreerd door apparatengegevens samen te stikken.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 9c9322647145832503e4a5875789e9cf7e9a2397
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
@@ -11,11 +11,12 @@ ht-degree: 0%
 
 # Cross-device Analytics
 
-Apparaatanalyse is een functie waarmee analyses worden getransformeerd van een apparaatgecentreerde weergave naar een persoonlijke weergave. Dit heeft tot gevolg dat analisten begrip hebben voor het gedrag van gebruikers in browsers, apparaten of apps. Adobe ondersteunt twee overkoepelende workflows om apparaatgegevens aan elkaar te koppelen:
+Cross-Device Analytics (CDA) is een functie waarmee Analytics van een apparaat-centric mening in een persoon-centric mening wordt omgezet. Dit heeft tot gevolg dat analisten begrip hebben voor het gedrag van gebruikers in browsers, apparaten of apps. Adobe ondersteunt twee overkoepelende workflows om apparaatgegevens aan elkaar te koppelen:
 
 * [**Veldgebaseerde stitching**](field-based-stitching.md): Aanbevolen optie voor stitching omdat alleen deterministische overeenkomsten worden gebruikt om apparaten aan elkaar te koppelen.
 Staat u toe om een variabele van de Analyse als basis voor dwars-apparaat het stitching in een virtuele rapportreeks te kiezen.
-* [**Apparaatgrafiek**](device-graph.md): CDA communiceert met een apparaatgrafiek om apparaten aan elkaar te hechten.
+
+* [**Apparaatgrafiek**](device-graph.md): CDA communiceert met een privégrafiek om apparaten aan elkaar te hechten.
 
 Met CDA kunt u vragen beantwoorden zoals:
 
@@ -36,7 +37,7 @@ Zie de [Reis-IQ: De pagina Spark van Analytics voor verschillende apparaten](htt
 Voor het gebruik van CDA is het volgende vereist. [Veldgebaseerde stitching](field-based-stitching.md) en [Apparaatgrafiek](device-graph.md) methoden hebben ook hun eigen specifieke voorwaarden .
 
 * Een contract moet worden ondertekend met Adobe die Adobe Analytics Ultimate omvat.
-* De analyse van apparaten wordt toegelaten op een per-rapport-reeks basis. Adobe raadt een rapportsuite aan die apparaatoverschrijdende gegevens bevat. Dit houdt in dat gegevens van meerdere apparaattypen (web, app, enz.) worden gebruikt. Sommige organisaties noemen dit concept een &quot;globaal&quot; rapportenpakket, hoewel CDA vanuit geografisch oogpunt niet strikt algemeen hoeft te zijn.
+* Uw organisatie kiest welke rapportsuites om CDA toe te laten. Adobe raadt rapportsuites aan die apparaatgegevens bevatten. Dit zijn gegevens van meerdere apparaten/browsers/app-typen. Sommige organisaties noemen dit concept een &quot;globaal&quot; rapportenpakket, hoewel CDA vanuit geografisch oogpunt niet strikt algemeen hoeft te zijn.
 
 ## Beperkingen
 
