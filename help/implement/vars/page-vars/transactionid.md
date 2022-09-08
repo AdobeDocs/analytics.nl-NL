@@ -3,9 +3,9 @@ title: transactionID
 description: Gebruik deze variabele om online en offline gegevens aan elkaar te koppelen.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ De `transactionID` De variabele identificeert uniek een transactie zodat kan de 
 Wanneer u `transactionID` Bij een hit maakt Adobe een &quot;momentopname&quot; van alle analytische variabelen die op dat moment zijn ingesteld of blijven bestaan. Gegevens die via gegevensbronnen met een overeenkomende transactie-id zijn geüpload, zijn permanent gekoppeld aan die variabele waarden.
 
 Standaard onthoudt Adobe alle waarden van de transactie-id (gekoppeld en ongekoppeld) gedurende maximaal 90 dagen. Als uw offline interactieproces langer is dan 90 dagen, neemt u contact op met de klantenservice om deze limiet te verlengen.
+
+## Transactie-id met de Web SDK
+
+Transactie-id is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `commerce.order.transactionID`.
 
 ## Transactie-id met Adobe Analytics-extensie
 

@@ -2,9 +2,9 @@
 title: Variabeletoewijzing analyseren in Adobe Experience Edge
 description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen aan analytische variabelen.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,7 @@ In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge 
 | `commerce.checkouts.value` | Verhoogt de [Afbeeldingen](../../components/metrics/checkouts.md) met de gewenste hoeveelheid. |
 | `commerce.order.currencyCode` | Hiermee stelt u de [currencyCode](../vars/config-vars/currencycode.md) configuratievariabele. |
 | `commerce.order.purchaseID` | Hiermee stelt u de [purchaseID](../vars/page-vars/purchaseid.md) paginavariabele. |
+| `commerce.order.transactionID` | Hiermee stelt u de [transactionID](../vars/page-vars/transactionid.md) paginavariabele. |
 | `commerce.productListAdds.id` | Toepassingen [gebeurtenisserienummering](../vars/page-vars/events/event-serialization.md) aan de [Extra winkelwagentjes](../../components/metrics/cart-additions.md) metrisch. |
 | `commerce.productListAdds.value` | Verhoogt de [Extra winkelwagentjes](../../components/metrics/cart-additions.md) metrisch. |
 | `commerce.productListOpens.id` | Toepassingen [gebeurtenisserienummering](../vars/page-vars/events/event-serialization.md) aan de [Houtskaarten](../../components/metrics/carts.md) metrisch. |
