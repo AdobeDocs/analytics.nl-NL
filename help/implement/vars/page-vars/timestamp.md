@@ -3,9 +3,9 @@ title: timestamp
 description: Stel handmatig de tijdstempel van de hit in.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De `timestamp` Met variabele wordt handmatig de tijdstempel van de hit ingesteld
 
 ## Tijdstempel met de SDK van het web
 
-Tijdstempel is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `_experience.analytics.session.timestamp`. Dit veld ondersteunt alleen Unix-tijd.
+Tijdstempel is [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder het XDM-veld `xdm.timestamp`. Dit veld ondersteunt alleen Unix-tijd.
 
 ## Tijdstempel met Adobe Analytics-extensie
 
