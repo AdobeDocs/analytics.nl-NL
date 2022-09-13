@@ -3,9 +3,9 @@ title: products
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Producten zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.
 * Aantal is toegewezen aan `productListItems[].quantity`.
 * Prijs is toegewezen aan `productListItems[].priceTotal`.
 * Merchandising eVars worden toegewezen aan `productListItems._experience.analytics.customDimensions.eVars.eVar1` tot `productListItems._experience.analytics.customDimensions.eVars.eVar250`, afhankelijk van welke eVar u aan een product wilt binden.
-* Merchandising-gebeurtenissen worden toegewezen aan `productListItems[]._experience.analytics.event1to100.event1.value` tot `productListItems._experience.analytics.event901to1000.event1000.value`, afhankelijk van welke gebeurtenis u aan een product wilt binden.
+* Merchandising-gebeurtenissen worden toegewezen aan `productListItems[]._experience.analytics.event1to100.event1.value` tot `productListItems._experience.analytics.event901to1000.event1000.value`, afhankelijk van welke gebeurtenis u aan een product wilt binden. Als u een gebeurtenis instelt in een van deze velden, wordt deze automatisch opgenomen in het dialoogvenster [event](events/events-overview.md) tekenreeks verzonden naar Adobe Analytics.
 
 >[!NOTE]
 >
