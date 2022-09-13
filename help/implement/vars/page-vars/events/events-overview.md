@@ -3,9 +3,9 @@ title: events
 description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw site beheert.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
+source-git-commit: 48f840f3f15702761a453763e7c416a67bcb687b
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Aangepaste gebeurtenissen zijn [toegewezen voor Adobe Analytics](https://experie
 
 * Aangepaste gebeurtenissen 1-100 worden toegewezen aan `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Aangepaste gebeurtenissen 101-200 worden toegewezen aan `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* Dit patroon herhaalt elke 100 gebeurtenissen naar `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` wordt gebruikt om de waarde op te geven. `eventx.id` wordt gebruikt om identiteitskaart voor rangschikking te specificeren.
+* Dit patroon herhaalt elke 100 gebeurtenissen naar `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` wordt gebruikt om het te verhogen bedrag te specificeren. `eventx.id` wordt gebruikt voor [serienummering](event-serialization.md).
 * Bestellingen worden toegewezen aan `commerce.purchases.value`.
 * Eenheden worden toegewezen aan de som van alle eenheden `productListItems[].quantity` velden.
 * Opbrengsten worden toegewezen aan de som van alle `productListItems[].priceTotal` velden.
@@ -32,6 +32,10 @@ Aangepaste gebeurtenissen zijn [toegewezen voor Adobe Analytics](https://experie
 * Winkelwagentjes worden toegewezen aan `commerce.productListRemovals.value`.
 * Wisselweergaven worden toegewezen aan `commerce.productListViews.value`.
 * Afbeeldingen worden toegewezen aan `commerce.checkouts.value`.
+
+>[!NOTE]
+>
+>Als een gebeurtenis is ingesteld onder `productListItems` (bijvoorbeeld `productListItems._experience.analytics.event1.value`) en die gebeurtenis zich nog niet in dit veld bevindt, wordt die gebeurtenis automatisch toegevoegd aan dit veld.
 
 ## Gebeurtenissen die de extensie Adobe Analytics gebruiken
 
@@ -49,7 +53,7 @@ Er zijn verschillende functies beschikbaar:
 * In een vervolgkeuzelijst kunt u de gebeurtenis selecteren die u wilt opnemen
 * Een optioneel tekstveld voor serienummering. Zie [gebeurtenisserienummering](event-serialization.md) voor meer informatie .
 * Een optioneel tekstveld voor een gebeurteniswaarde. U kunt een valuta voor valutagebeurtenissen opnemen of een geheel getal voor gebeurtenissen buiten de valuta om deze meerdere keren te verhogen. Als u bijvoorbeeld `event1` onder de vervolgkeuzelijst en inclusief `10` in dit veld, stappen `event1` 10 bij de rapportage.
-* Een knop om een andere gebeurtenis toe te voegen. Er geldt geen redelijke limiet voor het aantal gebeurtenissen dat u in een hit kunt opnemen.
+* Een knop om een andere gebeurtenis toe te voegen. U kunt net zoveel gebeurtenissen toevoegen als u wilt met één regel.
 
 ## s.events in AppMeturement en de de coderedacteur van de uitbreiding van de Analyse van de douanecode
 
