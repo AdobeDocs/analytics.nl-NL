@@ -3,9 +3,9 @@ title: prop
 description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Als u een [document ontwerp oplossing](/help/implement/prepare/solution-design.m
 
 ## Proefpersonen die de SDK van het Web gebruiken
 
-Props zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.props.prop1` tot `_experience.analytics.customDimensions.props.prop75`.
+Props zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.props.prop1` tot `_experience.analytics.customDimensions.props.prop75`. Lijstprofielen worden opgegeven in een aparte set velden.
 
 ## Wordt gebruikt met de Adobe Analytics-extensie
 
@@ -53,13 +53,17 @@ Keuzerondjes in de lijst zijn een instelling die wordt toegepast op profielen wa
 
 ### Lijsteigenschappen configureren
 
-Schakel lijsteigenschappen in de instellingen van de rapportsuite in. Zie [Verkeersvariabelen](/help/admin/admin/c-traffic-variables/traffic-var.md) in de handleiding voor Admin-gebruikers. Zorg ervoor dat het gewenste scheidingsteken correct wordt gevormd. Adobe heeft geen standaardscheidingsteken.
+Lijsteigenschappen inschakelen in [Verkeersvariabelen](/help/admin/admin/c-traffic-variables/traffic-var.md) onder rapportsuite-instellingen. Zorg ervoor dat het gewenste scheidingsteken correct wordt gevormd. Adobe heeft geen standaardscheidingsteken.
 
 >[!TIP]
 >
->In implementaties worden vaak scheidingstekens gebruikt (`,`), dubbele punt (`:`), puntkomma (`;`) of pijp (`|`). U kunt elk scheidingsteken gebruiken dat het beste bij uw implementatie past.
+>In implementaties worden vaak scheidingstekens gebruikt (`,`), dubbele punt (`:`), puntkomma (`;`) of pijp (`|`). U kunt elk niet-uitgebreid ASCII-scheidingsteken gebruiken dat het beste bij uw implementatie past.
 
-### Lijsteigenschappen instellen
+### Lijsteigenschappen instellen met de Web SDK
+
+Zodra u lijstproeven in de montages van de rapportreeks met het gewenste scheidingsteken vormt, zijn de lijststeunen in kaart gebracht voor Adobe Analytics onder `_experience.analytics.customDimensions.listProps.prop1.values[]` tot `_experience.analytics.customDimensions.listProps.prop75.values[]`. De SDK van het Web gebruikt automatisch het correcte scheidingsteken dat onder de montages van de rapportreeks wordt vermeld. Als u het scheidingsteken instelt in het XDM-veld (bijvoorbeeld `_experience.analytics.customDimensions.props.prop1.delimiter`), dat het scheidingsteken met voeten treedt dat automatisch uit de montages van de rapportreeks wordt teruggewonnen en tot onjuist het ontleden van het lijstpro koord kan leiden.
+
+### Lijsteigenschappen instellen met de Adobe Analytics-extensie en AppMeasurement
 
 Zodra u lijststeunen in de montages van de rapportreeks met het gewenste scheidingsteken vormt, zijn er geen implementatieverschillen behalve het gebruiken van het scheidingsteken.
 
