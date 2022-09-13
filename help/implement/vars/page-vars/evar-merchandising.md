@@ -4,9 +4,9 @@ description: Aangepaste variabelen die aan afzonderlijke producten zijn gekoppel
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 43703a5e90bcc2afbe45091d72f2c09a50f3db24
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,10 @@ Productsyntaxishandelsvariabelen zijn [toegewezen voor Adobe Analytics](https://
 
 * ProductsyntaxisbewerkingseVars worden toegewezen onder `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` tot `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
 * Handelsgerelateerde gebeurtenissen in de productsyntaxis worden toegewezen onder `productListItems[]._experience.analytics.event1to100.event1.value` tot `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Serienummering voor gebeurtenissen](events/event-serialization.md) XDM-velden worden toegewezen onder `productListItems[]._experience.analytics.event1to100.event1.id` tot `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+
+>[!NOTE]
+>
+>Wanneer u gebeurtenissen instelt onder `productListItems`, hoeft u deze niet in te stellen in de gebeurtenistekenreeks. Wanneer deze op beide plaatsen zijn ingesteld, heeft de waarde in de gebeurtenistekenreeks voorrang.
 
 In het volgende voorbeeld wordt één [product](products.md) het gebruik van meerdere handelsstromen en gebeurtenissen:
 
