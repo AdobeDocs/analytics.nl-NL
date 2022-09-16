@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Technische notities voor Analytics
 breadcrumb-title: Technische notities
 user-guide-description: Een kennisbasis die nuttige artikelen bevat die niet tot een specifiek analyseprogramma of specifieke component behoren.
-source-git-commit: 1539649c758814d64a6f5c6dddff262df831d691
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '199'
 ht-degree: 69%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 69%
 + [De verwerkingsregels voor mobiele services migreren naar Adobe Analytics](migrate-mobile.md)
 + [Ondersteuning voor meerdere valuta&#39;s](multicurrency.md)
 + [Privacyoverzicht](privacy-overview.md)
++ [Verwerkingsopdracht](processing-order.md)
 + [Progressieve webapps](pwa.md)
 + [Omleiding en aliassen](redirects.md)
 + Regionale dataverzameling {#rdc}

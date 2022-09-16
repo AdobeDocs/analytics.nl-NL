@@ -3,9 +3,9 @@ description: Met beide regels kunt u verkeer verwijderen dat wordt gegenereerd d
 title: Bot Rules - overzicht
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 65b3a9001aa062429a870d374af20618c532de35
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1327'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ De **[!UICONTROL contains]** veld mag maximaal 100 tekens bevatten. De lijst bev
 
 ### IP Adres (met inbegrip van vervangingsgelijken)
 
-Komt een IP adres of veelvoudige adressen in het zelfde blok met vervangingen (*) overeen. Geef de numerieke waarden op van het IP-adres dat u wilt afstemmen. Vervangen * voor alle waarden die u met een jokerteken wilt laten overeenkomen. De volgende lijst bevat voorbeelden van IP het koord van de adresgelijke:
+Komt overeen met een IP-adres of meerdere adressen in hetzelfde blok met jokertekens (&#42;). Geef de numerieke waarden op van het IP-adres dat u wilt afstemmen. Vervangend &#42; voor alle waarden die u met een jokerteken wilt laten overeenkomen. De volgende lijst bevat voorbeelden van IP het koord van de adresgelijke:
 
 ```
 10.10.10.1
@@ -74,7 +74,7 @@ Komt een IP adres of veelvoudige adressen in het zelfde blok met vervangingen (*
 
 ### IP-adresbereik
 
-Verstrek de begin en eindwaaiers van de IP adressen om aan te passen. Vervangen * voor alle waarden die u met een jokerteken wilt laten overeenkomen.
+Verstrek de begin en eindwaaiers van de IP adressen om aan te passen. Vervangend &#42; voor alle waarden die u met een jokerteken wilt laten overeenkomen.
 
 ### Een aangepaste botregel definiëren
 
@@ -118,12 +118,11 @@ Selecteer **[!UICONTROL Overwrite existing rules]** Schakel het selectievakje in
 
 De **[!UICONTROL Export Uploaded Bot File]** exporteert alle regels die in de gebruikersinterface zijn gedefinieerd in een CSV-indeling.
 
-
 ## Gevolgen van beide regels voor gegevensverzameling {#section_F01A3130E7A04A9993371CF26F6586F2}
 
 Beide regels worden toegepast op alle analysegegevens. Gegevens die door Bot Rules zijn verwijderd, zijn alleen zichtbaar in de Boot and Bot Pages Reports.
 
-De VISTA-regels worden toegepast na de Bot-regels (zie [Verwerkingsvolgorde).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
+VISTA-regels worden toegepast na beide regels. Zie [Verwerkingsopdracht](/help/technotes/processing-order.md) in de gebruikershandleiding voor technische notities.
 
 **Bezoek met hoge frequentie verwerken:** Als er tijdens een bezoek meer dan 100 bezoekers zijn, bepaalt de rapportage of de tijd van het bezoek in seconden minder is dan of gelijk is aan het aantal bezoekers. In deze situatie, die te wijten is aan de kosten van het verwerken van lange, intensieve bezoeken, begint de rapportage opnieuw met een nieuw bezoek. Hoog-raakbezoeken worden typisch veroorzaakt door beide aanvallen en worden niet beschouwd als normaal bezoekersbladeren.
 
@@ -137,4 +136,4 @@ De IAB bot- lijst is uitsluitend gebaseerd op gebruikersagent, zodat wordt het f
 
 Als IP de verwarring wordt toegelaten, gebeurt IP de uitsluiting alvorens het IP adres wordt verduisterd, zodat moeten de klanten om het even wat niet veranderen wanneer zij IP verduistering toelaten.
 
-Als het laatste octet wordt verwijderd, wordt dat gedaan vóór IP het filtreren. Als dusdanig, wordt het laatste octet vervangen met 0, en IP de uitsluitingsregels zouden moeten worden bijgewerkt om IP adressen met nul op het eind aan te passen. Overeenkomende * moet overeenkomen met 0.
+Als het laatste octet wordt verwijderd, wordt dat gedaan vóór IP het filtreren. Als dusdanig, wordt het laatste octet vervangen met 0, en IP de uitsluitingsregels zouden moeten worden bijgewerkt om IP adressen met nul op het eind aan te passen. Overeenkomend &#42; moet overeenkomen met 0.

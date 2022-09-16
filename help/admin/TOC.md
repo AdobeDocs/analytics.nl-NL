@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 87%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 87%
       + [Overzicht van verwerkingsregels](admin/c-processing-rules/processing-rules.md)
       + Configuratie van verwerkingsregels {#processing-rules-configuration}
          + [De werking van verwerkingsregels](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [Verwerkingsopdracht](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [Verwerkingsregels maken](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
          + [Actieve verwerkingsregels weergeven](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
          + [Verwerkingsregelgeschiedenis weergeven](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)

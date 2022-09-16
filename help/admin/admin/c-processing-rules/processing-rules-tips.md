@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Tips en trucs voor verwerkingsregels
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 2%
+source-wordcount: '615'
+ht-degree: 1%
 
 ---
 
@@ -60,3 +60,9 @@ Zoektermen die u uit een queryreeks hebt opgehaald, moeten correct zijn gecodeer
 Selecteer de correcte aanpassingsvoorwaarde om de meest beperkende voorwaarde te vinden die correct aanpast. U kunt naar waarden in een rapport zoeken alvorens een regel te creëren om ervoor te zorgen er geen onbedoelde gelijken zijn. Bijvoorbeeld, zou u het Prop2 rapport moeten zoeken om alle plaatsen te vinden waar deze voorwaarde alvorens deze regel toe te laten aanpast.
 
 ![](assets/tips-startswith.png)
+
+## Hoe de Regels van de Verwerking worden toegepast wanneer het kopiëren van Hits gebruikend VISTA
+
+Als u een VISTA regel hebt die wordt gevormd om klappen aan een andere rapportreeks te kopiëren, worden de klappen verzonden door om het even welke verwerkingsregels die in de andere rapportreeks worden bepaald.
+
+Als u verwerkingsregels hebt die op de originele rapportreeks worden bepaald, kunnen deze regels of niet worden toegepast gebaseerd op hoe de regel VISTA door de Diensten van de Techniek werd gevormd. Om te weten te komen, kunt u uw implementatiespecialist vragen of de VISTA-regel &quot;pre&quot;of &quot;post&quot;waarden aan de extra rapportreeks kopieert. Als de &quot;pre&quot;waarde wordt gekopieerd, worden de verwerkingsregels die op de originele rapportreeks worden bepaald niet toegepast. Als de &quot;post&quot;waarde wordt gekopieerd, worden de verwerkingsregels toegepast alvorens de slag wordt gekopieerd.
