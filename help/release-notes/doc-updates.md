@@ -4,10 +4,10 @@ description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
+source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
 workflow-type: tm+mt
-source-wordcount: '3379'
-ht-degree: 37%
+source-wordcount: '3262'
+ht-degree: 39%
 
 ---
 
@@ -23,14 +23,15 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Datum | Beschrijving |
 | --- | --- |
+| **September 2022** |  |
+| Verwerkingsopdracht | Verschillende Help-pagina&#39;s zijn samengevoegd om één Help-onderwerp te bieden over [Verwerkingsopdracht](/help/technotes/processing-order.md). |
 | **Juni 2022** |  |
-| Variabelen in XDM voor Edge Collection wijzigen | Documentatie over [ondersteuning voor Merchandising-variabelen in XDM for Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) |
-| Experience Platform Edge-documentatie | Nieuwe artikelen over Adobe Analytics-implementatie via [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en), en [Edge-API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en). |
-| Bijgewerkte documentatie voor stroomvisualisatie | Op basis van de [nieuwe interface](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
-| Documentatie over het delen van annotaties in mobiele scorecards | U kunt [annotaties die zijn gemaakt in Workspace, in Mobile Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
-| Documentatie over de productsyntaxisversie van het Merchandising Variables met de Inzameling van de Rand | U kunt nu de variabelen voor het wijzigen van de handel instellen met behulp van het equivalent van de productsyntaxis door de relevante XDM-velden in te stellen. Meer informatie over productsyntaxis voor handelsvariabelen vinden [hier](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en). Zie de toewijzingen voor productsyntaxis [hier](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). |
+| Variabelen in XDM voor Edge Collection wijzigen | Documentatie over [ondersteuning voor Merchandising-variabelen in XDM for Edge Collection](/help/components/dimensions/evar-merchandising.md) |
+| Experience Platform Edge-documentatie | Nieuwe artikelen over Adobe Analytics-implementatie via [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md), en [Edge-API](/help/implement/aep-edge/edge-api/overview.md). |
+| Bijgewerkte documentatie voor stroomvisualisatie | Op basis van de [nieuwe interface](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
+| Documentatie over het delen van annotaties in mobiele scorecards | U kunt [annotaties die zijn gemaakt in Workspace, in Mobile Scorecards](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **Mei 2022** |  |
-| De afmetingen en metriek van de levenscyclus populeren via Experience Edge | Gegevens over de mobiele levenscyclus die via Experience Edge worden verzonden, worden nu weergegeven in Analytics-rapportage. Zie de documentatie voor meer informatie over welke XDM-velden zijn toegewezen aan bestaande rapportage over de mobiele levenscyclus. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
+| De afmetingen en metriek van de levenscyclus populeren via Experience Edge | Gegevens over de mobiele levenscyclus die via Experience Edge worden verzonden, worden nu weergegeven in Analytics-rapportage. Zie [Variabeletoewijzing Analyse](/help/implement/aep-edge/variable-mapping.md) voor meer informatie over welke XDM-velden worden toegewezen aan de bestaande rapportage van de mobiele levenscyclus. |
 | **April 2022** |  |
 | Adobe Analytics-bestemmingspagina-updates | Updates van de gemeenschappelijke [De landingspagina Werkruimte/Rapporten &amp; Analyse](/help/analyze/landing.md) dat de bruikbaarheid en het gemak van navigatie verbetert. |
 | Nieuw onderwerp over [!UICONTROL Page Summary] deelvenster | [Het deelvenster Paginaoverzicht](/help/analyze/analysis-workspace/c-panels/page-summary.md) |

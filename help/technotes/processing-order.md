@@ -1,9 +1,9 @@
 ---
 title: Verwerkingsvolgorde voor gegevens in Adobe Analytics
 description: Leer de volgorde van componenten en services die gegevens verwerken in Adobe Analytics.
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,15 @@ ht-degree: 0%
 
 Adobe biedt verschillende manieren om gegevens te wijzigen of te bewerken voordat deze in de rapportage worden weergegeven. Op deze pagina ziet u de volgorde waarin verschillende Adobe Analytics gegevens verwerken. U kunt deze lijst gebruiken om gegevensinconsistenties problemen op te lossen, of de beste eigenschap bepalen om te gebruiken wanneer de gegevensaanpassingen noodzakelijk zijn.
 
+![Verwerkingsopdracht](assets/processing-order.png)
+
 ## Gegevens voordat deze naar Adobe worden verzonden
 
 Voordat gegevens naar Adobe worden verzonden, worden doorgaans clientgegevens gecompileerd met een van de volgende methoden:
 
 * **AppMeasurement**: Een JavaScript-bestand dat op uw site wordt gehost en waarnaar op elke pagina wordt verwezen. Gegevens worden rechtstreeks naar Adobe Analytics verzonden.
 * **Adobe Experience Platform Web SDK**: Een JavaScript-bestand dat op uw site wordt gehost en waarnaar op elke pagina wordt verwezen. Gegevens worden verzonden naar Adobe Experience Edge.
-* **Tags in Adobe Experience Cloud-gegevensverzameling**: Een JavaScript-verwijzing op elke pagina met regels die zijn gemaakt in de gebruikersinterface voor gegevensverzameling. De Adobe Analytics-extensie biedt een eenvoudigere manier om AppMeasurement te implementeren. De uitbreiding van SDK van het Web biedt een gemakkelijkere manier aan om het Web SDK uit te voeren.
+* **Tags in Adobe Experience Cloud-gegevensverzameling**: Een JavaScript-bestand waarnaar op elke pagina wordt verwezen, met regels die zijn gemaakt in de gebruikersinterface voor gegevensverzameling. De Adobe Analytics-extensie biedt een eenvoudigere manier om AppMeasurement te implementeren. De uitbreiding van SDK van het Web biedt een gemakkelijkere manier aan om het Web SDK uit te voeren.
 
 Als u gegevens naar Adobe Experience Edge verzendt, kunt u deze zo configureren dat gegevens worden doorgestuurd naar Adobe Analytics (en vele andere Adobe Experience Cloud-oplossingen). Ongeacht de implementatiemethode wordt uiteindelijk een afbeeldingsverzoek met de gewenste variabelen verzonden naar de Adobe-gegevensverzamelingsservers.
 
