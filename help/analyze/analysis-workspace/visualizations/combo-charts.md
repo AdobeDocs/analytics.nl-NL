@@ -4,18 +4,14 @@ title: Visualisatie van combinatiekaarten
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
+source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Combodiagram
-
->[!NOTE]
->
->Deze functionaliteit is momenteel in [beperkte tests](/help/release-notes/releases.md).
 
 De [!UICONTROL Combo chart] Met visualisatie kunt u snel een vergelijkingsvisualisatie maken zonder eerst een tabel te hoeven maken. U kunt tendensen in uw gegevens in een lijn gemakkelijk bekijken/bar combinatie.
 
