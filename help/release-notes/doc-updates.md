@@ -4,10 +4,10 @@ description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
+source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
 workflow-type: tm+mt
-source-wordcount: '3262'
-ht-degree: 39%
+source-wordcount: '3398'
+ht-degree: 37%
 
 ---
 
@@ -24,7 +24,14 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Datum | Beschrijving |
 | --- | --- |
 | **September 2022** |  |
+| Combografieken | Nieuw onderwerp over het [combo-diagrammen](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualisatie. |
+| Bijgewerkte plug-in | Bijgewerkte versie van de [getvalone](/help/implement/vars/plugins/getvalonce.md) implementatieplug-in. |
+| Nieuwe configuratievariabele | Documentatie over [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
+| Tips voor client met hoge entropie | Nieuw onderwerp over hoe Adobe gebruikt [clienttips](/help/technotes/client-hints.md) naast Gebruiker-Agent om apparateninformatie te bepalen. |
 | Verwerkingsopdracht | Verschillende Help-pagina&#39;s zijn samengevoegd om één Help-onderwerp te bieden over [Verwerkingsopdracht](/help/technotes/processing-order.md). |
+| **augustus 2022** |  |
+| Steun voor Variabelen van de Lijst in XDM voor de Inzameling van de Rand | Hiermee kunnen klanten gegevens verzamelen via Experience Edge/Web SDK om XDM te gebruiken om de inhoud van de Variabele van de Lijst op te geven. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en#list-variables-using-the-web-sdk) | 18 augustus 2022 |
+| Gebruik van het gebied van SKU in XDM voor de Inzameling van de Rand wanneer het plaatsen van de Variabelen van het productkoord | Hiermee kunnen klanten gegevens verzamelen via Experience Edge/Web SDK om de SKU-waarde te gebruiken om het productveld in de productvariabele in te stellen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=en#products-using-the-web-sdk) |
 | **Juni 2022** |  |
 | Variabelen in XDM voor Edge Collection wijzigen | Documentatie over [ondersteuning voor Merchandising-variabelen in XDM for Edge Collection](/help/components/dimensions/evar-merchandising.md) |
 | Experience Platform Edge-documentatie | Nieuwe artikelen over Adobe Analytics-implementatie via [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md), en [Edge-API](/help/implement/aep-edge/edge-api/overview.md). |
@@ -109,7 +116,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 18 juni 2020 | Nieuwe documentatie voor [Projectrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) voor gedeelde werkruimteprojecten. Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. |
 | 18 juni 2020 | Nieuwe documentatie over [Werkruimteprojecten &quot;Alleen weergeven&quot;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html). Projecten kunnen aan gebruikers worden gedeeld omdat alleen &quot;Kan bekijken&quot;. Wanneer een ontvanger voor Weergaven het gedeelde project opent, ontvangt hij/zij een beperktere projectervaring zonder linkerrail en met beperkte interactie. |
 | 18 juni 2020 | Nieuwe documentatie over [Projectrollen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) voor gedeelde werkruimteprojecten. Bij het delen van een Workspace-project kunt u ontvangers nu in één van drie projectrollen plaatsen, afhankelijk van de projectervaring die u hun wilt geven: Bewerken, Dupliceren en Weergeven. |
-| 18 juni 2020 | Nieuwe documentatie over [Werkruimteprojecten gelijktijdig bewerken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Ontvangers die aan de rol voor Bewerken zijn toegevoegd, kunnen een project opslaan dat met hen is gedeeld. Dit geldt zowel voor beheerders als niet-beheerders. |
+| 18 juni 2020 | Nieuwe documentatie over [Werkruimteprojecten gelijktijdig bewerken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Ontvangers die aan de rol &quot;Kan uitgeven&quot;worden toegevoegd kunnen over een project bewaren dat aan hen is gedeeld. Dit geldt zowel voor beheerders als niet-beheerders. |
 | **Mei 2020** |  |
 | 31 Mei 2020 | Nieuwe documentatie over [API voor het invoegen van bulkgegevens](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | 21 mei 2020 | Nieuwe documentatie voor [Adobe Analytics-dashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html) |
@@ -148,7 +155,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 21 november 2019 | Bijgewerkt [Veelgestelde vragen over Audience Analytics Workflow](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en) om de beschikbaarheid in LiveStream aan te geven. |
 | 25 oktober 2019 | Bijgewerkt [Adobe Analytics Key Concepts](/help/technotes/terms.md) pagina. |
 | 10 oktober 2019 | Totalen van tabel voor vrije vorm bijwerken: zij bevatten nu twee totalen , a **[!UICONTROL Table total]** en **[!UICONTROL Grand total]**. De rij Tabeltotaal werkt op basis van de toegepaste [rapportfilters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html). Voorheen werden totalen alleen beïnvloed door segmentatie. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>Daarnaast zijn de opties **[!UICONTROL Show Totals]** en **[!UICONTROL Show Grand Total]** toegevoegd aan **[!UICONTROL Column Settings]**.<br/>Met deze wijziging in de vrije-vormtotalen worden afhankelijke visualisaties bijgewerkt (bijvoorbeeld gekoppelde **[!UICONTROL Summary Number]** visualisaties), net als geëxporteerde CSV- en PDF-data. |
-| Oktober 10,2019 | In Workspace is de mogelijkheid om ‘Niet-gespecificeerd (geen)’ gemakkelijk te verwijderen toegevoegd als optie voor het rapporteren van filters. |
+| Oktober 10,2019 | In Workspace is de mogelijkheid om &#39;Niet opgegeven (Geen)&#39; gemakkelijk te verwijderen toegevoegd als optie voor het rapporteren van filters. |
 | Oktober 10,2019 | In Workspace zijn componenten voor paarse granulariteit (Minuut, Uur, Dag, Week, Maand, Kwartaal, Jaar) afgekeurd. U hoeft **geen actie** te ondernemen als u voorheen een van de paarse tijdcomponenten hebt gebruikt.<br/>Door deze wijziging is de naam van de paarse **[!UICONTROL Time]**-sectie ook gewijzigd in **[!UICONTROL Date Ranges]**. |
 | 1 oktober 2019 | Nieuw artikel over [Totalen werkruimte](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace?lang=en). |
 | 28 september 2019 | Nieuwe artikelen over [configuratievariabelen voor Javascript-implementatie](/help/implement/vars/config-vars/configuration-variables.md). |

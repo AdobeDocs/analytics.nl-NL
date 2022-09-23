@@ -1,9 +1,9 @@
 ---
 title: collectHighEntropyUserAgentHints
 description: Gebruik de variabele collectHighEntropyUserAgentHints om te bepalen of Adobe hoge entropiewenken bij Chromium browsers (bijvoorbeeld Google Chrome en Microsoft Edge) zal vragen.
-source-git-commit: 9c386dd26e31b8b2dc2b4a52ae502f9505ec467d
+source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 Hoog-entropy cliëntwenken worden gebruikt door Adobe Analytics om apparaat en browser identificatie te verbeteren. Meer informatie over clienttips vindt u in [dit overzicht en de veelgestelde vragen](/help/technotes/client-hints.md) alsmede [Google-blog](https://web.dev/user-agent-client-hints/).
 
-## Hoog entropiewenken verzamelen met de SDK van het Web
+## Hoog-entropiewenken verzamelen gebruikend het Web SDK
 
 Hoog-entropy cliëntwenken maken deel uit van de contextcategorieën in Web SDK. Zie [Vorm de SDK van het Web van het Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en) voor meer informatie .
 
-## Hoog entropiehints verzamelen met Adobe Analytics Extension
+## Hoog-entropiewenken verzamelen met de Uitbreiding van Adobe Analytics
 
 **[!UICONTROL Collect high-entropy user-agent hints]** is een selectievakje onder de algemene accordeon bij het configureren van de Adobe Analytics-extensie.
 

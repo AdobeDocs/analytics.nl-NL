@@ -1,16 +1,16 @@
 ---
 title: Verwerkingsvolgorde voor gegevens in Adobe Analytics
 description: Leer de volgorde van componenten en services die gegevens verwerken in Adobe Analytics.
-source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
+source-git-commit: 0881efeb2ce4f7af96f42bc925e43ce5ba1f64a2
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
 # Verwerkingsvolgorde voor gegevens in Adobe Analytics
 
-Adobe biedt verschillende manieren om gegevens te wijzigen of te bewerken voordat deze in de rapportage worden weergegeven. Op deze pagina ziet u de volgorde waarin verschillende Adobe Analytics gegevens verwerken. U kunt deze lijst gebruiken om gegevensinconsistenties problemen op te lossen, of de beste eigenschap bepalen om te gebruiken wanneer de gegevensaanpassingen noodzakelijk zijn.
+Adobe biedt verschillende manieren om gegevens te wijzigen of te bewerken voordat deze in de rapportage worden weergegeven. Op deze pagina ziet u de volgorde waarin verschillende Adobe Analytics-functies gegevens verwerken. U kunt deze lijst gebruiken om gegevensinconsistenties problemen op te lossen, of de beste eigenschap bepalen om te gebruiken wanneer de gegevensaanpassingen noodzakelijk zijn.
 
 ![Verwerkingsopdracht](assets/processing-order.png)
 
