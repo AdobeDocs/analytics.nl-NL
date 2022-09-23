@@ -1,9 +1,9 @@
 ---
 title: Clienttips
-description: Meer informatie over
-source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
+description: Leer over hoe de cliëntwenken geleidelijk de Agent van de Gebruiker als bron van apparateninformatie zullen vervangen.
+source-git-commit: 788ab49fec9117e0ef2a736f609a627b913b9f8c
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '904'
 ht-degree: 2%
 
 ---
@@ -29,13 +29,19 @@ Google verdeelt de clienttips van de gebruikersagent in twee categorieën: een l
 
 Lage-entrophints worden automatisch door de browser verstrekt en in het proces van Adobe voor apparateninformatie inbegrepen. De nieuwere versies van AppMeasurement (beginnend TBD) en Web SDK (beginnend TBD) kunnen worden gevormd om high-entropy wenken te verzamelen. Voor beide bibliotheken is het verzamelen van hoge entropiehints **standaard uitgeschakeld**. Zie hier voor meer informatie over hoe u dit kunt implementeren.
 
++++
+
 +++**Kan ik kiezen welke hoge entropips ik verzamel?**
 
 Op dit moment niet. U kunt ervoor kiezen alle hints met hoge entropie of geen hints te verzamelen.
 
++++
+
 +++**Worden er wijzigingen aangebracht in apparaatrapportage in Analytics?**
 
 De beschikbare apparaatvelden voor rapportage blijven ongewijzigd. De gegevens die voor die gebieden worden gevangen kunnen veranderen afhankelijk van welk gebied en hoe u inzameling voor cliëntwenken hebt gevormd.
+
++++
 
 +++**Welke Analytics rapporterend gebieden worden afgeleid uit de Agent van de Gebruiker?**
 
@@ -47,35 +53,51 @@ De beschikbare apparaatvelden voor rapportage blijven ongewijzigd. De gegevens d
 * Gegevensfeeds (gebruikers moeten bijwerken om deze velden vast te leggen. Bovendien is er een afhankelijkheid waarbij mobiele id niet samen met apparaatinformatie toegankelijk kan worden gemaakt.)
 * Bronverbinding voor analyse (niet gereed)
 
++++
+
 +++**Welke analytische rapporteringsgebieden worden afgeleid van waarden die in hoge entropiewenken worden opgeslagen?**
 
 Vanaf september 2022 geeft de door Google gepubliceerde tijdlijn voor het bevriezen van gebruikers-agent-tips aan dat de versie van het besturingssysteem vanaf oktober 2022 niet meer wordt bijgewerkt. Zonder hoge entropiehints zal de nauwkeurigheid van de versie van het besturingssysteem, die is opgenomen in de dimensie &quot;Besturingssysteem&quot; van Analytics, geleidelijk afnemen.
 
 Zie de [tijdlijn gepubliceerd door Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) om de timing voor het bevriezen van de gebruikersagent te zien.
 
++++
+
 +++**Welke browsers worden beïnvloed door cliëntwenken?**
 
 Clienttips zijn alleen van toepassing op Chromium-browsers zoals Google Chrome en Microsoft Edge. Er is geen wijziging in de gegevens van andere browsers of mobiele apps.
+
++++
 
 +++**Hoe zal Adobe cliëntwenken gebruiken om apparateninformatie af te leiden?**
 
 Adobe gebruikt een derde, de Atlas van het Apparaat, die zowel de cliëntwenken als gebruikersagent zal gebruiken om apparateninformatie af te leiden.
 
++++
+
 +++**Zullen de cliëntwenken in gegevensvoer beschikbaar zijn?**
 
 Ja. Zie de documentatie (voor verdere informatie).
+
++++
 
 +++**Zijn de cliëntwenken beschikbaar in gegevens die naar AEP en CJA via de Bron van de Adobe schakelaar worden verzonden?**
 
 We zijn van plan om in de eerste helft van 2023 client-tips op te nemen in gegevens via Adobe Source Connector.
 
++++
+
 +++**Hoe worden cliëntwenken vertegenwoordigd in XDM?**
 
 Zie de [schemadocumentatie](https://github.com/adobe/xdm/blob/master/components/datatypes/browserdetails.schema.json#L121) in Adobe Experience Platform.
 
++++
+
 +++**Waar kan ik meer over cliëntwenken leren?**
 
 Dit [Google-blogbericht](https://web.dev/user-agent-client-hints/) is een goede referentie en een goed uitgangspunt.
+
++++
 
 +++**Wat zijn de verschillende gebieden van de wenk? Welke hebben invloed op apparaatrapportage?**
 
@@ -93,6 +115,8 @@ In de onderstaande tabel worden de tips voor cliënten vanaf september 2022 besc
 | Sec-CH-UA-model | Apparaatmodel | Hoog | &quot;Pixel 3&quot; | Geen? |
 | Sec-CH-UA-Platform-Version | Versie besturingssysteem/Platform | Hoog | &quot;10&quot; | [Besturingssysteem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) |
 
++++
+
 +++**Hoe leg ik hoge entropiehints vast?**
 
 Hoog-entropiewenken kunnen worden gevormd
@@ -100,6 +124,8 @@ Hoog-entropiewenken kunnen worden gevormd
 * Rechtstreeks voor AppMeasurement [koppeling naar markeeritem in implementatiegids]
 * In de extensie Tags Analytics
 * In het Web SDK.
+
++++
 
 +++**Welke gegevens worden verwijderd uit de Gebruikersagent en wanneer?**
 
