@@ -1,7 +1,7 @@
 ---
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
-source-git-commit: cd8370f6c19e79e1a8a506e772db390708e96a44
+source-git-commit: c26012465b998b2d05bd08e8ddb064cd43940449
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -15,9 +15,9 @@ Clienttips zijn afzonderlijke informatie over het apparaat van een gebruiker. De
 
 Google verdeelt gebruikers-Agent-clienttips in twee categorieën: een lage entropie en hoge entropiehints.
 
-* Lage entropiehints bevatten meer algemene informatie over apparaten. Deze tips worden automatisch door Chromium-browsers geleverd.
+* **Hints met lage entropie** bevat meer generieke informatie over apparaten. Deze tips worden automatisch door Chromium-browsers geleverd.
 
-* Hoog-entropiewenken hebben meer gedetailleerde informatie. Deze tips zijn alleen op aanvraag beschikbaar. Zowel kunnen AppMeasurement als Web SDK worden gevormd om high-entropy wenken te verzoeken. Beide bibliotheken doen dit standaard **niet** vragen om tips voor hoge entropie.
+* **Hoge entropie** de wenken bevatten meer gedetailleerde informatie. Deze tips zijn alleen op aanvraag beschikbaar. Zowel kunnen AppMeasurement als Web SDK worden gevormd om high-entropy wenken te verzoeken. Beide bibliotheken doen dit standaard **niet** vragen om tips voor hoge entropie.
 
 >[!NOTE]
 >

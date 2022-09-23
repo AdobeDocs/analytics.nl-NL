@@ -3,9 +3,9 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 4a1d151df7cd23ebc6cf8e7c317cdf5196056bca
+source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
 workflow-type: tm+mt
-source-wordcount: '2321'
+source-wordcount: '2317'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ U kunt de meest recente versie van AppMeasurement downloaden in de [Codebeheer](
 
 Releasedatum: **23 september 2022**
 
-* AppMeasurement ondersteunt nu de verzameling van clienttips voor gebruikers-agent met hoge entropie die Chromium browsers (Google Chrome en Microsoft Edge) gebruiken om apparaatinformatie te verschaffen. U kunt cliëntwenken via Markeringen vormen of de &quot;collectHighEntropyUserAgentHints&quot;vlag gebruiken. Verzameling van hips met hoge entropie is standaard uitgeschakeld. Meer informatie over client-tips voor user-agent vindt u hier [koppeling naar].
+* AppMeasurement ondersteunt nu de verzameling van clienttips voor gebruikers-agent met hoge entropie die Chromium browsers (Google Chrome en Microsoft Edge) gebruiken om apparaatinformatie te verschaffen. U kunt cliëntwenken via Markeringen vormen of de &quot;collectHighEntropyUserAgentHints&quot;vlag gebruiken. Verzameling van hips met hoge entropie is standaard uitgeschakeld. Meer informatie over gebruikersagent [clienttips](/help/technotes/client-hints.md).
 
 
 ## Versie 2.2.4
