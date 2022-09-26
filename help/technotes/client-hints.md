@@ -1,9 +1,9 @@
 ---
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '855'
 ht-degree: 2%
 
 ---
@@ -86,9 +86,15 @@ Clienttips zijn alleen van toepassing op Chromium-browsers zoals Google Chrome e
 
 +++
 
+++**Worden de cliëntwenken gesteund over onveilige verbindingen?
+
+Nee. Clienttips kunnen alleen worden verzameld via een beveiligde HTTP-verbinding, zoals HTTPS.
+
++++
+
 +++**Zijn de cliëntwenken beschikbaar in gegevens die naar AEP en CJA via de Bron van de Adobe schakelaar worden verzonden?**
 
-We zijn van plan om in de eerste helft van 2023 client-tips op te nemen in gegevens via Adobe Source Connector.
+Adobe is van plan om cliëntwenken in gegevens via de Schakelaar van de Bron van de Adobe in de eerste helft van 2023 te omvatten.
 
 +++
 
