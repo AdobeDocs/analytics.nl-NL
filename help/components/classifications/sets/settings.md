@@ -2,9 +2,9 @@
 title: Classificatieset-instellingen
 description: Een classificatieset maken of bewerken.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
+source-git-commit: fa0de6241d56e10144b7eefeb72e9d6ed25a9773
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Configureer een classificatieset, upload gegevens of download gegevens.
 
 >[!NOTE]
 >
->Deze functie is momenteel in beperkte versie beschikbaar. Als u toegang wilt tot deze functie, neemt u contact op met de klantenservice van de Adobe of met uw accountmanager, die uw verzoek kan doorsturen naar het indelingsteam voor levering.
+>Deze functie is beschikbaar voor alle klanten die hun rapportagesets hebben gemigreerd naar de nieuwe classificatiearchitectuur. Neem voor meer informatie contact op met de klantenservice van Adobe of uw accountmanager.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Klik op de gewenste naam van de classificatieset
 
