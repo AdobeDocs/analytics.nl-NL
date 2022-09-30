@@ -4,9 +4,9 @@ title: Visualisatie van combinatiekaarten
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,13 @@ Een [!UICONTROL Combo chart] tot
 
 * Een metrische waarde analyseren op basis van een functie (zoals [!UICONTROL Cumulative Average]) over een tijdshorizon.
 
-Houd er rekening mee dat u
+Houd dit in gedachten:
 
-* Meerdere vergelijkingen in één vergelijking toevoegen [!UICONTROL Combo chart].
+* U kunt meerdere vergelijkingen toevoegen in één [!UICONTROL Combo chart].
 * Als u een of meer vergelijkingen toevoegt, moeten deze van hetzelfde type zijn, zoals [!UICONTROL Time comparison].
 * U kunt maximaal vijf vergelijkingen maken.
 * U kunt maximaal drie filters (segmenten) toepassen op een metrische waarde.
+* Berekende metriek worden niet ondersteund in Combo-diagrammen.
 
 ## Een combinatieschema samenstellen
 
