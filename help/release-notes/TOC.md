@@ -3,8 +3,8 @@ product: analytics
 audience: all
 user-guide-title: Opmerkingen bij de release Analytics
 breadcrumb-title: Release-opmerkingen
-user-guide-description: Een lijst met nieuwe functies en beschrijvingen voor foutoplossingen.
-source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
+user-guide-description: Meer informatie over nieuwe functies en oplossingen in Adobe Analytics.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 10%

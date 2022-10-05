@@ -4,10 +4,10 @@ description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
+source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
 workflow-type: tm+mt
-source-wordcount: '3398'
-ht-degree: 37%
+source-wordcount: '3476'
+ht-degree: 36%
 
 ---
 
@@ -21,8 +21,13 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 ## Details over belangrijke documentatie-updates
 
-| Datum | Beschrijving |
+| Functie | Beschrijving |
 | --- | --- |
+| **Oktober 2022** |  |
+| Hoofdmetrische samenvatting | Nieuw onderwerp over het [Samenvatting van metrische sleutel](/help/analyze/analysis-workspace/visualizations/key-metric.md) visualisatie. |
+| Classificatiesets | De nieuwe gebruiker [Classificatiesets](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) De ervaring verstrekt één enkele interface om classificaties en regels te beheren en verbetert zichtbaarheid van klant-eigenlijke classificatiegegevens. |
+| Mobiele app: Aangepaste detailweergaven | Nieuw onderwerp over [aangepaste detailweergaven](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en). |
+| Data Workbench | Data Workbench [veelgestelde vragen aan het einde van de levensduur](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
 | **September 2022** |  |
 | Combografieken | Nieuw onderwerp over het [combo-diagrammen](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualisatie. |
 | Bijgewerkte plug-in | Bijgewerkte versie van de [getvalone](/help/implement/vars/plugins/getvalonce.md) implementatieplug-in. |

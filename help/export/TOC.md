@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Hulplijn exporteren
-user-guide-description: Gebruik Gegevensfeeds als u onbewerkte gegevens per uur of per dag wilt exporteren. Gebruik Data Warehouse om een spreadsheetuitvoer van gegevens op te halen. Leer hoe u met FTP en SFTP bestanden kunt overbrengen tussen computers en servers.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+user-guide-description: Meer informatie over het gebruik van gegevensfeeds voor het exporteren van onbewerkte gegevens en Data Warehouse voor het ophalen van een spreadsheetuitvoer van gegevens. Leer hoe u met FTP en SFTP bestanden kunt overbrengen.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 68%
+source-wordcount: '296'
+ht-degree: 70%
 
 ---
 

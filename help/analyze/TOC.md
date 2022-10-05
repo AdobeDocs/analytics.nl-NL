@@ -3,10 +3,10 @@ product: analytics
 audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
-user-guide-description: Hoe kan ik-instructies voor Analysis Workspace, het belangrijkste hulpmiddel voor analyse en visualisatie voor Analytics, evenals hulpmiddelen zoals Adobe Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
+user-guide-description: Leer hoe u analysefuncties kunt gebruiken, zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1043'
 ht-degree: 80%
 
 ---

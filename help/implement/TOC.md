@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
-user-guide-description: Pas aan welke gegevens worden verzameld om meer uit Adobe Analytics te halen.
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om optimaal te profiteren van de analysegegevens.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 69%
+source-wordcount: '409'
+ht-degree: 68%
 
 ---
 

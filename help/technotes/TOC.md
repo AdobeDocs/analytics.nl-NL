@@ -3,10 +3,10 @@ product: analytics
 audience: all
 user-guide-title: Technische notities voor Analytics
 breadcrumb-title: Technische notities
-user-guide-description: Een kennisbasis die nuttige artikelen bevat die niet tot een specifiek analyseprogramma of specifieke component behoren.
-source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
+user-guide-description: Blader naar een kennisbasis met nuttige artikelen die niet bij een bepaald Analysegereedschap of een bepaalde component horen.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 68%
 
 ---
