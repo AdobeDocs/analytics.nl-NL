@@ -4,9 +4,9 @@ title: Een mobiele scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 7f630839ae7d75730f93588877a172f3590d5a5e
+source-git-commit: 40f335c18849551bce23f386c647f2aec32c7988
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Het scorebordsjabloon implementeren:
 
 Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept u een afmeting uit het linkerdeelvenster en zet u deze op een tegel neer.
 
-U kunt bijvoorbeeld de juiste afmetingen toevoegen (zoals **[!DNL Marketing Channel]**, in dit voorbeeld) aan de **[!UICONTROL Unique Visitors]** metrisch door het te slepen en neer te zetten op de tegel. Uitsplitsingen naar Dimension worden weergegeven onder de [!UICONTROL Drill Ins] (uitsplitsing) afdeling van de tegelspecifieke **[!UICONTROL Properties]**. U kunt meerdere afmetingen aan elke tegel toevoegen.
+U kunt bijvoorbeeld de juiste afmetingen toevoegen (zoals **[!DNL Marketing Channel]**, in dit voorbeeld) aan de **[!UICONTROL Unique Visitors]** metrisch door het te slepen en neer te zetten op de tegel. Uitsplitsingen naar Dimension worden weergegeven onder de [!UICONTROL Drill Ins] sectie van de details diaspecifiek **[!UICONTROL Properties]**. U kunt meerdere afmetingen aan elke tegel toevoegen.
 
 ![Afmetingen toevoegen](assets/layer_dimensions.png)
 
@@ -154,13 +154,15 @@ Als u wilt verwijderen [!UICONTROL Unspecified] dimensiepunten van uw gegevens, 
 
 ## Eigenschappen van tegels weergeven en configureren {#tiles}
 
-Wanneer u in de Scorecard Builder op een tegel klikt, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel zijn gekoppeld. In deze trein kunt u een nieuwe **[!UICONTROL Title]** voor de tegel en configureert u de tegel anders door componenten op te geven in plaats van deze vanuit de linkerspoorstaaf te slepen en neer te zetten.
+Wanneer u op een tegel klikt in de Scorecard Builder, ziet u in de rechterrails de eigenschappen en kenmerken van die tegel en de bijbehorende dia met details. In deze trein kunt u een nieuwe **Titel** voor de tegel en vormt u de tegel ook door segmenten toe te passen.
 
 ![Eigenschappen, tegel](assets/properties_tile.png)
 
-Wanneer u op tegels klikt, wordt in een dynamische pop-up weergegeven hoe de weergave Bodeminks (Onderverdeling) wordt weergegeven voor de uitvoerende gebruiker in de app. Indien er geen dimensie op de tegel is toegepast, wordt de uitsplitsingsdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
+## Gedetailleerde dia&#39;s weergeven {#view-detail-slides}
 
-De onderverdelingen verfijnen uw analyse door metriek en afmetingen door andere metriek en afmetingen, zoals in dit detailhandelsvoorbeeld letterlijk te breken:
+Wanneer u op tegels klikt, wordt in een dynamisch pop-upvenster weergegeven hoe de detaildia er uitziet voor de uitvoerende gebruiker in de app. U kunt dimensies toevoegen om uw gegevens naar behoefte op te splitsen. Indien geen dimensie is toegepast, wordt de uitsplitsingsdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
+
+De onderbrekingen verfijnen uw analyse door metriek door afmetriek door afmetingspunten letterlijk te breken.
 
 * Unieke Visitors, metrisch uitgesplitst naar advertentie-Platform (AMO-id)
 * Bezoeken uitgesplitst naar productcategorie (detailhandel)
@@ -168,7 +170,31 @@ De onderverdelingen verfijnen uw analyse door metriek en afmetingen door andere 
 
 ![Onderverdeling_weergave](assets/break_view.png)
 
-Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
+Elke dimensie die aan de detaildia wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de weergave van de detaildia in de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
+
+## Detaildia&#39;s aanpassen {#customize-detail-slide}
+
+Met aangepaste dia&#39;s kunt u zich nog meer richten op de informatie die u deelt met uw publiek. U kunt de lay-out voor elke detaildia wijzigen en tekst toevoegen om beter te verklaren wat de eindgebruiker in de gegevens kan zien. U kunt het grafiektype ook veranderen gebruikend het drop-down menu.
+
+![Aangepaste detaildia](assets/custom-detail-slide.png)
+
+### De dialay-out wijzigen
+
+Wijzig de dialay-out om de nadruk op de belangrijkste informatie te leggen. U kunt bijvoorbeeld de lay-out zodanig wijzigen dat alleen een grafiek of alleen een tabel wordt weergegeven. Als u de dialay-out wilt wijzigen, selecteert u een van de vooraf ontworpen indelingen.
+
+![Schuivende indeling](assets/layout.png)
+
+U kunt de dialay-out ook veranderen door visualiseringscomponenten van de linkerspoorstaaf op het canvas te slepen en te laten vallen. Elke detaildia kan slechts twee visualisaties tegelijk bevatten.
+
+![Schuifregelaar](assets/slide-layout-change.png)
+
+### Beschrijvende tekst toevoegen aan een dia
+
+U kunt tekst toevoegen om betekenisvolle informatie te verstrekken over wat in de grafieken of nuances over de gegevens bevat.
+
+Als u tekst wilt toevoegen aan een detaildia, selecteert u een lay-out waarin de `T` of sleep de tekstvisualisatiecomponent van de linkerspoorstaaf over. De teksteditor wordt automatisch geopend wanneer u een nieuwe tekstvisualisatie toevoegt of een dialay-out met tekst kiest. De teksteditor bevat alle standaardopties voor de opmaak van de tekst. U kunt tekststijlen toepassen, zoals alinea&#39;s, koppen en subkoppen, en vette en cursieve lettertypen toepassen. U kunt tekst uitvullen, lijsten met opsommingstekens en nummers toevoegen en koppelingen toevoegen. Wanneer u klaar bent met bewerken, selecteert u de knop Minimaliseren in de rechterbovenhoek van de teksteditor om deze te sluiten. Als u de tekst die u al hebt toegevoegd wilt bewerken, selecteert u het potloodpictogram om de teksteditor opnieuw te openen.
+
+![Schuifregelaar](assets/add-descriptive-text.png)
 
 ## Componenten verwijderen {#remove}
 
