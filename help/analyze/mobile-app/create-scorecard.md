@@ -4,9 +4,9 @@ title: Een mobiele scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 40f335c18849551bce23f386c647f2aec32c7988
+source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -156,13 +156,13 @@ Als u wilt verwijderen [!UICONTROL Unspecified] dimensiepunten van uw gegevens, 
 
 Wanneer u op een tegel klikt in de Scorecard Builder, ziet u in de rechterrails de eigenschappen en kenmerken van die tegel en de bijbehorende dia met details. In deze trein kunt u een nieuwe **Titel** voor de tegel en vormt u de tegel ook door segmenten toe te passen.
 
-![Eigenschappen, tegel](assets/properties_tile.png)
+![Eigenschappen, tegel](assets/properties-tile-new.png)
 
 ## Gedetailleerde dia&#39;s weergeven {#view-detail-slides}
 
-Wanneer u op tegels klikt, wordt in een dynamisch pop-upvenster weergegeven hoe de detaildia er uitziet voor de uitvoerende gebruiker in de app. U kunt dimensies toevoegen om uw gegevens naar behoefte op te splitsen. Indien geen dimensie is toegepast, wordt de uitsplitsingsdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
+Wanneer u op tegels klikt, wordt in een dynamisch pop-upvenster weergegeven hoe de detaildia er uitziet voor de uitvoerende gebruiker in de app. U kunt dimensies toevoegen om uw gegevens naar behoefte op te splitsen. Als er geen dimensie is toegepast, wordt de afbraakdimensie **uur** of **dagen**, afhankelijk van het standaarddatumbereik.
 
-De onderbrekingen verfijnen uw analyse door metriek door afmetriek door afmetingspunten letterlijk te breken.
+De onderbrekingen verfijnen uw analyse door metriek door afmetingspunten zoals het volgende te verdelen:
 
 * Unieke Visitors, metrisch uitgesplitst naar advertentie-Platform (AMO-id)
 * Bezoeken uitgesplitst naar productcategorie (detailhandel)
