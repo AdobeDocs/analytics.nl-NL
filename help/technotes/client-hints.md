@@ -1,10 +1,10 @@
 ---
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
-source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
+source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 2%
+source-wordcount: '947'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,11 @@ Google verdeelt gebruikers-Agent-clienttips in twee categorieën: een lage entro
 
 >[!NOTE]
 >
->Vanaf oktober 2022 starten nieuwe versies van Chromium-browsers de versie van het besturingssysteem die wordt weergegeven in de tekenreeks User-Agent, &#39;bevriezen&#39;. Wanneer gebruikers hun apparaten upgraden, verandert het besturingssysteem in de gebruikersagent niet. Zo, in tijd zal de werkende versieinformatie zoals die in gebruiker-Agent wordt vertegenwoordigd minder nauwkeurig worden. De versie van het besturingssysteem is een hoge entropiegelfunctie. Om de nauwkeurigheid van de versie van het besturingssysteem in uw rapportage te behouden, is het nodig dat u de verzamelingsbibliotheek configureert om deze hoge entropietpunten te verzamelen. In de loop van de tijd zal andere apparateninformatie van gebruiker-Agent worden bevroren, die cliëntwenken vereist om apparaat te handhaven rapporteert nauwkeurigheid.
+>Vanaf oktober 2022 starten nieuwe versies van Chromium-browsers de versie van het besturingssysteem die wordt weergegeven in de tekenreeks User-Agent, &#39;bevriezen&#39;. De versie van het besturingssysteem is een hoge entropiegelfunctie. Om de nauwkeurigheid van de versie van het besturingssysteem in uw rapportage te behouden, is het nodig dat u de verzamelingsbibliotheek configureert om deze hoge entropietpunten te verzamelen. In de loop van de tijd zal andere apparateninformatie van gebruiker-Agent worden bevroren, die cliëntwenken vereist om apparaat te handhaven rapporteert nauwkeurigheid.
+
+>[!NOTE]
+>
+>AAM vereist dat er hoge entropiegels worden verzameld om de volledige functionaliteit te behouden. Als u [server-kant door:sturen aan AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) dan kunt u inzameling van hoge entropiewenken willen toelaten.
 
 ## Veelgestelde vragen
 
@@ -49,6 +53,24 @@ Op dit moment niet. U kunt ervoor kiezen alle hints met hoge entropie of geen hi
 
 +++
 
++++**Wat zijn de verschillende waarden van de cliëntwenken?**
+
+In de onderstaande tabel worden de tips voor cliënten vanaf oktober 2022 beschreven.
+
+| Tip | Beschrijving | Hoog of laag | Voorbeeld |
+| --- | --- | --- | --- | 
+| Sec-CH-UA | Browser en significante versie | Laag | &quot;Google Chrome 84&quot; |
+| Sec-CH-UA-Mobile | Mobiel apparaat (true of false) | Laag | TRUE |
+| Sec-CH-UA-Platform | Besturingssysteem/Platform | Laag | &quot;Android&quot; |
+| Sec-CH-UA-Arch | Architectuur van de site | Hoog | &quot;arm&quot; |
+| Sec-CH-UA-Bitness | Architectuurbitnes | Hoog | &quot;64&quot; |
+| Sec-CH-UA-Full-Version | Volledige versie van de browser | Hoog | &quot;84.0.4143.2&quot; |
+| Sec-CH-UA-Full-Version-List | Lijst van merken met hun versie | Hoog | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
+| Sec-CH-UA-model | Apparaatmodel | Hoog | &quot;Pixel 3&quot; |
+| Sec-CH-UA-Platform-Version | Versie besturingssysteem/Platform | Hoog | &quot;10&quot; |
+
++++
+
 +++**Worden er wijzigingen aangebracht in apparaatrapportage in Analytics?**
 
 De beschikbare apparaatvelden voor rapportage blijven ongewijzigd. De gegevens die voor die velden worden vastgelegd, kunnen veranderen afhankelijk van welk veld en hoe u verzameling voor clienttips hebt geconfigureerd.
@@ -57,18 +79,19 @@ De beschikbare apparaatvelden voor rapportage blijven ongewijzigd. De gegevens d
 
 +++**Welke Analytics rapporterend gebieden worden afgeleid uit gebruiker-Agent?**
 
+Deze gebieden worden direct afgeleid uit gebruiker-Agent maar user-Agent kan worden gebruikt om waarden voor andere apparaat verwante gebieden af te leiden, afhankelijk van de apparatendetails.
+
 * [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=en)
 * [Browsertype](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=en)
 * [Besturingssysteem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)
 * [Typen besturingssystemen](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=en)
 * [Mobiel apparaat en type mobiel apparaat](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)
-* [Gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en)
 
 +++
 
 +++**Welke analytische rapporteringsgebieden worden afgeleid van waarden die in hoge entropiewenken worden opgeslagen?**
 
-Vanaf september 2022 geeft de door Google gepubliceerde tijdlijn voor het &quot;bevriezen&quot; van gebruikers-agent aan dat de versie van het besturingssysteem vanaf oktober 2022 niet meer wordt bijgewerkt. Wanneer gebruikers hun besturingssysteem upgraden, wordt de versie van het besturingssysteem in de User-Agent niet bijgewerkt. Zonder hoge entropiegels zal de nauwkeurigheid van de versie van het besturingssysteem, die deel uitmaakt van de dimensie &quot;Besturingssysteem&quot; van Analytics, geleidelijk afnemen.
+Dit zal in tijd veranderen aangezien Google meer delen van de Gebruikersagent &quot;bevriest&quot;. Het eerste veld dat rechtstreeks moet worden beïnvloed, is &quot;Besturingssysteem&quot;, dat de versie van het besturingssysteem bevat Volgens de gepubliceerde tijdlijn van Google voor &quot;bevriezen&quot; van gebruikers-agent-tips, wordt de versie van het besturingssysteem vanaf eind oktober 2022 bevroren met Chromium versie 107. Op dat moment is de versie van het besturingssysteem in de gebruikersagent in sommige gevallen niet correct.
 
 Zie de [tijdlijn gepubliceerd door Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) om de timing voor het bevriezen van andere gedeelten van user-Agent te zien.
 
@@ -82,11 +105,11 @@ Adobe gebruikt een derde, de Atlas van het Apparaat, die zowel de cliëntwenken 
 
 +++**Welke browsers worden beïnvloed door cliëntwenken?**
 
-Clienttips zijn alleen van toepassing op Chromium-browsers zoals Google Chrome en Microsoft Edge. Er is geen wijziging in de gegevens van andere browsers of mobiele apps.
+Clienttips zijn alleen van toepassing op chroombrowsers zoals Google Chrome en Microsoft Edge. Er is geen wijziging in de gegevens van andere browsers of mobiele apps.
 
 +++
 
-++**Worden de cliëntwenken gesteund over onveilige verbindingen?
++++**Worden de cliëntwenken gesteund over onveilige verbindingen?**
 
 Nee. Clienttips kunnen alleen worden verzameld via een beveiligde HTTP-verbinding, zoals HTTPS.
 
@@ -104,28 +127,15 @@ Zie de [schemadocumentatie](https://github.com/adobe/xdm/blob/master/components/
 
 +++
 
-+++**Wat zijn de verschillende gebieden van de wenk? Welke hebben invloed op apparaatrapportage?**
-
-In de onderstaande tabel worden de tips voor cliënten vanaf september 2022 beschreven.
-
-| Tip | Beschrijving | Hoog of laag | Voorbeeld |
-| --- | --- | --- | --- | 
-| Sec-CH-UA | Browser en significante versie | Laag | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | Mobiel apparaat (true of false) | Laag | TRUE |
-| Sec-CH-UA-Platform | Besturingssysteem/Platform | Laag | &quot;Android&quot; |
-| Sec-CH-UA-Arch | Architectuur van de site | Hoog | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | Architectuurbitnes | Hoog | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | Volledige versie van de browser | Hoog | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | Lijst van merken met hun versie | Hoog | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-model | Apparaatmodel | Hoog | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | Versie besturingssysteem/Platform | Hoog | &quot;10&quot; |
-
-+++
-
-
-
 +++**Welke gedeelten van de user-Agent worden &quot;bevroren&quot;en wanneer?**
 
 Zie de [tijdlijn gepubliceerd door Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Dit kan worden gewijzigd.
 
 +++
+
++++**Zal AAM server-kant het door:sturen klantenwenken steunen?**
+
+Ja. Clienttips worden opgenomen in de gegevens die naar AAM worden doorgestuurd. AAM vereist dat hips met hoge entropiegels worden verzameld om de volledige functionaliteit te behouden. Als u [server-kant door:sturen aan AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) dan kunt u inzameling van high-entropy wenken willen toelaten.
+
++++
+
