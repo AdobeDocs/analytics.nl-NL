@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2dc8dc9f7dd9671cfa25095e075474d2b5463dc0
+source-git-commit: 6014be392d700fae0df1f178d1f989eb29d03477
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (oktober 2022)
 
-**Laatste update**: 5 oktober 2022
+**Laatste update**: 13 oktober 2022
 
 Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -30,6 +30,7 @@ Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die
 | **[!UICONTROL Key metric summary]** visualisatie | De [!UICONTROL Key metric summary] Met visualisatie kunt u zien hoe een belangrijke metriek binnen één tijdsperiode trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | Geleidelijke uitrol vanaf 5 oktober 2022 |
 | Nieuw **[!UICONTROL Classification sets]** gebruikerservaring | De nieuwe gebruikerservaring biedt één interface om classificaties en regels te beheren en verbetert de zichtbaarheid van classificatiegegevens die eigendom zijn van klanten. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) | 5 oktober 2022 |
 | Mobiele app: **Aangepaste detailweergaven** | Met de gedetailleerde weergaven van Aangepast kunt u zich nog meer richten op de informatie die u deelt met uw publiek, doordat u deze kunt richten op wat het belangrijkst is. U kunt de lay-out van de detailmening veranderen verbonden aan elke scorecardtegel en u kunt tekst toevoegen om beter te verklaren wat de eindgebruiker in de gegevens kan zien. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en) | 5 oktober 2022 |
+| **Niet-hoofdlettergevoelige meerwaardevariabelen** | Voor niet-hoofdlettergevoelige meerwaardevariabelen worden de waarden opgeslagen in `mvvar1` - `mvvar3` in gegevensfeeds wordt niet langer automatisch verlaagd. In plaats daarvan zullen de gegevensfeeds (en de gegevens die door de Verbinding van de Bron van Analytics aan Adobe Experience Platform en CJA worden overgegaan) het originele geval weerspiegelen dat van de pagina werd overgegaan. | 24 oktober 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
