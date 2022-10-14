@@ -1,9 +1,9 @@
 ---
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
-source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
+source-git-commit: 72fc9f58e58ed4b43fb17cec194808268e8b6879
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '1067'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ Google verdeelt gebruikers-Agent-clienttips in twee categorieën: een lage entro
 * **Hints met lage entropie** bevat meer generieke informatie over apparaten. Deze tips worden automatisch door Chromium-browsers geleverd.
 
 * **Hoge entropie** de wenken bevatten meer gedetailleerde informatie. Deze tips zijn alleen op aanvraag beschikbaar. Zowel AppMeasurement als Web SDK [kan worden geconfigureerd](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) om hoge entropiewenken aan te vragen. Beide bibliotheken doen dit standaard **niet** vragen om tips voor hoge entropie.
+
+>[!NOTE]
+>
+>De wenken van de cliënt zullen in het proces van de het apparatenraadpleging van Analytics vanaf medio Januari 2023 worden opgenomen. Zowel steunen AppMeasurement als Web SDK momenteel inzameling van wendengegevens maar het zal niet in apparatenraadpleging tot medio januari worden gebruikt. Dit is om potentiële verstoring van de rapportage tijdens de kritieke periode aan het einde van het jaar te voorkomen. Zoals hieronder vermeld, zal de versie van het besturingssysteem vanaf oktober worden bevroren, maar vanwege de geleidelijke implementatie en het feit dat de meeste gebruikersagents worden bevroren naar de juiste versie van het besturingssysteem, schatten we dat dit gevolgen zal hebben voor &lt;3% van de Chrome Visitors.
 
 >[!NOTE]
 >
@@ -89,6 +93,12 @@ Deze gebieden worden direct afgeleid uit gebruiker-Agent maar user-Agent kan wor
 
 +++
 
++++**Welke gedeelten van de user-Agent worden &quot;bevroren&quot;en wanneer?**
+
+Zie de [tijdlijn gepubliceerd door Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Dit kan worden gewijzigd.
+
++++
+
 +++**Welke analytische rapporteringsgebieden worden afgeleid van waarden die in hoge entropiewenken worden opgeslagen?**
 
 Dit zal in tijd veranderen aangezien Google meer delen van de Gebruikersagent &quot;bevriest&quot;. Het eerste veld dat rechtstreeks moet worden beïnvloed, is &quot;Besturingssysteem&quot;, dat de versie van het besturingssysteem bevat Volgens de gepubliceerde tijdlijn van Google voor &quot;bevriezen&quot; van gebruikers-agent-tips, wordt de versie van het besturingssysteem vanaf eind oktober 2022 bevroren met Chromium versie 107. Op dat moment is de versie van het besturingssysteem in de gebruikersagent in sommige gevallen niet correct.
@@ -115,6 +125,12 @@ Nee. Clienttips kunnen alleen worden verzameld via een beveiligde HTTP-verbindin
 
 +++
 
++++**Hoe kan ik gegevens voor clienttips opnemen wanneer ik API-verzending gebruik?**
+
+Zie documentatie voor het opnemen van deze via [API voor het invoegen van bulkgegevens](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+
++++
+
 +++**Zijn de cliëntwenken beschikbaar in gegevens die naar AEP en CJA via de Bron van de Adobe schakelaar worden verzonden?**
 
 Adobe is van plan om cliëntwenken in gegevens via de Schakelaar van de Bron van de Adobe in de eerste helft van 2023 te omvatten.
@@ -124,12 +140,6 @@ Adobe is van plan om cliëntwenken in gegevens via de Schakelaar van de Bron van
 +++**Hoe worden cliëntwenken vertegenwoordigd in XDM?**
 
 Zie de [schemadocumentatie](https://github.com/adobe/xdm/blob/master/components/datatypes/browserdetails.schema.json#L121) in Adobe Experience Platform.
-
-+++
-
-+++**Welke gedeelten van de user-Agent worden &quot;bevroren&quot;en wanneer?**
-
-Zie de [tijdlijn gepubliceerd door Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Dit kan worden gewijzigd.
 
 +++
 
