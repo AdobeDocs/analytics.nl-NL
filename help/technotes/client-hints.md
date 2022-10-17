@@ -1,9 +1,9 @@
 ---
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
-source-git-commit: 72fc9f58e58ed4b43fb17cec194808268e8b6879
+source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1073'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Google verdeelt gebruikers-Agent-clienttips in twee categorieën: een lage entro
 
 * **Hints met lage entropie** bevat meer generieke informatie over apparaten. Deze tips worden automatisch door Chromium-browsers geleverd.
 
-* **Hoge entropie** de wenken bevatten meer gedetailleerde informatie. Deze tips zijn alleen op aanvraag beschikbaar. Zowel AppMeasurement als Web SDK [kan worden geconfigureerd](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) om hoge entropiewenken aan te vragen. Beide bibliotheken doen dit standaard **niet** vragen om tips voor hoge entropie.
+* **Hoge entropie** de wenken bevatten meer gedetailleerde informatie. Deze tips zijn alleen op aanvraag beschikbaar. Zowel kunnen AppMeasurement als Web SDK worden gevormd om high-entropy wenken te verzoeken. Beide bibliotheken doen dit standaard **niet** vragen om tips voor hoge entropie.
 
 >[!NOTE]
 >
@@ -41,13 +41,9 @@ Dit [Google-blogbericht](https://web.dev/user-agent-client-hints/) is een goede 
 
 +++**Hoe laat ik de inzameling van cliëntwenken toe?**
 
-Lage-entrophints worden automatisch door de browser verstrekt en opgenomen in Adobe proces voor het afleiden van apparaat en browser informatie. De nieuwere versies van AppMeasurement (die met 2.23.0 begint) en Web SDK (die met 2.12.0 begint) kunnen worden gevormd om high-entropy wenken te verzamelen. Voor beide bibliotheken is het verzamelen van hoge entropiehints **standaard uitgeschakeld**.
+Tips voor lage entropie worden automatisch door de browser opgegeven en worden opgenomen om apparaat- en browserinformatie af te leiden. De nieuwere versies van Web SDK (die met 2.12.0 beginnen) en AppMeasurement (die met 2.23.0 begint) kunnen worden gevormd om hoge entropiewenken via hun respectieve uitbreidingen van Markeringen of direct via een configuratieoptie te verzamelen. Zie aanwijzingen voor [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) en [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
 
-+++
-
-+++**Hoe leg ik hoge entropiehints vast?**
-
-Hoog-entropy wenken kunnen met de bibliotheken van SDK van het Web en van AppMeasurement via hun respectieve uitbreidingen van Markeringen of direct met de collectiefHighEntropyUserAgentHints vlag worden gevormd.
+Voor beide bibliotheken is het verzamelen van hoge entropiehints **standaard uitgeschakeld**.
 
 +++
 
