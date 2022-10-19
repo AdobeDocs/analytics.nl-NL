@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Leer hoe u analysefuncties kunt gebruiken, zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: 51fcb9043b2983336bc1f5d674231eb5f2524142
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 80%
+source-wordcount: '1061'
+ht-degree: 79%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 80%
    + Projecten {#build-workspace-project}
       + [Overzicht van projecten](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
+      + Mappen in werkruimte {#workspace-folders}
+         + [Mappen in werkruimte](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Mappen maken](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Projecten toevoegen](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Een project verwijderen](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+         + [Een nieuw project opslaan](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Sjablonen](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Meerdere rapportsuites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Hotkeys (sneltoetsen)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
