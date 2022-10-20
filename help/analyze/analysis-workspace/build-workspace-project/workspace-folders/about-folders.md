@@ -3,9 +3,9 @@ description: Meer informatie over mappen in werkruimte
 keywords: Analysis Workspace
 title: Overzicht van mappen
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ De omslagen in de Projecten van de Werkruimte is een omslagbeheerssysteem dat op
 
 >[!NOTE]
 >
->Deze functie is momenteel in beperkte versie beschikbaar. Sommige schermen kunnen veranderen.
+>Deze functie staat momenteel in bètaversie. Sommige schermen kunnen veranderen.
 
 De omslagen in de Projecten van de Werkruimte helpen gebruikers hun projecten organiseren en indelen voor betere herwinning en toegang. Bovendien staat een gedeelde Omslag van het Bedrijf Admins toe om inhoud met alle gebruikers van de Werkruimte gemakkelijk tot stand te brengen en te delen. 
 

@@ -4,7 +4,7 @@ title: Een mobiele scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -174,7 +174,11 @@ Elke dimensie die aan de detaildia wordt toegevoegd, wordt weergegeven in een ve
 
 ## Detaildia&#39;s aanpassen {#customize-detail-slide}
 
-Met aangepaste dia&#39;s kunt u zich nog meer richten op de informatie die u deelt met uw publiek. U kunt de lay-out voor elke detaildia wijzigen en tekst toevoegen om beter te verklaren wat de eindgebruiker in de gegevens kan zien. U kunt het grafiektype ook veranderen gebruikend het drop-down menu.
+Met aangepaste dia&#39;s kunt u zich nog meer richten op de informatie die u deelt met uw publiek.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+U kunt de lay-out voor elke detaildia wijzigen en tekst toevoegen om beter te verklaren wat de eindgebruiker in de gegevens kan zien. U kunt het grafiektype ook veranderen gebruikend het drop-down menu.
 
 ![Aangepaste detaildia](assets/custom-detail-slide.png)
 

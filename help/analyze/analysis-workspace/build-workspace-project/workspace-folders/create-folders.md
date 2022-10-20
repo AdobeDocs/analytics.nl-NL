@@ -3,9 +3,9 @@ description: Leer hoe u mappen en submappen maakt in Workspace
 keywords: Analysis Workspace
 title: Mappen maken
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '152'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ U kunt een nieuwe map of een submap toevoegen aan de lijst met projecten en mapp
 
 >[!NOTE]
 >
->Deze functie is momenteel in beperkte versie beschikbaar. Sommige schermen kunnen veranderen.
+>Deze functie staat momenteel in bètaversie. Sommige schermen kunnen veranderen.
 
 ## Nieuwe map maken
 

@@ -3,9 +3,9 @@ description: Leer hoe u mappen toevoegt in Workspace
 keywords: Analysis Workspace
 title: Mappen toevoegen in werkruimte
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ U kunt projecten aan een omslag in de lijstmening of van binnen een omslag toevo
 
 >[!NOTE]
 >
->Deze functie is momenteel in beperkte versie beschikbaar. Sommige schermen kunnen veranderen.
+>Deze functie staat momenteel in bètaversie. Sommige schermen kunnen veranderen.
 
 ## Vanuit de tabelweergave
 
