@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Leer hoe u analysefuncties kunt gebruiken, zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 51fcb9043b2983336bc1f5d674231eb5f2524142
+source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1063'
 ht-degree: 79%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 79%
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
       + Mappen in werkruimte {#workspace-folders}
          + [Mappen in werkruimte](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Mappen maken](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Mappen en submappen maken](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Projecten toevoegen](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Een project verwijderen](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Een nieuw project opslaan](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
