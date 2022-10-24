@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: 10a325b5479b6852fc98ed780f59ee525ec6f51b
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 87%
+source-wordcount: '674'
+ht-degree: 86%
 
 ---
 
@@ -84,6 +84,7 @@ ht-degree: 87%
       + [Overzicht van realtimerapporten](admin/realtime/realtime.md)
       + [Configuratie van realtimerapporten](admin/realtime/t-realtime-admin.md)
       + [Ondersteunde cijfers en en dimensies in real time](admin/realtime/realtime-metrics.md)
+   + [Activity Manager rapporteren](admin/reporting-activity.md)
    + [Wachtrij voor geplande rapporten](admin/scheduled-reports-admin.md)
    + Server-side doorsturen {#server-side-forwarding}
       + [Overzicht van server-side doorsturen](admin/c-server-side-forwarding/ssf.md)
