@@ -3,7 +3,9 @@ description: Meer informatie over het opslaan van projecten in mappen in Workspa
 keywords: Analysis Workspace
 title: Projecten opslaan in mappen
 feature: Workspace Basics
-source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
+hide: true
+hidefromtoc: true
+source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 2%
