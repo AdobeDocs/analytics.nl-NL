@@ -4,9 +4,9 @@ title: Activity Manager rapporteren
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 70cfad1a04d17e1007178f32af73988be503fe90
+source-git-commit: 6ab2f39bdfc3a50c2b91f020c98b0e81da8b2b8e
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,23 +28,21 @@ De manager van de Activiteit van de Rapportering laat u de rapporteringscapacite
 
 In Adobe Analytics gaan beheerders naar **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 
-## De wachtrij met rapporten beheren
+## De wachtrij met rapporten weergeven
 
-Wanneer het openen van de Manager van de Activiteit van de Rapportering, zult u een lijst van de reeksen van het basisrapport zien. Virtuele rapportsuites zijn niet inbegrepen in deze mening.
+Wanneer het openen van de overzichtspagina van de Manager van de Activiteit van de Rapportering, zult u een lijst van uw toegelaten reeksen van het basisrapport zien.
 
 ![rapportwachtrij](assets/reporting-activity1.png)
 
-De virtuele rapportsuites voegen ingewikkeldheid aan rapporteringsverzoeken toe toe toe te schrijven aan extra niveaus van toegepaste filtratie en segmentatie. Alle verzoeken die uit de virtuele rapportreeksen komen worden gecombineerd en neer aan de reeks van het basisrapport. Dus als u 10 verzoeken hebt die uit 5 VRSs komen, is dat 50 verzoeken bij de reeks van het het rapport van het basisniveau. Op deze manier kun je snel de capaciteit raken.
-
-Hier is een weergave van een vrijwillige VUT-regeling waarvan de rapportagecapaciteit in real-time wordt getoond:
-
-![virtuele rapportsuites](assets/reporting-activity-vrs.png)
+| UI-element | Beschrijving |
+| --- | --- |
+| **[!UICONTROL Report Suite]** | De set met basisrapporten |
+| **[!UICONTROL Virtual Report Suite]** | Alle virtuele rapportsuites die in deze reeks van het basisrapport bijdragen. De virtuele rapportsuites voegen ingewikkeldheid aan rapporteringsverzoeken toe toe toe te schrijven aan extra niveaus van toegepaste filtratie en segmentatie. Alle verzoeken die uit de virtuele rapportreeksen komen worden gecombineerd en neer aan de reeks van het basisrapport.<p>Als u 10 verzoeken hebt die uit 5 VRSs komen, is dat 50 verzoeken bij de reeks van het het rapport van het basisniveau. Op deze manier kun je snel de capaciteit raken. |
+| **[!UICONTROL Usage Capacity]** | Percentage wijs, hoeveel van de rapporteringscapaciteit van de rapportreeks wordt gebruikt, in echt - tijd. |
+| **[!UICONTROL Status]** | Vier mogelijke statusindicatoren: <ul><li>**Rood - bij capaciteit**: De rapportenreeks is samengesteld in termen van rapporteringscapaciteit.</li><li>**Geel - Nearcapaciteit**: Dit pakket verslagen dreigt zijn maximumcapaciteit te bereiken.</li><li>**Groen - beschikbaar**: Er is genoeg rapportagecapaciteit.</li><li>**Grijs - Niet beschikbaar**: De rapportsuite is niet geconfigureerd voor rapportagecapaciteit.</li></ul> |
 
 Vernieuw de pagina om de resultaten te wijzigen.
 
-## Gevolgen voor werkruimterapportage
+## Gebruik van filterrapporten
 
-
-
-
-
+U kunt de rapportsuites filteren door
