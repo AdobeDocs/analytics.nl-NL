@@ -2,9 +2,10 @@
 description: Leer over hoe te om de Manager van de Activiteit van de Rapportering te gebruiken om capaciteitskwesties tijdens piekrapporteringstijden te diagnostiseren en te bevestigen.
 title: Activity Manager rapporteren
 feature: Admin Tools
+mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 6ab2f39bdfc3a50c2b91f020c98b0e81da8b2b8e
+source-git-commit: 77b3e8a1f8ebb1459eeac83f098cab92f671efe6
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -30,19 +31,26 @@ In Adobe Analytics gaan beheerders naar **[!UICONTROL Admin]** > **[!UICONTROL R
 
 ## De wachtrij met rapporten weergeven
 
-Wanneer het openen van de overzichtspagina van de Manager van de Activiteit van de Rapportering, zult u een lijst van uw toegelaten reeksen van het basisrapport zien.
+Wanneer het openen van de overzichtspagina van de Manager van de Activiteit van de Rapportering, ziet u een lijst van uw toegelaten reeksen van het basisrapport.
 
 ![rapportwachtrij](assets/reporting-activity1.png)
 
 | UI-element | Beschrijving |
 | --- | --- |
-| **[!UICONTROL Report Suite]** | De set met basisrapporten |
-| **[!UICONTROL Virtual Report Suite]** | Alle virtuele rapportsuites die in deze reeks van het basisrapport bijdragen. De virtuele rapportsuites voegen ingewikkeldheid aan rapporteringsverzoeken toe toe toe te schrijven aan extra niveaus van toegepaste filtratie en segmentatie. Alle verzoeken die uit de virtuele rapportreeksen komen worden gecombineerd en neer aan de reeks van het basisrapport.<p>Als u 10 verzoeken hebt die uit 5 VRSs komen, is dat 50 verzoeken bij de reeks van het het rapport van het basisniveau. Op deze manier kun je snel de capaciteit raken. |
+| **[!UICONTROL Report Suite]** | De set met basisrapporten waarvan u de rapportactiviteiten controleert. |
+| **[!UICONTROL Virtual Report Suite]** | Toont alle virtuele rapportsuites die in deze reeks van het basisrapport van toepassing zijn. De virtuele rapportsuites voegen ingewikkeldheid aan rapporteringsverzoeken toe toe toe te schrijven aan extra niveaus van toegepaste filtratie en segmentatie. Alle verzoeken die uit de virtuele rapportreeksen komen worden gecombineerd en neer aan de reeks van het basisrapport.<p>Bijvoorbeeld, als u 10 verzoeken hebt die uit 5 VRSs komen, is dat 50 verzoeken bij de het rapportreeks van het basisniveau. Op deze manier kun je snel de capaciteit raken. |
 | **[!UICONTROL Usage Capacity]** | Percentage wijs, hoeveel van de rapporteringscapaciteit van de rapportreeks wordt gebruikt, in echt - tijd. |
-| **[!UICONTROL Status]** | Vier mogelijke statusindicatoren: <ul><li>**Rood - bij capaciteit**: De rapportenreeks is samengesteld in termen van rapporteringscapaciteit.</li><li>**Geel - Nearcapaciteit**: Dit pakket verslagen dreigt zijn maximumcapaciteit te bereiken.</li><li>**Groen - beschikbaar**: Er is genoeg rapportagecapaciteit.</li><li>**Grijs - Niet beschikbaar**: De rapportsuite is niet geconfigureerd voor rapportagecapaciteit.</li></ul> |
+| **[!UICONTROL Status]** | Vier mogelijke statusindicatoren: <ul><li>**Rood - bij capaciteit**: De rapportenreeks is samengesteld in termen van rapporteringscapaciteit.</li><li>**Geel - Nearcapaciteit**: Dit pakket verslagen dreigt zijn maximumcapaciteit te bereiken.</li><li>**Groen - Alles goed**: Er is genoeg rapportagecapaciteit.</li><li>**[!UICONTROL Status pending]**: ?</li><li>**Grijs - Niet beschikbaar**: De rapportsuite is niet geconfigureerd voor rapportagecapaciteit.</li></ul> |
 
-Vernieuw de pagina om de resultaten te wijzigen.
+### Acties betreffende activiteiten melden
 
-## Gebruik van filterrapporten
+* Klikken **[!UICONTROL Refresh]** bovenaan rechts om de resultaten te vernieuwen.
+* Klik op de ster links van de naam van de rapportsuite aan de favoriet van deze rapportsuite.
+* Controleren **[!UICONTROL Favorites]** linksboven om uw favorieten te tonen.
+* Zoek op rapportsuites door naam of door identiteitskaart in de onderzoeksbar.
+* De rapportsuites van de filter door hun status.
 
-U kunt de rapportsuites filteren door
+## Rapportactiviteiten voor afzonderlijke rapportsuites weergeven
+
+
+
