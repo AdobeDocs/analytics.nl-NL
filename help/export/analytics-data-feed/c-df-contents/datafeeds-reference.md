@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
+source-git-commit: 56c11dd4f35f7b2de0e124b1bcb005afb356ece6
 workflow-type: tm+mt
-source-wordcount: '3445'
+source-wordcount: '3537'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,13 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `c_color` | Bitdiepte van het kleurenpalet. Wordt gebruikt als onderdeel van de berekening van de [Kleurdiepte](/help/components/dimensions/color-depth.md) dimensie. AppMeasurement gebruikt de JavaScript-functie `screen.colorDepth()`. | teken(20) |
 | `campaign` | Variabele gebruikt in de [Trackingcode](/help/components/dimensions/tracking-code.md) dimensie. | varchar(255) |
 | `carrier` | Adobe Advertising Cloud-integratievariabele. Geeft de mobiele drager aan. Verwijst naar de `carrier` opzoektabel. | varchar(100) |
+| `ch_hdr` | Clienttips die via de HTTP-aanvraagheader worden verzameld. | text |
+| `ch_js` | Clienttips die zijn verzameld via de JavaScript-API voor client-tips voor de gebruikersagent. | text |
 | `channel` | Variabele gebruikt in de [Site-secties](/help/components/dimensions/site-section.md) dimensie. | varchar(100) |
 | `click_action` | Niet meer gebruikt. Adres van verbonden klikte in het hulpmiddel van de erfenisKaart. | varchar(100) |
 | `click_action_type` | Niet meer gebruikt. Het type van verbinding van het erfenis hulpmiddel Clickmap.<br>0: HREF-URL<br>1: Aangepaste id<br>2: JavaScript-gebeurtenis onClick<br>3: Formulierelement | tinyint zonder teken |
 | `click_context` | Niet meer gebruikt. De paginanaam waar de verbinding voorkwam. Deel van het oude Clickmap-gereedschap. | varchar(255) |
-| `click_context_type` | Niet meer gebruikt. Geeft aan of click_context een paginanaam heeft of standaard de pagina-URL heeft.<br>0: Pagina-URL<br>1: Paginanaam | tinyint zonder teken |
+| `click_context_type` | Niet meer gebruikt. Geeft aan of `click_context` had een paginanaam of standaard aan pagina URL.<br>0: Pagina-URL<br>1: Paginanaam | tinyint zonder teken |
 | `click_sourceid` | Niet meer gebruikt. Numerieke id voor de locatie op de pagina van de aangeklikte koppeling. Deel van het oude Clickmap-gereedschap. | int zonder teken |
 | `click_tag` | Niet meer gebruikt. Type HTML-element waarop is geklikt. | teken(10) |
 | `clickmaplink` | Koppeling naar Activity Map | varchar(255) |
@@ -64,7 +66,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `date_time` | De tijd van de treffer in leesbare formaat, die op de tijdzone van de rapportreeks wordt gebaseerd. | datetime |
 | `domain` | Variabele gebruikt in de [Domein](/help/components/dimensions/domain.md) dimensie. Gebaseerd op het internettoegangspunt van de bezoeker. | varchar(100) |
 | `duplicate_events` | Vermeldt elke gebeurtenis die als een duplicaat is geteld. | varchar(255) |
-| `duplicate_purchase` | Markering die aangeeft dat de aankoopgebeurtenis voor deze hit moet worden genegeerd omdat deze een duplicaat is. | tinyint zonder teken |
+| `duplicate_purchase` | Markering die aangeeft dat de aankoopgebeurtenis voor deze hit wordt genegeerd omdat deze een duplicaat is. | tinyint zonder teken |
 | `duplicated_from` | Wordt alleen gebruikt in rapportsuites die de VISTA-regels voor raakkopieën bevatten. Geeft aan uit welke rapportsuite de treffer is gekopieerd. | varchar(40) |
 | `ef_id` | De `ef_id` gebruikt in Adobe Advertising Cloud-integraties. | varchar(255) |
 | `evar1 - evar250` | Aangepaste variabelen 1-250. Gebruikt in [eVar](/help/components/dimensions/evar.md) afmetingen. Elke organisatie gebruikt eVars anders. De beste plaats voor meer informatie over hoe uw organisatie respectieve eVars bevolkt zou een document van het oplossingsontwerp specifiek voor uw organisatie zijn. | varchar(255) |
@@ -88,8 +90,9 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `hitid_low` | Wordt gebruikt in combinatie met `hitid_high` om een treffer te identificeren. | bigint zonder teken |
 | `homepage` | Niet meer gebruikt. Geeft aan of de huidige URL de homepage van de browser is. | teken(1) |
 | `hourly_visitor` | Markering om te bepalen of de treffer een nieuwe uurbezoeker is. | tinyint zonder teken |
-| `ip` | IP Adres, dat op de kopbal van HTTP van het beeldverzoek wordt gebaseerd. | teken(20) |
+| `ip` | Het IPv4-adres, gebaseerd op de HTTP-header van de afbeeldingsaanvraag. Wederzijdse uitsluitingen aan `ipv6`; als deze kolom een niet verduisterd IP adres bevat, `ipv6` is leeg. | teken(20) |
 | `ip2` | Niet gebruikt. De verwijzingsvariabele van de steun voor rapportreeksen die regels bevatten VISTA die op IP adres worden gebaseerd. | teken(20) |
+| `ipv6` | Het gecomprimeerde IPv6-adres, indien beschikbaar. Als een IP adres iets als is `2001:cDBa:0000:0000:0000:0000:3257:0052`bevat `2001:cdba::3257:52`. Wederzijdse uitsluitingen aan `ip`; als deze kolom een niet verduisterd IP adres bevat, `ip` is leeg. | varchar(40) |
 | `j_jscript` | Versie van JavaScript wordt ondersteund door de browser. | teken(5) |
 | `java_enabled` | Markering die aangeeft of Java is ingeschakeld. <br>Y: Ingeschakeld <br>N: Uitgeschakeld <br>U: Onbekend | teken(1) |
 | `javascript` | Opzoeken-id van JavaScript-versie, gebaseerd op `j_jscript`. Gebruikt opzoektabel. | tinyint zonder teken |
@@ -145,7 +148,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `mobilerelaunchcampaigntrackingcode` | Verzameld op basis van de variabele contextgegevens `a.launch.campaign.trackingcode`. Wordt gebruikt in aankopen als de code voor het bijhouden van de opstartiecampagne. | varchar(255) |
 | `mobileresolution` | Resolutie van het mobiele apparaat. `[Width] x [Height]` in pixels. | varchar(255) |
 | `monthly_visitor` | Markering die aangeeft dat de bezoeker uniek is voor de huidige maand. | tinyint zonder teken |
-| `mvvar1` - `mvvar3` | Variabele waarden weergeven. Bevat een lijst met gescheiden waarden, afhankelijk van de implementatie. De `post_mvvar1` - `post_mvvar3` kolommen vervangen door het originele scheidingsteken `--**--`. | text |
+| `mvvar1` - `mvvar3` | De veranderlijke waarden van de lijst die op de huidige treffer worden geplaatst of van vorige klappen voortgeduurd. Bevat een lijst met gescheiden waarden, afhankelijk van de implementatie. De `post_mvvar1` - `post_mvvar3` kolommen vervangen door het originele scheidingsteken `--**--`. | text |
+| `mvvar1_instances` - `mvvar3_instances` | De waarden van de lijstvariabele die op de huidige treffer werden geplaatst. De `post_mvvar1_instances` - `post_mvvar3_instances` kolommen vervangen door het originele scheidingsteken `--**--`. | text |
 | `namespace` | Niet gebruikt. Onderdeel van een gesloopt onderdeel. | varchar(50) |
 | `new_visit` | Markering die bepaalt of de huidige treffer een nieuw bezoek is. Wordt ingesteld door Adobe-servers na 30 minuten inactiviteit van het bezoek. | tinyint zonder teken |
 | `os` | Numerieke id die het besturingssysteem van de bezoeker vertegenwoordigt. Op basis van de `user_agent` kolom. Gebruiksmiddelen `os` opzoeken. | int zonder teken |
@@ -161,7 +165,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | `partner_plugins` | Niet gebruikt. Onderdeel van een gesloopt onderdeel. | varchar(255) |
 | `persistent_cookie` | Gebruikt in de [Permanente ondersteuning voor cookies](/help/components/dimensions/persistent-cookie-support.md) dimensie. Geeft aan of de bezoeker cookies ondersteunt die na elke hit niet worden verwijderd. | teken(1) |
 | `plugins` | Niet meer gebruikt. Lijst met numerieke id&#39;s die overeenkomen met plug-ins die beschikbaar zijn in de browser. Gebruiksmiddelen `plugins.tsv` opzoeken. | varchar(180) |
-| `pointofinterest` | Mobile Services point of interest name | varchar(255) |
+| `pointofinterest` | Naam van interesepunt voor mobiele services | varchar(255) |
 | `pointofinterestdistance` | Afstand van mobiele services tot belangencentrum | varchar(255) |
 | `post_` kolommen | Bevat de waarde die uiteindelijk in rapporten wordt gebruikt. Elke postkolom wordt bevolkt na server-zijlogica, verwerkingsregels, en regels VISTA. Adobe raadt in de meeste gevallen aan postkolommen te gebruiken. | Zie de desbetreffende niet-postkolom |
 | `prev_page` | Niet gebruikt. Door Adobe aan eigendomsrechten gebonden id van de vorige pagina. | int zonder teken |
