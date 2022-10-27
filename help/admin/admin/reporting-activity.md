@@ -5,10 +5,10 @@ feature: Admin Tools
 mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 77b3e8a1f8ebb1459eeac83f098cab92f671efe6
+source-git-commit: 123a2131be1a3cb23246e2ba591be645c7025b26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 1%
 
 ---
 
@@ -40,9 +40,9 @@ Wanneer het openen van de overzichtspagina van de Manager van de Activiteit van 
 | **[!UICONTROL Report Suite]** | De set met basisrapporten waarvan u de rapportactiviteiten controleert. |
 | **[!UICONTROL Virtual Report Suite]** | Toont alle virtuele rapportsuites die in deze reeks van het basisrapport van toepassing zijn. De virtuele rapportsuites voegen ingewikkeldheid aan rapporteringsverzoeken toe toe toe te schrijven aan extra niveaus van toegepaste filtratie en segmentatie. Alle verzoeken die uit de virtuele rapportreeksen komen worden gecombineerd en neer aan de reeks van het basisrapport.<p>Bijvoorbeeld, als u 10 verzoeken hebt die uit 5 VRSs komen, is dat 50 verzoeken bij de het rapportreeks van het basisniveau. Op deze manier kun je snel de capaciteit raken. |
 | **[!UICONTROL Usage Capacity]** | Percentage wijs, hoeveel van de rapporteringscapaciteit van de rapportreeks wordt gebruikt, in echt - tijd. |
-| **[!UICONTROL Status]** | Vier mogelijke statusindicatoren: <ul><li>**Rood - bij capaciteit**: De rapportenreeks is samengesteld in termen van rapporteringscapaciteit.</li><li>**Geel - Nearcapaciteit**: Dit pakket verslagen dreigt zijn maximumcapaciteit te bereiken.</li><li>**Groen - Alles goed**: Er is genoeg rapportagecapaciteit.</li><li>**[!UICONTROL Status pending]**: ?</li><li>**Grijs - Niet beschikbaar**: De rapportsuite is niet geconfigureerd voor rapportagecapaciteit.</li></ul> |
+| **[!UICONTROL Status]** | Vier mogelijke statusindicatoren: <ul><li>**Rood -[!UICONTROL At Capacity]**: De rapportenreeks is samengesteld in termen van rapporteringscapaciteit.</li><li>**Geel -[!UICONTROL Nearing capacity]**: Dit pakket verslagen dreigt zijn maximumcapaciteit te bereiken.</li><li>**Groen -[!UICONTROL All good]**: Er is genoeg rapportagecapaciteit.</li><li>**[!UICONTROL Status pending]**: ?</li><li>**Grijs - Niet beschikbaar**: De rapportsuite is niet geconfigureerd voor rapportagecapaciteit.</li></ul> |
 
-### Acties betreffende activiteiten melden
+### Overige activiteiten op het gebied van rapportageactiviteiten
 
 * Klikken **[!UICONTROL Refresh]** bovenaan rechts om de resultaten te vernieuwen.
 * Klik op de ster links van de naam van de rapportsuite aan de favoriet van deze rapportsuite.
@@ -52,5 +52,60 @@ Wanneer het openen van de overzichtspagina van de Manager van de Activiteit van 
 
 ## Rapportactiviteiten voor afzonderlijke rapportsuites weergeven
 
+Klik de titelverbinding van een rapportreeks waarvoor u details wilt bekijken.
+
+![rapportsuite](assets/indiv-report-ste.png)
+
+### Lijngrafiek
+
+De lijngrafiek toont de rapportactiviteit voor de geselecteerde rapportreeks over de laatste 2 uren.
+
+* Op de x-as worden de gegevens over de rapportagecapaciteit gedurende de laatste twee uur weergegeven.
+* De y-as toont de gemiddelde wachttijd voor een vraag, in seconden.
+* U kunt de muisaanwijzer boven het lijndiagram plaatsen om de punten in de tijd en de gemiddelde wachttijd voor dat moment weer te geven.
+
+   ![detail](assets/detail.png)
+
+### Filter
+
+U kunt de lijst door Toepassing (zie lijst in de lijst hieronder), door Gebruiker, en door Project filtreren.
+
+![filter](assets/filter.png)
+
+### Samenvattingsnummers
+
+![filter](assets/summary_numbers.png)
+
+De overzichtsaantallen tonen de volgende informatie:
+
+| Samenvattingsnummer | Beschrijving |
+| --- | --- |
+| Gebruikers | Hoeveel gebruikers verzenden momenteel rapporteringsverzoeken naar deze rapportsuite. |
+| Projecten |  |
+| Zoekopdrachten |  |
+| Gemiddelde wachttijd |  |
+| Gebruikscapaciteit | De huidige gebruikscapaciteit voor deze rapportsuite. |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Tabel
+
+De gedetailleerde tabel hieronder toont
+
+| Kolom | Beschrijving |
+| --- | --- |
+| Query-id |  |
+| Runtime |  |
+| Wacht op tijd |  |
+| Begintijd |  |
+| Toepassing | De toepassingen die door de Manager van de Activiteit van de Rapportering worden gesteund zijn: <ul><li>Analysis Workspace-gebruikersinterface</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende cijfers, Annotaties, Soorten publiek, enz.</li></ul> |
+| Gebruiker |  |
+| Project |  |
+| Maandgrenzen |
+| Kolommen |  |
+| Segmenten |  |
+| Status |  |
+
+{style=&quot;table-layout:auto&quot;}
 
 
