@@ -3,17 +3,19 @@ description: Gebruik Dashboard Manager om dashboards voor levering te kopiëren,
 subtopic: Dashboards
 title: Dashboardbeheer
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
 
 # Dashboardbeheer
+
+{{ra-eol}}
 
 Gebruik Dashboard Manager om dashboards voor levering te kopiëren, te delen, te archiveren en te plannen.
 
@@ -36,7 +38,7 @@ Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL
 Stappen die beschrijven hoe de gedeelde opties voor dashboardbeheer worden gebruikt.
 
 1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]**.
-1. Zoek onder [!UICONTROL Shared Dashboards] het gedeelde dashboard (of het verouderde dashboard) dat u wilt beheren en kies een of meer van de volgende opties:
+1. Onder [!UICONTROL Shared Dashboards]Zoek het gedeelde dashboard (of het oudere dashboard) dat u wilt beheren en kies een of meer van de volgende opties:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
  <thead class="chhead sthead"> 
@@ -53,7 +55,7 @@ Stappen die beschrijven hoe de gedeelde opties voor dashboardbeheer worden gebru
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Kopieer mij</strong></td> 
-  <td class="chdesc stentry"> Hiermee voegt u een kopie toe aan de lijst met dashboards, met dezelfde naam als het origineel. U kunt echter geen updates/wijzigingen zien die door de eigenaar van het dashboard zijn aangebracht. Wanneer u een verouderd dashboard kopieert, wordt een leeg dashboard geopend waarin u verouderde inhoud kunt toevoegen. <p>Belangrijk:  Als gedeelde gebruikers van het dashboard de wijzigingen die u hebt aangebracht in het dashboard niet kunnen zien, controleert u Dashboard Manager om te zien of de gebruikers de optie <span class="uicontrol"> Kopiëren </span> hebben gekozen. Zo ja, dan kunnen ze de door u aangebrachte updates/wijzigingen niet zien. Als u alle wijzigingen/updates wilt zien, moeten gedeelde gebruikers de optie <span class="uicontrol"> In menu </span> in Dashboard Manager selecteren. </p> </td> 
+  <td class="chdesc stentry"> Hiermee voegt u een kopie toe aan de lijst met dashboards, met dezelfde naam als het origineel. U kunt echter geen updates/wijzigingen zien die door de eigenaar van het dashboard zijn aangebracht. Wanneer u een verouderd dashboard kopieert, wordt een leeg dashboard geopend waarin u verouderde inhoud kunt toevoegen. <p>Belangrijk: Als gedeelde gebruikers van het dashboard de wijzigingen die u in het dashboard hebt aangebracht, niet kunnen zien, controleert u Dashboard Manager om te controleren of de gebruikers de optie <span class="uicontrol"> Kopieer mij </span> optie. Zo ja, dan kunnen ze de door u aangebrachte updates/wijzigingen niet zien. Als u alle wijzigingen/updates wilt zien, moeten gedeelde gebruikers de optie <span class="uicontrol"> In menu </span> in Dashboard Manager. </p> </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>In menu</strong></td> 
@@ -71,7 +73,7 @@ Bestaande oude oude dashboards worden verder uitgevoerd en u kunt ze nog steeds 
 
 >[!NOTE]
 >
->Als u vooruit gaat, kunt u [Analysis Workspace-projecten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) en hun mogelijkheid om te worden gedownload en gepland gebruiken.
+>Vooruit beweegt, denk na gebruikend [Analysis Workspace-projecten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) en hun mogelijkheid om te worden gedownload en gepland.
 
 Wanneer u het verouderde dashboard kopieert, opent het systeem het verouderde dashboard voor bewerking, waar u verouderde inhoud of nieuwe inhoud kunt toevoegen. Wanneer u een verouderd dashboard kopieert, blijft het origineel behouden in de lijst met verouderde dashboards.
 
@@ -82,32 +84,32 @@ Wanneer u het verouderde dashboard kopieert, opent het systeem het verouderde da
 **Een verouderd dashboard van versie 14.x migreren**
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. Klik in de kolom [!UICONTROL Manage] onder [!UICONTROL Legacy Dashboards] op **[!UICONTROL Copy to New Dashboard]**.
+1. In de [!UICONTROL Manage] kolom, onder [!UICONTROL Legacy Dashboards], klikt u op **[!UICONTROL Copy to New Dashboard]**.
 
    Het gekopieerde dashboard wordt geopend in de editor voor de dashboardlayout.
 
-   Zie [Dashboard en ReportLet Data](/help/analyze/reports-analytics/dashboard.md) bewerken.
+   Zie [Dashboard- en rapportgegevens bewerken](/help/analyze/reports-analytics/dashboard.md).
 
 ## Een dashboard delen
 
-Stappen die beschrijven hoe een beheerder een dashboard aan meerdere gebruikers kan delen (of duwen). Wanneer u dashboards aan gebruikers duwt, worden de dashboards beschikbaar in het [!UICONTROL Shared Dashboards] menu van de gebruiker.
+Stappen die beschrijven hoe een beheerder een dashboard aan meerdere gebruikers kan delen (of duwen). Wanneer u dashboards aan gebruikers duwt, worden de dashboards beschikbaar in gebruiker [!UICONTROL Shared Dashboards] -menu.
 
-1. Zoek in het [!UICONTROL Dashboard Manager] het dashboard en schakel vervolgens **[!UICONTROL Shared]** in.
+1. In de [!UICONTROL Dashboard Manager], zoek het dashboard en schakel vervolgens de optie in **[!UICONTROL Shared]**.
 1. Klik op **[!UICONTROL Push To Users]**.  ![](assets/push.png)
 
-1. Selecteer op de pagina [!UICONTROL Push Dashboard] de doelgebruikers of klik **[!UICONTROL Check All]**.
+1. Op de [!UICONTROL Push Dashboard] pagina, selecteert u de doelgebruikers of klikt u op **[!UICONTROL Check All]**.
 1. Klik op **[!UICONTROL Save]**.
 
-Als gedeelde gebruikers van het dashboard de wijzigingen die u hebt aangebracht in het dashboard niet kunnen zien, controleert u Dashboard Manager om te zien of de gebruikers de optie **[!UICONTROL Copy Me]** hebben gekozen. Zo ja, dan kunnen ze de door u aangebrachte updates/wijzigingen niet zien. Als u alle wijzigingen/updates wilt zien, moeten gedeelde gebruikers de optie **[!UICONTROL On Menu]** selecteren in Dashboard Manager.
+Als gedeelde gebruikers van het dashboard de wijzigingen die u in het dashboard hebt aangebracht, niet kunnen zien, controleert u Dashboard Manager om te controleren of de gebruikers de optie **[!UICONTROL Copy Me]** optie. Zo ja, dan kunnen ze de door u aangebrachte updates/wijzigingen niet zien. Als u alle wijzigingen/updates wilt zien, moeten gedeelde gebruikers de optie **[!UICONTROL On Menu]** in Dashboard Manager.
 
 ## Een dashboard plannen voor levering
 
-In [!UICONTROL Dashboard Manager], kunt u zien of een dashboard voor levering gepland is, en het programma uitgeven. De opties voor de levering van het dashboard zijn identiek aan de opties voor de levering van het rapport.
+In de [!UICONTROL Dashboard Manager], kunt u zien of een dashboard voor levering gepland is, en geeft het programma uit. De opties voor de levering van het dashboard zijn identiek aan de opties voor de levering van het rapport.
 
 1. Open een dashboard.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Send]**.
 
-   Zie [Planning en distributie](/help/analyze/reports-analytics/scheduling.md) voor meer informatie.
+   Zie [Planning en distributie](/help/analyze/reports-analytics/scheduling.md) voor meer informatie .
 
 ## Een dashboard archiveren
 
@@ -115,11 +117,11 @@ In [!UICONTROL Dashboard Manager], kunt u zien of een dashboard voor levering ge
 >
 >Deze functionaliteit is niet meer beschikbaar in januari 2020.
 
-Stappen die beschrijven hoe u verzonden dashboard als PDF-bestand archiveert. Het systeem slaat het gearchiveerde dossier twee jaar op, of tot u een maximumgrens van 4 GB van gearchiveerde rapporten bereikt, welke eerst komt.
+Stappen die beschrijven hoe een verzonden dashboard als een PDF-bestand moet worden gearchiveerd. Het systeem slaat het gearchiveerde dossier twee jaar op, of tot u een maximumgrens van 4 GB van gearchiveerde rapporten bereikt, welke eerst komt.
 
 1. Open een dashboard.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Send]**.
-1. Schakel in de groep [!UICONTROL Email Report] **[!UICONTROL Archive]** in.
-1. Geef leveringsopties op en klik op **[!UICONTROL Send]**.
+1. In de [!UICONTROL Email Report] groep, inschakelen **[!UICONTROL Archive]**.
+1. Geef leveringsopties op en klik vervolgens op **[!UICONTROL Send]**.
 
-   U kunt gearchiveerde dashboards in de Manager van het Dashboard bekijken. U kunt ook een dashboard openen en op **[!UICONTROL More]** > **[!UICONTROL View Archive]** klikken.
+   U kunt gearchiveerde dashboards in de Manager van het Dashboard bekijken. U kunt ook een dashboard openen en op **[!UICONTROL More]** > **[!UICONTROL View Archive]**.

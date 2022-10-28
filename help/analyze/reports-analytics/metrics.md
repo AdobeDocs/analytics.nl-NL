@@ -4,7 +4,7 @@ title: Overzicht van metrische rapporten en analyses
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-source-git-commit: 87d1fb0c856fa28e14861b01980f6f4c1080eacb
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van metrische rapporten en analyses
+
+{{ra-eol}}
 
 Metriek vormen de basis van rapporten en helpen u gegevensrelaties te bekijken en te begrijpen en maken vergelijkingen tussen verschillende gegevenssets over uw website naast elkaar mogelijk. De metriek zijn kwantitatieve informatie over bezoekersactiviteit, zoals meningen, klik-door, herladingen, gemiddelde bestede tijd, eenheden, orden, opbrengst, etc.
 

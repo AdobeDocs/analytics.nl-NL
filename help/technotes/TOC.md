@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Technische notities voor Analytics
 breadcrumb-title: Technische notities
 user-guide-description: Blader naar een kennisbasis met nuttige artikelen die niet bij een bepaald Analysegereedschap of een bepaalde component horen.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: 1e2284fd4a62816b27b33a91f3bee2575a852107
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '204'
 ht-degree: 68%
 
 ---
@@ -63,3 +63,4 @@ ht-degree: 68%
 + [Problemen met afmelden oplossen](troubleshoot-sessions.md)
 + [Niet opgegeven, andere en onbekend](unspecified.md)
 + [Migratie van bezoekers](visitor-migration.md)
++ [VISTA-regels](vista.md)

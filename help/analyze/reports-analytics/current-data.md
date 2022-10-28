@@ -3,17 +3,19 @@ description: Met de optie Huidige gegevens opnemen in rapporten en analyses kunt
 subtopic: Current Data
 title: Huidige data
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
 
 # Huidige data
+
+{{ra-eol}}
 
 Met de optie Huidige gegevens opnemen in rapporten en analyses kunt u de meest recente analysegegevens weergeven, vaak voordat de gegevens volledig worden verwerkt en voltooid. Met de huidige gegevens worden de meeste meetgegevens binnen enkele minuten weergegeven, zodat u over actiemotionele gegevens beschikt voor snelle besluitvorming.
 
@@ -47,7 +49,7 @@ Omdat sommige gegevens die op de huidige gegevensmening worden getoond niet voll
 
 Aangezien berekende metriek kunnen worden tot stand gebracht gebruikend metriek die verschillende latentie hebben, zouden sommige recente waarden kunnen worden berekend gebruikend onvolledige gegevens in de huidige gegevensmening.
 
-U maakt bijvoorbeeld de berekende metrische &#39;Paginaweergaven per bezoek&#39; met de formule `Page Views divided by Visits`. Paginaweergaven worden meestal binnen 10 minuten weergegeven en Bezoekingen worden meestal binnen 2 uur weergegeven. Berekende meetwaarden in dit latentievenster worden berekend aan de hand van onvolledige meetwaarden. Als u een nieuwe pagina plaatst die 4000 hits krijgt van 4000 verschillende bezoeken over een periode van 2 uur, kan het latentieverschil tussen deze metriek onvolledige berekeningen veroorzaken.
+U maakt bijvoorbeeld de berekende metrische &#39;paginaweergaven per bezoek&#39; met behulp van de formule `Page Views divided by Visits`. Paginaweergaven worden meestal binnen 10 minuten weergegeven en Bezoekingen worden meestal binnen 2 uur weergegeven. Berekende meetwaarden in dit latentievenster worden berekend aan de hand van onvolledige meetwaarden. Als u een nieuwe pagina plaatst die 4000 hits krijgt van 4000 verschillende bezoeken over een periode van 2 uur, kan het latentieverschil tussen deze metriek onvolledige berekeningen veroorzaken.
 
 Dit gegevensverschil is het meest zichtbaar wanneer nieuwe waarden worden gerapporteerd of korte tijdframes worden gebruikt. Wanneer een rapport langere datumwaaiers gebruikt, zullen de latentieverschillen die in de laatste uren van het melden voorkomen waarschijnlijk geen merkbaar effect op berekende metriek hebben.
 

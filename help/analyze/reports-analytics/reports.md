@@ -4,7 +4,7 @@ description: De afmetingen en metriek die Rapporten & Analytics voor elk rapport
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Rapporten
+
+{{ra-eol}}
 
 Elk rapport in Rapporten &amp; Analytics gebruikt een specifieke afmeting en metrisch gebrek. U kunt metrisch in elk rapport veranderen en onderverdelingen toevoegen indien gewenst. De volgende lijsten verstrekken welke dimensie in elk rapport wordt gebruikt.
 

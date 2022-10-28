@@ -2,17 +2,19 @@
 description: Volledige subrelaties worden ingeschakeld voor alle conversierapporten, zodat u elke eVar door een andere eVar kunt onderverdelen. Het menu Onderverdeling op in de rapporttabel komt overeen met het standaardmenu Analytics-rapportage, zodat selecties consistent blijven
 title: Subrelaties
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Subrelaties
+
+{{ra-eol}}
 
 Volledige subrelaties worden ingeschakeld voor alle conversierapporten, zodat u elke eVar door een andere eVar kunt onderverdelen. Het menu Onderverdeling op in de rapporttabel komt overeen met het standaardmenu Analytics-rapportage, zodat selecties consistent blijven
 
@@ -48,7 +50,7 @@ Wegens de permanente aard van conversievariabelen worden twee gegevenskolommen g
 
 ![](assets/subrel_5.png)
 
-Onze backend werkt door post_campagne en post_evar1 toe te staan om de waarden voort te zetten die in campagne en evar1 worden bepaald. In subrelatierapporten wordt alleen gekeken naar de resultaten met succesgebeurtenissen (rijen die lichtgeel zijn gemarkeerd). Vervolgens vullen ze de subrelatierapporten in op basis van de aanhoudend waarden (in dit geval post_campagne en post_evar1, cellen gemarkeerd in heldergeel).
+Onze backend werkt door post_campagne en post_evar1 toe te staan om de waarden voort te zetten die in campagne en evar1 worden bepaald. In subrelatierapporten wordt alleen gekeken naar de resultaten die succesgebeurtenissen bevatten (rijen die lichtgeel zijn gemarkeerd). Vervolgens vullen ze de subrelatierapporten in op basis van de aanhoudend waarden (in dit geval post_campagne en post_evar1, cellen gemarkeerd in heldergeel).
 
 In wezen volgen subrelaties deze stappen om uw rapport te vullen:
 

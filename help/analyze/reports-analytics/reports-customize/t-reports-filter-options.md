@@ -2,17 +2,19 @@
 description: Met filters kunt u het rapport beperken en regelitems die overeenkomen met een filter, opnemen of uitsluiten.
 title: Rapportdata filteren
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
 
 # Rapportgegevens filteren {#concept_09DC5B986A644738B12204DAC76A90E1}
+
+{{ra-eol}}
 
 Met filters kunt u het rapport beperken en regelitems die overeenkomen met een filter, opnemen of uitsluiten.
 
@@ -20,7 +22,7 @@ Met filters kunt u het rapport beperken en regelitems die overeenkomen met een f
 
 ![](assets/filter.png)
 
-Het eenvoudige filter verschijnt op de meeste rapporten om u snel specifieke lijnpunten te laten vinden. Bij eenvoudige filters worden geen speciale tekens gebruikt, zodat `-, ", ', +` en andere speciale tekens overeenkomen met de letterlijke waarde in het rapport. Met een spatie kunt u zoeken naar lijstitems die meerdere termen bevatten.
+Het eenvoudige filter verschijnt op de meeste rapporten om u snel specifieke lijnpunten te laten vinden. Bij eenvoudige filters worden geen speciale tekens gebruikt, dus `-, ", ', +` en andere speciale tekens komen overeen met de letterlijke waarde in het rapport. Met een spatie kunt u zoeken naar lijstitems die meerdere termen bevatten.
 
 Bijvoorbeeld:
 
@@ -54,7 +56,7 @@ Komt overeen als de termijn overal in het lijnpunt wordt gevonden. Dit werkt het
 
 **Bevat niet**
 
-Komt overeen als de termijn nergens in het lijnpunt wordt gevonden. U kunt &quot;unspecified&quot;, &quot;none&quot;, &quot;keyword unavailable&quot; en andere [speciale waarden](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) filteren uit rapporten die &quot;bevat niet&quot; gebruiken.
+Komt overeen als de termijn nergens in het lijnpunt wordt gevonden. U kunt &quot;unspecified&quot;, &quot;none&quot;, &quot;keyword unavailable&quot; en andere filteren [speciale waarden](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) uit rapporten die &quot;bevat niet&quot; gebruiken.
 
 Bevat niet: `none`
 
@@ -131,11 +133,11 @@ Met Geavanceerd kunt u jokertekens en andere complexe zoekopdrachten uitvoeren.
 | Geavanceerd (speciaal teken) | Beschrijving |
 |--- |--- |
 | `" "` | Identieke uitdrukking. |
-| `*` | Jokerteken, greedy matching. <br>Komt bijvoorbeeld  `r*p`  overeen met Registratie-opname. |
+| `*` | Jokerteken, greedy matching. <br>Bijvoorbeeld: `r*p`  komt overeen met &quot;Registratie-aanmelding&quot;. |
 | `^` | Begint met. <br>Plaats geen spatie tussen het speciale teken en de zoekfrase. |
 | `$` | Eindigt met. <br>Plaats geen spatie tussen het speciale teken en de zoekfrase. |
 | `-` | Niet. <br>Plaats geen spatie tussen het speciale teken en de zoekfrase. |
-| `|` | Of<br>Opmerking:  u moet een spatie aan elke kant van het pijpkarakter, `" | "` omvatten. |
+| `|` | of<br>Opmerking: u moet een ruimte aan elke kant van het pijpkarakter omvatten, `" | "`. |
 
 ## Rapportspecifieke filters maken {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
@@ -147,16 +149,16 @@ t_reports_filter_specific.xml
 
  -->
 
-Bepaalde rapporten bevatten een filter dat specifiek is voor dat rapport. Met een [!UICONTROL Purchase Conversion Funnel Report] kunt u bijvoorbeeld filteren op webpagina&#39;s. Met een [!UICONTROL Geosegmentation Report] kunt u filteren op geografische regio. Aanvullende rapporten hebben andere filters die specifiek zijn voor deze rapporten.
+Bepaalde rapporten bevatten een filter dat specifiek is voor dat rapport. Bijvoorbeeld een [!UICONTROL Purchase Conversion Funnel Report] Hiermee kunt u filteren op webpagina&#39;s. A [!UICONTROL Geosegmentation Report] Hiermee kunt u filteren op geografische regio. Aanvullende rapporten hebben andere filters die specifiek zijn voor die rapporten.
 
 Wanneer u tot deze filters toegang hebt, kunt u rapportmetriek voor de punten zien die in de lijst worden gespecificeerd.
 
 **Rapportspecifieke filters maken**
 
 1. Genereer een rapport, zoals een [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
-1. Klik in de rapportkoptekst op de koppeling **[!UICONTROL Filter]**.
-1. Klik op de pagina [!UICONTROL Filter Selector] op **[!UICONTROL Apply a Filter]** en selecteer vervolgens een filtertype.
-1. Als u naar een item wilt zoeken, typt u een tekenreeks in het veld **[!UICONTROL Search]**.
+1. Klik in de rapportkoptekst op de knop **[!UICONTROL Filter]** koppeling.
+1. Op de [!UICONTROL Filter Selector] pagina, klikt u op **[!UICONTROL Apply a Filter]** Selecteer vervolgens een filtertype.
+1. Als u naar een item wilt zoeken, typt u een tekenreeks in het dialoogvenster **[!UICONTROL Search]** veld.
 1. Klik op **[!UICONTROL OK]**.
 
 ## Een correlatiefilter toevoegen {#task_065042E384DA4BF3864C58AF2B88D6E2}
@@ -169,13 +171,13 @@ t_reports_correlation_filter.xml
 
  -->
 
-In bepaalde rapporten kunt u aangepaste correlatiefilters toevoegen. Bijvoorbeeld, als u [!UICONTROL Pages Report] voor een rapportreeks bekijkt die de Secties van de Plaats gecorreleerd met een pagina van de Vrouwen heeft, kunt u een filterregel tot stand brengen die een rapport produceert die de populairste pagina&#39;s toont wanneer de Secties van de Plaats = Vrouwen.
+In bepaalde rapporten kunt u aangepaste correlatiefilters toevoegen. Als u bijvoorbeeld de [!UICONTROL Pages Report] voor een rapportsuite met sitesecties die zijn gecorreleerd met een pagina van de vrouw, kunt u een filterregel maken die een rapport genereert met de populairste pagina&#39;s als Sitesecties = Vrouwen.
 
 U kunt de gegevens in een correlatierapport filteren met behulp van elke beschikbare correlatie. In het volgende voorbeeld ziet u hoe u een correlatiefilter voor zoekprogramma&#39;s toevoegt.
 
 **Een correlatiefilter toevoegen**
 
 1. Voer een rapport uit dat correlaties ondersteunt. (Zie [Een uitsplitsingsrapport uitvoeren](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1. Klik in de rapportkoptekst op de koppeling **[!UICONTROL Correlation Filter]**.
-1. Selecteer onder [!UICONTROL Filter Rule Creator] een categorie die u wilt koppelen aan een item.
+1. Klik in de rapportkoptekst op de knop **[!UICONTROL Correlation Filter]** koppeling.
+1. Onder [!UICONTROL Filter Rule Creator]selecteert u een categorie die u wilt koppelen aan een item.
 1. Klik op **[!UICONTROL OK.]**

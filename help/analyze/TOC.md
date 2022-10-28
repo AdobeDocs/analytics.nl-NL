@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Leer hoe u analysefuncties kunt gebruiken, zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1059'
 ht-degree: 79%
 
 ---
@@ -305,7 +305,6 @@ ht-degree: 79%
       + [Menu Rapporten](reports-analytics/overview/reports-menu.md)
       + [Rapportfuncties](reports-analytics/overview/report-overview.md)
       + [Algemene voorwaarden](reports-analytics/overview/overview-common-terms.md)
-      + [Adobe Analytics voor iOS](reports-analytics/overview/app-ios.md)
    + [Rapport Weergave-instellingen en navigatie](reports-analytics/report-settings.md)
    + [Rapport Planning en distributie](reports-analytics/scheduling.md)
    + [Aankondiging einde van de levensduur voor geplande rapporten](reports-analytics/scheduled-reports-eol.md)

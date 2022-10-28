@@ -3,17 +3,19 @@ description: Gebruik waarschuwingen in Rapporten en Analyse.
 subtopic: Alerts
 title: Waarschuwingen
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-feature: Waarschuwingen
+feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '827'
 ht-degree: 6%
 
 ---
 
 # Waarschuwingen
+
+{{ra-eol}}
 
 ## Waarschuwingen {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
@@ -24,9 +26,9 @@ Met Intelligente waarschuwingen kunt u, net als met het nieuwe waarschuwingssyst
 * Een melding sturen via e-mail of sms, met koppelingen naar automatisch gegenereerde Analysis Workspace-projecten.
 * &#39;Gestapelde&#39; meldingen maken waarbij meerdere metrics zijn opgenomen in één waarschuwing.
 
-U kunt dit nieuwe Alarmsysteem van **[!UICONTROL More]** > **[!UICONTROL Alerts]** in om het even welk rapport in Rapporten &amp; Analytics toegang hebben.
+U kunt dit nieuwe waarschuwingssysteem openen vanuit **[!UICONTROL More]** > **[!UICONTROL Alerts]** in rapporten en analyses.
 
-Ga voor meer informatie naar de Analysis Workspace-documentatie op [Intelligente waarschuwingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
+Ga voor meer informatie naar de Analysis Workspace documentatie op [Intelligente waarschuwingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
 
 ## Een waarschuwing toevoegen {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -38,7 +40,7 @@ t_add_an_alert.xml
 
  -->
 
-Navigeer naar de nieuwe waarschuwingsfunctie in het menu **[!UICONTROL Analytics]** > **[!UICONTROL Components]**. U kunt het echter wel openen vanuit rapporten en analyses:
+Navigeer naar de nieuwe waarschuwingsfunctie in het dialoogvenster **[!UICONTROL Analytics]** > **[!UICONTROL Components]** -menu. U kunt het echter wel openen vanuit rapporten en analyses:
 
 1. Open in Rapporten en Analytics het rapport waarin u een waarschuwing wilt instellen.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
@@ -48,7 +50,7 @@ Navigeer naar de nieuwe waarschuwingsfunctie in het menu **[!UICONTROL Analytics
 
 Taakcontext
 
-1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Hiermee gaat u naar de nieuwe [Waarschuwingsmanager](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
+1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Hiermee gaat u naar het nieuwe [Waarschuwingsbeheer](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
 
 ## Migratie van verouderde waarschuwingen {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -108,7 +110,7 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Maandelijkse waarschuwingen voor aangepaste kalenderrapporten </p> </td> 
-   <td colname="col2"> <p>Dit geldt alleen voor klanten met waarschuwingen die zijn ingesteld voor rapportsuites met <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > aangepaste begindatums voor maanden </a> (nationale detailhandelsfederatie/NRF en aangepaste kalendertypen). </p> <p>Het heeft geen invloed op waarschuwingen over Gregoriaanse of Gewijzigde Gregoriaanse kalenderrapportsuites. Eerder werden deze waarschuwingen verzonden op de eerste dag van de Gregoriaanse maand (bijvoorbeeld 1 januari, 1 februari enz.). Dit werkt niet met het nieuwe onderdeel Anomaly Detection van waarschuwingen, dat bij het opsporen van anomalieën rekening houdt met gegevens van vorige maanden. In de toekomst, zullen wij steun aan ons het plannen systeem voor douanecalendars toevoegen zodat zowel Alarm als Geplande Projecten kunnen worden gepland om op de eerste dag van de maand van de douanekalender in plaats van enkel de eerste dag van de Gregoriaanse maand te verzenden. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Dit is alleen van toepassing op klanten met waarschuwingen die zijn ingesteld voor rapportsuites die <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > aangepaste begindatums voor maanden </a> (Nationale detailhandelsfederatie/NRF en de types van Kalender van de Douane). </p> <p>Het heeft geen invloed op waarschuwingen over Gregoriaanse of Gewijzigde Gregoriaanse kalenderrapportsuites. Eerder werden deze waarschuwingen verzonden op de eerste dag van de Gregoriaanse maand (bijvoorbeeld 1 januari, 1 februari enz.). Dit werkt niet met het nieuwe onderdeel Anomaly Detection van waarschuwingen, dat bij het opsporen van anomalieën rekening houdt met gegevens van vorige maanden. In de toekomst, zullen wij steun aan ons het plannen systeem voor douanecalendars toevoegen zodat zowel Alarm als Geplande Projecten kunnen worden gepland om op de eerste dag van de maand van de douanekalender in plaats van enkel de eerste dag van de Gregoriaanse maand te verzenden. </p> <p> </p> </td> 
    <td colname="col3"> <p>Nog niet beschikbaar in het nieuwe waarschuwingsbeheer. </p> </td> 
   </tr> 
   <tr> 

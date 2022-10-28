@@ -5,7 +5,7 @@ title: Veelgestelde vragen voor rapporten en analyses
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Veelgestelde vragen
+
+{{ra-eol}}
 
 Verstrekt antwoorden en het oplossen van problemensuggesties aan enkele van de vaakst gestelde vragen van Analytics voor Rapporten &amp; Analytics. Raadpleeg voor veelgestelde implementatievragen het dialoogvenster [Veelgestelde vragen](/help/implement/faq.md) in de gebruikershandleiding Implementeren.
 

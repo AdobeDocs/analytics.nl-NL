@@ -2,17 +2,19 @@
 description: Nadat u een rapport hebt uitgevoerd, kunt u het rapport aanpassen om de gegevens naar wens weer te geven en te analyseren. U kunt rapportgegevens filteren, wijzigen hoe gegevens grafisch worden weergegeven, granulariteit van datums wijzigen, enzovoort.
 title: Overzicht van rapporten aanpassen
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Grondbeginselen van rapporten en analyses
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '865'
 ht-degree: 3%
 
 ---
 
 # Overzicht van rapporten aanpassen
+
+{{ra-eol}}
 
 Nadat u een rapport hebt uitgevoerd, kunt u het rapport aanpassen om de gegevens naar wens weer te geven en te analyseren. U kunt rapportgegevens filteren, wijzigen hoe gegevens grafisch worden weergegeven, granulariteit van datums wijzigen, enzovoort.
 
@@ -67,7 +69,7 @@ Wanneer u een dashboard opent met rapporten met verschillende datumbereiken, kun
    * Sleep de cursor over datums om een bereik te selecteren.
    * Voer de datums handmatig in.
    * Klik op de naam van een maand om een maand te selecteren.
-   * Klik **[!UICONTROL Select Preset]** om een vooraf ingestelde datum te selecteren.
+   * Klikken **[!UICONTROL Select Preset]** om een vooraf ingestelde datum te selecteren.
    * Datums vergelijken.
 
 1. Klik op **[!UICONTROL Run Report]**.
@@ -86,7 +88,7 @@ U kunt geen datums vergelijken tussen trended-rapporten.
 
 >[!NOTE]
 >
->Als u een datumvergelijking op zeer belangrijke metriek in een dashboard wilt uitvoeren, kunt u de gegevens in [Report Builder ](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) trekken gebruikend twee afzonderlijke verzoeken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
+>Als u een datumvergelijking wilt uitvoeren op belangrijke metriek in een dashboard, kunt u de gegevens trekken [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) twee afzonderlijke verzoeken gebruiken. Vervolgens gebruikt u aangepaste formules in Excel om het verschil tussen de twee formules te analyseren.
 
 Datums vergelijken tussen gerangschikte rapporten in rapporten en analyses:
 
@@ -108,7 +110,7 @@ t_reports_graph_percent.xml
 
 Deze visualisatie is ook beschikbaar in dashboardrapporten.
 
-1. Voer een rapport uit dat percentages, zoals [!UICONTROL Pages Report] steunt.
+1. Voer een rapport uit dat percentages ondersteunt, zoals een [!UICONTROL Pages Report].
 1. Klik op **[!UICONTROL Percent Shown As: Graph]**.
 
 ## Rapportgegevens normaliseren {#task_8005B55E59BD479DA67BC618FF8BC94A}
@@ -126,7 +128,7 @@ Nadat u een rapport met vergeleken data in werking stelt, of voor vergelijkingen
 **Om rapportgegevens te normaliseren**
 
 1. Voer een rapport uit dat datumvergelijkingen ondersteunt.
-1. Klik **[!UICONTROL Compare Dates]**, dan specificeer uw datumvergelijking.
+1. Klikken **[!UICONTROL Compare Dates]** en geef vervolgens uw vergelijkingsdatum op.
 1. Klik op **[!UICONTROL Run Report]**.
 1. Klik op **[!UICONTROL Normalize Data: Yes]**.
 
@@ -141,8 +143,8 @@ t_reports_select_page.xml
  -->
 
 1. Genereer een rapport, zoals een [!UICONTROL Page Views Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Page Views]**).
-1. Klik op de koppeling **[!UICONTROL Selected Page]**.
-1. Selecteer op [!UICONTROL Choose Page] de pagina&#39;s die u wilt weergeven.
+1. Klik op de knop **[!UICONTROL Selected Page]** koppeling.
+1. Aan [!UICONTROL Choose Page]selecteert u de pagina&#39;s die u wilt weergeven.
 1. Zoek de pagina.
 1. Klik op **[!UICONTROL OK.]**
 
@@ -173,7 +175,7 @@ Naast de grafische vertoning, geeft de lijst van het rapport u een percentagever
 **Rapportsuites vergelijken**
 
 1. Genereer een rapport waarmee u rapporten kunt vergelijken.
-1. Klik op de koppeling **[!UICONTROL Compare to Site]**.
+1. Klik op de knop **[!UICONTROL Compare to Site]** koppeling.
 1. Zoek de rapportsuite.
 1. Klik op **[!UICONTROL OK.]**
 
@@ -187,12 +189,12 @@ t_reports_granularity.xml
 
  -->
 
-De tijdsperiode van het rapport bepaalt welke granulariteitsopties beschikbaar zijn. U kunt bijvoorbeeld alleen **[!UICONTROL Hourly]** selecteren als u een tijdframe van één of twee dagen hebt geselecteerd. U kunt slechts **[!UICONTROL Yearly]** granularity selecteren als u meer dan één jaar hebt geselecteerd.
+De tijdsperiode van het rapport bepaalt welke granulariteitsopties beschikbaar zijn. U kunt bijvoorbeeld alleen **[!UICONTROL Hourly]** als u een tijdkader van één of twee dagen hebt geselecteerd. U kunt alleen **[!UICONTROL Yearly]** korreligheid als u meer dan een jaar hebt geselecteerd.
 
 **Rapportgranulariteit opgeven**
 
 1. Genereer een trendrapport, zoals **[!UICONTROL Site Content]** > **[!UICONTROL Pages.]**
-1. Klik op de koppeling **[!UICONTROL View by]** en klik vervolgens op een granulariteit.
+1. Klik op de knop **[!UICONTROL View by]** en klikt u op een granulariteit.
 
 ## Een dagrapport uitvoeren {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
@@ -207,11 +209,11 @@ t_reports_day_of_week.xml
 Deze functie is alleen van toepassing op gefilterde rapporten met een datumbereik van week of dag.
 
 1. Voer een trended-rapport uit over een opgegeven datumbereik.
-1. Klik op de koppeling **[!UICONTROL Day of Week]** en klik vervolgens op een dag.
+1. Klik op de knop **[!UICONTROL Day of Week]** Klik op een dag.
 
 ## Knop &#39;Uitproberen in werkruimte&#39; {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
-Als u op de knop **[!UICONTROL Try In Workspace]** boven aan een rapport klikt, wordt hetzelfde rapport in Analysis Workspace geladen.
+Klik op de knop **[!UICONTROL Try In Workspace]** knoop bij de bovenkant van een rapport zal het zelfde rapport in Analysis Workspace laden.
 
 <!-- 
 
@@ -223,4 +225,4 @@ De meeste rapporten in Rapporten &amp; Analytics omvatten nu de knoop van het &q
 
 De knop is momenteel alleen beschikbaar als je gebruikersnaam volledige rechten heeft op Analysis Workspace.
 
-Voor meer informatie over alle manieren kunt u uw rapport aanpassen, zie [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) gids.
+Voor meer informatie over alle manieren kunt u uw rapport aanpassen, zie [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) hulplijn.
