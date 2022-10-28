@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 96488440c73acfdc015560012de5481368baed8a
+source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1412'
 ht-degree: 2%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (oktober/november 2022)
 
-**Laatste update**: 25 oktober 2022
+**Laatste update**: 28 oktober 2022
 
 Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -21,7 +21,7 @@ Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **[!UICONTROL Key metric summary]** visualisatie | De [!UICONTROL Key metric summary] Met visualisatie kunt u zien hoe een belangrijke metriek binnen één tijdsperiode trending. Ook kunt u de metrische prestaties in twee tijdframes vergelijken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | 5 oktober 2022 | 19 oktober 2023 |
-| **Niet-hoofdlettergevoelige meerwaardevariabelen** | Voor niet-hoofdlettergevoelige meerwaardevariabelen worden de waarden opgeslagen in `mvvar1` - `mvvar3` in gegevensfeeds wordt niet langer automatisch verlaagd. In plaats daarvan zullen de gegevensfeeds (en de gegevens die door de Verbinding van de Bron van Analytics aan Adobe Experience Platform en CJA worden overgegaan) het originele geval weerspiegelen dat van de pagina werd overgegaan. | N.v.t. | 24 oktober 2022 |
+| **Niet-hoofdlettergevoelige meerwaardevariabelen** | Voor niet-hoofdlettergevoelige meerwaardevariabelen worden de waarden opgeslagen in `mvvar1 - mvvar3` en `post_mvvar1 - post_mvvar3` in Gegevensfeeds wordt niet langer automatisch verlaagd. In plaats daarvan zullen de gegevensfeeds (en de gegevens die door de Verbinding van de Bron van Analytics aan Adobe Experience Platform en CJA worden overgegaan) het originele geval weerspiegelen dat van de pagina werd overgegaan. | N.v.t. | 24 oktober 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 

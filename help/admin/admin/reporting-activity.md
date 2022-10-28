@@ -3,7 +3,7 @@ description: Leer over hoe te om de Manager van de Activiteit van de Rapporterin
 title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: eb9400e20fe6f5e4a3cecfde85e8dc1428db9d1b
+source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 2%
@@ -17,7 +17,9 @@ ht-degree: 2%
 >
 >Deze functionaliteit wordt momenteel getest in bèta.
 
-De manager van de Activiteit van de Rapportering laat u de rapporteringscapaciteit voor elke rapportreeks in uw organisatie zien. Het biedt u als beheerder gedetailleerde zichtbaarheid bij het melden van het verbruik en helpt u om problemen met de capaciteit tijdens piekrapporteringstijden eenvoudig te diagnosticeren en op te lossen. Wanneer uw organisatie het melden van verzoekcapaciteit bereikt en een degradatie in het melden van prestaties ervaart, hebt u nu een manier om het melden van problemen zonder tussenkomst van de klantenzorg of de techniek van Adobe zelf te diagnostiseren. U kunt rapportrijen gemakkelijk beheren binnen één enkele interface en onmiddellijk handelen &#x200B; &#x200B; om uw gebruikerservaring te verbeteren. Dit gereedschap:
+De manager van de Activiteit van de Rapportering laat u de rapporteringscapaciteit voor elke rapportreeks in uw organisatie zien. Het biedt u als beheerder gedetailleerde zichtbaarheid bij het melden van het verbruik en helpt u om problemen met de capaciteit tijdens piekrapporteringstijden eenvoudig te diagnosticeren en op te lossen.
+
+Wanneer uw organisatie het melden van verzoekcapaciteit bereikt en een degradatie in het melden van prestaties ervaart, hebt u nu een manier om het melden van problemen zonder tussenkomst van de klantenzorg of de techniek van Adobe zelf te diagnostiseren. U kunt rapportrijen gemakkelijk beheren binnen één enkele interface en onmiddellijk handelen &#x200B; &#x200B; om uw gebruikerservaring te verbeteren. Dit gereedschap:
 
 * Vertel u, in echt - tijd, over uw huidige rapporteringscapaciteit over uw rapportseries.
 * Verstrekt gedetailleerde informatie van de rapportvraag over huidige rapporteringsverzoeken, of een rij gevormd en lopend.
