@@ -3,9 +3,9 @@ description: Leer over hoe te om de Manager van de Activiteit van de Rapporterin
 title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
+source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '904'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,8 @@ Wanneer het openen van de overzichtspagina van de Manager van de Activiteit van 
 | **[!UICONTROL Virtual Report Suite]** | Toont alle virtuele rapportsuites die in deze reeks van het basisrapport van toepassing zijn. De virtuele rapportsuites voegen ingewikkeldheid aan rapporteringsverzoeken toe toe toe te schrijven aan extra niveaus van toegepaste filtratie en segmentatie. Alle verzoeken die uit de virtuele rapportreeksen komen worden gecombineerd en neer aan de reeks van het basisrapport.<p>Bijvoorbeeld, als u 10 verzoeken hebt die uit 5 VRSs komen, is dat 50 verzoeken bij de het rapportreeks van het basisniveau. Op deze manier kun je snel de capaciteit raken. |
 | **[!UICONTROL Usage Capacity]** | Percentage wijs, hoeveel van de rapporteringscapaciteit van de rapportreeks wordt gebruikt, in echt - tijd. |
 | **[!UICONTROL Status]** | Vier mogelijke statusindicatoren: <ul><li>**Rood -[!UICONTROL At Capacity]**: De rapportenreeks is samengesteld in termen van rapporteringscapaciteit. (95% - 100%) </li><li>**Geel -[!UICONTROL Nearing capacity]**: Dit pakket verslagen dreigt zijn maximumcapaciteit te bereiken. (90-94%)</li><li>**Groen -[!UICONTROL All good]**: Er is genoeg rapportagecapaciteit. (0% - 90%)</li><li>**Grijs -[!UICONTROL Status pending]**: ?</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Overige activiteiten op het gebied van rapportageactiviteiten
 
