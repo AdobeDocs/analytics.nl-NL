@@ -3,9 +3,9 @@ description: Opeenvolgende segmenten worden gemaakt met behulp van de operator T
 title: Opeenvolgende segmenten maken
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3658'
 ht-degree: 1%
 
 ---
@@ -210,14 +210,7 @@ Creeer een segment zoals u voor een eenvoudig, gemengd niveau, of genestelde ope
 
 Als het uitsluit controlepunt aan het begin van een opeenvolgend segment is, dan zorgt het ervoor dat een uitgesloten paginamening niet vóór de eerste niet-uitgesloten slag voorkwam.
 
-**Voorbeeld**: Bezoeker heeft pagina A bezocht en niet pagina B.
-
-**Gevallen gebruiken**
-
-Hieronder ziet u voorbeelden van het gebruik van dit type segment:
-
-* Bezoekers die pagina A hebben bezocht en pagina B niet hebben bezocht.
-* Een restaurant wil geïsoleerde gebruikers zien die de hoofdlandingspagina vermijden en rechtstreeks naar de pagina Bestellen uit gaan.
+Een restaurant wil bijvoorbeeld onvindbare gebruikers zien die de hoofdbestemmingspagina vermijden en rechtstreeks naar de pagina Bestellen uit gaan. Dit voorbeeld kan voor een bezoeker worden vereenvoudigd, waarbij bezoekende pagina A wordt vermeden en rechtstreeks naar pagina B wordt gegaan.
 
 **Dit segment maken**
 
@@ -229,14 +222,7 @@ Maak twee aparte Hit-containers in een bezoekercontainer op hoofdniveau. Stel ve
 
 Als het uitsluit controlepunt aan het eind van een opeenvolging is, dan zorgt het ervoor dat het controlepunt niet tussen het laatste niet-uitgesloten controlepunt en het eind van de bezoekersopeenvolging gebeurde.
 
-**Voorbeeld**: Bezoekers bezoeken pagina A en bezochten pagina B bij de huidige of volgende bezoeken niet.
-
-**Gevallen gebruiken**
-
-Hieronder volgen voorbeelden van de manier waarop dit type segment kan worden gebruikt:
-
-* Bezoekers die pagina A hebben bezocht en pagina B niet hebben bezocht.
-* Een restaurant wil geïsoleerde gebruikers zien die de hoofdlandingspagina vermijden en rechtstreeks naar de pagina Bestellen uit gaan.
+Een kledingwinkel wil bijvoorbeeld alle bezoekers zien die een productpagina hebben bekeken, maar daarna nooit hun winkelwagentje hebben bezocht. Dit voorbeeld kan worden vereenvoudigd voor een bezoeker die naar pagina A gaat en dan nooit naar pagina B gaat bij huidige of volgende bezoeken.
 
 **Dit segment maken**
 
@@ -306,7 +292,7 @@ Pagina B en C zijn genest in een [!UICONTROL Logic Group] container in de buiten
 
 ![](assets/logic_group_any_order3.png)
 
-Het segment moet bij lease overeenkomen met een van de controlepunten van de logische groep (B of C). Aan logische groepsvoorwaarden kan ook worden voldaan bij hetzelfde resultaat of bij meerdere treffers. &#x200B;
+Het segment moet op lease-basis overeenkomen met een van de controlepunten van de logische groep (B of C). Aan logische groepsvoorwaarden kan ook worden voldaan bij hetzelfde resultaat of bij meerdere treffers. &#x200B;
 
 ### Logische groep eerst overeenkomst
 
