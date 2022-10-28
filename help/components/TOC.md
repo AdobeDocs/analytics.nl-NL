@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van componenten zoals Segmenten, Berekende metriek, Virtuele rapportsuite, Marketingkanalen en Classificaties. Meer informatie over de analyse van apparaten.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: f435453f655caef89460de42ebecf489b021dc47
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '690'
 ht-degree: 49%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 49%
    + [Koppeling afsluiten](dimensions/exit-link.md)
    + [Eerste aanraakkanaal](dimensions/first-touch-channel.md)
    + [Eerste aanraakkanaaldetail](dimensions/first-touch-detail.md)
+   + [Hiërarchie](dimensions/hierarchy.md)
    + [Hoogte](dimensions/hit-depth.md)
    + [Type hit](dimensions/hit-type.md)
    + [Uur van de dag](dimensions/hour-of-day.md)

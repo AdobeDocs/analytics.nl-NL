@@ -5,9 +5,9 @@ title: Voorbereiden op het gebruik van gegevensbronnen
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ U kunt veelvoudige gegevensafmetingen aan metrisch bepalen, maar elke metrisch m
 
 Nadat u de gegevensafmetingen bepaalt om met een gegevensbron te gebruiken, integreer de dimensiegegevens in marketing rapporten door het aan een variabele in kaart te brengen. Gebruik standaardrapporten (bijvoorbeeld Product, Trackingcode, Trefwoord zoeken) of Conversieverkeer (eVars).
 
-Wanneer u Vars gebruikt, kunt u bestaande of nieuwe Vars gebruiken als gegevensafmetingen. Na het selecteren van een eVar om een gegevensdimensie van Gegevensbronnen te ontvangen, zorg ervoor u hen geschikt noemt.
+Wanneer u Vars gebruikt, kunt u bestaande of nieuwe Vars gebruiken als gegevensafmetingen. Na het selecteren van een eVar om een gegevensdimensie van Gegevensbronnen te ontvangen, zorg ervoor dat u hen geschikt noemt.
 
 Zie [Gebeurtenissen geslaagd](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in de Help bij Analytics.
 

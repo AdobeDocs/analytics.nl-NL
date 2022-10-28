@@ -1,11 +1,11 @@
 ---
-title: eVar voor Dimension
+title: eVar (dimensie)
 description: Een aangepaste dimensie die u kunt gebruiken in rapporten.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ AppMeasurement, waarmee JavaScript-variabelen worden gecompileerd in een afbeeld
 
 ## Dimension-items
 
-Aangezien eVars aangepaste tekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de dimensie-items voor elke eVar zijn. Zorg ervoor u het doel van elke eVar en typische afmetingspunten in a registreert [document ontwerp oplossing](/help/implement/prepare/solution-design.md).
+Aangezien eVars aangepaste tekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de dimensie-items voor elke eVar zijn. Zorg ervoor dat u het doel van elke eVar en typische afmetingspunten in een registreert [document ontwerp oplossing](/help/implement/prepare/solution-design.md).
 
 ## Hoe werkt eVars
 

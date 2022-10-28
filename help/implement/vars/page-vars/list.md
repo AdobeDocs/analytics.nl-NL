@@ -3,9 +3,9 @@ title: list
 description: Aangepaste variabelen die meerdere waarden in dezelfde hit bevatten.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 50e57e30a50d9c010e8b25b5a7d0afc8926525f5
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 De variabelen van de lijst zijn douanevariabelen die u kunt gebruiken hoe u zou willen. Ze werken op dezelfde manier als Vars, maar ze kunnen meerdere waarden in dezelfde hit bevatten. Lijstvariabelen hebben geen tekenlimiet.
 
-Zorg ervoor u registreert hoe u elke lijstvariabele en hun logica in uw gebruikt [document ontwerp oplossing](../../prepare/solution-design.md).
+Zorg ervoor dat u opneemt hoe u elke lijstvariabele en de bijbehorende logica gebruikt in uw [document ontwerp oplossing](../../prepare/solution-design.md).
 
 >[!NOTE]
 >

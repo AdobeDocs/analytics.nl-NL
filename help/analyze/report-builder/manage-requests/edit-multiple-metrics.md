@@ -4,9 +4,9 @@ title: Cijfers bewerken in meerdere aanvragen
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '542'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,7 @@ Een of meer metriek toevoegen:
 1. Selecteer een of meer aanvragen in Excel en klik met de rechtermuisknop om deze te selecteren **[!UICONTROL Edit Metrics]**. (Of klik op **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** om de groep verzoeken te selecteren die moet worden gewijzigd.)
 1. Selecteren **[!UICONTROL Add Metric(s)]**en selecteer de metriek om toe te voegen.
 
-   ![](assets/add_metric.png)
+   ![Metrisch toevoegen](assets/add_metric.png)
 
 1. Vernieuw het verzoek om werkelijke gegevens te bekijken. Tot u verfrist, zult u off-line gegevens zien.
 
@@ -52,7 +52,7 @@ Een metrisch object vervangen
 
 1. Selecteren **[!UICONTROL Replace Metric]**.
 
-   ![](assets/replace_metric.png)
+   ![Metrisch vervangen](assets/replace_metric.png)
 
 1. Selecteer welke metrische waarde moet worden vervangen en welke metrische waarde deze vervangt.
 1. Vernieuw de aanvraag. Tot u verfrist, zult u off-line gegevens zien.
@@ -72,7 +72,7 @@ Metrische gegevens verwijderen:
 
 1. Selecteren **[!UICONTROL Remove Metric(s)]**.
 
-   ![](assets/remove_metric.png)
+   ![Metrisch verwijderen](assets/remove_metric.png)
 
 1. Selecteer een of meer metriek die u uit de aanvraag wilt verwijderen.
 1. Vernieuw de aanvraag. Tot u verfrist, zult u off-line gegevens zien.

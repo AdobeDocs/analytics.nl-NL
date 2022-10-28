@@ -4,10 +4,10 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1247'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ De nieuwe [!UICONTROL flow] De ervaring verbetert uw werkschema op verscheidene 
 
    * Gebruik het keuzemenu om metriek of afmetingen te selecteren.
    * Sleep items vanuit de lijst Afmetingen of Metriek.
-   * Gebruik de zoekfunctie om de gewenste metriek of dimensie te zoeken.
+   * Gebruik de zoekfunctie om de gewenste afmetingen of metrische gegevens te zoeken.
 
    Stel bijvoorbeeld dat u alles wilt traceren wat tot een uitcheckgebeurtenis leidt. U zou een controle-verwante afmeting of metrisch (zoals slepen [!UICONTROL Order exists]) in de **[!UICONTROL Ends with]** dropzone.
 

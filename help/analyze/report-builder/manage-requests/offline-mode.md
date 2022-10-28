@@ -5,10 +5,10 @@ uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 9%
+source-wordcount: '185'
+ht-degree: 8%
 
 ---
 
@@ -20,18 +20,18 @@ Wanneer u nieuw verzoek creeert of uitgeeft, worden de vraag van rapport API gem
 
 Offlinemodus inschakelen:
 
-1. Klik **[!UICONTROL Options]** in het menu van de Report Builder.
+1. Klikken **[!UICONTROL Options]** in het menu Report Builder.
 
-   ![](assets/offline_mode.png)
+   ![Offlinemodus](assets/offline_mode.png)
 
-1. Schakel het selectievakje naast **[!UICONTROL Turn on offline mode for creating and editing requests]** in.
-1. Voer in het veld **[!UICONTROL Display Metric Data as]** de plaatsaanduidingsgegevens in die u in uw verzoek wilt retourneren. Voer bijvoorbeeld &quot;1&quot; in.
+1. Schakel het selectievakje naast **[!UICONTROL Turn on offline mode for creating and editing requests]**.
+1. In de **[!UICONTROL Display Metric Data as]** voert u in uw verzoek de gegevens in voor de tijdelijke aanduiding die u wilt retourneren. Voer bijvoorbeeld &quot;1&quot; in.
 1. Klik op **[!UICONTROL OK]**.
 1. Creëer nu en stel uw verzoek (op off-line wijze) in werking gebruikend de Tovenaar van het Verzoek.
 1. Uw verzoek met &#39;1&#39; als plaatsaanduidingsgegevens ziet er ongeveer als volgt uit:
 
-   ![](assets/offline_mode_example.png)
+   ![Voorbeeld van offlinemodus](assets/offline_mode_example.png)
 
    >[!IMPORTANT]
    >
-   >Zorg ervoor u Off-line Wijze onbruikbaar maakt alvorens uw verzoeken met echte gegevens in werking te stellen. Ga hiertoe gewoon terug naar **[!UICONTROL Options]** en verwijder het vinkje.
+   >Zorg ervoor dat u de Offlinemodus uitschakelt voordat u uw aanvragen met echte gegevens uitvoert. Ga hiervoor gewoon terug naar **[!UICONTROL Options]** en verwijder het vinkje.

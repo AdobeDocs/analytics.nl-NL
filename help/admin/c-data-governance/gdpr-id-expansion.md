@@ -1,12 +1,12 @@
 ---
-description: 'De id''s die u verzendt, hebben niet altijd betrekking op alle treffers die door Analytics aan de geregistreerde persoon kunnen worden gekoppeld. Analytics kan een uitgebreide reeks id''s maken om deze gekoppelde data op te nemen in de Data Privacy-aanvragen. U kunt deze optie aanvragen met een optionele parameter voor elke Data Privacy-aanvraag die u verzendt, toegevoegd aan de JSON-aanvraag '
+description: De id's die u verzendt, hebben niet altijd betrekking op alle treffers die door Analytics aan de geregistreerde persoon kunnen worden gekoppeld. Analytics kan een uitgebreide reeks id's maken om deze gekoppelde data op te nemen in de Data Privacy-aanvragen. U kunt deze optie aanvragen met een optionele parameter voor elke Data Privacy-aanvraag die u verzendt, toegevoegd aan de JSON-aanvraag
 title: Id-uitbreiding
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 97%
+source-wordcount: '1359'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Zie [Voorbeeld van JSON-aanvraag](/help/admin/c-data-governance/gdpr-submit-acce
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie-id-expansie </p> </td> 
-   <td colname="col2"> <p>Veel Analytics-klanten gebruikten oorspronkelijk het (verouderde) <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html">Analytics Cookie</a>, maar gebruiken nu de <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html">Identity Service (ECID)</a>, die vroeger Marketing Cloud ID Service (MCID) werd genoemd. Voor hun websitebezoekers die voor het eerst na de overgang op de website komen, bestaat alleen de ECID. Voor degenen die voor het eerst de site hebben bezocht toen alleen het verouderde cookie beschikbaar was, maar die de site sindsdien opnieuw hebben bezocht: sommige data hebben beide cookies, maar de oudere data hebben alleen het Analytics-cookie, en in zeldzame gevallen hebben de nieuwste data alleen een ECID. </p> <p>U wilt zeker weten dat u alle data voor een bezoeker vindt die via een Analytics-cookie (bezoekers-id) of ECID zijn geïdentificeerd. Daarom moet u, als u momenteel de ECID gebruikt en vroeger het Analytics-cookie gebruikte, steeds wanneer u een aanvraag verzendt met één van beide id-typen, beide id's in de aanvraag opnemen, of de optie voor expandIds specificeren. Wanneer u de optie voor expandIds specificeert, controleert Adobe op andere ECID's of Analytics-cookies die overeenkomen met cookie-id's die u opgeeft. De aanvraag wordt automatisch uitgebreid met deze zojuist geïdentificeerde cookie-id's. </p> </td> 
+   <td colname="col2"> <p>Veel Analytics-klanten gebruikten oorspronkelijk het (verouderde) <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html">Analytics Cookie</a>, maar gebruiken nu de <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html">Identity Service (ECID)</a>, die vroeger Marketing Cloud ID Service (MCID) werd genoemd. Voor hun websitebezoekers die voor het eerst na de overgang op de website komen, bestaat alleen de ECID. Voor degenen die voor het eerst de site hebben bezocht toen alleen het verouderde cookie beschikbaar was, maar die de site sindsdien opnieuw hebben bezocht: sommige data hebben beide cookies, maar de oudere data hebben alleen het Analytics-cookie, en in zeldzame gevallen hebben de nieuwste data alleen een ECID. </p> <p>U wilt ervoor zorgen dat u alle gegevens vindt voor een bezoeker die via een Analytics-cookie (Visitor ID) of ECID is geïdentificeerd. Daarom moet u, als u momenteel de ECID gebruikt en vroeger het Analytics-cookie gebruikte, steeds wanneer u een aanvraag verzendt met één van beide id-typen, beide id's in de aanvraag opnemen, of de optie voor expandIds specificeren. Wanneer u de optie voor expandIds specificeert, controleert Adobe op andere ECID's of Analytics-cookies die overeenkomen met cookie-id's die u opgeeft. De aanvraag wordt automatisch uitgebreid met deze zojuist geïdentificeerde cookie-id's. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aangepaste id voor cookie-id-expansie </p> </td> 

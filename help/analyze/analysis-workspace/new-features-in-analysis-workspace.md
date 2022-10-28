@@ -5,10 +5,10 @@ title: Nieuwe functies in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '8164'
-ht-degree: 88%
+source-wordcount: '8165'
+ht-degree: 87%
 
 ---
 
@@ -1051,7 +1051,7 @@ Nieuwe functies uitgebracht op 20 oktober 2016:
 Nieuwe functies uitgebracht op 16 juni 2016:
 
 * [Nieuwe groepsmachtigingen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) waarmee beheerders de toegang tot het **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**-tabblad kunnen toestaan of weigeren voor gebruikers. Vanaf 16 juni 2016 hebben alle gebruikers toegang tot dit tabblad. Als u iemand de toegang wilt ontzeggen, moet u de gebruiker verwijderen uit de Analysis Workspace-toegangsgroep.
-* Het [deelvenster Segmentvergelijking](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) toont de statistisch meest significante verschillen tussen twee segmenten door een geautomatiseerde analyse van elke individuele metric en dimensie waar u toegang tot hebt.
+* De [Deelvenster Segmentvergelijking](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)ontdekt de statistisch meest significante verschillen tussen om het even welke twee segmenten door een geautomatiseerde analyse van elke enige metrische en afmeting u tot toegang hebt.
 * [Met de nieuwe structuur van het projectmenu](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) kan dit hoogste menu eenvoudiger worden uitgebreid. Als u bijvoorbeeld een **nieuw cohortdeelvenster** maakt, hoeft u nu alleen maar een leeg deelvenster te maken en daarin een cohorttabelvisualisatie te plaatsen.
 * [Nieuwe linkerrail](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Deelvensters, visualisaties, componenten
 * Een nieuw [Venn-visualisatietype](/help/analyze/analysis-workspace/visualizations/venn.md) waarmee u tot 3 segmenten en een metric kunt slepen om een Venn-diagram te maken.

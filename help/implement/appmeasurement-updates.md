@@ -3,9 +3,9 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2315'
 ht-degree: 2%
 
 ---
@@ -275,7 +275,7 @@ Bijgewerkt: **4 augustus 2016**
 
 >[!IMPORTANT]
 >
->Versie 1.6.0 van het [!DNL Experience Cloud] ID-service *vereist* [!DNL AppMeasurement] for [!DNL JavaScript] versie 1.6.3 of hoger. Als u wilt bijwerken naar versie 1.6.0 van de Experience Cloud ID-service, moet u controleren of u [!DNL AppMeasurement] code versie 1.6.3 of hoger.
+>Versie 1.6.0 van het [!DNL Experience Cloud] ID-service *vereist* [!DNL AppMeasurement] for [!DNL JavaScript] versie 1.6.3 of hoger. Als u wilt bijwerken naar versie 1.6.0 van de service Experience Cloud-id, moet u AppMeasurement 1.6.3 of hoger gebruiken.
 
 ## Versie 1.6.2
 

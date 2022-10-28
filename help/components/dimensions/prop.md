@@ -3,9 +3,9 @@ title: Prop
 description: Een aangepaste dimensie die u kunt gebruiken in rapporten.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ AppMeasurement, waarmee JavaScript-variabelen worden gecompileerd in een afbeeld
 
 ## Dimension-items
 
-Aangezien de steunen douanetekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de afmetingspunten voor elke klem zijn. Zorg ervoor u het doel van elke steun en typische afmetingspunten in a registreert [document ontwerp oplossing](/help/implement/prepare/solution-design.md).
+Aangezien de steunen douanetekenreeksen in uw implementatie bevatten, bepaalt uw organisatie wat de afmetingspunten voor elke klem zijn. Zorg ervoor dat u het doel van elk hulpmiddel en typische afmetingspunten in een registreert [document ontwerp oplossing](/help/implement/prepare/solution-design.md).
 
 ## Hoofdlettergevoeligheid
 

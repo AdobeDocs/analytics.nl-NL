@@ -1,18 +1,18 @@
 ---
-title: eVar (Merchandising) voor Dimension
+title: eVar (Merchandising-dimensie)
 description: Aangepaste variabelen die zijn gekoppeld aan de productdimensie.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 2%
 
 ---
 
 # eVar (Merchandising)
 
-*Deze Help-pagina beschrijft hoe merchandising eVars werkt als een dimensie. Voor informatie over hoe te om koopwaar uit te voeren, zie [eVars](/help/implement/vars/page-vars/evar.md) in de gebruikershandleiding bij Implementatie.*
+*Deze Help-pagina beschrijft hoe merchandising eVars werkt als een dimensie. Voor informatie over hoe te om koopwaar uit te voeren, zie [eVar (variabele voor handelsdoeleinden)](/help/implement/vars/page-vars/evar-merchandising.md) in de gebruikershandleiding bij Implementatie.*
 
 Zie voor een gedetailleerde discussie over de werking van eVars op handelsgebied [Verkoop- en productzoekmethoden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en).
 

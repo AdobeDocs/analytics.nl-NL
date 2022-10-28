@@ -3,9 +3,9 @@ description: Met de importer kunt u classificatiegegevens bulksgewijs uploaden n
 title: Classificatiedatabestanden
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1735'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Een gegevensbestand moet aan de volgende structuurregels voldoen:
 * Geüploade bestanden moeten UTF-8 gebruiken zonder BOM-tekencodering.
 * Speciale tekens, zoals tabs, nieuwe regels en aanhalingstekens, kunnen in een cel worden ingesloten op voorwaarde dat de bestandsindeling v2.1 is opgegeven en de cel juist is [ontsnapt](/help/components/classifications/importer/t-classifications-escape-data.md). Speciale tekens zijn:
 
-   ```
+   ```text
    \t     tab character 
    \r     form feed character 
    \n    newline character 
@@ -155,7 +155,7 @@ Deze tekens hebben een speciale betekenis in een gegevensbestand. Gebruik deze w
 
 **Voorbeeld:** Als Campagne A $10.000 kost, [!UICONTROL Campaigns^~Cost] bevat een waarde van 10000 en de [!UICONTROL Campaigns^~Kosten~per] column contains [!UICONTROL FIXED]. Wanneer het tonen van de Kosten voor Campagne A in de rapporten, zult u $10.000 als vaste kosten voor Campagne A voor de datumwaaier zien.
 
-**Voorbeeld:** Als Campagne B die ongeveer $2 per klik kost, [!UICONTROL Campaigns^~Cost] bevat 2 en de **[!UICONTROL Campaigns^~Kosten~per]** column contains [!UICONTROL CLICK]. Wanneer het tonen van de Kosten voor Campagne B in de rapporten, berekent Adobe (2 * [aantal klikken]) ter plaatse voor het datumbereik van het rapport. Dit geeft u een totale kostenberekening die op het aantal kliks wordt gebaseerd met Campagne B wordt uitgevoerd.
+**Voorbeeld:** Als Campagne B die ongeveer $2 per klik kost, [!UICONTROL Campaigns^~Cost] bevat 2 en de **[!UICONTROL Campaigns^~Kosten~per]** column contains [!UICONTROL CLICK]. Wanneer het tonen van de Kosten voor Campagne B in de rapporten, berekent Adobe (2) &#42; [aantal klikken]) ter plaatse voor het datumbereik van het rapport. Dit geeft u een totale kostenberekening die op het aantal kliks wordt gebaseerd met Campagne B wordt uitgevoerd.
 
 ### Datum
 

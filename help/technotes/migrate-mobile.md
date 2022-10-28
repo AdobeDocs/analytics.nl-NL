@@ -3,9 +3,9 @@ description: Meer informatie over het migreren van verwerkingsregels voor mobiel
 title: De verwerkingsregels voor mobiele services migreren naar Adobe Analytics
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Nochtans, als u om het even welke extra verwerkingsregels in Mobiele Diensten UI
 
    ![Contextvariabele](assets/context-var.png)
 
-1. Schakel in Experience Cloud over naar Adobe Analytics en zorg ervoor dat u zich in dezelfde mobiele rapportsuite bevindt die u in Mobile Services hebt bekeken.
+1. Schakel in Experience Cloud over naar Adobe Analytics en zorg ervoor dat u zich in dezelfde mobiele rapportsuite bevindt als u in Mobile Services hebt bekeken.
 1. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]**.
 1. Klik op **[!UICONTROL Add Rule]**.
 1. Negeer de voorwaarden en ga verder om dezelfde contextvariabele(s) toe te voegen die/s in Mobiele diensten bestaan.
@@ -59,7 +59,7 @@ Hier volgt een fragment van de Mobile App Usage-sjabloon:
 De sjablonen openen:
 
 1. Aanmelden bij `experience.adobe.com` en selecteert u Analytics.
-1. Zorg ervoor u in een rapportreeks bent die voor de Mobiele Diensten wordt toegelaten.
+1. Zorg ervoor dat u zich in een rapportsuite bevindt die is ingeschakeld voor Mobiele services.
 1. Klik op de knop **[!UICONTROL Workspace]** tab.
 1. Klik op **[!UICONTROL Create New Project]**.
 1. Selecteer een van de mobiele sjablonen en klik op **[!UICONTROL Create]**.
