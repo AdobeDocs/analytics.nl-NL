@@ -3,10 +3,10 @@ title: Een datalaag maken
 description: Leer wat een gegevenslaag in uw implementatie Analytics is, en hoe het kan worden gebruikt om variabelen in Adobe Analytics in kaart te brengen.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
+source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +27,7 @@ Bij het implementeren van Adobe Analytics met een gegevenslaag worden doorgaans 
    >[!NOTE]
    >
    >De volgende Adobe aanbevolen gegevenslaagspecificaties is optioneel. Als u reeds een gegevenslaag hebt, of anders verkiest om Adobe geen specificaties te volgen, zorg ervoor dat uw organisatie zich op welke specificatie richt te volgen.
+
 1. **Valideer uw gegevenslaag met een browserconsole**: Zodra een gegevenslaag wordt gecreeerd, kunt u bevestigen dat het gebruikend om het even welke browser ontwikkelaarsconsole werkt. U kunt de ontwikkelaarsconsole in de meeste browsers openen gebruikend `F12` toets. Een waarde van een voorbeeldvariabele zou `adobeDataLayer.page.title`.
 1. **Adobe Experience Platform-gegevensverzameling gebruiken om gegevenslaagobjecten toe te wijzen aan gegevenselementen**: Deze stap is afhankelijk van de implementatiemethode van uw organisatie:
    * **Als het gebruiken van SDK van het Web**: Wijs de gewenste gegevenslaagobjecten toe aan de gewenste XDM-velden in Adobe Experience Platform Edge. Zie [Variabeletoewijzing Analyse](../aep-edge/variable-mapping.md) om de gewenste afbeelding van de gegevenslaag te bepalen.
