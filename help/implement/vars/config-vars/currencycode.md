@@ -3,28 +3,31 @@ title: Wat is de currencyCode-variabele en hoe gebruik ik deze?
 description: Voor eCommerce-sites stelt de valuta in waarin de pagina handelt.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
 
 # currencyCode
 
-Voor plaatsen die handel gebruiken, is de opbrengst en de munt een belangrijk deel van Analytics. Veel sites, vooral sites die meerdere landen beslaan, gebruiken verschillende valuta&#39;s. Gebruik de `currencyCode` variabele om ervoor te zorgen dat de opbrengstattributen aan de correcte munt.
+Voor plaatsen die handel gebruiken, is de opbrengst en de munt een belangrijk deel van Analytics. Veel sites, vooral sites die meerdere landen beslaan, gebruiken verschillende valuta&#39;s. Gebruik de `currencyCode` variabele om ervoor te zorgen dat de opbrengst aan de correcte munt toeschrijft.
 
-Indien `currencyCode` niet gedefinieerd is, monetaire waarden gedefinieerd als [`products`](../page-vars/products.md) variabele - en valutagebeurtenissen worden behandeld alsof ze dezelfde zijn als de valuta van de rapportsuite . Zie [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md) in de handleiding voor Admin-gebruikers om de valuta van de rapportsuite te bekijken.
+Bij valutaomrekening wordt bij elke druk de volgende logica gebruikt. Deze stappen zijn van toepassing op inkomstenwaarden die worden ingesteld voor de [`products`](../page-vars/products.md) variabele en alle gebeurtenissen vermeld als &#39;Valuta&#39; in [Gebeurtenissen met succes](/help/admin/admin/c-success-events/success-event.md) onder Instellingen van rapportsuite.
 
-Indien `currencyCode` is gedefinieerd en overeenkomt met de valuta van de rapportsuite. Er wordt geen valutaomrekening toegepast.
+* Indien `currencyCode` is niet gedefinieerd, gaat Adobe ervan uit dat alle valutawaarden de valuta van de rapportsuite zijn. Zie [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md) in de montages van de Reeks van het Rapport om de munt van de rapportreeks te zien.
+* Indien `currencyCode` is gedefinieerd en overeenkomt met de valuta van de rapportsuite. Er wordt geen valutaomrekening toegepast.
+* Indien `currencyCode` is gedefinieerd en verschilt van de valuta van de rapportsuite, past Adobe een valutaomrekening toe op basis van de wisselkoers van de huidige dag. Adobe partners met [XE](https://xe.com) om de valuta elke dag om te zetten. Alle waarden die in de rapportsuite zijn opgeslagen, bevinden zich in de valuta van de rapportsuite.
+* Indien `currencyCode` is ingesteld op een ongeldige waarde, **de hele hit wordt verwijderd, waardoor gegevens verloren gaan.** Controleer of deze variabele correct is gedefinieerd wanneer deze wordt gebruikt.
 
-Indien `currencyCode` is gedefinieerd en verschilt van de valuta van de rapportsuite, past Adobe een valutaomrekening toe op basis van de wisselkoers van de huidige dag. Adobe partners met [XE](https://xe.com) om de valuta elke dag om te zetten. Alle waarden die in gegevensverzamelingsservers worden opgeslagen, worden uiteindelijk opgeslagen in de valuta van de rapportsuite.
+Deze variabele blijft niet behouden in verschillende treffers. Zorg ervoor dat deze variabele op elke pagina wordt bepaald die opbrengst of muntgebeurtenissen impliceert die niet de standaardmunt van de rapportreeks aanpassen.
 
->[!WARNING]
+>[!NOTE]
 >
->Indien `currencyCode` bevat een ongeldige waarde. De hele hit wordt genegeerd, waardoor gegevens verloren gaan. Zorg ervoor dat deze variabele correct is gedefinieerd als u deze in uw implementatie gebruikt.
+>Valutacodes kunnen tussen pagina&#39;s veranderen, maar voor alle valutacijfers bij één enkele hit moet dezelfde valuta worden gebruikt.
 
-Deze variabele blijft niet bestaan tussen treffers. Zorg ervoor dat deze variabele op elke pagina wordt bepaald die opbrengst of muntgebeurtenissen impliceert.
+Een periode **moet** worden gebruikt als valutascheidingsteken voor alle valuta&#39;s bij de implementatie van deze variabele. Zweedse Krona, die doorgaans een komma-scheidingsteken weergeeft, moet bijvoorbeeld worden gewijzigd om een punt te gebruiken in het dialoogvenster `products` variabele en alle valutamarkt. Adobe geeft het juiste valutascheidingsteken weer in de rapportage.
 
 ## Valutacode die de Web SDK gebruikt
 
@@ -53,7 +56,7 @@ U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. 
 
 ## s.currencyCode in AppMeasurement en de aangepaste code-editor voor de extensie Analytics
 
-De `s.currencyCode` variable is a string, containing a 3 letter uppercase code representing the currency on the page.
+De `s.currencyCode` variable is a string, containing a 3 letter uppercase code representing the currency on the page. Waarden zijn hoofdlettergevoelig.
 
 ```js
 s.currencyCode = "USD";
@@ -61,7 +64,7 @@ s.currencyCode = "USD";
 
 De volgende valutacodes zijn geldig:
 
-| Valutacode | Valuta |
+| Valutacode | Label |
 | --- | --- |
 | `AED` | Verenigde Arabische Emiraten Dirhams |
 | `AFA` | Afghanistan Afghanistan |
@@ -215,7 +218,7 @@ De volgende valutacodes zijn geldig:
 | `TWD` | Taiwan Nieuwe dollars |
 | `TZS` | Tanzania Shillings |
 | `UAH` | Oekraïne Hryvnia |
-| `UGX` | Oegandese shillingen |
+| `UGX` | Oegandese sjilling |
 | `USD` | Amerikaanse dollar |
 | `UYU` | Uruguay Pesos |
 | `UZS` | Oezbekistan |
