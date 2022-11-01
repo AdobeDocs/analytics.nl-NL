@@ -3,9 +3,9 @@ description: Leer over hoe te om de Manager van de Activiteit van de Rapporterin
 title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
+source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '855'
 ht-degree: 2%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 2%
 >
 >Deze functionaliteit wordt momenteel getest in bèta.
 
-De manager van de Activiteit van de Rapportering laat u de rapporteringscapaciteit voor elke rapportreeks in uw organisatie zien. Het biedt u als beheerder gedetailleerde zichtbaarheid bij het melden van het verbruik en helpt u om problemen met de capaciteit tijdens piekrapporteringstijden eenvoudig te diagnosticeren en op te lossen.
+De [!UICONTROL Reporting Activity Manager] laat u de rapporteringscapaciteit voor elke rapportreeks in uw organisatie zien. Het biedt u als beheerder gedetailleerde zichtbaarheid bij het melden van het verbruik en helpt u om problemen met de capaciteit tijdens piekrapporteringstijden eenvoudig te diagnosticeren en op te lossen.
 
 Wanneer uw organisatie het melden van verzoekcapaciteit bereikt en een degradatie in het melden van prestaties ervaart, hebt u nu een manier om het melden van problemen zonder tussenkomst van de klantenzorg of de techniek van Adobe zelf te diagnostiseren. U kunt rapportrijen gemakkelijk beheren binnen één enkele interface en onmiddellijk handelen &#x200B; &#x200B; om uw gebruikerservaring te verbeteren. Dit gereedschap:
 
 * Vertel u, in echt - tijd, over uw huidige rapporteringscapaciteit over uw rapportseries.
-* Verstrekt gedetailleerde informatie van de rapportvraag over huidige rapporteringsverzoeken, of een rij gevormd en lopend.
+* Verstrekt gedetailleerde informatie van de rapportvraag over huidige rapporteringsverzoeken, of een rij gevormd of lopend.
 * Hiermee kunt u de rapportwachtrij optimaliseren door een aantal prioriteiten toe te wijzen en andere rapportageaanvragen te annuleren om capaciteit vrij te maken. Met andere woorden, u kunt in real time vragen: Is dit verslag op dit moment noodzakelijk of kan ik het intrekken ten gunste van urgente verslagen?
 
 ## Toegang tot de rapportageactiviteitsmanager
@@ -35,7 +35,7 @@ U hebt beheerdersmachtigingen voor Analytics System Admin nodig om de rapportact
 
 ## De wachtrij met rapporten weergeven
 
-Wanneer het openen van de overzichtspagina van de Manager van de Activiteit van de Rapportering, ziet u een lijst van uw toegelaten reeksen van het basisrapport.
+Wanneer u het dialoogvenster [!UICONTROL Reporting Activity] De overzichtspagina van de manager, ziet u een lijst van uw toegelaten reeksen van het basisrapport.
 
 ![rapportwachtrij](assets/reporting-activity1.png)
 
@@ -104,7 +104,7 @@ De gedetailleerde tabel hieronder bevat details over de rapportsuite.
 | [!UICONTROL Running Time] | Hoe lang de query is uitgevoerd. |
 | [!UICONTROL Wait Time] | Hoe lang de vraag alvorens wordt verwerkt heeft gewacht. In het algemeen bij &quot;0&quot; wanneer er voldoende capaciteit is. |
 | [!UICONTROL Start Time] | Wanneer de query is gestart met de verwerking (lokale beheertijd). |
-| [!UICONTROL Application] | De toepassingen die door de Manager van de Activiteit van de Rapportering worden gesteund zijn: <ul><li>Analysis Workspace-gebruikersinterface</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende cijfers, Annotaties, Soorten publiek, enz.</li><li>API-aanroepen van 1.4 of 2.0 API</li><li>Intelligente waarschuwingen</li></ul> |
+| [!UICONTROL Application] | De toepassingen die worden ondersteund door de [!UICONTROL Reporting Activity Manager] zijn: <ul><li>Analysis Workspace-gebruikersinterface</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende cijfers, Annotaties, Soorten publiek, enz.</li><li>API-aanroepen van 1.4 of 2.0 API</li><li>Intelligente waarschuwingen</li></ul> |
 | [!UICONTROL User] | De gebruiker die de query heeft gestart. |
 | [!UICONTROL Project] | Opgeslagen projectnamen voor Workspace, API-rapport-id&#39;s, enz. (Metagegevens kunnen per toepassing verschillen.) |
 | [!UICONTROL Month Boundaries] | Hoeveel maandelijkse grenzen een verzoek overschrijdt. Dit vergroot de complexiteit van het verzoek. |
