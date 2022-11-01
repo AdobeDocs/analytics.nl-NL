@@ -3,9 +3,9 @@ description: Leer over hoe te om de Manager van de Activiteit van de Rapporterin
 title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
+source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '863'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ Wanneer het openen van de overzichtspagina van de Manager van de Activiteit van 
 | **[!UICONTROL Report Suite]** | De set met basisrapporten waarvan u de rapportactiviteiten controleert. |
 | **[!UICONTROL Virtual Report Suite]** | Toont alle virtuele rapportsuites die in deze reeks van het basisrapport van toepassing zijn. De virtuele rapportsuites voegen ingewikkeldheid aan rapporteringsverzoeken toe toe toe te schrijven aan extra niveaus van toegepaste filtratie en segmentatie. Alle verzoeken die uit de virtuele rapportreeksen komen worden gecombineerd en neer aan de reeks van het basisrapport.<p>Bijvoorbeeld, als u 10 verzoeken hebt die uit 5 VRSs komen, is dat 50 verzoeken bij de het rapportreeks van het basisniveau. Op deze manier kun je snel de capaciteit raken. |
 | **[!UICONTROL Usage Capacity]** | Percentage wijs, hoeveel van de rapporteringscapaciteit van de rapportreeks wordt gebruikt, in echt - tijd. |
-| **[!UICONTROL Status]** | Vier mogelijke statusindicatoren: <ul><li>**Rood -[!UICONTROL At Capacity]**: De rapportenreeks is samengesteld in termen van rapporteringscapaciteit. (95% - 100%) </li><li>**Geel -[!UICONTROL Nearing capacity]**: Dit pakket verslagen dreigt zijn maximumcapaciteit te bereiken. (90-94%)</li><li>**Groen -[!UICONTROL All good]**: Er is genoeg rapportagecapaciteit. (0% - 90%)</li><li>**Grijs -[!UICONTROL Status pending]**: ?</li></ul> |
+| **[!UICONTROL Status]** | Vier mogelijke statusindicatoren: <ul><li>**Rood -[!UICONTROL At Capacity]**: De rapportenreeks is samengesteld in termen van rapporteringscapaciteit. (100%) </li><li>**Geel -[!UICONTROL Nearing capacity]**: Dit pakket verslagen dreigt zijn maximumcapaciteit te bereiken. (90-99%)</li><li>**Groen -[!UICONTROL All good]**: Er is genoeg rapportagecapaciteit. (0% - 89%)</li><li>**Grijs -[!UICONTROL Status pending/Not enabled]**: Rapportcapaciteit niet beschikbaar.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -86,11 +86,11 @@ De overzichtsaantallen tonen de volgende informatie:
 
 | Samenvattingsnummer | Beschrijving |
 | --- | --- |
-| Gebruikers | Hoeveel gebruikers verzenden momenteel rapporteringsverzoeken naar deze rapportsuite. |
-| Projecten | Werkruimteprojecten, Report Builder-werkboeken, enz. |
-| Zoekopdrachten | Het aantal query&#39;s dat momenteel wordt uitgevoerd. |
-| Gemiddelde wachttijd | De gemiddelde wachttijd voor alle lopende vragen. |
-| Gebruikscapaciteit | De huidige gebruikscapaciteit voor deze rapportsuite. |
+| [!UICONTROL Users] | Hoeveel gebruikers verzenden momenteel rapporteringsverzoeken naar deze rapportsuite. |
+| [!UICONTROL Projects] | Werkruimteprojecten, Report Builder-werkboeken, enz. |
+| [!UICONTROL Queries] | Het aantal query&#39;s dat momenteel wordt uitgevoerd. |
+| [!UICONTROL Average Wait Time] | De gemiddelde wachttijd voor alle lopende vragen. |
+| [!UICONTROL Usage Capacity] | De huidige gebruikscapaciteit voor deze rapportsuite. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -100,17 +100,17 @@ De gedetailleerde tabel hieronder bevat details over de rapportsuite.
 
 | Kolom | Beschrijving |
 | --- | --- |
-| Query-id | Kan voor het oplossen van problemendoeleinden worden gebruikt. |
-| Runtime | Hoe lang de query is uitgevoerd. |
-| Wacht op tijd | Hoe lang de vraag alvorens wordt verwerkt heeft gewacht. In het algemeen bij &quot;0&quot; wanneer er voldoende capaciteit is. |
-| Begintijd | Wanneer de query is gestart met de verwerking (lokale beheertijd). |
-| Toepassing | De toepassingen die door de Manager van de Activiteit van de Rapportering worden gesteund zijn: <ul><li>Analysis Workspace-gebruikersinterface</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende cijfers, Annotaties, Soorten publiek, enz.</li><li>API-aanroepen vanuit 1.4 of 2.0 API (5 gelijktijdige aanvragen)</li><li>Intelligente waarschuwingen</li></ul> |
-| Gebruiker | De gebruiker die de query heeft gestart. |
-| Project | Werkruimteprojecten, Report Builder-werkboeken, enz. |
-| Maandgrenzen | Hoeveel maandelijkse grenzen een verzoek overschrijdt. Dit vergroot de complexiteit van het verzoek. |
-| Kolommen | Het aantal metriek en onderverdelingen in Werkruimte om de ingewikkeldheid van het verzoek te meten. |
-| Segmenten | Hoeveel segmenten worden toegepast op dit verzoek. Dit vergroot de complexiteit van het verzoek. |
-| Status | Vier mogelijke statusindicatoren: <ul><li>**Rood -[!UICONTROL At Capacity]**: De rapportenreeks is samengesteld in termen van rapporteringscapaciteit. (95% of meer)</li><li>**Geel -[!UICONTROL Nearing capacity]**: Dit pakket verslagen dreigt zijn maximumcapaciteit te bereiken (90-95%).</li><li>**Groen -[!UICONTROL All good]**: Er is genoeg rapportagecapaciteit.</li><li>**[!UICONTROL Status pending]**: Status niet beschikbaar.</li></ul> |
+| [!UICONTROL Query ID] | Kan voor het oplossen van problemendoeleinden worden gebruikt. |
+| [!UICONTROL Running Time] | Hoe lang de query is uitgevoerd. |
+| [!UICONTROL Wait Time] | Hoe lang de vraag alvorens wordt verwerkt heeft gewacht. In het algemeen bij &quot;0&quot; wanneer er voldoende capaciteit is. |
+| [!UICONTROL Start Time] | Wanneer de query is gestart met de verwerking (lokale beheertijd). |
+| [!UICONTROL Application] | De toepassingen die door de Manager van de Activiteit van de Rapportering worden gesteund zijn: <ul><li>Analysis Workspace-gebruikersinterface</li><li>Werkruimte geplande projecten</li><li>Report Builder</li><li>Builder-gebruikersinterface: Segment, Berekende cijfers, Annotaties, Soorten publiek, enz.</li><li>API-aanroepen van 1.4 of 2.0 API</li><li>Intelligente waarschuwingen</li></ul> |
+| [!UICONTROL User] | De gebruiker die de query heeft gestart. |
+| [!UICONTROL Project] | Opgeslagen projectnamen voor Workspace, API-rapport-id&#39;s, enz. (Metagegevens kunnen per toepassing verschillen.) |
+| [!UICONTROL Month Boundaries] | Hoeveel maandelijkse grenzen een verzoek overschrijdt. Dit vergroot de complexiteit van het verzoek. |
+| [!UICONTROL Columns] | Het aantal metriek en onderverdelingen in Werkruimte om de ingewikkeldheid van het verzoek te meten. |
+| [!UICONTROL Segments] | Hoeveel segmenten worden toegepast op dit verzoek. Dit vergroot de complexiteit van het verzoek. |
+| [!UICONTROL Status] | Statusindicatoren: <ul><li>**Wordt uitgevoerd**: Aanvraag wordt momenteel verwerkt.</li><li>**In behandeling**: De aanvraag is in afwachting van verwerking.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -134,6 +134,5 @@ De gebruikers van de toepassing in Werkruimte, bijvoorbeeld, zullen de volgende 
 | Vraag | Antwoord |
 | --- | --- |
 | Kan ik extra rapporteringscapaciteit kopen? | Deze mogelijkheid zal in de nabije toekomst beschikbaar zijn. |
-| Andere vragen? |  |
 
 {style=&quot;table-layout:auto&quot;}
