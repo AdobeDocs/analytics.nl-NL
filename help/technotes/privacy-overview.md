@@ -4,10 +4,10 @@ keywords: privacy
 title: Privacyoverzicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 97%
+source-wordcount: '791'
+ht-degree: 92%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Analytics verzamelt de volgende data:
 | Besturingssysteem | Ja |
 | ISP/Verbindingssnelheid | Ja |
 | Weergave-instellingen (zoals schermgrootte en resolutie) | Ja |
-| IP-adres (wordt gebruikt om de locatie bij benadering vast te stellen) | Ja* |
+| IP-adres (wordt gebruikt om de locatie bij benadering vast te stellen) | Ja&#42; |
 | Informatie die consumenten verstrekken op formulieren op de website van de klant | Ja |
 | Informatie die consumenten verstrekken op formulieren op sociale sites | **Nee** |
 | Of de consument op de advertentie heeft geklikt | Ja |
@@ -49,7 +49,7 @@ Adobe Analytics verzamelt de volgende data:
 | Succespercentages van advertentiecampagnes | Ja |
 | Productinformatie zoals kleuren, prijzen, stijlen, foto&#39;s | Ja |
 
-*Tenzij de Adobe-klant ervoor kiest om het IP-adres te verwijderen.
+&#42;Tenzij de Adobe-klant ervoor kiest om het IP-adres te verwijderen.
 
 ## Andere privacyoverwegingen {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
@@ -103,7 +103,7 @@ Adobe Analytics verzamelt de volgende data:
   </tr> 
   <tr> 
    <td colname="col1"> Duitsland </td> 
-   <td colname="col2"> <p>Als klanten nog geen overeenkomst met Adobe hebben voor dataverwerking voor Adobe Analytics, moeten ze contact opnemen met hun Adobe-accountmanager of Customer Success Manager, die samen met de juridische afdeling van Adobe de DPA kan regelen. </p> <p>Adobe heeft een dataverwerkingsovereenkomst (Vertrag fuer Auftragsdatenverarbeitung - ADV) voor Analytics opgesteld, die door de Beierse Autoriteit voor databescherming (Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA) is gecontroleerd en goedgekeurd. De ADV is beschikbaar in het Duits en het Engels. </p> </td> 
+   <td colname="col2"> <p>Als u nog geen gegevensverwerkingsovereenkomst voor Adobe Analytics hebt met Adobe, neemt u contact op met uw Adobe-accountmanager of Customer Success Manager. Deze zal samenwerken met de juridische afdeling van de Adobe om de gegevensopslagruimte op zijn plaats te krijgen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

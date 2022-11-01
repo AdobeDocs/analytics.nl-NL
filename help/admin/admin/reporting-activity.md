@@ -3,9 +3,9 @@ description: Leer over hoe te om de Manager van de Activiteit van de Rapporterin
 title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '861'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ In Adobe Analytics gaan beheerders naar **[!UICONTROL Admin]** > **[!UICONTROL R
 
 ## Toestemmingen
 
-U hebt beheerdersmachtigingen voor Analytics System Admin nodig om de rapportactiviteiten te beheren. Toegang tot productbeheer is onvoldoende.
+U hebt beheermachtigingen voor Analytics Product Admin nodig voor het beheer van rapportageactiviteiten.
 
 ## De wachtrij met rapporten weergeven
 
@@ -118,7 +118,7 @@ De gedetailleerde tabel hieronder bevat details over de rapportsuite.
 
 Een aanvraag annuleren
 
-1. Vink het vakje links van een of meer aan **[!UICONTROL Query ID]** in de tabel en klik op **[!UICONTROL Cancel requests]** onderaan.
+1. Vink het vakje links van een of meer aan **[!UICONTROL Query ID]** in de tabel en klik op **[!UICONTROL Cancel requests]** onderaan. (U kunt aanvragen ook bulksgewijs annuleren door de details te bekijken door [!UICONTROL User], [!UICONTROL Project], of [!UICONTROL Application].)
 1. In de **[!UICONTROL Cancel x query]** venster dat wordt weergegeven, kunt u het annuleringsbericht indien nodig wijzigen.
 1. Klik op **[!UICONTROL Continue]**.
 
@@ -127,7 +127,6 @@ Een aanvraag annuleren
 De gebruikers van de toepassing in Werkruimte, bijvoorbeeld, zullen de volgende verklaring in hun projecten zien verschijnen:
 
 ![cancel-user-notice](assets/cancel-user-facing.png)
-
 
 ## Veelgestelde vragen
 
