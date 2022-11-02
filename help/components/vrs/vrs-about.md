@@ -3,9 +3,9 @@ description: De virtuele rapportreeksen segmenteren uw gegevens van Adobe Analyt
 title: Overzicht van virtuele rapportsuites
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Virtuele rapportsuites hebben de volgende beperkingen:
 | Capaciteit | Virtuele rapportsuite | Tags voor meerdere suite |
 |--- |--- |--- |
 | Biedt real-time of &quot;Current Data&quot;-rapportage | Nee | Ja |
-| Werkt in alle analysegereedschappen (Analysis Workspace, Report Builder, enz.) | Ja. **Opmerking:** U kunt deze alleen in Rapporten en Analyse bewerken en identificeren als virtuele-rapportsuite. Nochtans, kunt u hen in de drop-down van de rapportreeks in de andere hulpmiddelen selecteren. | Ja |
+| Werkt in alle analysegereedschappen (Analysis Workspace, Report Builder, enz.) | Ja. **Opmerking:** U kunt deze alleen bewerken en identificeren als virtuele-rapportsuites in [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Virtual Report Suites]. Nochtans, kunt u hen in de drop-down van de rapportreeks in de andere hulpmiddelen selecteren.<p>**Belangrijk**: Virtuele rapportsuites met de verwerking van de rapporttijd en veranderlijke aanpassing worden momenteel niet gesteund in Adobe Report Builder. | Ja |
 | Kan gegevens uploaden (via classificaties, gegevensfeeds, enz.) | Nee | Ja |
 | Ondersteunt het maken van DL-rapporten, bladwijzers, dashboards, doelen, waarschuwingen, segmenten, berekende metriek... | Ja | Ja |
 | Kan afzonderlijk worden toegevoegd aan machtigingengroepen | Ja | Ja |
