@@ -3,9 +3,9 @@ description: De virtuele rapportreeksen segmenteren uw gegevens van Adobe Analyt
 title: Overzicht van virtuele rapportsuites
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
+source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '802'
 ht-degree: 2%
 
 ---
@@ -59,6 +59,8 @@ Virtuele rapportsuites hebben de volgende beperkingen:
 | Ondersteunt het maken van DL-rapporten, bladwijzers, dashboards, doelen, waarschuwingen, segmenten, berekende metriek... | Ja | Ja |
 | Kan afzonderlijk worden toegevoegd aan machtigingengroepen | Ja | Ja |
 | Kan Admin-functies gebruiken om de afzonderlijke instellingen in dit rapportpakket te wijzigen (Admin > Rapportagesuites) | Nee (instellingen worden overgenomen van bovenliggend item) | Ja |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Virtuele rapportsets combineren en tags toepassen met meerdere suite {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
