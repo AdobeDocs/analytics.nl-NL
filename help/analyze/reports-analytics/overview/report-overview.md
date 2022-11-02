@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
@@ -27,13 +27,13 @@ In dit voorbeeld wordt een [!UICONTROL Pages Report]. De configuratieopties kunn
 
 Een voorbeeld van een Pagina-rapport ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
 
-![](assets/pages_report.png){width=&quot;672px&quot;}
+![](assets/pages_report.png){width="672px"}
 
 ## Werkbalk Rapport {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Deel uw rapportgegevens met de besluitvormers die uw plaats of marketing strategieën kunnen veranderen die op de gegevens worden gebaseerd.
 
-![](assets/toolbar.png){width=&quot;672px&quot;}
+![](assets/toolbar.png){width="672px"}
 
 Zie ook [Een rapport aanpassen](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
@@ -41,7 +41,7 @@ Zie ook [Een rapport aanpassen](/help/analyze/reports-analytics/reports-customiz
 
 Toont rapportmontages en laat u het rapporttype, uitgezochte metriek, en meer vormen. Welke opties beschikbaar zijn in deze groep, is afhankelijk van het rapport dat u uitvoert.
 
-![](assets/settings_header.png){width=&quot;672px&quot;}
+![](assets/settings_header.png){width="672px"}
 
 Zie [Een rapport aanpassen](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) voor meer informatie .
 
@@ -49,7 +49,7 @@ Zie [Een rapport aanpassen](/help/analyze/reports-analytics/reports-customize/cu
 
 Geef de datum op door op de kalenderknop te klikken en een datumbereik te selecteren. U kunt ook twee tijdbereiken selecteren om de prestaties te vergelijken.
 
-![](assets/calendar_large.png){width=&quot;672px&quot;}
+![](assets/calendar_large.png){width="672px"}
 
 Zie [Een datum- of datumbereik selecteren](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) en [Vergelijkingsdatums](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 

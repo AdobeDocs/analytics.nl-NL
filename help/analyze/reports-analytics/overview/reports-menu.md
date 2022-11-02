@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Mijn Favorieten, Vaak bekeken, en de Geschiedenis van het Rapport zijn allen rap
 
 In rapporten wordt via een hiërarchische kolomweergave genavigeerd. Klikken **[!UICONTROL View All Reports]** of drukt u op de toets Volgende schuine streep (/) en vervolgens op Pijl-omlaag (?) om het menu snel weer te geven en te navigeren met de pijltoetsen. Druk op de toets Escape om het menu te sluiten zonder het huidige rapport te wijzigen of druk op Enter om het geselecteerde rapport te laden.
 
-![](assets/reports-landing.png){width=&quot;672px&quot;}
+![](assets/reports-landing.png){width="672px"}
 
 Zie voor meer informatie over afzonderlijke rapporten [Dimension](/help/components/dimensions/overview.md).
 
