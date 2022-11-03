@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 10a325b5479b6852fc98ed780f59ee525ec6f51b
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '671'
 ht-degree: 86%
 
 ---
@@ -172,7 +172,6 @@ ht-degree: 86%
    + [Voorbeeld van labeling](c-data-governance/gdpr-labeling-example.md)
    + [Data Privacy en Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Data Privacy-terminologie](c-data-governance/gdpr-terminology.md)
-   + [Variabelen voor privacyrapportage](c-data-governance/consent-variables.md)
 + Gebruik van server calls {#server-call-usage}
    + [Overzicht van het gebruik van server calls](c-server-call-usage/overage-overview.md)
    + [Huidig gebruik van server calls weergeven](c-server-call-usage/server-call-usage-dashboard.md)

@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 5c178ebb86ffc932ecd90f427bd0a5e90fada1cb
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
 workflow-type: tm+mt
-source-wordcount: '3526'
+source-wordcount: '3599'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`cust_hit_time_gmt`** | Alleen voor tijdstempels geschikte rapportsuites. De tijdstempel die met de hit wordt verzonden, uitgedrukt in Unix-tijd. | int |
 | **`cust_visid`** | Als een aangepaste bezoeker-id is ingesteld, wordt deze in deze kolom ingevuld. | varchar(255) |
 | **`daily_visitor`** | Markering om te bepalen of de treffer een nieuwe dagelijkse bezoeker is. | tinyint zonder teken |
+| **`dataprivacyconsentoptin`** | Variabele gebruikt in de [Optie voor beheer van toestemming](/help/components/dimensions/cm-opt-in.md) dimensie. Er kunnen meerdere waarden aanwezig zijn per hit, gescheiden door een pipe (`|`). Geldige waarden zijn `DMP` en `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | Variabele gebruikt in de [Optie voor beheer van toestemming](/help/components/dimensions/cm-opt-out.md) dimensie. Er kunnen meerdere waarden aanwezig zijn per hit, gescheiden door een pipe (`|`). Geldige waarden zijn `SSF`, `DMP`, en `SELL`. | varchar(100) |
 | **`date_time`** | De tijd van de treffer in leesbare formaat, die op de tijdzone van de rapportreeks wordt gebaseerd. | datetime |
 | **`domain`** | Variabele gebruikt in de [Domein](/help/components/dimensions/domain.md) dimensie. Gebaseerd op het internettoegangspunt van de bezoeker. | varchar(100) |
 | **`duplicate_events`** | Vermeldt elke gebeurtenis die als een duplicaat is geteld. | varchar(255) |
@@ -201,9 +203,12 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`socialownedpropertypropertyvsapp`** | Niet meer gebruikt. Eigendom van sociale media versus app | varchar(255) |
 | **`state`** | Staatvariabele. | varchar(50) |
 | **`stats_server`** | Niet gebruiken. Adobe interne server die de hit heeft verwerkt. | teken(30) |
+| **`survey`** | Niet meer gebruikt. Adobe Survey-variabele. | text |
+| **`survey_instances`** | Niet meer gebruikt. Variabele voor Adobe Survey-instanties. | text |
 | **`t_time_info`** | Lokale tijd voor de bezoeker. Indeling is: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Wordt gebruikt in Adobe Target-integratie. Vertegenwoordigt alle tests momenteel gekwalificeerd voor. Indeling is: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
 | **`tnt_action`** | Wordt gebruikt in Adobe Target-integratie. Geeft alle tests aan waarvoor de hit geschikt is. | text |
+| **`tnt_instances`** | Wordt gebruikt in Adobe Target-integratie. Variabele voor doelinstanties. | text |
 | **`tnt_post_vista`** | Niet meer gebruikt. Gebruiken `post_tnt` in plaats daarvan. | text |
 | **`transactionid`** | Een unieke id waarbij verschillende gegevenspunten later via gegevensbronnen kunnen worden geüpload. Verzameld met de [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variabele. | text |
 | **`truncated_hit`** | Een markering die aangeeft dat de afbeeldingsaanvraag is afgebroken. Geeft aan dat een gedeeltelijke hit is ontvangen. <br>Y: Hit was afgekapt; gedeeltelijke treffer ontvangen <br>N: Hit is niet afgekapt; volledige hit ontvangen | teken(1) |
@@ -268,7 +273,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`visid_low`** | Wordt gebruikt in combinatie met `visid_high` om een bezoeker op unieke wijze te identificeren. | bigint zonder teken |
 | **`visid_new`** | Markering om te bepalen of de treffer een onlangs gegenereerde bezoeker-id bevat. | teken(1) |
 | **`visid_timestamp`** | Als de bezoeker-id pas is gegenereerd, geeft u het tijdstempel (in Unix-tijd) op van het tijdstip waarop de bezoeker-id is gegenereerd. | int |
-| **`visid_type`** | Niet voor extern gebruik; intern gebruikt door Adobe voor verwerkingsoptimalisaties. Numerieke id die de methode vertegenwoordigt die wordt gebruikt om de bezoeker te identificeren.<br>0: Aangepaste bezoeker-id of onbekend/niet van toepassing<br>1: IP en gebruikersagent fallback <br>2: Koptekst van HTTP Mobile-abonnee <br>3: Verouderde cookie-waarde (`s_vi`) <br>4: Waarde van fallback-cookie (`s_fid`) <br>5: Identiteitsservice | tinyint zonder teken |
+| **`visid_type`** | Niet voor extern gebruik; intern gebruikt door Adobe voor verwerkingsoptimalisaties. Numerieke id die de methode vertegenwoordigt die wordt gebruikt om de bezoeker te identificeren.<br>`0`: Aangepaste bezoeker-id of onbekend/niet van toepassing<br>`1`: IP en gebruikersagent fallback <br>`2`: Koptekst van HTTP Mobile-abonnee <br>`3`: Verouderde cookie-waarde (`s_vi`) <br>`4`: Waarde van fallback-cookie (`s_fid`) <br>`5`: Identiteitsservice | tinyint zonder teken |
 | **`visit_keywords`** | Variabele gebruikt in de [Trefwoord zoeken](/help/components/dimensions/search-keyword.md) dimensie. Deze kolom gebruikt een niet-standaard karaktergrens van varchar (244) om achterste die logica aan te passen door Adobe wordt gebruikt. | varchar(244) |
 | **`visit_num`** | Variabele gebruikt in de [Bezoek nummer](/help/components/dimensions/visit-number.md) dimensie. Begint bij 1, en verhoogt telkens als een nieuw bezoek per bezoeker begint. | int zonder teken |
 | **`visit_page_num`** | Variabele gebruikt in de [Hoogte](/help/components/dimensions/hit-depth.md) dimensie. Verhoogt met 1 voor elke hit die de gebruiker genereert. Hiermee herstelt u elk bezoek. | int zonder teken |
