@@ -1,9 +1,9 @@
 ---
 title: Afmelden voor toestemmingsbeheer
 description: Zie welke privacy-instellingen een bezoeker heeft opgegeven.
-source-git-commit: 49b2c144fea5786564ccb6dc70adead3bc669596
+source-git-commit: c305f74d5047db57509de8ff9ee03b8144009f5a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,6 @@ Uw organisatie bepaalt de logica om deze variabelen van contextgegevens uit te v
 
 Dimension-items bevatten de volgende drie waarden:
 
-* **`SSF`**: De bezoeker heeft ervoor gekozen [Server-side doorsturen](/help/admin/admin/c-server-side-forwarding/ssf.md). Deze dimensie-item is aanwezig wanneer de variabele van de contextgegevens `cm.ssf` equals `1`. Zie [Overzicht van privacy van gegevens](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) in de gebruikershandleiding van de Audience Manager voor meer informatie.
-* **`DMP`**: De bezoeker heeft ervoor gekozen niet meer te delen naar gegevenbeheer-platforms. Deze dimensie-item is aanwezig wanneer de variabele van de contextgegevens `opt.dmp` equals `N`. De hit wordt niet doorgestuurd naar Adobe Audience Manager.
+* **`SSF`**: De bezoeker heeft ervoor gekozen [Server-side doorsturen](/help/admin/admin/c-server-side-forwarding/ssf.md). Deze dimensie-item is aanwezig wanneer de variabele van de contextgegevens `cm.ssf` equals `1`. Zie [Overzicht van privacy van gegevens](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) in de gebruikershandleiding van de Audience Manager voor meer informatie. De hit wordt niet doorgestuurd naar Adobe Audience Manager.
+* **`DMP`**: De bezoeker heeft ervoor gekozen niet meer te delen naar gegevenbeheer-platforms. Deze dimensie-item is aanwezig wanneer de variabele van de contextgegevens `opt.dmp` equals `N`. Vergelijkbaar met `SSF`, wordt de treffer niet doorgestuurd naar Adobe Audience Manager.
 * **`SELL`**: De bezoeker heeft ervoor gekozen de gegevens niet te delen of aan derden te verkopen. Deze dimensie is aanwezig wanneer de variabele van de contextgegevens `opt.sell` equals `N`.
