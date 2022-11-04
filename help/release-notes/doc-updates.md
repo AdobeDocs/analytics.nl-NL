@@ -4,10 +4,11 @@ description: Opmerkelijke updates van de Adobe Analytics-documentatieset.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
+mini-toc-levels: 3
+source-git-commit: 87e32cfdda69303939045b90a7984efafdf05b27
 workflow-type: tm+mt
-source-wordcount: '3476'
-ht-degree: 36%
+source-wordcount: '3481'
+ht-degree: 35%
 
 ---
 
@@ -16,14 +17,17 @@ ht-degree: 36%
 Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 * Informatie over [!UICONTROL Customer Journey Analytics] vindt u [hier](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html).
-* Raadpleeg de recentste [Experience Cloud-releaseopmerkingen](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html) voor een uitgebreide lijst met nieuwe Adobe Analytics-functies, Beheerdersopmerkingen en bugcorrectie.
-* Zie [Audio en video meten in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) voor informatie over Adobe Analytics voor audio en video.
+* Voor informatie over Adobe Media Analytics raadpleegt u [Audio en video meten in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Details over belangrijke documentatie-updates
+
+### 2022 {#22}
 
 | Functie | Beschrijving |
 | --- | --- |
 | **Oktober 2022** |  |
+| Data Workbench | [Aankondiging einde levensduur](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en) |
+| Clienttips | Nieuw [overzicht en veelgestelde vragen](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en). |
 | Hoofdmetrische samenvatting | Nieuw onderwerp over het [Samenvatting van metrische sleutel](/help/analyze/analysis-workspace/visualizations/key-metric.md) visualisatie. |
 | Classificatiesets | De nieuwe gebruiker [Classificatiesets](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) De ervaring verstrekt één enkele interface om classificaties en regels te beheren en verbetert zichtbaarheid van klant-eigenlijke classificatiegegevens. |
 | Mobiele app: Aangepaste detailweergaven | Nieuw onderwerp over [aangepaste detailweergaven](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en). |
@@ -59,6 +63,11 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Modus voor voorvertoning van mobiel scorecard-project | De [voorbeeldmodus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) kunt u een voorvertoning van de ervaring weergeven voordat u een scorecard opslaat en deelt. |
 | API-projecteindpunt | Analysis Workspace-projecten toevoegen, bewerken of verwijderen met behulp van de API. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | Bijgewerkt onderwerp bij het pauzeren van oudere geplande Report Builder taken | **15 april 2022**, is Adobe voornemens [pauzeren alle geplande Report Builder taken die meer dan twee jaar geleden zijn gemaakt](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+
+### 2021 {#21}
+
+| Functie | Beschrijving |
+| --- | --- |
 | **Oktober 2021** |  |
 | 21 oktober 2021 | Nieuwe documentatie over [Snelle segmenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) in Analysis Workspace |
 | 21 oktober 2021 | Nieuwe documentatie op de [Tijd van afspelen van media besteed](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html) in Analysis Workspace. |
@@ -90,6 +99,11 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 14 januari 2021 | Optie voor taalselectie toegevoegd aan documentatie bij het dashboard voor Analytics. |
 | 14 januari 2021 | Toegevoegde documentatie over hoe u beelden aan de projecten van de Werkruimte kunt toevoegen door naar een openbare beeld URL te verwijzen. |
 | 14 januari 2021 | Gecombineerde bron- en instellingenbeheer voor werkruimtevisualisatie: De [!UICONTROL Data Source] Beheer (punt) en instellingenbeheer (versnelling) voor visualisatie zijn gecombineerd tot één pop-up, zodat u de bron en instellingen eenvoudig vanaf dezelfde locatie kunt beheren. |
+
+### 2020 {#20}
+
+| Functie | Beschrijving |
+| --- | --- |
 | **december 2020** |  |
 | 7 december 2020 | Gewijzigd op alle relevante pagina&#39;s om het eindpunt &quot;adobedc.net&quot; op te nemen of te vervangen. |
 | 8 december 2020 | Updates van de [Nieuw project maken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html) pagina in Workspace. |
@@ -152,7 +166,11 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 16 januari 2020 | Nieuwe documentatie over [Freeform Table Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html). Als u de functie voor samenstellen van tabellen inschakelt, kunt u allerlei dimensies, uitsplitsingen, metrics en segmenten plaatsen om tabellen te bouwen waarmee complexe zakelijke vragen worden beantwoord. Gegevens worden niet meteen bijgewerkt. In plaats daarvan vindt de update plaats nadat u op **[!UICONTROL Build]** klikt, zodat u tijd bespaart wanneer u weet welke tabel u wilt samenstellen. Bovendien biedt deze functie:<ul><li>**Voorvertoning**: u kunt een voorbeeld van de tabelindeling bekijken voordat gaat werken aan het renderen van echte gegevens.</li><li>**Flexibele instellingen voor rij en uitsplitsing**: u kunt nu een rij- en uitsplitsingsniveau instellen voor elke dimensierij. Eerder werden in Workspace standaardinstellingen ingesteld die pas konden worden gewijzigd nadat de gegevens waren geretourneerd.</li><li>**Uitsplitsing naar positie**: u kunt dimensierijen zo instellen dat ze altijd _worden uitgesplitst op positie_ in plaats van _op een bepaald item_ (de standaardinstelling).</li><li>**Handmatige statische rijvolgorde**: u kunt statische rijen handmatig ordenen, zodat tabelrijen precies zo worden weergegeven als nodig is. Voorheen konden statische rijen alleen worden gesorteerd op een kolom met metrics, of alfabetisch.</li></ul> |
 | 13 januari 2020 | [Adobe Analytics en browsercookies](/help/technotes/cookies/cookies.md) toegevoegd. |
 | 13 januari 2020 | Gewijzigd [Welke Adobe Analytics Tool moet ik gebruiken?](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en) pagina. |
-| **2019** |  |
+
+### 2019 {#19}
+
+| Functie | Beschrijving |
+| --- | --- |
 | 19 december 2020 | De standaardinstelling gewijzigd [Limiet voor FTP-gegevensopslag](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en) naar 10 GB. |
 | 29 november 2019 | Herziening van de [Documentatie over datafeed](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 november 2019 | Nieuw onderwerp op Eind-van-leven voor de Inloggen van de Afdwingen IP. |
