@@ -3,9 +3,9 @@ title: Regionale dataverzameling
 description: Informatie over regionale gegevensverzameling
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 1016e802f80855aebe0046f48556733652379d33
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ De Adobe Experience Cloud maakt gebruik van regionale gegevensverzameling (Regio
 
 >[!IMPORTANT]
 >
->Het China RDC (China Performance Optimization) Add-on Package is een aanrekbare add-on voor Adobe Analytics. De Optimalisering van Prestaties van Adobe in het vasteland van China laat klanten met gebruikers binnen China toe om die gegevens te hebben die rechtstreeks naar het de randknoop van China, in plaats van andere plaatsen globaal worden verzonden. Hierdoor worden de laadtijden van de pagina en de gegevensnauwkeurigheid verbeterd ten opzichte van het verzenden van de gegevens naar knooppunten buiten China. Neem voor meer informatie contact op met je Adobe-verkoper.
+>Het China RDC (China Performance Optimization) Add-on Package is een aanrekbare add-on voor Adobe Analytics. Adobe Performance Optimization op het vasteland stelt klanten met gebruikers binnen China in staat om die gegevens direct naar Adobe edge collection servers in China te laten verzenden in plaats van naar andere wereldwijd. Hierdoor worden de laadtijden van de pagina en de gegevensnauwkeurigheid verbeterd ten opzichte van het verzenden van de gegevens naar knooppunten buiten China. Merk op dat gegevens uiteindelijk worden overgedragen naar een van de Adobe Data Processing Center (DPC) buiten China. Neem voor meer informatie contact op met je Adobe-verkoper.
 
 De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk van de verandering):
 
