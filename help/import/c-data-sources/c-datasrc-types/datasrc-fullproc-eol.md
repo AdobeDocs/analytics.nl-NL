@@ -3,9 +3,9 @@ title: Einde van levensduur voor bronnen van volledige verwerkingsgegevens
 description: Redenen voor het einde van de levensduur en vergelijkingen tussen de API voor het invoegen van gegevens in bulk en de gegevensbronnen voor volledige verwerking.
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1217'
 ht-degree: 5%
 
 ---
@@ -55,7 +55,7 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | clientID.[customerIDType].id | Niet ondersteund | De klant-id die moet worden gebruikt. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
 | clientID.[customerIDType].isMCSeed | Niet ondersteund | Of dit het zaad voor identiteitskaart van de Bezoeker van de Marketing Cloud is of niet. Ondersteunde waarden zijn: 0, 1, TRUE, FALSE, &#39;&#39; (hoofdlettergevoelig). Als u 0, FALSE of twee opeenvolgende enkele aanhalingstekens (&#39;&#39;) gebruikt, wordt de waarde weggelaten uit de querytekenreeks. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
 | eVarN | eVarN, d.w.z. `<eVar2>`...`<eVar>` | Naam van conversie-eVar. U kunt maximaal 75 eVars ( eVar1 - eVar75 ) hebben. U kunt de naam van de eVar (eVar12) of een vriendelijke naam (Advertentiecampagne 3) opgeven. |
-| events | gebeurtenissen | [Tekenreeks gebeurtenissen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars), opgemaakt met dezelfde syntaxis als de variabele s.events. Bijvoorbeeld: scAdd,event1,event7 |
+| events | gebeurtenissen | [Tekenreeks gebeurtenissen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html#vars), opgemaakt met dezelfde syntaxis als de variabele s.events. Bijvoorbeeld: scAdd,event1,event7 |
 | hierN | hierN, d.w.z. `<hier2>`...`</hier2>` | Hiërarchienaam. U kunt maximaal vijf hiërarchieën gebruiken ( hier1 - hier5 ). U kunt de standaardhiërarchienaam opgeven `hier2` of een vriendelijke naam (Yankees). |
 | homePage | homePage | Y of N — is de huidige pagina op de homepage van de bezoeker. |
 | ipaddress | Niet ondersteund | Het IP-adres van de bezoeker. |
@@ -66,7 +66,7 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | linkType | linkType | Type koppeling. Tot de ondersteunde waarden behoren: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF of link. |
 | list Bijvoorbeeld list2. | Niet ondersteund | Een gescheiden lijst van waarden die worden doorgegeven aan een variabele, en vervolgens worden gerapporteerd als afzonderlijke regelitems voor rapportage |
-| marketingCloudVisitorID | Niet ondersteund | Marketing Cloud-id. Zie [Identificatie bezoeker](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) en de Marketing Cloud Visitor ID Service |
+| marketingCloudVisitorID | Niet ondersteund | Marketing Cloud-id. Zie [Identificatie bezoeker](https://experienceleague.adobe.com/docs/id-service/using/home.html#id-service-api) en de Marketing Cloud Visitor ID Service |
 | Niet ondersteund | charSet | De ondersteunde tekenset voor uw website. Bijvoorbeeld UTF-8, ISO-8859-1 enzovoort. |
 | Niet ondersteund | clickAction | Object-id voor bezoeker op kaart klikken (oid) |
 | Niet ondersteund | clickActionType | Type object-id voor bezoeker op kaart klikken (punt) |
@@ -91,7 +91,7 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | state | state | Conversiestatekenreeks. |
 | timestamp | date | De ISO 8601-datumnotatie van YYY-MM-DDThh gebruiken:mm:ss±UTC_offset (bijvoorbeeld, 2021-09-01T12:00:00-07:00 ) of Unix Time Format (het aantal seconden dat is verstreken sinds 1 januari 1970). |
 | trackingServer | Niet ondersteund | Kan alleen via kolomkop worden opgegeven. |
-| transactionID | Niet ondersteund | Gemeenschappelijke waarde die wordt gebruikt om multikanaalsgebruikersactiviteiten voor rapportagedoeleinden aan elkaar te koppelen. Zie voor meer informatie de [Gebruikershandleiding voor gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources). |
+| transactionID | Niet ondersteund | Gemeenschappelijke waarde die wordt gebruikt om multikanaalsgebruikersactiviteiten voor rapportagedoeleinden aan elkaar te koppelen. Zie voor meer informatie de [Gebruikershandleiding voor gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html#data-sources). |
 | userAgent | Niet ondersteund | Tekenreeks gebruikersagent |
-| visitorID | bezoekerID | Analyse-id van bezoeker. Zie [Identificatie bezoeker](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
+| visitorID | bezoekerID | Analyse-id van bezoeker. Zie [Identificatie bezoeker](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | zip | zip | ZIP-code conversie. |

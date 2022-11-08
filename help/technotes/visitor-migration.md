@@ -5,9 +5,9 @@ title: Migratie van bezoekers
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ In de volgende tabel worden de taken weergegeven die zijn vereist voor bezoekers
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6+ uur na wijziging van configuratie</b>: Werk de <code> s.trackingServer</code> en <code> s.trackingServerSecure</code> variabelen in uw JavaScript-code Analytics om de nieuwe servers voor gegevensverzameling te gebruiken. </p> </td> 
-   <td colname="col3"> <p>Nadat u deze wijziging hebt aangebracht, gebruikt u de opdracht <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> Experience Cloud debugger</a> om te verifiëren dat het de beeldverzoek van de Analyse naar de bijgewerkte server van de gegevensinzameling gaat. </p> </td> 
+   <td colname="col3"> <p>Nadat u deze wijziging hebt aangebracht, gebruikt u de opdracht <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html"> Experience Cloud debugger</a> om te verifiëren dat het de beeldverzoek van de Analyse naar de bijgewerkte server van de gegevensinzameling gaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Onmiddellijk nadat u de Analysecode hebt bijgewerkt</b>: Test uw plaats om te verifiëren dat redirect aan het vorige domein van de gegevensinzameling voorkomt. </p> </td> 

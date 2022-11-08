@@ -3,9 +3,9 @@ description: Elke id die u wilt kunnen zoeken, krijgt een naamruimte toegewezen,
 title: Naamruimten
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '890'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ De naamruimtetekenreeks wordt gebruikt om velden te identificeren die u wilt doo
 * Een typeveld dat voor de meeste Adobe Analytics-aanvragen de waarde “analytics” bevat.
 * Een “value”-veld met de id waarnaar Analytics moet zoeken in de gekoppelde naamruimtevariabelen van al uw rapportsuites.
 
-Raadpleeg de [Experience Cloud Data Privacy API-documentatie](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) voor meer informatie.
+Raadpleeg de [Experience Cloud Data Privacy API-documentatie](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) voor meer informatie.
 
 ## Cookie-id
 

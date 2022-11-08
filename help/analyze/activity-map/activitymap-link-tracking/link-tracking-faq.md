@@ -5,7 +5,7 @@ uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-source-git-commit: 2a20ce50f773c82856da59154bb212f1fca2b7ea
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Als het antwoord op om het even welke bovenstaande vragen ja is, dan wordt het e
 
 >[!IMPORTANT]
 >
->Een ankertag met een &quot;href&quot; die begint met &quot;#&quot; wordt door AppMeasurement beschouwd als een interne doellocatie, niet als een koppeling (omdat u de pagina niet verlaat). Standaard houdt Activity Map deze interne doellocaties niet bij. Er worden alleen koppelingen bijgehouden waarmee de gebruiker naar een nieuwe pagina navigeert.
+>Een ankertag met een &quot;href&quot; die begint met &quot;#&quot; wordt door AppMeasurement beschouwd als een interne doellocatie, niet als een koppeling (omdat u de pagina niet verlaat). Deze interne doellocaties worden standaard niet bijgehouden door Activity Map. Er worden alleen koppelingen bijgehouden waarmee de gebruiker naar een nieuwe pagina navigeert.
 
 ## Hoe houdt Activity Map andere visuele HTML-elementen bij?
 
@@ -81,7 +81,7 @@ b. Via de `s_objectID` variabele. Voorbeeld:
 ### Voorbeeld 1
 
 ```
-  <a hef="/home?lang=en>Home</a>
+  <a hef="/home>Home</a>
 ```
 
 ### Voorbeeld 2

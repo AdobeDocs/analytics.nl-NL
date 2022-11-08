@@ -3,9 +3,9 @@ description: Hoe te om gegevenstoegang en schrappingsverzoeken in Adobe Analytic
 title: Aanvragen voor toegang en verwijdering verzenden
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1297'
 ht-degree: 93%
 
 ---
@@ -30,7 +30,7 @@ Elk bestand combineert data uit al uw rapportsuites en verwijdert automatisch ex
 
 ## Aanvragen verzenden {#submit-requests}
 
-U kunt toegang tot gegevensprivacy verzenden en aanvragen verwijderen via onze [UI Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) of via onze [Privacy Service-API.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)
+U kunt toegang tot gegevensprivacy verzenden en aanvragen verwijderen via onze [UI Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html) of via onze [Privacy Service-API.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Totalen van berekende standaard
 description: Leer hoe berekende metriettotalen verschillen in Analysesoftware
 feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -41,4 +41,4 @@ Wanneer totalen worden weergegeven, worden ze vaak berekend aan de serverzijde, 
 * Wanneer [statische rijen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) worden gebruikt in Freeform-tabellen en de **[!UICONTROL Show as sum of current rows]** (standaard) is geselecteerd.
 * In de [Donut visualisatie](/help/analyze/analysis-workspace/visualizations/donut.md), zodat getallen oplopen tot 100%.
 
-Ga voor meer informatie over totalen in Analysis Workspace naar [Totalen werkruimte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=en#static-row-total).
+Ga voor meer informatie over totalen in Analysis Workspace naar [Totalen werkruimte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html#static-row-total).

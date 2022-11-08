@@ -3,9 +3,9 @@ title: Aanbevolen werkwijzen voor kenmerken
 description: Wat zijn de beste praktijken rond het beslissen over een attributiemodel?
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Het kiezen van het juiste toewijzingsmodel voor uw organisatie is afhankelijk va
 >[!NOTE]
 >Deze analyse moet plaatsvinden voordat u een attributiemodel kiest.
 
-Deze fase bestaat aanvankelijk uit het begrip van klantengedrag en het bepalen van omzettingsmetriek. Op basis van de conversiemetriek, gereedschappen zoals [Gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en) (voor onbewerkte gegevens) of Analysis Workspace
+Deze fase bestaat aanvankelijk uit het begrip van klantengedrag en het bepalen van omzettingsmetriek. Op basis van de conversiemetriek, gereedschappen zoals [Gegevensfeeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html) (voor onbewerkte gegevens) of Analysis Workspace
 
 * Hoeveel klanten raken verschillende marketing kanalen alvorens om te zetten?
 * De verhouding/verdeling van deze gedragingen.
@@ -45,7 +45,7 @@ Laten we zeggen dat je hypothese is: &quot;Mijn First-touch kanaal heeft meer in
 
 **Voorbeeld 2**
 
-Uw hypothese kan zijn: &quot;In onze industrie (zoals de reisindustrie), is het attributievenster 60 of 90 dagen, niet 30 dagen, omdat de klanten veel onderzoek doen alvorens een product te kopen. Vervolgens wijzigt u uw [lookback-venster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) tot 90 dagen.
+Uw hypothese kan zijn: &quot;In onze industrie (zoals de reisindustrie), is het attributievenster 60 of 90 dagen, niet 30 dagen, omdat de klanten veel onderzoek doen alvorens een product te kopen. Vervolgens wijzigt u uw [lookback-venster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) tot 90 dagen.
 
 ## Stap 3: Algoritmische toewijzing gebruiken
 
@@ -55,4 +55,4 @@ Omdat het erg moeilijk is om een groot aantal mogelijke hypothesen en combinatie
 
 * Misschien moet je de diensten van een data wetenschapper gebruiken in plaats van alleen op Analysis Workspace te vertrouwen.
 * U kunt op onbewerkte gegevens vertrouwen, zoals in gegevensfeeds van Adobe.
-* Gebruik [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en)Als u bijvoorbeeld rekening wilt houden met uw Impressiegegevens.
+* Gebruik [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)Als u bijvoorbeeld rekening wilt houden met uw Impressiegegevens.

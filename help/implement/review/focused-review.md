@@ -3,9 +3,9 @@ title: Gerichte revisie (na elke release van de website)
 description: Voer de volgende stappen uit om ervoor te zorgen dat uw implementatie foutloos en in overeenstemming met uw KPI's blijft.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Zorg ervoor dat de meest recente plaatsversie de gegevensinzameling voor die sec
 
 Als u onlangs metriek of variabelen hebt toegevoegd of veranderd, moet u uw Document van de Vereisten van het Bedrijfs (BRD) en de Verwijzing van het Ontwerp van de Oplossing (SDR) bijwerken.
 
-Als u geen documentatie over de implementatie hebt, exporteert u een lijst met variabelen en maakt u een OOBH of SDR met [deze sjabloon](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en#implementation).
+Als u geen documentatie over de implementatie hebt, exporteert u een lijst met variabelen en maakt u een OOBH of SDR met [deze sjabloon](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## 5. Verbeter onmiddellijk eventuele tussenruimten in de gegevenskwaliteit
 

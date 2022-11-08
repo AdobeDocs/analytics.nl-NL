@@ -2,10 +2,10 @@
 title: Apparaatgrafiek
 description: Begrijp de eerste vereisten en de beperkingen van het stitching van gegevens gebruikend de apparatengrafiek.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 0%
+source-wordcount: '321'
+ht-degree: 2%
 
 ---
 
@@ -22,8 +22,8 @@ Als u Apparaatanalyse wilt implementeren met de grafiekmethode van het apparaat,
 >Als niet aan alle voorwaarden wordt voldaan, kan het zijn dat u Cross-Device Analytics of slechte resultaten niet kunt inschakelen bij het koppelen van gegevens.
 
 * Alle voorwaarden die op de [overzichtspagina](overview.md).
-* Uw organisatie moet de [Adobe Experience Platform Identity Service Private Graph](https://business.adobe.com/products/experience-platform/identity-service.html). Zie ook de [Startpagina](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en) in de gebruikershandleiding voor Identiteitsservice.
-* Voor uw implementatie moet de nieuwste versie van de Experience Cloud-id-service (ECID) worden gebruikt. Zie de [Startpagina](https://experienceleague.adobe.com/docs/id-service/using/home.html) in de gebruikershandleiding voor de id-service. De meeste implementaties gebruiken [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) in Adobe Experience Platform is ID Service waarschijnlijk al geïmplementeerd.
+* Uw organisatie moet de [Adobe Experience Platform Identity Service Private Graph](https://business.adobe.com/products/experience-platform/identity-service.html). Zie ook de [Startpagina](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl) in de gebruikershandleiding voor Identiteitsservice.
+* Voor uw implementatie moet de nieuwste versie van de Experience Cloud-id-service (ECID) worden gebruikt. Zie de [Startpagina](https://experienceleague.adobe.com/docs/id-service/using/home.html) in de gebruikershandleiding voor de id-service. De meeste implementaties gebruiken [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) in Adobe Experience Platform is ID Service waarschijnlijk al geïmplementeerd.
 * Uw implementatie moet de `setCustomerIDs` functie (of SDK-equivalent) wanneer een individu kan worden geïdentificeerd, bijvoorbeeld wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Zie [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) in de gebruikershandleiding voor de id-service.
 
 ## Specifieke beperkingen voor de apparaatgrafiek

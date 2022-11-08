@@ -4,9 +4,9 @@ title: Aan de slag met Reports and Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Alle gebruikers hebben toegang tot de [!UICONTROL Account Information] pagina. D
 | Type informatie | Definitie |
 | --- | --- |
 | Contact | Geef de volgende persoonlijke gegevens op voor uw account:<ul><li>Voornaam (vereist)</li><li>Achternaam (vereist)</li><li>Titel</li><li>E-mailadres (vereist)</li><li>Telefoonnummer</li></ul> |
-| Aanmelden | Hiermee geeft u de gebruikersnaam van de account weer en kunt u het accountwachtwoord wijzigen. Zie ook: [Hoe kan ik het wachtwoord voor rapporten en analytische accounts opnieuw instellen?](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en). |
+| Aanmelden | Hiermee geeft u de gebruikersnaam van de account weer en kunt u het accountwachtwoord wijzigen. Zie ook: [Hoe kan ik het wachtwoord voor rapporten en analytische accounts opnieuw instellen?](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html). |
 | Webservice | Hiermee geeft u de gebruikersnaam en het gedeelde geheim van de webservices weer die aan dit account zijn gekoppeld. Gebruik deze referenties wanneer u Experience Cloud benadert via de API&#39;s voor webservices. Zie de Developer Connection voor meer informatie. **Opmerking:** Deze informatie wordt alleen weergegeven als de account is geautoriseerd als gebruiker van een webservice. |
 | Deze computer uitsluiten | Past een koekje op de huidige computer toe om het van gegevensinzameling uit te sluiten. Dit is handig als u niet wilt dat uw onlineactiviteiten invloed hebben op het aantal pagina&#39;s en bezoekers in uw domein. **Opmerking:** Als u deze functie wilt gebruiken, moet de browser cookies hebben ingeschakeld. Als u cookies verwijdert op uw computer, moet u de uitsluitingscookie opnieuw instellen. |
 

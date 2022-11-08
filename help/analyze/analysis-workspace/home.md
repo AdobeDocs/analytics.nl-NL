@@ -4,9 +4,9 @@ description: Analysis Workspace is het belangrijkste instrument voor analyse van
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
@@ -70,4 +70,4 @@ Hier volgt een video-overzicht van projectbeheer:
 ## Aanvullende bronnen {#resources}
 
 * Adobe biedt honderden [Zelfstudies voor videotraining voor analyse](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
-* Zie [Opmerkingen bij de release van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en#analytics) voor updates over nieuwe functies.
+* Zie [Opmerkingen bij de release van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) voor updates over nieuwe functies.

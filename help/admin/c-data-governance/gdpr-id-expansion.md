@@ -3,9 +3,9 @@ description: De id's die u verzendt, hebben niet altijd betrekking op alle treff
 title: Id-uitbreiding
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1355'
 ht-degree: 96%
 
 ---
@@ -18,7 +18,7 @@ De id&#39;s die u verzendt, hebben niet altijd betrekking op alle treffers die d
 "expandIds": true
 ```
 
-Zie [Voorbeeld van JSON-aanvraag](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) voor een voorbeeld hoe deze optie in de aanvraag kan worden opgenomen. Raadpleeg de [Privacy Service-API-documentatie](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) voor meer details.
+Zie [Voorbeeld van JSON-aanvraag](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) voor een voorbeeld hoe deze optie in de aanvraag kan worden opgenomen. Raadpleeg de [Privacy Service-API-documentatie](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) voor meer details.
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -60,7 +60,7 @@ Naast de standaardwaarde ondersteunt steunt het prioriteitsveld ook een waarde v
 
 >[!NOTE]
 >
->De [Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) is bedoeld om u te helpen bij het afhandelen van Data Privacy-aanvragen, die tijdsgevoelig zijn. Het gebruik van deze API voor andere doeleinden wordt niet ondersteund door Adobe en kan een nadelige invloed hebben op de snelheid waarmee Adobe door de gebruiker geïnitieerde Data Privacy-aanvragen met hoge prioriteit voor andere Adobe-klanten kan afhandelen. We vragen u de Privacy Service-API niet te gebruiken voor andere doeleinden, zoals het wissen van data die per ongeluk zijn verzonden tussen grote groepen bezoekers.
+>De [Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) is bedoeld om u te helpen bij het afhandelen van Data Privacy-aanvragen, die tijdsgevoelig zijn. Het gebruik van deze API voor andere doeleinden wordt niet ondersteund door Adobe en kan een nadelige invloed hebben op de snelheid waarmee Adobe door de gebruiker geïnitieerde Data Privacy-aanvragen met hoge prioriteit voor andere Adobe-klanten kan afhandelen. We vragen u de Privacy Service-API niet te gebruiken voor andere doeleinden, zoals het wissen van data die per ongeluk zijn verzonden tussen grote groepen bezoekers.
 
 Bedenk ook dat voor bezoekers die een treffer hebben verwijderd (bijgewerkt of geanonimiseerd) als gevolg van een Data Privacy-verwijderingsaanvraag, de statusgegevens worden hersteld. De volgende keer dat de bezoeker uw website bezoekt, wordt deze een nieuwe bezoeker. Alle eVar-attributie wordt opnieuw gestart, evenals informatie als aantal bezoeken, referrers, bezochte eerste pagina, enz. Dit bijeffect is ongewenst in situaties waarin u datavelden wilt wissen, en legt de nadruk op één reden waarom de Privacy Service-API niet geschikt is voor dit gebruik.
 

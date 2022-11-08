@@ -4,9 +4,9 @@ title: Lijsten publiceren
 feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
-source-git-commit: 2f14b9059601fd0b8d1603cb7dfc4a0b4a3ff55e
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Om om het even welke verstoring aan uw huidige rapport-distributie werkschema&#3
 
 * Als u het Publiceren Lijsten gebruikt om de zelfde versie van het rapport aan veelvoudige gebruikers (zonder rapportreeksoverrides toe te passen) te verspreiden:
 
-   Zodra u uw rapporten in Analysis Workspace als projecten opnieuw creeert, kunt u een combinatie contactgroep of distributielijst gebruiken die voor uw postcliënt en de Geplande eigenschap van de Projecten van de Werkruimte wordt gecreeerd om de terugkomende levering van het project te verzenden of te plannen. Als het Publiceren Lijsten, wordt een PDF/CSV versie van het project dan verzonden naar elke e-mailidentiteitskaart die deel van de groep/de lijst uitmaakt. Meer informatie over [Geplande projecten hier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=en#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
+   Zodra u uw rapporten in Analysis Workspace als projecten opnieuw creeert, kunt u een combinatie contactgroep of distributielijst gebruiken die voor uw postcliënt en de Geplande eigenschap van de Projecten van de Werkruimte wordt gecreeerd om de terugkomende levering van het project te verzenden of te plannen. Als het Publiceren Lijsten, wordt een PDF/CSV versie van het project dan verzonden naar elke e-mailidentiteitskaart die deel van de groep/de lijst uitmaakt. Meer informatie over [Geplande projecten hier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
 
 * Als u het Publiceren Lijsten gebruikt om veelvoudige versies van het rapport of dashboard aan veelvoudige gebruikers (via de de opheffingseigenschap van de rapportreeks te verdelen):
 

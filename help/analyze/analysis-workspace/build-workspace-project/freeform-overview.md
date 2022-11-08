@@ -5,9 +5,9 @@ title: Overzicht van projecten
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1407'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
 
 | Element | Beschrijving |
 |---|---|
-| [Nieuw project maken](/help/analyze/analysis-workspace/home.md) | Klik op deze koppeling om een nieuw project te starten vanaf een leeg vel of vanaf een [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#analysis-workspace) gemaakt voor u. |
+| [Nieuw project maken](/help/analyze/analysis-workspace/home.md) | Klik op deze koppeling om een nieuw project te starten vanaf een leeg vel of vanaf een [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace) gemaakt voor u. |
 | Projecten beheren | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), waarin al uw projecten worden vermeld en waarmee u projecten kunt labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
 | Instellen als bestemmingspagina | Hiermee wordt deze pagina omgezet in de bestemmingspagina van uw werkruimte. |
 | [Tutorials weergeven](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | Hiermee gaat u naar de videozelfstudies van Analysis Workspace. |

@@ -3,9 +3,9 @@ title: Adobe Analytics implementeren met tags in Adobe Experience Platform
 description: Leer hoe u Adobe Analytics implementeert met tags
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,6 @@ Zie [Een eigenschap voor de tag Analytics maken](create-analytics-property.md) o
 
 Tags kunnen in hoge mate worden aangepast. Meer informatie over hoe u optimaal kunt profiteren van Adobe Analytics door de juiste gegevens op te nemen in uw implementatie.
 
-* [Documentatie over tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en#): Leer hoe de interface werkt en welke extensies beschikbaar zijn.
-* [Adobe Analytics-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en): Gebruik de extensie Analytics om gegevens naar Adobe Analytics te verzenden.
+* [Documentatie over tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): Leer hoe de interface werkt en welke extensies beschikbaar zijn.
+* [Adobe Analytics-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html): Gebruik de extensie Analytics om gegevens naar Adobe Analytics te verzenden.
 * [Implementatievariabelen](../vars/overview.md): Bepaal welke variabelen u naar de servers van de gegevensinzameling wilt verzenden.

@@ -3,9 +3,9 @@ title: Adobe Analytics- en browsercookies
 description: Leer hoe de preventiemaatregelen voor het bijhouden van fouten invloed hebben op cookies van derden en van andere bedrijven die door Adobe Analytics zijn ingesteld.
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1981'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ In dit document wordt uitgelegd wat de invloed is van de traceerpreventiemaatreg
 ## Hoe hebben browsers het gebruik van cookies beperkt?
 
 >[!NOTE]
->[Apparaatanalyse](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en#cda) en [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#comparing-cja-to-traditional-adobe-analytics) kan met een persoon-id, zoals een hashed-aanmeldings-id, overschakelen op cookies als deze beschikbaar is.
+>[Apparaatanalyse](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda) en [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) kan met een persoon-id, zoals een hashed-aanmeldings-id, overschakelen op cookies als deze beschikbaar is.
 
 ### Beperkingen van cookies van andere bedrijven
 
@@ -92,7 +92,7 @@ Zie voor meer informatie [Cookies van eerste bedrijven](https://experienceleague
 
 Met de release van Chrome 80 browser in februari 2020 — en opeenvolgende versies van Firefox- en Edge-browsers — dwingt het SameSite cookie-kenmerk de specificatie af voor drie verschillende waarden die bepalen of cookies in een context van derden kunnen worden gebruikt:
 
-* `None`: Met deze instelling hebt u toegang tot andere sites en kunnen cookies worden doorgegeven in een context van derden. Als u dit kenmerk wilt opgeven, moet u ook `Secure` en alle browseraanvragen moeten HTTPS volgen. Wanneer u bijvoorbeeld de cookie instelt, koppelt u de waarden van het kenmerk als volgt: `Set-Cookie: example_session=test12; SameSite=None; Secure`. Als de cookies niet correct zijn gelabeld, kunnen ze niet meer worden gebruikt door de nieuwere browsers en worden ze afgewezen.
+* `None`: Met deze instelling hebt u toegang tot andere sites en kunnen cookies worden doorgegeven in een context van derden. Als u dit kenmerk wilt opgeven, moet u ook `Secure` en alle browseraanvragen moeten HTTPS volgen. Wanneer u bijvoorbeeld de cookie instelt, combineert u de waarden van het kenmerk als volgt: `Set-Cookie: example_session=test12; SameSite=None; Secure`. Als de cookies niet correct zijn gelabeld, kunnen ze niet meer worden gebruikt door de nieuwere browsers en worden ze afgewezen.
 
 * `Lax`: Hiermee kunnen aanvragen voor meerdere sites alleen worden verzonden met cookies op dezelfde site voor navigatie op hoofdniveau met *veilig* (alleen-lezen, zoals `GET`) HTTP-methoden.
 

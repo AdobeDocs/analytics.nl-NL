@@ -2,9 +2,9 @@
 title: Betaalde zoekgegevens importeren
 description: Stappen om Adobe Analytics te configureren voor het bijhouden van uw betaalde zoekgegevens (bijvoorbeeld Google AdWords, MSN, Yahoo, enz.) het gebruiken van Gegevensbronnen.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
-source-git-commit: 7c5bfadabe2ea851bb881d067d48b4f4700a53c7
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 2%
 
 ---
@@ -115,7 +115,7 @@ Ga terug naar de wizard Gegevensbron voor instructies en upload het bestand via 
 
 Het toevoegen van berekende metriek zal nuttig zijn wanneer het maken van loon-per-klikbesluiten.
 
-U kunt deze bijvoorbeeld toevoegen [berekende meetwaarden](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=en#calculated-metrics):
+U kunt deze bijvoorbeeld toevoegen [berekende meetwaarden](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics):
 
 | Naam | Formule | Metrisch type | Beschrijving |
 | --- | --- | --- | --- |

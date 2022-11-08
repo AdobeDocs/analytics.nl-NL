@@ -4,9 +4,9 @@ keywords: Virtuele rapportsuite
 title: Virtuele rapportsuites maken
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '660'
 ht-degree: 3%
 
 ---
@@ -62,7 +62,7 @@ Hier is een video over hoe te om een bezoekdefinitie in een virtuele rapportreek
 ![](assets/components.png)
 
 1. Op de [!UICONTROL Components] schakelt u het selectievakje in om de curatie toe te passen voor het opnemen, uitsluiten en hernoemen van componenten voor deze virtuele rapportsuite in Analysis Workspace.
-Zie voor meer informatie over VRS-curven [Virtual Report Suite Component Curation](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites).
+Zie voor meer informatie over VRS-curven [Virtual Report Suite Component Curation](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
 
 1. Sleep componenten (afmetingen, metriek, segmenten, of datumwaaiers) die u in VRS in wilt omvatten [!UICONTROL Included Components] sectie.
 

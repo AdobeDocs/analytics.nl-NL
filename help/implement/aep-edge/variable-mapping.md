@@ -2,9 +2,9 @@
 title: Variabeletoewijzing analyseren in Adobe Experience Edge
 description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen aan analytische variabelen.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: f435453f655caef89460de42ebecf489b021dc47
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1444'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge 
 
 ## Andere XDM-velden toewijzen aan analytische variabelen
 
-Als er dimensies of metriek zijn die u aan Adobe Analytics wilt toevoegen, kunt u dit door [Contextgegevensvariabelen](../vars/page-vars/contextdata.md). Alle XDM-veldelementen die niet automatisch worden toegewezen, worden naar Adobe Analytics verzonden als contextgegevens met het voorvoegsel a.x. U kunt deze variabele van contextgegevens aan de gewenste variabele van Analyse dan in kaart brengen gebruikend [Verwerkingsregels](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=en). Als u bijvoorbeeld de volgende gebeurtenis verzendt:
+Als er dimensies of metriek zijn die u aan Adobe Analytics wilt toevoegen, kunt u dit door [Contextgegevensvariabelen](../vars/page-vars/contextdata.md). Alle XDM-veldelementen die niet automatisch worden toegewezen, worden naar Adobe Analytics verzonden als contextgegevens met het voorvoegsel a.x. U kunt deze variabele van contextgegevens aan de gewenste variabele van Analyse dan in kaart brengen gebruikend [Verwerkingsregels](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). Als u bijvoorbeeld de volgende gebeurtenis verzendt:
 
 ```js
 alloy("event",{
