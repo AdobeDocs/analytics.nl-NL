@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
+source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
 workflow-type: tm+mt
-source-wordcount: '3621'
+source-wordcount: '3638'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | Kolomnaam | Kolombeschrijving | Gegevenstype |
 | --- | --- | --- |
 | **`accept_language`** | Hiermee worden alle geaccepteerde talen weergegeven, zoals wordt aangegeven in de HTTP-header Accept-Language in een afbeeldingsaanvraag. | teken(20) |
+| **`adload`** | Media en laden | varchar(255) |
 | **`aemassetid`** | Een variabele met meerdere waarden die overeenkomt met de elementen van de id&#39;s (GUID) van een set Adobe Experience Manager-elementen. Incrementele indrukgebeurtenissen. | text |
 | **`aemassetsource`** | Identificeert de bron van de gebeurtenis asset. Wordt gebruikt in Adobe Experience Manager. | varchar(255) |
 | **`aemclickedassetid`** | Element-id van een Adobe Experience Manager-element. De verhogingen klikken Gebeurtenissen. | varchar(255) |
@@ -143,6 +144,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`mobileplaceaccuracy`** | Verzameld op basis van de variabele contextgegevens `a.loc.acc`. Geeft de nauwkeurigheid van de GPS in meters aan op het moment van verzameling. | varchar(255) |
 | **`mobileplacecategory`** | Verzameld op basis van de variabele contextgegevens `a.loc.category`. Beschrijft de categorie van een specifieke plaats. | varchar(255) |
 | **`mobileplaceid`** | Verzameld op basis van de variabele contextgegevens `a.loc.id`. Identificatiecode voor een bepaald aandachtspunt. | varchar(255) |
+| **`mobilepushoptin`** | Push-optie voor mobiele services | varchar(255) |
+| **`mobilepushpayloadid`** | ID Push-payload voor mobiele services | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Inhoud voor mobiele services starten | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Mobiele services, startmedium | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Bron voor mobiele services | varchar(255) |
@@ -202,7 +205,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`socialownedpropertyid`** | Niet meer gebruikt. ID sociale eigendom | varchar(255) |
 | **`socialownedpropertyname`** | Niet meer gebruikt. Naam van sociale eigendom | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | Niet meer gebruikt. Eigendom van sociale media versus app | varchar(255) |
-| **`sourceid`** | . | int zonder teken |
+| **`sourceid`** | Bron-id | int zonder teken |
 | **`state`** | Staatvariabele. | varchar(50) |
 | **`stats_server`** | Niet gebruiken. Adobe interne server die de hit heeft verwerkt. | teken(30) |
 | **`survey`** | Niet meer gebruikt. Adobe Survey-variabele. Alleen de `post` is beschikbaar. | text |
@@ -294,6 +297,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 
 De volgende lijst met kolommen wordt niet gebruikt en bevat geen gegevens:
 
+* `adclassificationcreative`
 * `mobileacquisitionclicks`
 * `mobileactioninapptime`
 * `mobileactiontotaltime`
