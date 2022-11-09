@@ -3,10 +3,10 @@ title: Hoe Tijd besteed wordt berekend in Adobe Analytics
 description: Een geaggregeerde pagina van de gebruikte afmetingen en metriek in de tijd.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: de08ad32d36219ccd7da5470e5821de565bed18b
+source-git-commit: 283b8e23c95b46d091b41ed97ca9bc683e7a33ee
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 6%
+source-wordcount: '1541'
+ht-degree: 5%
 
 ---
 
@@ -21,6 +21,7 @@ Diversen [!UICONTROL 'time spent'] metriek en afmetingen worden aangeboden in Ad
 | [!UICONTROL Total seconds spent] | Vertegenwoordigt de totale hoeveelheid tijd bezoekers met een specifiek afmetingspunt in wisselwerking staan. Bevat de instantie van een waarde en persistentie voor alle volgende treffers. In het geval van props wordt de doorgebrachte tijd ook geteld bij volgende koppelingsgebeurtenissen. | Analysis Workspace, Reports &amp; Analytics, Report Builder (ook wel &quot;totale tijd besteed&quot; genoemd), Data Warehouse |
 | [!UICONTROL Time spent per visit] (Seconden) | Ongeveer *Totaal aantal bestede seconden / (bezoek-grenzen)*<br> Geeft de gemiddelde hoeveelheid tijd aan dat bezoekers tijdens elk bezoek met een specifieke dimensie-item communiceren. **Opmerking**: Deze metrische waarde kan niet onafhankelijk worden berekend omdat de noemer van deze functie een interne metrische waarde is. | Analysis Workspace, rapporten en analyses |
 | [!UICONTROL Time spent per visitor] (Seconden) | Ongeveer *Totaal aantal gebruikte seconden / unieke bezoeker*<br> Geeft de gemiddelde hoeveelheid tijd aan dat bezoekers interageren met een specifiek dimensie-item over het leven van de bezoeker (duur van hun cookie). **Opmerking**: Deze metrische waarde kan niet onafhankelijk worden berekend omdat de noemer van deze functie een interne metrische waarde is. | Analysis Workspace, rapporten en analyses |
+| [!UICONTROL Time Spent/User (State)] | Ongeveer *Totaal aantal seconden mobiele app besteed/unieke bezoekers van mobiele apps*<br> Geeft de gemiddelde hoeveelheid tijd aan dat mobiele App-bezoekers communiceren met een specifiek dimensie-item gedurende de levensduur van de bezoeker (de duur van hun cookie). **Opmerking**: Deze metrische waarde kan niet onafhankelijk worden berekend omdat de noemer van deze functie een interne metrische waarde is. | Analysis Workspace |
 | [!UICONTROL Average time spent on site] (Seconden) | Vertegenwoordigt de totale hoeveelheid tijd bezoekers met een specifiek afmetingspunt, per opeenvolging met een afmetingspunt in wisselwerking staan. Het is niet alleen beperkt tot &quot;site&quot;-gemiddelden, zoals de naam suggereert. Zie de sectie &#39;Hoe tijd besteed wordt&#39; voor meer informatie over reeksen.<br>**Opmerking**: Deze maatstaf verschilt zeer waarschijnlijk van &#39;Tijd per bezoek&#39; op het niveau van dimensiepunten als gevolg van de verschillen in de noemer in de berekening. | Analysis Workspace, Reports &amp; Analytics (weergegeven in minuten), Report Builder (weergegeven in minuten) |
 | [!UICONTROL Average time on site] | Dit is zelfde metrisch zoals *Gemiddelde tijd die ter plaatse is doorgebracht (seconden)*, behalve opgemaakt als Tijd (uu:mm:ss) | Analysis Workspace |
 | [!UICONTROL Average time spent on page] | Vervangen metrisch.<br> In plaats daarvan raden we u aan &quot;Gemiddelde tijd die ter plekke wordt doorgebracht&quot; te gebruiken als er een gemiddelde tijd voor een dimensie-item nodig is. | Report Builder (wanneer een dimensie zich in het verzoek bevindt) |
