@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
 workflow-type: tm+mt
-source-wordcount: '3599'
+source-wordcount: '3621'
 ht-degree: 0%
 
 ---
@@ -63,8 +63,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`cust_hit_time_gmt`** | Alleen voor tijdstempels geschikte rapportsuites. De tijdstempel die met de hit wordt verzonden, uitgedrukt in Unix-tijd. | int |
 | **`cust_visid`** | Als een aangepaste bezoeker-id is ingesteld, wordt deze in deze kolom ingevuld. | varchar(255) |
 | **`daily_visitor`** | Markering om te bepalen of de treffer een nieuwe dagelijkse bezoeker is. | tinyint zonder teken |
-| **`dataprivacyconsentoptin`** | Variabele gebruikt in de [Optie voor beheer van toestemming](/help/components/dimensions/cm-opt-in.md) dimensie. Er kunnen meerdere waarden aanwezig zijn per hit, gescheiden door een pipe (`|`). Geldige waarden zijn `DMP` en `SELL`. | varchar(100) |
-| **`dataprivacyconsentoptout`** | Variabele gebruikt in de [Optie voor beheer van toestemming](/help/components/dimensions/cm-opt-out.md) dimensie. Er kunnen meerdere waarden aanwezig zijn per hit, gescheiden door een pipe (`|`). Geldige waarden zijn `SSF`, `DMP`, en `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptin`** | Variabele gebruikt in de [Optie voor beheer van toestemming](/help/components/dimensions/cm-opt-in.md) dimensie. Er kunnen meerdere waarden aanwezig zijn per hit, gescheiden door een pipe (`\|`). Geldige waarden zijn `DMP` en `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | Variabele gebruikt in de [Optie voor beheer van toestemming](/help/components/dimensions/cm-opt-out.md) dimensie. Er kunnen meerdere waarden aanwezig zijn per hit, gescheiden door een pipe (`\|`). Geldige waarden zijn `SSF`, `DMP`, en `SELL`. | varchar(100) |
 | **`date_time`** | De tijd van de treffer in leesbare formaat, die op de tijdzone van de rapportreeks wordt gebaseerd. | datetime |
 | **`domain`** | Variabele gebruikt in de [Domein](/help/components/dimensions/domain.md) dimensie. Gebaseerd op het internettoegangspunt van de bezoeker. | varchar(100) |
 | **`duplicate_events`** | Vermeldt elke gebeurtenis die als een duplicaat is geteld. | varchar(255) |
@@ -163,6 +163,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`page_type`** | Wordt gebruikt om de [Pagina&#39;s niet gevonden](/help/components/dimensions/pages-not-found.md) dimensie. Wordt uitsluitend gebruikt voor 404 pagina&#39;s. Deze variabele moet leeg zijn of de waarde bevatten `ErrorPage`. | teken(20) |
 | **`page_url`** | De URL van de hit. Let op: `post_page_url` wordt gestript voor het volgen van verbinding beeldverzoeken en gebruikt een gegevenstype van varchar (255). | text |
 | **`pagename`** | Wordt gebruikt om de [Pagina](/help/components/dimensions/page.md) dimensie. Als de [`pagename`](/help/implement/vars/page-vars/pagename.md) variabele is leeg, Analytics gebruikt `page_url` in plaats daarvan. | varchar(100) |
+| **`pagename_no_url`** | Vergelijkbaar met `pagename`, behalve dat het niet terugvalt naar `page_url`. Alleen de `post` is beschikbaar. | varchar(100) |
 | **`paid_search`** | Markering die wordt ingesteld als de treffer overeenkomt met de detectie van betaalde zoekopdrachten. | tinyint zonder teken |
 | **`partner_plugins`** | Niet gebruikt. Onderdeel van een gesloopt onderdeel. | varchar(255) |
 | **`persistent_cookie`** | Gebruikt in de [Permanente ondersteuning voor cookies](/help/components/dimensions/persistent-cookie-support.md) dimensie. Geeft aan of de bezoeker cookies ondersteunt die na elke hit niet worden verwijderd. | teken(1) |
@@ -201,9 +202,10 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`socialownedpropertyid`** | Niet meer gebruikt. ID sociale eigendom | varchar(255) |
 | **`socialownedpropertyname`** | Niet meer gebruikt. Naam van sociale eigendom | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | Niet meer gebruikt. Eigendom van sociale media versus app | varchar(255) |
+| **`sourceid`** | . | int zonder teken |
 | **`state`** | Staatvariabele. | varchar(50) |
 | **`stats_server`** | Niet gebruiken. Adobe interne server die de hit heeft verwerkt. | teken(30) |
-| **`survey`** | Niet meer gebruikt. Adobe Survey-variabele. | text |
+| **`survey`** | Niet meer gebruikt. Adobe Survey-variabele. Alleen de `post` is beschikbaar. | text |
 | **`survey_instances`** | Niet meer gebruikt. Variabele voor Adobe Survey-instanties. | text |
 | **`t_time_info`** | Lokale tijd voor de bezoeker. Indeling is: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Wordt gebruikt in Adobe Target-integratie. Vertegenwoordigt alle tests momenteel gekwalificeerd voor. Indeling is: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
