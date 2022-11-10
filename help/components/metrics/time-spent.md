@@ -3,10 +3,10 @@ title: Hoe Tijd besteed wordt berekend in Adobe Analytics
 description: Een geaggregeerde pagina van de gebruikte afmetingen en metriek in de tijd.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 283b8e23c95b46d091b41ed97ca9bc683e7a33ee
+source-git-commit: e2128ef18a62832a9740a4cb610685f351c7db19
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 5%
+source-wordcount: '1531'
+ht-degree: 6%
 
 ---
 
@@ -18,13 +18,13 @@ Diversen [!UICONTROL 'time spent'] metriek en afmetingen worden aangeboden in Ad
 
 | Metrisch | Definitie | Beschikbaar in |
 |---|---|---|
-| [!UICONTROL Total seconds spent] | Vertegenwoordigt de totale hoeveelheid tijd bezoekers met een specifiek afmetingspunt in wisselwerking staan. Bevat de instantie van een waarde en persistentie voor alle volgende treffers. In het geval van props wordt de doorgebrachte tijd ook geteld bij volgende koppelingsgebeurtenissen. | Analysis Workspace, Reports &amp; Analytics, Report Builder (ook wel &quot;totale tijd besteed&quot; genoemd), Data Warehouse |
+| [!UICONTROL Total seconds spent] | Vertegenwoordigt de totale hoeveelheid tijd bezoekers met een specifiek afmetingspunt in wisselwerking staan. Bevat de instantie van een waarde en persistentie voor alle volgende treffers. In het geval van props wordt de doorgebrachte tijd ook geteld bij volgende koppelingsgebeurtenissen. | Analysis Workspace, Reports &amp; Analytics, Report Builder (ook wel &#39;totale tijd besteed&#39; genoemd), Data Warehouse |
 | [!UICONTROL Time spent per visit] (Seconden) | Ongeveer *Totaal aantal bestede seconden / (bezoek-grenzen)*<br> Geeft de gemiddelde hoeveelheid tijd aan dat bezoekers tijdens elk bezoek met een specifieke dimensie-item communiceren. **Opmerking**: Deze metrische waarde kan niet onafhankelijk worden berekend omdat de noemer van deze functie een interne metrische waarde is. | Analysis Workspace, rapporten en analyses |
 | [!UICONTROL Time spent per visitor] (Seconden) | Ongeveer *Totaal aantal gebruikte seconden / unieke bezoeker*<br> Geeft de gemiddelde hoeveelheid tijd aan dat bezoekers interageren met een specifiek dimensie-item over het leven van de bezoeker (duur van hun cookie). **Opmerking**: Deze metrische waarde kan niet onafhankelijk worden berekend omdat de noemer van deze functie een interne metrische waarde is. | Analysis Workspace, rapporten en analyses |
-| [!UICONTROL Time Spent/User (State)] | Ongeveer *Totaal aantal seconden mobiele app besteed/unieke bezoekers van mobiele apps*<br> Geeft de gemiddelde hoeveelheid tijd aan dat mobiele App-bezoekers communiceren met een specifiek dimensie-item gedurende de levensduur van de bezoeker (de duur van hun cookie). **Opmerking**: Deze metrische waarde kan niet onafhankelijk worden berekend omdat de noemer van deze functie een interne metrische waarde is. | Analysis Workspace |
+| [!UICONTROL Time Spent/User (State)] | Ongeveer *Totaal aantal seconden mobiele app besteed/unieke bezoekers van mobiele apps*<br> Geeft de gemiddelde hoeveelheid tijd aan dat mobiele App-bezoekers communiceren met een specifiek dimensie-item tijdens de levensduur van de bezoeker (de duur van hun cookie). **Opmerking**: Deze metrische waarde kan niet onafhankelijk worden berekend omdat de noemer van deze functie een interne metrische waarde is. | Analysis Workspace |
 | [!UICONTROL Average time spent on site] (Seconden) | Vertegenwoordigt de totale hoeveelheid tijd bezoekers met een specifiek afmetingspunt, per opeenvolging met een afmetingspunt in wisselwerking staan. Het is niet alleen beperkt tot &quot;site&quot;-gemiddelden, zoals de naam suggereert. Zie de sectie &#39;Hoe tijd besteed wordt&#39; voor meer informatie over reeksen.<br>**Opmerking**: Deze maatstaf verschilt zeer waarschijnlijk van &#39;Tijd per bezoek&#39; op het niveau van dimensiepunten als gevolg van de verschillen in de noemer in de berekening. | Analysis Workspace, Reports &amp; Analytics (weergegeven in minuten), Report Builder (weergegeven in minuten) |
 | [!UICONTROL Average time on site] | Dit is zelfde metrisch zoals *Gemiddelde tijd die ter plaatse is doorgebracht (seconden)*, behalve opgemaakt als Tijd (uu:mm:ss) | Analysis Workspace |
-| [!UICONTROL Average time spent on page] | Vervangen metrisch.<br> In plaats daarvan raden we u aan &quot;Gemiddelde tijd die ter plekke wordt doorgebracht&quot; te gebruiken als er een gemiddelde tijd voor een dimensie-item nodig is. | Report Builder (wanneer een dimensie zich in het verzoek bevindt) |
+| [!UICONTROL Average time spent on page] | Vervangen metrisch.<br> In plaats daarvan, adviseren wij dat u &quot;Gemiddelde tijd die aan plaats wordt doorgebracht&quot;gebruikt als de gemiddelde tijd voor een afmetingspunt wordt vereist. | Report Builder (wanneer een dimensie zich in het verzoek bevindt) |
 | [!UICONTROL Total session length], ook bekend als [!UICONTROL Previous session length] | Alleen mobiele App SDK. <br>De volgende keer dat de app wordt gestart, is bepaald voor de vorige sessie. Deze maateenheid wordt berekend in seconden en telt niet wanneer de toepassing op de achtergrond wordt uitgevoerd, alleen wanneer deze wordt gebruikt. Dit is metrisch op sessieniveau.<br>Voorbeeld: We installeren app ABC, starten deze en gebruiken deze gedurende 2 minuten en sluiten de app vervolgens. Over deze sessietijd worden geen gegevens verzonden. De volgende keer dat we de app starten, [!UICONTROL Previous Session Length] wordt verzonden met een waarde van 120. | Analysis Workspace, Rapporten &amp; Analyse, Report Builder, Mobiele Diensten UI |
 | [!UICONTROL Average session length] (mobiel) | *Totale sessieduur / (Starten - eerste starten)*<br> Alleen mobiele App SDK. Dit is metrisch op sessieniveau. | Report Builder, gebruikersinterface voor mobiele services |
 
@@ -55,9 +55,9 @@ De **noemer** is niet beschikbaar als een aparte metrische waarde in Adobe Analy
 
 ## Veelgestelde vragen
 
-**V1: Kunnen alle metriek van &quot;tijd besteed&quot;op om het even welke dimensie worden toegepast?**
++++Kunnen alle metriek &#39;bestede tijd&#39; op om het even welke dimensie worden toegepast?
 
-A: De metriek &#39;bestede tijd&#39; die op om het even welke dimensie kan worden toegepast zijn:
+De metriek &#39;bestede tijd&#39; die op om het even welke dimensie kan worden toegepast zijn:
 
 * [!UICONTROL Total seconds spent]
 
@@ -67,22 +67,28 @@ A: De metriek &#39;bestede tijd&#39; die op om het even welke dimensie kan worde
 
 * [!UICONTROL Average time spent on site] (Seconden)
 
-**V2: Welke tijd bestede dimensie wordt het best gebruikt in uitsplitsingen met andere dimensies?**
++++
 
-A: De [!UICONTROL Time Spent on Page – granular] dimensie is een dimensie op raakniveau. Als je dit opsplitst naar een andere dimensie, zal je de seconden vertellen dat een hit bleef waar ook de afbraakdimensie aanwezig was.
++++Welke tijd bestede dimensie wordt het best gebruikt in uitsplitsingen met andere dimensies?
+
+De [!UICONTROL Time Spent on Page – granular] dimensie is een dimensie op raakniveau. Als je dit opsplitst naar een andere dimensie, zal je de seconden vertellen dat een hit bleef waar ook de afbraakdimensie aanwezig was.
 In het onderstaande voorbeeld is de zoekterm &#39;classificfieds&#39; gekoppeld aan raaktijden van 54 seconden, 59 seconden, enz., wat er wellicht op duidt dat bezoekers tijd doorbrengen bij het lezen van inhoud die voor die termijn is geretourneerd.
 
 ![](assets/time-spent1.png)
 
-**3e kwartaal: Wat metrisch tegen de afmeting van past is [!UICONTROL Time Spent on Page – granular]?**
++++
 
-A: Elke metrische waarde. De dimensie geeft de tijd weer die wordt besteed aan de exacte hit waar de gebeurtenis heeft plaatsgevonden. Hogere tijd betekent dat een bezoeker langer op een pagina (hit) is gebleven waar de gebeurtenis heeft plaatsgevonden.
++++Wat metrisch tegenover de afmeting van past is [!UICONTROL Time Spent on Page – granular]?
+
+Elke metrische waarde. De dimensie geeft de tijd weer die wordt besteed aan de exacte hit waar de gebeurtenis heeft plaatsgevonden. Hogere tijd betekent dat een bezoeker langer op een pagina (hit) is gebleven waar de gebeurtenis heeft plaatsgevonden.
 
 ![](assets/time-spent2.png)
 
-**V4: Hoe werkt [!UICONTROL Average Time Spent on Site] verschillen van [!UICONTROL Time Spent per Visit]?**
++++
 
-A: Het verschil is de noemer in metrisch:
++++Hoe doet dit [!UICONTROL Average Time Spent on Site] verschillen van [!UICONTROL Time Spent per Visit]?
+
+Het verschil is de noemer in metrisch:
 
 * [!UICONTROL Average time spent on site] gebruikt de opeenvolgingen die een afmetingspunt omvatten.
 
@@ -90,9 +96,11 @@ A: Het verschil is de noemer in metrisch:
 
 Dit heeft tot gevolg dat deze meetgegevens bij een bezoek vergelijkbare resultaten opleveren, maar dat ze bij een treffer anders zijn.
 
-**V5: Waarom worden totalen uitgesplitst met [!UICONTROL Average Time Spent on Site] komt het bovenliggende regelitem niet overeen?**
++++
 
-A: Omdat [!UICONTROL Average Time Spent on Site] hangt van ongebroken opeenvolgingen van een afmeting af, en het binnenrapport hangt niet van het buitenrapport af wanneer het berekenen van deze looppas.
++++Why do breaktotale with [!UICONTROL Average Time Spent on Site] komt het bovenliggende regelitem niet overeen?
+
+Omdat [!UICONTROL Average Time Spent on Site] hangt van ongebroken opeenvolgingen van een afmeting af, en het binnenrapport hangt niet van het buitenrapport af wanneer het berekenen van deze looppas.
 
 Neem bijvoorbeeld het volgende bezoek.
 
@@ -105,6 +113,8 @@ Neem bijvoorbeeld het volgende bezoek.
 Bij het berekenen van de tijd die voor de Homepage wordt doorgebracht, zou deze (30+10)/2=20 zijn, maar het onderbreken van die tijd per dag zou geven (30+10)/1=40 aangezien de dag één enkele ononderbroken looppas van 1 Januari heeft.
 
 Dit heeft tot gevolg dat deze meetgegevens bij een bezoek vergelijkbare resultaten opleveren, maar dat ze bij een treffer anders zijn.
+
++++
 
 ## Voorbeelden van [!UICONTROL Time Spent] berekeningen
 
