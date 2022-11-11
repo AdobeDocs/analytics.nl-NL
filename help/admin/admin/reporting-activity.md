@@ -3,13 +3,13 @@ description: Leer over hoe te om de Manager van de Activiteit van de Rapporterin
 title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
+exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
+source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '867'
 ht-degree: 2%
 
 ---
-
 
 # Activity Manager rapporteren
 
@@ -31,7 +31,9 @@ In Adobe Analytics gaan beheerders naar **[!UICONTROL Admin]** > **[!UICONTROL R
 
 ## Toestemmingen
 
-U hebt beheermachtigingen voor Analytics Product Admin nodig voor het beheer van rapportageactiviteiten.
+U hebt de toestemming van de Beheerder van het Product van de Analyse (in Adobe Admin Console) nodig om rapporteringsactiviteit te beheren.
+
+![machtiging](assets/rep-mgr-permission.png)
 
 ## De wachtrij met rapporten weergeven
 
