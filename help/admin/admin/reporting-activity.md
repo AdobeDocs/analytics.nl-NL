@@ -4,9 +4,9 @@ title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
+source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '895'
 ht-degree: 2%
 
 ---
@@ -88,7 +88,7 @@ De overzichtsaantallen tonen de volgende informatie:
 
 | Samenvattingsnummer | Beschrijving |
 | --- | --- |
-| [!UICONTROL Users] | Hoeveel gebruikers verzenden momenteel rapporteringsverzoeken naar deze rapportsuite. |
+| [!UICONTROL Users] | Het aantal gebruikers dat momenteel rapportageaanvragen naar deze rapportsuite verzendt. |
 | [!UICONTROL Projects] | Werkruimteprojecten, Report Builder-werkboeken, enz. |
 | [!UICONTROL Queries] | Het aantal query&#39;s dat momenteel wordt uitgevoerd. |
 | [!UICONTROL Average Wait Time] | De gemiddelde wachttijd voor alle lopende vragen. |
@@ -120,7 +120,10 @@ De gedetailleerde tabel hieronder bevat details over de rapportsuite.
 
 Een aanvraag annuleren
 
-1. Vink het vakje links van een of meer aan **[!UICONTROL Query ID]** in de tabel en klik op **[!UICONTROL Cancel requests]** onderaan. (U kunt aanvragen ook bulksgewijs annuleren door de details te bekijken door [!UICONTROL User], [!UICONTROL Project], of [!UICONTROL Application].)
+1. Vink het vakje links van een of meer aan **[!UICONTROL Query ID]** in de tabel en klik op **[!UICONTROL Cancel requests]** onderaan.
+
+   U kunt aanvragen ook bulksgewijs annuleren door details te bekijken door [!UICONTROL User], [!UICONTROL Project], of [!UICONTROL Application]. Volgende aanvragen voor een project, een gebruiker of een toepassing die zich niet in de wachtrij of bij annulering bevonden, kunnen nog steeds worden weergegeven wanneer de activiteit wordt vernieuwd.
+
 1. In de **[!UICONTROL Cancel x query]** venster dat wordt weergegeven, kunt u het annuleringsbericht indien nodig wijzigen.
 1. Klik op **[!UICONTROL Continue]**.
 
