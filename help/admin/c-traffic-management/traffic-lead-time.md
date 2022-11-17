@@ -3,10 +3,10 @@ description: Adobe vereist voorafgaande kennisgeving voor nieuwe accountinstelli
 title: Vereiste aanlooptijd voor traffic-toename
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: f9462d1b8b2795bec9dab9b479d4885fcaa92b5d
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 4%
+source-wordcount: '341'
+ht-degree: 3%
 
 ---
 
@@ -24,36 +24,30 @@ Gebruik de volgende richtlijnen om te bepalen hoe ver van tevoren u een verkeers
 
 ## Termijnen voor hardwaretoewijzing
 
+
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> DAGELIJKSE verkeersramingen (Hits) </th>
-   <th colname="col2" class="entry"> <p>Leadtijd vereist (januari - oktober) </p> </th>
-   <th colname="col3" class="entry"> <p>Leadtijd vereist (november - december) </p> </th>
+   <th colname="col1" class="entry"> Type wijziging </th>
+   <th colname="col2" class="entry"> Leadtijd vereist </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Tot 1.000.000 </td>
-   <td colname="col2"> Geen aanlooptijd nodig </td>
-   <td colname="col3"> Geen aanlooptijd nodig </td>
+   <td colname="col1"> Nieuwe accountinstellingen </td>
+   <td colname="col2"> <ul><li>3 werkdagen</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 1.000.000 - 5.000.000 </td>
-   <td colname="col2"> Twee BEDRIJFSdagen </td>
-   <td colname="col3" morerows="3"> Alle voor november-december beoogde verkeersverhogingen moeten uiterlijk op 1 september worden ingediend. Dit moet tijd toestaan om capaciteit indien nodig aan te kopen om vakantieverkeer op te vangen. </td>
+   <td colname="col1"> Verkeerspiek of plotselinge permanente toename van het verkeer met gemiddeld 25% van het dagelijkse volume in vergelijking met de laatste 30 dagen</td>
+   <td colname="col2"> <ul><li>Reeksen rapporteren met &lt; 100M hits/dag: Geen melding vereist</li><li>Reeksen rapporteren met &gt; 100M hits/dag: 5 werkdagen</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 5.000.000 - 10.000.000 </td>
-   <td colname="col2"> Eén kalenderweek </td>
+   <td colname="col1"> Verkeerspiek of plotselinge permanente toename van het verkeer met meer dan 25% van het gemiddelde dagelijkse volume in vergelijking met de laatste 30 dagen</td>
+   <td colname="col2"> <ul><li>5 werkdagen</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 10.000.000 - 25.000.000 </td>
-   <td colname="col2"> Twee kalenderweken </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Boven 25.000.000 </p> </td>
-   <td colname="col2"> Een of meer maanden </td>
+   <td colname="col1"> Feiten voor feestdagen oktober - december </td>
+   <td colname="col2"> <ul><li>Eén kalendermaand</li></ul> </td>
   </tr>
  </tbody>
 </table>
