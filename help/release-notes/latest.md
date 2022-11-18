@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 3c010207764de51ed053b7bf9ee777e68097e411
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1447'
 ht-degree: 2%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (oktober/november 2022)
 
-**Laatste update**: 28 oktober 2022
+**Laatste update**: 18 november 2022
 
 Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -39,6 +39,7 @@ AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
+| **Bijgewerkte richtlijnen voor meldingen van verkeerspinnen** | 18 november 2022 | Voormalige richtsnoeren waren uitsluitend gebaseerd op raakvolumes. De [nieuwe richtsnoeren](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=en) zijn gebaseerd op een combinatie van de grootte van de rapportreeks en percentenverhoging. |
 | **Bijwerken naar apparaatraadplegingen als gevolg van Google Client Hints** | 14 oktober 2022 | Het gebruik van client-tips in de opzoekprocedure van apparaten, oorspronkelijk gepland voor 26 oktober 2022, is uitgesteld tot **Januari 2023**. <p> <p>Vanaf oktober 2022 is het mogelijk om cliëntwenken met of de bibliotheken van SDK van het Web of van JavaScript van de Meting te verzamelen AppMeasurement. Maar de cliëntwenken zullen niet in apparatenraadpleging tot Januari 2023 worden opgenomen. Op die datum, zal Adobe beginnen gebruikend cliëntwenken naast gebruiker-Agent wanneer het afleiden van bepaalde apparateninformatie voor klappen die uit Chromium browsers, zoals Google Chrome en Microsoft Edge komen. Dit is in antwoord op het plan van Google om de informatie geleidelijk te verminderen die van het user-Agent koord in plaats van gegevens wordt voorgesteld die via cliëntwenken worden overgegaan. <p> <p>Als deel van deze verandering, zal Adobe de Atlas van het Apparaat voor alle apparatenraadplegingen met betrekking tot gebruiker-Agent gebruiken. [Meer informatie](/help/technotes/client-hints.md) |
 | **Standaardlandingspagina** | 29 september 2022 | De [nieuwe bestemmingspagina](/help/analyze/landing.md) die eerder dit jaar is geïntroduceerd, wordt de standaardeigenschap voor alle gebruikers in de **Januari 2023**. De huidige pagina wordt afgekeurd en iedereen moet de nieuwe ervaring gebruiken. |
 | **[!UICONTROL Anomaly detection]automatisch afloopcondities** | 29 september 2022 | Vandaag, [!UICONTROL Anomaly detection] auto-looppas op alle kolommen van tijd-reeksen vrije lijsten. Om ervoor te zorgen dat gegevens beschikbaar zijn voor analyse en projecten sneller worden geladen, wijzigt Adobe de manier waarop Anomaly-detectie automatisch wordt uitgevoerd. Starten **26 oktober 2022**, [!UICONTROL Anomaly detection] zal auto-looppas slechts op de eerste metrische kolom in een lijst. U kunt kolommontages vormen om anomalieopsporing op andere kolommen in werking te stellen, indien nodig. |
