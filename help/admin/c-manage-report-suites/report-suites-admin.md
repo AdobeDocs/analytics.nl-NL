@@ -3,18 +3,30 @@ description: Een rapportsuite definieert de volledige, onafhankelijke rapportage
 title: Rapportsuitebeheer
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '405'
 ht-degree: 3%
 
 ---
 
 # Rapportsuitebeheer
 
-Een rapportsuite definieert de volledige, onafhankelijke rapportage op een gekozen website, een set websites of een subset van webpagina&#39;s. Doorgaans is een rapportenpakket één website, maar het kan een globaal segment zijn waar u verscheidene aantallen van plaatsen hebt gecombineerd om totalen te krijgen. Wanneer u zich bij om het even welke oplossing van Adobe Analytics aanmeldt, selecteert u één te gebruiken rapportreeks (behalve wanneer u roll-ups gebruikt die rapportreeksen combineren). Bovendien kan een rapportsuite kleiner zijn dan een website als u rapporten voor een gedeelte van uw site wilt uitvoeren. De oplossingen van Analytics groeperen en rapporteren over deze gegevensopslag. Met Beheer Report Suite Manager kunt u de regels definiëren die bepalen hoe gegevens in een rapportsuite worden verwerkt.
+Een rapportsuite definieert de volledige, onafhankelijke rapportage voor een van de volgende gegevensopslaginstellingen:
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
+* Eén website (meest standaard)
+
+* Een deel of subset van één website
+
+* Een globaal segment dat uit de aantallen van verscheidene plaatsen bestaat om totalen te krijgen
+
+De oplossingen van Analytics groeperen en rapporteren over deze gegevensopslag. Met Beheer Report Suite Manager kunt u de regels definiëren die bepalen hoe gegevens in een rapportsuite worden verwerkt.
+
+Wanneer u zich bij om het even welke oplossing van Adobe Analytics aanmeldt, selecteert u één te gebruiken rapportreeks (behalve wanneer u roll-ups gebruikt die rapportreeksen combineren).
+
+Een rapportsuite openen:
+
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**
 
 >[!NOTE]
 >
