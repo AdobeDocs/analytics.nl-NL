@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
+source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
 workflow-type: tm+mt
-source-wordcount: '3638'
+source-wordcount: '3641'
 ht-degree: 0%
 
 ---
@@ -125,13 +125,13 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`mobilecampaignterm`** | Betaalde trefwoorden of andere termen die u met deze overname wilt bijhouden. Bevolkt door Mobile App Acquisition. | varchar(255) |
 | **`mobiledayofweek`** | Het nummer van de weekdag waarop de app is gestart. | varchar(255) |
 | **`mobiledayssincefirstuse`** | Aantal dagen sinds de app voor de eerste keer is uitgevoerd. | varchar(255) |
-| **`mobiledayssincelastupgrade`** | Verzameld van de variabele van contextgegevens a.DaysSinceLastUpgrade. Het aantal dagen dat is verstreken sinds de vorige sessie. | varchar(255) |
+| **`mobiledayssincelastupgrade`** | RETIRED - Verzameld van de variabele van contextgegevens a.DaysSinceLastUpgrade. Het aantal dagen dat is verstreken sinds de vorige sessie. | varchar(255) |
 | **`mobiledayssincelastuse`** | Aantal dagen sinds de app voor de laatste keer is uitgevoerd. | varchar(255) |
 | **`mobiledeeplinkid`** | Verzameld op basis van de variabele contextgegevens `a.deeplink.id`. Wordt gebruikt in overnamerapporten als een identifier voor een koppeling naar een mobiele overname. | varchar(255) |
 | **`mobiledevice`** | Naam van mobiel apparaat. In iOS wordt de notatie opgeslagen als een door komma&#39;s gescheiden tekenreeks van 2 cijfers. Het eerste getal vertegenwoordigt de apparaatgeneratie en het tweede getal vertegenwoordigt de apparaatfamilie. | varchar(255) |
 | **`mobilehourofday`** | Definieert het uur van de dag waarop de app is gestart. Volg de numerieke notatie van 24 uur. | varchar(255) |
 | **`mobileinstalldate`** | Datum mobiele installatie. Verstrekt de datum van de eerste keer een gebruiker de mobiele app opent. | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | Verzameld van de variabele van contextgegevens a.LaunchesSinceUpgrade. Meldt het aantal keren dat de installatie is gestart sinds de laatste upgrade. | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | RETIRED - Verzameld van de variabele van contextgegevens a.LaunchesSinceUpgrade. Meldt het aantal keren dat de installatie is gestart sinds de laatste upgrade. | varchar(255) |
 | **`mobilelaunchnumber`** | Elke keer dat de mobiele app wordt gestart, neemt deze met één toe. | varchar(255) |
 | **`mobileltv`** | Niet meer gebruikt. Bevolkt door trackLifetimeValue-methoden. | varchar(255) |
 | **`mobilemessagebuttonname`** | Verzameld op basis van de variabele contextgegevens `a.message.button.id`. Wordt gebruikt voor in-app berichten om de knop te identificeren waarmee het bericht is gesloten. | varchar(100) |
@@ -139,7 +139,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`mobilemessageonline`** | Bericht online in de app | varchar(255) |
 | **`mobilemessagepushoptin`** | Verzameld op basis van de variabele contextgegevens `a.push.optin`. Stel dit in op &quot;true&quot; wanneer de gebruiker het verzenden via pushberichten inschakelt. anders is de waarde &quot;false&quot;. | varchar(255) |
 | **`mobilemessagepushpayloadid`** | Verzameld op basis van de variabele contextgegevens `a.push.payloadid`. Gebruikt in duw overseinen als nuttige ladings herkenningsteken. | varchar(255) |
-| **`mobileosenvironment`** | Verzameld op basis van de variabele contextgegevens `a.OSEnvironment`. Frames in de OS-omgeving, zoals Android of iOS. | varchar(255) |
+| **`mobileosenvironment`** | RETIRED - Verzameld van de variabele van contextgegevens `a.OSEnvironment`. Frames in de OS-omgeving, zoals Android of iOS. | varchar(255) |
 | **`mobileosversion`** | Versie van besturingssysteem voor mobiele services | varchar(255) |
 | **`mobileplaceaccuracy`** | Verzameld op basis van de variabele contextgegevens `a.loc.acc`. Geeft de nauwkeurigheid van de GPS in meters aan op het moment van verzameling. | varchar(255) |
 | **`mobileplacecategory`** | Verzameld op basis van de variabele contextgegevens `a.loc.category`. Beschrijft de categorie van een specifieke plaats. | varchar(255) |
