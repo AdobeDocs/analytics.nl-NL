@@ -1,13 +1,13 @@
 ---
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
-source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
+source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
-
 
 # Overzicht van tips en veelgestelde vragen voor klanten
 
@@ -41,7 +41,7 @@ Dit [Google-blogbericht](https://web.dev/user-agent-client-hints/) is een goede 
 
 +++**Hoe laat ik de inzameling van cliëntwenken toe?**
 
-Tips voor lage entropie worden automatisch door de browser opgegeven en worden opgenomen om apparaat- en browserinformatie af te leiden. De nieuwere versies van Web SDK (die met 2.12.0 beginnen) en AppMeasurement (die met 2.23.0 begint) kunnen worden gevormd om hoge entropiewenken via hun respectieve uitbreidingen van Markeringen of direct via een configuratieoptie te verzamelen. Zie aanwijzingen voor [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) en [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
+Tips voor lage entropie worden automatisch door de browser opgegeven en worden opgenomen om apparaat- en browserinformatie af te leiden. De nieuwere versies van Web SDK (die met 2.12.0 beginnen) en AppMeasurement (die met 2.23.0 begint) kunnen worden gevormd om hoge entropiewenken via hun respectieve uitbreidingen van Markeringen of direct via een configuratieoptie te verzamelen. Zie aanwijzingen voor [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) en [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Voor beide bibliotheken is het verzamelen van hoge entropiehints **standaard uitgeschakeld**.
 
@@ -81,17 +81,25 @@ De beschikbare apparaatvelden voor rapportage blijven ongewijzigd. De gegevens d
 
 Deze gebieden worden direct afgeleid uit gebruiker-Agent maar user-Agent kan worden gebruikt om waarden voor andere apparaat verwante gebieden af te leiden, afhankelijk van de apparatendetails.
 
-* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=en)
-* [Browsertype](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=en)
-* [Besturingssysteem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)
-* [Typen besturingssystemen](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=en)
-* [Mobiel apparaat en type mobiel apparaat](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)
+* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
+* [Browsertype](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
+* [Besturingssysteem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
+* [Typen besturingssystemen](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
+* [Mobiel apparaat en type mobiel apparaat](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
 
 +++
 
 +++**Welke gedeelten van de user-Agent worden &quot;bevroren&quot;en wanneer?**
 
 Zie de [tijdlijn gepubliceerd door Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Dit kan worden gewijzigd.
+
++++
+
++++**Op welke manieren hangt Analytics van de Agent van de Gebruiker af?**
+
+Apparaatinformatie in rapportage wordt afgeleid van de gebruikersagent. Wij hebben onze processen bijgewerkt om zowel de Agent van de Gebruiker als cliëntwenken te gebruiken waar beschikbaar.
+
+De fallback-id ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) wordt afgeleid uit de Agent van de Gebruiker en IP Adres. Deze id wordt alleen gebruikt als een cookie niet kan worden ingesteld en daarom niet op grote schaal wordt gebruikt
 
 +++
 
@@ -105,7 +113,7 @@ Zie de [tijdlijn gepubliceerd door Google](https://blog.chromium.org/2021/09/use
 
 +++**Hoe zal Adobe cliëntwenken gebruiken om apparateninformatie af te leiden?**
 
-Adobe gebruikt een derde, de Atlas van het Apparaat, die zowel de cliëntwenken als gebruiker-Agent zal gebruiken om apparateninformatie af te leiden.
+Adobe gebruikt een derde, de Atlas van het Apparaat, die zowel cliëntwenken als gebruiker-Agent zal gebruiken om apparateninformatie af te leiden.
 
 +++
 
@@ -144,4 +152,3 @@ Zie de [schemadocumentatie](https://github.com/adobe/xdm/blob/master/components/
 Ja. Clienttips worden opgenomen in de gegevens die naar AAM worden doorgestuurd. AAM vereist dat hips met hoge entropiegels worden verzameld om de volledige functionaliteit te behouden. Als u [server-kant door:sturen aan AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) dan kunt u inzameling van high-entropy wenken willen toelaten.
 
 +++
-
