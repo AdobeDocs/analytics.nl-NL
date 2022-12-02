@@ -3,9 +3,9 @@ title: Productprofielen voor Adobe Analytics
 description: Leer hoe productprofielen kunnen worden gebruikt als voorinstellingen voor machtigingen die productbeheerders kunnen toewijzen aan gebruikers binnen een organisatie.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+source-git-commit: 88ed2f874d680f9ed1aea9bfb60e303f123cbc37
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Productprofielen zijn voorinstellingen voor machtigingen die productbeheerders kunnen toewijzen aan gebruikers binnen een organisatie. Als u een productprofiel maakt en een Experience Cloud-gebruiker aan dat productprofiel toewijst, nemen deze de machtigingsitems in het productprofiel over.
 
-Zie [Producten en profielen beheren](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) in de gebruikershandleiding voor bedrijven voor algemene informatie over productprofielen.
+Zie [Productprofielen beheren voor zakelijke gebruikers](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in de gebruikershandleiding voor bedrijven voor algemene informatie over productprofielen.
 
 ## Beheerders van productprofielen
 
