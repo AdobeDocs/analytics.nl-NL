@@ -3,10 +3,10 @@ title: Analyses in de Adobe Admin Console
 description: Leer de Adobe Admin Console te gebruiken om analyseproducten en -gebruikers te beheren.
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 087eb1efbd7f34492033e61685082f5830c004ce
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 7%
+source-wordcount: '117'
+ht-degree: 6%
 
 ---
 
@@ -24,6 +24,6 @@ In dit hoofdstuk worden de concepten uitgelegd die u moet begrijpen voor product
 
 ## Beheerder toevoegen in Adobe Analytics
 
-Hier volgt een korte video over het proces:
+Bekijk de volgende videodemonstratie om te leren hoe u een beheerder in Adobe Analytics kunt toevoegen:
 
-https://video.tv.adobe.com/v/37648/?quality=12
+[Beheerder toevoegen in Adobe Analytics](https://video.tv.adobe.com/v/37648/?quality=12){target=_blank}

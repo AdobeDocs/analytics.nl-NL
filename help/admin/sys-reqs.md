@@ -3,20 +3,20 @@ title: Adobe Analytics-systeemvereisten
 description: De systeemvereisten voor het gebruik van Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
+source-git-commit: 1ff50284015588888f9118f7640b4057232457d2
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 1%
+source-wordcount: '125'
+ht-degree: 0%
 
 ---
 
 # Adobe Analytics-systeemvereisten
 
-De meeste Adobe Analytics-oplossingen worden in de browser uitgevoerd. De volgende secties verstrekken systeemvereisten voor zowel browser als cliëntoplossingen:
+De meeste Adobe Analytics-oplossingen worden in de browser uitgevoerd. De informatie in dit artikel verstrekt systeemvereisten voor zowel browser als cliëntoplossingen.
 
 ## Systeemvereisten voor browsergebaseerde oplossingen
 
-De meeste Adobe Analytics-oplossingen, waaronder Analysis Workspace, zijn gebaseerd op browsers. Daarom is een moderne webbrowser de belangrijkste vereiste om Adobe Analytics te gebruiken. Adobe biedt ondersteuning voor de meest recente stabiele versie van deze browsers:
+De meeste Adobe Analytics-oplossingen, waaronder Analysis Workspace, zijn gebaseerd op browsers. Daarom is een moderne webbrowser de belangrijkste vereiste om Adobe Analytics te gebruiken. Adobe biedt ondersteuning voor de meest recente, stabiele versie van de volgende browsers:
 
 * Microsoft Edge
 * Google Chrome
@@ -31,5 +31,5 @@ De meeste Adobe Analytics-oplossingen, waaronder Analysis Workspace, zijn gebase
 
 Zie de verbonden oplossingspagina voor de systeemvereisten van die oplossing.
 
-* [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html)
+* [Report Builder-systeemvereisten](/help/analyze/report-builder/setup/system-requirements.md)
+* [Data Workbench systeemvereisten](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html)
