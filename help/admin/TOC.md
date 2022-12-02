@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+source-git-commit: 6aa05344c5573721f4807a21e30f6393c8976116
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 86%
       + [Productprofielen voor Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Machtigingen voor productprofielen voor rapportsuite](admin-console/permissions/report-suite-tools.md)
       + [Machtigingen voor productprofielen voor Analytics Tools](admin-console/permissions/analytics-tools.md)
-   + [Eerste Adobe Analytics-beheerdershandleiding](admin-console/first-admin-guide.md)
+   + [Beheerdersrollen in Adobe Analytics](admin-console/first-admin-guide.md)
 + Bedrijfsinstellingen {#company-settings}
    + [Overzicht van bedrijfsinstellingen](company/c-company-settings.md)
    + [Toegangsniveaus voor functies](company/feature-access-levels.md)
