@@ -4,10 +4,10 @@ description: Het concept om krediet van een succesgebeurtenis toe te wijzen aan 
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 639449ea27721a15e29ca1b3085788d764b14909
+source-git-commit: ecb3600d524817ccb01f0e0697672e4828d99e86
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 49%
+source-wordcount: '469'
+ht-degree: 46%
 
 ---
 
@@ -64,3 +64,6 @@ Naast elkaar vergelijkingen van Attribution IQ modellen toevoegen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
+## Adobe Analytics-gereedschappen die geen ondersteuning bieden voor Attribution IQ
+
+Gereedschappen die geen ondersteuning bieden voor de API Analytics 2.0, zoals Report Builder, bieden geen ondersteuning voor Attribution IQ.
