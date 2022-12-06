@@ -3,9 +3,9 @@ title: Mobiele afmetingen
 description: Dimension die op het IP adres van het apparaat worden gebaseerd.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Ex
 * **Mobiele drager**: Waarden voor deze dimensie worden gevuld door gegevens van derden (Digital Elements) op te zoeken op basis van de IP-adressen die door Analytics zijn vastgelegd. Voorbeelden van waarden zijn `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`, en `"Verizon"`.
 * **Mobiele kleurdiepte**: De kleurdiepte van het mobiele apparaat, in bits.
 * **Ondersteuning voor mobiele cookies**: Hiermee wordt bepaald of het mobiele apparaat cookies ondersteunt. In dit rapport wordt niet aangegeven of de browser cookies accepteert. Dimension-items bevatten `"Supported"`, `"Not supported"`, en `"Unknown"`.
-* **Mobiel apparaat**: Het mobiele apparaat dat de bezoeker gebruikt.
+* **Mobiel apparaat**: Het mobiele apparaat dat de bezoeker gebruikt. **Opmerking**: Digital Elements publiceert regelmatig updates om nieuwe/bijgewerkte apparaten te herkennen.
 * **Mobiel apparaatnummer**: Hiermee wordt bepaald of het mobiele apparaat het nummer verzendt. Dimension-items bevatten `"Supported"`, `"Not supported"`, en `"Unknown"`.
 * **Mobiel apparaattype**: Het type mobiel apparaat. Voorbeelden van waarden zijn `"Mobile phone"`, `"Tablet"`, `"Media player"`, en `"Gaming console"`.
 * **Mobiele DRM**: Het type DRM dat door het mobiele apparaat wordt ondersteund. Voorbeelden van waarden zijn `"DRM OMA forward"`, `"DRM OMA combined delivery"`, en `"DRM OMA separate delivery"`.
