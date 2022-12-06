@@ -3,9 +3,9 @@ title: getPageLoadTime
 description: Houd bij hoeveel tijd een pagina nodig heeft om te laden.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
+source-git-commit: a00511d62960dc077620b2882f4e7f816267f939
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 >Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 De `getPageLoadTime` de insteekmodule gebruikt het JavaScript-prestatieobject zodat u kunt meten hoeveel tijd het duurt voordat een pagina volledig is geladen. Adobe raadt u aan deze plug-in te gebruiken als u wilt meten hoelang het duurt om pagina&#39;s te laden.
+
+>OPMERKING/WAARSCHUWING: Als u deze insteekmodule vanaf een vorige versie upgradet, moet u waarschijnlijk ook de code wijzigen die deze functie ook aanroept.  Controleer uw implementatie en test het grondig voordat u gaat implementeren naar productie
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -51,22 +53,25 @@ Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getPageLoadTime v2.0.1 with performanceWriteFull, performanceWritePart, performanceCheck, and performanceRead helper functions (Requires AppMeasurement and the p_fo plugin) */
-function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEventEnd&&(clearInterval(window.pi),""===window.cookieRead("s_plt"))){var b=window,d=b.cookieWrite;var c=a.loadEventEnd;var f=a.navigationStart;c=0<=c&&0<=f?6E4>c-f&&0<=c-f?parseFloat((c-f)/1E3).toFixed(2):60:void 0;d.call(b,"s_plt",c);window.cookieWrite("s_pltp",window.pageName)}window.ptc=a.loadEventEnd}if(arguments&&"-v"===arguments[0])return{plugin:"getPageLoadTime",version:"2.0.1"};var e=function(){if("undefined"!==typeof window.s_c_il)for(var a=0,b;a<window.s_c_il.length;a++)if(b=window.s_c_il[a],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof e&&(e.contextData.getPageLoadTime="2.0.1");window.pageName="undefined"!==typeof e&&e.pageName||"";window.cookieWrite=window.cookieWrite||function(a,b,d){if("string"===typeof a){var c=window.location.hostname,f=window.location.hostname.split(".").length-1;if(c&&!/^[0-9.]+$/.test(c)){f=2<f?f:2;var h=c.lastIndexOf(".");if(0<=h){for(;0<=h&&1<f;)h=c.lastIndexOf(".",h-1),f--;h=0<h?c.substring(h):c}}g=h;b="undefined"!==typeof b?""+b:"";if(d||""===b)if(""===b&&(d=-60),"number"===typeof d){var k=new Date;k.setTime(k.getTime()+6E4*d)}else k=d;return a&&(document.cookie=encodeURIComponent(a)+"="+encodeURIComponent(b)+"; path=/;"+(d?" expires="+k.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!==typeof cookieRead)?cookieRead(a)===b:!1}};window.cookieRead=window.cookieRead||function(a){if("string"===typeof a)a=encodeURIComponent(a);else return"";var b=" "+document.cookie,d=b.indexOf(" "+a+"="),c=0>d?d:b.indexOf(";",d);return(a=0>d?"":decodeURIComponent(b.substring(d+2+a.length,0>c?b.length:c)))?a:""};window.p_fo=window.p_fo||function(a){window.__fo||(window.__fo={});if(window.__fo[a])return!1;window.__fo[a]={};return!0};"undefined"!==typeof performance&&p_fo("performance")&&((e=performance,e.clearResourceTimings(),""!==window.cookieRead("s_plt")&&(0<e.timing.loadEventEnd&&clearInterval(window.pi),this._pltLoadTime=window.cookieRead("s_plt"),this._pltPreviousPage=window.cookieRead("s_pltp"),window.cookieWrite("s_plt",""),window.cookieWrite("s_pltp","")),0===e.timing.loadEventEnd)?window.pi=setInterval(function(){l()},250):0<e.timing.loadEventEnd&&(window.ptc?window.ptc===e.timing.loadEventEnd&&1===e.getEntries().length&&(window.pwp=setInterval(function(){var a=performance;0<a.getEntries().length&&(window.ppfe===a.getEntries().length?clearInterval(window.pwp):window.ppfe=a.getEntries().length);""===window.cookieRead("s_plt")&&(window.cookieWrite("s_plt",((a.getEntries()[a.getEntries().length-1].responseEnd-a.getEntries()[0].startTime)/1E3).toFixed(2)),window.cookieWrite("s_pltp",window.pageName))},500)):l()))};
+/* Adobe Consulting Plugin: getPageLoadTime v3.0 */
+!function(){let e=globalThis.window||this;e.getPageLoadTime=function(t){let i=function(){if(e.s_c_il){for(let t in e.s_c_il)if("s_c"===e.s_c_il[t]._c)return e.s_c_il[t]}}();function n(){var i=performance.timing;i.loadEventEnd>0&&(clearInterval(e.pi),""===e.cookieRead("s_plt")&&e.cookieWrite("s_plt",function e(t,i){if(t>=0&&i>=0)return t-i<6e4&&t-i>=0?parseFloat((t-i)/1e3).toFixed(2):60}(i.loadEventEnd,i.navigationStart)+","+t)),e.ptc=i.loadEventEnd}if(i&&(i.contextData.getPageLoadTime="3.1"),t=t||i&&i.pageName||document.location.href,e.cookieWrite=e.cookieWrite||function(t,i,n){if("string"==typeof t){if(g=function(){var t=e.location.hostname,i=e.location.hostname.split(".").length-1;if(t&&!/^[0-9.]+$/.test(t)){i=2<i?i:2;var n=t.lastIndexOf(".");if(0<=n){for(;0<=n&&1<i;)n=t.lastIndexOf(".",n-1),i--;n=0<n?t.substring(n):t}}return n}(),i=void 0!==i?""+i:"",n||""===i){if(""===i&&(n=-60),"number"==typeof n){var o=new Date;o.setTime(o.getTime()+6e4*n)}else o=n}return!!t&&(document.cookie=encodeURIComponent(t)+"="+encodeURIComponent(i)+"; path=/;"+(n?" expires="+o.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!=typeof cookieRead)&&cookieRead(t)===i}},e.cookieRead=e.cookieRead||function(e){if("string"!=typeof e)return"";e=encodeURIComponent(e);var t=" "+document.cookie,i=t.indexOf(" "+e+"="),n=0>i?i:t.indexOf(";",i);return(e=0>i?"":decodeURIComponent(t.substring(i+2+e.length,0>n?t.length:n)))?e:""},e.p_fo=e.p_fo||function(t){return e.__fo||(e.__fo={}),!e.__fo[t]&&(e.__fo[t]={},!0)},performance&&e.p_fo("performance")){var o=performance;o.clearResourceTimings(),""!==e.cookieRead("s_plt")&&(o.timing.loadEventEnd>0&&clearInterval(e.pi),this._pltLoadTime=e.cookieRead("s_plt").split(",")[0],this._pltPreviousPage=e.cookieRead("s_plt").split(",")[1],e.cookieWrite("s_plt","")),0===o.timing.loadEventEnd?e.pi=setInterval(function(){n()},250):o.timing.loadEventEnd>0&&(e.ptc?e.ptc===o.timing.loadEventEnd&&1===o.getEntries().length&&(e.pwp=setInterval(function(){var i;(i=performance).getEntries().length>0&&(e.ppfe===i.getEntries().length?clearInterval(e.pwp):e.ppfe=i.getEntries().length),""===e.cookieRead("s_plt")&&e.cookieWrite("s_plt",((i.getEntries()[i.getEntries().length-1].responseEnd-i.getEntries()[0].startTime)/1e3).toFixed(2)+","+t)},500)):n())}},e.getPageLoadTime.getVersion=function(){return{plugin:"getPageLoadTime",version:"3.0"}}}();
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
 ## De plug-in gebruiken
 
-De `getPageLoadTime` gebruiken geen argumenten. Wanneer deze functie wordt aangeroepen, retourneert deze niets. In plaats daarvan worden de volgende variabelen ingesteld:
+De `getPercentPageViewed` function gebruikt de volgende argumenten:
 
-* `s._pltPreviousPage`: De vorige pagina zodat u de laadtijd kunt omzetten in de vorige pagina
-* `s._pltLoadTime`: De tijd in seconden die de vorige pagina nodig had om te laden
+* **`pv`** (optioneel, tekenreeks): De dimensie waarmee de laadtijd van de pagina moet worden gecorreleerd.  Deze waarde moet gelijk zijn aan een waarde die de pagina zelf identificeert. Wanneer deze niet is ingesteld, wordt voor dit argument standaard de Adobe AppMeasurement pageName-variabele (d.w.z. s.pageName) gebruikt of de URL wanneer s.pageName niet is ingesteld
 
-Met de insteekmodule getPageLoadTime worden twee cookies van de eerste fabrikant gemaakt:
+Het aanroepen van deze functie retourneert niets; in plaats daarvan worden de volgende variabelen ingesteld :
 
-* `s_plt`: De tijd, in seconden, die de vorige pagina nam om te laden. Verloopt aan het einde van de browsersessie.
-* `s_pltp` De waarde van de `s.pageName` variabele zoals opgenomen in de vorige Adobe Analytics-afbeeldingsaanvraag. Verloopt aan het einde van de browsersessie.
+* `window._pltPreviousPage`: De waarde van de vorige pagina (d.w.z. wat is doorgegeven aan het argument pv)
+* `window._pltLoadTime`: De tijd in seconden die de vorige pagina nodig had om te laden
+
+Met de insteekmodule getPageLoadTime wordt één cookie van de eerste fabrikant gemaakt:
+
+* `s_plt`: De tijd, in seconden, die de vorige pagina nam om te laden.  Bevat ook de waarde van wat in het pv-argument werd overgegaan.  Verloopt aan het einde van de browsersessie.
 
 ## Voorbeeld
 
@@ -76,16 +81,23 @@ Met de insteekmodule getPageLoadTime worden twee cookies van de eerste fabrikant
 // 3. Set eVar10 to the name of the previous page
 // 4. Set event100 to the load time (in seconds) of the previous page. A numeric event is required to capture this value.
 // You can then use event100 in calculated metrics to obtain the average page load time per page.
-if(s.pageName) s.getPageLoadTime();
-if(s._pltPreviousPage)
+if(s.pageName) getPageLoadTime();
+if(window._pltPreviousPage)
 {
-  s.prop10 = s._pltLoadTime;
-  s.eVar10 = s._pltPreviousPage
-  s.events = "event100=" + s._pltLoadTime;
+  s.prop10 = window._pltLoadTime;
+  s.eVar10 = window._pltPreviousPage
+  s.events = "event100=" + window._pltLoadTime;
 }
 ```
 
 ## Versiehistorie
+
+### 3.0 (6 december 2022)
+
+* Volledige herschrijving van de plug-in om deze oplossing-agnostisch te maken.  Dit is nu bijvoorbeeld compatibel met de AEP Web SDK
+* Hiermee maakt u de `_pltPreviousPage` en `_pltLoadTime` variabelen in het vensterobject (in plaats van in het object AppMeasurement)
+* Hiermee wordt de noodzaak van het s_pltp-cookie verwijderd. Alles wordt nu alleen in het s_plt-cookie opgeslagen
+* Omvat de functie getVersion om met het oplossen van problemen te helpen
 
 ### 2.0.1 (26 maart 2021)
 
