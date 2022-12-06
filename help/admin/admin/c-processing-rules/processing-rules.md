@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Overzicht van verwerkingsregels
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 3d22d27a259b100cbbe8306b4d610afacb59d265
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 3%
+source-wordcount: '373'
+ht-degree: 2%
 
 ---
 
@@ -57,3 +57,7 @@ De regels van de verwerking kunnen inkomende waarden controleren om gemeenschapp
 Zodra de variabelen van contextgegevens binnen uw implementatie worden bepaald, moeten zij aan variabelen zoals eVars worden gekopieerd om in rapportering te worden gebruikt.
 
 Zie [Een contextgegevensvariabele naar een eVar kopiëren](processing-rules-examples/processing-rules-copy-context-data.md) en [Een gebeurtenis instellen met een variabele van een contextgegevens](processing-rules-examples/processing-rules-copy-context-data-event.md) voor meer informatie .
+
+## Bekende beperkingen
+
+**Gebruik van kartels (^) in verwerkingsregels.** Als u in de verwerkingsvoorschriften kartels als scheidingstekens of voor andere doeleinden wilt gebruiken, moet elk karaat door twee kartels worden vertegenwoordigd. Eén karaat bijvoorbeeld weergeven als ^^, een dubbele karaat als ^^^, enzovoort.
