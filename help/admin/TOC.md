@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 927e7e374919d89798c69c1959c54426b4e51a3e
+source-git-commit: ff6184949d0d8c3093dd3fa1d9ac67e6645c6fb8
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 85%
+source-wordcount: '678'
+ht-degree: 84%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 85%
 
 + [Analytics Admin-handleiding](home.md)
 + [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
-+ Overzicht van Analytics Admin {#admin-overview}
-   + [Welke Adobe Analytics-tool moet ik gebruiken?](c-analytics-product-comparison/which-analytics-tool.md)
-   + [Analytics-productvergelijking en -vereisten](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [Systeemvereisten](sys-reqs.md)
++ Aan de slag met Analytics-beheer {#admin-overview}
+   + [Welke Adobe Analytics-tool moet ik gebruiken?](admin/get-started/which-analytics-tool.md)
+   + [Analytics-productvergelijking en -vereisten](admin/get-started/analytics-product-comparison.md)
+   + [Systeemvereisten](admin/get-started/sys-reqs.md)
 + Admin Tools {#admin-tools}
    + [Admin Tools](admin/c-admin-tools.md)
    + [Facturering](admin/billing-admin.md)
