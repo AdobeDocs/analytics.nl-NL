@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: ff6184949d0d8c3093dd3fa1d9ac67e6645c6fb8
+source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 84%
@@ -20,6 +20,16 @@ ht-degree: 84%
    + [Welke Adobe Analytics-tool moet ik gebruiken?](admin/get-started/which-analytics-tool.md)
    + [Analytics-productvergelijking en -vereisten](admin/get-started/analytics-product-comparison.md)
    + [Systeemvereisten](admin/get-started/sys-reqs.md)
+   + Bedrijfsinstellingen {#company-settings}
+      + [Overzicht van bedrijfsinstellingen](admin/get-started/company/c-company-settings.md)
+      + [Toegangsniveaus voor functies](admin/get-started/company/feature-access-levels.md)
+      + [Webservices](admin/get-started/company/web-services-admin.md)
+      + [Report Builder-rapporten](admin/get-started/company/report-builder-reports-admin.md)
+      + [Eenmalige aanmelding](admin/get-started/company/single-signon-admin.md)
+      + [In behandeling zijnde handelingen](admin/get-started/company/pending-actions-admin.md)
+      + [Co-branding](admin/get-started/company/co-branding-admin.md)
+      + [Rapportsuites verbergen](admin/get-started/company/c-hide-report-suites.md)
+      + [Security Manager](admin/get-started/company/security-manager.md)
 + Admin Tools {#admin-tools}
    + [Admin Tools](admin/c-admin-tools.md)
    + [Facturering](admin/billing-admin.md)
@@ -117,16 +127,6 @@ ht-degree: 84%
       + [Machtigingen voor productprofielen voor Analytics Tools](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
    + [Beheerdersrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-+ Bedrijfsinstellingen {#company-settings}
-   + [Overzicht van bedrijfsinstellingen](company/c-company-settings.md)
-   + [Toegangsniveaus voor functies](company/feature-access-levels.md)
-   + [Webservices](company/web-services-admin.md)
-   + [Report Builder-rapporten](company/report-builder-reports-admin.md)
-   + [Eenmalige aanmelding](company/single-signon-admin.md)
-   + [In behandeling zijnde handelingen](company/pending-actions-admin.md)
-   + [Co-branding](company/co-branding-admin.md)
-   + [Rapportsuites verbergen](company/c-hide-report-suites.md)
-   + [Security Manager](company/security-manager.md)
 + Rapportsuites beheren {#manage-report-suites}
    + [Rapportsuitebeheer](c-manage-report-suites/report-suites-admin.md)
    + [Samenvatting en global report suites](c-manage-report-suites/rollup-report-suite.md)

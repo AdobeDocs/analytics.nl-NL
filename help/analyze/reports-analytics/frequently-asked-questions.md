@@ -5,7 +5,7 @@ title: Veelgestelde vragen voor rapporten en analyses
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 88df864b58cecef71aadc0314d1d2d81c5b9b72f
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -55,7 +55,7 @@ U kunt gegevens uit interne websiteactiviteiten, zoals site-tests en werknemersg
 +++
 
 +++Kan ik een rapportsuite verwijderen?
-Het verwijderen van een rapportsuite is niet mogelijk. Een rapportsuite kan echter voor alle weergaven in Adobe Analytics worden verborgen. Merk op dat de servervraag die naar een verborgen rapportreeks wordt verzonden nog aan uw maandelijkse contractgrens telt. Zie [Rapportagesuites verbergen](/help/admin/company/c-hide-report-suites.md) in de gebruikershandleiding voor Admin voor meer informatie.
+Het verwijderen van een rapportsuite is niet mogelijk. Een rapportsuite kan echter voor alle weergaven in Adobe Analytics worden verborgen. Merk op dat de servervraag die naar een verborgen rapportreeks wordt verzonden nog aan uw maandelijkse contractgrens telt. Zie [Rapportagesuites verbergen](/help/admin/admin/get-started/company/c-hide-report-suites.md) in de gebruikershandleiding voor Admin voor meer informatie.
 +++
 
 +++Wanneer het gebruiken van segmentatie, welke container zou ik moeten gebruiken? Paginaweergave, bezoek of bezoeker?
