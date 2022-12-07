@@ -4,9 +4,9 @@ title: Snelle segmenten
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -94,3 +94,10 @@ Als een project-slechts segment in wordt geopend [!UICONTROL Segment Builder], v
 Als u &quot;Dit segment beschikbaar maken..&quot; selecteert en klik op **[!UICONTROL SAVE]**, wordt het segment beschikbaar in de linkerlijst van spoorcomponenten voor gebruik in andere projecten. Het kan ook met andere gebruikers van de Manager van het Segment worden gedeeld.
 
 ![Alleen project gecontroleerd](assets/project-only-checked.png)
+
+## Bekend probleem
+
+1. Een snel segment maken met 2 items en **[!UICONTROL Save]** als test1.
+1. Klikken **[!UICONTROL Save as]** en sla dit snelle segment als Test2 op.
+1. Bewerk het snelle segment Test2 en sla het opnieuw op als Test2.
+Bericht dat het Test1 snelle segment door Test2 wordt gewijzigd.
