@@ -3,9 +3,9 @@ title: Productprofielen voor Adobe Analytics
 description: Leer hoe productprofielen kunnen worden gebruikt als voorinstellingen voor machtigingen die productbeheerders kunnen toewijzen aan gebruikers binnen een organisatie.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 88ed2f874d680f9ed1aea9bfb60e303f123cbc37
+source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Productprofielen zijn voorinstellingen voor machtigingen die productbeheerders kunnen toewijzen aan gebruikers binnen een organisatie. Als u een productprofiel maakt en een Experience Cloud-gebruiker aan dat productprofiel toewijst, nemen deze de machtigingsitems in het productprofiel over.
 
-Zie [Productprofielen beheren voor zakelijke gebruikers](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in de gebruikershandleiding voor bedrijven voor algemene informatie over productprofielen.
+Voor algemene informatie over productprofielen, zoals het maken van productprofielen en het toewijzen van gebruikers, raadpleegt u [Productprofielen beheren voor zakelijke gebruikers](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in de gebruikershandleiding voor de onderneming.
 
 ## Beheerders van productprofielen
 
@@ -24,6 +24,8 @@ Beheerders van productprofielen zijn een optionele groep die gebruikers aan dat 
 * Beheerders van productprofielen kunnen machtigingsitems in hun productprofiel aanpassen.
 * Beheerders van productprofielen kunnen productprofielen toewijzen aan of verwijderen uit gebruikersgroepen.
 * Beheerders met productprofielen zijn ideaal voor teamleiders of managers die toegang tot Adobe Analytics voor hun team moeten verlenen en beheren. Individuen hoeven geen systeembeheerders of productbeheerders te storen om toegang te verlenen tot Adobe Analytics.
+
+Zie de sectie ‘Beheer van productprofielbeheerders’ in het artikel voor informatie over het toewijzen van productprofielbeheerders. [Productprofielen beheren voor zakelijke gebruikers](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in de gebruikershandleiding voor de onderneming.
 
 ## Adobe Analytics-machtigingsitems
 
