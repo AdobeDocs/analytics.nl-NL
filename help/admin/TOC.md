@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
+source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '673'
 ht-degree: 84%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 84%
       + [Security Manager](get-started/company/security-manager.md)
 + Gebruikersmachtigingen in de Adobe-beheerconsole {#admin-console}
    + [Analyses in de Adobe Admin Console](admin-console/home.md)
+   + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
+   + [Beheerdersrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
    + Toestemmingen {#permissions}
       + [Machtigingen voor Analytics in Admin Console](admin-console/permissions/summary-tables.md)
       + [Productprofielen voor Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Machtigingen voor productprofielen voor rapportsuite](admin-console/permissions/report-suite-tools.md)
       + [Machtigingen voor productprofielen voor Analytics Tools](admin-console/permissions/analytics-tools.md)
-   + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
-   + [Beheerdersrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
 + Admin Tools {#admin-tools}
    + [Admin Tools](admin/c-admin-tools.md)
    + [Facturering](admin/billing-admin.md)
@@ -72,8 +72,6 @@ ht-degree: 84%
    + Paid search-detectie {#paid-search-detection}
       + [Overzicht van paid search-detectie](admin/paid-search-detection/paid-search-detection.md)
       + [Paid search-detectie configureren](admin/paid-search-detection/t-paid-search-detection.md)
-   + [Lijsten publiceren](admin/publishing-list.md)
-   + [Widget publiceren](admin/publishing-widgets-admin.md)
    + [Voorkeurenbeheer](admin/preferences-manager.md)
    + [Privacy-instellingen](admin/privacy-settings.md)
    + [Privacy-rapportage](admin/privacy-reporting.md)
@@ -113,7 +111,6 @@ ht-degree: 84%
       + [Implementatie van server-side doorsturen controleren](admin/c-server-side-forwarding/ssf-verify.md)
       + [Veelgestelde vragen over server-side doorsturen](admin/c-server-side-forwarding/ssf-faq.md)
    + [Menu Vereenvoudigde rapporten](admin/t-simplified-menu.md)
-   + [Social Management](admin/social-management.md)
    + Succesgebeurtenissen {#success-events}
       + [Overzicht van succesgebeurtenissen](admin/c-success-events/success-event.md)
       + [Succesgebeurtenissen configureren](admin/c-success-events/t-success-events.md)

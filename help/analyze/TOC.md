@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Leer hoe u analysefuncties kunt gebruiken, zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 9960b79ee6dcd98ed9f64af7c0e668c081542bb2
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1055'
 ht-degree: 79%
 
 ---
@@ -171,7 +171,6 @@ ht-degree: 79%
          + [Een rapportsuite selecteren vanuit een bestaande aanvraag in Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel gebruiken om een rapportsuite-id te vinden](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Segmenten beheren](report-builder/data-requests/segmentation.md)
-      + [Overschrijving van publicatielijsten toestaan](report-builder/data-requests/allow-publishing-list-overrides.md)
       + Rapporttypen {#report-types}
          + [Overzicht van rapporttypen](report-builder/data-requests/c-report-types/select-report-types.md)
          + [Pad- en paduitvalrapporten in Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)

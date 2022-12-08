@@ -3,9 +3,9 @@ description: Index van beheerprogramma's in Adobe Analytics.
 title: Admin Tools
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '149'
 ht-degree: 34%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 34%
 + [Metrische zichtbaarheid](metric-visibility.md)
 + [Mobiel beheer](mobile-management.md)
 + [Overzicht van paid search-detectie](paid-search-detection/paid-search-detection.md)
-+ [Lijsten publiceren](publishing-list.md)
-+ [Widget publiceren](publishing-widgets-admin.md)
 + [Preferences Manager](preferences-manager.md)
 + [Privacy-instellingen](privacy-settings.md)
 + [Overzicht van verwerkingsregels](c-processing-rules/processing-rules.md)
@@ -46,7 +44,6 @@ ht-degree: 34%
 + [Wachtrij voor geplande rapporten](scheduled-reports-admin.md)
 + [Overzicht van server-side doorsturen](c-server-side-forwarding/ssf.md)
 + [Menu Vereenvoudigde rapporten](t-simplified-menu.md)
-+ [Sociaal beheer](social-management.md)
 + [Overzicht van succesgebeurtenissen](c-success-events/success-event.md)
 + [Tijdstempels optioneel](timestamp-optional.md)
 + [Overzicht traffic variabele (prop)](c-traffic-variables/traffic-var.md)

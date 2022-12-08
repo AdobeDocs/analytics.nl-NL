@@ -4,10 +4,10 @@ title: Data-aanvragen - stap 1 van de wizard Aanvragen
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 2%
+source-wordcount: '356'
+ht-degree: 3%
 
 ---
 
@@ -24,8 +24,6 @@ Op de wizard Verzoek: Stap 1 vorm, selecteert u de rapportreeks, rapporttype, se
 1. **Segment**: De segmenten zijn douanesubsets van gegevens, of gegevens die door regels worden gefilterd die u creeert. Segmenten zijn gebaseerd op hits, bezoeken en bezoekers. Zie de [Handleiding voor analysegmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) voor meer informatie over segmenten.
 
    U kunt bijvoorbeeld een [!UICONTROL Pages Report]en past u vervolgens een segment voor eerste bezoeken toe.
-
-1. **Overschrijven van publicatielijst toestaan**: Wanneer u een rapport plant, kunt u een het publiceren lijst kiezen voor distributie te gebruiken. Publicatielijsten worden ingesteld in **[!UICONTROL Analytics]** > **[!UICONTROL Admin tools]**. De rapportsuite voor deze aanvraag wordt vervangen door de id van de rapportsuite die aan elke ontvanger in de publicatielijst is toegewezen. Zie [Overschrijvingen van publicatielijsten toestaan](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md).
 
 1. **Rapporttype**: Specificeert het basisrapport u in uw gegevensverzoek wilt lopen. U stelt één rapport per verzoek in werking, en dat rapport kan één-aan-vele dimensies en één-aan-vele metriek hebben. De metriek en de afmetingen voor een rapporttype worden getoond op [!UICONTROL Request Wizard; Step 2] interface. Zie [Rapporttypen selecteren](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 

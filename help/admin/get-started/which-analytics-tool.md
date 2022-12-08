@@ -3,9 +3,9 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe A
 title: Welke Adobe Analytics-tool moet ik gebruiken?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,6 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 * Doelstellingen instellen.
 * Bot-rapportage weergeven.
 * U krijgt toegang tot unieke videovisualisaties van Video Daypart en Viewer Drop-off.
-* Als u publicatielijsten in geplande rapporten wilt gebruiken.
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** dienen te worden gebruikt:
 

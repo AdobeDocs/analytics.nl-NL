@@ -4,9 +4,9 @@ title: Een data-aanvraag maken
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d2e4a6eed54fa8b3e080b162a5e841fc2f5a0e59
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '276'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Stappen om een basisgegevensverzoek tot stand te brengen.
 1. In de [!UICONTROL Request Wizard: Step 1] venster, selecteert u een [rapportsuite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Optioneel) Selecteer een segment dat u op de aanvraag wilt toepassen. Als u een of meer segmenten hebt geselecteerd, worden deze boven aan de lijst geplaatst.
 
-   Report Builder gebruikt segmenten op dezelfde manier als Adobe Analytics ze gebruikt. Zie de [Handleiding voor analysegmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). 1. (Optioneel) Selecteer een [publicatielijst](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) te gebruiken voor distributie.
+   Report Builder gebruikt segmenten op dezelfde manier als Adobe Analytics ze gebruikt. Zie de [Handleiding voor analysegmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 1. Selecteer een [rapporttype](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 1. Geef een [datumbereik](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) en rapporteren [granulariteit](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md).
 1. Klik op **[!UICONTROL Next]**.

@@ -3,10 +3,10 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3c010207764de51ed053b7bf9ee777e68097e411
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 2%
+source-wordcount: '1445'
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-
 
 | EOL-product of -functie | Datum toegevoegd of bijgewerkt | Beschrijving |
 | --- | --- | --- |
-| **EOL van [!UICONTROL Publishing Lists] functie** | 29 september 2022 | Als onderdeel van het EOL van Rapporten &amp; Analytics, worden de het publiceren lijsten vermeld om eind van het leven in te bereiken **december 2023**. U kunt geen nieuwe of bestaande Publishing Lists maken om Analysis Workspace-projecten te verzenden of te plannen. [Meer informatie](/help/admin/admin/publishing-list.md) |
+| **EOL van [!UICONTROL Publishing Lists] functie** | 29 september 2022 | Als onderdeel van het EOL van Rapporten &amp; Analytics, worden de het publiceren lijsten vermeld om eind van het leven in te bereiken **december 2023**. U kunt geen nieuwe of bestaande Publishing Lists maken om Analysis Workspace-projecten te verzenden of te plannen. |
 | **EOL voor Data Workbench** | 14 september 2022 | Adobe is voornemens de Data Workbench aan het einde van de levensduur doeltreffend te maken **31 december 2023**. Zie [Aankondiging einde levensduur Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) voor meer informatie. Neem contact op met de Adobe-accountmanager van uw organisatie voor vragen. |
 | **EOL voor[!DNL Reports & Analytics]** | 4 januari 2022 | Effectief **31 december 2023**, is Adobe voornemens te stoppen [!DNL Reports & Analytics] en de bijbehorende verslagen en kenmerken. De rapporten, visualisaties en onderliggende technologie die macht [!DNL Reports & Analytics] voldoet niet meer aan de normen voor Adobe. Meeste [!DNL Reports & Analytics] functies zijn beschikbaar in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). Sinds de release van Analysis Workspace in 2015, [!DNL Reports & Analytics] functionaliteit en mogelijkheden zijn verplaatst naar Analysis Workspace en er is een drempel voor pariteit van de workflow bereikt. [Dit bericht](https://spark.adobe.com/page/6WnF8JK6IRDhf/) legt het einde van het levensproces uit. |
 
