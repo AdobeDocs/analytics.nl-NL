@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: b274cb4b51a1bdc54413a27f244a1522da903542
+source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 84%
@@ -17,19 +17,19 @@ ht-degree: 84%
 + [Analytics Admin-handleiding](home.md)
 + [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Aan de slag met Analytics-beheer {#admin-overview}
-   + [Welke Adobe Analytics-tool moet ik gebruiken?](admin/get-started/which-analytics-tool.md)
-   + [Analytics-productvergelijking en -vereisten](admin/get-started/analytics-product-comparison.md)
-   + [Systeemvereisten](admin/get-started/sys-reqs.md)
+   + [Welke Adobe Analytics-tool moet ik gebruiken?](get-started/which-analytics-tool.md)
+   + [Analytics-productvergelijking en -vereisten](get-started/analytics-product-comparison.md)
+   + [Systeemvereisten](get-started/sys-reqs.md)
    + Bedrijfsinstellingen {#company-settings}
-      + [Overzicht van bedrijfsinstellingen](admin/get-started/company/c-company-settings.md)
-      + [Toegangsniveaus voor functies](admin/get-started/company/feature-access-levels.md)
-      + [Webservices](admin/get-started/company/web-services-admin.md)
-      + [Report Builder-rapporten](admin/get-started/company/report-builder-reports-admin.md)
-      + [Eenmalige aanmelding](admin/get-started/company/single-signon-admin.md)
-      + [In behandeling zijnde handelingen](admin/get-started/company/pending-actions-admin.md)
-      + [Co-branding](admin/get-started/company/co-branding-admin.md)
-      + [Rapportsuites verbergen](admin/get-started/company/c-hide-report-suites.md)
-      + [Security Manager](admin/get-started/company/security-manager.md)
+      + [Overzicht van bedrijfsinstellingen](get-started/company/c-company-settings.md)
+      + [Toegangsniveaus voor functies](get-started/company/feature-access-levels.md)
+      + [Webservices](get-started/company/web-services-admin.md)
+      + [Report Builder-rapporten](get-started/company/report-builder-reports-admin.md)
+      + [Eenmalige aanmelding](get-started/company/single-signon-admin.md)
+      + [In behandeling zijnde handelingen](get-started/company/pending-actions-admin.md)
+      + [Co-branding](get-started/company/co-branding-admin.md)
+      + [Rapportsuites verbergen](get-started/company/c-hide-report-suites.md)
+      + [Security Manager](get-started/company/security-manager.md)
 + Gebruikersmachtigingen in de Adobe-beheerconsole {#admin-console}
    + [Analyses in de Adobe Admin Console](admin-console/home.md)
    + Toestemmingen {#permissions}
