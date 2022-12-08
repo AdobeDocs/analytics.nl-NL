@@ -3,7 +3,7 @@ title: Analytics Admin-handleiding
 description: Help bij beheer voor Adobe Analytics-beheerders, inclusief gebruikers- en productbeheer in de Admin Console, voor het instellen van rapportsuites, variabelen, classificaties en dataverzameling.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 90%
@@ -35,7 +35,7 @@ In deze handleiding worden veel algemene mogelijkheden van de Adobe Admin Consol
 ## Belangrijke artikelen
 
 * [Analytics First Admin Starter Guide](admin-console/first-admin-guide.md): Als uw organisatie nog nooit met Adobe Analytics heeft gewerkt, volg dan deze handleiding om van Adobe Analytics te profiteren.
-* [Rapportsuitebeheer](c-manage-report-suites/report-suites-admin.md): De meestgebruikte beheertool in Analytics. Rapportsuitebeheer bevat instellingen voor beheer van variabelen, classificaties, tijdzones en meer.
+* [Rapportsuitebeheer](admin/c-manage-report-suites/report-suites-admin.md): De meestgebruikte beheertool in Analytics. Rapportsuitebeheer bevat instellingen voor beheer van variabelen, classificaties, tijdzones en meer.
 
 ## Meer Analytics-gebruikershandleidingen
 

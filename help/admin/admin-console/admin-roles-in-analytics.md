@@ -2,7 +2,8 @@
 title: Beheerdersrollen in Adobe Analytics
 description: Begrijp hoe te beginnen met Adobe Analytics, algemene roltypes, en het programma openen aan UI.
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -69,7 +70,7 @@ Zie de sectie &quot;Beheer van productprofielbeheerders&quot; in het artikel voo
 
 ## Volgende stappen
 
-[Een rapportsuite maken](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Laat uw Analytics-beheerder zich aanmelden bij het hulpprogramma en maak een rapportsuite voor gegevensverzameling
+[Een rapportsuite maken](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Laat uw Analytics-beheerder zich aanmelden bij het hulpprogramma en maak een rapportsuite voor gegevensverzameling
 
 [Een eigenschap voor de tag Analytics maken](/help/implement/launch/create-analytics-property.md): Laat uw beheerder van gegevensverzameling zich aanmelden bij het gereedschap en maak een eigenschap die u op uw site wilt implementeren
 

@@ -3,7 +3,7 @@ title: Een eigenschap Analytics maken in tags
 description: Maak een spatie om aan te passen hoe gegevens worden verzameld met tags.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -16,7 +16,7 @@ Met tags in Adobe Experience Platform kunt u Experience Cloud-oplossingen integr
 
 ## Vereisten
 
-[Een rapportsuite maken](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Maak een silo voor analysegegevens die moeten worden verzameld.
+[Een rapportsuite maken](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Maak een silo voor analysegegevens die moeten worden verzameld.
 
 ## Een eigenschap voor tags maken en vitale extensies installeren
 

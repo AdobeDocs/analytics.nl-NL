@@ -3,7 +3,7 @@ description: Leer hoe u tagging met meerdere suite implementeert om een verzoek 
 title: Tags implementeren met meerdere suite
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Tags implementeren met meerdere suite
 
-[Tags toevoegen met meerdere suite](/help/admin/c-manage-report-suites/rollup-report-suite.md) staat u toe om beeldverzoeken niet alleen naar een globale rapportreeks maar ook naar individuele de reeksen van het kindrapport te verzenden zodat u ondergroepen van de globale gegevens van de rapportreeks van uw bedrijf aan verschillende eind kunt verstrekken - gebruikers.
+[Tags toevoegen met meerdere suite](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md) staat u toe om beeldverzoeken niet alleen naar een globale rapportreeks maar ook naar individuele de reeksen van het kindrapport te verzenden zodat u ondergroepen van de globale gegevens van de rapportreeks van uw bedrijf aan verschillende eind kunt verstrekken - gebruikers.
 
 Om multi-suite het etiketteren uit te voeren, moet u identiteitskaart van de Reeks van het Rapport (RSID) voor de globale rapportreeks en ook RSIDs voor de toepasselijke reeksen van het kindrapport in de volgende code voor uw webpagina&#39;s en apps omvatten.
 

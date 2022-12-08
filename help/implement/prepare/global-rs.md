@@ -3,7 +3,7 @@ title: Algemene rapportsuites in Adobe Analytics
 description: Begrijp de voordelen en de vereisten aan het gebruiken van een globale rapportreeks.
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Adobe beveelt in de meeste gevallen aan een algemene rapportsuite te implementer
 * **Geaggregeerde gegevens:** De globale rapportsuites laten u toe om de gebeurtenissen van KPI en van het succes over uw eigen plaatsen te zien. De segmentatie en de virtuele rapportsuites kunnen worden gebruikt om plaats-specifieke gegevens te bekijken.
 * **Ondersteuning voor apparaatanalyse:** CDA vereist een rapportsuite die gegevens verzamelt van meerdere locaties, zoals uw website en mobiele app. Afzonderlijke apparaten kunnen gegevens samenvoegen als deze correct zijn geïmplementeerd. Zie [Apparaatanalyse](../../components/cda/overview.md) in de gebruikershandleiding van Componenten voor meer informatie.
 * **U hebt niet meer dan één rapportsuite nodig:** Alle gegevens kunnen in één enkele rapportreeks worden verzameld, zodat is het minder waarschijnlijk voor een ontwikkelaar om gegevens naar de verkeerde rapportreeks per ongeluk te verzenden.
-* **Geen rollups nodig:** Rollups zijn een vrij gedateerde eigenschap die individuele gegevens van de rapportreeks op een dagelijkse basis samenvoegt. Rollups dedupliceren geen bezoek- of bezoekersgegevens, wat tot opgeblazen aantallen kan leiden. Zie [Rolluizen](../../admin/c-manage-report-suites/rollup-report-suite.md) in de gebruikershandleiding voor Admin voor meer informatie.
+* **Geen rollups nodig:** Rollups zijn een vrij gedateerde eigenschap die individuele gegevens van de rapportreeks op een dagelijkse basis samenvoegt. Rollups dedupliceren geen bezoek- of bezoekersgegevens, wat tot opgeblazen aantallen kan leiden. Zie [Rolluizen](../../admin/admin/c-manage-report-suites/rollup-report-suite.md) in de gebruikershandleiding voor Admin voor meer informatie.
 * **Tijd opslaan:** De projecten van de werkruimte, classificaties, segmenten, en berekende metriek zijn verbonden aan de zelfde globale rapportreeks. Beheerders besteden minder tijd aan het beheren van deze componenten en gegevensbeheer.
 * **Nauwkeuriger kenmerk tussen verschillende merken:** Als een bezoek op één plaats dan aan een andere van uw eigen plaatsen alvorens een succesgebeurtenis begint te teweegbrengen, wordt de attributie correct verzameld. Een bezoeker klikt bijvoorbeeld op een betaalde zoekkoppeling en landt op site A. Vervolgens klikken ze op een koppeling naar site B en kopen ze deze. Een algemene rapportsuite kenmerkt zich correct die wordt aangeschaft voor een betaalde zoekopdracht.
 * **Vereenvoudigde implementatie:** Aangezien alle merken/sites gegevens naar dezelfde rapportsuite verzenden, worden de implementaties voor elke site uitgelijnd. Dit gedwongen bestuur verzekert een specifieke dimensie of metrisch wordt bewaard in de zelfde eVar of de gebeurtenis. Beheerders, testers, eigenaars van tagbeheer en analisten profiteren van deze vereenvoudiging.
@@ -34,7 +34,7 @@ Adobe beveelt in de meeste gevallen aan een algemene rapportsuite te implementer
 
 Gebruik de volgende algemene richtlijnen om inzicht te krijgen in het proces van implementatie van een algemene rapportsuite.
 
-1. Maak de algemene rapportsuite in Adobe Analytics. Zie [Een rapportsuite maken](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) in de gebruikershandleiding voor Admin voor meer informatie.
+1. Maak de algemene rapportsuite in Adobe Analytics. Zie [Een rapportsuite maken](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) in de gebruikershandleiding voor Admin voor meer informatie.
 1. Het werk met teams in uw organisatie verantwoordelijk voor elk domein. Vele teams hebben rapporteringsvereisten specifiek voor hun gebied van de zaken.
 1. Al deze vereisten registreren en samenvoegen in een [Document voor het ontwerp van oplossingen](solution-design.md). Als de teams gelijkaardige vereisten voor een afmeting hebben, kunnen zij de zelfde douanevariabele gebruiken. Bijvoorbeeld, als de plaats A en plaats B allebei een dimensie van broodkruimels vereisen, kunnen de implementaties voor beide plaatsen die gegevens door eVar1 verzenden.
 
@@ -57,4 +57,4 @@ Het proces om een bestaande implementatie over veelvoudige plaatsen naar één e
 ## Gerelateerde pagina&#39;s
 
 [Het schakelen van multi-suite etiketteren naar een globaal rapportpakket en virtuele rapportsuites](../../components/vrs/vrs-considerations.md)
-[Rollups en globale rapportsuites vergelijken](../../admin/c-manage-report-suites/rollup-report-suite.md)
+[Rollups en globale rapportsuites vergelijken](../../admin/admin/c-manage-report-suites/rollup-report-suite.md)

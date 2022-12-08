@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -39,9 +39,31 @@ ht-degree: 84%
       + [Productprofielen voor Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Machtigingen voor productprofielen voor rapportsuite](admin-console/permissions/report-suite-tools.md)
       + [Machtigingen voor productprofielen voor Analytics Tools](admin-console/permissions/analytics-tools.md)
-+ Admin Tools {#admin-tools}
++ Analysebeheer {#admin-tools}
    + [Admin Tools](admin/c-admin-tools.md)
    + [Facturering](admin/billing-admin.md)
+   + Report Suite Manager {#manage-report-suites}
+      + [Rapportsuites beheren](admin/c-manage-report-suites/report-suites-admin.md)
+      + [Samenvatting en global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [Een overzichtsrapportsuite maken](admin/c-manage-report-suites/t-rollups.md)
+      + [Een rapportsuitegroep maken](admin/c-manage-report-suites/t-create-rs-group.md)
+      + [Een zoekopdracht in een rapportsuite opslaan](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [Instellingen voor afzonderlijke rapportsuites](admin/c-manage-report-suites/individual-rs-settings.md)
+      + [Instellingen voor rapportsuites downloaden](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + Nieuwe rapportsuite {#new-report-suite}
+         + [Een rapportsuite maken](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [Nieuwe rapportsuite - instellingen](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [Instellingen die niet uit een bronrapportsuite zijn gekopieerd](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + Sjablonen voor rapportsuites {#report-suite-templates}
+         + [Overzicht van sjablonen voor rapportsuites](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [Verzamel-portal](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [Commerce](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [Content en media](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [Standaardsjabloon](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [Financiële diensten](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [Vacatureportal](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [Lead generation](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [Ondersteuningsmedia](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + Bot verwijderen {#bot-removal}
       + [Bot verwijderen](admin/bot-removal/bot-removal.md)
       + [Overzicht van regels voor bots](admin/bot-removal/bot-rules.md)
@@ -124,28 +146,6 @@ ht-degree: 84%
       + [De variabele Unique Visitor opgeven](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Gebruiksscenario - Bezoekers-id&#39;s](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Videobeheer](admin/video-management.md)
-+ Rapportsuites beheren {#manage-report-suites}
-   + [Rapportsuitebeheer](c-manage-report-suites/report-suites-admin.md)
-   + [Samenvatting en global report suites](c-manage-report-suites/rollup-report-suite.md)
-   + [Een overzichtsrapportsuite maken](c-manage-report-suites/t-rollups.md)
-   + Sjablonen voor rapportsuites {#report-suite-templates}
-      + [Overzicht van sjablonen voor rapportsuites](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [Verzamel-portal](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-      + [Commerce](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-      + [Content en media](c-manage-report-suites/c-report-suite-templates/content-media.md)
-      + [Standaardsjabloon](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-      + [Financiële diensten](c-manage-report-suites/c-report-suite-templates/financial-services.md)
-      + [Vacatureportal](c-manage-report-suites/c-report-suite-templates/job-portal.md)
-      + [Lead generation](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-      + [Ondersteuningsmedia](c-manage-report-suites/c-report-suite-templates/support-media.md)
-   + [Een zoekopdracht in een rapportsuite opslaan](c-manage-report-suites/t-report-suite-saved-search.md)
-   + [Instellingen voor afzonderlijke rapportsuites](c-manage-report-suites/individual-rs-settings.md)
-   + [Instellingen voor rapportsuites downloaden](c-manage-report-suites/t-download-rs-settings.md)
-   + Nieuwe rapportsuite {#new-report-suite}
-      + [Een rapportsuite maken](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-      + [Nieuwe rapportsuite - instellingen](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-      + [Instellingen die niet uit een bronrapportsuite zijn gekopieerd](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-   + [Een rapportsuitegroep maken](c-manage-report-suites/t-create-rs-group.md)
 + User en Product Management (verouderd) {#user-product-management}
    + [User en Product Management](user-management2/user-management.md)
    + Gebruikers migreren naar Adobe Admin Console {#migrate-users}
