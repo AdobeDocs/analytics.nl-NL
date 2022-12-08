@@ -3,7 +3,7 @@ title: Dag van de week
 description: De dag van de week, ongeacht het datumbereik.
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -20,4 +20,4 @@ Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite g
 
 ## Dimension-items
 
-Dimension-items bevatten `Sunday` - `Saturday`, die de dag van de week vertegenwoordigt waarop de treffer heeft plaatsgevonden. De volgorde van de dimensieitems is in overeenstemming met de eerste dag van de week in [Kalender aanpassen](/help/admin/admin/custom-calendar.md) standaard.
+Dimension-items bevatten `Sunday` - `Saturday`, die de dag van de week vertegenwoordigt waarop de treffer heeft plaatsgevonden. De volgorde van de dimensieitems is in overeenstemming met de eerste dag van de week in [Kalender aanpassen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md) standaard.

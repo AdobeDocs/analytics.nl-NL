@@ -3,7 +3,7 @@ title: Betaalde zoekopdracht
 description: Hiermee onderscheidt u metriek van betaald en natuurlijk zoeken.
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Met de dimensie &#39;Betaald zoeken&#39; kunt u naar elke meting kijken en deze 
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie kan alleen goed functioneren als [Betaalde zoekdetectie](/help/admin/admin/paid-search-detection/paid-search-detection.md) correct geconfigureerd in de instellingen van de rapportsuite. Als de betaalde onderzoeksopsporing correct wordt gevormd en een rapportreeks gegevens heeft, werkt deze dimensie altijd.
+Deze dimensie kan alleen goed functioneren als [Betaalde zoekdetectie](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) correct geconfigureerd in de instellingen van de rapportsuite. Als de betaalde onderzoeksopsporing correct wordt gevormd en een rapportreeks gegevens heeft, werkt deze dimensie altijd.
 
 ## Dimension-items
 

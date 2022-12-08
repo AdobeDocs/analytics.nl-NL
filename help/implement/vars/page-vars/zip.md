@@ -3,7 +3,7 @@ title: zip
 description: Vul handmatig de dimensie 'Postcode' in als de instellingen van de rapportsuite dit toestaan.
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -16,7 +16,7 @@ De `zip` met variabele kunt u de dimensie &#39;Postcode&#39; handmatig vullen al
 
 >[!IMPORTANT]
 >
->Zorg ervoor dat de [!UICONTROL Zip Option] in rapportsuite worden de instellingen ingesteld op de gewenste waarde. U kunt deze variabele niet gebruiken als [!UICONTROL geo zip] wordt altijd gebruikt. Zie [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md) in de gebruikershandleiding voor Admin voor meer informatie.
+>Zorg ervoor dat de [!UICONTROL Zip Option] in rapportsuite worden de instellingen ingesteld op de gewenste waarde. U kunt deze variabele niet gebruiken als [!UICONTROL geo zip] wordt altijd gebruikt. Zie [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in de gebruikershandleiding voor Admin voor meer informatie.
 
 ## Postcode met Adobe Analytics-extensie
 

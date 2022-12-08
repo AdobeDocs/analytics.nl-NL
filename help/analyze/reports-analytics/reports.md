@@ -4,7 +4,7 @@ description: De afmetingen en metriek die Rapporten & Analytics voor elk rapport
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 0%
@@ -19,10 +19,10 @@ Elk rapport in Rapporten &amp; Analytics gebruikt een specifieke afmeting en met
 
 >[!NOTE]
 >
->Het menu Rapporten kan er anders uitzien, afhankelijk van aanpassingen die een beheerder in uw organisatie heeft aangebracht. Zie [Menu aanpassen](/help/admin/admin/customize-menus.md) in de handleiding voor Admin-gebruikers.
+>Het menu Rapporten kan er anders uitzien, afhankelijk van aanpassingen die een beheerder in uw organisatie heeft aangebracht. Zie [Menu aanpassen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md) in de handleiding voor Admin-gebruikers.
 
 >[!IMPORTANT]
->Effectief **31 december 2023**, is Adobe voornemens de rapporten en analyses en de bijbehorende rapporten en functies te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en de onderliggende technologie die de rapporten &amp; Analytics van de macht niet meer aan de technologienormen van Adobe voldoen. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
+>Effectief **31 december 2023**, is Adobe voornemens de rapporten en analyses en de bijbehorende rapporten en functies te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en onderliggende technologie die de macht meldt &amp; Analytics niet meer aan de normen van de Adobe voldoet. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 
 ## Sitecijfers
 
@@ -119,7 +119,7 @@ Bevat rapporten waarmee u tekengegevens voor bezoekers kunt bekijken.
 
 ## Verkeersbronnen
 
-Bevat een rapport dat inzicht geeft in waar bezoekers vandaan kwamen voordat ze naar uw site kwamen. Deze rapporten werken alleen correct als u ze juist hebt ingesteld [Interne URL-filters](../../admin/admin/internal-url-filter-admin.md) onder rapportsuite-instellingen.
+Bevat een rapport dat inzicht geeft in waar bezoekers vandaan kwamen voordat ze naar uw site kwamen. Deze rapporten werken alleen correct als u ze juist hebt ingesteld [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) onder rapportsuite-instellingen.
 
 * Trefwoorden zoeken - alle: Gebruikt de [Trefwoord zoeken](/help/components/dimensions/search-keyword.md) dimensie.
 * Trefwoorden zoeken - betaald: Gebruikt de [Zoeken op trefwoord - betaald](/help/components/dimensions/search-keyword.md) dimensie.
@@ -230,4 +230,4 @@ Bevat doelen die u hebt gemaakt. Zie [Doelen](targets.md) voor meer informatie .
 
 >[!NOTE]
 >
->Als u uw rapport niet op deze hulppagina kunt vinden, is het mogelijk dat uw beheerder anders genoemd of aangepaste omslagen. Zie [Menu aanpassen](/help/admin/admin/customize-menus.md) in de handleiding voor Admin-gebruikers.
+>Als u uw rapport niet op deze hulppagina kunt vinden, is het mogelijk dat uw beheerder anders genoemd of aangepaste omslagen. Zie [Menu aanpassen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md) in de handleiding voor Admin-gebruikers.

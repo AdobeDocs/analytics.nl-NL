@@ -3,7 +3,7 @@ title: Trefwoord zoeken
 description: Het zoekwoord dat de bezoeker gebruikte om uw site te bereiken.
 feature: Dimensions
 exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Een verwijzer moet aan beide volgende voorwaarden voldoen om als zoekwoord te cl
 * Het verwijzende domein wordt door Adobe erkend als geldig [Zoekmachine](search-engine.md);
 * De verwijzende URL bevat een parameter voor een trefwoordqueryreeks. Als de trefwoordqueryreeks bestaat, maar geen waarde bevat, wordt deze onder het dimensiepunt gegroepeerd `"Keyword unavailable"`.
 
-Als u onderscheid wilt maken tussen betaald en natuurlijk zoeken, [Betaalde zoekdetectie](/help/admin/admin/paid-search-detection/paid-search-detection.md) is vereist. Er zijn meerdere afmetingen beschikbaar voor zoektrefwoorden:
+Als u onderscheid wilt maken tussen betaald en natuurlijk zoeken, [Betaalde zoekdetectie](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) is vereist. Er zijn meerdere afmetingen beschikbaar voor zoektrefwoorden:
 
 * **Trefwoord zoeken**: Het zoektrefwoord dat wordt gebruikt om uw site te bereiken, ongeacht of het betaald of natuurlijk is.
 * **Zoeken op trefwoord - betaald**: Het zoektrefwoord dat wordt gebruikt om uw site te bereiken en dat overeenkomt met betaalde zoekdetectie.
@@ -31,7 +31,7 @@ Als u onderscheid wilt maken tussen betaald en natuurlijk zoeken, [Betaalde zoek
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar veelvoudige raadplegingslijsten intern aan Adobe. Elke waarde is gebaseerd op de [referentie](referrer.md) van de hit, die afhankelijk is van [Interne URL-filters](/help/admin/admin/internal-url-filter-admin.md). Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
+Deze dimensie verwijst naar veelvoudige raadplegingslijsten intern aan Adobe. Elke waarde is gebaseerd op de [referentie](referrer.md) van de hit, die afhankelijk is van [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
 
 ## Dimension-items
 

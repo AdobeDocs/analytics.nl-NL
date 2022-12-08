@@ -5,7 +5,7 @@ uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -20,7 +20,7 @@ De onderverdelingen van het gebruik wanneer u meer over wilt weten hoe een rappo
 
 Een voorbeeld is een verdeling van een rapport van het douaneverkeer genoemd de Groep van de Leeftijd, waarin u de pagina&#39;s van de plaatsbezoekers van een onderzoek hebt verzameld. Met dit rapport kunt u zien welke leeftijdsgroep verantwoordelijk is voor het meeste verkeer op uw site. Als u echter de moeite hebt genomen om iets als de leeftijd van een bezoeker vast te leggen, wilt u wellicht meer weten dan alleen de paginaweergaven. U kunt een uitsplitsingsrapport genereren over de zoekmachine die ze gebruiken, welke trefwoorden ze gebruiken of waar ze zich geografisch bevinden. U hebt een correlatie tussen de leeftijdsgroep en de zoekmachine.
 
-Als u een rapport indeelt door *`Referrer Type`* kan een gegevenspunt worden weergegeven voor *`Inside Your Site`*. Deze waarde geeft een verwijzingspagina aan die voorkomt in de lijst Interne URL-filters. Zie [Interne URL-filters](/help/admin/admin/internal-url-filter-admin.md) in de Admin Reference.
+Als u een rapport indeelt door *`Referrer Type`* kan een gegevenspunt worden weergegeven voor *`Inside Your Site`*. Deze waarde geeft een verwijzingspagina aan die voorkomt in de lijst Interne URL-filters. Zie [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) in de Admin Reference.
 
 U kunt elke analytische variabele (eVar of eigenschap) opsplitsen met een andere variabele. De **[!UICONTROL Breakdown By]** menu in de rapporttabel komt overeen met het standaardmenu Analytics-rapportage, zodat selecties consistent blijven
 

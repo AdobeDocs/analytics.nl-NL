@@ -3,7 +3,7 @@ title: Verwijzen naar domein
 description: Het overkoepelende domein waarop een bezoeker zich bevond voordat hij naar uw site klikte.
 feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
@@ -16,7 +16,7 @@ De dimensie &#39;Verwijzend domein&#39; rapporteert welke domeinen bezoekers doo
 
 >[!IMPORTANT]
 >
->U moet uw rapportreeks vormen [Interne URL-filters](/help/admin/admin/internal-url-filter-admin.md) om deze dimensie te gebruiken. Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
+>U moet uw rapportreeks vormen [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) om deze dimensie te gebruiken. Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
 
 Hetzelfde rapport kan verschillende resultaten laten zien tussen Analysis Workspace en Data Warehouse. Analysis Workspace rapporteert het verwijzende domein voor elke afzonderlijke pagina, exclusief waarden die overeenkomen met interne URL-filters. Data Warehouse rapporteert alleen het eerste verwijzende domein van het bezoek en negeert interne URL-filters.
 
@@ -25,7 +25,7 @@ Hetzelfde rapport kan verschillende resultaten laten zien tussen Analysis Worksp
 Deze dimensie vereist configuratie in de interface van Analytics en gegevens in beeldverzoeken.
 
 * Binnen uw implementatie, wint deze dimensie gegevens van terug [`r` querytekenreeks](/help/implement/validate/query-parameters.md) in afbeeldingsaanvragen. AppMeturement verzamelt deze gegevens met behulp van de JavaScript-variabele `document.referrer` in de browser. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak. Als u een methode voor gegevensverzameling buiten AppMeasurement gebruikt (bijvoorbeeld via de API), moet u de methode `r` parameter querytekenreeks in afbeeldingsaanvragen.
-* Binnen de interface van Analytics, moet u uw rapportreeks vormen [Interne URL-filters](/help/admin/admin/internal-url-filter-admin.md). Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
+* Binnen de interface van Analytics, moet u uw rapportreeks vormen [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Als u interne URL-filters niet configureert, kan dit interne domeinen of externe domeinen omvatten.
 
 Adobe blijft het verwijzen domein voor een bezoek. Als een bezoeker een koppeling verlaat en doorklikt op een ander domein binnen één bezoek, wordt de nieuwe waarde bijgewerkt en blijft deze voor de rest van het bezoek bestaan. Als u alleen de oorspronkelijke waarde wilt zien, raadpleegt u [Origineel verwijzend domein](original-referring-domain.md).
 

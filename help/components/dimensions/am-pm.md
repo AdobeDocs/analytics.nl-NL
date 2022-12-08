@@ -3,7 +3,7 @@ title: AM/PM
 description: Hiermee wordt bepaald of de treffer heeft plaatsgevonden tijdens uur 's ochtends of 's middags.
 feature: Dimensions
 exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # AM/PM
 
-De dimensie &#39;AM/PM&#39; geeft inzicht in of de hit heeft plaatsgevonden tijdens de uren &#39;AM&#39; of &#39;PM&#39;. De tijd van de treffer is gebaseerd op de [tijdzone van rapportsuite](/help/admin/admin/general-acct-settings-admin.md).
+De dimensie &#39;AM/PM&#39; geeft inzicht in of de hit heeft plaatsgevonden tijdens de uren &#39;AM&#39; of &#39;PM&#39;. De tijd van de treffer is gebaseerd op de [tijdzone van rapportsuite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
 
 ## Deze dimensie vullen met gegevens
 

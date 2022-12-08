@@ -3,7 +3,7 @@ description: Index van beheerprogramma's in Adobe Analytics.
 title: Admin Tools
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 34%
@@ -24,22 +24,22 @@ ht-degree: 34%
 + [Conversievariabelen (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [Valutacodes](currency.md)
 + [Aangepaste rapportbeschrijvingen](custom-desc-admin.md)
-+ [Kalender aanpassen](custom-calendar.md)
++ [Kalender aanpassen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
 + [Databronnen](data-sources.md)
 + [Standaardwaarden](default-metrics.md)
 + [Exclusief door IP Adres](exclude-ip.md)
 + [Zoekmethoden](finding-methods.md)
-+ [Algemene accountinstellingen](general-acct-settings-admin.md)
-+ [Interne URL-filters](internal-url-filter-admin.md)
++ [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
++ [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
 + [Logboeken](logs.md)
 + [Marketingkanalen](marketing-channels-admin.md)
-+ [Menu aanpassen](customize-menus.md)
++ [Menu aanpassen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
 + [Metrische zichtbaarheid](metric-visibility.md)
 + [Mobiel beheer](mobile-management.md)
-+ [Overzicht van paid search-detectie](paid-search-detection/paid-search-detection.md)
++ [Overzicht van paid search-detectie](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
 + [Preferences Manager](preferences-manager.md)
 + [Privacy-instellingen](privacy-settings.md)
-+ [Overzicht van verwerkingsregels](c-processing-rules/processing-rules.md)
++ [Overzicht van verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
 + [Overzicht van realtimerapporten](realtime/realtime.md)
 + [Wachtrij voor geplande rapporten](scheduled-reports-admin.md)
 + [Overzicht van server-side doorsturen](c-server-side-forwarding/ssf.md)

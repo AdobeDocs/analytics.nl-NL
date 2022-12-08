@@ -3,7 +3,7 @@ title: Postcode
 description: De postcode van de bezoeker.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Deze dimensie is uniek in die zin dat het veelvoudige manieren bevat om het met 
 * De postcode rechtstreeks instellen met de `zip` variabele; of
 * Configureer het systeem zodat het kan worden opgehaald uit geosegmentatiegegevens.
 
-De [!UICONTROL Zip option] krachtens [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md) bepaalt hoe u deze dimensie wilt vullen.
+De [!UICONTROL Zip option] krachtens [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) bepaalt hoe u deze dimensie wilt vullen.
 
 >[!IMPORTANT]
 >

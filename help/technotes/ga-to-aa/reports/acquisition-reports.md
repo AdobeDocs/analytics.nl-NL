@@ -3,7 +3,7 @@ title: Overnameverslagen in Adobe Analytics
 description: Leer hoe u op aankopen gebaseerde rapporten maakt met Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 0%
@@ -127,7 +127,7 @@ Het is mogelijk UTM-parameters te verzamelen in Adobe Analytics met behulp van a
 
 ## Campagnes - Betaalde trefwoorden
 
-Het rapport Betaalde trefwoorden laat zien hoe elk trefwoord wordt uitgevoerd nadat een bezoeker op een betaalde zoekkoppeling van een zoekmachine klikt. De **Trefwoorden zoeken - Betaald** dimensie is beschikbaar in Analysis Workspace, maar vereist een eenmalige instelling van betaalde zoekdetectie om gegevens te verzamelen. Zie [Detectie van betaalde zoekopdracht](/help/admin/admin/paid-search-detection/paid-search-detection.md) in de gebruikershandleiding voor Admin voor meer informatie over de installatie.
+Het rapport Betaalde trefwoorden laat zien hoe elk trefwoord wordt uitgevoerd nadat een bezoeker op een betaalde zoekkoppeling van een zoekmachine klikt. De **Trefwoorden zoeken - Betaald** dimensie is beschikbaar in Analysis Workspace, maar vereist een eenmalige instelling van betaalde zoekdetectie om gegevens te verzamelen. Zie [Detectie van betaalde zoekopdracht](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) in de gebruikershandleiding voor Admin voor meer informatie over de installatie.
 
 1. Zoek in het menu Componenten de locatie **Trefwoord zoeken - Betaald** en sleep deze naar het grote tabelgebied in de vrije vorm met de naam &#39;Hier een Dimension neerzetten&#39;.
 2. Sleep de gewenste metriek naar de werkruimte naast de automatisch gemaakte gegevens **Voorval** metrisch. Zie de [Metrische vertaalgids](common-metrics.md) voor details over hoe te om elke respectieve metrisch te verkrijgen.

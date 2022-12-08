@@ -3,7 +3,7 @@ title: Alle zoekpaginanummers
 description: Bepaal welke pagina op een zoekmachine een bezoeker door aan uw site heeft geklikt.
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -16,7 +16,7 @@ De dimensie &#39;Alle rang van zoekpagina&#39; geeft inzicht in welke pagina met
 
 ## Deze dimensie vullen met gegevens
 
-Om deze dimensie te laten werken is het alleen nodig dat uw rapportenpakket [Interne URL-filters](/help/admin/admin/internal-url-filter-admin.md) correct ingesteld. AppMeasurement vult automatisch deze dimensie zonder enige veranderingen van de implementatiecode.
+Om deze dimensie te laten werken is het alleen nodig dat uw rapportenpakket [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) correct ingesteld. AppMeasurement vult automatisch deze dimensie zonder enige veranderingen van de implementatiecode.
 
 ## Dimension-items
 

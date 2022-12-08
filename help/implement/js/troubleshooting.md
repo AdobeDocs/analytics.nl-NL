@@ -3,7 +3,7 @@ title: JavaScript-implementatie problemen oplossen
 description: Meer informatie over algemene problemen en aanbevolen procedures voor het oplossen van problemen met uw JavaScript-implementatie.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Soms is het gewenst een enkel of dubbel aanhalingsteken in een tekenreeks op te 
 
 ### Gebruik geen gekrulde aanhalingstekens
 
-In sommige programma&#39;s worden neutrale aanhalingstekens automatisch omgezet (`"..."` en `'...'`) tot gekrulde aanhalingstekens (`“...”` en `‘...’`). Vermijd het gebruik van documenteditors (zoals Microsoft Word) of het verzenden van codefragmenten via e-mail. Curly-aanhalingstekens kunnen niet worden gebruikt in JavaScript.
+In sommige programma&#39;s worden neutrale aanhalingstekens automatisch omgezet (`"..."` en `'...'`) tot gekrulde aanhalingstekens (`"..."` en `'...'`). Vermijd het gebruik van documenteditors (zoals Microsoft Word) of het verzenden van codefragmenten via e-mail. Curly-aanhalingstekens kunnen niet worden gebruikt in JavaScript.
 
 ## Verwijzen naar het object Analytics
 
@@ -87,7 +87,7 @@ Deze twee variabelewaarden worden in Adobe Analytics als afzonderlijk beschouwd.
 Implementaties die veel variabelen vullen met lange waarden, kunnen soms worden uitgevoerd in afgebroken afbeeldingsaanvragen. Sommige oudere browsers, zoals Internet Explorer, leggen een limiet van 2083 tekens op voor het aanvragen van URL&#39;s voor afbeeldingen. Als uw organisatie met zeer lange beeldverzoeken wordt geconfronteerd, probeer het volgende:
 
 * **De Experience Cloud ID-service gebruiken**: In AppMeasurement-bibliotheken 1.4.1 en hoger worden afbeeldingsaanvragen automatisch verzonden met HTTP-POST als deze te lang zijn. Gegevens die met deze methode worden verzonden, worden niet afgebroken, ongeacht de lengte. Zie [Adobe Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html) voor meer informatie .
-* **Verwerkingsregels gebruiken**: [Verwerkingsregels](/help/admin/admin/c-processing-rules/processing-rules.md) U kunt waarden van de ene variabele naar de andere kopiëren. Met deze methode hoeft u niet dezelfde waarde in meerdere variabelen in te stellen. Bijvoorbeeld:
+* **Verwerkingsregels gebruiken**: [Verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) U kunt waarden van de ene variabele naar de andere kopiëren. Met deze methode hoeft u niet dezelfde waarde in meerdere variabelen in te stellen. Bijvoorbeeld:
 
    Altijd uitvoeren:<br>
 Waarde van proxy1 overschrijven met eVar1<br>

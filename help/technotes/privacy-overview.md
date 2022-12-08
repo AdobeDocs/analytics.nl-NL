@@ -4,7 +4,7 @@ keywords: privacy
 title: Privacyoverzicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 92%
@@ -91,7 +91,7 @@ Adobe Analytics verzamelt de volgende data:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe heeft de instelling IP-onzichtbaarmaking: ingeschakeld - IP verwijderd (x.x.x.x) standaard ingeschakeld voor alle klanten met een rapportsuite in EMEA. Met deze instelling wordt het IP-adres volledig vervangen door de waarde (x.x.x.x) na geografisch opzoeken van de locatie, en is niet meer beschikbaar als datapunt. <p>Deze basisvervangingsmethode kan niet worden herleid tot een uniek, specifiek IP-adres. De klant en Adobe hebben geen van beiden toegang tot het IP-adres. Het is onomkeerbaar geanonimiseerd. Voor meer informatie over andere IP verduisteringsmontages, zie </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">Algemene accountinstellingen</a> in de handleiding voor Admin-gebruikers.</p> </td>
+   <td colname="col2"> Adobe heeft de instelling IP-onzichtbaarmaking: ingeschakeld - IP verwijderd (x.x.x.x) standaard ingeschakeld voor alle klanten met een rapportsuite in EMEA. Met deze instelling wordt het IP-adres volledig vervangen door de waarde (x.x.x.x) na geografisch opzoeken van de locatie, en is niet meer beschikbaar als datapunt. <p>Deze basisvervangingsmethode kan niet worden herleid tot een uniek, specifiek IP-adres. De klant en Adobe hebben geen van beiden toegang tot het IP-adres. Het is onomkeerbaar geanonimiseerd. Voor meer informatie over andere IP verduisteringsmontages, zie </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md">Algemene accountinstellingen</a> in de handleiding voor Admin-gebruikers.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Algemeen </td> 

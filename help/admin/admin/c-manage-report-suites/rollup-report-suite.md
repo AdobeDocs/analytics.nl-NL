@@ -3,7 +3,7 @@ description: Beschrijvingen van de types van rapportsuite en vergelijking van gl
 title: Methoden van rapportsuite
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Het gebruik van virtuele-rapportsuites in plaats van taggen met meerdere suite i
 >
 >[!DNL Reports & Analytics] is het enige hulpmiddel dat rolluprapporten steunt, en Adobe adviseert niet meer het gebruiken van rollups. Overweeg in plaats daarvan een algemene rapportsuite met tags voor meerdere suite of virtuele rapportensuites.
 
-Een rolluprapport is een eenvoudige samenvoeging van gegevens uit meerdere rapportageopes, zonder deduplicatie of een segment of gegevensuitsplitsingen. Rollups vereisen geen code-implementatie. Rolluprapporten gebruiken [gebruik maken van een kinderrapport](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) en vervolgens [combineren in een rolluprapport](/help/admin/admin/c-manage-report-suites/t-rollups.md) gebruiken [!UICONTROL Admin Tools].
+Een rolluprapport is een eenvoudige samenvoeging van gegevens uit meerdere rapportageopes, zonder deduplicatie of een segment of gegevensuitsplitsingen. Rollups vereisen geen code-implementatie. Rolluprapporten gebruiken [gebruik maken van een kinderrapport](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) en vervolgens [combineren in een rolluprapport](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) gebruiken [!UICONTROL Admin Tools].
 
 Rolluprapporten zijn gratis: de reeksen van het kindrapport veroorzaken hun eigen servervraag, maar rollup leidt geen extra vraag. Rollups zijn een oudere functie en hebben vele beperkingen.
 

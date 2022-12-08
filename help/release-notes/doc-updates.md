@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8e6f8ecb153d5af183adee76acef0a12901bb1be
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '3448'
 ht-degree: 36%
@@ -203,7 +203,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 11 april 2019 | Verbeteringen voor best practices voor optimalisatie werkruimte: [Prestaties optimaliseren](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11 april 2019 | Updates van [Workspace-prestaties optimaliseren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14 maart 2019 | Belangrijke update van [Regionale Data Collection](/help/technotes/rdc/regional-data-collection.md). |
-| 7 februari 2019 | Kleine update van “Laatste last van IP-adressen vervangen door 0” en de instellingen voor “IP onzichtbaar maken” in [Algemene accountinstellingen](/help/admin/admin/general-acct-settings-admin.md). |
+| 7 februari 2019 | Kleine update van “Laatste last van IP-adressen vervangen door 0” en de instellingen voor “IP onzichtbaar maken” in [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 1 februari 2019 | Belangrijke update van de implementatieplug-in [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 januari 2019 | [Cohortanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - Met de belangrijkste verbeteringen in Cohort Analysis kunt u:<ul><li>Afzonderlijk een segment insluiten en metrics retourneren. </li><li>De uitval weergeven in plaats van de retentie.</li><li>Latentietabellen tonen (de tijd die is verstreken voor en na een insluitingsgebeurtenis).</li><li>Een cohortdimensie op maat maken (om bezoekers te groeperen op basis van een eVar en niet alleen op tijd).</li><li>Een doorlopende cohortberekening uitvoeren: de retentie of de uitval berekenen op basis van de voorafgaande periode, niet op basis van het oorspronkelijke cohort. </li><li>Meerdere metrics toevoegen aan insluitings- en retourvelden, en segmenten toepassen. (Berekende standaarden worden niet ondersteund)</li></ul> |
 | 17 januari 2019 | [Dichtheid weergeven](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Met deze nieuwe instelling kunt u meer data op één scherm weergeven door de verticale opvulling van de linkerrail, vrije-vormtabellen en cohortabellen te verminderen. Toegankelijk via Project > Projectinfo en instellingen. |
