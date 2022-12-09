@@ -3,7 +3,7 @@ description: Index van beheerprogramma's in Adobe Analytics.
 title: Admin Tools
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 34%
@@ -23,7 +23,7 @@ ht-degree: 34%
 + [Code Manager](code-manager-admin.md)
 + [Conversievariabelen (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [Valutacodes](currency.md)
-+ [Aangepaste rapportbeschrijvingen](custom-desc-admin.md)
++ [Aangepaste rapportbeschrijvingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
 + [Kalender aanpassen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
 + [Databronnen](data-sources.md)
 + [Standaardwaarden](default-metrics.md)
@@ -46,6 +46,6 @@ ht-degree: 34%
 + [Menu Vereenvoudigde rapporten](t-simplified-menu.md)
 + [Overzicht van succesgebeurtenissen](c-success-events/success-event.md)
 + [Tijdstempels optioneel](timestamp-optional.md)
-+ [Overzicht traffic variabele (prop)](c-traffic-variables/traffic-var.md)
++ [Overzicht traffic variabele (prop)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
 + [De variabele Unique Visitor opgeven](unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [Videobeheer](video-management.md)

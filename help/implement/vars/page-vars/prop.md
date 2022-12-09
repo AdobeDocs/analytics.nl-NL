@@ -3,9 +3,9 @@ title: prop
 description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Keuzerondjes in de lijst zijn een instelling die wordt toegepast op profielen wa
 
 ### Lijsteigenschappen configureren
 
-Lijsteigenschappen inschakelen in [Verkeersvariabelen](/help/admin/admin/c-traffic-variables/traffic-var.md) onder rapportsuite-instellingen. Zorg ervoor dat het gewenste scheidingsteken correct wordt gevormd. Adobe heeft geen standaardscheidingsteken.
+Lijsteigenschappen inschakelen in [Verkeersvariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) onder rapportsuite-instellingen. Zorg ervoor dat het gewenste scheidingsteken correct wordt gevormd. Adobe heeft geen standaardscheidingsteken.
 
 >[!TIP]
 >

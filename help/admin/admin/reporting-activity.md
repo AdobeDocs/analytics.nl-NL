@@ -4,7 +4,7 @@ title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 2%
@@ -33,13 +33,13 @@ In Adobe Analytics gaan beheerders naar **[!UICONTROL Admin]** > **[!UICONTROL R
 
 U hebt de toestemming van de Beheerder van het Product van de Analyse (in Adobe Admin Console) nodig om rapporteringsactiviteit te beheren.
 
-![machtiging](assets/rep-mgr-permission.png)
+![machtiging](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## De wachtrij met rapporten weergeven
 
 Wanneer u het dialoogvenster [!UICONTROL Reporting Activity] De overzichtspagina van de manager, ziet u een lijst van uw toegelaten reeksen van het basisrapport.
 
-![rapportwachtrij](assets/reporting-activity1.png)
+![rapportwachtrij](/help/admin/admin/assets/reporting-activity1.png)
 
 | UI-element | Beschrijving |
 | --- | --- |
@@ -62,7 +62,7 @@ Wanneer u het dialoogvenster [!UICONTROL Reporting Activity] De overzichtspagina
 
 Klik de titelverbinding van een rapportreeks waarvoor u details wilt bekijken.
 
-![rapportsuite](assets/indiv-report-ste.png)
+![rapportsuite](/help/admin/admin/assets/indiv-report-ste.png)
 
 ### Lijngrafiek
 
@@ -72,17 +72,17 @@ De lijngrafiek toont de rapportactiviteit voor de geselecteerde rapportreeks ove
 * De y-as toont de gemiddelde wachttijd voor een vraag, in seconden.
 * U kunt de muisaanwijzer boven het lijndiagram plaatsen om de punten in de tijd en de gemiddelde wachttijd voor dat moment weer te geven.
 
-   ![detail](assets/detail.png)
+   ![detail](/help/admin/admin/assets/detail.png)
 
 ### Filter
 
 U kunt de lijst door Toepassing (zie lijst in de lijst hieronder), door Gebruiker, en door Project filtreren.
 
-![filter](assets/filter.png)
+![filter](/help/admin/admin/assets/filter.png)
 
 ### Samenvattingsnummers
 
-![filter](assets/summary_numbers.png)
+![filter](/help/admin/admin/assets/summary_numbers.png)
 
 De overzichtsaantallen tonen de volgende informatie:
 
@@ -127,11 +127,11 @@ Een aanvraag annuleren
 1. In de **[!UICONTROL Cancel x query]** venster dat wordt weergegeven, kunt u het annuleringsbericht indien nodig wijzigen.
 1. Klik op **[!UICONTROL Continue]**.
 
-   ![cancel-query](assets/cancel-query.png)
+   ![cancel-query](/help/admin/admin/assets/cancel-query.png)
 
 De gebruikers van de toepassing in Werkruimte, bijvoorbeeld, zullen de volgende verklaring in hun projecten zien verschijnen:
 
-![cancel-user-notice](assets/cancel-user-facing.png)
+![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
 ## Veelgestelde vragen
 

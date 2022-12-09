@@ -3,7 +3,7 @@ description: Verklaart verhogingen aan server-kant door:sturen die door de EU ve
 title: GDPR/ePrivacy-compliance en server-side doorsturen
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 3%
@@ -38,7 +38,7 @@ U kunt Adobe Analytics gebruiken om te melden hoeveel van uw verkeer op toestemm
 Om dit type van rapportering te vormen, kaart de nieuwe contextvariabele aan een variabele van het douaneverkeer (steun) via verwerkingsregels. Daartoe
 
 1. Implementeer de variabele &quot;cm.ssf&quot; (zoals hierboven weergegeven).
-1. [De eigenschap Prop inschakelen.](/help/admin/admin/c-traffic-variables/traffic-var.md)
+1. [De eigenschap Prop inschakelen.](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
 1. Gebruik verwerkingsregels om de contextvariabele toe te wijzen aan de eigenschap prop.
 
    1. Ga naar  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** en selecteer vervolgens een rapportsuite.

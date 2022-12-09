@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 89d5c1e59e0cf5167eb7858caa0f9090d527a9c4
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 82%
@@ -56,7 +56,6 @@ ht-degree: 82%
       + [Lijstvariabelen](admin/conversion-var-admin/list-var-admin.md)
       + [Merchandising-eVars](admin/conversion-var-admin/merchandising-evars.md)
    + [Valutacodes](admin/currency.md)
-   + [Aangepaste rapportbeschrijvingen](admin/custom-desc-admin.md)
    + [Databronnen](admin/data-sources.md)
    + [Standaardcijfers](admin/default-metrics.md)
    + [Uitsluiten op IP-adres](admin/exclude-ip.md)
@@ -127,6 +126,11 @@ ht-degree: 82%
                   + [Een gebeurtenis instellen met een contextdatavariabele](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [Een gebeurtenis verwijderen uit een treffer](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [Tips en trucs voor verwerkingsregels](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+         + Traffic variabelen {#traffic-variables}
+            + [Overzicht traffic variabele (prop)](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+            + [Rapporten voor traffic variabelen inschakelen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
+            + [Traffic-classificaties](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
+            + [Aangepaste rapportbeschrijvingen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
    + Server-side doorsturen {#server-side-forwarding}
       + [Overzicht van server-side doorsturen](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy-compliance en server-side doorsturen](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -140,10 +144,6 @@ ht-degree: 82%
       + [Succesgebeurtenissen configureren](admin/c-success-events/t-success-events.md)
       + [Het gebeurtenistype wijzigen](admin/c-success-events/event-type.md)
    + [Tijdstempels optioneel](admin/timestamp-optional.md)
-   + Traffic variabelen {#traffic-variables}
-      + [Overzicht traffic variabele (prop)](admin/c-traffic-variables/traffic-var.md)
-      + [Rapporten voor traffic variabelen inschakelen](admin/c-traffic-variables/t-traffic-variable.md)
-      + [Traffic-classificaties](admin/c-traffic-variables/traffic-classifications.md)
    + Variabele Unique Visitor {#unique-visitor-variable}
       + [De variabele Unique Visitor opgeven](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Gebruiksscenario - Bezoekers-id&#39;s](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)

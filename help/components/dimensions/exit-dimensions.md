@@ -4,7 +4,7 @@ description: Vermeldt de exit-afmetingen en het gebruik ervan.
 keywords: afsluitpagina, sectie Site afsluiten, server afsluiten, aangepast inzicht afsluiten
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *Deze Help-pagina beschrijft hoe afsluiten werkt als een dimensie. Voor informatie over hoe de uitgang als metrisch werkt, zie [Afsluiten](../metrics/exits.md) metrisch.*
 
-De dimensies van de uitgang registreren het laatste afmetingspunt, en passen het met terugwerkende kracht op alle treffers in het bezoek toe. Afsluitafmetingen zijn beschikbaar voor alle variabelen waarvoor tekenen is ingeschakeld onder [Verkeersvariabelen](/help/admin/admin/c-traffic-variables/traffic-var.md) in de instellingen van de rapportsuite.
+De dimensies van de uitgang registreren het laatste afmetingspunt, en passen het met terugwerkende kracht op alle treffers in het bezoek toe. Afsluitafmetingen zijn beschikbaar voor alle variabelen waarvoor tekenen is ingeschakeld onder [Verkeersvariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in de instellingen van de rapportsuite.
 
 ## Afsluitafmetingen vullen met gegevens
 

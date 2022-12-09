@@ -4,7 +4,7 @@ title: Overzicht van deelvensters
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 1%
@@ -64,7 +64,7 @@ Met de dropzone van het deelvenster kunt u segment- en vervolgkeuzefilters toepa
 
 Sleep een segment van de linkerspoorstaaf naar de neerzetzone van het deelvenster om het deelvenster te filteren.
 
-![](assets/segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### Ad-hocsegmentfilters
 
@@ -72,7 +72,7 @@ Niet-segmentcomponenten kunnen ook rechtstreeks in de dalingsstreek worden gesle
 
 Ad-hocsegmenten zijn lokaal voor het project en verschijnen niet in uw linkerspoor tenzij u ze openbaar maakt.
 
-![](assets/adhoc-segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### Vervolgkeuzefilters {#dropdown-filter}
 

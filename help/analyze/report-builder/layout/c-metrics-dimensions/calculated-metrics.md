@@ -4,7 +4,7 @@ title: Berekende standaarden
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 13%
@@ -25,7 +25,7 @@ In Stap 2 van de Tovenaar van het Verzoek, kunt u berekende metriek filtreren en
 
 ## Berekende cijfers filteren {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filter** berekende metriek door op het pictogram van de Filter te klikken:  ![](assets/segment_filter.png)
+**Filter** berekende metriek door op het pictogram van de Filter te klikken:  ![](/help/admin/admin/assets/filter.png)
 
 . Het dialoogvenster Geavanceerde filters wordt gevuld met zowel standaard als berekende meetwaarden.
 

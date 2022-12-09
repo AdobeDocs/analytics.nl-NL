@@ -4,7 +4,7 @@ description: De afmetingen en metriek die Rapporten & Analytics voor elk rapport
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Bevat rapporten waarmee u tekengegevens voor bezoekers kunt bekijken.
 
 >[!NOTE]
 >
->Andere rapporten kunnen in deze omslag verschijnen. Het zijn andere dimensies, zoals kronkels, waar u [plakken ingeschakeld](../../admin/admin/c-traffic-variables/traffic-var.md) onder rapportsuite-instellingen.
+>Andere rapporten kunnen in deze omslag verschijnen. Het zijn andere dimensies, zoals kronkels, waar u [plakken ingeschakeld](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) onder rapportsuite-instellingen.
 
 ## Verkeersbronnen
 

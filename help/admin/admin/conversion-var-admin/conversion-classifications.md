@@ -3,7 +3,7 @@ description: Classificaties worden gebruikt om waarden in groepen te categoriser
 title: Conversieclassificaties
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 0ec9d6fd44f1f6eb565f8602cc5a2d449556d0ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 3%
@@ -40,7 +40,7 @@ Stappen die beschrijven hoe u conversieclassificaties in Admin kunt toevoegen.
 1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**.
 1. Van de **[!UICONTROL Select Classification Type]** vervolgkeuzelijst, selecteert u de variabele waaraan u een classificatie wilt toevoegen.
 
-   ![Stapinfo](../assets/sub_class_create.png)
+   ![Stapinfo](/help/admin/admin/assets/sub_class_create.png)
 
 1. Muis over de **[!UICONTROL Edit Classification]** pictogram, dan selecteren **[!UICONTROL Add Classification]**.
 1. In de **[!UICONTROL Select Type]** selecteert u het type classificatie dat u aan de variabele wilt toevoegen.

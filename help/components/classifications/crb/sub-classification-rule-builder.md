@@ -3,7 +3,7 @@ description: U kunt de Classification Rule Builder niet combineren met subclassi
 title: Subclassificaties en de Rule Builder
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 2%
@@ -44,7 +44,7 @@ De stappen van het voorbeeld die beschrijven hoe u sub-classificaties kunt uploa
 
    Voorbeeld:
 
-   ![Stapinfo](assets/sub_class_create.png)
+   ![Stapinfo](/help/admin/admin/assets/sub_class_create.png)
 
 1. In de [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md), classificeert u de subclassificatiesleutel van de oorspronkelijke trackingcode.
 
@@ -67,8 +67,8 @@ De stappen van het voorbeeld die beschrijven hoe u sub-classificaties kunt uploa
 
    | Sleutel | Kanaal | Code brede campagne | Code&amp;hoed voor brede campagne;Type campagne | Code&amp;hoed voor uitgebreide campagne;Campagne voor Director | ... |
    |---|---|---|---|---|---|
-   | * |  | 111 | Merk | Suzanne |  |
-   | * |  | 222 | Merk | Frank |  |
+   | &#42; |  | 111 | Merk | Suzanne |  |
+   | &#42; |  | 222 | Merk | Frank |  |
 
 1. Upload een klein bestand (zoals hierboven weergegeven) om de opzoektabellen te onderhouden.
 
