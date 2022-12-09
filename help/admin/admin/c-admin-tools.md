@@ -3,7 +3,7 @@ description: Index van beheerprogramma's in Adobe Analytics.
 title: Admin Tools
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 34%
@@ -32,7 +32,7 @@ ht-degree: 34%
 + [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
 + [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
 + [Logboeken](logs.md)
-+ [Marketingkanalen](marketing-channels-admin.md)
++ [Marketingkanalen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
 + [Menu aanpassen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
 + [Metrische zichtbaarheid](metric-visibility.md)
 + [Mobiel beheer](mobile-management.md)

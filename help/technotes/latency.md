@@ -4,9 +4,9 @@ keywords: ontbrekende gegevens;langzaam
 title: Beschikbaarheid en latentie van gegevens
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Sommige mogelijkheden in de Adobe Experience Cloud worden geleverd met een aange
 
 Er bestaan verschillende strategieën om latentie te voorkomen of de hersteltijd te verlagen wanneer deze zich voordoet:
 
-* **Adobe op de hoogte stellen van verwachte verkeersopstoppingen:** Hoewel het onmogelijk is om elke verkeerspiek aan uw plaats te voorzien, kunnen er gevallen zijn waarin u een significante toename van verkeer verwacht te ontvangen. Voorbeelden zijn een bijzonder succesvolle vakantieperiode, of kort na een grote campagne-push. In deze gevallen, verstrekt Adobe een manier voor uw organisatie om ons van verwachte verkeersverhogingen op de hoogte te brengen zodat wij extra verwerkingsmiddelen aan uw rapportreeks kunnen toewijzen. Zie [Plan een verkeerspiek](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) in de Admin-gebruikershandleiding om te leren hoe u Adobe op de hoogte kunt brengen van verhoogde verkeersstromen.
+* **Adobe op de hoogte stellen van verwachte verkeersopstoppingen:** Hoewel het onmogelijk is om elke verkeerspiek aan uw plaats te voorzien, kunnen er gevallen zijn waarin u een significante toename van verkeer verwacht te ontvangen. Voorbeelden zijn een bijzonder succesvolle vakantieperiode, of kort na een grote campagne-push. In deze gevallen, verstrekt Adobe een manier voor uw organisatie om ons van verwachte verkeersverhogingen op de hoogte te brengen zodat wij extra verwerkingsmiddelen aan uw rapportreeks kunnen toewijzen. Zie [Plan een verkeerspiek](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) in de Admin-gebruikershandleiding om te leren hoe u Adobe op de hoogte kunt brengen van verhoogde verkeersstromen.
 * **Overweeg de verwerkingsbelasting wanneer u nieuwe functies activeert:** Sommige functies zijn verwerkingsintensiever dan andere. Hoe meer functies een rapportsuite biedt, des te moeilijker is het om van latentie te herstellen. Wanneer het toelaten van eigenschappen op een rapportreeks, houd in mening de volgende eigenschappen die de hoeveelheid te verwerken gegevens verhogen:
 
    * Meer dan 20 gebeurtenissen op dezelfde pagina implementeren

@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,6 @@ ht-degree: 82%
    + [Standaardcijfers](admin/default-metrics.md)
    + [Uitsluiten op IP-adres](admin/exclude-ip.md)
    + [Logboeken](admin/logs.md)
-   + [Marketingkanalen](admin/marketing-channels-admin.md)
    + [Metrische zichtbaarheid](admin/metric-visibility.md)
    + [Toepassingsbeheer](admin/mobile-management.md)
    + [Voorkeurenbeheer](admin/preferences-manager.md)
@@ -138,6 +137,13 @@ ht-degree: 82%
                + [Overzicht van succesgebeurtenissen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
                + [Succesgebeurtenissen configureren](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
                + [Het gebeurtenistype wijzigen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
+         + [Marketingkanalen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+         + Traffic-beheer {#traffic-management}
+            + [Traffic beheren](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [Een traffic-piek plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [Vroegere server calls beoordelen en een traffic-piek plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
+            + [Permanente traffic-toename opgeven](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+            + [Vereiste aanlooptijd voor traffic-toename](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
    + Server-side doorsturen {#server-side-forwarding}
       + [Overzicht van server-side doorsturen](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy-compliance en server-side doorsturen](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -178,10 +184,4 @@ ht-degree: 82%
    + [Gebruik van rapportsuites weergeven](c-server-call-usage/report-suite-usage.md)
    + [Waarschuwingen over het gebruik van server calls](c-server-call-usage/scu-alerts.md)
    + [Veelgestelde vragen over het gebruik van server calls](c-server-call-usage/overage-faq.md)
-+ Traffic-beheer {#traffic-management}
-   + [Traffic beheren](c-traffic-management/traffic-management.md)
-   + [Een traffic-piek plannen](c-traffic-management/t-traffic-schedule-spike.md)
-   + [Vroegere server calls beoordelen en een traffic-piek plannen](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-   + [Permanente traffic-toename opgeven](c-traffic-management/t-traffic-permanent.md)
-   + [Vereiste aanlooptijd voor traffic-toename](c-traffic-management/traffic-lead-time.md)
 + [Admin-API](c-admin-api/c-admin-api.md)

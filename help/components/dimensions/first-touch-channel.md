@@ -3,9 +3,9 @@ title: Eerste aanraakkanaal
 description: Het eerste marketingkanaal binnen het aflopen van de betrokkenheid van de bezoeker.
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ee27311cac5b61dea4d8e850e67126e5fe1d649d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De dimensie &#39;Eerste aanraakkanaal&#39; rapporteert het eerste marketingkanaa
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst rechtstreeks naar kanaalnamen die u in het dialoogvenster [Marketing Channel Manager](/help/admin/admin/marketing-channels-admin.md).
+Deze dimensie verwijst rechtstreeks naar kanaalnamen die u in het dialoogvenster [Marketing Channel Manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md).
 
 Elke hit die naar de servers van de gegevensinzameling van de Adobe wordt verzonden loopt door de verwerkingsregels van het Kanaal van de Marketing van uw rapportreeks. Het herhaalt door elke regel in numerieke orde tot het een gelijke vindt, waarin dat marketing kanaal aan de slag bindt. Het eerste aanraakkanaal blijft bij de bezoeker aanwezig totdat deze de site niet langer bezoekt dan de periode van de betrokkenheid van de bezoeker (standaard 30 dagen).
 
