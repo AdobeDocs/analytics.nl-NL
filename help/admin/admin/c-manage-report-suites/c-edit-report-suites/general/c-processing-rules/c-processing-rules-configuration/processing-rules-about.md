@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: De werking van verwerkingsregels
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 2%
@@ -39,7 +39,7 @@ De volgende lijst bevat zeer belangrijke concepten u moet begrijpen wanneer het 
   </tr> 
   <tr> 
    <td colname="col1"> <p>De verwerkingsregels worden onmiddellijk toegepast op de rapportsuite nadat ze zijn opgeslagen. </p> </td> 
-   <td colname="col2"> <p>Wijzigingen in de verwerkingsregels moeten binnen enkele minuten na opslaan zichtbaar zijn in de rapportsuite. Bij het testen van verwerkingsregels raden we aan om te configureren <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time rapporten</a> in uw reeks van het testrapport zodat kunt u de resultaten van een verwerkingsregel snel zien. </p> </td> 
+   <td colname="col2"> <p>Wijzigingen in de verwerkingsregels moeten binnen enkele minuten na opslaan zichtbaar zijn in de rapportsuite. Bij het testen van verwerkingsregels raden we aan om te configureren <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> real-time rapporten</a> in uw reeks van het testrapport zodat kunt u de resultaten van een verwerkingsregel snel zien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>De verwerkingsregels zijn de enige manier om tot de variabelen van contextgegevens toegang te hebben. </p> </td> 

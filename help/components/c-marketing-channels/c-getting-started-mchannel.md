@@ -3,7 +3,7 @@ title: Aan de slag met marketingkanalen
 description: Leer over het werkschema van de Kanalen van de Marketing, de automatische opstelling, en hoe te om de montages van de reeks van het malplaatjerapport op veelvoudige rapportreeksen toe te passen.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 2%
@@ -22,7 +22,7 @@ De kanalen van de marketing draaien rond Eerste en laatste aanraakmetriek, die c
 
 ## Workflow voor marketingkanalen
 
-![](assets/step1_icon.png) Bepaal elk kanaal dat op uw bedrijfsvereisten wordt gebaseerd.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Bepaal elk kanaal dat op uw bedrijfsvereisten wordt gebaseerd.
 
 Het bepalen van de kanalen u gebruikt is één van de belangrijkste componenten van de Kanalen van de Marketing. Het bepalen van de kanalen kan samenwerking tussen verscheidene individuen in uw organisatie vereisen. Hier volgen enkele vragen:
 
@@ -35,7 +35,7 @@ Het bepalen van de kanalen u gebruikt is één van de belangrijkste componenten 
 
 Een lijst met aanbevolen kanalen vindt u in [Veelgestelde vragen en voorbeelden](/help/components/c-marketing-channels/c-faq.md). Maak een lijst met de kanalen die u wilt gebruiken, zodat u de kanalen eenvoudiger kunt inschakelen en definiëren wanneer u kanalen maakt.
 
-![](assets/step2_icon.png) Marketingkanalen toevoegen aan de [!UICONTROL Marketing Channel Manager] pagina.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) Marketingkanalen toevoegen aan de [!UICONTROL Marketing Channel Manager] pagina.
 
 Nadat u hebt gedefinieerd welke kanalen u wilt bijhouden, schakelt u deze in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
@@ -47,7 +47,7 @@ Zie [Marketingkanalen toevoegen](/help/components/c-marketing-channels/c-channel
 >
 >Als de Kanalen van de Marketing niet eerder zijn gevormd, [automatische installatie](/help/components/c-marketing-channels/c-getting-started-mchannel.md) worden weergegeven. Deze opstelling verstrekt verscheidene pre-gevormde kanalen die u kunt aanpassen. Adobe raadt u aan deze regels als sjabloon te gebruiken. Nochtans, als u reeds stevige kanaaldefinities hebt, kunt u de automatische opstelling overslaan.
 
-![](assets/step3_icon.png) Vorm of verfijn de regels van elk kanaal op [!UICONTROL Marketing Channel Processing Rules] pagina.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Vorm of verfijn de regels van elk kanaal op [!UICONTROL Marketing Channel Processing Rules] pagina.
 
 Nadat u kanalen op de [!UICONTROL Marketing Channel Manager] pagina, vormt u de regels zodat de kanalen gegevens kunnen terugwinnen en rapporteren.
 

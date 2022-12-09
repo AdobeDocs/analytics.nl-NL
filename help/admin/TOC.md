@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '680'
+ht-degree: 82%
 
 ---
 
@@ -39,14 +39,17 @@ ht-degree: 0%
       + [Productprofielen voor Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Machtigingen voor productprofielen voor rapportsuite](admin-console/permissions/report-suite-tools.md)
       + [Machtigingen voor productprofielen voor Analytics Tools](admin-console/permissions/analytics-tools.md)
+   + User en Product Management (verouderd) {#user-product-management}
+      + [User en Product Management](admin-console/user-management2/user-management.md)
+      + Gebruikers migreren naar Adobe Admin Console {#migrate-users}
+         + [Analytics-gebruikersmigratie naar de Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
+         + [Analytics-gebruikersaccounts voor Adobe ID’s migreren](admin-console/user-management2/user-migration/t-migrate-users.md)
+         + [Analytics-gebruikersaccounts voor Enterprise en Federated ID’s migreren](admin-console/user-management2/user-migration/migrate-enterprise.md)
+         + [Verouderde logins uitschakelen](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
+         + [API&#39;s die door de migratie worden beïnvloed](admin-console/user-management2/user-migration/developer.md)
 + Analysebeheer {#admin-tools}
    + [Admin Tools](admin/c-admin-tools.md)
    + [Facturering](admin/billing-admin.md)
-   + Bot verwijderen {#bot-removal}
-      + [Bot verwijderen](admin/bot-removal/bot-removal.md)
-      + [Overzicht van regels voor bots](admin/bot-removal/bot-rules.md)
-      + [Handtekeningen van gewone bot](admin/bot-removal/bot-signatures.md)
-      + [Methoden voor botteling](admin/bot-removal/bot-exclusion-methods.md)
    + [Code Manager](admin/code-manager-admin.md)
    + [Valutacodes](admin/currency.md)
    + [Databronnen](admin/data-sources.md)
@@ -54,21 +57,14 @@ ht-degree: 0%
    + [Uitsluiten op IP-adres](admin/exclude-ip.md)
    + [Logboeken](admin/logs.md)
    + [Metrische zichtbaarheid](admin/metric-visibility.md)
-   + [Toepassingsbeheer](admin/mobile-management.md)
    + [Voorkeurenbeheer](admin/preferences-manager.md)
-   + [Privacy-instellingen](admin/privacy-settings.md)
    + [Privacy-rapportage](admin/privacy-reporting.md)
-   + Realtimerapporten {#real-time-reports}
-      + [Overzicht van realtimerapporten](admin/realtime/realtime.md)
-      + [Configuratie van realtimerapporten](admin/realtime/t-realtime-admin.md)
-      + [Ondersteunde cijfers en en dimensies in real time](admin/realtime/realtime-metrics.md)
    + [Activity Manager rapporteren](admin/reporting-activity.md)
    + [Wachtrij voor geplande rapporten](admin/scheduled-reports-admin.md)
    + Report Suite Manager {#manage-report-suites}
       + [Rapportsuites beheren](admin/c-manage-report-suites/report-suites-admin.md)
       + [Samenvatting en global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Een zoekopdracht in een rapportsuite opslaan](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [Instellingen voor afzonderlijke rapportsuites](admin/c-manage-report-suites/individual-rs-settings.md)
       + [Instellingen voor rapportsuites downloaden](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Nieuwe rapportsuite {#c-new-report-suite}
          + [Een rapportsuite maken](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
@@ -117,6 +113,20 @@ ht-degree: 0%
                   + [Een gebeurtenis instellen met een contextdatavariabele](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [Een gebeurtenis verwijderen uit een treffer](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [Tips en trucs voor verwerkingsregels](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + Bot verwijderen {#bot-removal}
+               + [Bot verwijderen](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
+               + [Overzicht van regels voor bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [Handtekeningen van gewone bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
+               + [Methoden voor botteling](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
+            + [Privacy-instellingen](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
+            + [Tijdstempels optioneel](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + Server-side doorsturen {#server-side-forwarding}
+               + [Overzicht van server-side doorsturen](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
+               + [GDPR/ePrivacy-compliance en server-side doorsturen](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
+               + [Vereisten voor server-side doorsturen](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
+               + [Data- en codereferentie server-side doorsturen](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
+               + [Implementatie van server-side doorsturen controleren](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
+               + [Veelgestelde vragen over server-side doorsturen](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + Traffic variabelen {#traffic-variables}
             + [Overzicht traffic variabele (prop)](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [Rapporten voor traffic variabelen inschakelen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
@@ -144,24 +154,20 @@ ht-degree: 0%
             + [Vroegere server calls beoordelen en een traffic-piek plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
             + [Permanente traffic-toename opgeven](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
             + [Vereiste aanlooptijd voor traffic-toename](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
-   + Server-side doorsturen {#server-side-forwarding}
-      + [Overzicht van server-side doorsturen](admin/c-server-side-forwarding/ssf.md)
-      + [GDPR/ePrivacy-compliance en server-side doorsturen](admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [Vereisten voor server-side doorsturen](admin/c-server-side-forwarding/ssf-requirements.md)
-      + [Data- en codereferentie server-side doorsturen](admin/c-server-side-forwarding/ssf-reference.md)
-      + [Implementatie van server-side doorsturen controleren](admin/c-server-side-forwarding/ssf-verify.md)
-      + [Veelgestelde vragen over server-side doorsturen](admin/c-server-side-forwarding/ssf-faq.md)
+         + [Instellingen voor afzonderlijke rapportsuites](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
+         + [Toepassingsbeheer](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + Realtimerapporten {#real-time-reports}
+            + [Overzicht van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
+            + [Configuratie van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
+            + [Ondersteunde cijfers en en dimensies in real time](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + [Menu Vereenvoudigde rapporten](admin/t-simplified-menu.md)
-   + [Tijdstempels optioneel](admin/timestamp-optional.md)
    + [Videobeheer](admin/video-management.md)
-+ User en Product Management (verouderd) {#user-product-management}
-   + [User en Product Management](user-management2/user-management.md)
-   + Gebruikers migreren naar Adobe Admin Console {#migrate-users}
-      + [Analytics-gebruikersmigratie naar de Admin Console](user-management2/user-migration/c-migration-tool.md)
-      + [Analytics-gebruikersaccounts voor Adobe ID’s migreren](user-management2/user-migration/t-migrate-users.md)
-      + [Analytics-gebruikersaccounts voor Enterprise en Federated ID’s migreren](user-management2/user-migration/migrate-enterprise.md)
-      + [Verouderde logins uitschakelen](user-management2/user-migration/t-disable-legacy-login.md)
-      + [API&#39;s die door de migratie worden beïnvloed](user-management2/user-migration/developer.md)
+   + Gebruik van server calls {#server-call-usage}
+      + [Overzicht van het gebruik van server calls](admin/c-server-call-usage/overage-overview.md)
+      + [Huidig gebruik van server calls weergeven](admin/c-server-call-usage/server-call-usage-dashboard.md)
+      + [Gebruik van rapportsuites weergeven](admin/c-server-call-usage/report-suite-usage.md)
+      + [Waarschuwingen over het gebruik van server calls](admin/c-server-call-usage/scu-alerts.md)
+      + [Veelgestelde vragen over het gebruik van server calls](admin/c-server-call-usage/overage-faq.md)
 + Data Governance {#data-governance}
    + [Adobe Analytics en GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics en CCPA](c-data-governance/an-ccpa-overview.md)
@@ -178,10 +184,4 @@ ht-degree: 0%
    + [Voorbeeld van labeling](c-data-governance/gdpr-labeling-example.md)
    + [Data Privacy en Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Data Privacy-terminologie](c-data-governance/gdpr-terminology.md)
-+ Gebruik van server calls {#server-call-usage}
-   + [Overzicht van het gebruik van server calls](c-server-call-usage/overage-overview.md)
-   + [Huidig gebruik van server calls weergeven](c-server-call-usage/server-call-usage-dashboard.md)
-   + [Gebruik van rapportsuites weergeven](c-server-call-usage/report-suite-usage.md)
-   + [Waarschuwingen over het gebruik van server calls](c-server-call-usage/scu-alerts.md)
-   + [Veelgestelde vragen over het gebruik van server calls](c-server-call-usage/overage-faq.md)
 + [Admin-API](c-admin-api/c-admin-api.md)

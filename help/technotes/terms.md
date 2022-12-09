@@ -2,10 +2,10 @@
 title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2554'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
    * De verwerkingsregels van het distributiekanaal, een reeks regels die bepaalt welk marketing kanaal een klap binnen behoort. Zie [Verwerkingsregels voor distributiekanalen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md) in de handleiding voor Admin-gebruikers.
 * **Prop:** Zie Verkeersvariabele.
 * **Gerangschikt rapport:** Een rapportformaat dat typisch een afmeting met metrisch volgt. Met dit type rapport kunt u de bovenste items weergeven, zoals de meest bekeken pagina&#39;s op uw site. Zie ook Trended-rapport.
-* **In real time:** Hiermee geeft u geconfigureerde variabelen weer zodra deze met weinig tot geen latentie zijn verzameld. Zie [Real-time rapporten](/help/admin/admin/realtime/realtime.md) in de handleiding voor Admin-gebruikers.
+* **In real time:** Hiermee geeft u geconfigureerde variabelen weer zodra deze met weinig tot geen latentie zijn verzameld. Zie [Real-time rapporten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) in de handleiding voor Admin-gebruikers.
 * **Report Builder:** Een Microsoft Excel-invoegtoepassing waarmee u aangepaste aanvragen kunt maken op basis van Adobe Analytics-gegevens.
 * **Rapportsuite:** Een overkoepelende container waarnaar u gegevens verzendt. Alle rapporten in Adobe Analytics verwijzen naar een rapportsuite.
 * **Rapporten en analyses:** Vroeger bekend als SiteCatalyst. Browseroplossing voor rapportage en analyse. Startertool in het Analytics-pakket.

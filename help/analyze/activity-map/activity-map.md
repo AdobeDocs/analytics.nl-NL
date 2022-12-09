@@ -4,7 +4,7 @@ title: Wat is Activity Map?
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 24%
@@ -40,7 +40,7 @@ Met Activity Map kunt u verschillende weergaven instellen om visueel de versnell
 * [Rapport Koppelingen](activitymap-links-report.md)
 * [Paginadata](activitymap-page-flow.md)
 * [Volledige set cijfers](activitymap-complete-metrics.md)
-* [Analyse van realtimepagina-analyse (Live)](activitymap-realtime.md)
+* [Analyse van realtimepagina-analyse (Live)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
 * [Klantsegmentering](activitymap-multiple-segments.md)
 * [Aanpasbare overlays](activitymap-gainerslosers.md)
 * [Overlaydetails](activitymap-overlay-details.md)

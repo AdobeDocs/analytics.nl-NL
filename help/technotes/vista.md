@@ -2,7 +2,7 @@
 title: VISTA-regels in Adobe Analytics
 description: Meer informatie over de regels en mogelijkheden van VISTA.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Sommige veelvoorkomende gevallen van gebruik van de VISTA-regels omvatten:
 * Variabelewaarden naar andere variabelen dupliceren
 * Bestanden uploaden naar een Adobe FTP-site die de waarden van variabelen kan beïnvloeden
 
-Vele gevallen van gebruik van de VISTA-regels worden al aangeboden door [Verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md), [Bot-regels](/help/admin/admin/bot-removal/bot-rules.md), [Virtuele rapportsuites](/help/components/vrs/vrs-about.md)of werkt u gewoon uw Adobe Analytics-implementatie bij. Adobe beveelt VISTA-regels alleen aan als laatste redmiddel.
+Vele gevallen van gebruik van de VISTA-regels worden al aangeboden door [Verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md), [Bot-regels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md), [Virtuele rapportsuites](/help/components/vrs/vrs-about.md)of werkt u gewoon uw Adobe Analytics-implementatie bij. Adobe beveelt VISTA-regels alleen aan als laatste redmiddel.
 
 >[!IMPORTANT]
 >

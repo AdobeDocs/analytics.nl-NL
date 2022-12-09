@@ -4,9 +4,9 @@ keywords: ontbrekende gegevens;langzaam
 title: Beschikbaarheid en latentie van gegevens
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Er bestaan verschillende strategieën om latentie te voorkomen of de hersteltijd
    * Meer dan 20 waarden in de productvariabele
    * Gebeurtenisserialisatie
 
-* Filter IAB Bot inschakelen: [Bot filteren](/help/admin/admin/bot-removal/bot-removal.md) kan de latentie sterk verminderen als uw rapportenreeks door bots of krawlers wordt bezocht. Aanbevolen wordt de IAB-botlijst te gebruiken, aangezien deze door de [Interactief reclamebureau](https://www.iab.net/about_the_iab). Een gebruiker kan zijn eigen beide regels aanpassen om die van IAB aan te vullen.
+* Filter IAB Bot inschakelen: [Bot filteren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) kan de latentie sterk verminderen als uw rapportenreeks door bots of krawlers wordt bezocht. Aanbevolen wordt de IAB-botlijst te gebruiken, aangezien deze door de [Interactief reclamebureau](https://www.iab.net/about_the_iab). Een gebruiker kan zijn eigen beide regels aanpassen om die van IAB aan te vullen.
 
 ## Wat u moet doen met Latentie
 

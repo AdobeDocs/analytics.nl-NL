@@ -1,20 +1,20 @@
 ---
 description: Administratieve stappen voor vestiging real-time rapporten.
-title: Realtimerapporten configureren
+title: Configuratie van realtimerapporten
 feature: Real-time
-exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
+exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
 
-# Realtimerapporten configureren
+# Configuratie van realtimerapporten
 
 Administratieve stappen voor vestiging real-time rapporten.
 
-Real-time rapporten instellen binnen [!UICONTROL Reports & Analytics] bestaat uit het selecteren van de rapportreeks en het vormen van maximaal drie rapporten voor het.
+Het opzetten van rapporten in real time binnen Rapporten &amp; Analytics bestaat uit het selecteren van de rapportreeks en het vormen van tot drie rapporten voor het.
 
 1. Selecteer de rapportsuite waarvoor u realtime rapporten wilt inschakelen.
 
@@ -33,13 +33,13 @@ Real-time rapporten instellen binnen [!UICONTROL Reports & Analytics] bestaat ui
 1. De knop **[!UICONTROL Enable Real-Time]** instellen.
 1. Opstelling gegevensinzameling in real time voor maximaal drie rapporten, met één metrische en drie dimensies of classificaties per rapport.
 
-   ![](assets/real_time_admin.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
    Voor informatie over ondersteunde realtime metriek en dimensies raadpleegt u [Ondersteunde Dimension en metriek](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    Als u classificaties hebt gemaakt, worden deze ingesprongen weergegeven onder de dimensie waarvoor ze zijn gedefinieerd:
 
-   ![](assets/classifications.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
 
    >[!NOTE]
    >

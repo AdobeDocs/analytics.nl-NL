@@ -4,7 +4,7 @@ keywords: Virtual Report Suite,VRS
 title: Virtuele rapportreeksen en tagging met meerdere suite-overwegingen
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met Virtual Report suites (VRS) kunt u gegevens weergeven uit een rapportsuite die gegevens verzamelt van uw digitale eigenschappen, maar waarbij een segment permanent wordt toegepast.
 
-In veel gevallen kunt u de codering met meerdere suite&#39;s vervangen door virtuele rapportsuites. Als u overschakelt naar virtuele rapporten, kunt u de noodzaak voor [secundaire serveraanroepen](/help/admin/c-server-call-usage/overage-overview.md). Uw organisatie heeft bijvoorbeeld zes verschillende websites, die elk gegevens naar hun eigen rapportsuite en een gecombineerde algemene rapportsuite verzenden. Elke plaats gaat een secundaire servervraag in; één voor de afzonderlijke merkrapportenreeks, en een tweede voor de globale rapportreeks. In plaats daarvan, kunt u gegevens van alle plaatsen alleen naar de globale rapportreeks verzenden, dan veelvoudige virtuele rapportreeksen gebruiken om elk merk te scheiden.
+In veel gevallen kunt u de codering met meerdere suite&#39;s vervangen door virtuele rapportsuites. Als u overschakelt naar virtuele rapporten, kunt u de noodzaak voor [secundaire serveraanroepen](/help/admin/admin/c-server-call-usage/overage-overview.md). Uw organisatie heeft bijvoorbeeld zes verschillende websites, die elk gegevens naar hun eigen rapportsuite en een gecombineerde algemene rapportsuite verzenden. Elke plaats gaat een secundaire servervraag in; één voor de afzonderlijke merkrapportenreeks, en een tweede voor de globale rapportreeks. In plaats daarvan, kunt u gegevens van alle plaatsen alleen naar de globale rapportreeks verzenden, dan veelvoudige virtuele rapportreeksen gebruiken om elk merk te scheiden.
 
 Als u tags met meerdere suite vervangt door een algemene rapportsuite en VRS, kunt u uw Adobe Analytics-implementatie vereenvoudigen en het verbruik van serveroproepen verminderen. Dit wordt als een aanbevolen werkwijze aanbevolen. Er zijn echter enkele belangrijke beperkingen van de vrijwillige VUT-regeling. De volgende richtlijnen kunnen u helpen beslissen of het uitvoeren van virtuele rapportreeksen die op een globale rapportreeks worden voortgebouwd de juiste benadering voor u is.
 
@@ -35,7 +35,7 @@ Segmenten kunnen nog niet naar Adobe Experience Cloud worden gepubliceerd vanuit
 
 Realtime rapporten worden niet gesteund in virtuele rapportreeksen, omdat het gegeven wordt gesegmenteerd. De huidige gegevens worden ook niet gesteund in virtuele rapportreeksen, aangezien het geen segmentatie steunt. Beide functies zijn specifiek voor Rapporten en Analytics.
 
-[Real-time rapporten](/help/admin/admin/realtime/t-realtime-admin.md) en [Huidige gegevens](/help/technotes/latency.md) zijn niet beschikbaar in virtuele rapportsuites. Dit is van invloed op gebruikers die reageren op trends die worden weergegeven in Rapporten en Analytics binnen seconden of enkele minuten na het verzamelen van gegevens. Dit kunnen bijvoorbeeld editors in een nieuwsruimte omvatten die kopregels aanpassen op basis van realtime-inhoudsverbruik. U kunt overwegen tags toe te voegen aan meerdere suite als u over belangrijke realtime gegevens beschikt die specifiek zijn voor de afzonderlijke rapportsuite. Real-time en huidige gegevens kunnen nog steeds worden gebruikt in de algemene rapportsuite.
+[Real-time rapporten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) en [Huidige gegevens](/help/technotes/latency.md) zijn niet beschikbaar in virtuele rapportsuites. Dit is van invloed op gebruikers die reageren op trends die worden weergegeven in Rapporten en Analytics binnen seconden of enkele minuten na het verzamelen van gegevens. Dit kunnen bijvoorbeeld editors in een nieuwsruimte omvatten die kopregels aanpassen op basis van realtime-inhoudsverbruik. U kunt overwegen tags toe te voegen aan meerdere suite als u over belangrijke realtime gegevens beschikt die specifiek zijn voor de afzonderlijke rapportsuite. Real-time en huidige gegevens kunnen nog steeds worden gebruikt in de algemene rapportsuite.
 
 ### Unieke limieten
 

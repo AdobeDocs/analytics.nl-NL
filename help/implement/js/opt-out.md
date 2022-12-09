@@ -3,7 +3,7 @@ title: Koppelingen uitschakelen
 description: Leer hoe u de optie om te weigeren koppelingen maakt voor bezoekers van uw site.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Wanneer een bezoeker een opt-out-URL bereikt, wordt hem gevraagd een uitschakelc
 
 >[!TIP]
 >
->Adobe biedt ook privacy-instellingen per rapportsuite. Zie [Privacy-instellingen](../../admin/admin/privacy-settings.md) in de handleiding voor Admin-gebruikers.
+>Adobe biedt ook privacy-instellingen per rapportsuite. Zie [Privacy-instellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md) in de handleiding voor Admin-gebruikers.
 
 ## URL uitschakelen
 

@@ -4,7 +4,7 @@ description: De afmetingen en metriek die Rapporten & Analytics voor elk rapport
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 0%
@@ -56,9 +56,9 @@ Bevat rapporten die typisch het gebruiken van een datumwaaier trenderen. Bevat o
    * Afbeeldingen: Hiermee wordt de metrische waarde verhoogd [Afbeeldingen](/help/components/metrics/checkouts.md) na verloop van tijd.
 * Aangepaste gebeurtenissen: Bevat alle rapporten rond douane [Gebeurtenissen](/help/components/metrics/custom-events.md) specifiek voor uw implementatie.
 * Bots: Hiermee worden beide gerelateerde rapporten weergegeven.
-   * Bots: Hiermee geeft u de gebieden weer die uw site het meest frequent gebruiken. Zie [Bot-regels](../../admin/admin/bot-removal/bot-rules.md) in de handleiding voor Admin-gebruikers.
+   * Bots: Hiermee geeft u de gebieden weer die uw site het meest frequent gebruiken. Zie [Bot-regels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) in de handleiding voor Admin-gebruikers.
    * Beide pagina&#39;s: Hiermee geeft u de pagina&#39;s weer die het meest worden bereikt.
-* In real time: Hiermee worden bepaalde afmetingen en meetwaarden weergegeven binnen seconden na de gegevensverzameling. Zie [Real-time rapporten](/help/components/c-real-time-reporting/realtime.md) voor meer informatie .
+* In real time: Hiermee worden bepaalde afmetingen en meetwaarden weergegeven binnen seconden na de gegevensverzameling. Zie [Real-time rapporten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) voor meer informatie .
 
 ## Site-inhoud
 

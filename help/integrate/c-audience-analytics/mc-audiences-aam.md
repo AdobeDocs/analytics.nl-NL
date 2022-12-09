@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Overzicht van Audience Analytics
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 1%
@@ -34,7 +34,7 @@ De integratie van Audience Analytics biedt de volgende belangrijke voordelen:
 ![](assets/mc-aud-dataflow.png)
 
 1. Telkens wanneer een bezoeker naar uw digitale eigenschappen komt, worden de klappen verzameld en naar Analytics verzonden.
-1. Met [server-kant door:sturen](/help/admin/admin/c-server-side-forwarding/ssf.md), wordt elke hit die Analytics ontvangt, automatisch verzonden naar AAM in real-time.
+1. Met [server-kant door:sturen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md), wordt elke hit die Analytics ontvangt, automatisch verzonden naar AAM in real-time.
 1. Door de Audience Analytics-integratie wordt voor elke hit het lidmaatschap van een bezoeker opgezocht in AAM en wordt een lijst met segment-id&#39;s geretourneerd aan Analytics voor verwerking in real-time.
 
 Omdat AAM segmenten worden ingevoegd op basis van hetzelfde resultaat, kunt u er zeker van zijn dat alle gegevens die beschikbaar zijn in AAM over een bezoeker, niet worden overgeslagen en up-to-date zijn voor die hit. Dit is beter dan een insteekmodule AppMeasurement, omdat een insteekmodule deze segmenten alleen bij de volgende druk beschikbaar kan maken (in plaats van de huidige hit).
@@ -49,6 +49,6 @@ Zorg ervoor dat aan de volgende voorwaarden is voldaan:
 * U bent beheerder van Audience Managers.
 * U gebruikt identiteitsservice v1.5 of hoger.
 * AAM- en Adobe Analytics-rapportreeksen worden toegewezen aan dezelfde Experience Cloud-organisatie.
-* U gebruikt [server-kant door:sturen](/help/admin/admin/c-server-side-forwarding/ssf.md) en de [De module Audience Management](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (geen DIL-code) - AppMeasurement 1.5 of hoger.
+* U gebruikt [server-kant door:sturen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) en de [De module Audience Management](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (geen DIL-code) - AppMeasurement 1.5 of hoger.
 
 Deze voorwaarden worden beschreven in de [Audience Analytics Workflow](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

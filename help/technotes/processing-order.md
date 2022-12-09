@@ -2,7 +2,7 @@
 title: Verwerkingsvolgorde voor gegevens in Adobe Analytics
 description: Leer de volgorde van componenten en services die gegevens verwerken in Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Zodra de gegevens naar Adobe Analytics zijn verzonden, worden de gegevens door d
 
 1. **Tabellen opzoeken**: Dimension die zich op Adobe-interne raadplegingslijsten baseren (bijvoorbeeld [Browser](/help/components/dimensions/browser.md) dimensie) wordt aangepast aan de corresponderende waarde.
 2. [**Dynamische variabelen**](/help/implement/vars/page-vars/dynamic-variables.md): Als een dynamische variabele in om het even welk deel van een beeldverzoek wordt gezien, wordt de waarde gekopieerd over en behandeld als een onafhankelijke waarde die zich voorwaarts beweegt.
-3. [**Bot-regels**](/help/admin/admin/bot-removal/bot-rules.md): Pas standaard- of aangepaste bot-filters toe om die gegevens uit te sluiten van rapportage.
+3. [**Bot-regels**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md): Pas standaard- of aangepaste bot-filters toe om die gegevens uit te sluiten van rapportage.
 4. [**Verwerkingsregels**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md): Aangepaste regels die door uw organisatie op uw gegevens zijn toegepast. Omvat het in kaart brengen van [Contextgegevensvariabelen](/help/implement/vars/page-vars/contextdata.md) aan haar respectieve variabele.
 5. **VISTA-regels**: Aangepaste flexibele regels toegepast op uw gegevens door een consultant voor Adobe. De regels van VISTA kunnen potentieel lopen vóór of na de regels van de Verwerking, afhankelijk van de behoeften van uw organisatie. De meeste regels VISTA lopen over het algemeen na de regels van de Verwerking, maar elke organisatie is opstelling verschillend. Neem contact op met uw accountmanager van Adobe voor meer informatie over bestaande VISTA-regels.
 6. [**Verwerkingsregels voor distributiekanalen**](/help/components/c-marketing-channels/c-rules.md): U kunt [Verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) gegevens voorbereiden voor gebruik in de verwerkingsregels voor marketingkanalen.

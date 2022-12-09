@@ -3,7 +3,7 @@ description: Veelgestelde vragen over segmentatie.
 title: Veelgestelde vragen voor segmentatie
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '2076'
 ht-degree: 1%
@@ -66,7 +66,7 @@ in de linkernavigatie en de vertoningen van de segmentspoorstaaf.
 
 De vervolgkeuzelijst met rapportsuite is verplaatst naast de datumkiezer in de rechterbovenhoek van elk rapport of dashboard.
 
-![Selector rapportsuite](assets/report_suite_selector.png)
+![Selector rapportsuite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
 ## Toestemmingen {#section_648DFA3A882146C485A84ED014EEC707}
 
