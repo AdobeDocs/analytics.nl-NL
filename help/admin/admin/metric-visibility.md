@@ -3,7 +3,7 @@ description: U kunt standaardmetriek (ingebouwde), douanegebeurtenissen, en inge
 title: Metrische zichtbaarheid
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 9%
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 U kunt standaardmetriek (ingebouwde), douanegebeurtenissen, en ingebouwde gebeurtenissen in het Menu, Metrische Kiezers, Berekende Metrische Bouwer, en de Bouwer van het Segment verbergen.
 
-1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**. [Meer...](/help/admin/admin/c-success-events/t-success-events.md)
+1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**. [Meer...](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
 1. De zichtbaarheidskolom instellen op een van de **[!UICONTROL Visible Everywhere]**, **[!UICONTROL Builders]**, of **[!UICONTROL Hidden Everywhere]**.
 
 Deze instelling heeft geen invloed op de gegevensverzameling voor die metrische waarde; het beïnvloedt slechts zijn zichtbaarheid in het gebruikersinterface. Zo beïnvloeden de montages de zichtbaarheid van de metriek in het gebruikersinterface:

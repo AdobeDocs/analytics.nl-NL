@@ -3,7 +3,7 @@ title: Gebeurtenisserialisatie
 description: Help metrische gegevens op uw site te dupliceren.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -20,7 +20,7 @@ De rangschikking van gebeurtenissen is het proces om maatregelen uit te voeren o
 
 ## Gebeurtenisserienummering instellen
 
-U moet eerst een gebeurtenis instellen [!UICONTROL Unique Event Recording] tot [!UICONTROL Use Event ID] in de instellingen van de rapportsuite. Zie [Gebeurtenissen geslaagd](/help/admin/admin/c-success-events/success-event.md) in de handleiding voor Admin-gebruikers.
+U moet eerst een gebeurtenis instellen [!UICONTROL Unique Event Recording] tot [!UICONTROL Use Event ID] in de instellingen van de rapportsuite. Zie [Gebeurtenissen geslaagd](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in de handleiding voor Admin-gebruikers.
 
 Bij het gebruik van gebeurtenis-id&#39;s gebeurt deduplicatie op de volgende niveaus:
 

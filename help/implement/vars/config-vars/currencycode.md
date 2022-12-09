@@ -3,7 +3,7 @@ title: Wat is de currencyCode-variabele en hoe gebruik ik deze?
 description: Voor eCommerce-sites stelt de valuta in waarin de pagina handelt.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Voor plaatsen die handel gebruiken, is de opbrengst en de munt een belangrijk deel van Analytics. Veel sites, vooral sites die meerdere landen beslaan, gebruiken verschillende valuta&#39;s. Gebruik de `currencyCode` variabele om ervoor te zorgen dat de opbrengst aan de correcte munt toeschrijft.
 
-Bij valutaomrekening wordt bij elke druk de volgende logica gebruikt. Deze stappen zijn van toepassing op inkomstenwaarden die worden ingesteld voor de [`products`](../page-vars/products.md) variabele en alle gebeurtenissen vermeld als &#39;Valuta&#39; in [Gebeurtenissen met succes](/help/admin/admin/c-success-events/success-event.md) onder Instellingen van rapportsuite.
+Bij valutaomrekening wordt bij elke druk de volgende logica gebruikt. Deze stappen zijn van toepassing op inkomstenwaarden die worden ingesteld voor de [`products`](../page-vars/products.md) variabele en alle gebeurtenissen vermeld als &#39;Valuta&#39; in [Gebeurtenissen met succes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) onder Instellingen van rapportsuite.
 
 * Indien `currencyCode` is niet gedefinieerd, gaat Adobe ervan uit dat alle valutawaarden de valuta van de rapportsuite zijn. Zie [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in de montages van de Reeks van het Rapport om de munt van de rapportreeks te zien.
 * Indien `currencyCode` is gedefinieerd en overeenkomt met de valuta van de rapportsuite. Er wordt geen valutaomrekening toegepast.
@@ -218,7 +218,7 @@ De volgende valutacodes zijn geldig:
 | `TWD` | Taiwan Nieuwe dollars |
 | `TZS` | Tanzania Shillings |
 | `UAH` | Oekraïne Hryvnia |
-| `UGX` | Oegandese sjilling |
+| `UGX` | Oegandese shillingen |
 | `USD` | Amerikaanse dollar |
 | `UYU` | Uruguay Pesos |
 | `UZS` | Oezbekistan |

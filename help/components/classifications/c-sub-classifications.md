@@ -3,10 +3,10 @@ description: Adobe Analytics ondersteunt classificatiemodellen op één niveau e
 title: Subclassificaties
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 611f20718c0af133f2daf3fe44e8a5b9ea97336b
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '642'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Analytics ondersteunt classificatiemodellen op één niveau en die op meer
 
 >[!NOTE]
 >
->Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] gebruikt om te maken [!UICONTROL Hierarchy] rapporten. Voor meer informatie over classificatiehiërarchieën raadpleegt u [Classificatiehiërarchieën](/help/admin/admin/conversion-var-admin/classification-hierarchies.md).
+>Subclassificatie heeft betrekking op de mogelijkheid classificaties van classificaties te maken. Dit is echter niet hetzelfde als een [!UICONTROL Classification Hierarchy] gebruikt om te maken [!UICONTROL Hierarchy] rapporten. Voor meer informatie over classificatiehiërarchieën raadpleegt u [Classificatiehiërarchieën](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md).
 
 Bijvoorbeeld:
 

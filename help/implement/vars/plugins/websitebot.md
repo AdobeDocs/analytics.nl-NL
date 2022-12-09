@@ -3,7 +3,7 @@ title: websiteBot
 description: Identificeer bots dynamisch met behulp van muisbeweging.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Als de gebruikersagent zich op een bureaublad bevindt en er geen muisbeweging wo
 
 Adobe raadt het volgende aan voordat u deze plug-in gebruikt:
 
-* **eVar-instellingen configureren**: Een eVar instellen onder [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de instellingen van de rapportsuite. Vervaldatum instellen op **Nooit** of **Bezoek** en toewijzing aan **&quot;Oorspronkelijke waarde (eerste)&quot;**. Deze eVar moet in beide gevallen worden vastgesteld: wanneer [!UICONTROL Direct Call] of de `s.tl` de vraag wordt ontbrand.
+* **eVar-instellingen configureren**: Een eVar instellen onder [Conversievariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in de instellingen van de rapportsuite. Vervaldatum instellen op **Nooit** of **Bezoek** en toewijzing aan **&quot;Oorspronkelijke waarde (eerste)&quot;**. Deze eVar moet in beide gevallen worden vastgesteld: wanneer [!UICONTROL Direct Call] of de `s.tl` de vraag wordt ontbrand.
 * **Gebruikersagent in een afzonderlijke variabele verzamelen**: Verzamel de userAgent-tekenreeks in een aparte variabele om de effectiviteit van deze insteekmodule te controleren. Een eVar instellen op `navigator.UserAgent` op elke hit om deze gegevens te verzamelen.
 
 ## Plug-in installeren met aangepaste code-editor

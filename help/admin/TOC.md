@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 82%
@@ -48,18 +48,10 @@ ht-degree: 82%
       + [Handtekeningen van gewone bot](admin/bot-removal/bot-signatures.md)
       + [Methoden voor botteling](admin/bot-removal/bot-exclusion-methods.md)
    + [Code Manager](admin/code-manager-admin.md)
-   + Conversievariabelen {#conversion-variables}
-      + [Conversievariabelen (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
-      + [Conversievariabelen bewerken](admin/conversion-var-admin/t-conversion-variables-admin.md)
-      + [Conversieclassificaties](admin/conversion-var-admin/conversion-classifications.md)
-      + [Classificatiehiërarchieën](admin/conversion-var-admin/classification-hierarchies.md)
-      + [Lijstvariabelen](admin/conversion-var-admin/list-var-admin.md)
-      + [Merchandising-eVars](admin/conversion-var-admin/merchandising-evars.md)
    + [Valutacodes](admin/currency.md)
    + [Databronnen](admin/data-sources.md)
    + [Standaardcijfers](admin/default-metrics.md)
    + [Uitsluiten op IP-adres](admin/exclude-ip.md)
-   + [Methoden zoeken](admin/finding-methods.md)
    + [Logboeken](admin/logs.md)
    + [Marketingkanalen](admin/marketing-channels-admin.md)
    + [Metrische zichtbaarheid](admin/metric-visibility.md)
@@ -131,6 +123,21 @@ ht-degree: 82%
             + [Rapporten voor traffic variabelen inschakelen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [Traffic-classificaties](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Aangepaste rapportbeschrijvingen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
+         + Conversievariabelen {#conversion-variables}
+            + [Conversievariabelen (eVars)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+            + [Conversievariabelen bewerken](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)
+            + [Conversieclassificaties](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
+            + [Classificatiehiërarchieën](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
+            + [Lijstvariabelen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
+            + [Merchandising-eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
+            + [Methoden zoeken](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
+            + Variabele Unique Visitor {#unique-visitor-variable}
+               + [De variabele Unique Visitor opgeven](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+               + [Gebruiksscenario - Bezoekers-id&#39;s](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+            + Succesgebeurtenissen {#success-events}
+               + [Overzicht van succesgebeurtenissen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
+               + [Succesgebeurtenissen configureren](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
+               + [Het gebeurtenistype wijzigen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
    + Server-side doorsturen {#server-side-forwarding}
       + [Overzicht van server-side doorsturen](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy-compliance en server-side doorsturen](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -139,14 +146,7 @@ ht-degree: 82%
       + [Implementatie van server-side doorsturen controleren](admin/c-server-side-forwarding/ssf-verify.md)
       + [Veelgestelde vragen over server-side doorsturen](admin/c-server-side-forwarding/ssf-faq.md)
    + [Menu Vereenvoudigde rapporten](admin/t-simplified-menu.md)
-   + Succesgebeurtenissen {#success-events}
-      + [Overzicht van succesgebeurtenissen](admin/c-success-events/success-event.md)
-      + [Succesgebeurtenissen configureren](admin/c-success-events/t-success-events.md)
-      + [Het gebeurtenistype wijzigen](admin/c-success-events/event-type.md)
    + [Tijdstempels optioneel](admin/timestamp-optional.md)
-   + Variabele Unique Visitor {#unique-visitor-variable}
-      + [De variabele Unique Visitor opgeven](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [Gebruiksscenario - Bezoekers-id&#39;s](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Videobeheer](admin/video-management.md)
 + User en Product Management (verouderd) {#user-product-management}
    + [User en Product Management](user-management2/user-management.md)

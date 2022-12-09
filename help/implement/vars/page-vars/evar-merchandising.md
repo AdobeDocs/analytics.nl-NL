@@ -4,7 +4,7 @@ description: Aangepaste variabelen die aan afzonderlijke producten zijn gekoppel
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Zie voor een gedetailleerde discussie over de werking van eVars op handelsgebied
 
 ## Vars instellen in instellingen van rapportsuite
 
-Alvorens eVars in uw implementatie te gebruiken, zorg ervoor dat u de eVar aan de gewenste syntaxis in de montages van de rapportreeks vormt. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de handleiding Admin.
+Alvorens eVars in uw implementatie te gebruiken, zorg ervoor dat u de eVar aan de gewenste syntaxis in de montages van de rapportreeks vormt. Zie [Conversievariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in de handleiding Admin.
 
 >[!WARNING]
 >

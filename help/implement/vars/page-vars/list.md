@@ -3,7 +3,7 @@ title: list
 description: Aangepaste variabelen die meerdere waarden in dezelfde hit bevatten.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -22,11 +22,11 @@ Zorg ervoor dat u opneemt hoe u elke lijstvariabele en de bijbehorende logica ge
 
 ## Lijstvariabelen instellen in de instellingen van de rapportsuite
 
-Zorg ervoor dat u elke lijstvariabele in de montages van de rapportreeks vormt alvorens hen in uw implementatie te gebruiken. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/list-var-admin.md) in de handleiding Admin. Deze stap geldt voor alle implementatiemethoden.
+Zorg ervoor dat u elke lijstvariabele in de montages van de rapportreeks vormt alvorens hen in uw implementatie te gebruiken. Zie [Conversievariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) in de handleiding Admin. Deze stap geldt voor alle implementatiemethoden.
 
 ## Variabelen weergeven die de SDK van het web gebruiken
 
-Lijstvariabelen zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.lists.list1.list[]` tot `_experience.analytics.customDimensions.lists.list3.list[]`. Elk arrayelement bevat een `"value"` object dat elke tekenreeks bevat. Er hoeft geen scheidingsteken te worden vastgesteld. wordt automatisch opgenomen met de waarde die is opgegeven in [Instellingen van rapportsuite](/help/admin/admin/conversion-var-admin/list-var-admin.md). Als een komma (&#39;`,`&#39;) is geconfigureerd als scheidingsteken voor lijstvariabele 1, wordt het volgende XDM-object gevuld met de `list1` variabele met `"Example value 1,Example value 2,Example value 3"`.
+Lijstvariabelen zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder de XDM-velden `_experience.analytics.customDimensions.lists.list1.list[]` tot `_experience.analytics.customDimensions.lists.list3.list[]`. Elk arrayelement bevat een `"value"` object dat elke tekenreeks bevat. Er hoeft geen scheidingsteken te worden vastgesteld. wordt automatisch opgenomen met de waarde die is opgegeven in [Instellingen van rapportsuite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Als een komma (&#39;`,`&#39;) is geconfigureerd als scheidingsteken voor lijstvariabele 1, wordt het volgende XDM-object gevuld met de `list1` variabele met `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
@@ -64,7 +64,7 @@ Er is geen specifiek veld in de Adobe Analytics-extensie voor het gebruik van de
 
 ## s.list1 - s.list3 in AppMeasurement en de de redacteur van de de uitbreidingsdouanecode van de Analyse
 
-Elke lijstvariabele is een koord dat douanewaarden specifiek voor uw organisatie bevat. Zij hebben geen maximum aantal bytes; elke individuele waarde heeft echter een maximum van 255 bytes. Het scheidingsteken dat u gebruikt, wordt bepaald wanneer u de variabele instelt in [Instellingen van rapportsuite](/help/admin/admin/conversion-var-admin/list-var-admin.md). Gebruik geen spaties bij het scheiden van meerdere items.
+Elke lijstvariabele is een koord dat douanewaarden specifiek voor uw organisatie bevat. Zij hebben geen maximum aantal bytes; elke individuele waarde heeft echter een maximum van 255 bytes. Het scheidingsteken dat u gebruikt, wordt bepaald wanneer u de variabele instelt in [Instellingen van rapportsuite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Gebruik geen spaties bij het scheiden van meerdere items.
 
 ```js
 // A list variable configured with a comma as a delimiter

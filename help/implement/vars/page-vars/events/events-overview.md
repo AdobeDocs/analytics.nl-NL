@@ -3,7 +3,7 @@ title: events
 description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw site beheert.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 48f840f3f15702761a453763e7c416a67bcb687b
+source-git-commit: 62f793491d2f95266a71bc217260353f8c040525
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Dimension en metriek zijn essentiële onderdelen van rapporten. De `events` de variabele is verantwoordelijk voor gegevensinzameling van vele metriek op uw plaats. Gebeurtenissen nemen doorgaans toe [cijfers](/help/components/metrics/overview.md) in verslagen.
 
-Alvorens gebeurtenissen uit te voeren, zorg ervoor dat u creeert en hen vormt onder [Gebeurtenissen met succes](/help/admin/admin/c-success-events/success-event.md) in de instellingen van de rapportsuite. Als u aangepaste gebeurtenissen wilt gebruiken bij het bijhouden van koppelingen, controleert u of [`linkTrackVars`](../../config-vars/linktrackvars.md) en [`linkTrackEvents`](../../config-vars/linktrackevents.md) correct zijn ingesteld.
+Alvorens gebeurtenissen uit te voeren, zorg ervoor dat u creeert en hen vormt onder [Gebeurtenissen met succes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in de instellingen van de rapportsuite. Als u aangepaste gebeurtenissen wilt gebruiken bij het bijhouden van koppelingen, controleert u of [`linkTrackVars`](../../config-vars/linktrackvars.md) en [`linkTrackEvents`](../../config-vars/linktrackevents.md) correct zijn ingesteld.
 
 ## Gebeurtenissen die de SDK van het Web gebruiken
 
@@ -100,7 +100,7 @@ s.events = "event1=2,event2";
 
 U kunt een aangepaste gebeurtenis wijzigen en valuta gebruiken in plaats van gehele getallen. Valutamarkeringen worden automatisch omgezet in de valuta van de rapportsuite als de rapportsuite valuta bevat en de `currencyCode` variabele komt niet overeen. Ze zijn handig voor het berekenen van verzendkosten, kortingen of terugbetalingen. U kunt valutagebeurtenissen instellen in het dialoogvenster `products` variabele als u de gebeurtenis alleen aan dat product wilt toewijzen.
 
-Voordat u valutagebeurtenissen implementeert, moet u de gewenste gebeurtenis instellen op &#39;Valuta&#39; onder [Gebeurtenissen met succes](/help/admin/admin/c-success-events/success-event.md) in de instellingen van de rapportsuite.
+Voordat u valutagebeurtenissen implementeert, moet u de gewenste gebeurtenis instellen op &#39;Valuta&#39; onder [Gebeurtenissen met succes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in de instellingen van de rapportsuite.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -121,7 +121,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 U kunt een aangepaste gebeurtenis wijzigen om decimale waarden te accepteren in plaats van gehele getallen. Numerieke gebeurtenissen gedragen zich op dezelfde manier als valutagebeurtenissen, maar gebruiken geen valutaomrekening. U kunt numerieke gebeurtenissen instellen in het dialoogvenster `products` variabele als u de gebeurtenis alleen aan dat product wilt toewijzen.
 
-Voordat u numerieke gebeurtenissen implementeert, moet u de gewenste gebeurtenis instellen op &#39;Numeriek&#39; onder [Gebeurtenissen met succes](/help/admin/admin/c-success-events/success-event.md) in de instellingen van de rapportsuite.
+Voordat u numerieke gebeurtenissen implementeert, moet u de gewenste gebeurtenis instellen op &#39;Numeriek&#39; onder [Gebeurtenissen met succes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in de instellingen van de rapportsuite.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings

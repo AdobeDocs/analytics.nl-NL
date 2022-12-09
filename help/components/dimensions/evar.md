@@ -3,7 +3,7 @@ title: eVar (dimensie)
 description: Een aangepaste dimensie die u kunt gebruiken in rapporten.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Deze Help-pagina beschrijft hoe eVars als een dimensie werken. Voor informatie over het implementeren van eVars raadpleegt u [eVars](/help/implement/vars/page-vars/evar.md) in de gebruikershandleiding Implementeren.*
 
-Variabelen zijn aangepaste variabelen die u kunt gebruiken zoals u dat wilt. Als u een [document ontwerp oplossing](/help/implement/prepare/solution-design.md), komen de meeste dimensies die specifiek zijn voor uw organisatie neer op [!UICONTROL eVars]. Standaard blijven de eVars behouden na de hit waarop ze zijn ingesteld. U kunt de vervaldatum en de toewijzing aanpassen onder [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings].
+Variabelen zijn aangepaste variabelen die u kunt gebruiken zoals u dat wilt. Als u een [document ontwerp oplossing](/help/implement/prepare/solution-design.md), komen de meeste dimensies die specifiek zijn voor uw organisatie neer op [!UICONTROL eVars]. Standaard blijven de eVars behouden na de hit waarop ze zijn ingesteld. U kunt de vervaldatum en de toewijzing aanpassen onder [Conversievariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings].
 
 Het aantal beschikbare eVars is afhankelijk van uw contract met Adobe. Er zijn maximaal 250 eVars beschikbaar als uw contract met Adobe dit ondersteunt.
 
@@ -84,7 +84,7 @@ Aangezien de toewijzing en de vervaldatum bepalen welke waarden blijven bestaan,
 * Standaard gebruikt een eVar de laatste toewijzing. Nieuwe waarden overschrijven persistente waarden.
 * Standaard gebruikt een eVar een verloop van een bezoek. Wanneer een bezoek eindigt, kopiëren de waarden niet meer van rij naar rij in `post_evar` kolom.
 
-U kunt de toewijzing en vervaldatum van eVar wijzigen onder [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de instellingen van de rapportsuite.
+U kunt de toewijzing en vervaldatum van eVar wijzigen onder [Conversievariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in de instellingen van de rapportsuite.
 
 ## Waarde van eVars over props
 

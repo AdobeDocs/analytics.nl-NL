@@ -2,7 +2,7 @@
 title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Beheerconsole:** Kan verwijzen naar:
    * Verouderde beheerprogramma&#39;s, waarbij de instellingen van de rapportsuite in Adobe Analytics worden beheerd. In vorige versies van Adobe Analytics werden gebruikersmachtigingen hier ook beheerd. Zie [Admin Tools](/help/admin/admin/c-admin-tools.md) in de handleiding voor Admin-gebruikers.
    * De Adobe admin console, waar de producttoegang wordt voorzien en de gebruikerstoestemmingen worden beheerd. Zie [Admin Console](/help/admin/admin-console/home.md) in de handleiding voor Admin-gebruikers.
-* **Toewijzing:** Als een conversievariabele tijdens een bezoek meer dan één waarde aantreft, bepaalt de toewijzingsinstelling van de variabele welke waarde wordt behouden. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de handleiding voor Admin-gebruikers.
+* **Toewijzing:** Als een conversievariabele tijdens een bezoek meer dan één waarde aantreft, bepaalt de toewijzingsinstelling van de variabele welke waarde wordt behouden. Zie [Conversievariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in de handleiding voor Admin-gebruikers.
 * **Analysis Workspace:** Browser oplossing voor het bouwen van robuuste, aangepaste analyseprojecten en het democratiseren van inzichten. Biedt meer rapportflexibiliteit dan Reports and Analytics.
 * **Anomaly:** Gedetecteerd met behulp van statistische modellering om automatisch onverwachte trends in gegevens te vinden. Het model analyseert metriek en bepaalt een ondergrens, bovengrens, en verwachte waaier van waarden. Zie [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) in de gebruikershandleiding Analyseren.
 * **AppMeasurement:** De codebibliotheek die wordt gebruikt om gegevens te verzamelen en te verzenden naar Adobe. Zie de [Homepage](/help/implement/home.md) van de gebruikershandleiding Implementeren.
@@ -55,7 +55,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **eVar:** Zie Conversievariabele.
 * **Gebeurtenis:** Zie Gebeurtenis Success.
 * **ExcelClient:** Niet meer gebruikt als een term. De naam van de voorganger van Report Builder.
-* **Verlopen:** In de context van een conversievariabele, hoe lang de waarde op het achterste eind voortduurt. Met deze persistentie kunnen gebeurtenissen aan variabele waarden worden gekoppeld voordat de gebeurtenis wordt geactiveerd. Zie [Conversievariabelen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in de handleiding voor Admin-gebruikers.
+* **Verlopen:** In de context van een conversievariabele, hoe lang de waarde op het achterste eind voortduurt. Met deze persistentie kunnen gebeurtenissen aan variabele waarden worden gekoppeld voordat de gebeurtenis wordt geactiveerd. Zie [Conversievariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in de handleiding voor Admin-gebruikers.
 * **Stroom:** Een type visualisatie in Analysis Workspace dat aangeeft welke paden gebruikers op uw site hebben gebruikt. Zie [Stroomvisualisatie](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) in de gebruikershandleiding Analyseren.
 * **Genesis:** Niet meer gebruikt als een term. De vroegere naam Data Connectors.
 * **Globale rapportsuite:** Een informele termijn die aan een rapportreeks wordt aangewezen die klappen van veelvoudige plaatsen verzamelt.

@@ -2,7 +2,7 @@
 title: Variabeletoewijzing analyseren in Adobe Experience Edge
 description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen aan analytische variabelen.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 0%
@@ -62,7 +62,7 @@ In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge 
 | `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1` -<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Hiermee worden de respectievelijke instellingen ingesteld [Hiërarchie](/help/components/dimensions/hierarchy.md) dimensie. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Overschrijving van het lijstscheidingsteken. Het gebruik van dit veld wordt afgeraden, omdat het scheidingsteken automatisch wordt opgehaald uit [Beheerder verkeersvariabele](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) onder rapportsuite-instellingen. Als u dit veld gebruikt, kunnen er verschillen optreden tussen het gebruikte scheidingsteken en het scheidingsteken dat door Analytics wordt verwacht. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Een tekenreeks die de respectievelijke [List Prop](../vars/page-vars/prop.md#list-props) waarden. |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Hiermee worden alle bestanden samengevoegd `value` tekenreeksen in elke respectievelijke `list[]` array aan zijn respectieve [Variabele List](../vars/page-vars/list.md). Het scheidingsteken wordt automatisch gekozen op basis van de waarde die is ingesteld in [Instellingen van rapportsuite](/help/admin/admin/conversion-var-admin/list-var-admin.md). |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Hiermee worden alle bestanden samengevoegd `value` tekenreeksen in elke respectievelijke `list[]` array aan zijn respectieve [Variabele List](../vars/page-vars/list.md). Het scheidingsteken wordt automatisch gekozen op basis van de waarde die is ingesteld in [Instellingen van rapportsuite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Hiermee worden de respectievelijke instellingen ingesteld [Prop](../../components/dimensions/prop.md) dimensie. |
 | `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Toepassingen [gebeurtenisserienummering](../vars/page-vars/events/event-serialization.md) aan de respectieve [Aangepaste gebeurtenissen](../../components/metrics/custom-events.md) metrisch. |
 | `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Verhoogt de respectieve [Aangepaste gebeurtenissen](../../components/metrics/custom-events.md) met de gewenste hoeveelheid. |

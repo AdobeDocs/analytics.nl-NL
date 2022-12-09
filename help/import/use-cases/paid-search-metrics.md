@@ -2,7 +2,7 @@
 title: Betaalde zoekgegevens importeren
 description: Stappen om Adobe Analytics te configureren voor het bijhouden van uw betaalde zoekgegevens (bijvoorbeeld Google AdWords, MSN, Yahoo, enz.) het gebruiken van Gegevensbronnen.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -65,7 +65,7 @@ De [!UICONTROL Data Source Activation Wizard] weergaven:
 1. Klikken **[!UICONTROL Next]** en geef uw gegevensbron een naam. Deze naam wordt weergegeven in Gegevensbronbeheer.
 1. Accepteer de serviceovereenkomst en klik op **[!UICONTROL Next]**.
 1. Selecteer de drie standaardmetriek: [!UICONTROL Impressions], [!UICONTROL Clicks] en [!UICONTROL Total Cost] en klik op **[!UICONTROL Next]**.
-1. Nu &quot;kaart&quot;deze nieuwe gegevensbron aan de douanegebeurtenissen die wij binnen creeerden [Succesgebeurtenissen configureren](/help/admin/admin/c-success-events/t-success-events.md).
+1. Nu &quot;kaart&quot;deze nieuwe gegevensbron aan de douanegebeurtenissen die wij binnen creeerden [Succesgebeurtenissen configureren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
 
    ![Toewijzing](assets/data-source-mapping.png)
 
