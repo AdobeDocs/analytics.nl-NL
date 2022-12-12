@@ -3,9 +3,9 @@ title: Wat is de currencyCode-variabele en hoe gebruik ik deze?
 description: Voor eCommerce-sites stelt de valuta in waarin de pagina handelt.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. 
 Valutacode wordt doorgegeven aan de Adobe Experience Platform Mobile SDK&#39;s via contextgegevensvariabelen in de Adobe Analytics-extensie.
 
 1. De valutacode instellen in een contextgegevensvariabele tijdens een van de `trackState` of `trackAction`.
-1. Maak een verwerkingsregel in de Adobe Analytics-beheerconsole voor de rapportsuite. Stel de regel in om de variabele Valutacode te overschrijven.
+1. Maak een verwerkingsregel in Adobe Analytics Admin Tools voor de rapportsuite. Stel de regel in om de variabele Valutacode te overschrijven.
 1. Geef de valutacode door aan de `products` variabele in uw vraag aan `trackState` of `trackAction`.
 
 U kunt een vooraf ingestelde valutacode of een aangepaste valutacode gebruiken. Als u een aangepaste valutacode gebruikt, moet u controleren of de code geldig is.
@@ -218,7 +218,7 @@ De volgende valutacodes zijn geldig:
 | `TWD` | Taiwan Nieuwe dollars |
 | `TZS` | Tanzania Shillings |
 | `UAH` | Oekraïne Hryvnia |
-| `UGX` | Oegandese shillingen |
+| `UGX` | Oegandese sjilling |
 | `USD` | Amerikaanse dollar |
 | `UYU` | Uruguay Pesos |
 | `UZS` | Oezbekistan |

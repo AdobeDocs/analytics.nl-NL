@@ -1,30 +1,30 @@
 ---
-description: Gebruikers, groepen en producten van Analytics in de Admin Console beheren.
+description: Gebruikers, groepen en producten van Analytics beheren in de Adobe Admin Console.
 subtopic: Users and groups
 title: User en Product Management
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '272'
 ht-degree: 5%
 
 ---
 
 # User en Product Management
 
-Gebruikers, groepen en producten van Analytics in de Admin Console beheren.
+Gebruikers, groepen en producten van Analytics beheren in de Adobe Admin Console.
 
 >[!IMPORTANT]
 >
 >Gebruiker- en productbeheer is verplaatst naar de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Adobe geeft een melding wanneer het uw tijd is om gebruikers te migreren.
 
-## Hulp Middelen voor de Beheerders van de Admin Console {#section_C13BBB89E4F248F193358BB3A59DD502}
+## Help-bronnen voor Adobe Admin Console-beheerders {#section_C13BBB89E4F248F193358BB3A59DD502}
 
 | Taak of resource | Beschrijving |
 | --- | --- |
-| Gebruikers-id&#39;s voor Analyse migreren naar de Adobe Admin Console | Adobe helpt analysebeheerders om gebruikers-id&#39;s te migreren naar de Adobe Admin Console. Deze inspanning zal in golven voorkomen. Wanneer het uw beurt is om uw gebruikers te migreren, zal Adobe Analysebeheerders via e-mail met instructies op de hoogte brengen. Een migratiehulpmiddel is beschikbaar in [Analysegebruikersbeheer](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) om deze taak te vereenvoudigen.<p>**Belangrijk**: Op de dag van de migratie van uw gebruikers, worden uw vroegere toestemmingsgroepen automatisch gekopieerd aan de Admin Console. U kunt geen nieuwe gebruikers meer uitnodigen of nieuwe groepen maken in Analytics Admin Tools. Raadpleeg de veelgestelde vragen en help bij het analyseren van de migratie van gebruikers naar de Adobe Admin Console voor informatie over de voorbereiding van de migratie en over de desbetreffende beheerfuncties. |
-| Adobe Admin Console starten | Nadat uw gebruikersrekeningen worden gemigreerd, kunt u gebruikers en producten over alle oplossingen in de Admin Console beheren. Ga naar: `https://adminconsole.adobe.com/enterprise/`. Zie ook [Gebruikers en producten van Experience Cloud beheren](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html). |
+| Gebruikers-id&#39;s voor Analyse migreren naar de Adobe Admin Console | Adobe helpt analysebeheerders om gebruikers-id&#39;s te migreren naar de Adobe Admin Console. Deze inspanning zal in golven voorkomen. Wanneer het uw beurt is om uw gebruikers te migreren, zal Adobe Analysebeheerders via e-mail met instructies op de hoogte brengen. Een migratiehulpmiddel is beschikbaar in [Analysegebruikersbeheer](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) om deze taak te vereenvoudigen.<p>**Belangrijk**: Op de dag van de migratie van uw gebruikers worden uw voormalige machtigingengroepen automatisch naar de Adobe Admin Console gekopieerd. U kunt geen nieuwe gebruikers meer uitnodigen of nieuwe groepen maken in Analytics Admin Tools. Raadpleeg de veelgestelde vragen en help bij het analyseren van de migratie van gebruikers naar de Adobe Admin Console voor informatie over de voorbereiding van de migratie en over de desbetreffende beheerfuncties. |
+| Adobe Admin Console starten | Nadat uw gebruikersaccounts zijn gemigreerd, kunt u gebruikers en producten beheren voor alle oplossingen in de Adobe Admin Console. Ga naar: `https://adminconsole.adobe.com/enterprise/`. Zie ook [Gebruikers en producten van Experience Cloud beheren](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html). |
 | Adobe Analytics-productprofielen, -gebruikers en -machtigingen beheren | Zie [Analyses in de Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html). |
 
 <!---

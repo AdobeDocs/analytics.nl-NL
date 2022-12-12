@@ -3,10 +3,10 @@ title: Analytics Admin-handleiding
 description: Help bij beheer voor Adobe Analytics-beheerders, inclusief gebruikers- en productbeheer in de Admin Console, voor het instellen van rapportsuites, variabelen, classificaties en dataverzameling.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 90%
+source-wordcount: '327'
+ht-degree: 84%
 
 ---
 
@@ -23,11 +23,11 @@ Hier volgt een video-overzicht van Adobe Analytics:
 Adobe Analytics heeft momenteel twee gedeelten voor beheerders:
 
 * Adobe Admin Console: Gebruik dit gebied voor de inrichting van Experience Cloud-tools en voor het beheer van gebruikerstoestemmingen. Dit gebied bevindt zich op [adminconsole.adobe.com](https://adminconsole.adobe.com).
-* Analytics-Admin Console: Gebruik dit gebied voor het beheer van rapportsuites en variabelen. U kunt deze openen door op [!UICONTROL Admin] in de bovenste header van Adobe Analytics.
+* Hulpprogramma&#39;s voor Analysebeheer: Gebruik dit gebied voor rapportreeks en veranderlijk beheer. U kunt deze openen door op [!UICONTROL Admin] in de bovenste header van Adobe Analytics.
 
 Deze handleiding behandelt het volgende:
 
-* Alle taken die worden uitgevoerd in de Admin Console van Analytics. Dit gebied omvat het instellen van rapportsuites, variabelen, classificaties of data-governance. Zie [Admin Tools](admin/c-admin-tools.md) voor een lijst met beschikbare instellingen voor rapportsuites en bedrijven.
+* Alle taken die worden uitgevoerd in Analytics Admin Tools. Dit gebied omvat het instellen van rapportsuites, variabelen, classificaties of data-governance. Zie [Admin Tools](admin/c-admin-tools.md) voor een lijst met beschikbare instellingen voor rapportsuites en bedrijven.
 * Alle Analytics-specifieke taken die worden uitgevoerd in de Adobe Admin Console. Dit gebied omvat het beheer van productinrichting en gebruikerstoestemmingen. Zie [Adobe Analytics in de Adobe Admin Console](admin-console/home.md) voor een lijst met acties die in de Adobe Admin Console kunnen worden uitgevoerd.
 
 In deze handleiding worden veel algemene mogelijkheden van de Adobe Admin Console niet besproken. Zie in plaats daarvan [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) in de Enterprise-gebruikershandleiding.

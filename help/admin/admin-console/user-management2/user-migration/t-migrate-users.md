@@ -3,9 +3,9 @@ description: Migreer gebruikers van het oudere systeem van het de gebruikersbehe
 title: Analytics-gebruikersaccounts voor Adobe ID’s migreren
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ Migreer gebruikers van het oudere systeem van het de gebruikersbeheer van Analyt
    </tr> 
    <tr> 
       <td colname="col1"> <p>Gevraagd domein </p> </td> 
-      <td colname="col2"> <p>Als u gebruikers als Onderneming of Federated IDs wilt migreren, moet u een Beheerder van het Systeem zijn en een beschikbaar domein via de Admin Console claimen alvorens gebruikers te migreren. Meer informatie <a href="https://helpx.adobe.com/enterprise/help/identity.html"> hier</a>. </p> <p>Als u geen domeinen voor Onderneming of Federated IDs wilt claimen, sla deze stap over en migreer gebruikers als Adobe IDs. Meer informatie over id-typen <a href="https://helpx.adobe.com/enterprise/help/identity.html"> hier</a>. </p> </td> 
+      <td colname="col2"> <p>Als u gebruikers wilt migreren als Enterprise- of federatieve id's, moet u een systeembeheerder zijn en een beschikbaar domein claimen via de Adobe Admin Console voordat u gebruikers gaat migreren. Meer informatie <a href="https://helpx.adobe.com/enterprise/help/identity.html"> hier</a>. </p> <p>Als u geen domeinen voor Onderneming of Federated IDs wilt claimen, sla deze stap over en migreer gebruikers als Adobe IDs. Meer informatie over id-typen <a href="https://helpx.adobe.com/enterprise/help/identity.html"> hier</a>. </p> </td> 
    </tr> 
    </tbody> 
    </table>

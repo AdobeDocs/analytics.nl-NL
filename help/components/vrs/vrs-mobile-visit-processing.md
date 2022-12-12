@@ -3,9 +3,9 @@ description: Contextbewuste sessies in virtuele rapportsuites veranderen hoe Ado
 title: Contextbewuste sessies
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ De tijd die wordt doorgebracht wordt nog berekend op een analoge manier aan hoe 
 
 ## Instellingen voor verwerking achtergrondkleur
 
-Omdat achtergrondhit-verwerking alleen beschikbaar is voor virtuele rapportsuites die gebruikmaken van Report Time Processing, biedt Adobe Analytics ondersteuning voor twee manieren om achtergrondresultaten te verwerken, zodat de bezoektellingen behouden blijven in de basisrapportsuite die geen gebruikmaken van Report Time Processing. Als u deze instelling wilt openen, navigeert u naar de Adobe Analytics-Admin Console en gaat u naar de instellingen van de toepasselijke basisrapportsuite. Navigeer vervolgens naar het menu &quot;Mobiel beheer&quot; en vervolgens naar het submenu &quot;Rapportering mobiele toepassing&quot;.
+Omdat achtergrondhit-verwerking alleen beschikbaar is voor virtuele rapportsuites die gebruikmaken van Report Time Processing, biedt Adobe Analytics ondersteuning voor twee manieren om achtergrondresultaten te verwerken, zodat de bezoektellingen behouden blijven in de basisrapportsuite die geen gebruikmaken van Report Time Processing. Als u deze instelling wilt openen, navigeert u naar Adobe Analytics Admin Tools, gaat u naar de instellingen van de toepasselijke basisrapportsuite en navigeert u naar het menu Mobiel beheer en vervolgens naar het submenu &#39;Rapportering mobiele toepassing&#39;.
 
 1. &quot;Verouderde verwerking op&quot;: Dit is het gebrek dat voor alle rapportreeksen plaatst. Het verlaten van erfenisverwerking op processen achtergronden als normale klappen in onze verwerkingspijplijn voor wat de niet-het rapportreeks van het het basisrapport van de Attributie van de Tijd van de Attributie van het Rapport betreft. Dit betekent dat om het even welke achtergrondklappen die in de reeks van het basisrapport verhogingbezoeken als normale slag verschijnen. Als u geen achtergrondopdrachten wilt verschijnen in uw reeks van het basisrapport, verander deze het plaatsen in &quot;Off&quot;.
 1. &quot;Verouderde verwerking uitgeschakeld&quot;: Met erfenisverwerking voor achtergrondklappen weg, worden om het even welke achtergrondklappen die naar de reeks van het basisrapport worden verzonden genegeerd door de Reeks van het basisrapport en zijn slechts toegankelijk wanneer een virtuele rapportreeks die op deze reeks van het basisrapport wordt gecreeerd wordt gevormd om de Verwerking van de Tijd van het Rapport te gebruiken. Dit betekent dat om het even welke gegevens die door achtergrondklappen worden gevangen die naar deze reeks van het basisrapport worden verzonden slechts in een toegelaten virtuele rapportreeks van de Tijd van het Rapport van de Verwerking verschijnen.
