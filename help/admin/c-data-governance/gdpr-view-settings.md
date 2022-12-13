@@ -3,9 +3,9 @@ description: Het dialoogvenster Data Governance in Admin Tools biedt een overzic
 title: Data Governance-instellingen voor een rapportsuite weergeven/beheren
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 538d5bcea449ecb868ff9ebcce4ca742f91b4a87
+source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '500'
 ht-degree: 75%
 
 ---
@@ -33,3 +33,5 @@ Het dialoogvenster Data Governance in Admin Tools biedt een overzicht van welke 
 | **[!UICONTROL Groups]** | Groeperingsfunctionaliteit is momenteel niet geïmplementeerd. |
 | Linkerzijbalk | Klik op het trechterpictogram om de zijbalk te openen of te sluiten. De [!UICONTROL Organization Mapping] geeft het aantal rapportsuites weer dat in elk van de beschreven categorieën valt. De [!UICONTROL Data Retention Policy] de sectie toont elk uniek beleid van het gegevensbehoud momenteel op zijn plaats voor uw organisatie en het aantal rapportsuites die dat behoudbeleid werden toegewezen. |
 | **[!UICONTROL Export to CSV]** | Als u het selectievakje naast een of meer rapportsuites selecteert, wordt de optie Exporteren naar CSV weergegeven. Met deze optie kunt u een CSV-bestand downloaden met alle huidige labeldefinities voor alle variabelen voor alle geselecteerde rapportsuites. We adviseren dat uw juridische team uw labelkeuzes controleert, en deze optie maakt die controle mogelijk. U kunt het CSV-bestand met het team delen, zodat ze de controle niet hoeven uit te voeren terwijl ze zijn aangemeld bij de Data Governance-gebruikersinterface. |
+
+{style=&quot;table-layout:auto&quot;}
