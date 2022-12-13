@@ -3,10 +3,10 @@ description: Voorbeelden van gegevensprivacylabels voor Adobe Analytics-variabel
 title: Data Privacy-labels voor Analytics-variabelen
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
 workflow-type: tm+mt
-source-wordcount: '3663'
-ht-degree: 94%
+source-wordcount: '3673'
+ht-degree: 92%
 
 ---
 
@@ -144,6 +144,8 @@ Data Privacy/DULE-labeling heeft invloed op vier brede klassen van Analytics-var
 | <ul><li>Traffic variables (props)</li><li>Commerce-variabelen (non-merchandising-eVars)</li></ul> | Alle labels | - |
 | De meeste andere variabelen  (*Zie onderstaande tabel voor uitzonderingen*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-APPARAAT, ID-PERSON</li><li>DEL-APPARAAT, DEL-PERSON)</li></ul> |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Variabelen waaraan andere labels dan ACC-ALL/ACC-PERSON kunnen worden toegewezen/gewijzigd {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
@@ -213,122 +215,47 @@ De ondersteuning van Adobe Analytics voor Data Privacy-verwijderingsaanvragen is
 
 In de volgende tabel wordt beschreven hoe verschillende variabelen worden “verwijderd”. Dit is geen volledige lijst.
 
-<table id="table_A329C2E2645F4685BC208826D070A5F6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variabelen </th> 
-   <th colname="col2" class="entry"> Verwijderingsmethode </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>* Traffic variabelen (props) </p> <p>* Commerce-variabelen (eVars) </p> </td> 
-   <td colname="col2"> <p>De bestaande waarde wordt vervangen door een nieuwe waarde met de vorm “Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482”, waarbij de hexadecimale waarde van 32 cijfers na het voorvoegsel “Data Privacy-” een cryptografisch sterk 128-bits pseudorandomgetal is. Omdat de waarde in feite wordt vervangen door een willekeurige tekenreeks, is er geen manier om de oorspronkelijke waarde op basis van deze nieuwe waarde te bepalen, en is er geen manier om de nieuwe waarde af te leiden voor wie de oorspronkelijke waarde kent. </p> <p>Als voor een bepaalde variabele de identieke waarde als de vervangen waarde optreedt in andere treffers die eveneens worden verwijderd als deel van dezelfde Data Privacy-aanvraag, worden alle instanties van deze waarde vervangen door dezelfde nieuwe waarde. </p> <p>Als sommige instanties van een waarde worden vervangen door één verwijderingsaanvraag, en een latere aanvraag andere (nieuwe) instanties van de oorspronkelijke waarde verwijdert, is de nieuwe vervangende waarde anders dan de oorspronkelijke vervangende waarde. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Aankoop-id </p> </td> 
-   <td colname="col2"> <p>De bestaande waarde wordt vervangen door een nieuwe waarde met de vorm “G-7588FCD8642718EC50”, waarbij de hexadecimale waarde van 18 cijfers na het voorvoegsel “G-” de eerste 18 cijfers zijn van een cryptografisch sterk 128-bits pseudorandomgetal. Alle opmerkingen die gelden voor verwijdering van traffic- en commerce-variabelen, gelden hier ook. </p> <p>De aankoop-id is een transactie-id die als belangrijkste doel heeft ervoor te zorgen dat een aankoop niet tweemaal in rekening wordt gebracht, bijvoorbeeld wanneer iemand de pagina met de aankoopbevestiging vernieuwt. De id zelf kan de aankoop koppelen aan een rij in uw eigen database waarin de aankoop is vastgelegd. In de meeste gevallen is het niet nodig deze id te verwijderen, en daarom wordt deze niet standaard verwijderd. Als u de aankoop na de Data Provacy-verwijderingsaanvraag van uw eigen data nog steeds aan een gebruiker kunt koppelen, moet u dit veld mogelijk verwijderen, zodat de Analytics-data voor deze bezoeker niet aan de koper kunnen worden gekoppeld. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Bezoekers-id </p> </td> 
-   <td colname="col2"> <p>Waarde is een 128-bits geheel getal en wordt vervangen door een cryptografisch sterke pseudorandomwaarde van 128 bits. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* MCID </p> <p>* Aangepaste bezoekers-id </p> <p>* IP-adres </p> <p>* IP-adres 2 </p> </td> 
-   <td colname="col2"> <p>Waarde wordt gewist (ingesteld op de lege tekenreeks of op 0, afhankelijk van het type variabele). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* ClickMap-actie (verouderd) </p> <p>* ClickMap-context (verouderd) </p> <p>* Pagina </p> <p>* Pagina-URL </p> <p>* URL van oorspronkelijke hoofdpagina </p> <p>* Referrer </p> <p>* URL-startpagina bezoeken </p> </td> 
-   <td colname="col2"> <p>URL-parameters worden gewist/verwijderd. Als de waarde er niet uitziet als een URL, wordt de waarde gewist (ingesteld op de lege tekenreeks). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* Breedtegraad </p> <p>* Lengtegraad </p> </td> 
-   <td colname="col2"> <p>Precisie wordt beperkt tot maximaal 1 km. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variabelen | Verwijderingsmethode |
+| --- | --- |
+| <ul><li>Traffic variabelen (props)</li><li>Commerce-variabelen (eVars)</li></ul> | De bestaande waarde wordt vervangen door een nieuwe waarde met de vorm “Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482”, waarbij de hexadecimale waarde van 32 cijfers na het voorvoegsel “Data Privacy-” een cryptografisch sterk 128-bits pseudorandomgetal is.<p>Omdat de waarde in feite wordt vervangen door een willekeurige tekenreeks, is er geen manier om de oorspronkelijke waarde op basis van deze nieuwe waarde te bepalen, en is er geen manier om de nieuwe waarde af te leiden voor wie de oorspronkelijke waarde kent.  Als voor een bepaalde variabele de identieke waarde als de vervangen waarde optreedt in andere treffers die eveneens worden verwijderd als deel van dezelfde Data Privacy-aanvraag, worden alle instanties van deze waarde vervangen door dezelfde nieuwe waarde.<p>Als sommige instanties van een waarde worden vervangen door één verwijderingsaanvraag, en een latere aanvraag andere (nieuwe) instanties van de oorspronkelijke waarde verwijdert, is de nieuwe vervangende waarde anders dan de oorspronkelijke vervangende waarde. |
+| Aankoop-id | De bestaande waarde wordt vervangen door een nieuwe waarde met de vorm “G-7588FCD8642718EC50”, waarbij de hexadecimale waarde van 18 cijfers na het voorvoegsel “G-” de eerste 18 cijfers zijn van een cryptografisch sterk 128-bits pseudorandomgetal. Alle opmerkingen die gelden voor verwijdering van traffic- en commerce-variabelen, gelden hier ook.<p>De aankoop-id is een transactie-id die als belangrijkste doel heeft ervoor te zorgen dat een aankoop niet tweemaal in rekening wordt gebracht, bijvoorbeeld wanneer iemand de pagina met de aankoopbevestiging vernieuwt. De id zelf kan de aankoop koppelen aan een rij in uw eigen database waarin de aankoop is vastgelegd. In de meeste gevallen is het niet nodig deze id te verwijderen, en daarom wordt deze niet standaard verwijderd.<p>Als u de aankoop na de Data Provacy-verwijderingsaanvraag van uw eigen data nog steeds aan een gebruiker kunt koppelen, moet u dit veld mogelijk verwijderen, zodat de Analytics-data voor deze bezoeker niet aan de koper kunnen worden gekoppeld. |
+| Bezoekers-id | Waarde is een 128-bits geheel getal en wordt vervangen door een cryptografisch sterke pseudorandomwaarde van 128 bits. |
+| <ul><li>MCID</li><li>Aangepaste bezoekers-id</li><li>IP-adres</li><li>IP-adres 2 | Waarde wordt gewist (ingesteld op de lege tekenreeks of op 0, afhankelijk van het type variabele). |
+| <ul><li>ClickMap-actie (verouderd)</li><li>ClickMap-context (verouderd)</li><li>Pagina</li><li>Pagina-URL</li><li>URL van oorspronkelijke hoofdpagina</li><li>Referrer</li><li>URL-startpagina bezoeken</li></ul> | URL-parameters worden gewist/verwijderd. Als de waarde er niet uitziet als een URL, wordt de waarde gewist (ingesteld op de lege tekenreeks). |
+| <ul><li>Breedtegraad</li><li>Lengtegraad</li></ul> | Precisie wordt beperkt tot maximaal 1 km. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Variabelen die de verwachte labels Verwijderen niet ondersteunen {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
 Deze sectie is bedoeld om informatie te verduidelijken over Analytics-variabelen die geen verwijdering steunen. Soms worden deze variabelen verwijderd door niet-Analytics-gebruikers (bijvoorbeeld het juridische team) die het type data in de variabele niet begrijpen en onjuiste gevolgtrekkingen maken op basis van de naam van de variabele. Hier volgt een lijst met een aantal van deze variabelen en waarom ze niet verwijderd hoeven te worden, of waarom ze geen specifiek verwijderingslabel nodig hebben.
 
-<table id="table_6FECF3D654514862912D371E6BE4143B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variabele </th> 
-   <th colname="col2" class="entry"> Opmerkingen </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Nieuwe bezoekers-id </p> </td> 
-   <td colname="col2"> <p>De nieuwe bezoekers-id is een booleaanse waarde die waar is als we een bepaalde bezoekers-id voor de eerste maal zien. Deze hoeft niet te worden verwijderd nadat de bezoekers-id is geanonimiseerd. Na anonimisering komt de waarde overeen met de eerste maal dat we deze geanonimiseerde id hebben gezien. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Postcode </p> <p>Geopostcode </p> </td> 
-   <td colname="col2"> <p>Postcodes worden alleen ingesteld voor treffers die afkomstig zijn uit de VS. Ze zijn niet ingesteld voor treffers uit de EU. Zelfs wanneer ze zijn ingesteld, bieden ze slechts een breed geografisch gebied dat het moeilijk maakt om de geregistreerde persoon opnieuw te identificeren. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Geobreedtegraad </p> <p>Geolengtegraad </p> </td> 
-   <td colname="col2"> <p>Deze bieden een ruime locatie die van het IP-adres wordt afgeleid. De nauwkeurigheid is over het algemeen vergelijkbaar met die van een postcode, binnen tientallen kilometers van de werkelijke locatie. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>User Agent </p> </td> 
-   <td colname="col2"> <p>De User Agent identificeert de versie van de gebruikte browser. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Gebruikers-id </p> </td> 
-   <td colname="col2"> <p> Specificeert de Analytics-rapportsuite (als getal) die de data bevat. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Rapportsuite-id </p> </td> 
-   <td colname="col2"> <p> Hier geeft u de naam op van de Analytics-rapportsuite die de data bevat. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Bezoekers-id </p> <p>MCID/ECID </p> </td> 
-   <td colname="col2"> <p> Deze hebben een DEL-DEVICE-label, maar het DEL-PERSON-label kan niet worden toegevoegd. Als u bij elke aanvraag <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">Id-uitbreiding</a> opgeeft, worden deze id's automatisch verwijderd voor alle verwijderingsaanvragen, ook voor aanvragen met een ID-PERSON. </p> <p>Als u geen id-uitbreiding gebruikt, maar deze cookie-id's wilt anonimiseren bij treffers die een overeenkomende id in een prop of eVar bevatten, kunt u deze labelbeperking omzeilen door de prop of eVar te labelen met een ID-DEVICE-label, zelfs als deze werkelijk een persoon identificeert (alle DEL-PERSON-labels moeten ook worden gewijzigd in DEL-DEVICE-labels). In dit geval zal het aantal unieke bezoekers in de historische rapportage veranderen, aangezien slechts enkele exemplaren van de bezoekers-id of de ECID worden geanonimiseerd. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AMO-id </p> </td> 
-   <td colname="col2"> <p> De Adobe Advertising Cloud-id is een oplossingsvariabele met een niet te wijzigen DEL-DEVICE-label. Deze wordt net als de bezoekers-id en de MCID ingevuld op basis van een cookie. Deze moet uit treffers worden verwijderd wanneer de andere id's worden verwijderd. Zie de beschrijving van deze variabelen voor meer informatie. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variabele | Opmerkingen |
+| --- | --- |
+| Nieuwe bezoekers-id | De nieuwe bezoekers-id is een booleaanse waarde die waar is als we een bepaalde bezoekers-id voor de eerste maal zien. Deze hoeft niet te worden verwijderd nadat de bezoekers-id is geanonimiseerd. Na anonimisering komt de waarde overeen met de eerste maal dat we deze geanonimiseerde id hebben gezien. |
+| Postcode<p>Geopostcode | Postcodes worden alleen ingesteld voor treffers die afkomstig zijn uit de VS. Ze zijn niet ingesteld voor treffers uit de EU. Zelfs wanneer ze zijn ingesteld, bieden ze slechts een breed geografisch gebied dat het moeilijk maakt om de geregistreerde persoon opnieuw te identificeren. |
+| Geobreedtegraad<p>Geolengtegraad | Deze bieden een ruime locatie die van het IP-adres wordt afgeleid. De nauwkeurigheid is over het algemeen vergelijkbaar met die van een postcode, binnen tientallen kilometers van de werkelijke locatie. |
+| User Agent | De User Agent identificeert de versie van de gebruikte browser. |
+| Gebruikers-id | Specificeert de Analytics-rapportsuite (als getal) die de data bevat. |
+| Rapportsuite-id | Hier geeft u de naam op van de Analytics-rapportsuite die de data bevat. |
+| Bezoekers-id<p>MCID/ECID | Deze id&#39;s hebben een DEL-DEVICE-label, maar het DEL-PERSON-label kan niet worden toegevoegd. Als u [!UICONTROL ID Expansion] bij elke aanvraag worden deze id&#39;s automatisch verwijderd voor alle verwijderingsaanvragen, ook voor aanvragen met een ID-PERSON.<p>Als u geen id-uitbreiding gebruikt, maar deze cookie-id&#39;s wilt anonimiseren bij treffers die een overeenkomende id in een prop of eVar bevatten, kunt u deze labelbeperking omzeilen door de prop of eVar te labelen met een ID-DEVICE-label, zelfs als deze werkelijk een persoon identificeert (alle DEL-PERSON-labels moeten ook worden gewijzigd in DEL-DEVICE-labels). In dit geval zal het aantal unieke bezoekers in de historische rapportage veranderen, aangezien slechts enkele exemplaren van de bezoekers-id of de ECID worden geanonimiseerd. |
+| AMO-id | De Adobe Advertising Cloud-id is een oplossingsvariabele die niet kan worden gewijzigd [!UICONTROL DEL-DEVICE] label. Deze wordt net als de bezoekers-id en de MCID ingevuld op basis van een cookie. Deze moet uit treffers worden verwijderd wanneer de andere id&#39;s worden verwijderd. Zie de beschrijving van deze variabelen voor meer informatie. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Datumvelden voor verzoeken om toegang {#access-requests}
 
 Er zijn vijf standaardvariabelen die tijdstempels bevatten:
 
-<table id="table_49A9255366254F799E1682C30CBD98EB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Tijdstempel </th> 
-   <th colname="col2" class="entry"> Definitie </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Tijdstip treffer in UTC </p> </td> 
-   <td colname="col2"> <p>Tijdstip waarop Adobe Analytics de treffer heeft ontvangen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Aangepaste tijdstip treffer in UTC </p> </td> 
-   <td colname="col2"> <p>Het tijdstip waarop de treffer plaatsvond, wat voor sommige mobiele apps en andere implementaties eerder kan zijn dan het tijdstip van ontvangst. Als er bijvoorbeeld geen netwerkverbinding beschikbaar was toen de treffer plaatsvond, kan de app de treffer vasthouden en deze verzenden zodra er een verbinding beschikbaar komt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Datum Tijd </p> </td> 
-   <td colname="col2"> <p>Dezelfde waarde als Aangepaste tijdstip treffer in UTC, maar in de tijdzone van de rapportsuite in plaats van GMT.</p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Tijdstip eerste treffer in GMT </p> </td> 
-   <td colname="col2"> <p>De waarde voor Aangepaste tijdstip treffer in UTC voor de eerste treffer die is ontvangen voor de bezoekers-id-waarde voor deze treffer. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Begintijdstip bezoek in UTC </p> </td> 
-   <td colname="col2"> <p>De waarde voor Aangepaste tijdstip treffer in UTC voor de eerste treffer die is ontvangen voor het huidige bezoek van deze bezoekers-id.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Tijdstempel | Definitie |
+| --- | --- |
+| Tijdstip treffer in UTC | Tijdstip waarop Adobe Analytics de treffer heeft ontvangen. |
+| Aangepaste tijdstip treffer in UTC | Het tijdstip waarop de treffer plaatsvond, wat voor sommige mobiele apps en andere implementaties eerder kan zijn dan het tijdstip van ontvangst. Als er bijvoorbeeld geen netwerkverbinding beschikbaar was toen de treffer plaatsvond, kan de app de treffer vasthouden en deze verzenden zodra er een verbinding beschikbaar komt. |
+| Datum Tijd | Dezelfde waarde als Aangepaste tijdstip treffer in UTC, maar in de tijdzone van de rapportsuite in plaats van GMT. |
+| Tijdstip eerste treffer in GMT | De waarde voor Aangepaste tijdstip treffer in UTC voor de eerste treffer die is ontvangen voor de bezoekers-id-waarde voor deze treffer. |
+| Begintijdstip bezoek in UTC | De waarde voor Aangepaste tijdstip treffer in UTC voor de eerste treffer die is ontvangen voor het huidige bezoek van deze bezoekers-id. |
+
+{style=&quot;table-layout:auto&quot;}
 
 Voor de code voor het genereren van de bestanden die voor Data Privacy-toegangsaanvragen worden geretourneerd, moet minstens één van de eerste drie tijdstempelvariabelen in de toegangsaanvraag zijn opgenomen (een ACC-label hebben dat van toepassing is op het type aanvraag). Als geen van deze zijn opgenomen, wordt Aangepaste tijdstip treffer in UTC worden behandeld alsof het een ACC-ALL-label heeft.
 
