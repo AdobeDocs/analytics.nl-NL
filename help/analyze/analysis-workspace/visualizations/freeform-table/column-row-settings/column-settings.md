@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 20%
+source-wordcount: '758'
+ht-degree: 15%
 
 ---
 
@@ -18,11 +18,23 @@ ht-degree: 20%
 
 ## Bewerken [!UICONTROL Column Settings] {#edit-column-settings}
 
-Toegang tot [!UICONTROL Column Settings]Sleep een tabel voor vrije vorm naar het project en klik vervolgens op het tandwielpictogram in de kolomkop.
+U kunt de kolominstellingen voor een afzonderlijke kolom of voor meerdere kolommen tegelijk bewerken.
 
-![](assets/column_settings.png)
+1. Sleep in Analysis Workspace een tabel voor vrije vorm naar uw project.
 
-U kunt instellingen bewerken **voor meerdere kolommen tegelijk**. Dit is heel eenvoudig: selecteer meerdere kolommen en klik op het instellingenpictogram van een van de kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle kolommen waarin u cellen hebt geselecteerd.
+1. (Voorwaardelijk) Als u meerdere kolommen tegelijk wilt bewerken, selecteert u elke kolom die u wilt bewerken terwijl u de Shift-toets ingedrukt houdt.
+
+1. Houd de muisaanwijzer boven de kolom die u wilt bewerken en selecteer vervolgens het tandwielpictogram.
+
+   Als u meerdere kolommen hebt geselecteerd, klikt u op het tandwielpictogram voor een van de geselecteerde kolommen. Alle wijzigingen die u aanbrengt, worden toegepast op alle geselecteerde kolommen.
+
+   ![](assets/column_settings.png)
+
+1. Doorgaan met [Kolominstellingen](#column-settings).
+
+## Kolominstellingen
+
+De volgende kolominstellingen zijn beschikbaar wanneer u kolommen bewerkt in Analysis Workspace:
 
 | Element | Beschrijving |
 | --- | --- |
