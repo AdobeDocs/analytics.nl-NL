@@ -2,9 +2,9 @@
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1133'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Google verdeelt gebruikers-Agent-clienttips in twee categorieën: een lage entro
 
 >[!NOTE]
 >
->De wenken van de cliënt zullen in het proces van de het apparatenraadpleging van Analytics vanaf medio Januari 2023 worden opgenomen. Zowel steunen AppMeasurement als Web SDK momenteel inzameling van wendengegevens maar het zal niet in apparatenraadpleging tot medio januari worden gebruikt. Dit is om potentiële verstoring van de rapportage tijdens de kritieke periode aan het einde van het jaar te voorkomen. Zoals hieronder vermeld, zal de versie van het besturingssysteem vanaf oktober worden bevroren, maar vanwege de geleidelijke implementatie en het feit dat de meeste gebruikersagents worden bevroren naar de juiste versie van het besturingssysteem, schatten we dat dit gevolgen zal hebben voor &lt;3% van de Chrome Visitors.
+>Clienttips worden vanaf 25 januari 2023 opgenomen in het opzoekproces van het analyseapparaat. Zowel steunen AppMeasurement als Web SDK momenteel inzameling van wendengegevens maar het zal niet in apparatenraadpleging tot medio januari worden gebruikt. Dit is om potentiële verstoring van de rapportage tijdens de kritieke periode aan het einde van het jaar te voorkomen. Zoals hieronder vermeld, zal de versie van het besturingssysteem vanaf oktober worden bevroren, maar vanwege de geleidelijke implementatie en het feit dat de meeste gebruikersagents worden bevroren naar de juiste versie van het besturingssysteem, schatten we dat dit gevolgen zal hebben voor &lt;3% van de Chrome Visitors.
 
 >[!NOTE]
 >
