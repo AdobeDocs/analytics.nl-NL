@@ -3,25 +3,19 @@ description: Leer hoe u mappen toevoegt in Workspace
 keywords: Analysis Workspace
 title: Mappen toevoegen in werkruimte
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
+exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # Projecten toevoegen aan mappen
 
 U kunt projecten aan een omslag in de lijstmening of van binnen een omslag toevoegen.
 
->[!NOTE]
->
->Deze functie staat momenteel in bètaversie. Sommige schermen kunnen veranderen.
-
-## Vanuit de tabelweergave
+## Vanuit de tabelweergave {#table-view}
 
 Voeg projecten aan een omslag van de lijstmening op de homepage toe.
 
@@ -47,7 +41,7 @@ Voeg projecten aan een omslag van de lijstmening op de homepage toe.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## Vanuit een map
+## Vanuit een map {#inside-folder}
 
 U kunt projecten van binnen een omslag ook toevoegen gebruikend de ellipsen verbinding.
 

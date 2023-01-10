@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Leer hoe u analysefuncties kunt gebruiken, zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 9960b79ee6dcd98ed9f64af7c0e668c081542bb2
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 79%
+source-wordcount: '1057'
+ht-degree: 78%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 79%
       + Mappen in werkruimte {#workspace-folders}
          + [Mappen in werkruimte](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Mappen en submappen maken](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Mappen verwijderen](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [Projecten toevoegen](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Een project verwijderen](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Een nieuw project opslaan](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -322,7 +323,7 @@ ht-degree: 79%
    + [Dashboardbeheer](reports-analytics/dashboard-manage.md)
    + [Data-uittreksel](reports-analytics/data-extract.md)
    + [Taalrapporten](reports-analytics/funnels.md)
-   + [Metrisch](reports-analytics/metrics.md)
+   + [Metrics](reports-analytics/metrics.md)
    + [Targets](reports-analytics/targets.md)
    + [Waarschuwingen](reports-analytics/alerts.md)
    + [Kalendergebeurtenissen](reports-analytics/t-calendar-event.md)
