@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
+source-git-commit: 1ce29a131302e32a6bafd8cfdb21abb65619b359
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 15%
+source-wordcount: '789'
+ht-degree: 14%
 
 ---
 
@@ -34,7 +34,9 @@ U kunt de kolominstellingen voor een afzonderlijke kolom of voor meerdere kolomm
 
 ## Kolominstellingen
 
-De volgende kolominstellingen zijn beschikbaar wanneer u kolommen bewerkt in Analysis Workspace:
+U kunt de volgende kolominstellingen voor afzonderlijke tabellen in Analysis Workspace bijwerken, zoals wordt beschreven in [Kolominstellingen bewerken](#edit-uicontrol-column-settings).
+
+Sommige van deze instellingen kunnen ook worden beheerd voor alle nieuwe projecten die u maakt in Analysis Workspace, zoals wordt beschreven in [Gebruikersvoorkeuren](/help/analyze/analysis-workspace/user-preferences.md)
 
 | Element | Beschrijving |
 | --- | --- |
