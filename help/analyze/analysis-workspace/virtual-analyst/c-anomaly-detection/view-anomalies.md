@@ -4,9 +4,9 @@ title: Anomalieën weergeven in Analysis Workspace
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8be2b622250b1da3ec765592253df2607de67a96
+source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '464'
 ht-degree: 2%
 
 ---
@@ -21,9 +21,11 @@ U kunt anomalieën in een tijdreeks Freeform Lijst bekijken.
 
 1. Selecteer het pictogram voor kolominstellingen in de kolomkop en zorg ervoor dat de [!UICONTROL **Anomalies**] wordt geselecteerd in de lijst met opties. Zie voor meer informatie [Kolominstellingen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
-1. In de tabel worden als volgt anomen weergegeven:
+1. Klik buiten het instellingenmenu om de bijgewerkte tabel weer te geven.
 
    ![](assets/anomaly_detected.png)
+
+1. In de tabel worden als volgt anomen weergegeven:
 
    A **donkergrijze driehoek** wordt in de rechterbovenhoek van elke rij weergegeven waarin een anomalie in de gegevens wordt gedetecteerd.
 
