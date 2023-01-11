@@ -4,7 +4,7 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 23d2297440e25ab519751d690552c61f6e32133c
+source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
 workflow-type: tm+mt
 source-wordcount: '2493'
 ht-degree: 1%
@@ -43,7 +43,7 @@ U kunt algemene voorkeuren aanpassen voor alle nieuwe projecten die u in Analysi
 | --- | --- |
 | Openingspagina | Kies welke pagina als de standaardpagina wordt weergegeven wanneer u Adobe Analytics opent: <ul><li>Projectlijst (standaard)</li><li>Leeg project</li><li>Specifiek project geselecteerd uit een lijst</li></ul> |
 | Tips weergeven | Hiermee geeft u tips weer in een blauw vak rechtsonder in Analysis Workspace. <p>Deze optie is standaard ingeschakeld.</p> |
-| <span class="preview">Onderdelen die worden weergegeven in linkerspoorweggroepen</span> | Kies hoeveel van elke component in het menu Componenten in de linkerspoorstaaf moet worden weergegeven. <p>Als u 0 kiest, is de component niet meer toegankelijk vanaf de linkerspoorstaaf van uw werkruimten.</p><p>Standaard worden vijf componenten weergegeven voor elk van de volgende opties:</p> <ul><li>Dimensies</li><li>Metrics</li><li>Filters</li><li>Datumbereiken</li></ul> <p>Voor meer informatie over Componenten in Analysis Workspace raadpleegt u [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
+| Onderdelen die worden weergegeven in linkerspoorweggroepen | Kies hoeveel van elke component in het menu Componenten in de linkerspoorstaaf moet worden weergegeven. <p>Als u 0 kiest, is de component niet meer toegankelijk vanaf de linkerspoorstaaf van uw werkruimten.</p><p>Standaard worden vijf componenten weergegeven voor elk van de volgende opties:</p> <ul><li>Dimensies</li><li>Metrics</li><li>Filters</li><li>Datumbereiken</li></ul> <p>Voor meer informatie over Componenten in Analysis Workspace raadpleegt u [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
 ## Projectvoorkeuren
 
@@ -57,7 +57,7 @@ Klik op de gekoppelde voorkeurstitels voor meer informatie en context over elke 
 | --- | --- | --- |
 | **Weergave** |  |  |
 |  | [Weergavedichtheid](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | Kies hoeveel inhoud u op het scherm wilt weergeven door de verticale opvulling van de linkerrails, vrije-vormtabellen en cohortabellen te verminderen. <ul><li>Compact</li><li>Comfortabel</li><li>Uitgebreid (standaard)</li></ul> |
-|  | [Kleur, palet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Kies het kleurenpalet voor visualisatie dat in Analysis Workspace wordt gebruikt. <ul><li>Door Adobe verschafte paletten (standaard)</li><li><span class="preview">Voorwaardelijk opmaakpalet </span></li><li><span class="preview">Palet Omhoog/omlaag (omlaag)</span><li>Aangepaste paletten</li></ul> |
+|  | [Kleur, palet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Kies het kleurenpalet voor visualisatie dat in Analysis Workspace wordt gebruikt. <ul><li>Door Adobe verschafte paletten (standaard)</li><li>Voorwaardelijk opmaakpalet </li><li>Palet Omhoog/omlaag (omlaag)<li>Aangepaste paletten</li></ul> |
 | **Gegevens** |  |  |
 |  | [Rapportsuite](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | Kies uit waar tabellen en visualisaties de gegevens afleiden. <ul><li>Recentste (standaard)</li><li>Specifieke rapportsuite geselecteerd uit een lijst</li></ul> |
 |  | [Kalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Selecteer uit een lijst van: <ul><li>Door Adobe opgegeven bereiken (standaard is deze maand)</li><li>Aangepast gedefinieerde bereiken</li></ul> |
