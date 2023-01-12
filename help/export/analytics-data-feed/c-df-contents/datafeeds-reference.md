@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
+source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3644'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`video`** | Video-inhoud | varchar(255) |
 | **`videoad`** | Video en naam | varchar(255) |
 | **`videoadinpod`** | Video en audio in podpositie | varchar(255) |
-| **`videoadlength`** | Video en lengte | varchar(255) |
+| **`videoadlength`** | Video en lengte | integer |
 | **`videoadload`** | Video en laden | varchar(255) |
 | **`videoadname`** | Video en naam | varchar(255) |
 | **`videoadplayername`** | Naam van video en speler | varchar(255) |
@@ -254,12 +254,13 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`videoepisode`** | Video-aflevering | varchar(255) |
 | **`videofeedtype`** | Type videofeed | varchar(255) |
 | **`videogenre`** | Videogenre | text |
-| **`videolength`** | Videolengte | varchar(255) |
+| **`videolength`** | Videolengte | integer |
 | **`videomvpd`** | Video MVPD | varchar(255) |
 | **`videoname`** | Videonaam | varchar(255) |
 | **`videonetwork`** | Videonetwerk | varchar(255) |
 | **`videopath`** | Videopad | varchar(100) |
 | **`videoplayername`** | Naam videospeler | varchar(255) |
+| **`videotime`** | Videotijd | integer |
 | **`videoqoebitrateaverageevar`** | Gemiddelde bitsnelheid videokwaliteit | varchar(255) |
 | **`videoqoebitratechangecountevar`** | Aantal wijzigingen in videokwaliteit | varchar(255) |
 | **`videoqoebuffercountevar`** | Aantal buffer voor videokwaliteit | varchar(255) |
