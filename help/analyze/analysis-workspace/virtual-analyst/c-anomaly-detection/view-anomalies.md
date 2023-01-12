@@ -4,9 +4,9 @@ title: Anomalieën weergeven in Analysis Workspace
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
+source-git-commit: bc56f3567d2285d063ef35f316e22699bdcf151d
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '462'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Om anomalieën in een lijngrafiek te bekijken:
 
    De **stippellijn** is de exacte verwachte waarde.
 
-1. Klik op een witte stip om de volgende informatie over de anomalie weer te geven:
+1. Klik op een anomalie (witte stip) om de volgende informatie weer te geven:
 
    * De datum waarop de anomalie is opgetreden
 
