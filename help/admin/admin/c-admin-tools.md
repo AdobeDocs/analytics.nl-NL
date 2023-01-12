@@ -3,49 +3,39 @@ description: Index van beheerprogramma's in Adobe Analytics.
 title: Admin Tools
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: 6eadb0b23628b0db59d9cbc6f632bf9cfb3f388c
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 34%
+source-wordcount: '254'
+ht-degree: 1%
 
 ---
 
 # Admin Tools
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
+## Beheerprogramma&#39;s begrijpen
+
+Het gebied met hulpprogramma&#39;s voor analysebeheer is het belangrijkste gebied voor het beheer van uw Adobe Analytics-instantie. op dit gebied kunnen de meeste administratieve taken worden uitgevoerd . Het andere gebied voor Analytics-beheer, de Adobe admin-console, is bestemd voor gebruikers van provisioning en het instellen van machtigingen.
+
+Hieronder volgt een uitsplitsing van deze twee gebieden:
+
+* **Analysebeheerfuncties**
+
+   Gebruik het gebied Analytics admin tools voor alle Adobe Analytics-beheertaken (behalve gebruikersprovisioning en beheer van machtigingen). Voorbeelden van algemene administratieve taken zijn: het opstellen en beheren van rapportepakketten; het importeren van externe gegevensbronnen; gegevens van specifieke IP-adressen uitsluiten; enzovoort.
+
+   Zie de inhoudshiërarchie aan de linkerkant van de pagina om naar een beheertaak te springen die beschikbaar is in Adobe Analytics.
+
+* **Adobe-beheerconsole**
+
+   Gebruik dit gereedschap om gebruikers toegang te bieden en toegangsmachtigingen te wijzigen.
+
+   Voor alle organisaties die naar Adobe IMS zijn gemigreerd, worden deze taken uitgevoerd in de Adobe-beheerconsole. Zie voor meer informatie de [Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md). Als uw organisatie nog niet naar Adobe IMS is gemigreerd, raadpleegt u [Analyseer gebruikersmigratie naar de Adobe Admin Console](/help/admin/admin-console/user-management2/user-migration/c-migration-tool.md).
+
+## Toegang tot beheerhulpprogramma&#39;s
 
 >[!WARNING]
 >
->Open niet meerdere Admin-tabbladen in dezelfde browser. Dit kan ertoe leiden dat u per ongeluk montages aan de verkeerde rapportreeks bewaart. Als u, bijvoorbeeld, regelreeksen moet vergelijken en hen aan een nieuwe rapportreeks kopieert, adviseren wij dat u nieuwe browser opent of een het schermschot neemt om regelreeksen te vergelijken.
+>Open niet meerdere Admin-tabbladen in dezelfde browser. Dit kan ertoe leiden dat u per ongeluk montages aan de verkeerde rapportreeks bewaart. Bijvoorbeeld, als u regelreeksen moet vergelijken en hen kopiëren aan een nieuwe rapportreeks, adviseren wij dat u nieuwe browser opent of een het schermschot neemt om regelreeksen te vergelijken.
 
-+ [Facturering](billing-admin.md)
-+ [Bot Rules - overzicht](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
-+ [Code Manager](code-manager-admin.md)
-+ [Conversievariabelen (eVar)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
-+ [Valutacodes](currency.md)
-+ [Aangepaste rapportbeschrijvingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
-+ [Kalender aanpassen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-+ [Databronnen](data-sources.md)
-+ [Standaardwaarden](default-metrics.md)
-+ [Exclusief door IP Adres](exclude-ip.md)
-+ [Zoekmethoden](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
-+ [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
-+ [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
-+ [Logboeken](logs.md)
-+ [Marketingkanalen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
-+ [Menu aanpassen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
-+ [Metrische zichtbaarheid](metric-visibility.md)
-+ [Mobiel beheer](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
-+ [Overzicht van paid search-detectie](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
-+ [Preferences Manager](preferences-manager.md)
-+ [Privacy-instellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-+ [Overzicht van verwerkingsregels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-+ [Overzicht van realtimerapporten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
-+ [Wachtrij voor geplande rapporten](scheduled-reports-admin.md)
-+ [Overzicht van server-side doorsturen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
-+ [Menu Vereenvoudigde rapporten](t-simplified-menu.md)
-+ [Overzicht van succesgebeurtenissen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
-+ [Tijdstempels optioneel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
-+ [Overzicht traffic variabele (prop)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
-+ [De variabele Unique Visitor opgeven](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-+ [Videobeheer](video-management.md)
+Toegang krijgen tot beheergereedschappen:
+
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
