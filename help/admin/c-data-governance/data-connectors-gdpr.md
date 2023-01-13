@@ -5,8 +5,8 @@ feature: Privacy
 exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
 source-git-commit: 6038e38fcbf02877cfb9a34c00c80cd396d181e5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '89'
+ht-degree: 44%
 
 ---
 
