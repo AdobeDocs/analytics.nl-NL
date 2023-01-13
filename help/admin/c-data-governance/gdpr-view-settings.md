@@ -1,37 +1,90 @@
 ---
-description: Het dialoogvenster Data Governance in Admin Tools biedt een overzicht van welke rapportsuites zijn geconfigureerd voor data-governance, of ze zijn toegewezen aan een Experience Cloud-organisatie, en of er een dataretentiebeleid voor deze rapportsuite bestaat.
-title: Data Governance-instellingen voor een rapportsuite weergeven/beheren
+description: Het dialoogvenster Privacy Labeling for Data Governance biedt een overzicht van de privacylabels en naamruimten van een rapportsuite. U kunt de instellingen vanaf hier ook exporteren naar een CSV-bestand.
+title: Privacy-labels voor gegevensbeheer weergeven/beheren
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+source-git-commit: f719691800e4560aeb822825170a15ead5044e7b
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 75%
+source-wordcount: '875'
+ht-degree: 41%
 
 ---
 
-# Data Governance-instellingen voor een rapportsuite weergeven/beheren
-
-Het dialoogvenster Data Governance in Admin Tools biedt een overzicht van welke rapportsuites zijn geconfigureerd voor data-governance, of ze zijn toegewezen aan een Experience Cloud-organisatie, en of er een dataretentiebeleid voor deze rapportsuite bestaat.
-
-1. Meld u aan bij Adobe Experience Cloud.
-1. Ga naar  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]**.
+# Privacy-labels voor gegevensbeheer weergeven/beheren
 
 >[!NOTE]
 >
->Als dit menu-item niet zichtbaar is, moet u deze toevoegen aan een [productprofiel in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) met machtigingen voor deze functionaliteit.
+>Deze bijgewerkte interface wordt momenteel beperkt getest.
 
-1. Bekijk alle rapportsuites die deel van uw login bedrijf uitmaken:
+De **[!UICONTROL Privacy Labeling for Data Governance]** biedt een overzicht van de privacylabels en naamruimten van een rapportsuite. U kunt de instellingen vanaf hier ook exporteren naar een CSV-bestand.
 
-   ![](assets/privacy_setup_an.png)
+## Privacy-labels weergeven {#view-privacy}
+
+1. Meld u aan bij Adobe Experience Cloud.
+1. Ga naar  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** > **[!UICONTROL Data Governance]**.
+
+   >[!NOTE]
+   >
+   >Als dit menu-item niet zichtbaar is, moet u deze toevoegen aan een [productprofiel in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) met machtigingen voor deze functionaliteit.
+
+1. Selecteer rechtsboven een rapportsuite waarvan u de privacylabels wilt weergeven of beheren.
+
+   ![](assets/privacy_labeling.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
-| **[!UICONTROL Report Suites]** | De eerste rij vermeldt de friendly name van de rapportsuite. De tweede rij bevat de interne naam van de rapportsuite. Als u labels voor een rapportsuite mag instellen, is de eerste rij een klikbare koppeling die u naar de labelpagina brengt. |
-| **[!UICONTROL Organization Mapping]** | <ul><li>Toegewezen: Deze rapportsuite is al toegewezen aan dezelfde Experience Cloud-organisatie als het aanmeldingsbedrijf voor Analytics waarbij u bent aangemeld. Alleen rapportsuites met deze instelling kunnen worden gelabeld.</li><li>Toegewezen aan een andere organisatie: Deze rapportsuite is al aan een andere Experience Cloud-organisatie toegewezen.</li></ul> |
-| **[!UICONTROL Data Retention Policy]** | Voor de Analytics Data Privacy-implementatie hebt u een dataretentiebeleid nodig. Met deze instelling wordt het volgende getoond:<ul><li>of er een dataretentiebeleid is voor deze rapportsuite, en</li><li>hoe lang de data door Adobe worden bewaard voordat ze worden verwijderd. De standaard dataretentieperiode is 25 maanden.</li></ul>**Opmerking**: Adobe Analytics kan u niet helpen bij het verwerken van aanvragen voor de Data Privacy API, dat wil zeggen, het verwerken van verzoeken om toegang of verwijdering die u van uw eindgebruikers ontvangt, als de bewaarperiode voor gegevens niet is ingesteld. Neem contact op met de Customer Success Manager om de periode voor dataretentie in te stellen. |
-| **[!UICONTROL Groups]** | Groeperingsfunctionaliteit is momenteel niet geïmplementeerd. |
-| Linkerzijbalk | Klik op het trechterpictogram om de zijbalk te openen of te sluiten. De [!UICONTROL Organization Mapping] geeft het aantal rapportsuites weer dat in elk van de beschreven categorieën valt. De [!UICONTROL Data Retention Policy] de sectie toont elk uniek beleid van het gegevensbehoud momenteel op zijn plaats voor uw organisatie en het aantal rapportsuites die dat behoudbeleid werden toegewezen. |
-| **[!UICONTROL Export to CSV]** | Als u het selectievakje naast een of meer rapportsuites selecteert, wordt de optie Exporteren naar CSV weergegeven. Met deze optie kunt u een CSV-bestand downloaden met alle huidige labeldefinities voor alle variabelen voor alle geselecteerde rapportsuites. We adviseren dat uw juridische team uw labelkeuzes controleert, en deze optie maakt die controle mogelijk. U kunt het CSV-bestand met het team delen, zodat ze de controle niet hoeven uit te voeren terwijl ze zijn aangemeld bij de Data Governance-gebruikersinterface. |
+| **[!UICONTROL Component Name]** | Deze kolom maakt een lijst van alle componenten (afmetingen, metriek) die deel van deze rapportreeks uitmaken. |
+| **[!UICONTROL Identity]** | “I”-labels voor identiteitsdata worden gebruikt om data te categoriseren waarmee een specifieke persoon kan worden geïdentificeerd of gecontacteerd. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#identity-data-labels) |
+| **[!UICONTROL Sensitivity]** | “S”-labels voor gevoelige data worden gebruikt om gevoelige data zoals geografische data te categoriseren. In de toekomst zullen extra labels voor gevoelige data worden geïntroduceerd om andere soorten gevoelige informatie te identificeren. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#sensitive-data-labels) |
+| **[!UICONTROL GDPR Access]** | Met Data Governance-labels kunnen gebruikers data classificeren die privacygerelateerde overwegingen en contractuele voorwaarden vertegenwoordigen waardoor deze voldoen aan regelgeving en bedrijfsbeleid. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#data-privacy-access-labels) |
+| **[!UICONTROL GDPR Delete]** | Een verwijderingslabel is alleen vereist voor velden met een waarde waarmee een treffer aan geregistreerde persoon kan worden gekoppeld (d.w.z. waarmee identificatie van de geregistreerde persoon mogelijk is). Overige persoonlijke gegevens (favorieten, browsergeschiedenis/aankoopgeschiedenis, gezondheidstoestand, enz.) hoeven niet te worden verwijderd omdat de koppeling met de geregistreerde persoon wordt verbroken. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
+| **[!UICONTROL Namespace]** | Wanneer u een variabele als ID-DEVICE of ID-PERSON labelt, wordt u gevraagd om een naamruimte op te geven. U kunt een eerder gedefinieerde naamruimte gebruiken of een nieuwe naamruimte definiëren. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#section_F0A47AF8DA384A26BD56032D0ABFD2D7) |
+| **[!UICONTROL Category]** | Verwijst naar type component, zoals standaardcomponent, conversievariabele, enz. |
 
 {style=&quot;table-layout:auto&quot;}
+
+## Privacy-labels kopiëren naar een rapportsuite  {#copy-to-rs}
+
+Voer de volgende stappen uit als u dezelfde DULE/Data Privacy-instellingen wilt toepassen op meerdere rapportsuite:
+
+1. Selecteer de variabele die u wilt kopiëren. Let erop dat u de labels voor één variabele tegelijk kunt kopiëren.
+1. Klikken **[!UICONTROL Copy to Report Suite(s)]** onder aan de dialoog over gegevensbeheer.
+
+   ![Kopiëren naar rapportsuite](assets/copy_to_reportsuite.png)
+
+1. Het resulterende scherm toont de variabelenaam, de momenteel toegepaste labels die u wilt kopiëren, de rapportsuites en hun id&#39;s en of de instellingen in de doelrapportsuites overeenkomen.
+
+   ![Label kopiëren naar rapportsuite](assets/copy_to_rs.png)
+
+   >[!IMPORTANT]
+   >
+   >Houd er rekening mee dat alle geselecteerde rapportsuites moeten zijn toegewezen aan uw Experience Cloud-organisatie.
+
+   Wanneer u de labels voor een variabele of een reeks variabelen naar een andere rapportsuite kopieert, gaat de kopie naar de variabele in de overeenkomstige positie doelrapportsuite. Voor Standaardcomponenten, de Variabelen van de Lijst, en de Gebeurtenissen van het Succes, zullen de etiketten aan de variabele met worden gekopieerd **dezelfde naam** in de reeks van het bestemmingsrapport.
+
+   Voor Conversion Variables (eVars) en Traffic Dimension (props) moet de kopie echter met de **zelfde nummer** in de reeks van het bestemmingsrapport. eVar12 wordt bijvoorbeeld gekopieerd naar eVar12 in alle doelrapportsuites. De namen van deze variabelen worden genegeerd bij het bepalen van het doel van de kopie. Als de overeenkomstige variabele niet is ingeschakeld in de doelrapportsuite, zal het kopiëren van die variabele mislukken.
+
+   Wanneer het kopiëren van de etiketten voor Classificaties die voor een variabele worden bepaald, zullen de etiketten aan een classificatie op de overeenkomstige variabele in de reeks van het bestemmingsrapport (dergelijke eVar7 tot eVar7) worden gekopieerd die een naam heeft die aan de classificatie identiek is die wordt gekopieerd. Anders zal het kopiëren voor de labels van die classificatie mislukken.
+
+1. Schakel het vakje naast een of meer rapportsuites in waar de instellingen overeenkomen.
+1. Klik op **[!UICONTROL Apply]**.
+
+   Er wordt een statusbericht weergegeven nadat een label is toegepast. Het statusbericht bevat de namen van bestemmingsvariabelen of classificaties en hun rapportsuites waarvoor het kopiëren is mislukt.
+
+   >[!IMPORTANT]
+   >
+   >Controleer altijd de doelrapportsuites om te zien of de labels goed zijn gekopieerd. Dit is vooral belangrijk voor variabelen met ID- of DEL-labels.
+
+## Exporteren naar een CSV-bestand
+
+U kunt een CSV-bestand downloaden met alle huidige labeldefinities voor alle variabelen voor de geselecteerde rapportsuite(s). We raden u aan dat uw juridische team uw labelopties beoordeelt en deze optie vergemakkelijkt deze revisie. U kunt het CSV-bestand met het team delen, zodat ze de controle niet hoeven uit te voeren terwijl ze zijn aangemeld bij de Data Governance-gebruikersinterface.
+
+1. Klikken **[!UICONTROL Export CSV]** rechtsboven in het dialoogvenster wordt het volgende weergegeven:
+
+   ![](assets/export_csv.png)
+
+1. Selecteer één of meerdere rapportreeksen waarvoor u alle montages van het gegevensbeheer wilt uitvoeren.
+
+## Privacy-labels bewerken
+
+Zie [Privacylabels voor rapportsuite toewijzen of bewerken](/help/admin/c-data-governance/gdpr-setup-reportsuite.md).

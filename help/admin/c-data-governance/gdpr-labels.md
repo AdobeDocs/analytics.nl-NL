@@ -3,16 +3,16 @@ description: Voorbeelden van gegevensprivacylabels voor Adobe Analytics-variabel
 title: Data Privacy-labels voor Analytics-variabelen
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
+source-git-commit: 4f7282f22cba344a86efca992ea273af0707cdcf
 workflow-type: tm+mt
-source-wordcount: '3673'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Data Privacy-labels voor Analytics-variabelen
 
-## Waarom labels toewijzen aan uw data? {#why-label}
+## Waarom labels toewijzen aan uw gegevens? {#why-label}
 
 Veel klanten van Adobe hebben juridische teams die de wetten van de Privacy van Gegevens (GDPR, CCPA, enz.) hebben herzien. Deze teams hebben mogelijk hun eigen conclusies getrokken over de manier waarop gegevens moeten worden verwerkt om te voldoen aan de privacywetten voor gegevens. De juridische interpretaties kunnen per bedrijf verschillen en de gewenste instellingen voor dataverwerking kunnen ook per klant verschillen. Aangezien klanten verschillende voorkeuren voor Data Privacy-dataverwerking hebben en verschillende datasets, maakt Adobe het mogelijk voor klanten, als datacontrollers, hun gewenste instellingen aan te passen voor de Data Privacy-dataverwerking van hun unieke data. Hierdoor kan elke afzonderlijke klant Data Privacy-aanvragen verwerken op de manier door voor het merk en de unieke dataset van deze klant het meest zinnig is.
 
@@ -28,7 +28,7 @@ De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels
 >
 >Het DULE-kader (Data Usage Labeling &amp; Enforcement) is ontworpen als een uniforme manier voor alle Adobe-oplossingen/services/platforms om metadata over data vast te leggen, te communiceren en te gebruiken in de hele Adobe Experience Cloud. De metadata helpen datacontrollers om aan te geven welke data persoonlijke data zijn, welke data gevoelig zijn, en welke contractbeperkingen aan data zijn gekoppeld. In deze eerste versie stelt Analytics alleen de DULE-labels beschikbaar die relevant zijn voor Data Privacy. Aangezien andere producten van Adobe ondersteuning implementeren voor DULE-labels, zullen bij toekomstige versies extra labels worden geïntroduceerd voor gevoelige data, evenals contractlabels, waardoor data die tussen producten worden gedeeld, uitsluitend worden gebruikt op wettelijk toegestane manieren.
 
-## Identiteitsdata (DULE) {#identity-data-labels}
+## Labels voor identiteitsgegevens (DULE) {#identity-data-labels}
 
 “I”-labels voor identiteitsdata worden gebruikt om data te categoriseren waarmee een specifieke persoon kan worden geïdentificeerd of gecontacteerd.
 
@@ -39,7 +39,7 @@ De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels
 
 {style=&quot;table-layout:auto&quot;}
 
-## Labels voor gevoelige data (DULE) {#sensitive-data-labels}
+## Gevoelige gegevenslabels (DULE) {#sensitive-data-labels}
 
 “S”-labels voor gevoelige data worden gebruikt om gevoelige data zoals geografische data te categoriseren. In de toekomst zullen extra labels voor gevoelige data worden geïntroduceerd om andere soorten gevoelige informatie te identificeren.
 
@@ -50,7 +50,7 @@ De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels
 
 {style=&quot;table-layout:auto&quot;}
 
-## Data Governance-labels (Data Privacy) {#data-governance-labels}
+## Labels voor gegevensbeheer (Data Privacy) {#data-governance-labels}
 
 Met Data Governance-labels kunnen gebruikers data classificeren die privacygerelateerde overwegingen en contractuele voorwaarden vertegenwoordigen waardoor deze voldoen aan regelgeving en bedrijfsbeleid.
 
@@ -89,7 +89,7 @@ Een verwijderingslabel is alleen vereist voor velden met een waarde waarmee een 
 
 {style=&quot;table-layout:auto&quot;}
 
-## Een naamruimte opgeven wanneer u een variabele labelt als ID-DEVICE of ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Geef een naamruimte op wanneer u een variabele labelt als ID-DEVICE of ID-PERSON {#provide-namespace}
 
 Wanneer u een variabele als ID-DEVICE of ID-PERSON labelt, wordt u gevraagd om een naamruimte op te geven. U kunt een eerder gedefinieerde naamruimte gebruiken of een nieuwe naamruimte definiëren.
 
@@ -140,13 +140,13 @@ Data Privacy/DULE-labeling heeft invloed op vier brede klassen van Analytics-var
 | Type variabele | Ondersteunde labels | Niet-ondersteunde labels |
 |--- |--- |--- |
 | <ul><li>Aangepaste succesgebeurtenissen</li><li>Merchandising-eVars</li><li>Variabelen met meer waarden (mvVars)</li><li>Hiërarchievariabelen</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
-| Classificaties | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-APPARAAT, ID-PERSON</li><li>DEL-APPARAAT, DEL-PERSON</li></ul> |
+| Classificaties | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>Traffic variables (props)</li><li>Commerce-variabelen (non-merchandising-eVars)</li></ul> | Alle labels | - |
-| De meeste andere variabelen  (*Zie onderstaande tabel voor uitzonderingen*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-APPARAAT, ID-PERSON</li><li>DEL-APPARAAT, DEL-PERSON)</li></ul> |
+| De meeste andere variabelen  (*Zie onderstaande tabel voor uitzonderingen*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variabelen waaraan andere labels dan ACC-ALL/ACC-PERSON kunnen worden toegewezen/gewijzigd {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variabelen waaraan andere labels dan ACC-ALL/ACC-PERSON kunnen worden toegewezen/gewijzigd {#variables}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -209,7 +209,7 @@ Data Privacy/DULE-labeling heeft invloed op vier brede klassen van Analytics-var
  </tbody> 
 </table>
 
-## Verwijderingen verwerken {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Verwijderingen verwerken {#deletion}
 
 De ondersteuning van Adobe Analytics voor Data Privacy-verwijderingsaanvragen is ontworpen om de gevolgen voor rapportage zo klein mogelijk te houden. In de meeste gevallen zouden de cijfers die in rapporten worden weergegeven, niet moeten veranderen. Een historisch rapport dat is uitgevoerd vóór de Data Privacy-verwijdering, zou overeen moeten komen met dezelfde rapportrun van na de verwijdering. Dit wordt bereikt door de verwijderde data volledig los te koppelen van de geregistreerde persoon terwijl niet-identificeerbare data blijven staan, zodat de gerapporteerde waarden consistent blijven.
 
@@ -226,7 +226,7 @@ In de volgende tabel wordt beschreven hoe verschillende variabelen worden “ver
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variabelen die de verwachte labels Verwijderen niet ondersteunen {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## Variabelen die de verwachte labels Verwijderen niet ondersteunen {#no-delete-support}
 
 Deze sectie is bedoeld om informatie te verduidelijken over Analytics-variabelen die geen verwijdering steunen. Soms worden deze variabelen verwijderd door niet-Analytics-gebruikers (bijvoorbeeld het juridische team) die het type data in de variabele niet begrijpen en onjuiste gevolgtrekkingen maken op basis van de naam van de variabele. Hier volgt een lijst met een aantal van deze variabelen en waarom ze niet verwijderd hoeven te worden, of waarom ze geen specifiek verwijderingslabel nodig hebben.
 

@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: f84ba51558dbbe59af496f83d37ed5f2789baf1d
+source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -174,14 +174,14 @@ ht-degree: 82%
    + [Vrijstelling van CNIL-toestemming](c-data-governance/cnil-consent-exemption.md)
    + [Veelgestelde vragen](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics Data Privacy-workflow](c-data-governance/an-gdpr-workflow.md)
-   + [Data Governance-instellingen van rapportsuites weergeven/beheren](c-data-governance/gdpr-view-settings.md)
+   + [Privacy-labels voor gegevens voor componenten Analytics](c-data-governance/gdpr-labels.md)
    + [Rapportsuitedata labelen](c-data-governance/gdpr-setup-reportsuite.md)
-   + [Aanvragen voor toegang en verwijdering verzenden](c-data-governance/gdpr-submit-access-delete.md)
-   + [Data Privacy-labels voor Analytics-variabelen](c-data-governance/gdpr-labels.md)
-   + [Naamruimten](c-data-governance/gdpr-namespaces.md)
-   + [Id-uitbreiding](c-data-governance/gdpr-id-expansion.md)
+   + [De privacylabels van de rapportsuite weergeven/beheren](c-data-governance/gdpr-view-settings.md)
    + [Best practices voor labelen](c-data-governance/gdpr-analytics-ids.md)
    + [Voorbeeld van labeling](c-data-governance/gdpr-labeling-example.md)
+   + [Aanvragen voor toegang en verwijdering verzenden](c-data-governance/gdpr-submit-access-delete.md)
+   + [Naamruimten](c-data-governance/gdpr-namespaces.md)
+   + [Id-uitbreiding](c-data-governance/gdpr-id-expansion.md)
    + [Data Privacy en Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Data Privacy-terminologie](c-data-governance/gdpr-terminology.md)
 + [Admin-API](c-admin-api/c-admin-api.md)
