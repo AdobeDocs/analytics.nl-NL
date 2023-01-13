@@ -4,9 +4,9 @@ title: Adobe Analytics-landingspagina
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: f13e282c83b76c28cd75dfd4964fa1a51cc60229
+source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
 workflow-type: tm+mt
-source-wordcount: '3435'
+source-wordcount: '3580'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,18 @@ De landingspagina van Adobe Analytics bevat beide [!DNL Analysis Workspace] en [
 | Tabelpictogram aanpassen | Hiermee selecteert u welke kolommen u in de tabel wilt weergeven. Als u kolommen wilt toevoegen aan of verwijderen uit de lijst met projecten, klikt u op het kolompictogram (![Alles landen](/help/analyze/assets/select-column.png) ) in de rechterbovenhoek selecteert of deselecteert u kolomtitels. |
 | TONEN: Mappen en projecten voor alle projecten | Hiermee wijzigt u de weergave-instelling in de tabel om mappen en projecten weer te geven op basis van uw maporganisatie **of** toon al uw projecten in een niet georganiseerde lijst. |
 | &lt; (Terug) | Keert u aan uw meest recente het landen paginaconfiguratie in een project van de Werkruimte of een rapport terug. De paginasonfiguratie die u had toen u de openingspagina verliet, blijft bestaan wanneer u terugkeert. |
+
+### Verdringing van de pagina Projectmanager {#deprecate-pm-page}
+
+Met de versie van de nieuwe het landen pagina, verwierpen wij de Manager van het Project zoals die onder de Manager van Componenten wordt vermeld. De nieuwe het landen pagina behandelt alle functionaliteit van de oude pagina van de Manager van het Project en meer.
+
+Één gemeenschappelijk gebruiksgeval voor de pagina van de Manager van het Project was al uw projecten te bekijken. Als u alle projecten op de nieuwe bestemmingspagina wilt weergeven met de filterrail, selecteert u **ANDERE FILTERS** en selecteer vervolgens **Alles tonen**.
+
+![Overige filters](assets/other-filters.png)
+
+Als u in de mening van &quot;Omslagen &amp; van Projecten&quot;bent, zal een modaal pop-up vragend of wilt u op de mening van &quot;Alle projecten&quot;schakelen die het gemakkelijker maakt om al uw projecten buiten om het even welke omslagen te bekijken die zij kunnen worden georganiseerd.   Selecteren **Overschakelen naar de weergave Alle projecten** om beter alle projecten te bekijken u tot toegang hebt.
+
+![Overschakelen naar alle projecten](assets/switch-all-projects-view.png)
 
 ## Navigeren door de [!UICONTROL Reports] tab {#navigate-reports}
 
