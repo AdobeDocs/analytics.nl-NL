@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 4ed166bb05d8dfb32706008ad23c13f61908d1e9
+source-git-commit: f84ba51558dbbe59af496f83d37ed5f2789baf1d
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '683'
 ht-degree: 82%
 
 ---
@@ -47,8 +47,8 @@ ht-degree: 82%
          + [Analytics-gebruikersaccounts voor Enterprise en Federated ID’s migreren](admin-console/user-management2/user-migration/migrate-enterprise.md)
          + [Verouderde logins uitschakelen](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
          + [API&#39;s die door de migratie worden beïnvloed](admin-console/user-management2/user-migration/developer.md)
-+ Analysebeheer {#admin-tools}
-   + [Admin Tools](admin/c-admin-tools.md)
++ Analysebeheerfuncties {#admin-tools}
+   + [Overzicht van beheerprogramma&#39;s](admin/c-admin-tools.md)
    + [Facturering](admin/billing-admin.md)
    + [Code Manager](admin/code-manager-admin.md)
    + [Valutacodes](admin/currency.md)
