@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e4468aa0a34654395fe78e70092df77d8f7011f6
+source-git-commit: b6c22fdeab68c55f145ed72002532ed87c06a258
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Opmerkingen bij de release van Adobe Analytics
 
-**Laatste update**: 6 januari 2023
+**Laatste update**: 12 januari 2023
 
 Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -22,6 +22,7 @@ Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die
 | ----------- | ---------- | ------- | ---- |
 | **Mappen in werkruimte** | De omslagen helpen u uw projecten organiseren en indelen voor betere herwinning en toegang. Daarnaast wordt een gedeelde **[!UICONTROL Company]** Met deze map kunnen beheerders eenvoudig inhoud maken en delen met alle Workspace-gebruikers. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | N.v.t. | 11 januari 2023 |
 | **Standaardlandingspagina** | De [nieuwe bestemmingspagina](/help/analyze/landing.md) die eerder in 2022 is geïntroduceerd, wordt de standaardervaring voor alle gebruikers op **11 januari 2023**. De verouderde landingspagina wordt vervangen en iedereen moet de nieuwe ervaring gebruiken. | N.v.t. | 11 januari 2023 |
+| **Pagina Projectbeheer is vervangen** | Met de release van de nieuwe bestemmingspagina hebben we de **[!UICONTROL Project Manager]** als vermeld onder **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Components]**. De nieuwe het landen pagina heeft alle functionaliteit van de oude pagina van de Manager van het Project en meer. Meer informatie | N.v.t. | 11 januari 2023 |
 | **Nieuwe projecten automatisch opslaan** | Analysis Workspace slaat nu automatisch nieuwe projecten op. Als om het even welke reden u onverwacht toegang tot een nieuw gecreeerd project verliest alvorens het manueel op te slaan, is een terugwinningsversie van uw project nu beschikbaar. Eerder werden projecten pas automatisch opgeslagen nadat ze eerst handmatig waren opgeslagen. [Meer informatie](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) | N.v.t. | 11 januari 2023 |
 | **Verbeterde gebruikersvoorkeuren** | U kunt nu aanvullende voorkeuren op gebruikersniveau configureren (in [!UICONTROL Components] > [!UICONTROL Preferences]). Wanneer u gebruikersvoorkeur plaatst, overspannen uw selecties zich over uw projecten, lijsten, en visualisaties. De pagina Voorkeuren bevat nu de volgende nieuwe tabbladen, die elk een groot aantal nieuwe configuratieopties bevatten:<ul><li>Vrije-vormentabel</li><li>Visualisaties</li></ul>Bovendien zijn er nu meer voorkeuren beschikbaar op de **[!UICONTROL General]** en **[!UICONTROL Project]** tabs.<p>Eerder, waren veel van deze voorkeur configureerbaar slechts voor individuele projecten, lijsten, en visualisaties. [Meer informatie](/help/analyze/analysis-workspace/user-preferences.md) | N.v.t. | 11 januari 2023 |
 
