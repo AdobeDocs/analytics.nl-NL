@@ -3,9 +3,9 @@ description: Meer informatie over het inschakelen van Adobe Campaign-rapporten i
 title: Hoe integreer ik Adobe Campaign Reporting in Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 95%
 
 ---
@@ -20,7 +20,7 @@ Met deze integratie tussen Adobe Analytics en Adobe Campaign is het volgende mog
 * Trackingformules worden aangevuld met Adobe Analytics-parameters.
 * Voegt een nieuw rapport toe onder **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Adobe Campaign.]**
 * Voegt vijf nieuwe Adobe Campaign-classificaties toe.
-* Voegt 10 nieuwe cijfers voor Adobe Campaign toe.
+* Voegt 9 nieuwe cijfers voor Adobe Campaign toe.
 * Voegt zes nieuwe Adobe Campaign-dimensies toe.
 * Synchroniseert elke 15 minuten data met Analytics.
 
@@ -60,7 +60,6 @@ De volgende **cijfers** van Campaign zijn beschikbaar in de rapportsuite van Ado
 * Adobe Campaign verzonden
 * Adobe Campaign geopend
 * Op Adobe Campaign geklikt
-* Adobe Campaign verwerkt
 * Adobe Campaign geleverd
 * Adobe Campaign eenmalig geopend
 * Eenmalig op Adobe Campaign geklikt
