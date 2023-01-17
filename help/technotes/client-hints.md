@@ -2,9 +2,9 @@
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
+source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1174'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,10 @@ Google verdeelt gebruikers-Agent-clienttips in twee categorieën: een lage entro
 >[!NOTE]
 >
 >Vanaf oktober 2022 starten nieuwe versies van Chromium-browsers de versie van het besturingssysteem die wordt weergegeven in de tekenreeks User-Agent, &#39;bevriezen&#39;. De versie van het besturingssysteem is een hoge entropiegelfunctie. Om de nauwkeurigheid van de versie van het besturingssysteem in uw rapportage te behouden, is het nodig dat u de verzamelingsbibliotheek configureert om deze hoge entropietpunten te verzamelen. In de loop van de tijd zal andere apparateninformatie van gebruiker-Agent worden bevroren, die cliëntwenken vereist om apparaat te handhaven rapporteert nauwkeurigheid.
+
+>[!NOTE]
+>
+> Vanaf januari 2023 worden sommige versies van Mac- en Windows-besturingssystemen onjuist weergegeven in de gebruikersagent, maar correct weergegeven in hoge entropy-clienthints. Zie [Besturingssysteem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) voor meer informatie .
 
 >[!NOTE]
 >
