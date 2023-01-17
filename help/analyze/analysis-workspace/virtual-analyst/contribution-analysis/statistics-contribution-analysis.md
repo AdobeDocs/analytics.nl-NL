@@ -3,7 +3,7 @@ description: De bijdrageanalyse is een intensief machinaal leerproces dat bedoel
 title: Statistische technieken in bijdrageanalyse
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 3%
@@ -24,7 +24,7 @@ De Analyse van de bijdrage verwezenlijkt dit door een tweedelige algoritme aan e
 
    ![](assets/cramers-v.png)
 
-1. Voor elk afmetingsitem wordt het residu van de persoon (PR) gebruikt om de relatie tussen de afwijkende meting en elk afmetingsitem te meten. PR volgt een standaardnormale distributie, waardoor het algoritme de PR&#39;s van twee willekeurige variabelen kan vergelijken, zelfs als de afwijkingen niet vergelijkbaar zijn. In de praktijk is de fout onbekend en wordt deze geschat met behulp van eindige monstercorrectie.
+1. Voor elk afmetingsitem wordt het residu van Pearson (PR) gebruikt om de relatie tussen de afwijkende meting en elk afmetingsitem te meten. PR volgt een standaardnormale distributie, waardoor het algoritme de PR&#39;s van twee willekeurige variabelen kan vergelijken, zelfs als de afwijkingen niet vergelijkbaar zijn. In de praktijk is de fout onbekend en wordt deze geschat met behulp van eindige monstercorrectie.
 
    In het vorige voorbeeld, tabel 1, wordt de PR, met een eindige monstercorrectie voor land i en periode 2, gegeven door
 
