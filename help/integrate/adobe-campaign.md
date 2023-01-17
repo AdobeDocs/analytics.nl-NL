@@ -1,20 +1,23 @@
 ---
-description: Meer informatie over het inschakelen van Adobe Campaign-rapporten in Adobe Analytics
-title: Hoe integreer ik Adobe Campaign Reporting in Adobe Analytics?
+description: Meer informatie over het inschakelen van Adobe Campaign Standard-rapporten in Adobe Analytics
+title: Hoe integreer ik Adobe Campaign Standard Reporting in Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
+source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 95%
+source-wordcount: '471'
+ht-degree: 69%
 
 ---
 
-# Adobe Campaign-rapportage
+# Adobe Campaign Standard-rapportage
 
 Raadpleeg de [Adobe Campaign-documentatie](https://helpx.adobe.com/nl/campaign/standard/integrating/using/about-campaign-analytics-integration.html) voor meer informatie over het configureren van deze integratie.
 
-Met deze integratie tussen Adobe Analytics en Adobe Campaign is het volgende mogelijk:
+>[!IMPORTANT]
+>Dit artikel is van toepassing op Adobe Campaign **Standaard** alleen rapporteren. Zie [hier](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) voor toevoegen van Adobe Campaign **Klassiek** rapportage.
+
+Deze integratie tussen Adobe Analytics en Adobe Campaign Standard:
 
 * U kunt uw KPI-data (Key Performance Indicator) van Adobe Campaign Standard delen met Adobe Analytics.
 * Trackingformules worden aangevuld met Adobe Analytics-parameters.
@@ -22,11 +25,11 @@ Met deze integratie tussen Adobe Analytics en Adobe Campaign is het volgende mog
 * Voegt vijf nieuwe Adobe Campaign-classificaties toe.
 * Voegt 9 nieuwe cijfers voor Adobe Campaign toe.
 * Voegt zes nieuwe Adobe Campaign-dimensies toe.
-* Synchroniseert elke 15 minuten data met Analytics.
+* Synchroniseert gegevens om de 15 minuten naar Analytics via een automatisch ingericht Gegevensbron.
 
-## Stap 1. Adobe Campaign-rapportage inschakelen {#section_C685EF10505045708A6536BB13F6CD58}
+## Stap 1. Adobe Campaign Standard-rapportage inschakelen {#section_C685EF10505045708A6536BB13F6CD58}
 
-Als u Campaign-data wilt weergeven in Analytics, moet u eerst Campaign-rapportage inschakelen.
+Als u Campaign Standard-gegevens wilt weergeven in Analytics, moet u eerst Campagne-rapportage inschakelen in Report Suite Manager.
 
 1. Ga naar  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]**.
 1. Klik op **[!UICONTROL Enable Campaign Reporting]**.
@@ -37,9 +40,7 @@ Als u Campaign-data wilt weergeven in Analytics, moet u eerst Campaign-rapportag
 
 De integratie tussen Adobe Campaign Standard en Adobe Analytics voegt het volgende rapport toe onder **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**
 
-| Rapport | Definitie |
-|--- |--- |
-| Uitgevoerde levering-id van Adobe Campaign | Toont data die zijn geïmporteerd uit Adobe Campaign over e-mailberichten die vanuit Adobe Campaign zijn verzonden. |
+* **[!UICONTROL Adobe Campaign Executed Delivery ID]**: Toont data die zijn geïmporteerd uit Adobe Campaign over e-mailberichten die vanuit Adobe Campaign zijn verzonden. |
 
 ## Stap 3. Adobe Campaign-classificaties gebruiken {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -47,13 +48,15 @@ De integratie tussen Adobe Campaign Standard en Adobe Analytics voegt het volgen
 
 Zodra uw rapportsuite is ingeschakeld voor Adobe Campaign, zijn de volgende classificaties beschikbaar:
 
-* Leverings-id (interne leveringsnaam die u ziet in campagne)
-* Leveringslabel (levering in Campaign - individuele levering/terugkerende levering/transactielevering)
-* Campagne-id (interne naam voor campagne die u in Campaign ziet)
-* Campagnelabel (campagne in Adobe Campaign)
-* Uitgevoerd leveringslabel (lijst van individuele uitgevoerde leveringen)
+| Classificatie | Beschrijving |
+| --- | --- |
+| [!UICONTROL Delivery ID] | De interne Naam van de Levering die u in Campagne ziet |
+| [!UICONTROL Delivery Label] | Aflevering in campagne - Aflevering/Herhaling aflevering/Transactie aflevering |
+| [!UICONTROL Campaign ID] | De interne Naam van de Campagne die u in Campagne ziet |
+| [!UICONTROL Campaign Label] | Campagne in Adobe Campaign |
+| [!UICONTROL Executed Delivery Label] | Lijst van afzonderlijke uitgevoerde leveringen |
 
-## Beschikbare Adobe Campaign-dimensies en -cijfers in Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
+## Adobe Campaign Standard-afmetingen en -cijfers beschikbaar in Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
 
 De volgende **cijfers** van Campaign zijn beschikbaar in de rapportsuite van Adobe Analytics:
 
@@ -70,7 +73,7 @@ De volgende **cijfers** van Campaign zijn beschikbaar in de rapportsuite van Ado
 De volgende **dimensies** van Campaign zijn beschikbaar in de rapportsuites van Adobe Analytics:
 
 | Naam dimensie | Definitie |
-|--- |--- |
+| --- | --- |
 | Campagne-id | Id van alle campagnes waarvoor tijdens de duur KPI&#39;s zijn verzonden. |
 | Campagnelabel | Labels voor campagne-id&#39;s |
 | Leverings-id | Id van alle leveringen waarvoor tijdens de duur KPI’s zijn verzonden. Omvat ook id’s van hoofdleveringen van terugkerende leveringen en transactieleveringen. Voorbeeld: Er is een terugkerende levering DM1 gepland en DM2, DM3, DM4 en DM5 zijn onderliggende leveringen van de terugkerende levering.  De levering-id geeft de resultaten weer voor alle leveringen, DM1 tot en met DM5. |
