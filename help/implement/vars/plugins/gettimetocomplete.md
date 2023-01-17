@@ -3,9 +3,9 @@ title: getTimeToComplete
 description: Meet de tijd die u nodig hebt om een taak te voltooien.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,8 @@ De `getTimeToComplete` function gebruikt de volgende argumenten:
 
 * **`sos`** (optioneel, tekenreeks): Instellen op `"start"` wanneer u de timer wilt starten. Instellen op `"stop"` wanneer u de timer wilt stoppen. Standaardwaarden: `"start"`.
 * **`cn`** (optioneel, tekenreeks): De naam van het cookie waarin de begintijd wordt opgeslagen. Standaardwaarden: `"s_gttc"`.
-* **`exp`** (optioneel, geheel getal): Het aantal dagen dat de cookie (en timer) verloopt. Standaardwaarden: `0`, die het einde van de browsersessie vertegenwoordigt.
+* **`exp`** (optioneel, geheel getal): Het aantal seconden, uren of dagen (afhankelijk van de `tp` time-parting argument) dat het koekje (en tijdopnemer) verloopt. Wordt standaard ingesteld op 30 minuten.
+* **`tp`** (optioneel, tekenreeks): De time-parting-tekenreeks die de cookie (en timer) vervalt en die wordt gebruikt met de `exp` argument. Stel in op &quot;d&quot; voor dagen, &quot;h&quot; voor uren of &quot;s&quot; voor seconden. Als deze niet is ingesteld, wordt de vervaldatum van het cookie (en de timer) standaard ingesteld op 30 minuten, ongeacht wat de waarde `exp` argument is ingesteld op.
 
 Als deze functie wordt aangeroepen, wordt een tekenreeks geretourneerd die het aantal dagen, uren, minuten en/of seconden bevat dat nodig was tussen de `"start"` en `"stop"` handeling.
 
@@ -80,8 +81,8 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
 // Stores each timer in their own respective cookies so they run independently
 if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
 if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
-if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
-if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7, "d");
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7, "d");
 ```
 
 ## Versiehistorie
