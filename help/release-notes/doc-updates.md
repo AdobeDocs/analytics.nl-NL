@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: ae44be2166334f2a2f785f877f6919cf295dc663
 workflow-type: tm+mt
-source-wordcount: '3448'
+source-wordcount: '3458'
 ht-degree: 36%
 
 ---
@@ -20,6 +20,13 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 * Voor informatie over Adobe Media Analytics raadpleegt u [Audio en video meten in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Details over belangrijke documentatie-updates
+
+### 2023 {#23}
+
+| Functie | Beschrijving |
+| --- | --- |
+| **Januari 2023** |  |
+| Mappen | Speciale pagina&#39;s voor [Mappen beheren](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) |
 
 ### 2022 {#22}
 
