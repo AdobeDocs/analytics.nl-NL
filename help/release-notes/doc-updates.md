@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5e6341663eecaa7ebc99155a9eec085a8b7acf1c
+source-git-commit: 0b693521e2daf4909859b37436751bcdc191b097
 workflow-type: tm+mt
-source-wordcount: '3481'
+source-wordcount: '3487'
 ht-degree: 35%
 
 ---
@@ -29,6 +29,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Mappen | Speciale pagina&#39;s voor [Mappen beheren](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Gebruikersvoorkeuren | Veel extra gebruikersvoorkeuren zijn nu beschikbaar in [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md). |
 | Automatisch opslaan voor projecten | Bijgewerkte inhoud waarin automatisch opgeslagen functies zijn opgenomen [Projecten opslaan](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
+| Openingspagina | Nieuw [updates van bestemmingspagina](/help/analyze/landing.md) |
 
 ### 2022 {#22}
 
