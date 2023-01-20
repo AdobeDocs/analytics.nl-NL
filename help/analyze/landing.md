@@ -4,9 +4,9 @@ title: Adobe Analytics-landingspagina
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
+source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
 workflow-type: tm+mt
-source-wordcount: '3580'
+source-wordcount: '3800'
 ht-degree: 0%
 
 ---
@@ -87,13 +87,17 @@ De landingspagina van Adobe Analytics bevat beide [!DNL Analysis Workspace] en [
 
 Met de versie van de nieuwe het landen pagina, verwierpen wij de Manager van het Project zoals die onder de Manager van Componenten wordt vermeld. De nieuwe het landen pagina behandelt alle functionaliteit van de oude pagina van de Manager van het Project en meer.
 
-Één gemeenschappelijk gebruiksgeval voor de pagina van de Manager van het Project was al uw projecten te bekijken. Als u alle projecten op de nieuwe bestemmingspagina wilt weergeven met de filterrail, selecteert u **ANDERE FILTERS** en selecteer vervolgens **Alles tonen**.
+Één gemeenschappelijk gebruiksgeval voor de pagina van de Manager van het Project was al uw projecten te bekijken.
 
-![Overige filters](assets/other-filters.png)
+Als u alle projecten op de nieuwe bestemmingspagina wilt weergeven met de filterrail, selecteert u **ANDERE FILTERS** en selecteer vervolgens **Alles tonen**.
+
+![Alle projecten tonen](assets/show-all-fIlter.png)
 
 Als u in de mening van &quot;Omslagen &amp; van Projecten&quot;bent, zal een modaal pop-up vragend of wilt u op de mening van &quot;Alle projecten&quot;schakelen die het gemakkelijker maakt om al uw projecten buiten om het even welke omslagen te bekijken die zij kunnen worden georganiseerd.   Selecteren **Overschakelen naar de weergave Alle projecten** om beter alle projecten te bekijken u tot toegang hebt.
 
 ![Overschakelen naar alle projecten](assets/switch-all-projects-view.png)
+
+Een ander gebruiksgeval voor Admins moet bedrijfsrapporten beheren om rapporten te schrappen, anders te noemen, te etiketteren of goed te keuren. Voor informatie over het beheren van rapporten, zie [Bedrijfsrapporten beheren](#manage-company-reports).
 
 ## Navigeren door de [!UICONTROL Reports] tab {#navigate-reports}
 
@@ -188,6 +192,36 @@ Meer leeropties:
 * Voor nieuwe gebruikers adviseren wij [Lesbestand voor training](https://www.youtube.com/watch?v=lCH1Kl1q9Wk) video die u door het bouwen van een nieuw project loopt.
 * Hier is een koppeling naar de [volledige Analysis Workspace-documentatie](/help/analyze/analysis-workspace/home.md).
 * Hier is het volledige [YouTube-afspeellijst voor Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
+
+### Bedrijfsrapporten beheren {#manage-company-reports}
+
+Beheerders kunnen de projectlijst filteren om bedrijfsrapporten weer te geven en te beheren. Vastgezette items blijven vastgezet, gevolgd door de lijst met bedrijfsrapporten die worden geïdentificeerd door de ![rapportpictogram](assets/report-icon.png) rapportpictogram. In deze weergave kunt u een of meer rapporten verwijderen, hernoemen, labelen of goedkeuren.
+
+Bedrijfsrapporten weergeven en beheren
+
+1. Selecteer in de filterrail **ANDERE FILTERS** en selecteer vervolgens **Bedrijfsrapporten**.
+Een lijst van de bedrijfrapporten wordt getoond. Alle gewone projecten worden niet weergegeven, tenzij ze zijn vastgezet.
+
+   ![Bedrijfsrapportfilters weergeven](assets/company-reports-filter.png)
+
+   Als bedrijfsrapporten worden weergegeven, kunnen beheerders het rapport verwijderen, hernoemen, toevoegen of goedkeuren.
+
+1. Selecteer één rapport in de rapportlijst of selecteer meerdere rapporten.
+
+1. Klik op de knop **...** Het elilpsis-pictogram naast een rapport om de beschikbare opties weer te geven (Verwijderen, Naam wijzigen, Tags toevoegen en Goedkeuren).
+
+   ![Handelingen in bedrijfsrapporten](assets/company-reports-actions.png)
+
+1. Selecteer een optie (Verwijderen, Naam wijzigen, Tags toevoegen en Goedkeuren).
+
+1. Om op de regelmatige mening terug te komen wanneer uw, in filterspoor, uncheck de optie van de Rapporten van het Bedrijf opnieuw deed.
+
+### Een bedrijfsrapport verwijderen
+
+Beheerders kunnen een rapport verwijderen met de lijstoptie voor bedrijfsrapporten (zoals hierboven beschreven) of een rapport verwijderen uit de modaal project maken.
+
+![Overige filters](assets/delete-fr-create-project-modal.png)
+
 
 ## Navigeren op het tabblad Leren {#navigate-learning}
 
