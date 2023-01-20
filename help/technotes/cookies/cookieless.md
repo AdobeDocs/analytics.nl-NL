@@ -3,10 +3,10 @@ title: Opties om het effect van browsercookiebeperkingen te beperken
 description: Leer hoe u het effect van browsercookiebeperkingen kunt beperken om gegevensverzameling voor Adobe Analytics te verbeteren.
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 2%
+source-wordcount: '573'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 In dit document worden opties besproken voor het behouden van de permanente identificatie van bezoekers in verschillende eigenschappen en oplossingen, terwijl grote browsers preventiemaatregelen voor cookies implementeren.
 
-Adobe Analytics vertrouwt op cookies van de eerste partij om de onsite activiteit van een bezoeker vast te leggen. Analyses vertrouwen ook op cookies van derden om de externe activiteit van een bezoeker te begrijpen, zoals activiteit op andere domeinen die u bezit. Cookies van andere bedrijven worden geblokkeerd op veel browsers en zijn grotendeels niet beschikbaar omdat Chrome binnenkort geen ondersteuning meer krijgt (momenteel gepland voor 2022). Cookies van eerste bedrijven zijn toegestaan op alle browsers, maar verlopen in Safari en andere browsers onder Apple beperkt [Preventie van ITP-tracking](https://webkit.org/tracking-prevention) maatregelen. Zie voor meer informatie over de huidige beperkingen van browsercookies [Adobe Analytics- en browsercookies](cookies.md).
+Adobe Analytics vertrouwt op cookies van de eerste partij om de onsite activiteit van een bezoeker vast te leggen. Analyses vertrouwen ook op cookies van derden om de externe activiteit van een bezoeker te begrijpen, zoals activiteit op andere domeinen die u bezit. Cookies van andere bedrijven worden geblokkeerd op veel browsers en zijn grotendeels niet beschikbaar omdat Chrome de ondersteuning binnenkort zal verwijderen (momenteel gepland voor eind 2024). Cookies van eerste bedrijven zijn toegestaan op alle browsers, maar verlopen in Safari en andere browsers onder Apple beperkt [Preventie van ITP-tracking](https://webkit.org/tracking-prevention) maatregelen. Zie voor meer informatie over de huidige beperkingen van browsercookies [Adobe Analytics- en browsercookies](cookies.md).
 
 Deze browserbeperkingen weerspiegelen een bredere verschuiving van anonieme tracering door derden naar expliciete uitwisseling van informatie tussen gebruikers en merken die zij vertrouwen. Ter ondersteuning van deze stap biedt Adobe klanten manieren om traditionele cookies aan te vullen met duurzame id&#39;s die via hun first-party relaties zijn verzameld.
 
@@ -31,6 +31,10 @@ Deze browserbeperkingen weerspiegelen een bredere verschuiving van anonieme trac
 De server-zijinzameling verstrekt de flexibiliteit om uw eigen herkenningsteken eerder dan het steunen van browser mechanismen te verstrekken om koekjes te plaatsen.
 
 U kunt gegevens naar de analytische server verzenden met de [API voor gegevensinvoer](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) of de [API voor het invoegen van bulkgegevens](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). API voor het invoegen van gegevens in bulk wordt aanbevolen voor nieuwe implementaties op de server. Voor een vergelijking van de twee API&#39;s raadpleegt u &quot;[Welke Adobe Analytics-tool ik moet gebruiken](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html).&quot;
+
+## FPID (First Party Device ID) met Web SDK
+
+Met de Adobe Experience Platform Web SDK kunt u ervoor kiezen om uw eigen apparaat-id&#39;s in te stellen en te beheren in plaats van de door Adobe gegenereerde Experience Cloud-id&#39;s (ECID&#39;s). Deze worden ook wel FPID&#39;s (First-Party Device ID&#39;s) genoemd. Meer informatie [hier](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=en).
 
 ## Meer informatie
 
