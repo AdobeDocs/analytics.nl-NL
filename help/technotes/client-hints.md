@@ -2,7 +2,7 @@
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
+source-git-commit: 0364b52a2abc05b57184871616b702507d17205d
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Dit [Google-blogbericht](https://web.dev/user-agent-client-hints/) is een goede 
 
 +++**Hoe laat ik de inzameling van cliëntwenken toe?**
 
-Tips voor lage entropie worden automatisch door de browser opgegeven en worden opgenomen om apparaat- en browserinformatie af te leiden. De nieuwere versies van Web SDK (die met 2.12.0 beginnen) en AppMeasurement (die met 2.23.0 begint) kunnen worden gevormd om hoge entropiewenken via hun respectieve uitbreidingen van Markeringen of direct via een configuratieoptie te verzamelen. Zie aanwijzingen voor [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) en [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
+Tips voor lage entropie worden automatisch door de browser opgegeven en worden opgenomen om apparaat- en browserinformatie af te leiden. De nieuwere versies van Web SDK (die met 2.12.0 beginnen) en AppMeasurement (die met 2.23.0 begint) kunnen worden gevormd om hoge entropiewenken via hun respectieve uitbreidingen van Markeringen of direct via een configuratieoptie te verzamelen. Zie aanwijzingen voor [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) en [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Voor beide bibliotheken is het verzamelen van hoge entropiehints **standaard uitgeschakeld**.
 
@@ -75,7 +75,7 @@ In de onderstaande tabel worden de tips voor cliënten vanaf oktober 2022 beschr
 | Sec-CH-UA-model | Apparaatmodel | Hoog | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Versie besturingssysteem/Platform | Hoog | &quot;10&quot; |
 
-Hoog entropiewenken worden verzameld via vraag JavaScript en overgegaan via vraagparameter
+Hoge entropiehints worden verzameld via JavaScript-aanroep en doorgegeven via queryparameter
 
 +++
 
