@@ -2,9 +2,9 @@
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
+source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1230'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,11 @@ Google verdeelt gebruikers-Agent-clienttips in twee categorieën: een lage entro
 
 >[!NOTE]
 >
->Clienttips worden vanaf 25 januari 2023 opgenomen in het opzoekproces van het analyseapparaat. Zowel steunen AppMeasurement als Web SDK momenteel inzameling van wendengegevens maar het zal niet in apparatenraadpleging tot medio januari worden gebruikt. Dit is om potentiële verstoring van de rapportage tijdens de kritieke periode aan het einde van het jaar te voorkomen. Zoals hieronder vermeld, zal de versie van het besturingssysteem vanaf oktober worden bevroren, maar vanwege de geleidelijke implementatie en het feit dat de meeste gebruikersagents worden bevroren naar de juiste versie van het besturingssysteem, schatten we dat dit gevolgen zal hebben voor &lt;3% van de Chrome Visitors.
+>Clienttips worden vanaf 15 februari 2023 opgenomen in het zoekproces van het analyseapparaat. Zowel steunen AppMeasurement als Web SDK momenteel inzameling van wendengegevens maar het zal niet in apparatenraadpleging tot medio februari worden gebruikt. Zoals hieronder vermeld, werd de versie van het besturingssysteem vanaf oktober bevroren, maar dit was toe te schrijven aan een geleidelijke implementatie en het feit dat veel Gebruikersagenten al een bevroren versie van het besturingssysteem leveren (zie meer [hier](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)), schatten wij dat dit &lt;3% van de bezoekers van Chrome zal beïnvloeden.
 
 >[!NOTE]
 >
->Vanaf oktober 2022 starten nieuwe versies van Chromium-browsers de versie van het besturingssysteem die wordt weergegeven in de tekenreeks User-Agent, &#39;bevriezen&#39;. De versie van het besturingssysteem is een hoge entropiegelfunctie. Om de nauwkeurigheid van de versie van het besturingssysteem in uw rapportage te behouden, is het nodig dat u de verzamelingsbibliotheek configureert om deze hoge entropietpunten te verzamelen. In de loop van de tijd zal andere apparateninformatie van gebruiker-Agent worden bevroren, die cliëntwenken vereist om apparaat te handhaven rapporteert nauwkeurigheid.
+>Vanaf oktober 2022 zijn nieuwe versies van Chromium-browsers begonnen met het &#39;bevriezen&#39; van de versie van het besturingssysteem die wordt weergegeven in de tekenreeks User-Agent. De versie van het besturingssysteem is een hoge entropiegelfunctie. Om de nauwkeurigheid van de versie van het besturingssysteem in uw rapportage te behouden, is het nodig dat u de verzamelingsbibliotheek configureert om deze hoge entropietpunten te verzamelen. In de loop van de tijd zal andere apparateninformatie van gebruiker-Agent worden bevroren, die cliëntwenken vereist om apparaat te handhaven rapporteert nauwkeurigheid.
 
 >[!NOTE]
 >
@@ -48,6 +48,8 @@ Dit [Google-blogbericht](https://web.dev/user-agent-client-hints/) is een goede 
 Tips voor lage entropie worden automatisch door de browser opgegeven en worden opgenomen om apparaat- en browserinformatie af te leiden. De nieuwere versies van Web SDK (die met 2.12.0 beginnen) en AppMeasurement (die met 2.23.0 begint) kunnen worden gevormd om hoge entropiewenken via hun respectieve uitbreidingen van Markeringen of direct via een configuratieoptie te verzamelen. Zie aanwijzingen voor [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) en [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Voor beide bibliotheken is het verzamelen van hoge entropiehints **standaard uitgeschakeld**.
+
+Voor gegevens die via API worden verzonden, bijvoorbeeld via [API voor gegevensinvoer](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) of [API voor het invoegen van bulkgegevens](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), moeten tips expliciet in de lading worden opgenomen. Zie de desbetreffende documentatie voor meer informatie.
 
 +++
 
@@ -72,6 +74,8 @@ In de onderstaande tabel worden de tips voor cliënten vanaf oktober 2022 beschr
 | Sec-CH-UA-Full-Version-List | Lijst van merken met hun versie | Hoog | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
 | Sec-CH-UA-model | Apparaatmodel | Hoog | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Versie besturingssysteem/Platform | Hoog | &quot;10&quot; |
+
+Hoog entropiewenken worden verzameld via vraag JavaScript en overgegaan via vraagparameter
 
 +++
 
