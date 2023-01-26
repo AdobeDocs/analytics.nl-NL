@@ -3,10 +3,10 @@ description: Verklaart de ononderbroken strategie van de eigenschapversie voor A
 title: Adobe Analytics-functiereleases
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,4 +41,4 @@ Met gefaseerde releases kan Adobe het implementatieproces van de software beter 
 | Vraag | Antwoord |
 | --- | --- |
 | Kan ik vroege toegang tot een eigenschap vragen? | Nee. Vroegtijdige toegang wordt niet verleend.<br>Als u de concepten van de vroege Analyse wilt testen, moedigen wij u aan om te proberen [Adobe Analytics Labs](/help/analyze/labs.md) om feedback te geven over onze toonaangevende innovaties. |
-| Heeft deze releasestrategie invloed op mijn toegang tot functies? | Nee. Zodra een functie GA heeft bereikt, hebt u toegang tot de functie als deze in het pakket Analytics is opgenomen.<br>U kunt de details van het pakket Analytics weergeven onder [Toegangsniveaus voor functies](/help/admin/get-started/company/feature-access-levels.md). |
+| Heeft deze releasestrategie invloed op mijn toegang tot functies? | Nee. Zodra een functie GA heeft bereikt, hebt u toegang tot de functie als deze in het pakket Analytics is opgenomen.<br>U kunt de details van het pakket Analytics weergeven onder [Toegangsniveaus voor functies](/help/admin/admin/company/feature-access-levels.md). |

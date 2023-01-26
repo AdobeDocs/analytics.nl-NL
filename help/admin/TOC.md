@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
+source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 80%
@@ -20,16 +20,6 @@ ht-degree: 80%
    + [Welke Adobe Analytics-tool moet ik gebruiken?](get-started/which-analytics-tool.md)
    + [Analytics-productvergelijking en -vereisten](get-started/analytics-product-comparison.md)
    + [Systeemvereisten](get-started/sys-reqs.md)
-   + Bedrijfsinstellingen {#company-settings}
-      + [Overzicht van bedrijfsinstellingen](get-started/company/c-company-settings.md)
-      + [Toegangsniveaus voor functies](get-started/company/feature-access-levels.md)
-      + [Webservices](get-started/company/web-services-admin.md)
-      + [Report Builder-rapporten](get-started/company/report-builder-reports-admin.md)
-      + [Eenmalige aanmelding](get-started/company/single-signon-admin.md)
-      + [In behandeling zijnde handelingen](get-started/company/pending-actions-admin.md)
-      + [Co-branding](get-started/company/co-branding-admin.md)
-      + [Rapportsuites verbergen](get-started/company/c-hide-report-suites.md)
-      + [Security Manager](get-started/company/security-manager.md)
 + Gebruikersmachtigingen in de Adobe-beheerconsole {#admin-console}
    + [Analyses in de Adobe Admin Console](admin-console/home.md)
    + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
@@ -160,6 +150,16 @@ ht-degree: 80%
             + [Overzicht van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuratie van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Ondersteunde cijfers en en dimensies in real time](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+   + Bedrijfsinstellingen {#company-settings}
+      + [Overzicht van bedrijfsinstellingen](admin/company/c-company-settings.md)
+      + [Toegangsniveaus voor functies](admin/company/feature-access-levels.md)
+      + [Webservices](admin/company/web-services-admin.md)
+      + [Report Builder-rapporten](admin/company/report-builder-reports-admin.md)
+      + [Eenmalige aanmelding](admin/company/single-signon-admin.md)
+      + [In behandeling zijnde handelingen](admin/company/pending-actions-admin.md)
+      + [Co-branding](admin/company/co-branding-admin.md)
+      + [Rapportsuites verbergen](admin/company/c-hide-report-suites.md)
+      + [Security Manager](admin/company/security-manager.md)
    + [Menu Vereenvoudigde rapporten](admin/t-simplified-menu.md)
    + [Videobeheer](admin/video-management.md)
    + Gebruik van server calls {#server-call-usage}
