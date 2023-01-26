@@ -3,10 +3,10 @@ description: Hoe te om gegevenstoegang en schrappingsverzoeken in Adobe Analytic
 title: Aanvragen voor toegang en verwijdering verzenden
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -107,7 +107,7 @@ Er zijn in de gebruikerssectie drie blokken, die drie afzonderlijke aanvragen ve
 Houd rekening met het volgende:
 
 * De waarde “5D7236525AA6D9580A495C6C@AdobeOrg” in de sectie “companyContexts” moet worden bijgewerkt met de waarde van uw eigen Experience Cloud-organisatie.
-* De velden “type” en “namespace” worden meer gedetailleerd beschreven in de sectie [Naamruimten](/help/admin/c-data-governance/gdpr-namespaces.md).
+* De velden “type” en “namespace” worden meer gedetailleerd beschreven in de sectie [Naamruimten](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md).
 * De “description”-velden worden genegeerd.
 * De “key”-velden kunnen elke door u gewenste waarde bevatten. Als u een interne id hebt die u gebruikt voor het bijhouden van Data Privacy-aanvragen, kunt u deze waarde hier plaatsen om aanvragen in het Adobe-systeem gemakkelijker te kunnen aanpassen aan aanvragen in uw eigen systemen.
 

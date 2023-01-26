@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
+source-git-commit: db87f32341e064343f1f233701ed04011f802d94
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -169,19 +169,16 @@ ht-degree: 0%
       + [Waarschuwingen over het gebruik van server calls](admin/c-server-call-usage/scu-alerts.md)
       + [Veelgestelde vragen over het gebruik van server calls](admin/c-server-call-usage/overage-faq.md)
 + Data Governance {#data-governance}
-   + [Adobe Analytics en GDPR](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics en CCPA](c-data-governance/an-ccpa-overview.md)
-   + [Vrijstelling van CNIL-toestemming](c-data-governance/cnil-consent-exemption.md)
-   + [Veelgestelde vragen](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics Data Privacy-workflow](c-data-governance/an-gdpr-workflow.md)
-   + [Privacy-labels voor gegevens voor componenten Analytics](c-data-governance/gdpr-labels.md)
-   + [Rapportsuitedata labelen](c-data-governance/gdpr-setup-reportsuite.md)
-   + [De privacylabels van de rapportsuite weergeven/beheren](c-data-governance/gdpr-view-settings.md)
-   + [Best practices voor labelen](c-data-governance/gdpr-analytics-ids.md)
-   + [Voorbeeld van labeling](c-data-governance/gdpr-labeling-example.md)
+   + [Veelgestelde vragen](c-data-governance/gdpr-faq.md)
+   + Gegevensetikettering {#data-labels}
+      + [Privacy-labels voor gegevens voor componenten Analytics](c-data-governance/data-labeling/gdpr-labels.md)
+      + [Rapportsuitedata labelen](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [De privacylabels van de rapportsuite weergeven/beheren](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [Best practices voor labelen](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [Voorbeeld van labeling](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [Naamruimten](c-data-governance/data-labeling/gdpr-namespaces.md)
    + [Aanvragen voor toegang en verwijdering verzenden](c-data-governance/gdpr-submit-access-delete.md)
-   + [Naamruimten](c-data-governance/gdpr-namespaces.md)
    + [Id-uitbreiding](c-data-governance/gdpr-id-expansion.md)
-   + [Data Privacy en Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [Data Privacy-terminologie](c-data-governance/gdpr-terminology.md)
+   + [Vrijstelling van CNIL-toestemming](c-data-governance/cnil-consent-exemption.md)
 + [Admin-API](c-admin-api/c-admin-api.md)
