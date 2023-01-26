@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Leer hoe u analysefuncties kunt gebruiken, zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1076'
 ht-degree: 78%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 78%
 
 + [Handleiding Analytics-tools](home.md)
 + [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ Aan de slag met Analytics-beheer {#admin-overview}
+   + [Welke Adobe Analytics-tool moet ik gebruiken?](get-started/which-analytics-tool.md)
+   + [Analytics-productvergelijking en -vereisten](get-started/analytics-product-comparison.md)
+   + [Systeemvereisten](get-started/sys-reqs.md)
 + [Openingspagina](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Overzicht van Analysis Workspace](analysis-workspace/home.md)

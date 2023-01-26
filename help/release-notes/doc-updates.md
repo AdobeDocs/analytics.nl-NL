@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0b693521e2daf4909859b37436751bcdc191b097
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '3487'
+source-wordcount: '3480'
 ht-degree: 35%
 
 ---
@@ -178,7 +178,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 24 januari 2020 | Updates van de [Rijinstellingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace) pagina in Workspace. |
 | 16 januari 2020 | Nieuwe documentatie over [Freeform Table Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html). Als u de functie voor samenstellen van tabellen inschakelt, kunt u allerlei dimensies, uitsplitsingen, metrics en segmenten plaatsen om tabellen te bouwen waarmee complexe zakelijke vragen worden beantwoord. Gegevens worden niet meteen bijgewerkt. In plaats daarvan vindt de update plaats nadat u op **[!UICONTROL Build]** klikt, zodat u tijd bespaart wanneer u weet welke tabel u wilt samenstellen. Bovendien biedt deze functie:<ul><li>**Voorvertoning**: u kunt een voorbeeld van de tabelindeling bekijken voordat gaat werken aan het renderen van echte gegevens.</li><li>**Flexibele instellingen voor rij en uitsplitsing**: u kunt nu een rij- en uitsplitsingsniveau instellen voor elke dimensierij. Eerder werden in Workspace standaardinstellingen ingesteld die pas konden worden gewijzigd nadat de gegevens waren geretourneerd.</li><li>**Uitsplitsing naar positie**: u kunt dimensierijen zo instellen dat ze altijd _worden uitgesplitst op positie_ in plaats van _op een bepaald item_ (de standaardinstelling).</li><li>**Handmatige statische rijvolgorde**: u kunt statische rijen handmatig ordenen, zodat tabelrijen precies zo worden weergegeven als nodig is. Voorheen konden statische rijen alleen worden gesorteerd op een kolom met metrics, of alfabetisch.</li></ul> |
 | 13 januari 2020 | [Adobe Analytics en browsercookies](/help/technotes/cookies/cookies.md) toegevoegd. |
-| 13 januari 2020 | Gewijzigd [Welke Adobe Analytics Tool moet ik gebruiken?](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html) pagina. |
+| 13 januari 2020 | Gewijzigd [Welke Adobe Analytics Tool moet ik gebruiken?](/help/analyze/get-started/which-analytics-tool.md) pagina. |
 
 ### 2019 {#19}
 

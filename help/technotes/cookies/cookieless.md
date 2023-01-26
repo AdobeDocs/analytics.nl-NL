@@ -3,9 +3,9 @@ title: Opties om het effect van browsercookiebeperkingen te beperken
 description: Leer hoe u het effect van browsercookiebeperkingen kunt beperken om gegevensverzameling voor Adobe Analytics te verbeteren.
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Deze browserbeperkingen weerspiegelen een bredere verschuiving van anonieme trac
 
 De server-zijinzameling verstrekt de flexibiliteit om uw eigen herkenningsteken eerder dan het steunen van browser mechanismen te verstrekken om koekjes te plaatsen.
 
-U kunt gegevens naar de analytische server verzenden met de [API voor gegevensinvoer](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) of de [API voor het invoegen van bulkgegevens](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). API voor het invoegen van gegevens in bulk wordt aanbevolen voor nieuwe implementaties op de server. Voor een vergelijking van de twee API&#39;s raadpleegt u &quot;[Welke Adobe Analytics-tool ik moet gebruiken](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html).&quot;
+U kunt gegevens naar de analytische server verzenden met de [API voor gegevensinvoer](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) of de [API voor het invoegen van bulkgegevens](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). API voor het invoegen van gegevens in bulk wordt aanbevolen voor nieuwe implementaties op de server. Voor een vergelijking van de twee API&#39;s raadpleegt u &quot;[Welke Adobe Analytics-tool ik moet gebruiken](/help/analyze/get-started/which-analytics-tool.md).&quot;
 
 ## FPID (First Party Device ID) met Web SDK
 

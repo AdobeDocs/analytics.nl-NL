@@ -4,7 +4,7 @@ description: Productdocumentatie en zelfhulp voor Analysis Workspace, Adobe Anal
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 72%
@@ -32,7 +32,7 @@ Hier volgt een video-overzicht van Adobe Analytics:
 
 * [Adobe Analytics-dashboards - overzicht](/help/analyze/mobile-app/home.md)
 * [Aan de slag met Analysis Workspace](analysis-workspace/home.md)
-* [Welke Adobe Analytics-tool moet ik gebruiken?](/help/admin/get-started/which-analytics-tool.md)
+* [Welke Adobe Analytics-tool moet ik gebruiken?](/help/analyze/get-started/which-analytics-tool.md)
 * [Aan de slag met Report Builder](report-builder/home.md)
 * [Activity Map voor Aan de slag](activity-map/activity-map.md)
 
