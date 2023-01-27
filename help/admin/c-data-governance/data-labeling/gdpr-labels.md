@@ -3,7 +3,7 @@ description: Voorbeelden van gegevensprivacylabels voor Adobe Analytics-variabel
 title: Data Privacy-labels voor Analytics-variabelen
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '3673'
 ht-degree: 91%
@@ -54,7 +54,7 @@ De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels
 
 Met Data Governance-labels kunnen gebruikers data classificeren die privacygerelateerde overwegingen en contractuele voorwaarden vertegenwoordigen waardoor deze voldoen aan regelgeving en bedrijfsbeleid.
 
-### Data Privacy-toegangslabels
+### Toegangslabels voor gegevenPrivacy
 
 | Label | Definitie | Overige vereisten |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ Met Data Governance-labels kunnen gebruikers data classificeren die privacygerel
 
 Weinig variabelen zullen een van de andere labels krijgen, maar de verwachting is dat de toegangslabels op veel van uw variabelen zullen worden toegepast. Het is echter aan u om in overleg met uw juridische team te beslissen welke door u verzamelde data met geregistreerde personen moeten worden gedeeld.
 
-### Data Privacy-verwijderingslabels
+### Gegevensprivacy labels verwijderen
 
 In tegenstelling tot de andere labels sluiten deze verwijderingslabels elkaar niet uit. U kunt een van beide, beide of geen van beide selecteren. Een afzonderlijk [!UICONTROL None] label is niet nodig, omdat [!UICONTROL None] wordt aangegeven door een van de verwijderopties niet te controleren.
 
@@ -79,7 +79,7 @@ Een verwijderingslabel is alleen vereist voor velden met een waarde waarmee een 
 
 {style=&quot;table-layout:auto&quot;}
 
-### Data Privacy-identiteitslabels
+### Identiteitslabels gegevensprivacy
 
 | Label | Definitie | Overige vereisten |
 | --- | --- | --- |
@@ -133,7 +133,7 @@ Een ander voorbeeld: u hebt misschien een CRM-id die soms wordt ingezonden via e
 >
 >De naamruimten “visitorId” en “customVisitorId” zijn gereserveerd voor het identificeren van het verouderde Analytics-trackingcookie en de bezoekers-id van de Analytics-klant. Gebruik deze naamruimten niet voor variabelen voor aangepaste traffic of conversie.
 
-## Soorten variabelen en de Data Privacy/DULE-labels die ze ondersteunen {#variable-types}
+## De typen variabelen en de labels Data Privacy/DULE die ze ondersteunen {#variable-types}
 
 Data Privacy/DULE-labeling heeft invloed op vier brede klassen van Analytics-variabelen. Niet alle variabelen ondersteunen alle labels. In deze tabel wordt aangegeven welke variabelen welke labels al of niet ondersteunen.
 
@@ -209,7 +209,7 @@ Data Privacy/DULE-labeling heeft invloed op vier brede klassen van Analytics-var
  </tbody> 
 </table>
 
-## Verwijderingen verwerken {#deletion}
+## Verwijderverwerking {#deletion}
 
 De ondersteuning van Adobe Analytics voor Data Privacy-verwijderingsaanvragen is ontworpen om de gevolgen voor rapportage zo klein mogelijk te houden. In de meeste gevallen zouden de cijfers die in rapporten worden weergegeven, niet moeten veranderen. Een historisch rapport dat is uitgevoerd vóór de Data Privacy-verwijdering, zou overeen moeten komen met dezelfde rapportrun van na de verwijdering. Dit wordt bereikt door de verwijderde data volledig los te koppelen van de geregistreerde persoon terwijl niet-identificeerbare data blijven staan, zodat de gerapporteerde waarden consistent blijven.
 

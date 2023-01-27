@@ -3,16 +3,16 @@ description: Toont voorbeelden op hoe te om gegevens voor raakgegevens, toegangs
 title: Voorbeelden van labels
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: b0716d9a4ea51dc0e1e6fc024f3de6b01a9ccfd8
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 63%
+ht-degree: 62%
 
 ---
 
 # Voorbeelden van labels
 
-## Voorbeelden van treffersdata
+## Bemonsteringstreffers {#hit}
 
 Stel dat u de volgende treffersdata hebt:
 
@@ -32,7 +32,7 @@ Stel dat u de volgende treffersdata hebt:
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
-## Voorbeeld van toegangsaanvraag
+## Voorbeeld van toegangsaanvraag {#access}
 
 Als ik een toegangsverzoek indient, bevat het samenvattingsbestand de waarden die in de onderstaande tabel worden vermeld. Een aanvraag kan alleen een apparaatbestand, alleen een persoonsbestand, of één van beide retourneren. Twee overzichtsbestanden worden alleen geretourneerd als een persoons-id wordt gebruikt en expandIds waar is.
 
@@ -141,7 +141,7 @@ Als ik een toegangsverzoek indient, bevat het samenvattingsbestand de waarden di
 
 Bedenk dat de instelling voor expandIDs niet uitmaakt voor de uitvoer wanneer een cookie-id wordt gebruikt.
 
-## Voorbeeld verzoeken verwijderen
+## Voorbeeld verzoeken verwijderen {#delete}
 
 Met een verwijderingsaanvraag waarbij de API-waarden in de eerste rij van de tabel staan, wordt de tabel met treffers zodanig bijgewerkt dat deze er ongeveer als volgt uitziet:
 

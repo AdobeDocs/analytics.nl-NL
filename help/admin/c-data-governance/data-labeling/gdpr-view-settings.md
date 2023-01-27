@@ -3,7 +3,7 @@ description: Het dialoogvenster Privacy Labeling for Data Governance biedt een o
 title: Privacy-labels voor gegevensbeheer weergeven/beheren
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 41%
@@ -75,7 +75,7 @@ Voer de volgende stappen uit als u dezelfde DULE/Data Privacy-instellingen wilt 
    >
    >Controleer altijd de doelrapportsuites om te zien of de labels goed zijn gekopieerd. Dit is vooral belangrijk voor variabelen met ID- of DEL-labels.
 
-## Exporteren naar een CSV-bestand
+## Exporteren naar een CSV-bestand {#export-csv}
 
 U kunt een CSV-bestand downloaden met alle huidige labeldefinities voor alle variabelen voor de geselecteerde rapportsuite(s). We raden u aan dat uw juridische team uw labelopties beoordeelt en deze optie vergemakkelijkt deze revisie. U kunt het CSV-bestand met het team delen, zodat ze de controle niet hoeven uit te voeren terwijl ze zijn aangemeld bij de Data Governance-gebruikersinterface.
 
@@ -85,6 +85,6 @@ U kunt een CSV-bestand downloaden met alle huidige labeldefinities voor alle var
 
 1. Selecteer één of meerdere rapportreeksen waarvoor u alle montages van het gegevensbeheer wilt uitvoeren.
 
-## Privacy-labels bewerken
+## Privacy-labels bewerken {#edit}
 
 Zie [Privacylabels voor rapportsuite toewijzen of bewerken](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).

@@ -3,10 +3,10 @@ description: Begrijp de id's die zijn vastgelegd in de analysegegevens en bepaal
 title: Best practices voor labelen
 feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '2698'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 >
 >Bedenk dat de labels steeds moeten worden gecontroleerd wanneer een nieuwe rapportsuite wordt gemaakt of wanneer een nieuwe variabele in een bestaande rapportsuite wordt ingeschakeld. U dient de labeling mogelijk ook te herzien wanneer integraties van nieuwe oplossingen worden ingeschakeld, omdat deze nieuwe variabelen kunnen laten zien waarvoor een label nodig is. Een herimplementatie van uw mobiele apps of websites kan de manier veranderen waarop bestaande variabelen worden gebruikt, waardoor eveneens updates van labels nodig kunnen zijn.
 
-## Direct vs. indirect identificeerbare id&#39;s {#section_030799AA1397433FBA61A2BC60A7A750}
+## Direct of indirect identificeerbare id&#39;s {#direct-vs-indirect}
 
 Voordat u kunt achterhalen welke labels op welke variabelen/velden moeten worden toegepast, moet u eerst de id&#39;s begrijpen die u in de Analytics-data vastlegt, en beslissen welke u gebruikt voor Data Privacy-aanvragen. Data Privacy breidt het bereik uit van wat als id kan worden beschouwd. Id&#39;s vallen in twee brede klassen: rechtstreeks identificeerbaar (identiteitslabel: I1) en indirect identificeerbaar (identiteitslabel: I2).
 
@@ -32,7 +32,7 @@ Zelfs als uw bedrijf binnen uw Analytics-data veel verschillende id&#39;s verzam
 * Sommige id&#39;s komen mogelijk overeen met meerdere personen en u wilt niet riskeren dat u informatie over de ene persoon retourneert aan iemand anders met dezelfde id. Zelfs als u bijvoorbeeld kunt verifiëren dat iemand John Smith heet, wilt u waarschijnlijk toch niet alle data over alle John Smiths in uw systeem retourneren.
 * Een ander voorbeeld is een apparaat-id, zoals de Analytics-cookie-id. Als de id voorkomt in een mobiele-telefoon-app, kunt u besluiten dat alle interacties met die id beschikbaar moeten zijn voor de eigenaar van de mobiele telefoon. Als de id echter op een gedeeld apparaat wordt weergegeven zoals een thuiscomputer of een computer in een bibliotheek of een internetcafé, kunt u besluiten dat u geen onderscheid kunt maken tussen de gebruikers van dat apparaat, en dat het risico dat data voor een andere gebruiker worden geretourneerd, te groot is om het gebruik van dit type id toe te staan.
 
-## Best practices voor id&#39;s die door Analytics worden ondersteund {#section_B6481505FF1949498D4B4B35B780D050}
+## Aanbevolen procedures voor id&#39;s die worden ondersteund door Analytics {#best-practices-an}
 
 Gebruik deze tabel om te bepalen welke soorten id&#39;s u gaat gebruiken wanneer u Data Privacy-aanvragen naar Analytics verzendt. Zodra u deze informatie hebt, wordt het gemakkelijker om de andere labels te bepalen die u voor uw variabelen moet gebruiken.
 
@@ -68,7 +68,7 @@ Gebruik deze tabel om te bepalen welke soorten id&#39;s u gaat gebruiken wanneer
  </tbody> 
 </table>
 
-## Best practices voor het instellen van verwijderingslabels {#section_08166C99B48E49218392FAC18922C10E}
+## Aanbevolen procedures voor het instellen van labels voor verwijderen {#best-practices-delete}
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ De verwijderingslabels DEL-DEVICE en DEL-PERSON moeten spaarzaam worden gebruikt
 
    Als u bijvoorbeeld drie treffers hebt met de waarde “foo” in eVar7, maar slechts één daarvan ook een id in een andere variabele bevat die een match heeft voor verwijdering, wordt “foo” in deze treffer gewijzigd in een waarde als “Data Privacy-123456789”, terwijl deze waarde in de andere twee treffers ongewijzigd blijft. Een rapport met het aantal unieke waarden voor eVar7 toont nu één unieke waarde meer dan daarvoor. Een rapport dat de hoogste waarden voor eVars toont, kan “foo” met slechts twee instanties bevatten (in plaats van 3, zoals vroeger), en de nieuwe waarde zal ook worden getoond, met één instantie.
 
-## Best practices voor het instellen van toegangslabels {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Beste praktijken voor het plaatsen van de etiketten van de Toegang {#best-practices-access}
 
 Hoewel heel weinig velden een van de andere labels hebben, komt het vaak voor dat een groot aantal velden ACC-labels heeft. Welke toegangslabels juist zijn, hangt af van de id&#39;s die u gebruikt voor Data Privacy-aanvragen.
 

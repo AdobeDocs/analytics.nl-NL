@@ -3,10 +3,10 @@ description: Elke id die u wilt kunnen zoeken, krijgt een naamruimte toegewezen,
 title: Naamruimten
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ De waarde moet worden opgegeven als twee hexadecimale getallen, gescheiden door 
 
 Het is ook acceptabel om `"namespaceId": 10` te gebruiken in plaats van of in aanvulling op `"namespace": "AAID"`, en het kan zijn dat sommige andere Adobe-producten dit formulier gebruiken.
 
-## Verouderd Analytics-trackingcookie: afgeschaft formulier
+## Cookie voor het bijhouden van oude analyses: Vervangen formulier
 
 ```
 {
@@ -52,7 +52,7 @@ Afgeschaft formulier:
 
 De waarde moet worden opgegeven als twee hexadecimale getallen van 16 cijfers, of als twee decimale getallen van 19 cijfers. De getallen moeten worden gescheiden door een streepje, onderstrepingsteken of dubbele punt. Er moeten voorloopnullen worden toegevoegd als een van beide getallen onvoldoende cijfers heeft.
 
-## Identity Service-cookie
+## Identity Service cookie
 
 ```
 {
@@ -90,7 +90,7 @@ Deze JavaScript-code vult de JSON in met andere code/waardeparen naast de bovenv
 
 De naamruimte is ook vooraf gedefinieerd voor de aangepaste bezoekers-id.
 
-## Id&#39;s in aangepaste variabelen
+## ID&#39;s in aangepaste variabelen
 
 ```
 {
