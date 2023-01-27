@@ -1,7 +1,7 @@
 ---
-source-git-commit: d42b7ef770a51f0379e358367a5b64202970fd60
+source-git-commit: 9d8471189788dbf7b86374ea3976e0e8b4b0d00b
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->De functionaliteit die in dit artikel wordt beschreven, bevindt zich in de Beperkte testfase van de release. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
+>De functionaliteit die in dit artikel wordt beschreven, bevindt zich in de Beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
 
 ## Beperkte testsectie voor releasefase {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->De in deze sectie beschreven functionaliteit bevindt zich in de Beperkte testfase van de release. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
+>De in deze sectie beschreven functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
