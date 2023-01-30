@@ -3,10 +3,10 @@ description: Het labelen van rapportsuitedata betekent dat u labels voor identit
 title: Rapportsuitedata labelen
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 37%
+source-wordcount: '524'
+ht-degree: 32%
 
 ---
 
@@ -24,7 +24,7 @@ Het labelen van rapportsuitedata betekent dat u labels voor identiteit, gevoelig
 
 ## Privacylabels voor rapportsuite toewijzen of bewerken {#assign-edit}
 
-**Voorbeeld**: Als datacontroller wilt u e-mailadressen en cookie-id&#39;s verzamelen geregistreerde personen om hun Data Privacy-aanvragen te verwerken. Deze cookie-id&#39;s worden opgeslagen in een rapportsuite in Adobe Analytics. Als u een label voor e-mailadressen en cookie-id&#39;s wilt maken, moet u het framework Data Usage Labeling &amp; Enforcement (DULE) van het Adobe Experience Cloud-Platform in Analytics gebruiken.
+**Voorbeeld**: Als datacontroller wilt u e-mailadressen en cookie-id&#39;s verzamelen geregistreerde personen om hun Data Privacy-aanvragen te verwerken. Deze cookie-id&#39;s worden opgeslagen in een rapportsuite in Adobe Analytics.
 
 1. Navigeer in Adobe Analytics naar **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Data governance]**.
 
@@ -48,10 +48,6 @@ Het labelen van rapportsuitedata betekent dat u labels voor identiteit, gevoelig
    In dit scherm ziet u de labels die op dat moment zijn toegepast en kunt u aanvullende labels toepassen. Afhankelijk van de component kunt u mogelijk niet alle labels toepassen of wijzigen.
 
    ![Toegepaste labels](assets/edit-labels2.png)
-
-   >[!NOTE]
-   >
-   >Het DULE-kader (Data Usage Labeling &amp; Enforcement) is ontworpen als een uniforme manier voor alle oplossingen/services/platforms om metadata over data vast te leggen, te communiceren en te gebruiken in de hele Adobe Experience Cloud. De metadata helpen datacontrollers om aan te geven welke data persoonlijke data zijn, welke data gevoelig zijn, en welke contractbeperkingen aan data zijn gekoppeld.
 
 1. Klik op **[!UICONTROL Apply]** zodra u alle labeling hebt voltooid.
 
