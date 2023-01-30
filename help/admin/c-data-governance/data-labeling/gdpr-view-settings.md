@@ -3,9 +3,9 @@ description: Het dialoogvenster Privacy Labeling for Data Governance biedt een o
 title: Privacy-labels voor gegevensbeheer weergeven/beheren
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '874'
 ht-degree: 41%
 
 ---
@@ -45,7 +45,7 @@ De **[!UICONTROL Privacy Labeling for Data Governance]** biedt een overzicht van
 
 ## Privacy-labels kopiëren naar een rapportsuite  {#copy-to-rs}
 
-Voer de volgende stappen uit als u dezelfde DULE/Data Privacy-instellingen wilt toepassen op meerdere rapportsuite:
+Voer de volgende stappen uit als u dezelfde privacyinstellingen voor gegevens wilt toepassen op meerdere rapportsuite:
 
 1. Selecteer de variabele die u wilt kopiëren. Let erop dat u de labels voor één variabele tegelijk kunt kopiëren.
 1. Klikken **[!UICONTROL Copy to Report Suite(s)]** onder aan de dialoog over gegevensbeheer.
