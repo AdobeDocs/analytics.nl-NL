@@ -3,10 +3,10 @@ description: Veelgestelde vragen over Adobe Analytics-gegevensbeheer
 title: Veelgestelde vragen over gegevensbeheer
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 82c69131fcc5a22795e44ed97246240aec31f4d9
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 81%
+source-wordcount: '2164'
+ht-degree: 80%
 
 ---
 
@@ -49,6 +49,20 @@ De Data Governance-tool bevat de volgende datalabels:
 * Data Privacy-datalabels:  wordt gebruikt om de velden te definiëren die persoonlijke id&#39;s kunnen bevatten voor gebruik in Data Privacy-aanvragen, of die moeten worden verwijderd als onderdeel van een Data Privacy-verwijderingsaanvraag. Deze labels kunnen in sommige gevallen overlappen met labels voor identiteitsdata en gevoelige data.
 
 Voor meer informatie over labels voor gegevensbeheer raadpleegt u [Data Privacy Labels voor analytische variabelen](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
+
++++
+
++++ **Hoe kan ik valideren dat de privacyserviceaanvragen correct werken om gegevens uit Adobe Analytics te verwijderen?**
+
+De klanten van Analytics zetten typisch sommige reeksen van het testrapport op om functionaliteit te verifiëren alvorens het aan het algemene publiek wordt vrijgegeven. Pre-productiewebsites of -apps verzenden data naar deze test/dev/QA-rapportsuites om te beoordelen hoe alles zal werken wanneer de code wordt uitgebracht, voordat er echte traffic naar de productierapportsuites wordt verzonden.
+
+Bij een normale configuratie kan de verwerking van een GPDR-aanvraag echter niet eerst op deze testrapportsuites worden getest, voordat aanvragen op de productierapportsuites worden toegepast. De reden hiervoor is dat een Data Privacy-aanvraag automatisch wordt toegepast op alle rapportsuites in de Experience Cloud-organisatie, en dat zijn vaak alle rapportsuites voor uw bedrijf.
+
+Er zijn een paar manieren waarop u toch Data Privacy-verwerking kunt testen voordat deze op alle rapportsuites wordt toegepast:
+
+* Een optie is om een afzonderlijke Experience Cloud-organisatie in te stellen die alleen testrapportsuites bevat. Gebruik vervolgens deze Experience Cloud-organisatie voor uw Data Privacy-tests en uw normale Experience Cloud-organisatie voor daadwerkelijke Data Privacy-verwerking.
+
+* Een andere optie is om andere naamruimten toe te wijzen aan de id&#39;s in uw testrapportsuites, in tegenstelling tot de naamruimten in uw productierapportsuites. U kunt bijvoorbeeld voor elke naamruimte een voorvoegsel “qa-” opgeven in uw testrapportsuites. Wanneer u Data Privacy-aanvragen verzendt met uitsluitend naamruimten met het qa-voorvoegsel, worden deze aanvragen alleen uitgevoerd op uw testrapportsuites. Later, wanneer u aanvragen verzendt zonder het qa-voorvoegsel, worden ze toegepast op uw productierapportsuites. **Dit is de aanbevolen aanpak, tenzij u de naamruimten bezoekerId, AID, ECID of customVisitorId gebruikt. Deze naamruimten zijn gecodeerd en u kunt geen alternatieve namen voor deze naamruimten opgeven in de suites van het testrapport.**
 
 +++
 
