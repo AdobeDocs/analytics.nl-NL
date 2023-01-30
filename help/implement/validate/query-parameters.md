@@ -3,9 +3,9 @@ title: Queryparameters voor dataverzameling
 description: Vermeldt alle parameters van het vraagkoord die in beeldverzoeken worden gebruikt.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '718'
 ht-degree: 5%
 
 ---
@@ -41,6 +41,7 @@ De volgende lijst maakt een lijst van alle parameters van het vraagkoord Adobe g
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | URL&#39;s die langer zijn dan 255 bytes, worden gesplitst. De eerste 255 bytes verschijnen in `g` en alle resterende bytes worden weergegeven in het deelvenster `-g` parameter. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Shorthand voor de `pageName` queryreeks. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Shorthand voor de `pageType` queryreeks. |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Voorvoegsel voor verschillende variabelen die staan voor [Clienttips](/help/technotes/client-hints.md). |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | Hiërarchieafmetingen. |
 | `hp` | Geen | Niet meer gebruikt. In vorige versies van Adobe Analytics, bepaalde als huidige URL de homepage van browser was. |
 | `j` | Geen | De JavaScript-versie die in de browser is geïnstalleerd. |
@@ -79,6 +80,6 @@ De volgende lijst maakt een lijst van alle parameters van het vraagkoord Adobe g
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Variabele voor bezoekersidentiteitskaart |
 | `vidn` | Geen | Ingesteld op AppMeasurement voor nieuwe bezoekers. Bevat de id-waarde die is opgeslagen in het bezoekerscookie. |
 | `vmk` | `vmk` | Niet meer gebruikt. De migratiesleutel van de bezoeker, die implementaties van derde aan eerste-partijkoekjes hielp migreren. |
-| `vvp` | `variableProvider` | Wordt gebruikt in gegevensconnectors. |
+| `vvp` | `variableProvider` | Wordt gebruikt in Data Connectors. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Gebruikt met Gegevensbronnen om online en off-line gegevens samen te binden. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | Gebruikt in de [Postcode](/help/components/dimensions/zip-code.md) dimensie. |

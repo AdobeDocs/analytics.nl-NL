@@ -2,9 +2,9 @@
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1232'
 ht-degree: 1%
 
 ---
@@ -63,23 +63,20 @@ Op dit moment niet. U kunt ervoor kiezen alle hints met hoge entropie of geen hi
 
 In de onderstaande tabel worden de tips voor cliënten vanaf oktober 2022 beschreven.
 
-| Tip* | Beschrijving | Hoog of laag | Voorbeeld |
+| Tip | Beschrijving | Hoog of laag | Voorbeeld |
 | --- | --- | --- | --- | 
-| Sec-CH-UA | Browser en significante versie | Laag | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | Mobiel apparaat (true of false) | Laag | TRUE |
-| Sec-CH-UA-Platform | Besturingssysteem/Platform | Laag | &quot;Android&quot; |
-| Sec-CH-UA-Arch | Architectuur van de site | Hoog | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | Architectuurbitnes | Hoog | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | Volledige versie van de browser | Hoog | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | Lijst van merken met hun versie | Hoog | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-model | Apparaatmodel | Hoog | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | Versie besturingssysteem/Platform | Hoog | &quot;10&quot; |
+| Sec-CH-UA | Browser en significante versie | Laag | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | Mobiel apparaat (true of false) | Laag | `true` |
+| Sec-CH-UA-Platform | Besturingssysteem/Platform | Laag | `"Android"` |
+| Sec-CH-UA-Arch | Architectuur van de site | Hoog | `"arm"` |
+| Sec-CH-UA-Bitness | Architectuurbitnes | Hoog | `"64"` |
+| Sec-CH-UA-Full-Version | Volledige versie van de browser | Hoog | `"84.0.4143.2"` |
+| Sec-CH-UA-Full-Version-List | Lijst van merken met hun versie | Hoog | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| Sec-CH-UA-model | Apparaatmodel | Hoog | `"Pixel 3"` |
+| Sec-CH-UA-Platform-Version | Versie besturingssysteem/Platform | Hoog | `"10"` |
 
-
-* Hints met lage entropie worden verzameld via koptekst. Hoog entropiewenken worden verzameld via JavaScript en overgegaan in de parameters van het vraagkoord.
-
-* Hoog-entropiewenken worden verzameld via vraag JavaScript en overgegaan via vraagparameter
-
+* Hints met lage entropie worden verzameld via de aanvraagkoptekst.
+* Hoog-entropiewenken worden verzameld door JavaScript en door de parameterwaarden van het vraagkoord overgegaan. De parameters van het vraagkoord gebruiken `h.` als voorvoegsel in de afbeeldingsaanvraag.
 
 +++
 

@@ -2,7 +2,7 @@
 title: collectHighEntropyUserAgentHints
 description: Gebruik de variabele collectHighEntropyUserAgentHints om te bepalen of Adobe hoge entropiewenken bij Chromium browsers (bijvoorbeeld Google Chrome en Microsoft Edge) zal vragen.
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
-source-git-commit: 61d5006a20f13ab5aec9e1b63f4197e9a9c98429
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -31,10 +31,10 @@ Hoog-entropy cliëntwenken maken deel uit van de contextcategorieën in Web SDK.
 
 ## collectHighEntropyUserAgentHints in AppMeasurement
 
-De `s.collectHighEntropyUserAgentHints` Met de variabele wordt bepaald of AppMeasurement hints met hoge entropie vraagt bij Chromium-browsers (bijvoorbeeld Google Chrome en Microsoft Edge). Deze tips worden door Adobe Analytics gebruikt om de apparaat- en browseridentificatie te verbeteren.
+De `s.collectHighEntropyUserAgentHints` De variabele bepaalt of AppMeturement hoge entropiewenken van browsers van het Chroom vraagt (bijvoorbeeld, Google Chrome of Microsoft Edge). Deze tips worden door Adobe Analytics gebruikt om de apparaat- en browseridentificatie te verbeteren.
 
-Als deze optie is ingesteld op TRUE, worden alle hoge entropiehints aangevraagd vanuit de browser.
+Indien ingesteld op `true`, worden alle hoge entropiehints aangevraagd vanuit de browser.
 
-`s.collectHighEntropyUserAgentHints = true`
-
-`s.collectHighEntropyUserAgentHints = false`
+```js
+s.collectHighEntropyUserAgentHints = true;
+```
