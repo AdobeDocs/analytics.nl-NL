@@ -3,10 +3,10 @@ description: Voorbeelden van gegevensprivacylabels voor Adobe Analytics-variabel
 title: Data Privacy-labels voor Analytics-variabelen
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '3673'
-ht-degree: 91%
+source-wordcount: '3555'
+ht-degree: 90%
 
 ---
 
@@ -22,13 +22,7 @@ Voordat u kunt achterhalen welke labels op welke variabelen/velden moeten worden
 
 De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels voor identiteitsdata, gevoelige data en data-governance.
 
-## DULE-labels {#dule-labels}
-
->[!NOTE]
->
->Het DULE-kader (Data Usage Labeling &amp; Enforcement) is ontworpen als een uniforme manier voor alle Adobe-oplossingen/services/platforms om metadata over data vast te leggen, te communiceren en te gebruiken in de hele Adobe Experience Cloud. De metadata helpen datacontrollers om aan te geven welke data persoonlijke data zijn, welke data gevoelig zijn, en welke contractbeperkingen aan data zijn gekoppeld. In deze eerste versie stelt Analytics alleen de DULE-labels beschikbaar die relevant zijn voor Data Privacy. Aangezien andere producten van Adobe ondersteuning implementeren voor DULE-labels, zullen bij toekomstige versies extra labels worden geïntroduceerd voor gevoelige data, evenals contractlabels, waardoor data die tussen producten worden gedeeld, uitsluitend worden gebruikt op wettelijk toegestane manieren.
-
-## Labels voor identiteitsgegevens (DULE) {#identity-data-labels}
+## Identiteitsgegevenslabels {#identity-data-labels}
 
 “I”-labels voor identiteitsdata worden gebruikt om data te categoriseren waarmee een specifieke persoon kan worden geïdentificeerd of gecontacteerd.
 
@@ -39,7 +33,7 @@ De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels
 
 {style=&quot;table-layout:auto&quot;}
 
-## Gevoelige gegevenslabels (DULE) {#sensitive-data-labels}
+## Gevoelige gegevenslabels {#sensitive-data-labels}
 
 “S”-labels voor gevoelige data worden gebruikt om gevoelige data zoals geografische data te categoriseren. In de toekomst zullen extra labels voor gevoelige data worden geïntroduceerd om andere soorten gevoelige informatie te identificeren.
 
@@ -133,9 +127,9 @@ Een ander voorbeeld: u hebt misschien een CRM-id die soms wordt ingezonden via e
 >
 >De naamruimten “visitorId” en “customVisitorId” zijn gereserveerd voor het identificeren van het verouderde Analytics-trackingcookie en de bezoekers-id van de Analytics-klant. Gebruik deze naamruimten niet voor variabelen voor aangepaste traffic of conversie.
 
-## De typen variabelen en de labels Data Privacy/DULE die ze ondersteunen {#variable-types}
+## Typen variabelen en de labels voor gegevensprivacy die ze ondersteunen {#variable-types}
 
-Data Privacy/DULE-labeling heeft invloed op vier brede klassen van Analytics-variabelen. Niet alle variabelen ondersteunen alle labels. In deze tabel wordt aangegeven welke variabelen welke labels al of niet ondersteunen.
+De etiketten van de Privacy van gegevens beïnvloeden vier brede klassen van variabelen van de Analyse. Niet alle variabelen ondersteunen alle labels. In deze tabel wordt aangegeven welke variabelen welke labels al of niet ondersteunen.
 
 | Type variabele | Ondersteunde labels | Niet-ondersteunde labels |
 |--- |--- |--- |
