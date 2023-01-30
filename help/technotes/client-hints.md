@@ -2,9 +2,9 @@
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
+source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1248'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ Op dit moment niet. U kunt ervoor kiezen alle hints met hoge entropie of geen hi
 
 In de onderstaande tabel worden de tips voor cliënten vanaf oktober 2022 beschreven.
 
-| Tip | Beschrijving | Hoog of laag | Voorbeeld |
+| Tip* | Beschrijving | Hoog of laag | Voorbeeld |
 | --- | --- | --- | --- | 
 | Sec-CH-UA | Browser en significante versie | Laag | &quot;Google Chrome 84&quot; |
 | Sec-CH-UA-Mobile | Mobiel apparaat (true of false) | Laag | TRUE |
@@ -75,7 +75,11 @@ In de onderstaande tabel worden de tips voor cliënten vanaf oktober 2022 beschr
 | Sec-CH-UA-model | Apparaatmodel | Hoog | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Versie besturingssysteem/Platform | Hoog | &quot;10&quot; |
 
-Hoge entropiehints worden verzameld via JavaScript-aanroep en doorgegeven via queryparameter
+
+* Hints met lage entropie worden verzameld via koptekst. Hoog entropiewenken worden verzameld via JavaScript en overgegaan in de parameters van het vraagkoord.
+
+* Hoog-entropiewenken worden verzameld via vraag JavaScript en overgegaan via vraagparameter
+
 
 +++
 
