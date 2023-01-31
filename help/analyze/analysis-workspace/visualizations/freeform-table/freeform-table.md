@@ -4,7 +4,7 @@ description: Freeform-tabellen vormen de basis voor gegevensanalyse in Workspace
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -37,7 +37,7 @@ U kunt op verschillende manieren werken met een vrije-vormtabel en deze aanpasse
    * U kunt meer rijen in één enkel scherm passen door het project aan te passen [weergavedichtheid](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html).
    * Elke afmetingsrij kan tot 400 rijen tonen, alvorens paginering voorkomt. Klik op het nummer naast &quot;Rijen&quot; om meer rijen op een pagina weer te geven. Navigeer naar een andere pagina met de paginapijl in de koptekst.
    * Rijen kunnen worden opgesplitst in extra componenten. Als u veel rijen tegelijk wilt splitsen, selecteert u gewoon meerdere rijen en sleept u de volgende component boven op de geselecteerde rijen. Meer informatie over [uitsplitsingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html).
-   * Rijen kunnen [gefilterd](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) om een beperkt aantal objecten weer te geven. Aanvullende instellingen zijn beschikbaar onder [Rijinstellingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
+   * Rijen kunnen [gefilterd](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) om een beperkt aantal objecten weer te geven. Aanvullende instellingen zijn beschikbaar onder [Rijinstellingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
 
 * **Kolommen**
    * Componenten kunnen in kolommen worden gestapeld om gesegmenteerde metriek, analyse op meerdere tabbladen en nog veel meer te maken.
