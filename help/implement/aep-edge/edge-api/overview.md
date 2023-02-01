@@ -1,13 +1,12 @@
 ---
 title: Adobe Analytics implementeren met de Adobe Experience Platform Edge API
 description: Gebruik de Adobe Experience Platform Edge API om gegevens naar Adobe Analytics te verzenden.
-source-git-commit: 6979736e1849d25af2141e0ab76a143605a90620
+source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Analytics implementeren met de Adobe Experience Platform Edge API
 
