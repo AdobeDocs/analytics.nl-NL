@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+source-git-commit: 1defe0b630d9d600402dc23562d7a6af0bfa81de
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '629'
 ht-degree: 80%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 80%
                   + [Een gebeurtenis instellen met een contextdatavariabele](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [Een gebeurtenis verwijderen uit een treffer](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [Tips en trucs voor verwerkingsregels](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
-            + Bot verwijderen {#bot-removal}
+            + Bot-regels {#bot-removal}
                + [Bot verwijderen](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
                + [Overzicht van regels voor bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Handtekeningen van gewone bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
@@ -119,12 +119,8 @@ ht-degree: 80%
             + [Aangepaste rapportbeschrijvingen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + Conversievariabelen {#conversion-variables}
             + [Conversievariabelen (eVars)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
-            + [Conversievariabelen bewerken](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)
-            + [Conversieclassificaties](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
-            + [Classificatiehiërarchieën](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
-            + [Lijstvariabelen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
-            + [Merchandising-eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
             + [Methoden zoeken](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
+            + [Conversieclassificaties](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
             + Variabele Unique Visitor {#unique-visitor-variable}
                + [De variabele Unique Visitor opgeven](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
                + [Gebruiksscenario - Bezoekers-id&#39;s](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
@@ -132,6 +128,9 @@ ht-degree: 80%
                + [Overzicht van succesgebeurtenissen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
                + [Succesgebeurtenissen configureren](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
                + [Het gebeurtenistype wijzigen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
+            + [Classificatiehiërarchieën](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
+            + [Lijstvariabelen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
+            + [Merchandising-eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + [Marketingkanalen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
          + Traffic-beheer {#traffic-management}
             + [Traffic beheren](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)

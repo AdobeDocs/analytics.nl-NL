@@ -4,9 +4,9 @@ keywords: eVar
 title: Conversievariabelen (eVar)
 feature: Admin Tools
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 2f219f599b5c9231a29a23e1ebd9412081754c9d
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,9 @@ ht-degree: 0%
 # Conversievariabelen (eVars)
 
 De Custom Insight-conversievariabele (of -eVar) wordt in de Adobe-code op geselecteerde webpagina&#39;s van uw site geplaatst. Zijn belangrijkste doel is omzettingssuccesmetriek in douane marketing rapporten te segmenteren. Een eVar kan op bezoek-gebaseerd zijn en functioneren gelijkaardig aan koekjes. De waarden die in eVar-variabelen worden doorgegeven, volgen de gebruiker gedurende een vooraf bepaalde periode.
+
+
+## Overzicht van conversievariabelen (eVars)
 
 Hier volgt een video-overzicht:
 
@@ -33,9 +36,9 @@ Als verkeersmeting of het kleven gewenst is, wordt het gebruiken van verkeersvar
 >
 >Er kan slechts één waarde worden opgeslagen in een eVar in een afbeeldingsaanvraag. Als er meerdere waarden in een eVar-waarde zijn gewenst, raden we u aan deze te implementeren [Variabelen weergeven (lijstvariabelen)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html).
 
-## Conversievariabelen - beschrijvingen {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
+### Conversievariabelen - beschrijvingen {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-Beschrijvingen van velden die worden gebruikt wanneer [conversievariabelen bewerken](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md).
+Beschrijvingen van velden die worden gebruikt wanneer [conversievariabelen bewerken](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md).
 
 | Element | Beschrijving |
 | --- | --- |
@@ -68,3 +71,18 @@ Vars zijn niet hoofdlettergevoelig. De hoofdletters en kleine letters die bij de
 ### Tellers
 
 Terwijl eVars het vaakst worden gebruikt om koordwaarden te houden, kunnen zij ook worden gevormd om als tellers te handelen. Variabelen zijn nuttig als tellers wanneer u probeert te tellen het aantal acties een gebruiker vóór een gebeurtenis neemt. U kunt bijvoorbeeld een eVar gebruiken om het aantal interne zoekopdrachten vast te leggen voordat u de aankoop doet. Telkens wanneer een bezoeker zoekt, moet de eVar de waarde &#39;+1&#39; bevatten. Als een bezoeker vier keer vóór een aankoop zoekt, ziet u een exemplaar voor elk totaal aantal: 1,00, 2,00, 3,00 en 4,00. Alleen de 4,00 ontvangen echter krediet voor het aankoopevenement (bestellingen en inkomstencijfers). Alleen positieve getallen zijn toegestaan als waarden van een eVar-teller.
+
+## Conversievariabelen toevoegen of bewerken
+
+1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. Een rapportsuite selecteren.
+1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Variables]**.
+1. Op de [!UICONTROL Conversion Variables] pagina, klikt u op de knop **[!UICONTROL Expand]** pictogram [+] naast de conversievariabele die u wilt wijzigen.
+
+   of
+
+   Klikken **[!UICONTROL Add New]** om een ongebruikte eVar toe te voegen aan de rapportsuite.
+1. Selecteer de velden van de conversievariabele die u wilt wijzigen.
+
+   Zie [Conversievariabelen - beschrijvingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). In sommige velden kunt u rechtstreeks in het veld typen. Met andere opties kunt u een keuze maken in een vervolgkeuzelijst met ondersteunde waarden.
+1. Klik op **[!UICONTROL Save]**.
