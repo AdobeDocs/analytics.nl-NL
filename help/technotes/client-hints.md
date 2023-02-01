@@ -2,9 +2,9 @@
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1245'
 ht-degree: 1%
 
 ---
@@ -77,6 +77,8 @@ In de onderstaande tabel worden de tips voor cliënten vanaf oktober 2022 beschr
 
 * Hints met lage entropie worden verzameld via de aanvraagkoptekst.
 * Hoog-entropiewenken worden verzameld door JavaScript en door de parameterwaarden van het vraagkoord overgegaan. De parameters van het vraagkoord gebruiken `h.` als voorvoegsel in de afbeeldingsaanvraag.
+
+Hoge entropiehints worden verzameld via JavaScript-aanroep en doorgegeven via queryparameter
 
 +++
 

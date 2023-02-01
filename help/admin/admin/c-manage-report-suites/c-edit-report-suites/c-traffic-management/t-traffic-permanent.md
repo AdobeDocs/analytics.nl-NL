@@ -3,18 +3,20 @@ description: De Permanente secties van het Verkeer laten u verwachte verkeersniv
 title: Permanente traffic-toename opgeven
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: 157b6f53b482d8cc19b99976ed1d927a80fec490
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '149'
+ht-degree: 8%
 
 ---
 
 # Permanente traffic-toename opgeven
 
-De Permanente secties van het Verkeer laten u verwachte verkeersniveaus veranderen zodat kan Adobe middelen opnieuw toewijzen om het nieuwe verkeersniveau te behandelen.
+U kunt verwachte verkeersniveaus veranderen zodat kan Adobe middelen opnieuw toewijzen om het nieuwe verkeersniveau te behandelen. (U kunt ook [plannen een verkeersspiraal](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) als u tijdelijk bronnen opnieuw wilt toewijzen.)
 
-Lees de informatie over [Vereiste Leadtijd voor de Toename van het Verkeer](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md) alvorens u een permanente verkeersverhoging specificeert.
+{{$include /help/_includes/traffic-lead-time.md}}
+
+## Een permanente verkeersverhoging opgeven
 
 1. Open Report Suite Manager door op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**.
 1. Een rapportsuite selecteren.

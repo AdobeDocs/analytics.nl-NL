@@ -3,9 +3,9 @@ title: Overzicht van cijfers
 description: De hoeveelheden dimensie-items of gegevens weergeven in de loop van de tijd.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '185'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,4 @@ Als u een bepaalde metrische hulppagina niet kunt vinden, is het waarschijnlijk 
 
 ## Metrische beschrijvingen toevoegen
 
-Hier volgt een video waarin wordt beschreven hoe u beschrijvingen van metrische (en afmetingen) in Adobe Analytics kunt toevoegen:
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Analysebeheerders kunnen beschrijvingen voor metriek en andere componenten of binnen de Reeks van het Rapport of direct binnen Analysis Workspace toevoegen. Voor informatie over hoe te om beschrijvingen aan metriek toe te voegen, zie [Componentbeschrijvingen toevoegen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

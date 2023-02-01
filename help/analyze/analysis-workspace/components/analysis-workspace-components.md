@@ -1,13 +1,13 @@
 ---
-description: 'Componenten in Analysis Workspace bestaan uit afmetingen, metriek, segmenten en datumbereiken die u naar een project kunt slepen en neerzetten. '
+description: Componenten in Analysis Workspace bestaan uit afmetingen, metriek, segmenten en datumbereiken die u naar een project kunt slepen en neerzetten.
 title: Overzicht van onderdelen
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 356df9e96e3b15ccb74e641e04d6a6fc26e6db62
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 5%
+source-wordcount: '688'
+ht-degree: 4%
 
 ---
 
@@ -53,9 +53,12 @@ Voorbeelden van segmenten zijn [!UICONTROL Mobile Device Visitors], [!UICONTROL 
 
 [**Datumbereik**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) Dit zijn de datums waarop u de analyse uitvoert. Ze zijn te vinden in de linkercomponentrails (paarse sectie) en worden doorgaans toegepast in de kalender van elk deelvenster.
 
+U kunt de componenten van het datumbereik relatief maken ten opzichte van de deelvensterkalender. Zie voor meer informatie [Over datumbereiken in het relatieve deelvenster](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+
 Voorbeelden van datumbereiken zijn juli 2019. [!UICONTROL Last 4 weeks], en [!UICONTROL This month]. Datumbereiken worden opgegeven door Adobe, toegepast in het dialoogvenster [paneelkalender](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)of gemaakt met de [Bouwer van datumbereik](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
 
 ![](assets/date-ranges.png)
+
 
 ## Componenthandelingen {#actions}
 

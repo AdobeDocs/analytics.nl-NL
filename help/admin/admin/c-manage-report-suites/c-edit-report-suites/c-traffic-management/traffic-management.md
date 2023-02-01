@@ -3,14 +3,14 @@ description: De pagina van het Beheer van het Verkeer laat u verwachte veranderi
 title: Traffic beheren
 feature: Traffic Management
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: c13e39e7bfe3d7fef07ea9ccda76255d28dde1c3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
 
-# Traffic beheren
+# Overzicht van verkeersbeheer
 
 De pagina van het Beheer van het Verkeer laat u verwachte veranderingen van het verkeersvolume specificeren. Deze montages laten Adobe de aangewezen middelen toewijzen om ervoor te zorgen dat uw verkeer kan worden gevolgd en op tijd worden verwerkt.
 

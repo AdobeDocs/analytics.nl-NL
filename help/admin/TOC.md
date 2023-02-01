@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 1defe0b630d9d600402dc23562d7a6af0bfa81de
+source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 80%
+source-wordcount: '614'
+ht-degree: 78%
 
 ---
 
@@ -133,11 +133,9 @@ ht-degree: 80%
             + [Merchandising-eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + [Marketingkanalen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
          + Traffic-beheer {#traffic-management}
-            + [Traffic beheren](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
-            + [Een traffic-piek plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
-            + [Vroegere server calls beoordelen en een traffic-piek plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-            + [Permanente traffic-toename opgeven](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-            + [Vereiste aanlooptijd voor traffic-toename](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
+            + [Overzicht](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [Spike plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [Permanent verkeer](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Instellingen voor afzonderlijke rapportsuites](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [Toepassingsbeheer](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + Realtimerapporten {#real-time-reports}
@@ -171,6 +169,7 @@ ht-degree: 80%
       + [Best practices voor labelen](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [Voorbeeld van labeling](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [Naamruimten](c-data-governance/data-labeling/gdpr-namespaces.md)
+   + [Aanvragen voor toegang en verwijdering verzenden](c-data-governance/gdpr-submit-access-delete.md)
    + [Id-uitbreiding](c-data-governance/gdpr-id-expansion.md)
    + [Vrijstelling van CNIL-toestemming](c-data-governance/cnil-consent-exemption.md)
 + [Admin-API](c-admin-api/c-admin-api.md)

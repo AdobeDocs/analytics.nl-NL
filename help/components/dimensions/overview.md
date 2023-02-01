@@ -3,9 +3,9 @@ title: Overzicht van Dimension
 description: Variabelen die tekenreekswaarden bevatten.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,8 @@ Als u bijvoorbeeld de dimensie &#39;Pagina&#39; hebt gecombineerd met de metrisc
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-Elke dimensie vertegenwoordigt een ander deel of facet van uw site. U kunt één van meer van deze afmetingen met één of meerdere metrisch combineren om een gewenst rapport tot stand te brengen.
+Elke dimensie vertegenwoordigt een ander deel of facet van uw site. U kunt één van meer van deze dimensies met één of meerdere metriek combineren om een gewenst rapport tot stand te brengen.
 
 ## Dimensiebeschrijvingen toevoegen
 
-Hier volgt een video waarin wordt beschreven hoe u (metrische) maatbeschrijvingen in Adobe Analytics kunt toevoegen:
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Analysebeheerders kunnen beschrijvingen voor dimensies en andere componenten toevoegen in de rapportsuite of rechtstreeks in Analysis Workspace. Zie voor informatie over het toevoegen van beschrijvingen aan dimensies [Componentbeschrijvingen toevoegen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

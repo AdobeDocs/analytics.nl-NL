@@ -4,9 +4,9 @@ title: Een mobiele scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
+source-git-commit: a50451010a4c972d4acdc11a5229406f47bdf292
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,16 @@ Als het gewenste datumbereik nog niet is gemaakt, kunt u een nieuw datumbereik m
 ![Nieuwe scorekaart5](assets/new_score_card5.png)
 
 Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component voor het datumbereik kunt maken en opslaan.
+
+### Vergelijkingsdatumbereiken tonen {#showo-comparison-dates}
+
+Als u datumbereiken met elkaar wilt vergelijken, schakelt u het **Inclusief vergelijkingsdatums** instellen.
+
+![Inclusief vergelijkingsdatums](assets/include-comparison-dates.png)
+
+De instelling is *op* standaard. Schakel deze optie uit als u geen vergelijkingsdatums wilt weergeven.
+
+![Niet-geselecteerde vergelijkingsdatuminstelling](assets/no-comparison-dates.png)
 
 ## Visualisaties toepassen {#viz}
 

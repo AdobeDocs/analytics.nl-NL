@@ -3,7 +3,7 @@ description: Veelgestelde vragen over Adobe Analytics-gegevensbeheer
 title: Veelgestelde vragen over gegevensbeheer
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 80%
@@ -119,7 +119,6 @@ Bedenk ook dat voor bezoekers die een treffer hebben verwijderd (bijgewerkt of g
 Neem contact op met uw accountmanager (CSM) om samen te werken met ons consultatieteam van de Engineering Architect om verdere revisie uit te voeren en de moeite te leveren om eventuele problemen met PII&#39;s of gegevens te verwijderen.
 
 +++
-
 
 Aanvullende Data Privacy-bronnen:
 
