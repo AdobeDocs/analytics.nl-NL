@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
+source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '632'
 ht-degree: 80%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 80%
    + [Standaardcijfers](admin/default-metrics.md)
    + [Uitsluiten op IP-adres](admin/exclude-ip.md)
    + [Logboeken](admin/logs.md)
-   + [Metrische zichtbaarheid](admin/metric-visibility.md)
    + [Voorkeurenbeheer](admin/preferences-manager.md)
    + [Privacy-rapportage](admin/privacy-reporting.md)
    + [Activity Manager rapporteren](admin/reporting-activity.md)

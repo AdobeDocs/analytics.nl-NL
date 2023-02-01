@@ -3,10 +3,10 @@ description: Stappen die beschrijven hoe te om succesgebeurtenissen te vormen.
 title: Succesgebeurtenissen configureren
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 8%
+source-wordcount: '242'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,15 @@ Stappen die beschrijven hoe te om succesgebeurtenissen te vormen.
 1. In de **[!UICONTROL Polarity]** kolom, specificeer of een stijgende trend voor deze metrisch goed of slecht is.
 1. In de **[!UICONTROL Visibility]** kolom, kunt u standaardmetriek (ingebouwde), douanegebeurtenissen, en ingebouwde gebeurtenissen in het Menu, Metrische Kiezers, Berekende Bouwer van Metriek, en de Bouwer van het Segment verbergen.
 
-   Deze instelling heeft geen invloed op de gegevensverzameling voor die metrische waarde of gebeurtenis; het beïnvloedt slechts zijn zichtbaarheid in het gebruikersinterface. [Meer...](/help/admin/admin/metric-visibility.md)
+   Deze instelling heeft geen invloed op de gegevensverzameling voor die metrische waarde of gebeurtenis; het beïnvloedt slechts zijn zichtbaarheid in het gebruikersinterface, als volgt:
+
+
+   | Instelling | Zichtbaar in | Niet zichtbaar in |
+   |---------|----------|---------|
+   | [!UICONTROL **Overal zichtbaar**] | <ul><li>Rapporten en analyse (menu en metriekenselectie)</li><li>Analysis Workspace</li><li>Segment Builder</li><li>Berekende metrische bouwer</li></ul> | N.v.t. |
+   | [!UICONTROL **Opbouwmachines**] | <ul><li>Segment Builder</li><li>Berekende metrische bouwer</li></ul> | <ul><li>Rapporten en analyse (menu en metriekenselectie)</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Overal verborgen**] | N.v.t. | <ul><li>Rapporten en analyse (menu en metriekenselectie)</li><li>Analysis Workspace</li><li>Segment Builder</li><li>Berekende metrische bouwer</li></ul> |
+
 1. Geef een beschrijving op.
 1. Controleer of u de gebeurtenis altijd wilt opnemen.
 1. Deelnemingsmetriek in- of uitschakelen.
