@@ -2,10 +2,10 @@
 title: Adobe Analytics implementeren met de extensie Analytics
 description: Leer hoe u Adobe Analytics implementeert met tags en de extensie Analytics
 feature: Launch Implementation
-source-git-commit: e6b40881a543b43c03b612c7e7b0d9bd09f44c0d
+source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 4%
 
 ---
 
@@ -19,9 +19,54 @@ Alle klanten met een actief Adobe Experience Cloud-contract kunnen tags gebruike
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
+
+
 ![Adobe Analytics die de uitbreidingsworkflow voor Analytics gebruikt](../assets/analytics-extension-annotated.png)
 
-|<div style="width:20px"></div>| Taak | Meer informatie | |-| —|| | 1 | Zorg ervoor dat u beschikt over **een rapportsuite gedefinieerd**. | [Report Suite Manager](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Een gegevenslaag maken** om het bijhouden van de gegevens op uw website te beheren. | [Een gegevenslaag maken](../prepare/data-layer.md) | | 3 | **Een tag-eigenschap maken**. Eigenschappen zijn overkoepelende containers die worden gebruikt om te verwijzen naar tagbeheergegevens.| [Een Adobe Analytics-tageigenschap maken](../launch/create-analytics-property.md) | | 4 | **De extensie Analytics installeren** in de eigenschap tag. Configureer de extensie Analytics om gegevens naar Adobe Analytics te verzenden. | [Overzicht Adobe Analytics-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **Distribueren naar een ontwikkelomgeving**. Zorg voor een omgeving waarin u de ontwikkeling van tags kunt doorlopen. | [Implementeer een analytische implementatie in een ontwikkelomgeving](./deploy-dev.md) | | 6 | **Valideren en publiceren naar productie**. Voeg de eigenschap tag toe aan uw website. Dan gebruik gegevenselementen, regels, etc., om uw implementatie aan te passen.| [Een ontwikkelimplementatie valideren en publiceren naar productie](./validate-publish-prod.md) |
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>Taak</b></th><th style="width:35%"><b>Meer informatie</b></th>
+</tr>
+
+<tr>
+<td> 1</td>
+<td>Zorg ervoor dat u <b>een rapportsuite gedefinieerd</b>.</td>
+<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Rapportsuitebeheer</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>Een gegevenslaag maken</b>om het bijhouden van de gegevens op uw website te beheren.</td>
+<td>
+<a href="../prepare/data-layer.md">Een datalaag maken</a>
+</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b><b>Een tag-eigenschap maken</b>. Eigenschappen zijn overkoepelende containers die worden gebruikt om te verwijzen naar tagbeheergegevens.</td>
+<td><a ref="../launch/create-analytics-property.md">Een Adobe Analytics-tageigenschap maken</a></td>
+</tr>
+
+<tr>
+<td>4</td><td><b>De extensie Analytics installeren</b> in de eigenschap tag. Configureer de extensie Analytics om gegevens naar Adobe Analytics te verzenden.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en">Overzicht Adobe Analytics-extensie</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>Distribueren naar een ontwikkelomgeving</b>. Zorg voor een omgeving waarin u de ontwikkeling van tags kunt doorlopen.</td>
+<td><a href="./deploy-dev.md">Implementeer een analytische implementatie in een ontwikkelomgeving</td>
+</tr>
+
+<tr>
+<td>6</td> 
+<td><b>Valideren en publiceren naar productie</b>. Voeg de eigenschap tag toe aan uw website. Dan gebruik gegevenselementen, regels, etc., om uw implementatie aan te passen.</td>
+<td><a href="./validate-publish-prod.md">Een ontwikkelimplementatie valideren en publiceren naar productie</a></td>
+</tr>
+
+</table>
 
 ## Aanvullende bronnen
 

@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics implementeren met de Adobe Experience Platform Mobile SDK
 description: Gebruik de extensie Mobile SDK in Adobe Experience Platform Data Collection om gegevens naar Adobe Analytics te verzenden.
-source-git-commit: e6b40881a543b43c03b612c7e7b0d9bd09f44c0d
+source-git-commit: 97bff355a5d9bb737d510221b63ba1321aaf5812
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 1%
+source-wordcount: '632'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,65 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 ![Adobe Analytics die de uitbreidingsworkflow voor Analytics gebruikt](../../assets/mobilesdk-annotated.png)
 
-|<div style="width:20px"></div>| Taak | Meer informatie | |-| —|| | 1 | Zorg ervoor dat u beschikt over **een rapportsuite gedefinieerd**. | [Report Suite Manager](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Schema&#39;s en gegevenssets instellen**. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd. | [Schema&#39;s en gegevenssets instellen](https://developer.adobe.com/client-sdks/documentation/getting-started/set-up-schemas-and-datasets/) | | 3 | **Een gegevensstroom configureren**. Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web SDK van Adobe Experience Platform. | [Een gegevensstroom configureren](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) | | 4 | **Een Adobe Analytics-service toevoegen** naar uw gegevensstroom. Deze service bepaalt of en hoe gegevens naar Adobe Analytics worden verzonden. | [Adobe Analytics-service toevoegen aan een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics) | | 5 | **Een mobiele eigenschap maken**. Een eigenschap is een container die u vult met extensies, regels, gegevenselementen en bibliotheken. | [Een mobiele eigenschap instellen](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) | | 6 | **De extensie Adobe Experience Platform Edge Network installeren** in de eigenschap mobile tag en configureer de datastream in de extensie. | [Adobe Experience Platform Edge Network](https://developer.adobe.com/client-sdks/documentation/edge-network/) | | 7 | **Code in uw app gebruiken** om de benodigde extensies te registreren en de tagconfiguratie te laden. | [Configuratie instellen](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration) | | 8 | **Functies implementeren en testen** met een combinatie van de gegevenselementen, regels, extra extensies en API-aanroepen van de tag in uw app. Inspect, validate, en foutopsporing gegevensverzameling en ervaringen voor uw mobiele toepassing. | [De voorbeeldtoepassing gebruiken](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application) | | 9 | **De implementatie van uw mobiele app uitbreiden en valideren** voordat het naar de productie wordt verplaatst. | |
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>Taak</b></th><th style="width:35%"><b>Meer informatie</b></th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Zorg ervoor dat u <b>een rapportsuite gedefinieerd</b>.</td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Rapportsuitebeheer</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>Installatieschema's en gegevenssets</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van schema's</a> en <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en">Overzicht van de gebruikersinterface voor gegevensbestanden</a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b>Een gegevensstroom configureren</b>. Een gegevensstroom vertegenwoordigt de server-zijconfiguratie wanneer het uitvoeren van het Web SDK van Adobe Experience Platform.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en">Een gegevensstroom configureren<a></td> 
+</tr>
+
+<td>4</td>
+<td><b>Een Adobe Analytics-service toevoegen</b> naar uw gegevensstroom. Deze service bepaalt of en hoe gegevens naar Adobe Analytics worden verzonden.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics">Adobe Analytics-service toevoegen aan een gegevensstroom</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>Een mobiele eigenschap maken</b>. Een eigenschap is een container die u vult met extensies, regels, gegevenselementen en bibliotheken.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">Een mobiele eigenschap instellen</a></tr>
+
+<tr>
+<td>6</td>
+<td><b>De extensie Adobe Experience Platform Edge Network installeren</b> in de eigenschap mobile tag en configureer de datastream in de extensie.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Adobe Experience Platform Edge Network</a>
+</tr>
+
+<tr>
+<td>7</td>
+<td><b>Code in uw app gebruiken</b> om de benodigde extensies te registreren en de tagconfiguratie te laden.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Configuratie instellen</a></td>
+</tr>
+
+<tr>
+<td>8</td>
+<td><b>Functies implementeren en testen</b> met een combinatie van de gegevenselementen, regels, extra extensies en API-aanroepen van de tag in uw app. Inspect, validate, en foutopsporing gegevensverzameling en ervaringen voor uw mobiele toepassing.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">De voorbeeldtoepassing gebruiken</a>
+</tr>
+
+<tr>
+<td>9</td>
+<td><b>De implementatie van uw mobiele app uitbreiden en valideren</b> voordat het naar de productie wordt verplaatst.</td>
+<td></td> 
+</tr>
+
+</table>
 
 
 ## Adobe Analytics-extensie.
@@ -30,7 +88,49 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 ![Adobe Analytics die de uitbreidingsworkflow voor Analytics gebruikt](../../assets/mobilesdk-analytics-annotated.png)
 
-|<div style="width:20px"></div> | Taak | Meer informatie | |-| —|| | 1 | Zorg ervoor dat u beschikt over **een rapportsuite gedefinieerd**. | [Report Suite Manager](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Een mobiele eigenschap maken**. Een eigenschap is een container die u vult met extensies, regels, gegevenselementen en bibliotheken. | [Een mobiele eigenschap instellen](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) | | 3 | **De Adobe Analytics-extensie installeren** in de eigenschap mobile tag en configureer de extensie zodanig dat deze naar uw rapportsuite verwijst. | [Adobe Analytics-extensie voor mobiele eigenschap](https://developer.adobe.com/client-sdks/documentation/adobe-analytics/) | | 4 | **Code in uw app gebruiken** om de benodigde extensies te registreren en de tagconfiguratie te laden. | [Configuratie instellen](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration) | | 5 | **Functies implementeren en testen** met een combinatie van de gegevenselementen, regels, extra extensies en API-aanroepen van de tag in uw app. Inspect, validate, en foutopsporing gegevensverzameling en ervaringen voor uw mobiele toepassing. | [De voorbeeldtoepassing gebruiken](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application) | | 6 | **De implementatie van uw mobiele app uitbreiden en valideren** voordat het naar de productie wordt verplaatst. | |
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>Taak</b></th><th style="width:35%"><b>Meer informatie</b></th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Zorg ervoor dat u <b>een rapportsuite gedefinieerd</b>.</td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Rapportsuitebeheer</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>Installatieschema's en gegevenssets</b>. Om gegevensinzameling voor gebruik over toepassingen te standaardiseren die hefboomwerking Adobe Experience Platform, heeft Adobe de open en openbaar gedocumenteerde norm, het Model van de Gegevens van de Ervaring (XDM) gecreeerd.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Overzicht van schema's</a> en <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en">Overzicht van de gebruikersinterface voor gegevensbestanden</a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b>De Adobe Analytics-extensie installeren</b> in de eigenschap mobile tag en configureer de extensie zodanig dat deze naar uw rapportsuite verwijst.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">Adobe Analytics-extensie voor mobiele eigenschap</a>
+</tr>
+
+<tr>
+<td>4</td>
+<td><b>Code in uw app gebruiken</b> om de benodigde extensies te registreren en de tagconfiguratie te laden.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Configuratie instellen</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>Functies implementeren en testen</b> met een combinatie van de gegevenselementen, regels, extra extensies en API-aanroepen van de tag in uw app. Inspect, validate, en foutopsporing gegevensverzameling en ervaringen voor uw mobiele toepassing.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">De voorbeeldtoepassing gebruiken</a>
+</tr>
+
+<tr>
+<td>6</td>
+<td><b>De implementatie van uw mobiele app uitbreiden en valideren</b> voordat het naar de productie wordt verplaatst.</td>
+<td></td> 
+</tr>
+
+</table>
 
 ## Aanvullende bronnen
 
