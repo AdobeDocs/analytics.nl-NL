@@ -2,7 +2,7 @@
 title: Adobe Analytics implementeren met AppMeasurement voor JavaScript
 description: Leer hoe u Adobe Analytics implementeert met JavaScript zonder een tagbeheersysteem.
 feature: Implementation Basics
-source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
+source-git-commit: 93e16a538d6dc05c9cbf0703664aa5320f45b731
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 7%
@@ -18,8 +18,9 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 ![Het uitvoeren van de Analysemogelijkheden van Adobe met het overzicht AppMeasurement](../assets/appmeasurement-annotated.png)
 
 <table>
+
 <tr>
-<td></td><td> <b>Taak</b></td><td><b>Meer informatie</b></td>
+<th style="width:5%"></th><th><b>Taak</b></th><th><b>Meer informatie</b></th>
 </tr>
 
 <tr>
