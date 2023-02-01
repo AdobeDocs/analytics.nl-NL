@@ -3,14 +3,14 @@ title: Analyses in de Adobe Admin Console
 description: Leer de Adobe Admin Console te gebruiken om analyseproducten en -gebruikers te beheren.
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 feature: Admin Tools
-source-git-commit: 087eb1efbd7f34492033e61685082f5830c004ce
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '116'
 ht-degree: 6%
 
 ---
 
-# Analyses in de Adobe Admin Console
+# Analyses in het Adobe Admin Console-overzicht
 
 Gebruik de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) om analyseproducten en -gebruikers te beheren. Adobe Admin Console bevindt zich op [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 

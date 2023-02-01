@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '634'
 ht-degree: 80%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 80%
 + [Analytics Admin-handleiding](home.md)
 + [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe-beheerconsole {#admin-console}
-   + [Analyses in de Adobe Admin Console](admin-console/home.md)
+   + [Overzicht](admin-console/home.md)
    + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
    + [Beheerdersrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-   + Toestemmingen {#permissions}
+   + Overzicht van analysehulpmiddelen {#permissions}
       + [Machtigingen voor Analytics in Admin Console](admin-console/permissions/summary-tables.md)
       + [Productprofielen voor Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Machtigingen voor productprofielen voor rapportsuite](admin-console/permissions/report-suite-tools.md)
@@ -156,7 +156,6 @@ ht-degree: 80%
       + [Co-branding](admin/company/co-branding-admin.md)
       + [Rapportsuites verbergen](admin/company/c-hide-report-suites.md)
       + [Security Manager](admin/company/security-manager.md)
-   + [Menu Vereenvoudigde rapporten](admin/t-simplified-menu.md)
    + [Videobeheer](admin/video-management.md)
    + Gebruik van server calls {#server-call-usage}
       + [Overzicht van het gebruik van server calls](admin/c-server-call-usage/overage-overview.md)

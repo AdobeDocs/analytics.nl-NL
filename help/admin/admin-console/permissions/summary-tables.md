@@ -3,14 +3,14 @@ title: Adobe Analytics-machtigingen - overzichtstabellen
 description: Tabellen waarin een overzicht wordt gegeven van de beschikbare Adobe Analytics-machtigingen in Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 4%
 
 ---
 
-# Adobe Analytics-machtigingen - overzichtstabellen
+# Machtigingen voor analyse in de Admin Console
 
 Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics in Adobe Admin Console, door logische groeperingen te identificeren.
 
