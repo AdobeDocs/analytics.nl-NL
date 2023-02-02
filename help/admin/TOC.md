@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 78%
@@ -134,6 +134,7 @@ ht-degree: 78%
             + [Spike plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Permanent verkeer](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Toepassingsbeheer](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [Mediabeheer](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Privacy-rapportage](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Realtimerapporten {#real-time-reports}
             + [Overzicht van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -150,7 +151,6 @@ ht-degree: 78%
       + [Voorkeurenbeheer](admin/company/preferences-manager.md)
       + [In behandeling zijnde handelingen](admin/company/pending-actions-admin.md)
       + [Toegangsniveaus voor functies](admin/company/feature-access-levels.md)
-   + [Videobeheer](admin/video-management.md)
    + Gebruik van server calls {#server-call-usage}
       + [Overzicht van het gebruik van server calls](admin/c-server-call-usage/overage-overview.md)
       + [Huidig gebruik van server calls weergeven](admin/c-server-call-usage/server-call-usage-dashboard.md)
