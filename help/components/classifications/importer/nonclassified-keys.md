@@ -3,9 +3,9 @@ description: Niet-geclassificeerde sleutels worden in classificatierapporten geg
 title: Niet-geclassificeerde codes
 feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '241'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ t_rename_classification_none.xml
 
  -->
 
-Stappen die beschrijven hoe u de naam kunt wijzigen van een niet-geclassificeerde sleutel die wordt weergegeven als *`none`* bij de rapportage.
+De naam wijzigen van een niet-geclassificeerde sleutel die wordt weergegeven als *`none`* bij de rapportage:
 
 1. Exporteer classificaties met de importer naar een lokaal bestand.
 1. Voeg een rij toe aan het bestand en typ `~none~` in de kolom Sleutel.

@@ -5,9 +5,9 @@ title: Dashboards en rapporten
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: dbccae5fdfd092da40e0786aa76238f1e6c1ccb9
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1683'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,6 @@ Zie [Dashboards beheren](/help/analyze/reports-analytics/dashboard-manage.md).
 
 ## Een dashboard maken {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
-Stappen die beschrijven hoe u een dashboard maakt.
 
 <!-- 
 
@@ -74,6 +73,8 @@ t_dashboard_add.xml
  -->
 
 Voordat u een rapport (als een rapport) aan een dashboard toevoegt, definieert u de indeling van het dashboard.
+
+Een dashboard maken:
 
 1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
 1. Klik op **[!UICONTROL Add Dashboard]**.
@@ -96,13 +97,15 @@ Voordat u een rapport (als een rapport) aan een dashboard toevoegt, definieert u
 
 ## Een rapport maken {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-Stappen die beschrijven hoe te om een rapportlet tot stand te brengen. Zodra u een rapport hebt gemaakt, kan het worden weergegeven in een dashboard.
+Nadat u een rapport hebt gemaakt, kunt u het weergeven in een dashboard.
 
 <!-- 
 
 t_dashboard_add_report.xml
 
  -->
+
+Een rapport maken:
 
 1. Voer een rapport uit.
 1. Klik op **[!UICONTROL Dashboard.]**
@@ -122,13 +125,15 @@ t_dashboard_add_report.xml
 
 ## Inhoud toevoegen aan een dashboard {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
-Stappen die beschrijven hoe u inhoud uit andere dashboards en gedeelde dashboards kunt toevoegen. U kunt ook inhoud toevoegen uit aangepaste en externe bronnen, zoals tekst en afbeeldingen.
+U kunt inhoud van andere dashboards en gedeelde dashboards toevoegen. U kunt ook inhoud toevoegen uit aangepaste en externe bronnen, zoals tekst en afbeeldingen.
 
 <!-- 
 
 t_dashboard_content.xml
 
  -->
+
+Inhoud toevoegen aan een dashboard:
 
 1. Open een dashboard en klik vervolgens op **[!UICONTROL Layout]**.
 1. Klikken **[!UICONTROL Add Content]** en sleep items naar het dashboard.
@@ -209,7 +214,7 @@ t_dashboard_edit.xml
 
 ## Een dashboard onder een merknaam plaatsen {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-Stappen die beschrijven hoe u een afbeelding uploadt voor weergave op een dashboard.
+Een afbeelding uploaden om in een dashboard weer te geven:
 
 <!-- 
 

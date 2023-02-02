@@ -5,9 +5,9 @@ uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -33,13 +33,13 @@ Beschrijvingen van de velden en opties in het dialoogvenster [!UICONTROL Add/Edi
 | [!UICONTROL Target Name] | Geef een doelnaam op, die wordt weergegeven op het tabblad [!UICONTROL Manage Targets] pagina. |
 | [!UICONTROL Apply To] | Hiermee kunt u het doel toepassen op de gehele site of op een geselecteerd kenmerk of een geselecteerde eVar. |
 | [!UICONTROL Select Item] | Hiermee geeft u het selectievormulier weer voor het geselecteerde kenmerk of de geselecteerde eVar, zodat u een [!UICONTROL Advanced] zoeken naar verwante items. Als u bijvoorbeeld de eVar selecteert [!UICONTROL Countries]In de lijst met objecten kunt u opgeven welk land. Als u de eVar selecteert [!UICONTROL Products]in de lijst met objecten kunt u opgeven welk product. Variabelen van aangepast inzicht worden ook in het menu weergegeven. Als u een variabele van het douaneinzicht opstelling hebt om de leeftijdswaaiers van de bezoeker te meten, dan toont de puntenlijst de waaiers van de leeftijd, zoals 18-24, 25-35, etc. |
-| [!UICONTROL Metric] | Hiermee kunt u het doel toepassen op een metrische waarde. In dit menu worden alleen die maatstaven weergegeven die van toepassing zijn op een bepaalde eVar. Als u bijvoorbeeld [!UICONTROL Products] als de eVar, metrisch zoals [!UICONTROL Page Exits] niet van toepassing. De [!UICONTROL Page Exits] De metrische waarde kan worden toegepast op een eVar van een webpagina. |
+| [!UICONTROL Metric] | Hiermee kunt u het doel toepassen op een metrische waarde. In dit menu worden alleen die maatstaven weergegeven die van toepassing zijn op een bepaalde eVar. Als u bijvoorbeeld [!UICONTROL Products] als de eVar, metrisch zoals [!UICONTROL Page Exits] niet van toepassing. De [!UICONTROL Page Exits] De metrische waarde kan op een Web-pagina eVar worden toegepast. |
 | [!UICONTROL Period] | Hiermee kunt u de [!UICONTROL Date Range] en [!UICONTROL Granularity] instellingen van het doel. Afhankelijk van de specificaties van het datumbereik zijn sommige opties voor granulariteit niet van toepassing. Typ bij het invoeren van waarden voor de metriek een waarde voor elke instelling voor granulariteit. Als het datumbereik bijvoorbeeld de maand februari is en de selectie van de granulariteit wekelijks is, typt u een waarde voor elke week van de maand februari. [!UICONTROL Target] de rapporten tonen voor elke granularity het plaatsen. |
 | [!UICONTROL Values] | Hier kunt u doelwaarden voor de tijdsperiode en de geselecteerde metrische waarde opgeven. Dit zijn de doelnummers die u wilt bereiken. Bijvoorbeeld, als het doel op opbrengst was gebaseerd, en u voor $10.000 van opbrengst voor een bepaalde maand richtte, zou u 10000 op het waardegebied voor de maand ingaan. |
 
 ## Voeg een [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71}
 
-Stappen die beschrijven hoe te om een doel toe te voegen.
+Een doel toevoegen:
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Targets]**.
 1. Op de [!UICONTROL Manage Targets] pagina, klikt u op **[!UICONTROL Add New...]**.

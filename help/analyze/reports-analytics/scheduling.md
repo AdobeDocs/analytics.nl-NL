@@ -6,9 +6,9 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1718'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Bovendien zijn er een aantal andere factoren die de vertraging nog kunnen vergro
 
 ## Een rapport verzenden {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
-Stappen die beschrijven om rapporten in een verscheidenheid van formaten te downloaden en te e-mailen, en een rapport voor levering te plannen.
+Om rapporten in een verscheidenheid van formaten te downloaden en te e-mailen en een rapport voor levering te plannen:
 
 1. Voer een rapport uit en klik op **[!UICONTROL More]** > **[!UICONTROL Send]**.
 1. Geef leveringsopties op:
@@ -78,7 +78,7 @@ Stappen die beschrijven om rapporten in een verscheidenheid van formaten te down
 
 ## Een rapport afdrukken {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
-Stappen die beschrijven hoe te om een rapport te drukken.
+Een rapport afdrukken:
 
 1. Voer een rapport uit.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Print]**.  ![](assets/print.png)
@@ -115,11 +115,11 @@ De [!UICONTROL Schedule Report Manager] toont de punten die een specifieke gebru
 
 ## Een rapportkoppeling delen {#task_9711DDE9E140451B8C914EC5513E21EC}
 
-Stappen die beschrijven hoe te om een rapport te delen door een rapportverbinding (URL) te produceren om naar een andere gebruiker te verzenden.
+U kunt een rapport delen door een rapportverbinding (URL) te produceren om naar een andere gebruiker te verzenden.
 
 Wanneer de ontvanger op de koppeling klikt, vraagt het systeem aanmeldingsgegevens aan (bedrijfsnaam, gebruikersnaam en wachtwoord). Na het programma openen, wordt de ontvanger getoond het rapport dat door de originele gebruiker wordt geproduceerd. Standaardmachtigingsbeperkingen zijn van toepassing.
 
-Een rapportkoppeling delen
+Een rapportkoppeling delen:
 
 1. Voer een rapport uit.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.

@@ -3,16 +3,16 @@ description: Stappen die beschrijven hoe indelingsgegevens in het classificatieb
 title: Classificatiedata omzeilen
 feature: Classifications
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '92'
 ht-degree: 8%
 
 ---
 
 # Classificatiedata omzeilen
 
-Stappen die beschrijven hoe indelingsgegevens in het classificatiebestand kunnen worden verwijderd.
+Classificatiegegevens verwijderen uit het classificatiebestand:
 
 <!--Meike, please check this page against orginal. It might be missing information. -->
 

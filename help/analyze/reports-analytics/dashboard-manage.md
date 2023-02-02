@@ -6,9 +6,9 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL
 
 ## Gedeelde dashboards beheren
 
-Stappen die beschrijven hoe de gedeelde opties voor dashboardbeheer worden gebruikt.
+Gedeelde dashboards beheren:
 
 1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]**.
 1. Onder [!UICONTROL Shared Dashboards]Zoek het gedeelde dashboard (of het oudere dashboard) dat u wilt beheren en kies een of meer van de volgende opties:
@@ -92,7 +92,9 @@ Wanneer u het verouderde dashboard kopieert, opent het systeem het verouderde da
 
 ## Een dashboard delen
 
-Stappen die beschrijven hoe een beheerder een dashboard aan meerdere gebruikers kan delen (of duwen). Wanneer u dashboards aan gebruikers duwt, worden de dashboards beschikbaar in gebruiker [!UICONTROL Shared Dashboards] -menu.
+Analysebeheerders kunnen een dashboard delen (of naar meerdere gebruikers duwen). Wanneer u dashboards aan gebruikers duwt, worden de dashboards beschikbaar in gebruiker [!UICONTROL Shared Dashboards] -menu.
+
+Een dashboard delen met meerdere gebruikers:
 
 1. In de [!UICONTROL Dashboard Manager], zoek het dashboard en schakel vervolgens de optie in **[!UICONTROL Shared]**.
 1. Klik op **[!UICONTROL Push To Users]**.  ![](assets/push.png)
@@ -110,18 +112,3 @@ In de [!UICONTROL Dashboard Manager], kunt u zien of een dashboard voor levering
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Send]**.
 
    Zie [Planning en distributie](/help/analyze/reports-analytics/scheduling.md) voor meer informatie .
-
-## Een dashboard archiveren
-
->[!NOTE]
->
->Deze functionaliteit is niet meer beschikbaar in januari 2020.
-
-Stappen die beschrijven hoe een verzonden dashboard als een PDF-bestand moet worden gearchiveerd. Het systeem slaat het gearchiveerde dossier twee jaar op, of tot u een maximumgrens van 4 GB van gearchiveerde rapporten bereikt, welke eerst komt.
-
-1. Open een dashboard.
-1. Klik op **[!UICONTROL More]** > **[!UICONTROL Send]**.
-1. In de [!UICONTROL Email Report] groep, inschakelen **[!UICONTROL Archive]**.
-1. Geef leveringsopties op en klik vervolgens op **[!UICONTROL Send]**.
-
-   U kunt gearchiveerde dashboards in de Manager van het Dashboard bekijken. U kunt ook een dashboard openen en op **[!UICONTROL More]** > **[!UICONTROL View Archive]**.

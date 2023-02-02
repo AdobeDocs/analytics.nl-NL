@@ -5,16 +5,16 @@ uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '121'
 ht-degree: 6%
 
 ---
 
 # Report Builder installeren
 
-Stappen die beschrijven hoe u Report Builder kunt installeren.
+Report Builder installeren:
 
 1. Klik op **[!UICONTROL Adobe Experience Cloud]** > **[!UICONTROL Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Report Builder]**.
 1. Klikken **[!UICONTROL Download Now]** om de 32-bits of 64-bits versie te downloaden (afhankelijk van de geïnstalleerde MS Excel-versie).

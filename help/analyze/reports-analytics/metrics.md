@@ -4,9 +4,9 @@ title: Overzicht van metrische rapporten en analyses
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Voor een volledige lijst van metriek, zie [Overzicht van statistieken](/help/com
 
 ## Standaardrapportmetriek selecteren
 
-Stappen die beschrijven hoe te om standaardmetriek op het rapportniveau te selecteren.
+Om standaardmetriek op het rapportniveau te selecteren:
 
 <!-- 
 

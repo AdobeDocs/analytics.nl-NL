@@ -4,7 +4,7 @@ title: Overzicht van onderdelen
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 356df9e96e3b15ccb74e641e04d6a6fc26e6db62
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 4%
@@ -66,7 +66,7 @@ U kunt componenten (afzonderlijk of door meer dan één te selecteren) direct in
 
 ![](assets/component-actions.png)
 
-| Component Handeling | Beschrijving |
+| Component, actie | Beschrijving |
 |--- |--- |
 | Tag | U kunt componenten ordenen of beheren door er tags op toe te passen. U kunt vervolgens zoeken op tag in de linkertrack door op het filter te klikken of # te typen. Tags fungeren ook als filters in de componentmanagers. |
 | Favorieten | Voeg de component toe aan de lijst met favorieten. Net als tags kunt u zoeken op Favorieten in het linkerspoor en deze filteren in de componentmanagers. |

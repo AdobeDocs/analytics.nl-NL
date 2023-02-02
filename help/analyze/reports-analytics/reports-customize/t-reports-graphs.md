@@ -5,9 +5,9 @@ uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 {{ra-eol}}
 
-Stappen die beschrijven hoe te om de grafiek aan te passen zodat het voor het voorgenomen publiek het nuttigst is.
+U kunt de grafiek zodanig aanpassen dat deze het meest geschikt is voor het beoogde publiek.
 
 Het type grafieken dat beschikbaar is, is afhankelijk van het type rapport dat u uitvoert. Tendellijngrafieken zijn bijvoorbeeld handig voor trendrapporten, maar u kunt ook een verticale staafgrafiek gebruiken met trendlijnen die trends over dagen, weken, maanden, enzovoort duidelijk illustreren. U kunt ook een schijfdiagram kiezen om percentages voor de weergegeven pagina&#39;s weer te geven.
 
-**Een rapportgrafiek wijzigen**
+Een rapportgrafiek wijzigen:
 
 1. Voer een rapport uit.
 1. Klik op **[!UICONTROL Configure Graph]**.

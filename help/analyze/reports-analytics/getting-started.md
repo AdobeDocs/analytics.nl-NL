@@ -4,9 +4,9 @@ title: Aan de slag met Reports and Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 Voordat u Rapporten en Analyses gebruikt, moet u deze basisaanmeldings- en instellingstaken begrijpen, en weten hoe u toegang hebt tot accountgegevens.
 
 >[!IMPORTANT]
->Effectief **31 december 2023**, is Adobe voornemens de rapporten en analyses en de bijbehorende rapporten en functies te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en de onderliggende technologie die de rapporten &amp; Analytics van de macht niet meer aan de technologienormen van Adobe voldoen. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
+>Effectief **31 december 2023**, is Adobe voornemens de rapporten en analyses en de bijbehorende rapporten en functies te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en onderliggende technologie die de macht meldt &amp; Analytics niet meer aan de normen van de Adobe voldoet. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 
 Rapportering biedt inzicht in uw traditionele webkanalen en in evoluerende kanalen zoals mobiele netwerken, video en sociale netwerken. Voorbeelden van rapporten zijn:
 
@@ -44,7 +44,7 @@ Voordat u de interface opent, werkt u samen met uw accountmanager of de klantens
 
 ## Aanmelden met de Experience Cloud
 
-Stappen die beschrijven hoe u zich via de Adobe Experience Cloud aanmeldt.
+Aanmelden via de Adobe Experience Cloud:
 
 1. Start een browser op een computer met toegang tot internet.
 1. Ga naar [!DNL https://login.experiencecloud.adobe.com/].
@@ -62,7 +62,7 @@ Stappen die beschrijven hoe u zich via de Adobe Experience Cloud aanmeldt.
 
 ## Een rapport uitvoeren
 
-Stappen die beschrijven hoe te om een rapport te produceren.
+Een rapport genereren:
 
 1. Aanmelden bij [!UICONTROL Reports & Analytics].
 
@@ -93,7 +93,9 @@ Alle gebruikers hebben toegang tot de [!UICONTROL Account Information] pagina. D
 
 ## De interfacetaal wijzigen
 
-Stappen die beschrijven hoe te om de interfacetaal te veranderen. U kunt de Reports and Analytics-interface weergeven in de taal van uw keuze.
+U kunt de interfacetaal veranderen. U kunt de Reports and Analytics-interface weergeven in de taal van uw keuze.
+
+De interfacetaal wijzigen:
 
 1. Meld u aan bij Analytics en selecteer de optie **[!UICONTROL Reports]** tab.
 1. Klik in de voettekst van de pagina op de actieve taal in het dialoogvenster **[!UICONTROL Language]** en selecteert u de gewenste taal.

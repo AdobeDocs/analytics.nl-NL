@@ -4,16 +4,16 @@ subtopic: Processing rules
 title: Verwerkingsregels kopiëren naar een andere rapportsuite
 feature: Processing Rules
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 21%
+source-wordcount: '89'
+ht-degree: 22%
 
 ---
 
 # Verwerkingsregels kopiëren naar een andere rapportsuite
 
-Stappen die beschrijven hoe te om verwerkingsregels van één rapportreeks te kopiëren en deze regels te vervangen of aan een andere rapportreeks toe te voegen.
+Om verwerkingsregels van één rapportreeks te kopiëren en deze regels te vervangen of aan een andere rapportreeks toe te voegen:
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Een rapportsuite selecteren.

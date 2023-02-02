@@ -4,9 +4,9 @@ description: Analysis Workspace is het belangrijkste instrument voor analyse van
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ In uw project van de Werkruimte, **deelvensters, tabellen, visualisaties en comp
 
 ### Visualisaties
 
-**Visualisaties**, zoals een staafdiagram of een lijndiagram, worden vervolgens boven op de gegevens toegevoegd om deze visueel tot leven te brengen. Selecteer het middelste spoor helemaal links **[!UICONTROL Visualizations]** pictogram om de volledige lijst van [visualisatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) beschikbaar.
+**Visualisaties**, zoals een staaf of lijndiagram, kan worden gebruikt om gegevens visueel tot leven te brengen. Selecteer het middelste spoor helemaal links **[!UICONTROL Visualizations]** pictogram om de volledige lijst van [visualisatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) beschikbaar.
 
 ![](assets/build-visualizations.png)
 

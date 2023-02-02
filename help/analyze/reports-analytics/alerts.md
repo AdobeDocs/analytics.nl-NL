@@ -6,9 +6,9 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '831'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Ga voor meer informatie naar de Analysis Workspace documentatie op [Intelligente
 
 ## Een waarschuwing toevoegen {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
-Stappen die beschrijven hoe u een waarschuwing in Adobe Analytics kunt toevoegen.
+U kunt een alarm in Adobe Analytics of van de Waakzame Bouwer of van een specifiek rapport toevoegen.
 
 <!-- 
 
@@ -40,7 +40,11 @@ t_add_an_alert.xml
 
  -->
 
-Navigeer naar de nieuwe waarschuwingsfunctie in het dialoogvenster **[!UICONTROL Analytics]** > **[!UICONTROL Components]** -menu. U kunt het echter wel openen vanuit rapporten en analyses:
+### Een waarschuwing toevoegen vanuit de waarschuwingsfunctie
+
+1. Selecteren **[!UICONTROL Analytics]** > **[!UICONTROL Components]** om de waarschuwingsBuilder te openen.
+
+### Een waarschuwing toevoegen uit een afzonderlijk rapport
 
 1. Open in Rapporten en Analytics het rapport waarin u een waarschuwing wilt instellen.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
@@ -48,7 +52,7 @@ Navigeer naar de nieuwe waarschuwingsfunctie in het dialoogvenster **[!UICONTROL
 
 ## Bestaande waarschuwingen weergeven of bewerken {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
-Taakcontext
+<!-- add Task Context-->
 
 1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Hiermee gaat u naar het nieuwe [Waarschuwingsbeheer](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
 

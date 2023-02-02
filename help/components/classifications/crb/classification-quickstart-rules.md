@@ -3,9 +3,9 @@ description: De classificatieregels kijken regelmatig naar niet-geclassificeerde
 title: Classificatieregels
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1954'
 ht-degree: 1%
 
 ---
@@ -145,7 +145,7 @@ In de [!UICONTROL Rule Builder]Configureer de regel als volgt:
 
 | Regeltype selecteren | Overeenkomstcriteria invoeren | Classificatie instellen | Naar |
 |---|---|---|---|
-| Gewone uitdrukking | &amp;Hoed;(.+)\:(.+)\:(.+)$ | Campagnedatum | $ 3 |
+| Gewone uitdrukking | &amp;Hoed;(.+)\:(.+)\:(.+)$ | Campagnedatum | $3 |
 
 **Syntaxis**
 
@@ -304,13 +304,13 @@ t_classification_rule.xml
 
  -->
 
-Stappen die beschrijven hoe te om een classificatieregel toe te voegen of uit te geven.
-
 Voeg regels toe door een voorwaarde aan een classificatie aan te passen, en de actie te specificeren.
 
 >[!NOTE]
 >
 >In deze procedure, moet u de regels op één of meerdere rapportsuites toepassen. Het aanbevolen aantal regels per regel ligt tussen 500 en 1000, hoewel er geen limieten zijn. Als u meer dan 100 regels hebt, kunt u de regel vereenvoudigen door [subclassificaties](/help/components/classifications/c-sub-classifications.md).
+
+Een classificatieregel toevoegen of bewerken:
 
 1. [Een set classificatieregel maken](/help/components/classifications/crb/classification-rule-set.md) .
 1. Klik op de pagina met regelsets op **[!UICONTROL Add Rule]**.
@@ -363,7 +363,9 @@ t_classifications_test_rule.xml
 
  -->
 
-Stappen die beschrijven hoe een classificatieregel of regelset moet worden getest. Als u een test uitvoert, worden alle regels in een set gecontroleerd.
+U kunt een classificatieregel of een regelset testen. Als u een test uitvoert, worden alle regels in een set gecontroleerd.
+
+Een set classificatieregel testen:
 
 1. [Een set classificatieregel maken](/help/components/classifications/crb/classification-rule-set.md) .
 1. Op de [!UICONTROL Classification Rule Builder]klikt u op de naam van de regelset.
@@ -395,7 +397,7 @@ t_validate_rules.xml
 
  -->
 
-Stappen die beschrijven hoe classificatieregels moeten worden gevalideerd en geactiveerd.
+Classificatieregels valideren en activeren:
 
 1. [Een set classificatieregel maken](/help/components/classifications/crb/classification-rule-set.md) vervolgens [classificatieregels toevoegen](/help/components/classifications/crb/classification-quickstart-rules.md) naar de set.
 1. Klik in de regeleditor op **[!UICONTROL Activate]**.

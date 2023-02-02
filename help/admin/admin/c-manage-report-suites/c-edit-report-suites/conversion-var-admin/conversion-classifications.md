@@ -3,9 +3,9 @@ description: Classificaties worden gebruikt om waarden in groepen te categoriser
 title: Conversieclassificaties
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '514'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ Nadat u classificaties hebt ingeschakeld, gebruikt u de opdracht [Classificatiei
 
 ## Conversieclassificaties toevoegen
 
-Stappen die beschrijven hoe u conversieclassificaties in Admin kunt toevoegen.
+Conversieclassificaties toevoegen in Admin:
 
 1. Klik op **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Een rapportsuite selecteren.

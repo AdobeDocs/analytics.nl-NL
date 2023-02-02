@@ -5,9 +5,9 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '632'
 ht-degree: 1%
 
 ---
@@ -141,7 +141,7 @@ Met Geavanceerd kunt u jokertekens en andere complexe zoekopdrachten uitvoeren.
 
 ## Rapportspecifieke filters maken {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-Stappen die beschrijven hoe te om filters voor rapporten tot stand te brengen.
+U kunt filters maken voor rapporten.
 
 <!-- 
 
@@ -153,7 +153,7 @@ Bepaalde rapporten bevatten een filter dat specifiek is voor dat rapport. Bijvoo
 
 Wanneer u tot deze filters toegang hebt, kunt u rapportmetriek voor de punten zien die in de lijst worden gespecificeerd.
 
-**Rapportspecifieke filters maken**
+Rapportspecifieke filters maken:
 
 1. Genereer een rapport, zoals een [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
 1. Klik in de rapportkoptekst op de knop **[!UICONTROL Filter]** koppeling.
@@ -162,8 +162,6 @@ Wanneer u tot deze filters toegang hebt, kunt u rapportmetriek voor de punten zi
 1. Klik op **[!UICONTROL OK]**.
 
 ## Een correlatiefilter toevoegen {#task_065042E384DA4BF3864C58AF2B88D6E2}
-
-Stappen die beschrijven hoe u een correlatiefilter kunt toevoegen.
 
 <!-- 
 
@@ -175,7 +173,7 @@ In bepaalde rapporten kunt u aangepaste correlatiefilters toevoegen. Als u bijvo
 
 U kunt de gegevens in een correlatierapport filteren met behulp van elke beschikbare correlatie. In het volgende voorbeeld ziet u hoe u een correlatiefilter voor zoekprogramma&#39;s toevoegt.
 
-**Een correlatiefilter toevoegen**
+Een correlatiefilter toevoegen:
 
 1. Voer een rapport uit dat correlaties ondersteunt. (Zie [Een uitsplitsingsrapport uitvoeren](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. Klik in de rapportkoptekst op de knop **[!UICONTROL Correlation Filter]** koppeling.

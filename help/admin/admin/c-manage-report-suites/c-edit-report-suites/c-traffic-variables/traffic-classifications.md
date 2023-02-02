@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Traffic-classificaties
 feature: Admin Tools
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '166'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ t_classification_add_traffic.xml
 
  -->
 
-Stappen die beschrijven hoe te om classificaties voor de geselecteerde rapportreeksen toe te voegen of uit te geven.
+Classificaties voor de geselecteerde rapportsuites toevoegen of bewerken:
 
 1. Klikken **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** in de koptekst van de Suite.
 1. Een rapportsuite selecteren.

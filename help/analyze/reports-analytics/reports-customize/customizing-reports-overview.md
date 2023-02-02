@@ -5,9 +5,9 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '846'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Nadat u een rapport hebt uitgevoerd, kunt u het rapport aanpassen om de gegevens
 
 ## Een aangepast rapport maken {#task_BA6EACA3039C40AEA5605E1D8C76E646}
 
-Stappen die beschrijven hoe te om de huidige configuratie van een rapport als nieuw douanerapport voor alle gebruikers te bewaren om te zien.
+U kunt de huidige configuratie van een rapport als nieuw douanerapport voor alle gebruikers opslaan om te zien.
 
 <!-- 
 
@@ -30,7 +30,7 @@ t_reports_custom.xml
 
 Alleen beheerders kunnen een aangepast rapport maken. Wanneer u een douanerapport creeert, wordt het toegevoegd aan het belangrijkste rapporteringsmenu naast het rapport waarop het is gebaseerd.
 
-**Een aangepast rapport maken**
+Een aangepast rapport maken:
 
 1. Stel een rapport in werking en vorm het zonodig.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Create Custom Report]**.
@@ -45,7 +45,7 @@ Alleen beheerders kunnen een aangepast rapport maken. Wanneer u een douanerappor
 
 ## Selecteer een datum of een datumbereik {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
-De stappen die heet beschrijven om te gebruiken kiezen de tijdsperioden voor uw rapportgegevens.
+U kunt de tijdsperiodes voor uw rapportgegevens kiezen.
 
 <!-- 
 
@@ -57,7 +57,7 @@ U kunt specifieke dagen, weken, maanden of jaren selecteren. U kunt ook vergelij
 
 Wanneer u een dashboard opent met rapporten met verschillende datumbereiken, kunt u een nieuw datumbereik kiezen in de kalender. De wijzigingen gelden voor alle rapporten in het dashboard.
 
-**Een datumbereik selecteren**
+Een datumbereik selecteren:
 
 1. Voer een rapport uit.
 1. Klik op het kalenderpictogram rechtsboven.
@@ -76,7 +76,7 @@ Wanneer u een dashboard opent met rapporten met verschillende datumbereiken, kun
 
 ## Datums vergelijken {#task_95155C3700774B709F5FB81AE96B0824}
 
-Stappen die beschrijven hoe u de kalender kunt gebruiken om datumvergelijkingen tussen gerangschikte rapporten in werking te stellen.
+U kunt de kalender gebruiken om datumvergelijkingen tussen gerangschikte rapporten uit te voeren.
 
 <!-- 
 
@@ -100,7 +100,7 @@ Datums vergelijken tussen gerangschikte rapporten in rapporten en analyses:
 
 ## Een percentage weergeven als grafiek {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
-Stappen die beschrijven hoe te om of te specificeren om het percentage in een rapportlijst als grafiek te tonen.
+U kunt specificeren of om het percentage in een rapportlijst als grafiek te tonen.
 
 <!-- 
 
@@ -110,12 +110,12 @@ t_reports_graph_percent.xml
 
 Deze visualisatie is ook beschikbaar in dashboardrapporten.
 
+Het percentage weergeven als een grafiek in een rapporttabel:
+
 1. Voer een rapport uit dat percentages ondersteunt, zoals een [!UICONTROL Pages Report].
 1. Klik op **[!UICONTROL Percent Shown As: Graph]**.
 
 ## Rapportgegevens normaliseren {#task_8005B55E59BD479DA67BC618FF8BC94A}
-
-Stappen die beschrijven hoe te om rapportgegevens te normaliseren.
 
 <!-- 
 
@@ -125,7 +125,7 @@ t_reports_normalize.xml
 
 Nadat u een rapport met vergeleken data in werking stelt, of voor vergelijkingen A/B, kunt u de gegevens normaliseren om het percentage van verandering tussen de rapporten te tonen. De secundaire gegevensset wordt aangepast om verschillen in het aantal geselecteerde dagen of voor verschillende verkeersvolumes te compenseren.
 
-**Om rapportgegevens te normaliseren**
+Om rapportgegevens te normaliseren:
 
 1. Voer een rapport uit dat datumvergelijkingen ondersteunt.
 1. Klikken **[!UICONTROL Compare Dates]** en geef vervolgens uw vergelijkingsdatum op.
@@ -134,7 +134,7 @@ Nadat u een rapport met vergeleken data in werking stelt, of voor vergelijkingen
 
 ## Selecteer een pagina voor een rapport {#task_5CAC3B76BD4C4208B8D53DD972D4771F}
 
-Stappen die beschrijven hoe te om een specifieke pagina van de pagina&#39;s van uw website voor een rapport te selecteren.
+Als u een specifieke pagina op de pagina&#39;s van uw website voor een rapport wilt selecteren:
 
 <!-- 
 
@@ -150,7 +150,7 @@ t_reports_select_page.xml
 
 ## Rapportsuites vergelijken {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
-Stappen die beschrijven hoe te om rapporten van twee rapportreeksen in het zelfde rapport te tonen.
+U kunt rapporten van twee rapportreeksen in het zelfde rapport tonen.
 
 <!-- 
 
@@ -172,7 +172,7 @@ Naast de grafische vertoning, geeft de lijst van het rapport u een percentagever
 * Target
 * Enquête
 
-**Rapportsuites vergelijken**
+Rapportsuites vergelijken:
 
 1. Genereer een rapport waarmee u rapporten kunt vergelijken.
 1. Klik op de knop **[!UICONTROL Compare to Site]** koppeling.
@@ -181,7 +181,7 @@ Naast de grafische vertoning, geeft de lijst van het rapport u een percentagever
 
 ## Geef de granulariteit van het rapport op {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
-Stappen die beschrijven hoe de totalen van rapporten per uur, dag, week, maand, driemaandelijks, of jaarlijks worden weergegeven.
+U kunt de totalen van rapporten weergeven op uurbasis, dagelijks, wekelijks, maandelijks, driemaandelijks of jaarlijks basis.
 
 <!-- 
 
@@ -191,14 +191,14 @@ t_reports_granularity.xml
 
 De tijdsperiode van het rapport bepaalt welke granulariteitsopties beschikbaar zijn. U kunt bijvoorbeeld alleen **[!UICONTROL Hourly]** als u een tijdkader van één of twee dagen hebt geselecteerd. U kunt alleen **[!UICONTROL Yearly]** korreligheid als u meer dan een jaar hebt geselecteerd.
 
-**Rapportgranulariteit opgeven**
+Rapportgranulariteit opgeven:
 
 1. Genereer een trendrapport, zoals **[!UICONTROL Site Content]** > **[!UICONTROL Pages.]**
 1. Klik op de knop **[!UICONTROL View by]** en klikt u op een granulariteit.
 
 ## Een dagrapport uitvoeren {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
-Stappen die beschrijven hoe rapporten op een specifieke dag van de week, zoals over elke Maandag in een bepaalde datumwaaier in werking te stellen.
+U kunt rapporten op een specifieke dag van de week, zoals over elke Maandag in een bepaalde datumwaaier in werking stellen.
 
 <!-- 
 
@@ -207,6 +207,8 @@ t_reports_day_of_week.xml
  -->
 
 Deze functie is alleen van toepassing op gefilterde rapporten met een datumbereik van week of dag.
+
+Een dagrapport uitvoeren:
 
 1. Voer een trended-rapport uit over een opgegeven datumbereik.
 1. Klik op de knop **[!UICONTROL Day of Week]** Klik op een dag.
