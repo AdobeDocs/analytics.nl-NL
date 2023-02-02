@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
+source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 78%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 78%
    + [Standaardcijfers](admin/default-metrics.md)
    + [Uitsluiten op IP-adres](admin/exclude-ip.md)
    + [Logboeken](admin/logs.md)
-   + [Voorkeurenbeheer](admin/preferences-manager.md)
    + [Privacy-rapportage](admin/privacy-reporting.md)
    + [Activity Manager rapporteren](admin/reporting-activity.md)
    + [Wachtrij voor geplande rapporten](admin/scheduled-reports-admin.md)
@@ -136,7 +135,6 @@ ht-degree: 78%
             + [Overzicht](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Spike plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Permanent verkeer](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-         + [Instellingen voor afzonderlijke rapportsuites](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [Toepassingsbeheer](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + Realtimerapporten {#real-time-reports}
             + [Overzicht van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -144,14 +142,15 @@ ht-degree: 78%
             + [Ondersteunde cijfers en en dimensies in real time](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + Bedrijfsinstellingen {#company-settings}
       + [Overzicht van bedrijfsinstellingen](admin/company/c-company-settings.md)
-      + [Toegangsniveaus voor functies](admin/company/feature-access-levels.md)
+      + [Security Manager](admin/company/security-manager.md)
       + [Webservices](admin/company/web-services-admin.md)
       + [Report Builder-rapporten](admin/company/report-builder-reports-admin.md)
       + [Eenmalige aanmelding](admin/company/single-signon-admin.md)
-      + [In behandeling zijnde handelingen](admin/company/pending-actions-admin.md)
       + [Co-branding](admin/company/co-branding-admin.md)
       + [Rapportsuites verbergen](admin/company/c-hide-report-suites.md)
-      + [Security Manager](admin/company/security-manager.md)
+      + [Voorkeurenbeheer](admin/company/preferences-manager.md)
+      + [In behandeling zijnde handelingen](admin/company/pending-actions-admin.md)
+      + [Toegangsniveaus voor functies](admin/company/feature-access-levels.md)
    + [Videobeheer](admin/video-management.md)
    + Gebruik van server calls {#server-call-usage}
       + [Overzicht van het gebruik van server calls](admin/c-server-call-usage/overage-overview.md)
