@@ -2,9 +2,9 @@
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
+source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1247'
 ht-degree: 1%
 
 ---
@@ -13,27 +13,23 @@ ht-degree: 1%
 
 Clienttips zijn afzonderlijke informatie over het apparaat van een gebruiker. Deze worden geleverd door Chromium-browsers zoals Google Chrome en Microsoft Edge. Voor deze browsers, zullen de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie vervangen. Adobe Analytics zal zijn proces van de apparatenraadpleging bijwerken zodat het cliëntwenken naast gebruiker-Agent gebruikt om apparateninformatie te bepalen.
 
+## Tips voor client met lage entropie en hoge entropie
+
 Google verdeelt gebruikers-Agent-clienttips in twee categorieën: een lage entropie en hoge entropiehints.
 
 * **Hints met lage entropie** bevat meer generieke informatie over apparaten. Deze tips worden automatisch door Chromium-browsers geleverd.
 
 * **Hoge entropie** de wenken bevatten meer gedetailleerde informatie. Deze tips zijn alleen op aanvraag beschikbaar. Zowel kunnen AppMeasurement als Web SDK worden gevormd om high-entropy wenken te verzoeken. Beide bibliotheken doen dit standaard **niet** vragen om tips voor hoge entropie.
 
->[!NOTE]
->
->De wenken van de cliënt zullen in het proces van de het apparatenraadpleging van Analytics vanaf 16 februari 2023 worden opgenomen. Zowel steunen AppMeasurement als Web SDK momenteel inzameling van wendengegevens maar het zal niet in apparatenraadpleging tot medio februari worden gebruikt. Zoals hieronder vermeld, werd de versie van het besturingssysteem vanaf oktober bevroren, maar dit was toe te schrijven aan een geleidelijke implementatie en het feit dat veel Gebruikersagenten al een bevroren versie van het besturingssysteem leveren (zie meer [hier](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)), schatten wij dat dit &lt;3% van de bezoekers van Chrome zal beïnvloeden.
+Vanaf oktober 2022 zijn nieuwe versies van Chromium-browsers begonnen met het &#39;bevriezen&#39; van de versie van het besturingssysteem die wordt weergegeven in de tekenreeks User-Agent. De versie van het besturingssysteem is een hoge entropiegelfunctie. Om de nauwkeurigheid van de versie van het besturingssysteem in uw rapportage te behouden, is het nodig dat u de verzamelingsbibliotheek configureert om deze hoge entropietpunten te verzamelen. In de loop van de tijd zal andere apparateninformatie van gebruiker-Agent worden bevroren, die cliëntwenken vereist om apparaat te handhaven rapporteert nauwkeurigheid.
+
+De wenken van de cliënt zullen in het proces van de het apparatenraadpleging van Analytics vanaf 16 februari 2023 worden opgenomen. Zowel steunen AppMeasurement als Web SDK momenteel inzameling van wendengegevens maar het zal niet in apparatenraadpleging tot medio februari worden gebruikt. Zoals hieronder vermeld, werd de versie van het besturingssysteem vanaf oktober bevroren, maar dit was toe te schrijven aan een geleidelijke implementatie en het feit dat veel Gebruikersagenten al een bevroren versie van het besturingssysteem leveren (zie meer [hier](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)), schatten wij dat dit &lt;3% van de bezoekers van Chrome zal beïnvloeden.
 
 >[!NOTE]
 >
->Vanaf oktober 2022 zijn nieuwe versies van Chromium-browsers begonnen met het &#39;bevriezen&#39; van de versie van het besturingssysteem die wordt weergegeven in de tekenreeks User-Agent. De versie van het besturingssysteem is een hoge entropiegelfunctie. Om de nauwkeurigheid van de versie van het besturingssysteem in uw rapportage te behouden, is het nodig dat u de verzamelingsbibliotheek configureert om deze hoge entropietpunten te verzamelen. In de loop van de tijd zal andere apparateninformatie van gebruiker-Agent worden bevroren, die cliëntwenken vereist om apparaat te handhaven rapporteert nauwkeurigheid.
+> Vanaf januari 2023 worden sommige versies van Mac- en Windows-besturingssystemen onjuist weergegeven in de gebruikersagent, maar correct weergegeven in clienthints met hoge entropie. Zie [Besturingssysteem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) voor meer informatie .
 
->[!NOTE]
->
-> Vanaf januari 2023 worden sommige versies van Mac- en Windows-besturingssystemen onjuist weergegeven in de gebruikersagent, maar correct weergegeven in hoge entropy-clienthints. Zie [Besturingssysteem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) voor meer informatie .
-
->[!NOTE]
->
->AAM vereist dat er hoge entropiegels worden verzameld om de volledige functionaliteit te behouden. Als u [server-kant door:sturen aan AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) dan kunt u inzameling van hoge entropiewenken willen toelaten.
+AAM vereist dat hips met hoge entropiegels worden verzameld om de volledige functionaliteit te behouden. Als u [server-kant door:sturen aan AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) dan kunt u inzameling van high-entropy wenken willen toelaten.
 
 ## Veelgestelde vragen
 
