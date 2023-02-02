@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Hulplijn
 user-guide-description: Leer hoe u analysefuncties kunt gebruiken, zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 0d7ae5dea6597996039d5af5256be8b5b65b3bd3
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 76%
+source-wordcount: '1078'
+ht-degree: 78%
 
 ---
 
@@ -61,11 +61,6 @@ ht-degree: 76%
          + [Overzicht van kalender- en datumbereiken](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Aangepaste datumbereiken maken](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Datumvergelijking](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
-      + Gegevenswoordenboek {#data-dictionary}
-         + [Overzicht van gegevenswoordenboek](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [Componentinformatie weergeven in gegevenswoordenboek](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [Onderdeelitems in gegevenswoordenboek bewerken](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [Gezondheid gegevenswoordenboek controleren](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualisaties {#visualizations}
       + [Overzicht van visualisaties](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Databronnen beheren](analysis-workspace/visualizations/t-sync-visualization.md)

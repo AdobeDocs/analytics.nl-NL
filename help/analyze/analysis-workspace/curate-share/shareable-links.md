@@ -5,9 +5,9 @@ title: Deelbare koppelingen maken
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -32,14 +32,6 @@ U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoa
 [De video bekijken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) op hoe te om verbindingen tot stand te brengen en hen te gebruiken om ontvangers aan specifieke delen van uw project te drijven.
 
 ![](assets/get-viz-link.png)
-
-## Openbare koppeling ophalen
-
-{{release-limited-testing-section}}
-
-U kunt Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. Hieronder kunnen ook personen buiten uw organisatie of personen binnen uw organisatie vallen die niet zijn voorzien van Adobe Analytics.
-
-Zie voor meer informatie [Een openbare koppeling delen met iedereen (geen aanmelding vereist)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
 
 ## Koppelingen in een inhoudsopgave gebruiken {#TOC}
 
