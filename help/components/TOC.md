@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van componenten zoals Segmenten, Berekende metriek, Virtuele rapportsuite, Marketingkanalen en Classificaties. Meer informatie over de analyse van apparaten.
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '699'
 ht-degree: 49%
 
 ---
@@ -259,6 +259,7 @@ ht-degree: 49%
    + [Subclassificaties](classifications/c-sub-classifications.md)
    + [Veelgestelde vragen over classificaties](classifications/faq.md)
 + [Kalendergebeurtenissen](t-calendar-event.md)
++ [Wachtrij voor geplande rapporten](scheduled-reports-admin.md)
 + Realtimerapportage {#real-time-reporting}
    + [Overzicht van realtimerapportage](c-real-time-reporting/realtime.md)
    + [Realtimerapporten configureren](c-real-time-reporting/t-realtime-admin.md)

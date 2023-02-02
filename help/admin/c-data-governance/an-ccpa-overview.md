@@ -3,7 +3,7 @@ description: In dit document wordt beschreven wat u in Adobe Analytics moet doen
 title: Adobe Analytics en CCPA
 feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 98%
@@ -47,4 +47,4 @@ Zie [Rapportsuitedata labelen](/help/admin/c-data-governance/gdpr-setup-reportsu
    Adobe Analytics kan u niet helpen bij het verwerken van aanvragen bij de Privacy Services-API, dat wil zeggen, het verwerken van toegangs- of verwijderingsaanvragen die u van uw eindgebruikers ontvangt, als de dataretentieperiode niet is ingesteld in Adobe Analytics. Neem contact op met de Customer Success Manager om de periode voor dataretentie in te stellen.
 
 * Controleer uw toestemmingen: als u de Data Governance-beheerinterface van Adobe Analytics wilt gebruiken, moet u een Adobe Analytics-beheerder zijn.
-* Overweeg de implementatie van de [Variabelen voor toestemmingsbeheer](/help/admin/admin/privacy-reporting.md) om de consentstatus bij te houden op treffersniveau.
+* Overweeg de implementatie van de [Variabelen voor toestemmingsbeheer](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) om de consentstatus bij te houden op treffersniveau.

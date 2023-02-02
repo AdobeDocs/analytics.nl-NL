@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: User en Product Management
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: 4ed166bb05d8dfb32706008ad23c13f61908d1e9
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 6%
@@ -17,7 +17,7 @@ Gebruikers, groepen en producten van Analytics beheren in de Adobe Admin Console
 
 >[!IMPORTANT]
 >
->Gebruiker- en productbeheer is verplaatst naar de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Ga voor meer informatie over het beheren van gebruikersmachtigingen voor Adobe Analytics-gebruikers naar [Analyses in de Adobe Admin Console][/help/admin/admin-console/home.md].
+>Gebruiker- en productbeheer is verplaatst naar de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Ga voor meer informatie over het beheren van gebruikersmachtigingen voor Adobe Analytics-gebruikers naar [Analyses in de Adobe Admin Console](/help/admin/admin-console/home.md).
 
 ## Help-bronnen voor Adobe Admin Console-beheerders {#section_C13BBB89E4F248F193358BB3A59DD502}
 

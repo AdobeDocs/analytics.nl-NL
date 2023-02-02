@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 78%
 
 ---
@@ -42,9 +42,7 @@ ht-degree: 78%
    + [Standaardcijfers](admin/default-metrics.md)
    + [Uitsluiten op IP-adres](admin/exclude-ip.md)
    + [Logboeken](admin/logs.md)
-   + [Privacy-rapportage](admin/privacy-reporting.md)
    + [Activity Manager rapporteren](admin/reporting-activity.md)
-   + [Wachtrij voor geplande rapporten](admin/scheduled-reports-admin.md)
    + Report Suite Manager {#manage-report-suites}
       + [Rapportsuites beheren](admin/c-manage-report-suites/report-suites-admin.md)
       + [Samenvatting en global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
@@ -136,6 +134,7 @@ ht-degree: 78%
             + [Spike plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Permanent verkeer](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Toepassingsbeheer](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [Privacy-rapportage](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Realtimerapporten {#real-time-reports}
             + [Overzicht van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuratie van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
