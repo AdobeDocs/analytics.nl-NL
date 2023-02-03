@@ -5,7 +5,7 @@ feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
