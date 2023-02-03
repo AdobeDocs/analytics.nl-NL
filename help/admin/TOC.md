@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
+source-git-commit: 12fcf4cb07c4cb7497d6f21f3e5f82f7681a9677
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 78%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 78%
 # Adobe Analytics Admin Guide {#admin}
 
 + [Analytics Admin-handleiding](home.md)
-+ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Aanvullende informatie voor Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe-beheerconsole {#admin-console}
    + [Overzicht](admin-console/home.md)
    + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
@@ -39,7 +39,6 @@ ht-degree: 78%
    + [Code Manager](admin/code-manager-admin.md)
    + [Valutacodes](admin/currency.md)
    + [Databronnen](admin/data-sources.md)
-   + [Standaardcijfers](admin/default-metrics.md)
    + [Uitsluiten op IP-adres](admin/exclude-ip.md)
    + [Logboeken](admin/logs.md)
    + [Activity Manager rapporteren](admin/reporting-activity.md)
@@ -109,12 +108,12 @@ ht-degree: 78%
                + [Data- en codereferentie server-side doorsturen](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
                + [Implementatie van server-side doorsturen controleren](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [Veelgestelde vragen over server-side doorsturen](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
-         + Traffic variabelen {#traffic-variables}
+         + Verkeer {#traffic-variables}
             + [Overzicht traffic variabele (prop)](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [Rapporten voor traffic variabelen inschakelen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [Traffic-classificaties](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Aangepaste rapportbeschrijvingen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
-         + Conversievariabelen {#conversion-variables}
+         + Conversie {#conversion-variables}
             + [Conversievariabelen (eVars)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [Methoden zoeken](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [Conversieclassificaties](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
@@ -133,10 +132,11 @@ ht-degree: 78%
             + [Overzicht](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Spike plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Permanent verkeer](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+         + [Standaardwaarden](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [Toepassingsbeheer](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [Mediabeheer](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
-         + [Privacy-rapportage](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Realtimerapporten {#real-time-reports}
+         + [Privacyrapportage](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + Real-time {#real-time-reports}
             + [Overzicht van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuratie van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Ondersteunde cijfers en en dimensies in real time](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
