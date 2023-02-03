@@ -2,9 +2,9 @@
 title: Variabeletoewijzing analyseren in Adobe Experience Edge
 description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen aan analytische variabelen.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge 
 | `web.webInteraction.name` | De [Aangepaste koppeling](../../components/dimensions/custom-link.md), [Koppeling downloaden](../../components/dimensions/download-link.md), of [Koppeling afsluiten](../../components/dimensions/exit-link.md) dimensie, afhankelijk van de waarde in `web.webInteraction.type` |
 | `web.webInteraction.type` | Bepaalt het type van geklikte verbinding. Geldige waarden zijn `other` (Aangepaste koppelingen), `download` (Koppelingen downloaden) en `exit` (Koppelingen afsluiten). |
 | `web.webPageDetails.URL` | De [Pagina-URL](../../components/dimensions/page-url.md) dimensie. |
-| `web.webPageDetails.errorPage` | Markering die helpt de pagina&#39;s te bepalen die niet zijn gevonden [dimensie](../../components/dimensions/pages-not-found.md) en [metrisch](../../components/metrics/pages-not-found.md). |
+| `web.webPageDetails.isErrorPage` | Markering die helpt de pagina&#39;s te bepalen die niet zijn gevonden [dimensie](../../components/dimensions/pages-not-found.md) en [metrisch](../../components/metrics/pages-not-found.md). |
 | `web.webPageDetails.name` | De [Pagina](../../components/dimensions/page.md) dimensie. |
 | `web.webPageDetails.server` | De [Server](../../components/dimensions/server.md) dimensie. |
 | `web.webPageDetails.siteSection` | De [Sectie Site](../../components/dimensions/site-section.md) dimensie. |
