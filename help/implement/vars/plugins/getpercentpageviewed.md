@@ -3,7 +3,7 @@ title: getPercentPageViewed
 description: Haal het percentage op van de pagina die de bezoeker heeft weergegeven.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 2575db561c244a9b52f98355137e73f05b3b7ee4
+source-git-commit: bebd9e9e53c05d697adf52e5a2bdda3ca60796f2
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
@@ -69,8 +69,7 @@ Het aanroepen van deze functie retourneert niets; in plaats daarvan worden de vo
 * `window._ppvFinalPercentViewed`: Het percentage van de vorige pagina dat zichtbaar was op het punt dat de bezoeker naar de huidige pagina heeft verplaatst. Deze waarde is gelijk aan of groter dan het oorspronkelijk weergegeven percentage en is ook gelijk aan of kleiner dan de hoogst weergegeven percentagepagina.
 * `window._ppvHighestPixelsSeen`: Het hoogste aantal pixels in totaal dat wordt weergegeven (in de hoogte) wanneer de bezoeker de vorige pagina omlaag schuift.
 * `window._ppvFoldsAvailable`: Het aantal pagina&#39;s dat in totaal beschikbaar is om omlaag te schuiven op de vorige pagina. Als de hele pagina zichtbaar is wanneer deze voor het eerst wordt geladen, is deze waarde `1`.
-* 
-   * `window._ppvFoldsSeen`: Het hoogste aantal &#39;paginamappen&#39; dat wordt bereikt wanneer de bezoeker de vorige pagina omlaag schuift. Deze variabele bevat de vouwfactor &quot;top-of-page&quot;. Als de hele pagina zichtbaar is wanneer deze voor het eerst wordt geladen, is deze waarde `1`.
+* `window._ppvFoldsSeen`: Het hoogste aantal &#39;paginamappen&#39; dat wordt bereikt wanneer de bezoeker de vorige pagina omlaag schuift. Deze variabele bevat de vouwfactor &quot;top-of-page&quot;. Als de hele pagina zichtbaar is wanneer deze voor het eerst wordt geladen, is deze waarde `1`.
 
 Wijs één of meerdere van deze variabelen aan eVars toe om afmetingsgegevens in rapporten te zien.
 
