@@ -3,9 +3,9 @@ title: Aanbevolen procedures voor het implementeren van Adobe Analytics Marketin
 description: Bijgewerkte beste praktijken voor het gebruiken van de Kanalen van de Marketing met Attribution IQ en Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Om de implementatie van uw marketingkanalen in de toekomst te controleren en ervoor te zorgen dat er consistentie is met Attribution IQ en met Customer Journey Analytics, geven we een reeks bijgewerkte best practices uit. Als u al marketingkanalen gebruikt, kunt u de beste opties kiezen uit deze nieuwe richtlijnen. Als u niet bekend bent met Marketing Channels, raden we u aan alle nieuwe aanbevolen procedures te volgen.
 
-Toen de Kanalen van de Marketing voor het eerst werden geïntroduceerd, kwamen zij met slechts eerste-aanraak en last-aanraking dimensies. Expliciete eerste/laatste aanraakafmetingen zijn niet meer nodig met de huidige versie van de toewijzing. Adobe biedt algemene dimensies ‘Marketing Channel’ en ‘Marketing Channel Detail’, zodat u deze kunt gebruiken met het gewenste attributiemodel. Deze generische afmetingen gedragen zich identiek aan de laatste-aanraak afmetingen van het Kanaal, maar verschillend geëtiketteerd om verwarring te verhinderen wanneer het gebruiken van de Kanalen van de Marketing met een verschillend attributiemodel.
+Toen de Kanalen van de Marketing voor het eerst werden geïntroduceerd, kwamen zij met slechts eerste-aanraak en last-aanraking dimensies. Expliciete eerste/laatste aanraakafmetingen zijn niet meer nodig met de huidige versie van de toewijzing. Adobe biedt algemene &#39;Marketing Channel&#39;- en &#39;Marketing Channel Detail&#39;-afmetingen, zodat u deze kunt gebruiken met het gewenste attributiemodel. Deze generische afmetingen gedragen zich identiek aan de laatste-aanraak afmetingen van het Kanaal, maar verschillend geëtiketteerd om verwarring te verhinderen wanneer het gebruiken van de Kanalen van de Marketing met een verschillend attributiemodel.
 
 Aangezien de dimensies van het Kanaal van de Marketing van een traditionele definitie van het Bezoek (zoals die door hun verwerkingsregels wordt bepaald) afhangen, kan hun definitie van het Bezoek niet worden veranderd gebruikend Virtuele Reeksen van het Rapport. Deze herziene praktijken laten duidelijke en gecontroleerde raadplegingsvensters met Attribution IQ en met CJA toe.
 
@@ -34,7 +34,7 @@ We raden u aan [Attribution IQ](https://experienceleague.adobe.com/docs/analytic
 
 De directe en Interne kanalen/van het Sessievernieuwen worden niet geadviseerd voor gebruik met de modellen van de douaneattributie (Attribution IQ).
 
-Wat als uw organisatie reeds Directe en Zitting heeft gevormd verfrissen zich? In dit geval raden we u aan [een classificatie maken](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html) voor Eerste aanraking/Laatste aanraking en laat de kanalen van de Vernieuwingen van Direct en van de Zitting niet geclassificeerd. De geclassificeerde dimensie zal de zelfde Attribution IQ resultaten opleveren alsof die kanalen nooit werden gevormd.
+Wat als uw organisatie reeds Directe en Zitting heeft gevormd verfrissen zich? In dit geval raden we u aan [een classificatie maken](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) voor Eerste aanraking/Laatste aanraking en laat de kanalen van de Vernieuwingen van Direct en van de Zitting niet geclassificeerd. De geclassificeerde dimensie zal de zelfde Attribution IQ resultaten opleveren alsof die kanalen nooit werden gevormd.
 
 ![](assets/direct-session-refresh.png)
 

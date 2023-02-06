@@ -3,9 +3,9 @@ title: Eerste aanraakkanaaldetail
 description: Details voor het eerste marketingkanaal binnen de afloop van de betrokkenheid van de bezoeker.
 feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De dimensie &#39;First touch channel detail&#39; rapporteert details rond het ee
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie kopieert waarden van andere variabelen. De gebruikte variabele verwijst naar de kanaalwaarde binnen elke [Verwerkingsregel voor marketingkanalen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md). Wanneer een hit overeenkomt met een verwerkingsregel voor een marketingkanaal, wordt de instelling [Laatste aanraakkanaal](last-touch-channel.md) De dimensie wordt geplaatst aan de kanaalnaam, en deze afmeting wordt geplaatst aan de kanaalwaarde die in de regel wordt geplaatst.
+Deze dimensie kopieert waarden van andere variabelen. De gebruikte variabele verwijst naar de kanaalwaarde binnen elke [Verwerkingsregel voor marketingkanalen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md). Wanneer een hit overeenkomt met een verwerkingsregel voor een marketingkanaal, wordt de instelling [Laatste aanraakkanaal](last-touch-channel.md) De dimensie wordt geplaatst aan de kanaalnaam, en deze afmeting wordt geplaatst aan de kanaalwaarde die in de regel wordt geplaatst.
 
 Als u deze dimensie op een specifieke waarde wilt plaatsen, zijn de volgende stappen vereist:
 

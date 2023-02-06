@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
-user-guide-description: Beheer gegevens met behulp van componenten zoals Segmenten, Berekende metriek, Virtuele rapportsuite, Marketingkanalen en Classificaties. Meer informatie over de analyse van apparaten.
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
+source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 49%
+source-wordcount: '684'
+ht-degree: 51%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 49%
 # [!DNL Adobe Analytics] Components-handleiding {#components}
 
 + [Analytics Components-handleiding](home.md)
-+ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Aanvullende informatie voor Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensies {#dimensions}
    + [Overzicht van Dimension](dimensions/overview.md)
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
@@ -267,10 +267,6 @@ ht-degree: 49%
 + Marketingkanalen {#marketing-channels}
    + [Aan de slag met marketingkanalen](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution IQ met marketingkanalen](c-marketing-channels/mchannel-best-practices.md)
-   + [Marketingkanalen beheren](c-marketing-channels/c-channels.md)
-   + [Verwerkingsregels voor marketingkanalen](c-marketing-channels/c-rules.md)
-   + [Classificaties in marketingkanalen](c-marketing-channels/classifictions-mchannel.md)
-   + [Vervaldatum betrokkenheid bezoeker](c-marketing-channels/visitor-engagement.md)
    + [Marketingkanalen analyseren](c-marketing-channels/analyze-mc.md)
    + [Machtigingen voor marketingkanalen](c-marketing-channels/c-channel-report-access.md)
    + [Veelgestelde vragen en voorbeelden voor marketingkanalen](c-marketing-channels/c-faq.md)

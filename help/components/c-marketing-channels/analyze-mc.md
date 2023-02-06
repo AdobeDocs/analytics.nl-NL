@@ -3,9 +3,9 @@ title: Marketingkanalen analyseren
 description: Leer hoe u de dimensies Marketingkanalen in Workspace gebruikt.
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '416'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 1%
 >[!NOTE]
 >
 >Om de doeltreffendheid van de Marketing Kanalen voor Attribution IQ en Customer Journey Analytics te maximaliseren, hebben wij sommige gepubliceerd [herziene beste praktijken](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>
+>Analysebeheerders kunnen marketingkanalen voor hun organisaties beheren, zoals beschreven in [Marketingkanalen beheren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 U wilt waarschijnlijk weten welke van uw marketingkanalen het meest effectief is en met wie, zodat u uw inspanningen beter kunt richten en een beter rendement op uw marketingdollars kunt krijgen. In Adobe Analytics zijn de dimensies en maatstaven van de Kanalen van de Marketing in Workspace één van de hulpmiddelen die u kunnen helpen de invloed van verschillende kanalen op uw orden, opbrengst, enz. volgen. en geeft u nuttige kanaalinzichten. Hier zijn de afmetingen en de metriek u met betrekking tot de Kanalen van de Marketing kunt gebruiken:
 

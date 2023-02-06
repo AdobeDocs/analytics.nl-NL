@@ -3,7 +3,7 @@ title: Type referentie
 description: Het type referentie, afhankelijk van waar de bezoeker vandaan komt.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 1700ec727912f49c7aed12af74d18488daeb1e7e
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -35,7 +35,7 @@ De volgende lijst verwijst naar de &quot;Sociale netwerken&quot;raadplegingslijs
 
 >[!NOTE]
 >
->Deze lijst is anders dan de standaardlijst met sociale netwerken in [Verwerkingsregels voor distributiekanalen](../c-marketing-channels/c-rules.md).
+>Deze lijst is anders dan de standaardlijst met sociale netwerken in [Verwerkingsregels voor distributiekanalen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`

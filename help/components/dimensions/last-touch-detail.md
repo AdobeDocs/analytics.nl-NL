@@ -3,9 +3,9 @@ title: Laatste aanraakkanaaldetail
 description: Details voor het meest recente marketingkanaal binnen de afloop van de betrokkenheid van de bezoeker.
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-source-git-commit: ab0f0c80c13b9064b40511b59d03d9d899d20df1
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De dimensie &#39;Laatste aanraakkanaaldetails&#39; rapporteert gegevens over het
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie kopieert waarden van andere variabelen. De gebruikte variabele verwijst naar de kanaalwaarde binnen elke [Verwerkingsregel voor marketingkanalen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md). Wanneer een hit overeenkomt met een verwerkingsregel voor een marketingkanaal, wordt de instelling [Laatste aanraakkanaal](last-touch-channel.md) De dimensie wordt geplaatst aan de kanaalnaam, en deze afmeting wordt geplaatst aan de kanaalwaarde die in de regel wordt geplaatst.
+Deze dimensie kopieert waarden van andere variabelen. De gebruikte variabele verwijst naar de kanaalwaarde binnen elke [Verwerkingsregel voor marketingkanalen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md). Wanneer een hit overeenkomt met een verwerkingsregel voor een marketingkanaal, wordt de instelling [Laatste aanraakkanaal](last-touch-channel.md) De dimensie wordt geplaatst aan de kanaalnaam, en deze afmeting wordt geplaatst aan de kanaalwaarde die in de regel wordt geplaatst.
 
 Als u deze dimensie op een specifieke waarde wilt plaatsen, zijn de volgende stappen vereist:
 

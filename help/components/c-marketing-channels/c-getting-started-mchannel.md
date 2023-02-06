@@ -3,10 +3,10 @@ title: Aan de slag met marketingkanalen
 description: Leer over het werkschema van de Kanalen van de Marketing, de automatische opstelling, en hoe te om de montages van de reeks van het malplaatjerapport op veelvoudige rapportreeksen toe te passen.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 2%
+source-wordcount: '762'
+ht-degree: 1%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >Om de doeltreffendheid van de Marketing Kanalen voor Attribution IQ en Customer Journey Analytics te maximaliseren, hebben wij sommige gepubliceerd [herziene beste praktijken](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>
+>Analysebeheerders kunnen marketingkanalen voor hun organisaties beheren, zoals beschreven in [Marketingkanalen beheren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Marketingkanalen worden doorgaans gebruikt om inzicht te verschaffen in de manier waarop bezoekers op uw site aankomen. U kunt uw Regels van de Verwerking van het Kanaal van de Marketing aanpassen die op welke kanalen worden gebaseerd u wilt volgen, en hoe u hen wilt volgen.
 
@@ -39,9 +41,9 @@ Een lijst met aanbevolen kanalen vindt u in [Veelgestelde vragen en voorbeelden]
 
 Nadat u hebt gedefinieerd welke kanalen u wilt bijhouden, schakelt u deze in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-Zie [Kanalen en regels](/help/components/c-marketing-channels/c-channels.md) voor belangrijke, noodzakelijke en conceptuele informatie.
+Zie [Kanalen en regels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) voor belangrijke, noodzakelijke en conceptuele informatie.
 
-Zie [Marketingkanalen toevoegen](/help/components/c-marketing-channels/c-channels.md) voor de procedure.
+Zie [Marketingkanalen toevoegen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) voor de procedure.
 
 >[!NOTE]
 >
@@ -51,7 +53,7 @@ Zie [Marketingkanalen toevoegen](/help/components/c-marketing-channels/c-channel
 
 Nadat u kanalen op de [!UICONTROL Marketing Channel Manager] pagina, vormt u de regels zodat de kanalen gegevens kunnen terugwinnen en rapporteren.
 
-Zie [Verwerkingsregels voor marketingkanalen](/help/components/c-marketing-channels/c-rules.md).
+Zie [Verwerkingsregels voor marketingkanalen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 Als de kanalen in de automatische opstelling werden gecreeerd, worden de regels in die kanalen bepaald. U kunt deze naar wens aanpassen.
 
@@ -69,7 +71,7 @@ Hoe te om de automatische opstelling van de Kanalen van de Marketing in werking 
 
    >[!NOTE]
    >
-   >De [!UICONTROL Marketing Channels: Auto Setup] Deze pagina wordt automatisch weergegeven wanneer u kanaalconfiguratietoepassingen opent in Admin Tools. (Zie [Marketing Channel Manager](/help/components/c-marketing-channels/c-channels.md).) Deze pagina wordt niet weergegeven als uw rapportsuite een of meer marketingkanalen bevat. U kunt deze pagina niet opnieuw openen tenzij u een andere rapportsuite selecteert die geen marketingkanalen bevat.
+   >De [!UICONTROL Marketing Channels: Auto Setup] Deze pagina wordt automatisch weergegeven wanneer u kanaalconfiguratietoepassingen opent in Admin Tools. (Zie [Marketing Channel Manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).) Deze pagina wordt niet weergegeven als uw rapportsuite een of meer marketingkanalen bevat. U kunt deze pagina niet opnieuw openen tenzij u een andere rapportsuite selecteert die geen marketingkanalen bevat.
 
 1. Controleer of de kanalen zijn geselecteerd die u wilt maken.
 

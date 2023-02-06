@@ -3,9 +3,9 @@ title: Laatste aanraakkanaal
 description: Het meest recente marketingkanaal binnen het aflopen van de betrokkenheid van de bezoeker.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De afmeting &#39;Laatste aanraakkanaal&#39; rapporteert het meest recente market
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst rechtstreeks naar kanaalnamen die u in het dialoogvenster [Marketing Channel Manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md).
+Deze dimensie verwijst rechtstreeks naar kanaalnamen die u in het dialoogvenster [Marketing Channel Manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Elke hit die naar de servers van de gegevensinzameling van de Adobe wordt verzonden loopt door de verwerkingsregels van het Kanaal van de Marketing van uw rapportreeks. Het herhaalt door elke regel in numerieke orde tot het een gelijke vindt, waarin dat marketing kanaal aan de slag bindt. Het laatste aanraakkanaal blijft bij de bezoeker aanwezig totdat deze de site niet langer bezoekt dan de periode van de betrokkenheid van de bezoeker (standaard 30 dagen).
 

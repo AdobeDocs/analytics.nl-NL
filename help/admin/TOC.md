@@ -3,11 +3,11 @@ product: analytics
 audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
-user-guide-description: Leer over Analytics beleidstaken, zoals het leiden van gebruikers en producten in de Admin Console van de Experience Cloud, het vormen rapportreeksen, en meer.
-source-git-commit: 12fcf4cb07c4cb7497d6f21f3e5f82f7681a9677
+user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 78%
+source-wordcount: '619'
+ht-degree: 82%
 
 ---
 
@@ -127,7 +127,11 @@ ht-degree: 78%
             + [Classificatiehiërarchieën](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
             + [Lijstvariabelen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [Merchandising-eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
-         + [Marketingkanalen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+         + Marketingkanalen {#marketing-channels}
+            + [Marketingkanalen beheren](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [Verwerkingsregels voor marketingkanalen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+            + [Classificaties in marketingkanalen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [Vervaldatum betrokkenheid bezoeker](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Traffic-beheer {#traffic-management}
             + [Overzicht](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Spike plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
