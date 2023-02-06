@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 82%
+source-wordcount: '620'
+ht-degree: 79%
 
 ---
 
@@ -67,14 +67,14 @@ ht-degree: 82%
          + Algemeen {#report-suite-general}
             + [Algemene accountinstellingen](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [Interne URL-filters](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
+            + [Kalender aanpassen](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + Paid search-detectie {#paid-search-detection}
                + [Overzicht van paid search-detectie](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Paid search-detectie configureren](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + [Menu&#39;s aanpassen](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
-            + [Kalender aanpassen](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + Verwerkingsregels {#c-processing-rules}
                + [Overzicht van verwerkingsregels](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-               + Configuratie van verwerkingsregels {#c-processing-rules-configuration}
+               + Verwerkingsregels {#c-processing-rules-configuration}
                   + [De werking van verwerkingsregels](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
                   + [Verwerkingsregels maken](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
                   + [Actieve verwerkingsregels weergeven](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
@@ -109,29 +109,29 @@ ht-degree: 82%
                + [Implementatie van server-side doorsturen controleren](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [Veelgestelde vragen over server-side doorsturen](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + Verkeer {#traffic-variables}
-            + [Overzicht traffic variabele (prop)](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+            + [Traffic variabelen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [Rapporten voor traffic variabelen inschakelen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
-            + [Traffic-classificaties](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
+            + [Verkeersclassificaties](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Aangepaste rapportbeschrijvingen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + Conversie {#conversion-variables}
-            + [Conversievariabelen (eVars)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
-            + [Methoden zoeken](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
-            + [Conversieclassificaties](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
-            + Variabele Unique Visitor {#unique-visitor-variable}
+            + [Conversievariabelen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+            + [Zoekmethoden](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
+            + [Conversie-classificaties](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
+            + Unieke bezoekersvariabele {#unique-visitor-variable}
                + [De variabele Unique Visitor opgeven](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
                + [Gebruiksscenario - Bezoekers-id&#39;s](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
-            + Succesgebeurtenissen {#success-events}
+            + Gebeurtenissen geslaagd {#success-events}
                + [Overzicht van succesgebeurtenissen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
                + [Succesgebeurtenissen configureren](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
                + [Het gebeurtenistype wijzigen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
             + [Classificatiehiërarchieën](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
-            + [Lijstvariabelen](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
+            + [Variabelen weergeven](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [Merchandising-eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + Marketingkanalen {#marketing-channels}
             + [Marketingkanalen beheren](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [Verwerkingsregels voor marketingkanalen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
             + [Classificaties in marketingkanalen](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
-            + [Vervaldatum betrokkenheid bezoeker](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
+            + [Vervaldatum marketingkanaal](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Traffic-beheer {#traffic-management}
             + [Overzicht](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Spike plannen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
@@ -139,6 +139,9 @@ ht-degree: 82%
          + [Standaardwaarden](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [Toepassingsbeheer](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [Mediabeheer](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
+         + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+         + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
+         + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Privacyrapportage](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Real-time {#real-time-reports}
             + [Overzicht van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
