@@ -2,11 +2,11 @@
 product: analytics
 audience: end-user
 user-guide-title: Handleiding Analytics-tools
-breadcrumb-title: Hulplijn
-user-guide-description: Leer hoe u analysefuncties kunt gebruiken, zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
+breadcrumb-title: Handleiding Tools
+user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
+source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1101'
 ht-degree: 78%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 78%
 # Adobe Analytics Tools Guide {#analyze}
 
 + [Handleiding Analytics-tools](home.md)
-+ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Aanvullende informatie voor Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Aan de slag met Adobe Analytics {#admin-overview}
    + [Welke Adobe Analytics-tool moet ik gebruiken?](get-started/which-analytics-tool.md)
    + [Analytics-productvergelijking en -vereisten](get-started/analytics-product-comparison.md)
@@ -61,6 +61,11 @@ ht-degree: 78%
          + [Overzicht van kalender- en datumbereiken](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Aangepaste datumbereiken maken](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Datumvergelijking](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+      + Gegevenswoordenboek {#data-dictionary}
+         + [Overzicht van gegevenswoordenboek](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [Componentinformatie weergeven in gegevenswoordenboek](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [Onderdeelitems in gegevenswoordenboek bewerken](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [Gezondheid gegevenswoordenboek controleren](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualisaties {#visualizations}
       + [Overzicht van visualisaties](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Databronnen beheren](analysis-workspace/visualizations/t-sync-visualization.md)
