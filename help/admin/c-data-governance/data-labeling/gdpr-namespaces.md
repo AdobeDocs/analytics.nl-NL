@@ -3,10 +3,10 @@ description: Elke id die u wilt kunnen zoeken, krijgt een naamruimte toegewezen,
 title: Naamruimten
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 Elke id die u wilt kunnen zoeken, krijgt een naamruimte toegewezen, een aangepaste tekenreeks die deze id identificeert in elke variabele waarin deze wordt gebruikt in al uw rapportsuites.
 
-De naamruimtetekenreeks wordt gebruikt om velden te identificeren die u wilt doorzoeken wanneer u een id opgeeft als onderdeel van een Data Privacy-aanvraag. Wanneer een Data Privacy-aanvraag wordt verzonden, bevat de aanvraag een JSON-sectie waarin de id&#39;s van de geregistreerde persoon zijn opgegeven die voor de aanvraag moeten worden gebruikt. Er kunnen meerdere id&#39;s worden opgenomen als onderdeel van één aanvraag voor een geregistreerde persoon. De JSON bevat het volgende:
+De naamruimtetekenreeks wordt gebruikt om velden te identificeren die u wilt doorzoeken wanneer u een id opgeeft als onderdeel van een Data Privacy-aanvraag. Wanneer een verzoek van de Privacy van Gegevens wordt voorgelegd, zal het verzoek een sectie JSON omvatten die de Onderwerp IDs specificeert van Gegevens voor het verzoek te gebruiken. Meerdere id&#39;s kunnen worden opgenomen als onderdeel van één aanvraag voor een betrokkene. De JSON bevat het volgende:
 
 * Een naamruimteveld met de naamruimtetekenreeks.
 * Een typeveld dat voor de meeste Adobe Analytics-aanvragen de waarde “analytics” bevat.
@@ -38,7 +38,7 @@ De waarde moet worden opgegeven als twee hexadecimale getallen, gescheiden door 
 
 Het is ook acceptabel om `"namespaceId": 10` te gebruiken in plaats van of in aanvulling op `"namespace": "AAID"`, en het kan zijn dat sommige andere Adobe-producten dit formulier gebruiken.
 
-## Cookie voor het bijhouden van oude analyses: Vervangen formulier
+## Cookie voor het bijhouden van oude analyses: verouderd formulier
 
 ```
 {

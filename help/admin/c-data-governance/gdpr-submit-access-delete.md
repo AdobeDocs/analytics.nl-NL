@@ -3,30 +3,30 @@ description: Hoe te om gegevenstoegang en schrappingsverzoeken in Adobe Analytic
 title: Aanvragen voor toegang en verwijdering verzenden
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 93%
+ht-degree: 64%
 
 ---
 
 # Aanvragen voor toegang en verwijdering verzenden
 
-Als uw klanten (consumenten/geregistreerde personen) willen weten welke data u van hen onderhoudt, of als ze besluiten dat ze uit uw Analytics-eigenschappen willen worden verwijderd, bent u als datacontroller verantwoordelijk voor het reageren op deze aanvragen. De datacontroller bepaalt hoe uw organisatie communiceert met geregistreerde personen (bijvoorbeeld via een gebruikersportal voor de geregistreerde persoon), en beheert de interactie met de geregistreerde persoon. Het is ook de verantwoordelijkheid van de datacontroller om de lus met de geregistreerde persoon te sluiten wanneer de aanvraag is uitgevoerd. Met andere woorden: Adobe Experience Cloud zal, als dataverwerker, geen aanvragen rechtstreeks van geregistreerde personen accepteren of data direct naar hen retourneren. In plaats daarvan ontvangt Adobe alleen aanvragen van u als datacontroller ontvangen en data naar u retourneren.
+Als uw klanten (consumenten/Gegevenssubjecten) willen weten welke gegevens u over hen handhaaft of beslissen zij van uw eigenschappen van Analytics willen worden geschrapt, bent u als Controlemechanisme van Gegevens verantwoordelijk voor het antwoorden op die verzoeken. Het Controlemechanisme van Gegevens bepaalt hoe uw organisatie met de Onderwerpen van Gegevens (b.v., door een het gebruikersportaal van het Onderwerp van Gegevens) zal communiceren en interactie met het Onderwerp van Gegevens beheert. Het is ook de verantwoordelijkheid van de verwerkingsverantwoordelijke om de lus met de betrokkene te sluiten wanneer het verzoek is uitgevoerd. Met andere woorden, Adobe Experience Cloud, als de Bewerker van Gegevens, zal verzoeken van de Onderwerpen van Gegevens niet direct goedkeuren of zal gegevens aan hen terugkeren. In plaats daarvan zal Adobe verzoeken van ontvangen en gegevens teruggeven aan slechts u als Controlemechanisme van Gegevens.
 
-Misschien wilt ook zeker weten dat uw mobiele apps en websites relevante pop-upberichten en ondersteunend materiaal hebben over de rechten van geregistreerde personen in verband met hun direct of indirect identificeerbare data en andere data die u verzamelt.
+Mogelijk wilt u er ook voor zorgen dat uw mobiele apps en websites relevante pop-upberichten en ondersteunend materiaal hebben over de rechten van betrokkenen met betrekking tot hun direct of indirect identificeerbare gegevens en andere gegevens die u verzamelt.
 
 ## Toestemming van consumenten beheren {#section_3012015E7E8942519FB9279CF7057EAB}
 
-U, als de gegevensbeheerder, bent verantwoordelijk voor het verkrijgen van uitdrukkelijke toestemming van de betrokkenen voordat u gegevens over hen verzamelt (mogelijk met inbegrip van Adobe Analytics-gegevens) en voor het implementeren van een [opt-out-mechanisme](https://www.adobe.com/privacy/opt-out.html#customeruse) op uw website. Hierdoor kunnen geregistreerde personen zich afmelden voor toekomstige dataverzameling in Adobe Experience Cloud.
+Als Data Controller bent u verantwoordelijk voor het verkrijgen van uitdrukkelijke toestemming van de betrokkenen voordat u gegevens over deze gegevens verzamelt (mogelijk met inbegrip van Adobe Analytics-gegevens) en voor het implementeren van een [opt-out-mechanisme](https://www.adobe.com/privacy/opt-out.html#customeruse) op uw website. Hierdoor kunnen uw gegevenssubjecten afzien van toekomstige Adobe Experience Cloud-gegevensverzameling.
 
 ## Gebruikers en hun data valideren {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-Als datacontroller is het uw verantwoordelijkheid om te controleren of geregistreerde personen inderdaad zijn wie ze zeggen te zijn, en of ze recht hebben op de data waar ze om vragen. Verder is het uw verantwoordelijkheid om ervoor te zorgen dat de juiste data worden geretourneerd naar geregistreerde personen, en dat deze niet per ongeluk data over andere geregistreerde personen ontvangen.
+U, als gegevenscontroleur, bent verantwoordelijk voor het verifiëren dat het onderwerp is wie zij zeggen te zijn en dat zij recht hebben op de gegevens die zij vragen. Verder, is het uw verantwoordelijkheid om ervoor te zorgen dat de correcte gegevens aan het Onderwerp van Gegevens worden teruggegeven en dat zij niet onbedoeld gegevens over andere Onderwerpen van Gegevens ontvangen.
 
-Hieronder valt de controle van de data die door Adobe Analytics worden geretourneerd als onderdeel van een Data Privacy-toegangsaanvraag voordat deze naar de geregistreerde persoon wordt verzonden. Wees extra voorzichtig als u persoons-id&#39;s gebruikt, en niet alleen data retourneert waar deze id in zit, maar ook data voor andere treffers op een gedeeld apparaat waar deze id soms aanwezig is geweest. Zie [Id-uitbreiding](/help/admin/c-data-governance/gdpr-id-expansion.md).
+Dit omvat onder andere het evalueren van de gegevens die door Adobe Analytics zijn geretourneerd als onderdeel van een verzoek om toegang tot Data Privacy voordat deze worden verzonden naar de betrokkene. Wees extra voorzichtig als u persoons-id&#39;s gebruikt, en niet alleen data retourneert waar deze id in zit, maar ook data voor andere treffers op een gedeeld apparaat waar deze id soms aanwezig is geweest. Zie [Id-uitbreiding](/help/admin/c-data-governance/gdpr-id-expansion.md).
 
-Elk bestand combineert data uit al uw rapportsuites en verwijdert automatisch extra kopieën van gerepliceerde treffers. U kunt bepalen welke van deze bestanden naar de geregistreerde persoon moeten worden geretourneerd. Of u kunt enkele van deze data extraheren en combineren met data van andere systemen voordat u deze terugstuurt naar de geregistreerde persoon.
+Elk bestand combineert data uit al uw rapportsuites en verwijdert automatisch extra kopieën van gerepliceerde treffers. U kunt besluiten welke van deze dossiers aan het Onderwerp van Gegevens terug te keren. Of u kunt enkele van deze gegevens extraheren en combineren met gegevens van andere systemen voordat u deze terugstuurt naar de betrokkene.
 
 ## Aanvragen verzenden {#submit-requests}
 
@@ -98,7 +98,7 @@ Dit is de JSON die kan worden verzonden via de API of gebruikersinterface van Da
 } 
 ```
 
-Er zijn in de gebruikerssectie drie blokken, die drie afzonderlijke aanvragen vertegenwoordigen, waarschijnlijk voor drie afzonderlijke geregistreerde personen.
+U ziet drie blokken in de sectie van de gebruiker, die drie afzonderlijke verzoeken vertegenwoordigen, waarschijnlijk voor drie afzonderlijke Subjects van Gegevens.
 
 * De eerste aanvraag is een toegangsaanvraag met een traditionele Adobe Analytics-cookie-id (AAID).
 * De tweede aanvraag is ook een toegangsaanvraag, maar maakt gebruik van een MCID/ECID-cookie.
@@ -117,7 +117,7 @@ Deze secties bevatten details over reacties op toegangs- en verwijderingsaanvrag
 
 **Details van toegangsreacties**
 
-De data die worden voor een toegangsaanvraag worden geretourneerd, verschaffen u als datacontroller een URL waarmee u een ZIP-bestand kunt downloaden met een map voor elk Adobe-product dat u bezit. In de map Analytics kan het volgende staan:
+De gegevens die voor een toegangsverzoek worden geretourneerd, verschaffen u, de Data Controller, een URL waarmee u een ZIP-bestand kunt downloaden dat een map bevat voor elk Adobe-product dat u bezit. In de map Analytics kan het volgende staan:
 
 * Persoonsbestanden - afgeleid van treffers met een overeenkomend ID-PERSON-label
 
@@ -131,7 +131,7 @@ De data die worden voor een toegangsaanvraag worden geretourneerd, verschaffen u
 
 Elk bestand combineert data uit al uw rapportsuites en verwijdert automatisch extra kopieën van gerepliceerde treffers.
 
-U kunt bepalen welke van deze naar de geregistreerde persoon moeten worden geretourneerd. Of u kunt enkele van deze data extraheren en combineren met data van andere systemen voordat u deze terugstuurt naar de geregistreerde persoon.
+U kunt bepalen welke van deze om aan het Onderwerp van Gegevens terug te komen. Of u kunt enkele van deze gegevens extraheren en combineren met gegevens van andere systemen voordat u deze terugstuurt naar de betrokkene.
 
 **Details van verwijderingsreacties**
 

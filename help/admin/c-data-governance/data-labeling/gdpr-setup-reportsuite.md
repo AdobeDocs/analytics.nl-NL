@@ -3,18 +3,14 @@ description: Het labelen van rapportsuitedata betekent dat u labels voor identit
 title: Rapportsuitedata labelen
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 32%
+source-wordcount: '516'
+ht-degree: 28%
 
 ---
 
 # Rapportsuitedata labelen
-
->[!NOTE]
->
->Deze bijgewerkte interface wordt momenteel beperkt getest.
 
 Het labelen van rapportsuitedata betekent dat u labels voor identiteit, gevoeligheid en data-governance toevoegt aan elke variabele in een bepaalde rapportsuite. Zorg ervoor dat u zich eerst vertrouwd maakt met de [etiketten en de bijbehorende definities](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
 
@@ -24,7 +20,7 @@ Het labelen van rapportsuitedata betekent dat u labels voor identiteit, gevoelig
 
 ## Privacylabels voor rapportsuite toewijzen of bewerken {#assign-edit}
 
-**Voorbeeld**: Als datacontroller wilt u e-mailadressen en cookie-id&#39;s verzamelen geregistreerde personen om hun Data Privacy-aanvragen te verwerken. Deze cookie-id&#39;s worden opgeslagen in een rapportsuite in Adobe Analytics.
+**Voorbeeld**: Als Data Controller bent u van plan e-mailadressen en cookie-id&#39;s te verzamelen van betrokkenen bij Gegevens om hun privacyverzoeken te verwerken. Deze cookie-id&#39;s worden opgeslagen in een rapportsuite in Adobe Analytics.
 
 1. Navigeer in Adobe Analytics naar **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Data governance]**.
 
