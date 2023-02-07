@@ -3,7 +3,7 @@ description: Toont voorbeelden op hoe te om gegevens voor raakgegevens, toegangs
 title: Voorbeelden van labels
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 62%
@@ -365,6 +365,6 @@ Let op het volgende:
 * Cellen op rijen die `user=Mary` en `DEL-PERSON` het label wordt beïnvloed.
 * Vanwege ID-uitbreiding bevatten cellen op rijen die `AAID=77`, `AAID=88` of `AAID=99` (Dit zijn de waarden van de STEUN op rijen die `user=Mary`) en `DEL-DEVICE` het label wordt beïnvloed. Dit omvat cellen met een `DEL-DEVICE` label op rijen waar `user=Mary`. Dit veroorzaakt cellen in rijen 4 en 5 (evenals rijen 1-3) met `DEL-DEVICE` labels (AID, MyEvar2 en MyEvar3) die u wilt verduisteren.
 * De instelling expandIDs breidt zich niet uit naar de aanroep om waarden op te nemen die aanwezig zijn in MyEvar3 (`X`, `Y` en `Z`), dat een ID-DEVICE-label heeft, wanneer `user=Mary`. ExpandIDs breidt zich slechts uit om Bezoeker IDs (HULPs in dit voorbeeld, maar ook ECID) op rijen te omvatten waar `user=Mary`. De laatste twee rijen die MyEvar3-waarden bevatten van `X` en `Z` geen invloed hebben.
-* `MyEvar2` in de vierde en vijfde rij wordt bijgewerkt omdat deze rijen dezelfde waarden voor de bezoeker-id bevatten (`77` en `88`) als op de eerste en de tweede rij. Dientengevolge, omvat de uitbreiding van identiteitskaart hen voor apparaat-vlakke schrappingen.
+* `MyEvar2` in de vierde en vijfde rij worden bijgewerkt omdat deze rijen dezelfde waarden voor de bezoeker-id bevatten (`77` en `88`) als op de eerste en de tweede rij. Dientengevolge, omvat de uitbreiding van identiteitskaart hen voor apparaat-vlakke schrappingen.
 * De waarden van `MyEvar2` in de rijen twee en vijf komen zowel voor als na de schrapping overeen. Na het verwijderen komen ze echter niet meer overeen met de waarde `N` die in de laatste rij voorkomt, omdat die rij niet als deel van het schrappingsverzoek werd bijgewerkt.
 * `MyEvar3` gedraagt zich heel anders dan zonder de id-uitbreiding, omdat zonder id-uitbreiding geen `ID-DEVICES` overeenkwam. Nu, `AAID` komt overeen met de eerste vijf rijen.
