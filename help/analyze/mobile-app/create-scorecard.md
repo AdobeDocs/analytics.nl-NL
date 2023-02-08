@@ -4,7 +4,7 @@ title: Een mobiele scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: a50451010a4c972d4acdc11a5229406f47bdf292
+source-git-commit: b585743c835312b579ae810a04b7849c5e4f4953
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Als het gewenste datumbereik nog niet is gemaakt, kunt u een nieuw datumbereik m
 
 Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component voor het datumbereik kunt maken en opslaan.
 
-### Vergelijkingsdatumbereiken tonen {#showo-comparison-dates}
+### Vergelijkingsdatumbereiken tonen {#show-comparison-dates}
 
 Als u datumbereiken met elkaar wilt vergelijken, schakelt u het **Inclusief vergelijkingsdatums** instellen.
 
