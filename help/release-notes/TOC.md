@@ -1,13 +1,13 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Opmerkingen bij de release Analytics
+user-guide-title: Aanvullende informatie voor Analytics
 breadcrumb-title: Release-opmerkingen
 user-guide-description: Meer informatie over nieuwe functies en oplossingen in Adobe Analytics.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: af1574a72c652a75a851499416cf78703a1be178
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 10%
+source-wordcount: '41'
+ht-degree: 39%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 10%
 
 + [Opmerkingen bij de release Huidige Analyse](latest.md)
 + Opmerkingen bij de release Vorige Analytics {#previous}
+   + [Opmerkingen bij de release 2023](2023.md)
    + [Opmerkingen bij de release 2022](2022.md)
    + [Opmerkingen bij de release 2021](2021.md)
    + [Opmerkingen bij de release 2020](2020.md)
