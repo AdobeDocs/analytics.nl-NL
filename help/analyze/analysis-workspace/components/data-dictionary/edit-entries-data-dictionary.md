@@ -5,9 +5,9 @@ feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Een component in het gegevenswoordenboek bewerken:
 
    ![Admin-weergave gegevenswoordenboek](assets/data-dictionary-admin.png)
 
-1. Controleer of de juiste rapportsuite is geselecteerd in de keuzelijst.
+1. Controleer of de juiste rapportsuite is geselecteerd in de keuzelijst. Standaard wordt de rapportsuite weergegeven waarin u zich al bevindt.
 
 1. (Optioneel) Typ in het zoekveld de naam van de component die u wilt bewerken.
 

@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Informatie over een component weergeven in het gegevenswoordenboek:
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
-1. Controleer of de rapportsuite die de component bevat die u wilt weergeven, is geselecteerd in de vervolgkeuzelijst.
+1. Controleer of de rapportsuite die de component bevat die u wilt weergeven, is geselecteerd in de vervolgkeuzelijst. Standaard wordt de rapportsuite weergegeven waarin u zich al bevindt.
 
 1. (Optioneel) Typ in het zoekveld de naam van de component die u wilt weergeven.
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 2%
+source-wordcount: '604'
+ht-degree: 1%
 
 ---
 # Fragmenten
@@ -38,9 +38,9 @@ ht-degree: 2%
 |---------|----------|
 | [!UICONTROL **Goedgekeurd**] | Geeft aan dat de component is gecontroleerd en goedgekeurd door de beheerder. Beheerders zien een [!UICONTROL **Goedkeuring vereist**] optie voor niet-goedgekeurde onderdelen. Als u deze optie selecteert, wordt deze gemarkeerd als Goedgekeurd. |
 | [!UICONTROL **Beschrijving**] | Beschrijft de voorgenomen functie van de component. (Deze informatie wordt toegevoegd door de beheerder van Analytics, zoals die in [Componentbeschrijvingen toevoegen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
-| [!UICONTROL **Vaak gebruikt met**] | Toont de 5 componenten die het meest met de component worden gebruikt u over de 5 primaire componententypes bekijkt: Metrisch, Berekend metrisch, Dimension, Segment, en de Waaier van de Datum. Deze lijst is gebaseerd op gegevens uit de afgelopen 90 dagen. Alleen componenten die u kunt bekijken, worden weergegeven. |
-| [!UICONTROL **Vergelijkbaar met**] | Hiermee geeft u maximaal vijf componenten weer met vergelijkbare labels als de component die u bekijkt voor de vijf primaire componenttypen: Metrisch, Berekend metrisch, Dimension, Segment, en de Waaier van de Datum. Alleen componenten die u kunt bekijken, worden weergegeven. |
-| [!UICONTROL **Tags**] | Hiermee worden alle tags weergegeven die op de component zijn toegepast. |
+| [!UICONTROL **Vaak gebruikt met**] | Toont de 5 componenten die het meest met de component worden gebruikt u over de 5 primaire componententypes bekijkt: Metrisch, Berekend metrisch, Dimension, Segment, en de Waaier van de Datum. Deze lijst is gebaseerd op gegevens uit de afgelopen 90 dagen. Alleen componenten die u kunt bekijken, worden weergegeven. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **Vergelijkbaar met**] | Hiermee geeft u maximaal vijf componenten weer met vergelijkbare labels als de component die u bekijkt voor de vijf primaire componenttypen: Metrisch, Berekend metrisch, Dimension, Segment, en de Waaier van de Datum. Alleen componenten die u kunt bekijken, worden weergegeven. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **Tags**] | Hiermee worden alle tags weergegeven die op de component zijn toegepast. Gebruikers met beheerdersrechten kunnen tags toevoegen wanneer ze de component bewerken. |
 | [!UICONTROL **Componenttype**] | Maakt een lijst van het type van component het is, of een Dimension, Metrisch, Segment, of de Waaier van de Datum. |
 | [!UICONTROL **Gemaakt door**] | Geeft de naam weer van de gebruiker die de component heeft gemaakt. |
 | [!UICONTROL **Voorvertoning**] | Toont een voorproef van hoe de component in Analysis Workspace kijkt. |
