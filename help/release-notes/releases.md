@@ -3,9 +3,9 @@ description: Verklaart de ononderbroken strategie van de eigenschapversie voor A
 title: Adobe Analytics-functiereleases
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 7a6a7438ae6dcfd514c8de66626331f3a0e8210d
+source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ De versies van Adobe Analytics werken op een ononderbroken leveringsmodel dat vo
 
 * **Algemene beschikbaarheid (GA)**: De functie is beschikbaar voor 100% van de organisaties met bevoegdheid voor Experience Cloud en de release met functies is voltooid.
 
-Bij elke functierelease kan de tijdlijn variëren van RTP tot GA. Het doel is om versies kort te houden, zodat binnen 2 maanden na het begin van de release (RTP) een functie GA zal zijn.
+Bij elke functierelease kan de tijdlijn variëren van het begin van de rollout tot GA. Het doel is om de releases kort te houden, zodat binnen twee maanden na het begin van de rollout een functie GA is.
 
 ## Functiemarkeringen
 
