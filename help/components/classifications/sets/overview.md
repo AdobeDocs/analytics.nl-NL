@@ -2,9 +2,9 @@
 title: Overzicht van classificatiesets
 description: Classificatiesets gebruiken om classificatiegegevens te beheren.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: 4824170ae2465f3fa04ee588d9571e1cc73d11fc
+source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,8 @@ De backend architectuur die met de Reeksen van de Classificatie wordt vrijgegeve
 
 De backend architectuur die met de Reeksen van de Classificatie wordt vrijgegeven bevat verscheidene opmerkelijke veranderingen:
 
-* Wanneer u de browser importeert, &#39;[!UICONTROL Overwrite on conflict]&#39; is altijd ingeschakeld.
-* Wanneer u de browser importeert, wordt de optie om direct na het importeren te exporteren niet meer ondersteund. De uitvoer moet afzonderlijk worden geïnitieerd.
+* Wanneer u de browser of FTP-import gebruikt, &#39;[!UICONTROL Overwrite on conflict]&#39; is altijd ingeschakeld.
+* Wanneer u de browser of FTP-importmodule gebruikt, wordt de optie om direct na het importeren te exporteren niet meer ondersteund. De uitvoer moet afzonderlijk worden geïnitieerd.
 * De API Analytics 2.0 `GetDimensions` het eindpunt keert nu koordherkenningstekens voor classificaties in plaats van numerieke herkenningstekens terug. Numerieke id&#39;s kunnen nog steeds worden gebruikt, maar Adobe raadt u aan waar mogelijk de nieuwe tekenreeks-id&#39;s te gebruiken. Numerieke id&#39;s kunnen worden opgehaald met de `?expansion=hidden` querytekenreeksparameter.
 
 
