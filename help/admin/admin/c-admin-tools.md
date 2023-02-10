@@ -3,7 +3,7 @@ description: Index van beheerprogramma's in Adobe Analytics.
 title: Beheerprogramma's
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 42dba33eb77ac875fea801e8f62fa74ed564671f
+source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Hieronder volgt een uitsplitsing van deze twee gebieden:
 
    Gebruik dit gereedschap om gebruikers toegang te bieden en toegangsmachtigingen te wijzigen.
 
-   Voor alle organisaties die naar Adobe IMS zijn gemigreerd, worden deze taken uitgevoerd in de Adobe-beheerconsole. Zie voor meer informatie de [Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md). Als uw organisatie nog niet naar Adobe IMS is gemigreerd, raadpleegt u [Analyseer gebruikersmigratie naar de Adobe Admin Console](/help/admin/admin-console/user-management2/user-migration/c-migration-tool.md).
+   Voor alle organisaties die naar Adobe IMS zijn gemigreerd, worden deze taken uitgevoerd in de Adobe-beheerconsole. Zie voor meer informatie de [Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md). Als uw organisatie nog niet naar Adobe IMS is gemigreerd, raadpleegt u [Analyseer gebruikersmigratie naar de Adobe Admin Console](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
 
 ## Toegang tot beheerhulpprogramma&#39;s
 

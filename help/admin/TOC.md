@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
+source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 78%
@@ -25,14 +25,6 @@ ht-degree: 78%
       + [Productprofielen voor Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Machtigingen voor productprofielen voor rapportsuite](admin-console/permissions/report-suite-tools.md)
       + [Machtigingen voor productprofielen voor Analytics Tools](admin-console/permissions/analytics-tools.md)
-   + User en Product Management (verouderd) {#user-product-management}
-      + [User en Product Management (verouderd)](admin-console/user-management2/user-management.md)
-      + Gebruikers migreren naar Adobe Admin Console {#migrate-users}
-         + [Analytics-gebruikersmigratie naar de Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
-         + [Analytics-gebruikersaccounts voor Adobe ID’s migreren](admin-console/user-management2/user-migration/t-migrate-users.md)
-         + [Analytics-gebruikersaccounts voor Enterprise en Federated ID’s migreren](admin-console/user-management2/user-migration/migrate-enterprise.md)
-         + [Verouderde logins uitschakelen](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
-         + [API&#39;s die door de migratie worden beïnvloed](admin-console/user-management2/user-migration/developer.md)
 + Analysebeheerfuncties {#admin-tools}
    + [Overzicht van beheerprogramma&#39;s](admin/c-admin-tools.md)
    + [Facturering](admin/billing-admin.md)
@@ -42,26 +34,6 @@ ht-degree: 78%
    + [Logboeken](admin/logs.md)
    + [Activity Manager rapporteren](admin/reporting-activity.md)
    + Report Suite Manager {#manage-report-suites}
-      + [Rapportsuites beheren](admin/c-manage-report-suites/report-suites-admin.md)
-      + [Samenvatting en global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
-      + [Een zoekopdracht in een rapportsuite opslaan](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [Instellingen voor rapportsuites downloaden](admin/c-manage-report-suites/t-download-rs-settings.md)
-      + Nieuwe rapportsuite {#c-new-report-suite}
-         + [Een rapportsuite maken](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [Een overzichtsrapportsuite maken](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
-         + [Een rapportsuitegroep maken](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
-         + [Nieuwe rapportsuite - instellingen](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-         + [Instellingen die niet uit een bronrapportsuite zijn gekopieerd](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + Sjablonen voor rapportsuites {#report-suite-templates}
-         + [Overzicht van sjablonen voor rapportsuites](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-         + [Verzamel-portal](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-         + [Commerce](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-         + [Content en media](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-         + [Standaardsjabloon](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-         + [Financiële diensten](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-         + [Vacatureportal](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-         + [Lead generation](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-         + [Ondersteuningsmedia](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
       + Instellingen van een rapportsuite bewerken {#edit-report-suite}
          + Algemeen {#report-suite-general}
             + [Algemene accountinstellingen](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
@@ -146,6 +118,26 @@ ht-degree: 78%
             + [Overzicht van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuratie van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Ondersteunde cijfers en en dimensies in real time](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+      + [Rapportsuites beheren](admin/c-manage-report-suites/report-suites-admin.md)
+      + [Samenvatting en global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [Een zoekopdracht in een rapportsuite opslaan](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [Instellingen voor rapportsuites downloaden](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + Nieuwe rapportsuite {#c-new-report-suite}
+         + [Een rapportsuite maken](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [Een overzichtsrapportsuite maken](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [Een rapportsuitegroep maken](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [Nieuwe rapportsuite - instellingen](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [Instellingen die niet uit een bronrapportsuite zijn gekopieerd](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + Sjablonen voor rapportsuites {#report-suite-templates}
+         + [Overzicht van sjablonen voor rapportsuites](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [Verzamel-portal](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [Commerce](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [Content en media](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [Standaardsjabloon](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [Financiële diensten](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [Vacatureportal](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [Lead generation](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [Ondersteuningsmedia](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + Bedrijfsinstellingen {#company-settings}
       + [Overzicht van bedrijfsinstellingen](admin/company/c-company-settings.md)
       + [Security Manager](admin/company/security-manager.md)
@@ -163,6 +155,14 @@ ht-degree: 78%
       + [Gebruik van rapportsuites weergeven](admin/c-server-call-usage/report-suite-usage.md)
       + [Waarschuwingen over het gebruik van server calls](admin/c-server-call-usage/scu-alerts.md)
       + [Veelgestelde vragen over het gebruik van server calls](admin/c-server-call-usage/overage-faq.md)
+   + User en Product Management (verouderd) {#user-product-management}
+      + [User en Product Management (verouderd)](admin/user-management2/user-management.md)
+      + Gebruikers migreren naar Adobe Admin Console {#migrate-users}
+         + [Analytics-gebruikersmigratie naar de Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
+         + [Analytics-gebruikersaccounts voor Adobe ID’s migreren](admin/user-management2/user-migration/t-migrate-users.md)
+         + [Analytics-gebruikersaccounts voor Enterprise en Federated ID’s migreren](admin/user-management2/user-migration/migrate-enterprise.md)
+         + [Verouderde logins uitschakelen](admin/user-management2/user-migration/t-disable-legacy-login.md)
+         + [API&#39;s die door de migratie worden beïnvloed](admin/user-management2/user-migration/developer.md)
 + Data Governance {#data-governance}
    + [Adobe Analytics Data Privacy-workflow](c-data-governance/an-gdpr-workflow.md)
    + [Veelgestelde vragen](c-data-governance/gdpr-faq.md)
@@ -176,3 +176,4 @@ ht-degree: 78%
    + [Id-uitbreiding](c-data-governance/gdpr-id-expansion.md)
    + [Vrijstelling van CNIL-toestemming](c-data-governance/cnil-consent-exemption.md)
 + [Admin-API](c-admin-api/c-admin-api.md)
+
