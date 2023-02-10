@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: Mappen toevoegen in werkruimte
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
+source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
 # Projecten toevoegen aan mappen
 
 U kunt projecten aan een omslag in de lijstmening of van binnen een omslag toevoegen.
+
+>[!NOTE]
+>
+>Slechts kunnen de beheerders van Analytics projecten aan de Omslag van het Bedrijf toevoegen of een nieuw project tot stand brengen en het aan de Omslag van het Bedrijf bewaren
 
 ## Vanuit de tabelweergave {#table-view}
 
@@ -23,13 +27,15 @@ Voeg projecten aan een omslag van de lijstmening op de homepage toe.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
 
-1. Selecteren **Verplaatsen naar**. Het dialoogvenster Map selecteren wordt weergegeven.
+1. Selecteren **Verplaatsen naar**.
 
-1. Selecteer een mapnaam in het keuzemenu.
+   Het dialoogvenster Map selecteren wordt weergegeven.
+
+1. Selecteer in het keuzemenu de map waarnaar u de geselecteerde projecten wilt verplaatsen.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. Klikken **Toevoegen**.
+1. Selecteren **Verplaatsen**.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -49,25 +55,19 @@ U kunt projecten van binnen een omslag ook toevoegen gebruikend de ellipsen verb
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Klik op de knop **...** ovalepictogram rechtsboven.
+1. Selecteer **...** ovalepictogram rechtsboven.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-   Een vervolgkeuzemenu geeft de optie weer om projecten aan de map toe te voegen. Met extra opties kunt u de map een andere naam geven, verplaatsen of verwijderen en machtigingen voor mappen beheren.
 
 1. Selecteren **Projecten toevoegen** en selecteer het project dat u van de drop-down lijst wilt toevoegen.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
-   U kunt meerdere projecten aan de map toevoegen.
+
+1. (Optioneel) Selecteer aanvullende projecten in de vervolgkeuzelijst om meerdere projecten toe te voegen.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. Klikken **Toevoegen** om de projecten aan de omslag toe te voegen.
+1. Selecteren **Toevoegen** om de projecten aan de omslag toe te voegen.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-
-
->[!NOTE]
->
->Slechts kunnen Admins projecten aan de Omslag van het Bedrijf toevoegen of een nieuw project tot stand brengen en het opslaan aan de Omslag van het Bedrijf
