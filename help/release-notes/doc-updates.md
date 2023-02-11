@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8c4535a1811381e7a24735d7cbfffd241d5b19b9
+source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
-source-wordcount: '3570'
-ht-degree: 35%
+source-wordcount: '3610'
+ht-degree: 34%
 
 ---
 
@@ -29,6 +29,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Implementatie | Bijgewerkte inhoud over hoe te [Adobe Analytics for web en mobile implementeren](../implement/home.md). |
 | Werkruimtekalenders en datumbereiken | Bijgewerkte inhoud om relatieve datumwaaiers, de updates van de formules berekening, en kalenderveranderingen te beschrijven UI. Zie [Over datumbereiken in het relatieve deelvenster](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Mobiele scorecards | Nieuwe documentatiesectie om te beschrijven hoe te om de waaiers van de vergelijkingsdatum te tonen en te verbergen. Zie [Vergelijkingsdatumbereiken tonen](/help/analyze/mobile-app/create-scorecard.md) in CJA. |
+| 1.4 API | De [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) heeft een volledige herschrijving ontvangen en wordt nu gepubliceerd op Adobe Developer. |
+| Traceren tussen implementatietypen | Gebruiksscenario is bijgewerkt [Houd verschillende implementatietypen bij](../implement/use-cases/cross-type-implementation.md) om de Experience Cloud ID-service aan te passen. |
 | **Januari 2023** |  |
 | Tabellen filteren en sorteren | Bijgewerkte inhoud (inclusief het toevoegen van procedures en het uitleggen van beschikbare opties) in de [Tabellen filteren en sorteren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artikel. De naam van dit artikel is gewijzigd in &quot;Paginering, filteren en sorteren van tabellen&quot;. |
 | Mappen | Speciale pagina&#39;s voor [Mappen beheren](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
