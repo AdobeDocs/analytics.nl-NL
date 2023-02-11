@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
-user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om optimaal te profiteren van de analysegegevens.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om het meeste uit Analytics-gegevens te halen.
+source-git-commit: 5015fd9b4ab98e31f30b4156d11ace554668a4b7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 68%
+source-wordcount: '407'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 68%
 # Adobe Analytics-implementatiehandleiding {#implementation}
 
 + [Adobe Analytics implementeren](home.md)
-+ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Aanvullende informatie voor Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [Releaseopmerkingen bij AppMeasurement](appmeasurement-updates.md)
 + Variabelen, functies en methoden van Analytics {#vars}
    + [Overzicht](vars/overview.md)
@@ -129,7 +129,6 @@ ht-degree: 68%
    + [Een datalaag maken](prepare/data-layer.md)
    + [Overwegingen voor algemene rapportsuites](prepare/global-rs.md)
    + [Tags implementeren met meerdere suite](prepare/multi-suite-tagging.md)
-   + [Implementatiemodel](prepare/implementation-modal.md)
    + [Een document voor het ontwerp van een oplossing maken](prepare/solution-design.md)
    + [Een bestaande Adobe Analytics-implementatie op zich nemen](prepare/existing-implementation.md)
 + Analyses implementeren met gebruik van Experience Platform Edge {#aep-edge}
@@ -137,7 +136,7 @@ ht-degree: 68%
    + [Variabele toewijzen](aep-edge/variable-mapping.md)
    + Web SDK {#web-sdk}
       + [Overzicht van Web SDK](aep-edge/web-sdk/overview.md)
-   + Mobile SDK {#mobile-sdk}
+   + Mobiele SDK {#mobile-sdk}
       + [Overzicht van Mobile SDK](aep-edge/mobile-sdk/overview.md)
    + Edge-API {#edge-api}
       + [Overzicht van Edge API](aep-edge/edge-api/overview.md)
