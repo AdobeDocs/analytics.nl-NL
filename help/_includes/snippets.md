@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -19,16 +19,18 @@ ht-degree: 1%
 
    | Optie | -functie |
    |---------|----------|
+   | [!UICONTROL **Goedgekeurd**] | Alleen componenten tonen die zijn gemarkeerd als goedgekeurd door een beheerder. |
+   | [!UICONTROL **Favorieten**] | Alleen componenten tonen die zich in de lijst Favorieten bevinden. Voor informatie over het toevoegen van componenten aan uw lijst van favorieten, zie [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensies**] | Alleen componenten weergeven die Dimension zijn. (Deze optie is ook beschikbaar in het dialoogvenster [!UICONTROL **Snelle filters**] tabblad wanneer u voor het eerst toegang krijgt tot het gegevenswoordenboek.) |
    | [!UICONTROL **Cijfers**] | Alleen componenten weergeven die Metrisch zijn. (Deze optie is ook beschikbaar in het dialoogvenster [!UICONTROL **Snelle filters**] tabblad wanneer u voor het eerst toegang krijgt tot het gegevenswoordenboek.) |
    | [!UICONTROL **Segmenten**] | Alleen componenten tonen die Segmenten zijn. (Deze optie is ook beschikbaar in het dialoogvenster [!UICONTROL **Snelle filters**] tabblad wanneer u voor het eerst toegang krijgt tot het gegevenswoordenboek.) <!--this is Filters in CJA--> |
    | [!UICONTROL **Datumbereiken**] | Alleen componenten tonen die Datumbereik hebben. (Deze optie is ook beschikbaar in het dialoogvenster [!UICONTROL **Snelle filters**] tabblad wanneer u voor het eerst toegang krijgt tot het gegevenswoordenboek.) |
+   | [!UICONTROL **Alles tonen**] | Alle componenten tonen. Deze optie is alleen beschikbaar voor beheerders. |
+   | [!UICONTROL **Niet goedgekeurd**] | Alleen componenten tonen die nog niet zijn gemarkeerd als goedgekeurd door een beheerder. Als beheerder, is dit nuttig wanneer het identificeren van componenten die uw overzicht en goedkeuring vereisen. Deze optie is alleen beschikbaar voor beheerders. |
    | [!UICONTROL **Ontbrekende beschrijving**] | Alleen componenten weergeven die nog geen beschrijving hebben in het veld Beschrijving. Deze optie is alleen beschikbaar voor beheerders. |
-   | [!UICONTROL **Duplicaten**] | Alleen componenten weergeven die hetzelfde label of dezelfde beschrijving hebben als een andere component in de geselecteerde rapportsuite. Deze optie is alleen beschikbaar voor beheerders. Labels of beschrijvingen moeten exact overeenkomen om te worden weergegeven als duplicaten. |
-   | [!UICONTROL **Geen gegevens onlangs**] | Alleen componenten weergeven die de afgelopen 90 dagen geen gegevens hebben verzameld. Deze optie is alleen beschikbaar voor beheerders. |
-   | [!UICONTROL **Gemaakt door Adobe**] | Alleen componenten weergeven die zijn gemaakt door Adobe. Componenten die door een beheerder of een andere gebruiker in uw organisatie zijn gemaakt, worden niet weergegeven. |
-   | [!UICONTROL **Goedgekeurd**] | Alleen componenten tonen die zijn gemarkeerd als goedgekeurd door een beheerder. |
-   | Niet goedgekeurd (alleen beschikbaar voor beheerders) | <!--this is in the requirements doc, but I don't see this in the UI--> |
+   | [!UICONTROL **Duplicaten tonen**] | Alleen componenten weergeven die hetzelfde label of dezelfde beschrijving hebben als een andere component in de geselecteerde rapportsuite. Labels of beschrijvingen moeten exact overeenkomen om te worden weergegeven als duplicaten. Deze optie is alleen beschikbaar voor beheerders. |
+   | [!UICONTROL **Geen recente gegevens**] | Alleen componenten weergeven die de afgelopen 90 dagen geen gegevens hebben verzameld. Deze optie is alleen beschikbaar voor beheerders. |
+   | [!UICONTROL **Gemaakt door Adobe**] <!-- I don't see this option--> | Alleen componenten weergeven die zijn gemaakt door Adobe. Componenten die door een beheerder of een andere gebruiker in uw organisatie zijn gemaakt, worden niet weergegeven. |
 
    {style=&quot;table-layout:auto&quot;}
 

@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerders de componenten in hun analyseomgeving volgen en beter begrijpen.
 
-Systeembeheerders zijn verantwoordelijk voor het beheren van deze informatie over elke component in het gegevenswoordenboek en het beschikbaar maken ervan voor gebruikers.
+De beheerders van Analytics zijn verantwoordelijk voor het krommen van informatie over elke component in het Woordenboek van Gegevens om het ter beschikking te stellen van gebruikers.
 
 ## Voordelen voor gebruikers
 
@@ -33,6 +33,8 @@ De informatie die beschikbaar is in het gegevenswoordenboek is:
 * Componenten die vergelijkbaar zijn met de component die u bekijkt
 
 * Of een component door de systeembeheerder wordt goedgekeurd
+
+Voor informatie over hoe te om tot het Woordenboek van Gegevens toegang te hebben en voor details over de informatie het bevat, zie [Componentinformatie weergeven in gegevenswoordenboek](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## Voordelen voor beheerders
 
@@ -67,7 +69,13 @@ U kunt het gegevenswoordenboek op de volgende manieren openen in Analysis Worksp
 
 * Vanuit het menu: [!UICONTROL **Help**] > [!UICONTROL **Gegevenswoordenboek**].
 
-   <!--add screenshot-->
+Zie voor meer informatie over de verschillende opties in het gegevenswoordenboek [Componentinformatie weergeven in gegevenswoordenboek](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+
+## Het gegevenswoordenboek bijwerken en beheren
+
+Analysebeheerders zijn verantwoordelijk voor het onderhoud van een gezond gegevenswoordenboek voor hun organisatie, zoals beschreven in [Gezondheid gegevenswoordenboek controleren](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+
+Als onderdeel van dit proces kunnen analysebeheerders informatie over elke component in het gegevenswoordenboek bewerken, zoals wordt beschreven in [Onderdeelitems in gegevenswoordenboek bewerken](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Het gegevenswoordenboek verplaatsen, minimaliseren of sluiten
 
