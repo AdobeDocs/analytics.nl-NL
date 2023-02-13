@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
+source-git-commit: 1bb989f3a7e1367ddc1cc2d88bcde9aa680ff963
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1104'
 ht-degree: 3%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (februari 2023)
 
-**Laatste update**: 9 februari 2023
+**Laatste update**: 13 februari 2023
 
 Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -44,6 +44,7 @@ AN-302282; AN-303127; AN-303541; AN-303550; AN-305282; AN-306504; AN-307351; AN-
 
 | EOL-product of -functie | Datum toegevoegd of bijgewerkt | Beschrijving |
 | --- | --- | --- |
+| **EOL, service Telefoontracering Japanse functies** | 13 februari 2023 | Alleen voor onze klanten in Japan: Eind mei 2023 zal de Japanse dienst van de het volgen van de Telefoon van de Eigenschap (mod_ktrack) worden stopgezet. Onze excuses voor het ongemak, maar wij vragen u om de modules die op uw Apache-server zijn geïnstalleerd, te verwijderen of uit te schakelen. Zie de pagina&#39;s 27 en 28 in [dit document](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) ter referentie. |
 | **EOL van bepaalde functies voor rapporten en analyse en Report Builder-planning** | 9 februari 2023 | De volgende planningsfuncties zijn op 31 januari 2023 opgeheven:<ul><li>De optie &quot;end after x occurrences&quot; voor taken per uur in Report Builder</li><li>De mogelijkheid om nieuwe rapporten te plannen en gegevensfragmenten te downloaden in Reports and Analytics</li></ul><p>**Opmerking**: Deze functies zijn oorspronkelijk in april 2022 beëindigd, maar de wijziging is teruggedraaid. We hebben ook een bericht verzonden dat deze functies tijdelijk werden hersteld en dat ze op 31 januari 2023 opnieuw zouden worden beëindigd. |
 | **EOL van [!UICONTROL Publishing Lists] functie** | 29 september 2022 | Als onderdeel van het EOL van Rapporten &amp; Analytics, worden de het publiceren lijsten vermeld om eind van het leven in te bereiken **december 2023**. U kunt geen nieuwe of bestaande Publishing Lists maken om Analysis Workspace-projecten te verzenden of te plannen. |
 | **EOL voor Data Workbench** | 14 september 2022 | Adobe is voornemens de Data Workbench aan het einde van de levensduur doeltreffend te maken **31 december 2023**. Zie [Aankondiging einde levensduur Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) voor meer informatie. Neem contact op met de Adobe-accountmanager van uw organisatie voor vragen. |
