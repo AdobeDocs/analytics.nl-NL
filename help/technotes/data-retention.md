@@ -3,7 +3,7 @@ title: Beleid voor gegevensbewaring
 description: Een beleid van het gegevensbehoud bepaalt hoe lang Adobe uw gegevens opslaat.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -54,3 +54,4 @@ Ja. Adobe kan een historische gegevensstortplaats van onbewerkte, raakvlakke geg
 **Wanneer verwijdert Adobe gegevens?**
 
 Neem contact op met de accountmanager van uw organisatie voor de specifieke tijd dat uw gegevens verwijderd moeten worden. Gewoonlijk worden gegevens doorlopend per maand verwijderd.
+

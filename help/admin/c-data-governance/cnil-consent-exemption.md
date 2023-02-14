@@ -3,7 +3,7 @@ description: Leer meer over de richtlijnen en aanbevelingen voor de toestemming 
 title: Wat zijn de CNIL-richtlijnen voor toestemming van de gebruiker en cookies
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -46,3 +46,4 @@ De volgende aanvullende overwegingen zijn van toepassing:
 
 
 Zie voor meer informatie de [CNIL Cookie-vrijstelling](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications) website.
+

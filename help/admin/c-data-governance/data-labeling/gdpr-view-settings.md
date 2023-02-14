@@ -3,7 +3,7 @@ description: Het dialoogvenster Privacy Labeling for Data Governance biedt een o
 title: Privacy-labels voor gegevensbeheer weergeven/beheren
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 38%
@@ -17,15 +17,15 @@ De **[!UICONTROL Privacy Labeling for Data Governance]** biedt een overzicht van
 ## Privacy-labels weergeven {#view-privacy}
 
 1. Meld u aan bij Adobe Experience Cloud.
-1. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** > **[!UICONTROL Data Governance]**.
+2. Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** > **[!UICONTROL Data Governance]**.
 
    >[!NOTE]
    >
    >Als dit menu-item niet zichtbaar is, moet u deze toevoegen aan een [productprofiel in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) met machtigingen voor deze functionaliteit.
 
-1. Selecteer rechtsboven een rapportsuite waarvan u de privacylabels wilt weergeven of beheren.
+3. Selecteer rechtsboven een rapportsuite waarvan u de privacylabels wilt weergeven of beheren.
 
-   ![](assets/privacy_labeling.png)
+![](assets/privacy_labeling.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
