@@ -3,9 +3,9 @@ title: Beleid voor gegevensbewaring
 description: Een beleid van het gegevensbehoud bepaalt hoe lang Adobe uw gegevens opslaat.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Zodra de gegevens uw beleid van het gegevensbehoud overschrijden, behoudt Adobe 
 
 ## Huidig beleid voor gegevensbehoud weergeven/beheren
 
-De dialoog over gegevensbeheer in [!UICONTROL Admin] De hulpmiddelen verstrekken een overzicht waarvan de rapportreeksen voor gegevensbeheer zijn gevormd. Het wijst ook erop of zij aan een organisatie van de Experience Cloud in kaart zijn gebracht, en of een beleid van het gegevensbehoud voor deze rapportreeks op zijn plaats is. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html)
+De dialoog over gegevensbeheer in [!UICONTROL Admin] De hulpmiddelen verstrekken een overzicht waarvan de rapportreeksen voor gegevensbeheer zijn gevormd. Het wijst ook erop of zij aan een organisatie van de Experience Cloud in kaart zijn gebracht, en of een beleid van het gegevensbehoud voor deze rapportreeks op zijn plaats is. [Meer informatie](/help/admin/c-data-governance/an-gdpr-workflow.md)
 
 ## Veelgestelde vragen
 
