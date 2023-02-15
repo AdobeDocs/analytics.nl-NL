@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 78%
+source-wordcount: '574'
+ht-degree: 80%
 
 ---
 
@@ -163,17 +163,5 @@ ht-degree: 78%
          + [Analytics-gebruikersaccounts voor Enterprise en Federated ID’s migreren](admin/user-management2/user-migration/migrate-enterprise.md)
          + [Verouderde logins uitschakelen](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [API&#39;s die door de migratie worden beïnvloed](admin/user-management2/user-migration/developer.md)
-+ Data Governance {#data-governance}
-   + [Adobe Analytics Data Privacy-workflow](c-data-governance/an-gdpr-workflow.md)
-   + [Veelgestelde vragen](c-data-governance/gdpr-faq.md)
-   + Gegevensetikettering {#data-labels}
-      + [Privacy-labels voor gegevens voor componenten Analytics](c-data-governance/data-labeling/gdpr-labels.md)
-      + [Rapportsuitedata labelen](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [De privacylabels van de rapportsuite weergeven/beheren](c-data-governance/data-labeling/gdpr-view-settings.md)
-      + [Best practices voor labelen](c-data-governance/data-labeling/gdpr-analytics-ids.md)
-      + [Voorbeeld van labeling](c-data-governance/data-labeling/gdpr-labeling-example.md)
-      + [Naamruimten](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [Id-uitbreiding](c-data-governance/gdpr-id-expansion.md)
-   + [Vrijstelling van CNIL-toestemming](c-data-governance/cnil-consent-exemption.md)
 + [Admin-API](c-admin-api/c-admin-api.md)
 

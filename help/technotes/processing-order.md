@@ -2,7 +2,7 @@
 title: Verwerkingsvolgorde voor gegevens in Adobe Analytics
 description: Leer de volgorde van componenten en services die gegevens verwerken in Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -45,6 +45,6 @@ Op dit punt, wordt de individuele klap geregistreerd in de lijsten van de rappor
 De gegevens in Adobe Analytics zijn meestal permanent; er zijn echter enkele kenmerken die een selectieve aanpassing of verwijdering van gegevens mogelijk maken :
 
 * [**API voor gegevensherstel**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): Bewerk bepaalde kolommen of verwijder de gewenste rijen met gegevens.
-* [**Gegevensbeheer**](/help/admin/c-data-governance/an-gdpr-workflow.md): Pas privacyverzoeken aan om gegevens permanent te verwijderen.
+* [**Gegevensbeheer**](/help/technotes/c-data-governance/an-gdpr-workflow.md): Pas privacyverzoeken aan om gegevens permanent te verwijderen.
 * [**Classificaties**](/help/components/classifications/c-classifications.md): Maak dimensies op basis van regels of geüploade gegevens waarmee u gegevens anders kunt ordenen. De onderliggende gegevens van de rapportreeks worden niet gewijzigd, zodat kunt u classificatiegegevens vrij uitgeven of beschrijven.
 * [**Virtuele rapportsuites**](/help/components/vrs/vrs-about.md): Maak een alternatieve rapportsuite-weergave die de time-out van het bezoek kan wijzigen of die [Apparaatanalyse](/help/components/cda/overview.md).
