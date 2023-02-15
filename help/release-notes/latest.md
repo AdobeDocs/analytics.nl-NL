@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7c05a3364b1f1b7abaf7ac3c97edb5e590781ec3
+source-git-commit: 98890c72a375b61bcecb79f2d32b3f29ee5782bd
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1071'
 ht-degree: 3%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (februari 2023)
 
-**Laatste update**: 9 februari 2023
+**Laatste update**: 15 februari 2023
 
 Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -35,6 +35,7 @@ AN-302282; AN-303127; AN-303541; AN-303550; AN-305282; AN-306504; AN-307351; AN-
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
+| **Beschikbaarheid van analytische bronconnector** | 15 februari 2023 | Op 28 februari 2023 wordt de Analytics Source Connector beschikbaar gesteld in het nieuwe Adobe Experience Platform-datacenter in Canada. |
 | **Automatische migratie naar architectuur met classificatieset** | 8 februari 2023 | In de komende maanden is Adobe van plan om alle classificaties in alle organisaties te migreren naar de nieuwste classificatiearchitectuur. Naar schatting zullen de laatste klanten die naar migratie gaan, in mei 2023 plaatsvinden. Geen actie van de klant wordt vereist, en geen onderbreking wordt verwacht. Deze nieuwe architectuur heeft veel voordelen, zoals:<ul><li>Aanzienlijk kortere verwerkingstijd (72 uur → 24 uur)</li><li>De mogelijkheid om de [Classificatiesets](/help/components/classifications/sets/overview.md) UI</li><li>De optie om classificatiegegevens in Adobe Experience Platform in de toekomst via de [Adobe Analytics-bronconnector voor classificatiegegevens](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>Houd rekening met de volgende wijzigingen die mogelijk van invloed zijn op de workflow van uw organisatie:<ul><li>Wanneer u de browser of FTP-import gebruikt, &#39;[!UICONTROL Overwrite on conflict]&#39; is altijd ingeschakeld.</li><li>Wanneer u de browser of FTP-importmodule gebruikt, wordt de optie om direct na het importeren te exporteren niet meer ondersteund.</li><li>De API Analytics 2.0 `GetDimensions` het eindpunt keert nu koordherkenningstekens voor classificaties in plaats van numerieke herkenningstekens terug. Numerieke id&#39;s kunnen nog steeds worden gebruikt, maar Adobe raadt u aan waar mogelijk de nieuwe tekenreeks-id&#39;s te gebruiken. Numerieke id&#39;s kunnen worden opgehaald met de `?expansion=hidden` querytekenreeksparameter.</li></ul>Neem contact op met de klantenservice van Adobe als u een specifieker migratieplan voor uw organisatie wilt of vragen of zorgen hebt over deze migratie. [Meer informatie](/help/components/classifications/sets/overview.md) |
 | **Bijwerken naar apparaatraadplegingen als gevolg van Google Client Hints** | 25 januari 2023 | Het gebruik van client-hints in apparaatzoekopdracht begint bij **16 februari 2023**. <p> <p>Vanaf oktober 2022 is het mogelijk om clienttips te verzamelen met de Web SDK- of AppMeasurement JavaScript-bibliotheken. Maar de cliëntwenken zullen niet in apparatenraadpleging tot Februari 2023 worden opgenomen. Op dat ogenblik, zal Adobe beginnen gebruikend cliëntwenken naast gebruiker-Agent wanneer het afleiden van bepaalde apparateninformatie voor klappen die uit Chromium browsers, zoals Google Chrome en Microsoft Edge komen. Dit is in antwoord op het plan van Google om de informatie geleidelijk te verminderen die van het user-Agent koord in plaats van gegevens wordt voorgesteld die via cliëntwenken worden overgegaan. <p> <p>Als deel van deze verandering, zal Adobe de Atlas van het Apparaat voor alle apparatenraadplegingen met betrekking tot gebruiker-Agent gebruiken. [Meer informatie](/help/technotes/client-hints.md) |
 
