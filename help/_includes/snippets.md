@@ -1,7 +1,7 @@
 ---
-source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
+source-git-commit: df0d2c4687117fd00714ced56db6259e44698a20
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,8 @@ ht-degree: 1%
 
 | Optie | -functie |
 |---------|----------|
-| [!UICONTROL **Goedgekeurd**] | Geeft aan dat de component is gecontroleerd en goedgekeurd door de beheerder. Beheerders zien een [!UICONTROL **Goedkeuring vereist**] optie voor niet-goedgekeurde onderdelen. Als u deze optie selecteert, wordt deze gemarkeerd als Goedgekeurd. |
+| [!UICONTROL **Goedgekeurd**] | <p>Geeft aan dat de component is gecontroleerd en goedgekeurd door de beheerder.</p><p>Beheerders zien een optie voor [!UICONTROL **Niet goedkeuren**]. Als u deze optie selecteert, wordt de component gemarkeerd als &quot;Niet goedgekeurd&quot; voor gebruikers.</p> |
+| [!UICONTROL **Niet goedgekeurd**] | <p>Geeft aan dat de component nog niet is gereviseerd en goedgekeurd door de beheerder.</p><p>Beheerders zien een optie voor [!UICONTROL **Goedkeuren**]. Als u deze optie selecteert, wordt de component gemarkeerd als &quot;Goedgekeurd&quot; voor gebruikers.</p> |
 | [!UICONTROL **Beschrijving**] | Beschrijft de voorgenomen functie van de component. (Deze informatie wordt toegevoegd door de beheerder van Analytics, zoals die in [Componentbeschrijvingen toevoegen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
 | [!UICONTROL **Vaak gebruikt met**] | <p>Geeft componenten weer die het meest worden gebruikt met de component die u bekijkt.</p><p>Er worden maximaal vijf componenten weergegeven voor de vijf primaire componenttypen: Metrisch, Berekend metrisch, Dimension, Segment, en de Waaier van de Datum.</p><p>Deze lijst is gebaseerd op gegevens uit de afgelopen 90 dagen. Alleen componenten die u kunt bekijken, worden weergegeven. <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
 | [!UICONTROL **Vergelijkbaar met**] | <p>Hiermee geeft u componenten weer met labels die vergelijkbaar zijn met de component die u bekijkt.</p><p>Er worden maximaal vijf componenten weergegeven voor de vijf primaire componenttypen: Metrisch, Berekend metrisch, Dimension, Segment, en de Waaier van de Datum.</p><p>Alleen componenten die u kunt bekijken, worden weergegeven.</p><p>Om het even welke dubbele componenten in uw rapportreeks zullen hier tonen. Analysebeheerders moeten alle dubbele componenten identificeren en verwijderen, zoals beschreven in [Gezondheid gegevenswoordenboek controleren](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md). <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
