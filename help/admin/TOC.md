@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
+source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 76%
+source-wordcount: '588'
+ht-degree: 75%
 
 ---
 
@@ -114,6 +114,10 @@ ht-degree: 76%
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Privacyrapportage](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + Beheer van Documenten Cloud {#doc-cloud-mgt}
+            + [Document Cloud configureren met Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Rapportage van Documenten Cloud configureren](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + [Advertising Analytics-configuratie](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + Real-time {#real-time-reports}
             + [Overzicht van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuratie van realtimerapporten](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
