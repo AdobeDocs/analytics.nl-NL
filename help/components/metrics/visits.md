@@ -3,9 +3,9 @@ title: Bezoeken
 description: Een reeks paginaweergaven tijdens een sessie.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: ceee6f27581abc288ff08134218ae7f6b93e9201
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '656'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Een bezoek is altijd gekoppeld aan een tijdsperiode, dus u weet of u een nieuw b
 * **30 minuten inactiviteit**: Bijna alle sessies eindigen op deze manier. Als er meer dan 30 minuten tussen de treffers verlopen, wordt een nieuw bezoek gestart.
 * **12 uur activiteit**: Als een gebruiker voortdurend verzoeken om afbeeldingen gedurende meer dan 12 uur zonder tussenruimten van 30 minuten brandt, wordt automatisch een nieuw bezoek gestart.
 * **2500 hits**: Als een gebruiker een groot aantal hits genereert zonder een nieuwe sessie te starten, wordt een nieuw bezoek geteld na 2500 afbeeldingsverzoeken.
-* **100 treffers in 100 seconden**: Als een bezoek uit meer dan 100 hits bestaat die in minder dan 100 seconden voorkomen, beëindigt het bezoek automatisch. Dit gedrag wijst typisch op beide activiteit, en deze beperking wordt afgedwongen om rapportprestaties te helpen verbeteren.
+* **100 treffers in 100 seconden**: Als een bezoek meer dan 100 hits heeft die in de eerste 100 seconden van het bezoek optreden, eindigt het bezoek automatisch. Dit gedrag wijst typisch op beide activiteit, en deze beperking wordt afgedwongen om rapportprestaties te helpen verbeteren.
 
 Een bezoek valt niet noodzakelijk samen met een browsersessie vanwege de bovenstaande criteria. Een van de meest voorkomende verschillen is de plaats waar een bezoeker naar uw site navigeert, het tabblad langer dan 30 minuten open laat en het bladeren hervat. Hoewel deze actie technisch deel uitmaakt van dezelfde sessie, beschouwt Adobe deze actie twee aparte bezoeken.
 
