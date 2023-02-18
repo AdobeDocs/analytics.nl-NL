@@ -3,16 +3,18 @@ title: Trackingcode
 description: De naam van de code of campagne voor bijhouden.
 feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
 
 # Trackingcode
 
-De dimensie &#39;Tracking Code&#39; geeft een overzicht van de namen van trackingcodes op uw site. Deze dimensie wordt typisch verzameld gebruikend de parameters van het vraagkoord. U kunt koppelingen met verschillende parameterwaarden voor queryreeksen op verschillende locaties op internet plaatsen. Deze dimensie meldt welke verbindingen het meest succesvol in het drijven van verkeer aan uw plaats waren.
+De dimensie &#39;Tracking Code&#39; geeft een overzicht van de namen van trackingcodes op uw site. U kunt koppelingen met verschillende parameterwaarden voor queryreeksen op verschillende locaties op internet plaatsen. Deze dimensie helpt u begrijpen welke verbindingen het meest succesvol in het drijven van verkeer aan uw plaats waren.
+
+Tekenreeksen voor bijhouden van code worden vaak toegevoegd in e-mails, advertenties, berichten op sociale media en andere marketingactiviteiten die uw organisatie gebruikt.
 
 ## Deze dimensie vullen met gegevens
 
@@ -20,7 +22,7 @@ Deze dimensie haalt gegevens van terug [`v0` querytekenreeks](/help/implement/va
 
 ## Dimension-items
 
-Dimension-items bevatten de namen van trackingcodes op uw site. Uw organisatie bepaalt welke specifieke afmetingspunten u wilt gebruiken.
+Dimension-items bevatten de namen van trackingcodes op uw site. Uw organisatie bepaalt welke specifieke afmetingspunten u wilt gebruiken. Zie [Campagne bijhouden](/help/implement/use-cases/campaign-tracking.md) voor meer informatie .
 
 ## Vergelijk de het Volgen codedimensie met de kanalen van de Marketing die volgcodes verzamelen
 

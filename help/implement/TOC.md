@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om het meeste uit Analytics-gegevens te halen.
-source-git-commit: 5015fd9b4ab98e31f30b4156d11ace554668a4b7
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 75%
+ht-degree: 74%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 75%
 + Gebruiksscenario&#39;s implementeren {#use-cases}
    + [AppMeasurement gebruiken met iFrames](use-cases/iframe.md)
    + [Verschillende implementatietypen bijhouden](use-cases/cross-type-implementation.md)
-   + [Externe e-mailtracering](use-cases/email-external.md)
+   + [Workflow voor bijhouden van campagnes](use-cases/campaign-tracking.md)
 + Uw implementatie valideren {#validate}
    + [Verouderde Adobe Experience Cloud-foutopsporing](validate/debugger.md)
    + [Queryparameters voor dataverzameling](validate/query-parameters.md)
