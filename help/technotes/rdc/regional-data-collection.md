@@ -3,7 +3,7 @@ title: Regionale dataverzameling
 description: Informatie over regionale gegevensverzameling
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 88d6edd99c96d19980464e0f1cfa5cc867baf645
+source-git-commit: 8f02656820ed0b9201f29fc9dca6870e6f7fe8fd
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 1%
@@ -60,6 +60,7 @@ De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk
 
 De China RDC (China Performance Optimization) add-on package is een belastbare add-on voor Adobe Analytics. Adobe Performance Optimization in Mainland stelt klanten met gebruikers in China in staat om die gegevens rechtstreeks naar Adobe gegevensverzamelingsservers in China te laten verzenden in plaats van naar andere locaties wereldwijd. Deze optimalisatie verbetert de laadtijden van de pagina en de nauwkeurigheid van de gegevens in vergelijking met het verzenden van de gegevens naar locaties buiten China. Gegevens worden uiteindelijk overgedragen naar een van de DPC (Adobe Data Processing Centers) buiten China. Neem voor meer informatie contact op met je Adobe-verkoper.
 
->!![NOTE]
-Het China RDC-invoegpakket wordt niet ondersteund voor de [Web SDK](/help/implement/aep-edge/overview.md).
+>[!NOTE]
+>
+>Het China RDC-invoegpakket wordt niet ondersteund voor de [Web SDK](/help/implement/aep-edge/overview.md).
 
