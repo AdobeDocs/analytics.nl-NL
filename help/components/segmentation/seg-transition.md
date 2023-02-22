@@ -3,9 +3,9 @@ description: Veelgestelde vragen over het beheer van oudere segmenten.
 title: Veelgestelde vragen over verouderde segmenten
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
+source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1446'
 ht-degree: 1%
 
 ---
@@ -153,8 +153,9 @@ Op tekenreeks gebaseerde afmetingen met een bekende set waarden zijn gewijzigd i
 
 De volgende afmetingen zijn gewijzigd in opsommingslijsten:
 
+| Naam Dimension | Naam Dimension | Naam Dimension |
+| --- | --- | --- |
 | mobiele fabrikant | mobiele e-maillengte | kleurdiepte |
-|---|---|---|
 | grootte mobiel scherm | nummer mobiel apparaat | monitorresolutie |
 | hoogte mobiel scherm | mobiele druk om te praten | insteekmodule |
 | ondersteuning voor mobiele cookies | versiering van mobiele post | besturingssysteem |
@@ -171,7 +172,7 @@ De volgende afmetingen zijn gewijzigd in opsommingslijsten:
 
 ## Wijzigingen in Dimension op basis van gehele getallen met bekende waarden {#integer-based-dims}
 
-Op gehele getallen gebaseerde afmetingen (zoals de breedte van de browser) met een bekende set waarden zijn opgedeeld in opsommingsbereiken, zodat u snel segmenten voor een bepaald bereik kunt definiëren. Deze opsommingslijsten worden toegevoegd met &quot; - Emmerd&quot;na de afmetingsnaam. Het volgende scherm toont aan hoe deze afmetingen gebruikend de vorige en nieuwe segmentbouwerinterfaces worden gesegmenteerd:
+Op gehele getallen gebaseerde afmetingen (zoals de breedte van de browser) met een bekende set waarden zijn opgedeeld in opsommingsbereiken, zodat u snel segmenten voor een bepaald bereik kunt definiëren. Deze opsommingslijsten worden toegevoegd met &quot; - Emmerd&quot;na de afmetingsnaam. Het volgende scherm toont hoe deze afmetingen gebruikend de vorige en nieuwe segmentbouwerinterfaces worden gesegmenteerd:
 
 ![](assets/seg_browser_dimension.png)
 
