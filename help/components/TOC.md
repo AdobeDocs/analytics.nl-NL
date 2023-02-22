@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
+source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 51%
+source-wordcount: '687'
+ht-degree: 50%
 
 ---
 
@@ -152,7 +152,8 @@ ht-degree: 51%
    + [Bezoeken](metrics/visits.md)
 + Segmentatie {#segmentation}
    + [Analytics-segmentatie](segmentation/seg-home.md)
-   + [Informatie over segmenten en containers](segmentation/seg-overview.md)
+   + [Segmenten](segmentation/seg-overview.md)
+   + [Informatie over segmentcontainers](segmentation/seg-containers.md)
    + [Segmentatiefuncties in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Segmentatieworkflow {#segmentation-workflow}
       + [Overzicht van de segmentatieworkflow](segmentation/segmentation-workflow/seg-workflow.md)
@@ -173,7 +174,7 @@ ht-degree: 51%
       + [Compatibiliteit van Data Warehouse-segmenten](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentrechten per rol](segmentation/seg-reference/seg-rights.md)
       + [Problemen oplossen](segmentation/seg-reference/c-troubleshooting.md)
-   + [Veelgestelde vragen](segmentation/seg-transition.md)
+   + [Veelgestelde vragen over het beheer van verouderde segmenten ](segmentation/seg-transition.md)
    + [Best practices](segmentation/best-practices.md)
 + Berekende statistieken {#calculated-metrics}
    + [Berekende en Geavanceerde berekende (Afgeleide) Metriek](c-calcmetrics/cm-overview.md)
