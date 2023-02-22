@@ -3,9 +3,9 @@ description: Met segmenten kunt u subsets bezoekers identificeren op basis van k
 title: Segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 385c27de382b7bb047b6c62420d0471dd6e1650d
+source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Analysis Workspace bevat de volgende aanvullende functies:
 
 ## Door Adobe verschafte segmenten
 
-De componentrails aan de linkerkant van het scherm geven segmenten weer die door u en uw bedrijf zijn gemaakt, en Adobe-segmenten die uit het vak worden geleverd. Wanneer u op **[!UICONTROL Show all]** Deze segmenten worden doorgaans onder aan de lijst weergegeven en worden met het logo Adobe aan de rechterkant aangeduid:
+De componentrails aan de linkerkant van het scherm geven segmenten weer die door u en uw bedrijf zijn gemaakt, en Adobe-segmenten die uit het vak worden geleverd. Wanneer u op **[!UICONTROL Show all]** Deze segmenten worden doorgaans onder aan de lijst weergegeven en worden aan de rechterkant aangeduid met het Adobe-logo. Dit is een gedeeltelijke lijst van Adobe-Geleverde segmenten:
 
 ![Adobe-segmenten](assets/adobe-segs.png)
 
@@ -76,7 +76,7 @@ De opeenvolgende segmenten kunnen op de volgende klapwaarden worden gebaseerd:
 
 Een opeenvolgend segment filtert gegevensreeksen die op gebruikersacties worden gebaseerd gebruikend [!UICONTROL THEN] operator.
 
-## Hoe kan ik-video {#segment-video}
+## Hoe kan ik-segmentatievideo {#segment-video}
 
 In deze video ziet u een kort overzicht van de containers voor segmenten en hoe u deze kunt gebruiken: [Containers voor segmenten in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 

@@ -3,9 +3,9 @@ description: Veelgestelde vragen over het beheer van oudere segmenten.
 title: Veelgestelde vragen over verouderde segmenten
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: e1ba6e93bcea4ece6e06941a97227a54116e2c25
+source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1440'
 ht-degree: 1%
 
 ---
@@ -13,26 +13,6 @@ ht-degree: 1%
 # Veelgestelde vragen over verouderde segmenten
 
 Beantwoord frequente vragen over beste praktijken voor het beheren van erfenissegmenten - segmenten die vóór 2014 werden gecreeerd.
-
-## Best practices voor {#best-practices}
-
-+++ **Wat zou ik met dubbele segmenten moeten doen die de zelfde naam hebben maar verschillende definities kunnen hebben?**
-Nu de segmenten in veelvoudige rapportreeksen werken, zou u kunnen vinden dat u veelvoudige segmenten met de zelfde naam hebt. We raden u aan
-
-* Naam wijzigen van segmenten met dezelfde naam, maar met andere definities, of
-* Segmenten verwijderen die niet meer nodig zijn.
-
-+++
-
-+++ **Wat adviseert Adobe met betrekking tot het schoonmaken van segmenten?**
-
-* Label alle segmenten met verouderde tag.
-* Bekijk de segmenten die u hebt.
-* Voeg deze waar van toepassing toe aan de segmentbibliotheek.
-* Goedkeuren van canonieke segmenten.
-* Segmenten labelen volgens [best practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
-
-+++
 
 ## Oudere segmenten beheren {#legacy}
 
@@ -70,7 +50,7 @@ U kunt een nieuwe segmenten van de Data Warehouse in de de segmentbouwer/manager
 
 +++
 
-**Wat gebeurde met pre-gevormde Segmenten?**
++++ **Wat gebeurde met pre-gevormde Segmenten?**
 
 * **Bezoeken van één pagina**
 * **Bezoeken van mobiele apparaten**
@@ -98,7 +78,7 @@ Bestaande rapporten waarop deze segmenten zijn toegepast, werken nog steeds corr
 
 +++
 
-+++ **Wat gebeurt er met Admin-segmenten (ook wel &quot;algemene&quot; segmenten genoemd)?**
++++ **Wat gebeurde er met Admin-segmenten (ook wel &quot;algemene&quot; segmenten genoemd)?**
 
 **Beheer** De segmenten zullen in de nieuwe segmentinterface worden gemigreerd en zullen verschijnen als segmenten die met iedereen worden gedeeld.
 
@@ -110,6 +90,24 @@ Bestaande segmenten die logica gebruiken die is gewijzigd zoals beschreven in di
 
 +++
 
++++ **Wat zou ik met dubbele segmenten moeten doen die de zelfde naam hebben maar verschillende definities kunnen hebben?**
+Nu de segmenten in veelvoudige rapportreeksen werken, zou u kunnen vinden dat u veelvoudige segmenten met de zelfde naam hebt. We raden u aan
+
+* Naam wijzigen van segmenten met dezelfde naam, maar met andere definities, of
+* Segmenten verwijderen die niet meer nodig zijn.
+
++++
+
++++ **Wat adviseert Adobe met betrekking tot het schoonmaken van segmenten?**
+
+* Label alle segmenten met verouderde tag.
+* Bekijk de segmenten die u hebt.
+* Voeg deze waar van toepassing toe aan de segmentbibliotheek.
+* Goedkeuren van canonieke segmenten.
+* Segmenten labelen volgens [best practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+
++++
+
 ### Migratietips
 
 Aan de hand van de volgende tips kunt u veel voorkomende afmetingen migreren:
@@ -117,10 +115,7 @@ Aan de hand van de volgende tips kunt u veel voorkomende afmetingen migreren:
 * Geo-city/region/country - zoek naar en selecteer specifieke steden, regio&#39;s of landen in plaats van een gedeeltelijke match.
 * Browsers - gebruik de dimensie Browsertypen om alle browsers in een type op te halen, bijvoorbeeld Google Chrome
 * Besturingssystemen - gebruik de afmetingen voor besturingssysteemtypen om alle besturingssystemen in een type op te halen, bijvoorbeeld Microsoft Windows.
-
-* [Nieuwe en hernoemde Dimension](/help/components/segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Wijzigingen in Bevat](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Wijzigingen in Kleiner dan en Groter dan](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* Zie &quot;Nieuwe en hernoemde Dimension&quot; (zie hieronder).
 
 ## Nieuwe en hernoemde Dimension {#renamed}
 
