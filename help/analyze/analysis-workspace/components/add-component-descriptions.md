@@ -3,18 +3,18 @@ description: Beheerders kunnen beschrijvingen voor componenten toevoegen met de 
 title: Componentbeschrijvingen toevoegen
 feature: Components
 role: Admin
-source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
+source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 # Componentbeschrijvingen toevoegen
 
-Analysebeheerders kunnen beschrijvingen toevoegen voor componenten (Dimension, Metriek, Segmenten en Datumbereiken)<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Met behulp van beschrijvingen kunnen gebruikers het beste de verschillende componenten gebruiken bij het maken van projecten in Analysis Workspace of bij het weergeven van rapporten.
 
-De gebruikers in uw organisatie kunnen de beschrijvingen bekijken wanneer het bouwen van projecten in Analysis Workspace of wanneer het bekijken van rapporten. Met behulp van beschrijvingen kunnen gebruikers de verschillende componenten het beste gebruiken.
+Analysebeheerders kunnen beschrijvingen toevoegen voor componenten (Dimension, Metriek, Segmenten en Datumbereiken)<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
 
 ## Beschrijvingen toevoegen aan componenten in een rapportsuite
 

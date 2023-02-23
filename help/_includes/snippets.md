@@ -1,7 +1,7 @@
 ---
-source-git-commit: df0d2c4687117fd00714ced56db6259e44698a20
+source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
    | [!UICONTROL **Alles tonen**] | Alle componenten tonen. Deze optie is alleen beschikbaar voor beheerders. |
    | [!UICONTROL **Niet goedgekeurd**] | Alleen componenten tonen die nog niet zijn gemarkeerd als goedgekeurd door een beheerder. Als beheerder, is dit nuttig wanneer het identificeren van componenten die uw overzicht en goedkeuring vereisen. Deze optie is alleen beschikbaar voor beheerders. |
    | [!UICONTROL **Ontbrekende beschrijving**] | Alleen componenten weergeven die nog geen beschrijving hebben in het veld Beschrijving. Deze optie is alleen beschikbaar voor beheerders. |
-   | [!UICONTROL **Duplicaten tonen**] | Alleen componenten weergeven die hetzelfde label of dezelfde beschrijving hebben als een andere component in de geselecteerde rapportsuite. Labels of beschrijvingen moeten exact overeenkomen om te worden weergegeven als duplicaten. Deze optie is alleen beschikbaar voor beheerders. |
+   | [!UICONTROL **Duplicaten tonen**] | Alleen componenten weergeven die hetzelfde label of dezelfde beschrijving hebben als een andere component in de geselecteerde rapportsuite. Dit geldt ook voor componenten die u maakt en voor componenten die door Adobe worden geleverd. Labels of beschrijvingen moeten exact overeenkomen om te worden weergegeven als duplicaten. Deze optie is alleen beschikbaar voor beheerders. |
    | [!UICONTROL **Geen recente gegevens**] | Alleen componenten weergeven die de afgelopen 90 dagen geen gegevens hebben verzameld. Deze optie is alleen beschikbaar voor beheerders. |
    | [!UICONTROL **Gemaakt door Adobe**] <!-- I don't see this option--> | Alleen componenten weergeven die zijn gemaakt door Adobe. Componenten die door een beheerder of een andere gebruiker in uw organisatie zijn gemaakt, worden niet weergegeven. |
 
