@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om het meeste uit Analytics-gegevens te halen.
-source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
+source-git-commit: 9a16cd89b2d650098495902cca5c5229df48b475
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '410'
 ht-degree: 74%
 
 ---
@@ -127,6 +127,7 @@ ht-degree: 74%
    + [Module integreren](vars/integrate.md)
 + Implementatie van Adobe Analytics voorbereiden {#prepare}
    + [Een datalaag maken](prepare/data-layer.md)
+   + [Implementatiemethoden vergelijken](prepare/comparison.md)
    + [Overwegingen voor algemene rapportsuites](prepare/global-rs.md)
    + [Tags implementeren met meerdere suite](prepare/multi-suite-tagging.md)
    + [Een document voor het ontwerp van een oplossing maken](prepare/solution-design.md)
