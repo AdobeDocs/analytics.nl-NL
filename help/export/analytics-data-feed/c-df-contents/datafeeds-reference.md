@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
+source-git-commit: 2af8c2ee2ad8f445390a0b732630af1e1304d9a5
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3629'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,11 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`ch_hdr`** | Clienttips die via de HTTP-aanvraagheader worden verzameld. | text |
 | **`ch_js`** | Clienttips die zijn verzameld via de JavaScript-API voor client-tips voor de gebruikersagent. | text |
 | **`channel`** | Variabele gebruikt in de [Site-secties](/help/components/dimensions/site-section.md) dimensie. | varchar(100) |
-| **`click_action`** | Niet meer gebruikt. Adres van verbonden klikte in het hulpmiddel van de erfenisKaart. | varchar(100) |
-| **`click_action_type`** | Niet meer gebruikt. Het type van verbinding van het erfenis hulpmiddel Clickmap.<br>0: HREF-URL<br>1: Aangepaste id<br>2: JavaScript-gebeurtenis onClick<br>3: Formulierelement | tinyint zonder teken |
-| **`click_context`** | Niet meer gebruikt. De paginanaam waar de verbinding voorkwam. Deel van het oude Clickmap-gereedschap. | varchar(255) |
+| **`click_action`** | Niet meer gebruikt. Adres van verbonden klikte in het hulpmiddel van de erfenis ClickMap. | varchar(100) |
+| **`click_action_type`** | Niet meer gebruikt. Koppelingstype van het verouderde ClickMap.<br>0: HREF-URL<br>1: Aangepaste id<br>2: JavaScript-gebeurtenis onClick<br>3: Formulierelement | tinyint zonder teken |
+| **`click_context`** | Niet meer gebruikt. De paginanaam waar de verbinding voorkwam. Onderdeel van het oude ClickMap. | varchar(255) |
 | **`click_context_type`** | Niet meer gebruikt. Geeft aan of `click_context` had een paginanaam of standaard aan pagina URL.<br>0: Pagina-URL<br>1: Paginanaam | tinyint zonder teken |
-| **`click_sourceid`** | Niet meer gebruikt. Numerieke id voor de locatie op de pagina van de aangeklikte koppeling. Deel van het oude Clickmap-gereedschap. | int zonder teken |
+| **`click_sourceid`** | Niet meer gebruikt. Numerieke id voor de locatie op de pagina van de aangeklikte koppeling. Onderdeel van het oude ClickMap. | int zonder teken |
 | **`click_tag`** | Niet meer gebruikt. Type HTML-element waarop is geklikt. | teken(10) |
 | **`clickmaplink`** | Koppeling naar Activity Map | varchar(255) |
 | **`clickmaplinkbyregion`** | Activity Map per regio | varchar(255) |
@@ -61,7 +61,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`curr_factor`** | Bepaalt de decimale valutapositie en wordt gebruikt voor valutaomrekening. In USD worden bijvoorbeeld twee decimalen gebruikt, zodat deze kolomwaarde 2 is. | tinyint |
 | **`curr_rate`** | De wisselkoers op het tijdstip van de transactie. Adobe werkt samen met XE om de wisselkoers van de huidige dag te bepalen. | decimaal (24,12) |
 | **`currency`** | De valutacode die tijdens de transactie werd gebruikt. | teken(8) |
-| **`cust_hit_time_gmt`** | Alleen voor tijdstempels geschikte rapportsuites. De tijdstempel die met de hit wordt verzonden, uitgedrukt in Unix-tijd. | int |
+| **`cust_hit_time_gmt`** | Alleen voor tijdstempels geschikte rapportsuites. De tijdstempel die met de hit wordt verzonden, gebaseerd in UNIX®-tijd. | int |
 | **`cust_visid`** | Als een aangepaste bezoeker-id is ingesteld, wordt deze in deze kolom ingevuld. | varchar(255) |
 | **`daily_visitor`** | Markering om te bepalen of de treffer een nieuwe dagelijkse bezoeker is. | tinyint zonder teken |
 | **`dataprivacyconsentoptin`** | Variabele gebruikt in de [Optie voor beheer van toestemming](/help/components/dimensions/cm-opt-in.md) dimensie. Er kunnen meerdere waarden aanwezig zijn per hit, gescheiden door een pipe (`\|`). Geldige waarden zijn `DMP` en `SELL`. | varchar(100) |
@@ -80,17 +80,17 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`first_hit_ref_domain`** | Variabele gebruikt in de [Origineel verwijzend domein](/help/components/dimensions/original-referring-domain.md) dimensie. Gebaseerd op `first_hit_referrer`. Het allereerste verwijzende domein van de bezoeker. | varchar(100) |
 | **`first_hit_ref_type`** | Numerieke id die het referentietype van de allereerste referentie van de bezoeker vertegenwoordigt. Gebruiksmiddelen `referrer_type.tsv` opzoeken. | tinyint zonder teken |
 | **`first_hit_referrer`** | De allereerste verwijzende URL van de bezoeker. | varchar(255) |
-| **`first_hit_time_gmt`** | Tijdstempel van de allereerste hit van de bezoeker in Unix-tijd. | int |
+| **`first_hit_time_gmt`** | Tijdstempel van de allereerste hit van de bezoeker in UNIX®-tijd. | int |
 | **`geo_city`** | De naam van de stad waar de hit vandaan kwam, op basis van IP. Gebruikt in de [Plaatsen](/help/components/dimensions/cities.md) dimensie. | teken(32) |
 | **`geo_country`** | Afkorting van het land waar de treffer vandaan kwam, gebaseerd op IP. Gebruikt in de [Landen](/help/components/dimensions/countries.md) dimensie. | teken(4) |
 | **`geo_dma`** | Numerieke id van het demografische gebied waar de hit vandaan komt, gebaseerd op IP. Gebruikt in de [US DMA](/help/components/dimensions/us-dma.md) dimensie. | int zonder teken |
 | **`geo_region`** | De naam van de staat of regio waar de treffer vandaan kwam, op basis van IP. Gebruikt in de [Regio&#39;s](/help/components/dimensions/regions.md) dimensie. | teken(32) |
-| **`geo_zip`** | De postcode waar de hit vandaan kwam, gebaseerd op IP. Hiermee kunt u de [Postcode](/help/components/dimensions/zip-code.md) dimensie. Zie ook `zip`. | varchar(16) |
+| **`geo_zip`** | De postcode waaruit de hit afkomstig was, gebaseerd op IP. Hiermee kunt u de [Postcode](/help/components/dimensions/zip-code.md) dimensie. Zie ook `zip`. | varchar(16) |
 | **`hier1 - hier5`** | Wordt gebruikt door hiërarchievariabelen. Bevat een lijst met gescheiden waarden. Het scheidingsteken wordt gekozen onder de instellingen van de rapportsuite. | varchar(255) |
-| **`hit_source`** | Geeft aan uit welke bron de treffer afkomstig is. De bronnen 1, 2 en 6 van de it worden gefactureerd. <br>1: Standaardverzoek om afbeelding zonder tijdstempel <br>2: Standaardverzoek om afbeelding met tijdstempel <br>3: Live uploaden van gegevensbron met tijdstempels <br>4: Niet gebruikt <br>5: Generieke gegevensbron uploaden <br>6: Uploaden gegevensbron volledige verwerking <br>7: TransactieID-gegevensbron uploaden <br>8: niet meer gebruikt; Eerdere versies van Adobe Advertising Cloud-gegevensbronnen <br>9: niet meer gebruikt; Samenvattingscijfers voor Adobe Social <br>10: Audience Manager server-kant gebruikt door:sturen | tinyint zonder teken |
-| **`hit_time_gmt`** | De timestamp van de de gegevensverzamelingsservers van de hit Adobe ontvingen de slag, die in Unix tijd wordt gebaseerd. | int |
-| **`hitid_high`** | Wordt gebruikt in combinatie met `hitid_low` om een treffer te identificeren. | bigint zonder teken |
-| **`hitid_low`** | Wordt gebruikt in combinatie met `hitid_high` om een treffer te identificeren. | bigint zonder teken |
+| **`hit_source`** | Geeft de bron aan waaruit de treffer afkomstig is. De bronnen 1, 2 en 6 van de it worden gefactureerd. <br>1: Standaardverzoek om afbeelding zonder tijdstempel <br>2: Standaardverzoek om afbeelding met tijdstempel <br>3: Live uploaden van gegevensbron met tijdstempels <br>4: Niet gebruikt <br>5: Generieke gegevensbron uploaden <br>6: Uploaden gegevensbron volledige verwerking <br>7: TransactieID-gegevensbron uploaden <br>8: niet meer gebruikt; Eerdere versies van Adobe Advertising Cloud-gegevensbronnen <br>9: niet meer gebruikt; Samenvattingscijfers voor Adobe Social <br>10: Audience Manager server-kant gebruikt door:sturen | tinyint zonder teken |
+| **`hit_time_gmt`** | De timestamp van de servers van de de inzamelingsgegevens van de hit Adobe ontvingen de klap, die in tijd UNIX® wordt gebaseerd. | int |
+| **`hitid_high`** | Gebruikt met `hitid_low` om een treffer te identificeren. | bigint zonder teken |
+| **`hitid_low`** | Gebruikt met `hitid_high` om een treffer te identificeren. | bigint zonder teken |
 | **`homepage`** | Niet meer gebruikt. Geeft aan of de huidige URL de homepage van de browser is. | teken(1) |
 | **`hourly_visitor`** | Markering om te bepalen of de treffer een nieuwe uurbezoeker is. | tinyint zonder teken |
 | **`ip`** | Het IPv4-adres, gebaseerd op de HTTP-header van de afbeeldingsaanvraag. Wederzijdse uitsluitingen aan `ipv6`; als deze kolom een niet verduisterd IP adres bevat, `ipv6` is leeg. | teken(20) |
@@ -100,9 +100,9 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`java_enabled`** | Markering die aangeeft of Java is ingeschakeld. <br>Y: Ingeschakeld <br>N: Uitgeschakeld <br>U: Onbekend | teken(1) |
 | **`javascript`** | Opzoeken-id van JavaScript-versie, gebaseerd op `j_jscript`. Gebruikt opzoektabel. | tinyint zonder teken |
 | **`language`** | Numerieke id van taal. Gebruiksmiddelen `languages.tsv` opzoektabel. | small int zonder teken |
-| **`last_hit_time_gmt`** | Tijdstempel (in Unix-tijd) van de voorgaande hit. Wordt gebruikt om de [Dagen sinds laatste bezoek](/help/components/dimensions/days-since-last-visit.md) dimensie. | int |
+| **`last_hit_time_gmt`** | Tijdstempel (in UNIX®-tijd) van de voorgaande hit. Wordt gebruikt om de [Dagen sinds laatste bezoek](/help/components/dimensions/days-since-last-visit.md) dimensie. | int |
 | **`last_purchase_num`** | Variabele gebruikt in de [Klantenloyaliteit](/help/components/dimensions/customer-loyalty.md) dimensie. Het aantal eerdere aankopen dat de bezoeker heeft gedaan. <br>0: Geen eerdere aankopen (geen klant) <br>1: 1 eerdere aankoop (nieuwe klant) <br>2: 2 eerdere aankopen (retourklant) <br>3: 3 of meer eerdere aankopen (loyale klant) | int zonder teken |
-| **`last_purchase_time_gmt`** | Gebruikt in de [Dagen sinds laatste aankoop](/help/components/dimensions/days-since-last-purchase.md) dimensie. Tijdstempel (in Unix-tijd) van de laatste aanschaf. Voor eerste aankopen en bezoekers die nog niet eerder een aankoop hebben gedaan, is deze waarde `0`. | int |
+| **`last_purchase_time_gmt`** | Gebruikt in de [Dagen sinds laatste aankoop](/help/components/dimensions/days-since-last-purchase.md) dimensie. Tijdstempel (in UNIX®-tijd) van de laatste aanschaf. Voor eerste aankopen en bezoekers die nog niet eerder een aankoop hebben gedaan, is deze waarde `0`. | int |
 | **`latlon1`** | Locatie (tot 10 km) | varchar(255) |
 | **`latlon23`** | Locatie (tot 100 m) | varchar(255) |
 | **`latlon45`** | Locatie (tot 1 m) | varchar(255) |
@@ -130,7 +130,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`mobiledeeplinkid`** | Verzameld op basis van de variabele contextgegevens `a.deeplink.id`. Wordt gebruikt in overnamerapporten als een identifier voor een koppeling naar een mobiele overname. | varchar(255) |
 | **`mobiledevice`** | Naam van mobiel apparaat. In iOS wordt de notatie opgeslagen als een door komma&#39;s gescheiden tekenreeks van 2 cijfers. Het eerste getal vertegenwoordigt de apparaatgeneratie en het tweede getal vertegenwoordigt de apparaatfamilie. | varchar(255) |
 | **`mobilehourofday`** | Definieert het uur van de dag waarop de app is gestart. Volg de numerieke notatie van 24 uur. | varchar(255) |
-| **`mobileinstalldate`** | Datum mobiele installatie. Verstrekt de datum van de eerste keer een gebruiker de mobiele app opent. | varchar(255) |
+| **`mobileinstalldate`** | Datum mobiele installatie. Vermeldt de datum van de eerste keer dat een gebruiker de mobiele app opent. | varchar(255) |
 | **`mobilelaunchessincelastupgrade`** | RETIRED - Verzameld van de variabele van contextgegevens a.LaunchesSinceUpgrade. Meldt het aantal keren dat de installatie is gestart sinds de laatste upgrade. | varchar(255) |
 | **`mobilelaunchnumber`** | Elke keer dat de mobiele app wordt gestart, neemt deze met één toe. | varchar(255) |
 | **`mobileltv`** | Niet meer gebruikt. Bevolkt door trackLifetimeValue-methoden. | varchar(255) |
@@ -145,7 +145,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`mobileplacecategory`** | Verzameld op basis van de variabele contextgegevens `a.loc.category`. Beschrijft de categorie van een specifieke plaats. | varchar(255) |
 | **`mobileplaceid`** | Verzameld op basis van de variabele contextgegevens `a.loc.id`. Identificatiecode voor een bepaald aandachtspunt. | varchar(255) |
 | **`mobilepushoptin`** | Push-optie voor mobiele services | varchar(255) |
-| **`mobilepushpayloadid`** | ID Push-payload voor mobiele services | varchar(255) |
+| **`mobilepushpayloadid`** | Mobiele services, oplaadID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Inhoud voor mobiele services starten | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Mobiele services, startmedium | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Bron voor mobiele services | varchar(255) |
@@ -153,8 +153,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`mobilerelaunchcampaigntrackingcode`** | Verzameld op basis van de variabele contextgegevens `a.launch.campaign.trackingcode`. Wordt gebruikt in aankopen als de code voor het bijhouden van de opstartiecampagne. | varchar(255) |
 | **`mobileresolution`** | Resolutie van het mobiele apparaat. `[Width] x [Height]` in pixels. | varchar(255) |
 | **`monthly_visitor`** | Markering die aangeeft dat de bezoeker uniek is voor de huidige maand. | tinyint zonder teken |
-| **`mvvar1`** - `mvvar3` | De veranderlijke waarden van de lijst die op de huidige treffer worden geplaatst of van vorige klappen voortgeduurd. Bevat een lijst met gescheiden waarden, afhankelijk van de implementatie. De `post_mvvar1` - `post_mvvar3` kolommen vervangen door het originele scheidingsteken `--**--`. | text |
-| **`mvvar1_instances`** - `mvvar3_instances` | De waarden van de lijstvariabele die op de huidige treffer werden geplaatst. De `post_mvvar1_instances` - `post_mvvar3_instances` kolommen vervangen door het originele scheidingsteken `--**--`. | text |
+| **`mvvar1`** - `mvvar3` | Variabele waarden weergeven. Bevat een lijst met gescheiden waarden, afhankelijk van de implementatie. De `post_mvvar1` - `post_mvvar3` kolommen vervangen door het originele scheidingsteken `--**--`. | text |
+| **`mvvar1_instances`** - `mvvar3_instances` | De waarden van de lijstvariabele die op de huidige treffer werden geplaatst. Hiermee vervangt u het oorspronkelijke scheidingsteken door `--**--`. Heeft geen `post` kolom. | text |
 | **`namespace`** | Niet gebruikt. Onderdeel van een gesloopt onderdeel. | varchar(50) |
 | **`new_visit`** | Markering die bepaalt of de huidige treffer een nieuw bezoek is. Wordt ingesteld door Adobe-servers na 30 minuten inactiviteit van het bezoek. | tinyint zonder teken |
 | **`os`** | Numerieke id die het besturingssysteem van de bezoeker vertegenwoordigt. Op basis van de `user_agent` kolom. Gebruiksmiddelen `os` opzoeken. | int zonder teken |
@@ -275,10 +275,10 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`videoshow`** | Videoshow | varchar(255) |
 | **`videoshowtype`** | Type video-presentatie | varchar(255) |
 | **`videostreamtype`** | Type videostream | varchar(255) |
-| **`visid_high`** | Wordt gebruikt in combinatie met `visid_low` om een bezoeker op unieke wijze te identificeren. | bigint zonder teken |
-| **`visid_low`** | Wordt gebruikt in combinatie met `visid_high` om een bezoeker op unieke wijze te identificeren. | bigint zonder teken |
+| **`visid_high`** | Gebruikt met `visid_low` om een bezoeker op unieke wijze te identificeren. | bigint zonder teken |
+| **`visid_low`** | Gebruikt met `visid_high` om een bezoeker op unieke wijze te identificeren. | bigint zonder teken |
 | **`visid_new`** | Markering om te bepalen of de treffer een onlangs gegenereerde bezoeker-id bevat. | teken(1) |
-| **`visid_timestamp`** | Als de bezoeker-id pas is gegenereerd, geeft u het tijdstempel (in Unix-tijd) op van het tijdstip waarop de bezoeker-id is gegenereerd. | int |
+| **`visid_timestamp`** | Als de bezoeker-id pas is gegenereerd, geeft u het tijdstempel (in UNIX®-tijd) op van het tijdstip waarop de bezoeker-id is gegenereerd. | int |
 | **`visid_type`** | Niet voor extern gebruik; intern gebruikt door Adobe voor verwerkingsoptimalisaties. Numerieke id die de methode vertegenwoordigt die wordt gebruikt om de bezoeker te identificeren.<br>`0`: Aangepaste bezoeker-id of onbekend/niet van toepassing<br>`1`: IP en gebruikersagent fallback <br>`2`: Koptekst van HTTP Mobile-abonnee <br>`3`: Verouderde cookie-waarde (`s_vi`) <br>`4`: Waarde van fallback-cookie (`s_fid`) <br>`5`: Identiteitsservice | tinyint zonder teken |
 | **`visit_keywords`** | Variabele gebruikt in de [Trefwoord zoeken](/help/components/dimensions/search-keyword.md) dimensie. Deze kolom gebruikt een niet-standaard karaktergrens van varchar (244) om achterste die logica aan te passen door Adobe wordt gebruikt. | varchar(244) |
 | **`visit_num`** | Variabele gebruikt in de [Bezoek nummer](/help/components/dimensions/visit-number.md) dimensie. Begint bij 1, en verhoogt telkens als een nieuw bezoek per bezoeker begint. | int zonder teken |
@@ -289,7 +289,7 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 | **`visit_search_engine`** | Numerieke id van de eerste zoekfunctie van het bezoek. Gebruiksmiddelen `search_engines.tsv` opzoeken. | small int zonder teken |
 | **`visit_start_page_url`** | De eerste URL van het bezoek. | varchar(255) |
 | **`visit_start_pagename`** | De waarde Paginanaam in de eerste hit van het bezoek. | varchar(100) |
-| **`visit_start_time_gmt`** | Tijdstempel (in Unix-tijd) van de eerste hit van het bezoek. | int |
+| **`visit_start_time_gmt`** | Tijdstempel (in UNIX®-tijd) van de eerste hit van het bezoek. | int |
 | **`weekly_visitor`** | Markering om te bepalen of de treffer een nieuwe wekelijkse bezoeker is. | tinyint zonder teken |
 | **`yearly_visitor`** | Markering om te bepalen of de treffer een nieuwe jaarlijkse bezoeker is. | tinyint zonder teken |
 | **`zip`** | Hiermee kunt u de [Postcode](/help/components/dimensions/zip-code.md) dimensie. Zie ook `geo_zip`. | varchar(50) |
