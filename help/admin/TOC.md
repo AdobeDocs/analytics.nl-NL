@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
+source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '629'
+ht-degree: 73%
 
 ---
 
@@ -153,6 +153,18 @@ ht-degree: 0%
       + [Voorkeurenbeheer](admin/company/preferences-manager.md)
       + [In behandeling zijnde handelingen](admin/company/pending-actions-admin.md)
       + [Toegangsniveaus voor functies](admin/company/feature-access-levels.md)
+   + Privacy-etikettering voor gegevensbeheer {#data-governance}
+      + [Adobe Analytics Data Privacy-workflow](admin/c-data-governance/an-gdpr-workflow.md)
+      + [Veelgestelde vragen](admin/c-data-governance/gdpr-faq.md)
+      + Gegevensetikettering {#data-labels}
+         + [Privacy-labels voor gegevens voor componenten Analytics](admin/c-data-governance/data-labeling/gdpr-labels.md)
+         + [Rapportsuitedata labelen](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+         + [De privacylabels van de rapportsuite weergeven/beheren](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
+         + [Best practices voor labelen](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
+         + [Voorbeeld van labeling](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
+         + [Naamruimten](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
+      + [Id-uitbreiding](admin/c-data-governance/gdpr-id-expansion.md)
+      + [Vrijstelling van CNIL-toestemming](admin/c-data-governance/cnil-consent-exemption.md)
    + Gebruik van server calls {#server-call-usage}
       + [Overzicht van het gebruik van server calls](admin/c-server-call-usage/overage-overview.md)
       + [Huidig gebruik van server calls weergeven](admin/c-server-call-usage/server-call-usage-dashboard.md)
