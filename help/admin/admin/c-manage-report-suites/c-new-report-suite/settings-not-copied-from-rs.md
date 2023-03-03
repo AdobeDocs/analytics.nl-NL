@@ -3,7 +3,7 @@ description: Als u montages van een bestaande rapportreeks kopieerde, identifice
 title: Instellingen die niet uit een bronrapportsuite zijn gekopieerd
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 9%
@@ -64,7 +64,7 @@ De volgende montages worden niet gekopieerd van malplaatje of gedupliceerde rapp
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA-regels </p> </td> 
-   <td colname="col2"> <p>Neem contact op met uw Customer Success Manager om contact op te nemen met de Engineering Services. </p> </td> 
+   <td colname="col2"> <p>Neem contact op met uw accountteam van Adobe om contact op te nemen met Engineering Services. </p> </td> 
   </tr> 
  </tbody> 
 </table>

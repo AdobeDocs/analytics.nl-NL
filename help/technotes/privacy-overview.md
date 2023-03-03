@@ -4,10 +4,10 @@ keywords: privacy
 title: Privacyoverzicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 77e50dec593722855f30c517f63141e84f665519
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '759'
+ht-degree: 88%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Analytics verzamelt de volgende data:
 | Europa | Adobe heeft de instelling IP-onzichtbaarmaking: ingeschakeld - IP verwijderd (x.x.x.x) standaard ingeschakeld voor alle klanten met een rapportsuite in EMEA. Met deze instelling wordt het IP-adres volledig vervangen door de waarde (x.x.x.x) na geografisch opzoeken van de locatie, en is niet meer beschikbaar als datapunt. Deze basisvervangingsmethode kan niet worden herleid tot een uniek, specifiek IP-adres. De klant en Adobe hebben geen van beiden toegang tot het IP-adres. Het is onomkeerbaar geanonimiseerd. Voor meer informatie over andere IP verduisteringsmontages, zie [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in de handleiding voor Admin-gebruikers. |
 | Algemeen | Een klant kan de variabele voor de levensduur van cookies in de JavaScript-meetcode instellen op de waarde “none”, “session” of een andere waarde die in seconden wordt opgegeven. |
 | Europa | Adobe heeft een nieuwe instelling “ontworpen privacy”, die nu kan worden ingeschakeld door Adobe ClientCare voor Adobe Analytics (vroeger SiteCatalyst) versie 14.9 en 15.4. Wanneer deze nieuwe instelling is ingeschakeld, worden de laatste acht tekens (het laatste deel) van het IP-adres direct vervangen door de waarde 0 zodra het IP-adres door Adobe wordt opgehaald. Deze anonimisering wordt uitgevoerd voorafgaand aan enige verwerking van het IP-adres, ook voorafgaand aan het optionele geografisch opzoeken of via ISP opzoeken van het IP-adres. |
-| Duitsland | Als u nog geen gegevensverwerkingsovereenkomst voor Adobe Analytics hebt met Adobe, neemt u contact op met uw Adobe-accountmanager of Customer Success Manager. Deze zal samenwerken met de juridische afdeling van de Adobe om de gegevensopslagruimte op zijn plaats te krijgen. |
+| Duitsland | Als u nog geen gegevensverwerkingsovereenkomst voor Adobe Analytics hebt met Adobe, neemt u contact op met uw Adobe-accountteam. Deze zal samenwerken met de juridische afdeling van Adobe om de gegevensopslagruimte op zijn plaats te krijgen. |
 
 ## Locatie EMEA-datacenter {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 

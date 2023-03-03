@@ -3,10 +3,10 @@ description: In dit document wordt beschreven wat u in Adobe Analytics moet doen
 title: Adobe Analytics en GDPR
 feature: Data Governance
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,7 @@ Zie [Rapportsuitedata labelen](/help/admin/admin/c-data-governance/data-labeling
 
    >[!NOTE]
    >
-   >Adobe Analytics kan u niet helpen bij het verwerken van aanvragen bij de GDPR-API, dat wil zeggen, het verwerken van toegangs- of verwijderingsaanvragen die u van uw eindgebruikers ontvangt, als de dataretentieperiode niet is ingesteld in Adobe Analytics. Neem contact op met de Customer Success Manager om de periode voor dataretentie in te stellen.
+   >Adobe Analytics kan u niet helpen bij het verwerken van aanvragen bij de GDPR-API, dat wil zeggen, het verwerken van toegangs- of verwijderingsaanvragen die u van uw eindgebruikers ontvangt, als de dataretentieperiode niet is ingesteld in Adobe Analytics. Neem contact op met uw Adobe-accountteam om de periode voor het bewaren van gegevens in te stellen.
 
 * Controleer uw toestemmingen: als u de Data Governance-beheerinterface van Adobe Analytics wilt gebruiken, moet u een Adobe Analytics-beheerder zijn.
 
