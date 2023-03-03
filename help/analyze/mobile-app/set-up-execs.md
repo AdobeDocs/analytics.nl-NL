@@ -4,9 +4,9 @@ title: Uitvoerende gebruikers instellen met de app
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -114,4 +114,4 @@ Verifieer dat de uitvoerende gebruiker in de juiste instantie van Adobe Analytic
 
 >[!IMPORTANT]
 >
->Vanaf oktober 2020 implementeert Adobe geleidelijk een reeks verbeteringen om de prestaties van de app Adobe Analytics-dashboards te optimaliseren. Deze verbeteringen richten zich op caching historische gegevens van Analytics die worden gebruikt om scorecards met data (exclusief de huidige dag) te bevolken. Deze gegevens worden maximaal 24 uur in cache opgeslagen in een veilige Microsoft Azure Public Cloud Storage-account. Neem contact op met uw CSM als u zich wilt afmelden voor deze functies voor prestatieverbetering.
+>Vanaf oktober 2020 implementeert Adobe geleidelijk een reeks verbeteringen om de prestaties van de app Adobe Analytics-dashboards te optimaliseren. Deze verbeteringen richten zich op caching historische gegevens van Analytics die worden gebruikt om scorecards met data (exclusief de huidige dag) te bevolken. Deze gegevens worden maximaal 24 uur in cache opgeslagen in een veilige Microsoft Azure Public Cloud Storage-account. Neem contact op met uw Adobe-accountteam als u zich wilt afmelden voor deze functies voor prestatieverbetering.
