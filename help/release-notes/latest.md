@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6c6682202e8780ddb9bf96a4bdd61ff0558c9f09
+source-git-commit: 2f725239404a1d08b63a12c9e6b4e4fa3c35d410
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1104'
 ht-degree: 3%
 
 ---
@@ -36,8 +36,8 @@ AN-302282; AN-303127; AN-303541; AN-303550; AN-305282; AN-306504; AN-307351; AN-
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
-| **Bijwerken naar apparaatraadplegingen als gevolg van Google Client Hints** | 27 februari 2023 | Het voor 16 februari 2023 geplande gebruik van de tips voor de klant is uitgesteld om de kwaliteit van de raadplegingen van het apparaat met behulp van de tips beter te waarborgen. Op 27 februari 2023 gaan we verder met de eerste fase van de release voor ondersteuning van Client Hints. Als alles goed gaat, gaan we op donderdag 2 maart 2023 naar de tweede en laatste fase van de vrijlating. [Meer informatie](/help/technotes/client-hints.md) |
-| **Beschikbaarheid van analytische bronconnector** | 15 februari 2023 | Op 28 februari 2023 wordt de Analytics Source Connector beschikbaar gesteld in het nieuwe Adobe Experience Platform-datacenter in Canada. |
+| **Bijwerken naar apparaatraadplegingen als gevolg van Google Client Hints** | 27 februari 2023 | Het voor 16 februari 2023 geplande gebruik van de tips voor de klant is uitgesteld om de kwaliteit van de raadplegingen van het apparaat met behulp van de tips beter te waarborgen. We hebben de eerste fase van de release for support of Client Hints afgerond op 27 februari 2023 en de tweede en laatste fase op donderdag 2 maart 2023. [Meer informatie](/help/technotes/client-hints.md) |
+| **Beschikbaarheid van analytische bronconnector** | 15 februari 2023 | Op 28 februari 2023 werd de Analytics Source Connector beschikbaar gesteld in het nieuwe Adobe Experience Platform-datacenter in Canada. |
 | **Automatische migratie naar architectuur met classificatieset** | 8 februari 2023 | In de komende maanden is Adobe van plan om alle classificaties in alle organisaties te migreren naar de nieuwste classificatiearchitectuur. Naar schatting zullen de laatste klanten die naar migratie gaan, in mei 2023 plaatsvinden. Geen actie van de klant wordt vereist, en geen onderbreking wordt verwacht. Deze nieuwe architectuur heeft veel voordelen, zoals:<ul><li>Aanzienlijk kortere verwerkingstijd (72 uur → 24 uur)</li><li>De mogelijkheid om de [Classificatiesets](/help/components/classifications/sets/overview.md) UI</li><li>De optie om classificatiegegevens in Adobe Experience Platform in de toekomst via de [Adobe Analytics-bronconnector voor classificatiegegevens](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>Houd rekening met de volgende wijzigingen die mogelijk van invloed zijn op de workflow van uw organisatie:<ul><li>Wanneer u de browser of FTP-import gebruikt, &#39;[!UICONTROL Overwrite on conflict]&#39; is altijd ingeschakeld.</li><li>Wanneer u de browser of FTP-importmodule gebruikt, wordt de optie om direct na het importeren te exporteren niet meer ondersteund.</li><li>De API Analytics 2.0 `GetDimensions` het eindpunt keert nu koordherkenningstekens voor classificaties in plaats van numerieke herkenningstekens terug. Numerieke id&#39;s kunnen nog steeds worden gebruikt, maar Adobe raadt u aan waar mogelijk de nieuwe tekenreeks-id&#39;s te gebruiken. Numerieke id&#39;s kunnen worden opgehaald met de `?expansion=hidden` querytekenreeksparameter.</li></ul>Neem contact op met de klantenservice van Adobe als u een specifieker migratieplan voor uw organisatie wilt of vragen of zorgen hebt over deze migratie. [Meer informatie](/help/components/classifications/sets/overview.md) |
 
 {style=&quot;table-layout:auto&quot;}
