@@ -2,16 +2,16 @@
 title: Variabeletoewijzing analyseren in Adobe Experience Edge
 description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen aan analytische variabelen.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
+source-git-commit: 6a1c95a25c89332b0d549e5ce8c5197331e71e3c
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
 
 # Variabeletoewijzing analyseren in Adobe Experience Edge
 
-In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge Network automatisch toewijst aan Adobe Analytics. Als u deze XDM-veldpaden gebruikt, is er geen extra configuratie nodig om gegevens naar Adobe Analytics te verzenden.
+In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge Network automatisch toewijst aan Adobe Analytics. Als u deze XDM-veldpaden gebruikt, is er geen extra configuratie nodig om gegevens naar Adobe Analytics te verzenden. Deze velden zijn opgenomen in de **[!UICONTROL Adobe Analytics ExperienceEvent Template]** veldgroep.
 
 | XDM-veldpad | Dimensie en beschrijving van analyses |
 | --- | --- |

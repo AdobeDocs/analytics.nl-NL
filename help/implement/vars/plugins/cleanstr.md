@@ -3,18 +3,16 @@ title: cleanStr
 description: Alle overbodige tekens uit een tekenreeks verwijderen of vervangen.
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: cleanStr
 
->[!IMPORTANT]
->
->Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+{{plug-in}}
 
 De `cleanStr` Met de plug-in verwijdert of vervangt u alle overbodige tekens uit een tekenreeks, zoals HTML-tagtekens, extra witruimten, tabs en regeleinden. Het vervangt ook enkele aanhalingstekens naar links/rechts (`‘` en `’`) met rechte enkele aanhalingstekens (`'`). Adobe raadt u aan deze plug-in te gebruiken als u overbodige tekens wilt verwijderen uit variabele waarden en de functie &#39;Tekst opschonen&#39; in Adobe Experience Platform Data Collection niet voldoet aan uw implementatiebehoeften. Deze insteekmodule is niet nodig als de verzamelde gegevens geen overbodige tekens bevatten of als de functie &#39;Tekst opschonen&#39; in Adobe Experience Platform Data Collection voldoende is.
 

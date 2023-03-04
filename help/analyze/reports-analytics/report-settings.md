@@ -4,9 +4,9 @@ title: Rapport Weergave-instellingen en navigatie
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1552'
 ht-degree: 7%
 
 ---
@@ -45,7 +45,7 @@ Instellingen die bepalen hoe alle rapporten worden weergegeven en informatie die
 | **Taal/valuta/codering** |  |
 | Scheidingsteken voor duizendtallen | Selecteer een scheidingsteken voor elke duizendtallen (decimaal of komma). Veel landen gebruiken een decimaal om het aantal duizenden te scheiden. (Dit scheidingsteken wordt toegepast op alle getallen in het systeem, niet alleen op de valuta.) |
 | De standaardvaluta van de rapportsuite gebruiken | Bepaalt of de standaardvaluta van de rapportsuite moet worden gebruikt. |
-| Valuta | De valuta waarnaar u de gegevens wilt converteren. Wanneer een waarde in deze instelling wordt geselecteerd, heeft dit geen invloed op de gegevens in de database, maar wordt deze weergegeven als een geconverteerde waarde op basis van de valutaconversie van de huidige dag. Wanneer valutaopties niet zijn geconfigureerd (ingesteld op de standaardinstellingen) vindt er geen valutaomzetting plaats en worden alle waarden opgeslagen en weergegeven in Amerikaanse dollars (USD). Neem contact op met uw accountmanager om de valuta om te zetten wanneer de gegevens worden verwerkt (voordat deze worden weergegeven). |
+| Valuta | De valuta waarnaar u de gegevens wilt converteren. Wanneer een waarde in deze instelling wordt geselecteerd, heeft dit geen invloed op de gegevens in de database, maar wordt deze weergegeven als een geconverteerde waarde op basis van de valutaconversie van de huidige dag. Wanneer valutaopties niet zijn geconfigureerd (ingesteld op de standaardinstellingen) vindt er geen valutaomzetting plaats en worden alle waarden opgeslagen en weergegeven in Amerikaanse dollars (USD). Neem contact op met het accountteam van Adobe om de valuta om te zetten wanneer de gegevens worden verwerkt (voordat deze worden weergegeven). |
 | Geplande rapportcodering | SHIFT-JIS voor Japanse tekencodering. EUC-JP voor uitgebreide Unix Code, hoofdzakelijk voor Japans, Koreaans, en vereenvoudigd Chinees. |
 | Scheidingsteken CSV | Het teken dat u wilt gebruiken om CSV-waarden van elkaar te scheiden. |
 

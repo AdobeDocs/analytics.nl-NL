@@ -3,18 +3,16 @@ title: addProductEvar
 description: Voegt merchandising Vars aan de productvariabele toe.
 feature: Variables
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: addProductEvar
 
->[!IMPORTANT]
->
->Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+{{plug-in}}
 
 De `addProductEvar` Met de plug-in kunt u eenvoudig een Adobe Analytics-eVar voor het verhandelen van producten toevoegen die productsyntaxis gebruikt voor de productvariabele zonder dat u zich zorgen hoeft te maken of de bestaande inhoud van de productvariabele wordt gewijzigd/verplaatst/verwijderd. Adobe raadt u aan deze plug-in te gebruiken als u eenvoudig handelsversies van productsyntaxis wilt toevoegen aan de [`products`](../page-vars/products.md) variabele. U hoeft de `addProductEvar` insteekmodule als u geen elektronische handelsversies met productsyntaxis gebruikt.
 

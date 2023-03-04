@@ -3,18 +3,16 @@ title: getValOnce
 description: Voorkomen dat een variabele Analytics tweemaal achter elkaar op dezelfde waarde wordt ingesteld.
 feature: Variables
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: 02b7e45bb4141d92cd37ef7ccbbbb9bdbc70bc2a
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '411'
 ht-degree: 1%
 
 ---
 
 # Adobe-plug-in: getValOnce
 
->[!IMPORTANT]
->
->Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+{{plug-in}}
 
 De `getValOnce` voorkomt dat een variabele meerdere keren op dezelfde waarde wordt ingesteld. Adobe raadt u aan deze plug-in te gebruiken als u gevallen wilt dedupliceren waarin een bezoeker een pagina vernieuwt of een bepaalde pagina meerdere keren bezoekt. Deze plug-in is niet nodig als u zich geen zorgen maakt over de metrische waarde &#39;Voorvallen&#39; in Analysis Workspace.
 
@@ -90,15 +88,15 @@ s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 
 * Versienummer toegevoegd als contextgegevens.
 
-### 2,01
+### 2.01
 
 * Probleem verholpen met het schrijven van cookies.
 
-### 2,0
+### 2.0
 
 * Puntrelease (opnieuw gecompileerd, kleiner codeformaat).
 
-### 1,1
+### 1.1
 
 * De optie voor het kiezen van minuten of dagen voor het verlopen via de optie `t` parameter.
 * De reikwijdte van de `k` de variabele die wordt gebruikt om het tot stop-binnen slechts te beperken. Deze wijziging voorkomt mogelijke interferentie met andere code op de pagina.

@@ -3,18 +3,16 @@ title: p_fo (alleen Pagina eerste)
 description: Zorg ervoor dat bepaalde routines slechts één keer per pagina worden geactiveerd.
 feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: p_fo (alleen Pagina eerste)
 
->[!IMPORTANT]
->
->Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+{{plug-in}}
 
 De `p_fo` insteekmodule is een hulpprogramma dat controleert of een specifiek JavaScript-object bestaat. Als het object niet bestaat, maakt de plug-in het object en wordt deze geretourneerd `true`. Als het JavaScript-object al op de pagina aanwezig is, wordt het geretourneerd `false`. Deze insteekmodule is handig als u code precies één keer op een pagina wilt uitvoeren. Verscheidene andere stop-ins baseren zich op deze code om te werken. Deze plug-in is niet nodig als u zich geen zorgen maakt over het aantal keren dat code op een pagina wordt uitgevoerd of als u geen afhankelijke plug-ins gebruikt.
 
@@ -87,11 +85,11 @@ if(p_fo("myobject"))
 
 * Versienummer toegevoegd als contextgegevens.
 
-### 2,0
+### 2.0
 
 * Puntrelease (opnieuw gecompileerd, kleiner codeformaat).
 * Veranderd type geretourneerde waarde van geheel getal in Boolean
 
-### 1,0
+### 1.0
 
 * Eerste release.

@@ -2,9 +2,9 @@
 title: Taakbeheer voor classificatieset
 description: Huidige en voltooide classificatietaken weergeven die zijn gegenereerd uit classificatiesets.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: cc01d492dbbf99fc6a2736c4c50d889933d6f4ff
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Met de Classificatieset Taakbeheer kunt u huidige en voltooide classificatietake
 
 >[!NOTE]
 >
->Deze functie is beschikbaar voor alle klanten die hun rapportagesets hebben gemigreerd naar de nieuwe classificatiearchitectuur. Neem voor meer informatie contact op met de klantenservice van Adobe of uw accountmanager.
+>Deze functie is beschikbaar voor alle klanten in de architectuur van de Classificatieset. Neem contact op met de klantenservice van Adobe of uw Adobe-accountteam voor meer informatie.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Jobs]**
 

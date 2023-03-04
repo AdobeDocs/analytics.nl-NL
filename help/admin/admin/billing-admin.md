@@ -3,9 +3,9 @@ description: De het Factureren pagina laat u tot factureringsinformatie, met inb
 title: Facturering
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ De het Factureren pagina laat u tot factureringsinformatie, met inbegrip van ver
 
 >[!NOTE]
 >
->Neem contact op met uw accountmanager als de toegang tot het tabblad Facturering voor uw bedrijf is uitgeschakeld.
+>Als de toegang tot het facturerings lusje voor uw bedrijf wordt onbruikbaar gemaakt, contacteer uw Team van de Rekening van de Adobe.
 
 De gegevens van het verkeersoverzicht van de factureringspagina laten u paginameningsgegevens in rapporten met factureerbare servervraag op uw factuur correleren. De [!UICONTROL Billing] kunt u het volgende doen:
 
@@ -44,7 +44,7 @@ Het resultaat [!UICONTROL Monthly Invoice] het rapport bevat de volgende informa
 
 >[!NOTE]
 >
->Om een werkexemplaar van te verkrijgen [!UICONTROL Monthly Invoice] rapport, kopieer het naar het klembord en plak het in een spreadsheetprogramma zoals Microsoft Excel*.
+>Om een werkexemplaar van te verkrijgen [!UICONTROL Monthly Invoice] rapport, kopieer het naar uw klembord en plak het in een spreadsheetprogramma zoals Microsoft Excel&#42;.
 
 ## Datum van rapportage versus datum van verwerking {#section_51A48C2F223F4904BE1407C13333C457}
 

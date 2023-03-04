@@ -3,7 +3,7 @@ title: Gedragrapporten in Adobe Analytics
 description: Leer hoe u gedragsrapporten maakt in Adobe Analytics
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 0%
@@ -87,4 +87,4 @@ Omdat deze functie implementatiewijzigingen vereist, raadt Adobe aan met een imp
 
 ## Uitgever-rapporten
 
-Net zoals Google een verbinding met Google Ad Manager nodig heeft, biedt Adobe een speciaal product voor inzicht met de naam Adobe Advertising Cloud. Neem contact op met de accountmanager van uw organisatie als uw organisatie dit product wil gebruiken.
+Net zoals Google een verbinding met Google Ad Manager nodig heeft, biedt Adobe een speciaal product voor inzicht met de naam Adobe Advertising Cloud. Neem contact op met uw Adobe-accountteam als uw organisatie dit product wil gebruiken.

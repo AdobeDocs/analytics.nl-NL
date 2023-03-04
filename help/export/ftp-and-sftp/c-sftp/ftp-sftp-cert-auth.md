@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: Verbinding maken met Adobe via SFTP zonder wachtwoord
 feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Als u SFTP gebruikt, is het mogelijk om onder specifieke omstandigheden persoonl
 
 1. FTP-account gemaakt (Adobe).
 
-   Een Adobe-medewerker kan een FTP-account maken als dat nog niet het geval is. Neem contact op met uw Adobe-accountmanager of de klantenservice van Adobe om een account te maken.
+   Een Adobe-medewerker kan een FTP-account maken als dat nog niet het geval is. Neem contact op met uw Adobe-accountteam of de klantenservice van Adobe om een account te maken.
 1. Openbare/persoonlijke sleutel maken (klant).
 
    Een combinatie van openbare en persoonlijke sleutels maken. De persoonlijke sleutel is een bestand dat privé is met uw computer/server en zich daar bevindt. Het bestand met de openbare sleutel moet worden geüpload naar de Adobe-account. Wanneer gebruikt op deze manier kunt u verbinding maken zonder wachtwoordverificatie. Het bestand met de openbare sleutel bij Adobe komt overeen met het bestand met de persoonlijke sleutel op uw computer/server en wordt op die manier geverifieerd.

@@ -3,18 +3,16 @@ title: getTimeToComplete
 description: Meet de tijd die u nodig hebt om een taak te voltooien.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: getTimeToComplete
 
->[!IMPORTANT]
->
->Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+{{plug-in}}
 
 De `getTimeToComplete` de insteekmodule volgt de tijd die een gebruiker nodig heeft om een proces op een site te voltooien. De &quot;klok&quot; begint wanneer de `start` handeling wordt aangeroepen en eindigt wanneer de `stop` handeling wordt aangeroepen. Adobe raadt u aan deze plug-in te gebruiken als er een workflow op de site is die enige tijd in beslag neemt en u wilt weten hoeveel tijd bezoekers nodig hebben om deze te voltooien. Het is niet nodig deze plug-in te gebruiken als de workflow op uw site een korte periode (minder dan 3 seconden) in beslag neemt omdat de granulariteit slechts tot de volledige seconde is.
 

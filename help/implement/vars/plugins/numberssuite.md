@@ -3,18 +3,16 @@ title: Getallensuite
 description: Cijfers maken en manipuleren voor gebruik in andere JavaScript-variabelen.
 feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: Nummers Suite
 
->[!IMPORTANT]
->
->Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+{{plug-in}}
 
 De Numbers Suite bevat een aantal JavaScript-functies. Deze bevat de volgende plug-ins:
 

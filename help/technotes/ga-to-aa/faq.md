@@ -3,10 +3,10 @@ title: Veelgestelde vragen over migratie naar Adobe Analytics
 description: Krijg antwoorden op veelgestelde vragen wanneer u overschakelt van een extern platform naar Adobe.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 56%
+ht-degree: 52%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 56%
 
 Elk Analytics-platform heeft verschillende manieren om data te verzamelen, te behandelen en op te slaan. In plaats van historische data te migreren raadt Adobe aan een duidelijke grensdatum vast te stellen om te beginnen met het verzamelen en gebruiken van data in Adobe Analytics. Vaak gebruikte grensdata zijn het begin van een boekjaar, het begin van een kalenderjaar of het begin van een kalendermaand. Als gebruikers historische data willen bekijken, kunnen ze zich aanmelden bij het externe platform om een bepaalde historische rapportage te verkrijgen.
 
-Neem contact op met de accountmanager van uw organisatie als uw organisatie vastbesloten is dat historische data naar Adobe moeten overgezet. Een implementatieconsultant kan met uw organisatie samenwerken om een Google Analytics-data-export te vertalen naar een databron die kan worden opgenomen door Adobe-servers voor dataverzameling.
+Neem contact op met het accountteam van uw Adobe als uw organisatie van plan is historische gegevens over te dragen naar Adobe. Een implementatieconsultant kan met uw organisatie samenwerken om een Google Analytics-data-export te vertalen naar een databron die kan worden opgenomen door Adobe-servers voor dataverzameling.
 
 Voor het verplaatsen over historische gegevens raden we u aan [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) die in om het even welke gegevensbron van het univerkanaal kunnen brengen.
 

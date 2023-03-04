@@ -3,7 +3,7 @@ title: Beleid voor gegevensbewaring
 description: Een beleid van het gegevensbehoud bepaalt hoe lang Adobe uw gegevens opslaat.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Bewaarde gegevens zijn gebaseerd op de huidige datum en de datum/tijd van histor
 
 ## De standaardperiode voor gegevensbewaring aanpassen
 
-Neem contact op met de accountmanager van uw organisatie als u de bewaarperiode voor standaardgegevens wilt verkorten of verlengen.
+Neem contact op met het accountteam van Adobe als u de bewaarperiode voor standaardgegevens wilt verkorten of verlengen.
 
 * Er is geen vergoeding voor het verkorten van de bewaarperiode voor standaardgegevens.
 * Als de gegevensbewaring langer duurt dan de standaardbewaarperiode van 25 maanden, moeten extensies worden aangeschaft, die elk in stappen van één jaar beschikbaar zijn. Er kunnen maximaal acht extensies worden aangeschaft voor een totaal van 10 jaar gedurende 1 maand (2 jaar en 1 maand voor het aanhouden van een wanbetaling, plus 8 jaar aangeschaft).
@@ -49,9 +49,9 @@ Het beleid van het gegevensbehoud bepaalt een het rollen venster van het gegeven
 
 **Kan ik een kopie van mijn gegevens aanvragen voordat deze worden verwijderd?**
 
-Ja. Adobe kan een historische gegevensstortplaats van onbewerkte, raakvlakke gegevens verstrekken. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding voor exporteren voor meer informatie. Neem contact op met de accountmanager van uw organisatie als u vereisten voor gegevensexport hebt die buiten het bereik vallen van wat de interface kan bieden. Er kunnen speciale accommodaties worden gemaakt; de kosten kunnen variëren.
+Ja. Adobe kan een historische gegevensstortplaats van onbewerkte, raakvlakke gegevens verstrekken. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding voor exporteren voor meer informatie. Neem contact op met het accountteam van Adobe als u vereisten voor het exporteren van gegevens hebt buiten het bereik van wat de gebruikersinterface kan bieden. Er kunnen speciale accommodaties worden gemaakt; de kosten kunnen variëren.
 
 **Wanneer verwijdert Adobe gegevens?**
 
-Neem contact op met de accountmanager van uw organisatie voor de specifieke tijd dat uw gegevens verwijderd moeten worden. Gewoonlijk worden gegevens doorlopend per maand verwijderd.
+Neem contact op met uw Adobe-accountteam voor de specifieke tijd dat uw gegevens verwijderd moeten worden. Gewoonlijk worden gegevens doorlopend per maand verwijderd.
 

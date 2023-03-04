@@ -3,7 +3,7 @@ title: Veelgestelde vragen over classificaties
 description: Veelgestelde vragen over classificaties.
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Classificatiebestanden geüpload met een sleutelwaarde of classificatiewaarde nu
 
    *Indien [dimensie] equals `0`, overschrijf de waarde van [dimensie] met aangepaste waarde `Zero`.*
 
-* **Een VISTA-regel aanvragen**: Een consultant van de Diensten van de Techniek plaatst - omhoog een server-zijregel voor u tegen extra kosten. Neem contact op met de accountmanager van uw organisatie om een VISTA-regel aan te vragen.
+* **Een VISTA-regel aanvragen**: Een consultant van de Diensten van de Techniek plaatst - omhoog een server-zijregel voor u tegen extra kosten. Neem contact op met het accountteam van Adobe om een VISTA-regel aan te vragen.
 
 ## Kan ik de classificatieimporteur gebruiken om dimensie-items in te delen die nog niet bestaan?
 

@@ -3,18 +3,16 @@ title: getQueryParam
 description: Haal de waarde van de parameter van het vraagkoord van een URL uit.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '498'
 ht-degree: 1%
 
 ---
 
 # Adobe-plug-in: getQueryParam
 
->[!IMPORTANT]
->
->Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+{{plug-in}}
 
 De `getQueryParam` Met de insteekmodule kunt u de waarde extraheren van elke parameter voor queryreeksen in een URL. Het is nuttig om campagnecodes, zowel intern als extern, uit het landen van pagina URLs te halen. Het is ook nuttig wanneer het halen van onderzoekstermijnen of andere parameters van het vraagkoord.
 
@@ -142,18 +140,18 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 * Compatibel met zowel H-code als AppMeasurement (vereist `s.pt` met AppMeasurement).
 
-### 2,4
+### 2.4
 
 * De `h` parameter, waardoor de code kan zoeken naar parameters van queryreeksen die na de hash (`#`) teken
 
-### 2,3
+### 2.3
 
 * Probleem verholpen waarbij de insteekmodule alleen werkte toen de hash aanwezig was na de trackingcode. Dit probleem is nu opgelost.
 
-### 2,2
+### 2.2
 
 * Verwijdert nu hash-tekens (en alles daarna) uit de geretourneerde waarde
 
-### 2,1
+### 2.1
 
 * Compatibel met H.10-code

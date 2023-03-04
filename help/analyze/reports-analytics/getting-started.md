@@ -4,9 +4,9 @@ title: Aan de slag met Reports and Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Browser en systeemvereisten om zich aan te melden bij de interface Rapporten &am
 
 ## Aanmelden bij Reports and Analytics
 
-Voordat u de interface opent, werkt u samen met uw accountmanager of de klantenservice van Adobe om uw bedrijfsaccount in te stellen.
+Voordat u toegang krijgt tot de interface, werkt u samen met uw Adobe-accountteam of de klantenservice van Adobe om een account voor uw bedrijf in te stellen.
 
 ## Aanmelden met de Experience Cloud
 

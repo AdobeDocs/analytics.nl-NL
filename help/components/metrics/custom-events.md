@@ -3,7 +3,7 @@ title: Aangepaste gebeurtenissen
 description: Het aantal treffers waar een douanegebeurtenis bestaat.
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -24,6 +24,6 @@ Aangepaste gebeurtenissen worden anders berekend, afhankelijk van het type. U ku
 * **Numerieke gebeurtenissen**: Hiermee wordt de numerieke waarde samengevat die aan de gebeurtenis is toegewezen in het dialoogvenster `events` variabele.
 * **Valutapenheden**: Past valutaomrekening toe op de wisselkoers van die dag, dan sommen de numerieke waarde die aan elke treffer in `events` variabele.
 
-Het aantal beschikbare gebeurtenissen is afhankelijk van het contract Analytics van uw organisatie. De meeste organisaties op niet verouderde contracten hebben 1000 beschikbare douanefouten. Neem contact op met de accountmanager van uw organisatie als u niet weet hoeveel aangepaste gebeurtenissen voor u beschikbaar zijn.
+Het aantal beschikbare gebeurtenissen is afhankelijk van het contract Analytics van uw organisatie. De meeste organisaties op niet verouderde contracten hebben 1000 beschikbare douanefouten. Neem contact op met het accountteam van Adobe als u niet weet hoeveel aangepaste gebeurtenissen voor u beschikbaar zijn.
 
 Adobe raadt u ten zeerste aan om op te nemen hoe u elke gebeurtenis in de [document ontwerp oplossing](/help/implement/prepare/solution-design.md).

@@ -3,18 +3,16 @@ title: getGeoCoordinates
 description: De geoLocation van een bezoeker volgen.
 feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: getGeoCoordinates
 
->[!IMPORTANT]
->
->Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+{{plug-in}}
 
 De `getGeoCoordinates` kunt u de breedte en lengte van bezoekersapparaten vastleggen. Adobe raadt u aan deze plug-in te gebruiken als u geo-locatiegegevens wilt vastleggen in variabelen van Analytics.
 

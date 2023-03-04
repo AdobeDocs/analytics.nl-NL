@@ -2,7 +2,7 @@
 title: Apparaatgrafiek
 description: Begrijp de eerste vereisten en de beperkingen van het stitching van gegevens gebruikend de apparatengrafiek.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 2%
@@ -15,7 +15,7 @@ Analytics voor verschillende apparaten kan de persoonlijke grafiek gebruiken om 
 
 ## Specifieke voorwaarden voor de apparaatgrafiek
 
-Als u Apparaatanalyse wilt implementeren met de grafiekmethode van het apparaat, is het volgende vereist. Werk met teams binnen uw organisatie en uw Adobe-accountmanager om ervoor te zorgen dat u aan alle volgende voorwaarden voldoet.
+Als u Apparaatanalyse wilt implementeren met de grafiekmethode van het apparaat, is het volgende vereist. Werk met teams binnen uw organisatie en uw Adobe Account Team om ervoor te zorgen dat u aan alle volgende voorwaarden voldoet.
 
 >[!WARNING]
 >
