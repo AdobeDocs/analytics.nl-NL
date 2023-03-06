@@ -2,9 +2,9 @@
 title: Clienttips
 description: Leer over hoe de cliëntwenken geleidelijk gebruiker-Agent als bron van apparateninformatie zullen vervangen.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 58937630e6173013b622deec0433ef67b483c483
+source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1279'
 ht-degree: 1%
 
 ---
@@ -53,6 +53,8 @@ Voor gegevens die via API worden verzonden, bijvoorbeeld via [API voor gegevensi
 
 Op dit moment niet. U kunt ervoor kiezen alle hints met hoge entropie of geen hints te verzamelen.
 
+fullVersionList wordt momenteel niet verzameld omdat de hoofdversie van de browser wordt vastgelegd als een low-entropy hint.
+
 +++
 
 +++**Wat zijn de verschillende waarden van de cliëntwenken?**
@@ -64,15 +66,14 @@ In de onderstaande tabel worden de tips voor cliënten vanaf oktober 2022 beschr
 | Sec-CH-UA | Browser en significante versie | Laag | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Mobiel apparaat (true of false) | Laag | `true` |
 | Sec-CH-UA-Platform | Besturingssysteem/Platform | Laag | `"Android"` |
-| Sec-CH-UA-Arch | Architectuur van de site | Hoog | `"arm"` |
-| Sec-CH-UA-Bitness | Architectuurbitnes | Hoog | `"64"` |
-| Sec-CH-UA-Full-Version | Volledige versie van de browser | Hoog | `"84.0.4143.2"` |
-| Sec-CH-UA-Full-Version-List | Lijst van merken met hun versie | Hoog | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| Sec-CH-UA-model | Apparaatmodel | Hoog | `"Pixel 3"` |
-| Sec-CH-UA-Platform-Version | Versie besturingssysteem/Platform | Hoog | `"10"` |
+| architectuur | Architectuur van de site | Hoog | `"arm"` |
+| bittheid | Stijlbitheid | Hoog | `"64"` |
+| fullVersionList | Lijst van merken met hun versie | Hoog | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| model | Apparaatmodel | Hoog | `"Pixel 3"` |
+| platformVersion | Versie besturingssysteem/Platform | Hoog | `"10"` |
 
 * Hints met lage entropie worden verzameld via de aanvraagkoptekst.
-* Hoog-entropiewenken worden verzameld door JavaScript en door de parameterwaarden van het vraagkoord overgegaan. De parameters van het vraagkoord gebruiken `h.` als voorvoegsel in de afbeeldingsaanvraag.
+* Hoog-entropiewenken worden verzameld door JavaScript en door de parameterwaarden van het vraagkoord overgegaan. De parameters van het vraagkoord gebruiken `h.` als voorvoegsel in de afbeeldingsaanvraag. fullVersionList wordt momenteel niet verzameld omdat de hoofdversie van de browser wordt vastgelegd als een lage entropiehint.
 
 Hoge entropiehints worden verzameld via JavaScript-aanroep en doorgegeven via queryparameter
 
