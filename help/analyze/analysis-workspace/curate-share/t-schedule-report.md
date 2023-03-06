@@ -5,9 +5,9 @@ title: Projecten plannen
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: bf9f04ce6ff057ca66bcf0d9cf66540cea160444
+source-git-commit: 74d4127ccb9ff2837ab5b17c8237aa4604378485
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '572'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ In de Geplande Manager van Projecten, kunt u terugkomende projectprogramma&#39;s
 | [!UICONTROL Owner] | De persoon die het project heeft gemaakt en bezit. |
 | [!UICONTROL Tags] | (facultatief) het etiketteren is een goede manier om projecten te organiseren. Alle gebruikers kunnen labels maken en een of meer tags toepassen op een project. U kunt echter alleen labels zien voor de projecten die u hebt of die met u zijn gedeeld. |
 | [!UICONTROL Delivered To] | De ontvanger(s) van dit geplande project. |
-| [!UICONTROL Expiration Date] | De standaardvervaldatum hangt van de planningsfrequentie af. Zie &quot;Geplande projectvervaldatums&quot; hieronder. |
+| [!UICONTROL Expiration Date] | Voor om het even welke geplande projectfrequentie, kunt u de vervaldatum voor maximaal één jaar in de toekomst plaatsen. |
 | [!UICONTROL Frequency] | Hoe vaak wilt u dat dit planningsproject naar de ontvanger(s) wordt verzonden. |
 | [!UICONTROL Execution Time] | Op welk tijdstip van de dag dit geplande project wordt verzonden. |
 | [!UICONTROL Number of Queries] | Het aantal vragen tegen dit project. |
@@ -78,12 +78,3 @@ Het volgende is gemeenschappelijke acties in de Geplande Manager van Projecten:
 | **[!UICONTROL View schedule ID]** | Navigeer naar kolomopties rechtsboven en voeg de kolom Id van planning toe aan de tabel. De geplande id is vaak handig voor foutopsporing. |
 
 De Geplande Manager van Projecten toont de punten die een specifieke gebruiker heeft gecreeerd. Als de gebruikersaccount in de toepassing is uitgeschakeld, worden alle geplande leveringen gestopt. De geplande projecteigendom kan worden **overgedragen** aan een nieuwe gebruiker onder **Beheer > Gebruikers en middelen voor analyse > Middelen voor gegevensoverdracht**.
-
-## Geplande vervaldata van het project
-
-De vervaldatums voor geplande projecten zijn afhankelijk van de geplande leveringsfrequentie:
-
-* Uurleveringen verlopen over een week.
-* Dagelijkse leveringen verlopen over een maand.
-* Wekelijkse leveringen verlopen over 6 maanden.
-* Maandelijkse/jaarlijkse leveringen verlopen over een jaar.

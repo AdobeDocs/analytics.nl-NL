@@ -4,9 +4,9 @@ description: Analysis Workspace is het belangrijkste instrument voor analyse van
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 8c4c5e2a0149f720f9ae2d5dac95be8d2e8894e8
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '537'
 ht-degree: 1%
 
 ---
@@ -21,23 +21,27 @@ Als u slechts een paar minuten hebt, bekijkt u dit korte overzicht om te zien wa
 
 ## Aanmelden bij Adobe Analytics {#login}
 
-Als u Analysis Workspace wilt gaan gebruiken, meldt u zich aan bij Adobe Analytics door naar [experience.adobe.com/analytics](https://experience.adobe.com/analytics). U zult op de de lijsthomepage van het project van de Werkruimte landen, als een specifiek project niet eerder voor u is geselecteerd.
+Als u Analysis Workspace wilt gaan gebruiken, meldt u zich aan bij Adobe Analytics door naar [experience.adobe.com/analytics](https://experience.adobe.com/analytics). U zult op de pagina van Projecten landen, als een specifiek project niet eerder voor u is geselecteerd.
 
-![](assets/login-analytics.png)
+![](assets/create-new-project.png)
 
 ## De zelfstudie Training gebruiken {#training-tutorial}
 
-Als u eenmaal bent aangemeld, moet de eerste stop de zelfstudie voor Analysis Workspace Training zijn, die u door algemene terminologie en stappen begeleidt voor het maken van uw eerste analyse in Workspace. Klik op **[!UICONTROL Create New Project]** en selecteer vervolgens **Lesbestand voor training** in het nieuwe project modal.
+Nadat u zich hebt aangemeld, kunt u de sjabloon voor zelfstudie voor Analysis Workspace Training als eerste sluiten. Het begeleidt u door gemeenschappelijke terminologie en stappen voor het bouwen van uw eerste analyse in Werkruimte. Om met de zelfstudie te beginnen,
+
+1. Klik op de knop **[!UICONTROL Learning]** links.
+1. Klik op **[!UICONTROL Open Tutorial]**.
 
 ![](assets/training-tutorial.png)
 
 ## Een nieuw project maken {#new-project}
 
-Nu de zelfstudie is voltooid, kunt u beginnen met het bouwen van uw eerste project. De **nieuw project, modaal** biedt u verschillende opties om uw analyse te starten. U kunt ervoor kiezen om te beginnen met een leeg project of [leeg mobiel scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html), afhankelijk van het feit of u uw analyse wilt delen vanuit de browser of de mobiele app voor Adobe Analytics-dashboards.
+Nadat u de zelfstudie hebt voltooid, kunt u beginnen met het bouwen van uw eerste project. Op de [!UICONTROL Projects] kunt u kiezen om te beginnen vanaf
 
-![](assets/create-new-project.png)
+* [!UICONTROL Blank project] als u van plan bent om uw analyse van browser te delen, of
+* [[!UICONTROL Blank mobile scorecard]](/help/analyze/mobile-app/curator.md), als u uw analyse wilt delen via de mobiele app Customer Journey Analytics dashboards.
 
-U kunt ook beginnen met uw analyse op basis van vooraf gebouwde **sjablonen**, door Adobe aangeboden standaardsjablonen of aangepaste sjablonen die door uw organisatie zijn gemaakt. Er zijn verschillende sjablonen beschikbaar, afhankelijk van de analyse- of gebruikscase die u in gedachten hebt. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) over de verschillende beschikbare sjabloonopties.
+U kunt ook beginnen met uw analyse op basis van vooraf gebouwde **sjablonen**, door Adobe aangeboden standaardsjablonen of aangepaste sjablonen die door uw organisatie zijn gemaakt. Er zijn verschillende sjablonen beschikbaar, afhankelijk van de analyse- of gebruikscase die u in gedachten hebt. U vindt ze nu onder de [!UICONTROL Reports] in de linkerspoorstaaf.
 
 ## Uw analyse maken {#analysis}
 
