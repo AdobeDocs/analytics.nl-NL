@@ -5,22 +5,30 @@ title: Deelbare koppelingen maken
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
+source-git-commit: 8935f71e52e2486fc1fd8562a31dbd18d69fd18d
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
 
 # Deelbare koppelingen maken
 
-Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen, met inbegrip van de capaciteit om een verbinding aan een project of een specifiek deel van een project te krijgen. Voor de meeste typen koppelingen moeten gebruikers die een koppeling ontvangen zich aanmelden bij Adobe Analytics voordat ze naar het project kunnen gaan.
+Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen, met inbegrip van de capaciteit om een verbinding aan een project of een specifiek deel van een project te krijgen. Sommige verbindingstypen vereisen dat de ontvanger zich aanmeldt bij Adobe Analytics voordat het project wordt geopend, terwijl andere niet.
 
 ## Projectkoppeling ophalen {#project-link}
 
 Als u een koppeling naar het volledige project wilt delen, gaat u naar **[!UICONTROL Share > Get project link]**. Als de ontvanger van de verbinding niet is toegewezen a [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), Admins receive **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]** ervaringen.
 
 ![](assets/get-project-link.png)
+
+## Openbare koppeling ophalen
+
+{{release-limited-testing-section}}
+
+U kunt een alleen-weergeven koppeling naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics.
+
+Voor meer informatie, zie &quot;een openbare verbinding met iedereen (geen vereiste login)&quot;in het artikel delen [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ## Deelvenster of visualisatiekoppeling ophalen {#panel-link}
 

@@ -4,9 +4,9 @@ description: U kunt algemene voorkeuren en projectvoorkeuren instellen voor gebr
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
+source-git-commit: 73005fa62615b1dce184d03bd9e53fa519ab0be9
 workflow-type: tm+mt
-source-wordcount: '2542'
+source-wordcount: '2992'
 ht-degree: 1%
 
 ---
@@ -185,14 +185,21 @@ Klik op de titels van de gekoppelde sectie voor meer informatie en context over 
 
 ## Bedrijfsvoorkeuren
 
+>[!AVAILABILITY]
+>
+>De functie Koppelingen voor openbare toegang die in deze sectie wordt beschreven, bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
+
 U kunt bedrijfvoorkeur bijwerken die op alle gebruikers en projecten binnen uw organisatie van toepassing is. Voor informatie over hoe u deze voorkeuren kunt openen, raadpleegt u [Voorkeuren bijwerken](#update-preferences).
 
 | Sectie | Voorkeur | Opties |
 | --- | --- | --- |
 | **Tabblad Rapporten** |  |  |
 |  | Tabblad Rapporten verbergen | Hiermee verbergt u het tabblad Rapporten voor alle gebruikers in uw organisatie. |
+| **Openbare toegangskoppelingen** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
+|  | Alle openbare toegangskoppelingen uitschakelen | <p>Hiermee schakelt u alle bestaande koppelingen naar openbare toegang uit en voorkomt u dat gebruikers in uw organisatie nieuwe koppelingen maken. Dit betekent dat gebruikers Analysis Workspace-projecten niet kunnen delen met mensen die geen Adobe Analytics-account hebben. Gebruikers kunnen projecten alleen delen met andere Adobe Analytics-gebruikers binnen uw organisatie.</p> <p>Wanneer openbare koppelingen zijn uitgeschakeld:</p> <ul><li><p>Gebruikers kunnen geen koppelingen voor openbare toegang maken</p><p>De optie Openbare koppeling delen is verwijderd uit het menu Delen. Dit betekent dat gebruikers geen projecten meer kunnen delen met personen die geen Analysis Workspace-account in uw organisatie hebben zoals beschreven in [Een openbare koppeling delen met iedereen (geen aanmelding vereist)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>Bestaande openbare koppelingen zijn uitgeschakeld</p></li><p>Als openbare koppelingen zijn uitgeschakeld en vervolgens opnieuw worden ingeschakeld, worden niet alle eerder gedeactiveerde koppelingen automatisch opnieuw geactiveerd. In dit geval moeten gebruikers de bestanden voor elk project handmatig opnieuw activeren in het dialoogvenster Project delen.</p> |
+|  | Experience Cloud-verificatie vereisen | <p>Wanneer deze optie is ingeschakeld, hebben alleen ontvangers met een gefedereerde id en kunnen zich aanmelden bij Adobe Experience Cloud toegang tot gedeelde openbare koppelingen.</p> <p>Wanneer deze optie is ingeschakeld en een gebruiker een koppeling naar een Analysis Workspace-project maakt, wordt de optie &#39;Experience Cloud-verificatie vereisen&#39; ingeschakeld in het dialoogvenster Delen en kan deze optie niet worden uitgeschakeld door de gebruiker die de koppeling deelt. (Voor informatie over hoe de gebruikers projecten met gebruikers buiten de organisatie kunnen delen, zie [Een openbare koppeling delen met iedereen (geen aanmelding vereist)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Houd rekening met het volgende wanneer u deze optie inschakelt:</p><ul><li><p>Wanneer u deze optie inschakelt, worden alle actieve openbare koppelingen waarvoor geen Experience Cloud is ingeschakeld, gedeactiveerd.</p></li> <li><p>Als deze optie is ingeschakeld en later wordt uitgeschakeld, worden niet alle eerder gedeactiveerde koppelingen automatisch opnieuw geactiveerd. In dat geval moeten gebruikers de bestanden handmatig opnieuw activeren vanuit het dialoogvenster Project delen.</p></li> <li><p>Deze optie is alleen beschikbaar als SSO in uw organisatie is geïmplementeerd. Voor informatie over hoe de systeembeheerders SSO voor uw organisatie kunnen toelaten, zie [Identiteit instellen en Single Sign-On](https://helpx.adobe.com/enterprise/using/set-up-identity.html){target=_blank}.</p><p>Als SSO voor uw organisatie wordt gevormd, controleer om te zien of wordt om het even welk soort auto-rekening verwezenlijking uitgevoerd in de console. Typisch, zou een systeembeheerder dit opstelling, zoals die in wordt beschreven [Automatisch account maken inschakelen](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>Als uw organisatie in een industrie is die naleving HIPAA vereist, wordt deze optie automatisch toegelaten en kan niet worden onbruikbaar gemaakt.</p></li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Standaardvoorkeuren herstellen
 
