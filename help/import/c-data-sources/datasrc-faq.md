@@ -5,9 +5,9 @@ title: Veelgestelde vragen over gegevensbronnen
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 18c5f88cef907af1bdb17c99df59dfb46cc859bc
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1599'
 ht-degree: 0%
 
 ---
@@ -146,3 +146,9 @@ Als er numerieke, valuta- of tellergebeurtenissen (meer dan 1) vereist zijn, geb
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
 ```
+
+## Waarom wordt mijn ftp-upload niet opgepikt?
+
+Nadat het .fin-bestand is geüpload, is het belangrijk dat u zich afmeldt bij de FTP-site met gegevensbronnen. De reden is dat Analytics logout-gebeurtenissen gebruikt als trigger om aan te geven dat bestanden klaar zijn voor verwerking. Als u de bestanden via programmacode uploadt, is het belangrijk dat uw geautomatiseerde proces zich ook afmeldt bij de FTP-site nadat de bestanden zijn geüpload.
+
+Controleer of de bestandsnamen de juiste notatie hebben. Als de bestandsnaam wordt gebruikt voor voorafgaande of navolgende witruimte, wordt het bestand niet herkend en wordt het niet opgepikt tijdens het Adobe-invoerproces.
