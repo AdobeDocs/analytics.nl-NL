@@ -3,9 +3,9 @@ description: De het Factureren pagina laat u tot factureringsinformatie, met inb
 title: Facturering
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ De het Factureren pagina laat u tot factureringsinformatie, met inbegrip van ver
 
 >[!NOTE]
 >
->Als de toegang tot het facturerings lusje voor uw bedrijf wordt onbruikbaar gemaakt, contacteer uw Team van de Rekening van de Adobe.
+>Neem contact op met uw accountmanager als de toegang tot het tabblad Facturering voor uw bedrijf is uitgeschakeld.
 
 De gegevens van het verkeersoverzicht van de factureringspagina laten u paginameningsgegevens in rapporten met factureerbare servervraag op uw factuur correleren. De [!UICONTROL Billing] kunt u het volgende doen:
 

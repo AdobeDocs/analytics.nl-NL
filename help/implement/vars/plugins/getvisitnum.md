@@ -3,16 +3,18 @@ title: getVisitNum
 description: Volg het huidige bezoeknummer van een bezoeker.
 feature: Variables
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: getVisitNum
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 De `getVisitNum` retourneert het bezoeknummer voor alle bezoekers die binnen het gewenste aantal dagen naar de site komen. Analysis Workspace heeft een dimensie &#39;Visit Number&#39; die vergelijkbare functionaliteit biedt. Adobe raadt u aan deze plug-in te gebruiken als u meer controle wilt over de manier waarop het bezoeknummer wordt verhoogd. Deze insteekmodule is niet nodig als de ingebouwde dimensie Visit Number in Analysis Workspace voldoende is voor uw rapportagevereisten.
 

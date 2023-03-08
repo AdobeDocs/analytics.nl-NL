@@ -3,7 +3,7 @@ description: Wanneer een rapport vele unieke waarden heeft, gebruikt Adobe het l
 title: Lage verkeerswaarde in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Deze logica staat Adobe toe om rapporteringsmogelijkheden te optimaliseren terwi
 
 ## Unieke limietdrempels wijzigen
 
-Drempelwaarden zijn standaard 500.000 en 1 miljoen unieke waarden. Deze grenswaarden kunnen per variabele worden gewijzigd. Neem contact op met de klantenservice van Adobe of uw Adobe-accountteam om deze wijziging aan te vragen. Neem bij het aanvragen van een wijziging de volgende gegevens op:
+Drempelwaarden zijn standaard 500.000 en 1 miljoen unieke waarden. Deze grenswaarden kunnen per variabele worden gewijzigd. Neem contact op met de klantenservice van Adobe of de accountmanager van uw organisatie om deze wijziging aan te vragen. Neem bij het aanvragen van een wijziging de volgende gegevens op:
 
 * De rapportsuite-id
 * De variabele waarvoor u de drempel wilt verhogen

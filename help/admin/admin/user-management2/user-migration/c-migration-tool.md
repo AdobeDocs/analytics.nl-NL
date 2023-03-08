@@ -3,7 +3,7 @@ description: Wat u moet weten over de migratie van de gebruikers-id voor Analyti
 title: Analytics-gebruikersmigratie naar de Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '3156'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Antwoorden op vragen die u mogelijk hebt vóór de migratie.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">Controleer of u een productbeheerder voor Analytics in de Adobe Admin Console bent. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">Deel aan uw gebruikersbasis mee dat hun login ervaring zal veranderen wanneer de migratie begint. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">Audit uw huidige gebruikers en toestemmingen en voer schoonmaakactiviteiten uit. </li> 
-    </ul> <p>Neem contact op met uw Adobe-accountteam op <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"> Adobe Klantenservice</a> en een verzoek om een eerdere begindatum indienen. </p> </td> 
+    </ul> <p>Als u uw migratie wilt versnellen, neemt u contact op met uw succesmanager van de klant op <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"> Adobe Klantenservice</a> en een verzoek om een eerdere begindatum indienen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ik ben een beheerder van Analytics zonder toegang tot de Adobe Admin Console. Wie kan mij helpen toegang te krijgen tot de Adobe Admin Console? </p> </td> 

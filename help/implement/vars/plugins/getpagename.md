@@ -3,16 +3,18 @@ title: getPageName
 description: Maak een eenvoudig te lezen pageName van het huidige websitepad.
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: getPageName
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 De `getPageName` Met deze insteekmodule maakt u een leesvriendelijke, opgemaakte versie van de huidige URL. Adobe raadt u aan deze plug-in te gebruiken als u een [`pageName`](../page-vars/pagename.md) waarde die eenvoudig kan worden ingesteld en begrepen in de rapportage. Deze plug-in is niet nodig als u al een naamgevingsstructuur hebt voor de `pageName` variabele, zoals door een gegevenslaag. Het wordt het best gebruikt wanneer u geen andere oplossing hebt om te plaatsen `pageName` variabele.
 

@@ -3,16 +3,18 @@ title: websiteBot
 description: Identificeer bots dynamisch met behulp van muisbeweging.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: websiteBot
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 De `websiteBot` Met de insteekmodule kunt u dynamisch vaststellen of bezoekers van een bureaublad de meeste gebruikers hebben. U kunt deze gegevens gebruiken om grotere nauwkeurigheid in alle types van rapportering te drijven, die u een betere manier geeft om wettig plaatsverkeer te meten.
 

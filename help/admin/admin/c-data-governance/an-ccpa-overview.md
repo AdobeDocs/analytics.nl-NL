@@ -3,10 +3,10 @@ description: In dit document wordt beschreven wat u in Adobe Analytics moet doen
 title: Adobe Analytics en CCPA
 feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Zie [Rapportsuitedata labelen](/help/admin/admin/c-data-governance/data-labeling
 * Koppel uw aanmeldingsbedrijf aan een Experience Cloud-organisatie, als dat nog niet het geval is. Neem contact op met de klantenservice van Adobe en raadpleeg [Organisaties en accountkoppelingen.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
 * Stel voor elke rapportsuite een dataretentiebeleid in, zodat CCPA-verwijderings- en toegangsaanvragen kunnen worden gehonoreerd.
 
-   Adobe Analytics kan u niet helpen bij het verwerken van aanvragen bij de Privacy Services-API, dat wil zeggen, het verwerken van toegangs- of verwijderingsaanvragen die u van uw eindgebruikers ontvangt, als de dataretentieperiode niet is ingesteld in Adobe Analytics. Neem contact op met uw Adobe-accountteam om de periode voor het bewaren van gegevens in te stellen.
+   Adobe Analytics kan u niet helpen bij het verwerken van aanvragen bij de Privacy Services-API, dat wil zeggen, het verwerken van toegangs- of verwijderingsaanvragen die u van uw eindgebruikers ontvangt, als de dataretentieperiode niet is ingesteld in Adobe Analytics. Neem contact op met de Customer Success Manager om de periode voor dataretentie in te stellen.
 
 * Controleer uw toestemmingen: als u de Data Governance-beheerinterface van Adobe Analytics wilt gebruiken, moet u een Adobe Analytics-beheerder zijn.
 * Overweeg de implementatie van de [Variabelen voor toestemmingsbeheer](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) om de consentstatus bij te houden op treffersniveau.

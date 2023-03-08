@@ -3,16 +3,18 @@ title: inList
 description: Controleer of een waarde is opgenomen in een andere door tekens gescheiden waarde.
 feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: inList
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 De `inList` kunt u controleren of er al een waarde bestaat binnen een afgebakende tekenreeks of een JavaScript-arrayobject. Verschillende andere plug-ins zijn afhankelijk van de `inList` insteekmodule werkt. Deze insteekmodule biedt een duidelijk voordeel ten opzichte van de JavaScript-methode `indexOf()` waarbij de waarde niet overeenkomt met een gedeeltelijke tekenreeks. Als u deze insteekmodule bijvoorbeeld hebt gebruikt om te controleren op `"event2"`, komt deze niet overeen met een tekenreeks die `"event25"`. Deze insteekmodule is niet nodig als u niet hoeft te controleren op waarden in afgebakende tekenreeksen of arrays, of als u uw eigen insteekmodule wilt gebruiken `indexOf()` logica.
 

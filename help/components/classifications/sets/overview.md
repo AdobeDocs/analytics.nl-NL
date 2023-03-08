@@ -2,9 +2,9 @@
 title: Overzicht van classificatiesets
 description: Classificatiesets gebruiken om classificatiegegevens te beheren.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Classificatiesets bieden één interface voor het beheer van classificaties en r
 
 >[!NOTE]
 >
->Deze functie is beschikbaar voor alle klanten in de architectuur van de Classificatieset. Neem contact op met de klantenservice van Adobe of uw Adobe-accountteam voor meer informatie.
+>Classificatiesets zullen beschikbaar zijn voor alle klanten die hun rapportsuites hebben gemigreerd naar de nieuwe classificatiearchitectuur. Neem voor meer informatie contact op met de klantenservice van Adobe of uw accountmanager.
 
 De backend architectuur die met de Reeksen van de Classificatie wordt vrijgegeven bevat verscheidene opmerkelijke verbeteringen:
 

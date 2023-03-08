@@ -2,16 +2,16 @@
 title: Variabeletoewijzing analyseren in Adobe Experience Edge
 description: Geef aan welke XDM-velden door Edge automatisch worden toegewezen aan analytische variabelen.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 6a1c95a25c89332b0d549e5ce8c5197331e71e3c
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
 
 # Variabeletoewijzing analyseren in Adobe Experience Edge
 
-In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge Network automatisch toewijst aan Adobe Analytics. Als u deze XDM-veldpaden gebruikt, is er geen extra configuratie nodig om gegevens naar Adobe Analytics te verzenden. Deze velden zijn opgenomen in de **[!UICONTROL Adobe Analytics ExperienceEvent Template]** veldgroep.
+In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge Network automatisch toewijst aan Adobe Analytics. Als u deze XDM-veldpaden gebruikt, is er geen extra configuratie nodig om gegevens naar Adobe Analytics te verzenden.
 
 | XDM-veldpad | Dimensie en beschrijving van analyses |
 | --- | --- |
@@ -125,7 +125,7 @@ In de volgende tabel staan de variabelen die het Adobe Experience Platform Edge 
 | `web.webPageDetails.siteSection` | De [Sectie Site](../../components/dimensions/site-section.md) dimensie. |
 | `web.webReferrer.URL` | De [Referenter](../../components/dimensions/referrer.md) dimensie. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
 

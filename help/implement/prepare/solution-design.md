@@ -3,9 +3,9 @@ title: Een document voor het ontwerp van een oplossing maken
 description: Leer wat een document van het oplossingsontwerp is, en hoe u het in uw organisatie kunt gebruiken.
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Bij het bepalen van welke gegevens moeten worden verzameld, is het gemakkelijk o
 
 ## Aanvullende bronnen
 
-Het definiëren van een document voor het ontwerp van een oplossing is een vrij complex project, vooral voor organisaties die er nog geen hebben gemaakt. Als u meer hulp nodig hebt, biedt Adobe gespecialiseerd advies om uw organisatie aan de slag te krijgen met Adobe Analytics. Neem contact op met het accountteam van Adobe als u professionele services wilt aanbieden voor Adobe. A [Technische vragenlijst voorafgaand aan de uitvoering](assets/technical-pre-implementation-questionnaire.pdf) kan worden ingevuld zodat Adobe precies weet hoe u kunt helpen op basis van de behoeften van uw organisatie.
+Het definiëren van een document voor het ontwerp van een oplossing is een vrij complex project, vooral voor organisaties die er nog geen hebben gemaakt. Als u meer hulp nodig hebt, biedt Adobe gespecialiseerd advies om uw organisatie aan de slag te krijgen met Adobe Analytics. Neem contact op met uw accountmanager als u professionele services wilt aanbieden. A [Technische vragenlijst voorafgaand aan de uitvoering](assets/technical-pre-implementation-questionnaire.pdf) kan worden ingevuld zodat Adobe precies weet hoe u kunt helpen op basis van de behoeften van uw organisatie.
 
 Er zijn ook verscheidene partners van Adobe die zich in het helpen bij de verwezenlijking van een document van het oplossingsontwerp, evenals het uitvoeren van Adobe Analytics op uw plaats specialiseren.
 

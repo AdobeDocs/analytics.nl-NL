@@ -3,16 +3,18 @@ title: formatTime
 description: Zet een aantal seconden in zijn equivalent in notulen, uren, enz. om.
 feature: Variables
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: formatTime
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 De `formatTime` Met de insteekmodule kunt u een willekeurig aantal seconden duren en deze presenteren in een gespikte indeling, afgerond naar een gewenste benchmarkwaarde. Adobe raadt u aan deze plug-in te gebruiken als u een tijdswaarde in seconden wilt vastleggen en deze wilt omzetten in een bucket-indeling (zoals minuten, dagen of weken). Deze plug-in is niet nodig als u op de tweede computer gebaseerde waarden niet in een indeling met afgeronde tijd wilt plaatsen.
 

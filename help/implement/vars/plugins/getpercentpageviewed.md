@@ -3,16 +3,18 @@ title: getPercentPageViewed
 description: Haal het percentage op van de pagina die de bezoeker heeft weergegeven.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: getPercentPageViewed
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 De `getPercentPageViewed` insteekmodule meet de schuifactiviteit van een bezoeker om te zien hoeveel van een pagina deze bekijkt voordat deze naar een andere pagina gaat. Deze insteekmodule is niet nodig als de pagina&#39;s klein van hoogte zijn of als u de scrollactiviteit niet wilt meten.
 

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 7f8fdceaaac1d9384e108660c09010bfdc1472b2
+source-git-commit: ccb40e45ea559db815f4252d85baa61b9e109024
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 1%
@@ -62,6 +62,7 @@ ht-degree: 1%
 >[!AVAILABILITY]
 >
 >De in deze sectie beschreven functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
+
 
 ## Dislaimer plug-in {#plug-in}
 

@@ -3,16 +3,18 @@ title: getQueryParam
 description: Haal de waarde van de parameter van het vraagkoord van een URL uit.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '554'
 ht-degree: 1%
 
 ---
 
 # Adobe-plug-in: getQueryParam
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
 
 De `getQueryParam` Met de insteekmodule kunt u de waarde extraheren van elke parameter voor queryreeksen in een URL. Het is nuttig om campagnecodes, zowel intern als extern, uit het landen van pagina URLs te halen. Het is ook nuttig wanneer het halen van onderzoekstermijnen of andere parameters van het vraagkoord.
 

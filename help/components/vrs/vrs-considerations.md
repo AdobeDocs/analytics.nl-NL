@@ -4,7 +4,7 @@ keywords: Virtual Report Suite,VRS
 title: Virtuele rapportreeksen en tagging met meerdere suite-overwegingen
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Als u tags met meerdere suite vervangt door een algemene rapportsuite en VRS, ku
 
 ## Richtsnoeren
 
-Als u niet zeker weet of de beschreven gebruiksgevallen op u en uw organisatie van toepassing zijn, raadpleegt u uw andere Adobe Analytics-beheerders of uw Adobe-accountteam. Zij kunnen helpen uw bedrijfsbehoeften beoordelen en een aanbeveling doen.
+Als u niet zeker weet of de beschreven gebruiksgevallen op u en uw organisatie van toepassing zijn, neemt u contact op met andere Adobe Analytics-beheerders of met uw Adobe-accountmanager. Zij kunnen helpen uw bedrijfsbehoeften beoordelen en een aanbeveling doen.
 
 Houd rekening met het volgende wanneer u bepaalt of u tags met meerdere suite of virtuele rapportsuites moet gebruiken:
 

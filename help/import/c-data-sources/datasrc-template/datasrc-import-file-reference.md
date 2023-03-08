@@ -5,9 +5,9 @@ title: Referentie van bestand importeren
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ Gebruik het malplaatje van de Gegevensbron om een Gegevensbrondossier tot stand 
 * Om de verwerking van uw Gegevensbrondossier te versnellen, adviseert Adobe samenvoegend gebeurtenis (metrische) gegevens in één enkele rij per datum.
 
    Als uw gegevensbronbestand bijvoorbeeld een hyperlink en een afbeelding naar gebeurtenis 6 bevat, maakt u één gegevensrij die het totale aantal indrukken en indrukken voor elke dag bevat. U hoeft dus geen gegevensrijitem te maken voor elke advertentie die op een bepaalde dag is opgetreden.
-* Als u gegevens moet uploaden vanaf datums vóór de aanmaakdatum van de rapportsuite, neemt u contact op met het accountteam van Adobe om de oudste datum te wijzigen waarvoor u rapporten kunt uitvoeren.
+* Als u gegevens moet uploaden vanaf datums vóór de aanmaakdatum van de rapportsuite, neemt u contact op met uw accountmanager om de oudste datum te wijzigen waarvoor u rapporten kunt uitvoeren.
 
 **.FIN-bestand**
 

@@ -3,9 +3,9 @@ title: Een traffic-piek plannen
 description: De partner met Adobe om ervoor te zorgen de hoog-verkeersgebeurtenissen geen latentie ervaren.
 feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 2%
 
 ---
@@ -62,4 +62,4 @@ Adobe wil ervoor zorgen dat uw ervaring met actuele rapportage consistent is. Om
 
 * De loodtijd van het programma voor alle verkeerspikes. **Het is vooral belangrijk dat alle in de maanden november-december verwachte verkeersopstoppingen tegen 15 september zijn gepland**. Als u de deadline mist, plant dan zo snel mogelijk uw punt. Minder doorlooptijd is beter dan geen, en Adobe werkt met de huidige middelen om uw rapportsuites het best aan te passen.
 * Als Adobe contact u betreffende een geplande verkeerspiek contacteert, ben zeker om mee te delen als rapportering in real time of volledige verwerking het melden belangrijker is. Sommige organisaties vertrouwen meer op Real-Time rapportering dan andere. Begrijpen welk type van rapportering u gebruikt kan Adobe helpen rangschikken dienovereenkomstig.
-* Het communiceren met uw Adobe Account Team de belangrijkste rapporten en wanneer u hen trekt kunnen hen helpen voor u pleiten.
+* Door contact op te nemen met uw accountmanager kunnen de belangrijkste rapporten worden weergegeven en wanneer u deze ophaalt, kunt u ze helpen voor u te pleiten.

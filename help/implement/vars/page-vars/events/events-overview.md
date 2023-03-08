@@ -3,7 +3,7 @@ title: events
 description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw site beheert.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Er zijn verschillende functies beschikbaar:
 
 De `s.events` variabele is een tekenreeks die een door komma&#39;s gescheiden lijst met gebeurtenissen bevat die in de hit moeten worden opgenomen. Er is geen bytelimiet voor deze variabele, zodat de variabele niet wordt afgekapt. Geldige waarden zijn:
 
-* `event1` - `event1000`: Aangepaste gebeurtenissen instellen op de gewenste manier. Registreer hoe u elke gebeurtenis in uw organisatie gebruikt [document ontwerp oplossing](../../../prepare/solution-design.md). Het aantal beschikbare gebeurtenissen is afhankelijk van het contract Analytics van uw organisatie. De meeste organisaties op niet verouderde contracten hebben 1000 beschikbare douanefouten. Neem contact op met het accountteam van Adobe als u niet weet hoeveel aangepaste gebeurtenissen voor u beschikbaar zijn.
+* `event1` - `event1000`: Aangepaste gebeurtenissen instellen op de gewenste manier. Registreer hoe u elke gebeurtenis in uw organisatie gebruikt [document ontwerp oplossing](../../../prepare/solution-design.md). Het aantal beschikbare gebeurtenissen is afhankelijk van het contract Analytics van uw organisatie. De meeste organisaties op niet verouderde contracten hebben 1000 beschikbare douanefouten. Neem contact op met de accountmanager van uw organisatie als u niet weet hoeveel aangepaste gebeurtenissen voor u beschikbaar zijn.
 * `purchase`: Verhoogt de [&#39;Bestellingen&#39;](/help/components/metrics/orders.md) metrisch bij 1, en neemt waarden die in worden geplaatst `products` variabele die moet worden berekend [&#39;Eenheden&#39;](/help/components/metrics/units.md) en [&quot;Ontvangsten&quot;](/help/components/metrics/revenue.md). Zie [koopgebeurtenis](event-purchase.md) voor meer informatie .
 * `prodView`: Verhoogt de [&#39;Productweergaven&#39;](/help/components/metrics/product-views.md) metrisch.
 * `scOpen`: Verhoogt de [&quot;Karten&quot;](/help/components/metrics/carts.md) metrisch.
