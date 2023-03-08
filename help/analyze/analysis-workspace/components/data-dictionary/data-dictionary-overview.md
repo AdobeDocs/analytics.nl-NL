@@ -3,9 +3,7 @@ description: Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers
 title: Overzicht van gegevenswoordenboek
 feature: Components
 role: User, Admin
-hide: true
-hidefromtoc: true
-source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
+source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -65,7 +63,7 @@ U kunt het gegevenswoordenboek op de volgende manieren openen in Analysis Worksp
 * Van de **Gegevenswoordenboek** in de info-pop-up van een component.
 
    ![Pictogram Gegevenswoordenboek in info-pop-up](assets/data-dictionary-access-infopopover.png)
-<!--update screenshot; this was taken from a mock-->
+   <!--update screenshot; this was taken from a mock-->
 
 * Vanuit het menu: [!UICONTROL **Help**] > [!UICONTROL **Gegevenswoordenboek**].
 
