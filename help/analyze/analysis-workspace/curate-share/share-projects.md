@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ec3539389ab3aa9589e15e14f19b6f34d57a15a2
+source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -136,23 +136,17 @@ Een openbare koppeling naar een Analysis Workspace-project delen:
 
 1. De optie **[!UICONTROL Link active]** als deze optie nog niet is ingeschakeld.
 
-1. Geef op of u de volgende beveiligingsopties wilt inschakelen (deze opties kunnen worden beheerd door de beheerder van Analytics):
+1. Geef op of u de volgende beveiligingsoptie wilt inschakelen (deze optie kan worden beheerd door de beheerder van Analytics):
 
-   * **[!UICONTROL Require single sign-on (SSO) authentication]:**
+   * **[!UICONTROL Require Experience Cloud authentication]:**
 
-      Vereis mensen met de verbinding om via SSO voor authentiek te verklaren alvorens toegang tot het gedeelde project te verkrijgen. Selecteer deze optie als u wilt dat het project alleen toegankelijk is voor gebruikers binnen uw organisatie.
+      Wanneer deze optie is ingeschakeld, hebben alleen ontvangers met een gefedereerde id en kunnen zich aanmelden bij Adobe Experience Cloud toegang tot gedeelde openbare koppelingen. Vereisen dat personen met de koppeling zich verifiëren met hun Adobe Experience Cloud-aanmelding om toegang te krijgen tot het gedeelde project.
 
       Analysebeheerders kunnen deze voorkeur voor het bedrijf instellen, zoals beschreven in [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md). U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
 
-      * Als deze optie niet zichtbaar is, is SSO niet ingeschakeld voor uw organisatie of heeft uw beheerder van Analytics deze functie niet ingeschakeld.
+      * Als deze optie niet zichtbaar is, heeft de beheerder van Analytics deze functie niet ingeschakeld.
 
-      * Als deze optie is ingeschakeld en gedimd, heeft de beheerder van Analytics SSO-verificatie nodig voor toegang tot alle openbare koppelingen.
-   * **[!UICONTROL Require Password]:** Vereisen mensen met de verbinding om een wachtwoord te specificeren alvorens tot het project van Analysis Workspace toegang te hebben. Dit verstrekt een extra niveau van veiligheid aan uw project.
-
-      Als u deze optie selecteert, geeft u een wachtwoord op. Vergeet niet dit wachtwoord samen met de projectkoppeling te delen wanneer u het deelt met anderen. <!--go through this workflow and see how it works.-->
-
-      Als deze optie is ingeschakeld en gedimd, vereist de beheerder van Analytics dat alle openbare koppelingen beveiligd zijn met een wachtwoord. Analysebeheerders kunnen deze voorkeur voor het bedrijf instellen, zoals beschreven in [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md).
-
+      * Als deze optie is ingeschakeld en gedimd, heeft de beheerder van Analytics Experience Cloud-verificatie nodig voor toegang tot alle openbare koppelingen.
 
 1. Naast de **[!UICONTROL Share with anyone (no login required)]** veld, klikt u op de knop **Koppeling kopiëren** pictogram om de koppeling naar het systeemklembord te kopiëren.
 
