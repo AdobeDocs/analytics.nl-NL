@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 87d4e492afe8d614dfdba24389660829df871dd7
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '628'
 ht-degree: 73%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 73%
       + [Machtigingen voor productprofielen voor Analytics Tools](admin-console/permissions/analytics-tools.md)
 + Analysebeheerfuncties {#admin-tools}
    + [Overzicht van beheerprogramma&#39;s](admin/c-admin-tools.md)
-   + [Facturering](admin/billing-admin.md)
    + [Code Manager](admin/code-manager-admin.md)
    + [Databronnen](admin/data-sources.md)
    + [Uitsluiten op IP-adres](admin/exclude-ip.md)
