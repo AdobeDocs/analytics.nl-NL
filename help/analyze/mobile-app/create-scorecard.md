@@ -4,7 +4,7 @@ title: Een mobiele scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 67f74d852f1650f729ce9b5ad725134d9fc9cd60
+source-git-commit: 06fc208465e8eb5be1f1fd766d40dadee84e4f9c
 workflow-type: tm+mt
 source-wordcount: '2284'
 ht-degree: 0%
@@ -233,7 +233,7 @@ Bouw uw gegevensverhaal door veelvoudige detaildia&#39;s aan een tegel toe te vo
 1. Begin met een mobiel scorecardproject.
 1. Selecteer een tegel waarvan u een artikel wilt maken.
    ![Een gegevensartikel maken](assets/data-story1.png)
-   ![Pictogrammen voor gegevensartikelen maken](assets/create-data-story.png){width="25%"}
+   ![Pictogrammen voor gegevensartikelen maken](assets/create-data-story.png){width=".50%"}
 1. Voeg dia&#39;s toe om uw gegevensverhaal te bouwen. De eerste dia wordt standaard gegenereerd.
 Als u nieuwe dia&#39;s wilt toevoegen, houdt u de muisaanwijzer boven een dia of klikt u op een dia en selecteert u een van de beschikbare opties:
    * Tik op + om een nieuwe dia te maken.
