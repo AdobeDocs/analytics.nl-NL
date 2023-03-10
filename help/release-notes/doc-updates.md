@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 60af9f7a14e81609a2a51558677031bc778aef3e
+source-git-commit: 04e80edd290b1b6a007e7ccec1bb1d563e98ecf8
 workflow-type: tm+mt
-source-wordcount: '3704'
-ht-degree: 34%
+source-wordcount: '3732'
+ht-degree: 33%
 
 ---
 
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **maart 2023** |  |
+| Gegevensartikelen maken in mobiele scorecards | A [gegevensartikel](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) is een inzameling van het steunen van gegevenspunten, bedrijfscontext, en verwante metriek die rond een centraal thema of metrisch worden gebouwd. |
 | Berekende standaardwaarden | Toegevoegde inhoud waarin de [berekende standaardwaarden verstrekt door Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | Gegevenswoordenboek | <p>Nieuwe documentatie toegevoegd voor het gegevenswoordenboek, inclusief een [Overzicht](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Weergeven](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Bewerken](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), en [Toezicht](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) het gegevenswoordenboek.</p><p>Informatie in [Componentbeschrijvingen toevoegen](/help/analyze/analysis-workspace/components/add-component-descriptions.md) is bijgewerkt voor de functie Gegevenswoordenboek.</p> |
 | Het delen van verbindingen voor projecten (geen vereiste login) | <p>Bijgewerkte bestaande documentatie om uit te leggen hoe u een read-only verbinding van een project kunt delen met mensen die geen toegang tot Analysis Workspace hebben.</p> <p>De bijgewerkte gebruikersdocumentatie bevat [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md) en [Deelbare koppelingen maken](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>Er zijn opties voor beheerders toegevoegd aan [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md).</p> |
