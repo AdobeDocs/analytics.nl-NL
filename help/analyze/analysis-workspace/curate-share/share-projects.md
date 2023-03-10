@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
+source-git-commit: 66a02a6d0c6cc88752ea39172bd30b026908846b
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -140,9 +140,9 @@ Een openbare koppeling naar een Analysis Workspace-project delen:
 
    * **[!UICONTROL Require Experience Cloud authentication]:**
 
-      Wanneer deze optie is ingeschakeld, hebben alleen ontvangers met een gefedereerde id en kunnen zich aanmelden bij Adobe Experience Cloud toegang tot gedeelde openbare koppelingen. Vereisen dat personen met de koppeling zich verifiëren met hun Adobe Experience Cloud-aanmelding om toegang te krijgen tot het gedeelde project.
+      Wanneer deze optie is ingeschakeld, kunnen alleen gebruikers die zich kunnen aanmelden bij de Adobe Experience Cloud-organisatie waar het project dat u deelt, is gemaakt, deze koppeling gebruiken.
 
-      Analysebeheerders kunnen deze voorkeur voor het bedrijf instellen, zoals beschreven in [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md). U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
+      Analysebeheerders kunnen deze voorkeur voor het bedrijf, zoals die in wordt beschreven vormen [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md). U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
 
       * Als deze optie niet zichtbaar is, heeft de beheerder van Analytics deze functie niet ingeschakeld.
 
