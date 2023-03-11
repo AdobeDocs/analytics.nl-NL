@@ -3,10 +3,10 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c99e4f2b91d6246a2a47e39dc24ba443b76636f6
+source-git-commit: 3d2e6966fbc765cd19f7a258457d89af3097083f
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,6 +24,7 @@ Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die
 | **Gegevensartikelen in mobiele dashboards** | Met gegevensartikelen kunt u meerdere aanpasbare detailweergaven toevoegen aan tegels in Mobile Scorecard-projecten. Gebruik gegevensverhalen om dieper in belangrijke bestuurders, verwante metriek, en verschillende stappen tijdens de klantenreis te duiken. U kunt eenvoudig door deze weergaven heen vegen om het hele verhaal achter uw belangrijkste meetgegevens te begrijpen. [Meer informatie](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | N.v.t. | 8 maart 2023 |
 | **Vervaldatums voor het geplande project** | U kunt maximale vervaldatums voor geplande projecten instellen op maximaal één jaar, ongeacht de planningsfrequentie. | N.v.t. | 8 maart 2023 |
 | **Het delen van verbindingen voor projecten (geen vereiste login)** - Alleen persoonlijke bètatoegang | <p>U kunt nu alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. U kunt projectverbindingen met mensen buiten uw organisatie, of die binnen uw organisatie delen die niet provisioned voor Adobe Analytics zijn. [Meer informatie](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Neem contact op met het accountteam van Adobe om deel te nemen aan de persoonlijke bètaversie.</p> | 15 maart 2023 (particuliere bèta) | April 2023 |
+| **Updates voor het datumbereik van deelvensters** | In Workspace zijn de volgende verbeteringen aangebracht:<ul><li>Vanaf de release van februari zijn dimensiepunten en voorvertoningen van gegevens gebaseerd op het datumbereik van het deelvenster en niet op de laatste 90 dagen. </li><li>Alle weergegeven dimensie-items zijn gebaseerd op gegevens binnen het datumbereik van het deelvenster. Als een dimensie-item gegevens buiten het datumbereik heeft, kunt u aanvullende gegevens buiten het datumbereik onder aan de lijst weergeven.</li><li>Dimension die geen gegevens hebben, kunnen in het linkerspoor worden getoond. Klik op de optie Meer opties tonen om dimensie-items weer te geven met gegevens buiten het datumbereik van het deelvenster.</li><li>De voorproeven van gegevens in het segment en de berekende metrische bouwers zijn gebaseerd op de waaier van de paneeldatum tenzij betreden van de componentenmanagers, die geen bijbehorend paneel hebben en nog gebaseerd op de laatste 90 dagen zijn.</li><li>In voorvertoningen van gegevens worden gegevens of componenten weergegeven op basis van het datumbereik van het deelvenster.</li></ul> | N.v.t. | 8 februari 2023 |
 
 ## Oplossingen in Adobe Analytics
 
