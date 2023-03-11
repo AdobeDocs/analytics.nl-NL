@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3d2e6966fbc765cd19f7a258457d89af3097083f
+source-git-commit: 5739b9bd20d63c51343127832778c4c3836993b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1192'
+ht-degree: 2%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (maart 2023)
 
-**Laatste update**: 9 maart 2023
+**Laatste update**: 10 maart 2023
 
 Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
