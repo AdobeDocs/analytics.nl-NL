@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 92894877-4fa8-4ea6-b5cd-9d1c50c3e250
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 9%
+source-wordcount: '104'
+ht-degree: 7%
 
 ---
 
@@ -16,4 +16,4 @@ ht-degree: 9%
 
 De wizard Verzoek: Stap 2 venster laat u de rapportlay-out, kopbal het formatteren, en dimensie het filtreren voor output vormen. U kunt een Lay-out van de Draai gebruiken om het verzoek te vormen, die gelijkaardig is hoe u een de draaitabel van Excel creeert.
 
-U kunt ook handmatig de cellen selecteren waarin u rapportgegevens wilt weergeven met de [Aangepaste layout](/help/analyze/report-builder/layout/configure-the-custom-layout.md).
+Alternatief, kunt u de cellen manueel selecteren waarin u rapportgegevens wilt tonen door te gebruiken [Aangepaste layout](/help/analyze/report-builder/layout/configure-the-custom-layout.md).

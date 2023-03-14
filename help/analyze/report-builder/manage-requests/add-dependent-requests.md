@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: e45eef96-0bd2-4c5a-b1d1-cd41390c08d4
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 7%
+source-wordcount: '102'
+ht-degree: 5%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 7%
 
 Een afhankelijk verzoek is een verzoek dat van een bestaand verzoek afhankelijk is.
 
-Voor rapporten met correlatieonderverdelingen die binnen de rapportlijst worden toegelaten, kunt u een dichtere blik bij een punt nemen door in de cel met de rechtermuisknop te klikken en **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]** te klikken.
+Voor rapporten met correlatieonderbrekingen die binnen de rapportlijst worden toegelaten, kunt u een dichtere blik bij een punt nemen door in de cel met de rechtermuisknop te klikken en te klikken **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
 
 >[!NOTE]
 >
->U kunt ook een verzoek tot uitsplitsing toevoegen tijdens het maken van de oorspronkelijke aanvraag. Zie [Een gegevensverzoek maken](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
+>U kunt ook een verzoek tot uitsplitsing toevoegen tijdens het maken van de oorspronkelijke aanvraag. Zie [Een gegevensaanvraag maken](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
 
 >[!NOTE]
 >

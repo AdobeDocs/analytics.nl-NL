@@ -2,7 +2,7 @@
 description: Informatie over speciale tekens die worden gebruikt in de gegevensfeed.
 keywords: Gegevensfeed;taak;speciale tekens;hit_data;multi-getaxeerde variabelen;events_list;products_list;mvars
 subtopic: data feeds
-title: Special characters in data feeds
+title: Speciale tekens in gegevensfeeds
 feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 ---
 
-# Special characters in data feeds
+# Speciale tekens in gegevensfeeds
 
 Adobe gebruikt escape-logica om ervoor te zorgen dat waarden die naar gegevensverzamelingsservers worden verzonden, geen bestanden voor gegevensinvoer beschadigen of negatief beïnvloeden. De volgende tekens worden door Adobe gereserveerd voor de volgende doeleinden in `hit_data.tsv`.
 
@@ -22,9 +22,9 @@ Adobe gebruikt escape-logica om ervoor te zorgen dat waarden die naar gegevensve
 |--- |--- |
 | `\t` | Geeft een tab aan. Hiermee wordt het einde van een kolom of gegevensveld gemarkeerd. |
 | `\n` | Vertegenwoordigt een nieuwe regel. Hiermee markeert u het einde van een rij of treffer. |
-| `\` | Backslash. Escapes characters when sent as part of data collection. |
+| `\` | Backslash. Hiermee worden tekens verwijderd als deze worden verzonden als onderdeel van gegevensverzameling. |
 
-When these reserved values are preceded by a backslash, they were sent as part of data collection.
+Wanneer deze gereserveerde waarden worden voorafgegaan door een backslash, zijn ze verzonden als onderdeel van gegevensverzameling.
 
 | Teken | Beschrijving |
 |--- |--- |
@@ -49,7 +49,7 @@ Wanneer deze gereserveerde waarden worden voorafgegaan door een invoegpunt, zijn
 
 | Teken | Beschrijving |
 |--- |--- |
-| `^,` | The value &#39;`,`&#39; was sent during data collection, escaped by Adobe. |
+| `^,` | De waarde &#39;`,`&#39; is verzonden tijdens gegevensverzameling, beschermd door Adobe. |
 | `^;` | De waarde &#39;`;`&#39; is verzonden tijdens gegevensverzameling, beschermd door Adobe. |
 | `^=` | De waarde &#39;`=`&#39; is verzonden tijdens gegevensverzameling, beschermd door Adobe. |
 | `^^` | De waarde &#39;`^`&#39; is verzonden tijdens gegevensverzameling, beschermd door Adobe. |

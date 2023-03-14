@@ -255,7 +255,7 @@ Deze pagina bevat een overzicht van de afmetingen die worden ondersteund in de r
 | Eigen definitiemetrisch | `socialowneddefinitionmetric` |
 | Element | `socialmediaid` |
 
-### Mobile SDK
+### Mobiele SDK
 
 | Naam Dimension (zichtbaar in de gebruikersinterface van Analytics) | Dimension-id (wordt gebruikt in API-aanvragen) |
 |--- |--- |

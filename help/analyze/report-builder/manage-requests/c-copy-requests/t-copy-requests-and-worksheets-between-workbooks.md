@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 4%
+source-wordcount: '338'
+ht-degree: 3%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 4%
 Kopieer een volledig spreadsheet in een bronwerkboek aan een spreadsheet in één of meerdere doelwerkboeken.
 
 Om dit te doen, moet u minstens twee werkboeken hebben die in het zelfde geval van Excel worden geopend: het eerste bronwerkboek bevat een spreadsheet (aantekenvel) met verzoeken in kaart gebracht aan cellen, terwijl de extra doelwerkboeken de bestemmingen zijn. Voor elk nieuw doelwerkboek, zou u aan de zelfde rapportreeks zoals het bronwerkboek moeten login alvorens u spreadsheets kunt kleven die verzoeken bevatten.
-1. Klik met de rechtermuisknop op het werkblad in het bronwerkboek en selecteer **[!UICONTROL Copy Worksheet w/Requests]**.
+1. Klik met de rechtermuisknop op het spreadsheet in het bronwerkboek en selecteer **[!UICONTROL Copy Worksheet w/Requests]**.
 1. In het bestemmingswerkboek, klik spreadsheet met de rechtermuisknop aan en selecteer **[!UICONTROL Paste Worksheet w/Requests]**.
 
-   De zelfde instantie van Excel betekent dat slechts één enkel proces van Excel ( [!DNL excel.exe]) tegelijkertijd op uw computer loopt. Als u twee instanties van Excel lanceert en probeert om een aantekenvel van een werkboek in de eerste instantie van Excel aan een werkboek in de tweede instantie van Excel te kopiëren, presenteert de rapportaannemer niet de optie om een aantekenvel in het kortere wegmenu van de tweede instantie van Excel te kleven.
+   Het zelfde geval van Excel betekent dat slechts één enkel proces van Excel ( [!DNL excel.exe]) wordt op uw computer uitgevoerd. Als u twee instanties van Excel lanceert en probeert om een aantekenvel van een werkboek in de eerste instantie van Excel aan een werkboek in de tweede instantie van Excel te kopiëren, presenteert de rapportaannemer niet de optie om een aantekenvel in het kortere wegmenu van de tweede instantie van Excel te kleven.
 
    Als u login aan de bron en doelwerkboeken gebruikend verschillende rapportreeksen, de enige resultaten u van de deegverrichting ziet zijn die die het formatteren van het doelwerkboek beïnvloeden. Report Builder toont een bericht verklarend dat de informatie voor de verzoeken die uit een gespecificeerde rapportreeks (in het bronwerkboek) worden afgeleid niet beschikbaar in het doelwerkboek is. Om de verzoeken te openbaren die aan het doelwerkboek worden gekleefd, moet u login aan het doelwerkboek gebruikend de zelfde rapportreeks zoals het bronwerkboek.
 

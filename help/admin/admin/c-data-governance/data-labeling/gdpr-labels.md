@@ -5,8 +5,8 @@ feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
 workflow-type: tm+mt
-source-wordcount: '3548'
-ht-degree: 71%
+source-wordcount: '3521'
+ht-degree: 72%
 
 ---
 
@@ -31,7 +31,7 @@ De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels
 | I1 | Direct identificeerbaar: data waarmee een individu kan worden geïdentificeerd of waardoor rechtstreeks contact met een individu mogelijk wordt, zoals een naam of e-mailadres. | <ul><li>Kan niet worden ingesteld voor gebeurtenissen</li><li>Kan niet worden ingesteld voor merchandising-eVars</li></ul> |
 | I2 | Indirect identificeerbaar: data die in combinatie met andere data kunnen worden gebruikt om een individu of apparaat te identificeren of direct contact mogelijk te maken.  Met zulke data kan een individu op zichzelf niet worden geïdentificeerd, maar ze kunnen wel worden gecombineerd met andere informatie (die al dan niet in uw bezit is) om iemand te identificeren. Voorbeelden zijn een klantloyaliteitsnummer of een id die door het CRM-systeem van een bedrijf wordt gebruikt en die voor elke klant uniek is. | <ul><li>Kan niet worden ingesteld voor gebeurtenissen</li><li>Kan niet worden ingesteld voor merchandising-eVars</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Gevoelige gegevenslabels {#sensitive-data-labels}
 
@@ -42,7 +42,7 @@ De implementatie van Adobe Analytics Data Privacy ondersteunt de volgende labels
 | S1 | Nauwkeurige geolocatiedata van breedte- en lengtegraden die kunnen worden gebruikt om de exacte locatie van een apparaat te bepalen (binnen 100 meter of minder). |
 | S2 | Geolocatiedata die kunnen worden gebruikt om een breed gedefinieerd geo-fencegebied te bepalen. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Labels voor gegevensbeheer (Data Privacy) {#data-governance-labels}
 
@@ -56,7 +56,7 @@ Met labels voor gegevensbeheer kunnen gebruikers gegevens classificeren die een 
 | ACC-ALL | Waarden in dit veld moeten worden opgenomen in alle Data Privacy-toegangsaanvragen. Als deze treffer afkomstig is van een apparaat dat door meerdere personen wordt gedeeld, geeft u als datacontroller door de toepassing van dit label aan dat het acceptabel is om de data in dit veld te delen met ieder individu dat toegang heeft tot het gedeelde apparaat. | Velden met dit label worden geretourneerd voor alle Data Privacy-aanvragen. |
 | ACC-PERSON | Waarden in dit veld moeten alleen worden opgenomen voor verzoeken om toegang tot gegevensprivacy als u er redelijk zeker van bent dat de treffer afkomstig is van de betrokkene, zoals bepaald door een aanvraag-id voor gegevensprivacy die overeenkomt met de waarde van een ID-PERSON-veld. | Er moet ook een ID-PERSON-label zijn ingesteld op een variabele in deze rapportsuite, en aanvragen verzenden met gebruikmaking van deze id verzenden, anders is dit label nooit van toepassing. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Weinig variabelen zullen een van de andere labels krijgen, maar de verwachting is dat de toegangslabels op veel van uw variabelen zullen worden toegepast. Het is echter aan u, in overleg met uw Juridische team, om te beslissen welke gegevens u hebt verzameld, met de Onderwerpen van Gegevens moeten worden gedeeld.
 
@@ -71,7 +71,7 @@ Een label Verwijderen is alleen vereist voor velden die een waarde bevatten waar
 | DEL-DEVICE | Voor Data Privacy-verwijderingsaanvragen mogen waarden in dit veld alleen worden geanonimiseerd voor aanvragen waarbij een opgegeven ID-DEVICE in de treffer aanwezig is.  Als dezelfde waarde voorkomt bij andere resultaten die niet worden verwijderd, worden die andere instanties niet gewijzigd. Daardoor zullen de tellingen wijzigen voor rapporten die unieke tellingen met dit veld berekenen. Op gedeelde apparaten, kan dit herkenningstekens voor andere individuen, voorbij enkel het Onderwerp van Gegevens verwijderen.  Tellingen veranderen niet als dit veld ook een ID-DEVICE-label heeft en de waarde in dit veld is gebruikt als een id voor de Data Privacy-aanvraag. | <ul><li>Vereist ook label I1 of I2 of S1</li><li>Kan niet worden ingesteld voor gebeurtenissen</li><li>Kan niet worden ingesteld voor merchandising-eVars</li></li><li>Kan worden ingesteld voor classificaties</li><li>U moet aanvragen verzenden met gebruikmaking van een ID-DEVICE of expandID&#39;s instellen op true, anders is dit label nooit van toepassing.</li></ul> |
 | DEL-PERSON | Voor Data Privacy-verwijderingsaanvragen mogen waarden in dit veld alleen worden geanonimiseerd voor aanvragen waarbij een opgegeven ID-PERSON in de treffer aanwezig is.  Als dezelfde waarde voorkomt bij andere resultaten die niet worden verwijderd, worden die andere waarden niet gewijzigd. Dit zal in de tellingen resulteren die voor rapporten veranderen die unieke tellingen op dit gebied berekenen. Tellingen veranderen niet als dit veld ook een ID-PERSON-label heeft en de waarde in dit veld is gebruikt als een id voor de Data Privacy-aanvraag. | <ul><li>Vereist ook label I1 of I2 of S1</li><li>Kan niet worden ingesteld voor gebeurtenissen</li><li>Kan niet worden ingesteld voor merchandising-eVars</li></li><li>Kan worden ingesteld voor classificaties</li><li>U moet verzoeken indienen gebruikend een ID-PERSON etiket dat op één of andere variabele binnen deze rapportreeks wordt geplaatst en verzoeken indient gebruikend die identiteitskaart, anders zal dit etiket nooit van toepassing zijn.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Identiteitslabels gegevensprivacy
 
@@ -81,7 +81,7 @@ Een label Verwijderen is alleen vereist voor velden die een waarde bevatten waar
 | ID-DEVICE | Dit veld bevat een id die kan worden gebruikt om een apparaat te identificeren voor een Data Privacy-aanvraag, maar die geen onderscheid kan maken tussen verschillende gebruikers van een gedeeld apparaat.  U hoeft dit label niet te specificeren voor alle variabelen die id&#39;s bevatten (daar zijn de I1/I2-labels voor). Gebruik dit label als u Data Privacy-aanvragen verzendt met id&#39;s die in deze variabele zijn opgeslagen, en u deze variabele wilt doorzoeken naar de opgegeven id. | Vereist ook label I1 of I2.<ul><li>Kan niet worden ingesteld voor gebeurtenissen</li><li>Kan niet worden ingesteld voor merchandising-eVars</li><li>Kan worden ingesteld voor classificaties</li></ul> |
 | ID-PERSON | Dit veld bevat een id die kan worden gebruikt om een geverifieerde gebruiker (een specifieke persoon) te identificeren voor een Data Privacy-aanvraag.  U hoeft dit label niet te specificeren voor alle variabelen die id&#39;s bevatten (daar zijn de I1/I2-labels voor). Gebruik dit label als u Data Privacy-aanvragen gaat verzenden met id&#39;s die in deze variabele zijn opgeslagen, en u deze variabele wilt doorzoeken naar de opgegeven id. | <ul><li>Vereist ook label I1 of I2.</li><li>Kan niet worden ingesteld voor gebeurtenissen</li><li>Kan niet worden ingesteld voor merchandising-eVars</li><li>Kan worden ingesteld voor classificaties</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Geef een naamruimte op wanneer u een variabele labelt als ID-DEVICE of ID-PERSON {#provide-namespace}
 
@@ -138,7 +138,7 @@ De etiketten van de Privacy van gegevens beïnvloeden vier brede klassen van var
 | <ul><li>Traffic variables (props)</li><li>Commerce-variabelen (non-merchandising-eVars)</li></ul> | Alle labels | - |
 | De meeste andere variabelen  (*Zie onderstaande tabel voor uitzonderingen*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Variabelen waaraan andere labels dan ACC-ALL/ACC-PERSON kunnen worden toegewezen/gewijzigd {#variables}
 
@@ -218,7 +218,7 @@ In de volgende tabel wordt beschreven hoe verschillende variabelen worden “ver
 | <ul><li>ClickMap-actie (verouderd)</li><li>ClickMap-context (verouderd)</li><li>Pagina</li><li>Pagina-URL</li><li>URL van oorspronkelijke hoofdpagina</li><li>Referrer</li><li>URL-startpagina bezoeken</li></ul> | URL-parameters worden gewist/verwijderd. Als de waarde er niet uitziet als een URL, wordt de waarde gewist (ingesteld op de lege tekenreeks). |
 | <ul><li>Breedtegraad</li><li>Lengtegraad</li></ul> | Precisie wordt beperkt tot maximaal 1 km. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Variabelen die de verwachte labels voor verwijderen mogelijk niet ondersteunen {#no-delete-support}
 
@@ -237,7 +237,7 @@ Het is belangrijk te begrijpen welk type gegevens in elke variabele is opgenomen
 | [!UICONTROL Visitor ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Deze id&#39;s hebben een DEL-DEVICE-label, maar het DEL-PERSON-label kan niet worden toegevoegd. Als u [!UICONTROL ID Expansion] bij elke aanvraag worden deze id&#39;s automatisch verwijderd voor alle verwijderingsaanvragen, ook voor aanvragen met een ID-PERSON.<p>Als u geen id-uitbreiding gebruikt, maar deze cookie-id&#39;s wilt anonimiseren bij treffers die een overeenkomende id in een prop of eVar bevatten, kunt u deze labelbeperking omzeilen door de prop of eVar te labelen met een ID-DEVICE-label, zelfs als deze werkelijk een persoon identificeert (alle DEL-PERSON-labels moeten ook worden gewijzigd in DEL-DEVICE-labels). In dit geval zal het aantal unieke bezoekers in de historische rapportage veranderen, omdat slechts enkele exemplaren van de bezoeker-id of de ECID worden geanonimiseerd. |
 | [!UICONTROL AMO ID] | De Adobe Advertising Cloud-id is een oplossingsvariabele die niet kan worden gewijzigd [!UICONTROL DEL-DEVICE] label. Deze wordt net als de bezoekers-id en de MCID ingevuld op basis van een cookie. Deze moet uit treffers worden verwijderd wanneer de andere id&#39;s worden verwijderd. Zie de beschrijving van deze variabelen voor meer informatie. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Datumvelden voor verzoeken om toegang {#access-requests}
 
@@ -251,7 +251,7 @@ Er zijn vijf standaardvariabelen die tijdstempels bevatten:
 | Tijdstip eerste treffer in GMT | De waarde voor Aangepaste tijdstip treffer in UTC voor de eerste treffer die is ontvangen voor de bezoekers-id-waarde voor deze treffer. |
 | Begintijdstip bezoek in UTC | De waarde voor Aangepaste tijdstip treffer in UTC voor de eerste treffer die is ontvangen voor het huidige bezoek van deze bezoekers-id. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Voor de code voor het genereren van de bestanden die voor Data Privacy-toegangsaanvragen worden geretourneerd, moet minstens één van de eerste drie tijdstempelvariabelen in de toegangsaanvraag zijn opgenomen (een ACC-label hebben dat van toepassing is op het type aanvraag). Als geen van deze zijn opgenomen, wordt Aangepaste tijdstip treffer in UTC worden behandeld alsof het een ACC-ALL-label heeft.
 

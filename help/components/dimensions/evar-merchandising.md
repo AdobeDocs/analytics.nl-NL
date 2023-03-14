@@ -30,7 +30,7 @@ Wanneer de bezoeker deze aankoop heeft voltooid, wordt een interne zoekopdracht 
 
 | Interne zoekterm | Omzet |
 |---|---|
-| winterjas | $ 157 |
+| winterjas | $157 |
 
 ## Hoe merchandising-variabelen dit probleem oplossen
 
@@ -40,8 +40,8 @@ Als merchandising is ingeschakeld voor de eVar in het vorige voorbeeld, wordt de
 
 | Interne zoekterm | Omzet |
 |---|---|
-| winterjas | $ 119 |
-| bril | $ 38 |
+| winterjas | $119 |
+| bril | $38 |
 
 Zie [Merchandising Vars](/help/implement/vars/page-vars/evar-merchandising.md) voor uitvoeringsinstructies.
 

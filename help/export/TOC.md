@@ -2,12 +2,12 @@
 product: analytics
 audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
-breadcrumb-title: Hulplijn exporteren
-user-guide-description: Meer informatie over het gebruik van gegevensfeeds voor het exporteren van onbewerkte gegevens en Data Warehouse voor het ophalen van een spreadsheetuitvoer van gegevens. Leer hoe u met FTP en SFTP bestanden kunt overbrengen.
+breadcrumb-title: Handleiding exporteren
+user-guide-description: Leer meer over het gebruik van datafeeds om onbewerkte gegevens te exporteren en Data Warehouse om een spreadsheetuitvoer van gegevens op te halen. Meer informatie over FTP en SFTP gebruiken om bestanden over te dragen.
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 70%
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 70%
 # Adobe Analytics Export Guide {#export}
 
 + [Handleiding voor exporteren van analysemogelijkheden](home.md)
-+ [Opmerkingen bij de release Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Aanvullende informatie voor Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Gegevensfeed Analytics {#analytics-data-feed}
    + [Overzicht van gegevensinvoer](analytics-data-feed/data-feed-overview.md)
    + [Een gegevensfeed maken of bewerken](analytics-data-feed/create-feed.md)

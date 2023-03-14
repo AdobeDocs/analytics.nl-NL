@@ -67,7 +67,7 @@ Gegevensbronnen ondersteunen multibyte-codering. De Bronnen van gegevens probere
   </tr> 
   <tr> 
    <td colname="col1"> ISO-8859-1 (ook bekend als Latin-1 of Windows-1252) </td> 
-   <td colname="col2"> Ondersteund. Microsoft Excel wordt in deze indeling opgeslagen wanneer u een "door tabs gescheiden" export kiest. De rapportsuite moet de landinstelling ISO-8859-1 gebruiken. </td> 
+   <td colname="col2"> Ondersteund. Microsoft Excel wordt in deze indeling opgeslagen wanneer u een export kiest met de naam "gescheiden door tabs". De rapportsuite moet de landinstelling ISO-8859-1 gebruiken. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-16 Little-endian, met Byte Order Mark (FF FE) </td> 

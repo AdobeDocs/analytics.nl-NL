@@ -5,7 +5,7 @@ exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ Hier volgt een video-overzicht van Adobe Analytics:
 
 ## Andere bronnen voor Analytics
 
-* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
 * [Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

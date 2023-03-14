@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: e2ab1b8b-30e7-4851-8f13-292613fef016
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 11%
+source-wordcount: '109'
+ht-degree: 10%
 
 ---
 
@@ -20,4 +20,4 @@ Definities voor vaste data in Report Builder.
 |--- |--- |
 | Dit rapportpakket | Maakt het opgeslagen datumbereik alleen beschikbaar voor de huidige rapportsuite. |
 | Alle rapportsets | Hiermee maakt u het opgeslagen datumbereik beschikbaar voor alle rapportsuites die toegankelijk zijn voor de aangemelde gebruiker. |
-| Parameternaam invoeren | Typ een naam voor de opgeslagen datum. U kunt deze datum als malplaatje in rapportbouwer gebruiken. Deze naam wordt weergegeven wanneer u een opgeslagen datum kunt toepassen. Het veranderen van de naam van een malplaatje beïnvloedt niet de datumconfiguratie die in eerder gecreeerde gegevensverzoeken wordt gebruikt. |
+| Parameternaam invoeren | Typ een naam voor de opgeslagen datum. U kunt deze datum als malplaatje in rapportbouwer gebruiken. Deze naam wordt weergegeven wanneer u een opgeslagen datum kunt toepassen. Het wijzigen van de naam van een sjabloon heeft geen invloed op de datumconfiguratie die wordt gebruikt in eerder gemaakte gegevensaanvragen. |

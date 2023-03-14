@@ -11,7 +11,7 @@ ht-degree: 4%
 
 ---
 
-# Gegevensconnectors
+# Data Connectors
 
 >[!IMPORTANT]
 >
@@ -19,6 +19,6 @@ ht-degree: 4%
 
 Wanneer u een integratie met een Adobe-partner maakt met [gegevensconnectors](https://www.adobeexchange.com/experiencecloud.html), kan Adobe opnieuw op de markt brengen of andere gegevens aan een rekening van FTP duwen, die u of de partner kunt downloaden.
 
-De verwachting is dat u de bestanden op de FTP-account beheert om ervoor te zorgen dat de integratie voldoende ruimte heeft op de FTP-account om de gegevens te ontvangen die door Adobe naar de account worden verzonden. This type of FTP account allows a maximum of 2 GB or 63 files.
+De verwachting is dat u de bestanden op de FTP-account beheert om ervoor te zorgen dat de integratie voldoende ruimte heeft op de FTP-account om de gegevens te ontvangen die door Adobe naar de account worden verzonden. Voor dit type FTP-account is maximaal 2 GB of 63 bestanden toegestaan.
 
 Voor informatie over FTP-beperkingen en gegevensbehoud raadpleegt u [FTP-limieten en gegevensbewaring](/help/export/ftp-and-sftp/ftp-limits.md).

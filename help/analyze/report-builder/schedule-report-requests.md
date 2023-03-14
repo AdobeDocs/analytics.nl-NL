@@ -7,11 +7,11 @@ role: User, Admin
 exl-id: bbc1137d-5549-4f2f-9d67-7165a9970c77
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 8%
+source-wordcount: '60'
+ht-degree: 5%
 
 ---
 
 # Een rapportverzoek plannen
 
-Zie [Een gegevensverzoek plannen](/help/analyze/report-builder/t-schedule-a-data-request.md).
+Zie [Een gegevensaanvraag plannen](/help/analyze/report-builder/t-schedule-a-data-request.md).

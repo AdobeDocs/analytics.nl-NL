@@ -5,8 +5,8 @@ feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '468'
+ht-degree: 2%
 
 ---
 

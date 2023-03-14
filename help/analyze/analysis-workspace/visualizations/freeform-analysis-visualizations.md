@@ -25,7 +25,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 | Visualisatienaam | Beschrijving |
 | --- | --- |
 | [Gebied](/help/analyze/analysis-workspace/visualizations/area.md) | Als een lijngrafiek, maar met een gekleurd gebied onder de lijn. Gebruik een vlakgrafiek als u meerdere maateenheden hebt en u het gebied wilt visualiseren dat wordt uitgedrukt door het snijpunt van twee of meer meetgegevens. |
-| [Balk](/help/analyze/analysis-workspace/visualizations/bar.md) | Geeft verticale balken weer die diverse waarden vertegenwoordigen over een of meer metriek. |
+| [Balk](/help/analyze/analysis-workspace/visualizations/bar.md) | Geeft verticale balken weer die verschillende waarden vertegenwoordigen over een of meer metriek. |
 | [Staafdiagram](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Toont hoe een waarde u in vergelijkt met of maatregelen tegen andere prestatieswaaiers (doelstellingen) geinteresseerd bent. |
 | [Cohortingtabel](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | A *`cohort`* is een groep personen die gemeenschappelijke kenmerken delen over een bepaalde periode. Cohortanalyse is nuttig voor retentie-, kleur- of latentieanalyse. |
 | [Cirkeldiagram](/help/analyze/analysis-workspace/visualizations/donut.md) | Net als bij een cirkeldiagram worden bij deze visualisatie gegevens weergegeven als delen of segmenten van een geheel. |

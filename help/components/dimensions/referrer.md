@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Referenter
+# Referrer
 
 De dimensie &#39;Referrer&#39; rapporteert welke URL&#39;s bezoekers hadden wanneer ze door klikten om uw site te bereiken. Deze dimensie is nuttig om te begrijpen welke specifieke URLs het meeste verkeer aan uw plaats drijft. De externe URL moet een koppeling bevatten en een bezoeker moet erop klikken om het dimensie-item weer te geven.
 

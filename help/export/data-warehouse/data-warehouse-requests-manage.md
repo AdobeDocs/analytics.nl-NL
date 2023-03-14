@@ -4,11 +4,10 @@ title: Verzoeken in Data Warehouse beheren
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 6%
+source-wordcount: '152'
+ht-degree: 5%
 
 ---
 
@@ -16,12 +15,12 @@ ht-degree: 6%
 
 Met Aanvraagbeheer kunt u aanvragen weergeven, dupliceren en opnieuw de prioriteit geven.
 
-Selecteer in Data Warehouse de tab **[!UICONTROL Request Manager]**.
+Selecteer in Data Warehouse de optie **[!UICONTROL Request Manager]** tab.
 
 Door te werken op dit tabblad kunt u
 
 * Bekijk recente rapportverzoeken door rapportnaam, toegepast segment, aanvrager, aanvraagdatum en status.
-* Dubbele aanvragen. Klik **[!UICONTROL Duplicate]** naast het verzoek.
+* Dubbele aanvragen. Klikken **[!UICONTROL Duplicate]** naast de aanvraag.
 
    >[!NOTE]
    >

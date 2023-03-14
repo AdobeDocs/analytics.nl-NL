@@ -1,12 +1,12 @@
 ---
 title: Veelgestelde vragen over attributie
 description: Antwoorden op veelgestelde vragen over attributie.
-feature: Attributie
+feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1026'
 ht-degree: 2%
 
 ---
@@ -15,19 +15,19 @@ ht-degree: 2%
 
 ## Wat is het regelitem &quot;Geen&quot; wanneer u een kenmerk gebruikt?
 
-Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt die zonder aanraakpunten in het terugzoekvenster zijn uitgevoerd. Om het aantal omzettingen te verminderen die aan het &quot;niets&quot;lijnpunt worden toegewezen, probeer gebruikend een Venster van de Raadpleging van de Douane met een langere raadplegingsperiode.
+Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt die zonder aanraakpunten in het terugzoekvenster zijn uitgevoerd. Om het aantal omzettingen te verminderen die aan het &quot;niets&quot;lijnpunt worden toegewezen, probeer gebruikend een Venster van de Lookback van de Douane met een langere raadplegingsperiode.
 
 ## Waarom zie ik soms data buiten mijn rapporteringsvenster wanneer het gebruiken van attributiemodellen?
 
-Sommige op bezoek-gebaseerde metriek, zoals [Ingangen](/help/components/metrics/entries.md) of [Bounce Rate](/help/components/metrics/bounce-rate.md), kunnen gegevens aan een periode vóór de het rapportvenster begindatumwaaier toeschrijven. Deze situatie is toe te schrijven aan attributiemodellen die een terugkijkvenster gebruiken, dat bepaalt hoe ver achtereigenschap zou moeten kijken om krediet voor metriek te geven. Het gemeenschappelijkste scenario is wanneer de bezoeken middernacht overspannen. Bijvoorbeeld:
+Sommige op bezoek-gebaseerde metriek, zoals [Berichten](/help/components/metrics/entries.md) of [Stuitsnelheid](/help/components/metrics/bounce-rate.md), kan gegevens aan een periode vóór de rapportperiode van het vensterbegin bepalen. Deze situatie is toe te schrijven aan attributiemodellen die een terugkijkvenster gebruiken, dat bepaalt hoe ver achtereigenschap zou moeten kijken om krediet voor metriek te geven. Het gemeenschappelijkste scenario is wanneer de bezoeken middernacht overspannen. Bijvoorbeeld:
 
 1. Een gebruiker bezoekt op 7 september om 23:55 uur uw homepage.
-1. Zij bezoeken verschillende pagina&#39;s, waarvan de laatste om 12.05 september plaatsvond.
+1. Zij bezoeken verschillende pagina&#39;s, waarvan de laatste om 12.05 uur op 8 september plaatsvond.
 1. Een week later voert u een dagelijks trendrapport uit met het datumbereik van 8 september tot 14 september.
 
-Metriek op basis van een hit, zoals [Paginaweergaven](/help/components/metrics/page-views.md), zou leiden tot de verwachte uitvoer; gegevens die elke dag van 8 september tot en met 14 september zijn doorgestuurd. Uit de op een bezoek gebaseerde cijfers zou echter ook blijken dat dit bezoek op 7 september heeft plaatsgevonden. De toegeschreven ingang van het bezoek vond op 7 september plaats, en het terugkijkvenster is standaard 1 september - 31 september.
+Op een hoogte gebaseerde meetgegevens, zoals [Paginaweergaven](/help/components/metrics/page-views.md), de verwachte output zou produceren; gegevens die elke dag van 8 september tot en met 14 september zijn doorgestuurd. Uit de op een bezoek gebaseerde cijfers zou echter ook blijken dat dit bezoek op 7 september heeft plaatsgevonden. De toegeschreven ingang van het bezoek vond op 7 september plaats, en het terugkijkvenster is standaard 1 september - 31 september.
 
-In dit voorbeeld wordt altijd 0% weergegeven bij een stuitpercentage van 7 september. Deze metrische waarde wordt gedefinieerd als `Bounces divided by Entries`, een op hit gebaseerde metrische waarde gedeeld door op bezoek gebaseerde metrische waarde. Stuiterwaarden bestaan uit één verzoek om een afbeelding, zodat ze niet meerdere dagen kunnen beslaan. Eventuele stuitingen op 7 september vonden plaats buiten het rapportagevenster, waardoor de gegarandeerde stuitsnelheid van 0% voor die dag werd veroorzaakt. Andere op hit-based metriek zou ook 0 voor 7 September in dit rapport tonen, aangezien die klappen niet binnen het rapporteringsvenster zijn.
+In dit voorbeeld wordt altijd 0% weergegeven bij een stuitpercentage van 7 september. Deze metrische waarde wordt gedefinieerd als `Bounces divided by Entries`, een op hit-Gebaseerde metrisch gedeeld door op bezoek-Gebaseerde metrisch. Stuiterwaarden bestaan uit één verzoek om een afbeelding, zodat ze niet meerdere dagen kunnen beslaan. Eventuele stuitingen op 7 september vonden plaats buiten het rapportagevenster, waardoor de gegarandeerde stuitsnelheid van 0% voor die dag werd veroorzaakt. Andere op hit-based metriek zou ook 0 voor 7 September in dit rapport tonen, aangezien die klappen niet binnen het rapporteringsvenster zijn.
 
 Kijk eens naar een ander vergelijkbaar voorbeeld. Het enige verschil tussen het volgende voorbeeld en het bovenstaande voorbeeld zijn de datums:
 
@@ -47,7 +47,7 @@ Attribution wordt opnieuw berekend tijdens de runtime van het rapport, zodat er 
 
 ## Zijn toewijzingsmodellen beschikbaar in andere analysemogelijkheden, zoals gegevensfeeds of Data Warehouse?
 
-Nee. Attributiemodellen gebruiken verwerking van rapporttijd, die alleen beschikbaar is in Analysis Workspace. Zie [Tijdverwerking rapporteren](/help/components/vrs/vrs-report-time-processing.md) voor meer informatie.
+Nee. Attributiemodellen gebruiken verwerking van rapporttijd, die alleen beschikbaar is in Analysis Workspace. Zie [Tijdverwerking rapporteren](/help/components/vrs/vrs-report-time-processing.md) voor meer informatie .
 
 ## Zijn toewijzingsmodellen alleen beschikbaar als ik een virtuele rapportsuite gebruik waarvoor verwerking van rapporttijd is ingeschakeld?
 

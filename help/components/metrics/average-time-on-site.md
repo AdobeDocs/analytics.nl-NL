@@ -40,7 +40,7 @@ Als u een gemiddelde tijd op plaats voor het afmetingspunt wilt `Product page A`
 * **12:04:20 - 12:05:30** - 1 minuut 10 seconden
 * **12:05:30 - 12:07:00** - 1 minuut 30 seconden
 * **12:07:40 - 12:08:10** - 30 seconden
-* **12:25:40 . ?** - Niet inbegrepen
+* **12:25:40 - ?** - Niet inbegrepen
 
 De totale hoeveelheid tijd die is besteed voor `Product page A` is `00:03:10`. Dit bezoek heeft twee volgreeksen opgeleverd. de eerste reeks voor de twee opeenvolgende waarden en de tweede voor het uitchecken. Het laatste resultaat van het bezoek is geen opeenvolging, aangezien er geen eindtimestamp is.
 

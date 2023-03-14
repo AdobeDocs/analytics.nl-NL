@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 2%
+source-wordcount: '483'
+ht-degree: 1%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 2%
 
 Stappen om metriek en afmetingen aan een verzoek toe te voegen.
 
-1. [Maak de ](/help/analyze/report-builder/data-requests/data-requests.md) gegevensaanvraag op de  [!UICONTROL Request Wizard: Step 1]pagina en klik op  **[!UICONTROL Next]**.
-1. Dubbelklik op de metriek [!UICONTROL Request Wizard: Step 2] of sleep deze naar de gewenste positie.
+1. [De gegevensaanvraag maken](/help/analyze/report-builder/data-requests/data-requests.md) op de [!UICONTROL Request Wizard: Step 1]en klik vervolgens op **[!UICONTROL Next]**.
+1. Op de [!UICONTROL Request Wizard: Step 2], dubbelklikt u op maateenheden of sleept u deze naar de gewenste positie.
 
    ![Stapinfo](assets/adding_metrics.png)
 
-   Wanneer u metriek toevoegt, worden zij niet verwijderd uit [!UICONTROL Metrics] tabel, omdat u metriek veelvoudige tijden binnen een verzoek kunt tonen. U kunt bijvoorbeeld naast elke waarde het metrische subtotaal weergeven. De lijst met beschikbare metriek verandert echter telkens wanneer u een dimensie toevoegt of verwijdert.
+   Wanneer u metriek toevoegt, worden deze niet verwijderd uit de [!UICONTROL Metrics] , omdat u metriek in een aanvraag meerdere keren kunt weergeven. U kunt bijvoorbeeld naast elke waarde het metrische subtotaal weergeven. De lijst met beschikbare metriek verandert echter telkens wanneer u een dimensie toevoegt of verwijdert.
 
-   U kunt alleen metriek toevoegen aan de lay-outsectie [!UICONTROL Metrics]. Metrisch worden als [!UICONTROL Metric Header] toegevoegd aan de [!UICONTROL Column Label]-layout. Als u een [!UICONTROL Metric Header] van [!UICONTROL Column Layout] aan [!UICONTROL Row Layout] beweegt, wordt het daar getoond en als metrisch als onderbreking gebruikt.
+   U kunt alleen metriek toevoegen aan de [!UICONTROL Metrics] layout. De metriek wordt toegevoegd aan [!UICONTROL Column Label] layout als een [!UICONTROL Metric Header]. Als u een [!UICONTROL Metric Header] van [!UICONTROL Column Layout] tot [!UICONTROL Row Layout], wordt het daar getoond en als metrisch als onderbreking gebruikt.
 
    Een zoekbalk wordt weergegeven op het tabblad Metrisch, net boven de lijst Metrisch.
 
@@ -53,9 +53,9 @@ Stappen om metriek en afmetingen aan een verzoek toe te voegen.
 1. (Optioneel) Als u een verzoek metrisch wilt sorteren, klikt u op het metrische label.
 1. Voeg afmetingen toe op dezelfde manier als waarop u metriek toevoegt.
 
-Op [!UICONTROL Dimensions] lusje, toont het systeem dimensies die onderverdelen of een classificatie van om het even welk basisrapport zijn u op Stap 1 selecteert, en op de configuratie van de rapportreeks selecteert. Wanneer u een dimensie neerzet in de layoutrasters, wordt deze verwijderd uit de structuurweergave en wordt de lijst met resterende beschikbare afmetingen opnieuw berekend.
+Op de [!UICONTROL Dimensions] tabblad, toont het systeem dimensies die onderverdelen of een classificatie van om het even welk basisrapport zijn u op Stap 1 selecteert, en op de configuratie van de rapportreeks selecteert. Wanneer u een dimensie neerzet in de layoutrasters, wordt deze verwijderd uit de structuurweergave en wordt de lijst met resterende beschikbare afmetingen opnieuw berekend.
 
-De [!UICONTROL Date] dimensie wordt automatisch toegevoegd. De beschikbare datumafmetingen veranderen afhankelijk van de geselecteerde granulariteit in [!UICONTROL Request Wizard: Step 1]. (Geldige waarden zijn:
+De [!UICONTROL Date] dimensie wordt automatisch toegevoegd. Welke datumafmetingen beschikbaar zijn, is afhankelijk van de geselecteerde granulariteit in het menu [!UICONTROL Request Wizard: Step 1]. (Geldige waarden zijn:
 
     * Uur
     * Dag
@@ -64,8 +64,8 @@ De [!UICONTROL Date] dimensie wordt automatisch toegevoegd. De beschikbare datum
     * Jaar
     * Datumbereik (wanneer geen granulariteit is opgegeven)
 
-1. Wijzig metriek en afmetingen door [formaatopties](/help/analyze/report-builder/layout/t-format-display-headers.md) en filters te vormen.
+1. Metriek en afmetingen wijzigen door configureren [opmaakopties](/help/analyze/report-builder/layout/t-format-display-headers.md) en filters.
 1. Klik op **[!UICONTROL Finish]**.
-In het volgende voorbeeld hebben de afmetingen betrekking op de metrische waarde [!UICONTROL Page]. Hier, leidt de [!UICONTROL Referring Domain] dimensie tot een verdelingsrapport tussen [!UICONTROL Page] en [!UICONTROL Referring Domain]. Het tabblad [!UICONTROL Dimension] wordt alleen bijgewerkt met dimensies die u kunt toevoegen aan een uitsplitsingsrapport.
+In het volgende voorbeeld hebben de afmetingen betrekking op de [!UICONTROL Page] metrisch. Hier, de [!UICONTROL Referring Domain] dimensie creëert een uitsplitsingsrapport tussen [!UICONTROL Page] en [!UICONTROL Referring Domain]. De [!UICONTROL Dimension] wordt bijgewerkt met alleen dimensies die u kunt toevoegen aan een uitsplitsingsrapport.
 
 ![](assets/page_pageview_02.png)

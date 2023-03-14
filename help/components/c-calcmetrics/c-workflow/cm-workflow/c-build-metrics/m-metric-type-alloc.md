@@ -1,5 +1,5 @@
 ---
-description: 'Meer informatie over '
+description: Meer informatie over
 title: Type cijfers en attributie
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
@@ -42,10 +42,10 @@ In het volgende voorbeeld wordt getoond hoe berekende metriek met lineaire toewi
 
 |  | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 | Hit 6 | Hit 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| Gegevens verzonden in | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $ 10 |
-| Laatste aanraking eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $ 10 |
-| Eerste aanraking eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $ 10 |
-| Voorbeeld | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $ 10 |
+| Gegevens verzonden in | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
+| Laatste aanraking eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
+| Eerste aanraking eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
+| Voorbeeld | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
 
 In dit voorbeeld werden de waarden A, B, en C naar een variabele gestuurd bij hits 1, 3, 4 en 6 voordat een aankoop van 10 dollar werd gedaan bij hit 7. In de tweede rij blijven deze waarden bij alle treffers op een laatste aanraakbezoek aanwezig. De derde rij illustreert de persistentie van een eerste aanraakbezoek. Tot slot illustreert de laatste rij hoe gegevens zouden worden geregistreerd voor een eigenschap die niet persistentie heeft.
 
@@ -58,24 +58,24 @@ Er zijn enkele verschillen in de manier waarop lineaire toewijzing werkt tussen 
 
 ## Hoe lineaire toewijzing werkte vóór juli 2018
 
-Vóór 19 juli 2018 werd de lineaire attributie berekend nadat de eerste aanraking of laatste aanraakpersistentie al was opgetreden. Dit betekende dat voor de laatste aanraking hierboven, $10 als volgt zou worden verdeeld: A = 10 * (3/6) = $5, B = 10 * (2/6) = $3,33, C = 10 * (1/6) = $1,67.
+Vóór 19 juli 2018 werd de lineaire attributie berekend nadat de eerste aanraking of laatste aanraakpersistentie al was opgetreden. Dit betekende dat voor de laatste aanraking hierboven, $10 als volgt zou worden verdeeld: A = 10 &#42; (3/6) = $5, B = 10 &#42; (2/6) = $ 3,33, C = 10 &#42; (1/6) = $ 1,67.
 
-Voor de eerste aanraking hierboven, alle $10 zou aan A worden gegeven. Voor de eigenschap: A = 10 * (2/4) = $5, B = 10 * (1/4) = $2.50, en C = 10 * (1/4) = $2.50. Een overzicht geven van de lineaire toewijzing zoals deze voorheen werkte:
+Voor de eerste aanraking hierboven, alle $10 zou aan A worden gegeven. Voor de eigenschap: A = 10 &#42; (2/4) = $5, B = 10 &#42; (1/4) = $ 2,50 en C = 10 &#42; (1/4) = $ 2,50. Een overzicht geven van de lineaire toewijzing zoals deze voorheen werkte:
 
 | Waarden | Huidige eVar met laatste aanraking | Huidige eVar eerste aanraking | Huidige eigenschap |
 |---|---|---|---|
-| PROMO A | $ 5,00 | $ 10,00 | $ 5,00 |
-| PROMO B | $ 3,33 | $0 | $ 2,50 |
-| PROMO C | $ 1,67 | $0 | $ 2,50 |
-| Totaal | $ 10,00 | $ 10,00 | $ 10,00 |
+| PROMO A | $5.00 | $10.00 | $5.00 |
+| PROMO B | $3.33 | $0 | $2.50 |
+| PROMO C | $1.67 | $0 | $2.50 |
+| Totaal | $10.00 | $10.00 | $10.00 |
 
 **Overzicht van hoe lineaire toewijzing nu werkt**
 
-In plaats van de blijvende waarden te gebruiken op basis van de laatste aanraking of de eerste aanraking, [!DNL Analytics] gebruikt nu alleen de waarden die zijn doorgegeven (de eerste rij van de bovenste tabel). Als zodanig hebben de instellingen voor dimensietoewijzing geen invloed meer op de manier waarop lineaire toewijzing wordt berekend (d.w.z. dat props en eVars op dezelfde manier worden behandeld), en de resultaten weerspiegelen wat oorspronkelijk is doorgegeven in plaats van de eerste of laatste aanraakwaarden die mogelijk hebben geduurd. In alle drie gevallen is A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50, en C = 10 * (1/4) = $2,50.
+In plaats van de blijvende waarden te gebruiken op basis van de laatste aanraking of de eerste aanraking, [!DNL Analytics] gebruikt nu alleen de waarden die zijn doorgegeven (de eerste rij van de bovenste tabel). Als zodanig hebben de instellingen voor dimensietoewijzing geen invloed meer op de manier waarop lineaire toewijzing wordt berekend (d.w.z. dat props en eVars op dezelfde manier worden behandeld), en de resultaten weerspiegelen wat oorspronkelijk is doorgegeven in plaats van de eerste of laatste aanraakwaarden die mogelijk hebben geduurd. In alle drie gevallen is A dus 10 &#42; (2/4) = $5, B = 10 &#42; (1/4) = $ 2,50 en C = 10 &#42; (1/4) = $ 2,50.
 
 | Waarden | Nieuwe eVar met laatste aanraking | Nieuwe eVar eerste aanraking | Nieuwe eigenschap |
 |---|---|---|---|
-| PROMO A | $ 5,00 | $ 5,00 | $ 5,00 |
-| PROMO B | $ 2,50 | $ 2,50 | $ 2,50 |
-| PROMO C | $ 2,50 | $ 2,50 | $ 2,50 |
-| Totaal | $ 10,00 | $ 10,00 | $ 10,00 |
+| PROMO A | $5.00 | $5.00 | $5.00 |
+| PROMO B | $2.50 | $2.50 | $2.50 |
+| PROMO C | $2.50 | $2.50 | $2.50 |
+| Totaal | $10.00 | $10.00 | $10.00 |

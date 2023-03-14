@@ -6,7 +6,7 @@ mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '883'
 ht-degree: 2%
 
 ---
@@ -46,9 +46,9 @@ Wanneer u het dialoogvenster [!UICONTROL Reporting Activity] De overzichtspagina
 | **[!UICONTROL Report Suite]** | De set met basisrapporten waarvan u de rapportactiviteiten controleert. |
 | **[!UICONTROL Virtual Report Suite]** | Toont alle virtuele rapportsuites die in deze reeks van het basisrapport van toepassing zijn. De virtuele rapportsuites voegen ingewikkeldheid aan rapporteringsverzoeken toe toe toe te schrijven aan extra niveaus van toegepaste filtratie en segmentatie. Alle verzoeken die uit de virtuele rapportreeksen komen worden gecombineerd en neer aan de reeks van het basisrapport.<p>Bijvoorbeeld, als u 10 verzoeken hebt die uit 5 VRSs komen, is dat 50 verzoeken bij de het rapportreeks van het basisniveau. Op deze manier kun je snel de capaciteit raken. |
 | **[!UICONTROL Usage Capacity]** | Percentage wijs, hoeveel van de rapporteringscapaciteit van de rapportreeks wordt gebruikt, in echt - tijd. |
-| **[!UICONTROL Status]** | Vier mogelijke statusindicatoren: <ul><li>**Rood -[!UICONTROL At Capacity]**: De rapportenreeks is samengesteld in termen van rapporteringscapaciteit. (100%) </li><li>**Geel -[!UICONTROL Nearing capacity]**: Dit pakket verslagen dreigt zijn maximumcapaciteit te bereiken. (90-99%)</li><li>**Groen -[!UICONTROL All good]**: Er is genoeg rapportagecapaciteit. (0% - 89%)</li><li>**Grijs -[!UICONTROL Status pending/Not enabled]**: Rapportcapaciteit niet beschikbaar.</li></ul> |
+| **[!UICONTROL Status]** | Vier mogelijke statusindicatoren: <ul><li>**Rood -[!UICONTROL At Capacity]**: De rapportenreeks is samengesteld in termen van rapporteringscapaciteit. (100%) </li><li>**Geel -[!UICONTROL Nearing capacity]**: Dit pakket verslagen dreigt zijn maximumcapaciteit te bereiken. (90% - 99%)</li><li>**Groen -[!UICONTROL All good]**: Er is genoeg rapportagecapaciteit. (0% - 89%)</li><li>**Grijs -[!UICONTROL Status pending/Not enabled]**: Rapportcapaciteit niet beschikbaar.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Overige activiteiten op het gebied van rapportageactiviteiten
 
@@ -94,7 +94,7 @@ De overzichtsaantallen tonen de volgende informatie:
 | [!UICONTROL Average Wait Time] | De gemiddelde wachttijd voor alle lopende vragen. |
 | [!UICONTROL Usage Capacity] | De huidige gebruikscapaciteit voor deze rapportsuite. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Tabel
 
@@ -114,7 +114,7 @@ De gedetailleerde tabel hieronder bevat details over de rapportsuite.
 | [!UICONTROL Segments] | Hoeveel segmenten worden toegepast op dit verzoek. Dit vergroot de complexiteit van het verzoek. |
 | [!UICONTROL Status] | Statusindicatoren: <ul><li>**Wordt uitgevoerd**: Aanvraag wordt momenteel verwerkt.</li><li>**In behandeling**: De aanvraag is in afwachting van verwerking.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Rapportageverzoeken annuleren
 
@@ -139,4 +139,4 @@ De gebruikers van de toepassing in Werkruimte, bijvoorbeeld, zullen de volgende 
 | --- | --- |
 | Kan ik extra rapporteringscapaciteit kopen? | Deze mogelijkheid zal in de nabije toekomst beschikbaar zijn. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

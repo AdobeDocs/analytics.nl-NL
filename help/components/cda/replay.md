@@ -18,7 +18,7 @@ Analytics voor verschillende apparaten maakt twee gegevenscontroles in een virtu
 
 ## Voorbeeldtabel
 
-In de volgende tabellen ziet u hoe beide CDA-methoden ([Veldgebaseerde stitching](field-based-stitching.md) en [Apparaatgrafiek](device-graph.md)) het aantal unieke personen berekenen:
+De volgende tabellen laten zien hoe beide CDA-methoden ([Veldgebaseerde stitching](field-based-stitching.md) en [Apparaatgrafiek](device-graph.md)) het aantal unieke personen berekenen:
 
 ### Levend stitching
 
@@ -39,14 +39,14 @@ Zodra een treffer is verzameld, probeert de CDA deze aan bekende apparaten te he
 
 Zowel niet-geverifieerde als geverifieerde hits op nieuwe apparaten worden als afzonderlijke personen geteld (tijdelijk).
 
-* **Als u de apparaatgrafiek gebruikt, worden** niet-geverifieerde treffers op herkende apparaten live-gezet zodra een cluster door de apparaatgrafiek wordt gepubliceerd. Het publiceren van clusters duurt van drie uur tot twee weken.
+* **Als de apparaatgrafiek wordt gebruikt,** niet-geverifieerde treffers op herkende apparaten worden live verstuurd zodra een cluster door de apparaatgrafiek wordt gepubliceerd. Het publiceren van clusters duurt van drie uur tot twee weken.
 
    Een derde cumulatieve persoon wordt ook toegevoegd wanneer een cluster wordt gepubliceerd. Deze derde persoon vertegenwoordigt de cluster zelf, naast de individuele apparaten. Deze derde &quot;persoon&quot; blijft bestaan totdat de gegevens worden weergegeven.
 
    De attributie werkt pas over apparaten nadat een cluster wordt gepubliceerd, en zelfs dan slechts leven-hetches van dat punt voorwaarts. In het bovenstaande voorbeeld worden nog geen van de hits op verschillende apparaten geplaatst. De attributie van het dwars-apparaat op bestaande klusjes werkt pas na het opnieuw spelen stitching.
-* **Als u stitching op basis van velden gebruikt, worden** niet-geverifieerde treffers op herkende apparaten vanaf dat punt live-stitched.
+* **Als u veldoverstikken gebruikt,** niet-geverifieerde treffers op herkende apparaten worden vanaf dat punt live verstuurd.
 
-   Attributie werkt zodra de identificerende douanevariabele aan een apparaat bindt. In het bovenstaande voorbeeld worden alle treffers, behalve hits 1 en 3, live-gezet (ze gebruiken allemaal de id `Bob`). Attributie werkt bij hits 1 en 3 na het opnieuw afspelen van stitching.
+   Attributie werkt zodra de identificerende douanevariabele aan een apparaat bindt. In het bovenstaande voorbeeld worden alle treffers, behalve hits 1 en 3, in een live script geplaatst (ze gebruiken allemaal de opdracht `Bob` id). Attributie werkt bij hits 1 en 3 na het opnieuw afspelen van stitching.
 
 >[!NOTE]
 >

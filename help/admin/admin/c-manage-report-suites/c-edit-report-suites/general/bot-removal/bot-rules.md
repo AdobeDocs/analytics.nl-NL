@@ -55,7 +55,7 @@ De regels voor aangepaste bones worden gedefinieerd met behulp van de volgende v
 
 Meerdere voorwaarden kunnen voor één regel worden gedefinieerd. Meerdere voorwaarden komen overeen met &#39;of&#39;. Bijvoorbeeld, als u een waarde voor de Agent van de Gebruiker en IP Adres verstrekt, wordt het verkeer beschouwd als zowel verkeer als één van beide voorwaarde wordt voldaan aan.
 
-### Gebruikersagent
+### User Agent
 
 Een voorwaarde van de Agent van de Gebruiker controleert de waarde van de gebruikersagent om te zien of het **[!UICONTROL starts with]** of **[!UICONTROL contains]** de opgegeven tekenreeks. Indien **[!UICONTROL contains]** is geselecteerd, komt de subtekenreeks overeen als deze ergens in de gebruikersagent voorkomt.
 

@@ -6,7 +6,7 @@ exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -74,4 +74,4 @@ De stappen van het voorbeeld die beschrijven hoe u sub-classificaties kunt uploa
 
    U kunt dit bestand bijvoorbeeld uploaden wanneer u een nieuw bestand *`Broad Campaign code`* wordt ingevoerd. Dit bestand is van toepassing op eerder geclassificeerde waarden. En als u een nieuwe subclassificatie maakt (zoals *`Creative Theme`* als een subclassificatie van *`Creative code`*) uploadt u alleen het bestand voor de subclassificatie in plaats van het hele classificatiebestand.
 
-   Voor de rapportage van deze subclassificaties werken deze precies op de bovenste classificaties. Dit vermindert de beheerslast die nodig is om ze te gebruiken.—>
+   Voor de rapportage van deze subclassificaties werken deze precies op de bovenste classificaties. Dit vermindert de beheerslast die nodig is om ze te gebruiken.-->

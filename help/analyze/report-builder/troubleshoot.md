@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1378'
 ht-degree: 80%
 
 ---
@@ -43,10 +43,10 @@ In Report Builder is verificatie vereist om data-aanvragen te maken op basis van
 
 De volgende factoren kunnen de complexiteit van aanvragen verhogen en tot een langzamere verwerking leiden.
 
-* **Factoren die de levering** kunnen vertragen: Er waren te veel bladwijzers, dashboards en Report Builder-werkboeken gepland binnen een paar uur. Overweeg ook te veel werkboeken van Report Builder die rond de zelfde tijd werden gepland. Wanneer dit gebeurt, gaat de rapport-API-wachtrij achterlopen.
+* **Factoren die leveringen kunnen vertragen**: Er waren te veel bladwijzers, dashboards en Report Builder-werkboeken gepland binnen een paar uur. Overweeg ook te veel werkboeken van Report Builder die rond de zelfde tijd werden gepland. Wanneer dit gebeurt, gaat de rapport-API-wachtrij achterlopen.
 * **Factoren die de werkmapruntime kunnen vertragen**: Aanzienlijke toename van classificaties of het vergroten van de datumbereik van de aanvraag in de loop van de tijd.
-* **Causes die in de mislukking** van de werkboeklevering resulteren: De complexe formules van Excel in een werkboek, in het bijzonder degenen die datum en tijd impliceren.
-* **Cellen die 0s (geen waarden)** terugkeren: Een apostrof of één enkel citaat in de het bladnaam van Excel zal rapportaannemer veroorzaken om geen waarden terug te keren. (Dit is een beperking van Microsoft Excel.)
+* **Veroorzaakt dat in de mislukking van de werkboeklevering resulteert**: De complexe formules van Excel in een werkboek, in het bijzonder degenen die datum en tijd impliceren.
+* **Cellen die 0s (geen waarden) terugkeren**: Een apostrof of één enkel citaat in de het bladnaam van Excel zal rapportaannemer veroorzaken om geen waarden terug te keren. (Dit is een beperking van Microsoft Excel.)
 * **Prestaties van afzonderlijke aanvragen**: De verwerkingssnelheid kan worden beïnvloed door de volgende instellingen:
 
    | Instelling | Snellere prestaties | Tragere prestaties |
@@ -75,15 +75,15 @@ Een lijst met foutberichten die soms kunnen optreden wanneer u Report Builder ge
 >Dit is slechts een selectie van foutberichten, geen volledige lijst. Neem contact op met de beheerder voor meer informatie over het oplossen van fouten.
 
 * **Deze eigenschap kan alleen op een geopende werkmap worden toegepast.**: Als er geen werkmappen (spreadsheetdocumenten) in Excel zijn geopend, en u op een van de pictogrammen in de Report Builder-werkbalk klikt, wordt dit bericht weergegeven. Daarnaast wordt de werkbalk uitgeschakeld totdat u een spreadsheet opent. U kunt echter op het online Help-pictogram klikken terwijl de werkbalk nog is ingeschakeld zonder dat deze fout optreedt.
-* **U moet eerst de [!UICONTROL Request Wizard] afsluiten voordat u [!UICONTROL Request Manager] activeert.**: Terwijl de  [!UICONTROL Request Manager] en de  [!UICONTROL Request Wizard] zijn functioneel verbonden, is het niet mogelijk om met het te werken  [!UICONTROL Request Manager] alvorens acties te voltooien of te annuleren in  [!UICONTROL Request Wizard].
+* **U moet eerst de [!UICONTROL Request Wizard] afsluiten voordat u [!UICONTROL Request Manager] activeert.**: Terwijl de [!UICONTROL Request Manager] en de [!UICONTROL Request Wizard] zijn functioneel gekoppeld, is het niet mogelijk om met de [!UICONTROL Request Manager] voordat de in de [!UICONTROL Request Wizard].
 * **Er is geen aanvraag aan dit bereik gekoppeld.**: Dit foutbericht treedt op als u op de knop [!UICONTROL From Sheet] in [!UICONTROL Request Manager] klikt wanneer een cel van de spreadsheet geen aanvragen bevat. Als u wilt identificeren welke cellen in de spreadsheet aanvragen bevatten, klikt u op individuele aanvragen die worden vermeld in de tabel in [!UICONTROL Request Manager]. Als een aanvraag is gekoppeld aan cellen, worden de cellen gemarkeerd getoond wanneer de aanvraag in de tabel wordt geselecteerd.
 * **Het geselecteerde bereik is ongeldig. Selecteer een ander bereik.**: Als een cel in de spreadsheet wordt geselecteerd terwijl er al een aanvraag aan is toegewezen, treedt deze fout op. Verwijder de aanvraag die aan de cellen is toegewezen of kies een andere reeks cellen voor toewijzing. Wanneer u cellen wilt verwijderen, is het belangrijk dat u cellen met aanvragen zoekt en de aanvragen verwijdert voordat u de cellen verwijdert (rijen of kolommen verwijdert).
 * **Sluit de gemarkeerde Excel-cel af voordat u deze functie gebruikt.**: Als u in een Excel-cel staat in *bewerkingsmodus* en op een van de pictogrammen van Report Builder klikt, verschijnt dit foutbericht. De bewerkingsmodus in een Excel-cel betekent dat de cel is geselecteerd en de cursor in de cel wordt weergegeven. U bent ook in bewerkingsmodus in een Excel-cel wanneer u direct in de [!UICONTROL Formula]-balk of in de [!UICONTROL Name Box] boven in Excel typt.
 * **Het geselecteerde bereik doorsnijdt het bereik van een andere aanvraag. Wijzig de selectie.**: Als u al een set cellen aan de spreadsheet hebt toegewezen, wordt deze fout weergegeven.
-* **Herstelt aan werkboek (Verwijderde Verslagen: Formule van /xl/calcChain.xml)**: Soms worden de formules van een werkboek bedorven wanneer het bewaren of het overbrengen. Wanneer het dossier wordt geopend, probeert Excel om deze formules in werking te stellen en ontbreekt. U kunt dit probleem oplossen door `calcChain.xml` uit het spreadsheet te verwijderen, dwingend Excel om zijn formules berekeningen te vernieuwen.
-   1. Wijzig de naam van de bestandsextensie van het werkboek van `.xlsx` in `.zip`.
-   2. Pak de inhoud uit en open de map `/xl/`.
+* **Herstelt aan werkboek (Verwijderde Verslagen: Formule van /xl/calcChain.xml**: Soms worden de formules van een werkboek bedorven wanneer het bewaren of het overbrengen. Wanneer het dossier wordt geopend, probeert Excel om deze formules in werking te stellen en ontbreekt. U kunt dit probleem oplossen door `calcChain.xml` van het spreadsheet, dwingend Excel om zijn formuleringsberekeningen te verfrissen.
+   1. De naam van de bestandsextensie van het werkboek wijzigen van `.xlsx` tot `.zip`.
+   2. Pak de inhoud uit en open de `/xl/` map.
    3. Verwijderen `calcChain.xml`.
-   4. Comprimeer de inhoud opnieuw en wijzig de bestandsextensie weer in `.xlsx`.
+   4. Comprimeer de inhoud en wijzig de bestandsextensie weer in `.xlsx`.
    5. Open het werkboek in Excel en vernieuw alle verzoeken van Report Builder.
 * **Excel-cellen die zijn gekoppeld aan de invoerfilters of het uitvoerbereik kunnen zijn verwijderd**: Report Builder gebruikt de Namen van Excel om gegevensverzoeken aan cellen vast te maken. Als u de Namen van Excel van het Manager van Namen schrapt, kunt u deze fout zien. Aanvragen kunnen niet worden hersteld als Excel-namen worden verwijderd. Als het werkboek gepland was, kunt u of een exemplaar van de Plannende Manager downloaden, of eerder geleverde exemplaren van het werkboek openen.

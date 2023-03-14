@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# kanaal
+# channel
 
 De `channel` Met een variabele wordt doorgaans het gedeelte van de site opgeslagen waarop een bepaalde pagina is ingeschakeld. Het is handig om te bepalen welke groepen van uw site het populairst zijn. Deze variabele vult de dimensie &#39;Sitesecties&#39;.
 

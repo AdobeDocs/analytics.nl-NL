@@ -10,7 +10,7 @@ ht-degree: 3%
 
 ---
 
-# Codebeheer
+# Code Manager
 
 Met Codebeheer kunt u gegevensverzamelingscode downloaden voor web en mobiele platforms.
 

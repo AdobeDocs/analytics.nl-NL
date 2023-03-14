@@ -65,7 +65,7 @@ Bekijk deze video voor meer informatie:
 | Element | Beschrijving |
 |---|---|
 | **[!UICONTROL Publish this segment to the Experience Cloud (for *`<report suite>`*)]** | Wanneer deze optie wordt toegelaten, worden de segmenttitel en de definitie (d.w.z. het shell publiek zoals vaak gebruikt in advertentieplatforms) onmiddellijk gedeeld met de Experience Cloud, terwijl het segmentlidmaatschap wordt geëvalueerd en om de 4 uur gedeeld. <br> Wanneer dat publiek is gekoppeld aan een activiteit in [!DNL Target], bijvoorbeeld [!DNL Analytics] begint met het verzenden van id&#39;s voor bezoekers die in aanmerking komen voor die Experience Cloud en [!DNL Target] publiek. Op dat punt, beginnen de publieksnaam en de overeenkomstige gegevens te tonen op de pagina van het publiek van de Experience Cloud. </br> |
-| **[!UICONTROL Audience Creation Window]** | Het tijdkader dat u selecteert, wordt gebruikt om het publiek te maken op basis van een rolkalender. Bijvoorbeeld, &quot;Laatste 30 dagen&quot;(gebrek) omvat bezoekers die voor het publiek in de laatste 30 dagen van de datum van vandaag (NIET van de originele datum hebben gekwalificeerd toen het segment werd gecreeerd.) |
+| **[!UICONTROL Audience Creation Window]** | Het tijdkader dat u selecteert, wordt gebruikt om het publiek op een rolkalender-basis tot stand te brengen. Bijvoorbeeld, &quot;Laatste 30 dagen&quot;(gebrek) omvat bezoekers die voor het publiek in de laatste 30 dagen van de datum van vandaag (NIET van de originele datum hebben gekwalificeerd toen het segment werd gecreeerd.) |
 | **[!UICONTROL Create in Audience Library]** | De segmenten die u creeert en publiceert kunnen zonder latentie in de Bibliotheek van het publiek van de Experience Cloud beschikbaar worden gemaakt. Ze zijn niet afhankelijk van analytische updates. Deze segmenten tellen niet tegen uw grens van 75 gepubliceerde segmenten. |
 | **[!UICONTROL x of 75 Published]** | Hiermee geeft u het aantal segmenten weer dat u naar de Experience Cloud hebt gepubliceerd. Klik op de koppeling om een lijst met gepubliceerde segmenten en de bijbehorende rapportsuite en eigenaar weer te geven. |
 | **[!UICONTROL Save]** | Hiermee slaat u dit segment op. |
@@ -100,7 +100,7 @@ De volgende schermafbeeldingen tonen u hoe te om AAM UUID op uw browser terug te
 1. Start de foutopsporing wanneer u een pagina laadt.
 1. Blader naar de sectie Audience Manager en zoek de AAM UUID die op de huidige browserpagina is ingesteld (`50814298273775797762943354787774730612` in het onderstaande voorbeeld)
 
-![Foutopsporing](assets/debugger.jpg)
+![Debugger](assets/debugger.jpg)
 
 ### Methode 2: Chrome Developer Tools (of andere browsergereedschappen) gebruiken
 

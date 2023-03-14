@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: e10573cc-984e-4202-a797-c2c9bec2af96
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 6%
+source-wordcount: '156'
+ht-degree: 5%
 
 ---
 
@@ -18,6 +18,6 @@ U kunt een datumbereik opgeven door cellen te selecteren in een werkblad dat een
 
 **Datums configureren vanuit een cel**
 
-1. Selecteer **[!UICONTROL Dates From Cell]** op [!UICONTROL Request Wizard: Step 1].
-1. Typ celverwijzingen in de velden **[!UICONTROL From]** en **[!UICONTROL To]** of klik op de kiezer en selecteer de cellen met de aanvragen met de begin- en einddatum.
+1. Op de [!UICONTROL Request Wizard: Step 1], selecteert u **[!UICONTROL Dates From Cell]**.
+1. Celverwijzingen invoeren in het dialoogvenster **[!UICONTROL From]** en **[!UICONTROL To]** of klik op de kiezer en selecteer de cellen met de aanvragen met de begin- en einddatum.
 Maak bijvoorbeeld een Report Builder-verzoek met het datumbereik ingesteld op &quot;gisteren&quot; en voer de aanvraagdatum uit in dezelfde cel als &quot;vandaag()-1&quot;.

@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# bezoekerID
+# visitorID
 
 Adobe gebruikt verschillende methoden om bezoekers op uw site te identificeren. De `visitorID` variabele heeft voorrang op alle andere methoden voor bezoekersidentificatie.
 

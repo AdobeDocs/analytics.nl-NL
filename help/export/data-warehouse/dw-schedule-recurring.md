@@ -14,7 +14,7 @@ ht-degree: 26%
 
 ## Een terugkerend verzoek plannen {#topic_8C3CE0CE8A584F80946D24B377CB51BE}
 
-Om verzoeken van de Data Warehouse voor Dagelijks/Maandelijks/Jaarlijks te plannen, zorg *Vooraf ingesteld *correct wordt geselecteerd
+Om verzoeken van de Data Warehouse voor Dagelijks/Maandelijks/Jaarlijks te plannen, zorg ervoor &#42;Voorinstelling &#42;is correct geselecteerd
 
 1. Selecteer onder [!UICONTROL Reporting Date] de optie **[!UICONTROL Preset]**.
 

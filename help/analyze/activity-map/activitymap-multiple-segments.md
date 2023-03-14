@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: afe2326d-3ea9-4977-aa8f-2c5e1a79e4c7
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Hiermee kunt u een filter met meerdere segmenten toepassen binnen de Activity Ma
 >
 >Het besturingselement Segment is alleen beschikbaar in de standaardmodus, omdat het Adobe Analytics-platform geen ondersteuning biedt voor het segmenteren van realtime-gegevens.
 
-U kunt een of meerdere segmenten selecteren in het vervolgkeuzemenu **[!UICONTROL Segments]** hieronder. De vermelde segmenten zijn gelijk aan de segmenten die u hebt of die met u via Rapporten &amp; Analytics zijn gedeeld, voor de geselecteerde rapportsuite.
+U kunt een of meerdere segmenten selecteren in het menu **[!UICONTROL Segments]** vervolgkeuzemenu wordt hieronder weergegeven. De vermelde segmenten zijn identiek aan de segmenten die u hebt of die met u via Rapporten &amp; Analytics zijn gedeeld, voor de geselecteerde rapportreeks.
 
 ![](assets/segments.png)
 
@@ -30,4 +30,4 @@ Wanneer meer dan één segment wordt geselecteerd, zal het Etiket van de Selecti
 
 ![](assets/two_segments.png)
 
-De geselecteerde segmenten worden toegepast op alle analyserapporten die in de Activity Map worden gepresenteerd, dat wil zeggen overlays en de **[!UICONTROL Links on Page]**- en **[!UICONTROL Page Details]**-rapporten.
+De geselecteerde segmenten worden toegepast op alle analyserapporten die in de Activity Map worden gepresenteerd, d.w.z. overlays en de **[!UICONTROL Links on Page]** en **[!UICONTROL Page Details]** rapporten.

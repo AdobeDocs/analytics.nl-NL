@@ -1,5 +1,5 @@
 ---
-description: 'Wat zijn dashboards scorecards en '
+description: Wat zijn dashboards scorecards en
 title: Handleiding voor Adobe Analytics-dashboardcurator
 feature: Analytics Dashboards
 role: User, Admin
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 Curatoren kunnen organisatiebeheerders of personen in andere functies zijn die verantwoordelijk zijn voor het instellen van toepassingsscorecards. Met behulp van Scorecards kunnen uitvoerende gebruikers snel en eenvoudig belangrijke samenvattingsgegevens op hun eigen mobiele apparaten weergeven. Uitvoerende gebruikers zijn de eindgebruikers voor analytische dashboards. Als curator moet u deze taken voltooien om de app voor managers op effectieve wijze in te stellen:
 
-1. [Creëer scorecards voor leidinggevenden](/help/analyze/mobile-app/create-scorecard.md).
-1. [Help managers bij het instellen en gebruiken van apps](/help/analyze/mobile-app/set-up-execs.md).
+1. [scorecards voor managers maken](/help/analyze/mobile-app/create-scorecard.md).
+1. [Help managers bij het instellen van apps en het gebruik van de app](/help/analyze/mobile-app/set-up-execs.md).
 
 
 

@@ -5,7 +5,7 @@ feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Virtuele rapportsuites hebben de volgende beperkingen:
 | Kan afzonderlijk worden toegevoegd aan machtigingengroepen | Ja | Ja |
 | Kan Admin-functies gebruiken om de afzonderlijke instellingen in dit rapportpakket te wijzigen (Admin > Rapportagesuites) | Nee (instellingen worden overgenomen van bovenliggend item) | Ja |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Virtuele rapportsets combineren en tags toepassen met meerdere suite {#section_026FA3FCD7314DD18220E73EC5702AFF}
 

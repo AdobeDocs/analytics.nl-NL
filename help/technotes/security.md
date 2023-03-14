@@ -1,18 +1,20 @@
 ---
-title: Beveiligingsbronnen voor Adobe Analytics
-description: Koppelingen naar Adobe-bronnen over beveiligingspraktijken en herstelplannen.
-translation-type: tm+mt
-source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
+title: Adobe Analytics-beveiligingsbronnen
+description: Koppelingen naar Adobe-bronnen rond beveiligingspraktijken en herstelplannen.
+exl-id: 276285f3-349b-4261-bea1-25bdc0996fbf
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 
+# Adobe Analytics-beveiligingsbronnen
 
-# Beveiligingsbronnen voor Adobe Analytics
+Adobe volgt gevestigde veiligheidsprocessen en controles om aan industrie-erkende normen, verordeningen en certificatie te voldoen.
 
-Adobe volgt gevestigde beveiligingsprocessen en -controles om te voldoen aan door de industrie aanvaarde standaarden, regels en certificeringen.
+Informatie over beveiligingspraktijken voor het hele bedrijf vindt u op [adobe.com/security](https://adobe.com/security.html).
 
-Informatie over de veiligheidspraktijken voor het hele bedrijf vindt u op [adobe.com/security](https://adobe.com/security.html).
+Informatie over specifieke praktijken voor Adobe Analytics vindt u in de [Adobe Analytics-beveiligingsoverzicht](https://www.adobe.com/content/dam/acom/en/security/pdfs/ADB-AnalyticsSecurity-WP.pdf). Het schetst processen die rond architectuur, authentificatie, gegevenscentra, netwerk, en personeel worden gevolgd.
 
-Informatie over werkwijzen die specifiek zijn voor Adobe Analytics vindt u in het beveiligingsoverzicht [van](https://www.adobe.com/content/dam/acom/en/security/pdfs/ADB-AnalyticsSecurity-WP.pdf)Adobe Analytics. Het schetst processen die rond architectuur, authentificatie, gegevenscentra, netwerk, en personeel worden gevolgd.
-
-Raadpleeg [het programma](https://hackerone.com/adobe) voor kwetsbaarheden van Adobe voor webservices op HackerOne als u een kwetsbaarheid voor rapportage ontdekt.
+Zie [Adobe](https://hackerone.com/adobe) op HackerOne als u een kwetsbaarheid vindt om te melden.

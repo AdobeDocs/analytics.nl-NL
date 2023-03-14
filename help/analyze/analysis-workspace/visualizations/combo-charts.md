@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Houd dit in gedachten:
    | **[!UICONTROL Function]** | U kunt een functie als [!UICONTROL Average] in de vergelijking. Hieronder vindt u een lijst met ondersteunde functies.<p>![](assets/combo-functions.png) |
    | **[!UICONTROL Secondary metric]** | U kunt bijvoorbeeld [!UICONTROL Revenue] naar een andere metrische waarde.<p>![](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klik op **[!UICONTROL Build]**.
 
@@ -71,7 +71,7 @@ Als u **[!UICONTROL Function]** als de [!UICONTROL Line comparison type], wordt 
 | **[!UICONTROL Mean]** | Retourneert het rekenkundig gemiddelde (of gemiddelde) voor een metrische waarde. |
 | **[!UICONTROL Column Minimum]** | Retourneert de laagste waarde in een set dimensieelementen voor een metrische kolom. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Hier is een voorbeeld van het cumulatieve gemiddelde van de metrische inkomsten:
 
@@ -103,4 +103,4 @@ Klik op het tandwielpictogram rechtsboven in een keuzelijst met invoervak om de 
 | **[!UICONTROL Show y-axis]** | Geef de y-as weer of verberg deze. |
 | **[!UICONTROL Anchor y-axis at zero]** | Als alle waarden die in het diagram worden uitgezet aanzienlijk boven nul liggen, wordt de onderkant van de y-as NON-ZERO ingesteld als de standaardinstelling van het diagram. Als u dit vakje inschakelt, wordt de y-as gedwongen tot nul (en wordt het diagram opnieuw getekend). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

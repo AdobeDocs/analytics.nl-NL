@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d17b1bde-1785-461d-a1d8-66bd9739fc78
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 1%
+source-wordcount: '750'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Het koppelingenrapport rapporteert over de koppelingen die op de huidige pagina 
 
 Het rapport Koppelingen op pagina biedt een tabelweergave van de koppelingen. Soms wilt u dat koppelingsklikken (of andere metriek) in één weergave worden gerangschikt. Hierdoor kunt u de ene koppeling beter met de andere vergelijken. Maak het rapport Koppelingen op pagina inclusief een gerangschikte lijst met alle koppelingen op de pagina (op koppeling-id), de klikgegevens (# en %) en het gebied op de pagina. Klik op de knop Koppelingen in paginarapport op de werkbalk Activity Map.
 
-Het **[!UICONTROL Links On Page]** rapport opent onder het browser kader in het dashboard van de Activity Map.
+De **[!UICONTROL Links On Page]** Het rapport wordt onder het browserframe in het dashboard Activity Map geopend.
 
 ## Standaardmodus {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -40,7 +40,7 @@ In de standaardmodus worden in het rapport &quot;Koppelingen op pagina&quot; kop
   </tr> 
   <tr> 
    <td colname="col1"> Koppelings-id </td> 
-   <td colname="col2">De primaire identiteitskaart van de verbinding (voor meer informatie over hoe primaire identiteitskaart door <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">Nieuwe Methodologie van het Volgen van de Verbinding</a> wordt bepaald) </td> 
+   <td colname="col2">De primaire id van de koppeling (voor meer informatie over hoe de primaire id door de <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">Nieuwe methode voor het bijhouden van koppelingen</a>) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Klikken </td> 
@@ -56,14 +56,14 @@ In de standaardmodus worden in het rapport &quot;Koppelingen op pagina&quot; kop
     <ul id="ul_BABCC0F64145407C9D439150A6898E6D">
      <li id="li_9AF0479BDCEB4A44A37292FAABFA83A5"><b>Verborgen</b>: De koppeling staat momenteel op de pagina maar is niet zichtbaar voor de eindgebruiker (zoals een submenu in een navigatiemenu dat alleen zichtbaar wordt als de gebruiker boven op het bovenliggende menu zweeft) </li>
      <li id="li_C6FA4EC27EDD4341AB9821E2B4BC9E60"><b>Weergegeven</b>: de koppeling wordt momenteel weergegeven op de pagina. Het kan echter onder de vouw worden weergegeven: de gebruiker zou de pagina moeten scrollen om het te zien. </li>
-    </ul><p>Opmerking:  Als een koppeling is ingesteld op "Hidden", worden er geen overlays voor weergegeven. </p></td> 
+    </ul><p>Opmerking: Als een koppeling is ingesteld op "Hidden", worden er geen overlays voor weergegeven. </p></td> 
   </tr> 
  </tbody> 
 </table>
 
 **Gegevens filteren**
 
-Wanneer u op een specifieke verbinding wilt binnen nul, kunt u naar een verwante termijn op het **[!UICONTROL Filter Data]** gebied zoeken. Alleen de koppelingen die overeenkomen met de zoekopdracht, hebben bedekkingen. Zonder een filter worden de overlays die zijn opgegeven in [Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) weergegeven.
+Als u nul wilt gebruiken voor een specifieke koppeling, kunt u zoeken naar een verwante term in het dialoogvenster **[!UICONTROL Filter Data]** veld. Alleen de koppelingen die overeenkomen met de zoekopdracht hebben bedekkingen. Zonder filter worden de in het dialoogvenster [Activity Map-instellingen](/help/analyze/activity-map/activitymap-overlay-settings.md) wordt weergegeven.
 
 ## Live-modus {#section_AC1967217B5A4532ACB01D33636F6770}
 
@@ -85,7 +85,7 @@ In Live modus worden in het rapport Koppelingen op pagina trendgegevens weergege
   </tr> 
   <tr> 
    <td colname="col1"> Koppelings-id </td> 
-   <td colname="col2">De primaire id van de koppeling. Voor meer informatie over hoe primaire identiteitskaart door Nieuwe <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> de Methodologie van het Volgen van de Verbinding</a> wordt bepaald. </td>
+   <td colname="col2">De primaire id van de koppeling. Voor meer informatie over hoe de primaire id wordt gedefinieerd door de nieuwe <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> Methodologie voor het bijhouden van koppelingen</a>. </td>
   </tr> 
   <tr> 
    <td colname="col1"> Koppelingsklikken </td> 

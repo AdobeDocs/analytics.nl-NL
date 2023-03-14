@@ -22,7 +22,7 @@ Net als bij de Adobe Experience Cloud-foutopsporing geeft een pakketmonitor aan 
 
 Om de verzoeken van Analytics te bekijken, filter uitgaande verzoeken gebruikend &quot;b/ss&quot;.
 
-In zeer zeldzame gevallen zal debugger een beeldverzoek melden hoewel geen verzoek het aan Adobe maakt [!DNL Analytics] verwerkingsservers. Het gebruiken van een pakketmonitor is een grote manier om 100% zeker te zijn dat een specifiek beeldverzoek met succes wordt in brand gestoken.
+In zeer zeldzame gevallen zal debugger een beeldverzoek melden hoewel geen verzoek het aan Adobe maakt [!DNL Analytics] verwerkingsservers. Het gebruiken van een pakketmonitor is een grote manier om 100% zeker te zijn dat een specifiek beeldverzoek met succes in brand wordt gestoken.
 
 Hoewel Adobe geen officiële pakketmonitor biedt, zijn er een groot aantal van deze monitoren beschikbaar op internet. Hier volgen enkele voorbeelden van pakketmonitoren die anderen nuttig hebben gevonden.
 

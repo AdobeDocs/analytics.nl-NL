@@ -71,7 +71,7 @@ Beide [Mensen](/help/components/metrics/people.md) en [Unieke bezoekers](/help/c
 Deze twee metriek zijn ruwweg gelijkwaardig aan elkaar. De verschillen tussen de twee metriek komen voor wanneer:
 
 * Een gedeeld apparaat wordt toegewezen aan meerdere personen. In dit scenario wordt 1 unieke bezoeker geteld, terwijl meerdere unieke apparaten worden geteld.
-* Een apparaat heeft zowel niet-vastgezet als vastgezet verkeer van de zelfde bezoeker. Bijvoorbeeld, produceerde browser geïdentificeerde gestippeld verkeer + historisch anoniem verkeer dat niet werd vastgemaakt. In dit geval wordt 1 unieke bezoeker geteld, terwijl 2 unieke apparaten worden geteld.
+* Een apparaat heeft zowel niet-vastgezet als vastgezet verkeer van de zelfde bezoeker. Bijvoorbeeld, produceerde browser geïdentificeerde gestippeld verkeer + historisch anonieme verkeer dat niet werd vastgemaakt. In dit geval wordt 1 unieke bezoeker geteld, terwijl 2 unieke apparaten worden geteld.
 
 Zie [Unieke apparaten](/help/components/metrics/unique-devices.md) voor meer voorbeelden en details over hoe het werkt.
 

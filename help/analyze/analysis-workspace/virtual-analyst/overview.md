@@ -10,7 +10,7 @@ ht-degree: 4%
 
 ---
 
-# Virtuele analyse
+# Virtual Analyst
 
 Virtual Analyst, een reeks functies die deel uitmaakt van Adobe Analytics, gebruikt voorspellende algoritmen en computerleren om inzicht te krijgen in anomalieën die van invloed zijn op uw bedrijf. Hiermee kunt u de meest gangbare en dure workflows voor gegevenswetenschap automatiseren om te bepalen wat ongewoon gedrag in uw gegevens veroorzaakt.
 

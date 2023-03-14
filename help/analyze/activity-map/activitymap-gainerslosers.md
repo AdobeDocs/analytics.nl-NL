@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
@@ -24,17 +24,17 @@ Activity Map biedt drie typen overlays:
 * Bubble Overlay
 * Bedekking voor tussenruimten en Losers
 
-U kunt [bedekkende rendering ook configureren voor dynamische inhoud](/help/analyze/activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md).
+U kunt ook configureren [bedekking renderen voor dynamische inhoud](/help/analyze/activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md).
 
-Als u overlays wilt wijzigen, opent u het [deelvenster Overlayinstellingen](/help/analyze/activity-map/activitymap-overlay-settings.md) en bewerkt u de beschikbare opties.
+Als u overlays wilt wijzigen, opent u het dialoogvenster [Deelvenster Overlay-instellingen](/help/analyze/activity-map/activitymap-overlay-settings.md) en bewerk de beschikbare opties.
 
-Als u de bedekking boven een bedekking plaatst, worden de [details](/help/analyze/activity-map/activitymap-overlay-details.md) weergegeven.
+Als u de bedekking boven een bedekking plaatst, wordt de bijbehorende [details](/help/analyze/activity-map/activitymap-overlay-details.md).
 
 ## Verloopbedekking (Heatmap) {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 Met de verloopbedekking is de kleurintensiteit gebaseerd op de populariteit van de koppeling. Deze intensiteit kan worden genormaliseerd voor de bovenste 30 waarderingen, of een functie van de absolute metrische waarde.
 
-Deze meetgegevens worden boven op de pagina-koppelingen geplaatst als een soort &#39;warmtekaart&#39; voor het beantwoorden van kritieke vragen, waaronder de volgende:
+Deze meetgegevens worden boven op de pagina-koppelingen geplaatst als een soort &#39;warmtekaart&#39; voor het beantwoorden van kritieke vragen, zoals:
 
 * Wat is de waarde van een afzonderlijke pagina?
 * Wat is de waarde van een afzonderlijk element op een pagina?
@@ -46,7 +46,7 @@ Deze meetgegevens worden boven op de pagina-koppelingen geplaatst als een soort 
 
 De bedekking van de Bubbel toont de bedekkingsinhoud (metrisch, percentage, of rang) in een kleine callout bel.
 
-Bubbelbedekkingen worden weergegeven wanneer u deze bedekking selecteert in Overlaytype op de werkbalk. . Bubble-overlays worden weergegeven voor alle koppelingen die overeenkomen met de selectie in [Activity Map-instellingen](/help/analyze/activity-map/activitymap-overlay-settings.md) (bovenste 30, bovenste 50, alle..). Verloopbedekkingen worden weergegeven als deze optie niet is geselecteerd.
+Bubbelbedekkingen worden weergegeven wanneer u deze bedekking selecteert in Overlaytype op de werkbalk. . Bubble-overlays worden weergegeven voor alle koppelingen die overeenkomen met de selectie in [Activity Map-instellingen](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all..). Verloopbedekkingen worden weergegeven als deze optie niet is geselecteerd.
 
 ![](assets/bubble_overlay.png)
 

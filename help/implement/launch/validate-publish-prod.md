@@ -6,7 +6,7 @@ exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Zodra uw tagbibliotheek aan productie wordt geduwd, kan uw organisatie beginnen 
 
 Foutopsporing Experience Cloud is een extensie die alle Experience Cloud-tags op een pagina weergeeft.
 
-1. Installeer de extensie voor een van de [Chroom](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) of [Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/).
+1. Installeer de extensie voor een van de [Chroom](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) of [Firefox](https://addons.mozilla.org/nl/firefox/addon/adobe-experience-platform-dbg/).
 2. Navigeer naar uw ontwikkelingswebsite waarop u tags hebt geïmplementeerd.
 3. Klik op het Adobe Experience Cloud-foutopsporingspictogram in uw browser.
 4. Als alles correct is geïmplementeerd, ziet u de inhoud in Adobe Analytics, tags en de Adobe Experience Cloud Visitor ID-service.

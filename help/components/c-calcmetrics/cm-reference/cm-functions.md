@@ -178,7 +178,7 @@ QUARTILE(metric,quart)
 | *metrisch* | De metrische waarde waarvoor u de kwartielwaarde wilt. |
 | *kwart* | Geeft aan welke *value moet worden geretourneerd. |
 
-* Als *kwart* = 0, QUARTILE keert de minimumwaarde terug. Indien *kwart* = 1, QUARTILE retourneert het eerste kwartiel (25 percentiel). Indien *kwart* = 2, retourneert QUARTILE het eerste kwartiel (50 percentiel). Indien *kwart* = 3, QUARTILE retourneert het eerste kwartiel (75 percentiel). Indien *kwart* = 4, QUARTILE keert de maximumwaarde terug.
+&#42;Indien *kwart* = 0, QUARTILE keert de minimumwaarde terug. Indien *kwart* = 1, QUARTILE retourneert het eerste kwartiel (25 percentiel). Indien *kwart* = 2, retourneert QUARTILE het eerste kwartiel (50 percentiel). Indien *kwart* = 3, QUARTILE retourneert het eerste kwartiel (75 percentiel). Indien *kwart* = 4, QUARTILE keert de maximumwaarde terug.
 
 ## Rond {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 

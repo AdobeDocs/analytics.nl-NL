@@ -5,7 +5,7 @@ feature: Implementation Basics
 source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -99,6 +99,6 @@ Voor uw **mobiele app** zijn de volgende uitvoeringsmethoden beschikbaar:
 
 ## Belangrijke bronnen voor Analytics
 
-* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
 * [Analytics-forum](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Bronnen voor Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)

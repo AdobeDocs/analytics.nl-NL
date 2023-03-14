@@ -22,7 +22,7 @@ Als u bijvoorbeeld de dimensie &#39;Pagina&#39; hebt gecombineerd met de metrisc
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-Als u een bepaalde metrische hulppagina niet kunt vinden, is het waarschijnlijk of een [aangepaste gebeurtenis](custom-events.md) of [berekend metrisch](../c-calcmetrics/cm-overview.md).
+Als u een bepaalde metrische hulppagina niet kunt vinden, is het waarschijnlijk of [aangepaste gebeurtenis](custom-events.md) of [berekend metrisch](../c-calcmetrics/cm-overview.md).
 
 * Als metrisch een douanegebeurtenis is, raadpleeg een beheerder Analytics binnen uw organisatie, of de rapportreeks [document ontwerp oplossing](/help/implement/prepare/solution-design.md).
 * Als metrisch berekende metrisch is, klik het informatiepictogram om zijn formule te bepalen.

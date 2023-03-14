@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ U kunt alle verzoeken in een werkboek tegen het toevoegen van en het uitgeven va
 
 Als analist, laat het sluiten van een werkboek u uw werkboekverzoeken tegen het knoeien door andere gebruikers binnen uw organisatie beschermen. Tezelfdertijd, kunnen die gebruikers nog de verzoeken in het werkboek verfrissen.
 
-Om een werkboek tegen het uitgeven te beschermen, klik **[!UICONTROL Locked]** op de toolbar van de Report Builder ( ![](assets/locked_icon.png)
+Om een werkboek tegen het uitgeven te beschermen, klik **[!UICONTROL Locked]** op de werkbalk Report Builder ( ![](assets/locked_icon.png)
 
 ).
 
-Als u de beveiliging van een werkboek wilt opheffen, klikt u op **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
+Om een werkboek niet te beschermen, klik **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
 
 ).
 
@@ -44,7 +44,7 @@ Wanneer een werkboek tegen verzoek het uitgeven wordt gesloten,
 * Gebruikers kunnen aanvragen afzonderlijk of als onderdeel van een groep vernieuwen.
 * Als in de aanvraag invoerwaarden uit cellen worden gebruikt (datumbereik, segment, filters), kunnen gebruikers deze waarden in de cellen wijzigen en zo indirect de aanvragen bewerken door ze te vernieuwen.
 
-Als u probeert om een beschermd werkboek (door het contextmenu, of **[!UICONTROL Request Manager]**, of **[!UICONTROL Edit Multiple Requests]**) uit te geven, kunt u of niet worden toegestaan om dit te doen:
+Als u probeert om een beschermd werkboek (door het contextmenu uit te geven, of **[!UICONTROL Request Manager]**, of **[!UICONTROL Edit Multiple Requests]**), kunt u dit al dan niet toestaan:
 
 * Als u geen machtigingen hebt om de aanvraag(en) te ontgrendelen, wordt deze vraag weergegeven:
 

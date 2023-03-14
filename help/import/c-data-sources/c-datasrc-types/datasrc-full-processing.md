@@ -43,12 +43,12 @@ Bijvoorbeeld een gebruiker met een bezoeker-id van `"user@example.com"` bezoekt 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campagne </p> </td> 
+   <td colname="col2"> <p>campaign </p> </td> 
    <td colname="col3"> <p>Code voor bijhouden van conversiecampagne. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>kanaal </p> </td> 
+   <td colname="col2"> <p>channel </p> </td> 
    <td colname="col3"> <p>Kanaaltekenreeks (bijvoorbeeld Sportsectie). </p> </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ Bijvoorbeeld een gebruiker met een bezoeker-id van `"user@example.com"` bezoekt 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>gebeurtenissen </p> </td> 
+   <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>De koord van gebeurtenissen, geformatteerd gebruikend de zelfde syntaxis zoals <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variabele. </p> <p>Bijvoorbeeld: </p> 
     <code>
       scAdd,event1,event7 
@@ -116,7 +116,7 @@ Bijvoorbeeld een gebruiker met een bezoeker-id van `"user@example.com"` bezoekt 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>producten </p> </td> 
+   <td colname="col2"> <p>products </p> </td> 
    <td colname="col3"> <p>Productlijst (bijvoorbeeld <code> "Sports;Ball;1;5.95"</code>). Kan maximaal 4096 bytes per rij bevatten.</p> </td> 
   </tr> 
   <tr> 

@@ -1,18 +1,17 @@
 ---
 title: Datums vergelijken die door een gebeurtenis worden beïnvloed met vorige bereiken
 description: Leer meer over de impact van een gebeurtenis, zoals een implementatieprobleem of een stroomstoring, door deze te vergelijken met eerdere trends.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
 
 ---
 
-
 # Datums vergelijken die door een gebeurtenis worden beïnvloed met vorige bereiken
 
-Als u gegevens hebt [die door een gebeurtenis](overview.md)worden beïnvloed, kunt u historische tendensen bekijken om zijn effect te meten. Deze vergelijking is handig als u precies wilt weten hoeveel invloed een gebeurtenis heeft op uw gegevens. U kunt dus beslissen of u de gegevens wilt uitsluiten, een notitie wilt toevoegen aan rapporten of deze wilt negeren.
+Als u gegevens hebt [beïnvloed door een gebeurtenis](overview.md)Je kunt naar historische trends kijken om de impact ervan te meten. Deze vergelijking is handig als u precies wilt weten hoeveel invloed een gebeurtenis heeft op uw gegevens. U kunt dus beslissen of u de gegevens wilt uitsluiten, een notitie wilt toevoegen aan rapporten of deze wilt negeren.
 
 ## Een datumbereik maken dat de gebeurtenis bevat
 
@@ -44,7 +43,7 @@ U kunt elke metrische waarde tussen het datumbereik van de gebeurtenis en vergel
 
 Vergelijk afmetingspunten tussen de de datumwaaier van een gebeurtenis en gelijkaardige vroegere datumwaaiers gebruikend een vrije lijstvisualisatie. Deze stappen illustreren een voorbeeld van een week-over-week dat u kunt volgen.
 
-1. Open een project van de Werkruimte, en voeg een **niet-tijddimensie** aan de vrije vormlijst toe. U kunt bijvoorbeeld de dimensie Mobiel apparaattype gebruiken. Pas het recent gemaakte datumbereik toe dat op metrische wijze is gestapeld, zoals &#39;Voorvallen&#39;:
+1. Open een Workspace-project en voeg een **niet-tijddimensie** naar de vrije-vormtabel. U kunt bijvoorbeeld de dimensie Mobiel apparaattype gebruiken. Pas het recent gemaakte datumbereik toe dat op metrische wijze is gestapeld, zoals &#39;Voorvallen&#39;:
 
    ![Mobiel apparaattype met beïnvloed datumbereik](assets/mobile_device_type.png)
 
@@ -52,7 +51,7 @@ Vergelijk afmetingspunten tussen de de datumwaaier van een gebeurtenis en gelijk
 
    ![Tijdsperiode vergelijken, menu](assets/compare_time_custom.png)
 
-3. Wijzig de naam van de resulterende metrische waarde voor Percent Change in iets specifiekers, zoals &quot;WoW Affected Range&quot;. Klik op het informatiepictogram en klik vervolgens op het bewerkingspotlood om de metrische naam te bewerken.
+3. Wijzig de naam van de resulterende metrische waarde voor Percent Change in een specifiekere waarde, zoals &quot;WoW Affected Range&quot;. Klik op het informatiepictogram en klik vervolgens op het bewerkingspotlood om de metrische naam te bewerken.
 
    ![Week gedurende week](assets/wow_affected_range.png)
 
@@ -63,7 +62,7 @@ Vergelijk afmetingspunten tussen de de datumwaaier van een gebeurtenis en gelijk
 Als u de bovenstaande procentuele wijzigingen verder wilt analyseren, kunt u ze omzetten in rijen.
 
 1. Voeg een vrije lijstvisualisatie toe en laat de lijstbouwer toe. Met deze handeling kunt u de metrische gegevens voor procentuele wijziging in de gewenste volgorde plaatsen.
-2. Houd `Ctrl` (Windows) of `Cmd` (Mac) ingedrukt en sleep de 3-procentswijziging één voor één in de rijen van de tabel.
+2. Statisch `Ctrl` (Windows) of `Cmd` (Mac) en sleep de 3 procent veranderingsmetriek in de rijen van de lijst, één voor één.
 
    ![Tabelbuilder](assets/table_builder.png)
 

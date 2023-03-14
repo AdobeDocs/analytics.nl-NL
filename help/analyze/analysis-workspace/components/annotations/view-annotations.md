@@ -6,7 +6,7 @@ feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Annotaties worden iets anders weergegeven, afhankelijk van het feit of ze één 
 | **Datumbereik** | Het pictogram verandert en wanneer u de muisaanwijzer op het pictogram plaatst, wordt het datumbereik weergegeven.<p>![](assets/multi-day.png)<p>Wanneer u deze optie selecteert in het lijndiagram, worden de metagegevens van de annotatie weergegeven en kunt u deze bewerken of verwijderen:![](assets/multi-hover.png)<p>In een tabel wordt op elke datum in het datumbereik een pictogram weergegeven.<p>![](assets/multi-day-table.png) |
 | **Overlappende annotaties** | Op dagen waarop meerdere annotaties zijn gekoppeld, wordt het pictogram weergegeven in een grijze kleur.<p>![](assets/grey.png)<p>Wanneer u de cursor boven het grijze pictogram houdt, worden alle overlappende annotaties weergegeven:<p>![](assets/overlap.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Annotaties weergeven in een .pdf-bestand
 

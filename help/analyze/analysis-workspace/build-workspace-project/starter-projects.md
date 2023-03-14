@@ -69,7 +69,7 @@ Hier is een video over de [!UICONTROL Training Tutorial] sjabloon:
 
 >[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
-### Reclame
+### Advertising
 
 >[!IMPORTANT]
 >

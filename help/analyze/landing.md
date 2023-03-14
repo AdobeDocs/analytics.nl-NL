@@ -6,7 +6,7 @@ feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
-source-wordcount: '3800'
+source-wordcount: '3797'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ De landingspagina van Adobe Analytics bevat beide [!DNL Analysis Workspace] en [
 | **[!UICONTROL Create Project]** modal is back | Wanneer u op **[!UICONTROL Create Project]** in Workspace hebt u opnieuw de keuze tussen een [!UICONTROL Blank project] en [!UICONTROL Blank mobile scorecard]. U kunt ook kiezen uit sjablonen die uw bedrijf heeft gemaakt. | ![Nieuw maken](assets/create-new.png) |
 | Ook beschikbaar in Customer Journey Analytics | Deze openingspagina, in een gewijzigde vorm, is ook beschikbaar in CJA. |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Structuur van het bovenste menu {#top-menu}
 

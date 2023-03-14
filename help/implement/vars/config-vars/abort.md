@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# afbreken
+# abort
 
 De `abort` De variabele is een booleaanse waarde die kan verhinderen dat de volgende volgende volgvraag naar Adobe wordt verzonden. Er bestaat een vergelijkbare functionaliteit in de SDK van het web waarmee u kunt terugkeren `false` voordat een XDM-gebeurtenis wordt verzonden.
 

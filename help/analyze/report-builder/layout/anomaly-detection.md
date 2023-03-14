@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '518'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Bij Anomalige detectie worden nieuwe metrische waarden toegevoegd voor elke metr
  </tbody> 
 </table>
 
-De bouwer van het rapport past deze waarden op geselecteerde metriek toe. Als u bijvoorbeeld een metrische weergave van paginaweergaven selecteert en afwijkende detectie toepast, wordt een metrische waarde *`Page Views Lower Bound`* gebruikt.
+De bouwer van het rapport past deze waarden op geselecteerde metriek toe. Als u bijvoorbeeld een metrische weergave van paginaweergaven selecteert en afwijkende detectie toepast, wordt een *`Page Views Lower Bound`* wordt metrisch gebruikt.
 
 **Hoe Anomaly Detection wordt berekend**
 
@@ -72,7 +72,7 @@ Om de gegevens te berekenen wordt het dagelijkse totaal voor elke metrische waar
 
 Elk algoritme wordt toegepast om het algoritme met de kleinste Som van Vierkante Fouten (SSE) te bepalen. De gemiddelde Absolute Percent Error (MAPE) en de huidige Standaardfout worden vervolgens berekend om ervoor te zorgen dat het model statistisch geldig is.
 
-Deze algoritmen kunnen worden uitgebreid om voorspellingen van metriek in toekomstige periodes te verstrekken.
+Deze algoritmen kunnen worden uitgebreid om voorspellende prognoses van metriek in toekomstige periodes te verstrekken.
 
 Omdat de trainingsperiode afhankelijk is van het begin van de rapportageperiode, kunnen er verschillen optreden in de gegevens die op dezelfde datum worden gerapporteerd als onderdeel van twee verschillende tijdsperiodes.
 

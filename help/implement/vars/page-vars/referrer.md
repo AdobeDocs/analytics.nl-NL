@@ -6,11 +6,11 @@ exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# referentie
+# referrer
 
 De `referrer` de variabele treedt automatisch verzamelde verwijzer in rapporten met voeten. Deze variabele is handig in situaties waarin de referentie verloren kan gaan, bijvoorbeeld tijdens omleidingen of het tijdelijk doorsturen van de bezoeker naar een betalingsverwerker. Met deze variabele kunt u de afmetingen &#39;Referrer&#39; en &#39;Refering Domain&#39; vullen.
 

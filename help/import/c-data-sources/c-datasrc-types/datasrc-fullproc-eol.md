@@ -44,8 +44,8 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | amlh | Niet ondersteund | Tip voor Adobe Audience Manager-locatie. |
 | browserHeight | browserHeight | Browserhoogte in pixels (bijvoorbeeld 768) |
 | browserWidth | browserWidth | Browserbreedte in pixels (bijvoorbeeld 1024) |
-| campaign | campagne | Code voor bijhouden van conversiecampagne |
-| channel | kanaal | Kanaaltekenreeks (bijvoorbeeld Sectie Sport) |
+| campaign | campaign | Code voor bijhouden van conversiecampagne |
+| channel | channel | Kanaaltekenreeks (bijvoorbeeld Sectie Sport) |
 | colorDepth | colorDepth | Kleurdiepte van monitor in bits (bijvoorbeeld 24) |
 | connectionType | connectionType | Verbindingstype van de bezoeker (LAN of modem) |
 | contextData.key | Niet ondersteund | Sleutelwaardeparen worden in opgegeven door de koptekst &quot;contextData.product&quot; of &quot;contextData.color&quot; te noemen |
@@ -55,7 +55,7 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | clientID.[customerIDType].id | Niet ondersteund | De klant-id die moet worden gebruikt. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
 | clientID.[customerIDType].isMCSeed | Niet ondersteund | Of dit het zaad voor identiteitskaart van de Bezoeker van de Marketing Cloud is of niet. Ondersteunde waarden zijn: 0, 1, TRUE, FALSE, &#39;&#39; (hoofdlettergevoelig). Als u 0, FALSE of twee opeenvolgende enkele aanhalingstekens (&#39;&#39;) gebruikt, wordt de waarde weggelaten uit de querytekenreeks. Het customerIDType kan om het even welke alfanumerieke koord zijn, maar zou als case gevoelig moeten worden beschouwd. |
 | eVarN | eVarN, d.w.z. `<eVar2>`...`<eVar>` | Naam van conversie-eVar. U kunt maximaal 75 eVars ( eVar1 - eVar75 ) hebben. U kunt de naam van de eVar (eVar12) of een vriendelijke naam (Advertentiecampagne 3) opgeven. |
-| events | gebeurtenissen | [Tekenreeks gebeurtenissen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html#vars), opgemaakt met dezelfde syntaxis als de variabele s.events. Bijvoorbeeld: scAdd,event1,event7 |
+| events | events | [Tekenreeks gebeurtenissen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html#vars), opgemaakt met dezelfde syntaxis als de variabele s.events. Bijvoorbeeld: scAdd,event1,event7 |
 | hierN | hierN, d.w.z. `<hier2>`...`</hier2>` | Hiërarchienaam. U kunt maximaal vijf hiërarchieën gebruiken ( hier1 - hier5 ). U kunt de standaardhiërarchienaam opgeven `hier2` of een vriendelijke naam (Yankees). |
 | homePage | homePage | Y of N — is de huidige pagina op de homepage van de bezoeker. |
 | ipaddress | Niet ondersteund | Het IP-adres van de bezoeker. |
@@ -80,11 +80,11 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | pageType | pageType | Type pagina (bijvoorbeeld &quot;Foutpagina&quot;). |
 | pageURL | pageURL | Pagina-URL (bijvoorbeeld https://www.example.com/index.html). |
 | plug-ins | plug-ins | Lijst met namen van plug-ins van browsers, gescheiden door puntkomma&#39;s. |
-| products | producten | Lijst met alle producten op de pagina. Scheid producten met een komma. Bijvoorbeeld: Sport;Ball;1;5.95,Speelgoed; Boven;1:1.99. |
+| products | products | Lijst met alle producten op de pagina. Scheid producten met een komma. Bijvoorbeeld: Sport;Ball;1;5.95,Speelgoed; Boven;1:1.99. |
 | prop1 - prop75 | propN, d.w.z. `<prop2>`...`</prop2>` | Eigenschapcontrole# (bijvoorbeeld Sportsectie). |
 | propN | propN | Eigenschapswaarden voor uw eigenschappen. |
 | purchaseID | purchaseID | Aankoop-id-nummer. |
-| referrer | referentie | URL voor paginaverwijzing. |
+| referrer | referrer | URL voor paginaverwijzing. |
 | reportSuiteID | s_account | Hier geeft u de rapportsuites op waarin u gegevens wilt verzenden. U zou veelvoudige rapportreeks IDs met een komma moeten scheiden. |
 | resolutie | resolutie | Monitorresolutie (bijvoorbeeld 1024x768). |
 | server | server | Servertekenreeks. |
@@ -93,5 +93,5 @@ Voor meer details, zie de volgende vergelijking van de gebiedswaarden beschikbaa
 | trackingServer | Niet ondersteund | Kan alleen via kolomkop worden opgegeven. |
 | transactionID | Niet ondersteund | Gemeenschappelijke waarde die wordt gebruikt om multikanaalsgebruikersactiviteiten voor rapportagedoeleinden aan elkaar te koppelen. Zie voor meer informatie de [Gebruikershandleiding voor gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html#data-sources). |
 | userAgent | Niet ondersteund | Tekenreeks gebruikersagent |
-| visitorID | bezoekerID | Analyse-id van bezoeker. Zie [Identificatie bezoeker](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| visitorID | visitorID | Analyse-id van bezoeker. Zie [Identificatie bezoeker](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | zip | zip | ZIP-code conversie. |

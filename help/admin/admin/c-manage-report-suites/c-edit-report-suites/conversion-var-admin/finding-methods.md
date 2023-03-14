@@ -1,5 +1,5 @@
 ---
-description: Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over zoekmethoden kredieten ontvangen voor conversiesuccesgebeurtenissen op uw site. Als een zoekmachine bijvoorbeeld een bezoeker doorverwijst naar uw site die een aankoop doet, kunt u met Methoden zoeken opgeven hoe het zoekprogramma krediet voor de doorverwijzing ontvangt.
+description: Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over zoekmethoden kredieten ontvangen voor conversiesuccesgebeurtenissen op uw site. Als een zoekmachine bijvoorbeeld een bezoeker doorverwijst naar uw site die een aankoop doet, kunt u met Methoden zoeken opgeven hoe de zoekfunctie de verwijzingsvergoeding ontvangt.
 title: Zoekmethoden
 feature: Admin Tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45

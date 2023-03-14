@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '265'
 ht-degree: 6%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 6%
 
 Naast de standaardopmaakopties voor cellen die beschikbaar zijn via de functie Opmaken > Cellen (Ctrl+1) van Excel, kunt u beperkte opmaak toepassen op celbereiken met behulp van de rapportbuilder. Deze opmaakkeuzes zijn afhankelijk van de gekozen metrische waarde.
 
-Nadat u [afmetingen](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) aan het net van de Etiketten van de Rij toevoegt, klik **[!UICONTROL Format]**.
+Na u [dimensies toevoegen](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) klikt u op het raster Rijlabels op **[!UICONTROL Format]**.
 
-Klik in het menu **[!UICONTROL Format]** op **[!UICONTROL Custom Format]** om aangepaste notaties toe te passen voor datums die vergelijkbaar zijn met de functie voor vooraf toevoegen en uitstellen. U kunt bijvoorbeeld tekst invoeren die altijd na de datum optreedt (bijvoorbeeld A.D. B.C.E. A.H. enz.). U kunt vóór de datum tekst toevoegen, zoals [!UICONTROL Start Date] en [!UICONTROL Start and End Date]. Daarnaast kunt u een aangepaste datumexpressie maken van dag-, maand- en jaarafkortingen en een aangepast scheidingsteken gebruiken tussen delen van de datum. Alle datumnotaties moeten bestaan uit drie afkortingen die alleen tussen haakjes staan.
+In de **[!UICONTROL Format]** menu, klikt u op **[!UICONTROL Custom Format]** om aangepaste notaties toe te passen voor datums die vergelijkbaar zijn met de functie voor voorvoegen en uitstellen. U kunt bijvoorbeeld tekst invoeren die altijd na de datum optreedt (bijvoorbeeld A.D. B.C.E. A.H. enz.). U kunt vóór de datum tekst toevoegen, zoals [!UICONTROL Start Date] en [!UICONTROL Start and End Date]. Daarnaast kunt u een aangepaste datumexpressie maken van dag-, maand- en jaarafkortingen en een aangepast scheidingsteken gebruiken tussen delen van de datum. Alle datumnotaties moeten bestaan uit drie afkortingen die alleen tussen haakjes staan.
 
-In de volgende tabel wordt beschreven hoe u datumafkortingen kunt gebruiken in het veld [!UICONTROL Custom Format]:
+In de volgende tabel wordt beschreven hoe u datumafkortingen kunt gebruiken in het dialoogvenster [!UICONTROL Custom Format] veld:
 
-| Afkorting | Betekenis | Voorbeeld   tot en met woensdag 14 maart 2012 |
+| Afkorting | Betekenis | Voorbeeld met woensdag 14 maart 2012 |
 |--- |--- |--- |
-| dd-MM-yyy | Volledige numerieke datum | 14-03-2012 |
+| dd-MM-yyy | Volledige numerieke datum | 03/14/2012 |
 | M | Aantal maanden | 3 |
 | MM | Aantal maanden met 0 opvulling voor maanden &lt; 10 | 03 |
 | MMM | Korte naam van de maand | mrt |

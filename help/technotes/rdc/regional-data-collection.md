@@ -5,7 +5,7 @@ feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: 8f02656820ed0b9201f29fc9dca6870e6f7fe8fd
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk
 | --- | --- |
 | Standaard | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney, China* |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 *China RDC vereist het China Add-on pakket. Zie [Optimalisatie van Chinese prestaties](#china-performance-optimization) hieronder.
 
@@ -52,7 +52,7 @@ De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk
 | Alleen Azië - Stille Oceaan | Mumbai, Singapore, Tokio, Sydney |
 | Alleen China* | Peking |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 *Alleen China en de RDC-typen wereldwijd + China vereisen het China Add-on-pakket. Global + China leidt gegevens van oorsprong uit China naar Adobe RDC, terwijl ze gegevens van oorsprong uit China naar de dichtstbijzijnde RDC buiten China leiden. Zie [Optimalisatie van Chinese prestaties](#china-performance-optimization) hieronder.
 

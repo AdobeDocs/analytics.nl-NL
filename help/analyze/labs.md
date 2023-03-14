@@ -6,12 +6,12 @@ role: Admin
 exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 0%
+source-wordcount: '414'
+ht-degree: 1%
 
 ---
 
-# [!UICONTROL Labs] Handboek
+# [!UICONTROL Labs] Gebruikershandleiding
 
 [!UICONTROL Labs] maakt het mogelijk sneller prototypen te maken van ideeën in een vroeg stadium. Het is een combinatie hulpmiddelen en processen die ontwikkeling doorzichtig, met een klantennadruk versnelt. Het staat gebruikers toe om met opkomende technologieën in wisselwerking te staan, waardevolle inzichten te ontdekken, en toekomstige eigenschapontwikkeling en prioriteiten te beïnvloeden. U kunt Labs gebruiken om vroege toegang tot de innovaties van Adobe Analytics te krijgen en om komende eigenschappen binnen de context van uw eigen zaken en gegevens te evalueren.
 
@@ -21,23 +21,23 @@ ht-degree: 0%
 
 Als u dit nog niet hebt gedaan, leest u de toepasselijke formulieren voor de geheimhoudingsovereenkomst en de Algemene voorwaarden en bepalingen.
 
-## Open de [!UICONTROL Labs]-portal
+## Toegang krijgen tot [!UICONTROL Labs] Portal
 
-Om tot [!UICONTROL Labs] toegang te hebben:
+Toegang tot [!UICONTROL Labs]:
 
-1. Als u nog geen toegang tot [!UICONTROL Workspace] en [!UICONTROL Labs] hebt, vraag uw beheerder om toestemmingen.
+1. Als u nog geen toegang hebt tot [!UICONTROL Workspace] en [!UICONTROL Labs], vraag uw beheerder om toestemmingen.
 
-1. Klik op het tabblad **[!UICONTROL Labs]**.
+1. Klik op de knop **[!UICONTROL Labs]** tab.
 
 ## Een prototype evalueren
 
 Een prototype starten en evalueren:
 
-1. Klik op [!UICONTROL Labs] in het scherm **[!UICONTROL Launch]** voor het prototype dat u wilt zien. Wanneer het prototype wordt gestart, ziet u de naam linksboven in de prototypeomgeving.
+1. Op de [!UICONTROL Labs] scherm, klikken **[!UICONTROL Launch]** voor het prototype dat u wilt zien. Wanneer het prototype wordt gestart, ziet u de naam linksboven in de prototypeomgeving.
 
    ![prototypenaam](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
-1. Bekijk een video die het prototype markeert door op **[!UICONTROL Watch Video]** in de rechterbovenhoek van het scherm te klikken. Klik **[!UICONTROL Close]** wanneer de video wordt voltooid.
+1. Bekijk een video die het prototype markeert door op **[!UICONTROL Watch Video]** in de rechterbovenhoek van het scherm. Klikken **[!UICONTROL Close]** wanneer de video is voltooid.
 
    ![opties voor voorvertoningen](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
@@ -53,19 +53,19 @@ Een prototype starten en evalueren:
 
 ## Feedback geven
 
-1. Klik **[!UICONTROL Give Feedback]** om terugkoppelen in het berichtvakje op om het even welk punt te verstrekken wanneer het werken met het prototype.
+1. Klikken **[!UICONTROL Give Feedback]** om feedback te geven in het berichtvenster wanneer u met het prototype werkt.
 
    ![feedback_box](assets/give_feedback.png)
 
-1. Klik **[!UICONTROL Submit]** om uw terugkoppelen te verzenden.
+1. Klikken **[!UICONTROL Submit]** om feedback te verzenden.
 
-1. Als u een ander prototype wilt uitproberen of de prototypeomgeving wilt afsluiten, klikt u op **[!UICONTROL Leave Prototype]** rechtsboven in het scherm en voltooit u de korte enquête naar het prototype. Eventuele wijzigingen die in een prototypeproject worden aangebracht, gaan verloren wanneer de prototypeomgeving wordt verlaten.
+1. Als u een ander prototype wilt proberen of de prototypeomgeving wilt afsluiten, klikt u op **[!UICONTROL Leave Prototype]** in de rechterbovenhoek van het scherm en voltooi de korte enquête naar het prototype. Eventuele wijzigingen die in een prototypeproject worden aangebracht, gaan verloren wanneer de prototypeomgeving wordt verlaten.
 
    ![nieuw feedbackvak](assets/short-survey.png)
 
-1. Klik op **[!UICONTROL Submit]** om terug te keren naar de hoofdportal voor voorvertoningen.
+1. Klikken **[!UICONTROL Submit]** om terug te keren naar de hoofdportal Voorvertoningen.
 
 ## Aanvullende informatie
 
-* Sommige prototypen in [!UICONTROL Labs] worden Adobe Analytics-functies, andere wellicht niet. Je feedback geeft de beslissing, dus bekijk de prototypen en laat Adobe weten hoe waardevol je ze vindt.
+* Sommige prototypen binnen [!UICONTROL Labs] worden Adobe Analytics-functies, andere wellicht niet. Je feedback geeft de beslissing, dus bekijk de prototypen en laat Adobe weten hoe waardevol je ze vindt.
 * Labs is beschikbaar voor alle SKU-rechten.

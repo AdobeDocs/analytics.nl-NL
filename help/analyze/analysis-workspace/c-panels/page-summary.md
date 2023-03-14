@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ U kunt de [!UICONTROL Page summary] met deze invoerinstellingen:
 | Segment (of andere component) dropzone | U kunt segmenten of andere componenten slepen en neerzetten om de resultaten van het deelvenster verder te filteren. |
 | Pagina-dimensie-item | Selecteer in de vervolgkeuzelijst het item Paginadimensie waarvan u de belangrijkste statistieken wilt bekijken. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Klikken **[!UICONTROL Build]** om het deelvenster samen te stellen.
 
@@ -55,7 +55,7 @@ De [!UICONTROL Page summary] retourneert een uitgebreide set metrische gegevens 
 | [!UICONTROL Exits] | De [!UICONTROL Exits] Met de metrische waarde wordt aangegeven hoe vaak een bepaald dimensie-item wordt vastgelegd als de laatste waarde in een bezoek. |
 | [!UICONTROL Flow] | Een stroomdiagram met de geselecteerde pagina als brandpunt. U kunt verder naar de gegevens gaan, net als in alle andere [Stroomdiagram](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Het deelvenster Paginaoverzicht](assets/page-sum1.png)
 

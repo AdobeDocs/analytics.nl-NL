@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 4%
+source-wordcount: '227'
+ht-degree: 3%
 
 ---
 
@@ -32,8 +32,8 @@ A: Nee, al uw instellingen, inclusief verificatie-instellingen, blijven werken.
 
 ## Upgradeinstructies {#section_73B8110A619549189A30079735E81867}
 
-1. Meld u aan bij de huidige versie van Report Builder.
-1. Ga naar **[!UICONTROL Options]** menu om aan de recentste versie te bevorderen. Het huidige versienummer wordt onder in het dialoogvenster Opties weergegeven.
+1. Meld u aan bij uw huidige versie van Report Builder.
+1. Ga naar de **[!UICONTROL Options]** voor een upgrade naar de meest recente versie. Het huidige versienummer wordt onder in het dialoogvenster Opties weergegeven.
 
    ![](assets/upgrade.png)
 
@@ -43,8 +43,8 @@ A: Nee, al uw instellingen, inclusief verificatie-instellingen, blijven werken.
    >
    >Als deze knop grijs wordt weergegeven, is er geen nieuwe versie van Report Builder beschikbaar.
 
-1. Selecteer optioneel het selectievakje **[!UICONTROL Update when a new version is available]**. In de toekomst wordt het updateproces automatisch gestart wanneer een nieuwe versie beschikbaar wordt.
-1. Klik **[!UICONTROL Next >]** wanneer het instellingsscherm verschijnt.
+1. Selecteer optioneel de optie **[!UICONTROL Update when a new version is available]** selectievakje. In de toekomst wordt het updateproces automatisch gestart wanneer een nieuwe versie beschikbaar wordt.
+1. Klik op **[!UICONTROL Next >]**.
 
    ![](assets/setup.png)
 
@@ -56,5 +56,5 @@ De nieuwste versie van Report Builder kunt u altijd ophalen vanuit Adobe Analyti
 
 1. Meld u aan bij Adobe Analytics en ga naar **[!UICONTROL Tools]**.
 1. Klik op **[!UICONTROL Report Builder]**.
-1. Selecteer op het scherm **[!UICONTROL Overview]** de 32-bits of 64-bits versie.
+1. Op de **[!UICONTROL Overview]** selecteert u de 32-bits of 64-bits versie.
 1. Klik op **[!UICONTROL Download Now!]**.

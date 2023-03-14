@@ -6,7 +6,7 @@ feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ De [!UICONTROL Annotations] de manager toont u alle annotaties u bezit die aan a
 | [!UICONTROL Shared with] | Hier wordt weergegeven met hoeveel personen of groepen u de annotatie hebt gedeeld. Klik voor meer details. |
 | [!UICONTROL Date Modified] | Geeft de datum en tijd weer waarop de annotatie voor het laatst is gewijzigd. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Annotaties bewerken
 
@@ -78,4 +78,4 @@ Selecteer slechts één of meerdere annotaties en de bar van de Taak verschijnt.
 | [!UICONTROL Export to CSV] | Exporteer de annotatiedefinitie naar een CSV-bestand. |
 | [!UICONTROL Filter] (linkerspoor) | Filteren op tags, rapportsuite, eigenaars en andere filters (Mijne, Goedgekeurd, Favorieten, Gedeeld met mij en Alles tonen). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: a0bed55f-042c-4963-b7e5-7a5369bba48e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 10%
+source-wordcount: '109'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ Activity Map wordt ondersteund door de volgende webbrowsers.
 |--- |--- |
 | Internet Explorer | Laatste versie |
 | Firefox | Laatste versie |
-| Chroom | Laatste versie. Opmerking:  De Activity Map Chrome-plug-in is momenteel alleen een plug-in voor de ontwikkelaarsmodus. Wanneer u deze plug-in start, krijgt u een bericht dat u aanmoedigt om de extensies in de ontwikkelmodus uit te schakelen. Dit bericht wordt telkens weergegeven wanneer de plug-in wordt gestart. |
+| Chroom | Laatste versie. Opmerking: De Activity Map Chrome-plug-in is momenteel alleen een plug-in voor de ontwikkelaarsmodus. Wanneer u deze plug-in start, krijgt u een bericht dat u aanmoedigt om de extensies in de ontwikkelmodus uit te schakelen. Dit bericht wordt telkens weergegeven wanneer de plug-in wordt gestart. |
 
 >[!NOTE]
 >

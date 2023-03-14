@@ -20,7 +20,7 @@ U kunt gegevens van specifieke IP adressen, zoals interne website activiteiten, 
 >
 >Hits die door IP adres worden uitgesloten worden gefactureerd [serveraanroepen](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html).
 
-U kunt jokertekenindicatoren (*) gebruiken om een bereik van adressen uit te sluiten. Bijvoorbeeld: `[!DNL 0.0.*.0]` zou alle IP adressen tussen uitsluiten `[!DNL 0.0.0.0]` en `[!DNL 0.0.255.0]`. U kunt tot 50 verschillende IP adressen uitsluiten.
+U kunt jokertekens gebruiken (&#42;) om een bereik van adressen uit te sluiten. Bijvoorbeeld: `[!DNL 0.0.*.0]` zou alle IP adressen tussen uitsluiten `[!DNL 0.0.0.0]` en `[!DNL 0.0.255.0]`. U kunt tot 50 verschillende IP adressen uitsluiten.
 
 >[!TIP]
 >
@@ -30,4 +30,4 @@ U kunt jokertekenindicatoren (*) gebruiken om een bereik van adressen uit te slu
 
 Als IP de verwarring wordt toegelaten, gebeurt IP de uitsluiting alvorens het IP adres wordt verduisterd, zodat te hoeven de klanten om het even wat niet te veranderen wanneer zij IP verduistering toelaten.
 
-Als het laatste octet wordt verwijderd, wordt dat gedaan vóór IP het filtreren. Als dusdanig, wordt het laatste octet vervangen met 0, en IP de uitsluitingsregels zouden moeten worden bijgewerkt om IP adressen met nul op het eind aan te passen. Overeenkomende * moet overeenkomen met 0.
+Als het laatste octet wordt verwijderd, wordt dat gedaan vóór IP het filtreren. Als dusdanig, wordt het laatste octet vervangen met 0, en IP de uitsluitingsregels zouden moeten worden bijgewerkt om IP adressen met nul op het eind aan te passen. Overeenkomend &#42; moet overeenkomen met 0.

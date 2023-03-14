@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 5%
+source-wordcount: '224'
+ht-degree: 4%
 
 ---
 
@@ -30,11 +30,11 @@ Met vooraf ingestelde datums kunt u veelgebruikte datums of datums selecteren di
   </tr> 
   <tr> 
    <td colname="col1"> <p> Opgeslagen datumsjablonen </p> </td> 
-   <td colname="col2"> <p>Hier worden de sjablonen voor het datumbereik weergegeven die de huidige gebruiker heeft gemaakt. U kunt datums opslaan in het formulier <span class="wintitle"> Vaste datums</span>. Als u een datummalplaatje voor gebruik met alle rapportreeksen bewaarde, moet u <span class="wintitle"> tonen Bewaarde Malplaatjes van de Datum voor Alle Reeksen van het Rapport </span> toelaten om het te selecteren. </p> <p>Zie <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Vaste datums en Opgeslagen datumbereiken</a>. </p> </td> 
+   <td colname="col2"> <p>Hier worden de sjablonen voor het datumbereik weergegeven die de huidige gebruiker heeft gemaakt. U kunt datums opslaan op het tabblad <span class="wintitle"> Vaste datums</span> formulier. Als u een datumsjabloon hebt opgeslagen voor gebruik met alle rapportsuites, moet u <span class="wintitle"> Opgeslagen datumsjablonen weergeven voor alle rapportsets</span> om het te selecteren. </p> <p>Zie <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Vaste datums en Opgeslagen datumbereiken</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen datumbereik voor alle rapportsets tonen </p> </td> 
-   <td colname="col2"> <p> De malplaatjes van vertoningen die aan alle rapportsuites ter beschikking zijn gesteld. Klik op <span class="wintitle"> Bewerken</span> om opgeslagen datumbereiken te beheren of om het momenteel geselecteerde opgeslagen datumbereik een andere naam te geven. </p> <p>Zie <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Vaste datums en Opgeslagen datumbereiken</a> voor meer informatie. </p> </td> 
+   <td colname="col2"> <p> De malplaatjes van vertoningen die aan alle rapportsuites ter beschikking zijn gesteld. Klikken <span class="wintitle"> Bewerken</span> om opgeslagen datumbereiken te beheren of om het momenteel geselecteerde opgeslagen datumbereik een andere naam te geven. </p> <p>Zie <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Vaste datums en Opgeslagen datumbereiken</a> voor meer informatie . </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Implementeer Adobe Analytics met Dynamisch tagbeheer.
+description: Implementeer Adobe Analytics met Dynamic Tag Management.
 keywords: Analyseimplementatie;implementatiemethode;dynamisch tagbeheer;dtm
 title: Overzicht DTM-implementatie
 feature: Implementation Basics
@@ -13,4 +13,4 @@ ht-degree: 0%
 
 # Overzicht DTM-implementatie
 
-Dynamisch tagbeheer is ingesteld op zonsondergang. Gebruik [tags in Adobe Experience Platform](/help/implement/launch/overview.md) om Adobe Analytics uit te voeren.
+Dynamic Tag Management is zonsondergang. Gebruik [tags in Adobe Experience Platform](/help/implement/launch/overview.md) om Adobe Analytics uit te voeren.

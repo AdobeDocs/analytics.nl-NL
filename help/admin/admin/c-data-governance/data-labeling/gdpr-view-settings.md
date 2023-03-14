@@ -5,7 +5,7 @@ feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '832'
 ht-degree: 38%
 
 ---
@@ -37,7 +37,7 @@ De **[!UICONTROL Privacy Labeling for Data Governance]** biedt een overzicht van
 | **[!UICONTROL Namespace]** | Wanneer u een variabele als ID-DEVICE of ID-PERSON labelt, wordt u gevraagd om een naamruimte op te geven. U kunt een eerder gedefinieerde naamruimte gebruiken of een nieuwe naamruimte definiëren. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#provide-namespace) |
 | **[!UICONTROL Category]** | Verwijst naar type component, zoals standaardcomponent, conversievariabele, enz. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Privacy-labels kopiëren naar een rapportsuite  {#copy-to-rs}
 

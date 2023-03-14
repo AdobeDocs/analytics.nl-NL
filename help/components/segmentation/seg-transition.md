@@ -5,7 +5,7 @@ feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1443'
 ht-degree: 1%
 
 ---
@@ -145,7 +145,7 @@ De volgende lijst bevat een lijst van afmetingen die in de Bouwer van het Segmen
 | Diepte bezoeken | Padlengte | - |
 | Postcode | Postcode | - |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Veranderingen in op koord-Gebaseerde Dimension die Bekende Waarden hebben {#string-based-dims}
 

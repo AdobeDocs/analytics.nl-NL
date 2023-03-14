@@ -63,7 +63,7 @@ Sommige [!DNL Analytics] Met functies kunt u wel gebeurtenissen gebruiken, maar 
 * [!UICONTROL Current Data] rapporten
 * [!DNL Analytics] for [!DNL Target]
 
-## Gereedschappen {#section_D65E9C067E9C45E1A50DD30F50561BB2}
+## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
 Hier volgt een kort overzicht van het [!UICONTROL Calculated Metrics] gereedschappen:
 

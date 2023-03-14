@@ -17,7 +17,7 @@ ht-degree: 87%
 >[!IMPORTANT]
 >Meer Analysis Workspace-updates zijn toegevoegd aan de [Updates van Adobe Analytics-documentatie](/help/release-notes/doc-updates.md) pagina.
 
-Zie [Opmerkingen bij de release van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html) voor updates van het overkoepelende product.
+Zie [Opmerkingen bij de release van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl) voor updates van het overkoepelende product.
 
 ## Maart 2021
 

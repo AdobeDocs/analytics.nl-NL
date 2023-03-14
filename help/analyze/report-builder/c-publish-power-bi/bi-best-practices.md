@@ -11,7 +11,7 @@ ht-degree: 2%
 
 ---
 
-# Aanbevolen procedures
+# Best practices
 
 ## Verwijzingen behouden in Power BI-visualisaties {#section_7ED14FE64D974681A57EB91EF1B47CB6}
 

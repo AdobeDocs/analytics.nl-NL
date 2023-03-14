@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 7%
+source-wordcount: '201'
+ht-degree: 6%
 
 ---
 
@@ -22,11 +22,11 @@ Als u bijvoorbeeld een aanvraag vernieuwt die afmetingen of metriek bevat waarto
 
 ![](assets/arb_restrc_perm.png)
 
-Volg deze instructies voor **each** werkboek van Report Builder dat u handhaaft:
+Volg deze instructies voor **elk** Report Builder werkboek dat u handhaaft:
 
 1. Open het werkboek.
 1. Alle aanvragen vernieuwen.
-1. Als u wordt ertoe aangezet met een fout van de Toestemming van de Toegang van de Gebruiker, klik **[!UICONTROL Open CSV File]** om toegang tot de lijst van beperkte toestemmingsfouten te krijgen.
+1. Als u wordt veroorzaakt met een fout van de Toestemming van de Toegang van de Gebruiker, klik **[!UICONTROL Open CSV File]** om toegang te krijgen tot de lijst met beperkte machtigingsfouten.
 1. Maak een bestand met de naam AllRestrictedPermissionErrors.xlsx en kopieer/plak de lijst met beperkte machtigingsfouten uit het CSV-bestand in dit bestand.
 1. Sluit het werkboek van de Report Builder.
 

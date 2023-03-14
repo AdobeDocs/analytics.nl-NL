@@ -5,11 +5,11 @@ exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 58%
+ht-degree: 61%
 
 ---
 
-# Analyseintegratie
+# Analytics Integration
 
 ![Banner](../../assets/doc_banner_integrate.png)
 
@@ -38,7 +38,7 @@ Hier volgt een video-overzicht van Adobe Analytics:
 
 ## Belangrijke bronnen voor Analytics
 
-* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
 * [Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

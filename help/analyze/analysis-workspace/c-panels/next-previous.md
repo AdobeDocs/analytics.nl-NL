@@ -3,13 +3,13 @@ description: Een deelvenster waarin de volgende of vorige dimensie-items voor ee
 title: Volgend of vorig deelvenster met items
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
+source-git-commit: c289f4aa1e49e428182fed9a871a1f90dd1f5c42
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '428'
 ht-degree: 1%
 
 ---
-
 
 # Volgend of vorig deelvenster met items
 
@@ -24,7 +24,7 @@ U hebt vanuit [!UICONTROL Reports] of binnen [!UICONTROL Workspace].
 | [!UICONTROL Reports] | <ul><li>Het deelvenster is al neergezet in een project.</li><li>De linkerspoorstaaf is samengevouwen.</li><li>Als u [!UICONTROL Next page], zijn de standaardinstellingen al toegepast, zoals [!UICONTROL Page] for [!UICONTROL Dimension]en de bovenste pagina als de [!UICONTROL Dimension Item], [!UICONTROL Next] for [!UICONTROL Direction] en [!UICONTROL Visit] for [!UICONTROL Container]. U kunt al deze instellingen wijzigen.</li></ul>![Volgende/Vorige deelvenster](assets/next-previous.png) |
 | Werkruimte | Maak een nieuw project en selecteer het deelvensterpictogram in de linkerspoorstaaf. Sleep vervolgens de [!UICONTROL Next or previous item] boven de tabel voor vrije vorm. Let erop dat de [!UICONTROL Dimension] en [!UICONTROL Dimension Item] velden worden leeg gelaten. Selecteer een dimensie in de vervolgkeuzelijst. [!UICONTROL Dimension items] worden gevuld op basis van de [!UICONTROL dimension] u hebt gekozen. Het bovenste dimensie-item wordt toegevoegd, maar u kunt een ander item selecteren. De standaardwaarden zijn Next en Visitor. U kunt deze ook wijzigen.<p>![Volgende/Vorige deelvenster](assets/next-previous2.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Deelvensterinvoer {#Input}
 
@@ -38,7 +38,7 @@ U kunt de [!UICONTROL Next or previous item] met deze invoerinstellingen:
 | Richting | Geef op of u op zoek bent naar [!UICONTROL Next] of de [!UICONTROL Previous] dimensie-item. |
 | Container | [!UICONTROL Visit] of [!UICONTROL Visitor] (gebrek) bepaalt het werkingsgebied van uw vraag. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Klikken **[!UICONTROL Build]** om het deelvenster samen te stellen.
 
@@ -56,4 +56,4 @@ De [!UICONTROL Next or previous item] retourneert een uitgebreide set gegevens e
 | Samenvattingsnummer | Samenvattingsaantal op hoog niveau van alle volgende of vorige instanties van afmetingspunten voor de huidige maand (tot nu toe). |
 | Vrije-vormentabel | Hiermee geeft u de volgende (of vorige) items weer op basis van het gekozen dimensie-item in een tabelindeling. Dit waren bijvoorbeeld de populairste pagina&#39;s (op voorvallen) die mensen na (of vóór) de startpagina of de werkruimtenpagina hebben weergegeven. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

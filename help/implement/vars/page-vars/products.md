@@ -5,12 +5,12 @@ feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
 
-# producten
+# products
 
 De `products` met variabele tracks kunt u producten en eigenschappen bijhouden die aan deze producten zijn gekoppeld. Deze variabele wordt doorgaans ingesteld op afzonderlijke productpagina&#39;s, winkelwagenpagina&#39;s en pagina&#39;s met aankoopbevestiging. Dit is een variabele met meerdere waarden. Dit betekent dat u meerdere producten in dezelfde hit kunt verzenden en dat Adobe de waarde parseert in verschillende dimensieitems.
 

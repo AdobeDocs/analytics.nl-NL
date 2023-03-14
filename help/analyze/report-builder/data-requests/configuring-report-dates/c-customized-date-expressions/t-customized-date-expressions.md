@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b3bdc07e-5c2d-4be3-86c9-b4b7380be0f6
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 4%
+source-wordcount: '222'
+ht-degree: 3%
 
 ---
 
@@ -20,14 +20,14 @@ We raden u aan naar een kalender te verwijzen wanneer u expressies maakt om het 
 
 **Aangepaste expressies inschakelen**
 
-Dit is een voorbeeld met **[!UICONTROL Rolling Dates]**.
+Dit is een voorbeeld van **[!UICONTROL Rolling Dates]**.
 
-1. Selecteer **[!UICONTROL Rolling Dates]** in [!UICONTROL Request Wizard: Step 1] in plaats van **[!UICONTROL Preset Dates]** te gebruiken.
+1. Op de [!UICONTROL Request Wizard: Step 1]in plaats van **[!UICONTROL Preset Dates]**, selecteert u **[!UICONTROL Rolling Dates]**.
 
    ![](assets/rolldates1.png)
 
 1. Schakel over naar wekelijks, maandelijks, driemaandelijks of jaarlijks rolbaar. U ziet hoe de opties hieronder veranderen.
-1. Klik op **[!UICONTROL Show Advanced Options]** voor meer aanpassingsopties.
+1. Klik voor meer aanpassingsopties op **[!UICONTROL Show Advanced Options]**.
 
    ![](assets/rolldates2.png)
 
@@ -35,7 +35,7 @@ Dit is een voorbeeld met **[!UICONTROL Rolling Dates]**.
 
    ![](assets/rolldatesfor3.png)
 
-1. **[!UICONTROL Customize Expression]** inschakelen. Door opties te selecteren onder **[!UICONTROL Rolling Dates]**, kunt u de syntaxis voor de uitdrukkingen van de douanedatum gemakkelijk zien.
+1. Inschakelen **[!UICONTROL Customize Expression]**. Door opties onder te selecteren **[!UICONTROL Rolling Dates]** kunt u de syntaxis voor aangepaste datumexpressies gemakkelijk zien.
 
    ![](assets/rolldatesfor5.png)
 

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Deze visualisatie heeft betrekking op een aantal veelvoorkomende gebruiksgevalle
    | **[!UICONTROL Comparison date range]** | Het datumbereik waarmee u het primaire datumbereik wilt vergelijken. |
    | **[!UICONTROL Segment (optional)]** | Elk segment waarin u specifiek geïnteresseerd bent voor deze samenvatting. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klik op **[!UICONTROL Build]**.
 

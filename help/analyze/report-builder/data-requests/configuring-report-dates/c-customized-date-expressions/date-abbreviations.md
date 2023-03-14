@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: f2d19f3f-c663-4fa4-b6c1-fe0dcdfffe63
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 4%
+source-wordcount: '146'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Tijdafkortingen verwijzen naar een bepaalde datum waarop een periode begint, niet naar een bereik van dagen. Een bereik van dagen wordt uitgedrukt door een begin- en einddatum voor twee tijdafkortingen (of termen) op te geven.
 
-Zie [Syntaxisnotities](/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D) voor informatie over het gebruik van de juiste syntaxis.
+Voor informatie over het gebruik van de juiste syntaxis raadpleegt u [Syntaxisnotities](/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D).
 
 * cd = huidige datum (vandaag)
 * cw = huidige week (eerste dag van de huidige week)
@@ -24,10 +24,10 @@ Zie [Syntaxisnotities](/help/analyze/report-builder/data-requests/configuring-re
 * cq = huidig kwartaal (eerste dag van het lopende kwartaal)
 * cy = huidig jaar (eerste dag van huidig jaar)
 
-In de volgende lijst, *[UNIT]* wijst op om het even welke geheelvermenigvuldiger.
+In de volgende lijst: *[EENHEID]* Hiermee wordt een geheel getal aangegeven.
 
-* [] UNITd = dag
-* [] UNITw = week
-* [] UNITm = maand
-* [] UNITq = kwartaal
-* [] UNITy = jaar
+* [EENHEID] d = dag
+* [EENHEID] w = week
+* [EENHEID] m = maand
+* [EENHEID] q = kwartaal
+* [EENHEID] y = jaar

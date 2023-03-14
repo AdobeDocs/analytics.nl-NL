@@ -6,7 +6,7 @@ exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -43,7 +43,7 @@ In deze handleiding worden veel algemene mogelijkheden van de Adobe Admin Consol
 
 ## Belangrijke bronnen voor Analytics
 
-* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Contact opnemen met de klantenservice](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=nl#support)
 * [Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

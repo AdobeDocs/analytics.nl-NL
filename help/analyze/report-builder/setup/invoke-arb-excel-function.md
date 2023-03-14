@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '476'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ Hier volgt een tabel met de lijst met belichte functies:
 | string AsyncRefreshWorksheetAltTextParam(); | Hiermee vernieuwt u alle Report Builder-aanvragen in de specifieke werkbladnaam die via de alternatieve tekst van MS Form Control is doorgegeven |
 | string GetLastRunStatus() | Retourneert een tekenreeks die de status van de laatste uitvoering beschrijft. |
 
-Ga naar [!UICONTROL Formulas] > [!UICONTROL Insert Function] om deze functies binnen de rapportbuilder te openen. Onder aan de lijst met categorieën vindt u Adobe.ReportBuilder.Bridge:
+Ga naar [!UICONTROL Formulas] > [!UICONTROL Insert Function]. Onder aan de lijst met categorieën vindt u Adobe.ReportBuilder.Bridge:
 
 ![](assets/arb_functions.png)
 
@@ -69,11 +69,11 @@ De twee functies die een parameter nemen, kunnen met de Controle van het Formaat
 
    ![](assets/format_control.png)
 
-1. Klik op het tabblad [!UICONTROL Alt Text].
+1. Klik op de knop [!UICONTROL Alt Text] tab.
 
    ![](assets/alt_text.png)
 
-1. Voer onder [!UICONTROL Alternative text] het celbereik in dat u wilt vernieuwen.
-1. Open de lijst van rapportbuilderparameters onder [!UICONTROL Formulas] > [!UICONTROL Insert Function] [!UICONTROL Adobe.ReportBuilder.Bridge].
+1. Onder [!UICONTROL Alternative text], voert u het celbereik in dat u wilt vernieuwen.
+1. Open de lijst van rapportbuilderparameters onder [!UICONTROL Formulas] > [!UICONTROL Insert Function]> [!UICONTROL Adobe.ReportBuilder.Bridge].
 
 1. Kies een van de twee functies die eindigen met AltTextParam en klik op **[!UICONTROL OK]**.

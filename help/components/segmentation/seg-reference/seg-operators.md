@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Met de Segment Builder kunt u waarden vergelijken en beperken met behulp van geselecteerde operatoren. Er zijn drie categorieën operatoren: Standaard, Data Warehouse en Afzonderlijke telling.
 
-Het enige ondersteunde jokerteken is de asterisk: *. Als u naar * moet zoeken, kunt u het met backslash ontsnappen.
+Het enige ondersteunde jokerteken is de asterisk: &#42;. Als u wilt zoeken naar &#42;En u kunt er een backslash aan toevoegen.
 
-**Voorbeeld**: Stel dat je een paginanaam hebt met de naam &quot;Mijn coole product&quot;. De segmentregel &quot;Paginanaam komt overeen met My*product&quot; komt overeen met de bovenstaande paginanaam. De regel &quot;Paginanaam komt echter overeen met Mijn\\*product&quot; komt alleen overeen met de paginanaam &quot;Mijn*Product&quot;.
+**Voorbeeld**: Stel dat je een paginanaam hebt met de naam &quot;Mijn coole product&quot;. De segmentregel &quot;Paginanaam komt overeen met Mijn&#42;product&quot; komt overeen met de bovenstaande paginanaam. De regel &quot;Paginanaam komt echter overeen met Mijn\\\&#42;product&quot; komt alleen overeen met de paginanaam &quot;Mijn&#42;Product&quot;.
 
 ## Standaardoperatoren
 

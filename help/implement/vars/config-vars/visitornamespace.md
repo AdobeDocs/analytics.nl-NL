@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# bezoekerNamespace
+# visitorNamespace
 
 >[!IMPORTANT]
 >

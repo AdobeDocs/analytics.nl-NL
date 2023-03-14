@@ -3,7 +3,7 @@ title: Implementatiemethoden vergelijken
 description: Zie de voordelen van elke methode die gegevens naar Adobe Analytics verzendt.
 source-git-commit: 2e69321404237213c6929f3fb0c330575d8a90db
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
@@ -20,4 +20,4 @@ Zie hoe elke methode om Adobe Analytics uit te voeren met elkaar vergelijkt. U k
 | Hoe A4T wordt behandeld | A4T vraag omvat in klappen die naar Adobe worden verzonden | A4T vraag omvat in klappen die naar Adobe worden verzonden | A4T-aanroepen worden verzonden als afzonderlijke treffers | A4T-aanroepen worden verzonden als afzonderlijke treffers |
 | Contextdata | Gebruiken `s.contextData`. | Gebruiken `s.contextData` in aangepaste codeblokken | Alle niet-toegewezen velden worden automatisch verzonden als `a.x.*` contextgegevensvariabelen. | Alle niet-toegewezen velden worden automatisch verzonden als `a.x.*` contextgegevensvariabelen. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

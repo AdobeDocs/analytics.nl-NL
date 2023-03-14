@@ -4,10 +4,9 @@ title: Overzicht van Data Warehouse
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
@@ -30,9 +29,9 @@ Data Warehouse kunnen een onbeperkt aantal rijen verwerken in één aanvraag voo
 >
 >Bij segmentering op geclassificeerde waarden behandelen Analysis Workspace en Data Warehouse &#39;ongespecificeerde&#39; waarden anders. &#39;Niet opgegeven&#39; in Workspace verwijst naar waarden die niet zijn geclassificeerd, terwijl &#39;Niet opgegeven&#39; in Data Warehouse verwijst naar waarden die u hebt geclassificeerd als &#39;Niet opgegeven&#39;.
 
-## Beschrijvingen {#section_F21C78ED36884C389C852E876AF5CDE8} voor verzoeken om Data Warehouse
+## Beschrijvingen van Data Warehouse-aanvragen {#section_F21C78ED36884C389C852E876AF5CDE8}
 
-In deze tabel worden de velden en opties op het tabblad [!UICONTROL Data Warehouse Request] beschreven.
+In deze tabel worden de velden en opties in het dialoogvenster [!UICONTROL Data Warehouse Request] tab.
 
 <table id="table_7325A2466866460E8B0AF7D696152713"> 
  <thead> 
@@ -57,11 +56,11 @@ In deze tabel worden de velden en opties op het tabblad [!UICONTROL Data Warehou
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Beschikbare segmenten</span> </td> 
-   <td colname="col2"> <p>Hiermee kunt u het deel van de bezoekerspopulatie selecteren dat u wilt onderzoeken en complexe segmenten genereren. U kunt pre-gevormde segmenten laden, nieuwe segmenten tot stand brengen, en de componenten van het opslagsegment in een bibliotheek aan gebruik in de bouw van extra segmenten. </p> <p>U kunt nu segmenten stapelen. Wanneer het selecteren van veelvoudige segmenten, tonen het voorproefgebied, de Manager van het Verzoek, en popup van het Detail van het Verzoek een komma-gescheiden lijst van namen (b.v., Segment1, Segment2). </p> <p>Zie de <a href="/help/components/segmentation/seg-home.md"> Gids van de Segmentatie</a> voor meer informatie. </p> <p>Opmerking:  U kunt niet zowel een segmentfilter als een uitsplitsing op hetzelfde segment opnemen, in hetzelfde Data Warehouse-rapport. Dit leidt tot een fout. </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u het deel van de bezoekerspopulatie selecteren dat u wilt onderzoeken en complexe segmenten genereren. U kunt pre-gevormde segmenten laden, nieuwe segmenten tot stand brengen, en de componenten van het opslagsegment in een bibliotheek aan gebruik in de bouw van extra segmenten. </p> <p>U kunt nu segmenten stapelen. Wanneer het selecteren van veelvoudige segmenten, tonen het voorproefgebied, de Manager van het Verzoek, en popup van het Detail van het Verzoek een komma-gescheiden lijst van namen (b.v., Segment1, Segment2). </p> <p>Zie de <a href="/help/components/segmentation/seg-home.md"> Segmenteringsgids</a> voor meer informatie . </p> <p>Opmerking: U kunt niet zowel een segmentfilter als een uitsplitsing op hetzelfde segment opnemen, in hetzelfde Data Warehouse-rapport. Dit leidt tot een fout. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Uitsplitsingen</span> </td> 
-   <td colname="col2"> <p>Hiermee kunt u gegevens categoriseren met behulp van uitsplitsingen. Segmenten en indelingen verschillen in die zin dat een segment gegevens uit een gegevensset filtert, terwijl een uitsplitsing gegevens over alle geldige waarden voor de uitsplitsing onderverdeelt. </p> U kunt een rapport door één of meerdere segmenten ook onderverdelen. Nochtans, kunt u niet zowel een segmentfilter als een mislukking op het zelfde segment, in het zelfde rapport van de Data Warehouse omvatten. Dit leidt tot een fout. <p> Gebruik bijvoorbeeld segmenten om een geslacht uit de gegevensset te verwijderen en gebruik een indeling om gegevens te zien gescheiden door geslacht. </p> <p>Wanneer een verzoek van de Data Warehouse met veelvoudige multi-waardedimensies (b.v., diverse Mobiele Rapporten) wordt voorgelegd, kan een exponentieel aantal rijen uit één enkele klap worden geproduceerd. Het aantal rijen dat uit één enkele klap kan worden uitgevoerd wordt beperkt tot 100 (eerder 1.000). </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u gegevens categoriseren met behulp van uitsplitsingen. Segmenten en indelingen verschillen in die zin dat een segment gegevens uit een gegevensset filtert, terwijl een indeling gegevens over alle geldige waarden voor de uitsplitsing onderverdeelt. </p> U kunt een rapport door één of meerdere segmenten ook onderverdelen. Nochtans, kunt u niet zowel een segmentfilter als een mislukking op het zelfde segment, in het zelfde rapport van de Data Warehouse omvatten. Dit leidt tot een fout. <p> Gebruik bijvoorbeeld segmenten om een geslacht uit de gegevensset te verwijderen en gebruik een indeling om gegevens te zien gescheiden door geslacht. </p> <p>Wanneer een verzoek van de Data Warehouse met veelvoudige multi-waardedimensies (b.v., diverse Mobiele Rapporten) wordt voorgelegd, kan een exponentieel aantal rijen uit één enkele klap worden geproduceerd. Het aantal rijen dat uit één enkele klap kan worden uitgevoerd wordt beperkt tot 100 (eerder 1.000). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Cijfers</span> </td> 
@@ -73,7 +72,7 @@ In deze tabel worden de velden en opties op het tabblad [!UICONTROL Data Warehou
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Levering plannen</span> </td> 
-   <td colname="col2"> <p>Hiermee kunt u aanvragen voor automatische levering met geselecteerde intervallen plannen, of als een eenmalig rapport. Als u de standaardindeling gebruikt, wordt het rapport in een e-mail verzonden als CSV-bestand. </p> <p>Als u het datumbereik wilt toevoegen, neemt u <span class="filepath"> %R</span> op in de bestandsnaam. Deze waarde vertegenwoordigt de datumwaarden die in het rapport worden gevraagd. Als u bijvoorbeeld gegevens aanvraagt van 1 mei 2013 tot en met 7 mei 2013, wordt op de <span class="filepath"> %R</span> een bestandsnaam weergegeven met daarin het datumbereik 20130501 - 20130507. </p> </td> 
+   <td colname="col2"> <p>Hiermee kunt u aanvragen voor automatische levering met geselecteerde intervallen plannen, of als een eenmalig rapport. Als u de standaardindeling gebruikt, wordt het rapport in een e-mail verzonden als CSV-bestand. </p> <p>Als u het datumbereik wilt toevoegen, neemt u <span class="filepath"> %R</span> in de bestandsnaam. Deze waarde vertegenwoordigt de datumwaarden die in het rapport worden gevraagd. Als u bijvoorbeeld gegevens aanvraagt van 1 mei 2013 tot en met 7 mei 2013, <span class="filepath"> %R</span> bevat een bestandsnaam met het datumbereik 20130501 - 20130507. </p> </td> 
   </tr> 
  </tbody> 
 </table>

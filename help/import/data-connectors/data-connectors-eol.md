@@ -10,9 +10,9 @@ ht-degree: 3%
 
 ---
 
-# Einde van levensduur voor Adobe Data Connectors
+# Einde van de levensduur voor Adobe Data Connectors
 
-**19 augustus 2021** Adobe heeft de integratie van gegevensconnectors beëindigd. Het einde van de levensduur maakt deel uit van de levenscyclus van elk technologisch product en de Adobe is erop gericht de overgang zo naadloos mogelijk te maken voor onze klanten en partners. Veel van deze integraties zijn beschikbaar via Adobe Exchange en kunnen ook in de toekomst worden gebruikt.
+**19 augustus 2021**, Adobe heeft Data Connectors Integrations beëindigd. Het einde van de levensduur maakt deel uit van de levenscyclus van elk technologisch product en de Adobe is erop gericht de overgang zo naadloos mogelijk te maken voor onze klanten en partners. Veel van deze integraties zijn beschikbaar via Adobe Exchange en kunnen ook in de toekomst worden gebruikt.
 
 Al meer dan tien jaar streeft Adobe Analytics ernaar de beste oplossing voor web- en marketinganalyses te bieden om aan de behoeften van klanten te voldoen. Naarmate technologie en bedrijfsbehoeften evolueren, streven we ernaar voortdurend aan de hoogste standaarden te voldoen.  Helaas voldoen de API&#39;s die deze integratie mogelijk maken, niet meer aan deze normen en zijn ze niet houdbaar in de moderne Adobe Analytics-technologie-infrastructuur.
 
@@ -110,4 +110,4 @@ Neem voor aanvullende vragen of ondersteuning contact op met de klantenservice v
 
 De enige uitzondering op de datum van 1 augustus 2021 is de integratie van Adobe Campaign Classic. Deze integratie zal officieel afgekeurd worden op 17 augustus 2022.
 
-Op 1 augustus 2021 wordt Adobe Campaign Classic samen met alle andere integraties verwijderd uit de interface voor gegevensconnectors. de bestaande integratie van campagnes zal echter tot 17 augustus 2022 gegevens verzamelen en aan Adobe Analytics doorgeven. Op 17 augustus 2022 zal de integratie ophouden gegevens te verzamelen en door te geven aan Adobe Analytics. Als u deze integratie gebruikt, moet u naar de nieuwe schakelaar Campaign-Analytics vóór 17 augustus 2022 bewegen. Meer informatie in [Adobe Campaign Classic-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html).
+Op 1 augustus 2021 wordt Adobe Campaign Classic samen met alle andere integraties uit de interface van Data Connectors verwijderd. de bestaande integratie van campagnes zal echter tot 17 augustus 2022 gegevens verzamelen en aan Adobe Analytics doorgeven. Op 17 augustus 2022 zal de integratie ophouden gegevens te verzamelen en door te geven aan Adobe Analytics. Als u deze integratie gebruikt, moet u naar de nieuwe schakelaar Campaign-Analytics vóór 17 augustus 2022 bewegen. Meer informatie in [Adobe Campaign Classic-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html).

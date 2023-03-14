@@ -66,7 +66,7 @@ Niet alle segmenten die in de Segment Builder zijn gemaakt, zijn compatibel met 
      <li>Weekdag </li> 
      <li>Dag van het Jaar </li> 
      <li>Zakelijke eenheid voor toegang </li> 
-     <li>Item (alle Dimension die beginnen met Invoer, behalve Invoerpagina) </li> 
+     <li>Item (alle Dimension die beginnen met Invoer, behalve Itempagina) </li> 
      <li>Afsluiten (alle Dimension die beginnen met Afsluiten, behalve Koppeling afsluiten en Pagina afsluiten) </li> 
      <li>Hiërarchie (alle Dimension beginnen met hiërarchie) </li> 
      <li>Hit Depth </li> 

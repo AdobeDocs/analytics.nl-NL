@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: cdbec360-bff9-452c-9564-6b481e7175d3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 13%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
 
@@ -43,7 +43,7 @@ Stappen voor het tegenhouden van verbinding het volgen in Activity Map of Veroud
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (voorheen ClickMap bezoeker) </td> 
-   <td colname="col2"> <p>Stel de variabele <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html"  > trackInlineStats</a> in op false (dit is de standaardwaarde). De syntaxis leest als volgt: 
+   <td colname="col2"> <p>Stel de <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html"  > trackInlineStats</a> variabele aan vals (dit is het gebrek.) De syntaxis leest als volgt: 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 

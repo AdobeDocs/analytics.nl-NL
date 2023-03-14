@@ -5,12 +5,12 @@ feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
-# tijdstempel
+# timestamp
 
 De `timestamp` Met variabele wordt handmatig de tijdstempel van de hit ingesteld voor rapportsuites waarvoor tijdstempels zijn ingeschakeld.
 

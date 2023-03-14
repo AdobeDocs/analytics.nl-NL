@@ -130,7 +130,7 @@ De Merchandising eVar instance lookup voor post_product_list is verschillend van
 | 1209 | eVar110 |
 | 1210 | eVar111 |
 | 1211 | eVar112 |
-| 121 | eVar113 |
+| 1212 | eVar113 |
 | 1213 | eVar114 |
 | 1214 | eVar115 |
 | 1215 | eVar116 |
@@ -140,7 +140,7 @@ De Merchandising eVar instance lookup voor post_product_list is verschillend van
 | 1219 | eVar120 |
 | 1220 | eVar121 |
 | 1221 | eVar122 |
-| 122 | eVar123 |
+| 1222 | eVar123 |
 | 1223 | eVar124 |
 | 1224 | eVar125 |
 | 1225 | eVar126 |

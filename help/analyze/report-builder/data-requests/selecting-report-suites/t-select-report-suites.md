@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: f9fd18a6-2c03-468a-a022-9f4d263f166d
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 22%
+source-wordcount: '43'
+ht-degree: 18%
 
 ---
 
@@ -17,5 +17,5 @@ ht-degree: 22%
 Stappen om u te helpen een rapportreeks in Excel selecteren.
 
 1. Klik in Excel op **[!UICONTROL Add-Ins]**.
-1. Klik op **[!UICONTROL Create]** op de werkbalk.
-1. Selecteer in het venster [!UICONTROL Request Wizard: Step 1] een rapportsuite onder [!UICONTROL Report Suite].
+1. Klik op de werkbalk op **[!UICONTROL Create]**.
+1. In de [!UICONTROL Request Wizard: Step 1] venster, selecteer een rapportsuite onder [!UICONTROL Report Suite].

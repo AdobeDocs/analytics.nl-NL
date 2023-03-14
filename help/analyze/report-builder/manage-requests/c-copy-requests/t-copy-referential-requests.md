@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
@@ -33,10 +33,10 @@ U kunt ook aanvragen maken die verwijzen naar invoerfilters van aanvragen in ver
 1. Selecteer één cel of een reeks aangrenzende cellen die u wilt vullen met de geplakte aanvragen.
 
    Controleer of het cel- of celbereik dat u selecteert, geen andere gegevens of aanvragen bevat.
-1. Klik met de rechtermuisknop op één cel of op de bovenste cel linksboven in het bereik van cellen en selecteer **[!UICONTROL Paste Requests]**.
+1. Klik met de rechtermuisknop op één cel of op de bovenste cel linksboven in het celbereik en selecteer **[!UICONTROL Paste Requests]**.
 
-   Bij het plakken van aanvragen die een invoercel bevatten, zijn de volgende opties beschikbaar onder [!UICONTROL Paste Requests]:
+   Bij het plakken van aanvragen die een invoercel bevatten, worden de opties onder [!UICONTROL Paste Requests] omvatten:
 
-   **Absolute invoercel gebruiken:** hiermee plakt u een kopie van de aanvraag(en) en de opmaak van de geselecteerde cellen naar het plakgebied dat u markeert. De invoercel (de cel waarnaar in een van de oorspronkelijke aanvragen wordt verwezen) wordt niet geplakt. In plaats daarvan blijft de invoercel op dezelfde positie staan als voorheen.
+   **Absolute invoercel gebruiken:** Hiermee plakt u een kopie van de aanvraag(en) en de opmaak van de geselecteerde cellen in het plakgebied dat u markeert. De invoercel (de cel waarnaar in een van de oorspronkelijke aanvragen wordt verwezen) wordt niet geplakt. In plaats daarvan blijft de invoercel op dezelfde positie staan als voorheen.
 
-   **Relatieve invoercel gebruiken:** hiermee plakt u een kopie van de aanvraag(en) en de opmaak van de geselecteerde cellen naar het door u gemarkeerde plakgebied, inclusief een kopie van de invoercel. De ruimtelijke relatie tussen de aanvraag(en) en de invoercel is dezelfde als in de oorspronkelijke aanvraag(en). De nieuwe geplakte cellen hebben nu echter een kopie van de aanvragen, maar hebben in eerste instantie geen inhoud. Dit komt doordat er geen gegevens zijn gekoppeld aan de invoercel wanneer de invoercel opnieuw wordt gemaakt tijdens de plakbewerking. Als u gegevens wilt weergeven voor de nieuwe geplakte aanvraag(s), moet u een waarde in de invoercel invoeren en vervolgens de aanvraag(en) vernieuwen.
+   **Relatieve invoercel gebruiken:** Hiermee plakt u een kopie van de aanvraag(en) en de opmaak van de geselecteerde cellen in het door u gemarkeerde plakgebied, inclusief een kopie van de invoercel. De ruimtelijke relatie tussen de aanvraag(en) en de invoercel is dezelfde als in de oorspronkelijke aanvraag(en). De nieuwe geplakte cellen hebben nu echter een kopie van de aanvragen, maar hebben aanvankelijk geen inhoud. Dit komt doordat er geen gegevens zijn gekoppeld aan de invoercel wanneer de invoercel opnieuw wordt gemaakt tijdens de plakbewerking. Als u gegevens wilt weergeven voor de nieuwe geplakte aanvraag(s), moet u een waarde in de invoercel invoeren en vervolgens de aanvraag(en) vernieuwen.

@@ -1,5 +1,5 @@
 ---
-description: 'Het segmenteren op individuele metriek staat u toe om metrische vergelijkingen binnen het zelfde rapport te maken. '
+description: Het segmenteren op individuele metriek staat u toe om metrische vergelijkingen binnen het zelfde rapport te maken.
 title: Gesegmenteerde cijfers
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04

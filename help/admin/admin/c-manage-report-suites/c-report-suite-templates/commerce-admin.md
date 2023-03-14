@@ -10,7 +10,7 @@ ht-degree: 22%
 
 ---
 
-# Handel
+# Commerce
 
 Hiermee definieert u algemene instellingen voor een e-commercewebsite.
 

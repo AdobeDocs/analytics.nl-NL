@@ -6,12 +6,12 @@ feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# Aanbevolen werkwijzen
+# Best practices voor
 
 Hieronder vindt u een aantal aanbevolen procedures voor de verwerking en levering van gegevensinvoer.
 
