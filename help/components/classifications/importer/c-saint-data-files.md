@@ -3,9 +3,9 @@ description: Met de importer kunt u classificatiegegevens bulksgewijs uploaden n
 title: Classificatiedatabestanden
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
@@ -109,11 +109,11 @@ Elke waarde moet uniek zijn in het hele systeem. De waarde in dit veld komt over
 
 ### Rubriekskolom
 
-Rapporten en analyses bevatten bijvoorbeeld automatisch twee classificaties voor [!UICONTROL Campaign] variabelen: [!UICONTROL Campaigns] en [!UICONTROL Creative Elements]. Gegevens toevoegen aan de [!UICONTROL Campaigns] classificatie, de kolomkop in het bestand met classificatiegegevens zou [!UICONTROL Campaigns].
+Voorbeeld: Uw implementatie van Rapporten en Analytics omvat automatisch twee classificaties voor [!UICONTROL Campaign] variabelen: [!UICONTROL Campaigns] en [!UICONTROL Creative Elements]. Gegevens toevoegen aan de [!UICONTROL Campaigns] classificatie, de kolomkop in het bestand met classificatiegegevens zou [!UICONTROL Campaigns].
 
 >[!NOTE]
 >
->De waarden in de [!UICONTROL Classifications] de kolomkop moet exact overeenkomen met de naamgevingsconventie van de classificatie, anders mislukt het importeren. Bijvoorbeeld als de beheerder verandert [!UICONTROL Campaigns] tot [!UICONTROL Internal Campaign Names] in de [!UICONTROL Campaign Set-up Manager], moet de kop van de bestandskolom worden gewijzigd.
+>De waarden in de [!UICONTROL Classifications] de kolomkop moet exact overeenkomen met de naamgevingsconventie van de classificatie, anders mislukt het importeren. Bijvoorbeeld als de beheerder verandert [!UICONTROL Campaigns] tot [!UICONTROL Internal Campaign Names] in de [!UICONTROL Campaign Set-up Manager], moet de kop van de bestandskolom worden gewijzigd. &quot;Key&quot; is een gereserveerde indelingswaarde (header). Nieuwe classificaties met de naam &quot;Key&quot; worden niet ondersteund.
 
 Bovendien ondersteunt het gegevensbestand de volgende extra kopconventies om subclassificaties en andere gespecialiseerde gegevenskolommen te identificeren:
 
