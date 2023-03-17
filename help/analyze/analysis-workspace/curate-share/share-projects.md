@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 66a02a6d0c6cc88752ea39172bd30b026908846b
+source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1491'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ U kunt een Analysis Workspace-project delen met de volgende typen personen:
 
 * Gebruikers en groepen in uw organisatie die geen toegang hebben tot Adobe Analytics
 
-   Ontvangers hebben alleen-weergeven toegang
+   Ontvangers hebben alleen-lezen toegang
 
 * Personen buiten uw organisatie
 
-   Ontvangers hebben alleen-weergeven toegang
+   Ontvangers hebben alleen-lezen toegang
 
 Alle [kromming](curate.md) Wanneer ontvangers het project openen, wordt u deze toepassing vóór het delen weergegeven.
 
@@ -35,9 +35,9 @@ Hier volgt een video-overzicht van het delen van projecten:
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
 
-## Delen met Adobe Analytics-gebruikers en -groepen in uw organisatie {#Add}
+## Delen met Analysis Workspace-gebruikers en -groepen in uw organisatie {#Add}
 
-U kunt een project delen met bestaande Adobe Analytics-gebruikers of -groepen in uw organisatie. Wanneer u een project deelt zoals beschreven in deze sectie, moeten de gebruikers u met delen reeds een rekening van Adobe Analytics hebben.
+U kunt een project delen met bestaande Analysis Workspace-gebruikers of -groepen in uw organisatie. Wanneer u een project deelt zoals beschreven in deze sectie, moeten de gebruikers u met delen reeds toegang tot Adobe Analytics hebben.
 
 U kunt een specifieke rol met gebruikers of groepen delen, of u kunt een verbinding delen.
 
@@ -59,7 +59,7 @@ Wanneer het delen van een specifieke projectrol met gebruikers en groepen in uw 
 
 Een specifieke projectrol delen met gebruikers of groepen in uw organisatie:
 
-1. Ga naar het project dat u wilt delen, dan klik **[!UICONTROL Share]** > **[!UICONTROL Share project]**. <!-- recommned changing "Share project" to "Share project internally" or something like that -->
+1. Ga naar het project dat u wilt delen, dan klik **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
 Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te slaan.
 
    ![](assets/share-proj-modal.png)
@@ -96,20 +96,20 @@ Houd rekening met het volgende wanneer u een koppeling deelt zoals wordt beschre
 
 De projectkoppeling delen met gebruikers in uw organisatie:
 
-1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Share project]**. <!-- recommned changing "Share project" to "Share project internally" or something like that -->
+1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
 Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te slaan.
 
    ![](assets/share-proj-modal.png)
 
-1. Klikken **[!UICONTROL Copy link]** naast de **[!UICONTROL Share URL field]**.
+1. Klikken **[!UICONTROL Copy]** naast de **[!UICONTROL Share by link]** veld.
 
 1. Deel de koppeling met gebruikers in uw organisatie. U kunt het bijvoorbeeld in een e-mail, op een interne website, enzovoort plakken.
 
-## Een openbare koppeling delen met iedereen (geen aanmelding vereist) {#share-public-link}
+## Een project delen met iedereen (geen aanmelding vereist) {#share-public-link}
 
 {{release-limited-testing-section}}
 
-U kunt [Alleen-weergeven toegang](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) naar Analysis Workspace-projecten voor mensen die geen toegang hebben tot Adobe Analytics. Dit kan het volgende omvatten:
+U kunt [alleen-lezen toegang](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) naar Analysis Workspace-projecten voor mensen die geen toegang hebben tot Adobe Analytics. Dit kan het volgende omvatten:
 
 * Personen buiten uw organisatie
 
@@ -117,44 +117,44 @@ U kunt [Alleen-weergeven toegang](/help/analyze/analysis-workspace/curate-share/
 
 >[!NOTE]
 >
->Houd rekening met het volgende wanneer u een openbare koppeling deelt:
+>Houd rekening met het volgende wanneer u een Analysis Workspace-project deelt met mensen die geen toegang hebben tot Adobe Analytics:
 >
->* De mogelijkheid om een koppeling voor openbare toegang te delen, kan door de beheerder van Analytics worden uitgeschakeld, zoals wordt beschreven in [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md). Als u geen openbare verbinding kunt delen zoals die in deze sectie wordt beschreven, heeft uw beheerder Analytics deze capaciteit onbruikbaar gemaakt.
+>* De capaciteit om een project op deze manier te delen kan door de beheerder van Analytics worden onbruikbaar gemaakt, zoals die in wordt beschreven [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md). Als u een project niet kunt delen zoals die in deze sectie wordt beschreven, heeft uw beheerder Analytics deze capaciteit onbruikbaar gemaakt.
 >
->* Projecten met meer dan 14 uitgevouwen visualisaties kunnen niet worden gedeeld via een koppeling voor openbare toegang.
+>* Projecten met meer dan 14 uitgebreide visualisaties kunnen niet worden gedeeld met mensen die geen toegang hebben tot Adobe Analytics.
 
 
-Een openbare koppeling naar een Analysis Workspace-project delen:
+Een Analysis Workspace-project delen met mensen die geen toegang hebben tot Adobe Analytics:
 
 1. Open het Analysis Workspace-project dat u wilt delen.
 
-1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Share public link]**.
+1. Klik op **[!UICONTROL Share]** > **[!UICONTROL Share with anyone]**.
 
    Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd uw project op te slaan.
 
    <!-- Add screen shot of new modal -->
 
-1. De optie **[!UICONTROL Link active]** als deze optie nog niet is ingeschakeld.
+1. De optie **[!UICONTROL Link is active]** als deze optie nog niet is ingeschakeld.
 
 1. Geef op of u de volgende beveiligingsoptie wilt inschakelen (deze optie kan worden beheerd door de beheerder van Analytics):
 
    * **[!UICONTROL Require Experience Cloud authentication]:**
 
-      Wanneer deze optie is ingeschakeld, kunnen alleen gebruikers die zich kunnen aanmelden bij de Adobe Experience Cloud-organisatie waar het project dat u deelt, is gemaakt, deze koppeling gebruiken.
+      Wanneer deze optie is ingeschakeld, hebben alleen gebruikers die zich kunnen aanmelden bij de Adobe Experience Cloud-organisatie waar het project dat u deelt, is gemaakt, toegang tot het project.
 
       Analysebeheerders kunnen deze voorkeur voor het bedrijf, zoals die in wordt beschreven vormen [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md). U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
 
       * Als deze optie niet zichtbaar is, heeft de beheerder van Analytics deze functie niet ingeschakeld.
 
-      * Als deze optie is ingeschakeld en gedimd, heeft de beheerder van Analytics Experience Cloud-verificatie nodig voor toegang tot alle openbare koppelingen.
+      * Als deze optie is ingeschakeld en gedimd, vereist de beheerder van Analytics Experience Cloud-verificatie voor iedereen die Analysis Workspace-projecten opent.
 
-1. Naast de **[!UICONTROL Share with anyone (no login required)]** veld, klikt u op de knop **Koppeling kopiëren** pictogram om de koppeling naar het systeemklembord te kopiëren.
+1. Naast de **[!UICONTROL Share with anyone (no login required)]** veld, klikt u op de knop **Koppeling kopiëren** pictogram ![Koppelingspictogram kopiëren](assets/copy-link-icon.png) om de koppeling naar het systeemklembord te kopiëren.
 
 1. Deel de koppeling met de personen die u toegang tot het project wilt geven. U kunt de koppeling bijvoorbeeld in een e-mail plakken.
 
-   Iedereen met wie u de koppeling deelt, kan het Analysis Workspace-project bekijken. Als u ervoor kiest om een wachtwoord te vereisen, moet u het wachtwoord ook delen met iedereen u tot de verbinding wilt toegang hebben.
+   Iedereen met wie u de koppeling deelt, kan het Analysis Workspace-project bekijken.
 
-1. Selecteren **[!UICONTROL Close]** om het dialoogvenster Delen te sluiten. Uw wijzigingen worden automatisch opgeslagen. <!-- True? -->
+1. Selecteren **[!UICONTROL Close]** om het dialoogvenster Delen te sluiten. Uw wijzigingen worden automatisch opgeslagen.
 
 ## Projecten delen in de projectmanager {#Manager}
 
