@@ -3,7 +3,7 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5739b9bd20d63c51343127832778c4c3836993b3
+source-git-commit: ca99382a39644dc422baaf7dbd5c4d95942455af
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Gegevenswoordenboek in Analysis Workspace** | Met het gegevenswoordenboek kunnen gebruikers en beheerders de componenten (afmetingen, metriek) in hun analyseomgeving bijhouden, beheren en beter begrijpen. [Meer informatie](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 maart 2023 | 22 maart 2023 |
+| **Gegevenswoordenboek in Analysis Workspace** | Met het gegevenswoordenboek kunnen gebruikers en beheerders de componenten (afmetingen, metriek) in hun analyseomgeving bijhouden, beheren en beter begrijpen. [Meer informatie](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 maart 2023 | 29 maart 2023 |
 | **Gegevensartikelen in mobiele dashboards** | Met gegevensartikelen kunt u meerdere aanpasbare detailweergaven toevoegen aan tegels in Mobile Scorecard-projecten. Gebruik gegevensverhalen om dieper in belangrijke bestuurders, verwante metriek, en verschillende stappen tijdens de klantenreis te duiken. U kunt eenvoudig door deze weergaven heen vegen om het hele verhaal achter uw belangrijkste meetgegevens te begrijpen. [Meer informatie](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | N.v.t. | 8 maart 2023 |
 | **Vervaldatums voor het geplande project** | U kunt maximale vervaldatums voor geplande projecten instellen op maximaal één jaar, ongeacht de planningsfrequentie. | N.v.t. | 8 maart 2023 |
 | **Het delen van verbindingen voor projecten (geen vereiste login)** - Alleen persoonlijke bètatoegang | <p>U kunt nu alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. U kunt projectverbindingen met mensen buiten uw organisatie, of die binnen uw organisatie delen die niet provisioned voor Adobe Analytics zijn. [Meer informatie](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Neem contact op met het accountteam van Adobe om deel te nemen aan de persoonlijke bètaversie.</p> | 15 maart 2023 (particuliere bèta) | April 2023 |
