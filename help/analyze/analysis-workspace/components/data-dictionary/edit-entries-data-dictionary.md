@@ -3,16 +3,14 @@ description: Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers
 title: Items in het gegevenswoordenboek bewerken
 feature: Components
 role: Admin
-source-git-commit: 7e105b4cd22187411dedd663080703e6daec91f5
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
 # Onderdeelitems in gegevenswoordenboek bewerken
-
-{{release-limited-testing}}
 
 Analysebeheerders kunnen componentitems in het gegevenswoordenboek voor een bepaalde rapportsuite bewerken. Alle aangebrachte wijzigingen zijn zichtbaar voor alle gebruikers van de rapportsuite.
 
@@ -30,16 +28,7 @@ Een component in het gegevenswoordenboek bewerken:
 
 1. (Optioneel) Typ in het zoekveld de naam van de component die u wilt bewerken.
 
-   Pictogrammen worden naast componentnamen weergegeven om het type component aan te geven:
-
-   | Pictogram | Betekenis |
-   |---------|----------|
-   | ![Dimension-pictogram](assets/dimension-icon.png) | Geeft een **dimensie**. Dimension worden geleverd door Adobe. Bestaande afmetingen kunnen niet worden gewijzigd en er kunnen geen nieuwe afmetingen worden gemaakt. |
-   | ![Metrisch pictogram](assets/default-metric-icon.png) | Geeft een **standaard metrisch** (niet berekend). De standaardmetriek worden verstrekt door Adobe en kan niet worden gewijzigd. |
-   | ![Adobe-pictogram](assets/default-calc-metric-icon.png) | Geeft een **berekend metrisch sjabloon** of **segmentsjabloon**. Deze componenten worden verstrekt door Adobe en kunnen niet worden gewijzigd. |
-   | ![Pictogram Rekenmachine](assets/calculated-metric-icon-created.png) | Geeft een **berekend metrisch** die door een beheerder van Analytics in uw organisatie werd gecreeerd. |
-   | ![Segmentpictogram](assets/segment-icon.png) | Geeft een **segment**. Deze kunnen segmenten zijn die door Adobe worden verstrekt of door een beheerder van Analytics in uw organisatie worden gecreeerd. |
-   | ![Pictogram Datumbereik](assets/date-range-icon.png) | Geeft een **datumbereik**. Dit kunnen datumwaaiers zijn die door Adobe worden verstrekt of door een beheerder van Analytics in uw organisatie worden gecreeerd. |
+   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimension** ![Dimension-pictogram](assets/dimension-icon.png) oranje zijn, **Segmenten** ![Segmentpictogram](assets/segment-icon.png) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](assets/date-range-icon.png) paars zijn, en **Metrisch** ![Metrisch pictogram](assets/default-metric-icon.png) zijn groen. Het pictogram Adobe ![Adobe-pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een segmentsjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](assets/calculated-metric-icon-created.png) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
 
 {{dd-filter-criteria}}
 

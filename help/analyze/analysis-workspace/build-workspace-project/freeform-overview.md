@@ -5,9 +5,9 @@ title: Overzicht van projecten
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1630'
 ht-degree: 2%
 
 ---
@@ -26,22 +26,40 @@ Wanneer je voor het eerst **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]*
 
 ![](assets/sample-project.png)
 
-De de projectlijstpagina van de Werkruimte bevat de volgende informatie:
+De pagina Projecten bevat de volgende informatie:
+
+>[!NOTE]
+>
+>Sommige kolommen worden niet standaard weergegeven. Als u de kolommen die u ziet, wilt aanpassen, klikt u op de knop **Tabel aanpassen** pictogram ![Tabel aanpassen](assets/projects-page-customize-columns-icon.png).
+
 
 | Element | Beschrijving |
 |---|---|
-| [Nieuw project maken](/help/analyze/analysis-workspace/home.md) | Klik op deze koppeling om een nieuw project te starten vanaf een leeg vel of vanaf een [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace) gemaakt voor u. |
-| Projecten beheren | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), waarin al uw projecten worden vermeld en waarmee u projecten kunt labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
-| Instellen als bestemmingspagina | Hiermee wordt deze pagina omgezet in de bestemmingspagina van uw werkruimte. |
-| [Tutorials weergeven](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | Hiermee gaat u naar de videozelfstudies van Analysis Workspace. |
+| [Voorkeuren bewerken](/help/analyze/analysis-workspace/user-preferences.md) | Beheer instellingen voor Analysis Workspace en de bijbehorende componenten voor alle nieuwe projecten of deelvensters die u maakt. |
+| [Map maken](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Voeg een nieuwe map of submap toe aan de lijst met projecten en mappen. |
+| [Project maken](/help/analyze/analysis-workspace/home.md) | Een nieuw project starten vanaf een leeg vel of vanaf een [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
+| Projecten beheren <!--I don't see this option--> | Als u op deze koppeling klikt, gaat u naar Projectcomponentbeheer ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), waarin al uw projecten worden vermeld en waarmee u projecten kunt labelen, delen, verwijderen, hernoemen, goedkeuren, kopiëren en exporteren naar CSV. |
+| Instellen als bestemmingspagina <!--I don't see this option--> | Hiermee wordt deze pagina omgezet in de bestemmingspagina van uw werkruimte. |
+| Meer weergeven | onthult opties voor het creëren van een leeg project of een mobiele scorecard, [weergeven, trainingszelfstudies](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html), of [Opmerkingen bij de release weergeven](/help/release-notes/latest.md). |
+| Mappen en projecten tonen | Geef op of u de mapstructuur van projecten wilt weergeven. Zie voor meer informatie [Over mappen in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| Tabel aanpassen (pictogram) | Staat u toe om de informatie aan te passen die voor elk project op de pagina van Projecten toont. |
 | Naam | Naam van het project van de Werkruimte. |
-| Eigenaar | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
-| Type | Geeft aan of dit een werkruimteproject of een [Mobiel scorebord](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html). |
-| [Projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Geeft uw rol voor het project aan: eigenaars, bewerken, dupliceren, weergeven. |
+| Type | Geeft aan of dit een werkruimteproject, een map of een [Mobiel scorebord](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html). |
 | Tags | Tags die op het project zijn toegepast. |
+| Gepland | Geeft aan of de projecten volgens planning per e-mail naar ontvangers moeten worden verzonden. Zie [Projecten plannen](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
+| Gedeelde koppeling (iedereen) | Projecten kunnen met iedereen worden gedeeld, zelfs met mensen die geen toegang hebben tot Analysis Workspace. Deze kolom toont of de projecten op deze manier zijn gedeeld. Zie [Een project delen met iedereen (geen aanmelding vereist)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md) voor meer informatie . |
+| Rapportsuite | De rapportsuite waaraan het project is gekoppeld. |
+| [Projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Geeft uw rol voor het project aan: eigenaars, bewerken, dupliceren, weergeven. |
+| Eigenaar | De persoon die dit project heeft gemaakt (u of iemand die het project met u heeft gedeeld). |
+| Gedeeld met | Gebruikers waarmee het project is gedeeld. |
 | Laatst gewijzigd | Datum en tijdstip waarop het project voor het laatst is gewijzigd. |
-| Mijn favoriete projecten | Als u een project als favoriet wilt markeren, opent u het project en klikt u op de ster naast de naam ervan. De volgende keer dat u Workspace opent, wordt deze lijst weergegeven. |
-| Veelgebruikte projecten | Hiermee geeft u alle projecten weer die u vaak opent, voor eenvoudige toegang. |
+| Laatst geopend | Datum en tijdstip waarop het project voor het laatst is geopend. |
+| Project-id | De id van het project. |
+| Langste datumbereik | Het langste datumbereik van het project. |
+| Aantal query&#39;s | Het totale aantal vragen in het project. |
+| Locatie | De map waarin het project zich bevindt. |
+| Mijn favoriete projecten <!--I don't see this option--> | Als u een project als favoriet wilt markeren, opent u het project en klikt u op de ster naast de naam ervan. De volgende keer dat u Workspace opent, wordt deze lijst weergegeven. |
+| Veelgebruikte projecten <!--I don't see this option--> | Hiermee geeft u alle projecten weer die u vaak opent, voor eenvoudige toegang. |
 
 ## Menubalk {#menu-bar}
 
