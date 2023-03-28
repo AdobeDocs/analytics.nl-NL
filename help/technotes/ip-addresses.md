@@ -3,9 +3,9 @@ title: IPs en domeinen die door Adobe Analytics worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die van Adobe afkomstig zijn, gebruik deze lijst om uw firewallmontages bij te werken.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: d109011bcdbc6b5f37c9304e5d72f572a4245193
+source-git-commit: 5268016c1055e9387a3394ee6bdfdb2dc508e7d0
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -81,14 +81,12 @@ Adobe Analytics gebruikt Amazon Web Services als onderdeel van het gegevensverza
 
 | Locatie | Host |
 | --- | --- |
-| China | `52.80.83.220` |
-| China | `71.132.16.253` |
-| China | `52.80.7.181` |
-| China | `71.131.244.185` |
-| China | `140.179.152.255` |
-| Frankrijk | `13.37.25.97` |
-| Frankrijk | `15.236.117.205` |
-| Frankrijk | `15.236.125.10` |
+| China | `52.80.169.108` |
+| China | `54.223.47.95` |
+| China | `140.179.13.49` |
+| Frankrijk | `13.36.218.177` |
+| Frankrijk | `15.188.95.229` |
+| Frankrijk | `15.236.176.210` |
 
 De volgende tabel bevat AWS IPv6-adresblokken die door Adobe worden gebruikt. Deze hosts zijn **niet** opgenomen in het hierboven vermelde geaggregeerde blokbereik.
 
