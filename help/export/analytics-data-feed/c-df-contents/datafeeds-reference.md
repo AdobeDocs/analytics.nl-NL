@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 2af8c2ee2ad8f445390a0b732630af1e1304d9a5
+source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
 workflow-type: tm+mt
-source-wordcount: '3629'
+source-wordcount: '3655'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Gebruik deze pagina om te leren welke gegevens in elke kolom zijn. De meeste imp
 >[!NOTE]
 >
 >De meeste kolommen bevatten een vergelijkbare kolom met een voorvoegsel van `post_`. Post kolommen bevatten waarden na server-zijlogica, verwerkingsregels, en regels VISTA. Adobe raadt in de meeste gevallen aan postkolommen te gebruiken. Zie [Veelgestelde vragen over gegevensfeeds](../df-faq.md) voor meer informatie .
+
+U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 
 | Kolomnaam | Kolombeschrijving | Gegevenstype |
 | --- | --- | --- |
