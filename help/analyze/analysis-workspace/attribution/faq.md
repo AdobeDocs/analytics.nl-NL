@@ -4,9 +4,9 @@ description: Antwoorden op veelgestelde vragen over attributie.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1018'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,9 @@ Ja, classificaties worden volledig ondersteund.
 
 ## Werkt de toewijzing met gegevensbronnen?
 
-Ja, de meeste gegevensbronnen worden ondersteund. Attributie is niet mogelijk bij gegevensbronnen op overzichtsniveau omdat deze niet aan een bezoekersidentificatie van Analytics zijn gekoppeld. De gegevensbronnen van identiteitskaart van de transactie worden ook gesteund, tenzij zij in een virtuele rapportreeks met toegelaten verwerking van de rapporttijd worden gebruikt.
+Ja, de meeste gegevensbronnen worden ondersteund. Attributie is niet mogelijk bij gegevensbronnen op overzichtsniveau omdat deze niet aan een bezoekersidentificatie van Analytics zijn gekoppeld.
+
+Gegevensbronnen van de transactie-id worden op dezelfde wijze behandeld als andere treffers; ze gebruiken niet de speciale verwerking die ze normaal gebruiken in traditionele rapportage.
 
 ## Werkt attributie met de integratie van Advertising Analytics?
 
@@ -87,7 +89,7 @@ Metagegevensafmetingen, zoals type en trefwoord, werken met kenmerk. Metrische g
 
 ## Hoe werkt attributie met marketingkanalen?
 
-Toen de marketingkanalen voor het eerst werden geïntroduceerd, hadden ze alleen de eerste en laatste aanraakafmetingen. Expliciete eerste/laatste aanraakafmetingen zijn niet meer nodig met de huidige versie van de toewijzing. Adobe biedt algemene &#39;Marketing Channel&#39;- en &#39;Marketing Channel Detail&#39;-afmetingen, zodat u deze kunt gebruiken met het gewenste attributiemodel. Deze generieke afmetingen gedragen zich hetzelfde als de laatste aanraakkanaalafmetingen, maar worden anders geëtiketteerd om verwarring te voorkomen bij het gebruik van marketingkanalen met een ander toewijzingsmodel.
+Toen de marketingkanalen voor het eerst werden geïntroduceerd, hadden ze alleen de eerste en laatste aanraakafmetingen. Expliciete eerste/laatste aanraakafmetingen zijn niet meer nodig met de huidige versie van de toewijzing. Adobe verstrekt algemeen [!UICONTROL Marketing Channel] en [!UICONTROL Marketing Channel Detail] afmetingen zodat u deze kunt gebruiken met het gewenste attributiemodel. Deze algemene afmetingen gedragen zich als [!UICONTROL Last Touch Channel] de afmetingen, maar worden anders geëtiketteerd om verwarring te voorkomen wanneer het gebruiken van marketing kanalen met een verschillend attributiemodel.
 
 Aangezien de afmetingen van de marketingkanalen afhankelijk zijn van een traditionele &quot;visit&quot;-definitie (zoals gedefinieerd door hun verwerkingsregels), kan de definitie van hun &quot;visit&quot; niet worden gewijzigd met behulp van virtuele-rapportsuites.
 
@@ -107,4 +109,4 @@ Als u bijvoorbeeld een VRS maakt met een toegepast segment &quot;Weergaveits&quo
 
 >[!NOTE]
 >
->Als een segment klappen onderdrukt die uw metrisch bevatten, zullen die metrische instanties niet aan om het even welke afmeting worden toegeschreven. Nochtans, zal een gelijkaardig rapportfilter eenvoudig sommige afmetingspunten verbergen, zonder enige invloed op metriek die per het attributiemodel wordt verwerkt. Hierdoor kan een segment lagere waarden retourneren dan een filter met een vergelijkbare definitie.
+>Als een segment klappen onderdrukt die uw metrisch bevatten, worden die metrische instanties niet toegeschreven aan om het even welke afmeting. Nochtans, verbergt een gelijkaardig rapportfilter eenvoudig sommige afmetingspunten, zonder enige invloed op metriek die per het attributiemodel wordt verwerkt. Hierdoor kan een segment lagere waarden retourneren dan een filter met een vergelijkbare definitie.
