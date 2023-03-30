@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 5f502cb30deb49ce21c72c1bf84db340ac3b426e
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,10 @@ U kunt [alleen-lezen toegang](/help/analyze/analysis-workspace/curate-share/view
 >* De capaciteit om een project op deze manier te delen kan door de beheerder van Analytics worden onbruikbaar gemaakt, zoals die in wordt beschreven [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md). Als u een project niet kunt delen zoals die in deze sectie wordt beschreven, heeft uw beheerder Analytics deze capaciteit onbruikbaar gemaakt.
 >
 >* Projecten met meer dan 14 uitgebreide visualisaties kunnen niet worden gedeeld met mensen die geen toegang hebben tot Adobe Analytics.
+>
+>* Gebruikers met wie u deelt, kunnen alle filters weergeven die tijdens het project op het project zijn toegepast [kromming](curate.md).
+> 
+>* Gebruikers met wie u deelt, kunnen het datumbereik van het project wijzigen. De datumwaaier u voor het project plaatst wordt getoond door gebrek.
 
 
 Een Analysis Workspace-project delen met mensen die geen toegang hebben tot Adobe Analytics:
@@ -153,6 +157,8 @@ Een Analysis Workspace-project delen met mensen die geen toegang hebben tot Adob
 1. Deel de koppeling met de personen die u toegang tot het project wilt geven. U kunt de koppeling bijvoorbeeld in een e-mail plakken.
 
    Iedereen met wie u de koppeling deelt, kan het Analysis Workspace-project bekijken.
+
+1. (Optioneel) U kunt op de knop **Nieuwe koppeling genereren** pictogram ![Koppelingspictogram genereren](assets/regenerate-link.png) om toegang van gebruikers te verwijderen die eerder een verbinding aan het project ontvingen. Er wordt een nieuwe koppeling gegenereerd die u kunt delen met gebruikers die toegang willen krijgen tot het project.
 
 1. Selecteren **[!UICONTROL Close]** om het dialoogvenster Delen te sluiten. Uw wijzigingen worden automatisch opgeslagen.
 
