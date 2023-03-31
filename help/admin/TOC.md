@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: 87d4e492afe8d614dfdba24389660829df871dd7
+source-git-commit: e658a14564e7efacf8811c35d0e9b1e7455f4394
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '624'
 ht-degree: 73%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 73%
                + [Veelgestelde vragen over server-side doorsturen](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + Verkeer {#traffic-variables}
             + [Verkeersvariabelen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
-            + [Rapporten voor traffic variabelen inschakelen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [Verkeersclassificaties](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Aangepaste rapportbeschrijvingen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + Conversie {#conversion-variables}

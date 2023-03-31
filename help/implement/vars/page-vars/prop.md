@@ -3,9 +3,9 @@ title: prop
 description: Aangepaste variabelen die u kunt gebruiken in uw implementatie.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: e658a14564e7efacf8811c35d0e9b1e7455f4394
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Props zijn aangepaste variabelen die u op de gewenste manier kunt gebruiken. Ze 
 
 >[!TIP]
 >
->Adobe raadt u aan [eVars](evar.md) in de meeste gevallen. In vorige versies van Adobe Analytics hadden props en eVars voor- en nadelen. Adobe heeft echter verbeteringen doorgevoerd in de mate waarin ze bijna alle gevallen van gebruik voor props naleven.
+>Adobe raadt u aan [eVars](evar.md) in de meeste gevallen. In vorige versies van Adobe Analytics hadden props en eVars voor- en nadelen. Adobe heeft de eVars echter in die mate verbeterd dat ze nu bijna alle gevallen van gebruik voor props vervullen.
 
 Als u een [document ontwerp oplossing](/help/implement/prepare/solution-design.md)kunt u deze aangepaste afmetingen toewijzen aan waarden die specifiek zijn voor uw organisatie. Het aantal beschikbare props is afhankelijk van uw contract met Adobe. Er zijn maximaal 75 props beschikbaar als uw contract met Adobe dit ondersteunt.
 

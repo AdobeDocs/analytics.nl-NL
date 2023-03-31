@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 04e80edd290b1b6a007e7ccec1bb1d563e98ecf8
+source-git-commit: b604895acfb18c566f5d282ed5781400192d3553
 workflow-type: tm+mt
-source-wordcount: '3732'
+source-wordcount: '3784'
 ht-degree: 33%
 
 ---
@@ -26,6 +26,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **maart 2023** |  |
+| Overzicht van verkeersvariabelen | Toegevoegde secties en stapsgewijze procedures om de inhoud van artikelen te verduidelijken en te verbeteren. De samengevoegde inhoud van een artikel getiteld, &quot;laat de rapporten van de verkeersvariabele&quot;toe en verwijderde dat artikel. Zie [Overzicht van verkeersvariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
+| Interne URL-filters | Toegevoegde secties en stapsgewijze procedures om de inhoud van artikelen te verduidelijken en te verbeteren. Zie [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Gegevensartikelen maken in mobiele scorecards | A [gegevensartikel](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) is een inzameling van het steunen van gegevenspunten, bedrijfscontext, en verwante metriek die rond een centraal thema of metrisch worden gebouwd. |
 | Berekende standaardwaarden | Toegevoegde inhoud waarin de [berekende standaardwaarden verstrekt door Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | Gegevenswoordenboek | <p>Nieuwe documentatie toegevoegd voor het gegevenswoordenboek, inclusief een [Overzicht](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Weergeven](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Bewerken](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), en [Toezicht](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) het gegevenswoordenboek.</p><p>Informatie in [Componentbeschrijvingen toevoegen](/help/analyze/analysis-workspace/components/add-component-descriptions.md) is bijgewerkt voor de functie Gegevenswoordenboek.</p> |

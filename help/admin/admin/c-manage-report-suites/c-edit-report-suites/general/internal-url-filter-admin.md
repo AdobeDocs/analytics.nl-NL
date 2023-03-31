@@ -4,22 +4,40 @@ title: Interne URL-filters
 feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 2beb4cd38fc8b48e2b34468a4570f7168aeacb78
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 2%
+source-wordcount: '256'
+ht-degree: 1%
 
 ---
 
 
 # Interne URL-filters
 
-Interne URL-filters identificeren de referenties die u intern voor uw site beschouwt. Zij helpen verkeersbronnen rapporteren bevolken gegevens en helpen intern verkeer filtreren.
-
-**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Internal URL Filters]**
+Met interne URL-filters kunt u de referenties identificeren die u intern voor uw site beschouwt. Zij helpen verkeersbronnen rapporteren bevolken gegevens en helpen intern verkeer filtreren.
 
 Een verwijzing, of verwijzende pagina, is typisch de pagina waarvan een bezoeker uw plaats inging. Als u wilt voorkomen dat gegevens worden schuingetrokken, kunt u interne referenties verwijderen. In rapporten worden gefilterde verwijzingen uitgesloten van de [Referenties](/help/components/dimensions/referrer.md) de [Verwijzen naar domeinen](/help/components/dimensions/referring-domain.md) dimensie, en andere afmetingen van de verkeersbron.
 
-De gemeenschappelijkste rapporten van de redenverkeersbronnen bevolken geen gegevens is dat de Interne Lijst van de Filter URL niet wordt bepaald. Voer de volgende stappen uit om te controleren welke interne URL-filters zijn ingesteld in een rapportsuite. Om dit te voorkomen, verwijdert u de regel met een punt (.) als een filter en voeg uw eigen site toe.
+## Bestaande interne URL-filters weergeven
 
-De reden waarom een punt het standaard interne filter URL is om toe te staan dat de gegevens in het rapport van Pagina&#39;s worden verzameld. Als hits niet overeenkomen met interne URL-filters, worden alle pagina&#39;s weergegeven als Overige. De URL bevat altijd een punt dat garandeert dat het rapport Pagina&#39;s wordt ingevuld.
+>[!NOTE]
+>
+>Sommige rapportsuites hebben een intern filter URL van een periode (.) Standaard geconfigureerd. Wanneer dit filter bestaat, wordt al verkeer geclassificeerd als intern. Refererapporten werken pas na de punt (.) wordt verwijderd.
+
+Om te controleren welke interne filters URL voor een rapportreeks worden gevormd: <!-- I don't see the period in my instance? Is the following information valid? "To avoid this, remove the rule listing a period (.) as a filter, and add your own site. The reason why a period is the default internal URL filter is to allow data to be collected in the Pages report. If hits do not match internal URL filters, all pages come up as Other. A period is always somewhere in the URL, which guarantees the Pages report is populated.")-->
+
+1. Selecteren **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** om toegang te krijgen tot Report Suite Manager.
+
+1. Selecteer de rapportsuite waar u wilt controleren welke interne URL-filters zijn geconfigureerd en selecteer **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Internal URL Filters]**.
+
+   Alle bestaande filters worden vermeld in de [!UICONTROL **Huidige filters**] sectie.
+
+## Een intern URL-filter toevoegen aan een rapportsuite
+
+1. Selecteren **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** om toegang te krijgen tot Report Suite Manager.
+
+1. Selecteer de rapportsuite waar u een intern URL-filter wilt toevoegen en selecteer **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Internal URL Filters]**.
+
+1. Typ in het gedeelte Filter toevoegen in het veld dat verschijnt de URL van de pagina die u wilt filteren en selecteer vervolgens [!UICONTROL **Toevoegen**].
+
+   De URL die u hebt toegevoegd, wordt nu weergegeven in het dialoogvenster [!UICONTROL **Huidige filters**] sectie.
