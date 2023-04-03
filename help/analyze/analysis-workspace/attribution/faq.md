@@ -4,9 +4,9 @@ description: Antwoorden op veelgestelde vragen over attributie.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
+source-git-commit: 5ed1ff0ecee4843f866b1a911e2cb5f14310c58a
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1063'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Ja, classificaties worden volledig ondersteund.
 
 Ja, de meeste gegevensbronnen worden ondersteund. Attributie is niet mogelijk bij gegevensbronnen op overzichtsniveau omdat deze niet aan een bezoekersidentificatie van Analytics zijn gekoppeld.
 
-Gegevensbronnen van de transactie-id worden op dezelfde wijze behandeld als andere treffers; ze gebruiken niet de speciale verwerking die ze normaal gebruiken in traditionele rapportage.
+Gegevensbronnen van de transactie-id worden op dezelfde wijze behandeld als andere treffers; ze gebruiken niet de speciale verwerking die ze normaal gebruiken in traditionele rapportage. Met andere woorden, wanneer het gebruiken van de verwerking van de rapporttijd, zullen de treffers van identiteitskaart van de Transactie eVar waarden hebben die van hits voorkomen die dichtbij tijdstempel van de treffer van identiteitskaart van de Transactie voorkomen. De waarden worden niet doorgegeven uit treffers die zijn opgetreden vlak bij de oorspronkelijke transactie.
 
 ## Werkt attributie met de integratie van Advertising Analytics?
 
