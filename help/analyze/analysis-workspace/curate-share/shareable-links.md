@@ -5,9 +5,9 @@ title: Deelbare koppelingen maken
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 870252bebc55ddc5621e6d1add708cb1d9fda60d
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen, met inbegrip van de capaciteit om een verbinding aan een project of een specifiek deel van een project te krijgen. Sommige verbindingstypen vereisen dat de ontvanger zich aanmeldt bij Adobe Analytics voordat het project wordt geopend, terwijl andere niet.
 
-## Projectkoppeling ophalen om te delen met andere Workspace-gebruikers {#project-link}
+## Een projectkoppeling ophalen om te delen met andere Workspace-gebruikers {#project-link}
 
-Als u een koppeling naar het volledige project wilt delen, gaat u naar [!UICONTROL **Delen**] > [!UICONTROL **Delen met Workspace-gebruikers**] > [!UICONTROL **Delen via koppeling**]. Als de ontvanger van de verbinding niet is toegewezen a [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), Admins receive **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]** ervaringen.
+Als u een koppeling naar een project wilt delen, gaat u naar het project dat u wilt delen en selecteert u Ga naar [!UICONTROL **Delen**] > [!UICONTROL **Delen met Workspace-gebruikers**] > [!UICONTROL **Delen via koppeling**]. Gebruikers met wie u de koppeling deelt, moeten zich aanmelden.
 
-![](assets/get-project-link.png)
+Als de ontvanger van de verbinding niet is toegewezen a [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), beheerders ontvangen **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]** ervaringen.
 
 ## Een alleen-lezen koppeling ophalen om met iedereen te delen
 
 {{release-limited-testing-section}}
 
-U kunt alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics.
+U kunt alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. Gebruikers met wie u de koppeling deelt, hoeven zich niet aan te melden.
 
 Voor meer informatie, zie &quot;een project met iedereen (geen vereiste login)&quot;in het artikel delen [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
