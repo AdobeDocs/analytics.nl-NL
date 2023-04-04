@@ -2,7 +2,7 @@
 title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Gegevensverzamelingsserver:** Adobe-servers die gegevens ontvangen en verwerken. De verzoeken van het beeld worden verzonden naar de servers van de inzameling van Adobe voor gebruik in rapportering.
 * **Gegevensconnectors:** Een volledige ontwikkelingsoplossing waarmee een derde het uploaden van gegevens naar Adobe Analytics kan automatiseren. De klanten van die derde kunnen een gegevensschakelaar gebruiken om hun gegevens in Adobe Analytics te verrijken. De meeste gegevensschakelaars gebruiken een gelijkaardige werkschema dat in Gegevensbronnen wordt gebruikt. Zie [Data Connectors](/help/import/data-connectors/data-connectors-eol.md) in de gebruikershandleiding bij Importeren.
 * **Gegevensinvoer:** Een onbewerkte gegevensexport waarin elke hit als een rij wordt weergegeven en variabelen als afzonderlijke kolommen. Meestal gebruikt voor het exporteren van Adobe Analytics-gegevens naar een database van derden. Zie [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md) in de gebruikershandleiding bij Exporteren.
-* **Gegevensbronnen:** Hiermee kan een gebruiker gegevens uit een bestand uploaden naar Adobe Analytics. Het bestand wordt doorgaans uit een FTP-site opgehaald. Zie [Gegevensbronnen](/help/import/c-data-sources/datasrc-home.md) in de gebruikershandleiding bij Importeren.
+* **Gegevensbronnen:** Hiermee kan een gebruiker gegevens uit een bestand uploaden naar Adobe Analytics. Het bestand wordt doorgaans uit een FTP-site opgehaald. Zie [Gegevensbronnen](/help/import/data-sources/overview.md) in de gebruikershandleiding bij Importeren.
 * **Data Warehouse:** Een functie in Adobe Analytics waarmee u grotere rapporten kunt aanvragen. Zie [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) in de gebruikershandleiding bij Exporteren.
 * **Data Workbench:** Vroeger bekend als Insight. Ontworpen voor het verzamelen, verwerken, analyseren en visualiseren van data van zowel online als offline klanteninteracties via meerdere kanalen.
 * **Dimension:** Een componenttype dat variabele waarden bevat, zoals tekst. Voorbeelden zijn Paginanaam, Trackingcode of Referentiedomein. Een metrisch is typisch zijn tegenhanger.

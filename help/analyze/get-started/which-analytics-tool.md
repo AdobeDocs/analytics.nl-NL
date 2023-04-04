@@ -3,7 +3,7 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe A
 title: Welke Adobe Analytics-tool moet ik gebruiken?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
    * Regelbouwer: gebruiken wanneer u voorspelbare opgemaakte waarden hebt die voor een variabele worden verzameld, bijvoorbeeld waarden met scheidingstekens. Op deze manier kunt u regels voor een keer instellen, grotendeels &quot;instellen en vergeten&quot;.
    * Browser importeren: gebruiken wanneer u geen voorspelbare waarden hebt, of wanneer u een eindige lijst van waarden hebt die een eenmalig update vereist. Deze aanpak vereist dat u de classificaties voortdurend controleert op nieuwe waarden.
 
-**[Gegevensbronnen](/help/import/c-data-sources/datasrc-home.md)** dienen te worden gebruikt:
+**[Gegevensbronnen](/help/import/data-sources/overview.md)** dienen te worden gebruikt:
 
 * Als er offlinegegevens zijn die u permanent in Adobe Analytics wilt schrijven
 * Opties:

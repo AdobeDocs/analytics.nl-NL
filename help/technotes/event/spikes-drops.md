@@ -2,7 +2,7 @@
 title: Problemen met spikes en druppels in gegevens oplossen
 description: Leer mogelijke redenen waarom u dramatische verhogingen of dalingen in trended rapporten kunt zien.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Verkeerspikes zijn gecategoriseerd in twee secties: bijna dubbele gegevens en an
 ### Mogelijke oorzaken van het hebben van bijna of precies verdubbeling van de verwachte gegevens
 
 * **Meerdere verzoeken om afbeeldingen binnen een implementatie**: Als uw implementatie meer dan één [`t()`](/help/implement/vars/functions/t-method.md) methodevraag per pagina, het verdubbelt effectief alle verzamelde gegevens. Gebruik het foutopsporingsprogramma op uw site en controleer of meerdere afbeeldingsverzoeken om duplicaten af te vangen.
-* **Geüploade gegevensbronbestanden dupliceren**: Als uw organisatie [Gegevensbronnen](/help/import/c-data-sources/datasrc-home.md), kan een gebruiker in uw organisatie hetzelfde bestand twee keer uploaden naar Adobe Analytics. Als u deze dubbele upload uitvoert, worden die gegevens in de rapportage verdubbeld, wat tot een scherpe verkeersstroom leidt.
+* **Geüploade gegevensbronbestanden dupliceren**: Als uw organisatie [Gegevensbronnen](/help/import/data-sources/overview.md), kan een gebruiker in uw organisatie hetzelfde bestand twee keer uploaden naar Adobe Analytics. Als u deze dubbele upload uitvoert, worden die gegevens in de rapportage verdubbeld, wat tot een scherpe verkeersstroom leidt.
 
 ### Andere potentiële oorzaken van het toegenomen verkeer
 
