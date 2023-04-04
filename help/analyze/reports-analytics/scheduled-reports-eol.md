@@ -4,7 +4,7 @@ description: Adobe is van plan alle geplande rapporten met een aanmaakdatum van 
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Aankondiging einde van de levensduur voor geplande rapporten
 
-Op 21 april 2022 hebben we aangekondigd dat verschillende specifieke kenmerken van de geplande rapporten zullen worden vervangen ter voorbereiding van de eerder aangekondigde [einde van levensduur voor rapporten en analyses](https://express.adobe.com/page/6WnF8JK6IRDhf/). Deze functies omvatten de mogelijkheid om nieuwe rapporten en nieuwe gegevensextracten te plannen. In antwoord op verzoeken van klanten die een uitbreiding willen en om de overgang van Rapporten &amp; Analytics te vergemakkelijken, hebben wij besloten de toegang tot deze eigenschappen tot te verlengen **31 jan. 2023**. Houd er rekening mee dat de vervaltijden voor zowel rapporten als gegevensextracten beperkt blijven tot negen maanden. aan het einde van deze periode wordt de levering van rapporten en gegevensuittreksels gepauzeerd , tenzij het schema opnieuw wordt geactiveerd .
+Op 21 april 2022 hebben we aangekondigd dat verschillende specifieke kenmerken van de geplande rapporten zullen worden vervangen ter voorbereiding van de eerder aangekondigde [einde van levensduur voor rapporten en analyses](https://www.adobe.com/go/analytics_rnaeol_en). Deze functies omvatten de mogelijkheid om nieuwe rapporten en nieuwe gegevensextracten te plannen. In antwoord op verzoeken van klanten die een uitbreiding willen en om de overgang van Rapporten &amp; Analytics te vergemakkelijken, hebben wij besloten de toegang tot deze eigenschappen tot te verlengen **31 jan. 2023**. Houd er rekening mee dat de vervaltijden voor zowel rapporten als gegevensextracten beperkt blijven tot negen maanden. aan het einde van deze periode wordt de levering van rapporten en gegevensuittreksels gepauzeerd , tenzij het schema opnieuw wordt geactiveerd .
 
 Deze functies zijn verouderd op 31 januari 2023. Hiervoor moet u de geplande rapportage migreren naar een van de andere mechanismen waarover u in Adobe Analytics beschikt.
 

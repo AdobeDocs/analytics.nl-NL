@@ -1,8 +1,8 @@
 ---
-source-git-commit: 57772f5a2e74ec20fd7c234b996678f7e75607ea
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '974'
+ht-degree: 1%
 
 ---
 # Fragmenten
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Meer informatie over rapporten en analyses [Aankondiging einde levensduur](https://express.adobe.com/page/6WnF8JK6IRDhf/).
+>Meer informatie over rapporten en analyses [Aankondiging einde levensduur](https://www.adobe.com/go/analytics_rnaeol_en).
 
 ## Criteria van het filter Gegevenswoordenboek {#dd-filter-criteria}
 
