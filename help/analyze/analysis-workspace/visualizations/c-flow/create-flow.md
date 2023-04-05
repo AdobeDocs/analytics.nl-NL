@@ -4,22 +4,16 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Een stroomvisualisatie configureren
 
-Met de bijgewerkte stroomvisualisatie kunt u de reis begrijpen die voortvloeit uit of leidt tot een specifieke conversiegebeurtenis op uw website of uw app. Het traceert een pad door uw dimensies (en dimensie-items) of metriek. Met stroom kunt u het begin of einde van het pad configureren waarin u bent geïnteresseerd, of alle paden analyseren die door een dimensie- of dimensie-item lopen.
-
-De nieuwe [!UICONTROL flow] De ervaring verbetert uw werkschema op verscheidene manieren:
-
-* U kunt er nu voor kiezen om het pad te beginnen of te beëindigen met de combinatie van een metrische en een plakdimensie.
-* Bevat [!UICONTROL Advanced Settings] om u te laten verder aanpassen [!UICONTROL flow].
-* De nieuwe &quot;bouwstijl&quot;knoop bespaart tijd in analyse door u toe te staan om de reis allen in één keer te vormen, dan vraag, dan automatisch bouwt veelvoudige kolommen en knopen in één &#x200B;.
+Stroomvisualisaties helpen u de reis te begrijpen die voortvloeit uit of leidt tot een specifieke conversiegebeurtenis op uw website of uw app. Het traceert een pad door uw dimensies (en dimensie-items) of metriek. Met stroomvisualisaties kunt u het begin of einde van het pad configureren waarin u bent geïnteresseerd, of alle paden analyseren die door een dimensie- of dimensie-item lopen.
 
 ![Nieuwe Flow-interface](assets/new-flow.png)
 

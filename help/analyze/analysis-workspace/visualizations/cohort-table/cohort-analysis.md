@@ -4,7 +4,7 @@ description: Dig dieper in de gegevens rond uw publiek en onderbreek in verwante
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -33,7 +33,9 @@ Video over Cohort-tabellen in Analysis Workspace:
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis] ondersteunt geen niet-segmenteerbare metriek (inclusief berekende metriek), niet-gehele metriek (zoals Opbrengst, >of Voorvallen. Alleen metriek die in segmenten kan worden gebruikt, kan worden gebruikt in [!UICONTROL Cohort Analysis]en kunnen slechts met >1 tegelijk worden verhoogd.
+>[!UICONTROL Cohort Analysis] ondersteunt geen niet-segmenteerbare metriek (inclusief berekende metriek), niet-gehele metriek (zoals Opbrengst) of Voorvallen.
+>
+>Alleen metriek die in segmenten kan worden gebruikt, kan worden gebruikt in [!UICONTROL Cohort Analysis]en kunnen slechts met >1 tegelijk worden verhoogd.
 
 ## Cohortanalyse-mogelijkheden
 
