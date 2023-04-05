@@ -2,9 +2,9 @@
 title: Adobe Analytics implementeren
 description: Implementeer Adobe Analytics op uw website, eigenschap of applicatie.
 feature: Implementation Basics
-source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
+source-git-commit: eae2b75d47a044b36ff9e5bbb311d1a2906faf91
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '898'
 ht-degree: 28%
 
 ---
@@ -49,7 +49,11 @@ Zie [Adobe Analytics implementeren met de extensie Analytics](launch/overview.md
    ![Verouderd JavaScript](./assets/appmeasurement-implementation.png)
 Deze implementatiemethode kan nuttig zijn voor implementaties die aangepaste code gebruiken en wordt nog steeds aanbevolen wanneer u (wilt) het volgende gebruikt:
 
-   * [activiteitskaartgegevens op klikniveau](../analyze/activity-map/activity-map.md),
+   * [activiteitskaartgegevens](../analyze/activity-map/activity-map.md),
+
+      >[!INFO]
+      >
+      >Met de nieuwste SDK van Web wordt Activity Map ondersteund. Zie [Activity Map inschakelen](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) voor meer informatie .
 
    * [streaming media-meting](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en),
 

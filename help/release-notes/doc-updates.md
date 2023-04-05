@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: b604895acfb18c566f5d282ed5781400192d3553
+source-git-commit: 025f176777ef8fd4f91d74fb493e45889c66f439
 workflow-type: tm+mt
-source-wordcount: '3784'
+source-wordcount: '3798'
 ht-degree: 33%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **maart 2023** |  |
+| Web SDK steun voor Activity Map | Bijgewerkt [Adobe Analytics implementeren](/help/implement/home.md) en [Activity Map inschakelen](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | Overzicht van verkeersvariabelen | Toegevoegde secties en stapsgewijze procedures om de inhoud van artikelen te verduidelijken en te verbeteren. De samengevoegde inhoud van een artikel getiteld, &quot;laat de rapporten van de verkeersvariabele&quot;toe en verwijderde dat artikel. Zie [Overzicht van verkeersvariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | Interne URL-filters | Toegevoegde secties en stapsgewijze procedures om de inhoud van artikelen te verduidelijken en te verbeteren. Zie [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Gegevensartikelen maken in mobiele scorecards | A [gegevensartikel](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) is een inzameling van het steunen van gegevenspunten, bedrijfscontext, en verwante metriek die rond een centraal thema of metrisch worden gebouwd. |
