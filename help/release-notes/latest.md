@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: cc774376b2f98506eb9c1a737e2e6fba3ea73a45
+source-git-commit: 78ab323ca7f508b319c293975b430c2cb3e043de
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1556'
+ht-degree: 2%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (maart 2023)
 
-**Laatste update**: 3 april 2023
+**Laatste update**: 5 april 2023
 
 Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,7 +20,8 @@ Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Gegevenswoordenboek in Analysis Workspace** | Met het gegevenswoordenboek kunnen gebruikers en beheerders de componenten (afmetingen, metriek) in hun analyseomgeving bijhouden, beheren en beter begrijpen. [Meer informatie](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 maart 2023 | 29 maart 2023 |
+| **Gedeeltelijke ondersteuning voor Activity Map met Web SDK** | Beginnend met versie 2.15.0 van SDK van het Web, begonnen wij het bevolken van Activity Map gegevens wanneer het verbinden wordt toegelaten. Dit staat de gebruikers van SDK van het Web toe om Activity Map rapporterend te krijgen als zij verbinding het volgen toegelaten met het Web SDK en Activity Map hebben die in Analytics wordt gevormd.<p>Merk op dat het toelaten van verbinding het volgen met Web SDK verbindingsgebeurtenissen verzendt wanneer een klant van één pagina aan volgende navigeert. Als gevolg hiervan worden extra factureerbare treffers naar Adobe verzonden. We werken aan een manier om Web SDK Activity Map te laten verzamelen op een manier die weerspiegelt wat AppMeasurement doet. In sommige situaties, verzendt AppMeasurement gegevens afzonderlijk over verdere paginameningen, die het aantal servervraag verminderen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) | N.v.t. | 31 maart 2023 |
+| **Gegevenswoordenboek in Analysis Workspace** | Met het gegevenswoordenboek kunnen gebruikers en beheerders de componenten (afmetingen, metriek) in hun analyseomgeving bijhouden, beheren en beter begrijpen. [Meer informatie](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 maart 2023 | **Tijdelijk niet beschikbaar** |
 | **Gegevensartikelen in mobiele dashboards** | Met gegevensartikelen kunt u meerdere aanpasbare detailweergaven toevoegen aan tegels in Mobile Scorecard-projecten. Gebruik gegevensverhalen om dieper in belangrijke bestuurders, verwante metriek, en verschillende stappen tijdens de klantenreis te duiken. U kunt eenvoudig door deze weergaven heen vegen om het hele verhaal achter uw belangrijkste meetgegevens te begrijpen. [Meer informatie](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | N.v.t. | 8 maart 2023 |
 | **Vervaldatums voor het geplande project** | U kunt maximale vervaldatums voor geplande projecten instellen op maximaal één jaar, ongeacht de planningsfrequentie. | N.v.t. | 8 maart 2023 |
 | **Het delen van verbindingen voor projecten (geen vereiste login)** - Alleen persoonlijke bètatoegang | <p>U kunt nu alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. U kunt projectverbindingen met mensen buiten uw organisatie, of die binnen uw organisatie delen die niet provisioned voor Adobe Analytics zijn. [Meer informatie](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Neem contact op met het accountteam van Adobe om deel te nemen aan de persoonlijke bètaversie.</p> | 26 april 2023 | Juni 2023 |
