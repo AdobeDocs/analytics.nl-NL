@@ -3,10 +3,10 @@ description: Stappen die beschrijven hoe te om een spreadsheet van Excel te prod
 title: Instellingen voor rapportsuites downloaden
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-source-git-commit: 00d37f1e77bb0f2cc0c7bd728a7f8bebe56d659e
+source-git-commit: b26da8f7e3aee3c3f3e68d24bd8b170e32759bbd
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Om een lusje-afgebakend dossier te produceren dat alle montages voor de geselect
 
 3. Klik op **[!UICONTROL Download]**.
 
-   Een bestand met de naam Report Suite Data.tab wordt naar uw lokale computer gedownload.
+   Een bestand met de naam `Report Suite Data.tab` wordt gedownload naar uw lokale computer.
 
 U kunt het bestand openen in elke teksteditor waarin door tabs gescheiden bestanden kunnen worden verwerkt.
 
