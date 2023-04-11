@@ -4,7 +4,7 @@ title: Een mobiele scorecard maken
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 06fc208465e8eb5be1f1fd766d40dadee84e4f9c
+source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
 workflow-type: tm+mt
 source-wordcount: '2284'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Als curator van dit scorecard, kunt u de Scorecard Bouwer gebruiken om te vormen
 U moet het volgende doen om het scorebord te maken:
 
 1. Toegang krijgen tot [!UICONTROL Blank Mobile Scorecard] sjabloon.
-2. Vorm scorecard met gegevens en bewaar het.
+1. Vorm scorecard met gegevens en bewaar het.
 
 ## Toegang krijgen tot [!UICONTROL Blank Mobile Scorecard] template {#template}
 
@@ -232,14 +232,23 @@ Bouw uw gegevensverhaal door veelvoudige detaildia&#39;s aan een tegel toe te vo
 
 1. Begin met een mobiel scorecardproject.
 1. Selecteer een tegel waarvan u een artikel wilt maken.
+
    ![Een gegevensartikel maken](assets/data-story1.png)
+
    ![Pictogrammen voor gegevensartikelen maken](assets/create-data-story.png){width=".50%"}
+
 1. Voeg dia&#39;s toe om uw gegevensverhaal te bouwen. De eerste dia wordt standaard gegenereerd.
-Als u nieuwe dia&#39;s wilt toevoegen, houdt u de muisaanwijzer boven een dia of klikt u op een dia en selecteert u een van de beschikbare opties:
-   * Tik op + om een nieuwe dia te maken.
+
+   Als u nieuwe dia&#39;s wilt toevoegen, houdt u de muisaanwijzer boven een dia of klikt u op een dia en selecteert u een van de beschikbare opties:
+
+   * Tik op de knop [!UICONTROL +] om een nieuwe dia te maken.
+
    * Tik op het dubbele pictogram om de bestaande dia te dupliceren.
+
 1. Als u een lege dia maakt, sleept u componenten vanuit de linkerrail en zet u de component neer. U kunt ook een lay-out kiezen om de dia automatisch te vullen met de gegevens uit de tegel.
+
    ![Een gegevensartikel maken](assets/data-story2.png)
+
 Tik op het prullenbakpictogram om een dia te verwijderen.
 
 ### Een gegevensartikel aanpassen {#customize-data-story}
@@ -251,9 +260,13 @@ Met gegevensartikelen kunt u alles aanpassen, zodat u informatie kunt delen die 
 1. Tik op een tegel. De geselecteerde tegel krijgt een blauwe omtrek en de eigenschappen Naast elkaar staan in het rechterdeelvenster.
 1. Wijzig de titel, het diagramtype en andere tegelopties.
 1. Sleep een component naar de tegel.
+
    ![Een gegevensartikel maken](assets/data-story3.png)
-Wanneer u een component, zoals een visualisatie, naar een tegel sleept, wordt de component toegepast op alle dia&#39;s met gegevensartikelen.
+
+   Wanneer u een component, zoals een visualisatie, naar een tegel sleept, wordt de component toegepast op alle dia&#39;s met gegevensartikelen.
+
 1. Als u een wijziging alleen op de titel wilt toepassen, houdt u Shift ingedrukt om de wijziging toe te passen.
+
    ![Een gegevensartikel maken](assets/data-story4.png)
 
 >[!NOTE]
@@ -272,7 +285,9 @@ Nadat u een gegevensartikel hebt gemaakt, gebruikt u de opdracht **Voorvertoning
 Op de navigatiebalk worden pictogrammen weergegeven die aangeven wat er op elke dia staat. Met de navigatiebalk kunt u gemakkelijk naar een bepaalde dia navigeren als u veel dia&#39;s hebt.
 
 Tik op de navigatiebalk om te schakelen tussen de tegel en de dia&#39;s.
+
 ![Een gegevensartikel maken](assets/data-story5.png)
+
 ![Een gegevensartikel maken](assets/data-story-nav.png){width="25%"}
 
 U kunt ook heen en weer navigeren met de pijlen op het toetsenbord of door een component te selecteren en deze links of rechts van het scherm te houden om te schuiven.
