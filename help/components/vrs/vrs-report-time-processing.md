@@ -5,9 +5,9 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: ec4edb257490d326ab8f8de51a4ab9412a2b4a28
+source-git-commit: 3be3de8c24e48f5ecddd37ff6d3cbcf64bca3209
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1278'
 ht-degree: 1%
 
 ---
@@ -55,33 +55,34 @@ De volgende afmetingen en metriek worden niet gesteund met de Verwerking van de 
 * **Analyses voor doel**
 * **Analyses voor Advertising Cloud-afmetingen/metriek**
 * **Counter Vars**
-* **Dagen vóór eerste aankoop**
-* **Dagen sinds laatste aankoop**
-* **Dagen sinds laatste bezoek**
+* [**Dagen vóór eerste aankoop**](/help/components/dimensions/days-before-first-purchase.md)
+* [**Dagen sinds laatste aankoop**](/help/components/dimensions/days-since-last-purchase.md)
+* [**Dagen sinds laatste bezoek**](/help/components/dimensions/days-since-last-visit.md)
 * **Oorspronkelijke invoerpagina**
 * **Lineaire toewijzing Vars**
 * **Lijstvars**
-* **Afmetingen marketingkanalen**
-* **Origineel verwijzingsdomein**
-* **Retourfrequentie**
-* **Eenmalige toegang**
+* [**Afmetingen marketingkanalen**](/help/components/dimensions/marketing-channel.md)
+* [**Oorspronkelijk referentiedomein**](/help/components/dimensions/original-referring-domain.md)
+* [**Retourfrequentie**](/help/components/dimensions/return-frequency.md)
+* [**Eenmalige toegang**](/help/components/metrics/single-access.md)
 * **Gegevensbronnen van transactie-id**
-* **Bezoeknummer**
+* [**Bezoeknummer**](/help/components/dimensions/visit-number.md)
 
 ## Betrokken afmetingen en metriek
 
 Hieronder volgt een lijst van afmetingen en metriek die afhankelijk van de geselecteerde montages van de Verwerking van de Tijd van het Rapport worden beïnvloed:
 
 * Als &quot;Voorkomen dat de Hits van de Achtergrond van een Nieuw Bezoek&quot;wordt toegelaten, komen de volgende veranderingen voor. Zie [Contextbewuste sessionisatie](vrs-mobile-visit-processing.md) voor meer informatie .
-   * **Bounces/Bounce rate:** Achtergrondresultaten die niet worden gevolgd door een treffer op de voorgrond, worden niet beschouwd als een stuit en dragen niet bij aan de stuiterende waarde.
-   * **Tijd in seconden per bezoek:** Alleen bezoeken die voorgrondhits bevatten, dragen bij aan deze meting.
+   * [**Bounces**](/help/components/metrics/bounces.md) / [**Stuitsnelheid:**](/help/components/metrics/bounce-rate.md) Achtergrondresultaten die niet worden gevolgd door een treffer op de voorgrond, worden niet beschouwd als een stuit en dragen niet bij aan de stuiterende waarde.
+   * [**Tijd in seconden per bezoek:**](/help/components/metrics/time-spent-per-visit.md) Alleen bezoeken die voorgrondhits bevatten, dragen bij aan deze meting.
    * **Tijd besteed per bezoek:** Alleen bezoeken die voorgrondhits bevatten, dragen bij aan deze meting.
-   * **Dimension en statistieken voor in- en uitstappen:** In deze dimensie worden alleen items en uitgangen van bezoeken met voorgrondhits weergegeven.
-   * **Unieke metrische bezoekers:** Unieke bezoekers nemen geen bezoekers op die alleen achtergrondtreffers hadden in het bereik van de rapportdatum.
-* **Bezoeken:** De bezoeken weerspiegelen welke montages de virtuele rapportreeks heeft gevormd, die van de reeks van het basisrapport kan verschillend zijn.
+   * [**Invoer metrisch**](/help/components/metrics/entries.md) / [**Metrisch afsluiten:**](/help/components/metrics/exits.md) In deze dimensie worden alleen items en uitgangen van bezoeken met voorgrondhits weergegeven.
+   * [**Dimensie item**](/help/components/dimensions/entry-dimensions.md) / [**Afmetingen afsluiten:**](/help/components/dimensions/exit-dimensions.md) In deze dimensie worden alleen items en uitgangen van bezoeken met voorgrondhits weergegeven.
+   * [**Unieke metrische bezoekers:**](/help/components/metrics/unique-visitors.md) Unieke bezoekers nemen geen bezoekers op die alleen achtergrondtreffers hadden in het bereik van de rapportdatum.
+* [**Bezoeken:**](/help/components/metrics/visits.md) De bezoeken weerspiegelen welke montages de virtuele rapportreeks heeft gevormd, die van de reeks van het basisrapport kan verschillend zijn.
 * **Geserialiseerde gebeurtenissen met gebeurtenis-id&#39;s:** Gebeurtenissen die gebruikmaken van serienummering van gebeurtenissen met een gebeurtenis-id, worden alleen gededupliceerd voor gebeurtenissen die binnen het bereik van de rapportdatum voor een bezoeker plaatsvinden. Deze gebeurtenissen worden niet over alle datums of bezoekers globaal als gevolg van het venster Datum van de Verwerking van de Tijd van het Rapport gededupliceerd.
-* **Aankopen/inkomsten/orders/eenheden:** Wanneer de aankoop-id wordt gebruikt, worden deze metriek alleen gededupliceerd voor dubbele aankoop-id&#39;s die binnen het bereik van de rapportdatum voor een bezoeker voorkomen in plaats van voor alle datums of bezoekers over de hele wereld vanwege het venster Datum van rapporttijdverwerking.
-* **Niet-commerciële eVars/gereserveerde eVars:** Waarden die in een eVar zijn ingesteld, blijven alleen behouden als de waarde binnen het bereik van de rapportdatum is ingesteld vanwege het venster Tijdverwerkingsdatum rapporteren. Bovendien kunnen op tijd gebaseerde vervaldatums een uur vroeg of een uur laat verlopen als de persistentie een zomertijdwijziging omvat.
-* **Merchandising Vars/reserved Vars:** Zie hierboven. Daarnaast wordt voor de conversiesyntaxis, waarbij de binding is ingesteld op &quot;een gebeurtenis&quot;, in plaats daarvan &quot;een hit&quot; gebruikt.
-* **Type hit:** Deze dimensie geeft aan of een hit op de voor- of achtergrond staat.
+* **Aankopen** / [**Ontvangsten**](/help/components/metrics/revenue.md) / [**Orders**](/help/components/metrics/orders.md) / [**Eenheden:**](/help/components/metrics/units.md) Wanneer de aankoop-id wordt gebruikt, worden deze metriek alleen gededupliceerd voor dubbele aankoop-id&#39;s die binnen het bereik van de rapportdatum voor een bezoeker voorkomen in plaats van voor alle datums of bezoekers over de hele wereld vanwege het venster Datum van rapporttijdverwerking.
+* [**Niet-verkoopbare variabelen**](/help/components/dimensions/evar.md) / **gereserveerde eVars:** Waarden die in een eVar zijn ingesteld, blijven alleen behouden als de waarde binnen het bereik van de rapportdatum is ingesteld vanwege het venster Tijdverwerkingsdatum rapporteren. Bovendien kunnen op tijd gebaseerde vervaldatums een uur vroeg of een uur laat verlopen als de persistentie een zomertijdwijziging omvat.
+* [**Merchandising Vars**](/help/components/dimensions/evar-merchandising.md) / **gereserveerde eVars:** Zie hierboven. Daarnaast wordt voor de conversiesyntaxis, waarbij de binding is ingesteld op &quot;een gebeurtenis&quot;, in plaats daarvan &quot;een hit&quot; gebruikt.
+* [**Type hit:**](/help/components/dimensions/hit-type.md) Deze dimensie geeft aan of een hit op de voor- of achtergrond staat.
 * **Dimension met (laag verkeer) of &quot;Uniques Exceeded&quot;:** Het (Laag-verkeer) lijnpunt wordt bepaald lichtjes verschillend wanneer het gebruiken van de Verwerking van de Tijd van het Rapport, en is gewaarborgd niet om te passen wat wanneer het melden op de Reeks van het basisrapport wordt waargenomen. De lijnpunten van Dimension die geen deel van Laag-verkeer uitmaken worden gegarandeerd niet 100% van de gegevens voor dat lijnpunt vertegenwoordigen. Deze verschillen kunnen groter worden naarmate het aantal unieke waarden in een dimensie groter wordt.
