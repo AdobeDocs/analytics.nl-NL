@@ -5,16 +5,20 @@ title: Migratie van bezoekers
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '465'
 ht-degree: 1%
 
 ---
 
 # Migratie van bezoekers
 
-Bezoekersmigratie is een proces waarbij het cookie van de bezoeker-id van het ene domein naar het andere wordt gemigreerd.
+>[!NOTE]
+>
+>Als u de Dienst van identiteitskaart van de Bezoeker van de Experience Cloud reeds hebt uitgevoerd dan is de Periode van de Restitutie niet van toepassing voor u en zou niet moeten worden toegelaten.
+
+Bezoekersmigratie is een proces waarbij de cookie(s_vi) van de bezoeker-id van het ene domein naar het andere wordt gemigreerd.
 
 Met de migratie van bezoekers kunt u de identificatie-cookies van bezoekers behouden wanneer u domeinen voor gegevensverzameling wijzigt. Domeinen voor gegevensverzameling kunnen om de volgende redenen worden gewijzigd:
 
