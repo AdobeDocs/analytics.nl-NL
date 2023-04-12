@@ -2,9 +2,9 @@
 title: VISTA-regels in Adobe Analytics
 description: Meer informatie over de regels en mogelijkheden van VISTA.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ Vele gevallen van gebruik van de VISTA-regels worden al aangeboden door [Verwerk
 
 >[!IMPORTANT]
 >
->Voor VISTA-regels is een overeenkomst tussen uw organisatie en Adobe Professional Services vereist. Neem contact op met de accountmanager van de Adobe van uw organisatie als u een VISTA-regel wilt maken of bijwerken.
+>Voor VISTA-regels is een overeenkomst tussen uw organisatie en Adobe Professional Services vereist. Neem contact op met uw Adobe-accountteam als u een VISTA-regel wilt maken of bijwerken.
 
 ## Een VISTA-regel maken
 
-U moet met Adobe Professional Services werken om een VISTA-regel te maken. Neem contact op met de accountmanager van de Adobe van uw organisatie als u een VISTA-regel wilt maken.
+U moet met Adobe Professional Services werken om een VISTA-regel te maken. Neem contact op met uw Adobe-accountteam als u een VISTA-regel wilt maken.
 
 ## Bestaande VISTA-regels bekijken
 
-Adobe biedt geen interface aan om bestaande VISTA-regels te bekijken. Neem contact op met de Adobe-accountmanager of de klantenservice van uw organisatie met de gewenste rapportsuite om een lijst met bestaande VISTA-regels op te halen.
+Adobe biedt geen interface aan om bestaande VISTA-regels te bekijken. Neem contact op met uw Adobe-accountteam of de klantenservice met de gewenste rapportsuite om een lijst met bestaande VISTA-regels op te halen.

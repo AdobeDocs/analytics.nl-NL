@@ -3,7 +3,7 @@ description: De id's die u verzendt, hebben niet altijd betrekking op alle raakg
 title: Id-uitbreiding
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 32%
@@ -59,4 +59,4 @@ Naast de standaardwaarde worden `priority` in het veld wordt ook de waarde &quot
 
 Bedenk ook dat voor bezoekers die een treffer hebben verwijderd (bijgewerkt of geanonimiseerd) als gevolg van een Data Privacy-verwijderingsaanvraag, de statusgegevens worden hersteld. De volgende keer dat de bezoeker uw website bezoekt, wordt deze een nieuwe bezoeker. Alle eVar-attributie wordt opnieuw gestart, evenals informatie als aantal bezoeken, referrers, bezochte eerste pagina, enz. Het resultaat is ongewenst in situaties waarin u gegevensvelden wilt wissen en geeft één reden aan waarom de Privacy Service-API niet geschikt is voor dit gebruik.
 
-Neem contact op met uw accountmanager (CSM) om samen te werken met ons consultatieteam van de Engineering Architect om verdere revisie uit te voeren en de moeite te leveren om eventuele PII&#39;s te verwijderen of gegevensproblemen op te lossen.
+Neem contact op met uw Adobe-accountteam om te coördineren met ons consultatieteam van de Engineering Architect voor verder overzicht en om de moeite te nemen om eventuele PII&#39;s te verwijderen of gegevensproblemen op te lossen.

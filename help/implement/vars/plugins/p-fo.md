@@ -3,40 +3,56 @@ title: p_fo (alleen Pagina eerste)
 description: Zorg ervoor dat bepaalde routines slechts één keer per pagina worden geactiveerd.
 feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: p_fo (alleen Pagina eerste)
 
->[!IMPORTANT]
->
->Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+{{plug-in}}
 
 De `p_fo` insteekmodule is een hulpprogramma dat controleert of een specifiek JavaScript-object bestaat. Als het object niet bestaat, maakt de plug-in het object en wordt deze geretourneerd `true`. Als het JavaScript-object al op de pagina aanwezig is, wordt het geretourneerd `false`. Deze insteekmodule is handig als u code precies één keer op een pagina wilt uitvoeren. Verscheidene andere stop-ins baseren zich op deze code om te werken. Deze plug-in is niet nodig als u zich geen zorgen maakt over het aantal keren dat code op een pagina wordt uitgevoerd of als u geen afhankelijke plug-ins gebruikt.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## De plug-in installeren met de extensie Web SDK
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize p_fo
-1. Save and publish the changes to the rule.-->
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klikken **[!UICONTROL Tags]** klikt u links op de gewenste eigenschap tag.
+1. Klikken **[!UICONTROL Extensions]** klikt u links op de knop **[!UICONTROL Catalog]** tab
+1. Zoek en installeer de **[!UICONTROL Common Web SDK Plugins]** extensie.
+1. Klikken **[!UICONTROL Data Elements]** klikt u links op het gewenste gegevenselement.
+1. Stel de gewenste naam van het gegevenselement in met de volgende configuratie:
+   * Extensie: Algemene insteekmodules voor Web SDK
+   * Gegevenselement: `p_fo`
+1. Sla de wijzigingen in het gegevenselement op en publiceer deze.
+
+## De plug-in handmatig installeren met de implementatie van de Web SDK
+
+Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige implementatie van de Web SDK.
+
+## De insteekmodule installeren met de Adobe Analytics-extensie
+
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
+   * Voorwaarde: Geen
+   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
+   * Extensie: Gebruikelijke plug-ins voor Analytics
+   * Type handeling: p_fo initialiseren
+1. Sla de wijzigingen in de regel op en publiceer deze.
 
 ## Plug-in installeren met aangepaste code-editor
 
-Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
+Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.

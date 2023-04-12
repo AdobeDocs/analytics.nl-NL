@@ -2,9 +2,9 @@
 title: Overzicht van classificatiesets
 description: Classificatiesets gebruiken om classificatiegegevens te beheren.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 0%
 Classificatiesets bieden één interface voor het beheer van classificaties en regels. Deze workflow combineert het concept van het maken van classificaties in Report Suite Settings met het concept Classification Importer om een intuïtievere interface te bieden voor het maken en beheren van classificatiegegevens.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**
-
->[!NOTE]
->
->Classificatiesets zullen beschikbaar zijn voor alle klanten die hun rapportsuites hebben gemigreerd naar de nieuwe classificatiearchitectuur. Neem voor meer informatie contact op met de klantenservice van Adobe of uw accountmanager.
 
 De backend architectuur die met de Reeksen van de Classificatie wordt vrijgegeven bevat verscheidene opmerkelijke verbeteringen:
 

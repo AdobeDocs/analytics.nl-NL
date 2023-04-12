@@ -3,9 +3,9 @@ title: Overzicht van plug-ins
 description: Plak code op uw site om nieuwe functionaliteit te introduceren.
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: f3c656b0b631d655159ae89d4622990937cf84ef
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '308'
 ht-degree: 1%
 
 ---
@@ -14,15 +14,13 @@ ht-degree: 1%
 
 Plug-ins zijn codefragmenten die verschillende geavanceerde functies uitvoeren om uw analytische implementatie te helpen. Deze plug-ins breiden de mogelijkheden van uw JavaScript-bestand uit, zodat u meer functionaliteit krijgt die niet beschikbaar is bij een eenvoudige implementatie. Adobe biedt een aantal andere plug-ins als onderdeel van geavanceerde oplossingen.
 
->[!IMPORTANT]
->
->Plug-ins worden geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-ins, waaronder installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met een plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+{{plug-in}}
 
 Adobe biedt verschillende manieren om een bepaalde plug-in te installeren:
 
-<!--1. Use the 'Common Analytics Plugins' extension using the Web SDK or the Adobe Analytics extension-->
-1. Plug-incode plakken met de aangepaste code-editor
-1. Plak de insteekcode in uw `AppMeasurement.js` file
+* De extensie &#39;Common Analytics Plugins&#39; gebruiken met de extensie Adobe Analytics
+* Plug-incode plakken met de aangepaste code-editor
+* Plak de insteekcode in uw `AppMeasurement.js` file
 
 Elke organisatie heeft verschillende implementatiebehoeften, zodat u kunt besluiten hoe u hen in uw implementatie wilt omvatten. Zorg ervoor dat u aan de volgende criteria voldoet wanneer u de code op uw site opneemt:
 

@@ -3,38 +3,42 @@ title: getPercentPageViewed
 description: Haal het percentage op van de pagina die de bezoeker heeft weergegeven.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: dc60b9e6d298aa20b5f6ac7fc776b56118b764f0
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: getPercentPageViewed
 
->[!IMPORTANT]
->
->Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+{{plug-in}}
 
 De `getPercentPageViewed` insteekmodule meet de schuifactiviteit van een bezoeker om te zien hoeveel van een pagina deze bekijkt voordat deze naar een andere pagina gaat. Deze insteekmodule is niet nodig als de pagina&#39;s klein van hoogte zijn of als u de scrollactiviteit niet wilt meten.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## De insteekmodule installeren met de extensie Web SDK of Web SDK
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Deze plug-in wordt nog niet ondersteund voor gebruik in de Web SDK.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getPercentPageViewed
-1. Save and publish the changes to the rule.-->
+## De insteekmodule installeren met de Adobe Analytics-extensie
+
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
+   * Voorwaarde: Geen
+   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
+   * Extensie: Gebruikelijke plug-ins voor Analytics
+   * Type handeling: getPercentPageViewed initialiseren
+1. Sla de wijzigingen in de regel op en publiceer deze.
 
 ## Plug-in installeren met aangepaste code-editor
+
+Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.

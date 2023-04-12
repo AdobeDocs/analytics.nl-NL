@@ -4,9 +4,9 @@ description: Het concept om krediet van een succesgebeurtenis toe te wijzen aan 
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 47%
 
 ---
@@ -18,7 +18,7 @@ Attributie geeft analisten de mogelijkheid om aan te passen hoe dimensie-items k
 1. Een bezoeker van uw site klikt op een koppeling naar een betaalde zoekopdracht naar een van uw productpagina&#39;s. Ze voegen het product toe aan het winkelwagentje, maar kopen het niet.
 2. De volgende dag zien ze een bericht in de sociale media van een van hun vrienden, klikken ze op de link en voltooien ze de aankoop.
 
-In sommige rapporten wilt u mogelijk de volgorde toewijzen aan Geavanceerd zoeken. In andere rapporten, zou u de orde aan Sociaal kunnen willen worden toegeschreven. Met kenmerk kunt u dit aspect van rapportage beheren. Het is beschikbaar voor alle organisaties op Adobe Analytics Ultimate, Premier, Select en Foundation. Als u niet zeker weet welk type contract u met Adobe hebt, neemt u contact op met de accountmanager van uw organisatie.
+In sommige rapporten wilt u mogelijk de volgorde toewijzen aan Geavanceerd zoeken. In andere rapporten, zou u de orde aan Sociaal kunnen willen worden toegeschreven. Met kenmerk kunt u dit aspect van rapportage beheren. Het is beschikbaar voor alle organisaties op Adobe Analytics Ultimate, Premier, Select en Foundation. Als u niet zeker bent welk type van contract u met Adobe hebt, contacteer het Team van de Rekening van de Adobe van uw organisatie.
 
 ## Waarde van Attribution IQ
 

@@ -3,40 +3,57 @@ title: getPreviousValue
 description: Hiermee wordt de laatste waarde opgehaald die in een variabele is doorgegeven.
 feature: Variables
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
 
 # Adobe-plug-in: getPreviousValue
 
->[!IMPORTANT]
->
->Deze plug-in wordt geleverd door Adobe Consulting als hoffelijkheid om u te helpen meer waarde uit Adobe Analytics te krijgen. De klantenservice van Adobe biedt geen ondersteuning voor deze plug-in, inclusief installatie of probleemoplossing. Neem contact op met de accountmanager van uw organisatie als u hulp nodig hebt met deze plug-in. Zij kunnen een vergadering voor hulp met een consultant organiseren.
+{{plug-in}}
 
 De `getPreviousValue` kunt u een variabele instellen op een waarde die bij een vorige hit is ingesteld. Deze insteekmodule is niet nodig als de implementatie alle gewenste waarden in de huidige hit bevat.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## De plug-in installeren met de extensie Web SDK
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe biedt een uitbreiding aan die u toestaat om het meest algemeen gebruikte stop-ins met het Web SDK te gebruiken.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getPreviousValue
-1. Save and publish the changes to the rule.-->
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klikken **[!UICONTROL Tags]** klikt u links op de gewenste eigenschap tag.
+1. Klikken **[!UICONTROL Extensions]** klikt u links op de knop **[!UICONTROL Catalog]** tab
+1. Zoek en installeer de **[!UICONTROL Common Web SDK Plugins]** extensie.
+1. Klikken **[!UICONTROL Data Elements]** klikt u links op het gewenste gegevenselement.
+1. Stel de gewenste naam van het gegevenselement in met de volgende configuratie:
+   * Extensie: Algemene insteekmodules voor Web SDK
+   * Gegevenselement: `getPreviousValue`
+1. Stel de gewenste parameters rechts in.
+1. Sla de wijzigingen in het gegevenselement op en publiceer deze.
+
+## De plug-in handmatig installeren met de implementatie van de Web SDK
+
+Deze insteekmodule wordt nog niet ondersteund voor gebruik in een handmatige implementatie van de Web SDK.
+
+## De insteekmodule installeren met de Adobe Analytics-extensie
+
+Adobe biedt een extensie waarmee u veelgebruikte plug-ins kunt gebruiken in Adobe Analytics.
+
+1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
+1. Klik op de gewenste tageigenschap.
+1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop [!UICONTROL Catalog] knop
+1. Installeer en publiceer de [!UICONTROL Common Analytics Plugins] extension
+1. Als u niet reeds hebt, creeer een regel geëtiketteerd &quot;Initialize stop-ins&quot;met de volgende configuratie:
+   * Voorwaarde: Geen
+   * Gebeurtenis: Kern - Bibliotheek geladen (pagina boven)
+1. Voeg een actie aan de bovengenoemde regel met de volgende configuratie toe:
+   * Extensie: Gebruikelijke plug-ins voor Analytics
+   * Type handeling: getPreviousValue initialiseren
+1. Sla de wijzigingen in de regel op en publiceer deze.
 
 ## Plug-in installeren met aangepaste code-editor
 
-Als u de extensie van de plug-in niet wilt gebruiken, kunt u de aangepaste code-editor gebruiken.
+Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kunt u de redacteur van de douanecode gebruiken.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste eigenschap.

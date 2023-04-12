@@ -2,9 +2,9 @@
 title: Veldgebaseerde stitching
 description: Begrijp de eerste vereisten en de beperkingen van het stitching van gegevens gebruikend op gebied-gebaseerde stitching.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Cross-Device Analytics biedt twee verschillende methoden om gegevens aan elkaar 
 
 ## Vereisten die specifiek zijn voor veldomstandigheden
 
-Als u Cross-Device Analytics wilt implementeren met behulp van op het veld gebaseerde stitching, is het volgende vereist. Werk met teams binnen uw organisatie en uw Adobe-accountmanager om ervoor te zorgen dat u aan alle volgende voorwaarden voldoet.
+Als u Cross-Device Analytics wilt implementeren met behulp van op het veld gebaseerde stitching, is het volgende vereist. Werk met teams binnen uw organisatie en uw Adobe Account Team om ervoor te zorgen dat u aan alle volgende voorwaarden voldoet.
 
 >[!WARNING]
 >
@@ -23,7 +23,7 @@ Als u Cross-Device Analytics wilt implementeren met behulp van op het veld gebas
 
 * Alle voorwaarden die op de [overzichtspagina](overview.md).
 * Uw implementatie moet een proxy of eVar instellen die een individu waar mogelijk op unieke wijze identificeert, bijvoorbeeld wanneer een gebruiker zich aanmeldt of een e-mail opent. Deze eis geldt voor alle platforms, inclusief mobiele apps indien gebruikt. Wijs geen standaardwaarde aan de eigenschap of de eVar toe.
-* Geef de gewenste identificatievariabele door aan uw accountmanager wanneer deze is ingericht voor stitching op basis van velden.
+* Deel de gewenste identificerende variabele aan uw Team van de Rekening van Adobe mee wanneer provisioned voor op gebied-gebaseerd het stitching.
 
 ## Beperkingen die specifiek zijn voor stitching in het veld
 

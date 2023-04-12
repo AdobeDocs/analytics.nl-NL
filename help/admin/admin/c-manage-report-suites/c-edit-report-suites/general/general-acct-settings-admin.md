@@ -4,9 +4,9 @@ title: Algemene accountinstellingen
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Hier volgt een video over het configureren van algemene accountinstellingen:
 | Opslag van transactie-id | Hiermee kunt u [Transactie-id](/help/import/data-sources/transactionid.md) gegevensbronnen. |
 | Data Warehouse inschakelen | Hiermee schakelt u de gebruikersinterface van de Data Warehouse in via Analytics > Tools > Data Warehouse. |
 | Zip-optie | Hier kunt u de postcode opgeven in plaats van wat onze IP-opzoekopdracht van de geo oplevert. |
-| Ondersteuning voor multibyte-tekens | Bij multibyte-tekenondersteuning worden tekens in de rapportsuite opgeslagen met UTF-8. Na ontvangst zet het systeem gegevens van de tekenset van uw webpagina om in de tekenset UTF-8, zodat u elke taal in uw marketingrapporten kunt gebruiken. Neem contact op met uw accountmanager of de klantenservice om de multibyte-tekenondersteuning voor een bestaande rapportsuite te wijzigen. |
+| Ondersteuning voor multibyte-tekens | Bij multibyte-tekenondersteuning worden tekens in de rapportsuite opgeslagen met UTF-8. Na ontvangst zet het systeem gegevens van de tekenset van uw webpagina om in de tekenset UTF-8, zodat u elke taal in uw marketingrapporten kunt gebruiken. Neem contact op met uw Adobe-accountteam of de klantenservice om de multibyte-tekenondersteuning voor een bestaande rapportsuite te wijzigen. |
 | Geactiveerd | Geeft aan of deze rapportsuite is geactiveerd of niet. |
 | Basisvaluta | Hiermee kunt u de basis opgeven [valuta](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) voor dit rapportpakket. |
 | Organisatie-id | De id die is gekoppeld aan uw Experience Cloud-bedrijf dat u hebt ingericht. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg. |

@@ -3,7 +3,7 @@ title: Los de leveringstijden van het verzoek van de Data Warehouse problemen op
 description: Bepaal potentiële kwesties met een verzoek van de Data Warehouse dat leveringstijden kan verlengen.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -37,4 +37,4 @@ Als u deze types van rapporten op een geschiktere manier vereist, overweeg de vo
 
 * **Analysis Workspace**: Hoewel de onbeperkte afmetingspunten niet beschikbaar zijn, omvat het bijna alle andere gebruiksgevallen die de Data Warehouse verstrekt.
 * **Gegevensfeed**: Neemt alle ruwe gegevens in een rapportreeks dagelijks en verzendt het naar een plaats van FTP. U kunt deze gegevens vervolgens in uw eigen database importeren en query&#39;s uitvoeren om de gegevens te verkrijgen die u zoekt.
-* **Oplossing voor Custom Engineering Services**: De Diensten van de Techniek van Adobe kunnen een douaneoplossing voor uw organisatie tegen extra kosten verstrekken. Neem contact op met de accountmanager van uw organisatie voor meer informatie.
+* **Oplossing voor Custom Engineering Services**: De Diensten van de Techniek van Adobe kunnen een douaneoplossing voor uw organisatie tegen extra kosten verstrekken. Neem contact op met het accountteam van uw Adobe voor meer informatie.

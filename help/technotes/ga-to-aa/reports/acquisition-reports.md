@@ -3,7 +3,7 @@ title: Overnameverslagen in Adobe Analytics
 description: Leer hoe u op aankopen gebaseerde rapporten maakt met Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 0%
@@ -141,4 +141,4 @@ Het rapport met biologische trefwoorden laat zien hoe elk trefwoord wordt uitgev
 
 ## Kostenanalyse
 
-Dit rapport bevat informatie over het bezoek, de kosten en de inkomstenprestaties voor uw betaalde marketingkanalen. Adobe biedt een speciaal product voor inzicht dat Adobe Advertising Cloud wordt genoemd. Neem contact op met de accountmanager van uw organisatie als uw organisatie dit product wil gebruiken.
+Dit rapport bevat informatie over het bezoek, de kosten en de inkomstenprestaties voor uw betaalde marketingkanalen. Adobe biedt een speciaal product voor inzicht dat Adobe Advertising Cloud wordt genoemd. Neem contact op met uw Adobe-accountteam als uw organisatie dit product wil gebruiken.

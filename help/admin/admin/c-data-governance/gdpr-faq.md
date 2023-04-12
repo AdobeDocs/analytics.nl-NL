@@ -3,10 +3,10 @@ description: Veelgestelde vragen over Adobe Analytics-gegevensbeheer
 title: Veelgestelde vragen over gegevensbeheer
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '2076'
-ht-degree: 48%
+ht-degree: 46%
 
 ---
 
@@ -108,7 +108,7 @@ De [API voor Privacy Service van gegevens](https://developer.adobe.com/experienc
 
 We vragen u de Data Privacy-API niet te gebruiken voor andere doeleinden, zoals het wissen van data die per ongeluk zijn verzonden tussen grote groepen bezoekers. Bedenk ook dat voor bezoekers die een treffer hebben verwijderd (bijgewerkt of geanonimiseerd) als gevolg van een Data Privacy-verwijderingsaanvraag, de statusgegevens worden hersteld. De volgende keer dat de bezoeker uw website bezoekt, wordt deze een nieuwe bezoeker. Alle eVar-attributie wordt opnieuw gestart, evenals informatie als aantal bezoeken, referrers, bezochte eerste pagina, enz. Dit bijeffect is ongewenst in situaties waarin u datavelden wilt wissen, en legt de nadruk op één reden waarom de Data Privacy-API niet geschikt is voor dit gebruik.
 
-Neem contact op met uw accountmanager (CSM) om samen met het consultingteam van onze engineering-architect verder te controleren en zich in te spannen voor het verwijderen van eventuele PII- of dataproblemen.
+Neem contact op met uw Adobe-accountteam om te coördineren met ons consultatieteam van de Engineering Architect voor verdere controle en om de moeite te nemen om eventuele PII- of gegevensproblemen te verwijderen.
 
 +++
 
@@ -118,7 +118,7 @@ De [API voor Privacy Service van gegevens](https://developer.adobe.com/experienc
 
 Bedenk ook dat voor bezoekers die een treffer hebben verwijderd (bijgewerkt of geanonimiseerd) als gevolg van een Data Privacy-verwijderingsaanvraag, de statusgegevens worden hersteld. De volgende keer dat de bezoeker uw website bezoekt, wordt deze een nieuwe bezoeker. Alle eVar-attributie wordt opnieuw gestart, evenals informatie als aantal bezoeken, referrers, bezochte eerste pagina, enz. Dit bijeffect is ongewenst in situaties waarin u datavelden wilt wissen, en legt de nadruk op één reden waarom de Data Privacy-API niet geschikt is voor dit gebruik.
 
-Neem contact op met uw accountmanager (CSM) om samen te werken met ons consultatieteam van de Engineering Architect om verdere revisie uit te voeren en de moeite te leveren om eventuele problemen met PII&#39;s of gegevens te verwijderen.
+Neem contact op met uw Adobe-accountteam om te coördineren met ons consultatieteam van de Engineering Architect voor verder overzicht en om de moeite te nemen om eventuele problemen met PII&#39;s of gegevens te verwijderen.
 
 +++
 
