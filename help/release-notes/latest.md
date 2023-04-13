@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 611477ef794464de0b05b45e8445ed8fdd32b154
+source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1550'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die
 | **IP-verduistering voor Experience Edge** | Experience Edge biedt ondersteuning voor IP-verwarring voor gegevens die rechtstreeks naar Adobe Experience Platform worden verzonden. Dit komt klanten ten goede die gegevens rechtstreeks naar Platform voor gebruik in CJA of andere oplossingen van het Platform verzenden. IP de verwarring wordt gevormd op het niveau van de gegevensstroom. Het steunt het verwijderen van het laatste octet of het volledige IP adres.<p>**Opmerking**: Obfusatie is NIET van toepassing op gegevens die naar Adobe Analytics worden verzonden. Analytics blijft volledige IP krijgen. IP verwerking blijft afzonderlijk in Analytics worden gedaan. In de toekomst zijn we van plan om de gegevens van Analytics aan de rand te laten verduisteren. | N.v.t. | AEP-release op 26 april 2023 |
 | **Gegevenswoordenboek in Analysis Workspace** | Met het gegevenswoordenboek kunnen gebruikers en beheerders de componenten (afmetingen, metriek) in hun analyseomgeving bijhouden, beheren en beter begrijpen. [Meer informatie](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 maart 2023 | 29 maart 2023 |
 | **Het delen van verbindingen voor projecten (geen vereiste login)** - Alleen persoonlijke bètatoegang | <p>U kunt nu alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. U kunt projectverbindingen met mensen buiten uw organisatie, of die binnen uw organisatie delen die niet provisioned voor Adobe Analytics zijn. [Meer informatie](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Neem contact op met het accountteam van Adobe om deel te nemen aan de persoonlijke bètaversie.</p> | 26 april 2023 | Juni 2023 |
+| 2 nieuwe eindpuntgidsen voor Adobe Analytics 2.0 API | <ul><li>[Dimension-API voor analyse](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API voor analysemetriek](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | N.v.t. | 10 april 2023 |
 
 {style="table-layout:auto"}
 

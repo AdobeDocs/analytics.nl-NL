@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 025f176777ef8fd4f91d74fb493e45889c66f439
+source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
 workflow-type: tm+mt
-source-wordcount: '3798'
-ht-degree: 33%
+source-wordcount: '3827'
+ht-degree: 32%
 
 ---
 
@@ -25,6 +25,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **April 2023** |  |
+| 2 nieuwe eindpuntgidsen voor Adobe Analytics 2.0 API | <ul><li>[Dimension-API voor analyse](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API voor analysemetriek](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | **maart 2023** |  |
 | Web SDK steun voor Activity Map | Bijgewerkt [Adobe Analytics implementeren](/help/implement/home.md) en [Activity Map inschakelen](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | Overzicht van verkeersvariabelen | Toegevoegde secties en stapsgewijze procedures om de inhoud van artikelen te verduidelijken en te verbeteren. De samengevoegde inhoud van een artikel getiteld, &quot;laat de rapporten van de verkeersvariabele&quot;toe en verwijderde dat artikel. Zie [Overzicht van verkeersvariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
