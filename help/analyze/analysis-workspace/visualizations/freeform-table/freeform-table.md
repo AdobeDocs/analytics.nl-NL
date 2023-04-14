@@ -4,9 +4,9 @@ description: Freeform-tabellen vormen de basis voor gegevensanalyse in Workspace
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8ca676a9e69195ef873981dd390bb0a6d4d465f1
+source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,13 @@ ht-degree: 0%
 
 In Analysis Workspace is een Freeform-tabel de basis voor interactieve gegevensanalyse. U kunt een combinatie van [componenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) in rijen en kolommen om een aangepaste tabel voor uw analyse te maken. Aangezien elke component wordt gelaten vallen, werkt de lijst onmiddellijk bij, zodat kunt u snel analyseren en dieper graven.
 
-U begint met een lege Vrije-vormtabel als illustratie.
+## Een eenvoudige tabel voor vrije vorm maken
+
+U begint met een lege Vrije-vormtabel.
 
 ![Lege tabel voor vrije vorm](assets/freeform-table-1.png)
 
-Als u de **[!UICONTROL ** Bezoeken **]** metrisch op de **[!UICONTROL ** Een metrische waarde hier neerzetten (of een andere component)**]** De tabel Vrije vorm wordt automatisch gevuld met bezoeken per dag voor de periode die u hebt geselecteerd.
+Als u de **[!UICONTROL ** Bezoeken **]** metrisch op de **[!UICONTROL ** Een metrische waarde hier neerzetten (of een andere component)**]** wordt de tabel Vrije vorm automatisch gevuld met dagelijkse bezoeken voor de geselecteerde kalenderperiode.
 
 ![Visa Freeform Table](assets/freeform-table-2.png)
 
@@ -27,7 +29,7 @@ Als u vervolgens de **[!UICONTROL ** Pagina **]** dimensie ter vervanging van de
 
 ![Bezoeken op pagina Freeform-tabel](assets/freeform-table-3.png)
 
-En dan kun je bijvoorbeeld de **[!UICONTROL ** categorie:5 **]** pagina door de **[!UICONTROL ** Marketingkanaal **]** dimensie van de **[!UICONTROL ** categorie:5 **]** rij.
+Vervolgens kunt u bijvoorbeeld de opdracht **[!UICONTROL ** categorie:5 **]** pagina door de **[!UICONTROL ** Marketingkanaal **]** dimensie van de **[!UICONTROL ** categorie:5 **]** rij.
 
 ![Hiermee gaat u naar de indeling naar tabel voor vrije vorm van pagina](assets/freeform-table-4.png)
 
