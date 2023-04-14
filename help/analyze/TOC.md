@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1098'
 ht-degree: 78%
 
 ---
@@ -56,7 +56,6 @@ ht-degree: 78%
       + Segmenten {#segments}
          + [Segmenten maken](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Snelle segmenten](analysis-workspace/components/segments/quick-segments.md)
-         + [Ad-hocsegmenten](analysis-workspace/components/segments/ad-hoc-segments.md)
       + Kalender- en datumbereiken {#calendar-date-ranges}
          + [Overzicht van kalender- en datumbereiken](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Aangepaste datumbereiken maken](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)

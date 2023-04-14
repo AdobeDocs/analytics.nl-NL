@@ -4,9 +4,9 @@ title: Bekende beperkingen in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 ## Componenten > Segmenten
 
 * Bepaalde maatstaven en dimensies zijn niet segmenteerbaar, zoals [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], enz.
-* Adhoc-segmenten gemaakt in het dialoogvenster [dropzone van deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) niet in de linkerspoorstaaf van Workspace of de manager van de component van het Segment verschijnen, tenzij zij openbaar worden gemaakt. U doet dit door het segment te bewerken en **[!UICONTROL Make this segment public]**.
+* Adhoc-segmenten gemaakt in het dialoogvenster [dropzone van deelvenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) Dit is een type snel filter. Ze worden alleen in de linkerspoorlijn van Workspace of Segment-componentmanager weergegeven als ze openbaar worden gemaakt. Zie voor meer informatie [Snelle segmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## Componenten > Berekende cijfers
 

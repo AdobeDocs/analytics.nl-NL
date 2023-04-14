@@ -4,9 +4,9 @@ title: Overzicht van deelvensters
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -70,9 +70,9 @@ Sleep een segment van de linkerspoorstaaf naar de neerzetzone van het deelvenste
 
 Niet-segmentcomponenten kunnen ook rechtstreeks in de dalingsstreek worden gesleept om ad hoc segmenten tot stand te brengen, die u de tijd en de inspanning besparen om naar de Bouwer van het Segment te gaan. Segmenten die op deze manier worden gemaakt, worden automatisch gedefinieerd als raaksegmenten. Deze definitie kan worden gewijzigd door op het informatiepictogram (i) naast het segment te klikken, vervolgens op het pictogram voor het bewerken van de vorm van een potlood te klikken en dit te bewerken in de Segment Builder.
 
-Ad-hocsegmenten zijn lokaal voor het project en verschijnen niet in uw linkerspoor tenzij u ze openbaar maakt.
+Ad hoc segmenten zijn een type van snel segment, en zijn lokaal aan het project. Ze komen niet in de linkerspoorstaaf voor als je ze niet openbaar maakt.
 
-![](/help/admin/admin/assets/filter.png)
+Zie voor meer informatie [Snelle segmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ### Vervolgkeuzefilters {#dropdown-filter}
 
