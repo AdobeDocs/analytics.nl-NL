@@ -1,10 +1,10 @@
 ---
 title: Handleiding Analytics-tools
-description: Productdocumentatie en zelfhulp voor Analysis Workspace, Adobe Analytics-dashboards, Activity Map, Report Builder, API voor rapportage en rapporten en analyse.
+description: Productdocumentatie en zelfhulp voor Analysis Workspace, analytische dashboards (mobiele app), Activity Map, Report Builder, rapportage-API en rapporten en analyse.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
+source-git-commit: c659d85ce0dea98245eb25f1432720d69cfe77cf
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -15,30 +15,26 @@ ht-degree: 0%
 
 ![Banner](../../assets/doc_banner_analyze.png)
 
-Deze handleiding bevat productdocumentatie en zelfhulp voor de volgende rapportage- en analysetools voor Adobe Analytics:
+De handleiding Analytics Tools bevat informatie over productfuncties, gebruiksscenario&#39;s, taakinstructies en aanbevolen procedures voor de volgende analyseprogramma&#39;s:
 
-* **[!UICONTROL Analysis Workspace]:** De belangrijkste functie in Adobe Analytics. Workspace biedt een canvas waar u onderdelen naartoe kunt slepen om aan rapportagevereisten te voldoen.
-* **[!UICONTROL Adobe Analytics dashboards]:** Met deze mobiele app kunnen gebruikers mobiele toegang krijgen tot intuïtieve scorecards met belangrijke meetgegevens, gedetailleerdere onderverdelingen en trended-rapporten.
-* **[!UICONTROL Activity Map]:** Een browserplug-in met een overlay op uw site die laat zien op welke elementen het vaakst is geklikt.
-* **[!UICONTROL Report Builder]:** Een Excel-plug-in waarmee u de data van Analytics kunt ophalen en direct in een werkmap kunt zetten.
-* **[!UICONTROL Reporting API]:** Stuur rapportquery’s rechtstreeks naar de servers van Adobe, en ontvang reacties voor gebruik in uw eigen klantrapportagetools.
-* **[!UICONTROL Reports & Analytics]:** Een tool met tientallen vooraf gemaakte rapporten. Adobe raadt u aan Analysis Workspace te gebruiken voor de meeste rapportageactiviteiten. **Opmerking:** Rapporten en analyses worden [einde-van-lifed](https://www.adobe.com/go/analytics_rnaeol_en) op 31 december 2023.
+| Gereedschap | Beschrijving |
+|-----------|----------------|
+| **[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)** | Analysis Workspace is een flexibel browserprogramma waarmee u snel analyses kunt maken en inzichten kunt delen. Gebruikend de belemmering-en-dalingsinterface, kunt u uw analyse amberen, visualisaties toevoegen om gegevens aan het leven te brengen, een dataset te leiden, projecten met iedereen in uw organisatie te delen en te plannen. |
+| **[Analysedashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)** | Met analytische dashboards en hun mobiele scorecards kunnen uitvoerende gebruikers snel en gemakkelijk een brede weergave van belangrijke samenvattingsgegevens op hun eigen mobiele apparaten bekijken. De curatoren voegen visualisaties aan mobiele scorecard projecten toe en delen hen met managers.  <br>Scorecards bieden een manier om KPI&#39;s te richten en te meten en geven een duidelijke indicatie van hoe goed organisaties werken om hun doelstellingen te bereiken. |
+| **[Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)** | Activity Map is een Adobe Analytics-toepassing die is ontworpen om linkactiviteiten met behulp van visuele overlays te rangschikken en die een dashboard van realtime analyses biedt om de betrokkenheid van het publiek van uw webpagina&#39;s te controleren. <br>Met Activity Map kunt u verschillende weergaven instellen om visueel de versnelling van klantactiviteiten te identificeren, marketinginitiatieven te kwantificeren en op de behoeften en het gedrag van het publiek in te spelen.&quot; |
+| **[Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)** | Report Builder is een invoegtoepassing voor Microsoft Excel. Met Report Builder kunt u aangepaste aanvragen maken van Adobe Analytics-gegevens die in uw Excel-werkbladen worden ingevoegd. De aanvragen kunnen dynamisch verwijzen maar cellen binnen uw werkblad, en u kunt bijwerken en aanpassen hoe Report Builder de data weergeeft. |
+| **[API&#39;s voor Analytics ](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Analytics APIs staat u toe om Adobe direct te roepen die om het even welke actie uitvoeren u in het gebruikersinterface kunt uitvoeren. U kunt rapporten maken om te verkennen, inzichten op te halen of belangrijke vragen over uw gegevens te beantwoorden. U kunt ook componenten van Adobe Analytics beheren, zoals het maken van segmenten of berekende metriek. |
+| **[Rapporten en analyses](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html)** | Rapporten en analyses zijn een hulpmiddel met tientallen vooraf gebouwde rapporten en visualisaties. Deze zijn nu beschikbaar in Analysis Workspace. **Met ingang van 31 december 2023 is Adobe van plan de rapporten en analyses en de bijbehorende verslagen en kenmerken te beëindigen. Adobe raadt u aan Analysis Workspace te gebruiken voor de meeste rapportageactiviteiten.** Zie voor meer informatie [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). |
 
-Hier volgt een video-overzicht van Adobe Analytics:
+Als u meer wilt weten over de basisbeginselen van Adobe Analytics, raadpleegt u de *Introductie tot Adobe Analytics - Skill Builder Webinar* onderstaande video. De video doorloopt u de basisbeginselen van hoe gegevens worden vastgelegd, hoe gegevens naar Adobe Analytics worden verzonden en welke visualisatiemogelijkheden u kunt gebruiken in Adobe Analytics. De video biedt een basis voor u om gegevens te maken, implementeren, verzamelen en interpreteren...zodat u op basis van de verzamelde gegevens activeerbare inzichten en aanbevelingen kunt geven.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
-## Belangrijke artikelen over Analytics-tools
+Voor vragen over welk gereedschap u wilt gebruiken, raadpleegt u [Welk Adobe Analytics-gereedschap moet ik gebruiken?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html).
 
-* [Adobe Analytics-dashboards - overzicht](/help/analyze/mobile-app/home.md)
-* [Aan de slag met Analysis Workspace](analysis-workspace/home.md)
-* [Welke Adobe Analytics-tool moet ik gebruiken?](/help/analyze/get-started/which-analytics-tool.md)
-* [Aan de slag met Report Builder](report-builder/home.md)
-* [Activity Map voor Aan de slag](activity-map/activity-map.md)
+## Gebruikershandleidingen voor Analytics
 
-## Meer Analytics-gebruikershandleidingen
-
-[Analytics-gebruikershandleidingen](https://experienceleague.adobe.com/docs/analytics.html)
+Ga voor meer informatie over Adobe Analytics-functies en hoe u deze kunt gebruiken naar [Gebruikershandleidingen voor Analytics](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Belangrijke bronnen voor Analytics
 
@@ -46,3 +42,4 @@ Hier volgt een video-overzicht van Adobe Analytics:
 * [Analytics-forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Bronnen voor Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
+
