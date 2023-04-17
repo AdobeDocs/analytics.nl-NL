@@ -4,9 +4,9 @@ description: Dig dieper in de gegevens rond uw publiek en onderbreek in verwante
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Voorbeelden van wat u kunt doen met [!UICONTROL Cohort Analysis]:
 * Het marketingbudget verschuiven op precies het juiste moment in de levenscyclus van de klant.
 * Herken wanneer een proefversie of een aanbieding moet worden beëindigd om de waarde te maximaliseren.
 * Verbeter ideeën voor het testen A/B op gebieden zoals tarifering, verbeteringspad, etc.
-* Een [!UICONTROL Cohort Analysis] in een rapport met instructies.
 
 [!UICONTROL Cohort Analysis] is beschikbaar voor alle Adobe Analytics-klanten met toegangsrechten voor [!UICONTROL Analysis Workspace].
 
