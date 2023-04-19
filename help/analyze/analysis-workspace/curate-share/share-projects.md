@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
+source-git-commit: e3447bc278cfcf5553e46ceb298d9f4743f73328
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -138,6 +138,10 @@ Een Analysis Workspace-project delen met mensen die geen toegang hebben tot Adob
    <!-- Add screen shot of new modal -->
 
 1. De optie **[!UICONTROL Link is active]** als deze optie nog niet is ingeschakeld.
+
+   Als u deze optie selecteert, wordt een koppeling naar het project gemaakt die met iedereen kan worden gedeeld. U kunt toegang tot het project op elk ogenblik onbruikbaar maken door deze optie onbruikbaar te maken.
+
+   De eigenaar van het project is ook de eigenaar van deze verbinding. De eigendom van de verbinding kan aan een andere gebruiker slechts worden overgebracht wanneer de projecteigendom, zoals die in wordt beschreven wordt overgebracht [Gebruikerselementen overdragen of verlopen van account instellen](/help/admin/admin/user-management2/users-assets.md) in de handleiding Analytics Admin.
 
 1. Geef op of u de volgende beveiligingsoptie wilt inschakelen (deze optie kan worden beheerd door de beheerder van Analytics):
 
