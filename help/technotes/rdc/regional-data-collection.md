@@ -3,16 +3,16 @@ title: Regionale dataverzameling
 description: Informatie over regionale gegevensverzameling
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 8f02656820ed0b9201f29fc9dca6870e6f7fe8fd
+source-git-commit: f75d123c93d446776492dd933d03d32c2496fa69
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Regionale dataverzameling
 
-De Adobe Experience Cloud maakt gebruik van regionale gegevensverzameling (Regional Data Collection, RDC), zodat interactie tussen uw bezoekers en Adobe zich zo dicht mogelijk bij uw bezoekers voordoet. Zodra de gegevens regionaal bij een Centrum van de Inzameling van Gegevens (DCC) worden verzameld, door:sturen het over een veilige verbinding aan een Centrum van de Gegevensverwerking (DPC). Na verwerking zijn de gegevens beschikbaar voor producten in de Adobe Experience Cloud.
+De Adobe Experience Cloud maakt gebruik van regionale gegevensverzameling (Regional Data Collection, RDC), zodat interactie tussen uw bezoekers en Adobe zich zo dicht mogelijk bij uw bezoekers voordoet. Zodra de gegevens regionaal bij een Centrum van de Inzameling van Gegevens (DCC) worden verzameld, door:sturen het over een veilige verbinding aan een Centrum van de Gegevensverwerking (DPC). Na verwerking zijn de gegevens beschikbaar voor producten in de Adobe Experience Cloud. Neem contact op met de klantenservice van Adobe als u uw RDC-type wilt wijzigen.
 
 Bij het regionale gegevensverzamelingsproces worden de volgende stappen uitgevoerd:
 
@@ -39,7 +39,7 @@ De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk
 
 >[!NOTE]
 >
->Als uw verzoek voor een analyseafbeelding naar de `adobedc`, `2o7.net` of `omtrdc.net` eindpunten, dan hebt u derdegegevensinzameling. U kunt dit bepalen als u één van beide eindpunt in URL van uw verzoeken ziet.
+>Als uw verzoek voor een analyseafbeelding naar de `adobedc.net`, `2o7.net` of `omtrdc.net` eindpunten, dan hebt u derdegegevensinzameling. U kunt dit bepalen als u één van beide eindpunt in URL van uw verzoeken ziet.
 
 ## Gegevensverzameling van eerste partijen
 
