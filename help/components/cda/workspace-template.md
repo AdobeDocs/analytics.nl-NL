@@ -2,9 +2,9 @@
 title: CDA Workspace-sjabloon
 description: Beschrijft elk gebied in het malplaatje CDA binnen Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Er wordt een Analysis Workspace-project gemaakt dat meerdere deelvensters bevat.
    * Experience Cloud ID-dekking: Alleen bezoekers met een ECID kunnen worden aangesloten. Een lager percentage bezoekers van uw site met een ECID correleert met lagere compressiesnelheden.
    * Meerdere apparaatgebruik: Als bezoekers van uw site niet meerdere apparaten gebruiken, ziet u lagere compressiesnelheden.
    * Korreligheid rapporteren: Compressie per dag is doorgaans kleiner dan compressie per maand of jaar. De kansen voor een individu om veelvoudige apparaten te gebruiken worden kleiner binnen één enkele dag dan over een volledige maand. Het segmenteren, het filtreren, of het gebruiken van breekdimensies kunnen een lagere compressiesnelheid ook tonen.
-* **Op personen gebaseerde segmenten**: Bevat een segmentvervolgkeuzelijst waarmee u apparaatspecifieke gegevens kunt weergeven. In dit deelvenster kunt u beter experimenteren met segmenten om te zien hoe het opnemen of uitsluiten van apparaattypen van invloed is op rapporten.
+* **Op personen gebaseerde segmenten**: Bevat een segmentdrop-down lijst die u toestaat om apparaat specifieke gegevens te bekijken. In dit deelvenster kunt u beter experimenteren met segmenten om te zien hoe het opnemen of uitsluiten van apparaattypen van invloed is op rapporten.
 * **De reis naar andere apparaten analyseren**: Verstrekt stroom en reserverapporten die op apparatentype worden gebaseerd.
 * **Apparaattoewijzing**: Combineer de functies van Reis IQ en Attribution IQ.
 * **Overige tips en trucs**: Nuttige onderwerpen rond CDA die u meer uit het gebruiken van het laten komen.

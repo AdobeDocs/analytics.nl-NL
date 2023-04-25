@@ -3,9 +3,9 @@ title: clearVars
 description: Wist de volgende waarden van het instantieobject. Deze functie verwijdert de elementen (plaatst hen als "undefined.")
 feature: Variables
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '192'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Plaats de Duidelijke actie van Variabelen wanneer het vormen van een regel.
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 4. Onder [!UICONTROL Actions], klikt u op het pictogram &#39;+&#39;
-5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] tot [!UICONTROL Clear Variables].
+5. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar Adobe Analytics en de [!UICONTROL Action Type] tot [!UICONTROL Clear Variables].
 
 ## s.clearVars() in AppMeasurement en de aangepaste code-editor van de extensie Analytics
 

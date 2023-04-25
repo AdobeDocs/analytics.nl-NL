@@ -3,9 +3,9 @@ title: Veelgestelde vragen over Data Warehouse
 description: Veelgestelde vragen over Data Warehouse.
 feature: Data Warehouse
 exl-id: 51c3ba17-a8b2-4030-9521-355ebbbfcd0d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '132'
 ht-degree: 6%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 Veelgestelde vragen over Data Warehouse.
 
-## Wanneer ik het drop-down van de granulariteit terwijl het creëren van een verzoek gebruik, welke formaat kan ik de data verwachten om binnen te zijn?
+## Wanneer ik de granularity drop-down lijst terwijl het creëren van een verzoek gebruik, welke formaat kan ik de data verwachten om binnen te zijn?
 
 Wanneer het toepassen van granulariteit in een verzoek van de Data Warehouse, wordt de kolom van de &quot;Datum&quot;toegevoegd aan het rapport. Afhankelijk van de geselecteerde granulariteit verandert de datumnotatie.
 

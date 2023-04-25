@@ -4,7 +4,7 @@ title: Handleiding voor Adobe Analytics-dashboards
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 0%
@@ -101,7 +101,7 @@ Dashboards gebruiken:
 
    * Afhankelijk van het interval dat u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), ziet u twee opties voor datumbereiken—ofwel de huidige tijdsperiode of de reeks die er direct aan voorafgaat. Tik op een van deze twee opties om het eerste bereik te selecteren. Onder de **[!UICONTROL COMPARE TO]** tikt u op een van de voorgestelde opties om de gegevens van deze tijdsperiode te vergelijken met de gegevens van het eerste datumbereik dat u hebt geselecteerd. Tikken **[!UICONTROL Done]** in de rechterbovenhoek van het scherm. De **[!UICONTROL Date Ranges]** worden de nieuwe vergelijkingsgegevens uit de nieuwe bereiken die u hebt geselecteerd, bijgewerkt met de scorebordtegels.
 
-1. Tik op de vervolgkeuzelijst met filters en selecteer een segment dat door de curator is geconfigureerd om een segmentfilter op uw scorebord toe te passen. [Filters](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in de app werken op dezelfde manier als in de Analytics Workspace.
+1. Als u een segmentfilter op uw scorebord wilt toepassen, tikt u op de vervolgkeuzelijst met filters en selecteert u een segment dat door de curator is geconfigureerd. [Filters](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in de app werken op dezelfde manier als in de Analytics Workspace.
 
    ![Segment, filter](/help/admin/admin/assets/filter.png)
 

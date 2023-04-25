@@ -5,9 +5,9 @@ uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '583'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Deze instellingen zijn van toepassing op de standaardmodusbedekking.
 
 | Instelling | Beschrijving |
 | --- | --- |
-| **[!UICONTROL Dynamic Data Filtering]** | In dit vervolgkeuzemenu kunt u overlays weergeven voor<ul><li>(standaard) Alle koppelingen op de pagina</li><li>Het hoogste (hoogste) of laagste (laagste) aantal gerangschikte koppelingen op de pagina, waarbij # een keuze kan zijn uit 1, 10, 50 of 100.</li></ul> |
+| **[!UICONTROL Dynamic Data Filtering]** | In deze vervolgkeuzelijst kunt u overlays weergeven voor<ul><li>(standaard) Alle koppelingen op de pagina</li><li>Het hoogste (hoogste) of laagste (laagste) aantal gerangschikte koppelingen op de pagina, waarbij # een keuze kan zijn uit 1, 10, 50 of 100.</li></ul> |
 | **[!UICONTROL Hide overlays for links that received no hits]**. | Een selectievakje waarmee de zichtbaarheid van overlays voor koppelingen zonder gegevens wordt geschakeld.<ul><li>(gebrek) als checkbox wordt gecontroleerd, dan wordt geen bedekking getoond wanneer een verbinding geen ActivityMap verbindingsgegevens heeft.</li><li>Als het selectievakje is uitgeschakeld, wordt een overlay weergegeven als een koppeling geen ActivityMap-koppelingsgegevens heeft en een label &quot;-&quot;, wat betekent: N.v.t. (niet van toepassing). |
 
 ## Live-instellingen {#section_D30F6E62FB5D404090B588F396A460AF}

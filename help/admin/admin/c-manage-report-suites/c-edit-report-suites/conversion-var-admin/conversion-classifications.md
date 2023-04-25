@@ -3,9 +3,9 @@ description: Classificaties worden gebruikt om waarden in groepen te categoriser
 title: Conversieclassificaties
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 3%
 
 ---
@@ -48,7 +48,7 @@ Conversieclassificaties toevoegen in Admin:
    Opties omvatten **[!UICONTROL Text]** en **[!UICONTROL Numeric]**. Voor meer informatie over classificatietypen raadpleegt u [Over classificaties](/help/components/classifications/c-classifications.md).
 1. In de **[!UICONTROL Text Classifications]** de classificatie naar wens configureren.
 
-1. In de **[!UICONTROL Dropdown List]** opties toevoegen of verwijderen.
+1. Opties toevoegen aan of verwijderen uit het dialoogvenster Vervolgkeuzelijst.
 
    Met Opties toevoegen maakt u een lijst met classificatiewaarden die beschikbaar zijn voor deze classificatie. U kunt deze optie gebruiken met campagnevariabelen om gebruikers een lijst van gesteunde waarden voor de classificatie in de Manager van de Campagne te voorzien. Gebruik dit voor classificatiedimensies als u een klein aantal toegestane waarden hebt die zelden of nooit veranderen. Bijvoorbeeld, zou u verschillende campagnes kunnen in werking stellen die op verschillende niveaus van klantenloyaliteit worden gericht: Zilver, Goud en Platinum. Vervolgens kunt u de vervolgkeuzelijst gebruiken om er zeker van te zijn dat alleen de waarden worden geaccepteerd die overeenkomen met de drie niveaus. Als iemand een andere waarde probeert te gebruiken, wordt deze genegeerd.
 

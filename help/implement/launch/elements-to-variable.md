@@ -3,9 +3,9 @@ title: Taggegevenselementen toewijzen aan analytische variabelen
 description: Wijs gegevenselementen toe aan variabelen van de Analyse zodat u hen als afmetingen in Analysis Workspace kunt gebruiken.
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Variabelen die in regels zijn ingesteld, zijn ideaal als u geen variabelen op el
 1. Klik op de gewenste tageigenschap.
 1. Klik op de knop [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 1. Klik op de knop [!UICONTROL Add] knop onder [!UICONTROL Actions].
-1. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] om variabelen in te stellen.
+1. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar Adobe Analytics en de [!UICONTROL Action Type] om variabelen in te stellen.
 1. Klik op de knop ![Gegevenselement](assets/data-element.png) rechts van de gewenste variabele Analytics. De [document ontwerp oplossing](../prepare/solution-design.md) Hiermee bepaalt u welke variabele Analytics moet worden gebruikt.
 1. Selecteer het gewenste gegevenselement in het modale venster. Klik op [!UICONTROL Select].
 1. De naam van het gegevenselement wordt toegevoegd aan het tekstveld dat wordt omgeven door `%` tekens. Als u bijvoorbeeld het gegevenselement &quot;Paginanaam&quot; een naam geeft, wordt de tekenreeks weergegeven `%Page name%` bij het toewijzen van een gegevenselement aan een variabele.

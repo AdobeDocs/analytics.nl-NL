@@ -3,9 +3,9 @@ title: hier
 description: Hiërarchievariabelen implementeren in Adobe Analytics.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
-source-git-commit: f435453f655caef89460de42ebecf489b021dc47
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ U kunt hiërarchieën instellen tijdens het configureren van de extensie Analyti
 2. Klik op de gewenste tageigenschap.
 3. Ga naar de [!UICONTROL Rules] klikt u op de gewenste regel (of maakt u een regel).
 4. Onder [!UICONTROL Actions]klikt u op een bestaande [!UICONTROL Adobe Analytics - Set Variables] of klik op het pictogram &#39;+&#39;.
-5. Stel de [!UICONTROL Extension] en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
+5. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar Adobe Analytics en de [!UICONTROL Action Type] tot [!UICONTROL Set Variables].
 6. Zoek de [!UICONTROL Hierarchy] sectie.
 
 U kunt een hiërarchische waarde instellen op een statische tekenreeks of verwijzen naar een gegevenselement. U kunt ook het gewenste scheidingsteken instellen. Zorg ervoor dat het scheidingsteken dat u hier instelt, overeenkomt met het scheidingsteken dat is ingesteld in de instellingen van de rapportsuite.

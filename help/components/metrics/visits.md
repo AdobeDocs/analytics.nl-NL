@@ -3,9 +3,9 @@ title: Bezoeken
 description: Een reeks paginaweergaven tijdens een sessie.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: ceee6f27581abc288ff08134218ae7f6b93e9201
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---

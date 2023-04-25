@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '3860'
+source-wordcount: '3861'
 ht-degree: 32%
 
 ---
@@ -218,7 +218,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 12 september 2019 | Bijwerken [Berekende totalen van metriek](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html) document. |
 | 28 augustus 2019 | Nieuw artikel over [Progressieve Web Apps (PWA’s) voor Analytics](/help/technotes/pwa.md). |
 | 8 augustus 2019 | Nieuw artikel over [Berekende standaarden - totalen](/help/components/c-calcmetrics/cm-totals.md). |
-| 8 augustus 2019 | Verduidelijking over [sessiedata met tijdstempels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8 augustus 2019 | In Workspace verhoogde Adobe de limiet van items die in een vervolgkeuzefilter kunnen worden geplaatst, van 50 tot 200. Deze verbetering is nuttig voor een groot aantal gebruikssituaties, zoals het toevoegen van alle landen (195) aan een filter, of alle staten en provincies in de VS (52). |
+| 8 augustus 2019 | Verduidelijking over [sessiedata met tijdstempels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8 augustus 2019 | In Werkruimte, verhoogde Adobe de grens van punten die in een statische drop-down filter van 50 tot 200 kunnen worden geplaatst. Deze verbetering is nuttig voor een groot aantal gebruikssituaties, zoals het toevoegen van alle landen (195) aan een filter, of alle staten en provincies in de VS (52). |
 | 2 augustus 2019 | Belangrijke update van de [Analytics-woordenlijst](/help/technotes/terms.md). |
 | 22 juli 2019 | Magento: Marketing- en Commerce-sjabloon toegevoegd aan de documentatie over [Analysis Workspace-sjablonen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 18 juli 2019 | Bijgewerkte [Cohorttabel-instellingen](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |

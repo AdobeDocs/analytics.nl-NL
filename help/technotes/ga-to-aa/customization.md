@@ -3,9 +3,9 @@ title: Aanpassing rapporteren in Adobe Analytics
 description: Leer hoe u rapporten kunt aanpassen in Adobe Analytics
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Een berekende metrische waarde maken:
 
 1. Klik op de knop **+** pictogram bij de metrische lijst om het [!UICONTROL Calculated Metric Builder].
 2. Geef de berekende metrische waarde een naam en geef een indeling op.
-3. Sleep metrische componenten naar het definitiegebied en gebruik de dropdowns tussen elke component om een exploitant aan te wijzen.
+3. Sleep metrische componenten naar het definitiegebied en gebruik de vervolgkeuzelijsten tussen elke component om een operator aan te wijzen.
 4. Zodra berekende metrisch de gewenste formule bevat, klik sparen om terug naar uw werkruimte te gaan.
 5. Sleep de nieuw gedefinieerde berekende metrische waarde naar de werkruimte.
 

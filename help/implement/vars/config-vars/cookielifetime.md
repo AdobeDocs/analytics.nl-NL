@@ -3,9 +3,9 @@ title: cookieLifetime
 description: Overschrijf de vervaldatum voor cookies die door AppMeasurement worden gemaakt.
 feature: Variables
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De SDK van het Web biedt nog geen aanpassing aan het leven van koekjes aan die h
 
 ## Cookie Lifetime met de Adobe Analytics-extensie
 
-Cookie Lifetime is een vervolgkeuzelijst onder [!UICONTROL Cookies] accordeon bij het configureren van de Adobe Analytics-extensie.
+Cookie Lifetime is een vervolgkeuzelijst onder de [!UICONTROL Cookies] accordeon bij het configureren van de Adobe Analytics-extensie.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.

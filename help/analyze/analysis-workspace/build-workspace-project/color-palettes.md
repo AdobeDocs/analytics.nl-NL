@@ -4,9 +4,9 @@ title: Wat zijn visualisatiekleurenpaletten en hoe werken ze?
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Hier volgt een video over het gebruik van aangepaste [!UICONTROL color palettes]
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
 1. Ga naar **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
-1. Van de **[!UICONTROL Project Color Palette]** kunt u kiezen uit vijf vooraf ingestelde kleurenschema&#39;s.
+1. Van de **[!UICONTROL Project Color Palette]** in de vervolgkeuzelijst kunt u kiezen uit vijf vooraf ingestelde kleurenschema&#39;s.
 
    ![](assets/custom_palette.png)
 

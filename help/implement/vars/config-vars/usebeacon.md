@@ -3,7 +3,7 @@ title: useBeacon
 description: Met useBeacon kunt u AppMeasurement forceren om de sendBeacon-API voor browsers te gebruiken
 feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -30,7 +30,7 @@ De **[!UICONTROL Document will unload]** checkbox binnen een Configuratie van de
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Rules] en klikt u op de gewenste regel.
 1. Onder [!UICONTROL Actions], klikt u op de gewenste handeling of klikt u op de knop **&#39;+&#39;** pictogram om een nieuwe handeling toe te voegen.
-1. Het vervolgkeuzemenu Extensie instellen op **[!UICONTROL Adobe Experience Platform Web SDK]** en de [!UICONTROL Action Type] tot **[!UICONTROL Send event]**
+1. Stel de [!UICONTROL Extension] vervolgkeuzelijst naar **[!UICONTROL Adobe Experience Platform Web SDK]** en de [!UICONTROL Action Type] tot **[!UICONTROL Send event]**
 1. Klik op het selectievakje **[!UICONTROL Document will unload]** rechts.
 
 Als dit vakje wordt gecontroleerd, worden de gegevens verzonden naar Adobe gebruikend sendBeacon API. Deze optie is standaard uitgeschakeld.

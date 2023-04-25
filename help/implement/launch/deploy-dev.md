@@ -3,9 +3,9 @@ title: Adobe Analytics implementeren in een ontwikkelomgeving
 description: Leer hoe u tags kunt gebruiken om Adobe Analytics in uw ontwikkelomgeving te implementeren.
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ De markeringen passen vele organisatorische werkschema&#39;s in het opstellen va
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de eigenschap tag die u op uw site wilt implementeren.
 3. Klikken **[!UICONTROL Hosts]** en klik vervolgens op **[!UICONTROL Add Host]**.
-4. Naam geven `"Adobe managed"`en selecteert u **[!UICONTROL Managed by Adobe]** in het vervolgkeuzemenu type. Klik op Opslaan.
+4. Naam geven `"Adobe managed"`en selecteert u **[!UICONTROL Managed by Adobe]** in de vervolgkeuzelijst Type. Klik op Opslaan.
 5. Navigeren naar **[!UICONTROL Environments]** en klik vervolgens op **[!UICONTROL Add Environment]**.
-6. Selecteren **[!UICONTROL Development]**, noem deze `"Dev Environment"`en selecteert u vervolgens de door Adobe beheerde host in het vervolgkeuzemenu. Klik op **[!UICONTROL Save]**.
+6. Selecteren **[!UICONTROL Development]**, noem deze `"Dev Environment"`en selecteer vervolgens de door Adobe beheerde host in de vervolgkeuzelijst. Klik op **[!UICONTROL Save]**.
 7. Er wordt een modaal venster weergegeven met daarin de instructies voor het installeren van een web. We zullen later terugkeren naar dit venster. klikken **[!UICONTROL Close]** voorlopig .
 8. Klikken **[!UICONTROL Add Environment]**, selecteert u **[!UICONTROL Staging]**, noem deze `"Staging Environment"`en selecteer vervolgens de door Adobe beheerde host. Klikken **[!UICONTROL Create]** Sluit vervolgens het modale venster voor installatie-instructies.
 9. Klikken **[!UICONTROL Add Environment]** nogmaals, selecteert u **[!UICONTROL Production]**, noem deze `"Production Environment"`en selecteer vervolgens de door Adobe beheerde host. Klikken **[!UICONTROL Create]** Sluit vervolgens het modale venster voor installatie-instructies.
@@ -42,7 +42,7 @@ Ondanks alle tot dusver aangebrachte wijzigingen en configuraties is er geen cod
 4. De bibliotheek een naam geven `'Initial changes'`en selecteert u de ontwikkelomgeving.
 5. Klikken **[!UICONTROL Add All Changed Resources]**, die automatisch Adobe Analytics, Identity Service en Core opsomt.
 6. Klik op **[!UICONTROL Save]**.
-7. Klik op het scherm met de publicatieworkflow op het vervolgkeuzemenu naast de nieuwe bibliotheek en klik op **[!UICONTROL Build for Development]**. Na een paar seconden wordt de gele stip in de bibliotheek groen om aan te geven dat het samenstellen is gelukt.
+7. Klik in het scherm met de publicatieworkflow op de vervolgkeuzelijst naast de nieuwe bibliotheek en klik op **[!UICONTROL Build for Development]**. Na een paar seconden wordt de gele stip in de bibliotheek groen om aan te geven dat het samenstellen is gelukt.
 8. Navigeren naar **[!UICONTROL Environments]** klikt u vervolgens op het installatiepictogram rechts van de ontwikkelomgeving. Deze actie brengt het Web weer omhoog installeert instructies modale venster.
 9. Kopieer de codeblokken en geef deze door aan de eigenaars van de website van uw organisatie.
 

@@ -3,9 +3,9 @@ title: Een ontwikkelimplementatie valideren en publiceren naar productie
 description: Leer hoe u Adobe Experience Platform-tags kunt gebruiken om Adobe Analytics in uw productieomgeving te implementeren.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '612'
 ht-degree: 2%
 
 ---
@@ -34,11 +34,11 @@ Nadat u hebt bevestigd dat u gegevens ziet, kunt u uw implementatie naar de live
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de eigenschap tag die u op uw site wilt implementeren.
 1. Klik op de knop **[!UICONTROL Publishing]** en zoek de bibliotheek in de ontwikkelingskolom.
-1. Klik op het vervolgkeuzemenu in de bibliotheek en selecteer vervolgens **[!UICONTROL Submit for Approval]**. Klikken **[!UICONTROL Submit]** in het modale venster.
-1. Klik nogmaals op het vervolgkeuzemenu van de bibliotheek (nu in de kolom Verzenden) en selecteer **[!UICONTROL Build for Staging]**.
+1. Klik op de vervolgkeuzelijst in de bibliotheek en selecteer **[!UICONTROL Submit for Approval]**. Klikken **[!UICONTROL Submit]** in het modale venster.
+1. Klik nogmaals op de vervolgkeuzelijst van de bibliotheek (nu in de kolom Verzenden) en selecteer **[!UICONTROL Build for Staging]**.
 1. Na enkele ogenblikken wordt het geel gekleurde licht op de bibliotheek groen, wat aangeeft dat het is gemaakt.
-1. Klik nogmaals op het vervolgkeuzemenu van de bibliotheek en selecteer **[!UICONTROL Approve for Publishing]**.
-1. Klik nogmaals op het vervolgkeuzemenu van de bibliotheek (nu in het dialoogvenster [!UICONTROL Approved] kolom) en selecteer **[!UICONTROL Build and Publish to Production]**.
+1. Klik nogmaals op de vervolgkeuzelijst van de bibliotheek en selecteer **[!UICONTROL Approve for Publishing]**.
+1. Klik nogmaals op de vervolgkeuzelijst van de bibliotheek (nu in het dialoogvenster [!UICONTROL Approved] kolom) en selecteer **[!UICONTROL Build and Publish to Production]**.
 1. Ga naar het tabblad Omgevingen en klik op **[!UICONTROL Production Environment]**.
 1. Kopieer de installatiecode voor de productie en geef deze door aan de eigenaars van uw website. Vraag of zij deze code in de productieomgeving van uw site willen implementeren.
 

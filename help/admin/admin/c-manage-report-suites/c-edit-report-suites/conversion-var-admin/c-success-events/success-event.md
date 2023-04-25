@@ -4,9 +4,9 @@ keywords: event
 title: Overzicht van succesgebeurtenissen
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '690'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,6 @@ Open de pagina Gebeurtenissen succes in de montages van de rapportreeks:
 2. Klik op de knop met het 9-raster bovenaan en klik vervolgens op [!UICONTROL Analytics].
 3. Ga naar [!UICONTROL Admin] > [!UICONTROL Report Suites]
 4. Selecteer de gewenste rapportsuite en navigeer naar [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Success Events].
-5. Zoek de gewenste gebeurtenis en wijzig deze [!UICONTROL Unique Event Recording] vervolgkeuzelijst naar [!UICONTROL Record Once Per Visit] of [!UICONTROL Use Event ID].
 
 Afhankelijk van het type website zijn er vele soorten succesgebeurtenissen. Enkele voorbeelden:
 

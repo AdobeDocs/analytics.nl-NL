@@ -3,9 +3,9 @@ title: sa
 description: Wijzig de rapportsuite op elk gewenst moment in de implementatie.
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,12 @@ De SDK van het Web werkt door gegevens naar een specifieke DataStream te verzend
 
 ## Plaats de gewenste Datasstream gebruikend de uitbreiding van SDK van het Web
 
-De uitbreiding van SDK van het Web verstrekt een dropdown DataStream voor elk milieu. U kunt ook handmatig de DataStream-id invoeren.
+De uitbreiding van SDK van het Web verstrekt een drop-down lijst DataStream voor elk milieu. U kunt ook handmatig de DataStream-id invoeren.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 1. Klik op de gewenste tageigenschap.
 1. Ga naar de [!UICONTROL Extensions] en klikt u op de knop **[!UICONTROL Configure]** knop onder [!UICONTROL Adobe Experience Platform Web SDK].
-1. Onder [!UICONTROL Datastreams]kiest u de gewenste DataStream in de vervolgkeuzelijst voor elke omgeving.
+1. Onder [!UICONTROL Datastreams]kiest u de gewenste gegevensstroom in de vervolgkeuzelijst voor elke omgeving.
 1. Klik op **[!UICONTROL Save]**.
 
 ## Plaats manueel gewenste Datasstream die SDK van het Web uitvoert

@@ -5,10 +5,10 @@ title: Nieuwe functies in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f83ab75e9a3cce2dd3dc13d88be97cf97df3dc65
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '8165'
-ht-degree: 87%
+source-wordcount: '8155'
+ht-degree: 86%
 
 ---
 
@@ -143,7 +143,7 @@ Verbetering uitgebracht op 8 augustus 2019.
 
 | Verbetering | Beschrijving |
 |--- |--- |
-| De limiet voor het aantal items in een vervolgkeuzefilter is verhoogd van 50 naar 200 | We hebben de limiet voor het aantal items dat in een vervolgkeuzelijst kan worden geplaatst, verhoogd van 50 naar 200. Deze verbetering is nuttig voor een groot aantal gebruikssituaties, zoals het toevoegen van alle landen (195) aan een filter, of alle staten en provincies in de VS (52). |
+| Itemgrens voor statische drop-down filters van 50 tot 200 verhogen | De limiet van items die in een statisch vervolgkeuzefilter kunnen worden geplaatst, wordt verhoogd van 50 naar 200. Deze verbetering is nuttig voor een groot aantal gebruikssituaties, zoals het toevoegen van alle landen (195) aan een filter, of alle staten en provincies in de VS (52). |
 
 ## Juli 2019
 
@@ -202,29 +202,10 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 1 november 2018.
 
 Nieuwe functies en verbeteringen die zijn uitgebracht op 11 oktober 2018.
 
-<table id="table_3DDC812B2F66416F868004416D248BF3">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Functie </th>
-   <th colname="col2" class="entry"> Beschrijving </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p><b>Beheer van vervolgkeuzelijsten in deelvensters</b> </p> </td>
-   <td colname="col2"> <p>We hebben een aantal wijzigingen aangebracht voor het beheer van de vervolgkeuzelijsten in deelvensters. Deze zijn geïntroduceerd in de MR van september. Wanneer u met de rechtermuisknop op de vervolgkeuzelijst klikt, kunt u nu het volgende doen </p>
-    <ul id="ul_4BDEC66EEB2243628FE32B43E377E5BD">
-     <li id="li_EF8277BE972540D3B2604D82BC7C0918">Een vervolgkeuzelijst verwijderen (deze optie is altijd aanwezig). </li>
-     <li id="li_6A991208F2744274817DBE1E9D1B443F">Een label verwijderen (als er een label wordt weergegeven). </li>
-     <li id="li_5C1CFC465C2E41D2B35E8841EFDC82AA">Een label toevoegen (als er geen label wordt weergegeven). </li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p><b>Koppelingen in het deelvenster en de knopinfo voor visualisaties</b> </p> </td>
-   <td colname="col2"> <p>We hebben koppelingen naar relevante video's en documentatie toegevoegd aan de knopinfo voor deelvensters en visualisaties. </p> </td>
-  </tr>
- </tbody>
-</table>
+| Functie | Beschrijving |
+| --- | --- |
+| Vervolgkeuzemenu voor deelvensters | Er worden een paar wijzigingen aangebracht in het beheer van de vervolgkeuzelijsten van het deelvenster. Wanneer u met de rechtermuisknop op een vervolgkeuzelijst klikt, kunt u de vervolgkeuzelijst verwijderen, een label verwijderen (als er een label wordt weergegeven) of een label toevoegen (als er geen label wordt weergegeven). |
+| Koppelingen in het deelvenster en de knopinfo voor visualisaties | Er worden koppelingen toegevoegd naar relevante video&#39;s en documentatie voor het deelvenster en de knopinfo voor visualisatie. |
 
 ## September 2018
 
@@ -239,7 +220,7 @@ Nieuwe functies en verbeteringen die zijn uitgebracht op 13 september 2018.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b>Vervolgkeuzelijsten in het deelvenster</b> </p> </td>
+   <td colname="col1"> <p><b>Vervolgkeuzelijsten voor deelvensters</b> </p> </td>
    <td colname="col2"> <p>De neerzetzone van het deelvenster heeft nu vervolgkeuzemogelijkheden. Met vervolgkeuzelijsten kunnen eindgebruikers op een gecontroleerde manier werken met projectdata. Voorbeeld: stel dat verscheidene versies van een project hebt om landspecifieke rapporten te verstrekken. U kunt deze projecten nu samenvouwen tot één project en een vervolgkeuzelijst met landen toevoegen. </p> </td>
   </tr>
   <tr>

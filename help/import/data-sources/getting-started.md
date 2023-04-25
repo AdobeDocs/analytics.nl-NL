@@ -1,9 +1,10 @@
 ---
 title: Aan de slag met gegevensbronnen
 description: Upload voorbeeldgegevens naar een ontwikkelrapport-suite.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -18,15 +19,15 @@ U kunt deze stappen volgen om steekproefgegevens in een reeks van het ontwikkeli
 
 1. Aanmelden bij Adobe Analytics via [https://experience.adobe.com](https://experience.adobe.com).
 1. Ga naar **[!UICONTROL Admin]** > **[!UICONTROL All Admin]** > **[!UICONTROL Data sources]**.
-1. Selecteer een reeks van het ontwikkelingsrapport gebruikend dropdown in hoogste recht.
+1. Selecteer een reeks van het ontwikkelingsrapport gebruikend de drop-down lijst in het hoogste recht.
 1. Klik op de knop **[!UICONTROL Create]** linksboven.
 1. Onder [!UICONTROL Select Category]kiest u &quot;[!UICONTROL Generic]&quot;, en onder [!UICONTROL Select Type]kiest u &quot;[!UICONTROL Generic Data Source (Summary Data Only)]&quot;.
 1. Klik op **[!UICONTROL Activate]**. Er wordt een pop-upvenster geopend waarin de [!UICONTROL Data Source Activation Wizard].
    1. Stap 1: Geef de gegevensbron een naam en klik op het selectievakje voor disclaimer.
    1. Stap 2: Deze stap werd meer gebruikt in eerdere versies van Adobe Analytics. Klik op een selectievakje en typ vervolgens een waarde in het tekstveld ernaast.
-   1. Stap 3: Kies metrisch om in uw dossier van het gegevensbronmalplaatje te omvatten. Selecteer Gebeurtenis 1 in het vervolgkeuzemenu.
+   1. Stap 3: Kies metrisch om in uw dossier van het gegevensbronmalplaatje te omvatten. Selecteer &quot;Gebeurtenis 1&quot; in de vervolgkeuzelijst.
    1. Stap 4: Deze stap werd meer gebruikt in eerdere versies van Adobe Analytics. Klik op een selectievakje en typ vervolgens een waarde in het tekstveld ernaast.
-   1. Stap 5: Kies de dimensie die u in het sjabloonbestand voor de gegevensbron wilt opnemen. Selecteer &quot;eVar1&quot;van dropdown.
+   1. Stap 5: Kies de dimensie die u in het sjabloonbestand voor de gegevensbron wilt opnemen. Selecteer &quot;eVar1&quot;van de drop-down lijst.
    1. Stap 6: Bekijk het overzicht en geef de afmetingen en maatstaven weer die in het sjabloonbestand zijn opgenomen.
    1. Stap 7: Klik op de knop **[!UICONTROL Download]** om het sjabloonbestand met gegevensbronnen te downloaden. Noteer ook de aanmeldingsgegevens voor de FTP-site, aangezien deze binnenkort worden gebruikt.
 1. De gegevensbron wordt nu gemaakt; de volgende stap is om het gegevens te verstrekken aan proces. Open het gedownloade bestand in de gewenste teksteditor.
@@ -34,8 +35,8 @@ U kunt deze stappen volgen om steekproefgegevens in een reeks van het ontwikkeli
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 2)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
+   #    eVar1    event1
+   Date    Evar 1    Event 1
    ```
 
 1. Voer de gegevens in verschillende rijen in, waarbij elk item door een tab wordt gescheiden. Gebruik geen spaties of komma&#39;s om waarden van elkaar te scheiden.
@@ -45,10 +46,10 @@ U kunt deze stappen volgen om steekproefgegevens in een reeks van het ontwikkeli
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 5)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
-   09/07/YYYY/11/23/00	Data source example value	3
-   09/07/YYYY/15/59/00	Another data source value	18
+   #    eVar1    event1
+   Date    Evar 1    Event 1
+   09/07/YYYY/11/23/00    Data source example value    3
+   09/07/YYYY/15/59/00    Another data source value    18
    ```
 
 1. Sla het bestand op. U kunt desgewenst een andere bestandsnaam opgeven. Nadat het bestand is opgeslagen, kunt u de teksteditor sluiten.

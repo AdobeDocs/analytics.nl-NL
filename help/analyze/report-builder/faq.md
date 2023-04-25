@@ -4,7 +4,7 @@ description: Veelgestelde vragen over Report Builder.
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -23,7 +23,7 @@ De geplande rapporten worden verwerkt op servers die waarschijnlijk geen tijdstr
 
 Geplande rapporten worden ook verwerkt op servers die waarschijnlijk geen datumsyntaxis delen. Bijvoorbeeld: `7/1/YYYY` kan naar 1 juli of 7 januari verwijzen, afhankelijk van uw land of regio. Met de `DATEVALUE()` op deze datum zou resulteren in verschillende seriële waarden, afhankelijk van de computer die het uitvoert.
 
-Als alternatief voor het gebruiken van deze functies van Excel, adviseert Adobe hoogst gebruikend datumwaaiers binnen Report Builder verzoeken. Selecteer op de eerste pagina van de wizard Aanvragen de optie **[!UICONTROL Preset Dates]** in het vervolgkeuzemenu selecteert u vervolgens onder veelgebruikte datums de optie **[!UICONTROL Today]** of een ander gewenst datumbereik. Deze instelling neemt de tijd van de rapportsuite in beslag op het moment dat deze werd uitgevoerd, en niet op het moment dat de server de aanvraag verwerkt.
+Als alternatief voor het gebruiken van deze functies van Excel, adviseert Adobe hoogst gebruikend datumwaaiers binnen Report Builder verzoeken. Selecteer op de eerste pagina van de wizard Aanvragen de optie **[!UICONTROL Preset Dates]** in de vervolgkeuzelijst selecteert u vervolgens onder Algemeen gebruikte datums de optie **[!UICONTROL Today]** of een ander gewenst datumbereik. Deze instelling neemt de tijd van de rapportsuite in beslag op het moment dat deze werd uitgevoerd, en niet op het moment dat de server de aanvraag verwerkt.
 
 ## Hoe groot en complex kan ik mijn werkboeken maken?
 
