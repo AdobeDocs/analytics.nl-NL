@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
+source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '697'
 ht-degree: 49%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 49%
    + [Dimension-compatibiliteit](dimensions/compatibility.md)
    + [Alle zoekpaginanummers](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
+   + [Bot-naam](dimensions/bot-name.md)
    + [Hoogte browser](dimensions/browser-height.md)
    + [Browsertype](dimensions/browser-type.md)
    + [Browserbreedte](dimensions/browser-width.md)
@@ -111,6 +112,8 @@ ht-degree: 49%
    + [Gemiddelde paginaweergaven per bezoek](metrics/average-page-views-per-visit.md)
    + [Gemiddelde sessielengte](metrics/average-session-length.md)
    + [Gemiddelde tijd op de site](metrics/average-time-on-site.md)
+   + [Beide voorvallen](metrics/bot-occurrences.md)
+   + [Bodt paginaweergaven](metrics/bot-page-views.md)
    + [Stuitpercentage](metrics/bounce-rate.md)
    + [Bounces](metrics/bounces.md)
    + [Extra winkelwagentjes](metrics/cart-additions.md)
