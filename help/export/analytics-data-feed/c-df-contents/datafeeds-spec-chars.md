@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Speciale tekens in gegevensfeeds
 feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '335'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Wanneer deze gereserveerde waarden worden voorafgegaan door een backslash, zijn 
 | `\\n` | De waarde &#39;`\n`&#39; is verzonden tijdens gegevensverzameling, beschermd door Adobe. |
 | `\\` | De waarde &#39;`\`&#39; is verzonden tijdens gegevensverzameling, beschermd door Adobe. |
 
-Een bezoeker van uw site gebruikt bijvoorbeeld een interne zoekopdracht en zoekt naar &quot;zoeken\ntekenreeks&quot;. U vult eVar1 met &quot;zoek\ntekenreeks&quot; en verzendt die waarde naar Adobe. Adobe ontvangt deze hit en escapeert de nieuwe regel die in de tekenreeks is opgenomen. De werkelijke waarde die in onbewerkte gegevens wordt geplaatst, is &quot;search\\nstring&quot;.
+Een bezoeker van uw site gebruikt bijvoorbeeld interne zoekopdrachten en zoekt naar `"search\nstring"`. U vult eVar1 met `"search\nstring"`en deze waarde naar Adobe verzenden. Adobe ontvangt deze hit en escapeert de nieuwe regel die in de tekenreeks is opgenomen. De werkelijke waarde die in onbewerkte gegevens is geplaatst, is `"search\\nstring"`.
 
 ## Speciale tekens in multigetaxeerde variabelen (events_list, products_list, mvars)
 

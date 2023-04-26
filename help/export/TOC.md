@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Handleiding exporteren
 user-guide-description: Leer meer over het gebruik van datafeeds om onbewerkte gegevens te exporteren en Data Warehouse om een spreadsheetuitvoer van gegevens op te halen. Meer informatie over FTP en SFTP gebruiken om bestanden over te dragen.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '295'
 ht-degree: 82%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 82%
       + [Metrische gegevens berekenen](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Referentie gegevenskolom](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Opzoeken van paginagebeurtenissen](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [Opzoeken van mobiele kenmerken](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [Dynamische zoekopdrachten](analytics-data-feed/c-df-contents/dynamic-lookups.md)
       + [Merchandising eVar lookup](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Speciale tekens](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Te laat arriveren](analytics-data-feed/c-df-contents/late-arriving-hits.md)

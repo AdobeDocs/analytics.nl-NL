@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '3655'
+source-wordcount: '3670'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | **`browser_width`** | Breedte in pixels van het browservenster. | small int zonder teken |
 | **`c_color`** | Bitdiepte van het kleurenpalet. Wordt gebruikt als onderdeel van de berekening van de [Kleurdiepte](/help/components/dimensions/color-depth.md) dimensie. AppMeasurement gebruikt de JavaScript-functie `screen.colorDepth()`. | teken(20) |
 | **`campaign`** | Variabele gebruikt in de [Trackingcode](/help/components/dimensions/tracking-code.md) dimensie. | varchar(255) |
-| **`carrier`** | Adobe Integratievariabele voor reclame. Geeft de mobiele drager aan. Verwijst naar de `carrier` opzoektabel. | varchar(100) |
+| **`carrier`** | Adobe Integratievariabele voor reclame. Geeft de mobiele drager aan. De sleutelwaarde voor `carrier.tsv` [Dynamische zoekopdracht](dynamic-lookups.md). | varchar(100) |
 | **`ch_hdr`** | Clienttips die via de HTTP-aanvraagheader worden verzameld. | text |
 | **`ch_js`** | Clienttips die zijn verzameld via de JavaScript-API voor client-tips voor de gebruikersagent. | text |
 | **`channel`** | Variabele gebruikt in de [Site-secties](/help/components/dimensions/site-section.md) dimensie. | varchar(100) |
@@ -110,7 +110,7 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | **`latlon45`** | Locatie (tot 1 m) | varchar(255) |
 | **`mc_audiences`** | Lijst met Audience Manager segment-id&#39;s waartoe de bezoeker behoort. De `post_mc_audiences` kolom wijzigt het scheidingsteken in `--**--`. | text |
 | **`mcvisid`** | Experience Cloud-bezoeker-id. 128-bits getal dat bestaat uit twee samengevoegde 64-bits getallen opgevuld tot 19 cijfers. | varchar(255) |
-| **`mobile_id`** | Als de gebruiker een mobiel apparaat gebruikt, is dit de numerieke id van het apparaat. | int |
+| **`mobile_id`** | Als de gebruiker een mobiel apparaat gebruikt, is dit de numerieke id van het apparaat. De sleutelwaarde voor `mobile_attributes.tsv` [Dynamische zoekopdracht](dynamic-lookups.md). | int |
 | **`mobileaction`** | Mobiele handeling. Automatisch verzameld bij `trackAction` wordt opgeroepen in Mobiele services. Hiermee kunt u in de app automatisch tekenen met handelingen. | varchar(100) |
 | **`mobileappid`** | Mobiele toepassings-id. Hiermee slaat u de toepassingsnaam en -versie op in de volgende indeling: `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | Wordt gebruikt in de Apteligent-gegevensconnector. De toepassings-id die in Apteligent wordt gebruikt. | varchar(255) |
@@ -159,7 +159,7 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | **`mvvar1_instances`** - `mvvar3_instances` | De waarden van de lijstvariabele die op de huidige treffer werden geplaatst. Hiermee vervangt u het oorspronkelijke scheidingsteken door `--**--`. Heeft geen `post` kolom. | text |
 | **`namespace`** | Niet gebruikt. Onderdeel van een gesloopt onderdeel. | varchar(50) |
 | **`new_visit`** | Markering die bepaalt of de huidige treffer een nieuw bezoek is. Wordt ingesteld door Adobe-servers na 30 minuten inactiviteit van het bezoek. | tinyint zonder teken |
-| **`os`** | Numerieke id die het besturingssysteem van de bezoeker vertegenwoordigt. Op basis van de `user_agent` kolom. Gebruiksmiddelen `os` opzoeken. | int zonder teken |
+| **`os`** | Numerieke id die het besturingssysteem van de bezoeker vertegenwoordigt. Op basis van de `user_agent` kolom. De sleutelwaarde voor `operating_system.tsv` standaardzoekopdracht en `operating_system_type.tsv` [Dynamische zoekopdracht](dynamic-lookups.md). | int zonder teken |
 | **`p_plugins`** | Niet meer gebruikt. Lijst met plug-ins die beschikbaar zijn voor de browser. De JavaScript-functie gebruiken `navigator.plugins()`. | text |
 | **`page_event`** | Het type hit dat wordt verzonden in de aanvraag voor de afbeelding (standaardhit, downloadkoppeling, aangepaste koppeling, afsluitkoppeling). Zie [Opzoeken van paginagebeurtenissen](datafeeds-page-event.md). | tinyint zonder teken |
 | **`page_event_var1`** | Wordt alleen gebruikt in aanvragen voor het bijhouden van koppelingen. De URL van de downloadkoppeling, exit-koppeling of aangepaste koppeling waarop is geklikt. | text |
