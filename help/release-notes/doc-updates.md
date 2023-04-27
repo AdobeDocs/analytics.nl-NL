@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
+source-git-commit: 983ca17062abbaac05b468fda63e82055d787667
 workflow-type: tm+mt
-source-wordcount: '3884'
+source-wordcount: '3903'
 ht-degree: 32%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **April 2023** |  |
+| Gebruikerselementen overdragen en verlopen van accounts instellen | Extra informatie over hoe te [gebruikerselementen overdragen en verlopen van account instellen](/help/admin/admin/user-management2/users-assets.md). |
 | 2 nieuwe eindpuntgidsen voor Adobe Analytics 2.0 API | <ul><li>[Dimension-API voor analyse](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API voor analysemetriek](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | Projectsegmenten (ad-hocsegmenten en snelle segmenten) | Gestroomlijnde documentatie over projectsegmenten en verwijderde gedupliceerde informatie. De stappen voor het maken van ad-hocsegmenten worden nu gecombineerd met de stappen voor [snelsegmenten maken](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Dynamische zoekopdrachten | Aanvullende informatie rond [Dynamische zoekopdrachten](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) wordt toegevoegd. Voorheen bestond informatie alleen voor mobiele kenmerken, een van de vele dynamische zoekopdrachten. |

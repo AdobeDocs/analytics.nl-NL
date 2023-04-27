@@ -4,9 +4,9 @@ title: Tabellen filteren en sorteren
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: af0c56a8911c5ea2fb49fb9625c68331a8517d81
+source-git-commit: c546058b83be79f4ffb94811727a12b30dd14033
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Vrije-vormtabellen in Analysis Workspace vormen de basis voor interactieve gegev
 ## Filtertabellen
 
 Met filters in Analysis Workspace kunt u de belangrijkste informatie weergeven.
+
+>[!NOTE]
+>
+> Alleen items met een dynamische dimensie kunnen worden gefilterd zoals in deze sectie wordt beschreven. Statische dimensie-items kunnen niet worden gefilterd. Zie voor meer informatie [Dynamische versus statische dimensie-items in vrije-vormtabellen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 Gegevens filteren in Freeform-tabellen:
 
