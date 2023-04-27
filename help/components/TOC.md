@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 49%
+source-wordcount: '692'
+ht-degree: 48%
 
 ---
 
@@ -208,7 +208,6 @@ ht-degree: 49%
 + Virtuele rapportsuites {#virtual-report-suites}
    + [Overzicht van virtuele rapportsuites](vrs/vrs-about.md)
    + [Virtuele rapportsuite - componentcursus](vrs/vrs-components.md)
-   + [VRS-ondersteuning in Mobile Services](vrs/vrs-mobile-services.md)
    + [Contextbewuste sessies](vrs/vrs-mobile-visit-processing.md)
    + [Verwerking rapportduur](vrs/vrs-report-time-processing.md)
    + [A4T-overwegingen](vrs/vrs-a4t.md)

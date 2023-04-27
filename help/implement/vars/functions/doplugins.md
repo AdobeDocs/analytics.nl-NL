@@ -3,16 +3,16 @@ title: doPlugins
 description: Vorm logica vlak voordat een slag wordt gecompileerd en verzonden naar Adobe.
 feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 1%
+source-wordcount: '302'
+ht-degree: 0%
 
 ---
 
 # doPlugins
 
-De `doPlugins` De variabele fungeert als een &#39;laatste aanroep&#39; om waarden in te stellen in uw implementatie. Indien [`usePlugins`](../config-vars/useplugins.md) wordt toegelaten, loopt het automatisch net alvorens om het even welk type beeldverzoek wordt gecompileerd en verzonden naar Adobe, die omvat:
+De `doPlugins` De variabele fungeert als een &#39;laatste aanroep&#39; om waarden in te stellen in uw implementatie. Het is de ideale plaats om vraag te maken aan [Methoden van plug-in](../plugins/impl-plugins.md) en stelt de gewenste variabelen in voordat een afbeeldingsaanvraag wordt verzonden. Indien [`usePlugins`](../config-vars/useplugins.md) wordt toegelaten, loopt het automatisch net alvorens om het even welk type beeldverzoek wordt gecompileerd en verzonden naar Adobe, die omvat:
 
 * Alle paginaweergaven ([`t()`](t-method.md)) oproepen
 * Alle koppelingen bijhouden ([`tl()`](tl-method.md)) oproepen, met inbegrip van automatische downloadverbindingen en uitgangsverbindingen

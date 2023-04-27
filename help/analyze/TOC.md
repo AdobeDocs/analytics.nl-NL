@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1096'
 ht-degree: 78%
 
 ---
@@ -330,7 +330,6 @@ ht-degree: 78%
    + [Huidige data](reports-analytics/current-data.md)
    + [Dashboards en rapporten](reports-analytics/dashboard.md)
    + [Dashboardbeheer](reports-analytics/dashboard-manage.md)
-   + [Data-uittreksel](reports-analytics/data-extract.md)
    + [Taalrapporten](reports-analytics/funnels.md)
    + [Metrics](reports-analytics/metrics.md)
    + [Targets](reports-analytics/targets.md)
