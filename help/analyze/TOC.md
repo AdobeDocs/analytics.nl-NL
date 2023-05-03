@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+source-git-commit: a653d60fd423d2853254a8c96252a39f08f9a3b4
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 78%
    + [Nieuwe functies in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Projecten {#build-workspace-project}
       + [Overzicht van projecten](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Projecten maken](analysis-workspace/build-workspace-project/create-projects.md)
       + [Projecten opslaan](analysis-workspace/build-workspace-project/save-projects.md)
       + Mappen in werkruimte {#workspace-folders}
          + [Mappen in werkruimte](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
