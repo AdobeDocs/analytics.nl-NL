@@ -3,9 +3,9 @@ description: Voorbeelden van gegevensprivacylabels voor Adobe Analytics-variabel
 title: Data Privacy-labels voor Analytics-variabelen
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3541'
 ht-degree: 72%
 
 ---
@@ -161,6 +161,12 @@ De etiketten van de Privacy van gegevens beïnvloeden vier brede klassen van var
    <td colname="col2"> <p>Alle, behalve classificaties </p> </td> 
    <td colname="col3"> <p>Alle </p> </td> 
    <td colname="col4"> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p>Verkeersvariabelen </p> </td> 
+   <td colname="col2"> <p>Props weergeven </p> </td> 
+   <td colname="col3"> <p>Geen/S1/S2 </p> </td> 
+   <td colname="col4"> <p>Keuzerondjes kunnen meerdere waarden bevatten en zijn niet toegestaan als privacy-id's.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Classificaties </p> </td> 
