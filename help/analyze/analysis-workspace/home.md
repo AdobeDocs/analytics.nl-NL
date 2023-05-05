@@ -4,9 +4,9 @@ description: Analysis Workspace is het belangrijkste instrument voor analyse van
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f3ba2c1b63b9b7fa0da4c0d3b784036abdd9df1b
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '744'
 ht-degree: 2%
 
 ---
@@ -90,11 +90,11 @@ Een analyse in Analysis Workspace wordt als een [project](/help/analyze/analysis
 
 U kunt een project maken in Analysis Workspace zoals beschreven in [Projecten maken](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
-### Projecten opslaan en delen
+### Een project opslaan en delen
 
 Terwijl u een analyse maakt in Analysis Workspace, wordt uw werk [automatisch opgeslagen](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen van actioneerbare inzichten, is het klaar om door anderen te worden verbruikt. U kunt het project met gebruikers en groepen in uw organisatie, of zelfs met mensen buiten uw organisatie delen. Voor informatie over het delen van een project raadpleegt u [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen van actioneerbare inzichten, is het project klaar om door anderen te worden verbruikt. U kunt het project met gebruikers en groepen in uw organisatie, of zelfs met mensen buiten uw organisatie delen. Voor informatie over het delen van een project raadpleegt u [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ### Projectbeheer in Analysis Workspace
 

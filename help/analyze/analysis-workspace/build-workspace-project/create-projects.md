@@ -3,9 +3,9 @@ description: Leer de basisbeginselen van het maken van een project in Analysis W
 title: Projecten maken
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 98cffce26edc02b74747e05c35ff6625081e0cc6
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
 
 ## Deelvensters toevoegen aan het project {#panels}
 
-[Deelvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) zijn de basis voor elk project in Analysis Workspace. Zij worden gebruikt om de inhoud (visualisaties en componenten) van een project te organiseren. Voordat u componenten of visualisaties aan een project kunt toevoegen, moet u deelvensters toevoegen.
+[Deelvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) zijn de basis voor elk project in Analysis Workspace. Deelvensters worden gebruikt om de inhoud (visualisaties en componenten) van een project te ordenen.
 
 Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren een volledige set analyses op basis van een paar gebruikersinvoer.
 
@@ -71,6 +71,12 @@ Een deelvenster toevoegen:
 
 [Visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) (zoals een vrije-vormlijst, een staafdiagram, of een lijngrafiek) kan worden gebruikt om gegevens aan het leven visueel te brengen.
 
+>[!TIP]
+>
+>De lijsten van de vrije vorm zijn het gemeenschappelijkste type van visualisatie, en zijn de stichting voor interactieve gegevensanalyse. Zie voor meer informatie over het werken met Freeform-tabellen in Analysis Workspace [Vrije-vormentabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+
+Een visualisatie toevoegen:
+
 1. Selecteer **[!UICONTROL Visualizations]** in de linkerspoorstaaf.
 
    ![](assets/build-visualizations.png)
@@ -83,13 +89,21 @@ Een deelvenster toevoegen:
 
 [Componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) de feitelijke gegevens van elk project samen te stellen. U kunt componenten aan visualisaties of aan panelen toevoegen.
 
+>[!TIP]
+>
+>Voor informatie over elke component, selecteer het pictogram van Info naast de naam van een component in de linkerspoorstaaf, of zie [Handleiding Analytics Components](/help/components/home.md).
+
+Een component toevoegen:
+
 1. Selecteer **[!UICONTROL Components]** in de linkerspoorstaaf.
 
    ![](assets/build-components.png)
 
 1. Zoek naar de component u wilt toevoegen. Wanneer het in de linkerspoorstaaf verschijnt, sleep het aan een paneel of visualisatie binnen uw project.
 
->[!TIP]
->
->   Voor informatie over elke componenten, selecteer het pictogram van Info naast de naam van een component in de linkerspoorstaaf, of zie [Handleiding Analytics Components](/help/components/home.md).
+### Het project opslaan en delen
+
+Terwijl u een analyse maakt in Analysis Workspace, wordt uw werk [automatisch opgeslagen](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
+
+Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen van actioneerbare inzichten, is het project klaar om door anderen te worden verbruikt. U kunt het project met gebruikers en groepen in uw organisatie, of zelfs met mensen buiten uw organisatie delen. Voor informatie over het delen van een project raadpleegt u [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
