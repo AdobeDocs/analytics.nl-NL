@@ -4,22 +4,22 @@ description: Leer hoe en waarom u projecten maakt in Workspace met meerdere rapp
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Meerdere rapportsuites
 
-U kunt nu projecten in Analysis Workspace maken met gegevens uit meerdere rapportenpakketten. De reeksen van het rapport worden nu gekozen op het paneelniveau, zodat kunt u een verschillende rapportreeks voor elk paneel binnen het zelfde project van de Werkruimte kiezen.
+U kunt projecten in Analysis Workspace maken met gegevens uit meerdere rapportsuite. De reeksen van het rapport worden gekozen op paneelniveau, zodat kunt u een verschillende rapportreeks voor elk paneel binnen het zelfde project van de Werkruimte kiezen.
 
 Deze mogelijkheid is handig als u bijvoorbeeld
 
 * Vergelijk gegevens uit twee verschillende gebieden en de gegevens bevinden zich in twee verschillende rapportsuites. U kunt tabellen en visualisaties maken om de gegevens naast elkaar te vergelijken.
 
-* Bouw een dashboard van metriek en visualisaties om uit te melden aan andere organisaties. U kunt nu gegevens van diverse rapportsuites in het zelfde project trekken.
+* Bouw een dashboard van metriek en visualisaties om uit te melden aan andere organisaties. U kunt gegevens van diverse rapportreeksen in het zelfde project trekken.
 
 Hier is een video over het onderwerp:
 

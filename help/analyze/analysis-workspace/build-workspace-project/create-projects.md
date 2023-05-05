@@ -3,7 +3,7 @@ description: Leer de basisbeginselen van het maken van een project in Analysis W
 title: Projecten maken
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Projecten maken
 
-[Projecten](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace kunt u bedrijfskritieke gegevens weergeven die kunnen worden gedeeld met belanghebbenden binnen of buiten uw organisatie.
+[Projecten](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace kunt u bedrijfskritieke analyses weergeven die kunnen worden gedeeld met belanghebbenden binnen of buiten uw organisatie.
 
 Voor algemene informatie over hoe u met Analysis Workspace aan de slag kunt gaan, raadpleegt u [Analysis Workspace-overzicht](/help/analyze/analysis-workspace/home.md).
 
@@ -42,7 +42,7 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
 
    1. Zoek naar of navigeer naar het malplaatje u wilt gebruiken, dan selecteer het wanneer het verschijnt.
 
-      Er is standaard een set standaardsjablonen beschikbaar. Bovendien kan uw organisatie aangepaste sjablonen hebben gemaakt waaruit u kunt kiezen.
+      Standaard is een set standaardsjablonen beschikbaar. Bovendien kan uw organisatie aangepaste sjablonen hebben gemaakt waaruit u kunt kiezen.
 
       Zie voor meer informatie [Aan de slag met rapporten en analyses](/help/analyze/reports-analytics/getting-started.md).
 +++
@@ -73,7 +73,7 @@ Een deelvenster toevoegen:
 
 >[!TIP]
 >
->De lijsten van de vrije vorm zijn het gemeenschappelijkste type van visualisatie, en zijn de stichting voor interactieve gegevensanalyse. Zie voor meer informatie over het werken met Freeform-tabellen in Analysis Workspace [Vrije-vormentabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+>De lijsten van de vrije vorm zijn het gemeenschappelijkste type van visualisatie, en zijn de basis voor interactieve gegevensanalyse. Zie voor meer informatie over het werken met Freeform-tabellen in Analysis Workspace [Vrije-vormentabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
 Een visualisatie toevoegen:
 

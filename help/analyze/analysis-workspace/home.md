@@ -1,13 +1,13 @@
 ---
-title: Wat is Analysis Workspace en hoe gebruik ik het?
+title: Overzicht van Analysis Workspace
 description: Analysis Workspace is het belangrijkste instrument voor analyse van Adobe Analytics. Het laat u panelen, lijsten, visualisaties, en andere componenten gebruiken om gegevens aan het leven te brengen, een dataset te leiden, projecten, onder andere mogelijkheden te delen en te plannen.
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,11 +64,11 @@ Componenten in Analysis Workspace bestaan uit:
 
 * Datumbereiken
 
-Zie [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) voor meer informatie over elk van deze componenttypen.
+Voor meer informatie over elk van deze componenttypen raadpleegt u [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
 
 Elk van deze componenttypen kan worden toegevoegd aan een visualisatie (zoals een Freeform-tabel) om uw zakelijke vragen te beantwoorden.
 
-Nadat u de componentterminologie hebt begrepen, kunt u componenten naar visualisaties (inclusief Freeform-tabellen) slepen [uw analyse maken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html).
+Nadat u de componentterminologie hebt begrepen, kunt u componenten naar visualisaties (inclusief Freeform-tabellen) slepen [uw analyse maken](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 ![](assets/build-components.png)
 
@@ -90,17 +90,35 @@ Een analyse in Analysis Workspace wordt als een [project](/help/analyze/analysis
 
 U kunt een project maken in Analysis Workspace zoals beschreven in [Projecten maken](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
+Projecten kunnen worden ingedeeld in mappen en submappen, zoals wordt beschreven in [Mappen in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+
 ### Een project opslaan en delen
 
 Terwijl u een analyse maakt in Analysis Workspace, wordt uw werk [automatisch opgeslagen](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen van actioneerbare inzichten, is het project klaar om door anderen te worden verbruikt. U kunt het project met gebruikers en groepen in uw organisatie, of zelfs met mensen buiten uw organisatie delen. Voor informatie over het delen van een project raadpleegt u [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
-### Projectbeheer in Analysis Workspace
+<!--
 
-De volgende video biedt een overzicht van het projectbeheer in Analysis Workspace:
+Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
+
+### Project management in Analysis Workspace
+
+The following video provides an overview of project management in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
+
+-->
+
+## Virtuele analist gebruiken om anomalieën beter te begrijpen
+
+Virtuele analist is een reeks functies in Adobe Analytics die voorspellende algoritmen en machinaal leren gebruiken om inzicht te krijgen in anomalieën die van invloed zijn op uw bedrijf. Hiermee kunt u de meest gangbare en dure workflows voor gegevenswetenschap automatiseren om te bepalen wat ongewoon gedrag in uw gegevens veroorzaakt.
+
+Virtual Analyst biedt de volgende functies:
+
+* [Anomaly Detection:](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) Verstrekt een statistische methode om te bepalen hoe bepaalde metrisch met betrekking tot vorige gegevens is veranderd.
+* [Bijdrage-analyse:](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md) Help de factoren te bepalen die het meest bijdragen aan anomalieën in uw gegevens.
+* [Intelligente waarschuwingen:](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) Hiermee worden anomalieën in uw gegevens proactief geïdentificeerd en op de hoogte gebracht, wat leidt tot snellere inzichten.
 
 ## Aanvullende bronnen {#resources}
 
