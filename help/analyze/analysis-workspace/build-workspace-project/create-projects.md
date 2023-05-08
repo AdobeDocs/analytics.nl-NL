@@ -3,9 +3,9 @@ description: Leer de basisbeginselen van het maken van een project in Analysis W
 title: Projecten maken
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
 
    +++Een leeg project maken
 
-   1. Selecteer [!UICONTROL **Projecten**] tab, dan selecteren [!UICONTROL **Project maken**].
+   1. Op de [!UICONTROL **Werkruimte**] selecteert u de [!UICONTROL **Projecten**] aan de linkerkant van de pagina en selecteert u [!UICONTROL **Project maken**].
 
    1. Kies of u een leeg project of een leeg mobiel scorecard wilt maken
 
@@ -38,7 +38,7 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
 
    +++Een project maken van een sjabloon
 
-   1. Selecteer [!UICONTROL **Rapporten**] tab.
+   1. Op de [!UICONTROL **Werkruimte**] selecteert u de [!UICONTROL **Rapporten**] aan de linkerkant van de pagina.
 
    1. Zoek naar of navigeer naar het malplaatje u wilt gebruiken, dan selecteer het wanneer het verschijnt.
 
