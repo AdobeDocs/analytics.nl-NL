@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
+source-git-commit: fe072eab9c6dd6438ad6f27f0c16860cd87d1e64
 workflow-type: tm+mt
-source-wordcount: '1655'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -125,6 +125,8 @@ U kunt [alleen-lezen toegang](/help/analyze/analysis-workspace/curate-share/view
 >* Gebruikers met wie u deelt, kunnen alle filters weergeven die tijdens het project op het project zijn toegepast [kromming](curate.md).
 > 
 >* Gebruikers met wie u deelt, kunnen het datumbereik van het project wijzigen. De datumwaaier u voor het project plaatst wordt getoond door gebrek.
+>
+>* Een project zou ontoegankelijk kunnen worden als vele gebruikers proberen om tot een bepaalde verbinding tezelfdertijd toegang te hebben. Standaard hebben meer dan 190 personen elke 5 minuten toegang tot één koppeling. Als uw organisatie deze limiet heeft bereikt, wacht u 5 minuten en probeert u de koppeling opnieuw te openen.
 
 
 Een Analysis Workspace-project delen met mensen die geen toegang hebben tot Adobe Analytics:
