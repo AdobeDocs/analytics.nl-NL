@@ -3,9 +3,9 @@ description: Leer de basisbeginselen van het maken van een project in Analysis W
 title: Projecten maken
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,9 @@ Een component toevoegen:
 
 1. Zoek naar de component u wilt toevoegen. Wanneer het in de linkerspoorstaaf verschijnt, sleep het aan een paneel of visualisatie binnen uw project.
 
-### Het project opslaan en delen
+1. (Optioneel) Deel het project zoals beschreven in [Het project opslaan en delen](#save-and-share-the-project).
+
+## Het project opslaan en delen
 
 Terwijl u een analyse maakt in Analysis Workspace, wordt uw werk [automatisch opgeslagen](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 

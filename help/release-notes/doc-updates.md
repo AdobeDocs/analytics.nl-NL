@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 983ca17062abbaac05b468fda63e82055d787667
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '3903'
+source-wordcount: '3939'
 ht-degree: 32%
 
 ---
@@ -25,6 +25,9 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Mei 2023** |  |
+| Overzicht van Analysis Workspace | Bijgewerkt [Analysis Workspace-overzicht](/help/analyze/analysis-workspace/home.md) meer algemene overzichtsinformatie en koppelingen naar relevante inhoud op te nemen. |
+| Projecten maken | Een nieuw artikel maken waarin gedetailleerd wordt uitgelegd hoe u [Projecten maken](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
 | **April 2023** |  |
 | Gebruikerselementen overdragen en verlopen van accounts instellen | Extra informatie over hoe te [gebruikerselementen overdragen en verlopen van account instellen](/help/admin/admin/user-management2/users-assets.md). |
 | 2 nieuwe eindpuntgidsen voor Adobe Analytics 2.0 API | <ul><li>[Dimension-API voor analyse](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API voor analysemetriek](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
