@@ -1,7 +1,7 @@
 ---
-source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
+source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '1032'
 ht-degree: 1%
 
 ---
@@ -48,6 +48,16 @@ ht-degree: 1%
 | [!UICONTROL **Gemaakt door**] | Geeft de naam weer van de gebruiker die de component heeft gemaakt. |
 | [!UICONTROL **Voorvertoning**] | Toont een voorproef van hoe de component in Analysis Workspace kijkt. |
 | [!UICONTROL **Datum van laatste wijziging**] | Hiermee geeft u de dag weer waarop de component voor het laatst is gewijzigd. Deze sectie wordt weergegeven wanneer u Segmenten, Berekende metriek en Datumbereiken weergeeft. |
+
+{style="table-layout:auto"}
+
+## Sorteeropties voor componenten {#components-sort-options}
+
+| Optie | -functie |
+|---------|----------|
+| [!UICONTROL **Aanbevolen**] | Hiermee sorteert u componenten met de componenten die boven aan de lijst worden aanbevolen. Componenten die het vaakst en het laatst door u of anderen in uw organisatie worden gebruikt, worden hoger weergegeven in de lijst. |
+| [!UICONTROL **Alfabetisch**] | Hiermee worden componenten alfabetisch gesorteerd. |
+| [!UICONTROL **Categorisch**] | Hiermee worden componenten gesorteerd op componenttype (afmetingen, metrisch, segment, datumbereik). |
 
 {style="table-layout:auto"}
 

@@ -3,9 +3,10 @@ description: Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers
 title: Items in het gegevenswoordenboek bewerken
 feature: Components
 role: Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
+source-git-commit: 631f84794203cb0a1154d68149c9d64d7247ecd3
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -31,6 +32,10 @@ Een component in het gegevenswoordenboek bewerken:
    Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **Dimension** ![Dimension-pictogram](assets/dimension-icon.png) oranje zijn, **Segmenten** ![Segmentpictogram](assets/segment-icon.png) blauw zijn, **Datumbereiken** ![Pictogram Datumbereik](assets/date-range-icon.png) paars zijn, en **Metrisch** ![Metrisch pictogram](assets/default-metric-icon.png) zijn groen. Het pictogram Adobe ![Adobe-pictogram](assets/default-calc-metric-icon.png) Hiermee wordt een berekende metrische sjabloon of een segmentsjabloon aangegeven en wordt het rekenprijspictogram weergegeven ![Pictogram Rekenmachine](assets/calculated-metric-icon-created.png) wees op berekende metrisch die door een beheerder van Analytics in uw organisatie werd gecreeerd.
 
 {{dd-filter-criteria}}
+
+1. (Optioneel) Selecteer de optie **Sorteren** pictogram ![Pictogram Componenten sorteren](assets/component-sort-icon.png)Selecteer vervolgens een van de volgende filteropties om de lijst met componenten te sorteren:
+
+   {{components-sort-options}}
 
 1. Selecteer in de lijst met componenten de component die u wilt bewerken.
 
