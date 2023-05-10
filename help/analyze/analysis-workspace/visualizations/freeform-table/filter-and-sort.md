@@ -4,9 +4,9 @@ title: Tabellen filteren en sorteren
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: c546058b83be79f4ffb94811727a12b30dd14033
+source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,40 @@ Met filters in Analysis Workspace kunt u de belangrijkste informatie weergeven.
 >
 > Alleen items met een dynamische dimensie kunnen worden gefilterd zoals in deze sectie wordt beschreven. Statische dimensie-items kunnen niet worden gefilterd. Zie voor meer informatie [Dynamische versus statische dimensie-items in vrije-vormtabellen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
+### Snel specifieke rijen uitsluiten van een tabel
+
+U kunt snel specifieke rijen van de lijst uitsluiten zonder het nodig hebben om de dialoog van de Filter te openen.
+
+>[!NOTE]
+>
+>Wanneer u rijen zoals beschreven in deze sectie uitsluit, [!UICONTROL **Is niet gelijk aan**] regel wordt automatisch toegepast in het dialoogvenster [**[!UICONTROL Advanced filtering]**](#apply-a-simple-or-advanced-filter) .
+
+Om specifieke rijen van een lijst van de Vrije vorm snel uit te sluiten:
+
+1. Houd de cursor boven de rij die u wilt uitsluiten en selecteer vervolgens het x-pictogram.
+
+   Houd Shift ingedrukt om een bereikrij te selecteren of houd Command (in Mac) of Ctrl (in Windows) ingedrukt om meerdere rijen te selecteren.
+
+### Een eenvoudig of geavanceerd filter toepassen op een tabel
+
 Gegevens filteren in Freeform-tabellen:
 
-1. Houd de muisaanwijzer in een tabel voor vrije vorm boven de kolom die de gegevens bevat die u wilt filteren. <!--only some types of columns show the filter... Which? Just Dimensions?-->
+1. Houd de muisaanwijzer boven de kolom met de gegevens die u wilt filteren. <!--only some types of columns show the filter... Which? Just Dimensions?-->
 
 1. Selecteer **Filter** wanneer deze wordt weergegeven.
 
    ![Filterpictogram in een tabel](assets/table-filter-icon.png)
 
-1. In de [!UICONTROL **Woord of woordgroep zoeken**] Geef een woord of woordgroep op waarop u wilt filteren. Alleen rijen die het opgegeven woord of de exacte woordgroep bevatten, worden weergegeven.
+   De volgende opties zijn beschikbaar:
 
-1. (Optioneel) Selecteer [!UICONTROL **Geavanceerd tonen**].
+   | Optie | -functie |
+   |---------|----------|
+   | [!UICONTROL **Woord of woordgroep zoeken**] | Geef een woord of woordgroep op waarop u wilt filteren. Alleen rijen die het opgegeven woord of de exacte woordgroep bevatten, worden weergegeven. |
+   | [!UICONTROL **Inclusief niet-opgegeven (geen)**] | Selecteer deze optie om gegevens in de tabel weer te geven die niet in een van de afmetingen van de tabel vallen. <!--what is this?--> |
 
-   De volgende opties zijn beschikbaar
+1. (Optioneel) Selecteer [!UICONTROL **Geavanceerd filteren**].
+
+   De volgende geavanceerde filteropties zijn beschikbaar:
 
    | Optie | -functie |
    |---------|----------|

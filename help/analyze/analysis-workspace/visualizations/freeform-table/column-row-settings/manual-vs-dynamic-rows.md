@@ -4,9 +4,9 @@ description: Hoe te met dynamische en statische afmetingspunten in lijsten in wi
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
+source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Wanneer u een dimensie in een vrije vormlijst laat vallen, zijn de dynamische ri
 
 Als u bijvoorbeeld de afmetingen Browsertype naar de tabel sleept, worden de bovenste dimensie van Browsertype weergegeven (bijvoorbeeld Microsoft, Apple, Google, enz.) Hiermee gaat u dynamisch terug naar de tabelrijen. Indien neergezet in een kolom, de top 5 Browser de afmetingspunten van het Type dynamisch terugkeren.
 
-Items voor dynamische afmetingen hebben de optie Rijfilter en doen dit **niet** beschikken over vergrendelings- en X-pictogrammen. Zie voor meer informatie over het toepassen van filters op tabellen [Tabellen filteren en sorteren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Items voor dynamische afmetingen hebben de optie Rijfilter en de X-pictogrammen en doen dit **niet** hebben vergrendelingspictogram aanwezig. <!--do they have the lock icon? --> Wanneer u op de x naast een element met een dynamische dimensie klikt, wordt automatisch een filter toegepast. Zie voor meer informatie over het toepassen van filters op tabellen [Tabellen filteren en sorteren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ![](assets/dynamic-items.png)
 
