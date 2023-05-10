@@ -4,9 +4,9 @@ title: Handleiding voor Adobe Analytics-dashboards
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
@@ -58,14 +58,20 @@ Dashboards gebruiken:
 
 1. Kies een bedrijf. Nadat u zich hebt aangemeld bij de dashboards, worden **[!UICONTROL Choose a company]** wordt weergegeven. Dit scherm maakt een lijst van de login bedrijven waartot u behoort. Tik op de bedrijfsnaam die is gekoppeld aan het scorebord dat met u wordt gedeeld.
 
-1. In de lijst met scoreborden worden dan alle scoreborden weergegeven die met u zijn gedeeld. Tik op het scorebord dat u wilt weergeven.
+   De scorecard lijst toont alle scorecards die met u worden gedeeld.
 
-   ![Kies een bedrijf](assets/nextseq.png)
+1. Tik op de scorecard die u wilt weergeven.
+
+   Als u toegang tot meer dan één organisatie onder één login hebt, zijn alle scorecards van uw organisaties beschikbaar in de scorecard lijst.
+
+   U kunt de scorecardlijst sorteren op scorecardtitel, organisatienaam, of onlangs bekeken. U kunt zelfs naar een specifieke scorecard zoeken.
+
+   ![Kies een bedrijf](assets/mobile-home-screen.png)
 
    Als u zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld, controleert u het volgende met uw curator:
 
    * U kunt zich aanmelden bij de juiste instantie Analytics
-   * Het scorebord is met u gedeeld
+   * De scorecard is met u gedeeld
 
    ![Niets gedeeld](assets/nothing.png)
 
