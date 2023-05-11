@@ -5,9 +5,9 @@ title: Overzicht van projecten
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 5b22de34d4c99d68609d39711a970f871c893b74
+source-git-commit: 7b3acbab3f65b02ceaaea154fb6152cfb0bf07f0
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1515'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ De pagina Projecten bevat de volgende informatie:
 |---|---|
 | [Voorkeuren bewerken](/help/analyze/analysis-workspace/user-preferences.md) | Beheer instellingen voor Analysis Workspace en de bijbehorende componenten voor alle nieuwe projecten of deelvensters die u maakt. |
 | [Map maken](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Voeg een nieuwe map of submap toe aan de lijst met projecten en mappen. |
-| [Project maken](/help/analyze/analysis-workspace/home.md) | Een nieuw project starten vanaf een leeg vel of vanaf een [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace). |
+| [Project maken](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | Begin een nieuw project van kras of van een rapport. |
 | Meer weergeven | onthult opties voor het creëren van een leeg project of een mobiele scorecard, [weergeven, trainingszelfstudies](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html), of [Opmerkingen bij de release weergeven](/help/release-notes/latest.md). |
 | Mappen en projecten tonen | Geef op of u de mapstructuur van projecten wilt weergeven. Zie voor meer informatie [Over mappen in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Tabel aanpassen (pictogram) | Staat u toe om de informatie aan te passen die voor elk project op de pagina van Projecten toont. |
@@ -65,7 +65,7 @@ Binnen een project, verstrekt het menu opties om uw project te beheren, componen
 
 | Menu-item | Beschrijving |
 |---|---|
-| Project | Omvat gemeenschappelijke acties voor projectbeheer, met inbegrip van Nieuw, Open, sparen, sparen als, en [Opslaan als sjabloon](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). U kunt het volledige project ook verfrissen om de meest recente gegevens en de definities terug te winnen door te klikken verfrist Project. [CSV en PDF downloaden](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) kunt u gegevens exporteren uit Workspace. [Projectinfo en -instellingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) biedt veel opties voor het beheer van uw project. |
+| Project | Omvat gemeenschappelijke acties voor projectbeheer, met inbegrip van Nieuw, Open, sparen, sparen als, en [Opslaan als bedrijfsrapport](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). U kunt het volledige project ook verfrissen om de meest recente gegevens en de definities terug te winnen door te klikken verfrist Project. [CSV en PDF downloaden](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) kunt u gegevens exporteren uit Workspace. [Projectinfo en -instellingen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) biedt veel opties voor het beheer van uw project. |
 | Bewerken | De laatste handeling ongedaan maken of opnieuw uitvoeren. Met Alles wissen wordt het project opnieuw ingesteld op een leeg beginpunt. |
 | Invoegen | Nieuwe deelvensters of visualisaties invoegen vanuit dit menu. U kunt ook nieuwe deelvensters en visualisaties invoegen vanuit de linkerrails. |
 | [Onderdelen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) | Creeer nieuw segment, berekende metrisch, datumwaaier, of waakzame componenten van uw project. U kunt ook nieuwe componenten maken vanaf de linkerspoorstaaf. Als uw componentendefinities onlangs zijn veranderd, vernieuw Componenten zal de recentste definities terugwinnen. |
@@ -132,7 +132,7 @@ De volgende acties zijn algemene acties in de Projectmanager en kunnen worden ui
 
 | Handeling | Beschrijving |
 |---|---|
-| Toevoegen | Een geheel nieuw project maken of vanuit een [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). |
+| Toevoegen | Een geheel nieuw project maken of vanuit een [verslag](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | Coderen of goedkeuren | Kies &quot;Tag&quot; of &quot;Goedkeuren&quot; om uw projecten te organiseren en ze gemakkelijker te maken om naar te zoeken. |
 | [Delen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Een project beschikbaar stellen voor andere Analysis Workspace-gebruikers in uw organisatie. |
 | Verwijderen | Verwijder uw project. |
