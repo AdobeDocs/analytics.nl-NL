@@ -3,9 +3,9 @@ description: Leer de basisbeginselen van het maken van een project in Analysis W
 title: Projecten maken
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
+source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Voor algemene informatie over hoe u met Analysis Workspace aan de slag kunt gaan
 
 In de volgende secties wordt beschreven hoe u een project maakt en de belangrijkste bouwstenen toevoegt voor elk Analysis Workspace-project: deelvensters, visualisaties en componenten.
 
-## Een project maken van een leeg project of sjabloon
+## Creeer een project van een leeg project of een rapport
 
 1. Selecteer in Adobe Analytics [!UICONTROL **Werkruimte**].
 
-1. Kies of u een leeg project wilt maken of een project wilt maken op basis van een sjabloon:
+1. Kies of om een leeg project tot stand te brengen of een project van een rapport te creëren:
 
    +++Een leeg project maken
 
@@ -36,15 +36,15 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
 
 +++
 
-   +++Een project maken van een sjabloon
+   +++Maak een project van een rapport
 
    1. Op de [!UICONTROL **Werkruimte**] selecteert u de [!UICONTROL **Rapporten**] aan de linkerkant van de pagina.
 
-   1. Zoek naar of navigeer naar het malplaatje u wilt gebruiken, dan selecteer het wanneer het verschijnt.
+   1. Zoek naar of navigeer naar het rapport u wilt gebruiken, dan selecteer het wanneer het verschijnt.
 
-      Standaard is een set standaardsjablonen beschikbaar. Bovendien kan uw organisatie aangepaste sjablonen hebben gemaakt waaruit u kunt kiezen.
+      Standaard is een set standaardrapporten beschikbaar. Bovendien zou uw organisatie douanerapporten voor u kunnen tot stand brengen om te kiezen uit.
 
-      Zie voor meer informatie [Aan de slag met rapporten en analyses](/help/analyze/reports-analytics/getting-started.md).
+      Zie &quot;Navigeren op het tabblad Rapporten&quot; in [Adobe Analytics-landingspagina](/help/analyze/landing.md).
 +++
 
 1. Daarna, moet u panelen, visualisaties, en componenten aan uw project toevoegen. Voeg eerst deelvensters toe aan uw project in Analysis Workspace, zoals beschreven in [Deelvensters toevoegen aan het project](#add-panels-to-the-project). Vervolgens kunt u visualisaties toevoegen aan alle deelvensters. Tot slot kunt u componenten aan om het even welke panelen of visualisaties toevoegen.
