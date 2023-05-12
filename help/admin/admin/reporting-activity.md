@@ -4,18 +4,16 @@ title: Activity Manager rapporteren
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: 646eb5aeefb17ded89a7041df6f6ad927b799f3f
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '887'
 ht-degree: 2%
 
 ---
 
 # Activity Manager rapporteren
 
->[!NOTE]
->
->Deze functionaliteit wordt momenteel getest in bèta.
+{{release-limited-testing}}
 
 De [!UICONTROL Reporting Activity Manager] laat u de rapporteringscapaciteit voor elke rapportreeks in uw organisatie zien. Het biedt u als beheerder gedetailleerde zichtbaarheid bij het melden van het verbruik en helpt u om problemen met de capaciteit tijdens piekrapporteringstijden eenvoudig te diagnosticeren en op te lossen.
 
@@ -64,13 +62,13 @@ Klik de titelverbinding van een rapportreeks waarvoor u details wilt bekijken.
 
 ![rapportsuite](/help/admin/admin/assets/indiv-report-ste.png)
 
-### Lijngrafiek
+### Lijngrafiek {#line}
 
 De lijngrafiek toont de rapportactiviteit voor de geselecteerde rapportreeks over de laatste 2 uren.
 
 * Op de x-as worden de gegevens over de rapportagecapaciteit gedurende de laatste twee uur weergegeven.
-* De y-as toont de gemiddelde wachttijd voor een vraag, in seconden.
-* U kunt de muisaanwijzer boven het lijndiagram plaatsen om de punten in de tijd en de gemiddelde wachttijd voor dat moment weer te geven.
+* Op de y-as wordt de capaciteit van het rapportgebruik in % voor de geselecteerde rapportsuite weergegeven, per minuut.
+* U kunt de muisaanwijzer boven het lijndiagram houden om op bepaalde tijdstippen de punten te bekijken waarop de weergegeven verbruikscapaciteit % de hoogste % is voor die minuut.
 
    ![detail](/help/admin/admin/assets/detail.png)
 
@@ -80,7 +78,7 @@ U kunt de lijst door Toepassing (zie lijst in de lijst hieronder), door Gebruike
 
 ![filter](/help/admin/admin/assets/filter.png)
 
-### Samenvattingsnummers
+### Samenvattingsnummers {#summary}
 
 ![filter](/help/admin/admin/assets/summary_numbers.png)
 
@@ -96,7 +94,7 @@ De overzichtsaantallen tonen de volgende informatie:
 
 {style="table-layout:auto"}
 
-### Tabel
+### Tabel met rapportsuite-details {#details}
 
 De gedetailleerde tabel hieronder bevat details over de rapportsuite.
 
@@ -116,7 +114,7 @@ De gedetailleerde tabel hieronder bevat details over de rapportsuite.
 
 {style="table-layout:auto"}
 
-## Rapportageverzoeken annuleren
+## Rapportageverzoeken annuleren {#cancel}
 
 Een aanvraag annuleren
 
@@ -133,7 +131,7 @@ De gebruikers van de toepassing in Werkruimte, bijvoorbeeld, zullen de volgende 
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
-## Veelgestelde vragen
+## Veelgestelde vragen {#faq}
 
 | Vraag | Antwoord |
 | --- | --- |
