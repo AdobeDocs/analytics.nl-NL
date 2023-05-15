@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
+source-git-commit: 50983b3cdc6ee003593eacc5b9a158eae761e4a5
 workflow-type: tm+mt
-source-wordcount: '4052'
-ht-degree: 31%
+source-wordcount: '4094'
+ht-degree: 30%
 
 ---
 
@@ -26,6 +26,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **Mei 2023** |  |
+| Verbeterde IP-naar-geolocatietoewijzing | Een onderwerp gemaakt op [Veelgestelde vragen](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
+| Activity Manager rapporteren | Deze bètadocumentatie is bijgewerkt, met name de sectie over [De rapportactiviteit voor individuele rapportreeksen bekijken](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Overzicht van Analysis Workspace | Bijgewerkt [Analysis Workspace-overzicht](/help/analyze/analysis-workspace/home.md) meer algemene overzichtsinformatie en koppelingen naar relevante inhoud op te nemen. |
 | Projecten maken | Een nieuw artikel maken waarin gedetailleerd wordt uitgelegd hoe u [Projecten maken](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
 | Componenten sorteren in linkerraster | Informatie toegevoegd over het sorteren van de lijst met componenten in de linkertrack. Zie de sectie Zoeken, filteren en sorteren in de lijst met componenten in [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
