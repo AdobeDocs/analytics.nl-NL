@@ -1,19 +1,19 @@
 ---
-description: Een Adobe Analytics-dashboards scorecard maken
-title: Een mobiele scorecard maken
+description: Adobe Analytics-dashboards maken en delen
+title: Mobiele scorecards maken en delen
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
+source-git-commit: 455b206ea145a3364d20048041976a1472c8abd7
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2441'
 ht-degree: 0%
 
 ---
 
 # Een mobiele scorecard maken
 
-De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over om mobiele scorecards voor uitvoerende gebruikers te vormen en voor te stellen. Als u wilt beginnen met, kunt u de video van de Adobe Analytics-dashboards Scorecard Builder bekijken:
+De volgende informatie instrueert curatoren van de gegevens van Adobe Analytics over om mobiele scorecards voor uitvoerende gebruikers te vormen en voor te stellen. Om te beginnen kunt u de Adobe Analytics dashboards scorecard builder video bekijken:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -21,11 +21,11 @@ Een Adobe Analytics-scorecard toont belangrijke gegevensvisualisaties voor uitvo
 
 ![Voorbeeldscorecard](assets/intro_scorecard.png)
 
-Als curator van dit scorecard, kunt u de Scorecard Bouwer gebruiken om te vormen welke tegels op scorecard voor uw uitvoerende consument verschijnen. U configureert ook hoe de gedetailleerde weergaven, of de onderverdelingen, kunnen worden aangepast wanneer op de tegels wordt getikt. De interface van de Bouwer Scorecard wordt hieronder getoond:
+Als curator van dit scorecard, kunt u de scorecard bouwer gebruiken om te vormen welke tegels op scorecard voor uw uitvoerende consument verschijnen. U configureert ook hoe de gedetailleerde weergaven, of de onderverdelingen, kunnen worden aangepast wanneer op de tegels wordt getikt. De scorecard bouwerinterface wordt hieronder getoond:
 
 ![Scorecard Builder](assets/scorecard_builder.png)
 
-U moet het volgende doen om het scorebord te maken:
+Om scorecard tot stand te brengen, moet u het volgende doen:
 
 1. Toegang krijgen tot [!UICONTROL Blank Mobile Scorecard] sjabloon.
 1. Vorm scorecard met gegevens en bewaar het.
@@ -37,7 +37,7 @@ U hebt toegang tot de [!UICONTROL Blank Mobile Scorecard] malplaatje of door een
 ### Een nieuw project maken {#create}
 
 1. Open Adobe Analytics en klik op de knop **[!UICONTROL Workspace]** tab.
-1. Klikken **[!UICONTROL Create project]** en selecteert u de **[!UICONTROL Blank mobile scorecard]** projectsjabloon.
+1. Klikken **[!UICONTROL Create project]** en selecteert u de **[!UICONTROL Blank Mobile Scorecard]** projectsjabloon.
 1. Klik op **[!UICONTROL Create]**.
 
 ![Scorecard-sjabloon](assets/new_template.png)
@@ -49,13 +49,13 @@ U hebt toegang tot de [!UICONTROL Blank Mobile Scorecard] malplaatje of door een
 
 ## Vorm scorecard met gegevens en bewaar het {#configure}
 
-Het scorebordsjabloon implementeren:
+Om het scorecardmalplaatje uit te voeren:
 
 1. Onder **[!UICONTROL Properties]** (in de rechtse spoorstaaf), **[!UICONTROL Project report suite]** waarvan u gegevens wilt gebruiken.
 
    ![Selectie van rapportsuite](assets/properties_save.png)
 
-1. Als u een nieuwe tegel aan het scorebord wilt toevoegen, sleept u een metrische waarde uit het linkerdeelvenster en zet u deze neer in het deelvenster **[!UICONTROL Drag and Drop Metrics Here]** zone. U kunt ook een metrische waarde tussen twee tegels invoegen met behulp van een vergelijkbare workflow.
+1. Als u een nieuwe tegel aan uw scorecard wilt toevoegen, sleept u een metrische waarde vanuit het linkerdeelvenster naar het **[!UICONTROL Drag and Drop Metrics Here]** zone. U kunt ook een metrische waarde tussen twee tegels invoegen met behulp van een vergelijkbare workflow.
 
    ![Tegels toevoegen](assets/build_list.png)
 
@@ -74,7 +74,7 @@ U kunt bijvoorbeeld de juiste afmetingen toevoegen (zoals **[!DNL Marketing Chan
 
 Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer.
 
-Als u het segment op alle tegels in Scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [configureren en toepassen van filters voor uw Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) Hetzelfde als in Adobe Analytics Workspace.
+Als u het segment op alle tegels in scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door segmenten te selecteren in het filtermenu onder de datumbereiken. U [vorm en pas filters voor uw scorecards toe](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) Hetzelfde als in Adobe Analytics Workspace.
 
 ![Segmenten maken voor filter](assets/segment_ui.png)
 
@@ -164,7 +164,7 @@ Als u wilt verwijderen [!UICONTROL Unspecified] dimensiepunten van uw gegevens, 
 
 ## Eigenschappen van tegels weergeven en configureren {#tiles}
 
-Wanneer u op een tegel klikt in de Scorecard Builder, ziet u in de rechterrails de eigenschappen en kenmerken van die tegel en de bijbehorende dia met details. In deze trein kunt u een nieuwe **Titel** voor de tegel en vormt u de tegel ook door segmenten toe te passen.
+Wanneer u op een tegel klikt in de scorecard builder, geeft de rechterspoorstaaf de eigenschappen en kenmerken weer die aan die tegel en zijn detaildia zijn gekoppeld. In deze trein kunt u een nieuwe **Titel** voor de tegel en vormt u de tegel ook door segmenten toe te passen.
 
 ![Eigenschappen, tegel](assets/properties-tile-new.png)
 
@@ -212,7 +212,7 @@ Als u tekst wilt toevoegen aan een detaildia, selecteert u een lay-out waarin de
 
 ## Componenten verwijderen {#remove}
 
-Op dezelfde manier om een component te verwijderen die op het volledige Scorecard wordt toegepast, klik overal op Scorecard buiten de tegels en verwijder het door het te klikken **x** dat wordt weergegeven wanneer u de muisaanwijzer op de component plaatst, zoals hieronder voor de component **Eerste bezoeken** segment:
+Op dezelfde manier om een component te verwijderen die op volledige scorecard wordt toegepast, klik overal op de scorecard buiten de tegels en verwijder het door het te klikken **x** dat wordt weergegeven wanneer u de muisaanwijzer op de component plaatst, zoals hieronder voor de component **Eerste bezoeken** segment:
 
 ![Remove_components](assets/new_remove.png)
 
@@ -315,13 +315,13 @@ U kunt voorvertonen hoe de scorecard eruitziet en functioneert zodra deze is gep
 
 ## Een scorecard een naam geven {#name}
 
-Als u het scorebord een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
+Als u de scorecard een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
 
 ![Naming_Scorecards](assets/new_name.png)
 
 ## Een scorecard delen {#share}
 
-U kunt als volgt het scorebord delen met een Executive-gebruiker:
+De scorecard delen met een Executive-gebruiker:
 
 1. Klik op de knop **[!UICONTROL Share]** en selecteert u **[!UICONTROL Share scorecard]**.
 
@@ -336,6 +336,25 @@ U kunt als volgt het scorebord delen met een Executive-gebruiker:
 
 ![Share_Scorecards](assets/new_share.png)
 
-Nadat u een scorecard hebt gedeeld, kunnen uw ontvangers tot het op hun dashboards van Analytics toegang hebben. Als u verdere veranderingen in scorecard in de Scorecard Bouwer aanbrengt, zullen zij automatisch in gedeelde scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het Scorecard op hun app verfrist.
+Nadat u een scorecard hebt gedeeld, kunnen uw ontvangers tot het op hun dashboards van Analytics toegang hebben. Als u verdere veranderingen in scorecard in de scorecard bouwer aanbrengt, zullen zij automatisch in gedeelde scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het scorecard op hun app verfrist.
 
 Als u scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u de scorecard opnieuw willen delen (en controle **[!UICONTROL Share embedded components]** ) om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.
+
+### Schrappingskaarten delen met behulp van een deelbare koppeling
+
+Met een deelbare koppeling kunt u eenvoudig een scorecard delen in een e-mail-, document- of tekstbericht-app. Met de link shareable kunnen ontvangers de scorecard openen op hun bureaublad of in de mobiele app dashboards. Dankzij de deelbare diepe koppeling is het nog eenvoudiger om projecten te delen en de betrokkenheid bij uw belanghebbenden te versterken.
+
+Een scorecard delen met behulp van een shareable-koppeling
+
+1. Klik op de knop **[!UICONTROL Share]** en selecteert u **[!UICONTROL Share scorecard]**.
+
+   ![Share_Scorecards](assets/share-scorecard.png)
+
+1. Kopieer de koppeling en plak deze in een e-mail-, document- of IM-app.
+
+   Wanneer een ontvanger een bureaubladtoepassing of browser gebruikt om de koppeling te openen, wordt het mobiele scorecard-project geopend in Workspace.
+
+   Wanneer een ontvanger de koppeling op een mobiel apparaat opent, wordt de scorecard rechtstreeks geopend in de app Analytics-dashboards.
+
+   Als een ontvanger de mobiele app niet heeft gedownload, wordt hij of zij verwezen naar de app-aanbieding in de App Store of Google Play Store waar hij of zij deze kan downloaden.
+
