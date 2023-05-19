@@ -4,9 +4,9 @@ title: Tabellen filteren en sorteren
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt snel specifieke rijen van de lijst uitsluiten zonder het nodig hebben om 
 
 >[!NOTE]
 >
->Wanneer u rijen zoals beschreven in deze sectie uitsluit, [!UICONTROL **Is niet gelijk aan**] regel wordt automatisch toegepast in het dialoogvenster [**[!UICONTROL Advanced filtering]**](#apply-a-simple-or-advanced-filter) .
+>Wanneer u rijen zoals beschreven in deze sectie uitsluit, [!UICONTROL **Items altijd uitsluiten**] wordt automatisch toegepast in het dialoogvenster met geavanceerde filters. (U kunt de toegepaste regel weergeven door het pictogram Filter te selecteren en vervolgens [**[!UICONTROL Show advanced]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 Om specifieke rijen van een lijst van de Vrije vorm snel uit te sluiten:
 
@@ -54,7 +54,7 @@ Gegevens filteren in Freeform-tabellen:
    | [!UICONTROL **Woord of woordgroep zoeken**] | Geef een woord of woordgroep op waarop u wilt filteren. Alleen rijen die het opgegeven woord of de exacte woordgroep bevatten, worden weergegeven. |
    | [!UICONTROL **Inclusief niet-opgegeven (geen)**] | Selecteer deze optie om gegevens in de tabel weer te geven die niet in een van de afmetingen van de tabel vallen. <!--what is this?--> |
 
-1. (Optioneel) Selecteer [!UICONTROL **Geavanceerd filteren**].
+1. (Optioneel) Selecteer [!UICONTROL **Geavanceerd tonen**].
 
    De volgende geavanceerde filteropties zijn beschikbaar:
 
