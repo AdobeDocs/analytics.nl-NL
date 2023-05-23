@@ -4,7 +4,7 @@ title: Overzicht van onderdelen
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 6247f44aca1e6aba6cf02ed34a0e26ef5e182021
+source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 3%
@@ -102,6 +102,8 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
 1. Selecteer de component wanneer deze in de vervolgkeuzelijst wordt weergegeven.
 
 ### De componentlijst filteren
+
+{{release-limited-testing-section}}
 
 1. Selecteer **Componenten** pictogram ![Pictogram Componenten](assets/components-icon.png) in het linkerspoor.
 
