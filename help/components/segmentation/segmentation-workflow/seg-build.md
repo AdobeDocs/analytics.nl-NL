@@ -3,9 +3,9 @@ description: De Bouwer van het Segment verstrekt een canvas om Metrische Dimensi
 title: Segmenten maken
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1943'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Er zijn verscheidene manieren om tot de Bouwer van het Segment toegang te hebben
 
 * **Bovenste navigatie van analysemogelijkheden**: Klikken **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Klikken **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, opent u een project en klikt u op **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Reports & Analytics]**: Klikken **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, opent u een bestaand rapport en klikt u op het pictogram Segmenten  ![](assets/segment_icon.png) in de linkernavigatie, dan klik **[!UICONTROL Add]**.
+* **[!UICONTROL Reports & Analytics]**: Klikken **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, opent u een bestaand rapport en klikt u op het pictogram Segmenten  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in de linkernavigatie, dan klik **[!UICONTROL Add]**.
 * **[!UICONTROL Report Builder]**: [Segmenten toevoegen of bewerken in Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html).
 
 ## Builder-criteria {#section_F61C4268A5974C788629399ADE1E6E7C}

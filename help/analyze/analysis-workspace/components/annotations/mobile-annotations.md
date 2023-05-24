@@ -5,9 +5,9 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: 383a38e90cacf31ae92122b9e96845e5cd2950b6
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ Wanneer annotaties zijn ingeschakeld, zijn de annotatiepictogrammen zichtbaar in
 
 ![](assets/view-annotations.png)
 
-Wanneer annotatiepictogrammen zichtbaar zijn, kunt u de annotaties op het canvas van de builder niet volledig weergeven of ermee werken. In de modus Voorvertoning kunt u annotaties weergeven en gebruiken zoals deze in de app worden weergegeven. ![](assets/preview-icon.png)
+Wanneer annotatiepictogrammen zichtbaar zijn, kunt u de annotaties op het canvas van de builder niet volledig weergeven of ermee werken. In de modus Voorbeeld kunt u annotaties weergeven en gebruiken zoals deze in de app worden weergegeven ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **Voorvertoning**.
 
-Annotatiekleuren worden geselecteerd wanneer de annotatie wordt gemaakt in de werkruimte. Grijsaantekeningen duidden op de aanwezigheid van meer dan één aantekening. ![](assets/gray-annotations1.png) ![](assets/gray-annotations2.png)
+Annotatiekleuren worden geselecteerd wanneer de annotatie wordt gemaakt in de werkruimte. Grijsaantekeningen duidden op de aanwezigheid van meer dan één aantekening.
 
 ## Diagramannotaties weergeven
 

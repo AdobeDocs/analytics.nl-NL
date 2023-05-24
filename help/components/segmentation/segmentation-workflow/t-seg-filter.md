@@ -3,9 +3,9 @@ description: Filteren op tags, eigenaars en andere filters (Alles weergeven, Mij
 title: Segmenten filteren
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '161'
 ht-degree: 3%
 
 ---
@@ -16,11 +16,11 @@ Filteren op tags, eigenaars en andere filters (Alles weergeven, Mijne, Gedeeld m
 
 Door te filteren kunt u gemakkelijker naar segmenten in de segmentrail zoeken.
 
-1. Klik in Segmentbeheer op de knop **[!UICONTROL Filters]** pictogram:  ![](assets/filter_icon.png)
+1. Klik in Segmentbeheer op de knop **[!UICONTROL Filters]** pictogram:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    ![](assets/filtering.png)
 
-1. De volgende filters zijn beschikbaar:
+2. De volgende filters zijn beschikbaar:
 
    | Filternaam | Beschrijving |
    |---|---|

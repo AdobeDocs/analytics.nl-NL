@@ -4,9 +4,9 @@ title: Tabellen filteren en sorteren
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -67,19 +67,19 @@ Gegevens filteren in Freeform-tabellen:
 
 1. Selecteren [!UICONTROL **Toepassen**] om de gegevens te filteren.
 
-   De **Filter** pictogram ![Blauw filterpictogram gefilterde tabel](assets/table-filter-blue-icon.png) wordt blauw wanneer een filter op de lijst wordt toegepast.
+   De **Filter** pictogram ![Blauw filterpictogram gefilterde tabel](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) wordt blauw wanneer een filter op de lijst wordt toegepast.
 
 ## Tabellen sorteren
 
 U kunt de gegevens van een tabel met vrije vorm sorteren op elke kolom in Analysis Workspace die een metrisch object is.
 
-Een pictogram met een pijl-omlaag ![Pijl-omlaag - pictogram gesorteerde tabelkolom](assets/table-sort-arrow-icon.png) is zichtbaar in de koptekst van de kolom waarop de gegevens momenteel worden gesorteerd.
+Een pictogram met een pijl-omlaag ![Pijl-omlaag - pictogram gesorteerde tabelkolom](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) is zichtbaar in de koptekst van de kolom waarop de gegevens momenteel worden gesorteerd.
 
 De gegevens in een tabel voor vrije vorm sorteren op een bepaalde kolom:
 
 1. Houd de muisaanwijzer boven de kolomtitel waarmee u de gegevens wilt sorteren.
 
-1. Selecteer het pictogram Pijl-omlaag wanneer dit wordt weergegeven.
+2. Selecteer het pictogram Pijl-omlaag wanneer dit wordt weergegeven.
 
    ![Pijl-omlaag - pictogram gesorteerde tabelkolom](assets/table-sort.png)
 

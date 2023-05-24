@@ -4,9 +4,9 @@ title: Segmenten beheren (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -86,18 +86,18 @@ Beschikbare filters zijn:
 
 Het toevoegen van een segmentcontrole laat u segmenten van binnen een werkboek in plaats van het moeten in de Tovenaar van het Verzoek gaan.
 
-1. Klik op het pictogram Besturing ( ![](assets/control_icon.png)) naast de vervolgkeuzelijst segment.
+1. Klik op het pictogram Besturing ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) naast de segment drop-down.
 
    ![](assets/seg_control.png)
 
-1. Controleer alle segmenten die u in de segmentcontrole wilt verschijnen, of controleer **[!UICONTROL Select All]**.
-1. Let op de optie **[!UICONTROL Automatically refresh linked requests upon item selection]**.
+2. Controleer alle segmenten die u in de segmentcontrole wilt verschijnen, of controleer **[!UICONTROL Select All]**.
+3. Let op de optie **[!UICONTROL Automatically refresh linked requests upon item selection]**.
 
    * Als deze optie is ingeschakeld, worden alle aanvragen die gebruikmaken van dit besturingselement vernieuwd.
    * Als niet gecontroleerd, worden de bijbehorende verzoekparameters bijgewerkt, maar de verzoeken worden niet verfrist.
 
-1. Specificeer de hogere linkercelplaats van de segmentcontrole.
-1. Klikken **[!UICONTROL OK]** en de segmentcontrole verschijnt in de gespecificeerde plaats.
+4. Specificeer de hogere linkercelplaats van de segmentcontrole.
+5. Klikken **[!UICONTROL OK]** en de segmentcontrole verschijnt in de gespecificeerde plaats.
 
    ![](assets/seg_control2.png)
 

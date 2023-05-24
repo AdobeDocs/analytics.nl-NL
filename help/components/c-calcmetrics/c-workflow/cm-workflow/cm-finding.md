@@ -3,9 +3,9 @@ description: Beschrijft de twee belangrijkste manieren om uw metriek het sortere
 title: Cijfers zoeken
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '243'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ Beschrijft de twee belangrijkste manieren om uw metriek te vinden: sorteren en f
 
 ## Sorteren {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-Wanneer u een rapport opent en op het pictogram Metriek klikt  ![](assets/metrics_icon.png) links van een rapport over de metrieke spoorlijn, de **[!UICONTROL Sort By]** In de vervolgkeuzelijst Metrisch selecteren worden vier sorteeropties weergegeven:
+Wanneer u een rapport opent en op het pictogram Metriek klikt  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)) links van een rapport over de metrieke spoorlijn, de **[!UICONTROL Sort By]** In de vervolgkeuzelijst Metrisch selecteren worden vier sorteeropties weergegeven:
 
 ![](assets/cm_sort.png)
 

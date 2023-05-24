@@ -5,7 +5,7 @@ uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
 role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 4%
@@ -35,7 +35,7 @@ Insteekmodules voor browser Activity Mappen:
 1. Ga terug naar de adresbalk van Chrome en voer `chrome://extensions`.
 1. Schakel het vak Developer mode in.
 1. Klik op Niet-verpakte extensies laden en selecteer de uitgepakt map in de pop-up.
-1. Als u een Adobe Analytics-pictogram ziet  ![](assets/an_icon.png){width="70px"} is toegevoegd aan de werkbalk, is het downloaden gelukt. U kunt nu [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) van uw pagina.
+1. Als er een Adobe Analytics-pictogram aan de werkbalk wordt toegevoegd, is het downloaden gelukt. <br/><img src="./assets/an_icon.png" width="150px"/><br/>U kunt nu [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) van uw pagina.
 
 ## Plug-in Activity Map installeren op Firefox {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
@@ -47,7 +47,7 @@ Insteekmodules voor browser Activity Mappen:
 1. Klik op **[!UICONTROL Install Now]**.
 1. Klik op de knop **[!UICONTROL Open Menu]** pictogram rechtsboven en selecteer **[!UICONTROL Add-Ons]**. ![](assets/firefox_install3.png){width="250px"}
 1. Activity Map moet worden vermeld als een van de Firefox-invoegtoepassingen.
-1. Als u een Adobe Analytics-pictogram ziet  ![](assets/an_icon.png) is toegevoegd aan de werkbalk, is het downloaden gelukt. U kunt nu [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) van uw pagina.
+1. Als er een Adobe Analytics-pictogram aan de werkbalk wordt toegevoegd, is het downloaden gelukt. <br/><img src="./assets/an_icon.png" width="150px"/><br/>U kunt nu [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) van uw pagina.
 
 ## Plug-in Activity Map installeren in Internet Explorer {#section_1A33705D7F784C4A88C9026ADC860FB8}
 

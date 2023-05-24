@@ -4,9 +4,9 @@ title: Adobe Analytics-landingspagina
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
 workflow-type: tm+mt
-source-wordcount: '3797'
+source-wordcount: '3805'
 ht-degree: 0%
 
 ---
@@ -195,12 +195,12 @@ Meer leeropties:
 
 ### Bedrijfsrapporten beheren {#manage-company-reports}
 
-Beheerders kunnen de projectlijst filteren om bedrijfsrapporten weer te geven en te beheren. Vastgezette items blijven vastgezet, gevolgd door de lijst met bedrijfsrapporten die worden geïdentificeerd door de ![rapportpictogram](assets/report-icon.png) rapportpictogram. In deze weergave kunt u een of meer rapporten verwijderen, hernoemen, labelen of goedkeuren.
+Beheerders kunnen de projectlijst filteren om bedrijfsrapporten weer te geven en te beheren. Vastgezette items blijven vastgezet, gevolgd door de lijst met bedrijfsrapporten die worden geïdentificeerd door de ![rapportpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) rapportpictogram. In deze weergave kunt u een of meer rapporten verwijderen, hernoemen, labelen of goedkeuren.
 
 Bedrijfsrapporten weergeven en beheren
 
 1. Selecteer in de filterrail **ANDERE FILTERS** en selecteer vervolgens **Bedrijfsrapporten**.
-Een lijst van de bedrijfrapporten wordt getoond. Alle gewone projecten worden niet weergegeven, tenzij ze zijn vastgezet.
+Een lijst van de bedrijfrapporten wordt getoond. Alle gewone projecten worden niet weergegeven, tenzij ze vastgezet zijn.
 
    ![Bedrijfsrapportfilters weergeven](assets/company-reports-filter.png)
 

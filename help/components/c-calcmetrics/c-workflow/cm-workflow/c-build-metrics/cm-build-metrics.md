@@ -3,9 +3,9 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimension, 
 title: Cijfers samenstellen
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '962'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
 
 * Klikken **[!UICONTROL + Add]** boven aan het dialoogvenster [Berekend metrisch beheer](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), of
 
-* Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, opent u een willekeurig rapport en klikt u op het pictogram Metriek  ![](assets/metrics_icon.png) om de metrieke spoorstaaf te verhogen, dan klik **[!UICONTROL Add]**.
+* Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, opent u een willekeurig rapport en klikt u op het pictogram Metriek  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) om de metrieke spoorstaaf te verhogen, dan klik **[!UICONTROL Add]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -67,7 +67,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Samenvatting </span> </td> 
-   <td colname="col3"> <p>De <span class="uicontrol"> Samenvatting </span> de formule werkt op om het even welk ogenblik bij u een verandering in de metrische definitie aanbrengt. Deze formule wordt ook weergegeven in de metrische rail links als u de muisaanwijzer boven een metrische waarde houdt en op de knop <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> pictogram. </p> </td> 
+   <td colname="col3"> <p>De <span class="uicontrol"> Samenvatting </span> de formule werkt op om het even welk ogenblik bij u een verandering in de metrische definitie aanbrengt. Deze formule wordt ook weergegeven in de metrische rail links als u de muisaanwijzer boven een metrische waarde houdt en op de knop <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> pictogram. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Definitie </span> </td> 
@@ -79,7 +79,7 @@ Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Operator </span> </td> 
-   <td colname="col3"> <p>Gedeeld door ( <img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is de standaardoperator, plus de operatoren +, - en x. </p> </td> 
+   <td colname="col3"> <p>Gedeeld door ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is de standaardoperator, plus de operatoren +, - en x. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Voorvertoning </span> </td> 

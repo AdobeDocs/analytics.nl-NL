@@ -5,9 +5,9 @@ uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 feature: Report Builder
 role: User, Admin
 exl-id: d3388990-7919-461d-a96e-4c996b8bdb8b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 In het deelvenster Opties kunt u de datuminstellingen, latentie-instellingen (Huidige gegevens), loggegevens en updates configureren.
 
-1. Klik op de werkbalk Add-ins op **[!UICONTROL Options]** ![](assets/options_icon.png):
+1. Klik op de werkbalk Add-ins op **[!UICONTROL Options]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg):
 
 | Element | Beschrijving |
 |--- |--- |

@@ -5,7 +5,7 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 Een overzicht van het menu Rapporten in Rapporten &amp; Analytics.
 
 >[!IMPORTANT]
->Effectief **31 december 2023**, is Adobe voornemens de rapporten en analyses en de bijbehorende rapporten en functies te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en de onderliggende technologie die de rapporten &amp; Analytics van de macht niet meer aan de technologienormen van Adobe voldoen. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
+>Effectief **31 december 2023**, is Adobe voornemens de rapporten en analyses en de bijbehorende rapporten en functies te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en onderliggende technologie die de macht meldt &amp; Analytics niet meer aan de normen van de Adobe voldoet. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 
 Het menu Rapporten bevat:
 
@@ -61,19 +61,19 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Menu Experience Cloud-oplossingen <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Menu Experience Cloud-oplossingen <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> Als u op dit pictogram klikt, wordt het menu Experience Cloud uitgebreid, zodat u toegang hebt tot andere oplossingen van marketingmogelijkheden. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Menu Rapporten in-/uitschakelen <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col1">Menu Rapporten in-/uitschakelen <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
    <td colname="col2"> Als u op deze knop klikt, wordt het menu Rapporten uitgevouwen of samengevouwen, zodat u een rapport kunt weergeven met de volledige breedte van het browservenster. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Segmenten <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">Segmenten <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
    <td colname="col2">Brings up the segment rail that lets you lets add or manage. U hebt ook toegang tot de <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder</a> en <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > Segmentbeheer</a> interfaces van het segment spoorstaaf. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Cijfers <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">Cijfers <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
    <td colname="col2"> Brings up the metrics rail waarmee u metriek en berekende metriek kunt toevoegen of beheren. </td> 
   </tr> 
   <tr> 

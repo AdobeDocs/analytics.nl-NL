@@ -3,9 +3,9 @@ description: Met segmenten kunt u subsets bezoekers identificeren op basis van k
 title: Segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,9 @@ In deze video ziet u een kort overzicht van de containers voor segmenten en hoe 
 
 U kunt tot de Bouwer van het Segment toegang hebben door:
 
-* Een bestaand rapport weergeven en op het pictogram Segmenten klikken  ![Segmentpictogram](assets/segment_icon.png) in de linkernavigatie. Klik in de segmenttrack die wordt weergegeven op **[!UICONTROL Add]**, of
+* Een bestaand rapport weergeven en op het pictogram Segmenten klikken  ![Segmentpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in de linkernavigatie. Klik in de segmenttrack die wordt weergegeven op **[!UICONTROL Add]**, of
 
-* Klik boven aan Segmentbeheer op **[!UICONTROL + Add]**.  ![Knop Toevoegen](assets/add_button.png)
+* Klik boven aan Segmentbeheer op **[!UICONTROL + Add]**.  ![Knop Toevoegen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
    of
 

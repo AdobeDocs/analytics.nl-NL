@@ -5,9 +5,9 @@ title: Overzicht van projecten
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 7b3acbab3f65b02ceaaea154fb6152cfb0bf07f0
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1523'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ De pagina Projecten bevat de volgende informatie:
 
 >[!NOTE]
 >
->Sommige kolommen worden niet standaard weergegeven. Als u de kolommen die u ziet, wilt aanpassen, klikt u op de knop **Tabel aanpassen** pictogram ![Tabel aanpassen](assets/projects-page-customize-columns-icon.png).
+>Sommige kolommen worden niet standaard weergegeven. Als u de kolommen die u ziet, wilt aanpassen, klikt u op de knop **Tabel aanpassen** pictogram ![Tabel aanpassen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg).
 
 
 | Element | Beschrijving |
