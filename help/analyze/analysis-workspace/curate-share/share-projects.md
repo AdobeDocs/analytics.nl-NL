@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 3a9dc661ce9243174bef45e689366baa58cf45b3
+source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1719'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ U kunt [alleen-lezen toegang](/help/analyze/analysis-workspace/curate-share/view
 
 * Personen buiten uw organisatie
 
-* Personen binnen uw organisatie die niet zijn voorzien van Adobe Analytics
+* Personen binnen uw organisatie die geen toegang hebben tot Adobe Analytics
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ U kunt [alleen-lezen toegang](/help/analyze/analysis-workspace/curate-share/view
 >
 >* Projecten met meer dan 50 uitgebreide visualisaties kunnen niet worden gedeeld met mensen die geen toegang hebben tot Adobe Analytics.
 >
->* Gebruikers met wie u deelt, kunnen alle filters weergeven die tijdens het project op het project zijn toegepast [kromming](curate.md).
+>* De gebruikers u het project met deelt kunnen om het even welke filters bekijken die op het project tijdens werden toegepast [kromming](curate.md).
 > 
 >* Gebruikers met wie u deelt, kunnen het datumbereik van het project wijzigen. De datumwaaier u voor het project plaatst wordt getoond door gebrek.
 >
