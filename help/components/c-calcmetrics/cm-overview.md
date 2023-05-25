@@ -4,16 +4,16 @@ keywords: Berekende metriek;Afgeleide Metriek;Geavanceerde Berekende Metriek
 title: Berekende en Geavanceerde berekende (Afgeleide) Metriek
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 6%
 
 ---
 
-# Berekende en Geavanceerde berekende (Afgeleide) Metriek
+# Berekende en Geavanceerde berekende (Afgeleide) metriek
 
-Berekende en Geavanceerde Berekende (of Afgeleide) Metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen.
+Berekende en Geavanceerde berekende (of Afgeleide) metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen.
 
 Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijze metriek bouwen, beheren en beheren. Met deze services kunt u als marketers, productmanagers en analisten vragen stellen over de gegevens zonder dat u uw [!DNL Analytics] uitvoering. De aangepaste maatstaven die beschikbaar zijn in elke [!DNL Analytics] pakket is:
 
@@ -22,9 +22,9 @@ Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijz
 * [Adobe Analytics Prime](https://www.adobe.com/nl/data-analytics-cloud/analytics/prime.html): Berekend + Geavanceerd berekend
 * [Adobe Analytics Ultimate](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html): Berekend + Geavanceerd berekend
 
-Hier volgt een vergelijking van de mogelijkheden Berekende meetwaarden en Geavanceerde berekende meetwaarden:
+Hier is een vergelijking van Berekende metriek en Geavanceerde Berekende metriekmogelijkheden:
 
-| Builder-opties | Berekende standaarden | Geavanceerde berekende (Afgeleide) Metriek |
+| Builder-opties | Berekende standaarden | Geavanceerde berekende (Afgeleide) metriek |
 |---|---|---|
 | [Indelingstypen (decimaal, tijd, percentage, valuta)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Ja | Ja |
 | [Wijzigingen in het kenmerk (standaard, lineair, deelname, enz.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Ja | Ja |
@@ -44,11 +44,11 @@ U kunt
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * De metriek van het aandeel over rapportsuites. Dit betekent dat alle pas gecreëerde metriek op alle rapportsuites in het zelfde login bedrijf van toepassing is.
-* (Alleen Geavanceerde berekende cijfers) Segment op maateenheden. U kunt bijvoorbeeld een metrische waarde maken voor &quot;Nieuwe bezoekers&quot;, met een aantal personen voor wie dit de eerste sessie is. Hier volgt een video over dit onderwerp:
+* (Alleen geavanceerde berekende metriek) Segment op metriek. U kunt bijvoorbeeld een metrische waarde maken voor &quot;Nieuwe bezoekers&quot;, met een aantal personen voor wie dit de eerste sessie is. Hier volgt een video over dit onderwerp:
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
-* (Alleen geavanceerde berekende statistieken) Neem statistische functies op om uw gegevens beter te kunnen beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
+* (Alleen geavanceerde berekende gegevens) Neem statistische functies op om uw gegevens beter te kunnen beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
 
 ## Beperkingen {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -65,7 +65,7 @@ Sommige [!DNL Analytics] Met functies kunt u wel gebeurtenissen gebruiken, maar 
 
 ## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Hier volgt een kort overzicht van het [!UICONTROL Calculated Metrics] gereedschappen:
+Hier volgt een kort overzicht van het [!UICONTROL Calculated metrics] gereedschappen:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 

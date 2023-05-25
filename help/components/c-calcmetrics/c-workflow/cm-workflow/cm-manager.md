@@ -3,7 +3,7 @@ description: De pagina Berekende metriek biedt vele manieren om metriek, zoals h
 title: Het berekende manager van metriek
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%
@@ -15,6 +15,10 @@ ht-degree: 2%
 De pagina Berekende metriek biedt vele manieren om metriek, zoals het delen, het filtreren, het etiketteren, het goedkeuren, het kopiëren, het schrappen, en het merken als favorieten te leiden.
 
 Op de pagina Berekende metriek ziet u alle segmenten die u bezit en die met u zijn gedeeld. Gebruikers op beheerniveau kunnen alle aangepaste maatstaven in de organisatie zien.
+
+## Toegang tot het Berekende manager van metriek
+
+1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**].
 
 ## Gebieden van het Berekende metrische beheer
 
@@ -37,7 +41,3 @@ In de volgende afbeelding en de bijbehorende tabel worden enkele hoofdgebieden e
 | Niet weergegeven in afbeelding | **Datum gewijzigd:** Geeft de datum aan waarop de aangepaste metrische waarde voor het laatst is gewijzigd. |
 
 {style="table-layout:auto"}
-
-## Toegang tot het Berekende manager van metriek
-
-1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**].

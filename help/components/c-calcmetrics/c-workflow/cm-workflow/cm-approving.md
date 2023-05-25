@@ -3,16 +3,22 @@ description: In Berekende Metrische Manager, kunt u opstelling een werkschema da
 title: Berekende standaard goedkeuren
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 2%
 
 ---
 
 # Berekende standaard goedkeuren
 
-In het Berekende manager van metriek, kunt u opstelling een werkschema dat het goedkeuren van metriek voor diverse niveaus van toepassing en voor specifieke afdelingen of groepen omvat.
+In het Berekende beheer van metriek, kunnen de beheerders opstelling een werkschema dat het goedkeuren van metriek voor diverse niveaus van toepassing en voor specifieke afdelingen of groepen omvat.
+
+>[!NOTE]
+>
+>Beheerders kunnen ook berekende metriek (en andere componenten) uit het gegevenswoordenboek goedkeuren, zoals wordt beschreven in [Onderdeelitems in gegevenswoordenboek bewerken](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>Alle berekende metriek die in het gegevenswoordenboek zijn goedgekeurd, worden weerspiegeld in het Berekende metriekbeheer. Op dezelfde manier worden de metriek die in Berekende metriekmanager worden goedgekeurd weerspiegeld in het Woordenboek van Gegevens.
 
 Berekende waarden als goedgekeurd markeren:
 

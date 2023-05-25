@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 46%
+ht-degree: 45%
 
 ---
 
@@ -180,7 +180,7 @@ ht-degree: 46%
    + [Veelgestelde vragen over het beheer van verouderde segmenten ](segmentation/seg-transition.md)
    + [Best practices](segmentation/best-practices.md)
 + Berekende statistieken {#calculated-metrics}
-   + [Berekende en Geavanceerde berekende (Afgeleide) Metriek](c-calcmetrics/cm-overview.md)
+   + [Berekende en Geavanceerde berekende (Afgeleide) metriek](c-calcmetrics/cm-overview.md)
    + [Instructievideo&#39;s](c-calcmetrics/cm-videos.md)
    + Workflow voor berekende standaard {#calcmetric-workflow}
       + [Workflow voor berekende standaard](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
@@ -189,7 +189,7 @@ ht-degree: 46%
       + [Een metrische waarde voor Paginaweergaven per bezoek maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Een metrische &#39;Order Assists&#39; maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Een &quot;Deelname&quot;-metrisch maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [Type cijfers en attributie](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [Type en attributie metrisch](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Gesegmenteerde cijfers](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Segmenten stapelen en vervangen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Gefilterde en gewogen cijfers](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
@@ -197,7 +197,7 @@ ht-degree: 46%
       + [Berekende standaard een label geven](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Berekende standaard goedkeuren](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Berekende standaard delen](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [Berekende standaard-beheer](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [Het berekende manager van metriek](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Verwijzing naar cijfers {#calcmetrics-reference}
       + [Referentie: basisfuncties](c-calcmetrics/cm-reference/cm-functions.md)
       + [Referentie: geavanceerde functies](c-calcmetrics/cm-reference/cm-adv-functions.md)
