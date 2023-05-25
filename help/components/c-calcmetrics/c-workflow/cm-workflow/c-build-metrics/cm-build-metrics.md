@@ -1,31 +1,28 @@
 ---
 description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimension, Metriek, Segmenten, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
-title: Cijfers samenstellen
+title: Metrische gegevens samenstellen
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 1%
+source-wordcount: '955'
+ht-degree: 0%
 
 ---
 
-# Cijfers samenstellen
+# Metrische gegevens samenstellen
 
-De Berekende Bouwer van Metriek verstrekt een canvas om Dimension, Metriek, Segmenten, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
+Adobe Analytics biedt een canvas voor het slepen en neerzetten van dimensies, metriek, segmenten en functies om aangepaste metrische gegevens te maken op basis van logica in de containerhiërarchie, regels en operatoren. Met dit geïntegreerde ontwikkelprogramma kunt u eenvoudige of complexe berekende meetgegevens maken en opslaan.
 
-Er zijn verscheidene manieren om aan Berekende Metrische Bouwer te krijgen:
+U kunt op de volgende manieren beginnen met het maken van een berekende metrische waarde:
 
-* Open in Analysis Workspace een project en klik op  **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
-* In [!DNL Analytics], ga naar **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
-
-* Klikken **[!UICONTROL + Add]** boven aan het dialoogvenster [Berekend metrisch beheer](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), of
-
-* Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, opent u een willekeurig rapport en klikt u op het pictogram Metriek  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) om de metrieke spoorstaaf te verhogen, dan klik **[!UICONTROL Add]**.
+* Open in Analysis Workspace een project en selecteer vervolgens **[!UICONTROL Components]** > **[!UICONTROL Create metric]**.
+* Open in Analysis Workspace een project en selecteer vervolgens de **Plus** pictogram naast [!UICONTROL **Metrisch**] in de linkerspoorstaaf.
+* In [!DNL Analytics], ga naar **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]** selecteert u vervolgens **[!UICONTROL + Add]** boven aan de pagina Berekende metriek.
 
 ![](assets/cm_builder_ui.png)
 
-## UI-componenten {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
+## Beschikbare velden en gebieden {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
 
 <table id="table_60A82936321047D1A335331BF83B0972"> 
  <thead> 

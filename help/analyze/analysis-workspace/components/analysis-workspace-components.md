@@ -4,7 +4,7 @@ title: Overzicht van onderdelen
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 3%
@@ -103,8 +103,6 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
 
 ### De componentlijst filteren
 
-{{release-limited-testing-section}}
-
 1. Selecteer **Componenten** pictogram ![Pictogram Componenten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerspoor.
 
 2. Selecteer **Filter** pictogram ![Filter gegevenswoordenboek, pictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
@@ -129,6 +127,8 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
 4. (Optioneel) Als u de lijst verder wilt uitlijnen, kunt u de lijst met componenten sorteren, zoals beschreven in [De componentlijst sorteren](#sort-the-component-list).
 
 ### De componentlijst sorteren
+
+{{release-limited-testing-section}}
 
 1. (Optioneel) Pas filters toe op de lijst met componenten, zoals beschreven in [De componentlijst filteren](#filter-the-component-list).
 

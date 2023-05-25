@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 48%
+source-wordcount: '695'
+ht-degree: 46%
 
 ---
 
@@ -185,15 +185,15 @@ ht-degree: 48%
    + Workflow voor berekende standaard {#calcmetric-workflow}
       + [Workflow voor berekende standaard](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Cijfers zoeken](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Cijfers samenstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Metrische gegevens samenstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Een metrische waarde voor Paginaweergaven per bezoek maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Een metrische &#39;Order Assists&#39; maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Een &quot;Deelname&quot;-metrisch maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Type cijfers en attributie](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Een eenvoudige indicator voor &quot;Paginaweergaven per bezoek&quot; maken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Gesegmenteerde cijfers](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Segmenten stapelen en vervangen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Gefilterde en gewogen cijfers](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [Cijfers voor hulp bij bestellingen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Functies gebruiken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [Participatiecijfers](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Berekende standaard een label geven](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Berekende standaard goedkeuren](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Berekende standaard delen](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
