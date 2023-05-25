@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: fe072eab9c6dd6438ad6f27f0c16860cd87d1e64
+source-git-commit: 3a9dc661ce9243174bef45e689366baa58cf45b3
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -157,13 +157,13 @@ Een Analysis Workspace-project delen met mensen die geen toegang hebben tot Adob
 
       * Als deze optie is ingeschakeld en gedimd, vereist de beheerder van Analytics Experience Cloud-verificatie voor iedereen die Analysis Workspace-projecten opent.
 
-1. Naast de **[!UICONTROL Share with anyone (no login required)]** veld, klikt u op de knop **Koppeling kopiëren** pictogram ![Koppelingspictogram kopiëren](assets/copy-link-icon.png) om de koppeling naar het systeemklembord te kopiëren.
+1. Naast de **[!UICONTROL Share with anyone (no login required)]** veld, klikt u op de knop **Koppeling kopiëren** pictogram ![Koppelingspictogram kopiëren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) om de koppeling naar het systeemklembord te kopiëren.
 
 1. Deel de koppeling met de personen die u toegang tot het project wilt geven. U kunt de koppeling bijvoorbeeld in een e-mail plakken.
 
    Iedereen met wie u de koppeling deelt, kan het Analysis Workspace-project bekijken.
 
-1. (Optioneel) U kunt op de knop **Nieuwe koppeling genereren** pictogram ![Koppelingspictogram genereren](assets/regenerate-link.png) om toegang van gebruikers te verwijderen die eerder een verbinding aan het project ontvingen. Er wordt een nieuwe koppeling gegenereerd die u kunt delen met gebruikers die toegang willen krijgen tot het project.
+1. (Optioneel) U kunt op de knop **Nieuwe koppeling genereren** pictogram ![Koppelingspictogram genereren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) om toegang van gebruikers te verwijderen die eerder een verbinding aan het project ontvingen. Er wordt een nieuwe koppeling gegenereerd die u kunt delen met gebruikers die toegang willen krijgen tot het project.
 
 1. Selecteren **[!UICONTROL Close]** om het dialoogvenster Delen te sluiten. Uw wijzigingen worden automatisch opgeslagen.
 

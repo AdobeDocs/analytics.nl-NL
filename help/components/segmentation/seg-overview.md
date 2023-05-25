@@ -3,9 +3,9 @@ description: Met segmenten kunt u subsets bezoekers identificeren op basis van k
 title: Segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Toegang tot Segmentbeheer via:
 
 * Ga naar  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in de bovenste navigatie. Klik vervolgens op **[!UICONTROL Segments]**, of
 
-* Een bestaand rapport weergeven en op het pictogram Segmenten klikken  ![Segmentpictogram](assets/segment_icon.png) in de linkernavigatie. Klik vervolgens op **[!UICONTROL Manage]**, of
+* Een bestaand rapport weergeven en op het pictogram Segmenten klikken  ![Segmentpictogram](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in de linkernavigatie. Klik vervolgens op **[!UICONTROL Manage]**, of
 
 * Druk op de schuine streep &#39;/&#39; in de interface en zoek naar segmentmanager.
 

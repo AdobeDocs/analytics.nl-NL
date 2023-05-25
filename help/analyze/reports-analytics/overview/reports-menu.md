@@ -5,7 +5,7 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 1%
@@ -61,19 +61,19 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Menu Experience Cloud-oplossingen <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Menu Experience Cloud-oplossingen <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="15px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> Als u op dit pictogram klikt, wordt het menu Experience Cloud uitgebreid, zodat u toegang hebt tot andere oplossingen van marketingmogelijkheden. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Menu Rapporten in-/uitschakelen <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col1">Menu Rapporten in-/uitschakelen <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="15px" /> </td> 
    <td colname="col2"> Als u op deze knop klikt, wordt het menu Rapporten uitgevouwen of samengevouwen, zodat u een rapport kunt weergeven met de volledige breedte van het browservenster. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Segmenten <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">Segmenten <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="15px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
    <td colname="col2">Brings up the segment rail that lets you lets add or manage. U hebt ook toegang tot de <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder</a> en <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > Segmentbeheer</a> interfaces van het segment spoorstaaf. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Cijfers <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">Cijfers <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
    <td colname="col2"> Brings up the metrics rail waarmee u metriek en berekende metriek kunt toevoegen of beheren. </td> 
   </tr> 
   <tr> 
@@ -117,11 +117,11 @@ Druk op Tab of op Pijl-omlaag (?) om door de lijst van rapporten te navigeren. D
    <td colname="col2"> Hiermee kunt u alle of sommige van de volgende handelingen uitvoeren: druk het, haal gegevens uit het, voeg een alarm aan het toe, creeer een douanerapport, kopieer een grafiek, verbinding aan dit rapport, en open een nieuw venster. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Kiezer voor rapportsuite <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
+   <td colname="col1">Kiezer voor rapportsuite <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg" width="15px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
    <td colname="col2">Hiermee kunt u selecteren <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  > basisrapportsuites</a> of <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  > virtuele rapportsuites</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Kalender <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
+   <td colname="col1">Kalender <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg" width="15px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
    <td colname="col2">Hiermee worden de <a href="/help/analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1"  > kalender</a> zodat kunt u de verslagperiode bepalen. </td> 
   </tr> 
  </tbody> 

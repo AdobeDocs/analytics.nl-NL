@@ -4,9 +4,9 @@ title: Segmenten beheren (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ U kunt specifieke combinaties rapportafmetingen hebben die u in een segment zou 
 
 ## Segmenten zoeken en toepassen {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Om het even welke segmenten die in Rapporten &amp; Analytics, Report Builder, of Data Warehouse werden gecreeerd verschijnen in deze segmentlijst. Als u de lijst wilt vernieuwen, klikt u op het pictogram Vernieuwen ( ![](assets/refresh_icon.png).
+Om het even welke segmenten die in Rapporten &amp; Analytics, Report Builder, of Data Warehouse werden gecreeerd verschijnen in deze segmentlijst. Als u de lijst wilt vernieuwen, klikt u op het pictogram Vernieuwen ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 U kunt één of veelvoudige segmenten op om het even welk bepaald verzoek toepassen. Dit omvat opeenvolgende segmenten.
 
@@ -60,7 +60,7 @@ U kunt één of veelvoudige segmenten op om het even welk bepaald verzoek toepas
 
    ![](assets/seg_list.png)
 
-1. Controleer welk segment of welke segmenten u wilt toepassen.
+2. Controleer welk segment of welke segmenten u wilt toepassen.
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Het toevoegen van een segmentcontrole laat u segmenten van binnen een werkboek i
 
 ## Lijst met segmenten vernieuwen {#section_22E4A86789444B4A998532396B476EFB}
 
-Wanneer u een nieuw segment toevoegt of een bestaand segment bewerkt, klikt u op het pictogram Vernieuwen ( ![](assets/refresh_icon.png) om de caching lijst van segmenten te verfrissen.
+Als u een nieuw segment toevoegt of een bestaand segment bewerkt, klikt u op het pictogram Vernieuwen ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) om de caching lijst van segmenten te verfrissen.
 
 ## Segmenten in verschillende verzoeken beheren {#section_C3D63FCBE1A94369A319243313B03C93}
 

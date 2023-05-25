@@ -3,9 +3,9 @@ description: In Berekende Metrische Manager, kunt u opstelling een werkschema da
 title: Berekende standaard goedkeuren
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: e9109ccb726e5e4bf52d8a4734dd0d09820f2ffc
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '183'
 ht-degree: 3%
 
 ---
@@ -22,12 +22,12 @@ Berekende waarden als goedgekeurd markeren:
 
 1. Selecteren **[!UICONTROL Approve]** in de beheertaak boven aan de pagina.
 
-   Selecteer **[!UICONTROL Unapprove]**.
+Selecteer **[!UICONTROL Unapprove]**.
 
 1. (Optioneel) Deel de metrische gegevens met andere gebruikers in uw organisatie, zoals beschreven in [Berekende maatstaven delen](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
 
 1. Selecteren **[!UICONTROL OK]**.
 
-   Merk het goedkeuringspictogram naast berekende metrisch in de lijst op:  ![](assets/cm_approve_icon.png)
+Merk het goedkeuringspictogram naast berekende metrisch in de lijst op:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
 
 1. (Optioneel) Selecteer de optie **Filter** pictogram, uitvouwen **[!UICONTROL Other filters]** selecteert u vervolgens **[!UICONTROL Approved]**.

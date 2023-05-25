@@ -3,9 +3,9 @@ description: In Segmentbeheer kunt u op verschillende manieren segmenten curven,
 title: Segmenten beheren (Segmentbeheer)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '431'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ In Segmentbeheer kunt u op verschillende manieren segmenten curven, zoals delen,
 De manager van het Segment van Analytics toont u alle segmenten u bezit en die met u zijn gedeeld. Gebruikers op beheerniveau kunnen alle segmenten in de organisatie zien. Dit overzicht bevat de gebruikersinterface en de mogelijkheden van Segmentbeheer. Open Segmentbeheer via
 
 * Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]** in de bovenste navigatie.
-* Een bestaand rapport weergeven en op het pictogram Segmenten klikken  ![](assets/segment_icon.png) in de linkernavigatie. Klik vervolgens op **[!UICONTROL Manage]**.
+* Een bestaand rapport weergeven en op het pictogram Segmenten klikken  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in de linkernavigatie. Klik vervolgens op **[!UICONTROL Manage]**.
 
 ## Hoe kan ik-video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
