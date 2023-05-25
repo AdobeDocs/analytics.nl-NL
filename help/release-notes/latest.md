@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
+source-git-commit: d6c42d359699a574411f461485f6c8818c095b62
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1484'
 ht-degree: 2%
 
 ---
 
 # Huidige Adobe Analytics-releaseopmerkingen (mei 2023)
 
-**Laatste update**: 17 mei 2023
+**Laatste update**: 25 mei 2023
 
 Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -38,6 +38,7 @@ AN-312098; AN-318309; AN-316675; AN-318173; AN-310359; AN-317613; AN-318836; AN-
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
+| **Vervaldatum van 37 maanden voor aankoop-id&#39;s en gebeurtenis-id&#39;s (gebeurtenisserialisatie)** | Mei 25,2023 | Een aanstaande release van de Analytics Hit-verwerkingsengine, bedoeld voor vrijgave in **eind juni 2023 of begin juli 2023**, wordt begonnen met het afdwingen van een vervaldatum van 37 maanden voor aankoop-id&#39;s en gebeurtenis-id&#39;s (gebeurtenisserialisatie). Aankoop-id&#39;s en gebeurtenis-id&#39;s verlopen momenteel nooit in Adobe Analytics. Zodra een aankoop-id of een gebeurtenis-id wordt gezien/gebruikt, wordt bij elke toekomstige hit, ongeacht wanneer, die aankoop of gebeurtenis gemarkeerd als een duplicaat. Met de nieuwe verwerkingsmotor loslaat,<ul><li>Aankoop-id&#39;s en gebeurtenis-id&#39;s verlopen altijd na 37 maanden.</li><li>Als de aankoop-id of de gebeurtenis-id 37 maanden is geleden, wordt deze niet langer beschouwd als een dubbele aankoop of gebeurtenis.</li><li> Als u aankoop-id&#39;s of gebeurtenis-id&#39;s van meer dan 37 maanden geleden &quot;opnieuw gebruikt&quot;, worden ze niet langer beschouwd als duplicaten.</li></ul> |
 | **Migratie naar AdobeIO OAuth Server-to-Server-referenties** | 11 mei 2023 | Adobe Analytics API- en Livestream-klanten die AdobeIO JWT-gebruikersgegevens gebruiken, moeten door **1 januari 2025**. Zie de kennisgeving aan het einde van de levensduur in de onderstaande tabel voor meer informatie en tijdlijnen. |
 | **Opmerking: Nieuwe IP&#39;s die worden gebruikt door Adobe Analytics Data Feeds en Data Warehouse egress in het London Data Center** | 27 april 2023 | Voor klanten in het Centrum van Gegevens van Londen die de verzoeken en/of rapporten hebben van het Gegevensvoer die van Gegevens aan de dienst worden geleverd FTP/SFTP, zouden de volgende IP adreswaaiers aan uw firewallconfiguratie moeten worden toegevoegd om toegang toe te staan: <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
 | **Opzoekprocessen van apparaten gebruiken nu een derde voor alle apparaatopzoekacties** | 3 maart 2023 | Op 2 maart 2023, als deel van steunuitrol voor cliëntwenken, hebben wij onze processen van de apparatenraadpleging bijgewerkt om een derde voor alle apparatenraadplegingen te gebruiken. Eerder hadden we de derde alleen gebruikt voor zoekopdrachten voor mobiele apparaten. In het kader van deze uitrol werden sommige desktopbesturingssystemen onjuist aangeduid met de tekst &quot;mobile&quot; (bijvoorbeeld &quot;Mobile OS X 10.15.7&quot; in plaats van &quot;OS X 10.15.7&quot;).<p>Tijdens de release van Adobe zullen we deze namen corrigeren. De analytische gegevens en de CJA-rapportage worden met terugwerkende kracht bijgewerkt, aangezien bij de rapportage de naam van het besturingssysteem wordt opgezocht op basis van een id die als onderdeel van de gebeurtenisgegevens is opgenomen. Wanneer de opzoekwaarde die overeenkomt met een id is bijgewerkt, wordt alle rapportage gecorrigeerd, inclusief historische gegevens. Voor [!UICONTROL Data Feeds] klanten, zijn de veranderingen retroactief als u een gelijkaardig raadplegingsproces op het tijdstip van het melden gebruikt. Als u de waarde van het besturingssysteem echter opslaat in uw gebeurtenisgegevens, wordt de rapportage alleen in de toekomst bijgewerkt. Zie [Besturingssysteem](/help/components/dimensions/operating-systems.md) voor meer informatie . |
