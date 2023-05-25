@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d6c42d359699a574411f461485f6c8818c095b62
+source-git-commit: 70b32752bdb6c8a561c5fd2d16bf9d76beecca60
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1482'
 ht-degree: 2%
 
 ---
