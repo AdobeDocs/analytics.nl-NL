@@ -3,9 +3,9 @@ description: Verklaart hoe te om metrisch tot stand te brengen die toont welke K
 title: Assistentie bij bestelling metrisch
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De volgende informatie verklaart hoe te om metrisch tot stand te brengen die too
 
 1. Beginnen met het maken van een berekende metrische waarde, zoals beschreven in [Metrische gegevens samenstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. Geef in de builder Berekende metriek de naam van de metrische &quot;Assisted Orders&quot;.
+1. In de Berekende bouwer van metriek, noem metrische &quot;Begeleide Orders&quot;of iets gelijkaardig.
 
 1. In het canvas van de Definitie, sleep in metrische orde. Pas vervolgens het toewijzingsmodel aan met het instellingenset door de **[!UICONTROL Use non-default attribution models]** selectievakje.
 

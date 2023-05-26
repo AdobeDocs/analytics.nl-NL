@@ -3,9 +3,9 @@ description: Meer informatie over
 title: Type en attributie metrisch
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '466'
 ht-degree: 1%
 
 ---
@@ -29,9 +29,7 @@ Om metrisch type te specificeren wanneer het bouwen van berekende metrisch:
    | Standaard | Deze cijfers zijn dezelfde maatstaven die standaard worden gebruikt [!DNL Analytics] rapportage. Als een formule uit één enkele norm bestond, toont het identieke gegevens aan zijn niet-berekende-metrische tegenhanger. Standaardmetriek zijn handig voor het maken van berekende metriek die specifiek is voor elk afzonderlijk regelitem. Bijvoorbeeld: [Orders] / [Bezoeken] neemt orders voor dat specifieke lijnpunt en verdeelt het door het aantal bezoeken voor dat specifieke lijnpunt. |
    | Totaal-generaal | Totaal-generaal gebruiken voor de rapportageperiode in elke post. Als een formule uit één enkel Eindtotaal metrisch bestond, toont het het zelfde totale aantal op elk lijnpunt. Eindtotaalcijfers zijn handig voor het maken van berekende metriek die wordt vergeleken met de totale gegevens van de site. Bijvoorbeeld: [Orders] / [Totaal aantal bezoeken] geeft het aantal bestellingen tegen ALLE bezoeken aan uw site weer, niet alleen de bezoeken aan het specifieke onderdeel. |
 
-## Kolom-indelingsmodel
-
-## Hoe de lineaire toewijzing werkt (vanaf 19 juli 2018)
+## Hoe lineaire toewijzing werkt
 
 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) is hoe toewijzingsmodellen in berekende metriek worden geëvalueerd.
 

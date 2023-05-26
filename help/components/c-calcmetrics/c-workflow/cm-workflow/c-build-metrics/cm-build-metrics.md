@@ -3,7 +3,7 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Dimension, 
 title: Metrische gegevens samenstellen
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 2%
@@ -24,7 +24,7 @@ U kunt op de volgende manieren beginnen met het maken van een berekende metrisch
 
 ## Gebieden van de builder van Berekende metriek
 
-In de volgende afbeelding en de bijbehorende tabel worden enkele hoofdgebieden en kenmerken van het beheer van berekende metriek uitgelegd.
+In de volgende afbeelding en de bijbehorende tabel worden enkele hoofdgebieden en kenmerken van de builder van berekende metriek uitgelegd.
 
 ![](assets/cm_builder_ui.png)
 
@@ -40,7 +40,7 @@ In de volgende afbeelding en de bijbehorende tabel worden enkele hoofdgebieden e
 | 8 | **Definitie:** Dit is waar u in metriek/berekende metriek, segmenten, en/of functies sleept om berekende metrisch te bouwen. <ul><li>Als u in berekende metrisch sleept, zal het zijn metrische definitie automatisch uitbreiden. </li> <li>U kunt definities nesten met containers. In tegenstelling tot gesegmenteerde containers, functioneren deze containers als een wiskundige uitdrukking en bepalen de orde van verrichtingen. </li> </ul> |
 | 9 | **Operator:** Gedeeld door ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is de standaardoperator, plus de operatoren +, - en x. |
 | 10 | **Voorvertoning:** Hiermee kunt u snel informatie lezen over mogelijke fouten. De voorvertoning beslaat de laatste 90 dagen. Dit is een manier om aanvankelijk te graven of u de juiste componenten voor uw metrisch hebt geselecteerd. Een onverwacht resultaat zou betekenen u een tweede blik bij de metrische definitie moet nemen. |
-| 11 | **Productcompatibiliteit:** <p>De verenigbaarheid van het product toont u of metrisch compatibel is met <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > Huidige gegevens </a>, met volledig verwerkte gegevens of alleen met marketingrapporten (first-touch-toewijzing). <p>Opmerking: De huidige Gegevens steunen niet alle metriek. Metriek die segmenten of functies bevatten, is niet compatibel met de huidige gegevens. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Meer... </a> </p> </p> |
+| 11 | **Productcompatibiliteit:** De verenigbaarheid van het product toont u of metrisch compatibel is met <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > Huidige gegevens </a>, met volledig verwerkte gegevens of alleen met marketingrapporten (first-touch-toewijzing). <p>Opmerking: De huidige Gegevens steunen niet alle metriek. Metriek die segmenten of functies bevatten, is niet compatibel met de huidige gegevens. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Meer... </a> </p> </p> |
 | 12 | **Toevoegen:** Voor alle soorten berekende metriek, kunt u containers en statische aantallen aan de definitie toevoegen. Voor geavanceerde berekende metriek, kunt u segmenten en functies ook toevoegen. <ul><li>Containers werken als een wiskundige expressie en bepalen de volgorde van bewerkingen. Dus alles in een container wordt verwerkt voor de volgende bewerking.</li><li>Als u een segment naar een container sleept, wordt alles in die container gesegmenteerd. (Alleen geavanceerde berekende cijfers)</li><li>U kunt meerdere segmenten in een container stapelen.</li></ul> |
 | 13 | **Pictogram tandwiel (metrisch type, kenmerk):** Als u het tandwielpictogram naast een metrische waarde selecteert, kunt u de instelling <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > Metrische type- en attributiemodellen </a>. |
 | 14 | **Nieuw:** Hiermee kunt u een nieuwe component maken, zoals een nieuw segment (dat u naar het <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder </a>.) |
