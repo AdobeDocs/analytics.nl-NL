@@ -3,9 +3,9 @@ title: Configuratievariabelen
 description: Gebruik configuratievariabelen om te bepalen hoe gegevens worden verzameld.
 feature: Variables
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 4%
 
 ---
@@ -26,4 +26,4 @@ In JavaScript-implementaties die `AppMeasurement.js`configuratievariabelen worde
 
 >[!IMPORTANT]
 >
->Zorg ervoor alle configuratievariabelen alvorens een het volgen methode ([`t()`](../functions/t-method.md) of [`tl()`](../functions/tl-method.md)). U kunt configuratievariabelen in het dialoogvenster [`doPlugins()`](../functions/doplugins.md) functie.
+>Zorg ervoor dat alle configuratievariabelen zijn ingesteld voordat u een volgende methode aanroept ([`t()`](../functions/t-method.md) of [`tl()`](../functions/tl-method.md)). U kunt configuratievariabelen in het dialoogvenster [`doPlugins()`](../functions/doplugins.md) functie.

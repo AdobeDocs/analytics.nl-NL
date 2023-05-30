@@ -4,9 +4,9 @@ title: Overzicht van deelvensters
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
+source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1404'
 ht-degree: 1%
 
 ---
@@ -100,21 +100,21 @@ Als u met de rechtermuisknop op een vervolgkeuzefilter klikt, kunt u uit de volg
 
 [De video bekijken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) voor meer informatie over het toevoegen van vervolgkeuzefilters aan uw project.
 
-<!--### Dynamic drop-down filters
+### Dynamische vervolgkeuzefilters
 
-Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
+Met dynamische vervolgkeuzefilters kunt u beschikbare waarden bepalen op basis van gegevens binnen het rapportagebereik van het deelvenster en waarden in andere vervolgkeuzefilters. U kunt bijvoorbeeld twee dynamische vervolgkeuzelijsten maken met de opdracht [Landen](/help/components/dimensions/countries.md) dimensie en [Plaatsen](/help/components/dimensions/cities.md) dimensie. Wanneer u een land in het menu [!UICONTROL Countries] vervolgkeuzelijst, de [!UICONTROL Cities] De vervolgkeuzelijst wordt dynamisch aangepast om alleen de steden in dat land weer te geven.
 
-This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
+Dit concept geldt voor alle dimensies; alleen dimensie-items die binnen het datumbereik van het deelvenster verschijnen en geselecteerde filters zijn zichtbaar. Dimension-items die in statische vervolgkeuzefilters zijn geselecteerd, zijn van invloed op de beschikbare waarden in dynamische vervolgkeuzefilters. Het omgekeerde is echter niet waar; Dimension-items die zijn geselecteerd in dynamische vervolgkeuzefilters hebben geen invloed op de beschikbare waarden in statische vervolgkeuzefilters.
 
-Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
+Handmatige selectie van dimensie-items is beschikbaar als u verwacht dat een bepaald dimensie-item in de toekomst wordt verzameld. U kunt ook een dynamisch vervolgkeuzefilter wissen, zodat het geen waarde bevat, zodat andere dynamische vervolgkeuzefilters meer waarden kunnen bevatten. Selecteren **[!UICONTROL Reset all]** om de selectie uit alle vervolgkeuzefilters voor dat deelvenster te verwijderen.
 
-To create a dynamic drop-down filter:
+Een dynamisch vervolgkeuzemenu maken:
 
-* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
-* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
-* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
+* Eén dimensie naar de dropzone van het deelvenster slepen **terwijl u`[Shift]`**.
+* Dynamische vervolgkeuzefilters zijn niet beschikbaar voor metriek, segmenten of datumbereiken.
+* Klik met de rechtermuisknop op een vervolgkeuzefilter en selecteer **[!UICONTROL Delete filter]** om deze te verwijderen.
 
-Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
+Als u met de rechtermuisknop op een dynamisch vervolgkeuzefilter klikt, hebt u dezelfde opties als statische vervolgkeuzefilters.
 
 ## Klikken met rechtermuisknop {#right-click}
 

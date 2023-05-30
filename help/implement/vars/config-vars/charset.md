@@ -3,16 +3,16 @@ title: charSet
 description: De charSet-variabele bepaalt welke codering Adobe gebruikt om uw afbeeldingsverzoek te parseren.
 feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
 # charSet
 
-De charSet-variabele wordt door Adobe gebruikt om inkomende gegevens om te zetten in UTF-8 voor opslag en rapportage door Analytics. De meeste sites hoeven deze variabele niet in te stellen.
+De `charSet` de variabele wordt gebruikt door Adobe om inkomende gegevens in UTF-8 voor opslag en rapportering door Analytics om te zetten. De meeste sites hoeven deze variabele niet in te stellen.
 
 Stel deze variabele alleen in als u onjuiste waarden ziet ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) in verslagen. U kunt deze variabele per pagina instellen als uw site verschillende coderingen op verschillende pagina&#39;s gebruikt.
 
