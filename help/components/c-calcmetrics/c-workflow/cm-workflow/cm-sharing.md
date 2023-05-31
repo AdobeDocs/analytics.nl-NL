@@ -3,7 +3,7 @@ description: Afhankelijk van uw machtigingen kunt u statistieken delen met uw he
 title: Berekende standaard delen
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: e9109ccb726e5e4bf52d8a4734dd0d09820f2ffc
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 2%
@@ -21,15 +21,15 @@ Afhankelijk van uw machtigingen kunt u statistieken delen met uw hele organisati
 
 Een berekende metrische waarde delen:
 
-1. Schakel in het venster Berekend metrisch beheer het selectievakje links van de metriek die u wilt delen in.
+1. Schakel in het venster Berekende metrische beheer het selectievakje links van de metriek die u wilt delen in.
 
-1. Klik op de knop **[!UICONTROL Share]** pictogram. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+1. Selecteer **[!UICONTROL Share]** pictogram. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
    Het dialoogvenster Berekende metrische gegevens delen wordt weergegeven.
 
    ![](assets/cm_share.png)
 
-1. Klik op **[!UICONTROL Share]**.
+1. Selecteren **[!UICONTROL Share]**.
 
 1. Kies met wie u wilt delen:
 
@@ -47,7 +47,7 @@ Een berekende metrische waarde delen:
 
 1. Selecteren **[!UICONTROL Share]**.
 
-   Het pictogram Gedeeld wordt weergegeven naast de metrische waarde:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+   Het pictogram Gedeeld wordt weergegeven naast de metrische waarde: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
 1. U kunt filteren op metriek die met u wordt gedeeld door naar **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
 

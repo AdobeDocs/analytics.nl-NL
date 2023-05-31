@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5a555c1e2da1659086c0f244e41894192e592d19
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '4122'
+source-wordcount: '4157'
 ht-degree: 30%
 
 ---
@@ -25,6 +25,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **Juni 2023** |  |
+| Berekende metrische updates | Verschillende artikelen met betrekking tot berekende meetwaarden zijn bijgewerkt, waaronder het bijwerken van schermafbeeldingen en stappen in procedures. Deze wijzigingen zijn aangebracht om de documentatie in overeenstemming te brengen met de huidige Adobe Analytics-functionaliteit. |
 | **Mei 2023** |  |
 | Spectrumpictogrammen | Waar van toepassing vervangen screenshots van gebruikersinterfacepictogrammen in de documentatie met verwijzingen naar de equivalente pictogrammen in [Adobe](https://spectrum.adobe.com/page/icons/). |
 | Verbeterde IP-naar-geolocatietoewijzing | Een onderwerp gemaakt op [Veelgestelde vragen](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |

@@ -3,9 +3,9 @@ description: In Berekend Metrisch Manager, staat het etiketteren segmenten u toe
 title: Berekende standaard een label geven
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
@@ -20,10 +20,10 @@ Alle gebruikers kunnen labels maken voor berekende metriek en een of meer tags t
 >
 >De nuttigste types van markeringen zijn gewoonlijk markeringen die op de volgende criteria gebaseerd zijn:
 >
->* **Teamnamen**, zoals Sociale marketing, Mobiele marketing.
+>* **Teamnamen**, zoals sociale marketing of mobiele marketing.
 >* **Projecten** (analysetags), zoals analyse van de pagina Entry.
->* **Categorieën**, zoals vrouwen; Geografie.
->* **Workflows**, zoals goed te keuren; Gecurreerd voor (een specifieke bedrijfseenheid)
+>* **Categorieën**, zoals Vrouwen of Geografie.
+>* **Workflows**, zoals goed te keuren of te Curven voor (een specifieke bedrijfseenheid)
 
 
 ## Labels toepassen op een berekende metrische waarde
