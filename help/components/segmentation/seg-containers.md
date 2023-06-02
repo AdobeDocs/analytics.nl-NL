@@ -4,9 +4,9 @@ keywords: segmentatie;segmenten
 title: Segmentcontainers
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: d9087fbb2d7aef49dab42692ba6bc189e3c32d55
+source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
 workflow-type: tm+mt
-source-wordcount: '3473'
+source-wordcount: '3454'
 ht-degree: 2%
 
 ---
@@ -370,7 +370,7 @@ Samenvattend, is het begrip van hoe de segmentatie op diverse gegevensuitsplitsi
 
 Elke uitsplitsing van segmentgegevens heeft een bereik waarop deze worden toegepast. De meeste uitsplitsingen zijn gebaseerd op *Paginaweergaven* Veel waardevolle segmenten zijn echter gebaseerd op de *Bezoek* en in mindere mate de *Bezoeker* container. Het is belangrijk om rapportering te begrijpen die op het werkingsgebied van uw container wordt gebaseerd.
 
-Met de *Pagina = wintermunten* Het segmentvoorbeeld, hieronder zijn voorbeelden van de resultaten van dit segment dat op wordt gebaseerd hoe de containergegevens worden toegepast en hoe het werkingsgebied van de gegevens het segmenttype aanpast.
+Met de `Page equals Winter Coats` Het segmentvoorbeeld, hieronder zijn voorbeelden van de resultaten van dit segment dat op wordt gebaseerd hoe de containergegevens worden toegepast en hoe het werkingsgebied van de gegevens het segmenttype aanpast.
 
 ### Segmentcontainer gebaseerd op overeenkomende segmentregel
 
@@ -407,7 +407,7 @@ Segmentgegevens kunnen variëren op basis van de persistentie van een dimensie o
 
 In tegenstelling tot de pagina-dimensie wordt de waarde van het Refererend domein aan elke pagina in dit bezoek toegevoegd. De bezoeker hieronder komt bijvoorbeeld op de startpagina van een site waarnaar wordt verwezen. Daarom wordt aan alle pagina&#39;s in dat bezoek dezelfde waarde voor het verwijzende domein toegewezen.
 
-De *Refererend Domein is gelijk aan ol.com* het segment hieronder wordt toegepast op **Pagina-rapport**.
+De `Referring Domain equals aol.com` het segment hieronder wordt toegepast op **Pagina-rapport**.
 
 <table style="table-layout:fixed; border: 0;">
 
@@ -451,9 +451,9 @@ Bij een nieuw bezoek wordt de bezoeker doorverwezen van een andere site. Daarom 
 
 ### Rapportage van de container van de Actief
 
-Omdat aan alle paginaweergaven in hetzelfde bezoek dezelfde waarde voor Refererend domein wordt toegewezen, wordt op het containerniveau Actief gerapporteerd waar *Refererend Domein = &quot;aol.com&quot;* retourneert alle pagina&#39;s die in de onderstaande tabel worden vermeld.
+Omdat aan alle paginaweergaven in hetzelfde bezoek dezelfde waarde voor Refererend domein wordt toegewezen, wordt op het containerniveau Actief gerapporteerd waar `Referring Domain equsls 'aol.com'` retourneert alle pagina&#39;s die in de onderstaande tabel worden vermeld.
 
-| Refering Domain = &#39;aol.com&#39; | Paginaweergaven |
+| Refererend Domein is &quot;aol.com&quot; | Paginaweergaven |
 |----|---:|
 | Home | 1 |
 | Winter, kleding | 1 |
@@ -472,9 +472,9 @@ Met gegevens uit de container Actief werden iets meer dan 92.000 paginaweergaven
 
 ### Rapportage van de container van Visit
 
-Als deze voorwaarde wordt gefilterd in de container Visit voor een rapport Pagina&#39;s, dan alle pagina&#39;s in het bezoek waar *Refererend Domein = &quot;aol.com&quot;* is waar. Omdat de waarde van het verwijzende domein op het bezoekniveau wordt geplaatst, zijn de rapporten bij de niveaus van de Mening van de Pagina en van het Bezoek het zelfde.
+Als deze voorwaarde wordt gefilterd in de container Visit voor een rapport Pagina&#39;s, dan alle pagina&#39;s in het bezoek waar `Referring Domain equals 'aol.com'`is waar. Omdat de waarde van het verwijzende domein op het bezoekniveau wordt geplaatst, zijn de rapporten bij de niveaus van de Mening van de Pagina en van het Bezoek het zelfde.
 
-| Refering Domain = &#39;aol.com&#39; | Paginaweergaven |
+| Refererend Domein is &quot;aol.com&quot; | Paginaweergaven |
 |----|---:|
 | Home | 1 |
 | Winter, kleding | 1 |
@@ -493,11 +493,11 @@ Omdat alle pagina&#39;s de zelfde verwijzende domeinwaarde hebben die op het bez
 
 ### Rapportage van de bezoekerscontainer
 
-In het paginapport van de container van de bezoeker worden alle pagina&#39;s weergegeven die door een bezoeker worden weergegeven op de locatie *Refererend Domein is &quot;aol.com&quot;* is waar. Daarom als een bezoeker *&quot;aol.com&quot;* als verwijzend domein op elk ogenblik in de geschiedenis (binnen de bepaalde tijdspanne), dan zijn alle pagina&#39;s in de container van de Bezoeker (met inbegrip van paginameningen in andere bezoeken) vermeld. Zelfs de pagina&#39;s die niet aan de primaire voorwaarde aanpassen worden vermeld in het rapport omdat deze pagina&#39;s in de container van de Bezoeker inbegrepen zijn. Alle pagina&#39;s in de container van de Bezoeker worden vermeld in het rapport, zelfs als zij eerder voorkwamen en niet specifiek aan de voorwaarden voldoen.
+In het paginapport van de container van de bezoeker worden alle pagina&#39;s weergegeven die door een bezoeker worden weergegeven op de locatie `Referring Domain equals 'aol.com'` is waar. Daarom als een bezoeker *&#39;aol.com&#39;* als verwijzend domein op elk ogenblik in de geschiedenis (binnen de bepaalde tijdspanne), dan zijn alle pagina&#39;s in de container van de Bezoeker (met inbegrip van paginameningen in andere bezoeken) vermeld. Zelfs de pagina&#39;s die niet aan de primaire voorwaarde aanpassen worden vermeld in het rapport omdat deze pagina&#39;s in de container van de Bezoeker inbegrepen zijn. Alle pagina&#39;s in de container van de Bezoeker worden vermeld in het rapport, zelfs als zij eerder voorkwamen en niet specifiek aan de voorwaarden voldoen.
 
-In een rapport Refering Domain, *Refererend Domein = &quot;aol.com&quot;* is waar in weergaven van vier pagina&#39;s, maar *Refererend Domein = &quot;weer.com&quot;* is waar op de andere pagina&#39;s die de bezoeker heeft gekozen. Vanuit de bezoekercontainer krijgt u een lijst met bezoekers waar &#39;aol.com&#39; is. Maar het geeft u ook pagina&#39;s waar het verwijzende domein &quot;weer.com&quot;is, niet de waarde die uw aanvankelijke verzoek in het segment aansloot.
+In een rapport Refering Domain, `Referring Domain equals 'aol.com'` is waar in weergaven van vier pagina&#39;s, maar `Referring Domain equals "weather.com"` is waar op de andere pagina&#39;s die de bezoeker heeft gekozen. Vanuit de bezoekercontainer krijgt u een lijst met bezoekers waar &#39;aol.com&#39; is. Maar het geeft u ook pagina&#39;s waar het verwijzende domein &quot;weer.com&quot;is, niet de waarde die uw aanvankelijke verzoek in het segment aansloot.
 
-| Bezoek 1<br/>Refering Domain = &#39;aol.com&#39; | <br/>Paginaweergaven |
+| Bezoek 1<br/>Refererend Domein is &quot;aol.com&quot; | <br/>Paginaweergaven |
 |----|---:|
 | Home | 1 |
 | Winter, kleding | 1 |
@@ -510,15 +510,15 @@ In een rapport Refering Domain, *Refererend Domein = &quot;aol.com&quot;* is waa
 | Winter | 1 |
 | Aanschaffen | 1 |
 
-| Bezoekercontainer<br/>Refering Domain = &#39;aol.com&#39; | Paginaweergaven |
+| Bezoekercontainer<br/>Refererend Domein is &quot;aol.com&quot; | Paginaweergaven |
 |----|---:|
-| Winter, kleding<br/>Refering Domain = &#39;aol.com&#39; | 1 |
-| Winter, kleding<br/>Refererend Domein = &quot;weer.com&quot; | 1 |
-| Home <br/>Refering Domain = &#39;aol.com&#39; | 1 |
-| Winter <br/>Refering Domain = &#39;aol.com&#39; | 1 |
-| Aanschaffen<br/>Refering Domain = &#39;aol.com&#39; | 1 |
-| Winter Bots<br/>Refererend Domein = &quot;weer.com&quot; | 1 |
-| Winter<br/>Refererend Domein = &quot;weer.com&quot; | 1 |
+| Winter, kleding<br/>Referentiedomein: &#39;aol.com&#39; | 1 |
+| Winter, kleding<br/>Referentiedomein: &#39;weer.com&#39; | 1 |
+| Home <br/>Referentiedomein: &#39;aol.com&#39; | 1 |
+| Winter <br/>Referentiedomein: &#39;aol.com&#39; | 1 |
+| Aanschaffen<br/>Referentiedomein: &#39;aol.com&#39; | 1 |
+| Winter Bots<br/>Referentiedomein: &#39;weer.com&#39; | 1 |
+| Winter<br/>Referentiedomein: &#39;weer.com&#39; | 1 |
 
 
 <!--![](assets/container_overview_persist_Visitor.png)-->
