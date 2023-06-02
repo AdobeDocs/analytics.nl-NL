@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
+source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -129,6 +129,10 @@ U kunt [alleen-lezen toegang](/help/analyze/analysis-workspace/curate-share/view
 >* Een project zou ontoegankelijk kunnen worden als vele gebruikers proberen om tot een bepaalde verbinding tezelfdertijd toegang te hebben. Standaard hebben meer dan 190 personen elke 5 minuten toegang tot één koppeling. Als uw organisatie deze limiet heeft bereikt, wacht u 5 minuten en probeert u de koppeling opnieuw te openen.
 
 
+In de volgende videodemonstratie en de bijbehorende documentatie worden de opties beschreven voor het delen van een koppeling met iedereen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+
 Een Analysis Workspace-project delen met mensen die geen toegang hebben tot Adobe Analytics:
 
 1. Open het Analysis Workspace-project dat u wilt delen.
@@ -149,7 +153,7 @@ Een Analysis Workspace-project delen met mensen die geen toegang hebben tot Adob
 
    * **[!UICONTROL Require Experience Cloud authentication]:**
 
-      Wanneer deze optie is ingeschakeld, hebben alleen gebruikers die zich kunnen aanmelden bij de Adobe Experience Cloud-organisatie waar het project dat u deelt, is gemaakt, toegang tot het project.
+      Wanneer deze optie wordt toegelaten, zijn de enige gebruikers die tot het project kunnen toegang hebben die gebruikers die login aan de organisatie van Adobe Experience Cloud kunnen zijn waar het project dat u deelt werd gecreeerd. Gebruikers met wie u deelt, hoeven echter geen toegang tot Adobe Analytics te hebben.
 
       Analysebeheerders kunnen deze voorkeur voor het bedrijf, zoals die in wordt beschreven vormen [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md). U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
 
