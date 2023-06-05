@@ -3,9 +3,9 @@ description: Met segmenten kunt u subsets bezoekers identificeren op basis van k
 title: Segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 2b1b681039fded30578ea9f46477e68bdc5630ca
+source-git-commit: 9ae046e99b25cf8d648d80968124f9688fdd3cd5
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1163'
 ht-degree: 1%
 
 ---
@@ -237,7 +237,9 @@ Een opeenvolgend segment filtert gegevensreeksen die op gebruikersacties worden 
 
 ## Hoe kan ik-segmentatievideo {#segment-video}
 
-Deze video geeft een kort overzicht van welke segmentcontainers zijn en hoe ze moeten worden gebruikt: [Containers voor segmenten in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+Deze video geeft een kort overzicht van welke segmentcontainers zijn en hoe ze moeten worden gebruikt:
+
+![](https://video.tv.adobe.com/v/25401)
 
 
 ## Toegang tot de segmentatiehulpmiddelen {#access}
