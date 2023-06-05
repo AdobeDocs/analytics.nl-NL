@@ -3,16 +3,16 @@ title: Regionale dataverzameling
 description: Informatie over regionale gegevensverzameling
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: f75d123c93d446776492dd933d03d32c2496fa69
+source-git-commit: a4dd138f0f2198da66caa272dd62b46f24b578b2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '482'
+ht-degree: 1%
 
 ---
 
 # Regionale dataverzameling
 
-De Adobe Experience Cloud maakt gebruik van regionale gegevensverzameling (Regional Data Collection, RDC), zodat interactie tussen uw bezoekers en Adobe zich zo dicht mogelijk bij uw bezoekers voordoet. Zodra de gegevens regionaal bij een Centrum van de Inzameling van Gegevens (DCC) worden verzameld, door:sturen het over een veilige verbinding aan een Centrum van de Gegevensverwerking (DPC). Na verwerking zijn de gegevens beschikbaar voor producten in de Adobe Experience Cloud. Neem contact op met de klantenservice van Adobe als u uw RDC-type wilt wijzigen.
+De Adobe Experience Cloud maakt gebruik van regionale gegevensverzameling (Regional Data Collection, RDC), zodat interactie tussen uw bezoekers en Adobe zich zo dicht mogelijk bij uw bezoekers voordoet. Zodra de gegevens regionaal bij een Centrum van de Inzameling van Gegevens (DCC, ook gekend als plaats van de Rand) worden verzameld, door:sturen het over een veilige verbinding aan een Centrum van de Verwerking van Gegevens (DPC, die ook als plaats van de Kern wordt bekend). Na verwerking zijn de gegevens beschikbaar voor producten in de Adobe Experience Cloud. Neem contact op met de klantenservice van Adobe als u uw RDC-type wilt wijzigen.
 
 Bij het regionale gegevensverzamelingsproces worden de volgende stappen uitgevoerd:
 
