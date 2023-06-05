@@ -5,10 +5,10 @@ title: Projecten plannen
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
+source-git-commit: 99f9a1d1fa6238918c1566f64df41418cd13fa0e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '598'
+ht-degree: 1%
 
 ---
 
@@ -21,8 +21,10 @@ Vanuit de werkruimte **Menu Delen**, kunt u Analysis Workspace-projecten via e-m
 Een bestand direct via e-mail naar ontvangers verzenden:
 
 1. Klik op **[!UICONTROL Share]>[!UICONTROL Export file]**.
-1. Geef het bestandstype op (CSV of PDF).
-1. (Optioneel) Voeg een beschrijving toe die in de e-mail wordt opgenomen om uit te leggen welk bestand wordt ontvangen.
+1. Geef het bestandstype op:
+   * [!UICONTROL **CSV**]: Kies deze optie als u gegevens in onbewerkte tekst wilt.
+   * [!UICONTROL **PDF**]: Kies deze optie als het gedownloade bestand alle weergegeven (zichtbare) tabellen en visualisaties in het project moet bevatten.
+1. (Optioneel) Voeg een beschrijving toe die u in de e-mail wilt opnemen om uit te leggen welk bestand wordt ontvangen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
 1. Klik op **[!UICONTROL Send Now]**.
 1. (Optioneel) Klik op **[!UICONTROL Show scheduling options]** om een leveringsschema op te geven.
