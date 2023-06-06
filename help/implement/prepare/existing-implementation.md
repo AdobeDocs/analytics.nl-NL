@@ -3,9 +3,9 @@ title: Een bestaande Adobe Analytics-implementatie op zich nemen
 description: Instructies voor beheerders die nieuw zijn voor een bestaande Adobe Analytics-implementatie.
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: ff719a996260aea108afb80665cacb6a7dbbf923
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Neemt u een Adobe Analytics-implementatie over van de vorige technische eigenaar
 
 ![Afspeelboek](assets/inherited-impl-playbook.png)
 
-Bekijk deze tips van uw collega Technical Owner, Sarah Owen. Sarah is een [Adobe Analytics Champion](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p) en zij deelt ideeën over hoe te om het Geërfde Playbook van de Implementatie te gebruiken om een bestaande implementatie te leiden:
+Bekijk deze tips van uw collega Technical Owner, Sarah Owen. Sarah is een Adobe Analytics Champion en ze deelt ideeën over hoe u het overgenomen Playbook voor implementatie kunt gebruiken om een bestaande implementatie te beheren:
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 
