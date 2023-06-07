@@ -5,7 +5,7 @@ title: Projecten delen
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
+source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 0%
@@ -105,8 +105,6 @@ De projectkoppeling delen met gebruikers in uw organisatie:
 1. Deel de koppeling met gebruikers in uw organisatie. U kunt het bijvoorbeeld in een e-mail, op een interne website, enzovoort plakken.
 
 ## Een project delen met iedereen (geen aanmelding vereist) {#share-public-link}
-
-{{release-limited-testing-section}}
 
 U kunt [alleen-lezen toegang](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) naar Analysis Workspace-projecten voor mensen die geen toegang hebben tot Adobe Analytics. Dit kan het volgende omvatten:
 

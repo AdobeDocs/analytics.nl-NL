@@ -5,7 +5,7 @@ title: Deelbare koppelingen maken
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 870252bebc55ddc5621e6d1add708cb1d9fda60d
+source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -23,8 +23,6 @@ Als u een koppeling naar een project wilt delen, gaat u naar het project dat u w
 Als de ontvanger van de verbinding niet is toegewezen a [projectrol](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), beheerders ontvangen **[!UICONTROL Can edit]** en niet-beheerders ontvangen **[!UICONTROL Can duplicate]** ervaringen.
 
 ## Een alleen-lezen koppeling ophalen om met iedereen te delen
-
-{{release-limited-testing-section}}
 
 U kunt alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. Gebruikers met wie u de koppeling deelt, hoeven zich niet aan te melden.
 
