@@ -3,10 +3,10 @@ title: Overzicht van cijfers
 description: De hoeveelheden dimensie-items of gegevens weergeven in de loop van de tijd.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 2%
+source-wordcount: '210'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Als u bijvoorbeeld de dimensie &#39;Pagina&#39; hebt gecombineerd met de metrisc
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-Als u een bepaalde metrische hulppagina niet kunt vinden, is het waarschijnlijk of [aangepaste gebeurtenis](custom-events.md) of [berekend metrisch](../c-calcmetrics/cm-overview.md).
+Als u niet de hulppagina voor bepaalde metrisch kunt vinden, is het waarschijnlijk of [aangepaste gebeurtenis](custom-events.md) of [berekend metrisch](../c-calcmetrics/cm-overview.md).
 
 * Als metrisch een douanegebeurtenis is, raadpleeg een beheerder Analytics binnen uw organisatie, of de rapportreeks [document ontwerp oplossing](/help/implement/prepare/solution-design.md).
 * Als metrisch berekende metrisch is, klik het informatiepictogram om zijn formule te bepalen.
@@ -30,3 +30,7 @@ Als u een bepaalde metrische hulppagina niet kunt vinden, is het waarschijnlijk 
 ## Metrische beschrijvingen toevoegen
 
 Analysebeheerders kunnen beschrijvingen voor metriek en andere componenten of binnen de Reeks van het Rapport of direct binnen Analysis Workspace toevoegen. Voor informatie over hoe te om beschrijvingen aan metriek toe te voegen, zie [Componentbeschrijvingen toevoegen](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+
+## Metriek gebruiken in Analysis Workspace
+
+Zie &quot;Metriek gebruiken in Analysis Workspace&quot; in voor informatie over het gebruik van metriek in Analysis Workspace. [Metrisch](/help/analyze/analysis-workspace/components/apply-create-metrics.md).

@@ -3,7 +3,8 @@ description: Beheerders kunnen beschrijvingen voor componenten toevoegen met beh
 title: Componentbeschrijvingen toevoegen
 feature: Components
 role: Admin
-source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
+exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
@@ -23,8 +24,6 @@ De volgende video beschrijft hoe te om afmeting en metrische beschrijvingen in e
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
 ## Beschrijvingen toevoegen aan componenten in Analysis Workspace (met gebruik van het gegevenswoordenboek) {#add-descriptions}
-
-{{release-limited-testing-section}}
 
 Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerders de componenten in hun analyseomgeving volgen en beter begrijpen. Dit omvat de mogelijkheid voor analysebeheerders om componentbeschrijvingen rechtstreeks in Analysis Workspace toe te voegen.
 

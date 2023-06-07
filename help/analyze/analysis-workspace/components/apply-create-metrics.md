@@ -4,9 +4,9 @@ title: Metriek in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: e0a10540bdfbd9fa3694ff3c7a8585eeb87eaad8
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '403'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 1%
 # Metrics
 
 Met cijfers kunt u gegevenspunten in Analysis Workspace kwantificeren. Deze worden meestal gebruikt als kolommen in een visualisatie en zijn gekoppeld aan afmetingen.
+
+## Soorten metingen
 
 Adobe biedt verschillende typen maateenheden voor gebruik in Analysis Workspace:
 
@@ -29,7 +31,17 @@ Adobe biedt verschillende typen maateenheden voor gebruik in Analysis Workspace:
 
    ![Berekende metrische sjabloon](assets/calculated-metric-template.png)
 
-Metriek is flexibel in het gebruik binnen Analysis Workspace. Sleep metrisch aan een lege lijst Freeform om te zien die metrisch over de de datumperiode van het project trended. U kunt metrisch ook slepen wanneer een afmeting aanwezig is om dat metrisch vergeleken bij elk afmetingspunt te zien. Als u een metrische waarde boven op een bestaande metrische koptekst sleept, wordt deze vervangen en als u een metrische waarde naast een koptekst sleept, ziet u beide meetgegevens naast elkaar.
+## Metriek gebruiken in Analysis Workspace
+
+Metriek kan op verschillende manieren in Analysis Workspace worden gebruikt. U kunt:
+
+* Sleep metrisch aan een lege lijst Freeform om te zien die metrisch over de de datumperiode van het project trended.
+
+* Sleep metrisch wanneer een afmeting aanwezig is om dat metrisch vergeleken bij elk afmetingspunt te zien.
+
+* Sleep metrisch bovenop een bestaande metrische kopbal om het te vervangen.
+
+* Sleep metrisch naast een kopbal om beide metriek naast elkaar te zien.
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
