@@ -4,9 +4,9 @@ keywords: Berekende metriek;Afgeleide Metriek;Geavanceerde Berekende Metriek
 title: Berekende en Geavanceerde berekende (Afgeleide) Metriek
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 970c18834c1cc7f866b7b0ceec7dc1642c3482ad
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '565'
 ht-degree: 6%
 
 ---
@@ -39,14 +39,10 @@ Hier is een vergelijking van Berekende metriek en Geavanceerde Berekende metriek
 U kunt
 
 * Metrisch maken over [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], en [!UICONTROL Contribution Analysis].
-* Creeer gesegmenteerde metriek die bij rapportruntime worden afgeleid, zonder het moeten de implementatie veranderen. Deze kunnen historisch worden bekeken omdat ze zijn gebaseerd op segmenten. Hier volgt een video over meetgegevens zonder implementatie:
-
-   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+* Creeer gesegmenteerde metriek die bij rapportruntime worden afgeleid, zonder het moeten de implementatie veranderen. Deze kunnen historisch worden bekeken omdat ze zijn gebaseerd op segmenten.
 
 * De metriek van het aandeel over rapportsuites. Dit betekent dat alle pas gecreëerde metriek op alle rapportsuites in het zelfde login bedrijf van toepassing is.
-* (Alleen geavanceerde berekende metriek) Segment op metriek. U kunt bijvoorbeeld een metrische waarde maken voor &quot;Nieuwe bezoekers&quot;, met een aantal personen voor wie dit de eerste sessie is. Hier volgt een video over dit onderwerp:
-
-   >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
+* (Alleen geavanceerde berekende metriek) Segment op metriek. U kunt bijvoorbeeld een metrische waarde maken voor &quot;Nieuwe bezoekers&quot;, met een aantal personen voor wie dit de eerste sessie is.
 
 * (Alleen geavanceerde berekende gegevens) Neem statistische functies op om uw gegevens beter te kunnen beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
 
