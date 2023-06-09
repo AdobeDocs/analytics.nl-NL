@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 45%
+source-wordcount: '715'
+ht-degree: 44%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 45%
       + [Compatibiliteit van Data Warehouse-segmenten](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentrechten per rol](segmentation/seg-reference/seg-rights.md)
       + [Problemen oplossen](segmentation/seg-reference/c-troubleshooting.md)
-   + [Veelgestelde vragen over het beheer van verouderde segmenten ](segmentation/seg-transition.md)
+   + [Veelgestelde vragen over het beheer van verouderde segmenten](segmentation/seg-transition.md)
    + [Best practices](segmentation/best-practices.md)
 + Berekende statistieken {#calculated-metrics}
    + [Berekende en Geavanceerde berekende (Afgeleide) metriek](c-calcmetrics/cm-overview.md)
@@ -236,10 +236,16 @@ ht-degree: 45%
    + [Overzicht van classificaties](classifications/c-classifications.md)
    + Classificatiesets {#sets}
       + [Overzicht van classificatiesets](classifications/sets/overview.md)
-      + [Classification Sets Manager](classifications/sets/set-manager.md)
-      + [Indelingsset taakbeheer](classifications/sets/job-manager.md)
-      + [Een classificatieset maken](classifications/sets/create.md)
-      + [Instellingen voor classificatieset](classifications/sets/settings.md)
+      + Classificatiesets beheren {#manage}
+         + [Indelingssetmanager](classifications/sets/manage/set-manager.md)
+         + [Een classificatieset maken](classifications/sets/manage/create.md)
+         + [Instellingen voor classificatieset](classifications/sets/manage/settings.md)
+         + [Schema voor classificatieset](classifications/sets/manage/schema.md)
+         + [Classificatieregels](classifications/sets/manage/rules.md)
+      + [Taakmanager voor classificatie](classifications/sets/job-manager.md)
+      + Consolidatie van classificatiesets {#consolidations}
+         + [Consolidatiebeheer voor classificatiesets](classifications/sets/consolidations/manage.md)
+         + [Consolidatieproces van classificatiesets](classifications/sets/consolidations/process.md)
    + Builder voor classificatieregels {#classifications-rulebuilder}
       + [Workflow van de Builder voor classificatieregels](classifications/crb/classification-rule-builder.md)
       + [Classificatieregelsets](classifications/crb/classification-rule-set.md)
@@ -260,6 +266,7 @@ ht-degree: 45%
       + [FTP-export](classifications/importer/ftp-export.md)
       + [Verwerkingstijd](classifications/importer/processing-time.md)
       + [Problemen oplossen](classifications/importer/troubleshooting.md)
+
    + [Subclassificaties](classifications/c-sub-classifications.md)
    + [Veelgestelde vragen over classificaties](classifications/faq.md)
 + [Kalendergebeurtenissen](t-calendar-event.md)
