@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
 workflow-type: tm+mt
-source-wordcount: '4157'
-ht-degree: 30%
+source-wordcount: '4416'
+ht-degree: 28%
 
 ---
 
@@ -25,23 +25,29 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
-| **Juni 2023** |  |
+| **Juni 2023** | |
+| Variabele van nieuw AppMeasurement | De variabele `doubleEncodeLinkParameters` past randgevallen aan waarin implementaties multi-byte karakters in verbinding het volgen variabelen coderen. [Meer informatie](../implement/vars/config-vars/doubleencodelinkparameters.md) |
+| Nieuwe functies voor classificatiesets | [Classificatiesets](/help/components/classifications/sets/overview.md) zijn bijgewerkt met verschillende nieuwe functies:<ul><li>**Consolidaties**: Combineer classificatiesets tot één enkel geconsolideerd classificatieset. Het geconsolideerde classificatieset kan worden gebruikt als andere classificatiesets of als een opzoekgegevensset in CJA. [Meer informatie](../components/classifications/sets/consolidations/manage.md)</li><li>**Regels**: Waarden automatisch classificeren op basis van regels in de classificatieset. [Meer informatie](../components/classifications/sets/manage/rules.md)</li><li>**Automatisch importeren**: Importeer classificatiegegevens automatisch van cloudopslagbestemmingen. [Meer informatie](../components/classifications/sets/manage/schema.md)</li></ul> |
 | Berekende metrische updates | Verschillende artikelen met betrekking tot berekende meetwaarden zijn bijgewerkt, waaronder het bijwerken van schermafbeeldingen en stappen in procedures. Deze wijzigingen zijn aangebracht om de documentatie in overeenstemming te brengen met de huidige Adobe Analytics-functionaliteit. |
-| **Mei 2023** |  |
+| Beveiligde doelen voor het exporteren van gegevenstoevoer | Gegevensfeeds kunnen nu naar de volgende opslagdoelen in de cloud worden verzonden:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Doelen die voorheen beschikbaar waren (FTP, SFTP, S3 en Azure Blob) worden niet meer aanbevolen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) |
+| Bot-rapportage in Workspace | Bot reporting is nu beschikbaar in Analysis Workspace. Deze functie wordt geleverd met verschillende toevoegingen:<ul><li>Een nieuwe dimensie: [Bot-naam](/help/components/dimensions/bot-name.md)</li><li>Twee nieuwe metriek: [Bodt paginaweergaven](/help/components/metrics/bot-page-views.md) en [Beide voorvallen](/help/components/metrics/bot-occurrences.md).</li><li>Een nieuwe berekende metrische sjabloon: [Hoogte-breedteverhouding van beide pagina&#39;s](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>Een nieuw rapport over de werkruimte: Bot-rapportage</li></ul>De nieuwe dimensie en metriek bevatten gegevens die vanaf maart 2023 zijn teruggevuld. |
+| **Mei 2023** | |
+| Deep Linking (Mobile App)-documentatie | Hiermee kunnen gebruikers koppelingen naar scorecards verzenden die rechtstreeks naar het scorecard-project in de app leiden. [Meer informatie](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
+| Documentatie voor bijgewerkt startscherm voor de app Analytics-dashboards (Mobile App) | Het nieuwe bijgewerkte scherm van het Huis staat u toe om elk van uw scorecards in één geconsolideerde scorecard lijst te bekijken. [Meer informatie](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrumpictogrammen | Waar van toepassing vervangen screenshots van gebruikersinterfacepictogrammen in de documentatie met verwijzingen naar de equivalente pictogrammen in [Adobe](https://spectrum.adobe.com/page/icons/). |
 | Verbeterde IP-naar-geolocatietoewijzing | Een onderwerp gemaakt op [Veelgestelde vragen](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
 | Activity Manager rapporteren | Deze bètadocumentatie is bijgewerkt, met name de sectie over [De rapportactiviteit voor individuele rapportreeksen bekijken](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Overzicht van Analysis Workspace | Bijgewerkt [Analysis Workspace-overzicht](/help/analyze/analysis-workspace/home.md) meer algemene overzichtsinformatie en koppelingen naar relevante inhoud op te nemen. |
 | Projecten maken | Een nieuw artikel maken waarin gedetailleerd wordt uitgelegd hoe u [Projecten maken](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
-| Componenten sorteren in linkerraster | Informatie toegevoegd over het sorteren van de lijst met componenten in de linkertrack. Zie de sectie Zoeken, filteren en sorteren in de lijst met componenten in [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| Componenten sorteren in linkerraster | Extra informatie over het sorteren van de lijst met componenten in de linkerspoorstaaf. Zie de sectie &quot;Zoeken, filteren en sorteren in de lijst met componenten&quot; in [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
 | Rijen met dynamische afmetingen uit een tabel voor vrije vorm verwijderen | Informatie toegevoegd over hoe u snel specifieke rijen kunt verwijderen die dynamische afmetingen bevatten met het pictogram x. Zie de sectie &quot;Snel specifieke rijen uitsluiten van een tabel&quot; in [Tabellen filteren en sorteren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | Knop om een visualisatie binnen een paneel toe te voegen | Informatie toegevoegd over een nieuwe knop onder aan elk deelvenster in Analysis Workspace waarmee u snel een visualisatie kunt toevoegen. Zie de sectie &quot;Visualisaties toevoegen aan een deelvenster&quot; in [Overzicht van visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
-| **April 2023** |  |
+| **April 2023** | |
 | Gebruikerselementen overdragen en verlopen van accounts instellen | Extra informatie over hoe te [gebruikerselementen overdragen en verlopen van account instellen](/help/admin/admin/user-management2/users-assets.md). |
 | 2 nieuwe eindpuntgidsen voor Adobe Analytics 2.0 API | <ul><li>[Dimension-API voor analyse](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API voor analysemetriek](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | Projectsegmenten (ad-hocsegmenten en snelle segmenten) | Gestroomlijnde documentatie over projectsegmenten en verwijderde gedupliceerde informatie. De stappen voor het maken van ad-hocsegmenten worden nu gecombineerd met de stappen voor [snelsegmenten maken](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Dynamische zoekopdrachten | Aanvullende informatie rond [Dynamische zoekopdrachten](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) wordt toegevoegd. Voorheen bestond informatie alleen voor mobiele kenmerken, een van de vele dynamische zoekopdrachten. |
-| **maart 2023** |  |
+| **maart 2023** | |
 | Web SDK steun voor Activity Map | Bijgewerkt [Adobe Analytics implementeren](/help/implement/home.md) en [Activity Map inschakelen](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | Overzicht van verkeersvariabelen | Toegevoegde secties en stapsgewijze procedures om de inhoud van artikelen te verduidelijken en te verbeteren. De samengevoegde inhoud van een artikel getiteld, &quot;laat de rapporten van de verkeersvariabele&quot;toe en verwijderde dat artikel. Zie [Overzicht van verkeersvariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | Interne URL-filters | Toegevoegde secties en stapsgewijze procedures om de inhoud van artikelen te verduidelijken en te verbeteren. Zie [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
@@ -49,13 +55,13 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Berekende standaardwaarden | Toegevoegde inhoud waarin de [berekende standaardwaarden verstrekt door Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | Gegevenswoordenboek | <p>Nieuwe documentatie toegevoegd voor het gegevenswoordenboek, inclusief een [Overzicht](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Weergeven](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Bewerken](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), en [Toezicht](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) het gegevenswoordenboek.</p><p>Informatie in [Componentbeschrijvingen toevoegen](/help/analyze/analysis-workspace/components/add-component-descriptions.md) is bijgewerkt voor de functie Gegevenswoordenboek.</p> |
 | Het delen van verbindingen voor projecten (geen vereiste login) | <p>Bijgewerkte bestaande documentatie om uit te leggen hoe u een read-only verbinding van een project kunt delen met mensen die geen toegang tot Analysis Workspace hebben.</p> <p>De bijgewerkte gebruikersdocumentatie bevat [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md) en [Deelbare koppelingen maken](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>Er zijn opties voor beheerders toegevoegd aan [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md).</p> |
-| **Februari 2023** |  |
+| **Februari 2023** | |
 | Implementatie | Bijgewerkte inhoud over hoe te [Adobe Analytics for web en mobile implementeren](../implement/home.md). |
 | Werkruimtekalenders en datumbereiken | Bijgewerkte inhoud om relatieve datumwaaiers, de updates van de formules berekening, en kalenderveranderingen te beschrijven UI. Zie [Over datumbereiken in het relatieve deelvenster](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Mobiele scorecards | Nieuwe documentatiesectie om te beschrijven hoe te om de waaiers van de vergelijkingsdatum te tonen en te verbergen. Zie [Vergelijkingsdatumbereiken tonen](/help/analyze/mobile-app/create-scorecard.md) in CJA. |
 | 1.4 API | De [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) heeft een volledige herschrijving ontvangen en wordt nu gepubliceerd op Adobe Developer. |
 | Traceren tussen implementatietypen | Gebruiksscenario is bijgewerkt [Houd verschillende implementatietypen bij](../implement/use-cases/cross-type-implementation.md) om de Experience Cloud ID-service aan te passen. |
-| **Januari 2023** |  |
+| **Januari 2023** | |
 | Tabellen filteren en sorteren | Bijgewerkte inhoud (inclusief het toevoegen van procedures en het uitleggen van beschikbare opties) in de [Tabellen filteren en sorteren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artikel. De naam van dit artikel is gewijzigd in &quot;Paginering, filteren en sorteren van tabellen&quot;. |
 | Mappen | Speciale pagina&#39;s voor [Mappen beheren](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Gebruikersvoorkeuren | Veel extra gebruikersvoorkeuren zijn nu beschikbaar in [Voorkeuren](/help/analyze/analysis-workspace/user-preferences.md). |
@@ -66,7 +72,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
-| **November 2022** |  |
+| **November 2022** | |
 | Toegangsbeheervariabelen | Speciale pagina&#39;s voor [Optie voor beheer van toestemming](/help/components/dimensions/cm-opt-in.md) en [Optie voor beheer van toestemming](/help/components/dimensions/cm-opt-out.md). |
 | Meerdere valuta&#39;s vernieuwen | Pagina&#39;s rond [Ondersteuning voor meerdere valuta&#39;s](/help/implement/vars/config-vars/currencycode.md) worden bijgewerkt. |
 | **Oktober 2022** |  |
@@ -76,13 +82,13 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Classificatiesets | De nieuwe gebruiker [Classificatiesets](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html) De ervaring verstrekt één enkele interface om classificaties en regels te beheren en verbetert zichtbaarheid van klant-eigenlijke classificatiegegevens. |
 | Mobiele app: Aangepaste detailweergaven | Nieuw onderwerp over [aangepaste detailweergaven](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html). |
 | VISTA | Nieuwe pagina die de grondbeginselen van [VISTA-regels](/help/technotes/vista.md). |
-| **September 2022** |  |
+| **September 2022** | |
 | Combografieken | Nieuw onderwerp over het [combo-diagrammen](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualisatie. |
 | Bijgewerkte plug-in | Bijgewerkte versie van de [getvalone](/help/implement/vars/plugins/getvalonce.md) implementatieplug-in. |
 | Nieuwe configuratievariabele | Documentatie over [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
 | Tips voor client met hoge entropie | Nieuw onderwerp over hoe Adobe gebruikt [clienttips](/help/technotes/client-hints.md) naast Gebruiker-Agent om apparateninformatie te bepalen. |
 | Verwerkingsopdracht | Verschillende Help-pagina&#39;s zijn samengevoegd om één Help-onderwerp te bieden over [Verwerkingsopdracht](/help/technotes/processing-order.md). |
-| **augustus 2022** |  |
+| **augustus 2022** | |
 | Steun voor Variabelen van de Lijst in XDM voor de Inzameling van de Rand | Hiermee kunnen klanten gegevens verzamelen via Experience Edge/Web SDK om XDM te gebruiken om de inhoud van de Variabele van de Lijst op te geven. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html#list-variables-using-the-web-sdk) | 18 augustus 2022 |
 | Gebruik van het gebied van SKU in XDM voor de Inzameling van de Rand wanneer het plaatsen van de Variabelen van het productkoord | Hiermee kunnen klanten gegevens verzamelen via Experience Edge/Web SDK om de SKU-waarde te gebruiken om het productveld in de productvariabele in te stellen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html#products-using-the-web-sdk) |
 | **Juni 2022** |  |
@@ -90,13 +96,13 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Experience Platform Edge-documentatie | Nieuwe artikelen over Adobe Analytics-implementatie via [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md), en [Edge-API](/help/implement/aep-edge/edge-api/overview.md). |
 | Bijgewerkte documentatie voor stroomvisualisatie | Op basis van de [nieuwe interface](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Documentatie over het delen van annotaties in mobiele scorecards | U kunt [annotaties die zijn gemaakt in Workspace, in Mobile Scorecards](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
-| **Mei 2022** |  |
+| **Mei 2022** | |
 | De afmetingen en metriek van de levenscyclus populeren via Experience Edge | Gegevens over de mobiele levenscyclus die via Experience Edge worden verzonden, worden nu weergegeven in Analytics-rapportage. Zie [Variabeletoewijzing Analyse](/help/implement/aep-edge/variable-mapping.md) voor meer informatie over welke XDM-velden worden toegewezen aan de bestaande rapportage van de mobiele levenscyclus. |
-| **April 2022** |  |
+| **April 2022** | |
 | Adobe Analytics-bestemmingspagina-updates | Updates van de gemeenschappelijke [De landingspagina Werkruimte/Rapporten &amp; Analyse](/help/analyze/landing.md) dat de bruikbaarheid en het gemak van navigatie verbetert. |
 | Nieuw onderwerp over [!UICONTROL Page Summary] deelvenster | [Het deelvenster Paginaoverzicht](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Nieuw onderwerp over [!UICONTROL Next/Previous item] deelvenster | [Deelvenster Volgende/vorige dimensie-item](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
-| **Maart 2022** |  |
+| **Maart 2022** | |
 | Nieuw onderwerp op ondersteunde HTTPS-versleutelingsalgoritmen | [Ondersteunde HTTPS-versleutelingsalgoritmen](/help/technotes/rdc/encryption-algos.md) voor klanten met het niveau van de cipher veiligheid die aan &quot;Hoog&quot;wordt geplaatst. |
 | Nieuwe documentatie over notities in werkruimte | [Annotaties in werkruimte](/help/analyze/analysis-workspace/components/annotations/overview.md) stelt u in staat om contextuele gegevensnuances en inzichten effectief aan uw organisatie mee te delen. |
 | Adobe Analytics-bestemmingspagina-updates | [Updates](/help/analyze/landing.md) naar de gemeenschappelijke bestemmingspagina van Workspace/Reports &amp; Analytics die bruikbaarheid en gemak van navigatie verbetert. |
@@ -131,15 +137,15 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 3 juni 2021 | De documentatie is bijgewerkt om deze beter uit te leggen [Implementatie gegevensfeed](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) en [hier](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html#BucketOwnerFullControl). |
 | 25 mei 2021 | De documentatie op [eVar-hoofdlettergevoeligheid bij rapportage](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html). |
 | 13 mei 2021 | Updates voor [Data Warehouse API-aanvragen](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Ze ondersteunen nu &#39;Uren&#39;. |
-| **Maart 2021** |  |
+| **Maart 2021** | |
 | maart, april 2021 | Updates voor Adobe Analytics-dashboards [Executive-handleiding](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html) en [Curatorhulplijn](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) |
 | 25 maart 2021 | Nieuwe documentatie op de [!UICONTROL Components] > [!UICONTROL User preferences] pagina. Hiermee kunt u het beheer [!UICONTROL Analysis Workspace] instellingen en de bijbehorende componenten voor uw gebruiker. [!UICONTROL User preferences] van toepassing op alle nieuwe projecten en panels. <br>**Opmerking:** de volgende instellingen zijn verplaatst naar de [!UICONTROL User preferences] pagina:<ul><li>Rapportinstellingen: Scheidingsteken voor duizendtallen (nu _Getalnotatie_)</li><li>Rapportinstellingen: CSV-scheidingsteken</li><li>Werkruimteprojecten: Help > Tips inschakelen</li><li>Werkruimteprojecten: Leeg deelvenster _Nieuwe projecten starten met dit deelvenster_ option</li></ul> |
 | 25 maart 2021 | [!UICONTROL Histogram Smart Bucket Prediction] biedt hulp bij histogrammen met hoge cardinaliteit door automatisch de juiste breedte en het juiste aantal emmers voor de gegevensspread te identificeren. Voor metingen met lage cardinaliteit gedraagt de visualisatie zich op dezelfde manier als voorheen. |
 | 25 maart 2021 | [API voor gegevensherstel](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) updates (filteren voor URL&#39;s, querytekenreeksen, tekens en meer) |
 | 25 maart 2021 | Nieuw [Gebruikslogbestand-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) documentatie |
-| **Februari 2021** |  |
+| **Februari 2021** | |
 | 4 februari 2021 | Componentselectie: De component drop-down/drop zone gevonden in [!UICONTROL Quick Insights] is toegevoegd aan alle dropzones in [!UICONTROL Workspace]. Met deze verbetering kunt u kiezen uit een vervolgkeuzelijst met compatibele componenten of de ruimte blijven gebruiken als een neerzetzone. |
-| **Januari 2021** |  |
+| **Januari 2021** | |
 | 14 januari 2021 | Optie voor taalselectie toegevoegd aan documentatie bij het dashboard voor Analytics. |
 | 14 januari 2021 | Toegevoegde documentatie over hoe u beelden aan de projecten van de Werkruimte kunt toevoegen door naar een openbare beeld URL te verwijzen. |
 | 14 januari 2021 | Gecombineerde bron- en instellingenbeheer voor werkruimtevisualisatie: De [!UICONTROL Data Source] Beheer (punt) en instellingenbeheer (versnelling) voor visualisatie zijn gecombineerd tot één pop-up, zodat u de bron en instellingen eenvoudig vanaf dezelfde locatie kunt beheren. |
@@ -148,30 +154,30 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
-| **december 2020** |  |
+| **december 2020** | |
 | 7 december 2020 | Gewijzigd op alle relevante pagina&#39;s om het eindpunt &quot;adobedc.net&quot; op te nemen of te vervangen. |
 | 8 december 2020 | Updates van de [Nieuw project maken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html) pagina in Workspace. |
-| **November 2020** |  |
+| **November 2020** | |
 | 24 november 2020 | Updates voor [Overzicht van deelvensters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) pagina in Workspace. |
 | 24 november 2020 | Nieuwe evaluatiedocumenten van de implementatie: <ul><li>[Volledige evaluatie van implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Gericht overzicht van implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
 | 24 november 2020 | Bijgewerkte Analysis Workspace [Overzicht van visualisaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) pagina. |
 | 12 november 2020 | Nieuwe pagina op [Overgenomen Adobe Analytics-implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html). |
 | 2 november 2020 | Bijgewerkt document op [FTP voor classificaties](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html). |
-| **Oktober 2020** |  |
+| **Oktober 2020** | |
 | 23 oktober 2020 | Visualisatie werkruimtelijn: [Gemiddelde trendline verplaatsen, optie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): Deze instelling is toegevoegd aan [!UICONTROL Line] instellingen voor visualisatietendline. Ook gekend als voortschrijdend gemiddelde, gebruikt een voortschrijdend gemiddelde een specifiek aantal gegevenspunten (die door a worden bepaald **[!UICONTROL Periods]** (selecteert), gemiddeld deze en gebruikt het gemiddelde als een punt op de regel. |
 | 23 oktober 2020 | De werkruimte [Help-pagina voor prestaties](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) toont de verschillende factoren die projectprestaties en verbindingen aan uiteinden voor optimalisering beïnvloeden. |
 | 23 oktober 2020 | Verbeteringen toegevoegd aan de documentatie van Adobe Analytics-dashboads. In de mobiele scorecard in Workspace komt de opmaak van de scorecard nu overeen met die van de app. |
-| **September 2020** |  |
+| **September 2020** | |
 | 17 september 2020 | [Download 50 kB items voor één dimensie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items): U kunt nu 50.000 items downloaden voor één dimensie in een vrije-vormtabel, met toegepaste segmenten en filters. Hierdoor hebt u toegang tot meer dan de 400 rijen gegevens buiten Analysis Workspace. |
 | 17 september 2020 | [Verbeteringen voor lijnvisualisatie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): <ul><li>U kunt de x-as en de y-as van om het even welk tonen of verbergen [!UICONTROL Line] visualisatie. Dit kan vooral handig zijn als uw [!UICONTROL Line] visualisaties zijn compacter.</li><li>U kunt een minimum- en maximumwaardelabel bedekken op elke Lijnvisualisatie om de pieken en dalen snel in metrische vorm te markeren.</li><li>U kunt verschillende regressietendellijnen op om het even welke Lijn visualisatie bedekken om de trend in de gegevens gemakkelijker te zien. Opties omvatten [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] en [!UICONTROL Quadratic].</li></ul> |
 | 17 september 2020 | Nieuwe datumbereiken in Workspace: We hebben vijf nieuwe datumbereiken toegevoegd, zodat u kunt kiezen uit datumbereiken die geen gegevens van vandaag voor een gedeeltelijke dag bevatten: Laatste 7 volledige dagen, Laatste 14 volledige dagen, Laatste 30 volledige dagen, Laatste 60 volledige dagen, Laatste 90 volledige dagen |
 | 17 september 2020 | Nieuwe documentatie over [Deelvenster Mediagelijktijdige viewer in werkruimte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html) |
-| **Augustus 2020** |  |
+| **Augustus 2020** | |
 | 31 augustus 2020 | Verbeteringen toegevoegd aan [documentatie over stitching in het veld](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html) in Cross-Device Analytics. |
-| **Juli 2020** |  |
+| **Juli 2020** | |
 | 21 juli 2020 | Belangrijke updates en herzieningen [Apparaatanalyse](/help/components/cda/overview.md). Toegevoegd [Veldgebaseerde stitching](/help/components/cda/field-based-stitching.md). |
 | 16 juli 2020 | Nieuwe voorinstellingen voor datumbereik in Workspace. Vier nieuwe datumbereiken toegevoegd: ([!UICONTROL This week/month/quarter/year (excluding today)]). Dit laat u van datumwaaiers kiezen die delen-daggegevens van vandaag niet omvatten. |
-| **Juni 2020** |  |
+| **Juni 2020** | |
 | 25 juni 2020 | Nieuwe documentatie voor [Deelvenster Snelle inzichten](/help/analyze/analysis-workspace/c-panels/quickinsight.md) in Workspace. Het biedt niet-analisten en nieuwe gebruikers van Analysis Workspace hulp bij het snel en eenvoudig beantwoorden van zakelijke vragen. |
 | 25 juni 2020 | Nieuwe documentatie voor [Analyses voor venster Doel](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) in Workspace. Hiermee kunt u uw Adobe Target-activiteiten en -ervaringen analyseren, met lippendienst en vertrouwen. |
 | 18 juni 2020 | Nieuwe documentatie over [Attribution IQ: Algorithmic Attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
@@ -205,7 +211,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | 7 februari 2020 | Updates van [Analytics op verschillende apparaten](/help/components/cda/setup.md) en [Veelgestelde vragen](/help/components/cda/faq.md). |
 | 4 februari 2020 | Volledige herschrijving van de [Implementatiehandleiding](/help/implement/home.md). |
 | 22 januari 2020 | Bijgewerkte pagina voor vrijevormtabellen bevat nu ook informatie over de nieuwe [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
-| **Januari 2020** |  |
+| **Januari 2020** | |
 | 24 januari 2020 | Updates van de [Rijinstellingen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace) pagina in Workspace. |
 | 16 januari 2020 | Nieuwe documentatie over [Freeform Table Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html). Als u de functie voor samenstellen van tabellen inschakelt, kunt u allerlei dimensies, uitsplitsingen, metrics en segmenten plaatsen om tabellen te bouwen waarmee complexe zakelijke vragen worden beantwoord. Gegevens worden niet meteen bijgewerkt. In plaats daarvan vindt de update plaats nadat u op **[!UICONTROL Build]** klikt, zodat u tijd bespaart wanneer u weet welke tabel u wilt samenstellen. Bovendien biedt deze functie:<ul><li>**Voorvertoning**: u kunt een voorbeeld van de tabelindeling bekijken voordat gaat werken aan het renderen van echte gegevens.</li><li>**Flexibele instellingen voor rij en uitsplitsing**: u kunt nu een rij- en uitsplitsingsniveau instellen voor elke dimensierij. Eerder werden in Workspace standaardinstellingen ingesteld die pas konden worden gewijzigd nadat de gegevens waren geretourneerd.</li><li>**Uitsplitsing naar positie**: u kunt dimensierijen zo instellen dat ze altijd _worden uitgesplitst op positie_ in plaats van _op een bepaald item_ (de standaardinstelling).</li><li>**Handmatige statische rijvolgorde**: u kunt statische rijen handmatig ordenen, zodat tabelrijen precies zo worden weergegeven als nodig is. Voorheen konden statische rijen alleen worden gesorteerd op een kolom met metrics, of alfabetisch.</li></ul> |
 | 13 januari 2020 | [Adobe Analytics en browsercookies](/help/technotes/cookies/cookies.md) toegevoegd. |

@@ -4,7 +4,7 @@ title: Mobiele scorecards maken en delen
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 455b206ea145a3364d20048041976a1472c8abd7
+source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 0%
@@ -340,7 +340,7 @@ Nadat u een scorecard hebt gedeeld, kunnen uw ontvangers tot het op hun dashboar
 
 Als u scorecard door nieuwe componenten bij te voegen bijwerkt, kunt u de scorecard opnieuw willen delen (en controle **[!UICONTROL Share embedded components]** ) om ervoor te zorgen dat uw uitvoerende gebruikers toegang tot deze veranderingen hebben.
 
-### Schrappingskaarten delen met behulp van een deelbare koppeling
+### Schrappingskaarten delen met behulp van een deelbare koppeling {#shareable-link}
 
 Met een deelbare koppeling kunt u eenvoudig een scorecard delen in een e-mail-, document- of tekstbericht-app. Met de link shareable kunnen ontvangers de scorecard openen op hun bureaublad of in de mobiele app dashboards. Dankzij de deelbare diepe koppeling is het nog eenvoudiger om projecten te delen en de betrokkenheid bij uw belanghebbenden te versterken.
 
