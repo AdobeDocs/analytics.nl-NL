@@ -3,10 +3,10 @@ title: Gebruikersinterface voor gegevensinvoer
 description: Leer hoe te om de interface van de gegevensvoer te navigeren.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,7 @@ Klik op het tabblad Taken om afzonderlijke taken weer te geven die door elk van 
 
 ### Toevoegen
 
-Klik op + bij de tabbladen feeds en taken [!UICONTROL Add] om een nieuwe feed te maken. Zie [Een feed toevoegen](create-feed.md) voor meer informatie .
+Klik op + bij de tabbladen feeds en taken [!UICONTROL Add] om een nieuwe feed te maken. Zie [Een gegevensfeed maken](create-feed.md) voor meer informatie .
 
 ### Kolommen
 
@@ -66,8 +66,8 @@ Elk gecreeerd voer toont verscheidene kolommen die informatie over het verstrekk
 * **ID van rapportsuite**: De unieke id van de rapportsuite.
 * **Gegevenskolommen**: Welke gegevenskolommen actief zijn voor het voer. In de meeste gevallen zijn er te veel kolommen om in deze indeling weer te geven.
 * **Interval**: Vermeld of het diervoeder per uur of per dag is.
-* **Doeltype**: Het doeltype voor de feed. Bijvoorbeeld FTP, Amazon S3 of Azure.
-* **Host bestemming**: De locatie waar het bestand wordt geplaatst. Bijvoorbeeld, `ftp.example.com`.
+* **Doeltype**: Het doeltype voor de feed. Bijvoorbeeld Amazon S3, GCP of Azure.
+* **Host bestemming**: De locatie waar het bestand wordt geplaatst.
 * **Eigenaar**: De gebruikersaccount waarmee de feed is gemaakt.
 * **Status**: De status van het diervoeder.
    * Actief: Het voer is operationeel.

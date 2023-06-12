@@ -5,16 +5,30 @@ subtopic: data feeds
 title: Inhoud van gegevensfeed - overzicht
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
 
-# Inhoud van gegevensfeed - overzicht
+# Inhoud gegevensfeed - overzicht
 
-In deze sectie worden de bestanden beschreven die in een levering van de gegevensfeed zijn gevonden.
+In de volgende secties wordt beschreven hoe u toegang krijgt tot de bestanden in een gegevensdoorvoerlevering en hoe u deze kunt begrijpen.
+
+## Toegang krijgen tot inhoud van gegevensfeed
+
+De inhoud van een gegevensfeed openen:
+
+1. Meld u aan bij de doelsite van de gegevensfeed.
+
+   Dit is de doelsite die u instelt bij het maken van de gegevensfeed, zoals een Amazon S3- of Google Cloud-Platform emmertje.
+
+1. Download het gecomprimeerde gegevensbestand naar uw lokale computer.
+
+1. Het gecomprimeerde bestand decomprimeren met een programma dat ondersteuning biedt `.tar.gz` bestandsextensies.
+
+1. Open de `hit_data.tsv` in uw spreadsheet of databasetoepassing van keuze om onbewerkte gegevens voor die dag weer te geven. —>
 
 ## Manifest-bestand {#feed-manifest}
 
