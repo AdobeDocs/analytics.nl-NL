@@ -1,10 +1,10 @@
 ---
-description: Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over zoekmethoden kredieten ontvangen voor conversiesuccesgebeurtenissen op uw site. Als een zoekmachine bijvoorbeeld een bezoeker doorverwijst naar uw site die een aankoop doet, kunt u met Methoden zoeken opgeven hoe de zoekfunctie de verwijzingsvergoeding ontvangt.
+description: Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over zoekmethoden kredieten ontvangen voor conversiesuccesgebeurtenissen op uw site. Als een zoekmachine bijvoorbeeld een bezoeker doorverwijst naar uw site die een aankoop doet, kunt u met Methoden zoeken opgeven hoe het zoekprogramma krediet voor de doorverwijzing ontvangt.
 title: Zoekmethoden
 feature: Admin Tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 2%
@@ -13,9 +13,9 @@ ht-degree: 2%
 
 # Zoekmethoden
 
-Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over zoekmethoden kredieten ontvangen voor conversiesuccesgebeurtenissen op uw site. Als een zoekmachine bijvoorbeeld een bezoeker doorverwijst naar uw site die een aankoop doet, kunt u met Methoden zoeken opgeven hoe het zoekprogramma krediet voor de doorverwijzing ontvangt.
+Op de pagina Methoden zoeken wordt aangegeven hoe verschillende rapporten over zoekmethoden kredieten ontvangen voor conversiesuccesgebeurtenissen op uw site. Als een zoekmachine bijvoorbeeld een bezoeker doorverwijst naar uw site die een aankoop doet, kunt u met Methoden zoeken opgeven hoe de zoekfunctie de verwijzingsvergoeding ontvangt.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**
 
 ## Beschrijving van methoden zoeken {#section_8B6278DB75224EAB9F49D89A86274E8A}
 

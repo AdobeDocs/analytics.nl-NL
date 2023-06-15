@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referentie gegevenskolom
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '3670'
+source-wordcount: '3671'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | **`browser_width`** | Breedte in pixels van het browservenster. | small int zonder teken |
 | **`c_color`** | Bitdiepte van het kleurenpalet. Wordt gebruikt als onderdeel van de berekening van de [Kleurdiepte](/help/components/dimensions/color-depth.md) dimensie. AppMeasurement gebruikt de JavaScript-functie `screen.colorDepth()`. | teken(20) |
 | **`campaign`** | Variabele gebruikt in de [Trackingcode](/help/components/dimensions/tracking-code.md) dimensie. | varchar(255) |
-| **`carrier`** | Adobe Integratievariabele voor reclame. Geeft de mobiele drager aan. De sleutelwaarde voor `carrier.tsv` [Dynamische zoekopdracht](dynamic-lookups.md). | varchar(100) |
+| **`carrier`** | Adobe Advertising integratie variabele. Geeft de mobiele drager aan. De sleutelwaarde voor `carrier.tsv` [Dynamische zoekopdracht](dynamic-lookups.md). | varchar(100) |
 | **`ch_hdr`** | Clienttips die via de HTTP-aanvraagheader worden verzameld. | text |
 | **`ch_js`** | Clienttips die zijn verzameld via de JavaScript-API voor client-tips voor de gebruikersagent. | text |
 | **`channel`** | Variabele gebruikt in de [Site-secties](/help/components/dimensions/site-section.md) dimensie. | varchar(100) |
@@ -54,7 +54,7 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | **`clickmaplinkbyregion`** | Activity Map per regio | varchar(255) |
 | **`clickmappage`** | Activity Map pagina | varchar(255) |
 | **`clickmapregion`** | Activity Map | varchar(255) |
-| **`code_ver`** | AppMeturement Library-versie die wordt gebruikt om de afbeeldingsaanvraag te compileren en te verzenden. | teken(16) |
+| **`code_ver`** | De versie van de Bibliotheek van het AppMeasurement die wordt gebruikt om het beeldverzoek te compileren en te verzenden. | teken(16) |
 | **`color`** | Kleurdiepte-id op basis van de waarde van de `c_color` kolom. Verwijst naar de `color_depth.tsv` opzoektabel. | small int zonder teken |
 | **`connection_type`** | Numerieke id die het verbindingstype vertegenwoordigt. Variabele gebruikt in de [Verbindingstype](/help/components/dimensions/connection-type.md) dimensie. Verwijst naar de `connection_type.tsv` opzoektabel. | tinyint zonder teken |
 | **`cookies`** | Variabele gebruikt in de [Cookie-ondersteuning](/help/components/dimensions/cookie-support.md) dimensie.<br>Y: Ingeschakeld<br>N: Uitgeschakeld<br>U: Onbekend | teken(1) |
@@ -73,7 +73,7 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | **`duplicate_events`** | Vermeldt elke gebeurtenis die als een duplicaat is geteld. | varchar(255) |
 | **`duplicate_purchase`** | Markering die aangeeft dat de aankoopgebeurtenis voor deze hit wordt genegeerd omdat deze een duplicaat is. | tinyint zonder teken |
 | **`duplicated_from`** | Wordt alleen gebruikt in rapportsuites die de VISTA-regels voor raakkopieën bevatten. Geeft aan uit welke rapportsuite de treffer is gekopieerd. | varchar(40) |
-| **`ef_id`** | De `ef_id` gebruikt in Adobe Advertising-integraties. | varchar(255) |
+| **`ef_id`** | De `ef_id` worden gebruikt in Adobe Advertising-integraties. | varchar(255) |
 | **`evar1 - evar250`** | Aangepaste variabelen 1-250. Gebruikt in [eVar](/help/components/dimensions/evar.md) afmetingen. Elke organisatie gebruikt eVars anders. De beste plaats voor meer informatie over hoe uw organisatie respectieve eVars bevolkt zou een document van het oplossingsontwerp specifiek voor uw organisatie zijn. | varchar(255) |
 | **`event_list`** | Door komma&#39;s gescheiden lijst met numerieke id&#39;s die gebeurtenissen vertegenwoordigen die tijdens de hit worden geactiveerd. Bevat zowel standaardgebeurtenissen als aangepaste gebeurtenissen 1-1000. Gebruiksmiddelen `event.tsv` opzoeken. | text |
 | **`exclude_hit`** | Markering die aangeeft dat de treffer van rapportage is uitgesloten. De `visit_num` wordt niet verhoogd voor uitgesloten treffers.<br>1: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>2: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>3: Niet meer gebruikt. Uitsluiting van gebruikersagent<br>4: Uitsluiting op basis van IP-adres<br>5: Ontbrekende informatie over digitale raakgeluiden, zoals `page_url`, `pagename`, `page_event`, of `event_list`<br>6: JavaScript heeft hit bij proces niet correct verwerkt<br>7: Accountspecifieke uitsluiting, zoals in een VISTA-regeling<br>8: Niet gebruikt. Alternatieve accountspecifieke uitsluiting.<br>9: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>10: Ongeldige valutacode<br>11: Druk op het ontbreken van een tijdstempel in een rapportsuite met alleen een tijdstempel of op een hit die een tijdstempel bevat in een rapportsuite zonder een tijdstempel<br>12: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>13: Niet gebruikt. Onderdeel van een gesloopt onderdeel.<br>14: Doeltreffer die niet overeenkomt met een treffer voor Analytics<br>15: Momenteel niet gebruikt.<br>16: Advertising Cloud-hit die niet overeenkomt met een Analytics-hit | tinyint zonder teken |
@@ -100,7 +100,7 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | **`ipv6`** | Het gecomprimeerde IPv6-adres, indien beschikbaar. Wederzijdse uitsluitingen aan `ip`; als deze kolom een niet verduisterd IP adres bevat, `ip` is leeg. | varchar(40) |
 | **`j_jscript`** | Versie van JavaScript wordt ondersteund door de browser. | teken(5) |
 | **`java_enabled`** | Markering die aangeeft of Java is ingeschakeld. <br>Y: Ingeschakeld <br>N: Uitgeschakeld <br>U: Onbekend | teken(1) |
-| **`javascript`** | Opzoeken-id van JavaScript-versie, gebaseerd op `j_jscript`. Gebruikt opzoektabel. | tinyint zonder teken |
+| **`javascript`** | Opzoeken-id van JavaScript-versie, gebaseerd op `j_jscript`. Verwijst naar de `javascript_version` opzoektabel. | tinyint zonder teken |
 | **`language`** | Numerieke id van taal. Gebruiksmiddelen `languages.tsv` opzoektabel. | small int zonder teken |
 | **`last_hit_time_gmt`** | Tijdstempel (in UNIX®-tijd) van de voorgaande hit. Wordt gebruikt om de [Dagen sinds laatste bezoek](/help/components/dimensions/days-since-last-visit.md) dimensie. | int |
 | **`last_purchase_num`** | Variabele gebruikt in de [Klantenloyaliteit](/help/components/dimensions/customer-loyalty.md) dimensie. Het aantal eerdere aankopen dat de bezoeker heeft gedaan. <br>0: Geen eerdere aankopen (geen klant) <br>1: 1 eerdere aankoop (nieuwe klant) <br>2: 2 eerdere aankopen (retourklant) <br>3: 3 of meer eerdere aankopen (loyale klant) | int zonder teken |
@@ -186,7 +186,7 @@ U vindt vorige updates van deze tabel op de pagina [geschiedenis toewijzen op Gi
 | **`ref_type`** | Een numerieke id die het verwijzingstype voor de treffer vertegenwoordigt. Gebruikt in de [Type referentie](/help/components/dimensions/referrer-type.md) dimensie. <br>1: Binnen uw site<br>2: Andere websites <br>3: Zoekprogramma&#39;s <br>4: Vaste schijf <br>5: GEBRUIKER <br>6: Typed/Bookmark (geen referentie) <br>7: E-mail <br>8: Geen JavaScript <br>9: Sociale netwerken | tinyint zonder teken |
 | **`referrer`** | Pagina-URL van de vorige pagina. Gebruikt in de [Referenter](/help/components/dimensions/referrer.md) dimensie. Let op: `referrer` gebruikt een gegevenstype van varchar(255); `post_referrer` gebruikt een gegevenstype van varchar (244). | varchar(255) |
 | **`resolution`** | Numerieke id die de resolutie van de monitor vertegenwoordigt. Gebruikt in de [Monitorresolutie](/help/components/dimensions/monitor-resolution.md) dimensie. Gebruiksmiddelen `resolution.tsv` opzoektabel. | small int zonder teken |
-| **`s_kwcid`** | Trefwoord-id die wordt gebruikt in Adobe-advertentie-integratie. | varchar(255) |
+| **`s_kwcid`** | Trefwoord-id gebruikt in Adobe Advertising-integratie. | varchar(255) |
 | **`s_resolution`** | Waarde van resolutie voor onbewerkt scherm. Opgenomen met de JavaScript-functie `screen.width x screen.height`. | teken(20) |
 | **`search_engine`** | Numerieke id die staat voor de zoekengine die de bezoeker naar uw site heeft doorverwezen. Gebruiksmiddelen `search_engines.tsv` opzoeken. | small int zonder teken |
 | **`search_page_num`** | Wordt gebruikt door de [Alle zoekpaginanummers](/help/components/dimensions/all-search-page-rank.md) dimensie. Hiermee geeft u aan op welke pagina met zoekresultaten uw site is weergegeven voordat de gebruiker op uw site heeft geklikt. | small int zonder teken |

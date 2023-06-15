@@ -4,7 +4,7 @@ description: Hiermee geeft u de invoerafmetingen en het gebruik ervan weer.
 keywords: entry page, entry site section, entry server, entry custom understanding
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *Deze Help-pagina beschrijft hoe ingangen werken als een dimensie. Voor informatie over hoe de ingangen als metrisch werken, zie [Berichten](../metrics/entries.md) metrisch.*
 
-Invoerafmetingen zijn gebaseerd op bezoeken. Zij registreren het eerste afmetingspunt, en stellen het voor de volledige duur van dat bezoek voort. Invoerafmetingen zijn beschikbaar voor alle variabelen waarbij tekenen is ingeschakeld onder [Verkeersvariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in de instellingen van de rapportsuite.
+De afmetingen van het item zijn [op bezoek](../metrics/visits.md). Zij registreren het eerste afmetingspunt, en stellen het voor de volledige duur van dat bezoek voort. Invoerafmetingen zijn beschikbaar voor alle variabelen waarbij tekenen is ingeschakeld onder [Verkeersvariabelen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in de instellingen van de rapportsuite.
 
 ## Itemafmetingen vullen met gegevens
 

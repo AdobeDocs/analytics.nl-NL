@@ -3,7 +3,7 @@ description: Classificaties worden gebruikt om waarden in groepen te categoriser
 title: Conversieclassificaties
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 3%
@@ -13,6 +13,8 @@ ht-degree: 3%
 # Conversieclassificaties
 
 Classificaties worden gebruikt om waarden in groepen te categoriseren en op groepsniveau te rapporteren. U kunt bijvoorbeeld alles classificeren [!UICONTROL Paid Search] campagnes in een soort categorie *pop-muzieknoten* en rapporteren over het succes van die categorie ten opzichte van metriek zoals Instanties (klik-door), en omzetting in succesgebeurtenissen. U kunt maximaal 255 classificaties toevoegen aan een variabele.
+
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**
 
 Met conversieclassificaties kunt u conversievariabelen classificeren. Zodra geclassificeerd, kan om het even welk rapport dat u het gebruiken van de zeer belangrijke gegevens kunt produceren ook worden geproduceerd gebruikend de bijbehorende gegevenseigenschappen.
 

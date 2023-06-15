@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Inhoud van gegevensfeed - overzicht
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -81,24 +81,24 @@ De opzoekbestanden worden samen geleverd in een gecomprimeerd ZIP-bestand met de
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* [!DNL column_headers.tsv] (aangepast voor deze gegevensinvoer)
-* [!DNL browser.tsv]
-* [!DNL browser_type.tsv]
-* [!DNL color_depth.tsv]
-* [!DNL connection_type.tsv]
-* [!DNL country.tsv]
-* [!DNL javascript_version.tsv]
-* [!DNL languages.tsv]
-* [!DNL operating_systems.tsv]
-* [!DNL plugins.tsv]
-* [!DNL resolution.tsv]
-* [!DNL referrer_type.tsv]
-* [!DNL search_engines.tsv]
-* [!DNL event_lookup.tsv] (aangepast voor deze gegevensinvoer)
+* **`column_headers.tsv`**: Eén rij met de kolomkoppen voor `hit_data.tsv`.
+* **`browser.tsv`**: Wijst browser ID (toe `browser` voederkolom) aan de browser vriendschappelijke naam.
+* **`browser_type.tsv`**: Wijst browser ID (toe `browser` voederkolom) aan het browser type.
+* **`color_depth.tsv`**: Hiermee wordt de kleurdiepte-id toegewezen (de `color` voederkolom) aan kleurdiepte.
+* **`connection_type.tsv`**: Hiermee wordt de id van het verbindingstype toegewezen (de `connection_type` voederkolom) aan het verbindingstype.
+* **`country.tsv`**: Wijst de land-id (de `country` voederkolom) aan de naam van het land.
+* **`javascript_version.tsv`**: Wijst de versie-id van JavaScript toe (de `javascript` voederkolom) aan de versie JavaScript.
+* **`languages.tsv`**: Wijst de taal-id (de `language` voederkolom) aan taal.
+* **`operating_systems.tsv`**: Wijst de id van het besturingssysteem toe (de `os` voederkolom) aan de naam van het werkende systeem.
+* **`plugins.tsv`**: Wijst de insteekmodule-id&#39;s toe (de `plugin` voederkolom) aan elke respectieve plug-in naam.
+* **`resolution.tsv`**: Wijst de resolutie-id (de `resolution` voederkolom) aan de monitorresolutie.
+* **`referrer_type.tsv`**: Hiermee wordt de id van het verwijzingstype toegewezen (de `ref_type` voederkolom) aan het referentietype.
+* **`search_engines.tsv`**: Wijst de zoekmachine-id (de `search_engine` voederkolom) aan de naam van het onderzoeksmotor.
+* **`event.tsv`**: Wijst elke gebeurtenis-id (de `event_list` voederkolom) aan zijn respectieve gebeurtenisnaam.
 
 ## Gegevensbestanden verbergen
 
-De gegevens worden verstrekt in een [!DNL hit_data.tsv] bestand. De hoeveelheid gegevens in dit bestand wordt bepaald door de leveringsindeling (uur- of dagbestand en enkele of meerdere bestanden). Dit bestand bevat alleen raakgegevens. De kolomkoppen worden afzonderlijk bij de opzoekbestanden geleverd. Elke rij in dit bestand bevat één serveraanroep.
+De gegevens worden verstrekt in een `hit_data.tsv` bestand. De hoeveelheid gegevens in dit bestand wordt bepaald door de leveringsindeling (uur- of dagbestand en enkele of meerdere bestanden). Dit bestand bevat alleen raakgegevens. De kolomkoppen worden afzonderlijk bij de opzoekbestanden geleverd. Elke rij in dit bestand bevat één serveraanroep.
 
 De dossiers die door Adobe worden geleverd variëren gebaseerd op het type van gegevensvoer dat u hebt gevormd. Alle bestanden worden gecodeerd met ISO-8859-1.
 

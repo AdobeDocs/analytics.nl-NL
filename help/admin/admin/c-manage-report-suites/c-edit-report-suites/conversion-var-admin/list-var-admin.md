@@ -3,31 +3,27 @@ title: Lijstvariabelen
 description: Creeer en vorm lijstvariabelen voor gebruik in het melden.
 feature: Admin Tools
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 1%
+source-wordcount: '471'
+ht-degree: 0%
 
 ---
 
 # Lijstvariabelen
 
-Creeer en vorm lijstvariabelen voor gebruik in het melden. Stel hier hun waarden voor scheidingstekens, verlopen, toewijzing en maximum in.
+Creeer en vorm lijstvariabelen voor gebruik in het melden. Stel de waarden voor scheidingstekens, verlopen, toewijzing en maximum in.
 
-U kunt tot de configuratie in de Admin Console toegang hebben:
-
-1. Ga naar  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
-2. Selecteer de rapportsuite.
-3. Klik op  **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL List Variables]** .
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**
 
 * **Naam**: Elke gescheiden waarde kan maximaal 255 tekens bevatten (of minder als multi-byte tekens worden gebruikt). Dit is de maximumlengte van elk element.
 * **Scheidingsteken waarde**: Het teken dat wordt gebruikt om waarden in de keuzelijst van elkaar te scheiden. Meestal gaat het om tekens zoals komma&#39;s, dubbele punten, pijpen of iets dergelijks.
 
-   >[!NOTE]
-   >
-   >Multi-bytetekens worden niet ondersteund als scheidingstekens in List Vars. Het scheidingsteken moet één byte zijn.
+  >[!NOTE]
+  >
+  >Multi-bytetekens worden niet ondersteund als scheidingstekens in List Vars. Het scheidingsteken moet één byte zijn.
 
-* **Verlopen**: Net als bij het verlopen van de eVar, bepaalt dit de hoeveelheid tijd die tussen de Lijst Var en de omzettingsgebeurtenis kan voorkomen voor hen om worden verwant.
+* **Verlopen**: Net als bij het verlopen van de eVar, bepaalt dit veld hoeveel tijd er tussen de List Var en de conversiegebeurtenis kan optreden om deze aan te sluiten.
    * **Op paginaweergave of bezoekniveau**: Gebeurtenissen na afloop van de paginaweergave of het bezoek zijn niet weer gekoppeld aan waarden in de lijst Var.
    * **Gebaseerd op een tijdsperiode, zoals dag, week, maand enz.**: Gebeurtenissen met succes na de opgegeven tijdsperiode worden niet gekoppeld aan waarden binnen de List Var. Ook kan een aangepast aantal dagen worden gedefinieerd.
    * **Specifieke conversiegebeurtenissen**: Eventuele andere succesgebeurtenissen die na de opgegeven specifieke gebeurtenis plaatsvinden, worden niet gekoppeld aan waarden in de lijst Var.
