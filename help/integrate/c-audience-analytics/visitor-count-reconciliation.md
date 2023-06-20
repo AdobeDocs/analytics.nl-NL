@@ -3,9 +3,9 @@ description: Er zijn meetgegevens voor bezoekers in Adobe Analytics en Adobe Aud
 title: Verschillen in aantal bezoekers
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '296'
 ht-degree: 3%
 
 ---
@@ -25,11 +25,11 @@ De cijfers voor de bezoeker zijn:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Totale segmentpopulatie</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: Totale segmentpopulatie</a> </p> </td> 
    <td colname="col3"> <p>Aantal apparaten (Experience Cloud IDs) die een lid van uw segment tijdens de raadplegingsperiode waren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Realtime segmentpopulatie</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: Realtime segmentpopulatie</a> </p> </td> 
    <td colname="col3"> <p>Aantal apparaten (Experience Cloud IDs) die een lid van uw segment waren en uw eigenschappen tijdens de raadplegingsperiode bereikten. </p> </td> 
   </tr> 
   <tr> 
@@ -43,13 +43,13 @@ De cijfers voor de bezoeker zijn:
  </tbody> 
 </table>
 
-AAM Bevolking van segmenten in realtime en Bezoekers voor analysemogelijkheden met Experience Cloud-id die worden gebruikt in Audience Analytics-rapportage, lijken het meest op elkaar. Op korte termijn zullen er echter, vanwege verschillende factoren, kleine verschillen tussen deze factoren zijn. Bijdragende factoren zijn:
+Adobe Audience Manager Real-time segment Population and Analytics Visitors with Experience Cloud ID used within Audience Analytics reporting will be the similar. Op korte termijn zullen er echter, vanwege verschillende factoren, kleine verschillen tussen deze factoren zijn. Bijdragende factoren zijn:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Factor </th> 
-   <th colname="col2" class="entry"> AAM: Realtime segmentpopulatie </th> 
+   <th colname="col2" class="entry"> Adobe Audience Manager: Realtime segmentpopulatie </th> 
    <th colname="col3" class="entry"> Analyse: Bezoekers met Experience Cloud-id </th> 
   </tr>
  </thead>

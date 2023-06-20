@@ -2,19 +2,19 @@
 title: Verbeterde veelgestelde vragen over IP-naar-geolocatietoewijzing
 description: Antwoorden op vragen betreffende de nieuwe en betere dataset (Pulse NetAcuity) voor IP-aan-geolocatietoewijzing.
 feature: Data Configuration and Collection
-source-git-commit: df73dfa25c1664644feb6f744a3bf0923d6a2219
+exl-id: 9327c20c-1310-4451-a6e4-61dc0e46724d
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
-
 
 # Verbeterde veelgestelde vragen over IP-naar-geolocatietoewijzing
 
 Onze leverancier voor IP raadplegingen, Digitaal Element, die aan een nieuwe betere dataset (Pulse NetAcuity) voor IP-aan-geolocatietoewijzing wordt bevorderd. Oorspronkelijk voor oktober 2022 gepland, heeft Adobe Analytics deze nieuwe dataset op 11 januari 2023 goedgekeurd. De nieuwe database is nauwkeuriger dan vorige versies. Sommige IP-aan-geo afbeeldingen veranderden/verbeterden toen het nieuwe gegevensbestand werd goedgekeurd.
 
-Alle Adobe Analytics-programma&#39;s (Analysis Workspace, Reports &amp; Analytics, Reporting API, Data Warehouse, LiveStream, Analytics Data Feeds, enzovoort) maken automatisch gebruik van de nieuwe verbeterde toewijzingen. De indeling van de gegevens in de gegevensinvoer is niet gewijzigd. De gegevens CJA die door de Bronschakelaar van de Analyse worden verstrekt halen automatisch voordeel uit de nieuwe afbeeldingen.
+Alle Adobe Analytics-programma&#39;s (Analysis Workspace, Reports &amp; Analytics, Reporting API, Data Warehouse, LiveStream, Analytics Data Feeds, enzovoort) maken automatisch gebruik van de nieuwe verbeterde toewijzingen. De indeling van de gegevens in de gegevensinvoer is niet gewijzigd. De gegevens van de Analytics van de Klant die door de Bronschakelaar van de Analyse worden verstrekt halen automatisch voordeel uit de nieuwe afbeeldingen.
 
 +++**Ik heb gemerkt dat mijn geografische gegevens ergens in januari zijn veranderd.  Waarom?**
 De partner Adobe gebruikt voor IP-aan-geolocatietoewijzing, Digitaal Element, introduceerde een nieuw, preciezer IP-richtend gegevensbestand genoemd de Pulse NetAcuity. Adobe heeft de invoering van deze nieuwe gegevensbank uitgesteld tot januari 2023 om te voorkomen dat er tijdens het wintervakantieseizoen wijzigingen zouden worden aangebracht.

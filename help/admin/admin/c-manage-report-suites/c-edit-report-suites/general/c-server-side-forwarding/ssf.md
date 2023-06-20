@@ -4,9 +4,9 @@ solution: Analytics
 title: Overzicht van server-side doorsturen
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Server-kant het door:sturen verbetert op gegevensinzameling omdat het:
 >De huidige klanten van de Audience Manager die Analytics gebruiken zouden aan server-zijhet door:sturen moeten migreren. De nieuwe klanten van Adobe Analytics en van de Audience Manager zouden server-zijdoor:sturen (in plaats van DIL) als standaardgegevensinzameling en overdrachtmethode moeten uitvoeren.
 
 >[!IMPORTANT]
->Op verzoek van de EU-regelgeving inzake naleving van cookies hebben de voor de verwerking verantwoordelijken (klanten van Analytics) nu de mogelijkheid om gegevens vóór de toestemming te beperken tot Adobe Analytics en te voorkomen dat deze gegevens aan de serverzijde worden doorgestuurd naar Adobe Audience Manager (AAM). Een nieuwe variabele van de implementatiecontext laat u treffers markeren waar de toestemming niet is ontvangen. Als de variabele is ingesteld, worden deze treffers niet naar AAM verzonden totdat de toestemming is ontvangen. Zie voor meer informatie [GDPR_ePrivacy-naleving en server-side doorsturen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
+>Op verzoek van de EU-regelgeving inzake naleving van cookies hebben de voor de verwerking verantwoordelijken (klanten van Analytics) nu de mogelijkheid om gegevens vóór de toestemming te beperken tot Adobe Analytics en te voorkomen dat deze gegevens aan de serverzijde naar Adobe Audience Manager worden doorgestuurd. Een nieuwe variabele van de implementatiecontext laat u treffers markeren waar de toestemming niet is ontvangen. Als de variabele is ingesteld, worden deze treffers niet naar Adobe Audience Manager verzonden totdat de toestemming is ontvangen. Zie voor meer informatie [GDPR_ePrivacy-naleving en server-side doorsturen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Om te begrijpen waar uw organisatie in termen van het uitvoeren van server-kant het door:sturen is, ga door deze bevestigingsstappen:
 
@@ -49,12 +49,12 @@ Controleer op het tabblad &quot;Reactie&quot; of de reactie gegevens van de Audi
 * De **&quot;status&quot;:&quot;SUCCESS&quot;**: u hebt de uitgevoerde Module van het Beheer van de Publiek, maar heeft server niet behoorlijk gevormd door:sturen. Ga door met stap 3.
 * A **2 x 2 afbeelding**: u hebt server-kant het door:sturen niet of de uitgevoerde Module van het Beheer van de Publiek. U kunt dit als volgt corrigeren:
 
-   * **AAM klanten met DIL**: De volgende twee items coördineren in nauwe samenhang:
+   * **Adobe Audience Manager-klanten met DIL**: De volgende twee items coördineren in nauwe samenhang:
 
       1. Verwijder de DIL-code en installeer de [Module voor publieksbeheer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) paginacode.
       1. Schakel het doorsturen aan de serverzijde in de UI Analytics Admin in zoals beschreven in stap 3. Als u deze instelling inschakelt voordat u de DIL-code verwijdert, worden gegevens gedupliceerd en worden aanvullende serveraanroepen met facturering naar de Audience Manager gemaakt.
-   * **Nieuwe AAM** - installeer de [Module voor publieksbeheer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) paginacode en ga verder met stap 3. De gegevens zullen niet naar Audience Manager worden verzonden tot server-kant het door:sturen in stap 3 wordt aangezet.
 
+   * **Nieuwe Adobe Audience Manager-klanten** - installeer de [Module voor publieksbeheer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) paginacode en ga verder met stap 3. De gegevens zullen niet naar Audience Manager worden verzonden tot server-kant het door:sturen in stap 3 wordt aangezet.
 
 ## ![step3_icon.png, afbeelding](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Verifieer server-kant het door:sturen implementatie van rapportreeks
 

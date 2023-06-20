@@ -4,7 +4,7 @@ title: Overzicht van onderdelen
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 3%
@@ -119,7 +119,7 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
    | [!UICONTROL **Favorieten**] | Alleen componenten tonen die zich in de lijst Favorieten bevinden. Voor informatie over het toevoegen van componenten aan uw lijst van favorieten, zie [Overzicht van componenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensies**] | Alleen componenten weergeven die Dimension zijn. |
    | [!UICONTROL **Cijfers**] | Alleen componenten weergeven die Metrisch zijn. |
-   | [!UICONTROL **Segmenten**] | Alleen componenten tonen die Segmenten zijn. <!--this is Filters in CJA--> |
+   | [!UICONTROL **Segmenten**] | Alleen componenten tonen die Segmenten zijn. <!--this is Filters in Customer Jourey Analytics--> |
    | [!UICONTROL **Datumbereiken**] | Alleen componenten tonen die Datumbereik hebben. |
    | [!UICONTROL **Alles tonen**] | Alle componenten tonen. Deze optie is alleen beschikbaar voor beheerders. |
    | [!UICONTROL **Niet goedgekeurd**] | Alleen componenten tonen die nog niet zijn gemarkeerd als goedgekeurd door een beheerder. Als beheerder, is dit nuttig wanneer het identificeren van componenten die uw overzicht en goedkeuring vereisen. Deze optie is alleen beschikbaar voor beheerders. |

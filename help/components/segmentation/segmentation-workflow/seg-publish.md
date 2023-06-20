@@ -3,9 +3,9 @@ description: Hiermee kunt u het segment gebruiken voor marketingactiviteiten in 
 title: Segmenten publiceren naar Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1267'
 ht-degree: 1%
 
 ---
@@ -87,43 +87,43 @@ Als u een segment wilt verwijderen dat naar de Experience Cloud is gepubliceerd,
 
 ## De [!DNL Audience Manager] UUID
 
-Er zijn twee manieren om de AAM UUID vast te leggen die momenteel aan de browser is gekoppeld:
+Er zijn twee manieren om de Adobe Audience Manager UUID vast te leggen die momenteel aan de browser is gekoppeld:
 
 * Adobe Experience Cloud Debugger
 * Native ontwikkelaarsprogramma in browsers (bijv. Chrome Developer Tools)
 
-De volgende schermafbeeldingen tonen u hoe te om AAM UUID op uw browser terug te winnen en het in de Kijker van het Profiel van de Bezoeker van de Audience Manager te gebruiken om spoor en segmentlidmaatschap te bevestigen.
+De volgende schermafbeeldingen tonen u hoe te om Adobe Audience Manager UUID op uw browser terug te winnen en het in de Kijker van het Profiel van de Bezoeker van de Audience Manager te gebruiken om spoor en segmentlidmaatschap te bevestigen.
 
 ### Methode 1: Adobe Experience Cloud Debugger gebruiken
 
 1. Downloaden en installeren [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md) in de Chrome Web Store.
 1. Start de foutopsporing wanneer u een pagina laadt.
-1. Blader naar de sectie Audience Manager en zoek de AAM UUID die op de huidige browserpagina is ingesteld (`50814298273775797762943354787774730612` in het onderstaande voorbeeld)
+1. Blader naar de sectie Audience Manager en zoek de Adobe Audience Manager UUID-set op de huidige browserpagina (`50814298273775797762943354787774730612` in het onderstaande voorbeeld)
 
 ![Debugger](assets/debugger.jpg)
 
 ### Methode 2: Chrome Developer Tools (of andere browsergereedschappen) gebruiken
 
 1. Chrome Developer Tools starten voordat een pagina wordt geladen
-1. Laad de pagina en controleer Toepassingen > Cookies. De AAM UUID moet worden ingesteld in het demdex-cookie van de andere fabrikant ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) in het onderstaande voorbeeld). De velddemdex is de AAM UUID die op de browser is ingesteld (`50814298273775797762943354787774730612` in het onderstaande voorbeeld).
+1. Laad de pagina en controleer Toepassingen > Cookies. De Adobe Audience Manager UUID moet worden ingesteld in het demdex-cookie van de andere fabrikant ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) in het onderstaande voorbeeld). De veldindex is de Adobe Audience Manager UUID die op de browser is ingesteld (`50814298273775797762943354787774730612` in het onderstaande voorbeeld).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
 ## Audience Manager gebruiken [!UICONTROL Visitor Profile Viewer]
 
-De AAM-UUID in de browser wordt standaard gebruikt wanneer [!UICONTROL Visitor Profile Viewer] is geladen. Als u de resultaten voor andere gebruikers verifieert, voert u een UUID in het veld UUID in en klikt u op [!UICONTROL Refresh]. Zie [Bezoekerprofiel Viewer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html) voor meer informatie .
+De Adobe Audience Manager UUID in de browser wordt standaard gebruikt wanneer [!UICONTROL Visitor Profile Viewer] is geladen. Als u de resultaten voor andere gebruikers verifieert, voert u een UUID in het veld UUID in en klikt u op [!UICONTROL Refresh]. Zie [Bezoekerprofiel Viewer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html) voor meer informatie .
 
 ![Audience Manager Profile Viewer](assets/aam-vpv.png)
 
 ## De segmentkenmerken weergeven in [!DNL Audience Manager]
 
-AAM wordt de lijst met bezoekers met ECID&#39;s voor een bepaald segment op streamingwijze geëvalueerd, aangezien Analytics segmenten met Experience Cloud deelt.
+In Adobe Audience Manager wordt de lijst met bezoekers met ECID&#39;s voor een bepaald segment op streamingwijze geëvalueerd, aangezien Analytics segmenten met Experience Cloud deelt.
 
 1. In [!DNL Audience Manager], ga naar [!UICONTROL Audience Data > Traits > Analytics Traits]. Er wordt een map weergegeven voor elke serie Analytics-rapporten die is toegewezen aan uw Experience Cloud-organisatie. Deze mappen (voor Traits, Segmenten en Gegevensbronnen) worden gemaakt wanneer de kernservice Profielen en Soorten publiek/Personen wordt gestart of ingericht.
 1. Selecteer de map voor de rapportsuite waarin u eerder het segment hebt gemaakt waarmee u wilt delen [!DNL Audience Manager]. U zult het segment/het publiek zien u creeerde. Wanneer u een segment deelt, gebeuren er 2 dingen in [!DNL Audience Manager]:
    * Er wordt een doel gemaakt, eerst zonder gegevens erin. Ongeveer. 8 uur nadat het segment is gepubliceerd in [!DNL Analytics], wordt de lijst met ECID&#39;s genegeerd en gedeeld met [!DNL Audience Manager] en andere Experience Cloud-oplossingen.
 
-      ![Bevoegdheidsbeheerkenmerken](assets/aam-traits.png)
+     ![Bevoegdheidsbeheerkenmerken](assets/aam-traits.png)
 
    * Er wordt een segment met één doel gemaakt. Het gebruikt de gegevensbron die met de rapportreeks wordt geassocieerd waar u het segment publiceerde.
    * De vervaldatum van de reis is nu ingesteld op 16 dagen (voorheen 2 dagen).

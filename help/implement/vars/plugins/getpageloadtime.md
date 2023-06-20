@@ -3,9 +3,9 @@ title: getPageLoadTime
 description: Houd bij hoeveel tijd een pagina nodig heeft om te laden.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Als u niet de Gemeenschappelijke Insteekmodule van Analytics wilt gebruiken, kun
 1. Open de aangepaste code-editor en plak de onderstaande plug-incode in het bewerkingsvenster.
 1. Sla de wijzigingen in de extensie Analytics op en publiceer deze.
 
-## Installeer de plug-in met AppMeasurement
+## Plug-in installeren met AppMeasurement
 
-Kopieer en plak de volgende code ergens in het AppMeasurement-bestand nadat het analytics tracking-object is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
+Kopieer en plak de volgende code ergens in het bestand AppMeasurement nadat het object Analytics tracking is geïnstantieerd (met [`s_gi`](../functions/s-gi.md)). Door opmerkingen en versienummers van de code in uw implementatie te behouden, kunt u Adobe doen met het oplossen van mogelijke problemen.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -96,7 +96,7 @@ if(window._pltPreviousPage)
 
 ### 3.0 (6 december 2022)
 
-* Volledige herschrijving van de plug-in om deze oplossing-agnostisch te maken.  Dit is nu bijvoorbeeld compatibel met de AEP Web SDK
+* Volledige herschrijving van de plug-in om deze oplossing-agnostisch te maken.  Dit is nu bijvoorbeeld compatibel met de SDK van Adobe Experience Platform Web
 * Hiermee maakt u de `_pltPreviousPage` en `_pltLoadTime` variabelen in het vensterobject (in plaats van in het object AppMeasurement)
 * Hiermee wordt de noodzaak van het s_pltp-cookie verwijderd. Alles wordt nu alleen in het s_plt-cookie opgeslagen
 * Omvat de functie getVersion om met het oplossen van problemen te helpen

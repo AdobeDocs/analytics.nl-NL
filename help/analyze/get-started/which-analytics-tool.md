@@ -3,9 +3,9 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe A
 title: Welke Adobe Analytics-tool moet ik gebruiken?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1158'
 ht-degree: 2%
 
 ---
@@ -80,7 +80,7 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** dienen te worden gebruikt:
 
-* Als u gegevens over het Adobe Audience Manager-publiek (AAM), zoals demografische informatie (bv. geslacht of inkomensniveau), psychografische informatie (bv. interesses en hobby&#39;s), CRM-gegevens of impliciete gegevens in een analyseworkflow wilt opnemen.
+* Als u gegevens over het Adobe Audience Manager-publiek, zoals demografische informatie (bv. geslacht of inkomensniveau), psychografische informatie (bv. interesses en hobby&#39;s), CRM-gegevens of impliciete gegevens in een analyseworkflow wilt opnemen.
 * Als u de geüploade CRM-gegevens op tijd wilt baseren, omdat deze integratie nieuwe informatie stuurt naar Analytics die door een hit zijn getroffen.
 
 ## Gegevens exporteren uit Adobe Analytics {#export}

@@ -3,9 +3,9 @@ description: Meer informatie over het migreren van verwerkingsregels voor mobiel
 title: De verwerkingsregels voor mobiele services migreren naar Adobe Analytics
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -77,4 +77,4 @@ Als u mobiele services gebruikt voor betaalde functionaliteit, hebt u geen leven
 
 * Voor de Verbindingen van de Aankoop, kunnen wij u aan de Partners van Adobe richten om aan uw behoefte te voldoen.
 * Push Messaging en In-app Messaging zijn beschikbaar in Adobe Campaign Standard en Adobe Campaign Classic (alleen Push). De onderliggende gegevensset die voor het bepalen van de focus wordt gebruikt, is echter anders. We raden u aan om samen met uw Adobe-accountteam migratieopties voor berichtengegevens te bepalen.
-* Voor de functie Locatie wordt u aangeraden het nieuwe [Adobe Experience Platform-locatieservice](https://www.adobe.com/experience-platform/location-service.html), die voor alle AEP-klanten gratis is.
+* Voor de functie Locatie wordt u aangeraden het nieuwe [Adobe Experience Platform-locatieservice](https://www.adobe.com/experience-platform/location-service.html), dat gratis is voor alle Adobe Experience Platform-klanten.

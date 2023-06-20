@@ -4,9 +4,9 @@ title: Adobe Analytics-landingspagina
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '3805'
+source-wordcount: '3807'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De landingspagina van Adobe Analytics bevat beide [!DNL Analysis Workspace] en [
 | Nieuwe koppelingen naar **[!UICONTROL Reports & Analytics]** rapporten | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bot Pages]**<li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**</li></ul> | ![Nieuwe koppelingen](assets/report-links.png) |
 | Nieuwe out-of-the-box rapporten | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Next page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Previous page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Page analysis]** > **[!UICONTROL Page summary]**</li></ul>Deze rapporten zijn opgenomen in [!UICONTROL Workspace] formatteren en vereisen configuratie en bouwstijl. De uitvoer bestaat uit een deelvenster met meetgegevens op hoog niveau, trendgegevens, [!UICONTROL Flow] visualisatie en nog veel meer. U kunt deze rapporten wijzigen en dimensies, dimensie-items, enz. wijzigen. Deze rapporten zijn ook beschikbaar als deelvensters onder Workspace-deelvensters. | ![Volgende pagina](assets/next-page.png) |
 | **[!UICONTROL Create Project]** modal is back | Wanneer u op **[!UICONTROL Create Project]** in Workspace hebt u opnieuw de keuze tussen een [!UICONTROL Blank project] en [!UICONTROL Blank mobile scorecard]. U kunt ook kiezen uit sjablonen die uw bedrijf heeft gemaakt. | ![Nieuw maken](assets/create-new.png) |
-| Ook beschikbaar in Customer Journey Analytics | Deze openingspagina, in een gewijzigde vorm, is ook beschikbaar in CJA. |  |
+| Ook beschikbaar in Customer Journey Analytics | Deze landingspagina, in een gewijzigde vorm, is ook beschikbaar in Customer Jourey Analytics. |  |
 
 {style="table-layout:auto"}
 

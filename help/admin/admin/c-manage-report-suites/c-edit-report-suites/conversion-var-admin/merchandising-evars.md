@@ -3,9 +3,9 @@ title: Merchandising Vars en productzoekmethoden
 description: Een diepe duik in de concepten achter het verhandelen van eVars en hoe zij gegevens verwerken en toewijzen.
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '5258'
+source-wordcount: '5266'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Hier ziet u een voorbeeld waarin een bezoeker besluit om de interne trefwoordzoe
 * `eVar2` is gelijk aan het trefwoord dat is gebruikt in de zoekopdracht (&quot;sandalen&quot;)
 * `eVar1` is gelijk aan de gebruikte productzoekmethode (&quot;intern trefwoordzoekopdracht&quot;).
 
-Wanneer u deze twee variabelen gelijk instelt aan deze specifieke waarden, weet u dat de bezoeker de interne zoekterm voor trefwoorden &quot;sandalen&quot; gebruikt om een product te zoeken. Tegelijkertijd weet u dat de bezoeker de andere productzoekmethoden niet gebruikt om producten te zoeken (de bezoeker bladert bijvoorbeeld niet door productcategorieën op het moment dat ze een trefwoordzoekopdracht uitvoeren). Om ervoor te zorgen dat een correcte toewijzing per product plaatsvindt, zouden deze ongebruikte methodes geen krediet moeten krijgen voor het vinden van een product dat door een interne sleutelwoordonderzoek werd gevonden. Vandaar, moet u logica in de code (zoals AppMeasurement, het Web SDK van AEP, etc.) opnemen die automatisch eVars verbonden aan deze andere het vinden methodes aan een &quot;het niet vinden methode&quot;waarde plaatst.
+Wanneer u deze twee variabelen gelijk instelt aan deze specifieke waarden, weet u dat de bezoeker de interne zoekterm voor trefwoorden &quot;sandalen&quot; gebruikt om een product te zoeken. Tegelijkertijd weet u dat de bezoeker de andere productzoekmethoden niet gebruikt om producten te zoeken (de bezoeker bladert bijvoorbeeld niet door productcategorieën op het moment dat ze een trefwoordzoekopdracht uitvoeren). Om ervoor te zorgen dat een correcte toewijzing per product plaatsvindt, zouden deze ongebruikte methodes geen krediet moeten krijgen voor het vinden van een product dat door een interne sleutelwoordonderzoek werd gevonden. Vandaar, moet u logica in de code (zoals AppMeasurement, het Web SDK van Adobe Experience Platform, etc.) opnemen die automatisch eVars verbonden aan deze andere het vinden methodes gelijk aan een waarde &quot;het niet vinden methode&quot;plaatst.
 
 Wanneer een gebruiker bijvoorbeeld naar producten zoekt die het trefwoord &quot;sandalen&quot; gebruiken, moet de logica van de Analytics-code de variabelen op de interne pagina met zoekresultaten voor trefwoorden als volgt instellen:
 
@@ -80,7 +80,7 @@ Wanneer de instelling &#39;Enable Merchandising&#39; is ingesteld op &#39;Enable
 
 Deze optie is niet beschikbaar voor standaard eVars. De [!UICONTROL Merchandising] met deze instelling kunt u kiezen [!UICONTROL Conversion Variable Syntax] of [!UICONTROL Product Syntax] als de methode voor het vastleggen van de waarde van de eVar.
 
-**[!UICONTROL Conversion Variable Syntax]** betekent dat u de waarde van de eVar in een eigen variabele instelt. Met de syntaxis van omzetvariabele kunt u bijvoorbeeld de opdracht `eVar1` De waarde van &quot;intern sleutelwoordonderzoek&quot;wordt geplaatst als volgt binnen de paginacode (of de code AppMeasurement, de code van SDK van het Web AEP, etc.):
+**[!UICONTROL Conversion Variable Syntax]** betekent dat u de waarde van de eVar in een eigen variabele instelt. Met de syntaxis van omzetvariabele kunt u bijvoorbeeld de opdracht `eVar1` De waarde van &quot;intern sleutelwoordonderzoek&quot;wordt geplaatst als volgt binnen de paginacode (of de code van het AppMeasurement, de code van SDK van het Web van Adobe Experience Platform, etc.):
 
 `s.eVar1="internal keyword search";`
 
@@ -271,11 +271,11 @@ Als de bezoeker een product aan het winkelwagentje toevoegt maar het nooit koopt
 
 ### Conversievariabele-syntaxis gebruiken
 
-Laten we terugkeren naar de &quot;productsyntaxis&quot; vs. Vraag met de naam &quot;Conversion Variable Syntax&quot;. Adobe heeft een gemakkelijkere methode ontdekt voor zowel het verzamelen van de productbepalingsmethode die eVars verkoopt als het binden van hun waarden aan producten die bezoekers hebben gevonden: Het gebruik van de Syntaxis van de Variabele van de Omzetting vermindert het implementatiewerk dat de ontwikkelaars van de cliënt voor verantwoordelijk zijn. Het biedt nog steeds dezelfde - of betere - informatie dan de methode van de Syntaxis van het Product. De ontwikkelaars moeten eenvoudig de plaatsingsinstructies volgen die zij werden gegeven, en de rest code kan in het dossier van SDK van het Web Adobe AppMeasurement/AEP worden geplaatst.
+Laten we terugkeren naar de &quot;productsyntaxis&quot; vs. Vraag met de naam &quot;Conversion Variable Syntax&quot;. Adobe heeft een gemakkelijkere methode ontdekt voor zowel het verzamelen van de productbepalingsmethode die eVars verkoopt als het binden van hun waarden aan producten die bezoekers hebben gevonden: Het gebruik van de Syntaxis van de Variabele van de Omzetting vermindert het implementatiewerk dat de ontwikkelaars van de cliënt voor verantwoordelijk zijn. Het biedt nog steeds dezelfde - of betere - informatie dan de methode van de Syntaxis van het Product. De ontwikkelaars moeten eenvoudig de plaatsingsinstructies volgen die zij werden gegeven, en de rest code kan in het dossier van SDK van het Web Adobe AppMeasurement/Adobe Experience Platform worden geplaatst.
 
 Kijk bijvoorbeeld naar de aanbevolen oplossing voor het bijhouden van de interne zoekprestaties voor trefwoorden. Er wordt aangegeven dat op de pagina met zoekresultaten met trefwoorden het trefwoord waarnaar wordt gezocht met een proxy (bijvoorbeeld prop4) en een andere proxy (bijvoorbeeld prop5) door de code wordt vastgelegd. Deze profielen volgen het aantal resultaten die van het onderzoek worden getoond. Telkens wanneer een Adobe Analytics-verzoek om een afbeelding wordt gegenereerd op de pagina met zoekresultaten, werd gebruikgemaakt van de gegevenslaagobjecten (of paginacode) die door de ontwikkelaars zijn geïmplementeerd om de bovenstaande variabelen (de props) in te vullen.
 
-De extra logica in het dossier van SDK van het Web AppMeasurement/AEP kan de rest variabelen (de handelaars eVars/afmetingen) invullen die tezelfdertijd moeten worden geplaatst.\
+De extra logica in het AppMeasurement/Adobe Experience Platform dossier van SDK van het Web kan de rest variabelen (de koophandel eVars/afmetingen) invullen die tezelfdertijd moeten worden geplaatst.\
 Als een nieuwe bezoeker bijvoorbeeld een trefwoordzoekopdracht zou uitvoeren naar &quot;sandalen&quot;, die 25 resultaten heeft opgeleverd op de pagina met zoekresultaten, zou de af te vuren code (via de paginacode OF gegevenslaagvastlegging) er als volgt uitzien:
 
 ```js
@@ -283,7 +283,7 @@ s.prop4="sandals";
 s.prop5="25";
 ```
 
-De logica in het SDK-bestand AppMeturement/Analytics kan dit codefragment dan automatisch omzetten in het volgende:
+Logica in het SDK-bestand AppMeasurement/Analytics kan dit codefragment dan automatisch omzetten in het volgende:
 
 ```js
 s.prop4="sandals";

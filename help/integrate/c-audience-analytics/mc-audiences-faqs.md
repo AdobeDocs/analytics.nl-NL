@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Veelgestelde vragen voor Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,13 @@ Antwoorden op vragen die u zou kunnen hebben wanneer het uitvoeren van Audience 
  </tbody> 
 </table>
 
-## AAM-specifieke veelgestelde vragen {#section_6BDF746BA6464359A6A89A64EB025D12}
+## Adobe Audience Manager-specifieke veelgestelde vragen {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>V: Hoe creeer ik een bestemming van Analytics in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> Zie <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Een analysedoel configureren in AAM </a>. </td> 
+   <td colname="col2"> Zie <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Een analysedoel configureren in Adobe Audience Manager </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Hoe lang duurt het nadat u een analysedoel hebt gemaakt en opgeslagen, totdat er gegevens in mijn geselecteerde rapportsuite worden weergegeven?</b> </p> </td> 
@@ -58,7 +58,7 @@ Antwoorden op vragen die u zou kunnen hebben wanneer het uitvoeren van Audience 
    <td colname="col2"> <p>Een bestemming Analytics verdwijnt uit de sectie van de Toewijzingen van de Bestemming van een segment wanneer u selecteert <span class="uicontrol"> Automatisch alle huidige en toekomstige segmenten toewijzen </span> optie in <span class="uicontrol"> Segmenttoewijzingen </span>. </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>Selecteer <span class="uicontrol"> Segmenten handmatig toewijzen </span> in plaats van de automatische optie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>V: Zal ik hiermee alle informatie van AAM, in Analytics, krijgen?</b> </p> </td> 
+   <td colname="col1"> <p> <b>V: Zal ik hier alle informatie van Adobe Audience Manager, in Analytics krijgen?</b> </p> </td> 
    <td colname="col2"> <p>Nr, slechts gegevens met betrekking tot mensen die aan uw plaats tijdens of na het inschakelen van het Publiek van de Audience Manager en tijdens/na segmentkwalificatie komen. </p> </td> 
   </tr> 
   <tr> 
@@ -90,27 +90,27 @@ Antwoorden op vragen die u zou kunnen hebben wanneer het uitvoeren van Audience 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Waarom zie ik geen gegevens die in Analytics komen?</b> </p> </td> 
-   <td colname="col2"> <p>U hebt waarschijnlijk conflicterende AAM privacybesturingselementen tussen gegevensbron en doel. </p> </td> 
+   <td colname="col2"> <p>U hebt waarschijnlijk conflicterende Adobe Audience Manager-privacybesturingselementen tussen gegevensbron en doel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Waarom ontbreken sommige van mijn segmenten in Analytics, alhoewel ik verkoos om alle segmenten te verzenden?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">De besturingselementen voor het exporteren van AAM gegevens op de bestemming en in de gegevensbronnen van de segmenten kunnen tegenstrijdig zijn, waardoor bepaalde segmenten niet kunnen worden verzonden. </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">Uw Adobe Audience Manager-besturingselementen voor gegevensuitvoer op de bestemming en in de gegevensbronnen van de segmenten zijn mogelijk tegenstrijdig, waardoor bepaalde segmenten niet kunnen worden verzonden. </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">Als u de eigenschappen van derdegegevens in uw segmenten gebruikt, kunnen die segmenten niet aan bestemmingen (een reeks rapportreeksen) worden gedeeld die persoonlijke gegevens bevatten. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Waarom zie ik "Audience limit Rebage" in mijn Analytics-rapport? (Opmerking: dit wordt ook vertegenwoordigd als Publiek ID = -1 en "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
-   <td colname="col2"> <p>Door gebrek, verzendt de integratie van de Audience Analytics voor AAM alle segmenten die een bezoeker voor, op een per-raakbasis, aan Analytics kwalificeert. Als een bezoeker bij één enkele hit tot meer dan 150 AAM segmenten behoort, <b>150 meest recente gekwalificeerde segmenten</b> worden verzonden naar Analytics, terwijl de resterende lijst wordt afgekapt. </p> <p>Een extra vlag wordt verzonden naar Analytics die erop wijst dat de segmentlijst werd beknot, en vertoningen zoals "de grens van het publiek bereikte"in de dimensie van de Naam van het Publiek en "-1"in de dimensie van identiteitskaart van het Publiek. </p> <p>Hoewel het onwaarschijnlijk is dat een bezoeker bij een bepaald resultaat voor meer dan 150 segmenten in aanmerking komt, kan dit een klein percentage van de tijd zijn. Als de Audience Limit (Doellimiet van publiek bereikt) in uw rapportage voorkomt, hebt u twee opties: </p> 
+   <td colname="col2"> <p>Door gebrek, verzendt de integratie van Audience Analytics voor Adobe Audience Manager alle segmenten die een bezoeker voor, op een per-raakbasis, aan Analytics kwalificeert. Als een bezoeker tot meer dan 150 segmenten van Adobe Audience Manager op één hit behoort, <b>150 meest recente gekwalificeerde segmenten</b> worden verzonden naar Analytics, terwijl de resterende lijst wordt afgekapt. </p> <p>Een extra vlag wordt verzonden naar Analytics die erop wijst dat de segmentlijst werd beknot, en vertoningen zoals "de grens van het publiek bereikte"in de dimensie van de Naam van het Publiek en "-1"in de dimensie van identiteitskaart van het Publiek. </p> <p>Hoewel het onwaarschijnlijk is dat een bezoeker bij een bepaald resultaat voor meer dan 150 segmenten in aanmerking komt, kan dit een klein percentage van de tijd zijn. Als de Audience Limit (Doellimiet van publiek bereikt) in uw rapportage voorkomt, hebt u twee opties: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Optie 1</b>: Blijf de integratie laten werken in zijn uit-van-de-doos staat, die de 150 onlangs gekwalificeerde segmenten voor een bepaalde bezoeker verzendt. </li> 
-     <li id="li_CA4D5747AA4A4452929097807B604959"><b>Optie 2</b>: In AAM, kies de 150 segmenten die het belangrijkst aan uw zaken voor de integratie zijn. AAM controleert bezoekers dan alleen op die 150 segmenten. Het nadeel van deze benadering is dat u slechts die 150 segmenten over alle bezoekers ontvangt. Anderzijds kan de Optie 1-benadering onbeperkte segmenten bieden vanwege het per-raaktype van de integratie. </li> 
+     <li id="li_CA4D5747AA4A4452929097807B604959"><b>Optie 2</b>: Kies in Adobe Audience Manager de 150 segmenten die het belangrijkst zijn voor uw bedrijf voor de integratie. Adobe Audience Manager controleert vervolgens alleen bezoekers op die 150 segmenten. Het nadeel van deze benadering is dat u slechts die 150 segmenten over alle bezoekers ontvangt. Anderzijds kan de Optie 1-benadering onbeperkte segmenten bieden vanwege het per-raaktype van de integratie. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Zullen extra servervraag aan Analytics voor deze integratie in rekening worden gebracht?</b> </p> </td> 
-   <td colname="col2"> <p>Nee. AAM publiek wordt opgenomen in de slaan op de server van Analytics. Dit veroorzaakt geen extra servervraag aan (primaire of secundaire) Analytics. </p> </td> 
+   <td colname="col2"> <p>Nee. Adobe Audience Manager-soorten publiek worden opgenomen in de detectieserver van Analytics. Dit veroorzaakt geen extra servervraag aan (primaire of secundaire) Analytics. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Antwoorden op vragen die u zou kunnen hebben wanneer het uitvoeren van Audience 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>V: Als ik oudere SSF heb uitgevoerd, moet ik ook naar Analytics Admin gaan en rapportsuite SSF inschakelen?</b> </p> </td> 
-   <td colname="col2"> <p>Ja. In de AAM bestemmingsopstelling, zult u slechts rapportsuites zien die SSF hebben aangezet. </p> </td> 
+   <td colname="col2"> <p>Ja. In de de bestemmingsopstelling van Adobe Audience Manager, zult u slechts rapportsuites zien die SSF hebben aangezet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Waarom kan ik niet bepaalde rapportsuites voor SSF in Analytics Admin aanzetten?</b> </p> </td> 
@@ -141,12 +141,12 @@ Voor meer veelgestelde vragen over dit onderwerp raadpleegt u [Veelgestelde vrag
    <td colname="col2"> <p>Zie <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Verschillen in aantal bezoekers </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>V: Wat is het verschil tussen "publiek" in AAM en "segmenten" in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Zie <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Segmenten begrijpen in Analytics en Audience Manager </a>. </p> <p>AAM publiek wordt verzonden over en gedeeld als "dimensie"componenten die in Analytics moeten worden gebruikt. Zij zullen niet verschijnen als segmenten in de Bouwer van het Segment, bijvoorbeeld, maar als afmetingen die u segmenten kunt bouwen met. </p> </td> 
+   <td colname="col1"> <p><b>V: Wat is het verschil tussen "publiek" in Adobe Audience Manager en "segmenten" in Analytics?</b> </p> </td> 
+   <td colname="col2"> <p>Zie <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Segmenten begrijpen in Analytics en Audience Manager </a>. </p> <p>Het Adobe Audience Manager-publiek wordt verzonden en gedeeld als 'dimensie'-componenten die in Analytics moeten worden gebruikt. Zij zullen niet verschijnen als segmenten in de Bouwer van het Segment, bijvoorbeeld, maar als afmetingen die u segmenten kunt bouwen met. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>V: Wat is het verschil tussen de Attributen van de Klant en klantengegevens die van AAM worden geïntegreerd?</b> </p> </td> 
-   <td colname="col2"> <p>Klantkenmerken zijn niet gebaseerd op tijd; zij zijn met terugwerkende kracht van toepassing en gaan verder. AAM geïntegreerde gegevens zijn uitsluitend gebaseerd op tijd en gaan vooruit. Bovendien, is de Attributen van de Klant een raadplegingstabel voor Experience Cloud bezoeker IDs, terwijl de AAM integratie gegevens is die in elke slag voor een bezoeker worden vastgemaakt. </p> </td> 
+   <td colname="col1"> <p><b>V: Wat is het verschil tussen de Attributen van de Klant en klantengegevens die van Adobe Audience Manager worden geïntegreerd?</b> </p> </td> 
+   <td colname="col2"> <p>Klantkenmerken zijn niet gebaseerd op tijd; zij zijn met terugwerkende kracht van toepassing en gaan verder. Geïntegreerde Adobe Audience Manager-gegevens zijn alleen op tijd gebaseerd en gaan door. Bovendien is de Attributen van de Klant een raadplegingstabel voor Experience Cloud bezoeker IDs, terwijl de integratie van Adobe Audience Manager gegevens is die in elke slag voor een bezoeker worden vastgemaakt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>V: Hoe zit het met de oude aanpak van dit probleem, bijvoorbeeld de oude bèta- of Consulting-plug-in cookie-bestemmingen?</b> </p> </td> 

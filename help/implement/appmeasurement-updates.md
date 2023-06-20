@@ -3,9 +3,9 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2319'
 ht-degree: 2%
 
 ---
@@ -16,13 +16,13 @@ Cumulatieve opmerkingen voor [!DNL AppMeasurement] voor JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-U kunt de meest recente versie van AppMeasurement downloaden in de [Codebeheer](/help/admin/admin/code-manager-admin.md).
+U kunt de nieuwste versie van het AppMeasurement downloaden in het dialoogvenster [Codebeheer](/help/admin/admin/code-manager-admin.md).
 
 ## Versie 2.23.0
 
 Releasedatum: **23 september 2022**
 
-* AppMeasurement ondersteunt nu de verzameling van clienttips voor gebruikers-agent met hoge entropie die Chromium browsers (Google Chrome en Microsoft Edge) gebruiken om apparaatinformatie te verschaffen. U kunt cliëntwenken via Markeringen vormen of de &quot;collectHighEntropyUserAgentHints&quot;vlag gebruiken. Verzameling van hips met hoge entropie is standaard uitgeschakeld. Meer informatie over gebruikersagent [clienttips](/help/technotes/client-hints.md).
+* AppMeasurement ondersteunt nu de verzameling van clienttips voor gebruikers/agents met hoge entropie die Chromium browsers (Google Chrome en Microsoft Edge) gebruiken om apparaatinformatie te verschaffen. U kunt cliëntwenken via Markeringen vormen of de &quot;collectHighEntropyUserAgentHints&quot;vlag gebruiken. Verzameling van hips met hoge entropie is standaard uitgeschakeld. Meer informatie over gebruikersagent [clienttips](/help/technotes/client-hints.md).
 
 ## Versie 2.2.4
 
@@ -76,7 +76,7 @@ Releasedatum: **21 februari 2020**
 
 Releasedatum: **13 februari 2020**
 
-* AppMeasurement kan cookies nu dwingen het kenmerk Secure op te nemen door het instellen van de optie [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variabele. De vereiste voor deze variabele is dat de gehele clientwebsite veilig wordt aangeboden (HTTPS). (AN-204604)
+* AppMeasurement kan cookies nu dwingen het kenmerk Secure op te nemen door het instellen van de [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variabele. De vereiste voor deze variabele is dat de gehele clientwebsite veilig wordt aangeboden (HTTPS). (AN-204604)
 
 ## Versie 2.17.0
 
@@ -93,7 +93,7 @@ Releasedatum: **15 augustus 2019**
 * ECID/fid-waarden worden nu in de cache geplaatst bij de eerste hit, ook al veranderen de instellingen voor OptIn. (AN-175142)
 * Bijgewerkte Module van het Beheer van het Publiek aan DIL 9.3. (AN-182704)
 * Uitgeschakelde switch in `s.ActivityMap.trackScrollReach` om het bereiken van het schuifbereik in of uit te schakelen. (AN-182754)
-* Bijgewerkte AppMeasurement om de Dienst van bezoeker ID 4.4.0 te gebruiken. (AN-182912)
+* Bijgewerkt AppMeasurement voor gebruik van Bezoeker ID Service 4.4.0. (AN-182912)
 
 ## Versie 2.15.0
 
@@ -107,7 +107,7 @@ Releasedatum: **15 juli 2019**
 Releasedatum: **21 mei 2019**
 
 * Oplossing voor problemen met het beheer van de status van tracker-parameters wanneer meerdere hits in behandeling zijn. (AN-176931, AN-176629, DTM-12758)
-* Bijgewerkte AppMeasurement om Visitor.js 4.3.0 (AN-180049) te omvatten
+* Bijgewerkt AppMeasurement om Visitor.js 4.3.0 (AN-180049) op te nemen
 
 ## Versie 2.13.0
 
@@ -121,13 +121,13 @@ Releasedatum: **22 februari 2019**
 
 * Bijgewerkte module van het Beheer van de Publiek aan DIL 9.1. (AN-175255)
 * GTM-beveiligingsbeleid staat geen Activity Map-module toe. (AN-174679)
-* Verbeterde AppMeasurement om opt-out na te leven wanneer de Identiteitsdienst niet in opt-in wordt goedgekeurd. (AN-175259)
+* Verbeterd AppMeasurement om de opt-out te respecteren wanneer de Identity Service niet is goedgekeurd in opt-in. (AN-175259)
 
 ## Versie 2.11.0
 
 Releasedatum: **11 februari 2019**
 
-* Toegevoegde ondersteuning voor de nieuwe functionaliteit voor Adobe Opt-in-services in AppMeasurement. (AN-163546)
+* Extra ondersteuning voor de nieuwe Adobe Opt-in-servicefunctionaliteit in AppMeasurement. (AN-163546)
 * Toegevoegde ondersteuning voor het opslaan van gegevens voor het bijhouden van koppelingen in sessieopslag. (AN-162272)
 * Toegevoegde ondersteuning voor het type mediastream voor audioanalyse. (AN-173265)
 
@@ -274,7 +274,7 @@ Bijgewerkt: **4 augustus 2016**
 
 >[!IMPORTANT]
 >
->Versie 1.6.0 van het [!DNL Experience Cloud] ID-service *vereist* [!DNL AppMeasurement] for [!DNL JavaScript] versie 1.6.3 of hoger. Als u wilt bijwerken naar versie 1.6.0 van de service Experience Cloud-id, moet u AppMeasurement 1.6.3 of hoger gebruiken.
+>Versie 1.6.0 van het [!DNL Experience Cloud] ID-service *vereist* [!DNL AppMeasurement] for [!DNL JavaScript] versie 1.6.3 of hoger. Als u aan versie 1.6.0 van de dienst van identiteitskaart van de Experience Cloud wilt bevorderen, zorg ervoor dat u AppMeasurement 1.6.3 of hoger gebruikt.
 
 ## Versie 1.6.2
 
@@ -324,7 +324,7 @@ Releasedatum: **5 november 2015**
 Releasedatum: **17 september 2015**
 
 * Opname van de Bezoeker-API 1.5.2
-* Bijgewerkt [!DNL Audience Manager] om AAM DIL 6.2 te gebruiken - getCustomer IDs van VisitorAPI.js en hen in /event vraag tot AAM over te gaan. (AN-104978)
+* Bijgewerkt [!DNL Audience Manager] om Adobe Audience Manager DIL 6.2 te gebruiken - getCustomer IDs van VisitorAPI.js en hen in /event vraag door te geven aan Adobe Audience Manager. (AN-104978)
 
 ## Versie 1.5
 
@@ -376,24 +376,24 @@ Releasedatum: **18 september 2014**
 
 * Toegevoegde `tagContainerMarker` een variabele waarmee de implementatie maximaal 4 tekens kan opgeven die samen met een extra scheidingsteken voor streepjestekens aan de versietekenreeks worden toegevoegd. Dit wordt gebruikt door dynamisch tagbeheer.
 
-   ```js
-   // JavaScript
-   s.tagContainerMarker = "D1.0";
-   
-   // Data Collection request
-   //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
-   ```
+  ```js
+  // JavaScript
+  s.tagContainerMarker = "D1.0";
+  
+  // Data Collection request
+  //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
+  ```
 
-   De 4 tekens zijn beperkt tot tekens die zijn toegestaan in URL-bestandspaden, zoals alfanumeriek en punt.
+  De 4 tekens zijn beperkt tot tekens die zijn toegestaan in URL-bestandspaden, zoals alfanumeriek en punt.
 
 * Op pagina&#39;s met twee labels en H-code heeft u een lus gecorrigeerd die kan optreden tijdens het automatisch bijhouden van koppelingen (downloaden en afsluiten) waarbij geforceerde koppelingen moeten worden bijgehouden (standaard in Webkit-browsers). Daarnaast is er een algemene beveiliging toegevoegd rondom het automatisch bijhouden van koppelingen om vergelijkbare lusbewerkingen te voorkomen. Met deze beveiliging wordt het automatisch bijhouden van koppelingen voor herhaalde klikken beperkt tot de *zelfde* om de 10 seconden. Deze beveiliging is alleen van toepassing op het automatisch bijhouden van koppelingen, zodat oproepen voor het handmatig bijhouden van koppelingen (s.tl) niet beperkt zijn. Klikken op verschillende objecten worden ook niet beïnvloed door deze beveiliging en worden bijgehouden.
 * Correctie van afhandeling van geklikt object wanneer een vertraging nodig is.
 * Probleem verholpen waarbij een aantal pagina&#39;s werd geteld wanneer s.t werd aangeroepen vanuit een functie klikkoppeling als de bezoeker-API nog niet de vereiste waarden heeft.
 * Ondersteuning voor HTTP-POST.
 
-   >[!IMPORTANT]
-   >
-   >Voor een [!DNL Analytics] aanroep om de methode POST te gebruiken in plaats van de methode GET in [!DNL AppMeasurement] (een oplosmethode [afgekapte URL&#39;s in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor de Experience Cloud gebruiken.
+  >[!IMPORTANT]
+  >
+  >Voor een [!DNL Analytics] aanroep om de methode POST te gebruiken in plaats van de methode GET in [!DNL AppMeasurement] (een oplosmethode [afgekapte URL&#39;s in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor de Experience Cloud gebruiken.
 
 ## Versie 1.4
 
@@ -482,11 +482,11 @@ Releasedatum: **18 juli 2013**
 
 * De hash/het fragment wordt nu genegeerd door de koppeling automatisch te volgen. Eerder werd automatisch de volgende URL bijgehouden sinds de gehele URL `href` beëindigd in `.pdf`:
 
-   ```js
-   <a href="index.htm#anchor.pdf">Test Link</a>
-   ```
+  ```js
+  <a href="index.htm#anchor.pdf">Test Link</a>
+  ```
 
-   De hash/het fragment wordt nu genegeerd, zodat de koppeling alleen wordt bijgehouden wanneer de bestandsnaam eindigt in een extensie die overeenkomt met de bestandsnaam.
+  De hash/het fragment wordt nu genegeerd, zodat de koppeling alleen wordt bijgehouden wanneer de bestandsnaam eindigt in een extensie die overeenkomt met de bestandsnaam.
 
 ## Versie 1.0.1
 

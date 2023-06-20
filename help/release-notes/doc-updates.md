@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '4416'
+source-wordcount: '4420'
 ht-degree: 28%
 
 ---
@@ -27,7 +27,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | --- | --- |
 | **Juni 2023** | |
 | Variabele van nieuw AppMeasurement | De variabele `doubleEncodeLinkParameters` past randgevallen aan waarin implementaties multi-byte karakters in verbinding het volgen variabelen coderen. [Meer informatie](../implement/vars/config-vars/doubleencodelinkparameters.md) |
-| Nieuwe functies voor classificatiesets | [Classificatiesets](/help/components/classifications/sets/overview.md) zijn bijgewerkt met verschillende nieuwe functies:<ul><li>**Consolidaties**: Combineer classificatiesets tot één enkel geconsolideerd classificatieset. Het geconsolideerde classificatieset kan worden gebruikt als andere classificatiesets of als een opzoekgegevensset in CJA. [Meer informatie](../components/classifications/sets/consolidations/manage.md)</li><li>**Regels**: Waarden automatisch classificeren op basis van regels in de classificatieset. [Meer informatie](../components/classifications/sets/manage/rules.md)</li><li>**Automatisch importeren**: Importeer classificatiegegevens automatisch van cloudopslagbestemmingen. [Meer informatie](../components/classifications/sets/manage/schema.md)</li></ul> |
+| Nieuwe functies voor classificatiesets | [Classificatiesets](/help/components/classifications/sets/overview.md) zijn bijgewerkt met verschillende nieuwe functies:<ul><li>**Consolidaties**: Combineer classificatiesets tot één enkel geconsolideerd classificatieset. De geconsolideerde classificatieset kan worden gebruikt als andere classificatiesets of als een set opzoekgegevens in Customer Jourey Analytics. [Meer informatie](../components/classifications/sets/consolidations/manage.md)</li><li>**Regels**: Waarden automatisch classificeren op basis van regels in de classificatieset. [Meer informatie](../components/classifications/sets/manage/rules.md)</li><li>**Automatisch importeren**: Importeer classificatiegegevens automatisch van cloudopslagbestemmingen. [Meer informatie](../components/classifications/sets/manage/schema.md)</li></ul> |
 | Berekende metrische updates | Verschillende artikelen met betrekking tot berekende meetwaarden zijn bijgewerkt, waaronder het bijwerken van schermafbeeldingen en stappen in procedures. Deze wijzigingen zijn aangebracht om de documentatie in overeenstemming te brengen met de huidige Adobe Analytics-functionaliteit. |
 | Beveiligde doelen voor het exporteren van gegevenstoevoer | Gegevensfeeds kunnen nu naar de volgende opslagdoelen in de cloud worden verzonden:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Doelen die voorheen beschikbaar waren (FTP, SFTP, S3 en Azure Blob) worden niet meer aanbevolen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) |
 | Bot-rapportage in Workspace | Bot reporting is nu beschikbaar in Analysis Workspace. Deze functie wordt geleverd met verschillende toevoegingen:<ul><li>Een nieuwe dimensie: [Bot-naam](/help/components/dimensions/bot-name.md)</li><li>Twee nieuwe metriek: [Bodt paginaweergaven](/help/components/metrics/bot-page-views.md) en [Beide voorvallen](/help/components/metrics/bot-occurrences.md).</li><li>Een nieuwe berekende metrische sjabloon: [Hoogte-breedteverhouding van beide pagina&#39;s](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>Een nieuw rapport over de werkruimte: Bot-rapportage</li></ul>De nieuwe dimensie en metriek bevatten gegevens die vanaf maart 2023 zijn teruggevuld. |
@@ -58,7 +58,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | **Februari 2023** | |
 | Implementatie | Bijgewerkte inhoud over hoe te [Adobe Analytics for web en mobile implementeren](../implement/home.md). |
 | Werkruimtekalenders en datumbereiken | Bijgewerkte inhoud om relatieve datumwaaiers, de updates van de formules berekening, en kalenderveranderingen te beschrijven UI. Zie [Over datumbereiken in het relatieve deelvenster](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| Mobiele scorecards | Nieuwe documentatiesectie om te beschrijven hoe te om de waaiers van de vergelijkingsdatum te tonen en te verbergen. Zie [Vergelijkingsdatumbereiken tonen](/help/analyze/mobile-app/create-scorecard.md) in CJA. |
+| Mobiele scorecards | Nieuwe documentatiesectie om te beschrijven hoe te om de waaiers van de vergelijkingsdatum te tonen en te verbergen. Zie [Vergelijkingsdatumbereiken tonen](/help/analyze/mobile-app/create-scorecard.md) in Customer Jourey Analytics. |
 | 1.4 API | De [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) heeft een volledige herschrijving ontvangen en wordt nu gepubliceerd op Adobe Developer. |
 | Traceren tussen implementatietypen | Gebruiksscenario is bijgewerkt [Houd verschillende implementatietypen bij](../implement/use-cases/cross-type-implementation.md) om de Experience Cloud ID-service aan te passen. |
 | **Januari 2023** | |

@@ -3,9 +3,9 @@ description: Analytics en Audience Manager gebruiken beide segmenten. Een segmen
 title: Inzicht in segmenten in Analytics en Audience Manager
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ Een segment van Analytics is een het filtreren mechanisme voor gegevens in uw ra
 
 * De segmenten van de analyse werken op een verschillende reeks gegevens dan de segmenten van de Audience Manager. Tijdens gegevensverzameling past Analytics vele verschillende naverwerkingsstappen toe op de gegevens die niet beschikbaar zijn voor Audience Manager. Nabewerking kan onder andere bestaan uit persistentie van de eVar, verwerkingsregels, opzoekingen (geo-locatie, mobiel apparaat), VISTA en vele andere. De Audience Manager ontvangt vooraf verwerkte gegevens door server-kant door:sturen (of DIL).
 
-   Veelvoorkomende gegevensdiscrepanties treden op bij het vergelijken van segmenten op basis van dimensies die in Analytics nooit verlopen, met dezelfde dimensie in Audience Manager. ListVars of handelsversies van Vars die nooit verlopen.
+  Veelvoorkomende gegevensdiscrepanties treden op bij het vergelijken van segmenten op basis van dimensies die in Analytics nooit verlopen, met dezelfde dimensie in Audience Manager. ListVars of handelsversies van Vars die nooit verlopen.
 
-   Als eVar bijvoorbeeld blauw is en in Analytics is ingesteld op never expired (nooit verlopen), bevat elk segment in Analytics met criteria &quot;eVar = blue&quot; altijd deze bezoeker. In Audience Manager zou deze bezoeker na een bepaalde periode uit een op dezelfde wijze gedefinieerd segment kunnen vallen.
+  Als eVar bijvoorbeeld blauw is en in Analytics is ingesteld op never expired (nooit verlopen), bevat elk segment in Analytics met criteria &quot;eVar = blue&quot; altijd deze bezoeker. In Audience Manager zou deze bezoeker na een bepaalde periode uit een op dezelfde wijze gedefinieerd segment kunnen vallen.
 
-* Analysesegmenten hebben meer mogelijkheden dan AAM segmenten. De segmenten van de Audience Manager worden altijd geëvalueerd op bezoekersniveau. Analysesegmenten kunnen worden gedefinieerd op bezoekers-, bezoek- of raakniveau (of een combinatie van deze niveaus). Bovendien, steunt de Analyse geavanceerde segmenteringsmogelijkheden die de Audience Manager niet, zoals opeenvolgende segmentatie.
+* Analysesegmenten hebben meer mogelijkheden dan Adobe Audience Manager-segmenten. De segmenten van de Audience Manager worden altijd geëvalueerd op bezoekersniveau. Analysesegmenten kunnen worden gedefinieerd op bezoekers-, bezoek- of raakniveau (of een combinatie van deze niveaus). Bovendien, steunt de Analyse geavanceerde segmenteringsmogelijkheden die de Audience Manager niet, zoals opeenvolgende segmentatie.
 * Zoals eerder vermeld, kunnen de bezoekers van de Audience Manager een segment ingaan of verlaten afhankelijk van of zij voor de segmentcriteria op het huidige tijdstip in aanmerking komen.
 
-   In Analytics daarentegen worden bezoekers opgenomen in of uitgesloten van een segment dat is gebaseerd op het bereik van de rapportdatum. Eén bezoeker heeft bijvoorbeeld vorige maand een aankoop gedaan. In AAM zou die bezoeker in een &quot;koper&quot;segment, ongeacht de datumwaaier worden opgenomen. In Analytics, zou een rapport dat op deze maand wordt gebaseerd de bezoeker in het segment niet omvatten. Nochtans, zou een rapport dat op deze maand &amp; vorige maand wordt gebaseerd de bezoeker in het segment omvatten.
+  In Analytics daarentegen worden bezoekers opgenomen in of uitgesloten van een segment dat is gebaseerd op het bereik van de rapportdatum. Eén bezoeker heeft bijvoorbeeld vorige maand een aankoop gedaan. In Adobe Audience Manager zou die bezoeker worden opgenomen in een &quot;koper&quot;-segment, ongeacht het datumbereik. In Analytics, zou een rapport dat op deze maand wordt gebaseerd de bezoeker in het segment niet omvatten. Nochtans, zou een rapport dat op deze maand &amp; vorige maand wordt gebaseerd de bezoeker in het segment omvatten.
 
 Zie de [Handleiding voor analysegmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) voor meer informatie .
