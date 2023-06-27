@@ -3,9 +3,9 @@ title: visitorID
 description: Gebruik een aangepaste bezoeker-id.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 0e4afc2532c7a6fe90085ad6f24ac859bcd3baf7
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ Adobe gebruikt verschillende methoden om bezoekers op uw site te identificeren. 
 >
 >Adobe raadt u af deze variabele te gebruiken. Gebruik de [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) in plaats daarvan.
 
-## Overschrijving bezoekersidentiteitskaart gebruikend de SDK van het Web
-
-Binnenkort verkrijgbaar!
-
 ## Bezoeker-id met de Adobe Analytics-extensie
 
 [!UICONTROL Visitor ID] is een veld onder de [!UICONTROL Cookies] accordeon bij het configureren van de Adobe Analytics-extensie.
@@ -33,7 +29,7 @@ Binnenkort verkrijgbaar!
 
 Wijs dit veld toe aan het gegevenselement dat uw aangepaste bezoeker-id bevat. Stel dit veld niet in op een statische waarde.
 
-## s.bezoekorID in AppMeturement en de de coderedacteur van de de uitbreidingsuitbreiding van de Analyse
+## s.bezoekorID in AppMeasurement en de de coderedacteur van de uitbreiding van de Analyse
 
 De `s.visitorID` variabele is een tekenreeks die een aangepaste unieke id voor de bezoeker bevat. Geldige waarden zijn alfanumerieke tekens tot 100 bytes. Gebruik geen streepjes, spaties, onderstrepingstekens of symbolen in deze variabele.
 
