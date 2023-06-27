@@ -4,9 +4,9 @@ title: Adobe Analytics-landingspagina
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 06daaf4dcf5a88b7d571de94d72e273d942812bf
 workflow-type: tm+mt
-source-wordcount: '3807'
+source-wordcount: '3890'
 ht-degree: 0%
 
 ---
@@ -223,13 +223,24 @@ Beheerders kunnen een rapport verwijderen met de lijstoptie voor bedrijfsrapport
 ![Overige filters](assets/delete-fr-create-project-modal.png)
 
 
-## Navigeren op het tabblad Leren {#navigate-learning}
+## Het tabblad Leren gebruiken {#navigate-learning}
 
-De pagina Leren bevat praktische videolessen en zelfstudies, plus koppelingen naar documentatie.
+De pagina Learning bevat praktische videolessen, zelfstudies en koppelingen naar documentatie.
 
-* De [!UICONTROL Workspace Fundamentals] Rondleiding neemt u rechtstreeks naar de werkruimte en doorloopt u de schermindeling Werkruimte en waar u de meest voorkomende acties kunt vinden of uitvoeren. Deze rondleiding kan ook op elk gewenst moment rechtstreeks in Workspace worden gestart via de pop-up voor de knopinfo in de koptekst van het deelvenster.
-* Als u op een video/tour klikt, wordt een **[!UICONTROL Viewed]** tag. Met deze tag kunt u de voortgang van de leerinhoud volgen. U kunt op het label klikken en het verdwijnt, voor het geval u de inhoud nog niet hebt voltooid.
-* De **[!UICONTROL Learn more]** op de modaal video gaat u naar een Adobe Experience League-documentatiepagina met meer Help-inhoud die betrekking heeft op de video die u net hebt bekeken.  **[!UICONTROL View more videos]** Hiermee gaat u naar de volledige Analysis Workspace YouTube-afspeellijst.
+Gebruik de pagina Leren in Adobe Analytics om beginner, tussenliggende of geavanceerde functies en gebruiksgevallen in Adobe Analytics te leren.
+
+### De pagina Leren openen
+
+1. Selecteer in Adobe Analytics [!UICONTROL **Werkruimte**] > [!UICONTROL **Leren**].
+
+### Pagina-functies leren gebruiken
+
+* **Inhoud filteren:** Met het pictogram Filter in de linkertrack kunt u leerinhoud filteren op ervaringsniveau (Begin, Midden of Geavanceerd) en op inhoudstype (Document, Video, of Tours &amp; tutorials).
+* **Voortgang track:** Nadat u inhoud hebt geselecteerd, kunt u een **[!UICONTROL Viewed]** wordt weergegeven. Met deze tag kunt u de voortgang van de leerinhoud volgen. U kunt de **[!UICONTROL Viewed]** -code om deze uit een stuk inhoud te verwijderen.
+* **Aanvullende inhoud weergeven:** Selecteer tijdens het weergeven van video de optie **[!UICONTROL Learn more]** om gerelateerde documentatieinhoud op het Experience League weer te geven. Of selecteer op de pagina Leren een van de volgende opties om aanvullende inhoud weer te geven:
+   * **[!UICONTROL Visit YouTube]:** Bekijk de volledige Analysis Workspace YouTube-afspeellijst.
+   * [!UICONTROL **Experience League bezoeken**]: Bekijk de volledige suite met Adobe Analytics-documentatie op Experience League.
+* **Grondbeginselen voor nieuwe gebruikers:** De [!UICONTROL Workspace Fundamentals] tour wordt aanbevolen voor nieuwe gebruikers. Deze rondleiding neemt u rechtstreeks aan Workspace en begeleidt u door de gemeenschappelijkste acties. Deze rondleiding kan ook op elk gewenst moment opnieuw worden gestart in Workspace via de pop-up voor knopinfo in de koptekst van het deelvenster.
 
 ## De openingspagina instellen {#set-landing}
 
