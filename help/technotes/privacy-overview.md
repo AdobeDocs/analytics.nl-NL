@@ -4,9 +4,9 @@ keywords: privacy
 title: Privacyoverzicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 88%
 
 ---
@@ -45,7 +45,6 @@ Adobe Analytics verzamelt de volgende data:
 | Artikelen die de consument heeft gekocht | Ja |
 | Resterende artikelen in winkelwagen | Ja |
 | Informatie van sociale netwerken (waaronder foto&#39;s, gebruikers-id, leeftijd, geslacht, locatie) | **Nee** |
-| Persoonlijke informatie die de gebruiker buiten onze diensten verstrekt | Ja |
 | Succespercentages van advertentiecampagnes | Ja |
 | Productinformatie zoals kleuren, prijzen, stijlen, foto&#39;s | Ja |
 
