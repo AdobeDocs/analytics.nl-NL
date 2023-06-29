@@ -3,10 +3,10 @@ title: Productprofielen voor Adobe Analytics
 description: Leer hoe productprofielen kunnen worden gebruikt als voorinstellingen voor machtigingen die productbeheerders kunnen toewijzen aan gebruikers binnen een organisatie.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+source-git-commit: 1a7b853d6f5fc627223ea69e64b4a240c61aef2a
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Voor algemene informatie over productprofielen, zoals het maken van productprofi
 Beheerders van productprofielen zijn een optionele groep die gebruikers aan dat productprofiel kan toevoegen of eruit kunnen verwijderen. Een productprofielbeheerder is niet hetzelfde als een productbeheerder:
 
 * Beheerders van productprofielen hebben geen volledige toegang tot Adobe Analytics. Volledige toegang tot Adobe Analytics is voorbehouden aan productbeheerders.
-* Beheerders van productprofielen kunnen machtigingsitems in hun productprofiel aanpassen.
+* Beheerders van productprofielen kunnen de machtigingsitems in hun productprofiel niet aanpassen.
 * Beheerders van productprofielen kunnen productprofielen toewijzen aan of verwijderen uit gebruikersgroepen.
 * Beheerders met productprofielen zijn ideaal voor teamleiders of managers die toegang tot Adobe Analytics voor hun team moeten verlenen en beheren. Individuen hoeven geen systeembeheerders of productbeheerders te storen om toegang te verlenen tot Adobe Analytics.
 
@@ -60,6 +60,6 @@ De hulpmiddelen van de analysehulpmiddelen verlenen toegang tot eigenschappen di
 
 ## Ontwikkelaars van productprofielen
 
-Ontwikkelaars zijn vergelijkbaar met gebruikers, behalve dat ze de Experience Cloud API voor Adobe-ontwikkelaars kunnen gebruiken. Zie [Ontwikkelaars beheren](https://helpx.adobe.com/enterprise/using/manage-developers.html) in de gebruikershandleiding voor bedrijven voor meer informatie. Als aan een gebruiker voor een profiel toegang tot de ontwikkelaar wordt verleend, hebben deze toegang tot de Dev Console (console.adobe.io) en kunnen de Adobe Analytics-integraties worden bewerkt. De API-aanroepen en antwoorden van Analytics die voor de gebruiker zijn geautoriseerd, zijn afhankelijk van de netmachtigingen van alle profielen waarin die gebruiker Developer Access heeft.
+Ontwikkelaars zijn vergelijkbaar met gebruikers, behalve dat ze de Experience Cloud API voor Adobe-ontwikkelaars kunnen gebruiken. Zie [Ontwikkelaars beheren](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html) in de gebruikershandleiding voor bedrijven voor meer informatie. Als aan een gebruiker voor een profiel toegang tot de ontwikkelaar wordt verleend, hebben deze toegang tot de Dev Console (console.adobe.io) en kunnen de Adobe Analytics-integraties worden bewerkt. De API-aanroepen en antwoorden van Analytics die voor de gebruiker zijn geautoriseerd, zijn afhankelijk van de netmachtigingen van alle profielen waarin die gebruiker Developer Access heeft.
 
 Met profielmachtigingen, inclusief alle metriek, alle dimensies en één rapportsuite, kan een Developer Access-lid van het profiel API-aanroepen relevant maken voor elke component in de relevante suite. Als Anomaly Detection is toegevoegd, kunnen de rapporten uitgebreidere reacties bevatten, waarbij de afwijkende gegevens worden toegevoegd. Als vuistregel geldt dat als een profiel toegang verleent tot een scenario binnen de Adobe Analytics-interface, ontwikkelaarstoegang voor een profiel dat op dezelfde manier is gedefinieerd, overeenkomstige API-aanroepen en -antwoorden mogelijk maakt.
