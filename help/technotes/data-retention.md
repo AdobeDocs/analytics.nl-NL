@@ -1,9 +1,9 @@
 ---
 title: Beleid voor gegevensbewaring
 description: Een beleid van het gegevensbehoud bepaalt hoe lang Adobe uw gegevens opslaat.
-feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: Data Governance, Privacy
+source-git-commit: 065126757513df3503a5bbb34ceafe1b569ec51a
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%

@@ -1,7 +1,9 @@
 ---
 title: Dynamische zoekopdrachten
 description: Leer hoe u dynamische zoekopdrachten kunt gebruiken en hoe u deze kunt inschakelen. Omvat dragers, mobiele attributen, en werkend systeemtypes.
-source-git-commit: b6084fc34165ea602fce616e13b3adfcd7bdfdbd
+exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+feature: Data Feeds
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%

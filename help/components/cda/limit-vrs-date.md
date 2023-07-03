@@ -2,7 +2,8 @@
 title: Een vrijwillige VUT-regeling beperken tot bepaalde datums
 description: Begrijp hoe te om een VRS datumwaaier te beperken om zich op stitched slechts gegevens te concentreren.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Als u de vrijwillige VUT-regeling instelt, voegt u onder Componenten een datumbe
 
 ## Stap 2: Een segment voor uitsluiten maken
 
-Vervolgens maakt u een raaksegment dat het datumbereik in een container voor uitsluiten in een andere container voor uitsluiten plaatst. Het is een uitzondering.
+Vervolgens maakt u een raaksegment dat het datumbereik in een container voor uitsluiten in een andere container voor uitsluiten plaatst. Het is een &quot;uitsluiting&quot;.
 
 De reden voor &quot;sluit uit&quot;is dat de datumwaaiers bedoeld zijn om de datumwaaier van het rapport met voeten te treden. Als u dus slechts 1 juni vooruitgaat, zal het altijd de rapportdatum bereiken 1 juni vooruit. Dit zal tot ongewenste resultaten leiden. Wanneer u &quot;uitsluiten&quot; kiest, wordt dit gedrag genegeerd en worden alleen de gegevens die u kunt tekenen beperkt tot het juiste datumbereik.
 

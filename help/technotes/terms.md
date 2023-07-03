@@ -2,7 +2,8 @@
 title: In Adobe Analytics gebruikte termen
 description: Verklarende woordenlijst voor Adobe Analytics, waarin de gebruikte termen worden gedefinieerd.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+feature: Implementation Basics
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 1%
@@ -93,8 +94,8 @@ Gebruik deze verklarende woordenlijst om de context van vele termijnen te begrij
 * **Rapporten en analyses:** Vroeger bekend als SiteCatalyst. Browseroplossing voor rapportage en analyse. Startertool in het Analytics-pakket.
 * **Roldatum bereik:** Een type relatief datumbereik dat verandert als de tijd doorgaat. Een rapport dat de laatste 7 dagen weergeeft, kan bijvoorbeeld worden beschouwd als een doorlopend datumbereik. Zie ook het statische datumbereik.
 * **RSID:** Afkorting van rapportsuite-id. Een rapportsuite heeft zowel een vriendelijke naam als een rapportsuite-id.
-* **s.t():** De naam van de functie in een AppMeturement-bibliotheek die een paginaweergaveverzoek voor afbeeldingen verzendt. Sommige AppMeasurement-bibliotheken gebruiken `s.track()` in plaats daarvan. Zie [t](../implement/vars/functions/t-method.md) in de gebruikershandleiding Implementeren.
-* **s<span>.</span>tl():** De naam van de functie in een AppMeasurement-bibliotheek die een aanvraag voor het bijhouden van koppelingen verzendt. Sommige AppMeasurement-bibliotheken gebruiken `s.trackLink()` in plaats daarvan. Zie [tl](../implement/vars/functions/tl-method.md) in de gebruikershandleiding Implementeren.
+* **s.t():** De naam van de functie in een bibliotheek van het AppMeasurement die een verzoek van het paginameningsbeeld verzendt. Sommige bibliotheken met AppMeasurementen gebruiken `s.track()` in plaats daarvan. Zie [t](../implement/vars/functions/t-method.md) in de gebruikershandleiding Implementeren.
+* **s<span>.</span>tl():** De naam van de functie in een AppMeasurement-bibliotheek die een aanvraag voor het bijhouden van koppelingen verzendt. Sommige bibliotheken met AppMeasurementen gebruiken `s.trackLink()` in plaats daarvan. Zie [tl](../implement/vars/functions/tl-method.md) in de gebruikershandleiding Implementeren.
 * **s_code.js:** De naam van het JavaScript-bestand dat in historische versies van Adobe Analytics wordt gebruikt. De huidige naam van het JavaScript-bestand dat wordt gebruikt, is AppMeasurement.js.
 * **Satelliet:** Niet meer gebruikt als een term. De vroegere productnaam voor Dynamic Tag Management.
 * **Tweede serveraanroep:** Alternatieve naam voor het aanvragen of aanwijzen van afbeeldingen, meestal gebruikt voor tags en facturering met meerdere suite. Wanneer de zelfde klap naar veelvoudige rapportreeksen wordt verzonden, zijn alle rapportreeksen na de eerste vermelde secundaire servervraag. Zie ook Primaire serveraanroepen.

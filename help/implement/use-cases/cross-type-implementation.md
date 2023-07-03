@@ -2,7 +2,8 @@
 title: Verschillende implementatietypen bijhouden
 description: Gebruik verschillende implementatietypen en volg bezoekers naadloos tussen hen.
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
-source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 3%
@@ -15,7 +16,7 @@ De kernarchitectuur van een Adobe Analytics-implementatie is consistent voor all
 
 Adobe raadt u aan consistentie te behouden in de implementatie van een site door hetzelfde implementatietype op alle pagina&#39;s te gebruiken. Als onderdelen van uw site echter aan andere vereisten voldoen, kunt u deze pagina gebruiken om ervoor te zorgen dat bezoekers consistent tussen pagina&#39;s worden bijgehouden.
 
-Als u meer dan één type implementatie gebruikt (zoals AppMeasurement en hardcoded afbeeldingsverzoeken), moet u ervoor zorgen dat de volgende variabelen correct zijn ingesteld en met elkaar overeenkomen:
+Als u meerdere typen implementaties gebruikt (zoals aanvragen voor AppMeasurementen en afbeeldingen met hardcodering), moet u ervoor zorgen dat de volgende variabelen correct zijn ingesteld en met elkaar overeenkomen:
 
 | Variabele | AppMeasurement | Extensie Analytics | Web SDK | Web SDK-extensie | Hardcoded image request |
 | --- | --- | --- | --- | --- | --- |

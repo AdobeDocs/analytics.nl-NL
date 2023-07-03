@@ -1,7 +1,9 @@
 ---
 title: Overzicht van gegevensbronnen
 description: Importeer gegevens naar Adobe Analytics met behulp van externe bestanden.
-source-git-commit: e32a7c85e2f0629c04bcd7ed0fa80ec1593bb6e8
+exl-id: 5ec8bc51-dfd2-497c-aebc-a32d87efc97e
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Met Adobe Analytics-gegevensbronnen kunt u extra online- of offlinegegevens impo
 Adobe biedt twee algemene typen gegevensbronnen. Alle gegevensbronmalplaatjes zijn gebaseerd op één van deze twee types:
 
 * **Samenvattingsgegevensbron**: Biedt een eenvoudige manier om gegevens op hoog niveau te importeren in Adobe Analytics. U geeft de tijdstempel, de waarde van de variabele en de bijbehorende metriek op. Die metriek voor elk afmetingspunt wordt dan dienovereenkomstig verhoogd. Het is waardevol als u offline en online gegevens naast elkaar wilt zien. Het maakt echter geen koppeling tussen online- en offlinegegevens.
-* **Gegevensbron van transactie-id**: Als een hit die door AppMeasurement en een gegevensbronrij wordt verzonden overeenkomstige transactie-id&#39;s bevat, voegen de afmetingen en metrische waarden in de gegevensbron aan die hit toe.
+* **Gegevensbron van transactie-id**: Als een hit die door AppMeasurement en een gegevensbronnen wordt verzonden overeenkomstige transactie-id&#39;s bevat, voegen de dimensie en de metrische waarden in de gegevensbron aan die hit toe.
 
 **Volledige verwerkingsgegevensbronnen** vanaf 25 maart 2021 niet meer als gegevensbron worden aangeboden. Zie de [Aankondiging einde levensduur](full-processing-eol.md) voor meer informatie .
 

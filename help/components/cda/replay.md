@@ -2,7 +2,8 @@
 title: Hoe herspeelt u
 description: Begrijp het concept "replay"in Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
-source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
@@ -41,12 +42,12 @@ Zowel niet-geverifieerde als geverifieerde hits op nieuwe apparaten worden als a
 
 * **Als de apparaatgrafiek wordt gebruikt,** niet-geverifieerde treffers op herkende apparaten worden live verstuurd zodra een cluster door de apparaatgrafiek wordt gepubliceerd. Het publiceren van clusters duurt van drie uur tot twee weken.
 
-   Een derde cumulatieve persoon wordt ook toegevoegd wanneer een cluster wordt gepubliceerd. Deze derde persoon vertegenwoordigt de cluster zelf, naast de individuele apparaten. Deze derde &quot;persoon&quot; blijft bestaan totdat de gegevens worden weergegeven.
+  Een derde cumulatieve persoon wordt ook toegevoegd wanneer een cluster wordt gepubliceerd. Deze derde persoon vertegenwoordigt de cluster zelf, naast de individuele apparaten. Deze derde &quot;persoon&quot; blijft bestaan totdat de gegevens worden weergegeven.
 
-   De attributie werkt pas over apparaten nadat een cluster wordt gepubliceerd, en zelfs dan slechts leven-hetches van dat punt voorwaarts. In het bovenstaande voorbeeld worden nog geen van de hits op verschillende apparaten geplaatst. De attributie van het dwars-apparaat op bestaande klusjes werkt pas na het opnieuw spelen stitching.
+  De attributie werkt pas over apparaten nadat een cluster wordt gepubliceerd, en zelfs dan slechts leven-hetches van dat punt voorwaarts. In het bovenstaande voorbeeld worden nog geen van de hits op verschillende apparaten geplaatst. De attributie van het dwars-apparaat op bestaande klusjes werkt pas na het opnieuw spelen stitching.
 * **Als u veldoverstikken gebruikt,** niet-geverifieerde treffers op herkende apparaten worden vanaf dat punt live verstuurd.
 
-   Attributie werkt zodra de identificerende douanevariabele aan een apparaat bindt. In het bovenstaande voorbeeld worden alle treffers, behalve hits 1 en 3, in een live script geplaatst (ze gebruiken allemaal de opdracht `Bob` id). Attributie werkt bij hits 1 en 3 na het opnieuw afspelen van stitching.
+  Attributie werkt zodra de identificerende douanevariabele aan een apparaat bindt. In het bovenstaande voorbeeld worden alle treffers, behalve hits 1 en 3, in een live script geplaatst (ze gebruiken allemaal de opdracht `Bob` id). Attributie werkt bij hits 1 en 3 na het opnieuw afspelen van stitching.
 
 >[!NOTE]
 >

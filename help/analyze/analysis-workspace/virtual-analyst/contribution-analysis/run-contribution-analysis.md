@@ -3,7 +3,8 @@ description: Stel een rapport van de Analyse van de Bijdrage in een project van 
 title: Bijdrageanalyse uitvoeren
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+feature: Anomaly Detection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 3%
@@ -20,15 +21,15 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 
 * In een vrije lijst met dagelijkse granulariteit, klik om het even welke rij met de rechtermuisknop aan en selecteer **[!UICONTROL Run Contribution Analysis]**. U kunt het zelfs op rijen in werking stellen die geen anomalie tonen.
 
-   >[!NOTE]
-   >
-   >Wij steunen momenteel de analyse van de bijdragen alleen met de dagelijkse granulariteit.
+  >[!NOTE]
+  >
+  >Wij steunen momenteel de analyse van de bijdragen alleen met de dagelijkse granulariteit.
 
-   ![](assets/run_ca.png)
+  ![](assets/run_ca.png)
 
 * Houd de muisaanwijzer boven een afwijkend gegevenspunt in een lijndiagram in een lijndiagram. Klik op de knop **[!UICONTROL Analyze]** koppeling die wordt weergegeven.
 
-   ![](assets/contribution-analysis.png)
+  ![](assets/contribution-analysis.png)
 
 1. (Optioneel) Nadat u hebt geklikt **[!UICONTROL Run Contribution Analysis]** in of de lijngrafiek of een lijst, kunt u het werkingsgebied van (en zo versnellen) de analyse door [exclusief afmetingen](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
@@ -41,7 +42,7 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 
    * De [Gegenereerde segmenten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Top Item Clusters) de lijst identificeert verenigingen van hoogste punten die op de Score van de Bijdrage, anomalievoorvallen, en algemeen percentage worden gebaseerd die tot anomalische metrisch bijdragen. Dit wordt vervolgens vastgelegd als een publiekssegment (bijdragesegment 1, bijdragesegment 2, enz.). Als u op de knop &quot;i&quot; (info) klikt, krijgt u een weergave van de definitie van elk automatisch segment, inclusief de items die er bovenaan staan:
 
-      ![](assets/auto_segment.png)
+     ![](assets/auto_segment.png)
 
 1. Aangezien de analyse van de bijdrage nu deel van Analysis Workspace uitmaakt, kunt u uit een aantal van zijn eigenschappen van het de klikmenu van een lijst van een lijst voordeel halen om uw analyse nog betekenisvoller te maken, zoals:
 

@@ -1,7 +1,9 @@
 ---
 title: Gegevensbronbestand uploaden naar Adobe
 description: Het uploaden van een gegevensbronbestand naar Adobe Analytics voor opname.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: 64e3cd70-b511-4c4e-abd0-94eb36bc3519
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -38,10 +40,10 @@ Adobe raadt aan metrische gegevens samen te voegen tot één rij per datum om er
 
 | `date` | `eVar1` | `event1` | `event2` | `event3` |
 | --- | --- | --- | --- | --- |
-| `07/24/YYYY` | `red` | `1` |  |  |
-| `07/24/YYYY` | `red` | `1` |  |  |
-| `07/24/YYYY` | `red` |  | `1` |  |
-| `07/24/YYYY` | `red` |  |  | `1` |
+| `07/24/YYYY` | `red` | `1` | | |
+| `07/24/YYYY` | `red` | `1` | | |
+| `07/24/YYYY` | `red` | | `1` | |
+| `07/24/YYYY` | `red` | | | `1` |
 
 Dit bestand wordt sneller verwerkt en bevat dezelfde gegevens:
 

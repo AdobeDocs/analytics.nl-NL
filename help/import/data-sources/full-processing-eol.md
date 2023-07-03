@@ -1,7 +1,9 @@
 ---
 title: Einde van de levensduur voor volledige gegevensverwerkingsbronnen
 description: Meer informatie over de aankondiging aan het einde van de levensduur voor volledige gegevensverwerkingsbronnen.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: 7dd6d518-156f-4bf5-86cb-04d0acc8ff0c
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 1%
@@ -10,7 +12,7 @@ ht-degree: 1%
 
 # Einde van de levensduur voor volledige gegevensverwerkingsbronnen
 
-Volledige gegevensbronnen voor verwerking hebben organisaties er historisch toe gebracht gegevens op raakniveau naar Adobe Analytics te verzenden. Deze gegevens zijn op dezelfde manier verwerkt als gegevens die via traditionele gegevensverzamelingsmethoden, zoals AppMeasurement, zijn verzameld. In 2020 heeft Adobe de [Opsommings-API voor gegevens](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), die dezelfde functies uitvoert als volledige gegevensbronnen voor verwerking, maar met extra functies. Deze pagina bevat informatie over extra functionaliteit die wordt geboden door de API voor het invoegen van gegevens in bulk en schetst verschillen in bestandsindelingen.
+Volledige gegevensbronnen voor verwerking hebben organisaties er historisch toe gebracht gegevens op raakniveau naar Adobe Analytics te verzenden. Deze gegevens werden op dezelfde manier verwerkt als gegevens die via traditionele gegevensverzamelingsmethoden, zoals AppMeasurement, werden verzameld. In 2020 heeft Adobe de [Opsommings-API voor gegevens](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), die dezelfde functies uitvoert als volledige gegevensbronnen voor verwerking, maar met extra functies. Deze pagina bevat informatie over extra functionaliteit die wordt geboden door de API voor het invoegen van gegevens in bulk en schetst verschillen in bestandsindelingen.
 
 Op 25 maart 2021 heeft Adobe verhinderd dat er nieuwe volledige gegevensverwerkingsgegevensverbindingen tot stand kwamen. Op 31 januari 2022 zijn alle volledige verwerkingsdatadiensten gedeactiveerd.
 
