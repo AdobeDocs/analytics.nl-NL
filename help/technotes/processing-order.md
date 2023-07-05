@@ -2,7 +2,8 @@
 title: Verwerkingsvolgorde voor gegevens in Adobe Analytics
 description: Leer de volgorde van componenten en services die gegevens verwerken in Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: Data Configuration and Collection
+source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Voordat gegevens naar Adobe worden verzonden, worden doorgaans clientgegevens ge
 
 * **AppMeasurement**: Een JavaScript-bestand dat op uw site wordt gehost en waarnaar op elke pagina wordt verwezen. Gegevens worden rechtstreeks naar Adobe Analytics verzonden.
 * **Adobe Experience Platform Web SDK**: Een JavaScript-bestand dat op uw site wordt gehost en waarnaar op elke pagina wordt verwezen. Gegevens worden verzonden naar Adobe Experience Edge.
-* **Tags in Adobe Experience Cloud-gegevensverzameling**: Een JavaScript-bestand waarnaar op elke pagina wordt verwezen, met regels die zijn gemaakt in de gebruikersinterface voor gegevensverzameling. De Adobe Analytics-extensie biedt een eenvoudigere manier om AppMeasurement te implementeren. De uitbreiding van SDK van het Web biedt een gemakkelijkere manier aan om het Web SDK uit te voeren.
+* **Tags in Adobe Experience Cloud-gegevensverzameling**: Een JavaScript-bestand waarnaar op elke pagina wordt verwezen, met regels die zijn gemaakt in de gebruikersinterface voor gegevensverzameling. De extensie Adobe Analytics biedt een eenvoudigere manier om AppMeasurement te implementeren. De uitbreiding van SDK van het Web biedt een gemakkelijkere manier aan om het Web SDK uit te voeren.
 
 Als u gegevens naar Adobe Experience Edge verzendt, kunt u deze zo configureren dat gegevens worden doorgestuurd naar Adobe Analytics (en vele andere Adobe Experience Cloud-oplossingen). Ongeacht de implementatiemethode wordt uiteindelijk een afbeeldingsverzoek met de gewenste variabelen verzonden naar de Adobe-gegevensverzamelingsservers.
 
