@@ -3,7 +3,7 @@ description: De cloud-importaccount configureren en de locatie waar classificati
 keywords: Analysis Workspace
 title: Cloud-importaccounts configureren
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+source-git-commit: 6010c65571b326759eeddc5e71f8a52212ddbb98
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Voordat u Adobe Analytics-classificatiegegevens kunt importeren vanuit een cloudbestemming, moet u de account en de locatie binnen die account toevoegen en configureren waar u de classificatiegegevens wilt verzamelen.
 
-Dit proces bestaat uit het toevoegen en configureren van de account (zoals Amazon S3 Role ARN, Google Cloud Platform enzovoort) zoals beschreven in dit artikel, en het toevoegen en configureren van de locatie binnen die account (zoals een map binnen de account) zoals beschreven in [Cloudimportlocaties configureren][/help/components/locations/configure-import-locations.md].
+Dit proces bestaat uit het toevoegen en configureren van de account (zoals Amazon S3 Role ARN, Google Cloud Platform enzovoort) zoals beschreven in dit artikel, en het toevoegen en configureren van de locatie binnen die account (zoals een map binnen de account) zoals beschreven in [Cloudimportlocaties configureren](/help/components/locations/configure-import-locations.md).
 
 U moet Adobe Analytics configureren met de benodigde informatie voor toegang tot uw bestemmingsaccount voor de cloud.
 
