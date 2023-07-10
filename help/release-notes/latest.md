@@ -3,7 +3,7 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d00ae976a7e7de2fad7f5c214c2bbf39644c9a08
+source-git-commit: 9044bb3bc8581ff3c12abd5620e81ade513b5f0f
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 3%
@@ -39,7 +39,7 @@ Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die
 | **Diepe koppeling (mobiele toepassing)** | Hiermee kunnen gebruikers koppelingen naar scorecards verzenden die rechtstreeks naar het scorecard-project in de app leiden. Hierdoor wordt het nog eenvoudiger om projecten te delen en de betrokkenheid van minder technische gebruikers te verhogen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#share-scorecards-using-a-shareable-link) | N.v.t. | 17 mei 2023 |
 | **Dynamische vervolgkeuzefilters** | Wij introduceren een nieuw type drop-down filter dat beschikbare waarden bepaalt die op gegevens binnen het rapporteringswaaier van het paneel en waarden in andere drop-down filters worden gebaseerd. U kunt dynamische vervolgkeuzefilters gebruiken door een dimensie naar de dropzone van het deelvenster te slepen terwijl u de muisknop ingedrukt houdt [!UICONTROL Shift]. Statische vervolgkeuzefilters blijven ongewijzigd door een groep dimensie-items naar de dropzone van het deelvenster te slepen terwijl u de muisknop ingedrukt houdt [!UICONTROL Shift]. [Meer informatie](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 14 juni 2023 |
 | **De bijgewerkte pagina Analytics Learning** | Het tabblad Leren op de Adobe Analytics-landingspagina bevat nu de volgende verbeteringen:<ul><li>Verbeterd ontwerp dat meer leerinhoud weergeeft op één pagina met verbeterde navigatie</li><li>Mogelijkheid om de leerinhoud op ervaringsniveau aan te passen (Beginnend, Midden, en Geavanceerd)</li></ul>[Meer informatie](/help/analyze/landing.md) | 27 juni 2023 | Juni 30,2023 |
-| **Componenten sorteren in Analysis Workspace** | Er is nu een nieuwe sorteeroptie beschikbaar wanneer u componenten in de linkertrack of in het gegevenswoordenboek in Analysis Workspace bekijkt. U kunt componenten sorteren op Aanbevolen (de meest gebruikte), Alfabetisch of Categorisch (type).<p>Eerder kon u alleen componenten zoeken of filteren. [Meer informatie](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | N.v.t. | TBD |
+| **Componenten sorteren in Analysis Workspace** | Er is nu een nieuwe sorteeroptie beschikbaar wanneer u componenten in de linkertrack of in het gegevenswoordenboek in Analysis Workspace bekijkt. U kunt componenten sorteren op Aanbevolen (de meest gebruikte), Alfabetisch of Categorisch (type).<p>Eerder kon u alleen componenten zoeken of filteren. [Meer informatie](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | N.v.t. | Juni 7,2023 |
 
 {style="table-layout:auto"}
 
