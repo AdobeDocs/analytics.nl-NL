@@ -3,14 +3,22 @@ description: Gegevensbestanden uploaden via FTP.
 title: FTP-import
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
+source-git-commit: c36cc9884b2de3cddf03b505d9c4883dcac846af
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
 
 # FTP-import
+
+>[!IMPORTANT]
+>
+>We raden u niet meer aan FTP te gebruiken voor importeren, zoals op deze pagina wordt beschreven.
+>
+>FTP wordt niet aanbevolen omdat het een niet-gecodeerde methode is voor het delen van bestanden, wat betekent dat iedereen de bestandsinhoud en de gebruikersnaam en het wachtwoord voor de account kan onderscheppen.
+>
+>In plaats daarvan configureert u een cloudaccount zoals beschreven in [Cloudimportlocaties configureren](/help/components/classifications/importer/configure-import-accounts.md).
 
 Stappen die beschrijven hoe u gegevensbestanden kunt uploaden via FTP.
 
@@ -20,7 +28,7 @@ Gegevensbestanden uploaden via FTP:
 
 1. **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
-De volgende aanbevolen limieten zijn belangrijk. Te veel
+De volgende aanbevolen limieten zijn belangrijk.
 
 >[!IMPORTANT]
 >

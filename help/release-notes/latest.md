@@ -3,16 +3,16 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 8e753a4ab2f86ff1b45d3116e51c5ce03f5b038b
+source-git-commit: d00ae976a7e7de2fad7f5c214c2bbf39644c9a08
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1532'
 ht-degree: 3%
 
 ---
 
 # Opmerkingen bij de huidige Adobe Analytics-release (juni 2023)
 
-**Laatste update**: 21 juni 2023
+**Laatste update**: 10 juli 2023
 
 Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,10 +20,11 @@ Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Opslaglocaties voor cloudaccounts configureren voor het opnemen van classificatiegegevens** | U kunt opslaglocaties voor cloudaccounts die worden gebruikt voor automatisering van classificatiesets, nu beheren.<p>[Meer informatie](/help/components/classifications/importer/configure-import-accounts.md)</p> |  | 10 juli 2023 |
 | **Verbeteringen in het filter Gegevensreparatie** | Er zijn drie filterverbeteringen toegevoegd aan Data Repair:<ul><li>Filter met één variabele om een tweede variabele te wijzigen. Als `eVar2` bevat &quot;@&quot; en verwijdert `eVar3`.</li><li>Filter voor numerieke of niet-numerieke waarden</li><li>Meerdere filters toepassen met een AND. Bijvoorbeeld, waarbij `eVar2="a"` EN `eVar3="b"`</li></ul>[Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21 juni 2023 | 12 juli 2023 |
 | **Het delen van verbindingen voor projecten (geen vereiste login)** | U kunt nu alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. Dit omvat het delen met mensen buiten uw organisatie of met mensen binnen uw organisatie die niet zijn ingericht voor Adobe Analytics. [Meer informatie](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>Deze functionaliteit is standaard ingeschakeld en kan door de systeembeheerder worden uitgeschakeld. [Meer informatie](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 3 mei 2023 | 7 juni 2023 |
 | **Nieuwe functies voor classificatiesets** | [Classificatiesets](/help/components/classifications/sets/overview.md) zijn bijgewerkt met verschillende nieuwe functies:<ul><li>**Consolidaties**: Combineer classificatiesets tot één enkel geconsolideerd classificatieset. De geconsolideerde classificatieset kan worden gebruikt als andere classificatiesets of als een set opzoekgegevens in Customer Jourey Analytics. [Meer informatie](../components/classifications/sets/consolidations/manage.md)</li><li>**Regels**: Waarden automatisch classificeren op basis van regels in de classificatieset. [Meer informatie](../components/classifications/sets/manage/rules.md)</li><li>**Automatisch importeren**: Importeer classificatiegegevens automatisch van cloudopslagbestemmingen. [Meer informatie](../components/classifications/sets/manage/schema.md)</li></ul> | | 7 juni 2023 |
-| **Nieuwe variabele AppMeasurement** | De variabele `doubleEncodeLinkParameters` past randgevallen aan waarin implementaties multi-byte karakters in verbinding het volgen variabelen coderen. De meeste implementaties hoeven deze variabele niet te definiëren. [Meer informatie](../implement/vars/config-vars/doubleencodelinkparameters.md) |  | 7 juni 2023 |
+| **Variabele van nieuw AppMeasurement** | De variabele `doubleEncodeLinkParameters` past randgevallen aan waarin implementaties multi-byte karakters in verbinding het volgen variabelen coderen. De meeste implementaties hoeven deze variabele niet te definiëren. [Meer informatie](../implement/vars/config-vars/doubleencodelinkparameters.md) |  | 7 juni 2023 |
 | **Beveiligde doelen voor het exporteren van gegevenstoevoer** | Gegevensfeeds kunnen nu naar de volgende opslagdoelen in de cloud worden verzonden:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Doelen die voorheen beschikbaar waren (FTP, SFTP, S3 en Azure Blob) worden niet meer aanbevolen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) | 12 juni 2023 | 15 juli 2023 |
 | **Bot-rapportage in Workspace** | Bot reporting is nu beschikbaar in Analysis Workspace. Deze functie wordt geleverd met verschillende toevoegingen:<ul><li>Een nieuwe dimensie: [Bot-naam](/help/components/dimensions/bot-name.md)</li><li>Twee nieuwe metriek: [Bodt paginaweergaven](/help/components/metrics/bot-page-views.md) en [Beide voorvallen](/help/components/metrics/bot-occurrences.md).</li><li>Een nieuwe berekende metrische sjabloon: [Hoogte-breedteverhouding van beide pagina&#39;s](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>Een nieuw rapport over de werkruimte: Bot-rapportage</li></ul>De nieuwe dimensie en metriek bevatten gegevens die vanaf maart 2023 zijn teruggevuld. |  | Juni 7,2023 |
 
