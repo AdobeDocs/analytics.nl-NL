@@ -3,7 +3,7 @@ title: Schema voor classificatieset
 description: Het schema voor een afzonderlijke classificatieset weergeven en bewerken.
 exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
 feature: Classifications
-source-git-commit: 6cc7f491340ec7c36252f7ae53de07b0ab8f3b6f
+source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -48,11 +48,11 @@ De volgende knoppen zijn beschikbaar:
 * **[!UICONTROL Automate]**: Automatisch gegevens van externe opslaglocaties opnemen.
    * **[!UICONTROL Location account]**: Een vervolgkeuzelijst met bestaande locatierekeningen die uw organisatie heeft geconfigureerd. Als uw organisatie nog geen locatieaccount heeft geconfigureerd, kunt u een account configureren door [!UICONTROL **Een nieuwe account maken**].
 
-     Voor informatie over het configureren van de locatieaccount raadpleegt u [Cloudimportlocaties configureren](/help/components/classifications/importer/configure-import-accounts.md).
+     Voor informatie over het configureren van de locatieaccount raadpleegt u [Cloud-importaccounts configureren](/help/components/locations/configure-import-accounts.md).
 
    * **[!UICONTROL Location]**: Een vervolgkeuzelijst met bestaande locaties die door uw organisatie zijn geconfigureerd. Als uw organisatie nog geen locatie heeft geconfigureerd, kunt u een locatie configureren door [!UICONTROL **Een nieuwe locatie maken**].
 
-     Voor informatie over het vormen van een plaats, zie [Cloudimportlocaties configureren](/help/components/classifications/importer/configure-import-accounts.md).
+     Voor informatie over het vormen van een plaats, zie [Cloudimportlocaties configureren](/help/components/locations/configure-import-locations.md).
 
    * **[!UICONTROL Delimiter]**: Het kolomscheidingsteken voor geüploade bestanden. Opties omvatten [!UICONTROL Comma], [!UICONTROL Semicolon], [!UICONTROL Colon], [!UICONTROL Vertical bar], [!UICONTROL Space], [!UICONTROL Forward slash], [!UICONTROL Backward slash], [!UICONTROL Dash], of [!UICONTROL Underscore].
 

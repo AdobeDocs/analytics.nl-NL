@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
+source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 44%
+source-wordcount: '724'
+ht-degree: 43%
 
 ---
 
@@ -262,14 +262,16 @@ ht-degree: 44%
       + [Browser- en FTP-import](classifications/importer/import-file.md)
       + [Browserimport](classifications/importer/browser-import.md)
       + [Browser exporteren](classifications/importer/browser-export.md)
-      + [Importeren van cloud](/help/components/classifications/importer/configure-import-accounts.md)
       + [FTP-import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP-export](classifications/importer/ftp-export.md)
       + [Verwerkingstijd](classifications/importer/processing-time.md)
       + [Problemen oplossen](classifications/importer/troubleshooting.md)
-
    + [Subclassificaties](classifications/c-sub-classifications.md)
    + [Veelgestelde vragen over classificaties](classifications/faq.md)
++ Locaties {#locations}
+   + [Locatiebeheer](/help/components/locations/locations-manager.md)
+   + [Cloud-importaccounts](/help/components/locations/configure-import-accounts.md)
+   + [Cloud-importlocaties](/help/components/locations/configure-import-locations.md)
 + [Kalendergebeurtenissen](t-calendar-event.md)
 + [Wachtrij voor geplande rapporten](scheduled-reports-admin.md)
 + Realtimerapportage {#real-time-reporting}

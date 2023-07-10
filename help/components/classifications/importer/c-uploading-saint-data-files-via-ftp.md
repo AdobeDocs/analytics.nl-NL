@@ -3,7 +3,7 @@ description: Gegevensbestanden uploaden via FTP.
 title: FTP-import
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: c36cc9884b2de3cddf03b505d9c4883dcac846af
+source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 >
 >FTP wordt niet aanbevolen omdat het een niet-gecodeerde methode is voor het delen van bestanden, wat betekent dat iedereen de bestandsinhoud en de gebruikersnaam en het wachtwoord voor de account kan onderscheppen.
 >
->In plaats daarvan configureert u een cloudaccount zoals beschreven in [Cloudimportlocaties configureren](/help/components/classifications/importer/configure-import-accounts.md).
+>In plaats daarvan configureert u een cloudaccount zoals beschreven in [Cloudimportlocaties configureren](/help/components/locations/configure-import-accounts.md).
 
 Stappen die beschrijven hoe u gegevensbestanden kunt uploaden via FTP.
 

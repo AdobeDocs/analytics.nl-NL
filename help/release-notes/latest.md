@@ -3,7 +3,7 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9044bb3bc8581ff3c12abd5620e81ade513b5f0f
+source-git-commit: b0c97e4f9d3243e233999cf80f1d742a676f4023
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 3%
@@ -20,7 +20,7 @@ Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Opslaglocaties voor cloudaccounts configureren voor het opnemen van classificatiegegevens** | U kunt opslaglocaties voor cloudaccounts die worden gebruikt voor automatisering van classificatiesets, nu beheren.<p>[Meer informatie](/help/components/classifications/importer/configure-import-accounts.md)</p> |  | 10 juli 2023 |
+| **Opslaglocaties voor cloudaccounts configureren voor het opnemen van classificatiegegevens** | U kunt opslaglocaties voor cloudaccounts die worden gebruikt voor automatisering van classificatiesets, nu beheren.<p>[Meer informatie](/help/components/locations/configure-import-accounts.md)</p> |  | 10 juli 2023 |
 | **Verbeteringen in het filter Gegevensreparatie** | Er zijn drie filterverbeteringen toegevoegd aan Data Repair:<ul><li>Filter met één variabele om een tweede variabele te wijzigen. Als `eVar2` bevat &quot;@&quot; en verwijdert `eVar3`.</li><li>Filter voor numerieke of niet-numerieke waarden</li><li>Meerdere filters toepassen met een AND. Bijvoorbeeld, waarbij `eVar2="a"` EN `eVar3="b"`</li></ul>[Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21 juni 2023 | 12 juli 2023 |
 | **Het delen van verbindingen voor projecten (geen vereiste login)** | U kunt nu alleen-lezen koppelingen naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Adobe Analytics. Dit omvat het delen met mensen buiten uw organisatie of met mensen binnen uw organisatie die niet zijn ingericht voor Adobe Analytics. [Meer informatie](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>Deze functionaliteit is standaard ingeschakeld en kan door de systeembeheerder worden uitgeschakeld. [Meer informatie](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 3 mei 2023 | 7 juni 2023 |
 | **Nieuwe functies voor classificatiesets** | [Classificatiesets](/help/components/classifications/sets/overview.md) zijn bijgewerkt met verschillende nieuwe functies:<ul><li>**Consolidaties**: Combineer classificatiesets tot één enkel geconsolideerd classificatieset. De geconsolideerde classificatieset kan worden gebruikt als andere classificatiesets of als een set opzoekgegevens in Customer Jourey Analytics. [Meer informatie](../components/classifications/sets/consolidations/manage.md)</li><li>**Regels**: Waarden automatisch classificeren op basis van regels in de classificatieset. [Meer informatie](../components/classifications/sets/manage/rules.md)</li><li>**Automatisch importeren**: Importeer classificatiegegevens automatisch van cloudopslagbestemmingen. [Meer informatie](../components/classifications/sets/manage/schema.md)</li></ul> | | 7 juni 2023 |
