@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 386661af0d37fb223f51904a48593065f42ba47b
+source-git-commit: b724ef95771b49a81563587a5d8bbfe26c99c134
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '883'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ AN-307816; AN-318111; AN-318584; AN-318828; AN-320440; AN-320568; AN-320616; AN-
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
 | **Vervaldatum van 37 maanden voor aankoop-id&#39;s en gebeurtenis-id&#39;s (gebeurtenisserialisatie)** | Juli 10,2023 | Een aanstaande versie van de Analytics Hit-verwerkingsengine, die is bedoeld voor release bij **13 juli 2023**, wordt begonnen met het afdwingen van een vervaldatum van 37 maanden voor aankoop-id&#39;s en gebeurtenis-id&#39;s (gebeurtenisserialisatie). Aankoop-id&#39;s en gebeurtenis-id&#39;s verlopen momenteel nooit in Adobe Analytics. Zodra een aankoop-id of een gebeurtenis-id wordt gezien/gebruikt, wordt bij elke toekomstige hit, ongeacht wanneer, die aankoop of gebeurtenis gemarkeerd als een duplicaat. Met de nieuwe verwerkingsmotor:<ul><li>Aankoop-id&#39;s en gebeurtenis-id&#39;s verlopen altijd na 37 maanden.</li><li>Als de aankoop-id of de gebeurtenis-id 37 maanden is geleden, wordt deze niet langer beschouwd als een dubbele aankoop of gebeurtenis.</li><li> Als u aankoop-id&#39;s of gebeurtenis-id&#39;s van meer dan 37 maanden geleden &quot;opnieuw gebruikt&quot;, worden ze niet langer beschouwd als duplicaten.</li></ul> |
-| **Migratie naar AdobeIO OAuth Server-to-Server-referenties** | 11 mei 2023 | Adobe Analytics API- en Livestream-klanten die AdobeIO JWT-gebruikersgegevens gebruiken, moeten door **1 januari 2025**. Zie de kennisgeving aan het einde van de levensduur in de onderstaande tabel voor meer informatie en tijdlijnen. |
+| **Migratie naar Adobe I/O OAuth Server-aan-Server geloofsbrieven** | 11 mei 2023 | Adobe Analytics API- en Livestream-klanten die Adobe I/O JWT-gebruikersgegevens gebruiken, moeten naar Adobe I/O OAuth Server-to-Server-gebruikersgegevens migreren door **1 januari 2025**. Zie de kennisgeving aan het einde van de levensduur in de onderstaande tabel voor meer informatie en tijdlijnen. |
 
 {style="table-layout:auto"}
 
