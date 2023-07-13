@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
 workflow-type: tm+mt
-source-wordcount: '4420'
+source-wordcount: '4421'
 ht-degree: 28%
 
 ---
@@ -25,8 +25,9 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **juli 2023** | |
+| Nieuwe variabele AppMeasurement | De variabele `decodeLinkParameters` past randgevallen aan waarin implementaties multi-byte karakters in verbinding het volgen variabelen coderen. [Meer informatie](../implement/vars/config-vars/decodelinkparameters.md) |
 | **Juni 2023** | |
-| Variabele van nieuw AppMeasurement | De variabele `doubleEncodeLinkParameters` past randgevallen aan waarin implementaties multi-byte karakters in verbinding het volgen variabelen coderen. [Meer informatie](../implement/vars/config-vars/doubleencodelinkparameters.md) |
 | Nieuwe functies voor classificatiesets | [Classificatiesets](/help/components/classifications/sets/overview.md) zijn bijgewerkt met verschillende nieuwe functies:<ul><li>**Consolidaties**: Combineer classificatiesets tot één enkel geconsolideerd classificatieset. De geconsolideerde classificatieset kan worden gebruikt als andere classificatiesets of als een set opzoekgegevens in Customer Jourey Analytics. [Meer informatie](../components/classifications/sets/consolidations/manage.md)</li><li>**Regels**: Waarden automatisch classificeren op basis van regels in de classificatieset. [Meer informatie](../components/classifications/sets/manage/rules.md)</li><li>**Automatisch importeren**: Importeer classificatiegegevens automatisch van cloudopslagbestemmingen. [Meer informatie](../components/classifications/sets/manage/schema.md)</li></ul> |
 | Berekende metrische updates | Verschillende artikelen met betrekking tot berekende meetwaarden zijn bijgewerkt, waaronder het bijwerken van schermafbeeldingen en stappen in procedures. Deze wijzigingen zijn aangebracht om de documentatie in overeenstemming te brengen met de huidige Adobe Analytics-functionaliteit. |
 | Beveiligde doelen voor het exporteren van gegevenstoevoer | Gegevensfeeds kunnen nu naar de volgende opslagdoelen in de cloud worden verzonden:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Doelen die voorheen beschikbaar waren (FTP, SFTP, S3 en Azure Blob) worden niet meer aanbevolen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) |

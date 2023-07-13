@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics-implementatiehandleiding
 breadcrumb-title: Implementatiehandleiding
 user-guide-description: Leer hoe u Adobe Analytics kunt implementeren. Pas aan welke gegevens worden verzameld om het meeste uit Analytics-gegevens te halen.
-source-git-commit: fb739c9185cdc246540cfe9c78dc8660022512d4
+source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 73%
@@ -29,7 +29,7 @@ ht-degree: 73%
       + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
       + [cookieLifetime](vars/config-vars/cookielifetime.md)
       + [currencyCode](vars/config-vars/currencycode.md)
-      + [doubleEncodeLinkParameters](vars/config-vars/doubleencodelinkparameters.md)
+      + [decodeLinkParameters](vars/config-vars/decodelinkparameters.md)
       + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
       + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
       + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)
