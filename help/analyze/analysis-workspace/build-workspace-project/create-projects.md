@@ -3,9 +3,10 @@ description: Leer de basisbeginselen van het maken van een project in Analysis W
 title: Projecten maken
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
+exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
+source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -32,6 +33,7 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
 
       * **Leeg project** als u van plan bent om uw analyse van browser te delen
       * [**Lege mobiele scorecard**](/help/analyze/mobile-app/curator.md) als u uw analyse wilt delen via de mobiele app voor Adobe Analytics-dashboards.
+
    1. Selecteer [!UICONTROL **Maken**].
 
 +++
@@ -44,7 +46,10 @@ In de volgende secties wordt beschreven hoe u een project maakt en de belangrijk
 
       Standaard is een set standaardrapporten beschikbaar. Bovendien zou uw organisatie douanerapporten voor u kunnen tot stand brengen om te kiezen uit.
 
-      Zie &quot;Navigeren op het tabblad Rapporten&quot; in [Adobe Analytics-landingspagina](/help/analyze/landing.md).
+   1. Selecteren [!UICONTROL **Project**] > [!UICONTROL **Opslaan**] om het rapport op te slaan als een nieuw project.
+
+      Zie &quot;Navigeren op het tabblad Rapporten&quot; in voor meer informatie over rapporten [Adobe Analytics-landingspagina](/help/analyze/landing.md).
+
 +++
 
 1. Daarna, moet u panelen, visualisaties, en componenten aan uw project toevoegen. Voeg eerst deelvensters toe aan uw project in Analysis Workspace, zoals beschreven in [Deelvensters toevoegen aan het project](#add-panels-to-the-project). Vervolgens kunt u visualisaties toevoegen aan alle deelvensters. Tot slot kunt u componenten aan om het even welke panelen of visualisaties toevoegen.
@@ -108,4 +113,3 @@ Een component toevoegen:
 Terwijl u een analyse maakt in Analysis Workspace, wordt uw werk [automatisch opgeslagen](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen van actioneerbare inzichten, is het project klaar om door anderen te worden verbruikt. U kunt het project met gebruikers en groepen in uw organisatie, of zelfs met mensen buiten uw organisatie delen. Voor informatie over het delen van een project raadpleegt u [Projecten delen](/help/analyze/analysis-workspace/curate-share/share-projects.md).
-
