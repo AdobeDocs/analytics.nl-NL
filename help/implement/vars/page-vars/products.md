@@ -3,9 +3,9 @@ title: products
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
+source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ Er is geen specifiek veld in Adobe Experience Platform Data Collection om deze v
 3. Ga naar de [!UICONTROL Extensions] tab, en klik vervolgens op [!UICONTROL Catalog] om alle beschikbare extensies weer te geven.
 4. Zoek naar de term &quot;product&quot;, die verscheidene uitbreidingen beschikbaar om te helpen plaatsen deze variabele openbaart.
 
-U kunt één van deze uitbreidingen gebruiken, of u kunt de redacteur van de douanecode gebruiken na syntaxis AppMeasurement hieronder.
+U kunt een van deze extensies gebruiken, maar u kunt ook de aangepaste code-editor gebruiken die volgt op de syntaxis van het AppMeasurement hieronder.
 
-## s.products in AppMeasurement en de de coderedacteur van de uitbreiding van de Analyse
+## s.products in AppMeasurement en de de coderedacteur van de de uitbreidingsuitbreiding van de Analyse
 
 De `s.products` variabele is een tekenreeks die meerdere gescheiden velden per product bevat. Elk veld scheiden met een puntkomma (`;`) in de tekenreeks.
 
@@ -60,7 +60,7 @@ De `s.products` variabele is een tekenreeks die meerdere gescheiden velden per p
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Deze variabele ondersteunt meerdere producten in dezelfde hit. Het is waardevol voor winkelwagentjes en aankopen die meerdere producten bevatten. De maximumlengte voor de gehele `products` string is 64K. Elk product scheiden met een komma (`,`) in de tekenreeks.
+Deze variabele ondersteunt meerdere producten in dezelfde hit. Het is waardevol voor winkelwagentjes en aankopen die meerdere producten bevatten. De maximumlengte voor de gehele `products` tekenreeks is 64k bytes. Elk product scheiden met een komma (`,`) in de tekenreeks.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
@@ -69,7 +69,7 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!WARNING]
 >
->Hiermee kunt u alle puntkomma&#39;s, komma&#39;s en eVar uit productnamen, categorieën en waarden voor het wijzigen van handelswaarden verwijderen. Als een productnaam een komma bevat, parseert AppMeasurement deze als het begin van een nieuw product. Door deze onjuiste parsering wordt de rest van de productreeks verwijderd, waardoor onjuiste gegevens in afmetingen en rapporten ontstaan.
+>Hiermee kunt u alle puntkomma&#39;s, komma&#39;s en eVar uit productnamen, categorieën en waarden voor het wijzigen van handelswaarden verwijderen. Als een productnaam een komma bevat, wordt deze door AppMeasurement als het begin van een nieuw product geparseerd. Door deze onjuiste parsering wordt de rest van de productreeks verwijderd, waardoor onjuiste gegevens in afmetingen en rapporten ontstaan.
 
 ## Voorbeelden
 

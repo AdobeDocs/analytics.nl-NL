@@ -3,9 +3,9 @@ title: events
 description: Stel de gebeurtenisvariabele in, die de meeste meetgegevens op uw site beheert.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,9 @@ Er zijn verschillende functies beschikbaar:
 * Een optioneel tekstveld voor een gebeurteniswaarde. U kunt een valuta voor valutagebeurtenissen opnemen of een geheel getal voor gebeurtenissen buiten de valuta om deze meerdere keren te verhogen. Als u bijvoorbeeld `event1` onder de vervolgkeuzelijst en inclusief `10` in dit veld, stappen `event1` 10 bij de rapportage.
 * Een knop om een andere gebeurtenis toe te voegen. U kunt net zoveel gebeurtenissen toevoegen als u wilt met één regel.
 
-## s.events in AppMeturement en de de coderedacteur van de uitbreiding van de Analyse van de douanecode
+## s.events in AppMeasurement en de de uitbreidingsredacteur van de douanecode van de Analyse
 
-De `s.events` variabele is een tekenreeks die een door komma&#39;s gescheiden lijst met gebeurtenissen bevat die in de hit moeten worden opgenomen. Er is geen bytelimiet voor deze variabele, zodat de variabele niet wordt afgekapt. Geldige waarden zijn:
+De `s.events` variabele is een tekenreeks die een door komma&#39;s gescheiden lijst met gebeurtenissen bevat die in de hit moeten worden opgenomen. De variabele staat tot 64k bytes toe, in feite toelatend zo vele gebeurtenissen aangezien een slag vereist. Geldige waarden zijn:
 
 * `event1` - `event1000`: Aangepaste gebeurtenissen instellen op de gewenste manier. Registreer hoe u elke gebeurtenis in uw organisatie gebruikt [document ontwerp oplossing](../../../prepare/solution-design.md). Het aantal beschikbare gebeurtenissen is afhankelijk van het contract Analytics van uw organisatie. De meeste organisaties op niet verouderde contracten hebben 1000 beschikbare douanefouten. Neem contact op met het accountteam van Adobe als u niet weet hoeveel aangepaste gebeurtenissen voor u beschikbaar zijn.
 * `purchase`: Verhoogt de [&#39;Bestellingen&#39;](/help/components/metrics/orders.md) metrisch bij 1, en neemt waarden die in worden geplaatst `products` variabele die moet worden berekend [&#39;Eenheden&#39;](/help/components/metrics/units.md) en [&quot;Ontvangsten&quot;](/help/components/metrics/revenue.md). Zie [koopgebeurtenis](event-purchase.md) voor meer informatie .
