@@ -2,20 +2,21 @@
 title: Adobe Analytics implementeren met AppMeasurement voor JavaScript
 description: Leer hoe u Adobe Analytics implementeert met JavaScript zonder een tagbeheersysteem.
 feature: Implementation Basics
-source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
+exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 7%
+source-wordcount: '206'
+ht-degree: 6%
 
 ---
 
 # Adobe Analytics implementeren met AppMeasurement voor JavaScript
 
-AppMeasurement voor JavaScript is historisch gezien een veelgebruikte methode geweest om Adobe Analytics te implementeren. Maar met toenemende populariteit van Tag Management Systems, die [tags in Adobe Experience Platform](../launch/overview.md) aanbevolen.
+AppMeasurement voor JavaScript is historisch gezien een veel gebruikte methode geweest om Adobe Analytics te implementeren. Maar met toenemende populariteit van Tag Management Systems, die [tags in Adobe Experience Platform](../launch/overview.md) aanbevolen.
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
-![Het uitvoeren van de Analysemogelijkheden van Adobe met het overzicht AppMeasurement](../assets/appmeasurement-annotated.png)
+![Hoe te om Adobe Analyses met AppMeasurement voor Javascript uit te voeren, zoals die in deze sectie wordt beschreven.](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -28,7 +29,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 </tr>
 
 <tr>
-<td>2</td><td><b>Download de vereiste JavaScript-code voor AppMeasurement</b> van Codebeheer. Pak het bestand uit.</td><td><a href="../../admin/admin/code-manager-admin.md">Code Manager</a></td>
+<td>2</td><td><b>De vereiste JavaScript-code voor AppMeasurement downloaden</b> van Codebeheer. Pak het bestand uit.</td><td><a href="../../admin/admin/code-manager-admin.md">Code Manager</a></td>
 </tr>
 
 <tr>

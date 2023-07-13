@@ -3,9 +3,9 @@ title: Adobe Analytics implementeren met de Adobe Experience Platform Web SDK
 description: Gebruik de uitbreiding van SDK van het Web in de Inzameling van Gegevens van Adobe Experience Platform om gegevens naar Adobe Analytics te verzenden.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '813'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ U kunt gegevens naar de Rand van de Ervaring direct verzenden gebruikend het Web
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
-![Adobe Analytics implementeren met Web SDK-workflow](../../assets/websdk-annotated.png)
+![Hoe te om Adobe Analytics uit te voeren gebruikend het werkschema van SDK van het Web, zoals die in deze sectie wordt beschreven.](../../assets/websdk-annotated.png)
 
 <table style="width:100%">
 
@@ -86,7 +86,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 Een overzicht op hoog niveau van de uitvoeringstaken:
 
-![Adobe Analytics implementeren met de webSDK-uitbreidingsworkflow](../../assets/websdk-extension-annotated.png)
+![Hoe te om Adobe Analytics uit te voeren gebruikend de uitbreidingswerkschema van SDK van het Web, zoals die in deze sectie wordt beschreven.](../../assets/websdk-extension-annotated.png)
 
 <table style="width:100%">
 

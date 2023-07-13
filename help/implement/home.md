@@ -3,10 +3,10 @@ title: Adobe Analytics implementeren
 description: Implementeer Adobe Analytics op uw website, eigenschap of applicatie.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 28%
+source-wordcount: '923'
+ht-degree: 27%
 
 ---
 
@@ -35,7 +35,7 @@ Voor uw **website** zijn de volgende uitvoeringsmethoden beschikbaar:
 
 * **Web SDK-extensie**: De gestandaardiseerde en aanbevolen methode voor het implementeren van Adobe Analytics voor nieuwe klanten. Installeer de **Adobe Experience Platform Web SDK-extensie** in Adobe Experience Platform Data Collection **Tags**, gebruikt u een loader-tag op elke pagina en verzendt gegevens naar Adobe Experience Platform **Edge Network** in een voor uw organisatie geschikte indeling. Het Edge Network stuurt inkomende gegevens door naar Adobe Analytics in de juiste indeling.
   ![Web SDK-extensie](./assets/websdk-extension-implementation.png)
-Zie [Adobe Analytics implementeren met de Adobe Experience Platform Web SDK-extensie](./aep-edge/overview.md) voor meer informatie .
+Zie [Hoe te om Adobe Analytics uit te voeren gebruikend de uitbreiding van SDK van het Web van Adobe Experience Platform.](./aep-edge/overview.md) voor meer informatie .
 
 * **Web SDK**: U kunt de bibliotheken van SDK van het Web op uw plaats manueel laden als u geen de Inzameling van Gegevens van Adobe Experience Platform wilt gebruiken. Verwijs naar de bibliotheek van SDK van het Web (`alloy.js`) op elke pagina en de gewenste trackingaanroepen naar de Adobe Experience Platform **Edge Network** in een voor uw organisatie geschikte indeling. Het Edge Network stuurt inkomende gegevens door naar Adobe Analytics in de juiste indeling.
   ![Web SDK](./assets/websdk-implementation.png)
@@ -47,7 +47,7 @@ Zie [Adobe Analytics implementeren met de Adobe Experience Platform Web SDK](./a
 Zie [Adobe Analytics implementeren met de extensie Analytics](launch/overview.md) voor meer informatie .
 
 * **Verouderde JavaScript:** De oude handmatige methode voor de implementatie van Adobe Analytics. Verwijs naar de bibliotheek van het AppMeasurement (`AppMeasurement.js`) op elke pagina en geeft vervolgens een overzicht van variabelen en instellingen die in een implementatie worden gebruikt.
-  ![Verouderd JavaScript](./assets/appmeasurement-implementation.png)
+  ![Adobe Analytics implementeren met gebruik van verouderde JavaScript](./assets/appmeasurement-implementation.png)
 Deze implementatiemethode kan nuttig zijn voor implementaties die aangepaste code gebruiken en wordt nog steeds aanbevolen wanneer u (wilt) het volgende gebruikt:
 
    * [activiteitskaartgegevens](../analyze/activity-map/activity-map.md),
@@ -66,7 +66,7 @@ Deze implementatiemethode kan nuttig zijn voor implementaties die aangepaste cod
 
 De volgende beslissingsstroom kan u helpen een implementatiemethode te selecteren:
 
-![Beslissingsboom](./assets/decision-tree.png)
+![Een beslissingsstructuur voor het selecteren van een implementatiemethode, zoals beschreven in deze sectie.](./assets/decision-tree.png)
 
 
 >[!TIP]

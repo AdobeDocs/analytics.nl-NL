@@ -2,9 +2,10 @@
 title: Adobe Analytics implementeren met de extensie Analytics
 description: Leer hoe u Adobe Analytics implementeert met tags en de extensie Analytics
 feature: Launch Implementation
-source-git-commit: bd35fc09211a818983c27ce4494f14499c2229d8
+exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '372'
 ht-degree: 4%
 
 ---
@@ -21,7 +22,7 @@ Een overzicht op hoog niveau van de uitvoeringstaken:
 
 
 
-![Adobe Analytics die de uitbreidingsworkflow voor Analytics gebruikt](../assets/analytics-extension-annotated.png)
+![Adobe Analytics implementeren met behulp van de analyseworkflow, zoals beschreven in deze sectie.](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 
