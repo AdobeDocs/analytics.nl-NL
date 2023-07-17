@@ -3,7 +3,7 @@ title: Opmerkingen bij de release Latest Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ce2a6c9607b252150a2f8c87befb86837869fe66
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die
 | ----------- | ---------- | ------- | ---- |
 | **Opslaglocaties voor cloudaccounts configureren voor het opnemen van classificatiegegevens** | U kunt opslaglocaties voor cloudaccounts die worden gebruikt voor automatisering van classificatiesets, nu beheren. [Meer informatie](/help/components/locations/configure-import-accounts.md)<p> | N.v.t. | 10 juli 2023 |
 | **Verbeteringen in het filter Gegevensreparatie** | Er zijn drie filterverbeteringen toegevoegd aan Data Repair:<ul><li>Filter met één variabele om een tweede variabele te wijzigen. Als `eVar2` bevat &quot;@&quot;, en verwijdert u `eVar3`.</li><li>Filter voor numerieke of niet-numerieke waarden</li><li>Meerdere filters toepassen met een AND. Bijvoorbeeld, waarbij `eVar2="a"` EN `eVar3="b"`</li></ul>[Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21 juni 2023 | 12 juli 2023 |
-| **Beveiligde doelen voor het exporteren van gegevenstoevoer** | Gegevensfeeds kunnen nu naar de volgende opslagdoelen in de cloud worden verzonden:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Doelen die voorheen beschikbaar waren (FTP, SFTP, S3 en Azure Blob) worden niet meer aanbevolen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) | 12 juni 2023 | 15 juli 2023 |
+| **Beveiligde doelen voor het exporteren van gegevenstoevoer** | Gegevensfeeds kunnen nu naar de volgende opslagdoelen in de cloud worden verzonden:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Doelen die voorheen beschikbaar waren (FTP, SFTP, S3 en Azure Blob) worden niet meer aanbevolen. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) | 12 juni 2023 | 13 juli 2023 |
 | **Variabele van nieuw AppMeasurement** | De variabele `decodeLinkParameters` past randgevallen aan waarin implementaties multi-byte karakters in verbinding het volgen variabelen coderen. De meeste implementaties hoeven deze variabele niet te definiëren. [Meer informatie](../implement/vars/config-vars/decodelinkparameters.md) |  | 17 juli 2023 |
 
 {style="table-layout:auto"}

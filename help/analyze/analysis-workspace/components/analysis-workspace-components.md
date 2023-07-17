@@ -4,7 +4,7 @@ title: Overzicht van onderdelen
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 3%
@@ -127,8 +127,6 @@ U kunt zoeken, filteren en sorteren de componentenlijst in de linkerspoor van An
 4. (Optioneel) Als u de lijst verder wilt uitlijnen, kunt u de lijst met componenten sorteren, zoals beschreven in [De componentlijst sorteren](#sort-the-component-list).
 
 ### De componentlijst sorteren
-
-{{release-limited-testing-section}}
 
 1. (Optioneel) Pas filters toe op de lijst met componenten, zoals beschreven in [De componentlijst filteren](#filter-the-component-list).
 

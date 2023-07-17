@@ -4,18 +4,14 @@ keywords: clickStream;data feed;datafeed;Data Feed
 title: Overzicht van gegevensinvoer voor analyse
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '557'
 ht-degree: 5%
 
 ---
 
 # Overzicht van gegevensinvoer voor analyse
-
->[!AVAILABILITY]
->
->Sommige doeltypen die op deze pagina worden beschreven, bevinden zich in de beperkte testfase van de release en zijn mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
 
 Gegevensfeeds zijn een krachtige manier om onbewerkte gegevens uit Adobe Analytics te halen. Deze onbewerkte gegevens kunnen worden gebruikt op andere platformen buiten de Adobe om naar eigen goeddunken van uw organisatie te worden gebruikt. De gegevens worden aan het einde van elk uur in partijen per uur of aan het einde van elke dag in partijen per uur verstrekt.
 

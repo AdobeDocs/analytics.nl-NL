@@ -3,18 +3,14 @@ title: Een gegevensfeed maken
 description: Leer hoe u een gegevensfeed maakt.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 35f33c026a679526309b09b5af61fc3fd8041c39
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3156'
 ht-degree: 1%
 
 ---
 
 # Een gegevensfeed maken
-
->[!AVAILABILITY]
->
->Sommige doeltypen die op deze pagina worden beschreven, bevinden zich in de beperkte testfase van de release en zijn mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
 
 Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende informatie:
 
