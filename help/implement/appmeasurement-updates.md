@@ -3,9 +3,9 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 5545497184d02400ce6844c0281c46e6c997e218
+source-git-commit: f996448224ffebd57023c8d8e4eeeccb4d6e2a47
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2363'
 ht-degree: 2%
 
 ---
@@ -22,8 +22,8 @@ U kunt de nieuwste versie van het AppMeasurement downloaden in het dialoogvenste
 
 Releasedatum: **18 juli 2023**
 
-* Er is een optionele configuratie toegevoegd (standaard false decodeLinkParameters) die koppelings-URL&#39;s met double-byte gecodeerde tekens decodeert.
-* Extra foutafhandeling toegevoegd voor browsers met onjuiste API&#39;s voor gebruikers-Agent-clienthints voor hoog-entropie.
+* Een optionele configuratie toegevoegd (`decodeLinkParameters` standaard false) die koppelings-URL&#39;s met double-byte gecodeerde tekens decodeert.
+* Extra foutafhandeling toegevoegd voor browsers met onjuiste API&#39;s voor client-tips voor gebruikers-agent met hoge entropie.
 * Gewijzigde POST Content-Type header voor gebruik `x-www-form-urlencoded` standaard.
 
 ## Versie 2.23.0
