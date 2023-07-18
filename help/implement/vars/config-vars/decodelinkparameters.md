@@ -3,7 +3,7 @@ title: decodeLinkParameters
 description: Schakel AppMeasurement dubbele codering van koppelingsvolgvariabelen in of uit.
 exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
 feature: Variables
-source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
+source-git-commit: e666a2efae01bad3cc3ccc5c8bfafe009a429588
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # decodeLinkParameters
 
-De `decodeLinkParameters` variable is a boolean that determines if link tracking variables get encoded once (if set to `true`) of tweemaal (indien ingesteld op `false`). Alleen effecten `linkName` (deel van de [`tl()`](../functions/tl-method.md) methode) en [`linkURL`](linkurl.md). Voor gebruik is AppMeasurement 2.23.1 of hoger vereist. De standaardwaarde van deze variabele is `false`.
+De `decodeLinkParameters` variable is a boolean that determines if link tracking variables get encoded once (if set to `true`) of tweemaal (indien ingesteld op `false`). Alleen effecten `linkName` (deel van de [`tl()`](../functions/tl-method.md) methode) en [`linkURL`](linkurl.md). Het vereist AppMeasurement 2.24.0 of hoger om te gebruiken. De standaardwaarde van deze variabele is `false`.
 
 In eerdere versies van AppMeasurement waren koppelingsvolgvariabelen altijd twee keer gecodeerd met URL. Hoewel dit geen probleem is voor implementaties die doorgaans vertrouwen op single-bytetekens, zijn met de dubbele codering onjuist gecodeerde waarden voor multi-bytetekens in rapporten gemaakt. Deze variabele instellen op `true` codeert de waarden voor het bijhouden van koppelingen eenmaal. Dit is doorgaans het gewenste gedrag.
 
