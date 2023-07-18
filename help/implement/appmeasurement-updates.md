@@ -3,20 +3,28 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 5545497184d02400ce6844c0281c46e6c997e218
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2364'
 ht-degree: 2%
 
 ---
 
 # AppMeasurement voor JavaScript-releaseopmerkingen
 
-Cumulatieve opmerkingen voor [!DNL AppMeasurement] voor JavaScript.
+Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-U kunt de nieuwste versie van het AppMeasurement downloaden in het dialoogvenster [Codebeheer](/help/admin/admin/code-manager-admin.md).
+U kunt de nieuwste versie van het AppMeasurement downloaden in het dialoogvenster [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Versie 2.24.0
+
+Releasedatum: **18 juli 2023**
+
+* Er is een optionele configuratie toegevoegd (standaard false decodeLinkParameters) die koppelings-URL&#39;s met double-byte gecodeerde tekens decodeert.
+* Extra foutafhandeling toegevoegd voor browsers met onjuiste API&#39;s voor gebruikers-Agent-clienthints voor hoog-entropie.
+* Gewijzigde POST Content-Type header voor gebruik `x-www-form-urlencoded` standaard.
 
 ## Versie 2.23.0
 
