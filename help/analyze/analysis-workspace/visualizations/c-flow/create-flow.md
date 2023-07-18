@@ -4,9 +4,9 @@ title: Een stroomvisualisatie configureren
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 58f53da6076bf57d060303538814582cb5eb009c
+source-git-commit: d1c2966bfd7cb5e397de23adf45bb38fca34e416
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1254'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,9 @@ Met stroomvisualisaties kunt u het begin of einde van het pad configureren waari
 
 1. Voeg een leeg paneel aan uw project toe en klik het visualisatiepictogram in het linkerspoor.
 
-1. Sleep de [!UICONTROL **Stroom**] visualisatie in het deelvenster.
-
    of
 
-   Sleep de [!UICONTROL **Stroom**] visualisatie in een bestaand project.
+   Voeg een visualisatie op om het even welke die manieren toe in de sectie &quot;van de Vormgeving aan een paneel&quot;worden beschreven in [Overzicht van visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 1. Veranker uw stroomvisualisatie met een van de volgende opties:
 
@@ -45,7 +43,7 @@ Met stroomvisualisaties kunt u het begin of einde van het pad configureren waari
    >
    >Berekende metriek kan niet worden gebruikt in de  **[!UICONTROL Starts with]** of **[!UICONTROL Ends with]** velden.
 
-1. Als u metrisch kiest, moet u ook verstrekken [!UICONTROL Pathing Dimension] gebruiken om te gebruiken als het pad dat naar of van de geselecteerde component leidt, zoals hier wordt getoond. De standaardwaarde is [!UICONTROL **Pagina**].
+1. Als u metrisch kiest, moet u ook verstrekken [!UICONTROL **Paden, Dimension**] gebruiken om te gebruiken als het pad dat naar of van de geselecteerde component leidt, zoals hier wordt getoond. De standaardwaarde is [!UICONTROL **Pagina**].
 
    ![schilderdimensie](assets/pathing-dim.png)
 

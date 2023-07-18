@@ -3,10 +3,10 @@ title: Gebruikersinterface voor gegevensinvoer
 description: Leer hoe te om de interface van de gegevensvoer te navigeren.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 0%
+source-wordcount: '649'
+ht-degree: 2%
 
 ---
 
@@ -20,11 +20,9 @@ Hier volgt een video over de interface van Data Feeds Management:
 
 Voer de volgende stappen uit om toegang te krijgen tot gegevensbeheer:
 
-1. Aanmelden bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
-2. Klik in het menu met 9-rasters rechtsboven en klik vervolgens op [!UICONTROL Analytics].
-3. Klik in het bovenste menu op [!UICONTROL Admin] > [!UICONTROL Data Feeds].
-
-![Menu Gegevensinvoer](assets/AdminMenu.png)
+1. Meld u met uw Adobe ID aan bij [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+1. Selecteer het pictogram van 9 vierkante pixels rechtsboven en selecteer vervolgens [!UICONTROL **Analyse**].
+1. Ga in de bovenste navigatiebalk naar [!UICONTROL **Beheer**] > [!UICONTROL **Gegevensfeeds**].
 
 ## Navigeren door de interface
 
@@ -36,27 +34,25 @@ Als er geen feeds zijn ingesteld, wordt op de pagina een [!UICONTROL Create New 
 
 ### Filters en zoeken
 
-Gebruik filters en zoek naar de exacte feed die u zoekt.
+Gebruik zoekopdrachten of filters om een specifieke feed te zoeken.
 
-Klik helemaal links op het filterpictogram om filteropties weer te geven of te verbergen. Filters zijn ingedeeld in categorieën. Klik op het chevron om filtercategorieën samen te vouwen of uit te vouwen. Klik op het selectievakje om dat filter toe te passen.
+* Typ in het zoekveld de naam van een feed. Alleen de overeenkomende feeds worden weergegeven in de lijst met beschikbare feeds.
 
-![Filter](assets/filters.jpg)
+* Klik helemaal links op het filterpictogram om filteropties weer te geven of te verbergen. Filters zijn ingedeeld in categorieën. U kunt filtercategorieën samenvouwen of uitvouwen. Schakel het selectievakje naast een filter dat u wilt toepassen in.
 
-Gebruik Zoeken om een feed op naam te zoeken.
-
-![Zoeken](assets/search.jpg)
+  ![Filter](assets/filters.png)
 
 ### Feeds en taken
 
-Klik op het tabblad Taken om afzonderlijke taken weer te geven die door elk van uw feeds worden gemaakt. Zie [Taken voor gegevensinvoer beheren](df-manage-jobs.md).
+Selecteer [!UICONTROL **Taken**] om afzonderlijke taken weer te geven die door elk van uw feeds worden gemaakt. Zie [Taken voor gegevensinvoer beheren](df-manage-jobs.md).
 
 ### Toevoegen
 
-Klik op + bij de tabbladen feeds en taken [!UICONTROL Add] om een nieuwe feed te maken. Zie [Een gegevensfeed maken](create-feed.md) voor meer informatie .
+De [!UICONTROL Add] kunt u een nieuwe feed maken. Zie [Een gegevensfeed maken](create-feed.md) voor meer informatie .
 
 ### Kolommen
 
-Elk gecreeerd voer toont verscheidene kolommen die informatie over het verstrekken. Klik op een kolomkop om deze in oplopende volgorde te sorteren. Klik nogmaals op een kolomkop om deze in aflopende volgorde te sorteren. Als een bepaalde kolom niet zichtbaar is, klikt u op het kolompictogram rechtsboven.
+Elk gecreeerd voer toont verscheidene kolommen die informatie over het verstrekken. Selecteer een kolomkop om deze in oplopende volgorde te sorteren. Selecteer nogmaals een kolomkop om deze in aflopende volgorde te sorteren. Als een bepaalde kolom niet zichtbaar is, klikt u op het kolompictogram rechtsboven.
 
 ![Kolompictogram](assets/cols.jpg)
 
