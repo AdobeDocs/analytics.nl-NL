@@ -4,20 +4,24 @@ description: Antwoorden op veelgestelde vragen over attributie.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 5ed1ff0ecee4843f866b1a911e2cb5f14310c58a
+source-git-commit: aeb5558c85286c069b49663919fdbb15853bf88e
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 2%
+source-wordcount: '1212'
+ht-degree: 1%
 
 ---
 
 # Veelgestelde vragen over attributie
 
-## Wat is het regelitem &quot;Geen&quot; wanneer u een kenmerk gebruikt?
+
++++## Wat is het &quot;niets&quot;lijnpunt wanneer het gebruiken van attributie?
 
 Het regelitem Geen is een catch-all-item dat alle conversies vertegenwoordigt die zonder aanraakpunten in het terugzoekvenster zijn uitgevoerd. Om het aantal omzettingen te verminderen die aan het &quot;niets&quot;lijnpunt worden toegewezen, probeer gebruikend een Venster van de Lookback van de Douane met een langere raadplegingsperiode.
 
-## Waarom zie ik soms data buiten mijn rapporteringsvenster wanneer het gebruiken van attributiemodellen?
++++
+
+
++++## Waarom zie ik soms data buiten mijn rapporteringsvenster wanneer het gebruiken van attributiemodellen?
 
 Sommige op bezoek-gebaseerde metriek, zoals [Berichten](/help/components/metrics/entries.md) of [Stuitsnelheid](/help/components/metrics/bounce-rate.md), kan gegevens aan een periode vóór de rapportperiode van het vensterbegin bepalen. Deze situatie is toe te schrijven aan attributiemodellen die een terugkijkvenster gebruiken, dat bepaalt hoe ver achtereigenschap zou moeten kijken om krediet voor metriek te geven. Het gemeenschappelijkste scenario is wanneer de bezoeken middernacht overspannen. Bijvoorbeeld:
 
@@ -37,23 +41,38 @@ Kijk eens naar een ander vergelijkbaar voorbeeld. Het enige verschil tussen het 
 
 In dit voorbeeld worden gegevens van 31 augustus niet weergegeven met de tarieven Bounce en Bounce. Het terugzoekvenster en het rapportagevenster beginnen beide op 1 september, zodat gegevens niet vanaf 31 augustus kunnen worden toegewezen.
 
-## Wanneer moet ik een bezoek, bezoeker of aangepaste terugzoekactie voor kenmerken gebruiken?
++++
 
-De keuze van de terugzoekfunctie voor attributie hangt af van het gebruikte geval. Als conversies doorgaans langer duren dan één bezoek, wordt een bezoeker of aangepaste terugzoekactie aanbevolen. Voor langere conversiecycli zijn aangepaste terugzoekvensters het beste omdat dit het enige type is dat gegevens kan ophalen van vóór het rapportagevenster
 
-## Hoe vergelijken props en eVars wanneer het gebruiken van attributie?
++++## Wanneer zou ik een bezoek, een bezoeker, of een terugkijkplaats van de douaneattributie moeten gebruiken?
+
+De keuze van de terugzoekfunctie voor attributie hangt af van het gebruikte geval. Als conversies doorgaans langer duren dan één bezoek, wordt een bezoeker of aangepaste terugzoekactie aanbevolen. Voor langere conversiecycli zijn aangepaste terugkijkvensters het beste omdat dit het enige type is dat gegevens van vóór het rapportvenster kan ophalen.
+
++++
+
+
++++## Hoe vergelijken props en eVars wanneer het gebruiken van attributie?
 
 Attribution wordt opnieuw berekend tijdens de runtime van het rapport, zodat er geen verschil is tussen een prop of eVar (of een andere dimensie) voor attributiemodellering. Props kunnen blijven bestaan met een terugzoekvenster of een toewijzingsmodel en instellingen voor eVar-toewijzing/vervaldatum worden genegeerd.
 
-## Zijn toewijzingsmodellen beschikbaar in andere analysemogelijkheden, zoals gegevensfeeds of Data Warehouse?
++++
+
+
++++## Zijn attributiemodellen beschikbaar in andere analytische mogelijkheden, zoals de Eigenschap van Gegevens of Data Warehouse?
 
 Nee. Attributiemodellen gebruiken verwerking van rapporttijd, die alleen beschikbaar is in Analysis Workspace. Zie [Tijdverwerking rapporteren](/help/components/vrs/vrs-report-time-processing.md) voor meer informatie .
 
-## Zijn toewijzingsmodellen alleen beschikbaar als ik een virtuele rapportsuite gebruik waarvoor verwerking van rapporttijd is ingeschakeld?
++++
+
+
++++## zijn attributiemodellen slechts beschikbaar als ik een virtuele rapportreeks met toegelaten verwerking van de rapporttijd gebruik?
 
 Attributiemodellen zijn beschikbaar buiten virtuele rapportsuites. Terwijl zij de verwerking van de rapporttijd op de achtergrond gebruiken, zijn de attributiemodellen beschikbaar aan zowel standaardrapportreeksen als virtuele rapportreeksen.
 
-## Welke afmetingen en metriek worden niet gesteund?
++++
+
+
++++## Welke afmetingen en metriek worden niet ondersteund?
 
 Het deelvenster Kenmerken ondersteunt alle afmetingen. Niet-ondersteunde meetgegevens zijn:
 
@@ -73,33 +92,57 @@ Het deelvenster Kenmerken ondersteunt alle afmetingen. Niet-ondersteunde meetgeg
 * Bezoeken van één pagina
 * Eenmalige toegang
 
-## Werkt de toewijzing met classificaties?
++++
+
+
++++# Werkt de attributie met classificaties?
 
 Ja, classificaties worden volledig ondersteund.
 
-## Werkt de toewijzing met gegevensbronnen?
++++
 
-Ja, de meeste gegevensbronnen worden ondersteund. Attributie is niet mogelijk bij gegevensbronnen op overzichtsniveau omdat deze niet aan een bezoekersidentificatie van Analytics zijn gekoppeld.
 
-Gegevensbronnen van de transactie-id worden op dezelfde wijze behandeld als andere treffers; ze gebruiken niet de speciale verwerking die ze normaal gebruiken in traditionele rapportage. Met andere woorden, wanneer het gebruiken van de verwerking van de rapporttijd, zullen de treffers van identiteitskaart van de Transactie eVar waarden hebben die van hits voorkomen die dichtbij tijdstempel van de treffer van identiteitskaart van de Transactie voorkomen. De waarden worden niet doorgegeven uit treffers die zijn opgetreden vlak bij de oorspronkelijke transactie.
++++# Werkt de attributie met gegevensbronnen?
 
-## Werkt attributie met de integratie van Advertising Analytics?
+Ja, de meeste gegevensbronnen worden ondersteund. Attributie is niet mogelijk met gegevensbronnen op overzichtsniveau omdat deze gegevensbronnen niet aan een bezoeker-id van de Analyse binden.
+
+Transactie-id-gegevensbronnen worden op dezelfde manier behandeld als elke andere hit. Gegevensbronnen van transactie-id maken geen gebruik van de speciale verwerking die normaal wordt gebruikt in traditionele rapportage. Met andere woorden, wanneer het gebruiken van de verwerking van de rapporttijd, zullen de treffers van identiteitskaart van de Transactie eVar waarden hebben die van hits voorkomen die dichtbij tijdstempel van de treffer van identiteitskaart van de Transactie voorkomen. De waarden worden niet doorgegeven uit treffers die zijn opgetreden vlak bij de oorspronkelijke transactie.
+
+Waar mogelijk, baseert de attributie IQ zich op de MID kolomwaarde die binnen een gebeurtenis in de gegevensbron wordt verzonden, eerder dan een persisted waarde. Het attributiemodel wordt toegepast op de kolomwaarden MID in de gegevensbron, ter plekke. Wanneer u bijvoorbeeld de kenmerk &quot;Laatste aanraking&quot; gebruikt, begint het model bij elke instantie van een metrische waarde en loopt het achterwaarts in de reeks totdat de laatste waarde in de kolom MID is bereikt.
+
+Indien niet mogelijk gebruikt attributie-IQ de MID-waarde in de &#39;eerdere record&#39; in de gegevensbron voor evaluatie. Deze eerdere record wordt mogelijk niet opeenvolgend met een tijdstempel geordend, aangezien AA geen ondersteuning biedt voor gegevens buiten de bestelling.
+
+Omdat de records niet opeenvolgend worden geordend, kunnen de verwachte waarden van het toepassen van persistentie van invloed zijn op de hoeveelheid tijd die tussen de opgegeven tijdstempel voor de transactie-id en de oorspronkelijke transactie bestaat.
+
++++
+
+
++++# Werkt de attributie met de integratie van Advertising Analytics?
 
 Metagegevensafmetingen, zoals type en trefwoord, werken met kenmerk. Metrische gegevens (zoals afbeeldingen, kosten, klikken, gemiddelde positie en gemiddelde kwaliteitsscore) gebruiken echter gegevensbronnen op overzichtsniveau en zijn daarom niet compatibel.
 
-## Hoe werkt attributie met marketingkanalen?
++++
+
+
++++# hoe werkt de attributie met marketing kanalen?
 
 Toen de marketingkanalen voor het eerst werden geïntroduceerd, hadden ze alleen de eerste en laatste aanraakafmetingen. Expliciete eerste/laatste aanraakafmetingen zijn niet meer nodig met de huidige versie van de toewijzing. Adobe verstrekt algemeen [!UICONTROL Marketing Channel] en [!UICONTROL Marketing Channel Detail] afmetingen zodat u deze kunt gebruiken met het gewenste attributiemodel. Deze algemene afmetingen gedragen zich als [!UICONTROL Last Touch Channel] de afmetingen, maar worden anders geëtiketteerd om verwarring te voorkomen wanneer het gebruiken van marketing kanalen met een verschillend attributiemodel.
 
 Aangezien de afmetingen van de marketingkanalen afhankelijk zijn van een traditionele &quot;visit&quot;-definitie (zoals gedefinieerd door hun verwerkingsregels), kan de definitie van hun &quot;visit&quot; niet worden gewijzigd met behulp van virtuele-rapportsuites.
 
-## Hoe werkt attributie met variabelen met meerdere waarden, zoals list vars?
++++
+
+
++++## Hoe werkt de attributie met multi-waardevariabelen, zoals lijstvariabelen?
 
 Sommige afmetingen in Analytics kunnen veelvoudige waarden op één enkele slag bevatten. Veelvoorkomende voorbeelden zijn list vars en de productvariabele.
 
 Wanneer de attributie wordt toegepast op multi-value klappen, krijgen alle waarden in de zelfde klappers de zelfde creditering. Aangezien vele waarden dit krediet kunnen ontvangen, kan het rapporttotaal verschillend zijn dan als u elk individueel lijnpunt samenstelde. Het rapporttotaal wordt gededupliceerd, terwijl elke afzonderlijke dimensie-item de juiste creditering krijgt.
 
-## Hoe werkt attributie met segmentatie?
++++
+
+
++++## Hoe werkt de attributie met segmentatie?
 
 Attributie wordt altijd uitgevoerd vóór segmentatie en segmentatie wordt uitgevoerd voordat rapportfilters worden toegepast. Dit concept is ook op virtuele rapportsuites van toepassing gebruikend segmenten.
 
@@ -110,3 +153,5 @@ Als u bijvoorbeeld een VRS maakt met een toegepast segment &quot;Weergaveits&quo
 >[!NOTE]
 >
 >Als een segment klappen onderdrukt die uw metrisch bevatten, worden die metrische instanties niet toegeschreven aan om het even welke afmeting. Nochtans, verbergt een gelijkaardig rapportfilter eenvoudig sommige afmetingspunten, zonder enige invloed op metriek die per het attributiemodel wordt verwerkt. Hierdoor kan een segment lagere waarden retourneren dan een filter met een vergelijkbare definitie.
+
++++
