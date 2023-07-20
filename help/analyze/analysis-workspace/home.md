@@ -4,9 +4,9 @@ description: Analysis Workspace is het belangrijkste instrument voor analyse van
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '755'
 ht-degree: 3%
 
 ---
@@ -77,6 +77,10 @@ Nadat u de componentterminologie hebt begrepen, kunt u componenten naar visualis
 Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerders de componenten in hun analyseomgeving volgen en beter begrijpen.
 
 Voor meer informatie over het gegevenswoordenboek raadpleegt u [Overzicht van gegevenswoordenboek](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
+
+### Databronnen
+
+Door visualisatie te synchroniseren kunt u bepalen welke datatabel of gegevensbron overeenkomt met een visualisatie. Hier vindt u meer informatie over hoe u kunt [gegevensbronnen beheren](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Beginnen met Analysis Workspace
 
