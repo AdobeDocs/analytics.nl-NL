@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9a6728de91ac968c5ff4eb28217b5ea1d11513f8
+source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
 workflow-type: tm+mt
-source-wordcount: '4460'
+source-wordcount: '4507'
 ht-degree: 28%
 
 ---
@@ -26,9 +26,11 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **juli 2023** | |
-| Id van wereldwijd bedrijf | Gedocumenteerd [hoe kan ik de global company id vinden ?](../admin/admin/company/web-services-admin.md) voor het bedrijf van Analytics u wordt geregistreerd in. Deze id is vereist voor API&#39;s van Analytics 2.0. |
+| Algemene bedrijfs-id | Gedocumenteerd [hoe u de wereldwijde bedrijfs-id kunt vinden](../admin/admin/company/web-services-admin.md) voor het bedrijf van Analytics u wordt geregistreerd in. Deze id is vereist voor API&#39;s van Analytics 2.0. |
 | Bijgewerkte FTP-formaatlimiet | De standaardinstelling gewijzigd [Limiet voor FTP-gegevensopslag](/help/export/ftp-and-sftp/ftp-limits.md) naar 100 GB. |
 | Variabele van nieuw AppMeasurement | De variabele `decodeLinkParameters` past randgevallen aan waarin implementaties multi-byte karakters in verbinding het volgen variabelen coderen. [Meer informatie](../implement/vars/config-vars/decodelinkparameters.md) |
+| Opslaglocaties voor cloudaccounts configureren voor het opnemen van classificatiegegevens | U kunt opslaglocaties voor cloudaccounts die worden gebruikt voor automatisering van classificatiesets, nu beheren. [Meer informatie](/help/components/locations/configure-import-accounts.md) |
+| Verbeteringen in het filter Gegevensreparatie | Er zijn drie filterverbeteringen toegevoegd aan Data Repair. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
 | **Juni 2023** | |
 | Nieuwe functies voor classificatiesets | [Classificatiesets](/help/components/classifications/sets/overview.md) zijn bijgewerkt met verschillende nieuwe functies:<ul><li>**Consolidaties**: Combineer classificatiesets tot één enkel geconsolideerd classificatieset. Het geconsolideerde classificatieset kan worden gebruikt als andere classificatiesets of als een opzoekgegevensset in Customer Journey Analytics. [Meer informatie](../components/classifications/sets/consolidations/manage.md)</li><li>**Regels**: Waarden automatisch classificeren op basis van regels in de classificatieset. [Meer informatie](../components/classifications/sets/manage/rules.md)</li><li>**Automatisch importeren**: Importeer classificatiegegevens automatisch van cloudopslagbestemmingen. [Meer informatie](../components/classifications/sets/manage/schema.md)</li></ul> |
 | Berekende metrische updates | Verschillende artikelen met betrekking tot berekende meetwaarden zijn bijgewerkt, waaronder het bijwerken van schermafbeeldingen en stappen in procedures. Deze wijzigingen zijn aangebracht om de documentatie in overeenstemming te brengen met de huidige Adobe Analytics-functionaliteit. |
