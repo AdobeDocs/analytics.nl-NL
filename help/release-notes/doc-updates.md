@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bcef7aeffa28bd8c2fa2863c4dfb6e6cde15a469
+source-git-commit: 1c7dd6fad55acc579229f47d0b22ec50b80eb565
 workflow-type: tm+mt
 source-wordcount: '4554'
 ht-degree: 28%
@@ -26,7 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **juli 2023** | |
-| Adobe Experience Platform Edge Network Server-API | Meer uitgebreide documentatie toegevoegd over wanneer en hoe u gegevensverzameling kunt implementeren met Adobe Analytics via de [Adobe Experience Platform Edge Network Server-API](../implement/aep-edge/server-api/overview.md). Bijvoorbeeld, implementerend gegevensinzameling met Adobe Analytics in Desktoptoepassingen, apparaten IoT, vastgestelde hoogste dozen. |
+| Adobe Experience Platform Edge Network Server-API | Meer uitgebreide documentatie toegevoegd over wanneer en hoe u gegevensverzameling kunt implementeren met Adobe Analytics via de [Adobe Experience Platform Edge Network Server-API](../implement/aep-edge/server-api/overview.md). Bijvoorbeeld, implementerend gegevensinzameling met Adobe Analytics in Desktoptoepassingen, apparaten IoT, plaats hoogste dozen. |
 | Algemene bedrijfs-id | Gedocumenteerd [hoe u de wereldwijde bedrijfs-id kunt vinden](../admin/admin/company/web-services-admin.md) voor het bedrijf van Analytics u wordt geregistreerd in. Deze id is vereist voor API&#39;s van Analytics 2.0. |
 | Bijgewerkte FTP-formaatlimiet | De standaardinstelling gewijzigd [Limiet voor FTP-gegevensopslag](/help/export/ftp-and-sftp/ftp-limits.md) naar 100 GB. |
 | Variabele van nieuw AppMeasurement | De variabele `decodeLinkParameters` past randgevallen aan waarin implementaties multi-byte karakters in verbinding het volgen variabelen coderen. [Meer informatie](../implement/vars/config-vars/decodelinkparameters.md) |
