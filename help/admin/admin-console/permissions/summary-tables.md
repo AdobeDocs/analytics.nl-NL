@@ -3,9 +3,9 @@ title: Adobe Analytics-machtigingen - overzichtstabellen
 description: Tabellen waarin een overzicht wordt gegeven van de beschikbare Adobe Analytics-machtigingen in Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1302'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Aangepaste kalender | x |  |  |  | Hiermee krijgt u toegang tot Algemeen > Kalender aanpassen in Report Suite Manager. |
 | Data feeds Manager | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Gegevensfeeds in de bovenste navigatie Analytics. |
 | API voor gegevensherstel | x |  |  |  | Biedt toegang tot de API voor gegevensherstel |
-| Gegevensbronbeheer | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Gegevensbronnen in de bovenste navigatie Analytics. Vereist het machtigingsitem &#39;Report Suite Mgmt&#39;. |
+| Gegevensbronbeheer | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Gegevensbronnen in de bovenste navigatie Analytics. Vereist het machtigingsitem &#39;Report Suite Management&#39;. |
 | Standaardwaarden | x |  |  |  | Hiermee krijgt u toegang tot de afzonderlijke rapportsuite-instellingen > Standaardwaarden in Rapportsuite Manager. |
 | Exclusief door IP Adres | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Uitsluiten door IP in de bovenste navigatie Analytics. |
 | Zoekmethoden | x |  |  |  | Hiermee krijgt u toegang tot Conversie > Methoden zoeken in Report Suite Manager. |
@@ -37,7 +37,7 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Real Time Report Configuration | x |  |  |  | Verleent toegang tot Echt - tijd in de Manager van de Reeks van het Rapport. Gebruik het toestemmingspunt &quot;Rapport RealTime&quot;om toegang tot het rapport zelf te verlenen. |
 | Beheer van rapportsuite | x |  |  |  | Hiermee krijgt u toegang tot Rapportsuite Manager, maar wijzigingen zijn niet toegestaan. |
 | Gebeurtenissen geslaagd | x |  |  |  | Hiermee krijgt u toegang tot Conversie > Gebeurtenissen met succes in rapportbeheer. |
-| Verkeersvariabelen | x |  |  |  | Verleent toegang tot Verkeer > de Variabelen van het Verkeer in de Manager van de Reeks van het Rapport. |
+| verkeersvariabelen | x |  |  |  | Verleent toegang tot Verkeer > de Variabelen van het Verkeer in de Manager van de Reeks van het Rapport. |
 | Unieke bezoeker | x |  |  |  | Hiermee krijgt u toegang tot Conversie > Unieke bezoekersvariabele. Niet typisch gebruikt in moderne implementaties. |
 | URL-filters | x |  |  |  | Hiermee krijgt u toegang tot Algemeen > Interne URL-filters in Report Suite Manager. |
 | Anomaliedetectie |  | x |  |  | Biedt toegang tot Anomaly Detection in Analysis Workspace. |
@@ -48,7 +48,7 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Kanaalrapport |  |  | x |  | Hiermee krijgt u toegang tot het rapport Kanaaloverzicht in Rapporten en Analyses via de marketingkanalen. |
 | Dagelijkse terugkeerbezoeken |  |  | x |  | Hiermee krijgt u toegang tot Bezoekersbewaring > Dagelijkse terugkeerbezoeken in Rapporten en Analytics. |
 | Mijn aanbevolen rapporten |  |  | x |  | Hiermee krijgt u toegang tot Sitemetriek > Mijn aanbevolen rapporten in Rapporten en Analyse. |
-| RealTime-rapport |  |  | x |  | Hiermee krijgt u toegang tot Sitemetriek > Real-time in rapporten en analyses. Gebruik het toestemmingspunt &quot;Echt - de Configuratie van het tijdRapport&quot;om toegang tot opstelling te verlenen dit rapport. |
+| RealTime-rapport |  |  | x |  | Hiermee krijgt u toegang tot Sitemetriek > Real-time in Rapporten en Analytics. Gebruik het toestemmingspunt &quot;Echt - de Configuratie van het tijdRapport&quot;om toegang tot opstelling te verlenen dit rapport. |
 | Terugkerende bezoeken |  |  | x |  | Hiermee krijgt u toegang tot Bezoekersbewaring > Bezoekopdrachten in Rapporten en Analyse. |
 | Advertising Analytics-configuratie |  |  |  | x | Niet gebruikt. |
 | Samenvattingsrapport van bedrijf |  |  |  | x | Niet gebruikt. |
@@ -64,7 +64,7 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Rapportsets (schrijven) |  |  |  | x | Niet gebruikt. |
 | Site Catalyst |  |  |  | x | Niet gebruikt. Gebruik in plaats hiervan &#39;Analysis Workspace Access&#39;. |
 | Sociaal |  |  |  | x | Niet gebruikt. |
-| Tekstrapport |  |  |  | x | Niet gebruikt. |
+| Tekstrapport |  |  |   | x | Niet gebruikt. |
 | Traffic-beheer |  |  |  | x | Niet gebruikt. |
 | Overzichtsrapport voor gebruik |  |  |  | x | Niet gebruikt. |
 | Video-instellingen |  |  |  | x | Niet gebruikt. |
@@ -88,6 +88,7 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Ondersteuning | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Bedrijfsinstellingen > Ondersteuningsinformatie. |
 | Traffic-beheer | x |  |  |  | Hiermee krijgt u toegang tot Beheer > Alle beheerders > Verkeersbeheer. |
 | Webservices | x |  |  |  | Geeft toegang tot Admin > Al admin > de montages van het Bedrijf > de Diensten van het Web. |
+| Projectkoppelingen delen met iedereen | x |  |  |  | Biedt gebruikers toegang tot Delen voor iedereen in het kader van een Workspace-project -> Delen -> Delen met iedereen. |
 | Activity Map |  | x |  |  | Hiermee krijgt u toegang tot Gereedschappen > Activity Map. Hiermee kan de gebruiker de extensie Activity Map gebruiken. |
 | Ad Hoc Analysis-licentiegebruikers |  | x |  |  | Ad Hoc Analysis is aan het einde van zijn levensduur. [Meer informatie](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Analysis Workspace Access |  | x |  |  | Biedt toegang tot Analysis Workspace. Gebruikers moeten tot deze groep (voorkeur) of Rapporten &amp; Toegang Analytics behoren om Adobe Analytics te kunnen gebruiken. |
@@ -105,7 +106,7 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Excel-gebruikers |  |  |  | x | Niet gebruikt. |
 | Mobiele toepassingsbeheerder |  |  |  | x | Niet gebruikt. |
 | Machtigingsbeheer |  |  |  | x | Niet meer gebruikt. Hiermee krijgt u toegang tot de oudere gebruikersbeheerinterface via Beheer > Alle beheerders > Gebruikersbeheer. |
-| Machtigingen (lezen) - Webservices |  |  |  | x | Niet meer gebruikt. Hiermee kan de gebruiker de machtigingen voor verouderde analyses weergeven met de Admin API. Gebruik in plaats hiervan de Adobe Admin Console. |
+| Machtigingen (lezen) - Webservices |  |  |  | x | Niet meer gebruikt. Hiermee kan de gebruiker de machtigingen voor verouderde analysemogelijkheden weergeven met de Admin API. Gebruik in plaats hiervan de Adobe Admin Console. |
 | Machtigingen (schrijven) - Webservices |  |  |  | x | Niet meer gebruikt. Hiermee kan de gebruiker de machtigingen voor verouderde analyses bewerken met de Admin API. Gebruik in plaats hiervan de Adobe Admin Console. |
 | Voorkeuren |  |  |  | x | Niet gebruikt. |
 | Single Sign-On |  |  |  | x | Niet meer gebruikt. Verleent toegang tot de vervangen Enige Sign-On Dienst. |

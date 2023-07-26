@@ -3,9 +3,9 @@ description: Het dialoogvenster Privacy Labeling for Data Governance biedt een o
 title: Privacy-labels voor gegevensbeheer weergeven/beheren
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '845'
 ht-degree: 38%
 
 ---
@@ -21,11 +21,11 @@ De **[!UICONTROL Privacy Labeling for Data Governance]** biedt een overzicht van
 
    >[!NOTE]
    >
-   >Als dit menu-item niet zichtbaar is, moet u deze toevoegen aan een [productprofiel in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) met machtigingen voor deze functionaliteit.
+   >Als dit menu-item niet zichtbaar is, moet u deze toevoegen aan een [productprofiel in beheerconsole](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) met machtigingen voor deze functionaliteit of toegang tot een rapportsuite binnen de Admin Console.
 
 3. Selecteer rechtsboven een rapportsuite waarvan u de privacylabels wilt weergeven of beheren.
 
-![](assets/privacy_labeling.png)
+   ![](assets/privacy_labeling.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -75,7 +75,7 @@ Voer de volgende stappen uit als u dezelfde privacyinstellingen voor gegevens wi
 
 U kunt een CSV-bestand downloaden met alle huidige labeldefinities voor alle variabelen voor de geselecteerde rapportsuite(s). We adviseren dat uw juridische team uw labelkeuzes controleert, en deze optie maakt die controle mogelijk. U kunt het CSV-bestand met het team delen, zodat ze de controle niet hoeven uit te voeren terwijl ze zijn aangemeld bij de Data Governance-gebruikersinterface.
 
-1. Klikken **[!UICONTROL Export CSV]** rechtsboven in het dialoogvenster wordt het volgende weergegeven:
+1. Klikken **[!UICONTROL Export CSV]** rechtsboven in het dialoogvenster:
 
    ![](assets/export_csv.png)
 
