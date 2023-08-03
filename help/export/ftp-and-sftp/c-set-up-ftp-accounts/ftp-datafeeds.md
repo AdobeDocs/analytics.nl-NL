@@ -4,23 +4,22 @@ keywords: ftp;sftp
 title: Gegevensfeeds
 feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: 05b4dc07de567b25e71b47fd92743bee0b5621f8
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
 
 # Gegevensfeeds
 
+>[!NOTE]
+>
+>De volgende informatie heeft betrekking op FTP- en SFTP-doeltypen. FTP en SFTP zijn oudere doeltypen. Wanneer het vormen van een gegevensvoer, zou u een type van de wolkenbestemming moeten gebruiken, dat veiliger is. Voor meer informatie over het vormen van de types van wolkenbestemming voor een Diervoer van Gegevens, zie [Een gegevensfeed maken](/help/export/analytics-data-feed/create-feed.md).
+
 Gegevensfeeds zijn een export van de gegevens van de clickstream die door Adobe worden ontvangen en die zowel standaard als aangepaste [Gegevensfeeds](/help/export/analytics-data-feed/data-feed-overview.md).
 
 Als u Adobe Data Warehouse hebt aangeschaft, [!UICONTROL Standard Data Feeds] u kunt uw eigen gegevensfeeds voor Analytics instellen. Ze kunnen naar elke FTP-account worden verzonden (een FTP-account dat is ingesteld door Adobe of een externe FTP). Adobe Engineering Services biedt aangepaste [!UICONTROL Data Feeds] dat kan vrijwel elke vorm van verzending zijn .
-
->[!NOTE]
->
->De volgende informatie heeft betrekking op FTP- en SFTP-doeltypen. FTP en SFTP zijn oudere doeltypen. Wanneer het vormen van een gegevensvoer, zou u een veiliger type van de wolkenbestemming moeten gebruiken.
-
 
 [!UICONTROL Data Feed] FTP-accounts staan standaard 10 GB toe. Alle andere standaard FTP-accounts zijn standaard 50 MB. In gevallen waarin clients de FTP-account gebruiken voor het juiste gebruik waarvoor deze bestemd is, kunnen sommige gebruikers met hoge verkeersvolumes deze accounts snel invullen. Wanneer een FTP-account vol is, kunnen er geen extra bestanden naar deze account worden geduwd. Alle bestanden die worden geleverd aan die FTP-account ( [!UICONTROL Data Feeds], de verzoeken van het gegevenspakhuis, enzovoort) niet worden geleverd. Daarom is het belangrijk om uw Adobe FTP-account te beheren door ontvangen en gedownloade bestanden te verwijderen.
 

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1c7dd6fad55acc579229f47d0b22ec50b80eb565
+source-git-commit: 05b4dc07de567b25e71b47fd92743bee0b5621f8
 workflow-type: tm+mt
-source-wordcount: '4554'
-ht-degree: 28%
+source-wordcount: '4620'
+ht-degree: 27%
 
 ---
 
@@ -25,6 +25,8 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **augustus 2023** | |
+| Verduidelijkt dat de configuratie van SFTP voor de Diervoeders van Gegevens geen Adobe Klantenzorg vereist | Verduidelijkt in [Adobe-gegevens verzenden naar een externe FTP-account met SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) dat klanten geen Adobe-klantenservice hoeven aan te gaan om SFTP voor gegevensfeeds te configureren. <p>Er is ook een opmerking toegevoegd dat SFTP niet langer wordt aanbevolen en dat klanten een cloudbestemming moeten gebruiken bij het configureren van gegevensfeeds.</p> |
 | **juli 2023** | |
 | Adobe Experience Platform Edge Network Server-API | Meer uitgebreide documentatie toegevoegd over wanneer en hoe u gegevensverzameling kunt implementeren met Adobe Analytics via de [Adobe Experience Platform Edge Network Server-API](../implement/aep-edge/server-api/overview.md). Bijvoorbeeld, implementerend gegevensinzameling met Adobe Analytics in Desktoptoepassingen, apparaten IoT, plaats hoogste dozen. |
 | Algemene bedrijfs-id | Gedocumenteerd [hoe u de wereldwijde bedrijfs-id kunt vinden](../admin/admin/company/web-services-admin.md) voor het bedrijf van Analytics u wordt geregistreerd in. Deze id is vereist voor API&#39;s van Analytics 2.0. |
