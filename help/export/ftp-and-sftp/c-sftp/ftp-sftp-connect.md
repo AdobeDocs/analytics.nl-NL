@@ -4,28 +4,37 @@ keywords: ftp;sftp
 title: Verbinding maken met een Adobe FTP-account met SFTP
 feature: FTP Export
 exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 62132284ca70f3bdb1a8896e4548b8b63a5c03c8
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 11%
+source-wordcount: '182'
+ht-degree: 8%
 
 ---
 
-# Verbinding maken met een Adobe FTP-account met SFTP
+# Verbinding maken met een FTP-account met SFTP
 
-Instructies voor het instellen van een beveiligde overdracht met Adobe FTP-servers.
+Beveiligde overdracht instellen met FTP:
 
-1. Vraag een door Adobe gehoste FTP-account (50 MB quota) aan.
-1. Maak openbare/persoonlijke RSA-sleutels. Voer in Linux de volgende handelingen uit:
+1. (Voorwaardelijk) Als u beveiligde overdracht wilt instellen met Adobe FTP-servers:
 
-   ```
-   ssh-keygen -t rsa
-   ```
+   1. Vraag een door Adobe gehoste FTP-account (50 MB quota) aan.
 
-   Als u in een milieu van Vensters bent, gebruik puttyGen om de sleutels tot stand te brengen.
+   1. Maak openbare/persoonlijke RSA-sleutels.
+
+      * Voer in Linux-omgeving de volgende handelingen uit:
+
+        ```
+        ssh-keygen -t rsa
+        ```
+
+      * Gebruik puttyGen in een Windows-omgeving.
+
+1. (Voorwaardelijk) als u veilige overdracht met uw eigen plaats van FTP wilt opstelling, moet u een gastheer SFTP, een gebruikersbenaming, en de bestemmingsplaats hebben die een geldige RSA of DSA openbare sleutel bevatten. U kunt de juiste openbare sleutel downloaden wanneer u de feed maakt.
 
 1. Een bestand met de naam [!DNL authorized_keys] (geen extensie).
-1. De inhoud van de openbare sleutel kopiëren naar [!DNL authorized_keys].
+
+1. Inhoud van openbare sleutel kopiëren naar [!DNL authorized_keys].
+
 1. Uploaden [!DNL authorized_keys] naar een FTP-account:
 
    * Maak verbinding met de Adobe FTP-account.
@@ -34,4 +43,4 @@ Instructies voor het instellen van een beveiligde overdracht met Adobe FTP-serve
 
 1. Test de verbinding door u met SFTP aan te melden bij de FTP-account.
 
-Zie voor meer informatie [Hoe te om met Adobe via sFTP zonder een Wachtwoord te verbinden...](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md).
+Voor meer gedetailleerde informatie, zie [Hoe te om met Adobe via sFTP zonder een Wachtwoord te verbinden...](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md).
