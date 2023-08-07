@@ -4,72 +4,42 @@ keywords: privacy
 title: Privacyoverzicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
+source-git-commit: ee0bf5beeac3c9780eb0c8420845114f7e840aec
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 88%
+source-wordcount: '694'
+ht-degree: 11%
 
 ---
 
 # Privacyoverzicht
 
-Adobe raadt u aan uw websitebezoekers te voorzien van gemakkelijk te vinden en gemakkelijk te begrijpen informatie over de mogelijkheid om hun browsinggegevens niet door producten of diensten van Adobe te laten verzamelen.
+Bezoekers kunnen in het [Adobe Privacy Center](https://www.adobe.com/nl/privacy.html) meer informatie vinden over de manier waarop Adobe de verzamelde data doorgaans gebruikt. Het is aan uw organisatie om bekend te maken hoe u de producten en services van Adobe gebruikt, omdat uw organisatie uitsluitend zelf bepaalt hoe de services van Adobe worden geïmplementeerd. Uw organisatie is verantwoordelijk voor het naleven van uw eigen privacybeleid, uw serviceovereenkomst met Adobe en alle toepasselijke wetten.
 
-Bezoekers kunnen in het [Adobe Privacy Center](https://www.adobe.com/nl/privacy.html) meer informatie vinden over de manier waarop Adobe de verzamelde data doorgaans gebruikt. Het is aan uw organisatie om bekend te maken hoe u de producten en services van Adobe gebruikt, omdat uw organisatie uitsluitend zelf bepaalt hoe de services van Adobe worden geïmplementeerd. U bent verantwoordelijk voor het maken van uw eigen privacybeleid, voor het naleven van uw privacybeleid, voor het naleven van uw serviceovereenkomst met Adobe, en voor het naleven van alle toepasselijke wetten.
+Adobe beveelt ten zeerste aan de volgende overkoepelende concepten in acht te nemen:
 
-## Uitsplitsing dataverzameling {#section_F59D958D7AE44747846993E643CD4BF2}
+* **Vermijd het verzamelen van persoonlijk identificeerbare gegevens in Adobe Analytics.** Met aangepaste variabelen kunt u vrijwel alles verzamelen waartoe u toegang hebt. U moet echter ook rekening houden met het privacybeleid van uw organisatie en de toepasselijke wetten.
+* **Bezoekers gemakkelijk te vinden en gemakkelijk te begrijpen informatie over opt-out-informatie bieden.** Laat ze toe om zich te onthouden van alles wat niet strikt noodzakelijk is. De meeste landen in de Europese Unie achten analytische cookies niet strikt noodzakelijk.
 
-Adobe Analytics verzamelt de volgende data:
+## Uitsplitsing gegevensverzameling
 
-| Type data | Verzamelt Adobe Analytics deze data? |
-|---|---|
-| URL&#39;s van webpagina&#39;s op de website van de klant | Ja |
-| Naam van webpagina | Ja |
-| Tijd besteed aan pagina | Ja |
-| Tijdstip van de dag | Ja |
-| URL&#39;s van webpagina&#39;s op niet-gerelateerde sites | **Nee** |
-| Cookie-id&#39;s (willekeurig gegenereerd) | Ja |
-| URL van de pagina waarop de gebruiker zich bevond voordat deze de klantpagina bezocht | Ja |
-| Zoekopdracht wanneer de consument op een koppeling naar de klantpagina klikt | Ja |
-| Browsertype | Ja |
-| Apparaattype | Ja |
-| Besturingssysteem | Ja |
-| ISP/Verbindingssnelheid | Ja |
-| Weergave-instellingen (zoals schermgrootte en resolutie) | Ja |
-| IP-adres (wordt gebruikt om de locatie bij benadering vast te stellen) | Ja&#42; |
-| Informatie die consumenten verstrekken op formulieren op de website van de klant | Ja |
-| Informatie die consumenten verstrekken op formulieren op sociale sites | **Nee** |
-| Of de consument op de advertentie heeft geklikt | Ja |
-| Of de consument op een koppeling, afbeelding of tekst op de site heeft geklikt | Ja |
-| Of de consument een bestand, afbeelding, enzovoort heeft gedownload. | Ja |
-| Artikelen die de consument heeft gekocht | Ja |
-| Resterende artikelen in winkelwagen | Ja |
-| Informatie van sociale netwerken (waaronder foto&#39;s, gebruikers-id, leeftijd, geslacht, locatie) | **Nee** |
-| Succespercentages van advertentiecampagnes | Ja |
-| Productinformatie zoals kleuren, prijzen, stijlen, foto&#39;s | Ja |
+Adobe Analytics verzamelt automatisch de volgende gegevenstypen of kan deze potentieel verzamelen:
 
-&#42;Tenzij de Adobe-klant ervoor kiest om het IP-adres te verwijderen.
+| Type gegevens | Details | Voorbeeldvariabelen met deze gegevens |
+| --- | --- | --- |
+| Paginanamen of URL&#39;s van webpagina&#39;s op uw site | Altijd verzameld. Voor elke treffer is een URL- of paginanaam vereist. | [Pagina](../components/dimensions/page.md), [Pagina-URL](../components/dimensions/page-url.md) |
+| Op tijd gebaseerde gegevens | Altijd verzameld. Tijdstempel is vereist voor gegevensverzameling en op tijd gebaseerde gegevens worden afgeleid van de tijdstempel. | [Tijd besteed aan pagina](../components/dimensions/time-spent-on-page.md), [Uur van dag](../components/dimensions/hour-of-day.md), [AM/PM](../components/dimensions/am-pm.md), [Weekdag/Weekend](../components/dimensions/weekday-weekend.md), [Dag van de week](../components/dimensions/day-of-week.md), [Maand van jaar](../components/dimensions/month-of-year.md) |
+| Gegevens van webpagina&#39;s op andere sites | Adobe kan geen gegevens verzamelen op niet-aangesloten sites waar u de broncode van de website niet kunt wijzigen. AppMeasurement verzamelt automatisch de verwijzende URL wanneer een bezoeker naar uw website komt. U kunt uw implementatie aanpassen om gegevens binnen vraagkoorden te verzamelen nadat zij op uw plaats aankomen. | [Referenter](../components/dimensions/referrer.md), [Verwijzen naar domein](../components/dimensions/referring-domain.md) |
+| Geanimeerde id van bezoeker | AppMeasurement genereert automatisch een bezoeker-id en verwijst ernaar voor elke browser die uw site bezoekt. Deze id wordt opgeslagen in een cookie. Als er voor een bepaalde implementatie geen cookies beschikbaar zijn, gebruikt Adobe Analytics een fallback-methode voor bezoekersidentificatie met IP-adres en een userAgent-tekenreeks. Zie [Adobe Analytics- en browsercookies](cookies/cookies.md) voor meer informatie . | [Unieke bezoekers](../components/metrics/unique-visitors.md) |
+| Identificeerbare bezoeker-id&#39;s | Adobe verzamelt niet automatisch aangepaste gebruikers-id&#39;s van bezoekers. U kunt uw implementatie echter aanpassen om deze gegevens te verzamelen. | [`visitorID`](../implement/vars/config-vars/visitorid.md) |
+| Externe zoektermen | AppMeasurement probeert deze gegevens automatisch te verzamelen op basis van de verwijzende URL. Veel moderne zoekmachines bevatten deze informatie echter niet meer. | [Trefwoord zoeken](../components/dimensions/search-keyword.md) |
+| Interne zoektermen | Adobe verzamelt niet automatisch interne zoekgegevens. U kunt uw implementatie echter aanpassen om deze gegevens te verzamelen. Dit is een gebruikelijke praktijk voor organisaties die Adobe Analytics gebruiken. | [eVar](../components/dimensions/evar.md) |
+| Computer- en browserspecificaties | AppMeasurement verzamelt automatisch lage entropiebrowserhints, zoals het browsertype, het type van het besturingssysteem en als het apparaat desktopcomputers of mobiele apparaten is. De configuratie wordt vereist om hoge entropiewenken, zoals de browser specifieke versie/bouwstijl, het apparatenmodel, of de versie van het werkende systeem te verzamelen. Zie [Overzicht van tips voor klanten](client-hints.md) voor meer informatie . | [Browser](../components/dimensions/browser.md), [Besturingssysteem](../components/dimensions/operating-systems.md), [Mobiele afmetingen](../components/dimensions/mobile-dimensions.md), [Monitorresolutie](../components/dimensions/monitor-resolution.md) |
+| Geolocatie-informatie | Adobe biedt de mogelijkheid om het verzamelen van geolocatiegegevens voor elke website of app (op rapportniveau) in of uit te schakelen. Deze gegevens worden automatisch verzameld bij veel implementatietypen, waaronder AppMeasurement. | [Plaatsen](../components/dimensions/cities.md), [Regio&#39;s](../components/dimensions/regions.md), [Landen](../components/dimensions/countries.md) |
+| IP-adres | Adobe biedt de capaciteit aan om het laatste octet te bedekken of volledig het IP van de bezoeker adres te bedekken wanneer het opslaan van deze gegevens. EMEA-klanten hebben doorgaans een IP-adres dat standaard volledig verborgen is. IP adres is niet beschikbaar als afmeting in Adobe Analytics; het is slechts inbegrepen in ruwe gegevens ([Gegevensfeeds](../export/analytics-data-feed/data-feed-overview.md)). | Geen |
+| Formuliergegevens op uw site | Alle implementatietypen vereisen configuratie om deze gegevens te verzamelen. U kunt deze gegevens opnemen in aangepaste variabelen. | [eVar](../components/dimensions/evar.md) |
+| Advertenties of koppelingen waarop op uw site is geklikt | Automatisch verzamelen bij gebruik van AppMeasurement. Aanvullende informatie, zoals de locatie van klikken, is beschikbaar als Activity Map is ingeschakeld. | [Activity Map](../analyze/activity-map/activity-map.md), [Koppeling afsluiten](../components/dimensions/exit-link.md), [Koppeling downloaden](../components/dimensions/download-link.md) |
+| Producten aangeschaft op uw site | Alle implementatietypen vereisen configuratie om deze gegevens te verzamelen. Adobe biedt diverse standaardvariabelen aan om deze informatie op te slaan. | [Product](../components/dimensions/product.md), [Orders](../components/metrics/orders.md), [Ontvangsten](../components/metrics/revenue.md) |
 
-## Andere privacyoverwegingen {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+{style="table-layout:auto"}
 
-| Regio/land | Overwegingen |
-|--- |--- |
-| Algemeen | Adobe raadt klanten sterk aan geen persoonlijk identificeerbare informatie (PII) aan Adobe te verstrekken, vooral wanneer PII voor Analytics niet nodig is. |
-| Algemeen | Gebruikers moeten op de hoogte worden gesteld en een keuze kunnen maken wanneer er profielen worden opgesteld. Dit is wettelijk vereist in Canada, Australië, de Europese Unie (opt-in voor sommige landen) en veel landen in Latijns-Amerika en Azië/Stille Oceaan. |
-| Algemeen | Bij het gebruik van eigen cookies is een opt-out van Analytics uniek voor de klant; u kunt niet vertrouwen op een opt-out op Adobe.com. |
-| Algemeen | Eigen analytics vallen niet binnen het bereik van het Self-Regulatory Programme for Online Behavioral Advertising (“AdChoices”). |
-| Algemeen | Apparaatoverschrijdende data mogen alleen worden samengevoegd als ze zijn gekoppeld aan een id die door de klant is opgegeven (zoals een gehashte gebruikersnaam). |
-| Algemeen | Er gelden waarschijnlijk beperkingen voor de klant voor het combineren van advertentie-impressiegegevens met PII. |
-| Europa | De meeste landen in de Europese Unie achten analytische cookies niet strikt noodzakelijk. |
-| Europa | Adobe heeft de instelling IP-onzichtbaarmaking: ingeschakeld - IP verwijderd (x.x.x.x) standaard ingeschakeld voor alle klanten met een rapportsuite in EMEA. Met deze instelling wordt het IP-adres volledig vervangen door de waarde (x.x.x.x) na geografisch opzoeken van de locatie, en is niet meer beschikbaar als datapunt. Deze basisvervangingsmethode kan niet worden herleid tot een uniek, specifiek IP-adres. De klant en Adobe hebben geen van beiden toegang tot het IP-adres. Het is onomkeerbaar geanonimiseerd. Voor meer informatie over andere IP verduisteringsmontages, zie [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in de handleiding voor Admin-gebruikers. |
-| Algemeen | Een klant kan de variabele voor de levensduur van cookies in de JavaScript-meetcode instellen op de waarde “none”, “session” of een andere waarde die in seconden wordt opgegeven. |
-| Europa | Adobe heeft een nieuwe instelling “ontworpen privacy”, die nu kan worden ingeschakeld door Adobe ClientCare voor Adobe Analytics (vroeger SiteCatalyst) versie 14.9 en 15.4. Wanneer deze nieuwe instelling is ingeschakeld, worden de laatste acht tekens (het laatste deel) van het IP-adres direct vervangen door de waarde 0 zodra het IP-adres door Adobe wordt opgehaald. Deze anonimisering wordt uitgevoerd voorafgaand aan enige verwerking van het IP-adres, ook voorafgaand aan het optionele geografisch opzoeken of via ISP opzoeken van het IP-adres. |
-| Duitsland | Als u nog geen gegevensverwerkingsovereenkomst voor Adobe Analytics hebt met Adobe, neemt u contact op met uw Adobe-accountmanager of Customer Success Manager. Deze zal samenwerken met de juridische afdeling van de Adobe om de gegevensopslagruimte op zijn plaats te krijgen. |
-
-## Locatie EMEA-datacenter {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
-
-Het volgende EMEA-datacenter bevat momenteel Adobe Analytics-gegevens:
-
-| Adobe-naam | Adres | Faciliteitstype (operator) | Ondersteunde oplossingsonderdelen | Certificeringen |
-|--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU Verenigd Koninkrijk | Colocatiefaciliteit (Gyron) | Multikanaalanalyse, digitale analyse | SSAE 16 |
+Zie het navigatiemenu onder [Overzicht van Dimension](../components/dimensions/overview.md) en [Overzicht van statistieken](../components/metrics/overview.md) voor meer variabelen waarop Adobe mogelijk gegevens kan verzamelen.
