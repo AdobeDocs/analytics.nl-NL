@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e17705adb6319a31f125cdff2810cbf79d85510c
+source-git-commit: bf111fc5529692283bf6b341655e80498107633b
 workflow-type: tm+mt
-source-wordcount: '4826'
+source-wordcount: '4838'
 ht-degree: 26%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **augustus 2023** | |
+| Implementatiemethoden vergelijken | Bijgewerkte documentatie waarin verschillende implementatiemethoden worden vergeleken. [Meer informatie](../implement/prepare/comparison.md) |
 | Verduidelijkt dat de configuratie van SFTP voor de Diervoeders van Gegevens geen Adobe Klantenzorg vereist | Verduidelijkt in [Adobe-gegevens verzenden naar een externe FTP-account met SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) dat klanten geen Adobe-klantenservice hoeven aan te gaan om SFTP voor gegevensfeeds te configureren. <p>Er is ook een opmerking toegevoegd dat SFTP niet langer wordt aanbevolen en dat klanten een cloudbestemming moeten gebruiken bij het configureren van gegevensfeeds.</p> |
 | Documentatieverbeteringen voor streamingmedia | De volgende documentatieverbeteringen zijn doorgevoerd voor streamingmedia: <ul><li>De [algemeen overzicht](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en) de duidelijkheid te verbeteren en informatie over Customer Journey Analytics op te nemen.</li><li>De [implementatieoverzicht](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) om een duidelijk onderscheid te maken tussen Edge-implementaties en implementaties die alleen op analysemogelijkheden zijn gebaseerd. Ook diagrammen ter illustratie van de verschillende implementatiemethoden.</li><li>Toegevoegde voorwaarden specifiek voor [Edge-implementaties](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=en) en [Implementaties met alleen analyse](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=en). Ook het dialoogvenster [algemene voorwaarden](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=en).</li><li>Bijgewerkte tabellen in het dialoogvenster [SDK&#39;s van media, extensies met tags en OTT SDK&#39;s ophalen](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=en) artikel om nieuwe kolommen op te nemen voor *Ondersteunde oplossingen* en *Implementatiemethode*.</li><li>Gestroomlijnde inhoud en organisatie van artikelen in de [Implementatie](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) in de documentatie. Dit omvatte het categoriseren van implementaties door de implementaties van de Rand en analytics-slechts implementaties.</li><li>Verwijderd een extra hiërarchisch niveau dat niet onder [Tekstspatiëring](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=en) en toegevoegd omleidingen voor gewijzigde URL&#39;s in deze sectie.</li><ul> |
 | **juli 2023** | |
