@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf111fc5529692283bf6b341655e80498107633b
+source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
 workflow-type: tm+mt
-source-wordcount: '4838'
+source-wordcount: '4822'
 ht-degree: 26%
 
 ---
@@ -45,7 +45,6 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Deep Linking (Mobile App)-documentatie | Hiermee kunnen gebruikers koppelingen naar scorecards verzenden die rechtstreeks naar het scorecard-project in de app leiden. [Meer informatie](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Documentatie voor bijgewerkt startscherm voor de app Analytics-dashboards (Mobile App) | Het nieuwe bijgewerkte scherm van het Huis staat u toe om elk van uw scorecards in één geconsolideerde scorecard lijst te bekijken. [Meer informatie](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrumpictogrammen | Waar van toepassing vervangen screenshots van gebruikersinterfacepictogrammen in de documentatie met verwijzingen naar de equivalente pictogrammen in [Adobe](https://spectrum.adobe.com/page/icons/). |
-| Verbeterde IP-naar-geolocatietoewijzing | Een onderwerp gemaakt op [Veelgestelde vragen](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
 | Activity Manager rapporteren | Deze bètadocumentatie is bijgewerkt, met name de sectie over [De rapportactiviteit voor individuele rapportreeksen bekijken](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Overzicht van Analysis Workspace | Bijgewerkt [Analysis Workspace-overzicht](/help/analyze/analysis-workspace/home.md) meer algemene overzichtsinformatie en koppelingen naar relevante inhoud op te nemen. |
 | Projecten maken | Een nieuw artikel maken waarin gedetailleerd wordt uitgelegd hoe u [Projecten maken](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
