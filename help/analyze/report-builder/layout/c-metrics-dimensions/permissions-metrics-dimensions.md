@@ -5,24 +5,24 @@ uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
 role: User, Admin
 exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '225'
 ht-degree: 6%
 
 ---
 
 # Toegangsrechten van gebruikers voor dimensies en cijfers
 
-Adobe Report Builder beschikt nu over machtigingsinstellingen die overeenkomen met de instellingen in Admin Tools voor Analytics.
+Adobe Report Builder heeft machtigingsinstellingen die vergelijkbaar zijn met de instellingen in de hulpprogramma&#39;s voor Analysebeheer.
 
 Als gebruiker niet-Admin, kunt u eerder werkboeken met verzoeken hebben gecreeerd die aan dimensies en metriek richten die u geen toegang tot hebt. Deze machtigingen worden nu afgedwongen.
 
-Als u bijvoorbeeld een aanvraag vernieuwt die afmetingen of metriek bevat waartoe u geen toegang hebt, krijgt u een beperkte machtigingsfout:
+Als u bijvoorbeeld een aanvraag vernieuwt die afmetingen of metriek bevat waartoe u geen toegang hebt, krijgt u een beperkte machtigingsfout. In het foutbericht staat dat een aanvraag niet beschikbaar is voor uw gebruikersaccount vanwege beheerdersrechten.
 
-![](assets/arb_restrc_perm.png)
+![Schermafbeelding met het bericht Beperkte machtigingsfout.](assets/arb_restrc_perm.png)
 
-Volg deze instructies voor **elk** Report Builder werkboek dat u handhaaft:
+Volg deze instructies op voor **elk** Report Builder werkboek dat u handhaaft:
 
 1. Open het werkboek.
 1. Alle aanvragen vernieuwen.

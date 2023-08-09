@@ -1,20 +1,20 @@
 ---
-description: Naast de standaardopmaakopties voor cellen die beschikbaar zijn via de functie Opmaken > Cellen (Ctrl+1) van Excel, kunt u beperkte opmaak toepassen op celbereiken met behulp van de rapportbuilder. Deze opmaakkeuzes zijn afhankelijk van de gekozen metrische waarde.
-title: De datum opmaken
+description: Leer hoe u standaard en beperkte opmaak toepast op celbereiken.
+title: De datum in Report Builder opmaken
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 6%
+source-wordcount: '245'
+ht-degree: 5%
 
 ---
 
 # De datum opmaken
 
-Naast de standaardopmaakopties voor cellen die beschikbaar zijn via de functie Opmaken > Cellen (Ctrl+1) van Excel, kunt u beperkte opmaak toepassen op celbereiken met behulp van de rapportbuilder. Deze opmaakkeuzes zijn afhankelijk van de gekozen metrische waarde.
+Naast de standaardopmaakopties voor cellen die beschikbaar zijn via de functie Opmaken > Cellen (Ctrl+1) van Excel, kunt u beperkte opmaak toepassen op celbereiken met Report Builder. Deze opmaakkeuzes zijn afhankelijk van de gekozen metrische waarde.
 
 Na u [dimensies toevoegen](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) klikt u op het raster Rijlabels op **[!UICONTROL Format]**.
 
@@ -27,7 +27,7 @@ In de volgende tabel wordt beschreven hoe u datumafkortingen kunt gebruiken in h
 | dd-MM-yyy | Volledige numerieke datum | 03/14/2012 |
 | M | Aantal maanden | 3 |
 | MM | Aantal maanden met 0 opvulling voor maanden &lt; 10 | 03 |
-| MMM | Korte naam van de maand | mrt |
+| MMM | Korte naam van maand | mrt |
 | MMMM | Lange naam van de maand | Maart |
 | D | Lange naam van de datum | Woensdag 14 maart 2012 |
 | d | Aantal dagen | 14 |

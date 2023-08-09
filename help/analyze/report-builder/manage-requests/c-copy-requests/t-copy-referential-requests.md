@@ -1,14 +1,14 @@
 ---
-description: Een referentiële aanvraag gebruikt waarden uit cellen als invoer voor parameters, zoals een gegevensfilter of relationeel filter.
-title: Referentieaanvragen kopiëren
+description: Leer hoe u referentiële verzoeken kopieert.
+title: Hoe te om verwijzingsverzoeken te kopiëren
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 feature: Report Builder
 role: User, Admin
 exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 1%
+source-wordcount: '521'
+ht-degree: 0%
 
 ---
 
@@ -16,13 +16,15 @@ ht-degree: 1%
 
 Een referentiële aanvraag gebruikt waarden uit cellen als invoer voor parameters, zoals een gegevensfilter of relationeel filter.
 
-Om verwijzingsverzoeken in spreadsheet te verspreiden of te kopiëren en te kleven, moet u minstens één geldig verzoek in spreadsheet hebben gecreeerd. Bovendien moeten de gegevens die in het verzoek worden geproduceerd een cel bevatten waarvan de waarde afhankelijk is van een verzoek in een andere cel (met behulp van een afbraak- of bijpassende filter) of van een filter dat input neemt van gegevens die in een cel zijn ingevoerd.
+Om verwijzingsverzoeken in spreadsheet te verspreiden of te kopiëren en te kleven:
+* U moet minstens één geldig verzoek in spreadsheet tot stand brengen.
+* De gegevens die door het verzoek worden geproduceerd, moeten een cel bevatten waarvan de waarde afhankelijk is van een verzoek in een andere cel (met behulp van een afbraak- of bijpassende filter) of van een filter dat input krijgt van gegevens die in een cel zijn ingevoerd.
 
 U kunt ook aanvragen maken die verwijzen naar invoerfilters van aanvragen in verschillende werkbladen, maar niet naar andere werkboeken. Bijvoorbeeld, kan een verzoek in Blad 2 een rapportreeks van een bepaalde cel in Blad 1 en een datumwaaier van een cel in een verzoek in Blad 2 gebruiken. De nieuwe output kan in één van beide blad of een nieuw blad binnen het zelfde werkboek worden geplaatst. Wanneer u een relatieve aanvraag plakt en een invoerfilter zich op een werkblad bevindt dat afwijkt van het werkblad waarop de gekopieerde aanvraaguitvoer zich bevindt, wordt het filter als een absoluut filter geplakt.
 
 >[!NOTE]
 >
->U kunt niet één aanvraag uitvoeren in meerdere werkbladen. Bovendien kan het systeem sommige gekopieerde aanvragen niet in nieuwe werkboeken plakken omdat de aanvragen invoerfilters uit andere werkbladen bevatten. Invoerfilters omvatten rapportsuites uit cellen, datumbereiken uit cellen, filters uit cellen en andere gerelateerde parameters.
+>U kunt geen enkele aanvraag uitvoeren in meerdere werkbladen. Bovendien kan het systeem sommige gekopieerde aanvragen niet in nieuwe werkboeken plakken omdat de aanvragen invoerfilters uit andere werkbladen bevatten. Invoerfilters omvatten rapportsuites uit cellen, datumbereiken uit cellen, filters uit cellen en andere gerelateerde parameters.
 
 **Referentieverzoeken kopiëren**
 

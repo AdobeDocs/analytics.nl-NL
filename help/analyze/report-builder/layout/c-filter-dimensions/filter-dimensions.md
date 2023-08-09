@@ -5,10 +5,10 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 9%
+source-wordcount: '444'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ De geselecteerde filtervorm wordt bevolkt gebaseerd op het element &amp; metrisc
 
 Informatie over filters in het dialoogvenster **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** deelvenster.
 
-![](/help/admin/admin/assets/filter.png)
+![Screenshot die het dialoogvenster Filter definiëren weergeeft met opties voor Filteren op toepassing, gebruiker en Project.](/help/admin/admin/assets/filter.png)
 
 De volgende tabellen bevatten voorbeelden en informatie over filters:
 
@@ -39,8 +39,8 @@ De volgende tabellen bevatten voorbeelden en informatie over filters:
   <tr> 
    <td colname="col1"> <p>Contains all terms (Bevat alle termen) </p> </td> 
    <td colname="col02"> <p>Bevat elke door spaties gescheiden waarde in willekeurige volgorde. </p> </td> 
-   <td colname="col2"> <p>a ter </p> </td> 
-   <td colname="col3"> <p>Overeenkomsten <span class="term"> a ter</span>en <span class="term"> b bis</span>, enzovoort. </p> </td> 
+   <td colname="col2"> <p>a ter c </p> </td> 
+   <td colname="col3"> <p>Overeenkomsten <span class="term"> a ter c</span>en <span class="term"> b bis</span>, enzovoort. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contains any term (Bevat een term) </p> </td> 
@@ -57,7 +57,7 @@ De volgende tabellen bevatten voorbeelden en informatie over filters:
   <tr> 
    <td colname="col1"> <p>Does not contain any term (Bevat geen enkele term) </p> </td> 
    <td colname="col02"> <p>Retourneert alles tenzij het een waarde bevat die u invoert. </p> </td> 
-   <td colname="col2"> <p>a ter </p> </td> 
+   <td colname="col2"> <p>a ter c </p> </td> 
    <td colname="col3"> <p>Overeenkomsten <span class="term"> d e</span> maar niet <span class="term"> d e</span>. </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ De volgende tabellen bevatten voorbeelden en informatie over filters:
    <td colname="col1"> <p>Does not equal (Is niet gelijk aan) </p> </td> 
    <td colname="col02"> <p>Retourneert alles wat niet exact overeenkomt met uw invoer. </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
-   <td colname="col3"> <p>Komt niet overeen <span class="term"> a</span>. </p> <p>Overeenkomsten <span class="term"> a ter</span>. </p> <p>Overeenkomsten <span class="term"> abc</span>. </p> </td> 
+   <td colname="col3"> <p>Komt niet overeen <span class="term"> a</span>. </p> <p>Overeenkomsten <span class="term"> a ter c</span>. </p> <p>Overeenkomsten <span class="term"> abc</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Starts with (Begint met) </p> </td> 
@@ -144,7 +144,7 @@ De volgende tabellen bevatten voorbeelden en informatie over filters:
   <tr> 
    <td colname="col1"> | </td> 
    <td colname="col2"> of </td> 
-   <td colname="col3"> <p>Alleen ondersteund in de <span class="term"> Geavanceerd (speciale tekens)</span> filter. </p> </td> 
+   <td colname="col3"> <p>Alleen ondersteund in het dialoogvenster <span class="term"> Geavanceerd (speciale tekens)</span> filter. </p> </td> 
   </tr> 
  </tbody> 
 </table>

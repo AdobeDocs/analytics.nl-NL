@@ -5,10 +5,10 @@ uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 9%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ Aanvraagdatums in real time configureren:
 
 1. Selecteer een tijdbereik in minuten of uren.
 
-   ![Stap Resultaat](assets/real_time_select_date.png)
+   ![Screenshot met de opties voor het selecteren van tijdbereik terwijl Laatste 60 minuten is geselecteerd.](assets/real_time_select_date.png)
 
    Real-time rapportage is alleen beschikbaar gedurende de laatste 20 uur. Voor de granulariteit kunt u kiezen uit 1 minuut granulariteit tot 30 minuten.
 1. Klikken **[!UICONTROL Next]** en doorgaan [configureren van aanvraaglay-out](/help/analyze/report-builder/layout/layout.md).

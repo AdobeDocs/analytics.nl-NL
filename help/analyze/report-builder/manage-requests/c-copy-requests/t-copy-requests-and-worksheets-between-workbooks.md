@@ -1,22 +1,27 @@
 ---
-description: Kopieer een volledig spreadsheet in een bronwerkboek aan een spreadsheet in één of meerdere doelwerkboeken.
-title: Aanvragen en werkbladen kopiëren tussen werkmappen
+description: Leer hoe te om een spreadsheet van een bronwerkboek aan één of meerdere doelwerkboeken te kopiëren.
+title: Hoe te om verzoeken en aantekenvellen tussen werkboeken te kopiëren
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 3%
+source-wordcount: '369'
+ht-degree: 1%
 
 ---
 
 # Aanvragen en werkbladen kopiëren tussen werkmappen
 
-Kopieer een volledig spreadsheet in een bronwerkboek aan een spreadsheet in één of meerdere doelwerkboeken.
+Kopieer een volledig spreadsheet in een bronwerkboek aan een spreadsheet in één of meerdere doelwerkboeken. Om dit te doen, moet u minstens twee werkboeken hebben die in het zelfde geval van Excel worden geopend:
+* Het eerste bronwerkboek bevat een spreadsheet (aantekenvel) met verzoeken in kaart gebracht aan cellen.
+* De extra doelwerkboeken zijn de bestemmingen. Voor elk nieuw doelwerkboek, zou u aan de zelfde rapportreeks zoals het bronwerkboek moeten login alvorens u spreadsheets kunt kleven die verzoeken bevatten.
 
-Om dit te doen, moet u minstens twee werkboeken hebben die in het zelfde geval van Excel worden geopend: het eerste bronwerkboek bevat een spreadsheet (aantekenvel) met verzoeken in kaart gebracht aan cellen, terwijl de extra doelwerkboeken de bestemmingen zijn. Voor elk nieuw doelwerkboek, zou u aan de zelfde rapportreeks zoals het bronwerkboek moeten login alvorens u spreadsheets kunt kleven die verzoeken bevatten.
+>[!NOTE]
+>
+>U moet login aan het doelwerkboek gebruikend de zelfde rapportreeks zoals het bronwerkboek. De verzoeken in beide werkboeken moeten worden gecreeerd gebruikend de zelfde login van de rapportreeks.
+
 1. Klik met de rechtermuisknop op het spreadsheet in het bronwerkboek en selecteer **[!UICONTROL Copy Worksheet w/Requests]**.
 1. In het bestemmingswerkboek, klik spreadsheet met de rechtermuisknop aan en selecteer **[!UICONTROL Paste Worksheet w/Requests]**.
 

@@ -4,10 +4,10 @@ title: Berekende standaarden
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 13%
+source-wordcount: '399'
+ht-degree: 12%
 
 ---
 
@@ -25,18 +25,18 @@ In Stap 2 van de Tovenaar van het Verzoek, kunt u berekende metriek filtreren en
 
 ## Berekende cijfers filteren {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filter** berekende metriek door op het pictogram van de Filter te klikken:  ![](/help/admin/admin/assets/filter.png)
+**Filter** berekende metriek door op het pictogram van de Filter te klikken:  ![Screenshot van de filteropties die de velden Toepassing, Gebruiker en Project weergeven.](/help/admin/admin/assets/filter.png)
 
-. Het dialoogvenster Geavanceerde filters wordt gevuld met zowel standaard als berekende meetwaarden.
+Het dialoogvenster Geavanceerde filters wordt gevuld met zowel standaard als berekende meetwaarden.
 
 Beschikbare filters zijn:
 
-![](assets/advanced_filters.png)
+![Screenshot met de opties voor Geavanceerde filters die in de volgende tabel worden beschreven.](assets/advanced_filters.png)
 
 | Filternaam | Beschrijving |
 |---|---|
 | Tags | Hiermee kunt u filteren op berekende metriek met specifieke tags. Merk op dat de filters van de Markering de exploitant EN gebruiken. Als u twee labels controleert, ziet u in het rechterdeelvenster de maateenheden die zijn getagd **beide** -tags. |
-| Rapportsuites | Als u de optie Alleen *naam rapportsuite*&quot;, filtert in de Berekende Metrische Bouwer in [!DNL Reports & Analytics]en geeft u vervolgens het geavanceerde filter weer in [!DNL Report Builder], zal het Geavanceerde filter de berekende metriek voor de geselecteerde rapportreeks slechts tonen. |
+| Rapportsuites | Als u de optie Alleen *naam rapportsuite*&quot; in de Berekende Metrische Bouwer in [!DNL Reports & Analytics]en geeft u vervolgens het geavanceerde filter weer in [!DNL Report Builder], zal het Geavanceerde filter de berekende metriek voor de geselecteerde rapportreeks slechts tonen. |
 | Eigenaars | Hiermee kunt u metingen filteren op eigenaar. Merk op dat eigenaarfilters de operator OR gebruiken. Als u twee eigenaars controleert, toont de juiste ruit metriek die door wordt bezeten **ofwel** eigenaar. |
 | Overige filters > Goedgekeurd | Toont alle officieel goedgekeurde metriek. |
 | Overige filters > Favorieten | Hiermee worden alle metrische gegevens weergegeven die u als Favorieten hebt gemarkeerd. |
@@ -45,6 +45,6 @@ Beschikbare filters zijn:
 
 ## Berekende waarden toepassen {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
-Nadat u de filters hebt geselecteerd, klikt u op **[!UICONTROL Apply]** om deze op uw verzoek toe te passen. De geselecteerde metrische(n) worden nu toegevoegd aan de rapportlay-out.
+Klik op **[!UICONTROL Apply]** om deze op uw verzoek toe te passen. De geselecteerde metrische(n) worden nu toegevoegd aan de rapportlay-out.
 
-![](assets/filtering_for_metric.png)
+![Screenshot die de Stap 2 van de Tovenaar van het Verzoek toont - de Totalen van de Plaats richtend aan het Geavanceerde venster van Filters en toegepaste rapportmetriek.](assets/filtering_for_metric.png)

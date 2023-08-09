@@ -4,9 +4,9 @@ title: Problemen met Power BI-integratie oplossen
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: f6f65f34c4d8caf04eb3ea47108e36e5b9adf24f
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
@@ -24,9 +24,9 @@ De geplande werkboeken die Power BI het publiceren vereisen zijn afhankelijk van
 
 Elke geplande Report Builder taak krijgt drie pogingen per geplande looppas:
 
-* Na de eerste mislukte poging ontvangt u het volgende bericht: &quot;&quot;We konden dit geplande werkboek niet publiceren naar Microsoft Power BI. We proberen het binnenkort opnieuw.&quot;
+* Na de eerste mislukte poging krijgt u het volgende bericht: &quot;&quot;We konden dit geplande werkboek niet publiceren naar Microsoft Power BI. We proberen het binnenkort opnieuw.&quot;
 * Na de tweede mislukte poging krijg je geen bericht meer.
-* Na de derde mislukte poging ontvangt u het volgende bericht: &quot;We konden dit werkboek niet naar Power BI publiceren.&quot;
+* Na de derde mislukte poging krijgt u het volgende bericht: &quot;We konden dit werkboek niet naar Power BI publiceren.&quot;
 
 ## Gebroken visualisaties in Power BI
 
@@ -35,13 +35,14 @@ Hieronder vindt u een overzicht van de belangrijkste redenen waarom u onderbroke
 * U hebt een aanvraag bewerkt in Report Builder, zoals metriek of afmetingen wijzigen en vervolgens opnieuw gepubliceerd in Power BI. Door aanvragen te bewerken kunnen uw visualisaties worden verbroken.
 * U hebt een aanvraag verwijderd die in een visualisatie is gebruikt.
 
-## Report Builder moet gemachtigd zijn om toegang te krijgen tot uw organisatiebronnen. Deze toegang kan slechts door een beheerder worden verleend. Vraag een beheerder om u toestemming te verlenen.
+>[!IMPORTANT]
+>
+>Report Builder vereist een beheerder om toegang tot uw organisatiemiddelen toe te staan. Als u toegang nodig hebt, vraagt u een beheerder om u toestemming te verlenen.
+> Een Microsoft-beheerder kan de *Gebruikers kunnen een toepassing registreren* instelling gevonden onder: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL User Settings allows options]**. Als deze optie is ingesteld op **Nee**, kan de beheerder deze typen toepassingen registreren.
 
-Laat een Microsoft-beheerder de instelling Gebruikers kunnen de toepassing registreren bekijken onder: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL User Settings allows options]**. Als deze optie is ingesteld op Nee, kan die beheerder deze typen toepassingen registreren.
+Gebruikers kunnen toegang verlenen door zich aan te melden [Microsoft Power BI account](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
-Gebruikers kunnen toegang verlenen door het volgende te gebruiken: [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
-
-Beheerders die toegang voor elke instantie hebben verkregen, gebruiken het volgende [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+Beheerders kunnen toegang verlenen voor elke gebruiker door zich aan te melden bij hun [Microsoft-Power BI-account van beheerder](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
 ## De API-limiet bereiken
 

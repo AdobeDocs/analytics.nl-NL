@@ -4,9 +4,9 @@ title: Gebookmarkte rapporten en dashboardrapporten importeren
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '350'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ Wanneer u een bookmarked rapport selecteert, bevolkt de Tovenaar van het Verzoek
 
 Dit is hoe Stap 1 van de Tovenaar van het Verzoek een dashboard en zijn rapporten toont:
 
-![](assets/import_dashboard_reportlet.png)
+![Schermafbeelding met daarin de aanvraagwizard Stap 1 van 2 die de markering Ophalen van uw dashboards en het ophalen van uw bladwijzers bevat.](assets/import_dashboard_reportlet.png)
 
 Wanneer u op **[!UICONTROL Retrieve your Dashboards]** of **[!UICONTROL Retrieve your Bookmarks]**, worden uw bestaande dashboard- en/of bladwijzergegevens opgehaald en in het werkblad geplakt.
 
@@ -31,7 +31,7 @@ Wanneer u op **[!UICONTROL Retrieve your Dashboards]** of **[!UICONTROL Retrieve
 >
 >Alleen gegevens worden geïmporteerd, dus als de bladwijzer een grafiek bevat of als het dashboardrapport alleen uit een grafiek bestaat, worden alleen de gegevens geïmporteerd die worden gebruikt om de grafiek te vullen.
 
-Zodra u een verzoek door een dashboardrapport (of een referentie) in te voeren hebt gecreeerd, zal het verzoek dan aan de primaire dimensie van het rapport (of van de referentie) worden geassocieerd. Als u de aanvraag bewerkt, wordt in de structuurweergave het knooppunt voor de weergave van de rapportboomstructuur van het dashboard (of het knooppunt bladwijzer) niet meer geselecteerd: in plaats daarvan wordt de primaire dimensie geselecteerd .
+Zodra u een verzoek door een dashboardrapport (of een referentie) in te voeren hebt gecreeerd, zal het verzoek dan aan de primaire dimensie van het rapport (of van de referentie) worden geassocieerd. Als u de aanvraag bewerkt, wordt in de structuurweergave het knooppunt voor de boomstructuurweergave in het dashboard-rapport (of bladwijzerknooppunt) niet meer geselecteerd: in plaats daarvan wordt de primaire dimensie geselecteerd.
 
 De geïmporteerde bladwijzerplaat zal de rapportsuite, het geselecteerde segment, de dimensie en de geselecteerde metriek op de juiste wijze instellen voor dezelfde parameters die in de bladwijzer Rapporten &amp; analyse worden weergegeven.
 

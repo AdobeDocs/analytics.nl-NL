@@ -5,10 +5,10 @@ uuid: b161948c-c71c-4757-8348-15577fc61042
 feature: Report Builder
 role: User, Admin
 exl-id: 0ae7887f-29bf-4565-9ca0-20b77a3a70cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 12%
+source-wordcount: '74'
+ht-degree: 13%
 
 ---
 
@@ -23,4 +23,6 @@ Afkortingen voor de begin- en einddatum.
 * cd-2d = twee dagen geleden
 * cw-2w = eerste dag van de week, twee weken geleden
 
-Als u de datum instelt op een datum in de toekomst, worden geen waarden voor toekomstige datums geretourneerd.
+>[!NOTE]
+>
+>Als u de datum instelt op een datum in de toekomst, worden de waarden niet geretourneerd.

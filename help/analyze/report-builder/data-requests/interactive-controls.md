@@ -4,9 +4,9 @@ title: Interactieve besturingselementen
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '576'
 ht-degree: 1%
 
 ---
@@ -23,10 +23,9 @@ Interactieve besturingselementen zijn gemaakt als reactie op een algemene workfl
 >[!IMPORTANT]
 >
 >De interactieve besturingselementen werken alleen als Report Builder v5.0 is geïnstalleerd. >
->* Als u Microsoft Excel op Vensters in werking stelt maar een lagere versie van rapportbouwer in werking stelt, of als u rapportbouwer niet hebt geïnstalleerd: U kunt de waarde in de interactieve controle veranderen, maar het zal niet het bijbehorende verzoek verfrissen, noch de bijbehorende parameters van het verzoek bijwerken.
->* Als u Excel op Mac in werking stelt, zal het veranderen van de waarde in de controle het volgende bericht veroorzaken om worden getoond: &quot;De macro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39; kan niet worden gevonden.&quot;
+>* Als u Microsoft Excel op Vensters in werking stelt maar een lagere versie van rapportaannemer in werking stelt, of als u geen geïnstalleerde rapportaannemer hebt: U kunt de waarde in de interactieve controle veranderen, maar het zal niet het bijbehorende verzoek verfrissen, noch de bijbehorende parameters van het verzoek bijwerken.
+>* Als u Excel op Mac in werking stelt, zal het veranderen van de waarde in de controle het volgende bericht veroorzaken om worden getoond: &quot;De macro &quot;Adobe.ReportBuilder.Bridge.FormControlClick.Event&quot;kan niet worden gevonden.&quot;
 >
-
 
 >[!WARNING]
 >
@@ -37,11 +36,11 @@ Interactieve besturingselementen zijn gemaakt als reactie op een algemene workfl
 1. In Stap 1 van de Tovenaar van het Verzoek selecteert, bijvoorbeeld **[!UICONTROL Page]** verslag.
 1. Naast de **[!UICONTROL Commonly Used Dates]** klikt u op de knop **[!UICONTROL Control Settings]** pictogram:
 
-   ![](assets/date_range_control.png)
+   ![Screenshot van de wizard Verzoek Stap 1 die het pictogram Instellingen besturingselement markeert. ](assets/date_range_control.png)
 
 1. Selecteer in het dialoogvenster Instellingen voor besturing alle datumbereikitems die u wilt weergeven in het interactieve besturingselement. Bovendien specificeer de hogere linkercelplaats van de controle.
 
-   ![](assets/control_settings.png)
+   ![Screenshot met de geselecteerde items van het datumbereik en de locatie van de cel linksboven.](assets/control_settings.png)
 
 1. Let op de optie &quot;Gekoppelde aanvragen automatisch vernieuwen bij selectie van item&quot;.
 
@@ -50,18 +49,19 @@ Interactieve besturingselementen zijn gemaakt als reactie op een algemene workfl
 
 1. Klik op **[!UICONTROL OK]**. Het besturingselement wordt weergegeven op de cellocatie die u hebt opgegeven:
 
-   ![](assets/date_range_control_interactive.png)
-
 1. U kunt nu het datumbereik wijzigen en de aanvraag wordt vernieuwd met dat datumbereik.
+
+   ![Screenshot met het geselecteerde datumbereik.](assets/date_range_control_interactive.png)
+
 1. U kunt de aanvraag ook kopiëren en met de rechtermuisknop klikken om een van de twee opties voor Aanvraag plakken te gebruiken:
 
    * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. Dit betekent dat het gekopieerde verzoek naar dezelfde interactieve besturingselement voor datumbereik verwijst als het oorspronkelijke verzoek.
 
    * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. Dit betekent dat het gekopieerde verzoek naar zijn eigen controle zal verwijzen.
 
-      >[!NOTE]
-      >
-      >U kunt de native Microsoft Excel-besturingsfuncties Knippen/Kopiëren/Plakken gebruiken. De bouwer van het rapport herkent automatisch de onlangs toegevoegde controles.
+     >[!NOTE]
+     >
+     >U kunt de native Microsoft Excel-besturingsfuncties Knippen/Kopiëren/Plakken gebruiken. De bouwer van het rapport herkent automatisch de onlangs toegevoegde controles.
 
 ## Interactief segmentbesturingselement implementeren {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
@@ -69,12 +69,12 @@ Het uitvoeren van de interactieve segmentcontrole is gelijkaardig aan het uitvoe
 
 1. In Stap 1 van de Tovenaar van het Verzoek, naast **[!UICONTROL Segment]** vervolgkeuzelijst, selecteert u het pictogram Instellingen Segmentbeheer:
 
-   ![](assets/segment_interactive_1.png)
+   ![Schermafbeelding van het pictogram Instellingen Segmentbeheer.](assets/segment_interactive_1.png)
 
 1. Selecteer in het dialoogvenster Instellingen segmentbeheer de segmenten die u wilt opnemen in de vervolgkeuzelijst. Bovendien specificeer de hogere linkercelplaats van de controle.
 
-   ![](assets/segment_drop_down_properties.png)
+   ![Screenshot met de instellingen voor segmentbeheer voor de geselecteerde segmenten en de cellocatie.](assets/segment_drop_down_properties.png)
 
 1. De nieuwe interactieve controle zal nu in het werkboek verschijnen:
 
-   ![](assets/segment_interactive_3.png)
+   ![Screenshot met het nieuwe geselecteerde interactieve besturingselement.](assets/segment_interactive_3.png)

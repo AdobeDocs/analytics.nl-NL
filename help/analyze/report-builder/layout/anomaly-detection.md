@@ -1,14 +1,14 @@
 ---
-description: De opsporing van het anomaly gebruikt statistische modellering om onverwachte tendensen in uw gegevens automatisch te vinden. Het model analyseert metriek en bepaalt een ondergrens, bovengrens, en verwachte waaier van waarden. Wanneer een onverwachte punt of daling voorkomt, alarmeert het systeem u in het rapport.
-title: Anomaliedetectie
+description: Leer over Anomaly Detection en hoe het berekend is.
+title: Hoe Anomaly Detection wordt gebruikt om trends automatisch te vinden
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
 role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 1%
+source-wordcount: '490'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ Om de gegevens te berekenen wordt het dagelijkse totaal voor elke metrische waar
 
 Elk algoritme wordt toegepast om het algoritme met de kleinste Som van Vierkante Fouten (SSE) te bepalen. De gemiddelde Absolute Percent Error (MAPE) en de huidige Standaardfout worden vervolgens berekend om ervoor te zorgen dat het model statistisch geldig is.
 
-Deze algoritmen kunnen worden uitgebreid om voorspellende prognoses van metriek in toekomstige periodes te verstrekken.
+Deze algoritmen kunnen worden uitgebreid om voorspellingen van metriek in toekomstige periodes te verstrekken.
 
 Omdat de trainingsperiode afhankelijk is van het begin van de rapportageperiode, kunnen er verschillen optreden in de gegevens die op dezelfde datum worden gerapporteerd als onderdeel van twee verschillende tijdsperiodes.
 

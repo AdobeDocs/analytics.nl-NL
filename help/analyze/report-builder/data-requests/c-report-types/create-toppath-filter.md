@@ -4,10 +4,10 @@ title: Padrapporten filteren door afhankelijke aanvragen toe te voegen
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 8%
+source-wordcount: '183'
+ht-degree: 7%
 
 ---
 
@@ -29,12 +29,10 @@ Report Builder biedt deze niet aan als zelfstandige rapporten, maar u kunt ze ma
 * Pad > Pad item > Als invoerpagina
 * Pad > Pad afsluiten > Als eindpagina
 
-1. Selecteer meerdere rijen uit een bestaande aanvraag en klik met de rechtermuisknop **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**.
+1. Selecteer meerdere rijen uit een bestaande aanvraag en klik met de rechtermuisknop **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**. U moet ten minste drie rijen selecteren als u de **[!UICONTROL Page Fallout]** menu-item.
 
-   (Let op: u moet ten minste drie rijen selecteren als u de **[!UICONTROL Page Fallout]** menu-item.)
+   ![Screenshot met drie geselecteerde rijen met de optie Afhankelijke aanvraag toevoegen geselecteerd.](assets/dependen_request.png)
 
-   ![](assets/dependen_request.png)
-
-1. Selecteer bijvoorbeeld het vooraf gedefinieerde filter **[!UICONTROL Previous Page]**.
+2. Selecteer bijvoorbeeld het vooraf gedefinieerde filter **[!UICONTROL Previous Page]**.
 
    De wizard Verzoek wordt weergegeven. De metrische waarde voor Vorige pagina is al geselecteerd. 1. Ga door met het verfijnen van uw verzoek in de wizard Verzoek en het genereren van uw verzoek.
