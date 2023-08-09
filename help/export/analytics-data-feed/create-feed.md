@@ -3,9 +3,9 @@ title: Een gegevensfeed maken
 description: Leer hoe u een gegevensfeed maakt.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
 workflow-type: tm+mt
-source-wordcount: '3118'
+source-wordcount: '3170'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende informatie:
 
 >[!NOTE]
 >
->Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van gegevensvoer te hebben en dat u aan alle noodzakelijke voorwaarden voldoet. Zie voor meer informatie [Overzicht van gegevensfeeds](data-feed-overview.md).
+>Alvorens u een gegevensvoer creeert, is het belangrijk om een basisbegrip van gegevensvoer te hebben en ervoor te zorgen dat u aan alle noodzakelijke voorwaarden voldoet. Zie voor meer informatie [Overzicht van gegevensfeeds](data-feed-overview.md).
 
 ## Een gegevensfeed maken en configureren
 
@@ -45,6 +45,15 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende informatie:
    | [!UICONTROL **Doorlopende diervoeders**] | Met dit selectievakje wordt de einddatum verwijderd, zodat een feed voor onbepaalde tijd kan worden uitgevoerd. Als een feed de verwerking van historische gegevens heeft voltooid, wacht een feed tot de gegevens een bepaald uur of een bepaalde dag zijn verzameld. Zodra het huidige uur of de dag eindigt, begint de verwerking na de gespecificeerde vertraging. |
 
 1. In de [!UICONTROL **Doel**] in de [!UICONTROL **Type**] selecteert u het doel waarnaar u de gegevens wilt verzenden.
+
+   >[!NOTE]
+   >
+   >Overweeg het volgende wanneer het vormen van een rapportbestemming:
+   >
+   >* We raden u aan een cloudaccount te gebruiken voor uw rapportbestemming. [Oudere FTP- en SFTP-accounts](#legacy-destinations) zijn beschikbaar, maar worden niet aanbevolen.
+   >
+   >* Cloud-accounts zijn gekoppeld aan uw Adobe Analytics-gebruikersaccount. Andere gebruikers kunnen geen cloudaccounts gebruiken of weergeven die u configureert.
+   >
 
    ![Vervolgkeuzemenu bestemming gegevenstoevoer](assets/datafeed-destinations-dropdown.png)
 
