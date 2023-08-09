@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d1b9ef79a456fc52b7fa644d088f7089c9b654e4
+source-git-commit: 00fd63b7486382da5506d16540bb949c52541c6d
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '887'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Deze releaseopmerkingen hebben betrekking op de releaseperiode van 9 augustus tot 13 september 2023. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
-## Nieuwe of verbeterde functies tussen 9 augustus en 12 september 2023 {#features}
+## Nieuwe of verbeterde functies {#features}
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
