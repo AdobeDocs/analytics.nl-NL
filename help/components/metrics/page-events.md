@@ -3,9 +3,9 @@ title: Gebeurtenissen van Page
 description: Het aantal acties voor het bijhouden van koppelingen dat wordt geactiveerd.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 5e70a84c7793b516c0eca2776d8bbfd3ea3fc02b
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ De metrische waarde &#39;Pagina-gebeurtenissen&#39; geeft het aantal keren weer 
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrische tellingen alle verbinding volgende vraag ([`tl()`](/help/implement/vars/functions/tl-method.md)) in een rapportenpakket. Alle typen koppelingen zijn opgenomen (aangepaste koppelingen, downloadkoppelingen en afsluitkoppelingen). Het omvat geen vraag het volgen van de paginamening ([`t()`](/help/implement/vars/functions/t-method.md)).
+Deze metrische tellingen allen [Aanroepen voor het bijhouden van koppelingen (`tl()`)](/help/implement/vars/functions/tl-method.md) in een rapportenpakket. Alle typen koppelingen zijn opgenomen (aangepaste koppelingen, downloadkoppelingen en afsluitkoppelingen). Het omvat niet: [Aanroepen voor bijhouden van paginaweergave (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## Vergelijken met vergelijkbare cijfers
 
-* **Pagina-gebeurtenissen versus [Paginaweergaven](page-views.md)**: Pagina-gebeurtenissen tellen het aantal aanroepen voor het bijhouden van koppelingen (`tl()`) en sluit het bijhouden van aanroepen van paginaweergaven uit (`t()`). Paginaweergaven hebben het tegenovergestelde effect; het telt het aantal pagina mening het volgen vraag, en sluit verbindingen uit.
+* **Pagina-gebeurtenissen vs. [Paginaweergaven](page-views.md)**: Pagina-gebeurtenissen tellen het aantal aanroepen voor het bijhouden van koppelingen (`tl()`) en sluit het bijhouden van aanroepen van paginaweergaven uit (`t()`). Paginaweergaven zijn het tegenovergestelde; het telt het aantal opvolgende aanroepen voor paginaweergave en sluit koppelingen uit.
