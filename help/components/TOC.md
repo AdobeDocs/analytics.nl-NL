@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
+source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '726'
 ht-degree: 43%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 43%
 + [Analytics Components-handleiding](home.md)
 + [Aanvullende informatie voor Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensies {#dimensions}
-   + [Overzicht van Dimension](dimensions/overview.md)
-   + [Dimension-compatibiliteit](dimensions/compatibility.md)
+   + [Overzicht van Dimensionen](dimensions/overview.md)
+   + [Compatibiliteit van Dimensionen](dimensions/compatibility.md)
    + [Alle zoekpaginanummers](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
    + [Bot-naam](dimensions/bot-name.md)
@@ -32,14 +32,14 @@ ht-degree: 43%
    + [Kleurdiepte](dimensions/color-depth.md)
    + [Verbindingstype](dimensions/connection-type.md)
    + [Optie voor beheer van toestemming](dimensions/cm-opt-in.md)
-   + [Optie voor beheer van toestemming](dimensions/cm-opt-out.md)
+   + [Weigering van toegang voor beheer](dimensions/cm-opt-out.md)
    + [Cookie-ondersteuning](dimensions/cookie-support.md)
    + [Landen](dimensions/countries.md)
    + [Aangepaste koppeling](dimensions/custom-link.md)
    + [Klantenloyaliteit](dimensions/customer-loyalty.md)
    + [Dag van de maand](dimensions/day-of-month.md)
    + [Dag van de week](dimensions/day-of-week.md)
-   + [Dag van het jaar](dimensions/day-of-year.md)
+   + [Dag van jaar](dimensions/day-of-year.md)
    + [Dag](dimensions/day.md)
    + [Dagen vóór eerste aankoop](dimensions/days-before-first-purchase.md)
    + [Dagen sinds laatste aankoop](dimensions/days-since-last-purchase.md)
@@ -56,7 +56,7 @@ ht-degree: 43%
    + [Hiërarchie](dimensions/hierarchy.md)
    + [Hoogte](dimensions/hit-depth.md)
    + [Type hit](dimensions/hit-type.md)
-   + [Uur van de dag](dimensions/hour-of-day.md)
+   + [Uur van dag](dimensions/hour-of-day.md)
    + [Uur](dimensions/hour.md)
    + [Status geïdentificeerd](dimensions/identified-state.md)
    + [Java ingeschakeld](dimensions/java-enabled.md)
@@ -65,7 +65,7 @@ ht-degree: 43%
    + [Laatste aanraakkanaaldetail](dimensions/last-touch-detail.md)
    + [Marketingkanaal](dimensions/marketing-channel.md)
    + [Detailgegevens marketingkanaal](dimensions/marketing-detail.md)
-   + [Minuut](dimensions/minute.md)
+   + [Minute](dimensions/minute.md)
    + [Mobiele afmetingen](dimensions/mobile-dimensions.md)
    + [Monitorresolutie](dimensions/monitor-resolution.md)
    + [Maand van jaar](dimensions/month-of-year.md)
@@ -86,7 +86,7 @@ ht-degree: 43%
    + [Referrer](dimensions/referrer.md)
    + [Verwijzen naar domein](dimensions/referring-domain.md)
    + [Regio&#39;s](dimensions/regions.md)
-   + [Retourfrequentie](dimensions/return-frequency.md)
+   + [Geretourneerde frequentie](dimensions/return-frequency.md)
    + [Zoekmachine](dimensions/search-engine.md)
    + [Trefwoord zoeken](dimensions/search-keyword.md)
    + [Server](dimensions/server.md)
@@ -107,13 +107,13 @@ ht-degree: 43%
    + [Postcode](dimensions/zip-code.md)
 + Cijfers {#metrics}
    + [Overzicht van cijfers](metrics/overview.md)
-   + [Aantal herhalingen](metrics/count-repeat-instances.md)
+   + [Herhalingsinstanties tellen](metrics/count-repeat-instances.md)
    + [Gemiddelde paginadiepte](metrics/average-page-depth.md)
    + [Gemiddelde paginaweergaven per bezoek](metrics/average-page-views-per-visit.md)
    + [Gemiddelde sessielengte](metrics/average-session-length.md)
    + [Gemiddelde tijd op de site](metrics/average-time-on-site.md)
    + [Beide voorvallen](metrics/bot-occurrences.md)
-   + [Bodt paginaweergaven](metrics/bot-page-views.md)
+   + [Boven pagina weergeven](metrics/bot-page-views.md)
    + [Stuitpercentage](metrics/bounce-rate.md)
    + [Bounces](metrics/bounces.md)
    + [Extra winkelwagentjes](metrics/cart-additions.md)
@@ -144,7 +144,7 @@ ht-degree: 43%
    + [Enkelvoudige toegang](metrics/single-access.md)
    + [Eén pagina bezoeken](metrics/single-page-visits.md)
    + [Tijd besteed per bezoek](metrics/time-spent-per-visit.md)
-   + [Tijd besteed per bezoeker](metrics/time-spent-per-visitor.md)
+   + [Tijd doorgebracht per bezoeker](metrics/time-spent-per-visitor.md)
    + [Overzicht van de tijd](metrics/time-spent.md)
    + [Totaal aantal bestede seconden](metrics/total-seconds-spent.md)
    + [Niet-geïdentificeerde personen](metrics/unidentified-people.md)
@@ -223,7 +223,7 @@ ht-degree: 43%
    + [Veldgebaseerde stitching](cda/field-based-stitching.md)
    + [Apparaatgrafiek](cda/device-graph.md)
    + [Apparaatanalyse instellen](cda/setup.md)
-   + [Hoe herspeelt u](cda/replay.md)
+   + [Hoe herspeelt u?](cda/replay.md)
    + [CDA Workspace-sjabloon](cda/workspace-template.md)
    + [Een vrijwillige VUT-regeling beperken tot bepaalde datums](cda/limit-vrs-date.md)
    + [Veelgestelde vragen over Cross-device Analytics](cda/faq.md)
@@ -273,6 +273,7 @@ ht-degree: 43%
    + [Cloud-importaccounts](/help/components/locations/configure-import-accounts.md)
    + [Cloud-importlocaties](/help/components/locations/configure-import-locations.md)
 + [Kalendergebeurtenissen](t-calendar-event.md)
++ [Geplande projecten](scheduled-projects-manager.md)
 + [Wachtrij voor geplande rapporten](scheduled-reports-admin.md)
 + Realtimerapportage {#real-time-reporting}
    + [Overzicht van realtimerapportage](c-real-time-reporting/realtime.md)
