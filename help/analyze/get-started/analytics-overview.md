@@ -4,9 +4,9 @@ title: Adobe Analytics-overzicht
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d5a7dfe720cc84b67208e7d30434295caf1e2aac
+source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
 workflow-type: tm+mt
-source-wordcount: '3108'
+source-wordcount: '3098'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ De [!UICONTROL Components] bevat functies die u helpen uw gegevensanalyse af te 
 
    ![Werkruimte, tabblad](assets/components-tab.png)
 
-2. Selecteer om het even welke volgende producteigenschappen om het te vormen: (Afhankelijk van uw toestemmingen, zouden niet alle eigenschappen kunnen zichtbaar zijn.)
+2. Selecteer om het even welke volgende producteigenschappen om het te vormen:
 
 
    | Productfunctie | -functie | Meer informatie |

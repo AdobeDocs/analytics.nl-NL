@@ -3,9 +3,9 @@ description: Deze Help-pagina bevat aanbevolen gebruiksgevallen voor elk Adobe A
 title: Welke Adobe Analytics-tool moet ik gebruiken?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
+source-git-commit: 52f7ff8a357cfe80e1f92b4162057da807f44e9d
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1222'
 ht-degree: 2%
 
 ---
@@ -30,38 +30,43 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 * Toegang krijgen tot realtime gegevens in de gebruikersinterface.
 * Kalendergebeurtenissen instellen.
 * Doelstellingen instellen.
-* Bot-rapportage weergeven.
 * U krijgt toegang tot unieke videovisualisaties van Video Daypart en Viewer Drop-off.
+
+>[!IMPORTANT]
+>
+>Effectief **31 december 2023**, is de Adobe voornemens de verslagen en analyses en de bijbehorende verslagen en kenmerken te beëindigen. Op dat moment werken de rapporten en analyses en alle bijbehorende rapporten en programma&#39;s niet meer. De rapporten, visualisaties en de onderliggende technologie die energierapporten &amp; analyses niet meer voldoen aan de technologienormen van de Adobe. De meeste functies voor rapporten en analyses zijn beschikbaar in Analysis Workspace. Sinds de release van Analysis Workspace in 2015 zijn de functionaliteit en mogelijkheden van Rapporten en Analytics verplaatst naar Analysis Workspace en is een drempel voor pariteit van de workflow bereikt. Deze kennisgeving legt het einde van de levensduur uit.
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** dienen te worden gebruikt:
 
-* De meest flexibele optie voor Analytics (tot op bezoekersniveau, analyse op raakniveau).
-* Om een multi-kanaaldataset van online en off-line interactie van CRM aan POS aan Web tot stand te brengen.
-* Voor geavanceerde attributie (op regels gebaseerde &amp; algoritmische modellen).
 * Voor voorspellende, statistische modellering (prospectie, clustering, correlaties, enz.).
 * Voor Latentie-analyse (tijd voor / sinds een gebeurtenis).
 * Voor de identificatie en uitvoer van complexe segmenten in Adobe Experience Cloud.
+
+>[!IMPORTANT]
+>
+>Meer informatie over Data Workbench [Aankondiging einde levensduur](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
+
 
 ## Gegevens importeren in Adobe Analytics {#import}
 
 **[Classificaties](/help/components/classifications/c-classifications.md)** dienen te worden gebruikt:
 
-* Als er metagegevens zijn die u aan een verzamelwaarde wilt koppelen (eVar, prop, marketingkanaal)
+* Als er metagegevens zijn die u aan een verzamelwaarde wilt koppelen (eVar, proxy, marketingkanaal)
 * Opties:
 
-   * Regelbouwer: gebruiken wanneer u voorspelbare opgemaakte waarden hebt die voor een variabele worden verzameld, bijvoorbeeld waarden met scheidingstekens. Op deze manier kunt u regels voor een keer instellen, grotendeels &quot;instellen en vergeten&quot;.
-   * Browser importeren: gebruiken wanneer u geen voorspelbare waarden hebt, of wanneer u een eindige lijst van waarden hebt die een eenmalig update vereist. Deze aanpak vereist dat u de classificaties voortdurend controleert op nieuwe waarden.
+   * De bouwer van de regel: gebruik wanneer u voorspelbare formatted-values hebt die voor een variabele, b.v. afgebakende waarden worden verzameld. Op deze manier kunt u regels voor een keer instellen, grotendeels &quot;instellen en vergeten&quot;.
+   * Browser het invoeren: gebruik wanneer u geen voorspelbare waarden hebt, of wanneer u een eindige lijst van waarden hebt die een eenmalig update vereist. Deze aanpak vereist dat u de classificaties voortdurend controleert op nieuwe waarden.
 
 **[Gegevensbronnen](/help/import/data-sources/overview.md)** dienen te worden gebruikt:
 
 * Als er offlinegegevens zijn die u permanent in Adobe Analytics wilt schrijven
 * Opties:
 
-   * Overzicht: eenvoudige gegevens uploaden, op dag of beperkte afmetingen
-   * Transactie-id: gegevens uploaden die een online eindpunt met off-line gegevens verbinden, en ingevoerde gegevens volledig associëren aan een bezoekersmomentopname die online wordt gevangen (b.v. orden volledig online, en worden teruggekeerd off-line)
-   * Volledige verwerking: gegevensbronnen met tijdstempels, verwerkt alsof deze zijn verzameld door Adobe-servers. Dat wil zeggen dat gegevens rechtstreeks in de bezoekersreis worden ingevoerd.
+   * Samenvatting: eenvoudige gegevens worden geüpload, op dag of in beperkte afmetingen
+   * Transactie-id: gegevens worden geüpload die een online eindpunt verbinden met offline gegevens en geïmporteerde gegevens volledig koppelen aan een online vastgelegde bezoekersmomentopname (bestellingen worden bijvoorbeeld online voltooid en offline geretourneerd)
+   * Volledige verwerking: gegevensbronnen met tijdstempels, verwerkt alsof deze zijn verzameld door Adobe servers. Dat wil zeggen dat gegevens rechtstreeks in de bezoekersreis worden ingevoerd.
 
-**[Adobe Exchange-integratie](https://www.adobeexchange.com/experiencecloud.html)** dienen te worden gebruikt:
+**[Integraties van Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** dienen te worden gebruikt:
 
 * Wanneer u verbinding maakt met een externe provider die een ondersteunde verbinding met Adobe Analytics heeft gemaakt. Integratie-apps bevatten doorgaans permanent en automatisch samenvattingsgegevens in Adobe Analytics, op terugkerende basis.
 
@@ -75,7 +80,7 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 
 **[Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** dienen te worden gebruikt:
 
-* Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt en de gegevens aan Experience Cloud wilt uploaden.
+* Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt en de gegevens aan het Experience Cloud wilt uploaden.
 * Als u de gegevens van CRM voor diepere analyse in Analytics wilt gebruiken, of als het richten van criteria in Adobe Target.
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** dienen te worden gebruikt:
@@ -88,14 +93,14 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 **[Report Builder](/help/analyze/report-builder/home.md)** dienen te worden gebruikt:
 
 * Als de aangepaste layoutopties van Workspace worden beperkt (alles is mogelijk in Report Builder, binnen de grenzen van Excel).
-* In gebruikersinvoer of offlinegegevensbronnen (impressies, kosten) losjes koppelen aan Adobe-gegevens. De duurdere oplossing voor het verbinden in gegevens is Gegevensbronnen (zie het Importeren van Gegevens aan Analytics).
+* In gebruikersinvoer of offlinegegevensbronnen (impressies, kosten) losjes koppelen aan Adobe gegevens. De duurdere oplossing voor het verbinden in gegevens is Gegevensbronnen (zie het Importeren van Gegevens aan Analytics).
 * Gegevens uit verschillende dimensionale rapporten samenvoegen (bv. rapport over promo-impressions wordt gekoppeld aan rapport over promo-click-to-conversion).
 * Om gegevens van verschillende rapportreeksen samen te voegen, of door samen te vatten of in de zelfde lijst zij aan zij te tonen.
 * Als automatisering door het plannen wordt gewenst (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** dienen te worden gebruikt:
 
-* Om tot variabelen toegang te hebben die anders in UI - IP adres, Experience Cloud ID, Analytics Visitor ID, Pagina URL) worden verborgen
+* Om tot variabelen toegang te hebben die anders in UI - IP adres, Experience Cloud identiteitskaart, Analytics Visitor ID, Pagina URL) worden verborgen
 * Om tot meer korrelige gegevens dan UI (gedenormaliseerde lijstmening) toegang te hebben
 * Gegevens downloaden in een indeling die geschikt is voor draaitabelinvoer
 * Als de client Adobe-gegevens wil invoeren in een hulpprogramma voor gegevensvisualisatie van derden (enigszins samengevat en niet op raakniveau)
@@ -105,12 +110,12 @@ Hier is een video waarin verschillende Adobe Analytics-gereedschappen worden ver
 
 * Als u de meest gedetailleerde gegevensinvoer wilt gebruiken die we kunnen opgeven (bezoeker-id, hit).
 * Als de cliënt Adobe gegevens wil die in een cliënt-zijgegevensbestand worden opgeslagen, op het meest korrelige niveau kunnen wij verzenden.
-* Als de client een Business Intelligence-app (BI) wil ontwikkelen of Adobe-gegevens op raakniveau in een hulpprogramma van derden wil invoeren.
+* Als de client een Business Intelligence (BI)-tool wil ontwikkelen of gegevens op aanraakniveau wilt invoeren in een hulpprogramma van derden.
 
 **[API&#39;s rapporteren](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)** moeten worden gebruikt als de andere visualisatieopties niet aan uw behoeften voldoen. De drie API-opties zijn:
 
-* **Volledig verwerkt**: wanneer u eigenschap-rijke gegevens (met inbegrip van bezoeken, bezoekers, en segmenten) wilt. Dit zijn standaard samengevatte gegevens uit de analysefunctie, beschikbaar binnen ~30-90 minuten. Kan via Report Builder worden gebruikt.
-* **Real-time**: wanneer u een paar metriek en afmetingen met seconden van latentie wilt bekijken. Dit zijn beperkte, gedeeltelijk verwerkte, samengevatte gegevens die binnen ~30 seconden beschikbaar zijn. Omvat unieke algoritmen van populairste, aannemers, en verliezers. Kan via Report Builder worden gebruikt.
+* **Volledig verwerkt**: wanneer u gegevens met uitgebreide functies (zoals bezoeken, bezoekers en segmenten) wilt gebruiken. Dit zijn standaard samengevatte gegevens uit de analysefunctie, beschikbaar binnen ~30-90 minuten. Kan via Report Builder worden gebruikt.
+* **Real-time**: als u enkele metriek en afmetingen wilt weergeven met seconden vertraging. Dit zijn beperkte, gedeeltelijk verwerkte, samengevatte gegevens die binnen ~30 seconden beschikbaar zijn. Omvat unieke algoritmen van populairste, grainers, en verliezers. Kan via Report Builder worden gebruikt.
 * **[!UICONTROL Live Stream]**: als u binnen seconden na de verzameling een stream wilt van gedeeltelijk verwerkte analysegegevens op raakniveau. Dit zijn gedeeltelijk verwerkte gegevens, beschikbaar binnen ~30 seconden. Alleen beschikbaar voor Analytics Premium. Vereist één of andere manier om de gegevens te visualiseren, typisch door een overeenkomst van de Diensten van de Techniek.
 
 ## Aangepaste oplossingen {#custom-solutions}

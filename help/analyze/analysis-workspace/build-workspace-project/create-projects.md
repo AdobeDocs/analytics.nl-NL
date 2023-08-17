@@ -4,14 +4,14 @@ title: Projecten maken
 feature: Workspace Basics
 role: User, Admin
 exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
-source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
+source-git-commit: fabe043264e4567d54dc497897fff0aaad77eaaf
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Projecten maken
+# Projecten maken in Analysis Workspace
 
 [Projecten](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace kunt u bedrijfskritieke analyses weergeven die kunnen worden gedeeld met belanghebbenden binnen of buiten uw organisatie.
 
@@ -62,7 +62,7 @@ Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren ee
 
 Een deelvenster toevoegen:
 
-1. Selecteer [!UICONTROL **Deelvensters**] in de linkerspoorstaaf.
+1. Selecteer de [!UICONTROL **Deelvensters**] in de linkerspoorstaaf.
 
    ![](assets/build-panels.png)
 
@@ -78,11 +78,11 @@ Een deelvenster toevoegen:
 
 >[!TIP]
 >
->De lijsten van de vrije vorm zijn het gemeenschappelijkste type van visualisatie, en zijn de basis voor interactieve gegevensanalyse. Zie voor meer informatie over het werken met Freeform-tabellen in Analysis Workspace [Vrije-vormentabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+>De lijsten van de vrije vorm zijn het gemeenschappelijkste type van visualisatie, en zijn de basis voor interactieve gegevensanalyse. Zie voor meer informatie over het werken met Freeform-tabellen in Analysis Workspace [Vrije-vormtabel](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
 Een visualisatie toevoegen:
 
-1. Selecteer **[!UICONTROL Visualizations]** in de linkerspoorstaaf.
+1. Selecteer de **[!UICONTROL Visualizations]** in de linkerspoorstaaf.
 
    ![](assets/build-visualizations.png)
 
@@ -100,7 +100,7 @@ Een visualisatie toevoegen:
 
 Een component toevoegen:
 
-1. Selecteer **[!UICONTROL Components]** in de linkerspoorstaaf.
+1. Selecteer de **[!UICONTROL Components]** in de linkerspoorstaaf.
 
    ![](assets/build-components.png)
 
