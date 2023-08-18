@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: a653d60fd423d2853254a8c96252a39f08f9a3b4
+source-git-commit: 6cf07b816723ce0d5adb9183215e331c7656d928
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 78%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 0%
 + [Handleiding Analytics-tools](home.md)
 + [Aanvullende informatie voor Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Aan de slag met Adobe Analytics {#admin-overview}
+   + [Overzicht van analysemogelijkheden](get-started/analytics-overview.md)
    + [Welke Adobe Analytics-tool moet ik gebruiken?](get-started/which-analytics-tool.md)
    + [Analytics-productvergelijking en -vereisten](get-started/analytics-product-comparison.md)
    + [Systeemvereisten](get-started/sys-reqs.md)
@@ -64,7 +65,7 @@ ht-degree: 0%
       + Gegevenswoordenboek {#data-dictionary}
          + [Overzicht van gegevenswoordenboek](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [Componentinformatie weergeven in gegevenswoordenboek](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [Onderdeelitems in gegevenswoordenboek bewerken](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [Onderdeelitems bewerken in het gegevenswoordenboek](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
          + [Gezondheid gegevenswoordenboek controleren](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualisaties {#visualizations}
       + [Overzicht van visualisaties](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
@@ -120,7 +121,7 @@ ht-degree: 0%
       + [Volgend of vorig deelvenster met items](analysis-workspace/c-panels/next-previous.md)
       + [Het deelvenster Paginaoverzicht](analysis-workspace/c-panels/page-summary.md)
       + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)
-      + Deelvenster Segmentvergelijking {#segment-comparison}
+      + Het vergelijkingspaneel Segment {#segment-comparison}
          + [Overzicht van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Gebruiksgevallen van segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Statistische tests bij segmentvergelijking](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -274,8 +275,8 @@ ht-degree: 0%
       + [Problemen met Power BI-integratie oplossen](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Adobe Analytics-contentpakketten voor Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic-macro&#39;s](report-builder/vba.md)
-   + [Report Builder oplossen](report-builder/troubleshoot.md)
-   + [Report Builder Veelgestelde vragen](report-builder/faq.md)
+   + [Problemen met Report Builder oplossen](report-builder/troubleshoot.md)
+   + [Veelgestelde vragen over Report Builder](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Overzicht van Activity Map](activity-map/activity-map.md)
    + Aan de slag {#getting-started}
@@ -317,7 +318,7 @@ ht-degree: 0%
       + [Algemene voorwaarden](reports-analytics/overview/overview-common-terms.md)
    + [Rapport Weergave-instellingen en navigatie](reports-analytics/report-settings.md)
    + [Rapport Planning en distributie](reports-analytics/scheduling.md)
-   + [Aankondiging einde van de levensduur voor geplande rapporten](reports-analytics/scheduled-reports-eol.md)
+   + [Aankondiging van einde van de levensduur voor geplande rapporten](reports-analytics/scheduled-reports-eol.md)
    + [Rapporttypen](reports-analytics/reports.md)
    + [Verschillende rapporttypen uitvoeren](reports-analytics/t-running-report-types.md)
    + Rapporten aanpassen {#customize-reports}
