@@ -4,9 +4,9 @@ title: Adobe Analytics-overzicht
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f2f1d21989b609bf069da28b3b90785ccd14ef19
+source-git-commit: 58e5f3ca4b99e92b64e01095d61d5fe1fc97feb9
 workflow-type: tm+mt
-source-wordcount: '5045'
+source-wordcount: '5073'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ Hieronder volgen enkele belangrijke manieren waarop Adobe Analytics organisaties
 
 Zie voor meer informatie over de voordelen die Adobe Analytics biedt de [Adobe Analytics-productpagina](https://business.adobe.com/products/analytics/adobe-analytics.html).
 
-### Webanalyse
++++Web Analytics
 
 Adobe Analytics biedt de volgende complexe segmentatie en voorspellende hulpmiddelen voor het analyseren van websiteverkeer:
 
@@ -31,7 +31,9 @@ Adobe Analytics biedt de volgende complexe segmentatie en voorspellende hulpmidd
 
 * [Geavanceerde segmentering](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
 
-### Marketing Analytics
++++
+
++++Marketinganalyse
 
 Adobe Analytics helpt organisaties te begrijpen waar klanten met hun merken in wisselwerking staan, welke kanalen klanten verkiezen, en welke ervaringen met hen resoneren.
 
@@ -43,14 +45,18 @@ De volgende belangrijke functies in Adobe Analytics bieden de volgende marketing
 
 * [Ad-hocanalyse in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
-### Attributie
++++
+
++++Attributie
 
 De attributie laat organisaties zien hoe de verschillende interactie door de klantenreis omzetting beïnvloedt. Naast meer traditionele attributieopties, zoals Lineair of First Touch-modellen, gebruikt Attribution in Adobe Analytics ook machinaal leren en geavanceerde statistische modellen om de precieze impact van elke aanraking te begrijpen.
 
 Zie voor meer informatie [Attributiemodellen en terugzoekvensters](/help/analyze/analysis-workspace/attribution/models.md).
 
++++
 
-### Predictieve analyse
+
++++Predictive analytics
 
 Voor voorspellende analyses wordt gebruikgemaakt van machinaal leren en geavanceerde statistische modellering om klantgegevens te analyseren, patronen te vinden en toekomstig gedrag, zoals churn, te voorspellen of het waarschijnlijk is om om te zetten. Het staat gegevensanalisten toe om uit reusachtige gegevensreeksen voordeel te halen die anders zouden kunnen worden verspild.
 
@@ -61,6 +67,8 @@ De volgende belangrijke functies in Adobe Analytics bieden deze voorspellende mo
 * [Bijdrage-analyse](#contribution-analysis)
 
 * [Intelligente waarschuwingen](#intelligent-alerts)
+
++++
 
 ## Vereisten voor het gebruik van Adobe Analytics
 
@@ -78,9 +86,13 @@ Voordat je Adobe Analytics kunt gebruiken, moet je beschikken over:
 
 ## De interface Analytics begrijpen
 
-De interface van Adobe Analytics bestaat uit de volgende hoofdgebieden:
+De interface van Adobe Analytics bestaat uit de volgende zeer belangrijke gebieden, met inbegrip van lusjes voor het beheren van projecten in Analysis Workspace, het beheren van componenten, hulpmiddelen, en beheerderfuncties.
 
-### Werkruimte, tabblad
+![Werkruimte, tabblad](assets/landing-all2.png)
+
+Breid de volgende secties uit om over elk gebied van Analysis Workspace te leren:
+
++++tabblad Werkruimte
 
 De [!UICONTROL Workspace] toont de tab [!UICONTROL Projects] gebied door gebrek, dat de omslag van het Bedrijf, om het even welke persoonlijke omslagen toont u, uw projecten, en Mobiele scorecards creeerde.
 
@@ -90,13 +102,17 @@ De [!UICONTROL Workspace] toont de tab [!UICONTROL Projects] gebied door gebrek,
 
 Voor meer informatie over de functies en functies die beschikbaar zijn op de [!UICONTROL Workspace] tab, zie [Openingspagina van Adobe Analytics](/help/analyze/landing.md).
 
-### Tabblad Rapporten
++++
+
++++tabblad Rapporten
 
 Met ingang van 31 december 2023 is de Adobe voornemens de rapporten en analyses en de bijbehorende verslagen en kenmerken te beëindigen.
 
 Gebruik in plaats daarvan de opdracht [!UICONTROL **Rapporten**] gebied in de linkerspoorstaaf op de [!UICONTROL **Werkruimte**] tab. Zie voor meer informatie *Navigeren op het tabblad Rapporten* in [Openingspagina van Adobe Analytics](/help/analyze/landing.md).
 
-### Tabblad Componenten
++++
+
++++tabblad Componenten
 
 De [!UICONTROL Components] bevat functies die u helpen uw gegevensanalyse af te stemmen en in te schakelen.
 
@@ -128,7 +144,9 @@ De [!UICONTROL Components] bevat functies die u helpen uw gegevensanalyse af te 
 
    {style="table-layout:auto"}
 
-### Gereedschappen, tabblad
++++
+
++++tabblad Gereedschappen
 
 <!-- The Tools tab ... -->
 
@@ -150,7 +168,9 @@ De [!UICONTROL Components] bevat functies die u helpen uw gegevensanalyse af te 
 
    {style="table-layout:auto"}
 
-### Tabblad Beheer
++++
+
++++tabblad Beheer
 
 Het tabblad Beheer bevat functies en configuratieopties voor het beheer van Adobe Analytics.
 
@@ -194,7 +214,9 @@ Het tabblad Beheer bevat functies en configuratieopties voor het beheer van Adob
 
    {style="table-layout:auto"}
 
-### Analysis Workspace
++++
+
++++Analysis Workspace
 
 Met Analysis Workspace kunt u snel analyses maken om inzichten te verzamelen en deze inzichten vervolgens met anderen te delen. Gebruikend belemmering-en-dalings browser interface, kunt u uw analyse amberen, visualisaties toevoegen om gegevens aan het leven te brengen, een dataset in werking te stellen, en projecten met iedereen te delen en te plannen u kiest.
 
@@ -210,6 +232,8 @@ Ga voor een meer gedetailleerd overzicht van Analysis Workspace naar [Analysis W
 | B | **Linkerspoor:** Afhankelijk van het tabblad dat u helemaal links selecteert, bevat dit gebied afzonderlijke deelvensters, visualisaties of componenten. |
 | C | **Canvas:** Dit is het belangrijkste gebied waar u inhoud van de linkerspoorstaven sleept om uw project te bouwen. Het project wordt dynamisch bijgewerkt terwijl u deelvensters, visualisaties en componenten aan het canvas toevoegt. |
 | D | **Vervolgkeuzemenu Rapportsuite:** Voor elk paneel in Analysis Workspace, staat het drop-down menu van de rapportreeks u toe om de rapportreeks te kiezen die u als uw gegevensbron wilt gebruiken. |
+
++++
 
 ## Aan de slag voor beheerders, analisten, eindgebruikers en ontwikkelaars
 
