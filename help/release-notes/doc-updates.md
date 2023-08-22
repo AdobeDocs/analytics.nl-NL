@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1dd49a030b501ef3f291448facf08216fce0fe5e
+source-git-commit: 0ece9b2fddcf905951bbe35ec0a3ff862baff71c
 workflow-type: tm+mt
-source-wordcount: '4871'
+source-wordcount: '4885'
 ht-degree: 26%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **augustus 2023** | |
+| Ervaar de verwerking van Edge-gegevens | Inhoud toevoegen hoe Adobe Analytics [verwerkt gegevens van Experience Edge](../implement/aep-edge/overview.md). |
 | Media afspelen tijd besteed, deelvenster | Bijgewerkte inhoud voor  [Media afspelen tijd besteed, deelvenster](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) de leesbaarheid verbeteren. |
 | Verplaatste inhoud over het beheren van geplande projecten | Er is een nieuw artikel gemaakt in de handleiding Analytics Components (Analytische componenten), genaamd [Geplande projecten](/help/components/scheduled-projects-manager.md). Deze inhoud bevindt zich eerder in het dialoogvenster [Projecten plannen](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) artikel in de handleiding Analytics Tools. |
 | Implementatiemethoden vergelijken | Bijgewerkte documentatie waarin verschillende implementatiemethoden worden vergeleken. [Meer informatie](../implement/prepare/comparison.md) |
