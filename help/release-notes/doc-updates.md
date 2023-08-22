@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: 1dd49a030b501ef3f291448facf08216fce0fe5e
 workflow-type: tm+mt
-source-wordcount: '4855'
+source-wordcount: '4871'
 ht-degree: 26%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **augustus 2023** | |
+| Media afspelen tijd besteed, deelvenster | Bijgewerkte inhoud voor  [Media afspelen tijd besteed, deelvenster](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) de leesbaarheid verbeteren. |
 | Verplaatste inhoud over het beheren van geplande projecten | Er is een nieuw artikel gemaakt in de handleiding Analytics Components (Analytische componenten), genaamd [Geplande projecten](/help/components/scheduled-projects-manager.md). Deze inhoud bevindt zich eerder in het dialoogvenster [Projecten plannen](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) artikel in de handleiding Analytics Tools. |
 | Implementatiemethoden vergelijken | Bijgewerkte documentatie waarin verschillende implementatiemethoden worden vergeleken. [Meer informatie](../implement/prepare/comparison.md) |
 | Verduidelijkt dat het vormen van SFTP voor de Diervoeders van Gegevens geen Adobe Klantenzorg vereist | Verduidelijkt in [Gegevens van Adobe verzenden naar een externe FTP-account met SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) dat klanten geen Adobe Klantenservice hoeven aan te gaan om SFTP voor gegevensfeeds te configureren. <p>Er is ook een opmerking toegevoegd dat SFTP niet langer wordt aanbevolen en dat klanten een cloudbestemming moeten gebruiken bij het configureren van gegevensfeeds.</p> |
