@@ -4,21 +4,37 @@ description: Het deelvenster Media Playback Time Spent in Analysis Workspace geb
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 9662c61a428923f296ca057156c06fa2bf41325d
+source-git-commit: 26e77f0670e07f90ed1293570c8a6aa60c37a1cd
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
 # Media afspelen tijd besteed, deelvenster
 
-Klanten van Media Analytics kunnen de afspeeltijd analyseren die ze hebben doorgebracht om te begrijpen waar de piekgelijktijdige uitvoering plaatsvond of waar drop-offs kostbare inzichten hebben opgeleverd in de kwaliteit van de betrokkenheid van content en viewers, en om hulp te bieden bij het oplossen van problemen of het plannen van volumes of schaal.
+In Analysis Workspace is Afspeeltijd de hoeveelheid tijd die is besteed aan het bekijken van uw mediastreams op een bepaald tijdstip. Het omvat pauze, buffer, en tijd om te beginnen.
 
-In Analysis Workspace is Afspeeltijd de tijd die nodig is om de mediastream(s) op een bepaald tijdstip weer te geven en omvat pauze, buffer en begintijd.
+Met het deelvenster Tijd voor afspelen van media kunt u het afspelen in de loop van de tijd analyseren, waarbij u details kunt vinden over de piekfrequentie en de mogelijkheid om af te breken en te vergelijken.
 
-Met het deelvenster Tijd voor afspelen van media kunt u het afspelen in de loop van de tijd analyseren, waarbij u details kunt vinden over de piekconsistentie en de mogelijkheid om af te breken en te vergelijken. Navigeer naar een rapportsuite met Media Analytics-componenten ingeschakeld om het deelvenster Afspeeltijd van media te openen. Klik vervolgens op het deelvensterpictogram helemaal links en sleep het deelvenster naar uw Analysis Workspace-project.
+Klanten van Media Analytics kunnen de afspeeltijd analyseren die zij besteden om waardevolle inzichten in de kwaliteit van de inhoud en de betrokkenheid van de viewer te krijgen, en om te helpen bij het oplossen van problemen of het plannen van plannen voor volume of schaal.
 
-Dit deelvenster bevat ook nieuwe functies in de kalender waarmee u minder dan 24 uur kunt selecteren en weergeven. U kunt dat voor het hele deelvenster doen, of u kunt segmenten maken met opeenvolgende tijdsperioden, zodat u de doorloop in/uitloop in de programma&#39;s of programmaonderdelen kunt bijhouden. Nadat u ten minste twee van deze datumsegmenten hebt geplaatst, ziet u een optie voor een keuzerondje voor Datumsequentie-weergave die de lijnen bedekt met een gemeenschappelijke beginpunt voor de x-as of deze op volgorde weergeeft met hun specifieke beginpunt voor de x-as.
+Met de tijd die u hebt besteed voor afspelen kunt u het volgende begrijpen:
+
+* Waar de piekconcentratie optrad
+
+* Locatie van vervolgkeuzelijst
+
+## Het deelvenster Afspeeltijd van media gebruiken
+
+1. Ga naar een rapportsuite met ingeschakelde componenten Media Analytics.
+
+1. Selecteer het deelvensterpictogram helemaal links en sleep het deelvenster naar uw Analysis Workspace-project.
+
+1. Pas het deelvenster Tijd voor afspelen van media aan.
+
+   Voor informatie over specifieke configuratieopties, zie [Invoer en uitvoer van deelvenster Media afspeeltijd](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md).
+
+## Video-overzicht
 
 >[!VIDEO](https://video.tv.adobe.com/v/338699)
