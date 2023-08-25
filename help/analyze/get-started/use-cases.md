@@ -4,9 +4,9 @@ title: Gebruiksscenario's voor analyse
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Adobe Analytics helpt organisaties te begrijpen waar klanten met hun merken in w
 
 De volgende belangrijke functies in Adobe Analytics bieden de volgende marketingmogelijkheden:
 
-* Multikanaalgegevensverzameling
+* [Multikanaalgegevensverzameling](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=en)
 
 * [Offline gegevensintegratie](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en)
 

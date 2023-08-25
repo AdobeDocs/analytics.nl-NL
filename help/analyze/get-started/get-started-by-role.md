@@ -4,18 +4,24 @@ title: Aan de slag voor beheerders, analisten, eindgebruikers en ontwikkelaars
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1901'
 ht-degree: 4%
 
 ---
 
 # Aan de slag voor beheerders, analisten, eindgebruikers en ontwikkelaars
 
-Er zijn drie typen Adobe Analytics-gebruikers in een standaardorganisatie: beheerders, analisten en eindgebruikers.
+Er zijn vier typen Adobe Analytics-gebruikers in een organisatie die doorgaans werkt:
 
-Beheerders implementeren en configureren Adobe Analytics; analisten stellen projecten in en maken analyses met behulp van Analysis Workspace, en eindgebruikers krijgen activering van hun klanten door hun eigen analyses te maken of door met analisten te werken om deze te maken.
+* **Beheerders:** Adobe Analytics implementeren en configureren.
+
+* **Analysten:** Projecten instellen en analyses maken met Analysis Workspace
+
+* **Eindgebruikers:** Maak kennis met uw klanten door hun eigen analyses te maken of door met analisten samen te werken om ze te maken
+
+* **Ontwikkelaars:** Gebruik de Adobe Analytics 2.0 APIs om de servers van de Adobe direct te roepen om bijna om het even welke actie uit te voeren die in het gebruikersinterface kan worden uitgevoerd, zoals het creëren van rapporten om te onderzoeken, inzichten te krijgen, of belangrijke vragen over gegevens te beantwoorden.
 
 De informatie hieronder schetst hoe elk van deze gebruikers met Adobe Analytics kan beginnen.
 
@@ -68,13 +74,13 @@ Analysebeheerders moeten de volgende taken uitvoeren voordat ze Adobe Analytics 
 | Machtigingen definiëren | Analysebeheerders moeten productprofielen toewijzen in de Admin Console voor Adobe Analytics, Report Suite Tools en Analytics Tools. | [Machtigingen voor analyse in de Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en) |
 | Stel rapportsuites in en definieer instellingen voor uw bedrijf | Een rapportenreeks is een silo van gegevens die Adobe Analytics gebruikt om rapporten te produceren.<p>Beheerders kunnen ook [virtuele rapportsuites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en) voor verdere segmentgegevens.</p> | <ul><li>[Een rapportsuite maken](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=en)</li><li>[Overzicht van bedrijfsinstellingen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en)</li></ul> |
 | Gegevens importeren | Met Adobe Analytics-gegevensbronnen kunt u extra online- of offlinegegevens importeren voor rapportage. | [Overzicht van gegevensbronnen](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en) |
-| Gegevens classificeren met classificaties | Met classificaties kunt u gegevens classificeren om beter gebruik te maken van variabelen, zodat u meer inhoud in één variabele kunt opnemen. | |
+| Gegevens classificeren met classificaties | Met classificaties kunt u gegevens classificeren om beter gebruik te maken van variabelen, zodat u meer inhoud in één variabele kunt opnemen. | [Overzicht van classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=en) |
 | Componenten beheren | Gebruik het Woordenboek van Gegevens en de beheersgebieden voor elk componenttype om te bepalen welke componenten in uw implementatie van Analytics beschikbaar zijn, evenals die voor uw organisatie worden goedgekeurd.<p>Dit zou een voortdurende activiteit moeten zijn om ervoor te zorgen dat de componenten effectief in uw organisatie worden gebruikt. </p> | <ul><li>[Overzicht van gegevenswoordenboek](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=en)</li><li>[Het berekende manager van metriek](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[Instellingen beheren](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=en)</li><li>[Aangepaste datumbereiken maken](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=en)</li></ul> |
 | Anomalische detectie | Anomaly Detection biedt een statistische methode om te bepalen hoe een bepaalde metrische waarde is gewijzigd ten opzichte van eerdere gegevens. | [Overzicht van anomaliedetectie](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=en) |
 | Bijdrage-analyse | De Analyse van de bijdrage ontdekt verborgen patronen binnen uw gegevens om statistische anomalieën te verklaren en correlaties achter onverwachte klantenacties, uit-van-verbindende waarden, en plotselinge pieken of vallen voor geselecteerde metriek over convergent publiekssegmenten te identificeren. | [Overzicht van bijdrageanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
 | Analytics-segmentatie | Hiermee kunt u krachtige, doelgerichte publiekssegmenten maken, beheren, delen en toepassen op uw rapporten met behulp van de analysemogelijkheden, de Adobe Experience Cloud, Adobe Target en andere producten voor geïntegreerde Adobe. | [Analytics-segmentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=en) |
-| Soorten publiek publiceren naar Audience Manager | | |
-| Integraties | U kunt informatie uit andere toepassingen in Adobe Analytics oppervlakken. <p>Hieronder vindt u een aantal algemene integraties:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analyses voor doel</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en">Media Analytics</a></li> | |
+| Soorten publiek publiceren naar Audience Manager | Adobe Audience Manager is een krachtig platform voor gegevensbeheer waarmee u unieke publieksprofielen kunt maken van de integratie van gegevens van eerste, tweede (partner) en andere bedrijven. | [Overzicht van Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=en) |
+| Integraties | U kunt informatie uit andere toepassingen in Adobe Analytics oppervlakken. <p>Hieronder vindt u een aantal algemene integraties:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analyses voor doel</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en">Media Analytics</a></li> | [Analytics Integration](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=en) |
 
 {style="table-layout:auto"}
 
