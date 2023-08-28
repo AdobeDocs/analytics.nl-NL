@@ -3,16 +3,16 @@ description: Systeemvereisten en een vergelijking van Analysis Workspace, Report
 title: Analytics-productvergelijking en -vereisten
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: 71ebabf7efca70c0cbd2489dc538f7f10cae16cb
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '432'
 ht-degree: 37%
 
 ---
 
 # Analytics-productvergelijking en -vereisten
 
-Deze pagina bevat een vergelijking van verschillende Adobe Analytics-producten: Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds en Analytics API 2.0.
+Deze pagina bevat een vergelijking van verschillende Adobe Analytics-producten: Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds and Analytics API 2.0.
 
 Voor informatie over welk Adobe Analytics-product u moet gebruiken, raadpleegt u [Welk Adobe Analytics-gereedschap moet ik gebruiken?](/help/analyze/get-started/which-analytics-tool.md).
 
@@ -24,7 +24,7 @@ Voor informatie over welk Adobe Analytics-product u moet gebruiken, raadpleegt u
 | **Tijdstempel beschikbaar** | Nee | Nee | Nee | Nee | Ja | Ja | Nee |
 | **Niveau van verwerking** | Volledig verwerkt | Volledig verwerkt, met aparte [real-time rapport](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | Volledig verwerkt, met aparte [real-time rapport](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt | Volledig verwerkt |
 | **Gegevens van het filter Admin bot inbegrepen** <br> [Meer informatie](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | Nee | Ja, afzonderlijke beide rapporten | Ja, afzonderlijke beide rapporten | Nee | Nee | Nee | Nee |
-| **Laag verkeer (Uniques overschreden) verschijnt** <br> [Meer informatie](/help/technotes/low-traffic.md) | Ja | Ja | Ja | Nee | Nee | Nee | Ja |
+| **Laag verkeer (Uniques overschreden) wordt weergegeven** <br> [Meer informatie](/help/technotes/low-traffic.md) | Ja | Ja | Ja | Nee | Nee | Nee | Ja |
 | **Zichtbare rijlimiet (vóór paginering)** | 400 | 200 | 50000 | Onbeperkt | Onbeperkt | Onbeperkt | 50000 |
 | **Meerdere rapportsuites** | [Ja](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Ja, met beperkingen | Ja | Nee | Ja | Nee | Ja |
 | **Aantal uitsplitsingen** | Onbeperkt | Maximaal 2 | Maximaal 2 | Onbeperkt | Onbeperkt | Onbeperkt | Onbeperkt, uitvoeren op meerdere query&#39;s |
@@ -37,5 +37,5 @@ Voor informatie over welk Adobe Analytics-product u moet gebruiken, raadpleegt u
 | **Kromming** <br> [Meer informatie](/help/analyze/analysis-workspace/curate-share/curate.md) | Ja - Project en vrijwillige VUT | Nee | Nee | Nee | Nee | Nee | Ja - alleen VRS |
 | **Projectdeling** <br> [Meer informatie](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Ja, met projectrollen | Ja | Ja | Nee | Ja | Nee | Nee |
 | **Geplande levering** | Ja | Ja | Ja | Ja | Nee | Ja | Nee |
-| **Leveringsbestemmingen** | E-mail | E-mail | E-mail, FTP, SFTP [publiceren naar Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | E-mail, FTP. Neem contact op met de klantenservice voor extra bestemmingsondersteuning, zoals SFTP, Azure Blob, Amazon S3 | - | FTP, SFTP, Azure Blob, Amazon S3 | - |
+| **Leveringsbestemmingen** | E-mail | E-mail | E-mail, FTP, SFTP [publiceren naar Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Email, FTP. Neem contact op met de klantenservice voor extra bestemmingsondersteuning, zoals SFTP, Azure Blob, Amazon S3 | - | Amazon S3, Azure RBAC, Azure SAS en Google Cloud Platform | - |
 | **Tijdverwerking van VRS-rapport** <br> [Meer informatie](/help/components/vrs/vrs-report-time-processing.md) | Ja | Nee | Nee | Nee | Nee | Nee | Ja |
