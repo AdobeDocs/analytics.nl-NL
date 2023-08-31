@@ -1,20 +1,20 @@
 ---
-description: Een Analysis Workspace-project verzenden via e-mail of het plannen voor levering.
+description: Een Analysis Workspace-project verzenden via e-mail of plannen voor levering.
 keywords: Analysis Workspace
 title: Projecten plannen
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '300'
 ht-degree: 2%
 
 ---
 
 # Projecten plannen
 
-Vanuit de werkruimte **Menu Delen**, kunt u Analysis Workspace-projecten via e-mail naar geselecteerde ontvangers verzenden. Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
+Vanuit de werkruimte **Menu Delen**, kunt u Analysis Workspace-projecten verzenden via e-mail naar geselecteerde ontvangers. Bestanden kunnen in CSV- of PDF-indeling worden verzonden. Nadat u geplande projecten deelt, kunt u de planningsmontages uitgeven om de frequentie, de ontvankelijke lijst, of het dossiertype te wijzigen gebruikend de Geplande Manager van Projecten.
 
 ## Bestand nu verzenden
 
@@ -46,6 +46,14 @@ Een bestand volgens een terugkerend schema via e-mail naar ontvangers verzenden:
 ![](assets/send-on-schedule.png)
 
 ## Geplande projecten beheren
+
+Wanneer u geplande projecten beheert, kunt u terugkomende projectprogramma&#39;s uitgeven en schrappen:
+
+* Het bestandstype (.csv of PDF) wijzigen
+* De projectbeschrijving bijwerken
+* Ontvangers toevoegen of verwijderen
+* De frequentie wijzigen
+
 
 Geplande Analysis Workspace-projecten kunnen worden beheerd onder **Analyse > Componenten > Geplande projecten**.
 

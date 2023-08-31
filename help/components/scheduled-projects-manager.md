@@ -2,9 +2,9 @@
 description: Zie en beheer geplande rapporten over de organisatie.
 title: Beheer geplande projecten
 feature: Admin Tools
-source-git-commit: 8d0cf795b0366b2797fa0574ae9faaffb76b005e
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '434'
 ht-degree: 1%
 
 ---
@@ -13,9 +13,19 @@ ht-degree: 1%
 
 Geplande Analysis Workspace-projecten kunnen worden beheerd onder **Analyse > Componenten > Geplande projecten**.
 
-Wanneer het leiden van geplande projecten, kunt u terugkomende projectprogramma&#39;s uitgeven en schrappen. Zoek naar een programma in de onderzoeksbar of door de filteropties in het linkerspoor te gebruiken. U kunt filteren op [!UICONTROL Tags], [!UICONTROL Owners], [!UICONTROL Favorites]en meer.
+Wanneer u geplande projecten beheert, kunt u terugkomende projectprogramma&#39;s uitgeven en schrappen:
 
-![](assets/scheduled-project-manager2.png)
+* Het bestandstype (.csv of PDF) wijzigen
+* De projectbeschrijving bijwerken
+* Ontvangers toevoegen of verwijderen
+* De frequentie wijzigen
+
+Een gepland project wijzigen
+
+1. Selecteren **Analyse > Componenten > Geplande projecten**.
+1. Zoek naar een programma in de onderzoeksbar of door de filteropties in het linkerspoor te gebruiken. U kunt filteren op [!UICONTROL Tags], [!UICONTROL Owners], [!UICONTROL Favorites]en meer.
+
+![Screenshot die de lijst met geplande projecten weergeeft met de kolom die de titel, eigenaar, tags, afgeleverd aan en andere kolommen weergeeft die in de sectie Beschikbare kolommen worden beschreven.](assets/scheduled-project-manager2.png)
 
 ## Beschikbare kolommen
 
