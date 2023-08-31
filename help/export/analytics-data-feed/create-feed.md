@@ -3,16 +3,16 @@ title: Een gegevensfeed maken
 description: Leer hoe u een gegevensfeed maakt.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
+source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
-source-wordcount: '3170'
+source-wordcount: '3171'
 ht-degree: 1%
 
 ---
 
 # Een gegevensfeed maken
 
-Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende informatie:
+Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende mogelijkheden:
 
 * De informatie over de bestemming waarnaar u Raw-gegevensbestanden wilt verzenden
 
@@ -41,7 +41,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende informatie:
    | [!UICONTROL **E-mail indien voltooid**] | Het e-mailadres dat moet worden gemeld wanneer een feed de verwerking heeft voltooid. Het e-mailadres moet correct zijn opgemaakt. |
    | [!UICONTROL **Feed-interval**] | Selecteren **Dagelijks** voor back-up of historische gegevens. De dagelijkse voer bevat een volledige waarde van de dag van gegevens, van middernacht aan middernacht in de tijdzone van de rapportreeks.  Selecteren **Uur** voor doorlopende gegevens (Daily is ook beschikbaar voor doorlopende feeds, indien gewenst). Uurfeeds bevatten gegevens van één uur. |
    | [!UICONTROL **Vertraging bij verwerking**] | Wacht een bepaalde hoeveelheid tijd alvorens een dossier van de gegevensvoer te verwerken. Een vertraging kan handig zijn om mobiele implementaties de mogelijkheid te geven om offlineapparaten online te komen en gegevens te verzenden. Het kan ook worden gebruikt om de server-zijprocessen van uw organisatie in het beheren van eerder verwerkte dossiers aan te passen. In de meeste gevallen is geen uitstel nodig. Een diervoeder kan maximaal 120 minuten worden uitgesteld. |
-   | [!UICONTROL **Begin- en einddatum**] | De begindatum geeft de eerste datum aan waarop u gegevens wilt invoeren. Stel deze datum in het verleden in om onmiddellijk te beginnen met het verwerken van gegevensfeeds voor historische gegevens. De feeds worden verder verwerkt tot de einddatum. De begin en einddata zijn gebaseerd op de tijdzone van de rapportreeks. |
+   | [!UICONTROL **Begin- en einddatum**] | De begindatum geeft de datum aan waarop de gegevensinvoer moet beginnen. Als u onmiddellijk wilt beginnen met het verwerken van gegevensfeeds voor historische gegevens, stelt u deze datum in op een datum in het verleden waarop gegevens worden verzameld. De begin en einddata zijn gebaseerd op de tijdzone van de rapportreeks. |
    | [!UICONTROL **Doorlopende diervoeders**] | Met dit selectievakje wordt de einddatum verwijderd, zodat een feed voor onbepaalde tijd kan worden uitgevoerd. Als een feed de verwerking van historische gegevens heeft voltooid, wacht een feed tot de gegevens een bepaald uur of een bepaalde dag zijn verzameld. Zodra het huidige uur of de dag eindigt, begint de verwerking na de gespecificeerde vertraging. |
 
 1. In de [!UICONTROL **Doel**] in de [!UICONTROL **Type**] selecteert u het doel waarnaar u de gegevens wilt verzenden.
@@ -93,7 +93,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende informatie:
          |---------|----------|
          | [!UICONTROL **Accountnaam**] | Een naam voor de account. Dit kan elke gewenste naam zijn. |
          | [!UICONTROL **Accountbeschrijving**] | Een beschrijving voor de account. |
-         | [!UICONTROL **Rol ARN**] | U moet een Rol ARN (de Naam van het Middel van Amazon) verstrekken die Adobe kan gebruiken om toegang tot de rekening van Amazon S3 te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Zie voor specifieke informatie [deze AWS-documentatie](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+         | [!UICONTROL **Rol ARN**] | U moet een Rol ARN (de Naam van het Middel van Amazon) verstrekken die de Adobe kan gebruiken om toegang tot de rekening van Amazon S3 te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Zie voor specifieke informatie [deze AWS-documentatie](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
          | [!UICONTROL **ARN gebruiker**] | De Gebruiker ARN (de Naam van het Middel van Amazon) wordt verstrekt door Adobe. U moet deze gebruiker aan het beleid vastmaken u creeerde. |
 
          {style="table-layout:auto"}
@@ -104,7 +104,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende informatie:
          |---------|----------|
          | [!UICONTROL **Naam**] | Een naam voor de account. |
          | [!UICONTROL **Beschrijving**] | Een beschrijving voor de account. |
-         | [!UICONTROL **Emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat de gebruiker-ARN die door Adobe is geleverd, toegang heeft om bestanden te uploaden naar dit emmertje. |
+         | [!UICONTROL **Emmertje**] | Het emmertje in uw Amazon S3-account waarin u Adobe Analytics-gegevens wilt verzenden. Zorg ervoor dat de gebruiker-ARN die door de Adobe is geleverd, toegang heeft om bestanden naar dit emmertje te uploaden. |
          | [!UICONTROL **Voorvoegsel**] | De map in het emmertje waar u de gegevens wilt plaatsen. Geef een mapnaam op en voeg vervolgens een backslash achter de naam toe om de map te maken. Bijvoorbeeld, `folder_name/` |
 
          {style="table-layout:auto"}
@@ -246,7 +246,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende informatie:
 
    1. In de Adobe Analytics-beheerconsole, in de [!UICONTROL **Doel**] sectie, selecteert u [!UICONTROL **Google Cloud Platform**].
 
-      ![Doel Google Cloud-Platform](assets/datafeed-destination-gcp.png)
+      ![Doel Google Cloud-platform](assets/datafeed-destination-gcp.png)
 
    1. Selecteren [!UICONTROL **Locatie selecteren**].
 
@@ -278,7 +278,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende informatie:
 
          | Veld | -functie |
          |---------|----------|
-         | [!UICONTROL **Opdrachtgever**] | De Opdrachtgever wordt geleverd door Adobe. U moet toestemming verlenen om voer naar dit hoofd te ontvangen. |
+         | [!UICONTROL **Opdrachtgever**] | De Opdrachtgever wordt door Adobe verstrekt. U moet toestemming verlenen om voer naar dit hoofd te ontvangen. |
          | [!UICONTROL **Naam**] | Een naam voor de account. |
          | [!UICONTROL **Beschrijving**] | Een beschrijving voor de account. |
          | [!UICONTROL **Emmertje**] | Het emmertje binnen uw GCP rekening waar u de gegevens van Adobe Analytics wilt worden verzonden. Zorg ervoor dat u aan Opdrachtgever toestemming hebt verleend die door Adobe wordt verstrekt om dossiers aan dit emmertje te uploaden. |
@@ -300,7 +300,7 @@ Wanneer u een gegevensfeed maakt, biedt u Adobe de volgende informatie:
    | [!UICONTROL **Compressie-indeling**] | Het type compressie dat wordt gebruikt. **Gzip** Hiermee worden bestanden uitgevoerd in `.tar.gz` gebruiken. **Postcode** Hiermee worden bestanden uitgevoerd in `.zip` gebruiken. |
    | [!UICONTROL **Verpakkingstype**] | Selecteren **Meerdere bestanden** voor de meeste gegevensfeeds. Met deze optie worden uw gegevens gepagineerd in ongecomprimeerde 2GB-blokken. (Als er meerdere bestanden zijn geselecteerd en de niet-gecomprimeerde gegevens voor het rapportagevenster kleiner zijn dan 2 GB, wordt er één bestand verzonden.) Selecteren **Eén bestand** output de `hit_data.tsv` bestand in één, potentieel omvangrijk bestand. |
    | [!UICONTROL **Manifest**] | Of Adobe een [manifestbestand](c-df-contents/datafeeds-contents.md#feed-manifest) naar de bestemming wanneer geen gegevens voor een voederinterval worden verzameld. Als u **Manifest File** ontvangt u een manifestbestand dat lijkt op het volgende wanneer er geen gegevens worden verzameld:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
-   | [!UICONTROL **Kolomsjablonen**] | Adobe raadt u aan een kolomsjabloon te maken wanneer u veel gegevensfeeds maakt. Als u een kolomsjabloon selecteert, worden automatisch de opgegeven kolommen in de sjabloon opgenomen. Adobe biedt standaard ook diverse sjablonen. |
+   | [!UICONTROL **Kolomsjablonen**] | Bij het maken van veel gegevensfeeds raadt de Adobe u aan een kolomsjabloon te maken. Als u een kolomsjabloon selecteert, worden automatisch de opgegeven kolommen in de sjabloon opgenomen. Adobe biedt standaard ook diverse sjablonen. |
    | [!UICONTROL **Beschikbare kolommen**] | Alle beschikbare gegevenskolommen in Adobe Analytics. Klikken [!UICONTROL Add all] om alle kolommen in een gegevenstoevoer op te nemen. |
    | [!UICONTROL **Opgenomen kolommen**] | De kolommen die in een gegevensfeed moeten worden opgenomen. Klikken [!UICONTROL Remove all] om alle kolommen uit een gegevensvoer te verwijderen. |
    | [!UICONTROL **CSV downloaden**] | Hiermee wordt een CSV-bestand gedownload dat alle kolommen bevat. |

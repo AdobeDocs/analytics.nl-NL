@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0ece9b2fddcf905951bbe35ec0a3ff862baff71c
+source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
-source-wordcount: '4885'
+source-wordcount: '4922'
 ht-degree: 26%
 
 ---
@@ -26,6 +26,7 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **augustus 2023** | |
+| Verduidelijking van gegevensinvoer | Bijgewerkt [de definitie van begin- en einddatum](/help/export/analytics-data-feed/create-feed.md) om te verduidelijken dat wanneer het verwerken van gegevensvoer voor historische gegevens, u de begindatum kunt plaatsen aan om het even welke datum in het verleden wanneer de gegevens worden verzameld. |
 | Ervaar de verwerking van Edge-gegevens | Inhoud toevoegen hoe Adobe Analytics [verwerkt gegevens van Experience Edge](../implement/aep-edge/overview.md). |
 | Media afspelen tijd besteed, deelvenster | Bijgewerkte inhoud voor  [Media afspelen tijd besteed, deelvenster](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) de leesbaarheid verbeteren. |
 | Verplaatste inhoud over het beheren van geplande projecten | Er is een nieuw artikel gemaakt in de handleiding Analytics Components (Analytische componenten), genaamd [Geplande projecten](/help/components/scheduled-projects-manager.md). Deze inhoud bevindt zich eerder in het dialoogvenster [Projecten plannen](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) artikel in de handleiding Analytics Tools. |
