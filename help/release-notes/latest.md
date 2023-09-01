@@ -3,7 +3,7 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: Bekijk de huidige Adobe Analytics-releaseopmerkingen.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5d0133495613c89deca4dc070d38389ef89853b3
+source-git-commit: 991c46091d08a3efa8c1ff90d6ccc2a4e698f208
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Huidige Adobe Analytics-releaseopmerkingen (augustus 2023)
 
-**Laatste update**: 24 augustus 2023
+**Laatste update**: 29 augustus 2023
 
 Deze releaseopmerkingen hebben betrekking op de releaseperiode van 9 augustus tot 13 september 2023. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,7 +20,7 @@ Deze releaseopmerkingen hebben betrekking op de releaseperiode van 9 augustus to
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Classificatiesets in API 2.0** | Biedt Adobe Analytics API 2.0-methoden voor het opslaan, verwijderen, ophalen, importeren en exporteren van indelingssetgegevens. | N.v.t. | 30 augustus 2023 |
+| **Classificatiesets in API 2.0** | Biedt Adobe Analytics API 2.0-methoden voor het opslaan, verwijderen, ophalen, importeren en exporteren van indelingssetgegevens. | N.v.t. | 13 september 2023 |
 | **Activity Manager rapporteren** | De manager van de Activiteit van de Rapportering verstrekt beheerders met gedetailleerde zicht in het melden van consumptie voor elke rapportreeks, die beheerders toestaat om capaciteitskwesties tijdens piekrapporteringstijden gemakkelijk te diagnostiseren en dan te bevestigen. [Meer informatie](/help/admin/admin/reporting-activity.md) | N.v.t. | 12 september 2023 |
 
 {style="table-layout:auto"}
