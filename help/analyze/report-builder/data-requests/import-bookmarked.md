@@ -1,10 +1,10 @@
 ---
-description: Alle bookmarked rapporten en dashboardrapporten zijn nu vermeld als dimensies in Stap 1 van de Tovenaar van het Verzoek en kunnen als verzoeken van de rapportaannemer worden ingevoerd.
+description: Alle bookmarked rapporten en dashboardrapporten zijn nu vermeld als dimensies in Stap 1 van de Tovenaar van het Verzoek en kunnen als verzoeken van de Report Builder worden ingevoerd.
 title: Gebookmarkte rapporten en dashboardrapporten importeren
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Gebookmarkte rapporten en dashboardrapporten importeren
 
-Alle bookmarked rapporten en dashboardrapporten zijn nu vermeld als dimensies in Stap 1 van de Tovenaar van het Verzoek en kunnen als verzoeken van de rapportaannemer worden ingevoerd.
+Alle bookmarked rapporten en dashboardrapporten zijn nu vermeld als dimensies in Stap 1 van de Tovenaar van het Verzoek en kunnen als verzoeken van de Report Builder worden ingevoerd.
 
 Wanneer u een bookmarked rapport selecteert, bevolkt de Tovenaar van het Verzoek alle afmetingen en metriek die dit bookmarked rapport bepalen. Het datumbereik, de granulariteit en het geselecteerde segment worden ook bijgewerkt op basis van de geselecteerde bladwijzer.
 

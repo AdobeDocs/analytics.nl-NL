@@ -1,14 +1,14 @@
 ---
-description: U kunt meerdere verzoeken tegelijk wijzigen op basis van de rapportsuite, granulariteit en datumbereik van de aanvraag.
+description: Leer hoe u meerdere aanvragen tegelijk kunt wijzigen.
 title: Meerdere aanvragen bewerken
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 2%
+source-wordcount: '278'
+ht-degree: 1%
 
 ---
 
@@ -32,16 +32,16 @@ U kunt verscheidene verzoeken tezelfdertijd veranderen, die op de het rapportree
 1. Als u de weergave van aanvragen wilt groeperen, klikt u op een van de volgende opties:
 
    * **Op rapportsuite:** Groepeert de vertoning van verzoeken door rapportreeks.
-   * **Op segment**: Groepeert de verzoeken die op de segmentnaam worden gebaseerd.
+   * **Op segment**: Hiermee groepeert u de aanvragen op basis van de segmentnaam.
 
-      * **Segment kiezen**: Toont als geen segmenten voor de verzoeken bestaan. Als u segmenten wilt toevoegen, klikt u op **[!UICONTROL Edit Group]** en selecteer een segment in het menu [!UICONTROL Edit Group] deelvenster.
+      * **Segment kiezen**: Geeft weer als er geen segmenten voor de aanvragen bestaan. Als u segmenten wilt toevoegen, klikt u **[!UICONTROL Edit Group]** en selecteer een segment in het menu [!UICONTROL Edit Group] deelvenster.
+
    * **Met metrisch:** Zie [Metriek bewerken in meerdere aanvragen](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **Op datumbereik en Korreligheid:** Groepeert de weergave van verzoeken op datumbereik en tijdgranulariteit.
    * **Op groep:** Groepeert de vertoning van verzoeken door reeks gegroepeerde verzoeken.
 
-
-1. Op de [!UICONTROL Edit Multiple Requests] formulier, klikken **[!UICONTROL OK]**.
+1. Op de [!UICONTROL Edit Multiple Requests] formulier, klik op **[!UICONTROL OK]**.
 
 ## Segmenten tegelijk toevoegen aan meerdere verzoeken
 

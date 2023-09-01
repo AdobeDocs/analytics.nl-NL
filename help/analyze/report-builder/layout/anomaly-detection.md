@@ -5,7 +5,7 @@ uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
 role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 0%
@@ -60,7 +60,7 @@ De bouwer van het rapport past deze waarden op geselecteerde metriek toe. Als u 
 
 **Hoe Anomaly Detection wordt berekend**
 
-Bij anomaliedetectie wordt een trainingsperiode gebruikt om gegevens over het voorspellingsinterval per dag te berekenen, te leren en te rapporteren. De opleidingsperiode is de historische periode waarin wordt vastgesteld wat normaal is ten opzichte van anomalieën, en past wat wordt geleerd toe op de verslagperiode. In marketingrapporten zijn er trainingsperiodes van 30, 60 en 90 beschikbaar. In rapportbuilder zijn 30 dagen beschikbaar.
+Bij anomaliedetectie wordt een trainingsperiode gebruikt om gegevens over het voorspellingsinterval per dag te berekenen, te leren en te rapporteren. De opleidingsperiode is de historische periode waarin wordt vastgesteld wat normaal is ten opzichte van anomalieën, en past wat wordt geleerd toe op de verslagperiode. In marketingrapporten zijn er trainingsperiodes van 30, 60 en 90 beschikbaar. In Report Builder zijn 30 dagen beschikbaar.
 
 De opleidingsperiode hoeft niet hetzelfde te zijn als de geselecteerde rapportageperiode. Een rapportgrafiek geeft de datumbereikperiode weer die u in de kalender hebt opgegeven.
 

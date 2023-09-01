@@ -1,18 +1,18 @@
 ---
-description: U kunt alle verzoeken in een werkboek tegen het toevoegen van en het uitgeven van verzoeken beschermen door het werkboek te sluiten. Dit laat off-line het uitgeven van werkboeken toe door alle rapportverzoeken voor efficiënter het uitgeven te pauzeren.
-title: Werkmappen vergrendelen/ontgrendelen
+description: Leer hoe te om alle verzoeken in een werkboek tegen het toevoegen van en het uitgeven van verzoeken te beschermen door het werkboek te sluiten.
+title: Werkboeken vergrendelen en ontgrendelen
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 1%
+source-wordcount: '464'
+ht-degree: 0%
 
 ---
 
-# Werkmappen vergrendelen/ontgrendelen
+# Werkboeken vergrendelen en ontgrendelen
 
 U kunt alle verzoeken in een werkboek tegen het toevoegen van en het uitgeven van verzoeken beschermen door het werkboek te sluiten. Dit laat off-line het uitgeven van werkboeken toe door alle rapportverzoeken voor efficiënter het uitgeven te pauzeren.
 
@@ -33,20 +33,18 @@ U kunt een gesloten werkboek ontgrendelen als u één van de volgende toestemmin
 
 Wanneer een werkboek tegen verzoek het uitgeven wordt gesloten,
 
-* Gebruikers kunnen geen aanvragen maken/toevoegen.
+* Gebruikers kunnen geen aanvragen maken en toevoegen.
 * Gebruikers kunnen aanvragen niet bewerken via de wizard Verzoek.
 * Gebruikers kunnen aanvragen niet bewerken via de functie Meerdere aanvragen bewerken.
 * Gebruikers kunnen aanvragen niet knippen, kopiëren of plakken. Gebruikers kunnen echter wel het contextmenu van Excel Knippen/Kopiëren/Plakken gebruiken om de inhoud van de aanvraag(en) te knippen, te kopiëren of te plakken.
 * Gebruikers kunnen aanvragen afzonderlijk of als onderdeel van een groep vernieuwen.
 * Als in de aanvraag invoerwaarden uit cellen worden gebruikt (datumbereik, segment, filters), kunnen gebruikers deze waarden in de cellen wijzigen en zo indirect de aanvragen bewerken door ze te vernieuwen.
 
-Als u probeert om een beschermd werkboek (door het contextmenu uit te geven, of **[!UICONTROL Request Manager]**, of **[!UICONTROL Edit Multiple Requests]**), kunt u dit al dan niet toestaan:
+Als u een beschermd werkboek door het contextmenu probeert uit te geven, of **[!UICONTROL Request Manager]**, of **[!UICONTROL Edit Multiple Requests]**, kunt u dit al dan niet toestaan:
 
-* Als u geen machtigingen hebt om de aanvraag(en) te ontgrendelen, wordt deze vraag weergegeven:
+* Als u geen toestemmingen hebt om een verzoek te ontgrendelen, zult u een bericht zien erop wijst dat u niet de rechten hebt om het werkboek te ontgrendelen en uit te geven.
 
-   ![](assets/locked_workbook_error.png)
-
-* Als u de vereiste toestemmingen hebt, wordt geen herinnering getoond, en u kunt het verzoek uitgeven.
+  ![Screenshot die het foutbericht weergeeft wanneer u geen machtigingen hebt om een aanvraag te ontgrendelen.](assets/locked_workbook_error.png)
 
 ## Workflow {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 

@@ -1,29 +1,31 @@
 ---
-title: Visual Basic-macro's in Report Builder
-description: Breid de functionaliteit van de werkboeken van Excel en Report Builder uit gebruikend VBA.
+title: Hoe te om de macro's van Visual Basic in Report Builder te gebruiken
+description: Leer hoe u de functionaliteit van Excel-werkboeken en -Report Builder kunt uitbreiden met VBA-macro's.
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
 # Visual Basic-macro&#39;s in Report Builder
 
-De macro&#39;s van VBA, die ook als Macro&#39;s van Visual Basic worden bekend, staan u toe om werkboeken op manieren te manipuleren Microsoft Excel alleen niet kan. Visual Basic heeft toegang tot het werkboek, Excel, en zelfs Vensters.
+De macro&#39;s van Visual Basic (VBA) verstrekken eigenschappen die u helpen de werkboeken van Excel verfrissen. Visual Basic heeft toegang tot het werkboek, Excel, en Vensters.
 
-Adobe ondersteunt drie Report Builder API-methoden. Zorg ervoor dat de recentste versie van rapportbouwer geïnstalleerd is, en login alvorens om het even welke macro&#39;s in werking te stellen.
+U moet de nieuwste versie van Report Builder uitvoeren en u aanmelden voordat u VBA-macro&#39;s kunt uitvoeren.
 
 >[!IMPORTANT]
 >
 >Om veiligheidsredenen, kunt u geen werkboek plannen dat een macro bevat.
 
+Adobe ondersteunt drie Report Builder API-methoden.
+
 ## `RefreshAllReportBuilderRequests()`
 
-De `RefreshAllReportBuilderRequests()` macro verfrist alle verzoeken van Report Builder in het actieve werkboek. Het begint door Report Builder Com toe:voegen-binnen door zijn identiteitskaart van het Product te roepen, dan roept `RefreshAllRequests()` API-opdracht:
+De `RefreshAllReportBuilderRequests()` macro verfrist alle verzoeken van de Report Builder in het actieve werkboek. Het begint door Report Builder toe:voegen-binnen Com door zijn identiteitskaart van het Product te roepen, dan roept `RefreshAllRequests()` API-opdracht:
 
 ```vba
 Sub RefreshAllReportBuilderRequests()
@@ -40,7 +42,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInActiveWorksheet()`
 
-De `RefreshAllReportBuilderRequestsInActiveWorksheet()` macro verfrist alle verzoeken van Report Builder in het actieve aantekenvel. De `RefreshWorksheetRequests()` API-aanroep neemt een werkbladobject als argument. U kunt deze vraag voor om het even welk aantekenvel gebruiken dat Report Builder verzoeken bevat:
+De `RefreshAllReportBuilderRequestsInActiveWorksheet()` macro vernieuwt alle verzoeken van de Report Builder in het actieve aantekenvel. De `RefreshWorksheetRequests()` API-aanroep neemt een werkbladobject als argument. U kunt deze vraag voor om het even welk aantekenvel gebruiken dat Report Builder verzoeken bevat:
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInActiveWorksheet()
@@ -57,7 +59,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInCellsRange()`
 
-De `RefreshAllReportBuilderRequestsInCellsRange()` macro verfrist alle verzoeken van de Report Builder waarvan celoutput de gespecificeerde waaier van cellen snijdt. Het celbereik dat in dit voorbeeld wordt gebruikt, verwijst naar het bereik `B1:B54` van het &quot;aantekenvel van Gegevens&quot;binnen het actieve werkboek. De bereikexpressie ondersteunt alle ondersteunde Excel-bereikexpressies:
+De `RefreshAllReportBuilderRequestsInCellsRange()` macro vernieuwt alle verzoeken van de Report Builder de waarvan celoutput de gespecificeerde waaier van cellen snijdt. Het in dit voorbeeld gebruikte celbereik verwijst naar het bereik `B1:B54` van het &quot;aantekenvel van Gegevens&quot;binnen het actieve werkboek. De bereikexpressie ondersteunt alle ondersteunde Excel-bereikexpressies:
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInCellsRange()

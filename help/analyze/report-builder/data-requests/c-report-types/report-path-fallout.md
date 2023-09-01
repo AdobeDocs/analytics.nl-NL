@@ -1,10 +1,10 @@
 ---
-description: Beschrijft hoe de rapportbouwer het kleven en de reserve rapporten steunt en hoe de implementatie van Rapporten & Analytics verschilt.
+description: Beschrijft hoe de Report Builder het kleven en de valkenrapporten steunt en hoe de implementatie van Rapporten & Analytics verschilt.
 title: Pad- en paduitvalrapporten in Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 7%
@@ -13,12 +13,12 @@ ht-degree: 7%
 
 # Pad- en paduitvalrapporten in Report Builder
 
-Beschrijft hoe de rapportbouwer het kleven en de reserve rapporten steunt en hoe de implementatie van Rapporten &amp; Analytics verschilt.
+Beschrijft hoe de Report Builder het kleven en de valkenrapporten steunt en hoe de implementatie van Rapporten &amp; Analytics verschilt.
 
 | Naam padrapport in rapporten en analyses (Paden > dimensie >) | Ondersteund in Report Builder? |
 |--- |--- |
 | Volgende/Vorige dimensie-stroom | Niet verstrekt als standalone rapport. Kan met verscheidene verzoeken met de afmeting van de Weg en het gebruiken van een filter worden gereproduceerd. |
-| Volgende/Vorige dimensie | Niet verstrekt als standalone rapport. Kan met een rapport van de Weg en het gebruiken van een filter worden gereproduceerd. |
+| Volgende/Vorige dimensie | Niet verstrekt als standalone rapport. Kan worden gereproduceerd met een rapport Pad en een filter gebruiken. |
 | Uitval | Ondersteund en beschikbaar als een zelfstandig rapport (Paden > Dimensie > Dimensie-uitval). |
 | Volledige paden | Niet ondersteund. |
 | PathFinder | Niet verstrekt als standalone rapport. Kan worden gereproduceerd als een padrapport met een filter. |

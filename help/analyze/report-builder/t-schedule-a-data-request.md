@@ -1,13 +1,13 @@
 ---
-description: U kunt rapporten plannen om volgens de tijd en dossierformaat te verzenden dat u bepaalt.
-title: Een gegevensaanvraag plannen
+description: Leer hoe u rapporten kunt plannen.
+title: Hoe te om een gegevensverzoek te plannen
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -22,18 +22,17 @@ Bovendien, nadat u een werkboekprogramma in Report Builder creeert, kunt u het p
 
 >[!NOTE]
 >
->U moet Excel 2007 of het verenigbaarheidspak hebben geïnstalleerd om een werkboek te plannen. U kunt maximaal 10 geplande werkboeken per Report Builder licentie hebben. U kunt dit aantal echter verhogen door andere licenties af te trekken. Ga hiertoe naar **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Report Builder Reports]**. Een werkboek dat is gepland (of geupload aan de Bibliotheek van het Werkboek) en niet (bijgewerkt, vervangen) in meer dan 28 maanden is aangeraakt zal worden geschrapt.
+>U moet Excel 2007 of het verenigbaarheidspak hebben geïnstalleerd om een werkboek te plannen. U kunt maximaal 10 geplande werkboeken per licentie voor Reporten Builder hebben. U kunt dit aantal echter verhogen door andere licenties af te trekken. Ga hiertoe naar **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Report Builder Reports]**. Een werkboek dat is gepland (of geupload aan de Bibliotheek van het Werkboek) en niet (bijgewerkt, vervangen) in meer dan 28 maanden is aangeraakt zal worden geschrapt.
 
 >[!NOTE]
 >
 >De &quot;Tijd van de Levering&quot;/&quot;Tijd van Dag&quot;ingegaan door de gebruiker specificeert de tijd dat het werkboek met verwerking zou moeten beginnen, niet de tijd dat het eigenlijk zal worden geleverd. De daadwerkelijke tijd dat het werkboek zal worden geleverd is hoofdzakelijk gebaseerd op hoe lang het aan proces (de complexe en grote werkboeken nemen langer aan proces dan de eenvoudigere werkboeken) vergt. Bijvoorbeeld, als een werkboek 15 minuten aan proces vergt, dan zal de daadwerkelijke leveringstijd minstens 15 minuten voorbij de oorspronkelijk gespecificeerde &quot;Tijd van de Levering&quot;/&quot;Tijd van Dag zijn.
 >Bovendien zijn er een aantal andere factoren die de vertraging kunnen verder verhogen alvorens het werkboek eigenlijk wordt geleverd:
 >
-> * **Vele verschillende programma&#39;s van het zelfde type tezelfdertijd in werking stellen** kan het systeem overladen. Het plannende systeem staat slechts een paar (5-10) werkboeken van één type toe om gelijktijdig te lopen, zodat wanneer meer dan 5-10 allen in één keer gepland zijn, zullen sommigen in lijn op andere werkboeken moeten wachten alvorens zij met verwerking kunnen beginnen. Dit probleem kan worden verholpen door de werkboeken van een bedrijf op gestaffelde tijden door de dag of het uur te plannen, eerder dan gelijktijdig.
-> * Naast het specifieke werkboektype, zullen de werkboeken ook in lijn wachten als het bedrijf heeft **meer dan 15-20 van om het even welk die type van werkboek in één keer wordt gepland (over alle verschillende werkboektypes)**. Dit kan worden verlicht door onthutsende planningstijden in plaats van vele tezelfdertijd te hebben lopen.
+> * **Vele verschillende programma&#39;s van hetzelfde type tegelijk uitvoeren** kan het systeem overladen. Het plannende systeem staat slechts een paar (5-10) werkboeken van één type toe om gelijktijdig te lopen, zodat wanneer meer dan 5-10 allen in één keer gepland zijn, zullen sommigen in lijn op andere werkboeken moeten wachten alvorens zij met verwerking kunnen beginnen. Dit probleem kan worden verholpen door de werkboeken van een bedrijf op gestaffelde tijden door de dag of het uur te plannen, eerder dan gelijktijdig.
+> * Naast het specifieke werkboektype, zullen de werkboeken ook in lijn wachten als het bedrijf heeft **meer dan 15-20 van om het even welk die type van werkboek tegelijkertijd (over alle verschillende werkboektypes) wordt gepland**. Dit kan worden verlicht door onthutsende planningstijden in plaats van vele tezelfdertijd te hebben lopen.
 > * **Problemen bij downstreamdiensten** dat de Planner zich op baseert ook levering van werkboeken kan beïnvloeden. Bijvoorbeeld, als u onafhankelijk APIs gebruikt om werkboeken in werking te stellen en de API verzoekrij te vullen, dan kunnen uw geplande werkboeken langzaam leveren terwijl u voor die bron concurreert.
 > * **Vertraging rapportsuite** (een vertraging in gegevensinzameling) kan sommige geplande werkboeken ook vertragen.
-
 
 ## Een werkmap plannen
 
@@ -41,10 +40,9 @@ Bovendien, nadat u een werkboekprogramma in Report Builder creeert, kunt u het p
 1. Klik op de werkbalk Report Builder op **[!UICONTROL Schedule]**.
 
    De [!UICONTROL Scheduled Reports] bevat een overzicht van alle taken die u hebt gemaakt en van het aantal resterende taken.
-1. Op de **[!UICONTROL Scheduled Reports]** tabblad, klikt u op **[!UICONTROL New]**.
-1. De Basis plannende Tovenaar toont:
+1. Op de **[!UICONTROL Scheduled Reports]** tabblad, klikt u op **[!UICONTROL New]**. De Basis plannende Tovenaar toont de opties worden gebruikt om het geplande rapport te bepalen die.
 
-   ![](assets/simple-schedule-wizard.png)
+   ![Screenshot die de Basic Scheduling Wizard weergeeft.](assets/simple-schedule-wizard.png)
 
 1. In de [!UICONTROL Basic Scheduling Wizard], configureert u de volgende opties:
 
@@ -69,15 +67,15 @@ Bovendien, nadat u een werkboekprogramma in Report Builder creeert, kunt u het p
 | **Tabblad Planning** |  |
 | Leveringstijd | Laat u het werkboek onmiddellijk of voor een recentere tijd plannen. De tijd van de dag is relatief ten opzichte van de tijdzone die op uw computer is opgegeven. |
 | Herhalingspatroon | Verzendt het werkboek dat op uw selecties wordt gebaseerd. |
-| Bereik van herhaling | Laat u specificeren wanneer te beginnen en ophouden ontvangend het werkboek.   Opmerking: Het plannen van een werkboek op de eerste dag van om het even welke huidige periode (week, maand, kwartaal, of jaar) keert gegevens slechts voor de eerste dag terug. |
+| Bereik van herhaling | Laat u specificeren wanneer te beginnen en ophouden ontvangend het werkboek.   Nota: Het plannen van een werkboek op de eerste dag van om het even welke huidige periode (week, maand, kwartaal, of jaar) keert gegevens slechts voor de eerste dag terug. |
 | **Tabblad Bestandsopties** |  |
 | Bestandsindeling | Hiermee kunt u een leveringsindeling selecteren voor Excel 2007 (.xlsx) of 2003 (.xls), .pdf, .csv, .mht, .txt en .xml. |
 | Bestandsbestemming | Hier geeft u E-mail of FTP op. De opties op de pagina veranderen afhankelijk van uw selectie. Voor FTP moet u ervoor zorgen dat de host extern beschikbaar is. |
-| Taal bestandsinhoud | Hiermee geeft u de taal op die u voor de begeleidende letter wilt gebruiken. U kunt Chinees (Vereenvoudigd of Traditioneel), Duits, Frans, Japans, Koreaans, Braziliaans Portugees, of Spaans selecteren. |
+| Taal voor bestandsinhoud | Hiermee geeft u de taal op die u voor de begeleidende letter wilt gebruiken. U kunt Chinees (Vereenvoudigd of Traditioneel), Duits, Frans, Japans, Koreaans, Braziliaans Portugees, of Spaans selecteren. |
 | **Tabblad Publicatieopties** |  |
-| Publiceren naar Power BI | <ul><li>Werkboek publiceren naar Power BI</li><li>Alle Report Builder-verzoeken publiceren als Power BI-gegevenssets</li><li>Alle opgemaakte tabellen publiceren als gegevenssets voor Power BI</li></ul> |
+| Publiceren naar Power BI | <ul><li>Werkboek publiceren naar Power BI</li><li>Alle verzoeken om Report Builder publiceren als Power BI Datasets</li><li>Alle opgemaakte tabellen publiceren als gegevenssets voor Power BI</li></ul> |
 | Dit Power BI-rapport labelen als | Etiketteringsdetails |
 
 1. Klikken **[!UICONTROL OK]** en klik vervolgens op **[!UICONTROL Exit]**.
 
-   Report Builder toont het geplande werkboek in de [Geplande Taakmanager](/help/analyze/report-builder/r-arb-scheduled-reports.md).
+   De Report Builder toont het geplande werkboek in [Geplande Taakmanager](/help/analyze/report-builder/r-arb-scheduled-reports.md).

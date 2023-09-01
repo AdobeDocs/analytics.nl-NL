@@ -1,10 +1,10 @@
 ---
-description: De interactieve Controles staan u toe om segmenten en datumwaaiers voor één of meerdere verzoeken direct van het aantekenvel uit te geven. Dit geeft u meer flexibiliteit wanneer het bijwerken van de verzoeken van de rapportaannemer.
+description: De interactieve Controles staan u toe om segmenten en datumwaaiers voor één of meerdere verzoeken direct van het aantekenvel uit te geven. Dit geeft u meer flexibiliteit wanneer het bijwerken van verzoeken van de Report Builder.
 title: Interactieve besturingselementen
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 1%
@@ -13,9 +13,9 @@ ht-degree: 1%
 
 # Interactieve besturingselementen
 
-De interactieve Controles staan u toe om segmenten en datumwaaiers voor één of meerdere verzoeken direct van het aantekenvel uit te geven. Dit geeft u meer flexibiliteit wanneer het bijwerken van de verzoeken van de rapportaannemer.
+De interactieve Controles staan u toe om segmenten en datumwaaiers voor één of meerdere verzoeken direct van het aantekenvel uit te geven. Dit geeft u meer flexibiliteit wanneer het bijwerken van verzoeken van de Report Builder.
 
-Interactieve besturingselementen zijn gemaakt als reactie op een algemene workflow waarin analisten werkboeken maken en deze werkboeken delen met de marketingorganisatie. De interactieve controles geven marketers de capaciteit om verzoeken te wijzigen en te verfrissen zonder het moeten diepgaande kennis van hebben hoe de rapportbouwer werkt. (Merk op dat om een verzoek te verfrissen, de werkboekontvanger een gebruiker van de rapportbouwer moet zijn.) Deze besturingselementen werken in de geplande werkboeken. Er zijn momenteel twee typen interactieve besturingselementen beschikbaar:
+Interactieve besturingselementen zijn gemaakt als reactie op een algemene workflow waarin analisten werkboeken maken en deze werkboeken delen met de marketingorganisatie. De interactieve controles geven marketers de capaciteit om verzoeken te wijzigen en te verfrissen zonder het moeten diepgaande kennis van hebben hoe de Report Builder werkt. (Merk op dat om een verzoek te verfrissen, de werkboekontvanger een gebruiker van de Report Builder moet zijn.) Deze besturingselementen werken in de geplande werkboeken. Er zijn momenteel twee typen interactieve besturingselementen beschikbaar:
 
 * Roldatumbereik
 * Segmenten
@@ -23,7 +23,7 @@ Interactieve besturingselementen zijn gemaakt als reactie op een algemene workfl
 >[!IMPORTANT]
 >
 >De interactieve besturingselementen werken alleen als Report Builder v5.0 is geïnstalleerd. >
->* Als u Microsoft Excel op Vensters in werking stelt maar een lagere versie van rapportaannemer in werking stelt, of als u geen geïnstalleerde rapportaannemer hebt: U kunt de waarde in de interactieve controle veranderen, maar het zal niet het bijbehorende verzoek verfrissen, noch de bijbehorende parameters van het verzoek bijwerken.
+>* Als u Microsoft Excel op Vensters in werking stelt maar een lagere versie van Report Builder in werking stelt, of als u geen geïnstalleerde Report Builder hebt: U kunt de waarde in de interactieve controle veranderen, maar het zal niet het bijbehorende verzoek verfrissen, noch de bijbehorende parameters van het verzoek bijwerken.
 >* Als u Excel op Mac in werking stelt, zal het veranderen van de waarde in de controle het volgende bericht veroorzaken om worden getoond: &quot;De macro &quot;Adobe.ReportBuilder.Bridge.FormControlClick.Event&quot;kan niet worden gevonden.&quot;
 >
 

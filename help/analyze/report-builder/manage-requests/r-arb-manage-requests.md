@@ -1,30 +1,30 @@
 ---
-description: Veldbeschrijvingen voor Verzoeken beheren in Report Builder.
-title: Aanvragen beheren - definities
+description: Meer informatie over de veldbeschrijvingen voor Verzoeken beheren in Report Builder.
+title: Hoe te om verzoeken in Report Builder te beheren
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 2%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
 # Aanvragen beheren - definities
 
-Veldbeschrijvingen voor Verzoeken beheren in Report Builder.
+Bekijk details van een verzoekstatus en gebruik de gebiedsbeschrijvingen om verzoeken in Report Builder te beheren.
 
 ## Overzicht {#section_75C288C945FA4781A4EDF806711A5660}
 
-De [!UICONTROL Request Manager] verstrekt een gedetailleerde mening van het statuut van alle verzoeken u voor alle bladen of enkel één blad van het actieve werkboek hebt gebouwd. U kunt ook een aanvraag toevoegen, bewerken, vernieuwen en verwijderen (functies die doorgaans aan de [!UICONTROL Request Wizard] en [!UICONTROL Request Manager]) door met de rechtermuisknop te klikken op een beschikbare cel in het Excel-werkblad dat eerdere aanvragen bevat.
+De [!UICONTROL Request Manager] verstrekt een gedetailleerde mening van het statuut van alle verzoeken u voor alle bladen of enkel één blad van het actieve werkboek bouwde. U kunt ook een aanvraag toevoegen, bewerken, vernieuwen en verwijderen. Deze functies zijn doorgaans gekoppeld aan de [!UICONTROL Request Wizard] en [!UICONTROL Request Manager] als u met de rechtermuisknop op een beschikbare cel in het Excel-werkblad klikt dat eerdere aanvragen bevat.
 
-De [!UICONTROL Request Manager] geeft weer wanneer u op **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) op de werkbalk Report Builder.
+De [!UICONTROL Request Manager] geeft weer wanneer u op **[!UICONTROL Manage]**  ![](assets/edit_request.gif) op de werkbalk Report Builder.
 
 >[!NOTE]
 >
->Adobe Report Builder dwingt aanvraagafhankelijkheden alleen af binnen hetzelfde werkblad, niet tussen werkbladen. Het beperken tot gebiedsdelen binnen één enkel aantekenvel verzekert tijdigheid van uitvoering.
+>Adobe Report Builder dwingt aanvraagafhankelijkheden alleen af binnen hetzelfde werkblad, niet tussen werkbladen. Het beperken tot gebiedsdelen binnen één enkel aantekeningsblad verzekert uitvoeringstijdelijkheid.
 
 ## Definities {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -58,7 +58,7 @@ De [!UICONTROL Request Manager] geeft weer wanneer u op **[!UICONTROL Manage]** 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Laatste uitvoering </p> </td> 
-   <td colname="col2"> <p>Geeft de datum aan waarop het verzoek voor het laatst is verwerkt door Report Builder. In deze tabel wordt ook een diagnostisch bericht weergegeven in het dialoogvenster <span class="wintitle"> Laatste uitvoering</span> kolom, indien van toepassing. </p> </td> 
+   <td colname="col2"> <p>Geeft de datum aan waarop het verzoek voor het laatst is verwerkt door de Report Builder. In deze tabel wordt ook een diagnostisch bericht weergegeven in het dialoogvenster <span class="wintitle"> Laatste uitvoering</span> kolom, indien van toepassing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Toevoegen </p> </td> 
@@ -66,7 +66,7 @@ De [!UICONTROL Request Manager] geeft weer wanneer u op **[!UICONTROL Manage]** 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bewerken </p> </td> 
-   <td colname="col2"> <p> (Of Meerdere bewerken) Hiermee bewerkt u een geselecteerde aanvraag. Het systeem geeft de <span class="wintitle"> Wizard Verzoek</span> . Zie <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Meerdere verzoeken bewerken</a>. </p> </td> 
+   <td colname="col2"> <p> (Of Meerdere bewerken) Hiermee bewerkt u een geselecteerde aanvraag. Het systeem geeft de <span class="wintitle"> Wizard Verzoek</span> in. Zie <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Meerdere verzoeken bewerken</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verwijderen </p> </td> 
@@ -86,7 +86,7 @@ De [!UICONTROL Request Manager] geeft weer wanneer u op **[!UICONTROL Manage]** 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lijst vernieuwen </p> </td> 
-   <td colname="col2"> <p>Hiermee vernieuwt u alle weergegeven aanvragen. Wanneer u alle verzoeken vernieuwt, is de tijd om de informatie van de server aan uw rapport bij te werken direct evenredig aan de ingewikkeldheid van de verzoeken in het rapport. Voor zeer grote rapporten, kan het verfrissen van alle verzoeken verscheidene notulen vereisen. Daarom kunt u de meest dringende verzoeken afzonderlijk bijwerken en <span class="wintitle"> Alles vernieuwen</span> op een ander, minder cruciaal moment. </p> <p> <p>Opmerking: U wordt aangeraden de resultaten vaak te controleren in het dialoogvenster <span class="wintitle"> Aanvraagbeheer</span> als u een werkblad vernieuwt dat meerdere verzoeken bevat. Als een aanvraagfout optreedt, kunt u met het foutbericht in de diagnostische kolom de bron van de fout bepalen. Terwijl in de meeste gevallen een foutenmelding wordt getoond wanneer een verzoek ontbreekt, merk op dat af en toe geen foutenmelding wordt geproduceerd. Het kan zijn dat bij een vernieuwingsbewerking de gegevens niet worden bijgewerkt in een cel die een verwijzing bevat, of dat bij een update de gegevens uit de cel worden verwijderd. </p> </p> </td> 
+   <td colname="col2"> <p>Hiermee vernieuwt u alle weergegeven aanvragen. Wanneer u alle verzoeken vernieuwt, is de tijd om de informatie van de server aan uw rapport bij te werken direct evenredig aan de ingewikkeldheid van de verzoeken in het rapport. Voor zeer grote rapporten, kan het verfrissen van alle verzoeken verscheidene notulen vereisen. Daarom kunt u de meest dringende verzoeken afzonderlijk bijwerken en <span class="wintitle"> Alles vernieuwen</span> op een ander, minder cruciaal moment. </p> <p> <p>Opmerking: het wordt aanbevolen de resultaten vaak te controleren in het dialoogvenster <span class="wintitle"> Aanvraagbeheer</span> als u een werkblad vernieuwt dat meerdere verzoeken bevat. Als er een fout optreedt bij een aanvraag, kunt u met het foutbericht in de diagnostische kolom de bron van de fout bepalen. Terwijl in de meeste gevallen een foutenmelding wordt getoond wanneer een verzoek ontbreekt, merk op dat af en toe geen foutenmelding wordt geproduceerd. Het kan zijn dat bij een vernieuwingsbewerking de gegevens niet worden bijgewerkt in een cel die een verwijzing bevat, of dat bij een update de gegevens uit de cel worden verwijderd. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

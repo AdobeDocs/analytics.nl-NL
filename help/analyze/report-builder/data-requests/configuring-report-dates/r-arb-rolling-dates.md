@@ -1,11 +1,11 @@
 ---
-description: Velddefinities voor roldatums in rapportbuilder.
+description: Velddefinities voor roldatums in Report Builder.
 title: Definities wizard Aanvragen - doorlopende datums
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
 role: User, Admin
 exl-id: 31caee9b-3488-4dc7-b5b1-361b153c8b68
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 14%
@@ -32,8 +32,8 @@ Velddefinities voor roldatums in Report Builder.
    <td colname="col1"> <p> Vanaf datum </p> </td> 
    <td colname="col2"> <p>De datumreferentie die moet worden gebruikt voor het rolbereik. Waarden zijn: </p> 
     <ul id="ul_6B73B707B7CB4C7D88299A8337260800"> 
-     <li id="li_48FD414FCF884F3AADB7CFBC90C7EF51"> Opgegeven tijdens runtime: Hier kunt u een datum invoeren telkens wanneer de aanvraag wordt uitgevoerd. </li> 
-     <li id="li_B1AE95854C1B4228A39164373A1C5303"> Verankerd uit cel: Hiermee kunt u de datumreferentie instellen op basis van een celwaarde. </li> 
+     <li id="li_48FD414FCF884F3AADB7CFBC90C7EF51"> Opgegeven bij uitvoering: hiermee kunt u een datum invoeren telkens wanneer de aanvraag wordt uitgevoerd. </li> 
+     <li id="li_B1AE95854C1B4228A39164373A1C5303"> Verankerd vanuit cel: hiermee kunt u de datumreferentie instellen op basis van een celwaarde. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -4,7 +4,7 @@ title: Segmenten beheren (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Adobe Analytics-segmenten toevoegen, bewerken, toepassen en filteren in Report Builder.
 
-Report Builder heeft een segmentatiepaneel in Stap 1 van de wizard Verzoek waarmee u segmenten kunt maken en beheren.
+De Report Builder kenmerkt een segmentatiepaneel in Stap 1 van de Tovenaar van het Verzoek die u tot segmenten laat leiden en leidt.
 
 ![Schermafbeelding met de segmentopties voor het toevoegen, bewerken of wissen van segmenten en het markeren van de pictogrammen Besturing, Filter en Vernieuwen.](assets/seg_dialog.png)
 
@@ -23,7 +23,7 @@ Report Builder heeft een segmentatiepaneel in Stap 1 van de wizard Verzoek waarm
 
 >[!NOTE]
 >
->Om segmenten toe te voegen of uit te geven, lanceert de het segmentinterface van de Report Builder de segmentbouwer van Analytics in een venster van Microsoft Internet Explorer. Uw sessie voor het samenstellen van rapporten blijft actief. Andere browsers dan Internet Explorer worden niet ondersteund voor deze bewerking.
+>Om segmenten toe te voegen of uit te geven, lanceert de de segmentinterface van de Report Builder de het segmentbouwer van de Analyse in een venster van Microsoft Internet Explorer. Uw Report Builder-sessie blijft actief. Andere browsers dan Internet Explorer worden niet ondersteund voor deze bewerking.
 
 1. In het segmentpaneel van Stap 1 van de Tovenaar van het Verzoek, klik **[!UICONTROL Add]**.
 1. Een venster van Internet Explorer lanceert dat de interface van de Bouwer van het Segment van de Analyse opent. Raadpleeg voor informatie over het maken van segmenten [Segmentatie van analyse](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
@@ -36,7 +36,7 @@ Report Builder heeft een segmentatiepaneel in Stap 1 van de wizard Verzoek waarm
 
 ## In-context-segmenten maken {#section_6DD2C663B2854469AA1075438F907678}
 
-U kunt specifieke combinaties rapportdimensies hebben die u in een segment zou willen veranderen. U kunt deze segmenten van de interface van Report Builder tot stand brengen. Selecteer bijvoorbeeld een paar pagina&#39;s in een paginaaanvraaguitvoer en maak een segment op basis van deze waarden.
+U kunt specifieke combinaties rapportdimensies hebben die u in een segment zou willen veranderen. U kunt deze segmenten maken via de interface Report Builder. Selecteer bijvoorbeeld een paar pagina&#39;s in een paginaaanvraaguitvoer en maak een segment op basis van deze waarden.
 
 1. Selecteer de punten van de rapportoutput u in een segment wilt veranderen.
 1. Klik met de rechtermuisknop om te selecteren **[!UICONTROL Create In-Context Segment in]** en geeft u de rechtercontainer op (de container van Hits, de container van Visitor, de container van de bezoeker).
@@ -47,7 +47,7 @@ U kunt specifieke combinaties rapportdimensies hebben die u in een segment zou w
 
 1. De gebruikersinterface van Segment Builder wordt nu in Internet Explorer gestart. De UI van de Bouwer van het Segment zal met de container en de filter worden geïnitialiseerd u specificeerde.
 1. Nadat u een naam en een beschrijving aan het segment hebt toegevoegd, sparen het.
-1. Ga terug naar rapportbuilder en klik het Refresh pictogram om de lijst van segmenten te verfrissen.
+1. Ga terug naar Report Builder en klik het Refresh pictogram om de lijst van segmenten te verfrissen.
 1. U bent nu klaar om dit segment toe te passen.
 
 ## Segmenten zoeken en toepassen {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
@@ -76,7 +76,7 @@ Beschikbare filters zijn:
 |---|---|
 | Tags | Hiermee kunt u filteren op segmenten met specifieke tags. Merk op dat de filters van de Markering de exploitant EN gebruiken. Als u twee labels controleert, ziet u in het rechterdeelvenster segmenten die zijn gecodeerd **beide** -tags. |
 | Eigenaars | Hiermee kunt u segmenten filteren op eigenaar. Merk op dat eigenaarfilters de operator OR gebruiken. Als u twee eigenaars controleert, toont de juiste ruit segmenten die door worden bezeten **ofwel** eigenaar. |
-| Overige filters > Alleen *naam rapportsuite* | Als u de optie Alleen *naam rapportsuite*&quot;, filter in de Bouwer van het Segment in [!DNL marketing reports & analytics]en geeft u vervolgens het geavanceerde filter weer in [!DNL report builder], zal de Geavanceerde filter het segment voor de geselecteerde rapportreeks slechts tonen. |
+| Overige filters > Alleen *naam rapportsuite* | Als u de optie Alleen *naam rapportsuite*&quot;, filter in de Bouwer van het Segment in [!DNL marketing reports & analytics]en geeft u vervolgens het geavanceerde filter weer in [!DNL Report Builder], zal de Geavanceerde filter het segment voor de geselecteerde rapportreeks slechts tonen. |
 | Overige filters > Mine | Toont alle segmenten die u bezit. |
 | Overige filters > Met mij gedeeld | Toont alle segmenten die anderen met u deelden. |
 | Overige filters > Favorieten | Hiermee worden alle segmenten weergegeven die u als Favorieten hebt gemarkeerd. |
@@ -109,7 +109,7 @@ Als u een nieuw segment toevoegt of een bestaand segment bewerkt, klikt u op het
 
 ## Segmenten in verschillende verzoeken beheren {#section_C3D63FCBE1A94369A319243313B03C93}
 
-Voorafgaand aan v5.4, laat Report Builder gebruikers segmenten op veelvoudige verzoeken veranderen. Dit proces heeft echter altijd de bestaande segmenten vervangen. De gebruikers die één nieuw segment aan elk verzoek wilden toevoegen konden dit niet doen, aangezien het toevoegen van het segment de vorige reeks segmenten zou verwijderen die reeds aan elk verzoek wordt toegewezen.
+Voorafgaand aan v5.4, laat de Report Builder gebruikers segmenten op veelvoudige verzoeken veranderen. Dit proces heeft echter altijd de bestaande segmenten vervangen. De gebruikers die één nieuw segment aan elk verzoek wilden toevoegen konden dit niet doen, aangezien het toevoegen van het segment de vorige reeks segmenten zou verwijderen die reeds aan elk verzoek wordt toegewezen.
 
 Met Report Builder 5.4 kunt u alle segmenten binnen meerdere aanvragen toevoegen, verwijderen, vervangen en vervangen:
 
