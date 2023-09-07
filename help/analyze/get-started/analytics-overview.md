@@ -1,12 +1,12 @@
 ---
-description: Algemene overzichtsinformatie over Adobe Analytics, met inbegrip van informatie over de interface van Analytics evenals begonnen informatie voor beheerders, analisten, gebruikers, en ontwikkelaars.
-short-description: Leer belangrijke functies, veelvoorkomende gebruiksgevallen en eerste stappen voor analisten, eindgebruikers en beheerders.
+description: Algemene overzichtsinformatie over Adobe Analytics, inclusief informatie over de interface van Analytics en om aan de slag te gaan voor beheerders, analisten, gebruikers en ontwikkelaars.
+short-description: Ontdek belangrijke functies, veelvoorkomende gebruiksscenario’s en eerste stappen voor analisten, eindgebruikers en beheerders.
 title: Adobe Analytics-overzicht
 feature: Analytics Basics
 source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
