@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: ebec057aea182a7c036c105c44d163155809bfd9
 workflow-type: tm+mt
-source-wordcount: '4922'
-ht-degree: 26%
+source-wordcount: '5020'
+ht-degree: 25%
 
 ---
 
@@ -25,6 +25,9 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 
 | Functie | Beschrijving |
 | --- | --- |
+| **September 2023** | |
+| Aan de slag met inhoudverbeteringen | Toegevoegde informatie waarin belangrijke aan de slag zijnde taken en bronnen voor beheerders, analisten, eindgebruikers en ontwikkelaars worden beschreven. De volgende nieuwe artikelen zijn nu beschikbaar: <ul><li>[Aan de slag (op rol)](/help/analyze/get-started/get-started-by-role.md)</li><li>[De interface Analytics begrijpen](/help/analyze/get-started/analytics-interface.md)<li>[Gebruik hoofdletters](/help/analyze/get-started/use-cases.md)</li></ul> |
+| Verbeteringen in de documentatie van de rapportage van mediafanalen | Enkele inhoud in het gedeelte Rapportage van de gids voor streamingmedia is opnieuw ingedeeld, waaronder het consolideren van de API-documentatie in een eigen sectie en het aanpassen van de volgorde van sommige artikelen. <p>De naam van het artikel Sjablonen voor werkruimten van media is gewijzigd in [Mediarapporten in Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html) om beter uit te lijnen met het in-product noemen. </p> |
 | **augustus 2023** | |
 | Verduidelijking van gegevensinvoer | Bijgewerkt [de definitie van begin- en einddatum](/help/export/analytics-data-feed/create-feed.md) om te verduidelijken dat wanneer het verwerken van gegevensvoer voor historische gegevens, u de begindatum kunt plaatsen aan om het even welke datum in het verleden wanneer de gegevens worden verzameld. |
 | Ervaar de verwerking van Edge-gegevens | Inhoud toevoegen hoe Adobe Analytics [verwerkt gegevens van Experience Edge](../implement/aep-edge/overview.md). |
