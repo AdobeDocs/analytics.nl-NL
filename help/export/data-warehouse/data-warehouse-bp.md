@@ -5,7 +5,7 @@ title: Best practices voor Data Warehouse
 feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: 2ed0627efe50c000c9fe440fccafd12739b09554
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -24,3 +24,4 @@ Data Warehouse biedt een flexibele interface voor het uitvoeren van aangepaste r
 | Rapport over voltooide gegevensbereiken | De rapporten van de Data Warehouse worden geproduceerd wanneer de gevraagde datumwaaier volledig is. Bijvoorbeeld, als u om een rapport voor de huidige week op Woensdag verzoekt, wordt het rapport niet geproduceerd tot Zondag van de volgende week. |
 | Tekenrapporten genereren in Data Warehouse | Metrische waarden (items, uitgangen, grenzen, enz.) niet beschikbaar zijn in het gegevenspakhuis. |
 | Virtuele rapportsuites | Data Warehouse die over virtuele rapportreeksen rapporteert steunt de alternatieve tijdzone die op de virtuele rapportreeks wordt gevormd. |
+
