@@ -2,7 +2,7 @@
 description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse tot stand te brengen.
 title: Configureer rapportopties voor een Data Warehouse-verzoek
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -37,8 +37,8 @@ Om een bericht e-mail voor een verzoek van de Data Warehouse te vormen:
 
    | Optie | -functie |
    |---------|----------|
-   | Melding verzenden naar | Geef de e-mailadressen op van de personen die e-mailmeldingen moeten ontvangen wanneer het rapport wordt verzonden. <p>U kunt één e-mailadres of een door komma&#39;s gescheiden lijst met e-mailadressen opgeven.</p> |
-   | Geavanceerde opties | Selecteer deze optie om een onderwerp en opmerkingen voor de e-mail op te nemen wanneer het bericht wordt verzonden. |
+   | [!UICONTROL **Melding verzenden naar**] | Geef de e-mailadressen op van de personen die e-mailmeldingen moeten ontvangen wanneer het rapport wordt verzonden. <p>U kunt één e-mailadres of een door komma&#39;s gescheiden lijst met e-mailadressen opgeven.</p> |
+   | [!UICONTROL **Geavanceerde opties**] | Selecteer deze optie om een onderwerp en opmerkingen voor de e-mail op te nemen wanneer het bericht wordt verzonden. |
 
    {style="table-layout:auto"}
 

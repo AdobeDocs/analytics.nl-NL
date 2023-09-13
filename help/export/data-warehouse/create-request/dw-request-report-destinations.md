@@ -2,9 +2,9 @@
 description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse tot stand te brengen.
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '2081'
 ht-degree: 0%
 
 ---
@@ -59,13 +59,13 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       | Veld | -functie |
       |---------|----------|
-      | [!UICONTROL **Accounttype**] | Selecteer het type cloudaccount. We raden u aan voor elk accounttype één account te hebben, met meerdere locaties binnen dat account. <p>Nadat u een accounttype hebt gekozen, worden de velden weergegeven die specifiek zijn voor dat accounttype. Vouw voor de configuratie-instructies voor elk accounttype de sectie uit die correspondeert met de sectie die u selecteert. </p> |
+      | [!UICONTROL **Accounttype**] | Selecteer het type cloudaccount. We raden u aan voor elk accounttype één account te hebben, met meerdere locaties binnen dat account. <p>Nadat u een accounttype hebt gekozen, worden de velden weergegeven die specifiek zijn voor dat accounttype. </p> |
       | [!UICONTROL **Accountnaam**] | Geef een naam op voor de account. Deze naam wordt weergegeven wanneer u een locatie maakt. <!-- true? --> |
       | [!UICONTROL **Accountbeschrijving**] | Geef een korte beschrijving van de account om deze te onderscheiden van andere accounts van hetzelfde type account. |
 
       Vouw voor configuratieinstructies de sectie hieronder uit die overeenkomt met de [!UICONTROL **Accounttype**] die u hebt geselecteerd.
 
-      Gebruik om het even welke volgende rekeningtypes wanneer het vormen van een rapportbestemming. Vouw voor configuratieinstructies het accounttype uit. (Aanvullende oudere bestemmingen) <!-- add link --> zijn ook beschikbaar, maar worden niet aanbevolen.)
+      Gebruik om het even welke volgende rekeningtypes wanneer het vormen van een rapportbestemming. Vouw voor configuratieinstructies het accounttype uit. (Extra [verouderde doelen](#legacy-destinations) zijn ook beschikbaar, maar worden niet aanbevolen.)
 
       +++Amazon S3
 
@@ -134,7 +134,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
    1. In de [!UICONTROL **Locatie-eigenschappen**] in, geeft u specifieke informatie op over het accounttype van uw locatieaccount.
 
-      Vouw voor configuratieinstructies de sectie hieronder uit die overeenkomt met het accounttype dat u eerder hebt geselecteerd.
+      Vouw voor configuratieinstructies de sectie hieronder uit die overeenkomt met de [!UICONTROL **Accounttype**] die u eerder hebt geselecteerd.
 
       +++Amazon S3
 
@@ -194,3 +194,67 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
       U kunt nu gegevens importeren naar de account en locatie die u hebt geconfigureerd.
 
 1. Ga door met het configureren van uw verzoek voor Data Warehouse op de [!UICONTROL **Rapportopties**] tab. Zie voor meer informatie [Configureer rapportopties voor een Data Warehouse-verzoek](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+
+## Oudere bestemmingen
+
+>[!IMPORTANT]
+>
+>De doelen die in deze sectie worden beschreven, zijn verouderd en worden niet aanbevolen. Gebruik in plaats daarvan een van de volgende doelen bij het maken van een gegevensopslagbestemming: Amazon S3, Google Cloud Platform, Azure RBAC, Azure SAS of Email. Zie de bovenstaande informatie voor meer informatie over elk van deze aanbevolen doelen.
+
+De volgende informatie verstrekt configuratieinformatie voor elk van de erfenisbestemmingen:
+
+### FTP
+
+Gegevens van het gegevenspakhuis kunnen aan een Adobe of klant-ontvangen plaats van FTP worden geleverd. Vereist een FTP-host, gebruikersnaam en wachtwoord. Gebruik het padveld om feed-bestanden in een map te plaatsen. Mappen moeten al bestaan; feeds genereren een fout als het opgegeven pad niet bestaat.
+
+Gebruik de volgende informatie wanneer u de beschikbare velden invult:
+
+* [!UICONTROL **Host**]: Voer de gewenste FTP-doel-URL in. Bijvoorbeeld, `ftp://ftp.omniture.com`.
+* [!UICONTROL **Pad**]: kan leeg worden gelaten
+* [!UICONTROL **Gebruikersnaam**]: Voer de gebruikersnaam in die u wilt aanmelden bij de FTP-site.
+* [!UICONTROL **Wachtwoord en wachtwoord bevestigen**]: Voer het wachtwoord in om u aan te melden bij de FTP-site.
+
+### SFTP
+
+SFTP-ondersteuning voor gegevenspakhuis is beschikbaar. Vereist een gastheer SFTP, gebruikersbenaming, en de bestemmingsplaats om een geldige RSA of DSA openbare sleutel te bevatten. U kunt de aangewezen openbare sleutel downloaden wanneer het creëren van de bestemming van het gegevenspakhuis.
+
+### S3
+
+U kunt opslaggegevens rechtstreeks naar Amazon S3 emmers verzenden. Dit bestemmingstype vereist een naam van het Emmertje, een Zeer belangrijke identiteitskaart van de Toegang, en een Geheime Sleutel. Zie [Amazon S3-vereisten voor emmernaamgeving](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in de Amazon S3-documenten voor meer informatie.
+
+De gebruiker u voor het uploaden gegevens van het gegevenspakhuis verstrekt moet het volgende hebben: [machtigingen](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+De volgende 16 standaard AWS-gebieden worden ondersteund (waarbij zo nodig het juiste handtekeningalgoritme wordt gebruikt):
+
+* us-East-2
+* us-oost-1
+* us-west-1
+* us-west-2
+* ap-zuid-1
+* ap-northeast-2
+* ap-zuidoost-1
+* ap-zuidoost-2
+* ap-northeast-1
+* ca-centraal-1
+* EU-centraal-1
+* EU-west-1
+* EU-west-2
+* eu-west-3
+* eu-noord-1
+* sa-Oost-1
+
+>[!NOTE]
+>
+>De regio cn-North-1 wordt niet ondersteund.
+
+### Azure Blob
+
+De steun van het pakhuis van gegevens Azure Blob bestemmingen. Hiervoor is een container, account en sleutel vereist. Amazon versleutelt de gegevens automatisch in rust. Wanneer u de gegevens downloadt, worden deze automatisch gedecodeerd. Zie [Een opslagaccount maken](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) in de Microsoft Azure-documenten voor meer informatie.
+
+>[!NOTE]
+>
+>U moet uw eigen proces uitvoeren om schijfruimte op de bestemming van het gegevenspakhuis te beheren. Adobe verwijdert geen gegevens van de server.

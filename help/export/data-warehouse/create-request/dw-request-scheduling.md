@@ -2,9 +2,9 @@
 description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse tot stand te brengen.
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---
@@ -37,16 +37,12 @@ Om het plannen opties voor een verzoek van de Data Warehouse te vormen:
 
    | Optie | -functie |
    |---------|----------|
-   | Rapport nu verzenden | Verzendt het rapport als een eenmalig rapport. Als deze optie is geselecteerd, worden alle planningsopties verborgen. |
-   | Plan voor later | Verstrekt opties voor het plannen van rapportlevering. Alle opties worden hieronder beschreven. |
-   | Rapportfrequentie | De frequentie waarmee rapporten worden geleverd. <p>De volgende opties zijn beschikbaar:</p><ul><li>Uurlijks</li><p>[!UICONTROL **Uur**] is alleen beschikbaar als de [!UICONTROL **Datumbereiken**] de optie [!UICONTROL **Algemene instellingen**] tab is ingesteld op [!UICONTROL **Laatste uur**].</p><li>Dagelijks</li><li>Wekelijks</li><li>Maandelijks</li><li>Jaarlijks</li></ul>  <!-- Is this valid? Was in the old docs: "To schedule Data Warehouse requests for Daily, Weekly, Monthly, or Yearly, make sure *Preset* is correctly selected" --> |
-   | Maandelijkse herhaling | Het interval tussen maanden wanneer het rapport wordt verzonden. |
-   | Dag van de maand | De datum elke maand wanneer het rapport wordt verzonden.<p>Wanneer deze optie beschikbaar is, [!UICONTROL **Week van de maand**] en [!UICONTROL **Dag van de week**] zijn niet mogelijk. Selecteer de [!UICONTROL **Alternatieve indeling**] om heen en weer te schakelen. </p> |
-   | Week van de maand | De week van elke maand waarin het verslag moet worden verzonden. <p>De volgende opties zijn beschikbaar:</p><ul><li>Eerste</li><li>Seconde</li><li>Derde</li><li>Vierde</li><p>Stuur het rapport over de vierde week, zelfs over maanden met 5 weken. Kies [!UICONTROL **Laatste**] als u het rapport wilt verzenden over de laatste week van elke maand.</p><li>Laatste</li></ul><p>Wanneer deze optie beschikbaar is, [!UICONTROL **Dag van de maand**] is niet mogelijk. Selecteer de [!UICONTROL **Alternatieve indeling**] om heen en weer te schakelen. </p> |
-   | Dag van de week | De dag van de week waarop het verslag moet worden verzonden. <p>Wanneer deze optie beschikbaar is, [!UICONTROL **Dag van de maand**] is niet mogelijk. Selecteer de [!UICONTROL **Alternatieve indeling**] om heen en weer te schakelen. </p> |
-   | Starten bij | De datum waarop het nieuwe schema zou moeten beginnen. |
-   | Tijd van dag | Het tijdstip waarop het verslag moet worden verzonden. |
-   | Opties voor eindlevering | Kies wanneer de geplande leveringen moeten worden beëindigd. U kunt ervoor kiezen nooit te beëindigen, na een bepaald aantal exemplaren te beëindigen of op een bepaalde datum te eindigen. |
+   | [!UICONTROL **Rapport nu verzenden**] | Verzendt het rapport als een eenmalig rapport. Als deze optie is geselecteerd, worden alle planningsopties verborgen. |
+   | [!UICONTROL **Plan voor later**] | Verstrekt opties voor het plannen van rapportlevering. Alle opties worden hieronder beschreven. |
+   | [!UICONTROL **Rapportfrequentie**] | De frequentie waarmee rapporten worden geleverd. <p>De volgende opties zijn beschikbaar:</p><ul><li>Uurlijks</li><p>[!UICONTROL **Uur**] is alleen beschikbaar als de [!UICONTROL **Datumbereiken**] de optie [!UICONTROL **Algemene instellingen**] tab is ingesteld op [!UICONTROL **Laatste uur**].</p><li>Dagelijks</li><li>Wekelijks</li><li>Maandelijks</li><li>Jaarlijks</li></ul><p>Afhankelijk van de frequentie die u selecteert, worden aanvullende opties weergegeven.</p> |
+   | [!UICONTROL **Starten bij**] | De datum waarop het nieuwe schema zou moeten beginnen. |
+   | [!UICONTROL **Tijd van dag**] | Het tijdstip waarop het verslag moet worden verzonden. |
+   | [!UICONTROL **Opties voor eindlevering**] | Kies wanneer de geplande leveringen moeten worden beëindigd. U kunt ervoor kiezen nooit te beëindigen, na een bepaald aantal exemplaren te beëindigen of op een bepaalde datum te eindigen. |
 
    {style="table-layout:auto"}
 
