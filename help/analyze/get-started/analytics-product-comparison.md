@@ -3,9 +3,9 @@ description: Systeemvereisten en een vergelijking van Analysis Workspace, Report
 title: Analytics-productvergelijking en -vereisten
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 71ebabf7efca70c0cbd2489dc538f7f10cae16cb
+source-git-commit: 0579715d33db28f1741eed2b1aa1520d3beb757b
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '426'
 ht-degree: 37%
 
 ---
@@ -37,5 +37,5 @@ Voor informatie over welk Adobe Analytics-product u moet gebruiken, raadpleegt u
 | **Kromming** <br> [Meer informatie](/help/analyze/analysis-workspace/curate-share/curate.md) | Ja - Project en vrijwillige VUT | Nee | Nee | Nee | Nee | Nee | Ja - alleen VRS |
 | **Projectdeling** <br> [Meer informatie](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Ja, met projectrollen | Ja | Ja | Nee | Ja | Nee | Nee |
 | **Geplande levering** | Ja | Ja | Ja | Ja | Nee | Ja | Nee |
-| **Leveringsbestemmingen** | E-mail | E-mail | E-mail, FTP, SFTP [publiceren naar Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Email, FTP. Neem contact op met de klantenservice voor extra bestemmingsondersteuning, zoals SFTP, Azure Blob, Amazon S3 | - | Amazon S3, Azure RBAC, Azure SAS en Google Cloud Platform | - |
+| **Leveringsbestemmingen** | E-mail | E-mail | E-mail, FTP, SFTP [publiceren naar Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC en Email | - | Amazon S3, Azure RBAC, Azure SAS en Google Cloud Platform | - |
 | **Tijdverwerking van VRS-rapport** <br> [Meer informatie](/help/components/vrs/vrs-report-time-processing.md) | Ja | Nee | Nee | Nee | Nee | Nee | Ja |

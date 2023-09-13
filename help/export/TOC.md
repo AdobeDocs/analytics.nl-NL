@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding voor exporteren van analysemogelijkheden
 breadcrumb-title: Handleiding exporteren
 user-guide-description: Leer meer over het gebruik van datafeeds om onbewerkte gegevens te exporteren en Data Warehouse om een spreadsheetuitvoer van gegevens op te halen. Meer informatie over FTP en SFTP gebruiken om bestanden over te dragen.
-source-git-commit: 78ec6e91e64791d2f8a5386518d3d64403b2170a
+source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 82%
+source-wordcount: '309'
+ht-degree: 78%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 82%
       + [Referentie gegevenskolom](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Opzoeken van paginagebeurtenissen](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Dynamische zoekopdrachten](analytics-data-feed/c-df-contents/dynamic-lookups.md)
-      + [Merchandising eVar lookup](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
+      + [Opzoekopdracht eVar wijzigen](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Speciale tekens](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Te laat arriveren](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Veelgestelde vragen over gegevensinvoer](analytics-data-feed/df-faq.md)
@@ -36,11 +36,17 @@ ht-degree: 82%
 + Data Warehouse {#data-warehouse}
    + [Overzicht van Data Warehouse](data-warehouse/data-warehouse.md)
    + [Gebruikersgroep Data Warehouse toevoegen](data-warehouse/t-dw-group.md)
-   + [Een verzoek voor een Data Warehouse maken](data-warehouse/t-dw-create-request.md)
+   + Een verzoek voor een Data Warehouse maken {#dw-create-request}
+      + [Een verzoek voor een Data Warehouse maken](/help/export/data-warehouse/create-request/t-dw-create-request.md)
+      + [Algemene instellingen](/help/export/data-warehouse/create-request/dw-general-settings.md)
+      + [Uw rapport samenstellen](/help/export/data-warehouse/create-request/dw-request-build-report.md)
+      + [Doel van rapport](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+      + [Rapportopties](/help/export/data-warehouse/create-request/dw-request-report-options.md)
+      + [Planningsopties](/help/export/data-warehouse/create-request/dw-request-scheduling.md)
+      + [Bericht](/help/export/data-warehouse/create-request/dw-request-email.md)
    + [Leveringstijd aanvraag](data-warehouse/delivery-time.md)
    + [Tableau-gegevensbestand](data-warehouse/t-tableau.md)
    + [Sorteren op metrisch](data-warehouse/sorting-by-metric.md)
-   + [Een terugkerend verzoek plannen](data-warehouse/dw-schedule-recurring.md)
    + [Verzoeken in Data Warehouse beheren](data-warehouse/data-warehouse-requests-manage.md)
    + [Ondersteunde componenten in Data Warehouse](data-warehouse/component-support.md)
    + [Veelgestelde vragen over Data Warehouse](data-warehouse/faq.md)
