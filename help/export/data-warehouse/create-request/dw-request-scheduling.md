@@ -2,16 +2,22 @@
 description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse tot stand te brengen.
 title: Vorm een rapportbestemming voor een verzoek van de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 393355cd971f264da3e3e1b8736f5752fc4bdc62
+source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '527'
 ht-degree: 1%
 
 ---
 
 # Configureer de planningsopties voor een Data Warehouse-verzoek
 
-{{release-limited-testing}}
+>[!AVAILABILITY]
+>
+>Sommige functies voor Data Warehouse die in dit artikel worden beschreven (en andere artikelen voor Data Warehouse in deze sectie) zijn alleen beschikbaar in de beperkte testfase van de release en zijn mogelijk nog niet beschikbaar in uw omgeving.
+>
+>Voor informatie over welke functies nog niet voor alle klanten beschikbaar zijn, en voor informatie over de releasetijdlijn van deze functies, raadpleegt u de [releaseopmerkingen](/help/release-notes/latest.md).
+>
+>Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
 
 Er zijn diverse configuratieopties beschikbaar wanneer het creëren van een verzoek van de Data Warehouse. De volgende informatie beschrijft hoe te om het plannen opties voor het verzoek te vormen.
 

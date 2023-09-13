@@ -2,16 +2,22 @@
 description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse tot stand te brengen.
 title: Configureer rapportopties voor een Data Warehouse-verzoek
 feature: Data Warehouse
-source-git-commit: 42c95198a4d4389308c78c312b5bb37572350cc1
+source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
 
 # Configureer rapportopties voor een Data Warehouse-verzoek
 
-{{release-limited-testing}}
+>[!AVAILABILITY]
+>
+>Sommige functies voor Data Warehouse die in dit artikel worden beschreven (en andere artikelen voor Data Warehouse in deze sectie) zijn alleen beschikbaar in de beperkte testfase van de release en zijn mogelijk nog niet beschikbaar in uw omgeving.
+>
+>Voor informatie over welke functies nog niet voor alle klanten beschikbaar zijn, en voor informatie over de releasetijdlijn van deze functies, raadpleegt u de [releaseopmerkingen](/help/release-notes/latest.md).
+>
+>Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het evaluatieproces Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).
 
 Er zijn diverse configuratieopties beschikbaar wanneer het creëren van een verzoek van de Data Warehouse. De volgende informatie beschrijft hoe te om rapportopties voor het verzoek te vormen.
 
