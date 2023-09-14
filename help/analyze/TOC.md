@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handleiding Analytics-tools
 breadcrumb-title: Handleiding Tools
 user-guide-description: Leer hoe u Analytics-tools kunt gebruiken zoals Analysis Workspace, Analytics Dashboards, Report Builder en Activity Map.
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 77%
+source-wordcount: '1105'
+ht-degree: 78%
 
 ---
 
@@ -117,10 +117,7 @@ ht-degree: 77%
       + [Deelvenster Vrije vorm](analysis-workspace/c-panels/freeform-panel.md)
       + [Deelvenster Gemiddelde media - geluid](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Deelvenster voor gelijktijdige mediaviewers](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + Tijd van afspelen van media besteed {#media-playback-timespent}
-         + [Overzicht](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [Invoer- en uitvoerinstellingen](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [Veelgestelde vragen](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [Media afspelen tijd besteed, deelvenster](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Volgend of vorig deelvenster met items](analysis-workspace/c-panels/next-previous.md)
       + [Het deelvenster Paginaoverzicht](analysis-workspace/c-panels/page-summary.md)
       + [Deelvenster Snelle inzichten](analysis-workspace/c-panels/quickinsight.md)

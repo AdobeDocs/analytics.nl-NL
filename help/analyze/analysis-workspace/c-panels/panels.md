@@ -4,7 +4,7 @@ title: Overzicht van deelvensters
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
+source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 1%
@@ -23,12 +23,12 @@ De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace:
 | --- | --- |
 | [Leeg deelvenster](blank-panel.md) | Kies uit de beschikbare deelvensters en visualisaties om uw analyse te starten. |
 | [Deelvenster Snelle inzichten](quickinsight.md) | Snel een vrije-vormlijst en een bijbehorende visualisatie bouwen om inzichten sneller te analyseren en te ontdekken. |
-| [Analyses voor venster Doel](a4t-panel.md) | De activiteiten en ervaringen van Target in Analysis Workspace analyseren. |
+| [Analyses voor venster Doel](a4t-panel.md) | Doelactiviteiten en ervaringen in Analysis Workspace analyseren. |
 | [Deelvenster voor attributie](attribution.md) | Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch. |
 | [Deelvenster Vrije vorm](freeform-panel.md) | Voer onbeperkte vergelijkingen en onderverdelingen uit, dan voeg visualisaties toe om een rijk gegevensverhaal te vertellen. |
 | [Deelvenster Gemiddelde media - geluid](average-minute-audience-panel.md) | Analyseer het gemiddelde aantal minuten in de loop der tijd, met details over piekweergaven en de mogelijkheid om af te breken en te vergelijken. |
 | [Deelvenster voor gelijktijdige mediaviewers](media-concurrent-viewers.md) | Analyseer gelijktijdige viewers in de loop van de tijd met details over de piekconsistentie en de mogelijkheid om af te breken en te vergelijken. |
-| [Deelvenster Tijdlijn media afspelen](media-playback-timespent/media-playback-time-spent.md) | Analyseer gelijktijdige viewers in de loop van de tijd met details over de piekconsistentie en de mogelijkheid om af te breken en te vergelijken. |
+| [Deelvenster Tijdlijn media afspelen](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyseer gelijktijdige viewers in de loop van de tijd met details over de piekconsistentie en de mogelijkheid om af te breken en te vergelijken. |
 | [Deelvenster Segmentvergelijking](c-segment-comparison/segment-comparison.md) | Vergelijk snel twee segmenten in alle gegevenspunten om automatisch relevante verschillen te vinden. |
 
 ![](assets/panel-overview.png)
@@ -39,9 +39,9 @@ Het standaardbeginvenster is het [!UICONTROL Freeform] , maar u kunt het [leeg d
 
 ## Rapportsuite {#report-suite}
 
-Tabellen en visualisaties in een deelvenster leiden gegevens af van de [!UICONTROL report suite] in de rechterbovenhoek van het deelvenster geselecteerd. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project kunt u een of [veel rapportensuites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) afhankelijk van uw analyse gebruik gevallen. Om één enkele rapportreeks op alle panelen in een project toe te passen, **Klik met de rechtermuisknop op de koptekst van het deelvenster > Rapportsuite toepassen op alle deelvensters**.
+Tabellen en visualisaties in een deelvenster leiden gegevens af van de [!UICONTROL report suite] in de rechterbovenhoek van het deelvenster geselecteerd. Het rapportpakket bepaalt ook welke componenten in de linkerspoorstaaf beschikbaar zijn. Binnen een project kunt u een of [veel rapportensuites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) afhankelijk van uw analyse gebruik gevallen. Eén rapportsuite toepassen op alle deelvensters in een project **Klik met de rechtermuisknop op de koptekst van het deelvenster > Rapportsuite toepassen op alle deelvensters**.
 
-De lijst van rapportreeksen wordt gesorteerd op relevantie, die Adobe bepaalt gebaseerd op hoe onlangs en vaak de reeks door de huidige gebruiker is gebruikt, en hoe vaak de reeks binnen de organisatie wordt gebruikt.
+De lijst van rapportsuites wordt gesorteerd op relevantie, die Adobe bepaalt gebaseerd op hoe onlangs en vaak de reeks door de huidige gebruiker is gebruikt, en hoe vaak de reeks binnen de organisatie wordt gebruikt.
 
 ![](assets/panel-report-suite.png)
 
@@ -78,7 +78,7 @@ Zie voor meer informatie [Snelle segmenten](/help/analyze/analysis-workspace/com
 
 Met vervolgkeuzefilters kunt u op een gecontroleerde manier met de gegevens werken. U kunt bijvoorbeeld een vervolgkeuzefilter toevoegen voor mobiele apparaattypen, zodat u het deelvenster kunt segmenteren op tablet, mobiele telefoon of bureaublad.
 
-U kunt vervolgkeuzefilters gebruiken om een groot aantal projecten ook in één project te consolideren. Bijvoorbeeld, als u vele versies van het zelfde project met verschillende toegepaste segmenten van het Land hebt, kunt u alle versies in één enkel project consolideren en een drop-down filter van het Land toevoegen.
+Vervolgkeuzefilters kunnen worden gebruikt om ook vele projecten in één te consolideren. Bijvoorbeeld, als u vele versies van het zelfde project met verschillende toegepaste segmenten van het Land hebt, kunt u alle versies in één enkel project consolideren en een drop-down filter van het Land toevoegen.
 
 ![](assets/dropdown-filter-intro.png)
 
@@ -94,7 +94,7 @@ Selecteer een van de opties in de vervolgkeuzelijst om de gegevens in het deelve
 
 Als u met de rechtermuisknop op een vervolgkeuzefilter klikt, kunt u uit de volgende opties kiezen:
 
-* **[!UICONTROL Add label]**: Wanneer u een drop-down filter aan een project toevoegt, wordt een etiket automatisch geplaatst aan de componentennaam. Als u het label verwijdert, kunt u het opnieuw toevoegen met deze optie.
+* **[!UICONTROL Add label]**: Wanneer u een vervolgkeuzefilter toevoegt aan een project, wordt automatisch een label ingesteld op de naam van de component. Als u het label verwijdert, kunt u het opnieuw toevoegen met deze optie.
 * **[!UICONTROL Delete label]**: Verwijder de tekst boven een vervolgkeuzefilter.
 * **[!UICONTROL Delete drop-down filter]**: Hiermee verwijdert u het vervolgkeuzefilter uit het deelvenster.
 
@@ -102,9 +102,9 @@ Als u met de rechtermuisknop op een vervolgkeuzefilter klikt, kunt u uit de volg
 
 ### Dynamische vervolgkeuzefilters
 
-Met dynamische vervolgkeuzefilters kunt u beschikbare waarden bepalen op basis van gegevens binnen het rapportagebereik van het deelvenster en waarden in andere vervolgkeuzefilters. U kunt bijvoorbeeld twee dynamische vervolgkeuzelijsten maken met de opdracht [Landen](/help/components/dimensions/countries.md) dimensie en [Plaatsen](/help/components/dimensions/cities.md) dimensie. Wanneer u een land in het menu [!UICONTROL Countries] vervolgkeuzelijst, de [!UICONTROL Cities] De vervolgkeuzelijst wordt dynamisch aangepast om alleen de steden in dat land weer te geven.
+Met dynamische vervolgkeuzefilters kunt u beschikbare waarden bepalen op basis van gegevens binnen het rapportagebereik van het deelvenster en waarden in andere vervolgkeuzefilters. U kunt bijvoorbeeld twee dynamische vervolgkeuzelijsten maken met de opdracht [Landen](/help/components/dimensions/countries.md) dimensie en [Plaatsen](/help/components/dimensions/cities.md) dimensie. Wanneer u een land selecteert in het menu [!UICONTROL Countries] vervolgkeuzelijst, de [!UICONTROL Cities] De vervolgkeuzelijst wordt dynamisch aangepast om alleen de steden in dat land weer te geven.
 
-Dit concept geldt voor alle dimensies; alleen dimensie-items die binnen het datumbereik van het deelvenster verschijnen en geselecteerde filters zijn zichtbaar. Dimension-items die in statische vervolgkeuzefilters zijn geselecteerd, zijn van invloed op de beschikbare waarden in dynamische vervolgkeuzefilters. Het omgekeerde is echter niet waar; Dimension-items die zijn geselecteerd in dynamische vervolgkeuzefilters hebben geen invloed op de beschikbare waarden in statische vervolgkeuzefilters.
+Dit concept is van toepassing op alle dimensies. Alleen dimensie-items die binnen het datumbereik van het deelvenster verschijnen en geselecteerde filters zijn zichtbaar. Items die in statische vervolgkeuzefilters zijn geselecteerd, beïnvloeden de beschikbare waarden in dynamische vervolgkeuzefilters. Het omgekeerde is echter niet waar. Dimension-items die zijn geselecteerd in dynamische vervolgkeuzefilters hebben geen invloed op de beschikbare waarden in statische vervolgkeuzefilters.
 
 Handmatige selectie van dimensie-items is beschikbaar als u verwacht dat een bepaald dimensie-item in de toekomst wordt verzameld. U kunt ook een dynamisch vervolgkeuzefilter wissen, zodat het geen waarde bevat, zodat andere dynamische vervolgkeuzefilters meer waarden kunnen bevatten. Selecteren **[!UICONTROL Reset all]** om de selectie uit alle vervolgkeuzefilters voor dat deelvenster te verwijderen.
 

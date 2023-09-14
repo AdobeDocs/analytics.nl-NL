@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ebec057aea182a7c036c105c44d163155809bfd9
+source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
 workflow-type: tm+mt
-source-wordcount: '5020'
+source-wordcount: '5067'
 ht-degree: 25%
 
 ---
@@ -26,12 +26,13 @@ Content-updates van de Adobe Analytics-documentatieset sinds januari 2019.
 | Functie | Beschrijving |
 | --- | --- |
 | **September 2023** | |
+| Bijgewerkte structuur van artikelen voor het deelvenster Afspeeltijd van media | De map met de naam Media Playback Time Spent is verwijderd en de inhoud van de map is in één artikel gecombineerd: [Media afspelen tijd besteed, deelvenster](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Deze wijziging komt meer overeen met de documentatie voor andere deelvensters.</p> |
 | Aan de slag met inhoudverbeteringen | Toegevoegde informatie waarin belangrijke aan de slag zijnde taken en bronnen voor beheerders, analisten, eindgebruikers en ontwikkelaars worden beschreven. De volgende nieuwe artikelen zijn nu beschikbaar: <ul><li>[Aan de slag (op rol)](/help/analyze/get-started/get-started-by-role.md)</li><li>[De interface Analytics begrijpen](/help/analyze/get-started/analytics-interface.md)<li>[Gebruik hoofdletters](/help/analyze/get-started/use-cases.md)</li></ul> |
 | Verbeteringen in de documentatie van de rapportage van mediafanalen | Enkele inhoud in het gedeelte Rapportage van de gids voor streamingmedia is opnieuw ingedeeld, waaronder het consolideren van de API-documentatie in een eigen sectie en het aanpassen van de volgorde van sommige artikelen. <p>De naam van het artikel Sjablonen voor werkruimten van media is gewijzigd in [Mediarapporten in Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html) om beter uit te lijnen met het in-product noemen. </p> |
 | **augustus 2023** | |
 | Verduidelijking van gegevensinvoer | Bijgewerkt [de definitie van begin- en einddatum](/help/export/analytics-data-feed/create-feed.md) om te verduidelijken dat wanneer het verwerken van gegevensvoer voor historische gegevens, u de begindatum kunt plaatsen aan om het even welke datum in het verleden wanneer de gegevens worden verzameld. |
 | Ervaar de verwerking van Edge-gegevens | Inhoud toevoegen hoe Adobe Analytics [verwerkt gegevens van Experience Edge](../implement/aep-edge/overview.md). |
-| Media afspelen tijd besteed, deelvenster | Bijgewerkte inhoud voor  [Media afspelen tijd besteed, deelvenster](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) de leesbaarheid verbeteren. |
+| Media afspelen tijd besteed, deelvenster | Bijgewerkte inhoud voor  [Media afspelen tijd besteed, deelvenster](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) de leesbaarheid verbeteren. |
 | Verplaatste inhoud over het beheren van geplande projecten | Er is een nieuw artikel gemaakt in de handleiding Analytics Components (Analytische componenten), genaamd [Geplande projecten](/help/components/scheduled-projects-manager.md). Deze inhoud bevindt zich eerder in het dialoogvenster [Projecten plannen](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) artikel in de handleiding Analytics Tools. |
 | Implementatiemethoden vergelijken | Bijgewerkte documentatie waarin verschillende implementatiemethoden worden vergeleken. [Meer informatie](../implement/prepare/comparison.md) |
 | Verduidelijkt dat het vormen van SFTP voor de Diervoeders van Gegevens geen Adobe Klantenzorg vereist | Verduidelijkt in [Gegevens van Adobe verzenden naar een externe FTP-account met SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) dat klanten geen Adobe Klantenservice hoeven aan te gaan om SFTP voor gegevensfeeds te configureren. <p>Er is ook een opmerking toegevoegd dat SFTP niet langer wordt aanbevolen en dat klanten een cloudbestemming moeten gebruiken bij het configureren van gegevensfeeds.</p> |
