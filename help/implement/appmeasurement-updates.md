@@ -3,9 +3,9 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
+source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2410'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,13 @@ Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 U kunt de nieuwste versie van het AppMeasurement downloaden van [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Versie 2.25.0
+
+Releasedatum: **12 september 2023**
+
+* Een optionele configuratie toegevoegd (`bufferRequests`) om de betrouwbaarheid te verbeteren van het vastleggen van aanvragen in scenario&#39;s waarin een browser de API van het baken niet correct ondersteunt of aanvragen kan annuleren wanneer een pagina wordt verwijderd.
+* Toegevoegde waarborgen om veelvoudige post-spoorcallbacks voor één enkel volgend verzoek te verhinderen.
 
 ## Versie 2.24.0
 
@@ -30,7 +37,7 @@ Releasedatum: **18 juli 2023**
 
 Releasedatum: **23 september 2022**
 
-* AppMeasurement ondersteunt nu de verzameling van clienttips voor gebruikers/agents met hoge entropie die Chromium browsers (Google Chrome en Microsoft Edge) gebruiken om apparaatinformatie te verschaffen. U kunt cliëntwenken via Markeringen vormen of de &quot;collectHighEntropyUserAgentHints&quot;vlag gebruiken. Verzameling van hips met hoge entropie is standaard uitgeschakeld. Meer informatie over gebruikersagent [clienttips](/help/technotes/client-hints.md).
+* AppMeasurement ondersteunt nu de verzameling van clienttips voor gebruikers/agents met hoge entropie die Chromium browsers (Google Chrome en Microsoft Edge) gebruiken om apparaatinformatie te verschaffen. U kunt cliëntwenken via Markeringen vormen of de &quot;collectHighEntropyUserAgentHints&quot;vlag gebruiken. Verzameling van hips met hoge entropie is standaard uitgeschakeld. Meer informatie over gebruikersagent [clienthints](/help/technotes/client-hints.md).
 
 ## Versie 2.2.4
 
@@ -60,7 +67,7 @@ Releasedatum: **17 augustus 2021**
 
 Releasedatum: **4 augustus 2020**
 
-* Oplossing voor ontbrekende referentie wanneer de eerste melding niet is verzonden vanwege de gebruikersvoorkeuren.
+* Oplossing voor ontbrekende referentie wanneer de eerste melding niet is verzonden vanwege de gebruikersvoorkeuren voor weigeren.
 
 ## Versie 2.21.0
 
@@ -84,7 +91,7 @@ Releasedatum: **21 februari 2020**
 
 Releasedatum: **13 februari 2020**
 
-* AppMeasurement kan cookies nu dwingen het kenmerk Secure op te nemen door het instellen van de [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variabele. De vereiste voor deze variabele is dat de gehele clientwebsite veilig wordt aangeboden (HTTPS). (AN-204604)
+* AppMeasurement kan cookies nu dwingen het kenmerk Secure op te nemen door de instelling van de [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variabele. De vereiste voor deze variabele is dat de gehele clientwebsite veilig wordt aangeboden (HTTPS). (AN-204604)
 
 ## Versie 2.17.0
 
@@ -121,7 +128,7 @@ Releasedatum: **21 mei 2019**
 
 Releasedatum: **10 april 2019**
 
-* Oplossing voor veel gemelde problemen met clearVars. Het probleem doet zich voor wanneer hits worden verzonden voordat de tracker gereed is. Wanneer de tracker gereed is, kan de bibliotheek variabelen instellen die al zijn gewist of gewijzigd. (AN-176931, AN-176629, DTM-12758).
+* Oplossing voor veel gemelde problemen met clearVars. Het probleem doet zich voor wanneer hits worden verzonden voordat de tracker gereed is. Wanneer de tracker gereed is, kan de bibliotheek variabelen instellen die al zijn gewist of gewijzigd. (AN-176931, AN-176629, DTM-12758)
 
 ## Versie 2.12.0
 
@@ -156,7 +163,7 @@ Releasedatum: **24 mei 2018**
 
 >[!NOTE]
 >
->Bezoeker-API 3.0 of hoger is vereist voor klanten die de [!DNL Experience Cloud] ID-service. Adobe raadt aan een upgrade uit te voeren naar de nieuwste versie van de Visitor API wanneer gekoppelde codebibliotheken worden bijgewerkt ( [!DNL at.js], [!DNL AppMeasurement.js], enzovoort.)
+>Voor klanten die de [!DNL Experience Cloud] ID-service. Adobe raadt aan een upgrade uit te voeren naar de nieuwste versie van de Visitor API wanneer gekoppelde codebibliotheken worden bijgewerkt ( [!DNL at.js], [!DNL AppMeasurement.js], enzovoort.)
 
 * Bijgewerkt [!DNL AppMeasurement] om de bijgewerkte interface van de Bezoeker te gebruiken voor het aanvragen van id&#39;s. (AN-151483)
 * Probleem verholpen waarbij de functie voor het bijhouden van koppelingen steeds wordt weggeschreven nadat het bijhouden van koppelingen is uitgeschakeld. (AN-156332)
@@ -261,7 +268,7 @@ Bijgewerkt: **11 november 2016**
 * Bijwerken [!DNL Audience Manager] met Demdex Integration Library (DIL) 6.6. (AN-132065)
 * Opname van de Bezoeker-API 1.9.0. (AN-132072)
 * Bijwerken [!DNL AppMeasurement] [!DNL Audience Manager] Module met DIL 6.5 en Aanvullende Configuraties (AN-129411)
-* Opname van de Bezoeker-API 1.8.0 (AN-129887)
+* Opname van Bezoeker API 1.8.0 (AN-129887)
 
 ## Versie 1.6.4
 
@@ -272,7 +279,7 @@ Bijgewerkt: **18 augustus 2016**
 
 >[!NOTE]
 >
->Zie ook de volgende releaseopmerkingen voor [!DNL JavaScript] versie 1.6.3, die bijgewerkte vereisten voor Experience Cloud ID-service bevat.
+>Zie ook de volgende releaseopmerkingen voor [!DNL JavaScript] versie 1.6.3, die bijgewerkte vereisten voor de dienst van identiteitskaart van het Experience Cloud omvat.
 
 ## Versie 1.6.3
 
@@ -282,7 +289,7 @@ Bijgewerkt: **4 augustus 2016**
 
 >[!IMPORTANT]
 >
->Versie 1.6.0 van het [!DNL Experience Cloud] ID-service *vereist* [!DNL AppMeasurement] for [!DNL JavaScript] versie 1.6.3 of hoger. Als u aan versie 1.6.0 van de dienst van identiteitskaart van de Experience Cloud wilt bevorderen, zorg ervoor dat u AppMeasurement 1.6.3 of hoger gebruikt.
+>Versie 1.6.0 van het [!DNL Experience Cloud] ID-service *vereist* [!DNL AppMeasurement] for [!DNL JavaScript] versie 1.6.3 of hoger. Als u aan versie 1.6.0 van de dienst van identiteitskaart van het Experience Cloud wilt bevorderen, zorg ervoor dat u AppMeasurement 1.6.3 of hoger gebruikt.
 
 ## Versie 1.6.2
 
@@ -290,7 +297,7 @@ Releasedatum: **21 juli 2016**
 
 * Opname van de Bezoeker-API 1.6.0.
 * Probleem verholpen dat [!DNL AppMeasurement] de onjuiste, verduisterde methode in de Bezoeker-API aanroepen. (AN-126006)
-* Het probleem dat de oorzaak was van de [!DNL JavaScript] fout: &quot;Kenmerk alleen geldig op v:image&quot;. (AN-124009)
+* Probleem verholpen waardoor de [!DNL JavaScript] fout: &quot;Kenmerk alleen geldig op v:image&quot;. (AN-124009)
 
 ## Versie 1.6.1
 
@@ -304,7 +311,7 @@ Releasedatum: **16 juni 2016**
 Releasedatum: **21 april 2016**
 
 * De [!DNL AppMeasurement] De module Activity Map is geïntegreerd in het [!DNL AppMeasurement] standaardmodule, zodat u slechts naar één moet verwijzen [!DNL .js] bestand. Bovendien wordt het bijhouden van Activity Mappen standaard geactiveerd. (AN-112689)
-* Probleem met afkapping opgelost die optreedt met de volgorde van queryreeksvariabelen in [!DNL AppMeasurement], zodat *`pageURLRest`* is laatste. (AN-114647)
+* Probleem met afkapping opgelost die optreedt met de volgorde van query-tekenreeksvariabelen in [!DNL AppMeasurement], zodat *`pageURLRest`* is de laatste. (AN-114647)
 
 ## Versie 1.5.4
 
@@ -401,7 +408,7 @@ Releasedatum: **18 september 2014**
 
   >[!IMPORTANT]
   >
-  >Voor een [!DNL Analytics] aanroep om de methode POST te gebruiken in plaats van de methode GET in [!DNL AppMeasurement] (een oplosmethode [afgekapte URL&#39;s in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor de Experience Cloud gebruiken.
+  >Voor een [!DNL Analytics] aanroep om de methode POST te gebruiken in plaats van de methode GET in [!DNL AppMeasurement] (een oplosmethode [afgekapte URL&#39;s in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), moet u de recentste implementatie van de Dienst van identiteitskaart van de Bezoeker voor het Experience Cloud gebruiken.
 
 ## Versie 1.4
 
@@ -432,7 +439,7 @@ Releasedatum: **22 mei 2014**
 
 Releasedatum: **17 april 2014**
 
-* Steun voor de [Experience Cloud Bezoeker-id-service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* Steun voor de [Experience Cloud Visitor ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Versie 1.2.4
 
@@ -474,14 +481,14 @@ Releasedatum: **14 november 2013**
 
 Releasedatum: **18 september 2013**
 
-* Vaste ondersteuning voor het plaatsen van de bibliotheek- en paginacode in de `head` tag.
+* Vaste ondersteuning voor het plaatsen van de bibliotheek- en paginacode in de `head` -tag.
 * Ontbrekende module toegevoegd `onLoad` ondersteuning.
 
 ## Versie 1.0.3
 
 Releasedatum: **15 augustus 2013**
 
-* Extra ondersteuning voor implementatie via tagbeheer van Adobe.
+* Toegevoegde ondersteuning voor implementatie via tagbeheer voor Adoben.
 * Probleem verholpen waardoor hiërarchievariabelen niet konden worden ingesteld op het tabblad [!DNL AppMeasurement] object.
 
 ## Versie 1.0.2
@@ -494,7 +501,7 @@ Releasedatum: **18 juli 2013**
   <a href="index.htm#anchor.pdf">Test Link</a>
   ```
 
-  De hash/het fragment wordt nu genegeerd, zodat de koppeling alleen wordt bijgehouden wanneer de bestandsnaam eindigt in een extensie die overeenkomt met de bestandsnaam.
+  De hash/het fragment wordt nu genegeerd, zodat de koppeling alleen wordt bijgehouden wanneer de bestandsnaam eindigt in een extensie die overeenkomt.
 
 ## Versie 1.0.1
 
@@ -503,6 +510,6 @@ Releasedatum: **23 mei 2013**
 Een nieuwe [!DNL JavaScript] [!DNL AppMeasurement] bibliotheek is nu beschikbaar in Codebeheer. Deze bibliotheek biedt dezelfde basisfunctionaliteit als [!DNL s_code.js], maar is lichter en sneller voor gebruik op zowel mobiele als desktopsites.
 
 * 3-7 keer sneller dan de H.25-code.
-* Slechts 21k ongecomprimeerd en 8k gzipped (de code van H.25 is 33k ongecomprimeerd en 13k gzipped).
+* Slechts 21k ongecomprimeerd en 8k gzipped (H.25 code is 33k ongecomprimeerd en 13k gzipped).
 * Native ondersteuning voor het ophalen van queryparameters, het lezen en schrijven van cookies en het uitvoeren van geavanceerde koppelingstracering.
 * Klein en snel genoeg voor gebruik met mobiele sites en robuust genoeg voor gebruik op het volledige desktopweb, zodat u in alle webomgevingen gebruik kunt maken van één bibliotheek.
