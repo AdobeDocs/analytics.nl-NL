@@ -78,7 +78,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -90,7 +90,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -106,7 +106,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -120,7 +120,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++E-mail
 
@@ -147,7 +147,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -160,7 +160,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -173,7 +173,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -187,7 +187,7 @@ Om de bestemming te vormen waar de rapporten van de Data Warehouse worden verzon
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
    1. Selecteren [!UICONTROL **Opslaan**].
 
