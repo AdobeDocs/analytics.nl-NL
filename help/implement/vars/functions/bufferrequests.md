@@ -2,7 +2,7 @@
 title: bufferRequests
 description: Verbeter de betrouwbaarheid van het vastleggen van aanvragen voor het bijhouden van koppelingen voor browsers die de pagina direct verwijderen.
 feature: Variables
-source-git-commit: d97e559e203182368bcbb62f51ef2c3e3bd025d3
+source-git-commit: 58a82151a8cbc80318e4f4ab4186fcabef3f35ab
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -53,5 +53,3 @@ s.tl(true,"o","Example link click");
 // On a subsequent page, the tracking call sends both the above link tracking call and the page view call
 s.t();
 ```
-
-<!-- TODO: insert a link to this page in AppMeasurement release notes, and also add content to Analytics release notes -->
