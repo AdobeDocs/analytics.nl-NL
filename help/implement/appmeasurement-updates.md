@@ -3,9 +3,9 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
+source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2395'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,14 @@ U kunt de nieuwste versie van het AppMeasurement downloaden van [GitHub](https:/
 
 Releasedatum: **12 september 2023**
 
-* Een optionele configuratie toegevoegd (`bufferRequests`) om de betrouwbaarheid te verbeteren van het vastleggen van aanvragen in scenario&#39;s waarin een browser de API van het baken niet correct ondersteunt of aanvragen kan annuleren wanneer een pagina wordt verwijderd.
+* De optionele methode toegevoegd [`bufferRequests()`](vars/functions/bufferrequests.md) om de betrouwbaarheid te verbeteren van het vangen van verzoeken wanneer browser niet de Beacon API steunt of verzoeken annuleert wanneer een pagina leegt.
 * Toegevoegde waarborgen om veelvoudige post-spoorcallbacks voor één enkel volgend verzoek te verhinderen.
 
 ## Versie 2.24.0
 
 Releasedatum: **18 juli 2023**
 
-* Een optionele configuratie toegevoegd (`decodeLinkParameters` - default = false) die koppelings-URL&#39;s met double-byte gecodeerde tekens decodeert.
+* De optionele configuratievariabele toegevoegd [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) om koppeling-URL&#39;s met double-byte gecodeerde tekens te decoderen.
 * Extra foutafhandeling toegevoegd voor browsers met onjuiste API&#39;s voor client-tips voor gebruikers-agent met hoge entropie.
 * Gewijzigde POST Content-Type header voor gebruik `x-www-form-urlencoded` standaard.
 
@@ -37,25 +37,25 @@ Releasedatum: **18 juli 2023**
 
 Releasedatum: **23 september 2022**
 
-* AppMeasurement ondersteunt nu de verzameling van clienttips voor gebruikers/agents met hoge entropie die Chromium browsers (Google Chrome en Microsoft Edge) gebruiken om apparaatinformatie te verschaffen. U kunt cliëntwenken via Markeringen vormen of de &quot;collectHighEntropyUserAgentHints&quot;vlag gebruiken. Verzameling van hips met hoge entropie is standaard uitgeschakeld. Meer informatie over gebruikersagent [clienthints](/help/technotes/client-hints.md).
+* AppMeasurement ondersteunt nu de verzameling van clienttips voor gebruikers/agents met hoge entropie die Chromium browsers (Google Chrome en Microsoft Edge) gebruiken om apparaatinformatie te verschaffen. U kunt cliëntwenken via Markeringen vormen of gebruiken [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) configuratievariabele. Verzameling van hints met hoge entropie is standaard uitgeschakeld. Meer informatie over gebruikersagent [clienthints](/help/technotes/client-hints.md).
 
 ## Versie 2.2.4
 
 Releasedatum: **18 januari 2022**
 
-* De vraag van het verbinden volgen `s.tl()` controleert nu of het object dat eraan wordt doorgegeven, een `href` kenmerk van type `string`. Als het geen `string`, dan zal het de `href` in plaats van mislukt. Dit kan voorkomen wanneer u `svg` objecten naar de aanroep voor het bijhouden van koppelingen.
+* De vraag van het verbinden volgen `s.tl()` controleert nu of het object dat eraan wordt doorgegeven, een `href` kenmerk van type `string`. Als het geen `string`en dan negeert het op elegante wijze de `href` in plaats van mislukt. Dit scenario kan zich voordoen wanneer u `svg` objecten naar de aanroep voor het bijhouden van koppelingen.
 
 ## Versie 2.2.2.3
 
 Releasedatum: **11 oktober 2021**
 
-* Bijgewerkte dossiers die de documentatie van de Hulp van verwijzingen voorzien om aan de huidige plaatsen van de Hulp te richten.
+* Bijgewerkte koppelingen in bestanden die verwijzen naar documentatie.
 
 ## Versie 2.2.2
 
 Releasedatum: **7 september 2021**
 
-* Deze update veroorzaakt `opt.dmp` en `opt.sell` om altijd te worden opgenomen bij het bijhouden van koppelingen. Hier is een [volledige lijst van toestemmingsvariabelen](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
+* Deze update veroorzaakt `opt.dmp` en `opt.sell` om altijd te worden opgenomen bij het bijhouden van koppelingen. Zie de [Privacy-rapportage](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) in de gebruikershandleiding voor Admin voor meer informatie.
 
 ## Versie 2.22.1
 
