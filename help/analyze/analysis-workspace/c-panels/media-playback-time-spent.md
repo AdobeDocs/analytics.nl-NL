@@ -4,7 +4,7 @@ description: Het deelvenster Media Playback Time Spent in Analysis Workspace geb
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 23f34a5588abc125427346ead3f49a25d178aa7f
+source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -76,7 +76,7 @@ De enige metrische waarde die in dit deelvenster kan worden gebruikt, is Afspeel
 |---|---|
 | Afspeeltijd besteed | Totaal aantal uren:minutes:seconden (of minuten) van de inhoud die tijdens de geselecteerde granulariteit wordt weergegeven, inclusief pauze, buffer en begintijd. |
 
-### Veelgestelde vragen
+## Veelgestelde vragen
 
 | Vraag | Antwoord |
 |---|---|
