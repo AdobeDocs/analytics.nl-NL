@@ -4,7 +4,7 @@ description: Het deelvenster Media Playback Time Spent in Analysis Workspace geb
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
+source-git-commit: 95f28d537e6e7538133ebd04d185ebcfd28a13d4
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -32,13 +32,10 @@ Hieronder volgt een video-overzicht van dit deelvenster:
 ## Het deelvenster Afspeeltijd van media gebruiken
 
 1. Ga naar een rapportsuite met ingeschakelde componenten Media Analytics.
-
 1. Selecteer het deelvensterpictogram helemaal links en sleep het deelvenster naar uw Analysis Workspace-project.
-
 1. Ga verder met de volgende secties om het deelvenster Afspeeltijd van media aan te passen
 
    * [Deelvensterinvoer](#panel-inputs)
-
    * [Deelvensteruitvoer](#panel-output)
 
 ## Deelvensterinvoer {#Input}
