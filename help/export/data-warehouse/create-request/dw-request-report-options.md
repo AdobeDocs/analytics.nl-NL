@@ -2,9 +2,9 @@
 description: Stappen die beschrijven hoe te om een verzoek van de Data Warehouse tot stand te brengen.
 title: Configureer rapportopties voor een Data Warehouse-verzoek
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Om rapportopties voor een verzoek van de Data Warehouse te vormen:
 
    | Optie | -functie |
    |---------|----------|
-   | [!UICONTROL **Bestandsnaam**] | Identificeert het rapport. |
+   | [!UICONTROL **Bestandsnaam**] | Identificeert het rapport. <p>Als een van de volgende speciale tekens in de bestandsnaam wordt gebruikt, kan de aanvraag niet worden opgeslagen: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` {  } \| ~</code> </p><p>Het teken % mag alleen worden gebruikt als het wordt gevolgd door &quot;R&quot;, &quot;rsid&quot; of &quot;id&quot;, als volgt: <code>%R</code>, <code>%rsid</code>, en <code>%id</code>.</p> |
    | [!UICONTROL **Datumbereik van rapport toevoegen aan bestandsnaam**] | Hiermee voegt u het datumbereik toe aan de naam van het rapportbestand. <p>Als u bijvoorbeeld gegevens aanvraagt van 1 mei 2024 tot en met 7 mei 2024, bevat de bestandsnaam het datumbereik 20240501 - 20240507.</p> |
    | [!UICONTROL **CSV**] | Levert rapporten in een CSV-bestandsindeling voor het weergeven van gegevens in een spreadsheet. |
    | [!UICONTROL **Tableau (TDE)**] | Levert rapporten in een het dossierformaat van de Uitvoer van Gegevens van Tableau (TDE), dat kan worden gebruikt om gegevens en laag in extra gegevens binnen Tableau te visualiseren. |
