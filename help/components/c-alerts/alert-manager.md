@@ -3,9 +3,9 @@ description: Waarschuwingen beheren.
 title: Overzicht van Waarschuwingsbeheer
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
+source-git-commit: 69b763bc5740223be54309c0c0b98f40536c4d7e
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,6 @@ De zichtbare kolommen configureren in het Alarmbeheer:
    | Tags | Hier ziet u tags die zijn toegepast op de waarschuwing, door u of door personen die de waarschuwing met u hebben gedeeld. |
    | Gedeeld met | Hiermee geeft u personen of groepen (alleen beheerder) of Alle personen (alleen beheerder) weer waarmee u de waarschuwing hebt gedeeld. |
    | Datum gewijzigd | Geeft de datum aan waarop de waarschuwing voor het laatst is gewijzigd. |
-   | Laatst gebruikt | **Opmerking:** Deze functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het proces van de release van de Customer Journey Analytics raadpleegt u [Release van de Customer Journey Analytics-functie](/help/release-notes/releases.md).<p>Geeft de datum weer waarop de waarschuwing voor het laatst is gebruikt.</p> <p>Deze informatie kan u helpen bepalen of een alarm voor gebruikers in uw organisatie waardevol is, of het zou moeten worden geschrapt.</p><p>Deze informatie omvat geen gebruik van API, Report Builder, of Data Warehouse.</p> |
+   | Laatst gebruikt | **Opmerking:** Deze functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het proces van de release van de Customer Journey Analytics raadpleegt u [Adobe Analytics-functiereleases](/help/release-notes/releases.md).<p>Geeft de datum weer waarop de waarschuwing voor het laatst is gebruikt.</p> <p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd.</p><p>Deze informatie omvat geen gebruik van API, Report Builder, of Data Warehouse.</p> |
 
    {style="table-layout:auto"}
