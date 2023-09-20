@@ -3,9 +3,9 @@ description: Filteren op tags, eigenaars en andere filters (Alles weergeven, Mij
 title: Segmenten filteren
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: dc84909f9c19681adfd28696495b667837056146
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '169'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,7 @@ Door te filteren kunt u gemakkelijker naar segmenten in de segmentrail zoeken.
    |---|---|
    | Tags | Hiermee kunt u filteren op segmenten met specifieke [tags](/help/components/segmentation/segmentation-workflow/seg-tag.md). De kolom Codes wordt standaard weergegeven. |
    | Eigenaars | Hiermee kunt u segmenten filteren op eigenaar. |
+   | Rapportsuite | Hiermee kunt u filteren op rapportsuite. |
    | Overige filters > Alles tonen | **(Alleen beheerder)** Toont alle segmenten, hun eigenaar, en de laatste datum zij werden gewijzigd. |
    | Overige filters > Mine | Toont alle segmenten die u bezit. |
    | Overige filters > Met mij gedeeld | Alle segmenten tonen die anderen [gedeeld](/help/components/segmentation/segmentation-workflow/t-seg-share.md) met u. |

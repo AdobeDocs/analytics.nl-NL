@@ -3,43 +3,77 @@ description: In Segmentbeheer kunt u op verschillende manieren segmenten curven,
 title: Segmenten beheren (Segmentbeheer)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 4%
+source-wordcount: '705'
+ht-degree: 3%
 
 ---
 
-# Segmenten beheren
+# Segmentbeheer
 
 In Segmentbeheer kunt u op verschillende manieren segmenten curven, zoals delen, filteren, labelen, goedkeuren, kopiëren, verwijderen en markeren als favorieten.
 
-De manager van het Segment van Analytics toont u alle segmenten u bezit en die met u zijn gedeeld. Gebruikers op beheerniveau kunnen alle segmenten in de organisatie zien. Dit overzicht bevat de gebruikersinterface en de mogelijkheden van Segmentbeheer. Open Segmentbeheer via
+De manager van het Segment van Analytics toont u alle segmenten u bezit en die met u zijn gedeeld. Gebruikers op beheerniveau kunnen alle segmenten in de organisatie zien. Dit overzicht bevat de gebruikersinterface en de mogelijkheden van Segmentbeheer.
 
-* Ga naar **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]** in de bovenste navigatie.
-* Een bestaand rapport weergeven en op het pictogram Segmenten klikken  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in de linkernavigatie. Klik vervolgens op **[!UICONTROL Manage]**.
+![Segmentbeheer](assets/segments-manager.png)
+
+## Toegang tot Segmentbeheer
+
+1. Selecteer in Adobe Analytics de optie **[!UICONTROL Components]** tab, dan selecteren **[!UICONTROL Segments]**.
+
+   of
+
+   Selecteer in een bestaand rapport het pictogram Segmenten ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in de linkernavigatie selecteert u vervolgens **[!UICONTROL Manage]**.
+
+## Beschikbare handelingen in Segmentbeheer
+
+In Segmentbeheer kunt u:
+
+* [Segmenten filteren](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+
+* [Segmenten markeren als favorieten](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+
+* [Segmenten goedkeuren](/help/components/segmentation/segmentation-workflow/seg-approve.md)
+
+* [Segmenten een label geven](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+
+* [Segmenten delen](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
+
+* Een segment exporteren naar een CSV-bestand.
+
+* [Segmenten kopiëren](/help/components/segmentation/segmentation-workflow/seg-copy.md)
+
+* [Segmenten verwijderen](/help/components/segmentation/segmentation-workflow/seg-delete.md)
+
+## Kolommen configureren
+
+U kunt de informatie vormen die voor elk segment in de Manager van het Segment wordt getoond door de kolommen te vormen die worden getoond.
+
+De zichtbare kolommen configureren in Segmentbeheer:
+
+1. Selecteer in Adobe Analytics de optie **[!UICONTROL Components]** tab, dan selecteren **[!UICONTROL Segments]**.
+
+1. Selecteer in Segmentbeheer de optie **Kolommen aanpassen** pictogram ![Het pictogram Kolommen aanpassen](assets/customize-columns-icon.png)Selecteer vervolgens de kolommen die u wilt weergeven in Segmentbeheer.
+
+   De volgende kolommen zijn beschikbaar:
+
+   | Kolomtitel | Beschrijving |
+   |---|---|
+   | Titel en beschrijving | Deze waarden worden verstrekt in de bouwer van het Segment. Als u de titel en beschrijving wilt bewerken, selecteert u de titelkoppeling om de Segment Builder te openen. |
+   | Favorieten | Hiermee geeft u sterpictogrammen weer naast elk segment, zodat u segmenten kunt markeren als favorieten. Zie voor meer informatie [Segmenten markeren als favorieten](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
+   | Rapportsuites | Deze kolom geeft aan in welke rapportsuite het segment het laatst is opgeslagen. |
+   | Eigenaar | Geeft aan wie eigenaar is van het segment. Als niet-beheerder, kunt u slechts segmenten zien u bezit of die met u werden gedeeld. |
+   | Labels (niet gecontroleerd in kolomkiezer, vandaar dat de kolom niet wordt weergegeven) | Tags die op het segment zijn toegepast, door u of door personen die het segment met u hebben gedeeld. |
+   | Gedeeld met | Hier worden personen of groepen weergegeven (alleen Admin) of Alle personen (alleen Admin) waarmee u het segment hebt gedeeld. <p>Wanneer een segment door u of met u wordt gedeeld, toont een aandeelpictogram naast de segmentnaam.</p> |
+   | Datum gewijzigd | Hiermee geeft u de datum weer waarop het segment voor het laatst is gewijzigd. |
+   | Gebruikt in | **Opmerking:** Deze functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het proces van de release van de Customer Journey Analytics raadpleegt u [Release van de Customer Journey Analytics-functie](/help/release-notes/releases.md).<p>Toont waarin van de volgende componententypes het segment momenteel wordt gebruikt:</p> <ul><li>Waarschuwingen</li><li>Berekende standaarden</li><li>Projecten</li><li>Geplande projecten</li><li>Segmenten</li></ul> Bijvoorbeeld, als het segment in 40 projecten en 2 alarm wordt gebruikt, toont deze kolom [!UICONTROL **Waarschuwingen (2), projecten (40)**]. <p>Deze informatie kan u helpen bepalen of een segment voor gebruikers in uw organisatie waardevol is, of of het zou moeten worden geschrapt.</p><p>Deze informatie omvat geen gebruik van API, Report Builder, of Data Warehouse.</p><p>U kunt de [Gegevenswoordenboek](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) samen met deze informatie kunt u bijhouden en beter begrijpen hoe componenten in uw organisatie worden gebruikt. |
+   | Laatst gebruikt | **Opmerking:** Deze functionaliteit bevindt zich in de beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het proces van de release van de Customer Journey Analytics raadpleegt u [Release van de Customer Journey Analytics-functie](/help/release-notes/releases.md).<p>Hiermee geeft u de datum weer waarop het segment voor het laatst is gebruikt in een van de volgende componenttypen:</p> <ul><li>Waarschuwingen</li><li>Berekende standaarden</li><li>Projecten</li><li>Geplande projecten</li><li>Segmenten</li></ul> <p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, of of het zou moeten worden geschrapt.</p><p>Deze informatie omvat geen gebruik van API, Report Builder, of Data Warehouse.</p><p>U kunt de [Gegevenswoordenboek](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) samen met deze informatie kunt u bijhouden en beter begrijpen hoe componenten in uw organisatie worden gebruikt. |
+
+   {style="table-layout:auto"}
 
 ## Hoe kan ik-video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
 Dit [Adobe Analytics-video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) geeft een kort overzicht van hoe te om de Manager van het Segment te gebruiken.
 
-## Gebruikersinterface Segmentbeheer {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
-![](assets/segment_manager_ui.png)
-
-| Aantal | UI-onderdeel | Beschrijving |
-|---|---|---|
-| 1 | Werkbalk Segmentbeheer | Nadat u een segment hebt gecontroleerd, wordt deze werkbalk weergegeven. De meeste beheertaken kunnen vanaf deze werkbalk worden voltooid. |
-| 2 | Filters tonen | Als u op het filterpictogram klikt, wordt het filtermenu weergegeven. U kunt filteren op Tags, Eigenaars, Alles tonen (alleen Admin), Mijne waarden, Favorieten, Goedgekeurd en Gedeeld met mij. |
-| 3 | Selectievakjes | Controleer een segment om het te beheren. |
-| 4 | Favorieten | Als u op de ster naast een segment klikt, wordt de ster geel en wordt het segment gemarkeerd als een favoriet. |
-| 5 | Segmenttitels en -beschrijvingen | Opgegeven in de Segment Builder. Als u de titel en beschrijving wilt bewerken, klikt u op de titelkoppeling. Hiermee gaat u terug naar de Segment Builder. |
-| 6 | Rapportsuites | Deze kolom geeft aan in welke rapportsuite het segment het laatst is opgeslagen. |
-| 7 | Eigenaar | Geeft aan wie eigenaar is van het segment. Als niet-beheerder, kunt u slechts segmenten zien u bezit of die met u werden gedeeld. |
-| 8 | Labels (niet gecontroleerd in kolomkiezer, vandaar dat de kolom niet wordt weergegeven) | Tags die op het segment zijn toegepast, door u of door personen die het segment met u hebben gedeeld. |
-| 9 | Gedeeld met | Hier worden personen of groepen weergegeven (alleen Admin) of Alle personen (alleen Admin) waarmee u het segment hebt gedeeld. |
-| 10 | Datum gewijzigd | Hiermee geeft u de datum weer waarop het segment voor het laatst is gewijzigd. |
-| 11 | Kolomkiezer | Hiermee kunt u kolommen in Segmentbeheer selecteren of deselecteren. |
-| 12 | Gedeeld pictogram | Geeft aan dat dit segment door u of met u wordt gedeeld. |
-| 13 | Goedgekeurd pictogram | Geeft aan dat dit segment is goedgekeurd door een beheerder. |
-| 14 | Filters | Hiermee kunt u de filters onder Codes, Rapportagesuites, Eigenaars en Overige (Alles tonen, Mijnbouw, Delen met mij, Goedgekeurd, Favorieten.) weergeven en selecteren. |

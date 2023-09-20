@@ -3,9 +3,9 @@ description: In Berekend Metrisch Manager, staat het etiketteren segmenten u toe
 title: Berekende standaard een label geven
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -20,15 +20,14 @@ Alle gebruikers kunnen labels maken voor berekende metriek en een of meer tags t
 >
 >De nuttigste types van markeringen zijn gewoonlijk markeringen die op de volgende criteria gebaseerd zijn:
 >
->* **Teamnamen**, zoals sociale marketing of mobiele marketing.
+>* **Teamnamen**, zoals Sociale marketing of Mobiele marketing.
 >* **Projecten** (analysetags), zoals analyse van de pagina Entry.
 >* **Categorieën**, zoals Vrouwen of Geografie.
->* **Workflows**, zoals goed te keuren of te Curven voor (een specifieke bedrijfseenheid)
-
+>* **Workflows**, zoals goed te keuren of te laten veredelen voor (een specifieke bedrijfseenheid)
 
 ## Labels toepassen op een berekende metrische waarde
 
-1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**] om naar het Berekende manager van metriek te gaan.
+1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**].
 
 1. Schakel in het venster Berekende metriek het selectievakje in naast de metriek die u wilt labelen.
 
@@ -47,7 +46,7 @@ Alle gebruikers kunnen labels maken voor berekende metriek en een of meer tags t
 
 1. In het Berekende metriebeheer worden codes weergegeven in het dialoogvenster [!UICONTROL **Tags**] kolom. (Klik op het tandwielpictogram rechtsboven om de kolommen te beheren.)
 
-## Metrisch filteren op tags
+## Metrische waarden filteren op tags
 
 1. Selecteer in Adobe Analytics [!UICONTROL **Componenten**] > [!UICONTROL **Berekende cijfers**] om naar het Berekende manager van metriek te gaan.
 

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
+source-git-commit: dc84909f9c19681adfd28696495b667837056146
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 43%
+source-wordcount: '739'
+ht-degree: 42%
 
 ---
 
@@ -171,6 +171,7 @@ ht-degree: 43%
       + [Segmenten filteren](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Segmenten markeren als favorieten](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [Segmenten verwijderen](segmentation/segmentation-workflow/seg-delete.md)
+      + [Segmenten kopiëren](segmentation/segmentation-workflow/seg-copy.md)
       + [Segmenten beheren](segmentation/segmentation-workflow/seg-manage.md)
    + Segmentverwijzing {#segment-reference}
       + [Vergelijkingsoperatoren voor segmenten](segmentation/seg-reference/seg-operators.md)
@@ -195,8 +196,11 @@ ht-degree: 43%
       + [Gefilterde en gewogen cijfers](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [Functies gebruiken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [Berekende standaard een label geven](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [Berekende maateenheden filteren](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+      + [Berekende metriek markeren als favorieten](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [Berekende standaard goedkeuren](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Berekende standaard delen](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+      + [Berekende cijfers kopiëren](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [Het berekende manager van metriek](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Verwijzing naar cijfers {#calcmetrics-reference}
       + [Referentie: basisfuncties](c-calcmetrics/cm-reference/cm-functions.md)

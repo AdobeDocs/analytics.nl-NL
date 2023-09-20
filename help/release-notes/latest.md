@@ -3,9 +3,9 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 95e4a3254bafed8ac4cb59625e6f5ba2fb3b1ad0
+source-git-commit: 2998ab3ecb83e14be38333a2836f863667babfee
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '891'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,7 @@ De opmerkingen in de release van september betreffen de releaseperiode van 13 se
 | **Classificaties in API 2.0** | Biedt Adobe Analytics API 2.0-methoden voor het opslaan, verwijderen, ophalen, importeren en exporteren van indelingssetgegevens. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | N.v.t. | 13 september 2023 |
 | **Ondersteuning voor nieuwe `correlationID` veld voor A4T-classificaties** | De `_experience.decisioning.propositions.scopeDetails.correlationID` Het veld is nu beschikbaar in het Adobe Analytics-bronverbindingsschema. We voegen deze id toe voor het eenvoudig samenvoegen van classificatiegegevens voor Adobe Target-activiteiten en ervaringsgebeurtenissen. | N.v.t. | 13 september 2023 |
 | **Verbeteringen voor Data Warehouse** | Wanneer het creëren van een verzoek van de Data Warehouse, kunt u een wolkenrekening nu vormen om als rapportbestemming te gebruiken. De volgende typen cloudaccounts zijn beschikbaar voor het verzenden van gegevens:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-mail (deze optie was voorheen beschikbaar)</li></ul>FTP, SFTP, Azure Blob, en S3 zijn nog beschikbaar als rapportbestemmingen, maar worden niet meer geadviseerd.<p>De gebruikerservaring bij het maken en beheren van verzoeken om Data Warehouse is ook verbeterd. Zie voor meer informatie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md) en [Aanvragen voor Data Warehouse beheren](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html). | 13 september 2023 | 4 oktober 2023 |
+| **Nieuwe kolommen beschikbaar bij het beheren van componenten** | De volgende nieuwe kolommen zijn nu beschikbaar wanneer het beheren van componenten:<ul><li>Gebruikt in<p>Deze kolom is beschikbaar in het dialoogvenster [Het berekende manager van metriek](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) en de [Segmentbeheer](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Laatst gebruikt<p>Deze kolom is beschikbaar in het dialoogvenster [Het berekende manager van metriek](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)de [Segmentbeheer](/help/components/segmentation/segmentation-workflow/seg-manage.md)en de [Waarschuwingenbeheer](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd. U kunt het gegevenswoordenboek samen met deze informatie gebruiken om u te helpen bij het volgen van en beter begrijpen hoe de componenten in uw organisatie worden gebruikt.</p> | 20 september 2023 | 4 oktober 2023 |
 
 {style="table-layout:auto"}
 
