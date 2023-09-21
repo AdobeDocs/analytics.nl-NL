@@ -3,7 +3,7 @@ title: Aanmelden voor toestemmingsbeheer
 description: Zie welke privacy-instellingen een bezoeker heeft ingeschakeld.
 exl-id: b2768180-b763-41fb-8cba-665fac047e29
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Aanmelden voor toestemmingsbeheer
 
-De dimensie &#39;Inschakelen voor beheer van toestemming&#39; geeft aan welke privacy-instellingen een bezoeker heeft gekozen. U kunt deze dimensie gebruiken om gegevens te filteren op basis van privacy-instellingen, of de meest gebruikelijke redenen voor privacy-aanmelding bekijken.
+De optie &#39;Inschakelen voor beheer van toestemming&#39; [dimensie](overview.md) geeft aan welke privacy-instellingen een bezoeker heeft gekozen. U kunt deze dimensie gebruiken om gegevens te filteren op basis van privacy-instellingen, of de meest gebruikelijke redenen voor privacy-aanmelding bekijken.
 
 ## Deze dimensie vullen met gegevens
 
@@ -25,7 +25,7 @@ Uw organisatie bepaalt de logica om deze variabelen van contextgegevens uit te v
 
 ## Dimension-items
 
-Dimension-items bevatten de volgende twee waarden:
+Items van het Dimension bevatten de volgende twee waarden:
 
 * **`DMP`**: De bezoeker heeft ervoor gekozen om gegevens te delen naar gegevenbeheer-platforms. Deze dimensie-item is aanwezig wanneer de variabele van de contextgegevens `opt.dmp` equals `Y`.
-* **`SELL`**: De bezoeker heeft ervoor gekozen de gegevens te delen of aan derden te verkopen. Deze dimensie is aanwezig wanneer de variabele van de contextgegevens `opt.sell` equals `Y`.
+* **`SELL`**: De bezoeker heeft ervoor gekozen de gegevens te delen of aan derden te verkopen. Deze dimensie is aanwezig wanneer de variabele contextgegevens `opt.sell` equals `Y`.

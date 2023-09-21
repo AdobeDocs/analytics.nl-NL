@@ -3,7 +3,7 @@ title: Week
 description: De week waarop metrisch voorkwam.
 feature: Dimensions
 exl-id: 944ec843-998c-473f-b8e6-16cf126745b4
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Week
 
-De &quot;Week&quot;dimensie meldt de week dat een bepaalde metrisch voorkwam. Het eerste dimensie-item is de eerste week in het datumbereik en het laatste dimensie-item is de laatste week in het datumbereik. Deze dimensie is essentieel voor trended rapporten, aangezien het u toestaat om metriek in tijd te zien.
+De &#39;week&#39; [dimensie](overview.md) meldt de week dat een bepaalde metrische waarde voorkwam. Het eerste dimensie-item is de eerste week in het datumbereik en het laatste dimensie-item is de laatste week in het datumbereik. Deze dimensie is essentieel voor trended rapporten, aangezien het u toestaat om metriek in tijd te zien.
 
 ## Deze dimensie vullen met gegevens
 

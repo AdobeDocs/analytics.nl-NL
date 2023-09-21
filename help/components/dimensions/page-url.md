@@ -3,7 +3,7 @@ title: Pagina-URL
 description: De URL van de pagina.
 feature: Dimensions
 exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Pagina-URL
 
-De dimensie Pagina-URL geeft een overzicht van de URL&#39;s op uw site.
+De &#39;pagina-URL&#39; [dimensie](overview.md) geeft de URL&#39;s op uw site weer.
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ Soms zijn URL&#39;s langer dan 255 bytes. AppMeasurement gebruikt de `g` De para
 
 AppMeasurement verzamelt deze gegevens automatisch op basis van de URL van de pagina. U kunt de verzamelde waarde overschrijven met de opdracht [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variabele.
 
-## Een eVar met URL vullen
+## Een eVar vullen met URL
 
 Adobe raadt aan een eVar in te stellen op de samengevoegde tekenreeks `window.location.hostname + window.location.pathname`. Deze tekenreeks werkt doorgaans beter dan `window.location.href` omdat het protocol, vraagkoorden, en ankermarkeringen weglaat.
 
@@ -34,4 +34,4 @@ Als u wilt dat de eVar exact overeenkomt met de dimensie &#39;Pagina-URL&#39; in
 
 ## Dimension-items
 
-Dimension-items bevatten de URL&#39;s van pagina&#39;s op uw site.
+Tot Dimension-items behoren de URL&#39;s van pagina&#39;s op uw site.

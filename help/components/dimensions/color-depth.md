@@ -3,7 +3,7 @@ title: Kleurdiepte
 description: De kleurdiepte van het apparaat.
 feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Kleurdiepte
 
-De dimensie &#39;Kleurdiepte&#39; rapporteert hoeveel kleuren het apparaat ondersteunt. Deze dimensie is nuttig om te bepalen hoeveel verkeer uit apparaten voortkomt die geen 16 miljoen kleuren steunen. Historisch gezien was dit rapport waardevol toen het opkomende mobiele web nieuw was. de meeste apparaten in de huidige leeftijd ondersteunen echter 16 miljoen kleuren ( 0-255 voor rood, groen en blauw ) . <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+De kleurdiepte [dimensie](overview.md) meldt hoeveel kleuren het apparaat ondersteunt. Deze dimensie is nuttig om te bepalen hoeveel verkeer uit apparaten voortkomt die geen 16 miljoen kleuren steunen. Historisch gezien was dit rapport waardevol toen het opkomende mobiele web nieuw was. De meeste apparaten in het huidige tijdperk ondersteunen echter 16 miljoen kleuren (0-255 voor rood, groen en blauw). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar een opzoektabel en zet de bitwaarde om in een beter leesbare indeling. Het verzamelt gegevens van [`c` querytekenreeks](/help/implement/validate/query-parameters.md) in afbeeldingsaanvragen. AppMeasurement gebruikt de `screen.colorDepth` variabele om de queryreeks voor de afbeeldingsaanvraag te vullen. Als u AppMeasurement gebruikt (zoals door markeringen in Adobe Experience Platform), werkt deze afmeting uit de doos. Als u een methode voor gegevensverzameling buiten AppMeasurement gebruikt (bijvoorbeeld via de API), moet u de methode `c` de parameter van het vraagkoord op elke slag met een geldige beetjewaarde.
+Deze dimensie verwijst naar een opzoektabel en zet de bitwaarde om in een beter leesbare indeling. Het verzamelt gegevens van [`c` querytekenreeks](/help/implement/validate/query-parameters.md) in afbeeldingsaanvragen. AppMeasurement gebruikt de `screen.colorDepth` variabele om de queryreeks voor de afbeeldingsaanvraag te vullen. Als u AppMeasurement gebruikt (zoals door markeringen in Adobe Experience Platform), werkt deze afmeting uit de doos. Als u een methode voor gegevensverzameling buiten het AppMeasurement gebruikt (bijvoorbeeld via de API), moet u de opdracht `c` de parameter van het vraagkoord op elke slag met een geldige beetjewaarde.
 
 ## Dimension-items
 

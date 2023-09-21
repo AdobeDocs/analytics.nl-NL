@@ -3,7 +3,7 @@ title: Laatste aanraakkanaaldetail
 description: Details voor het meest recente marketingkanaal binnen de afloop van de betrokkenheid van de bezoeker.
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Laatste aanraakkanaaldetail
 
-De dimensie &#39;Laatste aanraakkanaaldetails&#39; rapporteert gegevens over het meest recente marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker (standaard 30 dagen) een overeenkomst heeft. Deze dimensie is nuttig om te begrijpen wat heeft bijgedragen tot de treffer die een marketingkanaal afstemt. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.
+De details van het laatste aanraakkanaal [dimensie](overview.md) rapporteert details over het meest recente marketingkanaal waarmee een bezoeker tijdens de aanstellingsperiode van die bezoeker (standaard 30 dagen) een overeenkomst heeft. Deze dimensie is nuttig om te begrijpen wat heeft bijgedragen tot de treffer die een marketingkanaal afstemt. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.
 
 ## Deze dimensie vullen met gegevens
 
@@ -27,6 +27,6 @@ Als u deze dimensie op een specifieke waarde wilt plaatsen, zijn de volgende sta
 
 ## Dimension-items
 
-Dimension-items zijn afhankelijk van de kanaalwaarde die in de vervolgkeuzelijst voor de toepasselijke verwerkingsregel voor marketingkanalen wordt vermeld. Als u bijvoorbeeld de waarde van het kanaal instelt op &#39;Pagina-URL&#39;, bevatten dimensie-items pagina-URL&#39;s op uw site. Als u de waarde van het kanaal instelt op Verwijzen van domein, omvatten de afmetingspunten domeinen die bezoekers door klikten om aan uw plaats te krijgen. Deze dimensie voegt alle detaildimensie-items samen, ongeacht in welk kanaal ze zich bevinden.
+De items van het Dimension zijn afhankelijk van de kanaalwaarde die in de vervolgkeuzelijst voor de toepasselijke verwerkingsregel voor marketingkanalen wordt vermeld. Als u bijvoorbeeld de waarde van het kanaal instelt op &#39;Pagina-URL&#39;, bevatten dimensie-items pagina-URL&#39;s op uw site. Als u de waarde van het kanaal instelt op Verwijzen van domein, omvatten de afmetingspunten domeinen die bezoekers door klikten om aan uw plaats te krijgen. Deze dimensie voegt alle detaildimensie-items samen, ongeacht in welk kanaal ze zich bevinden.
 
-Adobe raadt u aan kanaalwaarden voor het marketingkanaal in te stellen voor meer informatie over kanalen.
+Adobe raadt aan kanaalwaarden voor het marketingkanaal in te stellen voor informatie over kanalen.

@@ -1,18 +1,18 @@
 ---
-title: eVar (Merchandising-dimensie)
+title: eVar (dimensie Verkoop)
 description: Aangepaste variabelen die zijn gekoppeld aan de productdimensie.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 2%
 
 ---
 
-# eVar (Merchandising)
+# eVar (merchandising)
 
-*Deze Help-pagina beschrijft hoe merchandising eVars werkt als een dimensie. Voor informatie over hoe te om koopwaar uit te voeren, zie [eVar (variabele voor handelsdoeleinden)](/help/implement/vars/page-vars/evar-merchandising.md) in de gebruikershandleiding bij Implementatie.*
+*In deze Help-pagina wordt beschreven hoe eVars als een [dimensie](overview.md). Voor informatie over hoe te om koopwaar uit te voeren, zie [eVar (variabele voor handelsdoeleinden)](/help/implement/vars/page-vars/evar-merchandising.md) in de gebruikershandleiding bij Implementatie.*
 
 Zie voor een gedetailleerde discussie over de werking van eVars op handelsgebied [Verkoop- en productzoekmethoden](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
 
@@ -26,7 +26,7 @@ Voor afhandeling zoekt de klant naar `"winter coat"`en voegt vervolgens een omla
 
 ![Coatingvoorbeeld](assets/merch-example-coat.png)
 
-Wanneer de bezoeker deze aankoop heeft voltooid, wordt een interne zoekopdracht uitgevoerd naar `"winter coat"` gecreeërd met de aankoop van een paar goggles (ervan uitgaande dat de eVar de standaardtoewijzing van &#39;Meest recent&#39; gebruikt). Goed voor `"winter coat"`, maar slecht voor marketingbeslissingen:
+Wanneer de bezoeker deze aankoop heeft voltooid, wordt een interne zoekopdracht uitgevoerd naar `"winter coat"` gecrediteerd met de aankoop van een paar goggles (ervan uitgaande dat de eVar de standaardtoewijzing van &#39;Meest recent&#39; gebruikt). Goed voor `"winter coat"`, maar slecht voor marketingbeslissingen:
 
 | Interne zoekterm | Omzet |
 |---|---|
@@ -34,9 +34,9 @@ Wanneer de bezoeker deze aankoop heeft voltooid, wordt een interne zoekopdracht 
 
 ## Hoe merchandising-variabelen dit probleem oplossen
 
-Met de optie Verwisselingsmarkeringen kunt u de huidige waarde van een eVar aan een product toewijzen op het moment dat een succesgebeurtenis plaatsvindt. Deze waarde blijft aan dat product gekoppeld, zelfs als een of meer nieuwe waarden later voor die bepaalde eVar worden ingesteld.
+Met de optie Verwisselingsmarkeringen kunt u de huidige waarde van een eVar aan een product toewijzen op het moment dat een succesgebeurtenis plaatsvindt. Deze waarde blijft aan dat product gekoppeld, zelfs als later een of meer nieuwe waarden voor die specifieke eVar worden ingesteld.
 
-Als merchandising is ingeschakeld voor de eVar in het vorige voorbeeld, wordt de zoekterm `"goggles"` is gekoppeld aan de sneeuwgoegels en de zoekterm `"winter coat"` is gebonden aan het onderjasje. De handelswaar wijst inkomsten toe op productniveau, zodat ontvangt elke termijn krediet voor het bedrag van inkomsten voor het product waaraan de termijn werd geassocieerd:
+Als de merchandising voor de eVar in het vorige voorbeeld wordt toegelaten, de onderzoekstermijn `"goggles"` is gekoppeld aan de sneeuwgoegels en de zoekterm `"winter coat"` is gebonden aan het onderjasje. De handelswaar wijst inkomsten toe op productniveau, zodat ontvangt elke termijn krediet voor het bedrag van inkomsten voor het product waaraan de termijn werd geassocieerd:
 
 | Interne zoekterm | Omzet |
 |---|---|

@@ -3,7 +3,7 @@ title: Enkelvoudige toegang
 description: Het aantal keren dat een dimensie-item niet is gewijzigd tijdens een bezoek.
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Enkelvoudige toegang
 
-De metrische waarde &#39;Enkelvoudige toegang&#39; toont het aantal bezoeken waar het dimensie-item slechts één unieke waarde voor het volledige bezoek bevatte. Deze metrische waarde is handig voor elke dimensie waarin u wilt zien welke elementen tijdens een bezoek stagneren.
+De &#39;enkele toegang&#39; [metrisch](overview.md) toont het aantal bezoeken waar het afmetingspunt slechts één enkele unieke waarde voor het volledige bezoek bevatte. Deze metrische waarde is handig voor elke dimensie waarin u wilt zien welke elementen tijdens een bezoek stagneren.
 
 ## Hoe deze metrische waarde wordt berekend
 
@@ -22,8 +22,8 @@ Deze metrische tellingen bezoeken waar het afmetingspunt één enkele unieke waa
 
 In het kader van de [Pagina](../dimensions/page.md) Dimensies, &#39;Enkelvoudige toegang&#39; en &#39;Bezoeken op één pagina&#39; zijn exact identiek. Hun verschillen komen naar voren wanneer je andere dimensies gebruikt.
 
-* **Enkelvoudige toegang**: Toont het aantal bezoeken waar het bepaalde afmetingspunt niet voor het volledige bezoek veranderde. Het is contextueel aan de dimensie die u in uw project gebruikt.
-* **Bezoek één pagina**: Hier ziet u het aantal bezoeken waarbij de dimensie Pagina niet is gewijzigd voor het volledige bezoek. Alhoewel u een andere dimensie in uw rapport gebruikt, telt het nog bezoeken die één enkel uniek punt van de &quot;Pagina&quot;dimensie bevatten.
+* **Enkelvoudige toegang**: Geeft het aantal bezoeken weer, waarbij het gegeven item Dimensie niet is gewijzigd voor het volledige bezoek. Het is contextueel aan de dimensie die u in uw project gebruikt.
+* **Bezoek één pagina**: Geeft het aantal bezoeken weer waarbij de dimensie Pagina niet is gewijzigd voor het volledige bezoek. Alhoewel u een andere dimensie in uw rapport gebruikt, telt het nog bezoeken die één enkel uniek punt van de &quot;Pagina&quot;dimensie bevatten.
 
 Neem bijvoorbeeld het volgende voorbeeld van twee aanraakbezoeken. De dimensie in uw rapport is [Sectie Site](../dimensions/site-section.md).
 

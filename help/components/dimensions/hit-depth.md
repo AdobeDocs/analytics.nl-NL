@@ -3,7 +3,7 @@ title: Hoogte
 description: Het aantal hits in het bezoek.
 feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 7%
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # Hoogte
 
-De dimensie &#39;De diepte van de Kit&#39; meldt hoe ver een bezoek aan een bepaalde hit is. Deze dimensie is handig als u wilt weten tot in welke mate bezoekers acties op uw site uitvoeren. Met de optie Pit-diepte worden alle typen resultaten geteld, inclusief paginaweergaven ([`t()`](/help/implement/vars/functions/t-method.md)) en links bijhouden ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+De &#39;hakdiepte&#39; [dimensie](overview.md) meldt hoe ver een bezoek aan een bepaalde hit is . Deze dimensie is handig als u wilt weten tot in welke mate bezoekers acties op uw site uitvoeren. Met de optie Pit-diepte worden alle typen resultaten geteld, inclusief paginaweergaven ([`t()`](/help/implement/vars/functions/t-method.md)) en links bijhouden ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Deze dimensie vullen met gegevens
 
@@ -20,7 +20,7 @@ Deze dimensie werkt uit de doos voor alle implementaties. Als een rapportsuite g
 
 ## Dimension-items
 
-Dimension-items bevatten de tekenreeks `"Hit Depth"` gevolgd door een nummer dat het aantal bezoekers in het bezoek aangeeft. Het item Dimensie van `"Hit Depth 1"` staat voor de eerste hit van het bezoek, terwijl het item Dimensie `"Hit Depth 8"` staat voor de achtste hit van het bezoek .
+Items van het Dimension bevatten de tekenreeks `"Hit Depth"` gevolgd door een nummer dat het aantal bezoekers in het bezoek aangeeft. Het item Dimensie van `"Hit Depth 1"` staat voor de eerste hit van het bezoek, terwijl het item Dimensie `"Hit Depth 8"` staat voor de achtste treffer van het bezoek .
 
 ## Vergelijking met diepte bezoek
 

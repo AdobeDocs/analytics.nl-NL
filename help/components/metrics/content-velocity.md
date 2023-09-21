@@ -3,7 +3,7 @@ title: Contentsnelheid
 description: Met Inhoudssnelheid wordt het effect van de inhoud op de downstreaminhoud gemeten.
 feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 8%
@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # Contentsnelheid
 
-De &quot;Snelheid van de inhoud&quot;is een berekend metrisch malplaatje dat u helpt meten hoe impactful een afmeting op stroomafwaartse inhoud is. De formule wordt gebruikt `Page views (Visit participation) divided by Visits`.
+&#39;Inhoudssnelheid&#39; is een berekende waarde [metrisch](overview.md) een sjabloon waarmee u kunt meten welke invloed een dimensie heeft op de inhoud stroomafwaarts. De formule wordt gebruikt `Page views (Visit participation) divided by Visits`.
 
 ![](assets/cont-velo-1.png)
 

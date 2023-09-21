@@ -3,7 +3,7 @@ title: Geopend
 description: Een instantie van de eerste waarde in een bezoek.
 feature: Metrics
 exl-id: f5d359ce-e6ac-4f80-a30b-ff78cc5fc8dc
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 *Deze Help-pagina beschrijft hoe items werken als metrisch. Voor informatie over hoe ingangen als afmeting werken, zie [Invoerafmetingen](../dimensions/entry-dimensions.md).*
 
-De metrische waarde &#39;Items&#39; geeft het aantal keren weer dat een bepaald dimensie-item wordt vastgelegd als de eerste waarde in een bezoek. Deze maatstaf is handig als u meer wilt weten over de eerste indrukken die bezoekers op uw site hebben. Door de eerste waarden van een dimensie te zien, kunt u de ervaring van een nieuwe bezoeker begrijpen en optimaliseren.
+De vermeldingen [metrisch](overview.md) toont het aantal keren dat een bepaald dimensie-item wordt vastgelegd als de eerste waarde in een bezoek. Deze maatstaf is handig als u meer wilt weten over de eerste indrukken die bezoekers op uw site hebben. Door de eerste waarden van een dimensie te zien, kunt u de ervaring van een nieuwe bezoeker begrijpen en optimaliseren.
 
 ## Hoe deze metrische waarde wordt berekend
 
-Voor een bepaalde dimensie, registreer het eerste afmetingspunt dat in een bezoek als ingang wordt gezien. Per bezoek bestaat slechts één vermelding. Het is niet noodzakelijkerwijs de eerste hit van het bezoek als de dimensie in eerste instantie niet is ingesteld. Het is een op bezoek-gebaseerde metrisch; zodra het een dimensie - punt betreft , blijft het voor de rest van het bezoek bestaan .
+Voor een bepaalde dimensie, registreer het eerste afmetingspunt dat in een bezoek als ingang wordt gezien. Per bezoek bestaat slechts één vermelding. Het is niet noodzakelijkerwijs de eerste hit van het bezoek als de dimensie in eerste instantie niet is ingesteld. Het is een op bezoek-gebaseerde metrisch; zodra het aan een afmetingspunt verbindt, blijft het voor de rest van het bezoek voortbestaan.
 
 >[!TIP]
 >

@@ -3,7 +3,7 @@ title: Type referentie
 description: Het type referentie, afhankelijk van waar de bezoeker vandaan komt.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 61a8aec9bbd6102dd3c0eb60362e02d553e1ebd2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -12,26 +12,26 @@ ht-degree: 0%
 
 # Type referentie
 
-De dimensie &#39;Type referentie&#39; rapporteert welke generieke kanalen bezoekers hebben aangeklikt om op uw site te komen. Adobe handhaaft de regels voor elk afmetingspunt, in tegenstelling tot [Marketingkanalen](marketing-channel.md), waar uw organisatie regels voor elk kanaal handhaaft.
+Het type Referrer [dimensie](overview.md) meldt welke generieke kanalen bezoekers hebben doorgeklikt om op uw site te komen. Adobe handhaaft de regels voor elk afmeting punt [Marketingkanalen](marketing-channel.md), waar uw organisatie regels voor elk kanaal handhaaft.
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar veelvoudige raadplegingslijsten intern aan Adobe. Elke waarde is gebaseerd op de [referentie](referrer.md) van de hit, die afhankelijk is van [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
+Deze dimensie verwijst naar veelvoudige raadplegingslijsten intern aan Adobe. Elke waarde is gebaseerd op de [verwijzende](referrer.md) van de hit, die afhankelijk is van [Interne URL-filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Zorg ervoor dat de verwijzingsafmeting en interne filters URL correct worden gevormd.
 
 ## Dimension-items
 
-Dimension-items bevatten het type referentie van de hit. Specifieke waarden zijn onder meer:
+Tot de items van het Dimension behoren het type referentie van de treffer. Specifieke waarden zijn onder meer:
 
-* **Getypte/bladwijzer**: Er bestaan geen verwijzingsgegevens voor de hit.
+* **Getypte/bladwijzer**: Er zijn geen verwijzingsgegevens voor de hit.
 * **Zoekprogramma&#39;s**: De referentie is afkomstig van een herkend zoekprogramma dat een trefwoordqueryreeks bevat.
-* **Sociale netwerken:**: Referergegevens behoorden tot een door Adobe erkend sociaal netwerk.
-* **Andere websites**: Referergegevens behoorden niet tot een zoekmachine of sociaal netwerk dat door Adobe wordt herkend.
+* **Sociale netwerken:**: Referergegevens behoorden tot een door de Adobe erkend sociaal netwerk.
+* **Andere websites**: Referergegevens behoorden niet tot een zoekmachine of sociaal netwerk dat door de Adobe wordt herkend.
 * **Vaste schijf**: Referrer is afkomstig van een lokale kopie van een webpagina op de vaste schijf van de bezoeker.
 * **E-mail**: Referrer is afkomstig van een URL met een protocol van `imap://` of `mail://`. Omvat geen online e-maildiensten, aangezien deze typisch gebruiken `https://` protocol.
 
 ### Sociale netwerken
 
-De volgende lijst verwijst naar de &quot;Sociale netwerken&quot;raadplegingslijst die Adobe gebruikt. Adobe geeft deze lijst als een belediging aan klanten van Adobe Analytics. Als u zou willen adviseren dat Adobe een domein aan deze lijst toevoegt, een steunafgevaardigde in uw organisatie hebben contacteer de Zorg van de Klant.
+De volgende lijst verwijst naar de de raadplegingslijst van &quot;Sociale netwerken&quot;die de Adobe gebruikt. Adobe biedt deze lijst als een belediging aan klanten van Adobe Analytics. Als u zou willen adviseren dat de Adobe een domein aan deze lijst toevoegt, heb een steunafgevaardigde in uw organisatie contacteer de Zorg van de Klant.
 
 >[!NOTE]
 >
@@ -201,5 +201,5 @@ De volgende lijst verwijst naar de &quot;Sociale netwerken&quot;raadplegingslijs
 
 Wanneer u specifieke domeinen in de dimensie van het type van &quot;Referrer&quot;bekijkt, kunnen er domeinen zijn die u onder &quot;de motoren van het Onderzoek&quot;zou verwachten die in plaats daarvan onder &quot;Andere websites&quot;worden vermeld. U ziet bijvoorbeeld `'google.com'` onder &quot;Andere websites&quot;.
 
-* **Zoekmachinedomeinen in het dimensiemenu &#39;Zoekprogramma&#39;s&#39;**: De referentie voldoet aan alle criteria om te classificeren als een zoekmachine op Adobe. Het verwijzende domein is een geldige onderzoeksmotor, *en* De verwijzende URL bevat een parameter van het sleutelwoordvraagkoord.
-* **Zoekmachinedomeinen in het item Andere websites**: De verwijzende URL voldeed niet aan alle criteria om te classificeren als zoekmachine. Algemene voorbeelden zijn subdomeinen die zijn toegewezen aan andere functies dan zoekopdrachten. Bijvoorbeeld: `mail.google.com` of `autos.yahoo.com` zijn geen zoekmachines, maar bevinden zich op een topdomein dat vaak aan zoekopdrachten is gekoppeld. Deze subdomeinen bevatten geen queryreeks voor trefwoorden, daarom worden deze opgenomen onder &#39;Andere websites&#39; in plaats van &#39;Zoekprogramma&#39;s&#39;.
+* **Zoekmachinedomeinen in het dimensiepunt &#39;Zoekprogramma&#39;s&#39;**: De referentie voldoet aan alle criteria om te classificeren als een zoekmachine per Adobe. Het verwijzende domein is een geldige onderzoeksmotor, *en* De verwijzende URL bevat een parameter van het sleutelwoordvraagkoord.
+* **Zoekmachinedomeinen in het item Andere websites**: De verwijzende URL voldoet niet aan alle criteria om te classificeren als zoekprogramma. Algemene voorbeelden zijn subdomeinen die zijn toegewezen aan andere functies dan zoekopdrachten. Bijvoorbeeld: `mail.google.com` of `autos.yahoo.com` zijn geen zoekmachines, maar bevinden zich op een topdomein dat vaak aan zoekopdrachten is gekoppeld. Deze subdomeinen bevatten geen queryreeks voor trefwoorden, daarom worden deze opgenomen onder &#39;Andere websites&#39; in plaats van &#39;Zoekprogramma&#39;s&#39;.

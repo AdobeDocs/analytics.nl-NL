@@ -3,7 +3,7 @@ title: Afmelden voor toestemmingsbeheer
 description: Zie welke privacy-instellingen een bezoeker heeft opgegeven.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Afmelden voor toestemmingsbeheer
 
-De dimensie &#39;Opt-Out voor beheer van toestemming&#39; geeft aan welke privacy-instellingen een bezoeker expliciet heeft opgegeven. U kunt deze dimensie gebruiken om gegevens te filteren op basis van privacy-instellingen, of de meest gebruikelijke redenen voor privacy-opt-out bekijken.
+De optie &#39;Opt-out voor beheer van toestemming&#39; [dimensie](overview.md) geeft aan welke privacy-instellingen een bezoeker expliciet heeft opgegeven. U kunt deze dimensie gebruiken om gegevens te filteren op basis van privacy-instellingen, of de meest gebruikelijke redenen voor privacy-opt-out bekijken.
 
 ## Deze dimensie vullen met gegevens
 
@@ -26,8 +26,8 @@ Uw organisatie bepaalt de logica om deze variabelen van contextgegevens uit te v
 
 ## Dimension-items
 
-Dimension-items bevatten de volgende drie waarden:
+Items van het Dimension bevatten de volgende drie waarden:
 
-* **`SSF`**: De bezoeker heeft ervoor gekozen [Server-side doorsturen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md). Deze dimensie-item is aanwezig wanneer de variabele van de contextgegevens `cm.ssf` equals `1`. Zie [Overzicht van privacy van gegevens](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) in de gebruikershandleiding van de Audience Manager voor meer informatie. De hit wordt niet doorgestuurd naar Adobe Audience Manager.
-* **`DMP`**: De bezoeker heeft ervoor gekozen niet meer te delen naar gegevenbeheer-platforms. Deze dimensie-item is aanwezig wanneer de variabele van de contextgegevens `opt.dmp` equals `N`. Vergelijkbaar met `SSF`, wordt de treffer niet doorgestuurd naar Adobe Audience Manager.
-* **`SELL`**: De bezoeker heeft ervoor gekozen de gegevens niet te delen of aan derden te verkopen. Deze dimensie is aanwezig wanneer de variabele van de contextgegevens `opt.sell` equals `N`.
+* **`SSF`**: De bezoeker heeft gekozen uit [Server-side doorsturen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md). Deze dimensie-item is aanwezig wanneer de variabele van de contextgegevens `cm.ssf` equals `1`. Zie [Overzicht van privacy van gegevens](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) in de gebruikershandleiding van de Audience Manager voor meer informatie. De hit wordt niet doorgestuurd naar Adobe Audience Manager.
+* **`DMP`**: De bezoeker heeft ervoor gekozen niet meer te delen naar platforms voor gegevensbeheer. Deze dimensie-item is aanwezig wanneer de variabele van de contextgegevens `opt.dmp` equals `N`. Vergelijkbaar met `SSF`, wordt de treffer niet doorgestuurd naar Adobe Audience Manager.
+* **`SELL`**: De bezoeker heeft ervoor gekozen de gegevens niet te delen of aan derden te verkopen. Deze dimensie is aanwezig wanneer de variabele contextgegevens `opt.sell` equals `N`.

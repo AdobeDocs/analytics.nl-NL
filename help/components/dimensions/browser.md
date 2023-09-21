@@ -3,7 +3,7 @@ title: Browser
 description: De naam en versie van de gebruikte browser.
 feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-source-git-commit: 39f1ac66fb6374c62f790f9a38a52fba3bf9bda1
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 1%
@@ -12,17 +12,17 @@ ht-degree: 1%
 
 # Browser
 
-De &#39;[!UICONTROL Browser]&#39;-dimensie rapporteert de naam en versie van de browser die de hit verzendt. Deze dimensie is handig voor het begrijpen van de meest gebruikte browsers die bezoekers gebruiken. Wanneer u nieuwe versies van uw site test, kunt u deze tests uitvoeren in de bovenste browsers in deze dimensie om de inspanningen voor kwaliteitscontrole te maximaliseren.
+De &#39;[!UICONTROL Browser]&#39; [dimensie](overview.md) meldt de naam en versie van de browser die de hit verzendt. Deze dimensie is handig voor het begrijpen van de meest gebruikte browsers die bezoekers gebruiken. Wanneer u nieuwe versies van uw site test, kunt u deze tests uitvoeren in de bovenste browsers in deze dimensie om de inspanningen voor kwaliteitscontrole te maximaliseren.
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar een raadplegingstabel intern aan Adobe. De opzoekwaarde is gebaseerd op de `User-Agent` HTTP-header in afbeeldingsaanvragen. Als u een AppMeasurement-bibliotheek gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak.
+Deze dimensie verwijst naar een raadplegingstabel intern aan Adobe. De opzoekwaarde is gebaseerd op de `User-Agent` HTTP-header in afbeeldingsaanvragen. Als u een bibliotheek met AppMeasurementen gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak.
 
 ## Dimension-items
 
 Dimension-items omvatten de gebruikte browsernamen en -versies. Verschillende versies van dezelfde browser zijn afzonderlijke dimensie-items.
 
-Sommige dimensie-items bevatten `"(unknown version)"` in plaats van hun versienummer. Dit afmetingspunt verwijst naar een recente browser versie die Adobe niet aan hun raadplegingslijsten heeft toegevoegd. Aangezien browsers vaak worden bijgewerkt, worden de `"(unknown version)"` voor een bepaalde browser algemeen en tijdelijk is. Adobe werkt opzoektabellen doorgaans bij tijdens maandelijkse onderhoudsreleases.
+Sommige dimensie-items bevatten `"(unknown version)"` in plaats van hun versienummer. Dit afmetingspunt verwijst naar een recente browser versie die de Adobe niet aan hun raadplegingslijsten heeft toegevoegd. Aangezien browsers vaak worden bijgewerkt, worden de `"(unknown version)"` voor een bepaalde browser algemeen en tijdelijk is. Adobe werkt opzoektabellen doorgaans bij tijdens maandelijkse onderhoudsreleases.
 
 ## Wijzigingen in etikettering en definitie
 

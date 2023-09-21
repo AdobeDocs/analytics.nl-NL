@@ -1,18 +1,18 @@
 ---
-title: Bodt paginaweergaven
+title: Boven pagina weergeven
 description: Het aantal paginaweergaven dat overeenkomt met beide regels.
 feature: Metrics
 exl-id: 9b1efcb1-10ca-40fb-8f20-e6da105366d9
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
 
 ---
 
-# Bodt paginaweergaven
+# Boven pagina weergeven
 
-De maatstaf van de weergave Bot-pagina toont het aantal overeenkomende pagina-hits [Bot-regels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+De weergaven Boot-pagina [metrisch](overview.md) toont het aantal overeenkomende pagina-treffers [Bot-regels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 Aangezien beide rapportages van de rest van uw gegevens van het rapportpakket worden gescheiden, werkt dit metrisch slechts met de volgende afmetingen:
 
@@ -20,7 +20,7 @@ Aangezien beide rapportages van de rest van uw gegevens van het rapportpakket wo
 * [Pagina](../dimensions/page.md)
 * Op tijd gebaseerde afmetingen (bijvoorbeeld [Dag](../dimensions/day.md), [Week](../dimensions/week.md), of [Maand](../dimensions/month.md))
 
-Het gebruiken van een andere afmeting met dit metrisch keert geen gegevens terug.
+Het gebruiken van om het even welke andere afmeting met dit metrisch keert geen gegevens terug.
 
 ## Hoe deze metrische waarde wordt berekend
 

@@ -3,7 +3,7 @@ title: Nieuwe contracten
 description: Het aantal keren dat een eerste aanraakkanaal wordt ingesteld.
 feature: Metrics
 exl-id: a419d048-9715-4d7b-9c24-d34129755371
-source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Nieuwe contracten
 
-De maatstaf &#39;Nieuwe overeenkomsten&#39; toont het aantal keren dat een bezoeker een marketingkanaal aanpast voor het eerst in de betrokkenheidsperiode van die bezoeker. Deze metrische waarde is handig wanneer u een dimensie wilt vergelijken met een bezoeker die voor het eerst een verwerkingsregel voor marketingkanalen toepast.
+De &#39;nieuwe afspraken&#39; [metrisch](overview.md) geeft het aantal keren weer dat een bezoeker een marketingkanaal aanpast voor het eerst in de betrokkenheidsperiode van die bezoeker. Deze metrische waarde is handig wanneer u een dimensie wilt vergelijken met een bezoeker die voor het eerst een verwerkingsregel voor marketingkanalen toepast.
 
 ## Hoe deze metrische waarde wordt berekend
 

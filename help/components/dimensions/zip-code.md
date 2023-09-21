@@ -3,7 +3,7 @@ title: Postcode
 description: De postcode van de bezoeker.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Postcode
 
-De dimensie &#39;Postcode&#39; geeft de postcode of postcode van de bezoeker weer. U kunt deze dimensie gebruiken om meer te begrijpen over het succes van lokale reclame of te zien waar in de wereld uw plaats het best presteert.
+De postcode [dimensie](overview.md) de postcode of postcode van de bezoeker. U kunt deze dimensie gebruiken om meer te begrijpen over het succes van lokale reclame of te zien waar in de wereld uw plaats het best presteert.
 
 ## Deze dimensie vullen met gegevens
 
@@ -25,11 +25,11 @@ De [!UICONTROL Zip option] krachtens [Algemene accountinstellingen](/help/admin/
 
 >[!IMPORTANT]
 >
->De instelling van de rapportsuite is van essentieel belang als u volledige controle wilt over de manier waarop u deze dimensie invult.
+>De instelling van de rapportsuite is van essentieel belang als u volledige controle wilt hebben over de manier waarop u deze dimensie invult.
 
 ## Dimension-items
 
-Dimension-objecten bevatten de postcode of postcode van de bezoeker.
+Dimensionen bevatten de postcode of postcode van de bezoeker.
 
 ## Ondersteunde landen met postcodes
 

@@ -3,7 +3,7 @@ title: Gesloten
 description: Een instantie van de laatste waarde in een bezoek.
 feature: Metrics
 exl-id: 0997ed1f-29b0-403d-9ed2-644a5ff19aef
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 *Deze Help-pagina beschrijft hoe afsluiten werkt als metrisch. Voor informatie over hoe de uitgang als dimensie werkt, zie [Afmetingen afsluiten](../dimensions/exit-dimensions.md).*
 
-De metrische waarde &#39;Afsluiten&#39; toont het aantal keren dat een bepaald dimensie-item wordt vastgelegd als de laatste waarde in een bezoek. Deze maatstaf is handig wanneer u meer wilt weten over het laatste wat bezoekers zien voordat ze uw site verlaten. Door de laatste waarden van een dimensie te zien, kunt u de ervaring begrijpen en optimaliseren die een bezoeker krijgt voordat hij of zij vertrekt.
+De &#39;uitgangen&#39; [metrisch](overview.md) toont het aantal keren dat een bepaald dimensie-item wordt vastgelegd als de laatste waarde in een bezoek. Deze maatstaf is handig wanneer u meer wilt weten over het laatste wat bezoekers zien voordat ze uw site verlaten. Door de laatste waarden van een dimensie te zien, kunt u de ervaring begrijpen en optimaliseren die een bezoeker krijgt voordat hij of zij vertrekt.
 
 ## Hoe deze metrische waarde wordt berekend
 
-Na een [bezoek](visits.md) besluit, registreer het meest recente afmetingspunt als uitgang. Per bezoek bestaat slechts één uitgang. Het is niet noodzakelijkerwijs de laatste hit van het bezoek als de dimensie in eerdere treffers werd vastgesteld. Het is een op bezoek-gebaseerde metrisch; zij is met terugwerkende kracht van toepassing op alle bezoekerslijsten .
+Na een [bezoek](visits.md) besluit, registreer het meest recente afmetingspunt als uitgang. Per bezoek bestaat slechts één uitgang. Het is niet noodzakelijkerwijs de laatste hit van het bezoek als de dimensie in eerdere treffers werd vastgesteld. Het is een op een bezoek gebaseerde meting; het is met terugwerkende kracht van toepassing op alle treffers in het bezoek.
 
 >[!TIP]
 >

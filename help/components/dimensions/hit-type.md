@@ -3,7 +3,7 @@ title: Type hit
 description: Hiermee wordt bepaald of de hit een voor- of achtergrondhit was.
 feature: Dimensions
 exl-id: b922adbb-fe36-46c7-aab2-b9471de07d2f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Type hit
 
-De afmeting &#39;Type kit&#39; bepaalt of een mobiele toepassing zich op de voor- of achtergrond bevond toen de hit naar Adobe-gegevensverzamelingsservers werd verzonden. Deze dimensie is alleen van belang voor rapportensuites die gegevens voor mobiele toepassingen bevatten. Browsergegevens die via AppMeasurement zijn verzameld, rapporteren de treffer altijd als &quot;Voorgrond&quot;.
+Het type Actief [dimensie](overview.md) Hiermee bepaalt u of een mobiele toepassing zich op de voor- of achtergrond bevond toen de hit naar Adobe gegevensverzamelingsservers werd verzonden. Deze dimensie is alleen van belang voor rapportensuites die gegevens voor mobiele toepassingen bevatten. Browsergegevens die via AppMeasurement worden verzameld, rapporteren de treffer altijd als &quot;Voorgrond&quot;.
 
 ## Deze dimensie vullen met gegevens
 
@@ -20,4 +20,4 @@ Deze dimensie werkt buiten het vak voor alle mobiele SDK-implementaties op versi
 
 ## Dimension-items
 
-Dimension-items bevatten `"Foreground"` en `"Background"`. Elke hit die niet op de achtergrond van een mobiele toepassing is verzonden, behoort tot de categorie `"Foreground"` dimensie-item. Elke hit die wordt verzonden waar de mobiele toepassing zich op de achtergrond bevond, behoort tot de `"Background"` dimensie-item.
+Tot Dimension-items behoren `"Foreground"` en `"Background"`. Elke hit die niet op de achtergrond van een mobiele toepassing is verzonden, behoort tot de categorie `"Foreground"` dimensie-item. Elke hit die wordt verzonden waar de mobiele toepassing zich op de achtergrond bevond, behoort tot de `"Background"` dimensie-item.

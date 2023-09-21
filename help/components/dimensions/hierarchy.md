@@ -3,7 +3,7 @@ title: Hiërarchie
 description: Een aangepaste dimensie die u kunt gebruiken in rapporten.
 feature: Dimensions
 exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 1%
@@ -14,15 +14,15 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Deze dimensie is gepensioneerd en geen beschikbare dimensie in Analysis Workspace. Adobe raadt u aan [eVars](evar.md) en classificaties.
+>Deze dimensie is uitgeschakeld en niet beschikbaar [dimensie](overview.md) in Analysis Workspace. Adobe raadt u aan [eVars](evar.md) en classificaties.
 
-De hiërarchieën zijn douanevariabelen die u kunt gebruiken hoe u zou willen. Ze blijven niet bestaan na de hit die ze zijn ingesteld. Er zijn maximaal vijf hiërarchieën beschikbaar als uw contract met Adobe dit ondersteunt.
+De hiërarchieën zijn douanevariabelen die u kunt gebruiken hoe u zou willen. Ze blijven niet bestaan na de treffer die ze zijn ingesteld. Er zijn maximaal vijf hiërarchieën beschikbaar als uw contract met Adobe dit ondersteunt.
 
 ## Hiërarchieën vullen met gegevens
 
-Elke hiërarchie verzamelt gegevens van de [`h1` - `h5` querytekenreeks](/help/implement/validate/query-parameters.md) in afbeeldingsaanvragen. De `h1` de parameter van het vraagkoord verzamelt gegevens voor Hiërarchie 1, terwijl `h4` de parameter van het vraagkoord verzamelt gegevens voor Hiërarchie 4.
+Elke hiërarchie verzamelt gegevens van de [`h1` - `h5` querytekenreeks](/help/implement/validate/query-parameters.md) in afbeeldingsaanvragen. Bijvoorbeeld de `h1` de parameter van het vraagkoord verzamelt gegevens voor Hiërarchie 1, terwijl `h4` de parameter van het vraagkoord verzamelt gegevens voor Hiërarchie 4.
 
-AppMeasurement, waarmee JavaScript-variabelen worden gecompileerd in een afbeeldingsaanvraag voor gegevensverzameling, gebruikt de variabelen `hier1` - `hier5`. Zie [kassier](/help/implement/vars/page-vars/hier.md) in de gebruikershandleiding Implementeren voor implementatierichtlijnen.
+AppMeasurement, dat JavaScript-variabelen compileert in een afbeeldingsaanvraag voor gegevensverzameling, gebruikt de variabelen `hier1` - `hier5`. Zie [kassier](/help/implement/vars/page-vars/hier.md) in de gebruikershandleiding Implementeren voor implementatierichtlijnen.
 
 ## Dimension-items
 

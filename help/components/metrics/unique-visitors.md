@@ -3,7 +3,7 @@ title: Unieke bezoekers
 description: Het aantal unieke bezoeker-id's.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Unieke bezoekers
 
-De metrische waarde &#39;Unieke bezoekers&#39; geeft het aantal bezoeker-id&#39;s voor het dimensie-item aan. Het is één van de gemeenschappelijkste metriek die bij het bepalen van verkeer wordt gebruikt, aangezien het een overzicht op hoog niveau van de populariteit van een afmetingspunt geeft. Een bezoeker kan bijvoorbeeld elke dag een maand naar uw site komen, maar hij telt nog steeds als één unieke bezoeker.
+De &#39;Unieke bezoekers&#39; [metrisch](overview.md) toont het aantal bezoeker-id&#39;s voor het dimensie-item. Het is één van de gemeenschappelijkste metriek die bij het bepalen van verkeer wordt gebruikt, aangezien het een overzicht op hoog niveau van de populariteit van een afmetingspunt geeft. Een bezoeker kan bijvoorbeeld elke dag een maand naar uw site komen, maar hij telt nog steeds als één unieke bezoeker.
 
 Als u [Apparaatanalyse](../cda/overview.md), wordt deze norm vervangen door de [Unieke apparaten](unique-devices.md) metrisch.
 
@@ -24,19 +24,19 @@ Analysis Workspace behandelt unieke bezoekers op basis van de granulariteit van 
 
 ## Hoe deze metrische waarde wordt berekend
 
-Deze metrische waarde telt het aantal unieke bezoeker-id&#39;s voor een bepaald dimensie-item. Het gebruikt veelvoudige geavanceerde mechanismen om unieke bezoekers te identificeren, aangezien er verscheidene manieren zijn om hen te identificeren. De volgende tabel bevat een overzicht van de manier waarop een bezoeker wordt geïdentificeerd, samen met zijn prioriteit. Sommige treffers kunnen veelvoudige methodes van de bezoekersidentificatie hebben; in deze gevallen wordt de methode met hogere prioriteit gebruikt .
+Deze metrische waarde telt het aantal unieke bezoeker-id&#39;s voor een bepaald dimensie-item. Het gebruikt veelvoudige geavanceerde mechanismen om unieke bezoekers te identificeren, aangezien er verscheidene manieren zijn om hen te identificeren. De volgende tabel bevat een overzicht van de manier waarop een bezoeker wordt geïdentificeerd, samen met zijn prioriteit. Sommige treffers kunnen veelvoudige methodes van de bezoekersidentificatie hebben; in deze gevallen wordt de hogere prioritaire methode gebruikt.
 
 | Volgorde gebruikt | Query-parameter (verzamelingsmethode) | presenteren als |
 | --- | --- | --- |
 | 1 | `vid` | De [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variable is set. |
 | 2 | `aid` | Bezoeker heeft een bestaande [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Plaats op implementaties zonder of voorafgaand aan het uitvoeren van de dienst van identiteitskaart van de Bezoeker. |
-| 3 | `mid` | Bezoeker heeft een bestaande [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Bij implementaties instellen met de opdracht [Adobe Experience Cloud Identity-service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | `mid` | Bezoeker heeft een bestaande [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Instellen bij implementaties met de opdracht [Adobe Experience Cloud Identity-service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 4 | `fid` | Bezoeker heeft een bestaande [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie, of als `aid` en `mid` kan om geen enkele reden worden ingesteld. |
 | 5 | IP Adres, de Agent van de Gebruiker, IP van de Gateway Adres | Laatste middel om een unieke bezoeker te identificeren als de browser van de bezoeker geen cookies accepteert. |
 
 >[!NOTE]
 >
->Elke Analyse-bezoeker die aan een profiel op Adobe-id is gekoppeld, is gekoppeld. Deze bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
+>Elke bezoeker-id van Analytics is gekoppeld aan een profiel op de servers van de Adobe. Deze bezoekersprofielen worden na ten minste 13 maanden inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker.
 
 ## Gedrag dat van invloed is op het aantal unieke bezoekers
 

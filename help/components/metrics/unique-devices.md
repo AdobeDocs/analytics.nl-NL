@@ -3,7 +3,7 @@ title: Unieke apparaten
 description: Het aantal unieke apparaten.
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Unieke apparaten
 
-De metrische waarde &#39;Unieke apparaten&#39; is een [Apparaatanalyse](../cda/overview.md) metrisch die het aantal unieke niet-geïdentificeerde apparaten en unieke virtuele apparaten telt. Niet-geïdentificeerde apparaten zijn apparaten die anonieme hits hebben gegenereerd. Unieke virtuele apparaten zijn verschillende personen die per apparaat worden geïdentificeerd.
+De &#39;Unieke apparaten&#39; [metrisch](overview.md) is een [Apparaatanalyse](../cda/overview.md) metrisch die het aantal unieke niet-geïdentificeerde apparaten en unieke virtuele apparaten telt. Niet-geïdentificeerde apparaten zijn apparaten die anonieme hits hebben gegenereerd. Unieke virtuele apparaten zijn verschillende personen die per apparaat worden geïdentificeerd.
 
 ## Hoe deze metrische waarde wordt berekend
 
