@@ -3,16 +3,16 @@ title: products
 description: Gegevens verzenden over het product of de producten die worden weergegeven of in het winkelwagentje.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+source-git-commit: 19bb3da46637bf8afc4e5723e2fa28b490e09c88
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
 # products
 
-De `products` met variabele tracks kunt u producten en eigenschappen bijhouden die aan deze producten zijn gekoppeld. Deze variabele wordt doorgaans ingesteld op afzonderlijke productpagina&#39;s, winkelwagenpagina&#39;s en pagina&#39;s met aankoopbevestiging. Dit is een variabele met meerdere waarden. Dit betekent dat u meerdere producten in dezelfde hit kunt verzenden en dat Adobe de waarde parseert in verschillende dimensieitems.
+De `products` met variabele tracks kunt u producten en eigenschappen bijhouden die aan deze producten zijn gekoppeld. Deze variabele wordt doorgaans ingesteld op afzonderlijke productpagina&#39;s, winkelwagenpagina&#39;s en pagina&#39;s met aankoopbevestiging. Dit is een variabele met meerdere waarden. Dit betekent dat u meerdere producten in dezelfde hit kunt verzenden en dat de Adobe de waarde parseert in verschillende dimensieitems.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ De `products` met variabele tracks kunt u producten en eigenschappen bijhouden d
 
 Producten zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) onder verschillende XDM-velden:
 
-* Categorie is toegewezen aan `productListItems[].lineItemId`.
+* Categorie is toegewezen aan `productListItems[].productCategories[].categoryID`. Het gebruikt het eerste item in de `productCategories[]` array. `lineItemId` ook kaarten correct, maar wij adviseren `categoryID` omdat dit standaard XDM is. Als beide XDM-velden aanwezig zijn `lineItemId` heeft voorrang.
 * Product is toegewezen aan `productListItems[].SKU` of `productListItems[].name`. Als beide XDM-velden aanwezig zijn, `productListItems[].SKU` wordt gebruikt.
 * Aantal is toegewezen aan `productListItems[].quantity`.
 * Prijs is toegewezen aan `productListItems[].priceTotal`.
@@ -31,11 +31,11 @@ Producten zijn [toegewezen voor Adobe Analytics](https://experienceleague.adobe.
 
 >[!NOTE]
 >
->`lineItemId` moet worden toegevoegd als een aangepast veld omdat dit nog geen deel uitmaakt van het standaardschema voor analysegebeurtenissen. Adobe is van plan in de toekomst een speciaal veld &#39;Categorie&#39; toe te voegen.
+>`lineItemId` moet worden toegevoegd als een aangepast veld omdat dit nog geen deel uitmaakt van het standaardschema voor analysegebeurtenissen. De Adobe is van plan in de toekomst een speciaal veld &#39;Categorie&#39; toe te voegen.
 
 ## Producten die de extensie Adobe Analytics gebruiken
 
-Er is geen specifiek veld in Adobe Experience Platform Data Collection om deze variabele in te stellen; er zijn echter meerdere extensies van derden die u helpen.
+Er is geen specifiek veld in de gegevensverzameling van Adobe Experience Platform om deze variabele in te stellen. Er zijn echter meerdere extensies van derden voor hulp.
 
 1. Aanmelden bij [Adobe Experience Platform-gegevensverzameling](https://experience.adobe.com/data-collection) met uw Adobe-id-referenties.
 2. Klik op de gewenste tageigenschap.
@@ -48,12 +48,12 @@ U kunt een van deze extensies gebruiken, maar u kunt ook de aangepaste code-edit
 
 De `s.products` variabele is een tekenreeks die meerdere gescheiden velden per product bevat. Elk veld scheiden met een puntkomma (`;`) in de tekenreeks.
 
-* **Categorie** (optioneel): De productcategorie. De maximumlengte voor dit veld is 100 bytes.
-* **Productnaam** (vereist): De naam van het product. De maximumlengte voor dit veld is 100 bytes.
-* **Aantal** (optioneel): Hoeveel van dit product zit in de kar. Dit veld is alleen van toepassing op hits met de koopgebeurtenis.
-* **Prijs** (optioneel): De totale prijs van het product als decimaal. Indien meer dan één hoeveelheid is, de totale prijs en niet de individuele productprijs. De valuta van deze waarde aanpassen aan de [`currencyCode`](../config-vars/currencycode.md) variabele. Plaats het valutasymbool niet in dit veld. Dit veld is alleen van toepassing op hits met de koopgebeurtenis.
+* **Categorie** (facultatief): de productcategorie. De maximumlengte voor dit veld is 100 bytes.
+* **Productnaam** (vereist): de naam van het product. De maximumlengte voor dit veld is 100 bytes.
+* **Aantal** (facultatief): hoeveel van dit product in de kar is. Dit veld is alleen van toepassing op hits met de koopgebeurtenis.
+* **Prijs** (facultatief): de totale prijs van het product als decimaal. Indien meer dan één hoeveelheid is, de totale prijs en niet de individuele productprijs. De valuta van deze waarde aanpassen aan de [`currencyCode`](../config-vars/currencycode.md) variabele. Plaats het valutasymbool niet in dit veld. Dit veld is alleen van toepassing op hits met de koopgebeurtenis.
 * **Gebeurtenissen** (optioneel): Gebeurtenissen die aan het product zijn gekoppeld. Meerdere gebeurtenissen scheiden met een pipe (`|`). Zie [gebeurtenissen](events/events-overview.md) voor meer informatie .
-* **eVars** (optioneel): Merchandising eVars gekoppeld aan het product. Meerdere handelsmerken scheiden met een pipe (`|`). Zie [merchandising Vars](evar-merchandising.md) voor meer informatie .
+* **eVars** (facultatief): aan het product gekoppelde handelsmerken. Meerdere handelsmerken scheiden met een pipe (`|`). Zie [merchandising Vars](evar-merchandising.md) voor meer informatie .
 
 ```js
 // Set a single product using all available fields
@@ -69,11 +69,11 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!WARNING]
 >
->Hiermee kunt u alle puntkomma&#39;s, komma&#39;s en eVar uit productnamen, categorieën en waarden voor het wijzigen van handelswaarden verwijderen. Als een productnaam een komma bevat, wordt deze door AppMeasurement als het begin van een nieuw product geparseerd. Door deze onjuiste parsering wordt de rest van de productreeks verwijderd, waardoor onjuiste gegevens in afmetingen en rapporten ontstaan.
+>Hiermee kunt u alle puntkomma&#39;s, komma&#39;s en pijpen van productnamen, categorieën en waarden voor eVar voor handelsdoeleinden verwijderen. Als een productnaam een komma bevat, wordt deze door AppMeasurement geparseerd als het begin van een nieuw product. Door deze onjuiste parsering wordt de rest van de productreeks verwijderd, waardoor onjuiste gegevens in afmetingen en rapporten ontstaan.
 
 ## Voorbeelden
 
-De `products` variabele is flexibel wanneer velden worden weggelaten en meerdere producten worden opgenomen. Dankzij deze flexibiliteit kunt u gemakkelijk een scheidingsteken missen, waardoor uw implementatie onjuiste gegevens naar Adobe stuurt.
+De `products` variabele is flexibel wanneer velden worden weggelaten en meerdere producten worden opgenomen. Dankzij deze flexibiliteit kunt u gemakkelijk een scheidingsteken missen, waardoor uw implementatie onjuiste gegevens naar de Adobe stuurt.
 
 ```js
 // Include only product and category. Common on individual product pages
