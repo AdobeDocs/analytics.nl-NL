@@ -4,7 +4,7 @@ title: Bijdrageanalyse uitvoeren
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Bijdrageanalyse uitvoeren
 
-De bijdrageanalyse is een intensief machinaal leerproces dat bedoeld is om contribuanten aan een waargenomen anomalie in Adobe Analytics aan het licht te brengen. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
+[Bijdrage-analyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) is een intensief machinaal leerproces dat is ontworpen om contribuanten aan een waargenomen anomalie in Adobe Analytics aan het licht te brengen. De bedoeling is de gebruiker te helpen om gebieden van nadruk of mogelijkheden voor extra analyse veel sneller te vinden dan anders mogelijk zou zijn.
 
 ## Bijdrageanalyse uitvoeren {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
@@ -60,14 +60,14 @@ Er zijn twee manieren om een beroep te doen op de analyse van de bijdrage in een
 
 Het kan voorkomen dat u bepaalde dimensies wilt uitsluiten van de Contribute-analyse. Het kan bijvoorbeeld zijn dat u helemaal niets aan uw browser of hardware kunt schelen en dat u de analyse wilt versnellen door deze te verwijderen.
 
-1. Nadat u hebt geklikt **[!UICONTROL Run Contribution Analysis]** (of **[!UICONTROL Analyze]** in een lijngrafiek), de **[!UICONTROL Excluded Dimensions]** wordt weergegeven.
+1. Na het klikken **[!UICONTROL Run Contribution Analysis]** (of **[!UICONTROL Analyze]** in een lijngrafiek), de **[!UICONTROL Excluded Dimensions]** wordt weergegeven.
 
 1. Sleep alleen ongewenste afmetingen naar de **[!UICONTROL Excluded Dimensions]** en sla de lijst vervolgens op door op **[!UICONTROL Set as Default]**. Of klik op **[!UICONTROL Clear All]** om opnieuw te beginnen met het selecteren van afmetingen die moeten worden uitgesloten.
 
    ![](assets/exclude_dimensions.png)
 
 1. Nadat u de afmetingen hebt toegevoegd om uit te sluiten (of ervoor hebt gekozen niet om te kiezen), klikt u op **[!UICONTROL Run Contribution Analysis]** opnieuw.
-1. Als u ooit de lijst van uitgesloten afmetingen moet herzien, enkel dubbelklik Dimension, en de lijst van uitgesloten dimensies toont:
+1. Als u ooit de lijst van uitgesloten afmetingen moet herzien, enkel dubbelklik Dimensionen, en de lijst van uitgesloten dimensies toont:
 
    ![](assets/excluded-dimensions.png)
 

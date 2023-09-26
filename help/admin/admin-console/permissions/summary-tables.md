@@ -3,7 +3,7 @@ title: Adobe Analytics-machtigingen - overzichtstabellen
 description: Tabellen waarin een overzicht wordt gegeven van de beschikbare Adobe Analytics-machtigingen in Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 4%
@@ -56,7 +56,7 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Afbeelding |  |  |  | x | Niet gebruikt. |
 | KPI/Gage ReportLet |  |  |  | x | Niet gebruikt. |
 | Laatste 100 bezoekers |  |  |  | x | Niet gebruikt. |
-| Oudere ClickMap |  |  |  | x | Niet gebruikt. Gebruik in plaats hiervan Activity Map onder Analytics Tools. |
+| Legacy ClickMap |  |  |  | x | Niet gebruikt. Gebruik in plaats hiervan Activity Map onder Analytics Tools. |
 | Oudere installatie van Clickmap |  |  |  | x | Niet gebruikt. Gebruik in plaats hiervan Activity Map onder Analytics Tools. |
 | Overzichtsrapport van mobiele app |  |  |  | x | Niet gebruikt. |
 | Totalen van rapportsuite |  |  |  | x | Niet gebruikt. |
@@ -69,6 +69,8 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Overzichtsrapport voor gebruik |  |  |  | x | Niet gebruikt. |
 | Video-instellingen |  |  |  | x | Niet gebruikt. |
 | Webbronnen |  |  |  | x | Niet gebruikt. |
+
+{style="table-layout:auto"}
 
 ## Analysegereedschappen
 
@@ -95,9 +97,9 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Analysis Workspace: Opslaan als sjabloon |  | x |  |  | Hiermee krijgt u toegang tot Project > Opslaan als sjabloon in Analysis Workspace. |
 | Berekend metrisch ontwerp |  | x |  |  | Biedt de mogelijkheid berekende metriek te maken voor alle analysemogelijkheden. |
 | Toegang tot labs |  | x |  |  | Biedt toegang tot Labs. |
-| Report Builder |  | x |  |  | Hiermee schakelt u de downloadknop in onder Extra > Report Builder en kan de gebruiker in Microsoft Excel verifiëren. |
+| Report Builder |  | x |  |  | Hiermee schakelt u de downloadknop in onder Opties > Report Builder en kan de gebruiker in Microsoft Excel verifiëren. |
 | Segment maken |  | x |  |  | Biedt de mogelijkheid om segmenten te maken en te delen met alle analysemogelijkheden. |
-| Segmentpublicatie |  | x |  |  | Biedt de mogelijkheid om een segment tot een Experience Cloud-publiek te maken wanneer u een segment maakt of bewerkt. |
+| Segmentpublicatie |  | x |  |  | Biedt de mogelijkheid om van een segment een publiek in het Experience Cloud te maken wanneer u een segment maakt of bewerkt. |
 | Webservicetoegang |  | x |  |  | Biedt de mogelijkheid om de API te gebruiken, inclusief verificatie met sites van derden en het verzenden van API-aanroepen. |
 | Huidige data |  |  | x |  | Hiermee schakelt u de optie in om de huidige gegevens in rapporten en analyses weer te geven. |
 | Toegang tot rapporten en analyses |  |  | x |  | Hiermee krijgt u toegang tot rapporten en analyses. Gebruikers moeten tot deze groep of Analysis Workspace Access (voorkeur) behoren om Adobe Analytics te kunnen gebruiken. |
@@ -110,3 +112,5 @@ Gebruik de volgende overzichtstabellen om de toestemmingen van Adobe Analytics i
 | Machtigingen (schrijven) - Webservices |  |  |  | x | Niet meer gebruikt. Hiermee kan de gebruiker de machtigingen voor verouderde analyses bewerken met de Admin API. Gebruik in plaats hiervan de Adobe Admin Console. |
 | Voorkeuren |  |  |  | x | Niet gebruikt. |
 | Single Sign-On |  |  |  | x | Niet meer gebruikt. Verleent toegang tot de vervangen Enige Sign-On Dienst. |
+
+{style="table-layout:auto"}
