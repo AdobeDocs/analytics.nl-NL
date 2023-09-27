@@ -3,10 +3,10 @@ title: Productprofielmachtigingen voor Report Suite Tools in Adobe Admin Console
 description: Begrijp elk toestemmingspunt onder de Hulpmiddelen van de Reeks van het Rapport.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 0%
+source-wordcount: '518'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ Gebruik deze pagina om elk machtigingsitem onder Report Suite Tools in Adobe Adm
 | Machtigingsitem voor Reeks-gereedschappen rapporteren | Beschrijving |
 |------|------|
 | [!UICONTROL Account Summary] | Hiermee krijgt u toegang tot Algemeen > Algemene accountinstellingen in Report Suite Manager. |
-| [!UICONTROL Advertising Analytics Configuration] | Biedt toegang tot alle aspecten van het opzetten van Advertising Analytics. |
+| [!UICONTROL Advertising Analytics Configuration] | Hiermee kunnen gebruikers rapportsuites configureren die moeten worden ingericht voor Advertising Analytics. |
 | [!UICONTROL Anomaly Detection] | Biedt toegang tot Anomaly Detection in Analysis Workspace. |
 | [!UICONTROL Bot Pages] | Hiermee krijgt u toegang tot Metrische gegevens van site > Bots > Rapport Bodempagina&#39;s in rapporten en analyses. |
 | [!UICONTROL Bots] | Hiermee krijgt u toegang tot Sitemetriek > Bots > Bots-rapport in Rapporten en Analytics. |
@@ -44,8 +44,8 @@ Gebruik deze pagina om elk machtigingsitem onder Report Suite Tools in Adobe Adm
 | [!UICONTROL RealTime Report] | Hiermee krijgt u toegang tot Sitemetriek > Real-time in Rapporten en Analytics. Gebruik het toestemmingspunt &quot;Echt - de Configuratie van het tijdRapport&quot;om toegang tot opstelling te verlenen dit rapport. |
 | [!UICONTROL Real Time Report Configuration] | Verleent toegang tot Echt - tijd in de Manager van de Reeks van het Rapport. Gebruik het toestemmingspunt &quot;Rapport RealTime&quot;om toegang tot het rapport zelf te verlenen. |
 | [!UICONTROL Return Visits] | Hiermee krijgt u toegang tot Bezoekersbewaring > Bezoekopdrachten in Rapporten en Analyse. |
-| [!UICONTROL Reporting Activity Manager Admins] | Hiermee krijgt u toegang tot de detailpagina en kunt u aanvragen annuleren. |
-| [!UICONTROL Reporting Activity Manager Access] |  |
+| [!UICONTROL Reporting Activity Manager Admins] | TBD |
+| [!UICONTROL Reporting Activity Manager Access] | TBD |
 | [!UICONTROL Report Suite Mgmt] | Hiermee krijgt u toegang tot Rapportsuite Manager, maar wijzigingen zijn niet toegestaan. |
 | [!UICONTROL R&A Dashboard Image Reportlet] | Niet gebruikt |
 | [!UICONTROL R&A Dashboard Metric Gauge Reportlet] | Niet gebruikt |

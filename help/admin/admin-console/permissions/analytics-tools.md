@@ -3,10 +3,10 @@ title: Machtigingen voor productprofielen voor Analytics Tools
 description: Gebruik de machtigingsitems Analytics Tools om toegang te verlenen tot functies in Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 0%
+source-wordcount: '414'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ Met de machtigingsitems Analytics Tools hebt u toegang tot functies in Adobe Ana
 | Machtigingsitem Analytics | Beschrijving |
 |----|----|
 | [!UICONTROL Activity Map] | Hiermee krijgt u toegang tot Gereedschappen > Activity Map. Hiermee kan de gebruiker de extensie Activity Map gebruiken. |
-| [!UICONTROL Advertising Analytics Management] | Niet gebruikt. |
+| [!UICONTROL Advertising Analytics Management] | Hiermee kunnen gebruikers zoekaccounts voor advertenties instellen/bewerken/weergeven. |
 | [!UICONTROL Analysis Workspace Access] | Biedt toegang tot Analysis Workspace. Gebruikers moeten tot deze groep (voorkeur) of Rapporten &amp; Toegang Analytics behoren om Adobe Analytics te kunnen gebruiken. |
 | [!UICONTROL Analysis Workspace: Save As Template] | Hiermee krijgt u toegang tot Project > Opslaan als sjabloon in Analysis Workspace. |
 | [!UICONTROL Annotation Creation] | Hiermee kunt u annotaties maken. |
