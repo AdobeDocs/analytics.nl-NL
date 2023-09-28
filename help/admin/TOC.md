@@ -4,9 +4,11 @@ audience: admin
 user-guide-title: Analytics Admin-handleiding
 breadcrumb-title: Beheerdershandleiding
 user-guide-description: Leer over Analytics beheerderstaken, zoals het beheren van gebruikers en producten in de Admin Console van Experience Cloud, het configureren van rapportreeksen, en meer.
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+hide: true
+hidefromtoc: true
+source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '633'
 ht-degree: 72%
 
 ---
@@ -25,13 +27,14 @@ ht-degree: 72%
       + [Productprofielen voor Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Machtigingen voor productprofielen voor rapportsuite](admin-console/permissions/report-suite-tools.md)
       + [Machtigingen voor productprofielen voor Analytics Tools](admin-console/permissions/analytics-tools.md)
-+ Analysebeheerfuncties {#admin-tools}
++ Gereedschappen voor analysebeheer {#admin-tools}
    + [Overzicht van beheerprogramma&#39;s](admin/c-admin-tools.md)
    + [Code Manager](admin/code-manager-admin.md)
    + [Databronnen](admin/data-sources.md)
    + [Uitsluiten op IP-adres](admin/exclude-ip.md)
    + [Logboeken](admin/logs.md)
    + [Activity Manager rapporteren](admin/reporting-activity.md)
+   + [Componentmigratie](admin/component-migration.md)
    + Report Suite Manager {#manage-report-suites}
       + Instellingen van een rapportsuite bewerken {#edit-report-suite}
          + Algemeen {#report-suite-general}
@@ -79,7 +82,7 @@ ht-degree: 72%
                + [Implementatie van server-side doorsturen controleren](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [Veelgestelde vragen over server-side doorsturen](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + Verkeer {#traffic-variables}
-            + [Verkeersvariabelen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+            + [verkeersvariabelen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [Verkeersclassificaties](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Aangepaste rapportbeschrijvingen](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + Conversie {#conversion-variables}
