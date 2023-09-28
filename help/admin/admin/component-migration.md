@@ -2,10 +2,10 @@
 description: Verklaart hoe te om componenten en projecten van Adobe Analytics aan Customer Journey Analytics te migreren.
 title: Componenten en projecten migreren van Adobe Analytics naar Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
+source-git-commit: 73cbfbbad4d8e7bb3107ee08861a6342aba85e84
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 0%
+source-wordcount: '1133'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,9 @@ Het migratieproces omvat:
 
   Sommige dimensies en metriek komen automatisch overeen; andere moet u handmatig afstemmen als onderdeel van het migratieproces.
 
-## Vereisten
+## Een migratie voorbereiden
+
+### Vereisten
 
 Voordat uw projecten en de bijbehorende dimensies en metriek gereed zijn voor migratie, moet u eerst het volgende doen:
 
@@ -37,7 +39,36 @@ Voordat uw projecten en de bijbehorende dimensies en metriek gereed zijn voor mi
 
   Het tabblad Machtigingen maakt deel uit van elk productprofiel in Admin Console. U kunt gebruikers toevoegen aan specifieke productprofielen. Vervolgens wijst u rechten toe aan specifieke gegevensweergaven en geeft u op welke machtigingen de gebruikers in een productprofiel hebben.
 
-## Een migratieplan maken als organisatie
+* Maak een migratieplan, zoals beschreven in de onderstaande sectie; [Een migratieplan maken als organisatie](#create-a-migration-plan-as-an-organization).
+
+### Begrijpen wat er in een migratie is opgenomen
+
+In de volgende tabel wordt aangegeven welke elementen van een project en component zijn opgenomen in een migratie:
+
+
+|  | Projecten | Dimensionen en cijfers |
+|---------|----------|---------|
+| **Datumbereiken** | Ja | N.v.t. |
+| **Segmenten** | Ja | N.v.t. |
+| **Snelle segmenten** | Ja | N.v.t. |
+| **Deelvensters** | Ja | N.v.t. |
+| **Visualisaties** | Ja | N.v.t. |
+| **Eigenaar** | (Gedefinieerd door gebruiker die de migratie uitvoert) | ? |
+| **Curation** | Nee | N.v.t. |
+| **Delen (projectrollen)** | Nee | Nee |
+| **Annotaties** | Nee | N.v.t. |
+| **Mapstructuur** | Nee | N.v.t. |
+| **Beschrijvingen** | Ja | ? |
+| **Tags** | ? | ? |
+| **Planningen** | ? | N.v.t. |
+| **Attributie (op afmetingen)** | N.v.t. | ? |
+| **Anomaliedetectie** | ? | N.v.t. |
+| **Contributieanalyse** | ? | N.v.t. |
+| **Waarschuwingen** | ? | N.v.t. |
+
+{style="table-layout:auto"}
+
+### Een migratieplan maken als organisatie
 
 Omdat om het even welke componenten die voor een bepaalde projectmigratie worden aangepast op om het even welke toekomstige projectmigraties voor de volledige organisatie van toepassing zijn, is het belangrijk dat uw organisatie alle projectmigraties vooraf plant.
 
@@ -49,7 +80,7 @@ U zou als organisatie moeten beslissen welke afmetingen en metriek zullen worden
 >
 >Voordat u projecten migreert naar Customer Journey Analytics, zoals wordt beschreven in deze sectie, moet u meer weten over migrerende projecten in het deelvenster [De migratie plannen](#plan-the-migration) hierboven.
 >
->Alle dimensies of metriek die u aanpast, zijn permanent, zowel voor dit project als voor alle toekomstige projecten die door uw volledige organisatie worden gemigreerd. Als u doorgaat, kunnen de overeenkomsten die u aanbrengt niet worden gewijzigd.
+>Alle dimensies of metriek die u aanpast, zijn permanent, zowel voor dit project als voor alle toekomstige projecten die door uw volledige organisatie worden gemigreerd. De overeenkomsten die u aanbrengt, kunnen niet worden gewijzigd.
 
 
 
