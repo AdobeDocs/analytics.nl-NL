@@ -4,16 +4,16 @@ title: Componenten en projecten migreren van Adobe Analytics naar Customer Journ
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 94041993f624fc5253929a92475842311c125799
+source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 3%
+source-wordcount: '1784'
+ht-degree: 1%
 
 ---
 
 # Componenten en projecten migreren van Adobe Analytics naar Customer Journey Analytics
 
-Adobe Analytics-beheerders kunnen Adobe Analytics-componenten en -projecten migreren naar Customer Journey Analytics.
+Adobe Analytics-beheerders kunnen Adobe Analytics-projecten en de bijbehorende onderdelen migreren naar Customer Journey Analytics.
 
 Het migratieproces omvat:
 
@@ -21,15 +21,17 @@ Het migratieproces omvat:
 
 * De dimensies en metriek van de afbeelding van Adobe Analytics melden reeksen aan dimensies en metriek in de mening van de gegevens van de Customer Journey Analytics.
 
-  Sommige dimensies en metriek worden automatisch toegewezen; andere moet u handmatig toewijzen als onderdeel van het migratieproces.
+  Sommige dimensies en metriek worden automatisch toegewezen; andere moet u handmatig toewijzen als onderdeel van het migratieproces. Segmenten worden ook gemigreerd, maar hoeven niet in kaart te worden gebracht als onderdeel van het migratieproces.
+
+  Alle gemigreerde componenten worden in het migratiesamenvatting weergegeven wanneer de migratie is voltooid.
 
 ## Een migratie voorbereiden
 
-Voordat u begint met het migreren van projecten in uw organisatie, moet u aan alle voorwaarden voldoen, leren wat wel en niet wordt gemigreerd en een migratieplan voor uw organisatie maken.
+Voordat iemand in uw organisatie met het migreren van projecten begint, moet u de volgende secties voltooien.
 
 ### Vereisten
 
-Voordat uw projecten en de bijbehorende dimensies en metriek gereed zijn voor migratie, moet u eerst het volgende doen:
+Voordat uw projecten en de bijbehorende componenten kunnen worden gemigreerd, moet u eerst het volgende doen:
 
 * Gebruik de bronschakelaar van de Analyse om de gegevens van de het rapportreeks van Adobe Analytics in Customer Journey Analytics te bekijken. Om dat te doen, moet u:
 
@@ -47,30 +49,72 @@ Voordat uw projecten en de bijbehorende dimensies en metriek gereed zijn voor mi
 
 ### Begrijpen wat er in een migratie is opgenomen
 
-In de volgende tabel wordt aangegeven welke elementen van een project en component zijn opgenomen in een migratie:
+In de volgende tabellen wordt aangegeven welke elementen van een project en component zijn opgenomen in een migratie:
 
+#### Componentelementen die worden gemigreerd
 
-|  | Projecten | Dimensionen en cijfers |
-|---------|----------|---------|
-| **Datumbereiken** | Ja | N.v.t. |
-| **Segmenten** | Ja | N.v.t. |
-| **Snelle segmenten** | Ja | N.v.t. |
-| **Deelvensters** | Ja | N.v.t. |
-| **Visualisaties** | Ja | N.v.t. |
-| **Eigenaar** | (Gedefinieerd door gebruiker die de migratie uitvoert) | ? |
-| **Curation** | Nee | N.v.t. |
-| **Delen (projectrollen)** | Nee | Nee |
-| **Annotaties** | Nee | N.v.t. |
-| **Mapstructuur** | Nee | N.v.t. |
-| **Beschrijvingen** | Ja | ? |
-| **Tags** | ? | ? |
-| **Planningen** | ? | N.v.t. |
-| **Attributie (op afmetingen)** | N.v.t. | ? |
-| **Anomaliedetectie** | ? | N.v.t. |
-| **Contributieanalyse** | ? | N.v.t. |
-| **Waarschuwingen** | ? | N.v.t. |
+|  | Gegigreerd |
+|---------|---------|
+| **[Eigenaar](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) |
+| **[Delen](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Nee |
+| **[Beschrijvingen](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
+| **[Tags](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Nee |
+| **[Attributie (op afmetingen)](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
 
 {style="table-layout:auto"}
+
+#### Projectelementen die worden gemigreerd
+
+|  | Gegigreerd |
+|---------|----------|
+| **[Datumbereiken](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) |
+| **[Segmenten](/help/components/segmentation/seg-overview.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) |
+| **[Snelle segmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) |
+| **[Dimensies](/help/components/dimensions/overview.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) Automatisch of handmatig toegewezen |
+| **[Cijfers](/help/components/metrics/overview.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) Automatisch of handmatig toegewezen |
+| **[Deelvensters](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) |
+| **[Visualisaties](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) |
+| **[Eigenaar](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) Gedefinieerd door gebruiker die de migratie uitvoert |
+| **[Curation](/help/analyze/analysis-workspace/curate-share/curate.md)** | Nee |
+| **[Delen (projectrollen)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Nee |
+| **[Delen (delen met een willekeurige koppeling)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[Annotaties](/help/analyze/analysis-workspace/components/annotations/overview.md)** | Nee |
+| **[Mapstructuur](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | Nee |
+| **[Beschrijvingen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![vinkje](assets/Smock_Checkmark_18_N.svg) |
+| **[Tags](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | Nee |
+| **[Planningen](/help/components/scheduled-projects-manager.md)** | Nee |
+| **[Anomaliedetectie](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
+| **[Favorieten](/help/analyze/landing.md)** | ? |
+
+{style="table-layout:auto"}
+
+### Niet-ondersteunde elementen begrijpen die fouten veroorzaken
+
+De volgende visualisaties, deelvensters en functies worden niet ondersteund in Customer Journey Analytics. Wanneer deze elementen in een project vóór migratie zijn opgenomen, kunnen ze ervoor zorgen dat de migratie mislukt of dat er fouten optreden nadat het project is gemigreerd.
+
+Verwijder deze elementen uit het Adobe Analytics-project voordat u het project naar de Customer Journey Analytics migreert. Als een migratie mislukt, verwijdert u deze elementen voordat u de migratie opnieuw probeert.
+
+#### Niet-ondersteunde visualisaties
+
+* [Kaart](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
+
+#### Niet-ondersteunde deelvensters
+
+* [Analyses voor doel (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
+
+* [Segmentvergelijking](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+
+* [Gemiddelde mediumgeluid](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
+
+* [Volgende of vorige item](/help/analyze/analysis-workspace/c-panels/next-previous.md)
+
+* [Overzicht van pagina](/help/analyze/analysis-workspace/c-panels/page-summary.md)
+
+#### Niet-ondersteunde functies
+
+* [Contributieanalyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+
+* [Waarschuwingen](/help/components/c-alerts/intellligent-alerts.md)
 
 ### Een migratieplan maken als organisatie
 
