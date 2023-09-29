@@ -4,9 +4,9 @@ title: Componenten en projecten migreren van Adobe Analytics naar Customer Journ
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
+source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1974'
 ht-degree: 1%
 
 ---
@@ -116,11 +116,89 @@ Verwijder deze elementen uit het Adobe Analytics-project voordat u het project n
 
 * [Waarschuwingen](/help/components/c-alerts/intellligent-alerts.md)
 
-### Een migratieplan maken als organisatie
+### Bepaal als organisatie hoe u niet-ondersteunde componenten in kaart brengt
 
-Omdat om het even welke componenten die voor een bepaalde projectmigratie in kaart worden gebracht op om het even welke toekomstige projectmigraties voor de volledige organisatie van toepassing zijn, is het belangrijk dat uw organisatie alle projectmigraties vooraf plant.
+>[!IMPORTANT]
+>
+>Het migratieproces identificeert componenten in uw Adobe Analytics-project die niet automatisch aan componenten in Customer Journey Analytics kunnen worden toegewezen, en het staat u toe om hen manueel in kaart te brengen.
+>
+>**Om het even welke afbeeldingen die op één project worden gemaakt zijn op alle toekomstige projecten over uw volledige organisatie van toepassing, ongeacht welke gebruiker de migratie uitvoert. Deze toewijzingen kunnen alleen worden gewijzigd of ongedaan gemaakt door contact op te nemen met de klantenservice.**
+>
+>Daarom is het belangrijk dat uw organisatie bepaalt hoe dimensies en metriek worden toegewezen voordat projecten worden gemigreerd. Als u dit doet, voorkomt u dat afzonderlijke beheerders beslissingen nemen in een silo wanneer u slechts één project overweegt.
+>
+>Hier volgt een lijst met afmetingen en metriek die u handmatig moet toewijzen als deze in uw project bestaan. We raden u aan deze lijst vóór uw migratie te herzien. Als om het even welk van deze componenten in uw project bestaan, besluit nu welke componenten van de Customer Journey Analytics u hen aan in kaart zult brengen.
 
-Als organisatie moet u bepalen hoe dimensies en metriek worden toegewezen. Als u dit doet, voorkomt u dat afzonderlijke beheerders beslissingen nemen in een silo wanneer u slechts één project overweegt.
+
+#### Niet-ondersteunde afmetingen
+
+* averagepagetime
+* pagetimeseconds
+* singlepagevisits
+* bezoeker
+* tijdvoorafgaande
+* tijdsbestek
+* categorie
+* connectiontype
+* klantentrouw
+* customlink
+* downloadlink
+* exitlink
+* hitte
+* hittype
+* padlengte
+* daysbefore firstpurchase
+* dayssincelastaankoop
+* dayssincelastbezoek
+* identificatiestaat
+* optoverraad
+* aanhoudend cookie
+* retourfrequentie
+* zoekmachine
+* searchenginenaturaltrefwoord
+* mobiel
+* monitorresolutie
+* landmeter
+* mcaudiëntie
+* tntbase
+* doelwit
+
+
+#### Niet-ondersteunde metriek
+
+* timespentbezoek
+* timespentbezoeker
+* herladen
+* golven
+* bouncering
+* pageevents
+* pageviewspervisit
+* orderspervisje
+* averagePageDepent
+* averagetimespentonsite
+* exitlinkinstanties
+* customlinkinstances
+* downloadlinkinstanties
+* darkbezoekers
+* singlepagevisits
+* singlevaluatie
+* bezoekerhomepage
+* bezoekersmcvisus
+* pagesnotfound
+* newengaals
+* time_granularity
+* gelijktijdige_viewers_bezoekers
+* concurrent_viewers_occurrences
+* apparaten
+* schatten
+* playback_time_used_seconds
+* playback_time_used_minutes
+* average_minute_publiek_time_based
+* average_minute_publiek_media_time
+* average_minute_publiek_content_time
+* video_length
+* doelconversie
+* doelgerichtheid
+
 
 ## Adobe Analytics-projecten migreren naar Customer Journey Analytics
 
@@ -214,11 +292,13 @@ Als organisatie moet u bepalen hoe dimensies en metriek worden toegewezen. Als u
 
 Als een migratie mislukt, kunt u de migratie opnieuw proberen.
 
-U kunt een mislukte migratie op een van de volgende manieren opnieuw proberen:
+Voordat u een mislukte migratie opnieuw probeert, moet u ervoor zorgen dat u een [niet-ondersteunde elementen](#understand-unsupported-elements-that-cause-errors) uit het project.
 
 >[!NOTE]
 >
 >Als de migratie na het opnieuw proberen blijft mislukken, neemt u contact op met de klantenservice met de project-id. U kunt projectidentiteitskaart op de de statuspagina van de Migratie vinden. <!-- when does this page display? How can they get there -->
+
+Een mislukte migratie opnieuw proberen:
 
 1. Selecteer in Adobe Analytics de optie [!UICONTROL **Beheerder**] tab, dan selecteren [!UICONTROL **Alle beheerders**].
 
