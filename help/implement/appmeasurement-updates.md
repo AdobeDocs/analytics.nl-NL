@@ -3,9 +3,9 @@ title: AppMeasurement voor JavaScript-releaseopmerkingen
 description: Cumulatieve releaseopmerkingen voor AppMeasurement voor JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2362'
 ht-degree: 2%
 
 ---
@@ -353,8 +353,8 @@ Releasedatum: **18 juni 2015**
 
 Releasedatum: **21 mei 2015**
 
-* Vanaf iOS SDK versie 4.5 kunt u met een nieuwe iOS-extensie gebruiksgegevens verzamelen van uw Apple Watch-apps, hedendaagse widgets, widgets voor fotobewerking en alle andere iOS-extensie-apps. Zie [iOS-extensie-implementatie](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html) in de gebruikershandleiding voor mobiele services.
-* Vanaf Android SDK versie 4.5 kunt u met een nieuwe Android-extensie gegevens verzamelen van uw Android-webtoepassing die kan worden gebruikt. Zie [Android-arabieren](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html) in de gebruikershandleiding voor mobiele services.
+* Vanaf iOS SDK versie 4.5 kunt u met een nieuwe iOS-extensie gebruiksgegevens verzamelen van uw Apple Watch-apps, hedendaagse widgets, widgets voor fotobewerking en alle andere iOS-extensie-apps.
+* Vanaf Android SDK versie 4.5 kunt u met een nieuwe Android-extensie gegevens verzamelen van uw Android-webtoepassing die kan worden gebruikt.
 * Opname van de Bezoeker-API 1.4.
 * Bijgewerkte module van het Beheer van het Publiek om DIL versie 6.0 te gebruiken.
 

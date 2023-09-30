@@ -3,9 +3,9 @@ title: Besturingssysteem
 description: Het besturingssysteem van de bezoeker.
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 24972ec79cb42224a97dda6b073b517b301113ba
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,10 @@ Het &quot;besturingssysteem&quot; [dimensie](overview.md) toont het besturingssy
 
 ## Deze dimensie vullen met gegevens
 
-Deze dimensie verwijst naar een raadplegingstabel intern aan Adobe. De opzoekwaarde is gebaseerd op de `User-Agent` HTTP-header in afbeeldingsaanvragen. Als u een bibliotheek met AppMeasurementen gebruikt (bijvoorbeeld via tags in Adobe Experience Platform), werkt deze dimensie buiten het vak.
+Deze dimensie verwijst naar een raadplegingstabel intern aan Adobe. De opzoekwaarde is gebaseerd op de `User-Agent` HTTP-header in afbeeldingsaanvragen. Adobe partners met [DeviceAtlas](https://deviceatlas.com/) om raadplegingen tussen gebruikersagent en werkend systeem te handhaven.
+
+* Voor de implementaties van AppMeasurementen, werkt deze dimensie uit de doos.
+* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Device Lookup] wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
 
 ## Dimension-items
 

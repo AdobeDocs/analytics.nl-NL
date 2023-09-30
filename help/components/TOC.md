@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components-handleiding
 breadcrumb-title: Components-handleiding
 user-guide-description: Beheer gegevens met behulp van onderdelen als segmenten, berekende metrics, virtuele rapportsuites, marketingkanalen en classificaties. Meer informatie over Cross-Device Analytics.
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
+source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '750'
 ht-degree: 42%
 
 ---
@@ -66,7 +66,8 @@ ht-degree: 42%
    + [Marketingkanaal](dimensions/marketing-channel.md)
    + [Detailgegevens marketingkanaal](dimensions/marketing-detail.md)
    + [Minute](dimensions/minute.md)
-   + [Mobiele afmetingen](dimensions/mobile-dimensions.md)
+   + [Afmetingen van mobiele levenscyclus](dimensions/lifecycle-dimensions.md)
+   + [Afmetingen van mobiele opzoekopdrachten](dimensions/mobile-dimensions.md)
    + [Monitorresolutie](dimensions/monitor-resolution.md)
    + [Maand van jaar](dimensions/month-of-year.md)
    + [Maand](dimensions/month.md)
@@ -99,6 +100,7 @@ ht-degree: 42%
    + [Redenen voor opt-out bijhouden](dimensions/tracking-opt-out-reason.md)
    + [US DMA](dimensions/us-dma.md)
    + [VS-staten](dimensions/us-states.md)
+   + [Spraakafmetingen](dimensions/voice-dimensions.md)
    + [Diepte bezoeken](dimensions/visit-depth.md)
    + [Bezoek nummer](dimensions/visit-number.md)
    + [Week](dimensions/week.md)
@@ -127,6 +129,7 @@ ht-degree: 42%
    + [Gesloten](metrics/exits.md)
    + [Geïdentificeerde personen](metrics/identified-people.md)
    + [Instanties](metrics/instances.md)
+   + [Metingen over mobiele levenscyclus](metrics/lifecycle-metrics.md)
    + [Mobiele weergaven](metrics/mobile-views.md)
    + [Nieuwe contracten](metrics/new-engagements.md)
    + [Voorvallen](metrics/occurrences.md)
@@ -151,6 +154,7 @@ ht-degree: 42%
    + [Unieke apparaten](metrics/unique-devices.md)
    + [Unieke bezoekers](metrics/unique-visitors.md)
    + [Eenheden](metrics/units.md)
+   + [Stemmetriek](metrics/voice-metrics.md)
    + [Bezoekers met Experience Cloud ID](metrics/visitors-with-ecid.md)
    + [Bezoeken](metrics/visits.md)
 + Segmentatie {#segmentation}

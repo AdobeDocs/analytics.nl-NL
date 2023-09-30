@@ -3,9 +3,9 @@ title: Postcode
 description: De postcode van de bezoeker.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,14 @@ De postcode [dimensie](overview.md) de postcode of postcode van de bezoeker. U k
 Deze dimensie is uniek in die zin dat het veelvoudige manieren bevat om het met gegevens te bevolken. U kunt of één, of een combinatie beide gebruiken.
 
 * De postcode rechtstreeks instellen met de `zip` variabele; of
-* Configureer het systeem zodat het kan worden opgehaald uit geosegmentatiegegevens.
+* Configureer het bestand om gegevens uit de geolocatie op te halen.
 
 De [!UICONTROL Zip option] krachtens [Algemene accountinstellingen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) bepaalt hoe u deze dimensie wilt vullen.
 
->[!IMPORTANT]
->
->De instelling van de rapportsuite is van essentieel belang als u volledige controle wilt hebben over de manier waarop u deze dimensie invult.
+Als u een optie kiest die gebruikmaakt van geo zip:
+
+* Voor de implementaties van AppMeasurementen, werkt deze dimensie uit de doos.
+* Voor de implementaties van SDK van het Web, laat toe [!UICONTROL Geo Lookup] wanneer [configureren van een gegevensstroom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
 
 ## Dimension-items
 

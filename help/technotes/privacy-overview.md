@@ -4,9 +4,9 @@ keywords: privacy
 title: Privacyoverzicht
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 9fd055fd747c7124d49e280af1b0acc24d79be8e
+source-git-commit: 266c354cdc17e99d847ce57c1e6261386299a8cf
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '986'
 ht-degree: 1%
 
 ---
@@ -42,9 +42,9 @@ Adobe Analytics kan de volgende gegevenstypen verzamelen:
 | Interne zoektermen | Interne zoekgegevens bevatten trefwoorden die afkomstig zijn van uw website of de zoekmogelijkheden van de app. Adobe verzamelt niet automatisch interne zoekgegevens. U kunt uw implementatie echter aanpassen om deze gegevens te verzamelen. Dit geldt ook voor organisaties die Adobe Analytics gebruiken. | [eVar](../components/dimensions/evar.md) |
 | Computer- en browserspecificaties | De bibliotheken van de gegevensinzameling verzamelen automatisch lage entropiebrowser wenken, zoals het browser type, werkend systeemtype, en als het apparaat Desktop of mobiel is. Aangepaste configuratie is vereist voor het verzamelen van hoge entropiehints, zoals de specifieke versie/build van de browser, het apparaatmodel of de versie van het besturingssysteem. Zie [Overzicht van tips voor klanten](client-hints.md) voor meer informatie . | [Browser](../components/dimensions/browser.md), [Besturingssysteem](../components/dimensions/operating-systems.md), [Mobiele afmetingen](../components/dimensions/mobile-dimensions.md), [Monitorresolutie](../components/dimensions/monitor-resolution.md) |
 | Geolocatie-informatie | Met Adobe kunt u het verzamelen van gegevens over de geolocatie voor elke website of toepassing (op rapportniveau) in- of uitschakelen. Geolocatiegegevensverzameling is standaard ingeschakeld. | [Plaatsen](../components/dimensions/cities.md), [Regio&#39;s](../components/dimensions/regions.md), [Landen](../components/dimensions/countries.md) |
-| IP-adres | De Adobe biedt de capaciteit aan om het laatste octet te verduisteren of volledig het IP van de bezoeker adres te verduisteren wanneer het opslaan van deze gegevens. EMEA-klanten hebben doorgaans het IP-adres dat standaard volledig verduisterd is. Ongeacht obfuscatie het plaatsen, IP is het adres niet beschikbaar als afmeting in Adobe Analytics; het is slechts inbegrepen in [Gegevensfeeds](../export/analytics-data-feed/data-feed-overview.md). | Geen |
+| IP-adres | De Adobe biedt de capaciteit aan om het IP van de bezoeker adres te verduisteren (knoeiboel) of volledig te verwijderen wanneer het opslaan van deze gegevens. EMEA-klanten hebben doorgaans de IP-adresinstelling die standaard verduisterd is. Ongeacht obfuscatie het plaatsen, IP is het adres niet beschikbaar als afmeting in Analysis Workspace; het is slechts inbegrepen in [Gegevensfeeds](../export/analytics-data-feed/data-feed-overview.md). Zie [Algemene accountinstellingen](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in de handleiding Admin voor meer informatie over de beschikbare instellingen voor verwarring. | Geen |
 | Formuliergegevens op uw site | Alle implementatietypen vereisen configuratie om deze gegevens te verzamelen. U kunt deze gegevens opnemen in aangepaste variabelen. | [eVar](../components/dimensions/evar.md) |
-| Op advertenties of koppelingen op uw site klikken | Wordt standaard verzameld met een bibliotheek voor gegevensverzameling. Aanvullende informatie, zoals de locatie van klikken, is beschikbaar wanneer u Activity Map inschakelt. | [Activity Map](../analyze/activity-map/activity-map.md), [Koppeling afsluiten](../components/dimensions/exit-link.md), [Koppeling downloaden](../components/dimensions/download-link.md) |
+| Op advertenties of koppelingen op uw site klikken | Verzameld indien [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) of [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) is ingeschakeld. Aanvullende informatie, zoals de locatie van klikken, is beschikbaar wanneer u Activity Map inschakelt. | [Activity Map](../analyze/activity-map/activity-map.md), [Koppeling afsluiten](../components/dimensions/exit-link.md), [Koppeling downloaden](../components/dimensions/download-link.md) |
 | Producten aangeschaft op uw site | Alle implementatietypen vereisen configuratie om deze gegevens te verzamelen. Adobe biedt verschillende standaardvariabelen om deze informatie te verzamelen. | [Product](../components/dimensions/product.md), [Orders](../components/metrics/orders.md), [Ontvangsten](../components/metrics/revenue.md) |
 
 {style="table-layout:auto"}
@@ -53,4 +53,4 @@ Zie het navigatiemenu onder [Overzicht van Dimensionen](../components/dimensions
 
 ## Gegevensverwerkingslocaties
 
-Adobe onderhoudt drie gegevensverwerkingslocaties voor Adobe Analytics. Deze sites ontvangen onbewerkte gegevens en verwerken deze in een rapportsuite die is geoptimaliseerd voor gegevensopslag en het ophalen van rapporten. Deze gegevensverwerkingslocaties bevinden zich in de Verenigde Staten (Oregon), het Verenigd Koninkrijk (Londen) en Singapore. Zie [Adobe Analytics-beveiligingsoverzicht](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} voor meer informatie .
+Adobe onderhoudt drie gegevensverwerkingslocaties voor Adobe Analytics. Deze sites ontvangen onbewerkte gegevens en verwerken deze in een rapportsuite die is geoptimaliseerd voor gegevensopslag en het ophalen van rapporten. Deze gegevensverwerkingslocaties bevinden zich momenteel in de Verenigde Staten (Oregon), het Verenigd Koninkrijk (Londen) en Singapore. Zie [Adobe Analytics-beveiligingsoverzicht](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} voor meer informatie .
