@@ -6,7 +6,7 @@ uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Het is zichtbaar als optie als deel van de montages van een rapport:
 Huidige gegevens worden standaard ingeschakeld in alle rapporten die deze ondersteunen. Als u liever alle metriek wilt weergeven nadat de gegevens volledig zijn verwerkt, hebt u verschillende opties:
 
 * Gebruik Analysis Workspace, dat volledig verwerkte gegevens gebruikt.
-* Klik op &#39;Nee&#39; in de huidige instelling voor gegevensrapporten als u alleen volledig verwerkte gegevens wilt gebruiken.
+* Klik op Nee in de huidige instelling voor gegevensrapporten als u alleen volledig verwerkte gegevens wilt gebruiken.
 * Verwijder het machtigingsitem &#39;Huidige gegevens&#39; uit een productprofiel in de Admin Console om te voorkomen dat gebruikers die geen beheerder zijn deze optie zien. Zie [Machtigingen voor productprofielen voor Analytics Tools](/help/admin/admin-console/permissions/analytics-tools.md) in de gebruikershandleiding voor Admin voor meer informatie.
 
 Vanwege de prioritering van de beschikbaarheid van gegevens kunnen huidige gegevens momenteel niet worden gebruikt met segmenten, classificaties, indelingen, verf en sommige metriek. Als één van deze eigenschappen wordt gebruikt, worden de huidige gegevens gedwongen aan &quot;Nr&quot;in het rapport en een gele mededeling getoond die verklaart waarom de huidige gegevens niet beschikbaar zijn.

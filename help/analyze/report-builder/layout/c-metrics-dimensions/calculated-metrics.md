@@ -4,7 +4,7 @@ title: Berekende standaarden
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 12%
@@ -13,17 +13,17 @@ ht-degree: 12%
 
 # Berekende standaarden
 
-Report Builder 5.2 steunt Adobe Analytics Verenigde Berekende Metriek. Naast andere innovaties hebben alle berekende standaarden nu een globale id: ze zijn niet meer beperkt tot één rapportsuite.
+Report Builder 5.2 ondersteunt Adobe Analytics verenigde berekende meetgegevens. Naast andere innovaties hebben alle berekende standaarden nu een globale id: ze zijn niet meer beperkt tot één rapportsuite.
 
 >[!NOTE]
 >
->De bestaande werkboeken zouden aan verzoeken met erfenis metrische IDs kunnen richten. Wanneer u Report Builder 5.2 gebruikt, zullen deze oudere metrische IDs in nieuwe globale identiteitskaart worden omgezet. Als u dit werkboek met een gebruiker van Report Builder v5.1 of vroeger deelt, zal die gebruiker niet de berekende metriek kunnen zien.
+>De bestaande werkboeken zouden aan verzoeken met erfenis metrische IDs kunnen richten. Wanneer u Report Builder 5.2 gebruikt, zullen deze erfenis metrische IDs in nieuwe globale identiteitskaart worden omgezet. Als u dit werkboek met een gebruiker van Report Builder v5.1 of vroeger deelt, zal die gebruiker niet de berekende metriek kunnen zien.
 
 Als u meer wilt weten over het maken en beheren van berekende metriek met de nieuwe Berekende Metrische Builder en Manager, raadpleegt u de [Berekende cijfers](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) Hulplijn.
 
 In Stap 2 van de Tovenaar van het Verzoek, kunt u berekende metriek filtreren en toepassen.
 
-## Berekende cijfers filteren {#section_376E986D3E684999A7CDB08E53854159}
+## Berekende maateenheden filteren {#section_376E986D3E684999A7CDB08E53854159}
 
 **Filter** berekende metriek door op het pictogram van de Filter te klikken:  ![Screenshot van de filteropties die de velden Toepassing, Gebruiker en Project weergeven.](/help/admin/admin/assets/filter.png)
 

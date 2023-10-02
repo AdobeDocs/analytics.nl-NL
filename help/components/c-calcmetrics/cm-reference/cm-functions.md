@@ -3,7 +3,7 @@ description: Met de Calculated Metrics Builder kunt u statistische en wiskundige
 title: Referentie van basisfuncties
 feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 1%
@@ -192,7 +192,7 @@ ROUND(metric)
 |---|---|
 | *getal* | De metrische waarde die u wilt afronden. |
 
-Afgerond zonder een cijfers parameter is het zelfde als rond met een cijfers parameter van 0, namelijk rond aan het dichtstbijzijnde geheel. Met een cijferparameter keert het dat vele cijfers rechts van decimaal terug. Als cijfers negatief zijn, keert het 0&#39;s links van decimaal terug.
+Afgerond zonder een cijfers parameter is het zelfde als rond met een cijfers parameter van 0, namelijk rond aan het dichtstbijzijnde geheel. Met een cijferparameter keert het dat vele cijfers rechts van decimaal terug. Als cijfers negatief zijn, keert het 0&#39;s aan de linkerzijde van decimaal terug.
 
 ```
 round( 314.15, 0) = 314
@@ -231,13 +231,13 @@ SQRT(metric)
 
 ## Standaardafwijking (tabel) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
-Retourneert de standaardafwijking of vierkantswortel van de variantie, gebaseerd op een samplepopulatie van gegevens.
+Retourneert de standaardafwijking, of vierkantswortel van de variantie, gebaseerd op een samplepopulatie van gegevens.
 
 De vergelijking voor STDEV is:
 
 ![](assets/std_dev.png)
 
-Wanneer *x* de waarde van elk monster (*metrisch*), *x̄* is de gemiddelde bevolking en *n* is de bevolkingsgrootte.
+Wanneer *x* de waarde van elk monster (*metrisch*), *x̄* is de gemiddelde bevolking en *n* is de omvang van de populatie.
 
 ```
 STDEV(metric)
@@ -255,7 +255,7 @@ De vergelijking voor VARIANCE is:
 
 ![](assets/variance_eq.png)
 
-Wanneer *x* de waarde van elk monster (*metrisch*), *x̄* is de gemiddelde bevolking en *n* is de bevolkingsgrootte.
+Wanneer *x* de waarde van elk monster (*metrisch*), *x̄* is de gemiddelde bevolking en *n* is de omvang van de populatie.
 
 ```
 VARIANCE(metric)
@@ -281,4 +281,4 @@ Als voorbeeld, laten wij zeggen u een drie-puntenkolom hebt:
 
 3
 
-Het gemiddelde van deze kolom is 2. De variantie voor de kolom is ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
+Het gemiddelde van deze kolom is 2. De variantie voor de kolom is (1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.

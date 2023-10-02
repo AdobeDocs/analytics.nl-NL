@@ -1,19 +1,19 @@
 ---
 description: Berekende en Geavanceerde Berekende (of Afgeleide) Metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen.
 keywords: Berekende metriek;Afgeleide Metriek;Geavanceerde Berekende Metriek
-title: Berekende en Geavanceerde berekende (Afgeleide) Metriek
+title: Berekende en geavanceerde berekende (afgeleide) cijfers
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 6%
 
 ---
 
-# Berekende en Geavanceerde berekende (Afgeleide) metriek
+# Berekende en geavanceerde berekende (afgeleide) meetwaarden
 
-Berekende en Geavanceerde berekende (of Afgeleide) metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen.
+Berekende en geavanceerde berekende (of afgeleide) metriek zijn douanemetriek die u van bestaande metriek kunt tot stand brengen.
 
 Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijze metriek bouwen, beheren en beheren. Met deze services kunt u als marketers, productmanagers en analisten vragen stellen over de gegevens zonder dat u uw [!DNL Analytics] uitvoering. De aangepaste maatstaven die beschikbaar zijn in elke [!DNL Analytics] pakket is:
 
@@ -22,9 +22,9 @@ Met onze gereedschappen voor berekende meetwaarden kunt u op zeer flexibele wijz
 * [Adobe Analytics Prime](https://www.adobe.com/nl/data-analytics-cloud/analytics/prime.html): Berekend + Geavanceerd berekend
 * [Adobe Analytics Ultimate](https://www.adobe.com/nl/data-analytics-cloud/analytics/ultimate.html): Berekend + Geavanceerd berekend
 
-Hier is een vergelijking van Berekende metriek en Geavanceerde Berekende metriekmogelijkheden:
+Hier is een vergelijking van berekende metriek en geavanceerde berekende metriekmogelijkheden:
 
-| Builder-opties | Berekende standaarden | Geavanceerde berekende (Afgeleide) metriek |
+| Builder-opties | Berekende standaarden | Geavanceerde berekende (afgeleide) metriek |
 |---|---|---|
 | [Indelingstypen (decimaal, tijd, percentage, valuta)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Ja | Ja |
 | [Wijzigingen in het kenmerk (standaard, lineair, deelname, enz.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Ja | Ja |
@@ -38,15 +38,15 @@ Hier is een vergelijking van Berekende metriek en Geavanceerde Berekende metriek
 
 U kunt
 
-* Metrisch maken over [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], en [!UICONTROL Contribution Analysis].
+* Metrische gegevens maken over [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], en [!UICONTROL Contribution Analysis].
 * Creeer gesegmenteerde metriek die bij rapportruntime worden afgeleid, zonder het moeten de implementatie veranderen. Deze kunnen historisch worden bekeken omdat ze zijn gebaseerd op segmenten.
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
 
 * De metriek van het aandeel over rapportsuites. Dit betekent dat alle pas gecreëerde metriek op alle rapportsuites in het zelfde login bedrijf van toepassing is.
-* (Alleen geavanceerde berekende metriek) Segment op metriek. U kunt bijvoorbeeld een metrische waarde maken voor &quot;Nieuwe bezoekers&quot;, met een aantal personen voor wie dit de eerste sessie is.
+* (Alleen geavanceerde berekende maatstaven) Segment op maateenheden. U kunt bijvoorbeeld een metrische waarde maken voor &quot;Nieuwe bezoekers&quot;, met een aantal personen voor wie dit de eerste sessie is.
 
-* (Alleen geavanceerde berekende gegevens) Neem statistische functies op om uw gegevens beter te kunnen beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
+* (Alleen geavanceerde berekende maatstaven) Neem statistische functies op om uw gegevens beter te kunnen beschrijven. Bijvoorbeeld, kunt u het aantal punten in een rapport tellen of in het aantal standaardafwijkingen voor elk punt toevoegen.
 
   >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
 
@@ -83,11 +83,11 @@ Hier volgt een kort overzicht van het [!UICONTROL Calculated metrics] gereedscha
      <li id="li_C8C97BA4E227463E98077ABA5818FFC6">Voeg segmenten inline toe aan metrische formules. </li> 
      <li id="li_8503D9E06A3C46569B5CDB4B90F72446">Vergelijk segmenten in het zelfde rapport. Vergelijk bijvoorbeeld lokale bezoekers met internationale bezoekers. </li> 
      <li id="li_4B528FDE1F96400DBA0D3276408FF919">Gebruik statistische functies. </li> 
-     <li id="li_C1162B1EA6784B8189A8A87E2B0DA79A">Geef gedetailleerde metrische beschrijvingen op (toon wat het doet, waar het wordt gebruikt, waar het NIET wordt gebruikt). </li> 
+     <li id="li_C1162B1EA6784B8189A8A87E2B0DA79A">Geef gedetailleerde metrische beschrijvingen op (toon wat het doet, waar het moet worden gebruikt, waar NIET). </li> 
      <li id="li_DEA13F5E8BF94AF1B311C467FE6E2A74">Kopieer definities naar nieuwe metriek. </li> 
-     <li id="li_8C21F55015D44910904202D2BF74221C">Een inline metrische voorvertoning weergeven. </li> 
+     <li id="li_8C21F55015D44910904202D2BF74221C">Geef een inline metrische voorvertoning op. </li> 
      <li id="li_3704F66C321C477F9D4F52E068C231BD">Metrische polariteit instellen die aangeeft of het goed of slecht is als een bepaalde aangepaste gebeurtenis (metrisch) wordt verhoogd. </li> 
-     <li id="li_9D45319FA965476FB1C90DE8AA72BBD7">Metrische codes. </li> 
+     <li id="li_9D45319FA965476FB1C90DE8AA72BBD7">Metrische waarden van tags. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Hier volgt een kort overzicht van het [!UICONTROL Calculated metrics] gereedscha
      <li id="li_96EB16FAF3454211AAEF78EA5B08927F">Metriek goedkeuren en krullen. </li> 
      <li id="li_3ADBD2428EAC4B0AA61222D87C3AF2B7">Organiseer uw gegevens (tag) zodat mensen ze kunnen vinden. </li> 
      <li id="li_726F3C3390744E49BA63606FE196880E">Metrische gegevens verwijderen. </li> 
-     <li id="li_F306BA4FA8AF4A6E987BA62634659A2F">Naam metriek wijzigen. </li> 
+     <li id="li_F306BA4FA8AF4A6E987BA62634659A2F">Wijzig de naam van metriek. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -106,7 +106,7 @@ Hier volgt een kort overzicht van het [!UICONTROL Calculated metrics] gereedscha
    <td colname="col2"> <p>Vervangt de <span class="uicontrol"> Metrisch tonen</span> popup in <span class="uicontrol"> Rapporten en analyses</span>. </p> <p>Het laat u naar het rapport zoeken en metriek toevoegen/toepassen. U kunt ook de <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sorteren</a> volgorde (opties zijn: alfabetisch, aanbevolen, vaak gebruikt, onlangs gebruikt.) Bovendien kunt u op de Reeksen van het Rapport filtreren om slechts metriek te tonen die in een specifieke rapportreeks wordt gecreeerd. </p> <p>Klik op het pictogram Metriek voor toegang tot deze metrische kiezer <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> links van een rapport. Zo ziet de metrische kiezer eruit: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API voor berekende cijfers</a> </td> 
+   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API voor Berekende waarden</a> </td> 
    <td colname="col2"> <p>Deel van de Adobe Analytics 2.0 API-set. </p> </td> 
   </tr> 
  </tbody> 
