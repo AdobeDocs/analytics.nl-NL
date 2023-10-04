@@ -3,43 +3,42 @@ title: Opmerkingen bij de release van Adobe Analytics
 description: De huidige Adobe Analytics-releaseopmerkingen weergeven
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: 084a9e9d2794ece4ddbb4296eee107bbdb451813
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 3%
+source-wordcount: '1208'
+ht-degree: 1%
 
 ---
 
-# Huidige Adobe Analytics-releaseopmerkingen (september 2023)
+# Opmerkingen bij de huidige Adobe Analytics-release (oktober 2023)
 
-**Laatste update**: 20 september 2023
+**Laatste update**: 4 oktober 2023
 
-De opmerkingen in de release van september betreffen de releaseperiode van 13 september 2023 tot 3 oktober 2023. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+De opmerkingen in de release van oktober hebben betrekking op de releaseperiode van 4 oktober 2023 tot 24 oktober 2023. Adobe Analytics-releases werken op een [continu leveringsmodel](releases.md) die voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
 ## Nieuwe of verbeterde functies {#features}
 
 | Functie | Beschrijving | [Uitvoeren start](releases.md) | [Algemene beschikbaarheid](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Classificaties in API 2.0** | Biedt Adobe Analytics API 2.0-methoden voor het opslaan, verwijderen, ophalen, importeren en exporteren van indelingssetgegevens. [Meer informatie](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | N.v.t. | 13 september 2023 |
-| **Ondersteuning voor nieuwe `correlationID` veld voor A4T-classificaties** | De `_experience.decisioning.propositions.scopeDetails.correlationID` Het veld is nu beschikbaar in het Adobe Analytics-bronverbindingsschema. We voegen deze id toe voor het eenvoudig samenvoegen van classificatiegegevens voor Adobe Target-activiteiten en ervaringsgebeurtenissen. | N.v.t. | 13 september 2023 |
-| **Verbeteringen voor Data Warehouse** | Wanneer het creëren van een verzoek van de Data Warehouse, kunt u een wolkenrekening nu vormen om als rapportbestemming te gebruiken. De volgende typen cloudaccounts zijn beschikbaar voor het verzenden van gegevens:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-mail (deze optie was voorheen beschikbaar)</li></ul>FTP, SFTP, Azure Blob, en S3 zijn nog beschikbaar als rapportbestemmingen, maar worden niet meer geadviseerd.<p>De gebruikerservaring bij het maken en beheren van verzoeken om Data Warehouse is ook verbeterd. Zie voor meer informatie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md) en [Aanvragen voor Data Warehouse beheren](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html). | 13 september 2023 | 4 oktober 2023 |
 | **Nieuwe kolommen beschikbaar bij het beheren van componenten** | De volgende nieuwe kolommen zijn nu beschikbaar wanneer het beheren van componenten:<ul><li>Gebruikt in<p>Deze kolom is beschikbaar in het dialoogvenster [Het berekende manager van metriek](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) en de [Segmentbeheer](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Laatst gebruikt<p>Deze kolom is beschikbaar in het dialoogvenster [Het berekende manager van metriek](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)de [Segmentbeheer](/help/components/segmentation/segmentation-workflow/seg-manage.md)en de [Waarschuwingenbeheer](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>Deze informatie kan u helpen bepalen of een component voor gebruikers in uw organisatie waardevol is, waar het wordt gebruikt, en of het moet worden geschrapt of worden gewijzigd. U kunt het gegevenswoordenboek samen met deze informatie gebruiken om u te helpen bij het volgen van en beter begrijpen hoe de componenten in uw organisatie worden gebruikt.</p> | 20 september 2023 | 4 oktober 2023 |
+| **Verbeteringen voor Activity Manager rapporteren** | De manager van de Activiteit van de Rapportering laat u de rapporteringscapaciteit voor elke rapportreeks in uw organisatie zien.  Het biedt beheerders gedetailleerde zichtbaarheid bij het melden van het verbruik om capaciteitsproblemen tijdens piekrapportagetijden eenvoudig te kunnen vaststellen en verhelpen. Hieronder vindt u een aantal verbeteringen die nu beschikbaar zijn in Rapportagentenbeheer: <ul><li>Verdere verzoeken beperken: naast het annuleren van huidige aanvragen kunnen beheerders nu verzoeken voor een bepaalde periode beperken. De beheerders kunnen verzoeken door Verzoek, Project, en Gebruiker beperken.</li><li>Naast de metriek van het Gebruik en van de Capaciteit, omvat de Manager van de Activiteit van de Rapportering nu meer gegevens over het melden van activiteit: de kolom van de Complexiteit, de kolom van de Gebruiker, en de kolom van de Verbinding.</li><li>Alle annuleringen en beperkingen die in de manager van de Activiteit van de Rapportering worden aangebracht zijn nu zichtbaar in het Logboek van de Controle. Beheerders kunnen het auditlogboek gebruiken om te bekijken wat momenteel is geannuleerd. Annuleringen kunnen niet worden teruggedraaid in de Manager van de Activiteit van de Rapportering of in het Logboek van de Controle.</li></ul>Meer informatie (binnenkort beschikbaar) | 17 oktober 2023 | 23 oktober 2023 |
+| **Verbeteringen voor Data Warehouse** | Wanneer het creëren van een verzoek van de Data Warehouse, kunt u een wolkenrekening nu vormen om als rapportbestemming te gebruiken. De volgende typen cloudaccounts zijn beschikbaar voor het verzenden van gegevens:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E-mail (deze optie was voorheen beschikbaar)</li></ul>FTP, SFTP, Azure Blob, en S3 zijn nog beschikbaar als rapportbestemmingen, maar worden niet meer geadviseerd.<p>De gebruikerservaring bij het maken en beheren van verzoeken om Data Warehouse is ook verbeterd. Zie voor meer informatie [Een Data Warehouse-aanvraag maken](/help/export/data-warehouse/create-request/t-dw-create-request.md) en [Aanvragen voor Data Warehouse beheren](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html). | 12 september 2023 | 25 oktober 2023 |
+| **Adobe Analytics-projecten en alle inbegrepen onderdelen migreren naar Customer Journey Analytics** | U kunt nu uw Adobe Analytics-projecten migreren naar Customer Journey Analytics. Dit proces vereenvoudigt de overgang van Adobe Analytics naar Customer Journey Analytics. Wanneer u projecten naar Customer Journey Analytics migreert, worden de activa in kaart gebracht van een het rapportreeks van Adobe Analytics aan een de gegevensmening van de Customer Journey Analytics. [Meer informatie](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html) | N.v.t. | 4 oktober 2023 |
 
 {style="table-layout:auto"}
 
 ## Oplossingen in Adobe Analytics
 
-* Probleem verholpen waardoor classificatiegegevens niet konden worden weergegeven in Workspace. (AN-326827)
+* Problemen verholpen waarbij A4T-rapporten niet werden weergegeven in de interface Doel/Analyse. (AN-329375, AN-329745, AN-330026)
 
-## Andere oplossingen
-
-AN-314882; AN-315591; AN-318165; AN-318559; AN-319031; AN-319244; AN-321657; AN 321759; AN-323099; AN-323596; AN-323640; AN-324442; AN-324921; AN-324953; AN-3 24977; AN-324979; AN-325124; AN-325395; AN-325433; AN-325535; AN-325693; AN-32 5720; AN-325835; AN-325880; AN-325957; AN-325984; AN-326054; AN-326065; AN-326 136; AN-326155; AN-326162; AN-326235; AN-326317; AN-326344; AN-32637; AN-3263 59; AN-326433; AN-326438; AN-326440; AN-326461; AN-326464; AN-326523; AN-3265 3; AN-326606; AN-326635; AN-326642; AN-326652; AN-326678; AN-326769; AN-32677; AN-326830; AN-326938; AN-326949; AN-327081; AN-327082; AN-327085; AN-327103; AN 327198; AN-327225; AN-327275; AN-327358; AN-327423; AN-327561; AN-327755; AN-3 27896; AN-327922; AN-328128; AN-328300; AN-328428; AN-328518; AN-32854
+AN-313983; AN-324189; AN-325095; AN-325677; AN-325886; AN-326068; AN-326360; AN 326458; AN-327290; AN-327315; AN-327353; AN-327505; AN-327589; AN-327609; AN-3 27922; AN-328110; AN-328222; AN-328261; AN-328496; AN-328577; AN-328629; AN-32 8736; AN-328888; AN-328899; AN-328902; AN-328921; AN-328958; AN-329208; AN-329 329336; AN-329357; AN-329335; AN-329336; AN-329357; AN-329385; AN-3293 329501; AN-329504; AN-329505; AN-329504; AN-329505; AN-329515; AN-32952 4; AN-329526; AN-329534; AN-329539; AN-329541; AN-329543; AN-329545; AN-32956; AN-329570; AN-329623; AN-329624; AN-329636; AN-329646; AN-329647; AN-32968; AN 329701; AN-329737; AN-329741; AN-329751; AN-329812; AN-329813; AN-329821; AN-3 29824; AN-329833; AN-329848; AN-329852; AN-329861; AN-329863; AN-329874 9882; AN-329911; AN-329917; AN-329942; AN-329954; AN-329968; AN-329971; AN-329 982; AN-330044; AN-330052; AN-330131; AN-330132; AN-330230; AN-330352; AN-3303 330541; AN-330599
 
 ## Belangrijke kennisgevingen voor Adobe Analytics-beheerders {#admin}
 
 | Bericht | Toegevoegd of bijgewerkt op | Beschrijving |
 | ----------- | ---------- | ---------- |
-| N.v.t. | N.v.t. | N.v.t. |
+| **Volledige IP obfuscatie voor de Invloed van de Rand van de Ervaring van de Adobe** | 27 september 2023 | IP-verduistering voor hits van Experience Edge wordt later in oktober 2023 bijgewerkt. In april, voegde de Rand van de Ervaring de capaciteit toe om IP adressen te verduisteren. Op dat ogenblik, steunde Adobe Analytics slechts gedeeltelijke obfuscatie van IPs, wegens de manier de processen van de Analyse van de Ervaring Edge. Wanneer klanten volledige verwarring kozen voor Experience Edge, ontvingen Analytics slechts gedeeltelijk verduisterde IP&#39;s. Wanneer deze verandering wordt uitgevoerd, zal Analytics volledig verduisterde IP ontvangen. |
+| **Adobe Analytics LiveStream - API&#39;s voor Analytics 2.0** | 27 september 2023 | Klanten hebben nu toegang tot de [Eindpuntgids voor Adobe Analytics Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/) onder de Adobe Analytics 2.0 API&#39;s in plaats daarvan op de vorige locatie, met de 1.4 API&#39;s. Merk op dat de klanten die de geloofsbrieven van Adobe I/O JWT gebruiken aan Adobe I/O server-aan-Server geloofsbrieven tegen 1 Januari, 2025 moeten migreren. (Zie de gegevens onder EOL-berichten hieronder.) |
 
 {style="table-layout:auto"}
 
@@ -56,7 +55,7 @@ AN-314882; AN-315591; AN-318165; AN-318559; AN-319031; AN-319244; AN-321657; AN 
 
 ## AppMeasurement
 
-Voor de meest recente updates over releases van AppMeasurementen (versie 2.24.0) raadpleegt u [AppMeasurement voor JavaScript-releaseopmerkingen](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
+Voor de meest recente updates over releases van AppMeasurementen (versie 2.25.0) raadpleegt u [AppMeasurement voor JavaScript-releaseopmerkingen](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
 
 
 ## Gerelateerde bronnen
